@@ -25,10 +25,10 @@ Che tu debba manipolare, creare, convertire o generare documenti Word, i tutoria
 | Titolo | Descrizione |
 | --- | --- |
 | [Rimuovi interruzioni di pagina nel documento Word](./remove-page-breaks/) | Scopri come rimuovere le interruzioni di pagina in un documento Word utilizzando Aspose.Words per .NET con la nostra guida passo passo. Migliora le tue capacità di manipolazione dei documenti. |
-| [Rimuovi interruzioni di sezione nel documento Word](./remove-section-breaks/) | Scopri come rimuovere le interruzioni di sezione nei documenti Word utilizzando Aspose.Words per .NET. Questa guida dettagliata e passo passo garantisce una gestione e una modifica fluide dei documenti.
-| [Rimuovere i piè di pagina nel documento Word](./remove-footers/) Scopri come rimuovere i piè di pagina dai documenti Word utilizzando Aspose.Words per .NET con questa guida completa passo dopo passo.
+| [Rimuovi interruzioni di sezione nel documento Word](./remove-section-breaks/) | Scopri come rimuovere le interruzioni di sezione nei documenti Word utilizzando Aspose.Words per .NET. Questa guida dettagliata e passo passo garantisce una gestione e una modifica fluide dei documenti. |
+| [Rimuovere i piè di pagina nel documento Word](./remove-footers/) Scopri come rimuovere i piè di pagina dai documenti Word utilizzando Aspose.Words per .NET con questa guida completa passo dopo passo. |
 | [Rimuovi il sommario nel documento Word](./remove-table-of-contents/) | Scopri come rimuovere il sommario da un documento Word utilizzando Aspose.Words per .NET. |
-
+| [Come chiamare LLM in C# – Guida completa con modello locale](./how-to-call-llm-in-c-complete-guide-with-local-model/) | Scopri come integrare un modello LLM locale in C# con esempi passo passo e consigli pratici. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

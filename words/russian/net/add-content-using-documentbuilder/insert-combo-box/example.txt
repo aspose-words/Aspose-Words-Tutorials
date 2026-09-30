@@ -1,0 +1,24 @@
+//ExStart
+//ExSummary: Этот учебник показывает, как создать документ Word, добавить поле формы‑комбо‑бокс с предопределёнными элементами с помощью DocumentBuilder и сохранить документ.
+//ExStepSummary:0: Укажите путь к папке, в которой будет сохранён полученный документ.
+//ExStepSummary:1: Создайте массив строк, который будет заполнять варианты комбо‑бокса.
+//ExStepSummary:2: Создайте новый объект Document и связанный с ним DocumentBuilder.
+//ExStepSummary:3: Вызовите `builder.InsertComboBox`, чтобы разместить комбо‑бокс с именем "DropDown" и заданными элементами в текущей позиции курсора.
+//ExStepSummary:4: Сохраните документ в указанную директорию как файл .docx.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+string[] items = { "One", "Two", "Three" };
+
+//ExStep:2-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertComboBox("DropDown", items, 0);
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertComboBoxFormField.docx");
+//ExEnd

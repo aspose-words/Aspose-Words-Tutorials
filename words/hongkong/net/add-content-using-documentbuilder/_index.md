@@ -19,6 +19,13 @@
 使用 DocumentBuilder 新增內容是一個全面的資源，它將引導您完成使用 .NET 的 Aspose.Words 庫中的 DocumentBuilder 類別向 Word 文件添加內容的過程。逐步教學為您提供逐步說明、全面的程式碼範例以及有關建立段落、插入文字、格式化文字、新增圖像、表格等的逐步說明。而且。對於想要使用 Aspose.Words for .NET 自動產生 Word 文件並輕鬆添加自訂內容以滿足其特定需求的開發人員來說，此資源至關重要。
 
  ## 教學
+
+{{< tutorial-card link="./insert-horizontal-rule-shape/" title="使用 Aspose.Words for .NET 在 Word 文件中插入水平線形狀。" imgSrc="./insert-horizontal-rule-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-aligned-html/" title="使用 Aspose.Words for .NET 在 Word 文件中插入對齊的 HTML" imgSrc="./insert-aligned-html/images/thumb.png" >}}
+
+
+
 |標題 |描述 |
 | --- | --- |
 | [建立新的 Word 文檔](./create-new-document/) |了解如何使用 Aspose.Words for .NET 建立 Word 文件。本逐步指南將引導您完成整個過程，使文件自動化變得簡單。 |

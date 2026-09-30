@@ -1,0 +1,7 @@
+Title: How to set shape hidden property in Aspose.Words for C#
+Slug: how-to-set-shape-hidden-property-in-aspose-words-for-c
+Category: images-shapes
+ProcessedDate: 2026-08-20T22:53:12.306905
+SourceRepo: AI Search API
+Keywords: set shape hidden property
+PRNumber: 259

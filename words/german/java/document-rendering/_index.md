@@ -39,6 +39,8 @@ Erfahren Sie, wie Sie Ihre Dokumente mit Aspose.Words für Java mit Formen und G
 Entdecken Sie effizientes Drucken und Rendern von Dokumenten mit Aspose.Words für Java. Lernen Sie Schritt für Schritt mit Quellcodebeispielen.
 ### [Rendern von Dokumenten in HTML](./rendering-documents-html/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java mühelos Dokumente in HTML rendern. Schritt-für-Schritt-Anleitung zur effizienten Dokumentkonvertierung.
+### [Umgang mit Schriftarten in Java mit Aspose.Words – Komplettanleitung](./how-to-handle-fonts-in-java-with-aspose-words-complete-guide/)
+Erfahren Sie, wie Sie Schriftarten in Java mit Aspose.Words verwalten, einbetten und rendern – umfassende Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

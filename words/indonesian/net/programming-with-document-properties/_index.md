@@ -32,6 +32,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Mengonfigurasi Tautan ke Konten](./configuring-link-to-content/) | Pelajari cara mengonfigurasi tautan ke konten dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah terperinci kami. Bahasa Indonesia:
 | [Konversi Antar Satuan Pengukuran](./convert-between-measurement-units/) | Pelajari cara mengonversi satuan ukuran di Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk mengatur margin, header, dan footer dokumen dalam inci dan poin. Bahasa Indonesia:
 | [Gunakan Karakter Kontrol](./use-control-characters/) | Temukan cara mengotomatiskan tugas dokumen Word menggunakan Aspose.Words untuk .NET. Panduan ini mencakup pengaturan, penggantian teks, dan banyak lagi, yang membuat alur kerja Anda efisien. |
+| [Cara Menghitung Halaman dalam Dokumen Word – Recover & Count](./how-to-count-pages-in-a-word-document-recover-count/) | Pelajari cara menghitung jumlah halaman dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh praktis Recover & Count. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

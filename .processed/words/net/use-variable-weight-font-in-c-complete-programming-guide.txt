@@ -1,0 +1,7 @@
+Title: Use Variable Weight Font in C# – Complete Programming Guide
+Slug: use-variable-weight-font-in-c-complete-programming-guide
+Category: enable-opentype-features
+ProcessedDate: 2026-06-02T12:33:47.622931
+SourceRepo: AI Search API
+Keywords: use variable weight font, set font weight programmatically, change font stretch code
+PRNumber: 197

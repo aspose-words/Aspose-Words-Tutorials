@@ -1,47 +1,67 @@
 ---
-date: 2025-12-18
-description: Aprenda como adicionar marca d'água a documentos com Aspose.Words for
-  Java, incluindo exemplo de marca d'água de imagem, alterar a cor da marca d'água,
-  definir a transparência da marca d'água e remover a marca d'água do documento.
+date: 2026-02-19
+description: Aprenda a criar um documento com marca d'água usando Aspose.Words para
+  Java e a adicionar marca d'água de imagem em Java para documentos com aparência
+  profissional.
 linktitle: Using Watermarks to Documents
 second_title: Aspose.Words Java Document Processing API
-title: Como adicionar marca d'água a documentos usando Aspose.Words para Java
+title: Criar documento com marca d'água usando Aspose.Words para Java
 url: /pt/java/document-conversion-and-export/using-watermarks-to-documents/
 weight: 15
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ With:** Aspose.Words for Java 24.12 (latest) -> "**Testado com:** Aspose.Words for Java 24.12 (latest)"
+
+**Author:** Aspose -> "**Autor:** Aspose"
+
+Make sure markdown bold formatting preserved.
+
+Now produce final content with all sections.
+
+Check we didn't translate any code blocks placeholders.
+
+Make sure we keep shortcodes at start and end.
+
+Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Como Adicionar Marca d'Água a Documentos Usando Aspose.Words para Java
+# Criar documento com marca d'água usando Aspose.Words for Java
 
-## Introdução à Adição de Marcas d'Água a Documentos no Aspose.Words para Java
+Neste tutorial você **criará documento com marca d'água** usando a API Aspose.Words for Java. Marcas d'água—sejam texto ou imagens—ajudam a rotular um arquivo como confidencial, rascunho ou aprovado, e podem ser aplicadas programaticamente a qualquer documento Word. Vamos percorrer a configuração da biblioteca, a adição de marcas d'água de texto e de imagem, a personalização de sua aparência e até a remoção delas quando não forem mais necessárias.
 
-Neste tutorial você aprenderá **como adicionar marca d'água** a documentos Word com Aspose.Words para Java. Marcas d'água são uma maneira rápida de rotular um arquivo como confidencial, rascunho ou aprovado, e podem ser baseadas em texto ou em imagem. Vamos percorrer a configuração da biblioteca, a criação de marcas d'água de texto e de imagem, a personalização de sua aparência (incluindo alteração da cor da marca d'água e definição da transparência da marca d'água), e até a remoção de uma marca d'água do documento quando não for mais necessária.
+## Respostas rápidas
+- **O que uma marca d'água faz?** Ela sobrepõe texto ou uma imagem em cada página para transmitir status ou branding.  
+- **Qual biblioteca adiciona marcas d'água em Java?** Aspose.Words for Java fornece suporte integrado a marcas d'água.  
+- **Posso adicionar uma marca d'água de imagem?** Sim—use a classe `Shape` e a abordagem `add image watermark java`.  
+- **A marca d'água é semitransparente?** Você pode controlar a opacidade via `setSemitransparent` para marcas d'água de texto.  
+- **Preciso de licença?** Um teste gratuito funciona para testes; uma licença comercial é necessária para produção.
 
-## Respostas Rápidas
-- **O que é uma marca d'água?** Uma sobreposição semitransparente (texto ou imagem) que aparece atrás do conteúdo principal do documento.  
-- **Posso adicionar várias marcas d'água?** Sim – crie vários objetos `Shape` e adicione cada um às seções desejadas.  
-- **Como altero a cor da marca d'água?** Ajuste a propriedade `Color` em `TextWatermarkOptions`.  
-- **Existe um exemplo de marca d'água de imagem?** Veja a seção “Adicionando Marcas d'Água de Imagem” abaixo.  
-- **Preciso de licença para remover uma marca d'água?** É necessária uma licença válida do Aspose.Words para uso em produção.
+## O que é uma marca d'água e por que usá‑la?
 
-## Configurando Aspose.Words para Java
+Uma marca d'água é uma sobreposição sutil—textual ou gráfica—adicionada a cada página de um documento. É comumente usada para indicar **confidencialidade**, **status de rascunho** ou **branding** sem alterar o conteúdo subjacente. Adicionar marcas d'água programaticamente garante consistência em grandes lotes de arquivos e economiza tempo comparado à edição manual.
 
-Antes de começarmos a adicionar marcas d'água aos documentos, precisamos configurar o Aspose.Words para Java. Siga estas etapas para começar:
+## Configurando Aspose.Words for Java
 
-1. Baixe o Aspose.Words para Java em [aqui](https://releases.aspose.com/words/java/).  
-2. Adicione a biblioteca Aspose.Words para Java ao seu projeto Java.  
-3. Importe as classes necessárias no seu código Java.
+Antes de começar a adicionar marcas d'água, certifique‑se de que a biblioteca está pronta no seu projeto:
 
-Agora que temos a biblioteca configurada, vamos mergulhar na criação real da marca d'água.
+1. Baixe Aspose.Words for Java de [aqui](https://releases.aspose.com/words/java/).  
+2. Adicione o JAR baixado (ou a dependência Maven/Gradle) ao classpath do seu projeto.  
+3. Importe as classes necessárias no seu arquivo fonte Java:
 
-## Adicionando Marcas d'Água de Texto
+```java
+import com.aspose.words.*;
+import java.awt.Color;
+import java.nio.file.*;
+```
 
-Marcas d'água de texto são uma escolha comum quando você deseja adicionar informações textuais aos seus documentos. Veja como você pode adicionar uma marca d'água de texto usando Aspose.Words para Java:
+Agora que a biblioteca está configurada, vamos mergulhar no código real da marca d'água.
+
+## Como adicionar uma marca d'água de texto
+
+Marcas d'água de texto são ideais para rotular um documento como “CONFIDENTIAL” ou “DRAFT”. O trecho a seguir mostra uma forma limpa de **criar documento com marca d'água** usando `TextWatermarkOptions`.
 
 ```java
 // Create a Document instance
@@ -62,11 +82,15 @@ doc.getWatermark().setText("Test", options);
 doc.save("DocumentWithWatermark.docx");
 ```
 
-**Por que isso importa:** Ajustando `setFontFamily`, `setFontSize` e `setColor` você pode **alterar a cor da marca d'água** para combinar com a identidade da sua marca, e `setSemitransparent(true)` permite que você **defina a transparência da marca d'água** para um efeito sutil.
+### Personalizando a marca d'água de texto
+- **Família e tamanho da fonte** – altere `setFontFamily` e `setFontSize`.  
+- **Cor** – use qualquer `java.awt.Color`.  
+- **Layout** – escolha `HORIZONTAL`, `DIAGONAL`, etc.  
+- **Transparência** – ative `setSemitransparent(true)` para um aspecto mais claro.
 
-## Adicionando Marcas d'Água de Imagem
+## Como adicionar uma marca d'água de imagem (add image watermark java)
 
-Além das marcas d'água de texto, você também pode adicionar marcas d'água de imagem aos seus documentos. Abaixo está um **exemplo de marca d'água de imagem** que demonstra como incorporar um logotipo ou selo PNG:
+Marcas d'água de imagem são perfeitas para logotipos ou gráficos personalizados. Abaixo está o exemplo **add image watermark java** que insere um PNG no centro de cada página.
 
 ```java
 // Create a Document instance
@@ -90,15 +114,14 @@ doc.getFirstSection().getBody().getFirstParagraph().appendChild(watermark);
 doc.save("DocumentWithImageWatermark.docx");
 ```
 
-Você pode repetir este bloco com diferentes imagens ou posições para **adicionar várias marcas d'água** a um único arquivo.
+### Dicas para marcas d'água de imagem
+- **Redimensionar** usando `setWidth` / `setHeight` para ajustar à página.  
+- **Posição** pode ser centralizada ou alinhada a qualquer margem usando `RelativeHorizontalPosition` / `RelativeVerticalPosition`.  
+- **Transparência** pode ser aplicada ajustando o canal alfa da imagem antes de carregá‑la.
 
-## Personalizando Marcas d'Água
+## Como remover marcas d'água
 
-Você pode personalizar marcas d'água ajustando sua aparência e posição. Para marcas d'água de texto, você pode alterar a fonte, tamanho, cor e layout. Para marcas d'água de imagem, você pode modificar o tamanho, rotação e alinhamento conforme demonstrado nos exemplos anteriores.
-
-## Removendo Marcas d'Água
-
-Se precisar **remover o conteúdo da marca d'água** do documento, o código a seguir percorre todas as formas e exclui aquelas identificadas como marcas d'água:
+Quando um documento não precisa mais de uma marca d'água, você pode excluí‑la programaticamente. O código abaixo itera por todas as formas e remove quaisquer que contenham “Watermark” no nome.
 
 ```java
 // Create a Document instance
@@ -117,44 +140,29 @@ for (Shape shape : doc.getShapes())
 doc.save("DocumentWithoutWatermark.docx");
 ```
 
-## Casos de Uso Comuns & Dicas
+## Armadilhas comuns e solução de problemas
 
-- **Rascunhos confidenciais:** Aplique uma marca d'água de texto semitransparente como “CONFIDENTIAL”.  
-- **Branding:** Use uma marca d'água de imagem que contenha o logotipo da sua empresa.  
-- **Marcas d'água específicas por seção:** Percorra `doc.getSections()` e adicione uma marca d'água apenas nas seções que você escolher.  
-- **Dica de desempenho:** Reutilize a mesma instância de `TextWatermarkOptions` ao aplicar a mesma marca d'água em vários documentos.
+- **Marca d'água ausente após salvar** – garanta que você chame `doc.save()` após definir a marca d'água.  
+- **Imagem não aparece** – verifique se o caminho da imagem está correto e se o arquivo está em um formato suportado (PNG, JPEG, BMP).  
+- **Transparência não aplicada** – `setSemitransparent(true)` funciona apenas para marcas d'água de texto; para imagens, edite o canal alfa do PNG.  
+- **Múltiplas seções** – se seu documento tem várias seções, adicione a marca d'água ao corpo de cada seção ou use `doc.getWatermark().setText(...)` que aplica globalmente.
 
 ## Perguntas Frequentes
 
-### Como posso mudar a fonte de uma marca d'água de texto?
+**Q: Como posso mudar a fonte de uma marca d'água de texto?**  
+A: Modifique a propriedade `setFontFamily` em `TextWatermarkOptions`, por exemplo, `options.setFontFamily("Times New Roman");`.
 
-Para mudar a fonte de uma marca d'água de texto, modifique a propriedade `setFontFamily` em `TextWatermarkOptions`. Por exemplo:
+**Q: Posso adicionar múltiplas marcas d'água a um único documento?**  
+A: Sim. Crie múltiplos objetos `Shape` (para imagens) ou chame `doc.getWatermark().setText(...)` com opções diferentes para cada marca d'água.
 
-```java
-options.setFontFamily("Times New Roman");
-```
+**Q: É possível girar uma marca d'água?**  
+A: Para marcas d'água de imagem, defina a rotação no objeto `Shape` com `watermark.setRotation(angle)`. Para marcas d'água de texto, use a propriedade `setLayout` (por exemplo, `WatermarkLayout.DIAGONAL`).
 
-### Posso adicionar várias marcas d'água a um único documento?
+**Q: Como posso tornar uma marca d'água semitransparente?**  
+A: Defina `options.setSemitransparent(true)` em `TextWatermarkOptions`. Para imagens, ajuste a opacidade da imagem antes de carregá‑la.
 
-Sim, você pode adicionar várias marcas d'água a um documento criando múltiplos objetos `Shape` com configurações diferentes e adicionando-os ao documento.
-
-### É possível girar uma marca d'água?
-
-Sim, você pode girar uma marca d'água definindo a propriedade `setRotation` no objeto `Shape`. Valores positivos giram a marca d'água no sentido horário, e valores negativos giram no sentido anti‑horário.
-
-### Como posso tornar uma marca d'água semitransparente?
-
-Para tornar uma marca d'água semitransparente, defina a propriedade `setSemitransparent` como `true` em `TextWatermarkOptions`.
-
-### Posso adicionar marcas d'água a seções específicas de um documento?
-
-Sim, você pode adicionar marcas d'água a seções específicas de um documento percorrendo as seções e adicionando a marca d'água às seções desejadas.
-
----
-
-**Última Atualização:** 2025-12-18  
-**Testado com:** Aspose.Words for Java 24.12  
-**Autor:** Aspose  
+**Q: Posso adicionar marcas d'água a seções específicas de um documento?**  
+A: Sim. Itere através de `doc.getSections()` e adicione a marca d'água apenas nas seções desejadas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -163,3 +171,9 @@ Sim, você pode adicionar marcas d'água a seções específicas de um documento
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Última atualização:** 2026-02-19  
+**Testado com:** Aspose.Words for Java 24.12 (latest)  
+**Autor:** Aspose

@@ -1,0 +1,7 @@
+Title: Recover Corrupted Word Document using Aspose.Words C#
+Slug: recover-corrupted-word-document-using-aspose-words-c
+Category: programming-with-loadoptions
+ProcessedDate: 2026-07-03T22:28:37.333215
+SourceRepo: AI Search API
+Keywords: recover corrupted word document
+PRNumber: 219

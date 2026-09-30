@@ -1,0 +1,7 @@
+Title: Create docx ActiveX button in Java – complete programming guide
+Slug: create-docx-activex-button-in-java-complete-programming-guid
+Category: document-manipulation
+ProcessedDate: 2026-08-14T11:14:19.813191
+SourceRepo: AI Search API
+Keywords: create docx activex button, add form button word
+PRNumber: 252

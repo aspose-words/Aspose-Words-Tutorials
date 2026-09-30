@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary: Med Aspose.Words Document och DocumentBuilder sätter den här handledningen in HTML-markup i ett Word-dokument och sparar resultatet.
+//ExStepSummary:0: Definiera utdatamappen, skapa ett nytt Document och initiera en DocumentBuilder för det dokumentet.
+//ExStepSummary:1: Anropa `builder.InsertHtml()` för att lägga till ett högerjusterat stycke, fet text, en centrerad div och en vänsterjusterad rubrik i dokumentet.
+//ExStepSummary:2: Spara det modifierade dokumentet till den angivna mappen som en .docx-fil.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

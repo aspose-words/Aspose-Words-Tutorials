@@ -1,0 +1,7 @@
+Title: Save Markdown as DOCX with Aspose.Words – Java Guide
+Slug: save-markdown-as-docx-with-aspose-words-java-guide
+Category: document-converting
+ProcessedDate: 2026-07-17T03:10:28.090848
+SourceRepo: AI Search API
+Keywords: save markdown as docx, convert markdown to docx, how to load markdown, markdown to docx java, preserve markdown formatting
+PRNumber: 226

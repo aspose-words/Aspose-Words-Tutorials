@@ -20,6 +20,12 @@
 
 
  ## Учебники
+
+{{< tutorial-card link="./insert-header-date/" title="Вставка динамической даты в заголовок Word‑документа с помощью Aspose.Words for .NET" imgSrc="./insert-header-date/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-page-numbers/" title="Добавьте номера страниц в нижний колонтитул документа Word с помощью Aspose.Words for .NET" imgSrc="./add-page-numbers/images/thumb.png" >}}
+
+
 | Название | Описание |
 | --- | --- |
 | [Создать верхний колонтитул](./create-header-footer/) | Узнайте, как создавать верхние и нижние колонтитулы в документах Word с помощью Aspose.Words для .NET. Настройте верхние и нижние колонтитулы для каждой страницы. |

@@ -1,0 +1,7 @@
+Title: How to create a blank Word document and group shapes in Java
+Slug: how-to-create-a-blank-word-document-and-group-shapes-in-java
+Category: images-shapes
+ProcessedDate: 2026-09-24T19:08:08.700711
+SourceRepo: AI Search API
+Keywords: create blank word document, how to group shapes, add rectangle shape, group shapes in word, set shape size
+PRNumber: 287

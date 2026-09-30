@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: Pomocí Aspose.Words Document a DocumentBuilder tento tutoriál přidává automaticky aktualizující čísla stránek do primárního zápatí Word dokumentu.
+//ExStepSummary:0: Vytvořte nový objekt Document a DocumentBuilder k němu přiřazený.
+//ExStepSummary:1: Přesuňte kurzor builderu do primárního zápatí první sekce.
+//ExStepSummary:2: Nastavte zarovnání odstavce na střed, aby byl text v zápatí vycentrován.
+//ExStepSummary:3: Napište popisek "Page " a vložte pole PAGE, které zobrazuje aktuální číslo stránky.
+//ExStepSummary:4: Napište " of " a vložte pole NUMPAGES, které ukazuje celkový počet stránek.
+//ExStepSummary:5: Uložte dokument do souboru .docx.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+
+//ExStep:2-
+builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
+
+//ExStep:3-
+builder.Write("Page ");
+builder.InsertField("PAGE", null);
+
+//ExStep:4-
+builder.Write(" of ");
+builder.InsertField("NUMPAGES", null);
+
+//ExStep:5-
+doc.Save("PageNumbers.docx");
+//ExEnd

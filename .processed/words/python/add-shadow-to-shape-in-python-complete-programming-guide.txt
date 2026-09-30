@@ -1,0 +1,7 @@
+Title: Add Shadow to Shape in Python – Complete Programming Guide
+Slug: add-shadow-to-shape-in-python-complete-programming-guide
+Category: images-shapes
+ProcessedDate: 2026-07-03T23:52:04.442200
+SourceRepo: AI Search API
+Keywords: add shadow to shape, apply shadow to rectangle, how to add shape shadow, insert shape with shadow
+PRNumber: 221

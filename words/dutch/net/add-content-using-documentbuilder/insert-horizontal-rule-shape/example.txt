@@ -1,0 +1,21 @@
+//ExStart
+//ExSummary: Deze tutorial laat zien hoe je een Word-document maakt, een alinea tekst toevoegt en een horizontale regelvorm invoegt met Document en DocumentBuilder.
+//ExStepSummary:0: Doe een nieuw leeg Word-document aan door de Document-klasse te instantieren.
+//ExStepSummary:1: Maak een DocumentBuilder die aan het document is gekoppeld om bewerkingsbewerkingen mogelijk te maken.
+//ExStepSummary:2: Schrijf een alinea tekst en voeg vervolgens een horizontale regelvorm in op de cursorpositie met DocumentBuilder.
+//ExStepSummary:3: Definieer het pad van de uitvoermap en sla het document op als een .docx‑bestand.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document doc = new Document();
+
+//ExStep:1-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

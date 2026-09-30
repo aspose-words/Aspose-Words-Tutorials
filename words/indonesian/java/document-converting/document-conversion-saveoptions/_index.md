@@ -1,14 +1,16 @@
 ---
-date: 2025-12-18
-description: Konversi DOCX ke EPUB secara efisien menggunakan Aspose.Words untuk Java.
-  Pelajari cara menyesuaikan opsi penyimpanan, memisahkan konten, dan mengekspor properti
-  dokumen dalam panduan langkah demi langkah ini.
-linktitle: Convert DOCX to EPUB with SaveOptions
+date: 2026-02-19
+description: Pelajari cara membuat epub dari docx menggunakan Aspose.Words for Java
+  – sesuaikan opsi penyimpanan, bagi berdasarkan heading, dan ekspor properti dokumen.
+  Konversi docx ke epub dengan cepat.
+linktitle: Create epub from docx with Aspose.Words SaveOptions (Java)
 second_title: Aspose.Words Java Document Processing API
-title: Konversi DOCX ke EPUB dengan SaveOptions
+title: Buat epub dari docx dengan Aspose.Words SaveOptions (Java)
 url: /id/java/document-converting/document-conversion-saveoptions/
 weight: 13
 ---
+
+ content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
@@ -16,49 +18,60 @@ weight: 13
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengonversi DOCX ke EPUB dengan SaveOptions
+# Buat epub dari docx dengan Aspose.Words SaveOptions (Java)
 
 ## Pendahuluan
 
-Jika Anda perlu **mengonversi DOCX ke EPUB**, Anda berada di tempat yang tepat. Kontrol yang tepat atas proses konversi sangat penting—baik Anda meningkatkan aksesibilitas, memastikan kompatibilitas lintas perangkat, atau sekadar meningkatkan keterbacaan. Dalam panduan ini kami akan membahas cara mengonversi file DOCX ke EPUB menggunakan Aspose.Words for Java, menyesuaikan save options, memisahkan output berdasarkan heading, dan mengekspor properti dokumen sehingga file EPUB Anda bersih dan kaya metadata.
+Jika Anda perlu **membuat epub dari docx** dengan cepat dan dapat diandalkan, Anda berada di tempat yang tepat. Mengonversi dokumen Word ke EPUB adalah kebutuhan umum untuk penerbitan e‑book, pembacaan seluler, dan proyek aksesibilitas. Pada tutorial ini kami akan membahas seluruh proses menggunakan Aspose.Words untuk Java, menunjukkan cara **mengonversi docx ke epub**, menyesuaikan opsi penyimpanan, memisahkan output berdasarkan heading, dan mempertahankan properti dokumen. Pada akhir tutorial Anda akan memiliki potongan kode yang dapat digunakan kembali dan dapat diintegrasikan ke dalam alat konversi batch yang lebih besar.
 
 ## Jawaban Cepat
-- **Perpustakaan apa yang saya butuhkan?** Aspose.Words for Java  
-- **Format apa yang dihasilkan contoh ini?** EPUB (mengonversi DOCX ke EPUB)  
-- **Bisakah saya memisahkan EPUB berdasarkan heading?** Ya, menggunakan `DocumentSplitCriteria.HEADING_PARAGRAPH`  
-- **Apakah properti dokumen akan dipertahankan?** Ya, aktifkan `setExportDocumentProperties(true)`  
-- **Versi Java apa yang diperlukan?** JDK 8 atau yang lebih baru  
-
-## Apa itu mengonversi DOCX ke EPUB?
-Mengonversi DOCX ke EPUB mengubah dokumen Microsoft Word menjadi format e‑book standar terbuka. File EPUB dapat menyesuaikan diri dengan ukuran layar, menjadikannya ideal untuk dibaca di smartphone, tablet, dan e‑reader sambil mempertahankan tata letak serta metadata asli.
-
-## Mengapa menggunakan Aspose.Words SaveOptions?
-Aspose.Words menyediakan kontrol granular atas proses konversi melalui **SaveOptions**. Anda dapat menentukan format output, mengatur encoding karakter, memisahkan dokumen besar menjadi bagian‑bagian yang dapat dikelola, dan mempertahankan metadata penting—semua tanpa perlu menginstal Microsoft Office.
+- **Tujuan utama?** Membuat EPUB dari file DOCX menggunakan Aspose.Words untuk Java.  
+- **Pengaturan kunci untuk pemisahan?** `DocumentSplitCriteria.HEADING_PARAGRAPH`.  
+- **Format output yang didukung?** EPUB, PDF, DOCX, HTML, dan lainnya melalui `setSaveFormat`.  
+- **Bisakah saya mengonversi dokumen word secara batch?** Ya – bungkus logika satu‑file dalam sebuah loop.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi komersial diperlukan untuk produksi.
 
 ## Prasyarat
 
-1. **Java Development Kit (JDK)** – JDK 8 atau yang lebih baru terpasang.  
-2. **IDE** – IntelliJ IDEA, Eclipse, atau IDE Java lainnya.  
-3. **Aspose.Words for Java** – Unduh versi terbaru **[di sini](https://releases.aspose.com/words/java/)** dan tambahkan ke classpath proyek Anda.  
-4. **Contoh Dokumen** – File DOCX bernama `Rendering.docx` yang ditempatkan di direktori proyek Anda.
+Sebelum kita menyelami detail konversi dokumen, pastikan semua sudah siap:
+
+1. **Java Development Kit (JDK)** – JDK 8 atau yang lebih baru sudah terpasang.  
+2. **IDE** – IntelliJ IDEA, Eclipse, atau editor Java lain yang kompatibel.  
+3. **Aspose.Words for Java** – Unduh JAR terbaru **[di sini](https://releases.aspose.com/words/java/)** dan tambahkan ke jalur build proyek Anda.  
+4. **Dokumen Contoh** – File DOCX bernama `Rendering.docx` ditempatkan di direktori proyek (atau berikan path absolut).  
+
+## Apa itu “create epub from docx”?
+
+Membuat EPUB dari file DOCX berarti mengambil format kaya, gambar, dan gaya dari dokumen Word dan mengemasnya ke dalam format e‑book standar terbuka (EPUB). Hal ini memungkinkan pembacaan yang mulus di e‑reader, tablet, dan smartphone sambil mempertahankan tata letak asli.
+
+## Mengapa memisahkan EPUB berdasarkan heading?
+
+E‑book besar dapat menjadi berat jika disimpan sebagai satu file HTML tunggal di dalam kontainer EPUB. Dengan menggunakan **`split epub by heading`**, setiap heading tingkat atas menjadi bab HTML terpisah, meningkatkan navigasi, waktu muat, dan pengalaman membaca secara keseluruhan.
 
 ## Impor Paket
+
+Untuk mulai bekerja dengan Aspose.Words untuk Java, Anda perlu mengimpor paket yang relevan. Paket‑paket ini menyediakan kelas dan metode yang diperlukan untuk manipulasi dan konversi dokumen.
 
 ```java
 import com.aspose.words.*;
 ```
 
-Impor ini memberi Anda akses ke semua kelas yang diperlukan untuk memuat dokumen, mengonfigurasi save options, dan melakukan konversi.
+Pernyataan impor ini memastikan Anda memiliki akses ke semua kelas yang diperlukan untuk memuat dokumen, mengonfigurasi opsi penyimpanan, dan melakukan konversi.
 
-## Langkah 1: Muat Dokumen untuk Mengonversi DOCX ke EPUB
+## Langkah 1: Muat Dokumen
+
+Langkah pertama dalam proses konversi adalah memuat dokumen yang ingin Anda konversi ke dalam objek `Document`. Objek ini berfungsi sebagai representasi dokumen di memori.
 
 ```java
 Document doc = new Document("Rendering.docx");
 ```
 
-Objek `Document` memuat file DOCX ke memori, menyiapkannya untuk pemrosesan lebih lanjut.
+**Penjelasan:**  
+Konstruktor `Document` membaca file DOCX dari path yang diberikan. Pastikan file tersebut ada relatif terhadap root proyek Anda atau berikan path sistem file lengkap.
 
-## Langkah 2: Konfigurasikan Save Options (Mengonversi DOCX ke EPUB)
+## Langkah 2: Konfigurasikan Opsi Penyimpanan
+
+Selanjutnya, konfigurasikan cara dokumen akan disimpan. Di sini kami menggunakan `HtmlSaveOptions` karena penulis EPUB secara internal membangun file HTML sebelum mengemasnya.
 
 ```java
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
@@ -66,60 +79,90 @@ saveOptions.setSaveFormat(SaveFormat.EPUB);
 saveOptions.setEncoding(StandardCharsets.UTF_8);
 ```
 
-- **HtmlSaveOptions** – Memungkinkan kontrol yang sangat detail atas output.  
-- **setSaveFormat(SaveFormat.EPUB)** – Menentukan bahwa format target adalah EPUB.  
-- **setEncoding(StandardCharsets.UTF_8)** – Menjamin penanganan karakter yang tepat.
+**Penjelasan:**  
 
-## Langkah 3: Konfigurasikan Pemisahan Dokumen (memisah EPUB berdasarkan heading)
+- **`HtmlSaveOptions`** – Memungkinkan kontrol detail atas proses pembuatan EPUB.  
+- **`setSaveFormat(SaveFormat.EPUB)`** – Memerintahkan Aspose.Words untuk menghasilkan file EPUB alih‑alih HTML default.  
+- **`setEncoding(StandardCharsets.UTF_8)`** – Menjamin penanganan yang tepat untuk karakter Unicode, penting bagi konten multibahasa.
+
+## Langkah 3: Konfigurasikan Pemisahan Dokumen
+
+Untuk buku yang lebih besar, memisahkan output meningkatkan keterbacaan. Opsi berikut memberi tahu Aspose.Words untuk membuat file HTML baru setiap kali menemukan paragraf heading.
 
 ```java
 saveOptions.setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH);
 ```
 
-Dengan mengatur `DocumentSplitCriteria.HEADING_PARAGRAPH`, konverter akan memisahkan EPUB pada setiap paragraf heading, menghasilkan bagian‑bagian yang lebih kecil dan mudah dinavigasi—sangat cocok untuk buku besar.
+**Penjelasan:**  
+
+- **`DocumentSplitCriteria.HEADING_PARAGRAPH`** – Setiap heading (misalnya `<h1>`, `<h2>`) menjadi bab terpisah di dalam EPUB. Ini secara langsung memenuhi kebutuhan **split epub by heading**.
 
 ## Langkah 4: Ekspor Properti Dokumen
+
+Mempertahankan metadata seperti penulis, judul, dan tanggal pembuatan sering diperlukan untuk katalogisasi dan pencarian.
 
 ```java
 saveOptions.setExportDocumentProperties(true);
 ```
 
-Mengaktifkan `setExportDocumentProperties(true)` mempertahankan metadata seperti penulis, judul, dan tanggal pembuatan dalam file EPUB yang dihasilkan.
+**Penjelasan:**  
+
+- Mengaktifkan `setExportDocumentProperties(true)` menyalin properti inti dokumen sumber ke dalam bagian metadata EPUB.
 
 ## Langkah 5: Simpan Dokumen
+
+Akhirnya, tulis file EPUB ke disk menggunakan opsi yang telah dikonfigurasi.
 
 ```java
 doc.save("HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
 ```
 
-Metode `save` menulis file EPUB ke disk menggunakan `HtmlSaveOptions` yang telah dikonfigurasi.
+**Penjelasan:**  
 
-## Masalah Umum dan Solusi
-- **Heading tidak ada untuk pemisahan:** Pastikan DOCX sumber Anda menggunakan gaya heading yang tepat (Heading 1, Heading 2, dll.).  
-- **Metadata tidak muncul:** Verifikasi bahwa dokumen sumber berisi properti yang diinginkan; Aspose.Words hanya mengekspor metadata yang ada.  
-- **Masalah encoding:** Gunakan encoding UTF‑8 untuk kebanyakan bahasa; beralih ke charset lain hanya jika ada kebutuhan khusus.
+- Metode `save` menerima nama file target dan instance `HtmlSaveOptions`, menghasilkan EPUB yang menghormati semua pengaturan yang telah kita definisikan di atas.
+
+## Kasus Penggunaan Umum
+
+- **Penerbitan e‑book:** Mengonversi file Word draft penulis menjadi EPUB siap untuk Kindle, iBooks, atau Google Play Books.  
+- **Konversi batch:** Bungkus logika satu‑file dalam sebuah loop untuk **batch convert word documents** bagi perpustakaan besar.  
+- **Migrasi konten:** Memindahkan dokumentasi lama dari Word ke format EPUB yang ramah web sambil mempertahankan heading dan metadata.
+
+## Pemecahan Masalah & Tips
+
+- **Heading tidak muncul:** Pastikan DOCX sumber menggunakan gaya heading yang tepat (Heading 1, Heading 2, dll.).  
+- **Masalah encoding:** Jika karakter terlihat rusak, periksa kembali bahwa file sumber disimpan dalam UTF-8 dan bahwa `setEncoding` cocok.  
+- **File besar:** Untuk dokumen sangat besar, pertimbangkan meningkatkan ukuran heap JVM (`-Xmx2g`) untuk menghindari `OutOfMemoryError`.  
 
 ## Pertanyaan yang Sering Diajukan
 
-**T: Bisakah saya menggunakan format selain EPUB?**  
-J: Ya. Ubah `setSaveFormat` menjadi `SaveFormat.PDF`, `SaveFormat.DOCX`, `SaveFormat.HTML`, dll., sesuai kebutuhan Anda.
+### 1. Bisakah saya menggunakan format selain EPUB untuk menyimpan dokumen?
 
-**T: Bagaimana Aspose.Words menangani pemformatan yang kompleks?**  
-J: Perpustakaan ini mempertahankan sebagian besar pemformatan Word, termasuk tabel, gambar, dan gaya. Uji dengan dokumen representatif untuk memastikan penanganan kasus tepi.
+Ya, Aspose.Words mendukung banyak format termasuk PDF, DOCX, HTML, dan lainnya. Cukup ubah argumen di `setSaveFormat` (misalnya `SaveFormat.PDF`).
 
-**T: Apakah konversi batch memungkinkan?**  
-J: Tentu. Bungkus logika pemuatan dan penyimpanan dalam loop untuk memproses banyak file DOCX secara otomatis.
+### 2. Bagaimana cara menangani dokumen dengan format kompleks selama konversi?
 
-**T: Apa yang harus saya lakukan jika terjadi error selama konversi?**  
-J: Periksa jalur file, pastikan izin baca/tulis, dan lihat **[dokumentasi Aspose.Words](https://reference.aspose.com/words/java/)** untuk kode error detail.
+Aspose.Words secara otomatis mempertahankan sebagian besar format, tetapi selalu uji pada sampel representatif. Jika elemen tertentu (tabel, catatan kaki) muncul tidak tepat, Anda dapat menyesuaikan opsi seperti `setExportHeadersFooters` atau `setExportImagesAsBase64`.
 
-**T: Di mana saya dapat mendapatkan bantuan tambahan?**  
-J: Kunjungi **[forum komunitas Aspose](https://forum.aspose.com/c/words/8)** untuk tips, contoh, dan dukungan dari pengembang lain.
+### 3. Bisakah saya mengotomatisasi proses konversi untuk banyak dokumen?
+
+Tentu saja. Letakkan kode di dalam loop yang mengiterasi direktori berisi file DOCX. Ini adalah pendekatan umum untuk **batch convert word documents**.
+
+### 4. Apa yang harus saya lakukan jika menemukan error selama konversi?
+
+Periksa bahwa path input sudah benar dan Anda memiliki izin baca/tulis. Konsultasikan dokumentasi resmi [Aspose.Words documentation](https://reference.aspose.com/words/java/) untuk kode error detail dan langkah pemecahan masalah.
+
+### 5. Di mana saya dapat mendapatkan dukungan tambahan untuk Aspose.Words for Java?
+
+Anda dapat menemukan dukungan dan sumber daya tambahan di [forum komunitas Aspose](https://forum.aspose.com/c/words/8).
+
+## Kesimpulan
+
+Anda kini telah mempelajari cara **membuat epub dari docx** menggunakan Aspose.Words untuk Java, dengan kontrol penuh atas opsi penyimpanan, pemisahan berbasis heading, dan ekspor metadata. Pendekatan ini dapat diskalakan dari konversi satu file hingga pipeline **java convert word formats** batch penuh, menjadikannya alat serbaguna untuk alur kerja penerbitan apa pun.
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-18  
-**Diuji Dengan:** Aspose.Words for Java 24.12 (terbaru)  
+**Terakhir Diperbarui:** 2026-02-19  
+**Diuji Dengan:** Aspose.Words 24.12 untuk Java  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

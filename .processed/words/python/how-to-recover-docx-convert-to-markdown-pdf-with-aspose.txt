@@ -1,0 +1,7 @@
+Title: How to Recover DOCX, Convert to Markdown & PDF with Aspose
+Slug: how-to-recover-docx-convert-to-markdown-pdf-with-aspose
+Category: document-conversion
+ProcessedDate: 2026-06-05T15:49:01.319635
+SourceRepo: AI Search API
+Keywords: how to recover docx, convert docx to markdown, convert docx to pdf, aspose pdf compliance, export latex equations
+PRNumber: 200
