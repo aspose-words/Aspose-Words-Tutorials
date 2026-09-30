@@ -53,6 +53,7 @@
 | [C# में Word को PDF के रूप में सहेजें – पूर्ण सुलभ रूपांतरण गाइड](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | C# में Aspose.Words का उपयोग करके Word को PDF में सहेजने की पूरी सुलभ रूपांतरण गाइड। |
 | [Word से PDF ट्यूटोरियल: Aspose.Words के साथ DOCX को PDF में बदलें](./word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/) | Aspose.Words for .NET का उपयोग करके DOCX फ़ाइल को PDF में बदलने की चरण‑दर‑स्टेप गाइड। |
 | [Aspose.Words के साथ Word को PDF के रूप में सहेजें – चरण‑दर‑चरण गाइड](./save-word-as-pdf-with-aspose-words-step-by-step-guide/) | Aspose.Words का उपयोग करके Word फ़ाइल को PDF में बदलने की चरण‑दर‑चरण गाइड। |
+| [एक्सेसिबल PDF बनाएं – Word को PDF में बदलें](./create-accessible-pdf-convert-word-to-pdf/) | Aspose.Words for .NET का उपयोग करके Word फ़ाइल को एक्सेसिबल PDF में बदलने की चरण‑दर‑स्टेप गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -46,6 +46,7 @@ Por fim, não se esqueça de conferir nosso [Trabalhando com opções de resumo]
 | [Como verificar gramática em DOCX com Aspose.Words – usar gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Aprenda a usar o Aspose.Words para .NET com o modelo gpt-4 turbo para corrigir gramática em arquivos DOCX de forma automática. |
 | [Como Verificar Gramática no Word com Aspose.Words AI – Guia Completo](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Aprenda a usar a IA do Aspose.Words para analisar e corrigir a gramática em documentos Word de forma automática. |
 | [Como Verificar Gramática em C# Usando um LLM Local](./how-to-check-grammar-in-c-using-a-local-llm/) | Aprenda a usar um LLM local em C# para corrigir gramática em documentos Word com Aspose.Words. |
+| [Resumir documento Word com IA – OpenAI vs Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | Compare a sumarização de documentos Word usando OpenAI e Gemini com Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -46,6 +46,7 @@
 | [如何使用 Aspose.Words 檢查 DOCX 文法 – 使用 gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) |使用 Aspose.Words 結合 gpt-4 turbo 為 DOCX 文件執行文法檢查，提升寫作品質。 |
 | [如何使用 Aspose.Words AI 檢查 Word 文法 – 完整指南](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) |使用 Aspose.Words AI 在 Word 中自動檢查文法錯誤，提升寫作品質的完整步驟指南。 |
 | [如何在 C# 中使用本地 LLM 檢查文法](./how-to-check-grammar-in-c-using-a-local-llm/) |使用 Aspose.Words for .NET 結合本地大型語言模型，在 C# 中自動檢查並校正文法錯誤。 |
+| [使用 AI 摘要 Word 文件 – OpenAI 與 Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) |比較 OpenAI 與 Gemini 在 Word 文件摘要中的效能與使用方式，幫助您選擇最佳 AI 解決方案。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

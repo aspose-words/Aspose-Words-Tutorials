@@ -46,6 +46,7 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [Wie man Grammatik in DOCX mit Aspose.Words prüft – gpt-4 Turbo verwenden](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Erfahren Sie, wie Sie mit Aspose.Words und gpt‑4 Turbo die Grammatik in DOCX‑Dateien automatisch prüfen. |
 | [Wie man Grammatik in Word mit Aspose.Words KI prüft – Komplettanleitung](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Erfahren Sie, wie Sie mit Aspose.Words KI die Grammatik in Word-Dokumenten automatisch prüfen und korrigieren. |
 | [Wie man Grammatik in C# mit einem lokalen LLM prüft](./how-to-check-grammar-in-c-using-a-local-llm/) | Erfahren Sie, wie Sie mit einem lokalen LLM in C# Grammatikfehler erkennen und korrigieren, um Ihre Texte zu verbessern. |
+| [Word-Dokument mit KI zusammenfassen – OpenAI vs Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | Vergleichen Sie, wie OpenAI und Gemini Word-Dokumente mithilfe von KI zusammenfassen und wählen Sie die optimale Lösung. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

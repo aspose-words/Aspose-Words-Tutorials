@@ -53,6 +53,7 @@ Conversões Básicas orienta você nas conversões básicas de documentos usando
 | [Converter docx para txt com equações LaTeX – Guia Aspose.Words](./convert-docx-to-txt-with-latex-equations-aspose-words-guide/) | Aprenda a converter arquivos DOCX em TXT preservando equações LaTeX usando Aspose.Words para .NET. Guia passo a passo com exemplos. |
 | [Salvar Word como PDF com Aspose.Words – Guia passo a passo](./save-word-as-pdf-with-aspose-words-step-by-step-guide/) | Aprenda a salvar documentos Word como PDF usando Aspose.Words em C#. Guia passo a passo detalhado para desenvolvedores. |
 
+| [Criar PDF acessível – Converter Word para PDF](./create-accessible-pdf-convert-word-to-pdf/) | Aprenda a gerar PDFs acessíveis a partir de documentos Word usando Aspose.Words para .NET, garantindo conformidade com normas de acessibilidade. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -46,6 +46,7 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [Aspose.Words ile DOCX'te Dilbilgisi Kontrolü – gpt-4 turbo kullanımı](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Aspose.Words ve gpt-4 turbo kullanarak DOCX dosyalarındaki dilbilgisi hatalarını otomatik olarak tespit edin ve düzeltin. |
 | [Aspose.Words AI ile Word'de Dilbilgisi Kontrolü Nasıl Yapılır – Tam Kılavuz](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Aspose.Words AI kullanarak Word belgelerinizde dilbilgisi hatalarını otomatik olarak nasıl tespit edip düzelteceğinizi öğrenin. |
 | [Yerel LLM Kullanarak C#'ta Dilbilgisi Kontrolü Nasıl Yapılır](./how-to-check-grammar-in-c-using-a-local-llm/) | Yerel bir büyük dil modeliyle C# kodunuzda dilbilgisi hatalarını otomatik tespit edin ve düzeltin. |
+| [AI ile Word Belgesini Özetle – OpenAI vs Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | OpenAI ve Gemini modellerini karşılaştırarak Word belgelerini AI ile nasıl özetleyeceğinizi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -28,6 +28,7 @@ Eğitimler ayrıca, Aspose.Words for .NET kullanarak bir Word belgesine resim ek
 | [Jpeg Sayfa Aralığını Al](./get-jpeg-page-range/) | Aspose.Words for .NET kullanarak Word belgelerinin belirli sayfalarını özel ayarlarla JPEG'e dönüştürün. Parlaklığı, kontrastı ve çözünürlüğü adım adım nasıl ayarlayacağınızı öğrenin. |
 | [Sayfa Kaydetme Geri Araması](./page-saving-callback/) | Ayrıntılı, adım adım kılavuzumuzla Aspose.Words for .NET'i kullanarak bir Word belgesinin her sayfasını ayrı bir PNG resmi olarak kaydetmeyi öğrenin. |
 | [Word'ü PNG'ye Dönüştürürken DPI Nasıl Ayarlanır – Tam C# Rehberi](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | Aspose.Words for .NET kullanarak Word belgelerini PNG'ye dönüştürürken DPI ayarını nasıl yapılandıracağınızı adım adım öğrenin. |
+| [Word'ü PNG'ye Dönüştür – Sayfaları Dikey Şeride Birleştir](./convert-word-to-png-merge-pages-into-a-vertical-strip/) | Aspose.Words for .NET kullanarak bir Word belgesinin sayfalarını tek bir dikey PNG şeridi olarak birleştirmeyi öğrenin. |
 | [Word Belgesinden PNG Izgara Oluşturma – Adım Adım Kılavuz](./create-png-grid-from-word-document-step-by-step-guide/) | Aspose.Words for .NET kullanarak bir Word belgesindeki sayfaları PNG ızgarasına dönüştürmeyi ve düzenlemeyi adım adım öğrenin. |
 | [C# ile Word'ü Görüntülere Kaydet – Adım Adım Kılavuz](./save-word-as-images-with-c-step-by-step-guide/) | Aspose.Words for .NET kullanarak bir Word belgesini farklı görüntü formatlarında kaydetmeyi adım adım öğrenin. |
 

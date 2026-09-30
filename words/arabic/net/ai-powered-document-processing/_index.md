@@ -46,6 +46,7 @@
 | [كيفية فحص القواعد النحوية في DOCX باستخدام Aspose.Words – استخدم gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | تعلم كيفية فحص القواعد النحوية في مستندات DOCX باستخدام Aspose.Words و gpt-4 turbo للحصول على نصوص خالية من الأخطاء. |
 | [كيفية فحص القواعد النحوية في Word باستخدام Aspose.Words AI – دليل كامل](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | تعلم كيفية استخدام Aspose.Words AI لفحص القواعد النحوية في مستندات Word وتحسين جودة النص بسهولة. |
 | [كيفية فحص القواعد النحوية في C# باستخدام نموذج لغة محلي](./how-to-check-grammar-in-c-using-a-local-llm/) | تعلم كيفية فحص القواعد النحوية في تطبيقات C# باستخدام نموذج لغة محلي لتصحيح النصوص بدقة. |
+| [تلخيص مستند Word باستخدام الذكاء الاصطناعي – OpenAI مقابل Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | قارن بين نماذج OpenAI و Gemini لتلخيص مستندات Word باستخدام الذكاء الاصطناعي مع Aspose.Words. دليل شامل لاختيار الأنسب. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

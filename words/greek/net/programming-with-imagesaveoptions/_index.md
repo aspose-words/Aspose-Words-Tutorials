@@ -30,6 +30,7 @@
 | [Πώς να ορίσετε DPI κατά τη μετατροπή Word σε PNG – Πλήρης οδηγός C#](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | Μάθετε πώς να ορίσετε την ανάλυση DPI κατά τη μετατροπή εγγράφων Word σε PNG χρησιμοποιώντας το Aspose.Words για .NET σε έναν πλήρη οδηγό C#. |
 | [Δημιουργία πλέγματος PNG από έγγραφο Word – Οδηγός βήμα‑βήμα](./create-png-grid-from-word-document-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε ένα πλέγμα εικόνων PNG από έγγραφο Word, χρησιμοποιώντας Aspose.Words για .NET, σε έναν πλήρη οδηγό βήμα‑βήμα. |
 | [Αποθήκευση Word ως εικόνες με C# – Οδηγός βήμα προς βήμα](./save-word-as-images-with-c-step-by-step-guide/) | Μάθετε πώς να αποθηκεύετε έγγραφα Word ως εικόνες χρησιμοποιώντας το Aspose.Words για .NET με C# σε αναλυτικό βήμα‑βήμα οδηγό. |
+| [Μετατροπή Word σε PNG – Συγχώνευση σελίδων σε κάθετη λωρίδα](./convert-word-to-png-merge-pages-into-a-vertical-strip/) | Μάθετε πώς να μετατρέψετε ένα έγγραφο Word σε PNG, συγχωνεύοντας όλες τις σελίδες σε μία κάθετη λωρίδα εικόνας. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

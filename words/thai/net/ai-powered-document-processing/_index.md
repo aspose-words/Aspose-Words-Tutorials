@@ -46,6 +46,7 @@
 | [วิธีตรวจสอบไวยากรณ์ใน Word ด้วย Aspose.Words AI – คู่มือฉบับสมบูรณ์](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | เรียนรู้วิธีใช้ Aspose.Words AI เพื่อตรวจสอบและแก้ไขไวยากรณ์ในเอกสาร Word อย่างแม่นยำและอัตโนมัติ -
 | [วิธีตรวจสอบไวยากรณ์ใน C# ด้วย LLM ภายในเครื่อง](./how-to-check-grammar-in-c-using-a-local-llm/) | เรียนรู้วิธีใช้ LLM ภายในเครื่องตรวจสอบไวยากรณ์โค้ด C# ของคุณอย่างแม่นยำด้วย Aspose.Words -
 | 
+| [สรุปเอกสาร Word ด้วย AI – OpenAI vs Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | เปรียบเทียบการสรุปเอกสาร Word ด้วยโมเดล OpenAI และ Gemini โดยใช้ Aspose.Words สำหรับ .NET - 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
