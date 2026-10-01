@@ -47,6 +47,8 @@
 | [Aspose.Words AI로 Word에서 문법 검사하는 방법 – 완전 가이드](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Aspose.Words AI를 활용해 Word 문서의 문법을 자동으로 검사하고 교정하는 전체 가이드를 확인하세요. |
 | [C#에서 로컬 LLM을 사용해 문법 검사하기](./how-to-check-grammar-in-c-using-a-local-llm/) | 로컬 LLM을 활용해 C# 코드의 문법을 자동으로 검사하고 교정하는 방법을 단계별로 안내합니다. |
 | [OpenAI와 Gemini를 활용한 Word 문서 요약](./summarize-word-document-with-ai-openai-vs-gemini/) | OpenAI와 Gemini 모델을 비교하여 Aspose.Words for .NET으로 Word 문서를 효율적으로 요약하는 방법을 배웁니다. |
+| [C#에서 Aspose.Words AI를 사용해 docx를 프랑스어로 번역하는 방법](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Aspose.Words AI와 C#를 활용해 DOCX 파일을 프랑스어로 자동 번역하는 단계별 가이드. |
+| [C#에서 Aspose.Words AI로 docx 파일 요약하는 방법](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Aspose.Words AI와 C#를 사용해 docx 파일을 효율적으로 요약하는 단계별 가이드를 제공합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

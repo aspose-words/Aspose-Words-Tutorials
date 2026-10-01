@@ -43,9 +43,11 @@
 | [ओपन एआई मॉडल के साथ काम करना](./working-with-open-ai-model/) | OpenAI के शक्तिशाली मॉडल के साथ .NET के लिए Aspose.Words का उपयोग करके कुशल दस्तावेज़ सारांश अनलॉक करें। अब इस व्यापक गाइड में गोता लगाएँ। |
 | [सारांश विकल्पों के साथ कार्य करना](./working-with-summarize-options/) | त्वरित जानकारी के लिए AI मॉडल को एकीकृत करने पर हमारे चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों को प्रभावी ढंग से सारांशित करना सीखें। |
 | [C# में Word दस्तावेज़ का सारांश – पूर्ण AI‑संचालित गाइड](./summarize-word-document-in-c-complete-ai-powered-guide/) | .NET के लिए Aspose.Words का उपयोग करके C# में AI के साथ Word दस्तावेज़ को प्रभावी रूप से सारांशित करने की पूरी गाइड। |
+| [C# में Aspose.Words AI के साथ docx फ़ाइलों का सारांश कैसे करें](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | .NET के लिए Aspose.Words AI का उपयोग करके C# में docx फ़ाइलों को सारांशित करने की पूरी गाइड। |
 | [Aspose.Words के साथ DOCX में व्याकरण जांचें – gpt-4 टर्बो का उपयोग करें](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | gpt-4 टर्बो का उपयोग करके .NET में Aspose.Words के साथ DOCX फ़ाइलों की व्याकरण जाँच कैसे करें, सीखें। |
 | [Aspose.Words AI के साथ Word में व्याकरण जांच कैसे करें – पूर्ण गाइड](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Aspose.Words AI का उपयोग करके Word दस्तावेज़ों में व्याकरण त्रुटियों को पहचानें और सुधारें। चरण-दर-चरण गाइड। |
 | [AI के साथ Word दस्तावेज़ का सारांश – OpenAI बनाम Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | OpenAI और Gemini मॉडल का उपयोग करके Word दस्तावेज़ को AI से सारांशित करने की तुलना और मार्गदर्शन। |
+| [C# में Aspose.Words AI के साथ docx को फ्रेंच में अनुवाद कैसे करें](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | .NET के लिए Aspose.Words AI का उपयोग करके C# में DOCX फ़ाइल को फ्रेंच में अनुवाद करने की पूरी गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

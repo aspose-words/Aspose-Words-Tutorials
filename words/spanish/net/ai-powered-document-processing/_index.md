@@ -38,8 +38,8 @@ Por último, no olvides visitar nuestra [Trabajar con opciones de resumen](./wor
  ## Tutoriales de procesamiento de documentos con IA
 | Título | Descripción |
 | --- | --- |
-| [Trabajar con el modelo de IA](./working-with-ai-model/) Aprenda a usar Aspose.Words para .NET para resumir documentos con IA. Pasos sencillos para optimizar la gestión documental.
-| [Trabajar con el modelo de inteligencia artificial de Google](./working-with-google-ai-model/) Mejore su procesamiento de documentos con Aspose.Words para .NET y Google AI para crear resúmenes concisos sin esfuerzo. |
+| [Trabajar con el modelo de IA](./working-with-ai-model/) | Aprenda a usar Aspose.Words para .NET para resumir documentos con IA. Pasos sencillos para optimizar la gestión documental. |
+| [Trabajar con el modelo de inteligencia artificial de Google](./working-with-google-ai-model/) | Mejore su procesamiento de documentos con Aspose.Words para .NET y Google AI para crear resúmenes concisos sin esfuerzo. |
 | [Trabajar con el modelo de IA abierta](./working-with-open-ai-model/) | Desbloquee la eficiencia de los resúmenes de documentos con Aspose.Words para .NET y los potentes modelos de OpenAI. Explore esta guía completa ahora. |
 | [Trabajar con opciones de resumen](./working-with-summarize-options/) | Aprenda a resumir eficazmente documentos de Word usando Aspose.Words para .NET con nuestra guía paso a paso sobre la integración de modelos de IA para obtener información rápida. |
 | [Resumir documento Word con IA – OpenAI vs Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | Compare cómo Aspose.Words para .NET usa OpenAI y Gemini para generar resúmenes precisos de documentos Word. |
@@ -47,6 +47,8 @@ Por último, no olvides visitar nuestra [Trabajar con opciones de resumen](./wor
 | [Resumir documento Word en C# – Guía completa impulsada por IA](./summarize-word-document-in-c-complete-ai-powered-guide/) | Aprenda a crear resúmenes automáticos de documentos Word en C# usando IA con Aspose.Words paso a paso. |
 | [Cómo comprobar la gramática en DOCX con Aspose.Words – usar gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Aprenda a verificar la gramática de documentos DOCX usando Aspose.Words y el modelo gpt‑4 turbo para correcciones automáticas. |
 | [Cómo comprobar la gramática en Word con Aspose.Words AI – Guía completa](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Aprenda a usar Aspose.Words AI para corregir la gramática en documentos Word de forma automática y precisa. |
+| [Cómo traducir docx a francés con Aspose.Words AI en C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Aprenda a traducir documentos DOCX al francés usando la IA de Aspose.Words en C# de forma sencilla y eficaz. |
+| [Cómo resumir archivos docx con Aspose.Words AI en C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Aprenda a generar resúmenes automáticos de archivos DOCX usando IA de Aspose.Words en C# paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

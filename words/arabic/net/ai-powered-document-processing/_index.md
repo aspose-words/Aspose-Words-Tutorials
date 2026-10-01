@@ -47,6 +47,8 @@
 | [كيفية فحص القواعد النحوية في Word باستخدام Aspose.Words AI – دليل كامل](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | تعلم كيفية استخدام Aspose.Words AI لفحص القواعد النحوية في مستندات Word وتحسين جودة النص بسهولة. |
 | [كيفية فحص القواعد النحوية في C# باستخدام نموذج لغة محلي](./how-to-check-grammar-in-c-using-a-local-llm/) | تعلم كيفية فحص القواعد النحوية في تطبيقات C# باستخدام نموذج لغة محلي لتصحيح النصوص بدقة. |
 | [تلخيص مستند Word باستخدام الذكاء الاصطناعي – OpenAI مقابل Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | قارن بين نماذج OpenAI و Gemini لتلخيص مستندات Word باستخدام الذكاء الاصطناعي مع Aspose.Words. دليل شامل لاختيار الأنسب. |
+| [كيفية ترجمة ملف docx إلى الفرنسية باستخدام Aspose.Words AI في C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | دليل خطوة بخطوة لترجمة مستندات DOCX إلى الفرنسية باستخدام Aspose.Words AI مع C#. |
+| [كيف تلخص ملفات docx باستخدام Aspose.Words AI في C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | دليل خطوة بخطوة لتلخيص ملفات docx باستخدام Aspose.Words AI في C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

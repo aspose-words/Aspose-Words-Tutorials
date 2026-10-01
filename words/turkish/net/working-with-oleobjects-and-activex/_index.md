@@ -28,7 +28,7 @@ Bu eğitimler size Aspose.Words for .NET'te OLE ve ActiveX nesneleriyle Word İ�
 | [Ole Nesnesini Word Belgesine Simge Olarak Ekle](./insert-ole-object-as-icon/) | Aspose.Words for .NET kullanarak Word belgelerine bir OLE nesnesini simge olarak nasıl ekleyeceğinizi öğrenin. Belgelerinizi geliştirmek için adım adım kılavuzumuzu izleyin. |
 | [Stream Kullanarak Ole Nesnesini Simge Olarak Ekle](./insert-ole-object-as-icon-using-stream/) | Bu ayrıntılı, adım adım eğitimde Aspose.Words for .NET ile bir akış kullanarak bir OLE nesnesinin simge olarak nasıl ekleneceğini öğrenin.
 | [Word Dosyasından Active XControl Özelliklerini Oku](./read-active-xcontrol-properties/) | Aspose.Words for .NET'i kullanarak Word dosyalarından ActiveX denetim özelliklerinin nasıl okunacağını adım adım bir kılavuzda öğrenin. Belge otomasyon becerilerinizi geliştirin. |
-
+| [C# ile Word'e ActiveX denetimi ekleme](./how-to-add-an-activex-control-word-in-word-with-c/) | Aspose.Words for .NET kullanarak C# ile Word belgesine ActiveX kontrolü eklemeyi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
