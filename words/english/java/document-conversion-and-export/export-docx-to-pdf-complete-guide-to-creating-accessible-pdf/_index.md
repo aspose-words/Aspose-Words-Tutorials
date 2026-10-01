@@ -235,6 +235,6 @@ Now you can integrate this snippet into any C# service, batch‑process a folder
 Give it a try, tweak the options to match your environment, and you’ll soon be shipping PDFs that pass both legal audits and user expectations. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
