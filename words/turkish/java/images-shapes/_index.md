@@ -39,6 +39,9 @@ Word belgelerinde şekillere gölge ekleyerek görsel çekiciliği artırmayı �
 ### [C#'ta Bir Şekle Gölge Efekti Uygulama – Adım Adım Kılavuz](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 C# kullanarak bir şekle gölge efekti eklemeyi adım adım öğrenin ve belgelerinizde görsel çekiciliği artırın.
 
+### [Aspose.Words ile C#'ta Boş Belge Oluşturma ve Şekil Ekleme](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+Aspose.Words kullanarak C# ile boş bir Word belgesi oluşturup şekil eklemeyi öğrenin.
+
 ## Ek Kaynaklar
 
 ## Ek Kaynaklar

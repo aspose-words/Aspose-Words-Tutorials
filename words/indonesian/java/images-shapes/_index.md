@@ -39,6 +39,9 @@ Pelajari cara menambahkan efek bayangan pada bentuk di dokumen Word menggunakan 
 ### [Menerapkan Efek Bayangan pada Bentuk di C# – Panduan Langkah demi Langkah](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Panduan langkah demi langkah menambahkan efek bayangan pada bentuk menggunakan Aspose.Words untuk C#.
 
+### [Cara Membuat Dokumen Kosong dan Menambahkan Bentuk dengan Aspose.Words di C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+Panduan membuat dokumen kosong dan menambahkan bentuk menggunakan Aspose.Words untuk C#.
+
 ## Sumber Daya Tambahan
 
 ## Sumber Daya Tambahan
