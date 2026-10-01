@@ -197,7 +197,6 @@ We’ve just **create rectangle shape**, **add shadow to shape**, and **apply sh
 If you found this tutorial helpful, give it a star on GitHub, or share your own variations in the comments. Happy coding, and may your documents always look as polished as this shadowed rectangle!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

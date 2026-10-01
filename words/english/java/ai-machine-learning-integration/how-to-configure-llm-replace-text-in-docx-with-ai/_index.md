@@ -223,7 +223,7 @@ Now that you know **how to replace text in DOCX** with AI, you might want to exp
 
 Each of these builds on the same `AiModelConfig` and `DocumentAi` foundation, so you won’t have to start from scratch.
 
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
