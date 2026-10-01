@@ -36,8 +36,12 @@ Aspose.Words for Java を使って、Word 文書の高品質なサムネイル�
 
 ### [Word の図形に影を追加する – 完全 Aspose.Words ガイド](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Aspose.Words for Java を使用して、Word 文書内の図形に影効果を適用する方法をステップバイステップで解説します。
+
 ### [C# で図形に影効果を適用する – ステップバイステップ ガイド](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 C# で図形に影効果を適用する手順をステップバイステップで解説します。
+
+### [空白のドキュメントを作成し、Aspose.Words で図形を追加する方法（C#）](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+Aspose.Words for C# を使用して、空白のドキュメントを作成し、図形を追加する手順を解説します。
 
 ## 追加リソース
 

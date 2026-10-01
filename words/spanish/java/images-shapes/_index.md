@@ -36,8 +36,12 @@ Aprenda a generar miniaturas de alta calidad y mapas de bits de tamaño personal
 
 ### [Agregar sombra a una forma en Word – Guía completa de Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Aprenda a aplicar sombras a formas en documentos Word usando Aspose.Words para Java.
+
 ### [Aplicar efecto de sombra a una forma en C# – Guía paso a paso](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Aprenda a agregar sombras a formas en C# usando Aspose.Words, con ejemplos claros y paso a paso.
+
+### [Cómo crear un documento en blanco y agregar formas con Aspose.Words en C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+Aprenda a crear un documento vacío y añadir formas usando Aspose.Words en C#.
 
 ## Recursos adicionales
 

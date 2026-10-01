@@ -39,6 +39,9 @@ Leer hoe u een schaduw aan vormen toevoegt in Word met Aspose.Words voor Java.
 ### [Schaduweffect toepassen op een vorm in C# – Stapsgewijze handleiding](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Leer hoe u een schaduweffect op een vorm toepast in C# met Aspose.Words.
 
+### [Leeg document maken en vormen toevoegen met Aspose.Words in C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+Leer hoe u een leeg Word‑document maakt en vormen toevoegt met Aspose.Words in C#.
+
 ## Aanvullende bronnen
 
 ## Aanvullende bronnen
