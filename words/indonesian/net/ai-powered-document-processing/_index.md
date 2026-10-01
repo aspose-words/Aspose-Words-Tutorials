@@ -46,6 +46,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara Memeriksa Tata Bahasa di DOCX dengan Aspose.Words – gunakan gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Pelajari cara menggunakan Aspose.Words dan model gpt-4 turbo untuk memeriksa tata bahasa dokumen DOCX secara otomatis. |
 | [Cara Memeriksa Tata Bahasa di Word dengan Aspose.Words AI – Panduan Lengkap](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Pelajari cara menggunakan Aspose.Words AI untuk memeriksa tata bahasa dokumen Word secara otomatis dalam panduan lengkap ini. |
 | [Cara Memeriksa Tata Bahasa di C# Menggunakan LLM Lokal](./how-to-check-grammar-in-c-using-a-local-llm/) | Pelajari cara memeriksa tata bahasa kode C# dengan model bahasa lokal untuk meningkatkan kualitas kode secara otomatis. |
+| [Cara menerjemahkan docx ke bahasa Prancis dengan Aspose.Words AI di C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Pelajari cara menerjemahkan file DOCX ke bahasa Prancis menggunakan Aspose.Words AI dengan C# secara otomatis. |
+| [Cara merangkum file docx dengan Aspose.Words AI di C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Pelajari cara merangkum file DOCX menggunakan Aspose.Words AI dengan C# secara otomatis. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

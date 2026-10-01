@@ -47,6 +47,8 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Cách kiểm tra ngữ pháp trong Word với Aspose.Words AI – Hướng dẫn đầy đủ](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Khám phá cách sử dụng Aspose.Words AI để tự động kiểm tra và sửa lỗi ngữ pháp trong tài liệu Word một cách nhanh chóng. |
 | [Cách kiểm tra ngữ pháp trong C# bằng LLM cục bộ](./how-to-check-grammar-in-c-using-a-local-llm/) | Tìm hiểu cách sử dụng LLM cục bộ trong C# để kiểm tra ngữ pháp tài liệu nhanh chóng và chính xác. |
 | [Tóm tắt tài liệu Word bằng AI – OpenAI vs Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | So sánh cách OpenAI và Gemini tóm tắt tài liệu Word bằng AI trong Aspose.Words cho .NET. |
+| [Cách dịch docx sang tiếng Pháp bằng Aspose.Words AI trong C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Hướng dẫn sử dụng Aspose.Words AI trong C# để dịch tài liệu DOCX sang tiếng Pháp một cách nhanh chóng. |
+| [Cách tóm tắt tệp docx với Aspose.Words AI trong C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Hướng dẫn chi tiết sử dụng Aspose.Words AI trong C# để tóm tắt các tệp docx nhanh chóng và hiệu quả. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

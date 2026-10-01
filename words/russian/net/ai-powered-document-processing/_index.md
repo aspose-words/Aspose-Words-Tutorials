@@ -47,6 +47,8 @@
 | [Как проверить грамматику в Word с помощью Aspose.Words AI – Полное руководство](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Узнайте, как использовать AI Aspose.Words для автоматической проверки грамматики в документах Word. |
 | [Как проверить грамматику в C# с помощью локальной LLM](./how-to-check-grammar-in-c-using-a-local-llm/) | Узнайте, как использовать локальную LLM для проверки грамматики в C# с Aspose.Words, улучшая качество текста автоматически. |
 | [Резюмирование Word-документа с ИИ – OpenAI vs Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | Сравните, как модели OpenAI и Gemini резюмируют документы Word с помощью Aspose.Words для .NET. |
+| [Как перевести docx на французский с помощью Aspose.Words AI в C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Полное руководство по переводу DOCX‑файлов на французский язык с использованием Aspose.Words и ИИ в C#. |
+| [Как резюмировать файлы docx с помощью Aspose.Words AI на C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Подробное руководство по созданию резюме docx‑файлов с помощью Aspose.Words AI на C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

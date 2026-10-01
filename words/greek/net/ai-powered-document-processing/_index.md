@@ -46,6 +46,8 @@
 | [Πώς να ελέγξετε την γραμματική σε DOCX με το Aspose.Words – χρήση gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words για .NET με το gpt-4 turbo για έλεγχο γραμματικής σε αρχεία DOCX. |
 | [Πώς να Ελέγξετε τη Γραμματική στο Word με το Aspose.Words AI – Πλήρης Οδηγός](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words AI για αυτόματο έλεγχο γραμματικής σε έγγραφα Word, βήμα-βήμα. |
 | [Πώς να Ελέγξετε τη Γραμματική σε C# Χρησιμοποιώντας Τοπικό LLM](./how-to-check-grammar-in-c-using-a-local-llm/) | Μάθετε πώς να ενσωματώσετε ένα τοπικό μοντέλο γλώσσας για αυτόματο έλεγχο γραμματικής σε κώδικα C# με Aspose.Words. |
+| [Πώς να μεταφράσετε docx στα γαλλικά με το Aspose.Words AI σε C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words AI σε C# για να μεταφράσετε αρχεία docx στα γαλλικά. |
+| [Πώς να συνοψίσετε αρχεία docx με το Aspose.Words AI σε C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Μάθετε πώς να συνοψίσετε αρχεία docx χρησιμοποιώντας το Aspose.Words AI σε C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

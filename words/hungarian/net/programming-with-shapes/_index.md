@@ -25,6 +25,7 @@ Az Aspose.Words for .NET használatával és az alábbi oktatóanyagok követés
 | Cím | Leírás |
 | --- | --- |
 | [Csoport alakzat hozzáadása](./add-group-shape/) | Tanulja meg, hogyan adhat hozzá csoportos alakzatokat Word-dokumentumokhoz az Aspose.Words for .NET használatával ezzel az átfogó, lépésről lépésre szóló oktatóanyaggal. |
+| [Alakzatok csoportosítása Wordben C# és Aspose.Words használatával](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | Tanulja meg, hogyan csoportosíthatja az alakzatokat Word dokumentumokban C# és Aspose.Words segítségével lépésről lépésre. |
 | [Alakzat beszúrása](./insert-shape/) | Tanulja meg, hogyan szúrhat be és manipulálhat alakzatokat Word-dokumentumokban az Aspose.Words for .NET segítségével lépésről lépésre bemutató útmutatónkkal. |
 | [Képarány rögzítve](./aspect-ratio-locked/) | Ismerje meg, hogyan zárolhatja az alakzatok képarányát Word-dokumentumokban az Aspose.Words for .NET segítségével. Kövesse ezt a lépésről lépésre szóló útmutatót a képek és alakzatok arányosságának megőrzéséhez. |
 | [Elrendezés a cellában](./layout-in-cell/) | Tanulja meg, hogyan állíthatja be a cellák elrendezését az Aspose.Words for .NET használatával ebből az átfogó útmutatóból. Tökéletes azoknak a fejlesztőknek, akik testre szeretnék szabni a Word-dokumentumokat. |

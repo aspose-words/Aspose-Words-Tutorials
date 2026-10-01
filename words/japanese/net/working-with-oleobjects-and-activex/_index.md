@@ -28,7 +28,7 @@ Aspose.Words for .NET の OLE および ActiveX オブジェクトを使った W
 | [Word文書にOLEオブジェクトをアイコンとして挿入する](./insert-ole-object-as-icon/) Aspose.Words for .NET を使用して、Word 文書に OLE オブジェクトをアイコンとして挿入する方法を学びましょう。ステップバイステップのガイドに従って、文書をさらに魅力的に仕上げましょう。 |
 | [ストリームを使用してOLEオブジェクトをアイコンとして挿入](./insert-ole-object-as-icon-using-stream/) この詳細なステップバイステップのチュートリアルでは、Aspose.Words for .NET でストリームを使用して OLE オブジェクトをアイコンとして挿入する方法を学習します。 |
 | [Word ファイルから Active XControl プロパティを読み取る](./read-active-xcontrol-properties/) Aspose.Words for .NET を使用して Word ファイルから ActiveX コントロールのプロパティを読み取る方法をステップバイステップで学習します。ドキュメント自動化スキルを向上させましょう。 |
-
+| [C# で Word に ActiveX コントロールを追加する方法](./how-to-add-an-activex-control-word-in-word-with-c/) Aspose.Words for .NET と C# を使用して、Word 文書に ActiveX コントロールを挿入する手順を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

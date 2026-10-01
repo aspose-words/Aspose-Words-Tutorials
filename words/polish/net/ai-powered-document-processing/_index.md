@@ -46,6 +46,8 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Jak sprawdzić gramatykę w DOCX przy użyciu Aspose.Words – użyj gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Dowiedz się, jak wykorzystać model gpt-4 turbo w Aspose.Words dla .NET do automatycznej korekty gramatycznej dokumentów DOCX. |
 | [Jak sprawdzić gramatykę w Wordzie przy użyciu Aspose.Words AI – Kompletny przewodnik](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Dowiedz się, jak używać Aspose.Words AI do automatycznego sprawdzania gramatyki w dokumentach Word. |
 | [Jak sprawdzić gramatykę w C# przy użyciu lokalnego LLM](./how-to-check-grammar-in-c-using-a-local-llm/) | Dowiedz się, jak wykorzystać lokalny model językowy do sprawdzania gramatyki w aplikacjach C# przy użyciu Aspose.Words. |
+| [Jak przetłumaczyć docx na francuski przy użyciu Aspose.Words AI w C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Kompletny przewodnik, jak używać Aspose.Words AI w C# do tłumaczenia dokumentów DOCX na język francuski. |
+| [Jak podsumować pliki docx przy użyciu Aspose.Words AI w C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Kompletny przewodnik, jak używać Aspose.Words AI w C# do podsumowywania plików docx. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

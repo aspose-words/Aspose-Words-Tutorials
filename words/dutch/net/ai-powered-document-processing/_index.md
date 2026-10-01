@@ -47,6 +47,8 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Hoe grammatica in Word te controleren met Aspose.Words AI – Complete gids](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Leer hoe u met Aspose.Words AI grammaticale fouten in Word-documenten detecteert en corrigeert voor foutloze inhoud. |
 | [Hoe grammatica te controleren in C# met een lokale LLM](./how-to-check-grammar-in-c-using-a-local-llm/) | Leer hoe u met een lokale LLM grammatica controleert in C# voor nauwkeurige tekstcorrectie. |
 | [Samenvatten van Word-document met AI – OpenAI vs Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | Vergelijk hoe OpenAI en Gemini Word-documenten samenvatten met AI in Aspose.Words voor .NET. |
+| [Hoe docx-bestanden samen te vatten met Aspose.Words AI in C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Leer hoe u docx-bestanden automatisch kunt samenvatten met Aspose.Words AI in C#. |
+| [Hoe docx naar Frans te vertalen met Aspose.Words AI in C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
