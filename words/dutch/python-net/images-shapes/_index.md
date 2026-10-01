@@ -40,6 +40,9 @@ Leer hoe u schaduweffecten aan tekst of vormen toevoegt in C# met Aspose.Words.
 ### [Rechthoek toevoegen aan PDF met Aspose.Words – Stapsgewijze gids](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 Leer hoe u een rechthoek toevoegt aan een PDF met Aspose.Words via een duidelijke stap‑voor‑stap gids.
 
+### [Hoe een rechthoekvorm te maken in een Word-document met Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Leer hoe u een rechthoekvorm toevoegt aan een Word-document met Python en Aspose.Words.
+
 ## Aanvullende bronnen
 
 - [Aspose.Words voor Python-net-documentatie](https://docs.aspose.com/words/python-net/)

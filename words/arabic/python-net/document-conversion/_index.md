@@ -45,6 +45,12 @@
 تعلم كيفية إنشاء ملفات PDF ميسّرة من مستندات Word باستخدام Aspose.Words لبايثون لضمان إمكانية الوصول.
 ### [حفظ Word كـ Markdown – دليل كامل مع تصدير PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 تعلم كيفية حفظ مستندات Word كملفات Markdown مع تصدير PDF/A‑UA باستخدام Aspose.Words لبايثون.
+### [كيفية تصدير Word إلى PDF وإنشاء PDF/UA ميسّر](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
+تعلم كيفية تصدير مستندات Word إلى PDF وإنشاء ملفات PDF/UA ميسّرة باستخدام Aspose.Words لبايثون.
+### [كيفية تحويل DOCX إلى PDF في بايثون باستخدام Aspose.Words](./how-to-convert-docx-to-pdf-in-python-using-aspose-words/)
+تعلم كيفية تحويل ملفات DOCX إلى PDF بسهولة باستخدام Aspose.Words لبايثون.
+### [كيفية استعادة Word وتحويله إلى Markdown مع LaTeX](./how-to-recover-word-and-convert-to-markdown-with-latex/)
+تعلم كيفية استعادة ملفات Word التالفة وتحويلها إلى Markdown مع تضمين صيغ LaTeX باستخدام Aspose.Words لبايثون.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

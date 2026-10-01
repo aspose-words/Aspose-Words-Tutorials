@@ -40,6 +40,8 @@ Lär dig steg för steg hur du applicerar skuggor på objekt i C# med Aspose.Wor
 ### [Lägg till rektangel i PDF med Aspose.Words – Steg‑för‑steg‑guide](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 Lär dig hur du lägger till en rektangel i PDF-dokument med Aspose.Words i en detaljerad steg‑för‑steg‑guide.
 
+### [Hur man skapar rektangelform i ett Word-dokument med Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+
 ## Ytterligare resurser
 
 - [Aspose.Words för Python-net-dokumentation](https://docs.aspose.com/words/python-net/)

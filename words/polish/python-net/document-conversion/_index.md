@@ -43,14 +43,23 @@ Dowiedz się, jak odzyskać uszkodzony plik DOCX i przekonwertować go do format
 ### [Jak wyeksportować LaTeX z Worda – konwertuj DOCX na Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Dowiedz się, jak przy użyciu Aspose.Words for Python wyeksportować dokument Word do LaTeX i przekonwertować go na Markdown.
 
+### [Jak wyeksportować Word do PDF i wygenerować dostępny PDF/UA](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python wyeksportować dokument Word do PDF oraz stworzyć dostępny PDF/UA.
+
 ### [Utwórz PDF z Worda – kompletny przewodnik w Pythonie z Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Dowiedz się, jak przy użyciu Aspose.Words for Python utworzyć PDF z dokumentu Word.
 
 ### [Utwórz dostępny PDF z Worda przy użyciu Pythona – przewodnik krok po kroku](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Dowiedz się, jak przy użyciu Aspose.Words for Python utworzyć dostępny PDF z dokumentu Word, spełniający standardy dostępności.
 
-### [Zapisz Word jako Markdown – kompletny przewodnik z eksportem PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
+### [Zapisz Word jako Markdown – kompletny przewodnik z eksportem PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua/)
 Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument Word jako Markdown i wyeksportować go do PDF/A‑UA.
+
+### [Jak przekonwertować DOCX na PDF w Pythonie przy użyciu Aspose.Words](./how-to-convert-docx-to-pdf-in-python-using-aspose-words/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python przekonwertować plik DOCX na PDF.
+
+### [Jak odzyskać Word i przekonwertować na Markdown z LaTeX](./how-to-recover-word-and-convert-to-markdown-with-latex/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python odzyskać uszkodzony plik Word i przekonwertować go na Markdown z obsługą LaTeX.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

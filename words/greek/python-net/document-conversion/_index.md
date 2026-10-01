@@ -43,8 +43,14 @@
 Μάθετε πώς να δημιουργείτε PDF από έγγραφα Word χρησιμοποιώντας Aspose.Words για Python. Πλήρης οδηγός.
 ### [Δημιουργία Προσβάσιμου PDF από Word με Python – Οδηγός Βήμα‑βήμα](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF από έγγραφα Word χρησιμοποιώντας Aspose.Words για Python. Οδηγός βήμα‑βήμα.
+### [Πώς να εξάγετε Word σε PDF και να δημιουργήσετε προσβάσιμο PDF/UA](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
+Μάθετε πώς να μετατρέψετε έγγραφα Word σε PDF και να τα κάνετε προσβάσιμα σύμφωνα με το πρότυπο PDF/UA χρησιμοποιώντας Aspose.Words για Python.
 ### [Αποθήκευση Word ως Markdown – Πλήρης Οδηγός με Εξαγωγή PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Μάθετε πώς να αποθηκεύσετε Word ως Markdown και να εξάγετε PDF/A‑UA με το Aspose.Words για Python.
+### [Πώς να μετατρέψετε DOCX σε PDF με Python χρησιμοποιώντας το Aspose.Words](./how-to-convert-docx-to-pdf-in-python-using-aspose-words/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF με το Aspose.Words για Python.
+### [Πώς να ανακτήσετε Word και να το μετατρέψετε σε Markdown με LaTeX](./how-to-recover-word-and-convert-to-markdown-with-latex/)
+Μάθετε πώς να ανακτήσετε αρχεία Word και να τα μετατρέψετε σε Markdown με υποστήριξη LaTeX χρησιμοποιώντας Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -40,17 +40,26 @@ Word 문서를 Markdown으로 저장하는 방법을 Python으로 완벽히 안�
 ### [손상된 DOCX 복구 및 Word를 Markdown으로 변환](./recover-corrupted-docx-convert-word-to-markdown/)
 손상된 DOCX 파일을 복구하고 Word 문서를 Markdown 형식으로 변환하는 방법을 단계별로 안내합니다.
 
+### [Word 복구 및 LaTeX와 함께 Markdown으로 변환하는 방법](./how-to-recover-word-and-convert-to-markdown-with-latex/)
+Word 문서를 복구하고 LaTeX를 사용해 Markdown으로 변환하는 단계별 가이드.
+
 ### [Word에서 LaTeX 내보내기 – DOCX를 Markdown으로 변환](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Word 문서를 LaTeX 형식으로 내보내고, DOCX를 Markdown으로 변환하는 방법을 단계별로 안내합니다.
 
 ### [Word에서 PDF 만들기 – Aspose.Words와 함께하는 완전 Python 가이드](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Aspose.Words를 사용해 Word 문서를 PDF로 변환하는 방법을 단계별로 안내합니다.
 
+### [Python에서 Aspose.Words를 사용해 DOCX를 PDF로 변환하는 방법](./how-to-convert-docx-to-pdf-in-python-using-aspose-words/)
+Aspose.Words를 활용해 DOCX 파일을 PDF로 변환하는 방법을 단계별로 안내합니다!
+
 ### [Python으로 Word에서 접근성 PDF 만들기 – 단계별 가이드](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Aspose.Words를 활용해 Word 문서를 접근성 PDF로 변환하는 방법을 단계별로 안내합니다.
 
 ### [Word를 Markdown으로 저장하기 – PDF/A‑UA 내보내기 완전 가이드](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Word 문서를 Markdown으로 저장하고 PDF/A‑UA 형식으로 내보내는 방법을 단계별로 안내합니다.
+
+### [Word를 PDF로 내보내고 접근성 PDF/UA 만들기](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
+Aspose.Words를 사용해 Word 문서를 PDF로 변환하고 접근성 PDF/UA를 생성하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

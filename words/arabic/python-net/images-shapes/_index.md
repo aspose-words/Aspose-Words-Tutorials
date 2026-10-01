@@ -40,6 +40,9 @@
 ### [إضافة مستطيل إلى PDF باستخدام Aspose.Words – دليل خطوة بخطوة](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 تعلم كيفية إضافة مستطيل إلى ملفات PDF باستخدام Aspose.Words خطوة بخطوة.
 
+### [كيفية إنشاء شكل مستطيل في مستند Word باستخدام Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+تعلم كيفية إنشاء شكل مستطيل داخل مستند Word باستخدام مكتبة Aspose.Words للغة Python.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Python-net](https://docs.aspose.com/words/python-net/)

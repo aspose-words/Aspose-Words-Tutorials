@@ -38,13 +38,19 @@ Ismerje meg, hogyan konvertálhatja a Word dokumentumokat Markdown formátumba P
 ### [Sérült DOCX helyreállítása és Word konvertálása Markdown formátumba](./recover-corrupted-docx-convert-word-to-markdown/)
 Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlokat, és konvertálhatja őket Markdown formátumba Python segítségével.
 ### [Hogyan exportáljon LaTeX-et a Word-ből – DOCX konvertálása Markdown formátumba](./how-to-export-latex-from-word-convert-docx-to-markdown/)
-Ismerje meg, hogyan exportálhat LaTeX-et a Word dokumentumokból, és konvertálhatja a DOCX fájlokat Markdown formátumba Python segítségével.
+Ismerje meg, hogyan exportálhat LaTeX-et a Word dokumentumokból, és konvertálhatja a DOCX fájlokat Markdown formátumba.
 ### [PDF létrehozása Word-ből – Teljes Python útmutató az Aspose.Words segítségével](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Lépésről lépésre bemutatjuk, hogyan konvertálhat Word dokumentumokat PDF‑be Python és Aspose.Words használatával.
+### [Hogyan konvertáljon DOCX-et PDF-be Pythonban az Aspose.Words használatával](./how-to-convert-docx-to-pdf-in-python-using-aspose-words/)
+Ismerje meg, hogyan konvertálhatja a DOCX fájlokat PDF formátumba Python és Aspose.Words segítségével.
 ### [Hozzon létre akadálymentes PDF-et Word-ből Python segítségével – Lépésről lépésre útmutató](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Ismerje meg, hogyan hozhat létre akadálymentes PDF-et Word dokumentumokból Python és Aspose.Words használatával.
+### [Hogyan exportáljon Word-et PDF-be, és generáljon akadálymentes PDF/UA-t](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
+Ismerje meg, hogyan exportálhat Word dokumentumot PDF-be, és hozhat létre akadálymentes PDF/UA-t Python és Aspose.Words segítségével.
 ### [Word mentése Markdown formátumba – Teljes útmutató PDF/A‑UA exporttal](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Ismerje meg, hogyan mentheti a Word dokumentumokat Markdown formátumba, és exportálhatja őket PDF/A‑UA szabvánnyal Python segítségével.
+### [Hogyan állítsa helyre a Word dokumentumot és konvertálja Markdown formátumba LaTeX segítségével](./how-to-recover-word-and-convert-to-markdown-with-latex/)
+Ismerje meg, hogyan állíthatja helyre a Word dokumentumokat, és konvertálhatja őket Markdown formátumba LaTeX használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

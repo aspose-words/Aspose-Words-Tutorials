@@ -40,6 +40,9 @@ Hướng dẫn chi tiết cách thêm hiệu ứng bóng cho đối tượng tro
 ### [Thêm hình chữ nhật vào PDF với Aspose.Words – Hướng dẫn từng bước](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 Hướng dẫn chi tiết cách chèn hình chữ nhật vào tài liệu PDF bằng Aspose.Words trong Python-net.
 
+### [Cách tạo hình chữ nhật trong tài liệu Word bằng Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Hướng dẫn chi tiết cách chèn hình chữ nhật vào tài liệu Word bằng Python và Aspose.Words.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.Words cho Tài liệu Python-net](https://docs.aspose.com/words/python-net/)
