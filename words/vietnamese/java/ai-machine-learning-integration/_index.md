@@ -46,7 +46,7 @@ Thêm phụ thuộc Aspose.Words Maven và client HTTP mà bạn sẽ dùng đ�
 *(Đoạn mã Maven thực tế được cung cấp trong tutorial liên kết; giữ nguyên không thay đổi.)*
 
 ### Step 2: Call the AI Service
-Sử dụng client HTTP ưa thích để gửi văn bản tài liệu tới mô hình AI và nhận phản hồi—dù là tóm tắt, dịch hay nội dung được tạo trực tiếp.
+Sử dụng client HTTP ưa thích để gửi văn bản tài liệu tới mô hình AI và nhận phản hồi—dù là tóm tắt, dịch hay nội dung được tạo.
 
 ### Step 3: Insert AI Output into the Document
 Với Aspose.Words, bạn có thể tạo một `DocumentBuilder` mới, di chuyển đến vị trí mong muốn, và ghi chuỗi do AI tạo trực tiếp vào tệp.

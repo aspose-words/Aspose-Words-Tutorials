@@ -44,7 +44,7 @@ O processamento de documentos com IA combina a manipulação tradicional de docu
 
 ### Etapa 1: Configurar seu projeto
 Adicione a dependência Maven do Aspose.Words e o cliente HTTP que você usará para chamar o serviço de IA.  
-*(O trecho Maven real é fornecido no tutorial vinculado; mantenha‑lo inalterado.)*
+*(O trecho Maven real é fornecido no tutorial vinculado; mantenha‑o inalterado.)*
 
 ### Etapa 2: Chamar o serviço de IA
 Use seu cliente HTTP preferido para enviar o texto do documento ao modelo de IA e receber uma resposta—seja um resumo, tradução ou conteúdo gerado.
@@ -83,7 +83,7 @@ Aprenda a configurar um modelo de linguagem grande para substituir automaticamen
 ## Perguntas Frequentes
 
 **Q: Posso usar IA para traduzir um documento PDF sem convertê‑lo primeiro?**  
-A: Sim. Extraia o texto do PDF com Aspose.Words, envie‑lo para um modelo de tradução de IA e, em seguida, reconstrua o PDF com o texto traduzido.
+A: Sim. Extraia o texto do PDF com Aspose.Words, envie‑o para um modelo de tradução de IA e, em seguida, reconstrua o PDF com o texto traduzido.
 
 **Q: Como a automação de documentos com IA afeta o desempenho?**  
 A: O processamento pesado é realizado pelo serviço externo de IA; Aspose.Words lida apenas com a manipulação do documento, que é altamente performática mesmo para arquivos grandes.
