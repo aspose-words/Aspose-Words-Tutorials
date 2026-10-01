@@ -167,6 +167,11 @@ Naučte se, jak pomocí Aspose.Words převést dokument Word do PDF v Javě pomo
 
 ### [Vytvořte přístupný PDF z DOCX v Javě – kompletní průvodce](./create-accessible-pdf-from-docx-in-java-full-guide/)
 Naučte se, jak pomocí Aspose.Words for Java převést DOCX do přístupného PDF s podporou čteček obrazovky a značek.
+### [Export DOCX do PDF – Kompletní průvodce tvorbou přístupných PDF](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+Kompletní návod, jak převést DOCX do PDF a vytvořit přístupné PDF soubory s podporou čteček obrazovky.
+
+### [docx do pdf tutoriál – Převod Wordu do PDF s LowCode](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
+Naučte se převést soubory DOCX do PDF pomocí LowCode řešení v Aspose.Words for Java.
 
 ## Často kladené otázky
 

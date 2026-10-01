@@ -173,6 +173,12 @@ Apprenez à convertir un document Word en PDF en Java avec Aspose.Words grâce �
 ### [Créer un PDF accessible à partir de DOCX en Java – Guide complet](./create-accessible-pdf-from-docx-in-java-full-guide/)
 Apprenez à convertir un fichier DOCX en PDF accessible en Java avec Aspose.Words, en respectant les normes d’accessibilité.
 
+### [Export DOCX vers PDF – Guide complet pour créer des PDF accessibles](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+Apprenez à convertir des fichiers DOCX en PDF accessibles, en respectant les normes d’accessibilité et en conservant la mise en page.
+
+### [Tutoriel docx vers pdf – Convertir Word en PDF avec LowCode](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
+Apprenez à convertir des fichiers DOCX en PDF en utilisant la plateforme LowCode, avec un exemple complet et du code prêt à l’emploi.
+
 ## Questions fréquentes
 
 **Q : Comment ajouter un filigrane à un PDF existant avec Aspose.Words ?**  

@@ -164,6 +164,11 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 
 ### [สร้าง PDF ที่เข้าถึงได้จาก DOCX ใน Java – คู่มือเต็ม](./create-accessible-pdf-from-docx-in-java-full-guide/)
 เรียนรู้วิธีแปลง DOCX เป็น PDF ที่รองรับการเข้าถึงสำหรับผู้ใช้เครื่องมือช่วยเหลือโดยใช้ Aspose.Words for Java อย่างละเอียด
+### [docx to pdf tutorial – Convert Word to PDF with LowCode](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF อย่างง่ายด้วย LowCode โดยใช้ Aspose.Words for Java
+
+### [ส่งออก DOCX เป็น PDF – คู่มือฉบับสมบูรณ์สำหรับการสร้าง PDF ที่เข้าถึงได้](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF พร้อมทำให้ไฟล์เป็น PDF ที่เข้าถึงได้ตามมาตรฐาน
 
 ## คำถามที่พบบ่อย
 

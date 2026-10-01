@@ -145,6 +145,8 @@ Naučte se, jak zachytit a zpracovat varování o nahrazení fontů při načít
 
 ### [Jak získat chybějící fonty v Javě – Průvodce Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 ### [Jak obnovit soubory DOCX pomocí Aspose.Words – krok‑za‑krokem průvodce](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
+### [Jak obnovit DOCX – Nastavit režim obnovy a zobrazit varování](./how-to-recover-docx-set-recovery-mode-display-warnings/)
+Naučte se nastavit režim obnovy při načítání DOCX souborů a zobrazit varování pomocí Aspose.Words for Java.
 
 ## Často kladené otázky
 

@@ -134,6 +134,8 @@ Pelajari cara membuat LoadOptions di Java untuk mendeteksi font yang hilang dan 
 
 ### [Memulihkan File Word Rusak – Panduan C# untuk Membuka dengan Aman](./recover-corrupted-word-file-c-guide-to-open-safely/)
 Pelajari cara memulihkan dan membuka file Word yang rusak menggunakan C# dengan aman melalui langkah-langkah praktis.
+### [Cara Memulihkan DOCX – Atur Mode Pemulihan & Tampilkan Peringatan](./how-to-recover-docx-set-recovery-mode-display-warnings/)
+Pelajari cara memulihkan file DOCX dengan mengaktifkan mode pemulihan dan menampilkan peringatan untuk mengidentifikasi masalah.
 
 ### [Memulihkan File DOCX dengan Aspose.Words – Panduan Langkah demi Langkah](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 

@@ -108,6 +108,7 @@ Aspose.Words for Java의 다재다능함을 살펴보며 다양한 형식으로 
 ### [Java에서 누락된 글꼴 가져오기 – Aspose.Words 가이드](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 ### [Aspose.Words를 사용한 DOCX 파일 복구 – 단계별 가이드](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 ### [docx 복구 방법 – Java로 복구된 문서 저장](./how-to-recover-docx-save-recovered-document-using-java/)
+### [DOCX 복구 방법 – 복구 모드 설정 및 경고 표시](./how-to-recover-docx-set-recovery-mode-display-warnings/)
 
 ## 자주 묻는 질문
 

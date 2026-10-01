@@ -160,6 +160,8 @@ Hướng dẫn chi tiết cách nhúng hình ảnh vào tài liệu Markdown khi
 
 ### [Lưu docx thành txt – Hướng dẫn nhanh C# với xuất LaTeX Math](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
 Hướng dẫn cách lưu tài liệu DOCX thành tệp TXT trong C#, đồng thời xuất công thức LaTeX một cách nhanh chóng.
+### [Xuất DOCX sang PDF – Hướng Dẫn Toàn Diện Để Tạo PDF Truy cập Được](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+Xuất tài liệu DOCX sang PDF một cách toàn diện, bao gồm hướng dẫn tạo PDF có khả năng truy cập cho người khuyết tật.
 
 ## Câu hỏi thường gặp
 

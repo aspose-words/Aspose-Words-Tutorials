@@ -172,6 +172,11 @@ Erfahren Sie, wie Sie Bilder beim Konvertieren von Word‑Dokumenten nach Markdo
 
 ### [PDF‑Speicheroptionen – DOCX in PDF in Java mit voller Kontrolle konvertieren](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 Erfahren Sie, wie Sie mit PDF‑Speicheroptionen die Konvertierung von DOCX nach PDF in Java präzise steuern können.
+### [Exportieren von DOCX nach PDF – Komplettleitfaden zur Erstellung barrierefreier PDFs](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+Erfahren Sie, wie Sie DOCX‑Dateien in PDF konvertieren und dabei barrierefreie PDFs mit Tags, Lesezeichen und korrekter Struktur erzeugen.
+
+### [docx‑to‑pdf‑Tutorial – Word mit LowCode in PDF konvertieren](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
+Erfahren Sie, wie Sie mit LowCode Word‑Dokumente schnell und einfach in PDF umwandeln, ohne umfangreichen Code zu schreiben.
 
 ## Häufig gestellte Fragen
 

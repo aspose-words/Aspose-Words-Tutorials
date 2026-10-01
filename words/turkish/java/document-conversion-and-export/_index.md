@@ -163,6 +163,11 @@ Aspose.Words for Java kullanarak Word belgelerini PDF’ye dönüştürmeyi adı
 
 ### [Java’da DOCX’ten Erişilebilir PDF Oluşturma – Tam Kılavuz](./create-accessible-pdf-from-docx-in-java-full-guide/)
 Java ve Aspose.Words kullanarak DOCX dosyalarından erişilebilir PDF oluşturmayı adım adım öğrenin.
+### [DOCX'i PDF'e Dışa Aktarma – Erişilebilir PDF'ler Oluşturma İçin Tam Rehber](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+DOCX dosyalarını PDF'e dönüştürürken erişilebilirlik özelliklerini eklemeyi adım adım öğrenin.
+
+### [docx to pdf öğreticisi – LowCode ile Word'ü PDF'e Dönüştürme](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
+LowCode platformunu kullanarak Word belgelerini hızlıca PDF formatına dönüştürmeyi adım adım öğrenin.
 
 ## Sık Sorulan Sorular
 

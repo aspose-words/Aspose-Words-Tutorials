@@ -116,6 +116,11 @@ Aprenda a generar PDFs accesibles conforme a PDF/UA a partir de documentos Word 
 ### [Opciones de guardado PDF – Convertir DOCX a PDF en Java con control total](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 Aprende a usar PdfSaveOptions para convertir DOCX a PDF en Java con control total sobre la salida.
 ### [Crear PDF accesible desde DOCX en Java – Guía completa](./create-accessible-pdf-from-docx-in-java-full-guide/)
+### [Exportar DOCX a PDF – Guía completa para crear PDFs accesibles](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+Aprende a exportar documentos DOCX a PDF accesibles siguiendo esta guía completa, con ejemplos de cumplimiento PDF/UA usando Aspose.Words for Java.
+
+### [docx a pdf tutorial – Convertir Word a PDF con LowCode](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
+Aprende a convertir documentos Word a PDF usando LowCode con Aspose.Words, sin necesidad de programar extensamente.
 
 ## Preguntas frecuentes
 

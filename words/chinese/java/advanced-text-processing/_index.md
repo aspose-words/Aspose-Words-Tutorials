@@ -65,6 +65,9 @@ Aspose.Words 为这些任务提供了专用类：
 ### [精通 Aspose.Words Java：LayoutCollector 与 LayoutEnumerator 完整指南，适用于文本处理](./aspose-words-java-layoutcollector-enumerator-guide/)
 发掘 Aspose.Words Java 的 **LayoutCollector** 与 **LayoutEnumerator** 在高级文本处理中的强大功能。学习如何高效管理文档布局、分析分页并控制页码。
 
+### [在 Word 中使用 C# 创建矩形形状 – 步骤指南](./create-rectangle-shape-in-word-with-c-step-by-step-guide/)
+学习如何使用 C# 在 Word 文档中创建矩形形状，包括设置尺寸、颜色和位置的完整步骤。
+
 ## 常见使用场景
 
 | 场景 | 帮助方式 |

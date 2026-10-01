@@ -171,6 +171,8 @@ weight: 22
 
 ### [إنشاء PDF قابل للوصول من DOCX في Java – دليل كامل](./create-accessible-pdf-from-docx-in-java-full-guide/)
 تعلم كيفية تحويل مستند DOCX إلى PDF قابل للوصول وفق معايير WCAG باستخدام Aspose.Words for Java خطوة بخطوة.
+### [تصدير DOCX إلى PDF – دليل شامل لإنشاء ملفات PDF قابلة للوصول](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+دليل شامل لتصدير مستندات DOCX إلى PDF مع مراعاة إمكانية الوصول.
 
 ## الأسئلة المتكررة
 

@@ -151,6 +151,7 @@ Aspose.Words for Java में फ़ॉन्ट प्रतिस्था�
 ### [टूटा हुआ Word दस्तावेज़ पुनर्प्राप्त करने के लिए रिकवरी मोड सेट करें](./set-recovery-mode-to-recover-broken-word-document/)
 
 ### [Java में लापता फ़ॉन्ट्स कैसे प्राप्त करें – Aspose.Words गाइड](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
+### [DOCX को पुनर्प्राप्त करने का तरीका – रिकवरी मोड सेट करें और चेतावनियाँ दिखाएँ](./how-to-recover-docx-set-recovery-mode-display-warnings/)
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

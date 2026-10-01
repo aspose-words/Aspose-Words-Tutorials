@@ -99,6 +99,12 @@ weight: 22
 ### [Форматирование таблиц и стилей таблиц в Aspose.Words для Java](./formatting-tables-and-table-styles/)
 Узнайте, как форматировать таблицы и применять стили таблиц в Aspose.Words для Java. Исследуйте пошаговые руководства с исходным кодом для эффективного форматирования таблиц. Улучшите макет ваших документов с Aspose.Words.
 
+### [Экспорт DOCX в PDF — Полное руководство по созданию доступных PDF](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+Полное руководство по экспорту DOCX в PDF с поддержкой доступности, включая настройку тегов, альтернативный текст и проверку соответствия.
+
+### [Учебник по docx в pdf – Конвертация Word в PDF с LowCode](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
+Узнайте, как быстро преобразовать документы Word в PDF с помощью LowCode решений в Aspose.Words.
+
 ### [Сохранение docx в txt – Быстрое руководство C# с экспортом LaTeX‑математики](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
 Узнайте, как конвертировать файлы DOCX в текстовый формат TXT и экспортировать формулы LaTeX с помощью Aspose.Words для C#.
 

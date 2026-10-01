@@ -100,6 +100,11 @@ Aspose.Words for Java を使用して Word 文書を PDF に変換する手順�
 
 ### [Java で DOCX からアクセシブル PDF を作成する – 完全ガイド](./create-accessible-pdf-from-docx-in-java-full-guide/)
 DOCX をアクセシブルな PDF に変換する手順と設定方法をステップバイステップで解説します。
+### [DOCX を PDF にエクスポート – アクセシブル PDF 作成の完全ガイド](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+DOCX を PDF に変換し、アクセシビリティ要件を満たす PDF を作成する手順をステップバイステップで解説します。
+
+### [docx から pdf チュートリアル – LowCode で Word を PDF に変換](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
+LowCode ソリューションを使用して、Word 文書を PDF に変換する手順をステップバイステップで解説します。
 
 ## よくある質問
 **Q: Aspose.Words を使用して既存の PDF にウォーターマークを追加するにはどうすればよいですか？**  

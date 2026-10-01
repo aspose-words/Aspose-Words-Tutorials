@@ -127,6 +127,7 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 ### [Cómo recuperar docx – Guía completa para leer archivos Word corruptos](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 ### [Cómo obtener fuentes faltantes en Java – Guía de Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 ### [Cómo recuperar archivos DOCX con Aspose.Words – Guía paso a paso](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
+### [Cómo recuperar DOCX – Establecer modo de recuperación y mostrar advertencias](./how-to-recover-docx-set-recovery-mode-display-warnings/)
 
 ## Preguntas frecuentes
 

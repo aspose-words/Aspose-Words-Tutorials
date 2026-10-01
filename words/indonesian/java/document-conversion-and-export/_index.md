@@ -165,6 +165,8 @@ Pelajari cara menyimpan dokumen Word menjadi PDF menggunakan Aspose.Words for Ja
 
 ### [Membuat PDF Aksesibel dari DOCX di Java – Panduan Lengkap](./create-accessible-pdf-from-docx-in-java-full-guide/)
 Pelajari cara mengonversi file DOCX menjadi PDF yang memenuhi standar aksesibilitas dengan Aspose.Words for Java dalam panduan lengkap ini.
+### [Ekspor DOCX ke PDF – Panduan Lengkap Membuat PDF yang Aksesibel](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+Pelajari cara mengekspor file DOCX ke PDF dengan aksesibilitas penuh menggunakan Aspose.Words for Java, termasuk tag struktural dan pengaturan PDF/UA.
 
 ## Pertanyaan yang Sering Diajukan
 

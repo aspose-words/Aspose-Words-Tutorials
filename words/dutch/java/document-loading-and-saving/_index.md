@@ -149,6 +149,8 @@ Leer hoe je ontbrekende lettertypen kunt vinden en laden in Java met Aspose.Word
 ### [Hoe DOCX‑bestanden te herstellen met Aspose.Words – Stapsgewijze gids](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 Leer hoe je beschadigde DOCX‑bestanden kunt herstellen met Aspose.Words in een stapsgewijze Java‑handleiding.
 ### [Docx herstellen – herstelde document opslaan met Java](./how-to-recover-docx-save-recovered-document-using-java/)
+### [Hoe DOCX te herstellen – Herstelmodus instellen & waarschuwingen weergeven](./how-to-recover-docx-set-recovery-mode-display-warnings/)
+Leer hoe je de herstelmodus inschakelt en waarschuwingen weergeeft bij het openen van beschadigde DOCX‑bestanden met Aspose.Words for Java.
 
 ## Veelgestelde vragen
 

@@ -153,6 +153,9 @@ Scopri come ripristinare documenti DOCX corrotti usando Aspose.Words per Java, c
 ### [Come recuperare un docx – salvare il documento recuperato con Java](./how-to-recover-docx-save-recovered-document-using-java/)
 Scopri come riparare file DOCX corrotti e salvare il documento recuperato con Aspose.Words per Java.
 
+### [Come Recuperare DOCX – Impostare la Modalità di Recupero e Visualizzare gli Avvisi](./how-to-recover-docx-set-recovery-mode-display-warnings/)
+Scopri come impostare la modalità di recupero per DOCX e visualizzare gli avvisi di errore con Aspose.Words per Java.
+
 ## Domande Frequenti
 
 **D:** Come posso **salvare immagini da word** programmaticamente nei documenti?  

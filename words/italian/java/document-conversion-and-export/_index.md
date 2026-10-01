@@ -157,6 +157,8 @@ Scopri come inserire correttamente le immagini durante la conversione di documen
 
 ### [Opzioni di salvataggio PDF – Converti DOCX in PDF in Java con pieno controllo](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 Scopri come impostare le opzioni di salvataggio PDF per controllare layout, qualità e sicurezza durante la conversione da DOCX a PDF con Aspose.Words per Java.
+### [Tutorial docx to pdf – Converti Word in PDF con LowCode](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
+Scopri come convertire file DOCX in PDF usando LowCode con Aspose.Words per Java in pochi passaggi.
 
 ## Domande frequenti
 

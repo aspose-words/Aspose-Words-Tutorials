@@ -155,6 +155,8 @@ Aspose.Words for Java का उपयोग करके Word दस्ता�
 
 ### [जावा में DOCX से सुलभ PDF बनाना – पूर्ण गाइड](./create-accessible-pdf-from-docx-in-java-full-guide/)
 Aspose.Words for Java का उपयोग करके DOCX फ़ाइल से एक्सेसिबल PDF बनाने की पूरी प्रक्रिया सीखें।
+### [DOCX को PDF में निर्यात – सुलभ PDF बनाने की पूर्ण गाइड](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+DOCX फ़ाइलों को सुलभ PDF में बदलने के चरण‑दर‑स्टेप गाइड, एक्सेसिबिलिटी सेटिंग्स और सर्वोत्तम प्रथाएँ।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

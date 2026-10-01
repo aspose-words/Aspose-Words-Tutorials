@@ -166,6 +166,8 @@ Aprenda a converter documentos Word em PDF usando Aspose.Words para Java com um 
 
 ### [Criar PDF Acessível a partir de DOCX em Java – Guia Completo](./create-accessible-pdf-from-docx-in-java-full-guide/)
 Aprenda a gerar PDFs acessíveis a partir de arquivos DOCX usando Aspose.Words for Java, garantindo conformidade com normas de acessibilidade.
+### [Exportar DOCX para PDF – Guia Completo para Criar PDFs Acessíveis](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+Aprenda a exportar documentos DOCX para PDF acessível, garantindo conformidade com padrões de acessibilidade e qualidade.
 
 ## Perguntas Frequentes
 
