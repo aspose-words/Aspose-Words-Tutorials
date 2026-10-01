@@ -49,6 +49,8 @@ Lär dig hur du effektivt hanterar Word-dokument med Aspose.Words för Python. S
 Lär dig hur du hanterar dokumentegenskaper och metadata med Aspose.Words för Python. Steg-för-steg-guide med källkod.
 ### [Utöka dokumentfunktionalitet med webbtillägg](./document-functionality-web-extensions/)
 Lär dig hur du utökar dokumentfunktionalitet med webbtillägg med Aspose.Words för Python. Steg-för-steg-guide med källkod för sömlös integration.
+### [Aktivera återställningsläge för att öppna ett korrupt Word-dokument](./enable-recovery-mode-to-open-a-corrupted-word-document/)
+Lär dig hur du aktiverar återställningsläget för att öppna och reparera skadade Word-dokument med Aspose.Words för Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

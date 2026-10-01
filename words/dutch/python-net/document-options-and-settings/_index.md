@@ -43,12 +43,18 @@ Aan het einde van deze serie beschikt u over de vaardigheden om goed gestructure
 ## Tutorials over documentopties en -instellingen
 ### [Geavanceerde technieken voor het samenvoegen en toevoegen van documenten](./join-append-documents/)
 Leer geavanceerde technieken voor het samenvoegen en toevoegen van documenten met Aspose.Words in Python. Stapsgewijze handleiding met codevoorbeelden.
+
 ### [Documentopties en -instellingen verfijnen voor efficiëntie](./manage-document-options-settings/)
 Leer hoe je Word-documenten efficiënt kunt bewerken met Aspose.Words voor Python. Stapsgewijze handleiding met broncode.
+
 ### [Documenteigenschappen en metagegevensbeheer](./document-properties-metadata/)
 Leer hoe u documenteigenschappen en metadata beheert met Aspose.Words voor Python. Stapsgewijze handleiding met broncode.
+
 ### [Documentfunctionaliteit uitbreiden met webextensies](./document-functionality-web-extensions/)
 Leer hoe u de functionaliteit van documenten kunt uitbreiden met webextensies met Aspose.Words voor Python. Stapsgewijze handleiding met broncode voor naadloze integratie.
+
+### [Herstelmodus inschakelen om een beschadigd Word-document te openen](./enable-recovery-mode-to-open-a-corrupted-word-document/)
+Leer hoe u de herstelmodus activeert om beschadigde Word-documenten te openen met Aspose.Words voor Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

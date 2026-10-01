@@ -40,6 +40,9 @@
 ### [Добавление прямоугольника в PDF с помощью Aspose.Words – пошаговое руководство](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 Узнайте, как добавить прямоугольник в PDF с помощью Aspose.Words, следуя пошаговым инструкциям.
 
+### [Как создать прямоугольную фигуру в документе Word с помощью Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Узнайте, как создать прямоугольную фигуру в документе Word, используя Aspose.Words для Python.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words для Python-net](https://docs.aspose.com/words/python-net/)

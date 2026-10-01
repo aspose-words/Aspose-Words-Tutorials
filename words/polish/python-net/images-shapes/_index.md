@@ -40,6 +40,9 @@ Dowiedz się, jak dodać cienie do obiektów w C# przy użyciu Aspose.Words, kro
 ### [Dodaj prostokąt do PDF za pomocą Aspose.Words – Przewodnik krok po kroku](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 Dowiedz się, jak dodać prostokąt do pliku PDF przy użyciu Aspose.Words w prostych krokach.
 
+### [Jak utworzyć prostokątny kształt w dokumencie Word przy użyciu Pythona](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Dowiedz się, jak dodać prostokątny kształt do dokumentu Word przy użyciu Aspose.Words w Pythonie.
+
 ## Dodatkowe zasoby
 
 - [Aspose.Words dla dokumentacji Python-net](https://docs.aspose.com/words/python-net/)

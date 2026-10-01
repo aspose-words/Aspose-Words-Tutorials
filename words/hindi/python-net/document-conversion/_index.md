@@ -43,14 +43,23 @@ Aspose.Words for Python के साथ Python दस्तावेज़ र�
 ### [वर्ड से LaTeX निर्यात कैसे करें – DOCX को मार्कडाउन में परिवर्तित करें](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 वर्ड दस्तावेज़ को LaTeX में निर्यात करके DOCX को मार्कडाउन में बदलने के लिए पायथन कोड और चरण-दर-चरण मार्गदर्शन।
 
-### [वर्ड से PDF बनाएं – Aspose.Words के साथ पूर्ण पायथन गाइड](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
-Aspose.Words का उपयोग करके पायथन में वर्ड दस्तावेज़ को PDF में बदलने के चरण-दर-स्टेप मार्गदर्शन।
+### [Word को पुनर्प्राप्त करें और LaTeX के साथ Markdown में परिवर्तित करें](./how-to-recover-word-and-convert-to-markdown-with-latex/)
+Word फ़ाइलों को ठीक करके उन्हें LaTeX‑सहायक Markdown में बदलने का चरण‑दर‑स्टेप मार्गदर्शन।
 
-### [पायथन के साथ वर्ड से सुलभ PDF बनाएं – चरण‑दर‑चरण गाइड](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
-Aspose.Words का उपयोग करके पायथन में वर्ड दस्तावेज़ को सुलभ PDF में बदलने के चरण‑दर‑चरण मार्गदर्शन।
+### [वर्ड से PDF बनाएं – Aspose.Words के साथ पूर्ण पायथन गाइड](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
+Aspose.Words का उपयोग करके पायथन में वर्ड दस्तावेज़ को PDF में बदलने के चरण‑दर‑स्टेप मार्गदर्शन।
+
+### [DOCX को PDF में बदलना – पायथन में Aspose.Words का उपयोग](./how-to-convert-docx-to-pdf-in-python-using-aspose-words/)
+Aspose.Words का उपयोग करके पायथन में DOCX फ़ाइल को PDF में परिवर्तित करने का चरण‑दर‑स्टेप मार्गदर्शन।
+
+### [पायथन के साथ वर्ड से सुलभ PDF बनाएं – चरण‑दर‑स्टेप गाइड](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
+Aspose.Words का उपयोग करके पायथन में वर्ड दस्तावेज़ को सुलभ PDF में बदलने की चरण‑दर‑स्टेप मार्गदर्शन।
 
 ### [वर्ड को मार्कडाउन के रूप में सहेजें – PDF/A‑UA निर्यात के साथ पूर्ण गाइड](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
-वर्ड दस्तावेज़ को मार्कडाउन में सहेजने और PDF/A‑UA निर्यात करने के लिए पायथन कोड और चरण‑दर‑चरण मार्गदर्शन।
+वर्ड दस्तावेज़ को मार्कडाउन में सहेजने और PDF/A‑UA निर्यात करने के लिए पायथन कोड और चरण‑दर‑स्टेप मार्गदर्शन।
+
+### [वर्ड को PDF में निर्यात करें और सुलभ PDF/UA बनाएं](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
+Aspose.Words का उपयोग करके वर्ड दस्तावेज़ को PDF में बदलें और सुलभ PDF/UA बनाना सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -43,6 +43,9 @@
 ### [恢复损坏的 DOCX 并将 Word 转换为 Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 学习如何使用 Aspose.Words for Python 恢复损坏的 DOCX 文件并将 Word 文档转换为 Markdown。
 
+### [如何恢复 Word 并将其转换为带 LaTeX 的 Markdown](./how-to-recover-word-and-convert-to-markdown-with-latex/)
+学习使用 Aspose.Words for Python 恢复 Word 文档并将其转换为包含 LaTeX 的 Markdown。
+
 ### [如何从 Word 导出 LaTeX – 将 DOCX 转换为 Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 学习使用 Aspose.Words for Python 将 Word 文档导出为 LaTeX，并将 DOCX 转换为 Markdown，实现高效格式转换。
 
@@ -51,6 +54,12 @@
 
 ### [使用 Aspose.Words 将 Word 创建为可访问 PDF – 完整 Python 指南](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 学习使用 Aspose.Words for Python 将 Word 文档转换为符合可访问性标准的 PDF，提升文档可读性和合规性。
+
+### [如何将 Word 导出为 PDF 并生成可访问的 PDF/UA](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
+学习使用 Aspose.Words for Python 将 Word 文档导出为 PDF 并生成符合 PDF/UA 可访问性标准的文件。
+
+### [如何使用 Aspose.Words 在 Python 中将 DOCX 转换为 PDF](./how-to-convert-docx-to-pdf-in-python-using-aspose-words/)
+学习使用 Aspose.Words for Python 将 DOCX 文件转换为高质量 PDF，简化文档生成流程。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

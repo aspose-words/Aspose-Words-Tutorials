@@ -39,12 +39,18 @@ Lär dig hur du konverterar Word-dokument till Markdown med Aspose.Words för Py
 Lär dig hur du återställer korrupta DOCX-filer och konverterar Word-dokument till Markdown med Aspose.Words för Python.
 ### [Hur man exporterar LaTeX från Word – Konvertera DOCX till Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Lär dig hur du exporterar LaTeX från Word och konverterar DOCX-filer till Markdown med Aspose.Words för Python.
+### [Hur man exporterar Word till PDF och genererar en tillgänglig PDF/UA](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
+Lär dig hur du exporterar Word-dokument till PDF och skapar en tillgänglig PDF/UA med Aspose.Words för Python.
 ### [Skapa PDF från Word – Komplett Python-guide med Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Lär dig hur du skapar PDF från Word med Aspose.Words för Python. Steg-för-steg-instruktioner och kodexempel.
+### [Hur man konverterar DOCX till PDF i Python med Aspose.Words](./how-to-convert-docx-to-pdf-in-python-using-aspose-words/)
+Lär dig konvertera DOCX-filer till PDF med Aspose.Words för Python. Steg‑för‑steg‑instruktioner och kodexempel.
 ### [Skapa tillgänglig PDF från Word med Python – Steg‑för‑steg‑guide](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Lär dig hur du skapar en tillgänglig PDF från Word med Aspose.Words för Python. Följ steg‑för‑steg‑instruktioner och kodexempel.
 ### [Spara Word som Markdown – Komplett guide med PDF/A‑UA‑export](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Lär dig hur du sparar Word-dokument som Markdown och exporterar till PDF/A‑UA med Aspose.Words för Python. Steg‑för‑steg‑instruktioner och kodexempel.
+### [Hur man återställer Word och konverterar till Markdown med LaTeX](./how-to-recover-word-and-convert-to-markdown-with-latex/)
+Lär dig återställa korrupta Word-filer och konvertera dem till Markdown med LaTeX‑stöd via Aspose.Words för Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

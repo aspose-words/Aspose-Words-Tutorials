@@ -35,10 +35,13 @@ Pelajari cara mengoptimalkan penanganan gambar dalam dokumen RTF dengan Aspose.W
 Pelajari cara mengoptimalkan output SVG menggunakan Aspose.Words untuk Python. Panduan ini mencakup fitur-fitur khusus seperti properti mirip gambar, rendering teks, dan peningkatan keamanan.
 
 ### [Cara Menambahkan Bayangan di C# – Panduan Pemrograman Lengkap](./how-to-add-shadow-in-c-complete-programming-guide/)
-Pelajari cara menambahkan efek bayangan pada elemen di C# dengan panduan lengkap ini.
+Pelajari cara menambahkan efek bayangan pada elemen di C# dengan pandilan lengkap ini.
 
 ### [Menambahkan persegi panjang ke PDF dengan Aspose.Words – Panduan Langkah demi Langkah](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 Pelajari cara menambahkan bentuk persegi panjang ke file PDF menggunakan Aspose.Words dengan contoh kode Python-net yang mudah diikuti.
+
+### [Cara Membuat Bentuk Persegi Panjang dalam Dokumen Word menggunakan Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Pelajari cara membuat bentuk persegi panjang di dokumen Word menggunakan Aspose.Words untuk Python.
 
 ## Sumber Daya Tambahan
 

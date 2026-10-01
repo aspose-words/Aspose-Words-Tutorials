@@ -39,12 +39,18 @@ Pelajari cara mengekspor dokumen Word menjadi file Markdown dengan Aspose.Words 
 Pelajari cara memulihkan file DOCX yang rusak dan mengonversinya menjadi format Markdown menggunakan Aspose.Words untuk Python.
 ### [Cara Mengekspor LaTeX dari Word – Mengonversi DOCX ke Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Pelajari cara mengekspor LaTeX dari dokumen Word dan mengonversi file DOCX ke format Markdown menggunakan Aspose.Words untuk Python.
+### [Cara Memulihkan Word dan Mengonversi ke Markdown dengan LaTeX](./how-to-recover-word-and-convert-to-markdown-with-latex/)
+Pelajari cara memulihkan dokumen Word yang rusak dan mengonversinya ke Markdown dengan dukungan LaTeX menggunakan Aspose.Words untuk Python.
 ### [Buat PDF dari Word – Panduan Lengkap Python dengan Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Pelajari cara mengonversi dokumen Word menjadi PDF menggunakan Aspose.Words untuk Python secara lengkap.
 ### [Buat PDF Aksesibel dari Word dengan Python – Panduan Langkah‑demi‑Langkah](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Pelajari cara membuat PDF yang dapat diakses dari dokumen Word menggunakan Aspose.Words untuk Python secara lengkap.
 ### [Simpan Word sebagai Markdown – Panduan Lengkap dengan Ekspor PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Pelajari cara menyimpan dokumen Word sebagai file Markdown dan mengekspor ke PDF/A‑UA menggunakan Aspose.Words untuk Python.
+### [Cara Mengekspor Word ke PDF dan Membuat PDF/UA yang Aksesibel](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
+Pelajari cara mengekspor dokumen Word menjadi PDF serta menghasilkan PDF/UA yang dapat diakses dengan Aspose.Words untuk Python.
+### [Cara Mengonversi DOCX ke PDF di Python menggunakan Aspose.Words](./how-to-convert-docx-to-pdf-in-python-using-aspose-words/)
+Pelajari cara mengonversi file DOCX menjadi PDF dengan Aspose.Words untuk Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

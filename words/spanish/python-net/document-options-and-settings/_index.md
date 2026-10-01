@@ -49,6 +49,8 @@ Aprende a manipular documentos de Word eficientemente con Aspose.Words para Pyth
 Aprenda a administrar las propiedades y metadatos de documentos con Aspose.Words para Python. Guía paso a paso con código fuente.
 ### [Ampliación de la funcionalidad de los documentos con extensiones web](./document-functionality-web-extensions/)
 Aprenda a ampliar la funcionalidad de sus documentos con extensiones web usando Aspose.Words para Python. Guía paso a paso con código fuente para una integración fluida.
+### [Habilitar modo de recuperación para abrir un documento Word dañado](./enable-recovery-mode-to-open-a-corrupted-word-document/)
+Aprenda a activar el modo de recuperación y abrir documentos Word corruptos con Aspose.Words para Python. Guía paso a paso con código fuente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
