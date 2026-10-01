@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: এই টিউটোরিয়ালটি দেখায় কীভাবে একটি নতুন Word ডকুমেন্ট তৈরি করা যায়, DocumentBuilder ব্যবহার করে একটি চেক বক্স ফর্ম ফিল্ড সন্নিবেশ করা যায়, এবং ফলস্বরূপ ফাইলটি সংরক্ষণ করা যায়।
+//ExStepSummary:0: একটি ডেটা ডিরেক্টরি ভেরিয়েবল তৈরি করুন, একটি Document ইনস্ট্যানশিয়েট করুন, এবং সেই ডকুমেন্টের জন্য একটি DocumentBuilder তৈরি করুন।
+//ExStepSummary:1: `builder.InsertCheckBox` কল করুন যাতে বর্তমান কার্সার অবস্থানে "CheckBox" নামের একটি চেকড, সক্রিয় চেক বক্স ফর্ম ফিল্ড যোগ করা যায়।
+//ExStepSummary:2: `doc.Save` ব্যবহার করে পরিবর্তিত ডকুমেন্টটি নির্দিষ্ট ফোল্ডারে সংরক্ষণ করুন।
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertCheckBox("CheckBox", true, true, 0);
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx");
+//ExEnd

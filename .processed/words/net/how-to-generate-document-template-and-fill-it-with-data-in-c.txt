@@ -1,0 +1,7 @@
+Title: How to generate document template and fill it with data in C#
+Slug: how-to-generate-document-template-and-fill-it-with-data-in-c
+Category: find-and-replace-text
+ProcessedDate: 2026-09-21T15:45:32.408758
+SourceRepo: AI Search API
+Keywords: generate document template, populate word template, how to replace placeholder, fill docx template, replace text docx
+PRNumber: 282

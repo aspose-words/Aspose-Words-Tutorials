@@ -1,0 +1,7 @@
+Title: How to save Markdown as DOCX using Java – complete guide
+Slug: how-to-save-markdown-as-docx-using-java-complete-guide
+Category: document-converting
+ProcessedDate: 2026-09-21T16:36:41.075880
+SourceRepo: AI Search API
+Keywords: save markdown as docx, convert markdown to docx, convert markdown file to word
+PRNumber: 283

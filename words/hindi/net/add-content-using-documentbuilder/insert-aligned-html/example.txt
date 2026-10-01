@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary: Aspose.Words Document और DocumentBuilder का उपयोग करके, यह ट्यूटोरियल HTML मार्कअप को एक Word दस्तावेज़ में सम्मिलित करता है और परिणाम को सहेजता है।
+//ExStepSummary:0: आउटपुट फ़ोल्डर निर्धारित करें, एक नया Document बनाएं, और उस दस्तावेज़ के लिए DocumentBuilder को प्रारंभ करें।
+//ExStepSummary:1: `builder.InsertHtml()` को कॉल करके दस्तावेज़ में दाएँ संरेखित पैराग्राफ, बोल्ड टेक्स्ट, केंद्रित div, और बाएँ संरेखित हेडिंग जोड़ें।
+//ExStepSummary:2: संशोधित दस्तावेज़ को निर्दिष्ट फ़ोल्डर में .docx फ़ाइल के रूप में सहेजें।
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

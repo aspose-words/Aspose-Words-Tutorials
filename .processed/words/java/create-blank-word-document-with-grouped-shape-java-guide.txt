@@ -1,0 +1,7 @@
+Title: Create blank word document with grouped shape – Java guide
+Slug: create-blank-word-document-with-grouped-shape-java-guide
+Category: images-shapes
+ProcessedDate: 2026-07-20T08:28:30.806713
+SourceRepo: AI Search API
+Keywords: create blank word document, how to create group, add image word document, insert rectangle shape, embed image in shape
+PRNumber: 229

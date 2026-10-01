@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Document और DocumentBuilder क्लासों का उपयोग करके, यह ट्यूटोरियल दिखाता है कि Word दस्तावेज़ के प्राइमरी हेडर में एक डायनेमिक DATE फ़ील्ड कैसे जोड़ें और फिर फ़ाइल को सहेजें।
+//ExStepSummary:0: एक नया Document बनाएं और उसे संपादित करने के लिए एक DocumentBuilder बनाएं।
+//ExStepSummary:1: Builder का कर्सर प्राइमरी हेडर पर ले जाएँ ताकि बाद में किए गए इन्सर्ट्स हेडर को प्रभावित करें।
+//ExStepSummary:2: स्थिर लेबल लिखें और हेडर में “MMMM d, yyyy” फ़ॉर्मेट वाला DATE फ़ील्ड इन्सर्ट करें, जिससे एक डायनेमिक डेट बनती है।
+//ExStepSummary:3: मुख्य बॉडी पर वापस जाएँ और एक सैंपल पैराग्राफ जोड़ें, जिससे हेडर के साथ सामान्य दस्तावेज़ सामग्री का प्रदर्शन हो।
+//ExStepSummary:4: दस्तावेज़ को .docx फ़ाइल के रूप में सहेजें।
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+builder.Write("Generated on: ");
+builder.InsertField("DATE \\@ \"MMMM d, yyyy\"");
+
+//ExStep:3-
+builder.MoveToDocumentEnd();
+builder.Writeln("This is the document body.");
+
+//ExStep:4-
+doc.Save("HeaderDate.docx");
+//ExEnd

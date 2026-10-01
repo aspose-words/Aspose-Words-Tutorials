@@ -57,7 +57,8 @@ Antes de começarmos, certifique-se de que você tem o seguinte:
 
 ## Configurando o Aspose.Words
 
-Para começar, inclua a biblioteca Aspose.Words em seu projeto usando Maven ou Gradle:
+### Dependência Maven
+Adicione as seguintes coordenadas Maven ao seu `pom.xml`:
 
 **Maven:**
 ```xml
@@ -68,7 +69,9 @@ Para começar, inclua a biblioteca Aspose.Words em seu projeto usando Maven ou G
 </dependency>
 ```
 
-**Gradle:**
+### Dependência Gradle
+Para projetos baseados em Gradle, inclua:
+
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
@@ -96,6 +99,10 @@ public class Main {
     }
 }
 ```
+
+## Como gerenciar modelos Word Java com Aspose.Words?
+
+Carregue seu documento modelo com `new Document("Template.docx")` e chame `doc.getGlossary()` para acessar o glossário onde os blocos de construção residem. A partir daí, você pode criar, editar ou recuperar blocos, permitindo uma única fonte de verdade para todo o conteúdo reutilizável. Essa abordagem elimina duplicação e garante que cada documento gerado use a versão mais recente do bloco.
 
 ## Guia de Implementação
 

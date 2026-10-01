@@ -1,11 +1,11 @@
 ---
-date: 2025-12-18
-description: Chuyển đổi DOCX sang EPUB một cách hiệu quả bằng Aspose.Words cho Java.
-  Tìm hiểu cách tùy chỉnh tùy chọn lưu, chia nội dung và xuất thuộc tính tài liệu
-  trong hướng dẫn từng bước này.
-linktitle: Convert DOCX to EPUB with SaveOptions
+date: 2026-02-19
+description: Học cách tạo epub từ docx bằng Aspose.Words for Java – tùy chỉnh tùy
+  chọn lưu, chia theo tiêu đề và xuất thuộc tính tài liệu. Chuyển đổi docx sang epub
+  nhanh chóng.
+linktitle: Create epub from docx with Aspose.Words SaveOptions (Java)
 second_title: Aspose.Words Java Document Processing API
-title: Chuyển đổi DOCX sang EPUB với SaveOptions
+title: Tạo epub từ docx bằng Aspose.Words SaveOptions (Java)
 url: /vi/java/document-converting/document-conversion-saveoptions/
 weight: 13
 ---
@@ -16,49 +16,58 @@ weight: 13
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chuyển DOCX sang EPUB với SaveOptions
+# Tạo epub từ docx với Aspose.Words SaveOptions (Java)
 
 ## Giới thiệu
 
-Nếu bạn cần **chuyển DOCX sang EPUB**, bạn đã đến đúng nơi. Kiểm soát chính xác quá trình chuyển đổi là rất quan trọng — dù bạn đang cải thiện khả năng truy cập, đảm bảo tính tương thích đa thiết bị, hay chỉ đơn giản là nâng cao khả năng đọc. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cách chuyển một tệp DOCX sang EPUB bằng Aspose.Words cho Java, tùy chỉnh các tùy chọn lưu, chia đầu ra theo tiêu đề, và xuất các thuộc tính tài liệu để các tệp EPUB của bạn vừa sạch sẽ vừa giàu siêu dữ liệu.
+Nếu bạn cần **tạo epub từ docx** nhanh chóng và đáng tin cậy, bạn đã đến đúng nơi. Chuyển đổi tài liệu Word sang EPUB là một yêu cầu phổ biến cho việc xuất bản e‑book, đọc trên thiết bị di động và các dự án truy cập. Trong hướng dẫn này, chúng ta sẽ đi qua toàn bộ quy trình sử dụng Aspose.Words cho Java, cho bạn thấy cách **chuyển đổi docx sang epub**, tùy chỉnh các tùy chọn lưu, chia đầu ra theo tiêu đề, và bảo tồn các thuộc tính tài liệu. Khi hoàn thành, bạn sẽ có một đoạn mã có thể tái sử dụng và tích hợp vào các công cụ chuyển đổi hàng loạt lớn hơn.
 
 ## Câu trả lời nhanh
-- **Thư viện tôi cần là gì?** Aspose.Words for Java  
-- **Định dạng mà ví dụ tạo ra là gì?** EPUB (chuyển DOCX sang EPUB)  
-- **Tôi có thể chia EPUB theo tiêu đề không?** Có, sử dụng `DocumentSplitCriteria.HEADING_PARAGRAPH`  
-- **Các thuộc tính tài liệu có được giữ lại không?** Có, bật `setExportDocumentProperties(true)`  
-- **Phiên bản Java yêu cầu là gì?** JDK 8 hoặc mới hơn  
-
-## Chuyển DOCX sang EPUB là gì?
-Chuyển DOCX sang EPUB biến đổi một tài liệu Microsoft Word thành định dạng sách điện tử tiêu chuẩn mở. Các tệp EPUB có khả năng tái bố cục, khiến chúng lý tưởng để đọc trên điện thoại thông minh, máy tính bảng và máy đọc sách điện tử đồng thời giữ nguyên bố cục và siêu dữ liệu gốc.
-
-## Tại sao nên sử dụng Aspose.Words SaveOptions?
-Aspose.Words cung cấp khả năng kiểm soát chi tiết quá trình chuyển đổi thông qua **SaveOptions**. Bạn có thể chỉ định định dạng đầu ra, đặt mã ký tự, chia các tài liệu lớn thành các phần dễ quản lý, và giữ lại siêu dữ liệu quan trọng — tất cả mà không cần cài đặt Microsoft Office.
+- **Mục tiêu chính?** Tạo EPUB từ một tệp DOCX bằng Aspose.Words cho Java.  
+- **Cài đặt chính cho việc chia?** `DocumentSplitCriteria.HEADING_PARAGRAPH`.  
+- **Các định dạng đầu ra được hỗ trợ?** EPUB, PDF, DOCX, HTML và hơn nữa qua `setSaveFormat`.  
+- **Tôi có thể chuyển đổi hàng loạt tài liệu Word không?** Có – bọc logic một tệp trong vòng lặp.  
+- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí đủ cho đánh giá; giấy phép thương mại cần thiết cho môi trường sản xuất.
 
 ## Yêu cầu trước
 
-1. **Java Development Kit (JDK)** – Cài đặt JDK 8 hoặc mới hơn.  
-2. **IDE** – IntelliJ IDEA, Eclipse, hoặc bất kỳ IDE nào hỗ trợ Java.  
-3. **Aspose.Words for Java** – Tải phiên bản mới nhất **[tại đây](https://releases.aspose.com/words/java/)** và thêm vào classpath của dự án.  
-4. **Tài liệu mẫu** – Một tệp DOCX có tên `Rendering.docx` đặt trong thư mục dự án của bạn.
+1. **Bộ công cụ phát triển Java (JDK)** – JDK 8 hoặc mới hơn đã được cài đặt.  
+2. **IDE** – IntelliJ IDEA, Eclipse, hoặc bất kỳ trình soạn thảo nào tương thích với Java.  
+3. **Aspose.Words cho Java** – Tải JAR mới nhất **[here](https://releases.aspose.com/words/java/)** và thêm vào đường dẫn biên dịch của dự án.  
+4. **Tài liệu mẫu** – Tệp DOCX có tên `Rendering.docx` đặt trong thư mục dự án (hoặc cung cấp đường dẫn tuyệt đối).  
 
-## Nhập các gói
+## Tạo epub từ docx là gì?
+
+Tạo một EPUB từ tệp DOCX có nghĩa là lấy các định dạng phong phú, hình ảnh và kiểu dáng của tài liệu Word và đóng gói chúng vào định dạng sách điện tử mở (EPUB). Điều này cho phép đọc liền mạch trên các máy đọc sách, máy tính bảng và điện thoại thông minh đồng thời bảo tồn bố cục gốc.
+
+## Tại sao chia EPUB theo tiêu đề?
+
+Các e‑book lớn có thể trở nên cồng kềnh nếu được lưu dưới dạng một tệp HTML duy nhất trong container EPUB. Bằng cách sử dụng **`split epub by heading`**, mỗi tiêu đề cấp cao nhất sẽ trở thành một chương HTML riêng, cải thiện khả năng điều hướng, thời gian tải và trải nghiệm đọc tổng thể.
+
+## Nhập gói
+
+Để bắt đầu làm việc với Aspose.Words cho Java, bạn cần nhập các gói liên quan. Các gói này cung cấp các lớp và phương thức cần thiết cho việc thao tác và chuyển đổi tài liệu.
 
 ```java
 import com.aspose.words.*;
 ```
 
-Lệnh nhập này cung cấp cho bạn quyền truy cập vào tất cả các lớp cần thiết để tải tài liệu, cấu hình các tùy chọn lưu và thực hiện quá trình chuyển đổi.
+Câu lệnh import này đảm bảo bạn có quyền truy cập vào tất cả các lớp cần thiết để tải tài liệu, cấu hình tùy chọn lưu và thực hiện chuyển đổi.
 
-## Bước 1: Tải tài liệu để chuyển DOCX sang EPUB
+## Bước 1: Tải tài liệu
+
+Bước đầu tiên trong quy trình chuyển đổi là tải tài liệu bạn muốn chuyển đổi vào một đối tượng `Document`. Đối tượng này đại diện cho tài liệu của bạn trong bộ nhớ.
 
 ```java
 Document doc = new Document("Rendering.docx");
 ```
 
-Đối tượng `Document` tải tệp DOCX vào bộ nhớ, chuẩn bị cho các bước xử lý tiếp theo.
+**Giải thích:**  
+Bộ tạo `Document` đọc tệp DOCX từ đường dẫn được cung cấp. Đảm bảo tệp tồn tại tương đối với thư mục gốc của dự án hoặc cung cấp đường dẫn hệ thống đầy đủ.
 
-## Bước 2: Cấu hình Save Options (Chuyển DOCX sang EPUB)
+## Bước 2: Cấu hình tùy chọn lưu
+
+Tiếp theo, cấu hình cách tài liệu sẽ được lưu. Ở đây chúng ta sử dụng `HtmlSaveOptions` vì trình tạo EPUB nội bộ xây dựng các tệp HTML trước khi đóng gói chúng.
 
 ```java
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
@@ -66,61 +75,91 @@ saveOptions.setSaveFormat(SaveFormat.EPUB);
 saveOptions.setEncoding(StandardCharsets.UTF_8);
 ```
 
-- **HtmlSaveOptions** – Cho phép kiểm soát chi tiết đầu ra.  
-- **setSaveFormat(SaveFormat.EPUB)** – Xác định rằng định dạng mục tiêu là EPUB.  
-- **setEncoding(StandardCharsets.UTF_8)** – Đảm bảo xử lý ký tự đúng cách.
+**Giải thích:**  
 
-## Bước 3: Cấu hình chia tài liệu (chia EPUB theo tiêu đề)
+- **`HtmlSaveOptions`** – Cho phép kiểm soát chi tiết quá trình tạo EPUB.  
+- **`setSaveFormat(SaveFormat.EPUB)`** – Yêu cầu Aspose.Words tạo tệp EPUB thay vì HTML mặc định.  
+- **`setEncoding(StandardCharsets.UTF_8)`** – Đảm bảo xử lý đúng các ký tự Unicode, cần thiết cho nội dung đa ngôn ngữ.
+
+## Bước 3: Cấu hình chia tài liệu
+
+Đối với các cuốn sách lớn, việc chia đầu ra cải thiện khả năng đọc. Tùy chọn sau yêu cầu Aspose.Words tạo một tệp HTML mới mỗi khi gặp một đoạn văn tiêu đề.
 
 ```java
 saveOptions.setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH);
 ```
 
-Bằng cách đặt `DocumentSplitCriteria.HEADING_PARAGRAPH`, bộ chuyển đổi sẽ chia EPUB tại mỗi đoạn tiêu đề, tạo ra các phần nhỏ hơn, dễ điều hướng hơn — lý tưởng cho các cuốn sách lớn.
+**Giải thích:**  
 
-## Bước 4: Xuất các thuộc tính tài liệu
+- **`DocumentSplitCriteria.HEADING_PARAGRAPH`** – Mỗi tiêu đề (ví dụ `<h1>`, `<h2>`) trở thành một chương riêng trong EPUB. Điều này đáp ứng yêu cầu **split epub by heading**.
+
+## Bước 4: Xuất thuộc tính tài liệu
+
+Bảo tồn siêu dữ liệu như tác giả, tiêu đề và ngày tạo thường cần thiết cho việc lập danh mục và tìm kiếm.
 
 ```java
 saveOptions.setExportDocumentProperties(true);
 ```
 
-Kích hoạt `setExportDocumentProperties(true)` giữ lại siêu dữ liệu như tác giả, tiêu đề và ngày tạo trong tệp EPUB kết quả.
+**Giải thích:**  
+
+- Kích hoạt `setExportDocumentProperties(true)` sao chép các thuộc tính cốt lõi của tài liệu nguồn vào phần metadata của EPUB.
 
 ## Bước 5: Lưu tài liệu
+
+Cuối cùng, ghi tệp EPUB ra đĩa bằng các tùy chọn đã cấu hình.
 
 ```java
 doc.save("HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
 ```
 
-Phương thức `save` ghi tệp EPUB ra đĩa bằng cách sử dụng `HtmlSaveOptions` đã cấu hình.
+**Giải thích:**  
 
-## Các vấn đề thường gặp và giải pháp
-- **Thiếu tiêu đề để chia:** Đảm bảo DOCX nguồn của bạn sử dụng đúng kiểu tiêu đề (Heading 1, Heading 2, v.v.).  
-- **Siêu dữ liệu không hiển thị:** Kiểm tra tài liệu nguồn có chứa các thuộc tính mong muốn; Aspose.Words chỉ xuất siêu dữ liệu đã tồn tại.  
-- **Vấn đề mã ký tự:** Sử dụng mã UTF‑8 cho hầu hết các ngôn ngữ; chuyển sang charset khác chỉ khi bạn có yêu cầu cụ thể.
+- Phương thức `save` nhận tên tệp đích và đối tượng `HtmlSaveOptions`, tạo ra một EPUB tuân theo tất cả các cài đặt đã định nghĩa ở trên.
+
+## Các trường hợp sử dụng phổ biến
+
+- **Xuất bản e‑book:** Chuyển các tệp Word bản thảo của tác giả sang EPUB sẵn sàng cho Kindle, iBooks hoặc Google Play Books.  
+- **Chuyển đổi hàng loạt:** Bọc logic một tệp trong vòng lặp để **batch convert word documents** cho thư viện lớn.  
+- **Di chuyển nội dung:** Chuyển tài liệu cũ từ Word sang định dạng EPUB thân thiện web đồng thời giữ nguyên tiêu đề và metadata.
+
+## Khắc phục sự cố & Mẹo
+
+- **Thiếu tiêu đề:** Đảm bảo DOCX nguồn sử dụng đúng kiểu tiêu đề (Heading 1, Heading 2, …).  
+- **Vấn đề mã hóa:** Nếu thấy ký tự bị lỗi, kiểm tra lại tệp nguồn đã lưu ở định dạng UTF‑8 và `setEncoding` khớp.  
+- **Tệp lớn:** Đối với tài liệu rất lớn, cân nhắc tăng kích thước heap JVM (`-Xmx2g`) để tránh `OutOfMemoryError`.  
 
 ## Câu hỏi thường gặp
 
-**Q: Tôi có thể sử dụng định dạng khác ngoài EPUB không?**  
-A: Có. Thay đổi `setSaveFormat` thành `SaveFormat.PDF`, `SaveFormat.DOCX`, `SaveFormat.HTML`, v.v., tùy theo nhu cầu của bạn.
+### 1. Tôi có thể sử dụng các định dạng khác ngoài EPUB để lưu tài liệu không?
 
-**Q: Aspose.Words xử lý định dạng phức tạp như thế nào?**  
-A: Thư viện giữ lại hầu hết định dạng Word, bao gồm bảng, hình ảnh và kiểu dáng. Hãy thử nghiệm với các tài liệu mẫu để xác nhận việc xử lý các trường hợp đặc biệt.
+Có, Aspose.Words hỗ trợ nhiều định dạng bao gồm PDF, DOCX, HTML và hơn nữa. Chỉ cần thay đổi đối số trong `setSaveFormat` (ví dụ, `SaveFormat.PDF`).
 
-**Q: Có thể thực hiện chuyển đổi hàng loạt không?**  
-A: Chắc chắn. Đặt logic tải và lưu trong một vòng lặp để tự động xử lý nhiều tệp DOCX.
+### 2. Làm thế nào để xử lý tài liệu có định dạng phức tạp khi chuyển đổi?
 
-**Q: Tôi nên làm gì nếu gặp lỗi khi chuyển đổi?**  
-A: Kiểm tra đường dẫn tệp, đảm bảo quyền đọc/ghi, và tham khảo **[tài liệu Aspose.Words](https://reference.aspose.com/words/java/)** để biết mã lỗi chi tiết.
+Aspose.Words tự động giữ lại hầu hết định dạng, nhưng luôn kiểm tra mẫu đại diện. Nếu các thành phần cụ thể (bảng, chú thích) hiển thị không đúng, bạn có thể tinh chỉnh các tùy chọn như `setExportHeadersFooters` hoặc `setExportImagesAsBase64`.
 
-**Q: Tôi có thể nhận được hỗ trợ bổ sung ở đâu?**  
-A: Truy cập **[diễn đàn cộng đồng Aspose](https://forum.aspose.com/c/words/8)** để nhận các mẹo, ví dụ và hỗ trợ từ các nhà phát triển khác.
+### 3. Tôi có thể tự động hoá quá trình chuyển đổi cho nhiều tài liệu không?
+
+Chắc chắn. Đặt mã vào vòng lặp duyệt qua thư mục chứa các tệp DOCX. Đây là cách thường dùng cho **batch convert word documents**.
+
+### 4. Tôi nên làm gì nếu gặp lỗi trong quá trình chuyển đổi?
+
+Kiểm tra đường dẫn đầu vào đúng và bạn có quyền đọc/ghi. Tham khảo tài liệu chính thức [Aspose.Words documentation](https://reference.aspose.com/words/java/) để biết mã lỗi chi tiết và các bước khắc phục.
+
+### 5. Tôi có thể nhận hỗ trợ bổ sung cho Aspose.Words cho Java ở đâu?
+
+Bạn có thể tìm hỗ trợ và tài nguyên bổ sung tại [Aspose community forum](https://forum.aspose.com/c/words/8).
+
+## Kết luận
+
+Bạn đã học cách **tạo epub từ docx** bằng Aspose.Words cho Java, với kiểm soát đầy đủ các tùy chọn lưu, chia dựa trên tiêu đề và xuất siêu dữ liệu. Cách tiếp cận này mở rộng từ chuyển đổi tệp đơn lẻ đến một pipeline **java convert word formats** hàng loạt, làm cho nó trở thành công cụ đa năng cho bất kỳ quy trình xuất bản nào.
 
 ---
 
-**Cập nhật lần cuối:** 2025-12-18  
-**Kiểm tra với:** Aspose.Words for Java 24.12 (mới nhất)  
-**Tác giả:** Aspose  
+**Last Updated:** 2026-02-19  
+**Tested With:** Aspose.Words 24.12 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

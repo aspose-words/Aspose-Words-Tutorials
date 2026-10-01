@@ -204,7 +204,6 @@ A: Aspose コミュニティとエンジニアが参加する [support forum](ht
 上記の手順に従うことで、Aspose.Words for Java を使用して **カスタムバーコード** 画像を生成し、**Word にバーコードを埋め込む** 方法が習得できました。この手法は在庫タグ、イベントチケット、またはバーコードを文書に組み込む必要があるあらゆるシナリオに柔軟に対応します。さまざまなバーコードタイプやスタイリングオプションを試して、ビジネス要件に最適な形に仕上げてください。
 
 ---
-
 **Last Updated:** 2025-12-10  
 **Tested With:** Aspose.Words for Java 24.12, Aspose.BarCode for Java 24.12  
 **Author:** Aspose  

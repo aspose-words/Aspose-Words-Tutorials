@@ -1,23 +1,23 @@
 ---
 category: general
-date: 2025-12-29
-description: إنشاء شكل مستطيل في مستند Word باستخدام Aspose.Words C#. تعلم كيفية ضبط
-  شفافية الشكل، وتعيين لون الظل، وحفظ مستند Word بسهولة.
+date: 2026-02-18
+description: أنشئ شكل مستطيل باستخدام Aspose.Words وتعلم كيفية إضافة الظل، وتحديد
+  حجم الشكل، وحفظ مستند Word في بضع دقائق.
 draft: false
 keywords:
 - create rectangle shape
-- set shape transparency
-- set shadow color
+- how to add shadow
 - save word document
-- create word document
+- set shape size
+- how to create document
 language: ar
-og_description: إنشاء شكل مستطيل في مستند Word باستخدام Aspose.Words C#. يوضح هذا
-  الدليل كيفية ضبط شفافية الشكل، وتعيين لون الظل، وحفظ مستند Word.
+og_description: إنشاء شكل مستطيل في ملف Word، وتعلم كيفية إضافة الظل، وتحديد حجم الشكل،
+  وحفظ المستند باستخدام Aspose.Words في C#.
 og_title: إنشاء شكل مستطيل في Word – دليل Aspose.Words الكامل
 tags:
 - Aspose.Words
 - C#
-- Word Automation
+- Word automation
 title: إنشاء شكل مستطيل في Word باستخدام Aspose.Words – دليل خطوة بخطوة
 url: /ar/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/
 ---
@@ -26,180 +26,187 @@ url: /ar/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء شكل مستطيل في Word – دليل Aspose.Words الكامل
+# إنشاء شكل مستطيل في Word باستخدام Aspose.Words – دليل خطوة بخطوة
 
-هل احتجت يوماً إلى **إنشاء شكل مستطيل** في مستند Word لكنك لم تكن متأكدًا من أين تبدأ؟ لست وحدك؛ كثير من المطورين يواجهون هذه المشكلة عند أتمتة التقارير أو الفواتير. في هذا الدليل سنستعرض الخطوات الدقيقة لإنشاء شكل مستطيل، ضبط شفافية الشكل، ضبط لون الظل، وأخيرًا **حفظ مستند Word** باستخدام Aspose.Words لـ .NET.  
+هل احتجت يومًا إلى **إنشاء شكل مستطيل** في ملف Word لكن لم تكن متأكدًا من أين تبدأ؟ لست وحدك—غالبًا ما يسأل المطورون: “كيف أضيف ظلًا إلى الشكل وأظل أحتفظ بإمكانية تحرير المستند؟” في هذا الدرس سنجيب على ذلك وسنوضح لك أيضًا **كيفية إضافة الظل**، **تحديد حجم الشكل**، و**حفظ مستند Word** في تدفق واحد سلس.
 
-سنغطي كل شيء من كائن المستند الأولي إلى ملف `.docx` النهائي على القرص، بحيث تكون قادرًا في النهاية على **إنشاء مستند Word** برمجيًا دون تخمين. لا مراجع خارجية، مجرد حل متكامل يمكنك نسخه‑ولصقه في مشروعك.
+سنستعرض كل ما تحتاجه، بدءًا من تهيئة مستند جديد (نعم، هذه هي الخطوة الأولى لـ **كيفية إنشاء مستند**) وحتى حفظ ملف *.docx* النهائي على القرص. لا مراجع خارجية، مجرد مثال مستقل يمكنك نسخه‑ولصقه في Visual Studio وتشغيله اليوم.
+
+---
 
 ## المتطلبات المسبقة
 
-- .NET 6.0 أو أحدث (الكود يعمل أيضًا مع .NET Framework 4.7+)
-- حزمة NuGet الخاصة بـ Aspose.Words for .NET (`Install-Package Aspose.Words`)
-- إلمام أساسي بصياغة C#
-- بيئة تطوير من اختيارك (Visual Studio، Rider، VS Code، إلخ)
+- .NET 6+ (أو .NET Framework 4.7+). Aspose.Words يعمل مع أي بيئة تشغيل .NET حديثة.
+- رخصة Aspose.Words صالحة (أو مفتاح التقييم المجاني) – وإلا ستظهر علامة مائية.
+- Visual Studio، Rider، أو أي محرر C# تفضله.
+- معرفة أساسية بـ C#—ليس شيئًا معقدًا، فقط القدرة على تشغيل تطبيق console.
 
-> **نصيحة احترافية:** إذا كنت تستخدم نسخة تجريبية مجانية من Aspose.Words، ستضيف المكتبة علامة مائية إلى ملف الإخراج. للإنتاج ستحتاج إلى ترخيص صالح.
+> **نصيحة احترافية:** إذا كنت تستخدم macOS، يمكن تشغيل نفس الكود تحت .NET 6 مع VS Code—فقط تأكد من الإشارة إلى حزمة NuGet `Aspose.Words`.
 
-## الخطوة 1: تهيئة المستند وDocumentBuilder
+---
 
-أول ما نقوم به هو إنشاء مستند Word جديد وفارغ و`DocumentBuilder` يتيح لنا إدراج المحتوى. فكر في الـ Builder كقلم افتراضي يرسم على الصفحة.
+## الخطوة 1: تهيئة المستند – الأساس لـ **كيفية إنشاء مستند**
+
+قبل أن نرسم أي شيء، نحتاج إلى لوحة فارغة. تسمي Aspose.Words هذه اللوحة بـ `Document`.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using System.Drawing;
 
-// Create a new blank document
+// Step 1: Create a new blank document
 Document document = new Document();
-
-// The builder provides methods to add text, tables, shapes, etc.
-DocumentBuilder builder = new DocumentBuilder(document);
 ```
 
-> **لماذا هذا مهم:** بدون `DocumentBuilder` سيتعين عليك تعديل شجرة العقد منخفضة المستوى مباشرةً، وهو أمر عرضة للأخطاء وأكثر صعوبة في القراءة.
+> **لماذا هذا مهم:** كائن `Document` يمثل ملف *.docx* بالكامل. جميع الأشكال والفقرات والأقسام التي تضيفها تصبح أبناء لهذا الكائن. بدءًا بمستند نظيف يضمن عدم وجود أنماط مخفية تتداخل مع المستطيل الخاص بك.
 
-## الخطوة 2: إنشاء شكل مستطيل
+---
 
-الآن نقوم فعليًا بـ **إنشاء شكل مستطيل**. طريقة `InsertShape` تأخذ تعداد `ShapeType`، العرض، والارتفاع (بالنقاط). الكائن `Shape` المرتجع يتيح لنا تعديل الخصائص البصرية لاحقًا.
+## الخطوة 2: تعريف المستطيل و**تحديد حجم الشكل**
+
+المستطيل هو مجرد `Shape` مع `ShapeType.Rectangle`. سنعطيه أبعادًا صريحة حتى يظهر بالضبط كما هو مقصود.
 
 ```csharp
-// Insert a rectangle 150 pts wide and 80 pts tall
-Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 80);
+// Step 2: Create a rectangular shape and define its size
+Shape rectangleShape = new Shape(document, ShapeType.Rectangle);
+rectangleShape.Width  = 200; // width in points (≈2.78 inches)
+rectangleShape.Height = 100; // height in points (≈1.39 inches)
 ```
 
-في هذه المرحلة يكون المستطيل صندوقًا أسود صلبًا مرتبطًا بالفقرة الحالية. يمكنك تحريكه، تغيير حجمه، أو حتى تدويره لاحقًا إذا احتجت.
+> **ماذا تعني الأرقام:** Aspose.Words يستخدم النقاط (1 pt = 1/72 in). عدّل القيم لتناسب تخطيطك؛ بالنسبة لصفحة A4 النموذجية، 200 pt عرض مريح.
 
-![إنشاء شكل مستطيل مع ظل](/images/rectangle-shadow.png "مستند Word يظهر شكل مستطيل مع ظل رمادي")
+---
 
-*نص بديل للصورة: إنشاء شكل مستطيل مع ظل في مستند Word*
+## الخطوة 3: **كيفية إضافة الظل** – لجعل الشكل يبرز
 
-## الخطوة 3: ضبط شفافية الشكل
-
-الشفافية هي مستوى “الشفافية” لتعبئة الشكل. تستخدم Aspose.Words خاصية `Transparency` التي تتراوح بين `0.0` (معتم) إلى `1.0` (شفاف بالكامل). هنا نقوم **بتعيين شفافية الشكل** إلى 40 % حتى يبقى النص الأساسي مقروءًا.
+الظلال تعطي إشارة بصرية بأن الشكل “مرفوع” عن الصفحة. خاصية `Shadow` تتيح لك تعديل اللون، والمسافة، والشفافية، والتمويه.
 
 ```csharp
-// Make the rectangle 40 % transparent
-rectangleShape.Fill.Transparency = 0.4; // 0.0 = opaque, 1.0 = invisible
+// Step 3: Apply a shadow to the shape
+rectangleShape.Shadow.Color        = Color.Black; // Shadow color
+rectangleShape.Shadow.Distance    = 5;           // Offset distance in points
+rectangleShape.Shadow.Transparency = 0.4;        // 40 % transparent
+rectangleShape.Shadow.BlurRadius  = 8;           // Soft edge radius
 ```
 
-> **حالة خاصة:** إذا كنت بحاجة إلى شكل غير مرئي تمامًا لكن لا يزال الظل ظاهرًا، اضبط `Transparency` إلى `1.0` ومنح الشكل عرض حد غير صفري.
+> **لماذا نستخدم الشفافية؟** الظل الكامل غير الشفاف قد يبدو قاسيًا. ضبطه على 0.4 يجعل التأثير خفيفًا واحترافيًا.
 
-## الخطوة 4: ضبط الظل
+---
 
-ظل خفيف يضيف عمقًا. سنقوم **بتعيين لون الظل** إلى رمادي متوسط، تعديل نصف قطر الضبابية، وإزاحته بضع نقاط أفقياً وعمودياً.
+## الخطوة 4: وضع المستطيل – تدفق inline مع النص المحيط
+
+إذا أردت أن يتصرف الشكل كحرف داخل فقرة، اضبط `WrapType` إلى `Inline`. هذا يحافظ على تخطيط predictable، خاصةً عندما يتم تحرير المستند لاحقًا.
 
 ```csharp
-// Enable the shadow effect
-rectangleShape.Shadow.Enabled = true;
-
-// Shadow color – a neutral gray
-rectangleShape.Shadow.Color = System.Drawing.Color.Gray;
-
-// 40 % transparent shadow (same as shape's fill)
-rectangleShape.Shadow.Transparency = 0.4;
-
-// Blur radius makes the edge softer
-rectangleShape.Shadow.Blur = 6;
-
-// Horizontal and vertical offsets (in points)
-rectangleShape.Shadow.OffsetX = 5;
-rectangleShape.Shadow.OffsetY = 5;
+// Step 4: Set the shape to flow inline with the surrounding text
+rectangleShape.WrapType = WrapType.Inline;
 ```
 
-> **لماذا هذا مهم:** الظل الحاد أو الداكن جدًا قد يبدو كخلل طباعة. عدّل `Blur` و`Transparency` حتى يصبح طبيعيًا.
+> **حالة خاصة:** إذا كنت بحاجة إلى أن يطفو المستطيل فوق النص (مثل العلامة المائية)، غيّر `WrapType` إلى `Square` أو `BehindText`.
 
-## الخطوة 5: حفظ مستند Word
+---
 
-أخيرًا نقوم **بحفظ مستند Word** على القرص. طريقة `Save` تحدد تنسيق الملف تلقائيًا من الامتداد؛ `.docx` هو تنسيق OpenXML الحديث.
+## الخطوة 5: إدراج الشكل في جسم المستند
+
+الآن نضع المستطيل فعليًا في الفقرة الأولى. إذا لم يكن للمستند محتوى بعد، يتم إنشاء `FirstParagraph` تلقائيًا.
 
 ```csharp
-// Save the document to the desired folder
-document.Save(@"C:\Temp\ShadowRectangle.docx");
+// Step 5: Insert the shape into the first paragraph of the document
+document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
 ```
 
-إذا لم يكن المجلد موجودًا، ستطرح Aspose.Words استثناء `ArgumentException`. تأكد من صحة المسار أو أنشئ الدليل مسبقًا.
+> **نصيحة:** يمكنك أيضًا إنشاء فقرة جديدة أولًا ثم إلحاق الشكل—مفيد عندما تحتاج إلى نص محيط.
 
-## مثال كامل يعمل
+---
 
-فيما يلي البرنامج الكامل الجاهز للتنفيذ الذي يجمع جميع الخطوات. انسخه إلى مشروع وحدة تحكم جديد واضغط **F5**.
+## الخطوة 6: **حفظ مستند Word** – الخطوة النهائية
+
+مع كل شيء في مكانه، حفظ الملف يصبح سطرًا واحدًا. اختر أي مسار تفضله؛ المثال يستخدم عنصر نائب يجب استبداله بمسارك الخاص.
 
 ```csharp
-using System;
+// Step 6: Save the document with the shadowed shape
+document.Save(@"C:\Temp\ShadowShape.docx");
+```
+
+> **النتيجة:** افتح *.docx* المُولد في Microsoft Word. سترى مستطيلًا بظل أسود، عرضه 200 pt وارتفاعه 100 pt، موضعًا inline مع الفقرة الأولى.
+
+---
+
+## النتيجة المتوقعة
+
+عند فتح **ShadowShape.docx**، سيظهر المستند كما يلي:
+
+- فقرة واحدة تحتوي على شكل مستطيل.
+- المستطيل له ظل أسود خفيف إزاحته 5 pt.
+- حجم الشكل يطابق الأبعاد المحددة في الخطوة 2.
+- لا يظهر نص إضافي ما لم تقم بإضافته يدويًا.
+
+إذا لم يظهر الشكل، تحقق مرة أخرى من أنك أدرجت الإصدار الصحيح من Aspose.Words وأن رخصتك (أو نسخة التجربة) مفعلة.
+
+---
+
+## أسئلة شائعة وتنوعات
+
+| السؤال | الجواب |
+|----------|--------|
+| *هل يمكنني تغيير لون الظل إلى غير الأسود؟* | بالتأكيد—اضبط `rectangleShape.Shadow.Color = Color.Blue;` أو أي `System.Drawing.Color` آخر. |
+| *ماذا لو احتجت مستطيلًا أكبر؟* | عدّل قيم `Width` و `Height`. تذكر أن القيم بوحدات النقاط؛ 72 pt = 1 in. |
+| *هل يمكن وضع الشكل في موقع مطلق؟* | نعم—استخدم `WrapType = WrapType.Absolute` واضبط خصائص `Top`/`Left`. |
+| *هل يعمل هذا مع .NET Core؟* | نعم. Aspose.Words متعدد المنصات؛ فقط ثبّت حزمة NuGet لـ .NET Standard. |
+| *هل يمكن إضافة نص داخل المستطيل؟* | ليس مباشرة؛ ستحتاج إلى إدراج شكل `TextBox` بدلًا من المستطيل العادي. |
+
+---
+
+## مثال كامل جاهز للتنفيذ (نسخ‑لصق)
+
+```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using System.Drawing;
 
-namespace AsposeRectangleDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main()
-        {
-            // 1️⃣ Initialize document and builder
-            Document document = new Document();
-            DocumentBuilder builder = new DocumentBuilder(document);
+        // 1️⃣ Initialize a new document
+        Document document = new Document();
 
-            // 2️⃣ Insert rectangle shape
-            Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 80);
+        // 2️⃣ Create rectangle and set its size
+        Shape rectangleShape = new Shape(document, ShapeType.Rectangle);
+        rectangleShape.Width  = 200;
+        rectangleShape.Height = 100;
 
-            // 3️⃣ Set shape transparency (40 % transparent)
-            rectangleShape.Fill.Transparency = 0.4;
+        // 3️⃣ Add a subtle black shadow
+        rectangleShape.Shadow.Color         = Color.Black;
+        rectangleShape.Shadow.Distance     = 5;
+        rectangleShape.Shadow.Transparency = 0.4;
+        rectangleShape.Shadow.BlurRadius   = 8;
 
-            // 4️⃣ Configure shadow (color, blur, offset, transparency)
-            rectangleShape.Shadow.Enabled = true;
-            rectangleShape.Shadow.Color = System.Drawing.Color.Gray;
-            rectangleShape.Shadow.Transparency = 0.4;
-            rectangleShape.Shadow.Blur = 6;
-            rectangleShape.Shadow.OffsetX = 5;
-            rectangleShape.Shadow.OffsetY = 5;
+        // 4️⃣ Make the shape flow inline with text
+        rectangleShape.WrapType = WrapType.Inline;
 
-            // 5️⃣ Save the document
-            string outputPath = @"C:\Temp\ShadowRectangle.docx";
-            document.Save(outputPath);
+        // 5️⃣ Insert the shape into the first paragraph
+        document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
 
-            Console.WriteLine($"Document saved to {outputPath}");
-        }
+        // 6️⃣ Persist the file
+        document.Save(@"C:\Temp\ShadowShape.docx");
+
+        System.Console.WriteLine("Document saved successfully!");
     }
 }
 ```
 
-### النتيجة المتوقعة
-
-افتح `ShadowRectangle.docx` في Microsoft Word. يجب أن ترى مستطيلًا رماديًا فاتحًا مع ظل ناعم ومزاح قليلًا، كلاهما مع شفافية 40 %. الشكل موجود على صفحة فارغة، جاهز لإضافة محتوى إضافي.
-
-## أسئلة شائعة وتنوعات
-
-**ماذا لو أردت شكلًا مختلفًا؟**  
-استبدل `ShapeType.Rectangle` بأي قيمة أخرى من التعداد (`Ellipse`، `Triangle`، `Star`، إلخ). يبقى باقي الكود كما هو.
-
-**هل يمكنني تغيير لون الحد؟**  
-نعم—استخدم `rectangleShape.StrokeColor = System.Drawing.Color.Blue;` ويمكنك أيضًا ضبط `rectangleShape.StrokeWeight = 1.5;`.
-
-**كيف أضع الشكل في موقع محدد على الصفحة؟**  
-اضبط `rectangleShape.WrapType = WrapType.None;` ثم عدّل خصائص `rectangleShape.Left` و`rectangleShape.Top` (القيم بالنقاط).
-
-**هل يمكن إضافة نص داخل المستطيل؟**  
-بالتأكيد. بعد إنشاء الشكل، يمكنك استدعاء `rectangleShape.AppendChild(new Paragraph(document))` ثم إضافة `Run` بالنص الخاص بك. تذكر ضبط خصائص `rectangleShape.TextBox` إذا أردت تنسيقًا أغنى.
-
-## نصائح احترافية ومخاطر محتملة
-
-- **الترخيص مبكرًا:** إذا نسيت تطبيق ترخيص، ستضيف Aspose.Words علامة مائية على الصفحة الأولى، ما قد يسبب ارتباكًا أثناء الاختبار.
-- **نصيحة الأداء:** عند توليد مستندات متعددة داخل حلقة، أعد استخدام كائن `Document` واحد واستدعِ `document.RemoveAllChildren();` بعد كل حفظ لتقليل الضغط على الـ GC.
-- **رؤية الظل:** على الشاشات منخفضة الدقة قد يبدو الظل الخفيف غير مرئي. زد `Blur` أو `OffsetX/Y` للتصحيح، ثم قللها للإنتاج.
-
-## الخطوات التالية
-
-الآن بعد أن تعلمت **إنشاء شكل مستطيل**، **ضبط شفافية الشكل**، **ضبط لون الظل**، و**حفظ مستند Word**، فكر في توسيع الدليل:
-
-- إضافة أشكال متعددة وتجميعها.
-- إدراج المستطيل داخل خلية جدول لتصميم تقرير.
-- دمج الشكل مع `DocumentBuilder.InsertHtml` لتراكب محتوى HTML‑مُنسق.
-- استكشاف تأثيرات بصرية أخرى مثل `Glow` أو `Reflection` لمستندات تشبه واجهات المستخدم.
-
-جرّب، اكسر، ثم حسّن—إنشاء المستندات برمجيًا هو ملعب يلتقي فيه التصميم البصري مع الشيفرة.
+شغّل البرنامج، انتقل إلى `C:\Temp\ShadowShape.docx`، وسترى المستطيل مع الظل تمامًا كما هو موصوف.
 
 ---
 
-*برمجة سعيدة! إذا واجهت أي صعوبات، اترك تعليقًا أدناه وسنساعدك في حلها.*
+## الخلاصة
+
+أنت الآن تعرف **كيفية إنشاء شكل مستطيل** في ملف Word باستخدام Aspose.Words، وكيفية **تحديد حجم الشكل**، **إضافة الظل**، وأخيرًا **حفظ مستند Word** بالتغييرات. العملية بأكملها—من **كيفية إنشاء مستند** إلى حفظ النتيجة—تُنفّذ ببضع أسطر من C# ويمكن توسيعها لتصاميم أكثر تعقيدًا.
+
+هل أنت مستعد للتحدي التالي؟ جرّب استبدال المستطيل بشكل ذو زوايا مستديرة، جرب ألوان ظلال مختلفة، أو أدخل الشكل داخل خلية جدول. كل تعديل يعزز المفاهيم الأساسية التي غطيناها هنا.
+
+إذا وجدت هذا الدليل مفيدًا، شاركه، اترك تعليقًا بتنوعاتك الخاصة، أو استكشف دروسنا الأخرى حول أتمتة Word، مثل إدراج الصور أو إنشاء الجداول باستخدام Aspose.Words. برمجة سعيدة!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

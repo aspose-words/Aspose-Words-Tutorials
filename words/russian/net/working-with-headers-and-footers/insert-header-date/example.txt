@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: С помощью классов Document и DocumentBuilder этот учебник показывает, как добавить динамическое поле DATE в основной заголовок Word‑документа и затем сохранить файл.
+//ExStepSummary:0: Создайте новый Document и DocumentBuilder для его редактирования.
+//ExStepSummary:1: Переместите курсор builder'а в основной заголовок, чтобы последующие вставки влияли на заголовок.
+//ExStepSummary:2: Запишите статическую метку и вставьте поле DATE, отформатированное как «MMMM d, yyyy», в заголовок, создавая динамическую дату.
+//ExStepSummary:3: Вернитесь к основному телу документа и добавьте примерный абзац, демонстрируя обычное содержание документа рядом с заголовком.
+//ExStepSummary:4: Сохраните документ в файл формата .docx.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+builder.Write("Generated on: ");
+builder.InsertField("DATE \\@ \"MMMM d, yyyy\"");
+
+//ExStep:3-
+builder.MoveToDocumentEnd();
+builder.Writeln("This is the document body.");
+
+//ExStep:4-
+doc.Save("HeaderDate.docx");
+//ExEnd

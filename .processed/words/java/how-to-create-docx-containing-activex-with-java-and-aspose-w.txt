@@ -1,0 +1,7 @@
+Title: How to create docx containing ActiveX with Java and Aspose.Words
+Slug: how-to-create-docx-containing-activex-with-java-and-aspose-w
+Category: using-document-elements
+ProcessedDate: 2026-09-27T22:40:09.034922
+SourceRepo: AI Search API
+Keywords: create docx containing activex, insert activex command button
+PRNumber: 290

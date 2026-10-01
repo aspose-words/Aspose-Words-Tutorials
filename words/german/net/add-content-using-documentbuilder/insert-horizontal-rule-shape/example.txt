@@ -1,0 +1,21 @@
+//ExStart
+//ExSummary: Dieses Tutorial zeigt, wie man ein Word-Dokument erstellt, einen Textabsatz hinzufügt und mithilfe von Document und DocumentBuilder eine horizontale Regel‑Form einfügt.
+//ExStepSummary:0: Erstellen Sie ein neues leeres Word-Dokument, indem Sie die Document-Klasse instanziieren.
+//ExStepSummary:1: Erzeugen Sie einen DocumentBuilder, der mit dem Dokument verknüpft ist, um Bearbeitungsoperationen zu ermöglichen.
+//ExStepSummary:2: Schreiben Sie einen Textabsatz und fügen Sie anschließend mithilfe von DocumentBuilder an der Cursorposition eine horizontale Regel‑Form ein.
+//ExStepSummary:3: Definieren Sie den Pfad des Ausgabeverzeichnisses und speichern Sie das Dokument als .docx-Datei.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document doc = new Document();
+
+//ExStep:1-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd
