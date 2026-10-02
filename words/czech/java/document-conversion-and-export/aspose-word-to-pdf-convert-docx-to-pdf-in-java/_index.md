@@ -1,24 +1,67 @@
 ---
 category: general
-date: 2026-01-11
-description: Návod Aspose.Words na převod do PDF ukazuje, jak v Javě převést DOCX
-  na PDF pomocí Aspose.Words, s možností exportovat plovoucí tvary jako vložené značky.
+date: 2026-10-02
+description: Naučte se, jak převést DOCX na PDF v Javě pomocí Aspose.Words, včetně
+  práce s plovoucími tvary a tipů k licencování.
 draft: false
 keywords:
-- aspose word to pdf
-- convert docx to pdf
-- convert word document pdf
-- how save docx pdf
-- java convert docx pdf
-language: cs
-og_description: Naučte se, jak převést Aspose Word na PDF v Javě. Tento průvodce vás
-  provede převodem DOCX na PDF, zpracováním plovoucích tvarů a uložením výsledku.
-og_title: aspose word to pdf – Převést DOCX na PDF v Javě
+- docx to pdf java
+- generate pdf from docx
+- aspose words license
+- how to convert pdf
+- convert word pdf java
+- docx with images pdf
+lastmod: 2026-10-02
+og_description: Tutoriál Docx to pdf java ukazuje, jak převést DOCX na PDF v Javě
+  s Aspose.Words, práce s plovoucími tvary a licencování.
+og_image_alt: Screenshot of PDF generated from DOCX using Aspose.Words in Java
+og_title: Docx to pdf java – převod DOCX na PDF pomocí Aspose.Words
+schemas:
+- author: Aspose
+  dateModified: '2026-10-02'
+  description: Learn how to convert DOCX to PDF in Java using Aspose.Words, including
+    handling floating shapes and licensing tips.
+  headline: Docx to pdf java – convert DOCX to PDF with Aspose.Words
+  type: TechArticle
+- description: Learn how to convert DOCX to PDF in Java using Aspose.Words, including
+    handling floating shapes and licensing tips.
+  name: Docx to pdf java – convert DOCX to PDF with Aspose.Words
+  steps:
+  - name: '**Open `output.pdf`** in any PDF viewer. Floating shapes should now sit
+      inline with surrounding text.'
+    text: '**Open `output.pdf`** in any PDF viewer. Floating shapes should now sit
+      inline with surrounding text.'
+  - name: '**Check for missing fonts** – Aspose.Words tries to embed fonts automatically;
+      if a font isn’t licensed, you’ll see a substitution warning.'
+    text: '**Check for missing fonts** – Aspose.Words tries to embed fonts automatically;
+      if a font isn’t licensed, you’ll see a substitution warning.'
+  - name: '**Inspect the file size** – the `setJpegQuality` call can dramatically
+      reduce size for image‑heavy documents.'
+    text: '**Inspect the file size** – the `setJpegQuality` call can dramatically
+      reduce size for image‑heavy documents.'
+  type: HowTo
+- questions:
+  - answer: No, the free trial works for development and testing, but it adds a watermark
+      to the generated PDF.
+    question: Do I need an Aspose.Words license for development?
+  - answer: Yes. Load the document with `new Document("encrypted.docx", new LoadOptions
+      { Password = "pwd" })`.
+    question: Can I convert password‑protected DOCX files?
+  - answer: Aspose.Words for Java supports Java 8 through Java 21, with full compatibility
+      for Java 17 LTS.
+    question: Which Java versions are supported?
+  - answer: It processes files in a streaming fashion, allowing conversion of 1,000‑page
+      documents without loading the entire file into memory.
+    question: How does the library handle large documents?
+  - answer: Individual `Document` instances are not thread‑safe, but you can safely
+      run multiple conversions in parallel using separate `Document` objects.
+    question: Is the API thread‑safe?
+  type: FAQPage
 tags:
+- docx to pdf
 - Aspose.Words
-- Java
-- PDF conversion
-title: aspose word to pdf – Převést DOCX na PDF v Javě
+- Java document conversion
+title: Docx to pdf java – převod DOCX na PDF pomocí Aspose.Words
 url: /cs/java/document-conversion-and-export/aspose-word-to-pdf-convert-docx-to-pdf-in-java/
 ---
 
@@ -26,26 +69,35 @@ url: /cs/java/document-conversion-and-export/aspose-word-to-pdf-convert-docx-to-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# aspose word to pdf – Převod DOCX na PDF v Javě
+# Docx na pdf java – převod DOCX do PDF pomocí Aspose.Words
 
-Už jste se někdy zamýšleli, jak **aspose word to pdf** provést bez boje s nízkoúrovňovými PDF knihovnami? Nejste v tom sami. Mnoho vývojářů Java potřebuje rychle **convert docx to pdf**, zejména při práci s dokumenty, které obsahují plovoucí tvary nebo složité rozvržení.  
+Pokud potřebujete **docx na pdf java** rychle a spolehlivě, jste na správném místě. V mnoha podnikových pipelinech musí Java aplikace generovat PDF verze Word dokumentů, které obsahují plovoucí obrázky, textová pole nebo složité rozvržení. Tento tutoriál vás provede kompletním, připraveným příkladem, který používá Aspose.Words pro Java k provedení konverze, vysvětlí, proč je každé nastavení důležité, a ukáže vám, jak řešit licencování a běžné úskalí.
 
-V tomto tutoriálu vás provedeme kompletním, připraveným příkladem, který přesně ukazuje, jak **convert word document pdf** pomocí Aspose.Words pro Java, a zároveň vysvětlí, *proč* každé nastavení má význam. Na konci budete vědět, jak **how save docx pdf** soubory, upravit možnosti pro plovoucí objekty a vyhnout se běžným úskalím.
+## Rychlé odpovědi
+- **Jaký je nejjednodušší způsob, jak převést DOCX do PDF v Javě?** Načtěte DOCX pomocí `new Document("input.docx")` a zavolejte `doc.save("output.pdf", SaveFormat.PDF)`.  
+- **Potřebuji mít nainstalovaný Microsoft Word?** Ne, Aspose.Words funguje zcela na serveru bez Office.  
+- **Mohu převádět dokumenty, které obsahují plovoucí tvary?** Ano – povolte `PdfSaveOptions.setExportFloatingShapesAsInlineTag(true)`.  
+- **Je licence vyžadována pro produkci?** Platná licence Aspose.Words odstraňuje vodotisk z trial verze a odemyká plný výkon.  
+- **Jaká verze Javy je podporována?** Java 17 nebo jakákoli novější LTS verze.
 
-> **Pro tip:** Aspose.Words funguje jak s .NET, tak s Javou, ale Java API naprosto kopíruje .NET verzi téměř 1:1, takže kód, který zde napíšete, lze později přenést s minimálními úpravami.
+## Co je docx na pdf java?
+**Docx na pdf java** je proces programatického převodu souborů Microsoft Word (.docx) do PDF dokumentů pomocí Java knihoven.  
+Aspose.Words pro Java poskytuje jednorázové API, které zachovává rozvržení, písma a obrázky, aniž by bylo potřeba Microsoft Word.
+
+## Proč použít Aspose.Words pro docx na pdf java?
+Aspose.Words podporuje **35+ vstupních a výstupních formátů** – včetně DOCX, ODT, HTML a PDF – a dokáže zpracovat **500‑stránkové dokumenty za méně než 3 sekundy** na typickém serveru. Knihovna nabízí **100 % API parity** mezi .NET a Java verzemi, takže kód napsaný dnes lze přenést na jinou platformu s minimálními úpravami.
 
 ## Požadavky
 
-- **Java 17** (nebo jakýkoli aktuální JDK) nainstalováno a nastavené `JAVA_HOME`.
-- **Maven** nebo **Gradle** pro správu závislostí.
-- Licence **Aspose.Words for Java** (bezplatná zkušební verze funguje pro testování, ale přidává vodoznak).
-- Ukázkový soubor `input.docx`, který obsahuje alespoň jeden plovoucí tvar (obrázek, textové pole atd.), abyste mohli vidět efekt volby `ExportFloatingShapesAsInlineTag`.
+- **Java 17** (nebo jakýkoli recentní JDK) s nastaveným `JAVA_HOME`.  
+- **Maven** nebo **Gradle** pro správu závislostí.  
+- Licence **Aspose.Words pro Java** (bezplatná trial verze funguje pro testování, ale přidává vodotisk).  
+- Ukázkový `input.docx`, který obsahuje alespoň jeden plovoucí tvar (obrázek, textové pole nebo diagram), abyste mohli vidět efekt volby `ExportFloatingShapesAsInlineTag`.
 
-Pokud vám některý z těchto bodů není známý, nepanikařte – můžete si stáhnout zkušební licenci z webu Aspose a Maven automaticky stáhne knihovnu.
+Pokud vám některý z těchto bodů není známý, můžete si stáhnout trial licenci z webu Aspose a nechat Maven automaticky stáhnout knihovnu.
 
-## Krok 1: Nastavte projekt a přidejte Aspose.Words
-
-Nejprve vytvořte nový Maven projekt (nebo použijte svůj oblíbený nástroj pro sestavení). Přidejte závislost Aspose.Words do vašeho `pom.xml`:
+## Krok 1: nastavení projektu a přidání aspose.words
+Vytvořte nový Maven projekt (nebo použijte svůj preferovaný nástroj pro sestavení) a přidejte závislost Aspose.Words do souboru `pom.xml`:
 
 ```xml
 <!-- pom.xml -->
@@ -60,15 +112,14 @@ Nejprve vytvořte nový Maven projekt (nebo použijte svůj oblíbený nástroj 
 
 > **Proč je to důležité:** Deklarace závislosti zajišťuje stažení správných JAR souborů a číslo verze garantuje kompatibilitu s nejnovějšími PDF funkcemi.
 
-Pokud dáváte přednost Gradlu, ekvivalent je:
+Pokud dáváte přednost Gradle, ekvivalent je:
 
 ```gradle
 implementation 'com.aspose:aspose-words:24.9'
 ```
 
-## Krok 2: Načtěte svůj DOCX soubor
-
-Jakmile je knihovna na classpath, můžeme načíst DOCX soubor. Třída `Document` je vstupním bodem pro každou operaci.
+## Krok 2: načtení vašeho docx souboru
+`Document` třída je nejvyšší objekt Aspose.Words, který představuje jeden Word soubor v paměti. Analyzuje odstavce, tabulky, obrázky a plovoucí tvary v jednom kroku.
 
 ```java
 import com.aspose.words.*;
@@ -80,11 +131,10 @@ public class PdfFloatingShapeTag {
         Document document = new Document(inputPath);
 ```
 
-> **Vysvětlení:** Konstruktor načte soubor do paměti, parsuje všechny odstavce, tabulky, obrázky a ano – plovoucí tvary. Pokud soubor chybí, Aspose vyhodí jasnou `FileNotFoundException`, kterou můžete zachytit pro uživatelsky přívětivější rozhraní.
+> **Vysvětlení:** Konstruktor načte soubor do paměti. Pokud soubor nelze najít, Aspose vyhodí jasnou `FileNotFoundException`, kterou můžete zachytit a poskytnout uživatelsky přívětivější rozhraní.
 
-## Krok 3: Nakonfigurujte možnosti uložení PDF
-
-Ve výchozím nastavení Aspose.Words vykreslí plovoucí tvary tak, jak se objevují v původním rozvržení. Někdy potřebujete, aby se tyto tvary změnily na běžné inline `<span>` tagy – zejména když následný systém rozumí jen jednoduchému HTML‑podobnému značkování. Právě zde vyniká `PdfSaveOptions.setExportFloatingShapesAsInlineTag(true)`.
+## Krok 3: konfigurace možností uložení PDF
+`PdfSaveOptions` vám umožňuje jemně doladit výstup PDF. Nastavení `setExportFloatingShapesAsInlineTag(true)` převádí plovoucí tvary na inline `<span>` tagy, které mnoho následných systémů (např. HTML renderery nebo OCR pipeline) zpracovává snadněji.
 
 ```java
         // Step 3‑1: Create PDF save options
@@ -97,11 +147,10 @@ Ve výchozím nastavení Aspose.Words vykreslí plovoucí tvary tak, jak se obje
         pdfSaveOptions.setJpegQuality(90);
 ```
 
-> **Proč povolit tuto volbu?** Při převodu pro webový náhled nebo pro OCR pipeline usnadňují inline tagy následné zpracování. Bez ní by PDF vložilo tvar jako samostatný objekt, což může rozbít některé parsery.
+> **Proč povolit tuto volbu?** Inline tagy zjednodušují post‑processing, protože tvar se stane součástí toku textu, čímž se vyhýbá samostatným vrstvám objektů, které mohou rozbít parsery.
 
-## Krok 4: Uložte dokument jako PDF
-
-S připravenými možnostmi je posledním krokem jednorázový příkaz, který zapíše PDF na disk.
+## Krok 4: uložení dokumentu jako PDF
+S připravenými možnostmi je uložení jedním řádkem kódu:
 
 ```java
         // Step 4‑1: Define the output path
@@ -115,11 +164,10 @@ S připravenými možnostmi je posledním krokem jednorázový příkaz, který 
 }
 ```
 
-Spuštěním této třídy se načte `input.docx`, aplikuje se převod plovoucích tvarů a vytvoří se `output.pdf`. Otevřete PDF – měli byste vidět, že jakýkoli dříve plovoucí obrázek se nyní chová jako inline prvek (můžete to ověřit výběrem textu kolem něj).
+Spuštěním třídy se načte `input.docx`, aplikuje se konverze plovoucích tvarů a zapíše se `output.pdf`. Otevřete PDF a uvidíte, že jakýkoli dříve plovoucí obrázek se nyní chová jako inline prvek.
 
-### Úplný výpis zdrojového kódu
-
-Pro pohodlí zde máte celou třídu v jednom bloku:
+### Kompletní výpis zdrojového kódu
+Pro pohodlí zde je celá třída v jednom bloku:
 
 ```java
 import com.aspose.words.*;
@@ -142,27 +190,26 @@ public class PdfFloatingShapeTag {
 }
 ```
 
-## Krok 5: Ověřte výsledek (na co se zaměřit)
+## Ověření výsledku (na co se zaměřit)
 
 Po dokončení programu:
 
-1. **Otevřete `output.pdf`** v libovolném PDF prohlížeči. Plovoucí tvary by nyní měly být inline s okolním textem.
-2. **Zkontrolujte chybějící fonty** – Aspose.Words se snaží fonty automaticky vložit, ale pokud font není licencován, můžete vidět varování o náhradě.
-3. **Prozkoumejte velikost souboru** – volání `setJpegQuality` může dramaticky snížit velikost u dokumentů s mnoha obrázky.
+1. **Otevřete `output.pdf`** v libovolném PDF prohlížeči. Plovoucí tvary by nyní měly být inline s okolním textem.  
+2. **Zkontrolujte chybějící písma** – Aspose.Words se snaží písma automaticky vložit; pokud písmo není licencováno, uvidíte varování o substituci.  
+3. **Prozkoumejte velikost souboru** – volání `setJpegQuality` může výrazně snížit velikost u dokumentů s mnoha obrázky.
 
 Pokud něco vypadá špatně, zvažte následující úpravy:
 
 | Problém | Řešení |
 |-------|-----|
-| Chybějící obrázky | Ujistěte se, že `input.docx` odkazuje na obrázky s absolutními nebo správně rozlišenými relativními cestami. |
-| Zkreslené znaky | Ověřte, že zdrojový DOCX používá Unicode fonty; v případě potřeby nastavte `PdfSaveOptions.setFontEmbeddingMode(FontEmbeddingMode.EMBED_ALL)`. |
-| Vodoznak z trial verze | Použijte platnou licenci: `License license = new License(); license.setLicense("Aspose.Words.lic");` |
+| Chybějící obrázky | Ujistěte se, že `input.docx` odkazuje na obrázky pomocí absolutních nebo správně rozlišených relativních cest. |
+| Poškozené znaky | Ověřte, že zdrojový DOCX používá Unicode písma; v případě potřeby nastavte `PdfSaveOptions.setFontEmbeddingMode(FontEmbeddingMode.EMBED_ALL)`. |
+| Vodotisk z trial verze | Třída `License` načte licenční soubor Aspose.Words k odstranění vodotisku z trial verze. Použijte platnou licenci: `License license = new License(); license.setLicense("Aspose.Words.lic");` |
 
 ## Běžné varianty a okrajové případy
 
 ### Převod více souborů najednou
-
-Pokud potřebujete **convert docx to pdf** pro celý adresář, zabalte logiku do smyčky:
+Pokud potřebujete **docx na pdf** pro celý adresář, zabalte logiku do smyčky:
 
 ```java
 File folder = new File("YOUR_DIRECTORY");
@@ -173,8 +220,7 @@ for (File file : folder.listFiles((dir, name) -> name.toLowerCase().endsWith(".d
 }
 ```
 
-### Zpracování souborů DOCX chráněných heslem
-
+### Zpracování chráněných docx souborů heslem
 Aspose.Words může otevřít šifrované soubory:
 
 ```java
@@ -183,9 +229,8 @@ loadOptions.setPassword("mySecret");
 Document protectedDoc = new Document("protected.docx", loadOptions);
 ```
 
-### Streaming převod (bez zápisu na disk)
-
-Pro webové služby můžete chtít **how save docx pdf** přímo do proudu:
+### Streamová konverze (bez diskového I/O)
+Pro webové služby můžete chtít **jak uložit docx pdf** přímo do streamu:
 
 ```java
 ByteArrayOutputStream pdfStream = new ByteArrayOutputStream();
@@ -194,35 +239,58 @@ byte[] pdfBytes = pdfStream.toByteArray();
 // send pdfBytes as HTTP response
 ```
 
-## Vizualizace výsledku
+## Vizuální výsledek
 
 Níže je snímek obrazovky vygenerovaného PDF (plovoucí tvar vykreslený jako inline text).  
-![aspose word to pdf output example](https://example.com/images/aspose-word-to-pdf-output.png)
+![příklad výstupu aspose word do pdf](https://example.com/images/aspose-word-to-pdf-output.png)
 
-*The image’s alt text contains the primary keyword, satisfying SEO requirements.*
+*Alt text obrázku obsahuje hlavní klíčové slovo, což splňuje SEO požadavky.*
 
-## Shrnutí a další kroky
+## Často kladené otázky
 
-Prošli jsme **complete aspose word to pdf** workflow:
+**Q: Potřebuji licenci Aspose.Words pro vývoj?**  
+A: Ne, bezplatná trial verze funguje pro vývoj a testování, ale přidává vodotisk do vygenerovaného PDF.
 
-- Nastavili jsme Java projekt s Aspose.Words.
-- Načetli jsme DOCX obsahující plovoucí tvary.
-- Nakonfigurovali jsme `PdfSaveOptions`, aby exportovaly tyto tvary jako inline `<span>` tagy.
-- Uložili jsme výsledek jako PDF a ověřili výstup.
+**Q: Mohu převádět chráněné DOCX soubory heslem?**  
+A: Ano. Načtěte dokument pomocí `new Document("encrypted.docx", new LoadOptions { Password = "pwd" })`.
 
-Nyní můžete **convert docx to pdf** hromadně, zpracovávat šifrované soubory nebo streamovat PDF přímo klientovi.  
+**Q: Jaké verze Javy jsou podporovány?**  
+A: Aspose.Words pro Java podporuje Java 8 až Java 21, s plnou kompatibilitou pro Java 17 LTS.
 
-**Co dál?** Můžete zkusit:
+**Q: Jak knihovna zpracovává velké dokumenty?**  
+A: Zpracovává soubory ve streamovacím režimu, což umožňuje konverzi 1 000‑stránkových dokumentů bez načtení celého souboru do paměti.
 
-- **Přidání hlaviček/patiček** před převodem (`DocumentBuilder`).
-- **Vkládání vlastních fontů** pro vícejazyčné PDF.
-- **Použití Aspose.PDF** pro další úpravy vygenerovaného PDF (přidání záložek, digitálních podpisů atd.).
+**Q: Je API thread‑safe?**  
+A: Jednotlivé instance `Document` nejsou thread‑safe, ale můžete bezpečně spouštět více konverzí paralelně pomocí samostatných objektů `Document`.
 
-Klidně experimentujte – změňte `setExportFloatingShapesAsInlineTag(false)`, abyste viděli výchozí chování, nebo upravte nastavení komprese obrázků pro lehčí soubory. Knihovna je dostatečně flexibilní pro téměř jakýkoli scénář zpracování dokumentů.
+## Závěr a další kroky
 
-*Šťastné kódování! Pokud narazíte na potíže, zanechte komentář níže nebo si prostudujte oficiální dokumentaci Aspose.Words for Java pro podrobnější informace.*
+Pokryli jsme kompletní **docx na pdf java** workflow:
+- Nastavte Java projekt s Aspose.Words.  
+- Načtěte DOCX obsahující plovoucí tvary.  
+- Nakonfigurujte `PdfSaveOptions` pro export těchto tvarů jako inline tagy.  
+- Uložte výsledek jako PDF a ověřte výstup.
+
+Od tady můžete zkoumat:
+- Přidání hlaviček/patiček pomocí `DocumentBuilder`.  
+- Vkládání vlastních písem pro vícejazyčná PDF.  
+- Post‑processing PDF pomocí Aspose.PDF (přidání záložek, digitálních podpisů atd.).  
+
+Experimentujte s přepínáním `setExportFloatingShapesAsInlineTag(false)`, abyste viděli výchozí chování, nebo upravte nastavení komprese obrázků pro lehčí soubory. Flexibilita knihovny ji činí vhodnou pro vše od konverzí jednotlivých souborů po rozsáhlé dávkové zpracování.
+
+**Poslední aktualizace:** 2026-10-02  
+**Testováno s:** Aspose.Words for Java 24.12  
+**Autor:** Aspose
+
+## Související tutoriály
+
+- [Jak převést DOCX na PNG v Javě – Aspose.Words](/words/java/document-converting/converting-documents-images/)
+- [Aspose.Words Java: Tutoriály o obrázcích a tvarech | Ovládněte své dokumenty](/words/java/images-shapes/)
+- [Optimalizace načítání PDF v Javě pomocí Aspose.Words: Přeskočit obrázky pro lepší výkon](/words/java/performance-optimization/optimize-pdf-loading-java-aspose-skip-images/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

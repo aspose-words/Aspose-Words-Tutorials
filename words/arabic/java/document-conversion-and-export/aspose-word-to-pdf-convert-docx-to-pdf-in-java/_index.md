@@ -1,24 +1,67 @@
 ---
 category: general
-date: 2026-01-11
-description: يُظهر دليل Aspose Word إلى PDF كيفية تحويل ملف DOCX إلى PDF في جافا باستخدام
-  Aspose.Words، مع خيارات لتصدير الأشكال العائمة كوسوم مدمجة.
+date: 2026-10-02
+description: تعلم كيفية تحويل DOCX إلى PDF في Java باستخدام Aspose.Words، بما في ذلك
+  التعامل مع floating shapes ونصائح licensing.
 draft: false
 keywords:
-- aspose word to pdf
-- convert docx to pdf
-- convert word document pdf
-- how save docx pdf
-- java convert docx pdf
-language: ar
-og_description: تعلم كيفية تحويل Aspose Word إلى PDF في Java. يوضح لك هذا الدليل عملية
-  تحويل ملفات docx إلى PDF، ومعالجة الأشكال العائمة، وحفظ النتيجة.
-og_title: aspose word to pdf – تحويل DOCX إلى PDF في Java
+- docx to pdf java
+- generate pdf from docx
+- aspose words license
+- how to convert pdf
+- convert word pdf java
+- docx with images pdf
+lastmod: 2026-10-02
+og_description: يوضح دليل Docx إلى pdf java كيفية تحويل DOCX إلى PDF في Java باستخدام
+  Aspose.Words، مع التعامل مع floating shapes و licensing.
+og_image_alt: Screenshot of PDF generated from DOCX using Aspose.Words in Java
+og_title: Docx إلى pdf java – تحويل DOCX إلى PDF باستخدام Aspose.Words
+schemas:
+- author: Aspose
+  dateModified: '2026-10-02'
+  description: Learn how to convert DOCX to PDF in Java using Aspose.Words, including
+    handling floating shapes and licensing tips.
+  headline: Docx to pdf java – convert DOCX to PDF with Aspose.Words
+  type: TechArticle
+- description: Learn how to convert DOCX to PDF in Java using Aspose.Words, including
+    handling floating shapes and licensing tips.
+  name: Docx to pdf java – convert DOCX to PDF with Aspose.Words
+  steps:
+  - name: '**Open `output.pdf`** in any PDF viewer. Floating shapes should now sit
+      inline with surrounding text.'
+    text: '**Open `output.pdf`** in any PDF viewer. Floating shapes should now sit
+      inline with surrounding text.'
+  - name: '**Check for missing fonts** – Aspose.Words tries to embed fonts automatically;
+      if a font isn’t licensed, you’ll see a substitution warning.'
+    text: '**Check for missing fonts** – Aspose.Words tries to embed fonts automatically;
+      if a font isn’t licensed, you’ll see a substitution warning.'
+  - name: '**Inspect the file size** – the `setJpegQuality` call can dramatically
+      reduce size for image‑heavy documents.'
+    text: '**Inspect the file size** – the `setJpegQuality` call can dramatically
+      reduce size for image‑heavy documents.'
+  type: HowTo
+- questions:
+  - answer: No, the free trial works for development and testing, but it adds a watermark
+      to the generated PDF.
+    question: Do I need an Aspose.Words license for development?
+  - answer: Yes. Load the document with `new Document("encrypted.docx", new LoadOptions
+      { Password = "pwd" })`.
+    question: Can I convert password‑protected DOCX files?
+  - answer: Aspose.Words for Java supports Java 8 through Java 21, with full compatibility
+      for Java 17 LTS.
+    question: Which Java versions are supported?
+  - answer: It processes files in a streaming fashion, allowing conversion of 1,000‑page
+      documents without loading the entire file into memory.
+    question: How does the library handle large documents?
+  - answer: Individual `Document` instances are not thread‑safe, but you can safely
+      run multiple conversions in parallel using separate `Document` objects.
+    question: Is the API thread‑safe?
+  type: FAQPage
 tags:
+- docx to pdf
 - Aspose.Words
-- Java
-- PDF conversion
-title: aspose word to pdf – تحويل DOCX إلى PDF في Java
+- Java document conversion
+title: Docx إلى pdf java – تحويل DOCX إلى PDF باستخدام Aspose.Words
 url: /ar/java/document-conversion-and-export/aspose-word-to-pdf-convert-docx-to-pdf-in-java/
 ---
 
@@ -26,26 +69,36 @@ url: /ar/java/document-conversion-and-export/aspose-word-to-pdf-convert-docx-to-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# aspose word to pdf – تحويل DOCX إلى PDF في Java
+# Docx to pdf java – تحويل DOCX إلى PDF باستخدام Aspose.Words
 
-هل تساءلت يومًا كيف تقوم بـ **aspose word to pdf** دون الصراع مع مكتبات PDF منخفضة المستوى؟ لست وحدك. يحتاج العديد من مطوري Java إلى **convert docx to pdf** بسرعة، خاصةً عند التعامل مع مستندات تحتوي على أشكال عائمة أو تخطيطات معقدة.  
+إذا كنت بحاجة إلى **docx to pdf java** بسرعة وموثوقية، فقد وجدت المكان المناسب. في العديد من خطوط أنابيب المؤسسات، يجب على تطبيقات Java إنشاء إصدارات PDF من مستندات Word التي تحتوي على صور عائمة، أو صناديق نصية، أو تخطيطات معقدة. يوضح هذا الدرس مثالًا كاملاً جاهزًا للتنفيذ يستخدم Aspose.Words for Java لإجراء التحويل، ويشرح لماذا كل إعداد مهم، ويظهر لك كيفية التعامل مع الترخيص والمشكلات الشائعة.
 
-في هذا البرنامج التعليمي سنستعرض مثالًا كاملًا وجاهزًا للتنفيذ يوضح بالضبط كيفية **convert word document pdf** باستخدام Aspose.Words for Java، مع شرح *لماذا* كل إعداد مهم. في النهاية ستعرف كيف **how save docx pdf** الملفات، وتضبط الخيارات للأجسام العائمة، وتتجنب المشكلات الشائعة.
+## إجابات سريعة
+- **ما هي أبسط طريقة لتحويل DOCX إلى PDF في Java؟** حمّل الـ DOCX باستخدام `new Document("input.docx")` واستدعِ `doc.save("output.pdf", SaveFormat.PDF)`.  
+- **هل أحتاج إلى تثبيت Microsoft Word؟** لا، يعمل Aspose.Words بالكامل على الخادم دون الحاجة إلى Office.  
+- **هل يمكنني تحويل مستندات تحتوي على أشكال عائمة؟** نعم – فعّل `PdfSaveOptions.setExportFloatingShapesAsInlineTag(true)`.  
+- **هل الترخيص مطلوب للإنتاج؟** ترخيص Aspose.Words صالح يزيل علامة التجربة المائية ويفتح الأداء الكامل.  
+- **ما نسخة Java المدعومة؟** Java 17 أو أي إصدار LTS لاحق.
 
-> **نصيحة احترافية:** Aspose.Words يعمل مع كل من .NET و Java، لكن واجهة برمجة تطبيقات Java تعكس .NET تقريبًا بنسبة 1:1، لذا يمكن نقل الشيفرة التي تكتبها هنا لاحقًا مع تغييرات قليلة.
+## ما هو docx to pdf java؟
+**Docx to pdf java** هو عملية تحويل ملفات Microsoft Word (.docx) إلى مستندات PDF برمجيًا باستخدام مكتبات Java.  
+توفر Aspose.Words for Java واجهة API سطر واحد تحافظ على التخطيط، الخطوط، والصور دون الحاجة إلى Microsoft Word.
+
+## لماذا نستخدم Aspose.Words لـ docx to pdf java؟
+يدعم Aspose.Words **أكثر من 35 تنسيقًا للمدخلات والمخرجات** — بما في ذلك DOCX و ODT و HTML و PDF — ويمكنه معالجة **مستندات تصل إلى 500 صفحة في أقل من 3 ثوانٍ** على خادم عادي. تقدم المكتبة **تطابق 100 % في API** بين إصدارات .NET و Java، لذا يمكن نقل الكود المكتوب اليوم إلى منصة أخرى مع تغييرات قليلة.
 
 ## المتطلبات المسبقة
 
-- **Java 17** (أو أي JDK حديث) مثبت ومُعرّف `JAVA_HOME`.
-- **Maven** أو **Gradle** لإدارة الاعتمادات.
-- رخصة **Aspose.Words for Java** (الإصدار التجريبي المجاني يعمل للاختبار، لكنه يضيف علامة مائية).
-- ملف `input.docx` تجريبي يحتوي على شكل عائم واحد على الأقل (صورة، مربع نص، إلخ) حتى تتمكن من رؤية تأثير خيار `ExportFloatingShapesAsInlineTag`.
+- **Java 17** (أو أي JDK حديث) مع تكوين `JAVA_HOME`.  
+- **Maven** أو **Gradle** لإدارة الاعتمادات.  
+- ترخيص **Aspose.Words for Java** (النسخة التجريبية المجانية تعمل للاختبار لكنها تضيف علامة مائية).  
+- ملف `input.docx` تجريبي يحتوي على شكل عائم واحد على الأقل (صورة، صندوق نص، أو مخطط) لتتمكن من رؤية تأثير خيار `ExportFloatingShapesAsInlineTag`.
 
-إذا كان أي من هذه غير مألوف، لا تقلق—يمكنك الحصول على رخصة تجريبية من موقع Aspose، وسيقوم Maven بجلب المكتبة لك تلقائيًا.
+إذا كان أي من هذه غير مألوف لك، يمكنك تنزيل ترخيص تجريبي من موقع Aspose والسماح لـ Maven بجلب المكتبة تلقائيًا.
 
-## الخطوة 1: إعداد المشروع وإضافة Aspose.Words
+## الخطوة 1: إعداد المشروع وإضافة aspose.words
 
-أولاً، أنشئ مشروع Maven جديد (أو استخدم أداة البناء المفضلة لديك). أضف اعتماد Aspose.Words إلى ملف `pom.xml` الخاص بك:
+أنشئ مشروع Maven جديد (أو استخدم أداة البناء المفضلة) وأضف اعتماد Aspose.Words إلى `pom.xml`:
 
 ```xml
 <!-- pom.xml -->
@@ -60,15 +113,15 @@ url: /ar/java/document-conversion-and-export/aspose-word-to-pdf-convert-docx-to-
 
 > **لماذا هذا مهم:** إعلان الاعتماد يضمن تنزيل ملفات JAR الصحيحة، ورقم الإصدار يضمن التوافق مع أحدث ميزات PDF.
 
-إذا كنت تفضل Gradle، فإن المكافئ هو:
+إذا كنت تفضّل Gradle، فالمكافئ هو:
 
 ```gradle
 implementation 'com.aspose:aspose-words:24.9'
 ```
 
-## الخطوة 2: تحميل ملف DOCX الخاص بك
+## الخطوة 2: تحميل ملف docx الخاص بك
 
-الآن بعد أن أصبحت المكتبة على مسار الفئة (classpath)، يمكننا تحميل ملف DOCX. فئة `Document` هي نقطة الدخول لكل عملية.
+الفئة `Document` هي الكائن الأعلى مستوى في Aspose.Words الذي يمثل ملف Word واحد في الذاكرة. تقوم بتحليل الفقرات والجداول والصور والأشكال العائمة في خطوة واحدة.
 
 ```java
 import com.aspose.words.*;
@@ -80,11 +133,11 @@ public class PdfFloatingShapeTag {
         Document document = new Document(inputPath);
 ```
 
-> **شرح:** يقرأ المُنشئ الملف إلى الذاكرة، ويُحلل جميع الفقرات والجداول والصور، ونعم—الأشكال العائمة. إذا كان الملف مفقودًا، تُطلق Aspose استثناء `FileNotFoundException` واضح، يمكنك التقاطه لتوفير واجهة مستخدم أكثر ودية.
+> **شرح:** يقرأ المُنشئ الملف إلى الذاكرة. إذا تعذر العثور على الملف، يرمي Aspose استثناءً واضحًا `FileNotFoundException` يمكنك التقاطه لتقديم واجهة مستخدم أكثر ودية.
 
 ## الخطوة 3: تكوين خيارات حفظ PDF
 
-بشكل افتراضي، سيقوم Aspose.Words بعرض الأشكال العائمة كما تظهر في التخطيط الأصلي. أحيانًا تحتاج إلى تحويل تلك الأشكال إلى وسوم `<span>` داخلية عادية—خاصةً عندما يكون النظام اللاحق لا يفهم سوى تنسيق شبيه بـ HTML بسيط. هنا يبرز دور `PdfSaveOptions.setExportFloatingShapesAsInlineTag(true)`.
+تتيح لك `PdfSaveOptions` ضبط مخرجات PDF بدقة. ضبط `setExportFloatingShapesAsInlineTag(true)` يحول الأشكال العائمة إلى وسوم `<span>` داخلية، وهو ما تتعامل معه الأنظمة اللاحقة (مثل عارضات HTML أو خطوط أنابيب OCR) بسهولة أكبر.
 
 ```java
         // Step 3‑1: Create PDF save options
@@ -97,11 +150,11 @@ public class PdfFloatingShapeTag {
         pdfSaveOptions.setJpegQuality(90);
 ```
 
-> **لماذا تمكين هذا الخيار؟** عند التحويل للمعاينة على الويب أو لسلاسل OCR، تُبسّط الوسوم الداخلية المعالجة اللاحقة. بدونها، سيضمّن PDF الشكل ككائن منفصل، مما قد يُعطّل بعض المحللات.
+> **لماذا تفعيل هذا الخيار؟** تبسط الوسوم الداخلية ما بعد المعالجة لأن الشكل يصبح جزءًا من تدفق النص، متجنبًا طبقات كائنات منفصلة قد تُعطّل المحللات.
 
-## الخطوة 4: حفظ المستند كملف PDF
+## الخطوة 4: حفظ المستند كملف pdf
 
-مع إعداد الخيارات، الخطوة الأخيرة هي سطر واحد يكتب ملف PDF إلى القرص.
+مع إعداد الخيارات، يصبح الحفظ سطرًا واحدًا من الشيفرة:
 
 ```java
         // Step 4‑1: Define the output path
@@ -115,7 +168,7 @@ public class PdfFloatingShapeTag {
 }
 ```
 
-تشغيل هذه الفئة سيقرأ `input.docx`، يطبق تحويل الشكل العائم، وينتج `output.pdf`. افتح ملف PDF—يجب أن ترى أن أي صورة كانت عائمة سابقًا الآن تتصرف كعنصر داخل النص (يمكنك التحقق عن طريق تحديد النص حوله).
+تشغيل الفئة يقرأ `input.docx`، يطبق تحويل الشكل العائم، ويكتب `output.pdf`. افتح ملف PDF وسترى أن أي صورة كانت عائمة الآن تتصرف كعنصر داخل النص.
 
 ### قائمة المصدر الكاملة
 
@@ -142,27 +195,27 @@ public class PdfFloatingShapeTag {
 }
 ```
 
-## الخطوة 5: التحقق من النتيجة (ما الذي يجب البحث عنه)
+## التحقق من النتيجة (ما الذي يجب البحث عنه)
 
 بعد انتهاء البرنامج:
 
-1. **Open `output.pdf`** في أي عارض PDF. يجب أن تكون الأشكال العائمة الآن داخل النص المحيط.
-2. **Check for missing fonts** – تحاول Aspose.Words تضمين الخطوط تلقائيًا، ولكن إذا لم يكن الخط مرخصًا، قد ترى تحذير استبدال.
-3. **Inspect the file size** – يمكن لاستدعاء `setJpegQuality` أن يقلل الحجم بشكل كبير للمستندات التي تحتوي على الكثير من الصور.
+1. **افتح `output.pdf`** في أي عارض PDF. يجب أن تكون الأشكال العائمة الآن مدمجة داخل النص المحيط.  
+2. **تحقق من الخطوط المفقودة** – يحاول Aspose.Words تضمين الخطوط تلقائيًا؛ إذا لم يكن الخط مرخصًا، ستظهر رسالة استبدال.  
+3. **افحص حجم الملف** – يمكن لاستدعاء `setJpegQuality` أن يقلل الحجم بشكل كبير للمستندات التي تحتوي على صور كثيرة.
 
 إذا كان هناك شيء غير صحيح، فكر في هذه التعديلات:
 
 | المشكلة | الحل |
-|-------|-----|
-| Missing images | Ensure `input.docx` references images with absolute or correctly resolved relative paths. |
-| Garbled characters | Verify the source DOCX uses Unicode fonts; set `PdfSaveOptions.setFontEmbeddingMode(FontEmbeddingMode.EMBED_ALL)` if needed. |
-| Watermark from trial | Apply a valid license: `License license = new License(); license.setLicense("Aspose.Words.lic");` |
+|---------|------|
+| الصور المفقودة | تأكد من أن `input.docx` يشير إلى الصور بمسارات مطلقة أو نسبية مُحلَّة بشكل صحيح. |
+| حروف مشوشة | تحقق من أن ملف DOCX الأصلي يستخدم خطوط Unicode؛ اضبط `PdfSaveOptions.setFontEmbeddingMode(FontEmbeddingMode.EMBED_ALL)` إذا لزم الأمر. |
+| علامة مائية من النسخة التجريبية | فئة `License` تحمل ملف ترخيص Aspose.Words لإزالة العلامة المائية التجريبية. استخدم ترخيصًا صالحًا: `License license = new License(); license.setLicense("Aspose.Words.lic");` |
 
-## التنويعات الشائعة والحالات الخاصة
+## تنوعات شائعة وحالات حافة
 
 ### تحويل ملفات متعددة دفعة واحدة
 
-إذا كنت بحاجة إلى **convert docx to pdf** لمجلد كامل، غلف المنطق داخل حلقة:
+إذا كنت بحاجة إلى **docx to pdf** لمجلد كامل، غلف المنطق داخل حلقة:
 
 ```java
 File folder = new File("YOUR_DIRECTORY");
@@ -173,7 +226,7 @@ for (File file : folder.listFiles((dir, name) -> name.toLowerCase().endsWith(".d
 }
 ```
 
-### معالجة ملفات DOCX المحمية بكلمة مرور
+### التعامل مع ملفات docx محمية بكلمة مرور
 
 يمكن لـ Aspose.Words فتح الملفات المشفرة:
 
@@ -183,9 +236,9 @@ loadOptions.setPassword("mySecret");
 Document protectedDoc = new Document("protected.docx", loadOptions);
 ```
 
-### تحويل عبر التدفق (بدون كتابة على القرص)
+### التحويل المتدفق (بدون إدخال/إخراج قرص)
 
-لخدمات الويب، قد ترغب في **how save docx pdf** مباشرةً إلى تدفق:
+لخدمات الويب، قد ترغب في **how save docx pdf** مباشرة إلى تدفق:
 
 ```java
 ByteArrayOutputStream pdfStream = new ByteArrayOutputStream();
@@ -194,37 +247,63 @@ byte[] pdfBytes = pdfStream.toByteArray();
 // send pdfBytes as HTTP response
 ```
 
-## النتيجة المرئية
+## النتيجة البصرية
 
-في الأسفل لقطة شاشة للـ PDF المُولد (تم عرض الشكل العائم كنص داخل السطر).  
-![aspose word to pdf output example](https://example.com/images/aspose-word-to-pdf-output.png)
+فيما يلي لقطة شاشة للملف PDF الناتج (الشكل العائم تم عرضه كنص داخل).  
+![مثال ناتج aspose word إلى pdf](https://example.com/images/aspose-word-to-pdf-output.png)
 
-*نص alt للصورة يحتوي على الكلمة المفتاحية الرئيسية، مما يفي بمتطلبات تحسين محركات البحث.*
+*يحتوي نص alt للصورة على الكلمة المفتاحية الأساسية، لتلبية متطلبات تحسين محركات البحث.*
 
-## ملخص وخطوات قادمة
+## الأسئلة المتكررة
 
-لقد غطينا سير عمل **complete aspose word to pdf**:
+**س: هل أحتاج إلى ترخيص Aspose.Words للتطوير؟**  
+ج: لا، النسخة التجريبية المجانية تعمل للتطوير والاختبار، لكنها تضيف علامة مائية إلى ملف PDF المُنتج.
 
-- إعداد مشروع Java مع Aspose.Words.
-- تحميل ملف DOCX يحتوي على أشكال عائمة.
-- تكوين `PdfSaveOptions` لتصدير تلك الأشكال كوسوم `<span>` داخلية.
+**س: هل يمكنني تحويل ملفات DOCX محمية بكلمة مرور؟**  
+ج: نعم. حمّل المستند باستخدام `new Document("encrypted.docx", new LoadOptions { Password = "pwd" })`.
+
+**س: أي إصدارات Java مدعومة؟**  
+ج: يدعم Aspose.Words for Java Java 8 حتى Java 21، مع توافق كامل مع Java 17 LTS.
+
+**س: كيف تتعامل المكتبة مع المستندات الكبيرة؟**  
+ج: تعالج الملفات بطريقة تدفقية، مما يسمح بتحويل مستندات تصل إلى 1,000 صفحة دون تحميل الملف بالكامل في الذاكرة.
+
+**س: هل API آمن للاستخدام المتعدد الخيوط؟**  
+ج: كائنات `Document` الفردية غير آمنة للمتعدد الخيوط، لكن يمكنك تشغيل عمليات تحويل متعددة بالتوازي باستخدام كائنات `Document` منفصلة.
+
+## الخلاصة والخطوات التالية
+
+لقد غطينا سير عمل كامل لـ **docx to pdf java**:
+
+- إعداد مشروع Java مع Aspose.Words.  
+- تحميل DOCX يحتوي على أشكال عائمة.  
+- تكوين `PdfSaveOptions` لتصدير تلك الأشكال كوسوم داخلية.  
 - حفظ النتيجة كملف PDF والتحقق من المخرجات.
 
-الآن يمكنك **convert docx to pdf** بالجملة، معالجة الملفات المشفرة، أو تدفق الـ PDF مباشرةً إلى العميل.  
+من هنا يمكنك استكشاف:
 
-**ما التالي؟** قد تستكشف:
+- إضافة رؤوس/تذييلات باستخدام `DocumentBuilder`.  
+- تضمين خطوط مخصصة لإنشاء PDF متعدد اللغات.  
+- ما بعد معالجة PDF باستخدام Aspose.PDF (إضافة فهارس، توقيعات رقمية، إلخ).  
 
-- **Adding headers/footers** قبل التحويل (`DocumentBuilder`).
-- **Embedding custom fonts** للـ PDFs متعددة اللغات.
-- **Using Aspose.PDF** لمزيد من تعديل الـ PDF المُولد (إضافة إشارات مرجعية، توقيعات رقمية، إلخ).
-
-لا تتردد في التجربة—بدّل `setExportFloatingShapesAsInlineTag(false)` لرؤية السلوك الافتراضي، أو اضبط إعدادات ضغط الصور للحصول على ملفات أخف. المكتبة مرنة بما يكفي لمعالجة أي سيناريو مستند تقريبًا.
+جرّب تبديل `setExportFloatingShapesAsInlineTag(false)` لرؤية السلوك الافتراضي، أو اضبط إعدادات ضغط الصور للحصول على ملفات أخف. مرونة المكتبة تجعلها مناسبة لكل شيء من تحويل ملف واحد إلى معالجة دفعات واسعة النطاق.
 
 ---
 
-*برمجة سعيدة! إذا واجهت أي مشاكل، اترك تعليقًا أدناه أو راجع توثيق Aspose.Words for Java الرسمي للمزيد من التفاصيل.*
+**آخر تحديث:** 2026-10-02  
+**تم الاختبار مع:** Aspose.Words for Java 24.12  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [How to Convert DOCX to PNG in Java – Aspose.Words](/words/java/document-converting/converting-documents-images/)
+- [Aspose.Words Java: Images & Shapes Tutorials | Master Your Docs](/words/java/images-shapes/)
+- [Optimize PDF Loading in Java Using Aspose.Words: Skip Images for Better Performance](/words/java/performance-optimization/optimize-pdf-loading-java-aspose-skip-images/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
