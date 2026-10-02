@@ -1,0 +1,7 @@
+Title: Translate docx to French with AI in C#
+Slug: translate-docx-to-french-with-ai-in-c
+Category: ai-powered-document-processing
+ProcessedDate: 2026-08-08T03:02:34.609289
+SourceRepo: AI Search API
+Keywords: translate docx to french, translate word document, ai document translation, set target language, batch translate documents
+PRNumber: 245

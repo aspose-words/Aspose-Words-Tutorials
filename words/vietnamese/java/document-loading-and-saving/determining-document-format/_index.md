@@ -1,10 +1,10 @@
 ---
-date: 2025-12-20
-description: Tìm hiểu cách sắp xếp tệp theo loại và phát hiện định dạng tài liệu trong
-  Java với Aspose.Words. Hỗ trợ DOC, DOCX, RTF và hơn nữa.
+date: 2026-02-22
+description: Tìm hiểu cách phát hiện định dạng tài liệu Java với Aspose.Words và tự
+  động di chuyển tệp theo định dạng. Nhận dạng DOC, DOCX và nhiều định dạng khác.
 linktitle: Determining Document Format
 second_title: Aspose.Words Java Document Processing API
-title: Sắp xếp tệp theo loại bằng Aspose.Words cho Java
+title: Phát hiện định dạng tài liệu Java bằng Aspose.Words cho Java
 url: /vi/java/document-loading-and-saving/determining-document-format/
 weight: 25
 ---
@@ -15,30 +15,38 @@ weight: 25
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tổ chức các tệp theo loại bằng Aspose.Words cho Java
+# phát hiện định dạng tài liệu java bằng Aspose.Words cho Java
 
-Khi bạn cần **tổ chức các tệp theo loại** trong một ứng dụng Java, bước đầu tiên là xác định một cách đáng tin cậy định dạng của mỗi tài liệu. Aspose.Words cho Java làm cho việc này trở nên đơn giản, cho phép bạn phát hiện các định dạng DOC, DOCX, RTF, HTML, ODT và nhiều định dạng khác – ngay cả các tệp được mã hóa hoặc không xác định. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cách thiết lập thư mục, phát hiện định dạng tệp và tự động sắp xếp các tệp của bạn.
+Khi bạn cần **detect document format java** trong một lô tệp, khả năng tự động sắp xếp chúng vào các thư mục phù hợp có thể tiết kiệm hàng giờ công việc thủ công. Trong hướng dẫn này, chúng tôi sẽ chỉ cho bạn cách Aspose.Words cho Java giúp dễ dàng xác định Word, RTF, HTML, ODT và nhiều định dạng khác, và sau đó **move files by format** vào các thư mục được tổ chức.
 
 ## Câu trả lời nhanh
-- **“Tổ chức các tệp theo loại” có nghĩa là gì?** Nó có nghĩa là tự động di chuyển tài liệu vào các thư mục dựa trên định dạng đã phát hiện (ví dụ: DOCX, PDF, RTF).  
-- **Thư viện nào giúp phát hiện định dạng tệp trong Java?** Aspose.Words cho Java cung cấp `FileFormatUtil.detectFileFormat()`.  
-- **API có thể xác định các loại tệp không xác định không?** Có – nó trả về `LoadFormat.UNKNOWN` cho các tệp không được hỗ trợ hoặc không nhận dạng được.  
-- **Có hỗ trợ phát hiện tài liệu được mã hóa không?** Hoàn toàn có; cờ `FileFormatInfo.isEncrypted()` cho biết tệp có được bảo vệ bằng mật khẩu hay không.  
-- **Tôi có cần giấy phép cho việc sử dụng trong môi trường sản xuất không?** Cần có giấy phép Aspose.Words hợp lệ cho các triển khai thương mại.
+- **What does “detect document format java” mean?** Đó là quá trình xác định một cách lập trình định dạng xử lý văn bản của tệp (DOC, DOCX, RTF, v.v.) bằng mã Java.  
+- **Which library provides this capability?** Aspose.Words cho Java cung cấp API `FileFormatUtil.detectFileFormat`.  
+- **Can the utility also handle encrypted files?** Có – cờ `FileFormatInfo.isEncrypted()` cho biết tài liệu có được bảo vệ bằng mật khẩu hay không.  
+- **Do I need a license for production use?** Cần có giấy phép thương mại của Aspose.Words cho các triển khai không phải đánh giá.  
+- **Is it possible to move files automatically after detection?** Chắc chắn – kết hợp kết quả phát hiện với `FileUtils.copyFile` để sắp xếp tệp vào các thư mục tùy chỉnh.
 
-## Giới thiệu: Tổ chức các tệp theo loại với Aspose.Words cho Java
+## Detect document format java là gì?
+`detect document format java` đề cập đến việc sử dụng mã Java để kiểm tra tiêu đề nhị phân của tệp và xác định định dạng xử lý văn bản mà nó thuộc về (ví dụ: DOC, DOCX, ODT). Aspose.Words đọc tệp mà không cần tải toàn bộ tài liệu, giúp thao tác nhanh và tiết kiệm bộ nhớ.
 
-Khi làm việc với xử lý tài liệu trong Java, việc xác định định dạng của các tệp bạn đang xử lý là rất quan trọng. Aspose.Words cho Java cung cấp các tính năng mạnh mẽ để **detect file format java**, và chúng tôi sẽ hướng dẫn bạn quy trình tổ chức các tệp một cách hiệu quả.
+## Tại sao phải di chuyển tệp theo định dạng?
+Việc tổ chức tài liệu theo định dạng gốc của chúng giúp đơn giản hoá quá trình xử lý tiếp theo:
+
+- **Batch conversions** trở nên dễ dàng khi tất cả các tệp DOCX nằm trong một thư mục.  
+- **Legacy support**: bạn có thể tách các tệp Word trước năm 97 để xử lý đặc biệt.  
+- **Security**: các tài liệu được mã hoá có thể được cách ly tự động.  
 
 ## Yêu cầu trước
 
-- [Aspose.Words for Java](https://releases.aspose.com/words/java/)
-- Java Development Kit (JDK) được cài đặt trên hệ thống của bạn
-- Kiến thức cơ bản về lập trình Java
+Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
 
-## Bước 1: Cài đặt thư mục
+- [Aspose.Words for Java](https://releases.aspose.com/words/java/) (tải phiên bản mới nhất)  
+- Java Development Kit (JDK) 8 hoặc cao hơn đã được cài đặt  
+- Kiến thức cơ bản về Java I/O và streams  
 
-Đầu tiên, chúng ta cần thiết lập các thư mục cần thiết để tổ chức các tệp một cách hiệu quả. Chúng ta sẽ tạo các thư mục cho các loại tài liệu khác nhau.
+## Bước 1: Thiết lập thư mục cho mỗi định dạng
+
+Đầu tiên chúng ta tạo một cấu trúc thư mục sạch sẽ nơi các tệp đã phát hiện sẽ được di chuyển. Điều này giữ cho quy trình làm việc gọn gàng và dễ dàng thêm các danh mục định dạng mới sau này.
 
 ```java
 File supportedDir = new File("Your Directory Path" + "Supported");
@@ -57,11 +65,11 @@ if (!pre97Dir.exists())
     pre97Dir.mkdir();
 ```
 
-Chúng tôi đã tạo các thư mục cho các loại tài liệu được hỗ trợ, không xác định, được mã hóa và tài liệu pre‑97.
+> **Pro tip:** Sử dụng đường dẫn tuyệt đối hoặc cấu hình thư mục gốc thông qua file properties để tránh việc mã hoá cứng các đường dẫn trong mã sản xuất.
 
-## Bước 2: Phát hiện định dạng tài liệu
+## Bước 2: Phát hiện định dạng tài liệu và di chuyển tệp
 
-Bây giờ, hãy phát hiện định dạng của các tài liệu trong các thư mục của chúng ta. Chúng ta sẽ sử dụng Aspose.Words cho Java để thực hiện điều này.
+Phần cốt lõi của **detect document format java** nằm trong vòng lặp dưới đây. Nó quét từng tệp, xác định loại của chúng và sao chép vào thư mục phù hợp.
 
 ```java
 Set<String> listFiles = Stream.of(new File("Your Directory Path").listFiles())
@@ -103,9 +111,11 @@ for (String fileName : listFiles) {
 }
 ```
 
-Trong đoạn mã này, chúng tôi duyệt qua các tệp, **detect file format java**, và sắp xếp chúng vào các thư mục phù hợp.
+Khối `switch` có thể được mở rộng để bao phủ mọi định dạng bạn quan tâm. Mỗi case in ra một thông báo thân thiện và sau đó di chuyển tệp vào thư mục tương ứng.
 
-## Mã nguồn hoàn chỉnh để xác định định dạng tài liệu trong Aspose.Words cho Java
+## Mã nguồn hoàn chỉnh cho việc phát hiện định dạng tài liệu java
+
+Dưới đây là ví dụ đầy đủ, sẵn sàng chạy, kết hợp thiết lập thư mục và logic phát hiện. Sao chép nó vào một lớp Java, điều chỉnh đường dẫn cơ sở, và chạy nó trên một thư mục chứa các tài liệu hỗn hợp.
 
 ```java
         File supportedDir = new File("Your Directory Path" + "Supported");
@@ -197,48 +207,39 @@ Trong đoạn mã này, chúng tôi duyệt qua các tệp, **detect file format
 
 ```
 
-## Cách phát hiện định dạng tệp Java
+## Các vấn đề thường gặp và khắc phục
 
-Phương thức `FileFormatUtil.detectFileFormat()` kiểm tra tiêu đề tệp và trả về một đối tượng `FileFormatInfo`. Đối tượng này cho bạn biết **load format**, liệu tệp có được mã hóa hay không, và các siêu dữ liệu hữu ích khác. Sử dụng thông tin này, bạn có thể lập trình để **identify unknown file types** và quyết định cách xử lý mỗi tệp.
-
-## Xác định các loại tệp không xác định
-
-Khi API trả về `LoadFormat.UNKNOWN`, tệp có thể bị hỏng hoặc sử dụng một định dạng mà Aspose.Words không hỗ trợ. Trong mã mẫu của chúng tôi, chúng tôi di chuyển những tệp đó vào thư mục **Unknown** để bạn có thể xem xét lại sau.
-
-## Các vấn đề thường gặp và giải pháp
-
-| Vấn đề | Lý do | Giải pháp |
-|-------|--------|-----|
-| Các tệp luôn được đặt vào thư mục *Supported* | `FileFormatUtil` không thể đọc tiêu đề (ví dụ: tệp rỗng) | Đảm bảo bạn truyền đúng đường dẫn tệp và tệp không có kích thước 0 byte. |
-| Các tệp được mã hóa gây ra ngoại lệ | Cố gắng đọc mà không xử lý việc mã hóa | Sử dụng kiểm tra `info.isEncrypted()` trước khi thực hiện bất kỳ xử lý nào tiếp theo, như trong mã mẫu. |
-| Tài liệu Word pre‑97 không được phát hiện | Các định dạng cũ cần trường hợp `DOC_PRE_WORD_60` | Giữ khối `case LoadFormat.DOC_PRE_WORD_60` để chuyển chúng vào thư mục *Pre97*. |
+| Issue | Lý do xảy ra | Cách khắc phục |
+|-------|----------------|------------|
+| **`FileFormatUtil.detectFileFormat` returns `UNKNOWN`** | Tệp bị hỏng hoặc sử dụng định dạng không phải Word. | Xác minh phần mở rộng tệp, hoặc thêm fallback để di chuyển nó vào thư mục *Unknown* (đã có trong mẫu). |
+| **Encrypted files throw an exception** | API cố gắng đọc nội dung trước khi kiểm tra mã hoá. | Luôn gọi `info.isEncrypted()` trước bất kỳ thao tác nào khác trên tài liệu. |
+| **Directory creation fails on Linux** | Quyền không đủ hoặc thiếu thư mục cha. | Đảm bảo quá trình Java có quyền ghi và đường dẫn cơ sở tồn tại. |
 
 ## Câu hỏi thường gặp
 
-### Làm thế nào để cài đặt Aspose.Words cho Java?
+**Q: Làm thế nào để cài đặt Aspose.Words cho Java?**  
+A: Bạn có thể tải Aspose.Words cho Java từ [đây](https://releases.aspose.com/words/java/) và làm theo hướng dẫn cài đặt được cung cấp.
 
-Bạn có thể tải Aspose.Words cho Java từ [đây](https://releases.aspose.com/words/java/) và làm theo hướng dẫn cài đặt được cung cấp.
+**Q: Các định dạng tài liệu nào được hỗ trợ để phát hiện?**  
+A: Aspose.Words có thể phát hiện DOC, DOCX, DOT, DOTX, DOCM, DOTM, RTF, HTML, MHTML, ODT, OTT, FLAT_OPC, WORD_ML, và các định dạng cũ hơn trước năm 97, cùng với các định dạng khác.
 
-### Các định dạng tài liệu được hỗ trợ là gì?
+**Q: Mã này có thể xử lý tài liệu được bảo vệ bằng mật khẩu không?**  
+A: Có. Cờ `FileFormatInfo.isEncrypted()` xác định các tệp được mã hoá, cho phép bạn di chuyển chúng vào thư mục an toàn mà không cần mở.
 
-Aspose.Words cho Java hỗ trợ nhiều định dạng tài liệu, bao gồm DOC, DOCX, RTF, HTML, ODT và hơn thế nữa. Tham khảo tài liệu chính thức để biết danh sách đầy đủ.
+**Q: Có ảnh hưởng đến hiệu năng khi quét các thư mục lớn không?**  
+A: Phát hiện chỉ đọc tiêu đề tệp, vì vậy ngay cả hàng nghìn tệp cũng được xử lý nhanh chóng. Đối với các lô rất lớn, hãy xem xét sử dụng parallel streams.
 
-### Làm sao tôi có thể phát hiện tài liệu được mã hóa bằng Aspose.Words cho Java?
+**Q: Làm thế nào để mở rộng script để chuyển đổi các định dạng không được hỗ trợ?**  
+A: Sau khi phát hiện, bạn có thể gọi `Document.save` với định dạng đầu ra mong muốn cho bất kỳ loại nguồn nào được hỗ trợ.
 
-Sử dụng phương thức `FileFormatUtil.detectFileFormat()`; cờ `FileFormatInfo.isEncrypted()` trả về cho biết tài liệu có được mã hóa hay không, như đã minh họa trong hướng dẫn này.
+## Kết luận
 
-### Có bất kỳ hạn chế nào khi làm việc với các định dạng tài liệu cũ không?
-
-Các định dạng cũ như MS Word 6 hoặc Word 95 có thể thiếu các tính năng hiện đại và có thể gặp vấn đề tương thích. Hãy cân nhắc chuyển đổi chúng sang các định dạng mới hơn khi có thể.
-
-### Tôi có thể tự động phát hiện định dạng tài liệu trong ứng dụng Java của mình không?
-
-Có, hãy nhúng mã đã cung cấp vào quy trình xử lý của ứng dụng. Điều này cho phép tự động sắp xếp và xử lý dựa trên các định dạng đã phát hiện.
+Bằng cách sử dụng **detect document format java** với Aspose.Words, bạn có được một cách đáng tin cậy để tự động sắp xếp, cách ly hoặc chuyển đổi các tệp liên quan đến Word. Mã mẫu minh họa cách tạo một cấu trúc thư mục sạch sẽ, xác định định dạng của từng tệp và di chuyển chúng một cách phù hợp—giúp bạn tiết kiệm thời gian và giảm lỗi thủ công.
 
 ---
 
-**Cập nhật lần cuối:** 2025-12-20  
-**Kiểm tra với:** Aspose.Words for Java 24.12 (mới nhất)  
+**Cập nhật lần cuối:** 2026-02-22  
+**Kiểm tra với:** Aspose.Words for Java 24.12 (latest)  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

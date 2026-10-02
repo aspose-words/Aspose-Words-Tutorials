@@ -1,0 +1,7 @@
+Title: How to digitally sign Word document using Java
+Slug: how-to-digitally-sign-word-document-using-java
+Category: document-security
+ProcessedDate: 2026-09-27T22:40:06.899070
+SourceRepo: AI Search API
+Keywords: digitally sign word document, digital signature for word file, add digital signature to docx
+PRNumber: 290

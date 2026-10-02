@@ -40,7 +40,7 @@ Processamento de Textos com Markdown oferece um recurso abrangente para aprender
 | [Ler documento Markdown](./read-markdown-document/) Aprenda a ler e manipular documentos Markdown usando o Aspose.Words para .NET com este tutorial detalhado e passo a passo. Perfeito para desenvolvedores de todos os níveis. |
 | [Ênfases](./emphases/) | Aprenda a criar texto enfatizado em Markdown usando o Aspose.Words para .NET. Este guia aborda os estilos negrito, itálico e combinados, com instruções passo a passo. |
 | [Use a fonte de aviso](./use-warning-source/) | Domine o Aspose.Words para .NET com este guia passo a passo sobre como usar a classe WarningSource para lidar com avisos do Markdown. Perfeito para desenvolvedores em C#. |
-
+| [Carregar arquivo Markdown em um documento – Tutorial completo de análise](./load-markdown-file-into-a-document-complete-parsing-tutorial/) | Aprenda a carregar e analisar completamente um arquivo Markdown em um documento usando Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

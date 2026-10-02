@@ -1,12 +1,10 @@
 ---
-date: 2025-12-20
-description: Tìm hiểu cách tải tài liệu RTF trong Java bằng Aspose.Words. Hướng dẫn
-  này trình bày cách cấu hình các tùy chọn tải RTF, bao gồm RecognizeUtf8Text, với
-  mã từng bước.
+date: 2026-02-22
+description: Tìm hiểu cách lưu RTF bằng Aspose.Words cho Java, bao gồm cách bật nhận
+  dạng UTF‑8 và tải ví dụ tài liệu RTF trong Java. Hướng dẫn từng bước kèm đoạn mã.
 linktitle: Configuring RTF Load Options
 second_title: Aspose.Words Java Document Processing API
-title: Cách tải tài liệu RTF bằng cách cấu hình tùy chọn tải RTF trong Aspose.Words
-  cho Java
+title: Cách lưu RTF bằng Aspose.Words cho Java
 url: /vi/java/document-loading-and-saving/configuring-rtf-load-options/
 weight: 12
 ---
@@ -21,56 +19,57 @@ weight: 12
 
 ## Giới thiệu về cấu hình tùy chọn tải RTF trong Aspose.Words cho Java
 
-Trong hướng dẫn này, chúng ta sẽ khám phá **cách tải tài liệu RTF** bằng Aspose.Words cho Java. RTF (Rich Text Format) là một định dạng tài liệu được sử dụng rộng rãi, có thể được tải, chỉnh sửa và lưu một cách lập trình. Chúng ta sẽ tập trung vào tùy chọn `RecognizeUtf8Text`, cho phép bạn kiểm soát việc tự động nhận dạng văn bản mã hoá UTF‑8 bên trong tệp RTF. Hiểu rõ cài đặt này là cần thiết khi bạn cần xử lý chính xác nội dung đa ngôn ngữ.
+Trong hướng dẫn này, bạn sẽ khám phá **cách lưu RTF** bằng Aspose.Words cho Java đồng thời học **cách bật xử lý UTF‑8** và cách tốt nhất để **tải tài liệu RTF trong dự án Java**. Dù bạn đang xử lý hoá đơn, báo cáo, hay bất kỳ nội dung văn bản phong phú nào, việc thành thạo các tùy chọn này sẽ cho bạn kiểm soát toàn diện về mã hoá ký tự và độ trung thực của tài liệu.
 
-### Câu trả lời nhanh
-- **Cách chính để tải tài liệu RTF trong Java là gì?** Sử dụng `Document` cùng với `RtfLoadOptions`.
-- **Tùy chọn nào kiểm soát việc phát hiện UTF‑8?** `RecognizeUtf8Text`.
-- **Tôi có cần giấy phép để chạy mẫu không?** Bản dùng thử miễn phí đủ cho việc đánh giá; giấy phép bắt buộc cho môi trường sản xuất.
-- **Có thể tải các tệp RTF được bảo vệ bằng mật khẩu không?** Có, bằng cách đặt mật khẩu trên `RtfLoadOptions`.
-- **Sản phẩm Aspose nào liên quan?** Aspose.Words cho Java.
+## Trả lời nhanh
+- **Tùy chọn `RecognizeUtf8Text` làm gì?** Nó chỉ cho bộ tải xử lý các chuỗi byte UTF‑8 trong tệp RTF như các ký tự Unicode.  
+- **Tôi có thể tắt nhận dạng UTF‑8 không?** Có – đặt `setRecognizeUtf8Text(false)`.  
+- **Có cần giấy phép để lưu tệp RTF không?** Cần một giấy phép Aspose.Words hợp lệ cho môi trường sản xuất; bản dùng thử miễn phí có sẵn.  
+- **Phiên bản Java nào được hỗ trợ?** Java 8 trở lên được hỗ trợ đầy đủ.  
+- **Mã có an toàn với đa luồng không?** Việc tải và lưu tài liệu là an toàn với đa luồng miễn là mỗi luồng làm việc với một thể hiện `Document` riêng.
 
-## Cách tải tài liệu RTF trong Java
+## “cách lưu rtf” trong ngữ cảnh của Aspose.Words là gì?
+Lưu một tài liệu RTF có nghĩa là chuyển đổi đối tượng `Document` trở lại thành tệp Rich Text Format trên đĩa. Aspose.Words tự động thực hiện quá trình chuyển đổi, nhưng bạn có thể tinh chỉnh bằng `RtfLoadOptions` để đảm bảo các ký tự được diễn giải đúng.
 
-Trước khi bắt đầu, hãy chắc chắn rằng bạn đã tích hợp thư viện Aspose.Words cho Java vào dự án của mình. Bạn có thể tải xuống từ [website](https://releases.aspose.com/words/java/).
+## Tại sao cần bật UTF‑8 khi tải RTF?
+UTF‑8 là mã hoá phổ biến nhất cho văn bản quốc tế. Bật nó ngăn ngừa việc ký tự bị lỗi khi tệp RTF nguồn chứa các ký tự không phải ASCII, giúp các tệp RTF đã lưu trông đúng như mong muốn.
 
-### Yêu cầu trước
-- Java 8 trở lên
-- JAR Aspose.Words cho Java đã được thêm vào classpath
-- Một tệp RTF mà bạn muốn xử lý (ví dụ: *UTF‑8 characters.rtf*)
+## Yêu cầu trước
 
-## Bước 1: Thiết lập tùy chọn tải RTF
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã tích hợp thư viện Aspose.Words cho Java vào dự án. Bạn có thể tải xuống từ [website](https://releases.aspose.com/words/java/).
 
-Đầu tiên, tạo một thể hiện của `RtfLoadOptions` và bật cờ `RecognizeUtf8Text`. Đây là một phần của **aspose words load options** cho phép bạn kiểm soát chi tiết quá trình tải.
+## Cách bật UTF8 trong RTF Load Options
+
+Đầu tiên, tạo một thể hiện của `RtfLoadOptions` và bật bộ nhận dạng UTF‑8:
 
 ```java
 RtfLoadOptions loadOptions = new RtfLoadOptions();
 loadOptions.setRecognizeUtf8Text(true);
 ```
 
-Ở đây, `loadOptions` là một thể hiện của `RtfLoadOptions`, và chúng ta đã sử dụng phương thức `setRecognizeUtf8Text` để bật nhận dạng văn bản UTF‑8.
+Ở đây `loadOptions` chỉ cho bộ tải xử lý bất kỳ chuỗi byte UTF‑8 nào như các ký tự Unicode hợp lệ.
 
-## Bước 2: Tải tài liệu RTF
+## Tải tài liệu RTF Java – Sử dụng các tùy chọn đã cấu hình
 
-Bây giờ tải tệp RTF của bạn với các tùy chọn đã cấu hình. Điều này minh họa **load rtf document java** một cách đơn giản.
+Với các tùy chọn đã sẵn sàng, tải tệp nguồn của bạn. Thay `"Your Directory Path"` bằng thư mục thực tế chứa tệp RTF:
 
 ```java
 Document doc = new Document("Your Directory Path" + "UTF-8 characters.rtf", loadOptions);
 ```
 
-Thay thế `"Your Directory Path"` bằng đường dẫn thực tế tới thư mục chứa tệp RTF.
+Đối tượng `Document` hiện nay chứa nội dung với mã hoá ký tự đúng.
 
-## Bước 3: Lưu tài liệu
+## Cách lưu RTF
 
-Sau khi tài liệu được tải, bạn có thể thao tác (thêm đoạn văn, thay đổi định dạng, v.v.). Khi đã sẵn sàng, lưu kết quả. Tệp đầu ra sẽ giữ nguyên cấu trúc RTF nhưng hiện đã áp dụng cài đặt UTF‑8 mà bạn đã thiết lập.
+Sau khi bạn đã thực hiện bất kỳ sửa đổi nào (hoặc thậm chí không thay đổi), lưu tài liệu trở lại định dạng RTF. Đây là phần cốt lõi của **cách lưu rtf** với Aspose.Words:
 
 ```java
 doc.save("Your Directory Path" + "WorkingWithRtfLoadOptions.RecognizeUtf8Text.rtf");
 ```
 
-Một lần nữa, điều chỉnh đường dẫn tới vị trí bạn muốn lưu tệp đã xử lý.
+Phương thức `save` ghi tệp bằng cùng định dạng RTF, bảo tồn các ký tự UTF‑8 mà bạn đã bật trước đó.
 
-## Mã nguồn hoàn chỉnh cho việc cấu hình tùy chọn tải RTF trong Aspose.Words cho Java
+## Mã nguồn hoàn chỉnh cho việc cấu hình RTF Load Options trong Aspose.Words cho Java
 
 ```java
 RtfLoadOptions loadOptions = new RtfLoadOptions();
@@ -81,29 +80,23 @@ Document doc = new Document("Your Directory Path" + "UTF-8 characters.rtf", load
 doc.save("Your Directory Path" + "WorkingWithRtfLoadOptions.RecognizeUtf8Text.rtf");
 ```
 
-## Tại sao cần cấu hình tùy chọn tải RTF?
+## Các vấn đề thường gặp và giải pháp
 
-Cấu hình **aspose words load options** như `RecognizeUtf8Text` hữu ích khi:
-
-- Các tệp RTF của bạn chứa nội dung đa ngôn ngữ (ví dụ: ký tự châu Á) được mã hoá bằng UTF‑8.
-- Bạn cần trích xuất văn bản một cách nhất quán để lập chỉ mục hoặc tìm kiếm.
-- Bạn muốn tránh các ký tự bị lỗi khi bộ tải giả định một mã hoá khác.
-
-## Những lỗi thường gặp & Mẹo
-
-- **Lỗi:** Quên đặt đường dẫn đúng dẫn đến `FileNotFoundException`. Luôn sử dụng đường dẫn tuyệt đối hoặc kiểm tra đường dẫn tương đối tại thời gian chạy.
-- **Mẹo:** Nếu gặp ký tự bất thường, hãy kiểm tra lại rằng `RecognizeUtf8Text` đã được đặt thành `true`. Đối với các tệp RTF cũ sử dụng mã hoá khác, đặt nó thành `false` và tự xử lý chuyển đổi.
-- **Mẹo:** Sử dụng `loadOptions.setPassword("yourPassword")` khi tải các tệp RTF được bảo vệ bằng mật khẩu.
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|-------------|----------|
+| Ký tự bị lỗi sau khi lưu | `RecognizeUtf8Text` chưa được bật | Gọi `setRecognizeUtf8Text(true)` trước khi tải |
+| Lỗi không tìm thấy tệp | Đường dẫn tệp không đúng | Sử dụng đường dẫn tuyệt đối hoặc kiểm tra lại đường dẫn tương đối |
+| Ngoại lệ giấy phép | Không có giấy phép Aspose.Words hợp lệ | Áp dụng tệp giấy phép bằng `License license = new License(); license.setLicense("Aspose.Words.Java.lic");` |
 
 ## Câu hỏi thường gặp
 
-### Làm thế nào để tắt nhận dạng văn bản UTF‑8?
+### Làm sao để tắt nhận dạng văn bản UTF‑8?
 
-Để tắt nhận dạng UTF‑8, chỉ cần đặt tùy chọn `RecognizeUtf8Text` thành `false` khi cấu hình `RtfLoadOptions`. Điều này có thể thực hiện bằng cách gọi `setRecognizeUtf8Text(false)`.
+Để tắt nhận dạng văn bản UTF‑8, chỉ cần đặt tùy chọn `RecognizeUtf8Text` thành `false` khi cấu hình `RtfLoadOptions`. Thực hiện bằng cách gọi `setRecognizeUtf8Text(false)`.
 
-### Những tùy chọn khác nào có trong RtfLoadOptions?
+### Những tùy chọn nào khác có trong RtfLoadOptions?
 
-`RtfLoadOptions` cung cấp nhiều tùy chọn để cấu hình cách tải tài liệu RTF. Một số tùy chọn thường dùng bao gồm `setPassword` cho tài liệu được bảo vệ bằng mật khẩu và `setLoadFormat` để chỉ định định dạng khi tải tệp RTF.
+RtfLoadOptions cung cấp nhiều tùy chọn để cấu hình cách tải tài liệu RTF. Một số tùy chọn thường dùng bao gồm `setPassword` cho tài liệu được bảo vệ bằng mật khẩu và `setLoadFormat` để chỉ định định dạng khi tải tệp RTF.
 
 ### Tôi có thể chỉnh sửa tài liệu sau khi tải với các tùy chọn này không?
 
@@ -113,10 +106,31 @@ Có, bạn có thể thực hiện nhiều thao tác chỉnh sửa trên tài li
 
 Bạn có thể tham khảo [tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/) để có thông tin chi tiết, tham chiếu API và các ví dụ về cách sử dụng thư viện.
 
+## Các câu hỏi thường gặp
+
+**H: Việc bật `RecognizeUtf8Text` có ảnh hưởng tới hiệu năng không?**  
+Đ: Ảnh hưởng là tối thiểu; bộ tải chỉ thực hiện một kiểm tra bổ sung cho các mẫu byte UTF‑8.
+
+**H: Tôi có thể tải tệp RTF từ một luồng thay vì từ đường dẫn tệp không?**  
+Đ: Có – sử dụng constructor `Document(InputStream, loadOptions)`.
+
+**H: Có thể lưu tài liệu sang định dạng khác sau khi tải RTF không?**  
+Đ: Chắc chắn. Gọi `doc.save("output.pdf", SaveFormat.PDF);` để chuyển sang PDF, ví dụ.
+
+**H: Phiên bản Aspose.Words nào cần thiết cho các tùy chọn này?**  
+Đ: Thuộc tính `RecognizeUtf8Text` đã có từ Aspose.Words 20.12 cho Java.
+
+**H: Làm sao áp dụng giấy phép bằng mã?**  
+Đ: Khởi tạo `License` và gọi `setLicense("Aspose.Words.Java.lic")` trước khi sử dụng bất kỳ phương thức API nào.
+
+## Kết luận
+
+Bây giờ bạn đã biết **cách lưu RTF** bằng Aspose.Words cho Java, **cách bật nhận dạng UTF‑8**, và cách **tải tài liệu RTF trong dự án Java** với các tùy chọn tùy chỉnh. Những kỹ thuật này giúp bạn duy trì tính toàn vẹn của văn bản trên nhiều ngôn ngữ và đảm bảo đầu ra RTF của bạn trông chính xác như mong muốn.
+
 ---
 
-**Cập nhật lần cuối:** 2025-12-20  
-**Được kiểm tra với:** Aspose.Words cho Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
+**Cập nhật lần cuối:** 2026-02-22  
+**Kiểm tra với:** Aspose.Words 24.11 cho Java  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

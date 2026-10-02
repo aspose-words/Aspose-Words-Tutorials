@@ -15,7 +15,7 @@ weight: 10
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Generera anpassade streckkodsetiketter i Aspose.Words för Java
+# Skapa anpassade streckkodsetiketter med Aspose Barcode Java
 
 ## Introduktion till att generera anpassade streckkoder i Aspose.Words för Java
 
@@ -27,7 +27,7 @@ Streckkoder är oumbärliga i moderna applikationer—oavsett om du hanterar lag
 - **Behöver jag en licens?** En tillfällig licens krävs för obegränsad åtkomst under utveckling.  
 - **Vilken Java‑version krävs?** JDK 8 eller högre.  
 - **Kan jag ändra streckkodens stor eller färger?** Ja—justera inställningarna i `BarcodeParameters` och `BarcodeGenerator`.
-
+- 
 ## Förutsättningar
 
 Innan vi börjar koda, se till att du har följande:

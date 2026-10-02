@@ -19,6 +19,13 @@
 "DocumentBuilder를 사용하여 콘텐츠 추가하기"는 Aspose.Words for .NET 라이브러리의 DocumentBuilder 클래스를 사용하여 Word 문서에 콘텐츠를 추가하는 과정을 안내하는 포괄적인 리소스입니다. 단계별 자습서를 통해 단락 작성, 텍스트 삽입, 텍스트 서식 지정, 이미지 및 표 추가 등에 대한 단계별 지침, 포괄적인 코드 예제, 그리고 단계별 설명을 제공합니다. 또한, 이 리소스는 Aspose.Words for .NET을 사용하여 Word 문서 생성을 자동화하고 특정 요구 사항에 맞는 사용자 지정 콘텐츠를 쉽게 추가하려는 개발자에게 필수적입니다.
 
  ## 튜토리얼
+
+{{< tutorial-card link="./insert-horizontal-rule-shape/" title="Aspose.Words for .NET을 사용하여 Word 문서에 가로 구분선 형태 삽입" imgSrc="./insert-horizontal-rule-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-aligned-html/" title="Aspose.Words for .NET을 사용하여 Word 문서에 정렬된 HTML 삽입" imgSrc="./insert-aligned-html/images/thumb.png" >}}
+
+
+
 | 제목 | 설명 |
 | --- | --- |
 | [새 Word 문서 만들기](./create-new-document/) Aspose.Words for .NET을 사용하여 Word 문서를 만드는 방법을 알아보세요. 이 단계별 가이드는 문서 자동화를 쉽게 만드는 과정을 안내합니다. |

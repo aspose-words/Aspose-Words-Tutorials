@@ -1,0 +1,7 @@
+Title: How to insert tag and create a group shape in a DOCX
+Slug: how-to-insert-tag-and-create-a-group-shape-in-a-docx
+Category: programming-with-shapes
+ProcessedDate: 2026-09-15T07:12:29.568733
+SourceRepo: AI Search API
+Keywords: how to insert tag, save document as docx, how to create group, how to add shapes, how to save docx
+PRNumber: 276

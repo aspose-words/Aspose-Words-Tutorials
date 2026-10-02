@@ -1,26 +1,25 @@
 ---
 category: general
-date: 2025-12-29
-description: Hogyan exportáljunk Markdown-t egy DOCX fájlból az Aspose.Words segítségével.
-  Tanulja meg, hogyan konvertálja a Word-et Markdownra, hogyan adjon hozzá sortörés
-  Markdown-t, és hogyan mentse a DOCX-et Markdown formátumban.
+date: 2026-02-24
+description: Tanulja meg, hogyan exportálhat markdown‑t a Wordből az Aspose.Words
+  segítségével, hogyan konvertálhatja a Wordet markdownra, és hogyan töltheti fel
+  a képeket a felhőbe néhány lépésben.
 draft: false
 keywords:
 - how to export markdown
 - convert word to markdown
-- how to convert docx
-- add line break markdown
-- save docx as markdown
+- upload images to cloud
+- export docx as markdown
 language: hu
-og_description: Hogyan exportáljunk markdown-t egy DOCX fájlból az Aspose.Words segítségével.
-  Ez az útmutató megmutatja, hogyan konvertálhatja a Word dokumentumot markdown formátumba,
-  hogyan adhat hozzá sortörés markdownot, és hogyan mentheti a docx fájlt markdownként.
-og_title: Hogyan exportáljunk Markdown-et a Wordből – Teljes C# útmutató
+og_description: Hogyan exportáljunk markdownot a Wordből? Ez az útmutató bemutatja,
+  hogyan exportáljunk markdownot, konvertáljunk docx-et, és töltsünk fel képeket a
+  felhőbe az Aspose.Words segítségével.
+og_title: Hogyan exportáljunk markdownot a Wordből – Lépésről lépésre C#-os útmutató
 tags:
 - Aspose.Words
 - C#
 - Markdown
-title: Hogyan exportáljunk Markdown-et a Wordből – Teljes C# útmutató
+title: Hogyan exportáljunk markdownot a Wordből – Teljes C# útmutató
 url: /hu/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-word-complete-c-guide/
 ---
 
@@ -28,185 +27,175 @@ url: /hu/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-wo
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan exportáljunk Markdown-t Word‑ből – Teljes C# útmutató
+# hogyan exportáljunk markdownot Wordből az Aspose.Words segítségével
 
-Gondoltad már, **hogyan exportáljunk markdown‑t** egy Word‑dokumentumból anélkül, hogy elveszítenénk a formázást? Nem vagy egyedül. Sok fejlesztőnek megbízható módra van szüksége a **Word konvertálására markdown‑ra**, különösen dokumentáció migrálásakor vagy tartalom betáplálásakor statikus‑oldal generátorokba.  
+Valaha is elgondolkodtál **hogyan exportáljunk markdownot** egy Word‑dokumentumból anélkül, hogy elveszítenéd a drága képeidet? Nem vagy egyedül – a fejlesztők gyakran kérdezik: *„Át tudom-e konvertálni a Word‑et markdownra, miközben a képek biztonságos helyen maradnak?”* A rövid válasz **igen**, a hosszú válasz pedig egy rendezett C# kódrészlet, amely elvégzi a nehéz munkát helyetted.
 
-Ebben a tutorialban lépésről‑lépésre bemutatjuk, hogyan vegyünk egy `.docx` fájlt, állítsuk be az Aspose.Words‑t úgy, hogy az üres bekezdések sortörést eredményezzenek, és végül **mentsük a docx‑et markdown‑ként**. A végére egy kész‑C# programmal fogsz rendelkezni, amely mindezt elvégzi, valamint tippekkel az olyan szélhelyzetek kezeléséhez, mint táblázatok, képek és egyedi stílusok.
+Ebben a tutorialban végigvezetünk a teljes folyamaton: *.docx* betöltése, `MarkdownSaveOptions` beállítása, egy egyedi `IResourceSavingCallback` megírása, amely **feltölti a képeket a felhőbe**, majd a végeredmény mentése egy tiszta *.md* fájlba. A végére képes leszel *Word‑t markdownra konvertálni* és *docx‑et markdownként exportálni* néhány kódsorral.
 
-> **Pro tip:** Ha már használod az Aspose.Words‑t más dokumentumfeladatokra, újra felhasználhatod ugyanazt a `Document` objektot – nincs szükség extra függőségekre.
+> **Amire szükséged lesz**  
+> - .NET 6+ (vagy bármely friss .NET runtime)  
+> - Aspose.Words for .NET (az ingyenes próba verzió tökéletes kísérletezéshez)  
+> - Egy felhő bucket vagy CDN végpont, ahová POST‑olhatsz bináris adatot (a példában egy helyőrző URL szerepel)  
 
-## Amire szükséged lesz
+Ha ezek megvannak, merüljünk el.
 
-- **.NET 6+** (a kód .NET Framework‑ön is működik, de a .NET 6 a jelenlegi LTS)
-- **Aspose.Words for .NET** – letöltheted a NuGet‑ről (`Install-Package Aspose.Words`)
-- Egy minta **input.docx** fájl (bármilyen Word‑fájl megfelel; az üres bekezdéseket külön kezeljük)
-- Visual Studio, VS Code vagy bármelyik kedvenc C# szerkesőd
+![how to export markdown flowchart](image.png "how to export markdown")
 
-Külső markdown könyvtárak nem szükségesek; az Aspose.Words végzi a nehéz munkát.
+## 1. lépés – DOCX betöltése (Word konvertálása markdownra)
 
-## Hogyan exportáljunk Markdown‑t egy Word‑dokumentumból (lépés‑ről‑lépésre)
-
-Az alábbi teljes, futtatható program. Mentsd el `Program.cs`‑ként, és futtasd a parancssorból vagy az IDE‑dből.
+Az első dolog, amit teszünk, a forrásdokumentum beolvasása. Az Aspose.Words elrejti a zavaros OpenXML feldolgozást, így csak egy fájlútra vagy streamre kell mutatnod.
 
 ```csharp
-using System;
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-class Program
-{
-    static void Main()
-    {
-        // 1️⃣ Load the source Word document.
-        // Replace "YOUR_DIRECTORY" with the actual folder path.
-        string inputPath = @"YOUR_DIRECTORY\input.docx";
-        Document wordDocument = new Document(inputPath);
+// Load the source .docx that contains images, tables, etc.
+Document sourceDocument = new Document("YOUR_DIRECTORY/input.docx");
+```
 
-        // 2️⃣ Configure Markdown save options.
-        // We want empty paragraphs to become line breaks.
-        MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
+*Miért fontos ez*: a dokumentum betöltése egy teljes objektummodellt ad, amely megőrzi minden beágyazott erőforrást. Ha kihagyod ezt a lépést és manuálisan próbálod olvasni a fájlt, elveszíted a képek és helyőrzőik közti kapcsolatot – ami gyakran akadályt jelent a naiv konvertereknek.
+
+## 2. lépés – MarkdownSaveOptions konfigurálása (hogyan exportáljunk markdownot)
+
+Most azt mondjuk az Aspose.Words‑nek, hogy Markdown formátumot szeretnénk kimenetként. A `MarkdownSaveOptions` osztály lehetővé teszi egy callback csatlakoztatását, amely **minden külső erőforrásra** (például egy képre) lefut. Itt fogjuk később **feltölteni a képeket a felhőbe**.
+
+```csharp
+// Prepare options for Markdown export and attach a callback
+MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
+{
+    // The callback will decide where each image lives on the web
+    ResourceSavingCallback = new MyResourceCallback()
+};
+```
+
+Vedd észre a `ResourceSavingCallback` tulajdonságot. Enélkül az Aspose minden képet a `.md` fájl mellé dumpolna a lemezen – ez rendben van helyi teszteléshez, de nem ideális, ha nyilvános URL‑re van szükséged. Egy egyedi megvalósítással teljes irányítást nyerünk a végső URI felett.
+
+## 3. lépés – Resource‑Saving Callback megvalósítása (képek feltöltése a felhőbe)
+
+Az alábbi kódrészlet a megoldás szíve. A `MyResourceCallback` osztály implementálja az `IResourceSavingCallback`‑et. Minden kapott kép‑streamet feltöltünk egy CDN‑re (vagy bármely általad preferált HTTP végpontra), majd a helyi hivatkozást a visszakapott nyilvános URL‑re cseréljük.
+
+```csharp
+public class MyResourceCallback : IResourceSavingCallback
+{
+    public void ResourceSaving(ResourceSavingArgs args)
+    {
+        // Upload the resource (image, SVG, etc.) and obtain its public URL
+        string cloudUrl = UploadToCloud(args.Stream, args.FileName);
+        args.Uri = cloudUrl;                     // URL that will appear in the Markdown
+        args.KeepOriginalDocumentUri = false;   // Skip writing a local copy
+    }
+
+    private string UploadToCloud(Stream data, string name)
+    {
+        // 👉 Insert your real cloud‑API logic here.
+        // For demo purposes we just pretend the upload succeeded.
+        // In production you would POST `data` to your storage service
+        // and return the resulting HTTPS URL.
+        return $"https://mycdn.example.com/{name}";
+    }
+}
+```
+
+### Miért egyedi callback?
+
+1. **Névadás feletti ellenőrzés** – előtűzhetsz egy GUID‑et, időbélyeget vagy bármilyen konvenciót, amit a CDN‑ed elvár.  
+2. **Biztonság** – a HTTP hívás előtt hozzáadhatsz autentikációs fejléceket.  
+3. **Teljesítmény** – kötegelt feltöltéseket vagy aszinkron I/O‑t használhatsz, ha sok dokumentumot dolgozol fel.
+
+Ha még nincs felhő bucket‑ed, számos szolgáltató (Amazon S3, Azure Blob, Google Cloud Storage) egyszerű REST API‑t kínál, amely ebbe a mintába illeszkedik.
+
+## 4. lépés – Dokumentum mentése Markdownként
+
+Miután a callback be van kötve, az utolsó lépés egy egy‑soros hívás, amely előállítja a Markdown fájlt. A dokumentumban hivatkozott összes kép most a `UploadToCloud` által visszaadott URL‑ekre mutat majd.
+
+```csharp
+// Save the document as Markdown; the callback rewrites image URIs automatically
+sourceDocument.Save("YOUR_DIRECTORY/output.md", markdownOptions);
+```
+
+### Várható kimenet
+
+Nyisd meg az `output.md`‑t bármely szerkesztőben, és valami ilyesmit látsz majd:
+
+```markdown
+# Sample Heading
+
+Here is an image that was originally in the Word file:
+
+![Image1](https://mycdn.example.com/Image1.png)
+
+And a paragraph of text that came straight from the DOCX.
+```
+
+Ha megnyitod a Markdown előnézetet (VS Code, GitHub, stb.), a kép a CDN‑ről töltődik be – helyi fájlokra nincs szükség.
+
+## Gyakori hibák és széljegyek
+
+| Helyzet | Mire figyeljünk | Gyors megoldás |
+|-----------|-------------------|-----------|
+| **Nagy képek** | A feltöltés időtúlléphet vagy túllépheti a kvótát | Méretezés vagy tömörítés feltöltés előtt; `System.Drawing` használata a streamek zsugorításához |
+| **Nem‑PNG formátumok** | Egyes CDN‑ek elutasítják bizonyos MIME‑típusokat | `args.FileName` kiterjesztésének ellenőrzése, futás közbeni PNG‑re konvertálás |
+| **Hiányzó felhő hitelesítő adatok** | `UploadToCloud` 401‑et dob | Hitelesítő adatokat biztonságosan tárold (Azure Key Vault, AWS Secrets Manager) és injektáld a callback‑be |
+| **Relatív hivatkozások az eredeti DOCX‑ben** | Az Aspose megőrizheti a relatív útvonalat | `args.Uri` felülírása az eredeti értéktől függetlenül (ahogy mi is teszünk) |
+| **Több dokumentum párhuzamos feldolgozása** | Versenyhelyzet ugyanarra a fájlnévre | GUID hozzáadása a `name`‑hez az `UploadToCloud`‑on belül |
+
+Ezeknek a széljegyeknek a kezelése a megoldásodat elég erőssé teszi a termelési környezetben.
+
+## Bónusz: A kódrészlet átalakítása újrahasználható könyvtárként
+
+Ha naponta tucatnyi dokumentumot konvertálsz, érdemes a fenti logikát egy statikus segédfüggvénybe csomagolni:
+
+```csharp
+public static class WordToMarkdownConverter
+{
+    public static void Convert(string inputPath, string outputPath, Func<Stream, string, string> uploader)
+    {
+        Document doc = new Document(inputPath);
+        var options = new MarkdownSaveOptions
         {
-            EmptyParagraphExportMode = EmptyParagraphExportMode.AddLineBreak
+            ResourceSavingCallback = new LambdaResourceCallback(uploader)
         };
-
-        // 3️⃣ Save the document as a Markdown file.
-        string outputPath = @"YOUR_DIRECTORY\output.md";
-        wordDocument.Save(outputPath, markdownOptions);
-
-        Console.WriteLine($"✅ Success! Markdown saved to {outputPath}");
+        doc.Save(outputPath, options);
     }
-}
-```
 
-### Miért fontosak ezek a lépések
-
-1. **A DOCX betöltése** – `new Document(path)` beolvassa a Word‑fájlt az Aspose objektummodelljébe, így hozzáférhetsz bekezdésekhez, táblázatokhoz, képekhez stb.  
-2. **Az `EmptyParagraphExportMode` beállítása** – Alapértelmezés szerint az Aspose eldobhatja az üres bekezdéseket, ami a markdown‑ban a sortöréseket összeolvasztja. Az `AddLineBreak` szó szerint egy `\n`‑t helyez el a kimenetben, így megkapod a **add line break markdown** viselkedést, amit elvársz.  
-3. **Mentés Markdown‑ként** – A `Save` metódus egy `.md` fájlt ír a megadott opciókkal, gyakorlatilag **convert word to markdown** egyetlen kódsorban.
-
-## Word konvertálása Markdown‑ra Aspose.Words‑szal – Gyakori variációk
-
-Míg a fenti kódrészlet az alapokat lefedi, a valós környezetek gyakran igényelnek némi extra kezelést.
-
-### H3: Táblázatok megőrzése
-
-Az Aspose automatikusan a Word‑táblázatokat markdown cső (pipe) szintaxisra alakítja. Ha az igazítás nem megfelelő, finomhangolhatod a `TableExportMode`‑t:
-
-```csharp
-markdownOptions.TableExportMode = TableExportMode.Markdown;
-```
-
-### H3: Képek exportálása
-
-Alapértelmezés szerint a képek külön fájlként mentődnek a markdown mellé. Ha Base64‑ként szeretnéd beágyazni őket (hasznos egyetlen fájlból álló dokumentumokhoz), állítsd be:
-
-```csharp
-markdownOptions.ImageSavingCallback = new ImageSavingCallback();
-```
-
-(A `ImageSavingCallback` megvalósítása kívül esik ezen útmutató keretein, de az Aspose dokumentációban található egy tömör példa.)
-
-### H3: Fejlécszintek szabályozása
-
-Ha a forrásdokumentum egyedi fejlécstílusokat használ, a `HeadingExportLevel`‑lel leképezheted őket markdown fejlécekre:
-
-```csharp
-markdownOptions.HeadingExportLevel = 3; // forces ### for all headings
-```
-
-## Sortörések hozzáadása Markdown‑ban – Üres bekezdések kezelése
-
-Az **add line break markdown** lényege az `EmptyParagraphExportMode`. Három lehetőség áll rendelkezésre:
-
-| Mód | Eredmény Markdown‑ban |
-|------|------------------------|
-| `AddLineBreak` | Üres sort szúr be (`\n`) – ideális bekezdésközökhez |
-| `Preserve` | Az üres bekezdést egy üres HTML `<p>` tagként tartja meg (nem tipikus markdown) |
-| `Ignore` | Az üres bekezdést teljesen kihagyja – tömör kimenethez hasznos |
-
-Az `AddLineBreak` választása általában a helyes, ha vizuális szünetet akarsz anélkül, hogy új címet vagy listaelemet hoznál létre.
-
-## DOCX mentése Markdown‑ként – Teljes működő példa hibakezeléssel
-
-A produkciós kódnak fel kell készülnie hiányzó fájlokra, jogosultsági problémákra és nem támogatott elemekre. Íme egy robusztusabb változat:
-
-```csharp
-using System;
-using System.IO;
-using Aspose.Words;
-using Aspose.Words.Saving;
-
-class MarkdownExporter
-{
-    static void Main()
+    private class LambdaResourceCallback : IResourceSavingCallback
     {
-        string inputFile = @"YOUR_DIRECTORY\input.docx";
-        string outputFile = @"YOUR_DIRECTORY\output.md";
+        private readonly Func<Stream, string, string> _uploader;
+        public LambdaResourceCallback(Func<Stream, string, string> uploader) => _uploader = uploader;
 
-        try
+        public void ResourceSaving(ResourceSavingArgs args)
         {
-            // Verify the source file exists.
-            if (!File.Exists(inputFile))
-                throw new FileNotFoundException("Input DOCX not found.", inputFile);
-
-            // Load the document.
-            Document doc = new Document(inputFile);
-
-            // Set up markdown options.
-            MarkdownSaveOptions opts = new MarkdownSaveOptions
-            {
-                EmptyParagraphExportMode = EmptyParagraphExportMode.AddLineBreak,
-                // Optional: keep tables as markdown, preserve images as files.
-                TableExportMode = TableExportMode.Markdown
-            };
-
-            // Save as markdown.
-            doc.Save(outputFile, opts);
-
-            Console.WriteLine($"✅ {Path.GetFileName(outputFile)} created successfully.");
-        }
-        catch (Exception ex)
-        {
-            Console.Error.WriteLine($"❌ Error exporting markdown: {ex.Message}");
-            // In a real app you might log the stack trace or rethrow.
+            args.Uri = _uploader(args.Stream, args.FileName);
+            args.KeepOriginalDocumentUri = false;
         }
     }
 }
 ```
 
-**Várható kimenet:** Nyisd meg az `output.md`‑t bármely markdown‑nézőben (VS Code, GitHub, MkDocs), és láthatod az eredeti Word‑tartalmat, az üres bekezdésekkel üres sorokként – pontosan a **add line break markdown** hatást érve el.
+Ezután így hívhatod:
 
-## Képes illusztráció
+```csharp
+WordToMarkdownConverter.Convert(
+    "input.docx",
+    "output.md",
+    (stream, name) => UploadToCloud(stream, name) // your real uploader
+);
+```
 
-Alább egy gyors képernyőkép a generált markdown fájlról, megnyitva VS Code‑ban.  
-*(A kép illusztratív; publikáláskor cseréld ki a sajátodra.)*
-
-![how to export markdown example](https://example.com/placeholder-image.png)
-
-*Alt text:* hogyan exportáljunk markdown példát – a konvertált DOCX markdown előnézetét mutatja
-
-## Gyakran Ismételt Kérdések
-
-- **Működik ez .doc fájlokkal is?**  
-  Igen. Az Aspose.Words támogatja a `.doc` és `.docx` formátumokat egyaránt. Csak cseréld le a fájlkiterjesztést az `inputPath`‑ban.
-
-- **Mi van, ha a dokumentum lábjegyzeteket tartalmaz?**  
-  A lábjegyzetek alapértelmezés szerint inline markdown hivatkozásként exportálódnak. Testreszabhatod őket a `FootnoteExportMode`‑on keresztül.
-
-- **Több fájlt is batch‑processzálhatok?**  
-  Természetesen. A fő logikát egy `foreach` ciklusba helyezheted egy könyvtár bejárásához, és ennek megfelelően állíthatod be a kimeneti fájlneveket.
-
-- **Ingyenes a könyvtár?**  
-  Az Aspose.Words ingyenes próbaverzióval teljes funkcionalitással érhető el. Produkciós használathoz licenc szükséges az API‑használat változatlan marad.
+Ez a minta szétválasztja a felelősségeket, tisztán tartja a fő programot, és a feltöltő egység tesztelését is egyszerűvé teszi.
 
 ## Összegzés
 
-Áttekintettük, **hogyan exportáljunk markdown‑t** egy Word‑dokumentumból az Aspose.Words segítségével, bemutattuk a **convert word to markdown** munkafolyamatot, elmagyaráztuk az **add line break markdown** beállítást, és egy komplett **save docx as markdown** programot adtunk, amely bármely .NET projektbe beilleszthető.  
+Áttekintettük, **hogyan exportáljunk markdownot** egy Word‑fájlból, megmutattuk, **hogyan konvertáljunk Word‑t markdownra**, bemutattuk a képek **felhőbe történő tiszta feltöltésének** módját, és végül előállítottunk egy **docx‑et markdownként exportáló** fájlt, amely készen áll GitHubra, statikus weboldalakra vagy bármely downstream fogyasztóra. A legfontosabb tanulságok:
 
-Ezzel a tudással automatizálhatod a dokumentációs csővezetékeket, migrálhatod a régi dokumentumokat, vagy egyszerűen könnyű, verziókezelő‑barát formátumban tarthatod a tartalmat. Következő lépésként próbáld ki egyedi kézkezelést, vagy integráld az exportert egy CI/CD build lépésbe – a markdown‑konvertáló eszköztárad most már teljesen fel van töltve.
+* Használd a `MarkdownSaveOptions`‑t egy egyedi `IResourceSavingCallback`‑kel az image URI‑k irányításához.  
+* Tartsd a feltöltési logikát elkülönítve – ez javítja a tesztelhetőséget és lehetővé teszi a CDN‑ek cseréjét a konverziós kód módosítása nélkül.  
+* Anticipáld a széljegyeket (nagy fájlok, auth, névütközések) már a fejlesztéskor, hogy a termelésben ne érjenek meglepetések.
 
-Boldog kódolást, és legyen a markdownod mindig úgy renderelve, ahogy elvárod!
+Készen állsz a következő lépésre? Próbáld ki a helyőrző `UploadToCloud`‑t egy valódi Azure Blob hívással, vagy kísérletezz aszinkron feltöltésekkel nagy mennyiségű dokumentum esetén. A minta ugyanaz marad; csak a tárolási részletek változnak.
+
+Ha elakadtál, írj egy megjegyzést alul – jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,0 +1,7 @@
+Title: Create word document programmatically – add content control and placeholder
+Slug: create-word-document-programmatically-add-content-control-an
+Category: programming-with-sdt
+ProcessedDate: 2026-08-04T22:50:16.181089
+SourceRepo: AI Search API
+Keywords: create word document programmatically, add content control to word, set placeholder text word
+PRNumber: 241

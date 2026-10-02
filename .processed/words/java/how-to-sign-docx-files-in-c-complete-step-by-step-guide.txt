@@ -1,0 +1,7 @@
+Title: How to Sign DOCX Files in C# – Complete Step‑by‑Step Guide
+Slug: how-to-sign-docx-files-in-c-complete-step-by-step-guide
+Category: document-security
+ProcessedDate: 2026-07-26T10:45:17.680647
+SourceRepo: AI Search API
+Keywords: how to sign docx, digitally sign word document, use certificate to sign, how to apply signature, digital signature with pfx
+PRNumber: 235

@@ -1,0 +1,7 @@
+Title: How to summarize report automatically with Aspose.Words.AI
+Slug: how-to-summarize-report-automatically-with-aspose-words-ai
+Category: ai-powered-document-processing
+ProcessedDate: 2026-09-08T22:52:38.961511
+SourceRepo: AI Search API
+Keywords: how to summarize report, summarize word document, summarize word file, automate document summarization
+PRNumber: 267

@@ -32,7 +32,7 @@ Ya sea que sea un principiante o un desarrollador experimentado, los tutoriales 
 | [Configurar el enlace al contenido](./configuring-link-to-content/) | Aprenda a configurar un enlace al contenido de un documento de Word usando Aspose.Words para .NET con nuestro tutorial detallado paso a paso. |
 | [Convertir entre unidades de medida](./convert-between-measurement-units/) Aprenda a convertir unidades de medida en Aspose.Words para .NET. Siga nuestra guía paso a paso para configurar los márgenes, encabezados y pies de página del documento en pulgadas y puntos.
 | [Usar caracteres de control](./use-control-characters/) Descubra cómo automatizar las tareas de documentos de Word con Aspose.Words para .NET. Esta guía abarca la configuración, el reemplazo de texto y más, optimizando su flujo de trabajo.
-
+| [Cómo contar páginas en un documento de Word – Recuperar y contar](./how-to-count-pages-in-a-word-document-recover-count/) Aprenda a contar páginas en documentos de Word con Aspose.Words para .NET mediante la función Recover & Count. Guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

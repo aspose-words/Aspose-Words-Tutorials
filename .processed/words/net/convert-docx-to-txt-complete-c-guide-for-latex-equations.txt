@@ -1,0 +1,7 @@
+Title: Convert DOCX to TXT – Complete C# Guide for LaTeX Equations
+Slug: convert-docx-to-txt-complete-c-guide-for-latex-equations
+Category: basic-conversions
+ProcessedDate: 2026-06-08T18:48:03.339138
+SourceRepo: AI Search API
+Keywords: convert docx to txt, how to save txt, how to export equations, convert equations latex, save word as txt
+PRNumber: 201
