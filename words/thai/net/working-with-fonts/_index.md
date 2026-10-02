@@ -45,14 +45,24 @@
 | [การตั้งค่าแบบอักษรเริ่มต้น](./font-settings-default-instance/) | ในบทช่วยสอนนี้ เรียนรู้วิธีการกำหนดค่าการตั้งค่าแบบอักษรเริ่มต้นในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET -
 | [รับรายชื่อแบบอักษรที่มีให้เลือก](./get-list-of-available-fonts/) | ค้นพบวิธีรับรายการแบบอักษรที่พร้อมใช้งานโดยใช้ Aspose.Words สำหรับ .NET ในบทช่วยสอนแบบทีละขั้นตอนโดยละเอียดนี้ พัฒนาทักษะการจัดการแบบอักษรของคุณ -
 - [วิธีตรวจจับแบบอักษรในเอกสาร Word – คู่มือ C# ฉบับสมบูรณ์](./how-to-detect-fonts-in-word-documents-complete-c-guide/) | เรียนรู้วิธีตรวจจับแบบอักษรที่ใช้ในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET ด้วยตัวอย่างโค้ด C# อย่างละเอียด -
+| [รับการแจ้งเตือนแบบอักษร](./receive-notifications-of-fonts/) | เรียนรู้วิธีรับการแจ้งเตือนแบบอักษรที่ขาดหายหรือถูกแทนที่เมื่อใช้ Aspose.Words สำหรับ .NET -
 | [จัดการการแจ้งเตือนแบบอักษรใน Aspose.Words – ตรวจหาแบบอักษรที่หายไป](./handle-font-warnings-in-aspose-words-detect-missing-fonts/) | เรียนรู้วิธีจัดการการแจ้งเตือนแบบอักษรที่หายไปใน Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอน -
+| [รับการแจ้งเตือน](./receive-warning-notification/) เรียนรู้วิธีรับการแจ้งเตือนเมื่อใช้ Aspose.Words สำหรับ .NET และจัดการปัญหาหรือคำเตือนต่างๆ ในเอกสารของคุณ -
+| [จับการแจ้งเตือนฟอนต์ใน C# – คู่มือเต็ม](./capture-font-warnings-in-c-complete-guide/) | เรียนรู้วิธีจับการแจ้งเตือนฟอนต์ที่หายหรือถูกแทนที่ใน Aspose.Words สำหรับ .NET ด้วย C# อย่างละเอียด -
 - [เปิดใช้งานการแจ้งเตือนการทดแทนแบบอักษรใน Aspose.Words – คู่มือฉบับสมบูรณ์](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | เรียนรู้วิธีเปิดใช้งานการแจ้งเตือนการทดแทนแบบอักษรใน Aspose.Words สำหรับ .NET เพื่อให้คุณทราบเมื่อแบบอักษรถูกแทนที่ -
+| [ตัวอย่างแหล่งที่มาของฟอนต์ Steam](./resource-steam-font-source-example/) | เรียนรู้วิธีใช้ Resource Stream Font Source เพื่อโหลดแบบอักษรที่กำหนดเองลงใน Aspose.Words สำหรับ .NET -
 | [รับการทดแทนโดยไม่ต้องมีคำต่อท้าย](./get-substitution-without-suffixes/) | ในบทช่วยสอนนี้ เรียนรู้วิธีรับการแทนที่แบบไม่มีคำต่อท้ายในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET -
 - [วิธีตรวจจับแบบอักษรใน Aspose.Words – จัดการการแจ้งเตือนและการตั้งค่า](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | เรียนรู้วิธีตรวจจับแบบอักษรใน Aspose.Words พร้อมจัดการการแจ้งเตือนและตั้งค่าการแทนที่แบบอักษรเพื่อให้เอกสารแสดงผลอย่างถูกต้อง -
+| [รับการทดแทนโดยไม่ต้องมีคำต่อท้าย](./get-substitution-without-suffixes/) | ในบทช่วยสอนนี้ เรียนรู้วิธีรับการแทนที่แบบไม่มีคำต่อท้ายในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET |
 | [วิธีโหลด DOCX และตรวจจับแบบอักษรที่หายไป – คู่มือ C# ฉบับสมบูรณ์](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | เรียนรู้วิธีโหลดไฟล์ DOCX และตรวจจับแบบอักษรที่ขาดหายโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือ C# อย่างละเอียด |
 | [จัดการแบบอักษรที่หายไปใน C# ด้วย Aspose.Words – คู่มือเต็ม](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) | เรียนรู้วิธีจัดการแบบอักษรที่หายไปในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET ด้วยคู่มือขั้นตอนเต็ม |
 | [สร้าง FontSettings ใน C# – ตรวจหาแบบอักษรที่หายไปและบันทึกข้อความแบบอักษร](./create-fontsettings-in-c-detect-missing-fonts-capture-font-m/) | เรียนรู้วิธีสร้าง FontSettings ใน C# เพื่อตรวจหาแบบอักษรที่หายไปและบันทึกข้อความแบบอักษรด้วย Aspose.Words สำหรับ .NET -
-| [รับการแจ้งเตือนแบบอักษร](./receive-notifications-of-fonts/) | เรียนรู้วิธีรับการแจ้งเตือนแบบอักษรที่ขาดหายหรือถูกแทนที่เมื่อใช้ Aspose.Words สำหรับ .NET -
-| [รับการแจ้งเตือน](./receive-warning-notification/) เรียนรู้วิธีรับการแจ้งเตือนเมื่อใช้ Aspose.Words สำหรับ .NET และจัดการปัญหาหรือคำเตือนต่างๆ ในเอกสารของคุณ -
-| [จับการแจ้งเตือนฟอนต์ใน C# – คู่มือเต็ม](./capture-font-warnings-in-c-complete-guide/) | เรียนรู้วิธีจับการแจ้งเตือนฟอนต์ที่หายหรือถูกแทนที่ใน Aspose.Words สำหรับ .NET ด้วย C# อย่างละเอียด -
-| [ตัวอย่างแหล่งที่มาของฟอนต์ Steam](./resource-steam-font-source-example/) | เรียนรู้วิธีใช้ Resource Stream Font Source เพื่อโหลดแบบอักษรที่กำหนดเองลงใน Aspose.Words สำหรับ .NET -
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
