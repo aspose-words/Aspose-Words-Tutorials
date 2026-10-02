@@ -51,6 +51,9 @@ Lär dig konvertera Word-dokument till Markdown och extrahera bilder med en komp
 ### [Konvertera Word till Markdown i C# – Fullständig guide med bildextraktion](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 Lär dig konvertera Word-dokument till Markdown och extrahera bilder med en komplett C#‑guide.
 
+### [Spara docx som markdown – Komplett C#-guide med bildextraktion](./save-docx-as-markdown-complete-c-guide-with-image-extraction/)
+Lär dig spara DOCX som Markdown och extrahera bilder med en komplett C#‑guide.
+
 ### [Hur man exporterar Markdown från Word – Fullständig C#-guide](./how-to-export-markdown-from-word-complete-c-guide/)
 Lär dig exportera Word-dokument till Markdown med en komplett C#‑guide som täcker alla steg.
 
@@ -154,6 +157,9 @@ Lär dig skapa en mapp i C#, konvertera Word-dokument till Markdown och extraher
 
 ### [Hur man sparar Markdown från Word med bilder – Fullständig C#-guide](./how-to-save-markdown-from-word-with-images-complete-c-guide/)
 Lär dig spara Markdown från Word med bilder, inklusive bildhantering, i en komplett C#-guide.
+
+### [Spara Word som Markdown – Fullständig C#-guide med Aspose.Words](./save-word-as-markdown-complete-c-guide-with-aspose-words/)
+Lär dig spara Word-dokument som Markdown med en komplett C#-guide som använder Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

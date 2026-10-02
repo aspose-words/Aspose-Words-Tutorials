@@ -47,6 +47,7 @@ Aspose.Words for .NET'i kullanarak ve bu eğitimleri takip ederek, Word belgeler
 | [Dikdörtgen şekil oluştur, gölge ekle ve PDF olarak kaydet](./create-rectangle-shape-add-shadow-save-pdf/) | Aspose.Words for .NET ile dikdörtgen şekil oluşturup gölge ekleyerek PDF olarak kaydetmeyi öğrenin. |
 | [Word'de Dikdörtgen Şekil Oluşturma – Tam Aspose.Words Kılavuzu](./create-rectangle-shape-in-word-full-aspose-words-guide/) | Aspose.Words for .NET kullanarak Word belgesine dikdörtgen şekil eklemeyi ve özelliklerini ayarlamayı adım adım öğrenin. |
 | [Dikdörtgen Şekil ve Gölge ile Word Belgesi Oluşturma – Adım Adım Kılavuz](./create-word-document-with-a-rectangle-shape-and-shadow-step/) | Aspose.Words for .NET kullanarak bir Word belgesine dikdörtgen şekil ve gölge eklemeyi adım adım öğrenin. |
+| [Aspose.Words ile Word'de Gölgelikli Dikdörtgen Şekil Oluşturma](./create-rectangle-shape-with-shadow-in-word-using-aspose-word/) | Aspose.Words for .NET kullanarak Word belgelerine gölgelikli dikdörtgen şekil eklemeyi ve özelliklerini ayarlamayı öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

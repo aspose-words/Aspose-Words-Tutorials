@@ -46,6 +46,7 @@ Aspose.Words for .NET을 사용하고 이 튜토리얼을 따라 하면 Word 문
 | [사각형 도형 만들기, 그림자 추가 및 PDF 저장](./create-rectangle-shape-add-shadow-save-pdf/) | Aspose.Words for .NET을 사용해 사각형 도형을 만들고 그림자를 적용한 뒤 PDF로 저장하는 방법을 단계별로 안내합니다. |
 | [Word에서 사각형 도형 만들기 – 전체 Aspose.Words 가이드](./create-rectangle-shape-in-word-full-aspose-words-guide/) | Aspose.Words for .NET을 사용하여 Word 문서에 사각형 도형을 만들고 전체 가이드를 통해 모든 기능을 배웁니다. |
 | [그림자와 사각형 도형이 있는 Word 문서 만들기 – 단계별 가이드](./create-word-document-with-a-rectangle-shape-and-shadow-step/) | Aspose.Words for .NET을 사용하여 사각형 도형과 그림자를 포함한 Word 문서를 만드는 방법을 단계별로 안내합니다. |
+| [Aspose.Words를 사용하여 Word에서 그림자와 함께 사각형 도형 만들기](./create-rectangle-shape-with-shadow-in-word-using-aspose-word/) | Aspose.Words for .NET을 사용해 Word 문서에 그림자 효과가 있는 사각형 도형을 삽입하고 속성을 설정하는 단계별 가이드입니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

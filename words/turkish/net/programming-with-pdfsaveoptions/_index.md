@@ -63,6 +63,7 @@ Görüntü kalitesi seçeneklerini ayarlamayı, görüntüler için sıkıştır
 | [Word'den Erişilebilir PDF Oluşturma – Aspose.Words Tam Kılavuzu](./create-accessible-pdf-from-word-complete-aspose-words-guide/) | Aspose.Words for .NET kullanarak Word belgelerinden erişilebilir PDF oluşturmayı adım adım öğrenin. |
 | [docx'i pdf'ye dönüştürme – Erişilebilir PDF'ler için Tam Kılavuz](./convert-docx-to-pdf-complete-guide-for-accessible-pdfs/) | Aspose.Words for .NET ile docx dosyalarını erişilebilir PDF'lere dönüştürmenin tüm adımlarını öğrenin. |
 
+| [C# ile Word'ten Erişilebilir PDF Oluşturma – Adım Adım Kılavuz](./create-accessible-pdf-from-word-in-c-step-by-step-guide/) | Aspose.Words for .NET kullanarak Word belgelerinden erişilebilir PDF dosyaları oluşturmayı adım adım öğrenin. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

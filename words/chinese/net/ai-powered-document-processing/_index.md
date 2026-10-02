@@ -45,6 +45,7 @@
 | [在 C# 中汇总 Word 文档 – 完整的 AI 驱动指南](./summarize-word-document-in-c-complete-ai-powered-guide/) 使用 Aspose.Words for .NET 在 C# 中实现完整的 AI 驱动 Word 文档摘要，提供详细步骤和最佳实践。|
 | [使用 Aspose.Words AI 检查 Word 语法的完整指南](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) 了解如何利用 Aspose.Words AI 在 Word 文档中自动检查并纠正语法错误，提高写作质量。|
 | [使用本地 LLM 检查 C# 语法](./how-to-check-grammar-in-c-using-a-local-llm/) 使用本地大语言模型在 C# 中检查语法，提升代码质量并实现自动化审校。|
+| [如何汇总 Word 文档 – 完整的 C# 指南](./how-to-summarize-word-documents-complete-c-guide/) 使用 Aspose.Words for .NET 通过 C# 完整指南，实现 Word 文档的高效汇总。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

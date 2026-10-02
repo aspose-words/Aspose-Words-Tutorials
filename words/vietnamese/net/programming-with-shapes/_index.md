@@ -46,6 +46,7 @@ Bằng cách sử dụng Aspose.Words cho .NET và làm theo các hướng dẫn
 | [Tạo hình chữ nhật, thêm bóng đổ và lưu PDF](./create-rectangle-shape-add-shadow-save-pdf/) | Tìm hiểu cách tạo hình chữ nhật, thêm hiệu ứng bóng và lưu tài liệu dưới dạng PDF bằng Aspose.Words cho .NET. |
 | [Tạo hình chữ nhật trong Word – Hướng dẫn đầy đủ Aspose.Words](./create-rectangle-shape-in-word-full-aspose-words-guide/) | Hướng dẫn chi tiết cách tạo hình chữ nhật trong tài liệu Word bằng Aspose.Words cho .NET. |
 | [Tạo tài liệu Word với hình chữ nhật và bóng – Hướng dẫn từng bước](./create-word-document-with-a-rectangle-shape-and-shadow-step/) | Hướng dẫn chi tiết cách tạo tài liệu Word có hình chữ nhật với hiệu ứng bóng bằng Aspose.Words cho .NET. |
+| [Tạo hình chữ nhật có bóng trong Word bằng Aspose.Words](./create-rectangle-shape-with-shadow-in-word-using-aspose-word/) | Tìm hiểu cách tạo hình chữ nhật có hiệu ứng bóng trong tài liệu Word bằng Aspose.Words cho .NET qua hướng dẫn chi tiết từng bước. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -63,6 +63,7 @@ PdfSaveOptions के साथ Words Processing पर Aspose.Words for .NET �
 
 | [C# में Word से PDF/UA बनाएं – पूर्ण गाइड](./create-pdf-ua-from-word-in-c-complete-guide/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ को PDF/UA में बदलने की पूरी प्रक्रिया सीखें। |
 
+| [C# में Word से सुलभ PDF बनाएं – चरण-दर-चरण गाइड](./create-accessible-pdf-from-word-in-c-step-by-step-guide/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ से सुलभ PDF बनाने की पूरी प्रक्रिया सीखें। |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

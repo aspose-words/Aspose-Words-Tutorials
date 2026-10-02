@@ -47,6 +47,7 @@ Korzystając z Aspose.Words dla .NET i postępując zgodnie z tymi samouczkami, 
 | [Utwórz pusty dokument Word za pomocą Aspose.Words – przewodnik krok po kroku](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | Dowiedz się, jak utworzyć pusty dokument Word przy użyciu Aspose.Words, korzystając z naszego przewodnika krok po kroku. |
 | [Utwórz prostokątny kształt, dodaj cień i zapisz jako PDF](./create-rectangle-shape-add-shadow-save-pdf/) | Dowiedz się, jak utworzyć prostokątny kształt, dodać cień i zapisać dokument jako PDF przy użyciu Aspose.Words dla .NET. |
 | [Utwórz prostokątny kształt w Wordzie – Pełny przewodnik Aspose.Words](./create-rectangle-shape-in-word-full-aspose-words-guide/) | Poznaj pełny przewodnik tworzenia prostokątnego kształtu w Wordzie przy użyciu Aspose.Words. |
+| [Utwórz prostokątny kształt z cieniem w Wordzie przy użyciu Aspose.Words](./create-rectangle-shape-with-shadow-in-word-using-aspose-word/) | Dowiedz się, jak utworzyć prostokątny kształt z efektem cienia w dokumentach Word przy użyciu Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

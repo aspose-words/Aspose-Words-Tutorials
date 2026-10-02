@@ -51,6 +51,7 @@ Aspose.Words for .NET 教程为希望掌握使用 LoadOptions 进行文字处理
 | [在 C# 中配置 Aspose Load Options – 完整指南](./configure-aspose-load-options-in-c-complete-guide/) 学习在 C# 中使用 Aspose.Words 的 LoadOptions 进行完整配置，掌握文档加载的高级设置与技巧。|
 | [Aspose Load Options – 将 DOCX 转换为 Markdown 与 PDF](./aspose-load-options-convert-docx-to-markdown-pdf/) 了解如何使用 Aspose.Words for .NET 的 LoadOptions 将 DOCX 文档转换为 Markdown 格式并生成 PDF 文件的完整步骤。|
 | [恢复损坏的 Word 文件 – C# 开发者分步指南](./recover-corrupted-word-files-step-by-step-guide-for-c-develo/) 按照本分步指南，使用 Aspose.Words for .NET 为 C# 开发者恢复损坏的 Word 文件。|
+| [使用 Aspose.Words 恢复损坏的 DOCX – 完整 C# 指南](./recover-corrupted-docx-with-aspose-words-complete-c-guide/) 按照本分步指南，使用 Aspose.Words for .NET 在 C# 中恢复损坏的 DOCX 文档。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -53,6 +53,7 @@ Trong các hướng dẫn này, bạn sẽ học cách sử dụng LoadOptions �
 | [Cấu hình Aspose Load Options trong C# – Hướng dẫn toàn diện](./configure-aspose-load-options-in-c-complete-guide/) | Hướng dẫn chi tiết cách cấu hình Aspose Load Options trong C# để tối ưu việc tải tài liệu Word. |
 | [Aspose Load Options – Chuyển DOCX sang Markdown & PDF](./aspose-load-options-convert-docx-to-markdown-pdf/) | Hướng dẫn sử dụng Aspose Load Options để chuyển đổi DOCX sang Markdown và PDF trong .NET. |
 | [Khôi phục tệp Word bị hỏng – Hướng dẫn từng bước cho nhà phát triển C#](./recover-corrupted-word-files-step-by-step-guide-for-c-develo/) | Hướng dẫn chi tiết cách khôi phục các tệp Word bị hỏng bằng Aspose.Words cho .NET, dành cho lập trình viên C#. |
+| [Khôi phục DOCX bị hỏng với Aspose.Words – Hướng dẫn C# đầy đủ](./recover-corrupted-docx-with-aspose-words-complete-c-guide/) | Hướng dẫn chi tiết cách khôi phục tệp DOCX bị hỏng bằng Aspose.Words trong .NET với C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
