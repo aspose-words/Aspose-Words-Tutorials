@@ -45,6 +45,8 @@ Naučte se převést dokument Word do PDF pomocí Aspose.Words pro Python s podr
 Naučte se pomocí Aspose.Words pro Python vytvořit přístupné PDF z dokumentu Word s podrobnými ukázkami.
 ### [Uložení Wordu jako Markdown – kompletní průvodce s exportem PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Naučte se uložit dokument Word jako Markdown a exportovat jej do PDF/A‑UA pomocí Aspose.Words pro Python.
+### [Vytvoření PDF UA z Wordu – průvodce krok za krokem](./create-pdf-ua-from-word-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Words pro Python převést dokument Word do PDF/UA s plnou podporou přístupnosti.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

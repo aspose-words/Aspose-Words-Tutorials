@@ -45,6 +45,8 @@ Erfahren Sie, wie Sie mit Aspose.Words für Python Word-Dokumente in PDF konvert
 Erfahren Sie, wie Sie mit Aspose.Words für Python barrierefreie PDFs aus Word-Dokumenten erstellen.
 ### [Word als Markdown speichern – Vollständige Anleitung mit PDF/A‑UA-Export](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Erfahren Sie, wie Sie mit Aspose.Words für Python Word-Dokumente in Markdown konvertieren und gleichzeitig PDF/A‑UA exportieren.
+### [PDF UA aus Word erstellen – Schritt-für-Schritt-Anleitung](./create-pdf-ua-from-word-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Python PDFs im PDF/UA-Standard aus Word-Dokumenten erstellen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

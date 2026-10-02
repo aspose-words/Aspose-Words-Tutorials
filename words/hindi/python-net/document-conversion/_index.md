@@ -51,6 +51,8 @@ Aspose.Words का उपयोग करके पायथन में व�
 
 ### [वर्ड को मार्कडाउन के रूप में सहेजें – PDF/A‑UA निर्यात के साथ पूर्ण गाइड](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 वर्ड दस्तावेज़ को मार्कडाउन में सहेजने और PDF/A‑UA निर्यात करने के लिए पायथन कोड और चरण‑दर‑चरण मार्गदर्शन।
+### [Word से PDF/UA बनाएं – चरण‑बद्ध गाइड](./create-pdf-ua-from-word-step-by-step-guide/)
+Word दस्तावेज़ से PDF/UA बनाना सीखें, चरण‑बद्ध कोड और सर्वोत्तम प्रथाओं के साथ।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

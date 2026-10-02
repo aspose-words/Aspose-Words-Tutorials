@@ -52,6 +52,9 @@
 ### [如何將 Word 儲存為 Markdown – 完整指南，含 PDF/A‑UA 匯出](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 學習使用 Aspose.Words for Python 將 Word 文件儲存為 Markdown，並匯出符合 PDF/A‑UA 標準的 PDF 的完整步驟。
 
+### [從 Word 建立 PDF/UA – 完整指南](./create-pdf-ua-from-word-step-by-step-guide/)
+學習使用 Aspose.Words for Python 將 Word 文件轉換為符合 PDF/UA 標準的 PDF，提供完整步驟與範例。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

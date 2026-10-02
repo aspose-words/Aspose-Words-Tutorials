@@ -45,6 +45,8 @@ Pelajari cara mengonversi dokumen Word menjadi PDF menggunakan Aspose.Words untu
 Pelajari cara membuat PDF yang dapat diakses dari dokumen Word menggunakan Aspose.Words untuk Python secara lengkap.
 ### [Simpan Word sebagai Markdown – Panduan Lengkap dengan Ekspor PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Pelajari cara menyimpan dokumen Word sebagai file Markdown dan mengekspor ke PDF/A‑UA menggunakan Aspose.Words untuk Python.
+### [Buat PDF UA dari Word – Panduan Langkah‑per‑Langkah](./create-pdf-ua-from-word-step-by-step-guide/)
+Pelajari cara membuat PDF UA dari dokumen Word menggunakan Aspose.Words untuk Python secara lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

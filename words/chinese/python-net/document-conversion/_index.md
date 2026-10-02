@@ -51,6 +51,8 @@
 
 ### [使用 Aspose.Words 将 Word 创建为可访问 PDF – 完整 Python 指南](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 学习使用 Aspose.Words for Python 将 Word 文档转换为符合可访问性标准的 PDF，提升文档可读性和合规性。
+### [从 Word 创建 PDF/UA – 步骤指南](./create-pdf-ua-from-word-step-by-step-guide/)
+使用 Aspose.Words for Python 将 Word 文档转换为符合 PDF/UA 标准的 PDF，确保可访问性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

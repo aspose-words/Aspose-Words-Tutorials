@@ -51,6 +51,8 @@ Aspose.Words for Python を使用して、アクセシビリティ対応の PDF 
 
 ### [Word から Markdown に保存 – PDF/A‑UA エクスポート 完全ガイド](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Word 文書を Markdown に変換し、PDF/A‑UA 形式でエクスポートする手順を詳しく解説します。
+### [Word から PDF/UA を作成 – ステップバイステップ ガイド](./create-pdf-ua-from-word-step-by-step-guide/)
+Word 文書を PDF/UA に変換する手順を詳しく解説し、アクセシビリティ対応の PDF を作成します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

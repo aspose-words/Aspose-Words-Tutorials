@@ -46,6 +46,8 @@ Learn how to create PDFs from Word documents using Aspose.Words for Python in th
 Learn how to create accessible PDFs from Word documents using Aspose.Words for Python in this step‑by‑step guide.
 ### [save word as markdown – Complete Guide with PDF/A‑UA Export](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Learn how to save Word documents as Markdown and export PDF/A‑UA using Aspose.Words for Python in this comprehensive guide.
+### [Create PDF UA from Word – Step‑by‑Step Guide](./create-pdf-ua-from-word-step-by-step-guide/)
+Learn how to generate PDF/UA compliant documents from Word using Aspose.Words for Python in a step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

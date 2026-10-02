@@ -51,6 +51,8 @@
 
 ### [บันทึก Word เป็น Markdown – คู่มือฉบับสมบูรณ์พร้อมการส่งออก PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown พร้อมการส่งออกเป็น PDF/A‑UA ด้วย Aspose.Words for Python อย่างละเอียด
+### [สร้าง PDF UA จาก Word – คู่มือขั้นตอนต่อขั้นตอน](./create-pdf-ua-from-word-step-by-step-guide/)
+เรียนรู้วิธีสร้างไฟล์ PDF/UA จากเอกสาร Word ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

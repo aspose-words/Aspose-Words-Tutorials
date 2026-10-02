@@ -45,6 +45,8 @@ Découvrez comment convertir vos documents Word en PDF de manière fiable avec A
 Apprenez à générer des PDF accessibles depuis Word en utilisant Aspose.Words pour Python, avec un guide complet pas à pas.
 ### [Enregistrer Word en Markdown – Guide complet avec export PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Apprenez à enregistrer vos documents Word au format Markdown tout en générant un PDF/A‑UA conforme avec Aspose.Words pour Python.
+### [Créer un PDF UA à partir de Word – Guide étape par étape](./create-pdf-ua-from-word-step-by-step-guide/)
+Apprenez à créer un PDF UA à partir d'un document Word avec Aspose.Words pour Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
