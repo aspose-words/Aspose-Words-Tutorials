@@ -1,23 +1,23 @@
 ---
 category: general
-date: 2026-03-06
-description: 從多頁 Word 檔案建立 PNG 網格。學習如何將 Word 轉換為 PNG、將 docx 儲存為 PNG、匯出所有頁面為 PNG，並在
-  C# 中產生高解析度 PNG。
+date: 2026-01-14
+description: 在 C# 中從 Word 檔案建立 PNG 網格。將 Word 轉換為 PNG，設定影像解析度，並使用 Aspose.Words 將 docx
+  儲存為 PNG。
 draft: false
 keywords:
 - create png grid
 - convert word to png
+- set image resolution
+- convert word to image
 - save docx as png
-- export all pages png
-- generate high resolution png
 language: zh-hant
-og_description: 在 C# 中從 Word 文件建立 PNG 網格。本指南說明如何將 Word 轉換為 PNG、將 docx 儲存為 PNG、匯出所有頁面為
-  PNG，以及產生高解析度 PNG。
-og_title: 從 Word 建立 PNG 網格 – 完整 C# 教學
+og_description: 使用 Aspose.Words 從 Word 檔案建立 PNG 網格。了解如何將 Word 轉換為 PNG、設定影像解析度，並一步完成將
+  docx 儲存為 PNG。
+og_title: 從 Word 文件建立 PNG 網格 – 完整 C# 教學
 tags:
 - Aspose.Words
 - C#
-- ImageExport
+- Image Processing
 title: 從 Word 文件建立 PNG 網格 – 步驟指南
 url: /zh-hant/net/programming-with-imagesaveoptions/create-png-grid-from-word-document-step-by-step-guide/
 ---
@@ -26,176 +26,172 @@ url: /zh-hant/net/programming-with-imagesaveoptions/create-png-grid-from-word-do
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 從 Word 文件建立 PNG 網格 – 完整 C# 教程
+# 從 Word 文件建立 PNG 網格 – 完整 C# 教學
 
-是否曾需要從多頁的 Word 檔案 **create png grid**，卻不知從何著手？你並非唯一的開發者——大家常常詢問如何在不自行編寫光柵化程式的情況下 *convert word to png*。本教學將一步步說明一個乾淨且高解析度的解決方案，將 **exports all pages png** 成為一張以網格排列的單一影像。完成後，你將確切了解如何 *save docx as png* 與 *generate high resolution png*，只需幾行 C# 程式碼。
+是否曾需要從多頁的 Word 檔案 **create png grid**，卻不想手動把圖片拼接起來？你並非唯一有此需求的人。在許多報告或檔案保存的情境下，你會有一個很長的 .docx，想要一張同時顯示多頁的圖像——想像成縮圖表或快速預覽。  
 
-我們將涵蓋所有必備內容：所需的 NuGet 套件、一步一步的程式碼說明，以及處理大型文件的實用技巧。無需外部工具，亦不需要命令列操作——僅使用純 .NET 程式碼，於任何支援 Aspose.Words 的環境皆可執行。手頭有 50 頁的報告？想要將其轉成單一縮圖以供預覽窗格使用？本指南為你提供完整解決方案。
+本指南將逐步說明你需要的完整程式碼，讓你 **convert word to png**、將頁面排列成網格，甚至 **set image resolution**，使結果清晰銳利。完成後，你將了解如何使用 Aspose.Words for .NET 以一次順暢的操作 **save docx as png**。
+
+## 你將學會
+
+- 如何從磁碟載入 Word 文件。  
+- `ImageSaveOptions` 哪些屬性能實現 **create png grid**。  
+- 如何使用 **set image resolution** 選項控制 DPI。  
+- 完整、可直接執行的 C# 程式碼片段，可 **convert word to image** 並產生單一 PNG 檔。  
+- 調整欄、列以及處理邊緣情況的技巧。  
+
+不需要外部工具，也不產生中間檔案——僅使用純 C# 程式碼。
 
 ## 前置條件
 
-* .NET 6.0 或更新版本（此 API 可於 .NET Core、.NET Framework 以及 .NET 5+ 使用）
-* Visual Studio 2022（或任何你喜歡的 IDE）
-* Aspose.Words for .NET 授權（免費試用版可用於測試）
-* 一個多頁的 Word 文件（`MultiPage.docx`），你想將其轉換成 **png grid**
+- .NET 6+（或 .NET Framework 4.7+）。  
+- 已安裝 Aspose.Words for .NET（`Install-Package Aspose.Words`）。  
+- 一個你想轉成網格的多頁 Word 文件（`input.docx`）。  
 
-如果上述項目對你來說陌生，只需安裝 NuGet 套件，即可開始使用：
+就這樣。如果你已備妥，讓我們開始吧。
 
-```bash
-dotnet add package Aspose.Words
-```
+## 步驟 1：載入 Word 文件（convert word to image）
 
-就這樣——不需要額外的相依性。
-
-## 步驟 1 – 載入 Word 文件
-
-首先，我們需要將 *.docx* 載入記憶體。`Document` 類別負責所有繁重的工作，會解析檔案並提供頁面資訊，稍後我們會將這些資訊傳給影像匯出器。
+首先，你需要將 .docx 載入記憶體。Aspose.Words 的 `Document` 類別可輕鬆完成此工作。
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-// Load the source Word file (adjust the path to your environment)
-Document document = new Document(@"C:\Docs\MultiPage.docx");
-
-// Quick sanity check – how many pages are we dealing with?
-int totalPages = document.PageCount;
-Console.WriteLine($"Document contains {totalPages} pages.");
+// Load the source Word file.
+// Replace "YOUR_DIRECTORY/input.docx" with the actual path to your document.
+Document document = new Document("YOUR_DIRECTORY/input.docx");
 ```
 
-*為何這很重要：* 了解頁數讓我們能正確設定 `PageSet`，以 **export all pages png**，不會遺漏最後一頁。同時，快速的 console 輸出也是除錯時的實用驗證。
+*為什麼重要：* 載入文件是任何 **convert word to png** 操作的基礎。若未載入，函式庫將無法渲染任何內容。
 
-## 步驟 2 – 為網格佈局設定 ImageSaveOptions
+## 步驟 2：設定 ImageSaveOptions ─ **create png grid** 的核心
 
-Aspose.Words 能將每一頁渲染為單獨的影像，但我們想要 **create png grid** 的效果——類似聯絡表，每頁都緊鄰相鄰頁面。`ImageSaveOptions` 類別讓我們完整掌控佈局、解析度以及要包含的頁面。
+`ImageSaveOptions` 讓你向 Aspose 明確說明輸出 PNG 的外觀。將 `PageLayout` 設為 `Grid` 後，會自動把每一頁排列成矩陣。
 
 ```csharp
-// Prepare the options that tell Aspose how to render the PNG
-ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png)
+// Create PNG save options and enable grid layout.
+ImageSaveOptions pngOptions = new ImageSaveOptions(SaveFormat.Png)
 {
-    // 0 means “all pages” – perfect for export all pages png
-    PageCount = 0,
+    // Grid layout (rows × columns) – this is what makes the PNG grid.
+    PageLayout = ImageSaveOptions.PageLayout.Grid,
 
-    // Explicitly include the full range (1‑based indexing)
-    PageSet = new PageSet(1, document.PageCount),
+    // Number of columns in the grid. Adjust to fit your document length.
+    PageColumns = 3,
 
-    // Grid layout arranges pages in rows & columns automatically
-    Layout = ImageSaveOptions.ImageLayout.Grid,
-
-    // High resolution ensures the final image isn’t blurry
-    HorizontalResolution = 300, // DPI
-    VerticalResolution   = 300  // DPI
+    // DPI setting – this is where we **set image resolution**.
+    Resolution = 200
 };
 ```
 
-*為何要設定這些值：*  
+*為什麼重要：* `PageLayout = Grid` 旗標是 **create png grid** 的關鍵。調整 `PageColumns` 可改變網格寬度，而 `Resolution` 則控制每頁的清晰度。
 
-- `PageCount = 0` 搭配 `PageSet` 告訴函式庫 **convert word to png** 每一頁，而非僅第一頁。  
-- `Layout = Grid` 是實現 **create png grid** 的關鍵——其他如 `Horizontal` 或 `Vertical` 會產生長條形影像，通常不適合作為預覽。  
-- 300 DPI 是 **generate high resolution png** 的理想取捨，能在 Retina 螢幕上呈現清晰畫面，同時保持檔案大小在合理範圍。
+## 步驟 3：將文件儲存為單一 PNG（save docx as png）
 
-## 步驟 3 – 儲存合併影像
-
-現在，繁重的工作在背後自動完成。Aspose 會渲染每一頁，依照網格佈局將它們拼接，最後寫入磁碟。
+現在選項已設定完畢，只需呼叫 `Save`。Aspose 會完成所有繁重的工作，產生一張包含所有頁面的 PNG。
 
 ```csharp
-string outputPath = @"C:\Docs\AllPages.png";
-document.Save(outputPath, saveOptions);
-Console.WriteLine($"PNG grid saved to {outputPath}");
+// Save the document as a single PNG file that contains the whole grid.
+document.Save("YOUR_DIRECTORY/output.png", pngOptions);
 ```
 
-程式執行完畢後，開啟 `AllPages.png`，即可看到一張單一影像，內含原始 Word 文件的每一頁，整齊排列。這就是我們 **create png grid** 操作的最終結果。
+*結果：* `output.png` 會是一張單一圖像，前三頁並排顯示，接下來的三頁位於第二列，以此類推——正是你所要求的 **create png grid**。
 
-![Create PNG grid output](https://example.com/images/png-grid-output.png "Screenshot showing the generated PNG grid – create png grid")
+## 完整範例程式
 
-*提示：* 若需指定欄數，請調整 `saveOptions.GridColumns`。預設會根據頁數自動平衡行與列。
-
-## 步驟 4 – 驗證輸出（可選但建議）
-
-快速的目視或程式化檢查能為你節省大量時間。以下提供最簡單的方式，確認檔案是否存在且尺寸符合預期：
+以下是完整程式碼，你可以直接複製貼上到 Console 應用程式中。它包含所有必要的 `using` 陳述式、註解與錯誤處理，確保順暢執行。
 
 ```csharp
-using System.Drawing;
+using System;
+using Aspose.Words;
+using Aspose.Words.Saving;
 
-// Load the generated PNG
-using (Bitmap bitmap = new Bitmap(outputPath))
+namespace WordToPngGrid
 {
-    Console.WriteLine($"Grid dimensions: {bitmap.Width}x{bitmap.Height} pixels");
-    Console.WriteLine($"Resolution: {bitmap.HorizontalResolution} DPI");
-}
-```
-
-若尺寸不符，請重新檢查 `HorizontalResolution` / `VerticalResolution`，或嘗試調整 `GridColumns`。請記住，**generate high resolution png** 圖片在處理極大型文件時可能佔用大量記憶體，若遭遇記憶體不足錯誤，可考慮串流或分段處理。
-
-## 常見問題與特殊情況
-
-### 如果只需要前 5 頁怎麼辦？
-
-只需更改 `PageSet`：
-
-```csharp
-saveOptions.PageSet = new PageSet(1, 5);
-```
-
-其餘流程保持不變，你仍會得到 **png grid**——只是較小的版本。
-
-### 可以更改背景顏色嗎？
-
-可以，`ImageSaveOptions` 提供 `BackgroundColor` 屬性：
-
-```csharp
-saveOptions.BackgroundColor = Color.White; // defaults to white, but you can pick any System.Drawing.Color
-```
-
-### 如何處理同時包含直向與橫向頁面的文件？
-
-網格佈局會自動遵循每頁尺寸，但若需要統一的畫布，可在儲存前設定 `saveOptions.PageSize` 為固定大小：
-
-```csharp
-saveOptions.PageSize = new SizeF(8.5f, 11f); // inches, for portrait
-```
-
-### 程式碼是否具備執行緒安全性？
-
-`Document` 實例在同時寫入時 **不**具備執行緒安全性，但你可以在每個執行緒中建立獨立的 `Document` 物件。這表示在批次處理多個檔案時，可平行產生多個 PNG 網格。
-
-## 生產環境的專業提示
-
-* **提前授權：** 若使用試用授權，產生的 PNG 會帶有浮水印。請在 `Document` 建構子之前註冊授權，以避免浮水印。  
-* **記憶體管理：** 若文件超過 100 頁，建議釋放中間產生的 bitmap，或使用 `SaveOptions` 並將 `UseMemoryCache = true`。  
-* **檔案命名：** 在檔名中加入來源檔案名稱與時間戳記，以免覆寫已有的網格檔案：
-
-```csharp
-string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
-string outputPath = $@"C:\Docs\{Path.GetFileNameWithoutExtension(inputPath)}_{timestamp}.png";
-```
-
-* **自動化：** 將整個流程封裝成可重複使用的方法：
-
-```csharp
-public static void ExportWordToPngGrid(string docxPath, string pngPath, int dpi = 300, int columns = 0)
-{
-    Document doc = new Document(docxPath);
-    ImageSaveOptions opts = new ImageSaveOptions(SaveFormat.Png)
+    class Program
     {
-        PageCount = 0,
-        PageSet = new PageSet(1, doc.PageCount),
-        Layout = ImageSaveOptions.ImageLayout.Grid,
-        HorizontalResolution = dpi,
-        VerticalResolution = dpi,
-        GridColumns = columns // 0 = auto
-    };
-    doc.Save(pngPath, opts);
+        static void Main(string[] args)
+        {
+            try
+            {
+                // 1️⃣ Load the Word document (convert word to image)
+                string inputPath = "YOUR_DIRECTORY/input.docx";
+                Document doc = new Document(inputPath);
+                Console.WriteLine($"Loaded document: {inputPath}");
+
+                // 2️⃣ Set up PNG save options – this is the core of create png grid
+                ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
+                {
+                    PageLayout = ImageSaveOptions.PageLayout.Grid, // Grid layout
+                    PageColumns = 3,                               // 3 columns in the grid
+                    Resolution = 200                               // 200 DPI – set image resolution
+                };
+                Console.WriteLine("Configured ImageSaveOptions for PNG grid.");
+
+                // 3️⃣ Save as a single PNG (save docx as png)
+                string outputPath = "YOUR_DIRECTORY/output.png";
+                doc.Save(outputPath, options);
+                Console.WriteLine($"Successfully created PNG grid at: {outputPath}");
+            }
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
 }
 ```
 
-## 結論
+### 預期輸出
 
-我們剛剛完整示範了使用 Aspose.Words for .NET 從 Word 文件 **create png grid** 的生產環境就緒方法。這些步驟——載入文件、為網格佈局設定 `ImageSaveOptions`，以及儲存合併影像——涵蓋了 *convert word to png*、*save docx as png*、*export all pages png* 與 *generate high resolution png* 的核心流程。
+執行程式後會產生 **output.png**，其外觀類似下圖（實際畫面取決於你的來源文件）。
 
-試著使用自己的報告、發票或電子書來執行一次。可自行調整網格欄數、DPI 設定或背景顏色，以符合 UI 需求。準備好後，甚至可以擴充輔助方法，接受檔案清單並批次處理，以配合文件管理系統。
+![建立 PNG 網格範例](image.png "建立 PNG 網格輸出")
 
-對影像匯出、授權或效能技巧有更多疑問嗎？歡迎在下方留言，或參考 Aspose 官方文件深入了解。祝開發順利，盡情享受清晰的 PNG 網格吧！
+此檔案將所有頁面以 3 欄網格排列，每頁以 200 DPI 解析度渲染，提供清晰的高解析度預覽。
+
+## 步驟回顧（每個環節的重要性）
+
+| 步驟 | 我們做了什麼 | 為何有助於 **create png grid** 目標 |
+|------|-------------|-------------------------------------------|
+| 1️⃣ | 使用 `Document` 載入 .docx | 為 **convert word to image** 流程提供來源頁面。 |
+| 2️⃣ | 設定 `ImageSaveOptions`（網格、欄、DPI） | `PageLayout = Grid` 是 **create png grid** 的關鍵；`Resolution` 確保你需要的 **set image resolution**。 |
+| 3️⃣ | 使用 `doc.Save` 儲存為單一 PNG 檔 | 此單一呼叫即可 **save docx as png**，同時遵守網格佈局。 |
+
+## 專業技巧與邊緣情況
+
+- **不同的欄數：** 若文件有 10 頁且設定 `PageColumns = 4`，Aspose 會自動產生足夠的列（3 列，最後一列僅部分填滿）。請依需求的視覺佈局調整。  
+- **記憶體考量：** 超大型文件（數百頁）在高 DPI 渲染時會佔用大量記憶體。若遇到 `OutOfMemoryException`，請將 `Resolution` 降至 150 DPI，或分批處理文件。  
+- **其他影像格式：** 想要 JPEG 而非 PNG？只需將 `SaveFormat.Png` 改為 `SaveFormat.Jpeg`，並可選擇在選項物件上設定 `JpegQuality`。  
+- **透明度：** PNG 支援 alpha 通道。若 Word 頁面含有透明元素，於網格中亦會保留。  
+- **檔名命名：** 若在迴圈中產生網格，請在輸出檔名加入時間戳記或 GUID，以避免覆寫檔案。  
+
+## 常見問題
+
+**Q: 我可以建立具有不同列數與欄數的網格嗎？**  
+A: `PageColumns` 屬性定義欄數；列數會根據總頁數自動計算。若需要固定列數，必須自行計算欄數（`columns = Math.Ceiling(pageCount / rows)`）。
+
+**Q: 這能用於 .doc 或 .rtf 檔案嗎？**  
+A: 當然可以。Aspose.Words 能載入 `.doc`、`.rtf`、`.odt` 以及許多其他格式。相同的 **convert word to png** 流程同樣適用。
+
+**Q: 若我只需要直向（portrait）網格（不旋轉）該怎麼辦？**  
+A: 頁面會以原始方向渲染。若需旋轉，可在儲存前於 `ImageSaveOptions` 啟用 `PageOrientation`。
+
+## 後續步驟
+
+既然你已掌握 **create png grid** 的技巧，以下是一些後續想法：
+
+- **匯出為 PDF：** 使用相同的網格選項搭配 `SaveFormat.Pdf`，產生多頁 PDF 預覽。  
+- **批次處理：** 迴圈處理資料夾中的 Word 檔案，為每個檔案產生 PNG 網格，實作報告縮圖自動化。  
+- **整合至 Web API：** 從 ASP.NET Core 端點即時提供 PNG 網格，以在瀏覽器中預覽文件。  
+
+上述皆基於相同的核心概念：**convert word to image**、**set image resolution** 與 **save docx as png**。
+
+### 總結
+
+你現在擁有一套完整、可投入生產的方法，能從任何多頁 Word 文件 **create png grid**。透過載入文件、設定 `ImageSaveOptions` 為網格佈局，並以單一呼叫儲存，你已涵蓋從 **convert word to png** 到 **set image resolution** 以及 **save docx as png** 的全部步驟。  
+
+試著執行看看，調整欄數、變更 DPI，便能快速產生專業外觀的預覽頁。祝開發順利！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

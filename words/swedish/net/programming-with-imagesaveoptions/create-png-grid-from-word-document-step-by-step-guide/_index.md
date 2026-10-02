@@ -1,26 +1,25 @@
 ---
 category: general
-date: 2026-03-06
-description: Skapa PNG‑rutnät från en flersidig Word‑fil. Lär dig hur du konverterar
-  Word till PNG, sparar DOCX som PNG, exporterar alla sidor som PNG och genererar
-  högupplöst PNG i C#.
+date: 2026-01-14
+description: Skapa PNG‑rutnät från en Word‑fil i C#. Konvertera Word till PNG, ställ
+  in bildens upplösning och spara docx som PNG med Aspose.Words.
 draft: false
 keywords:
 - create png grid
 - convert word to png
+- set image resolution
+- convert word to image
 - save docx as png
-- export all pages png
-- generate high resolution png
 language: sv
-og_description: Skapa PNG‑rutnät från ett Word‑dokument i C#. Denna guide visar hur
-  du konverterar Word till PNG, sparar docx som PNG, exporterar alla sidor som PNG
-  och genererar högupplöst PNG.
-og_title: Skapa PNG‑rutnät från Word – Komplett C#‑handledning
+og_description: Skapa PNG‑rutnät från en Word‑fil med Aspose.Words. Lär dig hur du
+  konverterar Word till PNG, ställer in bildens upplösning och sparar docx som PNG
+  i ett enda steg.
+og_title: Skapa PNG‑rutnät från Word‑dokument – Komplett C#‑handledning
 tags:
 - Aspose.Words
 - C#
-- ImageExport
-title: Skapa PNG‑rutnät från Word-dokument – Steg‑för‑steg‑guide
+- Image Processing
+title: Skapa PNG‑rutnät från Word‑dokument – Steg‑för‑steg‑guide
 url: /sv/net/programming-with-imagesaveoptions/create-png-grid-from-word-document-step-by-step-guide/
 ---
 
@@ -28,178 +27,172 @@ url: /sv/net/programming-with-imagesaveoptions/create-png-grid-from-word-documen
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Skapa PNG‑rutnät från Word‑dokument – Komplett C#‑handledning
+# Skapa PNG-rutnät från Word-dokument – Komplett C#-handledning
 
-Har du någonsin behövt **create png grid** från en flersidig Word‑fil men inte vetat var du ska börja? Du är inte ensam—utvecklare frågar ofta hur man *convert word to png* utan att skriva en egen rasteriserare. I den här handledningen går vi igenom en ren, högupplöst lösning som **exports all pages png** till en enda bild arrangerad i ett rutnät. När du är klar vet du exakt hur du *save docx as png* och *generate high resolution png* med bara några rader C#.
+Har du någonsin behövt **create png grid** från en flersidig Word‑fil och undrat hur du gör det utan att manuellt sy ihop bilder? Du är inte ensam. I många rapport‑ eller arkiveringsscenario har du ett långt .docx och du vill ha en enda bild som visar flera sidor samtidigt – tänk på ett miniatyrblad eller en snabb‑förhandsgranskning.  
 
-Vi kommer att täcka allt du behöver: det nödvändiga NuGet‑paketet, en steg‑för‑steg kodgenomgång och några praktiska tips för att hantera stora dokument. Inga externa verktyg, inga kommandorads‑akrobatik—bara ren .NET‑kod som körs var som helst där Aspose.Words stöds. Har du en 50‑sidig rapport? Vill du ha den som en enda miniatyr för ett förhandsgranskningsfönster? Den här guiden har dig täckt.
+I den här guiden går vi igenom exakt kod du behöver för att **convert word to png**, ordna sidorna i ett rutnät och till och med **set image resolution** så att resultatet blir skarpt. I slutet kommer du att veta hur du **save docx as png** i en smidig operation med Aspose.Words för .NET.
+
+## Vad du kommer att lära dig
+
+- Hur du laddar ett Word‑dokument från disk.  
+- Vilka `ImageSaveOptions`‑egenskaper som möjliggör ett **create png grid**.  
+- Hur du styr DPI med alternativet **set image resolution**.  
+- Ett komplett, färdigt‑att‑köra C#‑exempel som **convert word to image** och producerar en enda PNG‑fil.  
+- Tips för att justera kolumner, rader och hantera kantfall.
+
+Inga externa verktyg, inga mellanfiler – bara ren C#‑kod.
 
 ## Förutsättningar
 
-* .NET 6.0 eller senare (API‑et fungerar med .NET Core, .NET Framework och .NET 5+)
-* Visual Studio 2022 (eller någon IDE du föredrar)
-* En Aspose.Words för .NET‑licens (en gratis provversion fungerar för testning)
-* Ett flersidigt Word‑dokument (`MultiPage.docx`) som du vill omvandla till ett **png grid**
+- .NET 6+ (eller .NET Framework 4.7+).  
+- Aspose.Words för .NET installerat (`Install-Package Aspose.Words`).  
+- Ett flersidigt Word‑dokument (`input.docx`) som du vill omvandla till ett rutnät.  
 
-Om någon av dessa låter obekant, installera bara NuGet‑paketet så är du redo att köra:
+Det är allt. Om du har det, låt oss dyka ner.
 
-```bash
-dotnet add package Aspose.Words
-```
+## Steg 1: Ladda Word-dokumentet (convert word to image)
 
-Det är allt—inga extra beroenden.
-
-## Steg 1 – Ladda Word‑dokumentet
-
-Först måste vi läsa in *.docx* i minnet. Klassen `Document` sköter allt tungt arbete, parsar filen och exponerar sidinformation som vi senare kommer att skicka till bild‑exportören.
+Det första du behöver göra är att läsa in .docx‑filen i minnet. Aspose.Words `Document`‑klass hanterar detta utan ansträngning.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-// Load the source Word file (adjust the path to your environment)
-Document document = new Document(@"C:\Docs\MultiPage.docx");
-
-// Quick sanity check – how many pages are we dealing with?
-int totalPages = document.PageCount;
-Console.WriteLine($"Document contains {totalPages} pages.");
+// Load the source Word file.
+// Replace "YOUR_DIRECTORY/input.docx" with the actual path to your document.
+Document document = new Document("YOUR_DIRECTORY/input.docx");
 ```
 
-*Varför detta är viktigt:* Att känna till sidantalet låter oss sätta `PageSet` korrekt så **export all pages png** utan att missa den sista sidan. Dessutom är en snabb console‑utskrift en praktisk kontroll under felsökning.
+*Varför detta är viktigt:* Att ladda dokumentet är grunden för alla **convert word to png**‑operationer. Utan det har biblioteket inget att rendera.
 
-## Steg 2 – Konfigurera ImageSaveOptions för ett rutnätslayout
+## Steg 2: Konfigurera ImageSaveOptions – hjärtat i **create png grid**
 
-Aspose.Words kan rendera varje sida som en separat bild, men vi vill ha en **create png grid**‑effekt—tänk på ett kontaktark där varje sida ligger bredvid sina grannar. Klassen `ImageSaveOptions` ger oss full kontroll över layout, upplösning och vilka sidor som ska inkluderas.
+`ImageSaveOptions` låter dig säga exakt hur du vill att den resulterande PNG‑filen ska se ut. Genom att sätta `PageLayout` till `Grid` ordnas varje sida automatiskt i en matris.
 
 ```csharp
-// Prepare the options that tell Aspose how to render the PNG
-ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png)
+// Create PNG save options and enable grid layout.
+ImageSaveOptions pngOptions = new ImageSaveOptions(SaveFormat.Png)
 {
-    // 0 means “all pages” – perfect for export all pages png
-    PageCount = 0,
+    // Grid layout (rows × columns) – this is what makes the PNG grid.
+    PageLayout = ImageSaveOptions.PageLayout.Grid,
 
-    // Explicitly include the full range (1‑based indexing)
-    PageSet = new PageSet(1, document.PageCount),
+    // Number of columns in the grid. Adjust to fit your document length.
+    PageColumns = 3,
 
-    // Grid layout arranges pages in rows & columns automatically
-    Layout = ImageSaveOptions.ImageLayout.Grid,
-
-    // High resolution ensures the final image isn’t blurry
-    HorizontalResolution = 300, // DPI
-    VerticalResolution   = 300  // DPI
+    // DPI setting – this is where we **set image resolution**.
+    Resolution = 200
 };
 ```
 
-*Varför vi sätter dessa värden:*  
+*Varför detta är viktigt:* Flaggan `PageLayout = Grid` är den hemliga ingrediensen för **create png grid**. Att ändra `PageColumns` ändrar rutnätets bredd, medan `Resolution` styr hur skarp varje sida blir.
 
-* `PageCount = 0` tillsammans med `PageSet` talar om för biblioteket **convert word to png** för varje sida, inte bara den första.  
-* `Layout = Grid` är nyckeln till **create png grid**—andra alternativ som `Horizontal` eller `Vertical` skulle ge en lång remsa, vilket sällan är vad du behöver för en förhandsgranskning.  
-* 300 DPI är en bra kompromiss för en **generate high resolution png** som ser skarp ut på Retina‑skärmar samtidigt som filstorleken hålls rimlig.
+## Steg 3: Spara dokumentet som en enda PNG (save docx as png)
 
-## Steg 3 – Spara den kombinerade bilden
-
-Nu sker det tunga arbetet bakom kulisserna. Aspose renderar varje sida, syr ihop dem enligt rutnätslayouten och skriver resultatet till disk.
+Nu när alternativen är klara, anropar du helt enkelt `Save`. Aspose gör allt tungt arbete och skriver en PNG som innehåller alla sidor.
 
 ```csharp
-string outputPath = @"C:\Docs\AllPages.png";
-document.Save(outputPath, saveOptions);
-Console.WriteLine($"PNG grid saved to {outputPath}");
+// Save the document as a single PNG file that contains the whole grid.
+document.Save("YOUR_DIRECTORY/output.png", pngOptions);
 ```
 
-När programmet är klart, öppna `AllPages.png` så ser du en enda bild som innehåller varje sida i ditt ursprungliga Word‑dokument, snyggt uppradad. Detta är det slutgiltiga resultatet av vår **create png grid**‑operation.
+*Resultat:* `output.png` blir en enda bild där de första tre sidorna ligger sida‑vid‑sida, de nästa tre på den andra raden, och så vidare – exakt det **create png grid** du begärde.
 
-![Skapa PNG‑rutnät resultat](https://example.com/images/png-grid-output.png "Skärmdump som visar den genererade PNG‑rutnätet – create png grid")
+## Fullt fungerande exempel
 
-*Tips:* Om du behöver ett specifikt antal kolumner, justera `saveOptions.GridColumns`. Standardvärdet balanserar automatiskt rader och kolumner baserat på sidantalet.
-
-## Steg 4 – Verifiera resultatet (Valfritt men rekommenderat)
-
-En snabb visuell eller programmatisk kontroll kan spara dig timmar senare. Här är ett minimalt sätt att bekräfta att filen finns och att dess dimensioner matchar förväntningarna:
+Nedan är det kompletta programmet som du kan kopiera‑och‑klistra in i en konsolapp. Det inkluderar alla nödvändiga `using`‑satser, kommentarer och felhantering för en smidig upplevelse.
 
 ```csharp
-using System.Drawing;
+using System;
+using Aspose.Words;
+using Aspose.Words.Saving;
 
-// Load the generated PNG
-using (Bitmap bitmap = new Bitmap(outputPath))
+namespace WordToPngGrid
 {
-    Console.WriteLine($"Grid dimensions: {bitmap.Width}x{bitmap.Height} pixels");
-    Console.WriteLine($"Resolution: {bitmap.HorizontalResolution} DPI");
-}
-```
-
-Om dimensionerna ser felaktiga ut, gå tillbaka till `HorizontalResolution` / `VerticalResolution` eller experimentera med `GridColumns`. Kom ihåg att **generate high resolution png**‑bilder kan vara minnesintensiva för mycket stora dokument, så överväg streaming eller bearbetning i delar om du får minnesbristfel.
-
-## Vanliga frågor & kantfall
-
-### Vad om jag bara behöver de första 5 sidorna?
-
-Ändra bara `PageSet`:
-
-```csharp
-saveOptions.PageSet = new PageSet(1, 5);
-```
-
-Resten av pipeline förblir densamma, och du får fortfarande ett **png grid**—bara ett mindre.
-
-### Kan jag ändra bakgrundsfärgen?
-
-Ja, `ImageSaveOptions` har en egenskap `BackgroundColor`:
-
-```csharp
-saveOptions.BackgroundColor = Color.White; // defaults to white, but you can pick any System.Drawing.Color
-```
-
-### Hur hanterar jag ett dokument med blandade orienteringar (porträtt & landskap)?
-
-Rutnätslayouten respekterar automatiskt varje sidas storlek, men du kanske vill ha en enhetlig canvas. Sätt `saveOptions.PageSize` till en fast storlek innan du sparar:
-
-```csharp
-saveOptions.PageSize = new SizeF(8.5f, 11f); // inches, for portrait
-```
-
-### Är koden trådsäker?
-
-`Document`‑instanser är **inte** trådsäkra för samtidiga skrivningar, men du kan säkert skapa separata `Document`‑objekt per tråd. Detta innebär att du kan generera flera PNG‑rutnät parallellt om du bearbetar en batch av filer.
-
-## Pro‑tips för produktionsanvändning
-
-* **Licens tidigt:** Om du använder en provlicens kommer den genererade PNG‑filen att innehålla ett vattenmärke. Registrera din licens innan `Document`‑konstruktorn för att undvika det.
-* **Minneshantering:** För dokument som överstiger 100 sidor, överväg att avyttra mellanstegsbilder eller använda `SaveOptions` med `UseMemoryCache = true`.
-* **Filnamngivning:** Inkludera källfilens namn och en tidsstämpel för att undvika att skriva över befintliga rutnät:
-
-```csharp
-string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
-string outputPath = $@"C:\Docs\{Path.GetFileNameWithoutExtension(inputPath)}_{timestamp}.png";
-```
-
-* **Automation:** Packa hela flödet i en återanvändbar metod:
-
-```csharp
-public static void ExportWordToPngGrid(string docxPath, string pngPath, int dpi = 300, int columns = 0)
-{
-    Document doc = new Document(docxPath);
-    ImageSaveOptions opts = new ImageSaveOptions(SaveFormat.Png)
+    class Program
     {
-        PageCount = 0,
-        PageSet = new PageSet(1, doc.PageCount),
-        Layout = ImageSaveOptions.ImageLayout.Grid,
-        HorizontalResolution = dpi,
-        VerticalResolution = dpi,
-        GridColumns = columns // 0 = auto
-    };
-    doc.Save(pngPath, opts);
+        static void Main(string[] args)
+        {
+            try
+            {
+                // 1️⃣ Load the Word document (convert word to image)
+                string inputPath = "YOUR_DIRECTORY/input.docx";
+                Document doc = new Document(inputPath);
+                Console.WriteLine($"Loaded document: {inputPath}");
+
+                // 2️⃣ Set up PNG save options – this is the core of create png grid
+                ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
+                {
+                    PageLayout = ImageSaveOptions.PageLayout.Grid, // Grid layout
+                    PageColumns = 3,                               // 3 columns in the grid
+                    Resolution = 200                               // 200 DPI – set image resolution
+                };
+                Console.WriteLine("Configured ImageSaveOptions for PNG grid.");
+
+                // 3️⃣ Save as a single PNG (save docx as png)
+                string outputPath = "YOUR_DIRECTORY/output.png";
+                doc.Save(outputPath, options);
+                Console.WriteLine($"Successfully created PNG grid at: {outputPath}");
+            }
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
 }
 ```
 
-Nu kan du anropa `ExportWordToPngGrid(@"C:\Docs\Report.docx", @"C:\Out\Report.png");` från vilken del av din applikation som helst.
+### Förväntat resultat
 
-## Slutsats
+När programmet körs kommer det att producera **output.png** liknande illustrationen nedan (det faktiska utseendet beror på ditt källdokument).
 
-Vi har precis gått igenom ett komplett, produktionsklart sätt att **create png grid** från ett Word‑dokument med Aspose.Words för .NET. Stegen—ladda dokumentet, konfigurera `ImageSaveOptions` för ett rutnätslayout och spara den kombinerade bilden—täcker kärnan av *convert word to png*, *save docx as png*, *export all pages png* och *generate high resolution png* i ett sammanhängande flöde.
+![create png grid example](image.png "create png grid output")
 
-Prova det med dina egna rapporter, fakturor eller e‑böcker. Experimentera med rutnätskolumner, DPI‑inställningar eller bakgrundsfärger för att passa dina UI‑behov. När du är redo kan du till och med utöka hjälpfunktionen så att den accepterar en lista med filer och batch‑processar dem för ett dokumenthanteringssystem.
+Filen innehåller alla sidor ordnade i ett 3‑kolumners rutnät, var och en renderad med 200 DPI, vilket ger dig en tydlig, högupplöst förhandsgranskning.
 
-Har du fler frågor om bildexport, licensiering eller prestandatips? Lämna en kommentar nedan eller kolla in Asposes officiella dokumentation för djupare insikter. Lycka till med kodningen, och njut av de skarpa PNG‑rutnäten!
+## Steg‑för‑steg‑sammanfattning (Varför varje del är viktig)
+
+| Steg | Vad vi gjorde | Varför det hjälper **create png grid**‑målet |
+|------|---------------|----------------------------------------------|
+| 1️⃣ | Laddade .docx med `Document` | Tillhandahåller källsidorna för **convert word to image**‑processen. |
+| 2️⃣ | Konfigurerade `ImageSaveOptions` (rutnät, kolumner, DPI) | `PageLayout = Grid` är nyckeln till **create png grid**; `Resolution` säkerställer den **set image resolution** du behöver. |
+| 3️⃣ | Sparade med `doc.Save` till en enda PNG‑fil | Detta enkla anrop **save docx as png** samtidigt som det respekterar rutnätslayouten. |
+
+## Pro‑tips & kantfall
+
+- **Olika kolumnantal:** Om ditt dokument har 10 sidor och du sätter `PageColumns = 4` kommer Aspose automatiskt att skapa tillräckligt många rader (3 rader, där den sista raden är delvis fylld). Justera efter den visuella layout du föredrar.
+- **Minneshänsyn:** Mycket stora dokument (hundratals sidor) kan förbruka mycket RAM när de renderas med hög DPI. Om du får `OutOfMemoryException` kan du sänka `Resolution` till 150 DPI eller bearbeta dokumentet i batchar.
+- **Andra bildformat:** Vill du ha JPEG istället för PNG? Ändra bara `SaveFormat.Png` till `SaveFormat.Jpeg` och eventuellt sätt `JpegQuality` på options‑objektet.
+- **Transparens:** PNG stödjer alfakanaler. Om dina Word‑sidor innehåller transparenta element bevaras de i rutnätet.
+- **Filnamngivning:** Använd en tidsstämpel eller GUID i utdatafilens namn om du genererar rutnät i en loop för att undvika att skriva över filer.
+
+## Vanliga frågor
+
+**Q: Kan jag skapa ett rutnät med olika antal rader och kolumner?**  
+A: `PageColumns`‑egenskapen definierar kolumner; rader beräknas automatiskt baserat på totalt sidantal. Om du behöver ett fast antal rader måste du själv beräkna kolumner (`columns = Math.Ceiling(pageCount / rows)`).
+
+**Q: Fungerar detta med .doc‑filer eller .rtf?**  
+A: Absolut. Aspose.Words kan läsa `.doc`, `.rtf`, `.odt` och många andra format. Samma **convert word to png**‑pipeline gäller.
+
+**Q: Vad händer om jag bara vill ha ett stående rutnät (ingen rotation)?**  
+A: Sidorna renderas i sin ursprungliga orientering. Om du behöver rotera dem kan du aktivera `PageOrientation` på `ImageSaveOptions` innan du sparar.
+
+## Nästa steg
+
+Nu när du har bemästrat hur man **create png grid**, överväg dessa fortsättningsidéer:
+
+- **Exportera till PDF:** Använd `SaveFormat.Pdf` med samma rutnätsalternativ för att skapa en flersidig PDF‑förhandsgranskning.  
+- **Batch‑bearbetning:** Loopa igenom en mapp med Word‑filer och generera ett PNG‑rutnät för varje, för att automatisera rapport‑miniatyrer.  
+- **Integrera med webb‑API:er:** Servera PNG‑rutnätet i realtid från en ASP.NET Core‑endpoint för att förhandsgranska dokument i en webbläsare.  
+
+Alla dessa bygger på samma grundkoncept: **convert word to image**, **set image resolution**, och **save docx as png**.
+
+### Sammanfattning
+
+Du har nu en komplett, produktionsklar metod för att **create png grid** från vilket flersidigt Word‑dokument som helst. Genom att ladda dokumentet, konfigurera `ImageSaveOptions` för ett rutnätslayout och spara med ett enda anrop, har du täckt allt från **convert word to png** till **set image resolution** och **save docx as png**.  
+
+Prova det, justera kolumnantalet, lek med DPI, och se hur snabbt du kan skapa professionella förhandsgranskningsblad. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,0 +1,7 @@
+Title: create accessible pdf – Complete Guide with Aspose.Words
+Slug: create-accessible-pdf-complete-guide-with-aspose-words
+Category: document-conversion
+ProcessedDate: 2026-07-03T23:52:02.766637
+SourceRepo: AI Search API
+Keywords: create accessible pdf, make pdf accessible, how to set pdf/ua
+PRNumber: 221

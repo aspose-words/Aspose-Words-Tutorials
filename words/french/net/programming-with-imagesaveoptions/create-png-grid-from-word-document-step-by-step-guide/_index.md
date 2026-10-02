@@ -1,25 +1,25 @@
 ---
 category: general
-date: 2026-03-06
-description: Créer une grille PNG à partir d'un fichier Word multipage. Apprenez comment
-  convertir Word en PNG, enregistrer un DOCX en PNG, exporter toutes les pages en
-  PNG et générer un PNG haute résolution en C#.
+date: 2026-01-14
+description: Créer une grille PNG à partir d’un fichier Word en C#. Convertir Word
+  en PNG, définir la résolution de l’image et enregistrer le docx au format PNG avec
+  Aspose.Words.
 draft: false
 keywords:
 - create png grid
 - convert word to png
+- set image resolution
+- convert word to image
 - save docx as png
-- export all pages png
-- generate high resolution png
 language: fr
-og_description: Créer une grille PNG à partir d’un document Word en C#. Ce guide montre
-  comment convertir Word en PNG, enregistrer un DOCX en PNG, exporter toutes les pages
-  en PNG et générer des PNG haute résolution.
-og_title: Créer une grille PNG à partir de Word – Tutoriel complet C#
+og_description: Créer une grille PNG à partir d’un fichier Word avec Aspose.Words.
+  Apprenez comment convertir Word en PNG, définir la résolution de l’image et enregistrer
+  le DOCX en PNG en une seule étape.
+og_title: Créer une grille PNG à partir d'un document Word – Tutoriel complet C#
 tags:
 - Aspose.Words
 - C#
-- ImageExport
+- Image Processing
 title: Créer une grille PNG à partir d'un document Word – Guide étape par étape
 url: /fr/net/programming-with-imagesaveoptions/create-png-grid-from-word-document-step-by-step-guide/
 ---
@@ -30,174 +30,170 @@ url: /fr/net/programming-with-imagesaveoptions/create-png-grid-from-word-documen
 
 # Créer une grille PNG à partir d'un document Word – Tutoriel complet C#
 
-Vous avez déjà eu besoin de **create png grid** à partir d'un fichier Word multi‑pages mais vous ne saviez pas par où commencer ? Vous n'êtes pas le seul—les développeurs demandent souvent comment *convert word to png* sans écrire de rasteriseur personnalisé. Dans ce tutoriel, nous allons parcourir une solution propre et haute résolution qui **exports all pages png** dans une seule image disposée en grille. À la fin, vous saurez exactement comment *save docx as png* et *generate high resolution png* en quelques lignes de C#.
+Vous avez déjà eu besoin de **créer une grille PNG** à partir d'un fichier Word multi‑pages et vous vous êtes demandé comment le faire sans assembler manuellement les images ? Vous n'êtes pas le seul. Dans de nombreux scénarios de reporting ou d'archivage, vous avez un long .docx et vous souhaitez une image unique affichant plusieurs pages à la fois—pensez à une feuille de vignettes ou à un aperçu rapide.
 
-Nous couvrirons tout ce dont vous avez besoin : le package NuGet requis, un guide pas à pas du code, et quelques astuces pratiques pour gérer les gros documents. Aucun outil externe, aucune gymnastique en ligne de commande—juste du code .NET pur qui fonctionne partout où Aspose.Words est supporté. Vous avez un rapport de 50 pages ? Vous le voulez sous forme d'une seule vignette pour un panneau d'aperçu ? Ce guide répond à vos besoins.
+Dans ce guide, nous passerons en revue le code exact dont vous avez besoin pour **convertir Word en PNG**, organiser les pages en grille, et même **définir la résolution de l'image** afin que le résultat soit net. À la fin, vous saurez comment **enregistrer un docx en PNG** en une seule opération fluide en utilisant Aspose.Words pour .NET.
+
+## Ce que vous apprendrez
+
+- Comment charger un document Word depuis le disque.  
+- Quelles propriétés de `ImageSaveOptions` permettent de **créer une grille PNG**.  
+- Comment contrôler le DPI avec l'option **définir la résolution de l'image**.  
+- Un extrait complet, prêt à l'exécution en C#, qui **convertit Word en image** et produit un fichier PNG unique.  
+- Conseils pour ajuster les colonnes, les lignes et gérer les cas particuliers.  
+
+Aucun outil externe, aucun fichier intermédiaire—juste du pur code C#.
 
 ## Prérequis
 
-* .NET 6.0 ou ultérieur (l'API fonctionne avec .NET Core, .NET Framework et .NET 5+)
-* Visual Studio 2022 (ou tout IDE de votre choix)
-* Une licence Aspose.Words pour .NET (une version d'essai gratuite suffit pour les tests)
-* Un document Word multi‑pages (`MultiPage.docx`) que vous souhaitez transformer en **png grid**
+- .NET 6+ (ou .NET Framework 4.7+).  
+- Aspose.Words pour .NET installé (`Install-Package Aspose.Words`).  
+- Un document Word multi‑pages (`input.docx`) que vous souhaitez transformer en grille.  
 
-Si l'un de ces éléments vous est inconnu, il suffit d'installer le package NuGet et vous serez prêt à partir :
+C'est tout. Si vous avez cela, plongeons‑y.
 
-```bash
-dotnet add package Aspose.Words
-```
+## Étape 1 : Charger le document Word (convertir word en image)
 
-C’est tout—aucune dépendance supplémentaire.
-
-## Étape 1 – Charger le document Word
-
-Tout d'abord, nous devons charger le *.docx* en mémoire. La classe `Document` effectue tout le travail lourd, analyse le fichier et expose les informations de page que nous transmettrons ensuite à l'exportateur d'images.
+La première chose à faire est de charger le .docx en mémoire. La classe `Document` d’Aspose.Words gère cela sans effort.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-// Load the source Word file (adjust the path to your environment)
-Document document = new Document(@"C:\Docs\MultiPage.docx");
-
-// Quick sanity check – how many pages are we dealing with?
-int totalPages = document.PageCount;
-Console.WriteLine($"Document contains {totalPages} pages.");
+// Load the source Word file.
+// Replace "YOUR_DIRECTORY/input.docx" with the actual path to your document.
+Document document = new Document("YOUR_DIRECTORY/input.docx");
 ```
 
-*Pourquoi c'est important :* Connaître le nombre de pages nous permet de définir correctement `PageSet` afin de **export all pages png** sans manquer la dernière diapositive. De plus, une écriture rapide dans la console est un contrôle de bon sens pratique lors du débogage.
+*Pourquoi c'est important :* Charger le document est la base de toute opération de **conversion de Word en PNG**. Sans cela, la bibliothèque n’a rien à rendre.
 
-## Étape 2 – Configurer ImageSaveOptions pour une disposition en grille
+## Étape 2 : Configurer ImageSaveOptions – le cœur de la **création d’une grille PNG**
 
-Aspose.Words peut rendre chaque page comme une image séparée, mais nous voulons un effet **create png grid**—pensez à une planche contact où chaque page se trouve à côté de ses voisines. La classe `ImageSaveOptions` nous donne un contrôle complet sur la disposition, la résolution et les pages à inclure.
+`ImageSaveOptions` vous permet d'indiquer à Aspose exactement comment vous souhaitez que le PNG de sortie apparaisse. Définir `PageLayout` à `Grid` organise automatiquement chaque page dans une matrice.
 
 ```csharp
-// Prepare the options that tell Aspose how to render the PNG
-ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png)
+// Create PNG save options and enable grid layout.
+ImageSaveOptions pngOptions = new ImageSaveOptions(SaveFormat.Png)
 {
-    // 0 means “all pages” – perfect for export all pages png
-    PageCount = 0,
+    // Grid layout (rows × columns) – this is what makes the PNG grid.
+    PageLayout = ImageSaveOptions.PageLayout.Grid,
 
-    // Explicitly include the full range (1‑based indexing)
-    PageSet = new PageSet(1, document.PageCount),
+    // Number of columns in the grid. Adjust to fit your document length.
+    PageColumns = 3,
 
-    // Grid layout arranges pages in rows & columns automatically
-    Layout = ImageSaveOptions.ImageLayout.Grid,
-
-    // High resolution ensures the final image isn’t blurry
-    HorizontalResolution = 300, // DPI
-    VerticalResolution   = 300  // DPI
+    // DPI setting – this is where we **set image resolution**.
+    Resolution = 200
 };
 ```
 
-*Pourquoi nous définissons ces valeurs :*  
+*Pourquoi c'est important :* Le drapeau `PageLayout = Grid` est la sauce secrète pour **créer une grille PNG**. Modifier `PageColumns` change la largeur de la grille, tandis que `Resolution` contrôle la netteté de chaque page.
 
-* `PageCount = 0` avec `PageSet` indique à la bibliothèque **convert word to png** pour chaque page, pas seulement la première.  
-* `Layout = Grid` est la clé pour **create png grid**—d'autres options comme `Horizontal` ou `Vertical` produiraient une longue bande, ce qui est rarement ce dont vous avez besoin pour un aperçu.  
-* 300 DPI est un bon compromis pour **generate high resolution png** qui apparaît net sur les écrans Retina tout en maintenant une taille de fichier raisonnable.
+## Étape 3 : Enregistrer le document en un seul PNG (enregistrer docx en png)
 
-## Étape 3 – Enregistrer l'image combinée
-
-Maintenant, le travail lourd se déroule en arrière-plan. Aspose rend chaque page, les assemble selon la disposition en grille, et écrit le résultat sur le disque.
+Une fois les options prêtes, il suffit d’appeler `Save`. Aspose effectue tout le travail lourd et écrit un PNG contenant chaque page.
 
 ```csharp
-string outputPath = @"C:\Docs\AllPages.png";
-document.Save(outputPath, saveOptions);
-Console.WriteLine($"PNG grid saved to {outputPath}");
+// Save the document as a single PNG file that contains the whole grid.
+document.Save("YOUR_DIRECTORY/output.png", pngOptions);
 ```
 
-Lorsque le programme se termine, ouvrez `AllPages.png` et vous verrez une seule image contenant chaque page de votre document Word original, soigneusement disposée en mosaïque. C'est le résultat final de notre opération **create png grid**.
+*Résultat :* `output.png` sera une image unique où les trois premières pages sont côte à côte, les trois suivantes sur la deuxième ligne, etc.—exactement la **grille PNG** que vous avez demandée.
 
-![Sortie de la grille PNG](https://example.com/images/png-grid-output.png "Capture d'écran montrant la grille PNG générée – create png grid")
+## Exemple complet fonctionnel
 
-*Astuce :* Si vous avez besoin d'un nombre spécifique de colonnes, ajustez `saveOptions.GridColumns`. La valeur par défaut équilibre automatiquement les lignes et les colonnes en fonction du nombre de pages.
-
-## Étape 4 – Vérifier la sortie (Optionnel mais recommandé)
-
-Une vérification visuelle ou programmatique rapide peut vous faire gagner des heures plus tard. Voici une méthode minimale pour confirmer que le fichier existe et que ses dimensions correspondent aux attentes :
+Ci-dessous le programme complet que vous pouvez copier‑coller dans une application console. Il inclut toutes les instructions `using` nécessaires, des commentaires, et la gestion des erreurs pour une expérience fluide.
 
 ```csharp
-using System.Drawing;
+using System;
+using Aspose.Words;
+using Aspose.Words.Saving;
 
-// Load the generated PNG
-using (Bitmap bitmap = new Bitmap(outputPath))
+namespace WordToPngGrid
 {
-    Console.WriteLine($"Grid dimensions: {bitmap.Width}x{bitmap.Height} pixels");
-    Console.WriteLine($"Resolution: {bitmap.HorizontalResolution} DPI");
-}
-```
-
-Si les dimensions semblent incorrectes, revoyez `HorizontalResolution` / `VerticalResolution` ou expérimentez avec `GridColumns`. Rappelez‑vous que les images **generate high resolution png** peuvent être gourmandes en mémoire pour des documents très volumineux, pensez donc à le streaming ou au traitement par morceaux si vous rencontrez des erreurs de dépassement de mémoire.
-
-## Questions fréquentes & cas limites
-
-### Et si je n'ai besoin que des 5 premières pages ?
-
-Il suffit de modifier le `PageSet` :
-
-```csharp
-saveOptions.PageSet = new PageSet(1, 5);
-```
-
-Le reste du pipeline reste identique, et vous obtenez toujours une **png grid**—juste une plus petite.
-
-### Puis-je changer la couleur d'arrière‑plan ?
-
-Oui, `ImageSaveOptions` expose une propriété `BackgroundColor` :
-
-```csharp
-saveOptions.BackgroundColor = Color.White; // defaults to white, but you can pick any System.Drawing.Color
-```
-
-### Comment gérer un document avec des orientations mixtes (portrait & paysage) ?
-
-La disposition en grille respecte automatiquement la taille de chaque page, mais vous pourriez vouloir un canevas uniforme. Définissez `saveOptions.PageSize` à une taille fixe avant l'enregistrement :
-
-```csharp
-saveOptions.PageSize = new SizeF(8.5f, 11f); // inches, for portrait
-```
-
-### Le code est‑il thread‑safe ?
-
-Les instances de `Document` ne sont **pas** thread‑safe pour des écritures simultanées, mais vous pouvez créer en toute sécurité des objets `Document` séparés par thread. Cela signifie que vous pouvez générer plusieurs PNG grids en parallèle si vous traitez un lot de fichiers.
-
-## Astuces pro pour l'utilisation en production
-
-* **License early :** Si vous utilisez une licence d'essai, le PNG généré contiendra un filigrane. Enregistrez votre licence avant le constructeur `Document` pour l'éviter.
-* **Memory management :** Pour les documents dépassant 100 pages, envisagez de libérer les bitmaps intermédiaires ou d'utiliser `SaveOptions` avec `UseMemoryCache = true`.
-* **File naming :** Incluez le nom de fichier source et un horodatage pour éviter d'écraser les grilles existantes :
-
-```csharp
-string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
-string outputPath = $@"C:\Docs\{Path.GetFileNameWithoutExtension(inputPath)}_{timestamp}.png";
-```
-
-* **Automation :** Encapsulez tout le flux dans une méthode réutilisable :
-
-```csharp
-public static void ExportWordToPngGrid(string docxPath, string pngPath, int dpi = 300, int columns = 0)
-{
-    Document doc = new Document(docxPath);
-    ImageSaveOptions opts = new ImageSaveOptions(SaveFormat.Png)
+    class Program
     {
-        PageCount = 0,
-        PageSet = new PageSet(1, doc.PageCount),
-        Layout = ImageSaveOptions.ImageLayout.Grid,
-        HorizontalResolution = dpi,
-        VerticalResolution = dpi,
-        GridColumns = columns // 0 = auto
-    };
-    doc.Save(pngPath, opts);
+        static void Main(string[] args)
+        {
+            try
+            {
+                // 1️⃣ Load the Word document (convert word to image)
+                string inputPath = "YOUR_DIRECTORY/input.docx";
+                Document doc = new Document(inputPath);
+                Console.WriteLine($"Loaded document: {inputPath}");
+
+                // 2️⃣ Set up PNG save options – this is the core of create png grid
+                ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
+                {
+                    PageLayout = ImageSaveOptions.PageLayout.Grid, // Grid layout
+                    PageColumns = 3,                               // 3 columns in the grid
+                    Resolution = 200                               // 200 DPI – set image resolution
+                };
+                Console.WriteLine("Configured ImageSaveOptions for PNG grid.");
+
+                // 3️⃣ Save as a single PNG (save docx as png)
+                string outputPath = "YOUR_DIRECTORY/output.png";
+                doc.Save(outputPath, options);
+                Console.WriteLine($"Successfully created PNG grid at: {outputPath}");
+            }
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
 }
 ```
 
-## Conclusion
+### Résultat attendu
 
-Nous venons de parcourir une méthode complète et prête pour la production afin de **create png grid** à partir d'un document Word en utilisant Aspose.Words pour .NET. Les étapes—charger le document, configurer `ImageSaveOptions` pour une disposition en grille, et enregistrer l'image combinée—couvrent le cœur de *convert word to png*, *save docx as png*, *export all pages png*, et *generate high resolution png* en un flux cohérent.
+L'exécution du programme produira **output.png** similaire à l'illustration ci‑dessous (le rendu réel dépend de votre document source).
 
-Testez-le avec vos propres rapports, factures ou e‑books. Expérimentez avec le nombre de colonnes de la grille, les réglages DPI ou les couleurs d'arrière‑plan pour correspondre à vos besoins UI. Lorsque vous êtes prêt, vous pouvez même étendre la méthode d'aide pour accepter une liste de fichiers et les traiter par lots pour un système de gestion de documents.
+![exemple de création de grille PNG](image.png "sortie de la création de grille PNG")
 
-Vous avez d'autres questions sur l'export d'images, les licences ou les astuces de performance ? Laissez un commentaire ci‑dessous ou consultez la documentation officielle d'Aspose pour des approfondissements. Bon codage, et profitez de ces grilles PNG nettes !
+Le fichier contient toutes les pages disposées en une grille de 3 colonnes, chacune rendue à 200 DPI, vous offrant un aperçu clair et haute résolution.
+
+## Récapitulatif étape par étape (Pourquoi chaque élément est important)
+
+| Étape | Ce que nous avons fait | Pourquoi cela aide l'objectif **créer une grille PNG** |
+|------|------------------------|--------------------------------------------------------|
+| 1️⃣ | Chargé le .docx avec `Document` | Fournit les pages sources pour le processus de **conversion de Word en image**. |
+| 2️⃣ | Configuré `ImageSaveOptions` (grille, colonnes, DPI) | `PageLayout = Grid` est la clé pour **créer une grille PNG** ; `Resolution` assure la **définition de la résolution de l'image** dont vous avez besoin. |
+| 3️⃣ | Enregistré avec `doc.Save` en un fichier PNG unique | Cet appel unique **enregistre le docx en PNG** tout en respectant la disposition en grille. |
+
+## Astuces pro & cas particuliers
+
+- **Différents nombres de colonnes :** Si votre document possède 10 pages et que vous définissez `PageColumns = 4`, Aspose créera automatiquement suffisamment de lignes (3 lignes, la dernière partiellement remplie). Ajustez selon la disposition visuelle que vous préférez.  
+- **Considérations de mémoire :** Les documents très volumineux (des centaines de pages) peuvent consommer beaucoup de RAM lors du rendu à haute DPI. Si vous rencontrez `OutOfMemoryException`, réduisez la `Resolution` à 150 DPI ou traitez le document par lots.  
+- **Autres formats d'image :** Vous voulez du JPEG au lieu du PNG ? Changez simplement `SaveFormat.Png` en `SaveFormat.Jpeg` et, éventuellement, définissez `JpegQuality` sur l'objet d'options.  
+- **Transparence :** Le PNG prend en charge les canaux alpha. Si vos pages Word contiennent des éléments transparents, ils seront conservés dans la grille.  
+- **Nom de fichier :** Utilisez un horodatage ou un GUID dans le nom du fichier de sortie si vous générez des grilles dans une boucle afin d'éviter d'écraser des fichiers.  
+
+## Questions fréquentes
+
+**Q : Puis-je créer une grille avec un nombre différent de lignes et de colonnes ?**  
+R : La propriété `PageColumns` définit les colonnes ; les lignes sont calculées automatiquement en fonction du nombre total de pages. Si vous avez besoin d’un nombre de lignes fixe, vous devrez calculer vous‑même les colonnes (`columns = Math.Ceiling(pageCount / rows)`).
+
+**Q : Cette méthode fonctionne‑t‑elle avec les fichiers .doc ou .rtf ?**  
+R : Absolument. Aspose.Words peut charger les fichiers `.doc`, `.rtf`, `.odt` et bien d’autres formats. Le même pipeline de **conversion de Word en PNG** s’applique.
+
+**Q : Et si j’ai besoin d’une grille uniquement en portrait (sans rotation) ?**  
+R : Les pages sont rendues dans leur orientation d’origine. Si vous devez les faire pivoter, vous pouvez activer `PageOrientation` sur `ImageSaveOptions` avant l’enregistrement.
+
+## Prochaines étapes
+
+Maintenant que vous avez maîtrisé la **création d’une grille PNG**, envisagez ces idées complémentaires :
+
+- **Exporter en PDF :** Utilisez `SaveFormat.Pdf` avec les mêmes options de grille pour produire un aperçu PDF multi‑pages.  
+- **Traitement par lots :** Parcourez un dossier de fichiers Word et générez une grille PNG pour chacun, automatisant les vignettes de rapports.  
+- **Intégrer avec des API web :** Servez la grille PNG à la volée depuis un point de terminaison ASP.NET Core pour prévisualiser les documents dans un navigateur.  
+
+Toutes ces solutions reposent sur les mêmes concepts de base de **conversion de Word en image**, **définition de la résolution de l'image**, et **enregistrement du docx en PNG**.
+
+### Conclusion
+
+Vous disposez maintenant d’une méthode complète et prête pour la production afin de **créer une grille PNG** à partir de n’importe quel document Word multi‑pages. En chargeant le document, en configurant `ImageSaveOptions` pour une disposition en grille, et en enregistrant avec un seul appel, vous avez couvert tout, de la **conversion de Word en PNG** à la **définition de la résolution de l'image** et à **l'enregistrement du docx en PNG**.  
+
+Essayez, ajustez le nombre de colonnes, jouez avec le DPI, et voyez à quelle vitesse vous pouvez générer des feuilles d’aperçu à l’aspect professionnel. Bon codage !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

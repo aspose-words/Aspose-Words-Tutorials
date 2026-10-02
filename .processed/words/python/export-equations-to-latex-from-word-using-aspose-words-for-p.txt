@@ -1,0 +1,7 @@
+Title: Export equations to LaTeX from Word using Aspose.Words for Python
+Slug: export-equations-to-latex-from-word-using-aspose-words-for-p
+Category: document-conversion
+ProcessedDate: 2026-08-17T19:08:13.414638
+SourceRepo: AI Search API
+Keywords: export equations to latex, convert word equations latex
+PRNumber: 257

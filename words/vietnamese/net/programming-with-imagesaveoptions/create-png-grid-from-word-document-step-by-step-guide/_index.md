@@ -1,25 +1,24 @@
 ---
 category: general
-date: 2026-03-06
-description: Tạo lưới PNG từ tệp Word đa trang. Tìm hiểu cách chuyển đổi Word sang
-  PNG, lưu docx dưới dạng PNG, xuất tất cả các trang dưới dạng PNG và tạo PNG độ phân
-  giải cao trong C#.
+date: 2026-01-14
+description: Tạo lưới PNG từ tệp Word trong C#. Chuyển đổi Word sang PNG, đặt độ phân
+  giải hình ảnh và lưu docx dưới dạng PNG bằng Aspose.Words.
 draft: false
 keywords:
 - create png grid
 - convert word to png
+- set image resolution
+- convert word to image
 - save docx as png
-- export all pages png
-- generate high resolution png
 language: vi
-og_description: Tạo lưới PNG từ tài liệu Word trong C#. Hướng dẫn này chỉ cách chuyển
-  đổi Word sang PNG, lưu file docx dưới dạng PNG, xuất tất cả các trang dưới dạng
-  PNG và tạo PNG độ phân giải cao.
-og_title: Tạo lưới PNG từ Word – Hướng dẫn C# hoàn chỉnh
+og_description: Tạo lưới PNG từ tệp Word bằng Aspose.Words. Tìm hiểu cách chuyển Word
+  sang PNG, thiết lập độ phân giải hình ảnh và lưu docx dưới dạng PNG trong một bước
+  duy nhất.
+og_title: Tạo lưới PNG từ tài liệu Word – Hướng dẫn C# đầy đủ
 tags:
 - Aspose.Words
 - C#
-- ImageExport
+- Image Processing
 title: Tạo lưới PNG từ tài liệu Word – Hướng dẫn từng bước
 url: /vi/net/programming-with-imagesaveoptions/create-png-grid-from-word-document-step-by-step-guide/
 ---
@@ -28,180 +27,174 @@ url: /vi/net/programming-with-imagesaveoptions/create-png-grid-from-word-documen
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo lưới PNG từ tài liệu Word – Hướng dẫn C# đầy đủ
+# Tạo Lưới PNG từ Tài Liệu Word – Hướng Dẫn C# Đầy Đủ
 
-Bạn đã bao giờ cần **tạo lưới png** từ một tệp Word đa trang nhưng không biết bắt đầu từ đâu? Bạn không phải là người duy nhất—các nhà phát triển thường hỏi cách *chuyển đổi word sang png* mà không phải tự viết một rasterizer. Trong hướng dẫn này, chúng ta sẽ đi qua một giải pháp sạch sẽ, độ phân giải cao, **xuất tất cả các trang dưới dạng png** vào một hình ảnh duy nhất được sắp xếp dạng lưới. Khi hoàn thành, bạn sẽ biết chính xác cách *lưu docx dưới dạng png* và *tạo png độ phân giải cao* chỉ với vài dòng C#.
+Bạn đã bao giờ cần **tạo lưới png** từ một tệp Word đa trang và tự hỏi làm sao mà không phải ghép các hình ảnh lại với nhau thủ công? Bạn không phải là người duy nhất. Trong nhiều trường hợp báo cáo hoặc lưu trữ, bạn có một file .docx dài và muốn có một hình ảnh duy nhất hiển thị nhiều trang cùng lúc — như một tấm hình thu nhỏ hoặc bản xem trước nhanh.  
 
-Chúng ta sẽ bao phủ mọi thứ bạn cần: gói NuGet bắt buộc, hướng dẫn từng bước qua mã, và một vài mẹo thực tế để xử lý tài liệu lớn. Không cần công cụ bên ngoài, không cần dòng lệnh phức tạp—chỉ cần mã .NET thuần túy chạy ở bất kỳ nơi nào Aspose.Words được hỗ trợ. Có báo cáo 50 trang? Muốn có một hình thu nhỏ duy nhất để hiển thị trước? Hướng dẫn này sẽ đáp ứng nhu cầu của bạn.
+Trong hướng dẫn này, chúng ta sẽ đi qua đoạn mã chính xác bạn cần để **chuyển đổi word sang png**, sắp xếp các trang thành lưới, và thậm chí **đặt độ phân giải ảnh** để kết quả sắc nét. Khi hoàn thành, bạn sẽ biết cách **lưu docx dưới dạng png** trong một thao tác liền mạch bằng Aspose.Words for .NET.
 
-## Yêu cầu trước
+## Những Điều Bạn Sẽ Học
 
-Trước khi bắt đầu, hãy chắc chắn bạn có:
+- Cách tải tài liệu Word từ đĩa.  
+- Những thuộc tính của `ImageSaveOptions` giúp **tạo lưới png** trở nên khả thi.  
+- Cách kiểm soát DPI với tùy chọn **đặt độ phân giải ảnh**.  
+- Một đoạn mã C# hoàn chỉnh, sẵn sàng chạy, **chuyển đổi word sang ảnh** và tạo ra một tệp PNG duy nhất.  
+- Mẹo điều chỉnh cột, hàng và xử lý các trường hợp đặc biệt.
 
-* .NET 6.0 hoặc mới hơn (API hoạt động với .NET Core, .NET Framework, và .NET 5+)
-* Visual Studio 2022 (hoặc bất kỳ IDE nào bạn thích)
-* Giấy phép Aspose.Words for .NET (bản dùng thử miễn phí đủ cho việc thử nghiệm)
-* Một tài liệu Word đa trang (`MultiPage.docx`) mà bạn muốn chuyển thành **lưới png**
+Không cần công cụ bên ngoài, không có tệp trung gian — chỉ cần mã C# thuần túy.
 
-Nếu có bất kỳ mục nào chưa quen, chỉ cần cài đặt gói NuGet và bạn đã sẵn sàng:
+## Yêu Cầu Trước
 
-```bash
-dotnet add package Aspose.Words
-```
+- .NET 6+ (hoặc .NET Framework 4.7+).  
+- Aspose.Words for .NET đã được cài đặt (`Install-Package Aspose.Words`).  
+- Một tài liệu Word đa trang (`input.docx`) mà bạn muốn chuyển thành lưới.  
 
-Xong—không cần phụ thuộc thêm.
+Đó là tất cả. Nếu bạn đã có những thứ trên, hãy bắt đầu.
 
-## Bước 1 – Tải tài liệu Word
+## Bước 1: Tải Tài Liệu Word (convert word to image)
 
-Đầu tiên chúng ta cần đưa file *.docx* vào bộ nhớ. Lớp `Document` thực hiện toàn bộ công việc nặng, phân tích tệp và cung cấp thông tin trang mà chúng ta sẽ dùng để xuất hình ảnh.
+Điều đầu tiên bạn cần làm là đưa .docx vào bộ nhớ. Lớp `Document` của Aspose.Words thực hiện việc này một cách dễ dàng.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-// Load the source Word file (adjust the path to your environment)
-Document document = new Document(@"C:\Docs\MultiPage.docx");
-
-// Quick sanity check – how many pages are we dealing with?
-int totalPages = document.PageCount;
-Console.WriteLine($"Document contains {totalPages} pages.");
+// Load the source Word file.
+// Replace "YOUR_DIRECTORY/input.docx" with the actual path to your document.
+Document document = new Document("YOUR_DIRECTORY/input.docx");
 ```
 
-*Tại sao lại quan trọng:* Biết số trang cho phép chúng ta thiết lập `PageSet` đúng cách để **xuất tất cả các trang dưới dạng png** mà không bỏ sót trang cuối cùng. Ngoài ra, một dòng console nhanh là cách kiểm tra sanity hữu ích trong quá trình debug.
+*Lý do quan trọng:* Việc tải tài liệu là nền tảng cho bất kỳ thao tác **chuyển đổi word sang png** nào. Nếu không có tài liệu, thư viện sẽ không có gì để render.
 
-## Bước 2 – Cấu hình ImageSaveOptions cho bố cục lưới
+## Bước 2: Cấu Hình ImageSaveOptions – Trái Tim của **tạo lưới png**
 
-Aspose.Words có thể render mỗi trang thành một hình ảnh riêng, nhưng chúng ta muốn hiệu ứng **tạo lưới png**—giống như một contact sheet nơi mỗi trang nằm cạnh nhau. Lớp `ImageSaveOptions` cho phép chúng ta kiểm soát toàn bộ bố cục, độ phân giải, và các trang cần xuất.
+`ImageSaveOptions` cho phép bạn chỉ định cho Aspose cách bạn muốn tệp PNG đầu ra trông như thế nào. Đặt `PageLayout` thành `Grid` sẽ tự động sắp xếp mỗi trang trong một ma trận.
 
 ```csharp
-// Prepare the options that tell Aspose how to render the PNG
-ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png)
+// Create PNG save options and enable grid layout.
+ImageSaveOptions pngOptions = new ImageSaveOptions(SaveFormat.Png)
 {
-    // 0 means “all pages” – perfect for export all pages png
-    PageCount = 0,
+    // Grid layout (rows × columns) – this is what makes the PNG grid.
+    PageLayout = ImageSaveOptions.PageLayout.Grid,
 
-    // Explicitly include the full range (1‑based indexing)
-    PageSet = new PageSet(1, document.PageCount),
+    // Number of columns in the grid. Adjust to fit your document length.
+    PageColumns = 3,
 
-    // Grid layout arranges pages in rows & columns automatically
-    Layout = ImageSaveOptions.ImageLayout.Grid,
-
-    // High resolution ensures the final image isn’t blurry
-    HorizontalResolution = 300, // DPI
-    VerticalResolution   = 300  // DPI
+    // DPI setting – this is where we **set image resolution**.
+    Resolution = 200
 };
 ```
 
-*Tại sao chúng ta đặt các giá trị này:*
+*Lý do quan trọng:* Cờ `PageLayout = Grid` là bí quyết cho **tạo lưới png**. Thay đổi `PageColumns` sẽ thay đổi độ rộng của lưới, trong khi `Resolution` kiểm soát độ nét của mỗi trang.
 
-* `PageCount = 0` kết hợp với `PageSet` báo cho thư viện **chuyển đổi word sang png** cho mọi trang, không chỉ trang đầu.
-* `Layout = Grid` là chìa khóa để **tạo lưới png**—các tùy chọn khác như `Horizontal` hoặc `Vertical` sẽ cho ra một dải dài, hiếm khi phù hợp cho chế độ xem trước.
-* 300 DPI là mức cân bằng tốt để **tạo png độ phân giải cao** trông sắc nét trên màn hình retina đồng thời giữ kích thước file ở mức hợp lý.
+## Bước 3: Lưu Tài Liệu dưới Dạng PNG Đơn (save docx as png)
 
-## Bước 3 – Lưu hình ảnh kết hợp
-
-Bây giờ công việc nặng sẽ diễn ra phía sau. Aspose render mỗi trang, ghép chúng lại theo bố cục lưới, và ghi kết quả ra đĩa.
+Khi các tùy chọn đã sẵn sàng, bạn chỉ cần gọi `Save`. Aspose sẽ thực hiện toàn bộ công việc nặng và ghi ra một PNG chứa mọi trang.
 
 ```csharp
-string outputPath = @"C:\Docs\AllPages.png";
-document.Save(outputPath, saveOptions);
-Console.WriteLine($"PNG grid saved to {outputPath}");
+// Save the document as a single PNG file that contains the whole grid.
+document.Save("YOUR_DIRECTORY/output.png", pngOptions);
 ```
 
-Khi chương trình kết thúc, mở `AllPages.png` và bạn sẽ thấy một hình ảnh duy nhất chứa mọi trang của tài liệu Word gốc, được xếp gọn gàng. Đây là kết quả cuối cùng của thao tác **tạo lưới png** của chúng ta.
+*Kết quả:* `output.png` sẽ là một hình ảnh duy nhất, trong đó ba trang đầu tiên nằm cạnh nhau, ba trang tiếp theo trên hàng thứ hai, và cứ thế—đúng như **tạo lưới png** mà bạn mong muốn.
 
-![Tạo lưới PNG output](https://example.com/images/png-grid-output.png "Ảnh chụp màn hình hiển thị lưới PNG đã tạo – tạo lưới png")
+## Ví Dụ Hoàn Chỉnh
 
-*Mẹo:* Nếu bạn cần số cột cụ thể, điều chỉnh `saveOptions.GridColumns`. Mặc định sẽ tự cân bằng số hàng và cột dựa trên số trang.
-
-## Bước 4 – Xác minh kết quả (Tùy chọn nhưng Được khuyến nghị)
-
-Một kiểm tra nhanh bằng mắt hoặc chương trình có thể tiết kiệm hàng giờ sau này. Dưới đây là cách tối thiểu để xác nhận file tồn tại và kích thước khớp với mong đợi:
+Dưới đây là chương trình đầy đủ mà bạn có thể sao chép‑dán vào một ứng dụng console. Nó bao gồm tất cả các câu lệnh `using` cần thiết, chú thích, và xử lý lỗi để trải nghiệm mượt mà.
 
 ```csharp
-using System.Drawing;
+using System;
+using Aspose.Words;
+using Aspose.Words.Saving;
 
-// Load the generated PNG
-using (Bitmap bitmap = new Bitmap(outputPath))
+namespace WordToPngGrid
 {
-    Console.WriteLine($"Grid dimensions: {bitmap.Width}x{bitmap.Height} pixels");
-    Console.WriteLine($"Resolution: {bitmap.HorizontalResolution} DPI");
-}
-```
-
-Nếu kích thước trông không đúng, hãy xem lại `HorizontalResolution` / `VerticalResolution` hoặc thử nghiệm với `GridColumns`. Hãy nhớ, các ảnh **tạo png độ phân giải cao** có thể tiêu tốn nhiều bộ nhớ cho tài liệu rất lớn, vì vậy cân nhắc streaming hoặc xử lý theo khối nếu gặp lỗi hết bộ nhớ.
-
-## Câu hỏi thường gặp & Trường hợp đặc biệt
-
-### Nếu tôi chỉ cần 5 trang đầu tiên thì sao?
-
-Chỉ cần thay đổi `PageSet`:
-
-```csharp
-saveOptions.PageSet = new PageSet(1, 5);
-```
-
-Phần còn lại của quy trình vẫn giữ nguyên, và bạn vẫn nhận được một **lưới png**—chỉ là nhỏ hơn.
-
-### Tôi có thể thay đổi màu nền không?
-
-Có, `ImageSaveOptions` cung cấp thuộc tính `BackgroundColor`:
-
-```csharp
-saveOptions.BackgroundColor = Color.White; // defaults to white, but you can pick any System.Drawing.Color
-```
-
-### Làm sao xử lý tài liệu có cả chế độ dọc và ngang?
-
-Bố cục lưới tự động tôn trọng kích thước từng trang, nhưng bạn có thể muốn một canvas đồng nhất. Đặt `saveOptions.PageSize` thành kích thước cố định trước khi lưu:
-
-```csharp
-saveOptions.PageSize = new SizeF(8.5f, 11f); // inches, for portrait
-```
-
-### Mã có an toàn khi chạy đa luồng không?
-
-Các đối tượng `Document` **không** an toàn cho việc ghi đồng thời, nhưng bạn có thể tạo các đối tượng `Document` riêng cho mỗi luồng. Điều này có nghĩa là bạn có thể tạo nhiều lưới PNG song song nếu đang xử lý một loạt tệp.
-
-## Mẹo chuyên nghiệp cho môi trường sản xuất
-
-* **License early:** Nếu bạn đang dùng giấy phép thử, PNG được tạo sẽ có watermark. Đăng ký giấy phép trước khi gọi constructor `Document` để tránh.
-* **Memory management:** Đối với tài liệu trên 100 trang, cân nhắc giải phóng các bitmap trung gian hoặc dùng `SaveOptions` với `UseMemoryCache = true`.
-* **File naming:** Bao gồm tên tệp nguồn và dấu thời gian để tránh ghi đè lên các lưới đã tồn tại:
-
-```csharp
-string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
-string outputPath = $@"C:\Docs\{Path.GetFileNameWithoutExtension(inputPath)}_{timestamp}.png";
-```
-
-* **Automation:** Đóng gói toàn bộ luồng thành một phương thức tái sử dụng:
-
-```csharp
-public static void ExportWordToPngGrid(string docxPath, string pngPath, int dpi = 300, int columns = 0)
-{
-    Document doc = new Document(docxPath);
-    ImageSaveOptions opts = new ImageSaveOptions(SaveFormat.Png)
+    class Program
     {
-        PageCount = 0,
-        PageSet = new PageSet(1, doc.PageCount),
-        Layout = ImageSaveOptions.ImageLayout.Grid,
-        HorizontalResolution = dpi,
-        VerticalResolution = dpi,
-        GridColumns = columns // 0 = auto
-    };
-    doc.Save(pngPath, opts);
+        static void Main(string[] args)
+        {
+            try
+            {
+                // 1️⃣ Load the Word document (convert word to image)
+                string inputPath = "YOUR_DIRECTORY/input.docx";
+                Document doc = new Document(inputPath);
+                Console.WriteLine($"Loaded document: {inputPath}");
+
+                // 2️⃣ Set up PNG save options – this is the core of create png grid
+                ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
+                {
+                    PageLayout = ImageSaveOptions.PageLayout.Grid, // Grid layout
+                    PageColumns = 3,                               // 3 columns in the grid
+                    Resolution = 200                               // 200 DPI – set image resolution
+                };
+                Console.WriteLine("Configured ImageSaveOptions for PNG grid.");
+
+                // 3️⃣ Save as a single PNG (save docx as png)
+                string outputPath = "YOUR_DIRECTORY/output.png";
+                doc.Save(outputPath, options);
+                Console.WriteLine($"Successfully created PNG grid at: {outputPath}");
+            }
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
 }
 ```
 
-Bây giờ bạn có thể gọi `ExportWordToPngGrid(@"C:\Docs\Report.docx", @"C:\Out\Report.png");` từ bất kỳ phần nào của ứng dụng.
+### Kết Quả Dự Kiến
 
-## Kết luận
+Chạy chương trình sẽ tạo ra **output.png** tương tự như hình minh họa dưới đây (hình ảnh thực tế phụ thuộc vào tài liệu nguồn của bạn).
 
-Chúng ta vừa đi qua một cách hoàn chỉnh, sẵn sàng cho môi trường sản xuất để **tạo lưới png** từ tài liệu Word bằng Aspose.Words for .NET. Các bước—tải tài liệu, cấu hình `ImageSaveOptions` cho bố cục lưới, và lưu hình ảnh kết hợp—đã bao quát cốt lõi của *chuyển đổi word sang png*, *lưu docx dưới dạng png*, *xuất tất cả các trang dưới dạng png*, và *tạo png độ phân giải cao* trong một luồng thống nhất.
+![ví dụ tạo lưới png](image.png "kết quả tạo lưới png")
 
-Hãy thử với các báo cáo, hoá đơn, hoặc ebook của bạn. Thử nghiệm số cột, cài đặt DPI, hoặc màu nền để phù hợp với giao diện người dùng. Khi đã sẵn sàng, bạn thậm chí có thể mở rộng phương thức trợ giúp để nhận danh sách tệp và xử lý hàng loạt cho hệ thống quản lý tài liệu.
+Tệp này chứa tất cả các trang được sắp xếp trong lưới 3 cột, mỗi trang được render ở 200 DPI, mang lại bản xem trước rõ nét, độ phân giải cao.
 
-Có thêm câu hỏi về xuất ảnh, giấy phép, hoặc mẹo tối ưu hiệu năng? Để lại bình luận bên dưới hoặc xem tài liệu chính thức của Aspose để tìm hiểu sâu hơn. Chúc lập trình vui vẻ, và tận hưởng những lưới PNG sắc nét!
+## Tóm Tắt Các Bước (Tại Sao Mỗi Thành Phần Quan Trọng)
+
+| Bước | Những Gì Chúng Ta Đã Thực Hiện | Lý Do Giúp Đạt Mục Tiêu **tạo lưới png** |
+|------|-------------------------------|-------------------------------------------|
+| 1️⃣ | Đã tải .docx bằng `Document` | Cung cấp các trang nguồn cho quy trình **chuyển đổi word sang ảnh**. |
+| 2️⃣ | Đã cấu hình `ImageSaveOptions` (lưới, cột, DPI) | `PageLayout = Grid` là chìa khóa cho **tạo lưới png**; `Resolution` đảm bảo **đặt độ phân giải ảnh** mà bạn cần. |
+| 3️⃣ | Đã lưu bằng `doc.Save` thành một tệp PNG duy nhất | Lệnh duy nhất này **lưu docx dưới dạng png** đồng thời giữ nguyên bố cục lưới. |
+
+## Mẹo Chuyên Nghiệp & Các Trường Hợp Đặc Biệt
+
+- **Số cột khác nhau:** Nếu tài liệu của bạn có 10 trang và bạn đặt `PageColumns = 4`, Aspose sẽ tự động tạo đủ hàng (3 hàng, hàng cuối sẽ chỉ có 2 trang). Điều chỉnh tùy theo bố cục bạn muốn.  
+- **Xem xét bộ nhớ:** Các tài liệu rất lớn (hàng trăm trang) có thể tiêu tốn RAM đáng kể khi render ở DPI cao. Nếu gặp `OutOfMemoryException`, giảm `Resolution` xuống 150 DPI hoặc xử lý tài liệu theo từng lô.  
+- **Định dạng ảnh khác:** Muốn JPEG thay vì PNG? Chỉ cần đổi `SaveFormat.Png` thành `SaveFormat.Jpeg` và tùy chọn `JpegQuality` trên đối tượng options.  
+- **Độ trong suốt:** PNG hỗ trợ kênh alpha. Nếu các trang Word chứa phần tử trong suốt, chúng sẽ được giữ nguyên trong lưới.  
+- **Đặt tên tệp:** Sử dụng timestamp hoặc GUID trong tên tệp đầu ra nếu bạn tạo lưới trong vòng lặp để tránh ghi đè.
+
+## Câu Hỏi Thường Gặp
+
+**Hỏi: Tôi có thể tạo lưới với số hàng và cột khác nhau không?**  
+Đáp: Thuộc tính `PageColumns` xác định số cột; số hàng được tính tự động dựa trên tổng số trang. Nếu bạn cần số hàng cố định, bạn phải tự tính số cột (`columns = Math.Ceiling(pageCount / rows)`).
+
+**Hỏi: Điều này có hoạt động với tệp .doc hay .rtf không?**  
+Đáp: Hoàn toàn có. Aspose.Words có thể tải `.doc`, `.rtf`, `.odt`, và nhiều định dạng khác. Quy trình **chuyển đổi word sang png** vẫn áp dụng.
+
+**Hỏi: Nếu tôi muốn lưới chỉ hiển thị dọc (không xoay) thì sao?**  
+Đáp: Các trang được render theo hướng ban đầu. Nếu bạn cần xoay chúng, có thể bật `PageOrientation` trên `ImageSaveOptions` trước khi lưu.
+
+## Bước Tiếp Theo
+
+Bây giờ bạn đã thành thạo cách **tạo lưới png**, hãy cân nhắc các ý tưởng tiếp theo:
+
+- **Xuất ra PDF:** Dùng `SaveFormat.Pdf` cùng các tùy chọn lưới để tạo bản preview PDF đa trang.  
+- **Xử lý hàng loạt:** Duyệt qua một thư mục các file Word và tạo lưới PNG cho mỗi file, tự động hoá thumbnail báo cáo.  
+- **Tích hợp với API web:** Phục vụ lưới PNG ngay lập tức từ endpoint ASP.NET Core để preview tài liệu trong trình duyệt.  
+
+Tất cả những việc này đều dựa trên các khái niệm cốt lõi của **chuyển đổi word sang ảnh**, **đặt độ phân giải ảnh**, và **lưu docx dưới dạng png**.
+
+---
+
+### Kết Luận
+
+Bạn đã có một phương pháp hoàn chỉnh, sẵn sàng cho môi trường sản xuất để **tạo lưới png** từ bất kỳ tài liệu Word đa trang nào. Bằng cách tải tài liệu, cấu hình `ImageSaveOptions` cho bố cục lưới, và lưu bằng một lệnh duy nhất, bạn đã bao quát mọi khía cạnh từ **chuyển đổi word sang png** đến **đặt độ phân giải ảnh** và **lưu docx dưới dạng png**.  
+
+Hãy thử, điều chỉnh số cột, thay đổi DPI, và xem nhanh chóng bạn có thể tạo ra những tấm preview chuyên nghiệp như thế nào. Chúc bạn lập trình vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,0 +1,7 @@
+Title: Create blank word document with grouped rectangles – C# guide
+Slug: create-blank-word-document-with-grouped-rectangles-c-guide
+Category: images-shapes
+ProcessedDate: 2026-07-23T10:44:07.888601
+SourceRepo: AI Search API
+Keywords: create blank word document, add rectangle shape, group shapes word, how to insert shapes, how to group shapes
+PRNumber: 232

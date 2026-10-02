@@ -1,26 +1,25 @@
 ---
 category: general
-date: 2026-03-06
-description: Maak een PNG‑raster van een meerpagina‑Word‑bestand. Leer hoe je Word
-  naar PNG converteert, docx opslaat als PNG, alle pagina’s exporteert als PNG en
-  een hoge resolutie PNG genereert in C#.
+date: 2026-01-14
+description: Maak een PNG‑raster van een Word‑bestand in C#. Converteer Word naar
+  PNG, stel de beeldresolutie in en sla docx op als PNG met Aspose.Words.
 draft: false
 keywords:
 - create png grid
 - convert word to png
+- set image resolution
+- convert word to image
 - save docx as png
-- export all pages png
-- generate high resolution png
 language: nl
-og_description: Maak een PNG-raster van een Word-document in C#. Deze gids laat zien
-  hoe je Word naar PNG converteert, een docx opslaat als PNG, alle pagina's exporteert
-  als PNG en een PNG met hoge resolutie genereert.
-og_title: Maak PNG-raster vanuit Word – Complete C#-handleiding
+og_description: Maak een PNG‑raster van een Word‑bestand met Aspose.Words. Leer hoe
+  je Word naar PNG converteert, de beeldresolutie instelt en een docx in één stap
+  als PNG opslaat.
+og_title: Maak PNG-raster van Word-document – Complete C#-handleiding
 tags:
 - Aspose.Words
 - C#
-- ImageExport
-title: Maak PNG‑rooster van Word‑document – Stapsgewijze handleiding
+- Image Processing
+title: Maak PNG‑raster van Word‑document – Stapsgewijze handleiding
 url: /nl/net/programming-with-imagesaveoptions/create-png-grid-from-word-document-step-by-step-guide/
 ---
 
@@ -28,176 +27,172 @@ url: /nl/net/programming-with-imagesaveoptions/create-png-grid-from-word-documen
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Maak PNG‑rooster van Word‑document – Complete C#‑tutorial
+# Maak PNG‑raster van Word‑document – Complete C#‑handleiding
 
-Heb je ooit een **create png grid** nodig gehad van een meer‑pagina Word‑bestand maar wist je niet waar te beginnen? Je bent niet de enige—ontwikkelaars vragen vaak hoe ze *convert word to png* kunnen doen zonder een eigen rasterizer te schrijven. In deze tutorial lopen we een schone, hoge‑resolutie‑oplossing door die **exports all pages png** naar één afbeelding in een raster. Aan het einde weet je precies hoe je *save docx as png* en *generate high resolution png* kunt uitvoeren met slechts een paar regels C#.
+Heb je ooit een **create png grid** nodig gehad van een meer‑pagina Word‑bestand en je afgevraagd hoe je dit kunt doen zonder afbeeldingen handmatig aan elkaar te plakken? Je bent niet de enige. In veel rapportage‑ of archiveringsscenario's heb je een lang .docx‑bestand en wil je één afbeelding die meerdere pagina's tegelijk toont—denk aan een miniatuurblad of een snelle preview.  
 
-We behandelen alles wat je nodig hebt: het vereiste NuGet‑pakket, een stap‑voor‑stap code‑uitleg, en een paar praktische tips voor het verwerken van grote documenten. Geen externe tools, geen command‑line acrobatiek—alleen pure .NET‑code die overal werkt waar Aspose.Words wordt ondersteund. Heb je een rapport van 50 pagina's? Wil je het als één thumbnail voor een voorbeeldpaneel? Deze gids heeft alles wat je nodig hebt.
+In deze gids lopen we stap voor stap door de exacte code die je nodig hebt om **convert word to png** uit te voeren, de pagina's in een raster te rangschikken, en zelfs **set image resolution** in te stellen zodat het resultaat scherp uitziet. Aan het einde weet je hoe je **save docx as png** kunt doen in één soepele bewerking met Aspose.Words voor .NET.
+
+## Wat je zult leren
+
+- Hoe je een Word‑document van de schijf laadt.  
+- Welke `ImageSaveOptions`‑eigenschappen een **create png grid** mogelijk maken.  
+- Hoe je DPI kunt regelen met de **set image resolution**‑optie.  
+- Een compleet, kant‑klaar C#‑fragment dat **convert word to image** uitvoert en één PNG‑bestand produceert.  
+- Tips voor het aanpassen van kolommen, rijen en het afhandelen van randgevallen.
+
+Geen externe tools, geen tussenbestanden—alleen pure C#‑code.
 
 ## Vereisten
 
-* .NET 6.0 of later (de API werkt met .NET Core, .NET Framework en .NET 5+)
-* Visual Studio 2022 (of elke IDE die je wilt)
-* Een Aspose.Words for .NET‑licentie (een gratis proefversie werkt voor testen)
-* Een meer‑pagina Word‑document (`MultiPage.docx`) dat je wilt omzetten naar een **png grid**
+- .NET 6+ (of .NET Framework 4.7+).  
+- Aspose.Words for .NET geïnstalleerd (`Install-Package Aspose.Words`).  
+- Een meer‑pagina Word‑document (`input.docx`) dat je wilt omzetten naar een raster.  
 
-Als een van deze onbekend klinkt, installeer dan gewoon het NuGet‑pakket en je bent klaar om te gaan:
+Dat is alles. Als je die hebt, laten we erin duiken.
 
-```bash
-dotnet add package Aspose.Words
-```
+## Stap 1: Laad het Word‑document (convert word to image)
 
-Dat is alles—geen extra afhankelijkheden.
-
-## Stap 1 – Laad het Word‑document
-
-Eerst moeten we de *.docx* in het geheugen laden. De `Document`‑klasse doet al het zware werk, parseert het bestand en geeft paginainformatie vrij die we later aan de afbeeldingsexporter zullen doorgeven.
+Het eerste wat je moet doen is het .docx‑bestand in het geheugen laden. De `Document`‑klasse van Aspose.Words handelt dit moeiteloos af.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-// Load the source Word file (adjust the path to your environment)
-Document document = new Document(@"C:\Docs\MultiPage.docx");
-
-// Quick sanity check – how many pages are we dealing with?
-int totalPages = document.PageCount;
-Console.WriteLine($"Document contains {totalPages} pages.");
+// Load the source Word file.
+// Replace "YOUR_DIRECTORY/input.docx" with the actual path to your document.
+Document document = new Document("YOUR_DIRECTORY/input.docx");
 ```
 
-*Waarom dit belangrijk is:* Het weten van het aantal pagina's stelt ons in staat `PageSet` correct in te stellen zodat **export all pages png** zonder de laatste pagina te missen. Bovendien is een snelle console‑output een handige sanity‑check tijdens het debuggen.
+*Waarom dit belangrijk is:* Het laden van het document is de basis voor elke **convert word to png**‑operatie. Zonder dit heeft de bibliotheek niets om te renderen.
 
-## Stap 2 – Configureer ImageSaveOptions voor een raster‑lay-out
+## Stap 2: Configureer ImageSaveOptions – het hart van **create png grid**
 
-Aspose.Words kan elke pagina renderen als een afzonderlijke afbeelding, maar we willen een **create png grid**‑effect—denk aan een contactblad waarbij elke pagina naast zijn buren staat. De `ImageSaveOptions`‑klasse geeft ons volledige controle over lay-out, resolutie en welke pagina's moeten worden opgenomen.
+`ImageSaveOptions` stelt je in staat Aspose precies te vertellen hoe je de uitvoer‑PNG wilt hebben. Het instellen van `PageLayout` op `Grid` rangschikt automatisch elke pagina in een matrix.
 
 ```csharp
-// Prepare the options that tell Aspose how to render the PNG
-ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png)
+// Create PNG save options and enable grid layout.
+ImageSaveOptions pngOptions = new ImageSaveOptions(SaveFormat.Png)
 {
-    // 0 means “all pages” – perfect for export all pages png
-    PageCount = 0,
+    // Grid layout (rows × columns) – this is what makes the PNG grid.
+    PageLayout = ImageSaveOptions.PageLayout.Grid,
 
-    // Explicitly include the full range (1‑based indexing)
-    PageSet = new PageSet(1, document.PageCount),
+    // Number of columns in the grid. Adjust to fit your document length.
+    PageColumns = 3,
 
-    // Grid layout arranges pages in rows & columns automatically
-    Layout = ImageSaveOptions.ImageLayout.Grid,
-
-    // High resolution ensures the final image isn’t blurry
-    HorizontalResolution = 300, // DPI
-    VerticalResolution   = 300  // DPI
+    // DPI setting – this is where we **set image resolution**.
+    Resolution = 200
 };
 ```
 
-*Waarom we deze waarden instellen:*
+*Waarom dit belangrijk is:* De vlag `PageLayout = Grid` is de geheime saus voor **create png grid**. Het wijzigen van `PageColumns` verandert de breedte van het raster, terwijl `Resolution` bepaalt hoe scherp elke pagina verschijnt.
 
-* `PageCount = 0` samen met `PageSet` vertelt de bibliotheek **convert word to png** voor elke pagina, niet alleen de eerste.
-* `Layout = Grid` is de sleutel tot **create png grid**—andere opties zoals `Horizontal` of `Vertical` zouden een lange strook opleveren, wat zelden is wat je nodig hebt voor een preview.
-* 300 DPI is een goed compromis voor een **generate high resolution png** die er scherp uitziet op retina‑schermen terwijl de bestandsgrootte redelijk blijft.
+## Stap 3: Sla het document op als één PNG (save docx as png)
 
-## Stap 3 – Sla de gecombineerde afbeelding op
-
-Nu gebeurt het zware werk achter de schermen. Aspose rendert elke pagina, voegt ze samen volgens de raster‑lay-out en schrijft het resultaat naar schijf.
+Nu de opties klaar zijn, roep je simpelweg `Save` aan. Aspose doet al het zware werk en schrijft één PNG die elke pagina bevat.
 
 ```csharp
-string outputPath = @"C:\Docs\AllPages.png";
-document.Save(outputPath, saveOptions);
-Console.WriteLine($"PNG grid saved to {outputPath}");
+// Save the document as a single PNG file that contains the whole grid.
+document.Save("YOUR_DIRECTORY/output.png", pngOptions);
 ```
 
-Wanneer het programma voltooid is, open `AllPages.png` en je ziet één afbeelding die elke pagina van je oorspronkelijke Word‑document netjes naast elkaar toont. Dit is het eindresultaat van onze **create png grid**‑operatie.
+*Resultaat:* `output.png` zal een enkele afbeelding zijn waarin de eerste drie pagina's naast elkaar staan, de volgende drie op de tweede rij, enzovoort—precies het **create png grid** dat je vroeg.
 
-![PNG‑rooster uitvoer](https://example.com/images/png-grid-output.png "Screenshot die het gegenereerde PNG‑rooster toont – create png grid")
+## Volledig werkend voorbeeld
 
-*Tip:* Als je een specifiek aantal kolommen nodig hebt, pas `saveOptions.GridColumns` aan. De standaardwaarde balanceert automatisch rijen en kolommen op basis van het aantal pagina's.
-
-## Stap 4 – Verifieer de uitvoer (optioneel maar aanbevolen)
-
-Een snelle visuele of programmatische controle kan je later uren besparen. Hier is een minimale manier om te bevestigen dat het bestand bestaat en de afmetingen aan de verwachtingen voldoen:
+Hieronder staat het volledige programma dat je kunt kopiëren en plakken in een console‑applicatie. Het bevat alle benodigde `using`‑statements, commentaren en foutafhandeling voor een soepele ervaring.
 
 ```csharp
-using System.Drawing;
+using System;
+using Aspose.Words;
+using Aspose.Words.Saving;
 
-// Load the generated PNG
-using (Bitmap bitmap = new Bitmap(outputPath))
+namespace WordToPngGrid
 {
-    Console.WriteLine($"Grid dimensions: {bitmap.Width}x{bitmap.Height} pixels");
-    Console.WriteLine($"Resolution: {bitmap.HorizontalResolution} DPI");
-}
-```
-
-Als de afmetingen er niet goed uitzien, bekijk `HorizontalResolution` / `VerticalResolution` opnieuw of experimenteer met `GridColumns`. Onthoud dat **generate high resolution png**‑afbeeldingen veel geheugen kunnen verbruiken voor zeer grote documenten, dus overweeg streaming of verwerking in delen als je out‑of‑memory‑fouten krijgt.
-
-## Veelgestelde vragen & randgevallen
-
-### Wat als ik alleen de eerste 5 pagina's nodig heb?
-
-Verander simpelweg de `PageSet`:
-
-```csharp
-saveOptions.PageSet = new PageSet(1, 5);
-```
-
-De rest van de pijplijn blijft hetzelfde, en je krijgt nog steeds een **png grid**—maar dan een kleinere.
-
-### Kan ik de achtergrondkleur wijzigen?
-
-Ja, `ImageSaveOptions` biedt een `BackgroundColor`‑eigenschap:
-
-```csharp
-saveOptions.BackgroundColor = Color.White; // defaults to white, but you can pick any System.Drawing.Color
-```
-
-### Hoe ga ik om met een document met gemengde oriëntaties (portret & landschap)?
-
-De raster‑lay-out respecteert automatisch de grootte van elke pagina, maar je wilt misschien een uniform canvas. Stel `saveOptions.PageSize` in op een vaste grootte vóór het opslaan:
-
-```csharp
-saveOptions.PageSize = new SizeF(8.5f, 11f); // inches, for portrait
-```
-
-### Is de code thread‑safe?
-
-`Document`‑instanties zijn **niet** thread‑safe voor gelijktijdige writes, maar je kunt veilig aparte `Document`‑objecten per thread maken. Dit betekent dat je meerdere PNG‑roosters parallel kunt genereren als je een batch bestanden verwerkt.
-
-## Pro‑tips voor productiegebruik
-
-* **Licentie vroegtijdig:** Als je een proeflicentie gebruikt, zal de gegenereerde PNG een watermerk bevatten. Registreer je licentie vóór de `Document`‑constructor om dit te voorkomen.
-* **Geheugenbeheer:** Voor documenten met meer dan 100 pagina's, overweeg het vrijgeven van tussenliggende bitmaps of gebruik `SaveOptions` met `UseMemoryCache = true`.
-* **Bestandsnaamgeving:** Voeg de bronbestandsnaam en een tijdstempel toe om het overschrijven van bestaande roosters te voorkomen:
-
-```csharp
-string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
-string outputPath = $@"C:\Docs\{Path.GetFileNameWithoutExtension(inputPath)}_{timestamp}.png";
-```
-
-* **Automatisering:** Wikkel de volledige stroom in een herbruikbare methode:
-
-```csharp
-public static void ExportWordToPngGrid(string docxPath, string pngPath, int dpi = 300, int columns = 0)
-{
-    Document doc = new Document(docxPath);
-    ImageSaveOptions opts = new ImageSaveOptions(SaveFormat.Png)
+    class Program
     {
-        PageCount = 0,
-        PageSet = new PageSet(1, doc.PageCount),
-        Layout = ImageSaveOptions.ImageLayout.Grid,
-        HorizontalResolution = dpi,
-        VerticalResolution = dpi,
-        GridColumns = columns // 0 = auto
-    };
-    doc.Save(pngPath, opts);
+        static void Main(string[] args)
+        {
+            try
+            {
+                // 1️⃣ Load the Word document (convert word to image)
+                string inputPath = "YOUR_DIRECTORY/input.docx";
+                Document doc = new Document(inputPath);
+                Console.WriteLine($"Loaded document: {inputPath}");
+
+                // 2️⃣ Set up PNG save options – this is the core of create png grid
+                ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
+                {
+                    PageLayout = ImageSaveOptions.PageLayout.Grid, // Grid layout
+                    PageColumns = 3,                               // 3 columns in the grid
+                    Resolution = 200                               // 200 DPI – set image resolution
+                };
+                Console.WriteLine("Configured ImageSaveOptions for PNG grid.");
+
+                // 3️⃣ Save as a single PNG (save docx as png)
+                string outputPath = "YOUR_DIRECTORY/output.png";
+                doc.Save(outputPath, options);
+                Console.WriteLine($"Successfully created PNG grid at: {outputPath}");
+            }
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
 }
 ```
 
-## Conclusie
+### Verwachte output
 
-We hebben zojuist een volledige, productie‑klare manier doorlopen om **create png grid** te maken van een Word‑document met Aspose.Words for .NET. De stappen—laad het document, configureer `ImageSaveOptions` voor een raster‑lay-out, en sla de gecombineerde afbeelding op—dekken de kern van *convert word to png*, *save docx as png*, *export all pages png* en *generate high resolution png* in één samenhangende flow.
+Het uitvoeren van het programma zal **output.png** produceren die lijkt op de illustratie hieronder (het daadwerkelijke uiterlijk hangt af van je bron‑document).
 
-Probeer het met je eigen rapporten, facturen of e‑books. Experimenteer met raster‑kolommen, DPI‑instellingen of achtergrondkleuren om aan je UI‑behoeften te voldoen. Wanneer je klaar bent, kun je de hulpfunctie zelfs uitbreiden om een lijst met bestanden te accepteren en ze in batch te verwerken voor een document‑managementsysteem.
+![create png grid example](image.png "create png grid output")
 
-Heb je meer vragen over afbeeldingsexport, licenties of prestatie‑trucs? Laat een reactie achter hieronder of bekijk de officiële documentatie van Aspose voor meer verdieping. Veel plezier met coderen, en geniet van die scherpe PNG‑roosters!
+Het bestand bevat alle pagina's gerangschikt in een raster van 3 kolommen, elk gerenderd op 200 DPI, waardoor je een duidelijke, hoge‑resolutie preview krijgt.
+
+## Stapsgewijze samenvatting (Waarom elk onderdeel belangrijk is)
+
+| Stap | Wat we deden | Waarom dit helpt bij het **create png grid**‑doel |
+|------|--------------|-----------------------------------------------|
+| 1️⃣ | Laadde het .docx met `Document` | Biedt de bronpagina's voor het **convert word to image**‑proces. |
+| 2️⃣ | Configureerde `ImageSaveOptions` (raster, kolommen, DPI) | `PageLayout = Grid` is de sleutel tot **create png grid**; `Resolution` zorgt voor de **set image resolution** die je nodig hebt. |
+| 3️⃣ | Slo op met `doc.Save` naar één PNG‑bestand | Deze enkele oproep **save docx as png** terwijl de rasterindeling wordt gerespecteerd. |
+
+## Pro‑tips & randgevallen
+
+- **Verschillende kolomaantallen:** Als je document 10 pagina's heeft en je stelt `PageColumns = 4` in, maakt Aspose automatisch genoeg rijen (3 rijen, waarbij de laatste rij gedeeltelijk gevuld is). Pas aan op basis van de gewenste visuele lay‑out.  
+- **Geheugengebruik:** Zeer grote documenten (honderden pagina's) kunnen veel RAM verbruiken bij renderen op hoge DPI. Als je een `OutOfMemoryException` krijgt, verlaag dan de `Resolution` naar 150 DPI of verwerk het document in batches.  
+- **Andere afbeeldingsformaten:** Wil je JPEG in plaats van PNG? Verander gewoon `SaveFormat.Png` naar `SaveFormat.Jpeg` en stel eventueel `JpegQuality` in op het opties‑object.  
+- **Transparantie:** PNG ondersteunt alfakanalen. Als je Word‑pagina's transparante elementen bevatten, worden deze bewaard in het raster.  
+- **Bestandsnaamgeving:** Gebruik een tijdstempel of GUID in de uitvoer‑bestandsnaam als je rasters in een lus genereert om overschrijven te voorkomen.
+
+## Veelgestelde vragen
+
+**Q: Kan ik een raster maken met verschillende aantallen rijen en kolommen?**  
+A: De eigenschap `PageColumns` bepaalt het aantal kolommen; rijen worden automatisch berekend op basis van het totale paginapunt. Als je een vast aantal rijen nodig hebt, moet je zelf de kolommen berekenen (`columns = Math.Ceiling(pageCount / rows)`).
+
+**Q: Werkt dit met .doc‑bestanden of .rtf?**  
+A: Absoluut. Aspose.Words kan `.doc`, `.rtf`, `.odt` en vele andere formaten laden. dezelfde **convert word to png**‑pipeline is van toepassing.
+
+**Q: Wat als ik een alleen‑staand portret‑raster nodig heb (geen rotatie)?**  
+A: Pagina's worden gerenderd in hun oorspronkelijke oriëntatie. Als je ze moet roteren, kun je `PageOrientation` inschakelen op `ImageSaveOptions` vóór het opslaan.
+
+## Volgende stappen
+
+Nu je hebt geleerd hoe je **create png grid** maakt, overweeg dan deze vervolgidées:
+
+- **Export naar PDF:** Gebruik `SaveFormat.Pdf` met dezelfde raster‑opties om een multi‑page PDF‑preview te maken.  
+- **Batchverwerking:** Loop door een map met Word‑bestanden en genereer voor elk een PNG‑raster, zodat je thumbnails voor rapporten automatiseert.  
+- **Integratie met web‑API's:** Serve de PNG‑raster on‑the‑fly vanaf een ASP.NET Core‑endpoint voor het previewen van documenten in een browser.  
+
+Al deze opties bouwen voort op dezelfde kernconcepten van **convert word to image**, **set image resolution**, en **save docx as png**.
+
+### Samenvatting
+
+Je hebt nu een complete, productie‑klare methode om **create png grid** te maken van elk meer‑pagina Word‑document. Door het document te laden, `ImageSaveOptions` te configureren voor een raster‑lay‑out, en met één enkele oproep op te slaan, heb je alles behandeld van **convert word to png** tot **set image resolution** en **save docx as png**.  
+
+Probeer het, pas het aantal kolommen aan, speel met DPI, en zie hoe snel je professionele preview‑bladen kunt genereren. Veel programmeerplezier!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

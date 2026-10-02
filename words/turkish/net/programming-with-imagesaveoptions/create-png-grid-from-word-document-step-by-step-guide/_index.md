@@ -1,26 +1,24 @@
 ---
 category: general
-date: 2026-03-06
-description: Çok sayfalı bir Word dosyasından PNG ızgara oluşturun. Word dosyasını
-  PNG'ye nasıl dönüştüreceğinizi, docx'i PNG olarak nasıl kaydedeceğinizi, tüm sayfaları
-  PNG olarak dışa aktaracağınızı ve C#'ta yüksek çözünürlüklü PNG oluşturacağınızı
-  öğrenin.
+date: 2026-01-14
+description: C#'ta bir Word dosyasından PNG ızgara oluşturun. Word'ü PNG'ye dönüştürün,
+  görüntü çözünürlüğünü ayarlayın ve docx'i Aspose.Words ile PNG olarak kaydedin.
 draft: false
 keywords:
 - create png grid
 - convert word to png
+- set image resolution
+- convert word to image
 - save docx as png
-- export all pages png
-- generate high resolution png
 language: tr
-og_description: C#'ta bir Word belgesinden PNG ızgara oluşturun. Bu rehber, Word'ü
-  PNG'ye dönüştürmeyi, docx'i PNG olarak kaydetmeyi, tüm sayfaları PNG olarak dışa
-  aktarmayı ve yüksek çözünürlüklü PNG üretmeyi gösterir.
-og_title: Word'den PNG Izgara Oluştur – Tam C# Öğreticisi
+og_description: Aspose.Words kullanarak bir Word dosyasından PNG ızgara oluşturun.
+  Word'ü PNG'ye nasıl dönüştüreceğinizi, görüntü çözünürlüğünü nasıl ayarlayacağınızı
+  ve docx'i tek adımda PNG olarak nasıl kaydedeceğinizi öğrenin.
+og_title: Word Belgesinden PNG Izgarası Oluştur – Tam C# Öğreticisi
 tags:
 - Aspose.Words
 - C#
-- ImageExport
+- Image Processing
 title: Word Belgesinden PNG Izgarası Oluşturma – Adım Adım Rehber
 url: /tr/net/programming-with-imagesaveoptions/create-png-grid-from-word-document-step-by-step-guide/
 ---
@@ -31,176 +29,170 @@ url: /tr/net/programming-with-imagesaveoptions/create-png-grid-from-word-documen
 
 # Word Belgesinden PNG Izgarası Oluşturma – Tam C# Öğreticisi
 
-Hiç çok sayfalı bir Word dosyasından **png ızgarası oluşturma** ihtiyacı duydunuz mu, ama nereden başlayacağınızı bilemediniz mi? Tek başınıza değilsiniz—geliştiriciler sık sık *convert word to png* nasıl yapılır sorusunu sorar, özel bir rasterizer yazmadan. Bu öğreticide, **tüm sayfaları png olarak dışa aktarma** işlemini tek bir görüntüde ızgara şeklinde düzenleyen temiz, yüksek çözünürlüklü bir çözümü adım adım inceleyeceğiz. Sonunda sadece birkaç C# satırıyla *save docx as png* ve *generate high resolution png* nasıl yapılacağını tam olarak öğreneceksiniz.
+Hiç çok sayfalı bir Word dosyasından **png ızgarası oluşturma** ihtiyacı duydunuz mu ve bunu görüntüleri manuel olarak birleştirmeden nasıl yapacağınızı merak ettiniz mi? Tek başınıza değilsiniz. Birçok raporlama veya arşivleme senaryosunda uzun bir .docx dosyanız olur ve birden fazla sayfayı aynı anda gösteren tek bir görüntü istersiniz—örneğin bir küçük resim sayfası ya da hızlı ön izleme.
 
-İhtiyacınız olan her şeyi ele alacağız: gerekli NuGet paketi, adım adım kod incelemesi ve büyük belgelerle başa çıkmak için birkaç pratik ipucu. Harici araçlar yok, komut satırı hileleri yok—sadece Aspose.Words'un desteklendiği her yerde çalışan saf .NET kodu. 50 sayfalık bir raporunuz mu var? Ön izleme bölmesi için tek bir küçük resim mi istiyorsunuz? Bu kılavuz ihtiyacınızı karşılayacak.
+Bu rehberde, **word'ı png'ye dönüştürmek** için ihtiyacınız olan tam kodu, sayfaları bir ızgarada düzenlemeyi ve hatta **görüntü çözünürlüğünü ayarlamayı** adım adım göstereceğiz, böylece sonuç net olur. Sonunda, Aspose.Words for .NET kullanarak **docx'i png olarak kaydetmeyi** tek bir sorunsuz işlemle nasıl yapacağınızı öğreneceksiniz.
+
+## Öğrenecekleriniz
+
+- Diskten bir Word belgesi nasıl yüklenir.  
+- `ImageSaveOptions` özelliklerinin **png ızgarası oluşturma**yı nasıl mümkün kıldığını.  
+- **görüntü çözünürlüğünü ayarlama** seçeneğiyle DPI nasıl kontrol edilir.  
+- **word'ı görüntüye dönüştürme** ve tek bir PNG dosyası üreten eksiksiz, hazır‑çalıştır C# kod parçacığı.  
+- Sütunları, satırları ayarlama ve kenar durumlarını yönetme ipuçları.
+
+Harici araçlar yok, ara dosyalar yok—sadece saf C# kodu.
 
 ## Ön Koşullar
 
-* .NET 6.0 veya daha yeni (API .NET Core, .NET Framework ve .NET 5+ ile çalışır)
-* Visual Studio 2022 (veya tercih ettiğiniz herhangi bir IDE)
-* Aspose.Words for .NET lisansı (test için ücretsiz deneme sürümü yeterli)
-* Bir çok sayfalı Word belgesi (`MultiPage.docx`) **png ızgarası** oluşturmak istediğiniz
+- .NET 6+ (veya .NET Framework 4.7+).  
+- Aspose.Words for .NET yüklü (`Install-Package Aspose.Words`).  
+- Bir ızgaraya dönüştürmek istediğiniz çok sayfalı Word belgesi (`input.docx`).  
 
-Eğer bunlardan herhangi biri size yabancı geliyorsa, sadece NuGet paketini kurun ve hazırsınız:
+Hepsi bu. Bunlara sahipseniz, başlayalım.
 
-```bash
-dotnet add package Aspose.Words
-```
+## 1. Adım: Word Belgesini Yükleme (word'ı görüntüye dönüştürme)
 
-Hepsi bu—başka bağımlılık yok.
-
-## Adım 1 – Word Belgesini Yükleme
-
-İlk olarak *.docx* dosyasını belleğe almamız gerekiyor. `Document` sınıfı tüm ağır işleri yapar, dosyayı ayrıştırır ve daha sonra görüntü dışa aktarımcısına aktaracağımız sayfa bilgilerini sunar.
+İlk yapmanız gereken .docx dosyasını belleğe getirmektir. Aspose.Words'ün `Document` sınıfı bunu zahmetsizce yönetir.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-// Load the source Word file (adjust the path to your environment)
-Document document = new Document(@"C:\Docs\MultiPage.docx");
-
-// Quick sanity check – how many pages are we dealing with?
-int totalPages = document.PageCount;
-Console.WriteLine($"Document contains {totalPages} pages.");
+// Load the source Word file.
+// Replace "YOUR_DIRECTORY/input.docx" with the actual path to your document.
+Document document = new Document("YOUR_DIRECTORY/input.docx");
 ```
 
-*Neden önemli:* Sayfa sayısını bilmek, `PageSet`'i doğru ayarlamamızı sağlar, böylece **tüm sayfaları png olarak dışa aktarma** son slaytı kaçırmadan yapılır. Ayrıca, hızlı bir console çıktısı hata ayıklama sırasında kullanışlı bir doğrulama kontrolüdür.
+*Why this matters:* *Neden önemli:* Belgeyi yüklemek, herhangi bir **word'ı png'ye dönüştürme** işleminin temelidir. Olmadan, kütüphanenin render edecek bir şeyi olmaz.
 
-## Adım 2 – Izgara Düzeni için ImageSaveOptions Ayarlama
+## 2. Adım: ImageSaveOptions'ı Yapılandırma – **png ızgarası oluşturma**nın kalbi
 
-Aspose.Words her sayfayı ayrı bir görüntü olarak işleyebilir, ancak biz **png ızgarası oluşturma** etkisi istiyoruz—her sayfanın komşusunun yanında yer aldığı bir temas sayfası gibi. `ImageSaveOptions` sınıfı düzen, çözünürlük ve hangi sayfaların dahil edileceği üzerinde tam kontrol sağlar.
+`ImageSaveOptions`, Aspose'a çıktı PNG'sinin nasıl görünmesini istediğinizi tam olarak söylemenizi sağlar. `PageLayout`'u `Grid` olarak ayarlamak, her sayfayı otomatik olarak bir matris içinde düzenler.
 
 ```csharp
-// Prepare the options that tell Aspose how to render the PNG
-ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png)
+// Create PNG save options and enable grid layout.
+ImageSaveOptions pngOptions = new ImageSaveOptions(SaveFormat.Png)
 {
-    // 0 means “all pages” – perfect for export all pages png
-    PageCount = 0,
+    // Grid layout (rows × columns) – this is what makes the PNG grid.
+    PageLayout = ImageSaveOptions.PageLayout.Grid,
 
-    // Explicitly include the full range (1‑based indexing)
-    PageSet = new PageSet(1, document.PageCount),
+    // Number of columns in the grid. Adjust to fit your document length.
+    PageColumns = 3,
 
-    // Grid layout arranges pages in rows & columns automatically
-    Layout = ImageSaveOptions.ImageLayout.Grid,
-
-    // High resolution ensures the final image isn’t blurry
-    HorizontalResolution = 300, // DPI
-    VerticalResolution   = 300  // DPI
+    // DPI setting – this is where we **set image resolution**.
+    Resolution = 200
 };
 ```
 
-*Neden bu değerleri ayarlıyoruz:*  
+*Why this matters:* *Neden önemli:* `PageLayout = Grid` bayrağı, **png ızgarası oluşturma** için gizli sosdur. `PageColumns`'u değiştirerek ızgaranın genişliğini ayarlarsınız, `Resolution` ise her sayfanın ne kadar keskin görüneceğini kontrol eder.
 
-* `PageCount = 0` ve `PageSet` birlikte kütüphaneye **convert word to png** işlemini her sayfa için yapmasını söyler, sadece ilk sayfa için değil.  
-* `Layout = Grid` **png ızgarası oluşturma** için anahtar—`Horizontal` veya `Vertical` gibi diğer seçenekler uzun bir şerit verir, ki bu genellikle ön izleme için istenmez.  
-* 300 DPI, **generate high resolution png** için ideal bir nokta; retina ekranlarda net görünürken dosya boyutunu makul tutar.
+## 3. Adım: Belgeyi Tek PNG Olarak Kaydetme (docx'i png olarak kaydetme)
 
-## Adım 3 – Birleştirilmiş Görüntüyü Kaydetme
-
-Şimdi ağır işler sahne arkasında gerçekleşir. Aspose her sayfayı işler, ızgara düzenine göre birleştirir ve sonucu diske yazar.
+Seçenekler hazır olduğunda, sadece `Save` metodunu çağırırsınız. Aspose tüm ağır işi yapar ve her sayfayı içeren tek bir PNG yazar.
 
 ```csharp
-string outputPath = @"C:\Docs\AllPages.png";
-document.Save(outputPath, saveOptions);
-Console.WriteLine($"PNG grid saved to {outputPath}");
+// Save the document as a single PNG file that contains the whole grid.
+document.Save("YOUR_DIRECTORY/output.png", pngOptions);
 ```
 
-Program tamamlandığında, `AllPages.png` dosyasını açın ve orijinal Word belgenizin her sayfasını düzenli bir şekilde döşenmiş tek bir görüntüde göreceksiniz. Bu, **png ızgarası oluşturma** işleminin son sonucudur.
+*Result:* *Sonuç:* `output.png`, ilk üç sayfanın yan yana, sonraki üç sayfanın ikinci satırda olduğu ve bu şekilde devam eden tek bir görüntü olacaktır—tam olarak istediğiniz **png ızgarası oluşturma**.
 
-![PNG ızgarası çıktısı oluşturma](https://example.com/images/png-grid-output.png "Oluşturulan PNG ızgarasını gösteren ekran görüntüsü – png ızgarası oluşturma")
+## Tam Çalışan Örnek
 
-*İpucu:* Belirli bir sütun sayısına ihtiyacınız varsa, `saveOptions.GridColumns` değerini ayarlayın. Varsayılan, sayfa sayısına göre satır ve sütunları otomatik olarak dengeler.
-
-## Adım 4 – Çıktıyı Doğrulama (Opsiyonel ama Önerilir)
-
-Hızlı bir görsel veya programatik kontrol, ileride saatler kazanmanızı sağlar. İşte dosyanın varlığını ve boyutlarının beklentileri karşılayıp karşılamadığını doğrulamanın minimal bir yolu:
+Aşağıda, bir konsol uygulamasına kopyalayıp yapıştırabileceğiniz eksiksiz program bulunmaktadır. Gerekli tüm `using` ifadelerini, yorumları ve sorunsuz bir deneyim için hata yönetimini içerir.
 
 ```csharp
-using System.Drawing;
+using System;
+using Aspose.Words;
+using Aspose.Words.Saving;
 
-// Load the generated PNG
-using (Bitmap bitmap = new Bitmap(outputPath))
+namespace WordToPngGrid
 {
-    Console.WriteLine($"Grid dimensions: {bitmap.Width}x{bitmap.Height} pixels");
-    Console.WriteLine($"Resolution: {bitmap.HorizontalResolution} DPI");
-}
-```
-
-Eğer boyutlar yanlış görünüyorsa, `HorizontalResolution` / `VerticalResolution` değerlerine tekrar bakın veya `GridColumns` ile deneme yapın. Unutmayın, **generate high resolution png** görüntüler çok büyük belgeler için bellek yoğun olabilir, bu yüzden bellek dışı hatalar alırsanız akış (streaming) veya parçalar halinde işleme yapmayı düşünün.
-
-## Yaygın Sorular & Özel Durumlar
-
-### İlk 5 sayfaya sadece ihtiyacım olsaydı ne yapmalıyım?
-
-Sadece `PageSet` değerini değiştirin:
-
-```csharp
-saveOptions.PageSet = new PageSet(1, 5);
-```
-
-İş akışının geri kalanı aynı kalır ve yine bir **png ızgarası** elde edersiniz—sadece daha küçük bir tane.
-
-### Arka plan rengini değiştirebilir miyim?
-
-Evet, `ImageSaveOptions` bir `BackgroundColor` özelliği sunar:
-
-```csharp
-saveOptions.BackgroundColor = Color.White; // defaults to white, but you can pick any System.Drawing.Color
-```
-
-### Karışık yönlendirmeli (dikey & yatay) bir belgeyi nasıl yönetirim?
-
-Izgara düzeni otomatik olarak her sayfanın boyutunu korur, ancak tek tip bir tuval isteyebilirsiniz. Kaydetmeden önce `saveOptions.PageSize` değerini sabit bir boyuta ayarlayın:
-
-```csharp
-saveOptions.PageSize = new SizeF(8.5f, 11f); // inches, for portrait
-```
-
-### Kod iş parçacığı güvenli mi?
-
-`Document` nesneleri aynı anda yazma işlemleri için **thread‑safe** değildir, ancak her iş parçacığı için ayrı `Document` nesneleri güvenle oluşturabilirsiniz. Bu, bir dosya topluluğunu işlerken birden fazla PNG ızgarasını paralel olarak oluşturabileceğiniz anlamına gelir.
-
-## Üretim Kullanımı için Pro İpuçları
-
-* **License early:** Deneme lisansı kullanıyorsanız, oluşturulan PNG bir filigran içerecektir. `Document` yapıcısından önce lisansınızı kaydedin, böylece filigrandan kaçınırsınız.
-* **Memory management:** 100 sayfayı aşan belgeler için ara bitmapleri serbest bırakmayı veya `SaveOptions` içinde `UseMemoryCache = true` kullanımını düşünün.
-* **File naming:** Mevcut ızgaraların üzerine yazılmasını önlemek için kaynak dosya adını ve bir zaman damgasını ekleyin:
-
-```csharp
-string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
-string outputPath = $@"C:\Docs\{Path.GetFileNameWithoutExtension(inputPath)}_{timestamp}.png";
-```
-
-* **Automation:** Tüm akışı yeniden kullanılabilir bir metoda paketleyin:
-
-```csharp
-public static void ExportWordToPngGrid(string docxPath, string pngPath, int dpi = 300, int columns = 0)
-{
-    Document doc = new Document(docxPath);
-    ImageSaveOptions opts = new ImageSaveOptions(SaveFormat.Png)
+    class Program
     {
-        PageCount = 0,
-        PageSet = new PageSet(1, doc.PageCount),
-        Layout = ImageSaveOptions.ImageLayout.Grid,
-        HorizontalResolution = dpi,
-        VerticalResolution = dpi,
-        GridColumns = columns // 0 = auto
-    };
-    doc.Save(pngPath, opts);
+        static void Main(string[] args)
+        {
+            try
+            {
+                // 1️⃣ Load the Word document (convert word to image)
+                string inputPath = "YOUR_DIRECTORY/input.docx";
+                Document doc = new Document(inputPath);
+                Console.WriteLine($"Loaded document: {inputPath}");
+
+                // 2️⃣ Set up PNG save options – this is the core of create png grid
+                ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
+                {
+                    PageLayout = ImageSaveOptions.PageLayout.Grid, // Grid layout
+                    PageColumns = 3,                               // 3 columns in the grid
+                    Resolution = 200                               // 200 DPI – set image resolution
+                };
+                Console.WriteLine("Configured ImageSaveOptions for PNG grid.");
+
+                // 3️⃣ Save as a single PNG (save docx as png)
+                string outputPath = "YOUR_DIRECTORY/output.png";
+                doc.Save(outputPath, options);
+                Console.WriteLine($"Successfully created PNG grid at: {outputPath}");
+            }
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
 }
 ```
 
-Artık uygulamanızın herhangi bir yerinden `ExportWordToPngGrid(@"C:\Docs\Report.docx", @"C:\Out\Report.png");` çağırabilirsiniz.
+### Beklenen Çıktı
 
-## Sonuç
+Programı çalıştırdığınızda, aşağıdaki görsele benzer bir **output.png** üretilecektir (gerçek görünüm kaynak belgenize bağlıdır).
 
-Aspose.Words for .NET kullanarak bir Word belgesinden **png ızgarası oluşturma** için tam, üretime hazır bir yöntemi adım adım inceledik. Adımlar—belgeyi yükleme, ızgara düzeni için `ImageSaveOptions` yapılandırma ve birleştirilmiş görüntüyü kaydetme—*convert word to png*, *save docx as png*, *export all pages png* ve *generate high resolution png* işlemlerinin temelini tek bir akışta kapsar.
+![png ızgarası örneği](image.png "png ızgarası çıktısı")
 
-Kendi raporlarınız, faturalarınız veya e‑kitaplarınızla deneyin. UI ihtiyaçlarınıza uygun olması için ızgara sütunları, DPI ayarları veya arka plan renkleriyle oynayın. Hazır olduğunuzda, yardımcı metodu bir dosya listesi alacak ve belge yönetim sistemi için toplu işlem yapacak şekilde genişletebilirsiniz.
+Dosya, tüm sayfaları 3 sütunlu bir ızgarada düzenler, her biri 200 DPI'de render edilerek net, yüksek çözünürlüklü bir ön izleme sunar.
 
-Görüntü dışa aktarımı, lisanslama veya performans ipuçları hakkında daha fazla sorunuz mu var? Aşağıya yorum bırakın ya da daha derin bilgiler için Aspose'un resmi dokümantasyonuna göz atın. Kodlamanın tadını çıkarın ve bu keskin PNG ızgaralarının keyfini çıkarın!
+## Adım‑Adım Özet (Her Parçanın Neden Önemli Olduğu)
+
+| Adım | Yaptıklarımız | Neden **png ızgarası oluşturma** Hedefine Yardımcı Olur |
+|------|----------------|--------------------------------------------------------|
+| 1️⃣ | `Document` ile .docx yüklendi | **word'ı görüntüye dönüştürme** süreci için kaynak sayfaları sağlar. |
+| 2️⃣ | `ImageSaveOptions` yapılandırıldı (ızgara, sütunlar, DPI) | `PageLayout = Grid` **png ızgarası oluşturma** için anahtar; `Resolution` ihtiyacınız olan **görüntü çözünürlüğünü ayarlama**yı sağlar. |
+| 3️⃣ | `doc.Save` ile tek bir PNG dosyasına kaydedildi | Bu tek çağrı, ızgara düzenine saygı göstererek **docx'i png olarak kaydetme** işlemini yapar. |
+
+## Profesyonel İpuçları ve Kenar Durumları
+
+- **Farklı sütun sayıları:** Belgenizde 10 sayfa varsa ve `PageColumns = 4` ayarlarsanız, Aspose otomatik olarak yeterli satırı oluşturur (3 satır, son satır kısmen doldurulur). Tercih ettiğiniz görsel düzene göre ayarlayın.  
+- **Bellek dikkate alımı:** Çok büyük belgeler (yüzlerce sayfa) yüksek DPI'de render edildiğinde önemli miktarda RAM tüketebilir. `OutOfMemoryException` alırsanız, `Resolution`'ı 150 DPI'ye düşürün veya belgeyi partiler halinde işleyin.  
+- **Diğer görüntü formatları:** PNG yerine JPEG mi istiyorsunuz? `SaveFormat.Png` yerine `SaveFormat.Jpeg` değiştirin ve isteğe bağlı olarak seçenek nesnesinde `JpegQuality` ayarlayın.  
+- **Şeffaflık:** PNG alfa kanallarını destekler. Word sayfalarınız şeffaf öğeler içeriyorsa, ızgarada korunur.  
+- **Dosya adlandırma:** Döngü içinde ızgaralar oluşturuyorsanız, dosya adında zaman damgası veya GUID kullanarak dosyaların üzerine yazılmasını önleyin.
+
+## Sıkça Sorulan Sorular
+
+**S: Farklı satır ve sütun sayılarıyla bir ızgara oluşturabilir miyim?**  
+C: `PageColumns` özelliği sütunları tanımlar; satırlar toplam sayfa sayısına göre otomatik hesaplanır. Sabit bir satır sayısına ihtiyacınız varsa, sütunları kendiniz hesaplamalısınız (`columns = Math.Ceiling(pageCount / rows)`).
+
+**S: Bu .doc dosyaları veya .rtf ile çalışır mı?**  
+C: Kesinlikle. Aspose.Words `.doc`, `.rtf`, `.odt` ve birçok diğer formatı yükleyebilir. Aynı **word'ı png'ye dönüştürme** süreci uygulanır.
+
+**S: Yalnızca dikey (portrait) bir ızgara (döndürme yok) ihtiyacım olursa ne olur?**  
+C: Sayfalar orijinal yönlerinde render edilir. Döndürmeniz gerekiyorsa, kaydetmeden önce `ImageSaveOptions` üzerinde `PageOrientation`'ı etkinleştirebilirsiniz.
+
+## Sonraki Adımlar
+
+Artık **png ızgarası oluşturma** konusunda uzmanlaştığınıza göre, aşağıdaki sonraki fikirleri değerlendirin:
+
+- **PDF'ye Dışa Aktar:** Aynı ızgara seçenekleriyle `SaveFormat.Pdf` kullanarak çok sayfalı bir PDF ön izleme oluşturun.  
+- **Toplu işleme:** Bir klasördeki Word dosyaları üzerinde döngü yaparak her biri için PNG ızgarası oluşturun, rapor küçük resimlerini otomatikleştirin.  
+- **Web API'leriyle Entegre Et:** ASP.NET Core uç noktasından anlık olarak PNG ızgarasını sunarak belgeleri tarayıcıda ön izleyin.  
+
+Bunların tümü aynı temel kavramlar olan **word'ı görüntüye dönüştürme**, **görüntü çözünürlüğünü ayarlama** ve **docx'i png olarak kaydetme** üzerine kuruludur.
+
+### Özet
+
+Artık herhangi bir çok sayfalı Word belgesinden **png ızgarası oluşturma** için eksiksiz, üretim‑hazır bir yönteme sahipsiniz. Belgeyi yükleyerek, `ImageSaveOptions`'ı ızgara düzeni için yapılandırarak ve tek bir çağrıyla kaydederek, **word'ı png'ye dönüştürme**, **görüntü çözünürlüğünü ayarlama** ve **docx'i png olarak kaydetme** konularını kapsadınız.  
+
+Deneyin, sütun sayısını ayarlayın, DPI ile oynayın ve ne kadar hızlı profesyonel görünümlü ön izleme sayfaları oluşturabileceğinizi izleyin. Kodlamanın tadını çıkarın!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,0 +1,7 @@
+Title: How to create a Word document with a pie chart in Java
+Slug: how-to-create-a-word-document-with-a-pie-chart-in-java
+Category: images-shapes
+ProcessedDate: 2026-09-18T10:54:48.155563
+SourceRepo: AI Search API
+Keywords: create word document, insert pie chart, rotate pie chart, generate word file, how to create pie chart
+PRNumber: 280

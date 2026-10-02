@@ -1,0 +1,7 @@
+Title: Create a blank Word document and translate it to French
+Slug: create-a-blank-word-document-and-translate-it-to-french
+Category: ai-powered-document-processing
+ProcessedDate: 2026-08-20T22:11:43.843670
+SourceRepo: AI Search API
+Keywords: create blank word document, translate text to french, aspose.words ai translation
+PRNumber: 258

@@ -47,7 +47,7 @@ Genom att följa dessa handledningar kommer du att kunna utnyttja tabellhanterin
 | [Hämta flytande tabellposition](./get-floating-table-position/) | Lär dig hur du får flytande tabellpositioner i Word-dokument med Aspose.Words för .NET. Den här detaljerade steg-för-steg-guiden guidar dig genom allt du behöver veta. |
 | [Flytande tabellposition](./floating-table-position/) | Lär dig hur du styr den flytande positionen för tabeller i Word-dokument med hjälp av Aspose.Words för .NET med vår detaljerade steg-för-steg-guide. |
 | [Ställ in relativ horisontell eller vertikal position](./set-relative-horizontal-or-vertical-position/) Lär dig hur du anger relativa horisontella och vertikala positioner för tabeller i Word-dokument med Aspose.Words för .NET med den här steg-för-steg-guiden. |
-
+| [Dölj rad i tabell med C# – En enkel guide för att ta bort tabellrader](./hide-row-in-table-with-c-simple-guide-to-removing-table-rows/) | Lär dig hur du döljer eller tar bort rader i en Word‑tabell med Aspose.Words för .NET och C# i denna enkla guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

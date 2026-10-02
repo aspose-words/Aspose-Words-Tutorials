@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary: Aspose.Words の Document と DocumentBuilder を使用して、このチュートリアルでは HTML マークアップを Word 文書に挿入し、結果を保存します。
+//ExStepSummary:0: 出力フォルダーを定義し、新しい Document を作成し、その Document 用に DocumentBuilder を初期化します。
+//ExStepSummary:1: `builder.InsertHtml()` を呼び出して、右揃えの段落、太字テキスト、中央揃えの div、左揃えの見出しを文書に追加します。
+//ExStepSummary:2: 変更された文書を指定されたフォルダーに .docx ファイルとして保存します。
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary: โดยใช้ Aspose.Words Document และ DocumentBuilder, บทเรียนนี้จะแทรกมาร์กอัป HTML ลงในเอกสาร Word และบันทึกผลลัพธ์
+//ExStepSummary:0: กำหนดโฟลเดอร์ปลายทาง, สร้าง Document ใหม่, และเริ่มต้น DocumentBuilder สำหรับเอกสารนั้น
+//ExStepSummary:1: เรียก `builder.InsertHtml()` เพื่อเพิ่มย่อหน้าจัดชิดขวา, ข้อความหนา, div จัดกึ่งกลาง, และหัวข้อจัดชิดซ้ายลงในเอกสาร
+//ExStepSummary:2: บันทึกเอกสารที่แก้ไขแล้วไปยังโฟลเดอร์ที่ระบุในรูปแบบไฟล์ .docx
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd
