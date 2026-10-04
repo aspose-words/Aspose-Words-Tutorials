@@ -48,6 +48,7 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Cách kiểm tra ngữ pháp trong C# bằng LLM cục bộ](./how-to-check-grammar-in-c-using-a-local-llm/) | Tìm hiểu cách sử dụng LLM cục bộ trong C# để kiểm tra ngữ pháp tài liệu nhanh chóng và chính xác. |
 | [Tóm tắt tài liệu Word bằng AI – OpenAI vs Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | So sánh cách OpenAI và Gemini tóm tắt tài liệu Word bằng AI trong Aspose.Words cho .NET. |
 | [Cách tóm tắt tài liệu Word – Hướng dẫn C# đầy đủ](./how-to-summarize-word-documents-complete-c-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET với C# để tóm tắt tài liệu Word một cách hiệu quả. |
+| [Cách tóm tắt tài liệu Word với các nhà cung cấp AI trong C#](./how-to-summarize-word-document-with-ai-providers-in-c/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET và các nhà cung cấp AI để tóm tắt tài liệu Word bằng C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

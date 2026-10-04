@@ -48,6 +48,7 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [Yerel LLM Kullanarak C#'ta Dilbilgisi Kontrolü Nasıl Yapılır](./how-to-check-grammar-in-c-using-a-local-llm/) | Yerel bir büyük dil modeliyle C# kodunuzda dilbilgisi hatalarını otomatik tespit edin ve düzeltin. |
 | [AI ile Word Belgesini Özetle – OpenAI vs Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | OpenAI ve Gemini modellerini karşılaştırarak Word belgelerini AI ile nasıl özetleyeceğinizi öğrenin. |
 | [Word Belgelerini Özetleme – Tam C# Rehberi](./how-to-summarize-word-documents-complete-c-guide/) | Aspose.Words for .NET ve C# kullanarak Word belgelerini etkili bir şekilde özetlemeyi adım adım öğrenin. |
+| [AI sağlayıcılarıyla C#'ta Word belgesini özetleme](./how-to-summarize-word-document-with-ai-providers-in-c/) | AI sağlayıcılarıyla C# kullanarak Word belgelerini hızlı ve etkili bir şekilde özetlemeyi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
