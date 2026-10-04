@@ -1,0 +1,7 @@
+Title: Create word document with a plain text content control
+Slug: create-word-document-with-a-plain-text-content-control
+Category: document-manipulation
+ProcessedDate: 2026-10-04T10:50:07.022168
+SourceRepo: AI Search API
+Keywords: create word document, plain text content control, docx with placeholder, add placeholder to tag, how to insert sdt
+PRNumber: 302
