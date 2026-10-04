@@ -54,6 +54,9 @@ Aprenda a guardar documentos Word como archivos Markdown y exportarlos a PDF/A�
 ### [Crear PDF UA desde Word – Guía paso a paso](./create-pdf-ua-from-word-step-by-step-guide/)
 Aprenda a generar PDFs compatibles con PDF/UA a partir de documentos Word usando Aspose.Words para Python.
 
+### [Cómo guardar docx como txt con ecuaciones LaTeX usando Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+Aprenda a guardar archivos DOCX como TXT conservando ecuaciones LaTeX con Aspose.Words para Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

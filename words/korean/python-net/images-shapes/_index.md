@@ -40,6 +40,9 @@ Python용 Aspose.Words를 사용하여 SVG 출력을 최적화하는 방법을 �
 ### [Aspose.Words를 사용하여 PDF에 사각형 추가 – 단계별 가이드](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 Aspose.Words를 사용해 PDF에 사각형을 삽입하고 속성을 설정하는 방법을 단계별로 안내합니다.
 
+### [Python에서 사각형 모양 및 그림자를 사용하여 문서 만들기](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
+Python을 사용해 사각형 모양과 그림자를 문서에 삽입하고 속성을 설정하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Python-net 문서용 Aspose.Words](https://docs.aspose.com/words/python-net/)

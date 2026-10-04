@@ -54,6 +54,9 @@
 ### [从 Word 创建 PDF/UA – 步骤指南](./create-pdf-ua-from-word-step-by-step-guide/)
 使用 Aspose.Words for Python 将 Word 文档转换为符合 PDF/UA 标准的 PDF，确保可访问性。
 
+### [如何使用 Aspose.Words 将 docx 保存为带 LaTeX 方程的 txt](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+学习使用 Aspose.Words 将包含 LaTeX 方程的 docx 文档转换并保存为 txt 文件。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

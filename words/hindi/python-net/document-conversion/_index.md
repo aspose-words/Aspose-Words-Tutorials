@@ -54,6 +54,9 @@ Aspose.Words का उपयोग करके पायथन में व�
 ### [Word से PDF/UA बनाएं – चरण‑बद्ध गाइड](./create-pdf-ua-from-word-step-by-step-guide/)
 Word दस्तावेज़ से PDF/UA बनाना सीखें, चरण‑बद्ध कोड और सर्वोत्तम प्रथाओं के साथ।
 
+### [Aspose.Words का उपयोग करके docx को txt में LaTeX समीकरणों के साथ कैसे सहेजें](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+Aspose.Words के साथ docx फ़ाइल को txt में LaTeX समीकरणों सहित सहेजने की पूरी प्रक्रिया।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

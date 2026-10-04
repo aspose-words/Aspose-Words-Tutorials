@@ -52,6 +52,9 @@ Aspose.Words를 활용해 Word 문서를 접근성 PDF로 변환하는 방법을
 ### [Word를 Markdown으로 저장하기 – PDF/A‑UA 내보내기 완전 가이드](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Word 문서를 Markdown으로 저장하고 PDF/A‑UA 형식으로 내보내는 방법을 단계별로 안내합니다.
 
+### [Aspose.Words를 사용해 LaTeX 방정식이 포함된 docx를 txt로 저장하기](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+Aspose.Words를 활용하여 LaTeX 방정식이 포함된 docx 파일을 텍스트 파일(txt)로 저장하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

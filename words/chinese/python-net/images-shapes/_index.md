@@ -40,6 +40,9 @@ Aspose.Words Python-net 教程中的“图像和形状”类别旨在帮助开�
 ### [使用 Aspose.Words 将矩形添加到 PDF – 步骤指南](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 学习如何使用 Aspose.Words 在 PDF 文档中插入矩形形状，实现精准的页面布局和视觉效果。
 
+### [如何在 Python 中创建带矩形形状和阴影的文档](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
+学习在 Python 中使用 Aspose.Words 创建包含矩形形状和阴影的 Word 文档的步骤。
+
 ## 其他资源
 
 - [Aspose.Words for Python-net 文档](https://docs.aspose.com/words/python-net/)

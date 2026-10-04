@@ -52,6 +52,9 @@ Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập từ tài l
 ### [Lưu Word thành Markdown – Hướng dẫn đầy đủ với xuất PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Hướng dẫn chi tiết cách lưu tài liệu Word thành Markdown và xuất ra PDF/A‑UA bằng Aspose.Words cho Python.
 
+### [Cách lưu docx thành txt với các phương trình LaTeX bằng Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+Hướng dẫn chi tiết cách lưu tệp docx dưới dạng txt, giữ lại các công thức LaTeX bằng Aspose.Words cho Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

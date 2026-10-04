@@ -49,6 +49,8 @@ Aspose.Words for Pythonを使ってWord文書を効率的に操作する方法�
 Aspose.Words for Python を使用してドキュメントのプロパティとメタデータを管理する方法を学びます。ソースコード付きのステップバイステップガイドです。
 ### [Web拡張機能によるドキュメント機能の拡張](./document-functionality-web-extensions/)
 Aspose.Words for Python を使って、Web 拡張機能でドキュメント機能を拡張する方法を学びましょう。シームレスな統合を実現するソースコード付きのステップバイステップガイドです。
+### [破損したWord文書を復元するためのリカバリモードの有効化](./enable-recovery-mode-to-recover-a-corrupted-word-document/)
+Aspose.Words for Python を使用して、破損した Word 文書をリカバリモードで復元する方法を学びます。コード例付きのステップバイステップガイドです。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

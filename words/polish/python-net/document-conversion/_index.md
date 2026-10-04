@@ -52,6 +52,9 @@ Dowiedz się, jak przy użyciu Aspose.Words for Python utworzyć dostępny PDF z
 ### [Zapisz Word jako Markdown – kompletny przewodnik z eksportem PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument Word jako Markdown i wyeksportować go do PDF/A‑UA.
 
+### [Jak zapisać docx jako txt z równaniami LaTeX przy użyciu Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+Dowiedz się, jak przy użyciu Aspose.Words zapisać dokument docx jako plik txt zachowując równania LaTeX.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
