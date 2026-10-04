@@ -47,6 +47,8 @@ Apprenez à générer des PDF accessibles depuis Word en utilisant Aspose.Words 
 Apprenez à enregistrer vos documents Word au format Markdown tout en générant un PDF/A‑UA conforme avec Aspose.Words pour Python.
 ### [Créer un PDF UA à partir de Word – Guide étape par étape](./create-pdf-ua-from-word-step-by-step-guide/)
 Apprenez à créer un PDF UA à partir d'un document Word avec Aspose.Words pour Python.
+### [Comment enregistrer un docx en txt avec des équations LaTeX en utilisant Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+Apprenez à convertir un fichier DOCX en texte tout en conservant les équations LaTeX avec Aspose.Words pour Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

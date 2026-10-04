@@ -40,6 +40,9 @@
 ### [เพิ่มสี่เหลี่ยมผืนผ้าใน PDF ด้วย Aspose.Words – คู่มือขั้นตอนโดยละเอียด](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 เรียนรู้วิธีเพิ่มสี่เหลี่ยมผืนผ้าในไฟล์ PDF โดยใช้ Aspose.Words ผ่านขั้นตอนที่ละเอียดและตัวอย่างโค้ดที่พร้อมใช้งาน
 
+### [วิธีสร้างเอกสารพร้อมสี่เหลี่ยมผืนผ้าและเงาใน Python](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
+เรียนรู้วิธีสร้างเอกสาร Word ที่มีสี่เหลี่ยมผืนผ้าและเงาโดยใช้ Aspose.Words สำหรับ Python
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสาร Aspose.Words สำหรับ Python-net](https://docs.aspose.com/words/python-net/)

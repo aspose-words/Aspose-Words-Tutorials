@@ -29,13 +29,16 @@ Az Aspose.Words Python-net oktatóanyagok „Képek és alakzatok” kategóriá
 Tanuld meg, hogyan elemezheted a médiatípusokat, titkosíthatod a fájlokat és validálhatod a digitális aláírásokat az Aspose.Words for Python segítségével. Fejleszd dokumentumfeldolgozási képességeidet még ma!
 
     ### [Optimize RTF Image Handling in Python using Aspose.Words API&#58; Save as WMF and Ensure Compatibility](./optimize-rtf-image-handling-aspose-words-python/)
-Tanuld meg, hogyan optimalizálhatod a képkezelést RTF dokumentumokban az Aspose.Words for Python segítségével. Mentsd el a képeket WMF formátumban, és biztosítsd a kompatibilitást a régebbi olvasókkal.
+Tanuld meg, hogyan optimalizálhatod a képkezelést RTF dokumentumokban az Aspose.Words for Python segítségével. Mentsd el a képeket WMF formátumban, és biztosítsd a kompatibilitást a régi olvasókkal.
 
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Tanuld meg, hogyan optimalizálhatod az SVG kimenetet az Aspose.Words for Python használatával. Ez az útmutató olyan egyéni funkciókat ismertet, mint a képszerű tulajdonságok, a szövegmegjelenítés és a biztonsági fejlesztések.
 
 ### [Hogyan adjunk árnyékot C#-ban – Teljes programozási útmutató](./how-to-add-shadow-in-c-complete-programming-guide/)
 Ismerd meg, hogyan alkalmazhatsz árnyékhatást C#-ban az Aspose.Words segítségével, lépésről lépésre útmutató.
+
+### [Hogyan hozzunk létre dokumentumot téglalap alakzattal és árnyékkal Pythonban](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
+Tanuld meg, hogyan hozhatsz létre Word dokumentumot téglalap alakzattal és árnyékkal Python és Aspose.Words segítségével.
 
 ### [Téglalap hozzáadása PDF-hez az Aspose.Words segítségével – Lépésről lépésre útmutató](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 Tanuld meg, hogyan adhatsz hozzá téglalapot PDF dokumentumokhoz az Aspose.Words használatával, részletes lépésről lépésre útmutatóval.

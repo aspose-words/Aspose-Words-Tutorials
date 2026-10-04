@@ -54,6 +54,9 @@
 ### [สร้าง PDF UA จาก Word – คู่มือขั้นตอนต่อขั้นตอน](./create-pdf-ua-from-word-step-by-step-guide/)
 เรียนรู้วิธีสร้างไฟล์ PDF/UA จากเอกสาร Word ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
 
+### [วิธีบันทึกไฟล์ docx เป็น txt พร้อมสมการ LaTeX ด้วย Aspose.Words](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+เรียนรู้วิธีบันทึกไฟล์ docx เป็น txt พร้อมสมการ LaTeX ด้วย Aspose.Words อย่างละเอียด
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

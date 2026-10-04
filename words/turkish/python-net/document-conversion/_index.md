@@ -43,6 +43,9 @@ Aspose.Words for Python kullanarak bozuk DOCX dosyalarını onarın ve Word belg
 ### [Word'den LaTeX Dışa Aktarma – DOCX'i Markdown'a Dönüştürme](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Aspose.Words for Python kullanarak Word belgelerinden LaTeX dışa aktarımı ve DOCX'i Markdown'a dönüştürmeyi öğrenin.
 
+### [Aspose.Words ile LaTeX denklemleriyle docx'i txt olarak kaydetme](./how-to-save-docx-as-txt-with-latex-equations-using-aspose-wo/)
+Aspose.Words for Python kullanarak docx dosyasını LaTeX denklemleriyle txt formatına kaydetmeyi öğrenin.
+
 ### [Word'den PDF Oluşturma – Aspose.Words ile Tam Python Kılavuzu](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Aspose.Words for Python kullanarak Word belgelerinden PDF dosyaları oluşturmayı adım adım öğrenin.
 

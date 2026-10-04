@@ -40,6 +40,9 @@ C# में शैडो जोड़ने की पूरी प्रक्
 ### [Aspose.Words के साथ PDF में आयत जोड़ें – चरण‑दर‑चरण गाइड](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 Aspose.Words का उपयोग करके PDF में आयत कैसे जोड़ें, कोड उदाहरण और विस्तृत चरणों के साथ सीखें।
 
+### [Python में आयत आकार और शैडो के साथ दस्तावेज़ कैसे बनाएं](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
+Python के लिए Aspose.Words का उपयोग करके आयत आकार और शैडो के साथ दस्तावेज़ बनाने की चरण‑दर‑चरण प्रक्रिया सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [पायथन-नेट दस्तावेज़ीकरण के लिए Aspose.Words](https://docs.aspose.com/words/python-net/)

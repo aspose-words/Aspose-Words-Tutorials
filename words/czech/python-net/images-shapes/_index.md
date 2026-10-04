@@ -40,6 +40,9 @@ Naučte se, jak pomocí Aspose.Words v C# přidat stín do objektů a vylepšit 
 ### [Přidání obdélníku do PDF pomocí Aspose.Words – průvodce krok za krokem](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Words přidat obdélník do PDF dokumentu pomocí podrobného krok za krokem průvodce.
 
+### [Jak vytvořit dokument s obdélníkovým tvarem a stínem v Pythonu](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
+Naučte se, jak v Pythonu pomocí Aspose.Words vytvořit dokument s obdélníkovým tvarem a stínem.
+
 ## Další zdroje
 
 - [Dokumentace k Aspose.Words pro Python-net](https://docs.aspose.com/words/python-net/)

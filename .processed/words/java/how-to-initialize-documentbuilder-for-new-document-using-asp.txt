@@ -1,0 +1,7 @@
+Title: How to initialize DocumentBuilder for new document using Aspose.Words
+Slug: how-to-initialize-documentbuilder-for-new-document-using-asp
+Category: using-document-elements
+ProcessedDate: 2026-10-04T10:50:10.682814
+SourceRepo: AI Search API
+Keywords: initialize documentbuilder for new document
+PRNumber: 302

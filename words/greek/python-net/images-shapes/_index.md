@@ -40,6 +40,9 @@
 ### [Προσθήκη ορθογωνίου σε PDF με Aspose.Words – Οδηγός βήμα‑βήμα](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 Μάθετε πώς να προσθέσετε ένα ορθογώνιο σχήμα σε PDF χρησιμοποιώντας το Aspose.Words για Python‑net, βήμα προς βήμα.
 
+### [Πώς να δημιουργήσετε έγγραφο με σχήμα ορθογωνίου και σκιά σε Python](./how-to-create-document-with-a-rectangle-shape-and-shadow-in/)
+Μάθετε πώς να δημιουργήσετε έγγραφο Word με σχήμα ορθογωνίου και εφέ σκιά χρησιμοποιώντας Aspose.Words για Python‑net.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.Words για τεκμηρίωση Python-net](https://docs.aspose.com/words/python-net/)
