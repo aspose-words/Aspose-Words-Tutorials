@@ -1,0 +1,7 @@
+Title: How to group shapes in Word with C# and DocumentBuilder
+Slug: how-to-group-shapes-in-word-with-c-and-documentbuilder
+Category: images-shapes
+ProcessedDate: 2026-10-04T10:50:04.870342
+SourceRepo: AI Search API
+Keywords: group shapes in word, insert rectangle shape, group multiple shapes, append child to group, create blank word file
+PRNumber: 302
