@@ -48,6 +48,7 @@
 | [C#에서 로컬 LLM을 사용해 문법 검사하기](./how-to-check-grammar-in-c-using-a-local-llm/) | 로컬 LLM을 활용해 C# 코드의 문법을 자동으로 검사하고 교정하는 방법을 단계별로 안내합니다. |
 | [OpenAI와 Gemini를 활용한 Word 문서 요약](./summarize-word-document-with-ai-openai-vs-gemini/) | OpenAI와 Gemini 모델을 비교하여 Aspose.Words for .NET으로 Word 문서를 효율적으로 요약하는 방법을 배웁니다. |
 | [Word 문서 요약 방법 – 완전 C# 가이드](./how-to-summarize-word-documents-complete-c-guide/) | C#와 Aspose.Words를 활용해 Word 문서를 효율적으로 요약하는 완전 가이드입니다. |
+| [AI 제공자를 사용하여 C#에서 Word 문서 요약하기](./how-to-summarize-word-document-with-ai-providers-in-c/) | AI 제공자를 활용해 C#에서 Word 문서를 효율적으로 요약하는 방법을 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
