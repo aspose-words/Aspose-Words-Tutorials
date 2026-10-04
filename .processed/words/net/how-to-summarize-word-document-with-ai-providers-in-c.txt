@@ -1,0 +1,7 @@
+Title: How to summarize Word document with AI providers in C#
+Slug: how-to-summarize-word-document-with-ai-providers-in-c
+Category: ai-powered-document-processing
+ProcessedDate: 2026-10-04T10:13:00.009869
+SourceRepo: AI Search API
+Keywords: summarize word document, summarize with google, summarize large document, choose ai provider
+PRNumber: 301
