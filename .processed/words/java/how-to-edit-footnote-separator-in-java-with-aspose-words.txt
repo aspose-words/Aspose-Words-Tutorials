@@ -1,0 +1,7 @@
+Title: How to edit footnote separator in Java with Aspose.Words
+Slug: how-to-edit-footnote-separator-in-java-with-aspose-words
+Category: document-styling
+ProcessedDate: 2026-10-04T10:50:08.993431
+SourceRepo: AI Search API
+Keywords: edit footnote separator, change footnote separator, custom separator word
+PRNumber: 302
