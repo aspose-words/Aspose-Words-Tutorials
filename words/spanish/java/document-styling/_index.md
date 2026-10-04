@@ -44,8 +44,14 @@ Aprenda a aplicar marcas de agua y configurar páginas con Aspose.Words para Jav
 ### [Estilo de encabezado y pie de página del documento](./document-header-footer-styling/)
 Aprenda a aplicar estilo a encabezados y pies de página de documentos con Aspose.Words para Java en esta guía detallada. Incluye instrucciones paso a paso y código fuente.
 
+### [Cómo editar el separador de notas al pie en Java con Aspose.Words](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Aprenda a modificar el separador de notas al pie en documentos Word usando Aspose.Words para Java. Guía paso a paso con ejemplos de código.
+
 ### [Cómo detectar fuentes en documentos Word de Java – Guía completa](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
-Aprenda a identificar fuentes en documentos Word usando Aspose.Words para Java. Guía paso a paso con ejemplos de código. 
+Aprenda a identificar fuentes en documentos Word usando Aspose.Words para Java. Guía paso a paso con ejemplos de código.
+
+### [Cómo explotar una porción en un gráfico de Word y personalizar su apariencia](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+Aprenda a separar y personalizar porciones de gráficos en documentos Word usando Aspose.Words para Java. Guía paso a paso con código fuente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

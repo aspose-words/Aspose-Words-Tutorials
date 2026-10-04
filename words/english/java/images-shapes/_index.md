@@ -28,6 +28,12 @@ In the realm of document processing, integrating images and shapes is crucial fo
 - Explore practical examples of integrating images and shapes in complex document layouts.
 
 ## Available Tutorials
+### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
+
+
+### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+
 
 ### [Custom Page & Image Saving in Java with Aspose.Words Callbacks](./aspose-words-java-callback-custom-savings/)
 A code tutorial for Aspose.Words Java

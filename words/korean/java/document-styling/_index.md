@@ -31,6 +31,9 @@ Aspose.Words for Java는 강력한 문서 스타일링 도구를 제공하여 �
 이 튜토리얼에서는 시각적으로 매력적인 문서를 만드는 것뿐만 아니라 효율성을 위해 스타일 지정 프로세스를 최적화하는 데에도 중점을 둡니다. Aspose.Words for Java는 개발자가 문서 스타일 지정 작업을 자동화할 수 있도록 다양한 API를 제공합니다. 프로그래밍 방식으로 스타일을 적용하고, 데이터를 기반으로 문서 레이아웃을 동적으로 생성하고, 특정 콘텐츠를 강조하는 조건부 서식을 구현하는 방법을 배우게 됩니다. 이러한 효율적인 스타일 지정 기법을 활용하면 수동 작업을 크게 줄이고 특정 문서 처리 요구 사항에 맞는 동적이고 맞춤화된 문서를 만들 수 있습니다.
 
 ## 문서 스타일링 튜토리얼
+### [How to explode slice in a Word chart and customize its appearance](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+
+
 ### [Word 문서 스타일링](./word-document-styling/)
 Aspose.Words for Java를 사용하여 문서에 스타일을 적용하고 처리하는 방법을 알아보세요! 소스 코드 예제를 활용하여 시각적으로 멋진 결과물을 만들어 보세요. 
 ### [문서에 스타일 및 글꼴 적용](./applying-styles-fonts/)
@@ -45,6 +48,8 @@ Aspose.Words for Java를 사용하여 워터마크를 적용하고 페이지 구
 이 자세한 가이드에서 Aspose.Words for Java를 사용하여 문서 머리글과 바닥글의 스타일을 지정하는 방법을 알아보세요. 단계별 지침과 소스 코드가 포함되어 있습니다.
 ### [Java Word 문서에서 글꼴 감지하기 – 완전 가이드](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 Aspose.Words for Java를 활용해 Java Word 문서에서 사용된 글꼴을 식별하고 추출하는 방법을 단계별로 안내합니다.
+### [Java에서 Aspose.Words로 각주 구분자 편집하기](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Aspose.Words for Java를 사용해 각주 구분자를 편집하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

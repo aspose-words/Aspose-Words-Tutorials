@@ -43,8 +43,12 @@ Aprenda a personalizar temas de documentos usando o Aspose.Words para Java. Este
 Aprenda a aplicar marcas d'água e definir configurações de página com o Aspose.Words para Java. Um guia completo com código-fonte.
 ### [Estilo de cabeçalho e rodapé de documento](./document-header-footer-styling/)
 Aprenda a estilizar cabeçalhos e rodapés de documentos usando o Aspose.Words para Java neste guia detalhado. Instruções passo a passo e código-fonte incluídos.
+### [Como editar o separador de nota de rodapé em Java com Aspose.Words](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Aprenda a modificar o separador de notas de rodapé em documentos Word usando Aspose.Words para Java.
 ### [Como detectar fontes em documentos Word Java – Guia completo](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 Aprenda a identificar fontes usadas em documentos Word com Aspose.Words para Java. Guia passo a passo com exemplos de código.
+### [Como explodir fatia em um gráfico do Word e personalizar sua aparência](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+Aprenda a explodir fatias de gráficos no Word e personalizar sua aparência usando Aspose.Words para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

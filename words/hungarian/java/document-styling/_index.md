@@ -31,6 +31,9 @@ Miután elsajátítottad az alapvető dokumentumformázási készségeket, átt�
 Ezekben az oktatóanyagokban nemcsak a vizuálisan vonzó dokumentumok létrehozására fogunk összpontosítani, hanem a formázási folyamat hatékonyságnövelő optimalizálására is. Az Aspose.Words for Java széleskörű API-kat kínál, amelyek lehetővé teszik a fejlesztők számára a dokumentumformázási feladatok automatizálását. Megtanulod, hogyan alkalmazhatsz stílusokat programozottan, hogyan generálhatsz dinamikusan dokumentumelrendezéseket az adatok alapján, és hogyan valósíthatsz meg feltételes formázást adott tartalom kiemeléséhez. Ezen hatékony formázási technikák kihasználásával drasztikusan csökkentheted a manuális erőfeszítéseket, és dinamikus, testreszabott dokumentumokat hozhatsz létre, amelyek megfelelnek az adott dokumentumfeldolgozási igényeknek.
 
 ## Dokumentumstílus-oktatóanyagok
+### [How to explode slice in a Word chart and customize its appearance](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+
+
 ### [Word dokumentum formázása](./word-document-styling/)
 Tanuld meg, hogyan formázd és dolgozd fel a dokumentumokat az Aspose.Words for Java segítségével! Hozz létre vizuálisan lenyűgöző kimeneteket forráskódpéldákkal. 
 ### [Stílusok és betűtípusok alkalmazása dokumentumokban](./applying-styles-fonts/)
@@ -45,6 +48,9 @@ Tanuld meg, hogyan alkalmazhatsz vízjeleket és állíthatsz be oldalkonfigurá
 Tanuld meg, hogyan formázhatod a dokumentumok fejlécét és láblécét az Aspose.Words for Java használatával ebben a részletes útmutatóban. Lépésről lépésre útmutató és forráskód is mellékelve.
 ### [Betűtípusok észlelése Java Word dokumentumokban – Teljes útmutató](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 Tanuld meg, hogyan észleld a betűtípusokat a Java Word dokumentumokban az Aspose.Words for Java segítségével. Lépésről lépésre útmutató forráskóddal.
+
+### [Lábjegyzet elválasztó szerkesztése Java-ban az Aspose.Words segítségével](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Tanuld meg, hogyan szerkesztheted a lábjegyzet elválasztót Java-ban az Aspose.Words használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

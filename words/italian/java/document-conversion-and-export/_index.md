@@ -62,6 +62,9 @@ Quindi, immergiti nei tutorial elencati di seguito e sblocca il pieno potenziale
 Per ulteriori informazioni, consulta la [Documentazione API di Aspose.Words per Java](https://reference.aspose.com/words/java/), e per iniziare, scaricala da [qui](https://releases.aspose.com/words/java/). Se hai domande o necessiti assistenza, non esitare a contattare il nostro [forum di supporto](https://forum.aspose.com/).
 
 ## Tutorial di conversione ed esportazione di documenti
+### [How to convert docx to markdown with table support in Java](./how-to-convert-docx-to-markdown-with-table-support-in-java/)
+
+
 ### [Generating Custom Barcode Labels in Aspose.Words for Java](./generating-custom-barcode-labels/)
 Genera etichette barcode personalizzate in Aspose.Words per Java. Scopri come creare soluzioni barcode personalizzate usando Aspose.Words per Java in questa guida passo‑passo.
 

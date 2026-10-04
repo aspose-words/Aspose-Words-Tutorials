@@ -28,6 +28,9 @@
 
 ## บทช่วยสอนที่พร้อมใช้งาน
 
+### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+
 ### [การบันทึกหน้าและรูปภาพที่กำหนดเองใน Java ด้วย Aspose.Words Callbacks](./aspose-words-java-callback-custom-savings/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Java
 
@@ -38,6 +41,9 @@
 เรียนรู้วิธีเพิ่มเงาให้กับรูปร่างในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
 ### [ใช้เอฟเฟกต์เงากับรูปร่างใน C# – คู่มือขั้นตอนต่อขั้นตอน](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 เรียนรู้วิธีเพิ่มเงาให้กับรูปร่างใน C# ด้วย Aspose.Words เพื่อสร้างเอกสารที่ดูเป็นมืออาชีพ
+
+### [วิธีซ่อนรูปร่างในเอกสาร Word ด้วย Java](./how-to-hide-shape-in-a-word-document-using-java/)
+เรียนรู้วิธีซ่อนรูปร่างในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 

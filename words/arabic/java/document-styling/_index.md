@@ -43,8 +43,12 @@
 تعلّم كيفية إضافة العلامات المائية وإعداد إعدادات الصفحات باستخدام Aspose.Words لجافا. دليل شامل مع الكود المصدر.
 ### [تنسيق رأس وتذييل المستند](./document-header-footer-styling/)
 تعرّف على كيفية تنسيق رؤوس وتذييلات المستندات باستخدام Aspose.Words لجافا في هذا الدليل المفصل. يتضمن تعليمات خطوة بخطوة وشيفرة المصدر.
+### [كيفية تعديل فاصل الحاشية السفلية في جافا باستخدام Aspose.Words](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+تعلّم كيفية تعديل فاصل الحواشي السفلية في مستندات Word باستخدام Aspose.Words لجافا.
 ### [كيفية اكتشاف الخطوط في مستندات Word Java – دليل شامل](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
-تعلّم كيفية اكتشاف الخطوط المستخدمة في مستندات Word باستخدام Aspose.Words لجافا. دليل خطوة بخطوة مع أمثلة الكود.
+تعرّف على كيفية اكتشاف الخطوط المستخدمة في مستندات Word باستخدام Aspose.Words لجافا. دليل خطوة بخطوة مع أمثلة الكود.
+### [كيفية تفجير شريحة في مخطط Word وتخصيص مظهرها](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+تعلّم كيفية تفجير شريحة في مخطط Word وتعديل مظهرها باستخدام Aspose.Words لجافا.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

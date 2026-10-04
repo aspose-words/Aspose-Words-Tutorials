@@ -43,6 +43,9 @@ Aspose.Words for Java के साथ, आप तुरंत गतिशी�
 याद रखें, अभ्यास से निपुणता आती है, और Aspose.Words for Java के साथ, आप कुछ ही समय में एक प्रो की तरह दस्तावेज़ बना, संशोधित और संवर्धित कर सकेंगे। हैप्पी कोडिंग!
 
 ## दस्तावेज़ तत्वों का उपयोग ट्यूटोरियल
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [Java के लिए Aspose.Words में टिप्पणियों का उपयोग करना](./using-comments/)
 Java के लिए Aspose.Words में टिप्पणियों का उपयोग करना सीखें। अपने दस्तावेज़ों में टिप्पणियाँ जोड़ने और उन्हें अनुकूलित करने के लिए चरण-दर-चरण ट्यूटोरियल।
 ### [जावा के लिए Aspose.Words में फ़ील्ड का उपयोग करना](./using-fields/)

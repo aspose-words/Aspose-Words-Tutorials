@@ -44,6 +44,9 @@ In conclusion, mastering document element manipulation using Aspose.Words for Ja
 Remember, practice makes perfect, and with Aspose.Words for Java, you'll be creating, modifying, and enhancing documents like a pro in no time. Happy coding!
 
 ## Using Document Elements Tutorials
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [Using Comments in Aspose.Words for Java](./using-comments/)
 Learn how to use comments in Aspose.Words for Java. Step-by-step tutorial for adding and customizing comments in your documents.
 ### [Using Fields in Aspose.Words for Java](./using-fields/)

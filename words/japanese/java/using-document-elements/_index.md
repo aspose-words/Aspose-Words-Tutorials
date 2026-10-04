@@ -43,6 +43,9 @@ Aspose.Words for Javaを使えば、動的なドキュメントを即座に作�
 練習を重ねれば完璧になります。Aspose.Words for Javaを使えば、あっという間にプロ並みのドキュメントを作成、修正、強化できるようになります。コーディングを楽しみましょう！
 
 ## ドキュメント要素チュートリアルの使用
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [Aspose.Words for Java でのコメントの使用](./using-comments/)
 Aspose.Words for Javaでコメントを使用する方法を学びましょう。ドキュメントにコメントを追加およびカスタマイズするためのステップバイステップのチュートリアルです。
 ### [Aspose.Words for Java でのフィールドの使用](./using-fields/)

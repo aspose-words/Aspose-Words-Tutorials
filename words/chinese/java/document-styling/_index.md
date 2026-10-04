@@ -45,6 +45,10 @@ Aspose.Words for Java 提供了强大的文档样式工具，帮助开发人员�
 在本详细指南中学习如何使用 Aspose.Words for Java 设置文档页眉和页脚的样式。指南包含分步说明和源代码。
 ### [在 Java Word 文档中检测字体 – 完整指南](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 学习如何使用 Aspose.Words for Java 检测文档中的字体。包含源代码示例的完整指南。 
+### [如何在 Java 中编辑脚注分隔符](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+学习如何在 Java 中使用 Aspose.Words 编辑脚注分隔符，提供完整代码示例。
+### [在 Word 图表中拆分切片并自定义外观](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+学习如何在 Word 图表中拆分切片并自定义其外观，包含完整代码示例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

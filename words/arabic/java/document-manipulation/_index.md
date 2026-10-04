@@ -56,6 +56,9 @@ Aspose.Words for Java هي واجهة برمجة تطبيقات قوية ومت�
 ابدأ رحلة التعلم الخاصة بك اليوم واكتشف إمكانيات لا حصر لها في التعامل مع المستندات باستخدام Aspose.Words for Java.
 
 ## دروس معالجة المستندات
+### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
+
+
 ### [استخدام خيارات التنظيف في Aspose.Words لـ Java](./using-cleanup-options/)
 حسّن وضوح مستنداتك باستخدام خيارات التنظيف في Aspose.Words لجافا. تعرّف على كيفية إزالة الفقرات الفارغة والمناطق غير المستخدمة والمزيد.
 ### [استخدام الحقول في Aspose.Words لـ Java](./using-fields/)

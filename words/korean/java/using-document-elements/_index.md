@@ -43,6 +43,9 @@ Aspose.Words for Java를 사용하면 동적 문서를 즉시 생성할 수 있�
 연습하면 완벽해진다는 것을 기억하세요. Aspose.Words for Java를 사용하면 순식간에 전문가처럼 문서를 만들고, 수정하고, 향상시킬 수 있습니다. 즐거운 코딩 되세요!
 
 ## 문서 요소 사용 튜토리얼
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [Java용 Aspose.Words에서 주석 사용](./using-comments/)
 Aspose.Words for Java에서 주석을 사용하는 방법을 알아보세요. 문서에 주석을 추가하고 사용자 지정하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 필드 사용](./using-fields/)

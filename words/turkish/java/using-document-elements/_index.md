@@ -43,6 +43,9 @@ Sonuç olarak, Aspose.Words for Java kullanarak belge öğesi manipülasyonunda 
 Unutmayın, pratik mükemmelleştirir ve Aspose.Words for Java ile kısa sürede bir profesyonel gibi belgeler oluşturacak, düzenleyecek ve geliştireceksiniz. İyi kodlamalar!
 
 ## Belge Öğelerini Kullanma Eğitimleri
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [Java için Aspose.Words'de Yorumları Kullanma](./using-comments/)
 Java için Aspose.Words'de yorumların nasıl kullanılacağını öğrenin. Belgelerinize yorum eklemek ve özelleştirmek için adım adım eğitim.
 ### [Java için Aspose.Words'de Alanları Kullanma](./using-fields/)

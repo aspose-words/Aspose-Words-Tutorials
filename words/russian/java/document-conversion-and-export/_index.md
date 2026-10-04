@@ -69,6 +69,9 @@ weight: 22
 Для получения дополнительной информации ознакомьтесь с [Aspose.Words for Java API Documentation](https://reference.aspose.com/words/java/), а чтобы начать, скачайте его [здесь](https://releases.aspose.com/words/java/). Если у вас есть вопросы или нужна помощь, смело обращайтесь к нашему [форуму поддержки](https://forum.aspose.com/).
 
 ## Учебные пособия по конвертации и экспорту документов
+### [How to convert docx to markdown with table support in Java](./how-to-convert-docx-to-markdown-with-table-support-in-java/)
+
+
 ### [Создание пользовательских этикеток штрихкода в Aspose.Words для Java](./generating-custom-barcode-labels/)
 Генерация пользовательских этикеток штрихкодов в Aspose.Words для Java. Узнайте, как создавать персонализированные решения для штрихкодов с помощью Aspose.Words для Java в этом пошаговом руководстве.
 

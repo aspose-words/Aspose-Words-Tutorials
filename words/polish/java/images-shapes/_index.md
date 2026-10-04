@@ -28,6 +28,12 @@ dziedzinie przetwarzania dokumentów integrowanie obrazów i kształtów jest kl
 
 ## Dostępne samouczki
 
+### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
+
+
+### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+
 ### [Niestandardowe zapisywanie stron i obrazów w Javie z wywołaniami zwrotnymi Aspose.Words](./aspose-words-java-callback-custom-savings/)
 Samouczek dotyczący kodu dla Aspose.Words Java
 

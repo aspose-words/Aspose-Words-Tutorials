@@ -106,6 +106,9 @@ weight: 22
 ### [Αποθήκευση docx ως markdown σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε έγγραφα DOCX σε μορφή Markdown χρησιμοποιώντας Aspose.Words for Java, με πλήρη βήματα και παραδείγματα κώδικα.
 
+### [Πώς να μετατρέψετε docx σε markdown με υποστήριξη πινάκων σε Java](./how-to-convert-docx-to-markdown-with-table-support-in-java/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε Markdown με πλήρη υποστήριξη πινάκων χρησιμοποιώντας Aspose.Words for Java.
+
 ### [Create markdown from document – Export and save images](./create-markdown-from-document-export-and-save-images/)
 Μάθετε πώς να μετατρέψετε έγγραφα σε markdown και να αποθηκεύσετε τις ενσωματωμένες εικόνες χρησιμοποιώντας Aspose.Words for Java.
 
@@ -115,7 +118,7 @@ weight: 22
 ### [Μετατροπή DOCX σε PDF με εξαγωγή ενσωματωμένου σχήματος – Οδηγός βήμα‑βήμα](./convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/)
 Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF διατηρώντας τα ενσωματωμένα σχήματα, με πλήρη βήμα‑βήμα οδηγίες.
 
-### [Δημιουργία PDF UA σε Java – Πλήρης Οδηγός](./create-pdf-ua-in-java-complete-guide/)
+### [Create PDF UA in Java – Complete Guide](./create-pdf-ua-in-java-complete-guide/)
 Μάθετε πώς να δημιουργήσετε PDF με υποστήριξη UA σε Java χρησιμοποιώντας Aspose.Words, βήμα‑βήμα οδηγίες και παραδείγματα κώδικα.
 
 ### [Πώς να Ανακτήσετε DOCX, Εξαγωγή σε Markdown & PDF/UA – Πλήρης Οδηγός Java](./how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/)
@@ -161,6 +164,7 @@ weight: 22
 
 ### [Πώς να Εξάγετε Markdown από Word χρησιμοποιώντας Java – Πλήρης Οδηγός](./how-to-export-markdown-from-word-using-java-complete-guide/)
 Μάθετε πώς να μετατρέψετε έγγραφα Word σε Markdown με Aspose.Words for Java, βήμα‑βήμα με παραδείγματα κώδικα.
+
 ### [Αποθήκευση docx ως txt – Γρήγορος Οδηγός C# με Εξαγωγή Μαθηματικών LaTeX](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
 Μάθετε πώς να μετατρέψετε αρχεία DOCX σε TXT σε C# και να εξάγετε μαθηματικές εξισώσεις σε μορφή LaTeX.
 

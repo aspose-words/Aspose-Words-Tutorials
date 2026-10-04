@@ -45,6 +45,10 @@ Aspose.Words for Java предоставляет мощные инструмен
 Узнайте, как стилизовать верхние и нижние колонтитулы документов с помощью Aspose.Words для Java в этом подробном руководстве. Пошаговые инструкции и исходный код включены.
 ### [Как определить шрифты в Java Word документах – Полное руководство](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 Узнайте, как определять шрифты в документах Word с помощью Aspose.Words для Java. Подробное руководство с примерами кода.
+### [Как изменить разделитель сносок в Java с помощью Aspose.Words](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Узнайте, как изменить разделитель сносок в документах Word с помощью Aspose.Words для Java.
+### [Как «взрывать» срез в диаграмме Word и настроить его внешний вид](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+Узнайте, как «взрывать» отдельный срез в диаграмме Word и настраивать его внешний вид с помощью Aspose.Words для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

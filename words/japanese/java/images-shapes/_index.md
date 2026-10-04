@@ -28,6 +28,9 @@ Aspose.Words for Java を使用した画像と図形の操作方法を、ステ�
 
 ## 利用可能なチュートリアル
 
+### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
+
+
 ### [Aspose.Words コールバックを使用して Java でカスタムページと画像を保存する](./aspose-words-java-callback-custom-savings/)
 Aspose.Words Javaのコードチュートリアル
 
@@ -36,8 +39,12 @@ Aspose.Words for Java を使って、Word 文書の高品質なサムネイル�
 
 ### [Word の図形に影を追加する – 完全 Aspose.Words ガイド](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Aspose.Words for Java を使用して、Word 文書内の図形に影効果を適用する方法をステップバイステップで解説します。
+
 ### [C# で図形に影効果を適用する – ステップバイステップ ガイド](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 C# で図形に影効果を適用する手順をステップバイステップで解説します。
+
+### [C# と DocumentBuilder を使用して Word で図形をグループ化する方法](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+C# と DocumentBuilder を使って Word 文書内の図形をグループ化する手順を解説します。
 
 ## 追加リソース
 

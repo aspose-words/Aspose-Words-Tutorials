@@ -56,6 +56,9 @@ Manipulowanie dokumentami za pomocą Aspose.Words for Java to cenna umiejętnoś
 Rozpocznij swoją przygodę z nauką już dziś i odkryj nieograniczone możliwości manipulowania dokumentami dzięki Aspose.Words for Java.
 
 ## Samouczki dotyczące manipulacji dokumentami
+### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
+
+
 ### [Korzystanie z opcji czyszczenia w Aspose.Words dla Java](./using-cleanup-options/)
 Zwiększ przejrzystość dokumentu dzięki opcjom czyszczenia Aspose.Words for Java. Dowiedz się, jak usuwać puste akapity, nieużywane obszary i inne.
 ### [Korzystanie z pól w Aspose.Words dla Java](./using-fields/)

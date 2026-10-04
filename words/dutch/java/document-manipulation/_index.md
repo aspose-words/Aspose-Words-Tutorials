@@ -105,6 +105,9 @@ Optimaliseer documentbeheer met Aspose.Words voor Java. Leer werken met document
 ### [Webextensies gebruiken in Aspose.Words voor Java](./using-web-extensions/)
 Verbeter documenten met webextensies in Aspose.Words voor Java. Leer hoe u webgebaseerde content naadloos kunt integreren. 
 
+### [Word-document maken met een platte-tekst contentcontrol](./create-word-document-with-a-plain-text-content-control/)
+Leer hoe u een Word-document maakt en een platte‑tekst contentcontrol toevoegt met Aspose.Words voor Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
