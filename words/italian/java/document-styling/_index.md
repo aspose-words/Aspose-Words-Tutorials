@@ -45,6 +45,10 @@ Scopri come applicare filigrane e configurare le pagine con Aspose.Words per Jav
 Scopri come formattare intestazioni e piè di pagina dei documenti utilizzando Aspose.Words per Java in questa guida dettagliata. Istruzioni dettagliate e codice sorgente inclusi.
 ### [Come rilevare i font nei documenti Word Java – Guida completa](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 Scopri come individuare i font nei documenti Word con Aspose.Words per Java. Esempi di codice e passaggi dettagliati. 
+### [Come modificare il separatore delle note a piè di pagina in Java con Aspose.Words](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Scopri come personalizzare il separatore delle note a piè di pagina nei documenti Word usando Aspose.Words per Java.
+### [Come esplodere una fetta in un grafico Word e personalizzarne l'aspetto](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+Scopri come far esplodere una sezione di un grafico Word e personalizzarne l'aspetto con Aspose.Words per Java. Esempi di codice inclusi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

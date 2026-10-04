@@ -28,6 +28,12 @@ Belge işleme alanında, görsel olarak çekici ve bilgilendirici içerik oluşt
 
 ## Mevcut Eğitimler
 
+### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
+
+
+### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+
 ### [Aspose.Words Geri Aramaları ile Java'da Özel Sayfa ve Resim Kaydetme](./aspose-words-java-callback-custom-savings/)
 Aspose.Words Java için bir kod eğitimi
 

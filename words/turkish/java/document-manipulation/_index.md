@@ -56,6 +56,9 @@ Java için Aspose.Words kullanarak belge düzenleme, geliştiriciler ve işletme
 Öğrenme yolculuğunuza bugün başlayın ve Aspose.Words for Java ile belge düzenlemenin sonsuz olanaklarının kilidini açın.
 
 ## Belge İşleme Eğitimleri
+### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
+
+
 ### [Java için Aspose.Words'de Temizleme Seçeneklerini Kullanma](./using-cleanup-options/)
 Aspose.Words for Java Temizleme Seçenekleriyle Belge Netliğini Geliştirin. Boş paragrafları, kullanılmayan bölgeleri ve daha fazlasını nasıl kaldıracağınızı öğrenin.
 ### [Java için Aspose.Words'de Alanları Kullanma](./using-fields/)

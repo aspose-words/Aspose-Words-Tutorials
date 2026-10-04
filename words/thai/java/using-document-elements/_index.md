@@ -43,6 +43,9 @@
 โปรดจำไว้ว่าการฝึกฝนทำให้เก่งขึ้น และด้วย Aspose.Words สำหรับ Java คุณจะสามารถสร้าง แก้ไข และปรับปรุงเอกสารได้เหมือนมืออาชีพในเวลาไม่นาน เขียนโค้ดให้สนุก!
 
 ## การใช้บทช่วยสอนองค์ประกอบเอกสาร
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [การใช้ความคิดเห็นใน Aspose.Words สำหรับ Java](./using-comments/)
 เรียนรู้วิธีใช้คำอธิบายประกอบใน Aspose.Words สำหรับ Java บทช่วยสอนแบบทีละขั้นตอนสำหรับการเพิ่มและปรับแต่งคำอธิบายประกอบในเอกสารของคุณ
 ### [การใช้ฟิลด์ใน Aspose.Words สำหรับ Java](./using-fields/)

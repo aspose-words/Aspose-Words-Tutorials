@@ -56,6 +56,9 @@ Dokumenthantering med Aspose.Words för Java är en värdefull färdighet för u
 Börja din inlärningsresa idag och lås upp de oändliga möjligheterna för dokumenthantering med Aspose.Words för Java.
 
 ## Handledningar för dokumenthantering
+### [Create word document with a plain text content control](./create-word-document-with-a-plain-text-content-control/)
+
+
 ### [Använda rensningsalternativ i Aspose.Words för Java](./using-cleanup-options/)
 Förbättra dokumenttydligheten med Aspose.Words för Java-rensningsalternativ. Lär dig hur du tar bort tomma stycken, oanvända regioner och mer.
 ### [Använda fält i Aspose.Words för Java](./using-fields/)

@@ -36,8 +36,15 @@
 
 ### [إضافة ظل إلى الشكل في Word – دليل Aspose.Words الكامل](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 تعلم كيفية إضافة ظل إلى الأشكال في مستندات Word باستخدام Aspose.Words لجافا خطوة بخطوة.
+
 ### [تطبيق تأثير الظل على شكل في C# – دليل خطوة بخطوة](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 تعلم كيفية إضافة تأثير الظل إلى الأشكال في C# باستخدام Aspose.Words خطوةً بخطوة.
+
+### [كيفية تجميع الأشكال في Word باستخدام C# و DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+تعلم كيفية تجميع الأشكال في مستندات Word باستخدام C# و DocumentBuilder خطوة بخطوة.
+
+### [كيفية إخفاء الشكل في مستند Word باستخدام Java](./how-to-hide-shape-in-a-word-document-using-java/)
+تعلم كيفية إخفاء الأشكال في مستندات Word باستخدام Aspose.Words لجافا خطوة بخطوة.
 
 ## موارد إضافية
 

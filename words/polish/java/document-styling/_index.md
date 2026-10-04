@@ -45,6 +45,9 @@ Dowiedz się, jak stosować znaki wodne i konfigurować strony za pomocą Aspose
 Dowiedz się, jak stylizować nagłówki i stopki dokumentów za pomocą Aspose.Words for Java w tym szczegółowym przewodniku. Dołączono instrukcje krok po kroku i kod źródłowy.
 ### [Jak wykrywać czcionki w dokumentach Word w Javie – kompletny przewodnik](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 Dowiedz się, jak wykrywać użyte czcionki w dokumentach Word przy użyciu Aspose.Words for Java. Praktyczny przewodnik z przykładami kodu.
+### [Jak edytować separator przypisu w Javie przy użyciu Aspose.Words](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Dowiedz się, jak zmienić separator przypisów w dokumentach Word przy użyciu Aspose.Words for Java. Praktyczny przewodnik z kodem źródłowym.
+### [Jak rozdzielić fragment wykresu w Wordzie i dostosować jego wygląd](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

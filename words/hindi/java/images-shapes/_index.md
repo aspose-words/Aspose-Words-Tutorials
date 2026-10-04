@@ -28,6 +28,12 @@ Aspose.Words for Java का उपयोग करके छवियों औ
 
 ## उपलब्ध ट्यूटोरियल
 
+### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
+
+
+### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+
 ### [Aspose.Words कॉलबैक के साथ जावा में कस्टम पेज और छवि सेविंग](./aspose-words-java-callback-custom-savings/)
 Aspose.Words Java के लिए एक कोड ट्यूटोरियल
 

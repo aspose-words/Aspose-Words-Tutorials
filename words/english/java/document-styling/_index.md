@@ -46,6 +46,10 @@ Learn how to apply watermarks and set up page configurations with Aspose.Words f
 Learn how to style document headers and footers using Aspose.Words for Java in this detailed guide. Step-by-step instructions and source code included.
 ### [How to Detect Fonts in Java Word Documents – Complete Guide](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 Learn how to detect fonts in Java Word documents using Aspose.Words for Java. Step-by-step guide with source code.
+### [How to edit footnote separator in Java with Aspose.Words](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Learn how to edit footnote separators in Java using Aspose.Words. Step-by-step guide with source code.
+### [How to explode slice in a Word chart and customize its appearance](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+Learn how to explode a slice in a Word chart and customize its appearance using Aspose.Words for Java with step-by-step code examples.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

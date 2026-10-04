@@ -28,6 +28,12 @@
 
 ## Доступные обучающие материалы
 
+### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
+
+
+### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+
 ### [Сохранение пользовательских страниц и изображений в Java с помощью обратных вызовов Aspose.Words](./aspose-words-java-callback-custom-savings/)
 Учебник по коду для Aspose.Words Java
 

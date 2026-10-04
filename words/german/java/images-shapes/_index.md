@@ -28,6 +28,12 @@ In der Dokumentenverarbeitung ist die Integration von Bildern und Formen entsche
 
 ## Verfügbare Tutorials
 
+### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
+
+
+### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+
 ### [Benutzerdefiniertes Speichern von Seiten und Bildern in Java mit Aspose.Words-Rückrufen](./aspose-words-java-callback-custom-savings/)
 Ein Code-Tutorial für Aspose.Words Java
 

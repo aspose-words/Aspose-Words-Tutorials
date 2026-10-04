@@ -43,6 +43,9 @@
 تذكر، الممارسة تُكسبك الإتقان، ومع Aspose.Words لجافا، ستتمكن من إنشاء وتعديل وتحسين مستنداتك باحترافية وفي وقت قصير. برمجة ممتعة!
 
 ## دروس تعليمية حول استخدام عناصر المستند
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [استخدام التعليقات في Aspose.Words للغة Java](./using-comments/)
 تعرّف على كيفية استخدام التعليقات في Aspose.Words لجافا. دليل خطوة بخطوة لإضافة التعليقات وتخصيصها في مستنداتك.
 ### [استخدام الحقول في Aspose.Words لـ Java](./using-fields/)

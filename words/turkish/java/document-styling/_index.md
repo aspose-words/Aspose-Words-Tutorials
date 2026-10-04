@@ -42,9 +42,13 @@ Java için Aspose.Words kullanarak belge temalarını nasıl özelleştireceğin
 ### [Belge Filigranlama ve Sayfa Düzeni](./document-watermarking-page-setup/)
 Aspose.Words for Java ile filigranların nasıl uygulanacağını ve sayfa yapılandırmalarının nasıl ayarlanacağını öğrenin. Kaynak kodlu kapsamlı bir kılavuz.
 ### [Belge Başlığı ve Alt Bilgi Biçimlendirmesi](./document-header-footer-styling/)
-Bu ayrıntılı kılavuzda Aspose.Words for Java kullanarak belge başlıklarını ve altbilgilerini nasıl biçimlendireceğinizi öğrenin. Adım adım talimatlar ve kaynak kodu dahildir.
+Bu ayrıntılı kılavuzda Aspose.Words for Java kullanarak belge başlıklarını ve altbilgilerini nasıl biçimlendireceğinizi öğrenin. Adım adım talimatlar ve kaynak kod dahildir.
 ### [Java Word Belgelerinde Yazı Tiplerini Algılamak – Tam Kılavuz](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 Aspose.Words for Java kullanarak Word belgelerindeki yazı tiplerini nasıl tespit edeceğinizi öğrenin. Adım adım örnekler.
+### [Java'da Aspose.Words ile dipnot ayırıcıyı düzenleme](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Aspose.Words for Java kullanarak dipnot ayırıcılarını nasıl değiştireceğinizi öğrenin. Adım adım örnekler ve kod parçacıkları.
+### [Word grafiğinde dilimi patlatma ve görünümünü özelleştirme](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+Aspose.Words for Java ile Word grafiğindeki dilimi nasıl patlatıp görünümünü özelleştireceğinizi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

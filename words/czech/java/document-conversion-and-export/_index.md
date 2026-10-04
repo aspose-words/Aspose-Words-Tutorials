@@ -73,6 +73,9 @@ Takže se ponořte do níže uvedených tutoriálů a odemkněte plný potenciá
 Pro více informací si prohlédněte [Aspose.Words for Java API Documentation](https://reference.aspose.com/words/java/), a pro zahájení si jej stáhněte [zde](https://releases.aspose.com/words/java/). Pokud máte jakékoli otázky nebo potřebujete pomoc, neváhejte se obrátit na naše [support forum](https://forum.aspose.com/).
 
 ## Tutoriály pro konverzi a export dokumentů
+### [How to convert docx to markdown with table support in Java](./how-to-convert-docx-to-markdown-with-table-support-in-java/)
+
+
 ### [Generování vlastních štítků s čárovým kódem v Aspose.Words for Java](./generating-custom-barcode-labels/)
 Generujte vlastní štítky s čárovým kódem v Aspose.Words for Java. Naučte se vytvářet personalizovaná řešení čárových kódů pomocí Aspose.Words for Java v tomto krok‑za‑krokem průvodci.
 

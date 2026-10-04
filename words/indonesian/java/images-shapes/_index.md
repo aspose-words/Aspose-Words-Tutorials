@@ -28,6 +28,12 @@ Dalam bidang pemrosesan dokumen, mengintegrasikan gambar dan bentuk sangat penti
 
 ## Tutorial yang Tersedia
 
+### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
+
+
+### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+
 ### [Penyimpanan Halaman & Gambar Kustom di Java dengan Panggilan Balik Aspose.Words](./aspose-words-java-callback-custom-savings/)
 Tutorial kode untuk Aspose.Words Java
 

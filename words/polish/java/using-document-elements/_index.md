@@ -43,6 +43,9 @@ Podsumowując, opanowanie manipulacji elementami dokumentu za pomocą Aspose.Wor
 Pamiętaj, że praktyka czyni mistrza, a dzięki Aspose.Words for Java będziesz tworzyć, modyfikować i ulepszać dokumenty jak profesjonalista w mgnieniu oka. Miłego kodowania!
 
 ## Korzystanie z samouczków dotyczących elementów dokumentu
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [Korzystanie z komentarzy w Aspose.Words dla Java](./using-comments/)
 Dowiedz się, jak używać komentarzy w Aspose.Words for Java. Samouczek krok po kroku dotyczący dodawania i dostosowywania komentarzy w dokumentach.
 ### [Korzystanie z pól w Aspose.Words dla Java](./using-fields/)

@@ -68,6 +68,9 @@ Aşağıdaki öğreticilere göz atın ve Aspose.Words for Java’nın belge‑i
 Daha fazla bilgi için [Aspose.Words for Java API Documentation](https://reference.aspose.com/words/java/) adresine bakın ve başlamak için [buradan](https://releases.aspose.com/words/java/) indirin. Sorularınız varsa veya yardıma ihtiyaç duyarsanız, [destek forumumuz](https://forum.aspose.com/) üzerinden bize ulaşabilirsiniz.
 
 ## Belge Dönüştürme ve Dışa Aktarma Eğitimleri
+### [How to convert docx to markdown with table support in Java](./how-to-convert-docx-to-markdown-with-table-support-in-java/)
+
+
 ### [Aspose.Words for Java'da Özel Barkod Etiketleri Oluşturma](./generating-custom-barcode-labels/)
 Aspose.Words for Java’da Özel Barkod Etiketleri Oluşturma. Bu adım‑adım rehberde Aspose.Words for Java kullanarak kişiselleştirilmiş barkod çözümleri oluşturmayı öğrenin.
 

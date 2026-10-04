@@ -65,6 +65,9 @@ Aspose.Words for Java の主要機能のひとつは、**convert docx to pdf** �
 詳細については、[Aspose.Words for Java API Documentation](https://reference.aspose.com/words/java/) をご覧ください。また、開始するには [here](https://releases.aspose.com/words/java/) からダウンロードしてください。ご質問やサポートが必要な場合は、[support forum](https://forum.aspose.com/) までお気軽にお問い合わせください。
 
 ## ドキュメント変換とエクスポートのチュートリアル
+### [How to convert docx to markdown with table support in Java](./how-to-convert-docx-to-markdown-with-table-support-in-java/)
+
+
 ### [Aspose.Words for Java でカスタムバーコードラベルを生成する](./generating-custom-barcode-labels/)
 Aspose.Words for Java でカスタムバーコードラベルを生成します。このステップバイステップガイドで、Aspose.Words for Java を使用したパーソナライズされたバーコードソリューションの作成方法を学びます。
 

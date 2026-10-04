@@ -43,6 +43,9 @@ Készen állsz, hogy elkezdjük? Látogass el ide: [Aspose.Words Java API dokume
 Ne feledd, a gyakorlat teszi a mestert, és az Aspose.Words for Java segítségével pillanatok alatt profi módon fogsz dokumentumokat létrehozni, módosítani és fejleszteni. Jó kódolást!
 
 ## Dokumentumelemek használata – Oktatóanyagok
+### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
+
+
 ### [Megjegyzések használata az Aspose.Words Java-ban](./using-comments/)
 Tanuld meg, hogyan használhatsz megjegyzéseket az Aspose.Words for Java programban. Lépésről lépésre útmutató a dokumentumokban található megjegyzések hozzáadásához és testreszabásához.
 ### [Mezők használata az Aspose.Words fájlban Java-ban](./using-fields/)

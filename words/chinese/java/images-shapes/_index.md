@@ -28,6 +28,12 @@
 
 ## 可用教程
 
+### [How to hide shape in a Word document using Java](./how-to-hide-shape-in-a-word-document-using-java/)
+
+
+### [How to group shapes in Word with C# and DocumentBuilder](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
+
+
 ### [使用 Aspose.Words 回调在 Java 中保存自定义页面和图像](./aspose-words-java-callback-custom-savings/)
 Aspose.Words Java 代码教程
 

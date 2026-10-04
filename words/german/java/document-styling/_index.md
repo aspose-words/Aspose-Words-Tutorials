@@ -45,6 +45,10 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java Wasserzeichen anwenden und Seit
 Erfahren Sie in dieser ausführlichen Anleitung, wie Sie Dokumentkopf- und -fußzeilen mit Aspose.Words für Java formatieren. Schritt-für-Schritt-Anleitung und Quellcode inklusive.
 ### [Wie man Schriftarten in Java-Word-Dokumenten erkennt – Komplettanleitung](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java Schriftarten in Word-Dokumenten erkennen. Schritt-für-Schritt-Anleitung mit Beispielcode.
+### [Wie man das Fußnoten‑Trennzeichen in Java mit Aspose.Words bearbeitet](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Erfahren Sie, wie Sie das Trennzeichen von Fußnoten in Java mit Aspose.Words anpassen.
+### [Wie man ein Segment in einem Word-Diagramm explodiert und dessen Aussehen anpasst](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+Erfahren Sie, wie Sie ein Segment in einem Word-Diagramm explodieren und das Aussehen individuell anpassen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
