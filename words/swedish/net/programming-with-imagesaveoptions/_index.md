@@ -31,6 +31,7 @@ Handledningarna täcker även de grundläggande koncepten för bildmanipulation,
 | [Skapa PNG‑rutnät från Word-dokument – Steg‑för‑steg‑guide](./create-png-grid-from-word-document-step-by-step-guide/) | Lär dig hur du skapar ett PNG‑rutnät från ett Word‑dokument med Aspose.Words för .NET i en detaljerad steg‑för‑steg‑guide. |
 | [Spara Word som bilder med C# – Steg‑för‑steg‑guide](./save-word-as-images-with-c-step-by-step-guide/) | Lär dig hur du sparar ett Word-dokument som en serie bilder med C# i Aspose.Words för .NET, steg för steg. |
 | [Konvertera Word till PNG – Sammanfoga sidor till en vertikal remsa](./convert-word-to-png-merge-pages-into-a-vertical-strip/) | Lär dig hur du konverterar ett Word-dokument till en PNG-bild där alla sidor kombineras till en vertikal bildremsa. |
+| [Konvertera Word till PNG – Komplett C#-guide](./convert-word-to-png-complete-c-guide/) | Lär dig hur du konverterar Word-dokument till PNG-bilder med Aspose.Words för .NET i en komplett C#-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -63,6 +63,7 @@
 | [Конвертировать docx в pdf – Полное руководство по доступным PDF](./convert-docx-to-pdf-complete-guide-for-accessible-pdfs/) | Полное руководство по конвертации DOCX в PDF с поддержкой доступности. |
 
 | [Создать доступный PDF из Word на C# – пошаговое руководство](./create-accessible-pdf-from-word-in-c-step-by-step-guide/) | Узнайте, как создать доступный PDF из документа Word с помощью C# и Aspose.Words, следуя пошаговому руководству. |
+| [Создание доступного PDF из Word с Aspose – пошаговое руководство](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) | Узнайте, как с помощью Aspose.Words for .NET создать PDF, соответствующий требованиям доступности, следуя пошаговому руководству. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

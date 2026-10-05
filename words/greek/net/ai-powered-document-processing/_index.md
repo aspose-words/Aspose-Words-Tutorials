@@ -47,6 +47,8 @@
 | [Πώς να Ελέγξετε τη Γραμματική στο Word με το Aspose.Words AI – Πλήρης Οδηγός](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words AI για αυτόματο έλεγχο γραμματικής σε έγγραφα Word, βήμα-βήμα. |
 | [Πώς να Ελέγξετε τη Γραμματική σε C# Χρησιμοποιώντας Τοπικό LLM](./how-to-check-grammar-in-c-using-a-local-llm/) | Μάθετε πώς να ενσωματώσετε ένα τοπικό μοντέλο γλώσσας για αυτόματο έλεγχο γραμματικής σε κώδικα C# με Aspose.Words. |
 | [Πώς να συνοψίσετε έγγραφα Word – Πλήρης οδηγός C#](./how-to-summarize-word-documents-complete-c-guide/) | Μάθετε πώς να δημιουργείτε περιλήψεις εγγράφων Word χρησιμοποιώντας Aspose.Words για .NET με C#. |
+| [Πώς να διορθώσετε τη γραμματική σε αρχεία DOCX με C# – Πλήρης οδηγός βήμα‑βήμα](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Μάθετε πώς να διορθώσετε γραμματικά λάθη σε έγγραφα DOCX χρησιμοποιώντας C# και Aspose.Words, ακολουθώντας αναλυτικά βήματα. |
+| [Σύνοψη εγγράφου Word με τοπικό LLM – Οδηγός C#](./summarize-word-document-with-local-llm-c-guide/) | Μάθετε πώς να συνοψίζετε έγγραφα Word με τοπικό LLM σε C# χρησιμοποιώντας το Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -31,6 +31,7 @@ Các hướng dẫn cũng đề cập đến các khái niệm cơ bản về th
 | [Tạo lưới PNG từ tài liệu Word – Hướng dẫn từng bước](./create-png-grid-from-word-document-step-by-step-guide/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu Word thành lưới các hình ảnh PNG bằng Aspose.Words cho .NET. |
 | [Lưu Word thành Hình ảnh với C# – Hướng Dẫn Từng Bước](./save-word-as-images-with-c-step-by-step-guide/) | Hướng dẫn chi tiết cách lưu tài liệu Word dưới dạng các hình ảnh bằng C# trong Aspose.Words cho .NET. |
 | [Chuyển đổi Word sang PNG – Ghép các trang thành dải dọc](./convert-word-to-png-merge-pages-into-a-vertical-strip/) | Hướng dẫn cách chuyển đổi tài liệu Word sang PNG và ghép các trang thành một dải ảnh dọc duy nhất bằng Aspose.Words cho .NET. |
+| [Chuyển đổi Word sang PNG – Hướng dẫn C# đầy đủ](./convert-word-to-png-complete-c-guide/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định dạng PNG bằng C# trong Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

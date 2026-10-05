@@ -31,6 +31,8 @@
 | [Создать сетку PNG из документа Word – пошаговое руководство](./create-png-grid-from-word-document-step-by-step-guide/) | Узнайте, как создать сетку PNG из документа Word, используя Aspose.Words for .NET, в пошаговом руководстве. |
 | [Сохранить Word как изображения с C# – пошаговое руководство](./save-word-as-images-with-c-step-by-step-guide/) | Узнайте, как сохранить документ Word в виде изображений с помощью C# и Aspose.Words, следуя пошаговому руководству. |
 | [Конвертировать Word в PNG – Объединить страницы в вертикальную полосу](./convert-word-to-png-merge-pages-into-a-vertical-strip/) | Узнайте, как преобразовать документ Word в PNG, объединяя все страницы в одну вертикальную полосу. |
+| [Конвертировать Word в PNG – Полное руководство C#](./convert-word-to-png-complete-c-guide/) | Узнайте, как преобразовать документы Word в PNG с помощью Aspose.Words for .NET, используя полный пошаговый C# пример. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

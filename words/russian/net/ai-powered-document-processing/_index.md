@@ -48,6 +48,8 @@
 | [Как проверить грамматику в C# с помощью локальной LLM](./how-to-check-grammar-in-c-using-a-local-llm/) | Узнайте, как использовать локальную LLM для проверки грамматики в C# с Aspose.Words, улучшая качество текста автоматически. |
 | [Резюмирование Word-документа с ИИ – OpenAI vs Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | Сравните, как модели OpenAI и Gemini резюмируют документы Word с помощью Aspose.Words для .NET. |
 | [Как резюмировать документы Word – Полное руководство на C#](./how-to-summarize-word-documents-complete-c-guide/) | Краткое руководство по использованию Aspose.Words для .NET и C# для создания резюме Word‑документов. |
+| [Как исправить грамматику в DOCX файлах с помощью C# – Полное пошаговое руководство](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Узнайте, как с помощью Aspose.Words для .NET исправлять грамматические ошибки в DOCX файлах на C# шаг за шагом. |
+| [Резюмирование документа Word с локальной LLM – руководство на C#](./summarize-word-document-with-local-llm-c-guide/) | Узнайте, как использовать локальную LLM для резюмирования Word‑документов на C# с помощью Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

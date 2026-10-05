@@ -54,6 +54,7 @@ V těchto tutoriálech se naučíte, jak používat LoadOptions k načítání d
 | [Aspose Load Options – Převést DOCX do Markdown a PDF](./aspose-load-options-convert-docx-to-markdown-pdf/) | Naučte se, jak pomocí Aspose.LoadOptions převést DOCX soubory do formátu Markdown a PDF. |
 | [Obnovit poškozené soubory Word – krok za krokem pro vývojáře C#](./recover-corrupted-word-files-step-by-step-guide-for-c-develo/) | Naučte se, jak pomocí Aspose.Words obnovit poškozené soubory Word krok za krokem. |
 | [Obnovit poškozený DOCX pomocí Aspose.Words – Kompletní průvodce C#](./recover-corrupted-docx-with-aspose-words-complete-c-guide/) | Naučte se, jak obnovit poškozené soubory DOCX pomocí Aspose.Words v C# s podrobným návodem. |
+| [Jak obnovit DOCX – Kompletní průvodce s Aspose.Words Recovery](./how-to-recover-docx-full-guide-with-aspose-words-recovery/) | Kompletní návod, jak pomocí Aspose.Words obnovit poškozené soubory DOCX krok za krokem. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

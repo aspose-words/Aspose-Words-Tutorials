@@ -48,6 +48,7 @@ Mit Aspose.Words für .NET und diesen Tutorials meistern Sie die Bearbeitung von
 | [Rechteckform in Word erstellen – Vollständige Aspose.Words-Anleitung](./create-rectangle-shape-in-word-full-aspose-words-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Rechteck in ein Word-Dokument einfügen und umfassend anpassen. |
 | [Word-Dokument mit einer Rechteckform und Schatten erstellen – Schritt-für-Schritt-Anleitung](./create-word-document-with-a-rectangle-shape-and-shadow-step/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument mit einer Rechteckform und Schatten erstellen. |
 | [Rechteckform mit Schatten in Word erstellen mit Aspose.Words](./create-rectangle-shape-with-shadow-in-word-using-aspose-word/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Rechteck mit Schatten in ein Word-Dokument einfügen und anpassen. |
+| [Schatten zu Form in Word mit Aspose.Words – Schritt‑für‑Schritt](./add-shadow-to-shape-in-word-with-aspose-words-step-by-step/) | Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.Words für .NET Schatten zu Formen in Word‑Dokumenten hinzufügen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -114,6 +114,10 @@
 
 ### [إنشاء Markdown من Word باستخدام Aspose — دليل خطوة بخطوة](./create-markdown-from-word-with-aspose-step-by-step-guide/)
 
+### [مجلد صور مخصص – تحويل Word إلى Markdown باستخدام Aspose.Words](./custom-image-folder-convert-word-to-markdown-with-aspose-wor/)
+
+### [تحويل docx إلى markdown باستخدام Aspose.Words – دليل كامل](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -48,6 +48,8 @@
 | [如何在 C# 中使用本地 LLM 檢查文法](./how-to-check-grammar-in-c-using-a-local-llm/) |使用 Aspose.Words for .NET 結合本地大型語言模型，在 C# 中自動檢查並校正文法錯誤。 |
 | [使用 AI 摘要 Word 文件 – OpenAI 與 Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) |比較 OpenAI 與 Gemini 在 Word 文件摘要中的效能與使用方式，幫助您選擇最佳 AI 解決方案。 |
 | [如何彙總 Word 文件 – 完整 C# 指南](./how-to-summarize-word-documents-complete-c-guide/) |使用 Aspose.Words for .NET 與 C# 完整指南，教您快速摘要 Word 文件，提升工作效率。 |
+| [如何使用 C# 修復 DOCX 檔案的文法 – 完整分步指南](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) |使用 Aspose.Words for .NET 與 C# 逐步修正 DOCX 文件中的語法錯誤，提高文件品質。 |
+| [使用本地 LLM 摘要 Word 文件 – C# 指南](./summarize-word-document-with-local-llm-c-guide/) |使用 Aspose.Words for .NET 結合本地大型語言模型，以 C# 實作文件摘要，提升離線處理效率。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

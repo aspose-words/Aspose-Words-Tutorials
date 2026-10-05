@@ -47,6 +47,7 @@ Aspose.Words for .NET 教學中關於使用形狀進行文字處理的教學提�
 | [在 Word 中建立矩形形狀 – 完整的 Aspose.Words 指南](./create-rectangle-shape-in-word-full-aspose-words-guide/) |透過本完整指南學習如何使用 Aspose.Words for .NET 在 Word 文件中插入矩形形狀。 |
 | [使用矩形形狀與陰影建立 Word 文件 – 逐步指南](./create-word-document-with-a-rectangle-shape-and-shadow-step/) |了解如何使用 Aspose.Words for .NET 在 Word 文件中建立帶陰影的矩形形狀。 |
 | [在 Word 中使用 Aspose.Words 建立帶陰影的矩形形狀](./create-rectangle-shape-with-shadow-in-word-using-aspose-word/) |透過本逐步教學了解如何使用 Aspose.Words for .NET 在 Word 文件中插入帶陰影的矩形形狀。 |
+| [在 Word 中使用 Aspose.Words 為形狀添加陰影 – 逐步教學](./add-shadow-to-shape-in-word-with-aspose-words-step-by-step/) |透過本逐步教學了解如何使用 Aspose.Words for .NET 為 Word 文件中的形狀添加陰影效果。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

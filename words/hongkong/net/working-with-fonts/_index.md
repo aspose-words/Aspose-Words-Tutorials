@@ -64,6 +64,7 @@
 | [處理字體警告 – 偵測缺少字體](./handle-font-warnings-in-aspose-words-detect-missing-fonts/) |了解如何在 Aspose.Words for .NET 中偵測缺失字體並處理相關警告。 |
 | [在 C# 中建立 FontSettings – 偵測缺少字體並捕獲字體訊息](./create-fontsettings-in-c-detect-missing-fonts-capture-font-m/) |了解如何在 Aspose.Words for .NET 中使用 C# 建立 FontSettings，以偵測缺失字體並捕獲字體訊息。 |
 | [在 C# 中捕獲字體警告 – 完整指南](./capture-font-warnings-in-c-complete-guide/) |了解如何使用 Aspose.Words for .NET 在 C# 中捕獲字體警告，確保文件字體問題得到即時通知。 |
+| [自訂字體設定（C#）– 載入 Word 並處理缺少的字體](./custom-font-settings-in-c-load-word-handle-missing-fonts/) |了解如何在 Aspose.Words for .NET 中使用 C# 設定自訂字體、載入 Word 文件並處理缺失字體。 |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

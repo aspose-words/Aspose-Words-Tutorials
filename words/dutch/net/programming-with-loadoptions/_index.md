@@ -54,6 +54,7 @@ In deze tutorials leert u hoe u LoadOptions kunt gebruiken om Word-documenten me
 | [Aspose Load Options – DOCX naar Markdown en PDF converteren](./aspose-load-options-convert-docx-to-markdown-pdf/) | Leer hoe u met LoadOptions een DOCX-document kunt omzetten naar Markdown en PDF met Aspose.Words voor .NET. |
 | [Hoe een DOCX te herstellen met C# – Stapsgewijze handleiding](./how-to-recover-docx-files-in-c-step-by-step-guide/) | Leer hoe u beschadigde DOCX-bestanden kunt herstellen met C# en Aspose.Words voor .NET in een duidelijke, stapsgewijze handleiding. |
 | [DOCX herstellen met Aspose.Words – Complete C#‑handleiding](./recover-corrupted-docx-with-aspose-words-complete-c-guide/) | Leer hoe u beschadigde DOCX-bestanden volledig kunt herstellen met een stapsgewijze C#‑handleiding in Aspose.Words. |
+| [Hoe een DOCX te herstellen – volledige gids met Aspose.Words herstel](./how-to-recover-docx-full-guide-with-aspose-words-recovery/) | Leer hoe u beschadigde DOCX-bestanden volledig kunt herstellen met Aspose.Words in deze uitgebreide gids. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

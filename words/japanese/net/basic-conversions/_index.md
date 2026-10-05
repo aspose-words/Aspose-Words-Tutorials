@@ -23,7 +23,8 @@
 | --- | --- |
 | [DocをDocxに変換する](./doc-to-docx/) Aspose.Words for .NET を使用して DOC を DOCX に変換する方法を学びましょう。コード例付きのステップバイステップガイド。開発者に最適です。 |
 | [DocxをRtfに変換する](./docx-to-rtf/) Aspose.Words for .NET を使用して DOCX を RTF に変換する方法を、ステップバイステップガイドで学習しましょう。簡単な変換で、シームレスなドキュメント処理が可能になります。 |  
-| [WordファイルをPDFに変換する](./docx-to-pdf/) Aspose.Words for .NET を使ってWordファイルをPDFに簡単に変換する方法を、ガイドでご紹介します。迅速かつ確実なドキュメント変換を求める開発者に最適です。 | 
+| [WordファイルをPDFに変換する](./docx-to-pdf/) Aspose.Words for .NET を使ってWordファイルをPDFに簡単に変換する方法を、ガイドでご紹介します。迅速かつ確実なドキュメント変換を求める開発者に最適です。 |
+| [docx を pdf に変換するチュートリアル – C# で Word を PDF に変換](./docx-to-pdf-tutorial-convert-word-to-pdf-in-c/) Aspose.Words for .NET を使用して C# で DOCX を PDF に変換する方法を、ステップバイステップで解説します。コード例付きで開発者に最適です。 |
 | [Docxをバイトに変換](./docx-to-byte/) Aspose.Wordsを使用して.NETでDocxファイルをバイト配列に変換し、効率的なドキュメント処理を実現する方法を学びましょう。ステップバイステップガイド付き。 |  
 | [DocxをEPUBに変換する](./docx-to-epub/) Aspose.Words for .NETを使えば、DOCXからEPUBへの変換が簡単です。チュートリアルに従って、.NETアプリケーションにシームレスに統合しましょう。 |
 | [DocxをMHTMLに変換してメールを送信する](./docx-to-mhtml-and-sending-email/) このステップバイステップガイドでは、Aspose.Words for .NET を使用してDOCXをMHTMLに変換し、メールを送信する方法を学習します。簡単な自動化で生産性を向上させましょう。 |
@@ -46,6 +47,7 @@
 | [C# で DOCX を PDF に変換する – 完全ガイド](./convert-docx-to-pdf-in-c-complete-guide/) Aspose.Words for .NET を使用して C# で DOCX を PDF に変換する完全ガイドです。コード例とステップバイステップの手順を提供します。 |
 | [Word を PDF に変換するチュートリアル: DOCX を Aspose.Words で PDF に変換](./word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/) Aspose.Words for .NET を使用して DOCX を PDF に変換する手順をステップバイステップで解説します。 |
 | [Aspose.WordsでWordをPDFとして保存 – ステップバイステップ ガイド](./save-word-as-pdf-with-aspose-words-step-by-step-guide/) Aspose.Words for .NET を使用して Word 文書を PDF に変換する手順をステップバイステップで解説します。コード例付きで開発者に最適です。 |
+| [Docx を Txt として保存する方法 – Docx を変換し LaTeX を抽出](./how-to-save-docx-as-txt-convert-docx-extract-latex/) Aspose.Words for .NET を使用して DOCX を TXT に変換し、LaTeX を抽出する方法をステップバイステップで解説します。 |
 
 | [DOCX からアクセシブル PDF を作成する – 完全 Aspose ガイド](./create-accessible-pdf-from-docx-complete-aspose-guide/) Aspose.Words for .NET を使用して、DOCX からアクセシブルな PDF を生成する方法をステップバイステップで解説します。コード例付きで開発者に最適です。 |
 | [C# で PNG を Base64 に変換する – 完全ガイド](./convert-png-to-base64-in-c-complete-guide/) C# で PNG 画像を Base64 文字列に変換する方法を、コード例と共にステップバイステップで解説します。 |

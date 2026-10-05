@@ -23,6 +23,7 @@
 -
 - [ส่งออกเป็นมาร์กดาวน์พร้อมการจัดตำแหน่งเนื้อหาตาราง](./export-into-markdown-with-table-content-alignment/) | เรียนรู้วิธีการส่งออกเอกสาร Word เป็น Markdown พร้อมจัดตารางให้ตรงกันโดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อสร้างตาราง Markdown ที่สมบูรณ์แบบ -
 | [ตั้งค่าโฟลเดอร์รูปภาพ](./set-images-folder/) แปลงเอกสาร Word เป็น Markdown พร้อมจัดวางตารางให้เหมาะสมโดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำโดยละเอียดของเราเพื่อผลลัพธ์ที่สมบูรณ์แบบ |
+
 ### [บันทึก Word เป็น PDF และกู้คืน Word ที่เสียหาย – แปลง Word เป็น Markdown ด้วย C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 ### [สร้าง PDF ที่เข้าถึงได้และแปลง Word เป็น Markdown – คู่มือเต็ม C#](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
@@ -33,6 +34,7 @@
 ### [แปลง docx เป็น markdown – คู่มือขั้นตอนโดยขั้นตอน C#](./convert-docx-to-markdown-step-by-step-c-guide/)
 
 ### [แปลง docx เป็น markdown ใน C# – คู่มือขั้นตอนโดยขั้นตอน](./convert-docx-to-markdown-in-c-step-by-step-guide/)
+### [แปลง docx เป็น markdown ด้วย Aspose.Words – คู่มือเต็ม](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
 
 ### [บันทึก docx เป็น markdown – คู่มือเต็ม C# พร้อมสมการ LaTeX](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
@@ -136,6 +138,9 @@
 
 ### [บันทึก Word เป็น Markdown – คู่มือเต็ม C# พร้อม Aspose.Words](./save-word-as-markdown-complete-c-guide-with-aspose-words/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างละเอียดด้วย Aspose.Words สำหรับ .NET ในคู่มือเต็ม C# นี้
+
+### [โฟลเดอร์รูปภาพแบบกำหนดเอง – แปลง Word เป็น Markdown ด้วย Aspose.Words](./custom-image-folder-convert-word-to-markdown-with-aspose-wor/)
+เรียนรู้วิธีตั้งค่าโฟลเดอร์รูปภาพแบบกำหนดเองเมื่อแปลงไฟล์ Word เป็น Markdown ด้วย Aspose.Words
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

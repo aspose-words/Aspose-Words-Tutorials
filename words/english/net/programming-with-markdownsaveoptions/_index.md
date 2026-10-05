@@ -68,6 +68,7 @@ class Program
 | [Convert Word to Markdown – Extract Images in C#](./convert-word-to-markdown-extract-images-in-c/) | Learn how to convert Word documents to Markdown while extracting images using Aspose.Words for .NET in C#. |
 | [Convert Word to Markdown – Complete Guide with Image Extraction](./convert-word-to-markdown-complete-guide-with-image-extractio/) | Learn how to convert Word to Markdown with image extraction using Aspose.Words for .NET. |
 | [Convert docx to markdown in C# – Step‑by‑Step Guide](./convert-docx-to-markdown-in-c-step-by-step-guide/) | Learn how to convert DOCX to Markdown step‑by‑step in C# using Aspose.Words for .NET. |
+| [Convert docx to markdown with Aspose.Words – Complete Guide](./convert-docx-to-markdown-with-aspose-words-complete-guide/) | Learn how to convert DOCX files to Markdown using Aspose.Words in a comprehensive step‑by‑step guide. |
 | [How to Export Markdown from Word – Complete C# Guide](./how-to-export-markdown-from-word-complete-c-guide/) |  |
 | [How to Save Word as Markdown – Complete C# Guide](./how-to-save-word-as-markdown-complete-c-guide/) | Learn how to save Word documents as Markdown using Aspose.Words for .NET with a complete C# guide. |
 | [How to Export Markdown from DOCX – Complete Guide](./how-to-export-markdown-from-docx-complete-guide/) |  |
@@ -97,6 +98,7 @@ class Program
 | [How to Save Markdown from Word with Images – Complete C# Guide](./how-to-save-markdown-from-word-with-images-complete-c-guide/) | Learn how to save Word documents as Markdown with image extraction using Aspose.Words for .NET. |
 | [Create Markdown from Word with Aspose — Step‑by‑Step Guide](./create-markdown-from-word-with-aspose-step-by-step-guide/) | Step‑by‑step guide to create Markdown from Word using Aspose.Words for .NET. |
 | [Save Word as Markdown – Complete C# Guide with Aspose.Words](./save-word-as-markdown-complete-c-guide-with-aspose-words/) | Learn how to save Word documents as Markdown using Aspose.Words in a complete C# guide. |
+| [custom image folder – Convert Word to Markdown with Aspose.Words](./custom-image-folder-convert-word-to-markdown-with-aspose-wor/) | Learn how to set a custom image folder when converting Word to Markdown using Aspose.Words for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

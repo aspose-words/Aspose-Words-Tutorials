@@ -47,6 +47,7 @@
 | [Δημιουργία σχήματος ορθογωνίου στο Word – Πλήρης οδηγός Aspose.Words](./create-rectangle-shape-in-word-full-aspose-words-guide/) | Μάθετε πώς να δημιουργήσετε σχήμα ορθογωνίου σε έγγραφο Word χρησιμοποιώντας το Aspose.Words με πλήρη βήμα-βήμα οδηγίες. |
 | [Δημιουργία εγγράφου Word με σχήμα ορθογωνίου και σκιά – Οδηγός βήμα προς βήμα](./create-word-document-with-a-rectangle-shape-and-shadow-step/) | Μάθετε πώς να δημιουργήσετε έγγραφο Word με σχήμα ορθογωνίου και εφέ σκιά χρησιμοποιώντας το Aspose.Words για .NET. |
 | [Δημιουργία σχήματος ορθογωνίου με σκιά στο Word χρησιμοποιώντας το Aspose.Words](./create-rectangle-shape-with-shadow-in-word-using-aspose-word/) | Μάθετε πώς να δημιουργήσετε σχήμα ορθογωνίου με σκιά σε έγγραφο Word χρησιμοποιώντας το Aspose.Words. |
+| [Προσθήκη σκιάς σε σχήμα στο Word με Aspose.Words – Βήμα‑βήμα](./add-shadow-to-shape-in-word-with-aspose-words-step-by-step/) | Μάθετε πώς να προσθέσετε σκιά σε σχήματα σε έγγραφα Word χρησιμοποιώντας το Aspose.Words με αυτόν τον αναλυτικό οδηγό. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

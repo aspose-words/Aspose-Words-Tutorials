@@ -30,6 +30,7 @@ Výukové programy se také zabývají základními koncepty manipulace s obráz
 | [Jak nastavit DPI při převodu Wordu na PNG – Kompletní průvodce v C#](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | Naučte se nastavit DPI při konverzi dokumentu Word do PNG pomocí Aspose.Words pro .NET v C#. |
 | [Vytvoření PNG mřížky z dokumentu Word – krok za krokem průvodce](./create-png-grid-from-word-document-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET vytvořit mřížku PNG obrázků z dokumentu Word v několika krocích. |
 | [Uložení Wordu jako obrázky v C# – krok za krokem průvodce](./save-word-as-images-with-c-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET v C# převést dokument Word na jednotlivé obrázky s podrobným postupem. |
+| [Převod Wordu na PNG – Kompletní průvodce v C#](./convert-word-to-png-complete-c-guide/) | Naučte se převést dokument Word do PNG pomocí Aspose.Words pro .NET v C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

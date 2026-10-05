@@ -31,6 +31,7 @@ Az oktatóanyagok a képmanipuláció alapvető fogalmait is lefedik, beleértve
 | [PNG rács létrehozása Word dokumentumból – Lépésről‑lépésre útmutató](./create-png-grid-from-word-document-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre PNG rácsot egy Word dokumentumból az Aspose.Words for .NET segítségével, részletes lépésről‑lépésre útmutatóval. |
 | [Word mentése képekbe C#-val – Lépésről lépésre útmutató](./save-word-as-images-with-c-step-by-step-guide/) | Ismerje meg, hogyan menthet Word-dokumentumot képfájlokként C#‑ban, részletes lépésekkel és beállítási lehetőségekkel. |
 | [Word konvertálása PNG-re – Oldalak egyesítése függőleges csíkba](./convert-word-to-png-merge-pages-into-a-vertical-strip/) | Tanulja meg, hogyan konvertálhatja a Word-dokumentumokat PNG-re, és egyesítheti az oldalakat egy függőleges csíkba az Aspose.Words for .NET segítségével. |
+| [Word konvertálása PNG-re – Teljes C# útmutató](./convert-word-to-png-complete-c-guide/) | Ismerje meg, hogyan konvertálhatja a Word-dokumentumokat PNG formátumba C#-ban, részletes lépésekkel. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

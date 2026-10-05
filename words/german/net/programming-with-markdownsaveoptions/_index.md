@@ -34,6 +34,9 @@ Erfahren Sie, wie Sie ein barrierefreies PDF erstellen und Word‑Dokumente in M
 ### [DOCX in Markdown konvertieren – Schritt‑für‑Schritt C#‑Leitfaden](./convert-docx-to-markdown-step-by-step-c-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren – detaillierte Schritt‑für‑Schritt‑Anleitung in C#.
 
+### [DOCX in Markdown konvertieren mit Aspose.Words – Vollständige Anleitung](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
+Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in Markdown konvertieren – umfassende Schritt‑für‑Schritt‑Anleitung.
+
 ### [DOCX als Markdown speichern – Vollständige C#‑Anleitung mit LaTeX‑Gleichungen](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 Erfahren Sie, wie Sie DOCX‑Dateien mit LaTeX‑Formeln in Markdown konvertieren – umfassende Schritt‑für‑Schritt‑Anleitung in C#.
 
@@ -162,6 +165,9 @@ Erfahren Sie, wie Sie Markdown aus Word‑Dokumenten mit Bildextraktion speicher
 
 ### [Word als Markdown speichern – Vollständige C#‑Anleitung mit Aspose.Words](./save-word-as-markdown-complete-c-guide-with-aspose-words/)
 Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words für .NET vollständig in Markdown speichern – komplette C#‑Anleitung.
+
+### [Benutzerdefinierter Bildordner – Word zu Markdown konvertieren mit Aspose.Words](./custom-image-folder-convert-word-to-markdown-with-aspose-wor/)
+Lernen Sie, wie Sie einen benutzerdefinierten Bildordner festlegen, um Word‑Dokumente mit Aspose.Words nach Markdown zu konvertieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

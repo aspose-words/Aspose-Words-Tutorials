@@ -62,6 +62,7 @@
 - [สร้าง PDF ที่เข้าถึงได้จาก Word – คู่มือ Aspose.Words ครบถ้วน](./create-accessible-pdf-from-word-complete-aspose-words-guide/) | เรียนรู้วิธีสร้างไฟล์ PDF ที่เข้าถึงได้จากเอกสาร Word อย่างครบถ้วนด้วย Aspose.Words
 - [แปลง docx เป็น pdf – คู่มือฉบับสมบูรณ์สำหรับ PDF ที่เข้าถึงได้](./convert-docx-to-pdf-complete-guide-for-accessible-pdfs/) | เรียนรู้วิธีแปลงไฟล์ docx เป็น PDF ที่เป็นมิตรกับการเข้าถึงด้วยขั้นตอนครบถ้วนและตัวอย่างโค้ด
 - [สร้าง PDF ที่เข้าถึงได้จาก Word ด้วย C# – คู่มือทีละขั้นตอน](./create-accessible-pdf-from-word-in-c-step-by-step-guide/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากเอกสาร Word ด้วย Aspose.Words สำหรับ .NET และ C# ผ่านขั้นตอนละเอียด
+- [สร้าง PDF ที่เข้าถึงได้จาก Word ด้วย Aspose – คู่มือทีละขั้นตอน](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) | เรียนรู้วิธีสร้างไฟล์ PDF ที่เข้าถึงได้จากเอกสาร Word ด้วย Aspose ตามขั้นตอนที่อธิบายอย่างละเอียด |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

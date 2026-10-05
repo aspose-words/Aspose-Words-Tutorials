@@ -52,6 +52,7 @@
 | [วิธีกู้คืนไฟล์ DOCX ใน C# – คู่มือทีละขั้นตอน](./how-to-recover-docx-files-in-c-step-by-step-guide/) | เรียนรู้วิธีกู้คืนไฟล์ DOCX ที่เสียหายด้วย C# โดยใช้ Aspose.Words สำหรับ .NET ผ่านขั้นตอนที่ชัดเจน |
 | [กู้คืนไฟล์ Word ที่เสียหาย – คู่มือขั้นตอนต่อขั้นตอนสำหรับนักพัฒนา C#](./recover-corrupted-word-files-step-by-step-guide-for-c-develo/) | เรียนรู้วิธีกู้คืนไฟล์ Word ที่เสียหายด้วย Aspose.Words สำหรับ .NET ผ่านขั้นตอนที่ชัดเจนสำหรับนักพัฒนา C# |
 | [กู้คืนไฟล์ DOCX ที่เสียหายด้วย Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](./recover-corrupted-docx-with-aspose-words-complete-c-guide/) | เรียนรู้วิธีกู้คืนไฟล์ DOCX ที่เสียหายด้วย Aspose.Words สำหรับ .NET ผ่านคู่มือ C# อย่างละเอียดและครบถ้วน |
+| [วิธีกู้คืนไฟล์ DOCX – คู่มือเต็มกับ Aspose.Words Recovery](./how-to-recover-docx-full-guide-with-aspose-words-recovery/) | เรียนรู้วิธีกู้คืนไฟล์ DOCX ที่เสียหายด้วย Aspose.Words Recovery อย่างละเอียดในคู่มือเต็มนี้ |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

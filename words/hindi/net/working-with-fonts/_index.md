@@ -65,6 +65,7 @@
 | [C# में फ़ॉन्ट चेतावनियों को कैप्चर करें – पूर्ण गाइड](./capture-font-warnings-in-c-complete-guide/) | C# में Aspose.Words का उपयोग करके फ़ॉन्ट चेतावनियों को कैप्चर करने के लिए पूर्ण चरण-दर-चरण मार्गदर्शिका। |
 
 | [Aspose.Words के साथ C# में लापता फ़ॉन्ट्स को संभालें – पूर्ण गाइड](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) | .NET के लिए Aspose.Words का उपयोग करके C# में लापता फ़ॉन्ट्स को कैसे संभालें, इस पूर्ण गाइड में सीखें। |
+| [C# में कस्टम फ़ॉन्ट सेटिंग्स – Word लोड करें और गायब फ़ॉन्ट्स को संभालें](./custom-font-settings-in-c-load-word-handle-missing-fonts/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ लोड करना और गायब फ़ॉन्ट्स को संभालना सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

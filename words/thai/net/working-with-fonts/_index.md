@@ -57,6 +57,7 @@
 | [วิธีโหลด DOCX และตรวจจับแบบอักษรที่หายไป – คู่มือ C# ฉบับสมบูรณ์](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | เรียนรู้วิธีโหลดไฟล์ DOCX และตรวจจับแบบอักษรที่ขาดหายโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือ C# อย่างละเอียด |
 | [จัดการแบบอักษรที่หายไปใน C# ด้วย Aspose.Words – คู่มือเต็ม](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) | เรียนรู้วิธีจัดการแบบอักษรที่หายไปในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET ด้วยคู่มือขั้นตอนเต็ม |
 | [สร้าง FontSettings ใน C# – ตรวจหาแบบอักษรที่หายไปและบันทึกข้อความแบบอักษร](./create-fontsettings-in-c-detect-missing-fonts-capture-font-m/) | เรียนรู้วิธีสร้าง FontSettings ใน C# เพื่อตรวจหาแบบอักษรที่หายไปและบันทึกข้อความแบบอักษรด้วย Aspose.Words สำหรับ .NET -
+| [การตั้งค่าแบบอักษรแบบกำหนดเองใน C# – โหลด Word และจัดการแบบอักษรที่หายไป](./custom-font-settings-in-c-load-word-handle-missing-fonts/) | เรียนรู้วิธีตั้งค่าแบบอักษรแบบกำหนดเองใน C# เพื่อโหลดไฟล์ Word และจัดการกับแบบอักษรที่ขาดหาย |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

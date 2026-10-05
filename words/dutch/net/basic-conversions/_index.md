@@ -24,6 +24,7 @@ Basisconversies begeleidt u door basisdocumentconversies met behulp van de Aspos
 | [Converteer Doc naar Docx](./doc-to-docx/) | Leer hoe je DOC naar DOCX converteert met Aspose.Words voor .NET. Stapsgewijze handleiding met codevoorbeelden. Perfect voor ontwikkelaars. |
 | [Converteer Docx naar Rtf](./docx-to-rtf/) | Leer hoe u DOCX naar RTF converteert met Aspose.Words voor .NET met onze stapsgewijze handleiding. Eenvoudige conversie voor naadloze documentverwerking. |  
 | [Word-bestand naar PDF converteren](./docx-to-pdf/) Leer hoe u eenvoudig Word-bestanden naar PDF kunt converteren met Aspose.Words voor .NET met onze gids. Perfect voor ontwikkelaars die op zoek zijn naar snelle en betrouwbare documentconversie. |
+| [Docx naar PDF tutorial – Converteer Word naar PDF in C#](./docx-to-pdf-tutorial-convert-word-to-pdf-in-c/) | Leer hoe u met Aspose.Words voor .NET een DOCX-bestand naar PDF converteert in C#, stap voor stap met voorbeeldcode. |
 | [Word naar PDF converteren in C# met Aspose.Words – Gids](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Leer hoe u Word-documenten naar PDF converteert in C# met Aspose.Words. Stapsgewijze handleiding met voorbeeldcode. |
 | [Converteer Docx naar Byte](./docx-to-byte/) | Leer hoe u Docx naar een byte-array in .NET converteert met Aspose.Words voor efficiënte documentverwerking. Inclusief stapsgewijze handleiding. |  
 | [Converteer Docx naar Epub](./docx-to-epub/) | Converteer DOCX eenvoudig naar EPUB met Aspose.Words voor .NET. Volg onze tutorial voor naadloze integratie in uw .NET-applicaties. |
@@ -54,6 +55,7 @@ Basisconversies begeleidt u door basisdocumentconversies met behulp van de Aspos
 | [Converteer docx naar txt met LaTeX‑vergelijkingen – Aspose.Words‑gids](./convert-docx-to-txt-with-latex-equations-aspose-words-guide/) | Leer hoe u DOCX naar TXT converteert inclusief LaTeX‑vergelijkingen met Aspose.Words voor .NET. |
 | [Word opslaan als PDF met Aspose.Words – Stapsgewijze gids](./save-word-as-pdf-with-aspose-words-step-by-step-guide/) | Leer hoe u Word-documenten naar PDF converteert met Aspose.Words in een gedetailleerde stap‑voor‑stap handleiding. |
 | [Toegankelijke PDF maken – Word naar PDF converteren](./create-accessible-pdf-convert-word-to-pdf/) | Leer hoe u een toegankelijke PDF maakt vanuit Word met Aspose.Words voor .NET, inclusief toegankelijkheidsopties en best practices. |
+| [Docx opslaan als Txt – Docx converteren, LaTeX extraheren](./how-to-save-docx-as-txt-convert-docx-extract-latex/) | Leer hoe u een DOCX-bestand opslaat als TXT en LaTeX-extracten maakt met Aspose.Words voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

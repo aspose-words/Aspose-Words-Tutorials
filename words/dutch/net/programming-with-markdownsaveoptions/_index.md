@@ -163,6 +163,10 @@ Leer hoe u docx-bestanden naar markdown converteert met een duidelijke stap‑vo
 
 ### [Hoe Markdown te exporteren vanuit DOCX met afbeeldingen – Complete gids](./how-to-export-markdown-from-docx-with-images-complete-guide/)
 
+### [Aangepaste afbeeldingsmap – Converteer Word naar Markdown met Aspose.Words](./custom-image-folder-convert-word-to-markdown-with-aspose-wor/)
+
+### [Docx converteren naar markdown met Aspose.Words – Complete gids](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

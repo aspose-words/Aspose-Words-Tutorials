@@ -30,6 +30,7 @@ Basic Conversions проведет вас через базовые преобр
 | [Конвертировать Docx-файл в Markdown](./docx-to-markdown/) | Узнайте, как преобразовать файлы DOCX в Markdown с помощью Aspose.Words для .NET. Следуйте нашему подробному руководству для бесшовной интеграции в ваши приложения .NET. |
 | [Конвертировать Docx в Txt](./docx-to-txt/) Конвертируйте DOCX в TXT с помощью Aspose.Words для .NET с помощью нашего пошагового руководства. Научитесь эффективно и без усилий преобразовывать документы. |
 | [Конвертировать docx в txt с уравнениями LaTeX – руководство Aspose.Words](./convert-docx-to-txt-with-latex-equations-aspose-words-guide/) | Узнайте, как преобразовать DOCX в TXT, сохранив уравнения LaTeX, используя Aspose.Words для .NET. Пошаговое руководство с примерами кода. |
+| [Сохранить docx как txt – конвертировать docx, извлечь LaTeX](./how-to-save-docx-as-txt-convert-docx-extract-latex/) | Узнайте, как сохранить DOCX как TXT и извлечь LaTeX с помощью Aspose.Words для .NET. Пошаговое руководство с примерами кода. |
 | [Конвертировать текстовый файл в документ Word](./txt-to-docx/) | Узнайте, как преобразовывать текстовые файлы в документы Word с помощью Aspose.Words для .NET. Эффективно управляйте преобразованиями документов с помощью нашего всеобъемлющего руководства. | 
 | [Сохранить PDF как JPEG](./pdf-to-jpeg/) | Легко конвертируйте PDF в JPEG с помощью Aspose.Words для .NET. Следуйте нашему подробному руководству с примерами и часто задаваемыми вопросами. Идеально подходит для разработчиков и энтузиастов. |
 | [Сохранить PDF в формате Word (Docx)](./pdf-to-docx/) | Узнайте, как преобразовать PDF в документ Word (Docx) с помощью Aspose.Words для .NET в этом подробном пошаговом руководстве. Идеально подходит для разработчиков. |
@@ -54,6 +55,7 @@ Basic Conversions проведет вас через базовые преобр
 | [Создать PDF из DOCX в C# – Полное руководство с экспортом фигур](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Полное руководство по созданию PDF из DOCX в C# с экспортом фигур, включая примеры кода и настройки. |
 | [Учебник Word в PDF: Конвертировать DOCX в PDF с помощью Aspose.Words](./word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/) | Узнайте, как конвертировать DOCX в PDF с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 | [Сохранить Word как PDF с Aspose.Words – пошаговое руководство](./save-word-as-pdf-with-aspose-words-step-by-step-guide/) | Узнайте, как сохранить документ Word в PDF с помощью Aspose.Words, следуя пошаговому руководству. |
+| [Конвертировать Docx в PDF в C#](./docx-to-pdf-tutorial-convert-word-to-pdf-in-c/) | Узнайте, как конвертировать DOCX в PDF в C# с помощью Aspose.Words. Пошаговое руководство с примерами кода. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

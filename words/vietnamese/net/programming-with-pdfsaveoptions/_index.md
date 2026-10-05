@@ -63,6 +63,7 @@ Cho dù bạn muốn chuyển đổi tài liệu Word sang PDF để phân phố
 | [Chuyển đổi docx sang pdf – Hướng dẫn toàn diện cho PDF có thể truy cập](./convert-docx-to-pdf-complete-guide-for-accessible-pdfs/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu docx sang PDF đáp ứng tiêu chuẩn truy cập, bao gồm các tùy chọn và mẫu mã. |
 
 | [Tạo PDF có khả năng truy cập từ Word trong C# – Hướng dẫn từng bước](./create-accessible-pdf-from-word-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo tệp PDF có khả năng truy cập từ tài liệu Word bằng C# và Aspose.Words. |
+| [Tạo PDF có thể truy cập từ Word với Aspose – Hướng dẫn từng bước](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) | Hướng dẫn chi tiết cách tạo tệp PDF có khả năng truy cập từ tài liệu Word bằng Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

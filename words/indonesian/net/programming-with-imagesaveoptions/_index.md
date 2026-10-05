@@ -31,6 +31,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat Grid PNG dari Dokumen Word – Panduan Langkah demi Langkah](./create-png-grid-from-word-document-step-by-step-guide/) | Pelajari cara membuat grid gambar PNG dari dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh kode langkah demi langkah. |
 | [Simpan Word sebagai Gambar dengan C# – Panduan Langkah demi Langkah](./save-word-as-images-with-c-step-by-step-guide/) | Pelajari cara menyimpan dokumen Word menjadi serangkaian gambar menggunakan Aspose.Words untuk .NET dengan contoh kode C# lengkap. |
 | [Konversi Word ke PNG – Gabungkan Halaman menjadi Strip Vertikal](./convert-word-to-png-merge-pages-into-a-vertical-strip/) | Pelajari cara mengonversi dokumen Word menjadi satu gambar PNG dengan menggabungkan semua halaman menjadi strip vertikal menggunakan Aspose.Words untuk .NET. |
+| [Mengonversi Word ke PNG – Panduan Lengkap C#](./convert-word-to-png-complete-c-guide/) | Panduan lengkap mengonversi dokumen Word menjadi gambar PNG dengan Aspose.Words untuk .NET menggunakan C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

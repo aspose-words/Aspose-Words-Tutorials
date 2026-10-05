@@ -30,6 +30,7 @@ De tutorials behandelen ook de basisprincipes van beeldmanipulatie, waaronder he
 | [Hoe DPI in te stellen bij het converteren van Word naar PNG – Complete C#-gids](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | Leer hoe u de DPI-instelling kunt aanpassen bij het converteren van Word-documenten naar PNG met Aspose.Words voor .NET in C#. |
 | [Maak PNG‑raster van Word-document – Stapsgewijze handleiding](./create-png-grid-from-word-document-step-by-step-guide/) | Leer hoe u een raster van PNG-afbeeldingen maakt vanuit een Word-document met Aspose.Words voor .NET in een stapsgewijze handleiding. |
 | [Word opslaan als afbeeldingen met C# – Stapsgewijze gids](./save-word-as-images-with-c-step-by-step-guide/) | Leer hoe u Word-documenten opslaat als afbeeldingen met C# via een gedetailleerde stapsgewijze handleiding. |
+| [Word naar PNG converteren – Complete C#-gids](./convert-word-to-png-complete-c-guide/) | Leer hoe u Word-documenten naar PNG converteert met Aspose.Words voor .NET in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

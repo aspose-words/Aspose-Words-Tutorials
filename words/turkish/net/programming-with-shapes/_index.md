@@ -26,6 +26,7 @@ Aspose.Words for .NET'i kullanarak ve bu eğitimleri takip ederek, Word belgeler
 | --- | --- |
 | [Grup Şekli Ekle](./add-group-shape/) | Bu kapsamlı, adım adım eğitimle Aspose.Words for .NET kullanarak Word belgelerine grup şekillerinin nasıl ekleneceğini öğrenin. |
 | [Şekil Ekle](./insert-shape/) | Aspose.Words for .NET'i kullanarak Word belgelerine şekillerin nasıl ekleneceğini ve düzenleneceğini adım adım kılavuzumuzla öğrenin. |
+| [Aspose.Words ile Word'de Şekle Gölge Ekle – Adım Adım](./add-shadow-to-shape-in-word-with-aspose-words-step-by-step/) | Aspose.Words for .NET kullanarak Word belgelerinde şekillere gölge eklemeyi adım adım öğrenin. |
 | [En Boy Oranı Kilitli](./aspect-ratio-locked/) | Aspose.Words for .NET kullanarak Word belgelerindeki şekillerin en boy oranını nasıl kilitleyeceğinizi öğrenin. Görüntülerinizin ve şekillerinizin orantılı kalmasını sağlamak için bu adım adım kılavuzu izleyin. |
 | [Hücredeki Düzen](./layout-in-cell/) | Bu kapsamlı kılavuzla Aspose.Words for .NET kullanarak hücredeki düzeni nasıl ayarlayacağınızı öğrenin. Word belgelerini özelleştirmek isteyen geliştiriciler için mükemmeldir. |
 | [Köşeler Kesildi Ekle](./add-corners-snipped/) | Aspose.Words for .NET kullanarak Word belgelerinize köşeleri kesilmiş bir şeklin nasıl ekleneceğini öğrenin. Bu adım adım kılavuz, belgelerinizi kolayca geliştirebilmenizi sağlar. |

@@ -64,6 +64,7 @@ Ať už chcete formátovat text pomocí různých fontů, nastavit pravidla pro 
 | [Zpracování chybějících písem v C# s Aspose.Words – Kompletní průvodce](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) | Naučte se, jak zacházet s chybějícími písmy v C# pomocí Aspose.Words v tomto kompletním průvodci. |
 | [Zpracování upozornění na písma v Aspose.Words – Detekce chybějících písem](./handle-font-warnings-in-aspose-words-detect-missing-fonts/) | Naučte se, jak zachytit a zpracovat upozornění na chybějící písma v Aspose.Words pro .NET. |
 | [Zachycení varování o fontech v C# – Kompletní průvodce](./capture-font-warnings-in-c-complete-guide/) | Naučte se, jak zachytit a zpracovat varování o chybějících nebo nahrazených písmenech v Aspose.Words pro .NET pomocí C#. |
+| [Vlastní nastavení písem v C# – Načíst Word a řešit chybějící písma](./custom-font-settings-in-c-load-word-handle-missing-fonts/) | Naučte se, jak načíst dokument Word v C# a spravovat chybějící písma pomocí Aspose.Words pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

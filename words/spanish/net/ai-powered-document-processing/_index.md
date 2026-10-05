@@ -48,6 +48,8 @@ Por último, no olvides visitar nuestra [Trabajar con opciones de resumen](./wor
 | [Cómo comprobar la gramática en DOCX con Aspose.Words – usar gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Aprenda a verificar la gramática de documentos DOCX usando Aspose.Words y el modelo gpt‑4 turbo para correcciones automáticas. |
 | [Cómo comprobar la gramática en Word con Aspose.Words AI – Guía completa](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Aprenda a usar Aspose.Words AI para corregir la gramática en documentos Word de forma automática y precisa. |
 | [Cómo resumir documentos Word – Guía completa en C#](./how-to-summarize-word-documents-complete-c-guide/) | Aprenda a resumir documentos Word usando Aspose.Words para .NET con una guía paso a paso en C#. |
+| [Cómo corregir la gramática en archivos DOCX con C# – Guía completa paso a paso](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Aprenda a corregir errores gramaticales en documentos DOCX usando C# y Aspose.Words con instrucciones detalladas. |
+| [Resumir documento Word con LLM local – Guía C#](./summarize-word-document-with-local-llm-c-guide/) | Aprenda a resumir documentos Word usando un modelo LLM local con C# y Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -51,6 +51,7 @@
 | [Word में आयत आकार बनाएं – पूर्ण Aspose.Words गाइड](./create-rectangle-shape-in-word-full-aspose-words-guide/) | Aspose.Words के साथ Word दस्तावेज़ में आयत आकार बनाने और अनुकूलित करने के लिए पूर्ण चरण‑दर‑शरण मार्गदर्शन। |
 | [आयत आकार और शैडो के साथ Word दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-word-document-with-a-rectangle-shape-and-shadow-step/) | Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में आयत आकार और शैडो जोड़ने के चरण‑दर‑चरण निर्देश। |
 | [Aspose.Words का उपयोग करके Word में छाया के साथ आयत आकार बनाएं](./create-rectangle-shape-with-shadow-in-word-using-aspose-word/) | Aspose.Words के साथ Word दस्तावेज़ में छाया प्रभाव के साथ आयत आकृति बनाने और अनुकूलित करने की चरण‑दर‑चरण गाइड। |
+| [Aspose.Words के साथ Word में आकृति पर छाया जोड़ें – चरण‑दर‑चरण](./add-shadow-to-shape-in-word-with-aspose-words-step-by-step/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में आकृति पर छाया कैसे जोड़ें, सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

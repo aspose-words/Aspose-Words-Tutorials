@@ -47,6 +47,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara Memeriksa Tata Bahasa di Word dengan Aspose.Words AI – Panduan Lengkap](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Pelajari cara menggunakan Aspose.Words AI untuk memeriksa tata bahasa dokumen Word secara otomatis dalam panduan lengkap ini. |
 | [Cara Memeriksa Tata Bahasa di C# Menggunakan LLM Lokal](./how-to-check-grammar-in-c-using-a-local-llm/) | Pelajari cara memeriksa tata bahasa kode C# dengan model bahasa lokal untuk meningkatkan kualitas kode secara otomatis. |
 | [Cara Meringkas Dokumen Word – Panduan Lengkap C#](./how-to-summarize-word-documents-complete-c-guide/) | Pelajari cara meringkas dokumen Word secara otomatis dengan Aspose.Words untuk .NET menggunakan panduan lengkap C#. |
+| [Ringkas Dokumen Word dengan LLM Lokal – Panduan C#](./summarize-word-document-with-local-llm-c-guide/) | Pelajari cara menggunakan LLM lokal untuk meringkas dokumen Word secara efisien dengan C#. |
+| [Cara Memperbaiki Tata Bahasa pada File DOCX dengan C# – Panduan Langkah demi Langkah Lengkap](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Pelajari cara memperbaiki kesalahan tata bahasa dalam dokumen DOCX menggunakan C# dengan panduan lengkap langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
