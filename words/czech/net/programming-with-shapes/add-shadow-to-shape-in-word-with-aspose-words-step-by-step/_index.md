@@ -20,8 +20,6 @@ title: Přidat stín k tvaru ve Wordu pomocí Aspose.Words – krok za krokem
 url: /cs/net/programming-with-shapes/add-shadow-to-shape-in-word-with-aspose-words-step-by-step/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -22,22 +22,6 @@ title: come salvare docx come txt – converti docx, estrai LaTeX
 url: /it/net/basic-conversions/how-to-save-docx-as-txt-convert-docx-extract-latex/
 ---
 
-salvare docx come txt – una guida completa in C#"
-
-But keep case? Keep same heading style.
-
-Paragraphs: translate.
-
-Make sure to keep bold formatting (**text**) and inline code formatting (`code`) unchanged.
-
-Blockquote: translate.
-
-List items: translate.
-
-Ok.
-
-Let's produce final content with shortcodes unchanged.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

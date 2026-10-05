@@ -23,18 +23,6 @@ title: Tạo PDF có thể truy cập từ Word bằng Aspose – Hướng dẫn
 url: /vi/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-aspose-step-by-step-gui/
 ---
 
-to "Kết luận".
-
-Translate "What’s Next?" to "Tiếp theo là gì?".
-
-Translate "Experiment with ..." etc.
-
-Translate "Got more questions? Drop a comment, or check out Aspose’s official documentation for advanced scenarios. Happy coding, and may all your PDFs be accessible!" to Vietnamese.
-
-Make sure to keep markdown formatting.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

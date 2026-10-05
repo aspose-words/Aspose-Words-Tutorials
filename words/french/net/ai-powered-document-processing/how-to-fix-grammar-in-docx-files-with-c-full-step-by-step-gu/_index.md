@@ -25,11 +25,7 @@ title: Comment corriger la grammaire dans les fichiers DOCX avec C# – Guide co
 url: /fr/net/ai-powered-document-processing/how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/
 ---
 
-/products/products-backtop-button >}}
-
-Make sure no extra spaces.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

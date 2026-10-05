@@ -22,11 +22,7 @@ title: 使用 Aspose 從 Word 建立無障礙 PDF – 一步一步指南
 url: /zh-hant/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-aspose-step-by-step-gui/
 ---
 
-.
-
-Make sure to keep markdown formatting.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

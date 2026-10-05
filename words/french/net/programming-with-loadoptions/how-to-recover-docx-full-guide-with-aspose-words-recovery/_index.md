@@ -24,11 +24,7 @@ title: Comment récupérer un docx – Guide complet avec Aspose.Words Recovery
 url: /fr/net/programming-with-loadoptions/how-to-recover-docx-full-guide-with-aspose-words-recovery/
 ---
 
-.
-
-Make sure to keep all markdown formatting.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,12 +22,6 @@ title: تحويل ملف docx إلى markdown باستخدام Aspose.
 url: /ar/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-with-aspose-words-complete-guide/
 ---
 
-for images: none.
-
-Proceed.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

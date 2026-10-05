@@ -24,22 +24,6 @@ title: comment enregistrer un docx en txt – convertir docx, extraire LaTeX
 url: /fr/net/basic-conversions/how-to-save-docx-as-txt-convert-docx-extract-latex/
 ---
 
-#.
-
-Paragraphs: translate.
-
-Need to keep bold formatting **...**.
-
-Also blockquote.
-
-List items.
-
-Let's produce final content.
-
-Be careful with special characters like “–” keep.
-
-Now produce final answer with same shortcodes and placeholders.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

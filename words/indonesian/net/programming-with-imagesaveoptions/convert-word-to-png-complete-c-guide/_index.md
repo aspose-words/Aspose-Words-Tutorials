@@ -23,7 +23,7 @@ title: Mengonversi Word ke PNG – Panduan Lengkap C#
 url: /id/net/programming-with-imagesaveoptions/convert-word-to-png-complete-c-guide/
 ---
 
-extra explanations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

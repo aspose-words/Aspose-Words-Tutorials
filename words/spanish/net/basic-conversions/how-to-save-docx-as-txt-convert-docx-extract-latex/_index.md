@@ -23,20 +23,6 @@ title: cómo guardar docx como txt – convertir docx, extraer LaTeX
 url: /es/net/basic-conversions/how-to-save-docx-as-txt-convert-docx-extract-latex/
 ---
 
-x as txt – a complete C# walkthrough" => "cómo guardar docx como txt – una guía completa en C#". Keep lower case? Original heading uses lower case "how". We'll translate accordingly but preserve case? Probably keep same style: "# how to save docx as txt – a complete C# walkthrough" -> "# cómo guardar docx como txt – una guía completa en C#". Keep the dash.
-
-Paragraphs: translate.
-
-Make sure to keep bold formatting.
-
-Blockquote: translate.
-
-List items: translate.
-
-Pro tip: translate.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -25,9 +25,7 @@ title: Configuración de fuentes personalizadas en C# – Cargar Word y gestiona
 url: /es/net/working-with-fonts/custom-font-settings-in-c-load-word-handle-missing-fonts/
 ---
 
-to preserve headings levels.
-
-Proceed to output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

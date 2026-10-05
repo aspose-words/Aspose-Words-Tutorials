@@ -23,15 +23,7 @@ title: Převod Wordu na PNG – Kompletní průvodce C#
 url: /cs/net/programming-with-imagesaveoptions/convert-word-to-png-complete-c-guide/
 ---
 
-file paths, code placeholders.
-
-We translated alt text and title. That's fine.
-
-Check for any stray markdown formatting.
-
-All good.
-
-Now produce final answer with only translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

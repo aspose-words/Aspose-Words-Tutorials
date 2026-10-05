@@ -24,10 +24,6 @@ title: Πώς να διορθώσετε τη γραμματική σε αρχε�
 url: /el/net/ai-powered-document-processing/how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/
 ---
 
-placeholders unchanged.
-
-Now produce translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

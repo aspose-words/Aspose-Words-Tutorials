@@ -26,13 +26,7 @@ title: C# ile DOCX Dosyalarındaki Dilbilgisi Hatalarını Nasıl Düzeltirsiniz
 url: /tr/net/ai-powered-document-processing/how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/
 ---
 
-/products-backtop-button >}}
-
-All unchanged.
-
-Make sure to keep code block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

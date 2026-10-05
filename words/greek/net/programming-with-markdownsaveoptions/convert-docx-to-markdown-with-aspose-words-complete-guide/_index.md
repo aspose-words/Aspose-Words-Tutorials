@@ -24,21 +24,7 @@ title: Μετατροπή docx σε markdown με το Aspose.Words – Πλήρ
 url: /el/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-with-aspose-words-complete-guide/
 ---
 
-Now produce final output with all translated content.
-
-Check for any missed items: The heading "Convert docx to markdown – A Practical C# Walkthrough" we translated. Ensure dash is consistent.
-
-All code block placeholders remain.
-
-All shortcodes preserved.
-
-All markdown links? There are none besides code placeholders. No URLs.
-
-All images? None.
-
-All lists preserved.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

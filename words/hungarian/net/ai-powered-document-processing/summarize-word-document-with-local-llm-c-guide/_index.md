@@ -24,20 +24,6 @@ title: Word-dokumentum összefoglalása helyi LLM-mel – C# útmutató
 url: /hu/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/
 ---
 
-preserved.
-
-Now ensure we didn't miss any markdown formatting.
-
-Check code block placeholders: they are not fenced code blocks, just placeholders. They should stay.
-
-We have some quoted blocks with >; keep them.
-
-Make sure we didn't translate any URLs or file paths: we kept image URL same.
-
-We have code snippets like `Document` etc; they remain.
-
-Now produce final output with all translated content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

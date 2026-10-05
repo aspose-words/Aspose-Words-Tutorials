@@ -23,20 +23,6 @@ title: como salvar docx como txt – converter docx, extrair LaTeX
 url: /pt/net/basic-conversions/how-to-save-docx-as-txt-convert-docx-extract-latex/
 ---
 
-Já se perguntou **como salvar docx** como texto simples mantendo quaisquer equações incorporadas em forma LaTeX? Você não está sozinho. Muitos desenvolvedores..."
-
-We'll translate.
-
-Make sure to keep bold and code formatting.
-
-Proceed.
-
-Also note "Pro tip:" -> "Dica profissional:" maybe.
-
-"Place this" -> "Coloque isso". Might need continuation but original ends abruptly; we keep same.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

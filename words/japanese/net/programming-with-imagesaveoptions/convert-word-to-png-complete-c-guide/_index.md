@@ -19,11 +19,7 @@ title: Word を PNG に変換 – 完全 C# ガイド
 url: /ja/net/programming-with-imagesaveoptions/convert-word-to-png-complete-c-guide/
 ---
 
-placeholders: CODE_BLOCK_0 to CODE_BLOCK_7.
-
-All present.
-
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

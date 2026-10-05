@@ -23,17 +23,7 @@ title: Word converteren naar PNG – Complete C#‑gids
 url: /nl/net/programming-with-imagesaveoptions/convert-word-to-png-complete-c-guide/
 ---
 
->}}
-
-We keep them.
-
-Now produce final output with all translated content, preserving placeholders.
-
-Check for any other text: The "step‑by‑step" heading earlier we translated. Ensure we didn't miss any.
-
-Also there is a note about "For Dutch, ensure proper RTL formatting if needed" but Dutch is LTR, ignore.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

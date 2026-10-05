@@ -23,11 +23,7 @@ title: Konwertuj docx na markdown przy użyciu Aspose.Words – Kompletny przewo
 url: /pl/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-with-aspose-words-complete-guide/
 ---
 
-links: none.
-
-Make sure to keep code block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,16 +23,6 @@ title: Mengonversi docx ke markdown dengan Aspose.Words – Panduan Lengkap
 url: /id/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-with-aspose-words-complete-guide/
 ---
 
-code block placeholders unchanged.
-
-Also need to keep any markdown formatting like **bold**, `code`, etc.
-
-Check for any other markdown elements: images? none.
-
-Now produce final content with translations.
-
-Let's assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

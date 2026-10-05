@@ -24,13 +24,7 @@ title: docx σε pdf tutorial – Μετατροπή Word σε PDF σε C#
 url: /el/net/basic-conversions/docx-to-pdf-tutorial-convert-word-to-pdf-in-c/
 ---
 
-...6. Keep them.
-
-Check we preserved markdown formatting: headings, lists, bold, etc.
-
-Make sure we keep the horizontal rules "---". Keep them.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

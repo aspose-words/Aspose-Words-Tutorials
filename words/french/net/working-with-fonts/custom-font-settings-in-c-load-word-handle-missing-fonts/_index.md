@@ -25,11 +25,7 @@ title: Paramètres de police personnalisés en C# – Charger Word et gérer les
 url: /fr/net/working-with-fonts/custom-font-settings-in-c-load-word-handle-missing-fonts/
 ---
 
-.
-
-Make sure to keep all shortcodes exactly.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

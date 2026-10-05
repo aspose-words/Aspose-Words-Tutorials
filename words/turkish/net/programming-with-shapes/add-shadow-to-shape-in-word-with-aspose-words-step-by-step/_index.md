@@ -20,7 +20,7 @@ title: Aspose.Words ile Word'de Şekle Gölge Ekle – Adım Adım
 url: /tr/net/programming-with-shapes/add-shadow-to-shape-in-word-with-aspose-words-step-by-step/
 ---
 
-produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

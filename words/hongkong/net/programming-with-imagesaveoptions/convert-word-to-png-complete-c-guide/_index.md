@@ -21,14 +21,6 @@ title: 將 Word 轉換為 PNG – 完整 C# 指南
 url: /zh-hant/net/programming-with-imagesaveoptions/convert-word-to-png-complete-c-guide/
 ---
 
-translate to Chinese maybe "轉換 Word 為 PNG". Keep quotes.
-
-We need to keep the link unchanged.
-
-Now produce final output with all sections.
-
-Let's write translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

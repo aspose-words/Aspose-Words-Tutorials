@@ -23,13 +23,7 @@ title: Chuyển đổi docx sang markdown với Aspose.Words – Hướng dẫn 
 url: /vi/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-with-aspose-words-complete-guide/
 ---
 
-blocks/products/products-backtop-button >}}
-
-Make sure to keep them unchanged.
-
-Now produce final output with all translations. Ensure code block placeholders remain exactly as original.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

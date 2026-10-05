@@ -23,15 +23,7 @@ title: Cách khôi phục docx – Hướng dẫn đầy đủ với Aspose.Word
 url: /vi/net/programming-with-loadoptions/how-to-recover-docx-full-guide-with-aspose-words-recovery/
 ---
 
-any missing code block placeholders: CODE_BLOCK_0...8 already kept.
-
-Check list formatting: bullet lists use "-". Keep.
-
-Check table formatting: we need to keep pipe characters.
-
-Make sure we didn't accidentally translate code inside code blocks; we left placeholders.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

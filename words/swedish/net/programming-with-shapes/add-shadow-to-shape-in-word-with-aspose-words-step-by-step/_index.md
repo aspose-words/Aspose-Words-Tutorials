@@ -20,12 +20,6 @@ title: Lägg till skugga på form i Word med Aspose.Words – Steg för steg
 url: /sv/net/programming-with-shapes/add-shadow-to-shape-in-word-with-aspose-words-step-by-step/
 ---
 
-. There are no links or images.
-
-We need to keep code block placeholders unchanged, not wrap them in fences.
-
-Now produce final output with all translated content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

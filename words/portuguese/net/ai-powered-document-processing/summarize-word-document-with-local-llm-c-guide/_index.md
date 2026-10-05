@@ -22,12 +22,6 @@ title: Resumir documento Word com LLM local – Guia C#
 url: /pt/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/
 ---
 
-But the alt text is "Summarize Word Document workflow". Should translate to Portuguese: "Fluxo de Resumo de Documento Word". Title attribute also same. Keep URL unchanged.
-
-Also translate "Summarize Word Document – Load the DOCX File" heading.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -23,18 +23,6 @@ title: Impostazioni di Font Personalizzate in C# – Carica Word e Gestisci i Fo
 url: /it/net/working-with-fonts/custom-font-settings-in-c-load-word-handle-missing-fonts/
 ---
 
-Word & Handle Missing Fonts" => "Impostazioni di Font Personalizzate in C# – Carica Word e Gestisci i Font Mancanti"
-
-Paragraphs accordingly.
-
-Make sure to keep **bold** formatting.
-
-Translate bullet points.
-
-Translate table.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

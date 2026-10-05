@@ -25,8 +25,6 @@ title: Word átalakítása PNG-be – Teljes C# útmutató
 url: /hu/net/programming-with-imagesaveoptions/convert-word-to-png-complete-c-guide/
 ---
 
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -22,17 +22,7 @@ title: Сводка документа Word с локальной LLM – ру�
 url: /ru/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/
 ---
 
-any URLs, code placeholders, etc.
-
-Check image alt and title: we translated alt and title. That's okay as they are not URLs.
-
-Check markdown links: none besides image.
-
-Check code block placeholders: left unchanged.
-
-Check shortcodes: unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

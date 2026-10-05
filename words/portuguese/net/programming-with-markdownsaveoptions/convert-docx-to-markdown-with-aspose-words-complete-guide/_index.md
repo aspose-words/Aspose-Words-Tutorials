@@ -23,15 +23,7 @@ title: Converter docx para markdown com Aspose.Words – Guia Completo
 url: /pt/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-with-aspose-words-complete-guide/
 ---
 
-0}} etc. They are not fenced code blocks but placeholders; they should remain.
-
-Check any markdown links: none.
-
-Check any images: none.
-
-Check any other shortcodes: top and bottom.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

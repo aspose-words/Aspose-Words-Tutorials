@@ -24,14 +24,6 @@ title: Wie man DOCX wiederherstellt – Vollständiger Leitfaden mit Aspose.Word
 url: /de/net/programming-with-loadoptions/how-to-recover-docx-full-guide-with-aspose-words-recovery/
 ---
 
-Also table header.
-
-Also "Visual Overview" heading.
-
-Alt text translation.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

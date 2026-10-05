@@ -18,10 +18,6 @@ title: Aspose.Words を使用して Word の図形に影を追加する – ス�
 url: /ja/net/programming-with-shapes/add-shadow-to-shape-in-word-with-aspose-words-step-by-step/
 ---
 
-ks.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

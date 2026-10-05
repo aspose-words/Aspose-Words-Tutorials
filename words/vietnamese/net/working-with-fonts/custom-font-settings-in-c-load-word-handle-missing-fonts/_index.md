@@ -21,12 +21,6 @@ title: Cài đặt phông chữ tùy chỉnh trong C# – Tải Word và Xử l�
 url: /vi/net/working-with-fonts/custom-font-settings-in-c-load-word-handle-missing-fonts/
 ---
 
-sure no extra spaces.
-
-Now produce final answer with all content.
-
-Let's write translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,18 +24,6 @@ title: Carpeta de imágenes personalizada – Convertir Word a Markdown con Aspo
 url: /es/net/programming-with-markdownsaveoptions/custom-image-folder-convert-word-to-markdown-with-aspose-wor/
 ---
 
-technical terms in English.
-
-Proceed to translate.
-
-We'll keep headings: # custom image folder – Convert Word to Markdown with Aspose.Words -> translate heading but keep #.
-
-Probably translate to Spanish: "# carpeta de imágenes personalizada – Convertir Word a Markdown con Aspose.Words". Keep same heading level.
-
-Similarly subheadings.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

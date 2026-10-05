@@ -22,12 +22,6 @@ title: โฟลเดอร์รูปภาพที่กำหนดเอ�
 url: /th/net/programming-with-markdownsaveoptions/custom-image-folder-convert-word-to-markdown-with-aspose-wor/
 ---
 
-ensure proper RTL formatting if needed" but Thai is LTR, ignore.
-
-Proceed to translate.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

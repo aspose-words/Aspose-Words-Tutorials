@@ -22,9 +22,7 @@ title: Hur du rättar grammatik i DOCX-filer med C# – Fullständig steg‑för
 url: /sv/net/ai-powered-document-processing/how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/
 ---
 
-to keep markdown formatting exactly.
-
-Now write final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

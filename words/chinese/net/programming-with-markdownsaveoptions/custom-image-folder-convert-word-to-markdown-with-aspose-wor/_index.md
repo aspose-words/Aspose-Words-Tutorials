@@ -21,10 +21,6 @@ title: 自定义图片文件夹 – 使用 Aspose.Words 将 Word 转换为 Markd
 url: /zh/net/programming-with-markdownsaveoptions/custom-image-folder-convert-word-to-markdown-with-aspose-wor/
 ---
 
-is? They are technical phrases; maybe keep English. We'll keep them as is.
-
-Let's produce translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

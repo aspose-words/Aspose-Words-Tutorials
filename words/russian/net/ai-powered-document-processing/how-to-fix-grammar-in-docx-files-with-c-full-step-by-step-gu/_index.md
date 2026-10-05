@@ -24,11 +24,7 @@ title: Как исправить грамматику в DOCX‑файлах с 
 url: /ru/net/ai-powered-document-processing/how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/
 ---
 
-preserved.
-
-Need to ensure no extra spaces or missing formatting.
-
-Let's assemble final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

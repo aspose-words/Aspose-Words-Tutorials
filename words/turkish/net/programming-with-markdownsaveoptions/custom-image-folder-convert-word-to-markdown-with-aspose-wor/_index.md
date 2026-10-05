@@ -23,18 +23,6 @@ title: özel resim klasörü – Aspose.Words ile Word'ü Markdown'a dönüştü
 url: /tr/net/programming-with-markdownsaveoptions/custom-image-folder-convert-word-to-markdown-with-aspose-wor/
 ---
 
-Or explore Aspose.Words’ **HTML** and **PDF** exporters for multi‑format publishing. Happy coding!"
-
-Translate: "*Bir sonraki zorluğa hazır mısınız?* Bu dönüşümü Hugo veya MkDocs gibi bir statik site oluşturucu ile zincirleyerek dokümantasyon iş akışınızı otomatikleştirin. Ya da çoklu formatta yayın için Aspose.Words’ **HTML** ve **PDF** dışa aktarıcılarını keşfedin. Kodlamanın tadını çıkarın!"
-
-Now after that we have closing shortcodes.
-
-Make sure to keep all placeholders unchanged.
-
-Now produce final content with same markdown structure.
-
-Let's assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

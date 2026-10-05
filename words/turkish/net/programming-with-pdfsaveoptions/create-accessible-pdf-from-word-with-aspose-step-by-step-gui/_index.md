@@ -24,7 +24,7 @@ title: Aspose ile Word'den Erişilebilir PDF Oluşturma – Adım Adım Rehber
 url: /tr/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-aspose-step-by-step-gui/
 ---
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

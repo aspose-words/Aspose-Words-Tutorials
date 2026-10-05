@@ -23,21 +23,7 @@ title: वर्ड को PNG में परिवर्तित करे�
 url: /hi/net/programming-with-imagesaveoptions/convert-word-to-png-complete-c-guide/
 ---
 
-"Scenario", "Why a single image helps". Translate those. Keep pipe formatting.
-
-Also bullet points etc.
-
-Let's produce final translation.
-
-Check for any other text: "Convert Word to PNG – Complete C# Guide" heading. Translate to Hindi: "Word को PNG में बदलें – पूर्ण C# गाइड". Keep dash maybe.
-
-Proceed.
-
-Also "What You’ll Need" -> "आपको क्या चाहिए". etc.
-
-Make sure to keep code block placeholders unchanged.
-
-Let's craft.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

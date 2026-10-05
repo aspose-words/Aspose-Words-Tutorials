@@ -19,13 +19,7 @@ title: C# 中的自定义字体设置 – 加载 Word 并处理缺失的字体
 url: /zh/net/working-with-fonts/custom-font-settings-in-c-load-word-handle-missing-fonts/
 ---
 
-Also note the bullet points and table.
-
-Let's produce translation.
-
-Make sure to keep markdown formatting.
-
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

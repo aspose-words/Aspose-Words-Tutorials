@@ -23,10 +23,6 @@ title: docx को txt के रूप में कैसे सहेजे�
 url: /hi/net/basic-conversions/how-to-save-docx-as-txt-convert-docx-extract-latex/
 ---
 
-Now produce final output with all translations.
-
-Let's construct final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

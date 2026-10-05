@@ -24,16 +24,6 @@ title: Criar PDF acessível a partir do Word com Aspose – Guia passo a passo
 url: /pt/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-aspose-step-by-step-gui/
 ---
 
-that too.
-
-Also translate bullet points, etc.
-
-Let's produce final content.
-
-Be careful with shortcodes at top and bottom.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

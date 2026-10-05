@@ -24,20 +24,6 @@ title: Cómo corregir la gramática en archivos DOCX con C# – Guía completa p
 url: /es/net/ai-powered-document-processing/how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/
 ---
 
-Step‑by‑Step Guide
-
-Translate title to Spanish: "Cómo corregir la gramática en archivos DOCX con C# – Guía completa paso a paso". Keep heading level.
-
-Proceed.
-
-Paragraphs: translate.
-
-Make sure to keep **bold** formatting.
-
-Let's translate each paragraph.
-
-I'll produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

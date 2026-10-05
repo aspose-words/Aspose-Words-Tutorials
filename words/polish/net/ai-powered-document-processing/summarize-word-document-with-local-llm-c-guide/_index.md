@@ -24,9 +24,7 @@ title: Podsumowanie dokumentu Word przy użyciu lokalnego LLM – przewodnik C#
 url: /pl/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/
 ---
 
-markdown formatting.
-
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

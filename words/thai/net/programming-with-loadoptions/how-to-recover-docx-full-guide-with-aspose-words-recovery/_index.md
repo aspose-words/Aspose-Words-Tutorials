@@ -22,10 +22,6 @@ title: วิธีกู้คืนไฟล์ docx – คู่มือเ
 url: /th/net/programming-with-loadoptions/how-to-recover-docx-full-guide-with-aspose-words-recovery/
 ---
 
-Proceed.
-
-Will produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

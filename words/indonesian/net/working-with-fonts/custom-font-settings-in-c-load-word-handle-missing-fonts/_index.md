@@ -21,15 +21,7 @@ title: Pengaturan Font Kustom di C# – Memuat Word & Menangani Font yang Hilang
 url: /id/net/working-with-fonts/custom-font-settings-in-c-load-word-handle-missing-fonts/
 ---
 
-a complete, production‑ready pattern for using **custom font settings** in C#. By configuring `LoadOptions`, registering a warning callback, and optionally pointing to a private font folder, you can **set font settings**, **load Word document** content reliably
-
-Translate.
-
-Then closing shortcodes.
-
-Make sure to keep all shortcodes unchanged.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

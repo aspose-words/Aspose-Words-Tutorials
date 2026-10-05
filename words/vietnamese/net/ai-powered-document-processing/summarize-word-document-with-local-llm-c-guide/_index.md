@@ -23,13 +23,7 @@ title: Tóm tắt tài liệu Word bằng LLM cục bộ – Hướng dẫn C#
 url: /vi/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/
 ---
 
-etc. They are not code fences; they are placeholders. Keep them.
-
-Also ensure we keep markdown formatting.
-
-Let's translate.
-
-I'll produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

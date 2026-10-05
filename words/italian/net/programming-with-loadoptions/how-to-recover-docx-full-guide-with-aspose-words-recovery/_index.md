@@ -24,11 +24,7 @@ title: come recuperare docx – Guida completa con il recupero di Aspose.Words
 url: /it/net/programming-with-loadoptions/how-to-recover-docx-full-guide-with-aspose-words-recovery/
 ---
 
-them unchanged.
-
-Now produce final output with all translations.
-
-Let's write it.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

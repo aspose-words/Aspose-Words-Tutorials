@@ -24,12 +24,6 @@ title: docx naar pdf tutorial – Converteer Word naar PDF in C#
 url: /nl/net/basic-conversions/docx-to-pdf-tutorial-convert-word-to-pdf-in-c/
 ---
 
-bullet points.
-
-Let's craft.
-
-Will produce final content with all translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

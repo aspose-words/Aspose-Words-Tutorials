@@ -23,8 +23,6 @@ title: Docx naar markdown converteren met Aspose.Words – Complete gids
 url: /nl/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-with-aspose-words-complete-guide/
 ---
 
-final output with all translated content, preserving placeholders.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

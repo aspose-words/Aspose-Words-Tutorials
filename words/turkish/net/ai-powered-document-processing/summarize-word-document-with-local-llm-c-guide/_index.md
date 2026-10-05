@@ -23,11 +23,7 @@ title: Yerel LLM ile Word Belgesini Özetle – C# Rehberi
 url: /tr/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/
 ---
 
-.
-
-Make sure we preserve code block placeholders unchanged.
-
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

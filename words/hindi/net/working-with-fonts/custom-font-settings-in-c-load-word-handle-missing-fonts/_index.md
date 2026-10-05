@@ -23,11 +23,7 @@ title: C# में कस्टम फ़ॉन्ट सेटिंग्स 
 url: /hi/net/working-with-fonts/custom-font-settings-in-c-load-word-handle-missing-fonts/
 ---
 
-says preserve code blocks: fenced code blocks. But there are no actual fenced code blocks; placeholders may be replaced later. Keep them.
-
-Make sure we keep blockquote > and horizontal rules ---.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

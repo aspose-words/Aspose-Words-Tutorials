@@ -21,17 +21,7 @@ title: Vlastní nastavení písma v C# – načíst Word a zpracovat chybějíc�
 url: /cs/net/working-with-fonts/custom-font-settings-in-c-load-word-handle-missing-fonts/
 ---
 
-Translate bullet points.
-
-Then "## Conclusion" etc.
-
-Translate final paragraph.
-
-Make sure to keep placeholders.
-
-Also keep any code block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

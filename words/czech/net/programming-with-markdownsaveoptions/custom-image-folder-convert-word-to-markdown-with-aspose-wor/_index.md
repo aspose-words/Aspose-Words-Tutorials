@@ -22,21 +22,7 @@ title: vlastní složka obrázků – převod Wordu do Markdownu pomocí Aspose.
 url: /cs/net/programming-with-markdownsaveoptions/custom-image-folder-convert-word-to-markdown-with-aspose-wor/
 ---
 
--button >}}
-
-Make sure to keep them unchanged.
-
-Check for any other markdown links: none.
-
-Check for any URLs: none.
-
-Check for any code block placeholders: CODE_BLOCK_0 etc. Keep them.
-
-Check for any bold terms: we kept them.
-
-Make sure we didn't translate shortcodes inside code blocks placeholders—they are separate.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

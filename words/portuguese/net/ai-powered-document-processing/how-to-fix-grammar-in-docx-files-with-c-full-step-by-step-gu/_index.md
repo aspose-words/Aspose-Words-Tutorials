@@ -24,14 +24,6 @@ title: Como Corrigir a Gramática em Arquivos DOCX com C# – Guia Completo Pass
 url: /pt/net/ai-powered-document-processing/how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/
 ---
 
-AI model, or plug the code into a larger document‑generation service—your automated editor is ready. If you run into any snags, drop a comment below; happy coding!" => "Experimente, ajuste o modelo de IA ou integre o código a um serviço maior de geração de documentos — seu editor automatizado está pronto. Se encontrar algum problema, deixe um comentário abaixo; feliz codificação!"
-
-Now ensure all shortcodes and code block placeholders remain.
-
-Also need to translate the alt attribute: alt="how to fix grammar screenshot" => alt="captura de tela de como corrigir gramática". Keep other attributes unchanged.
-
-Now produce final content with same structure.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

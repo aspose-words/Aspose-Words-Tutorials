@@ -22,13 +22,7 @@ title: Shrňte Word dokument s lokálním LLM – C# průvodce
 url: /cs/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/
 ---
 
-://localhost:8000/v1/models` unchanged.
-
-Check for any markdown links: none.
-
-Check for any other shortcodes: top and bottom.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

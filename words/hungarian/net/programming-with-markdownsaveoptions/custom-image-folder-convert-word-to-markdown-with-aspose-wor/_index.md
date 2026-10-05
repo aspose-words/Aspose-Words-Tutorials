@@ -24,9 +24,7 @@ title: egyéni képmappa – Word konvertálása Markdown formátumba az Aspose.
 url: /hu/net/programming-with-markdownsaveoptions/custom-image-folder-convert-word-to-markdown-with-aspose-wor/
 ---
 
-block placeholders: they are {{CODE_BLOCK_X}}. Keep them.
-
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

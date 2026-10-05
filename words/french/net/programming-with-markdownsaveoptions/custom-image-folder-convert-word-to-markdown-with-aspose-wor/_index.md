@@ -24,14 +24,6 @@ title: dossier d'images personnalisé – Convertir Word en Markdown avec Aspose
 url: /fr/net/programming-with-markdownsaveoptions/custom-image-folder-convert-word-to-markdown-with-aspose-wor/
 ---
 
-docx". Keep bold.
-
-"change image format" -> "modifier le format d'image". Keep bold.
-
-Make sure to keep **...**.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

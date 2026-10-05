@@ -24,11 +24,7 @@ title: Aspose के साथ Word से सुलभ PDF बनाएं – 
 url: /hi/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-aspose-step-by-step-gui/
 ---
 
-Then closing shortcodes.
-
-Now ensure we keep all shortcodes exactly.
-
-Let's assemble final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

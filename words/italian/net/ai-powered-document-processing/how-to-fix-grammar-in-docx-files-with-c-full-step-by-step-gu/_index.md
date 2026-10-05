@@ -24,20 +24,6 @@ title: Come correggere la grammatica nei file DOCX con C# – Guida completa pas
 url: /it/net/ai-powered-document-processing/how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/
 ---
 
-.
-
-Proceed.
-
-Continue.
-
-Make sure to keep markdown links unchanged.
-
-There are no markdown links in the intro except maybe none. There is a link in the table? No.
-
-Proceed step by step.
-
-Will produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

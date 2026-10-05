@@ -20,11 +20,7 @@ title: 自訂圖片資料夾 – 使用 Aspose.Words 將 Word 轉換為 Markdown
 url: /zh-hant/net/programming-with-markdownsaveoptions/custom-image-folder-convert-word-to-markdown-with-aspose-wor/
 ---
 
-links: none.
-
-Make sure we didn't translate any code block placeholders.
-
-Now produce final content with translations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

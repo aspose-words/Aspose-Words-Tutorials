@@ -24,25 +24,7 @@ title: Como recuperar docx – Guia completo com recuperação Aspose.Words
 url: /pt/net/programming-with-loadoptions/how-to-recover-docx-full-guide-with-aspose-words-recovery/
 ---
 
-to keep code formatting like `RecoveryMode.TryToRecover` unchanged.
-
-Wrap‑Up heading: "## Wrap‑Up" translate.
-
-"## Conclusão"
-
-Paragraph translate.
-
-Then "### What’s Next?" translate.
-
-"### O que vem a seguir?" or "### Próximos passos?" We'll translate as "### Próximos passos".
-
-List items translate.
-
-Finally closing.
-
-Now produce final content with all shortcodes unchanged.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

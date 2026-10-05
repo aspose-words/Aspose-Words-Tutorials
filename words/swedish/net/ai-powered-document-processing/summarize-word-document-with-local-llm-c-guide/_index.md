@@ -24,11 +24,7 @@ title: Sammanfatta Word-dokument med lokal LLM – C#-guide
 url: /sv/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/
 ---
 
-not content. I think it's safe to keep alt unchanged.
-
-Similarly, code block placeholders are not actual code; they are placeholders. Keep unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

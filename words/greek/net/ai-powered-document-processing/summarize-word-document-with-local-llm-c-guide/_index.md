@@ -24,16 +24,6 @@ title: Σύνοψη εγγράφου Word με τοπικό LLM – Οδηγός
 url: /el/net/ai-powered-document-processing/summarize-word-document-with-local-llm-c-guide/
 ---
 
-points.
-
-Make sure to preserve markdown formatting exactly.
-
-Let's produce the translated content.
-
-We'll keep shortcodes unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

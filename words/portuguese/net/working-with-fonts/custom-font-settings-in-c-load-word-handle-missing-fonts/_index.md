@@ -25,15 +25,7 @@ title: Configurações de Fonte Personalizadas em C# – Carregar Word e Lidar c
 url: /pt/net/working-with-fonts/custom-font-settings-in-c-load-word-handle-missing-fonts/
 ---
 
-– Configure LoadOptions" etc.
-
-Also note "## Custom Font Settings – Configure LoadOptions" we translated to "## Configurações de Fonte Personalizadas – Configurar LoadOptions". Good.
-
-Check for any stray formatting like "###" none.
-
-Make sure we preserve blockquote formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

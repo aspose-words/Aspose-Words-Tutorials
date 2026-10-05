@@ -22,10 +22,6 @@ title: วิธีบันทึก docx เป็น txt – แปลง doc
 url: /th/net/basic-conversions/how-to-save-docx-as-txt-convert-docx-extract-latex/
 ---
 
-final output with same shortcodes.
-
-Let's write translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

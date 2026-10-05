@@ -24,12 +24,6 @@ title: Benutzerdefinierter Bildordner – Word in Markdown konvertieren mit Aspo
 url: /de/net/programming-with-markdownsaveoptions/custom-image-folder-convert-word-to-markdown-with-aspose-wor/
 ---
 
-in "Aspose.Words" maybe not. There's no markdown link.
-
-Also images none.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
