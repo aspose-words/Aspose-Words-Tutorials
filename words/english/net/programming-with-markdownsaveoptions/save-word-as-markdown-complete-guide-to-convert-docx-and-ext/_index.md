@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-03-13
-description: Save Word as Markdown and convert DOCX to Markdown while extracting images.
-  Learn how to extract images from DOCX with Aspose.Words in C#.
+description: "Save Word as Markdown and convert DOCX to Markdown while extracting images using Aspose.Words for .NET. Learn how to extract images from DOCX with Aspose.Words in C#."
 draft: false
 keywords:
 - save word as markdown
@@ -11,14 +10,13 @@ keywords:
 - how to extract images
 - extract embedded images word
 language: en
-og_description: Save Word as Markdown in C#. This guide shows how to convert DOCX
-  to Markdown and extract images, providing a ready‑to‑run solution.
-og_title: Save Word as Markdown – Convert DOCX & Extract Images
+og_description: "Save Word as Markdown in C#. This guide shows how to convert DOCX to Markdown and extract images, providing a ready‑to‑run solution."
+og_title: "Save Word as Markdown – Convert DOCX & Extract Images"
 tags:
 - Aspose.Words
 - C#
 - Markdown
-title: Save Word as Markdown – Complete Guide to Convert DOCX and Extract Images
+title: "Save Word as Markdown with Aspose.Words – Complete Guide to Convert DOCX and Extract Images"
 url: /net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/
 ---
 
@@ -36,7 +34,7 @@ In this tutorial we’ll walk through a practical solution that **converts a DOC
 
 ![Save Word as Markdown conversion flow diagram](conversion-diagram.png "Conversion flow diagram")
 
-## What You’ll Learn
+## What you’ll learn
 
 - How to **save Word as markdown** using Aspose.Words for .NET.
 - The exact steps to **convert docx to markdown** while preserving images.
@@ -61,7 +59,7 @@ If you already have these, great—let’s dive in.
 
 ---
 
-## Step 1: Load the Source DOCX – The Starting Point for Save Word as Markdown
+## Step 1: load the source DOCX – the starting point for save word as markdown
 
 The first thing we do is open the Word document. Aspose.Words reads the file into memory, preserving all internal structures (paragraphs, tables, images, etc.).
 
@@ -95,7 +93,7 @@ MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
 
 ---
 
-## Step 3: Save the Document as Markdown – The Core of Save Word as Markdown
+## Step 3: save the document as markdown – the core of save word as markdown
 
 Now we invoke `Document.Save`. The library will call our callback for each image, write the image file where we told it to, and finally output a markdown file with proper `![]()` links.
 
@@ -142,7 +140,7 @@ public class ImageSavingCallback : IResourceSavingCallback
 }
 ```
 
-### Why This Works
+### Why this works
 
 - **Deterministic filenames** – Using `args.ImageIndex` guarantees uniqueness even if the original DOCX had duplicate names.
 - **Folder isolation** – All extracted assets live under `markdown_resources`, keeping your project tidy.
@@ -150,7 +148,7 @@ public class ImageSavingCallback : IResourceSavingCallback
 
 ---
 
-## Step 5: Verify the Output – What the Markdown Looks Like
+## Step 5: verify the output – what the markdown looks
 
 Open `DocWithImages.md` in any editor. You should see something like:
 
@@ -179,7 +177,7 @@ You should see one line per image; the count should match the number of pictures
 
 ---
 
-## Common Questions & Edge Cases
+## Common questions & edge cases
 
 ### What if the DOCX contains SVG or EMF graphics?
 
@@ -207,7 +205,7 @@ Absolutely. The same callback fires for any external resource. You can branch on
 
 ---
 
-## Full Working Example – Copy‑Paste Ready
+## Full working example – copy‑paste ready
 
 Below is a self‑contained program you can drop into a console app. Adjust the `YOUR_DIRECTORY` placeholder to an absolute or relative path on your machine.
 

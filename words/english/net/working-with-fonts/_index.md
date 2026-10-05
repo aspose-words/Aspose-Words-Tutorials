@@ -1,12 +1,11 @@
 ---
-title: Words Processing with Fonts
-linktitle: Words Processing with Fonts
+title: Manipulate Fonts with Aspose.Words for .NET
+linktitle: Manipulate Fonts with Aspose.Words for .NET
 second_title: Aspose.Words Document Processing API
-description: Words Processing with Fonts tutorials teach you how to work with fonts in Word with Aspose.Words for .NET. Formatting, substitutions, notifications, and more.
+description: Learn how to manipulate fonts in Word documents using Aspose.Words for .NET. This tutorial covers font formatting, substitution, loading custom font folders, and receiving font notifications to help you create consistent, high‑quality documents.
 weight: 420
 url: /net/working-with-fonts/
 ---
-
 
 {{< blocks/products/pf/main-wrap-class >}}
 
@@ -16,14 +15,21 @@ url: /net/working-with-fonts/
 
 # Words Processing with Fonts
 
-
 Words Processing with Fonts tutorials guide you through various aspects of Words Processing with fonts, allowing you to perform operations such as changing font formatting, loading fonts from specific directories, managing substitutions fonts and more.
 
 The tutorials provide you with detailed step-by-step explanations for each feature, along with C# language source code to illustrate the concepts. You will learn how to use classes and methods from the Aspose.Words Library for .NET to perform specific font-related tasks in your Word documents.
 
-Whether you want to format text with different fonts, set font substitution rules, load fonts from specific directories, or receive font notifications, the "Words Processing with Fonts" tutorials will provide you with the knowledge to accomplish these tasks. with ease.
+Whether you want to format text with different fonts, set font substitution rules, load fonts from specific directories, or receive font notifications, the "Words Processing with Fonts" tutorials will provide you with the knowledge to accomplish these tasks with ease.
 
- ## Tutorials
+```csharp
+// Load a document and set a custom font folder
+var loadOptions = new Aspose.Words.LoadOptions();
+loadOptions.FontSettings = new Aspose.Words.FontSettings();
+loadOptions.FontSettings.SetFontsFolder(@"C:\MyFonts", false);
+var doc = new Aspose.Words.Document("input.docx", loadOptions);
+```
+
+## Tutorials
 | Title | Description |
 | --- | --- |
 | [Font Formatting](./font-formatting/) | Learn how to format fonts in Word documents using Aspose.Words for .NET with a detailed, step-by-step guide. |
@@ -51,13 +57,10 @@ Whether you want to format text with different fonts, set font substitution rule
 | [Get Substitution Without Suffixes](./get-substitution-without-suffixes/) | In this tutorial, learn how to get suffixless overrides in a Word document with Aspose.Words for .NET. |
 | [How to Capture Warnings in Aspose.Words – Complete Guide](./how-to-capture-warnings-in-aspose-words-complete-guide/) | Learn how to capture warnings in Aspose.Words for .NET with this comprehensive step-by-step guide. |
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

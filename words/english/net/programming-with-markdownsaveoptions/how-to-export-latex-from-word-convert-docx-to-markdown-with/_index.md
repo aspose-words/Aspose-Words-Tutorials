@@ -1,9 +1,7 @@
 ---
 category: general
 date: 2026-03-13
-description: How to export LaTeX from Word documents by converting DOCX to Markdown
-  using Aspose.Words – a step‑by‑step guide covering save markdown and conversion
-  nuances.
+description: "Learn how to export LaTeX from Word documents by converting DOCX to Markdown using Aspose.Words and the MarkdownSaveOptions API. This step‑by‑step guide covers saving markdown, handling equations, and conversion nuances."
 draft: false
 keywords:
 - how to export latex
@@ -12,16 +10,15 @@ keywords:
 - save docx as markdown
 - convert word document markdown
 language: en
-og_description: How to export LaTeX from Word in a few lines of C#. Learn to convert
-  DOCX to Markdown, save markdown files, and keep equations as LaTeX.
-og_title: How to Export LaTeX from Word – Convert DOCX to Markdown
+og_description: "How to export LaTeX from Word in a few lines of C#. Learn to convert DOCX to Markdown, save markdown files, and keep equations as LaTeX."
+og_title: "How to Export LaTeX from Word – Convert DOCX to Markdown"
 tags:
 - Aspose.Words
 - C#
 - Markdown
 - LaTeX
 - Document Conversion
-title: How to Export LaTeX from Word – Convert DOCX to Markdown with Aspose.Words
+title: "Export LaTeX from Word to Markdown with Aspose.Words using MarkdownSaveOptions"
 url: /net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/
 ---
 
@@ -35,7 +32,7 @@ How to export LaTeX from a Word document is a common hurdle for anyone juggling 
 
 If you’ve ever tried to copy‑paste an equation from Word and ended up with a garbled image, you know why this matters. By the end of the guide you’ll also understand **how to save markdown** files programmatically, and you’ll have a reusable snippet that works with any .docx you throw at it.  
 
-## What You’ll Need  
+## What you’ll need
 
 - **Aspose.Words for .NET** (the latest stable version; at the time of writing it’s 24.9).  
 - A .NET development environment (Visual Studio 2022, VS Code with the C# extension, or Rider).  
@@ -86,14 +83,14 @@ class WordToMarkdown
 }
 ```
 
-### Why These Settings Matter  
+### Why these settings matter
 
 - **`OfficeMathExportMode.LaTeX`** – Without this flag, Aspose.Words would fall back to rendering equations as PNG images, which defeats the purpose of a clean Markdown workflow. LaTeX gives you editable, searchable math that any static‑site generator can render with MathJax or KaTeX.  
 - **`ImageResolution = 300`** – Some Word documents embed complex diagrams that aren’t math. Setting a high DPI ensures those fallback images stay crisp when the Markdown is later converted to HTML or PDF.  
 
 > **Pro tip:** If you know your source files never contain non‑math images, you can set `SaveImagesAsBase64 = false` on `MarkdownSaveOptions` to keep the Markdown file lightweight.
 
-## Convert Word to Markdown – Running the Example  
+## Convert word to markdown – running the example
 
 1. **Create a new console project** (`dotnet new console -n WordToMarkdown`).  
 2. **Add the Aspose.Words NuGet package**: `dotnet add package Aspose.Words`.  
@@ -136,7 +133,7 @@ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions
 };
 ```
 
-## Save Docx as Markdown – Common Pitfalls & How to Avoid Them  
+## Save docx as markdown – common pitfalls & how to avoid them
 
 | Issue | Why it happens | Fix |
 |-------|----------------|-----|
@@ -147,7 +144,7 @@ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions
 
 Addressing these early saves you from chasing bugs later on.
 
-## Convert Word Document Markdown – Verifying the Result  
+## Convert word document markdown – verifying the result
 
 A quick sanity check is to render the Markdown with a tool that understands LaTeX. If you have **pandoc** installed, run:
 
@@ -157,7 +154,7 @@ pandoc output.md -s -o output.html --mathjax
 
 Open `output.html` in a browser; you should see beautifully typeset equations rendered by MathJax. If the equations appear as raw `$…$` strings, double‑check that `OfficeMathExportMode` is correctly set.
 
-## Bonus: Automating the Process for Multiple Files  
+## Bonus: automating the process for multiple files
 
 Often you need to batch‑convert an entire folder. The following snippet expands the previous example to loop over every `.docx` file:
 

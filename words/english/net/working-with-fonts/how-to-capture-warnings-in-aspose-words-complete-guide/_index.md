@@ -1,22 +1,20 @@
 ---
 category: general
 date: 2026-03-13
-description: How to capture warnings when loading documents with Aspose.Words, plus
-  tips to handle missing fonts and set custom font settings. Learn a full C# solution.
+description: Learn how to capture warnings in Aspose.Words for .NET, handle missing fonts, and configure custom FontSettings with a complete C# example. This guide provides step‑by‑step code, tips for Linux/macOS, and optional HTML reporting.
 draft: false
 keywords:
 - how to capture warnings
 - handle missing fonts
 - set custom font settings
 language: en
-og_description: How to capture warnings when loading Word files with Aspose.Words,
-  plus practical ways to handle missing fonts and set custom font settings.
+og_description: How to capture warnings when loading Word files with Aspose.Words, plus practical ways to handle missing fonts and set custom font settings.
 og_title: How to Capture Warnings in Aspose.Words – Complete Guide
 tags:
 - Aspose.Words
 - C#
 - Document Processing
-title: How to Capture Warnings in Aspose.Words – Complete Guide
+title: How to Capture Warnings in Aspose.Words for .NET – Complete Guide
 url: /net/working-with-fonts/how-to-capture-warnings-in-aspose-words-complete-guide/
 ---
 
@@ -24,7 +22,7 @@ url: /net/working-with-fonts/how-to-capture-warnings-in-aspose-words-complete-gu
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Capture Warnings in Aspose.Words – Complete Guide
+# How to Capture Warnings in Aspose.Words for .NET – Complete Guide
 
 Ever wondered **how to capture warnings** that pop up when Aspose.Words loads a document? In many real‑world projects you’ll see font‑substitution alerts, deprecated‑feature notes, or even security‑related messages. Ignoring them is like driving with the windshield cracked—you might get to your destination, but you’ll never know when something’s about to break.
 
@@ -32,7 +30,7 @@ The good news is that Aspose.Words gives you a clean, callback‑based way to in
 
 ---
 
-## What You’ll Learn
+## What you’ll learn
 
 - Configure `LoadOptions` to plug in a custom `FontSettings` object.  
 - Register a warning callback that filters for `FontSubstitution` events.  
@@ -56,7 +54,7 @@ No additional NuGet packages are required beyond Aspose.Words itself.
 
 ---
 
-## Step 1: Set Up Custom Font Settings  
+## Step 1: set up custom font settings
 
 Before you load a document you can tell Aspose.Words where to look for fonts. This is the **set custom font settings** part of the puzzle.
 
@@ -83,7 +81,7 @@ If a DOCX references a font that isn’t installed on the machine, Aspose.Words 
 
 ---
 
-## Step 2: Register a Warning Callback  
+## Step 2: register a warning callback
 
 Aspose.Words implements `IWarningCallback`. We’ll create a tiny handler that prints only the warnings we care about: missing or substituted fonts.
 
@@ -137,7 +135,7 @@ That line is the **how to capture warnings** result you were after.
 
 ---
 
-## Step 4: Full Working Example (Copy‑Paste Ready)
+## Step 4: full working example (Copy‑Paste ready)
 
 Below is the entire program, ready to compile. Paste it into a new console project and run—just make sure the paths point to real locations on your machine.
 
@@ -209,7 +207,7 @@ namespace AsposeWarningDemo
 
 ---
 
-## Step 5: Common Variations & Edge Cases  
+## Step 5: common variations & edge cases
 
 | Situation | What to Adjust |
 |-----------|----------------|

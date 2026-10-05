@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-03-13
-description: Save docx as txt quickly with C#. Learn how to convert equations to LaTeX
-  while saving Word plain text in one clean step.
+description: Save docx as txt quickly with C# and Aspose.Words. Learn how to convert equations to LaTeX while exporting Word plain text in one clean step.
 draft: false
 keywords:
 - save docx as txt
@@ -11,14 +10,13 @@ keywords:
 - how to save text
 - save word plain text
 language: en
-og_description: Save docx as txt instantly and convert equations to LaTeX. Follow
-  this complete C# guide for plain‑text Word export.
+og_description: Save docx as txt instantly and convert equations to LaTeX. Follow this complete C# guide for plain‑text Word export.
 og_title: Save docx as txt – Export equations to LaTeX
 tags:
 - C#
 - Aspose.Words
 - DocumentConversion
-title: Save docx as txt – Export equations to LaTeX
+title: Save docx as txt with Aspose.Words – Export equations to LaTeX
 url: /net/programming-with-txtsaveoptions/save-docx-as-txt-export-equations-to-latex/
 ---
 
@@ -111,7 +109,7 @@ If the preview includes something like `\frac{a}{b}` where you expected an equat
 
 ---
 
-## Common Variations & Edge Cases
+## Common variations & edge cases
 
 ### Converting multiple files in a batch
 
@@ -145,7 +143,7 @@ If the source document uses image‑based equations, Aspose can’t turn them in
 
 ---
 
-## Pro Tips & Gotchas
+## Pro tips & gotchas
 
 * **Pro tip:** Turn on `PreserveTableLayout` (as shown in Step 2) if your document relies on tables for layout. It keeps column spacing roughly intact in the plain‑text output.
 * **Watch out for hidden sections:** Word can store text in headers, footers, or even comments. `TxtSaveOptions` exports those by default, but you can disable them with `ExportHeadersFooters = false` if you only need body content.
@@ -159,7 +157,7 @@ If the source document uses image‑based equations, Aspose can’t turn them in
 
 ---
 
-## Full Working Example (Copy‑Paste Ready)
+## Full working example (Copy‑Paste ready)
 
 Below is a self‑contained program you can drop into a console app. It includes all `using` statements, error handling, and comments to keep you from getting lost.
 
