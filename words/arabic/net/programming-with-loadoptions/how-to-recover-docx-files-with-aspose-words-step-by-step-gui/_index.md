@@ -167,63 +167,6 @@ foreach (Style style in document.Styles)
 ### 4. الملفات الضخمة جدًا
 بالنسبة للملفات التي يزيد حجمها عن 200 ميغابايت، فكر في تحميل الأجزاء المطلوبة فقط باستخدام `LoadOptions.LoadFormat = LoadFormat.Docx` و `LoadOptions.LoadEncoding` لتقليل استهلاك الذاكرة. هذا لا يزال يتيح لك **تعيين وضع الاسترداد** دون استنزاف الذاكرة.
 
-## تجميع كل شيء معًا – مثال كامل يعمل
-
-أدناه البرنامج الكامل الجاهز للتنفيذ الذي يدمج كل النصائح التي ناقشناها. الصقه في مشروع كونسول جديد، حدّث مسار الملف، واضغط **F5**.
-
-```csharp
-using System;
-using Aspose.Words;
-using Aspose.Words.Loading;
-using System.Drawing; // For placeholder image handling (optional)
-
-namespace DocxRecoveryDemo
-{
-    class Program
-    {
-        static void Main()
-        {
-            // -------------------------------------------------
-            // 1️⃣  Configure LoadOptions – **set recovery mode**
-            // -------------------------------------------------
-            LoadOptions loadOptions = new LoadOptions
-            {
-                RecoveryMode = RecoveryMode.Lenient,
-                // Uncomment if you know the password:
-                // Password = "yourPassword"
-            };
-
-            // -------------------------------------------------
-            // 2️⃣  Attempt to load the corrupted document
-            // -------------------------------------------------
-            Document doc;
-            try
-            {
-                doc = new Document("C:\\Temp\\Corrupted.docx", loadOptions);
-                Console.WriteLine("✅ Document loaded successfully.");
-            }
-            catch (FileCorruptedException ex)
-            {
-                Console.WriteLine($"❌ Failed to load: {ex.Message}");
-                return;
-            }
-
-            // -------------------------------------------------
-            // 3️⃣  Verify recovery mode and basic integrity
-            // -------------------------------------------------
-            Console.WriteLine($"Recovery mode used: {loadOptions.RecoveryMode}");
-            Console.WriteLine($"Sections count: {doc.Sections.Count}");
-            int paraCount = doc.GetChildNodes(NodeType.Paragraph, true).Count;
-            Console.WriteLine($"Paragraph count: {paraCount}");
-
-            // -------------------------------------------------
-            // 4️⃣  Optional: Fix missing images (example of **recover damaged word file**)
-            // -------------------------------------------------
-            foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
-            {
-                if (shape.ImageData?.ImageBytes == null)
-                {
-                    // Replace with a generic placeholder
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

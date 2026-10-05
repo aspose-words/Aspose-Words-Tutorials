@@ -172,63 +172,6 @@ foreach (Style style in document.Styles)
 
 200 MB を超えるファイルの場合、`LoadOptions.LoadFormat = LoadFormat.Docx` と `LoadOptions.LoadEncoding` を使用して必要な部分だけをロードし、メモリ使用量を抑えることを検討してください。これにより、RAM を使い切ることなく **set recovery mode** が可能です。
 
-## すべてをまとめる – 完全な動作例
-
-以下は、ここまで説明したすべてのヒントを組み込んだ、完全に実行可能なプログラムです。新しいコンソールプロジェクトに貼り付け、ファイルパスを更新し、**F5** を押して実行してください。
-
-```csharp
-using System;
-using Aspose.Words;
-using Aspose.Words.Loading;
-using System.Drawing; // For placeholder image handling (optional)
-
-namespace DocxRecoveryDemo
-{
-    class Program
-    {
-        static void Main()
-        {
-            // -------------------------------------------------
-            // 1️⃣  Configure LoadOptions – **set recovery mode**
-            // -------------------------------------------------
-            LoadOptions loadOptions = new LoadOptions
-            {
-                RecoveryMode = RecoveryMode.Lenient,
-                // Uncomment if you know the password:
-                // Password = "yourPassword"
-            };
-
-            // -------------------------------------------------
-            // 2️⃣  Attempt to load the corrupted document
-            // -------------------------------------------------
-            Document doc;
-            try
-            {
-                doc = new Document("C:\\Temp\\Corrupted.docx", loadOptions);
-                Console.WriteLine("✅ Document loaded successfully.");
-            }
-            catch (FileCorruptedException ex)
-            {
-                Console.WriteLine($"❌ Failed to load: {ex.Message}");
-                return;
-            }
-
-            // -------------------------------------------------
-            // 3️⃣  Verify recovery mode and basic integrity
-            // -------------------------------------------------
-            Console.WriteLine($"Recovery mode used: {loadOptions.RecoveryMode}");
-            Console.WriteLine($"Sections count: {doc.Sections.Count}");
-            int paraCount = doc.GetChildNodes(NodeType.Paragraph, true).Count;
-            Console.WriteLine($"Paragraph count: {paraCount}");
-
-            // -------------------------------------------------
-            // 4️⃣  Optional: Fix missing images (example of **recover damaged word file**)
-            // -------------------------------------------------
-            foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
-            {
-                if (shape.ImageData?.ImageBytes == null)
-                {
-                    // Replace with a generic placeholder
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

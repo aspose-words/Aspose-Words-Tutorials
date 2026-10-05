@@ -22,13 +22,7 @@ title: Aspose.Words로 DOCX 파일 복구하는 방법 – 단계별 가이드
 url: /ko/net/programming-with-loadoptions/how-to-recover-docx-files-with-aspose-words-step-by-step-gui/
 ---
 
-fine.
-
-Now produce final output with all translated content.
-
-Be careful to preserve markdown formatting exactly.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -176,66 +170,6 @@ foreach (Style style in document.Styles)
 
 ### 4. Extremely Large Files
 200 MB를 초과하는 파일의 경우 `LoadOptions.LoadFormat = LoadFormat.Docx`와 `LoadOptions.LoadEncoding`을 사용해 필요한 부분만 로드하도록 고려하세요. 이렇게 하면 RAM을 소모하지 않으면서도 **set recovery mode**를 적용할 수 있습니다.
-
----
-
-## Putting It All Together – Full Working Example
-
-아래는 논의한 모든 팁을 포함한 완전한 실행 가능한 프로그램입니다. 새 콘솔 프로젝트에 붙여넣고 파일 경로를 업데이트한 뒤 **F5**를 눌러 실행하세요.
-
-```csharp
-using System;
-using Aspose.Words;
-using Aspose.Words.Loading;
-using System.Drawing; // For placeholder image handling (optional)
-
-namespace DocxRecoveryDemo
-{
-    class Program
-    {
-        static void Main()
-        {
-            // -------------------------------------------------
-            // 1️⃣  Configure LoadOptions – **set recovery mode**
-            // -------------------------------------------------
-            LoadOptions loadOptions = new LoadOptions
-            {
-                RecoveryMode = RecoveryMode.Lenient,
-                // Uncomment if you know the password:
-                // Password = "yourPassword"
-            };
-
-            // -------------------------------------------------
-            // 2️⃣  Attempt to load the corrupted document
-            // -------------------------------------------------
-            Document doc;
-            try
-            {
-                doc = new Document("C:\\Temp\\Corrupted.docx", loadOptions);
-                Console.WriteLine("✅ Document loaded successfully.");
-            }
-            catch (FileCorruptedException ex)
-            {
-                Console.WriteLine($"❌ Failed to load: {ex.Message}");
-                return;
-            }
-
-            // -------------------------------------------------
-            // 3️⃣  Verify recovery mode and basic integrity
-            // -------------------------------------------------
-            Console.WriteLine($"Recovery mode used: {loadOptions.RecoveryMode}");
-            Console.WriteLine($"Sections count: {doc.Sections.Count}");
-            int paraCount = doc.GetChildNodes(NodeType.Paragraph, true).Count;
-            Console.WriteLine($"Paragraph count: {paraCount}");
-
-            // -------------------------------------------------
-            // 4️⃣  Optional: Fix missing images (example of **recover damaged word file**)
-            // -------------------------------------------------
-            foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
-            {
-                if (shape.ImageData?.ImageBytes == null)
-                {
-                    // Replace with a generic placeholder
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
