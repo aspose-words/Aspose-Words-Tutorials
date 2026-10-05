@@ -1,0 +1,7 @@
+Title: Enable recovery mode to open a corrupted Word document
+Slug: enable-recovery-mode-to-open-a-corrupted-word-document
+Category: document-options-and-settings
+ProcessedDate: 2026-10-01T02:42:53.902026
+SourceRepo: AI Search API
+Keywords: enable recovery mode, open corrupted word document, recover corrupted docx, how to open corrupted docx, load document with recovery
+PRNumber: 296

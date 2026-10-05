@@ -39,6 +39,8 @@ Scopri come migliorare i tuoi documenti con forme e grafica utilizzando Aspose.W
 Scopri come stampare e visualizzare documenti in modo efficiente utilizzando Aspose.Words per Java. Impara passo dopo passo con esempi di codice sorgente.
 ### [Rendering di documenti in HTML](./rendering-documents-html/)
 Scopri come convertire i documenti in HTML senza sforzo con Aspose.Words per Java. Guida passo passo per una conversione efficiente dei documenti.
+### [Come gestire i font in Java con Aspose.Words – Guida completa](./how-to-handle-fonts-in-java-with-aspose-words-complete-guide/)
+Scopri come gestire i font nei documenti Word usando Aspose.Words per Java. Esempi pratici e consigli per un rendering accurato.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

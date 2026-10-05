@@ -1,0 +1,7 @@
+Title: How to create column chart python with Aspose.Words
+Slug: how-to-create-column-chart-python-with-aspose-words
+Category: images-shapes
+ProcessedDate: 2026-08-17T19:08:43.827536
+SourceRepo: AI Search API
+Keywords: create column chart python
+PRNumber: 257

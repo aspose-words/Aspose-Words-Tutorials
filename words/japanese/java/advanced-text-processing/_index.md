@@ -62,6 +62,9 @@ Learn how to manage and insert **control characters** in documents using Aspose.
 ### [Aspose.Words Java の LayoutCollector と LayoutEnumerator の完全ガイド&#58; テキスト処理の高度な活用法](./aspose-words-java-layoutcollector-enumerator-guide/)
 Unlock the power of Aspose.Words Java's **LayoutCollector** and **LayoutEnumerator** for advanced text processing. Learn how to efficiently manage document layouts, analyze pagination, and control page numbering.
 
+### [C# で Word に矩形シェイプを作成する – ステップバイステップガイド](./create-rectangle-shape-in-word-with-c-step-by-step-guide/)
+C# を使用して Word 文書に矩形シェイプを挿入し、サイズや位置を設定する手順を詳しく解説します。
+
 ## Common Use Cases
 
 | Scenario | How It Helps |

@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: Med Aspose.Words Document och DocumentBuilder lägger den här handledningen till automatiskt uppdaterande sidnummer i det primära sidfoten i ett Word‑dokument.
+//ExStepSummary:0: Skapa ett nytt Document‑objekt och en DocumentBuilder som är knuten till det.
+//ExStepSummary:1: Flytta builderns markör till den primära sidfoten i den första sektionen.
+//ExStepSummary:2: Ställ in styckejusteringen till centrerad så att sidfotstexten blir centrerad.
+//ExStepSummary:3: Skriv etiketten "Page " och infoga ett PAGE‑fält som visar det aktuella sidnumret.
+//ExStepSummary:4: Skriv " of " och infoga ett NUMPAGES‑fält som visar det totala antalet sidor.
+//ExStepSummary:5: Spara dokumentet som en .docx‑fil.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+
+//ExStep:2-
+builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
+
+//ExStep:3-
+builder.Write("Page ");
+builder.InsertField("PAGE", null);
+
+//ExStep:4-
+builder.Write(" of ");
+builder.InsertField("NUMPAGES", null);
+
+//ExStep:5-
+doc.Save("PageNumbers.docx");
+//ExEnd

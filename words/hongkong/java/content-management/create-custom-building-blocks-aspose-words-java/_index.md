@@ -18,7 +18,7 @@ weight: 1
 
 # 在 Microsoft Word 中使用 Aspose.Words for Java 建立自訂建構區塊
 
-## 介紹
+您是否希望透過在 Microsoft Word 中加入可重複使用的內容區段，更有效率地 **manage word templates java**？本教學將示範如何使用 Aspose.Words for Java 建立自訂建構區塊，作為模組化、可重複使用的範本。無論您是自動化合約的開發人員，或是標準化報告的專案經理，都能獲得清晰、可投入生產的做法。
 
 您是否希望透過在 Microsoft Word 中加入可重複使用的內容區段，提升文件建立流程？在本教學中，您將學習如何使用 **building blocks in word**，這項強大的功能可讓您快速且一致地插入建構區塊範本。無論您是開發人員或是專案經理，掌握此能力都能協助您建立自訂建構區塊、以程式方式插入建構區塊內容，並保持範本的有序管理。
 
@@ -79,6 +79,7 @@ implementation 'com.aspose:aspose-words:25.3'
 3. **購買授權**：若需永久使用，請於 [Aspose Purchase Portal](https://purchase.aspose.com/buy) 購買。
 
 ### 基本初始化
+After adding the JAR and applying a license, initialize the library in your Java code:
 
 完成設定與授權後，在 Java 專案中初始化 Aspose.Words：
 ```java

@@ -47,7 +47,7 @@ Dodržováním těchto tutoriálů budete schopni plně využít funkce manipula
 | [Získat plovoucí pozici u stolu](./get-floating-table-position/) | Naučte se, jak získat plovoucí pozice tabulek v dokumentech Word pomocí Aspose.Words pro .NET. Tento podrobný návod krok za krokem vás provede vším, co potřebujete vědět. |
 | [Plovoucí poloha stolu](./floating-table-position/) | Naučte se, jak ovládat plovoucí pozici tabulek v dokumentech Wordu pomocí Aspose.Words pro .NET s naším podrobným návodem krok za krokem. |
 | [Nastavení relativní horizontální nebo vertikální polohy](./set-relative-horizontal-or-vertical-position/) Naučte se, jak nastavit relativní horizontální a vertikální pozice tabulek v dokumentech Word pomocí Aspose.Words pro .NET v tomto podrobném návodu. |
-
+| [Skrytí řádku v tabulce pomocí C# – Jednoduchý průvodce odstraňováním řádků tabulky](./hide-row-in-table-with-c-simple-guide-to-removing-table-rows/) | Naučte se, jak skrýt řádky v tabulce v dokumentech Word pomocí Aspose.Words pro .NET a C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

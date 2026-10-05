@@ -1,29 +1,28 @@
 ---
 category: general
-date: 2026-03-13
-description: Hogyan exportáljunk LaTeX-et Word-dokumentumokból a DOCX Markdownra konvertálásával
-  az Aspose.Words segítségével – egy lépésről‑lépésre útmutató, amely lefedi a markdown
-  mentését és a konverzió finomságait.
+date: 2026-01-03
+description: Hogyan exportáljunk LaTeX-et egy Word-dokumentumból az Aspose.Words segítségével
+  – konvertáljuk a Word-öt Markdownra, és kapjunk egyenleteket LaTeX formátumban néhány
+  C# sorral.
 draft: false
 keywords:
 - how to export latex
 - convert word to markdown
-- how to save markdown
-- save docx as markdown
-- convert word document markdown
+- how to convert docx
+- convert equations to latex
+- how to use aspose
 language: hu
-og_description: Hogyan exportáljunk LaTeX-et a Wordből néhány C# sorral. Tanulja meg
-  a DOCX konvertálását Markdownra, a markdown fájlok mentését, és a képletek LaTeX
-  formában történő megőrzését.
-og_title: Hogyan exportáljunk LaTeX-et Word-ből – DOCX konvertálása Markdownba
+og_description: Ismerje meg, hogyan exportálhat LaTeX-et Word-dokumentumokból az Aspose.Words
+  segítségével. Konvertálja a DOCX-et Markdown formátumba, és percek alatt nyerjen
+  ki egyenleteket LaTeX-ként.
+og_title: Hogyan exportáljunk LaTeX-et Wordből – Gyors Aspose útmutató
 tags:
 - Aspose.Words
 - C#
 - Markdown
 - LaTeX
-- Document Conversion
-title: Hogyan exportáljunk LaTeX-et a Wordből – DOCX konvertálása Markdownra az Aspose.Words
-  segítségével
+title: 'Hogyan exportáljunk LaTeX-et a Wordből: DOCX konvertálása Markdown formátumba
+  az Aspose segítségével'
 url: /hu/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/
 ---
 
@@ -31,162 +30,200 @@ url: /hu/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan exportáljunk LaTeX-et Word‑ből – DOCX konvertálása Markdownba az Aspose.Words segítségével  
+# Hogyan exportáljunk LaTeX-et Word-ből: DOCX konvertálása Markdown-re az Aspose segítségével
 
-A LaTeX exportálása egy Word dokumentumból gyakori akadály mindenki számára, aki tudományos cikkekkel, technikai blogokkal vagy statikus weboldalkészítőkkel dolgozik. Ebben az útmutatóban bemutatjuk, **hogyan konvertáljunk egy DOCX fájlt Markdownba, miközben minden Office Math egyenletet LaTeX‑ként megőrzünk**, így az eredményt közvetlenül beillesztheted a Jekyll, Hugo vagy bármely Markdown‑első munkafolyamatba.  
+Gondolkodtál már azon, **hogyan exportáljunk LaTeX-et** egy Word fájlból anélkül, hogy kézzel másolnád minden egyenletet? Nem vagy egyedül – a fejlesztők folyamatosan azt kérdezik, hogyan lehet a Word-ot Markdown-re konvertálni a matematika megőrzésével. Ebben az útmutatóban bemutatunk egy tiszta, programozott módszert a **LaTeX exportálására** az Aspose.Words könyvtár segítségével, és közben megválaszoljuk a “how to convert docx” és a “convert equations to LaTeX” kérdéseket is egyben.
 
-Ha valaha is megpróbáltál egy egyenletet másolni‑beilleszteni a Wordből, és csak egy torz képet kaptál, tudod, miért fontos ez. A útmutató végére meg fogod érteni, **hogyan menthetünk markdown** fájlokat programozottan, és lesz egy újrahasználható kódrészlet, amely bármely .docx fájllal működik.  
+Áttekintjük mindazt, amire szükséged lesz: előkövetelmények, a pontos C# kód, hogy miért fontos minden sor, és egy gyors ellenőrzés, hogy megbizonyosodjunk róla, a Markdown fájl valóban tartalmazza a várt LaTeX-et. A végére képes leszel **hogyan exportáljunk LaTeX-et** bármely DOCX-ből, és azt egy Markdown dokumentummá alakítani, amely készen áll statikus weboldalkészítőkre, például Jekyll-re vagy GitHub Pages-re.
 
-## Amire szükséged lesz  
+## Amire szükséged lesz (Előkövetelmények)
 
-- **Aspose.Words for .NET** (a legújabb stabil verzió; írás időpontjában ez a 24.9).  
-- Egy .NET fejlesztői környezet (Visual Studio 2022, VS Code a C# kiegészítővel, vagy Rider).  
-- Egy Word dokumentum, amely Office Math objektumokat tartalmaz (az „input.docx”).  
+Mielőtt belemerülnénk, győződj meg róla, hogy a következőkkel rendelkezel a gépeden:
 
-Nincs szükség külső konverterekre, nincs szükség parancssori eszközök manipulálására – csak néhány C# sor és az Aspose.Words ereje.
+| Requirement | Reason |
+|-------------|--------|
+| .NET 6.0 or later | Az Aspose.Words for .NET támogatja a .NET Standard 2.0+-t, a .NET 6 a jelenlegi LTS. |
+| Visual Studio 2022 (or any C# IDE) | Megkönnyíti a NuGet csomag hozzáadását és a minta futtatását. |
+| Aspose.Words for .NET (NuGet `Aspose.Words`) | Az alapkönyvtár, amely lehetővé teszi számunkra a **hogyan exportáljunk LaTeX-et** a Word-ból. |
+| A DOCX containing equations (e.g., `Math.docx`) | Ez a forrás, amelyet Markdown-re konvertálunk. |
 
-## Hogyan exportáljunk LaTeX-et – A konverzió beállítása  
+Ha még nem telepítetted a NuGet csomagot, futtasd:
 
-A megoldás lényege három egyszerű lépésben rejlik: betölteni a forrásfájlt, beállítani a `MarkdownSaveOptions`‑t, hogy az Aspose.Words LaTeX‑et generáljon az egyenletekhez, és végül elmenteni a kimenetet. Alább található a **teljes, futtatható program**.
+```bash
+dotnet add package Aspose.Words
+```
+
+Ez az egyetlen sor mindent behozza, amire később a **hogyan exportáljunk LaTeX-et** szükséged lesz.
+
+## 1. lépés: A DOCX betöltése – A “Hogyan exportáljunk LaTeX-et” első része
+
+Az első dolog, amit meg kell tennünk, hogy megnyissuk a Word fájlt. Tekintsd a `Document` objektumot egy átjárónak; nélküle nincs mit konvertálni.
 
 ```csharp
-using System;
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-class WordToMarkdown
+// Load the source Word document that contains equations.
+Document doc = new Document("YOUR_DIRECTORY/Math.docx");
+
+// Quick sanity‑check – print the number of paragraphs (optional).
+Console.WriteLine($"Document loaded: {doc.Paragraphs.Count} paragraphs.");
+```
+
+**Miért fontos ez:**
+
+- `Document` a háttérben feldolgozza az OOXML-et, és hozzáférést biztosít a `OfficeMath` objektumokhoz, amelyek az egyenleteket képviselik.  
+- Ha kihagyod ezt a lépést, soha nem érsz el ahhoz a részhez, ahol **hogyan exportáljunk LaTeX-et**.
+
+> **Pro tipp:** Ha a fájlod más mappában van, használd a `Path.Combine`-t a perjelek kézi kódolásának elkerülése érdekében.
+
+## 2. lépés: MarkdownSaveOptions konfigurálása – Mondd meg az Aspose-nak *pontosan* hogyan exportáljon LaTeX-et
+
+Az Aspose lehetővé teszi a kimeneti formátum finomhangolását a `MarkdownSaveOptions` segítségével. Itt kérjük kifejezetten a LaTeX-et az alapértelmezett MathML helyett.
+
+```csharp
+// Create save options and set the OfficeMath export mode to LaTeX.
+MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
+{
+    // This flag forces every equation to be written as LaTeX code.
+    OfficeMathExportMode = OfficeMathExportMode.LaTeX
+};
+
+// Show the chosen option (useful for debugging).
+Console.WriteLine($"OfficeMathExportMode set to: {mdOptions.OfficeMathExportMode}");
+```
+
+**Miért fontos ez:**
+
+- Alapértelmezés szerint az Aspose MathML-t generál, amit sok Markdown renderelő nem ért meg.  
+- `OfficeMathExportMode` `LaTeX`-re állítása a kulcsparancs, amely lehetővé teszi, hogy **hogyan exportáljunk LaTeX-et** közvetlenül a DOCX-ből.
+
+## 3. lépés: Mentés Markdown‑ként – A “Hogyan exportáljunk LaTeX-et” végső lépése
+
+Miután a dokumentum betöltődött és a beállítások megvannak, kiírhatjuk a fájlt. A kapott `.md` szabályos Markdown szöveget és LaTeX blokkokat tartalmaz minden egyenlethez.
+
+```csharp
+// Save the document as a Markdown file using the LaTeX options.
+string outputPath = "YOUR_DIRECTORY/Math.md";
+doc.Save(outputPath, mdOptions);
+
+Console.WriteLine($"Conversion complete! Markdown saved to: {outputPath}");
+```
+
+Amikor megnyitod a `Math.md`-t, valami ilyesmit látsz majd:
+
+```markdown
+Here is a simple equation:
+
+$$
+\int_{0}^{\infty} e^{-x^2}\,dx = \frac{\sqrt{\pi}}{2}
+$$
+
+And a second one:
+
+$$
+E = mc^2
+$$
+```
+
+**Miért fontos ez:**
+
+- A `Save` hívás végzi a nehéz munkát: elemzi a Word struktúrát, minden `OfficeMath` csomópontot LaTeX-re fordít, és a darabokat egy tiszta Markdown fájlba illeszti.  
+- Ez az egyetlen sor a **hogyan exportáljunk LaTeX-et** munkafolyamat csúcspontja.
+
+## 4. lépés: Kimenet ellenőrzése – Annak biztosítása, hogy a LaTeX helyesen exportálódott
+
+Könnyű azt feltételezni, hogy minden működött, de egy gyors ellenőrzés órákat takarít meg a későbbi hibakeresésben.
+
+```csharp
+// Simple verification: read the first 200 characters of the MD file.
+string mdContent = File.ReadAllText(outputPath);
+Console.WriteLine("First 200 chars of the generated Markdown:");
+Console.WriteLine(mdContent.Substring(0, Math.Min(200, mdContent.Length)));
+```
+
+Ha `$$` határolókat látsz a LaTeX kód körül, sikeresen **hogyan exportáljunk LaTeX-et**. Ha nem, ellenőrizd újra, hogy az `OfficeMathExportMode` helyesen lett beállítva, és hogy a forrás DOCX valóban tartalmaz `OfficeMath` objektumokat (azaz beépített Word egyenleteket, nem képeket).
+
+## Gyakori buktatók és szélsőséges esetek (Amikor a “Hogyan exportáljunk LaTeX-et” nem megy simán)
+
+| Symptom | Likely Cause | Fix |
+|---------|--------------|-----|
+| Nem jelenik meg LaTeX, csak egyszerű szöveg | `OfficeMathExportMode` alapértelmezett (`MathML`) maradt | Győződj meg róla, hogy beállítod `OfficeMathExportMode = OfficeMathExportMode.LaTeX`. |
+| Az egyenletek képként jelennek meg | A forrás **képalapú** egyenleteket használ a Word beépített egyenlet-szerkesztője helyett | Alakítsd át ezeket a képeket megfelelő OfficeMath objektumokká, vagy használj OCR eszközöket – az Aspose nem tud képeket LaTeX-re konvertálni. |
+| A kimeneti fájl üres | Helytelen útvonal vagy hiányzó olvasási/írási jogosultság | Ellenőrizd, hogy a `YOUR_DIRECTORY` létezik, és a folyamatnak van írási joga. |
+| Váratlan karakterek (`\r\n`) a LaTeX-ben | Sorvége eltérés Windows és Linux között | Használd a `File.ReadAllText(..., Encoding.UTF8)`-t, ha konzisztens kódolásra van szükség. |
+
+Ezeknek a problémáknak a kezelése biztosítja, hogy a **hogyan exportáljunk LaTeX-et** folyamatod robusztus legyen különböző környezetekben.
+
+## Bónusz: Word konvertálása Markdown-re LaTeX nélkül (Ha csak egyszerű szövegre van szükséged)
+
+Néha csak **Word‑t Markdown-re konvertálni** szeretnéd, és a matematikát nem érdekel. Ugyanazt a kódot újra felhasználhatod, csak meg kell változtatni az export módot:
+
+```csharp
+MarkdownSaveOptions plainOptions = new MarkdownSaveOptions
+{
+    OfficeMathExportMode = OfficeMathExportMode.Text // plain text fallback
+};
+
+doc.Save("YOUR_DIRECTORY/Plain.md", plainOptions);
+```
+
+Most már van egy gyors módod **hogyan konvertáljunk DOCX-et** tiszta Markdown-re, LaTeX‑el vagy anélkül, a projekt igényeitől függően.
+
+## Teljes működő példa (másolás‑beillesztés kész)
+
+Az alábbiakban a teljes program látható, készen áll egy konzolalkalmazásba illeszteni:
+
+```csharp
+using System;
+using System.IO;
+using Aspose.Words;
+using Aspose.Words.Saving;
+
+class Program
 {
     static void Main()
     {
-        // -------------------------------------------------
-        // Step 1: Load the source Word document containing equations
-        // -------------------------------------------------
-        // Replace YOUR_DIRECTORY with the actual folder path on your machine.
-        string inputPath = @"YOUR_DIRECTORY\input.docx";
+        // 1️⃣ Load the DOCX that contains equations.
+        string inputPath = "YOUR_DIRECTORY/Math.docx";
         Document doc = new Document(inputPath);
+        Console.WriteLine($"Loaded {Path.GetFileName(inputPath)} with {doc.Paragraphs.Count} paragraphs.");
 
-        // -------------------------------------------------
-        // Step 2: Configure Markdown save options
-        // -------------------------------------------------
-        // OfficeMathExportMode.LaTeX tells Aspose.Words to turn every
-        // Office Math object into a LaTeX string wrapped in $…$ or $$…$$.
-        // ImageResolution is a safety net for any fallback images.
-        MarkdownSaveOptions saveOptions = new MarkdownSaveOptions
+        // 2️⃣ Configure options to export equations as LaTeX.
+        MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
         {
-            OfficeMathExportMode = OfficeMathExportMode.LaTeX,
-            ImageResolution = 300
+            OfficeMathExportMode = OfficeMathExportMode.LaTeX
         };
+        Console.WriteLine($"Export mode set to: {mdOptions.OfficeMathExportMode}");
 
-        // -------------------------------------------------
-        // Step 3: Save the document as a Markdown file
-        // -------------------------------------------------
-        string outputPath = @"YOUR_DIRECTORY\output.md";
-        doc.Save(outputPath, saveOptions);
+        // 3️⃣ Save the document as Markdown.
+        string outputPath = "YOUR_DIRECTORY/Math.md";
+        doc.Save(outputPath, mdOptions);
+        Console.WriteLine($"✅ Markdown with LaTeX saved to {outputPath}");
 
-        Console.WriteLine($"✅ Conversion complete! Markdown saved to: {outputPath}");
+        // 4️⃣ Quick verification.
+        string mdContent = File.ReadAllText(outputPath);
+        Console.WriteLine("\n--- First 200 characters of the generated file ---");
+        Console.WriteLine(mdContent.Substring(0, Math.Min(200, mdContent.Length)));
     }
 }
 ```
 
-### Miért fontosak ezek a beállítások  
+Futtasd a programot, nyisd meg a `Math.md`-t, és látni fogod, hogy az egyenletek `$$ … $$` közé vannak foglalva. Ez a **hogyan exportáljunk LaTeX-et** lényege a Word‑ból az Aspose használatával.
 
-- **`OfficeMathExportMode.LaTeX`** – Enélkül a jelző nélkül az Aspose.Words visszaesik az egyenletek PNG képként történő megjelenítésére, ami aláássa a tiszta Markdown munkafolyamat célját. A LaTeX szerkeszthető, kereshető matematikát biztosít, amelyet bármely statikus weboldalkészítő MathJax vagy KaTeX segítségével renderelhet.  
-- **`ImageResolution = 300`** – Egyes Word dokumentumok komplex diagramokat ágyaznak be, amelyek nem matematikai jellegűek. A magas DPI beállítása biztosítja, hogy ezek a tartalék képek élesek maradjanak, amikor a Markdown később HTML‑re vagy PDF‑re konvertálódik.  
+## Következtetés
 
-> **Pro tipp:** Ha tudod, hogy a forrásfájlok soha nem tartalmaznak nem‑matematikai képeket, beállíthatod a `SaveImagesAsBase64 = false` értéket a `MarkdownSaveOptions`‑on, hogy a Markdown fájl könnyű maradjon.
+Áttekintettük a teljes folyamatot, hogyan **exportáljunk LaTeX-et** egy Word dokumentumból: betöltjük a DOCX-et, beállítjuk az `OfficeMathExportMode`‑t `LaTeX`‑re, mentünk Markdown‑ként, és ellenőrizzük az eredményt. Ezzel válaszoltunk a “how to convert docx” kérdésre, megmutattuk, hogyan **convert word to markdown**, és bemutattuk, hogyan **convert equations to LaTeX** anélkül, hogy kézzel másolnánk.
 
-## Word konvertálása Markdownba – Példa futtatása  
+Ha készen állsz a továbblépésre, próbáld ki:
 
-1. **Hozz létre egy új konzolos projektet** (`dotnet new console -n WordToMarkdown`).  
-2. **Add hozzá az Aspose.Words NuGet csomagot**: `dotnet add package Aspose.Words`.  
-3. Cseréld le az automatikusan generált `Program.cs`‑t a fenti kóddal, módosítva a `YOUR_DIRECTORY`‑t.  
-4. Helyezz el egy teszt `input.docx` fájlt, amely legalább egy egyenletet tartalmaz (Insert → Equation a Wordben).  
-5. **Futtasd**: `dotnet run`.  
+- A generált Markdown betáplálása egy statikus weboldalkészítőbe, például Hugo vagy Jekyll.  
+- Egyedi CSS hozzáadása a megjelenített LaTeX stílusozásához a weboldaladon.  
+- Más Aspose export formátumok (HTML, PDF) felfedezése, miközben megőrzöd a LaTeX-et.
 
-A konzolon meg kell jelennie egy üzenetnek, amely megerősíti, hogy a fájl mentésre került. Nyisd meg az `output.md` fájlt bármely szerkesztőben, és olyan sorokat fogsz látni, mint:
+Ne feledd, a varázslat egyetlen sorban rejlik: `OfficeMathExportMode = OfficeMathExportMode.LaTeX`. Ha ezt megvan, automatizálhatod a számtalan DOCX fájl konvertálását egy CI pipeline-ban, asztali eszközben vagy felhőfüggvényben.
 
-```markdown
-Here is an inline equation $E = mc^2$ inside a paragraph.
-
-$$
-\int_{a}^{b} f(x)\,dx = F(b) - F(a)
-$$
-```
-
-Ezek az eredeti Office Math objektumok LaTeX ábrázolásai.
-
-## Hogyan mentsünk Markdown‑t – A kimenet finomhangolása  
-
-Néha több kontrollra van szükség a Markdown formátum felett (például ha a LaTeX‑hez keretezett kódrészeket részesíted előnyben, vagy a GitHub‑flavored markdownot szeretnéd érvényesíteni). Az Aspose.Words több további tulajdonságot is biztosít:
-
-| Tulajdonság | Mit csinál | Tipikus érték |
-|-------------|------------|---------------|
-| `ExportHeadersFooters` | A fejléc/lábléc szöveget is belefoglalja a Markdown kimenetbe. | `true` / `false` |
-| `PreserveTableLayout` | Megőrzi a táblázat oszlopszélességeit HTML `<col>` tagekként. | `true` |
-| `SaveImagesAsBase64` | Képeket közvetlenül adat‑URI‑ként ágyaz be. | `false` (ajánlott verziókezeléshez) |
-| `UseGitHubFlavoredMarkdown` | GFM szintaxisra vált a táblázatok és feladatlisták esetén. | `true` |
-
-Bármelyik ezek közül beilleszthető a `MarkdownSaveOptions` inicializálásába. Például:
-
-```csharp
-MarkdownSaveOptions saveOptions = new MarkdownSaveOptions
-{
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
-    ImageResolution = 300,
-    UseGitHubFlavoredMarkdown = true,
-    SaveImagesAsBase64 = false
-};
-```
-
-## Docx mentése Markdownba – Gyakori buktatók és hogyan kerüld el őket  
-
-| Probléma | Miért fordul elő | Megoldás |
-|----------|-------------------|----------|
-| **Equations become images** | `OfficeMathExportMode` alapértelmezett értéken (`Image`) maradt. | Állítsd be `OfficeMathExportMode = OfficeMathExportMode.LaTeX`. |
-| **Missing images** | A forrás Word fájl külső képekre hivatkozik, amelyek nincsenek beágyazva. | Győződj meg róla, hogy minden kép **beágyazott** (Word → File → Info → Check for Issues → Inspect Document). |
-| **Garbage characters in LaTeX** | A dokumentum egy egyedi betűtípust használ, amelyet az Aspose.Words nem tud leképezni. | Használd a `MathRenderer` tulajdonságot egy tartalék betűtípus megadásához, vagy egyszerűsítsd az egyenletet. |
-| **Large Markdown files** | A magas felbontású tartalék képek növelik a méretet. | Csökkentsd az `ImageResolution` értékét 150 DPI‑re, ha a minőség nem kritikus. |
-
-Ezek korai kezelése megakadályozza, hogy később hibákat keress.
-
-## Word dokumentum Markdownba konvertálása – Az eredmény ellenőrzése  
-
-Egy gyors ellenőrzéshez rendereld a Markdown‑t egy LaTeX‑et értő eszközzel. Ha telepítve van a **pandoc**, futtasd:
-
-```bash
-pandoc output.md -s -o output.html --mathjax
-```
-
-Nyisd meg az `output.html` fájlt egy böngészőben; gyönyörűen formázott egyenleteket kell látnod, amelyeket a MathJax renderelt. Ha az egyenletek nyers `$…$` karakterláncként jelennek meg, ellenőrizd, hogy az `OfficeMathExportMode` helyesen van beállítva.
-
-## Bónusz: A folyamat automatizálása több fájlhoz  
-
-Gyakran szükség van egy egész mappa kötegelt konvertálására. Az alábbi kódrészlet kibővíti a korábbi példát, hogy minden `.docx` fájlon végigmenjen:
-
-```csharp
-string sourceFolder = @"YOUR_DIRECTORY\Docs";
-string[] docxFiles = Directory.GetFiles(sourceFolder, "*.docx");
-
-foreach (var file in docxFiles)
-{
-    Document doc = new Document(file);
-    string mdFile = Path.ChangeExtension(file, ".md");
-    doc.Save(mdFile, saveOptions);
-    Console.WriteLine($"Converted: {Path.GetFileName(file)} → {Path.GetFileName(mdFile)}");
-}
-```
-
-Ez a kis ciklus a manuális feladatot egy egykattintásos műveletté alakítja – tökéletes CI csővezetékekhez vagy éjszakai dokumentációs buildekhez.
-
-## Összegzés  
-
-Most már van egy **teljes, önálló megoldás arra, hogyan exportáljunk LaTeX-et Word‑ből**, amely bármely DOCX‑et tiszta Markdownba konvertál, miközben az egyenletek szerkeszthetőek maradnak. A `MarkdownSaveOptions` elsajátításával megtanultad, **hogyan menthetünk markdown**‑t finomhangolt vezérléssel, és láttál gyakorlati módszereket a **word to markdown** tömeges konvertálására.  
-
-Következő lépések? Próbáld meg a generált Markdown‑t egy statikus weboldalkészítőbe betáplálni, kísérletezz KaTeX témákkal, vagy fedezd fel az Aspose.Words további export formátumait (HTML, PDF, EPUB). Ugyanez a minta működik **save docx as markdown** más nyelveken is – csak cseréld le a C# SDK‑t Java vagy Python változatra.  
-
-Boldog konvertálást, és legyen a dokumentációd mindig emberi olvasásra alkalmas és matematikailag pontos!  
-
-![Hogyan exportáljunk LaTeX diagramot](https://example.com/images/export-latex-diagram.png "Diagram, amely bemutatja, hogyan exportáljunk LaTeX-et Word‑ből Markdownba")
+Van kérdésed a szélsőséges esetekkel, a teljesítménnyel vagy a licenceléssel kapcsolatban? Írj egy megjegyzést alább, és jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

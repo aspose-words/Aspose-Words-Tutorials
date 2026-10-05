@@ -47,6 +47,7 @@
 | [الحصول على موضع الجدول العائم](./get-floating-table-position/) | تعلّم كيفية الحصول على مواضع الجداول العائمة في مستندات Word باستخدام Aspose.Words لـ .NET. سيرشدك هذا الدليل المفصل خطوة بخطوة إلى كل ما تحتاج لمعرفته. |
 | [موضع الجدول العائم](./floating-table-position/) |تعرف على كيفية التحكم في الموضع العائم للجداول في مستندات Word باستخدام Aspose.Words for .NET من خلال دليلنا المفصل خطوة بخطوة. |
 | [تعيين الوضع الأفقي أو الرأسي النسبي](./set-relative-horizontal-or-vertical-position/) |تعرف على كيفية تعيين المواضع الأفقية والرأسية النسبية للجداول في مستندات Word باستخدام Aspose.Words for .NET من خلال هذا الدليل خطوة بخطوة. |
+| [إخفاء صف في جدول باستخدام C#](./hide-row-in-table-with-c-simple-guide-to-removing-table-rows/) | تعلم كيفية إخفاء أو حذف صفوف الجداول في مستندات Word باستخدام Aspose.Words لـ .NET مع C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

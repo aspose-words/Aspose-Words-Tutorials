@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Using the Document and DocumentBuilder classes, this tutorial shows how to add a dynamic DATE field to the primary header of a Word document and then save the file.
+//ExStepSummary:0: Create a new Document and a DocumentBuilder to edit it.
+//ExStepSummary:1: Move the builder’s cursor to the primary header so subsequent inserts affect the header.
+//ExStepSummary:2: Write the static label and insert a DATE field formatted as “MMMM d, yyyy” into the header, creating a dynamic date.
+//ExStepSummary:3: Return to the main body and add a sample paragraph, demonstrating normal document content alongside the header.
+//ExStepSummary:4: Save the document to a .docx file.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+builder.Write("Generated on: ");
+builder.InsertField("DATE \\@ \"MMMM d, yyyy\"");
+
+//ExStep:3-
+builder.MoveToDocumentEnd();
+builder.Writeln("This is the document body.");
+
+//ExStep:4-
+doc.Save("HeaderDate.docx");
+//ExEnd
