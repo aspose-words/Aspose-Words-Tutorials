@@ -55,6 +55,7 @@
 | [كيفية استعادة ملفات DOCX في C# – دليل خطوة بخطوة](./how-to-recover-docx-files-in-c-step-by-step-guide/) | تعلّم خطوة بخطوة كيفية استعادة ملفات DOCX التالفة باستخدام C# و Aspose.Words. |
 | [استعادة ملفات Word التالفة – دليل خطوة بخطوة لمطوري C#](./recover-corrupted-word-files-step-by-step-guide-for-c-develo/) | تعرّف على كيفية استعادة ملفات Word التالفة باستخدام Aspose.Words لـ .NET عبر دليل خطوة بخطوة للمطورين بلغة C#. |
 | [كيفية استعادة ملف DOCX – دليل كامل مع Aspose.Words Recovery](./how-to-recover-docx-full-guide-with-aspose-words-recovery/) | دليل شامل لاستعادة ملفات DOCX التالفة باستخدام Aspose.Words Recovery. |
+| [كيفية استعادة ملفات DOCX باستخدام Aspose.Words – دليل خطوة بخطوة](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/) | تعرّف على خطوات استعادة ملفات DOCX التالفة باستخدام Aspose.Words في دليل شامل خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

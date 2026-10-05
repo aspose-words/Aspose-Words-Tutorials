@@ -65,6 +65,8 @@
 | [Обработка предупреждений о шрифтах в Aspose.Words – Обнаружение отсутствующих шрифтов](./handle-font-warnings-in-aspose-words-detect-missing-fonts/) | Узнайте, как обрабатывать предупреждения о недостающих шрифтах в Aspose.Words для .NET с помощью пошагового руководства. |
 | [Создать FontSettings в C# – Обнаружить отсутствующие шрифты и захватить сообщения о шрифтах](./create-fontsettings-in-c-detect-missing-fonts-capture-font-m/) | Узнайте, как создать объект FontSettings в C#, обнаруживать недостающие шрифты и получать сообщения о шрифтах в Aspose.Words для .NET. |
 | [Захват предупреждений о шрифтах в C# – Полное руководство](./capture-font-warnings-in-c-complete-guide/) | Узнайте, как захватывать предупреждения о шрифтах в Aspose.Words для .NET с помощью C# в этом полном руководстве. |
+| [Как захватывать предупреждения в Aspose.Words – Полное руководство](./how-to-capture-warnings-in-aspose-words-complete-guide/) | Узнайте, как перехватывать и обрабатывать предупреждения в Aspose.Words для .NET с помощью пошагового руководства. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

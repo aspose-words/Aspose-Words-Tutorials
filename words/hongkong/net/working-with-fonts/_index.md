@@ -49,6 +49,7 @@
 | [捕獲字體警告（C#）完整程式設計指南](./capture-font-warnings-in-c-complete-programming-guide/) |了解如何使用 Aspose.Words for .NET 於 C# 捕獲字體警告，完整程式設計指南。 |
 | [設定警告回呼 – 完整字體處理指南](./set-warning-callback-in-c-complete-guide-to-font-handling/) |了解如何在 Aspose.Words for .NET 中使用 C# 設定字體相關的警告回呼，以便捕捉和處理字體警告。 |
 | [在 Aspose.Words 中啟用字體替換警告 – 完整指南](./enable-font-substitution-warnings-in-aspose-words-complete-g/) |了解如何在 Aspose.Words for .NET 中啟用字體替換警告，以便在文件處理時接收相關通知。 |
+| [如何在 Aspose.Words 中捕獲警告 – 完整指南](./how-to-capture-warnings-in-aspose-words-complete-guide/) |了解如何在 Aspose.Words for .NET 中捕獲並處理警告，以確保文件處理的可靠性。 |
 | [資源 Steam 字體來源範例](./resource-steam-font-source-example/) |了解如何使用資源流字體來源將自訂字體載入到 Aspose.Words for .NET 中。 |
 | [取得不含後綴的替換](./get-substitution-without-suffixes/) |在本教學中，學習如何使用 Aspose.Words for .NET 在 Word 文件中取得無後綴覆蓋。 |
 | [如何在 C# 中載入 DOCX – 完整指南](./how-to-load-docx-in-c-complete-guide/) |透過本完整指南了解如何在 C# 中使用 Aspose.Words for .NET 載入 DOCX 文件。 |

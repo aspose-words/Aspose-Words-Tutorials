@@ -55,6 +55,7 @@ Az Alapvető konverziók című útmutató végigvezeti Önt az Aspose.Words for
 | [Akadálymentes PDF létrehozása Wordből – Lépésről‑lépésre útmutató](./create-accessible-pdf-from-word-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre hozzáférhető PDF dokumentumokat Word fájlokból az Aspose.Words for .NET segítségével. |
 | [DOCX konvertálása PDF-be C#-ban – Teljes útmutató](./convert-docx-to-pdf-in-c-complete-guide/) | Tanulja meg, hogyan konvertálhat DOCX fájlokat PDF-be C#-ban az Aspose.Words segítségével, részletes lépésekkel. |
 | [Word PDF útmutató: DOCX konvertálása PDF-be az Aspose.Words segítségével](./word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/) | Tanulja meg, hogyan konvertálhat DOCX fájlokat PDF-be az Aspose.Words for .NET használatával. |
+| [PDF létrehozása DOCX-ből C#-ban – Lépésről‑lépésre útmutató](./how-to-create-pdf-from-docx-in-c-step-by-step-guide/) | Tanulja meg, hogyan konvertálhat DOCX fájlokat PDF-be C#-ban az Aspose.Words for .NET segítségével, részletes lépésekkel. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

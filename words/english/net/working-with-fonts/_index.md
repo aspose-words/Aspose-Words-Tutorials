@@ -7,7 +7,6 @@ weight: 420
 url: /net/working-with-fonts/
 ---
 
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -85,13 +84,12 @@ doc.Save("Output.docx");
 | [Create FontSettings in C# – Detect Missing Fonts & Capture Font Messages](./create-fontsettings-in-c-detect-missing-fonts-capture-font-m/) | Learn how to create FontSettings in C# to detect missing fonts and capture font messages with Aspose.Words for .NET. |
 | [Custom Font Settings in C# – Load Word & Handle Missing Fonts](./custom-font-settings-in-c-load-word-handle-missing-fonts/) | Learn how to load Word documents with custom font settings in C# and handle missing fonts using Aspose.Words for .NET. |
 
+| [How to Capture Warnings in Aspose.Words – Complete Guide](./how-to-capture-warnings-in-aspose-words-complete-guide/) | Learn how to capture warnings in Aspose.Words for .NET with this comprehensive step-by-step guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

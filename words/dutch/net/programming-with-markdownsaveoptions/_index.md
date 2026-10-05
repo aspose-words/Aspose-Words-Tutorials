@@ -167,6 +167,9 @@ Leer hoe u docx-bestanden naar markdown converteert met een duidelijke stap‑vo
 
 ### [Docx converteren naar markdown met Aspose.Words – Complete gids](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
 
+### [Word opslaan als Markdown – Complete gids om DOCX te converteren en afbeeldingen te extraheren](./save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
+Leer hoe u Word-documenten opslaat als Markdown, DOCX converteert en afbeeldingen extraheert met een volledige C#‑handleiding.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

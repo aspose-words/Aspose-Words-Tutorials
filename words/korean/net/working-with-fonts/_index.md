@@ -65,6 +65,7 @@
 | [C#에서 FontSettings 만들기 – 누락된 글꼴 감지 및 글꼴 메시지 캡처](./create-fontsettings-in-c-detect-missing-fonts-capture-font-m/) | Aspose.Words for .NET을 사용하여 누락된 글꼴을 감지하고 글꼴 관련 메시지를 캡처하는 방법을 단계별로 안내합니다. |
 | [C#에서 글꼴 경고 캡처 – 완전 가이드](./capture-font-warnings-in-c-complete-guide/) | Aspose.Words for .NET을 사용하여 C#에서 글꼴 경고를 캡처하고 처리하는 방법을 단계별로 안내합니다. |
 | [C#에서 사용자 지정 글꼴 설정 – Word 로드 및 누락된 글꼴 처리](./custom-font-settings-in-c-load-word-handle-missing-fonts/) | Aspose.Words for .NET을 사용해 C#에서 Word를 로드하고 누락된 글꼴을 처리하는 방법을 단계별로 안내합니다. |
+| [Aspose.Words에서 경고 캡처하는 방법 – 완전 가이드](./how-to-capture-warnings-in-aspose-words-complete-guide/) | Aspose.Words 사용 시 발생하는 경고를 포착하고 처리하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

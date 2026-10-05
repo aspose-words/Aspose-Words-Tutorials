@@ -66,6 +66,7 @@ Of u nu tekst wilt opmaken met verschillende lettertypen, regels voor lettertype
 | [FontSettings maken in C# – Ontbrekende lettertypen detecteren en lettertype‑meldingen vastleggen](./create-fontsettings-in-c-detect-missing-fonts-capture-font-m/) | Leer hoe u FontSettings maakt in C# om ontbrekende lettertypen te detecteren en lettertype‑meldingen vast te leggen met Aspose.Words voor .NET. |
 | [Lettertypewaarschuwingen vastleggen in C# – Complete gids](./capture-font-warnings-in-c-complete-guide/) | Leer hoe u lettertype-waarschuwingen in C# kunt vastleggen met Aspose.Words voor .NET in deze volledige gids. |
 | [Aangepaste lettertype‑instellingen in C# – Laad Word en verwerk ontbrekende lettertypen](./custom-font-settings-in-c-load-word-handle-missing-fonts/) | Leer hoe u aangepaste lettertype‑instellingen laadt en ontbrekende lettertypen beheert in Word met Aspose.Words voor .NET. |
+| [Hoe waarschuwingen vastleggen in Aspose.Words – Complete gids](./how-to-capture-warnings-in-aspose-words-complete-guide/) | Leer hoe u waarschuwingen in Aspose.Words kunt vastleggen en verwerken met een stapsgewijze handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

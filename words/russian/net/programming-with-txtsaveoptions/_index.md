@@ -37,6 +37,7 @@
 | [Сохранить DOCX как TXT – Экспорт уравнений Word в LaTeX](./save-docx-as-txt-export-word-equations-to-latex/) | Узнайте, как экспортировать уравнения Word в LaTeX при сохранении DOCX в TXT с помощью Aspose.Words для .NET. |
 | [Как экспортировать LaTeX из Word – преобразовать Word в TXT](./how-to-export-latex-from-word-convert-word-to-txt/) | Узнайте, как экспортировать содержимое Word в формат LaTeX, используя сохранение в TXT с помощью Aspose.Words для .NET. |
 | [Сохранить документ как TXT – Экспорт уравнений Word в LaTeX](./save-document-as-txt-export-word-equations-to-latex/) | Узнайте, как экспортировать уравнения из документов Word в формат LaTeX при сохранении в TXT с помощью Aspose.Words для .NET. |
+| [Сохранить docx в txt – экспорт уравнений в LaTeX](./save-docx-as-txt-export-equations-to-latex/) | Узнайте, как сохранять документы DOCX в формате TXT с экспортом уравнений в LaTeX, используя Aspose.Words для .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

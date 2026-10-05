@@ -37,6 +37,7 @@
 | [Αποθήκευση DOCX ως TXT – Εξαγωγή εξισώσεων Word σε LaTeX](./save-docx-as-txt-export-word-equations-to-latex/) | Μάθετε πώς να μετατρέπετε έγγραφα DOCX σε αρχεία TXT και να εξάγετε τις εξισώσεις Word σε μορφή LaTeX. |
 | [Πώς να εξάγετε LaTeX από το Word – Μετατροπή Word σε TXT](./how-to-export-latex-from-word-convert-word-to-txt/) | Μάθετε πώς να εξάγετε LaTeX από Word και να το μετατρέψετε σε TXT με Aspose.Words για .NET. |
 | [Αποθήκευση εγγράφου ως TXT – Εξαγωγή εξισώσεων Word σε LaTeX](./save-document-as-txt-export-word-equations-to-latex/) | Μάθετε πώς να αποθηκεύετε έγγραφα Word ως αρχεία TXT και να εξάγετε τις εξισώσεις σε μορφή LaTeX χρησιμοποιώντας Aspose.Words για .NET. |
+| [Αποθήκευση docx ως txt – Εξαγωγή εξισώσεων σε LaTeX](./save-docx-as-txt-export-equations-to-latex/) | Μάθετε πώς να μετατρέψετε έγγραφα docx σε txt εξάγοντας εξισώσεις σε μορφή LaTeX. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

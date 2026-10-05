@@ -37,6 +37,7 @@ Aspose.Words for .NET ट्यूटोरियल आपको Word दस्
 | [DOCX को TXT के रूप में सहेजें – Word समीकरणों को LaTeX में निर्यात करें](./save-docx-as-txt-export-word-equations-to-latex/) | DOCX फ़ाइल को TXT में बदलें और Word समीकरणों को LaTeX फ़ॉर्मेट में निर्यात करना सीखें। |
 | [Word से LaTeX निर्यात कैसे करें – Word को TXT में बदलें](./how-to-export-latex-from-word-convert-word-to-txt/) | इस ट्यूटोरियल में Word दस्तावेज़ को LaTeX फ़ॉर्मेट में निर्यात करके TXT फ़ाइल में बदलने की प्रक्रिया दिखायी गई है। |
 | [TXT के रूप में दस्तावेज़ सहेजें – Word समीकरणों को LaTeX में निर्यात करें](./save-document-as-txt-export-word-equations-to-latex/) | Word समीकरणों को LaTeX में निर्यात करके TXT फ़ाइल में दस्तावेज़ सहेजना सीखें। |
+| [docx को txt के रूप में सहेजें – समीकरणों को LaTeX में निर्यात करें](./save-docx-as-txt-export-equations-to-latex/) | docx फ़ाइल को txt में बदलें और समीकरणों को LaTeX स्वरूप में निर्यात करना सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

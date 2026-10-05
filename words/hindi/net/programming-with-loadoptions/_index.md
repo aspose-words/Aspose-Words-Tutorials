@@ -54,6 +54,7 @@ Aspose.Words for .NET ट्यूटोरियल उन डेवलपर�
 | [Aspose Load Options – DOCX को मार्कडाउन और PDF में बदलें](./aspose-load-options-convert-docx-to-markdown-pdf/) | Aspose Load Options का उपयोग करके DOCX फ़ाइल को मार्कडाउन और PDF प्रारूप में आसानी से बदलें। चरण‑दर‑चरण मार्गदर्शिका। |
 | [C# में DOCX फ़ाइलों को पुनर्प्राप्त करने की चरण‑दर‑चरण गाइड](./how-to-recover-docx-files-in-c-step-by-step-guide/) .NET के लिए Aspose.Words का उपयोग करके क्षतिग्रस्त DOCX फ़ाइलों को पुनर्प्राप्त करने की विस्तृत प्रक्रिया सीखें। |
 | [Aspose.Words के साथ भ्रष्ट DOCX पुनर्प्राप्त करें – पूर्ण C# गाइड](./recover-corrupted-docx-with-aspose-words-complete-c-guide/) | Aspose.Words का उपयोग करके भ्रष्ट DOCX फ़ाइल को पुनर्प्राप्त करने की पूरी C# मार्गदर्शिका। |
+| [Aspose.Words के साथ DOCX फ़ाइलें पुनर्प्राप्त करने का चरण‑दर‑चरण मार्गदर्शक](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/) | .NET के लिए Aspose.Words का उपयोग करके क्षतिग्रस्त या खोई हुई DOCX फ़ाइलों को पुनर्प्राप्त करने की चरण‑दर‑चरण प्रक्रिया सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

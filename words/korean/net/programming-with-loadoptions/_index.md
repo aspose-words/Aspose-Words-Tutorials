@@ -55,6 +55,7 @@ Aspose.Words for .NET 튜토리얼은 LoadOptions를 사용하여 워드 프로�
 | [C#에서 DOCX 파일 복구하기 – 단계별 가이드](./how-to-recover-docx-files-in-c-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 손상된 DOCX 파일을 C#에서 복구하는 방법을 단계별로 안내합니다. |
 | [손상된 Word 파일 복구 – C# 개발자를 위한 단계별 가이드](./recover-corrupted-word-files-step-by-step-guide-for-c-develo/) | Aspose.Words for .NET을 사용하여 손상된 Word 파일을 복구하는 방법을 C# 개발자를 위해 단계별로 안내합니다. |
 | [Aspose.Words로 손상된 DOCX 복구 – 완전한 C# 가이드](./recover-corrupted-docx-with-aspose-words-complete-c-guide/) | Aspose.Words를 활용해 손상된 DOCX 파일을 복구하는 방법을 단계별로 안내합니다. |
+| [Aspose.Words로 DOCX 파일 복구하기 – 단계별 가이드](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/) | Aspose.Words를 사용하여 손상된 DOCX 파일을 복구하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
