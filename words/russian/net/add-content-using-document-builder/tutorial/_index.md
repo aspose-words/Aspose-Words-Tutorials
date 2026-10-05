@@ -20,20 +20,7 @@ og_title: "convert docx to markdown – Export Word to Markdown"
 og_description: "convert docx to markdown with a complete C# guide. Export Word to markdown, save word as markdown, and control empty paragraph handling."
 ---
 
-
-– Export Word to Markdown" heading: translate but keep case? Keep same heading level (#). Should we translate "convert docx to markdown – Export Word to Markdown" to Russian: "конвертировать docx в markdown – экспорт Word в Markdown". Keep the dash.
-
-Also "Ever needed to **convert docx to markdown** but weren’t sure which API call actually does the trick?" translate.
-
-Make sure to keep **bold** formatting.
-
-Also keep code block placeholders.
-
-Let's craft translation.
-
-We'll output the entire content with same structure.
-
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

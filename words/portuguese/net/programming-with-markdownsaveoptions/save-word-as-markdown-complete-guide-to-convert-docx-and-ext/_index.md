@@ -22,22 +22,6 @@ title: Salvar Word como Markdown – Guia Completo para Converter DOCX e Extrair
 url: /pt/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/
 ---
 
-content: "Requirement", "Why it matters". Keep them as is but translate the text inside cells.
-
-Also translate list items.
-
-Also translate the "Quick sanity check" heading.
-
-Also translate "Common Questions & Edge Cases" etc.
-
-Make sure to keep markdown formatting.
-
-Let's produce the translated content.
-
-We'll keep the shortcodes at top and bottom.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

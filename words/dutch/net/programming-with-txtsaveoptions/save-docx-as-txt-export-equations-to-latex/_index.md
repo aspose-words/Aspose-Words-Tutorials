@@ -22,9 +22,7 @@ title: Docx opslaan als txt – Vergelijkingen exporteren naar LaTeX
 url: /nl/net/programming-with-txtsaveoptions/save-docx-as-txt-export-equations-to-latex/
 ---
 
-sure to keep them unchanged.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

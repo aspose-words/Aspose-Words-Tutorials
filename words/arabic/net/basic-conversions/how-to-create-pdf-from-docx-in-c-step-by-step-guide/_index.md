@@ -23,16 +23,6 @@ title: كيفية إنشاء PDF من DOCX في C# – دليل خطوة بخط�
 url: /ar/net/basic-conversions/how-to-create-pdf-from-docx-in-c-step-by-step-guide/
 ---
 
-في C#](path/to/image.png "كيفية إنشاء PDF باستخدام Aspose.Words في C#")
-
-Then closing shortcodes unchanged.
-
-Finally include backtop button shortcode unchanged.
-
-Make sure no extra spaces.
-
-Now produce final content with all translations and placeholders unchanged.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

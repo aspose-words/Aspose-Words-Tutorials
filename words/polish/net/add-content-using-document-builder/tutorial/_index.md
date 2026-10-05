@@ -20,41 +20,6 @@ og_title: "convert docx to markdown – Export Word to Markdown"
 og_description: "convert docx to markdown with a complete C# guide. Export Word to markdown, save word as markdown, and control empty paragraph handling."
 ---
 
-
-matters:** etc.
-
-Also > **Prerequisite:** etc.
-
-Also > **Why this matters:** etc.
-
-Also > **Pro tip:** etc.
-
-Also > **Why this matters:** etc.
-
-Also > **Prerequisite:** etc.
-
-Also > **Why this matters:** etc.
-
-Also > **Pro tip:** etc.
-
-Also > **Why this matters:** etc.
-
-Also > **Prerequisite:** etc.
-
-Also > **Why this matters:** etc.
-
-Also > **Pro tip:** etc.
-
-Also > **Why this matters:** etc.
-
-Also > **Prerequisite:** etc.
-
-Also > **Why this matters:** etc.
-
-Ok.
-
-Now produce final answer.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

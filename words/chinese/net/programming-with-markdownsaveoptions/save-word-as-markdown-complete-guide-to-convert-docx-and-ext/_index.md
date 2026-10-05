@@ -21,20 +21,6 @@ title: 将 Word 保存为 Markdown – 完整指南：转换 DOCX 并提取图�
 url: /zh/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/
 ---
 
-with the right pictures!"
-
-Now we need to ensure we preserve all markdown formatting.
-
-Let's produce the translated content.
-
-We'll keep shortcodes at top and bottom unchanged.
-
-Let's start.
-
-We need to output only the translated content, no explanations.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

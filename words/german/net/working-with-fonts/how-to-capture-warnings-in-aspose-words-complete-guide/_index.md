@@ -22,11 +22,7 @@ title: Wie man Warnungen in Aspose.Words erfasst – Vollständiger Leitfaden
 url: /de/net/working-with-fonts/how-to-capture-warnings-in-aspose-words-complete-guide/
 ---
 
-placeholders. So fine.
-
-Make sure to keep all shortcodes exactly.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

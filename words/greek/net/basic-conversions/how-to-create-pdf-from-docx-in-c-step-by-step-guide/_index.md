@@ -25,40 +25,6 @@ title: Πώς να δημιουργήσετε PDF από DOCX σε C# – Οδη
 url: /el/net/basic-conversions/how-to-create-pdf-from-docx-in-c-step-by-step-guide/
 ---
 
-"When you run the program, you should see the console message confirming the file location. Open `output.pdf` in a viewer that supports accessibility (Adobe Acrobat Reader is a solid choice) and verify that the document is searchable and properly tagged."
-
-- "Full Working Example" heading.
-
-- "Putting it all together, here’s a complete, self‑contained console app you can copy‑paste into a new C# project:".
-
-- "Expected Result" heading.
-
-- bullet points.
-
-- "Edge Cases & Common Questions" heading.
-
-- Subheadings.
-
-- etc.
-
-- "Bonus: Adding a Simple Cover Page Before Conversion"
-
-- "Conclusion"
-
-- List of next steps.
-
-- Image alt text.
-
-We need to keep markdown formatting.
-
-Let's translate each.
-
-Be careful with bold **...** keep same.
-
-Greek translation should be natural.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

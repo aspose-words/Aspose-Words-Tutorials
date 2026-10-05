@@ -22,15 +22,7 @@ title: Uložit docx jako txt – Exportovat rovnice do LaTeXu
 url: /cs/net/programming-with-txtsaveoptions/save-docx-as-txt-export-equations-to-latex/
 ---
 
-any code block placeholders. They remain.
-
-Check for any URLs: only image path, keep unchanged.
-
-Check for markdown links: none.
-
-Check for shortcodes: at top and bottom, keep.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

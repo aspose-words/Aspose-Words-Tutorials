@@ -22,10 +22,6 @@ title: Αποθήκευση docx ως txt – Εξαγωγή εξισώσεων 
 url: /el/net/programming-with-txtsaveoptions/save-docx-as-txt-export-equations-to-latex/
 ---
 
-quote with > **Τι θα λάβετε:** ... Good.
-
-Now produce final output with all content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

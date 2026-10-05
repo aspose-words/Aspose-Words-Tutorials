@@ -22,11 +22,7 @@ title: Salvar docx como txt – Exportar equações para LaTeX
 url: /pt/net/programming-with-txtsaveoptions/save-docx-as-txt-export-equations-to-latex/
 ---
 
-for any markdown links: none.
-
-All good.
-
-Now produce final output with all translated content, preserving formatting.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,14 +24,6 @@ title: 如何從 Word 匯出 LaTeX – 使用 Aspose.Words 將 DOCX 轉換為 Ma
 url: /zh-hant/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/
 ---
 
-Similarly other tables.
-
-Also the "Pro tip:" we translate.
-
-Make sure to keep markdown formatting.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

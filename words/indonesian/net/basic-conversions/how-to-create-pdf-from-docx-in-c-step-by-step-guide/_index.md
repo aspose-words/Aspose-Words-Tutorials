@@ -23,8 +23,6 @@ title: Cara Membuat PDF dari DOCX di C# – Panduan Langkah demi Langkah
 url: /id/net/basic-conversions/how-to-create-pdf-from-docx-in-c-step-by-step-guide/
 ---
 
-produce final content with all translations and unchanged placeholders.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

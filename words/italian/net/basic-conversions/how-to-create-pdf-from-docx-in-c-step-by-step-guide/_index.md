@@ -23,10 +23,6 @@ title: Come creare PDF da DOCX in C# – Guida passo passo
 url: /it/net/basic-conversions/how-to-create-pdf-from-docx-in-c-step-by-step-guide/
 ---
 
-Actually they appear as plain text, not inside fences. In original they are just placeholders. We must keep them unchanged.
-
-Now produce final markdown.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

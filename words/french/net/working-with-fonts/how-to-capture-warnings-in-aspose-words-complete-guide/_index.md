@@ -22,7 +22,7 @@ title: Comment capturer les avertissements dans Aspose.Words – Guide complet
 url: /fr/net/working-with-fonts/how-to-capture-warnings-in-aspose-words-complete-guide/
 ---
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

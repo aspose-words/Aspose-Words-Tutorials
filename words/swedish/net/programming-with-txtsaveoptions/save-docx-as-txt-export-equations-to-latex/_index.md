@@ -22,7 +22,7 @@ title: Spara docx som txt – Exportera ekvationer till LaTeX
 url: /sv/net/programming-with-txtsaveoptions/save-docx-as-txt-export-equations-to-latex/
 ---
 
-produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

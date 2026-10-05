@@ -21,11 +21,7 @@ title: Cách bắt các cảnh báo trong Aspose.Words – Hướng dẫn chi ti
 url: /vi/net/working-with-fonts/how-to-capture-warnings-in-aspose-words-complete-guide/
 ---
 
-top button.
-
-Make sure to keep them.
-
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

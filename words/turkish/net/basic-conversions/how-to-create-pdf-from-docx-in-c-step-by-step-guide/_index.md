@@ -24,13 +24,7 @@ title: C#'te DOCX'ten PDF Oluşturma – Adım Adım Rehber
 url: /tr/net/basic-conversions/how-to-create-pdf-from-docx-in-c-step-by-step-guide/
 ---
 
-eyin, seçenekleri ayarlayın ve kütüphanenin işi halletmesine izin verin. Kodlamanın tadını çıkarın!"
-
-Image markdown stays same.
-
-Now ensure we keep all shortcodes at start and end.
-
-Let's assemble final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

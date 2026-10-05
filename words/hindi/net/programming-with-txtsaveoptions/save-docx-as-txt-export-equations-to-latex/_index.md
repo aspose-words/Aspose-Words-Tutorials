@@ -22,11 +22,7 @@ title: docx को txt के रूप में सहेजें – सम�
 url: /hi/net/programming-with-txtsaveoptions/save-docx-as-txt-export-equations-to-latex/
 ---
 
-top-button >}}
-
-Make sure to keep spacing.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

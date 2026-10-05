@@ -23,13 +23,7 @@ title: Hur man skapar PDF från DOCX i C# – Steg‑för‑steg‑guide
 url: /sv/net/basic-conversions/how-to-create-pdf-from-docx-in-c-step-by-step-guide/
 ---
 
-.
-
-Now produce final content with all markdown.
-
-Make sure to keep shortcodes at top and bottom exactly.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

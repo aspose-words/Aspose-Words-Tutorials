@@ -25,10 +25,6 @@ title: Como Exportar LaTeX do Word – Converter DOCX para Markdown com Aspose.W
 url: /pt/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/
 ---
 
-keep markdown formatting.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

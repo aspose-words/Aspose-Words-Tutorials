@@ -22,11 +22,7 @@ title: Cómo capturar advertencias en Aspose.Words – Guía completa
 url: /es/net/working-with-fonts/how-to-capture-warnings-in-aspose-words-complete-guide/
 ---
 
-.
-
-Make sure we didn't translate any code block placeholders. Keep them.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

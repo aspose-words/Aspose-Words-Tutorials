@@ -22,9 +22,7 @@ title: Πώς να καταγράψετε προειδοποιήσεις στο 
 url: /el/net/working-with-fonts/how-to-capture-warnings-in-aspose-words-complete-guide/
 ---
 
-sure not to translate those.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

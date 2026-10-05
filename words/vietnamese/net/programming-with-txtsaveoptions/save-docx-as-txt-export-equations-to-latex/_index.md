@@ -22,10 +22,6 @@ title: Lưu docx thành txt – Xuất các phương trình sang LaTeX
 url: /vi/net/programming-with-txtsaveoptions/save-docx-as-txt-export-equations-to-latex/
 ---
 
-: there are none except maybe in image alt? No.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

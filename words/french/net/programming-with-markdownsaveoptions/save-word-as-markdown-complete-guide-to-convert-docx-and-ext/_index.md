@@ -25,16 +25,6 @@ title: Enregistrer Word en Markdown – Guide complet pour convertir DOCX et ext
 url: /fr/net/programming-with-markdownsaveoptions/save-word-as-markdown-complete-guide-to-convert-docx-and-ext/
 ---
 
-" translate to French: "# Enregistrer Word en Markdown – Guide complet pour convertir DOCX et extraire les images"
-
-Proceed.
-
-Let's craft translation.
-
-Be careful with apostrophes.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

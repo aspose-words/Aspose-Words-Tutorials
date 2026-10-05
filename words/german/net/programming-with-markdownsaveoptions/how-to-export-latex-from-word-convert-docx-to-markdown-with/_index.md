@@ -26,8 +26,6 @@ title: Wie man LaTeX aus Word exportiert – DOCX in Markdown mit Aspose.Words k
 url: /de/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/
 ---
 
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

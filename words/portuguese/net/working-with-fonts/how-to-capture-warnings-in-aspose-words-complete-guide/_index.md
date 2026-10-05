@@ -22,14 +22,6 @@ title: Como Capturar Avisos no Aspose.Words – Guia Completo
 url: /pt/net/working-with-fonts/how-to-capture-warnings-in-aspose-words-complete-guide/
 ---
 
-preserving markdown.
-
-Let's craft translation.
-
-Be careful with bold and italics.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

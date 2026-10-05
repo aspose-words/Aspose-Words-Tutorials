@@ -22,13 +22,7 @@ title: Hogyan rögzítsük a figyelmeztetéseket az Aspose.Words-ben – Teljes 
 url: /hu/net/working-with-fonts/how-to-capture-warnings-in-aspose-words-complete-guide/
 ---
 
-Check for any markdown links: none.
-
-Check for any code fences: none.
-
-Make sure to keep the placeholders exactly as they appear.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

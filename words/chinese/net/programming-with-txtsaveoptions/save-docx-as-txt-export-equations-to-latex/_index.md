@@ -20,13 +20,7 @@ title: 将 docx 保存为 txt – 将公式导出为 LaTeX
 url: /zh/net/programming-with-txtsaveoptions/save-docx-as-txt-export-equations-to-latex/
 ---
 
-unchanged.
-
-Check for any code blocks: placeholders remain.
-
-Check for any shortcodes: preserved.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

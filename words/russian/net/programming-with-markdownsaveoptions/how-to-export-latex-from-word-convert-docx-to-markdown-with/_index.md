@@ -27,13 +27,7 @@ title: Как экспортировать LaTeX из Word – преобраз
 url: /ru/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/
 ---
 
->}}
-
-All preserved.
-
-Make sure no extra spaces or missing. Provide only translated content.
-
-Let's assemble final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

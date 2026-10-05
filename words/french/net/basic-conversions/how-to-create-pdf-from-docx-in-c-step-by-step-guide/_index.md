@@ -24,11 +24,7 @@ title: Comment créer un PDF à partir d’un DOCX en C# – Guide étape par é
 url: /fr/net/basic-conversions/how-to-create-pdf-from-docx-in-c-step-by-step-guide/
 ---
 
-Check for any missed items: The bullet list under "Prerequisites" we translated. The blockquote we translated. All code block placeholders remain.
-
-Make sure to keep markdown formatting exactly.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

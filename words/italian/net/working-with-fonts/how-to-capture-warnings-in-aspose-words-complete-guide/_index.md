@@ -22,10 +22,6 @@ title: Come catturare gli avvisi in Aspose.Words – Guida completa
 url: /it/net/working-with-fonts/how-to-capture-warnings-in-aspose-words-complete-guide/
 ---
 
-Check for any URLs: none except image path. Keep unchanged.
-
-Now produce final translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

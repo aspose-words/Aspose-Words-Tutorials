@@ -24,10 +24,6 @@ title: كيفية تصدير LaTeX من Word – تحويل DOCX إلى Markdown
 url: /ar/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/
 ---
 
-with markdown formatting: headings, lists, tables.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

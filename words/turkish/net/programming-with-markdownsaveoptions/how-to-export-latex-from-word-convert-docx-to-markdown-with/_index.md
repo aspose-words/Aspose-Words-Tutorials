@@ -26,14 +26,6 @@ title: Word'ten LaTeX Nasıl Dışa Aktarılır – DOCX'i Aspose.Words ile Mark
 url: /tr/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/
 ---
 
-X Dışa Aktarma – DOCX'i Aspose.Words ile Markdown'a Dönüştürme". Keep same heading level.
-
-Proceed.
-
-I'll translate paragraphs.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

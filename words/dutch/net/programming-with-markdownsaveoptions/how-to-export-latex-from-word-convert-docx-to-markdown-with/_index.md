@@ -26,10 +26,6 @@ title: Hoe LaTeX uit Word te exporteren – DOCX naar Markdown converteren met A
 url: /nl/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-with/
 ---
 
-codes at top and bottom unchanged.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -23,19 +23,7 @@ title: 如何在 C# 中从 DOCX 创建 PDF – 步骤指南
 url: /zh/net/basic-conversions/how-to-create-pdf-from-docx-in-c-step-by-step-guide/
 ---
 
-; load it at runtime from a secure location. Should translate.
-
-All list items etc.
-
-Let's produce final content.
-
-Check headings: "# How to Create PDF from DOCX in C# – Complete Guide" translate to Chinese: "# 如何在 C# 中从 DOCX 创建 PDF – 完整指南". Keep the dash? Use Chinese dash? Keep as is.
-
-Proceed.
-
-We must preserve shortcodes exactly as they appear.
-
-Let's write final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

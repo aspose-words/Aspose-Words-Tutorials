@@ -21,11 +21,7 @@ title: كيفية التقاط التحذيرات في Aspose.Words – الدل
 url: /ar/net/working-with-fonts/how-to-capture-warnings-in-aspose-words-complete-guide/
 ---
 
-cell content but keep markdown table pipes.
-
-Also bullet lists.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,10 +24,6 @@ title: Wie man PDF aus DOCX in C# erstellt – Schritt‑für‑Schritt‑Anleit
 url: /de/net/basic-conversions/how-to-create-pdf-from-docx-in-c-step-by-step-guide/
 ---
 
-Start with shortcodes unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
