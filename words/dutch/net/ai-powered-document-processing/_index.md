@@ -42,6 +42,12 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Werken met het Google AI-model](./working-with-google-ai-model/) Verbeter uw documentverwerking met Aspose.Words voor .NET en Google AI om moeiteloos beknopte samenvattingen te maken. |
 | [Werken met een open AI-model](./working-with-open-ai-model/) | Ontgrendel efficiënte documentsamenvattingen met Aspose.Words voor .NET met de krachtige modellen van OpenAI. Duik nu in deze uitgebreide handleiding. |
 | [Werken met samenvattingsopties](./working-with-summarize-options/) | Leer hoe u Word-documenten effectief samenvat met Aspose.Words voor .NET met onze stapsgewijze handleiding voor het integreren van AI-modellen voor snelle inzichten. |
+| [Hoe Word-documenten samen te vatten – Complete C#-gids](./how-to-summarize-word-documents-complete-c-guide/) | Leer hoe u Word-documenten kunt samenvatten met Aspose.Words voor .NET in C# met een stapsgewijze handleiding. |
+| [Samenvatten van Word-document in C# – Complete AI‑aangedreven gids](./summarize-word-document-in-c-complete-ai-powered-guide/) | Leer hoe u Word-documenten in C# volledig automatisch kunt samenvatten met AI, stap‑voor‑stap handleiding. |
+| [Hoe controleer je grammatica in DOCX met Aspose.Words – gebruik gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Leer hoe u grammatica in DOCX-bestanden controleert met Aspose.Words en GPT‑4 Turbo. |
+| [Hoe grammatica in Word te controleren met Aspose.Words AI – Complete gids](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Leer hoe u met Aspose.Words AI grammaticale fouten in Word-documenten detecteert en corrigeert voor foutloze inhoud. |
+| [Hoe grammatica te controleren in C# met een lokale LLM](./how-to-check-grammar-in-c-using-a-local-llm/) | Leer hoe u met een lokale LLM grammatica controleert in C# voor nauwkeurige tekstcorrectie. |
+| [Samenvatten van Word-document met AI – OpenAI vs Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | Vergelijk hoe OpenAI en Gemini Word-documenten samenvatten met AI in Aspose.Words voor .NET. |
 | [Hoe grammatica in DOCX-bestanden te repareren met C# – Volledige stapsgewijze handleiding](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Leer hoe u grammaticale fouten in DOCX-bestanden automatisch corrigeert met C# en Aspose.Words. |
 | [Samenvatten van Word-document met lokale LLM – C#-gids](./summarize-word-document-with-local-llm-c-guide/) | Leer hoe u een Word-document lokaal samenvat met een LLM in C# met Aspose.Words. |
 

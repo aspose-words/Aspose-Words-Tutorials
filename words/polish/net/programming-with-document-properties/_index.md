@@ -32,7 +32,7 @@ Niezależnie od tego, czy jesteś początkującym, czy doświadczonym programist
 | [Konfigurowanie łącza do treści](./configuring-link-to-content/) | Dowiedz się, jak skonfigurować łącze do zawartości w dokumencie programu Word za pomocą Aspose.Words dla platformy .NET, korzystając z naszego szczegółowego samouczka krok po kroku. |
 | [Konwersja między jednostkami miary](./convert-between-measurement-units/) | Dowiedz się, jak konwertować jednostki miary w Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ustawić marginesy dokumentu, nagłówki i stopki w calach i punktach. |
 | [Użyj znaków kontrolnych](./use-control-characters/) | Dowiedz się, jak automatyzować zadania związane z dokumentami Word za pomocą Aspose.Words dla .NET. Ten przewodnik obejmuje konfigurację, zamianę tekstu i wiele więcej, co usprawni Twój przepływ pracy. |
-
+| [Jak zliczyć strony w dokumencie Word – odzyskaj i policz](./how-to-count-pages-in-a-word-document-recover-count/) | Dowiedz się, jak odzyskać i policzyć liczbę stron w dokumencie Word przy użyciu Aspose.Words dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

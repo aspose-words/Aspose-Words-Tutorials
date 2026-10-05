@@ -19,6 +19,13 @@
 Thêm nội dung bằng DocumentBuilder là một nguồn tài nguyên toàn diện hướng dẫn bạn quy trình thêm nội dung vào tài liệu Word của mình bằng lớp DocumentBuilder từ thư viện Aspose.Words dành cho .NET. Các hướng dẫn từng bước cung cấp cho bạn hướng dẫn từng bước, ví dụ mã toàn diện và giải thích từng bước về cách tạo đoạn văn, chèn văn bản, định dạng văn bản, thêm hình ảnh, bảng, v.v. Hơn nữa. Nguồn tài nguyên này rất cần thiết cho các nhà phát triển muốn tự động tạo tài liệu Word bằng Aspose.Words dành cho .NET và dễ dàng thêm nội dung tùy chỉnh để đáp ứng nhu cầu cụ thể của họ.
 
  ## Hướng dẫn
+
+{{< tutorial-card link="./insert-horizontal-rule-shape/" title="Chèn hình dạng đường kẻ ngang trong tài liệu Word bằng Aspose.Words for .NET" imgSrc="./insert-horizontal-rule-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-aligned-html/" title="Chèn HTML căn chỉnh vào tài liệu Word bằng Aspose.Words for .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
+
+
+
 | Tiêu đề | Mô tả |
 | --- | --- |
 | [Tạo tài liệu Word mới](./create-new-document/) Tìm hiểu cách tạo tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn từng bước này sẽ hướng dẫn bạn thực hiện quy trình, giúp tự động hóa tài liệu dễ dàng. |

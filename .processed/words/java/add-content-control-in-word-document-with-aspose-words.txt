@@ -1,0 +1,7 @@
+Title: Add content control in Word document with Aspose.Words
+Slug: add-content-control-in-word-document-with-aspose-words
+Category: document-manipulation
+ProcessedDate: 2026-09-12T03:49:27.537896
+SourceRepo: AI Search API
+Keywords: add content control in word document
+PRNumber: 274

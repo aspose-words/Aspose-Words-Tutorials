@@ -1,25 +1,23 @@
 ---
 category: general
-date: 2025-12-29
-description: Maak een rechthoekvorm in een Word‑document met Aspose.Words C#. Leer
-  hoe je de transparantie van de vorm instelt, de schaduwkleur instelt en het Word‑document
-  moeiteloos opslaat.
+date: 2026-02-18
+description: Maak een rechthoekvorm met Aspose.Words en leer hoe je een schaduw toevoegt,
+  de grootte van de vorm instelt en een Word‑document in enkele minuten opslaat.
 draft: false
 keywords:
 - create rectangle shape
-- set shape transparency
-- set shadow color
+- how to add shadow
 - save word document
-- create word document
+- set shape size
+- how to create document
 language: nl
-og_description: Maak een rechthoekvorm in een Word‑document met Aspose.Words C#. Deze
-  gids laat zien hoe je de transparantie van de vorm instelt, de schaduwkleur instelt
-  en het Word‑document opslaat.
-og_title: Maak een rechthoekvorm in Word – Complete Aspose.Words-tutorial
+og_description: Maak een rechthoekvorm in een Word‑bestand, leer hoe je een schaduw
+  toevoegt, stel de vormgrootte in en sla het document op met Aspose.Words in C#.
+og_title: Rechthoekvorm maken in Word – Complete Aspose.Words-handleiding
 tags:
 - Aspose.Words
 - C#
-- Word Automation
+- Word automation
 title: Rechthoekvorm maken in Word met Aspose.Words – Stapsgewijze handleiding
 url: /nl/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/
 ---
@@ -28,180 +26,167 @@ url: /nl/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Rechthoekvorm maken in Word – Complete Aspose.Words Tutorial
+# Maak rechthoekige vorm in Word met Aspose.Words – Stapsgewijze gids
 
-Heb je ooit **een rechthoekvorm** in een Word‑document moeten maken, maar wist je niet waar je moest beginnen? Je bent niet de enige; veel ontwikkelaars lopen tegen dit probleem aan bij het automatiseren van rapporten of facturen. In deze gids lopen we de exacte stappen door om een rechthoek te maken, de transparantie van de vorm in te stellen, de schaduwkleur in te stellen, en uiteindelijk **het Word‑document op te slaan** met Aspose.Words voor .NET.  
+Heb je ooit **een rechthoekige vorm** in een Word‑bestand moeten **maken**, maar wist je niet waar te beginnen? Je bent niet de enige—ontwikkelaars vragen vaak: “hoe voeg ik een schaduw toe aan een vorm en houd ik het document toch bewerkbaar?” In deze tutorial beantwoorden we dat en laten we je ook zien hoe je **schaduw toevoegt**, **de vormgrootte instelt**, en **een Word‑document opslaat**, allemaal in één vloeiende stroom.
 
-We behandelen alles, van het initiële documentobject tot het uiteindelijke `.docx`‑bestand op schijf, zodat je aan het einde **een Word‑document** programmatisch kunt **maken** zonder te gokken. Geen externe referenties, alleen een zelfstandige oplossing die je kunt kopiëren‑plakken in je project.
+We lopen alles door wat je nodig hebt, van het initialiseren van een nieuw document (ja, dat is de eerste stap naar **hoe een document te maken**) tot het opslaan van het uiteindelijke *.docx* op schijf. Geen externe referenties, alleen een zelfstandige voorbeeldcode die je kunt copy‑paste in Visual Studio en vandaag nog kunt uitvoeren.
+
+---
 
 ## Vereisten
 
-- .NET 6.0 of later (de code werkt ook met .NET Framework 4.7+)
-- Aspose.Words for .NET NuGet‑pakket (`Install-Package Aspose.Words`)
-- Basiskennis van C#‑syntaxis
-- Een IDE naar keuzeVisual Studio, Rider, VS Code, enz.)
+- .NET 6+ (of .NET Framework 4.7+). Aspose.Words werkt met elke recente .NET‑runtime.
+- Een geldige Aspose.Words‑licentie (of de gratis evaluatiesleutel) – anders zie je een watermerk.
+- Visual Studio, Rider, of elke C#‑editor die je verkiest.
+- Basiskennis van C#—niets ingewikkeld, alleen het vermogen om een console‑applicatie uit te voeren.
 
-> **Pro tip:** Als je een gratis proefversie van Aspose.Words gebruikt, voegt de bibliotheek een watermerk toe aan het uitvoerbestand. Voor productie heb je een geldige licentie nodig.
+> **Pro tip:** Als je op een Mac werkt, draait dezelfde code onder .NET 6 met VS Code—zorg er alleen voor dat je de `Aspose.Words` NuGet‑package referereert.
 
-## Stap 1: Initialiseer het Document en de Builder
+## Stap 1: Initialiseer het document – de basis van **hoe een document te maken**
 
-Het eerste wat we doen is een nieuw, leeg Word‑document maken en een `DocumentBuilder` die ons in staat stelt inhoud in te voegen. Beschouw de builder als een virtuele pen die op de pagina tekent.
+Voordat we iets kunnen tekenen, hebben we een leeg canvas nodig. Aspose.Words noemt dit een `Document`.  
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using System.Drawing;
 
-// Create a new blank document
+// Step 1: Create a new blank document
 Document document = new Document();
-
-// The builder provides methods to add text, tables, shapes, etc.
-DocumentBuilder builder = new DocumentBuilder(document);
 ```
 
-> **Waarom dit belangrijk is:** Zonder een `DocumentBuilder` zou je de low‑level knoopboom direct moeten manipuleren, wat foutgevoelig en moeilijker leesbaar is.
+> **Waarom dit belangrijk is:** Het `Document`‑object vertegenwoordigt het volledige *.docx*-bestand. Alle vormen, alinea’s en secties die je toevoegt, worden kinderen van dit object. Beginnen met een schoon document zorgt ervoor dat er geen verborgen stijlen je rechthoek beïnvloeden.
 
-## Stap 2: Rechthoekvorm maken
+## Stap 2: Definieer de rechthoek en **stel de vormgrootte in**
 
-Nu maken we daadwerkelijk **een rechthoekvorm**. De `InsertShape`‑methode neemt een `ShapeType`‑enum, breedte en hoogte (in points). Het geretourneerde `Shape`‑object stelt ons later in staat visuele eigenschappen aan te passen.
+Een rechthoek is simpelweg een `Shape` met `ShapeType.Rectangle`. We geven het expliciete afmetingen zodat het er precies uitziet zoals bedoeld.
 
 ```csharp
-// Insert a rectangle 150 pts wide and 80 pts tall
-Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 80);
+// Step 2: Create a rectangular shape and define its size
+Shape rectangleShape = new Shape(document, ShapeType.Rectangle);
+rectangleShape.Width  = 200; // width in points (≈2.78 inches)
+rectangleShape.Height = 100; // height in points (≈1.39 inches)
 ```
 
-Op dit moment is de rechthoek een solide zwarte doos die verankerd is aan de huidige alinea. Je kunt hem verplaatsen, van grootte veranderen, of later zelfs roteren indien nodig.
+> **Wat de getallen betekenen:** Aspose.Words gebruikt punten (1 pt = 1/72 in). Pas de waarden aan om bij je lay‑out te passen; voor een typische A4‑pagina is 200 pt een comfortabele breedte.
 
-![rechthoekvorm met schaduw](/images/rectangle-shadow.png "Een Word‑document dat een rechthoekvorm met een grijze schaduw toont")
+## Stap 3: **Hoe schaduw toe te voegen** – de vorm laten opvallen
 
-*Afbeeldings‑alt‑tekst: rechthoekvorm met schaduw in een Word‑document*
-
-## Stap 3: Transparantie van de vorm instellen
-
-Transparantie is het “doorzichtigheids‑niveau” van de vulling van de vorm. Aspose.Words gebruikt een `Transparency`‑eigenschap die varieert van `0.0` (ondoorzichtig) tot `1.0` (volledig transparant). Hier **stellen we de transparantie van de vorm** in op 40 % zodat de onderliggende tekst leesbaar blijft.
+Schaduwen geven een visueel signaal dat de vorm “van het blad” is getild. De `Shadow`‑eigenschap laat je kleur, afstand, transparantie en vervaging aanpassen.
 
 ```csharp
-// Make the rectangle 40 % transparent
-rectangleShape.Fill.Transparency = 0.4; // 0.0 = opaque, 1.0 = invisible
+// Step 3: Apply a shadow to the shape
+rectangleShape.Shadow.Color        = Color.Black; // Shadow color
+rectangleShape.Shadow.Distance    = 5;           // Offset distance in points
+rectangleShape.Shadow.Transparency = 0.4;        // 40 % transparent
+rectangleShape.Shadow.BlurRadius  = 8;           // Soft edge radius
 ```
 
-> **Randgeval:** Als je een volledig onzichtbare vorm nodig hebt maar de schaduw wel wilt laten verschijnen, stel `Transparency` in op `1.0` en geef de vorm een niet‑nul omtrekbreedte.
+> **Waarom transparantie gebruiken?** Een volledig ondoorzichtige schaduw kan hard overkomen. Instellen op 0,4 maakt het effect subtiel en professioneel.
 
-## Stap 4: De schaduw configureren
+## Stap 4: Positioneer de rechthoek – inline‑stroom met omringende tekst
 
-Een subtiele slagschaduw voegt diepte toe. We zullen de **schaduwkleur** instellen op een mediumgrijs, de vervagingsradius aanpassen, en de schaduw een paar points zowel horizontaal als verticaal verplaatsen.
+Als je wilt dat de vorm zich gedraagt als een teken in een alinea, stel dan de `WrapType` in op `Inline`. Dit houdt de lay‑out voorspelbaar, vooral wanneer het document later wordt bewerkt.
 
 ```csharp
-// Enable the shadow effect
-rectangleShape.Shadow.Enabled = true;
-
-// Shadow color – a neutral gray
-rectangleShape.Shadow.Color = System.Drawing.Color.Gray;
-
-// 40 % transparent shadow (same as shape's fill)
-rectangleShape.Shadow.Transparency = 0.4;
-
-// Blur radius makes the edge softer
-rectangleShape.Shadow.Blur = 6;
-
-// Horizontal and vertical offsets (in points)
-rectangleShape.Shadow.OffsetX = 5;
-rectangleShape.Shadow.OffsetY = 5;
+// Step 4: Set the shape to flow inline with the surrounding text
+rectangleShape.WrapType = WrapType.Inline;
 ```
 
-> **Waarom dit belangrijk is:** Een schaduw die te scherp of te donker is, kan eruitzien als een afdrukartefact. Pas `Blur` en `Transparency` aan totdat het natuurlijk aanvoelt.
+> **Randgeval:** Als je wilt dat de rechthoek zweeft boven tekst (bijv. een watermerk), verander `WrapType` naar `Square` of `BehindText`.
 
-## Stap 5: Het Word‑document opslaan
+## Stap 5: Voeg de vorm in de document‑body in
 
-Tot slot **slaan we het Word‑document** op schijf op. De `Save`‑methode bepaalt automatisch het bestandsformaat aan de hand van de extensie; `.docx` is het moderne OpenXML‑formaat.
+Nu plaatsen we de rechthoek daadwerkelijk in de eerste alinea. Als het document nog geen inhoud heeft, wordt `FirstParagraph` automatisch aangemaakt.
 
 ```csharp
-// Save the document to the desired folder
-document.Save(@"C:\Temp\ShadowRectangle.docx");
+// Step 5: Insert the shape into the first paragraph of the document
+document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
 ```
 
-Als de map niet bestaat, zal Aspose.Words een `ArgumentException` gooien. Zorg ervoor dat het pad geldig is of maak de directory vooraf aan.
+> **Tip:** Je kunt ook eerst een nieuwe alinea maken en vervolgens de vorm toevoegen—handig wanneer je omringende tekst nodig hebt.
 
-## Volledig Werkend Voorbeeld
+## Stap 6: **Word‑document opslaan** – de laatste stap
 
-Hieronder staat het volledige, kant‑klaar programma dat alle stappen samenvoegt. Kopieer dit naar een nieuw console‑project en druk op **F5**.
+Met alles op zijn plaats is het opslaan van het bestand een één‑regelige opdracht. Kies elk pad dat je wilt; het voorbeeld gebruikt een tijdelijke aanduiding die je moet vervangen door je eigen map.
 
 ```csharp
-using System;
+// Step 6: Save the document with the shadowed shape
+document.Save(@"C:\Temp\ShadowShape.docx");
+```
+
+> **Resultaat:** Open het gegenereerde *.docx* in Microsoft Word. Je ziet een zwart‑schaduwde rechthoek, 200 pt breed en 100 pt hoog, inline met de eerste alinea.
+
+## Verwachte output
+
+Wanneer je **ShadowShape.docx** opent, toont het document:
+
+- Een enkele alinea met een rechthoekige vorm.
+- De rechthoek heeft een subtiele zwarte schaduw met een offset van 5 pt.
+- De vormgrootte komt overeen met de afmetingen die in Stap 2 zijn ingesteld.
+- Er verschijnt geen extra tekst tenzij je die handmatig toevoegt.
+
+Als de vorm niet verschijnt, controleer dan dubbel of je de juiste Aspose.Words‑versie hebt gerefereerd en of je licentie (of proefversie) actief is.
+
+## Veelgestelde vragen & Variaties
+
+| Vraag | Antwoord |
+|-------|----------|
+| *Kan ik de schaduwkleur wijzigen naar iets anders dan zwart?* | Absoluut—stel `rectangleShape.Shadow.Color = Color.Blue;` in of een andere `System.Drawing.Color`. |
+| *Wat als ik een grotere rechthoek nodig heb?* | Pas de waarden van `Width` en `Height` aan. Onthoud dat ze in punten zijn; 72 pt = 1 in. |
+| *Is het mogelijk de vorm op een absolute positie te plaatsen?* | Ja—gebruik `WrapType = WrapType.Absolute` en stel de eigenschappen `Top`/`Left` in. |
+| *Werkt dit met .NET Core?* | Ja. Aspose.Words is cross‑platform; installeer gewoon het NuGet‑pakket voor .NET Standard. |
+| *Kan ik tekst binnen de rechthoek toevoegen?* | Niet direct; je moet een `TextBox`‑vorm invoegen in plaats van een gewone rechthoek. |
+
+## Volledig werkend voorbeeld (Klaar om te copy‑pasten)
+
+```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using System.Drawing;
 
-namespace AsposeRectangleDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main()
-        {
-            // 1️⃣ Initialize document and builder
-            Document document = new Document();
-            DocumentBuilder builder = new DocumentBuilder(document);
+        // 1️⃣ Initialize a new document
+        Document document = new Document();
 
-            // 2️⃣ Insert rectangle shape
-            Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 80);
+        // 2️⃣ Create rectangle and set its size
+        Shape rectangleShape = new Shape(document, ShapeType.Rectangle);
+        rectangleShape.Width  = 200;
+        rectangleShape.Height = 100;
 
-            // 3️⃣ Set shape transparency (40 % transparent)
-            rectangleShape.Fill.Transparency = 0.4;
+        // 3️⃣ Add a subtle black shadow
+        rectangleShape.Shadow.Color         = Color.Black;
+        rectangleShape.Shadow.Distance     = 5;
+        rectangleShape.Shadow.Transparency = 0.4;
+        rectangleShape.Shadow.BlurRadius   = 8;
 
-            // 4️⃣ Configure shadow (color, blur, offset, transparency)
-            rectangleShape.Shadow.Enabled = true;
-            rectangleShape.Shadow.Color = System.Drawing.Color.Gray;
-            rectangleShape.Shadow.Transparency = 0.4;
-            rectangleShape.Shadow.Blur = 6;
-            rectangleShape.Shadow.OffsetX = 5;
-            rectangleShape.Shadow.OffsetY = 5;
+        // 4️⃣ Make the shape flow inline with text
+        rectangleShape.WrapType = WrapType.Inline;
 
-            // 5️⃣ Save the document
-            string outputPath = @"C:\Temp\ShadowRectangle.docx";
-            document.Save(outputPath);
+        // 5️⃣ Insert the shape into the first paragraph
+        document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
 
-            Console.WriteLine($"Document saved to {outputPath}");
-        }
+        // 6️⃣ Persist the file
+        document.Save(@"C:\Temp\ShadowShape.docx");
+
+        System.Console.WriteLine("Document saved successfully!");
     }
 }
 ```
 
-### Verwacht resultaat
+Voer het programma uit, ga naar `C:\Temp\ShadowShape.docx`, en je ziet de rechthoek met een schaduw precies zoals beschreven.
 
-Open `ShadowRectangle.docx` in Microsoft Word. Je zou een lichtgrijze rechthoek moeten zien met een zachte, licht verschoven schaduw, beide gerenderd met 40 % transparantie. De vorm staat op een lege pagina, klaar voor extra inhoud.
+## Conclusie
 
-## Veelgestelde Vragen & Variaties
+Je weet nu hoe je **een rechthoekige vorm** in een Word‑bestand maakt met Aspose.Words, hoe je **de vormgrootte instelt**, **schaduw toevoegt**, en uiteindelijk **het Word‑document opslaat** met de wijzigingen. Het volledige proces—van **hoe een document te maken** tot het opslaan van het resultaat—past in een handvol C#‑regels en kan worden uitgebreid voor complexere lay‑outs.
 
-**Wat als ik een andere vorm nodig heb?**  
-Vervang `ShapeType.Rectangle` door een andere enum‑waarde (`Ellipse`, `Triangle`, `Star`, enz.). De rest van de code blijft hetzelfde.
+Klaar voor de volgende uitdaging? Probeer de rechthoek te vervangen door een vorm met afgeronde hoeken, experimenteer met verschillende schaduwkleur­en, of embed de vorm in een tabelcel. Elke aanpassing versterkt dezelfde kernconcepten die we hier hebben behandeld.
 
-**Kan ik de omtrekkleur wijzigen?**  
-Ja—gebruik `rectangleShape.StrokeColor = System.Drawing.Color.Blue;` en stel eventueel `rectangleShape.StrokeWeight = 1.5;` in.
-
-**Hoe plaats ik de vorm op een specifieke locatie op de pagina?**  
-Stel `rectangleShape.WrapType = WrapType.None;` in en pas vervolgens de eigenschappen `rectangleShape.Left` en `rectangleShape.Top` aan (waarden zijn in points).
-
-**Is het mogelijk om tekst binnen de rechthoek toe te voegen?**  
-Absoluut. Na het maken van de vorm kun je `rectangleShape.AppendChild(new Paragraph(document))` aanroepen en vervolgens een `Run` met je tekst toevoegen. Vergeet niet de `rectangleShape.TextBox`‑eigenschappen in te stellen als je rijkere opmaak wilt.
-
-## Pro‑tips & Valkuilen
-
-- **Licentie vroeg toepassen:** Als je vergeet een licentie toe te passen, zal Aspose.Words een watermerk op de eerste pagina invoegen, wat verwarrend kan zijn tijdens het testen.
-- **Prestatie‑tip:** Bij het genereren van veel documenten in een lus, hergebruik één `Document`‑instantie en roep `document.RemoveAllChildren();` aan na elke opslaan om overmatige GC‑druk te vermijden.
-- **Zichtbaarheid van schaduw:** Op schermen met lage resolutie kan een subtiele schaduw onzichtbaar lijken. Verhoog `Blur` of `OffsetX/Y` voor debugging, en verlaag daarna weer voor productie.
-
-## Volgende stappen
-
-Nu je weet hoe je **een rechthoekvorm maakt**, **de transparantie van de vorm instelt**, **de schaduwkleur instelt**, en **het Word‑document opslaat**, overweeg dan om de tutorial uit te breiden:
-
-- Voeg meerdere vormen toe en groepeer ze.
-- Plaats de rechthoek in een tabelcel voor een rapportlay-out.
-- Combineer de vorm met `DocumentBuilder.InsertHtml` om HTML‑gestylede inhoud te overlappen.
-- Verken andere visuele effecten zoals `Glow` of `Reflection` voor rijkere UI‑achtige documenten.
-
-Experimenteer, breek dingen, en verfijn vervolgens—programmerende documentgeneratie is een speeltuin waar visueel ontwerp en code samenkomen.
-
----
-
-*Veel programmeerplezier! Als je tegen problemen aanloopt, laat dan een reactie achter en we lossen het samen op.*
+Als je deze gids nuttig vond, deel hem, laat een reactie achter met je eigen variaties, of verken onze andere tutorials over Word‑automatisering, zoals het invoegen van afbeeldingen of het genereren van tabellen met Aspose.Words. Veel programmeerplezier!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

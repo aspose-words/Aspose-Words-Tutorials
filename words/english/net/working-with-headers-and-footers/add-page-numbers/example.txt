@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: Using Aspose.Words Document and DocumentBuilder, this tutorial adds automatically updating page numbers to the primary footer of a Word document.
+//ExStepSummary:0: Create a new Document object and a DocumentBuilder tied to it.
+//ExStepSummary:1: Move the builder's cursor to the primary footer of the first section.
+//ExStepSummary:2: Set the paragraph alignment to center so the footer text will be centered.
+//ExStepSummary:3: Write the label "Page " and insert a PAGE field that displays the current page number.
+//ExStepSummary:4: Write " of " and insert a NUMPAGES field that shows the total page count.
+//ExStepSummary:5: Save the document to a .docx file.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+
+//ExStep:2-
+builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
+
+//ExStep:3-
+builder.Write("Page ");
+builder.InsertField("PAGE", null);
+
+//ExStep:4-
+builder.Write(" of ");
+builder.InsertField("NUMPAGES", null);
+
+//ExStep:5-
+doc.Save("PageNumbers.docx");
+//ExEnd

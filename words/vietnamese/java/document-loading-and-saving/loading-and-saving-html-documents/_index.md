@@ -1,11 +1,10 @@
 ---
-date: 2025-12-20
-description: Tìm hiểu cách tải HTML và chuyển đổi HTML sang DOCX với Aspose.Words
-  cho Java. Hướng dẫn từng bước cho thấy cách lưu tệp DOCX và sử dụng thẻ tài liệu
-  có cấu trúc.
+date: 2026-02-24
+description: Tìm hiểu cách tải HTML và cách lưu DOCX bằng Aspose.Words for Java –
+  hướng dẫn từng bước chuyển đổi HTML sang DOCX.
 linktitle: Loading and Saving HTML Documents
 second_title: Aspose.Words Java Document Processing API
-title: Cách tải HTML và lưu dưới dạng DOCX bằng Aspose.Words cho Java
+title: Cách tải HTML và lưu thành DOCX bằng Aspose.Words cho Java
 url: /vi/java/document-loading-and-saving/loading-and-saving-html-documents/
 weight: 10
 ---
@@ -16,39 +15,34 @@ weight: 10
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách tải HTML và lưu dưới dạng DOCX bằng Aspose.Words cho Java
+# Cách tải HTML và lưu dưới dạng DOCX với Aspose.Words cho Java
 
-## Giới thiệu về việc tải và lưu tài liệu HTML bằng Aspose.Words cho Java
-
-Trong bài viết này, chúng ta sẽ khám phá **cách tải html** và lưu nó dưới dạng tệp DOCX bằng thư viện Aspose.Words cho Java. Aspose.Words là một API mạnh mẽ cho phép bạn thao tác các tài liệu Word một cách lập trình, và nó bao gồm hỗ trợ mạnh mẽ cho việc nhập/xuất HTML. Chúng tôi sẽ hướng dẫn toàn bộ quy trình, từ việc thiết lập các tùy chọn tải cho đến việc lưu kết quả dưới dạng tài liệu Word.
+Trong hướng dẫn này, bạn sẽ khám phá **how to load html** các tệp vào một đối tượng `Document` và sau đó **how to save docx** — tất cả với thư viện mạnh mẽ **Aspose.Words for Java**. Cho dù bạn đang chuyển đổi các đoạn mã đơn giản hay các trang web đầy đủ tính năng, các bước dưới đây sẽ cung cấp cho bạn một phương pháp đáng tin cậy, sẵn sàng cho môi trường sản xuất cho việc chuyển đổi HTML‑to‑DOCX.
 
 ## Câu trả lời nhanh
-- **Lớp chính để tải HTML là gì?** `Document` cùng với `HtmlLoadOptions`.
-- **Tùy chọn nào cho phép Structured Document Tags?** `HtmlLoadOptions.setPreferredControlType(HtmlControlType.STRUCTURED_DOCUMENT_TAG)`.
-- **Tôi có thể chuyển đổi HTML sang DOCX trong một bước không?** Có – tải HTML và gọi `doc.save(...".docx")`.
-- **Tôi có cần giấy phép cho việc phát triển không?** Bản dùng thử miễn phí đủ cho việc thử nghiệm; giấy phép thương mại cần thiết cho môi trường sản xuất.
-- **Yêu cầu phiên bản Java nào?** Java 8 hoặc cao hơn được hỗ trợ.
+- **Mã này làm gì?** Nó tải một chuỗi HTML, xử lý nó như một thẻ tài liệu có cấu trúc, và lưu nó dưới dạng tệp DOCX.  
+- **Thư viện nào được yêu cầu?** Aspose.Words for Java (the “aspose words java” SDK).  
+- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí hoạt động cho việc thử nghiệm; giấy phép thương mại là bắt buộc cho môi trường sản xuất.  
+- **Tôi có thể tùy chỉnh các tùy chọn tải HTML không?** Có – bạn có thể đặt `PreferredControlType` thành `STRUCTURED_DOCUMENT_TAG`.  
+- **Điều này có phù hợp cho các dự án doanh nghiệp không?** Chắc chắn; API được thiết kế cho việc xử lý tài liệu với khối lượng lớn, cấp doanh nghiệp.
 
-## “cách tải html” là gì trong ngữ cảnh của Aspose.Words?
+## **how to load html** là gì với Aspose.Words cho Java?
 
-Tải HTML có nghĩa là đọc một chuỗi hoặc tệp HTML và chuyển đổi nó thành một đối tượng `Document` của Aspose.Words. Đối tượng này sau đó có thể được chỉnh sửa, định dạng, hoặc lưu dưới bất kỳ định dạng nào được API hỗ trợ, chẳng hạn như DOCX, PDF hoặc RTF.
+Tải HTML có nghĩa là cung cấp một chuỗi hoặc tệp HTML vào hàm khởi tạo `Document` để Aspose.Words phân tích cú pháp và tạo ra một mô hình tài liệu Word nội bộ. Mô hình này sau đó có thể được thao tác hoặc lưu dưới bất kỳ định dạng nào được hỗ trợ, chẳng hạn như DOCX.
 
-## Tại sao nên sử dụng Aspose.Words cho việc chuyển đổi HTML‑to‑DOCX?
+## Tại sao sử dụng **Aspose.Words for Java** cho việc chuyển đổi HTML‑to‑DOCX?
 
-- **Giữ nguyên bố cục** – bảng, danh sách và hình ảnh được giữ nguyên.
-- **Hỗ trợ Structured Document Tags** – lý tưởng để tạo các content control trong Word.
-- **Không cần Microsoft Office** – hoạt động trên bất kỳ máy chủ hoặc môi trường đám mây nào.
-- **Hiệu suất cao** – xử lý các tệp HTML lớn một cách nhanh chóng.
+- **Hỗ trợ định dạng toàn diện** – từ HTML đơn giản đến các trang phức tạp với CSS, hình ảnh và điều khiển biểu mẫu.  
+- **Structured Document Tag** – giữ nguyên các điều khiển biểu mẫu dưới dạng thẻ có thể tái sử dụng, lý tưởng cho việc chỉnh sửa sau này.  
+- **Không phụ thuộc vào Microsoft Office** – hoạt động trên bất kỳ nền tảng nào chạy Java.  
+- **Hiệu năng cấp doanh nghiệp** – xử lý tài liệu lớn một cách hiệu quả.
 
 ## Yêu cầu trước
-
-1. **Thư viện Aspose.Words cho Java** – tải xuống từ [here](https://releases.aspose.com/words/java/).
-2. **Môi trường phát triển Java** – JDK 8+ đã được cài đặt và cấu hình.
-3. **Kiến thức cơ bản về Java I/O** – chúng ta sẽ sử dụng `ByteArrayInputStream` để cung cấp chuỗi HTML.
+1. **Thư viện Aspose.Words cho Java** – tải xuống từ [here](https://releases.aspose.com/words/java/).  
+2. **Môi trường phát triển Java** – JDK 8 hoặc cao hơn đã được cài đặt và cấu hình.
 
 ## Cách tải tài liệu HTML
-
-Dưới đây là một ví dụ ngắn gọn minh họa cách tải một đoạn HTML trong khi bật tính năng **structured document tag**.
+Dưới đây là đoạn mã cốt lõi minh họa **how to load html** vào một `Document`. Chúng tôi tạo một đoạn HTML nhỏ, cấu hình `HtmlLoadOptions` để sử dụng **structured document tag**, và sau đó khởi tạo `Document`.
 
 ```java
 final String HTML = "\r\n
@@ -67,25 +61,19 @@ HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 Document doc = new Document(new ByteArrayInputStream(HTML.getBytes(StandardCharsets.UTF_8)), loadOptions);
 ```
 
-**Giải thích**
+*Mẹo chuyên nghiệp:* Tùy chọn `STRUCTURED_DOCUMENT_TAG` giữ các điều khiển biểu mẫu (như phần tử `<select>`) dưới dạng thẻ có thể chỉnh sửa trong tài liệu Word kết quả, hữu ích cho việc nhập dữ liệu sau này.
 
-- Chúng tôi tạo một chuỗi `HTML` chứa một điều khiển `<select>` đơn giản.
-- `HtmlLoadOptions` cho phép chúng ta chỉ định cách HTML sẽ được diễn giải. Đặt loại điều khiển ưu tiên thành `STRUCTURED_DOCUMENT_TAG` cho Aspose.Words biết chuyển đổi các điều khiển form HTML thành các content control của Word.
-- Hàm khởi tạo `Document` đọc HTML từ một `ByteArrayInputStream` sử dụng mã hoá UTF‑8.
-
-## Cách lưu dưới dạng DOCX (Chuyển đổi HTML sang DOCX)
-
-Khi HTML đã được tải vào một `Document`, việc lưu nó dưới dạng tệp DOCX trở nên đơn giản:
+## Cách lưu DOCX từ HTML
+Sau khi HTML đã được tải, việc lưu nó dưới dạng tệp DOCX là rất đơn giản. Điều này minh họa **how to save docx** bằng cách sử dụng cùng một thể hiện `Document`.
 
 ```java
 doc.save("Your Directory Path" + "WorkingWithHtmlLoadOptions.PreferredControlType.docx");
 ```
 
-Thay thế `"Your Directory Path"` bằng thư mục thực tế nơi bạn muốn tệp đầu ra được tạo.
+Thay thế `"Your Directory Path"` bằng thư mục mà bạn muốn tệp đầu ra xuất hiện. Tệp DOCX kết quả có thể được mở bằng Microsoft Word, LibreOffice, hoặc bất kỳ trình xem nào hỗ trợ DOCX.
 
-## Mã nguồn hoàn chỉnh cho việc tải và lưu tài liệu HTML
-
-Dưới đây là ví dụ đầy đủ, sẵn sàng để chạy, kết hợp các bước tải và lưu. Bạn có thể sao chép và dán vào IDE của mình.
+## Mã nguồn đầy đủ cho việc tải và lưu tài liệu HTML
+Để tiện lợi, dưới đây là ví dụ đầy đủ, có thể chạy được kết hợp các bước tải và lưu. Bạn có thể sao chép‑dán đoạn này vào IDE và chạy ngay mà không cần chỉnh sửa.
 
 ```java
 final String HTML = "\r\n
@@ -103,41 +91,39 @@ Document doc = new Document(new ByteArrayInputStream(HTML.getBytes(StandardChars
 doc.save("Your Directory Path" + "WorkingWithHtmlLoadOptions.PreferredControlType.docx");
 ```
 
-## Những lỗi thường gặp & Mẹo
+Chạy đoạn mã sẽ tạo ra một tài liệu Word có tên `WorkingWithHtmlLoadOptions.PreferredControlType.docx` chứa dropdown HTML dưới dạng thẻ tài liệu có cấu trúc.
 
-| Vấn đề | Nguyên nhân | Cách khắc phục |
-|-------|----------------|------------|
-| **Thiếu phông chữ** | HTML tham chiếu các phông chữ chưa được cài đặt trên máy chủ. | Nhúng phông chữ vào DOCX bằng `FontSettings` hoặc đảm bảo các phông chữ cần thiết có sẵn. |
-| **Hình ảnh không hiển thị** | Đường dẫn hình ảnh tương đối không thể được giải quyết. | Sử dụng URL tuyệt đối hoặc tải hình ảnh vào một `MemoryStream` và đặt `HtmlLoadOptions.setImageSavingCallback`. |
-| **Loại điều khiển không được chuyển đổi** | `setPreferredControlType` chưa được đặt hoặc được đặt sai enum. | Xác nhận bạn đang sử dụng `HtmlControlType.STRUCTURED_DOCUMENT_TAG`. |
-| **Vấn đề mã hoá** | Chuỗi HTML được mã hoá bằng một charset khác. | Luôn sử dụng `StandardCharsets.UTF_8` khi chuyển đổi chuỗi thành byte. |
+## Các vấn đề thường gặp & Khắc phục
+| Triệu chứng | Nguyên nhân khả dĩ | Cách khắc phục |
+|---|---|---|
+| Dropdown biến mất sau khi lưu | `PreferredControlType` not set | Đảm bảo `loadOptions.setPreferredControlType(HtmlControlType.STRUCTURED_DOCUMENT_TAG);` được gọi trước khi tải. |
+| Hình ảnh không hiển thị | Image URLs are relative or inaccessible | Sử dụng URL tuyệt đối hoặc nhúng hình ảnh dưới dạng Base64 trong chuỗi HTML. |
+| Định dạng không mong muốn | CSS not fully supported | Đơn giản hoá CSS hoặc sử dụng kiểu nội tuyến; Aspose.Words hỗ trợ một phần của CSS. |
 
 ## Câu hỏi thường gặp
 
-### Làm thế nào để cài đặt Aspose.Words cho Java?
+**Q:** Làm thế nào để cài đặt Aspose.Words cho Java?  
+**A:** Tải thư viện từ [here](https://releases.aspose.com/words/java/) và thêm các tệp JAR vào classpath của dự án.
 
-Aspose.Words cho Java có thể tải xuống từ [here](https://releases.aspose.com/words/java/). Thực hiện theo hướng dẫn cài đặt trên trang tải xuống để thêm các tệp JAR vào classpath của dự án.
+**Q:** Tôi có thể tải các tài liệu HTML phức tạp (có CSS, script, hình ảnh) không?  
+**A:** Có. Aspose.Words có thể xử lý HTML phức tạp. Để có kết quả tốt nhất, cung cấp markup chuẩn và sử dụng `HtmlLoadOptions` để tinh chỉnh quá trình chuyển đổi.
 
-### Tôi có thể tải các tài liệu HTML phức tạp bằng Aspose.Words không?
+**Q:** Các định dạng khác tôi có thể chuyển đổi tới/đến là gì?  
+**A:** API hỗ trợ DOC, DOCX, RTF, PDF, HTML, EPUB, ODT và nhiều định dạng khác.
 
-Có, Aspose.Words cho Java có thể xử lý HTML phức tạp, bao gồm các bảng lồng nhau, kiểu CSS và các phần tử tương tác không có JavaScript. Điều chỉnh `HtmlLoadOptions` (ví dụ, `setLoadImages` hoặc `setCssStyleSheetFileName`) để tinh chỉnh quá trình nhập.
+**Q:** Aspose.Words có phù hợp cho triển khai quy mô lớn, doanh nghiệp không?  
+**A:** Chắc chắn. Nó được các doanh nghiệp trên toàn thế giới sử dụng cho việc tạo tài liệu, báo cáo và dự án di chuyển với khối lượng lớn.
 
-### Các định dạng tài liệu khác mà Aspose.Words hỗ trợ là gì?
+**Q:** Tôi có thể tìm thêm ví dụ và tài liệu API ở đâu?  
+**A:** Tham khảo tài liệu chính thức tại [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
 
-Aspose.Words hỗ trợ DOC, DOCX, RTF, HTML, PDF, EPUB, XPS và nhiều định dạng khác. API cung cấp việc lưu một dòng duy nhất sang bất kỳ định dạng nào trong số này.
-
-### Aspose.Words có phù hợp cho tự động hoá tài liệu cấp doanh nghiệp không?
-
-Chắc chắn. Nó được các doanh nghiệp lớn sử dụng cho việc tạo báo cáo tự động, chuyển đổi hàng loạt tài liệu, và xử lý tài liệu phía máy chủ mà không cần phụ thuộc vào Microsoft Office.
-
-### Tôi có thể tìm tài liệu và ví dụ bổ sung cho Aspose.Words cho Java ở đâu?
-
-Bạn có thể khám phá toàn bộ tham chiếu API và các hướng dẫn bổ sung trên trang tài liệu Aspose.Words cho Java: [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
+## Kết luận
+Bây giờ bạn đã có một hướng dẫn toàn diện, từ đầu đến cuối về **how to load html** vào một `Document` và **how to save docx** bằng Aspose.Words cho Java. Kỹ thuật **html to docx conversion** này đáng tin cậy cho cả các đoạn mã đơn giản và các trang web đầy đủ tính năng, và việc sử dụng **structured document tag** đảm bảo các điều khiển biểu mẫu vẫn có thể chỉnh sửa trong tệp Word kết quả.
 
 ---
 
-**Cập nhật lần cuối:** 2025-12-20  
-**Đã kiểm tra với:** Aspose.Words cho Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
+**Last Updated:** 2026-02-24  
+**Tested With:** Aspose.Words for Java 24.12 (latest at time of writing)  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

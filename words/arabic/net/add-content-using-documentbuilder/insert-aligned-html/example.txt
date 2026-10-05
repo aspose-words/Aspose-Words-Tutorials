@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary: باستخدام Aspose.Words Document و DocumentBuilder، يدرج هذا البرنامج التعليمي ترميز HTML في مستند Word ويحفظ النتيجة.
+//ExStepSummary:0: حدد مجلد الإخراج، أنشئ مستندًا جديدًا، وقم بتهيئة DocumentBuilder لهذا المستند.
+//ExStepSummary:1: استدعِ `builder.InsertHtml()` لإضافة فقرة محاذاة إلى اليمين، نص غامق، div مركزي، وعنوان محاذاة إلى اليسار داخل المستند.
+//ExStepSummary:2: احفظ المستند المعدل إلى المجلد المحدد كملف .docx.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

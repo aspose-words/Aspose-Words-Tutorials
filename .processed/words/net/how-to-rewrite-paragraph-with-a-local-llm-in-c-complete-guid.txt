@@ -1,0 +1,7 @@
+Title: How to Rewrite Paragraph with a Local LLM in C# – Complete Guide
+Slug: how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid
+Category: ai-powered-document-processing
+ProcessedDate: 2026-07-03T22:28:49.519062
+SourceRepo: AI Search API
+Keywords: how to rewrite paragraph, use local llm, how to replace text, how to generate text, how to save document
+PRNumber: 219

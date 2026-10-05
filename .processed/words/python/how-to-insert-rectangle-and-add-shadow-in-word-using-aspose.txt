@@ -1,0 +1,7 @@
+Title: How to insert rectangle and add shadow in Word using Aspose
+Slug: how-to-insert-rectangle-and-add-shadow-in-word-using-aspose
+Category: images-shapes
+ProcessedDate: 2026-05-30T09:35:15.868975
+SourceRepo: AI Search API
+Keywords: how to insert rectangle, add shadow to shape, how to add shape shadow, apply shadow effect word, create word document aspose
+PRNumber: 196

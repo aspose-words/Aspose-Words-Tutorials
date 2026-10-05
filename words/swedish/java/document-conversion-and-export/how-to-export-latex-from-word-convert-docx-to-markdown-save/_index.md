@@ -256,7 +256,8 @@ Härifrån kan du experimentera med andra exportformat (HTML, EPUB), integrera l
 
 Om du fann den här guiden hjälpsam, ge den ett stjärnmärke på GitHub, dela den med kollegor, eller lämna en kommentar nedan med dina egna justeringar. Lycka till med kodandet, och må din LaTeX alltid renderas felfritt! 
 
-![Diagram som visar konverteringspipeline från DOCX → Markdown (med LaTeX) → PDF, alt text: "Hur man exporterar LaTeX medan man konverterar DOCX till markdown och sparar som PDF"]{{< /blocks/products/pf/tutorial-page-section >}}
+![Diagram som visar konverteringspipeline från DOCX → Markdown (med LaTeX) → PDF, alt text: "Hur man exporterar LaTeX medan man konverterar DOCX till markdown och sparar som PDF"]
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

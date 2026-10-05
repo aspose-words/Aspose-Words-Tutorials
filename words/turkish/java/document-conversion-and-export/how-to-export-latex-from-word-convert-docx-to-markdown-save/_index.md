@@ -256,7 +256,8 @@ C: Yerel olarak mümkün değil; PDF'ler LaTeX'i anlayamaz. Önce denklemleri g�
 
 Bu rehberi faydalı bulduysanız GitHub’da yıldız verin, ekip arkadaşlarınızla paylaşın ya da kendi ayarlamalarınızı aşağıya yorum olarak bırakın. İyi kodlamalar, LaTeX'iniz her zaman kusursuz renderlansın!
 
-![Diagram showing the conversion pipeline from DOCX → Markdown (with LaTeX) → PDF, alt metin: "DOCX'ten markdown'a dönüştürürken LaTeX dışa aktarımı ve PDF olarak kaydetme sürecini gösteren diyagram"]{{< /blocks/products/pf/tutorial-page-section >}}
+![Diagram showing the conversion pipeline from DOCX → Markdown (with LaTeX) → PDF, alt metin: "DOCX'ten markdown'a dönüştürürken LaTeX dışa aktarımı ve PDF olarak kaydetme sürecini gösteren diyagram"]
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

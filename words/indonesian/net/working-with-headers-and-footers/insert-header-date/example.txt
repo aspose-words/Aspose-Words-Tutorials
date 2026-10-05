@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Dengan menggunakan kelas Document dan DocumentBuilder, tutorial ini menunjukkan cara menambahkan field DATE dinamis ke header utama sebuah dokumen Word dan kemudian menyimpan file tersebut.
+//ExStepSummary:0: Buat sebuah Document baru dan DocumentBuilder untuk mengeditnya.
+//ExStepSummary:1: Pindahkan kursor builder ke header utama sehingga penyisipan berikutnya memengaruhi header.
+//ExStepSummary:2: Tuliskan label statis dan sisipkan field DATE dengan format “MMMM d, yyyy” ke dalam header, menghasilkan tanggal dinamis.
+//ExStepSummary:3: Kembali ke badan utama dan tambahkan paragraf contoh, yang menunjukkan konten dokumen normal bersamaan dengan header.
+//ExStepSummary:4: Simpan dokumen ke file .docx.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+builder.Write("Generated on: ");
+builder.InsertField("DATE \\@ \"MMMM d, yyyy\"");
+
+//ExStep:3-
+builder.MoveToDocumentEnd();
+builder.Writeln("This is the document body.");
+
+//ExStep:4-
+doc.Save("HeaderDate.docx");
+//ExEnd

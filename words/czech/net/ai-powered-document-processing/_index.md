@@ -39,9 +39,14 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | Název | Popis |
 | --- | --- |
 | [Práce s modelem umělé inteligence](./working-with-ai-model/) | Naučte se, jak používat Aspose.Words pro .NET k shrnování dokumentů pomocí umělé inteligence. Snadné kroky pro vylepšení správy dokumentů. |
-| [Práce s modelem umělé inteligence Google](./working-with-google-ai-model/) Zlepšete zpracování dokumentů s Aspose.Words pro .NET a Google AI a vytvářejte stručné shrnutí bez námahy. |
+| [Práce s modelem umělé inteligence Google](./working-with-google-ai-model/) | Zlepšete zpracování dokumentů s Aspose.Words pro .NET a Google AI a vytvářejte stručné shrnutí bez námahy. |
 | [Práce s modelem otevřené umělé inteligence](./working-with-open-ai-model/) | Získejte efektivní sumarizaci dokumentů pomocí Aspose.Words pro .NET s výkonnými modely OpenAI. Ponořte se do tohoto komplexního průvodce hned teď. |
 | [Práce s možnostmi shrnutí](./working-with-summarize-options/) | Naučte se efektivně shrnovat dokumenty Wordu pomocí Aspose.Words pro .NET s naším podrobným návodem k integraci modelů umělé inteligence pro rychlý přehled. |
+| [Shrnutí Word dokumentu v C# – Kompletní průvodce s umělou inteligencí](./summarize-word-document-in-c-complete-ai-powered-guide/) | Kompletní návod, jak pomocí AI shrnout Word dokument v C# pomocí Aspose.Words. |
+| [Jak zkontrolovat gramatiku v DOCX pomocí Aspose.Words – použijte gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Naučte se, jak pomocí Aspose.Words a modelu gpt-4 turbo automaticky kontrolovat gramatiku v dokumentech DOCX. |
+| [Jak zkontrolovat gramatiku ve Wordu pomocí Aspose.Words AI – Kompletní průvodce](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Naučte se, jak pomocí Aspose.Words AI automaticky kontrolovat a opravovat gramatiku v dokumentech Word. |
+| [Jak zkontrolovat gramatiku v C# pomocí lokálního LLM](./how-to-check-grammar-in-c-using-a-local-llm/) | Rychle a přesně kontrolujte gramatiku v C# pomocí lokálního modelu LLM. |
+| [Jak sumarizovat dokumenty Word – Kompletní průvodce C#](./how-to-summarize-word-documents-complete-c-guide/) | Kompletní návod, jak pomocí Aspose.Words pro .NET a C# vytvořit shrnutí dokumentů Word s využitím AI. |
 | [Jak opravit gramatiku v souborech DOCX pomocí C# – Kompletní průvodce krok za krokem](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Naučte se pomocí Aspose.Words pro .NET opravit gramatické chyby v DOCX souborech pomocí C# v podrobném průvodci. |
 | [Shrnutí Word dokumentu s lokálním LLM – průvodce v C#](./summarize-word-document-with-local-llm-c-guide/) | Naučte se, jak pomocí lokálního modelu LLM v C# shrnout Word dokumenty bez odesílání dat do cloudu. |
 

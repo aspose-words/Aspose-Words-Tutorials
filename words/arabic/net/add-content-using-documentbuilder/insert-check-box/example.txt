@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: يوضح هذا البرنامج التعليمي كيفية إنشاء مستند Word جديد، وإدراج حقل نموذج مربع اختيار باستخدام DocumentBuilder، وحفظ الملف الناتج.
+//ExStepSummary:0: أنشئ متغيّر دليل البيانات، وأنشئ كائن Document، وأنشئ DocumentBuilder لهذا المستند.
+//ExStepSummary:1: استدعِ `builder.InsertCheckBox` لإضافة حقل نموذج مربع اختيار محدد ومفعّل يُدعى \"CheckBox\" في موضع المؤشر الحالي.
+//ExStepSummary:2: احفظ المستند المعدل إلى المجلد المحدد باستخدام `doc.Save`.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertCheckBox("CheckBox", true, true, 0);
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx");
+//ExEnd
