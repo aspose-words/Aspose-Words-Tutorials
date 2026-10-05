@@ -1,21 +1,11 @@
 ---
-language: ko
-url: /ko/net/add-content-using-document-builder/tutorial/
----
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
-```yaml
----
 title: "convert docx to markdown – Export Word to Markdown"
 description: "convert docx to markdown quickly with Aspose.Words. Learn how to export Word to markdown, save word as markdown, and handle empty paragraphs."
 date: 2026-03-13
 draft: false
-language: "en"
+language: ko
 category: "general"
-url: "PLACEHOLDER_URL"
+url: /ko/net/add-content-using-document-builder/tutorial/
 keywords:
   - convert docx to markdown
   - export word to markdown
@@ -29,7 +19,11 @@ tags:
 og_title: "convert docx to markdown – Export Word to Markdown"
 og_description: "convert docx to markdown with a complete C# guide. Export Word to markdown, save word as markdown, and control empty paragraph handling."
 ---
-```
+
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # docx를 markdown으로 변환 – Word를 Markdown으로 내보내기
 

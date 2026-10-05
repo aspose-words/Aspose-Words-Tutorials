@@ -1,25 +1,11 @@
 ---
-language: hu
-url: /hu/net/add-content-using-document-builder/tutorial/
----
-
-? Title is inside quotes; it's part of markdown. Should translate title as well. So alt text "convert docx to markdown example" -> "docx konvertálása markdown példája". Title also same. So we change both.
-
-Now produce final content.
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
-```yaml
----
 title: "convert docx to markdown – Export Word to Markdown"
 description: "convert docx to markdown quickly with Aspose.Words. Learn how to export Word to markdown, save word as markdown, and handle empty paragraphs."
 date: 2026-03-13
 draft: false
-language: "en"
+language: hu
 category: "general"
-url: "PLACEHOLDER_URL"
+url: /hu/net/add-content-using-document-builder/tutorial/
 keywords:
   - convert docx to markdown
   - export word to markdown
@@ -33,7 +19,15 @@ tags:
 og_title: "convert docx to markdown – Export Word to Markdown"
 og_description: "convert docx to markdown with a complete C# guide. Export Word to markdown, save word as markdown, and control empty paragraph handling."
 ---
-```
+
+
+? Title is inside quotes; it's part of markdown. Should translate title as well. So alt text "convert docx to markdown example" -> "docx konvertálása markdown példája". Title also same. So we change both.
+
+Now produce final content.
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # docx konvertálása markdownba – Word exportálása markdownba
 

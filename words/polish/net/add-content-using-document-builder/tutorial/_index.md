@@ -1,7 +1,25 @@
 ---
+title: "convert docx to markdown – Export Word to Markdown"
+description: "convert docx to markdown quickly with Aspose.Words. Learn how to export Word to markdown, save word as markdown, and handle empty paragraphs."
+date: 2026-03-13
+draft: false
 language: pl
+category: "general"
 url: /pl/net/add-content-using-document-builder/tutorial/
+keywords:
+  - convert docx to markdown
+  - export word to markdown
+  - save word as markdown
+  - how to convert docx
+  - convert word file markdown
+tags:
+  - Aspose.Words
+  - C#
+  - Document Conversion
+og_title: "convert docx to markdown – Export Word to Markdown"
+og_description: "convert docx to markdown with a complete C# guide. Export Word to markdown, save word as markdown, and control empty paragraph handling."
 ---
+
 
 matters:** etc.
 
@@ -40,30 +58,6 @@ Now produce final answer.
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-
-```yaml
----
-title: "convert docx to markdown – Export Word to Markdown"
-description: "convert docx to markdown quickly with Aspose.Words. Learn how to export Word to markdown, save word as markdown, and handle empty paragraphs."
-date: 2026-03-13
-draft: false
-language: "en"
-category: "general"
-url: "PLACEHOLDER_URL"
-keywords:
-  - convert docx to markdown
-  - export word to markdown
-  - save word as markdown
-  - how to convert docx
-  - convert word file markdown
-tags:
-  - Aspose.Words
-  - C#
-  - Document Conversion
-og_title: "convert docx to markdown – Export Word to Markdown"
-og_description: "convert docx to markdown with a complete C# guide. Export Word to markdown, save word as markdown, and control empty paragraph handling."
----
-```
 
 # konwertuj docx do markdown – Eksport Word do Markdown
 

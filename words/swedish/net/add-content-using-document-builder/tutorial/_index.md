@@ -1,27 +1,11 @@
 ---
-language: sv
-url: /sv/net/add-content-using-document-builder/tutorial/
----
-
-any other markdown links: none.
-
-Now produce final content with translations.
-
-Make sure to keep code block placeholders unchanged.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
-```yaml
----
 title: "convert docx to markdown – Export Word to Markdown"
 description: "convert docx to markdown quickly with Aspose.Words. Learn how to export Word to markdown, save word as markdown, and handle empty paragraphs."
 date: 2026-03-13
 draft: false
-language: "en"
+language: sv
 category: "general"
-url: "PLACEHOLDER_URL"
+url: /sv/net/add-content-using-document-builder/tutorial/
 keywords:
   - convert docx to markdown
   - export word to markdown
@@ -35,7 +19,17 @@ tags:
 og_title: "convert docx to markdown – Export Word to Markdown"
 og_description: "convert docx to markdown with a complete C# guide. Export Word to markdown, save word as markdown, and control empty paragraph handling."
 ---
-```
+
+
+any other markdown links: none.
+
+Now produce final content with translations.
+
+Make sure to keep code block placeholders unchanged.
+
+Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # konvertera docx till markdown – Exportera Word till Markdown
 

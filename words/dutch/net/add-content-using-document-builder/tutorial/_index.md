@@ -1,29 +1,11 @@
 ---
-language: nl
-url: /nl/net/add-content-using-document-builder/tutorial/
----
-
-each paragraph.
-
-I'll produce the Dutch translation.
-
-Make sure to keep markdown formatting.
-
-Let's write.
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
-```yaml
----
 title: "convert docx to markdown – Export Word to Markdown"
 description: "convert docx to markdown quickly with Aspose.Words. Learn how to export Word to markdown, save word as markdown, and handle empty paragraphs."
 date: 2026-03-13
 draft: false
-language: "en"
+language: nl
 category: "general"
-url: "PLACEHOLDER_URL"
+url: /nl/net/add-content-using-document-builder/tutorial/
 keywords:
   - convert docx to markdown
   - export word to markdown
@@ -37,7 +19,19 @@ tags:
 og_title: "convert docx to markdown – Export Word to Markdown"
 og_description: "convert docx to markdown with a complete C# guide. Export Word to markdown, save word as markdown, and control empty paragraph handling."
 ---
-```
+
+
+each paragraph.
+
+I'll produce the Dutch translation.
+
+Make sure to keep markdown formatting.
+
+Let's write.
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # convert docx to markdown – Export Word to Markdown
 
