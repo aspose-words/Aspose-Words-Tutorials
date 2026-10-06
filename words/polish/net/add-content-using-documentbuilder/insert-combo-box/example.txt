@@ -1,0 +1,24 @@
+//ExStart
+//ExSummary: Ten samouczek pokazuje, jak utworzyć dokument Word, dodać pole formularza typu combo box z predefiniowanymi elementami przy użyciu DocumentBuilder i zapisać dokument.
+//ExStepSummary:0: Ustaw ścieżkę folderu, w którym zostanie zapisany wynikowy dokument.
+//ExStepSummary:1: Utwórz tablicę ciągów znaków, które będą wypełniały opcje combo boxa.
+//ExStepSummary:2: Zainicjalizuj nowy obiekt Document oraz DocumentBuilder powiązany z nim.
+//ExStepSummary:3: Wywołaj `builder.InsertComboBox`, aby umieścić combo box o nazwie "DropDown" z określonymi elementami w bieżącej pozycji kursora.
+//ExStepSummary:4: Zapisz dokument w określonym katalogu jako plik .docx.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+string[] items = { "One", "Two", "Three" };
+
+//ExStep:2-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertComboBox("DropDown", items, 0);
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertComboBoxFormField.docx");
+//ExEnd

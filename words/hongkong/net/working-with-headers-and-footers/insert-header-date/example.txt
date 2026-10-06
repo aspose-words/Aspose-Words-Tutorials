@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: 本教學使用 Document 和 DocumentBuilder 類別，示範如何在 Word 文件的主要頁首加入動態 DATE 欄位，然後儲存檔案。
+//ExStepSummary:0: 建立一個新的 Document 並使用 DocumentBuilder 來編輯它。
+//ExStepSummary:1: 將 builder 的游標移至主要頁首，使後續的插入會作用於頁首。
+//ExStepSummary:2: 寫入靜態標籤，並在頁首插入格式為 “MMMM d, yyyy” 的 DATE 欄位，產生動態日期。
+//ExStepSummary:3: 返回正文並加入範例段落，以示範在頁首旁的正常文件內容。
+//ExStepSummary:4: 將文件儲存為 .docx 檔案。
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+builder.Write("Generated on: ");
+builder.InsertField("DATE \\@ \"MMMM d, yyyy\"");
+
+//ExStep:3-
+builder.MoveToDocumentEnd();
+builder.Writeln("This is the document body.");
+
+//ExStep:4-
+doc.Save("HeaderDate.docx");
+//ExEnd

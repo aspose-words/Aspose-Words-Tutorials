@@ -1,0 +1,7 @@
+Title: How to add ActiveX and insert a pie chart in a Word doc
+Slug: how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc
+Category: using-document-elements
+ProcessedDate: 2026-08-17T18:36:04.881545
+SourceRepo: AI Search API
+Keywords: how to add activex, insert pie chart, save as docx, how to insert chart, explode pie slice
+PRNumber: 256

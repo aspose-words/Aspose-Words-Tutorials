@@ -1,0 +1,7 @@
+Title: Register warning callback in Java – Track missing fonts
+Slug: register-warning-callback-in-java-track-missing-fonts
+Category: document-loading-and-saving
+ProcessedDate: 2026-05-30T08:37:09.352996
+SourceRepo: AI Search API
+Keywords: register warning callback, track missing fonts, customize document loading
+PRNumber: 195

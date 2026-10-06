@@ -1,0 +1,7 @@
+Title: How to export Word to PDF and generate an accessible PDF/UA
+Slug: how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua
+Category: document-conversion
+ProcessedDate: 2026-10-01T02:42:58.397280
+SourceRepo: AI Search API
+Keywords: export word to pdf, convert docx to pdf, generate accessible pdf, how to generate pdf/ua, load word document
+PRNumber: 296

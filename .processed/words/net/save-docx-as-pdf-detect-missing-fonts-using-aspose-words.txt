@@ -1,0 +1,7 @@
+Title: Save docx as pdf & detect missing fonts using Aspose.Words
+Slug: save-docx-as-pdf-detect-missing-fonts-using-aspose-words
+Category: working-with-fonts
+ProcessedDate: 2026-07-03T22:28:45.572386
+SourceRepo: AI Search API
+Keywords: save docx as pdf, convert word to pdf, extract font info, detect missing fonts, track missing fonts
+PRNumber: 219

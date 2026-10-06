@@ -252,7 +252,8 @@ A: 不能直接实现；PDF 本身不识别 LaTeX。你需要先将公式渲染�
 
 如果本指南对你有帮助，请在 GitHub 上给它点星，分享给团队成员，或在下方留言分享你的改进方案。祝编码愉快，愿你的 LaTeX 永远渲染完美！
 
-![Diagram showing the conversion pipeline from DOCX → Markdown (with LaTeX) → PDF, alt text: "How to export LaTeX while converting DOCX to markdown and saving as PDF"]{{< /blocks/products/pf/tutorial-page-section >}}
+![Diagram showing the conversion pipeline from DOCX → Markdown (with LaTeX) → PDF, alt text: "How to export LaTeX while converting DOCX to markdown and saving as PDF"]
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

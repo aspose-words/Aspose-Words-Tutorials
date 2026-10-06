@@ -1,0 +1,7 @@
+Title: How to save PNG and add shadow to shape with Aspose.Words
+Slug: how-to-save-png-and-add-shadow-to-shape-with-aspose-words
+Category: images-shapes
+ProcessedDate: 2026-08-17T19:08:22.022467
+SourceRepo: AI Search API
+Keywords: how to save png, add shadow to shape, save document as pdf, export word to png, convert word to pdf
+PRNumber: 257

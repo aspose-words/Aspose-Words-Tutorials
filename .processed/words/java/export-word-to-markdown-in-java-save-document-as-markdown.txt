@@ -1,0 +1,7 @@
+Title: Export Word to Markdown in Java – Save Document as Markdown
+Slug: export-word-to-markdown-in-java-save-document-as-markdown
+Category: document-conversion-and-export
+ProcessedDate: 2026-06-05T15:21:06.036927
+SourceRepo: AI Search API
+Keywords: export word to markdown, save document as markdown
+PRNumber: 199

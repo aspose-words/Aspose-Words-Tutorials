@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: Αυτό το σεμινάριο δείχνει πώς να δημιουργήσετε ένα νέο έγγραφο Word, να εισάγετε ένα πεδίο φόρμας τύπου πλαίσιο ελέγχου με το DocumentBuilder και να αποθηκεύσετε το παραγόμενο αρχείο.
+//ExStepSummary:0: Δημιουργήστε μια μεταβλητή καταλόγου δεδομένων, δημιουργήστε ένα αντικείμενο Document και δημιουργήστε ένα DocumentBuilder για αυτό το έγγραφο.
+//ExStepSummary:1: Καλέστε το `builder.InsertCheckBox` για να προσθέσετε ένα ενεργό, επιλεγμένο πεδίο φόρμας τύπου πλαίσιο ελέγχου με όνομα "CheckBox" στη τρέχουσα θέση του δρομέα.
+//ExStepSummary:2: Αποθηκεύστε το τροποποιημένο έγγραφο στον καθορισμένο φάκελο χρησιμοποιώντας το `doc.Save`.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertCheckBox("CheckBox", true, true, 0);
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx");
+//ExEnd

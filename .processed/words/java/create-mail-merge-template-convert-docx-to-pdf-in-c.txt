@@ -1,0 +1,7 @@
+Title: Create Mail Merge Template & Convert DOCX to PDF in C#
+Slug: create-mail-merge-template-convert-docx-to-pdf-in-c
+Category: mail-merge-reporting
+ProcessedDate: 2026-05-24T01:58:32.446499
+SourceRepo: AI Search API
+Keywords: create mail merge template, convert docx to pdf, docx to pdf conversion, convert word to pdf, batch docx to pdf
+PRNumber: 191

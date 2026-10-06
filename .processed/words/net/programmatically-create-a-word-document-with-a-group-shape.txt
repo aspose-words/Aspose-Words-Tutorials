@@ -1,0 +1,7 @@
+Title: Programmatically create a Word document with a group shape
+Slug: programmatically-create-a-word-document-with-a-group-shape
+Category: programming-with-shapes
+ProcessedDate: 2026-09-27T22:11:30.607730
+SourceRepo: AI Search API
+Keywords: programmatically create word document, how to create group shape word
+PRNumber: 289

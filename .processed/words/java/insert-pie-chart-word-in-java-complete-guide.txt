@@ -1,0 +1,7 @@
+Title: Insert pie chart word in Java – complete guide
+Slug: insert-pie-chart-word-in-java-complete-guide
+Category: using-document-elements
+ProcessedDate: 2026-09-24T19:08:45.222292
+SourceRepo: AI Search API
+Keywords: insert pie chart word, set hole size, explode pie slice, highlight pie chart slice, create docx chart
+PRNumber: 287

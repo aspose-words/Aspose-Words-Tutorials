@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: این آموزش نشان می‌دهد چگونه با استفاده از Aspose.Words Document و DocumentBuilder، شکست صفحه را در یک سند Word وارد کنیم.
+//ExStepSummary:0: یک شیء Document و یک DocumentBuilder ایجاد کنید که برای افزودن محتوا استفاده خواهند شد.
+//ExStepSummary:1: متن صفحه اول را بنویسید و یک شکست صفحه وارد کنید تا محتوای بعدی در صفحه جدیدی شروع شود.
+//ExStepSummary:2: متن صفحه دوم را بنویسید و یک شکست صفحه دیگر وارد کنید تا صفحه سوم آغاز شود.
+//ExStepSummary:3: متن صفحه سوم را بنویسید و سند سه‌صفحه‌ای را تکمیل کنید.
+//ExStepSummary:4: سند ترکیب‌شده را به‌صورت فایل .docx در پوشهٔ مشخص‌شده ذخیره کنید.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("This is page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:2-
+builder.Writeln("This is page 2.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+builder.Writeln("This is page 3.");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

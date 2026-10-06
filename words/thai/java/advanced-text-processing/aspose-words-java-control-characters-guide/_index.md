@@ -1,17 +1,12 @@
 ---
-date: '2025-11-13'
-description: เรียนรู้วิธีแทรกและจัดการอักขระควบคุม เช่น แท็บ, การขึ้นบรรทัดใหม่, การแบ่งหน้า,
-  และการแบ่งคอลัมน์ใน Java ด้วย Aspose.Words. ทำตามตัวอย่างโค้ดทีละขั้นตอนเพื่อปรับปรุงการจัดรูปแบบเอกสาร.
+date: '2026-01-14'
+description: เรียนรู้วิธีแทรกช่องว่างที่ไม่แยกบรรทัดใน Java ด้วย Aspose.Words และค้นหาวิธีแทรกอักขระแท็บใน
+  Java, แทรกอักขระควบคุมใน Java, และตั้งค่า Aspose.Words Maven.
 keywords:
 - Aspose.Words control characters
 - Java document formatting with Aspose.Words
 - inserting control characters in Java
-- insert control characters java
-- add page break java
-- insert non breaking space
-- use controlchar tab
-- create multi column layout
-title: แทรกอักขระควบคุมใน Java ด้วย Aspose.Words
+title: ช่องว่างไม่แยกบรรทัดใน Java ด้วย Aspose.Words for Java
 url: /th/java/advanced-text-processing/aspose-words-java-control-characters-guide/
 weight: 1
 ---
@@ -22,32 +17,41 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# อักขระควบคุมขั้นสูงกับ Aspose.Words สำหรับ Java
+# non breaking space java: ควบคุมอักขระหลักด้วย Aspose.Words for Java
+
 ## บทนำ
-คุณเคยเจอปัญหาในการจัดการรูปแบบข้อความในเอกสารที่มีโครงสร้างเช่น ใบแจ้งหนี้หรือรายงานหรือไม่? อักขระควบคุมเป็นสิ่งสำคัญสำหรับการจัดรูปแบบที่แม่นยำ คู่มือนี้จะสำรวจวิธีการจัดการอักขระควบคุมอย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Java และผสานองค์ประกอบโครงสร้างอย่างราบรื่น
+คุณเคยประสบปัญหาในการจัดการรูปแบบข้อความในเอกสารโครงสร้างเช่นใบแจ้งหนี้หรือรายงานหรือไม่? เมื่อคุณต้องแทรกอักขระ **non breaking space java** ตัวอักษร ควบคุมอักขระจึงเป็นสิ่งสำคัญสำหรับการจัดรูปแบบที่แม่นยำ คู่มือฉบับนี้จะสำรวจการจัดการควบคุมอักขระอย่างมีประสิทธิภาพโดยใช้ Aspose.Words for Java ผสานรวมองค์ประกอบโครงสร้างอย่างราบรื่น และแสดงวิธีแทรก tab character java, insert control characters java, และทำการตั้งค่า aspose words maven
 
 **สิ่งที่คุณจะได้เรียนรู้:**
-- การจัดการและแทรกอักขระควบคุมประเภทต่าง ๆ
-- เทคนิคการตรวจสอบและจัดการโครงสร้างข้อความด้วยโปรแกรม
+- การจัดการและแทรกอักขระควบคุมต่าง ๆ รวมถึง non‑breaking spaces
+- เทคนิคในการตรวจสอบและจัดการโครงสร้างข้อความด้วยโปรแกรม
 - แนวปฏิบัติที่ดีที่สุดสำหรับการเพิ่มประสิทธิภาพการจัดรูปแบบเอกสาร
 
-ในส่วนต่อไปเราจะเดินผ่านสถานการณ์จริง เพื่อให้คุณเห็นว่าอักขระเหล่านี้ช่วยปรับปรุงการทำงานอัตโนมัติและความอ่านง่ายของเอกสารได้อย่างไร
+## คำตอบอย่างรวดเร็ว
+- **What is a non breaking space in Java?** เป็นอักขระ Unicode (`\u00A0`) ที่ป้องกันการตัดบรรทัดระหว่างคำที่อยู่ติดกัน
+- **How to insert a tab character java?** ใช้ `ControlChar.TAB` กับ `DocumentBuilder.write()`
+- **Do I need a license for Aspose.Words?** ใช่ จำเป็นต้องมีไลเซนส์ทดลองหรือไลเซนส์ที่ซื้อสำหรับการใช้งานจริง
+- **What Maven coordinates are required?** `com.aspose:aspose-words:25.3` (หรือเวอร์ชันใหม่กว่า)
+- **Can I add column breaks programmatically?** ใช่ ใช้ `ControlChar.COLUMN_BREAK` หลังจากกำหนดค่าคอลัมน์
+
+## non breaking space java คืออะไร?
+non‑breaking space (`\u00A0`) จะบอกให้เครื่องมือจัดหน้าเก็บอักขระทั้งสองด้านไว้ด้วยกันในบรรทัดเดียวกัน ใน Java คุณสามารถแทรกได้ผ่าน Aspose.Words โดยใช้ `ControlChar.NON_BREAKING_SPACE`.
+
+## ทำไมต้องใช้ Aspose.Words สำหรับอักขระควบคุม?
+Aspose.Words มีชุดคงที่ `ControlChar` ที่หลากหลายให้คุณทำงานกับสัญลักษณ์การจัดรูปแบบที่มองไม่เห็นโดยไม่ต้องจัดการกับไบต์ระดับต่ำ ซึ่งทำให้โค้ดของคุณสะอาดขึ้น, ดูแลรักษาง่ายขึ้น, และพกพาได้ข้ามแพลตฟอร์ม
 
 ## ข้อกำหนดเบื้องต้น
-เพื่อทำตามคู่มือนี้ คุณจะต้องมี:
-- **Aspose.Words for Java**: ตรวจสอบให้แน่ใจว่าติดตั้งเวอร์ชัน 25.3 หรือใหม่กว่าในสภาพแวดล้อมการพัฒนา
-- **Java Development Kit (JDK)**: แนะนำเวอร์ชัน 8 หรือสูงกว่า
-- **IDE Setup**: IntelliJ IDEA, Eclipse หรือ IDE Java ที่คุณชื่นชอบ
+- **Aspose.Words for Java**: เวอร์ชัน 25.3 หรือใหม่กว่า
+- **Java Development Kit (JDK)**: เวอร์ชัน 8 หรือสูงกว่า
+- **IDE**: IntelliJ IDEA, Eclipse หรือ IDE Java ที่คุณชื่นชอบ
 
-### ข้อกำหนดการตั้งค่าสภาพแวดล้อม
+### ความต้องการในการตั้งค่าสภาพแวดล้อม
 1. ติดตั้ง Maven หรือ Gradle เพื่อจัดการ dependencies
-2. ตรวจสอบให้มีใบอนุญาต Aspose.Words ที่ถูกต้อง; ขอใบอนุญาตชั่วคราวหากต้องการทดสอบฟีเจอร์โดยไม่มีข้อจำกัด
+2. ตรวจสอบว่าคุณมีไลเซนส์ Aspose.Words ที่ถูกต้อง; ขอไลเซนส์ชั่วคราวหากต้องการทดสอบฟีเจอร์โดยไม่มีข้อจำกัด
 
-## การตั้งค่า Aspose.Words
-ก่อนจะลงลึกในโค้ด ให้ตั้งค่าโปรเจกต์ของคุณด้วย Aspose.Words ผ่าน Maven หรือ Gradle
+## การตั้งค่า Aspose Words Maven
+เพิ่ม dependency ของ Maven ลงในไฟล์ `pom.xml` ของคุณ (นี่คือ **aspose words maven setup** ที่คุณต้องการ):
 
-### การตั้งค่า Maven
-เพิ่ม dependency นี้ในไฟล์ `pom.xml` ของคุณ:
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -56,96 +60,103 @@ weight: 1
 </dependency>
 ```
 
-### การตั้งค่า Gradle
-ใส่ส่วนต่อไปนี้ในไฟล์ `build.gradle` ของคุณ:
+หากคุณต้องการใช้ Gradle ให้ใช้โค้ดต่อไปนี้:
+
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### การรับใบอนุญาต
-เพื่อใช้ประโยชน์เต็มที่จาก Aspose.Words คุณจะต้องมีไฟล์ใบอนุญาต:
-- **Free Trial**: ขอใบอนุญาตชั่วคราว [ที่นี่](https://purchase.aspose.com/temporary-license/)  
-- **Purchase**: ซื้อใบอนุญาตหากคุณพบว่าเครื่องมือนี้มีประโยชน์ต่อโครงการของคุณ
+## การรับไลเซนส์
+เพื่อใช้ประโยชน์จาก Aspose.Words อย่างเต็มที่ คุณจะต้องมีไฟล์ไลเซนส์:
+- **Free Trial**: ขอไลเซนส์ชั่วคราว [ที่นี่](https://purchase.aspose.com/temporary-license/).
+- **Purchase**: ซื้อไลเซนส์หากคุณพบว่าเครื่องมือนี้มีประโยชน์ต่อโครงการของคุณ
 
-หลังจากได้รับใบอนุญาตแล้ว ให้ทำการเริ่มต้นในแอปพลิเคชัน Java ของคุณดังนี้:
+หลังจากได้รับไลเซนส์แล้ว ให้ทำการเริ่มต้นในแอปพลิเคชัน Java ของคุณดังนี้:
+
 ```java
 License license = new License();
 license.setLicense("path/to/aspose.words.lic");
 ```
 
-## คู่มือการดำเนินการ
-เราจะแบ่งการดำเนินการออกเป็นสองคุณลักษณะหลัก: การจัดการ carriage return และการแทรกอักขระควบคุม
+## คู่มือการนำไปใช้
+เราจะแบ่งการนำไปใช้เป็นสองฟีเจอร์หลัก: การจัดการ carriage return และการแทรกอักขระควบคุม
 
-### คุณลักษณะ 1: การจัดการ Carriage Return
-การจัดการ carriage return ทำให้แน่ใจว่าองค์ประกอบโครงสร้างเช่น page break ถูกแสดงอย่างถูกต้องในรูปแบบข้อความของเอกสาร
+### ฟีเจอร์ 1: การจัดการ Carriage Return
+การจัดการ carriage return จะทำให้แน่ใจว่าองค์ประกอบโครงสร้างเช่น page break ถูกแสดงอย่างถูกต้องในรูปแบบข้อความของเอกสาร
 
-#### คู่มือทีละขั้นตอน
-**ภาพรวม**: คุณลักษณะนี้แสดงวิธีตรวจสอบและจัดการอักขระควบคุมที่แทนส่วนประกอบโครงสร้าง เช่น page break
+#### คู่มือขั้นตอนต่อขั้นตอน
+**Overview**: ฟีเจอร์นี้แสดงวิธีตรวจสอบและจัดการการมีอยู่ของอักขระควบคุมที่แทนส่วนประกอบโครงสร้าง เช่น page breaks.
 
-**ขั้นตอนการดำเนินการ:**
-##### 1. สร้าง Document
-ก่อนเริ่ม จำไว้ว่าอ็อบเจ็กต์ `Document` คือผ้าใบสำหรับเนื้อหาทั้งหมดของคุณ  
+**Implementation Steps:**
+##### 1. Create a Document
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
-##### 2. แทรก Paragraphs
-เพิ่มย่อหน้าง่าย ๆ สองสามบรรทัดเพื่อให้มีข้อความให้ทำงานด้วย  
+
+##### 2. Insert Paragraphs
 ```java
 builder.writeln("Hello world!");
 builder.writeln("Hello again!");
 ```
-##### 3. ตรวจสอบ Control Characters
-ตรวจสอบว่าอักขระควบคุมแสดงส่วนประกอบโครงสร้างอย่างถูกต้องหรือไม่:  
+
+##### 3. Verify Control Characters
+ตรวจสอบว่าอักขระควบคุมแทนส่วนประกอบโครงสร้างอย่างถูกต้องหรือไม่:
+
 ```java
 String expectedTextWithCR = MessageFormat.format("Hello world!{0}", ControlChar.CR) +
         MessageFormat.format("Hello again!{0}", ControlChar.CR) +
         ControlChar.PAGE_BREAK;
 assert doc.getText().equals(expectedTextWithCR) : "Text does not match expected value with control characters.";
 ```
-##### 4. ตัดและตรวจสอบข้อความ
-สุดท้าย ให้ตัดข้อความของเอกสารและยืนยันว่าผลลัพธ์ตรงกับที่คาดหวัง:  
+
+##### 4. Trim and Check Text
 ```java
 String expectedTrimmedText = MessageFormat.format("Hello world!{0}", ControlChar.CR) + "Hello again!";
 assert doc.getText().trim().equals(expectedTrimmedText) : "Trimmed text does not match expected value.";
 ```
 
-### คุณลักษณะ 2: การแทรก Control Characters
-คุณลักษณะนี้มุ่งเน้นการเพิ่มอักขระควบคุมต่าง ๆ เพื่อปรับปรุงรูปแบบและโครงสร้างของเอกสาร
+### ฟีเจอร์ 2: การแทรกอักขระควบคุม
+ฟีเจอร์นี้มุ่งเน้นการเพิ่มอักขระควบคุมต่าง ๆ เพื่อปรับปรุงการจัดรูปแบบและโครงสร้างของเอกสาร
 
-#### คู่มือทีละขั้นตอน
-**ภาพรวม**: เรียนรู้วิธีแทรกอักขระควบคุมต่าง ๆ เช่น space, tab, line break, และ page break ลงในเอกสารของคุณ
+#### คู่มือขั้นตอนต่อขั้นตอน
+**Overview**: เรียนรู้วิธี **insert control characters java** เช่น ช่องว่าง, แท็บ, การขึ้นบรรทัดใหม่, และ page break ในเอกสารของคุณ
 
-**ขั้นตอนการดำเนินการ:**
-##### 1. เริ่มต้น DocumentBuilder
-เราเริ่มด้วยเอกสารใหม่เพื่อให้คุณเห็นแต่ละอักขระควบคุมแยกจากกัน  
+**Implementation Steps:**
+##### 1. Initialize DocumentBuilder
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
-##### 2. แทรก Control Characters
-เพิ่มอักขระควบคุมประเภทต่าง ๆ:
-- **อักขระ Space**: `ControlChar.SPACE_CHAR`  
+
+##### 2. Insert Control Characters
+Add different types of control characters:
+- **Space Character**: `ControlChar.SPACE_CHAR`
   ```java
   builder.write("Before space." + ControlChar.SPACE_CHAR + "After space.");
   ```
-- **อักขระ Non-Breaking Space (NBSP)**: `ControlChar.NON_BREAKING_SPACE`  
+
+- **Non‑Breaking Space (NBSP)**: `ControlChar.NON_BREAKING_SPACE`
   ```java
   builder.write("Before space." + ControlChar.NON_BREAKING_SPACE + "After space.");
   ```
-- **อักขระ Tab**: `ControlChar.TAB`  
+
+- **Tab Character**: `ControlChar.TAB`
   ```java
   builder.write("Before tab." + ControlChar.TAB + "After tab.");
   ```
 
-##### 3. การแทรก Line Break และ Paragraph Break
-เพิ่ม line break เพื่อเริ่มย่อหน้าใหม่และตรวจสอบจำนวนย่อหน้า:  
+##### 3. Line and Paragraph Breaks
+Add a line break to start a new paragraph:
+
 ```java
 Assert.assertEquals(1, doc.getFirstSection().getBody().getChildNodes(NodeType.PARAGRAPH, true).getCount());
 builder.write("Before line feed." + ControlChar.LINE_FEED + "After line feed.");
 Assert.assertEquals(2, doc.getFirstSection().getBody().getChildNodes(NodeType.PARAGRAPH, true).getCount());
 ```
-ตรวจสอบ paragraph และ page break:  
+
+Verify paragraph and page breaks:
+
 ```java
 builder.write("Before paragraph break." + ControlChar.PARAGRAPH_BREAK + "After paragraph break.");
 Assert.assertEquals(3, doc.getFirstSection().getBody().getChildNodes(NodeType.PARAGRAPH, true).getCount());
@@ -154,8 +165,9 @@ builder.write("Before section break." + ControlChar.SECTION_BREAK + "After secti
 assert doc.getSections().getCount() == 1 : "Section count mismatch after section break.";
 ```
 
-##### 4. การแทรก Column Break และ Page Break
-แนะนำ column break ในการตั้งค่าหลายคอลัมน์เพื่อดูว่าข้อความไหลระหว่างคอลัมน์อย่างไร:  
+##### 4. Column and Page Breaks
+Introduce column breaks in a multi‑column setup:
+
 ```java
 doc.appendChild(new Section(doc));
 builder.moveToSection(1);
@@ -164,36 +176,60 @@ builder.getCurrentSection().getPageSetup().getTextColumns().setCount(2);
 builder.write("Text at end of column 1." + ControlChar.COLUMN_BREAK + "Text at beginning of column 2.");
 ```
 
-### การประยุกต์ใช้งานจริง
-**กรณีการใช้งานจริง:**
-1. **การสร้างใบแจ้งหนี้**: จัดรูปแบบรายการและรับประกัน page break สำหรับใบแจ้งหนี้หลายหน้าโดยใช้ control characters
-2. **การสร้างรายงาน**: จัดตำแหน่งฟิลด์ข้อมูลในรายงานที่มีโครงสร้างด้วย tab และ space controls
-3. **เลย์เอาต์หลายคอลัมน์**: สร้างจดหมายข่าวหรือโบรชัวร์ที่มีส่วนเนื้อหาเคียงข้างกันโดยใช้ column break
-4. **ระบบจัดการเนื้อหา (CMS)**: จัดการรูปแบบข้อความแบบไดนามิกตามการป้อนข้อมูลของผู้ใช้ด้วย control characters
-5. **การสร้างเอกสารอัตโนมัติ**: ปรับปรุงเทมเพลตเอกสารโดยแทรกส่วนโครงสร้างผ่านโปรแกรม
+## การประยุกต์ใช้ในทางปฏิบัติ
+**Real‑World Use Cases:**
+1. **Invoice Generation** – จัดรูปแบบรายการและรับประกัน page break สำหรับใบแจ้งหนี้หลายหน้าโดยใช้อักขระควบคุม.
+2. **Report Creation** – จัดแนวฟิลด์ข้อมูลในรายงานโครงสร้างด้วยการควบคุมแท็บและช่องว่าง.
+3. **Multi‑Column Layouts** – สร้างจดหมายข่าวหรือโบรชัวร์ที่มีส่วนเนื้อหาเคียงข้างกันโดยใช้ column break.
+4. **Content Management Systems (CMS)** – จัดการรูปแบบข้อความแบบไดนามิกตามการป้อนข้อมูลของผู้ใช้ด้วยอักขระควบคุม.
+5. **Automated Document Generation** – ปรับปรุงเทมเพลตเอกสารโดยการแทรกส่วนโครงสร้างผ่านโปรแกรม.
 
 ## ข้อควรพิจารณาด้านประสิทธิภาพ
 เพื่อเพิ่มประสิทธิภาพเมื่อทำงานกับเอกสารขนาดใหญ่:
 - ลดการใช้การดำเนินการหนักเช่นการรีเฟรชบ่อยครั้ง
-- ทำการแทรกอักขระควบคุมเป็นชุดเพื่อ ลดภาระการประมวลผล
+- แทรกอักขระควบคุมเป็นชุดเพื่อ ลดภาระการประมวลผล
 - ทำการ profiling แอปพลิเคชันเพื่อระบุคอขวดที่เกี่ยวข้องกับการจัดการข้อความ
 
 ## สรุป
-ในคู่มือนี้ เราได้สำรวจวิธีการเชี่ยวชาญอักขระควบคุมใน Aspose.Words สำหรับ Java โดยทำตามขั้นตอนเหล่านี้ คุณจะสามารถจัดการโครงสร้างและรูปแบบเอกสารได้อย่างมีประสิทธิภาพ หากต้องการสำรวจความสามารถของ Aspose.Words เพิ่มเติม ให้พิจารณาเรียนรู้ฟีเจอร์ขั้นสูงและผสานเข้ากับโครงการของคุณ
+ในคู่มือนี้ เราได้สำรวจวิธีการเชี่ยวชาญ **non breaking space java** และอักขระควบคุมอื่น ๆ ใน Aspose.Words for Java โดยการทำตามขั้นตอนเหล่านี้ คุณจะสามารถจัดการโครงสร้างและการจัดรูปแบบเอกสารได้อย่างมีประสิทธิภาพผ่านโปรแกรม หากต้องการสำรวจความสามารถของ Aspose.Words เพิ่มเติม ควรศึกษาฟีเจอร์ขั้นสูงและนำไปผสานในโครงการของคุณ
 
 ## ขั้นตอนต่อไป
 - ทดลองกับประเภทเอกสารต่าง ๆ
 - สำรวจฟังก์ชันเพิ่มเติมของ Aspose.Words เพื่อเพิ่มประสิทธิภาพแอปพลิเคชันของคุณ
 
-**การกระตุ้นให้ดำเนินการ**: ลองนำโซลูชันเหล่านี้ไปใช้ในโครงการ Java ถัดไปของคุณด้วย Aspose.Words เพื่อควบคุมเอกสารอย่างเหนือระดับ!
+**Call‑to‑action**: ลองนำโซลูชันเหล่านี้ไปใช้ในโครงการ Java ถัดไปของคุณด้วย Aspose.Words เพื่อการควบคุมเอกสารที่ดียิ่งขึ้น!
 
 ## ส่วนคำถามที่พบบ่อย
-1. **Control character คืออะไร?**  
-   Control characters คืออักขระพิเศษที่ไม่แสดงผลบนหน้าจอ ใช้สำหรับจัดรูปแบบข้อความ เช่น tab และ page break
-2. **ฉันจะเริ่มต้นกับ Aspose.Words for Java อย่างไร?**  
-   ตั้งค่าโปรเจกต์ของคุณด้วย dependencies ของ Maven หรือ Gradle และขอใบอนุญาตทดลองใช้งานฟรีหากต้องการ
-3. **Control characters สามารถจัดการเลย์เอาต์หลายคอลัมน์ได้หรือไม่?**  
-   ได้ คุณสามารถใช้ `ControlChar.COLUMN_BREAK` เพื่อจัดการข้อความข้ามคอลัมน์หลายคอลัมน์ได้อย่างมีประสิทธิภาพ
+1. **What is a control character?**  
+   อักขระควบคุมคืออักขระพิเศษที่ไม่สามารถพิมพ์ได้ ใช้สำหรับจัดรูปแบบข้อความ เช่น แท็บและ page break.
+
+2. **How do I get started with Aspose.Words for Java?**  
+   ตั้งค่าโครงการของคุณโดยใช้ dependencies ของ Maven หรือ Gradle และขอไลเซนส์ทดลองฟรีหากจำเป็น.
+
+3. **Can control characters handle multi‑column layouts?**  
+   ใช่ คุณสามารถใช้ `ControlChar.COLUMN_BREAK` เพื่อจัดการข้อความในหลายคอลัมน์ได้อย่างมีประสิทธิภาพ.
+
+## คำถามที่พบบ่อย
+**Q: How do I insert a non breaking space in Java without Aspose?**  
+A: ใช้ Unicode escape `"\u00A0"` หรือ `Character.toString('\u00A0')` ใน literal ของสตริงของคุณ.
+
+**Q: Is there a performance impact when inserting many control characters?**  
+A: ผลกระทบน้อยมาก แต่การแทรกเป็นชุดและหลีกเลี่ยงการบันทึกเอกสารหลายครั้งจะช่วยเพิ่มประสิทธิภาพ.
+
+**Q: Can I use the same code on .NET with Aspose.Words?**  
+A: ใช่ Aspose.Words มี API ที่เทียบเท่าสำหรับ .NET; แทนที่คลาส Java ด้วยคลาส .NET ที่สอดคล้อง.
+
+**Q: What version of Aspose.Words is required for the examples?**  
+A: โค้ดทำงานกับเวอร์ชัน 25.3 ขึ้นไป.
+
+**Q: Where can I find more examples of control character usage?**  
+A: เยี่ยมชมเอกสาร Aspose.Words และอ้างอิง API อย่างเป็นทางการสำหรับตัวอย่างเพิ่มเติม.
+
+---
+
+**อัปเดตล่าสุด:** 2026-01-14  
+**ทดสอบด้วย:** Aspose.Words 25.3 for Java  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
