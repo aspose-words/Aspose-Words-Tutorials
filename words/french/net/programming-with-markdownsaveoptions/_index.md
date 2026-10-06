@@ -151,6 +151,12 @@ Apprenez à préserver les sauts de ligne lors de la conversion de fichiers DOCX
 
 ### [Enregistrer Word en Markdown – Guide complet pour convertir DOCX et extraire les images](./save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 
+### [Comment convertir les équations de Word en Markdown – Guide complet C#](./how-to-convert-equations-from-word-to-markdown-complete-c-gu/)
+
+### [Convertir Word en Markdown – Guide complet avec extraction d'images](./convert-word-to-markdown-full-guide-with-image-extraction/)
+
+### [Convertir docx en markdown – Guide complet avec préservation des sauts de ligne](./convert-docx-to-markdown-complete-guide-with-line-break-pres/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

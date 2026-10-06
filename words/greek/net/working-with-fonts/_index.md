@@ -66,6 +66,7 @@
 | [Δημιουργία FontSettings σε C# – Ανίχνευση Ελλειπουσών Γραμματοσειρών & Καταγραφή Μηνυμάτων Γραμματοσειρών](./create-fontsettings-in-c-detect-missing-fonts-capture-font-m/) | Μάθετε πώς να δημιουργήσετε FontSettings σε C#, να εντοπίσετε ελλείπουσες γραμματοσειρές και να καταγράψετε μηνύματα γραμματοσειρών με Aspose.Words για .NET. |
 | [Προσαρμοσμένες Ρυθμίσεις Γραμματοσειράς σε C# – Φόρτωση Word & Διαχείριση Ελλειπουσών Γραμματοσειρών](./custom-font-settings-in-c-load-word-handle-missing-fonts/) | Μάθετε πώς να φορτώνετε έγγραφα Word και να διαχειρίζεστε ελλειπούσες γραμματοσειρές χρησιμοποιώντας προσαρμοσμένες ρυθμίσεις γραμματοσειράς σε C# με Aspose.Words για .NET. |
 | [Πώς να Συλλέξετε Προειδοποιήσεις στο Aspose.Words – Πλήρης Οδηγός](./how-to-capture-warnings-in-aspose-words-complete-guide/) | Μάθετε πώς να εντοπίζετε και να διαχειρίζεστε προειδοποιήσεις κατά την επεξεργασία εγγράφων με το Aspose.Words για .NET. |
+| [Διαχείριση Ελλειπουσών Γραμματοσειρών στο Aspose.Words – Πλήρης Οδηγός C#](./handle-missing-fonts-in-aspose-words-complete-c-guide/) | Μάθετε πώς να διαχειρίζεστε ελλείπουσες γραμματοσειρές σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET με πλήρη οδηγό C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

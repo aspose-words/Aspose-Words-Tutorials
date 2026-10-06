@@ -49,6 +49,7 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
 | [Hogyan foglaljunk össze Word dokumentumokat – Teljes C# útmutató](./how-to-summarize-word-documents-complete-c-guide/) | Ismerje meg, hogyan használhatja a C#-ot a Word dokumentumok AI-alapú összefoglalásához az Aspose.Words segítségével. |
 | [Hogyan javítsuk ki a nyelvtant DOCX fájlokban C#‑val – Teljes lépésről‑lépésre útmutató](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Tanulja meg, hogyan javíthatja a DOCX fájlok nyelvtani hibáit C#‑ban egy részletes, lépésről‑lépésre útmutatóval. |
 | [Word dokumentum összefoglalása helyi LLM-mel – C# útmutató](./summarize-word-document-with-local-llm-c-guide/) | Tanulja meg, hogyan használhat helyi nagy nyelvi modellt a Word dokumentumok összefoglalásához C#-ban az Aspose.Words segítségével. |
+| [Hogyan ellenőrizze a nyelvtant Word dokumentumokban – Teljes C# útmutató](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Ismerje meg, hogyan használhatja az Aspose.Words for .NET-et a Word dokumentumok nyelvtani ellenőrzésére C#-ban, lépésről lépésre. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

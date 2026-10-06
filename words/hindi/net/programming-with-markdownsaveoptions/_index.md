@@ -75,12 +75,13 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [DOCX को मार्कडाउन में बदलें – Aspose.Words के साथ पूर्ण गाइड](./convert-docx-to-markdown-with-aspose-words-complete-guide/) | Aspose.Words का उपयोग करके DOCX फ़ाइलों को मार्कडाउन में परिवर्तित करने की पूरी प्रक्रिया, कोड उदाहरण और सेटिंग्स के साथ। |
 | [Word को Markdown के रूप में सहेजें – DOCX को बदलने और छवियों को निकालने की पूर्ण गाइड](./save-word-as-markdown-complete-guide-to-convert-docx-and-ext/) | DOCX फ़ाइल को Markdown में बदलें और छवियों को निकालें, चरण‑दर‑चरण पूर्ण गाइड। |
 
+| [Word को Markdown में बदलें – इमेज एक्सट्रैक्शन के साथ पूर्ण गाइड](./convert-word-to-markdown-full-guide-with-image-extraction/) | इमेज एक्सट्रैक्शन के साथ Word को Markdown में बदलने की पूरी गाइड। C# में चरण‑दर‑स्टेप प्रक्रिया। |
+| [docx को markdown में बदलें – लाइन‑ब्रेक संरक्षण के साथ पूर्ण गाइड](./convert-docx-to-markdown-complete-guide-with-line-break-pres/) | docx फ़ाइल को markdown में बदलते समय लाइन‑ब्रेक को संरक्षित रखने का पूर्ण चरण‑दर‑स्टेप गाइड। |
+| [Word से समीकरणों को Markdown में बदलने का तरीका – पूर्ण C# गाइड](./how-to-convert-equations-from-word-to-markdown-complete-c-gu/) | Word दस्तावेज़ में समीकरणों को Markdown में बदलने के लिए पूर्ण C# गाइड। चरण‑दर‑स्टेप निर्देश और कोड उदाहरण। |
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

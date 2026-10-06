@@ -38,6 +38,7 @@ Bu eğitimler sayesinde, Aspose.Words for .NET'in işlevselliklerinden tam olara
 | [Word'den LaTeX Dışa Aktarma – Word'ü TXT'ye Dönüştürme](./how-to-export-latex-from-word-convert-word-to-txt/) | Bu eğitim, Aspose.Words for .NET ile Word belgelerinden LaTeX'e dışa aktarma ve TXT'ye dönüştürme adımlarını gösterir. |
 | [Belgeyi TXT Olarak Kaydet – Word Denklemlerini LaTeX'e Dışa Aktar](./save-document-as-txt-export-word-equations-to-latex/) | Aspose.Words for .NET kullanarak Word belgelerindeki denklemleri LaTeX formatına dönüştürerek TXT dosyası olarak kaydetmeyi öğrenin. |
 | [docx'i txt olarak kaydet – Denklemleri LaTeX'e dışa aktar](./save-docx-as-txt-export-equations-to-latex/) | Bu eğitimde Aspose.Words for .NET kullanarak docx dosyasını txt formatına kaydederken denklemleri LaTeX biçiminde dışa aktarmayı öğrenin. |
+| [docx dosyasını txt olarak kaydet – Tam C# Kılavuzu](./save-docx-as-txt-complete-c-guide/) | Aspose.Words for .NET kullanarak docx dosyalarını txt formatına dönüştürmeyi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

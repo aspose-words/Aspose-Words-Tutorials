@@ -50,6 +50,7 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [Word Belgelerini Özetleme – Tam C# Rehberi](./how-to-summarize-word-documents-complete-c-guide/) | Aspose.Words for .NET ve C# kullanarak Word belgelerini etkili bir şekilde özetlemeyi adım adım öğrenin. |
 | [C# ile DOCX Dosyalarındaki Dilbilgisi Hatalarını Düzeltme – Tam Adım‑Adım Kılavuz](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | C# kullanarak DOCX dosyalarındaki dilbilgisi hatalarını otomatik olarak tespit edip düzeltmeyi öğrenin. |
 | [Yerel LLM ile Word Belgesini Özetleme – C# Kılavuzu](./summarize-word-document-with-local-llm-c-guide/) | Yerel LLM'yi kullanarak C# ile Word belgelerini hızlıca özetlemeyi öğrenin. |
+| [Word Belgelerinde Dilbilgisi Kontrolü – Tam C# Rehberi](./how-to-check-grammar-in-word-documents-complete-c-guide/) | C# kullanarak Aspose.Words ile Word belgelerindeki dilbilgisi hatalarını nasıl tespit edip düzelteceğinizi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

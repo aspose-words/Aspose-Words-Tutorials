@@ -49,6 +49,7 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Jak podsumować dokumenty Word – Kompletny przewodnik C#](./how-to-summarize-word-documents-complete-c-guide/) | Pełny przewodnik w C#, jak używać Aspose.Words do podsumowywania dokumentów Word przy pomocy AI. |
 | [Jak naprawić gramatykę w plikach DOCX przy użyciu C# – Pełny przewodnik krok po kroku](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Dowiedz się, jak używać C# i Aspose.Words, aby automatycznie poprawiać błędy gramatyczne w dokumentach DOCX. |
 | [Podsumowanie dokumentu Word przy użyciu lokalnego LLM – przewodnik C#](./summarize-word-document-with-local-llm-c-guide/) | Dowiedz się, jak używać lokalnego modelu LLM w C# do podsumowywania dokumentów Word przy użyciu Aspose.Words. |
+| [Jak sprawdzić gramatykę w dokumentach Word – Kompletny przewodnik C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Szybko sprawdź i popraw gramatykę w dokumentach Word przy użyciu Aspose.Words for .NET i C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

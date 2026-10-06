@@ -55,6 +55,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Aspose Load Options – Konversi DOCX ke Markdown & PDF](./aspose-load-options-convert-docx-to-markdown-pdf/) Pelajari cara mengonversi file DOCX menjadi format Markdown dan PDF menggunakan Aspose Load Options dalam .NET. |
 | [Cara Memulihkan File DOCX di C# – Panduan Langkah demi Langkah](./how-to-recover-docx-files-in-c-step-by-step-guide/) Pelajari cara memulihkan file DOCX yang rusak menggunakan C# dengan panduan langkah demi langkah. |
 | [Pulihkan DOCX Rusak dengan Aspose.Words – Panduan Lengkap C#](./recover-corrupted-docx-with-aspose-words-complete-c-guide/) | Pelajari cara memulihkan file DOCX yang rusak menggunakan Aspose.Words dengan panduan lengkap C#. |
+| [Muat dokumen Word yang rusak – Deteksi Masalah & Pulihkan DOCX yang rusak di C#](./load-corrupted-word-document-detect-issues-recover-damaged-d/) | Pelajari cara memuat dokumen Word yang rusak, mendeteksi masalah, dan memulihkan file DOCX yang rusak menggunakan Aspose.Words di C#. Bahasa Indonesia: |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

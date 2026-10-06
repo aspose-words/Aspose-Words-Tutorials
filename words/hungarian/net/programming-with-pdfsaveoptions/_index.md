@@ -62,6 +62,7 @@ Akár Word dokumentumokat szeretne PDF formátumba konvertálni online terjeszt�
 | [DOCX konvertálása PDF-be – Teljes útmutató a hozzáférhető PDF-ekhez](./convert-docx-to-pdf-complete-guide-for-accessible-pdfs/) | Ismerje meg, hogyan konvertálhat DOCX fájlokat PDF-be úgy, hogy a PDF hozzáférhető legyen a fogyatékkal élők számára. |
 | [Akadálymentes PDF létrehozása Word-ből C#‑ban – Lépésről‑lépésre útmutató](./create-accessible-pdf-from-word-in-c-step-by-step-guide/) | Ismerje meg, hogyan készíthet hozzáférhető PDF-et Word dokumentumokból C#‑ban az Aspose.Words for .NET segítségével. |
 | [Akadálymentes PDF létrehozása Wordből Aspose segítségével – Lépés‑ről‑lépésre útmutató](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) | Tanulja meg, hogyan hozhat létre akadálymentes PDF-et Word dokumentumból az Aspose.Words for .NET használatával, részletes lépésekkel. |
+| [PDF/UA létrehozása Word-dokumentumból C#‑ban – Lépésről lépésre útmutató](./create-pdf-ua-from-word-in-c-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre PDF/UA fájlokat Word-dokumentumokból C# nyelven az Aspose.Words for .NET segítségével, részletes lépésekkel. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

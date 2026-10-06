@@ -65,6 +65,7 @@ Görüntü kalitesi seçeneklerini ayarlamayı, görüntüler için sıkıştır
 
 | [C# ile Word'ten Erişilebilir PDF Oluşturma – Adım Adım Kılavuz](./create-accessible-pdf-from-word-in-c-step-by-step-guide/) | Aspose.Words for .NET kullanarak Word belgelerinden erişilebilir PDF dosyaları oluşturmayı adım adım öğrenin. |
 | [Aspose ile Word'den Erişilebilir PDF Oluşturma – Adım Adım Kılavuz](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) | Aspose.Words for .NET kullanarak Word belgesinden erişilebilir PDF oluşturmayı adım adım öğrenin. |
+| [C# ile Word'den PDF UA Oluşturma – Adım Adım Kılavuz](./create-pdf-ua-from-word-in-c-step-by-step-guide/) | Aspose.Words for .NET kullanarak C# ile Word belgelerinden PDF/UA standardına uygun dosyalar oluşturmayı öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

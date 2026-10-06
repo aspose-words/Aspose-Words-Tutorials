@@ -49,6 +49,7 @@ Infine, non dimenticare di dare un'occhiata al nostro [Lavorare con le opzioni d
 | [Come controllare la grammatica in DOCX con Aspose.Words – usa gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Scopri come utilizzare Aspose.Words per .NET e GPT‑4 Turbo per verificare e correggere la grammatica nei file DOCX in modo semplice. |
 | [Come controllare la grammatica in Word con Aspose.Words AI – Guida completa](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Scopri come utilizzare l'AI di Aspose.Words per verificare e correggere la grammatica nei documenti Word in modo rapido ed efficace. |
 | [Come riassumere i documenti Word – Guida completa C#](./how-to-summarize-word-documents-complete-c-guide/) | Scopri come riassumere documenti Word usando Aspose.Words per .NET con una guida completa in C#. |
+| [Come controllare la grammatica nei documenti Word – Guida completa C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Scopri come utilizzare Aspose.Words per .NET per verificare la grammatica nei documenti Word con una guida passo‑passo in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

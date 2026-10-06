@@ -38,6 +38,7 @@ Dankzij deze tutorials kunt u de functionaliteiten van Aspose.Words voor .NET op
 | [Hoe LaTeX vanuit Word exporteren – Converteer Word naar TXT](./how-to-export-latex-from-word-convert-word-to-txt/) | Leer hoe u LaTeX-code uit een Word-document exporteert en opslaat als TXT-bestand met Aspose.Words voor .NET. |
 | [Document opslaan als TXT – Exporteer Word-vergelijkingen naar LaTeX](./save-document-as-txt-export-word-equations-to-latex/) | Leer hoe u Word-vergelijkingen exporteert naar LaTeX bij het opslaan als TXT. |
 | [Docx opslaan als txt – Vergelijkingen exporteren naar LaTeX](./save-docx-as-txt-export-equations-to-latex/) | Leer hoe u een DOCX-bestand opslaat als TXT en wiskundige vergelijkingen exporteert naar LaTeX met Aspose.Words voor .NET. |
+| [Docx opslaan als txt – Complete C#-gids](./save-docx-as-txt-complete-c-guide/) | Leer hoe u een DOCX-bestand naar TXT converteert met volledige C#-code en alle TxtSave-opties. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

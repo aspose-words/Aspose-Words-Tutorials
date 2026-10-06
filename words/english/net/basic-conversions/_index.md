@@ -37,6 +37,7 @@ doc.Save("output.pdf", Aspose.Words.SaveFormat.Pdf);
 | [Word to PDF Tutorial: Convert DOCX to PDF with Aspose.Words](./word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/) | Learn how to convert DOCX to PDF using Aspose.Words for .NET with a step‑by‑step guide and code examples. |
 | [Create Accessible PDF – Convert Word to PDF](./create-accessible-pdf-convert-word-to-pdf/) | Learn how to create an accessible PDF from Word using Aspose.Words for .NET. Step‑by‑step guide with code examples. |
 | [docx to pdf tutorial – Convert Word to PDF in C#](./docx-to-pdf-tutorial-convert-word-to-pdf-in-c/) | Learn how to convert DOCX to PDF using Aspose.Words for .NET in C#. Step‑by‑step guide with code examples. |
+| [Convert DOCX to PDF – Generate Accessible PDF (PDF/UA)](./convert-docx-to-pdf-generate-accessible-pdf-pdf-ua/) | Learn how to convert DOCX to an accessible PDF (PDF/UA) using Aspose.Words for .NET. Step‑by‑step guide with code examples. |
 | [Convert Docx To Byte](./docx-to-byte/) | Learn how to convert Docx to byte array in .NET using Aspose.Words for efficient document processing. Step-by-step guide included. |  
 | [Convert Docx To Epub](./docx-to-epub/) | Convert DOCX to EPUB easily with Aspose.Words for .NET. Follow our tutorial for seamless integration into your .NET applications. |
 | [Convert Docx To Mhtml And Sending Email](./docx-to-mhtml-and-sending-email/) | Learn how to convert DOCX to MHTML and send emails using Aspose.Words for .NET in this step-by-step guide. Boost your productivity with easy automation. |

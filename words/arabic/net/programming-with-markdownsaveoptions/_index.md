@@ -120,6 +120,12 @@
 
 ### [تحويل docx إلى markdown باستخدام Aspose.Words – دليل كامل](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
 
+### [كيفية تحويل المعادلات من Word إلى Markdown – دليل C# كامل](./how-to-convert-equations-from-word-to-markdown-complete-c-gu/)
+
+### [تحويل Word إلى Markdown – دليل كامل مع استخراج الصور](./convert-word-to-markdown-full-guide-with-image-extraction/)
+
+### [تحويل docx إلى markdown – دليل كامل مع الحفاظ على فواصل الأسطر](./convert-docx-to-markdown-complete-guide-with-line-break-pres/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

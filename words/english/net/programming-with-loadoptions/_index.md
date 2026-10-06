@@ -67,6 +67,7 @@ class Program
 | [Recover Corrupted DOCX Files in C# – Complete Guide](./recover-corrupted-docx-files-in-c-complete-guide/) | Recover corrupted DOCX files in C# using Aspose.Words with a comprehensive step-by-step guide. |
 | [Recover Corrupted Word Files – Step‑by‑Step Guide for C# Developers](./recover-corrupted-word-files-step-by-step-guide-for-c-develo/) | Learn how to recover corrupted Word files in C# using Aspose.Words with a detailed step-by-step guide. |
 | [how to recover docx – Full Guide with Aspose.Words Recovery](./how-to-recover-docx-full-guide-with-aspose-words-recovery/) | Comprehensive guide to recover corrupted DOCX files using Aspose.Words for .NET. |
+| [Load corrupted word document – Detect Issues & Recover Damaged docx in C#](./load-corrupted-word-document-detect-issues-recover-damaged-d/) | Learn how to detect issues and recover damaged DOCX files using Aspose.Words for .NET in C#. Step-by-step guide. |
 | [Aspose Load Options – Load DOCX with Custom Font Settings](./aspose-load-options-load-docx-with-custom-font-settings/) | Learn how to load DOCX files with custom font settings using Aspose Load Options in .NET. Step-by-step guide. |
 | [How to Recover DOCX Files in C# – Complete Guide](./how-to-recover-docx-files-in-c-complete-guide/) | Step-by-step guide to recover corrupted DOCX files using Aspose.Words for .NET in C#. |
 | [Recover Damaged Word Document – Complete C# Guide](./recover-damaged-word-document-complete-c-guide/) | Step-by-step guide to recover corrupted Word documents using Aspose.Words for .NET with C#. |

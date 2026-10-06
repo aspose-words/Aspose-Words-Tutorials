@@ -25,7 +25,7 @@ PdfSaveOptions के साथ Words Processing पर Aspose.Words for .NET �
 | शीर्षक | विवरण |
 | --- | --- |
 | [विंडो टाइटलबार में दस्तावेज़ का शीर्षक प्रदर्शित करें](./display-doc-title-in-window-titlebar/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके अपने PDF के विंडो शीर्षक बार में दस्तावेज़ शीर्षक प्रदर्शित करना सीखें। |
-| [पीडीएफ रेंडर चेतावनियाँ](./pdf-render-warnings/) | .NET के लिए Aspose.Words के साथ पीडीएफ रेंडरिंग चेतावनियों से निपटने के लिए चरण-दर-चरण मार्गदर्शिका। |
+| [पीडीएफ रेंडर चेतावनियाँ](./pdf-render-warnings/) | .NET के लिए Aspose.Words के साथ पीडीएफ रेंडरिंग चेतावनियों से निपटने के लिए चरण-दर-स्टेप मार्गदर्शिका। |
 | [प्रमाणपत्र धारक का उपयोग करके पीडीएफ में डिजिटल हस्ताक्षर जोड़ें](./digitally-signed-pdf-using-certificate-holder/) | .NET के लिए Aspose.Words का उपयोग करके अपनी PDF फ़ाइलों को डिजिटल हस्ताक्षर से सुरक्षित करें। अपनी PDF में आसानी से डिजिटल हस्ताक्षर जोड़ने के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें। |
 | [पीडीएफ दस्तावेज़ में फ़ॉन्ट एम्बेड करें](./embedded-all-fonts/) | इस विस्तृत, चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके PDF दस्तावेज़ों में आसानी से फ़ॉन्ट एम्बेड करें। सभी डिवाइस पर एक समान उपस्थिति सुनिश्चित करें। |
 | [पीडीएफ दस्तावेज़ में सबसेट फ़ॉन्ट एम्बेड करें](./embedded-subset-fonts/) .NET के लिए Aspose.Words का उपयोग करके केवल आवश्यक फ़ॉन्ट उपसमूह एम्बेड करके PDF फ़ाइल का आकार कम करें। अपने PDF को कुशलतापूर्वक अनुकूलित करने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें। |
@@ -64,6 +64,7 @@ PdfSaveOptions के साथ Words Processing पर Aspose.Words for .NET �
 | [C# में Word से PDF/UA बनाएं – पूर्ण गाइड](./create-pdf-ua-from-word-in-c-complete-guide/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ को PDF/UA में बदलने की पूरी प्रक्रिया सीखें। |
 | [Aspose के साथ Word से सुलभ PDF बनाएं – चरण‑दर‑चरण गाइड](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) | Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ से सुलभ PDF बनाने की प्रक्रिया को चरण‑दर‑चरण सीखें। |
  
+| [C# में Word से PDF UA बनाएं – चरण‑दर‑चरण गाइड](./create-pdf-ua-from-word-in-c-step-by-step-guide/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ को PDF UA में बदलने की चरण‑दर‑चरण गाइड। |
 
 | [C# में Word से सुलभ PDF बनाएं – चरण-दर-चरण गाइड](./create-accessible-pdf-from-word-in-c-step-by-step-guide/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ से सुलभ PDF बनाने की पूरी प्रक्रिया सीखें। |
 {{< /blocks/products/pf/tutorial-page-section >}}

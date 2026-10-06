@@ -39,7 +39,7 @@ Por fim, não se esqueça de conferir nosso [Trabalhando com opções de resumo]
 | Título | Descrição |
 | --- | --- |
 | [Trabalhando com modelo de IA](./working-with-ai-model/) | Aprenda a usar o Aspose.Words para .NET para resumir documentos com IA. Passos simples para aprimorar o gerenciamento de documentos. |
-| [Trabalhando com o modelo de IA do Google](./working-with-google-ai-model/) Melhore o processamento de seus documentos com o Aspose.Words para .NET e o Google AI para criar resumos concisos sem esforço. |
+| [Trabalhando com o modelo de IA do Google](./working-with-google-ai-model/) | Melhore o processamento de seus documentos com o Aspose.Words para .NET e o Google AI para criar resumos concisos sem esforço. |
 | [Trabalhando com o modelo de IA aberta](./working-with-open-ai-model/) | Desbloqueie a sumarização eficiente de documentos usando o Aspose.Words para .NET com os poderosos modelos da OpenAI. Mergulhe neste guia completo agora mesmo. |
 | [Trabalhando com opções de resumo](./working-with-summarize-options/) | Aprenda a resumir documentos do Word de forma eficaz usando o Aspose.Words para .NET com nosso guia passo a passo sobre integração de modelos de IA para obter insights rápidos. |
 | [Como corrigir gramática em arquivos DOCX com C# – Guia completo passo a passo](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Aprenda a identificar e corrigir erros gramaticais em documentos DOCX usando C# e Aspose.Words, com instruções detalhadas passo a passo. |
@@ -50,6 +50,7 @@ Por fim, não se esqueça de conferir nosso [Trabalhando com opções de resumo]
 | [Como Verificar Gramática em C# Usando um LLM Local](./how-to-check-grammar-in-c-using-a-local-llm/) | Aprenda a usar um LLM local em C# para corrigir gramática em documentos Word com Aspose.Words. |
 | [Resumir documento Word com IA – OpenAI vs Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | Compare a sumarização de documentos Word usando OpenAI e Gemini com Aspose.Words para .NET. |
 | [Como resumir documentos Word – Guia completo em C#](./how-to-summarize-word-documents-complete-c-guide/) | Aprenda passo a passo a resumir documentos Word usando Aspose.Words e C#, com exemplos completos e práticas recomendadas. |
+| [Como Verificar Gramática em Documentos Word – Guia Completo em C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Aprenda a usar Aspose.Words para .NET e C# para detectar e corrigir erros gramaticais em documentos Word de forma automatizada. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

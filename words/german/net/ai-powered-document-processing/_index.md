@@ -50,6 +50,7 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [Wie man Word-Dokumente zusammenfasst – Vollständiger C#-Leitfaden](./how-to-summarize-word-documents-complete-c-guide/) | Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words für .NET und C# effizient zusammenfassen. |
 | [So beheben Sie Grammatikfehler in DOCX-Dateien mit C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Erfahren Sie, wie Sie Grammatikfehler in DOCX-Dateien mit C# automatisch korrigieren – detaillierte Schritt‑für‑Schritt‑Anleitung. |
 | [Word-Dokument mit lokalem LLM zusammenfassen – C#‑Leitfaden](./summarize-word-document-with-local-llm-c-guide/) | Erfahren Sie, wie Sie ein Word-Dokument mit einem lokalen LLM in C# zusammenfassen – kompakte Schritt‑für‑Schritt‑Anleitung. |
+| [Wie man Grammatik in Word-Dokumenten prüft – Vollständiger C#-Leitfaden](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET die Grammatik in Word-Dokumenten prüfen – Schritt‑für‑Schritt in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

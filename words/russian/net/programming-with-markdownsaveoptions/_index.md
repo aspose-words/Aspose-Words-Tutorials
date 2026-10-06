@@ -73,6 +73,9 @@
 | [Пользовательская папка изображений – Конвертировать Word в Markdown с Aspose.Words](./custom-image-folder-convert-word-to-markdown-with-aspose-wor/) | Узнайте, как задать пользовательскую папку для изображений при конвертации Word в Markdown с помощью Aspose.Words для .NET. |
 | [Конвертировать docx в markdown с Aspose.Words – Полное руководство](./convert-docx-to-markdown-with-aspose-words-complete-guide/) | Полное руководство по конвертации DOCX в Markdown с использованием Aspose.Words для .NET. |
 | [Сохранить Word как Markdown – Полное руководство по конвертации DOCX и извлечению изображений](./save-word-as-markdown-complete-guide-to-convert-docx-and-ext/) | Подробное руководство по сохранению документов Word в Markdown с конвертацией DOCX и извлечением изображений с помощью Aspose.Words для .NET. |
+| [Конвертировать Word в Markdown – Полное руководство с извлечением изображений](./convert-word-to-markdown-full-guide-with-image-extraction/) | Полное руководство по конвертации Word в Markdown с извлечением изображений с использованием Aspose.Words для .NET. |
+| [Как конвертировать уравнения из Word в Markdown – Полное руководство C#](./how-to-convert-equations-from-word-to-markdown-complete-c-gu/) | Конвертируйте уравнения из Word в Markdown с помощью Aspose.Words для .NET, используя C#. |
+| [Конвертировать docx в markdown – Полное руководство с сохранением разрывов строк](./convert-docx-to-markdown-complete-guide-with-line-break-pres/) | Конвертируйте документы DOCX в Markdown, сохраняя разрывы строк, с помощью Aspose.Words для .NET. Подробное пошаговое руководство. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

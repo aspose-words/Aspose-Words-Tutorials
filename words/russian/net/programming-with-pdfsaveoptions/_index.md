@@ -64,6 +64,7 @@
 
 | [Создать доступный PDF из Word на C# – пошаговое руководство](./create-accessible-pdf-from-word-in-c-step-by-step-guide/) | Узнайте, как создать доступный PDF из документа Word с помощью C# и Aspose.Words, следуя пошаговому руководству. |
 | [Создание доступного PDF из Word с Aspose – пошаговое руководство](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) | Узнайте, как с помощью Aspose.Words for .NET создать PDF, соответствующий требованиям доступности, следуя пошаговому руководству. |
+| [Создание PDF UA из Word на C# – пошаговое руководство](./create-pdf-ua-from-word-in-c-step-by-step-guide/) | Узнайте, как создать PDF/UA из документа Word с помощью Aspose.Words для .NET, следуя пошаговому руководству на C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -37,6 +37,8 @@ Pelajari cara mengonversi file DOCX ke Markdown dengan panduan lengkap langkah d
 Pelajari cara mengonversi file DOCX ke Markdown dengan panduan lengkap C# termasuk persamaan LaTeX.
 ### [Simpan docx sebagai markdown – Panduan Lengkap C# dengan Ekstraksi Gambar](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
 Pelajari cara mengonversi file DOCX ke Markdown lengkap dengan ekstraksi gambar menggunakan C#.
+### [Konversi Word ke Markdown – Panduan Lengkap dengan Ekstraksi Gambar](./convert-word-to-markdown-full-guide-with-image-extraction/)
+Pelajari cara mengonversi dokumen Word ke Markdown dengan ekstraksi gambar lengkap menggunakan C#.
 ### [Cara Mengekspor Markdown dari Word – Panduan Lengkap C#](./how-to-export-markdown-from-word-complete-c-guide/)
 Pelajari cara mengekspor dokumen Word ke Markdown dengan panduan lengkap C#.
 ### [Cara Menyimpan Markdown dari DOCX – Panduan Langkah‑demi‑Langkah](./how-to-save-markdown-from-docx-step-by-step-guide/)
@@ -123,6 +125,10 @@ Pelajari cara mengatur folder gambar khusus saat mengonversi dokumen Word ke Mar
 Pelajari cara mengonversi file DOCX ke format Markdown menggunakan Aspose.Words dengan panduan lengkap.
 ### [Simpan Word sebagai Markdown – Panduan Lengkap untuk Mengonversi DOCX dan Mengekstrak Gambar](./save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 Pelajari cara mengonversi DOCX ke Markdown lengkap dengan ekstraksi gambar menggunakan C#.
+### [Cara Mengonversi Persamaan dari Word ke Markdown – Panduan Lengkap C#](./how-to-convert-equations-from-word-to-markdown-complete-c-gu/)
+Pelajari cara mengonversi persamaan dari dokumen Word ke format Markdown dengan panduan lengkap C#.
+### [Konversi docx ke markdown – Panduan Lengkap dengan Preservasi Pemutusan Baris](./convert-docx-to-markdown-complete-guide-with-line-break-pres/)
+Pelajari cara mengonversi file DOCX ke format Markdown sambil mempertahankan pemutusan baris menggunakan C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

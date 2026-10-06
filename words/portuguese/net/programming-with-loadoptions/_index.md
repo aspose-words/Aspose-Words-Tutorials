@@ -22,12 +22,12 @@ Nestes tutoriais, você aprenderá a usar LoadOptions para carregar documentos d
  ## Tutoriais
 | Título | Descrição |
 | --- | --- |
-| [Atualizar campos sujos em documento do Word](./update-dirty-fields/) Atualize campos sujos em seus documentos do Word sem esforço usando o Aspose.Words para .NET com este guia passo a passo abrangente. |
+| [Atualizar campos sujos em documento do Word](./update-dirty-fields/) | Atualize campos sujos em seus documentos do Word sem esforço usando o Aspose.Words para .NET com este guia passo a passo abrangente. |
 | [Carregar criptografado no documento do Word](./load-encrypted-document/) | Aprenda a carregar e salvar documentos criptografados do Word usando o Aspose.Words para .NET. Proteja seus documentos com novas senhas facilmente. Guia passo a passo incluído. |
 | [Converter Forma em Matemática de Escritório](./convert-shape-to-office-math/) | Aprenda a converter formas para o Office Math em documentos do Word usando o Aspose.Words para .NET com nosso guia. Aprimore a formatação do seu documento sem esforço. |
 | [Definir versão do Ms Word](./set-ms-word-version/) | Aprenda a definir versões do MS Word usando o Aspose.Words para .NET com nosso guia detalhado. Perfeito para desenvolvedores que buscam otimizar a manipulação de documentos. |
 | [Usar pasta temporária em documento do Word](./use-temp-folder/) | Aprenda como melhorar o desempenho dos seus aplicativos .NET usando uma pasta temporária ao carregar documentos do Word com o Aspose.Words. |
-| [Aviso de retorno de chamada em documento do Word](./warning-callback/) Aprenda a detectar e lidar com avisos em documentos do Word usando o Aspose.Words para .NET com nosso guia passo a passo. Garanta um processamento robusto de documentos. |
+| [Aviso de retorno de chamada em documento do Word](./warning-callback/) | Aprenda a detectar e lidar com avisos em documentos do Word usando o Aspose.Words para .NET com nosso guia passo a passo. Garanta um processamento robusto de documentos. |
 | [Carregar com codificação em documento do Word](./load-with-encoding/) | Aprenda a carregar um documento do Word com codificação específica usando o Aspose.Words para .NET. Guia passo a passo com explicações detalhadas. |
 | [Pular imagens em PDF](./skip-pdf-images/) | Aprenda como pular imagens ao carregar documentos PDF usando o Aspose.Words para .NET. Siga este guia passo a passo para uma extração de texto perfeita. |
 | [Converter Metafiles para PNG](./convert-metafiles-to-png/) | Converta facilmente metarquivos para PNG em documentos do Word usando o Aspose.Words para .NET com este tutorial passo a passo. Simplifique seu gerenciamento de documentos. |
@@ -55,6 +55,7 @@ Nestes tutoriais, você aprenderá a usar LoadOptions para carregar documentos d
 | [Recuperar DOCX Corrompido com Aspose.Words – Guia Completo em C#](./recover-corrupted-docx-with-aspose-words-complete-c-guide/) | Aprenda a recuperar arquivos DOCX corrompidos usando Aspose.Words com um guia completo em C#. Passo a passo detalhado. |
 | [Como recuperar docx – Guia completo com Aspose.Words Recovery](./how-to-recover-docx-full-guide-with-aspose-words-recovery/) | Aprenda passo a passo a recuperar arquivos DOCX corrompidos usando Aspose.Words, com dicas avançadas e exemplos de código. |
 | [Como recuperar arquivos DOCX com Aspose.Words – Guia passo a passo](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/) | Aprenda a recuperar arquivos DOCX corrompidos usando Aspose.Words passo a passo. |
+| [Carregar documento Word corrompido – Detectar problemas e recuperar docx danificado em C#](./load-corrupted-word-document-detect-issues-recover-damaged-d/) | Recupere documentos DOCX corrompidos detectando problemas e restaurando o conteúdo usando Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

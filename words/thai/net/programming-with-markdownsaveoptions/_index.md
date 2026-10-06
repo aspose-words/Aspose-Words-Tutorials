@@ -31,6 +31,9 @@
 
 ### [วิธีใช้ Markdown: แปลง DOCX เป็น Markdown พร้อมสมการ LaTeX](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/)
 
+### [วิธีแปลงสมการจาก Word เป็น Markdown – คู่มือเต็ม C#](./how-to-convert-equations-from-word-to-markdown-complete-c-gu/)
+เรียนรู้วิธีแปลงสมการจาก Word เป็น Markdown อย่างละเอียดด้วย C#
+
 ### [แปลง docx เป็น markdown – คู่มือขั้นตอนโดยขั้นตอน C#](./convert-docx-to-markdown-step-by-step-c-guide/)
 
 ### [แปลง docx เป็น markdown ใน C# – คู่มือขั้นตอนโดยขั้นตอน](./convert-docx-to-markdown-in-c-step-by-step-guide/)
@@ -43,6 +46,7 @@
 ### [ส่งออก docx เป็น markdown ใน C# – คู่มือเต็ม](./export-docx-to-markdown-in-c-complete-guide/)
 เรียนรู้วิธีส่งออกไฟล์ docx เป็น markdown ด้วย C# อย่างละเอียดด้วย Aspose.Words สำหรับ .NET
 ### [บันทึก docx เป็น markdown – คู่มือ C# สมบูรณ์พร้อมการสกัดรูปภาพ](./save-docx-as-markdown-complete-c-guide-with-image-extraction/)
+### [แปลง Word เป็น Markdown – คู่มือเต็มพร้อมการสกัดรูปภาพ](./convert-word-to-markdown-full-guide-with-image-extraction/)
 
 ### [วิธีส่งออก Markdown จาก Word – คู่มือเต็ม C#](./how-to-export-markdown-from-word-complete-c-guide/)
 เรียนรู้ขั้นตอนการส่งออกไฟล์ Word เป็น Markdown อย่างครบถ้วนด้วย C+
@@ -143,6 +147,8 @@
 
 ### [โฟลเดอร์รูปภาพแบบกำหนดเอง – แปลง Word เป็น Markdown ด้วย Aspose.Words](./custom-image-folder-convert-word-to-markdown-with-aspose-wor/)
 เรียนรู้วิธีตั้งค่าโฟลเดอร์รูปภาพแบบกำหนดเองเมื่อแปลงไฟล์ Word เป็น Markdown ด้วย Aspose.Words
+
+### [แปลง docx เป็น markdown – คู่มือเต็มพร้อมการรักษาการขึ้นบรรทัดใหม่](./convert-docx-to-markdown-complete-guide-with-line-break-pres/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

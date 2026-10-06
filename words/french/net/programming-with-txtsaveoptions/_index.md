@@ -39,6 +39,7 @@ Grâce à ces tutoriels, vous pourrez exploiter pleinement les fonctionnalités 
 | [Enregistrer le document au format TXT – Exporter les équations Word vers LaTeX](./save-document-as-txt-export-word-equations-to-latex/) | Apprenez à enregistrer un document Word au format TXT tout en exportant les équations vers LaTeX avec Aspose.Words pour .NET. |
 | [Enregistrer docx en txt – Exporter les équations en LaTeX](./save-docx-as-txt-export-equations-to-latex/) | Apprenez à enregistrer un document DOCX au format TXT tout en exportant les équations au format LaTeX avec Aspose.Words pour .NET. |
 
+| [Enregistrer un docx en txt – Guide complet C#](./save-docx-as-txt-complete-c-guide/) | Apprenez à convertir un fichier DOCX en TXT avec Aspose.Words pour .NET en suivant ce guide complet en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

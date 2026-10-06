@@ -50,6 +50,7 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Cách tóm tắt tài liệu Word – Hướng dẫn C# đầy đủ](./how-to-summarize-word-documents-complete-c-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET với C# để tóm tắt tài liệu Word một cách hiệu quả. |
 | [Cách sửa lỗi ngữ pháp trong tệp DOCX bằng C# – Hướng dẫn chi tiết từng bước](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET để tự động sửa lỗi ngữ pháp trong tài liệu DOCX bằng C#. |
 | [Tóm tắt tài liệu Word bằng LLM cục bộ – Hướng dẫn C#](./summarize-word-document-with-local-llm-c-guide/) | Khám phá cách sử dụng Aspose.Words cho .NET với LLM cục bộ để tóm tắt tài liệu Word bằng C# một cách nhanh chóng và hiệu quả. |
+| [Cách Kiểm Tra Ngữ Pháp trong Tài Liệu Word – Hướng Dẫn C# Đầy Đủ](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET để kiểm tra ngữ pháp trong tài liệu Word bằng C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

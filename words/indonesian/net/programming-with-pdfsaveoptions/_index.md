@@ -63,6 +63,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Mengonversi docx ke pdf – Panduan Lengkap untuk PDF yang Aksesibel](./convert-docx-to-pdf-complete-guide-for-accessible-pdfs/) | Panduan lengkap untuk mengonversi file DOCX menjadi PDF yang memenuhi standar aksesibilitas, termasuk tag, teks alternatif, dan struktur dokumen. |
 | [Buat PDF yang dapat diakses dari Word dalam C# – Panduan Langkah demi Langkah](./create-accessible-pdf-from-word-in-c-step-by-step-guide/) | Pelajari cara menghasilkan PDF yang ramah aksesibilitas dari dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh kode C#. |
 | [Buat PDF Aksesibel dari Word dengan Aspose – Panduan Langkah demi Langkah](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) | Pelajari cara membuat PDF yang dapat diakses dari dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. |
+| [Buat PDF UA dari Word di C# – Panduan Langkah demi Langkah](./create-pdf-ua-from-word-in-c-step-by-step-guide/) | Pelajari cara membuat PDF/UA dari dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh kode C# langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

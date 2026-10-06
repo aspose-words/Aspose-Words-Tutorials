@@ -50,6 +50,7 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Samenvatten van Word-document met AI – OpenAI vs Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | Vergelijk hoe OpenAI en Gemini Word-documenten samenvatten met AI in Aspose.Words voor .NET. |
 | [Hoe grammatica in DOCX-bestanden te repareren met C# – Volledige stapsgewijze handleiding](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Leer hoe u grammaticale fouten in DOCX-bestanden automatisch corrigeert met C# en Aspose.Words. |
 | [Samenvatten van Word-document met lokale LLM – C#-gids](./summarize-word-document-with-local-llm-c-guide/) | Leer hoe u een Word-document lokaal samenvat met een LLM in C# met Aspose.Words. |
+| [Hoe controleer je grammatica in Word-documenten – Complete C#-gids](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Leer hoe u met Aspose.Words voor .NET en C# grammatica in Word-documenten controleert en corrigeert. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

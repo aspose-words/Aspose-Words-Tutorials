@@ -38,6 +38,8 @@
 | [Как экспортировать LaTeX из Word – преобразовать Word в TXT](./how-to-export-latex-from-word-convert-word-to-txt/) | Узнайте, как экспортировать содержимое Word в формат LaTeX, используя сохранение в TXT с помощью Aspose.Words для .NET. |
 | [Сохранить документ как TXT – Экспорт уравнений Word в LaTeX](./save-document-as-txt-export-word-equations-to-latex/) | Узнайте, как экспортировать уравнения из документов Word в формат LaTeX при сохранении в TXT с помощью Aspose.Words для .NET. |
 | [Сохранить docx в txt – экспорт уравнений в LaTeX](./save-docx-as-txt-export-equations-to-latex/) | Узнайте, как сохранять документы DOCX в формате TXT с экспортом уравнений в LaTeX, используя Aspose.Words для .NET. |
+| [Сохранить docx как txt – Полное руководство C#](./save-docx-as-txt-complete-c-guide/) | Узнайте, как полностью преобразовать файлы docx в txt с помощью Aspose.Words для .NET, используя C#. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -49,6 +49,7 @@
 | [Πώς να συνοψίσετε έγγραφα Word – Πλήρης οδηγός C#](./how-to-summarize-word-documents-complete-c-guide/) | Μάθετε πώς να δημιουργείτε περιλήψεις εγγράφων Word χρησιμοποιώντας Aspose.Words για .NET με C#. |
 | [Πώς να διορθώσετε τη γραμματική σε αρχεία DOCX με C# – Πλήρης οδηγός βήμα‑βήμα](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Μάθετε πώς να διορθώσετε γραμματικά λάθη σε έγγραφα DOCX χρησιμοποιώντας C# και Aspose.Words, ακολουθώντας αναλυτικά βήματα. |
 | [Σύνοψη εγγράφου Word με τοπικό LLM – Οδηγός C#](./summarize-word-document-with-local-llm-c-guide/) | Μάθετε πώς να συνοψίζετε έγγραφα Word με τοπικό LLM σε C# χρησιμοποιώντας το Aspose.Words. |
+| [Πώς να Ελέγξετε τη Γραμματική σε Έγγραφα Word – Πλήρης Οδηγός C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Μάθετε πώς να ελέγχετε τη γραμματική σε έγγραφα Word χρησιμοποιώντας Aspose.Words για .NET με οδηγίες C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
