@@ -1,0 +1,7 @@
+Title: Convert markdown to docx in Java – step‑by‑step guide
+Slug: convert-markdown-to-docx-in-java-step-by-step-guide
+Category: document-converting
+ProcessedDate: 2026-08-14T11:14:10.871907
+SourceRepo: AI Search API
+Keywords: convert markdown to docx, convert markdown file to word document
+PRNumber: 252

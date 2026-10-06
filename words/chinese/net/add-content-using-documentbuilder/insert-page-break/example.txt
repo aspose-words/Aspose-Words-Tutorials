@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: 本教程展示了如何使用 Aspose.Words 的 Document 和 DocumentBuilder 在 Word 文档中插入分页符。
+//ExStepSummary:0: 创建一个 Document 对象和一个用于添加内容的 DocumentBuilder。
+//ExStepSummary:1: 写入第一页的文本并插入分页符，使后续内容在新页面开始。
+//ExStepSummary:2: 写入第二页的文本并再插入一个分页符，以启动第三页。
+//ExStepSummary:3: 写入第三页的文本，完成三页文档。
+//ExStepSummary:4: 将组装好的文档保存为指定目录下的 .docx 文件。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("This is page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:2-
+builder.Writeln("This is page 2.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+builder.Writeln("This is page 3.");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

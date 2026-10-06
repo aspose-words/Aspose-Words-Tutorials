@@ -45,7 +45,7 @@ Plongeons dans les prérequis dont vous aurez besoin avant de commencer à crée
 Avant de commencer, assurez‑vous de disposer de ce qui suit :
 
 ### Bibliothèques requises
-- Bibliothèque Aspose.Words pour Java (version 25.3 ou ultérieure).
+- Bibliothèque Aspose.Words for Java (version 25.3 ou ultérieure).
 
 ### Configuration de l’environnement
 - Un Java Development Kit (JDK) installé sur votre machine.
@@ -74,6 +74,7 @@ implementation 'com.aspose:aspose-words:25.3'
 ```
 
 ### Acquisition de licence
+Pour débloquer toutes les fonctionnalités, obtenez une licence :
 
 Pour exploiter pleinement Aspose.Words, obtenez une licence :
 1. **Essai gratuit** : téléchargez et utilisez la version d’essai depuis [Aspose Downloads](https://releases.aspose.com/words/java/) pour l’évaluation.  
@@ -81,6 +82,7 @@ Pour exploiter pleinement Aspose.Words, obtenez une licence :
 3. **Achat** : pour une utilisation permanente, achetez via le [Aspose Purchase Portal](https://purchase.aspose.com/buy).
 
 ### Initialisation de base
+Après avoir ajouté le JAR et appliqué une licence, initialisez la bibliothèque dans votre code Java :
 
 Une fois configuré et licencié, initialisez Aspose.Words dans votre projet Java :  
 ```java

@@ -28,6 +28,7 @@ Of u nu Word-documenten moet bewerken, maken, converteren of genereren, de tutor
 | [Sectie-einden verwijderen in een Word-document](./remove-section-breaks/) | Leer hoe u sectie-einden in Word-documenten verwijdert met Aspose.Words voor .NET. Deze gedetailleerde, stapsgewijze handleiding zorgt voor soepel documentbeheer en -bewerking.|
 | [Voetteksten verwijderen in Word-document](./remove-footers/) Leer hoe u voetteksten uit Word-documenten verwijdert met Aspose.Words voor .NET met deze uitgebreide stapsgewijze handleiding. |
 | [Inhoudsopgave verwijderen uit Word-document](./remove-table-of-contents/) | Leer hoe u de inhoudsopgave uit een Word-document verwijdert met Aspose.Words voor .NET. |
+| [Hoe LLM aanroepen in C# – Complete gids met lokaal model](./how-to-call-llm-in-c-complete-guide-with-local-model/) | Leer hoe u een lokaal LLM-model vanuit C# kunt aanroepen met deze volledige stapsgewijze handleiding. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

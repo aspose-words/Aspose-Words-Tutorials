@@ -1,0 +1,7 @@
+Title: Create New Word Document – Step‑by‑Step Guide to Adding a Structured Tag
+Slug: create-new-word-document-step-by-step-guide-to-adding-a-stru
+Category: document-manipulation
+ProcessedDate: 2026-07-20T08:28:35.315692
+SourceRepo: AI Search API
+Keywords: create new word document, how to create control
+PRNumber: 229

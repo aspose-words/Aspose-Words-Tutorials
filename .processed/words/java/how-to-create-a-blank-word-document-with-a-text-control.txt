@@ -1,0 +1,7 @@
+Title: How to create a blank Word document with a text control
+Slug: how-to-create-a-blank-word-document-with-a-text-control
+Category: document-manipulation
+ProcessedDate: 2026-09-21T16:36:31.899980
+SourceRepo: AI Search API
+Keywords: create blank word document, set placeholder text, save docx file, add plain text control
+PRNumber: 283

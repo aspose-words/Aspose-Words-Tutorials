@@ -1,0 +1,7 @@
+Title: Create blank Word document and insert a plain‑text control
+Slug: create-blank-word-document-and-insert-a-plain-text-control
+Category: using-document-elements
+ProcessedDate: 2026-09-18T10:54:38.135134
+SourceRepo: AI Search API
+Keywords: create blank word document, set placeholder text, save document as docx, insert plain text control, add placeholder name
+PRNumber: 280
