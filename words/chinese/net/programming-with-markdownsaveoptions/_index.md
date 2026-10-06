@@ -151,6 +151,9 @@
 ### [将 docx 转换为 markdown – 完整指南（保留换行）](./convert-docx-to-markdown-complete-guide-with-line-break-pres/)
 
 使用 Aspose.Words for .NET 将 docx 文档转换为 Markdown，保留换行符，提供完整的 C# 示例和步骤指南。
+### [使用 Aspose.Words 将 Word 保存为 Markdown – 完整 C# 指南](./save-word-as-markdown-with-aspose-words-full-c-guide/)
+
+使用 Aspose.Words for .NET 将 Word 文档保存为 Markdown，提供完整的 C# 示例和分步指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

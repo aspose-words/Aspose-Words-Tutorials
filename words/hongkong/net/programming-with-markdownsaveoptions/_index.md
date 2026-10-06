@@ -75,6 +75,7 @@
 | [將 Word 轉換為 Markdown – 完整指南（含圖像提取）](./convert-word-to-markdown-full-guide-with-image-extraction/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 Word 文件轉換為 Markdown，並提取圖像，提供完整步驟與範例程式碼。 |
 | [如何將方程式從 Word 轉換為 Markdown – 完整 C# 指南](./how-to-convert-equations-from-word-to-markdown-complete-c-gu/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 Word 文件中的方程式轉換為 Markdown，提供完整範例程式碼。 |
 | [將 docx 轉換為 markdown – 完整指南（保留換行）](./convert-docx-to-markdown-complete-guide-with-line-break-pres/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 DOCX 轉換為 Markdown，並保留換行。 |
+| [使用 Aspose.Words 將 Word 儲存為 Markdown – 完整 C# 指南](./save-word-as-markdown-with-aspose-words-full-c-guide/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 Word 文件儲存為 Markdown，提供完整步驟與範例程式碼。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

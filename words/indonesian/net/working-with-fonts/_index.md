@@ -42,7 +42,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Atur Folder Font Dengan Prioritas](./set-fonts-folders-with-priority/) | Pelajari cara mengatur folder font dengan prioritas dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan kami memastikan dokumen Anda ditampilkan sempurna setiap saat. Bahasa Indonesia:
 | [Atur Folder Font Jenis Benar](./set-true-type-fonts-folder/) | Pelajari cara mengatur folder True Type Fonts dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami, langkah demi langkah untuk memastikan manajemen font yang konsisten. Bahasa Indonesia:
 | [Tentukan Font Default Saat Rendering](./specify-default-font-when-rendering/) | Pelajari cara menentukan font default saat merender dokumen Word menggunakan Aspose.Words untuk .NET. Pastikan tampilan dokumen konsisten di semua platform. Bahasa Indonesia:
-| [Pengaturan Font Dengan Opsi Muat](./font-settings-with-load-options/) Pelajari cara mengelola pengaturan font dengan opsi muat di Aspose.Words untuk .NET. Panduan langkah demi langkah bagi pengembang untuk memastikan tampilan font yang konsisten dalam dokumen Word.
+| [Pengaturan Font Dengan Opsi Muat](./font-settings-with-load-options/) Pelajari cara mengelola pengaturan font dengan opsi muat di Aspose.Words untuk .NET. Panduan langkah demi langkah bagi pengembang untuk memastikan tampilan font yang konsisten dalam dokumen Word. Bahasa Indonesia:
 Bahasa Indonesia: [Atur Folder Font](./set-fonts-folder/) | Pelajari cara mengatur folder font kustom di Aspose.Words untuk .NET untuk memastikan dokumen Word Anda ditampilkan dengan benar tanpa font yang hilang. Bahasa Indonesia:
 | [Pengaturan Font Default Instance](./font-settings-default-instance/) | Dalam tutorial ini, pelajari cara mengonfigurasi pengaturan font default dalam dokumen Word dengan Aspose.Words untuk .NET. Bahasa Indonesia:
 | [Dapatkan Daftar Font yang Tersedia](./get-list-of-available-fonts/) | Temukan cara mendapatkan daftar font yang tersedia menggunakan Aspose.Words untuk .NET dalam tutorial langkah demi langkah yang terperinci ini. Tingkatkan keterampilan manajemen font Anda. Bahasa Indonesia:
@@ -69,6 +69,7 @@ Bahasa Indonesia: [Atur Folder Font](./set-fonts-folder/) | Pelajari cara mengat
 | [Cara Menangkap Peringatan di Aspose.Words – Panduan Lengkap](./how-to-capture-warnings-in-aspose-words-complete-guide/) | Pelajari cara menangkap peringatan selama proses Aspose.Words dengan panduan lengkap ini. Bahasa Indonesia:
 | [Menangani Font yang Hilang di Aspose.Words – Panduan Lengkap C#](./handle-missing-fonts-in-aspose-words-complete-c-guide/) | Pelajari cara menangani font yang hilang dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan lengkap C#. |
 
+| [Cara Menggunakan FontSettings untuk Menangani Font yang Hilang di Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | Pelajari cara menggunakan FontSettings untuk menangani font yang hilang saat memproses dokumen dengan Aspose.Words. Bahasa Indonesia: |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

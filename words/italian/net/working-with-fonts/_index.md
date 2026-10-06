@@ -69,6 +69,7 @@ Che tu voglia formattare il testo con diversi font, impostare regole di sostituz
 | [Impostazioni personalizzate dei font in C# – Carica Word e gestisci i font mancanti](./custom-font-settings-in-c-load-word-handle-missing-fonts/) | Scopri come caricare documenti Word e gestire i font mancanti con impostazioni personalizzate dei font in C# usando Aspose.Words per .NET. |
 | [Come catturare gli avvisi in Aspose.Words – Guida completa](./how-to-capture-warnings-in-aspose-words-complete-guide/) | Scopri come catturare e gestire gli avvisi generati da Aspose.Words in .NET con questa guida completa passo passo. |
 
+| [Come utilizzare FontSettings per gestire i font mancanti in Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | Scopri come gestire i font mancanti con FontSettings in Aspose.Words per .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -173,6 +173,9 @@ Aprenda a converter arquivos DOCX para Markdown usando Aspose.Words com um guia 
 ### [Converter docx para markdown – Guia completo com preservação de quebras de linha](./convert-docx-to-markdown-complete-guide-with-line-break-pres/)
 Aprenda a converter arquivos DOCX para Markdown mantendo as quebras de linha, com exemplos de código em C# usando Aspose.Words.
 
+### [Salvar Word como Markdown com Aspose.Words – Guia completo em C#](./save-word-as-markdown-with-aspose-words-full-c-guide/)
+Aprenda a salvar documentos Word como arquivos Markdown usando Aspose.Words em C#, passo a passo com exemplos de código.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

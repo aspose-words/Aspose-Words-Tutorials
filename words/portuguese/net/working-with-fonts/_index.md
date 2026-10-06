@@ -68,6 +68,7 @@ Quer você queira formatar texto com fontes diferentes, definir regras de substi
 
 | [Criar FontSettings em C# – Detectar fontes ausentes e capturar mensagens de fontes](./create-fontsettings-in-c-detect-missing-fonts-capture-font-m/) | Aprenda a criar FontSettings em C#, detectar fontes ausentes e capturar mensagens de fontes usando Aspose.Words para .NET. |
 | [Configurações de Fonte Personalizadas em C# – Carregar Word e Tratar Fontes Ausentes](./custom-font-settings-in-c-load-word-handle-missing-fonts/) | Aprenda a carregar documentos Word e lidar com fontes ausentes usando configurações de fonte personalizadas no Aspose.Words para .NET. |
+| [Como usar FontSettings para lidar com fontes ausentes no Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | Aprenda a usar FontSettings para gerenciar fontes ausentes em documentos Word com Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

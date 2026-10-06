@@ -68,6 +68,7 @@
 | [Захват предупреждений о шрифтах в C# – Полное руководство](./capture-font-warnings-in-c-complete-guide/) | Узнайте, как захватывать предупреждения о шрифтах в Aspose.Words для .NET с помощью C# в этом полном руководстве. |
 | [Как захватывать предупреждения в Aspose.Words – Полное руководство](./how-to-capture-warnings-in-aspose-words-complete-guide/) | Узнайте, как перехватывать и обрабатывать предупреждения в Aspose.Words для .NET с помощью пошагового руководства. |
 
+| [Как использовать FontSettings для обработки отсутствующих шрифтов в Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | Узнайте, как использовать FontSettings для обработки отсутствующих шрифтов в Aspose.Words для .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

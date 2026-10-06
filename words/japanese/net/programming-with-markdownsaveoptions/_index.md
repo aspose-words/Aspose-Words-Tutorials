@@ -71,6 +71,7 @@ MarkdownSaveOptions を使用した Words Processing は、Aspose.Words for .NET
 | [画像付きでWordからMarkdownを保存する方法 – 完全C#ガイド](./how-to-save-markdown-from-word-with-images-complete-c-guide/) Aspose.Words for .NET を使用して、画像を保持したまま Word 文書を Markdown にエクスポートする完全な C# ガイドです。 |
 | [Word を Markdown として保存 – Aspose.Words を使用した完全 C# ガイド](./save-word-as-markdown-complete-c-guide-with-aspose-words/) Aspose.Words for .NET を使用して、Word 文書を Markdown に保存する完全な C# ガイドです。ステップバイステップで解説します。 |
 | [Word を Markdown に変換 – 画像抽出付き完全ガイド](./convert-word-to-markdown-full-guide-with-image-extraction/) Aspose.Words for .NET を使用して、画像抽出機能付きで Word を Markdown に変換する完全な C# ガイドです。 |
+| [Aspose.Words で Word を Markdown に保存 – 完全 C# ガイド](./save-word-as-markdown-with-aspose-words-full-c-guide/) Aspose.Words for .NET を使用して、Word 文書を Markdown に変換する完全な C# ガイドです。ステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

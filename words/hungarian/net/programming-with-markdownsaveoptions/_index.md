@@ -112,6 +112,7 @@ Ismerje meg, hogyan mentheti a Word dokumentumokat Markdown formátumba, miközb
 Ismerje meg, hogyan konvertálhat egyenleteket Word dokumentumokból Markdown formátumba C#-ban az Aspose.Words for .NET segítségével.
 ### [DOCX konvertálása Markdownba – Teljes útmutató sortörés megőrzésével](./convert-docx-to-markdown-complete-guide-with-line-break-pres/)
 Ismerje meg, hogyan konvertálhat DOCX fájlokat Markdownba úgy, hogy a sortöréseket megőrizze, lépésről‑lépéses útmutatóval.
+### [Word mentése Markdownba az Aspose.Words segítségével – Teljes C# útmutató](./save-word-as-markdown-with-aspose-words-full-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

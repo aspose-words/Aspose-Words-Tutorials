@@ -150,6 +150,9 @@
 
 ### [แปลง docx เป็น markdown – คู่มือเต็มพร้อมการรักษาการขึ้นบรรทัดใหม่](./convert-docx-to-markdown-complete-guide-with-line-break-pres/)
 
+### [บันทึก Word เป็น Markdown ด้วย Aspose.Words – คู่มือเต็ม C#](./save-word-as-markdown-with-aspose-words-full-c-guide/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างละเอียดด้วย Aspose.Words สำหรับ .NET
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

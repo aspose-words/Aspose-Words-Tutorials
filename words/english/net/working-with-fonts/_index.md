@@ -84,6 +84,7 @@ doc.Save("Output.docx");
 | [Handle Missing Fonts in C# with Aspose.Words – Complete Guide](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) | Learn how to handle missing fonts in Word documents using Aspose.Words for .NET with a comprehensive C# guide. |
 | [Create FontSettings in C# – Detect Missing Fonts & Capture Font Messages](./create-fontsettings-in-c-detect-missing-fonts-capture-font-m/) | Learn how to create FontSettings in C# to detect missing fonts and capture font messages with Aspose.Words for .NET. |
 | [Custom Font Settings in C# – Load Word & Handle Missing Fonts](./custom-font-settings-in-c-load-word-handle-missing-fonts/) | Learn how to load Word documents with custom font settings in C# and handle missing fonts using Aspose.Words for .NET. |
+| [How to Use FontSettings to Handle Missing Fonts in Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | Learn how to use FontSettings to manage missing fonts in Aspose.Words for .NET with a step-by-step guide. |
 
 | [How to Capture Warnings in Aspose.Words – Complete Guide](./how-to-capture-warnings-in-aspose-words-complete-guide/) | Learn how to capture warnings in Aspose.Words for .NET with this comprehensive step-by-step guide. |
 

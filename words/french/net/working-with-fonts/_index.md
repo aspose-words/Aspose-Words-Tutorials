@@ -70,6 +70,7 @@ Que vous souhaitiez formater du texte avec différentes polices, définir des r�
 | [Paramètres de police personnalisés en C# – Charger Word et gérer les polices manquantes](./custom-font-settings-in-c-load-word-handle-missing-fonts/) | Apprenez à charger un document Word et à gérer les polices manquantes avec les paramètres de police personnalisés en C#. |
 
 | [Capturer les avertissements de police en C# – Guide complet](./capture-font-warnings-in-c-complete-guide/) | Apprenez à capturer les avertissements de police dans Aspose.Words pour .NET avec C# grâce à ce guide complet étape par étape. |
+| [Comment utiliser FontSettings pour gérer les polices manquantes dans Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | Apprenez à configurer FontSettings afin de gérer les polices manquantes lors du traitement de documents Word avec Aspose.Words pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

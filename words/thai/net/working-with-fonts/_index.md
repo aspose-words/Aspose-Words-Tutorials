@@ -60,6 +60,7 @@
 | [การตั้งค่าแบบอักษรแบบกำหนดเองใน C# – โหลด Word และจัดการแบบอักษรที่หายไป](./custom-font-settings-in-c-load-word-handle-missing-fonts/) | เรียนรู้วิธีตั้งค่าแบบอักษรแบบกำหนดเองใน C# เพื่อโหลดไฟล์ Word และจัดการกับแบบอักษรที่ขาดหาย |
 | [จัดการแบบอักษรที่หายไปใน Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](./handle-missing-fonts-in-aspose-words-complete-c-guide/) | เรียนรู้วิธีจัดการกับแบบอักษรที่หายไปในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET พร้อมตัวอย่างโค้ด C# อย่างละเอียด -
 
+| [วิธีใช้ FontSettings เพื่อจัดการแบบอักษรที่หายไปใน Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | เรียนรู้วิธีใช้ FontSettings เพื่อตรวจจับและแทนที่แบบอักษรที่หายไปในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

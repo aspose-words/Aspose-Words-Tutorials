@@ -180,6 +180,9 @@ Erfahren Sie, wie Sie mathematische Gleichungen aus Word-Dokumenten in Markdown 
 ### [DOCX in Markdown konvertieren – Vollständige Anleitung mit Zeilenumbruch‑Erhaltung](./convert-docx-to-markdown-complete-guide-with-line-break-pres/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und dabei Zeilenumbrüche exakt erhalten – komplette Schritt‑für‑Schritt‑Anleitung.
 
+### [Word als Markdown speichern mit Aspose.Words – Vollständige C#‑Anleitung](./save-word-as-markdown-with-aspose-words-full-c-guide/)
+Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words für .NET vollständig in Markdown konvertieren – komplette C#‑Anleitung.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

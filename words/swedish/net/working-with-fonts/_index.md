@@ -68,6 +68,7 @@ Oavsett om du vill formatera text med olika teckensnitt, ange regler för tecken
 | [Hantera saknade teckensnitt i Aspose.Words – Komplett C#-guide](./handle-missing-fonts-in-aspose-words-complete-c-guide/) | Lär dig hur du hanterar saknade teckensnitt i Aspose.Words för .NET med en komplett steg-för-steg C#-guide. |
 
 | [Anpassade teckensnittsinställningar i C# – Ladda Word och hantera saknade teckensnitt](./custom-font-settings-in-c-load-word-handle-missing-fonts/) | Lär dig hur du laddar Word-dokument och hanterar saknade teckensnitt med anpassade teckensnittsinställningar i C# med Aspose.Words för .NET. |
+| [Hur man använder FontSettings för att hantera saknade teckensnitt i Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | Lär dig hur du använder FontSettings för att hantera saknade teckensnitt i Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

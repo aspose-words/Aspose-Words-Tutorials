@@ -43,6 +43,7 @@
 | [تحويل Docx إلى Txt](./docx-to-txt/) حوّل ملفات DOCX إلى TXT باستخدام Aspose.Words لـ .NET مع دليلنا المفصل. تعلّم كيفية تحويل المستندات بكفاءة ويسر. |
 | [تحويل docx إلى txt مع معادلات LaTeX – دليل Aspose.Words](./convert-docx-to-txt-with-latex-equations-aspose-words-guide/) | تعرّف على كيفية تحويل ملفات DOCX إلى TXT مع الحفاظ على معادلات LaTeX باستخدام Aspose.Words في .NET. |
 | [كيفية حفظ docx كـ txt – تحويل docx، استخراج LaTeX](./how-to-save-docx-as-txt-convert-docx-extract-latex/) | تعرّف على طريقة حفظ ملفات DOCX كـ TXT واستخراج LaTeX باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
+| [حفظ ملف docx كـ txt – دليل كامل لتحويل ملفات Word إلى نص عادي](./save-docx-as-txt-complete-guide-to-converting-word-files-to/) | تعرّف على طريقة حفظ ملفات DOCX كملفات نصية TXT باستخدام Aspose.Words لـ .NET خطوة بخطوة مع أمثلة عملية. |
 | [تحويل ملف نصي إلى مستند Word](./txt-to-docx/) | تعلّم كيفية تحويل ملفات النصوص إلى مستندات وورد باستخدام Aspose.Words لـ .NET. أدر تحويلات المستندات بكفاءة من خلال دليلنا الشامل. | 
 | [حفظ ملف PDF بصيغة Jpeg](./pdf-to-jpeg/) حوّل ملفات PDF إلى JPEG بسهولة باستخدام Aspose.Words لـ .NET. اتبع دليلنا المفصل مع الأمثلة والأسئلة الشائعة. مثالي للمطورين والهواة.
 | [حفظ ملف PDF إلى صيغة Word (Docx)](./pdf-to-docx/) تعرّف على كيفية تحويل ملف PDF إلى مستند Word (Docx) باستخدام Aspose.Words for .NET في هذا الدليل المفصل خطوة بخطوة. مثالي للمطورين. |

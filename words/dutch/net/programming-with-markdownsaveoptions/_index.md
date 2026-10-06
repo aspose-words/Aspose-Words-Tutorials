@@ -181,6 +181,10 @@ Leer hoe u wiskundige vergelijkingen uit Word-documenten converteert naar Markdo
 
 Leer hoe u docx-bestanden naar markdown converteert met behoud van regeleinden in een volledige C#‑handleiding.
 
+### [Word opslaan als Markdown met Aspose.Words – Volledige C#-gids](./save-word-as-markdown-with-aspose-words-full-c-guide/)
+
+Leer hoe u Word-documenten opslaat als Markdown met een volledige C#‑handleiding en Aspose.Words.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

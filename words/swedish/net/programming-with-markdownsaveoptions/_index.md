@@ -176,6 +176,9 @@ Lär dig konvertera ekvationer från Word-dokument till Markdown med en komplett
 ### [Konvertera docx till markdown – Fullständig guide med bevarande av radbrytningar](./convert-docx-to-markdown-complete-guide-with-line-break-pres/)
 Lär dig konvertera DOCX till Markdown och bevara radbrytningar för exakt textformat.
 
+### [Spara Word som Markdown med Aspose.Words – Fullständig C#-guide](./save-word-as-markdown-with-aspose-words-full-c-guide/)
+Lär dig hur du sparar Word-dokument som Markdown med Aspose.Words i en komplett C#‑guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

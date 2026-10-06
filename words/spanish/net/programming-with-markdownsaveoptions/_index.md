@@ -41,6 +41,7 @@ Procesamiento de textos con MarkdownSaveOptions es un recurso detallado que te g
 | [Preservar saltos de línea: Convertir DOCX a Markdown](./preserve-line-breaks-convert-docx-to-markdown/) Aprenda a conservar los saltos de línea al convertir documentos DOCX a Markdown usando Aspose.Words para .NET. |
 | [Convertir Word a Markdown – Guía completa con extracción de imágenes](./convert-word-to-markdown-full-guide-with-image-extraction/) Aprenda a convertir documentos Word a Markdown con extracción completa de imágenes usando Aspose.Words para .NET. |
 | [Convertir docx a markdown – Guía completa con preservación de saltos de línea](./convert-docx-to-markdown-complete-guide-with-line-break-pres/) Aprenda a convertir archivos DOCX a Markdown manteniendo los saltos de línea con Aspose.Words para .NET. |
+| [Guardar Word como Markdown con Aspose.Words – Guía completa en C#](./save-word-as-markdown-with-aspose-words-full-c-guide/) Aprenda a guardar documentos Word como archivos Markdown usando Aspose.Words en C# con una guía completa. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

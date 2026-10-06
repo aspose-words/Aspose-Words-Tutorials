@@ -64,6 +64,7 @@ Niezależnie od tego, czy chcesz przekonwertować dokumenty Word do PDF w celu d
 | [Utwórz dostępny plik PDF z dokumentu Word w C# – przewodnik krok po kroku](./create-accessible-pdf-from-word-in-c-step-by-step-guide/) | Dowiedz się, jak wygenerować dostępny plik PDF z dokumentu Word w C# przy użyciu Aspose.Words, krok po kroku. |
 | [Utwórz dostępny PDF z Worda przy użyciu Aspose – przewodnik krok po kroku](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) | Dowiedz się, jak wygenerować dostępny plik PDF z dokumentu Word, spełniający standardy dostępności, korzystając z Aspose.Words dla .NET. |
 | [Utwórz PDF UA z dokumentu Word w C# – przewodnik krok po kroku](./create-pdf-ua-from-word-in-c-step-by-step-guide/) | Dowiedz się, jak wygenerować plik PDF UA z dokumentu Word przy użyciu Aspose.Words dla .NET w C#. |
+| [Jak utworzyć PDF z Worda w C# – Kompletny przewodnik](./how-to-create-pdf-from-word-in-c-complete-guide/) | Pełny przewodnik, jak w C# konwertować dokumenty Word do PDF przy użyciu Aspose.Words, krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
