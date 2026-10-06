@@ -63,6 +63,7 @@ Finally, don’t forget to check out our {{< relref "working-with-summarize-opti
 | {{< relref "working-with-summarize-options/_index.md" >}} | Learn to effectively summarize Word documents using Aspose.Words for .NET with our step‑by‑step guide on integrating AI models for quick insights. |
 | {{< relref "summarize-word-document-in-c-complete-ai-powered-guide/_index.md" >}} | Learn how to summarize Word documents using Aspose.Words for .NET with a full AI‑powered C# guide. |
 | {{< relref "how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/_index.md" >}} | Learn to use Aspose.Words AI to automatically check and correct grammar in Word documents with step-by-step guidance. |
+| {{< relref "how-to-check-grammar-in-word-documents-complete-c-guide/_index.md" >}} | Learn how to use Aspose.Words for .NET to check grammar in Word documents with a complete C# guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
