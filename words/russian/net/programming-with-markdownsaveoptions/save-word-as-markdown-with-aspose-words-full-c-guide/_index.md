@@ -23,18 +23,6 @@ title: Сохранение Word в Markdown с помощью Aspose.Words –
 url: /ru/net/programming-with-markdownsaveoptions/save-word-as-markdown-with-aspose-words-full-c-guide/
 ---
 
-word as markdown" also text. So translate alt and title. Keep image URL unchanged.
-
-Similarly table content: translate.
-
-Also bullet lists.
-
-Let's translate.
-
-Will keep code block placeholders unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

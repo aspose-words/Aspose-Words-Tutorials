@@ -24,11 +24,7 @@ title: كيفية إنشاء ملف PDF من Word باستخدام C# – دلي
 url: /ar/net/programming-with-pdfsaveoptions/how-to-create-pdf-from-word-in-c-complete-guide/
 ---
 
-.
-
-Now produce final content. Ensure we keep all placeholders and code blocks unchanged.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

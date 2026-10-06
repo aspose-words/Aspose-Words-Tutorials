@@ -25,7 +25,7 @@ title: Zapisz docx jako txt – Kompletny przewodnik konwertowania plików Word 
 url: /pl/net/basic-conversions/save-docx-as-txt-complete-guide-to-converting-word-files-to/
 ---
 
-content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

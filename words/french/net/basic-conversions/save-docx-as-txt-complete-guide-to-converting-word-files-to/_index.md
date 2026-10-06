@@ -25,7 +25,7 @@ title: Enregistrer un docx en txt – Guide complet pour convertir les fichiers 
 url: /fr/net/basic-conversions/save-docx-as-txt-complete-guide-to-converting-word-files-to/
 ---
 
-final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

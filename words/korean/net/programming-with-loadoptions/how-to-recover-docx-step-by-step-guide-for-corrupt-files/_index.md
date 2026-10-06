@@ -22,11 +22,7 @@ title: DOCX 복구 방법 – 손상된 파일을 위한 단계별 가이드
 url: /ko/net/programming-with-loadoptions/how-to-recover-docx-step-by-step-guide-for-corrupt-files/
 ---
 
-}}
-
-Make sure to keep all placeholders unchanged.
-
-Now produce final answer with only translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

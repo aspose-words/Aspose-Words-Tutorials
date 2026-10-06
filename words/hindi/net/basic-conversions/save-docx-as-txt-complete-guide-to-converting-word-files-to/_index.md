@@ -24,10 +24,6 @@ title: docx को txt के रूप में सहेजें – वर�
 url: /hi/net/basic-conversions/save-docx-as-txt-complete-guide-to-converting-word-files-to/
 ---
 
-blockquotes > etc.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

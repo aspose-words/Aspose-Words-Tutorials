@@ -22,11 +22,7 @@ title: วิธีกู้คืนไฟล์ DOCX – คู่มือข
 url: /th/net/programming-with-loadoptions/how-to-recover-docx-step-by-step-guide-for-corrupt-files/
 ---
 
-.
-
-All good.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

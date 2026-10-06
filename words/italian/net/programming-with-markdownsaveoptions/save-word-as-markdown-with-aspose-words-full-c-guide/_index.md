@@ -25,8 +25,6 @@ title: Salva Word come Markdown con Aspose.Words – Guida completa C#
 url: /it/net/programming-with-markdownsaveoptions/save-word-as-markdown-with-aspose-words-full-c-guide/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,11 +24,7 @@ title: DOCX mentése TXT‑ként – Teljes útmutató a Word‑fájlok egyszer�
 url: /hu/net/basic-conversions/save-docx-as-txt-complete-guide-to-converting-word-files-to/
 ---
 
-Finally closing shortcodes.
-
-We must ensure we keep all markdown formatting.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

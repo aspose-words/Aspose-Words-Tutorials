@@ -23,21 +23,7 @@ title: Guardar Word como Markdown con Aspose.Words – Guía completa en C#
 url: /es/net/programming-with-markdownsaveoptions/save-word-as-markdown-with-aspose-words-full-c-guide/
 ---
 
-)" translate.
-
-Bullet points translate.
-
-"## Conclusion" translate.
-
-Paragraphs translate.
-
-List of bullet points translate.
-
-Final call to action translate.
-
-Make sure to keep code placeholders and shortcodes unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

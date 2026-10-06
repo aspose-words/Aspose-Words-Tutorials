@@ -24,15 +24,7 @@ title: DOCX Nasıl Kurtarılır – Bozuk Dosyalar İçin Adım Adım Rehber
 url: /tr/net/programming-with-loadoptions/how-to-recover-docx-step-by-step-guide-for-corrupt-files/
 ---
 
-ör. resimler) kurtarabilir miyim?" Keep bold.
-
-Also "Does recovery affect performance?" translate to "Kurtarma performansı etkiler mi?" Keep bold.
-
-Also "Will styles be preserved?" translate to "Stiller korunacak mı?" Keep bold.
-
-Make sure to keep code block placeholders unchanged.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

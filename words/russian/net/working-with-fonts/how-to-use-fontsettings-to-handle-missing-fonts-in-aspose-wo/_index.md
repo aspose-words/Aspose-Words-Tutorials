@@ -23,14 +23,6 @@ title: Как использовать FontSettings для обработки о
 url: /ru/net/working-with-fonts/how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/
 ---
 
-points, table content, etc.
-
-We must keep code block placeholders unchanged.
-
-Also keep the block shortcodes at start and end.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -23,11 +23,7 @@ title: Cara Menggunakan FontSettings untuk Menangani Font yang Hilang di Aspose.
 url: /id/net/working-with-fonts/how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/
 ---
 
-"SubstitutionWarning", "LoadOptions", "Document", "C#", etc.
-
-Also keep code block placeholders unchanged.
-
-Now write final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

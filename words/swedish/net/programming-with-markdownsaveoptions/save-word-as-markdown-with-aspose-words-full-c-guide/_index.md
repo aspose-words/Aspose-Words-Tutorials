@@ -23,12 +23,6 @@ title: Spara Word som Markdown med Aspose.Words – Fullständig C#‑guide
 url: /sv/net/programming-with-markdownsaveoptions/save-word-as-markdown-with-aspose-words-full-c-guide/
 ---
 
-Should translate but keep quotes? Keep the phrase maybe translate the surrounding but keep the keyword phrase unchanged? The phrase includes English words; we can keep them as is because they are keywords. Probably keep them as is.
-
-Let's translate.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

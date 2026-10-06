@@ -23,18 +23,6 @@ title: 如何在 C# 中从 Word 创建 PDF – 完整指南
 url: /zh/net/programming-with-pdfsaveoptions/how-to-create-pdf-from-word-in-c-complete-guide/
 ---
 
-translate all text content. Alt text is text content. Should translate alt text and title. So alt becomes Chinese, title also Chinese. Keep image URL unchanged.
-
-Also list items under checklist.
-
-Also bullet lists.
-
-Also code block placeholders are not actual code, but placeholders. Keep them unchanged.
-
-Let's translate.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,10 +24,6 @@ title: Hur man skapar PDF från Word i C# – Komplett guide
 url: /sv/net/programming-with-pdfsaveoptions/how-to-create-pdf-from-word-in-c-complete-guide/
 ---
 
-they are just placeholders. The instruction says preserve code blocks; but these placeholders likely represent code blocks. Should we keep them as is. Yes.
-
-Now produce final output with all translated content and unchanged shortcodes.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

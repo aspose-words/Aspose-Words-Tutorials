@@ -25,23 +25,7 @@ title: Comment récupérer les fichiers DOCX – Guide étape par étape pour le
 url: /fr/net/programming-with-loadoptions/how-to-recover-docx-step-by-step-guide-for-corrupt-files/
 ---
 
-.
-
-List items remain same but translate text.
-
-We must keep code block placeholders unchanged.
-
-Proceed.
-
-Edge Cases & Common Questions heading.
-
-Subheadings.
-
-Make sure to keep markdown formatting.
-
-At the end, shortcodes closing.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

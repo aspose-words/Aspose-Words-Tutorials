@@ -20,12 +20,6 @@ title: Aspose.Wordsで欠落フォントを処理するためのFontSettingsの�
 url: /ja/net/working-with-fonts/how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/
 ---
 
-blockquote >.
-
-Also table.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

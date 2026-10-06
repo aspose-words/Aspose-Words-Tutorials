@@ -20,11 +20,7 @@ title: 如何恢复 DOCX——损坏文件的逐步指南
 url: /zh/net/programming-with-loadoptions/how-to-recover-docx-step-by-step-guide-for-corrupt-files/
 ---
 
-must keep them unchanged.
-
-Check for any other markdown elements: images none. Ensure we kept all bold etc.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

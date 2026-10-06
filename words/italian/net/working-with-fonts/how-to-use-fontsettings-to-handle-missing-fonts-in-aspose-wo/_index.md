@@ -23,27 +23,7 @@ title: Come utilizzare FontSettings per gestire i caratteri mancanti in Aspose.W
 url: /it/net/working-with-fonts/how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/
 ---
 
-per gestire i caratteri mancanti in Aspose.Words"
-
-- Paragraphs etc.
-
-Make sure to keep **bold** formatting.
-
-Translate bullet points.
-
-Translate table content.
-
-Translate "Pro tip", "Expected Console Output", "What to Expect", etc.
-
-Make sure not to translate code block placeholders.
-
-Also note "RTL formatting if needed" but Italian is LTR, fine.
-
-Let's craft translation.
-
-Will keep code block placeholders as is.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

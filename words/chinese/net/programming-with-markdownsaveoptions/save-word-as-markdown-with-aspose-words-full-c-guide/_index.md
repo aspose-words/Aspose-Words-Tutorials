@@ -22,14 +22,6 @@ title: 使用 Aspose.Words 将 Word 保存为 Markdown – 完整 C# 指南
 url: /zh/net/programming-with-markdownsaveoptions/save-word-as-markdown-with-aspose-words-full-c-guide/
 ---
 
-code block placeholders.
-
-Also keep URLs unchanged.
-
-Let's translate.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -23,7 +23,7 @@ title: Jak odzyskać pliki DOCX – Przewodnik krok po kroku dla uszkodzonych pl
 url: /pl/net/programming-with-loadoptions/how-to-recover-docx-step-by-step-guide-for-corrupt-files/
 ---
 
-translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

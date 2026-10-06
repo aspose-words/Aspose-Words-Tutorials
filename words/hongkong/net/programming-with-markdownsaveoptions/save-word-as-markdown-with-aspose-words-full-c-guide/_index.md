@@ -23,11 +23,7 @@ title: 使用 Aspose.Words 將 Word 另存為 Markdown – 完整 C# 指南
 url: /zh-hant/net/programming-with-markdownsaveoptions/save-word-as-markdown-with-aspose-words-full-c-guide/
 ---
 
-發愉快！"
-
-Finally closing shortcodes unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

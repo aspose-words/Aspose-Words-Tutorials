@@ -24,16 +24,6 @@ title: Come creare PDF da Word in C# – Guida completa
 url: /it/net/programming-with-pdfsaveoptions/how-to-create-pdf-from-word-in-c-complete-guide/
 ---
 
-Keep #.
-
-Then the paragraph.
-
-We need to translate but keep technical terms.
-
-Let's translate step by step.
-
-I'll produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

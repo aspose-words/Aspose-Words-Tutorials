@@ -23,20 +23,6 @@ title: Aspose.Words를 사용하여 Word를 Markdown으로 저장하기 – 전�
 url: /ko/net/programming-with-markdownsaveoptions/save-word-as-markdown-with-aspose-words-full-c-guide/
 ---
 
-가 여기 나타납니다)". But that changes the phrase; but it's okay.
-
-Similarly for "Secondary Keyword – “convert word to markdown”". Translate.
-
-Also "Secondary Keyword – “convert docx to md”". Translate.
-
-Now produce final content.
-
-Let's craft translation.
-
-Be careful with markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
