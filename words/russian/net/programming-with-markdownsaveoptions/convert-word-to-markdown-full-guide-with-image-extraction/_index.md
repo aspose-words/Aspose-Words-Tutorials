@@ -23,12 +23,6 @@ title: Преобразовать Word в Markdown – полное руков�
 url: /ru/net/programming-with-markdownsaveoptions/convert-word-to-markdown-full-guide-with-image-extraction/
 ---
 
-headings same level.
-
-Also keep image alt and title.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

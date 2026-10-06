@@ -23,7 +23,7 @@ title: Μετατροπή docx σε markdown – Πλήρης οδηγός με 
 url: /el/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-with-line-break-pres/
 ---
 
-content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

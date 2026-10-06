@@ -26,14 +26,6 @@ title: Обработка отсутствующих шрифтов в Aspose.Wo
 url: /ru/net/working-with-fonts/handle-missing-fonts-in-aspose-words-complete-c-guide/
 ---
 
-translation.
-
-Be careful with bullet points: use same markdown list syntax.
-
-Tables: keep same.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

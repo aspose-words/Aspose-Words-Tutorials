@@ -25,7 +25,7 @@ title: Come convertire le equazioni da Word a Markdown – Guida completa C#
 url: /it/net/programming-with-markdownsaveoptions/how-to-convert-equations-from-word-to-markdown-complete-c-gu/
 ---
 
-answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

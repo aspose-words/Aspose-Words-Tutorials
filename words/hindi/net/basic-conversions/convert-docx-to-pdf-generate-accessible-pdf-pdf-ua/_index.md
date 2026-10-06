@@ -23,11 +23,7 @@ title: DOCX को PDF में बदलें – सुलभ PDF बना�
 url: /hi/net/basic-conversions/convert-docx-to-pdf-generate-accessible-pdf-pdf-ua/
 ---
 
-? The bold phrase is **convert DOCX to PDF** - we left as is because it's the phrase. Should we translate? The instruction: keep technical terms in English, but "convert DOCX to PDF" is a phrase, but maybe keep as is. In earlier translation we kept the bold phrase unchanged. That's okay.
-
-Also phrase "convert word to pdf" we kept as is inside bold. Good.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

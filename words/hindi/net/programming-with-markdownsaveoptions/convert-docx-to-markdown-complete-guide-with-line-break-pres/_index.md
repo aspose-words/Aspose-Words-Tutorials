@@ -22,10 +22,6 @@ title: docx को markdown में बदलें – लाइन‑ब्�
 url: /hi/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-with-line-break-pres/
 ---
 
-not code blocks themselves; they likely will be replaced later. So we keep them as is.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

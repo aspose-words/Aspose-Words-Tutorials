@@ -21,8 +21,6 @@ title: C# में आकार पर छाया जोड़ें – प�
 url: /hi/net/programming-with-shapes/add-shadow-to-shape-in-c-complete-aspose-words-guide/
 ---
 
-Will produce final answer.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

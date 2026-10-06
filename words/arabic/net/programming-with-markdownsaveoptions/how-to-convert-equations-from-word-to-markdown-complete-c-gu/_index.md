@@ -23,17 +23,7 @@ title: كيفية تحويل المعادلات من Word إلى Markdown – د
 url: /ar/net/programming-with-markdownsaveoptions/how-to-convert-equations-from-word-to-markdown-complete-c-gu/
 ---
 
-" heading.
-
-Paragraph.
-
-Then final call to action.
-
-Then closing shortcodes.
-
-Make sure to keep markdown syntax.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

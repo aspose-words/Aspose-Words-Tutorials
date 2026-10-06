@@ -24,10 +24,6 @@ title: معالجة الخطوط المفقودة في Aspose.Words – دليل
 url: /ar/net/working-with-fonts/handle-missing-fonts-in-aspose-words-complete-c-guide/
 ---
 
-.
-
-Let's start.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

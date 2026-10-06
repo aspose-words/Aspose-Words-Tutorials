@@ -23,23 +23,6 @@ title: วิธีตรวจสอบไวยากรณ์ในเอก�
 url: /th/net/ai-powered-document-processing/how-to-check-grammar-in-word-documents-complete-c-guide/
 ---
 
-**ฉันสามารถรับข้อเสนอแนะดิบโดยไม่แทรกการแก้ไขได้หรือไม่?**  
-  ได้ `grammarChecker.CheckGrammar(inputDoc, out var suggestions)` จะคืนค่า `List<GrammarSuggestion>` ที่คุณสามารถวนลูปได้"
-
-- **What about licensing?**  
-  You need a valid Aspose.Words license file (`Aspose.Words.lic
-
-Thai:
-
-"- **เรื่องลิขสิทธิ์ล่ะ?**  
-  คุณต้องมีไฟล์ลิขสิทธิ์ Aspose.Words ที่ถูกต้อง (`Aspose.Words.lic"
-
-Now closing shortcodes.
-
-Now ensure we keep all shortcodes at top and bottom unchanged.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -21,12 +21,6 @@ title: Schaduw toevoegen aan vorm in C# – Complete Aspose.Words-gids
 url: /nl/net/programming-with-shapes/add-shadow-to-shape-in-c-complete-aspose-words-guide/
 ---
 
-other markdown elements: blockquotes, tables, code block placeholders.
-
-Make sure we keep code block placeholders as they are.
-
-Now produce final output with all content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

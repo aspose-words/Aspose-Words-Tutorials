@@ -23,10 +23,6 @@ title: Simpan docx sebagai txt – Panduan Lengkap C#
 url: /id/net/programming-with-txtsaveoptions/save-docx-as-txt-complete-c-guide/
 ---
 
-impan sebagai TXT dengan persamaan LaTeX")
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -22,10 +22,6 @@ title: Προσθήκη Σκιάς σε Σχήμα σε C# – Πλήρης Οδ
 url: /el/net/programming-with-shapes/add-shadow-to-shape-in-c-complete-aspose-words-guide/
 ---
 
-Be careful to preserve markdown formatting exactly.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

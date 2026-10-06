@@ -23,20 +23,6 @@ title: DOCX naar PDF converteren – Toegankelijk PDF genereren (PDF/UA)
 url: /nl/net/basic-conversions/convert-docx-to-pdf-generate-accessible-pdf-pdf-ua/
 ---
 
-with `PdfSignatureOptions`."
-- "Merging multiple DOCX files into a single PDF/UA document."
-- "Automating the validation step using `verap" (cut off). The original ends abruptly. Keep as is.
-
-We need to keep the truncated line? The original ends with "using `verap". We'll keep same.
-
-Then closing shortcodes.
-
-Finally include backtop button shortcode.
-
-Make sure to keep all shortcodes exactly.
-
-Now produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

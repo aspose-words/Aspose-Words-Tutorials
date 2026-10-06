@@ -23,13 +23,7 @@ title: Word에서 수식을 Markdown으로 변환하는 방법 – 완전한 C# 
 url: /ko/net/programming-with-markdownsaveoptions/how-to-convert-equations-from-word-to-markdown-complete-c-gu/
 ---
 
->}} keep.
-
-Make sure to keep all markdown formatting, code block placeholders remain.
-
-Also ensure we didn't translate any code block placeholder names (they are uppercase). Keep them.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

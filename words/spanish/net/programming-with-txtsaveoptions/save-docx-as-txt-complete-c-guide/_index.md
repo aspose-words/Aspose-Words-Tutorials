@@ -22,13 +22,7 @@ title: Guardar docx como txt – Guía completa de C#
 url: /es/net/programming-with-txtsaveoptions/save-docx-as-txt-complete-c-guide/
 ---
 
-plano sean siempre limpias!"
-
-Then closing shortcodes.
-
-Make sure to keep all shortcodes unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

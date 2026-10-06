@@ -26,19 +26,7 @@ title: Загрузка повреждённого документа Word – 
 url: /ru/net/programming-with-loadoptions/load-corrupted-word-document-detect-issues-recover-damaged-d/
 ---
 
-Next heading ## Conclusion
-
-Translate.
-
-Paragraphs translate, keep bold phrases.
-
-List after "Next, you might explore:" translate bullet points.
-
-Finally closing shortcodes and backtop button.
-
-Make sure to keep all shortcodes unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,16 +22,6 @@ title: Word を Markdown に変換 – 画像抽出付き完全ガイド
 url: /ja/net/programming-with-markdownsaveoptions/convert-word-to-markdown-full-guide-with-image-extraction/
 ---
 
->}} keep.
-
-Now produce final content with all translations.
-
-Let's craft Japanese translations.
-
-Be careful to keep markdown formatting exactly.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -22,18 +22,6 @@ title: إنشاء PDF UA من Word باستخدام C# – دليل خطوة �
 url: /ar/net/programming-with-pdfsaveoptions/create-pdf-ua-from-word-in-c-step-by-step-guide/
 ---
 
-`MemoryOptimizationSwitch` (`doc.MemoryOptimizationSwitch = MemoryOptimizationSwitch.On;`)."
-
-Proceed.
-
-Translate other sections.
-
-Make sure to keep code block placeholders.
-
-Also translate blockquotes >.
-
-Proceed to produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

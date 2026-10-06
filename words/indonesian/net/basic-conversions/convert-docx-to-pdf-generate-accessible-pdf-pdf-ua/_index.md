@@ -24,7 +24,7 @@ title: Ubah DOCX ke PDF – Hasilkan PDF yang Aksesibel (PDF/UA)
 url: /id/net/basic-conversions/convert-docx-to-pdf-generate-accessible-pdf-pdf-ua/
 ---
 
-with translations. Ensure no extra explanations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

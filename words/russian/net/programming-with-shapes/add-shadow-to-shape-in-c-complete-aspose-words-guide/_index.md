@@ -21,17 +21,7 @@ title: Добавление тени к фигуре в C# – Полное р
 url: /ru/net/programming-with-shapes/add-shadow-to-shape-in-c-complete-aspose-words-guide/
 ---
 
-уре в C# – Полное руководство по Aspose.Words"
-
-Then paragraph.
-
-Let's translate step by step.
-
-Make sure to keep **bold** formatting.
-
-Also keep inline code formatting with backticks.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

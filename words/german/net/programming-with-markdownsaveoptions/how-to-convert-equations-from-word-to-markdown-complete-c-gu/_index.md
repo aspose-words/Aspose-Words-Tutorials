@@ -25,13 +25,7 @@ title: Wie man Gleichungen von Word nach Markdown konvertiert – Vollständiger
 url: /de/net/programming-with-markdownsaveoptions/how-to-convert-equations-from-word-to-markdown-complete-c-gu/
 ---
 
-block placeholders.
-
-Make sure we didn't translate code block placeholders.
-
-Also ensure we didn't translate URLs (none present). Keep variable names unchanged.
-
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

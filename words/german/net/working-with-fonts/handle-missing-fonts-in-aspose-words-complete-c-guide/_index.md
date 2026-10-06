@@ -26,21 +26,7 @@ title: Umgang mit fehlenden Schriftarten in Aspose.Words – Vollständiger C#�
 url: /de/net/working-with-fonts/handle-missing-fonts-in-aspose-words-complete-c-guide/
 ---
 
-them, and even swap in a fallback font if you like. In this tutorial we’ll walk through a complete, ready‑to‑run example that shows exactly how to set up a warnings collector, hook it into `LoadOptions`, and load a document that may contain missing fonts."
-
-Translate.
-
-...
-
-Continue for all sections.
-
-Need to translate bullet lists, tables.
-
-Make sure to keep code block placeholders.
-
-Also keep markdown formatting.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

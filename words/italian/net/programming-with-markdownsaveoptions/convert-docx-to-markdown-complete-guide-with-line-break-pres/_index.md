@@ -23,7 +23,7 @@ title: Converti docx in markdown – Guida completa con preservazione delle inte
 url: /it/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-with-line-break-pres/
 ---
 
-produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

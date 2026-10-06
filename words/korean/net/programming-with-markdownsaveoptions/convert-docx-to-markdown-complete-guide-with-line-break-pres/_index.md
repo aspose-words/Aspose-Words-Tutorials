@@ -22,18 +22,6 @@ title: docx를 markdown으로 변환 – 줄바꿈 보존 완전 가이드
 url: /ko/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-with-line-break-pres/
 ---
 
->}}
-
-Now produce final Korean markdown.
-
-We need to keep code block placeholders unchanged. Also keep markdown formatting.
-
-Let's translate.
-
-I'll write Korean translations.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

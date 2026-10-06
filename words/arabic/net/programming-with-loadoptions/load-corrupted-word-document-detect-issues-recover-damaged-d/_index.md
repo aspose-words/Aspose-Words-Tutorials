@@ -23,16 +23,6 @@ title: تحميل مستند Word تالف – اكتشاف المشكلات و�
 url: /ar/net/programming-with-loadoptions/load-corrupted-word-document-detect-issues-recover-damaged-d/
 ---
 
-Fail**, **Repair**, etc. Keep them English as they are technical. The table content "Behavior", "When to use". Translate to Arabic but keep the values.
-
-Let's produce translation.
-
-Be careful with markdown tables: need to keep pipe separators.
-
-Also blockquote > lines.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,15 +24,7 @@ title: Αποθήκευση docx ως txt – Πλήρης Οδηγός C#
 url: /el/net/programming-with-txtsaveoptions/save-docx-as-txt-complete-c-guide/
 ---
 
-μορφές όπως HTML ή PDF, πειραματιστείτε με προσαρμοσμένη κωδικοποίηση κειμένου, ή ενσωματώστε τη μετατροπή σε μια υπηρεσία web ASP .NET Core. Οι ίδιες αρχές—φόρτωση, ρύθμιση, αποθήκευση—εφαρμόζονται παντού."
-
-Paragraph: "Happy coding, and may your plain‑text exports be ever clean!" translate "Καλό κώδικα, και οι εξαγωγές απλού κειμένου σας να είναι πάντα καθαρές!"
-
-Then closing shortcodes.
-
-Make sure to keep all placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

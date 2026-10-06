@@ -24,15 +24,7 @@ title: C#'ta Word'den PDF UA Oluşturma – Adım Adım Kılavuz
 url: /tr/net/programming-with-pdfsaveoptions/create-pdf-ua-from-word-in-c-step-by-step-guide/
 ---
 
-hangi bir sorunla karşılaştıysanız veya genişletme fikirleriniz varsa, aşağıya bir yorum bırakın. Kodlamaktan keyif alın ve erişilebilir PDF'ler oluşturmaktan zevk alın!"
-
-Then closing shortcodes.
-
-We must ensure we keep all shortcodes and code block placeholders unchanged.
-
-Also ensure we keep markdown formatting like **bold**, headings, tables, blockquote.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

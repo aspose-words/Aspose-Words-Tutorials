@@ -23,12 +23,6 @@ title: Ajouter une ombre à une forme en C# – Guide complet d'Aspose.Words
 url: /fr/net/programming-with-shapes/add-shadow-to-shape-in-c-complete-aspose-words-guide/
 ---
 
-translate code placeholders.
-
-Also translate table content.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

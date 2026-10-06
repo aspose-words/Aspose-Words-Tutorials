@@ -23,18 +23,6 @@ title: Convertir Word en Markdown – Guide complet avec extraction d’images
 url: /fr/net/programming-with-markdownsaveoptions/convert-word-to-markdown-full-guide-with-image-extraction/
 ---
 
-them unchanged.
-
-Now produce final content.
-
-Let's translate.
-
-I'll write French translation.
-
-Be careful with markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

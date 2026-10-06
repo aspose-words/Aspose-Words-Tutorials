@@ -22,17 +22,7 @@ title: Uložit docx jako txt – Kompletní průvodce C#
 url: /cs/net/programming-with-txtsaveoptions/save-docx-as-txt-complete-c-guide/
 ---
 
-odpovídající runtime."
-
-Next heading "## Conclusion". Translate "## Závěr". Paragraph.
-
-Translate accordingly.
-
-Finally closing shortcodes.
-
-Make sure to keep all placeholders unchanged.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

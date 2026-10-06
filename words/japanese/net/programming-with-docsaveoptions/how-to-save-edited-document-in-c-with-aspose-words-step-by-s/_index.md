@@ -20,12 +20,6 @@ title: Aspose.Words を使用した C# で編集済みドキュメントを保�
 url: /ja/net/programming-with-docsaveoptions/how-to-save-edited-document-in-c-with-aspose-words-step-by-s/
 ---
 
-text contains primary keyword; we might keep the phrase "how to save edited document". So maybe translate as "how to save edited document スクリーンショット". That keeps keyword. We'll do that.
-
-Now translate.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -22,16 +22,6 @@ title: วิธีบันทึกเอกสารที่แก้ไข�
 url: /th/net/programming-with-docsaveoptions/how-to-save-edited-document-in-c-with-aspose-words-step-by-s/
 ---
 
-โปรแกรมโดยใช้ Asp"
-
-But maybe keep the phrase "Aspose.Words". The original truncated: "with Asp". Probably "with Aspose.Words". We'll translate accordingly.
-
-Now ensure we keep all shortcodes at start and end unchanged.
-
-Also keep the final back button shortcode.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

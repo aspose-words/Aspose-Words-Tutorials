@@ -22,40 +22,7 @@ title: C#에서 Word를 사용해 PDF UA 만들기 – 단계별 가이드
 url: /ko/net/programming-with-pdfsaveoptions/create-pdf-ua-from-word-in-c-step-by-step-guide/
 ---
 
-Next heading: "## Frequently Asked Questions"
-
-Translate: "## 자주 묻는 질문"
-
-List items translate.
-
-- **Does this work on .NET Core?**  
-  Absolutely. Aspose.Words is cross‑platform; just reference the same NuGet package.
-
-Translate.
-
-- **Can I stream the PDF instead of writing to disk?**  
-  Yes—replace the file path with a `MemoryStream` and call `doc.Save(stream, saveOptions);`.
-
-Translate.
-
-- **What if I need to add a custom watermark?**  
-  Insert a `Watermark` object into the document before saving; the PDF/UA tags will still be generated correctly.
-
-Translate.
-
-Next heading: "## Conclusion"
-
-Translate: "## 결론"
-
-Paragraph translate.
-
-Finally shortcodes closing.
-
-Also final backtop button shortcode.
-
-Make sure to keep all shortcodes exactly.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

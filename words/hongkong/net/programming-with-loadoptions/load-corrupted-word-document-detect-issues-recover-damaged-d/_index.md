@@ -22,13 +22,7 @@ title: 載入損毀的 Word 文件 – 偵測問題並在 C# 中修復受損的 
 url: /zh-hant/net/programming-with-loadoptions/load-corrupted-word-document-detect-issues-recover-damaged-d/
 ---
 
-blocks/products/products-backtop-button >}}
-
-Keep as is.
-
-Make sure to keep all code block placeholders unchanged.
-
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

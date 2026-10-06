@@ -25,9 +25,7 @@ title: Word'den Markdown'a Denklemleri Dönüştürme – Tam C# Rehberi
 url: /tr/net/programming-with-markdownsaveoptions/how-to-convert-equations-from-word-to-markdown-complete-c-gu/
 ---
 
-formatting >.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

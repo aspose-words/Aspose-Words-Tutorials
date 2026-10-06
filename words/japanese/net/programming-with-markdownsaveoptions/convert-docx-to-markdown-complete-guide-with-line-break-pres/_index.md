@@ -21,20 +21,6 @@ title: docx を markdown に変換 – 改行を保持した完全ガイド
 url: /ja/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-with-line-break-pres/
 ---
 
-tip:" etc.
-
-Also translate "Quick sanity check" etc.
-
-Also translate "Full Working Example (Copy‑Paste Ready)" etc.
-
-Also translate "Wrap‑Up", "What’s next?" etc.
-
-Also translate "Got questions about ..." etc.
-
-Make sure to keep markdown formatting.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

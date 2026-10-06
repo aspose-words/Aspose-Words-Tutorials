@@ -26,13 +26,7 @@ title: Carica documento Word corrotto – Rileva problemi e recupera il file doc
 url: /it/net/programming-with-loadoptions/load-corrupted-word-document-detect-issues-recover-damaged-d/
 ---
 
-/products-backtop-button >}}
-
-All unchanged.
-
-Make sure to keep markdown formatting.
-
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

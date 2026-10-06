@@ -21,8 +21,6 @@ title: 將 docx 轉換為 Markdown – 完整指南（保留換行）
 url: /zh-hant/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-with-line-break-pres/
 ---
 
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

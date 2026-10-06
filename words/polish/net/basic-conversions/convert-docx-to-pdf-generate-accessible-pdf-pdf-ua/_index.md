@@ -23,11 +23,7 @@ title: Konwertuj DOCX na PDF – Generuj dostępny PDF (PDF/UA)
 url: /pl/net/basic-conversions/convert-docx-to-pdf-generate-accessible-pdf-pdf-ua/
 ---
 
-docx do pdf". Title attribute "convert docx to pdf" also translate? Title attribute is after quotes. Should translate as well. So change to "konwersja docx do pdf". Keep URL unchanged.
-
-Now produce final content with all translations.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,10 +23,6 @@ title: Word'ü Markdown'a Dönüştür – Görsel Çıkarma ile Tam Kılavuz
 url: /tr/net/programming-with-markdownsaveoptions/convert-word-to-markdown-full-guide-with-image-extraction/
 ---
 
-as is.
-
-Now produce final translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

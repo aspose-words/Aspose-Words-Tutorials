@@ -21,24 +21,6 @@ title: เพิ่มเงาให้กับรูปร่างใน C# 
 url: /th/net/programming-with-shapes/add-shadow-to-shape-in-c-complete-aspose-words-guide/
 ---
 
-_BLOCK_6}}
-
-Then "## Conclusion" heading.
-
-Paragraph.
-
-Then final lines with shortcodes.
-
-Make sure to keep code block placeholders unchanged.
-
-Also keep markdown formatting.
-
-Let's translate.
-
-Be careful with inline code like `shape`, `Document`, etc. Keep as is.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

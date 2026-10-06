@@ -25,12 +25,6 @@ title: Cara Mengonversi Persamaan dari Word ke Markdown – Panduan Lengkap C#
 url: /id/net/programming-with-markdownsaveoptions/how-to-convert-equations-from-word-to-markdown-complete-c-gu/
 ---
 
-" to "Hasil". Ensure code block placeholders remain.
-
-Also need to keep bullet list formatting.
-
-Now produce final output with all translated content and original shortcodes.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

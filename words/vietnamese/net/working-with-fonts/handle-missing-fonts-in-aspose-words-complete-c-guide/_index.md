@@ -25,13 +25,7 @@ title: Xử lý phông chữ thiếu trong Aspose.Words – Hướng dẫn C# đ
 url: /vi/net/working-with-fonts/handle-missing-fonts-in-aspose-words-complete-c-guide/
 ---
 
-The core idea stays the same: capture the warning, act on it, and keep your documents looking exactly as intended." => "Hãy thoải mái thử nghiệm — thay `"Arial"` bằng `"Tahoma"` hoặc tải một bộ tài liệu khác. Ý tưởng cốt lõi vẫn như cũ: bắt cảnh báo, thực hiện hành động và giữ cho tài liệu của bạn hiển thị đúng như mong muốn."
-
-Now "Happy coding! 🚀" => "Chúc lập trình vui vẻ! 🚀"
-
-Now ensure we keep shortcodes at top and bottom unchanged.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,16 +22,6 @@ title: Salvar docx como txt – Guia Completo de C#
 url: /pt/net/programming-with-txtsaveoptions/save-docx-as-txt-complete-c-guide/
 ---
 
-is a must‑have skill." Translate.
-
-Proceed.
-
-Let's craft translation.
-
-Will keep markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

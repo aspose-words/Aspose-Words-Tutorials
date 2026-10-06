@@ -26,12 +26,6 @@ title: Cargar documento Word corrupto – Detectar problemas y recuperar docx da
 url: /es/net/programming-with-loadoptions/load-corrupted-word-document-detect-issues-recover-damaged-d/
 ---
 
-final content.
-
-Be careful with markdown formatting.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

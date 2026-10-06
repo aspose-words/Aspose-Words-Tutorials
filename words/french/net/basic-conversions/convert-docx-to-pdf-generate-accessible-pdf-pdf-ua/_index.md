@@ -23,9 +23,7 @@ title: Convertir DOCX en PDF – Générer un PDF accessible (PDF/UA)
 url: /fr/net/basic-conversions/convert-docx-to-pdf-generate-accessible-pdf-pdf-ua/
 ---
 
-Make sure to keep markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

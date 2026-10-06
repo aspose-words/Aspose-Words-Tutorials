@@ -23,17 +23,7 @@ title: Vytvořte PDF UA z Wordu v C# – průvodce krok za krokem
 url: /cs/net/programming-with-pdfsaveoptions/create-pdf-ua-from-word-in-c-step-by-step-guide/
 ---
 
-code block placeholders. Also keep markdown formatting.
-
-Check for any URLs: none besides image path.
-
-Check for any markdown links: none.
-
-Check for any shortcodes: top and bottom.
-
-All good.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,13 +22,7 @@ title: Aspose.Words를 사용한 C#에서 편집된 문서 저장 방법 – 단
 url: /ko/net/programming-with-docsaveoptions/how-to-save-edited-document-in-c-with-aspose-words-step-by-s/
 ---
 
->}}
-
-We keep them unchanged.
-
-Make sure no extra spaces or missing.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

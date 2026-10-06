@@ -23,9 +23,7 @@ title: Konvertera Word till Markdown – Fullständig guide med bildextraktion
 url: /sv/net/programming-with-markdownsaveoptions/convert-word-to-markdown-full-guide-with-image-extraction/
 ---
 
-formatting like > quotes, lists, tables.
-
-Now produce final output with everything translated.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

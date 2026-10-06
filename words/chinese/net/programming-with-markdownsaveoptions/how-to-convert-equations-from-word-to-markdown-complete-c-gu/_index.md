@@ -22,8 +22,6 @@ title: 如何将 Word 中的公式转换为 Markdown – 完整 C# 指南
 url: /zh/net/programming-with-markdownsaveoptions/how-to-convert-equations-from-word-to-markdown-complete-c-gu/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

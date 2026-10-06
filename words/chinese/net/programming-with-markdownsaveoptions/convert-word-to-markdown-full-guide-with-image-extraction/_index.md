@@ -21,11 +21,7 @@ title: 将 Word 转换为 Markdown——完整指南与图片提取
 url: /zh/net/programming-with-markdownsaveoptions/convert-word-to-markdown-full-guide-with-image-extraction/
 ---
 
-should keep them as is.
-
-Also preserve blockquote formatting >.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

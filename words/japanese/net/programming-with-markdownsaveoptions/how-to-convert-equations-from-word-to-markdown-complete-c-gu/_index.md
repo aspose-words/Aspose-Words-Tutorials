@@ -23,11 +23,7 @@ title: Word の数式を Markdown に変換する方法 – 完全 C# ガイド
 url: /ja/net/programming-with-markdownsaveoptions/how-to-convert-equations-from-word-to-markdown-complete-c-gu/
 ---
 
-. They are fine.
-
-Make sure we didn't translate any code block placeholders.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

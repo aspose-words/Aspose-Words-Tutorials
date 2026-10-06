@@ -22,16 +22,6 @@ title: DOCX를 PDF로 변환 – 접근 가능한 PDF 생성 (PDF/UA)
 url: /ko/net/basic-conversions/convert-docx-to-pdf-generate-accessible-pdf-pdf-ua/
 ---
 
-.
-
-Be careful with bold **text** keep formatting.
-
-Also code block placeholders remain.
-
-Tables: translate content but keep markdown table structure.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

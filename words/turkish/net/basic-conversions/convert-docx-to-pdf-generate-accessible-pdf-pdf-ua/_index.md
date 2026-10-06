@@ -23,15 +23,7 @@ title: DOCX'i PDF'ye Dönüştür – Erişilebilir PDF Oluştur (PDF/UA)
 url: /tr/net/basic-conversions/convert-docx-to-pdf-generate-accessible-pdf-pdf-ua/
 ---
 
-.
-
-Now produce final content with translations.
-
-Check we preserved all code block placeholders: CODE_BLOCK_0...5.
-
-Make sure we didn't translate any URLs.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

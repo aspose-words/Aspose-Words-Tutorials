@@ -25,18 +25,6 @@ title: Wczytaj uszkodzony dokument Word – wykryj problemy i odzyskaj uszkodzon
 url: /pl/net/programming-with-loadoptions/load-corrupted-word-document-detect-issues-recover-damaged-d/
 ---
 
-" as they are technical terms. So translate column headers: "Tryb", "Zachowanie", "Kiedy używać". Keep the values "Fail", "Repair". Also the rows content: "Throws an exception..." translate to Polish.
-
-Similarly other tables.
-
-Also code block placeholders remain unchanged.
-
-We need to translate blockquote content.
-
-Make sure to keep markdown formatting.
-
-Let's produce final translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

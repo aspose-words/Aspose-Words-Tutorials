@@ -23,11 +23,7 @@ title: DOCX als TXT speichern – Vollständiger C#‑Leitfaden
 url: /de/net/programming-with-txtsaveoptions/save-docx-as-txt-complete-c-guide/
 ---
 
-}}
-
-Make sure to keep them.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

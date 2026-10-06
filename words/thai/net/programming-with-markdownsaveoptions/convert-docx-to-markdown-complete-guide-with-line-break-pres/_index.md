@@ -22,18 +22,7 @@ title: แปลง docx เป็น markdown – คู่มือฉบั�
 url: /th/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-with-line-break-pres/
 ---
 
-conversion into a CI/CD job so every pull request automatically generates fresh markdown." -> "เชื่อมการแปลงเข้ากับงาน CI/CD เพื่อให้ทุก pull request สร้าง markdown ใหม่โดยอัตโนมัติ"
-- "Combine this with a markdown linter (e.g., **markdownlint**) to enforce style consistency across your repo." -> "รวมกับ markdown linter (เช่น **markdownlint**) เพื่อบังคับใช้ความสอดคล้องของสไตล์ในรีโพของคุณ"
-
-Paragraph: "Got questions about **export word to markdown** or need help with a specific edge case? Drop a comment or fire off a quick issue on your project’s repo. Happy converting!" translate.
-
-Then closing shortcodes unchanged.
-
-Add final backtop button shortcode unchanged.
-
-Make sure to keep markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

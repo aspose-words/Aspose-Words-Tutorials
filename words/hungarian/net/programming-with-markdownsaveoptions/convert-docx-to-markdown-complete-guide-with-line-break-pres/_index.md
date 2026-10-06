@@ -23,24 +23,6 @@ title: DOCX konvertálása markdownra – Teljes útmutató sortörés megőrzé
 url: /hu/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-complete-guide-with-line-break-pres/
 ---
 
-to keep code block placeholders unchanged.
-
-Let's translate.
-
-Hungarian translation:
-
-Title: "# DOCX konvertálása markdownra – Teljes útmutató sortörés megőrzésével"
-
-Proceed.
-
-I'll translate each paragraph.
-
-Be careful with bold **...** keep.
-
-Also keep inline code formatting.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

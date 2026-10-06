@@ -23,17 +23,7 @@ title: Převod Wordu na Markdown – Kompletní průvodce s extrakcí obrázků
 url: /cs/net/programming-with-markdownsaveoptions/convert-word-to-markdown-full-guide-with-image-extraction/
 ---
 
-" keep unchanged.
-
-Then closing shortcodes.
-
-Now produce final content with all translations.
-
-Check for any missed text: There's a line "All images appear side‑by‑side with the text, just as they did in the original Word file." already translated.
-
-Make sure to keep code block placeholders unchanged.
-
-Now output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

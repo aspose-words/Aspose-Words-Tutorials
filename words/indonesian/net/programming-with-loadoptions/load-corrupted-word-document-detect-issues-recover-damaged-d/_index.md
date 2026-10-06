@@ -26,10 +26,6 @@ title: Muat dokumen Word yang rusak – Deteksi Masalah & Pulihkan docx yang Rus
 url: /id/net/programming-with-loadoptions/load-corrupted-word-document-detect-issues-recover-damaged-d/
 ---
 
-translated content and original shortcodes.
-
-Let's assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

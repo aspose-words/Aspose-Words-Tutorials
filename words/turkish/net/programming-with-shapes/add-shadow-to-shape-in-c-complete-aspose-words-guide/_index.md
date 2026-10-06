@@ -22,12 +22,6 @@ title: C#'de Şekle Gölge Ekle – Tam Aspose.Words Rehberi
 url: /tr/net/programming-with-shapes/add-shadow-to-shape-in-c-complete-aspose-words-guide/
 ---
 
-structure.
-
-Also code block placeholders remain same.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

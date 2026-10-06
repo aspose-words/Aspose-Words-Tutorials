@@ -22,13 +22,7 @@ title: 加载损坏的 Word 文档 – 检测问题并在 C# 中恢复受损的 
 url: /zh/net/programming-with-loadoptions/load-corrupted-word-document-detect-issues-recover-damaged-d/
 ---
 
-", "Repair" maybe keep as is. The description text translate.
-
-Proceed.
-
-Also other tables.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

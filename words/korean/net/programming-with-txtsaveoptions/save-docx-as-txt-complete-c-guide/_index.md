@@ -22,26 +22,6 @@ title: docx를 txt로 저장 – 완전한 C# 가이드
 url: /ko/net/programming-with-txtsaveoptions/save-docx-as-txt-complete-c-guide/
 ---
 
-supports .NET Framework 4.0 and higher. Just target the appropriate runtime. |
-
-Translate each question and answer, keep code snippets unchanged.
-
-Then "## Conclusion" translate.
-
-Paragraphs translate.
-
-Then "Next steps? Try **how to convert docx** to other formats such as HTML or PDF, experiment with custom text encoding, or integrate the conversion into an ASP .NET Core web service. The same principles—load, configure, save—apply across the board."
-
-Translate.
-
-Then "Happy coding, and may your plain‑text exports be ever clean!" translate.
-
-Then closing shortcodes.
-
-Make sure to preserve markdown formatting.
-
-Let's produce final Korean translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
