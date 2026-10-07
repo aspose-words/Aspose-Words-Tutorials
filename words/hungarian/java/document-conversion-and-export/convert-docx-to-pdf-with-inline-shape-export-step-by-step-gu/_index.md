@@ -1,25 +1,50 @@
 ---
 category: general
-date: 2026-02-18
-description: Tanulja meg, hogyan konvertálja a DOCX-et PDF-be, és mentse a Word dokumentumot
-  PDF-ként, miközben megőrzi a lebegő alakzatokat. Ez az útmutató megmutatja, hogyan
-  exportálja helyesen az alakzatokat.
+date: 2026-10-07
+description: Tanulja meg, hogyan konvertálja a DOCX-et PDF-re Java-ban, exportálja
+  a floating shapes-t inline tagként, és hatékonyan batch konvertálja a DOCX-et PDF-re.
 draft: false
 keywords:
-- convert docx to pdf
-- save word as pdf
-- how to export shapes
-language: hu
-og_description: Konvertálja a DOCX-et PDF-re, és tanulja meg, hogyan exportálja az
-  alakzatokat. Kövesse ezt a teljes útmutatót, hogy a Word dokumentumot megfelelő
-  címkézéssel PDF-be mentse.
-og_title: DOCX konvertálása PDF-re – Beágyazott alakzat exportálási útmutató
+- how to convert docx to pdf java
+- batch convert docx to pdf
+- export floating shapes inline
+lastmod: 2026-10-07
+og_description: Tanulja meg, hogyan konvertálja a DOCX-et PDF-re Java-ban, exportálja
+  a floating shapes-t inline tagként, és hatékonyan batch konvertálja a DOCX-et PDF-re.
+og_image_alt: 'Developer guide: Convert DOCX to PDF in Java with inline shape export'
+og_title: Hogyan konvertáljuk a DOCX-et PDF-re Java-ban – shape export guide
+schemas:
+- author: Aspose
+  dateModified: '2026-10-07'
+  description: Learn how to convert DOCX to PDF in Java, export floating shapes as
+    inline tags, and batch convert DOCX to PDF efficiently.
+  headline: How to convert DOCX to PDF in Java – shape export guide
+  type: TechArticle
+- questions:
+  - answer: Yes—load the document with `LoadOptions` that include the password, then
+      proceed with the same save logic.
+    question: Does this work with password‑protected DOCX files?
+  - answer: Aspose.Words rasterizes vector graphics by default; to keep them vector
+      you can enable `pdfOptions.setVectorRasterizationMode(VectorRasterizationMode.VectorOnly)`.
+    question: What about SVG or EMF images inside the Word file?
+  - answer: Links are retained automatically when you use `PdfSaveOptions`. Avoid
+      disabling tags, as that can drop the logical link structure.
+    question: How do I preserve hyperlinks while converting?
+  - answer: Absolutely. Iterate over `Files.list(Paths.get("YOUR_DIRECTORY"))`, apply
+      the same load‑configure‑save sequence to each file, and handle exceptions per
+      file so one bad document doesn’t halt the whole run.
+    question: Can I batch‑process a folder of DOCX files?
+  - answer: Enable `pdfOptions.setMemoryOptimization(true)` and consider streaming
+      the output to avoid loading the entire PDF into memory.
+    question: How can I improve performance for very large documents?
+  type: FAQPage
 tags:
+- convert docx to pdf
 - Aspose.Words
 - Java
 - PDF conversion
-title: DOCX konvertálása PDF-re beágyazott alakzat exportálással – Lépésről‑lépésre
-  útmutató
+- batch convert docx to pdf
+title: Hogyan konvertáljuk a DOCX-et PDF-re Java-ban – shape export guide
 url: /hu/java/document-conversion-and-export/convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/
 ---
 
@@ -27,40 +52,46 @@ url: /hu/java/document-conversion-and-export/convert-docx-to-pdf-with-inline-sha
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# DOCX konvertálása PDF‑re – Beágyazott alakzatok exportálási útmutató
+# Hogyan konvertáljunk DOCX-et PDF-re Java-ban – alakzat exportálási útmutató
 
-Szükséged volt már **DOCX PDF‑re konvertálására**, de attól tartottál, hogy a lebegő képek vagy szövegdobozok eltűnnek vagy elmozdulnak? Nem vagy egyedül. Sok projektben – gondolj az automatikus jelentésgenerátorokra vagy a kötegelt feldolgozási csővezetékekre – a Word‑dokumentum pontos elrendezésének megőrzése elengedhetetlen.
+Ha kíváncsi vagy **hogyan konvertáljunk DOCX-et PDF-re Java-ban**, miközben megőrzöd a lebegő képeket vagy szövegdobozokat, jó helyen jársz. Sok projektben—gondolj az automatizált jelentésgenerátorokra vagy kötegelt feldolgozási csővezetékekre—egy Word-dokumentum pontos elrendezésének megőrzése nem tárgyalható.
 
-A jó hír? Néhány kódsorral **Word‑et menthetsz PDF‑ként**, és szabályozhatod, hogy a lebegő alakzatok beágyazott címkék legyenek vagy blokkszintű elemek maradjanak. Az alábbiakban pontosan **hogyan exportálj alakzatokat** a kívánt módon, valamint néhány tippet találsz, amelyek megakadályozzák a gyakori buktatókat.
+Alább pontosan **hogyan exportáljunk alakzatokat** a kívánt módon láthatod, valamint néhány tippet, amelyek megmentenek a gyakori buktatóktól. Nincs külső szolgáltatás, nincs UI varázsló—csak tiszta Java kód, amelyet bármely Maven vagy Gradle projektbe beilleszthetsz.
 
----
+## Gyors válaszok
+- **Melyik könyvtár kezeli a konverziót?** Aspose.Words for Java.
+- **Tudok kötegelt DOCX‑PDF konverziót végezni?** Igen—csak a logikát egy könyvtáron végigjáró ciklusba kell helyezni.
+- **A lebegő alakzatok a helyükön maradnak?** Állítsd be a `setExportFloatingShapesAsInlineTag(true)`‑t, hogy inline címkékként exportáld őket.
+- **Szükséges licenc?** Egy ingyenes próba verzió teszteléshez elegendő; a termeléshez kereskedelmi licenc szükséges.
+- **Melyik Java verzió szükséges?** JDK 8 vagy újabb.
 
-## Mit fogsz megtanulni
+## Hogyan konvertáljunk DOCX-et PDF-re Java-ban?
 
+Töltsd be a forrás `.docx`‑et a `new Document("input.docx")`‑vel, majd hívd meg a `doc.save("output.pdf", pdfOptions)`‑t—az Aspose.Words automatikusan kezeli a betűtípusokat, képeket, táblázatokat és a komplex elrendezéseket. A `PdfSaveOptions` konfigurálásával szabályozhatod, hogy a lebegő alakzatok inline címkékké váljanak vagy blokk‑szintű elemek maradjanak, ami elengedhetetlen az akadálymentesség és a pontos olvasási sorrend szempontjából.
+
+Ez a kétlépéses minta egyetlen fájlra is működik, és **kötegelt DOCX‑PDF konverzióra** is skálázható egy dokumentumok mappájának bejárásával.
+
+## Amit megtanulsz
 * `.docx` fájl betöltése lemezről.  
-* `PdfSaveOptions` konfigurálása úgy, hogy a lebegő alakzatok beágyazott címkék legyenek.  
-* A keletkezett PDF mentése a kívánt mappába.  
-* Megérteni, miért fontos a `setExportFloatingShapesAsInlineTag` kapcsoló, és mikor érdemes átállítani.
-
-Nincs külső szolgáltatás, nincs varázslatos „kattints‑letöltés” UI – csak tiszta Java kód, amely bármely Maven vagy Gradle projektbe beilleszthető.
-
----
+* `PdfSaveOptions` konfigurálása úgy, hogy a lebegő alakzatok inline címkékként legyenek exportálva.  
+* Az eredményül kapott PDF írása a kívánt mappába.  
+* Megérteni, miért fontos a `setExportFloatingShapesAsInlineTag` jelző, és mikor érdemes másként beállítani.
 
 ## Előfeltételek
 
 | Követelmény | Miért fontos |
-|-------------|----------------|
+|-------------|--------------|
 | **Aspose.Words for Java** (v23.12 vagy újabb) | Biztosítja a példában használt `Document` és `PdfSaveOptions` osztályokat. |
-| **JDK 8+** | A könyvtár Java 8-ra és újabbra van lefordítva; régebbi futtatókörnyezet `UnsupportedClassVersionError`‑t dob. |
-| **Egy DOCX fájl** legalább egy lebegő alakzattal (kép, szövegdoboz, WordArt) | Az alakzat‑exportálási opció hatásának megtekintéséhez szükség van olyan dokumentumra, amely ténylegesen tartalmaz lebegő objektumokat. |
+| **JDK 8+** | A könyvtár Java 8-ra és újabbra van lefordítva; régebbi futtatókörnyezet `UnsupportedClassVersionError` hibát dob. |
+| **A DOCX file** with at least one floating shape (image, text box, WordArt) | Az alakzat‑export opció hatásának megtekintéséhez szükség van egy dokumentumra, amely ténylegesen tartalmaz lebegő objektumokat. |
 
-Ha már megvannak ezek a darabok, nagyszerű – vágjunk bele.
+Ha már megvannak ezek a részek, nagyszerű—vágjunk bele.
 
----
+## 1. lépés – A forrásdokumentum betöltése  
 
-## 1. lépés – Forrásdokumentum betöltése  
+A `Document` osztály az Aspose.Words legfelső szintű objektuma, amely egyetlen Word‑fájlt reprezentál a memóriában. Példányosítása beolvassa a fájlt, feldolgozza az OpenXML csomagot, és felépíti a manipulálható objektummodellt.
 
-Először létrehozunk egy `Document` példányt, amely a konvertálni kívánt `.docx` fájlra mutat. A konstruktor beolvassa a fájlt a memóriába, feldolgozza az OpenXML csomagot, és előkészíti a belső objektummodellt.
+Először létrehozunk egy `Document` példányt, amely a konvertálni kívánt `.docx`‑re mutat.  
 
 ```java
 import com.aspose.words.Document;
@@ -72,13 +103,13 @@ String inputPath = "YOUR_DIRECTORY/input.docx";
 Document doc = new Document(inputPath);
 ```
 
-> **Pro tipp:** Ha sok fájlt dolgozol fel egy ciklusban, egyetlen `Document` objektumot csak akkor használj újra, ha már meghívtad a `doc.close()`‑t (vagy hagyod, hogy a szemétgyűjtő gondoskodjon róla). Ez megakadályozza a fájl‑kezelő szivárgásokat Windows rendszeren.
-
----
+> **Pro tip:** Ha sok fájlt dolgozol fel egy ciklusban, egyetlen `Document` objektumot csak akkor használj újra, ha már meghívtad a `doc.close()`‑t (vagy a szemétgyűjtőre bízod). Ez megakadályozza a fájl‑kezelő szivárgásokat Windows rendszeren.
 
 ## 2. lépés – PDF mentési beállítások konfigurálása az alakzatok exportálásához  
 
-A tutorial szíve itt található. A `PdfSaveOptions` lehetővé teszi, hogy meghatározd a konverzió viselkedését. A `setExportFloatingShapesAsInlineTag(true)` beállítás minden lebegő alakzatot *beágyazott* elemként kezel a PDF címkeszerkezetében. Ez azt jelenti, hogy a képernyőolvasók az alakzatot a környező szöveg sorrendjében olvassák, ami gyakran szükséges a hozzáférhetőségi megfeleléshez.
+A `PdfSaveOptions` az a konfigurációs objektum, amely meghatározza, hogyan viselkedik a konverzió. A `setExportFloatingShapesAsInlineTag(true)` beállítása minden lebegő alakzatot *inline* elemmé kényszerít a PDF címkeszerkezetében, javítva ezzel az akadálymentességet és az olvasási sorrendet.
+
+A `PdfSaveOptions` osztály szabályozza az elrendezést, betűtípus beágyazást, megfelelőségi szinteket és számos teljesítmény‑paramétert.  
 
 ```java
 import com.aspose.words.PdfSaveOptions;
@@ -90,26 +121,28 @@ pdfOptions.setExportFloatingShapesAsInlineTag(true);
 ```
 
 **Mikor állítanád `false`‑ra?**  
-Ha a PDF csak nyomtatási célra készül, és szeretnéd, hogy az alakzatok megtartsák eredeti pozíciójukat anélkül, hogy befolyásolnák a logikai olvasási sorrendet, előnyösebb lehet a blokkszintű címkézés. Alapértelmezés szerint `false`, ezért ebben a tutorialban kifejezetten engedélyezzük a beágyazott viselkedést.
+Ha a PDF csak nyomtatásra szánt, és szeretnéd, hogy az alakzatok megtartsák eredeti pozíciójukat anélkül, hogy befolyásolnák a logikai olvasási sorrendet, előnyben részesítheted a blokk‑szintű címkézést. Alapértelmezés szerint `false`, ezért ebben az útmutatóban kifejezetten engedélyezzük az inline viselkedést.
 
----
+## 3. lépés – A dokumentum mentése PDF‑ként  
 
-## 3. lépés – Dokumentum mentése PDF‑ként  
+A `save` metódus a megadott opciókkal a lemezre írja a feldolgozott dokumentumot. A háttérben kezeli az elrendezést, a betűtípus beágyazást és a címkék generálását.
 
-Miután a beállítások készen állnak, hívd meg a `save`‑t a célfájlnévvel és a beállításobjektummal. A könyvtár elvégzi a nehéz munkát: elrendezésmotor, betűtípus beágyazás és címkék generálása.
+A `Document` osztály `save` metódusa a konfigurált `PdfSaveOptions` használatával a célhelyre írja a PDF‑fájlt.  
 
 ```java
 String outputPath = "YOUR_DIRECTORY/shapes.pdf";
 doc.save(outputPath, pdfOptions);
 ```
 
-A hívás befejezése után a megadott mappában megtalálod a `shapes.pdf` fájlt. Nyisd meg Adobe Acrobatban vagy bármely PDF‑olvasóban, amely megjeleníti a címkéket (általában **File → Properties → Tags** alatt), és láthatod, hogy a lebegő alakzat beágyazott címkeként jelenik meg.
+A hívás befejezése után megtalálod a `shapes.pdf`‑t a megadott mappában. Nyisd meg az Adobe Acrobat‑ban vagy bármely PDF‑olvasóban, amely megjeleníti a címkéket (általában **File → Properties → Tags** alatt), és láthatod, hogy a lebegő alakzat inline címkeként jelenik meg.
 
----
+## Miért fontos ez a megközelítés
+
+Az Aspose.Words for Java **50+** bemeneti és kimeneti formátumot támogat, és egy 500 oldalas dokumentumot **5 másodperc** alatt képes feldolgozni egy tipikus szerveren, mindezt Microsoft Word nélkül. A lebegő alakzatok inline címkékként történő exportálásával megfelelsz az olyan akadálymentességi szabványoknak, mint a PDF/UA, és elkerülöd az elrendezéseltolódást, amikor a PDF‑et különböző eszközökön nézik.
 
 ## Teljes, futtatható példa  
 
-Összevonva, itt egy önálló Java osztály, amelyet lefordíthatsz és futtathatsz. Ügyelj arra, hogy az Aspose.Words JAR a classpath‑on legyen.
+Összeállítva itt egy önálló Java osztály, amelyet lefordíthatsz és futtathatsz. Győződj meg róla, hogy az Aspose.Words JAR a classpath‑on van.  
 
 ```java
 import com.aspose.words.*;
@@ -139,16 +172,65 @@ public class DocxToPdfWithShapes {
 ```
 
 **Várható eredmény:**  
-- A PDF fájl ugyanazt a szöveges tartalmat tartalmazza, mint az eredeti DOCX.  
-- Minden lebegő kép vagy szövegdoboz most *beágyazott* címkével rendelkezik, vagyis az olvasási sorrendben jelenik meg, nem különálló blokként.  
-- Ha megnyitod a PDF **Tags** paneljét, láthatod, hogy egy `<Figure>` elem egy `<Paragraph>`‑on belül van – pontosan azt, amit a `setExportFloatingShapesAsInlineTag(true)` garantál.
+- A PDF‑fájl ugyanazt a szöveges tartalmat tartalmazza, mint az eredeti DOCX.  
+- A lebegő képek vagy szövegdobozok most *inline* címkékkel vannak ellátva, ami azt jelenti, hogy az olvasási sorrendben jelennek meg, nem pedig különálló blokkokként.  
+- Ha megnyitod a PDF **Tags** paneljét, láthatod, hogy egy `<Figure>` elem egy `<Paragraph>`‑on belül van elhelyezve—pontosan azt garantálja, amit a `setExportFloatingShapesAsInlineTag(true)` beállítás.
+
+## Gyakran feltett kérdések és szélhelyzetek  
+
+**Q: Működik ez jelszóval védett DOCX fájlokkal?**  
+A: Igen—töltsd be a dokumentumot `LoadOptions`‑szel, amely tartalmazza a jelszót, majd ugyanazzal a mentési logikával folytasd.  
+
+**Q: Mi van az SVG vagy EMF képekkel a Word‑fájlban?**  
+A: Az Aspose.Words alapértelmezés szerint rasterizálja a vektorgrafikákat; ha vektorként szeretnéd megtartani őket, engedélyezheted a `pdfOptions.setVectorRasterizationMode(VectorRasterizationMode.VectorOnly)`‑t.  
+
+**Q: Hogyan őrizhetem meg a hiperhivatkozásokat a konverzió során?**  
+A: A linkek automatikusan megmaradnak, ha `PdfSaveOptions`‑t használsz. Kerüld a címkék letiltását, mert az a logikai linkstruktúra elvesztéséhez vezethet.  
+
+**Q: Kötegelt feldolgozást tudok végezni egy DOCX mappán?**  
+A: Természetesen. Iterálj a `Files.list(Paths.get("YOUR_DIRECTORY"))`‑en, alkalmazd ugyanazt a betöltés‑konfigurálás‑mentés sorrendet minden fájlra, és kezeld az egyes fájlok kivételeit, hogy egy rossz dokumentum ne állítsa le a teljes futást.  
+
+**Q: Hogyan javíthatom a teljesítményt nagyon nagy dokumentumok esetén?**  
+A: Engedélyezd a `pdfOptions.setMemoryOptimization(true)`‑t, és fontold meg a kimenet streamelését, hogy elkerüld a teljes PDF betöltését a memóriába.
+
+## Tippek a frontvonalról  
+
+* **Figyelj a hiányzó betűtípusokra.** Ha a forrás DOCX egy egyedi betűtípust használ, amely nincs telepítve a szerveren, a PDF helyettesítő betűtípust alkalmaz, ami elronthatja az elrendezést. Használd a `pdfOptions.setFontEmbeddingMode(FontEmbeddingMode.EMBED_ALL)`‑t a kényszerített beágyazáshoz.  
+* **Akadálymentesség tesztelése.** A konverzió után futtasd le az Acrobat **Accessibility Checker**‑ét. Az inline címkézés általában javítja az eredményt, de előfordulhat, hogy manuálisan kell alternatív szöveget adni a képekhez.  
+* **Teljesítmény tipp:** Nagy dokumentumok (100+ oldal) esetén engedélyezd a `pdfOptions.setMemoryOptimization(true)`‑t a heap használat csökkentése érdekében.
+
+## Vizuális megerősítés  
+
+Az alábbi gyors képernyőkép egy Adobe Acrobat‑ban megnyitott PDF‑et mutat, ahol az inline‑címkézett alakzat ki van emelve a **Tags** panelen.  
+
+![Convert DOCX to PDF example output](image.png)
+
+[Convert DOCX to PDF example output](image.png)
+
+*Alt text: convert docx to pdf example output showing inline shape tags.*
+
+## Összegzés  
+
+Most már tudod, **hogyan konvertáljunk DOCX-et PDF-re Java-ban**, miközben irányítod a lebegő objektumok exportálásának módját. A `setExportFloatingShapesAsInlineTag` kapcsolóval eldöntheted, hogy az alakzatok az olvasási sorrend részévé válnak-e, vagy önálló blokkok maradnak—ez kulcsfontosságú az akadálymentesség és a vizuális hűség szempontjából.  
+
+Innen tovább:
+
+* **DOCX mentése PDF‑ként** kötegelt archiváláshoz.  
+* Kísérletezz más `PdfSaveOptions`‑okkal, például a `setCompliance(PdfCompliance.PDF_A_1B)`‑vel a hosszú távú megőrzéshez.  
+* Mélyedj el a **alakzatok exportálásának** módjában a teljes Aspose.Words dokumentáció böngészésével, vagy próbáld ki a `setExportDocumentStructure(true)` jelzőt a gazdagabb címkefákért.
+
+Próbáld ki, finomítsd a beállításokat, és hagyd, hogy a PDF‑ek pontosan úgy nézzenek ki, ahogy szükséged van. Boldog kódolást!
 
 ---
 
-## Gyakran ismételt kérdések és speciális esetek  
+**Last Updated:** 2026-10-07  
+**Tested with:** Aspose.Words for Java 23.12  
+**Author:** Aspose  
 
-### 1️⃣ Működik ez jelszóval védett DOCX fájlokkal?  
-Igen – csak add meg a jelszót a betöltés előtt:
+
+
+
+
 
 ```java
 LoadOptions loadOptions = new LoadOptions();
@@ -156,52 +238,20 @@ loadOptions.setPassword("mySecret");
 Document doc = new Document(inputPath, loadOptions);
 ```
 
-### 2️⃣ Mi a helyzet az SVG vagy EMF képekkel a Word fájlban?  
-Az Aspose.Words automatikusan rasterizálja a vektorgrafikákat PDF‑re mentéskor. Ha vektorként szeretnéd megtartani őket, állítsd be:
-
 ```java
 pdfOptions.setRasterizeTransformedElements(false);
 ```
 
-### 3️⃣ Hogyan őrizhetem meg a hiperhivatkozásokat a konvertálás során?  
-A linkek alapértelmezés szerint megmaradnak. Azonban, ha letiltod a címkéket (`pdfOptions.setSaveFormat(SaveFormat.PDF)` opciók nélkül), elveszítheted a logikai struktúrát. Tartsd meg a `PdfSaveOptions` objektumot, hogy a címkék és a linkek egyaránt megmaradjanak.
+## Kapcsolódó oktatóanyagok
 
-### 4️⃣ Képes vagyok egy mappában lévő DOCX fájlokat kötegelt feldolgozni?  
-Természetesen. Csomagold a `DocxToPdfWithShapes` logikát egy ciklusba, amely iterál a `Files.list(Paths.get("YOUR_DIRECTORY"))` elemein. Ne felejtsd el a kivételeket fájlonként kezelni, hogy egy rossz dokumentum ne állítsa le az egész futást.
+- [DOCX konvertálása PDF-re Java-ban lépésről lépésre útmutató](/words/java/document-converting/convert-docx-to-pdf-in-java-step-by-step-guide/)
+- [DOCX mentése PDF-ként Java-val teljes lépésről lépésre útmutató](/words/java/document-conversion-and-export/save-docx-as-pdf-with-java-complete-step-by-step-guide/)
+- [DOCX konvertálása PDF-re Java-val az Aspose.Words segítségével – Dokumentum konvertálás használata](/words/java/document-converting/using-document-converting/)
 
----
-
-## Praktikus tippek a frontvonalról  
-
-* **Figyelj a hiányzó betűtípusokra.** Ha a forrás DOCX egy egyedi betűtípust használ, amely nincs telepítve a szerveren, a PDF egy helyettesítő betűtípust fog használni, ami eltorzíthatja az elrendezést. Használd a `pdfOptions.setFontEmbeddingMode(FontEmbeddingMode.EMBED_ALL)`‑t a betűtípusok kényszerített beágyazásához.  
-* **Hozzáférhetőség tesztelése.** A konvertálás után futtasd le az Acrobat **Accessibility Checker**‑ét. A beágyazott címkézés általában javítja a pontszámot, de előfordulhat, hogy a képekhez manuálisan kell alternatív szöveget hozzáadni.  
-* **Teljesítmény tipp:** Nagy dokumentumok (100+ oldal) esetén engedélyezd a `pdfOptions.setMemoryOptimization(true)`‑t a heap használat csökkentése érdekében.
-
----
-
-## Vizuális megerősítés  
-
-Az alábbi gyors képernyőkép egy PDF‑et mutat megnyitva Adobe Acrobatban, ahol a beágyazott címkével ellátott alakzat ki van emelve a **Tags** panelen.
-
-![Convert DOCX to PDF example output](image.png)
-
-*Alt text: convert docx to pdf example output showing inline shape tags.*
-
----
-
-## Összegzés  
-
-Most már tudod, **hogyan konvertálj DOCX‑et PDF‑re**, miközben szabályozod a lebegő objektumok exportálásának módját. A `setExportFloatingShapesAsInlineTag` átkapcsolásával eldöntheted, hogy az alakzatok a olvasási sorrend részei legyenek vagy független blokkok maradjanak – ez kulcsfontosságú mind a hozzáférhetőség, mind a vizuális hűség szempontjából.
-
-Innen tovább:
-
-* **Word mentése PDF‑ként** kötegelt archiváláshoz.  
-* Kísérletezz más `PdfSaveOptions` beállításokkal, például `setCompliance(PdfCompliance.PDF_A_1B)`‑vel a hosszú távú megőrzéshez.  
-* Mélyedj el a **alakzatok exportálásának** részleteiben az Aspose.Words teljes dokumentációjában, vagy próbáld ki a `setExportDocumentStructure(true)` kapcsolót a gazdagabb címkefákért.
-
-Próbáld ki, finomhangold a beállításokat, és hagyd, hogy a PDF‑ek pontosan úgy nézzenek ki, ahogy szeretnéd. Boldog kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

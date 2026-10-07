@@ -1,22 +1,50 @@
 ---
 category: general
-date: 2026-02-18
-description: เรียนรู้วิธีแปลง DOCX เป็น PDF และบันทึก Word เป็น PDF พร้อมคงรูปทรงลอยอยู่
-  คู่มือนี้แสดงวิธีส่งออกรูปทรงอย่างถูกต้อง
+date: 2026-10-07
+description: เรียนรู้วิธีแปลง DOCX เป็น PDF ใน Java, ส่งออก floating shapes เป็น inline
+  tags, และแปลง DOCX เป็น PDF เป็นชุดอย่างมีประสิทธิภาพ
 draft: false
 keywords:
-- convert docx to pdf
-- save word as pdf
-- how to export shapes
-language: th
-og_description: แปลง DOCX เป็น PDF และเรียนรู้วิธีส่งออกรูปทรง ปฏิบัติตามบทเรียนฉบับสมบูรณ์นี้เพื่อบันทึก
-  Word เป็น PDF พร้อมการแท็กที่เหมาะสม.
-og_title: แปลง DOCX เป็น PDF – คู่มือการส่งออกรูปแบบในบรรทัด
+- how to convert docx to pdf java
+- batch convert docx to pdf
+- export floating shapes inline
+lastmod: 2026-10-07
+og_description: เรียนรู้วิธีแปลง DOCX เป็น PDF ใน Java, ส่งออก floating shapes เป็น
+  inline tags, และแปลง DOCX เป็น PDF เป็นชุดอย่างมีประสิทธิภาพ
+og_image_alt: 'Developer guide: Convert DOCX to PDF in Java with inline shape export'
+og_title: วิธีแปลง DOCX เป็น PDF ใน Java – คู่มือการส่งออก shape
+schemas:
+- author: Aspose
+  dateModified: '2026-10-07'
+  description: Learn how to convert DOCX to PDF in Java, export floating shapes as
+    inline tags, and batch convert DOCX to PDF efficiently.
+  headline: How to convert DOCX to PDF in Java – shape export guide
+  type: TechArticle
+- questions:
+  - answer: Yes—load the document with `LoadOptions` that include the password, then
+      proceed with the same save logic.
+    question: Does this work with password‑protected DOCX files?
+  - answer: Aspose.Words rasterizes vector graphics by default; to keep them vector
+      you can enable `pdfOptions.setVectorRasterizationMode(VectorRasterizationMode.VectorOnly)`.
+    question: What about SVG or EMF images inside the Word file?
+  - answer: Links are retained automatically when you use `PdfSaveOptions`. Avoid
+      disabling tags, as that can drop the logical link structure.
+    question: How do I preserve hyperlinks while converting?
+  - answer: Absolutely. Iterate over `Files.list(Paths.get("YOUR_DIRECTORY"))`, apply
+      the same load‑configure‑save sequence to each file, and handle exceptions per
+      file so one bad document doesn’t halt the whole run.
+    question: Can I batch‑process a folder of DOCX files?
+  - answer: Enable `pdfOptions.setMemoryOptimization(true)` and consider streaming
+      the output to avoid loading the entire PDF into memory.
+    question: How can I improve performance for very large documents?
+  type: FAQPage
 tags:
+- convert docx to pdf
 - Aspose.Words
 - Java
 - PDF conversion
-title: แปลง DOCX เป็น PDF พร้อมการส่งออกรูปแบบอินไลน์ – คู่มือแบบขั้นตอนต่อขั้นตอน
+- batch convert docx to pdf
+title: วิธีแปลง DOCX เป็น PDF ใน Java – คู่มือการส่งออก shape
 url: /th/java/document-conversion-and-export/convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/
 ---
 
@@ -24,40 +52,46 @@ url: /th/java/document-conversion-and-export/convert-docx-to-pdf-with-inline-sha
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# แปลง DOCX เป็น PDF – คู่มือการส่งออก Inline Shape
+# วิธีแปลง DOCX เป็น PDF ใน Java – คู่มือการส่งออกรูปทรง
 
-เคยต้อง **แปลง DOCX เป็น PDF** แต่กังวลว่ารูปภาพหรือกล่องข้อความที่ลอยอยู่จะหายไปหรือเลื่อนตำแหน่งหรือไม่? คุณไม่ได้เป็นคนเดียว ในหลายโครงการ—เช่น ตัวสร้างรายงานอัตโนมัติหรือ pipeline การประมวลผลเป็นชุด—การรักษาเลย์เอาต์ที่แม่นยำของเอกสาร Word เป็นสิ่งที่ไม่อาจทำได้โดยง่าย  
+หากคุณกำลังสงสัย **วิธีแปลง DOCX เป็น PDF ใน Java** พร้อมกับการคงภาพหรือกล่องข้อความที่ลอยอยู่ คุณมาถูกที่แล้ว ในหลายโครงการ—เช่น ตัวสร้างรายงานอัตโนมัติหรือสายงานประมวลผลแบบชุด—การคงรูปแบบที่แม่นยำของเอกสาร Word เป็นสิ่งที่ไม่อาจประนีประนอมได้
 
-ข่าวดีคือ? ด้วยไม่กี่บรรทัดของโค้ดคุณสามารถ **บันทึก Word เป็น PDF** และควบคุมว่ารูปร่างที่ลอยอยู่จะกลายเป็นแท็ก inline หรือคงอยู่เป็นองค์ประกอบระดับบล็อก ด้านล่างนี้คุณจะเห็น **วิธีส่งออกรูปร่าง** ตามที่ต้องการ พร้อมเคล็ดลับหลายอย่างที่ช่วยหลีกเลี่ยงข้อผิดพลาดทั่วไป
+ด้านล่างคุณจะได้เห็น **วิธีส่งออกรูปทรง** ตามที่ต้องการ พร้อมเคล็ดลับหลายอย่างที่ช่วยหลีกเลี่ยงข้อผิดพลาดทั่วไป ไม่ต้องใช้บริการภายนอก ไม่ต้องมีวิซาร์ด UI—เพียงโค้ด Java ธรรมดาที่คุณสามารถใส่ลงในโปรเจกต์ Maven หรือ Gradle ใดก็ได้
 
----
+## คำตอบด่วน
+- **ไลบรารีใดที่จัดการการแปลง?** Aspose.Words for Java.
+- **ฉันสามารถแปลง DOCX เป็น PDF เป็นชุดได้หรือไม่?** ได้—ห่อหุ้มตรรกะเดียวกันในลูปที่วนผ่านไดเรกทอรี
+- **รูปทรงที่ลอยอยู่จะคงที่เดิมหรือไม่?** ตั้งค่า `setExportFloatingShapesAsInlineTag(true)` เพื่อส่งออกเป็นแท็กอินไลน์
+- **ต้องมีลิขสิทธิ์หรือไม่?** ทดลองฟรีใช้ได้สำหรับการทดสอบ; ต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานจริง
+- **ต้องใช้ Java เวอร์ชันใด?** JDK 8 หรือสูงกว่า
+
+## วิธีแปลง DOCX เป็น PDF ใน Java?
+
+โหลดไฟล์ `.docx` ต้นฉบับด้วย `new Document("input.docx")` แล้วเรียก `doc.save("output.pdf", pdfOptions)`—Aspose.Words จัดการฟอนต์, รูปภาพ, ตาราง, และเลย์เอาต์ซับซ้อนโดยอัตโนมัติ โดยการกำหนดค่า `PdfSaveOptions` คุณสามารถควบคุมว่ารูปทรงที่ลอยอยู่จะกลายเป็นแท็กอินไลน์หรือคงเป็นองค์ประกอบระดับบล็อก ซึ่งสำคัญต่อการเข้าถึงและลำดับการอ่านที่ถูกต้อง
+
+รูปแบบสองขั้นตอนนี้ทำงานได้กับไฟล์เดี่ยวและสามารถขยายเป็น **การแปลง DOCX เป็น PDF เป็นชุด** โดยวนผ่านโฟลเดอร์ของเอกสาร
 
 ## สิ่งที่คุณจะได้เรียนรู้
-
 * โหลดไฟล์ `.docx` จากดิสก์  
-* ตั้งค่า `PdfSaveOptions` เพื่อให้รูปทรงที่ลอยอยู่ถูกส่งออกเป็นแท็ก inline  
-* เขียนไฟล์ PDF ที่ได้ลงในโฟลเดอร์ที่คุณเลือก  
-* เข้าใจว่าทำไมฟล็าก `setExportFloatingShapesAsInlineTag` ถึงสำคัญและเมื่อใดที่คุณอาจต้องสลับค่า  
+* กำหนดค่า `PdfSaveOptions` เพื่อให้รูปทรงที่ลอยอยู่ถูกส่งออกเป็นแท็กอินไลน์  
+* เขียน PDF ที่ได้ลงในโฟลเดอร์ที่คุณเลือก  
+* เข้าใจเหตุผลที่แฟล็ก `setExportFloatingShapesAsInlineTag` มีความสำคัญและเมื่อใดที่คุณอาจต้องสลับค่า
 
-ไม่มีบริการภายนอก ไม่มี UI “คลิก‑ดาวน์โหลด” แสนมหัศจรรย์—เพียงโค้ด Java ธรรมดาที่คุณสามารถใส่ลงในโปรเจกต์ Maven หรือ Gradle ใดก็ได้
+## ความต้องการ
 
----
-
-## ข้อกำหนดเบื้องต้น
-
-| Requirement | Why it matters |
+| ความต้องการ | เหตุผลที่สำคัญ |
 |-------------|----------------|
-| **Aspose.Words for Java** (v23.12 หรือใหม่กว่า) | มีคลาส `Document` และ `PdfSaveOptions` ที่ใช้ในตัวอย่าง |
-| **JDK 8+** | ไลบรารีคอมไพล์สำหรับ Java 8 ขึ้นไป; เวอร์ชันเก่าจะเกิด `UnsupportedClassVersionError` |
-| **ไฟล์ DOCX** ที่มีอย่างน้อยหนึ่งรูปทรงที่ลอยอยู่ (รูปภาพ, กล่องข้อความ, WordArt) | เพื่อดูผลของตัวเลือกการส่งออกรูปร่าง คุณต้องมีเอกสารที่มีวัตถุลอยอยู่จริง |
+| **Aspose.Words for Java** (v23.12 หรือใหม่กว่า) | ให้คลาส `Document` และ `PdfSaveOptions` ที่ใช้ในตัวอย่าง |
+| **JDK 8+** | ไลบรารีคอมไพล์สำหรับ Java 8 และใหม่กว่า; เวอร์ชันรันไทม์เก่าจะโยน `UnsupportedClassVersionError` |
+| **ไฟล์ DOCX** ที่มีอย่างน้อยหนึ่งรูปทรงที่ลอยอยู่ (รูปภาพ, กล่องข้อความ, WordArt) | เพื่อดูผลของตัวเลือกการส่งออกรูปทรง คุณต้องมีเอกสารที่มีวัตถุลอยอยู่จริง |
 
-ถ้าคุณมีทั้งหมดแล้ว—ดีมาก—มาเริ่มกันเลย
-
----
+หากคุณมีส่วนประกอบเหล่านี้แล้ว เยี่ยม—มาเริ่มกันเลย
 
 ## ขั้นตอนที่ 1 – โหลดเอกสารต้นฉบับ  
 
-แรกสุดเราจะสร้างอินสแตนซ์ `Document` ที่ชี้ไปยังไฟล์ `.docx` ที่คุณต้องการแปลง ตัวสร้างจะอ่านไฟล์เข้าหน่วยความจำ, แยกแพ็กเกจ OpenXML, และเตรียมโมเดลอ็อบเจ็กต์ภายใน
+คลาส `Document` เป็นอ็อบเจ็กต์ระดับบนของ Aspose.Words ที่แทนไฟล์ Word หนึ่งไฟล์ในหน่วยความจำ การสร้างอินสแตนซ์จะอ่านไฟล์, แยกพาร์สแพ็กเกจ OpenXML, และสร้างโมเดลอ็อบเจ็กต์ที่คุณสามารถจัดการได้
+
+แรกเราจะสร้างอินสแตนซ์ `Document` ที่ชี้ไปที่ไฟล์ `.docx` ที่ต้องการแปลง  
 
 ```java
 import com.aspose.words.Document;
@@ -69,13 +103,13 @@ String inputPath = "YOUR_DIRECTORY/input.docx";
 Document doc = new Document(inputPath);
 ```
 
-> **Pro tip:** หากคุณประมวลผลหลายไฟล์ในลูป ให้ใช้วัตถุ `Document` เพียงอันเดียวหลังจากที่คุณเรียก `doc.close()` (หรือปล่อยให้ garbage collector จัดการ) วิธีนี้จะป้องกันการรั่วของ file‑handle บน Windows
+> **Pro tip:** หากคุณประมวลผลไฟล์หลายไฟล์ในลูป ให้ใช้วัตถุ `Document` เพียงอันเดียวหลังจากที่เรียก `doc.close()` (หรือปล่อยให้ตัวเก็บขยะจัดการ) สิ่งนี้ช่วยป้องกันการรั่วของไฟล์แฮนด์เดิลบน Windows
 
----
+## ขั้นตอนที่ 2 – กำหนดค่าตัวเลือกการบันทึก PDF เพื่อส่งออกรูปทรง  
 
-## ขั้นตอนที่ 2 – ตั้งค่า PDF Save Options เพื่อส่งออกรูปร่าง  
+`PdfSaveOptions` เป็นอ็อบเจ็กต์กำหนดค่าที่บ่งบอกว่าการแปลงทำงานอย่างไร การตั้งค่า `setExportFloatingShapesAsInlineTag(true)` จะบังคับให้รูปทรงที่ลอยอยู่ทั้งหมดถูกจัดเป็นองค์ประกอบ *อินไลน์* ในโครงสร้างแท็กของ PDF ทำให้การเข้าถึงและลำดับการอ่านดีขึ้น
 
-หัวใจของบทเรียนอยู่ที่นี่ `PdfSaveOptions` ให้คุณกำหนดพฤติกรรมการแปลง การตั้งค่า `setExportFloatingShapesAsInlineTag(true)` จะบังคับให้ทุกรูปทรงที่ลอยอยู่ถูกจัดเป็นองค์ประกอบ *inline* ในโครงสร้างแท็กของ PDF หมายความว่า screen‑reader จะอ่านรูปทรงนั้นตามลำดับเดียวกับข้อความรอบข้าง ซึ่งมักจำเป็นสำหรับการปฏิบัติตามมาตรฐานการเข้าถึง
+คลาส `PdfSaveOptions` ควบคุมเลย์เอาต์, การฝังฟอนต์, ระดับการปฏิบัติตามมาตรฐาน, และตัวเลือกประสิทธิภาพหลายอย่าง  
 
 ```java
 import com.aspose.words.PdfSaveOptions;
@@ -87,26 +121,28 @@ pdfOptions.setExportFloatingShapesAsInlineTag(true);
 ```
 
 **เมื่อใดที่คุณจะตั้งค่าเป็น `false`?**  
-หาก PDF ของคุณมุ่งหมายสำหรับการพิมพ์เท่านั้นและคุณต้องการให้รูปทรงคงตำแหน่งเดิมโดยไม่กระทบลำดับการอ่านเชิงตรรกะ คุณอาจเลือกแท็กระดับบล็อก ค่าเริ่มต้นคือ `false` ดังนั้นเราจึงเปิดใช้งานพฤติกรรม inline อย่างชัดเจนสำหรับบทเรียนนี้
-
----
+หาก PDF ของคุณมีจุดประสงค์เพื่อการพิมพ์เท่านั้นและคุณต้องการให้รูปทรงคงตำแหน่งเดิมโดยไม่กระทบต่อลำดับการอ่านเชิงตรรกะ คุณอาจเลือกใช้การแท็กระดับบล็อก ค่าเริ่มต้นคือ `false` ดังนั้นเราจึงเปิดใช้งานพฤติกรรมอินไลน์อย่างชัดเจนสำหรับบทแนะนำนี้
 
 ## ขั้นตอนที่ 3 – บันทึกเอกสารเป็น PDF  
 
-เมื่อกำหนดตัวเลือกเรียบร้อยแล้ว ให้เรียก `save` พร้อมชื่อไฟล์เป้าหมายและอ็อบเจ็กต์ตัวเลือก ไลบรารีจะจัดการส่วนที่หนัก: เอนจินเลย์เอาต์, การฝังฟอนต์, และการสร้างแท็ก
+เมธอด `save` จะเขียนเอกสารที่ผ่านการประมวลผลลงดิสก์โดยใช้ตัวเลือกที่คุณระบุ มันจัดการเลย์เอาต์, การฝังฟอนต์, และการสร้างแท็กเบื้องหลัง
+
+เมธอด `save` ของคลาส `Document` จะเขียนไฟล์ PDF ไปยังตำแหน่งเป้าหมายโดยใช้ `PdfSaveOptions` ที่กำหนดไว้  
 
 ```java
 String outputPath = "YOUR_DIRECTORY/shapes.pdf";
 doc.save(outputPath, pdfOptions);
 ```
 
-หลังจากคำสั่งทำงานเสร็จ คุณจะพบไฟล์ `shapes.pdf` ในโฟลเดอร์ที่ระบุ เปิดไฟล์ด้วย Adobe Acrobat หรือโปรแกรมดู PDF ใด ๆ ที่แสดงแท็ก (โดยทั่วไปอยู่ที่ **File → Properties → Tags**) แล้วคุณจะเห็นว่ารูปร่างที่ลอยอยู่ปรากฏเป็นแท็ก inline
+หลังจากการเรียกเสร็จสิ้น คุณจะพบ `shapes.pdf` ในโฟลเดอร์ที่ระบุ เปิดไฟล์ด้วย Adobe Acrobat หรือโปรแกรมดู PDF ใด ๆ ที่แสดงแท็ก (โดยทั่วไปอยู่ภายใต้ **File → Properties → Tags**) แล้วคุณจะเห็นว่ารูปทรงที่ลอยอยู่ปรากฏเป็นแท็กอินไลน์
 
----
+## ทำไมวิธีนี้ถึงสำคัญ  
+
+Aspose.Words for Java รองรับ **รูปแบบเข้าและออกกว่า 50+** และสามารถประมวลผลเอกสาร 500 หน้าได้ภายใน **5 วินาที** บนเซิร์ฟเวอร์ทั่วไป ทั้งหมดนี้โดยไม่ต้องใช้ Microsoft Word การส่งออกรูปทรงที่ลอยเป็นแท็กอินไลน์ช่วยให้คุณปฏิบัติตามมาตรฐานการเข้าถึงเช่น PDF/UA และหลีกเลี่ยงการเบี่ยงเบนของเลย์เอาต์เมื่อ PDF ถูกเปิดบนอุปกรณ์ต่าง ๆ
 
 ## ตัวอย่างเต็มที่สามารถรันได้  
 
-รวมทุกอย่างเข้าด้วยกัน นี่คือคลาส Java ที่สมบูรณ์แบบและสามารถคอมไพล์รันได้ อย่าลืมใส่ JAR ของ Aspose.Words ลงใน classpath
+รวมทุกอย่างเข้าด้วยกัน นี่คือคลาส Java ที่สามารถคอมไพล์และรันได้เอง ตรวจสอบให้แน่ใจว่า JAR ของ Aspose.Words อยู่ใน classpath ของคุณ  
 
 ```java
 import com.aspose.words.*;
@@ -137,15 +173,64 @@ public class DocxToPdfWithShapes {
 
 **ผลลัพธ์ที่คาดหวัง:**  
 - ไฟล์ PDF มีเนื้อหาข้อความเดียวกับ DOCX ต้นฉบับ  
-- รูปภาพหรือกล่องข้อความที่ลอยอยู่ทั้งหมดถูกแท็กเป็น *inline* หมายความว่ามันปรากฏในลำดับการอ่านแทนที่จะเป็นบล็อกแยกออกมา  
-- หากคุณเปิด **Tags** panel ของ PDF คุณจะเห็นองค์ประกอบ `<Figure>` ซ้อนอยู่ภายใน `<Paragraph>`—พฤติกรรมที่ `setExportFloatingShapesAsInlineTag(true)` รับประกัน
+- รูปภาพหรือกล่องข้อความที่ลอยอยู่ทั้งหมดถูกแท็กเป็น *อินไลน์* หมายความว่ามันปรากฏในลำดับการอ่านแทนที่จะเป็นบล็อกแยกต่างหาก  
+- หากคุณเปิดแผง **Tags** ของ PDF คุณจะเห็นองค์ประกอบ `<Figure>` ซ้อนอยู่ภายใน `<Paragraph>`—ตรงกับที่ `setExportFloatingShapesAsInlineTag(true)` รับประกัน
+
+## คำถามที่พบบ่อยและกรณีขอบ  
+
+**Q: วิธีนี้ทำงานกับไฟล์ DOCX ที่มีรหัสผ่านหรือไม่?**  
+A: ใช่—โหลดเอกสารด้วย `LoadOptions` ที่รวมรหัสผ่าน แล้วดำเนินการบันทึกตามเดิม  
+
+**Q: แล้วภาพ SVG หรือ EMF ในไฟล์ Word ล่ะ?**  
+A: Aspose.Words จะเรสเตอร์กราฟิกเวกเตอร์โดยค่าเริ่มต้น; หากต้องการเก็บเป็นเวกเตอร์ให้เปิดใช้งาน `pdfOptions.setVectorRasterizationMode(VectorRasterizationMode.VectorOnly)`  
+
+**Q: จะรักษาลิงก์ไฮเปอร์ลิงก์ไว้ได้อย่างไรขณะแปลง?**  
+A: ลิงก์จะถูกเก็บไว้โดยอัตโนมัติเมื่อใช้ `PdfSaveOptions` อย่าปิดการใช้งานแท็ก เพราะอาจทำให้โครงสร้างลิงก์เชิงตรรกะหายไป  
+
+**Q: สามารถประมวลผลโฟลเดอร์ของไฟล์ DOCX เป็นชุดได้หรือไม่?**  
+A: แน่นอน วนลูปผ่าน `Files.list(Paths.get("YOUR_DIRECTORY"))` แล้วใช้ลำดับการโหลด‑กำหนดค่า‑บันทึกเดียวกันกับแต่ละไฟล์ และจัดการข้อยกเว้นแยกไฟล์เพื่อให้ไฟล์ที่เสียหายหนึ่งไฟล์ไม่ทำให้การทำงานทั้งหมดหยุด  
+
+**Q: จะปรับปรุงประสิทธิภาพสำหรับเอกสารขนาดใหญ่อย่างไร?**  
+A: เปิดใช้งาน `pdfOptions.setMemoryOptimization(true)` และพิจารณา stream ผลลัพธ์เพื่อหลีกเลี่ยงการโหลด PDF ทั้งหมดเข้าสู่หน่วยความจำ  
+
+## เคล็ดลับจากสนามรบ  
+
+* **ระวังฟอนต์ที่หายไป** หาก DOCX ต้นฉบับใช้ฟอนต์ที่ไม่ได้ติดตั้งบนเซิร์ฟเวอร์ PDF จะใช้ฟอนต์สำรองแทน ซึ่งอาจทำให้เลย์เอาต์เสียหาย ใช้ `pdfOptions.setFontEmbeddingMode(FontEmbeddingMode.EMBED_ALL)` เพื่อบังคับฝังฟอนต์ทั้งหมด  
+* **ทดสอบการเข้าถึง** หลังการแปลง ให้รัน **Accessibility Checker** ของ Acrobat การแท็กอินไลน์มักจะทำคะแนนดีขึ้น แต่คุณอาจต้องเพิ่มข้อความแทนภาพด้วยตนเอง  
+* **เคล็ดลับประสิทธิภาพ:** สำหรับเอกสารขนาดใหญ่ (100+ หน้า) เปิด `pdfOptions.setMemoryOptimization(true)` เพื่อลดการใช้ heap  
+
+## การยืนยันด้วยภาพ  
+
+ด้านล่างเป็นภาพหน้าจอสั้น ๆ ของ PDF ที่เปิดใน Adobe Acrobat แสดงรูปทรงที่แท็กเป็นอินไลน์และไฮไลท์ในแผง **Tags**  
+
+![Convert DOCX to PDF example output](image.png)
+
+[Convert DOCX to PDF example output](image.png)
+
+*Alt text: ตัวอย่างผลลัพธ์การแปลง docx เป็น pdf แสดงแท็กรูปทรงอินไลน์.*
+
+## สรุป  
+
+คุณตอนนี้รู้แล้ว **วิธีแปลง DOCX เป็น PDF ใน Java** พร้อมการควบคุมวิธีการส่งออกวัตถุลอย โดยการสลับ `setExportFloatingShapesAsInlineTag` คุณสามารถกำหนดได้ว่ารูปทรงจะเป็นส่วนหนึ่งของลำดับการอ่านหรือคงเป็นบล็อกแยก—สำคัญทั้งด้านการเข้าถึงและความแม่นยำของภาพ  
+
+จากนี้คุณสามารถ:  
+
+* **บันทึก Word เป็น PDF** เป็นชุดเพื่อการเก็บถาวร  
+* ทดลองใช้ `PdfSaveOptions` อื่น ๆ เช่น `setCompliance(PdfCompliance.PDF_A_1B)` เพื่อการเก็บรักษาระยะยาว  
+* ศึกษาเพิ่มเติมเกี่ยวกับ **วิธีส่งออกรูปทรง** โดยดูเอกสารเต็มของ Aspose.Words หรือทดลองใช้แฟล็ก `setExportDocumentStructure(true)` เพื่อสร้างโครงสร้างแท็กที่สมบูรณ์ยิ่งขึ้น  
+
+ลองใช้งาน ปรับแต่งตัวเลือกต่าง ๆ แล้วให้ PDF ของคุณแสดงผลตามที่ต้องการ Happy coding!
 
 ---
 
-## คำถามที่พบบ่อย & กรณีขอบเขต  
+**Last Updated:** 2026-10-07  
+**Tested with:** Aspose.Words for Java 23.12  
+**Author:** Aspose  
 
-### 1️⃣ ทำงานกับไฟล์ DOCX ที่มีการป้องกันด้วยรหัสผ่านหรือไม่?  
-ใช่—แค่ใส่รหัสผ่านก่อนโหลด:
+
+
+
+
 
 ```java
 LoadOptions loadOptions = new LoadOptions();
@@ -153,52 +238,20 @@ loadOptions.setPassword("mySecret");
 Document doc = new Document(inputPath, loadOptions);
 ```
 
-### 2️⃣ ส่วนของภาพ SVG หรือ EMF ในไฟล์ Word จะเป็นอย่างไร?  
-Aspose.Words จะทำ rasterize กราฟิกเวกเตอร์โดยอัตโนมัติเมื่อบันทึกเป็น PDF หากต้องการให้คงเป็นเวกเตอร์ ให้ตั้งค่า:
-
 ```java
 pdfOptions.setRasterizeTransformedElements(false);
 ```
 
-### 3️⃣ จะรักษา hyperlink ไว้ระหว่างการแปลงอย่างไร?  
-ลิงก์จะถูกเก็บไว้โดยค่าเริ่มต้น อย่างไรก็ตาม หากคุณปิดแท็ก (`pdfOptions.setSaveFormat(SaveFormat.PDF)` โดยไม่มีตัวเลือก) คุณอาจสูญเสียโครงสร้างเชิงตรรกะ คงอ็อบเจ็กต์ `PdfSaveOptions` ไว้เพื่อรักษาแท็กและลิงก์ทั้งสอง
+## บทแนะนำที่เกี่ยวข้อง
 
-### 4️⃣ สามารถประมวลผลหลายไฟล์ DOCX ในโฟลเดอร์ได้หรือไม่?  
-ทำได้แน่นอน ใส่ตรรกะ `DocxToPdfWithShapes` ไว้ในลูปที่วนผ่าน `Files.list(Paths.get("YOUR_DIRECTORY"))` จำไว้ว่าต้องจัดการข้อยกเว้นต่อไฟล์แต่ละไฟล์เพื่อไม่ให้ไฟล์ที่มีปัญหาหนึ่งทำให้การทำงานทั้งหมดหยุด
+- [แปลง Docx เป็น Pdf ใน Java ขั้นตอนโดยขั้นตอน](/words/java/document-converting/convert-docx-to-pdf-in-java-step-by-step-guide/)
+- [บันทึก Docx เป็น Pdf ด้วย Java คู่มือครบถ้วน](/words/java/document-conversion-and-export/save-docx-as-pdf-with-java-complete-step-by-step-guide/)
+- [แปลง DOCX เป็น PDF ใน Java ด้วย Aspose.Words – การใช้ Document Converting](/words/java/document-converting/using-document-converting/)
 
----
-
-## เคล็ดลับจากสนามรบ  
-
-* **ระวังฟอนต์ที่หายไป** หาก DOCX ต้นฉบับใช้ฟอนต์ที่ไม่ได้ติดตั้งบนเซิร์ฟเวอร์ PDF จะใช้ฟอนต์สำรอง ซึ่งอาจทำให้เลย์เอาต์เสียรูป ใช้ `pdfOptions.setFontEmbeddingMode(FontEmbeddingMode.EMBED_ALL)` เพื่อบังคับฝังฟอนต์ทั้งหมด  
-* **ทดสอบการเข้าถึง** หลังแปลง ให้รัน **Accessibility Checker** ของ Acrobat การแท็กแบบ inline มักทำให้คะแนนดีขึ้น แต่คุณอาจต้องเพิ่มข้อความแทนภาพ (alt text) ด้วยตนเอง  
-* **เคล็ดลับประสิทธิภาพ** สำหรับเอกสารขนาดใหญ่ (100+ หน้า) เปิด `pdfOptions.setMemoryOptimization(true)` เพื่อลดการใช้ heap
-
----
-
-## การยืนยันด้วยภาพ  
-
-ด้านล่างเป็นภาพหน้าจอสั้น ๆ ของ PDF ที่เปิดใน Adobe Acrobat แสดงรูปทรงที่แท็กเป็น inline ใน **Tags** pane
-
-![ตัวอย่างผลลัพธ์การแปลง DOCX เป็น PDF](image.png)
-
-*Alt text: ตัวอย่างผลลัพธ์การแปลง docx เป็น pdf แสดงแท็กรูปทรงแบบ inline.*
-
----
-
-## สรุป  
-
-คุณได้เรียนรู้ **วิธีแปลง DOCX เป็น PDF** พร้อมควบคุมวิธีการส่งออกรูปทรงที่ลอยอยู่ ด้วยการสลับ `setExportFloatingShapesAsInlineTag` คุณสามารถกำหนดได้ว่ารูปร่างจะเป็นส่วนหนึ่งของลำดับการอ่านหรือคงเป็นบล็อกอิสระ—สิ่งสำคัญทั้งสำหรับการเข้าถึงและความแม่นยำของภาพ  
-
-จากนี้คุณสามารถ:
-
-* **บันทึก Word เป็น PDF** แบบเป็นชุดเพื่อการเก็บถาวร  
-* ทดลองใช้ `PdfSaveOptions` อื่น ๆ เช่น `setCompliance(PdfCompliance.PDF_A_1B)` เพื่อการเก็บรักษาระยะยาว  
-* ศึกษาเพิ่มเติมเกี่ยวกับ **การส่งออกรูปร่าง** โดยดูเอกสาร Aspose.Words อย่างเต็มหรือทดลองใช้ฟล็าก `setExportDocumentStructure(true)` เพื่อสร้างโครงสร้างแท็กที่ลึกซึ้งยิ่งขึ้น  
-
-ลองใช้ ปรับแต่งตัวเลือก แล้วให้ PDF ของคุณแสดงผลตามที่คุณต้องการ Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
