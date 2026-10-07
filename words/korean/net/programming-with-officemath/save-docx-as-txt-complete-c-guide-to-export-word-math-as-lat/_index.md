@@ -22,9 +22,7 @@ title: docx를 txt로 저장 – Word 수식을 LaTeX로 내보내는 완전 C# 
 url: /ko/net/programming-with-officemath/save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/
 ---
 
-URLs: none besides image URL (image.png) and maybe code placeholders. Keep them unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,12 +24,6 @@ title: Преобразовать Word в Markdown и извлечь изобр�
 url: /ru/net/programming-with-markdownsaveoptions/convert-word-to-markdown-extract-images-from-docx-c/
 ---
 
-Let's craft translation.
-
-Be careful with bold formatting **text**.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -222,56 +216,6 @@ Trial‑версия подходит для экспериментов, но в
 - **Используйте осмысленные имена файлов** — если нужны человекочитаемые имена изображений, извлеките оригинальный `AltText` (если он есть) из `args.ResourceFileName` и включите его.  
 - **Контроль версий** — храните в репозитории только markdown; папку assets можно генерировать в CI‑pipeline, что облегчает репозиторий.  
 - **Производительность** — для огромных документов рассмотрите потоковую запись, задав `markdownOptions.SaveFormat = SaveFormat.Markdown;` и записав сначала в `MemoryStream`.
-
----
-
-## Полный рабочий пример (готовый к копированию)
-
-```csharp
-using Aspose.Words;
-using Aspose.Words.Saving;
-using System;
-using System.IO;
-
-/// <summary>
-/// Demonstrates converting a DOCX to Markdown while extracting images into an assets folder.
-/// </summary>
-class Program
-{
-    static void Main()
-    {
-        // -----------------------------------------------------------------
-        // 1️⃣ Paths – adjust these to your environment.
-        // -----------------------------------------------------------------
-        string inputPath = Path.Combine("YOUR_DIRECTORY", "input.docx");
-        string outputDir = Path.Combine("YOUR_DIRECTORY", "output");
-        Directory.CreateDirectory(outputDir);
-
-        // -----------------------------------------------------------------
-        // 2️⃣ Load the source document.
-        // -----------------------------------------------------------------
-        Document doc = new Document(inputPath);
-
-        // -----------------------------------------------------------------
-        // 3️⃣ Set up the resource‑saving callback.
-        // -----------------------------------------------------------------
-        var callback = new MyMarkdownResourceCallback(outputDir);
-
-        // -----------------------------------------------------------------
-        // 4️⃣ Configure Markdown options.
-        // -----------------------------------------------------------------
-        MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
-        {
-            ResourceSavingCallback = callback,
-            ExportImagesAsBase64 = false,
-            ExportHeadersFooters = true,
-            ExportDocumentProperties = false
-        };
-
-        // -----------------------------------------------------------------
-        // 5️⃣ Save as Markdown.
-        // -----------------------------------------------------------------
-        string markdownFile = Path
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -24,9 +24,7 @@ title: Cómo detectar fuentes en C# – Usar devolución de llamada con Aspose.W
 url: /es/net/working-with-fonts/how-to-detect-fonts-in-c-use-callback-with-aspose-words/
 ---
 
-Make sure to keep them unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,7 +22,7 @@ title: حفظ ملف docx كملف txt – دليل C# الكامل ل
 url: /ar/net/programming-with-officemath/save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/
 ---
 
-Let's produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

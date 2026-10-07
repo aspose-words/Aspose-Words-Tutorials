@@ -25,16 +25,6 @@ title: Сохранить docx как txt – Полное руководс�
 url: /ru/net/programming-with-officemath/save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/
 ---
 
-Those are not code blocks but placeholders. The instruction says preserve code blocks. So we keep them unchanged.
-
-We need to translate bullet points, etc.
-
-Let's produce final translation.
-
-Check for any markdown links: none in content except maybe none. There's no link.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,14 +24,6 @@ title: Hur man detekterar teckensnitt i C# – Använd återanrop med Aspose.Wor
 url: /sv/net/working-with-fonts/how-to-detect-fonts-in-c-use-callback-with-aspose-words/
 ---
 
-Aspose.Words warning callback". Should translate alt text but keep URL unchanged. Title also.
-
-Also there is a link in the image title attribute. That's fine.
-
-Also there are bullet lists.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,9 +24,7 @@ title: Beschädigte DOCX in C# laden – Vollständiger Aspose.Words-Leitfaden
 url: /de/net/programming-with-loadoptions/load-corrupted-docx-in-c-complete-aspose-words-guide/
 ---
 
-sure we didn't translate "LoadOptions.Password". Keep.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

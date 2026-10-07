@@ -25,7 +25,7 @@ title: Spara docx som txt – Komplett C#-guide för att exportera Word-matemati
 url: /sv/net/programming-with-officemath/save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/
 ---
 
-final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

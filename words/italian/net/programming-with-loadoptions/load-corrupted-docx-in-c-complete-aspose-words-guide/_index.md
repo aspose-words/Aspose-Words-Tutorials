@@ -23,7 +23,7 @@ title: Carica DOCX corrotto in C# – Guida completa ad Aspose.Words
 url: /it/net/programming-with-loadoptions/load-corrupted-docx-in-c-complete-aspose-words-guide/
 ---
 
-final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

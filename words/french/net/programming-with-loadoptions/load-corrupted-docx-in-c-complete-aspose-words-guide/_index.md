@@ -23,11 +23,7 @@ title: Charger un DOCX corrompu en C# – Guide complet d'Aspose.Words
 url: /fr/net/programming-with-loadoptions/load-corrupted-docx-in-c-complete-aspose-words-guide/
 ---
 
-.
-
-Be careful with bullet points formatting: keep same markdown bullet markers.
-
-Now write final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

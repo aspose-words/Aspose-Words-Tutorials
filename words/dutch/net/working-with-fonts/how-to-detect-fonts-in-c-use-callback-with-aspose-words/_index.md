@@ -24,12 +24,6 @@ title: Hoe lettertypen detecteren in C# – Gebruik een callback met Aspose.Word
 url: /nl/net/working-with-fonts/how-to-detect-fonts-in-c-use-callback-with-aspose-words/
 ---
 
-and title.
-
-Proceed.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

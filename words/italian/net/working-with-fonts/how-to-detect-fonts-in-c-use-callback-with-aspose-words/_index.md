@@ -24,14 +24,6 @@ title: Come rilevare i font in C# – Usa il callback con Aspose.Words
 url: /it/net/working-with-fonts/how-to-detect-fonts-in-c-use-callback-with-aspose-words/
 ---
 
-"# How to Detect Fonts in C# – Use Callback with Aspose.Words" -> Italian: "# Come rilevare i font in C# – Utilizzare il callback con Aspere.Words". Keep Aspose.Words unchanged.
-
-Paragraphs.
-
-Let's translate.
-
-Will produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

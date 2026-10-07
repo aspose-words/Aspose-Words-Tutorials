@@ -22,10 +22,6 @@ title: 将 docx 保存为 txt – 完整的 C# 指南：将 Word 数学公式导
 url: /zh/net/programming-with-officemath/save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/
 ---
 
-translate.
-
-Let's produce final Chinese version.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

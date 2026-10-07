@@ -24,12 +24,6 @@ title: Φόρτωση Κατεστραμμένου DOCX σε C# – Πλήρης
 url: /el/net/programming-with-loadoptions/load-corrupted-docx-in-c-complete-aspose-words-guide/
 ---
 
-produce final content with Greek translation.
-
-Be careful with markdown formatting.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

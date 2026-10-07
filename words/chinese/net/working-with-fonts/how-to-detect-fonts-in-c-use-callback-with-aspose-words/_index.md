@@ -20,18 +20,6 @@ title: 如何在 C# 中检测字体 – 使用 Aspose.Words 的回调
 url: /zh/net/working-with-fonts/how-to-detect-fonts-in-c-use-callback-with-aspose-words/
 ---
 
-translate. The title attribute also contains English; translate. But URLs remain unchanged.
-
-We need to translate headings, bullet points, paragraphs, table content, etc.
-
-Let's produce final content.
-
-Be careful with the table: translate column headers and content, but keep code snippets unchanged.
-
-Also preserve the shortcodes at beginning and end.
-
-Let's start.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

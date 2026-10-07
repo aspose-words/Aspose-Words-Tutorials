@@ -23,16 +23,6 @@ title: Lưu docx thành txt – Hướng dẫn C# đầy đủ để xuất côn
 url: /vi/net/programming-with-officemath/save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/
 ---
 
-x containing Office Math objects." translate bullet.
-
-Make sure to keep markdown syntax.
-
-Also note "## Prerequisites" etc.
-
-Translate.
-
-Let's craft final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

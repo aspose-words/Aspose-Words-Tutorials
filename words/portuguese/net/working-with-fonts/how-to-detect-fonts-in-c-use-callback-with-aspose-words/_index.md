@@ -23,17 +23,7 @@ title: Como Detectar Fontes em C# – Use Callback com Aspose.Words
 url: /pt/net/working-with-fonts/how-to-detect-fonts-in-c-use-callback-with-aspose-words/
 ---
 
-/products-backtop-button >}}
-
-We must keep them unchanged.
-
-Now produce final output with all translations.
-
-Be careful to keep code block placeholders unchanged.
-
-Also ensure not to translate URLs, file paths. In bullet lists, keep .NET etc.
-
-Let's craft final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

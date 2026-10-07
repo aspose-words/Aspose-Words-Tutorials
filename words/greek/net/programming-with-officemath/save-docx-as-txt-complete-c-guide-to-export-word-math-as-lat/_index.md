@@ -24,12 +24,6 @@ title: Αποθήκευση docx ως txt – Πλήρης οδηγός C# γι�
 url: /el/net/programming-with-officemath/save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/
 ---
 
-με τη διαχείριση πινάκων, εικόνων ή προσαρμοσμένης αρίθμησης εξισώσεων; Αφήστε ένα σχόλιο παρακάτω, και καλή προγραμματιστική!"
-
-Then closing shortcodes.
-
-Now produce final content with all sections.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

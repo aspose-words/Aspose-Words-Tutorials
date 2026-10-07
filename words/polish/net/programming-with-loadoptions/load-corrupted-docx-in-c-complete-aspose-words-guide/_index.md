@@ -23,9 +23,7 @@ title: Wczytywanie uszkodzonego pliku DOCX w C# – Kompletny przewodnik Aspose.
 url: /pl/net/programming-with-loadoptions/load-corrupted-docx-in-c-complete-aspose-words-guide/
 ---
 
-" not needed for Polish.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

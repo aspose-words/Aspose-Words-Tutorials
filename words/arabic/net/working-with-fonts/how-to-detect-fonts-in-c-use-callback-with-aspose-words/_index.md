@@ -22,20 +22,6 @@ title: كيفية اكتشاف الخطوط في C# – استخدام رد ال
 url: /ar/net/working-with-fonts/how-to-detect-fonts-in-c-use-callback-with-aspose-words/
 ---
 
-lists.
-
-Also code block placeholders remain.
-
-Also keep any inline code like `IWarningCallback`, `WarningInfo`, etc unchanged.
-
-Also keep markdown links unchanged.
-
-Let's produce Arabic translation.
-
-Be careful with RTL: we can just write Arabic text.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

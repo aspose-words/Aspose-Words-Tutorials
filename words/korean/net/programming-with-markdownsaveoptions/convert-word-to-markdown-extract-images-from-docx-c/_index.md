@@ -22,12 +22,6 @@ title: Word를 Markdown으로 변환하고 DOCX에서 이미지 추출 (C#)
 url: /ko/net/programming-with-markdownsaveoptions/convert-word-to-markdown-extract-images-from-docx-c/
 ---
 
-(Copy‑Paste Ready)".
-
-Now ensure we preserve markdown formatting.
-
-Let's produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -220,56 +214,6 @@ Console.WriteLine($"📁 Extracted images are in: {Path.Combine(outputDir, "asse
 - **의미 있는 파일명 사용** – 사람이 읽기 쉬운 이미지 이름이 필요하면 `args.ResourceFileName`에 포함된 원본 `AltText`(존재하는 경우)를 추출해 파일명에 반영하세요.  
 - **버전 관리** – 레포에는 Markdown만 저장하고, assets 폴더는 CI 파이프라인에서 자동 생성하도록 하면 저장소가 가볍게 유지됩니다.  
 - **성능** – 대용량 문서의 경우 `markdownOptions.SaveFormat = SaveFormat.Markdown;`을 설정하고 `MemoryStream`에 먼저 쓰는 방식을 고려하세요.
-
----
-
-## 전체 작업 예제 (복사‑붙여넣기 바로 사용)
-
-```csharp
-using Aspose.Words;
-using Aspose.Words.Saving;
-using System;
-using System.IO;
-
-/// <summary>
-/// Demonstrates converting a DOCX to Markdown while extracting images into an assets folder.
-/// </summary>
-class Program
-{
-    static void Main()
-    {
-        // -----------------------------------------------------------------
-        // 1️⃣ Paths – adjust these to your environment.
-        // -----------------------------------------------------------------
-        string inputPath = Path.Combine("YOUR_DIRECTORY", "input.docx");
-        string outputDir = Path.Combine("YOUR_DIRECTORY", "output");
-        Directory.CreateDirectory(outputDir);
-
-        // -----------------------------------------------------------------
-        // 2️⃣ Load the source document.
-        // -----------------------------------------------------------------
-        Document doc = new Document(inputPath);
-
-        // -----------------------------------------------------------------
-        // 3️⃣ Set up the resource‑saving callback.
-        // -----------------------------------------------------------------
-        var callback = new MyMarkdownResourceCallback(outputDir);
-
-        // -----------------------------------------------------------------
-        // 4️⃣ Configure Markdown options.
-        // -----------------------------------------------------------------
-        MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
-        {
-            ResourceSavingCallback = callback,
-            ExportImagesAsBase64 = false,
-            ExportHeadersFooters = true,
-            ExportDocumentProperties = false
-        };
-
-        // -----------------------------------------------------------------
-        // 5️⃣ Save as Markdown.
-        // -----------------------------------------------------------------
-        string markdownFile = Path
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

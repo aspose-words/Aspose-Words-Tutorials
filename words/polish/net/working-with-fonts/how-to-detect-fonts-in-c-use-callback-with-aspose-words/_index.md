@@ -24,16 +24,6 @@ title: Jak wykrywać czcionki w C# – użyj wywołania zwrotnego z Aspose.Words
 url: /pl/net/working-with-fonts/how-to-detect-fonts-in-c-use-callback-with-aspose-words/
 ---
 
-unchanged.
-
-Then heading "# How to Detect Fonts in C# – Use Callback with Aspose.Words" translate: "Jak wykrywać czcionki w C# – użycie callbacka z Aspose.Words". Keep #.
-
-Proceed paragraph.
-
-Translate accordingly.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -23,13 +23,7 @@ title: Zapisz docx jako txt – Kompletny przewodnik C# po eksporcie matematyki 
 url: /pl/net/programming-with-officemath/save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/
 ---
 
->}}
-
-Now produce final output with all translations.
-
-Be careful to keep code block placeholders unchanged.
-
-Let's write final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

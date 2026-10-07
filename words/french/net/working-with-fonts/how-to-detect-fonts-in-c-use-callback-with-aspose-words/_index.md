@@ -24,12 +24,6 @@ title: Comment détecter les polices dans C# – Utiliser un rappel avec Aspose.
 url: /fr/net/working-with-fonts/how-to-detect-fonts-in-c-use-callback-with-aspose-words/
 ---
 
-careful with bold **...** keep formatting.
-
-Also lists.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,16 +24,6 @@ title: Muat DOCX Rusak di C# – Panduan Lengkap Aspose.Words
 url: /id/net/programming-with-loadoptions/load-corrupted-docx-in-c-complete-aspose-words-guide/
 ---
 
-X – Complete Aspose.Words Guide" translate: "# Memuat DOCX Rusak – Panduan Lengkap Aspose.Words". Keep "DOCX" and "Aspose.Words". Good.
-
-Paragraphs translate.
-
-Need to keep code block placeholders unchanged.
-
-Proceed step by step.
-
-Will produce final markdown.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

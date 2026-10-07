@@ -21,12 +21,6 @@ title: docx を txt に保存 – Word の数式を LaTeX にエクスポート�
 url: /ja/net/programming-with-officemath/save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/
 ---
 
-as txt workflow") - keep alt text? Should translate alt text? The instruction: translate all text content. Alt text is part of markdown, should translate. The URL and file name remain same. Title also translate.
-
-Proceed.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

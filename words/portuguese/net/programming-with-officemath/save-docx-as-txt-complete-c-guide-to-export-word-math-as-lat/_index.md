@@ -24,20 +24,6 @@ title: Salvar docx como txt – Guia completo de C# para exportar matemática do
 url: /pt/net/programming-with-officemath/save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/
 ---
 
-x como txt – Guia Completo em C# para Exportar Matemática do Word como LaTeX". Keep same heading level.
-
-Paragraph: "Ever needed to **save docx as txt** but also keep those pesky equations intact? ..." translate.
-
-We must keep bold formatting.
-
-Let's translate each paragraph.
-
-Will keep code block placeholders unchanged.
-
-Also keep image markdown unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

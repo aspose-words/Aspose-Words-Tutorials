@@ -23,24 +23,6 @@ title: บันทึกไฟล์ docx เป็น txt – คู่มื�
 url: /th/net/programming-with-officemath/save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/
 ---
 
-this step and try to work with a raw file stream, the library won’t know how to locate the math objects, and your later export will fall back to a generic placeholder like `[Equation]`. Loading the document guarantees that the **export word equations** feature has something concrete to work with.
-
-Translate blockquote, keep **export word equations** unchanged.
-
---- etc.
-
-Proceed similarly for Step 2, Step 3, etc.
-
-Need to translate code block placeholders unchanged.
-
-Also translate blockquote headings.
-
-Also translate "Pro tip:" etc.
-
-Make sure to keep markdown formatting.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

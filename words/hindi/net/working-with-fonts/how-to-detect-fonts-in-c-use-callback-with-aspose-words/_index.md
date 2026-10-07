@@ -24,12 +24,6 @@ title: C# में फ़ॉन्ट कैसे पहचानें – As
 url: /hi/net/working-with-fonts/how-to-detect-fonts-in-c-use-callback-with-aspose-words/
 ---
 
-codes closing.
-
-We must ensure we preserve all shortcodes exactly.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

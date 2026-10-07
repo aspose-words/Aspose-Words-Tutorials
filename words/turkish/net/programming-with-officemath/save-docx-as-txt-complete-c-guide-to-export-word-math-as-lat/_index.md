@@ -25,12 +25,6 @@ title: docx'i txt olarak kaydet – Word Matematiklerini LaTeX'e Aktarmak İçin
 url: /tr/net/programming-with-officemath/save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/
 ---
 
-TeX conversion](image.png "save docx as txt workflow"). The alt text is visible text, should be translated. The title attribute "save docx as txt workflow" also should be translated? Title is inside quotes; it's part of markdown, but it's a string. Probably translate it as well. But must preserve formatting. So translate alt and title.
-
-All other text translate.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

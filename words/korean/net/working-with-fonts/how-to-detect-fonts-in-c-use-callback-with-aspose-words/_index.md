@@ -22,11 +22,7 @@ title: C#에서 글꼴 감지 방법 – Aspose.Words와 콜백 사용
 url: /ko/net/working-with-fonts/how-to-detect-fonts-in-c-use-callback-with-aspose-words/
 ---
 
-**. **how to use callback** again.
-
-Proceed.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
