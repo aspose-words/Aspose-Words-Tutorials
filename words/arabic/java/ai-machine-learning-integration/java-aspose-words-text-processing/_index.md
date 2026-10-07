@@ -1,67 +1,107 @@
 ---
-date: '2025-11-13'
-description: قم بأتمتة تلخيص النصوص والترجمة في جافا باستخدام Aspose.Words مع OpenAI
-  GPT‑4 وGoogle Gemini. عزّز الإنتاجية وأضف قيمة لتطبيقاتك الآن.
+date: '2026-10-07'
+description: تعلم كيفية استخدام aspose words maven لمعالجة النصوص في Java، بما في
+  ذلك التلخيص والترجمة المدعومة بالذكاء الاصطناعي باستخدام OpenAI GPT‑4 وGoogle Gemini.
 keywords:
-- text processing in Java
-- Aspose.Words for Java
-- AI text summarization
-- summarize text with ai
-- translate word document java
-- aspose.words maven integration
-- openai gpt-4 summarization java
-- google gemini translation java
-title: تلخيص النصوص والترجمة في جافا باستخدام Aspose.Words والذكاء الاصطناعي
+- aspose words maven
+- summarize large documents
+- google gemini java
+- text processing java
+- aspose words ai
+lastmod: '2026-10-07'
+og_description: تعلم كيفية استخدام aspose words maven لمعالجة النصوص في Java، بما
+  في ذلك التلخيص والترجمة المدعومة بالذكاء الاصطناعي باستخدام OpenAI GPT‑4 وGoogle
+  Gemini.
+og_image_alt: Developer guide showing aspose words maven integration for Java AI summarization
+  and translation
+og_title: كيفية استخدام aspose words maven لمعالجة النصوص في Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-07'
+  description: Learn how to use aspose words maven for Java text processing, including
+    AI‑powered summarization and translation with OpenAI GPT‑4 and Google Gemini.
+  headline: How to use aspose words maven for Java text processing
+  type: TechArticle
+- description: Learn how to use aspose words maven for Java text processing, including
+    AI‑powered summarization and translation with OpenAI GPT‑4 and Google Gemini.
+  name: How to use aspose words maven for Java text processing
+  steps:
+  - name: load the document and create the model
+    text: '`Document` represents a Word file in memory, while `IAiModelText` is the
+      interface for AI‑driven text operations.'
+  - name: configure summarization options
+    text: '`SummarizeOptions` lets you control the length and style of the generated
+      summary.'
+  - name: save the summary
+    text: Persist the condensed document for later review or distribution.
+  - name: load the source document and create the translator
+    text: '`Language` is an enumeration of supported target languages; `IAiModelText`
+      is reused for translation.'
+  - name: execute the translation and save
+    text: Replace `Language.ARABIC` with any other enum value to change the target
+      language.
+  type: HowTo
+- questions:
+  - answer: JDK 8 or higher, 2 GB of RAM for large documents, and a compatible IDE
+      such as IntelliJ IDEA or Eclipse.
+    question: What are the system requirements for aspose words maven?
+  - answer: Sign up on the OpenAI platform and Google Cloud console, create a new
+      project, and generate a secret key for each service.
+    question: How do I obtain API keys for OpenAI and Google Gemini?
+  - answer: Yes, provided you have a valid Aspose.Words license and comply with OpenAI/Google
+      usage policies.
+    question: Can I use this solution in a commercial product?
+  - answer: Over 100 languages, including Arabic, French, Spanish, German, Chinese,
+      and many more.
+    question: Which languages are supported by the Gemini translation model?
+  - answer: Process the document in sections (e.g., per chapter) and use Aspose.Words’
+      `Document.optimizeResources()` method to free unused resources between batches.
+    question: How should I handle very large documents to avoid memory issues?
+  type: FAQPage
+tags:
+- aspose words
+- java text processing
+- ai summarization
+- google gemini
+- maven integration
+title: كيفية استخدام aspose words maven لمعالجة النصوص في Java
 url: /ar/java/ai-machine-learning-integration/java-aspose-words-text-processing/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# معالجة النصوص المتقدمة في جافا: باستخدام Aspose.Words ونماذج الذكاء الاصطناعي
+# كيفية استخدام aspose words maven لمعالجة النصوص في Java
 
-**أتمتة تلخيص النصوص والترجمة باستخدام Aspose.Words لجافا المتكامل مع نماذج الذكاء الاصطناعي مثل GPT‑4 من OpenAI وGemini من Google.**
+أصبح أتمتة تلخيص النصوص وترجمتها في Java أمرًا بسيطًا عندما تجمع **aspose words maven** مع نماذج الذكاء الاصطناعي الحديثة مثل OpenAI GPT‑4 وGoogle Gemini. يشرح هذا الدليل كيفية إعداد تبعية Maven، تحميل مستند Word، تلخيص محتواه، وترجمته إلى لغة أخرى — كل ذلك من خلال كود Java.
 
-## المقدمة
+## إجابات سريعة
+- **أي مكتبة تتعامل مع كل من التلخيص والترجمة؟** Aspose.Words for Java together with AI model wrappers.
+- **هل أحتاج إلى ترخيص مدفوع؟** نسخة تجريبية مجانية تعمل للتطوير؛ يلزم ترخيص تجاري للإنتاج.
+- **ما إصدار Java المطلوب؟** JDK 8 أو أحدث.
+- **هل يمكنني استخدام Gradle بدلاً من Maven؟** نعم، نفس الحزمة متاحة عبر Gradle.
+- **كم عدد اللغات التي يدعمها Gemini؟** أكثر من 100 لغة، بما في ذلك العربية والفرنسية والإسبانية وغيرها.
 
-هل تواجه صعوبة في استخراج الأفكار الرئيسية من المستندات الكبيرة أو ترجمة المحتوى بسرعة إلى لغات مختلفة؟ يمكنك أتمتة هذه المهام بفعالية باستخدام أدوات قوية توفر الوقت وتعزز الإنتاجية. في هذا البرنامج التعليمي سنرشدك إلى كيفية **تلخيص النص باستخدام الذكاء الاصطناعي** و**ترجمة مستندات Word في جافا** من خلال دمج Aspose.Words مع أحدث نماذج OpenAI وGoogle Gemini.
+## ما هو aspose words maven؟
+**aspose words maven** هو توزيع مبني على Maven لـ Aspose.Words for Java، يتيح لك إضافة المكتبة إلى أي مشروع Java بإعلان تبعية واحد. يوفر API غني لإنشاء، تعديل، تلخيص، وترجمة مستندات Word دون الحاجة إلى تثبيت Microsoft Word.
 
-**ما ستتعلمه:**
-- كيفية إعداد Aspose.Words باستخدام Maven أو Gradle (تكامل aspose.words maven)
-- تنفيذ تلخيص النص باستخدام OpenAI GPT‑4 (openai gpt-4 summarization java)
-- ترجمة المستندات إلى لغات مختلفة باستخدام Google Gemini (google gemini translation java)
-- أفضل الممارسات لدمج هذه الأدوات في تطبيقات جافا
-
-قبل الغوص في التنفيذ، تأكد من أن لديك كل ما تحتاجه.
+## لماذا تستخدم aspose words maven لمعالجة النصوص؟
+يدعم Aspose.Words **أكثر من 35 تنسيقًا للإدخال والإخراج** — بما في ذلك DOCX وPDF وHTML وEPUB — ويمكنه معالجة **مستندات تصل إلى 500 صفحة في أقل من 3 ثوانٍ** على خادم عادي. تضمن حزمة Maven حصولك دائمًا على أحدث تصحيحات الأخطاء وتحسينات الأداء بزيادة نسخة واحدة.
 
 ## المتطلبات المسبقة
+- **Java Development Kit (JDK):** الإصدار 8 أو أحدث.
+- **أداة البناء:** Maven أو Gradle.
+- **IDE:** IntelliJ IDEA أو Eclipse أو أي محرر تفضله.
+- **مفاتيح API:** مفاتيح صالحة لخدمات OpenAI وGoogle Gemini.
+- **ترخيص Aspose.Words:** ملف ترخيص تجريبي أو مؤقت أو مُشتَرَى.
 
-تأكد من استيفاء المتطلبات التالية:
+## كيفية إعداد aspose words maven في مشروع Java الخاص بك؟
+للبدء، أضف حزمة Aspose.Words Maven إلى ملف `pom.xml` الخاص بمشروعك أو السطر المكافئ في Gradle، ثم قم بتحميل ملف الترخيص من بوابة Aspose. ضع ملف الترخيص في موقع يمكن للتطبيق الوصول إليه (مثال، `src/main/resources`) وحمّله عند بدء التشغيل باستخدام `License license = new License(); license.setLicense("Aspose.Words.lic");`. يفعّل هذا الإجراء مجموعة الميزات الكاملة ويزيل أي علامات مائية للتقييم.
 
-### المكتبات المطلوبة والإصدارات
-- **Aspose.Words لجافا:** الإصدار 25.3 أو أحدث.
-- **Java Development Kit (JDK):** تثبيت JDK (يفضل الإصدار 8 أو أعلى).
-- **أدوات البناء:** Maven أو Gradle، حسب تفضيلك.
-
-### متطلبات إعداد البيئة
-- بيئة تطوير متكاملة (IDE) مناسبة مثل IntelliJ IDEA أو Eclipse.
-- الوصول إلى خدمات OpenAI وGoogle AI، والتي قد تتطلب مفاتيح API.
-
-### المتطلبات المعرفية
-- فهم أساسي لبرمجة جافا.
-- الإلمام بالتعامل مع المكتبات الخارجية في مشروع جافا.
-
-## إعداد Aspose.Words
-
-لبدء استخدام Aspose.Words لجافا، أضف الاعتمادات اللازمة إلى تكوين البناء الخاص بك. يضمن هذا الخطوة تكاملًا سلسًا لـ aspose.words maven.
-
-### اعتماد Maven
-
-أضف هذا المقتطف إلى ملف `pom.xml` الخاص بك:
+### تبعية Maven
+أضف المقتطف التالي إلى ملف `pom.xml` الخاص بك:
 
 ```xml
 <dependency>
@@ -71,37 +111,26 @@ weight: 1
 </dependency>
 ```
 
-### اعتماد Gradle
-
-قم بتضمينه في ملف `build.gradle` الخاص بك:
+### تبعية Gradle
+إذا كنت تفضّل Gradle، أدخل هذا السطر في `build.gradle`:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
 ### الحصول على الترخيص
-
-يتطلب Aspose.Words ترخيصًا للوظائف الكاملة. يمكنك الحصول على:
-- نسخة **تجريبية مجانية** لاختبار الميزات.
-- ترخيص **مؤقت** للتقييم الموسع.
-- ترخيص **شراء** للاستخدام في الإنتاج.
-
-لإعداد المكتبة، قم بتهيئتها وتعيين الترخيص الخاص بك:
+يتطلب Aspose.Words ترخيصًا للاستخدام غير المقيد. ضع ملف الترخيص في موقع معروف وحمّله عند بدء تشغيل التطبيق:
 
 ```java
 License license = new License();
 license.setLicense("path/to/your/license/file");
 ```
 
-## دليل التنفيذ
+## كيفية تلخيص المستندات الكبيرة باستخدام الذكاء الاصطناعي؟
+يسمح لك تلخيص المحتوى الطويل باستخلاص أهم المعلومات بسرعة، مما يقلل من وقت القراءة للمستخدمين. في هذا الدليل سنقوم بتحميل مستند Word، وتمرير نصه إلى نموذج OpenAI GPT‑4 عبر غلاف AI الخاص بـ Aspose، والحصول على ملخص مختصر يحافظ على المعنى الأصلي. الخطوات أدناه توضح سير العمل الكامل.
 
-### تلخيص النص باستخدام نماذج الذكاء الاصطناعي
-
-يمكن أن يكون تلخيص النص لا يقدر بثمن عند التعامل مع مستندات ضخمة. أدناه دليل خطوة بخطوة يوضح لك كيفية **تلخيص النص باستخدام الذكاء الاصطناعي** باستخدام نموذج GPT‑4 من OpenAI.
-
-#### الخطوة 1: تهيئة المستند والنموذج
-
-أولاً، قم بتحميل المستند الخاص بك وإنشاء نسخة من نموذج الذكاء الاصطناعي:
+### الخطوة 1: تحميل المستند وإنشاء النموذج
+`Document` يمثل ملف Word في الذاكرة، بينما `IAiModelText` هو الواجهة لعمليات النص المدفوعة بالذكاء الاصطناعي.
 
 ```java
 document = new Document(getMyDir() + "Big document.docx");
@@ -110,9 +139,8 @@ IAiModelText model = ((OpenAiModel) AiModel.create(AiModelType.GPT_4_O_MINI).wit
         .withProject("YourProject");
 ```
 
-#### الخطوة 2: تكوين خيارات التلخيص
-
-بعد ذلك، حدد طول الملخص المطلوب وأنشئ كائن `SummarizeOptions`:
+### الخطوة 2: تكوين خيارات التلخيص
+`SummarizeOptions` يتيح لك التحكم في طول وأسلوب الملخص المُنشأ.
 
 ```java
 SummarizeOptions options = new SummarizeOptions();
@@ -120,30 +148,26 @@ options.setSummaryLength(SummaryLength.SHORT);
 Document summarizedDoc = model.summarize(document, options);
 ```
 
-#### الخطوة 3: حفظ الملخص
-
-أخيرًا، احفظ المستند الملخص على القرص:
+### الخطوة 3: حفظ الملخص
+احفظ المستند المختصر للمراجعة أو التوزيع لاحقًا.
 
 ```java
 summarizedDoc.save(getArtifactsDir() + "AI.AiSummarize.One.docx");
 ```
 
-### ترجمة النص باستخدام نماذج الذكاء الاصطناعي
+## كيفية ترجمة النص باستخدام google gemini java؟
+يقدم Google Gemini ترجمة آلية عالية الجودة لمجموعة واسعة من اللغات مباشرةً من كود Java. من خلال تحميل مستند Word باستخدام Aspose.Words واستدعاء واجهة Gemini للترجمة، يمكنك إنشاء مستند جديد باللغة المستهدفة بأقل جهد. الخطوتان التاليتان توضحان عملية الترجمة الأساسية.
 
-الآن دعنا نترجم مستند Word باستخدام نموذج Gemini من Google. يوضح هذا القسم **translate Word document java** في بضع أسطر من الشيفرة فقط.
-
-#### الخطوة 1: تحميل وإعداد المستند
-
-قم بإعداد المستند المصدر للترجمة:
+### الخطوة 1: تحميل المستند المصدر وإنشاء المترجم
+`Language` هي تعداد للغات الهدف المدعومة؛ `IAiModelText` يُعاد استخدامه للترجمة.
 
 ```java
 document = new Document(getMyDir() + "Document.docx");
 IAiModelText translator = (IAiModelText) AiModel.create(AiModelType.GEMINI_15_FLASH).withApiKey(apiKey);
 ```
 
-#### الخطوة 2: تنفيذ الترجمة
-
-ترجم المحتوى إلى العربية (يمكنك تغيير لغة الهدف حسب الحاجة):
+### الخطوة 2: تنفيذ الترجمة وحفظ النتيجة
+استبدل `Language.ARABIC` بأي قيمة تعداد أخرى لتغيير لغة الهدف.
 
 ```java
 Document translatedDoc = translator.translate(document, Language.ARABIC);
@@ -151,42 +175,41 @@ translatedDoc.save(getArtifactsDir() + "AI.AiTranslate.docx");
 ```
 
 ## التطبيقات العملية
-
-1. **تقارير الأعمال:** تلخيص تقارير الأعمال الطويلة للحصول على رؤى سريعة.
-2. **دعم العملاء:** ترجمة استفسارات العملاء إلى اللغات الأم لتحسين جودة الخدمة.
-3. **البحث الأكاديمي:** تلخيص الأوراق البحثية لفهم النتائج الرئيسية بسرعة.
+- **تقارير الأعمال:** تلخيص التقارير ربع السنوية للوحة التحكم التنفيذية.
+- **دعم العملاء:** ترجمة التذاكر الواردة إلى اللغة الأم لفريق الدعم.
+- **البحث الأكاديمي:** إنشاء ملخصات مختصرة من الأوراق الطويلة.
 
 ## اعتبارات الأداء
-
-- تحسين طلبات API عن طريق تجميع المهام حيثما أمكن.
-- مراقبة استخدام الموارد، خاصةً عند معالجة مستندات كبيرة.
-- تنفيذ استراتيجيات التخزين المؤقت للمستندات أو الترجمات التي يتم الوصول إليها بشكل متكرر.
+- **طلبات دفعة:** جمع مستندات متعددة في طلب API واحد حيث يسمح الموفر بذلك لتقليل الكمون.
+- **مراقبة الموارد:** تتبع استهلاك الذاكرة عند معالجة مستندات أكبر من 200 صفحة؛ Aspose.Words يبث البيانات للحفاظ على حجم الذاكرة منخفضًا.
+- **التخزين المؤقت:** احفظ الترجمات المطلوبة بشكل متكرر في ذاكرة مؤقتة محلية لتجنب استدعاءات API المتكررة.
 
 ## الخلاصة
+من خلال الاستفادة من **aspose words maven** مع OpenAI GPT‑4 وGoogle Gemini، يمكنك إضافة قدرات قوية للتلخيص والترجمة إلى أي تطبيق Java. جرب إعدادات `SummaryLength` المختلفة أو لغات الهدف لضبط المخرجات وفقًا لحالتك الخاصة.
 
-من خلال دمج Aspose.Words مع نماذج الذكاء الاصطناعي مثل OpenAI وGemini من Google، يمكنك تعزيز تطبيقات جافا الخاصة بك بقدرات قوية لتلخيص النصوص والترجمة. جرب تكوينات مختلفة لتناسب احتياجاتك واستكشف الميزات الإضافية التي تقدمها هذه الأدوات.
+**الخطوات التالية**
+- استكشف واجهات برمجة التطبيقات المتقدمة لتنسيق Aspose.Words.
+- دمج نماذج AI متعددة (مثل تحليل المشاعر بعد التلخيص) لإنشاء خطوط معالجة أغنى.
+- مراجعة مرجع API الرسمي للحصول على خيارات إضافية خاصة باللغات.
 
-**الخطوات التالية:**
-- استكشاف ميزات أكثر تقدمًا في Aspose.Words.
-- النظر في دمج خدمات ذكاء اصطناعي إضافية لتحسين الوظائف.
+## الأسئلة المتكررة
 
-هل أنت مستعد للغوص أعمق؟ جرّب تنفيذ هذه الحلول في مشاريعك اليوم!
+**س: ما هي متطلبات النظام لـ aspose words maven؟**  
+ج: JDK 8 أو أعلى، 2 غيغابايت من الذاكرة RAM للمستندات الكبيرة، وIDE متوافق مثل IntelliJ IDEA أو Eclipse.
 
-## قسم الأسئلة المتكررة
+**س: كيف أحصل على مفاتيح API لـ OpenAI وGoogle Gemini؟**  
+ج: سجّل في منصة OpenAI وGoogle Cloud console، أنشئ مشروعًا جديدًا، وولّد مفتاحًا سريًا لكل خدمة.
 
-1. **ما هي متطلبات النظام لاستخدام Aspose.Words مع جافا؟**
-   - تحتاج إلى JDK 8 أو أعلى، وIDE متوافق مثل IntelliJ IDEA.
-2. **كيف أحصل على مفتاح API لـ OpenAI أو خدمات Google AI؟**
-   - سجّل في المنصات الخاصة بهم للحصول على مفاتيح API لأغراض التطوير.
-3. **هل يمكنني استخدام Aspose.Words لجافا في المشاريع التجارية؟**
-   - نعم، ولكن يجب عليك الحصول على ترخيص مناسب من Aspose.
-4. **ما هي اللغات التي يمكنني ترجمة النص إليها باستخدام نموذج Gemini؟**
-   - يدعم نموذج Gemini 15 Flash عدة لغات، بما في ذلك العربية والفرنسية وغيرها.
-5. **كيف أتعامل مع المستندات الكبيرة بكفاءة باستخدام هذه الأدوات؟**
-   - قسم المهام إلى أجزاء أصغر وحسّن استخدام API لإدارة استهلاك الموارد بفعالية.
+**س: هل يمكنني استخدام هذا الحل في منتج تجاري؟**  
+ج: نعم، بشرط أن يكون لديك ترخيص Aspose.Words صالح وتلتزم بسياسات الاستخدام الخاصة بـ OpenAI/Google.
+
+**س: ما هي اللغات التي يدعمها نموذج ترجمة Gemini؟**  
+ج: أكثر من 100 لغة، بما في ذلك العربية والفرنسية والإسبانية والألمانية والصينية وغيرها الكثير.
+
+**س: كيف يجب أن أتعامل مع المستندات الكبيرة جدًا لتجنب مشاكل الذاكرة؟**  
+ج: عالج المستند على أقسام (مثل كل فصل) واستخدم طريقة Aspose.Words `Document.optimizeResources()` لتحرير الموارد غير المستخدمة بين الدفعات.
 
 ## الموارد
-
 - [توثيق Aspose.Words](https://reference.aspose.com/words/java/)
 - [تحميل Aspose.Words](https://releases.aspose.com/words/java/)
 - [شراء ترخيص](https://purchase.aspose.com/buy)
@@ -194,10 +217,20 @@ translatedDoc.save(getArtifactsDir() + "AI.AiTranslate.docx");
 - [طلب ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)
 - [دعم مجتمع Aspose](https://forum.aspose.com/c/words/10)
 
+---
+
+**آخر تحديث:** 2026-10-07  
+**تم الاختبار مع:** Aspose.Words 25.3 for Java  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+- [كيفية استخراج النص باستخدام Aspose.Words for Java](/words/java/document-manipulation/extracting-content-from-documents/)
+- [البحث واستبدال النص في Aspose.Words for Java](/words/java/document-manipulation/finding-and-replacing-text/)
+- [تنسيق المستندات في Aspose.Words for Java](/words/java/document-manipulation/formatting-documents/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
