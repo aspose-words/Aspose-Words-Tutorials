@@ -39,6 +39,12 @@ Lernen Sie, wie Sie mit Aspose.Words für Java Schatten zu Formen in Word-Dokume
 ### [Schatteneffekt auf eine Form in C# anwenden – Schritt‑für‑Schritt‑Anleitung](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für C# Schatteneffekte auf Formen anwenden und das Erscheinungsbild Ihrer Dokumente verbessern.
 
+### [Leeres Word-Dokument erstellen und Formen gruppieren in Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein leeres Dokument erzeugen und mehrere Formen zu einer Gruppe zusammenfassen.
+
+### [Neues Word-Dokument mit verstecktem Bild erstellen – Schritt‑für‑Schritt‑Anleitung](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Word‑Dokument erzeugen und ein Bild verstecken.
+
 ## Weitere Ressourcen
 
 ## Weitere Ressourcen

@@ -67,10 +67,14 @@ Lär dig använda Markdown i Aspose.Words för Java med den här steg-för-steg-
 Lär dig manipulera noder i Aspose.Words för Java med den här steg-för-steg-handledningen. Lås upp dokumentbehandlingskraften.
 ### [Använda OLE-objekt och ActiveX-kontroller i Aspose.Words för Java](./using-ole-objects-and-activex/)
 Lär dig använda OLE-objekt och ActiveX-kontroller i Aspose.Words för Java. Skapa interaktiva dokument enkelt. Kom igång nu!
+### [Hur man skapar docx som innehåller ActiveX med Java och Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Lär dig skapa DOCX-filer som innehåller ActiveX-kontroller med Java och Aspose.Words.
 ### [Använda revisioner i Aspose.Words för Java](./using-revisions/)
 Lär dig att använda Aspose.Words för Javas revisionskontroller effektivt. Steg-för-steg-guide för utvecklare. Optimera din dokumenthantering.
 ### [Använda sektioner i Aspose.Words för Java](./using-sections/)
 Utforska Aspose.Words för Java: En omfattande guide om hur man använder sektioner. Lägg till, ta bort, lägg till och klona sektioner med kodexempel.
+### [Hur man infogar ett cirkeldiagram i ett Word-dokument med Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Lär dig hur du infogar ett cirkeldiagram i ett Word-dokument med Aspose.Words för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

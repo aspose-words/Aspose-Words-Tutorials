@@ -47,6 +47,7 @@ Aspose.Words for Java를 사용하여 효율적인 문서 저장 방법을 알�
 Aspose.Words for Java를 사용하여 고급 문서 저장 설정을 마스터하세요. 문서 작성을 손쉽게 서식 지정, 보호, 최적화 및 자동화하는 방법을 배우세요.
 ### [정리, 필드 및 XML 데이터를 사용하여 문서 콘텐츠 조작](./manipulating-document-content/)
 Aspose.Words for Java를 사용하여 문서 콘텐츠를 조작하는 방법을 알아보세요. 이 단계별 가이드는 효율적인 문서 관리를 위한 소스 코드 예제를 제공합니다.
+### [Java로 방사형 차트를 만들고 차트를 Word에 삽입하기](./create-radial-chart-and-insert-chart-into-word-with-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

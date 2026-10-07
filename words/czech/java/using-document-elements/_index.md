@@ -24,7 +24,7 @@ Než se ponoříme do tutoriálů, je nezbytné pochopit koncept prvků dokument
 
 ## Přístup k prvkům dokumentu a manipulace s nimi
 
-Jednou z klíčových dovedností, které si v těchto tutoriálech osvojíte, je schopnost přistupovat k prvkům dokumentů a manipulovat s nimi. Aspose.Words pro Javu nabízí bohatou sadu API, která vám umožňují programově procházet, upravovat a extrahovat informace z vašich dokumentů. Ať už potřebujete najít a nahradit text, vložit tabulky nebo aktualizovat záhlaví a zápatí, tyto tutoriály vám pomohou.
+Jednou z klíčových dovedností, které si v těchto tutoriálech osvojíte, je schopnost přistupovat k prvkům dokumentů a manipulovat s nimi. Aspose.Words pro Javu nabízí bohatou sadu API, která vám umožňuje programově procházet, upravovat a extrahovat informace z vašich dokumentů. Ať už potřebujete najít a nahradit text, vložit tabulky nebo aktualizovat záhlaví a zápatí, tyto tutoriály vám pomohou.
 
 ## Vytváření dynamických dokumentů
 
@@ -67,10 +67,14 @@ Naučte se používat Markdown v Aspose.Words pro Javu s tímto podrobným návo
 Naučte se manipulovat s uzly v Aspose.Words pro Javu s tímto podrobným návodem. Odemkněte výkon zpracování dokumentů.
 ### [Používání objektů OLE a ovládacích prvků ActiveX v Aspose.Words pro Javu](./using-ole-objects-and-activex/)
 Naučte se používat objekty OLE a ovládací prvky ActiveX v Aspose.Words pro Javu. Snadno vytvářejte interaktivní dokumenty. Začněte hned teď!
+### [Jak vytvořit docx obsahující ActiveX pomocí Javy a Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Naučte se, jak vytvořit soubor DOCX s vloženými ActiveX ovládacími prvky pomocí Javy a Aspose.Words.
 ### [Používání revizí v Aspose.Words pro Javu](./using-revisions/)
 Naučte se efektivně používat revizní prvky Aspose.Words pro Javu. Podrobný návod pro vývojáře. Optimalizujte správu dokumentů.
 ### [Používání sekcí v Aspose.Words pro Javu](./using-sections/)
 Prozkoumejte Aspose.Words pro Javu: Komplexní průvodce používáním sekcí. Přidávání, mazání, přidávání a klonování sekcí s příklady kódu.
+### [Jak vložit koláčový graf do dokumentu Word pomocí Javy](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Naučte se, jak vložit koláčový graf do dokumentu Word pomocí Aspose.Words pro Javu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -47,6 +47,8 @@ Học cách lưu tài liệu hiệu quả với Aspose.Words for Java. Hướng 
 Làm chủ các thiết lập lưu tài liệu nâng cao với Aspose.Words for Java. Học cách định dạng, bảo vệ, tối ưu hóa và tự động hóa việc tạo tài liệu một cách dễ dàng.
 ### [Thao tác nội dung tài liệu với Cleanup, Fields và dữ liệu XML](./manipulating-document-content/)
 Tìm hiểu cách thao tác nội dung tài liệu bằng Aspose.Words for Java. Hướng dẫn từng bước này cung cấp các ví dụ về mã nguồn để quản lý tài liệu hiệu quả.
+### [Tạo biểu đồ dạng tròn và chèn biểu đồ vào Word bằng Java](./create-radial-chart-and-insert-chart-into-word-with-java/)
+Hướng dẫn tạo biểu đồ dạng tròn bằng Aspose.Words for Java và chèn nó vào tài liệu Word một cách dễ dàng.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -71,6 +71,10 @@
 เรียนรู้การใช้ Aspose.Words สำหรับการควบคุมการแก้ไขของ Java อย่างมีประสิทธิภาพ คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา เพิ่มประสิทธิภาพการจัดการเอกสารของคุณ
 ### [การใช้ Sections ใน Aspose.Words สำหรับ Java](./using-sections/)
 สำรวจ Aspose.Words สำหรับ Java: คู่มือที่ครอบคลุมเกี่ยวกับการใช้ส่วนต่างๆ เพิ่ม ลบ ผนวก โคลนส่วนต่างๆ ด้วยตัวอย่างโค้ด
+### [วิธีสร้างไฟล์ docx ที่มี ActiveX ด้วย Java และ Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+เรียนรู้วิธีสร้างไฟล์ DOCX ที่ฝัง ActiveX ด้วย Java และ Aspose.Words อย่างละเอียด
+### [วิธีแทรกแผนภูมิวงกลมลงในเอกสาร Word ด้วย Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+เรียนรู้วิธีแทรกแผนภูมิวงกลมลงในเอกสาร Word ด้วย Aspose.Words for Java อย่างง่ายดาย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

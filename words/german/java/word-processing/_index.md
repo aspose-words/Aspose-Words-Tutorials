@@ -47,6 +47,9 @@ Lernen Sie effizientes Speichern von Dokumenten mit Aspose.Words für Java. Dies
 Meistern Sie erweiterte Einstellungen zum Speichern von Dokumenten mit Aspose.Words für Java. Lernen Sie, die Dokumenterstellung mühelos zu formatieren, zu schützen, zu optimieren und zu automatisieren.
 ### [Bearbeiten von Dokumentinhalten mit Bereinigung, Feldern und XML-Daten](./manipulating-document-content/)
 Erfahren Sie, wie Sie Dokumentinhalte mit Aspose.Words für Java bearbeiten. Diese Schritt-für-Schritt-Anleitung bietet Quellcodebeispiele für effizientes Dokumentenmanagement.
+### [Radialdiagramm erstellen und Diagramm in Word mit Java einfügen](./create-radial-chart-and-insert-chart-into-word-with-java/)
+
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Radialdiagramm erzeugen und in ein Word-Dokument einbetten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
