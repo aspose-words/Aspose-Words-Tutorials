@@ -67,6 +67,9 @@ Zenginleştirilmiş belgeyi ihtiyacınız olan formata dışa aktarın—PDF, DO
 ### [Java'da Metin İşlemede Ustalaşın&#58; Özetleme ve Çeviri için Aspose.Words & AI Modelleri Kullanımı](./java-aspose-words-text-processing/)
 OpenAI'nin GPT‑4 ve Google'ın Gemini'si ile Aspose.Words for Java kullanarak metin özetleme ve çeviriyi nasıl otomatikleştireceğinizi öğrenin. Java uygulamalarınızı bugün geliştirin.
 
+### [LLM'yi Nasıl Yapılandırılır – DOCX'te Metni AI ile Değiştir](./how-to-configure-llm-replace-text-in-docx-with-ai/)
+LLM'yi yapılandırarak AI destekli metin değiştirme işlemini DOCX belgelerinde nasıl uygulayacağınızı adım adım öğrenin.
+
 ## Ek Kaynaklar
 - [Aspose.Words for Java Dokümantasyonu](https://reference.aspose.com/words/java/)
 - [Aspose.Words for API Referansı](https://reference.aspose.com/words/java/)

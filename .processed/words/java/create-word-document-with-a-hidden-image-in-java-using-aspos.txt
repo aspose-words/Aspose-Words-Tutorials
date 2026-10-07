@@ -1,0 +1,7 @@
+Title: Create word document with a hidden image in Java using Aspose.Words
+Slug: create-word-document-with-a-hidden-image-in-java-using-aspos
+Category: images-shapes
+ProcessedDate: 2026-09-24T19:08:22.630499
+SourceRepo: AI Search API
+Keywords: create word document, how to hide image, add image word, how to hide shape, insert hidden picture
+PRNumber: 287

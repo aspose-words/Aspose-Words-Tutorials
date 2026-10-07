@@ -16,7 +16,12 @@ weight: 13
 
 # Aspose.Words for Java에서 Office Math 객체 사용하기
 
-## Aspose.Words for Java에서 Office Math 객체 사용 소개
+## 빠른 답변
+- **“디스플레이 수학 인라인”이란 무엇입니까?** 수식이 별도의 이란의 줄이 아니라 약간의 압축된 내용입니다.
+- **수식을 모으는 클래스는?** Aspose.Words API의 `OfficeMath`.
+- **정렬을 찾을 수 있습니까?** 예, `setJustification`을 사용하여 LEFT, CENTER, RIGHT 중 선택할 수 있습니다.
+- **이 능력에 능력이 필요합니까?** 명상 환경에서는 Aspose.Words for Java 능력이 필요합니다.
+- **데모에 사용된 버전은?** 최신 Aspose.Words for Java 릴리스(2026)와 호환됩니다.
 
 Java 기반 문서 워크플로우에서 **office math**를 사용해야 할 때, Aspose.Words는 복잡한 수식을 다루는 깔끔하고 프로그래밍 방식의 방법을 제공합니다. 이 가이드에서는 문서를 로드하고, Office Math 객체를 찾으며, 외형을 조정하고, 결과를 저장하는 모든 과정을 단계별로 안내합니다—코드는 이해하기 쉽게 유지됩니다.
 
@@ -93,7 +98,6 @@ officeMath.setJustification(OfficeMathJustification.LEFT);
 ```java
 doc.save("Your Directory Path" + "ModifiedOfficeMath.docx");
 ```
-
 ### Office Math 객체 사용 전체 소스 코드
 
 전체 흐름을 한 번에 보여주는 최소 예제입니다. **블록 내부의 코드는 절대 수정하지 마세요** – 원본 튜토리얼과 정확히 동일하게 유지됩니다.

@@ -1,26 +1,24 @@
 ---
 category: general
-date: 2025-12-29
-description: Как экспортировать markdown из файла DOCX с помощью Aspose.Words. Узнайте,
-  как конвертировать Word в markdown, добавить разрыв строки в markdown и сохранить
-  DOCX как markdown.
+date: 2026-02-24
+description: Узнайте, как экспортировать markdown из Word с помощью Aspose.Words,
+  конвертировать Word в markdown и загружать изображения в облако за несколько шагов.
 draft: false
 keywords:
 - how to export markdown
 - convert word to markdown
-- how to convert docx
-- add line break markdown
-- save docx as markdown
+- upload images to cloud
+- export docx as markdown
 language: ru
-og_description: Как экспортировать markdown из файла DOCX с помощью Aspose.Words.
-  Этот учебник показывает, как конвертировать Word в markdown, добавить разрыв строки
-  в markdown и сохранить DOCX как markdown.
-og_title: Как экспортировать Markdown из Word – Полное руководство по C#
+og_description: Как экспортировать markdown из Word? Это руководство показывает, как
+  экспортировать markdown, конвертировать docx и загружать изображения в облако с
+  помощью Aspose.Words.
+og_title: как экспортировать markdown из Word – пошаговое руководство по C#
 tags:
 - Aspose.Words
 - C#
 - Markdown
-title: Как экспортировать Markdown из Word – Полное руководство по C#
+title: Как экспортировать markdown из Word — Полное руководство по C#
 url: /ru/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-word-complete-c-guide/
 ---
 
@@ -28,185 +26,175 @@ url: /ru/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-wo
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Как экспортировать Markdown из Word – Полное руководство на C#
+# как экспортировать markdown из Word с помощью Aspose.Words
 
-Когда‑нибудь задавались вопросом **как экспортировать markdown** из документа Word без потери форматирования? Вы не одиноки. Многие разработчики ищут надёжный способ **конвертировать Word в markdown**, особенно при миграции документации или передаче контента в генераторы статических сайтов.  
+Когда‑нибудь задавались вопросом **как экспортировать markdown** из документа Word, не теряя ценные изображения? Вы не одиноки — разработчики постоянно спрашивают *«Можно ли конвертировать Word в markdown и при этом сохранить картинки, размещённые где‑то в безопасном месте?»* Краткий ответ — **да**, а развернутый ответ — аккуратный фрагмент C#, который выполнит всю тяжелую работу за вас.
 
-В этом руководстве мы пройдём по точным шагам: возьмём файл `.docx`, настроим Aspose.Words так, чтобы пустые абзацы превращались в разрывы строк, и, наконец, **сохраним docx как markdown**. К концу вы получите готовую к запуску программу на C#, которая выполнит всю работу, а также советы по обработке особых случаев, таких как таблицы, изображения и пользовательские стили.
+В этом руководстве мы пройдем весь процесс: загрузку *.docx*, настройку `MarkdownSaveOptions`, написание пользовательского `IResourceSavingCallback`, который **загружает изображения в облако**, и, наконец, сохранение результата в чистый файл *.md*. К концу вы сможете *конвертировать Word в markdown* и *экспортировать docx как markdown* всего несколькими строками кода.
 
-> **Pro tip:** Если вы уже используете Aspose.Words для других задач с документами, вы можете переиспользовать тот же объект `Document` – дополнительных зависимостей не требуется.
+> **Что вам понадобится**  
+> - .NET 6+ (или любой современный .NET runtime)  
+> - Aspose.Words for .NET (бесплатная пробная версия подходит для экспериментов)  
+> - Облачный bucket или CDN‑endpoint, куда можно отправлять POST запросы с бинарными данными (в примере используется заглушка URL)  
 
-## Что понадобится
+Если у вас всё готово, давайте погрузимся.
 
-- **.NET 6+** (код также работает на .NET Framework, но .NET 6 – текущий LTS)
-- **Aspose.Words for .NET** – можно установить через NuGet (`Install-Package Aspose.Words`)
-- Пример файла **input.docx** (подойдёт любой Word‑файл; мы будем обрабатывать пустые абзацы особым образом)
-- Visual Studio, VS Code или любой другой редактор C#
+![как экспортировать markdown блок-схема](image.png "как экспортировать markdown")
 
-Библиотеки сторонних markdown‑парсеров не нужны; всю тяжёлую работу делает Aspose.Words.
+## Шаг 1 – Загрузка DOCX (конвертация word в markdown)
 
-## Как экспортировать Markdown из документа Word (по шагам)
-
-Ниже представлен полностью готовый к запуску пример программы. Сохраните его как `Program.cs` и запустите из командной строки или вашей IDE.
+The first thing we do is read the source document. Aspose.Words abstracts away the messy OpenXML parsing, so you just point it at a file path or a stream.
 
 ```csharp
-using System;
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-class Program
-{
-    static void Main()
-    {
-        // 1️⃣ Load the source Word document.
-        // Replace "YOUR_DIRECTORY" with the actual folder path.
-        string inputPath = @"YOUR_DIRECTORY\input.docx";
-        Document wordDocument = new Document(inputPath);
+// Load the source .docx that contains images, tables, etc.
+Document sourceDocument = new Document("YOUR_DIRECTORY/input.docx");
+```
 
-        // 2️⃣ Configure Markdown save options.
-        // We want empty paragraphs to become line breaks.
-        MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
+*Почему это важно*: загрузка документа дает нам полную объектную модель, сохраняющую каждый встроенный ресурс. Если пропустить этот шаг и попытаться читать файл вручную, вы потеряете связь между изображениями и их заполнителями — то, что часто сбивает с толку наивных конвертеров.
+
+## Шаг 2 – Настройка MarkdownSaveOptions (как экспортировать markdown)
+
+Now we tell Aspose.Words that we want Markdown as the output format. The `MarkdownSaveOptions` class lets you plug in a callback that fires for **each external resource** (like an image). That’s where we’ll later **upload images to cloud**.
+
+```csharp
+// Prepare options for Markdown export and attach a callback
+MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
+{
+    // The callback will decide where each image lives on the web
+    ResourceSavingCallback = new MyResourceCallback()
+};
+```
+
+Notice the property `ResourceSavingCallback`. Without it, Aspose would dump every image next to the `.md` file on disk—a fine approach for local testing, but not ideal when you need a public URL. By providing a custom implementation we gain full control over the final URI.
+
+## Шаг 3 – Реализация обратного вызова сохранения ресурсов (загрузка изображений в облако)
+
+Below is the heart of the solution. The `MyResourceCallback` class implements `IResourceSavingCallback`. For every image stream we receive, we upload it to a CDN (or any HTTP endpoint you prefer) and then replace the local reference with the returned public URL.
+
+```csharp
+public class MyResourceCallback : IResourceSavingCallback
+{
+    public void ResourceSaving(ResourceSavingArgs args)
+    {
+        // Upload the resource (image, SVG, etc.) and obtain its public URL
+        string cloudUrl = UploadToCloud(args.Stream, args.FileName);
+        args.Uri = cloudUrl;                     // URL that will appear in the Markdown
+        args.KeepOriginalDocumentUri = false;   // Skip writing a local copy
+    }
+
+    private string UploadToCloud(Stream data, string name)
+    {
+        // 👉 Insert your real cloud‑API logic here.
+        // For demo purposes we just pretend the upload succeeded.
+        // In production you would POST `data` to your storage service
+        // and return the resulting HTTPS URL.
+        return $"https://mycdn.example.com/{name}";
+    }
+}
+```
+
+### Почему нужен пользовательский обратный вызов?
+
+1. **Контроль над именованием** — вы можете добавить префикс GUID, метку времени или любую конвенцию, ожидаемую вашим CDN.  
+2. **Безопасность** — вы можете добавить заголовки аутентификации перед HTTP‑запросом.  
+3. **Производительность** — вы можете пакетировать загрузки или использовать асинхронный ввод‑вывод, если обрабатываете много документов.
+
+If you don’t have a cloud bucket yet, many providers (Amazon S3, Azure Blob, Google Cloud Storage) offer a simple REST API that fits this pattern.
+
+## Шаг 4 – Сохранение документа как Markdown
+
+With the callback wired up, the final step is a one‑liner that produces a Markdown file. All images referenced in the document will now point to the URLs returned by `UploadToCloud`.
+
+```csharp
+// Save the document as Markdown; the callback rewrites image URIs automatically
+sourceDocument.Save("YOUR_DIRECTORY/output.md", markdownOptions);
+```
+
+### Ожидаемый результат
+
+Open `output.md` in any editor and you’ll see something like:
+
+```markdown
+# Sample Heading
+
+Here is an image that was originally in the Word file:
+
+![Image1](https://mycdn.example.com/Image1.png)
+
+And a paragraph of text that came straight from the DOCX.
+```
+
+If you open the Markdown preview (VS Code, GitHub, etc.) the image should render from the CDN location—no local files required.
+
+## Распространённые подводные камни и крайние случаи
+
+| Situation | What to Watch For | Quick Fix |
+|-----------|-------------------|-----------|
+| **Большие изображения** | Загрузка может завершиться тайм‑аутом или превысить квоту | Измените размер или сожмите перед загрузкой; используйте `System.Drawing` для уменьшения потоков |
+| **Форматы, отличные от PNG** | Некоторые CDN отклоняют определённые MIME‑типы | Определите расширение `args.FileName`, конвертируйте в PNG на лету |
+| **Отсутствуют облачные учётные данные** | `UploadToCloud` выдаёт ошибку 401 | Храните учётные данные безопасно (Azure Key Vault, AWS Secrets Manager) и передавайте их в обратный вызов |
+| **Относительные ссылки в оригинальном DOCX** | Aspose может сохранить относительный путь | Переопределите `args.Uri` независимо от оригинального значения (как мы делаем) |
+| **Несколько документов одновременно** | Состояние гонки при одинаковом имени файла | Добавьте GUID к `name` внутри `UploadToCloud` |
+
+Addressing these edge cases makes your solution robust enough for production pipelines.
+
+## Бонус: Превращение фрагмента в переиспользуемую библиотеку
+
+If you find yourself converting dozens of documents a day, consider wrapping the above logic into a static helper:
+
+```csharp
+public static class WordToMarkdownConverter
+{
+    public static void Convert(string inputPath, string outputPath, Func<Stream, string, string> uploader)
+    {
+        Document doc = new Document(inputPath);
+        var options = new MarkdownSaveOptions
         {
-            EmptyParagraphExportMode = EmptyParagraphExportMode.AddLineBreak
+            ResourceSavingCallback = new LambdaResourceCallback(uploader)
         };
-
-        // 3️⃣ Save the document as a Markdown file.
-        string outputPath = @"YOUR_DIRECTORY\output.md";
-        wordDocument.Save(outputPath, markdownOptions);
-
-        Console.WriteLine($"✅ Success! Markdown saved to {outputPath}");
+        doc.Save(outputPath, options);
     }
-}
-```
 
-### Почему важны эти шаги
-
-1. **Загрузка DOCX** – `new Document(path)` разбирает Word‑файл в объектную модель Aspose, открывая доступ к абзацам, таблицам, изображениям и т.д.  
-2. **Установка `EmptyParagraphExportMode`** – По умолчанию Aspose может отбрасывать пустые абзацы, что приводит к исчезновению разрывов строк в полученном markdown. `AddLineBreak` заставляет вставлять буквальный `\n` в вывод, обеспечивая ожидаемое **add line break markdown** поведение.  
-3. **Сохранение как Markdown** – Метод `Save` записывает файл `.md`, используя заданные параметры, фактически **convert word to markdown** одной строкой кода.
-
-## Конвертировать Word в Markdown с помощью Aspose.Words – Частые варианты
-
-Хотя приведённый выше фрагмент покрывает основы, в реальных проектах часто требуется дополнительная обработка.
-
-### H3: Сохранение таблиц
-
-Aspose автоматически переводит таблицы Word в markdown‑синтаксис с трубами. Если вы заметите смещение выравнивания, можно настроить `TableExportMode`:
-
-```csharp
-markdownOptions.TableExportMode = TableExportMode.Markdown;
-```
-
-### H3: Экспорт изображений
-
-По умолчанию изображения сохраняются отдельными файлами рядом с markdown‑файлом. Чтобы встроить их как Base64 (удобно для одностраничных документов), установите:
-
-```csharp
-markdownOptions.ImageSavingCallback = new ImageSavingCallback();
-```
-
-(Реализация `ImageSavingCallback` выходит за рамки данного руководства, но в документации Aspose есть лаконичный пример.)
-
-### H3: Управление уровнями заголовков
-
-Если ваш исходный документ использует пользовательские стили заголовков, их можно сопоставить markdown‑заголовкам через `HeadingExportLevel`:
-
-```csharp
-markdownOptions.HeadingExportLevel = 3; // forces ### for all headings
-```
-
-## Добавление разрывов строк в Markdown – Управление пустыми абзацами
-
-Суть **add line break markdown** заключается в параметре `EmptyParagraphExportMode`. Доступны три варианта:
-
-| Mode | Result in Markdown |
-|------|--------------------|
-| `AddLineBreak` | Вставляет пустую строку (`\n`) – идеально для визуального разделения абзацев |
-| `Preserve` | Сохраняет пустой абзац как пустой HTML‑тег `<p>` (не типично для markdown) |
-| `Ignore` | Полностью пропускает пустой абзац – удобно для компактного вывода |
-
-Выбор `AddLineBreak` обычно нужен, когда требуется визуальный разрыв без создания нового заголовка или пункта списка.
-
-## Сохранить DOCX как Markdown – Полный рабочий пример с обработкой ошибок
-
-В продакшн‑коде следует предусмотреть отсутствие файлов, проблемы с правами доступа и неподдерживаемые элементы. Вот более надёжная версия:
-
-```csharp
-using System;
-using System.IO;
-using Aspose.Words;
-using Aspose.Words.Saving;
-
-class MarkdownExporter
-{
-    static void Main()
+    private class LambdaResourceCallback : IResourceSavingCallback
     {
-        string inputFile = @"YOUR_DIRECTORY\input.docx";
-        string outputFile = @"YOUR_DIRECTORY\output.md";
+        private readonly Func<Stream, string, string> _uploader;
+        public LambdaResourceCallback(Func<Stream, string, string> uploader) => _uploader = uploader;
 
-        try
+        public void ResourceSaving(ResourceSavingArgs args)
         {
-            // Verify the source file exists.
-            if (!File.Exists(inputFile))
-                throw new FileNotFoundException("Input DOCX not found.", inputFile);
-
-            // Load the document.
-            Document doc = new Document(inputFile);
-
-            // Set up markdown options.
-            MarkdownSaveOptions opts = new MarkdownSaveOptions
-            {
-                EmptyParagraphExportMode = EmptyParagraphExportMode.AddLineBreak,
-                // Optional: keep tables as markdown, preserve images as files.
-                TableExportMode = TableExportMode.Markdown
-            };
-
-            // Save as markdown.
-            doc.Save(outputFile, opts);
-
-            Console.WriteLine($"✅ {Path.GetFileName(outputFile)} created successfully.");
-        }
-        catch (Exception ex)
-        {
-            Console.Error.WriteLine($"❌ Error exporting markdown: {ex.Message}");
-            // In a real app you might log the stack trace or rethrow.
+            args.Uri = _uploader(args.Stream, args.FileName);
+            args.KeepOriginalDocumentUri = false;
         }
     }
 }
 ```
 
-**Ожидаемый результат:** Откройте `output.md` в любом markdown‑просмотрщике (VS Code, GitHub, MkDocs) – вы увидите оригинальное содержимое Word, а пустые абзацы будут отображаться как пустые строки – именно тот **add line break markdown** эффект, который мы хотели.
+You can now call:
 
-## Иллюстрация
+```csharp
+WordToMarkdownConverter.Convert(
+    "input.docx",
+    "output.md",
+    (stream, name) => UploadToCloud(stream, name) // your real uploader
+);
+```
 
-Ниже показан быстрый скриншот сгенерированного markdown‑файла, открытого в VS Code.  
-*(Изображение иллюстративное; замените своим при публикации.)*
-
-![how to export markdown example](https://example.com/placeholder-image.png)
-
-*Alt text:* how to export markdown example – показывает превью markdown конвертированного DOCX
-
-## Часто задаваемые вопросы
-
-- **Работает ли это с .doc файлами?**  
-  Да. Aspose.Words поддерживает как `.doc`, так и `.docx`. Просто измените расширение в `inputPath`.
-
-- **Что если в документе есть сноски?**  
-  По умолчанию сноски экспортируются как встроенные markdown‑ссылки. Их можно настроить через `FootnoteExportMode`.
-
-- **Можно ли обрабатывать несколько файлов пакетно?**  
-  Конечно. Оберните основную логику в цикл `foreach` по директории и скорректируйте имена выходных файлов.
-
-- **Библиотека бесплатна?**  
-  Aspose.Words предлагает бесплатную пробную версию с полным функционалом. Для продакшна понадобится лицензия, но использование API остаётся тем же.
+This pattern separates concerns, keeps your main program tidy, and makes unit‑testing the uploader trivial.
 
 ## Заключение
 
-Мы рассмотрели **как экспортировать markdown** из документа Word с помощью Aspose.Words, продемонстрировали процесс **convert word to markdown**, объяснили настройку **add line break markdown** и представили полный пример **save docx as markdown**, который можно вставить в любой .NET‑проект.  
+We’ve covered **how to export markdown** from a Word file, shown you how to **convert Word to markdown**, demonstrated a clean way to **upload images to cloud**, and finally produced an **export docx as markdown** file that’s ready for GitHub, static sites, or any downstream consumer. The key takeaways are:
 
-Получив эти знания, вы сможете автоматизировать конвейеры документации, мигрировать устаревшие документы или просто хранить контент в лёгком, удобном для контроля версий формате. Далее попробуйте добавить собственную обработку изображений или интегрировать экспортер в шаг сборки CI/CD – ваш набор инструментов для конвертации в markdown теперь полностью укомплектован.
+* Use `MarkdownSaveOptions` with a custom `IResourceSavingCallback` to control image URIs.  
+* Keep your upload logic isolated—this improves testability and lets you swap CDNs without touching the conversion code.  
+* Anticipate edge cases (large files, auth, naming collisions) early to avoid surprises in production.
 
-Happy coding, and may your markdown always render just the way you expect!
+Ready for the next step? Try swapping the placeholder `UploadToCloud` with a real Azure Blob call, or experiment with async uploads for massive batches. The pattern stays the same; only the storage details change.
+
+If you ran into any snags, drop a comment below—happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

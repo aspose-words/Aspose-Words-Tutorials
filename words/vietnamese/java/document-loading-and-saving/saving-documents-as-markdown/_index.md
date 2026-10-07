@@ -1,11 +1,11 @@
 ---
-date: 2025-12-22
-description: Tìm hiểu cách xuất markdown bằng cách chuyển đổi tài liệu Word sang Markdown
-  với Aspose.Words for Java. Hướng dẫn từng bước này bao gồm căn chỉnh bảng, xử lý
-  hình ảnh và nhiều hơn nữa.
+date: 2026-02-24
+description: Tìm hiểu cách chuyển đổi Word sang Markdown bằng Aspose.Words cho Java.
+  Hướng dẫn này bao gồm việc căn chỉnh bảng, xử lý hình ảnh và cách lưu tài liệu dưới
+  dạng Markdown.
 linktitle: Saving Documents as Markdown
 second_title: Aspose.Words Java Document Processing API
-title: Cách xuất Markdown bằng Aspose.Words cho Java
+title: Chuyển đổi Word sang Markdown với Aspose.Words cho Java
 url: /vi/java/document-loading-and-saving/saving-documents-as-markdown/
 weight: 18
 ---
@@ -16,31 +16,42 @@ weight: 18
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách xuất Markdown với Aspose.Words cho Java
+# Chuyển đổi Word sang Markdown với Aspose.Words cho Java
 
-## Giới thiệu về việc xuất Markdown trong Aspose.Words cho Java
+## Giới thiệu về Chuyển đổi Word sang Markdown với Aspose.Words cho Java
 
-Trong hướng dẫn từng bước này, **bạn sẽ học cách xuất markdown** từ các tài liệu Word bằng Aspose.Words cho Java. Markdown là một ngôn ngữ đánh dấu nhẹ, phù hợp cho tài liệu, các trình tạo trang tĩnh và nhiều nền tảng xuất bản. Khi kết thúc hướng dẫn này, bạn sẽ có thể **chuyển đổi Word sang markdown**, tùy chỉnh căn chỉnh bảng, và **xử lý hình ảnh trong markdown** một cách dễ dàng.
+Trong hướng dẫn từng bước này, bạn sẽ học **cách chuyển đổi Word sang Markdown** bằng cách sử dụng API mạnh mẽ của Aspose.Words cho Java. Markdown là một ngôn ngữ đánh dấu nhẹ mà nhiều nhà phát triển và nền tảng nội dung dựa vào để tạo tài liệu sạch sẽ, dễ đọc. Khi kết thúc hướng dẫn này, bạn sẽ có thể lấy bất kỳ tệp `.docx` nào, giữ nguyên bảng, hình ảnh và định dạng, và xuất nó dưới dạng tệp `.md` sẵn sàng cho các trình tạo trang tĩnh, README trên GitHub, hoặc bất kỳ quy trình làm việc nào hỗ trợ markdown.
 
 ## Câu trả lời nhanh
-- **Lớp chính để lưu dưới dạng Markdown là gì?** `MarkdownSaveOptions`
-- **Hình ảnh có thể được nhúng tự động không?** Có – đặt thư mục hình ảnh bằng `setImagesFolder`.
-- **Làm sao để kiểm soát căn chỉnh bảng?** Sử dụng `TableContentAlignment` (LEFT, RIGHT, CENTER, AUTO).
-- **Yêu cầu tối thiểu là gì?** JDK 8+ và thư viện Aspose.Words cho Java.
-- **Có phiên bản dùng thử không?** Có, tải xuống từ trang web Aspose.
+- **Thư viện tôi cần là gì?** Aspose.Words cho Java (`aspose-words.jar`).
+- **Tôi có thể tùy chỉnh căn chỉnh bảng không?** Có – sử dụng `TableContentAlignment` trong `MarkdownSaveOptions`.
+- **Hình ảnh được xử lý như thế nào?** Đặt thư mục hình ảnh bằng `setImagesFolder()`; thư viện sẽ tạo các liên kết tương đối.
+- **Tôi có cần giấy phép cho môi trường sản xuất không?** Cần giấy phép thương mại cho việc sử dụng không phải thử nghiệm.
+- **Liệu nó có tương thích với Java 17 không?** Có, thư viện hỗ trợ Java 8 trở lên.
 
-## Export markdown là gì?
-Xuất markdown có nghĩa là chuyển một tài liệu Word dạng rich‑text (`.docx`) thành một tệp văn bản thuần `.md` giữ lại các tiêu đề, bảng và hình ảnh theo cú pháp Markdown.
+## Chuyển đổi Word sang Markdown là gì?
 
-## Tại sao nên dùng Aspose.Words cho Java để chuyển đổi docx có hình ảnh?
-Aspose.Words xử lý các bố cục phức tạp, hình ảnh nhúng và cấu trúc bảng mà không mất độ chính xác. Nó cũng cung cấp cho bạn khả năng kiểm soát chi tiết đầu ra Markdown, như căn chỉnh bảng và quản lý thư mục hình ảnh.
+Chuyển đổi Word sang Markdown có nghĩa là lấy định dạng phong phú của tài liệu Microsoft Word và chuyển nó thành cú pháp markdown dạng văn bản thuần. Quá trình này giữ lại các tiêu đề, danh sách, bảng và tham chiếu hình ảnh trong khi loại bỏ định dạng nhị phân, giúp nội dung di động và thân thiện với hệ thống kiểm soát phiên bản.
+
+## Tại sao nên sử dụng Aspose.Words cho Java để lưu tài liệu dưới dạng markdown?
+
+* **Độ chính xác cao** – bảng, hình ảnh và bố cục phức tạp được giữ nguyên.
+* **Kiểm soát chi tiết** – bạn có thể tùy chỉnh căn chỉnh bảng, đường dẫn hình ảnh, và hơn thế nữa.
+* **Không phụ thuộc bên ngoài** – thư viện hoạt động ngay mà không cần cài đặt Office.
+* **Đa nền tảng** – hoạt động trên Windows, Linux và macOS với bất kỳ môi trường chạy Java nào.
 
 ## Yêu cầu trước
-- Java Development Kit (JDK) đã được cài đặt trên hệ thống của bạn.
-- Thư viện Aspose.Words cho Java. Bạn có thể tải xuống từ [here](https://releases.aspose.com/words/java/).
 
-## Bước 1: Tạo một tài liệu Word đơn giản
-Đầu tiên, chúng ta sẽ tạo một tài liệu nhỏ có chứa một bảng. Điều này sẽ cho phép chúng ta minh họa **tùy chỉnh căn chỉnh bảng** sau này.
+Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
+
+- Java Development Kit (JDK) đã được cài đặt trên hệ thống của bạn.
+- Thư viện Aspose.Words cho Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/java/).
+
+## Hướng dẫn từng bước
+
+### Bước 1: Tạo tài liệu Word sẽ được chuyển đổi
+
+Đầu tiên, chúng ta tạo một tài liệu Word đơn giản chứa một bảng hai ô. Ví dụ này minh họa cách căn chỉnh đoạn văn bên trong các ô bảng được giữ nguyên khi chúng ta sau này **lưu tài liệu dưới dạng markdown**.
 
 ```java
 Document doc = new Document();
@@ -60,15 +71,9 @@ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 doc.save("output.md", saveOptions);
 ```
 
-Trong đoạn mã trên chúng ta:
+### Bước 2: Tùy chỉnh căn chỉnh nội dung bảng
 
-1. Tạo một `Document` mới.
-2. Sử dụng `DocumentBuilder` để chèn một bảng hai ô.
-3. Áp dụng căn chỉnh đoạn văn **phải** và **giữa** trong mỗi ô.
-4. Lưu tệp dưới dạng Markdown bằng `MarkdownSaveOptions`.
-
-## Bước 2: Tùy chỉnh căn chỉnh nội dung bảng
-Aspose.Words cho phép bạn chỉ định cách các ô bảng được hiển thị trong Markdown cuối cùng. Bạn có thể buộc căn trái, phải, giữa, hoặc để thư viện tự động quyết định dựa trên đoạn văn đầu tiên của mỗi cột.
+Aspose.Words cho Java cho phép bạn kiểm soát cách các ô bảng được căn chỉnh trong markdown được tạo ra. Sử dụng thuộc tính `TableContentAlignment` để **tùy chỉnh căn chỉnh bảng** sang trái, phải, trung tâm, hoặc để thư viện tự động quyết định dựa trên đoạn văn đầu tiên trong mỗi cột.
 
 ```java
 // Set the table content alignment to left
@@ -88,10 +93,11 @@ saveOptions.setTableContentAlignment(TableContentAlignment.AUTO);
 doc.save("auto_alignment.md", saveOptions);
 ```
 
-Bằng cách chuyển đổi thuộc tính `TableContentAlignment`, bạn kiểm soát **tùy chỉnh căn chỉnh bảng** cho đầu ra Markdown.
+Bằng cách bật/tắt cài đặt này, bạn có thể **xuất bảng Word sang markdown** với căn chỉnh chính xác mà bạn cần cho các công cụ render phía sau.
 
-## Bước 3: Xử lý hình ảnh khi xuất sang markdown
-Khi một tài liệu chứa hình ảnh, bạn sẽ muốn các hình ảnh đó hiển thị đúng trong tệp `.md` được tạo. Đặt thư mục mà Aspose.Words sẽ lưu các hình ảnh đã trích xuất.
+### Bước 3: Xử lý hình ảnh trong quá trình chuyển đổi
+
+Khi tài liệu Word nguồn của bạn chứa hình ảnh, bạn phải chỉ định cho Aspose.Words nơi lưu các tệp hình ảnh đã xuất. Phương thức `setImagesFolder` trên `MarkdownSaveOptions` xác định thư mục sẽ chứa các tài nguyên hình ảnh, và markdown sẽ chứa các liên kết tương đối tới các tệp đó.
 
 ```java
 // Load a document containing images
@@ -105,9 +111,12 @@ saveOptions.setImagesFolder("images_folder/");
 doc.save("document_with_images.md", saveOptions);
 ```
 
-Thay thế `"document_with_images.docx"` bằng đường dẫn tới tệp nguồn của bạn và `"images_folder/"` bằng vị trí bạn muốn lưu các hình ảnh. Markdown kết quả sẽ chứa các liên kết hình ảnh trỏ tới thư mục này, cho phép bạn **xử lý hình ảnh trong markdown** một cách liền mạch.
+Thay thế `"document_with_images.docx"` bằng đường dẫn tới tệp nguồn của bạn và `"images_folder/"` bằng thư mục đầu ra mong muốn cho các hình ảnh.
 
-## Mã nguồn hoàn chỉnh để lưu tài liệu dưới dạng Markdown trong Aspose.Words cho Java
+### Mã nguồn hoàn chỉnh cho mọi kịch bản
+
+Dưới đây là một ví dụ tổng hợp cho thấy cách **tự động căn chỉnh bảng**, **tùy chỉnh căn chỉnh**, và **đặt thư mục hình ảnh** trong một phương thức. Đoạn mã này phản ánh mã gốc của hướng dẫn và hoạt động mà không cần thay đổi.
+
 ```java
 public void autoTableContentAlignment() throws Exception
 {
@@ -146,32 +155,39 @@ public void setImagesFolder() throws Exception
 ```
 
 ## Các vấn đề thường gặp và giải pháp
-| Vấn đề | Giải pháp |
-|-------|----------|
-| Hình ảnh không hiển thị trong tệp `.md` | Kiểm tra rằng `setImagesFolder` trỏ tới một thư mục có thể ghi và thư mục này được tham chiếu đúng trong Markdown được tạo. |
-| Căn chỉnh bảng bị lệch | Sử dụng `TableContentAlignment.AUTO` để cho Aspose.Words suy ra căn chỉnh tốt nhất dựa trên đoạn văn đầu tiên của mỗi cột. |
-| Tệp đầu ra rỗng | Đảm bảo đối tượng `Document` thực sự chứa nội dung trước khi gọi `save`. |
+
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|------------|----------|
+| Hình ảnh xuất hiện liên kết hỏng | `setImagesFolder` not set or folder path incorrect | Xác minh đường dẫn thư mục là đúng và thư mục có quyền ghi |
+| Căn chỉnh bảng không đúng | Wrong `TableContentAlignment` value | Sử dụng `TableContentAlignment.AUTO` để để đoạn văn đầu tiên quyết định, hoặc đặt rõ LEFT/RIGHT/CENTER |
+| Tệp đầu ra rỗng | Save options not passed to `doc.save()` | Đảm bảo bạn truyền đối tượng `MarkdownSaveOptions` vào phương thức `save` |
+| Các tính năng Word không được hỗ trợ (ví dụ: SmartArt) | Markdown cannot represent some complex objects | Chuyển các yếu tố đó thành hình ảnh trước khi lưu, hoặc đơn giản hoá tài liệu nguồn |
 
 ## Câu hỏi thường gặp
+
 **Q: Làm thế nào để cài đặt Aspose.Words cho Java?**  
-**A:** Aspose.Words cho Java có thể được cài đặt bằng cách bao gồm thư viện trong dự án Java của bạn. Bạn có thể tải thư viện từ [here](https://releases.aspose.com/words/java/) và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu.
+A: Aspose.Words cho Java có thể được cài đặt bằng cách đưa thư viện vào dự án Java của bạn. Bạn có thể tải thư viện từ [đây](https://releases.aspose.com/words/java/) và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu.
 
-**Q: Tôi có thể chuyển đổi các tài liệu Word phức tạp có bảng và hình ảnh sang Markdown không?**  
-**A:** Có, Aspose.Words cho Java hỗ trợ chuyển đổi các tài liệu Word phức tạp có bảng, hình ảnh và các yếu tố định dạng khác sang Markdown. Bạn có thể tùy chỉnh đầu ra Markdown theo độ phức tạp của tài liệu.
+**Q: Tôi có thể chuyển đổi tài liệu Word phức tạp có bảng và hình ảnh sang Markdown không?**  
+A: Có, Aspose.Words cho Java hỗ trợ chuyển đổi các tài liệu Word phức tạp có bảng, hình ảnh và các yếu tố định dạng khác sang Markdown. Bạn có thể tùy chỉnh đầu ra Markdown theo độ phức tạp của tài liệu.
 
-**Q: Làm sao tôi có thể xử lý hình ảnh trong các tệp Markdown?**  
-**A:** Đặt đường dẫn thư mục hình ảnh bằng phương thức `setImagesFolder` trong `MarkdownSaveOptions`. Đảm bảo các tệp hình ảnh được lưu trong thư mục đã chỉ định; Aspose.Words sẽ tạo các liên kết hình ảnh Markdown phù hợp.
+**Q: Làm thế nào để tôi xử lý hình ảnh trong các tệp Markdown?**  
+A: Để chèn hình ảnh vào các tệp Markdown, hãy đặt đường dẫn thư mục hình ảnh bằng phương thức `setImagesFolder` trong `MarkdownSaveOptions`. Đảm bảo các tệp hình ảnh được lưu trong thư mục đã chỉ định, và Aspose.Words cho Java sẽ xử lý các tham chiếu hình ảnh tương ứng.
 
 **Q: Có phiên bản dùng thử của Aspose.Words cho Java không?**  
-**A:** Có, bạn có thể nhận phiên bản dùng thử của Aspose.Words cho Java từ trang web Aspose. Phiên bản dùng thử cho phép bạn đánh giá khả năng của thư viện trước khi mua giấy phép.
+A: Có, bạn có thể lấy phiên bản dùng thử của Aspose.Words cho Java từ trang web Aspose. Phiên bản dùng thử cho phép bạn đánh giá khả năng của thư viện trước khi mua giấy phép.
 
 **Q: Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?**  
-**A:** Để xem thêm ví dụ, tài liệu và thông tin chi tiết về Aspose.Words cho Java, vui lòng truy cập [documentation](https://reference.aspose.com/words/java/).
+A: Để xem thêm ví dụ, tài liệu và thông tin chi tiết về Aspose.Words cho Java, vui lòng truy cập [tài liệu](https://reference.aspose.com/words/java/).
+
+## Kết luận
+
+Trong hướng dẫn này, chúng tôi đã đề cập đến mọi thứ bạn cần để **chuyển đổi word sang markdown** bằng Aspose.Words cho Java: tạo tài liệu nguồn, **tùy chỉnh căn chỉnh bảng**, và xử lý hình ảnh với cấu hình thư mục phù hợp. Với những kỹ thuật này, bạn có thể xuất nội dung Word sang markdown một cách đáng tin cậy cho blog, trang tài liệu, hoặc bất kỳ nền tảng nào tiêu thụ markdown.
 
 ---
 
-**Cập nhật lần cuối:** 2025-12-22  
-**Kiểm tra với:** Aspose.Words cho Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
+**Cập nhật lần cuối:** 2026-02-24  
+**Kiểm tra với:** Aspose.Words cho Java 24.12 (mới nhất tại thời điểm viết)  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

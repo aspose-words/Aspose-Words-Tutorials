@@ -1,0 +1,7 @@
+Title: Group shapes in Word – complete programming guide
+Slug: group-shapes-in-word-complete-programming-guide
+Category: images-shapes
+ProcessedDate: 2026-08-14T11:14:01.228327
+SourceRepo: AI Search API
+Keywords: group shapes in word, create rectangle shape, set shape dimensions, group multiple shapes, build blank word document
+PRNumber: 252

@@ -1,0 +1,7 @@
+Title: How to create doughnut chart in a Word document with Java
+Slug: how-to-create-doughnut-chart-in-a-word-document-with-java
+Category: images-shapes
+ProcessedDate: 2026-09-21T16:36:58.808359
+SourceRepo: AI Search API
+Keywords: create doughnut chart, insert pie chart, rotate pie chart, format pie chart, create blank word document
+PRNumber: 283

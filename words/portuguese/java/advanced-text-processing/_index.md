@@ -64,6 +64,9 @@ Aprenda a gerenciar e inserir **control characters** em documentos usando Aspose
 ### [Domine Aspose.Words Java: Um Guia Completo de LayoutCollector e LayoutEnumerator para Processamento de Texto](./aspose-words-java-layoutcollector-enumerator-guide/)
 Desbloqueie o poder do **LayoutCollector** e **LayoutEnumerator** do Aspose.Words Java para processamento avançado de texto. Aprenda a gerenciar eficientemente layouts de documentos, analisar paginação e controlar a numeração de páginas.
 
+### [Criar forma retangular no Word com C# – Guia passo a passo](./create-rectangle-shape-in-word-with-c-step-by-step-guide/)
+Aprenda a inserir e formatar uma forma retangular em documentos Word usando Aspose.Words para C# passo a passo.
+
 ## Common Use Cases
 
 | Cenário | Como Ajuda |

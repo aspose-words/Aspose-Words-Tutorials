@@ -1,0 +1,7 @@
+Title: How to create blank Word document and add chart to Word
+Slug: how-to-create-blank-word-document-and-add-chart-to-word
+Category: programming-with-charts
+ProcessedDate: 2026-09-08T22:52:07.960202
+SourceRepo: AI Search API
+Keywords: create blank word document, add chart to word, insert radar chart
+PRNumber: 267

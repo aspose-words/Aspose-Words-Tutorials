@@ -21,6 +21,11 @@
 | ชื่อเรื่อง | คำอธิบาย |
 -
 - [สมการคณิตศาสตร์](./math-equations/) | เรียนรู้วิธีการกำหนดค่าสมการทางคณิตศาสตร์ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่าง คำถามที่พบบ่อย และอื่นๆ |
+- [บันทึก docx เป็น txt – ส่งออก Word Math ไปเป็น LaTeX ด้วย C#](./save-docx-as-txt-export-word-math-to-latex-with-c/) | เรียนรู้วิธีบันทึกไฟล์ docx เป็น txt และส่งออกสมการ Word Math เป็น LaTeX ด้วย C# |
+- [บันทึกเอกสารเป็น Txt – ส่งออก Word Math เป็น LaTeX ใน C#](./save-document-as-txt-export-word-math-to-latex-in-c/) |  |
+- [บันทึก docx เป็น txt – ส่งออกสมการเป็น LaTeX ด้วย Aspose.Words](./save-docx-as-txt-export-equations-to-latex-with-aspose-words/) | เรียนรู้วิธีบันทึกไฟล์ docx เป็น txt และส่งออกสมการเป็น LaTeX ด้วย Aspose.Words สำหรับ .NET |
+- [วิธีบันทึก DOCX เป็น TXT พร้อมการส่งออกคณิตศาสตร์ LaTeX](./how-to-save-docx-as-txt-with-latex-math-export/) | เรียนรู้วิธีแปลงไฟล์ DOCX เป็น TXT พร้อมการส่งออกสมการ LaTeX ด้วย Aspose.Words for .NET |
+- [วิธีแปลงสมการใน Word เป็น LaTeX – บันทึกเป็น TXT](./how-to-convert-equations-in-word-to-latex-save-as-txt/) | เรียนรู้วิธีแปลงสมการในเอกสาร Word เป็นรูปแบบ LaTeX และบันทึกเป็นไฟล์ TXT ด้วย Aspose.Words for .NET |
 - [บันทึก docx เป็น txt – คู่มือ C# ฉบับสมบูรณ์สำหรับส่งออกสมการ Word เป็น LaTeX](./save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/) | เรียนรู้วิธีบันทึกไฟล์ docx เป็น txt และส่งออกสมการ Word เป็น LaTeX ด้วย C# อย่างละเอียด |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

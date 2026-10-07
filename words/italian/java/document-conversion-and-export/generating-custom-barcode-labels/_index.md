@@ -41,7 +41,7 @@ Prima di iniziare a codificare, assicurati di avere quanto segue:
 
 ## Importare i Pacchetti
 
-Utilizzeremo le librerie Aspose.Words e Aspose.BarCode. Importa i seguenti pacchetti nel tuo progetto:
+Useremo le librerie Aspose.Words e Aspose.BarCode. Importa i seguenti pacchetti nel tuo progetto:
 
 ```java
 import com.aspose.barcode.generation.*;

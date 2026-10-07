@@ -53,6 +53,7 @@ Avant de commencer, assurez‑vous d’avoir :
 
 ## Guide étape par étape pour utiliser Office Math
 
+
 Voici un parcours concis, numéroté. Chaque étape est accompagnée du bloc de code original (inchangé) afin que vous puissiez le copier‑coller directement dans votre projet.
 
 ### Étape 1 : Charger le document

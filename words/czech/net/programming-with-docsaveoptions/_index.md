@@ -27,7 +27,7 @@ Díky těmto návodům se naučíte osvědčené postupy pro ukládání dokumen
 | [Zašifrovat dokument heslem](./encrypt-document-with-password/) | V tomto podrobném návodu se naučte, jak zašifrovat dokument heslem pomocí Aspose.Words pro .NET. Zabezpečte své citlivé informace bez námahy. |
 | [Nekomprimovat malé metasoubory](./do-not-compress-small-metafiles/) | Naučte se, jak používat Aspose.Words pro .NET k zajištění toho, aby malé metasoubory v dokumentech Word nebyly komprimovány, a tím byla zachována jejich kvalita a integrita. Součástí je podrobný návod. |
 | [Neukládat obrázkovou odrážku](./do-not-save-picture-bullet/) Naučte se, jak pracovat s obrázkovými odrážkami v Aspose.Words pro .NET s naším podrobným návodem. Zjednodušte si správu dokumentů a bez námahy vytvářejte profesionální dokumenty Word. |
-
+| [Jak uložit upravený dokument v C# pomocí Aspose.Words – krok za krokem](./how-to-save-edited-document-in-c-with-aspose-words-step-by-s/) | Naučte se, jak v C# pomocí Aspose.Words uložit upravený dokument, včetně nastavení možností ukládání a zachování formátování. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

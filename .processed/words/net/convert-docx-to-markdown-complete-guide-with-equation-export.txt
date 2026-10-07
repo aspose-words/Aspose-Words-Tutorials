@@ -1,0 +1,7 @@
+Title: Convert docx to markdown – Complete Guide with Equation Export
+Slug: convert-docx-to-markdown-complete-guide-with-equation-export
+Category: programming-with-markdownsaveoptions
+ProcessedDate: 2026-06-30T19:27:42.030810
+SourceRepo: AI Search API
+Keywords: convert docx to markdown, how to export equations, save word as markdown, convert word to markdown, export word math latex
+PRNumber: 216

@@ -1,0 +1,7 @@
+Title: How to create a Word document in Java with Aspose.Words
+Slug: how-to-create-a-word-document-in-java-with-aspose-words
+Category: document-manipulation
+ProcessedDate: 2026-08-24T04:03:06.568853
+SourceRepo: AI Search API
+Keywords: create word document java, save document to file, write surrounding text, add placeholder to word, insert plain text control
+PRNumber: 263

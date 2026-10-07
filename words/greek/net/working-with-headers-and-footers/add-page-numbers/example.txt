@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: Χρησιμοποιώντας το Aspose.Words Document και το DocumentBuilder, αυτό το σεμινάριο προσθέτει αυτόματα ενημερωτικούς αριθμούς σελίδων στο κύριο υποσέλιδο ενός εγγράφου Word.
+//ExStepSummary:0: Δημιουργήστε ένα νέο αντικείμενο Document και ένα DocumentBuilder που είναι συνδεδεμένο με αυτό.
+//ExStepSummary:1: Μετακινήστε τον κέρσορα του builder στο κύριο υποσέλιδο της πρώτης ενότητας.
+//ExStepSummary:2: Ορίστε την στοίχιση της παραγράφου στο κέντρο ώστε το κείμενο του υποσέλιδου να κεντραριστεί.
+//ExStepSummary:3: Γράψτε την ετικέτα "Page " και εισάγετε ένα πεδίο PAGE που εμφανίζει τον τρέχοντα αριθμό σελίδας.
+//ExStepSummary:4: Γράψτε " of " και εισάγετε ένα πεδίο NUMPAGES που δείχνει το συνολικό αριθμό σελίδων.
+//ExStepSummary:5: Αποθηκεύστε το έγγραφο σε αρχείο .docx.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+
+//ExStep:2-
+builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
+
+//ExStep:3-
+builder.Write("Page ");
+builder.InsertField("PAGE", null);
+
+//ExStep:4-
+builder.Write(" of ");
+builder.InsertField("NUMPAGES", null);
+
+//ExStep:5-
+doc.Save("PageNumbers.docx");
+//ExEnd

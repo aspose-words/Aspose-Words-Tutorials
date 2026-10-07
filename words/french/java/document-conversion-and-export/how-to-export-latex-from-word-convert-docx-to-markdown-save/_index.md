@@ -256,7 +256,8 @@ Voilà — **comment exporter du LaTeX** depuis un fichier Word, **convertir
 
 Si ce guide vous a été utile, donnez‑lui une étoile sur GitHub, partagez‑le avec vos collègues, ou laissez un commentaire ci‑dessous avec vos propres ajustements. Bon codage, et que votre LaTeX rende toujours parfaitement ! 
 
-![Diagram showing the conversion pipeline from DOCX → Markdown (with LaTeX) → PDF, alt text: "Comment exporter du LaTeX tout en convertissant DOCX en markdown et en enregistrant en PDF"]{{< /blocks/products/pf/tutorial-page-section >}}
+![Diagram showing the conversion pipeline from DOCX → Markdown (with LaTeX) → PDF, alt text: "Comment exporter du LaTeX tout en convertissant DOCX en markdown et en enregistrant en PDF"]
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

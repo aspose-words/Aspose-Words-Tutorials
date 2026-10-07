@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: 使用 Aspose.Words Document 和 DocumentBuilder，本教程向 Word 文档的主页脚添加自动更新的页码。
+//ExStepSummary:0: 创建一个新的 Document 对象以及与其关联的 DocumentBuilder。
+//ExStepSummary:1: 将 builder 的光标移动到第一节的主页脚。
+//ExStepSummary:2: 将段落对齐方式设为居中，以使页脚文本居中显示。
+//ExStepSummary:3: 写入标签 "Page " 并插入一个显示当前页码的 PAGE 字段。
+//ExStepSummary:4: 写入 " of " 并插入一个显示总页数的 NUMPAGES 字段。
+//ExStepSummary:5: 将文档保存为 .docx 文件。
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+
+//ExStep:2-
+builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
+
+//ExStep:3-
+builder.Write("Page ");
+builder.InsertField("PAGE", null);
+
+//ExStep:4-
+builder.Write(" of ");
+builder.InsertField("NUMPAGES", null);
+
+//ExStep:5-
+doc.Save("PageNumbers.docx");
+//ExEnd
