@@ -50,6 +50,8 @@
 | [Πώς να διορθώσετε τη γραμματική σε αρχεία DOCX με C# – Πλήρης οδηγός βήμα‑βήμα](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Μάθετε πώς να διορθώσετε γραμματικά λάθη σε έγγραφα DOCX χρησιμοποιώντας C# και Aspose.Words, ακολουθώντας αναλυτικά βήματα. |
 | [Σύνοψη εγγράφου Word με τοπικό LLM – Οδηγός C#](./summarize-word-document-with-local-llm-c-guide/) | Μάθετε πώς να συνοψίζετε έγγραφα Word με τοπικό LLM σε C# χρησιμοποιώντας το Aspose.Words. |
 | [Πώς να Ελέγξετε τη Γραμματική σε Έγγραφα Word – Πλήρης Οδηγός C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Μάθετε πώς να ελέγχετε τη γραμματική σε έγγραφα Word χρησιμοποιώντας Aspose.Words για .NET με οδηγίες C#. |
+| [Πώς να συνοψίσετε ένα έγγραφο Word με το Aspose.Words AI](./how-to-summarize-a-word-document-with-aspose-words-ai/) | Μάθετε πώς να δημιουργήσετε σύνοψη εγγράφων Word χρησιμοποιώντας το Aspose.Words AI σε C#. |
+| [Πώς να χρησιμοποιήσετε τον μεταφραστή για αυτοματοποίηση μετάφρασης εγγράφων σε C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Μάθετε πώς να αυτοματοποιήσετε τη μετάφραση εγγράφων Word σε C# χρησιμοποιώντας τον μεταφραστή του Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

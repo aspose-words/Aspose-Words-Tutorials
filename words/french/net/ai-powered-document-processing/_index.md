@@ -50,6 +50,8 @@ Enfin, n'oubliez pas de consulter notre [Travailler avec les options de résumé
 | [Comment résumer des documents Word – Guide complet C#](./how-to-summarize-word-documents-complete-c-guide/) | Apprenez à résumer des documents Word avec Aspose.Words pour .NET en C#, étape par étape. |
 | [Comment corriger la grammaire dans les fichiers DOCX avec C# – Guide complet étape par étape](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Apprenez à corriger automatiquement les fautes de grammaire dans les documents DOCX avec C# et Aspose.Words. |
 | [Comment vérifier la grammaire dans les documents Word – Guide complet C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Apprenez à utiliser Aspose.Words pour .NET afin de vérifier la grammaire des documents Word avec un guide complet en C#. |
+| [Comment résumer un document Word avec l'IA d'Aspose.Words](./how-to-summarize-a-word-document-with-aspose-words-ai/) | Apprenez à résumer automatiquement un document Word en utilisant l'IA d'Aspose.Words, étape par étape. |
+| [Comment utiliser le traducteur pour automatiser la traduction de documents en C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Apprenez à automatiser la traduction de documents Word en C# avec Aspose.Words et le traducteur IA. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

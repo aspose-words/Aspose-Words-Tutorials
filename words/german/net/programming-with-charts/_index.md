@@ -42,6 +42,7 @@ Mit diesen Tutorials können Sie Ihre Word-Dokumente mit ansprechenden und infor
 | [Festlegen von Standardoptionen für Datenbeschriftungen in einem Diagramm](./default-options-for-data-labels/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Standardoptionen für Datenbeschriftungen in einem Diagramm festlegen. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um mühelos Diagramme zu erstellen und anzupassen. |
 | [Anpassen eines einzelnen Diagrammdatenpunkts in einem Diagramm](./single-chart-data-point/) | Erfahren Sie in einer detaillierten Schritt-für-Schritt-Anleitung, wie Sie einzelne Diagrammdatenpunkte mit Aspose.Words für .NET anpassen. Optimieren Sie Ihre Diagramme mit individuellen Markierungen und Größen. |
 | [Anpassen einzelner Diagrammreihen in einem Diagramm](./single-chart-series/) | Erfahren Sie, wie Sie einzelne Diagrammreihen in einem Word-Dokument mit Aspose.Words für .NET anpassen. Folgen Sie unserer Schritt-für-Schritt-Anleitung für ein nahtloses Erlebnis. |
+| [Wie man ein Word-Dokument mit einem benutzerdefinierten Kreisdiagramm in C# erstellt](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument mit einem individuell angepassten Kreisdiagramm in C# erstellen. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

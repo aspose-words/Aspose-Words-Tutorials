@@ -19,12 +19,13 @@ Výukové programy Aspose.Words pro .NET o zpracování textu pomocí tvarů nab
 
 V těchto tutoriálech se naučíte, jak do dokumentů přidávat tvary, jako jsou obdélníky, kruhy, čáry a šipky, a vylepšit tak rozvržení a vizualizaci informací. Také se naučíte, jak manipulovat s vlastnostmi tvarů, jako je rotace, průhlednost a výplň, tak, aby vyhovovaly vašim specifickým potřebám.
 
-Používáním Aspose.Words pro .NET a podle těchto tutoriálů zvládnete manipulaci s tvary v dokumentech Wordu, což vám umožní vytvářet vizuálně přitažlivé a profesionálně vypadající dokumenty. Ať už jste začátečník nebo zkušený vývojář, tyto tutoriály vás provedou celým procesem a pomohou vám plně využít potenciál manipulace s tvary v Aspose.Words pro .NET.
+Používáním Aspose.Words pro .NET a podle těchto tutoriálů zvládnete manipulaci s tvary v dokumentech Word, což vám umožní vytvářet vizuálně přitažlivé a profesionálně vypadající dokumenty. Ať už jste začátečník nebo zkušený vývojář, tyto tutoriály vás provedou celým procesem a pomohou vám plně využít potenciál manipulace s tvary v Aspose.Words pro .NET.
 
  ## Návody
 | Název | Popis |
 | --- | --- |
 | [Přidat tvar skupiny](./add-group-shape/) | Naučte se, jak přidávat skupinové tvary do dokumentů Wordu pomocí Aspose.Words pro .NET v tomto komplexním návodu krok za krokem. |
+| [Jak vytvořit prázdný dokument Word a seskupit tvary v C#](./how-to-create-blank-word-document-and-group-shapes-in-c/) | Naučte se, jak pomocí Aspose.Words pro .NET vytvořit prázdný dokument Word a seskupit tvary v C#. |
 | [Vložit tvar](./insert-shape/) | Naučte se, jak vkládat a manipulovat s tvary v dokumentech Wordu pomocí Aspose.Words pro .NET s naším podrobným návodem. |
 | [Poměr stran uzamčen](./aspect-ratio-locked/) | Naučte se, jak uzamknout poměr stran tvarů v dokumentech Wordu pomocí Aspose.Words pro .NET. Postupujte podle tohoto podrobného návodu, abyste zachovali proporce obrázků a tvarů. |
 | [Rozložení v buňce](./layout-in-cell/) | Naučte se, jak nastavit rozvržení v buňce pomocí Aspose.Words pro .NET v tomto komplexním průvodci. Ideální pro vývojáře, kteří chtějí přizpůsobit dokumenty Wordu. |

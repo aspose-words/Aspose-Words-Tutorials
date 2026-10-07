@@ -51,6 +51,8 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Hoe grammatica in DOCX-bestanden te repareren met C# – Volledige stapsgewijze handleiding](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Leer hoe u grammaticale fouten in DOCX-bestanden automatisch corrigeert met C# en Aspose.Words. |
 | [Samenvatten van Word-document met lokale LLM – C#-gids](./summarize-word-document-with-local-llm-c-guide/) | Leer hoe u een Word-document lokaal samenvat met een LLM in C# met Aspose.Words. |
 | [Hoe controleer je grammatica in Word-documenten – Complete C#-gids](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Leer hoe u met Aspose.Words voor .NET en C# grammatica in Word-documenten controleert en corrigeert. |
+| [Hoe een Word-document samen te vatten met Aspose.Words AI](./how-to-summarize-a-word-document-with-aspose-words-ai/) | Leer hoe u Word-documenten automatisch kunt samenvatten met Aspose.Words AI in C#. |
+| [Hoe u vertaler gebruikt om documentvertaling in C# te automatiseren](./how-to-use-translator-to-automate-document-translation-in-c/) | Leer hoe u documentvertaling automatiseert met Aspose.Words voor .NET en een vertaler in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

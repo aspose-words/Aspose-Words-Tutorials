@@ -36,7 +36,7 @@ Los ejemplos de código de los tutoriales te ayudarán a comprender los concepto
 | [Creación de una sección repetida de tabla asignada a una parte XML personalizada](./creating-table-repeating-section-mapped-to-custom-xml-part/) | Aprenda a crear una tabla con una sección repetida asignada a un CustomXmlPart en un documento de Word usando Aspose.Words para .NET.
 | [Multisección](./multi-section/) Aprenda a trabajar con etiquetas de documentos estructurados multisección en Aspose.Words para .NET con este tutorial paso a paso. Ideal para la manipulación dinámica de documentos.
 | [Asignación de XML de inicio de rango de etiquetas de documentos estructurados](./structured-document-tag-range-start-xml-mapping/) Aprenda a vincular dinámicamente datos XML a etiquetas de documentos estructurados en Word con Aspose.Words para .NET. Siga nuestra guía paso a paso.
-
+| [Cómo agregar un control de contenido en un documento Word usando Aspose.Words](./how-to-add-content-control-word-in-a-word-document-using-asp/) | Aprenda a insertar un control de contenido en un documento Word mediante Aspose.Words paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -46,7 +46,7 @@
 | [문서의 필드 변환](./convert-fields-in-document/) | 이 가이드를 통해 Aspose.Words for .NET을 사용하여 Word 문서의 필드를 변환하는 방법을 알아보세요. 튜토리얼을 따라 문서의 필드를 효율적으로 관리하고 변환해 보세요. |
 | [본문의 필드 변환](./convert-fields-in-body/) | Aspose.Words for .NET을 사용하여 페이지 필드를 Word 문서 본문의 텍스트로 변환하는 방법을 알아보세요. |
 | [로케일 변경](./change-locale/) 이 가이드를 통해 Aspose.Words for .NET을 사용하여 Word 문서의 로캘을 변경하는 방법을 알아보세요. 해외 고객 및 프로젝트 관리에 적합합니다. |
-
+| [Aspose.Words를 사용하여 송장 템플릿 만들기 및 데이터 병합](./create-invoice-template-and-merge-data-using-aspose-words/) | Aspose.Words for .NET을 활용해 송장 템플릿을 생성하고 데이터를 병합하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -21,7 +21,7 @@ Detta är en omfattande resurs för att lära sig arbeta med fält i Word-dokume
 | Titel | Beskrivning |
 | --- | --- |
 | [Fältkod](./field-code/) | Lär dig hur du arbetar med fältkoder i Word-dokument med Aspose.Words för .NET. Den här guiden beskriver hur man laddar dokument, öppnar fält och bearbetar fältkoder. |
-| [Ändra fältuppdateringskulturkälla](./change-field-update-culture-source/) | Lär dig hur du ändrar källan för fältuppdateringskultur i Aspose.Words för .NET med den här guiden. Kontrollera enkelt datumformatering baserat på olika kulturer.
+| [Ändra fältuppdateringskulturkälla](./change-field-update-culture-source/) | Lär dig hur du ändrar källan för fältuppdateringskultur i Aspose.Words för .NET med den här guiden. Kontrollera enkelt datumformatering baserat på olika kulturer. |
 | [Ange språkinställning på fältnivå](./specify-locale-at-field-level/) | Lär dig hur du anger språkinställningar för fält i Word-dokument med Aspose.Words för .NET. Följ vår guide för att enkelt anpassa dokumentformateringen. |
 | [Ersätt hyperlänkar](./replace-hyperlinks/) | Ersätt hyperlänkar i Word-dokument med Aspose.Words för .NET. Steg-för-steg-instruktioner för att ersätta hyperlänkar. |
 | [Byt namn på sammanslagningsfält](./rename-merge-fields/) | Lär dig hur du byter namn på kopplingsfält i Word-dokument med Aspose.Words för .NET. Följ vår detaljerade steg-för-steg-guide för att enkelt manipulera dina dokument. |
@@ -38,6 +38,7 @@ Detta är en omfattande resurs för att lära sig arbeta med fält i Word-dokume
 | [Infoga ASKField utan dokumentbyggare](./insert-askfield-with-out-document-builder/) | Lär dig hur du infogar ett ASK-fält utan att använda Document Builder i Aspose.Words för .NET. Följ den här guiden för att förbättra dina Word-dokument dynamiskt. |
 | [Infoga avancerat fält utan dokumentbyggare](./insert-advance-field-with-out-document-builder/) | Lär dig hur du infogar ett avancerade fält utan att använda DocumentBuilder i Aspose.Words för .NET. Följ den här guiden för att förbättra dina dokumentbehandlingsfärdigheter. |
 | [Hämta fältnamn för dokumentkoppling](./get-mail-merge-field-names/) | Lär dig hur du extraherar namn på fält för koppling av dokument från ett Word-dokument med Aspose.Words för .NET med den här detaljerade steg-för-steg-guiden. |
+| [Skapa fakturamall och slå samman data med Aspose.Words](./create-invoice-template-and-merge-data-using-aspose-words/) | Lär dig hur du skapar en fakturamall och slår samman data med Aspose.Words för .NET. |
 | [Ta bort fält](./delete-fields/) | Steg-för-steg-guide för att ta bort kopplingsfält i dina Word-dokument med Aspose.Words för .NET |
 | [Fältuppdateringskultur](./field-update-culture/) | Lär dig hur du konfigurerar fältuppdateringskultur i Word-dokument med Aspose.Words för .NET. Steg-för-steg-guide med kodexempel och tips för korrekta uppdateringar. |
 | [Resultat från fältvisning](./field-display-results/) Lär dig hur du uppdaterar och visar fältresultat i Word-dokument med Aspose.Words för .NET med den här steg-för-steg-guiden. Perfekt för att automatisera dokumentuppgifter. |

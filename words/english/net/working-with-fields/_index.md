@@ -47,7 +47,7 @@ This is a comprehensive resource for learning how to work with fields in Word do
 | [Convert Fields In Document](./convert-fields-in-document/) | Learn how to convert fields in Word documents using Aspose.Words for .NET with this guide. Follow our tutorial to efficiently manage and transform fields in your documents. |
 | [Convert Fields In Body](./convert-fields-in-body/) | Learn how to use Aspose.Words for .NET to convert Page fields to text in the body of a Word document. |
 | [Change Locale](./change-locale/) | Learn how to change the locale in Word documents using Aspose.Words for .NET with this guide. Perfect for handling international clients and projects. |
-
+| [Create invoice template and merge data using Aspose.Words](./create-invoice-template-and-merge-data-using-aspose-words/) | Learn how to create an invoice template and merge data using Aspose.Words for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

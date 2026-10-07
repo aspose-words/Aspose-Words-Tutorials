@@ -38,6 +38,7 @@
 | [Chèn ASKField mà không cần Document Builder](./insert-askfield-with-out-document-builder/) | Tìm hiểu cách chèn trường ASK mà không cần sử dụng Document Builder trong Aspose.Words cho .NET. Thực hiện theo hướng dẫn này để cải thiện tài liệu Word của bạn một cách năng động. |
 | [Chèn trường nâng cao mà không cần trình tạo tài liệu](./insert-advance-field-with-out-document-builder/) | Tìm hiểu cách chèn trường nâng cao mà không cần sử dụng DocumentBuilder trong Aspose.Words cho .NET. Làm theo hướng dẫn này để nâng cao kỹ năng xử lý tài liệu của bạn. |
 | [Nhận tên trường trộn thư](./get-mail-merge-field-names/) | Tìm hiểu cách trích xuất tên trường trộn thư từ tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. |
+| [Tạo mẫu hóa đơn và hợp nhất dữ liệu bằng Aspose.Words](./create-invoice-template-and-merge-data-using-aspose-words/) | Hướng dẫn tạo mẫu hóa đơn và hợp nhất dữ liệu trong Word bằng Aspose.Words cho .NET. |
 | [Xóa trường](./delete-fields/) | Hướng dẫn từng bước để xóa trường hợp trộn trong tài liệu Word của bạn bằng Aspose.Words cho .NET |
 | [Văn hóa cập nhật thực địa](./field-update-culture/) | Tìm hiểu cách cấu hình văn hóa cập nhật trường trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn từng bước với các ví dụ về mã và mẹo để cập nhật chính xác. |
 | [Kết quả hiển thị trường](./field-display-results/) Tìm hiểu cách cập nhật và hiển thị kết quả trường trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo để tự động hóa các tác vụ tài liệu. |

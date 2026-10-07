@@ -41,7 +41,7 @@
 | [加载 Markdown 文件到文档 – 完整解析教程](./load-markdown-file-into-a-document-complete-parsing-tutorial/) 学习如何使用 Aspose.Words for .NET 将 Markdown 文件加载到 Word 文档并完成完整解析，提供分步指南和示例代码。|
 | [重点](./emphases/) 学习如何使用 Aspose.Words for .NET 在 Markdown 中创建强调文本。本指南将逐步讲解粗体、斜体和组合样式。|
 | [使用警告源](./use-warning-source/) 掌握 Aspose.Words for .NET 的使用方法，了解如何使用 WarningSource 类处理 Markdown 警告。非常适合 C# 开发人员。|
-
+| [如何在 C# 中将 Markdown 保存为 docx 文档](./how-to-save-document-as-docx-from-markdown-in-c/) 学习如何使用 Aspose.Words for .NET 将 Markdown 转换并保存为 docx 文件。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

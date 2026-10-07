@@ -43,11 +43,13 @@
 | [オープンAIモデルの使用](./working-with-open-ai-model/) Aspose.Words for .NETとOpenAIの強力なモデルを活用し、効率的なドキュメント要約を実現しましょう。この包括的なガイドを今すぐご覧ください。 |
 | [要約オプションの操作](./working-with-summarize-options/) 迅速な分析情報を得るために AI モデルを統合するステップバイステップ ガイドを使用して、Aspose.Words for .NET を使用して Word 文書を効果的に要約する方法を学びます。 |
 | [C# で Word 文書を要約する – 完全 AI 搭載ガイド](./summarize-word-document-in-c-complete-ai-powered-guide/) Aspose.Words for .NET と AI を活用し、C# で Word 文書を自動要約する完全ガイドです。 |
-| [Aspose.Words AI を使用した Word の文法チェック方法 – 完全ガイド](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) Aspose.Words AI を活用して Word 文書の文法を自動的にチェックし、修正提案を得る手順を詳しく解説します。 |
+| [Aspose.Words AI を使用した Word の文法チェック方法 – 完全ガイド](./how-to-check-grammar-in-word-with-aspose-words-ai/) Aspose.Words AI を活用して Word 文書の文法を自動的にチェックし、修正提案を得る手順を詳しく解説します。 |
 | [ローカル LLM を使って C# の文法チェック方法](./how-to-check-grammar-in-c-using-a-local-llm/) ローカル LLM を活用して C# コードの文法エラーを検出し、修正する手順を学びます。 |
 | [Word 文書を要約する方法 – 完全 C# ガイド](./how-to-summarize-word-documents-complete-c-guide/) Aspose.Words for .NET と C# を使用して、Word 文書を効果的に要約する完全な手順をご紹介します。 |
 | [ローカルLLMでWord文書を要約 – C# ガイド](./summarize-word-document-with-local-llm-c-guide/) Aspose.Words for .NET とローカル LLM を組み合わせ、C# で Word 文書を要約する手順を解説します。 |
 | [Word 文書の文法チェック方法 – 完全 C# ガイド](./how-to-check-grammar-in-word-documents-complete-c-guide/) Aspose.Words for .NET と C# を使用して、Word 文書の文法を自動的にチェックし、修正提案を行う方法を学びます。 |
+| [Aspose.Words AI を使用した Word 文書の要約方法](./how-to-summarize-a-word-document-with-aspose-words-ai/) Aspose.Words for .NET と AI を活用し、Word 文書を自動的に要約する手順を解説します。 |
+| [C# で翻訳ツールを使用して文書翻訳を自動化する方法](./how-to-use-translator-to-automate-document-translation-in-c/) Aspose.Words と翻訳ツールを組み合わせ、C# で文書翻訳を自動化する手順を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

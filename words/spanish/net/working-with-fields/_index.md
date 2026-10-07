@@ -46,7 +46,7 @@ Este es un recurso completo para aprender a trabajar con campos en documentos de
 | [Convertir campos en el documento](./convert-fields-in-document/) Aprenda a convertir campos en documentos de Word con Aspose.Words para .NET con esta guía. Siga nuestro tutorial para gestionar y transformar campos en sus documentos de forma eficiente.
 | [Convertir campos en el cuerpo](./convert-fields-in-body/) | Aprenda a usar Aspose.Words para .NET para convertir campos de página en texto en el cuerpo de un documento de Word. |
 | [Cambiar configuración regional](./change-locale/) Aprenda a cambiar la configuración regional en documentos de Word usando Aspose.Words para .NET con esta guía. Ideal para gestionar clientes y proyectos internacionales.
-
+| [Crear plantilla de factura y combinar datos usando Aspose.Words](./create-invoice-template-and-merge-data-using-aspose-words/) | Aprenda a crear una plantilla de factura y combinar datos en documentos de Word con Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

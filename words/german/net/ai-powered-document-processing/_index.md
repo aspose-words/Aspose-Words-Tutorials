@@ -41,7 +41,7 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [Arbeiten mit KI-Modellen](./working-with-ai-model/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Dokumente mithilfe von KI zusammenfassen. Einfache Schritte zur Verbesserung des Dokumentenmanagements. |
 | [Arbeiten mit dem Google AI-Modell](./working-with-google-ai-model/) | Verbessern Sie Ihre Dokumentenverarbeitung mit Aspose.Words für .NET und Google AI, um mühelos prägnante Zusammenfassungen zu erstellen. |
 | [Arbeiten mit Open AI-Modellen](./working-with-open-ai-model/) | Nutzen Sie die effiziente Dokumentzusammenfassung mit Aspose.Words für .NET und den leistungsstarken Modellen von OpenAI. Tauchen Sie jetzt in diesen umfassenden Leitfaden ein. |
-| [Arbeiten mit Zusammenfassungsoptionen](./working-with-summarize-options/) | Lernen Sie, Word-Dokumente mit Aspose.Words für .NET effektiv zusammenzufassen, mit unserer Schritt-für-Schritt-Anleitung zur Integration von KI-Modellen für schnelle Erkenntnisse. |
+| [Arbeiten mit Zusammenfassungsoptionen](./working-with-summarize-options/) | Lernen Sie Word-Dokumente mit Aspose.Words für .NET effektiv zusammenzufassen, mit unserer Schritt‑für‑Schritt‑Anleitung zur Integration von KI-Modellen für schnelle Erkenntnisse. |
 | [Word-Dokument in C# zusammenfassen – Vollständiger KI‑gestützter Leitfaden](./summarize-word-document-in-c-complete-ai-powered-guide/) | Erfahren Sie, wie Sie Word-Dokumente in C# mithilfe von KI vollständig zusammenfassen. Schritt‑für‑Schritt‑Anleitung. |
 | [Wie man Grammatik in DOCX mit Aspose.Words prüft – gpt-4 Turbo verwenden](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Erfahren Sie, wie Sie mit Aspose.Words und gpt‑4 Turbo die Grammatik in DOCX‑Dateien automatisch prüfen. |
 | [Wie man Grammatik in Word mit Aspose.Words KI prüft – Komplettanleitung](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Erfahren Sie, wie Sie mit Aspose.Words KI die Grammatik in Word-Dokumenten automatisch prüfen und korrigieren. |
@@ -51,6 +51,8 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [So beheben Sie Grammatikfehler in DOCX-Dateien mit C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Erfahren Sie, wie Sie Grammatikfehler in DOCX-Dateien mit C# automatisch korrigieren – detaillierte Schritt‑für‑Schritt‑Anleitung. |
 | [Word-Dokument mit lokalem LLM zusammenfassen – C#‑Leitfaden](./summarize-word-document-with-local-llm-c-guide/) | Erfahren Sie, wie Sie ein Word-Dokument mit einem lokalen LLM in C# zusammenfassen – kompakte Schritt‑für‑Schritt‑Anleitung. |
 | [Wie man Grammatik in Word-Dokumenten prüft – Vollständiger C#-Leitfaden](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET die Grammatik in Word-Dokumenten prüfen – Schritt‑für‑Schritt in C#. |
+| [Wie man ein Word-Dokument mit Aspose.Words KI zusammenfasst](./how-to-summarize-a-word-document-with-aspose-words-ai/) | Erfahren Sie, wie Sie ein Word-Dokument mit Aspose.Words KI zusammenfassen – Schritt‑für‑Schritt‑Anleitung. |
+| [Wie man den Übersetzer verwendet, um die Dokumentübersetzung in C# zu automatisieren](./how-to-use-translator-to-automate-document-translation-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und dem Translator Dokumente in C# automatisch übersetzen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

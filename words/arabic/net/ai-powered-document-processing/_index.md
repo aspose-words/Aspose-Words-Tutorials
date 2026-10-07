@@ -51,6 +51,8 @@
 | [تلخيص مستند Word باستخدام نموذج لغة محلي – دليل C#](./summarize-word-document-with-local-llm-c-guide/) | تعلم كيفية تلخيص مستندات Word باستخدام نموذج لغة محلي في C# مع Aspose.Words. |
 | [كيفية إصلاح القواعد النحوية في ملفات DOCX باستخدام C# – دليل كامل خطوة بخطوة](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | تعلم كيفية تصحيح الأخطاء النحوية في مستندات DOCX باستخدام C# خطوة بخطوة مع Aspose.Words. |
 | [كيفية فحص القواعد النحوية في مستندات Word – دليل C# كامل](./how-to-check-grammar-in-word-documents-complete-c-guide/) | تعلم كيفية التحقق من القواعد النحوية في مستندات Word باستخدام Aspose.Words وC# خطوة بخطوة. |
+| [كيفية تلخيص مستند Word باستخدام Aspose.Words AI](./how-to-summarize-a-word-document-with-aspose-words-ai/) | دليل خطوة بخطوة لتلخيص مستندات Word باستخدام Aspose.Words AI للحصول على ملخصات دقيقة وسريعة. |
+| [كيفية استخدام المترجم لأتمتة ترجمة المستندات في C#](./how-to-use-translator-to-automate-document-translation-in-c/) | تعلم كيفية أتمتة ترجمة مستندات Word باستخدام Aspose.Words وC# ومترجم الذكاء الاصطناعي. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

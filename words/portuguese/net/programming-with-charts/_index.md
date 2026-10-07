@@ -42,6 +42,7 @@ Com estes tutoriais, você poderá aprimorar seus documentos do Word adicionando
 | [Definir opções padrão para rótulos de dados em um gráfico](./default-options-for-data-labels/) | Aprenda a definir opções padrão para rótulos de dados em um gráfico usando o Aspose.Words para .NET. Siga nosso guia passo a passo para criar e personalizar gráficos sem esforço. |
 | [Personalize um único ponto de dados do gráfico em um gráfico](./single-chart-data-point/) | Aprenda a personalizar pontos de dados de gráficos individuais usando o Aspose.Words para .NET em um guia passo a passo detalhado. Aprimore seus gráficos com marcadores e tamanhos exclusivos. |
 | [Personalizar séries de gráficos individuais em um gráfico](./single-chart-series/) | Aprenda a personalizar séries de gráficos individuais em um documento do Word usando o Aspose.Words para .NET. Siga nosso guia passo a passo para uma experiência perfeita. |
+| [Como criar documento Word com um gráfico de pizza personalizado em C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Aprenda a criar um documento Word contendo um gráfico de pizza personalizado usando Aspose.Words para .NET em C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

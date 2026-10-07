@@ -48,6 +48,7 @@ En utilisant Aspose.Words pour .NET et en suivant ces tutoriels, vous maîtriser
 | [Créer une forme rectangulaire avec ombre dans Word à l'aide d'Aspose.Words](./create-rectangle-shape-with-shadow-in-word-using-aspose-word/) | Apprenez à créer une forme rectangulaire avec ombre dans un document Word en utilisant Aspose.Words pour .NET, étape par étape. |
 | [Ajouter une ombre à une forme dans Word avec Aspose.Words – Guide étape par étape](./add-shadow-to-shape-in-word-with-aspose-words-step-by-step/) | Apprenez à ajouter une ombre à une forme dans des documents Word à l'aide d'Aspose.Words pour .NET avec ce guide étape par étape. |
 | [Ajouter une ombre à une forme en C# – Guide complet Aspose.Words](./add-shadow-to-shape-in-c-complete-aspose-words-guide/) | Apprenez à ajouter des ombres aux formes dans Word avec Aspose.Words pour .NET grâce à ce guide complet étape par étape. |
+| [Comment créer un document Word vierge et regrouper des formes en C#](./how-to-create-blank-word-document-and-group-shapes-in-c/) | Apprenez à créer un document Word vierge et à regrouper des formes en C# avec Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -39,7 +39,6 @@ Aspose.Words for .NET'i kullanarak ve bu eğitimleri takip ederek, Word belgeler
 | [Gölgelikli Dikdörtgen ile Word Belgesi Oluşturma – Adım Adım Kılavuz](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Aspose.Words for .NET kullanarak gölgelikli bir dikdörtgenle Word belgesi oluşturmayı adım adım öğrenin. |
 | [C# kullanarak Word'de dikdörtgen şekli oluşturma – Adım adım kılavuz](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Aspose.Words for .NET ile C# kullanarak Word belgesine dikdörtgen şekli eklemeyi ve özelleştirmeyi adım adım öğrenin. |
 | [Aspose.Words Şekil Gölge Eğitimi – Word Şekline Gölge Ekleme C#'ta](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Aspose.Words for .NET kullanarak C# ile Word şekline gölge eklemeyi adım adım öğrenin. |
-
 | [Gölgelikli Dikdörtgen Şekilli Boş Word Belgesi Oluşturma – Adım Adım Kılavuz](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Aspose.Words for .NET kullanarak gölgelikli dikdörtgen şekilli boş bir Word belgesi oluşturmayı adım adım öğrenin. |
 | [C#'ta Şekle Gölge Ekle – Gölge Efekti Uygulama Tam Kılavuzu](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Aspose.Words for .NET kullanarak C# ile şekillere gölge eklemeyi ve gölge ayarlarını yönetmeyi adım adım öğrenin. |
 | [C# ile Aspose.Words Kullanarak Şekil Gölgesini Düzenleme – Adım Adım Kılavuz](./how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/) | Aspose.Words for .NET kullanarak C# içinde şekil gölgesini nasıl düzenleyeceğinizi adım adım öğrenin. |
@@ -50,6 +49,7 @@ Aspose.Words for .NET'i kullanarak ve bu eğitimleri takip ederek, Word belgeler
 | [Dikdörtgen Şekil ve Gölge ile Word Belgesi Oluşturma – Adım Adım Kılavuz](./create-word-document-with-a-rectangle-shape-and-shadow-step/) | Aspose.Words for .NET kullanarak bir Word belgesine dikdörtgen şekil ve gölge eklemeyi adım adım öğrenin. |
 | [Aspose.Words ile Word'de Gölgelikli Dikdörtgen Şekil Oluşturma](./create-rectangle-shape-with-shadow-in-word-using-aspose-word/) | Aspose.Words for .NET kullanarak Word belgelerine gölgelikli dikdörtgen şekil eklemeyi ve özelliklerini ayarlamayı öğrenin. |
 | [C#'da Şekle Gölge Ekle – Tam Aspose.Words Kılavuzu](./add-shadow-to-shape-in-c-complete-aspose-words-guide/) | Aspose.Words for .NET ile C# kullanarak bir şekle gölge eklemeyi adım adım öğrenin. |
+| [C# ile Boş Word Belgesi ve Grup Şekilleri Oluşturma](./how-to-create-blank-word-document-and-group-shapes-in-c/) | C# ve Aspose.Words kullanarak boş bir Word belgesi oluşturup grup şekilleri eklemeyi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
