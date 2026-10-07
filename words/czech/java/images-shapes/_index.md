@@ -39,6 +39,9 @@ Naučte se, jak přidat stín k tvarům v dokumentech Word pomocí Aspose.Words 
 ### [Aplikace stínového efektu na tvar v C# – krok za krokem průvodce](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Naučte se, jak aplikovat stínový efekt na tvary v C# pomocí Aspose.Words – podrobný krok‑za‑krokem průvodce.
 
+### [Jak vložit obrázek do souboru docx a skrýt obrázek ve Wordu pomocí Javy](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Naučte se, jak vložit obrázek do DOCX a poté jej skrýt ve Wordu pomocí Aspose.Words pro Javu.
+
 ## Další zdroje
 
 ## Další zdroje

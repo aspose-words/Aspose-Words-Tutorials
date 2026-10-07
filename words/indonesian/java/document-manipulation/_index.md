@@ -104,6 +104,8 @@ Manfaatkan Kekuatan Aspose.Words untuk Java. Kuasai Opsi dan Pengaturan Dokumen 
 Optimalkan manajemen dokumen dengan Aspose.Words untuk Java. Pelajari cara bekerja dengan properti dokumen, menambahkan metadata khusus, dan banyak lagi dalam tutorial lengkap ini.
 ### [Menggunakan Ekstensi Web di Aspose.Words untuk Java](./using-web-extensions/)
 Sempurnakan Dokumen dengan Ekstensi Web di Aspose.Words untuk Java. Pelajari cara mengintegrasikan konten berbasis web dengan lancar. 
+### [Cara menyimpan docx dengan DocumentBuilder dan menambahkan teks setelah kontrol](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+Pelajari cara menyimpan file docx menggunakan DocumentBuilder dan menambahkan teks setelah kontrol dalam dokumen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

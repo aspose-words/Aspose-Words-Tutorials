@@ -163,6 +163,9 @@ Tanulja meg, hogyan exportálja a Word dokumentumokat Markdown formátumba Java�
 ### [Word mentése PDF‑be az Aspose.Words‑szal – Lépésről‑lépésre Java útmutató](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
 Ismerje meg, hogyan konvertálja egyszerűen a Word dokumentumokat PDF‑be az Aspose.Words for Java segítségével.
 
+### [Hogyan hozzunk létre kördiagramot a Wordben, és mentsük PNG‑ként](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
+Tanuld meg, hogyan hozhatsz kördiagramot Wordben, majd exportáld PNG képként az Aspose.Words for Java segítségével.
+
 ## Gyakran Ismételt Kérdések
 
 **K:** Hogyan adhatok hozzá vízjelet egy meglévő PDF-hez az Aspose.Words használatával?  

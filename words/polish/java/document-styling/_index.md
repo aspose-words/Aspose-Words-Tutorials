@@ -45,6 +45,8 @@ Dowiedz się, jak stosować znaki wodne i konfigurować strony za pomocą Aspose
 Dowiedz się, jak stylizować nagłówki i stopki dokumentów za pomocą Aspose.Words for Java w tym szczegółowym przewodniku. Dołączono instrukcje krok po kroku i kod źródłowy.
 ### [Jak wykrywać czcionki w dokumentach Word w Javie – kompletny przewodnik](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 Dowiedz się, jak wykrywać użyte czcionki w dokumentach Word przy użyciu Aspose.Words for Java. Praktyczny przewodnik z przykładami kodu.
+### [Jak stylować przypisy w Javie przy użyciu Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
+Dowiedz się, jak formatować i stylizować przypisy w dokumentach Word przy użyciu Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

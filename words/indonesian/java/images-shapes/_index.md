@@ -39,6 +39,9 @@ Pelajari cara menambahkan efek bayangan pada bentuk di dokumen Word menggunakan 
 ### [Menerapkan Efek Bayangan pada Bentuk di C# – Panduan Langkah demi Langkah](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Panduan langkah demi langkah menambahkan efek bayangan pada bentuk menggunakan Aspose.Words untuk C#.
 
+### [Cara menyisipkan gambar ke dalam docx dan menyembunyikan gambar di Word dengan Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Panduan langkah demi langkah menyisipkan gambar ke dokumen DOCX dan menyembunyikannya di Word menggunakan Aspose.Words untuk Java.
+
 ## Sumber Daya Tambahan
 
 ## Sumber Daya Tambahan

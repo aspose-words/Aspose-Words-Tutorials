@@ -74,6 +74,9 @@ Learn how to generate custom barcodes in Java using Aspose.Words for Java. Stepâ
 ### [Using Charts in Aspose.Words for Java](./using-charts/)
 Learn how to create and customize charts in Aspose.Words for Java. Explore chart types, formatting, and axis properties for data visualization.
 
+### [How to create a pie chart in Word and save it as PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
+Learn how to generate a pie chart in a Word document using Aspose.Words for Java and export it as a PNG image.
+
 ### [Using Office Math Objects in Aspose.Words for Java](./using-office-math-objects/)
 Unlock the power of mathematical equations in documents with Aspose.Words for Java. Learn to manipulate and display Office Math objects effortlessly.
 

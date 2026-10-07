@@ -67,6 +67,8 @@ Aspose.Words for Java 的主要功能之一是能夠 **convert docx to pdf** 以
 
 ### [Using Charts in Aspose.Words for Java](./using-charts/)
 
+### [如何在 Word 中建立圓餅圖並儲存為 PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
+
 ### [Using Office Math Objects in Aspose.Words for Java](./using-office-math-objects/)
 
 ### [將 docx 轉換為 markdown – 使用 Aspose.Words 匯出數學方程式至 LaTeX](./convert-docx-to-markdown-export-math-equations-to-latex-with/)

@@ -105,6 +105,9 @@ Aspose.Words для Java — это мощный и универсальный A
 ### [Использование веб-расширений в Aspose.Words для Java](./using-web-extensions/)
 Улучшайте документы с помощью веб-расширений в Aspose.Words для Java. Научитесь бесшовно интегрировать веб-контент. 
 
+### [Как сохранить DOCX с помощью DocumentBuilder и добавить текст после элемента управления](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+Сохраните документ DOCX с DocumentBuilder и вставьте текст сразу после управляющего элемента. 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

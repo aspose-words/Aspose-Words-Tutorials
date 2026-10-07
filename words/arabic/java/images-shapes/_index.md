@@ -39,6 +39,9 @@
 ### [تطبيق تأثير الظل على شكل في C# – دليل خطوة بخطوة](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 تعلم كيفية إضافة تأثير الظل إلى الأشكال في C# باستخدام Aspose.Words خطوةً بخطوة.
 
+### [كيفية إدراج صورة في ملف docx وإخفاء الصورة في Word باستخدام Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+تعلم كيفية إدراج صورة في مستند Word وإخفائها باستخدام Aspose.Words لجافا.
+
 ## موارد إضافية
 
 ## موارد إضافية

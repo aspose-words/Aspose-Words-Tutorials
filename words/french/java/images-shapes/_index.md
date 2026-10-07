@@ -39,6 +39,9 @@ Apprenez à appliquer des ombres aux formes dans vos documents Word avec Aspose.
 ### [Appliquer un effet d'ombre à une forme en C# – Guide étape par étape](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Découvrez comment ajouter un effet d'ombre à une forme en C# avec Aspose.Words, étape par étape.
 
+### [Comment insérer une image dans un docx et masquer l'image dans Word avec Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Apprenez à insérer une image dans un fichier docx et à la masquer dans Word à l'aide d'Aspose.Words pour Java.
+
 ## Ressources supplémentaires
 
 ## Ressources supplémentaires

@@ -39,6 +39,9 @@ Lernen Sie, wie Sie mit Aspose.Words für Java Schatten zu Formen in Word-Dokume
 ### [Schatteneffekt auf eine Form in C# anwenden – Schritt‑für‑Schritt‑Anleitung](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für C# Schatteneffekte auf Formen anwenden und das Erscheinungsbild Ihrer Dokumente verbessern.
 
+### [Wie man ein Bild in docx einfügt und das Bild in Word mit Java ausblendet](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Bild in ein DOCX einfügen und es anschließend ausblenden.
+
 ## Weitere Ressourcen
 
 ## Weitere Ressourcen

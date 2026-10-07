@@ -104,6 +104,8 @@ Java के लिए Aspose.Words की शक्ति अनलॉक कर
 Aspose.Words for Java के साथ दस्तावेज़ प्रबंधन को अनुकूलित करें। इस व्यापक ट्यूटोरियल में दस्तावेज़ गुणों के साथ काम करना, कस्टम मेटाडेटा जोड़ना और बहुत कुछ सीखें।
 ### [जावा के लिए Aspose.Words में वेब एक्सटेंशन का उपयोग करना](./using-web-extensions/)
 Java के लिए Aspose.Words में वेब एक्सटेंशन के साथ दस्तावेज़ों को बेहतर बनाएँ। वेब-आधारित सामग्री को सहजता से एकीकृत करना सीखें। 
+### [DocumentBuilder के साथ docx सहेजें और नियंत्रण के बाद टेक्स्ट जोड़ें](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+DocumentBuilder का उपयोग करके docx फ़ाइल सहेजें और कंट्रोल के बाद टेक्स्ट डालें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

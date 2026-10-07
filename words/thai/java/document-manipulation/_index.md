@@ -90,6 +90,8 @@ Aspose.Words สำหรับ Java เป็น API ที่มีประ�
 เรียนรู้วิธีแบ่งเอกสารออกเป็นหน้า HTML ด้วย Aspose.Words สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการแปลงเอกสารอย่างราบรื่น
 ### [การเพิ่มเนื้อหาโดยใช้ DocumentBuilder ใน Aspose.Words สำหรับ Java](./adding-content-using-documentbuilder/)
 สร้างเอกสารอย่างมืออาชีพด้วย Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนในการเพิ่มข้อความ ตาราง รูปภาพ และอื่นๆ สร้างเอกสาร Word ที่สวยงามได้อย่างง่ายดาย
+### [การบันทึก docx ด้วย DocumentBuilder และเพิ่มข้อความหลังคอนโทรลใน Aspose.Words สำหรับ Java](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+บันทึกไฟล์ docx ด้วย DocumentBuilder แล้วเพิ่มข้อความหลังคอนโทรล
 ### [การโคลนและการรวมเอกสารใน Aspose.Words สำหรับ Java](./cloning-and-combining-documents/)
 เรียนรู้วิธีโคลนและรวมเอกสารใน Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดต้นฉบับ
 ### [การเปรียบเทียบเอกสารใน Aspose.Words สำหรับ Java](./comparing-documents/)

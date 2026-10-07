@@ -47,6 +47,9 @@ Aprenda a aplicar estilo a encabezados y pies de página de documentos con Aspos
 ### [Cómo detectar fuentes en documentos Word de Java – Guía completa](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 Aprenda a identificar fuentes en documentos Word usando Aspose.Words para Java. Guía paso a paso con ejemplos de código. 
 
+### [Cómo dar estilo a notas al pie en Java usando Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
+Aprenda a aplicar estilo a notas al pie en documentos Word con Aspose.Words para Java. Guía paso a paso con ejemplos de código.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

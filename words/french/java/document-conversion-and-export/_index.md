@@ -77,6 +77,9 @@ Apprenez à générer des codes-barres personnalisés en Java avec Aspose.Words 
 ### [Utilisation des graphiques dans Aspose.Words pour Java](./using-charts/)
 Apprenez à créer et personnaliser des graphiques dans Aspose.Words pour Java. Explorez les types de graphiques, le formatage et les propriétés des axes pour la visualisation des données.
 
+### [Comment créer un diagramme circulaire dans Word et l’enregistrer en PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
+Apprenez à créer un diagramme circulaire dans Word avec Aspose.Words et à le sauvegarder au format PNG.
+
 ### [Utilisation des objets mathématiques Office dans Aspose.Words pour Java](./using-office-math-objects/)
 Exploitez la puissance des équations mathématiques dans vos documents avec Aspose.Words pour Java. Apprenez à manipuler et afficher facilement des objets Office Math.
 
@@ -108,7 +111,7 @@ Convertissez facilement des fichiers DOCX en PDF avec Aspose.Words for Java en u
 Apprenez à générer des PDF accessibles depuis des fichiers DOCX en respectant les normes d'accessibilité.
 
 ### [Comment intégrer des images en Markdown lors de la conversion de DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
-Apprenez à extraire et intégrer des images lors de la conversion de fichiers DOCX en Markdown avec Aspose.Words.
+Apprenez à extraire et intégrer les images lors de la conversion de fichiers DOCX en Markdown avec Aspose.Words.
 
 ### [Intégrer des images en base64 lors de la conversion de DOCX en Markdown en Java](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
 Apprenez à convertir des documents DOCX en Markdown en incorporant les images sous forme de données base64 avec Aspose.Words for Java.

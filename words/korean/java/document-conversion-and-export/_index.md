@@ -75,6 +75,9 @@ Aspose.Words for Java를 활용한 개체 생성 방법. 코드를 포함하는 
 ### [Java용 Aspose.Words에서 차트 사용](./using-charts/)
 Aspose.Words for Java에서 차트를 작성하는 사용자 정의 방법. 차트 유형, 형식 및 축 속성을 탐색하여 데이터를 적합하게 구현합니다.
 
+### [Word에서 파이 차트를 만들고 PNG로 저장하는 방법](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
+Word 문서에 파이 차트를 삽입하고 PNG 이미지로 저장하는 단계별 가이드.
+
 ### [Java용 Aspose.Words에서 Office 수학 개체 사용](./using-office-math-objects/)
 Aspose.Words for Java를 사용하는 문서에 수납을 삽입하는 방법. Office Math를 처리하고 표시하는 방법을 배웁니다.
 

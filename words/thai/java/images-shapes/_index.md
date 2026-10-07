@@ -39,6 +39,9 @@
 ### [ใช้เอฟเฟกต์เงากับรูปร่างใน C# – คู่มือขั้นตอนต่อขั้นตอน](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 เรียนรู้วิธีเพิ่มเงาให้กับรูปร่างใน C# ด้วย Aspose.Words เพื่อสร้างเอกสารที่ดูเป็นมืออาชีพ
 
+### [วิธีแทรกภาพลงในไฟล์ docx และซ่อนภาพใน Word ด้วย Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+เรียนรู้วิธีแทรกภาพในไฟล์ docx และซ่อนภาพในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Java
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 ## แหล่งข้อมูลเพิ่มเติม

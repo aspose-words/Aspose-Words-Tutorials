@@ -104,6 +104,8 @@ Sfrutta la potenza di Aspose.Words per Java. Gestisci le opzioni e le impostazio
 Ottimizza la gestione dei documenti con Aspose.Words per Java. Impara a gestire le proprietà dei documenti, ad aggiungere metadati personalizzati e altro ancora in questo tutorial completo.
 ### [Utilizzo delle estensioni Web in Aspose.Words per Java](./using-web-extensions/)
 Migliora i documenti con le estensioni web in Aspose.Words per Java. Impara a integrare perfettamente i contenuti web. 
+### [Come salvare docx con DocumentBuilder e aggiungere testo dopo un controllo](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+Scopri come salvare un documento DOCX con DocumentBuilder e inserire testo subito dopo un controllo specifico.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

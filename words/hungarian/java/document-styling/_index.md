@@ -45,6 +45,8 @@ Tanuld meg, hogyan alkalmazhatsz vízjeleket és állíthatsz be oldalkonfigurá
 Tanuld meg, hogyan formázhatod a dokumentumok fejlécét és láblécét az Aspose.Words for Java használatával ebben a részletes útmutatóban. Lépésről lépésre útmutató és forráskód is mellékelve.
 ### [Betűtípusok észlelése Java Word dokumentumokban – Teljes útmutató](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 Tanuld meg, hogyan észleld a betűtípusokat a Java Word dokumentumokban az Aspose.Words for Java segítségével. Lépésről lépésre útmutató forráskóddal.
+### [Lábjegyzetek formázása Java-ban az Aspose.Words segítségével](./how-to-style-footnotes-in-java-using-aspose-words/)
+Tanuld meg, hogyan formázhatod a lábjegyzeteket Java-ban az Aspose.Words segítségével, lépésről-lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

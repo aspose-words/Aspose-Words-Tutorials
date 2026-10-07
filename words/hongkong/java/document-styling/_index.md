@@ -43,6 +43,8 @@ Aspose.Words for Java 提供了強大的文件樣式工具，讓開發人員可�
 了解如何使用 Aspose.Words for Java 套用浮水印和設定頁面配置。帶有原始程式碼的綜合指南。
 ### [文檔頁首和頁尾樣式](./document-header-footer-styling/)
 在本詳細指南中了解如何使用 Aspose.Words for Java 設定文件頁首和頁尾的樣式。包含逐步說明和原始程式碼。
+### [在 Java 中使用 Aspose.Words 設定腳註樣式](./how-to-style-footnotes-in-java-using-aspose-words/)
+了解如何使用 Aspose.Words for Java 為 Word 文件的腳註套用樣式，包含程式碼範例與步驟說明。
 ### [如何在 Java Word 文件中偵測字體 – 完整指南](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 了解如何使用 Aspose.Words for Java 偵測 Word 文件中的字體，提供完整範例與步驟說明。
 
