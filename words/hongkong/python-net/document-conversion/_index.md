@@ -43,8 +43,14 @@
 ### [如何從 Word 匯出 LaTeX – 將 DOCX 轉換為 Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 學習使用 Aspose.Words for Python 從 Word 匯出 LaTeX，並將 DOCX 轉換為 Markdown 的完整步驟。
 
+### [將 docx 儲存為 Markdown 並匯出方程式至 LaTeX](./save-docx-as-markdown-and-export-equations-to-latex/)
+學習使用 Aspose.Words for Python 將 docx 轉換為 Markdown，並將方程式匯出為 LaTeX 的完整步驟。
+
 ### [從 Word 建立 PDF – 完整 Python 指南與 Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 學習使用 Aspose.Words for Python 將 Word 文件轉換為 PDF 的完整步驟。
+
+### [如何在 Python 中將文件儲存為帶自訂矩形形狀的 PDF](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
+學習使用 Aspose.Words for Python 將文件儲存為帶自訂矩形形狀的 PDF 的完整步驟。
 
 ### [使用 Python 從 Word 建立可存取 PDF – 步驟指南](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 學習使用 Aspose.Words for Python 將 Word 文件轉換為符合可存取性標準的 PDF 的完整步驟。
@@ -54,6 +60,12 @@
 
 ### [從 Word 建立 PDF/UA – 完整指南](./create-pdf-ua-from-word-step-by-step-guide/)
 學習使用 Aspose.Words for Python 將 Word 文件轉換為符合 PDF/UA 標準的 PDF，提供完整步驟與範例。
+
+### [如何在 Python 中匯出 Office 數學公式至 LaTeX](./how-to-export-office-math-to-latex-in-python/)
+學習使用 Aspose.Words for Python 將 Office 數學公式匯出為 LaTeX 的完整步驟。
+
+### [如何使用 Aspose.Words for Python 將 Word 儲存為 PDF](./how-to-save-word-as-pdf-with-aspose-words-for-python/)
+學習使用 Aspose.Words for Python 將 Word 文件轉換並儲存為 PDF 的完整步驟。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

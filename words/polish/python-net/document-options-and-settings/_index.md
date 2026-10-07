@@ -45,6 +45,8 @@ Po ukończeniu tego kursu będziesz w stanie tworzyć przejrzyste, atrakcyjne wi
 Poznaj zaawansowane techniki łączenia i dołączania dokumentów za pomocą Aspose.Words w Pythonie. Przewodnik krok po kroku z przykładami kodu.
 ### [Dostrajanie opcji i ustawień dokumentu w celu zwiększenia wydajności](./manage-document-options-settings/)
 Dowiedz się, jak skutecznie manipulować dokumentami Worda za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z kodem źródłowym.
+### [Jak odzyskać uszkodzone pliki docx za pomocą Aspose.Words w Pythonie](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+Dowiedz się, jak naprawić uszkodzone pliki docx przy użyciu Aspose.Words w Pythonie. Praktyczny przewodnik z przykładami kodu.
 ### [Właściwości dokumentu i zarządzanie metadanymi](./document-properties-metadata/)
 Dowiedz się, jak zarządzać właściwościami dokumentu i metadanymi za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z kodem źródłowym.
 ### [Rozszerzanie funkcjonalności dokumentu za pomocą rozszerzeń internetowych](./document-functionality-web-extensions/)

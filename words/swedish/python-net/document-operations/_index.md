@@ -63,6 +63,9 @@ Lär dig hur du återställer och öppnar korrupta DOCX-filer med Aspose.Words f
     ### [Återställ korrupt DOCX – Komplett guide för att aktivera återställningsläge & få sidantal](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
 Lär dig hur du återställer korrupta DOCX-filer, aktiverar återställningsläge och hämtar sidantal med Aspose.Words för Python-net.
 
+    ### [Hur man återställer korrupta DOCX-filer med Aspose.Words för Python](./how-to-recover-corrupted-docx-files-using-aspose-words-for-p/)
+Lär dig hur du återställer och reparerar korrupta DOCX-filer med Aspose.Words för Python.
+
 ## Ytterligare resurser
 
 - [Aspose.Words för Python-net-dokumentation](https://docs.aspose.com/words/python-net/)
