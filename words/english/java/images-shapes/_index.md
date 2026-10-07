@@ -37,6 +37,10 @@ Learn how to generate high-quality thumbnails and custom-sized bitmaps of Word d
 
 ### [Add shadow to shape in Word – Complete Aspose.Words Guide](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Learn how to apply shadow effects to shapes in Word documents using Aspose.Words for Java, with step-by-step code examples.
+
+### [How to insert image into docx and hide image in Word with Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Learn how to embed an image in a DOCX file and hide it in Word using Aspose.Words for Java.
+
 ### [Apply Shadow Effect to a Shape in C# – Step‑by‑Step Guide](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Learn how to apply shadow effects to shapes in Aspose.Words using C#, with step-by-step code examples.
 

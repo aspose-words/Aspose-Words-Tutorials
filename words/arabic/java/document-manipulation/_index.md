@@ -90,6 +90,8 @@ Aspose.Words for Java هي واجهة برمجة تطبيقات قوية ومت�
 تعلّم كيفية تقسيم المستندات إلى صفحات HTML باستخدام Aspose.Words لجافا. اتبع دليلنا خطوة بخطوة لتحويل المستندات بسلاسة.
 ### [إضافة المحتوى باستخدام DocumentBuilder في Aspose.Words لـ Java](./adding-content-using-documentbuilder/)
 أتقن إنشاء المستندات باستخدام Aspose.Words لجافا. دليل خطوة بخطوة لإضافة النصوص والجداول والصور وغيرها. أنشئ مستندات Word رائعة بكل سهولة.
+### [كيفية حفظ ملف docx باستخدام DocumentBuilder وإضافة نص بعد عنصر تحكم](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+احفظ ملفات docx باستخدام DocumentBuilder وأضف نصًا بعد عنصر تحكم بسهولة.
 ### [استنساخ ودمج المستندات في Aspose.Words لـ Java](./cloning-and-combining-documents/)
 تعلّم كيفية استنساخ ودمج المستندات في Aspose.Words لجافا. دليل خطوة بخطوة مع أمثلة على الكود المصدري.
 ### [مقارنة المستندات في Aspose.Words لـ Java](./comparing-documents/)

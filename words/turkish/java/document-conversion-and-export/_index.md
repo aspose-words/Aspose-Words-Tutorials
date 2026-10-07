@@ -169,6 +169,9 @@ DOCX dosyalarını PDF'e dönüştürürken erişilebilirlik özelliklerini ekle
 ### [docx to pdf öğreticisi – LowCode ile Word'ü PDF'e Dönüştürme](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
 LowCode platformunu kullanarak Word belgelerini hızlıca PDF formatına dönüştürmeyi adım adım öğrenin.
 
+### [Word'de Pasta Grafiği Oluşturma ve PNG Olarak Kaydetme](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
+Word kullanarak pasta grafiği oluşturun ve grafiği PNG dosyası olarak dışa aktarın.
+
 ## Sık Sorulan Sorular
 
 **S: Aspose.Words kullanarak mevcut bir PDF’e nasıl filigran eklerim?**  

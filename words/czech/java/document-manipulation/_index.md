@@ -105,6 +105,9 @@ Optimalizujte správu dokumentů s Aspose.Words pro Javu. V tomto komplexním tu
 ### [Používání webových rozšíření v Aspose.Words pro Javu](./using-web-extensions/)
 Vylepšete dokumenty pomocí webových rozšíření v Aspose.Words pro Javu. Naučte se bezproblémově integrovat webový obsah. 
 
+### [Jak uložit docx pomocí DocumentBuilder a přidat text po ovládacím prvku](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+Naučte se uložit soubor DOCX pomocí DocumentBuilder a vložit text za konkrétní kontrolní prvek.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

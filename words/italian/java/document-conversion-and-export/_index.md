@@ -152,13 +152,18 @@ Scopri come convertire documenti Word in formato Markdown usando Aspose.Words pe
 
 ### [Crea PDF accessibile da Word – Guida passo‑passo](./create-accessible-pdf-from-word-step-by-step-guide/)
 Scopri come generare PDF accessibili da documenti Word con Aspose.Words per Java, passo dopo passo.
+
 ### [Come incorporare immagini durante la conversione da Word a Markdown – Guida completa](./how-to-embed-images-when-converting-word-to-markdown-complet/)
 Scopri come inserire correttamente le immagini durante la conversione di documenti Word in Markdown usando Aspose.Words per Java.
 
 ### [Opzioni di salvataggio PDF – Converti DOCX in PDF in Java con pieno controllo](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 Scopri come impostare le opzioni di salvataggio PDF per controllare layout, qualità e sicurezza durante la conversione da DOCX a PDF con Aspose.Words per Java.
+
 ### [Tutorial docx to pdf – Converti Word in PDF con LowCode](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
 Scopri come convertire file DOCX in PDF usando LowCode con Aspose.Words per Java in pochi passaggi.
+
+### [Come creare un grafico a torta in Word e salvarlo come PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
+Scopri come generare un grafico a torta in Word con Aspose.Words per Java e salvarlo come immagine PNG.
 
 ## Domande frequenti
 

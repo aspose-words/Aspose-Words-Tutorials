@@ -90,6 +90,8 @@
 Μάθετε πώς να διαχωρίζετε έγγραφα σε σελίδες HTML με το Aspose.Words για Java. Ακολουθήστε τον αναλυτικό οδηγό μας για απρόσκοπτη μετατροπή εγγράφων.
 ### [Προσθήκη περιεχομένου χρησιμοποιώντας το DocumentBuilder στο Aspose.Words για Java](./adding-content-using-documentbuilder/)
 Δημιουργία εγγράφων Master με Aspose.Words για Java. Ένας οδηγός βήμα προς βήμα για την προσθήκη κειμένου, πινάκων, εικόνων και άλλων. Δημιουργήστε εκπληκτικά έγγραφα Word χωρίς κόπο.
+### [Πώς να αποθηκεύσετε docx με DocumentBuilder και να προσθέσετε κείμενο μετά από έναν έλεγχο](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+Μάθετε πώς να αποθηκεύσετε ένα αρχείο docx με DocumentBuilder και να εισάγετε κείμενο αμέσως μετά από έναν έλεγχο.
 ### [Κλωνοποίηση και συνδυασμός εγγράφων στο Aspose.Words για Java](./cloning-and-combining-documents/)
 Μάθετε πώς να κλωνοποιείτε και να συνδυάζετε έγγραφα στο Aspose.Words για Java. Οδηγός βήμα προς βήμα με παραδείγματα πηγαίου κώδικα.
 ### [Σύγκριση εγγράφων στο Aspose.Words για Java](./comparing-documents/)

@@ -76,6 +76,9 @@ Sử dụng tạo mã vạch trong Aspose.Words for Java. Tìm hiểu cách tạ
 ### [Using Charts in Aspose.Words for Java](./using-charts/)
 Sử dụng biểu đồ trong Aspose.Words cho Java. Tìm hiểu cách tạo và tùy chỉnh biểu đồ trong Aspose.Words for Java. Khám phá các loại biểu đồ, định dạng và thuộc tính trục cho việc trực quan hoá dữ liệu.
 
+### [Cách tạo biểu đồ tròn trong Word và lưu dưới dạng PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
+Hướng dẫn chi tiết cách tạo biểu đồ tròn trong tài liệu Word và xuất ra file PNG bằng Aspose.Words for Java.
+
 ### [Using Office Math Objects in Aspose.Words for Java](./using-office-math-objects/)
 Sử dụng đối tượng Office Math trong Aspose.Words for Java. Khai thác sức mạnh của các phương trình toán học trong tài liệu với Aspose.Words for Java. Học cách thao tác và hiển thị các đối tượng Office Math một cách dễ dàng.
 

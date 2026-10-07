@@ -39,6 +39,9 @@ Word belgelerinde şekillere gölge ekleyerek görsel çekiciliği artırmayı �
 ### [C#'ta Bir Şekle Gölge Efekti Uygulama – Adım Adım Kılavuz](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 C# kullanarak bir şekle gölge efekti eklemeyi adım adım öğrenin ve belgelerinizde görsel çekiciliği artırın.
 
+### [Java ile docx dosyasına resim ekleme ve Word'de resmi gizleme](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Java kullanarak docx belgesine resim ekleyin ve Word içinde resmi gizleyin.
+
 ## Ek Kaynaklar
 
 ## Ek Kaynaklar

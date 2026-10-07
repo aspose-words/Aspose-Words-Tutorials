@@ -39,6 +39,9 @@ Aspose.Words for Java を使用して、Word 文書内の図形に影効果を�
 ### [C# で図形に影効果を適用する – ステップバイステップ ガイド](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 C# で図形に影効果を適用する手順をステップバイステップで解説します。
 
+### [Javaでdocxに画像を挿入し、Wordで画像を非表示にする方法](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Javaを使用してdocxに画像を挿入し、Word文書内で画像を非表示にする手順を解説します。
+
 ## 追加リソース
 
 ## 追加リソース

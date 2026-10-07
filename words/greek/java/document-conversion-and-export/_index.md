@@ -170,6 +170,9 @@ weight: 22
 ### [Επιλογές αποθήκευσης PDF – Μετατροπή DOCX σε PDF στην Java με πλήρη έλεγχο](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 Μάθετε πώς να ρυθμίσετε πλήρως τις επιλογές αποθήκευσης PDF κατά τη μετατροπή DOCX σε PDF με το Aspose.Words for Java.
 
+### [Πώς να δημιουργήσετε διάγραμμα πίτας στο Word και να το αποθηκεύσετε ως PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
+Μάθετε πώς να δημιουργήσετε διάγραμμα πίτας στο Word και να το εξάγετε ως αρχείο PNG χρησιμοποιώντας Aspose.Words for Java.
+
 ## Συχνές Ερωτήσεις
 
 **Π: Πώς προσθέτω υδατογράφημα σε υπάρχον PDF χρησιμοποιώντας το Aspose.Words;**  

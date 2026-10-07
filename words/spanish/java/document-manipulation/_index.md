@@ -90,6 +90,8 @@ Aprenda a dividir documentos eficientemente en Aspose.Words para Java. Explore t
 Aprenda a dividir documentos en páginas HTML con Aspose.Words para Java. Siga nuestra guía paso a paso para una conversión fluida de documentos.
 ### [Agregar contenido usando DocumentBuilder en Aspose.Words para Java](./adding-content-using-documentbuilder/)
 Domina la creación de documentos con Aspose.Words para Java. Guía paso a paso para añadir texto, tablas, imágenes y más. Crea documentos Word impactantes sin esfuerzo.
+### [Cómo guardar docx con DocumentBuilder y añadir texto después de un control](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+Aprenda a guardar documentos DOCX con DocumentBuilder y a insertar texto después de un control en Aspose.Words para Java.
 ### [Clonación y combinación de documentos en Aspose.Words para Java](./cloning-and-combining-documents/)
 Aprenda a clonar y combinar documentos en Aspose.Words para Java. Guía paso a paso con ejemplos de código fuente.
 ### [Comparación de documentos en Aspose.Words para Java](./comparing-documents/)

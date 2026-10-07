@@ -90,6 +90,8 @@ Aspose.Words for Java에서 문서를 효율적으로 분할하는 방법을 알
 Aspose.Words for Java를 사용하여 문서를 HTML 페이지로 분할하는 방법을 알아보세요. 원활한 문서 변환을 위한 단계별 가이드를 따라해 보세요.
 ### [Java용 Aspose.Words에서 DocumentBuilder를 사용하여 콘텐츠 추가](./adding-content-using-documentbuilder/)
 Aspose.Words for Java를 활용한 마스터 문서 제작. 텍스트, 표, 이미지 등을 추가하는 단계별 가이드. 멋진 Word 문서를 손쉽게 제작하세요.
+### [Java용 Aspose.Words에서 DocumentBuilder로 docx 저장 및 컨트롤 뒤에 텍스트 추가](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+DocumentBuilder를 사용해 docx 파일을 저장하고, 특정 컨트롤 뒤에 텍스트를 삽입하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 문서 복제 및 결합](./cloning-and-combining-documents/)
 Aspose.Words for Java에서 문서를 복제하고 결합하는 방법을 알아보세요. 소스 코드 예제를 포함한 단계별 가이드입니다.
 ### [Java용 Aspose.Words에서 문서 비교](./comparing-documents/)

@@ -67,6 +67,8 @@ Lär dig använda Markdown i Aspose.Words för Java med den här steg-för-steg-
 Lär dig manipulera noder i Aspose.Words för Java med den här steg-för-steg-handledningen. Lås upp dokumentbehandlingskraften.
 ### [Använda OLE-objekt och ActiveX-kontroller i Aspose.Words för Java](./using-ole-objects-and-activex/)
 Lär dig använda OLE-objekt och ActiveX-kontroller i Aspose.Words för Java. Skapa interaktiva dokument enkelt. Kom igång nu!
+### [Skapa ActiveX-kommandoknapp i Java](./how-to-create-activex-command-button-in-java/)
+Lär dig hur du skapar en ActiveX-kommandoknapp i Java med Aspose.Words.
 ### [Använda revisioner i Aspose.Words för Java](./using-revisions/)
 Lär dig att använda Aspose.Words för Javas revisionskontroller effektivt. Steg-för-steg-guide för utvecklare. Optimera din dokumenthantering.
 ### [Använda sektioner i Aspose.Words för Java](./using-sections/)

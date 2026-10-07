@@ -45,6 +45,8 @@
 تعرّف على كيفية تنسيق رؤوس وتذييلات المستندات باستخدام Aspose.Words لجافا في هذا الدليل المفصل. يتضمن تعليمات خطوة بخطوة وشيفرة المصدر.
 ### [كيفية اكتشاف الخطوط في مستندات Word Java – دليل شامل](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 تعلّم كيفية اكتشاف الخطوط المستخدمة في مستندات Word باستخدام Aspose.Words لجافا. دليل خطوة بخطوة مع أمثلة الكود.
+### [كيفية تنسيق الحواشي في Java باستخدام Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
+تعلّم كيفية تنسيق الحواشي في مستندات Word باستخدام Aspose.Words لجافا مع أمثلة عملية.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

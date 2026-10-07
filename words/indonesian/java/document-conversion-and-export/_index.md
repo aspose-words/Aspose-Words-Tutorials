@@ -75,6 +75,9 @@ Pelajari cara menghasilkan barcode kustom di Java menggunakan Aspose.Words for J
 ### [Menggunakan Chart di Aspose.Words for Java](./using-charts/)
 Pelajari cara membuat dan menyesuaikan chart di Aspose.Words for Java. Jelajahi tipe chart, pemformatan, dan properti sumbu untuk visualisasi data.
 
+### [Cara Membuat Diagram Pai di Word dan Menyimpannya sebagai PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
+Pelajari cara membuat diagram pai di dokumen Word menggunakan Aspose.Words for Java dan menyimpannya sebagai file PNG.
+
 ### [Menggunakan Objek Office Math di Aspose.Words for Java](./using-office-math-objects/)
 Manfaatkan kekuatan persamaan matematika dalam dokumen dengan Aspose.Words for Java. Pelajari cara memanipulasi dan menampilkan objek Office Math dengan mudah.
 
@@ -123,7 +126,7 @@ Pelajari cara menyisipkan gambar ke dalam file Markdown selama proses konversi D
 ### [Simpan Dokumen sebagai TXT – Panduan Cepat Mengekspor Matematika Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Pelajari cara menyimpan dokumen Word sebagai file TXT sambil mengekspor persamaan matematika dengan Aspose.Words.
 
-### [Buat PDF Aksesibel dari DOCX – Panduan Lengkap](./create-accessible-pdf-from-docx-complete-guide/)
+### [Buat PDF yang dapat diakses dari DOCX – Panduan Lengkap](./create-accessible-pdf-from-docx-complete-guide/)
 Pelajari cara mengonversi file DOCX menjadi PDF yang memenuhi standar aksesibilitas, termasuk tag, teks alternatif, dan struktur dokumen.
 ### [Cara Mengekspor LaTeX dari DOCX – Panduan Lengkap Java](./how-to-export-latex-from-docx-complete-java-guide/)
 

@@ -39,6 +39,9 @@ Dowiedz się, jak dodać cień do kształtu w dokumencie Word przy użyciu Aspos
 ### [Zastosowanie efektu cienia do kształtu w C# – przewodnik krok po kroku](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Dowiedz się, jak dodać efekt cienia do kształtu w C# przy użyciu Aspose.Words, krok po kroku.
 
+### [Jak wstawić obraz do pliku docx i ukryć obraz w Wordzie przy użyciu Javy](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Dowiedz się, jak wstawić obraz do dokumentu docx i ukryć go w Wordzie przy użyciu Aspose.Words dla Java.
+
 ## Dodatkowe zasoby
 
 ## Dodatkowe zasoby

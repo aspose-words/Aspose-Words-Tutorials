@@ -1,0 +1,7 @@
+Title: How to create blank Word document and group shapes in C#
+Slug: how-to-create-blank-word-document-and-group-shapes-in-c
+Category: programming-with-shapes
+ProcessedDate: 2026-10-07T14:56:59.731882
+SourceRepo: AI Search API
+Keywords: create blank word document, add rectangle shape, insert image shape, group multiple shapes, add image to word
+PRNumber: 305

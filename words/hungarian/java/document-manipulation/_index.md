@@ -90,6 +90,8 @@ Tanuld meg, hogyan oszthatod hatékonyan a dokumentumokat az Aspose.Words for Ja
 Tanuld meg, hogyan bonthatod fel a dokumentumokat HTML oldalakra az Aspose.Words for Java segítségével. Kövesd lépésről lépésre szóló útmutatónkat a zökkenőmentes dokumentumkonvertáláshoz.
 ### [Tartalom hozzáadása a DocumentBuilder használatával az Aspose.Words for Java programban](./adding-content-using-documentbuilder/)
 Dokumentumkészítés mestere az Aspose.Words segítségével Java-ban. Lépésről lépésre útmutató szöveg, táblázatok, képek és egyebek hozzáadásához. Készítsen lenyűgöző Word-dokumentumokat könnyedén.
+### [Hogyan mentse el a docx-et a DocumentBuilder-rel, és szöveget adjon egy vezérlő után](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+Ismerje meg, hogyan menthet docx fájlt a DocumentBuilder-rel, és adhat szöveget egy vezérlő után Java-ban.
 ### [Dokumentumok klónozása és kombinálása Aspose.Words programban Java-ban](./cloning-and-combining-documents/)
 Tanuld meg, hogyan klónozhatsz és kombinálhatsz dokumentumokat az Aspose.Words for Java programban. Lépésről lépésre útmutató forráskód példákkal.
 ### [Dokumentumok összehasonlítása az Aspose.Words for Java programban](./comparing-documents/)

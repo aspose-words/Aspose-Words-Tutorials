@@ -45,6 +45,8 @@ Aspose.Words for Java를 사용하여 워터마크를 적용하고 페이지 구
 이 자세한 가이드에서 Aspose.Words for Java를 사용하여 문서 머리글과 바닥글의 스타일을 지정하는 방법을 알아보세요. 단계별 지침과 소스 코드가 포함되어 있습니다.
 ### [Java Word 문서에서 글꼴 감지하기 – 완전 가이드](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 Aspose.Words for Java를 활용해 Java Word 문서에서 사용된 글꼴을 식별하고 추출하는 방법을 단계별로 안내합니다.
+### [Java에서 Aspose.Words를 사용하여 각주 스타일 지정하기](./how-to-style-footnotes-in-java-using-aspose-words/)
+Aspose.Words for Java를 활용해 문서의 각주에 스타일을 적용하고 맞춤화하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

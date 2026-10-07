@@ -104,6 +104,8 @@ Entfesseln Sie die Leistungsfähigkeit von Aspose.Words für Java. Nutzen Sie di
 Optimieren Sie Ihr Dokumentenmanagement mit Aspose.Words für Java. Lernen Sie in diesem umfassenden Tutorial, mit Dokumenteigenschaften zu arbeiten, benutzerdefinierte Metadaten hinzuzufügen und vieles mehr.
 ### [Verwenden von Weberweiterungen in Aspose.Words für Java](./using-web-extensions/)
 Optimieren Sie Dokumente mit Web-Erweiterungen in Aspose.Words für Java. Lernen Sie, webbasierte Inhalte nahtlos zu integrieren. 
+### [Wie man docx mit DocumentBuilder speichert und Text nach einem Steuerelement hinzufügt](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+Speichern Sie ein DOCX mit DocumentBuilder und fügen Sie Text unmittelbar nach einem Inhaltssteuerelement ein.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

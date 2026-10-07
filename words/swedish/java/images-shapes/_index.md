@@ -39,6 +39,9 @@ Lär dig hur du applicerar skuggeffekter på former i Word-dokument med Aspose.W
 ### [Applicera skuggeffekt på en form i C# – steg‑för‑steg‑guide](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Lär dig hur du lägger till en skugga på en form i C# med Aspose.Words – en detaljerad steg‑för‑steg‑guide.
 
+### [Hur man infogar bild i docx och döljer bilden i Word med Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Lär dig hur du infogar en bild i ett DOCX-dokument och döljer den i Word med Aspose.Words för Java.
+
 ## Ytterligare resurser
 
 ## Ytterligare resurser

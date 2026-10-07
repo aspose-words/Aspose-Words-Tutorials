@@ -42,8 +42,11 @@ Java के लिए Aspose.Words के साथ Word दस्तावे�
 ### [Word में आकृति में छाया जोड़ें – पूर्ण Aspose.Words गाइड](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Word दस्तावेज़ में आकृति पर छाया लागू करने के चरण-दर-चरण निर्देश, Aspose.Words Java के साथ पूर्ण गाइड।
 
-### [C# में आकृति पर शैडो इफ़ेक्ट लागू करें – चरण‑दर‑चरण गाइड](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
+### [C# में आकृति पर शैडो इफ़ेक्ट लागू करें – चरण‑दर‑श...](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 C# में Aspose.Words का उपयोग करके आकृति पर शैडो इफ़ेक्ट जोड़ने के लिए विस्तृत चरण और कोड उदाहरण।
+
+### [जावा के साथ docx में छवि सम्मिलित करें और Word में छवि छुपाएँ](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+जावा का उपयोग करके docx फ़ाइल में छवि जोड़ने और Word में उसे छुपाने की चरण‑दर‑चरण प्रक्रिया।
 
 ## अतिरिक्त संसाधन
 
