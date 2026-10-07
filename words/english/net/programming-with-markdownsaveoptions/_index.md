@@ -104,6 +104,7 @@ class Program
 | [custom image folder – Convert Word to Markdown with Aspose.Words](./custom-image-folder-convert-word-to-markdown-with-aspose-wor/) | Learn how to set a custom image folder when converting Word to Markdown using Aspose.Words for .NET. |
 | [Save Word as Markdown – Complete Guide to Convert DOCX and Extract Images](./save-word-as-markdown-complete-guide-to-convert-docx-and-ext/) | Learn how to convert DOCX to Markdown and extract images using Aspose.Words for .NET in this complete guide. |
 | [How to Convert Equations from Word to Markdown – Complete C# Guide](./how-to-convert-equations-from-word-to-markdown-complete-c-gu/) |  |
+| [Convert Word to Markdown & Extract Images from DOCX (C#)](./convert-word-to-markdown-extract-images-from-docx-c/) | Learn how to convert Word to Markdown and extract images from DOCX using Aspose.Words for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

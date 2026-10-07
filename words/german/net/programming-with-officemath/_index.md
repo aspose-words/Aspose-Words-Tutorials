@@ -26,6 +26,7 @@ Die Aspose.Words für .NET-Tutorials zur Textverarbeitung mit OfficeMath führen
 | [DOCX als TXT speichern – Gleichungen nach LaTeX exportieren mit Aspose.Words](./save-docx-as-txt-export-equations-to-latex-with-aspose-words/) | Erfahren Sie, wie Sie DOCX-Dateien in TXT konvertieren und mathematische Gleichungen dabei nach LaTeX exportieren. |
 | [DOCX als TXT speichern mit LaTeX‑Mathematik‑Export](./how-to-save-docx-as-txt-with-latex-math-export/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein DOCX‑Dokument als TXT speichern und mathematische Formeln im LaTeX‑Format exportieren. |
 | [Wie man Gleichungen in Word nach LaTeX konvertiert – als TXT speichern](./how-to-convert-equations-in-word-to-latex-save-as-txt/) | Erfahren Sie, wie Sie mathematische Gleichungen aus Word in LaTeX konvertieren und als TXT-Datei speichern. |
+| [DOCX als TXT speichern – Vollständiger C#-Leitfaden zum Exportieren von Word-Mathematik als LaTeX](./save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/) | Erfahren Sie, wie Sie DOCX‑Dateien in TXT konvertieren und mathematische Formeln als LaTeX exportieren – Schritt‑für‑Schritt‑Anleitung in C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

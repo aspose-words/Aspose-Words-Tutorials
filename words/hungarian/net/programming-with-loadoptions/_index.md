@@ -56,6 +56,7 @@ Ezekben az oktatóanyagokban megtanulod, hogyan használhatod a LoadOptions eszk
 | [Hogyan állítsuk helyre a DOCX-et – Teljes útmutató az Aspose.Words helyreállítással](./how-to-recover-docx-full-guide-with-aspose-words-recovery/) | Ismerje meg, hogyan lehet teljes körűen helyreállítani DOCX fájlokat az Aspose.Words for .NET segítségével. |
 | [Sérült Word-dokumentum betöltése – Problémák felismerése és sérült docx helyreállítása C#-ban](./load-corrupted-word-document-detect-issues-recover-damaged-d/) | Ismerje meg, hogyan tölthet be sérült Word-dokumentumokat, és állíthatja helyre a hibás DOCX fájlokat C#-ban az Aspose.Words for .NET segítségével. |
 | [Hogyan állítsuk helyre a DOCX-et – lépésről lépésre útmutató sérült fájlokhoz](./how-to-recover-docx-step-by-step-guide-for-corrupt-files/) | Ismerje meg, hogyan lehet helyreállítani sérült DOCX fájlokat az Aspose.Words for .NET segítségével, részletes lépésekkel. |
+| [Sérült DOCX betöltése C#-ban – Teljes Aspose.Words útmutató](./load-corrupted-docx-in-c-complete-aspose-words-guide/) Ismerje meg, hogyan tölthet be sérült DOCX fájlokat C#-ban az Aspose.Words segítségével, részletes lépésekkel és példákkal. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

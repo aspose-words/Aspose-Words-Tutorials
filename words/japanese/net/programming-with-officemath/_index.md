@@ -27,6 +27,7 @@ Aspose.Words for .NET の OfficeMath を使った Words Processing チュート�
 | [LaTeX 数式エクスポートで DOCX を TXT に保存する方法](./how-to-save-docx-as-txt-with-latex-math-export/) Aspose.Words for .NET を使用して、DOCX 文書をテキスト形式に変換し、数式を LaTeX 形式でエクスポートする方法を解説します。 |
 | [Word の数式を LaTeX に変換して TXT として保存する方法](./how-to-convert-equations-in-word-to-latex-save-as-txt/) Word 文書内の数式を LaTeX 形式に変換し、テキストファイルとして保存する手順を紹介します。 |
 
+| [docx を txt に保存 – Word の数式を LaTeX にエクスポートする完全 C# ガイド](./save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/) Aspose.Words for .NET を使用して、Word 文書の数式を LaTeX 形式のテキストファイルにエクスポートする方法をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

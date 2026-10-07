@@ -27,6 +27,7 @@ De Aspose.Words voor .NET-tutorials over tekstverwerking met OfficeMath begeleid
 | [DOCX opslaan als TXT met LaTeX-wiskunde-export](./how-to-save-docx-as-txt-with-latex-math-export/) | Leer hoe u een DOCX-bestand opslaat als TXT en LaTeX-wiskunde exporteert met Aspose.Words voor .NET. |
 
 | [Hoe vergelijkingen in Word naar LaTeX converteren – Opslaan als TXT](./how-to-convert-equations-in-word-to-latex-save-as-txt/) | Leer hoe u wiskundige vergelijkingen in Word kunt exporteren naar LaTeX en opslaan als TXT-bestand. |
+| [Docx opslaan als txt – Complete C#-gids voor het exporteren van Word-wiskunde als LaTeX](./save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/) | Leer hoe u een DOCX-bestand opslaat als TXT en wiskundige vergelijkingen exporteert naar LaTeX met C# en Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

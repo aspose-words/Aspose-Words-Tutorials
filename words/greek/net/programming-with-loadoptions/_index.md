@@ -56,6 +56,7 @@
 | [Πώς να ανακτήσετε αρχεία DOCX με το Aspose.Words – βήμα‑προς‑βήμα](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/) | Μάθετε πώς να ανακτήσετε αρχεία DOCX που έχουν καταστραφεί ή χαλασμένα με το Aspose.Words για .NET, ακολουθώντας έναν αναλυτικό βήμα‑προς‑βήμα οδηγό. |
 | [Φόρτωση κατεστραμμένου εγγράφου Word – Εντοπισμός προβλημάτων & Ανάκτηση κατεστραμμένου docx σε C#](./load-corrupted-word-document-detect-issues-recover-damaged-d/) | Μάθετε πώς να εντοπίζετε προβλήματα και να ανακτήσετε κατεστραμμένα αρχεία docx χρησιμοποιώντας Aspose.Words για .NET σε C#. |
 | [Πώς να ανακτήσετε DOCX – Βήμα‑βήμα οδηγός για κατεστραμμένα αρχεία](./how-to-recover-docx-step-by-step-guide-for-corrupt-files/) | Μάθετε πώς να επαναφέρετε αρχεία DOCX που είναι κατεστραμμένα, ακολουθώντας έναν λεπτομερή βήμα‑βήμα οδηγό. |
+| [Φόρτωση κατεστραμμένου DOCX σε C# – Πλήρης Οδηγός Aspose.Words](./load-corrupted-docx-in-c-complete-aspose-words-guide/) | Μάθετε πώς να φορτώνετε κατεστραμμένα αρχεία DOCX σε C# χρησιμοποιώντας το Aspose.Words, με βήμα-βήμα οδηγίες και παραδείγματα κώδικα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

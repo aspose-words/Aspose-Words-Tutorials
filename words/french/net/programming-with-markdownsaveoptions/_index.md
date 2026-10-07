@@ -161,6 +161,8 @@ Apprenez à préserver les sauts de ligne lors de la conversion de fichiers DOCX
 
 Apprenez à convertir des documents Word en Markdown en utilisant Aspose.Words avec un guide complet en C#.
 
+### [Convertir Word en Markdown et extraire les images du DOCX (C#)](./convert-word-to-markdown-extract-images-from-docx-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

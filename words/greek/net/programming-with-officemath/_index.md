@@ -27,6 +27,7 @@
 | [Πώς να αποθηκεύσετε DOCX ως TXT με εξαγωγή μαθηματικών LaTeX](./how-to-save-docx-as-txt-with-latex-math-export/) | Μάθετε πώς να μετατρέψετε έγγραφα DOCX σε αρχεία TXT με εξαγωγή μαθηματικών σε μορφή LaTeX. |
 | [Πώς να μετατρέψετε εξισώσεις στο Word σε LaTeX – αποθήκευση ως TXT](./how-to-convert-equations-in-word-to-latex-save-as-txt/) | Μάθετε πώς να μετατρέψετε εξισώσεις Word σε LaTeX και να τις αποθηκεύσετε ως αρχείο TXT χρησιμοποιώντας Aspose.Words για .NET. |
 
+| [Αποθήκευση docx ως txt – Πλήρης οδηγός C# για εξαγωγή μαθηματικών Word ως LaTeX](./save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/) | Μάθετε πώς να μετατρέψετε αρχεία docx σε txt και να εξάγετε μαθηματικά Word σε LaTeX με C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -57,6 +57,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara Memulihkan File DOCX di C# – Panduan Langkah demi Langkah](./how-to-recover-docx-files-in-c-step-by-step-guide/) Pelajari cara memulihkan file DOCX yang rusak menggunakan C# dengan panduan langkah demi langkah. |
 | [Pulihkan DOCX Rusak dengan Aspose.Words – Panduan Lengkap C#](./recover-corrupted-docx-with-aspose-words-complete-c-guide/) | Pelajari cara memulihkan file DOCX yang rusak menggunakan Aspose.Words dengan panduan lengkap C#. |
 | [Muat dokumen Word yang rusak – Deteksi Masalah & Pulihkan DOCX yang rusak di C#](./load-corrupted-word-document-detect-issues-recover-damaged-d/) | Pelajari cara memuat dokumen Word yang rusak, mendeteksi masalah, dan memulihkan file DOCX yang rusak menggunakan Aspose.Words di C#. Bahasa Indonesia: |
+| [Muat DOCX Rusak di C# – Panduan Lengkap Aspose.Words](./load-corrupted-docx-in-c-complete-aspose-words-guide/) Pelajari cara memuat file DOCX yang rusak di C# menggunakan Aspose.Words dengan panduan lengkap langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

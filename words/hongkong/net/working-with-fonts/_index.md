@@ -45,6 +45,7 @@
 | [字體設定預設實例](./font-settings-default-instance/) |在本教學中，學習如何使用 Aspose.Words for .NET 在 Word 文件中配置預設字體設定。 |
 | [取得可用字體列表](./get-list-of-available-fonts/) |在本詳細的逐步教學中了解如何使用 Aspose.Words for .NET 取得可用字體清單。提升您的字體管理技能。 |
 | [接收字體通知](./receive-notifications-of-fonts/) |了解如何在使用 Aspose.Words for .NET 時接收遺失或取代的字體通知。 |
+| [如何在 C# 中偵測字體 – 使用回呼與 Aspose.Words](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) |了解如何使用 Aspose.Words for .NET 的回呼機制，在 C# 中偵測缺失或替換字體。 |
 | [接收警告通知](./receive-warning-notification/) |了解如何在使用 Aspose.Words for .NET 時接收警告通知並管理文件中的任何問題或警告。 |
 | [捕獲字體警告（C#）完整程式設計指南](./capture-font-warnings-in-c-complete-programming-guide/) |了解如何使用 Aspose.Words for .NET 於 C# 捕獲字體警告，完整程式設計指南。 |
 | [設定警告回呼 – 完整字體處理指南](./set-warning-callback-in-c-complete-guide-to-font-handling/) |了解如何在 Aspose.Words for .NET 中使用 C# 設定字體相關的警告回呼，以便捕捉和處理字體警告。 |

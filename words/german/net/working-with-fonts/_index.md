@@ -69,6 +69,7 @@ Egal, ob Sie Text mit unterschiedlichen Schriftarten formatieren, Regeln für di
 | [Umgang mit fehlenden Schriftarten in C# mit Aspose.Words – Komplettanleitung](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) | Erfahren Sie, wie Sie fehlende Schriftarten in C# mit Aspose.Words erkennen und behandeln. |
 | [Schriftartwarnungen in C# erfassen – Komplettanleitung](./capture-font-warnings-in-c-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Schriftartwarnungen in C# erfassen und verarbeiten. |
 | [Verwendung von FontSettings zum Umgang mit fehlenden Schriftarten in Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | Erfahren Sie, wie Sie mit FontSettings fehlende Schriftarten in Aspose.Words für .NET handhaben. |
+| [Erkennen von Schriftarten in C# – Callback verwenden mit Aspose.Words](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET einen Callback implementieren, um Schriftarten in einem Word-Dokument zu erkennen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
