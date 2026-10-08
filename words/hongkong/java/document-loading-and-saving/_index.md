@@ -112,6 +112,9 @@ Aspose.Words for Java 讓您輕鬆 **從 Word 儲存圖像**，同時提供強�
 
 ### [使用 Aspose.Words for Java 判斷文件格式](./determining-document-format/)
 
+### [如何使用 Aspose.Words 恢復 docx – 啟用復原模式](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
+
+- [如何復原 DOCX – 設定復原模式與顯示警告](./how-to-recover-docx-set-recovery-mode-display-warnings/)
 ### [如何復原 docx – 使用 Java 儲存復原後的文件](./how-to-recover-docx-save-recovered-document-using-java/)
 
 - [如何使用 Aspose.Words 復原 DOCX 檔案 – 步驟指南](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
@@ -126,7 +129,6 @@ Aspose.Words for Java 讓您輕鬆 **從 Word 儲存圖像**，同時提供強�
 ### [使用 Aspose.Words for Java 捕獲字體替換警告 – 完整指南](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [如何復原 docx – 讀取損壞 Word 檔案的完整指南](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 ### [如何在 Java 中取得缺失字型 – Aspose.Words 指南](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
-### [如何使用 Aspose.Words 恢復 docx – 啟用復原模式](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
 
 ## 常見問題
 
