@@ -23,14 +23,6 @@ title: Tutorial de callback de aviso do Aspose – Detectar e rastrear fontes au
 url: /pt/java/document-rendering/aspose-warning-callback-tutorial-detect-and-track-missing-fo/
 ---
 
-next steps.
-
-- Closing shortcodes.
-
-Make sure to keep markdown formatting.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

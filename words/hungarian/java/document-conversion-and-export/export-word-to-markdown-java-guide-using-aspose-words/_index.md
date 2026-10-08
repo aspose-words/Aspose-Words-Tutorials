@@ -24,28 +24,6 @@ title: Word exportálása Markdownba – Java útmutató az Aspose.Words haszná
 url: /hu/java/document-conversion-and-export/export-word-to-markdown-java-guide-using-aspose-words/
 ---
 
-.
-
-We must translate everything else.
-
-Let's produce final content.
-
-Check for any other markdown links: none.
-
-Let's translate.
-
-Start with shortcodes unchanged.
-
-Then heading "# Export Word to Markdown – Java Guide using Aspose.Words" translate to Hungarian: "# Word exportálása Markdownba – Java útmutató az Aspose.Words használatával". Keep dash? We'll translate.
-
-Proceed.
-
-Paragraphs translate.
-
-Make sure to keep **bold** markers.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -20,16 +20,6 @@ title: 将 DOCX 转换为 Markdown – 带图像提取的 Java 指南
 url: /zh/java/document-conversion-and-export/convert-docx-to-markdown-java-guide-with-image-extraction/
 ---
 
-X to Markdown** unchanged. The rest of sentence translate.
-
-Let's translate step by step.
-
-Will produce final markdown with Chinese.
-
-Make sure to keep list items, blockquote > etc.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

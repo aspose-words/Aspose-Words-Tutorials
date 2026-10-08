@@ -23,9 +23,7 @@ title: Μετατροπή DOCX σε Markdown – Οδηγός Java με Εξαγ
 url: /el/java/document-conversion-and-export/convert-docx-to-markdown-java-guide-with-image-extraction/
 ---
 
--button >}} keep.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,23 +22,7 @@ title: Java에서 PDF UA 만들기 – DOCX를 PDF로 변환
 url: /ko/java/document-conversion-and-export/create-pdf-ua-in-java-convert-docx-to-pdf/
 ---
 
-Also blockquote > **What you’ll get:** translate.
-
-List items bullet.
-
-Proceed.
-
-Also tables: translate column headers and content? Should translate text inside table, but keep markdown table structure. Keep technical terms.
-
-Also code block placeholders remain unchanged.
-
-Let's produce final Korean content.
-
-Be careful with bullet points: use Korean punctuation but keep markdown bullet.
-
-Let's translate step by step.
-
-I'll produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

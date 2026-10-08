@@ -22,24 +22,6 @@ title: aspose-waarschuwing callback tutorial – Detecteer en volg ontbrekende l
 url: /nl/java/document-rendering/aspose-warning-callback-tutorial-detect-and-track-missing-fo/
 ---
 
-translate.
-
-Table: translate column headers and content.
-
-Make sure to keep markdown table formatting.
-
-Then "## Expected Results & Verification" translate.
-
-List items.
-
-Then "## Conclusion" translate.
-
-Then bullet list of next steps.
-
-Make sure to keep code references like `LoadOptions.setFontSubstitution` unchanged.
-
-Now produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

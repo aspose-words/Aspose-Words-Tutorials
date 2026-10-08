@@ -22,9 +22,7 @@ title: Salva Word come testo – Esporta le equazioni in LaTeX con Aspose.Words
 url: /it/java/document-conversion-and-export/save-word-as-text-export-equations-to-latex-with-aspose-word/
 ---
 
-Also keep markdown formatting.
-
-Let's produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

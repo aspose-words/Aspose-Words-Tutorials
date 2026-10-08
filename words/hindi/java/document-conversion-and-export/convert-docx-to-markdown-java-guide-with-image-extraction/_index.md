@@ -23,20 +23,6 @@ title: DOCX को Markdown में परिवर्तित करें �
 url: /hi/java/document-conversion-and-export/convert-docx-to-markdown-java-guide-with-image-extraction/
 ---
 
-is text; we translate to Hindi but keep technical terms. Could be: "# DOCX को Markdown में बदलें – इमेज एक्सट्रैक्शन के साथ Java गाइड". Keep "Convert DOCX to Markdown – Java Guide with Image Extraction" translation.
-
-Proceed.
-
-Paragraphs: translate.
-
-Make sure to keep **bold** formatting.
-
-Let's craft translation.
-
-Will include code block placeholders unchanged.
-
-Proceed step by step.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

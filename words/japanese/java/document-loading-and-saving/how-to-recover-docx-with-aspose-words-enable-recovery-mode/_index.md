@@ -22,15 +22,7 @@ title: Aspose.Wordsでdocxを復元する方法 – 復元モードを有効に�
 url: /ja/java/document-loading-and-saving/how-to-recover-docx-with-aspose-words-enable-recovery-mode/
 ---
 
-.
-
-Check for any other markdown links: none.
-
-Check for any URLs: none.
-
-All good.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

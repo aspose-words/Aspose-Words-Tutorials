@@ -22,7 +22,7 @@ title: Tutorial sul callback di avviso di Aspose – Rilevare e tracciare i font
 url: /it/java/document-rendering/aspose-warning-callback-tutorial-detect-and-track-missing-fo/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

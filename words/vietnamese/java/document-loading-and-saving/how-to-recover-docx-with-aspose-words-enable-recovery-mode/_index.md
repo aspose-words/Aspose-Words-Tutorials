@@ -23,11 +23,7 @@ title: Cách khôi phục file docx bằng Aspose.Words – Bật chế độ kh
 url: /vi/java/document-loading-and-saving/how-to-recover-docx-with-aspose-words-enable-recovery-mode/
 ---
 
->}}.
-
-Make sure to keep all shortcodes unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

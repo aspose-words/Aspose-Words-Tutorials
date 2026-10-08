@@ -24,21 +24,7 @@ title: Exportar Word a Markdown – Guía de Java usando Aspose.Words
 url: /es/java/document-conversion-and-export/export-word-to-markdown-java-guide-using-aspose-words/
 ---
 
-.
-
-Pro Tips & Pitfalls heading.
-
-Bullet points translate.
-
-Conclusion heading.
-
-Final paragraph.
-
-Make sure to keep code block placeholders unchanged.
-
-Also keep any backticks inside code placeholders? They are just placeholders.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

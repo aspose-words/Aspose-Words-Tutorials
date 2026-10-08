@@ -19,17 +19,7 @@ title: Aspose 警告回呼教學 – 偵測與追蹤缺失字型
 url: /zh-hant/java/document-rendering/aspose-warning-callback-tutorial-detect-and-track-missing-fo/
 ---
 
-愉快！"
-
-Then closing shortcodes: {{< /blocks/products/pf/tutorial-page-section >}} etc remain.
-
-Also include the backtop button shortcode unchanged.
-
-Now produce final content with all translations, preserving code block placeholders and shortcodes.
-
-Make sure to keep markdown formatting.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

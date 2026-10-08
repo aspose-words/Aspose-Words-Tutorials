@@ -23,7 +23,7 @@ title: Simpan Word sebagai Teks – Ekspor Persamaan ke LaTeX dengan Aspose.Word
 url: /id/java/document-conversion-and-export/save-word-as-text-export-equations-to-latex-with-aspose-word/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

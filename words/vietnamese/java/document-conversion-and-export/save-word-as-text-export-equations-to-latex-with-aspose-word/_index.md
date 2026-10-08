@@ -24,11 +24,7 @@ title: Lưu Word dưới dạng Văn bản – Xuất các Phương trình sang 
 url: /vi/java/document-conversion-and-export/save-word-as-text-export-equations-to-latex-with-aspose-word/
 ---
 
-closing shortcodes remain.
-
-Also need to translate the backtop button shortcode? It's just a shortcode, keep unchanged.
-
-Now produce final content with all translations. Ensure we keep all placeholders unchanged.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

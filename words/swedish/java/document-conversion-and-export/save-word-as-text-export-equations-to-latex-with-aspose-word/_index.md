@@ -22,9 +22,7 @@ title: Spara Word som text – Exportera ekvationer till LaTeX med Aspose.Words
 url: /sv/java/document-conversion-and-export/save-word-as-text-export-equations-to-latex-with-aspose-word/
 ---
 
-sure to keep same syntax.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

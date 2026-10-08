@@ -25,12 +25,6 @@ title: Tutorial de devolución de llamada de advertencia de Aspose – Detectar 
 url: /es/java/document-rendering/aspose-warning-callback-tutorial-detect-and-track-missing-fo/
 ---
 
-keep code block placeholders.
-
-Tables: translate cells but keep technical terms.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,8 +24,6 @@ title: Converti DOCX in Markdown – Guida Java con estrazione delle immagini
 url: /it/java/document-conversion-and-export/convert-docx-to-markdown-java-guide-with-image-extraction/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -21,10 +21,6 @@ title: บทเรียนการเรียกคืนคำเตือ�
 url: /th/java/document-rendering/aspose-warning-callback-tutorial-detect-and-track-missing-fo/
 ---
 
-Make sure to keep markdown formatting.
-
-Let's produce translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

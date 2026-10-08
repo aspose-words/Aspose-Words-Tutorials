@@ -21,15 +21,7 @@ title: JavaでPDFを作成 – docxをPDFに変換
 url: /ja/java/document-conversion-and-export/create-pdf-ua-in-java-convert-docx-to-pdf/
 ---
 
-ザーへ配布できるようになります。"
-
-Then closing shortcodes.
-
-Now ensure we keep all shortcodes and placeholders unchanged.
-
-Also note "For Japanese, ensure proper RTL formatting if needed" not needed.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

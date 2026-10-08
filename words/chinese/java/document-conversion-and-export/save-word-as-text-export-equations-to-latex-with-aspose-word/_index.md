@@ -22,13 +22,7 @@ title: 将 Word 保存为文本 – 使用 Aspose.Words 导出公式为 LaTeX
 url: /zh/java/document-conversion-and-export/save-word-as-text-export-equations-to-latex-with-aspose-word/
 ---
 
-– 使用 Aspose.Words 导出公式为 LaTeX". Keep dash? We'll translate.
-
-Then paragraph.
-
-Proceed step by step.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

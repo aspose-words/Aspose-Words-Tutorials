@@ -24,13 +24,7 @@ title: Εξαγωγή Word σε Markdown – Οδηγός Java με χρήση A
 url: /el/java/document-conversion-and-export/export-word-to-markdown-java-guide-using-aspose-words/
 ---
 
-preserve markdown formatting exactly.
-
-Let's craft Greek translation.
-
-Will use appropriate Greek punctuation.
-
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

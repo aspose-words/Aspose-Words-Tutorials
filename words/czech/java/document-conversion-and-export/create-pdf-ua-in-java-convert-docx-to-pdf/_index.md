@@ -23,7 +23,7 @@ title: vytvořit PDF UA v Javě – převést DOCX na PDF
 url: /cs/java/document-conversion-and-export/create-pdf-ua-in-java-convert-docx-to-pdf/
 ---
 
-produce final output with only translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

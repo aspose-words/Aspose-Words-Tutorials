@@ -27,11 +27,7 @@ title: Hogyan állítsuk helyre a docx-et az Aspose.Words használatával – En
 url: /hu/java/document-loading-and-saving/how-to-recover-docx-with-aspose-words-enable-recovery-mode/
 ---
 
-/products/products-backtop-button >}} keep.
-
-Make sure to preserve markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

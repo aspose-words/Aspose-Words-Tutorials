@@ -22,10 +22,6 @@ title: تحويل DOCX إلى Markdown – دليل Java مع استخراج ا�
 url: /ar/java/document-conversion-and-export/convert-docx-to-markdown-java-guide-with-image-extraction/
 ---
 
-Arabic text direction automatically handled. Use Arabic punctuation.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

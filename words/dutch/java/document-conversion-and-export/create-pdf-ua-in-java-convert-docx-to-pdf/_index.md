@@ -23,14 +23,6 @@ title: pdf ua maken in Java – docx naar pdf converteren
 url: /nl/java/document-conversion-and-export/create-pdf-ua-in-java-convert-docx-to-pdf/
 ---
 
->}}
-
-Make sure to keep them unchanged.
-
-Now produce final output with all translations.
-
-Let's construct.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

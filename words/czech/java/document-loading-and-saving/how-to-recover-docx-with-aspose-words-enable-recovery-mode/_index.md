@@ -23,12 +23,6 @@ title: Jak obnovit docx pomocí Aspose.Words – Povolit režim obnovy
 url: /cs/java/document-loading-and-saving/how-to-recover-docx-with-aspose-words-enable-recovery-mode/
 ---
 
-}} keep unchanged.
-
-Also the shortcodes at end.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

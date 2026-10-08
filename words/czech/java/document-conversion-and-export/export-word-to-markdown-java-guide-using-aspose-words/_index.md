@@ -24,11 +24,7 @@ title: Export Word do Markdown – Java průvodce s využitím Aspose.Words
 url: /cs/java/document-conversion-and-export/export-word-to-markdown-java-guide-using-aspose-words/
 ---
 
-/products/pf/tutorial-page-section >}} etc.
-
-Make sure to keep them.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

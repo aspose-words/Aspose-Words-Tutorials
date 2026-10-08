@@ -22,17 +22,7 @@ title: สร้าง PDF UA ใน Java – แปลง DOCX เป็น PDF
 url: /th/java/document-conversion-and-export/create-pdf-ua-in-java-convert-docx-to-pdf/
 ---
 
-พิเศษ". Keep bold.
-
-Similarly "What you’ll get:" translate.
-
-"Expected result:" translate.
-
-"Result:" translate.
-
-Make sure to keep bold formatting.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

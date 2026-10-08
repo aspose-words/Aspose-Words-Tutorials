@@ -20,9 +20,7 @@ title: 如何使用 Aspose.Words 復原 docx – 啟用復原模式
 url: /zh-hant/java/document-loading-and-saving/how-to-recover-docx-with-aspose-words-enable-recovery-mode/
 ---
 
-keep code block placeholders unchanged. Also keep any markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,14 +23,6 @@ title: Převod DOCX na Markdown – Java průvodce s extrakcí obrázků
 url: /cs/java/document-conversion-and-export/convert-docx-to-markdown-java-guide-with-image-extraction/
 ---
 
-Happy coding!" translate.
-
-Then closing shortcodes.
-
-Make sure to keep all placeholders unchanged.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

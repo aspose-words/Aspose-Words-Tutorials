@@ -25,15 +25,7 @@ title: वर्ड को टेक्स्ट के रूप में स�
 url: /hi/java/document-conversion-and-export/save-word-as-text-export-equations-to-latex-with-aspose-word/
 ---
 
-ations.txt` unchanged. Also keep `{{CODE_BLOCK_X}}`.
-
-Check for any other URLs: image placeholder url is image-placeholder.png, unchanged.
-
-Check for any markdown links: none.
-
-Check for any other code formatting: we have backticks inside quotes; they remain.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,12 +22,6 @@ title: ส่งออก Word เป็น Markdown – คู่มือ Java
 url: /th/java/document-conversion-and-export/export-word-to-markdown-java-guide-using-aspose-words/
 ---
 
-none). There's no markdown link besides image.
-
-Proceed to translate.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

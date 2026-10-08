@@ -21,8 +21,6 @@ title: Word を Markdown にエクスポート – Aspose.Words を使用した 
 url: /ja/java/document-conversion-and-export/export-word-to-markdown-java-guide-using-aspose-words/
 ---
 
-start constructing final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

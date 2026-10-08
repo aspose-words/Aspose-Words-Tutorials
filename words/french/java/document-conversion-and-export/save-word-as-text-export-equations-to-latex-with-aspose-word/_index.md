@@ -24,14 +24,6 @@ title: Enregistrer Word en texte – Exporter les équations vers LaTeX avec Asp
 url: /fr/java/document-conversion-and-export/save-word-as-text-export-equations-to-latex-with-aspose-word/
 ---
 
-only one..." translate.
-
-Proceed.
-
-Will keep code block placeholders.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

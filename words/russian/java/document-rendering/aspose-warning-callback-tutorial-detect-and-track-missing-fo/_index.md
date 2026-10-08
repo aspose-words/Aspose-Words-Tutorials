@@ -24,11 +24,7 @@ title: Учебник по обратному вызову предупрежд�
 url: /ru/java/document-rendering/aspose-warning-callback-tutorial-detect-and-track-missing-fo/
 ---
 
-Make sure to keep headings (# etc). Also keep blockquotes.
-
-Proceed to translate.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
