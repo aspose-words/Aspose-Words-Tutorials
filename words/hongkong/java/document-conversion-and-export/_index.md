@@ -153,6 +153,23 @@ Aspose.Words for Java 的主要功能之一是能夠 **convert docx to pdf** 以
 ### [將 Word 儲存為文字 – 使用 Aspose.Words 匯出方程式為 LaTeX](./save-word-as-text-export-equations-to-latex-with-aspose-word/)
 示篯如何將 Word 文件儲存為純文字，同時將文件中的方程式匯出為 LaTeX 代碼。
 
+## 常見問題
+
+**Q: How do I add a watermark to an existing PDF using Aspose.Words?**  
+A: 載入文件，使用 `DocumentBuilder.insertWatermarkText` 或 `insertWatermarkImage`，然後儲存為 PDF。
+
+**Q: Can I convert a DOCX file to PDF without losing complex layouts?**  
+A: 可以。Aspose.Words 在轉換過程中保留版面配置、字型與圖形。
+
+**Q: How do I generate custom barcode labels in Java?**  
+A: 使用 Aspose.Words 提供的條碼 API，指定條碼類型，並以影像或形狀方式插入。
+
+**Q: What is the best way to format tables consistently?**  
+A: 透過 `Table.setStyleIdentifier` 方法套用 TableStyle，或使用內建的樣式庫。
+
+**Q: Is a license required for commercial use?**  
+A: 是，需要商業授權才能在正式環境部署；亦提供免費試用供評估。
+
 ---
 
 **最後更新:** 2025-12-10  
