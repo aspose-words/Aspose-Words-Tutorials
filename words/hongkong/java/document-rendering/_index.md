@@ -39,6 +39,8 @@ Aspose.Words for Java 提供了豐富的文件渲染教程，讓您可以輕鬆�
 探索使用 Aspose.Words for Java 實現高效的文件列印和渲染。透過原始碼範例逐步學習。
 ### [將文件渲染為 HTML](./rendering-documents-html/)
 了解如何使用 Aspose.Words for Java 輕鬆地將文件呈現為 HTML。高效率文件轉換的逐步指南。
+### [在 Java 中使用 Aspose.Words 處理字體 – 完整指南](./how-to-handle-fonts-in-java-with-aspose-words-complete-guide/)
+了解如何在 Java 中使用 Aspose.Words 管理與嵌入字體，確保文檔跨平台正確顯示。
 ### [Aspose 警告回呼教學 – 偵測與追蹤缺少的字型](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
 了解如何使用 Aspose.Words for Java 的警告回呼機制偵測並追蹤缺少的字型，以確保文件渲染正確。
 

@@ -1,0 +1,7 @@
+Title: How to save docx as txt LaTeX math using Aspose.Words
+Slug: how-to-save-docx-as-txt-latex-math-using-aspose-words
+Category: document-conversion
+ProcessedDate: 2026-09-27T23:03:53.014290
+SourceRepo: AI Search API
+Keywords: save docx as txt, convert docx to txt, how to export math, convert equations to latex, how to save txt
+PRNumber: 291

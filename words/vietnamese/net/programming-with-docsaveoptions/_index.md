@@ -27,7 +27,7 @@ Bằng cách làm theo các hướng dẫn này, bạn sẽ học được các 
 | [Mã hóa tài liệu bằng mật khẩu](./encrypt-document-with-password/) | Tìm hiểu cách mã hóa tài liệu bằng mật khẩu bằng Aspose.Words cho .NET trong hướng dẫn chi tiết từng bước này. Bảo mật thông tin nhạy cảm của bạn một cách dễ dàng. |
 | [Không nén các tệp siêu dữ liệu nhỏ](./do-not-compress-small-metafiles/) | Tìm hiểu cách sử dụng Aspose.Words cho .NET để đảm bảo các siêu tệp nhỏ trong tài liệu Word không bị nén, bảo toàn chất lượng và tính toàn vẹn của chúng. Có kèm hướng dẫn từng bước. |
 | [Không Lưu Hình Ảnh Bullet](./do-not-save-picture-bullet/) tìm hiểu cách xử lý các dấu đầu dòng hình ảnh trong Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Đơn giản hóa việc quản lý tài liệu và tạo các tài liệu Word chuyên nghiệp một cách dễ dàng. |
-
+| [Cách lưu tài liệu đã chỉnh sửa trong C# với Aspose.Words – Hướng dẫn từng bước](./how-to-save-edited-document-in-c-with-aspose-words-step-by-s/) | Hướng dẫn chi tiết cách lưu tài liệu Word đã chỉnh sửa bằng Aspose.Words trong C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

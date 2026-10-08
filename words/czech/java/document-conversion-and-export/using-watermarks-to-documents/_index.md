@@ -1,11 +1,10 @@
 ---
-date: 2025-12-18
-description: Naučte se, jak přidat vodoznak do dokumentů pomocí Aspose.Words pro Javu,
-  včetně příkladu vodoznaku s obrázkem, změny barvy vodoznaku, nastavení průhlednosti
-  vodoznaku a odstranění vodoznaku z dokumentu.
+date: 2026-02-19
+description: Naučte se, jak pomocí Aspose.Words pro Javu vytvořit dokument s vodoznakem
+  a přidat obrázkový vodoznak v Javě pro profesionálně vypadající dokumenty.
 linktitle: Using Watermarks to Documents
 second_title: Aspose.Words Java Document Processing API
-title: Jak přidat vodoznak do dokumentů pomocí Aspose.Words pro Javu
+title: Vytvořte dokument s vodoznakem pomocí Aspose.Words pro Java
 url: /cs/java/document-conversion-and-export/using-watermarks-to-documents/
 weight: 15
 ---
@@ -16,32 +15,40 @@ weight: 15
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak přidat vodoznak do dokumentů pomocí Aspose.Words pro Java
+# Vytvořte dokument s vodoznakem pomocí Aspose.Words pro Java
 
-## Úvod do přidávání vodoznaků do dokumentů v Aspose.Words pro Java
-
-V tomto tutoriálu se naučíte **jak přidat vodoznak** do dokumentů Word pomocí Aspose.Words pro Java. Vodoznaky jsou rychlý způsob, jak označit soubor jako důvěrný, koncept nebo schválený, a mohou být textové i obrázkové. Provedeme vás nastavením knihovny, vytvořením textových a obrázkových vodoznaků, úpravou jejich vzhledu (včetně změny barvy vodoznaku a nastavení průhlednosti) a dokonce i odstraněním vodoznaku z dokumentu, když již není potřeba.
+V tomto tutoriálu **vytvoříte dokument s vodoznakem** pomocí API Aspose.Words pro Java. Vodoznaky – ať už textové nebo obrázkové – vám pomohou označit soubor jako důvěrný, koncept nebo schválený a lze je programově aplikovat na jakýkoli dokument Word. Provedeme vás nastavením knihovny, přidáním textových i obrázkových vodoznaků, úpravou jejich vzhledu a dokonce i jejich odebráním, když již nejsou potřeba.
 
 ## Rychlé odpovědi
-- **Co je vodoznak?** Poloprůhledná vrstva (text nebo obrázek), která se zobrazuje za hlavním obsahem dokumentu.  
-- **Mohu přidat více vodoznaků?** Ano – vytvořte několik objektů `Shape` a přidejte je do požadovaných sekcí.  
-- **Jak změním barvu vodoznaku?** Upravením vlastnosti `Color` v `TextWatermarkOptions`.  
-- **Existuje příklad obrázkového vodoznaku?** Viz sekce „Přidání obrázkových vodoznaků“ níže.  
-- **Potřebuji licenci k odstranění vodoznaku?** Pro produkční použití je vyžadována platná licence Aspose.Words.
+- **Co vodoznak dělá?** Překrývá každou stránku textem nebo obrázkem, aby vyjádřil stav nebo značku.  
+- **Která knihovna přidává vodoznaky v Javě?** Aspose.Words pro Java poskytuje vestavěnou podporu vodoznaků.  
+- **Mohu přidat obrázkový vodoznak?** Ano – použijte třídu `Shape` a přístup **add image watermark java**.  
+- **Je vodoznak poloprůhledný?** Průhlednost můžete řídit pomocí `setSemitransparent` u textových vodoznaků.  
+- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro testování; pro produkční nasazení je vyžadována komerční licence.
+
+## Co je vodoznak a proč jej používat?
+
+Vodoznak je slabý překryv – textový nebo grafický – přidaný na každou stránku dokumentu. Často se používá k označení **důvěrnosti**, **stavu konceptu** nebo **značky** bez změny samotného obsahu. Programové přidání vodoznaků zajišťuje konzistenci napříč velkým množstvím souborů a šetří čas oproti ruční úpravě.
 
 ## Nastavení Aspose.Words pro Java
 
-Než začneme přidávat vodoznaky do dokumentů, musíme nastavit Aspose.Words pro Java. Postupujte podle následujících kroků:
+Než začneme přidávat vodoznaky, ujistěte se, že je knihovna připravena ve vašem projektu:
 
-1. Stáhněte si Aspose.Words pro Java z [zde](https://releases.aspose.com/words/java/).  
-2. Přidejte knihovnu Aspose.Words pro Java do svého Java projektu.  
-3. Naimportujte potřebné třídy ve svém Java kódu.
+1. Stáhněte Aspose.Words pro Java z [here](https://releases.aspose.com/words/java/).  
+2. Přidejte stažený JAR (nebo Maven/Gradle závislost) do classpath vašeho projektu.  
+3. Naimportujte požadované třídy ve vašem Java souboru:
 
-Nyní, když máme knihovnu nastavenou, pojďme se ponořit do samotného vytváření vodoznaku.
+```java
+import com.aspose.words.*;
+import java.awt.Color;
+import java.nio.file.*;
+```
 
-## Přidání textových vodoznaků
+Nyní, když je knihovna nastavena, pojďme se podívat na samotný kód vodoznaku.
 
-Textové vodoznaky jsou běžnou volbou, když chcete do dokumentu přidat textovou informaci. Zde je návod, jak přidat textový vodoznak pomocí Aspose.Words pro Java:
+## Jak přidat textový vodoznak
+
+Textové vodoznaky jsou ideální pro označení dokumentu jako „CONFIDENTIAL“ nebo „DRAFT“. Následující úryvek ukazuje čistý způsob, jak **vytvořit dokument s vodoznakem** pomocí `TextWatermarkOptions`.
 
 ```java
 // Create a Document instance
@@ -62,11 +69,15 @@ doc.getWatermark().setText("Test", options);
 doc.save("DocumentWithWatermark.docx");
 ```
 
-**Proč je to důležité:** Úpravou `setFontFamily`, `setFontSize` a `setColor` můžete **změnit barvu vodoznaku** tak, aby odpovídala vaší značce, a `setSemitransparent(true)` vám umožní **nastavit průhlednost vodoznaku** pro jemný efekt.
+### Přizpůsobení textového vodoznaku
+- **Rodina a velikost písma** – změňte `setFontFamily` a `setFontSize`.  
+- **Barva** – použijte libovolnou `java.awt.Color`.  
+- **Rozvržení** – vyberte `HORIZONTAL`, `DIAGONAL` atd.  
+- **Průhlednost** – zapněte `setSemitransparent(true)` pro světlejší vzhled.
 
-## Přidání obrázkových vodoznaků
+## Jak přidat obrázkový vodoznak (add image watermark java)
 
-Kromě textových vodoznaků můžete do svých dokumentů také přidat obrázkové vodoznaky. Níže je **příklad obrázkového vodoznaku**, který ukazuje, jak vložit PNG logo nebo razítko:
+Obrázkové vodoznaky jsou perfektní pro loga nebo vlastní grafiku. Níže je příklad **add image watermark java**, který vloží PNG do středu každé stránky.
 
 ```java
 // Create a Document instance
@@ -90,15 +101,14 @@ doc.getFirstSection().getBody().getFirstParagraph().appendChild(watermark);
 doc.save("DocumentWithImageWatermark.docx");
 ```
 
-Tento blok můžete opakovat s různými obrázky nebo pozicemi a **přidat tak více vodoznaků** do jednoho souboru.
+### Tipy pro obrázkové vodoznaky
+- **Změna velikosti** pomocí `setWidth` / `setHeight`, aby se vešly na stránku.  
+- **Pozice** může být centrovaná nebo zarovnaná k libovolnému okraji pomocí `RelativeHorizontalPosition` / `RelativeVerticalPosition`.  
+- **Průhlednost** lze aplikovat úpravou alfa kanálu obrázku před načtením.
 
-## Přizpůsobení vodoznaků
+## Jak odebrat vodoznaky
 
-Vodoznaky můžete přizpůsobit úpravou jejich vzhledu a umístění. U textových vodoznaků můžete měnit písmo, velikost, barvu a rozvržení. U obrázkových vodoznaků můžete měnit velikost, rotaci a zarovnání, jak bylo ukázáno v předchozích příkladech.
-
-## Odstranění vodoznaků
-
-Pokud potřebujete **odstranit vodoznak** z dokumentu, následující kód prochází všechny tvary a maže ty, které jsou identifikovány jako vodoznaky:
+Když dokument již vodoznak nepotřebuje, můžete jej programově smazat. Níže uvedený kód prochází všechny tvary a odstraňuje ty, které mají v názvu „Watermark“.
 
 ```java
 // Create a Document instance
@@ -117,44 +127,29 @@ for (Shape shape : doc.getShapes())
 doc.save("DocumentWithoutWatermark.docx");
 ```
 
-## Běžné scénáře použití a tipy
+## Časté problémy a řešení
 
-- **Důvěrné koncepty:** Použijte poloprůhledný textový vodoznak jako „CONFIDENTIAL“.  
-- **Branding:** Použijte obrázkový vodoznak obsahující logo vaší společnosti.  
-- **Vodoznaky specifické pro sekce:** Procházejte `doc.getSections()` a přidejte vodoznak jen do vybraných sekcí.  
-- **Tip pro výkon:** Při aplikaci stejného vodoznaku na mnoho dokumentů znovu použijte stejnou instanci `TextWatermarkOptions`.
+- **Chybějící vodoznak po uložení** – ujistěte se, že po nastavení vodoznaku voláte `doc.save()`.  
+- **Obrázek se nezobrazuje** – ověřte, že cesta k obrázku je správná a že soubor je podporovaného formátu (PNG, JPEG, BMP).  
+- **Průhlednost se neaplikovala** – `setSemitransparent(true)` funguje jen pro textové vodoznaky; u obrázků upravte alfa kanál PNG.  
+- **Více sekcí** – pokud má dokument několik sekcí, přidejte vodoznak do těla každé sekce nebo použijte `doc.getWatermark().setText(...)`, který působí globálně.
 
 ## Často kladené otázky
 
-### Jak mohu změnit písmo textového vodoznaku?
+**Q: Jak mohu změnit písmo textového vodoznaku?**  
+A: Upravit vlastnost `setFontFamily` v `TextWatermarkOptions`, např. `options.setFontFamily("Times New Roman");`.
 
-Pro změnu písma textového vodoznaku upravte vlastnost `setFontFamily` v `TextWatermarkOptions`. Například:
+**Q: Mohu přidat více vodoznaků do jednoho dokumentu?**  
+A: Ano. Vytvořte více objektů `Shape` (pro obrázky) nebo zavolejte `doc.getWatermark().setText(...)` s různými možnostmi pro každý vodoznak.
 
-```java
-options.setFontFamily("Times New Roman");
-```
+**Q: Lze vodoznak otočit?**  
+A: U obrázkových vodoznaků nastavte rotaci na objektu `Shape` pomocí `watermark.setRotation(angle)`. U textových vodoznaků použijte vlastnost `setLayout` (např. `WatermarkLayout.DIAGONAL`).
 
-### Mohu přidat více vodoznaků do jednoho dokumentu?
+**Q: Jak udělat vodoznak poloprůhledný?**  
+A: Nastavte `options.setSemitransparent(true)` v `TextWatermarkOptions`. U obrázků upravte průhlednost obrázku před načtením.
 
-Ano, můžete přidat více vodoznaků do dokumentu vytvořením několika objektů `Shape` s různými nastaveními a jejich přidáním do dokumentu.
-
-### Je možné vodoznak otočit?
-
-Ano, vodoznak můžete otočit nastavením vlastnosti `setRotation` v objektu `Shape`. Kladné hodnoty otáčejí vodoznak po směru hodinových ručiček, záporné hodnoty proti směru hodinových ručiček.
-
-### Jak mohu udělat vodoznak poloprůhledný?
-
-Pro nastavení poloprůhlednosti vodoznaku nastavte vlastnost `setSemitransparent` na `true` v `TextWatermarkOptions`.
-
-### Mohu přidat vodoznaky do konkrétních sekcí dokumentu?
-
-Ano, můžete přidat vodoznaky do konkrétních sekcí dokumentu tím, že projdete sekce a vodoznak přidáte do požadovaných sekcí.
-
----
-
-**Poslední aktualizace:** 2025-12-18  
-**Testováno s:** Aspose.Words pro Java 24.12  
-**Autor:** Aspose  
+**Q: Mohu přidat vodoznaky jen do konkrétních sekcí dokumentu?**  
+A: Ano. Projděte `doc.getSections()` a přidejte vodoznak pouze do požadovaných sekcí.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -163,3 +158,9 @@ Ano, můžete přidat vodoznaky do konkrétních sekcí dokumentu tím, že proj
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Poslední aktualizace:** 2026-02-19  
+**Testováno s:** Aspose.Words pro Java 24.12 (nejnovější)  
+**Autor:** Aspose

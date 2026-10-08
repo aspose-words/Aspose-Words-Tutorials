@@ -1,0 +1,7 @@
+Title: Configure MarkdownSaveOptions for LaTeX in Python – Aspose.Words guide
+Slug: configure-markdownsaveoptions-for-latex-in-python-aspose-wor
+Category: document-options-and-settings
+ProcessedDate: 2026-08-14T11:40:29.026664
+SourceRepo: AI Search API
+Keywords: configure markdownsaveoptions for latex, export word equations to latex
+PRNumber: 253

@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary: Met Aspose.Words Document en DocumentBuilder voegt deze tutorial HTML-markup toe aan een Word-document en slaat het resultaat op.
+//ExStepSummary:0: Definieer de uitvoermap, maak een nieuw Document aan en initialiseert een DocumentBuilder voor dat document.
+//ExStepSummary:1: Roep `builder.InsertHtml()` aan om een rechts uitgelijnde alinea, vetgedrukte tekst, een gecentreerde div en een links uitgelijnde kop in het document toe te voegen.
+//ExStepSummary:2: Sla het gewijzigde document op in de opgegeven map als een .docx‑bestand.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

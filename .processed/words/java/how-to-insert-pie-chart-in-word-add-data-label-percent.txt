@@ -1,0 +1,7 @@
+Title: how to insert pie chart in Word – add data label percent
+Slug: how-to-insert-pie-chart-in-word-add-data-label-percent
+Category: using-document-elements
+ProcessedDate: 2026-07-20T08:28:39.457244
+SourceRepo: AI Search API
+Keywords: how to insert pie chart, add data label percent, display percentages on chart, add pie chart to word, show percent on pie chart
+PRNumber: 229

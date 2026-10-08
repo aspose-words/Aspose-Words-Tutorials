@@ -1,0 +1,7 @@
+Title: How to group shapes in a Word document with C#
+Slug: how-to-group-shapes-in-a-word-document-with-c
+Category: programming-with-shapes
+ProcessedDate: 2026-08-14T10:21:39.421653
+SourceRepo: AI Search API
+Keywords: how to group shapes, create word document, insert rectangle shape, group shapes in word, save document as docx
+PRNumber: 251

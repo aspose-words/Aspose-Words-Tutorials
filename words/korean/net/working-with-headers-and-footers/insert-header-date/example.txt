@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Document 및 DocumentBuilder 클래스를 사용하여, 이 튜토리얼에서는 Word 문서의 기본 헤더에 동적 DATE 필드를 추가하고 파일을 저장하는 방법을 보여줍니다.
+//ExStepSummary:0: 새 Document와 이를 편집할 DocumentBuilder를 생성합니다.
+//ExStepSummary:1: builder의 커서를 기본 헤더로 이동시켜 이후 삽입이 헤더에 적용되도록 합니다.
+//ExStepSummary:2: 정적 레이블을 쓰고 헤더에 “MMMM d, yyyy” 형식의 DATE 필드를 삽입하여 동적 날짜를 생성합니다.
+//ExStepSummary:3: 본문으로 돌아가 샘플 단락을 추가하여 헤더와 함께 일반 문서 내용을 보여줍니다.
+//ExStepSummary:4: 문서를 .docx 파일로 저장합니다.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+builder.Write("Generated on: ");
+builder.InsertField("DATE \\@ \"MMMM d, yyyy\"");
+
+//ExStep:3-
+builder.MoveToDocumentEnd();
+builder.Writeln("This is the document body.");
+
+//ExStep:4-
+doc.Save("HeaderDate.docx");
+//ExEnd

@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Korzystając z klas Document i DocumentBuilder, ten samouczek pokazuje, jak dodać dynamiczne pole DATE do głównego nagłówka dokumentu Word i następnie zapisać plik.
+//ExStepSummary:0: Utwórz nowy obiekt Document oraz DocumentBuilder, aby go edytować.
+//ExStepSummary:1: Przesuń kursor buildera do głównego nagłówka, aby kolejne wstawienia dotyczyły nagłówka.
+//ExStepSummary:2: Wpisz statyczną etykietę i wstaw pole DATE sformatowane jako "MMMM d, yyyy" do nagłówka, tworząc dynamiczną datę.
+//ExStepSummary:3: Wróć do głównej części dokumentu i dodaj przykładowy akapit, demonstrując zwykłą treść dokumentu obok nagłówka.
+//ExStepSummary:4: Zapisz dokument jako plik .docx.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+builder.Write("Generated on: ");
+builder.InsertField("DATE \\@ \"MMMM d, yyyy\"");
+
+//ExStep:3-
+builder.MoveToDocumentEnd();
+builder.Writeln("This is the document body.");
+
+//ExStep:4-
+doc.Save("HeaderDate.docx");
+//ExEnd

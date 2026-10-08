@@ -1,0 +1,7 @@
+Title: Create rectangle shape in Java – Complete Step‑by‑Step Guide
+Slug: create-rectangle-shape-in-java-complete-step-by-step-guide
+Category: images-shapes
+ProcessedDate: 2026-07-03T23:22:43.226379
+SourceRepo: AI Search API
+Keywords: create rectangle shape, add shadow to shape, apply shadow effect, set shape transparency, create blank document
+PRNumber: 220

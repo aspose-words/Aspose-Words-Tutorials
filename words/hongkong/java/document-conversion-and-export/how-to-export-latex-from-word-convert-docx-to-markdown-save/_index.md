@@ -253,7 +253,8 @@ A: 原生 PDF 並不支援 LaTeX。若要在 PDF 中顯示 LaTeX，必須先將�
 
 如果本指南對你有幫助，請在 GitHub 上給予星標，與同事分享，或在下方留言分享你的客製化經驗。祝編程愉快，願你的 LaTeX 永遠渲染無誤！
 
-![Diagram showing the conversion pipeline from DOCX → Markdown (with LaTeX) → PDF, alt text: "顯示從 DOCX → Markdown（含 LaTeX）→ PDF 之轉換流程圖"]{{< /blocks/products/pf/tutorial-page-section >}}
+![Diagram showing the conversion pipeline from DOCX → Markdown (with LaTeX) → PDF, alt text: "顯示從 DOCX → Markdown（含 LaTeX）→ PDF 之轉換流程圖"]
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

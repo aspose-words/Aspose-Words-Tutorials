@@ -39,6 +39,8 @@ Aspose.Words for Java を使って、図形やグラフィックでドキュメ�
 Aspose.Words for Java を使った効率的なドキュメント印刷とレンダリング方法を学びましょう。ソースコード例を使ってステップバイステップで学習できます。
 ### [ドキュメントをHTMLにレンダリングする](./rendering-documents-html/)
 Aspose.Words for Javaを使って、ドキュメントを簡単にHTMLに変換する方法を学びましょう。効率的なドキュメント変換のためのステップバイステップガイドです。
+### [Aspose.Words を使用した Java のフォント処理 – 完全ガイド](./how-to-handle-fonts-in-java-with-aspose-words-complete-guide/)
+Aspose.Words for Java でフォントを管理し、カスタムフォントや埋め込みフォントの使用方法を学び、文書の外観を最適化します。
 ### [Aspose 警告コールバック チュートリアル – 欠落フォントの検出と追跡](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
 欠落フォントを検出し、追跡するための警告コールバックの設定方法を学び、文書のレンダリング品質を向上させます。
 

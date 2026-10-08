@@ -1,0 +1,7 @@
+Title: Create PDF/UA-2 Compliant Document – Complete Java Guide
+Slug: create-pdf-ua-2-compliant-document-complete-java-guide
+Category: document-conversion-and-export
+ProcessedDate: 2026-05-30T08:37:00.892933
+SourceRepo: AI Search API
+Keywords: create pdf/ua‑2 compliant document, export word to accessible pdf
+PRNumber: 195

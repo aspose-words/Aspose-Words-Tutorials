@@ -1,0 +1,7 @@
+Title: how to handle fonts in .NET – detect missing fonts
+Slug: how-to-handle-fonts-in-net-detect-missing-fonts
+Category: working-with-fonts
+ProcessedDate: 2026-06-02T12:33:40.095803
+SourceRepo: AI Search API
+Keywords: how to handle fonts, detect missing fonts, track font changes
+PRNumber: 197

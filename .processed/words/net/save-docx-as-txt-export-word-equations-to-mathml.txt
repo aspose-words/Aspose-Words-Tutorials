@@ -1,0 +1,7 @@
+Title: save docx as txt – Export Word Equations to MathML
+Slug: save-docx-as-txt-export-word-equations-to-mathml
+Category: programming-with-officemath
+ProcessedDate: 2026-06-24T10:52:00.171784
+SourceRepo: AI Search API
+Keywords: save docx as txt, convert word math to latex, export word equations mathml, extract equations from word
+PRNumber: 210
