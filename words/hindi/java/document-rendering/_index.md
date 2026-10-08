@@ -41,6 +41,8 @@ Java के लिए Aspose.Words का उपयोग करके कुश
 Aspose.Words for Java के साथ आसानी से HTML में दस्तावेज़ों को रेंडर करना सीखें। कुशल दस्तावेज़ रूपांतरण के लिए चरण-दर-चरण मार्गदर्शिका।
 ### [Java में Aspose.Words के साथ फ़ॉन्ट को संभालना – पूर्ण गाइड](./how-to-handle-fonts-in-java-with-aspose-words-complete-guide/)
 Java में Aspose.Words का उपयोग करके फ़ॉन्ट प्रबंधन के सभी पहलुओं को सीखें, कोड उदाहरणों के साथ पूर्ण मार्गदर्शिका।
+### [Aspose चेतावनी कॉलबैक ट्यूटोरियल – गायब फ़ॉन्ट्स का पता लगाएँ और ट्रैक करें](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
+Aspose.Words में चेतावनी कॉलबैक सेट करके गायब फ़ॉन्ट्स को पहचानें और ट्रैक करें। कोड उदाहरण सहित।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -162,6 +162,17 @@ Tanulja meg, hogyan exportálja a Word dokumentumokat Markdown formátumba Java�
 
 ### [Word mentése PDF‑be az Aspose.Words‑szal – Lépésről‑lépésre Java útmutató](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
 Ismerje meg, hogyan konvertálja egyszerűen a Word dokumentumokat PDF‑be az Aspose.Words for Java segítségével.
+### [Save Word as Text – Export Equations to LaTeX with Aspose.Words](./save-word-as-text-export-equations-to-latex-with-aspose-word/)
+Tanuld meg, hogyan mentheted a Word dokumentumot egyszerű szövegként, és exportálhatod a benne lévő egyenleteket LaTeX formátumba.
+
+### [DOCX konvertálása Markdownra – Java útmutató képek kinyerésével](./convert-docx-to-markdown-java-guide-with-image-extraction/)
+Tanulja meg, hogyan konvertáljon DOCX fájlokat Markdown formátumba Java‑val, miközben a beágyazott képeket is kinyeri.
+
+### [Word exportálása Markdownba – Java útmutató az Aspose.Words használatával](./export-word-to-markdown-java-guide-using-aspose-words/)
+Tanuld meg, hogyan exportálj Word dokumentumot Markdown formátumba Java‑ban az Aspose.Words segítségével.
+
+### [PDF/UA létrehozása Java‑ban – DOCX konvertálása PDF‑re](./create-pdf-ua-in-java-convert-docx-to-pdf/)
+Ismerje meg, hogyan hozhat létre PDF/UA dokumentumot Java‑ban a DOCX fájl PDF‑re konvertálásával.
 
 ## Gyakran Ismételt Kérdések
 

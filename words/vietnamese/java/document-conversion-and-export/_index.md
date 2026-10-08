@@ -162,6 +162,15 @@ Hướng dẫn chi tiết cách nhúng hình ảnh vào tài liệu Markdown khi
 Hướng dẫn cách lưu tài liệu DOCX thành tệp TXT trong C#, đồng thời xuất công thức LaTeX một cách nhanh chóng.
 ### [Xuất DOCX sang PDF – Hướng Dẫn Toàn Diện Để Tạo PDF Truy cập Được](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
 Xuất tài liệu DOCX sang PDF một cách toàn diện, bao gồm hướng dẫn tạo PDF có khả năng truy cập cho người khuyết tật.
+### [Chuyển DOCX sang Markdown – Hướng Dẫn Java với Trích Xuất Hình Ảnh](./convert-docx-to-markdown-java-guide-with-image-extraction/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang định dạng Markdown trong Java, đồng thời trích xuất và lưu hình ảnh từ tài liệu.
+
+### [Xuất Word sang Markdown – Hướng Dẫn Java sử dụng Aspose.Words](./export-word-to-markdown-java-guide-using-aspose-words/)
+Hướng dẫn chi tiết cách xuất tài liệu Word sang Markdown trong Java bằng Aspose.Words, bao gồm trích xuất hình ảnh và giữ định dạng.
+
+### [Lưu Word dưới dạng Văn bản – Xuất Phương trình sang LaTeX với Aspose.Words](./save-word-as-text-export-equations-to-latex-with-aspose-word/)
+
+### [Tạo PDF UA trong Java – Chuyển Đổi DOCX Sang PDF](./create-pdf-ua-in-java-convert-docx-to-pdf/)
 
 ## Câu hỏi thường gặp
 

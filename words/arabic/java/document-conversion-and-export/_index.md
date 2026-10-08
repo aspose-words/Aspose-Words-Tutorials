@@ -173,6 +173,17 @@ weight: 22
 تعلم كيفية تحويل مستند DOCX إلى PDF قابل للوصول وفق معايير WCAG باستخدام Aspose.Words for Java خطوة بخطوة.
 ### [تصدير DOCX إلى PDF – دليل شامل لإنشاء ملفات PDF قابلة للوصول](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
 دليل شامل لتصدير مستندات DOCX إلى PDF مع مراعاة إمكانية الوصول.
+### [حفظ مستند Word كنص – تصدير المعادلات إلى LaTeX باستخدام Aspose.Words](./save-word-as-text-export-equations-to-latex-with-aspose-word/)
+تعلم كيفية حفظ مستند Word كملف نصي وتصدير المعادلات الرياضية إلى صيغة LaTeX باستخدام Aspose.Words.
+
+### [تحويل DOCX إلى Markdown – دليل Java مع استخراج الصور](./convert-docx-to-markdown-java-guide-with-image-extraction/)
+تعلم كيفية تحويل ملفات DOCX إلى صيغة Markdown باستخدام Aspose.Words for Java واستخراج الصور بسهولة.
+
+### [تصدير Word إلى Markdown – دليل Java باستخدام Aspose.Words](./export-word-to-markdown-java-guide-using-aspose-words/)
+تعلم كيفية تحويل مستندات Word إلى صيغة Markdown باستخدام Aspose.Words for Java خطوة بخطوة.
+
+### [إنشاء PDF UA في Java – تحويل DOCX إلى PDF](./create-pdf-ua-in-java-convert-docx-to-pdf/)
+تعلم كيفية إنشاء ملف PDF مع دعم Unicode (UA) في Java باستخدام Aspose.Words وتحويل مستندات DOCX إلى PDF بسهولة.
 
 ## الأسئلة المتكررة
 

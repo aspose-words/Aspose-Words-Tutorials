@@ -159,6 +159,17 @@ Scopri come inserire correttamente le immagini durante la conversione di documen
 Scopri come impostare le opzioni di salvataggio PDF per controllare layout, qualità e sicurezza durante la conversione da DOCX a PDF con Aspose.Words per Java.
 ### [Tutorial docx to pdf – Converti Word in PDF con LowCode](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
 Scopri come convertire file DOCX in PDF usando LowCode con Aspose.Words per Java in pochi passaggi.
+### [Salva Word come Testo – Esporta Equazioni in LaTeX con Aspose.Words](./save-word-as-text-export-equations-to-latex-with-aspose-word/)
+Scopri come salvare documenti Word in formato testo e convertire le equazioni in LaTeX usando Aspose.Words per Java.
+
+### [Converti DOCX in Markdown – Guida Java con estrazione di immagini](./convert-docx-to-markdown-java-guide-with-image-extraction/)
+Impara a convertire file DOCX in Markdown usando Aspose.Words per Java, includendo l'estrazione automatica delle immagini.
+
+### [Esporta Word in Markdown – Guida Java usando Aspose.Words](./export-word-to-markdown-java-guide-using-aspose-words/)
+Scopri come esportare documenti Word in formato Markdown con Aspose.Words per Java, passo‑passo con esempi di codice.
+
+### [Crea PDF UA in Java – Converti DOCX in PDF](./create-pdf-ua-in-java-convert-docx-to-pdf/)
+Scopri come generare PDF UA da documenti DOCX in Java usando Aspose.Words, con esempi di conversione rapida e opzioni di formattazione.
 
 ## Domande frequenti
 

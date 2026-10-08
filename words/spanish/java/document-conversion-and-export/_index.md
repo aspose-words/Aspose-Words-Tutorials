@@ -121,6 +121,14 @@ Aprende a exportar documentos DOCX a PDF accesibles siguiendo esta guía complet
 
 ### [docx a pdf tutorial – Convertir Word a PDF con LowCode](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
 Aprende a convertir documentos Word a PDF usando LowCode con Aspose.Words, sin necesidad de programar extensamente.
+### [Guardar Word como Texto – Exportar ecuaciones a LaTeX con Aspose.Words](./save-word-as-text-export-equations-to-latex-with-aspose-word/)
+Aprende a guardar documentos Word como archivos de texto y exportar ecuaciones a formato LaTeX usando Aspose.Words.
+
+### [Convertir DOCX a Markdown – Guía Java con extracción de imágenes](./convert-docx-to-markdown-java-guide-with-image-extraction/)
+Aprenda a convertir archivos DOCX a Markdown en Java, extrayendo imágenes y preservando el formato del documento.
+
+### [Exportar Word a Markdown – Guía Java usando Aspose.Words](./export-word-to-markdown-java-guide-using-aspose-words/)
+Aprenda a exportar documentos Word a Markdown con Aspose.Words para Java de forma sencilla.
 
 ## Preguntas frecuentes
 
@@ -170,6 +178,8 @@ Aprenda a generar PDFs accesibles conforme a PDF/UA a partir de documentos Word 
 
 ### [Cómo exportar Markdown desde Word – Guía paso a paso en Java](./how-to-export-markdown-from-word-step-by-step-java-guide/)
 Aprenda a exportar contenido Markdown desde Word usando Aspose.Words for Java con ejemplos claros y código listo para usar.
+### [Crear PDF/UA en Java – convertir DOCX a PDF](./create-pdf-ua-in-java-convert-docx-to-pdf/)
+Aprenda a generar PDFs accesibles PDF/UA a partir de documentos DOCX usando Aspose.Words para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

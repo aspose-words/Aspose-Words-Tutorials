@@ -128,6 +128,9 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 ### [Saving Documents as Text Files in Aspose.Words for Java](./saving-documents-as-text-files/)
 学习使用 Aspose.Words for Java 将文档保存为文本文件。遵循我们的分步指南并查看 Java 代码示例。
 
+### [如何使用 Aspose.Words 恢复 DOCX – 启用恢复模式](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
+学习使用 Aspose.Words for Java 启用恢复模式修复受损的 DOCX 文件并成功加载。
+
 ### [Determining Document Format in Aspose.Words for Java](./determining-document-format/)
 学习使用 Aspose.Words 在 Java 中检测文档格式。识别 DOC、DOCX 等，帮助您高效组织文件。
 

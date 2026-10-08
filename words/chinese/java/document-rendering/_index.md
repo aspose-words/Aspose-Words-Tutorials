@@ -41,6 +41,8 @@ Aspose.Words for Java 提供了丰富的文档渲染教程，让您轻松创建�
 学习如何使用 Aspose.Words for Java 轻松将文档渲染为 HTML。高效文档转换的分步指南。
 ### [如何在 Java 中使用 Aspose.Words 处理字体 – 完整指南](./how-to-handle-fonts-in-java-with-aspose-words-complete-guide/)
 学习在 Java 中使用 Aspose.Words 管理和嵌入字体的完整步骤，确保文档跨平台显示一致。
+### [Aspose 警告回调教程 – 检测和跟踪缺失字体](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
+学习如何使用 Aspose.Words for Java 的警告回调来检测缺失字体并进行跟踪，以确保文档渲染完整。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

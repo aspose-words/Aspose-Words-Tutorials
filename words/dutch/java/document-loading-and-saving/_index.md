@@ -89,6 +89,8 @@ Beheers laadopties in Aspose.Words for Java. Pas documentladen aan, behandel enc
 
 ### [Load-opties maken in Java – Ontdek ontbrekende lettertypen en hoe DOCX te laden](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
 Leer hoe je LoadOptions configureert om ontbrekende lettertypen te detecteren en DOCX-bestanden correct te laden met Aspose.Words for Java.
+### [Hoe docx te herstellen met Aspose.Words – Herstelmodus inschakelen](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
+Leer hoe je beschadigde DOCX-bestanden kunt herstellen met Aspose.Words door de herstelmodus te activeren.
 
 ### [RTF‑laadopties configureren in Aspose.Words for Java](./configuring-rtf-load-options/)
 Configureer RTF‑laadopties in Aspose.Words for Java. Leer hoe je UTF‑8‑tekst in RTF‑documenten herkent. Stapsgewijze gids met code‑voorbeelden.

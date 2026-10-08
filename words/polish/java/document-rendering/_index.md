@@ -41,6 +41,8 @@ Odkryj wydajne drukowanie i renderowanie dokumentów za pomocą Aspose.Words dla
 Dowiedz się, jak bez wysiłku renderować dokumenty do HTML za pomocą Aspose.Words dla Java. Przewodnik krok po kroku dotyczący wydajnej konwersji dokumentów.
 ### [Jak obsługiwać czcionki w Javie przy użyciu Aspose.Words – Kompletny przewodnik](./how-to-handle-fonts-in-java-with-aspose-words-complete-guide/)
 Poznaj, jak zarządzać czcionkami w aplikacjach Java przy użyciu Aspose.Words. Kompletny przewodnik z przykładami kodu.
+### [Samouczek aspose warning callback – wykrywanie i śledzenie brakujących czcionek](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
+Dowiedz się, jak obsługiwać ostrzeżenia i wykrywać brakujące czcionki podczas przetwarzania dokumentów w Aspose.Words dla Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

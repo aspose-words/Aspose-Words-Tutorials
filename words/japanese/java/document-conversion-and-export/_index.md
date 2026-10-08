@@ -124,6 +124,16 @@ Aspose.Words for Java を使用して、PDF/UA（アクセシブル PDF）を作
 
 ### [Aspose.Words for Java で DOCX を復元し、Markdown と PDF/UA にエクスポートする – 完全ガイド](./how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/)
 Aspose.Words for Java を使用して、破損した DOCX を復元し、Markdown とアクセシブル PDF/UA にエクスポートする手順を詳しく解説します。
+### [Word をテキストとして保存 – Aspose.Words で数式を LaTeX にエクスポート](./save-word-as-text-export-equations-to-latex-with-aspose-word/)
+Word 文書をテキスト形式で保存し、数式を LaTeX コードに変換する方法を解説します。
+
+### [DOCX を Markdown に変換 – 画像抽出付き Java ガイド](./convert-docx-to-markdown-java-guide-with-image-extraction/)
+Aspose.Words for Java を使用して DOCX を Markdown に変換し、画像を抽出する方法をステップバイステップで解説します。
+
+### [Aspose.Words for Java で Word を Markdown にエクスポート – Java ガイド](./export-word-to-markdown-java-guide-using-aspose-words/)
+
+### [Java で PDF/UA を作成 – DOCX を PDF に変換](./create-pdf-ua-in-java-convert-docx-to-pdf/)
+Aspose.Words for Java を使用して、PDF/UA 準拠の PDF を作成し、DOCX を PDF に変換する手順を解説します。
 
 ---
 

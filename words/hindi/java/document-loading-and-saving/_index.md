@@ -129,7 +129,7 @@ Aspose.Words for Java का उपयोग करके दस्तावे�
 ### [Aspose.Words for Java में दस्तावेज़ों को टेक्स्ट फ़ाइलों के रूप में सेव करना](./saving-documents-as-text-files/)
 Aspose.Words for Java के साथ दस्तावेज़ों को टेक्स्ट फ़ाइलों के रूप में सेव करना सीखें। Java कोड उदाहरणों के साथ चरण‑दर‑चरण गाइड।
 
-### [Aspose.Words for Java में दस्तावेज़ फ़ॉर्मेट निर्धारित करना](./determining-document-format/)
+### [Aspose.Words के साथ दस्तावेज़ फ़ॉर्मेट निर्धारित करना](./determining-document-format/)
 Aspose.Words के साथ Java में दस्तावेज़ फ़ॉर्मेट को पहचानना सीखें। DOC, DOCX आदि को पहचानें और फ़ाइलों को प्रभावी ढंग से व्यवस्थित करें।
 
 ### [Aspose.Words for Java के साथ docx पुनर्प्राप्त करें – पुनर्प्राप्त दस्तावेज़ को सहेजें](./how-to-recover-docx-save-recovered-document-using-java/)
@@ -152,6 +152,8 @@ Aspose.Words for Java में फ़ॉन्ट प्रतिस्था�
 
 ### [Java में लापता फ़ॉन्ट्स कैसे प्राप्त करें – Aspose.Words गाइड](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 ### [DOCX को पुनर्प्राप्त करने का तरीका – रिकवरी मोड सेट करें और चेतावनियाँ दिखाएँ](./how-to-recover-docx-set-recovery-mode-display-warnings/)
+### [Aspose.Words के साथ docx को पुनर्प्राप्त करने का तरीका – रिकवरी मोड सक्षम करें](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
+Aspose.Words का उपयोग करके क्षतिग्रस्त docx फ़ाइलों को रिकवरी मोड में पुनर्प्राप्त करने की प्रक्रिया सीखें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

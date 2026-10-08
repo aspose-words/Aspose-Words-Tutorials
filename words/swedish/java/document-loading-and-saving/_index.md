@@ -152,6 +152,8 @@ Lär dig hur du återställer skadade DOCX‑filer med Aspose.Words i Java. Steg
 Lär dig hur du återställer en skadad DOCX-fil och sparar det återställda dokumentet med Java och Aspose.Words.
 ### [Hur du återställer DOCX – Ställ in återställningsläge och visa varningar](./how-to-recover-docx-set-recovery-mode-display-warnings/)
 Lär dig hur du aktiverar återställningsläge i Aspose.Words för Java för att återställa skadade DOCX‑filer och visa varningsmeddelanden.
+### [Hur man återställer docx med Aspose.Words – Aktivera återställningsläge](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
+Lär dig hur du återställer skadade DOCX‑filer med Aspose.Words genom att aktivera återställningsläget för att rädda innehåll.
 
 ## Vanliga frågor
 

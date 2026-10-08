@@ -41,6 +41,8 @@
 Μάθετε πώς να αποδίδετε έγγραφα σε HTML χωρίς κόπο με το Aspose.Words για Java. Οδηγός βήμα προς βήμα για αποτελεσματική μετατροπή εγγράφων.
 ### [Πώς να διαχειριστείτε τις γραμματοσειρές σε Java με το Aspose.Words – Πλήρης οδηγός](./how-to-handle-fonts-in-java-with-aspose-words-complete-guide/)
 Μάθετε πώς να διαχειρίζεστε τις γραμματοσειρές σε εφαρμογές Java χρησιμοποιώντας το Aspose.Words. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα.
+### [Εκπαίδευση Callback Προειδοποίησης Aspose – Ανίχνευση και Παρακολούθηση Ελλειπόντων Γραμματοσειρών](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
+Μάθετε πώς να εντοπίζετε και να διαχειρίζεστε ελλείπουσες γραμματοσειρές χρησιμοποιώντας το callback προειδοποίησης του Aspose.Words για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

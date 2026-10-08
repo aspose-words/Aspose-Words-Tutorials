@@ -41,6 +41,8 @@ Ontdek hoe u efficiënt documenten kunt printen en renderen met Aspose.Words voo
 Leer hoe u moeiteloos documenten naar HTML kunt renderen met Aspose.Words voor Java. Stapsgewijze handleiding voor efficiënte documentconversie.
 ### [Hoe lettertypen in Java met Aspose.Words te verwerken – Complete gids](./how-to-handle-fonts-in-java-with-aspose-words-complete-guide/)
 Leer hoe u lettertypen beheert in Java‑toepassingen met Aspose.Words, inclusief insluiten, vervangen en aanpassen voor consistente weergave.
+### [Aspose-waarschuwing callback‑tutorial – Ontdek en volg ontbrekende lettertypen](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
+Leer hoe u ontbrekende lettertypen detecteert en bijhoudt met de Aspose‑waarschuwing‑callback in Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

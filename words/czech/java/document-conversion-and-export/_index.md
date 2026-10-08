@@ -172,6 +172,17 @@ Kompletní návod, jak převést DOCX do PDF a vytvořit přístupné PDF soubor
 
 ### [docx do pdf tutoriál – Převod Wordu do PDF s LowCode](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
 Naučte se převést soubory DOCX do PDF pomocí LowCode řešení v Aspose.Words for Java.
+### [Uložení Wordu jako text – Export rovnic do LaTeXu pomocí Aspose.Words](./save-word-as-text-export-equations-to-latex-with-aspose-word/)
+Učte se, jak převést dokument Word na čistý text a exportovat rovnice do formátu LaTeX pomocí Aspose.Words.
+
+### [Převod DOCX na Markdown – Průvodce pro Javu s extrakcí obrázků](./convert-docx-to-markdown-java-guide-with-image-extraction/)
+Naučte se převést soubory DOCX do formátu Markdown v Javě a extrahovat vložené obrázky pro další zpracování.
+
+### [Export Word do Markdown – průvodce v Javě pomocí Aspose.Words](./export-word-to-markdown-java-guide-using-aspose-words/)
+Naučte se exportovat dokumenty Word do formátu Markdown v Javě pomocí Aspose.Words.
+
+### [Vytvořit PDF UA v Javě – převod DOCX do PDF](./create-pdf-ua-in-java-convert-docx-to-pdf/)
+Naučte se, jak v Javě vytvořit PDF UA a převést soubor DOCX do PDF pomocí Aspose.Words.
 
 ## Často kladené otázky
 

@@ -41,6 +41,8 @@ Khám phá cách in và kết xuất tài liệu hiệu quả bằng Aspose.Word
 Tìm hiểu cách chuyển đổi tài liệu sang HTML dễ dàng với Aspose.Words cho Java. Hướng dẫn từng bước để chuyển đổi tài liệu hiệu quả.
 ### [Cách xử lý phông chữ trong Java với Aspose.Words – Hướng dẫn toàn diện](./how-to-handle-fonts-in-java-with-aspose-words-complete-guide/)
 Tìm hiểu cách quản lý và nhúng phông chữ trong tài liệu Word bằng Aspose.Words cho Java, bao gồm các ví dụ thực tế.
+### [Hướng dẫn callback cảnh báo Aspose – Phát hiện và theo dõi phông chữ thiếu](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
+Tìm hiểu cách sử dụng callback cảnh báo để phát hiện và theo dõi các phông chữ thiếu trong tài liệu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

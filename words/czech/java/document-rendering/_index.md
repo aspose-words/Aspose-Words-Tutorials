@@ -41,6 +41,8 @@ Objevte efektivní tisk a vykreslování dokumentů pomocí Aspose.Words pro Jav
 Naučte se, jak snadno vykreslit dokumenty do HTML pomocí Aspose.Words pro Javu. Podrobný návod pro efektivní převod dokumentů.
 ### [Jak pracovat s fonty v Javě pomocí Aspose.Words – Kompletní průvodce](./how-to-handle-fonts-in-java-with-aspose-words-complete-guide/)
 Naučte se spravovat fonty v Javě s Aspose.Words. Kompletní návod s ukázkami kódu pro správné zobrazení textu.
+### [Tutoriál aspose warning callback – Detekce a sledování chybějících písem](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
+Naučte se, jak pomocí callbacku varování zachytit a sledovat chybějící písma při vykreslování dokumentů v Aspose.Words pro Javu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

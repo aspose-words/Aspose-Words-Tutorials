@@ -98,6 +98,8 @@ Entfesseln Sie die Power von Aspose.Words für Java. Lernen Sie, Textdokumente z
 
 ### [Wie man DOCX wiederherstellt – Beschädigte Dateien mit Wiederherstellungsoptionen laden](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 Lernen Sie, beschädigte DOCX-Dateien zu laden und mit Wiederherstellungsoptionen zu reparieren.
+### [Wie man DOCX mit Aspose.Words wiederherstellt – Wiederherstellungsmodus aktivieren](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
+Erfahren Sie, wie Sie beschädigte DOCX‑Dateien mit Aspose.Words wiederherstellen, indem Sie den Wiederherstellungsmodus aktivieren.
 
 ### [Erweiterte Speicheroptionen mit Aspose.Words für Java](./advance-saving-options/)
 Lernen Sie erweiterte Dokumentenmanipulation mit Aspose.Words für Java. Verschlüsseln, Metadateien handhaben und mehr. Ihre Word‑Dokumente, nach Ihren Wünschen.

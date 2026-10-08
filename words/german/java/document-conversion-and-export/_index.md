@@ -76,7 +76,7 @@ Für weitere Informationen sehen Sie sich die [Aspose.Words for Java API Documen
 
 ## Tutorials zur Dokumentkonvertierung und zum Export
 ### [Generating Custom Barcode Labels in Aspose.Words for Java](./generating-custom-barcode-labels/)
-Generieren Sie benutzerdefinierte Barcode‑Etiketten in Aspose.Words for Java. Erfahren Sie, wie Sie personalisierte Barcode‑Lösungen mit Aspose.Words for Java in dieser Schritt‑für‑Schritt‑Anleitung erstellen.
+Generieren Sie benutzerdefinierte Barcode‑Etiketten in Aspose.Words for Java. Erfahren Sie, wie Sie personalisierte Barcode‑Lösungen mit Aspose.Words für Java in dieser Schritt‑für‑Schritt‑Anleitung erstellen.
 
 ### [Using Barcode Generation in Aspose.Words for Java](./using-barcode-generation/)
 Erfahren Sie, wie Sie benutzerdefinierte Barcodes in Java mit Aspose.Words for Java erzeugen. Schritt‑für‑Schritt‑Anleitung mit Quellcode zur Barcode‑Generierung. Verbessern Sie die Dokumenten‑Automatisierung mit Aspose.Words.
@@ -95,6 +95,8 @@ Erfahren Sie, wie Sie Wasserzeichen zu Dokumenten in Aspose.Words for Java hinzu
 
 ### [Word als PDF speichern mit Aspose.Words – Schritt‑für‑Schritt Java‑Leitfaden](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
 Erfahren Sie, wie Sie ein Word‑Dokument mit Aspose.Words in Java einfach in ein PDF konvertieren – komplette Schritt‑für‑Schritt‑Anleitung.
+### [PDF‑UA in Aspose.Words für Java erstellen – DOCX zu PDF konvertieren](./create-pdf-ua-in-java-convert-docx-to-pdf/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java PDF/UA‑Dateien aus DOCX erstellen und konvertieren, um barrierefreie PDFs zu erhalten.
 
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Erfahren Sie, wie Sie Tabellen formatieren und Tabellenstile in Aspose.Words for Java anwenden. Erkunden Sie Schritt‑für‑Schritt‑Anleitungen mit Quellcode für effektives Tabellenformatieren. Verbessern Sie das Layout Ihrer Dokumente mit Aspose.Words.
@@ -177,6 +179,14 @@ Erfahren Sie, wie Sie DOCX‑Dateien in PDF konvertieren und dabei barrierefreie
 
 ### [docx‑to‑pdf‑Tutorial – Word mit LowCode in PDF konvertieren](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
 Erfahren Sie, wie Sie mit LowCode Word‑Dokumente schnell und einfach in PDF umwandeln, ohne umfangreichen Code zu schreiben.
+### [Word als Text speichern – Gleichungen nach LaTeX exportieren mit Aspose.Words](./save-word-as-text-export-equations-to-latex-with-aspose-word/)
+Erfahren Sie, wie Sie Word‑Dokumente als Textdatei speichern und darin enthaltene Formeln im LaTeX‑Format exportieren.
+
+### [DOCX nach Markdown konvertieren – Java‑Leitfaden mit Bildextraktion](./convert-docx-to-markdown-java-guide-with-image-extraction/)
+Erfahren Sie, wie Sie DOCX‑Dateien in Markdown umwandeln und dabei eingebettete Bilder extrahieren, mit Aspose.Words für Java.
+
+### [Word nach Markdown exportieren – Java‑Leitfaden mit Aspose.Words](./export-word-to-markdown-java-guide-using-aspose-words/)
+Erfahren Sie, wie Sie Word‑Dokumente in Markdown umwandeln und dabei Bilder extrahieren, mit Aspose.Words für Java.
 
 ## Häufig gestellte Fragen
 

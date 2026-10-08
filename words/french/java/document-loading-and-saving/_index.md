@@ -48,7 +48,7 @@ Voici un aperçu concis du flux de travail typique. (Le code réel est présent�
 2. **Itérer à travers le `NodeCollection` du document** pour trouver les nœuds `Shape` contenant des images.  
 3. **Extraire chaque image** via l'API `Shape.getImageData()` et l'écrire dans un fichier avec `ImageData.save()`.
 
-> *Astuce :* Utilisez `Document.getChildNodes(NodeType.SHAPE, true)` pour récupérer toutes les formes, y compris celles situées dans les en‑têtes, pieds de page et notes de bas de page.
+> *Astuce :* Utilisez `Document.getChildNodes(NodeType.SHA​PE, true)` pour récupérer toutes les formes, y compris celles situées dans les en‑têtes, pieds de page et notes de bas de page.
 
 ## Chargement et enregistrement de documents – Concepts de base
 
@@ -152,6 +152,8 @@ Apprenez à restaurer des fichiers DOCX corrompus avec Aspose.Words en suivant u
 Apprenez à récupérer un fichier DOCX corrompu et à enregistrer le document réparé en Java avec Aspose.Words.
 ### [Comment récupérer un DOCX – Configurer le mode de récupération et afficher les avertissements](./how-to-recover-docx-set-recovery-mode-display-warnings/)
 Apprenez à récupérer des fichiers DOCX corrompus en définissant le mode de récupération et en affichant les avertissements avec Aspose.Words for Java.
+### [Comment récupérer un docx avec Aspose.Words – Activer le mode de récupération](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
+Apprenez à activer le mode de récupération d'Aspose.Words pour restaurer les documents DOCX corrompus en Java.
 
 ## Foire aux questions
 

@@ -146,6 +146,8 @@ Java’da Aspose.Words kullanarak font değiştirme uyarılarını nasıl yakala
 ### [Aspose.Words ile DOCX Dosyalarını Kurtarma – Adım Adım Kılavuz](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 ### [Docx'i Kurtarma – Kurtarılan Belgeyi Java ile Kaydetme](./how-to-recover-docx-save-recovered-document-using-java/)
 ### [DOCX Kurtarma – Kurtarma Modunu Ayarlama ve Uyarıları Görüntüleme](./how-to-recover-docx-set-recovery-mode-display-warnings/)
+### [Aspose.Words for Java ile docx kurtarma – Kurtarma Modunu Etkinleştirme](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
+Aspose.Words for Java’da bozuk docx dosyalarını kurtarmak ve kurtarma modunu etkinleştirmek için adım adım rehber.
 
 ## Sıkça Sorulan Sorular
 

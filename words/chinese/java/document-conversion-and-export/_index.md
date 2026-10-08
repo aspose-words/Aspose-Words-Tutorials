@@ -166,6 +166,17 @@ Aspose.Words for Java 的关键功能之一是能够 **convert docx to pdf** 并
 ### [docx 转 pdf 教程 – 使用 LowCode 将 Word 转换为 PDF](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
 
 使用 LowCode 平台将 Word 文档快速转换为 PDF，提供示例代码和步骤指南。
+### [将 Word 保存为文本 – 使用 Aspose.Words 将公式导出为 LaTeX](./save-word-as-text-export-equations-to-latex-with-aspose-word/)
+
+演示如何使用 Aspose.Words 将 Word 文档保存为纯文本，并将文档中的公式导出为 LaTeX 代码。
+
+### [将 DOCX 转换为 Markdown – Java 指南（含图片提取）](./convert-docx-to-markdown-java-guide-with-image-extraction/)
+
+使用 Aspose.Words for Java 将 DOCX 文档转换为 Markdown，并提取嵌入的图片。
+
+### [在 Java 中创建 PDF UA – 将 DOCX 转换为 PDF](./create-pdf-ua-in-java-convert-docx-to-pdf/)
+
+### [在 Aspose.Words for Java 中将 Word 导出为 Markdown](./export-word-to-markdown-java-guide-using-aspose-words/)
 
 ## 常见问题
 

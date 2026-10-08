@@ -179,6 +179,18 @@ Apprenez à convertir des fichiers DOCX en PDF accessibles, en respectant les no
 ### [Tutoriel docx vers pdf – Convertir Word en PDF avec LowCode](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
 Apprenez à convertir des fichiers DOCX en PDF en utilisant la plateforme LowCode, avec un exemple complet et du code prêt à l’emploi.
 
+### [Enregistrer Word en texte – Exporter les équations vers LaTeX avec Aspose.Words](./save-word-as-text-export-equations-to-latex-with-aspose-word/)
+Apprenez à convertir un document Word en texte brut et à exporter les équations au format LaTeX à l'aide d'Aspose.Words.
+
+### [Convertir DOCX en Markdown – Guide Java avec extraction d'images](./convert-docx-to-markdown-java-guide-with-image-extraction/)
+Convertissez des fichiers DOCX en Markdown en Java, en extrayant les images et en conservant la mise en forme.
+
+### [Créer un PDF UA en Java – convertir docx en PDF](./create-pdf-ua-in-java-convert-docx-to-pdf/)
+Apprenez à créer un PDF UA à partir d'un fichier DOCX en Java avec Aspose.Words, en suivant un guide simple et complet.
+
+### [Exporter Word en Markdown – Guide Java avec Aspose.Words](./export-word-to-markdown-java-guide-using-aspose-words/)
+Apprenez à convertir des documents Word en fichiers Markdown en Java avec Aspose.Words, en conservant le texte et les images.
+
 ## Questions fréquentes
 
 **Q : Comment ajouter un filigrane à un PDF existant avec Aspose.Words ?**  

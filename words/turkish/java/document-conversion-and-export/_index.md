@@ -168,6 +168,15 @@ DOCX dosyalarını PDF'e dönüştürürken erişilebilirlik özelliklerini ekle
 
 ### [docx to pdf öğreticisi – LowCode ile Word'ü PDF'e Dönüştürme](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
 LowCode platformunu kullanarak Word belgelerini hızlıca PDF formatına dönüştürmeyi adım adım öğrenin.
+### [Word'ü Metin Olarak Kaydet – Denklemleri LaTeX'e Aktarma Aspose.Words ile](./save-word-as-text-export-equations-to-latex-with-aspose-word/)
+
+### [Aspose.Words for Java'da DOCX'i Markdown'a Dönüştür – Görüntü Çıkarma ile Java Rehberi](./convert-docx-to-markdown-java-guide-with-image-extraction/)
+
+### [Java’da PDF UA Oluşturma – DOCX’i PDF’e Dönüştürme](./create-pdf-ua-in-java-convert-docx-to-pdf/)
+Java’da Aspose.Words kullanarak DOCX dosyasını PDF UA formatına dönüştürmeyi adım adım öğrenin.
+
+### [Aspose.Words for Java'da Word'ü Markdown'a Dönüştür – Java Rehberi](./export-word-to-markdown-java-guide-using-aspose-words/)
+Aspose.Words for Java kullanarak Word belgelerini Markdown formatına dönüştürmeyi adım adım öğrenin.
 
 ## Sık Sorulan Sorular
 
