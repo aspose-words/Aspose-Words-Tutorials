@@ -41,7 +41,7 @@
 | [โหลดไฟล์ Markdown ไปยังเอกสาร – การแยกวิเคราะห์อย่างสมบูรณ์](./load-markdown-file-into-a-document-complete-parsing-tutorial/) | เรียนรู้วิธีโหลดไฟล์ Markdown และแปลงเป็นเอกสาร Word อย่างสมบูรณ์ด้วย Aspose.Words สำหรับ .NET -
 | [การเน้นย้ำ](./emphases/) | เรียนรู้วิธีสร้างข้อความเน้นข้อความใน Markdown โดยใช้ Aspose.Words สำหรับ .NET คู่มือนี้ครอบคลุมรูปแบบตัวหนา ตัวเอียง และแบบผสมผสาน พร้อมคำแนะนำทีละขั้นตอน -
 | [ใช้แหล่งคำเตือน](./use-warning-source/) | เรียนรู้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้เกี่ยวกับการใช้คลาส WarningSource ในการจัดการคำเตือน Markdown เหมาะสำหรับนักพัฒนา C# |
-
+| [วิธีบันทึกเอกสารเป็น docx จาก Markdown ใน C#](./how-to-save-document-as-docx-from-markdown-in-c/) | เรียนรู้วิธีแปลงไฟล์ Markdown เป็นเอกสาร Word (docx) ด้วย Aspose.Words สำหรับ .NET ใน C# |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

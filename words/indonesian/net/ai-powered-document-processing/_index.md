@@ -50,6 +50,8 @@ Terakhir, jangan lupa untuk memeriksa [Bekerja Dengan Opsi Ringkasan](./working-
 | [Ringkas Dokumen Word dengan LLM Lokal – Panduan C#](./summarize-word-document-with-local-llm-c-guide/) | Pelajari cara menggunakan LLM lokal untuk meringkas dokumen Word secara efisien dengan C#. |
 | [Cara Memperbaiki Tata Bahasa pada File DOCX dengan C# – Panduan Langkah demi Langkah Lengkap](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Pelajari cara memperbaiki kesalahan tata bahasa dalam dokumen DOCX menggunakan C# dengan panduan lengkap langkah demi langkah. |
 | [Cara Memeriksa Tata Bahasa dalam Dokumen Word – Panduan Lengkap C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Pelajari cara memeriksa tata bahasa dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan lengkap C#. |
+| [Cara Meringkas Dokumen Word dengan Aspose.Words AI](./how-to-summarize-a-word-document-with-aspose-words-ai/) | Pelajari cara meringkas dokumen Word secara otomatis menggunakan Aspose.Words AI dalam panduan langkah demi langkah. |
+| [Cara Menggunakan Penerjemah untuk Mengotomatiskan Terjemahan Dokumen di C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Pelajari cara mengotomatiskan terjemahan dokumen menggunakan Aspose.Words dan penerjemah AI dalam C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -29,7 +29,6 @@
 | [إدراج حقل TOA بدون منشئ المستندات](./insert-toafield-without-document-builder/) | تعرّف على كيفية إدراج حقل TOA دون استخدام مُنشئ مستندات في Aspose.Words لـ .NET. اتبع دليلنا خطوة بخطوة لإدارة الاستشهادات القانونية بكفاءة. |
 | [إدراج الحقول المتداخلة](./insert-nested-fields/) تعلّم كيفية إدراج حقول متداخلة في مستندات Word باستخدام Aspose.Words لـ .NET من خلال دليلنا المفصل. مثالي للمطورين الذين يرغبون في أتمتة إنشاء المستندات.
 | [إدراج حقل الدمج باستخدام DOM](./insert-merge-field-using-dom/) |تعرف على كيفية إدراج حقول دمج الحقول المخصصة في مستندات Word الخاصة بك باستخدام Aspose.Words لـ .NET. |
-| [إدراج حقل كتلة عنوان دمج البريد باستخدام DOM](./insert-mail-merge-address-block-field-using-dom/) |تعرف على كيفية إدراج حقل كتلة عنوان دمج المراسلات في مستندات Word باستخدام Aspose.Words for .NET باستخدام هذا الدليل الشامل خطوة بخطوة. |
 | [إدراج FieldIncludeText بدون منشئ المستندات](./insert-field-include-text-without-document-builder/) |تعرف على كيفية إدراج FieldIncludeText دون استخدام DocumentBuilder في Aspose.Words for .NET باستخدام دليلنا المفصل خطوة بخطوة. |
 | [إدراج الحقل لا شيء](./insert-field-none/) أتقن أتمتة المستندات مع Aspose.Words لـ .NET. تعلم كيفية إدراج الحقول خطوة بخطوة وحسّن سير عملك. مثالي للمطورين من جميع المستويات.
 | [إدراج الحقل](./insert-field/) | تعلّم كيفية إدراج الحقول في مستندات Word باستخدام Aspose.Words لـ .NET من خلال دليلنا المفصل خطوة بخطوة. مثالي لأتمتة المستندات. |
@@ -46,7 +45,7 @@
 | [تحويل الحقول في المستند](./convert-fields-in-document/) تعرّف على كيفية تحويل الحقول في مستندات Word باستخدام Aspose.Words لـ .NET من خلال هذا الدليل. اتبع برنامجنا التعليمي لإدارة الحقول وتحويلها بكفاءة في مستنداتك.
 | [تحويل الحقول في النص](./convert-fields-in-body/) |تعرف على كيفية استخدام Aspose.Words for .NET لتحويل حقول الصفحة إلى نص في نص مستند Word. |
 | [تغيير الموقع](./change-locale/) تعرّف على كيفية تغيير الإعدادات المحلية في مستندات Word باستخدام Aspose.Words لـ .NET مع هذا الدليل. مثالي للتعامل مع العملاء والمشاريع الدولية. |
-
+| [إنشاء قالب فاتورة ودمج البيانات باستخدام Aspose.Words](./create-invoice-template-and-merge-data-using-aspose-words/) | تعلم كيفية إنشاء قالب فاتورة ودمج البيانات في مستند Word باستخدام Aspose.Words لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

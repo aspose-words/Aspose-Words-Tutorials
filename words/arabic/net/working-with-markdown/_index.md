@@ -39,6 +39,7 @@
 | [طاولة](./table/) تعلّم كيفية إنشاء الجداول وتخصيصها في Aspose.Words لـ .NET من خلال هذا الدليل المفصل. مثالي لإنشاء مستندات منظمة وجذابة بصريًا.
 | [قراءة مستند Markdown](./read-markdown-document/) تعلّم كيفية قراءة مستندات Markdown ومعالجتها باستخدام Aspose.Words لـ .NET من خلال هذا البرنامج التعليمي المفصل خطوة بخطوة. مثالي للمطورين من جميع المستويات.
 | [تحميل ملف Markdown إلى مستند – دليل التحليل الكامل](./load-markdown-file-into-a-document-complete-parsing-tutorial/) | تعلّم كيفية تحميل ملفات Markdown ومعالجتها بالكامل في مستند باستخدام Aspose.Words لـ .NET. |
+| [كيفية حفظ المستند كملف docx من Markdown في C#](./how-to-save-document-as-docx-from-markdown-in-c/) | تعلّم كيفية حفظ مستند Markdown كملف docx باستخدام Aspose.Words لـ .NET في C#. |
 | [التأكيدات](./emphases/) | تعلّم كيفية إنشاء نص مُبرز في Markdown باستخدام Aspose.Words لـ .NET. يغطي هذا الدليل الأنماط الغامقة والمائلة والمدمجة، مع تعليمات خطوة بخطوة. |
 | [استخدم مصدر التحذير](./use-warning-source/) أتقن استخدام Aspose.Words لـ .NET مع هذا الدليل التفصيلي حول استخدام فئة WarningSource للتعامل مع تحذيرات Markdown. مثالي لمطوري C#.
 

@@ -36,7 +36,7 @@
 | [إنشاء قسم متكرر في الجدول مرتبط بجزء XML مخصص](./creating-table-repeating-section-mapped-to-custom-xml-part/) |تعرف على كيفية إنشاء جدول يحتوي على قسم متكرر مرتبط بـ CustomXmlPart في مستند Word باستخدام Aspose.Words لـ .NET. |
 | [متعدد الأقسام](./multi-section/) تعلّم كيفية استخدام وسوم المستندات المهيكلة متعددة الأقسام في Aspose.Words لـ .NET من خلال هذا البرنامج التعليمي خطوة بخطوة. مثالي للتعامل الديناميكي مع المستندات.
 | [نطاق علامات المستند المنظم - بدء تعيين XML](./structured-document-tag-range-start-xml-mapping/) | تعرّف على كيفية ربط بيانات XML ديناميكيًا بعلامات المستندات المنظمة في Word باستخدام Aspose.Words لـ .NET. اتبع دليلنا خطوة بخطوة. |
-
+| [كيفية إضافة عنصر تحكم محتوى في مستند Word باستخدام Aspose.Words](./how-to-add-content-control-word-in-a-word-document-using-asp/) | تعلم خطوة بخطوة كيفية إضافة عنصر تحكم محتوى إلى مستند Word باستخدام Aspose.Words لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

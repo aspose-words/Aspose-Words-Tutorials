@@ -28,6 +28,7 @@ These tutorials give you a hands-on, step-by-step approach to Words Processing w
 | [Insert Ole Object In Word With Ole Package](./insert-ole-object-with-ole-package/) | Learn how to insert OLE objects in Word documents using Aspose.Words for .NET. Follow our detailed step-by-step guide to embed files seamlessly. |
 | [Insert Ole Object In Word Document As Icon](./insert-ole-object-as-icon/) | Learn how to insert an OLE object as an icon in Word documents using Aspose.Words for .NET. Follow our step-by-step guide to enhance your documents. |
 | [Insert Ole Object As Icon Using Stream](./insert-ole-object-as-icon-using-stream/) | Learn how to insert an OLE object as an icon using a stream with Aspose.Words for .NET in this detailed, step-by-step tutorial. |
+| [How to insert OLE command button in a Word document using C#](./how-to-insert-ole-command-button-in-a-word-document-using-c/) | Learn how to insert an OLE command button in a Word document using C# with Aspose.Words for .NET in a step-by-step guide. |
 | [Read Active XControl Properties From Word File](./read-active-xcontrol-properties/) | Learn how to read ActiveX control properties from Word files using Aspose.Words for .NET in a step-by-step guide. Enhance your document automation skills. |
 
 

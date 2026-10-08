@@ -51,6 +51,8 @@
 | [Как исправить грамматику в DOCX файлах с помощью C# – Полное пошаговое руководство](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Узнайте, как с помощью Aspose.Words для .NET исправлять грамматические ошибки в DOCX файлах на C# шаг за шагом. |
 | [Резюмирование документа Word с локальной LLM – руководство на C#](./summarize-word-document-with-local-llm-c-guide/) | Узнайте, как использовать локальную LLM для резюмирования Word‑документов на C# с помощью Aspose.Words. |
 | [Как проверить грамматику в документах Word – Полное руководство на C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Узнайте, как с помощью Aspose.Words для .NET реализовать проверку грамматики в документах Word, используя C#. |
+| [Как резюмировать документ Word с Aspose.Words AI](./how-to-summarize-a-word-document-with-aspose-words-ai/) | Пошаговое руководство по резюмированию документов Word с использованием AI Aspose.Words. |
+| [Как использовать переводчик для автоматизации перевода документов в C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Узнайте, как автоматизировать перевод документов с помощью Aspose.Words и Translator в C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

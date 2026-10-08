@@ -51,6 +51,8 @@ Por fim, não se esqueça de conferir nosso [Trabalhando com opções de resumo]
 | [Resumir documento Word com IA – OpenAI vs Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | Compare a sumarização de documentos Word usando OpenAI e Gemini com Aspose.Words para .NET. |
 | [Como resumir documentos Word – Guia completo em C#](./how-to-summarize-word-documents-complete-c-guide/) | Aprenda passo a passo a resumir documentos Word usando Aspose.Words e C#, com exemplos completos e práticas recomendadas. |
 | [Como Verificar Gramática em Documentos Word – Guia Completo em C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Aprenda a usar Aspose.Words para .NET e C# para detectar e corrigir erros gramaticais em documentos Word de forma automatizada. |
+| [Como resumir um documento Word com Aspose.Words AI](./how-to-summarize-a-word-document-with-aspose-words-ai/) | Aprenda a resumir documentos Word usando a IA do Aspose.Words com um guia completo passo a passo. |
+| [Como usar tradutor para automatizar a tradução de documentos em C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Aprenda a usar o Aspose.Words para .NET e tradutor automático para traduzir documentos em C# de forma eficiente. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

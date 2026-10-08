@@ -41,6 +41,7 @@
 | [Έμφαση](./emphases/) | Μάθετε πώς να δημιουργείτε τονισμένο κείμενο στο Markdown χρησιμοποιώντας το Aspose.Words για .NET. Αυτός ο οδηγός καλύπτει έντονα, πλάγια και συνδυασμένα στυλ με οδηγίες βήμα προς βήμα. |
 | [Χρήση πηγής προειδοποίησης](./use-warning-source/) | Master Aspose.Words για .NET με αυτόν τον αναλυτικό οδηγό σχετικά με τη χρήση της κλάσης WarningSource για τον χειρισμό προειδοποιήσεων Markdown. Ιδανικό για προγραμματιστές C#. |
 | [Φόρτωση αρχείου Markdown σε Έγγραφο – Πλήρης Εκπαίδευση Ανάλυσης](./load-markdown-file-into-a-document-complete-parsing-tutorial/) | Μάθετε πώς να φορτώνετε αρχεία Markdown σε έγγραφο Word και να τα αναλύετε πλήρως με το Aspose.Words για .NET. |
+| [Πώς να αποθηκεύσετε έγγραφο ως docx από Markdown σε C#](./how-to-save-document-as-docx-from-markdown-in-c/) | Μάθετε πώς να μετατρέψετε και να αποθηκεύσετε αρχεία Markdown ως έγγραφα docx χρησιμοποιώντας Aspose.Words για .NET σε C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

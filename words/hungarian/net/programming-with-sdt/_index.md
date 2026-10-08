@@ -36,7 +36,7 @@ Az oktatóanyagokban található kódminták segítenek megérteni az SDT vezér
 | [Egyéni XML-alkatrészhez rendelt ismétlődő szakasz táblázat létrehozása](./creating-table-repeating-section-mapped-to-custom-xml-part/) | Ismerje meg, hogyan hozhat létre ismétlődő szakaszt tartalmazó táblázatot egy Word-dokumentumban, amely CustomXmlPart elemhez van leképezve az Aspose.Words for .NET használatával. |
 | [Több szakasz](./multi-section/) Tanulja meg, hogyan kell több szakaszból álló strukturált dokumentumcímkékkel dolgozni az Aspose.Words for .NET programban ezzel a lépésről lépésre szóló oktatóanyaggal. Ideális a dinamikus dokumentumkezeléshez. |
 | [Strukturált dokumentum címketartomány kezdete XML-megfeleltetés](./structured-document-tag-range-start-xml-mapping/) | Ismerje meg, hogyan köthet dinamikusan XML-adatokat strukturált dokumentumcímkékhez Wordben az Aspose.Words for .NET használatával. Kövesse lépésről lépésre szóló útmutatónkat. |
-
+| [Hogyan adjon hozzá tartalomvezérlő szót egy Word-dokumentumba az Aspose.Words használatával](./how-to-add-content-control-word-in-a-word-document-using-asp/) | Ismerje meg, hogyan hozhat létre tartalomvezérlőket Word-dokumentumban az Aspose.Words segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

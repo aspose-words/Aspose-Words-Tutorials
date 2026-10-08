@@ -49,6 +49,8 @@
 | [使用 C# 修复 DOCX 文件中的语法错误 – 完整分步指南](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) 使用 Aspose.Words for .NET 与 C# 修复 DOCX 文档中的语法错误，提供完整的分步指南。|
 | [使用本地 LLM 汇总 Word 文档 – C# 指南](./summarize-word-document-with-local-llm-c-guide/) 使用 Aspose.Words for .NET 与本地大型语言模型（LLM）在 C# 中实现 Word 文档的自动摘要，提供完整分步指南。|
 | [如何在 Word 文档中检查语法 – 完整 C# 指南](./how-to-check-grammar-in-word-documents-complete-c-guide/) 使用 Aspose.Words for .NET 和 C# 检查 Word 文档中的语法错误，提升文档质量的完整指南。|
+| [使用 Aspose.Words AI 汇总 Word 文档的完整指南](./how-to-summarize-a-word-document-with-aspose-words-ai/) 使用 Aspose.Words AI 在 Word 文档中实现自动汇总，提供详细步骤和最佳实践。|
+| [如何在 C# 中使用翻译器自动化文档翻译](./how-to-use-translator-to-automate-document-translation-in-c/) 使用 Aspose.Words for .NET 与翻译器在 C# 实现文档自动翻译的完整指南。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
