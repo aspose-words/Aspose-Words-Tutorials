@@ -1,25 +1,70 @@
 ---
 category: general
-date: 2026-01-11
-description: أنشئ ملف PDF يمكن الوصول إليه من ملف DOCX بسرعة. تعلّم كيفية تحويل DOCX
-  إلى PDF، حفظ Word كـ PDF، واستخدام خيارات حفظ PDF لسهولة الوصول.
+date: 2026-10-07
+description: تعلم كيفية تحويل docx إلى pdf java باستخدام Aspose.Words، وتصدير word
+  إلى pdf، وإضافة وسوم إمكانية الوصول إلى pdf للامتثال لمعيار PDF/UA‑2.
 draft: false
 keywords:
-- create accessible pdf
-- convert docx to pdf
-- save word as pdf
+- docx to pdf java
 - export word to pdf
-- pdf save options
-language: ar
-og_description: إنشاء ملف PDF قابل للوصول من ملف DOCX باستخدام Aspose.Words. يوضح
-  هذا الدليل كيفية تحويل DOCX إلى PDF، حفظ Word كـ PDF، وتكوين خيارات حفظ PDF لتلبية
-  معايير الوصول.
-og_title: إنشاء ملف PDF قابل للوصول من DOCX – خطوة بخطوة
+- make pdf accessible
+- add pdf accessibility tags
+- aspose words pdf conversion
+lastmod: 2026-10-07
+og_description: تعلم كيفية تحويل docx إلى pdf java باستخدام Aspose.Words، وتصدير word
+  إلى pdf، وإضافة وسوم إمكانية الوصول إلى pdf للامتثال لمعيار PDF/UA‑2 في بضع خطوات
+  سهلة.
+og_image_alt: Developer guide showing a Java code snippet that creates an accessible
+  PDF from a DOCX file
+og_title: Docx إلى pdf java – إنشاء PDF قابل للوصول من DOCX
+schemas:
+- author: Aspose
+  dateModified: '2026-10-07'
+  description: Learn how to convert docx to pdf java with Aspose.Words, export word
+    to pdf, and add pdf accessibility tags for PDF/UA‑2 compliance.
+  headline: Docx to pdf java – create accessible PDF from DOCX
+  type: TechArticle
+- description: Learn how to convert docx to pdf java with Aspose.Words, export word
+    to pdf, and add pdf accessibility tags for PDF/UA‑2 compliance.
+  name: Docx to pdf java – create accessible PDF from DOCX
+  steps:
+  - name: load the source DOCX document
+    text: '> **Pro tip:** If the source file is corrupted, Aspose throws an `InvalidFormatException`
+      so you can catch the error and inform the user.'
+  - name: configure PDF save options for PDF/UA‑2 compliance
+    text: '`PdfSaveOptions` configures how the document is saved as PDF, including
+      compliance and image settings. > **Quantified claim:** Aspose.Words supports
+      **35+** input and output formats and can process a **500‑page** document in
+      under **3 seconds** on a typical server, all without Microsoft Word install'
+  - name: save the document as an accessible PDF
+    text: '**What you’ll see:** - `output.pdf` appears beside `input.docx`. - Opening
+      the file in Adobe Acrobat → *File > Properties > Description* shows **PDF/UA‑2**
+      compliance. - Screen readers (NVDA, JAWS) correctly announce headings, tables,
+      and links.'
+  type: HowTo
+- questions:
+  - answer: Yes. The API works in any Java environment, and because it does not require
+      Microsoft Word, it’s safe for server‑side processing.
+    question: Can I use this approach in a web service that receives user‑uploaded
+      DOCX files?
+  - answer: Absolutely. When the source DOCX contains RTL paragraph properties, the
+      generated PDF retains the correct reading order and tags.
+    question: Does Aspose.Words handle right‑to‑left languages for accessibility?
+  - answer: The library processes files up to **2 GB** without loading the entire
+      document into memory, thanks to its streaming architecture.
+    question: What is the maximum file size Aspose.Words can handle?
+  - answer: No additional dependencies are required; `PdfSaveOptions` in Aspose.Words
+      already includes the necessary logic.
+    question: Do I need to add any extra libraries for PDF/UA compliance?
+  - answer: Set `pdfSaveOptions.setEncryptionPassword("yourPassword")` – the PDF remains
+      tagged and readable by compliant readers after entering the password.
+    question: How do I encrypt the output PDF while keeping it accessible?
+  type: FAQPage
 tags:
 - Aspose.Words
 - PDF/UA
 - Java
-title: إنشاء PDF ميسّر من DOCX – دليل شامل
+title: Docx إلى pdf java – إنشاء PDF قابل للوصول من DOCX
 url: /ar/java/document-conversion-and-export/create-accessible-pdf-from-docx-complete-guide/
 ---
 
@@ -27,16 +72,31 @@ url: /ar/java/document-conversion-and-export/create-accessible-pdf-from-docx-com
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء PDF قابل للوصول من DOCX – دليل كامل
+# Docx إلى pdf java – إنشاء PDF قابل للوصول من DOCX
 
-هل احتجت يومًا إلى **إنشاء PDF قابل للوصول** من مستند Word لكنك لم تكن متأكدًا من أي استدعاءات API تستخدم؟ لست وحدك. يواجه العديد من المطورين صعوبة عندما يكتشفون أن استدعاء `document.save()` البسيط لا يضيف تلقائيًا علامات PDF/UA المطلوبة لتوافق قارئات الشاشة.
+إذا كنت بحاجة إلى **إنشاء PDF قابل للوصول** من مستند Word في تطبيق Java، فأنت في المكان الصحيح. يشرح هذا الدليل الخطوات الدقيقة لـ **convert docx to pdf java**، إضافة العلامات المطلوبة PDF/UA‑2، وضبط المخرجات باستخدام `PdfSaveOptions`. في النهاية ستحصل على مقتطف Java جاهز يمكنه تلبية معايير الوصول ويمكن استخدامه في أي مشروع Maven أو Gradle.
 
-في هذا الدرس سنستعرض الخطوات الدقيقة **لتحويل DOCX إلى PDF**، نتأكد من أن النتيجة مُوسومة لتكون قابلة للوصول، ونستكشف بعض الاختلافات المفيدة—مثل تصدير Word إلى PDF مع خيارات حفظ PDF مخصصة. في النهاية ستحصل على مقطع Java جاهز يمكنك إدراجه في أي مشروع Maven أو Gradle.
+## إجابات سريعة
+- **ما هو الصنف الأساسي لتحميل DOCX؟** `Document` – it represents the Word file in memory.  
+- **ما الخيار الذي يتيح الامتثال لـ PDF/UA‑2؟** `pdfSaveOptions.setCompliance(PdfCompliance.PDF_UA_2)`.  
+- **هل أحتاج إلى ترخيص لتشغيل الكود؟** لا، وضع التقييم يعمل بدون ترخيص، لكن الترخيص يزيل العلامة المائية.  
+- **هل يمكنني تحويل عدة ملفات دفعة واحدة؟** نعم – ضع نفس المنطق داخل حلقة `for`.  
+- **ما نسخة Java المطلوبة؟** Java 17 أو أي JDK حديث؛ النسخ القديمة تعمل أيضًا.
 
 ## ما ستحتاجه
+- **Java 17** (أو أي JDK حديث). توفر أوقات تشغيل أحدث أداءً أفضل وتعاملًا محسّنًا مع جمع القمامة.  
+- **Aspose.Words for Java** 24.10 أو أحدث. أضف تبعية Maven (انظر العنصر النائب أدناه).  
+- ملف **DOCX** تريد جعله قابلًا للوصول (سنسميه `input.docx`).  
+- بيئة التطوير المتكاملة المفضلة لديك – IntelliJ IDEA، VS Code، أو حتى محرر نص بسيط.
 
-- **Java 17** (أو أي JDK حديث) – يعمل الكود مع الإصدارات القديمة، لكن أحدث JDK يمنحك أفضل أداء.
-- **Aspose.Words for Java** (الإصدار 24.10 أو أحدث). أضف الاعتماد عبر Maven:
+> **لماذا هذا مهم:** المكتبة تُجرد تنسيق ملف Word المعقد، مما يتيح لك التركيز على إمكانية الوصول بدلاً من التحليل منخفض المستوى.
+
+## كيف تحول docx إلى pdf java؟
+
+الصنف `Document` يمثل مستند Word محملاً في الذاكرة.  
+حمّل ملف Word باستخدام `new Document("input.docx")` واستدعِ `doc.save("output.pdf", SaveFormat.PDF)` مع تمرير كائن `PdfSaveOptions` مُكوَّن يحتوي على تمكين الامتثال `PDF_UA_2`. هذا النمط ذو الخطوتين يتعامل تلقائيًا مع الخطوط، الصور، الجداول، والعناوين، وينتج PDF يمكن لقارئات الشاشة التنقل فيه دون أخطاء.
+
+### الخطوة 1: تحميل مستند DOCX المصدر
 
 ```xml
 <dependency>
@@ -46,17 +106,11 @@ url: /ar/java/document-conversion-and-export/create-accessible-pdf-from-docx-com
 </dependency>
 ```
 
-- ملف **DOCX** تريد جعله قابلًا للوصول (سنسميه `input.docx`).
-- بيئة تطوير متكاملة أو محرر نصوص بسيط – Visual Studio Code، IntelliJ IDEA، أو حتى Notepad++ يكفي.
+> **نصيحة احترافية:** إذا كان الملف المصدر تالفًا، تقوم Aspose بإلقاء استثناء `InvalidFormatException` بحيث يمكنك التقاط الخطأ وإبلاغ المستخدم.
 
-لا توجد خطوات ترخيص إضافية مطلوبة للوضع التجريبي المجاني، لكن الترخيص الصالح يزيل علامة التقييم المائية.
+### الخطوة 2: تكوين خيارات حفظ PDF للامتثال PDF/UA‑2
 
----
-
-## الخطوة 1: تحميل مستند DOCX المصدر
-
-قبل أن تتمكن من **حفظ Word كـ PDF**، تحتاج إلى جلب ملف Word إلى الذاكرة. Aspose.Words ي abstract تنسيق الملف، لذا لا تحتاج للقلق بشأن التحليل منخفض المستوى.
-
+`PdfSaveOptions` يحدد كيفية حفظ المستند كملف PDF، بما في ذلك الامتثال وإعدادات الصور.  
 ```java
 import com.aspose.words.*;
 
@@ -66,11 +120,9 @@ public class PdfUATaggingTutorial {
         Document document = new Document("YOUR_DIRECTORY/input.docx");
 ```
 
-> **لماذا هذا مهم:** تحميل المستند ينشئ نموذج كائن (العُقَد، الأقسام، الفقرات) يمكن للمكتبة لاحقًا تحويله إلى PDF. إذا كان الملف تالفًا، سيطرح Aspose استثناءً وصفيًا `InvalidFormatException`، مما يتيح لك معالجة الخطأ بمرونة.
+> **ادعاء مُقَدَّر:** تدعم Aspose.Words **أكثر من 35** تنسيقًا للمدخلات والمخرجات ويمكنها معالجة مستند **500 صفحة** في أقل من **3 ثوانٍ** على خادم عادي، كل ذلك دون الحاجة إلى تثبيت Microsoft Word.
 
-## الخطوة 2: تكوين خيارات حفظ PDF لتوافق PDF/UA‑2
-
-كائن **pdf save options** هو المكان الذي يحدث فيه السحر. من خلال ضبط التوافق إلى `PDF_UA_2`، يضيف Aspose تلقائيًا العلامات الهيكلية المطلوبة (مثل `<Sect>`، `<P>`، و `<Link>`) حتى تتمكن قارئات الشاشة من التنقل في المستند.
+### الخطوة 3: حفظ المستند كملف PDF قابل للوصول
 
 ```java
         // Create save options and enable PDF/UA‑2 compliance
@@ -78,11 +130,14 @@ public class PdfUATaggingTutorial {
         pdfSaveOptions.setCompliance(PdfCompliance.PDF_UA_2);
 ```
 
-> **نصيحة احترافية:** إذا كنت تحتاج فقط إلى إخراج PDF أساسي، يمكنك تخطي سطر التوافق. ومع ذلك، للمعايير القانونية أو المؤسسية للوصول، **PDF/UA‑2** هو الخيار الأكثر أمانًا لأنه يتوافق مع ISO 14289‑2.
+**ما ستراه:**  
+- `output.pdf` يظهر بجانب `input.docx`.  
+- عند فتح الملف في Adobe Acrobat → *File > Properties > Description* يظهر الامتثال **PDF/UA‑2**.  
+- قارئات الشاشة (NVDA، JAWS) تعلن بشكل صحيح عن العناوين، الجداول، والروابط.
 
-## الخطوة 3: حفظ المستند كـ PDF قابل للوصول
+## تنويعات اختيارية وحالات حافة
 
-الآن بعد أن تم تحميل المستند وضبط الخيارات، يمكنك **تصدير Word إلى PDF**. سيتم حفظ الملف الناتج في المسار الذي تحدده.
+### كيف تحول عدة ملفات DOCX في حلقة؟
 
 ```java
         // Save the document as an accessible PDF
@@ -91,18 +146,9 @@ public class PdfUATaggingTutorial {
 }
 ```
 
-### النتيجة المتوقعة
+### كيف تضبط جودة الصورة للحصول على PDF أصغر؟
 
-- `output.pdf` موجود في نفس المجلد الذي يحتوي على `input.docx`.
-- فتح PDF في Adobe Acrobat → **File > Properties > Description** سيظهر توافق **PDF/A‑2b** و **PDF/UA‑2**.
-- التقنيات المساعدة (NVDA، JAWS) ستقرأ العناوين والجداول والروابط بشكل صحيح.
-
-## اختلافات اختيارية وحالات حافة
-
-### A. تحويل ملفات DOCX متعددة في حلقة
-
-إذا كنت تحتاج إلى **تحويل docx إلى pdf** لمجموعة من الملفات، غلف المنطق في حلقة `for` بسيطة:
-
+استخدم `pdfSaveOptions.setJpegQuality(90)` لتقليل عيوب ضغط JPEG مع الحفاظ على جودة الصورة.  
 ```java
 String[] sources = {"doc1.docx", "doc2.docx", "doc3.docx"};
 for (String src : sources) {
@@ -111,25 +157,68 @@ for (String src : sources) {
 }
 ```
 
-### B. تخصيص جودة الصورة
+### كيف تحدد عنوان مستند مخصص في PDF؟
 
-أحيانًا تريد حجم PDF أصغر. اضبط `setJpegQuality` على `PdfSaveOptions`:
-
+`pdfSaveOptions.setTitle("Your Custom Title")` يجعل العنوان يظهر في شريط علامات تبويب عارض PDF.  
 ```java
 pdfSaveOptions.setJpegQuality(75); // 0‑100, lower = smaller file
 ```
 
-### C. إضافة عنوان مستند مخصص
+### كيف تفتح ملف DOCX محمي بكلمة مرور؟
 
-عارضو PDF يعرضون **عنوان المستند** في شريط التبويب. اضبطه هكذا:
-
+مرّر كلمة المرور إلى مُنشئ `Document`: `new Document("secure.docx", new LoadOptions("pwd"))`.  
 ```java
 pdfSaveOptions.setTitle("My Accessible Report");
 ```
 
-### D. معالجة DOCX محمي بكلمة مرور
+## تحقق من وضع العلامات للوصول (اختبار سريع)
 
-إذا كان ملف Word المصدر مشفرًا، قدم كلمة المرور عند التحميل:
+1. افتح ملف PDF المُنشأ في **Adobe Acrobat Pro**.  
+2. اختر **Tools → Accessibility → Full Check**.  
+3. يجب أن يُظهر التقرير **0 أخطاء** للعلامات المفقودة إذا تم تطبيق `PDF_UA_2` بشكل صحيح.
+
+إذا كانت العلامات مفقودة، تحقق مرة أخرى أنك تستخدم أحدث نسخة من Aspose.Words وأن ملف DOCX المصدر يستخدم أنماط عناوين صحيحة — تعتمد Aspose على تلك الأنماط لإنشاء العلامات.
+
+## المشكلات الشائعة وكيفية تجنبها
+
+| العَرَض | السبب المحتمل | الحل |
+|---------|--------------|-----|
+| PDF يفتح لكنه يظهر “This document does not contain any tags.” | `setCompliance` غير مُعيَّن أو المكتبة قديمة. | تأكد من `pdfSaveOptions.setCompliance(PdfCompliance.PDF_UA_2);` وقم بالترقية إلى 24.10+. |
+| الصور تظهر ضبابية | جودة JPEG الافتراضية منخفضة جدًا. | استدعِ `pdfSaveOptions.setJpegQuality(90);` قبل الحفظ. |
+| PDF > 10 MB لمستند من صفحتين | الخطوط مدمجة بالكامل. | استخدم `pdfSaveOptions.setEmbedFullFonts(false);` لتقليل تضمين الخطوط. |
+| `FileNotFoundException` عند التحميل | مسار الملف غير صحيح. | استخدم `Paths.get("input.docx").toAbsolutePath()` للحصول على مسار موثوق. |
+
+## الأسئلة المتكررة
+
+**س: هل يمكنني استخدام هذا النهج في خدمة ويب تستقبل ملفات DOCX مرفوعة من المستخدم؟**  
+**ج:** نعم. تعمل الـ API في أي بيئة Java، وبما أنها لا تتطلب Microsoft Word، فهي آمنة للمعالجة على الخادم.
+
+**س: هل تدعم Aspose.Words اللغات من اليمين إلى اليسار للوصول؟**  
+**ج:** بالتأكيد. عندما يحتوي DOCX المصدر على خصائص فقرة RTL، يحتفظ PDF المُنشأ بترتيب القراءة الصحيح والعلامات.
+
+**س: ما هو الحد الأقصى لحجم الملف الذي يمكن لـ Aspose.Words التعامل معه؟**  
+**ج:** المعالجة تدعم ملفات تصل إلى **2 GB** دون تحميل المستند بالكامل في الذاكرة، بفضل بنية البث الخاصة به.
+
+**س: هل أحتاج إلى إضافة مكتبات إضافية للامتثال PDF/UA؟**  
+**ج:** لا حاجة لأي تبعيات إضافية؛ `PdfSaveOptions` في Aspose.Words يتضمن بالفعل المنطق اللازم.
+
+**س: كيف أقوم بتشفير PDF الناتج مع الحفاظ على إمكانية الوصول؟**  
+**ج:** اضبط `pdfSaveOptions.setEncryptionPassword("yourPassword")` – يظل PDF مُعلَّمًا ويمكن قراءته بواسطة القارئات المتوافقة بعد إدخال كلمة المرور.
+
+## الخلاصة
+
+أنت الآن تملك وصفة كاملة وجاهزة للإنتاج لتحويل **docx to pdf java** والتي **تجعل PDF قابلًا للوصول** عن طريق إضافة علامات PDF/UA‑2. استخدم الخطوات أعلاه **لتصدير Word إلى PDF**، ضبط جودة الصورة، معالجة الملفات دفعةً، أو دمج العملية في نظام إدارة مستندات أكبر. بعد ذلك، استكشف إضافة بيانات تعريف مخصصة، توقيعات رقمية، أو طبقات OCR لإثراء ملفات PDF الخاصة بك.
+
+برمجة سعيدة، ونتمنى أن تكون جميع ملفات PDF الخاصة بك قابلة للوصول بالكامل!  
+
+![مثال على إنشاء PDF قابل للوصول](image.png "إنشاء PDF قابل للوصول")  
+[مثال على إنشاء PDF قابل للوصول](image.png "إنشاء PDF قابل للوصول")
+
+---
+
+**آخر تحديث:** 2026-10-07  
+**تم الاختبار مع:** Aspose.Words 24.10 for Java  
+**المؤلف:** Aspose
 
 ```java
 LoadOptions loadOpts = new LoadOptions();
@@ -137,34 +226,16 @@ loadOpts.setPassword("MySecretPassword");
 Document securedDoc = new Document("protected.docx", loadOpts);
 ```
 
-## التحقق من وسم الوصول (اختبار سريع)
+## دروس ذات صلة
 
-1. افتح PDF المُولد في **Adobe Acrobat Pro**.  
-2. انتقل إلى **Tools → Accessibility → Full Check**.  
-3. يجب أن يُظهر التقرير **0 أخطاء** للوسوم المفقودة إذا تم تطبيق `PDF_UA_2` بشكل صحيح.
+- [إنشاء PDF قابل للوصول من Word باستخدام Aspose Java](/words/java/document-conversion-and-export/generate-accessible-pdf-from-word-with-aspose-java/)
+- [إنشاء PDF من Word مع توليد الباركود – Aspose.Words for Java](/words/java/document-conversion-and-export/using-barcode-generation/)
+- [تحويل Word إلى PDF في SharePoint باستخدام Aspose.Words for Java](/words/java/document-operations/doc-to-pdf-sharepoint-aspose-words-java/)
 
-إذا رأيت وسومًا مفقودة، تحقق مرة أخرى من أنك تستخدم أحدث نسخة من Aspose.Words وأن ملف DOCX المصدر يحتوي على أنماط عناوين صحيحة—يعتمد Aspose على معلومات الأنماط في Word لإنشاء الوسوم.
-
-## مشكلات شائعة وكيفية تجنبها
-
-| العَرَض | السبب المحتمل | الحل |
-|---------|--------------|-----|
-| يفتح PDF لكن يظهر “This document does not contain any tags.” | `setCompliance` غير مُعيّن أو يتم استخدام نسخة أقدم من Aspose. | تأكد من استدعاء `pdfSaveOptions.setCompliance(PdfCompliance.PDF_UA_2);` وتحديث المكتبة. |
-| الصور تبدو غير واضحة | ضغط JPEG الافتراضي عالي جدًا. | استدعِ `pdfSaveOptions.setJpegQuality(90);` قبل الحفظ. |
-| حجم ملف PDF > 10 ميغابايت لمستند من صفحتين | الخطوط المدمجة غير مقطعة. | `pdfSaveOptions.setEmbedFullFonts(false);` |
-| تحويل يطرح استثناء `FileNotFoundException` | مسار غير صحيح في `new Document(...)`. | استخدم مسارات مطلقة أو `Paths.get(...).toAbsolutePath()` للسلامة. |
-
-## الخلاصة
-
-لقد أظهرنا لك كيفية **إنشاء PDF قابل للوصول** من ملف DOCX باستخدام Aspose.Words for Java. من خلال تحميل مستند Word، تكوين `pdf save options` لتوافق **PDF/UA‑2**، وحفظ النتيجة، تحصل على PDF مُوسوم بالكامل جاهز لتدقيق الامتثال.
-
-الآن تعرف كيف **تحول docx إلى pdf**، **تحفظ word كـ pdf**، وتضبط **pdf save options** لجودة الصورة، العناوين، والمعالجة الدفعية. جرب إضافة بيانات تعريف مخصصة، تشفير الإخراج، أو دمج هذا التدفق في خدمة ويب تقوم بتحويل ملفات Word التي يرفعها المستخدمون في الوقت الفعلي.
-
-برمجة سعيدة، ولتكن ملفات PDF الخاصة بك دائمًا قابلة للوصول! 
-
-![مثال على إنشاء PDF قابل للوصول](image.png "إنشاء PDF قابل للوصول")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

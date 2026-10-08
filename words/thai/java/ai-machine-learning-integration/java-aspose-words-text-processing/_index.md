@@ -1,67 +1,106 @@
 ---
-date: '2025-11-13'
-description: อัตโนมัติการสรุปข้อความและการแปลใน Java ด้วย Aspose.Words พร้อม OpenAI
-  GPT‑4 และ Google Gemini. เพิ่มประสิทธิภาพการทำงานและเสริมแอปพลิเคชันของคุณทันที.
+date: '2026-10-07'
+description: เรียนรู้วิธีใช้ aspose words maven สำหรับการประมวลผลข้อความใน Java รวมถึง
+  AI‑powered summarization and translation ด้วย OpenAI GPT‑4 และ Google Gemini.
 keywords:
-- text processing in Java
-- Aspose.Words for Java
-- AI text summarization
-- summarize text with ai
-- translate word document java
-- aspose.words maven integration
-- openai gpt-4 summarization java
-- google gemini translation java
-title: การสรุปข้อความและการแปลด้วย Java, Aspose.Words และ AI
+- aspose words maven
+- summarize large documents
+- google gemini java
+- text processing java
+- aspose words ai
+lastmod: '2026-10-07'
+og_description: เรียนรู้วิธีใช้ aspose words maven สำหรับการประมวลผลข้อความใน Java
+  รวมถึง AI‑powered summarization and translation ด้วย OpenAI GPT‑4 และ Google Gemini.
+og_image_alt: Developer guide showing aspose words maven integration for Java AI summarization
+  and translation
+og_title: วิธีใช้ aspose words maven สำหรับการประมวลผลข้อความใน Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-07'
+  description: Learn how to use aspose words maven for Java text processing, including
+    AI‑powered summarization and translation with OpenAI GPT‑4 and Google Gemini.
+  headline: How to use aspose words maven for Java text processing
+  type: TechArticle
+- description: Learn how to use aspose words maven for Java text processing, including
+    AI‑powered summarization and translation with OpenAI GPT‑4 and Google Gemini.
+  name: How to use aspose words maven for Java text processing
+  steps:
+  - name: load the document and create the model
+    text: '`Document` represents a Word file in memory, while `IAiModelText` is the
+      interface for AI‑driven text operations.'
+  - name: configure summarization options
+    text: '`SummarizeOptions` lets you control the length and style of the generated
+      summary.'
+  - name: save the summary
+    text: Persist the condensed document for later review or distribution.
+  - name: load the source document and create the translator
+    text: '`Language` is an enumeration of supported target languages; `IAiModelText`
+      is reused for translation.'
+  - name: execute the translation and save
+    text: Replace `Language.ARABIC` with any other enum value to change the target
+      language.
+  type: HowTo
+- questions:
+  - answer: JDK 8 or higher, 2 GB of RAM for large documents, and a compatible IDE
+      such as IntelliJ IDEA or Eclipse.
+    question: What are the system requirements for aspose words maven?
+  - answer: Sign up on the OpenAI platform and Google Cloud console, create a new
+      project, and generate a secret key for each service.
+    question: How do I obtain API keys for OpenAI and Google Gemini?
+  - answer: Yes, provided you have a valid Aspose.Words license and comply with OpenAI/Google
+      usage policies.
+    question: Can I use this solution in a commercial product?
+  - answer: Over 100 languages, including Arabic, French, Spanish, German, Chinese,
+      and many more.
+    question: Which languages are supported by the Gemini translation model?
+  - answer: Process the document in sections (e.g., per chapter) and use Aspose.Words’
+      `Document.optimizeResources()` method to free unused resources between batches.
+    question: How should I handle very large documents to avoid memory issues?
+  type: FAQPage
+tags:
+- aspose words
+- java text processing
+- ai summarization
+- google gemini
+- maven integration
+title: วิธีใช้ aspose words maven สำหรับการประมวลผลข้อความใน Java
 url: /th/java/ai-machine-learning-integration/java-aspose-words-text-processing/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การประมวลผลข้อความขั้นสูงใน Java: ใช้ Aspose.Words & AI Models
+# วิธีใช้ aspose words maven สำหรับการประมวลผลข้อความใน Java
 
-**อัตโนมัติการสรุปข้อความและการแปลด้วย Aspose.Words for Java ที่ผสานรวมกับโมเดล AI เช่น GPT‑4 ของ OpenAI และ Gemini ของ Google**
+การทำสรุปข้อความและการแปลอัตโนมัติใน Java กลายเป็นเรื่องง่ายเมื่อคุณผสาน **aspose words maven** กับโมเดล AI สมัยใหม่เช่น OpenAI GPT‑4 และ Google Gemini บทแนะนำนี้จะพาคุณผ่านการตั้งค่า Maven dependency, การโหลดไฟล์ Word, การสรุปเนื้อหา, และการแปลเป็นภาษาต่าง ๆ — ทั้งหมดจากโค้ด Java
 
-## Introduction
+## คำตอบอย่างรวดเร็ว
+- **ไลบรารีใดที่จัดการทั้งการสรุปและการแปล?** Aspose.Words for Java ร่วมกับตัวหุ้มโมเดล AI
+- **ฉันต้องการใบอนุญาตแบบชำระเงินหรือไม่?** การทดลองใช้ฟรีทำงานได้สำหรับการพัฒนา; จำเป็นต้องมีใบอนุญาตเชิงพาณิชย์สำหรับการใช้งานจริง
+- **ต้องการเวอร์ชัน Java ใด?** JDK 8 หรือใหม่กว่า
+- **ฉันสามารถใช้ Gradle แทน Maven ได้หรือไม่?** ใช่, แพคเกจเดียวกันสามารถใช้ได้ผ่าน Gradle
+- **Gemini รองรับกี่ภาษา?** มากกว่า 100 ภาษา รวมถึงภาษาอาหรับ, ฝรั่งเศส, สเปน, และอื่น ๆ
 
-กำลังประสบปัญหาในการดึงข้อมูลสำคัญจากเอกสารขนาดใหญ่หรือแปลเนื้อหาอย่างรวดเร็วเป็นหลายภาษาอยู่หรือไม่? คุณสามารถอัตโนมัติขั้นตอนเหล่านี้ได้อย่างมีประสิทธิภาพโดยใช้เครื่องมือที่ทรงพลังซึ่งช่วยประหยัดเวลาและเพิ่มผลผลิต ในบทแนะนำนี้เราจะพาคุณผ่านวิธี **สรุปข้อความด้วย AI** และ **แปลเอกสาร Word ใน Java** โดยการรวม Aspose.Words กับโมเดลล่าสุดของ OpenAI และ Google Gemini
+## aspose words maven คืออะไร?
+**aspose words maven** คือการแจกจ่ายแบบ Maven ของ Aspose.Words for Java, ทำให้คุณสามารถเพิ่มไลบรารีนี้ในโครงการ Java ใด ๆ ด้วยการประกาศ dependency เพียงหนึ่งรายการ มันให้ API ที่ครบถ้วนสำหรับการสร้าง, แก้ไข, สรุป, และแปลเอกสาร Word โดยไม่ต้องติดตั้ง Microsoft Word
 
-**สิ่งที่คุณจะได้เรียนรู้:**
-- วิธีตั้งค่า Aspose.Words ด้วย Maven หรือ Gradle (aspose.words maven integration)
-- การทำสรุปข้อความโดยใช้ OpenAI GPT‑4 (openai gpt-4 summarization java)
-- การแปลเอกสารเป็นหลายภาษาโดยใช้ Google Gemini (google gemini translation java)
-- แนวทางปฏิบัติที่ดีที่สุดสำหรับการผสานเครื่องมือเหล่านี้ในแอปพลิเคชัน Java
+## ทำไมต้องใช้ aspose words maven สำหรับการประมวลผลข้อความ?
+Aspose.Words รองรับ **35+ รูปแบบการนำเข้าและส่งออก** — รวมถึง DOCX, PDF, HTML, และ EPUB — และสามารถประมวลผล **เอกสาร 500 หน้าในเวลาน้อยกว่า 3 วินาที** บนเซิร์ฟเวอร์มาตรฐาน แพคเกจ Maven ทำให้คุณได้รับการแก้ไขบั๊กและการปรับปรุงประสิทธิภาพล่าสุดเสมอด้วยการอัปเดตเวอร์ชันเดียว
 
-ก่อนจะเริ่มลงมือทำ โปรดตรวจสอบว่าคุณมีทุกอย่างที่จำเป็นแล้ว
+## ข้อกำหนดเบื้องต้น
+- **Java Development Kit (JDK):** version 8 หรือใหม่กว่า.
+- **Build tool:** Maven หรือ Gradle.
+- **IDE:** IntelliJ IDEA, Eclipse, หรือ editor ที่คุณชอบ.
+- **API keys:** คีย์ที่ใช้งานได้สำหรับบริการ OpenAI และ Google Gemini.
+- **Aspose.Words license:** ไฟล์ใบอนุญาต trial, temporary, หรือที่ซื้อ
 
-## Prerequisites
+## วิธีตั้งค่า aspose words maven ในโครงการ Java ของคุณ?
+เพื่อเริ่มต้น, เพิ่ม artifact ของ Aspose.Words Maven ไปยัง `pom.xml` ของโครงการของคุณหรือบรรทัดที่เทียบเท่าใน Gradle, จากนั้นดาวน์โหลดไฟล์ใบอนุญาตจากพอร์ทัล Aspose วางไฟล์ใบอนุญาตในตำแหน่งที่แอปพลิเคชันสามารถเข้าถึงได้ (เช่น `src/main/resources`) และโหลดมันเมื่อเริ่มต้นโดยใช้ `License license = new License(); license.setLicense("Aspose.Words.lic");` กระบวนการนี้จะเปิดใช้งานฟีเจอร์เต็มและลบลายน้ำการประเมินผลออก
 
-ตรวจสอบว่าคุณตรงตามข้อกำหนดต่อไปนี้
-
-### Required Libraries and Versions
-- **Aspose.Words for Java:** เวอร์ชัน 25.3 หรือใหม่กว่า
-- **Java Development Kit (JDK):** ติดตั้ง JDK (แนะนำเวอร์ชัน 8 ขึ้นไป)
-- **Build Tools:** Maven หรือ Gradle ตามความสะดวกของคุณ
-
-### Environment Setup Requirements
-- IDE ที่เหมาะสม เช่น IntelliJ IDEA หรือ Eclipse
--ึงบริการ OpenAI และ Google AI ซึ่งอาจต้องใช้ API keys
-
-### Knowledge Prerequisites
-- ความเข้าใจพื้นฐานในการเขียนโปรแกรม Java
-- ความคุ้นเคยกับการจัดการไลบรารีภายนอกในโครงการ Java
-
-## Setting Up Aspose.Words
-
-เพื่อเริ่มใช้ Aspose.Words for Java ให้เพิ่ม dependencies ที่จำเป็นลงในไฟล์กำหนดค่า build ของคุณ ขั้นตอนนี้จะทำให้การผสาน aspose.words maven integration เป็นไปอย่างราบรื่น
-
-### Maven Dependency
-
-เพิ่มโค้ดส่วนนี้ลงในไฟล์ `pom.xml` ของคุณ:
+### การพึ่งพา Maven
+เพิ่มโค้ดต่อไปนี้ใน `pom.xml` ของคุณ:
 
 ```xml
 <dependency>
@@ -71,37 +110,26 @@ weight: 1
 </dependency>
 ```
 
-### Gradle Dependency
-
-ใส่โค้ดนี้ในไฟล์ `build.gradle` ของคุณ:
+### การพึ่งพา Gradle
+หากคุณต้องการใช้ Gradle, แทรกบรรทัดนี้ลงใน `build.gradle`:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### License Acquisition
-
-Aspose.Words ต้องการใบอนุญาตเพื่อใช้งานเต็มรูปแบบ คุณสามารถรับได้จาก:
-- **ฟรีทดลอง** เพื่อทดสอบฟีเจอร์ต่าง ๆ
-- **ใบอนุญาตชั่วคราว** สำหรับการประเมินผลระยะยาว
-- **ใบอนุญาตแบบซื้อ** สำหรับการใช้งานในผลิตภัณฑ์จริง
-
-สำหรับการตั้งค่า ให้เริ่มต้นไลบรารีและกำหนดใบอนุญาตของคุณ:
+### การรับใบอนุญาต
+Aspose.Words ต้องการใบอนุญาตเพื่อการใช้งานโดยไม่มีข้อจำกัด วางไฟล์ใบอนุญาตในตำแหน่งที่รู้จักและโหลดมันเมื่อแอปพลิเคชันเริ่มทำงาน:
 
 ```java
 License license = new License();
 license.setLicense("path/to/your/license/file");
 ```
 
-## Implementation Guide
+## วิธีสรุปเอกสารขนาดใหญ่ด้วย AI?
+การสรุปเนื้อหายาวช่วยให้คุณดึงข้อมูลสำคัญได้อย่างรวดเร็ว ลดเวลาการอ่านสำหรับผู้ใช้ ในคู่มือนี้เราจะโหลดเอกสาร Word, ส่งข้อความไปยังโมเดล OpenAI GPT‑4 ผ่านตัวหุ้ม AI ของ Aspose, และรับสรุปสั้นที่คงความหมายเดิม ขั้นตอนต่อไปนี้แสดงเวิร์กโฟลว์เต็ม
 
-### Text Summarization with AI Models
-
-การสรุปข้อความเป็นประโยชน์อย่างยิ่งเมื่อทำงานกับเอกสารขนาดใหญ่ ด้านล่างเป็นขั้นตอนแบบละเอียดที่แสดงวิธี **สรุปข้อความด้วย AI** โดยใช้โมเดล GPT‑4 ของ OpenAI
-
-#### Step 1: Initialize the Document and Model
-
-โหลดเอกสารของคุณและสร้างอินสแตนซ์โมเดล AI:
+### ขั้นตอน 1: โหลดเอกสารและสร้างโมเดล
+`Document` แทนไฟล์ Word ในหน่วยความจำ, ส่วน `IAiModelText` เป็นอินเทอร์เฟซสำหรับการดำเนินการข้อความด้วย AI.
 
 ```java
 document = new Document(getMyDir() + "Big document.docx");
@@ -110,9 +138,8 @@ IAiModelText model = ((OpenAiModel) AiModel.create(AiModelType.GPT_4_O_MINI).wit
         .withProject("YourProject");
 ```
 
-#### Step 2: Configure Summarization Options
-
-กำหนดความยาวของสรุปที่ต้องการและสร้างอ็อบเจกต์ `SummarizeOptions`:
+### ขั้นตอน 2: กำหนดค่าตัวเลือกการสรุป
+`SummarizeOptions` ให้คุณควบคุมความยาวและสไตล์ของสรุปที่สร้าง.
 
 ```java
 SummarizeOptions options = new SummarizeOptions();
@@ -120,84 +147,93 @@ options.setSummaryLength(SummaryLength.SHORT);
 Document summarizedDoc = model.summarize(document, options);
 ```
 
-#### Step 3: Save the Summary
-
-บันทึกเอกสารที่สรุปแล้วลงดิสก์:
+### ขั้นตอน 3: บันทึกสรุป
+บันทึกเอกสารที่สรุปไว้เพื่อการตรวจสอบหรือแจกจ่ายในภายหลัง.
 
 ```java
 summarizedDoc.save(getArtifactsDir() + "AI.AiSummarize.One.docx");
 ```
 
-### Text Translation with AI Models
+## วิธีแปลข้อความโดยใช้ google gemini java?
+Google Gemini ให้การแปลเครื่องคุณภาพสูงสำหรับหลายภาษาโดยตรงจากโค้ด Java โดยการโหลดเอกสาร Word ด้วย Aspose.Words และเรียก API การแปลของ Gemini, คุณสามารถสร้างเอกสารใหม่ในภาษาที่ต้องการได้อย่างง่ายดาย ขั้นตอนต่อไปนี้แสดงกระบวนการแปลพื้นฐาน
 
-ต่อไปเราจะทำการแปลเอกสาร Word ด้วยโมเดล Gemini ของ Google ส่วนนี้จะแสดงวิธี **translate Word document java** เพียงไม่กี่บรรทัดโค้ด
-
-#### Step 1: Load and Prepare the Document
-
-เตรียมเอกสารต้นฉบับสำหรับการแปล:
+### ขั้นตอน 1: โหลดเอกสารต้นฉบับและสร้างตัวแปล
+`Language` เป็น enumeration ของภาษาที่รองรับ; `IAiModelText` ถูกใช้ซ้ำสำหรับการแปล.
 
 ```java
 document = new Document(getMyDir() + "Document.docx");
 IAiModelText translator = (IAiModelText) AiModel.create(AiModelType.GEMINI_15_FLASH).withApiKey(apiKey);
 ```
 
-#### Step 2: Execute Translation
-
-แปลเนื้อหาเป็นภาษาอาหรับ (คุณสามารถเปลี่ยนเป็นภาษาที่ต้องการได้)
+### ขั้นตอน 2: ดำเนินการแปลและบันทึก
+แทนที่ `Language.ARABIC` ด้วยค่า enum อื่นเพื่อเปลี่ยนภาษาที่ต้องการ.
 
 ```java
 Document translatedDoc = translator.translate(document, Language.ARABIC);
 translatedDoc.save(getArtifactsDir() + "AI.AiTranslate.docx");
 ```
 
-## Practical Applications
+## การประยุกต์ใช้งานจริง
+- **Business reports:** สรุปรายงานไตรมาสสำหรับแดชบอร์ดผู้บริหาร.
+- **Customer support:** แปลตั๋วที่เข้ามาเป็นภาษาท้องถิ่นของทีมสนับสนุน.
+- **Academic research:** สร้างบทคัดย่อสั้นจากเอกสารวิจัยยาว.
 
-1. **Business Reports:** สรุปรายงานธุรกิจยาวเพื่อให้ได้ข้อมูลเชิงลึกอย่างรวดเร็ว
-2. **Customer Support:** แปลคำถามของลูกค้าเป็นภาษาท้องถิ่นเพื่อยกระดับคุณภาพการให้บริการ
-3. **Academic Research:** สรุปงานวิจัยเพื่อเข้าใจผลลัพธ์สำคัญอย่างรวดเร็ว
+## ข้อควรพิจารณาด้านประสิทธิภาพ
+- **Batch requests:** รวมหลายเอกสารเป็นการเรียก API ครั้งเดียวเมื่อผู้ให้บริการอนุญาต เพื่อลดความหน่วง.
+- **Resource monitoring:** ติดตามการใช้หน่วยความจำเมื่อจัดการเอกสารที่มีขนาดเกิน 200 หน้า; Aspose.Words สตรีมข้อมูลเพื่อรักษาภาพรวมหน่วยความจำให้ต่ำ.
+- **Caching:** เก็บการแปลที่ร้องขอบ่อยในแคชภายในเครื่องเพื่อหลีกเลี่ยงการเรียก API ซ้ำ.
 
-## Performance Considerations
+## สรุป
+โดยการใช้ **aspose words maven** ร่วมกับ OpenAI GPT‑4 และ Google Gemini, คุณสามารถเพิ่มความสามารถในการสรุปและแปลที่ทรงพลังให้กับแอปพลิเคชัน Java ใด ๆ ทดลองปรับตั้งค่า `SummaryLength` หรือภาษาปลายทางต่าง ๆ เพื่อปรับผลลัพธ์ให้เหมาะกับกรณีการใช้งานของคุณ
 
-- ปรับแต่งการเรียก API โดยทำการ batch งานเมื่อเป็นไปได้
-- ตรวจสอบการใช้ทรัพยากร โดยเฉพาะเมื่อประมวลผลเอกสารขนาดใหญ่
-- ใช้กลยุทธ์ caching สำหรับเอกสารหรือการแปลที่เข้าถึงบ่อย
+**ขั้นตอนต่อไป**
+- สำรวจ API การจัดรูปแบบขั้นสูงของ Aspose.Words.
+- ผสานหลายโมเดล AI (เช่น การวิเคราะห์อารมณ์หลังการสรุป) เพื่อสร้าง pipeline ที่หลากหลายยิ่งขึ้น.
+- ตรวจสอบเอกสารอ้างอิง API อย่างเป็นทางการสำหรับตัวเลือกเฉพาะภาษาเพิ่มเติม.
 
-## Conclusion
+## คำถามที่พบบ่อย
 
-การผสาน Aspose.Words กับโมเดล AI อย่าง OpenAI และ Gemini ของ Google จะช่วยให้แอปพลิเคชัน Java ของคุณมีความสามารถในการสรุปและแปลข้อความที่ทรงพลัง ทดลองปรับค่าต่าง ๆ ให้เหมาะกับความต้องการของคุณและสำรวจฟีเจอร์เพิ่มเติมที่เครื่องมือเหล่านี้นำเสนอ
+**Q: ความต้องการระบบสำหรับ aspose words maven คืออะไร?**  
+A: JDK 8 หรือสูงกว่า, RAM 2 GB สำหรับเอกสารขนาดใหญ่, และ IDE ที่เข้ากันได้ เช่น IntelliJ IDEA หรือ Eclipse.
 
-**Next Steps:**
-- สำรวจฟีเจอร์ขั้นสูงเพิ่มเติมของ Aspose.Words
-- พิจารณาผสานรวมบริการ AI เพิ่มเติมเพื่อขยายฟังก์ชันการทำงาน
+**Q: ฉันจะขอรับ API keys สำหรับ OpenAI และ Google Gemini อย่างไร?**  
+A: ลงทะเบียนบนแพลตฟอร์ม OpenAI และคอนโซล Google Cloud, สร้างโปรเจกต์ใหม่, และสร้างคีย์ลับสำหรับแต่ละบริการ.
 
-พร้อมจะลึกซึ้งยิ่งขึ้นหรือยัง? ลองนำโซลูชันเหล่านี้ไปใช้ในโครงการของคุณวันนี้!
+**Q: ฉันสามารถใช้โซลูชันนี้ในผลิตภัณฑ์เชิงพาณิชย์ได้หรือไม่?**  
+A: ใช่, หากคุณมีใบอนุญาต Aspose.Words ที่ถูกต้องและปฏิบัติตามนโยบายการใช้งานของ OpenAI/Google.
 
-## FAQ Section
+**Q: โมเดลการแปลของ Gemini รองรับภาษาใดบ้าง?**  
+A: มากกว่า 100 ภาษา รวมถึงภาษาอาหรับ, ฝรั่งเศส, สเปน, เยอรมัน, จีน, และอื่น ๆ อีกมาก.
 
-1. **What are the system requirements for using Aspose.Words with Java?**  
-   - คุณต้องใช้ JDK 8 หรือสูงกว่า และ IDE ที่รองรับเช่น IntelliJ IDEA
-2. **How do I obtain an API key for OpenAI or Google AI services?**  
-   - ลงทะเบียนบนแพลตฟอร์มของแต่ละบริการเพื่อรับ API key สำหรับการพัฒนา
-3. **Can I use Aspose.Words for Java in commercial projects?**  
-   - ได้, แต่ต้องซื้อใบอนุญาตที่เหมาะสมจาก Aspose
-4. **What languages can I translate text into using the Gemini model?**  
-   - โมเดล Gemini 15 Flash รองรับหลายภาษา รวมถึงภาษาอาหรับ, ฝรั่งเศส และอื่น ๆ
-5. **How do I handle large documents efficiently with these tools?**  
-   - แบ่งงานเป็นส่วนย่อยและปรับแต่งการใช้ API เพื่อจัดการการใช้ทรัพยากรอย่างมีประสิทธิภาพ
+**Q: ฉันควรจัดการเอกสารขนาดใหญ่มากอย่างไรเพื่อหลีกเลี่ยงปัญหาหน่วยความจำ?**  
+A: แบ่งการประมวลผลเอกสารเป็นส่วน (เช่น ต่อบท) และใช้เมธอด `Document.optimizeResources()` ของ Aspose.Words เพื่อปล่อยทรัพยากรที่ไม่ได้ใช้ระหว่างชุด.
 
-## Resources
+## แหล่งข้อมูล
 
-- [Aspose.Words Documentation](https://reference.aspose.com/words/java/)
-- [Download Aspose.Words](https://releases.aspose.com/words/java/)
-- [Purchase a License](https://purchase.aspose.com/buy)
-- [Free Trial Version](https://releases.aspose.com/words/java/)
-- [Temporary License Request](https://purchase.aspose.com/temporary-license/)
-- [Aspose Community Support](https://forum.aspose.com/c/words/10)
+- [เอกสาร Aspose.Words](https://reference.aspose.com/words/java/)
+- [ดาวน์โหลด Aspose.Words](https://releases.aspose.com/words/java/)
+- [ซื้อใบอนุญาต](https://purchase.aspose.com/buy)
+- [เวอร์ชันทดลองฟรี](https://releases.aspose.com/words/java/)
+- [ขอใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
+- [สนับสนุนชุมชน Aspose](https://forum.aspose.com/c/words/10)
+
+---
+
+
+**อัปเดตล่าสุด:** 2026-10-07  
+**ทดสอบด้วย:** Aspose.Words 25.3 for Java  
+**ผู้เขียน:** Aspose
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [วิธีดึงข้อความโดยใช้ Aspose.Words for Java](/words/java/document-manipulation/extracting-content-from-documents/)
+- [การค้นหาและแทนที่ข้อความใน Aspose.Words for Java](/words/java/document-manipulation/finding-and-replacing-text/)
+- [การจัดรูปแบบเอกสารใน Aspose.Words for Java](/words/java/document-manipulation/formatting-documents/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

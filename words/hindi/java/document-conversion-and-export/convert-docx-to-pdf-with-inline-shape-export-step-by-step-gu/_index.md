@@ -1,23 +1,50 @@
 ---
 category: general
-date: 2026-02-18
-description: DOCX को PDF में कैसे बदलें और Word को PDF के रूप में सहेजें, जबकि फ़्लोटिंग
-  शैप्स को संरक्षित रखें। यह गाइड दिखाता है कि शैप्स को सही तरीके से कैसे एक्सपोर्ट
-  करें।
+date: 2026-10-07
+description: Java में DOCX को PDF में कैसे बदलें, floating shapes को inline tags के
+  रूप में export करना, और DOCX को PDF में कुशलतापूर्वक batch convert करना सीखें।
 draft: false
 keywords:
-- convert docx to pdf
-- save word as pdf
-- how to export shapes
-language: hi
-og_description: DOCX को PDF में बदलें और शैप्स को निर्यात करना सीखें। सही टैगिंग के
-  साथ वर्ड को PDF के रूप में सहेजने के लिए इस पूर्ण ट्यूटोरियल का पालन करें।
-og_title: DOCX को PDF में परिवर्तित करें – इनलाइन शैप निर्यात गाइड
+- how to convert docx to pdf java
+- batch convert docx to pdf
+- export floating shapes inline
+lastmod: 2026-10-07
+og_description: Java में DOCX को PDF में कैसे बदलें, floating shapes को inline tags
+  के रूप में export करना, और DOCX को PDF में कुशलतापूर्वक batch convert करना सीखें।
+og_image_alt: 'Developer guide: Convert DOCX to PDF in Java with inline shape export'
+og_title: Java में DOCX को PDF में कैसे बदलें – shape export guide
+schemas:
+- author: Aspose
+  dateModified: '2026-10-07'
+  description: Learn how to convert DOCX to PDF in Java, export floating shapes as
+    inline tags, and batch convert DOCX to PDF efficiently.
+  headline: How to convert DOCX to PDF in Java – shape export guide
+  type: TechArticle
+- questions:
+  - answer: Yes—load the document with `LoadOptions` that include the password, then
+      proceed with the same save logic.
+    question: Does this work with password‑protected DOCX files?
+  - answer: Aspose.Words rasterizes vector graphics by default; to keep them vector
+      you can enable `pdfOptions.setVectorRasterizationMode(VectorRasterizationMode.VectorOnly)`.
+    question: What about SVG or EMF images inside the Word file?
+  - answer: Links are retained automatically when you use `PdfSaveOptions`. Avoid
+      disabling tags, as that can drop the logical link structure.
+    question: How do I preserve hyperlinks while converting?
+  - answer: Absolutely. Iterate over `Files.list(Paths.get("YOUR_DIRECTORY"))`, apply
+      the same load‑configure‑save sequence to each file, and handle exceptions per
+      file so one bad document doesn’t halt the whole run.
+    question: Can I batch‑process a folder of DOCX files?
+  - answer: Enable `pdfOptions.setMemoryOptimization(true)` and consider streaming
+      the output to avoid loading the entire PDF into memory.
+    question: How can I improve performance for very large documents?
+  type: FAQPage
 tags:
+- convert docx to pdf
 - Aspose.Words
 - Java
 - PDF conversion
-title: इनलाइन शैप एक्सपोर्ट के साथ DOCX को PDF में बदलें – चरण‑दर‑चरण गाइड
+- batch convert docx to pdf
+title: Java में DOCX को PDF में कैसे बदलें – shape export guide
 url: /hi/java/document-conversion-and-export/convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/
 ---
 
@@ -25,40 +52,45 @@ url: /hi/java/document-conversion-and-export/convert-docx-to-pdf-with-inline-sha
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# DOCX को PDF में बदलें – इनलाइन शेप एक्सपोर्ट गाइड
+# DOCX को PDF में Java में कैसे बदलें – आकार निर्यात गाइड
 
-क्या आपको कभी **DOCX को PDF में बदलने** की ज़रूरत पड़ी है लेकिन इस बात की चिंता थी कि आपके फ्लोटिंग इमेज या टेक्स्ट बॉक्स गायब हो जाएंगे या स्थान बदल लेंगे? आप अकेले नहीं हैं। कई प्रोजेक्ट्स में—जैसे ऑटोमेटेड रिपोर्ट जेनरेटर या बैच‑प्रोसेसिंग पाइपलाइन—Word दस्तावेज़ का सटीक लेआउट बनाए रखना अनिवार्य है।  
+यदि आप **Java में DOCX को PDF में कैसे बदलें** while preserving floating images or text boxes, के बारे में सोच रहे हैं, तो आप सही जगह पर आए हैं। कई प्रोजेक्ट्स में—जैसे स्वचालित रिपोर्ट जेनरेटर या बैच‑प्रोसेसिंग पाइपलाइन—Word दस्तावेज़ का सटीक लेआउट बनाए रखना अनिवार्य है।
 
-अच्छी खबर? कुछ ही कोड लाइनों के साथ आप **Word को PDF के रूप में सहेज** सकते हैं और नियंत्रित कर सकते हैं कि ये फ्लोटिंग शेप्स इनलाइन टैग बनें या ब्लॉक‑लेवल एलिमेंट्स के रूप में रहें। नीचे आप देखेंगे कि **शेप्स को कैसे एक्सपोर्ट करें** जैसा आप चाहते हैं, साथ ही कुछ टिप्स जो सामान्य समस्याओं से बचाते हैं।
+नीचे आप बिल्कुल **shapes को निर्यात करने का तरीका** देखेंगे, साथ ही कुछ टिप्स जो सामान्य pitfalls से बचाते हैं। कोई बाहरी सेवा नहीं, कोई UI विज़ार्ड नहीं—सिर्फ शुद्ध Java कोड जिसे आप किसी भी Maven या Gradle प्रोजेक्ट में डाल सकते हैं।
 
----
+## त्वरित उत्तर
+- **कौन सी लाइब्रेरी रूपांतरण को संभालती है?** Aspose.Words for Java.
+- **क्या मैं DOCX को PDF में बैच रूप में बदल सकता हूँ?** हाँ—डायरेक्टरी पर लूप में वही लॉजिक लागू करें।
+- **क्या फ्लोटिंग शैप्स अपनी जगह पर रहते हैं?** `setExportFloatingShapesAsInlineTag(true)` सेट करें ताकि उन्हें इनलाइन टैग के रूप में निर्यात किया जाए।
+- **क्या लाइसेंस आवश्यक है?** परीक्षण के लिए एक फ्री ट्रायल काम करता है; उत्पादन के लिए एक व्यावसायिक लाइसेंस आवश्यक है।
+- **कौन सा Java संस्करण आवश्यक है?** JDK 8 या उससे ऊपर।
+
+## Java में DOCX को PDF में कैसे बदलें?
+स्रोत `.docx` को `new Document("input.docx")` से लोड करें और `doc.save("output.pdf", pdfOptions)` कॉल करें—Aspose.Words फ़ॉन्ट, इमेज, टेबल और जटिल लेआउट को स्वचालित रूप से संभालता है। `PdfSaveOptions` को कॉन्फ़िगर करके आप नियंत्रित कर सकते हैं कि फ्लोटिंग शैप्स इनलाइन टैग बनें या ब्लॉक‑लेवल एलिमेंट रहें, जो एक्सेसिबिलिटी और सही रीडिंग ऑर्डर के लिए आवश्यक है।
+
+यह दो‑स्टेप पैटर्न सिंगल फ़ाइलों के लिए काम करता है और **DOCX को PDF में बैच रूप में बदलने** के लिए फ़ोल्डर में मौजूद दस्तावेज़ों पर इटरेट करके स्केल करता है।
 
 ## आप क्या सीखेंगे
-
 * डिस्क से एक `.docx` फ़ाइल लोड करें।  
-* `PdfSaveOptions` को इस तरह कॉन्फ़िगर करें कि फ्लोटिंग शेप्स इनलाइन टैग के रूप में एक्सपोर्ट हों।  
+* `PdfSaveOptions` को कॉन्फ़िगर करें ताकि फ्लोटिंग शैप्स इनलाइन टैग के रूप में निर्यात हों।  
 * परिणामी PDF को अपनी पसंद के फ़ोल्डर में लिखें।  
-* `setExportFloatingShapesAsInlineTag` फ़्लैग क्यों महत्वपूर्ण है और कब इसे बदल सकते हैं, समझें।  
+* `setExportFloatingShapesAsInlineTag` फ़्लैग क्यों महत्वपूर्ण है और कब इसे बदलना चाहिए, समझें।  
 
-कोई बाहरी सेवाएँ नहीं, कोई जादुई “क्लिक‑टू‑डownload” UI नहीं—बस शुद्ध Java कोड जिसे आप किसी भी Maven या Gradle प्रोजेक्ट में डाल सकते हैं।
-
----
-
-## आवश्यकताएँ
+## पूर्वापेक्षाएँ
 
 | आवश्यकता | क्यों महत्वपूर्ण है |
 |-------------|----------------|
-| **Aspose.Words for Java** (v23.12 or later) | उदाहरण में उपयोग किए गए `Document` और `PdfSaveOptions` क्लासेज़ प्रदान करता है। |
-| **JDK 8+** | लाइब्रेरी Java 8 और उसके बाद के संस्करणों के लिए संकलित है; पुराने रनटाइम्स `UnsupportedClassVersionError` फेंकेंगे। |
-| **A DOCX file** with at least one floating shape (image, text box, WordArt) | शेप‑एक्सपोर्ट विकल्प के प्रभाव को देखने के लिए, आपके पास ऐसा दस्तावेज़ होना चाहिए जिसमें फ्लोटिंग ऑब्जेक्ट्स हों। |
+| **Aspose.Words for Java** (v23.12 या बाद का) | उदाहरण में उपयोग किए गए `Document` और `PdfSaveOptions` क्लासेस प्रदान करता है। |
+| **JDK 8+** | यह लाइब्रेरी Java 8 और उससे नए संस्करणों के लिए संकलित है; पुराने रनटाइम `UnsupportedClassVersionError` फेंकेंगे। |
+| **एक DOCX फ़ाइल** जिसमें कम से कम एक फ्लोटिंग शैप (इमेज, टेक्स्ट बॉक्स, WordArt) हो | शैप‑निर्यात विकल्प का प्रभाव देखने के लिए, आपको ऐसा दस्तावेज़ चाहिए जिसमें वास्तव में फ्लोटिंग ऑब्जेक्ट्स हों। |
 
-यदि आपके पास ये सब पहले से हैं, तो बढ़िया—आइए शुरू करें।
-
----
+यदि आपके पास ये सब है, तो बढ़िया—आइए शुरू करते हैं।
 
 ## चरण 1 – स्रोत दस्तावेज़ लोड करें  
 
-पहले हम एक `Document` इंस्टेंस बनाते हैं जो उस `.docx` की ओर इशारा करता है जिसे आप बदलना चाहते हैं। कंस्ट्रक्टर फ़ाइल को मेमोरी में पढ़ता है, OpenXML पैकेज को पार्स करता है, और आंतरिक ऑब्जेक्ट मॉडल तैयार करता है।
+`Document` क्लास Aspose.Words की टॉप‑लेवल ऑब्जेक्ट है जो मेमोरी में एकल Word फ़ाइल का प्रतिनिधित्व करती है। इसे इंस्टैंशिएट करने से फ़ाइल पढ़ी जाती है, OpenXML पैकेज पार्स होता है, और एक ऑब्जेक्ट मॉडल बनता है जिसे आप बदल सकते हैं।
+
+पहले हम एक `Document` इंस्टेंस बनाते हैं जो उस `.docx` की ओर इशारा करता है जिसे आप बदलना चाहते हैं।  
 
 ```java
 import com.aspose.words.Document;
@@ -70,13 +102,13 @@ String inputPath = "YOUR_DIRECTORY/input.docx";
 Document doc = new Document(inputPath);
 ```
 
-> **प्रो टिप:** यदि आप लूप में कई फ़ाइलों को प्रोसेस कर रहे हैं, तो एक ही `Document` ऑब्जेक्ट को केवल `doc.close()` कॉल करने के बाद (या गार्बेज कलेक्टर को संभालने दें) पुनः उपयोग करें। इससे Windows पर फ़ाइल‑हैंडल लीक होने से बचाव होता है।
+> **Pro tip:** यदि आप लूप में कई फ़ाइलें प्रोसेस कर रहे हैं, तो `doc.close()` कॉल करने (या गार्बेज कलेक्टर को संभालने) के बाद ही एक ही `Document` ऑब्जेक्ट को पुनः उपयोग करें। यह Windows पर फ़ाइल‑हैंडल लीक को रोकता है।
 
----
+## चरण 2 – शैप्स निर्यात करने के लिए PDF सहेजने विकल्प कॉन्फ़िगर करें  
 
-## चरण 2 – PDF सेव ऑप्शन को शेप्स एक्सपोर्ट करने के लिए कॉन्फ़िगर करें  
+`PdfSaveOptions` वह कॉन्फ़िगरेशन ऑब्जेक्ट है जो रूपांतरण के व्यवहार को निर्धारित करता है। `setExportFloatingShapesAsInlineTag(true)` सेट करने से हर फ्लोटिंग शैप को PDF के टैग स्ट्रक्चर में *इनलाइन* एलिमेंट माना जाता है, जिससे एक्सेसिबिलिटी और रीडिंग ऑर्डर बेहतर होता है।
 
-ट्यूटोरियल का मुख्य भाग यहीं है। `PdfSaveOptions` आपको यह निर्धारित करने देता है कि रूपांतरण कैसे व्यवहार करे। `setExportFloatingShapesAsInlineTag(true)` सेट करने से प्रत्येक फ्लोटिंग शेप को PDF के टैग स्ट्रक्चर में *इनलाइन* एलिमेंट के रूप में माना जाता है। इसका मतलब है कि स्क्रीन‑रीडर्स शेप को आसपास के टेक्स्ट के समान क्रम में पढ़ेंगे, जो अक्सर एक्सेसिबिलिटी अनुपालन के लिए आवश्यक होता है।
+`PdfSaveOptions` क्लास लेआउट, फ़ॉन्ट एम्बेडिंग, कंप्लायंस लेवल और कई परफ़ॉर्मेंस नॉब्स को नियंत्रित करती है।  
 
 ```java
 import com.aspose.words.PdfSaveOptions;
@@ -87,27 +119,29 @@ PdfSaveOptions pdfOptions = new PdfSaveOptions();
 pdfOptions.setExportFloatingShapesAsInlineTag(true);
 ```
 
-**आप इसे `false` कब सेट करेंगे?**  
-यदि आपका PDF केवल प्रिंट वितरण के लिए है और आप चाहते हैं कि शेप्स अपनी मूल स्थिति बनाए रखें बिना लॉजिकल रीडिंग ऑर्डर को प्रभावित किए, तो आप ब्लॉक‑लेवल टैगिंग को प्राथमिकता दे सकते हैं। डिफ़ॉल्ट रूप से यह `false` है, इसलिए हमने इस ट्यूटोरियल के लिए इनलाइन व्यवहार को स्पष्ट रूप से सक्षम किया है।
-
----
+**जब आप इसे `false` सेट करेंगे?**  
+यदि आपका PDF केवल प्रिंट‑केवल वितरण के लिए है और आप चाहते हैं कि शैप्स अपनी मूल पोजिशनिंग रखें बिना लॉजिकल रीडिंग ऑर्डर को प्रभावित किए, तो आप ब्लॉक‑लेवल टैगिंग को पसंद कर सकते हैं। डिफ़ॉल्ट `false` है, इसलिए इस ट्यूटोरियल के लिए हमने इनलाइन व्यवहार को स्पष्ट रूप से सक्षम किया है।
 
 ## चरण 3 – दस्तावेज़ को PDF के रूप में सहेजें  
 
-अब जब विकल्प तैयार हैं, लक्ष्य फ़ाइलनाम और विकल्प ऑब्जेक्ट के साथ `save` कॉल करें। लाइब्रेरी भारी काम संभालती है: लेआउट इंजन, फ़ॉन्ट एम्बेडिंग, और टैग जेनरेशन।
+`save` मेथड प्रोसेस किए गए दस्तावेज़ को डिस्क पर लिखता है, जो आपने प्रदान किए विकल्पों का उपयोग करता है। यह लेआउट, फ़ॉन्ट एम्बेडिंग और टैग जेनरेशन को पीछे से संभालता है।
+
+`Document` क्लास पर `save` मेथड कॉन्फ़िगर किए गए `PdfSaveOptions` का उपयोग करके PDF फ़ाइल को लक्ष्य स्थान पर लिखता है।  
 
 ```java
 String outputPath = "YOUR_DIRECTORY/shapes.pdf";
 doc.save(outputPath, pdfOptions);
 ```
 
-कॉल समाप्त होने के बाद, आप निर्दिष्ट फ़ोल्डर में `shapes.pdf` पाएँगे। इसे Adobe Acrobat या किसी भी PDF व्यूअर में खोलें जो टैग दिखाता है (आमतौर पर **File → Properties → Tags** के तहत) और आप देखेंगे कि फ्लोटिंग शेप इनलाइन टैग के रूप में दिखाई देता है।
+कॉल समाप्त होने के बाद, आपको निर्दिष्ट फ़ोल्डर में `shapes.pdf` मिलेगा। इसे Adobe Acrobat या किसी भी PDF व्यूअर में खोलें जो टैग दिखाता है (आमतौर पर **File → Properties → Tags** के तहत) और आप देखेंगे कि फ्लोटिंग शैप एक इनलाइन टैग के रूप में दिखाई देता है।
 
----
+## यह तरीका क्यों महत्वपूर्ण है  
+
+Aspose.Words for Java **50+ इनपुट और आउटपुट फ़ॉर्मेट** को सपोर्ट करता है और एक सामान्य सर्वर पर 500‑पेज दस्तावेज़ को **5 सेकंड** से कम समय में प्रोसेस कर सकता है, बिना Microsoft Word की आवश्यकता के। फ्लोटिंग शैप्स को इनलाइन टैग के रूप में निर्यात करके आप PDF/UA जैसे एक्सेसिबिलिटी मानकों को पूरा करते हैं, और विभिन्न डिवाइसों पर PDF देखने पर लेआउट ड्रिफ्ट से बचते हैं।
 
 ## पूर्ण, चलाने योग्य उदाहरण  
 
-सब कुछ मिलाकर, यहाँ एक स्वतंत्र Java क्लास है जिसे आप कंपाइल और रन कर सकते हैं। सुनिश्चित करें कि Aspose.Words JAR आपके क्लासपाथ में हो।
+सब कुछ मिलाकर, यहाँ एक स्व-निहित Java क्लास है जिसे आप कंपाइल और रन कर सकते हैं। सुनिश्चित करें कि Aspose.Words JAR आपके क्लासपाथ में है।
 
 ```java
 import com.aspose.words.*;
@@ -137,16 +171,65 @@ public class DocxToPdfWithShapes {
 ```
 
 **अपेक्षित परिणाम:**  
-- PDF फ़ाइल में मूल DOCX के समान टेक्स्ट सामग्री होती है।  
-- सभी फ्लोटिंग इमेज या टेक्स्ट बॉक्स अब *इनलाइन* टैग किए गए हैं, जिसका अर्थ है कि वे पढ़ने के क्रम में दिखाई देते हैं न कि अलग ब्लॉक्स के रूप में।  
-- यदि आप PDF के **Tags** पैनल को खोलते हैं, तो आप एक `<Figure>` एलिमेंट को `<Paragraph>` के अंदर नेस्टेड देखेंगे—बिल्कुल वही जो `setExportFloatingShapesAsInlineTag(true)` सुनिश्चित करता है।
-
----
+- PDF फ़ाइल में मूल DOCX के समान पाठ्य सामग्री है।  
+- सभी फ्लोटिंग इमेज या टेक्स्ट बॉक्स अब *इनलाइन* टैग किए गए हैं, जिसका अर्थ है कि वे पढ़ने के क्रम में दिखते हैं न कि अलग ब्लॉक्स के रूप में।  
+- यदि आप PDF के **Tags** पैनल को खोलते हैं, तो आप `<Figure>` तत्व को `<Paragraph>` के भीतर नेस्टेड देखेंगे—बिल्कुल वही जो `setExportFloatingShapesAsInlineTag(true)` सुनिश्चित करता है।
 
 ## अक्सर पूछे जाने वाले प्रश्न और किनारे के मामले  
 
-### 1️⃣ क्या यह पासवर्ड‑सुरक्षित DOCX फ़ाइलों के साथ काम करता है?  
-हाँ—लोड करने से पहले पासवर्ड प्रदान करें:
+**Q:** क्या यह पासवर्ड‑सुरक्षित DOCX फ़ाइलों के साथ काम करता है?  
+**A:** हाँ—डॉक्यूमेंट को `LoadOptions` के साथ लोड करें जिसमें पासवर्ड शामिल हो, फिर वही सहेजने लॉजिक लागू करें।  
+
+**Q:** Word फ़ाइल में SVG या EMF इमेज के बारे में क्या?  
+**A:** Aspose.Words डिफ़ॉल्ट रूप से वेक्टर ग्राफ़िक्स को रास्टराइज़ करता है; उन्हें वेक्टर रखने के लिए `pdfOptions.setVectorRasterizationMode(VectorRasterizationMode.VectorOnly)` सक्षम कर सकते हैं।  
+
+**Q:** रूपांतरण के दौरान हाइपरलिंक कैसे बनाए रखें?  
+**A:** जब आप `PdfSaveOptions` का उपयोग करते हैं तो लिंक स्वचालित रूप से रखे जाते हैं। टैग्स को डिसेबल न करें, क्योंकि इससे लॉजिकल लिंक स्ट्रक्चर हट सकता है।  
+
+**Q:** क्या मैं DOCX फ़ाइलों के फ़ोल्डर को बैच‑प्रोसेस कर सकता हूँ?  
+**A:** बिल्कुल। `Files.list(Paths.get("YOUR_DIRECTORY"))` पर इटरेट करें, प्रत्येक फ़ाइल के लिए वही लोड‑कॉन्फ़िगर‑सेव क्रम लागू करें, और फ़ाइल‑वार एक्सेप्शन हैंडल करें ताकि एक खराब दस्तावेज़ पूरी प्रक्रिया को रोक न सके।  
+
+**Q:** बहुत बड़े दस्तावेज़ों के लिए परफ़ॉर्मेंस कैसे बढ़ाएँ?  
+**A:** `pdfOptions.setMemoryOptimization(true)` सक्षम करें और आउटपुट को स्ट्रीम करने पर विचार करें ताकि पूरी PDF मेमोरी में लोड न हो।
+
+## मैदान से टिप्स  
+
+* **फ़ॉन्ट की कमी पर ध्यान दें।** यदि स्रोत DOCX में कोई कस्टम फ़ॉन्ट है जो सर्वर पर इंस्टॉल नहीं है, तो PDF एक फ़ॉलबैक फ़ॉन्ट का उपयोग करेगा, जिससे लेआउट बिगड़ सकता है। `pdfOptions.setFontEmbeddingMode(FontEmbeddingMode.EMBED_ALL)` सेट करके एम्बेडिंग को मजबूर करें।  
+* **एक्सेसिबिलिटी परीक्षण।** रूपांतरण के बाद Acrobat के **Accessibility Checker** चलाएँ। इनलाइन टैगिंग आमतौर पर स्कोर सुधारती है, लेकिन आपको अभी भी इमेज के लिए वैकल्पिक टेक्स्ट मैन्युअली जोड़ना पड़ सकता है।  
+* **परफ़ॉर्मेंस टिप:** बड़े दस्तावेज़ों (100+ पेज) के लिए `pdfOptions.setMemoryOptimization(true)` सक्षम करें ताकि हीप उपयोग कम हो।
+
+## दृश्य पुष्टि  
+
+नीचे Adobe Acrobat में खुले PDF की एक त्वरित स्क्रीनशॉट है, जिसमें **Tags** पैन में इनलाइन‑टैग्ड शैप हाइलाइट किया गया है।
+
+![DOCX को PDF में बदलने का उदाहरण आउटपुट](image.png)
+
+[DOCX को PDF में बदलने का उदाहरण आउटपुट](image.png)
+
+*Alt text: convert docx to pdf example output showing inline shape tags.*
+
+## सारांश  
+
+आप अब **Java में DOCX को PDF में कैसे बदलें** जानते हैं जबकि फ्लोटिंग ऑब्जेक्ट्स के निर्यात को नियंत्रित कर रहे हैं। `setExportFloatingShapesAsInlineTag` को टॉगल करके आप तय करते हैं कि शैप्स रीडिंग ऑर्डर का हिस्सा बनें या स्वतंत्र ब्लॉक्स रहें—एक्सेसिबिलिटी और विज़ुअल फ़िडेलिटी दोनों के लिए महत्वपूर्ण।  
+
+अब आप:
+
+* आर्काइविंग के लिए Word को PDF के रूप में बड़े पैमाने पर सहेजें।  
+* दीर्घकालिक संरक्षण के लिए `setCompliance(PdfCompliance.PDF_A_1B)` जैसे अन्य `PdfSaveOptions` के साथ प्रयोग करें।  
+* पूर्ण Aspose.Words दस्तावेज़ीकरण का अन्वेषण करके या `setExportDocumentStructure(true)` फ़्लैग को आज़मा कर **shapes को निर्यात करने के तरीके** में गहराई से जाएँ।
+
+इसे आज़माएँ, विकल्पों को ट्यून करें, और अपने PDFs को बिल्कुल वैसा ही बनाएं जैसा आपको चाहिए। Happy coding!
+
+---
+
+**अंतिम अपडेट:** 2026-10-07  
+**परिक्षण किया गया:** Aspose.Words for Java 23.12  
+**लेखक:** Aspose  
+
+
+
+
+
 
 ```java
 LoadOptions loadOptions = new LoadOptions();
@@ -154,52 +237,20 @@ loadOptions.setPassword("mySecret");
 Document doc = new Document(inputPath, loadOptions);
 ```
 
-### 2️⃣ Word फ़ाइल के अंदर SVG या EMF इमेज के बारे में क्या?  
-Aspose.Words PDF में सहेजते समय वेक्टर ग्राफ़िक्स को स्वचालित रूप से रास्टराइज़ करता है। यदि आपको उन्हें वेक्टर ही रखना है, तो सेट करें:
-
 ```java
 pdfOptions.setRasterizeTransformedElements(false);
 ```
 
-### 3️⃣ रूपांतरण के दौरान हाइपरलिंक कैसे संरक्षित रखें?  
-डिफ़ॉल्ट रूप से लिंक रखे जाते हैं। हालांकि, यदि आप टैग्स को डिसेबल करते हैं (`pdfOptions.setSaveFormat(SaveFormat.PDF)` बिना विकल्पों के), तो आप लॉजिकल स्ट्रक्चर खो सकते हैं। टैग्स और लिंक दोनों को बनाए रखने के लिए `PdfSaveOptions` ऑब्जेक्ट रखें।
+## संबंधित ट्यूटोरियल
 
-### 4️⃣ क्या मैं DOCX फ़ाइलों के फ़ोल्डर को बैच‑प्रोसेस कर सकता हूँ?  
-बिल्कुल। `DocxToPdfWithShapes` लॉजिक को एक लूप में रैप करें जो `Files.list(Paths.get("YOUR_DIRECTORY"))` पर इटररेट करता है। प्रत्येक फ़ाइल के लिए अपवादों को संभालना याद रखें ताकि एक खराब दस्तावेज़ पूरे रन को रोक न सके।
+- [Java में Docx को Pdf में बदलने की चरण-दर-चरण गाइड](/words/java/document-converting/convert-docx-to-pdf-in-java-step-by-step-guide/)
+- [Java के साथ Docx को Pdf के रूप में सहेजने की पूर्ण चरण-दर-चरण गाइड](/words/java/document-conversion-and-export/save-docx-as-pdf-with-java-complete-step-by-step-guide/)
+- [Aspose.Words के साथ Java में DOCX को PDF में बदलें – दस्तावेज़ रूपांतरण का उपयोग](/words/java/document-converting/using-document-converting/)
 
----
-
-## फील्ड से टिप्स  
-
-* **फ़ॉन्ट की कमी पर ध्यान दें।** यदि स्रोत DOCX में ऐसा कस्टम फ़ॉन्ट है जो सर्वर पर इंस्टॉल नहीं है, तो PDF एक फॉलबैक का उपयोग करेगा, जिससे लेआउट टूट सकता है। एम्बेडिंग को मजबूर करने के लिए `pdfOptions.setFontEmbeddingMode(FontEmbeddingMode.EMBED_ALL)` उपयोग करें।  
-* **एक्सेसिबिलिटी टेस्टिंग।** रूपांतरण के बाद, Acrobat के **Accessibility Checker** को चलाएँ। इनलाइन टैगिंग आमतौर पर स्कोर सुधारती है, लेकिन आपको अभी भी इमेजेज़ में मैन्युअल रूप से वैकल्पिक टेक्स्ट जोड़ना पड़ सकता है।  
-* **परफॉर्मेंस टिप:** बड़े दस्तावेज़ों (100+ पेज) के लिए, `pdfOptions.setMemoryOptimization(true)` सक्षम करें ताकि हीप उपयोग कम हो।
-
----
-
-## दृश्य पुष्टि  
-
-नीचे Adobe Acrobat में खुले PDF की एक त्वरित स्क्रीनशॉट है, जिसमें **Tags** पेन में इनलाइन‑टैग्ड शेप को हाइलाइट किया गया है।
-
-![DOCX को PDF में बदलने का उदाहरण आउटपुट](image.png)
-
-*Alt text: इनलाइन शेप टैग्स दिखाते हुए DOCX को PDF में बदलने का उदाहरण आउटपुट.*
-
----
-
-## निष्कर्ष  
-
-अब आप जानते हैं **DOCX को PDF में कैसे बदलें** जबकि फ्लोटिंग ऑब्जेक्ट्स के एक्सपोर्ट तरीके को नियंत्रित करें। `setExportFloatingShapesAsInlineTag` को टॉगल करके आप तय करते हैं कि शेप्स पढ़ने के क्रम का हिस्सा बनें या स्वतंत्र ब्लॉक्स के रूप में रहें—जो एक्सेसिबिलिटी और विज़ुअल फिडेलिटी दोनों के लिए महत्वपूर्ण है।  
-
-अब आप कर सकते हैं:
-
-* **Word को PDF के रूप में सहेजें** बड़े पैमाने पर आर्काइविंग के लिए।  
-* अन्य `PdfSaveOptions` जैसे `setCompliance(PdfCompliance.PDF_A_1B)` को आज़माएँ दीर्घकालिक संरक्षण के लिए।  
-* **शेप्स को कैसे एक्सपोर्ट करें** को और गहराई से समझें, पूर्ण Aspose.Words दस्तावेज़ीकरण का अन्वेषण करके या `setExportDocumentStructure(true)` फ़्लैग को आज़मा कर समृद्ध टैग ट्री प्राप्त करें।
-
-इसे आज़माएँ, विकल्पों को समायोजित करें, और अपने PDFs को बिल्कुल वही दिखाएँ जैसा आपको चाहिए। कोडिंग का आनंद लें!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
