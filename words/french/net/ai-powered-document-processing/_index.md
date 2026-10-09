@@ -50,6 +50,7 @@ Enfin, n'oubliez pas de consulter notre [Travailler avec les options de résumé
 | [Comment résumer des documents Word – Guide complet C#](./how-to-summarize-word-documents-complete-c-guide/) | Apprenez à résumer des documents Word avec Aspose.Words pour .NET en C#, étape par étape. |
 | [Comment corriger la grammaire dans les fichiers DOCX avec C# – Guide complet étape par étape](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Apprenez à corriger automatiquement les fautes de grammaire dans les documents DOCX avec C# et Aspose.Words. |
 | [Comment vérifier la grammaire dans les documents Word – Guide complet C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Apprenez à utiliser Aspose.Words pour .NET afin de vérifier la grammaire des documents Word avec un guide complet en C#. |
+| [Comment vérifier la grammaire avec un LLM local en C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Apprenez à utiliser un LLM local en C# pour analyser et corriger la grammaire de vos documents Word avec Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

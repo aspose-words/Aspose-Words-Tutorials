@@ -48,6 +48,7 @@ Metni farklı yazı tipleriyle biçimlendirmek, yazı tipi değiştirme kurallar
 | [Yazı Tiplerinin Bildirimlerini Alın](./receive-notifications-of-fonts/) | Aspose.Words for .NET kullanırken eksik veya değiştirilmiş yazı tipi bildirimlerinin nasıl alınacağını öğrenin. |
 | [Uyarı Bildirimi Alın](./receive-warning-notification/) Aspose.Words for .NET kullanırken uyarı bildiriminin nasıl alınacağını öğrenin ve belgelerinizdeki sorunları veya uyarıları yönetin. |
 | [C#'ta Uyarı Geri Çağrısını Ayarla – Yazı Tipi İşleme Tam Kılavuzu](./set-warning-callback-in-c-complete-guide-to-font-handling/) | Aspose.Words for .NET ile C#'ta yazı tipi uyarı geri çağrısını nasıl ayarlayacağınızı adım adım öğrenin. |
+| [Uyarıları Yakalama – Varsayılan Yazı Tipi Ayarlarını Belirleme](./how-to-capture-warnings-set-default-font-settings/) | Aspose.Words for .NET kullanarak uyarıları yakalama ve varsayılan yazı tipi ayarlarını belirleme adımlarını öğrenin. |
 | [Kaynak Steam Yazı Tipi Kaynak Örneği](./resource-steam-font-source-example/) | Aspose.Words for .NET'e özel yazı tiplerini yüklemek için Kaynak Akışı Yazı Tipi Kaynağını nasıl kullanacağınızı öğrenin. |
 | [Ekler Olmadan İkame Edin](./get-substitution-without-suffixes/) | Bu eğitimde, .NET için Aspose.Words ile Word belgesinde eksiz geçersiz kılmaların nasıl yapılacağını öğrenin. |
 | [C# ile Yazı Tipi Uyarılarını Yakalama – Tam Programlama Kılavuzu](./capture-font-warnings-in-c-complete-programming-guide/) | Aspose.Words for .NET kullanarak C# içinde yazı tipi uyarılarını yakalamayı ve yönetmeyi adım adım öğrenin. |

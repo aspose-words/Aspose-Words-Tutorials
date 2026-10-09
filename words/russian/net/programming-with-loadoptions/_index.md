@@ -59,6 +59,7 @@
 | [Загрузка повреждённого документа Word – обнаружение проблем и восстановление повреждённого docx в C#](./load-corrupted-word-document-detect-issues-recover-damaged-d/) | Узнайте, как загрузить повреждённый документ Word, обнаружить ошибки и восстановить повреждённый файл DOCX с помощью Aspose.Words для .NET. |
 | [Как восстановить DOCX – пошаговое руководство для повреждённых файлов](./how-to-recover-docx-step-by-step-guide-for-corrupt-files/) | Узнайте, как восстановить повреждённые файлы DOCX с помощью пошагового руководства. |
 | [Загрузка повреждённого DOCX в C# – Полное руководство Aspose.Words](./load-corrupted-docx-in-c-complete-aspose-words-guide/) | Узнайте, как загрузить повреждённый DOCX в C# с помощью Aspose.Words, следуя полному пошаговому руководству. |
+| [Как восстановить файлы DOCX – установить режим восстановления с Aspose](./how-to-recover-docx-files-set-recovery-mode-with-aspose/) | Узнайте, как восстановить файлы DOCX, задав режим восстановления с помощью Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

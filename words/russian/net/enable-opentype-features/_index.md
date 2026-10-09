@@ -22,6 +22,7 @@
 | --- | --- |
 | [Особенности открытого типа](./open-type-features/) | Узнайте, как включить функции OpenType в документах Word с помощью Aspose.Words для .NET с помощью этого подробного пошагового руководства. |
 | [Создать документ Word с Aspose.Words – пошаговое руководство](./create-word-document-with-aspose-words-step-by-step-guide/) | Узнайте, как создать документ Word с помощью Aspose.Words, следуя пошаговому руководству. |
+| [Создать документ Word с переменным шрифтом – Руководство](./create-word-document-with-variable-font-guide/) | Узнайте, как создать документ Word с использованием переменных шрифтов с помощью Aspose.Words для .NET. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

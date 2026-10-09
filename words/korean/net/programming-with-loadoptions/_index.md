@@ -38,6 +38,7 @@ Aspose.Words for .NET 튜토리얼은 LoadOptions를 사용하여 워드 프로�
 | [DOCX 파일 복구 방법 – 손상된 Word 문서 복원을 위한 완전 가이드](./how-to-recover-docx-files-complete-guide-to-restoring-corrup/) | Aspose.Words for .NET을 사용하여 손상된 DOCX 파일을 복구하고 원본 문서를 복원하는 단계별 가이드를 제공합니다. |
 | [Aspose.Words로 docx 복구하기 – 전체 가이드](./how-to-recover-docx-full-guide-with-aspose-words-recovery/) | Aspose.Words를 사용하여 손상된 docx 파일을 완전하게 복구하는 방법을 단계별로 안내합니다. |
 | [DOCX 복구하기 – 손상된 파일을 위한 단계별 가이드](./how-to-recover-docx-step-by-step-guide-for-corrupt-files/) | Aspose.Words for .NET을 사용하여 손상된 DOCX 파일을 복구하는 단계별 방법을 안내합니다. |
+| [DOCX 파일 복구 – Aspose로 복구 모드 설정](./how-to-recover-docx-files-set-recovery-mode-with-aspose/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 복구하고 복구 모드를 설정하는 단계별 가이드를 제공합니다. |
 | [Aspose Load Options – 사용자 정의 글꼴 설정으로 DOCX 로드](./aspose-load-options-load-docx-with-custom-font-settings/) | Aspose.Words for .NET에서 사용자 지정 글꼴을 설정하여 DOCX 파일을 로드하는 방법을 단계별로 안내합니다. |
 | [손상된 Word 문서 복구 – 완전한 C# 가이드](./recover-damaged-word-document-complete-c-guide/) | Aspose.Words for .NET을 사용하여 손상된 Word 문서를 C#으로 복구하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words로 손상된 docx 복구 – 복구 모드 및 로드 옵션 설정](./recover-damaged-docx-with-aspose-words-set-recovery-mode-and/) | Aspose.Words를 사용해 손상된 docx 파일을 복구하고 복구 모드와 로드 옵션을 설정하는 방법을 단계별로 안내합니다. |

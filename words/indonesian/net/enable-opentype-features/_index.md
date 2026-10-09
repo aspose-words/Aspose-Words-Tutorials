@@ -23,6 +23,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Fitur Tipe Terbuka](./open-type-features/) | Pelajari cara mengaktifkan fitur OpenType dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci ini. |
 | [Buat Dokumen Word dengan Aspose.Words – Panduan Langkah‑demi‑Langkah](./create-word-document-with-aspose-words-step-by-step-guide/) | Pelajari cara membuat dokumen Word menggunakan Aspose.Words dengan panduan langkah demi langkah yang mudah diikuti. |
 
+| [Buat Dokumen Word dengan Font Variabel – Panduan](./create-word-document-with-variable-font-guide/) | Pelajari cara membuat dokumen Word menggunakan font variabel dengan panduan langkah demi langkah ini. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

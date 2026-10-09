@@ -47,6 +47,7 @@ Quer você queira formatar texto com fontes diferentes, definir regras de substi
 | [Receber notificações de fontes](./receive-notifications-of-fonts/) | Aprenda como receber notificações de fontes ausentes ou substituídas ao usar o Aspose.Words para .NET. |
 | [Receber notificação de aviso](./receive-warning-notification/) Aprenda como receber uma notificação de aviso ao usar o Aspose.Words para .NET e gerencie quaisquer problemas ou avisos em seus documentos. |
 | [Capturar avisos de fonte em C# – Guia completo](./capture-font-warnings-in-c-complete-guide/) | Aprenda a capturar avisos de fontes ausentes ou substituídas ao usar Aspose.Words para .NET com C# neste guia completo. |
+| [Como Capturar Avisos – Definir Configurações de Fonte Padrão](./how-to-capture-warnings-set-default-font-settings/) | Aprenda a capturar avisos ao definir as configurações de fonte padrão usando Aspose.Words para .NET. |
 | [Exemplo de fonte de fonte do Resource Steam](./resource-steam-font-source-example/) | Aprenda a usar o Resource Stream Font Source para carregar fontes personalizadas no Aspose.Words para .NET. |
 | [Obtenha substituição sem sufixos](./get-substitution-without-suffixes/) | Neste tutorial, aprenda como obter substituições sem sufixo em um documento do Word com o Aspose.Words para .NET. |
 | [Capturar avisos de fonte em C# – Guia de programação completo](./capture-font-warnings-in-c-complete-programming-guide/) | Aprenda a capturar avisos de fontes ausentes ao usar Aspose.Words para .NET em C# com este guia completo. |

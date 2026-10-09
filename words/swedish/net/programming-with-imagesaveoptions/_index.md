@@ -32,6 +32,7 @@ Handledningarna täcker även de grundläggande koncepten för bildmanipulation,
 | [Spara Word som bilder med C# – Steg‑för‑steg‑guide](./save-word-as-images-with-c-step-by-step-guide/) | Lär dig hur du sparar ett Word-dokument som en serie bilder med C# i Aspose.Words för .NET, steg för steg. |
 | [Konvertera Word till PNG – Sammanfoga sidor till en vertikal remsa](./convert-word-to-png-merge-pages-into-a-vertical-strip/) | Lär dig hur du konverterar ett Word-dokument till en PNG-bild där alla sidor kombineras till en vertikal bildremsa. |
 | [Konvertera Word till PNG – Komplett C#-guide](./convert-word-to-png-complete-c-guide/) | Lär dig hur du konverterar Word-dokument till PNG-bilder med Aspose.Words för .NET i en komplett C#-guide. |
+| [Hur du anger DPI när du konverterar Word till PNG – Guide för högupplöst export](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) | Lär dig hur du ställer in DPI för högupplöst PNG-export från Word med Aspose.Words för .NET i en detaljerad guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

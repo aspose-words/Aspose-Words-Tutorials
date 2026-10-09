@@ -70,6 +70,7 @@ Of u nu tekst wilt opmaken met verschillende lettertypen, regels voor lettertype
 | [Hoe waarschuwingen vastleggen in Aspose.Words – Complete gids](./how-to-capture-warnings-in-aspose-words-complete-guide/) | Leer hoe u waarschuwingen in Aspose.Words kunt vastleggen en verwerken met een stapsgewijze handleiding. |
 | [Hoe FontSettings te gebruiken om ontbrekende lettertypen te verwerken in Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | Leer hoe u FontSettings kunt gebruiken om ontbrekende lettertypen in Word-documenten te beheren met Aspose.Words voor .NET. |
 | [Hoe lettertypen detecteren in C# – Callback gebruiken met Aspose.Words](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | Leer hoe u lettertypen detecteert in C# met een callback in Aspose.Words. |
+| [Hoe waarschuwingen vastleggen – Standaardlettertype-instellingen instellen](./how-to-capture-warnings-set-default-font-settings/) | Leer hoe u waarschuwingen kunt vastleggen en standaardlettertype-instellingen configureert in Aspose.Words voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

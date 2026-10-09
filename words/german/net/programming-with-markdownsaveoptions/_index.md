@@ -51,6 +51,8 @@ Erfahren Sie, wie Sie DOCX‑Dateien als Markdown speichern und dabei Bilder ext
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und dabei Bilder extrahieren – vollständige C#‑Anleitung.
 ### [Word zu Markdown konvertieren – Vollständige C#‑Anleitung mit Bildextraktion](./convert-word-to-markdown-full-guide-with-image-extraction/)
 Erfahren Sie, wie Sie Word‑Dokumente in Markdown konvertieren und dabei Bilder extrahieren – umfassende Schritt‑für‑Schritt‑Anleitung in C#.
+### [DOCX als Markdown speichern – Schritt‑für‑Schritt C#‑Tutorial](./save-docx-as-markdown-step-by-step-c-tutorial/)
+Erfahren Sie, wie Sie DOCX‑Dateien Schritt‑für‑Schritt in Markdown konvertieren – kompakte C#‑Anleitung.
 
 ### [Wie man Markdown aus Word exportiert – Vollständige C#‑Anleitung](./how-to-export-markdown-from-word-complete-c-guide/)
 Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words für .NET in Markdown exportieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
@@ -184,6 +186,9 @@ Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und dabei Zeilenum
 Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words für .NET vollständig in Markdown konvertieren – komplette C#‑Anleitung.
 
 ### [Word in Markdown konvertieren & Bilder aus DOCX extrahieren (C#)](./convert-word-to-markdown-extract-images-from-docx-c/)
+
+### [Word in Markdown konvertieren mit Aspose.Words – Vollständige C#‑Anleitung](./convert-word-to-markdown-with-aspose-words-full-c-guide/)
+Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words in Markdown konvertieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

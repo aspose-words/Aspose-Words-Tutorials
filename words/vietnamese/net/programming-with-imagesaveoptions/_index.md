@@ -32,6 +32,7 @@ Các hướng dẫn cũng đề cập đến các khái niệm cơ bản về th
 | [Lưu Word thành Hình ảnh với C# – Hướng Dẫn Từng Bước](./save-word-as-images-with-c-step-by-step-guide/) | Hướng dẫn chi tiết cách lưu tài liệu Word dưới dạng các hình ảnh bằng C# trong Aspose.Words cho .NET. |
 | [Chuyển đổi Word sang PNG – Ghép các trang thành dải dọc](./convert-word-to-png-merge-pages-into-a-vertical-strip/) | Hướng dẫn cách chuyển đổi tài liệu Word sang PNG và ghép các trang thành một dải ảnh dọc duy nhất bằng Aspose.Words cho .NET. |
 | [Chuyển đổi Word sang PNG – Hướng dẫn C# đầy đủ](./convert-word-to-png-complete-c-guide/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định dạng PNG bằng C# trong Aspose.Words cho .NET. |
+| [Cách Đặt DPI Khi Chuyển Đổi Word Sang PNG – Hướng Dẫn Xuất Độ Phân Giải Cao](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) | Hướng dẫn chi tiết cách xuất ảnh PNG với DPI cao khi chuyển đổi tài liệu Word bằng Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,6 +50,7 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | [Jak opravit gramatiku v souborech DOCX pomocí C# – Kompletní průvodce krok za krokem](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Naučte se pomocí Aspose.Words pro .NET opravit gramatické chyby v DOCX souborech pomocí C# v podrobném průvodci. |
 | [Shrnutí Word dokumentu s lokálním LLM – průvodce v C#](./summarize-word-document-with-local-llm-c-guide/) | Naučte se, jak pomocí lokálního modelu LLM v C# shrnout Word dokumenty bez odesílání dat do cloudu. |
 | [Jak zkontrolovat gramatiku v dokumentech Word – Kompletní průvodce v C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Naučte se pomocí Aspose.Words pro .NET kontrolovat gramatiku v dokumentech Word pomocí C#. |
+| [Jak zkontrolovat gramatiku pomocí lokálního LLM v C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Naučte se, jak pomocí lokálního LLM v C# kontrolovat gramatiku v dokumentech Word s Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

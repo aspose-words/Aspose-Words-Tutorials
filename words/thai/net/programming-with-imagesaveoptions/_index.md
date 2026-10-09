@@ -32,6 +32,7 @@
 - [บันทึก Word เป็นภาพด้วย C# – คู่มือทีละขั้นตอน](./save-word-as-images-with-c-step-by-step-guide/) | เรียนรู้วิธีบันทึกเอกสาร Word เป็นไฟล์ภาพหลายรูปแบบด้วย C# โดยใช้ Aspose.Words สำหรับ .NET อย่างละเอียด
 - [แปลง Word เป็น PNG – รวมหน้าต่อเป็นแถบแนวตั้ง](./convert-word-to-png-merge-pages-into-a-vertical-strip/) | เรียนรู้วิธีแปลงเอกสาร Word เป็น PNG พร้อมรวมหลายหน้าต่อเป็นแถบแนวตั้งเดียวในขั้นตอนเดียว
 - [แปลง Word เป็น PNG – คู่มือ C# ฉบับสมบูรณ์](./convert-word-to-png-complete-c-guide/) | เรียนรู้วิธีแปลงเอกสาร Word เป็นไฟล์ PNG อย่างละเอียดด้วย C# และ Aspose.Words สำหรับ .NET
+- [วิธีตั้งค่า DPI เมื่อแปลง Word เป็น PNG – คู่มือการส่งออกความละเอียดสูง](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) | เรียนรู้วิธีตั้งค่า DPI เพื่อส่งออกไฟล์ PNG จาก Word ด้วยความละเอียดสูงโดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

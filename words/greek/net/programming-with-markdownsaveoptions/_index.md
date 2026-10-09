@@ -77,6 +77,8 @@
 | [Μετατροπή Word σε Markdown – Πλήρης Οδηγός με Εξαγωγή Εικόνων](./convert-word-to-markdown-full-guide-with-image-extraction/) | Μάθετε πώς να μετατρέψετε έγγραφα Word σε Markdown με εξαγωγή εικόνων σε πλήρη οδηγό C#. |
 | [Μετατροπή docx σε markdown – Πλήρης οδηγός με διατήρηση αλλαγών γραμμής](./convert-docx-to-markdown-complete-guide-with-line-break-pres/) | Μάθετε πώς να μετατρέψετε αρχεία docx σε markdown διατηρώντας τις αλλαγές γραμμής με πλήρη οδηγό C#. |
 | [Αποθήκευση Word ως Markdown με Aspose.Words – Πλήρης Οδηγός C#](./save-word-as-markdown-with-aspose-words-full-c-guide/) | Μάθετε πώς να αποθηκεύσετε έγγραφα Word σε μορφή Markdown χρησιμοποιώντας Aspose.Words με πλήρη οδηγό C#. |
+| [Μετατροπή Word σε Markdown με Aspose.Words – Πλήρης Οδηγός C#](./convert-word-to-markdown-with-aspose-words-full-c-guide/) | Μάθετε πώς να μετατρέψετε έγγραφα Word σε Markdown χρησιμοποιώντας το Aspose.Words με πλήρη οδηγό C#. |
+| [Αποθήκευση docx ως markdown – Οδηγός βήμα‑βήμα C#](./save-docx-as-markdown-step-by-step-c-tutorial/) | Μάθετε πώς να αποθηκεύσετε αρχεία docx ως markdown με οδηγίες βήμα‑βήμα σε C# χρησιμοποιώντας Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

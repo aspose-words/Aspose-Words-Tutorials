@@ -22,6 +22,7 @@
 -
 - [คุณสมบัติประเภทเปิด](./open-type-features/) | เรียนรู้วิธีเปิดใช้งานคุณลักษณะ OpenType ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้
 - [สร้างเอกสาร Word ด้วย Aspose.Words – คู่มือขั้นตอนโดยละเอียด](./create-word-document-with-aspose-words-step-by-step-guide/) | เรียนรู้วิธีสร้างเอกสาร Word ด้วย Aspose.Words สำหรับ .NET ด้วยคู่มือขั้นตอนโดยละเอียดนี้
+- [สร้างเอกสาร Word ด้วยฟอนต์ตัวแปร – คู่มือ](./create-word-document-with-variable-font-guide/) | เรียนรู้วิธีสร้างเอกสาร Word ที่ใช้ฟอนต์ตัวแปรด้วย Aspose.Words สำหรับ .NET ผ่านขั้นตอนที่ง่ายและครบถ้วน
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

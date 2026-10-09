@@ -179,6 +179,12 @@ Lär dig konvertera DOCX till Markdown och bevara radbrytningar för exakt textf
 ### [Spara Word som Markdown med Aspose.Words – Fullständig C#-guide](./save-word-as-markdown-with-aspose-words-full-c-guide/)
 Lär dig hur du sparar Word-dokument som Markdown med Aspose.Words i en komplett C#‑guide.
 
+### [Konvertera Word till Markdown med Aspose.Words – Fullständig C#-guide](./convert-word-to-markdown-with-aspose-words-full-c-guide/)
+Lär dig konvertera Word-dokument till Markdown med en komplett C#-guide som täcker alla steg.
+
+### [Spara docx som markdown – Steg‑för‑steg C#‑guide](./save-docx-as-markdown-step-by-step-c-tutorial/)
+Lär dig spara DOCX-filer som Markdown med en detaljerad steg‑för‑steg‑guide i C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

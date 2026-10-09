@@ -23,6 +23,7 @@ Learn how to enable OpenType features in your Word documents with Aspose.Words f
 | --- | --- |
 | [Open Type Features](./open-type-features/) | Learn how to enable OpenType features in Word documents using Aspose.Words for .NET with this detailed, step-by-step guide. |
 | [Create Word Document with Aspose.Words – Step‑by‑Step Guide](./create-word-document-with-aspose-words-step-by-step-guide/) | Step-by-step guide to creating Word documents using Aspose.Words for .NET. |
+| [Create Word Document with Variable Font – Guide](./create-word-document-with-variable-font-guide/) | Learn how to create a Word document using variable fonts with Aspose.Words for .NET in this step-by-step guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

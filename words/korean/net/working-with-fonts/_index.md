@@ -70,6 +70,7 @@
 | [Aspose.Words에서 누락된 글꼴을 처리하기 위해 FontSettings 사용 방법](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | Aspose.Words for .NET에서 누락된 글꼴을 감지하고 대체하도록 FontSettings를 설정하는 단계별 가이드입니다. |
 
 | [C#에서 글꼴 감지하기 – Aspose.Words와 콜백 사용](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | Aspose.Words for .NET을 사용하여 콜백을 통해 C#에서 문서의 글꼴을 감지하고 처리하는 방법을 단계별로 안내합니다. |
+| [경고 캡처 방법 – 기본 글꼴 설정](./how-to-capture-warnings-set-default-font-settings/) | Aspose.Words for .NET을 사용하여 경고를 캡처하고 기본 글꼴 설정을 지정하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

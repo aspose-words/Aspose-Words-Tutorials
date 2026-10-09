@@ -65,6 +65,7 @@ Word文書をPDFに変換してオンライン配信、アーカイブ、印刷�
 | [Aspose を使用して Word からアクセシブル PDF を作成する – ステップバイステップ ガイド](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) Aspose.Words for .NET を使い、Word 文書からアクセシブルな PDF を作成する手順を詳しく解説します。 |
 | [C#でWordからPDF UAを作成する – ステップバイステップ ガイド](./create-pdf-ua-from-word-in-c-step-by-step-guide/) Aspose.Words for .NET を使用して、C# で Word 文書から PDF UA を作成する方法をステップバイステップで学びます。 |
 | [C#でWordからPDFを作成する方法 – 完全ガイド](./how-to-create-pdf-from-word-in-c-complete-guide/) Aspose.Words for .NET を使用して、C# で Word 文書を PDF に変換する手順をステップバイステップで解説します。 |
+| [C#でWordをPDFとして保存 – 形状エクスポート付きDOCXからPDFへの完全ガイド](./save-word-as-pdf-in-c-full-guide-to-convert-docx-to-pdf-with/) Aspose.Words for .NET を使用して、C# で DOCX を PDF に変換し、図形をエクスポートする完全ガイドです。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

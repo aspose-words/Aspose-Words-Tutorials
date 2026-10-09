@@ -33,6 +33,7 @@
 | [Docx 转 Txt](./docx-to-txt/) 使用 Aspose.Words for .NET 将 DOCX 转换为 TXT，并遵循我们的分步指南。学习如何高效轻松地转换文档。|
 | [如何将 docx 保存为 txt – 转换 docx，提取 LaTeX](./how-to-save-docx-as-txt-convert-docx-extract-latex/) | 学习使用 Aspose.Words for .NET 将 DOCX 转换为 TXT 并提取 LaTeX 内容，提供分步指南和代码示例。|
 | [将 Docx 保存为 Txt – 完整指南：将 Word 文件转换为纯文本](./save-docx-as-txt-complete-guide-to-converting-word-files-to/) | 学习如何使用 Aspose.Words for .NET 将 Docx 转换为纯文本 Txt，提供分步指南和代码示例，帮助实现高效文档处理。|
+| [Docx 转 Txt – 导出 Word 方程为 LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/) | 学习如何使用 Aspose.Words for .NET 将 DOCX 转换为 TXT 并将 Word 方程导出为 LaTeX，提供分步指南和代码示例。|
 | [将文本文件转换为 Word 文档](./txt-to-docx/) 了解如何使用 Aspose.Words for .NET 将文本文件转换为 Word 文档。使用我们全面的指南高效管理文档转换。| 
 | [将 PDF 保存为 Jpeg](./pdf-to-jpeg/) | 使用 Aspose.Words for .NET 轻松将 PDF 转换为 JPEG。遵循我们包含示例和常见问题解答的详细指南。非常适合开发人员和爱好者。|
 | [将 PDF 保存为 Word 格式 (Docx)](./pdf-to-docx/) | 学习如何使用 Aspose.Words for .NET 将 PDF 转换为 Word 文档 (Docx)，本指南详细分步，非常适合开发人员。|
@@ -59,6 +60,7 @@
 | [创建可访问的 PDF – 将 Word 转换为 PDF](./create-accessible-pdf-convert-word-to-pdf/) | 学习如何使用 Aspose.Words for .NET 将 Word 文档转换为符合可访问性标准的 PDF，提供分步指南和代码示例。|
 | [如何在 C# 中将 DOCX 转换为 PDF – 步骤指南](./how-to-create-pdf-from-docx-in-c-step-by-step-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 DOCX 文件转换为 PDF，提供分步指南和代码示例。|
 | [将 DOCX 转换为 PDF – 生成可访问 PDF（PDF/UA）](./convert-docx-to-pdf-generate-accessible-pdf-pdf-ua/) | 学习如何使用 Aspose.Words for .NET 将 DOCX 转换为符合 PDF/UA 标准的可访问 PDF，提供分步指南和代码示例。|
+| [在 C# 中将 DOCX 转换为 PDF – 步骤指南](./convert-docx-to-pdf-in-c-step-by-step-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 DOCX 转换为 PDF，提供分步指南和代码示例。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

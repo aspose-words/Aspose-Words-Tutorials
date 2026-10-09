@@ -65,6 +65,7 @@ Que vous souhaitiez convertir des documents Word en PDF pour une distribution en
 | [Créer un PDF UA à partir de Word en C# – Guide étape par étape](./create-pdf-ua-from-word-in-c-step-by-step-guide/) | Apprenez à générer un PDF UA conforme aux normes à partir d'un document Word en C# avec Aspose.Words pour .NET, étape par étape. |
 
 | [Comment créer un PDF à partir de Word en C# – Guide complet](./how-to-create-pdf-from-word-in-c-complete-guide/) | Apprenez à générer un PDF à partir d'un document Word en C# avec Aspose.Words, étape par étape. |
+| [Enregistrer Word en PDF en C# – Guide complet pour convertir DOCX en PDF avec exportation de formes](./save-word-as-pdf-in-c-full-guide-to-convert-docx-to-pdf-with/) | Apprenez à convertir des fichiers DOCX en PDF en C# avec Aspose.Words, incluant l'exportation des formes, grâce à ce guide complet. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

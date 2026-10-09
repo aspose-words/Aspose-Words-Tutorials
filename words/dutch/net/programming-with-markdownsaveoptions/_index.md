@@ -185,6 +185,11 @@ Leer hoe u docx-bestanden naar markdown converteert met behoud van regeleinden i
 
 Leer hoe u Word-documenten opslaat als Markdown met een volledige C#‑handleiding en Aspose.Words.
 
+### [Word converteren naar Markdown met Aspose.Words – Volledige C#-gids](./convert-word-to-markdown-with-aspose-words-full-c-guide/)
+
+### [Docx opslaan als markdown – Stapsgewijze C#‑tutorial](./save-docx-as-markdown-step-by-step-c-tutorial/)
+Leer hoe u een DOCX-bestand stap voor stap omzet naar Markdown met C# en Aspose.Words.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -15,7 +15,7 @@
 
 # Imagesaveoptions ile Kelime İşleme
 
-Aspose.Words for .NET öğreticileri ImageSaveOptions ile Word İşleme konusunda Word belgelerinizdeki gelişmiş görüntü işleme özelliklerinde ustalaşmanıza yardımcı olacaktır. Bu adım adım öğreticiler, sıkıştırma, görüntü biçimini seçme, görüntü kalitesini ayarlama ve daha fazlası dahil olmak üzere görüntü kaydetme seçeneklerini kullanma konusunda size rehberlik edecektir. Belgeleri oluştururken veya dönüştürürken görüntü işlemeyi nasıl özelleştireceğinizi öğreneceksiniz ve bu da Word dosyalarınızdaki görüntülerin görünümü ve boyutu üzerinde size kesin bir kontrol sağlayacaktır.
+Aspose.Words for .NET öğreticileri ImageSaveOptions ile Word İşleme konusunda Word belgelerinizdeki gelişmiş görüntü işleme özelliklerinde ustalaşmanıza yardımcı olacaktır. Bu adım adım öğreticiler, sıkıştırma, görüntü biçimini seçme, görüntü kalitesini ayarlama ve daha fazlası dahil olmak üzere görüntü kaydetme seçeneklerini kullanma konusunda size rehberlik edecektir. Belgeleri oluştururken veya dönüştürürken görüntü işlemeyi nasıl özelleştireceğinizi öğreneceksiniz ve bu da Word dosyalarınızın görüntülerin görünümü ve boyutu üzerinde size kesin bir kontrol sağlayacaktır.
 
 Eğitimler ayrıca, Aspose.Words for .NET kullanarak bir Word belgesine resim ekleme, silme, yeniden boyutlandırma ve kırpma gibi temel resim düzenleme kavramlarını da kapsar. Word belgelerinden resimleri nasıl çıkaracağınızı, bunları başka resimlerle nasıl değiştireceğinizi ve konumlarını, hizalamalarını ve sarmalarını nasıl ayarlayacağınızı öğreneceksiniz. Bu eğitimler, Word belgelerinizdeki resimleri yönetmek için otomatik ve etkili iş akışları oluşturmanıza olanak tanıyarak, Word dosyalarınızın görsel öğelerini kolayca ve etkili bir şekilde düzenleme becerileri kazandırır.
 
@@ -32,6 +32,7 @@ Eğitimler ayrıca, Aspose.Words for .NET kullanarak bir Word belgesine resim ek
 | [Word'ü PNG'ye Dönüştür – Sayfaları Dikey Şeride Birleştir](./convert-word-to-png-merge-pages-into-a-vertical-strip/) | Aspose.Words for .NET kullanarak bir Word belgesinin sayfalarını tek bir dikey PNG şeridi olarak birleştirmeyi öğrenin. |
 | [Word Belgesinden PNG Izgara Oluşturma – Adım Adım Kılavuz](./create-png-grid-from-word-document-step-by-step-guide/) | Aspose.Words for .NET kullanarak bir Word belgesindeki sayfaları PNG ızgarasına dönüştürmeyi ve düzenlemeyi adım adım öğrenin. |
 | [C# ile Word'ü Görüntülere Kaydet – Adım Adım Kılavuz](./save-word-as-images-with-c-step-by-step-guide/) | Aspose.Words for .NET kullanarak bir Word belgesini farklı görüntü formatlarında kaydetmeyi adım adım öğrenin. |
+| [Word'ü PNG'ye Dönüştürürken DPI Nasıl Ayarlanır – Yüksek Çözünürlük Rehberi](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) | Aspose.Words for .NET ile Word belgelerini PNG'ye yüksek çözünürlükte dönüştürürken DPI ayarını nasıl yapacağınızı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

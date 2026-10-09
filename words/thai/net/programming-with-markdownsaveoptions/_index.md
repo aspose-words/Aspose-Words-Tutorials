@@ -155,6 +155,11 @@
 
 ### [แปลง Word เป็น Markdown และสกัดรูปภาพจาก DOCX (C#)](./convert-word-to-markdown-extract-images-from-docx-c/)
 
+### [แปลง Word เป็น Markdown ด้วย Aspose.Words – คู่มือเต็ม C#](./convert-word-to-markdown-with-aspose-words-full-c-guide/)
+
+### [บันทึก docx เป็น markdown – คู่มือขั้นตอนโดยขั้นตอน C#](./save-docx-as-markdown-step-by-step-c-tutorial/)
+เรียนรู้วิธีบันทึกไฟล์ docx เป็น markdown อย่างละเอียดด้วย C# ตามขั้นตอนที่ชัดเจน
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

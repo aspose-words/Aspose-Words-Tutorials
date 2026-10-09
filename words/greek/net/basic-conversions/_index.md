@@ -58,6 +58,8 @@
 | [Αποθήκευση Word ως PDF με Aspose.Words – Οδηγός βήμα‑βήμα](./save-word-as-pdf-with-aspose-words-step-by-step-guide/) | Μάθετε πώς να αποθηκεύετε έγγραφα Word ως PDF χρησιμοποιώντας το Aspose.Words σε C# με οδηγίες βήμα‑βήμα. |
 | [Πώς να δημιουργήσετε PDF από DOCX σε C# – Οδηγός βήμα‑βήμα](./how-to-create-pdf-from-docx-in-c-step-by-step-guide/) | Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF χρησιμοποιώντας C# και Aspose.Words με οδηγίες βήμα‑βήμα. |
 | [Μετατροπή DOCX σε PDF – Δημιουργία Προσβάσιμου PDF (PDF/UA)](./convert-docx-to-pdf-generate-accessible-pdf-pdf-ua/) | Μάθετε πώς να μετατρέπετε DOCX σε PDF με υποστήριξη PDF/UA για προσβάσιμα έγγραφα, χρησιμοποιώντας Aspose.Words για .NET. |
+| [Μετατροπή DOCX σε PDF σε C# – Οδηγός βήμα‑βήμα](./convert-docx-to-pdf-in-c-step-by-step-guide/) | Μάθετε πώς να μετατρέπετε αρχεία DOCX σε PDF με C# και Aspose.Words, ακολουθώντας οδηγίες βήμα‑βήμα. |
+| [Μετατροπή docx σε txt – Εξαγωγή εξισώσεων Word σε LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/) | Μάθετε πώς να μετατρέπετε αρχεία docx σε txt και να εξάγετε τις εξισώσεις Word σε LaTeX. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

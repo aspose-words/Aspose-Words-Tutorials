@@ -22,6 +22,8 @@ Aspose.Words for .NET を使って、Word 文書で OpenType 機能を有効に�
 | --- | --- |
 | [オープンタイプの機能](./open-type-features/) この詳細なステップバイステップ ガイドでは、Aspose.Words for .NET を使用して Word 文書で OpenType 機能を有効にする方法を学習します。 |
 | [Aspose.Words で Word 文書を作成する – ステップバイステップ ガイド](./create-word-document-with-aspose-words-step-by-step-guide/) Aspose.Words for .NET を使用して、Word 文書を作成する手順をステップバイステップで解説します。 |
+| [可変フォントで Word 文書を作成する – ガイド](./create-word-document-with-variable-font-guide/) このガイドでは、Aspose.Words for .NET を使用して可変フォントを利用した Word 文書の作成方法をステップバイステップで解説します。 |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

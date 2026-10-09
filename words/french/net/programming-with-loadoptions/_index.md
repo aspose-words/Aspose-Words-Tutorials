@@ -59,6 +59,7 @@ Dans ces tutoriels, vous apprendrez à utiliser LoadOptions pour charger des doc
 | [Charger un document Word corrompu – Détecter les problèmes et récupérer un docx endommagé en C#](./load-corrupted-word-document-detect-issues-recover-damaged-d/) | Apprenez à détecter les problèmes d'un document Word corrompu et à récupérer un fichier DOCX endommagé avec Aspose.Words pour .NET en C#. |
 | [Comment récupérer un DOCX – Guide étape par étape pour les fichiers corrompus](./how-to-recover-docx-step-by-step-guide-for-corrupt-files/) | Apprenez à récupérer un fichier DOCX corrompu avec Aspose.Words pour .NET grâce à ce guide détaillé étape par étape. |
 | [Charger un DOCX corrompu en C# – Guide complet Aspose.Words](./load-corrupted-docx-in-c-complete-aspose-words-guide/) | Apprenez à charger et réparer des fichiers DOCX corrompus en C# avec Aspose.Words grâce à ce guide complet étape par étape. |
+| [Comment récupérer des fichiers DOCX – définir le mode de récupération avec Aspose](./how-to-recover-docx-files-set-recovery-mode-with-aspose/) | Apprenez à activer le mode de récupération pour restaurer des fichiers DOCX endommagés avec Aspose.Words pour .NET. Guide étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

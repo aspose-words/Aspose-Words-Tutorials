@@ -34,6 +34,7 @@
 | [Docx を Txt に保存 – Word の数式を LaTeX にエクスポートする完全ガイド](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) Aspose.Words for .NET を使用して、Docx ファイルを Txt に保存し、Word の数式を LaTeX 形式でエクスポートする方法をステップバイステップで解説します。 |
 | [LaTeX 方程式を含む docx を txt に変換 – Aspose.Words ガイド](./convert-docx-to-txt-with-latex-equations-aspose-words-guide/) Aspose.Words for .NET を使用して、LaTeX 方程式を含む DOCX を TXT に変換する方法をステップバイステップで解説します。 |
 | [Docx を txt に保存 – Word ファイルをプレーンテキストに変換する完全ガイド](./save-docx-as-txt-complete-guide-to-converting-word-files-to/) Aspose.Words for .NET を使用して、Docx ファイルをテキスト形式に変換し、保存する手順を詳しく解説します。コード例付き。 |
+| [docx を txt に変換 – Word の数式を LaTeX としてエクスポート](./convert-docx-to-txt-export-word-equations-as-latex/) Aspose.Words for .NET を使用して、docx を txt に変換し、Word の数式を LaTeX 形式でエクスポートする方法をステップバイステップで解説します。 |
 | [テキストファイルをWord文書に変換する](./txt-to-docx/) Aspose.Words for .NET を使用してテキストファイルをWord文書に変換する方法を学びましょう。包括的なガイドで、ドキュメント変換を効率的に管理できます。 | 
 | [PDFをJPEGとして保存](./pdf-to-jpeg/) Aspose.Words for .NET を使えば、PDF を簡単に JPEG に変換できます。サンプルや FAQ をまとめた詳細なガイドをご覧ください。開発者や熱心な方に最適です。 |
 | [PDF を Word 形式 (Docx) に保存する](./pdf-to-docx/) Aspose.Words for .NET を使用してPDFをWord文書（Docx）に変換する方法を、この詳細なステップバイステップガイドで学びましょう。開発者に最適です。 |
@@ -51,6 +52,7 @@
 | [Aspose.WordsでWordをPDFとして保存 – ステップバイステップ ガイド](./save-word-as-pdf-with-aspose-words-step-by-step-guide/) Aspose.Words for .NET を使用して Word 文書を PDF に変換する手順をステップバイステップで解説します。コード例付きで開発者に最適です。 |
 | [Docx を Txt として保存する方法 – Docx を変換し LaTeX を抽出](./how-to-save-docx-as-txt-convert-docx-extract-latex/) Aspose.Words for .NET を使用して DOCX を TXT に変換し、LaTeX を抽出する方法をステップバイステップで解説します。 |
 | [C#でDOCXからPDFを作成する方法 – ステップバイステップガイド](./how-to-create-pdf-from-docx-in-c-step-by-step-guide/) Aspose.Words for .NET を使用して、C# で DOCX ファイルを PDF に変換する手順を詳しく解説します。コード例付きで開発者に最適です。 |
+| [C# で DOCX を PDF に変換する – ステップバイステップ ガイド](./convert-docx-to-pdf-in-c-step-by-step-guide/) Aspose.Words for .NET を使用して C# で DOCX ファイルを PDF に変換する方法を、ステップバイステップで解説します。コード例付きで開発者に最適です。 |
 
 | [DOCX からアクセシブル PDF を作成する – 完全 Aspose ガイド](./create-accessible-pdf-from-docx-complete-aspose-guide/) Aspose.Words for .NET を使用して、DOCX からアクセシブルな PDF を生成する方法をステップバイステップで解説します。コード例付きで開発者に最適です。 |
 | [C# で PNG を Base64 に変換する – 完全ガイド](./convert-png-to-base64-in-c-complete-guide/) C# で PNG 画像を Base64 文字列に変換する方法を、コード例と共にステップバイステップで解説します。 |

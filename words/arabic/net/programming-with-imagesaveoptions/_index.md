@@ -32,6 +32,7 @@
 | [حفظ مستند Word كصور باستخدام C# – دليل خطوة بخطوة](./save-word-as-images-with-c-step-by-step-guide/) |تعلم كيفية حفظ مستندات Word كصور باستخدام C# مع خطوات مفصلة وإعدادات مخصصة. |
 | [تحويل Word إلى PNG – دمج الصفحات في شريط عمودي](./convert-word-to-png-merge-pages-into-a-vertical-strip/) |تعلم كيفية دمج صفحات مستند Word في صورة PNG واحدة على شكل شريط عمودي باستخدام Aspose.Words لـ .NET. |
 | [تحويل Word إلى PNG – دليل C# كامل](./convert-word-to-png-complete-c-guide/) |تعلم كيفية تحويل مستندات Word إلى صور PNG باستخدام C# مع Aspose.Words for .NET خطوة بخطوة. |
+| [كيفية ضبط DPI عند تحويل Word إلى PNG – دليل التصدير عالي الدقة](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) |تعلم كيفية تعيين قيمة DPI عند تحويل مستندات Word إلى PNG بجودة عالية باستخدام Aspose.Words for .NET مع مثال كامل. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

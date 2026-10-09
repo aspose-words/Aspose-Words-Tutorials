@@ -66,6 +66,7 @@ Of u nu Word-documenten naar PDF wilt converteren voor online distributie, archi
 | [Toegankelijke PDF maken vanuit Word met Aspose – Stapsgewijze handleiding](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) | Leer hoe u een toegankelijke PDF genereert vanuit een Word-document met Aspose.Words voor .NET in een stapsgewijze handleiding. |
 | [PDF UA maken vanuit Word in C# – Stapsgewijze handleiding](./create-pdf-ua-from-word-in-c-step-by-step-guide/) | Leer hoe u PDF/UA-bestanden genereert vanuit Word met Aspose.Words voor .NET in C# via een gedetailleerde stap‑voor‑stap handleiding. |
 | [Hoe PDF maken vanuit Word in C# – Complete gids](./how-to-create-pdf-from-word-in-c-complete-guide/) | Leer stap voor stap hoe u met Aspose.Words voor .NET een PDF genereert vanuit een Word-document in C#. |
+| [Word opslaan als PDF in C# – Volledige gids om DOCX naar PDF te converteren met vormexport](./save-word-as-pdf-in-c-full-guide-to-convert-docx-to-pdf-with/) | Leer hoe u Word-documenten in C# naar PDF converteert, inclusief export van vormen, met Aspose.Words voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -22,6 +22,7 @@
 | --- | --- |
 | [ميزات النوع المفتوح](./open-type-features/) |تعرف على كيفية تمكين ميزات OpenType في مستندات Word باستخدام Aspose.Words لـ .NET باستخدام هذا الدليل المفصل خطوة بخطوة. |
 | [إنشاء مستند Word باستخدام Aspose.Words – دليل خطوة بخطوة](./create-word-document-with-aspose-words-step-by-step-guide/) |تعرف على كيفية إنشاء مستند Word باستخدام Aspose.Words من خلال دليل خطوة بخطوة. |
+| [إنشاء مستند Word بخط متغيّر – دليل](./create-word-document-with-variable-font-guide/) |تعرف على كيفية إنشاء مستند Word باستخدام خطوط متغيرة مع Aspose.Words لـ .NET. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

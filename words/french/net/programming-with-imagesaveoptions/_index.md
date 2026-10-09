@@ -31,6 +31,7 @@ Ces tutoriels abordent également les concepts de base de la manipulation d'imag
 | [Créer une grille PNG à partir d'un document Word – Guide étape par étape](./create-png-grid-from-word-document-step-by-step-guide/) | Apprenez à générer une grille d'images PNG à partir d'un document Word en suivant ce guide complet étape par étape avec Aspose.Words pour .NET. |
 | [Enregistrer Word en images avec C# – Guide étape par étape](./save-word-as-images-with-c-step-by-step-guide/) | Apprenez à convertir un document Word en images avec C# en suivant ce guide complet étape par étape. |
 | [Convertir Word en PNG – Guide complet C#](./convert-word-to-png-complete-c-guide/) | Apprenez à convertir un document Word en image PNG avec Aspose.Words pour .NET grâce à ce guide complet en C#. |
+| [Comment définir le DPI lors de la conversion de Word en PNG – Guide d'exportation haute résolution](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) | Apprenez à exporter des images PNG haute résolution depuis Word en définissant le DPI avec Aspose.Words pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

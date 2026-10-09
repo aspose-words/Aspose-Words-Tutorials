@@ -65,6 +65,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat PDF Aksesibel dari Word dengan Aspose – Panduan Langkah demi Langkah](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) | Pelajari cara membuat PDF yang dapat diakses dari dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. |
 | [Buat PDF UA dari Word di C# – Panduan Langkah demi Langkah](./create-pdf-ua-from-word-in-c-step-by-step-guide/) | Pelajari cara membuat PDF/UA dari dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh kode C# langkah demi langkah. |
 | [Cara Membuat PDF dari Word di C# – Panduan Lengkap](./how-to-create-pdf-from-word-in-c-complete-guide/) | Panduan lengkap langkah demi langkah untuk mengonversi dokumen Word menjadi PDF menggunakan C# dan Aspose.Words. |
+| [Simpan Word sebagai PDF di C# – Panduan Lengkap Mengonversi DOCX ke PDF dengan Ekspor Bentuk](./save-word-as-pdf-in-c-full-guide-to-convert-docx-to-pdf-with/) | Pelajari cara menyimpan dokumen Word ke PDF di C# termasuk mengekspor bentuk dengan panduan langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

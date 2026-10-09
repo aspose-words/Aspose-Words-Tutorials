@@ -32,6 +32,7 @@ Os tutoriais também abordam os conceitos básicos de manipulação de imagens, 
 | [Salvar Word como Imagens com C# – Guia Passo a Passo](./save-word-as-images-with-c-step-by-step-guide/) | Aprenda a salvar documentos Word como imagens usando C# com o Aspose.Words para .NET neste guia passo a passo. |
 | [Converter Word para PNG – Mesclar Páginas em uma Faixa Vertical](./convert-word-to-png-merge-pages-into-a-vertical-strip/) | Aprenda a converter um documento Word em PNG mesclando várias páginas em uma única imagem vertical. |
 | [Converter Word para PNG – Guia Completo em C#](./convert-word-to-png-complete-c-guide/) | Aprenda a converter documentos Word para PNG usando Aspose.Words para .NET com este guia passo a passo. |
+| [Como Definir DPI ao Converter Word para PNG – Guia de Exportação em Alta Resolução](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) | Aprenda a exportar imagens PNG em alta resolução definindo o DPI ao converter documentos Word com Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

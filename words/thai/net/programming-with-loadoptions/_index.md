@@ -57,6 +57,7 @@
 | [โหลดเอกสาร Word ที่เสียหาย – ตรวจจับปัญหาและกู้คืนไฟล์ docx ที่เสียใน C#](./load-corrupted-word-document-detect-issues-recover-damaged-d/) | เรียนรู้วิธีตรวจจับและกู้คืนไฟล์ docx ที่เสียหายโดยใช้ Aspose.Words สำหรับ .NET ใน C# |
 | [วิธีกู้คืนไฟล์ DOCX – คู่มือขั้นตอนต่อขั้นตอนสำหรับไฟล์เสียหาย](./how-to-recover-docx-step-by-step-guide-for-corrupt-files/) | เรียนรู้วิธีกู้คืนไฟล์ DOCX ที่เสียหายด้วยขั้นตอนทีละขั้นตอนโดยใช้ Aspose.Words สำหรับ .NET |
 | [โหลดไฟล์ DOCX ที่เสียหายใน C# – คู่มือ Aspose.Words ฉบับสมบูรณ์](./load-corrupted-docx-in-c-complete-aspose-words-guide/) | เรียนรู้วิธีโหลดไฟล์ DOCX ที่เสียหายใน C# ด้วย Aspose.Words พร้อมขั้นตอนและเคล็ดลับการจัดการข้อผิดพลาด |
+| [วิธีกู้คืนไฟล์ DOCX – ตั้งค่าโหมดการกู้คืนด้วย Aspose](./how-to-recover-docx-files-set-recovery-mode-with-aspose/) | เรียนรู้วิธีกู้คืนไฟล์ DOCX ด้วยการตั้งค่าโหมดการกู้คืนใน Aspose.Words สำหรับ .NET |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

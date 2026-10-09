@@ -131,6 +131,10 @@ Pelajari cara mengonversi persamaan dari dokumen Word ke format Markdown dengan 
 Pelajari cara mengonversi file DOCX ke format Markdown sambil mempertahankan pemutusan baris menggunakan C#.
 ### [Simpan Word sebagai Markdown dengan Aspose.Words – Panduan Lengkap C#](./save-word-as-markdown-with-aspose-words-full-c-guide/)
 Pelajari cara menyimpan dokumen Word sebagai Markdown menggunakan Aspose.Words dengan panduan lengkap C#.
+### [Konversi Word ke Markdown dengan Aspose.Words – Panduan Lengkap C#](./convert-word-to-markdown-with-aspose-words-full-c-guide/)
+Pelajari cara mengonversi dokumen Word ke Markdown menggunakan Aspose.Words dengan panduan lengkap C#.
+### [Simpan docx sebagai markdown – Panduan Langkah‑demi‑Langkah C#](./save-docx-as-markdown-step-by-step-c-tutorial/)
+Pelajari cara menyimpan file DOCX sebagai Markdown dengan tutorial langkah demi langkah menggunakan C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

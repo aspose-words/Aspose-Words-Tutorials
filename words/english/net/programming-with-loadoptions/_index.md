@@ -79,6 +79,7 @@ class Program
 | [How to Recover DOCX Files in C# – Step‑by‑Step Guide](./how-to-recover-docx-files-in-c-step-by-step-guide/) | Learn how to recover corrupted DOCX files using C# and Aspose.Words with this detailed step‑by‑step guide. |
 | [Recover Corrupted DOCX with Aspose.Words – Complete C# Guide](./recover-corrupted-docx-with-aspose-words-complete-c-guide/) | Learn how to fully recover corrupted DOCX files using Aspose.Words in C#, with detailed steps and code examples. |
 | [How to Recover DOCX – Step‑by‑Step Guide for Corrupt Files](./how-to-recover-docx-step-by-step-guide-for-corrupt-files/) | Learn how to recover corrupted DOCX files with Aspose.Words for .NET using a clear step‑by‑step guide. |
+| [How to Recover DOCX Files – Set Recovery Mode with Aspose](./how-to-recover-docx-files-set-recovery-mode-with-aspose/) | Learn how to set recovery mode to recover corrupted DOCX files using Aspose.Words for .NET. Step-by-step guide with code examples. |
 
 | [Recover Damaged Word File – Complete Guide to Open Corrupted DOCX & Get Page Count](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | Learn how to recover and open corrupted DOCX files and retrieve page count using Aspose.Words for .NET in this comprehensive guide. |
 | [how to recover docx – C# guide for corrupted Word files](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Learn how to recover corrupted DOCX files using C# with Aspose.Words for .NET in this step-by-step guide. |

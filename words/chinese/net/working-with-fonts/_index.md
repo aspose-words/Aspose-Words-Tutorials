@@ -51,6 +51,7 @@
 | [如何检测 Aspose.Words 中的字体 – 处理警告和设置](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) 学习如何在 Aspose.Words 中检测字体、处理字体警告并配置相关设置的分步指南。|
 | [捕获字体警告（C#）完整指南](./capture-font-warnings-in-c-complete-guide/) 学习如何使用 Aspose.Words for .NET 在 C# 中捕获字体警告的完整分步指南。|
 | [如何捕获 Aspose.Words 警告 – 完整指南](./how-to-capture-warnings-in-aspose-words-complete-guide/) 通过本完整指南学习如何在 Aspose.Words for .NET 中捕获并处理警告，确保文档质量。|
+| [如何捕获警告 – 设置默认字体设置](./how-to-capture-warnings-set-default-font-settings/) 了解如何在 Aspose.Words for .NET 中捕获警告并设置默认字体设置，以确保文档渲染一致。|
 | [资源 Steam 字体源示例](./resource-steam-font-source-example/) 了解如何使用资源流字体源将自定义字体加载到 Aspose.Words for .NET 中。|
 | [获取不带后缀的替换](./get-substitution-without-suffixes/) 在本教程中，学习如何使用 Aspose.Words for .NET 在 Word 文档中获取无后缀覆盖。|
 | [在 C# 中捕获字体警告 – 完整编程指南](./capture-font-warnings-in-c-complete-programming-guide/) 了解如何使用 Aspose.Words for .NET 在 C# 中捕获字体警告的完整编程指南。|

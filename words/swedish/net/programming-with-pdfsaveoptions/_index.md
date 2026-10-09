@@ -66,6 +66,7 @@ Oavsett om du vill konvertera Word-dokument till PDF för onlinedistribution, ar
 | [Skapa PDF UA från Word i C# – Steg‑för‑steg‑guide](./create-pdf-ua-from-word-in-c-step-by-step-guide/) | Lär dig hur du skapar PDF/UA-filer från Word-dokument med C# och Aspose.Words för .NET i en detaljerad steg‑för‑steg‑guide. |
 
 | [Hur man skapar PDF från Word i C# – Komplett guide](./how-to-create-pdf-from-word-in-c-complete-guide/) | Lär dig steg-för-steg hur du skapar PDF-filer från Word-dokument i C# med Aspose.Words för .NET. |
+| [Spara Word som PDF i C# – Fullständig guide för att konvertera DOCX till PDF med formexport](./save-word-as-pdf-in-c-full-guide-to-convert-docx-to-pdf-with/) | Lär dig hur du konverterar DOCX till PDF i C# med Aspose.Words, inklusive export av former. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
