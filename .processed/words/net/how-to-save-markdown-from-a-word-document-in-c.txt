@@ -1,0 +1,7 @@
+Title: How to save markdown from a Word document in C#
+Slug: how-to-save-markdown-from-a-word-document-in-c
+Category: programming-with-markdownsaveoptions
+ProcessedDate: 2026-09-15T07:12:47.623709
+SourceRepo: AI Search API
+Keywords: how to save markdown, convert docx to markdown, how to export tables, how to convert word, save word as markdown
+PRNumber: 276

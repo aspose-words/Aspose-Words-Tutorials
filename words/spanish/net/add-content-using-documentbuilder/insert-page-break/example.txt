@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: Este tutorial muestra cómo insertar saltos de página en un documento Word usando Aspose.Words Document y DocumentBuilder.
+//ExStepSummary:0: Crear un objeto Document y un DocumentBuilder que se utilizarán para agregar contenido.
+//ExStepSummary:1: Escriba el texto de la primera página e inserte un salto de página para que el contenido siguiente comience en una nueva página.
+//ExStepSummary:2: Escriba el texto de la segunda página e inserte otro salto de página para iniciar la tercera página.
+//ExStepSummary:3: Escriba el texto de la tercera página, completando el documento de tres páginas.
+//ExStepSummary:4: Guarde el documento ensamblado en un archivo .docx en el directorio especificado.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("This is page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:2-
+builder.Writeln("This is page 2.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+builder.Writeln("This is page 3.");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

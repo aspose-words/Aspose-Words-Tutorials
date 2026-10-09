@@ -1,0 +1,7 @@
+Title: Save document as image: convert DOCX to PNG in Python
+Slug: save-document-as-image-convert-docx-to-png-in-python
+Category: document-conversion
+ProcessedDate: 2026-08-17T19:08:30.719503
+SourceRepo: AI Search API
+Keywords: save document as image, convert docx to png, export docx to png, export all pages png, export word pages image
+PRNumber: 257

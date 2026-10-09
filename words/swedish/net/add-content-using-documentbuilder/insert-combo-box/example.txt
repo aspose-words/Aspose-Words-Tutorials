@@ -1,0 +1,24 @@
+//ExStart
+//ExSummary: Den här handledningen visar hur man skapar ett Word‑dokument, lägger till ett kombinationsruta‑formulärfält med fördefinierade objekt med hjälp av DocumentBuilder och sparar dokumentet.
+//ExStepSummary:0: Ange sökvägen till mappen där det resulterande dokumentet ska sparas.
+//ExStepSummary:1: Skapa en array av strängar som ska fylla i alternativen för kombinationsrutan.
+//ExStepSummary:2: Instansiera ett nytt Document och en DocumentBuilder som är knuten till det.
+//ExStepSummary:3: Anropa `builder.InsertComboBox` för att placera en kombinationsruta med namnet "DropDown" och de definierade objekten på den aktuella markörpositionen.
+//ExStepSummary:4: Spara dokumentet i den angivna katalogen som en .docx‑fil.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+string[] items = { "One", "Two", "Three" };
+
+//ExStep:2-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertComboBox("DropDown", items, 0);
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertComboBoxFormField.docx");
+//ExEnd

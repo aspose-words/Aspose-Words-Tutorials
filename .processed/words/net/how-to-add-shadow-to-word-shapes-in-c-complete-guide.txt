@@ -1,0 +1,7 @@
+Title: How to Add Shadow to Word Shapes in C# – Complete Guide
+Slug: how-to-add-shadow-to-word-shapes-in-c-complete-guide
+Category: programming-with-shapes
+ProcessedDate: 2026-06-02T12:33:38.273346
+SourceRepo: AI Search API
+Keywords: how to add shadow, how to change transparency, add shadow to shape, apply blur to shadow, configure shape shadow
+PRNumber: 197

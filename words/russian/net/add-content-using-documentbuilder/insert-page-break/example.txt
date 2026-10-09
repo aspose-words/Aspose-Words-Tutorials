@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: Этот учебник показывает, как вставлять разрывы страниц в документ Word с помощью Aspose.Words Document и DocumentBuilder.
+//ExStepSummary:0: Создайте объект Document и DocumentBuilder, которые будут использоваться для добавления содержимого.
+//ExStepSummary:1: Запишите текст первой страницы и вставьте разрыв страницы, чтобы последующее содержимое началось на новой странице.
+//ExStepSummary:2: Запишите текст второй страницы и вставьте ещё один разрыв страницы, чтобы начать третью страницу.
+//ExStepSummary:3: Запишите текст третьей страницы, завершая трёхстраничный документ.
+//ExStepSummary:4: Сохраните собранный документ в файл .docx в указанном каталоге.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("This is page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:2-
+builder.Writeln("This is page 2.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+builder.Writeln("This is page 3.");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

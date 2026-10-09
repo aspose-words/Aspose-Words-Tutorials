@@ -47,6 +47,7 @@ Aspose.Words for .NET の表を使ったWord処理チュートリアルでは、
 | [フローティングテーブルの位置を取得する](./get-floating-table-position/) Aspose.Words for .NET を使用して、Word 文書内の表のフローティング位置を取得する方法を学びましょう。この詳細なステップバイステップガイドでは、必要な情報をすべて網羅しています。 |
 | [フローティングテーブルの位置](./floating-table-position/) 詳細なステップバイステップ ガイドを使用して、Aspose.Words for .NET を使用して Word 文書内の表のフローティング位置を制御する方法を学習します。 |
 | [相対的な水平または垂直位置を設定する](./set-relative-horizontal-or-vertical-position/) このステップバイステップ ガイドでは、Aspose.Words for .NET を使用して Word 文書内の表の相対的な水平位置と垂直位置を設定する方法を学習します。 |
+| [C# でテーブルの行を非表示にする – 行の削除の簡単ガイド](./hide-row-in-table-with-c-simple-guide-to-removing-table-rows/) Aspose.Words for .NET を使用して、C# でテーブルの特定の行を非表示にし、削除する方法をステップバイステップで解説します。 |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -1,0 +1,7 @@
+Title: How to add an ActiveX control word in Word with C#
+Slug: how-to-add-an-activex-control-word-in-word-with-c
+Category: working-with-oleobjects-and-activex
+ProcessedDate: 2026-10-01T02:20:20.536898
+SourceRepo: AI Search API
+Keywords: activex control word, how to insert activex, how to add command button, insert activex button, add clickable button word
+PRNumber: 294

@@ -62,6 +62,7 @@ First, load the document that contains the Office Math equation you want to work
 Document doc = new Document("Your Directory Path" + "OfficeMath.docx");
 ```
 
+
 ### Step 2: Access the Office Math Object
 
 Retrieve the first `OfficeMath` node (you can loop later if you have many):
@@ -77,6 +78,7 @@ Control whether the equation appears inline with surrounding text or on its own 
 ```java
 officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
 ```
+
 
 ### Step 4: Set the Justification
 

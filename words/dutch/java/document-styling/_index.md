@@ -43,6 +43,8 @@ Leer hoe u documentthema's kunt aanpassen met Aspose.Words voor Java. Deze uitge
 Leer hoe u watermerken kunt toepassen en paginaconfiguraties kunt instellen met Aspose.Words voor Java. Een uitgebreide handleiding met broncode.
 ### [Stijl van documentkoptekst en -voettekst](./document-header-footer-styling/)
 Leer hoe je documentkopteksten en -voetteksten kunt stylen met Aspose.Words voor Java in deze gedetailleerde handleiding. Inclusief stapsgewijze instructies en broncode.
+### [Hoe lettertypen detecteren in Java Word-documenten – Complete gids](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
+Leer hoe u lettertypen in Word-documenten kunt detecteren met Aspose.Words voor Java, inclusief voorbeeldcode en stapsgewijze uitleg.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

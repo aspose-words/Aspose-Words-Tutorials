@@ -1,0 +1,7 @@
+Title: How to insert a pie chart into a Word document using Java
+Slug: how-to-insert-a-pie-chart-into-a-word-document-using-java
+Category: using-document-elements
+ProcessedDate: 2026-09-27T22:40:13.242548
+SourceRepo: AI Search API
+Keywords: how to insert pie chart, create pie chart in word, show percentages on pie chart, add chart to word document, how to add leader lines
+PRNumber: 290

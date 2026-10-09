@@ -1,0 +1,7 @@
+Title: How to recover Word and convert to Markdown with LaTeX
+Slug: how-to-recover-word-and-convert-to-markdown-with-latex
+Category: document-conversion
+ProcessedDate: 2026-10-01T02:43:02.654221
+SourceRepo: AI Search API
+Keywords: how to recover word, convert docx to markdown, recover corrupted docx, save document as markdown, convert word equations latex
+PRNumber: 296

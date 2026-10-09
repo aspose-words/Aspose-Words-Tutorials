@@ -1,0 +1,7 @@
+Title: Set Pages Per Sheet in Word to PNG Conversion – Complete Guide
+Slug: set-pages-per-sheet-in-word-to-png-conversion-complete-guide
+Category: document-conversion-and-export
+ProcessedDate: 2026-06-21T07:33:11.144461
+SourceRepo: AI Search API
+Keywords: set pages per sheet, convert docx to png, export word document as png, how to save docx as image, export word pages to png
+PRNumber: 208

@@ -1,0 +1,21 @@
+//ExStart
+//ExSummary: 本教程展示了如何使用 Document 和 DocumentBuilder 创建 Word 文档、添加一段文本，并插入水平线形状。
+//ExStepSummary:0: 通过实例化 Document 类创建一个新的空白 Word 文档。
+//ExStepSummary:1: 创建一个与文档关联的 DocumentBuilder，以便进行编辑操作。
+//ExStepSummary:2: 使用 DocumentBuilder 编写一段文本，然后在光标位置插入水平线形状。
+//ExStepSummary:3: 定义输出文件夹路径，并将文档保存为 .docx 文件。
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document doc = new Document();
+
+//ExStep:1-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

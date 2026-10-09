@@ -29,7 +29,11 @@ Barcodes zijn onmisbaar in moderne toepassingen—of je nu voorraad beheert, tic
 - **Welke Java‑versie is vereist?** JDK 8 of hoger.  
 - **Kan ik de barcode‑grootte of kleuren aanpassen?** Ja—pas de instellingen van `BarcodeParameters` en `BarcodeGenerator` aan.
 
-## Vereisten
+## Waarom Aspose Barcode Java gebruiken met Aspose.Words?
+- **Volledige controle** over het uiterlijk van de barcode (kleuren, grootte, formaat).  
+- **Naadloze integratie** – de barcode‑afbeelding kan direct in een Word‑document worden ingevoegd.  
+- **Cross‑platform** – werkt op elk Java‑compatibel platform.  
+- **Uitbreidbaar** – je kunt hulpprogramma‑klassen maken om barcode‑logica in verschillende projecten te hergebruiken.
 
 Voordat we gaan coderen, zorg dat je het volgende hebt:
 

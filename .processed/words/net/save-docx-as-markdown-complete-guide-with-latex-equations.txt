@@ -1,0 +1,7 @@
+Title: Save docx as markdown – Complete Guide with LaTeX Equations
+Slug: save-docx-as-markdown-complete-guide-with-latex-equations
+Category: programming-with-markdownsaveoptions
+ProcessedDate: 2026-06-21T06:40:19.794940
+SourceRepo: AI Search API
+Keywords: save docx as markdown, convert docx to markdown, generate markdown from word, save word as markdown, convert word equations latex
+PRNumber: 207

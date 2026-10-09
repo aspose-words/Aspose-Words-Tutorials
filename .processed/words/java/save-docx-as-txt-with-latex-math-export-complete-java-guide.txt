@@ -1,0 +1,7 @@
+Title: Save docx as txt with LaTeX Math Export – Complete Java Guide
+Slug: save-docx-as-txt-with-latex-math-export-complete-java-guide
+Category: document-conversion-and-export
+ProcessedDate: 2026-06-18T03:22:31.166396
+SourceRepo: AI Search API
+Keywords: save docx as txt, convert docx to txt, how to export math, convert word equations latex, configure txt options
+PRNumber: 205

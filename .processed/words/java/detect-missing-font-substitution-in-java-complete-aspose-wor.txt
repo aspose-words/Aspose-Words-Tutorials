@@ -1,0 +1,7 @@
+Title: detect missing font substitution in Java – Complete Aspose.Words Guide
+Slug: detect-missing-font-substitution-in-java-complete-aspose-wor
+Category: document-loading-and-saving
+ProcessedDate: 2026-06-05T15:21:09.900135
+SourceRepo: AI Search API
+Keywords: detect missing font substitution
+PRNumber: 199

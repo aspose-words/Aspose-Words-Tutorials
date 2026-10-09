@@ -1,0 +1,7 @@
+Title: save as plain text – Complete Guide to Export Word Equations
+Slug: save-as-plain-text-complete-guide-to-export-word-equations
+Category: document-conversion-and-export
+ProcessedDate: 2026-05-30T08:36:48.950353
+SourceRepo: AI Search API
+Keywords: save as plain text, convert docx to txt, export word equations, save word as txt, convert word with equations
+PRNumber: 195

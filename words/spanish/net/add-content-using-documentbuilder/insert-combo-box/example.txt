@@ -1,0 +1,24 @@
+//ExStart
+//ExSummary: Este tutorial muestra cómo crear un documento Word, agregar un campo de formulario de cuadro combinado con elementos predefinidos usando DocumentBuilder y guardar el documento.
+//ExStepSummary:0: Establezca la ruta de la carpeta donde se guardará el documento resultante.
+//ExStepSummary:1: Cree una matriz de cadenas que rellenará las opciones del cuadro combinado.
+//ExStepSummary:2: Instancie un nuevo Document y un DocumentBuilder asociado a él.
+//ExStepSummary:3: Llame a `builder.InsertComboBox` para colocar un cuadro combinado llamado "DropDown" con los elementos definidos en la posición actual del cursor.
+//ExStepSummary:4: Guarde el documento en el directorio especificado como un archivo .docx.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+string[] items = { "One", "Two", "Three" };
+
+//ExStep:2-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertComboBox("DropDown", items, 0);
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertComboBoxFormField.docx");
+//ExEnd

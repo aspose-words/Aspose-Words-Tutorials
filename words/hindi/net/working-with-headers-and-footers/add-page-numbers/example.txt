@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: Aspose.Words Document और DocumentBuilder का उपयोग करके, यह ट्यूटोरियल Word दस्तावेज़ के प्राइमरी फुटर में स्वचालित रूप से अपडेट होने वाले पेज नंबर जोड़ता है।
+//ExStepSummary:0: एक नया Document ऑब्जेक्ट बनाएं और उससे जुड़ा एक DocumentBuilder बनाएं।
+//ExStepSummary:1: बिल्डर का कर्सर पहले सेक्शन के प्राइमरी फुटर पर ले जाएँ।
+//ExStepSummary:2: पैराग्राफ की अलाइनमेंट को सेंटर सेट करें ताकि फुटर टेक्स्ट केंद्रित हो जाए।
+//ExStepSummary:3: "Page " लेबल लिखें और एक PAGE फ़ील्ड डालें जो वर्तमान पेज नंबर दिखाए।
+//ExStepSummary:4: " of " लिखें और एक NUMPAGES फ़ील्ड डालें जो कुल पेज संख्या दिखाए।
+//ExStepSummary:5: दस्तावेज़ को .docx फ़ाइल में सहेजें।
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+
+//ExStep:2-
+builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
+
+//ExStep:3-
+builder.Write("Page ");
+builder.InsertField("PAGE", null);
+
+//ExStep:4-
+builder.Write(" of ");
+builder.InsertField("NUMPAGES", null);
+
+//ExStep:5-
+doc.Save("PageNumbers.docx");
+//ExEnd

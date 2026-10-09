@@ -1,0 +1,7 @@
+Title: Summarize Word Document in Java with Self‑Hosted AI – Full Guide
+Slug: summarize-word-document-in-java-with-self-hosted-ai-full-gui
+Category: ai-machine-learning-integration
+ProcessedDate: 2026-06-27T15:22:21.988148
+SourceRepo: AI Search API
+Keywords: summarize word document, how to summarize legal doc, generate document summary, load docx file java, use self-hosted ai model
+PRNumber: 214

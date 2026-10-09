@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: บทแนะนำนี้แสดงวิธีการสร้างเอกสาร Word ใหม่, แทรกฟิลด์ฟอร์มแบบกล่องกาเครื่องหมายด้วย DocumentBuilder, และบันทึกไฟล์ที่ได้
+//ExStepSummary:0: สร้างตัวแปรไดเรกทอรีข้อมูล, สร้างอินสแตนซ์ของ Document, และสร้าง DocumentBuilder สำหรับเอกสารนั้น
+//ExStepSummary:1: เรียก `builder.InsertCheckBox` เพื่อเพิ่มฟิลด์ฟอร์มแบบกล่องกาเครื่องหมายที่ถูกเลือกและเปิดใช้งาน ชื่อ "CheckBox" ที่ตำแหน่งเคอร์เซอร์ปัจจุบัน
+//ExStepSummary:2: บันทึกเอกสารที่แก้ไขแล้วไปยังโฟลเดอร์ที่ระบุโดยใช้ `doc.Save`
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertCheckBox("CheckBox", true, true, 0);
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx");
+//ExEnd

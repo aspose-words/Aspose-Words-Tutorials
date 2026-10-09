@@ -1,0 +1,7 @@
+Title: How to create histogram in Word with Aspose.Words
+Slug: how-to-create-histogram-in-word-with-aspose-words
+Category: programming-with-charts
+ProcessedDate: 2026-09-21T15:45:48.912824
+SourceRepo: AI Search API
+Keywords: how to create histogram in word, how to set histogram bins, configure histogram bins
+PRNumber: 282

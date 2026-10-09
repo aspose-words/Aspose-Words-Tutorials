@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: Usando Aspose.Words Document e DocumentBuilder, este tutorial adiciona números de página que são atualizados automaticamente ao rodapé primário de um documento Word.
+//ExStepSummary:0: Crie um novo objeto Document e um DocumentBuilder associado a ele.
+//ExStepSummary:1: Mova o cursor do builder para o rodapé primário da primeira seção.
+//ExStepSummary:2: Defina o alinhamento do parágrafo como centralizado para que o texto do rodapé fique centralizado.
+//ExStepSummary:3: Escreva o rótulo "Page " e insira um campo PAGE que exibe o número da página atual.
+//ExStepSummary:4: Escreva " of " e insira um campo NUMPAGES que mostra o total de páginas.
+//ExStepSummary:5: Salve o documento em um arquivo .docx.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+
+//ExStep:2-
+builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
+
+//ExStep:3-
+builder.Write("Page ");
+builder.InsertField("PAGE", null);
+
+//ExStep:4-
+builder.Write(" of ");
+builder.InsertField("NUMPAGES", null);
+
+//ExStep:5-
+doc.Save("PageNumbers.docx");
+//ExEnd

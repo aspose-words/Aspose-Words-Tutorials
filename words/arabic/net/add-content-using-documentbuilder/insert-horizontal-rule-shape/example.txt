@@ -1,0 +1,21 @@
+//ExStart
+//ExSummary: يوضح هذا البرنامج التعليمي كيفية إنشاء مستند Word، وإضافة فقرة نصية، وإدراج شكل خط أفقي باستخدام Document و DocumentBuilder.
+//ExStepSummary:0: أنشئ مستند Word فارغًا جديدًا عن طريق إنشاء كائن من الفئة Document.
+//ExStepSummary:1: أنشئ DocumentBuilder مرتبطًا بالمستند لتمكين عمليات التحرير.
+//ExStepSummary:2: اكتب فقرة نصية ثم أدخل شكل خط أفقي في موضع المؤشر باستخدام DocumentBuilder.
+//ExStepSummary:3: حدد مسار مجلد الإخراج واحفظ المستند كملف .docx.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document doc = new Document();
+
+//ExStep:1-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

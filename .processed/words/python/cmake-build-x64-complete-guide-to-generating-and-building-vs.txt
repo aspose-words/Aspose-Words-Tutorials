@@ -1,0 +1,7 @@
+Title: cmake build x64 – Complete Guide to Generating and Building VS 2022 Projects
+Slug: cmake-build-x64-complete-guide-to-generating-and-building-vs
+Category: integration-interoperability
+ProcessedDate: 2026-07-17T03:17:40.832509
+SourceRepo: AI Search API
+Keywords: cmake build x64, cmake generate visual studio, build vs project, how to use cmake, set source directory
+PRNumber: 227

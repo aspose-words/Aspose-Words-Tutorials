@@ -64,6 +64,9 @@ Leer hoe je **control characters** beheert en invoegt in documenten met Aspose.W
 ### [Beheersen van Aspose.Words Java: Een volledige gids voor LayoutCollector & LayoutEnumerator voor tekstverwerking](./aspose-words-java-layoutcollector-enumerator-guide/)
 Ontgrendel de kracht van Aspose.Words Java's **LayoutCollector** en **LayoutEnumerator** voor geavanceerde tekstverwerking. Leer hoe je documentlay-outs efficiënt beheert, paginering analyseert en paginanummering controleert.
 
+### [Rechthoekvorm maken in Word met C# – Stapsgewijze gids](./create-rectangle-shape-in-word-with-c-step-by-step-guide/)
+Leer hoe je met Aspose.Words voor C# een rechthoekige vorm toevoegt aan een Word‑document, inclusief positionering en opmaak.
+
 ## Veelvoorkomende gebruikssituaties
 
 | Scenario | Hoe het helpt |

@@ -1,0 +1,7 @@
+Title: How to create blank document and add shapes with Aspose.Words in C#
+Slug: how-to-create-blank-document-and-add-shapes-with-aspose-word
+Category: images-shapes
+ProcessedDate: 2026-10-01T02:24:12.357224
+SourceRepo: AI Search API
+Keywords: create blank document, insert rectangle shape, group multiple shapes, how to insert shapes, how to create group
+PRNumber: 295
