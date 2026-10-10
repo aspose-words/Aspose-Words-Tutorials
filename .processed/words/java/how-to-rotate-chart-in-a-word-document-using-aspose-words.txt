@@ -1,0 +1,7 @@
+Title: How to rotate chart in a Word document using Aspose.Words
+Slug: how-to-rotate-chart-in-a-word-document-using-aspose-words
+Category: document-manipulation
+ProcessedDate: 2026-10-10T19:05:45.508161
+SourceRepo: AI Search API
+Keywords: how to rotate chart, modify chart in word, change doughnut chart size
+PRNumber: 311
