@@ -52,7 +52,8 @@ Aspose.Words for Python kullanarak Word belgelerinden erişilebilir PDF dosyalar
 ### [Word'den Markdown Kaydet – PDF/A‑UA Dışa Aktarma ile Tam Kılavuz](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Aspose.Words for Python kullanarak Word belgelerini Markdown formatına kaydedin ve PDF/A‑UA uyumlu dosyalar oluşturun.
 ### [Word'den PDF/UA Oluşturma – Adım Adım Kılavuz](./create-pdf-ua-from-word-step-by-step-guide/)
-Aspose.Words for Python kullanarak Word belgelerinden PDF/UA dosyaları oluşturmayı adım adım öğrenin.
+
+### [Aspose.Words ile Python’da docx’i Markdown’a Dönüştürme](./convert-docx-to-markdown-with-aspose-words-in-python/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -45,6 +45,8 @@
 Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF από έγγραφα Word χρησιμοποιώντας Aspose.Words για Python. Οδηγός βήμα‑βήμα.
 ### [Αποθήκευση Word ως Markdown – Πλήρης Οδηγός με Εξαγωγή PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Μάθετε πώς να αποθηκεύσετε Word ως Markdown και να εξάγετε PDF/A‑UA με το Aspose.Words για Python.
+### [Μετατροπή docx σε markdown με Aspose.Words σε Python](./convert-docx-to-markdown-with-aspose-words-in-python/)
+Μάθετε πώς να μετατρέψετε αρχεία docx σε markdown χρησιμοποιώντας Aspose.Words για Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

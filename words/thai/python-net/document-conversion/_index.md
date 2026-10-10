@@ -54,6 +54,9 @@
 ### [สร้าง PDF UA จาก Word – คู่มือขั้นตอนต่อขั้นตอน](./create-pdf-ua-from-word-step-by-step-guide/)
 เรียนรู้วิธีสร้างไฟล์ PDF/UA จากเอกสาร Word ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
 
+### [แปลง docx เป็น markdown ด้วย Aspose.Words ใน Python](./convert-docx-to-markdown-with-aspose-words-in-python/)
+เรียนรู้วิธีแปลงไฟล์ docx เป็น markdown ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
