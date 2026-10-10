@@ -90,6 +90,9 @@ Behärska laddningsalternativ i Aspose.Words för Java. Anpassa dokumentladdning
 ### [Skapa laddningsalternativ i Java – Upptäck saknade teckensnitt och hur du laddar DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
 Lär dig hur du skapar LoadOptions i Java för att upptäcka saknade teckensnitt och korrekt ladda DOCX‑filer.
 
+### [Hur man ställer in Big5‑kodning när man laddar en DOCX‑fil i Java](./how-to-set-big5-encoding-when-loading-a-docx-file-in-java/)
+Lär dig hur du konfigurerar Big5‑kodning vid inläsning av DOCX‑filer i Java med Aspose.Words.
+
 ### [Konfigurera RTF‑laddningsalternativ i Aspose.Words för Java](./configuring-rtf-load-options/)
 Konfigurera RTF‑laddningsalternativ i Aspose.Words för Java. Lär dig hur du känner igen UTF‑8‑text i RTF‑dokument. Steg‑för‑steg‑guide med kodexempel.
 

@@ -39,6 +39,9 @@ Ismerje meg, hogyan adhat árnyékot alakzatokhoz Word dokumentumokban az Aspose
 ### [Árnyékhatás alkalmazása alakzatra C#‑ban – Lépésről‑lépésre útmutató](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Ismerje meg, hogyan adhat árnyékot egy alakzathoz C#‑ban az Aspose.Words segítségével.
 
+### [Üres Word dokumentum létrehozása, képcsoport hozzáadása, alakzat elrejtése](./create-a-blank-word-document-add-an-image-group-hide-shape/)
+Ismerje meg, hogyan hozhat létre üres Word dokumentumot, adhat hozzá képcsoportot, és rejtheti el az alakzatot az Aspose.Words for Java segítségével.
+
 ## További források
 
 ## További források

@@ -39,6 +39,8 @@ Tanulja meg, hogyan kezelheti hatékonyan a dokumentumok jogosultságait az Aspo
 Tanuld meg, hogyan titkosíthatod és dekódolhatod a dokumentumokat az Aspose.Words for Java segítségével. Biztosítsd adataid hatékony védelmét lépésről lépésre útmutatóval és forráskód példákkal.
 ### [Digitális aláírások dokumentumokban](./digital-signatures-in-documents/)
 Tanulja meg, hogyan valósíthat meg biztonságos digitális aláírásokat dokumentumokban az Aspose.Words for Java használatával. Biztosítsa a dokumentumok integritását lépésről lépésre szóló útmutatással és forráskóddal.
+### [Aláírási beállítások létrehozása és Word dokumentum aláírása XAdES EPES-szel](./create-signature-options-and-sign-a-word-doc-with-xades-epes/)
+Ismerje meg, hogyan hozhat létre aláírási opciókat, és írhat alá Word dokumentumot XAdES EPES szabvánnyal az Aspose.Words for Java segítségével.
 ### [Dokumentumszerkesztés és adatvédelem](./document-redaction-data-protection/)
 Ismerje meg, hogyan teheti biztonságossá dokumentumait és hogyan takarhatja ki bizalmas adatait az Aspose.Words for Java segítségével. Lépésről lépésre útmutató forráskóddal.
 

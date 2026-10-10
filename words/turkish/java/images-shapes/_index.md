@@ -39,6 +39,9 @@ Word belgelerinde şekillere gölge ekleyerek görsel çekiciliği artırmayı �
 ### [C#'ta Bir Şekle Gölge Efekti Uygulama – Adım Adım Kılavuz](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 C# kullanarak bir şekle gölge efekti eklemeyi adım adım öğrenin ve belgelerinizde görsel çekiciliği artırın.
 
+### [Boş bir Word belgesi oluşturun, bir resim grubu ekleyin, şekli gizleyin](./create-a-blank-word-document-add-an-image-group-hide-shape/)
+Boş bir Word belgesine resim grubu ekleyip şekli gizlemeyi öğrenin.
+
 ## Ek Kaynaklar
 
 ## Ek Kaynaklar

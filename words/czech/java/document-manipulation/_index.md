@@ -104,6 +104,10 @@ Odemkněte sílu Aspose.Words pro Javu. Zvládněte možnosti a nastavení dokum
 Optimalizujte správu dokumentů s Aspose.Words pro Javu. V tomto komplexním tutoriálu se naučte pracovat s vlastnostmi dokumentu, přidávat vlastní metadata a další.
 ### [Používání webových rozšíření v Aspose.Words pro Javu](./using-web-extensions/)
 Vylepšete dokumenty pomocí webových rozšíření v Aspose.Words pro Javu. Naučte se bezproblémově integrovat webový obsah. 
+### [Jak programově vytvořit dokument Word a vložit prostý textový obsahový ovládací prvek](./how-to-create-word-document-programmatically-and-insert-plai/)
+Naučte se programově vytvořit dokument Word a vložit prostý textový obsahový ovládací prvek.
+### [Nastavení textu tlačítka a přidání ActiveX tlačítka v C#](./set-button-text-and-add-an-activex-button-in-c/)
+### [Jak otočit graf v dokumentu Word pomocí Aspose.Words](./how-to-rotate-chart-in-a-word-document-using-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -103,7 +103,13 @@ Lås upp kraften i Aspose.Words för Java. Behärska dokumentalternativ och inst
 ### [Använda dokumentegenskaper i Aspose.Words för Java](./using-document-properties/)
 Optimera dokumenthanteringen med Aspose.Words för Java. Lär dig arbeta med dokumentegenskaper, lägga till anpassade metadata och mer i den här omfattande handledningen.
 ### [Använda webbtillägg i Aspose.Words för Java](./using-web-extensions/)
-Förbättra dokument med webbtillägg i Aspose.Words för Java. Lär dig att integrera webbaserat innehåll sömlöst. 
+Förbättra dokument med webbtillägg i Aspose.Words för Java. Lär dig att integrera webbaserat innehåll sömlöst.
+### [Hur man skapar Word-dokument programatiskt och infogar enkla textinnehållskontroller](./how-to-create-word-document-programmatically-and-insert-plai/)
+Lär dig skapa ett Word-dokument via kod och lägga till ett enkelt textinnehållskontroll.
+### [Ställ in knapptext och lägg till en ActiveX-knapp i C#](./set-button-text-and-add-an-activex-button-in-c/)
+Lär dig hur du ställer in knapptext och lägger till en ActiveX-knapp i C#.
+### [Hur man roterar diagram i ett Word-dokument med Aspose.Words](./how-to-rotate-chart-in-a-word-document-using-aspose-words/)
+Lär dig hur du roterar diagram i Word-dokument med Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

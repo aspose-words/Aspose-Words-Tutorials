@@ -148,13 +148,16 @@ Naučte se, jak zachytit a zpracovat varování o nahrazení fontů při načít
 ### [Jak obnovit DOCX – Nastavit režim obnovy a zobrazit varování](./how-to-recover-docx-set-recovery-mode-display-warnings/)
 Naučte se nastavit režim obnovy při načítání DOCX souborů a zobrazit varování pomocí Aspose.Words for Java.
 ### [Jak obnovit docx pomocí Aspose.Words – Povolit režim obnovy](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
+Naučte se nastavit režim obnovy při načítání DOCX souborů a zobrazit varování pomocí Aspose.Words for Java.
+### [Jak nastavit kódování Big5 při načítání souboru DOCX v Javě](./how-to-set-big5-encoding-when-loading-a-docx-file-in-java/)
+Naučte se nastavit kódování Big5 při načítání DOCX souboru v Javě pomocí Aspose.Words.
 
 ## Často kladené otázky
 
 **Q:** Jak mohu programově **uložit obrázky z Wordu** dokumentů?  
 **A:** Načtěte dokument pomocí `new Document("file.docx")`, iterujte přes uzly `Shape`, které obsahují obrázky, a pro každý zavolejte `shape.getImageData().save("image.png")`.
 
-**Q:** Mohu také **save pdf java** po extrahování obrázků?  
+**Q:** Mohu také **save pdf java** po extrakování obrázků?  
 **A:** Ano. Po zpracování zavolejte `document.save("output.pdf")` – knihovna automaticky provede konverzi do PDF.
 
 **Q:** Jaký je nejlepší způsob **convert word html java**?  

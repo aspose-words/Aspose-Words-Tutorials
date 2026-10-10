@@ -81,6 +81,9 @@ Bugünün dijital çağında, belge ek açıklamaları ve yorumlarını verimli 
 ### [Aspose.Words Java&#58; Word Belgelerinde Yorum Yönetimini Ustalıkla Öğrenin](./aspose-words-java-comment-management-guide/)
 Aspose.Words for Java kullanarak Word belgelerinde yorumları ve yanıtları nasıl yöneteceğinizi öğrenin. Yorumları ekleyin, yazdırın, kaldırın, tamamlandı olarak işaretleyin ve zaman damgalarını sorunsuz bir şekilde izleyin.
 
+### [Aspose.Words for Java ile Başlık Stili Alt Notları Uygulama](./apply-heading-style-footnotes-with-aspose-words-for-java/)
+Aspose.Words for Java kullanarak başlık stiline sahip alt notları nasıl ekleyeceğinizi öğrenin.
+
 ## Ek Kaynaklar
 
 - [Aspose.Words for Java Dokümantasyonu](https://reference.aspose.com/words/java/)

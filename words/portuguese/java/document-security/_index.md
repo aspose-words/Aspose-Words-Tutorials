@@ -39,6 +39,8 @@ Aprenda a gerenciar permissões de documentos de forma eficaz usando o Aspose.Wo
 Aprenda a criptografar e descriptografar documentos com o Aspose.Words para Java. Proteja seus dados com eficiência com orientações passo a passo e exemplos de código-fonte.
 ### [Assinaturas digitais em documentos](./digital-signatures-in-documents/)
 Aprenda a implementar assinaturas digitais seguras em documentos usando o Aspose.Words para Java. Garanta a integridade dos documentos com orientações passo a passo e código-fonte.
+### [Criar opções de assinatura e assinar um documento Word com XAdES EPES](./create-signature-options-and-sign-a-word-doc-with-xades-epes/)
+Aprenda a criar opções de assinatura e assinar documentos Word usando XAdES EPES com Aspose.Words para Java.
 ### [Redação de documentos e proteção de dados](./document-redaction-data-protection/)
 Aprenda a proteger seus documentos e redigir dados confidenciais usando o Aspose.Words para Java. Guia passo a passo com código-fonte.
 

@@ -1,0 +1,7 @@
+Title: Translate paragraph to French and change chart label in Word
+Slug: translate-paragraph-to-french-and-change-chart-label-in-word
+Category: ai-powered-document-processing
+ProcessedDate: 2026-10-10T18:11:37.029506
+SourceRepo: AI Search API
+Keywords: translate paragraph to french, how to change chart data label, how to translate word document with ai, customize chart data label, how to save edited docx file
+PRNumber: 310

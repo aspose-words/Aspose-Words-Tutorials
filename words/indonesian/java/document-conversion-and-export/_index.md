@@ -179,6 +179,9 @@ Pelajari cara membuat PDF UA di Java dengan mengonversi file DOCX ke PDF menggun
 ### [Ekspor Word ke Markdown – Panduan Java menggunakan Aspose.Words](./export-word-to-markdown-java-guide-using-aspose-words/)
 Pelajari cara mengekspor dokumen Word ke format Markdown menggunakan Aspose.Words dalam panduan Java langkah demi langkah.
 
+### [Cara menyimpan dokumen sebagai docx saat mengonversi Markdown ke Word](./how-to-save-document-as-docx-when-converting-markdown-to-wor/)
+Pelajari cara menyimpan dokumen sebagai file docx saat mengonversi Markdown ke Word menggunakan Aspose.Words for Java.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bagaimana cara menambahkan watermark ke PDF yang sudah ada menggunakan Aspose.Words?**  

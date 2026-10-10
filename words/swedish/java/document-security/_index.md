@@ -41,6 +41,8 @@ Lär dig hur du krypterar och dekrypterar dokument med Aspose.Words för Java. S
 Lär dig hur du implementerar säkra digitala signaturer i dokument med Aspose.Words för Java. Säkerställ dokumentintegritet med steg-för-steg-vägledning och källkod.
 ### [Dokumentredigering och dataskydd](./document-redaction-data-protection/)
 Lär dig hur du skyddar dina dokument och redigerar känsliga data med Aspose.Words för Java. Steg-för-steg-guide med källkod.
+### [Skapa signaturalternativ och signera ett Word‑dokument med XAdES EPES](./create-signature-options-and-sign-a-word-doc-with-xades-epes/)
+Lär dig hur du skapar signaturalternativ och signerar ett Word‑dokument med XAdES EPES.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

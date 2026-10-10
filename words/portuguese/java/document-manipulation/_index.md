@@ -92,8 +92,12 @@ Aprenda a dividir documentos em páginas HTML com o Aspose.Words para Java. Siga
 Domine a criação de documentos com o Aspose.Words para Java. Um guia passo a passo para adicionar texto, tabelas, imagens e muito mais. Crie documentos Word impressionantes sem esforço.
 ### [Clonando e combinando documentos no Aspose.Words para Java](./cloning-and-combining-documents/)
 Aprenda a clonar e combinar documentos no Aspose.Words para Java. Guia passo a passo com exemplos de código-fonte.
+### [Como girar gráfico em um documento Word usando Aspose.Words](./how-to-rotate-chart-in-a-word-document-using-aspose-words/)
+Aprenda a girar gráficos em documentos Word usando Aspose.Words para Java.
 ### [Comparando documentos no Aspose.Words para Java](./comparing-documents/)
 Aprenda a comparar documentos no Aspose.Words para Java, uma poderosa biblioteca Java para análise eficiente de documentos. 
+### [Definir texto do botão e adicionar um botão ActiveX em C#](./set-button-text-and-add-an-activex-button-in-c/)
+Aprenda a definir o texto de botões e inserir botões ActiveX em documentos usando C#.
 ### [Formatando documentos no Aspose.Words para Java](./formatting-documents/)
 Aprenda a arte de formatar documentos no Aspose.Words para Java com nosso guia completo. Explore recursos poderosos e aprimore suas habilidades de processamento de documentos.
 ### [Unindo e anexando documentos no Aspose.Words para Java](./joining-and-appending-documents/)
@@ -103,7 +107,9 @@ Desbloqueie o poder do Aspose.Words para Java. Domine as opções e configuraç�
 ### [Usando propriedades de documento no Aspose.Words para Java](./using-document-properties/)
 Otimize o gerenciamento de documentos com o Aspose.Words para Java. Aprenda a trabalhar com propriedades de documentos, adicionar metadados personalizados e muito mais neste tutorial abrangente.
 ### [Usando extensões da Web no Aspose.Words para Java](./using-web-extensions/)
-Aprimore documentos com extensões da Web no Aspose.Words para Java. Aprenda a integrar conteúdo da Web perfeitamente. 
+Aprimore documentos com extensões da Web no Aspose.Words para Java. Aprenda a integrar conteúdo da Web perfeitamente.
+### [Como criar documento Word programaticamente e inserir controle de conteúdo de texto simples](./how-to-create-word-document-programmatically-and-insert-plai/)
+Aprenda a gerar documentos Word via código Java e inserir controles de conteúdo de texto simples.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

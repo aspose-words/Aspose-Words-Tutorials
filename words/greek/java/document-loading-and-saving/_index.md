@@ -87,7 +87,9 @@ Aspose.Words for Java καθιστά απλό το **save images from Word** έ�
 ### [Φόρτωση και Αποθήκευση HTML Εγγράφων με Aspose.Words for Java](./loading-and-saving-html-documents/)
 
 ### [Εργασία με Επιλογές Φόρτωσης στο Aspose.Words for Java](./using-load-options/)
+
 ### [Δημιουργία Επιλογών Φόρτωσης σε Java – Εντοπισμός Ελλειπόντων Γραμματοσειρών & Πώς να Φορτώσετε DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
+
 ### [Διαμόρφωση Επιλογών Φόρτωσης RTF στο Aspose.Words for Java](./configuring-rtf-load-options/)
 
 ### [Φόρτωση Αρχείων Κειμένου με Aspose.Words for Java](./loading-text-files/)
@@ -115,18 +117,28 @@ Aspose.Words for Java καθιστά απλό το **save images from Word** έ�
 ### [Αποθήκευση Εγγράφων ως Αρχεία Κειμένου στο Aspose.Words for Java](./saving-documents-as-text-files/)
 
 ### [Καθορισμός Μορφής Εγγράφου στο Aspose.Words for Java](./determining-document-format/)
+
 ### [Πώς να Ανακτήσετε DOCX – Φόρτωση Κατεστραμμένων Αρχείων με Επιλογές Ανάκτησης](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
 ### [Ανάκτηση κατεστραμμένου docx – Πλήρης Οδηγός για Διόρθωση και Επεξεργασία Εγγράφων](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+
 ### [Καταγραφή Προειδοποιήσεων Αντικατάστασης Γραμματοσειράς σε Java με Aspose.Words – Πλήρης Οδηγός](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+
 ### [Πώς να ανακτήσετε docx – Πλήρης Οδηγός για Ανάγνωση Κατεστραμμένων Αρχείων Word](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+
 ### [Ορισμός λειτουργίας ανάκτησης για αποκατάσταση κατεστραμμένου εγγράφου Word](./set-recovery-mode-to-recover-broken-word-document/)
+
 ### [Πώς να βρείτε ελλείπουσες γραμματοσειρές σε Java – Οδηγός Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
+
 ### [Πώς να ανακτήσετε αρχεία DOCX με το Aspose.Words – Οδηγός βήμα‑βήμα](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 
 ### [Πώς να επαναφέρετε docx – αποθήκευση του αποκατεστημένου εγγράφου χρησιμοποιώντας Java](./how-to-recover-docx-save-recovered-document-using-java/)
+
 ### [Πώς να Ανακτήσετε DOCX – Ορίστε Λειτουργία Ανάκτησης & Εμφανίστε Προειδοποιήσεις](./how-to-recover-docx-set-recovery-mode-display-warnings/)
+
 ### [Πώς να ανακτήσετε docx με Aspose.Words – Ενεργοποίηση λειτουργίας ανάκτησης](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
+
+### [Πώς να ορίσετε κωδικοποίηση Big5 κατά τη φόρτωση αρχείου DOCX σε Java](./how-to-set-big5-encoding-when-loading-a-docx-file-in-java/)
 
 ## Συχνές Ερωτήσεις
 

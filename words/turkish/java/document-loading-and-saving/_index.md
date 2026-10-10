@@ -149,6 +149,9 @@ Java’da Aspose.Words kullanarak font değiştirme uyarılarını nasıl yakala
 ### [Aspose.Words for Java ile docx kurtarma – Kurtarma Modunu Etkinleştirme](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
 Aspose.Words for Java’da bozuk docx dosyalarını kurtarmak ve kurtarma modunu etkinleştirmek için adım adım rehber.
 
+### [Java’da DOCX dosyası yüklerken Big5 kodlamasını nasıl ayarlarsınız](./how-to-set-big5-encoding-when-loading-a-docx-file-in-java/)
+Java’da DOCX dosyası yüklerken Big5 karakter kodlamasını nasıl ayarlayacağınızı öğrenin.
+
 ## Sıkça Sorulan Sorular
 
 **S:** **save images from word** belgelerini programlı olarak nasıl **kaydederim**?  

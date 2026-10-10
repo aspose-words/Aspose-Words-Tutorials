@@ -82,6 +82,9 @@ In het digitale tijdperk van vandaag is het efficiënt beheren van documentannot
 ### [Aspose.Words Java&#58; Beheersen van commentaarbeheer in Word‑documenten](./aspose-words-java-comment-management-guide/)
 Leer hoe je opmerkingen en antwoorden beheert in Word‑documenten met Aspose.Words voor Java. Voeg toe, print, verwijder, markeer als voltooid, en volg commentaartijdstempels moeiteloos.
 
+### [Kopstijl‑voetnoten toepassen met Aspose.Words voor Java](./apply-heading-style-footnotes-with-aspose-words-for-java/)
+Leer hoe u voetnoten met een kopstijl toevoegt en beheert in Word‑documenten via Aspose.Words voor Java.
+
 ## Aanvullende bronnen
 
 - [Aspose.Words voor Java Documentatie](https://reference.aspose.com/words/java/)

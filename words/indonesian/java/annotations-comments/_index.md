@@ -80,6 +80,9 @@ Di era digital saat ini, mengelola anotasi dan komentar dokumen secara efisien s
 ### [Aspose.Words Java&#58; Menguasai Manajemen Komentar dalam Dokumen Word](./aspose-words-java-comment-management-guide/)
 Pelajari cara mengelola komentar dan balasan dalam dokumen Word menggunakan Aspose.Words untuk Java. Tambahkan, cetak, hapus, tandai sebagai selesai, dan lacak cap waktu komentar dengan mudah.
 
+### [Terapkan catatan kaki gaya heading dengan Aspose.Words untuk Java](./apply-heading-style-footnotes-with-aspose-words-for-java/)
+Pelajari cara menambahkan catatan kaki dengan gaya heading secara otomatis menggunakan Aspose.Words untuk Java.
+
 ## Sumber Daya Tambahan
 - [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/)
 - [Referensi API Aspose.Words untuk Java](https://reference.aspose.com/words/java/)

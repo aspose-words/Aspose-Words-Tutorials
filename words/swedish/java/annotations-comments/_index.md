@@ -81,6 +81,9 @@ I dagens digitala era är effektiv hantering av dokumentannotationer och komment
 ### [Aspose.Words Java&#58; Mästra kommentars‑hantering i Word‑dokument](./aspose-words-java-comment-management-guide/)
 Lär dig hur du hanterar kommentarer och svar i Word‑dokument med Aspose.Words för Java. Lägg till, skriv ut, ta bort, markera som klar och spåra kommentarers tidsstämplar utan ansträngning.
 
+### [Applicera rubrikstil fotnoter med Aspose.Words för Java](./apply-heading-style-footnotes-with-aspose-words-for-java/)
+Lär dig hur du applicerar fotnoter med rubrikstil i Word‑dokument med Aspose.Words för Java.
+
 ## Ytterligare resurser
 - [Aspose.Words för Java‑dokumentation](https://reference.aspose.com/words/java/)
 - [Aspose.Words för Java API‑referens](https://reference.aspose.com/words/java/)

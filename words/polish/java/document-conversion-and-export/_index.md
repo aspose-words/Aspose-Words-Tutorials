@@ -180,6 +180,9 @@ Dowiedz się, jak wyeksportować dokumenty Word do formatu Markdown w Javie przy
 ### [Utwórz PDF UA w Javie – konwertuj DOCX do PDF](./create-pdf-ua-in-java-convert-docx-to-pdf/)
 Dowiedz się, jak utworzyć dokument PDF/UA z pliku DOCX przy użyciu Aspose.Words for Java. Przewodnik krok po kroku z przykładami kodu.
 
+### [Jak zapisać dokument jako docx przy konwertowaniu Markdown do Worda](./how-to-save-document-as-docx-when-converting-markdown-to-wor/)
+Dowiedz się, jak zapisać dokument jako docx podczas konwersji Markdown do Worda przy użyciu Aspose.Words for Java.
+
 ## Najczęściej zadawane pytania
 
 **Q: Jak dodać znak wodny do istniejącego PDF przy użyciu Aspose.Words?**  

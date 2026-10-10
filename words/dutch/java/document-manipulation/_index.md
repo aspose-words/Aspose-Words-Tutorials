@@ -104,6 +104,12 @@ Ontdek de kracht van Aspose.Words voor Java. Beheer documentopties en -instellin
 Optimaliseer documentbeheer met Aspose.Words voor Java. Leer werken met documenteigenschappen, aangepaste metadata toevoegen en meer in deze uitgebreide tutorial.
 ### [Webextensies gebruiken in Aspose.Words voor Java](./using-web-extensions/)
 Verbeter documenten met webextensies in Aspose.Words voor Java. Leer hoe u webgebaseerde content naadloos kunt integreren. 
+### [Hoe maak je een Word-document programmatisch en voeg een platte-tekst contentcontrol toe](./how-to-create-word-document-programmatically-and-insert-plai/)
+Leer hoe u een Word-document maakt en een platte-tekst contentcontrol invoegt via code.
+### [Hoe een grafiek in een Word-document roteren met Aspose.Words](./how-to-rotate-chart-in-a-word-document-using-aspose-words/)
+Leer hoe u een grafiek in een Word-document kunt draaien met behulp van Aspose.Words voor Java.
+### [Knoptekst instellen en een ActiveX-knop toevoegen in C#](./set-button-text-and-add-an-activex-button-in-c/)
+Leer hoe u de tekst van een knop instelt en een ActiveX-knop toevoegt in C# met Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

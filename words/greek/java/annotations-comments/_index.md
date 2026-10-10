@@ -83,6 +83,9 @@ weight: 11
 ### [Aspose.Words Java&#58; Κατάκτηση της Διαχείρισης Σχολίων σε Έγγραφα Word](./aspose-words-java-comment-management-guide/)
 Μάθετε πώς να διαχειρίζεστε σχόλια και απαντήσεις σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java. Προσθέστε, εκτυπώστε, αφαιρέστε, σημειώστε ως ολοκληρωμένα και παρακολουθήστε τις χρονικές σφραγίδες των σχολίων με ευκολία.
 
+### [Εφαρμογή υποσημειώσεων στυλ επικεφαλίδας με Aspose.Words για Java](./apply-heading-style-footnotes-with-aspose-words-for-java/)
+Μάθετε πώς να προσθέτετε υποσημειώσεις με στυλ επικεφαλίδας σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
+
 ## Πρόσθετοι Πόροι
 
 - [Τεκμηρίωση Aspose.Words για Java](https://reference.aspose.com/words/java/)

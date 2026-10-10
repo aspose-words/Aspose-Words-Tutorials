@@ -105,6 +105,7 @@ Aspose.Words for Java ทำให้การ **บันทึกภาพจ�
 ### [ตั้งโหมดการกู้คืนเพื่อกู้คืนเอกสาร Word ที่เสียหาย](./set-recovery-mode-to-recover-broken-word-document/)
 ### [วิธีกู้คืน docx – บันทึกเอกสารที่กู้คืนด้วย Java](./how-to-recover-docx-save-recovered-document-using-java/)
 ### [วิธีกู้คืน docx ด้วย Aspose.Words – เปิดใช้งานโหมดการกู้คืน](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
+### [วิธีตั้งค่าเข้ารหัส Big5 เมื่อโหลดไฟล์ DOCX ใน Java](./how-to-set-big5-encoding-when-loading-a-docx-file-in-java/)
 
 ## คำถามที่พบบ่อย
 

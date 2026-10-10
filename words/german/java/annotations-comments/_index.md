@@ -82,6 +82,9 @@ Im heutigen digitalen Zeitalter ist das effiziente Verwalten von Dokumenten‑An
 ### [Aspose.Words Java&#58; Kommentarverwaltung in Word-Dokumenten meistern](./aspose-words-java-comment-management-guide/)
 Erfahren Sie, wie Sie Kommentare und Antworten in Word‑Dokumenten mit Aspose.Words für Java verwalten. Hinzufügen, drucken, entfernen, als erledigt markieren und Kommentar‑Zeitstempel mühelos verfolgen.
 
+### [Überschriftenstil‑Fußnoten mit Aspose.Words für Java anwenden](./apply-heading-style-footnotes-with-aspose-words-for-java/)
+Erfahren Sie, wie Sie Fußnoten im Überschriftenstil in Word‑Dokumenten mit Aspose.Words für Java hinzufügen und formatieren.
+
 ## Zusätzliche Ressourcen
 
 - [Aspose.Words für Java Dokumentation](https://reference.aspose.com/words/java/)

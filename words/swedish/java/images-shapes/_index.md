@@ -39,6 +39,8 @@ Lär dig hur du applicerar skuggeffekter på former i Word-dokument med Aspose.W
 ### [Applicera skuggeffekt på en form i C# – steg‑för‑steg‑guide](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Lär dig hur du lägger till en skugga på en form i C# med Aspose.Words – en detaljerad steg‑för‑steg‑guide.
 
+### [Skapa ett tomt Word-dokument, lägg till en bildgrupp, dölj form](./create-a-blank-word-document-add-an-image-group-hide-shape/)
+
 ## Ytterligare resurser
 
 ## Ytterligare resurser

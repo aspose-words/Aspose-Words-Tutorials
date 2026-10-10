@@ -89,6 +89,7 @@ Beheers laadopties in Aspose.Words for Java. Pas documentladen aan, behandel enc
 
 ### [Load-opties maken in Java – Ontdek ontbrekende lettertypen en hoe DOCX te laden](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
 Leer hoe je LoadOptions configureert om ontbrekende lettertypen te detecteren en DOCX-bestanden correct te laden met Aspose.Words for Java.
+
 ### [Hoe docx te herstellen met Aspose.Words – Herstelmodus inschakelen](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
 Leer hoe je beschadigde DOCX-bestanden kunt herstellen met Aspose.Words door de herstelmodus te activeren.
 
@@ -153,6 +154,9 @@ Leer hoe je beschadigde DOCX‑bestanden kunt herstellen met Aspose.Words in een
 ### [Docx herstellen – herstelde document opslaan met Java](./how-to-recover-docx-save-recovered-document-using-java/)
 ### [Hoe DOCX te herstellen – Herstelmodus instellen & waarschuwingen weergeven](./how-to-recover-docx-set-recovery-mode-display-warnings/)
 Leer hoe je de herstelmodus inschakelt en waarschuwingen weergeeft bij het openen van beschadigde DOCX‑bestanden met Aspose.Words for Java.
+
+### [Hoe Big5-codering instellen bij het laden van een DOCX-bestand in Java](./how-to-set-big5-encoding-when-loading-a-docx-file-in-java/)
+Leer hoe je Big5‑codering instelt bij het laden van een DOCX‑bestand in Java met Aspose.Words.
 
 ## Veelgestelde vragen
 

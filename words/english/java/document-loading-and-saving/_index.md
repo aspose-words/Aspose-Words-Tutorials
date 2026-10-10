@@ -152,6 +152,9 @@ Learn how to capture and handle font substitution warnings in Java using Aspose.
 ### [How to Get Missing Fonts in Java – Aspose.Words Guide](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 Learn how to identify and retrieve missing fonts in Java using Aspose.Words, ensuring proper document rendering.
 
+### [How to set Big5 encoding when loading a DOCX file in Java](./how-to-set-big5-encoding-when-loading-a-docx-file-in-java/)
+Learn how to set Big5 encoding for loading DOCX files with Aspose.Words for Java, ensuring correct handling of Traditional Chinese characters.
+
 ## Frequently Asked Questions
 
 **Q:** How do I programmatically **save images from word** documents?  

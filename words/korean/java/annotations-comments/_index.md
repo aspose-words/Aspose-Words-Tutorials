@@ -79,7 +79,8 @@ weight: 11
 ## 사용 가능한 튜토리얼
 
 ### [Aspose.Words Java: Word 문서에서 주석 관리 마스터하기](./aspose-words-java-comment-management-guide/)
-Aspose.Words for Java를 사용해 Word 문서에서 주석 및 답글을 관리하는 방법을 배웁니다. 주석 추가, 출력, 제거, 완료 표시 및 타임스탬프 추적을 손쉽게 수행할 수 있습니다.
+
+### [Aspose.Words for Java로 머리글 스타일 각주 적용하기](./apply-heading-style-footnotes-with-aspose-words-for-java/)
 
 ## 추가 리소스
 

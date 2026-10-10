@@ -36,11 +36,13 @@ Aspose.Words for Java kullanarak belgeleri parolalarla nasıl güvence altına a
 ### [Belge İzinlerini Yönetme](./managing-document-permissions/)
 Aspose.Words for Java kullanarak belge izinlerini etkili bir şekilde nasıl yöneteceğinizi öğrenin. Bu kapsamlı kılavuz adım adım talimatlar ve kaynak kodu örnekleri sağlar.
 ### [Belge Şifreleme ve Şifre Çözme](./document-encryption-decryption/)
-Aspose.Words for Java ile belgeleri nasıl şifreleyeceğinizi ve şifresini nasıl çözeceğinizi öğrenin. Adım adım rehberlik ve kaynak kodu örnekleriyle verilerinizi etkili bir şekilde güvence altına alın.
+Aspose.Words for Java ile belgeleri nasıl şifreleyeceğinizi ve şifresini nasıl çözeceğinizi öğrenin. Adım adım rehberlik ve kaynak kod örnekleriyle verilerinizi etkili bir şekilde güvence altına alın.
 ### [Belgelerde Dijital İmzalar](./digital-signatures-in-documents/)
 Aspose.Words for Java kullanarak belgelerde güvenli dijital imzaların nasıl uygulanacağını öğrenin. Adım adım kılavuz ve kaynak koduyla belge bütünlüğünü sağlayın
 ### [Belge Düzenleme ve Veri Koruma](./document-redaction-data-protection/)
 Aspose.Words for Java kullanarak belgelerinizi nasıl güvence altına alacağınızı ve hassas verilerinizi nasıl sansürleyeceğinizi öğrenin. Kaynak kodlu adım adım kılavuz.
+### [XAdES EPES ile imza seçenekleri oluşturma ve Word belgesini imzalama](./create-signature-options-and-sign-a-word-doc-with-xades-epes/)
+XAdES EPES standardını kullanarak Word belgelerine dijital imza eklemeyi ve imza seçeneklerini yapılandırmayı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

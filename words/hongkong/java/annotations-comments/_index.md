@@ -80,6 +80,9 @@ weight: 11
 ### [Aspose.Words Java&#58; 精通 Word 文件中的批註管理](./aspose-words-java-comment-management-guide/)
 了解如何使用 Aspose.Words for Java 管理 Word 文件中的批註與回覆。輕鬆新增、列印、移除、標記為完成，並追蹤批註時間戳記。
 
+### [使用 Aspose.Words for Java 套用標題樣式的註腳](./apply-heading-style-footnotes-with-aspose-words-for-java/)
+說明如何在 Word 文件中使用 Aspose.Words for Java 為標題套用樣式並插入註腳。
+
 ## 其他資源
 
 - [Aspose.Words for Java 文件](https://reference.aspose.com/words/java/)

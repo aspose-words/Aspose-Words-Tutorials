@@ -41,6 +41,8 @@ Leer hoe u documenten kunt versleutelen en ontsleutelen met Aspose.Words voor Ja
 Leer hoe u veilige digitale handtekeningen in documenten implementeert met Aspose.Words voor Java. Zorg voor de integriteit van uw documenten met stapsgewijze instructies en broncode.
 ### [Documentredactie en gegevensbescherming](./document-redaction-data-protection/)
 Leer hoe u uw documenten kunt beveiligen en gevoelige gegevens kunt redigeren met Aspose.Words voor Java. Stapsgewijze handleiding met broncode.
+### [Handtekeningopties maken en een Word-document ondertekenen met XAdES EPES](./create-signature-options-and-sign-a-word-doc-with-xades-epes/)
+Maak handtekeningopties en onderteken een Word-document met XAdES EPES via Aspose.Words voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

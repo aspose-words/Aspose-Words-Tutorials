@@ -82,6 +82,9 @@ V dnešní digitální době je efektivní správa anotací a komentářů v dok
 ### [Aspose.Words Java&#58; Ovládání správy komentářů v dokumentech Word](./aspose-words-java-comment-management-guide/)
 Naučte se, jak spravovat komentáře a odpovědi v dokumentech Word pomocí Aspose.Words pro Java. Přidávejte, tiskněte, odstraňujte, označujte jako dokončené a sledujte časové značky komentářů bez námahy.
 
+### [Použití poznámek pod čarou s nadpisovým stylem pomocí Aspose.Words pro Java](./apply-heading-style-footnotes-with-aspose-words-for-java/)
+Naučte se, jak aplikovat styl nadpisu na poznámky pod čarou v dokumentech Word pomocí Aspose.Words pro Java.
+
 ## Další zdroje
 
 - [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)

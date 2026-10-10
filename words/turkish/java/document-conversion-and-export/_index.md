@@ -95,6 +95,9 @@ Aspose.Words for Java’da tabloları biçimlendirmeyi ve tablo stilleri uygulam
 ### [Java’da docx'i markdown olarak kaydet – Tam Adım‑Adım Rehber](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
 Java’da Aspose.Words for Java kullanarak docx dosyasını markdown formatına dönüştürmeyi adım adım öğrenin.
 
+### [Markdown'tan Word'e Dönüştürürken Belgeyi docx Olarak Kaydetme](./how-to-save-document-as-docx-when-converting-markdown-to-wor/)
+Markdown dosyasını Word belgesine dönüştürürken doğrudan .docx formatında kaydetmeyi adım adım öğrenin.
+
 ### [Belgeden markdown oluşturma – Görüntüleri dışa aktar ve kaydet](./create-markdown-from-document-export-and-save-images/)
 Aspose.Words for Java kullanarak bir belgeyi markdown formatına dönüştürün ve içindeki görselleri dışa aktararak kaydedin.
 

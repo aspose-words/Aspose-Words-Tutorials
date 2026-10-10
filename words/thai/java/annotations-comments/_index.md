@@ -82,6 +82,9 @@ Annotation คือสัญญาณภาพที่สามารถแน
 ### [Aspose.Words Java&#58; Mastering Comment Management in Word Documents](./aspose-words-java-comment-management-guide/)
 เรียนรู้วิธีจัดการคอมเมนต์และการตอบกลับในเอกสาร Word ด้วย Aspose.Words for Java เพิ่ม, พิมพ์, ลบ, ทำเครื่องหมายว่าเสร็จ, และติดตามเวลาแสดงคอมเมนต์ได้อย่างง่ายดาย
 
+### [ประยุกต์ใช้สไตล์หัวเรื่องกับเชิงอรรถด้วย Aspose.Words for Java](./apply-heading-style-footnotes-with-aspose-words-for-java/)
+เรียนรู้วิธีการประยุกต์ใช้สไตล์หัวเรื่องกับเชิงอรรถในเอกสาร Word ด้วย Aspose.Words for Java
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)
