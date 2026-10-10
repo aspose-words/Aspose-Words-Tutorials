@@ -52,6 +52,7 @@
 | [كيفية إصلاح القواعد النحوية في ملفات DOCX باستخدام C# – دليل كامل خطوة بخطوة](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | تعلم كيفية تصحيح الأخطاء النحوية في مستندات DOCX باستخدام C# خطوة بخطوة مع Aspose.Words. |
 | [كيفية فحص القواعد النحوية في مستندات Word – دليل C# كامل](./how-to-check-grammar-in-word-documents-complete-c-guide/) | تعلم كيفية التحقق من القواعد النحوية في مستندات Word باستخدام Aspose.Words وC# خطوة بخطوة. |
 | [كيفية التحقق من القواعد النحوية باستخدام نموذج لغة محلي في C#](./how-to-check-grammar-with-a-local-llm-in-c/) | تعلم كيفية استخدام نموذج لغة محلي في C# للتحقق من القواعد النحوية في مستندات Word باستخدام Aspose.Words. |
+| [ترجمة فقرة إلى الفرنسية وتغيير تسمية المخطط في Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | تعلم كيفية ترجمة فقرة إلى الفرنسية وتعديل تسمية المخطط في مستند Word باستخدام Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

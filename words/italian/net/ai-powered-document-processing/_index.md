@@ -51,6 +51,7 @@ Infine, non dimenticare di dare un'occhiata al nostro [Lavorare con le opzioni d
 | [Come riassumere i documenti Word – Guida completa C#](./how-to-summarize-word-documents-complete-c-guide/) | Scopri come riassumere documenti Word usando Aspose.Words per .NET con una guida completa in C#. |
 | [Come controllare la grammatica nei documenti Word – Guida completa C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Scopri come utilizzare Aspose.Words per .NET per verificare la grammatica nei documenti Word con una guida passo‑passo in C#. |
 | [Come verificare la grammatica con un LLM locale in C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Scopri come utilizzare un modello linguistico locale per controllare la grammatica del codice C# con Aspose.Words per .NET. |
+| [Traduci il paragrafo in francese e modifica l'etichetta del grafico in Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Scopri come tradurre un paragrafo in francese e aggiornare l'etichetta di un grafico in un documento Word usando Aspose.Words per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

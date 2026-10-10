@@ -52,6 +52,7 @@
 | [Резюмирование документа Word с локальной LLM – руководство на C#](./summarize-word-document-with-local-llm-c-guide/) | Узнайте, как использовать локальную LLM для резюмирования Word‑документов на C# с помощью Aspose.Words. |
 | [Как проверить грамматику в документах Word – Полное руководство на C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Узнайте, как с помощью Aspose.Words для .NET реализовать проверку грамматики в документах Word, используя C#. |
 | [Как проверить грамматику с помощью локальной LLM на C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Узнайте, как использовать локальную модель LLM в C# для проверки грамматики текста с помощью Aspose.Words. |
+| [Перевести абзац на французский и изменить подпись диаграммы в Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Узнайте, как перевести абзац на французский и изменить подпись диаграммы в документе Word с помощью Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

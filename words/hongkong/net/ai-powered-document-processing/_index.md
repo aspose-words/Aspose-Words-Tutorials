@@ -52,6 +52,7 @@
 | [使用本地 LLM 摘要 Word 文件 – C# 指南](./summarize-word-document-with-local-llm-c-guide/) |使用 Aspose.Words for .NET 結合本地大型語言模型，以 C# 實作文件摘要，提升離線處理效率。 |
 | [如何在 Word 文件中檢查文法 – 完整 C# 指南](./how-to-check-grammar-in-word-documents-complete-c-guide/) |使用 Aspose.Words for .NET 及 C# 完整指南，教您如何在 Word 文件中自動檢查並校正文法錯誤。 |
 | [如何在 C# 中使用本地 LLM 檢查文法](./how-to-check-grammar-with-a-local-llm-in-c/) |使用 Aspose.Words for .NET 結合本地大型語言模型，在 C# 中自動檢查並校正文檔文法。 |
+| [將段落翻譯成法文並更改 Word 中的圖表標籤](./translate-paragraph-to-french-and-change-chart-label-in-word/) |使用 Aspose.Words for .NET 將段落翻譯成法文，同時修改圖表標籤。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
