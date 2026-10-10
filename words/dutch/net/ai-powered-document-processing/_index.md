@@ -52,6 +52,7 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Samenvatten van Word-document met lokale LLM – C#-gids](./summarize-word-document-with-local-llm-c-guide/) | Leer hoe u een Word-document lokaal samenvat met een LLM in C# met Aspose.Words. |
 | [Hoe controleer je grammatica in Word-documenten – Complete C#-gids](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Leer hoe u met Aspose.Words voor .NET en C# grammatica in Word-documenten controleert en corrigeert. |
 | [Hoe controleer je grammatica met een lokaal LLM in C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Leer hoe u met een lokaal LLM grammatica controleert in C# met Aspose.Words voor .NET. |
+| [Paragraaf vertalen naar Frans en grafieklabel wijzigen in Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Leer hoe u een alinea naar het Frans vertaalt en een grafieklabel in een Word-document wijzigt met Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
