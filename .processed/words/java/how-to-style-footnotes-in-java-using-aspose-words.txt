@@ -1,0 +1,7 @@
+Title: how to style footnotes in Java using Aspose.Words
+Slug: how-to-style-footnotes-in-java-using-aspose-words
+Category: document-styling
+ProcessedDate: 2026-10-07T15:28:28.653787
+SourceRepo: AI Search API
+Keywords: how to style footnotes, change footnote separator, edit footnote separator, format footnote separator, access footnote separator
+PRNumber: 306

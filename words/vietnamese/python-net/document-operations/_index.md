@@ -63,6 +63,9 @@ Hướng dẫn khôi phục và mở các tệp DOCX bị hỏng bằng Aspose.W
     ### [Khôi phục DOCX bị hỏng – Hướng dẫn toàn diện để bật chế độ khôi phục & lấy số trang](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
 Hướng dẫn chi tiết cách khôi phục tài liệu DOCX hỏng, bật chế độ khôi phục và đếm số trang bằng Aspose.Words cho Python-net.
 
+### [Cách khôi phục tệp docx bị hỏng bằng Aspose.Words cho Python](./how-to-recover-corrupted-docx-files-using-aspose-words-for-p/)
+Hướng dẫn chi tiết cách khôi phục các tệp DOCX bị hỏng bằng Aspose.Words cho Python.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.Words cho Tài liệu Python-net](https://docs.aspose.com/words/python-net/)

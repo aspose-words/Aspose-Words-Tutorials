@@ -1,0 +1,7 @@
+Title: Create invoice template and merge data using Aspose.Words
+Slug: create-invoice-template-and-merge-data-using-aspose-words
+Category: working-with-fields
+ProcessedDate: 2026-10-07T14:57:39.234212
+SourceRepo: AI Search API
+Keywords: create invoice template, how to mail merge, populate word template, merge data into word, save merged document
+PRNumber: 305

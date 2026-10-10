@@ -51,6 +51,9 @@ Learn how to manipulate PDFs using Aspose.Words for Python. Convert, edit, and h
     ### [Recover Corrupted DOCX – Open & Load Word Document](./recover-corrupted-docx-open-load-word-document/)
     Learn how to recover and open corrupted DOCX files using Aspose.Words for Python-net.
 
+    ### [How to recover corrupted docx files using Aspose.Words for Python](./how-to-recover-corrupted-docx-files-using-aspose-words-for-p/)
+    Learn how to recover corrupted DOCX files using Aspose.Words for Python.
+
     ### [Master Document Management with Aspose.Words in Python&#58; Limit Headings & Sign XPS Documents](./aspose-words-python-document-management/)
     Learn how to limit heading levels and apply digital signatures in XPS documents using Aspose.Words for Python, enhancing document security and navigation.
 
