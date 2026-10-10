@@ -1,0 +1,7 @@
+Title: How to create word document programmatically and insert plain text content control
+Slug: how-to-create-word-document-programmatically-and-insert-plai
+Category: document-manipulation
+ProcessedDate: 2026-10-10T19:05:29.504589
+SourceRepo: AI Search API
+Keywords: create word document programmatically, insert plain text content control
+PRNumber: 311
