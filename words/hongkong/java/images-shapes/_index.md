@@ -39,6 +39,9 @@ Aspose.Words Java 程式碼教程
 ### [在 C# 中為形狀套用陰影效果 – 步驟說明指南](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 了解如何在 C# 使用 Aspose.Words 為形狀添加陰影效果的詳細步驟。
 
+### [建立空白 Word 文件，新增圖像群組，隱藏形狀](./create-a-blank-word-document-add-an-image-group-hide-shape/)
+說明如何在 Word 中建立空白文件，加入圖像群組並隱藏形狀。
+
 ## 其他資源
 
 ## 其他資源

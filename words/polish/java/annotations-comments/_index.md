@@ -83,6 +83,9 @@ W dzisiejszej erze cyfrowej efektywne zarządzanie adnotacjami i komentarzami w 
 ### [Aspose.Words Java&#58; Opanowanie zarządzania komentarzami w dokumentach Word](./aspose-words-java-comment-management-guide/)
 Dowiedz się, jak zarządzać komentarzami i odpowiedziami w dokumentach Word przy użyciu Aspose.Words dla Javy. Dodawaj, drukuj, usuwaj, oznaczaj jako zakończone i śledź znaczniki czasu komentarzy bez wysiłku.
 
+### [Zastosowanie przypisów w stylu nagłówka przy użyciu Aspose.Words dla Javy](./apply-heading-style-footnotes-with-aspose-words-for-java/)
+Dowiedz się, jak automatycznie dodawać przypisy stylu nagłówka w dokumentach Word przy użyciu Aspose.Words dla Javy.
+
 ## Dodatkowe zasoby
 
 - [Dokumentacja Aspose.Words dla Javy](https://reference.aspose.com/words/java/)

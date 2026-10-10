@@ -41,6 +41,8 @@ Tìm hiểu cách mã hóa và giải mã tài liệu bằng Aspose.Words for Ja
 Tìm hiểu cách triển khai chữ ký số an toàn trong tài liệu bằng Aspose.Words cho Java. Đảm bảo tính toàn vẹn của tài liệu với hướng dẫn từng bước và mã nguồn
 ### [Biên tập tài liệu và bảo vệ dữ liệu](./document-redaction-data-protection/)
 Tìm hiểu cách bảo mật tài liệu và biên tập dữ liệu nhạy cảm bằng Aspose.Words cho Java. Hướng dẫn từng bước có mã nguồn.
+### [Tạo tùy chọn chữ ký và ký tài liệu Word bằng XAdES EPES](./create-signature-options-and-sign-a-word-doc-with-xades-epes/)
+Hướng dẫn tạo các tùy chọn chữ ký và ký tài liệu Word sử dụng chuẩn XAdES EPES với Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

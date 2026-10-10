@@ -38,6 +38,7 @@ Naučte se, jak generovat vysoce kvalitní miniatury a rastrové obrázky vlastn
 Naučte se, jak přidat stín k tvarům v dokumentech Word pomocí Aspose.Words pro Javu.
 ### [Aplikace stínového efektu na tvar v C# – krok za krokem průvodce](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Naučte se, jak aplikovat stínový efekt na tvary v C# pomocí Aspose.Words – podrobný krok‑za‑krokem průvodce.
+### [Vytvořte prázdný dokument Word, přidejte skupinu obrázků, skryjte tvar](./create-a-blank-word-document-add-an-image-group-hide-shape/)
 
 ## Další zdroje
 

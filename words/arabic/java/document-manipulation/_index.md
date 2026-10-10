@@ -80,6 +80,10 @@ Aspose.Words for Java هي واجهة برمجة تطبيقات قوية ومت�
 تعرّف على كيفية تحسين تنسيق المستندات باستخدام Aspose.Words لجافا. استكشف الأنماط والسمات والمزيد في هذا الدليل الشامل مع أمثلة على أكواد المصدر.
 ### [إنشاء جدول المحتويات في Aspose.Words لـ Java](./generating-table-of-contents/)
 تعلّم كيفية إنشاء جدول المحتويات (TOC) وتخصيصه باستخدام Aspose.Words لجافا. أنشئ مستندات منظمة واحترافية بكل سهولة.
+### [كيفية إنشاء مستند Word برمجيًا وإدراج عنصر تحكم نص عادي](./how-to-create-word-document-programmatically-and-insert-plai/)
+تعلم إنشاء مستند Word برمجيًا وإضافة عنصر تحكم نص عادي باستخدام Aspose.Words لجافا.
+### [كيفية تدوير المخطط في مستند Word باستخدام Aspose.Words](./how-to-rotate-chart-in-a-word-document-using-aspose-words/)
+تعلم كيفية تدوير المخططات داخل مستندات Word باستخدام مكتبة Aspose.Words لجافا.
 ### [حماية المستندات في Aspose.Words لـ Java](./protecting-documents/)
 تعرّف على كيفية تأمين مستندات جافا وورد باستخدام Aspose.Words لجافا. احمِ بياناتك بكلمة مرور، وغير ذلك الكثير.
 ### [تقسيم المستندات إلى صفحات في Aspose.Words لـ Java](./splitting-documents-into-pages/)
@@ -103,7 +107,9 @@ Aspose.Words for Java هي واجهة برمجة تطبيقات قوية ومت�
 ### [استخدام خصائص المستند في Aspose.Words لـ Java](./using-document-properties/)
 حسّن إدارة المستندات باستخدام Aspose.Words لجافا. تعلّم كيفية التعامل مع خصائص المستندات، وإضافة بيانات تعريفية مخصصة، والمزيد في هذا البرنامج التعليمي الشامل.
 ### [استخدام ملحقات الويب في Aspose.Words للغة Java](./using-web-extensions/)
-حسّن مستنداتك باستخدام ملحقات الويب في Aspose.Words لجافا. تعلّم كيفية دمج محتوى الويب بسلاسة. 
+حسّن مستنداتك باستخدام ملحقات الويب في Aspose.Words لجافا. تعلّم كيفية دمج محتوى الويب بسلاسة.
+### [تعيين نص الزر وإضافة زر ActiveX في C#](./set-button-text-and-add-an-activex-button-in-c/)
+تعلم كيفية تعيين نص زر وإدراج زر ActiveX في تطبيقات C# باستخدام Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

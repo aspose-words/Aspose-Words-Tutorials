@@ -94,6 +94,8 @@ Maîtrisez la création de documents avec Aspose.Words pour Java. Guide étape p
 Apprenez à cloner et combiner des documents dans Aspose.Words pour Java. Guide étape par étape avec exemples de code source.
 ### [Comparaison de documents dans Aspose.Words pour Java](./comparing-documents/)
 Apprenez à comparer des documents dans Aspose.Words pour Java, une puissante bibliothèque Java pour une analyse efficace des documents. 
+### [Définir le texte du bouton et ajouter un bouton ActiveX en C#](./set-button-text-and-add-an-activex-button-in-c/)
+Définissez le texte d'un bouton et ajoutez un bouton ActiveX en C#.
 ### [Formatage de documents dans Aspose.Words pour Java](./formatting-documents/)
 Apprenez l'art de la mise en forme de documents dans Aspose.Words pour Java grâce à notre guide complet. Explorez de puissantes fonctionnalités et améliorez vos compétences en traitement de documents.
 ### [Joindre et ajouter des documents dans Aspose.Words pour Java](./joining-and-appending-documents/)
@@ -104,6 +106,10 @@ Exploitez la puissance d'Aspose.Words pour Java. Maîtrisez les options et param
 Optimisez la gestion de vos documents avec Aspose.Words pour Java. Apprenez à gérer les propriétés des documents, à ajouter des métadonnées personnalisées et bien plus encore dans ce tutoriel complet.
 ### [Utilisation des extensions Web dans Aspose.Words pour Java](./using-web-extensions/)
 Améliorez vos documents avec les extensions Web d'Aspose.Words pour Java. Apprenez à intégrer facilement du contenu Web. 
+### [Comment créer un document Word programmatiquement et insérer un contrôle de contenu texte brut](./how-to-create-word-document-programmatically-and-insert-plai/)
+Apprenez à créer un document Word via code et à insérer un contrôle de contenu texte simple.
+### [Comment faire pivoter un graphique dans un document Word avec Aspose.Words](./how-to-rotate-chart-in-a-word-document-using-aspose-words/)
+Apprenez à faire pivoter un graphique dans un document Word à l'aide d'Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

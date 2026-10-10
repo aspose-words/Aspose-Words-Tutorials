@@ -88,6 +88,8 @@ Aspose.Words for Java를 사용하여 문서를 여러 페이지로 분할하는
 Aspose.Words for Java에서 문서를 효율적으로 분할하는 방법을 알아보세요. 제목, 섹션 및 페이지 범위에 대한 기법도 살펴보세요.
 ### [Aspose.Words for Java에서 문서를 HTML 페이지로 분할하기](./splitting-documents-into-html-pages/)
 Aspose.Words for Java를 사용하여 문서를 HTML 페이지로 분할하는 방법을 알아보세요. 원활한 문서 변환을 위한 단계별 가이드를 따라해 보세요.
+### [프로그램으로 워드 문서를 생성하고 일반 텍스트 콘텐츠 컨트롤 삽입하기](./how-to-create-word-document-programmatically-and-insert-plai/)
+Aspose.Words for Java를 사용해 프로그래밍 방식으로 워드 문서를 만들고, 일반 텍스트 콘텐츠 컨트롤을 삽입하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 DocumentBuilder를 사용하여 콘텐츠 추가](./adding-content-using-documentbuilder/)
 Aspose.Words for Java를 활용한 마스터 문서 제작. 텍스트, 표, 이미지 등을 추가하는 단계별 가이드. 멋진 Word 문서를 손쉽게 제작하세요.
 ### [Java용 Aspose.Words에서 문서 복제 및 결합](./cloning-and-combining-documents/)
@@ -103,7 +105,11 @@ Aspose.Words for Java의 강력한 기능을 활용하세요. 원활한 문서 �
 ### [Java용 Aspose.Words에서 문서 속성 사용](./using-document-properties/)
 Aspose.Words for Java를 사용하여 문서 관리를 최적화하세요. 이 포괄적인 튜토리얼에서 문서 속성 작업, 사용자 정의 메타데이터 추가 등의 방법을 알아보세요.
 ### [Java용 Aspose.Words에서 웹 확장 기능 사용](./using-web-extensions/)
-Aspose.Words for Java의 웹 확장 기능으로 문서를 더욱 풍부하게 만들고, 웹 기반 콘텐츠를 원활하게 통합하는 방법을 알아보세요. 
+Aspose.Words for Java의 웹 확장 기능으로 문서를 더욱 풍부하게 만들고, 웹 기반 콘텐츠를 원활하게 통합하는 방법을 알아보세요.
+### [C#에서 버튼 텍스트 설정 및 ActiveX 버튼 추가](./set-button-text-and-add-an-activex-button-in-c/)
+C#에서 버튼 텍스트를 설정하고 ActiveX 버튼을 추가하는 방법을 알아보세요.
+### [Java용 Aspose.Words에서 차트 회전하기](./how-to-rotate-chart-in-a-word-document-using-aspose-words/)
+Aspose.Words for Java를 사용해 Word 문서 내 차트를 회전하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

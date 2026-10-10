@@ -56,6 +56,12 @@ Manipulasi dokumen menggunakan Aspose.Words untuk Java merupakan keterampilan ya
 Mulailah perjalanan belajar Anda hari ini dan buka kemungkinan tak terbatas dalam manipulasi dokumen dengan Aspose.Words untuk Java.
 
 ## Tutorial Manipulasi Dokumen
+### [Cara Membuat Dokumen Word Secara Programatis dan Menyisipkan Kontrol Konten Teks Biasa](./how-to-create-word-document-programmatically-and-insert-plai/)
+Pelajari cara membuat dokumen Word secara programatis dan menambahkan kontrol konten teks biasa menggunakan Aspose.Words untuk Java.
+
+### [Cara Memutar Diagram dalam Dokumen Word menggunakan Aspose.Words](./how-to-rotate-chart-in-a-word-document-using-aspose-words/)
+Pelajari cara memutar diagram dalam dokumen Word menggunakan Aspose.Words untuk Java.
+
 ### [Menggunakan Opsi Pembersihan di Aspose.Words untuk Java](./using-cleanup-options/)
 Tingkatkan Kejelasan Dokumen dengan Opsi Pembersihan Aspose.Words untuk Java. Pelajari cara menghapus paragraf kosong, area yang tidak digunakan, dan banyak lagi.
 ### [Menggunakan Fields di Aspose.Words untuk Java](./using-fields/)
@@ -104,6 +110,8 @@ Manfaatkan Kekuatan Aspose.Words untuk Java. Kuasai Opsi dan Pengaturan Dokumen 
 Optimalkan manajemen dokumen dengan Aspose.Words untuk Java. Pelajari cara bekerja dengan properti dokumen, menambahkan metadata khusus, dan banyak lagi dalam tutorial lengkap ini.
 ### [Menggunakan Ekstensi Web di Aspose.Words untuk Java](./using-web-extensions/)
 Sempurnakan Dokumen dengan Ekstensi Web di Aspose.Words untuk Java. Pelajari cara mengintegrasikan konten berbasis web dengan lancar. 
+### [Set teks tombol dan tambahkan tombol ActiveX di C#](./set-button-text-and-add-an-activex-button-in-c/)
+Pelajari cara mengatur teks tombol dan menambahkan tombol ActiveX menggunakan Aspose.Words untuk C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

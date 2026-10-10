@@ -95,6 +95,9 @@ RTF Load Options konfigurálása az Aspose.Words for Java‑ban. Tanulja meg, ho
 ### [Szövegfájlok betöltése Aspose.Words for Java‑val](./loading-text-files/)
 Fedezze fel az Aspose.Words for Java erejét. Tanulja meg a szöveges dokumentumok betöltését, listák kezelését, szóközök kezelését és a szövegirányítás szabályozását.
 
+### [Hogyan állítsuk be a Big5 kódolást DOCX fájl betöltésekor Java‑ban](./how-to-set-big5-encoding-when-loading-a-docx-file-in-java/)
+Ismerje meg, hogyan adhatja meg a Big5 karakterkódolást a DOCX fájlok betöltésekor Java‑ban az Aspose.Words segítségével.
+
 ### [Haladó mentési beállítások Aspose.Words for Java‑val](./advance-saving-options/)
 Ismerje meg a haladó dokumentumműveleteket az Aspose.Words for Java‑val. Titkosítás, metafájlok kezelése és még sok más. A Word dokumentumok, ahogy Ön szeretné.
 
@@ -138,6 +141,7 @@ Tanulja meg, hogyan ismerje fel a dokumentumformátumokat Java‑ban az Aspose.W
 ### [Hogyan állítsuk helyre a DOCX-et – Sérült fájlok betöltése helyreállítási beállításokkal](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
 ### [Sérült docx helyreállítása – Teljes útmutató a dokumentumok javításához és feldolgozásához](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+
 ### [Betűtípus helyettesítési figyelmeztetések rögzítése Java-ban az Aspose.Words‑szal – Teljes útmutató](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 
 ### [Hogyan állítsuk vissza a docx-et – Teljes útmutató a sérült Word fájlok olvasásához](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
@@ -145,8 +149,9 @@ Tanulja meg, hogyan ismerje fel a dokumentumformátumokat Java‑ban az Aspose.W
 ### [Helyreállítási mód beállítása a sérült Word dokumentumok helyreállításához](./set-recovery-mode-to-recover-broken-word-document/)
 
 ### [Hiányzó betűtípusok lekérése Java‑ban – Aspose.Words útmutató](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
-### [Hogyan állítsuk helyre a DOCX‑et – mentse a helyreállított dokumentumot Java‑val](./how-to-recover-docx-save-recovered-document-using-java/)
-Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlt, és mentheti a helyreállított dokumentumot Java‑val az Aspose.Words segítségével.
+
+### [Hogyan állítsuk vissza a DOCX‑et – mentse a helyreállított dokumentumot Java‑val](./how-to-recover-docx-save-recovered-document-using-java/)
+
 ### [Hogyan állítsuk helyre a docx fájlt az Aspose.Words‑szal – Helyreállítási mód engedélyezése](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
 
 ## Gyakran Ismételt Kérdések

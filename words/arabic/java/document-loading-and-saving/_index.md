@@ -77,10 +77,12 @@ Aspose.Words for Java يجعل من السهل **حفظ الصور من Word** �
 تعلّم كيفية تحميل وحفظ مستندات HTML في جافا باستخدام Aspose.Words for Java. دليل خطوة بخطوة مع أمثلة برمجية لدمج المستندات بسلاسة.
 ### [العمل مع خيارات التحميل في Aspose.Words لـ Java](./using-load-options/)
 إتقان خيارات التحميل في Aspose.Words لجافا. خصّص تحميل المستندات، وتشفيرها، وتحويل الأشكال، وتعيين إصدارات Word، والمزيد لمعالجة مستندات جافا بكفاءة.
+### [كيفية تعيين ترميز Big5 عند تحميل ملف DOCX في Java](./how-to-set-big5-encoding-when-loading-a-docx-file-in-java/)
+تعلم كيفية تعيين ترميز Big5 عند تحميل مستند DOCX في Java باستخدام Aspose.Words.
 ### [تكوين خيارات تحميل RTF في Aspose.Words لـ Java](./configuring-rtf-load-options/)
 تكوين خيارات تحميل RTF في Aspose.Words لجافا. تعلّم كيفية تمييز نصوص UTF-8 في مستندات RTF. دليل خطوة بخطوة مع أمثلة برمجية.
 ### [تحميل ملفات النصوص باستخدام Aspose.Words لـ Java](./loading-text-files/)
-اكتشف قوة Aspose.Words في جافا. تعلم كيفية تحميل المستندات النصية، وإدارة القوائم، والتعامل مع المسافات، والتحكم في اتجاه النص.
+اكتشف قوة Aspose.Words في جافا. تعلم كيفية تحميل المستندات النصية، إدارة القوائم، والتعامل مع المسافات، والتحكم في اتجاه النص.
 ### [خيارات الحفظ المتقدمة مع Aspose.Words لـ Java](./advance-saving-options/)
 تعلم التعامل المتقدم مع المستندات باستخدام Aspose.Words لجافا. شفّر، عالج ملفات التعريف، وأكثر. مستندات Word، على طريقتك.
 ### [حفظ مستندات HTML بتنسيق ثابت في Aspose.Words لـ Java](./saving-html-documents-with-fixed-layout/)

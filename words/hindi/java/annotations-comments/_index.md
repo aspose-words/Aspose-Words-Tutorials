@@ -82,6 +82,9 @@ weight: 11
 ### [Aspose.Words Java&#58; Mastering Comment Management in Word Documents](./aspose-words-java-comment-management-guide/)
 Word दस्तावेज़ों में टिप्पणी और उत्तरों का प्रबंधन कैसे करें, यह सीखें। Aspose.Words for Java का उपयोग करके जोड़ें, प्रिंट करें, हटाएँ, Done चिह्नित करें, और टिप्पणी टाइमस्टैम्प को आसानी से ट्रैक करें।
 
+### [Aspose.Words Java&#58; Aspose.Words for Java के साथ हेडिंग शैली फुटनोट लागू करें](./apply-heading-style-footnotes-with-aspose-words-for-java/)
+Aspose.Words for Java का उपयोग करके हेडिंग शैली वाले फुटनोट को जोड़ना और प्रबंधित करना सीखें।
+
 ## Additional Resources
 
 - [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)

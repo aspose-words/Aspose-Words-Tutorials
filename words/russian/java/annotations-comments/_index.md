@@ -83,6 +83,9 @@ weight: 11
 ### [Aspose.Words Java&#58; Мастерство управления комментариями в документах Word](./aspose-words-java-comment-management-guide/)
 Узнайте, как управлять комментариями и ответами в документах Word с помощью Aspose.Words for Java. Добавляйте, печатайте, удаляйте, помечайте как выполненные и отслеживайте временные метки комментариев без усилий.
 
+### [Применение сносок со стилем заголовка с помощью Aspose.Words для Java](./apply-heading-style-footnotes-with-aspose-words-for-java/)
+Узнайте, как применять стили заголовков к сноскам в документах Word с помощью Aspose.Words for Java.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words for Java](https://reference.aspose.com/words/java/)  

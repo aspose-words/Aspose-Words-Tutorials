@@ -41,6 +41,8 @@ Scopri come crittografare e decrittografare documenti con Aspose.Words per Java.
 Scopri come implementare firme digitali sicure nei documenti utilizzando Aspose.Words per Java. Garantisci l'integrità dei documenti con istruzioni dettagliate e codice sorgente.
 ### [Redazione di documenti e protezione dei dati](./document-redaction-data-protection/)
 Scopri come proteggere i tuoi documenti e oscurare i dati sensibili utilizzando Aspose.Words per Java. Guida passo passo con codice sorgente.
+### [Crea opzioni di firma e firma un documento Word con XAdES EPES](./create-signature-options-and-sign-a-word-doc-with-xades-epes/)
+Impara a creare opzioni di firma e a firmare un documento Word usando lo standard XAdES EPES con Aspose.Words per Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

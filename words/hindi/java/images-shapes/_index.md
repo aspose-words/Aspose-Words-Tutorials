@@ -45,6 +45,9 @@ Word दस्तावेज़ में आकृति पर छाया �
 ### [C# में आकृति पर शैडो इफ़ेक्ट लागू करें – चरण‑दर‑चरण गाइड](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 C# में Aspose.Words का उपयोग करके आकृति पर शैडो इफ़ेक्ट जोड़ने के लिए विस्तृत चरण और कोड उदाहरण।
 
+### [एक खाली Word दस्तावेज़ बनाएं, इमेज समूह जोड़ें, आकृति को छुपाएँ](./create-a-blank-word-document-add-an-image-group-hide-shape/)
+एक खाली Word फ़ाइल बनाकर उसमें इमेज समूह जोड़ें और आकृति को छुपाने का तरीका सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)

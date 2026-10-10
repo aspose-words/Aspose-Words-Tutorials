@@ -46,7 +46,7 @@ weight: 22
 Είστε νέοι στο Aspose.Words for Java; Μην ανησυχείτε! Αυτό το εκπαιδευτικό σεμινάριο θα σας καθοδηγήσει στη αρχική ρύθμιση και θα σας προσφέρει μια σταθερή βάση για να εργαστείτε με αυτό το API. Θα είστε έτοιμοι να ξεκινήσετε σε ελάχιστο χρόνο.
 
 ## Μετατροπή Εγγράφων σε Διαφορετικές Μορφές
-Ένα από τα βασικά χαρακτηριστικά του Aspose.Words for Java είναι η ικανότητά του να **convert docx to pdf** και σε πολλές άλλες μορφές άψογα. Είτε χρειάζεστε να μετατρέψετε ένα αρχείο DOCX σε PDF είτε το αντίστροφο, αυτό το σεμινάριο θα σας καθοδηγήσει βήμα‑βήμα. Θα αποκτήσετε βαθιά κατανόηση των επιλογών μετατροπής και των δυνατοτήτων προσαρμογής.
+Ένα από τα βασικά χαρακτηριστικά του Aspose.Words for Java είναι η ικανότητά του να **convert docx to pdf** και σε πολλές άλλες μορφές άψογα. Είτε χρειάζεστε να μετατρέψετε ένα αρχείο DOCX σε PDF είτε το αντίστροφο, αυτό το σεμιναριο θα σας καθοδηγήσει βήμα‑βήμα. Θα αποκτήσετε βαθιά κατανόηση των επιλογών μετατροπής και των δυνατοτήτων προσαρμογής.
 
 ### Πώς να Μετατρέψετε DOCX σε PDF
 1. Φορτώστε το αρχείο DOCX με `Document doc = new Document("input.docx");`.  
@@ -91,8 +91,11 @@ weight: 22
 ### [Εξαγωγή DOCX σε PDF – Πλήρης Οδηγός για Δημιουργία Προσβάσιμων PDF](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
 Μάθετε πώς να μετατρέπετε DOCX σε PDF με πλήρη υποστήριξη προσβασιμότητας, βήμα‑βήμα οδηγίες και βέλτιστες πρακτικές.
 
-### [Πώς να Αποθηκεύσετε Markdown από το Word – Πλήρης Οδηγός](./how-to-save-markdown-from-word-complete-guide/)
+### [Πώς να αποθηκεύσετε Markdown από το Word – Πλήρης Οδηγός](./how-to-save-markdown-from-word-complete-guide/)
 Μάθετε πώς να μετατρέψετε έγγραφα Word σε αρχεία Markdown ...
+
+### [Πώς να αποθηκεύσετε το έγγραφο ως docx κατά τη μετατροπή Markdown σε Word](./how-to-save-document-as-docx-when-converting-markdown-to-wor/)
+Μάθετε πώς να αποθηκεύσετε το έγγραφο ως αρχείο docx κατά τη μετατροπή Markdown σε Word με Aspose.Words for Java.
 
 ### [Πώς να Εξάγετε Markdown από το Word – Οδηγός βήμα‑βήμα για Java](./how-to-export-markdown-from-word-step-by-step-java-guide/)
 Μάθετε πώς να εξάγετε περιεχόμενο Markdown από έγγραφα Word χρησιμοποιώντας Aspose.Words for Java, βήμα‑βήμα με παραδείγματα κώδικα.
@@ -137,7 +140,7 @@ weight: 22
 Μάθετε πώς να μετατρέψετε έγγραφα Word σε προσβάσιμα PDF σύμφωνα με τα πρότυπα προσβασιμότητας, βήμα‑βήμα με Aspose.Words.
 
 ### [Μετατροπή docx σε markdown – Εξαγωγή μαθηματικών εξισώσεων σε LaTeX με Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
-Μάθετε πώς να μετατρέψετε αρχεία DOCX σε Markdown και να εξάγετε εξισώσεις Math σε LaTeX χρησιμοποιώντας το Aspose.Words.
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε Markdown, εξάγοντας εξισώσεις Math σε LaTeX χρησιμοποιώντας το Aspose.Words.
 
 ### [Πώς να ενσωματώσετε εικόνες σε Markdown κατά τη μετατροπή DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Μάθετε πώς να ενσωματώσετε εικόνες σε αρχεία Markdown όταν μετατρέπετε DOCX με Aspose.Words for Java.
@@ -161,6 +164,7 @@ weight: 22
 
 ### [Πώς να Εξάγετε Markdown από Word χρησιμοποιώντας Java – Πλήρης Οδηγός](./how-to-export-markdown-from-word-using-java-complete-guide/)
 Μάθετε πώς να μετατρέψετε έγγραφα Word σε Markdown με Aspose.Words for Java, βήμα‑βήμα με παραδείγματα κώδικα.
+
 ### [Αποθήκευση docx ως txt – Γρήγορος Οδηγός C# με Εξαγωγή Μαθηματικών LaTeX](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
 Μάθετε πώς να μετατρέψετε αρχεία DOCX σε TXT σε C# και να εξάγετε μαθηματικές εξισώσεις σε μορφή LaTeX.
 
@@ -169,6 +173,7 @@ weight: 22
 
 ### [Επιλογές αποθήκευσης PDF – Μετατροπή DOCX σε PDF στην Java με πλήρη έλεγχο](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 Μάθετε πώς να ρυθμίσετε πλήρως τις επιλογές αποθήκευσης PDF κατά τη μετατροπή DOCX σε PDF με το Aspose.Words for Java.
+
 ### [Αποθήκευση Word ως κείμενο – Εξαγωγή εξισώσεων σε LaTeX με Aspose.Words](./save-word-as-text-export-equations-to-latex-with-aspose-word/)
 Μάθετε πώς να μετατρέψετε έγγραφα Word σε αρχείο κειμένου και να εξάγετε μαθηματικές εξισώσεις σε μορφή LaTeX.
 

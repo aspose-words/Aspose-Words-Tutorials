@@ -115,7 +115,7 @@ Aspose.Words for Java के साथ Word दस्तावेज़ को �
 Aspose.Words for Java का उपयोग करके दस्तावेज़ों को ODT फ़ॉर्मेट में सेव करना सीखें। ओपन‑सोर्स ऑफिस सूट्स के साथ संगतता सुनिश्चित करें।
 
 ### [Aspose.Words for Java में दस्तावेज़ों को OOXML फ़ॉर्मेट में सेव करना](./saving-documents-as-ooxml-format/)
-Aspose.Words for Java के साथ दस्तावेज़ों को OOXML फ़ॉर्मेट में सेव करना सीखें। सुरक्षित, ऑप्टिमाइज़्ड और कस्टमाइज़्ड फ़ाइलें आसानी से बनाएं।
+Aspose.Words for Java के साथ दस्तावेज़ को OOXML फ़ॉर्मेट में सेव करना सीखें। सुरक्षित, ऑप्टिमाइज़्ड और कस्टमाइज़्ड फ़ाइलें आसानी से बनाएं।
 
 ### [Aspose.Words for Java में दस्तावेज़ों को PCL फ़ॉर्मेट में सेव करना](./saving-documents-as-pcl-format/)
 Aspose.Words for Java का उपयोग करके दस्तावेज़ों को PCL फ़ॉर्मेट में सेव करना सीखें। प्रभावी दस्तावेज़ कनवर्ज़न के लिए चरण‑दर‑चरण गाइड और कोड उदाहरण।
@@ -153,7 +153,8 @@ Aspose.Words for Java में फ़ॉन्ट प्रतिस्था�
 ### [Java में लापता फ़ॉन्ट्स कैसे प्राप्त करें – Aspose.Words गाइड](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 ### [DOCX को पुनर्प्राप्त करने का तरीका – रिकवरी मोड सेट करें और चेतावनियाँ दिखाएँ](./how-to-recover-docx-set-recovery-mode-display-warnings/)
 ### [Aspose.Words के साथ docx को पुनर्प्राप्त करने का तरीका – रिकवरी मोड सक्षम करें](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
-Aspose.Words का उपयोग करके क्षतिग्रस्त docx फ़ाइलों को रिकवरी मोड में पुनर्प्राप्त करने की प्रक्रिया सीखें।
+
+### [Java में DOCX फ़ाइल लोड करते समय Big5 एन्कोडिंग कैसे सेट करें](./how-to-set-big5-encoding-when-loading-a-docx-file-in-java/)
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

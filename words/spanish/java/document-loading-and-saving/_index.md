@@ -119,15 +119,22 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 
 ### [Crear opciones de carga en Java – Detectar fuentes faltantes y cómo cargar DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
 
+### [Cómo establecer la codificación Big5 al cargar un archivo DOCX en Java](./how-to-set-big5-encoding-when-loading-a-docx-file-in-java/)
+
 ### [Establecer modo de recuperación para recuperar documentos Word dañados](./set-recovery-mode-to-recover-broken-word-document/)
 
 ### [Recuperar docx corrupto – Guía completa para reparar y procesar documentos](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 
 ### [Capturar advertencias de sustitución de fuentes en Java con Aspose.Words – Guía completa](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+
 ### [Cómo recuperar docx – Guía completa para leer archivos Word corruptos](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+
 ### [Cómo obtener fuentes faltantes en Java – Guía de Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
+
 ### [Cómo recuperar archivos DOCX con Aspose.Words – Guía paso a paso](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
+
 ### [Cómo recuperar DOCX – Establecer modo de recuperación y mostrar advertencias](./how-to-recover-docx-set-recovery-mode-display-warnings/)
+
 ### [Cómo recuperar docx con Aspose.Words – Habilitar modo de recuperación](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
 
 ## Preguntas frecuentes

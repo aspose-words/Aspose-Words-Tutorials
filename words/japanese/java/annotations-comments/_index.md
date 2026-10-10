@@ -78,6 +78,8 @@ weight: 11
 ### [Aspose.Words Java&#58; Word ドキュメントにおけるコメント管理のマスタリング](./aspose-words-java-comment-management-guide/)
 Aspose.Words for Java を使用して Word ドキュメント内のコメントと返信を管理する方法を学びます。コメントの追加、印刷、削除、完了マーク、タイムスタンプの追跡を簡単に行えます。
 
+### [Aspose.Words for Javaで見出しスタイルの脚注を適用する](./apply-heading-style-footnotes-with-aspose-words-for-java/)
+
 ## 追加リソース
 - [Aspose.Words for Java ドキュメント](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Java API リファレンス](https://reference.aspose.com/words/java/)

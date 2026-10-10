@@ -76,7 +76,7 @@ Für weitere Informationen sehen Sie sich die [Aspose.Words for Java API Documen
 
 ## Tutorials zur Dokumentkonvertierung und zum Export
 ### [Generating Custom Barcode Labels in Aspose.Words for Java](./generating-custom-barcode-labels/)
-Generieren Sie benutzerdefinierte Barcode‑Etiketten in Aspose.Words for Java. Erfahren Sie, wie Sie personalisierte Barcode‑Lösungen mit Aspose.Words für Java in dieser Schritt‑für‑Schritt‑Anleitung erstellen.
+Generieren Sie benutzerdefinierte Barcode‑Etiketten in Aspose.Words für Java. Erfahren Sie, wie Sie personalisierte Barcode‑Lösungen mit Aspose.Words für Java in dieser Schritt‑für‑Schritt‑Anleitung erstellen.
 
 ### [Using Barcode Generation in Aspose.Words for Java](./using-barcode-generation/)
 Erfahren Sie, wie Sie benutzerdefinierte Barcodes in Java mit Aspose.Words for Java erzeugen. Schritt‑für‑Schritt‑Anleitung mit Quellcode zur Barcode‑Generierung. Verbessern Sie die Dokumenten‑Automatisierung mit Aspose.Words.
@@ -95,6 +95,7 @@ Erfahren Sie, wie Sie Wasserzeichen zu Dokumenten in Aspose.Words for Java hinzu
 
 ### [Word als PDF speichern mit Aspose.Words – Schritt‑für‑Schritt Java‑Leitfaden](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
 Erfahren Sie, wie Sie ein Word‑Dokument mit Aspose.Words in Java einfach in ein PDF konvertieren – komplette Schritt‑für‑Schritt‑Anleitung.
+
 ### [PDF‑UA in Aspose.Words für Java erstellen – DOCX zu PDF konvertieren](./create-pdf-ua-in-java-convert-docx-to-pdf/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java PDF/UA‑Dateien aus DOCX erstellen und konvertieren, um barrierefreie PDFs zu erhalten.
 
@@ -135,7 +136,7 @@ Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words for Java problemlos in PDF
 Erfahren Sie, wie Sie mit Aspose.Words for Java ein barrierefreies PDF aus einem Word‑Dokument erstellen.
 
 ### [Dokument als TXT speichern – Schnellleitfaden zum Exportieren von Word-Mathematik](./save-document-as-txt-quick-guide-to-exporting-word-math/)
-Erfahren Sie, wie Sie Word-Dokumente als TXT exportieren und dabei mathematische Formeln korrekt extrahieren.
+Erfahren Sie, wie Sie Word‑Dokumente als TXT exportieren und dabei mathematische Formeln korrekt extrahieren.
 
 ### [DOCX in Markdown konvertieren – Mathegleichungen nach LaTeX exportieren mit Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
@@ -174,7 +175,7 @@ Erfahren Sie, wie Sie Bilder beim Konvertieren von Word‑Dokumenten nach Markdo
 
 ### [PDF‑Speicheroptionen – DOCX in PDF in Java mit voller Kontrolle konvertieren](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 Erfahren Sie, wie Sie mit PDF‑Speicheroptionen die Konvertierung von DOCX nach PDF in Java präzise steuern können.
-### [Exportieren von DOCX nach PDF – Komplettleitfaden zur Erstellung barrierefreier PDFs](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+## Exportieren von DOCX nach PDF – Komplettleitfaden zur Erstellung barrierefreier PDFs
 Erfahren Sie, wie Sie DOCX‑Dateien in PDF konvertieren und dabei barrierefreie PDFs mit Tags, Lesezeichen und korrekter Struktur erzeugen.
 
 ### [docx‑to‑pdf‑Tutorial – Word mit LowCode in PDF konvertieren](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
@@ -187,6 +188,9 @@ Erfahren Sie, wie Sie DOCX‑Dateien in Markdown umwandeln und dabei eingebettet
 
 ### [Word nach Markdown exportieren – Java‑Leitfaden mit Aspose.Words](./export-word-to-markdown-java-guide-using-aspose-words/)
 Erfahren Sie, wie Sie Word‑Dokumente in Markdown umwandeln und dabei Bilder extrahieren, mit Aspose.Words für Java.
+
+### [Wie man ein Dokument als DOCX speichert, wenn man Markdown nach Word konvertiert](./how-to-save-document-as-docx-when-converting-markdown-to-wor/)
+Erfahren Sie, wie Sie ein Markdown‑Dokument in ein Word‑DOCX konvertieren und dabei das Ergebnis als DOCX speichern.
 
 ## Häufig gestellte Fragen
 

@@ -33,6 +33,8 @@ Aspose.Words for Java を用いたドキュメントセキュリティの習得�
 Aspose.Words for Javaでドキュメントを安全に保護しましょう。暗号化、保護、デジタル署名の追加が簡単に行えます。データを安全に保管しましょう。
 ### [パスワードで文書を保護する](./securing-documents-passwords/)
 Aspose.Words for Javaを使って、パスワードでドキュメントを保護する方法を学びましょう。このステップバイステップガイドには、ソースコードと専門家のヒントが含まれています。データを保護しましょう。
+### [ドキュメント権限の管理](./manage
+
 ### [ドキュメント権限の管理](./managing-document-permissions/)
 Aspose.Words for Javaを使用してドキュメントの権限を効果的に管理する方法を学びましょう。この包括的なガイドでは、ステップバイステップの手順とソースコードの例を紹介します。
 ### [ドキュメントの暗号化と復号化](./document-encryption-decryption/)
@@ -41,6 +43,8 @@ Aspose.Words for Javaを使ってドキュメントを暗号化・復号化す�
 Aspose.Words for Javaを使用して、ドキュメントに安全なデジタル署名を実装する方法を学びましょう。ステップバイステップのガイドとソースコードでドキュメントの整合性を確保します。
 ### [文書編集とデータ保護](./document-redaction-data-protection/)
 Aspose.Words for Javaを使用してドキュメントを保護し、機密データを編集する方法を学びましょう。ソースコード付きのステップバイステップガイドです。
+### [XAdES EPESで署名オプションを作成し、Word文書に署名する](./create-signature-options-and-sign-a-word-doc-with-xades-epes/)
+Aspose.Words for Javaを使用して、XAdES EPES署名オプションを作成し、Word文書にデジタル署名を適用する方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

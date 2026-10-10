@@ -81,7 +81,7 @@ Ismerd meg, hogyan javíthatod a dokumentumok formázását az Aspose.Words for 
 ### [Tartalomjegyzék generálása az Aspose.Words programban Java-hoz](./generating-table-of-contents/)
 Tanuld meg, hogyan hozhatsz létre és szabhatsz testre tartalomjegyzéket (TOC) az Aspose.Words for Java segítségével. Készíts könnyedén szervezett és professzionális dokumentumokat.
 ### [Dokumentumok védelme az Aspose.Words for Java programban](./protecting-documents/)
-Ismerje meg, hogyan teheti biztonságossá Java Word-dokumentumait az Aspose.Words for Java segítségével. Védje adatait jelszóval és egyebekkel.
+Ismerje meg, hogyan teheti biztonságossá Java Word-dokumentumait az Aspose.Words for Java segítségével. Védje adatait jelszóvel és egyebekkel.
 ### [Dokumentumok oldalakra osztása az Aspose.Words for Java programban](./splitting-documents-into-pages/)
 Tanuld meg, hogyan oszthatod fel a dokumentumokat oldalakra az Aspose.Words for Java használatával. Lépésről lépésre útmutató forráskóddal a hatékony dokumentumfeldolgozáshoz.
 ### [Dokumentumok felosztása az Aspose.Words programban Java-ban](./splitting-documents/)
@@ -103,7 +103,12 @@ Engedd szabadjára az Aspose.Words erejét Java-ban. Fődokumentum-beállításo
 ### [Dokumentumtulajdonságok használata az Aspose.Words Java-ban](./using-document-properties/)
 Optimalizálja a dokumentumkezelést az Aspose.Words for Java segítségével. Tanulja meg, hogyan kell dolgozni a dokumentumok tulajdonságaival, hogyan adhat hozzá egyéni metaadatokat és sok mást ebben az átfogó oktatóanyagban.
 ### [Webbővítmények használata az Aspose.Words Java-ban](./using-web-extensions/)
-Dokumentumok fejlesztése webbővítményekkel az Aspose.Words for Java programban. Tanulja meg, hogyan integrálja zökkenőmentesen a webes tartalmakat. 
+
+### [Hogyan forgassuk el a diagramot egy Word dokumentumban az Aspose.Words használatával](./how-to-rotate-chart-in-a-word-document-using-aspose-words/)
+
+### [Hogyan hozzunk létre Word dokumentumot programozottan, és szúrjunk be egyszerű szöveges tartalomvezérlőt](./how-to-create-word-document-programmatically-and-insert-plai/)
+
+### [Gomb szövegének beállítása és ActiveX gomb hozzáadása C#-ban](./set-button-text-and-add-an-activex-button-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -41,6 +41,8 @@ Apprenez à chiffrer et déchiffrer des documents avec Aspose.Words pour Java. S
 Apprenez à implémenter des signatures numériques sécurisées dans vos documents avec Aspose.Words pour Java. Assurez l'intégrité de vos documents grâce à des instructions détaillées et au code source.
 ### [Rédaction de documents et protection des données](./document-redaction-data-protection/)
 Apprenez à sécuriser vos documents et à supprimer les données sensibles avec Aspose.Words pour Java. Guide étape par étape avec code source.
+### [Créer des options de signature et signer un document Word avec XAdES EPES](./create-signature-options-and-sign-a-word-doc-with-xades-epes/)
+Apprenez à configurer les options de signature et à signer un document Word en utilisant le format XAdES EPES avec Aspose.Words pour Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

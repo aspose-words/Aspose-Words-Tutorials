@@ -82,6 +82,9 @@ Marquer un commentaire comme résolu aide les équipes à suivre les progrès. D
 ### [Aspose.Words Java : Maîtriser la gestion des commentaires dans les documents Word](./aspose-words-java-comment-management-guide/)
 Apprenez à gérer les commentaires et les réponses dans les documents Word à l'aide d'Aspose.Words for Java. Ajoutez, imprimez, supprimez, marquez comme terminé et suivez les horodatages des commentaires sans effort.
 
+### [Appliquer le style de titre aux notes de bas de page avec Aspose.Words for Java](./apply-heading-style-footnotes-with-aspose-words-for-java/)
+Apprenez à appliquer le style de titre aux notes de bas de page dans les documents Word à l'aide d'Aspose.Words for Java.
+
 ## Ressources supplémentaires
 - [Documentation Aspose.Words for Java](https://reference.aspose.com/words/java/)
 - [Référence API Aspose.Words for Java](https://reference.aspose.com/words/java/)

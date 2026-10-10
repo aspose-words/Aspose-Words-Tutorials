@@ -95,11 +95,15 @@ Word 文書を Markdown 形式で保存する手順をステップバイステ�
 ### [Word から Markdown をエクスポートする方法 – ステップバイステップ Java ガイド](./how-to-export-markdown-from-word-step-by-step-java-guide/)
 Aspose.Words for Java を使用して Word 文書を Markdown 形式にエクスポートする手順を詳しく解説します。
 
+### [Markdown から Word に変換するときに docx として文書を保存する方法](./how-to-save-document-as-docx-when-converting-markdown-to-wor/)
+Markdown を Word に変換し、結果の文書を DOCX 形式で保存する手順をステップバイステップで解説します。
+
 ### [Aspose.Words for Java で Word を PDF に保存する – ステップバイステップ Java ガイド](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
 Aspose.Words for Java を使用して Word 文書を PDF に変換する手順を詳細に解説します。コード例と設定方法を学べます。
 
 ### [Java で DOCX からアクセシブル PDF を作成する – 完全ガイド](./create-accessible-pdf-from-docx-in-java-full-guide/)
 DOCX をアクセシブルな PDF に変換する手順と設定方法をステップバイステップで解説します。
+
 ### [DOCX を PDF にエクスポート – アクセシブル PDF 作成の完全ガイド](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
 DOCX を PDF に変換し、アクセシビリティ要件を満たす PDF を作成する手順をステップバイステップで解説します。
 
@@ -113,7 +117,7 @@ A: ドキュメントをロードし、`DocumentBuilder.insertWatermarkText` ま
 ### [Java で docx を markdown として保存 – 完全ステップバイステップガイド](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
 Javaで Aspose.Words を使用して DOCX を Markdown に変換し、保存する方法をステップバイステップで解説します。
 
-### [DOCX から LaTeX をエクスポートする方法 – Word を TXT に変換するガイド](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
+### [docx から LaTeX をエクスポートする方法 – Word を TXT に変換するガイド](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
 Aspose.Words for Java を使用して DOCX 文書から LaTeX コードを抽出し、テキストファイルとして保存する手順を解説します。
 
 ### [ドキュメントから Markdown を作成 – 画像をエクスポートして保存](./create-markdown-from-document-export-and-save-images/)
@@ -179,4 +183,3 @@ Aspose.Words for Java を使用して Word 文書を Markdown 形式に変換す
 Aspose.Words for Java を使用して、Word 文書からアクセシブルな PDF を生成する手順を詳しく解説します。
 
 ### [PDF 保存オプション – Java で DOCX を PDF に変換するフルコントロール](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
-

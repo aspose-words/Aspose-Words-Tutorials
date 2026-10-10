@@ -149,6 +149,7 @@ Pelajari cara memulihkan file DOCX yang rusak, memperbaikinya, dan melanjutkan p
 Pelajari cara menangkap peringatan substitusi font saat memuat dokumen di Java menggunakan Aspose.Words, termasuk contoh kode lengkap.
 ### [Cara Memulihkan DOCX – Panduan Lengkap Membaca File Word yang Rusak](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 Pelajari cara memulihkan file DOCX yang rusak dengan panduan lengkap menggunakan Aspose.Words untuk Java.
+
 ### [Cara Mendapatkan Font yang Hilang di Java – Panduan Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 
 ### [Atur mode pemulihan untuk memulihkan dokumen Word yang rusak](./set-recovery-mode-to-recover-broken-word-document/)
@@ -158,6 +159,9 @@ Pelajari cara memulihkan file DOCX yang rusak dan menyimpannya kembali menggunak
 
 ### [Cara memulihkan docx dengan Aspose.Words – Aktifkan Mode Pemulihan](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
 Pelajari cara memulihkan file DOCX yang rusak menggunakan Aspose.Words dengan mengaktifkan mode pemulihan.
+
+### [Cara mengatur enkoding Big5 saat memuat file DOCX di Java](./how-to-set-big5-encoding-when-loading-a-docx-file-in-java/)
+Pelajari cara mengatur enkoding Big5 saat memuat dokumen DOCX di Java menggunakan Aspose.Words.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -180,7 +184,7 @@ Pelajari cara memulihkan file DOCX yang rusak menggunakan Aspose.Words dengan me
 
 **Terakhir Diperbarui:** 2025-12-19  
 **Diuji Dengan:** Aspose.Words for Java 24.12 (latest)  
-**Penulis:** Aspose
+**Penulis:** Aspose.Words
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

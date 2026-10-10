@@ -139,8 +139,10 @@ Impara a salvare documenti come file di testo in Aspose.Words per Java. Segui la
 
 ### [Cattura gli avvisi di sostituzione dei font in Java con Aspose.Words – Guida completa](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Scopri come intercettare e gestire gli avvisi di sostituzione dei font durante l'elaborazione dei documenti Word in Java con Aspose.Words.
+
 ### [Come recuperare docx – Guida completa per leggere file Word corrotti](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 Scopri come aprire e riparare file DOCX corrotti usando Aspose.Words per Java, con esempi pratici passo‑passo.
+
 ### [Imposta modalità di recupero per ripristinare documenti Word danneggiati](./set-recovery-mode-to-recover-broken-word-document/)
 Scopri come configurare la modalità di recupero per aprire e riparare documenti Word corrotti con Aspose.Words per Java.
 
@@ -158,6 +160,9 @@ Scopri come impostare la modalità di recupero per DOCX e visualizzare gli avvis
 
 ### [Come recuperare docx con Aspose.Words – Abilita modalità di recupero](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
 Scopri come attivare la modalità di recupero per riparare file DOCX danneggiati con Aspose.Words per Java.
+
+### [Come impostare la codifica Big5 durante il caricamento di un file DOCX in Java](./how-to-set-big5-encoding-when-loading-a-docx-file-in-java/)
+Imposta la codifica Big5 per caricare correttamente documenti DOCX contenenti caratteri cinesi tradizionali.
 
 ## Domande Frequenti
 

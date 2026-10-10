@@ -87,6 +87,9 @@ Lernen Sie, wie Sie HTML‑Dokumente in Java mit Aspose.Words für Java laden un
 ### [Arbeiten mit Ladeoptionen in Aspose.Words für Java](./using-load-options/)
 Meistern Sie Ladeoptionen in Aspose.Words für Java. Passen Sie das Laden von Dokumenten an, behandeln Sie Verschlüsselungen, konvertieren Sie Shapes, setzen Sie Word‑Versionen und mehr für effiziente Java‑Dokumentenverarbeitung.
 
+### [Wie man beim Laden einer DOCX-Datei in Java die Big5‑Kodierung festlegt](./how-to-set-big5-encoding-when-loading-a-docx-file-in-java/)
+Erfahren Sie, wie Sie beim Laden einer DOCX-Datei in Java die Big5‑Zeichencodierung einstellen.
+
 ### [Ladeoptionen in Java erstellen – Fehlende Schriftarten erkennen & DOCX laden](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
 Lernen Sie, wie Sie Ladeoptionen konfigurieren, fehlende Schriftarten erkennen und DOCX-Dateien korrekt laden.
 

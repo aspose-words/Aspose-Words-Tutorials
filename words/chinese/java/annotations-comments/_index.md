@@ -80,6 +80,9 @@ weight: 11
 ### [Aspose.Words Java&#58; Mastering Comment Management in Word Documents](./aspose-words-java-comment-management-guide/)
 了解如何使用 Aspose.Words for Java 管理 Word 文档中的评论和回复。轻松实现添加、打印、删除、标记为已完成以及跟踪评论时间戳等操作。
 
+### [使用 Aspose.Words for Java 将标题样式应用于脚注](./apply-heading-style-footnotes-with-aspose-words-for-java/)
+学习如何在 Word 文档中使用 Aspose.Words for Java 为脚注应用标题样式。
+
 ## 其他资源
 
 - [Aspose.Words for Java 文档](https://reference.aspose.com/words/java/)

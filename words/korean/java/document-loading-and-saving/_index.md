@@ -110,6 +110,7 @@ Aspose.Words for Java의 다재다능함을 살펴보며 다양한 형식으로 
 ### [docx 복구 방법 – Java로 복구된 문서 저장](./how-to-recover-docx-save-recovered-document-using-java/)
 ### [DOCX 복구 방법 – 복구 모드 설정 및 경고 표시](./how-to-recover-docx-set-recovery-mode-display-warnings/)
 ### [Aspose.Words for Java를 사용하여 docx 복구 – 복구 모드 활성화](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
+### [Java에서 DOCX 파일을 로드할 때 Big5 인코딩 설정 방법](./how-to-set-big5-encoding-when-loading-a-docx-file-in-java/)
 
 ## 자주 묻는 질문
 

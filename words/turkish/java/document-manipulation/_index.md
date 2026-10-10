@@ -103,7 +103,12 @@ Java için Aspose.Words'ün Gücünü Açın. Kusursuz Belge Yönetimi için Ana
 ### [Java için Aspose.Words'de Belge Özelliklerini Kullanma](./using-document-properties/)
 Aspose.Words for Java ile belge yönetimini optimize edin. Bu kapsamlı eğitimde belge özellikleriyle çalışmayı, özel meta veri eklemeyi ve daha fazlasını öğrenin.
 ### [Java için Aspose.Words'de Web Uzantılarını Kullanma](./using-web-extensions/)
-Aspose.Words for Java'da Web Uzantılarıyla Belgeleri Geliştirin. Web tabanlı içeriği sorunsuz bir şekilde entegre etmeyi öğrenin. 
+Aspose.Words for Java'da Web Uzantılarıyla Belgeleri Geliştirin. Web tabanlı içeriği sorunsuz bir şekilde entegre etmeyi öğrenin.
+### [Programlı olarak Word belgesi oluşturma ve düz metin içerik kontrolü ekleme](./how-to-create-word-document-programmatically-and-insert-plai/)
+Java ile Aspose.Words kullanarak programlı bir şekilde Word belgesi oluşturun ve düz metin içerik kontrolü ekleyin.
+### [C#'ta Düğme Metnini Ayarlama ve ActiveX Düğmesi Ekleme](./set-button-text-and-add-an-activex-button-in-c/)
+C# ile Aspose.Words kullanarak bir düğme metni ayarlamayı ve ActiveX düğmesi eklemeyi öğrenin.
+### [Aspose.Words ile Word belgesinde grafiği döndürme](./how-to-rotate-chart-in-a-word-document-using-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -119,13 +119,20 @@ Aspose.Words for Java の多様性を探り、さまざまな形式でドキュ�
 ### [Aspose.Words for Java で破損した docx を復元 – 完全ガイド](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 
 ### [Java でフォント置換警告を取得する – Aspose.Words 完全ガイド](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+
 ### [docx の復元方法 – 壊れた Word ファイルを読む完全ガイド](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+
 ### [破損した Word 文書を回復するためのリカバリーモードの設定](./set-recovery-mode-to-recover-broken-word-document/)
 
 ### [Java で欠落フォントを取得する方法 – Aspose.Words ガイド](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
+
 ### [Aspose.Words for Java で DOCX ファイルを復元する方法 – ステップバイステップガイド](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
+
 ### [docx を復元する – Java で復元したドキュメントを保存](./how-to-recover-docx-save-recovered-document-using-java/)
+
 ### [Aspose.Words で docx を復元する – 復元モードを有効にする](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
+
+### [Java で DOCX ファイルを読み込む際に Big5 エンコーディングを設定する方法](./how-to-set-big5-encoding-when-loading-a-docx-file-in-java/)
 
 ## よくある質問
 

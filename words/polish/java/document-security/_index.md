@@ -41,6 +41,8 @@ Dowiedz się, jak szyfrować i odszyfrowywać dokumenty za pomocą Aspose.Words 
 Dowiedz się, jak wdrożyć bezpieczne podpisy cyfrowe w dokumentach za pomocą Aspose.Words for Java. Zapewnij integralność dokumentu dzięki wskazówkom krok po kroku i kodowi źródłowemu
 ### [Redakcja dokumentów i ochrona danych](./document-redaction-data-protection/)
 Dowiedz się, jak zabezpieczyć dokumenty i redagować poufne dane za pomocą Aspose.Words for Java. Przewodnik krok po kroku z kodem źródłowym.
+### [Utwórz opcje podpisu i podpisz dokument Word przy użyciu XAdES EPES](./create-signature-options-and-sign-a-word-doc-with-xades-epes/)
+Dowiedz się, jak skonfigurować opcje podpisu i podpisać dokument Word przy użyciu standardu XAdES EPES w Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

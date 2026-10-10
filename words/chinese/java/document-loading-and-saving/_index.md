@@ -95,6 +95,9 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 ### [Loading Text Files with Aspose.Words for Java](./loading-text-files/)
 释放 Aspose.Words for Java 的强大功能。学习加载文本文档、管理列表、处理空格以及控制文本方向。
 
+### [在 Java 中加载 DOCX 文件时设置 Big5 编码](./how-to-set-big5-encoding-when-loading-a-docx-file-in-java/)
+了解如何在使用 Aspose.Words for Java 加载 DOCX 文档时指定 Big5 编码，以正确处理繁体中文字符。
+
 ### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
 学习 Aspose.Words for Java 的高级文档操作。加密、处理元文件等，让您的 Word 文档随心所欲。
 

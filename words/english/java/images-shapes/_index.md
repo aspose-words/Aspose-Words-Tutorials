@@ -40,6 +40,8 @@ Learn how to apply shadow effects to shapes in Word documents using Aspose.Words
 ### [Apply Shadow Effect to a Shape in C# – Step‑by‑Step Guide](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Learn how to apply shadow effects to shapes in Aspose.Words using C#, with step-by-step code examples.
 
+### [Create a blank Word document, add an image group, hide shape](./create-a-blank-word-document-add-an-image-group-hide-shape/)
+
 ## Additional Resources
 
 ## Additional Resources

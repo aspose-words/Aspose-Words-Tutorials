@@ -174,6 +174,9 @@ Tanuld meg, hogyan exportálj Word dokumentumot Markdown formátumba Java‑ban 
 ### [PDF/UA létrehozása Java‑ban – DOCX konvertálása PDF‑re](./create-pdf-ua-in-java-convert-docx-to-pdf/)
 Ismerje meg, hogyan hozhat létre PDF/UA dokumentumot Java‑ban a DOCX fájl PDF‑re konvertálásával.
 
+### [Hogyan mentse el a dokumentumot docx formátumban Markdown‑ból Word‑be konvertáláskor](./how-to-save-document-as-docx-when-converting-markdown-to-wor/)
+Tanulja meg, hogyan konvertáljon Markdown fájlokat Word‑be, és mentse el őket DOCX formátumban az Aspose.Words for Java‑val.
+
 ## Gyakran Ismételt Kérdések
 
 **K:** Hogyan adhatok hozzá vízjelet egy meglévő PDF-hez az Aspose.Words használatával?  

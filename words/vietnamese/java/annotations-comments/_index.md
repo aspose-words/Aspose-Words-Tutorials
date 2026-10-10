@@ -80,7 +80,8 @@ Trong thời đại số hiện nay, việc quản lý hiệu quả các chú th
 ## Các tutorial có sẵn
 
 ### [Aspose.Words Java&#58; Làm chủ quản lý bình luận trong tài liệu Word](./aspose-words-java-comment-management-guide/)
-Tìm hiểu cách quản lý bình luận và phản hồi trong tài liệu Word bằng Aspose.Words for Java. Thêm, in, xóa, đánh dấu đã hoàn thành và theo dõi thời gian bình luận một cách dễ dàng.
+
+### [Áp dụng chú thích kiểu tiêu đề với Aspose.Words cho Java](./apply-heading-style-footnotes-with-aspose-words-for-java/)
 
 ## Tài nguyên bổ sung
 

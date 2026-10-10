@@ -36,8 +36,12 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java hochwertige Miniaturansichten u
 
 ### [Schatten zu Form in Word hinzufügen – Vollständige Aspose.Words-Anleitung](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Lernen Sie, wie Sie mit Aspose.Words für Java Schatten zu Formen in Word-Dokumenten hinzufügen.
+
 ### [Schatteneffekt auf eine Form in C# anwenden – Schritt‑für‑Schritt‑Anleitung](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für C# Schatteneffekte auf Formen anwenden und das Erscheinungsbild Ihrer Dokumente verbessern.
+
+### [Erstellen Sie ein leeres Word-Dokument, fügen Sie eine Bildgruppe hinzu und blenden Sie die Form aus](./create-a-blank-word-document-add-an-image-group-hide-shape/)
+Erstellen Sie ein leeres Word-Dokument, fügen Sie eine Bildgruppe hinzu und blenden Sie die Form aus.
 
 ## Weitere Ressourcen
 

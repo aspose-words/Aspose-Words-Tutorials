@@ -178,7 +178,10 @@ Leer hoe je DOCX-bestanden omzet naar Markdown in Java, inclusief het extraheren
 Leer hoe je Word-documenten naar Markdown exporteert met Aspose.Words in Java.
 
 ### [PDF UA maken in Java – docx naar pdf converteren](./create-pdf-ua-in-java-convert-docx-to-pdf/)
-Leer hoe je met Aspose.Words for Java een PDF/UA-bestand maakt door een DOCX-bestand te converteren, inclusief toegankelijkheidsopties.
+Leer hoe je met Aspose.Words for Java een PDF/UA‑bestand maakt door een DOCX‑bestand te converteren, inclusief toegankelijkheidsopties.
+
+### [Hoe een document opslaan als docx bij het converteren van Markdown naar Word](./how-to-save-document-as-docx-when-converting-markdown-to-wor/)
+Leer hoe je een Markdown‑document converteert en opslaat als DOCX met Aspose.Words for Java.
 
 ## Veelgestelde Vragen
 

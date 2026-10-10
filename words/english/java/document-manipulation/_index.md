@@ -105,6 +105,12 @@ Unlock the Power of Aspose.Words for Java. Master Document Options and Settings 
 Optimize document management with Aspose.Words for Java. Learn to work with document properties, add custom metadata, and more in this comprehensive tutorial.
 ### [Using Web Extensions in Aspose.Words for Java](./using-web-extensions/)
 Enhance Documents with Web Extensions in Aspose.Words for Java. Learn to integrate web-based content seamlessly. 
+### [How to create word document programmatically and insert plain text content control](./how-to-create-word-document-programmatically-and-insert-plai/)
+Learn how to programmatically create a Word document and add a plain text content control using Aspose.Words for Java.
+### [How to rotate chart in a Word document using Aspose.Words](./how-to-rotate-chart-in-a-word-document-using-aspose-words/)
+Learn how to rotate charts in Word documents using Aspose.Words for Java with code examples.
+### [Set button text and add an ActiveX button in C#](./set-button-text-and-add-an-activex-button-in-c/)
+Learn how to set button text and insert an ActiveX button programmatically using Aspose.Words for C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

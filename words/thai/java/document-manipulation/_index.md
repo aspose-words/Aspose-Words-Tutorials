@@ -56,6 +56,10 @@ Aspose.Words สำหรับ Java เป็น API ที่มีประ�
 เริ่มต้นการเดินทางแห่งการเรียนรู้ของคุณวันนี้และปลดล็อกความเป็นไปได้อันไม่มีที่สิ้นสุดของการจัดการเอกสารด้วย Aspose.Words สำหรับ Java
 
 ## บทช่วยสอนการจัดการเอกสาร
+### [วิธีสร้างเอกสาร Word ด้วยโค้ดและแทรกคอนเทนท์คอนโทรลข้อความธรรมดา](./how-to-create-word-document-programmatically-and-insert-plai/)
+เรียนรู้วิธีสร้างไฟล์ Word ด้วย Aspose.Words สำหรับ Java และเพิ่มคอนเทนท์คอนโทรลข้อความธรรมดาแบบอัตโนมัติ
+### [วิธีหมุนแผนภูมิในเอกสาร Word ด้วย Aspose.Words](./how-to-rotate-chart-in-a-word-document-using-aspose-words/)
+เรียนรู้วิธีหมุนแผนภูมิในไฟล์ Word ด้วย Aspose.Words สำหรับ Java อย่างง่ายดาย
 ### [การใช้ตัวเลือกการล้างข้อมูลใน Aspose.Words สำหรับ Java](./using-cleanup-options/)
 ปรับปรุงความชัดเจนของเอกสารด้วยตัวเลือก Aspose.Words สำหรับ Java Cleanup เรียนรู้วิธีลบย่อหน้าที่ว่างเปล่า ส่วนที่ไม่ได้ใช้ และอื่นๆ
 ### [การใช้ฟิลด์ใน Aspose.Words สำหรับ Java](./using-fields/)
@@ -104,6 +108,8 @@ Aspose.Words สำหรับ Java เป็น API ที่มีประ�
 เพิ่มประสิทธิภาพการจัดการเอกสารด้วย Aspose.Words สำหรับ Java เรียนรู้การใช้งานคุณสมบัติของเอกสาร เพิ่มข้อมูลเมตาแบบกำหนดเอง และอื่นๆ อีกมากมายในบทช่วยสอนที่ครอบคลุมนี้
 ### [การใช้ส่วนขยายเว็บใน Aspose.Words สำหรับ Java](./using-web-extensions/)
 ปรับปรุงเอกสารด้วยส่วนขยายเว็บใน Aspose.Words สำหรับ Java เรียนรู้การผสานรวมเนื้อหาบนเว็บอย่างราบรื่น 
+### [ตั้งค่าข้อความปุ่มและเพิ่มปุ่ม ActiveX ใน C#](./set-button-text-and-add-an-activex-button-in-c/)
+ตั้งค่าข้อความของปุ่มและเพิ่มปุ่ม ActiveX ใน C# ด้วย Aspose.Words
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

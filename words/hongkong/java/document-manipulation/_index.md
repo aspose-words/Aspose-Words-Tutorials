@@ -104,6 +104,12 @@ Aspose.Words for Java 是一個功能強大且用途廣泛的 API，可讓開發
 使用 Aspose.Words for Java 最佳化文件管理。在本綜合教學中學習如何使用文件屬性、新增自訂元資料等。
 ### [在 Aspose.Words for Java 中使用 Web 擴充](./using-web-extensions/)
 使用 Aspose.Words for Java 中的 Web 擴充功能增強文件。學習無縫整合網路為基礎的內容。 
+### [在 Word 文件中使用 Aspose.Words 旋轉圖表](./how-to-rotate-chart-in-a-word-document-using-aspose-words/)
+示範如何使用 Aspose.Words 在 Word 文件中旋轉圖表，包含程式碼範例與步驟說明。
+### [如何以程式方式建立 Word 文件並插入純文字內容控制項](./how-to-create-word-document-programmatically-and-insert-plai/)
+示範如何使用 Aspose.Words for Java 程式化建立 Word 文件並加入純文字內容控制項。
+### [在 C# 中設定按鈕文字並新增 ActiveX 按鈕](./set-button-text-and-add-an-activex-button-in-c/)
+示範如何在 C# 中設定按鈕文字並加入 ActiveX 按鈕。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

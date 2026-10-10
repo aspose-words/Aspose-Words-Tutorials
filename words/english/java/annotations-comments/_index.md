@@ -80,6 +80,9 @@ In today's digital age, efficiently managing document annotations and comments i
 ### [Aspose.Words Java&#58; Mastering Comment Management in Word Documents](./aspose-words-java-comment-management-guide/)
 Learn how to manage comments and replies in Word documents using Aspose.Words for Java. Add, print, remove, mark as done, and track comment timestamps effortlessly.
 
+### [Apply heading style footnotes with Aspose.Words for Java](./apply-heading-style-footnotes-with-aspose-words-for-java/)
+Learn how to apply heading style footnotes using Aspose.Words for Java.
+
 ## Additional Resources
 
 - [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)

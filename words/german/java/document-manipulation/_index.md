@@ -82,6 +82,7 @@ Erfahren Sie, wie Sie die Dokumentformatierung mit Aspose.Words für Java verbes
 Erfahren Sie, wie Sie mit Aspose.Words für Java Inhaltsverzeichnisse erstellen und anpassen. Erstellen Sie mühelos organisierte und professionelle Dokumente.
 ### [Schützen von Dokumenten in Aspose.Words für Java](./protecting-documents/)
 Erfahren Sie, wie Sie Ihre Java Word-Dokumente mit Aspose.Words für Java sichern. Schützen Sie Ihre Daten mit Passwörtern und mehr.
+### [Schaltflächentext festlegen und eine ActiveX-Schaltfläche in C# hinzufügen](./set-button-text-and-add-an-activex-button-in-c/)
 ### [Aufteilen von Dokumenten in Seiten in Aspose.Words für Java](./splitting-documents-into-pages/)
 Erfahren Sie, wie Sie Dokumente mit Aspose.Words für Java in Seiten aufteilen. Schritt-für-Schritt-Anleitung mit Quellcode für effiziente Dokumentverarbeitung.
 ### [Aufteilen von Dokumenten in Aspose.Words für Java](./splitting-documents/)
@@ -104,6 +105,9 @@ Entfesseln Sie die Leistungsfähigkeit von Aspose.Words für Java. Nutzen Sie di
 Optimieren Sie Ihr Dokumentenmanagement mit Aspose.Words für Java. Lernen Sie in diesem umfassenden Tutorial, mit Dokumenteigenschaften zu arbeiten, benutzerdefinierte Metadaten hinzuzufügen und vieles mehr.
 ### [Verwenden von Weberweiterungen in Aspose.Words für Java](./using-web-extensions/)
 Optimieren Sie Dokumente mit Web-Erweiterungen in Aspose.Words für Java. Lernen Sie, webbasierte Inhalte nahtlos zu integrieren. 
+### [Wie man ein Word-Dokument programmgesteuert erstellt und ein Plain-Text-Inhaltssteuerelement einfügt](./how-to-create-word-document-programmatically-and-insert-plai/)
+### [Diagramm in einem Word-Dokument mit Aspose.Words drehen](./how-to-rotate-chart-in-a-word-document-using-aspose-words/)
+Erfahren Sie, wie Sie Diagramme in Word-Dokumenten mit Aspose.Words drehen und die Ausrichtung anpassen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

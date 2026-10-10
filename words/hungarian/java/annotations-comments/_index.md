@@ -69,7 +69,7 @@ A megjegyzés „kész” állapotba állítása segíti a csapatot a haladás n
 
 ## Áttekintés
 
-A digitális kor ma már megköveteli a dokumentum‑annotációk és megjegyzések hatékony kezelését a gazdag szöveges formátumokkal dolgozó fejlesztők számára. Az Annotations & Comments kategóriaoldalunk felbecsülhetetlen forrást nyújt a Java‑fejlesztőknek, akik az erőteljes Aspose.Words könyvtárat használják. Akár a kollaboratív felülvizsgálatok egyszerűsítését, akár a visszajelzési folyamatok automatizálását célozza meg alkalmazásaiban, ez az útmutató mélyreható betekintést nyújt az annotációk és megjegyzések zökkenőmentes kezelésébe. A lépésről‑lépésre útmutatónk követésével pontosan és rugalmasan integrálhatja ezeket a funkciókat, kiaknázva az Aspose.Words for Java teljes potenciálját. Ez biztosítja, hogy a dokumentumfeldolgozási feladatai nem csak hatékonyak, hanem magas szintű pontosságot és professzionalizmust is tükröznek.
+A digitális kor ma már megköveteli a dokumentum‑annotációk és megjegyzések hatékony kezelését a gazdag szöveges formátumokkal dolgozó fejlesztők számára. Az Annotations & Comments kategóriaoldalunk felbecsülhetetlen forrást nyújt a Java‑fejlesztőknek, akik az erőteljes Aspose.Words könyvtárat használják. Akár a kollaboratív felülvizsgálati eszközök egyszerűsítését, akár a visszajelzési folyamatok automatizálását célozza meg alkalmazásaiban, ez az útmutató mélyreható betekintést nyújt az annotációk és megjegyzések zökkenőmentes kezelésébe. A lépésről‑lépésre útmutatónk követésével pontosan és rugalmasan integrálhatja ezeket a funkciókat, kiaknázva az Aspose.Words for Java teljes potenciálját. Ez biztosítja, hogy a dokumentumfeldolgozási feladatai nem csak hatékonyak, hanem magas szintű pontosságot és professzionalizmust is tükröznek.
 
 ## Amit megtanul
 
@@ -82,6 +82,9 @@ A digitális kor ma már megköveteli a dokumentum‑annotációk és megjegyzé
 
 ### [Aspose.Words Java&#58; Mastering Comment Management in Word Documents](./aspose-words-java-comment-management-guide/)
 Tanulja meg, hogyan kezelje a megjegyzéseket és válaszokat Word‑dokumentumokban az Aspose.Words for Java segítségével. Adjon hozzá, nyomtasson, távolítson el, jelölje késznek, és kövesse a megjegyzés időbélyegét könnyedén.
+
+### [Fejlécstílusú lábjegyzetek alkalmazása az Aspose.Words for Java-val](./apply-heading-style-footnotes-with-aspose-words-for-java/)
+Ismerje meg, hogyan alkalmazhat fejlécek stílusú lábjegyzeteket Word‑dokumentumokban az Aspose.Words for Java segítségével.
 
 ## További források
 

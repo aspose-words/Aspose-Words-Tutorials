@@ -39,6 +39,9 @@ Scopri come applicare ombre alle forme nei documenti Word usando Aspose.Words pe
 ### [Applicare l'effetto ombra a una forma in C# – Guida passo‑passo](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Scopri come aggiungere un effetto ombra a una forma usando Aspose.Words per C# con esempi pratici passo‑passo.
 
+### [Crea un documento Word vuoto, aggiungi un gruppo di immagini, nascondi la forma](./create-a-blank-word-document-add-an-image-group-hide-shape/)
+Scopri come creare un documento Word vuoto, inserire un gruppo di immagini e nascondere la forma con Aspose.Words per Java.
+
 ## Risorse aggiuntive
 
 ## Risorse aggiuntive

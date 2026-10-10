@@ -82,6 +82,9 @@ weight: 11
 ### [Aspose.Words Java&#58; إتقان إدارة التعليقات في مستندات Word](./aspose-words-java-comment-management-guide/)
 تعلم كيفية إدارة التعليقات والردود في مستندات Word باستخدام Aspose.Words for Java. أضف، اطبع، احذف، ضع علامة "تم"، وتتبّع طوابع زمنية للتعليقات بسهولة.
 
+### [تطبيق هوامش نمط العنوان مع Aspose.Words للجافا](./apply-heading-style-footnotes-with-aspose-words-for-java/)
+تعلم كيفية تطبيق هوامش بنمط العنوان في مستندات Word باستخدام Aspose.Words for Java.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words for Java](https://reference.aspose.com/words/java/)  

@@ -82,6 +82,9 @@ Nell'era digitale odierna, gestire in modo efficiente annotazioni e commenti nei
 ### [Aspose.Words Java&#58; Gestione dei commenti nei documenti Word](./aspose-words-java-comment-management-guide/)
 Scopri come gestire commenti e risposte nei documenti Word usando Aspose.Words per Java. Aggiungi, stampa, rimuovi, contrassegna come completato e traccia i timestamp dei commenti senza sforzo.
 
+### [Applicare note a piè di pagina con stile di intestazione con Aspose.Words per Java](./apply-heading-style-footnotes-with-aspose-words-for-java/)
+Scopri come aggiungere note a piè di pagina con stile di intestazione usando Aspose.Words per Java.
+
 ## Risorse aggiuntive
 
 - [Documentazione di Aspose.Words per Java](https://reference.aspose.com/words/java/)
