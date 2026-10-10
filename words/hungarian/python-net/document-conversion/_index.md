@@ -47,6 +47,8 @@ Ismerje meg, hogyan hozhat létre akadálymentes PDF-et Word dokumentumokból Py
 Ismerje meg, hogyan mentheti a Word dokumentumokat Markdown formátumba, és exportálhatja őket PDF/A‑UA szabvánnyal Python segítségével.
 ### [PDF/UA létrehozása Word-ből – Lépésről‑lépésre útmutató](./create-pdf-ua-from-word-step-by-step-guide/)
 Ismerje meg, hogyan hozhat létre PDF/UA fájlokat Word dokumentumokból lépésről‑lépésre az Aspose.Words for Python segítségével.
+### [DOCX konvertálása Markdown formátumba az Aspose.Words segítségével Pythonban](./convert-docx-to-markdown-with-aspose-words-in-python/)
+Ismerje meg, hogyan konvertálhat DOCX fájlokat Markdown formátumba az Aspose.Words for Python használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

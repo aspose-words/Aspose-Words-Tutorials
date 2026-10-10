@@ -1,0 +1,7 @@
+Title: Create signature options and sign a Word doc with XAdES EPES
+Slug: create-signature-options-and-sign-a-word-doc-with-xades-epes
+Category: document-security
+ProcessedDate: 2026-10-10T19:05:37.501799
+SourceRepo: AI Search API
+Keywords: create signature options, sign word doc, sign office document, how to sign docx
+PRNumber: 311

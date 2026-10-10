@@ -1,0 +1,7 @@
+Title: Set button text and add an ActiveX button in C#
+Slug: set-button-text-and-add-an-activex-button-in-c
+Category: document-manipulation
+ProcessedDate: 2026-10-10T19:05:41.407729
+SourceRepo: AI Search API
+Keywords: set button text, how to insert button, create button control, add activex control, add activex button
+PRNumber: 311
