@@ -1,0 +1,7 @@
+Title: retrieve footnote separator in C# – complete Aspose.Words guide
+Slug: retrieve-footnote-separator-in-c-complete-aspose-words-guide
+Category: working-with-footnote-and-endnote
+ProcessedDate: 2026-08-08T03:02:17.540334
+SourceRepo: AI Search API
+Keywords: retrieve footnote separator
+PRNumber: 245

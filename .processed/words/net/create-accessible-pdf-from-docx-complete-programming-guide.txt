@@ -1,0 +1,7 @@
+Title: Create Accessible PDF from DOCX – Complete Programming Guide
+Slug: create-accessible-pdf-from-docx-complete-programming-guide
+Category: programming-with-pdfsaveoptions
+ProcessedDate: 2026-06-21T06:40:26.452656
+SourceRepo: AI Search API
+Keywords: create accessible pdf, convert docx to pdf, save word as pdf, export word to pdf, make pdf accessible
+PRNumber: 207

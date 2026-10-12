@@ -1,0 +1,21 @@
+//ExStart
+//ExSummary: Bu öğreticide, Document ve DocumentBuilder kullanarak bir Word belgesi oluşturmayı, bir metin paragrafı eklemeyi ve yatay çizgi şekli eklemeyi gösterir.
+//ExStepSummary:0: Document sınıfını örnekleyerek yeni boş bir Word belgesi oluşturun.
+//ExStepSummary:1: Belgeye bağlı bir DocumentBuilder oluşturun ve böylece düzenleme işlemlerini etkinleştirin.
+//ExStepSummary:2: DocumentBuilder kullanarak bir metin paragrafı yazın ve ardından imleç konumunda bir yatay çizgi şekli ekleyin.
+//ExStepSummary:3: Çıktı klasörünün yolunu tanımlayın ve belgeyi bir .docx dosyasına kaydedin.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document doc = new Document();
+
+//ExStep:1-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

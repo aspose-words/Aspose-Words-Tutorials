@@ -24,7 +24,7 @@ Aspose.Words for Java cung cấp nhiều hướng dẫn về kết xuất tài l
 
 ## Kết xuất tài liệu dễ dàng với Aspose.Words cho Java
 
-Kết xuất tài liệu dễ dàng với hướng dẫn về kết xuất tài liệu của Aspose.Words cho Java. Những hướng dẫn này cung cấp một cuộc khám phá toàn diện về các tùy chọn kết xuất, cho phép bạn chuyển đổi tài liệu Word sang các định dạng khác nhau trong khi vẫn giữ nguyên bố cục và thiết kế của chúng. Tìm hiểu cách kết xuất tài liệu theo lô, tùy chỉnh cài đặt đầu ra và tối ưu hóa hiệu suất kết xuất. Aspose.Words cho Java trao quyền cho bạn tạo ra các đầu ra tuyệt đẹp về mặt hình ảnh và quản lý hiệu quả các tác vụ xử lý văn bản và xử lý tài liệu. Nâng cao kỹ năng kết xuất tài liệu của bạn và mở khóa những khả năng mới với Aspose.Words cho Java.
+Kết xuất tài liệu dễ dàng với hướng dẫn về kết xuất tài liệu của Aspose.Words cho Java. Những hướng dẫn này cung cấp một cuộc khám phá toàn diện về các tùy chọn kết xuất, cho phép bạn chuyển đổi tài liệu Word sang các định dạng khác nhau trong khi vẫn giữ nguyên bố cục và thiết kế của chúng. Tìm hiểu cách kết xuất tài liệu theo lô, tùy chỉnh cài đặt đầu ra và tối ưu hóa hiệu suất kết xuất. Aspose.Words for Java trao quyền cho bạn tạo ra các đầu ra tuyệt đẹp về mặt hình ảnh và quản lý hiệu quả các tác vụ xử lý văn bản và xử lý tài liệu. Nâng cao kỹ năng kết xuất tài liệu của bạn và mở khóa những khả năng mới với Aspose.Words for Java.
 
 ## Hướng dẫn kết xuất tài liệu
 ### [Kết xuất tài liệu chính ](./master-document-rendering/)
@@ -39,6 +39,10 @@ Tìm hiểu cách nâng cao tài liệu của bạn bằng hình dạng và đ�
 Khám phá cách in và kết xuất tài liệu hiệu quả bằng Aspose.Words cho Java. Tìm hiểu từng bước với các ví dụ về mã nguồn.
 ### [Kết xuất tài liệu sang HTML](./rendering-documents-html/)
 Tìm hiểu cách chuyển đổi tài liệu sang HTML dễ dàng với Aspose.Words cho Java. Hướng dẫn từng bước để chuyển đổi tài liệu hiệu quả.
+### [Cách xử lý phông chữ trong Java với Aspose.Words – Hướng dẫn toàn diện](./how-to-handle-fonts-in-java-with-aspose-words-complete-guide/)
+Tìm hiểu cách quản lý và nhúng phông chữ trong tài liệu Word bằng Aspose.Words cho Java, bao gồm các ví dụ thực tế.
+### [Hướng dẫn callback cảnh báo Aspose – Phát hiện và theo dõi phông chữ thiếu](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
+Tìm hiểu cách sử dụng callback cảnh báo để phát hiện và theo dõi các phông chữ thiếu trong tài liệu.
 ### [Cách bắt cảnh báo – Phát hiện phông chữ thiếu trong Aspose.Words](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
 Hướng dẫn phát hiện và xử lý các cảnh báo khi tài liệu thiếu phông chữ bằng Aspose.Words cho Java.
 

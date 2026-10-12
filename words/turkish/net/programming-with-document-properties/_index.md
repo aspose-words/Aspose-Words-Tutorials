@@ -32,6 +32,7 @@ Bu eğitimler, Aspose.Words for .NET kitaplığını kullanarak belge özellikle
 | [İçeriğe Bağlantıyı Yapılandırma](./configuring-link-to-content/) | Aspose.Words for .NET kullanarak Word belgesindeki içeriğe bir bağlantının nasıl yapılandırılacağını ayrıntılı, adım adım eğitimimiz ile öğrenin.
 | [Ölçüm Birimleri Arasında Dönüşüm](./convert-between-measurement-units/) | Aspose.Words for .NET'te ölçü birimlerini nasıl dönüştüreceğinizi öğrenin. Belge kenar boşluklarını, üstbilgileri ve altbilgileri inç ve nokta cinsinden ayarlamak için adım adım kılavuzumuzu izleyin. |
 | [Kontrol Karakterlerini Kullan](./use-control-characters/) | Aspose.Words for .NET kullanarak Word belge görevlerinin nasıl otomatikleştirileceğini keşfedin. Bu kılavuz, iş akışınızı verimli hale getirerek kurulum, metin değiştirme ve daha fazlasını kapsar. |
+| [Word Belgesinde Sayfaları Sayma – Geri Kazan ve Say](./how-to-count-pages-in-a-word-document-recover-count/) | Aspose.Words for .NET kullanarak bir Word belgesindeki sayfaları nasıl sayacağınızı ve sayfa sayısını nasıl alacağınızı öğrenin. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

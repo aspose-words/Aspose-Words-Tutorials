@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: En utilisant les classes Document et DocumentBuilder, ce tutoriel montre comment ajouter un champ DATE dynamique à l’en-tête principal d’un document Word, puis enregistrer le fichier.
+//ExStepSummary:0: Créez un nouveau Document et un DocumentBuilder pour le modifier.
+//ExStepSummary:1: Déplacez le curseur du builder vers l’en-tête principal afin que les insertions suivantes affectent l’en-tête.
+//ExStepSummary:2: Écrivez l’étiquette statique et insérez un champ DATE formaté comme « MMMM d, yyyy » dans l’en-tête, créant ainsi une date dynamique.
+//ExStepSummary:3: Revenez au corps principal et ajoutez un paragraphe d’exemple, démontrant le contenu normal du document à côté de l’en-tête.
+//ExStepSummary:4: Enregistrez le document dans un fichier .docx.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+builder.Write("Generated on: ");
+builder.InsertField("DATE \\@ \"MMMM d, yyyy\"");
+
+//ExStep:3-
+builder.MoveToDocumentEnd();
+builder.Writeln("This is the document body.");
+
+//ExStep:4-
+doc.Save("HeaderDate.docx");
+//ExEnd

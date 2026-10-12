@@ -1,0 +1,7 @@
+Title: How to save docx and insert an ActiveX button with C#
+Slug: how-to-save-docx-and-insert-an-activex-button-with-c
+Category: working-with-oleobjects-and-activex
+ProcessedDate: 2026-09-08T22:52:25.770860
+SourceRepo: AI Search API
+Keywords: how to save docx, insert activex control, add activex button, create word document programmatically, how to add command button
+PRNumber: 267
