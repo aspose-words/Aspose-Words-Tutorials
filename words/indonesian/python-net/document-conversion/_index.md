@@ -47,6 +47,14 @@ Pelajari cara membuat PDF yang dapat diakses dari dokumen Word menggunakan Aspos
 Pelajari cara menyimpan dokumen Word sebagai file Markdown dan mengekspor ke PDF/A‑UA menggunakan Aspose.Words untuk Python.
 ### [Buat PDF UA dari Word – Panduan Langkah‑per‑Langkah](./create-pdf-ua-from-word-step-by-step-guide/)
 Pelajari cara membuat PDF UA dari dokumen Word menggunakan Aspose.Words untuk Python secara lengkap.
+### [Simpan docx sebagai markdown dan ekspor persamaan ke LaTeX](./save-docx-as-markdown-and-export-equations-to-latex/)
+Pelajari cara menyimpan file docx sebagai markdown dan mengekspor persamaan ke LaTeX menggunakan Aspose.Words untuk Python.
+### [Cara Mengekspor Matematika Office ke LaTeX dengan Python](./how-to-export-office-math-to-latex-in-python/)
+Pelajari cara mengekspor persamaan Office Math menjadi LaTeX menggunakan Aspose.Words untuk Python.
+### [Cara Menyimpan Word sebagai PDF dengan Aspose.Words untuk Python](./how-to-save-word-as-pdf-with-aspose-words-for-python/)
+Pelajari cara mengonversi dokumen Word menjadi PDF menggunakan Aspose.Words untuk Python secara lengkap.
+### [Cara menyimpan dokumen sebagai PDF dengan bentuk persegi panjang khusus di Python](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
+Pelajari cara menyimpan dokumen Word sebagai PDF dengan menambahkan bentuk persegi panjang khusus menggunakan Aspose.Words untuk Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

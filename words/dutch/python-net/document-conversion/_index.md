@@ -52,6 +52,18 @@ Leer hoe je met Aspose.Words voor Python toegankelijke PDF's maakt vanuit Word, 
 ### [Word opslaan als Markdown – Complete gids met PDF/A‑UA-export](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Leer hoe je met Aspose.Words voor Python Word-documenten opslaat als Markdown en exporteert naar PDF/A‑UA.
 
+### [DOCX opslaan als markdown en formules exporteren naar LaTeX](./save-docx-as-markdown-and-export-equations-to-latex/)
+Leer hoe je met Aspose.Words voor Python DOCX-bestanden opslaat als markdown en wiskundige vergelijkingen exporteert naar LaTeX.
+
+### [Hoe Office-wiskunde naar LaTeX exporteren in Python](./how-to-export-office-math-to-latex-in-python/)
+Leer hoe je wiskundige formules uit Office-documenten kunt exporteren naar LaTeX met Aspose.Words voor Python.
+
+### [Hoe Word opslaan als PDF met Aspose.Words voor Python](./how-to-save-word-as-pdf-with-aspose-words-for-python/)
+Leer hoe je Word-documenten als PDF opslaat met Aspose.Words voor Python.
+
+### [Hoe een document opslaan als PDF met een aangepaste rechthoekvorm in Python](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
+Leer hoe je met Aspose.Words voor Python een PDF maakt met een zelfgedefinieerde rechthoekige vorm.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

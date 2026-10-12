@@ -46,6 +46,12 @@
 ### [如何从 Word 导出 LaTeX – 将 DOCX 转换为 Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 学习使用 Aspose.Words for Python 将 Word 文档导出为 LaTeX，并将 DOCX 转换为 Markdown，实现高效格式转换。
 
+### [将 DOCX 保存为 Markdown 并导出公式为 LaTeX](./save-docx-as-markdown-and-export-equations-to-latex/)
+学习使用 Aspose.Words for Python 将 DOCX 文档保存为 Markdown，并将其中的公式导出为 LaTeX。
+
+### [如何在 Python 中将 Office 数学导出为 LaTeX](./how-to-export-office-math-to-latex-in-python/)
+学习使用 Aspose.Words for Python 将 Word 中的 Office 数学公式导出为 LaTeX 代码，实现高质量排版。
+
 ### [使用 Aspose.Words 将 Word 创建为 PDF – 完整 Python 指南](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 学习使用 Aspose.Words for Python 将 Word 文档转换为 PDF，轻松实现高质量文档生成。
 
@@ -53,6 +59,12 @@
 学习使用 Aspose.Words for Python 将 Word 文档转换为符合可访问性标准的 PDF，提升文档可读性和合规性。
 ### [从 Word 创建 PDF/UA – 步骤指南](./create-pdf-ua-from-word-step-by-step-guide/)
 使用 Aspose.Words for Python 将 Word 文档转换为符合 PDF/UA 标准的 PDF，确保可访问性。
+
+### [如何使用 Aspose.Words for Python 将 Word 保存为 PDF](./how-to-save-word-as-pdf-with-aspose-words-for-python/)
+学习使用 Aspose.Words for Python 将 Word 文档转换为 PDF，轻松实现高质量文档生成。
+
+### [如何在 Python 中使用自定义矩形形状将文档保存为 PDF](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
+学习使用 Aspose.Words for Python 将文档保存为 PDF，并在其中添加自定义矩形形状，实现高级排版。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

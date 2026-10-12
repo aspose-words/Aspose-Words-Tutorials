@@ -45,6 +45,14 @@
 Узнайте, как с помощью Aspose.Words для Python создать PDF, соответствующий стандартам доступности, из документов Word.
 ### [Сохранение Word в Markdown — полное руководство с экспортом PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Узнайте, как с помощью Aspose.Words для Python сохранить документ Word в Markdown и экспортировать его в PDF/A‑UA.
+### [Сохранить docx в markdown и экспортировать уравнения в LaTeX](./save-docx-as-markdown-and-export-equations-to-latex/)
+Узнайте, как сохранить документ DOCX в формате Markdown и экспортировать формулы в LaTeX с помощью Aspose.Words для Python.
+### [Как экспортировать математические формулы Office в LaTeX с помощью Python](./how-to-export-office-math-to-latex-in-python/)
+Узнайте, как с помощью Aspose.Words для Python экспортировать математические формулы из Office в формат LaTeX.
+### [Как сохранить Word в PDF с помощью Aspose.Words для Python](./how-to-save-word-as-pdf-with-aspose-words-for-python/)
+Узнайте, как быстро и без усилий преобразовать документы Word в PDF с помощью Aspose.Words для Python.
+### [Как сохранить документ как PDF с пользовательской прямоугольной фигурой в Python](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
+Узнайте, как с помощью Aspose.Words для Python сохранить документ PDF, добавив пользовательскую прямоугольную форму.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

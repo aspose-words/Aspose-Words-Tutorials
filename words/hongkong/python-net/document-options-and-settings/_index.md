@@ -49,6 +49,8 @@
 了解如何使用 Aspose.Words for Python 管理文件屬性和元資料。帶有原始程式碼的分步指南。
 ### [使用 Web 擴充功能來擴充文件功能](./document-functionality-web-extensions/)
 了解如何使用 Aspose.Words for Python 透過 Web 擴充功能來擴充文件功能。具有原始程式碼的逐步指南，可實現無縫整合。
+### [如何使用 Aspose.Words 在 Python 中恢復損壞的 docx 檔案](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+了解如何在 Python 中使用 Aspose.Words 復原受損的 docx 檔案。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

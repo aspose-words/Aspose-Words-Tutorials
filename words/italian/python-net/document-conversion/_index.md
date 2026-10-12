@@ -46,13 +46,26 @@ Scopri come esportare documenti Word in LaTeX e convertirli in Markdown con Aspo
 ### [Crea PDF da Word – Guida completa Python con Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Impara a generare PDF da documenti Word usando Aspose.Words per Python. Guida passo passo per una conversione rapida ed efficiente.
 
+### [Come salvare Word come PDF con Aspose.Words per Python](./how-to-save-word-as-pdf-with-aspose-words-for-python/)
+Scopri come convertire documenti Word in PDF usando Aspose.Words per Python in pochi passaggi.
+
 ### [Crea PDF accessibile da Word – Guida passo‑passo](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Impara a generare PDF accessibili da documenti Word usando Aspose.Words per Python. Guida dettagliata passo passo per garantire l'accessibilità.
 
 ### [Salva Word come Markdown – Guida completa con esportazione PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Scopri come salvare documenti Word in Markdown e generare PDF/A‑UA con Aspose.Words per Python.
+
+### [Salva DOCX come Markdown ed esporta le equazioni in LaTeX](./save-docx-as-markdown-and-export-equations-to-latex/)
+Salva file DOCX in formato Markdown e converte le equazioni in LaTeX con Aspose.Words per Python.
+
 ### [Crea PDF UA da Word – Guida passo‑passo](./create-pdf-ua-from-word-step-by-step-guide/)
 Impara a generare PDF UA da documenti Word con Aspose.Words per Python, seguendo una guida dettagliata passo‑passo.
+
+### [Come esportare la matematica di Office in LaTeX con Python](./how-to-export-office-math-to-latex-in-python/)
+Scopri come convertire le equazioni di Office Math in LaTeX usando Aspose.Words per Python.
+
+### [Come salvare un documento come PDF con una forma rettangolare personalizzata in Python](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
+Scopri come salvare un documento PDF includendo una forma rettangolare personalizzata usando Aspose.Words per Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,7 @@
+Title: How to create a pie chart in Word and save it as PNG
+Slug: how-to-create-a-pie-chart-in-word-and-save-it-as-png
+Category: document-conversion-and-export
+ProcessedDate: 2026-10-07T15:28:16.084968
+SourceRepo: AI Search API
+Keywords: create pie chart, add data series, save chart as png, generate pie chart in word, save word chart as image
+PRNumber: 306

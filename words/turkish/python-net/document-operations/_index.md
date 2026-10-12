@@ -63,6 +63,9 @@ Aspose.Words for Python-net ile bozuk DOCX dosyalarını açma ve yükleme yönt
 ### [Bozuk DOCX Dosyasını Kurtar – Kurtarma Modunu Etkinleştirme ve Sayfa Sayısını Öğrenme Rehberi](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
 Aspose.Words for Python-net kullanarak bozuk DOCX dosyalarını kurtarma modunu etkinleştirip sayfa sayısını nasıl alacağınızı öğrenin.
 
+### [Aspose.Words for Python ile bozuk DOCX dosyalarını kurtarma](./how-to-recover-corrupted-docx-files-using-aspose-words-for-p/)
+Aspose.Words for Python kullanarak bozuk DOCX dosyalarını kurtarma adımlarını öğrenin.
+
 ## Ek Kaynaklar
 
 - [Aspose.Words for Python-net Belgeleri](https://docs.aspose.com/words/python-net/)

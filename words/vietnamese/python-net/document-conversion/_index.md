@@ -20,7 +20,7 @@ Chuyển đổi tài liệu là một khía cạnh quan trọng của quản lý
 
 ## Chuyển đổi tài liệu Python dễ dàng
 
-Trong các hướng dẫn này, các nhà phát triển sẽ khám phá cách sử dụng Aspose.Words cho Python để thực hiện chuyển đổi tài liệu một cách dễ dàng. Tìm hiểu cách chuyển đổi tài liệu Word sang PDF, HTML, DOCX, v.v. Khả năng chuyển đổi mạnh mẽ của Aspose.Words hợp lý hóa các tác vụ quản lý tài liệu và đảm bảo khả năng tương thích trên các định dạng tệp khác nhau.
+Trong các hướng dẫn này, các nhà phát triển sẽ khám phá cách sử dụng Aspose.Words cho Python để thực hiện chuyển đổi tài liệu một cách dễ dàng. Tìm hiểu cách chuyển đổi tài liệu Word sang PDF, HTML, DOCX, v.t. Khả năng chuyển đổi mạnh mẽ của Aspose.Words hợp lý hóa các tác vụ quản lý tài liệu và đảm bảo khả năng tương thích trên các định dạng tệp khác nhau.
 
 ## Cải thiện việc xử lý tài liệu Word
 
@@ -49,8 +49,20 @@ Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang PDF bằng
 ### [Tạo PDF có thể truy cập từ Word bằng Python – Hướng dẫn từng bước](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập từ tài liệu Word bằng Aspose.Words cho Python.
 
+### [Cách lưu Word thành PDF với Aspose.Words cho Python](./how-to-save-word-as-pdf-with-aspose-words-for-python/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang PDF bằng Aspose.Words cho Python, bao gồm các tùy chọn và ví dụ thực tế.
+
 ### [Lưu Word thành Markdown – Hướng dẫn đầy đủ với xuất PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Hướng dẫn chi tiết cách lưu tài liệu Word thành Markdown và xuất ra PDF/A‑UA bằng Aspose.Words cho Python.
+
+### [Lưu docx thành markdown và xuất phương trình sang LaTeX](./save-docx-as-markdown-and-export-equations-to-latex/)
+Hướng dẫn lưu tài liệu DOCX thành Markdown và xuất các phương trình sang LaTeX bằng Aspose.Words cho Python.
+
+### [Cách xuất công thức Office sang LaTeX trong Python](./how-to-export-office-math-to-latex-in-python/)
+Hướng dẫn chi tiết cách xuất các công thức toán học trong tài liệu Office sang định dạng LaTeX bằng Aspose.Words cho Python.
+
+### [Cách lưu tài liệu dưới dạng PDF với hình chữ nhật tùy chỉnh trong Python](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
+Hướng dẫn lưu tài liệu Word thành PDF với hình chữ nhật tùy chỉnh bằng Aspose.Words cho Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

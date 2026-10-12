@@ -63,6 +63,9 @@ Aspose.Words Python-net के लिए एक कोड ट्यूटोर�
     ### [दोषपूर्ण DOCX पुनर्प्राप्त करें – रिकवरी मोड सक्षम करने और पृष्ठ गिनती प्राप्त करने के लिए पूर्ण गाइड](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
     दोषपूर्ण DOCX फ़ाइलों को पुनर्प्राप्त करने, रिकवरी मोड सक्रिय करने और पृष्ठ गिनती प्राप्त करने की पूरी प्रक्रिया सीखें।
 
+    ### [Aspose.Words for Python का उपयोग करके भ्रष्ट DOCX फ़ाइलों को पुनर्प्राप्त करने का तरीका](./how-to-recover-corrupted-docx-files-using-aspose-words-for-p/)
+    Aspose.Words का उपयोग करके भ्रष्ट DOCX फ़ाइलों को पुनर्प्राप्त करने के चरण।
+
 ## अतिरिक्त संसाधन
 
 - [पायथन-नेट दस्तावेज़ीकरण के लिए Aspose.Words](https://docs.aspose.com/words/python-net/)
