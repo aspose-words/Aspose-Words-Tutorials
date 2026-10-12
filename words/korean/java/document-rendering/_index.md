@@ -43,6 +43,8 @@ Aspose.Words for Java를 사용하여 문서를 HTML로 손쉽게 변환하는 �
 Aspose.Words for Java를 활용해 문서에 다양한 글꼴을 적용하고 관리하는 방법을 단계별로 안내합니다.
 ### [Aspose 경고 콜백 튜토리얼 – 누락된 글꼴 감지 및 추적](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
 Aspose.Words for Java에서 누락된 글꼴을 감지하고 추적하는 경고 콜백 사용 방법을 단계별로 안내합니다.
+### [경고 캡처 방법 – Aspose.Words에서 누락된 글꼴 감지](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
+Aspose.Words에서 누락된 글꼴을 감지하고 경고를 캡처하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

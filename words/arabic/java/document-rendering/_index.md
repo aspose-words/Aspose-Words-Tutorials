@@ -43,6 +43,8 @@
 تعلم كيفية إدارة الخطوط في مستندات Word باستخدام Aspose.Words لجافا لضمان عرض صحيح وتنسيق مثالي.
 ### [دروس استدعاء التحذير في Aspose – اكتشاف وتتبع الخطوط المفقودة](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
 تعلم كيفية استخدام استدعاء التحذير في Aspose.Words لتحديد الخطوط المفقودة وتتبعها أثناء معالجة المستندات.
+### [كيفية التقاط التحذيرات – اكتشاف الخطوط المفقودة في Aspose.Words](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
+تعلم كيفية التقاط التحذيرات واكتشاف الخطوط المفقودة أثناء معالجة المستندات باستخدام Aspose.Words لجافا.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

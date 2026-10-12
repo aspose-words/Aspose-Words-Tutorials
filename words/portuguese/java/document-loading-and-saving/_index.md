@@ -108,6 +108,7 @@ As configurações de documentos são a chave para entregar documentos adaptados
 ### [Como Recuperar Arquivos DOCX com Aspose.Words – Guia Passo a Passo](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 ### [Como recuperar docx – salvar documento recuperado usando Java](./how-to-recover-docx-save-recovered-document-using-java/)
 ### [Como recuperar docx com Aspose.Words – Ativar modo de recuperação](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
+### [Como recuperar docx – Ativar modo de recuperação e ler avisos](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
 
 ## Perguntas Frequentes
 

@@ -181,6 +181,20 @@ Learn how to save a Word document as plain text and export embedded equations to
 
 ### [create pdf ua in Java – convert docx to pdf](./create-pdf-ua-in-java-convert-docx-to-pdf/)
 Learn how to convert DOCX to PDF in Java with Aspose.Words, supporting Ukrainian (UA) characters and proper formatting.
+### [Convert docx to markdown with Aspose.Words – Complete Guide](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
+Learn how to convert DOCX files to Markdown format using Aspose.Words for Java in a comprehensive step‑by‑step guide.
+
+### [Convert docx to markdown in C# – Complete Guide](./convert-docx-to-markdown-in-c-complete-guide/)
+Learn how to convert DOCX files to Markdown format using Aspose.Words for C# in a comprehensive step‑by‑step guide.
+
+### [Create PDF from Word – Step‑by‑Step Guide for Java Developers](./create-pdf-from-word-step-by-step-guide-for-java-developers/)
+Learn how to generate PDF files from Word documents using Aspose.Words for Java in a clear step‑by‑step guide.
+
+### [Create Accessible PDF from Word – Full Guide](./create-accessible-pdf-from-word-full-guide/)
+Learn how to generate accessible PDF files from Word documents using Aspose.Words for Java, covering tagging, structure, and compliance.
+
+### [How to Save DOCX as Text – Complete Guide to Convert DOCX to TXT with Math Export](./how-to-save-docx-as-text-complete-guide-to-convert-docx-to-t/)
+Learn how to convert DOCX files to plain text, preserving mathematical equations, using Aspose.Words for Java in this comprehensive guide.
 
 ## Frequently Asked Questions
 

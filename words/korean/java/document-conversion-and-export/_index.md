@@ -67,16 +67,13 @@ Aspose.Words for Java의 핵심 기능 중 하나는 **docx를 pdf로 변환**�
 
 ## 문서 변환 및 내보내기 튜토리얼
 ### [Java용 Aspose.Words에서 사용자 정의 바코드 라벨 생성](./generate-custom-barcode-labels/)
-Aspose.Words for Java에서 사용자 정의 객체 생성. 중세 가이드를 통해 Aspose.Words for Java를 사용하여 비즈니스를 만드는 방법을 배웁니다.
 
 ### [Java용 Aspose.Words에서 바코드 생성 사용](./using-barcode-세대/)
 Aspose.Words for Java를 활용한 개체 생성 방법. 코드를 포함하는 연결 가이드를 통해 Java에서 사용할 수 있도록 생성하고 문서 통화를 강화할 수 있습니다.
 
 ### [Java용 Aspose.Words에서 차트 사용](./using-charts/)
-Aspose.Words for Java에서 차트를 작성하는 사용자 정의 방법. 차트 유형, 형식 및 축 속성을 탐색하여 데이터를 적합하게 구현합니다.
 
 ### [Java용 Aspose.Words에서 Office 수학 개체 사용](./using-office-math-objects/)
-Aspose.Words for Java를 사용하는 문서에 수납을 삽입하는 방법. Office Math를 처리하고 표시하는 방법을 배웁니다.
 
 ### [Java용 Aspose.Words에서 문서 모양 사용](./using-document-shapes/)
 
@@ -85,7 +82,16 @@ Aspose.Words for Java를 사용하는 문서에 수납을 삽입하는 방법. O
 ### [PDF 저장 옵션 – Java에서 DOCX를 PDF로 완전 제어 변환](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 
 ### [Java용 Aspose.Words에서 테이블 및 테이블 스타일 서식 지정](./formatting-tables-and-table-styles/)
-Aspose.Words for Java에서 표를 포맷하고 표 스타일을 적용하는 방법. 테이블 서식을 설명하는 동안 가이드와 소스를 제공하여 문서 표시를 개선합니다.
+
+### [Java용 Aspose.Words에서 docx를 markdown으로 변환하는 전체 가이드](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
+
+### [C#용 Aspose.Words에서 docx를 markdown으로 변환하는 전체 가이드](./convert-docx-to-markdown-in-c-complete-guide/)
+
+### [Java용 Aspose.Words에서 DOCX를 텍스트로 저장하는 방법 – 수식 내보내기와 함께 DOCX를 TXT로 변환하는 완전 가이드](./how-to-save-docx-as-text-complete-guide-to-convert-docx-to-t/)
+
+### [Word에서 PDF 만들기 – Java 개발자를 위한 단계별 가이드](./create-pdf-from-word-step-by-step-guide-for-java-developers/)
+
+### [Word에서 접근 가능한 PDF 만들기 – 전체 가이드](./create-accessible-pdf-from-word-full-guide/)
 
 ### [Java에서 docx를 마크다운으로 저장 – 단계별 완전 가이드](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
 

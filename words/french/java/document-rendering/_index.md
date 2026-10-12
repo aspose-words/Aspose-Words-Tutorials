@@ -43,6 +43,8 @@ Apprenez à convertir facilement des documents au format HTML avec Aspose.Words 
 Apprenez à gérer les polices dans vos documents Java avec Aspose.Words, incluant l’intégration, le remplacement et la personnalisation des fontes.
 ### [Tutoriel Aspose Warning Callback – Détecter et suivre les polices manquantes](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
 Apprenez à gérer les avertissements de polices manquantes avec Aspose.Words pour Java grâce à un callback personnalisé.
+### [Comment capturer les avertissements – détecter les polices manquantes dans Aspose.Words](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
+Apprenez à intercepter les avertissements et à identifier les polices manquantes lors du rendu avec Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

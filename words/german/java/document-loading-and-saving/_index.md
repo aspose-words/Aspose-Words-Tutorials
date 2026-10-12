@@ -155,6 +155,8 @@ Erfahren Sie, wie Sie fehlende Schriftarten erkennen und mit Aspose.Words für J
 Lernen Sie, wie Sie beschädigte DOCX-Dateien wiederherstellen und das reparierte Dokument mit Aspose.Words für Java speichern.
 ### [Wie man DOCX wiederherstellt – Wiederherstellungsmodus festlegen und Warnungen anzeigen](./how-to-recover-docx-set-recovery-mode-display-warnings/)
 Erfahren Sie, wie Sie den Wiederherstellungsmodus aktivieren und Warnungen anzeigen lassen, um beschädigte DOCX‑Dateien mit Aspose.Words für Java zu reparieren.
+### [Wie man DOCX wiederherstellt – Wiederherstellungsmodus aktivieren & Warnungen lesen](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
+Erfahren Sie, wie Sie den Wiederherstellungsmodus aktivieren und Warnungen lesen, um beschädigte DOCX-Dateien zu reparieren.
 
 ## Häufig gestellte Fragen
 

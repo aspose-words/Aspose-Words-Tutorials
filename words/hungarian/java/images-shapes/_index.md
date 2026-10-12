@@ -38,6 +38,8 @@ Tanulja meg, hogyan hozhat létre kiváló minőségű miniatűröket és egyedi
 Ismerje meg, hogyan adhat árnyékot alakzatokhoz Word dokumentumokban az Aspose.Words for Java segítségével, lépésről lépésre.
 ### [Árnyékhatás alkalmazása alakzatra C#‑ban – Lépésről‑lépésre útmutató](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Ismerje meg, hogyan adhat árnyékot egy alakzathoz C#‑ban az Aspose.Words segítségével.
+### [Hogyan állítsunk be árnyékot egy alakzatra az Aspose.Words-ben – Teljes útmutató](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
+Ismerje meg, hogyan adhat árnyékot alakzatokhoz az Aspose.Words for Java segítségével, részletes példákkal és beállítási lehetőségekkel.
 
 ## További források
 

@@ -43,6 +43,8 @@ Dowiedz się, jak bez wysiłku renderować dokumenty do HTML za pomocą Aspose.W
 Poznaj, jak zarządzać czcionkami w aplikacjach Java przy użyciu Aspose.Words. Kompletny przewodnik z przykładami kodu.
 ### [Samouczek aspose warning callback – wykrywanie i śledzenie brakujących czcionek](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
 Dowiedz się, jak obsługiwać ostrzeżenia i wykrywać brakujące czcionki podczas przetwarzania dokumentów w Aspose.Words dla Java.
+### [Jak przechwytywać ostrzeżenia – wykrywać brakujące czcionki w Aspose.Words](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
+Dowiedz się, jak przechwytywać ostrzeżenia i wykrywać brakujące czcionki podczas przetwarzania dokumentów w Aspose.Words dla Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -159,6 +159,9 @@ Scopri come impostare la modalità di recupero per DOCX e visualizzare gli avvis
 ### [Come recuperare docx con Aspose.Words – Abilita modalità di recupero](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
 Scopri come attivare la modalità di recupero per riparare file DOCX danneggiati con Aspose.Words per Java.
 
+### [Come recuperare docx – Abilitare la modalità di recupero e leggere gli avvisi](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
+Scopri come attivare la modalità di recupero in Aspose.Words per Java e gestire gli avvisi durante l'apertura di file DOCX danneggiati.
+
 ## Domande Frequenti
 
 **D:** Come posso **salvare immagini da word** programmaticamente nei documenti?  

@@ -38,6 +38,8 @@ Apprenez à générer des miniatures de haute qualité et des bitmaps de taille 
 Apprenez à appliquer des ombres aux formes dans vos documents Word avec Aspose.Words pour Java.
 ### [Appliquer un effet d'ombre à une forme en C# – Guide étape par étape](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Découvrez comment ajouter un effet d'ombre à une forme en C# avec Aspose.Words, étape par étape.
+### [Comment définir une ombre sur une forme dans Aspose.Words – Guide complet](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
+Apprenez à ajouter et personnaliser des ombres aux formes dans vos documents Word avec Aspose.Words pour Java.
 
 ## Ressources supplémentaires
 

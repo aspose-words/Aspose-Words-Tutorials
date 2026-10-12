@@ -183,6 +183,20 @@ Naučte se exportovat dokumenty Word do formátu Markdown v Javě pomocí Aspose
 
 ### [Vytvořit PDF UA v Javě – převod DOCX do PDF](./create-pdf-ua-in-java-convert-docx-to-pdf/)
 Naučte se, jak v Javě vytvořit PDF UA a převést soubor DOCX do PDF pomocí Aspose.Words.
+### [Převod docx na markdown pomocí Aspose.Words – Kompletní průvodce](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
+Naučte se, jak pomocí Aspose.Words převést soubory DOCX do formátu Markdown v několika krocích.
+
+### [Převod docx do markdown v C# – Kompletní průvodce](./convert-docx-to-markdown-in-c-complete-guide/)
+Naučte se, jak pomocí Aspose.Words převést soubory DOCX do formátu Markdown v C# během několika kroků.
+
+### [Jak uložit DOCX jako text – kompletní průvodce konverzí DOCX na TXT s exportem matematiky](./how-to-save-docx-as-text-complete-guide-to-convert-docx-to-t/)
+Naučte se uložit soubor DOCX jako prostý text a exportovat matematické rovnice do formátu TXT pomocí Aspose.Words.
+
+### [Vytvoření PDF z Wordu – krok za krokem průvodce pro vývojáře Javy](./create-pdf-from-word-step-by-step-guide-for-java-developers/)
+Naučte se, jak pomocí Aspose.Words for Java převést dokument Word do PDF v několika jednoduchých krocích.
+
+### [Vytvoření přístupného PDF z Wordu – Kompletní průvodce](./create-accessible-pdf-from-word-full-guide/)
+Naučte se, jak pomocí Aspose.Words for Java vytvořit PDF s podporou přístupnosti z dokumentu Word, včetně značek a struktury.
 
 ## Často kladené otázky
 

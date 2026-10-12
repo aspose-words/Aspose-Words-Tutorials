@@ -151,6 +151,8 @@ Learn how to capture and handle font substitution warnings in Java using Aspose.
 
 ### [How to Get Missing Fonts in Java – Aspose.Words Guide](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 Learn how to identify and retrieve missing fonts in Java using Aspose.Words, ensuring proper document rendering.
+### [How to recover docx – Enable Recovery Mode & Read Warnings](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
+Learn how to recover corrupted DOCX files by enabling recovery mode and reading warnings using Aspose.Words for Java.
 
 ## Frequently Asked Questions
 

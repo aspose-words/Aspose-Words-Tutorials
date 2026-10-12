@@ -38,6 +38,8 @@ Aspose.Words for Java を使って、Word 文書の高品質なサムネイル�
 Aspose.Words for Java を使用して、Word 文書内の図形に影効果を適用する方法をステップバイステップで解説します。
 ### [C# で図形に影効果を適用する – ステップバイステップ ガイド](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 C# で図形に影効果を適用する手順をステップバイステップで解説します。
+### [Aspose.Words で図形に影を設定する方法 – 完全ガイド](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
+Aspose.Words for Java で図形に影効果を適用する手順をステップバイステップで解説します。
 
 ## 追加リソース
 

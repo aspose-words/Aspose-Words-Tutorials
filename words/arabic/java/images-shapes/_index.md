@@ -38,6 +38,8 @@
 تعلم كيفية إضافة ظل إلى الأشكال في مستندات Word باستخدام Aspose.Words لجافا خطوة بخطوة.
 ### [تطبيق تأثير الظل على شكل في C# – دليل خطوة بخطوة](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 تعلم كيفية إضافة تأثير الظل إلى الأشكال في C# باستخدام Aspose.Words خطوةً بخطوة.
+### [كيفية تعيين الظل على شكل في Aspose.Words – دليل كامل](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
+تعلم خطوة بخطوة كيفية إضافة ظل إلى الأشكال في مستندات Word باستخدام Aspose.Words لجافا.
 
 ## موارد إضافية
 

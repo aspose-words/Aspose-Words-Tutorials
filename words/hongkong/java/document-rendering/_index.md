@@ -43,6 +43,8 @@ Aspose.Words for Java 提供了豐富的文件渲染教程，讓您可以輕鬆�
 了解如何在 Java 中使用 Aspose.Words 管理與嵌入字體，確保文檔跨平台正確顯示。
 ### [Aspose 警告回呼教學 – 偵測與追蹤缺少的字型](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
 了解如何使用 Aspose.Words for Java 的警告回呼機制偵測並追蹤缺少的字型，以確保文件渲染正確。
+### [如何捕獲警告 – 偵測 Aspose.Words 中缺少的字型](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
+了解如何在 Aspose.Words 中捕獲警告並偵測缺少的字型，以避免文件渲染問題。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

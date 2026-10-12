@@ -43,6 +43,8 @@ Tanuld meg, hogyan renderelhetsz dokumentumokat könnyedén HTML-be az Aspose.Wo
 Tanulja meg, hogyan kezelje a betűtípusokat az Aspose.Words for Java-ban a helyes megjelenítés és beágyazás érdekében.
 ### [Aspose figyelmeztető visszahívás oktatóanyag – Hiányzó betűtípusok észlelése és nyomon követése](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
 Ismerje meg, hogyan használja a figyelmeztető visszahívást a hiányzó betűtípusok felismerésére és nyomon követésére az Aspose.Words for Java-ban.
+### [Hogyan rögzítsünk figyelmeztetéseket – Hiányzó betűtípusok észlelése az Aspose.Words-ban](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
+Tanulja meg, hogyan rögzítheti a figyelmeztetéseket és észlelheti a hiányzó betűtípusokat az Aspose.Words használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

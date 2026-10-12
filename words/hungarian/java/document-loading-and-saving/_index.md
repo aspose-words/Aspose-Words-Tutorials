@@ -148,6 +148,7 @@ Tanulja meg, hogyan ismerje fel a dokumentumformátumokat Java‑ban az Aspose.W
 ### [Hogyan állítsuk helyre a DOCX‑et – mentse a helyreállított dokumentumot Java‑val](./how-to-recover-docx-save-recovered-document-using-java/)
 Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlt, és mentheti a helyreállított dokumentumot Java‑val az Aspose.Words segítségével.
 ### [Hogyan állítsuk helyre a docx fájlt az Aspose.Words‑szal – Helyreállítási mód engedélyezése](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
+### [Hogyan állítsuk helyre a docx fájlt – Engedélyezze a helyreállítási módot és olvassa el a figyelmeztetéseket](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
 
 ## Gyakran Ismételt Kérdések
 

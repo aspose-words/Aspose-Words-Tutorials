@@ -43,6 +43,8 @@ Aspose.Words for Java ile belgeleri HTML'ye zahmetsizce nasıl dönüştüreceğ
 Java uygulamalarınızda Aspose.Words kullanarak yazı tiplerini nasıl ekleyip, yönetebileceğinizi adım adım öğrenin.
 ### [Aspose Uyarı Geri Çağırma Eğitimi – Eksik Yazı Tiplerini Algıla ve İzle](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
 Aspose.Words for Java'da eksik yazı tiplerini tespit edip izlemek için uyarı geri çağırma mekanizmasını nasıl kullanacağınızı öğrenin.
+### [Uyarıları Yakalama – Aspose.Words'ta Eksik Yazı Tiplerini Algılamak](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
+Aspose.Words'ta eksik yazı tiplerini tespit etmek ve uyarıları yakalamak için adım adım rehber.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

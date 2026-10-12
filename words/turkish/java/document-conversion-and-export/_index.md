@@ -177,6 +177,19 @@ Java’da Aspose.Words kullanarak DOCX dosyasını PDF UA formatına dönüştü
 
 ### [Aspose.Words for Java'da Word'ü Markdown'a Dönüştür – Java Rehberi](./export-word-to-markdown-java-guide-using-aspose-words/)
 Aspose.Words for Java kullanarak Word belgelerini Markdown formatına dönüştürmeyi adım adım öğrenin.
+### [Aspose.Words ile docx'i markdown’a dönüştürme – Tam Kılavuz](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
+Aspose.Words kullanarak docx dosyalarını markdown formatına nasıl dönüştüreceğinizi adım adım öğrenin.
+
+### [C#'ta docx'i markdown’a dönüştürme – Tam Kılavuz](./convert-docx-to-markdown-in-c-complete-guide/)
+Aspose.Words kullanarak C# ile docx dosyalarını markdown formatına nasıl dönüştüreceğinizi adım adım öğrenin.
+
+### [DOCX'i Metin Olarak Kaydetme – Matematik Dışa Aktarımlı DOCX'ten TXT'ye Dönüştürme Tam Kılavuzu](./how-to-save-docx-as-text-complete-guide-to-convert-docx-to-t/)
+
+### [Word'den PDF Oluşturma – Java Geliştiricileri İçin Adım‑Adım Kılavuz](./create-pdf-from-word-step-by-step-guide-for-java-developers/)
+Java geliştiricileri için Aspose.Words kullanarak Word belgesinden PDF oluşturmayı adım adım öğrenin.
+
+### [Word'den Erişilebilir PDF Oluşturma – Tam Kılavuz](./create-accessible-pdf-from-word-full-guide/)
+Aspose.Words for Java kullanarak Word belgelerinden erişilebilir PDF dosyaları oluşturmayı adım adım öğrenin.
 
 ## Sık Sorulan Sorular
 

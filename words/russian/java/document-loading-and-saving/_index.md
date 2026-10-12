@@ -151,6 +151,8 @@ Aspose.Words for Java упрощает **save images from Word** докумен�
 Узнайте, как восстановить повреждённые DOCX‑файлы с помощью Aspose.Words, используя пошаговые примеры кода на Java.
 ### [Как восстановить docx с Aspose.Words – включить режим восстановления](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
 Узнайте, как включить режим восстановления в Aspose.Words для Java, чтобы восстановить повреждённые файлы DOCX.
+### [Как восстановить docx – включить режим восстановления и читать предупреждения](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
+Узнайте, как включить режим восстановления и обрабатывать предупреждения при работе с docx в Aspose.Words for Java.
 
 ## Часто задаваемые вопросы
 

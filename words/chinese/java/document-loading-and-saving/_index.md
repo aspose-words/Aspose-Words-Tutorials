@@ -151,6 +151,8 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 ### [如何使用 Aspose.Words 恢复 DOCX 文件 – 步骤指南](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 学习使用 Aspose.Words 逐步恢复受损的 DOCX 文件，提供代码示例和实用技巧。
 ### [如何恢复 docx – 使用 Java 保存恢复的文档](./how-to-recover-docx-save-recovered-document-using-java/)
+### [如何恢复 docx – 启用恢复模式并读取警告](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
+了解如何在 Aspose.Words for Java 中启用恢复模式并读取警告，以恢复受损的 docx 文件。
 
 ## 常见问题
 

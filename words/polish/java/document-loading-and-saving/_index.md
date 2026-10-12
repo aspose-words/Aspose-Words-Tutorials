@@ -152,6 +152,8 @@ Dowiedz się, jak wykrywać i pobierać brakujące czcionki w Javie przy użyciu
 ### [Jak odzyskać docx – zapisać odzyskany dokument przy użyciu Javy](./how-to-recover-docx-save-recovered-document-using-java/)
 ### [Jak odzyskać DOCX przy użyciu Aspose.Words – włącz tryb odzyskiwania](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
 Dowiedz się, jak włączyć tryb odzyskiwania w Aspose.Words, aby przywrócić uszkodzone dokumenty DOCX i zachować ich zawartość.
+### [Jak odzyskać docx – Włącz tryb odzyskiwania i odczytaj ostrzeżenia](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
+Dowiedz się, jak włączyć tryb odzyskiwania w Aspose.Words for Java i odczytać ostrzeżenia, aby przywrócić uszkodzone pliki DOCX.
 
 ## Najczęściej zadawane pytania
 

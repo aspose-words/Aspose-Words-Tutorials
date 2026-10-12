@@ -97,6 +97,11 @@ Erfahren Sie, wie Sie Wasserzeichen zu Dokumenten in Aspose.Words for Java hinzu
 Erfahren Sie, wie Sie ein Word‑Dokument mit Aspose.Words in Java einfach in ein PDF konvertieren – komplette Schritt‑für‑Schritt‑Anleitung.
 ### [PDF‑UA in Aspose.Words für Java erstellen – DOCX zu PDF konvertieren](./create-pdf-ua-in-java-convert-docx-to-pdf/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java PDF/UA‑Dateien aus DOCX erstellen und konvertieren, um barrierefreie PDFs zu erhalten.
+### [PDF aus Word erstellen – Schritt‑für‑Schritt‑Anleitung für Java‑Entwickler](./create-pdf-from-word-step-by-step-guide-for-java-developers/)
+Erfahren Sie, wie Sie mit Aspose.Words for Java ein PDF aus einem Word‑Dokument erstellen – detaillierte Schritt‑für‑Schritt‑Anleitung.
+
+### [Barrierefreies PDF aus Word erstellen – Vollständiger Leitfaden](./create-accessible-pdf-from-word-full-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words for Java barrierefreie PDFs aus Word‑Dokumenten erzeugen und die PDF/UA‑Standards einhalten.
 
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Erfahren Sie, wie Sie Tabellen formatieren und Tabellenstile in Aspose.Words for Java anwenden. Erkunden Sie Schritt‑für‑Schritt‑Anleitungen mit Quellcode für effektives Tabellenformatieren. Verbessern Sie das Layout Ihrer Dokumente mit Aspose.Words.
@@ -187,6 +192,14 @@ Erfahren Sie, wie Sie DOCX‑Dateien in Markdown umwandeln und dabei eingebettet
 
 ### [Word nach Markdown exportieren – Java‑Leitfaden mit Aspose.Words](./export-word-to-markdown-java-guide-using-aspose-words/)
 Erfahren Sie, wie Sie Word‑Dokumente in Markdown umwandeln und dabei Bilder extrahieren, mit Aspose.Words für Java.
+### [Convert docx to markdown with Aspose.Words – Complete Guide](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
+Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in Markdown konvertieren und dabei Formatierung und Inhalte erhalten.
+
+### [DOCX nach Markdown konvertieren in C# – Vollständiger Leitfaden](./convert-docx-to-markdown-in-c-complete-guide/)
+Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in C# in Markdown umwandeln und Formatierungen beibehalten.
+
+### [Wie man DOCX als Text speichert – Vollständiger Leitfaden zum Konvertieren von DOCX zu TXT mit Mathe‑Export](./how-to-save-docx-as-text-complete-guide-to-convert-docx-to-t/)
+Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words for Java in reine Textdateien konvertieren und mathematische Formeln exportieren.
 
 ## Häufig gestellte Fragen
 

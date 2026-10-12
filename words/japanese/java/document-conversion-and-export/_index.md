@@ -105,6 +105,20 @@ DOCX を PDF に変換し、アクセシビリティ要件を満たす PDF を�
 
 ### [docx から pdf チュートリアル – LowCode で Word を PDF に変換](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
 LowCode ソリューションを使用して、Word 文書を PDF に変換する手順をステップバイステップで解説します。
+### [Aspose.Words を使用して docx を markdown に変換する完全ガイド](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
+Aspose.Words for Java を使い、DOCX ファイルを Markdown 形式に変換する手順とサンプルコードを詳しく解説します。
+
+### [C# で docx を markdown に変換する – 完全ガイド](./convert-docx-to-markdown-in-c-complete-guide/)
+Aspose.Words for C# を使用して、DOCX ファイルを Markdown 形式に変換する手順とサンプルコードを詳しく解説します。
+
+### [DOCX をテキストとして保存する方法 – 数式エクスポート付き DOCX から TXT への完全ガイド](./how-to-save-docx-as-text-complete-guide-to-convert-docx-to-t/)
+Aspose.Words for Java を使用して DOCX をテキストファイルに変換し、数式をテキストとしてエクスポートする手順を解説します。
+
+### [Word から PDF を作成する – Java 開発者向けステップバイステップガイド](./create-pdf-from-word-step-by-step-guide-for-java-developers/)
+Aspose.Words for Java を使用して、Word 文書を PDF に変換する手順を詳しく解説します。コード例とベストプラクティスを紹介。
+
+### [Word からアクセシブル PDF を作成する – 完全ガイド](./create-accessible-pdf-from-word-full-guide/)
+Aspose.Words for Java を使用して、Word 文書からアクセシブルな PDF を生成する手順とベストプラクティスを解説します。
 
 ## よくある質問
 **Q: Aspose.Words を使用して既存の PDF にウォーターマークを追加するにはどうすればよいですか？**  

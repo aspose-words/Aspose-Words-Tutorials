@@ -38,6 +38,8 @@ Aspose.Words Java 程式碼教程
 了解如何使用 Aspose.Words for Java 為 Word 文檔中的形狀添加陰影效果，提升視覺效果。
 ### [在 C# 中為形狀套用陰影效果 – 步驟說明指南](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 了解如何在 C# 使用 Aspose.Words 為形狀添加陰影效果的詳細步驟。
+### [如何在 Aspose.Words 中為形狀設定陰影 – 完整指南](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
+了解如何在 Aspose.Words for Java 中為形狀添加陰影效果，並自訂其屬性以提升文件的視覺效果。
 
 ## 其他資源
 

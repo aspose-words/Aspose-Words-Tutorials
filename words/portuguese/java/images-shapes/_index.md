@@ -38,6 +38,8 @@ Aprenda a gerar miniaturas de alta qualidade e bitmaps de tamanho personalizado 
 Aprenda a aplicar sombras a formas em documentos Word usando Aspose.Words para Java, com exemplos de código detalhados.
 ### [Aplicar efeito de sombra a uma forma em C# – Guia passo a passo](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Aprenda a aplicar efeitos de sombra a formas usando Aspose.Words para C# com este guia passo a passo.
+### [Como definir sombra em uma forma no Aspose.Words – Guia completo](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
+Aprenda a aplicar sombras personalizadas a formas em documentos Word usando Aspose.Words para Java.
 
 ## Recursos adicionais
 

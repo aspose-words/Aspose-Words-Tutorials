@@ -154,6 +154,8 @@ Aspose.Words for Java में फ़ॉन्ट प्रतिस्था�
 ### [DOCX को पुनर्प्राप्त करने का तरीका – रिकवरी मोड सेट करें और चेतावनियाँ दिखाएँ](./how-to-recover-docx-set-recovery-mode-display-warnings/)
 ### [Aspose.Words के साथ docx को पुनर्प्राप्त करने का तरीका – रिकवरी मोड सक्षम करें](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
 Aspose.Words का उपयोग करके क्षतिग्रस्त docx फ़ाइलों को रिकवरी मोड में पुनर्प्राप्त करने की प्रक्रिया सीखें।
+### [docx को पुनर्प्राप्त करने का तरीका – रिकवरी मोड सक्षम करें और चेतावनियों को पढ़ें](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
+docx फ़ाइलों को पुनर्प्राप्त करने के लिए रिकवरी मोड कैसे सक्षम करें और चेतावनियों को पढ़ें, इस चरण‑दर‑चरण गाइड में जानें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

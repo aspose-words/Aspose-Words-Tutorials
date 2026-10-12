@@ -159,6 +159,9 @@ Pelajari cara memulihkan file DOCX yang rusak dan menyimpannya kembali menggunak
 ### [Cara memulihkan docx dengan Aspose.Words – Aktifkan Mode Pemulihan](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
 Pelajari cara memulihkan file DOCX yang rusak menggunakan Aspose.Words dengan mengaktifkan mode pemulihan.
 
+### [Cara memulihkan docx – Aktifkan Mode Pemulihan & Baca Peringatan](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
+Panduan memulihkan file DOCX dengan mengaktifkan mode pemulihan dan meninjau peringatan untuk menghindari kehilangan data.
+
 ## Pertanyaan yang Sering Diajukan
 
 **T:** Bagaimana cara saya secara programatis **menyimpan gambar dari word** dokumen?  

@@ -43,6 +43,8 @@ Aspose.Words for Java के साथ आसानी से HTML में द
 Java में Aspose.Words का उपयोग करके फ़ॉन्ट प्रबंधन के सभी पहलुओं को सीखें, कोड उदाहरणों के साथ पूर्ण मार्गदर्शिका।
 ### [Aspose चेतावनी कॉलबैक ट्यूटोरियल – गायब फ़ॉन्ट्स का पता लगाएँ और ट्रैक करें](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
 Aspose.Words में चेतावनी कॉलबैक सेट करके गायब फ़ॉन्ट्स को पहचानें और ट्रैक करें। कोड उदाहरण सहित।
+### [कैसे चेतावनियों को कैप्चर करें – Aspose.Words में लापता फ़ॉन्ट्स का पता लगाएँ](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
+Aspose.Words में लापता फ़ॉन्ट्स की चेतावनियों को पकड़ने और संभालने के लिए चरण-दर-चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

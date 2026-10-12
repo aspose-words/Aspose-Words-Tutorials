@@ -126,6 +126,7 @@ Aspose.Words for Java の多様性を探り、さまざまな形式でドキュ�
 ### [Aspose.Words for Java で DOCX ファイルを復元する方法 – ステップバイステップガイド](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 ### [docx を復元する – Java で復元したドキュメントを保存](./how-to-recover-docx-save-recovered-document-using-java/)
 ### [Aspose.Words で docx を復元する – 復元モードを有効にする](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
+### [docx の復元方法 – 復元モードの有効化と警告の読み取り](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
 
 ## よくある質問
 

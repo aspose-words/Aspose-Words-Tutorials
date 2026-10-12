@@ -43,6 +43,8 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java mühelos Dokumente in HTML rend
 Erfahren Sie, wie Sie Schriftarten in Java mit Aspose.Words verwalten, einbetten und rendern – umfassende Schritt‑für‑Schritt‑Anleitung.
 ### [Aspose-Warnungs-Callback-Tutorial – Fehlende Schriftarten erkennen und verfolgen](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java fehlende Schriftarten erkennen und über Warnungs-Callbacks verfolgen.
+### [Warnungen erfassen – Fehlende Schriftarten in Aspose.Words erkennen](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
+Erfahren Sie, wie Sie Warnungen abfangen und fehlende Schriftarten in Aspose.Words erkennen, um Dokumente korrekt zu rendern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

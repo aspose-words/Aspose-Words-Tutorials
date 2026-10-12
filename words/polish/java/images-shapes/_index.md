@@ -38,6 +38,8 @@ Dowiedz się, jak generować wysokiej jakości miniatury i mapy bitowe o niestan
 Dowiedz się, jak dodać cień do kształtu w dokumencie Word przy użyciu Aspose.Words dla Java.
 ### [Zastosowanie efektu cienia do kształtu w C# – przewodnik krok po kroku](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Dowiedz się, jak dodać efekt cienia do kształtu w C# przy użyciu Aspose.Words, krok po kroku.
+### [Jak ustawić cień na kształcie w Aspose.Words – kompletny przewodnik](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
+Dowiedz się, jak dodać cień do kształtu w dokumencie przy użyciu Aspose.Words for Java, krok po kroku.
 
 ## Dodatkowe zasoby
 

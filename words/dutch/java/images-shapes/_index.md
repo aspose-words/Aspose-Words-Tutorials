@@ -38,6 +38,8 @@ Leer hoe u hoogwaardige miniaturen en bitmaps op maat van Word-documenten kunt g
 Leer hoe u een schaduw aan vormen toevoegt in Word met Aspose.Words voor Java.
 ### [Schaduweffect toepassen op een vorm in C# – Stapsgewijze handleiding](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Leer hoe u een schaduweffect op een vorm toepast in C# met Aspose.Words.
+### [Hoe schaduw instellen op een vorm in Aspose.Words – Complete gids](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
+Leer stap voor stap hoe u schaduweffecten op vormen toepast met Aspose.Words voor Java.
 
 ## Aanvullende bronnen
 
