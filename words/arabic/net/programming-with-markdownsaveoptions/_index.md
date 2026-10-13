@@ -132,6 +132,12 @@
 
 ### [حفظ docx كـ markdown – دليل خطوة بخطوة C#](./save-docx-as-markdown-step-by-step-c-tutorial/)
 
+### [حفظ Word كـ Markdown – دليل C# كامل](./save-word-as-markdown-complete-c-guide/)
+
+### [إنشاء مجلد الأصول وتحويل DOCX إلى Markdown باستخدام Aspose.Words](./create-assets-folder-and-convert-docx-to-markdown-with-aspos/)
+
+### [تحويل docx إلى markdown باستخدام Aspose.Words – دليل C# كامل](./convert-docx-to-markdown-with-aspose-words-full-c-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

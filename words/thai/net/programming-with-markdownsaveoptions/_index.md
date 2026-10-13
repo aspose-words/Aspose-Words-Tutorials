@@ -38,6 +38,8 @@
 
 ### [แปลง docx เป็น markdown ใน C# – คู่มือขั้นตอนโดยขั้นตอน](./convert-docx-to-markdown-in-c-step-by-step-guide/)
 ### [แปลง docx เป็น markdown ด้วย Aspose.Words – คู่มือเต็ม](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
+### [แปลง docx เป็น markdown ด้วย Aspose.Words – คู่มือเต็ม C#](./convert-docx-to-markdown-with-aspose-words-full-c-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown อย่างละเอียดด้วย Aspose.Words ใน C# พร้อมตัวอย่างโค้ดครบถ้วน
 
 ### [บันทึก docx เป็น markdown – คู่มือเต็ม C# พร้อมสมการ LaTeX](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
@@ -159,6 +161,12 @@
 
 ### [บันทึก docx เป็น markdown – คู่มือขั้นตอนโดยขั้นตอน C#](./save-docx-as-markdown-step-by-step-c-tutorial/)
 เรียนรู้วิธีบันทึกไฟล์ docx เป็น markdown อย่างละเอียดด้วย C# ตามขั้นตอนที่ชัดเจน
+
+### [บันทึก Word เป็น Markdown – คู่มือเต็ม C#](./save-word-as-markdown-complete-c-guide/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างละเอียดด้วย C# ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
+
+### [สร้างโฟลเดอร์ assets และแปลง DOCX เป็น Markdown ด้วย Aspose.Words](./create-assets-folder-and-convert-docx-to-markdown-with-aspos/)
+สร้างโฟลเดอร์ assets แล้วแปลงไฟล์ DOCX เป็น Markdown ด้วย Aspose.Words อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

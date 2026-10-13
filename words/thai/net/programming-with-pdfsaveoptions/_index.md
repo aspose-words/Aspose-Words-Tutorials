@@ -66,6 +66,7 @@
 - [สร้าง PDF UA จาก Word ด้วย C# – คู่มือทีละขั้นตอน](./create-pdf-ua-from-word-in-c-step-by-step-guide/) | เรียนรู้วิธีสร้างไฟล์ PDF UA จากเอกสาร Word ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET ผ่านขั้นตอนละเอียด |
 - [วิธีสร้าง PDF จาก Word ด้วย C# – คู่มือฉบับสมบูรณ์](./how-to-create-pdf-from-word-in-c-complete-guide/) | เรียนรู้ขั้นตอนการแปลงไฟล์ Word เป็น PDF ด้วย C# อย่างละเอียดโดยใช้ Aspose.Words สำหรับ .NET
 - [บันทึก Word เป็น PDF ใน C# – คู่มือเต็มสำหรับแปลง DOCX เป็น PDF พร้อมการส่งออกรูปทรง](./save-word-as-pdf-in-c-full-guide-to-convert-docx-to-pdf-with/) | เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF ใน C# พร้อมการส่งออกรูปทรงอย่างละเอียดด้วย Aspose.Words
+- [สร้าง PDF ที่เข้าถึงได้จาก Word – คู่มือทีละขั้นตอน](./create-accessible-pdf-from-word-step-by-step-guide/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากไฟล์ Word ด้วยขั้นตอนละเอียดโดยใช้ Aspose.Words สำหรับ .NET |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

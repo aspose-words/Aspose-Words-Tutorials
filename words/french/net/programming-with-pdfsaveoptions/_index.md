@@ -27,7 +27,7 @@ Que vous souhaitiez convertir des documents Word en PDF pour une distribution en
 | [Afficher le titre du document dans la barre de titre de la fenêtre](./display-doc-title-in-window-titlebar/) | Apprenez à afficher le titre du document dans la barre de titre de la fenêtre de vos PDF à l'aide d'Aspose.Words pour .NET avec ce guide étape par étape. |
 | [Avertissements de rendu PDF](./pdf-render-warnings/) | Guide étape par étape pour gérer les avertissements de rendu PDF avec Aspose.Words pour .NET. |
 | [Ajouter une signature numérique au PDF à l'aide du titulaire du certificat](./digitally-signed-pdf-using-certificate-holder/) |Sécurisez vos fichiers PDF avec une signature numérique grâce à Aspose.Words pour .NET. Suivez ce guide étape par étape pour ajouter facilement une signature numérique à vos PDF. |
-| [Incorporer des polices dans un document PDF](./embedded-all-fonts/) Intégrez facilement des polices dans vos documents PDF grâce à Aspose.Words pour .NET grâce à ce guide détaillé, étape par étape. Assurez une apparence cohérente sur tous les appareils.
+| [Incorporer des polices dans un document PDF](./embedded-all-fonts/) Intégrez facilement des polices dans vos documents PDF grâce à Aspose.Words pour .NET grâce à ce guide détaillé, étape par étape. Assurez une apparence cohérente sur tous les appareils. |
 | [Intégrer des sous-ensembles de polices dans un document PDF](./embedded-subset-fonts/) Réduisez la taille de vos fichiers PDF en intégrant uniquement les sous-ensembles de polices nécessaires grâce à Aspose.Words pour .NET. Suivez notre guide étape par étape pour optimiser efficacement vos PDF. |
 | [Réduire la taille du PDF en désactivant les polices intégrées](./disable-embed-windows-fonts/) Réduisez la taille de vos PDF en désactivant les polices intégrées avec Aspose.Words pour .NET. Suivez notre guide étape par étape pour optimiser vos documents et les stocker et les partager efficacement. |
 | [Optimisez la taille de votre PDF en ignorant les polices Arial et Times Roman intégrées](./skip-embedded-arial-and-times-roman-fonts/) Optimisez la taille de vos PDF en ignorant les polices Arial et Times Roman intégrées grâce à Aspose.Words pour .NET. Suivez ce guide étape par étape pour optimiser vos fichiers PDF. |
@@ -66,6 +66,7 @@ Que vous souhaitiez convertir des documents Word en PDF pour une distribution en
 
 | [Comment créer un PDF à partir de Word en C# – Guide complet](./how-to-create-pdf-from-word-in-c-complete-guide/) | Apprenez à générer un PDF à partir d'un document Word en C# avec Aspose.Words, étape par étape. |
 | [Enregistrer Word en PDF en C# – Guide complet pour convertir DOCX en PDF avec exportation de formes](./save-word-as-pdf-in-c-full-guide-to-convert-docx-to-pdf-with/) | Apprenez à convertir des fichiers DOCX en PDF en C# avec Aspose.Words, incluant l'exportation des formes, grâce à ce guide complet. |
+| [Créer un PDF accessible à partir de Word – Guide étape par étape](./create-accessible-pdf-from-word-step-by-step-guide/) | Apprenez à générer des PDF accessibles depuis des documents Word avec Aspose.Words pour .NET, étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

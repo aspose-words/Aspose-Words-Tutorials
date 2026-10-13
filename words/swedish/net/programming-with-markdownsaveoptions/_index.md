@@ -185,6 +185,15 @@ Lär dig konvertera Word-dokument till Markdown med en komplett C#-guide som tä
 ### [Spara docx som markdown – Steg‑för‑steg C#‑guide](./save-docx-as-markdown-step-by-step-c-tutorial/)
 Lär dig spara DOCX-filer som Markdown med en detaljerad steg‑för‑steg‑guide i C#.
 
+### [Spara Word som Markdown – Fullständig C#-guide](./save-word-as-markdown-complete-c-guide/)
+Lär dig spara Word-dokument som Markdown med en komplett C#‑guide som täcker hela processen.
+
+### [Skapa assets-mapp och konvertera DOCX till Markdown med Aspose.Words](./create-assets-folder-and-convert-docx-to-markdown-with-aspos/)
+Lär dig skapa en assets-mapp och konvertera DOCX-filer till Markdown med Aspose.Words för .NET.
+
+### [Konvertera docx till markdown med Aspose.Words – Fullständig C#-guide](./convert-docx-to-markdown-with-aspose-words-full-c-guide/)
+Lär dig konvertera DOCX-filer till Markdown med en komplett C#‑guide som använder Aspose.Words.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

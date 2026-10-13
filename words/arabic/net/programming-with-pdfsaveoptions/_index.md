@@ -65,6 +65,7 @@
 | [إنشاء PDF يمكن الوصول إليه من Word باستخدام Aspose – دليل خطوة بخطوة](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) |تعلم كيفية إنشاء ملفات PDF قابلة للوصول من مستندات Word باستخدام Aspose.Words for .NET خطوة بخطوة. |
 | [إنشاء PDF UA من Word باستخدام C# – دليل خطوة بخطوة](./create-pdf-ua-from-word-in-c-step-by-step-guide/) | تعلم كيفية إنشاء ملفات PDF UA من مستندات Word باستخدام C# و Aspose.Words خطوة بخطوة. |
 | [كيفية إنشاء ملف PDF من Word باستخدام C# – دليل كامل](./how-to-create-pdf-from-word-in-c-complete-guide/) | تعلم خطوة بخطوة كيفية تحويل مستندات Word إلى PDF باستخدام C# مع Aspose.Words، مع شرح الإعدادات المتقدمة. |
+| [إنشاء ملف PDF قابل للوصول من Word – دليل خطوة بخطوة](./create-accessible-pdf-from-word-step-by-step-guide/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول من مستندات Word باستخدام Aspose.Words for .NET عبر دليل خطوة بخطوة. |
 
 | [حفظ مستند Word كملف PDF في C# – دليل كامل لتحويل DOCX إلى PDF مع تصدير الأشكال](./save-word-as-pdf-in-c-full-guide-to-convert-docx-to-pdf-with/) | دليل شامل يوضح كيفية تحويل ملفات DOCX إلى PDF مع تصدير الأشكال باستخدام Aspose.Words لـ .NET في C#. |
 

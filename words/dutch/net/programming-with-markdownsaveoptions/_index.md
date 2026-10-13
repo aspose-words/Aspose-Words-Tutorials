@@ -190,6 +190,16 @@ Leer hoe u Word-documenten opslaat als Markdown met een volledige C#‑handleidi
 ### [Docx opslaan als markdown – Stapsgewijze C#‑tutorial](./save-docx-as-markdown-step-by-step-c-tutorial/)
 Leer hoe u een DOCX-bestand stap voor stap omzet naar Markdown met C# en Aspose.Words.
 
+### [Word opslaan als Markdown – Complete C#-gids](./save-word-as-markdown-complete-c-guide/)
+
+### [Maak assets-map en converteer DOCX naar Markdown met Aspose.Words](./create-assets-folder-and-convert-docx-to-markdown-with-aspos/)
+
+Leer hoe u een assets-map maakt en DOCX-bestanden converteert naar Markdown met Aspose.Words voor .NET.
+
+### [Docx converteren naar markdown met Aspose.Words – Volledige C#-gids](./convert-docx-to-markdown-with-aspose-words-full-c-guide/)
+
+Leer hoe u docx-bestanden naar markdown converteert met een volledige C#-handleiding en Aspose.Words.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

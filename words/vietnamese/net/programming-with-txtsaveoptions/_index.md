@@ -39,6 +39,8 @@ Nhờ các hướng dẫn này, bạn sẽ có thể khai thác đầy đủ cá
 | [Lưu tài liệu dưới dạng TXT – Xuất phương trình Word sang LaTeX](./save-document-as-txt-export-word-equations-to-latex/) | Hướng dẫn lưu tài liệu Word dưới dạng TXT và chuyển các phương trình sang định dạng LaTeX. |
 | [Lưu docx thành txt – Xuất phương trình sang LaTeX](./save-docx-as-txt-export-equations-to-latex/) | Hướng dẫn lưu tài liệu docx dưới dạng tệp txt và xuất các phương trình dưới dạng LaTeX bằng Aspose.Words cho .NET. |
 | [Lưu docx thành txt – Hướng dẫn C# đầy đủ](./save-docx-as-txt-complete-c-guide/) | Hướng dẫn chi tiết cách chuyển đổi tệp docx sang txt bằng C# với Aspose.Words, bao gồm các tùy chọn lưu và ví dụ mã. |
+| [Cách xuất LaTeX từ Word – Chuyển DOCX sang TXT có công thức](./how-to-export-latex-from-word-convert-docx-to-txt-with-equat/) | Hướng dẫn chuyển đổi tài liệu Word sang tệp TXT chứa các công thức LaTeX, giúp xuất công thức một cách chính xác. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -79,6 +79,9 @@
 | [docx를 markdown으로 변환 – 줄 바꿈 보존 전체 C# 가이드](./convert-docx-to-markdown-complete-guide-with-line-break-pres/) | Aspose.Words for .NET을 사용하여 줄 바꿈을 유지하면서 docx 파일을 markdown으로 변환하는 전체 가이드 |
 | [Aspose.Words를 사용하여 Word를 Markdown으로 저장 – 전체 C# 가이드](./save-word-as-markdown-with-aspose-words-full-c-guide/) | Aspose.Words for .NET을 활용해 Word 문서를 Markdown으로 저장하는 전체 C# 가이드 |
 | [Aspose.Words를 사용한 Word를 Markdown으로 변환 – 전체 C# 가이드](./convert-word-to-markdown-with-aspose-words-full-c-guide/) | Aspose.Words for .NET을 사용하여 Word 문서를 Markdown으로 변환하는 전체 C# 가이드 |
+| [Word를 Markdown으로 저장 – 전체 C# 가이드](./save-word-as-markdown-complete-c-guide/) | Aspose.Words for .NET을 사용하여 Word 문서를 Markdown 형식으로 저장하는 전체 C# 가이드를 제공합니다. |
+| [Aspose.Words로 자산 폴더를 만들고 DOCX를 Markdown으로 변환하기](./create-assets-folder-and-convert-docx-to-markdown-with-aspos/) | Aspose.Words를 사용하여 자산 폴더를 생성하고 DOCX 파일을 Markdown 형식으로 변환하는 방법을 단계별로 안내합니다. |
+| [Aspose.Words를 사용하여 docx를 markdown으로 변환 – 전체 C# 가이드](./convert-docx-to-markdown-with-aspose-words-full-c-guide/) | Aspose.Words for .NET을 사용하여 docx 파일을 markdown으로 변환하는 전체 C# 가이드 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

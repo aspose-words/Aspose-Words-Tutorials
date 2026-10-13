@@ -61,6 +61,7 @@ Aspose.Words for .NET 教學課程為希望掌握使用 LoadOptions 進行文字
 | [載入損壞的 Word 文件 – 偵測問題並在 C# 中復原受損的 docx](./load-corrupted-word-document-detect-issues-recover-damaged-d/) |了解如何在 C# 使用 Aspose.Words 載入損壞的 Word 文件，偵測問題並復原受損的 docx。 |
 | [如何復原 DOCX – 受損檔案的逐步指南](./how-to-recover-docx-step-by-step-guide-for-corrupt-files/) |了解如何使用 Aspose.Words 逐步復原受損的 DOCX 檔案，確保資料完整性。 |
 | [在 C# 中載入損毀的 DOCX – 完整 Aspose.Words 指南](./load-corrupted-docx-in-c-complete-aspose-words-guide/) |了解如何使用 Aspose.Words for .NET 在 C# 中載入並修復損毀的 DOCX 文件的完整步驟指南。 |
+| [復原受損的 Word 檔案 – 使用 Aspose 開啟損壞的 docx](./recover-damaged-word-file-open-corrupted-docx-using-aspose/) |了解如何使用 Aspose.Words for .NET 復原受損的 Word 檔案，開啟並修復損壞的 docx 文件。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
