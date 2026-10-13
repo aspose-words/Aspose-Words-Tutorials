@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: Dieses Tutorial zeigt, wie man ein neues Word‑Dokument erstellt, drei Absätze hinzufügt, einen bestimmten Absatz findet, ihm einen Kommentar mit Autoreninformationen anhängt und das Ergebnis als DOCX‑Datei mit Aspose.Words speichert.
+//ExStepSummary:0: Instanziieren Sie ein neues Document und einen DocumentBuilder, um mit dem Erstellen der Word‑Datei zu beginnen.
+//ExStepSummary:1: Verwenden Sie DocumentBuilder.Writeln, um dem Dokument drei separate Textabsätze hinzuzufügen.
+//ExStepSummary:2: Rufen Sie den zweiten Absatz sicher ab und greifen Sie auf den ersten zurück, falls das Dokument weniger als zwei Absätze enthält.
+//ExStepSummary:3: Erstellen Sie einen Comment mit Autorendaten, setzen Sie dessen Text und hängen Sie ihn an den ausgewählten Absatz an.
+//ExStepSummary:4: Speichern Sie das modifizierte Dokument als DOCX‑Datei mit dem Namen 'sample.docx' im aktuellen Ordner.
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder builderObj = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+builderObj.Writeln("Introductory line.");
+builderObj.Writeln("Middle line.");
+builderObj.Writeln("Concluding line.");
+
+//ExStep:2-
+Paragraph? chosenParagraph = null;
+ParagraphCollection? paraList = wordDoc.FirstSection?.Body?.Paragraphs;
+if (paraList != null && paraList.Count > 1)
+{
+    chosenParagraph = paraList[1];
+}
+else if (paraList != null && paraList.Count > 0)
+{
+    chosenParagraph = paraList[0];
+}
+
+//ExStep:3-
+if (chosenParagraph != null)
+{
+    Comment note = new Comment(wordDoc, "Jordan", "JH", DateTime.Now);
+    note.SetText("Please examine this section.");
+    chosenParagraph.AppendChild(note);
+}
+
+//ExStep:4-
+wordDoc.Save("sample.docx");
+//ExEnd

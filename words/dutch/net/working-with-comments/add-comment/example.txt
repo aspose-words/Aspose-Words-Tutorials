@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: Deze tutorial laat zien hoe je een nieuw Word‑document maakt, drie alinea's toevoegt, een specifieke alinea opspoort, er een commentaar met auteursinformatie aan koppelt, en het resultaat opslaat als een DOCX‑bestand met behulp van Aspose.Words.
+//ExStepSummary:0: Instantieer een nieuw Document en een DocumentBuilder om te beginnen met het bouwen van het Word‑bestand.
+//ExStepSummary:1: Gebruik DocumentBuilder.Writeln om drie afzonderlijke alinea's tekst aan het document toe te voegen.
+//ExStepSummary:2: Haal de tweede alinea veilig op, en val terug op de eerste als het document minder dan twee alinea's bevat.
+//ExStepSummary:3: Maak een Comment met auteursgegevens, stel de tekst in, en koppel deze aan de geselecteerde alinea.
+//ExStepSummary:4: Sla het gewijzigde document op als een DOCX‑bestand met de naam 'sample.docx' in de huidige map.
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder builderObj = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+builderObj.Writeln("Introductory line.");
+builderObj.Writeln("Middle line.");
+builderObj.Writeln("Concluding line.");
+
+//ExStep:2-
+Paragraph? chosenParagraph = null;
+ParagraphCollection? paraList = wordDoc.FirstSection?.Body?.Paragraphs;
+if (paraList != null && paraList.Count > 1)
+{
+    chosenParagraph = paraList[1];
+}
+else if (paraList != null && paraList.Count > 0)
+{
+    chosenParagraph = paraList[0];
+}
+
+//ExStep:3-
+if (chosenParagraph != null)
+{
+    Comment note = new Comment(wordDoc, "Jordan", "JH", DateTime.Now);
+    note.SetText("Please examine this section.");
+    chosenParagraph.AppendChild(note);
+}
+
+//ExStep:4-
+wordDoc.Save("sample.docx");
+//ExEnd
