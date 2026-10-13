@@ -29,6 +29,12 @@ Bu eğitimlerle, Word belgelerinizi görsel olarak çekici ve bilgilendirici gra
 
 {{< tutorial-card link="./insert-custom-chart/" title="Aspose.Words for .NET kullanarak Word belgesine Custom Column Chart ekleyin." imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./hide-plot-border/" title="Aspose.Words for .NET ile bir Sütun Grafiğinde Çizim Alanı Kenarlığını Gizleme" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Aspose.Words for .NET kullanarak bir Word Document'ten Chart Series kaldırma" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+
+
 
 
 | Başlık | Açıklama |

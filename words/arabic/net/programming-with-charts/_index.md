@@ -29,6 +29,12 @@
 
 {{< tutorial-card link="./insert-custom-chart/" title="إدراج مخطط عمودي مخصص في مستند Word باستخدام Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./hide-plot-border/" title="إخفاء حد مساحة الرسم في مخطط عمودي باستخدام Aspose.Words for .NET" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="إزالة سلسلة مخطط من مستند Word باستخدام Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+
+
 
 
 | العنوان | الوصف |

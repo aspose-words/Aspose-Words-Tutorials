@@ -29,6 +29,12 @@ Aspose.Words for .NET 그래픽 프로그래밍 자습서는 Word 문서에서 �
 
 {{< tutorial-card link="./insert-custom-chart/" title="Aspose.Words for .NET을 사용하여 Word 문서에 사용자 정의 열 차트 삽입" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./hide-plot-border/" title="Aspose.Words for .NET을 사용하여 컬럼 차트의 플롯 영역 테두리 숨기기" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Aspose.Words for .NET을 사용하여 Word 문서에서 차트 시리즈 제거" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+
+
 
 
 | 제목 | 설명 |

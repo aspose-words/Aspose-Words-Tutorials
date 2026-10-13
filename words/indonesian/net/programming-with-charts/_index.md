@@ -31,6 +31,12 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 
 {{< tutorial-card link="./insert-custom-chart/" title="Masukkan Diagram Kolom Kustom ke Dokumen Word Menggunakan Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./hide-plot-border/" title="Sembunyikan Batas Area Plot pada Diagram Kolom dengan Aspose.Words for .NET" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Hapus Seri Diagram dari Word Document Menggunakan Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+
+
 
 
 | [Format Nomor Label Data Dalam Bagan](./format-number-of-data-label/) | Pelajari cara memformat label data dalam bagan menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurnakan dokumen Word Anda dengan mudah. Bahasa Indonesia:

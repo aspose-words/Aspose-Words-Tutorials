@@ -29,6 +29,12 @@ Med dessa handledningar kommer du att kunna förbättra dina Word-dokument genom
 
 {{< tutorial-card link="./insert-custom-chart/" title="Infoga anpassat stapeldiagram i Word‑dokument med Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./hide-plot-border/" title="Dölj plotområdesram i ett stapeldiagram med Aspose.Words för .NET" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Ta bort en Chart Series från ett Word Document med Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+
+
 
 
 | Titel | Beskrivning |

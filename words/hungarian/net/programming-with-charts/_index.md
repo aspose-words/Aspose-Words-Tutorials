@@ -29,6 +29,12 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 
 {{< tutorial-card link="./insert-custom-chart/" title="Egyéni oszlopdiagram beszúrása Word dokumentumba az Aspose.Words for .NET használatával" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./hide-plot-border/" title="Plot terület keretének elrejtése oszlopdiagramon az Aspose.Words for .NET segítségével" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Chart sorozat eltávolítása Word dokumentumból az Aspose.Words for .NET használatával" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+
+
 
 
 | Cím | Leírás |

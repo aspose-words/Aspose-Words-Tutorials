@@ -29,6 +29,12 @@ Met deze tutorials kunt u uw Word-documenten verbeteren door visueel aantrekkeli
 
 {{< tutorial-card link="./insert-custom-chart/" title="Aangepaste kolomgrafiek invoegen in Word‑document met Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./hide-plot-border/" title="Plot Area Border verbergen in een column chart met Aspose.Words for .NET" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Verwijder een Chart Series uit een Word Document met Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+
+
 
 
 | Titel | Beschrijving |

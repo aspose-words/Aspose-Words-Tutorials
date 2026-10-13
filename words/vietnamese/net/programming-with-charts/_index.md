@@ -29,6 +29,12 @@ Với các hướng dẫn này, bạn sẽ có thể cải thiện tài liệu W
 
 {{< tutorial-card link="./insert-custom-chart/" title="Chèn Biểu Đồ Cột Tùy Chỉnh vào Tài Liệu Word bằng Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./hide-plot-border/" title="Ẩn viền vùng vẽ trong biểu đồ cột bằng Aspose.Words for .NET" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Xóa một Chart Series khỏi Word Document bằng Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+
+
 
 
 | Tiêu đề | Mô tả |

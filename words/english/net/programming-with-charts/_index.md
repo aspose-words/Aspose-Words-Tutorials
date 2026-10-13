@@ -24,6 +24,12 @@ With these tutorials, you will be able to enhance your Word documents by adding 
 
  ## Tutorials
 
+{{< tutorial-card link="./remove-chart-series/" title="Remove a Chart Series from a Word Document Using Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+
+{{< tutorial-card link="./hide-plot-border/" title="Hide Plot Area Border in a Column Chart with Aspose.Words for .NET" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+
 {{< tutorial-card link="./insert-custom-chart/" title="Insert Custom Column Chart in Word Document Using Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
 

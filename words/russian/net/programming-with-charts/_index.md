@@ -29,6 +29,12 @@
 
 {{< tutorial-card link="./insert-custom-chart/" title="Вставка пользовательской столбчатой диаграммы в документ Word с помощью Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./hide-plot-border/" title="Скрыть границу области построения в столбчатой диаграмме с помощью Aspose.Words for .NET" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Удаление серии диаграммы из Word Document с помощью Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+
+
 
 
 | Название | Описание |
