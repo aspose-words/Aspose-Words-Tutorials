@@ -29,6 +29,10 @@ Aspose.Words for .NET Graphics Programming ट्यूटोरियल आप
 
 {{< tutorial-card link="./insert-custom-chart/" title="Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में कस्टम कॉलम चार्ट डालें" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./hide-plot-border/" title="Aspose.Words for .NET के साथ कॉलम चार्ट में प्लॉट एरिया बॉर्डर को छिपाएँ" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Aspose.Words for .NET का उपयोग करके Word Document से एक Chart Series हटाएँ" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
 {{< tutorial-card link="./insert-sample-column-chart/" title="Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में सैंपल कॉलम चार्ट डालें।" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
 

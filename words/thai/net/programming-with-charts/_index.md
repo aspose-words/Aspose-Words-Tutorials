@@ -31,6 +31,10 @@
 
 {{< tutorial-card link="./insert-custom-chart/" title="แทรก Custom Column Chart ใน Word Document ด้วย Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./hide-plot-border/" title="ซ่อนขอบพื้นที่พล็อตในแผนภูมิคอลัมน์ด้วย Aspose.Words for .NET" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="ลบ Chart Series จาก Word Document ด้วย Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
 {{< tutorial-card link="./insert-sample-column-chart/" title="แทรกแผนภูมิคอลัมน์ตัวอย่างในเอกสาร Word ด้วย Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
 

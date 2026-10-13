@@ -29,6 +29,10 @@ Dzięki tym samouczkom będziesz w stanie ulepszyć swoje dokumenty Word, dodaj�
 
 {{< tutorial-card link="./insert-custom-chart/" title="Wstaw własny wykres słupkowy do dokumentu Word przy użyciu Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./hide-plot-border/" title="Ukryj obramowanie obszaru wykresu w wykresie kolumnowym przy użyciu Aspose.Words for .NET" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Usuwanie serii wykresu z dokumentu Word przy użyciu Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
 {{< tutorial-card link="./insert-sample-column-chart/" title="Wstaw przykładowy wykres słupkowy do dokumentu Word przy użyciu Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
 

@@ -29,6 +29,10 @@ těmito tutoriály budete moci vylepšit své dokumenty Word přidáním vizuál
 
 {{< tutorial-card link="./insert-custom-chart/" title="Vložení vlastního sloupcového grafu do dokumentu Word pomocí Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./hide-plot-border/" title="Skrytí okraje oblasti vykreslování ve sloupcovém grafu pomocí Aspose.Words pro .NET" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Odeberte řadu grafu z Word Documentu pomocí Aspose.Words pro .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
 {{< tutorial-card link="./insert-sample-column-chart/" title="Vložte ukázkový sloupcový graf do dokumentu Word pomocí Aspose.Words pro .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
 

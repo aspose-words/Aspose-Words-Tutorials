@@ -31,6 +31,10 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 
 {{< tutorial-card link="./insert-custom-chart/" title="Masukkan Diagram Kolom Kustom ke Dokumen Word Menggunakan Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./hide-plot-border/" title="Sembunyikan Batas Area Plot pada Diagram Kolom dengan Aspose.Words for .NET" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Hapus Seri Diagram dari Word Document Menggunakan Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
 {{< tutorial-card link="./insert-sample-column-chart/" title="Sisipkan Diagram Kolom Contoh dalam Dokumen Word Menggunakan Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
 

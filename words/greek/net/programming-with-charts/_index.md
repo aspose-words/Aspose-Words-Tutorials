@@ -29,6 +29,10 @@
 
 {{< tutorial-card link="./insert-custom-chart/" title="Εισαγωγή προσαρμοσμένου γραφήματος στήλης σε έγγραφο Word χρησιμοποιώντας το Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./hide-plot-border/" title="Απόκρυψη περιγράμματος περιοχής σχεδίασης σε γράφημα στήλης με Aspose.Words for .NET" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Αφαίρεση σειράς γραφήματος (Chart Series) από έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
 {{< tutorial-card link="./insert-sample-column-chart/" title="Εισαγωγή δείγματος ραβδογράμματος σε έγγραφο Word χρησιμοποιώντας το Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
 

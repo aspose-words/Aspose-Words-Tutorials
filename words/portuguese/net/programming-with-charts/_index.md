@@ -29,6 +29,10 @@ Com estes tutoriais, você poderá aprimorar seus documentos do Word adicionando
 
 {{< tutorial-card link="./insert-custom-chart/" title="Inserir Gráfico de Colunas Personalizado em Documento Word Usando Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./hide-plot-border/" title="Ocultar a borda da área de plotagem em um gráfico de colunas com Aspose.Words para .NET" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Remover uma Série de Gráfico de um Documento Word usando Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
 {{< tutorial-card link="./insert-sample-column-chart/" title="Inserir Gráfico de Colunas de Exemplo em Documento Word Usando Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
 

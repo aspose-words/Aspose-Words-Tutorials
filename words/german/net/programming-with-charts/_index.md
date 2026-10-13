@@ -29,6 +29,10 @@ Mit diesen Tutorials können Sie Ihre Word-Dokumente mit ansprechenden und infor
 
 {{< tutorial-card link="./insert-custom-chart/" title="Benutzerdefiniertes Säulendiagramm in Word‑Dokument einfügen mit Aspose.Words für .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./hide-plot-border/" title="Plot‑Bereichsrand in einem Säulendiagramm mit Aspose.Words für .NET ausblenden" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Entfernen einer Diagrammserie aus einem Word Document mit Aspose.Words für .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
 {{< tutorial-card link="./insert-sample-column-chart/" title="Beispiel‑Säulendiagramm in ein Word‑Dokument einfügen mit Aspose.Words für .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
 
