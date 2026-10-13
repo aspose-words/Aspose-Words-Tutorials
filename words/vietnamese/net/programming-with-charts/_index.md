@@ -35,6 +35,15 @@ Với các hướng dẫn này, bạn sẽ có thể cải thiện tài liệu W
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Chèn biểu đồ cột mẫu vào tài liệu Word bằng Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Tùy chỉnh các đường lưới trục X trong biểu đồ cột bằng Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Định dạng trục Y phụ thành Tiền tệ trong biểu đồ Word bằng Aspose.Words for .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Cập nhật tiêu đề biểu đồ và bật/tắt hiển thị legend trong Word bằng Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
+
+
+
+
 
 
 

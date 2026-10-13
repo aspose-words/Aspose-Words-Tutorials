@@ -1,0 +1,57 @@
+//ExStart
+//ExSummary: This tutorial demonstrates how to create a Word document, insert a line chart, add a secondary Y‑axis, format that axis as currency with two decimal places, and populate it with a secondary data series using Aspose.Words for .NET.
+//ExStepSummary:0: Create a new empty Word document and a DocumentBuilder to edit it.
+//ExStepSummary:1: Insert a line chart of size 450×250 points into the document and obtain its Chart object.
+//ExStepSummary:2: Remove the default placeholder series that Aspose adds to a new chart.
+//ExStepSummary:3: Define quarter labels and add a primary data series with sample values to the chart.
+//ExStepSummary:4: Create a secondary series group of type Line and assign it to the secondary axis group.
+//ExStepSummary:5: Hide the secondary X‑axis so only the secondary Y‑axis is visible.
+//ExStepSummary:6: Show the secondary Y‑axis title and set its text to "Sales (USD)".
+//ExStepSummary:7: Set the secondary Y‑axis number format to a currency pattern with two decimal places and unlink it from the source formatting.
+//ExStepSummary:8: Add an auxiliary series to the secondary group, providing data that will be plotted against the secondary Y‑axis.
+//ExStepSummary:9: Save the finished document to a file named ProfitChart.docx in the current directory.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStepImage:7:images/7.png
+//ExStepImage:8:images/8.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape lineChartShape = docBuilder.InsertChart(ChartType.Line, 450, 250);
+Chart lineChart = lineChartShape.Chart;
+
+//ExStep:2-
+lineChart.Series.Clear();
+
+//ExStep:3-
+string[] quarters = new[] { "Q1", "Q2", "Q3", "Q4" };
+lineChart.Series.Add("Main Series", quarters, new double[] { 1200, 1500, 1800, 2100 });
+
+//ExStep:4-
+ChartSeriesGroup secondarySeriesGroup = lineChart.SeriesGroups.Add(ChartSeriesType.Line);
+secondarySeriesGroup.AxisGroup = AxisGroup.Secondary;
+
+//ExStep:5-
+secondarySeriesGroup.AxisX.Hidden = true;
+
+//ExStep:6-
+secondarySeriesGroup.AxisY.Title.Show = true;
+secondarySeriesGroup.AxisY.Title.Text = "Sales (USD)";
+
+//ExStep:7-
+secondarySeriesGroup.AxisY.NumberFormat.FormatCode = "\"$\"#,##0.00";
+secondarySeriesGroup.AxisY.NumberFormat.IsLinkedToSource = false;
+
+//ExStep:8-
+secondarySeriesGroup.Series.Add("Auxiliary Series", quarters, new double[] { 3000, 3500, 4000, 4500 });
+
+//ExStep:9-
+string resultPath = Path.Combine(Directory.GetCurrentDirectory(), "ProfitChart.docx");
+wordDoc.Save(resultPath);
+//ExEnd

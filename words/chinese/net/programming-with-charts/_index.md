@@ -36,6 +36,15 @@ Aspose.Words for .NET 图形编程教程提供了全面的资源，帮助您学�
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="使用 Aspose.Words for .NET 在 Word 文档中插入示例柱形图" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="使用 Aspose.Words for .NET 定制柱形图中的 X 轴网格线" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="使用 Aspose.Words for .NET 在 Word 图表中将次要 Y 轴格式化为货币" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="使用 Aspose.Words for .NET 在 Word 中更新图表标题并切换图例可见性" imgSrc="./update-chart-title/images/thumb.png" >}}
+
+
+
+
 
 
 

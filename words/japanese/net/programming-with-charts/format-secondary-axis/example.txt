@@ -1,0 +1,57 @@
+//ExStart
+//ExSummary: このチュートリアルでは、Word ドキュメントを作成し、折れ線グラフを挿入し、二次 Y 軸を追加し、その軸を小数点以下2桁の通貨形式に設定し、Aspose.Words for .NET を使用して二次データ系列で埋め込む方法を示します。
+//ExStepSummary:0: 空の新しい Word ドキュメントと、編集用の DocumentBuilder を作成します。
+//ExStepSummary:1: サイズ 450×250 ポイントの折れ線グラフをドキュメントに挿入し、その Chart オブジェクトを取得します。
+//ExStepSummary:2: Aspose が新しいチャートに追加するデフォルトのプレースホルダー系列を削除します。
+//ExStepSummary:3: 四半期ラベルを定義し、サンプル値を持つ一次データ系列をチャートに追加します。
+//ExStepSummary:4: Line タイプの二次系列グループを作成し、二次軸グループに割り当てます。
+//ExStepSummary:5: 二次 X 軸を非表示にし、二次 Y 軸だけが表示されるようにします。
+//ExStepSummary:6: 二次 Y 軸のタイトルを表示し、そのテキストを \"Sales (USD)\" に設定します。
+//ExStepSummary:7: 二次 Y 軸の数値形式を小数点以下2桁の通貨パターンに設定し、ソースの書式設定からリンクを解除します。
+//ExStepSummary:8: 二次グループに補助系列を追加し、二次 Y 軸に対してプロットされるデータを提供します。
+//ExStepSummary:9: 完成したドキュメントを、現在のディレクトリにある ProfitChart.docx という名前のファイルに保存します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStepImage:7:images/7.png
+//ExStepImage:8:images/8.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape lineChartShape = docBuilder.InsertChart(ChartType.Line, 450, 250);
+Chart lineChart = lineChartShape.Chart;
+
+//ExStep:2-
+lineChart.Series.Clear();
+
+//ExStep:3-
+string[] quarters = new[] { "Q1", "Q2", "Q3", "Q4" };
+lineChart.Series.Add("Main Series", quarters, new double[] { 1200, 1500, 1800, 2100 });
+
+//ExStep:4-
+ChartSeriesGroup secondarySeriesGroup = lineChart.SeriesGroups.Add(ChartSeriesType.Line);
+secondarySeriesGroup.AxisGroup = AxisGroup.Secondary;
+
+//ExStep:5-
+secondarySeriesGroup.AxisX.Hidden = true;
+
+//ExStep:6-
+secondarySeriesGroup.AxisY.Title.Show = true;
+secondarySeriesGroup.AxisY.Title.Text = "Sales (USD)";
+
+//ExStep:7-
+secondarySeriesGroup.AxisY.NumberFormat.FormatCode = "\"$\"#,##0.00";
+secondarySeriesGroup.AxisY.NumberFormat.IsLinkedToSource = false;
+
+//ExStep:8-
+secondarySeriesGroup.Series.Add("Auxiliary Series", quarters, new double[] { 3000, 3500, 4000, 4500 });
+
+//ExStep:9-
+string resultPath = Path.Combine(Directory.GetCurrentDirectory(), "ProfitChart.docx");
+wordDoc.Save(resultPath);
+//ExEnd

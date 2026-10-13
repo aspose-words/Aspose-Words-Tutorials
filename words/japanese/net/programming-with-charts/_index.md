@@ -36,6 +36,15 @@ Aspose.Words for .NET グラフィックスプログラミングチュートリ�
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Aspose.Words for .NET を使用して Word ドキュメントにサンプル縦棒グラフを挿入する" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Aspose.Words for .NET を使用した列グラフの X 軸グリッドラインのカスタマイズ" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Aspose.Words for .NET を使用して Word のチャートで二次 Y 軸を通貨形式に設定する" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Aspose.Words for .NET を使用して Word でチャートタイトルを更新し、凡例の表示を切り替える" imgSrc="./update-chart-title/images/thumb.png" >}}
+
+
+
+
 
 
 

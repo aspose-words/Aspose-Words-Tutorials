@@ -1,0 +1,57 @@
+//ExStart
+//ExSummary: यह ट्यूटोरियल दिखाता है कि Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ कैसे बनाया जाए, लाइन चार्ट कैसे डाला जाए, द्वितीयक Y‑अक्ष कैसे जोड़ा जाए, उस अक्ष को दो दशमलव स्थानों के साथ मुद्रा के रूप में स्वरूपित किया जाए, और द्वितीयक डेटा श्रृंखला के साथ इसे कैसे भरें।
+//ExStepSummary:0: एक नया खाली Word दस्तावेज़ बनाएं और उसे संपादित करने के लिए DocumentBuilder बनाएं।
+//ExStepSummary:1: दस्तावेज़ में 450×250 पॉइंट आकार का लाइन चार्ट डालें और उसका Chart ऑब्जेक्ट प्राप्त करें।
+//ExStepSummary:2: Aspose द्वारा नए चार्ट में जोड़ी गई डिफ़ॉल्ट प्लेसहोल्डर सीरीज़ को हटाएँ।
+//ExStepSummary:3: क्वार्टर लेबल निर्धारित करें और चार्ट में नमूना मानों के साथ एक प्राइमरी डेटा सीरीज़ जोड़ें।
+//ExStepSummary:4: Line प्रकार का एक द्वितीयक सीरीज़ ग्रुप बनाएं और उसे द्वितीयक अक्ष समूह को असाइन करें।
+//ExStepSummary:5: द्वितीयक X‑अक्ष को छिपाएँ ताकि केवल द्वितीयक Y‑अक्ष दिखाई दे।
+//ExStepSummary:6: द्वितीयक Y‑अक्ष का शीर्षक दिखाएँ और उसका टेक्स्ट "Sales (USD)" सेट करें।
+//ExStepSummary:7: द्वितीयक Y‑अक्ष का नंबर फ़ॉर्मेट दो दशमलव स्थानों के साथ मुद्रा पैटर्न पर सेट करें और इसे स्रोत फ़ॉर्मेटिंग से अलग करें।
+//ExStepSummary:8: द्वितीयक समूह में एक सहायक सीरीज़ जोड़ें, जो ऐसा डेटा प्रदान करे जिसे द्वितीयक Y‑अक्ष के विरुद्ध प्लॉट किया जाएगा।
+//ExStepSummary:9: पूरा हुआ दस्तावेज़ वर्तमान डायरेक्टरी में ProfitChart.docx नाम की फ़ाइल में सहेजें।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStepImage:7:images/7.png
+//ExStepImage:8:images/8.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape lineChartShape = docBuilder.InsertChart(ChartType.Line, 450, 250);
+Chart lineChart = lineChartShape.Chart;
+
+//ExStep:2-
+lineChart.Series.Clear();
+
+//ExStep:3-
+string[] quarters = new[] { "Q1", "Q2", "Q3", "Q4" };
+lineChart.Series.Add("Main Series", quarters, new double[] { 1200, 1500, 1800, 2100 });
+
+//ExStep:4-
+ChartSeriesGroup secondarySeriesGroup = lineChart.SeriesGroups.Add(ChartSeriesType.Line);
+secondarySeriesGroup.AxisGroup = AxisGroup.Secondary;
+
+//ExStep:5-
+secondarySeriesGroup.AxisX.Hidden = true;
+
+//ExStep:6-
+secondarySeriesGroup.AxisY.Title.Show = true;
+secondarySeriesGroup.AxisY.Title.Text = "Sales (USD)";
+
+//ExStep:7-
+secondarySeriesGroup.AxisY.NumberFormat.FormatCode = "\"$\"#,##0.00";
+secondarySeriesGroup.AxisY.NumberFormat.IsLinkedToSource = false;
+
+//ExStep:8-
+secondarySeriesGroup.Series.Add("Auxiliary Series", quarters, new double[] { 3000, 3500, 4000, 4500 });
+
+//ExStep:9-
+string resultPath = Path.Combine(Directory.GetCurrentDirectory(), "ProfitChart.docx");
+wordDoc.Save(resultPath);
+//ExEnd

@@ -1,0 +1,57 @@
+//ExStart
+//ExSummary: Αυτό το tutorial δείχνει πώς να δημιουργήσετε ένα έγγραφο Word, να εισάγετε ένα γράφημα γραμμής, να προσθέσετε έναν δευτερεύοντα άξονα Y, να μορφοποιήσετε αυτόν τον άξονα ως νόμισμα με δύο δεκαδικά ψηφία και να τον γεμίσετε με μια δευτερεύουσα σειρά δεδομένων χρησιμοποιώντας το Aspose.Words for .NET.
+//ExStepSummary:0: Δημιουργήστε ένα νέο κενό έγγραφο Word και ένα DocumentBuilder για να το επεξεργαστείτε.
+//ExStepSummary:1: Εισάγετε ένα γράφημα γραμμής μεγέθους 450×250 σημεία στο έγγραφο και αποκτήστε το αντικείμενο Chart.
+//ExStepSummary:2: Αφαιρέστε τη προεπιλεγμένη σειρά placeholder που προσθέτει το Aspose σε ένα νέο γράφημα.
+//ExStepSummary:3: Ορίστε ετικέτες τετάρτου και προσθέστε μια κύρια σειρά δεδομένων με δείγμα τιμών στο γράφημα.
+//ExStepSummary:4: Δημιουργήστε μια δευτερεύουσα ομάδα σειρών τύπου Line και αναθέστε την στη δευτερεύουσα ομάδα άξονα.
+//ExStepSummary:5: Αποκρύψτε τον δευτερεύοντα άξονα X ώστε να είναι ορατός μόνο ο δευτερεύων άξονας Y.
+//ExStepSummary:6: Εμφανίστε τον τίτλο του δευτερεύοντα άξονα Y και ορίστε το κείμενό του σε \"Sales (USD)\".
+//ExStepSummary:7: Ορίστε τη μορφή αριθμού του δευτερεύοντα άξονα Y σε πρότυπο νομίσματος με δύο δεκαδικά ψηφία και αποσυνδέστε το από τη μορφοποίηση πηγής.
+//ExStepSummary:8: Προσθέστε μια βοηθητική σειρά στη δευτερεύουσα ομάδα, παρέχοντας δεδομένα που θα σχεδιαστούν σε σχέση με τον δευτερεύοντα άξονα Y.
+//ExStepSummary:9: Αποθηκεύστε το ολοκληρωμένο έγγραφο σε ένα αρχείο με όνομα ProfitChart.docx στον τρέχοντα φάκελο.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStepImage:7:images/7.png
+//ExStepImage:8:images/8.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape lineChartShape = docBuilder.InsertChart(ChartType.Line, 450, 250);
+Chart lineChart = lineChartShape.Chart;
+
+//ExStep:2-
+lineChart.Series.Clear();
+
+//ExStep:3-
+string[] quarters = new[] { "Q1", "Q2", "Q3", "Q4" };
+lineChart.Series.Add("Main Series", quarters, new double[] { 1200, 1500, 1800, 2100 });
+
+//ExStep:4-
+ChartSeriesGroup secondarySeriesGroup = lineChart.SeriesGroups.Add(ChartSeriesType.Line);
+secondarySeriesGroup.AxisGroup = AxisGroup.Secondary;
+
+//ExStep:5-
+secondarySeriesGroup.AxisX.Hidden = true;
+
+//ExStep:6-
+secondarySeriesGroup.AxisY.Title.Show = true;
+secondarySeriesGroup.AxisY.Title.Text = "Sales (USD)";
+
+//ExStep:7-
+secondarySeriesGroup.AxisY.NumberFormat.FormatCode = "\"$\"#,##0.00";
+secondarySeriesGroup.AxisY.NumberFormat.IsLinkedToSource = false;
+
+//ExStep:8-
+secondarySeriesGroup.Series.Add("Auxiliary Series", quarters, new double[] { 3000, 3500, 4000, 4500 });
+
+//ExStep:9-
+string resultPath = Path.Combine(Directory.GetCurrentDirectory(), "ProfitChart.docx");
+wordDoc.Save(resultPath);
+//ExEnd

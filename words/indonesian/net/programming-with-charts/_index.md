@@ -37,6 +37,15 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Sisipkan Diagram Kolom Contoh dalam Dokumen Word Menggunakan Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Sesuaikan Garis Kisi Sumbu X pada Diagram Kolom Menggunakan Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Format Sumbu Y Sekunder sebagai Mata Uang dalam Diagram Word Menggunakan Aspose.Words for .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Perbarui Judul Diagram dan Alihkan Visibilitas Legenda di Word Menggunakan Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
+
+
+
+
 
 
 
