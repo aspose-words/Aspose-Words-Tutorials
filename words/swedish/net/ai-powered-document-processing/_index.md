@@ -51,6 +51,7 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Hur du sammanfattar Word-dokument – Komplett C#-guide](./how-to-summarize-word-documents-complete-c-guide/) | Lär dig steg-för-steg hur du använder Aspose.Words för .NET och C# för att automatiskt sammanfatta Word-dokument. |
 | [Hur man kontrollerar grammatik i Word-dokument – Komplett C#-guide](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Lär dig att använda Aspose.Words för .NET för att automatiskt kontrollera och rätta grammatik i Word-dokument med C#. |
 | [Hur man kontrollerar grammatik med en lokal LLM i C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Lär dig att använda en lokal LLM i C# för att kontrollera grammatik i Word-dokument med Aspose.Words. |
+| [Översätt stycke till franska och ändra diagrametikett i Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Lär dig att översätta ett stycke till franska och uppdatera diagrametiketter i Word med Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

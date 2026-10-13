@@ -51,6 +51,7 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
 | [Word dokumentum összefoglalása helyi LLM-mel – C# útmutató](./summarize-word-document-with-local-llm-c-guide/) | Tanulja meg, hogyan használhat helyi nagy nyelvi modellt a Word dokumentumok összefoglalásához C#-ban az Aspose.Words segítségével. |
 | [Hogyan ellenőrizze a nyelvtant Word dokumentumokban – Teljes C# útmutató](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Ismerje meg, hogyan használhatja az Aspose.Words for .NET-et a Word dokumentumok nyelvtani ellenőrzésére C#-ban, lépésről lépésre. |
 | [Hogyan ellenőrizze a nyelvtant egy helyi LLM-mel C#-ban](./how-to-check-grammar-with-a-local-llm-in-c/) | Tanulja meg, hogyan használhat helyi nagy nyelvi modellt a nyelvtani ellenőrzéshez C#-ban az Aspose.Words for .NET segítségével. |
+| [Bekezdés francia nyelvre fordítása és diagramcímke módosítása Wordben](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Tanulja meg, hogyan fordíthat bekezdéseket franciára és módosíthatja a diagramcímkéket Word dokumentumban Aspose.Words segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

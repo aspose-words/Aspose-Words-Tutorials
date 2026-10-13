@@ -51,6 +51,7 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Podsumowanie dokumentu Word przy użyciu lokalnego LLM – przewodnik C#](./summarize-word-document-with-local-llm-c-guide/) | Dowiedz się, jak używać lokalnego modelu LLM w C# do podsumowywania dokumentów Word przy użyciu Aspose.Words. |
 | [Jak sprawdzić gramatykę w dokumentach Word – Kompletny przewodnik C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Szybko sprawdź i popraw gramatykę w dokumentach Word przy użyciu Aspose.Words for .NET i C#. |
 | [Jak sprawdzić gramatykę przy użyciu lokalnego LLM w C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Dowiedz się, jak używać lokalnego modelu językowego w C# do sprawdzania gramatyki dokumentów Word przy pomocy Aspose.Words. |
+| [Przetłumacz akapit na francuski i zmień etykietę wykresu w Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Jak przetłumaczyć akapit na francuski i zmienić etykietę wykresu w dokumencie Word przy użyciu Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

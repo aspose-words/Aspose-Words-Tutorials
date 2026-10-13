@@ -49,6 +49,7 @@
 | [ローカルLLMでWord文書を要約 – C# ガイド](./summarize-word-document-with-local-llm-c-guide/) Aspose.Words for .NET とローカル LLM を組み合わせ、C# で Word 文書を要約する手順を解説します。 |
 | [Word 文書の文法チェック方法 – 完全 C# ガイド](./how-to-check-grammar-in-word-documents-complete-c-guide/) Aspose.Words for .NET と C# を使用して、Word 文書の文法を自動的にチェックし、修正提案を行う方法を学びます。 |
 | [C# でローカル LLM を使って文法チェックする方法](./how-to-check-grammar-with-a-local-llm-in-c/) Aspose.Words for .NET とローカル LLM を組み合わせ、C# で文書の文法チェックを自動化する手順を解説します。 |
+| [段落をフランス語に翻訳し、Word のチャートラベルを変更する](./translate-paragraph-to-french-and-change-chart-label-in-word/) Aspose.Words for .NET を使用して、段落をフランス語に翻訳し、Word 文書内のチャートラベルを変更する方法を学びます。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

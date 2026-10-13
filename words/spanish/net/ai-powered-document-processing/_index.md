@@ -52,6 +52,7 @@ Por último, no olvides visitar nuestra [Trabajar con opciones de resumen](./wor
 | [Resumir documento Word con LLM local – Guía C#](./summarize-word-document-with-local-llm-c-guide/) | Aprenda a resumir documentos Word usando un modelo LLM local con C# y Aspose.Words. |
 | [Cómo comprobar la gramática en documentos Word – Guía completa en C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Aprenda a verificar la gramática en documentos Word usando Aspose.Words para .NET con una guía paso a paso en C#. |
 | [Cómo comprobar la gramática con un LLM local en C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Aprenda a usar un modelo de lenguaje local en C# para corregir la gramática de documentos con Aspose.Words. |
+| [Traducir párrafo al francés y cambiar la etiqueta del gráfico en Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Aprenda a traducir párrafos al francés y modificar etiquetas de gráficos en documentos Word usando Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -51,6 +51,7 @@
 | [Σύνοψη εγγράφου Word με τοπικό LLM – Οδηγός C#](./summarize-word-document-with-local-llm-c-guide/) | Μάθετε πώς να συνοψίζετε έγγραφα Word με τοπικό LLM σε C# χρησιμοποιώντας το Aspose.Words. |
 | [Πώς να Ελέγξετε τη Γραμματική σε Έγγραφα Word – Πλήρης Οδηγός C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Μάθετε πώς να ελέγχετε τη γραμματική σε έγγραφα Word χρησιμοποιώντας Aspose.Words για .NET με οδηγίες C#. |
 | [Πώς να ελέγξετε τη γραμματική με τοπικό LLM σε C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Μάθετε πώς να χρησιμοποιήσετε τοπικό μοντέλο LLM για έλεγχο γραμματικής σε κώδικα C# με Aspose.Words. |
+| [Μετάφραση παραγράφου στα γαλλικά και αλλαγή ετικέτας γραφήματος στο Word](./translate-paragraph-to-french-and-change-chart-label-in-word/) | Μάθετε πώς να μεταφράσετε μια παράγραφο στα γαλλικά και να αλλάξετε την ετικέτα ενός γραφήματος σε έγγραφο Word χρησιμοποιώντας Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
