@@ -35,6 +35,12 @@ Con questi tutorial, potrai migliorare i tuoi documenti Word aggiungendo grafica
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Inserisci un grafico a colonne di esempio in un documento Word utilizzando Aspose.Words per .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-named-series/" title="Aggiungi una Serie di Dati Nominata a un Grafico a Istogramma in Word usando Aspose.Words per .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Convalida le serie e i punti dati del grafico in un documento Word utilizzando Aspose.Words per .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+
+
 
 
 

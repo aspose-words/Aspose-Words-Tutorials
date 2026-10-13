@@ -35,6 +35,12 @@ Aspose.Words for .NET 그래픽 프로그래밍 자습서는 Word 문서에서 �
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Aspose.Words for .NET을 사용하여 Word 문서에 샘플 열 차트를 삽입합니다." imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-named-series/" title="Aspose.Words for .NET을 사용하여 Word의 히스토그램 차트에 명명된 데이터 시리즈를 추가합니다." imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Aspose.Words for .NET을 사용하여 Word 문서에서 차트 시리즈 및 데이터 포인트를 검증합니다." imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+
+
 
 
 

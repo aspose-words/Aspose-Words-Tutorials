@@ -1,0 +1,58 @@
+//ExStart
+//ExSummary: Ten tutorial pokazuje, jak utworzyć dokument Word z wykresem słupkowym, wypełnić go określonymi seriami danych, zweryfikować, że wykres zawiera oczekiwaną liczbę serii i punktów danych, a następnie zapisać dokument.
+//ExStepSummary:0: Zdefiniuj wymaganą liczbę serii i punktów danych, które wykres musi zawierać.
+//ExStepSummary:1: Utwórz nowy dokument Word oraz obiekt DocumentBuilder, aby dodać do niego zawartość.
+//ExStepSummary:2: Wstaw wykres słupkowy o wymiarach 400×300 do dokumentu i uzyskaj jego obiekt Chart.
+//ExStepSummary:3: Usuń domyślną serię danych, którą Aspose.Words dodaje automatycznie.
+//ExStepSummary:4: Zdefiniuj etykiety osi X i dodaj dwie serie danych (Alpha i Beta) po trzy punkty każda do wykresu.
+//ExStepSummary:5: Sprawdź, czy wykres zawiera dokładnie wymaganą liczbę serii i zgłoś wyjątek, jeśli tak nie jest.
+//ExStepSummary:6: Iteruj po każdej serii i zweryfikuj, czy ma oczekiwaną liczbę punktów danych, zgłaszając wyjątek w przypadku niezgodności.
+//ExStepSummary:7: Zapisz zweryfikowany dokument do pliku .docx.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Desired numbers for checks.
+const int requiredSeriesCount = 2;
+const int requiredPointsPerSeries = 3;
+
+//ExStep:1-
+// Initialise a fresh document and its builder.
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:2-
+// Place a column‑type chart into the document.
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 400, 300);
+Chart chartObj = chartContainer.Chart;
+
+//ExStep:3-
+// Discard the sample data automatically added by Aspose.Words.
+chartObj.Series.Clear();
+
+//ExStep:4-
+// Set up X‑axis labels and add two data series with matching values.
+string[] xLabels = { "Group A", "Group B", "Group C" };
+chartObj.Series.Add("Data Set Alpha", xLabels, new double[] { 10, 20, 30 });
+chartObj.Series.Add("Data Set Beta", xLabels, new double[] { 15, 25, 35 });
+
+//ExStep:5-
+// ----- Validation -----
+// Confirm the chart holds the expected number of series.
+if (chartObj.Series.Count != requiredSeriesCount)
+    throw new InvalidOperationException(
+        $"Chart should contain {requiredSeriesCount} series, but actually has {chartObj.Series.Count}.");
+
+//ExStep:6-
+// Confirm each series has the required amount of data points.
+foreach (ChartSeries seriesItem in chartObj.Series)
+{
+    if (seriesItem.DataPoints.Count != requiredPointsPerSeries)
+        throw new InvalidOperationException(
+            $"Series '{seriesItem.Name}' should have {requiredPointsPerSeries} points, but contains {seriesItem.DataPoints.Count}.");
+}
+
+//ExStep:7-
+// Persist the verified document.
+myDocument.Save("checked-graph.docx");
+//ExEnd

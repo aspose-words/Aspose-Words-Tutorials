@@ -24,6 +24,12 @@ With these tutorials, you will be able to enhance your Word documents by adding 
 
  ## Tutorials
 
+{{< tutorial-card link="./validate-chart-data/" title="Validate Chart Series and Data Points in a Word Document Using Aspose.Words for .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+
+{{< tutorial-card link="./add-named-series/" title="Add a Named Data Series to a Histogram Chart in Word Using Aspose.Words for .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+
 {{< tutorial-card link="./modify-chart-series/" title="Update Chart Series Data in a Word Document Using Aspose.Words for .NET" imgSrc="./modify-chart-series/images/thumb.png" >}}
 
 

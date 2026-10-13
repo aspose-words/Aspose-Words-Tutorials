@@ -35,6 +35,12 @@
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Εισαγωγή δείγματος ραβδογράμματος σε έγγραφο Word χρησιμοποιώντας το Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-named-series/" title="Προσθήκη ονομαστικής σειράς δεδομένων σε διάγραμμα ιστογράμματος στο Word χρησιμοποιώντας το Aspose.Words for .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Επικύρωση σειρών γραφήματος και σημείων δεδομένων σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+
+
 
 
 

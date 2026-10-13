@@ -35,6 +35,12 @@ Met deze tutorials kunt u uw Word-documenten verbeteren door visueel aantrekkeli
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Voeg een voorbeeld kolomgrafiek toe aan een Word‑document met Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-named-series/" title="Voeg een benoemde gegevensreeks toe aan een histogram‑grafiek in Word met Aspose.Words for .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Grafiekreeksen en gegevenspunten valideren in een Word Document met Aspose.Words voor .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+
+
 
 
 

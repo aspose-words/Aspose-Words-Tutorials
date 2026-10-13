@@ -35,6 +35,12 @@ Dzięki tym samouczkom będziesz w stanie ulepszyć swoje dokumenty Word, dodaj�
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Wstaw przykładowy wykres słupkowy do dokumentu Word przy użyciu Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-named-series/" title="Dodaj nazwaną serię danych do wykresu histogramu w Wordzie przy użyciu Aspose.Words for .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Walidacja serii wykresu i punktów danych w dokumencie Word przy użyciu Aspose.Words dla .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+
+
 
 
 

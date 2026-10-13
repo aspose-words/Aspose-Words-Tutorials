@@ -35,6 +35,9 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Minta oszlopdiagram beszúrása Word dokumentumba az Aspose.Words for .NET használatával" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-named-series/" title="Címkézett adat sorozat hozzáadása egy hisztogram diagramhoz Word-ben az Aspose.Words for .NET használatával" imgSrc="./add-named-series/images/thumb.png" >}}
+
+
 
 
 

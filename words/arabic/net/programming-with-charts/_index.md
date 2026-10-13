@@ -35,6 +35,12 @@
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="إدراج مخطط عمودي نموذجي في مستند Word باستخدام Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-named-series/" title="إضافة سلسلة بيانات مسماة إلى مخطط هيستوجرام في Word باستخدام Aspose.Words for .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="تحقق من سلاسل المخطط ونقاط البيانات في مستند Word باستخدام Aspose.Words for .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+
+
 
 
 

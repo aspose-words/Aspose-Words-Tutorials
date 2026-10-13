@@ -37,6 +37,12 @@
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="แทรกแผนภูมิคอลัมน์ตัวอย่างในเอกสาร Word ด้วย Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-named-series/" title="เพิ่มชุดข้อมูลที่มีชื่อให้กับแผนภูมิฮิสโตแกรมใน Word ด้วย Aspose.Words for .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="ตรวจสอบชุดข้อมูลและจุดข้อมูลของแผนภูมิในเอกสาร Word ด้วย Aspose.Words for .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+
+
 
 
 

@@ -36,6 +36,12 @@ Aspose.Words for .NET 图形编程教程提供了全面的资源，帮助您学�
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="使用 Aspose.Words for .NET 在 Word 文档中插入示例柱形图" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-named-series/" title="使用 Aspose.Words for .NET 在 Word 中的直方图图表添加命名数据系列" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="使用 Aspose.Words for .NET 验证 Word 文档中的图表系列和数据点" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+
+
 
 
 

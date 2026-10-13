@@ -35,6 +35,12 @@ Mit diesen Tutorials können Sie Ihre Word-Dokumente mit ansprechenden und infor
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Beispiel‑Säulendiagramm in ein Word‑Dokument einfügen mit Aspose.Words für .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-named-series/" title="Eine benannte Datenreihe zu einem Histogramm‑Diagramm in Word hinzufügen mit Aspose.Words für .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Diagramm‑Reihen und Datenpunkte in einem Word‑Dokument mit Aspose.Words für .NET validieren" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+
+
 
 
 

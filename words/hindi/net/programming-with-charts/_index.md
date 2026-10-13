@@ -35,6 +35,12 @@ Aspose.Words for .NET Graphics Programming ट्यूटोरियल आप
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में सैंपल कॉलम चार्ट डालें।" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-named-series/" title="Aspose.Words for .NET का उपयोग करके Word में एक हिस्टोग्राम चार्ट में नेम्ड डेटा सीरीज़ जोड़ें।" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में चार्ट सीरीज़ और डेटा पॉइंट्स को वैलिडेट करें।" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+
+
 
 
 

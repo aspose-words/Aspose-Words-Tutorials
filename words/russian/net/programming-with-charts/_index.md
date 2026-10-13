@@ -35,6 +35,12 @@
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Вставьте пример диаграммы столбцов в документ Word с помощью Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-named-series/" title="Добавьте именованную серию данных в гистограмму в Word с помощью Aspose.Words for .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Проверка серий диаграммы и точек данных в документе Word с использованием Aspose.Words для .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+
+
 
 
 

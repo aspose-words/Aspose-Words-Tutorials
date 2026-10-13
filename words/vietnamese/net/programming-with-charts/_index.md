@@ -35,6 +35,12 @@ Với các hướng dẫn này, bạn sẽ có thể cải thiện tài liệu W
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Chèn biểu đồ cột mẫu vào tài liệu Word bằng Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-named-series/" title="Thêm một Chuỗi Dữ liệu Có Nhãn vào Biểu đồ Histogram trong Word bằng Aspose.Words for .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Xác thực Chuỗi Biểu đồ và Điểm Dữ liệu trong Tài liệu Word bằng Aspose.Words cho .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+
+
 
 
 
