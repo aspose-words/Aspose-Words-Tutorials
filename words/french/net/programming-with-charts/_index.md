@@ -35,6 +35,12 @@ Grâce à ces tutoriels, vous pourrez enrichir vos documents Word en y ajoutant 
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Insérer un graphique à colonnes d'exemple dans un document Word avec Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./modify-chart-series/" title="Mettre à jour les données des séries de graphique dans un document Word avec Aspose.Words for .NET" imgSrc="./modify-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Formater l’axe X secondaire et définir les unités d’affichage en milliers dans les graphiques en courbes Word avec Aspose.Words pour .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+
+
 
 
 

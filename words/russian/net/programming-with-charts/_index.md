@@ -35,6 +35,12 @@
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Вставьте пример диаграммы столбцов в документ Word с помощью Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./modify-chart-series/" title="Обновление данных серии диаграммы в документе Word с использованием Aspose.Words for .NET" imgSrc="./modify-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Форматирование вторичной оси X и установка единиц отображения в тысячи в линейных диаграммах Word с использованием Aspose.Words for .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+
+
 
 
 

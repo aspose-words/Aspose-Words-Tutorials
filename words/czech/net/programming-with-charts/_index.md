@@ -35,6 +35,12 @@ těmito tutoriály budete moci vylepšit své dokumenty Word přidáním vizuál
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Vložte ukázkový sloupcový graf do dokumentu Word pomocí Aspose.Words pro .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./modify-chart-series/" title="Aktualizace dat řad grafu v dokumentu Word pomocí Aspose.Words pro .NET" imgSrc="./modify-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Formátování sekundární osy X a nastavení zobrazovacích jednotek na tisíce v čárových grafech Word pomocí Aspose.Words pro .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+
+
 
 
 

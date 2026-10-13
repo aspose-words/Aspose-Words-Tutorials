@@ -24,6 +24,7 @@ With these tutorials, you will be able to enhance your Word documents by adding 
 
  ## Tutorials
 
+{{< tutorial-card link="./format-secondary-axis/" title="Format Secondary X‑Axis and Set Display Units to Thousands in Word Line Charts Using Aspose.Words for .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
 {{< tutorial-card link="./modify-chart-series/" title="Update Chart Series Data in a Word Document Using Aspose.Words for .NET" imgSrc="./modify-chart-series/images/thumb.png" >}}
 
 
