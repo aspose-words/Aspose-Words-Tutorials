@@ -30,6 +30,9 @@ Aspose.Words for .NET 图形编程教程提供了全面的资源，帮助您学�
 
 {{< tutorial-card link="./insert-custom-chart/" title="使用 Aspose.Words for .NET 在 Word 文档中插入自定义柱形图" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./insert-sample-column-chart/" title="使用 Aspose.Words for .NET 在 Word 文档中插入示例柱形图" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+
 
 
 | --- | --- |

@@ -30,6 +30,9 @@ Aspose.Words for .NET グラフィックスプログラミングチュートリ�
 
 {{< tutorial-card link="./insert-custom-chart/" title="Aspose.Words for .NET を使用して Word ドキュメントにカスタム column chart を挿入する" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./insert-sample-column-chart/" title="Aspose.Words for .NET を使用して Word ドキュメントにサンプル縦棒グラフを挿入する" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+
 
 
 | --- | --- |

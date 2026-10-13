@@ -24,6 +24,9 @@ With these tutorials, you will be able to enhance your Word documents by adding 
 
  ## Tutorials
 
+{{< tutorial-card link="./insert-sample-column-chart/" title="Insert Sample Column Chart in Word Document Using Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+
 {{< tutorial-card link="./insert-custom-chart/" title="Insert Custom Column Chart in Word Document Using Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
 

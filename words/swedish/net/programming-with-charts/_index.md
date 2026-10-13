@@ -29,6 +29,9 @@ Med dessa handledningar kommer du att kunna förbättra dina Word-dokument genom
 
 {{< tutorial-card link="./insert-custom-chart/" title="Infoga anpassat stapeldiagram i Word‑dokument med Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./insert-sample-column-chart/" title="Infoga exempel på kolumndiagram i Word-dokument med Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+
 
 
 | Titel | Beskrivning |

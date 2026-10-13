@@ -29,6 +29,9 @@ Aspose.Words for .NET 그래픽 프로그래밍 자습서는 Word 문서에서 �
 
 {{< tutorial-card link="./insert-custom-chart/" title="Aspose.Words for .NET을 사용하여 Word 문서에 사용자 정의 열 차트 삽입" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./insert-sample-column-chart/" title="Aspose.Words for .NET을 사용하여 Word 문서에 샘플 열 차트를 삽입합니다." imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+
 
 
 | 제목 | 설명 |

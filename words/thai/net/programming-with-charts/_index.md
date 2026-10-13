@@ -31,6 +31,9 @@
 
 {{< tutorial-card link="./insert-custom-chart/" title="แทรก Custom Column Chart ใน Word Document ด้วย Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./insert-sample-column-chart/" title="แทรกแผนภูมิคอลัมน์ตัวอย่างในเอกสาร Word ด้วย Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+
 
 
 - [รูปแบบจำนวนป้ายข้อมูลในแผนภูมิ](./format-number-of-data-label/) | เรียนรู้วิธีจัดรูปแบบป้ายชื่อข้อมูลในแผนภูมิโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ ปรับปรุงเอกสาร Word ของคุณได้อย่างง่ายดาย -

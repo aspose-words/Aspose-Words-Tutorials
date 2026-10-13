@@ -29,6 +29,9 @@ Met deze tutorials kunt u uw Word-documenten verbeteren door visueel aantrekkeli
 
 {{< tutorial-card link="./insert-custom-chart/" title="Aangepaste kolomgrafiek invoegen in Word‑document met Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./insert-sample-column-chart/" title="Voeg een voorbeeld kolomgrafiek toe aan een Word‑document met Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+
 
 
 | Titel | Beschrijving |

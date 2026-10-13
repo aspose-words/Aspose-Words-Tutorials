@@ -29,6 +29,9 @@ Grâce à ces tutoriels, vous pourrez enrichir vos documents Word en y ajoutant 
 
 {{< tutorial-card link="./insert-custom-chart/" title="Insérer un graphique en colonnes personnalisé dans un document Word avec Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./insert-sample-column-chart/" title="Insérer un graphique à colonnes d'exemple dans un document Word avec Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+
 
 
 | Titre | Description |
