@@ -35,6 +35,7 @@
 
 {{< tutorial-card link="./remove-chart-series/" title="ลบ Chart Series จาก Word Document ด้วย Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
 
+{{< tutorial-card link="./insert-sample-column-chart/" title="แทรกแผนภูมิคอลัมน์ตัวอย่างในเอกสาร Word ด้วย Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
 
 

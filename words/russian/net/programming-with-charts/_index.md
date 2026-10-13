@@ -33,6 +33,7 @@
 
 {{< tutorial-card link="./remove-chart-series/" title="Удаление серии диаграммы из Word Document с помощью Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
 
+{{< tutorial-card link="./insert-sample-column-chart/" title="Вставьте пример диаграммы столбцов в документ Word с помощью Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
 
 

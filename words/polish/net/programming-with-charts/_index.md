@@ -33,6 +33,7 @@ Dzięki tym samouczkom będziesz w stanie ulepszyć swoje dokumenty Word, dodaj�
 
 {{< tutorial-card link="./remove-chart-series/" title="Usuwanie serii wykresu z dokumentu Word przy użyciu Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
 
+{{< tutorial-card link="./insert-sample-column-chart/" title="Wstaw przykładowy wykres słupkowy do dokumentu Word przy użyciu Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
 
 

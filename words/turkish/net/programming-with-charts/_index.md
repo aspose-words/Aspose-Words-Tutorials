@@ -33,6 +33,7 @@ Bu eğitimlerle, Word belgelerinizi görsel olarak çekici ve bilgilendirici gra
 
 {{< tutorial-card link="./remove-chart-series/" title="Aspose.Words for .NET kullanarak bir Word Document'ten Chart Series kaldırma" imgSrc="./remove-chart-series/images/thumb.png" >}}
 
+{{< tutorial-card link="./insert-sample-column-chart/" title="Aspose.Words for .NET kullanarak Word belgesine Örnek Sütun Grafiği ekleyin" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
 
 

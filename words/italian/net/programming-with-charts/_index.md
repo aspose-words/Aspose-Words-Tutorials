@@ -33,6 +33,7 @@ Con questi tutorial, potrai migliorare i tuoi documenti Word aggiungendo grafica
 
 {{< tutorial-card link="./remove-chart-series/" title="Rimuovi una Chart Series da un Word Document utilizzando Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
 
+{{< tutorial-card link="./insert-sample-column-chart/" title="Inserisci un grafico a colonne di esempio in un documento Word utilizzando Aspose.Words per .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
 
 

@@ -34,6 +34,7 @@ Aspose.Words for .NET グラフィックスプログラミングチュートリ�
 
 {{< tutorial-card link="./remove-chart-series/" title="Aspose.Words for .NET を使用して Word ドキュメントからチャート系列を削除する" imgSrc="./remove-chart-series/images/thumb.png" >}}
 
+{{< tutorial-card link="./insert-sample-column-chart/" title="Aspose.Words for .NET を使用して Word ドキュメントにサンプル縦棒グラフを挿入する" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
 
 

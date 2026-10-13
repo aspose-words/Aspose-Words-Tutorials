@@ -35,6 +35,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 
 {{< tutorial-card link="./remove-chart-series/" title="Hapus Seri Diagram dari Word Document Menggunakan Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
 
+{{< tutorial-card link="./insert-sample-column-chart/" title="Sisipkan Diagram Kolom Contoh dalam Dokumen Word Menggunakan Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
 
 

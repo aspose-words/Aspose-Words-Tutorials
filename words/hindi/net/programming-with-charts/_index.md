@@ -33,6 +33,7 @@ Aspose.Words for .NET Graphics Programming ट्यूटोरियल आप
 
 {{< tutorial-card link="./remove-chart-series/" title="Aspose.Words for .NET का उपयोग करके Word Document से एक Chart Series हटाएँ" imgSrc="./remove-chart-series/images/thumb.png" >}}
 
+{{< tutorial-card link="./insert-sample-column-chart/" title="Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में सैंपल कॉलम चार्ट डालें।" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
 
 

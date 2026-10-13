@@ -33,6 +33,7 @@ Med dessa handledningar kommer du att kunna förbättra dina Word-dokument genom
 
 {{< tutorial-card link="./remove-chart-series/" title="Ta bort en Chart Series från ett Word Document med Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
 
+{{< tutorial-card link="./insert-sample-column-chart/" title="Infoga exempel på kolumndiagram i Word-dokument med Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
 
 

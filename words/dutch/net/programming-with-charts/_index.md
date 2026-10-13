@@ -33,6 +33,7 @@ Met deze tutorials kunt u uw Word-documenten verbeteren door visueel aantrekkeli
 
 {{< tutorial-card link="./remove-chart-series/" title="Verwijder een Chart Series uit een Word Document met Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
 
+{{< tutorial-card link="./insert-sample-column-chart/" title="Voeg een voorbeeld kolomgrafiek toe aan een Word‑document met Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
 
 

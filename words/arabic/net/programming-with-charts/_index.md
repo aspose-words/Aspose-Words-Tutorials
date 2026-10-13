@@ -33,6 +33,7 @@
 
 {{< tutorial-card link="./remove-chart-series/" title="إزالة سلسلة مخطط من مستند Word باستخدام Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
 
+{{< tutorial-card link="./insert-sample-column-chart/" title="إدراج مخطط عمودي نموذجي في مستند Word باستخدام Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
 
 

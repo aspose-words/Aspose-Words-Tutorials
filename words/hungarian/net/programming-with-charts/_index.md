@@ -33,6 +33,7 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 
 {{< tutorial-card link="./remove-chart-series/" title="Chart sorozat eltávolítása Word dokumentumból az Aspose.Words for .NET használatával" imgSrc="./remove-chart-series/images/thumb.png" >}}
 
+{{< tutorial-card link="./insert-sample-column-chart/" title="Minta oszlopdiagram beszúrása Word dokumentumba az Aspose.Words for .NET használatával" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
 
 
