@@ -1,0 +1,7 @@
+Title: Summarize Word Document in Java – Complete Step‑by‑Step Guide
+Slug: summarize-word-document-in-java-complete-step-by-step-guide
+Category: ai-machine-learning-integration
+ProcessedDate: 2026-06-21T07:33:12.780071
+SourceRepo: AI Search API
+Keywords: summarize word document, generate text from document, how to summarize word file, load docx in java
+PRNumber: 208
