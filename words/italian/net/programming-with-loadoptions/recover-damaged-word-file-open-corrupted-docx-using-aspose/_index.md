@@ -214,7 +214,10 @@ class Program
         // -------------------------------------------------
         string cleanPath = @"C:\Docs\Recovered.docx";
         doc.Save(cleanPath, SaveFormat.Docx);
-        Console.WriteLine($"\n💾 Clean copy saved
+        Console.WriteLine($"\n💾 Clean copy saved to: {cleanPath}");
+    }
+}
+```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
