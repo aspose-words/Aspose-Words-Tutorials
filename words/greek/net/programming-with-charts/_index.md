@@ -35,6 +35,12 @@
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Εισαγωγή δείγματος ραβδογράμματος σε έγγραφο Word χρησιμοποιώντας το Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./modify-chart-series/" title="Ενημέρωση δεδομένων σειράς γραφήματος σε έγγραφο Word χρησιμοποιώντας Aspose.Words for .NET" imgSrc="./modify-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Μορφοποίηση Δευτερεύοντος Άξονα X και Ορισμός Μονάδων Εμφάνισης σε Χιλιάδες σε Γραφήματα Γραμμής Word χρησιμοποιώντας το Aspose.Words for .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+
+
 
 
 

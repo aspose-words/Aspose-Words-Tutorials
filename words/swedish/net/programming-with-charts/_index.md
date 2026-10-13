@@ -35,6 +35,12 @@ Med dessa handledningar kommer du att kunna förbättra dina Word-dokument genom
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Infoga exempel på kolumndiagram i Word-dokument med Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./modify-chart-series/" title="Uppdatera diagramseriedata i ett Word‑dokument med Aspose.Words för .NET" imgSrc="./modify-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Formatera sekundär X‑axel och sätt displayenheter till tusental i Word‑linjediagram med Aspose.Words för .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+
+
 
 
 
