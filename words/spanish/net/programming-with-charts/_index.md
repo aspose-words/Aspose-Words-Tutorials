@@ -22,6 +22,15 @@ En estos tutoriales, aprenderá a crear diferentes tipos de gráficos, como grá
 Con estos tutoriales, podrá mejorar sus documentos de Word añadiendo gráficos visualmente atractivos e informativos. Aprenderá a aprovechar las funciones gráficas avanzadas de Aspose.Words para .NET y a integrarlas eficazmente en sus aplicaciones. Explore estos tutoriales para ampliar sus conocimientos de diseño gráfico en Aspose.Words.
 
  ## Tutoriales
+
+{{< tutorial-card link="./uniform-data-labels/" title="Establecer etiquetas de datos uniformes en un gráfico de columnas usando Aspose.Words for .NET" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="Redimensionar el gráfico proporcionalmente al cambiar el tamaño de página en Word usando Aspose.Words for .NET" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="Insertar gráfico de columnas personalizado en documento Word usando Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+
+
 | Título | Descripción |
 | --- | --- |
 | [Formato del número de etiqueta de datos en un gráfico](./format-number-of-data-label/) Aprenda a dar formato a las etiquetas de datos en gráficos con Aspose.Words para .NET con esta guía paso a paso. Mejore sus documentos de Word sin esfuerzo.

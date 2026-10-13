@@ -22,6 +22,15 @@ Nestes tutoriais, você aprenderá a criar diferentes tipos de gráficos, como g
 Com estes tutoriais, você poderá aprimorar seus documentos do Word adicionando elementos gráficos visualmente atraentes e informativos. Você aprenderá a aproveitar os recursos gráficos avançados do Aspose.Words para .NET e integrá-los de forma eficaz aos seus aplicativos. Explore estes tutoriais para aprimorar suas habilidades gráficas no Aspose.Words.
 
  ## Tutoriais
+
+{{< tutorial-card link="./uniform-data-labels/" title="Definir rótulos de dados uniformes em um gráfico de colunas usando Aspose.Words for .NET" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="Redimensionar Gráfico Proporcionalmente ao Alterar o Tamanho da Página no Word Usando Aspose.Words for .NET" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="Inserir Gráfico de Colunas Personalizado em Documento Word Usando Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+
+
 | Título | Descrição |
 | --- | --- |
 | [Formato Número de Rótulo de Dados em um Gráfico](./format-number-of-data-label/) | Aprenda a formatar rótulos de dados em gráficos usando o Aspose.Words para .NET com este guia passo a passo. Aprimore seus documentos do Word sem esforço. |

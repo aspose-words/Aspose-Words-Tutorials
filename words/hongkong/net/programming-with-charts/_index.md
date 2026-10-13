@@ -22,6 +22,15 @@ Aspose.Words for .NET 圖形程式教學提供了全面的資源，用於學習�
 透過這些教程，您將能夠透過添加視覺上吸引人且資訊豐富的圖形來增強您的 Word 文件。您將學習如何利用 Aspose.Words for .NET 中的高級圖形功能並將其有效地整合到您的應用程式中。探索這些教學以擴展您在 Aspose.Words 中的圖形技能。
 
  ## 教學
+
+{{< tutorial-card link="./uniform-data-labels/" title="使用 Aspose.Words for .NET 在柱形圖中設定統一的資料標籤" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="使用 Aspose.Words for .NET 在 Word 中變更頁面尺寸時比例調整圖表大小" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="使用 Aspose.Words for .NET 在 Word 文件中插入自訂直條圖" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+
+
 |標題 |描述 |
 | --- | --- |
 | [圖表中資料標籤的格式數量](./format-number-of-data-label/) |透過本逐步指南了解如何使用 Aspose.Words for .NET 格式化圖表中的資料標籤。輕鬆增強您的 Word 文件。 |

@@ -22,6 +22,15 @@ Bu eğitimlerde, çubuk grafikler, pasta grafikler, alan grafikleri, çizgi graf
 Bu eğitimlerle, Word belgelerinizi görsel olarak çekici ve bilgilendirici grafikler ekleyerek geliştirebileceksiniz. Aspose.Words for .NET'teki gelişmiş grafik özelliklerinden nasıl yararlanacağınızı ve bunları uygulamalarınıza etkili bir şekilde nasıl entegre edeceğinizi öğreneceksiniz. Aspose.Words'teki grafik becerilerinizi geliştirmek için bu eğitimleri keşfedin.
 
  ## Eğitimler
+
+{{< tutorial-card link="./uniform-data-labels/" title="Aspose.Words for .NET kullanarak bir sütun grafikte Tekdüze Veri Etiketleri ayarlayın" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="Aspose.Words for .NET kullanarak Word'de Sayfa Boyutunu Değiştirirken Grafiği Orantılı Olarak Yeniden Boyutlandırma" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="Aspose.Words for .NET kullanarak Word belgesine Custom Column Chart ekleyin." imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+
+
 | Başlık | Açıklama |
 | --- | --- |
 | [Bir Grafikteki Veri Etiketinin Sayısını Biçimlendir](./format-number-of-data-label/) | Bu adım adım kılavuzla Aspose.Words for .NET kullanarak grafiklerdeki veri etiketlerini nasıl biçimlendireceğinizi öğrenin. Word belgelerinizi zahmetsizce geliştirin. |

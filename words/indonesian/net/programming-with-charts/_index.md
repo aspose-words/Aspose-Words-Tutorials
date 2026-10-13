@@ -24,6 +24,15 @@ Dengan tutorial ini, Anda akan dapat menyempurnakan dokumen Word Anda dengan men
  ## Tutorial
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | --- Bahasa Indonesia:
+
+{{< tutorial-card link="./uniform-data-labels/" title="Atur Label Data Seragam dalam Diagram Kolom Menggunakan Aspose.Words untuk .NET" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="Ubah Ukuran Chart Secara Proporsional Saat Mengubah Ukuran Halaman di Word Menggunakan Aspose.Words for .NET" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="Masukkan Diagram Kolom Kustom ke Dokumen Word Menggunakan Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+
+
 | [Format Nomor Label Data Dalam Bagan](./format-number-of-data-label/) | Pelajari cara memformat label data dalam bagan menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurnakan dokumen Word Anda dengan mudah. Bahasa Indonesia:
 | [Membuat & Menyesuaikan Bagan Menggunakan Bentuk](./create-chart-using-shape/) | Pelajari cara membuat dan menyesuaikan bagan dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk visualisasi data. Bahasa Indonesia:
 | [Masukkan Bagan Kolom Sederhana Dalam Dokumen Word](./insert-simple-column-chart/) Pelajari cara menyisipkan bagan kolom sederhana di Word menggunakan Aspose.Words untuk .NET. Sempurnakan dokumen Anda dengan presentasi data visual yang dinamis. Bahasa Indonesia:

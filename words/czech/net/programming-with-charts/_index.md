@@ -22,6 +22,15 @@ V těchto tutoriálech se naučíte, jak vytvářet různé typy grafů, jako js
 těmito tutoriály budete moci vylepšit své dokumenty Word přidáním vizuálně atraktivní a informativní grafiky. Naučíte se, jak využít pokročilé grafické funkce v Aspose.Words pro .NET a efektivně je integrovat do svých aplikací. Prozkoumejte tyto tutoriály a rozšířte si své grafické dovednosti v Aspose.Words.
 
  ## Návody
+
+{{< tutorial-card link="./uniform-data-labels/" title="Nastavte jednotné popisky dat ve sloupcovém grafu pomocí Aspose.Words pro .NET" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="Proporcionální změna velikosti grafu při změně velikosti stránky ve Wordu pomocí Aspose.Words pro .NET" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="Vložení vlastního sloupcového grafu do dokumentu Word pomocí Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+
+
 | Název | Popis |
 | --- | --- |
 | [Formátování čísla popisku dat v grafu](./format-number-of-data-label/) | Naučte se, jak formátovat popisky dat v grafech pomocí Aspose.Words pro .NET s tímto podrobným návodem. Vylepšete své dokumenty Word bez námahy. |

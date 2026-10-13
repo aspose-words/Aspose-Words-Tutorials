@@ -22,6 +22,15 @@ In deze tutorials leert u hoe u verschillende soorten diagrammen maakt, zoals st
 Met deze tutorials kunt u uw Word-documenten verbeteren door visueel aantrekkelijke en informatieve afbeeldingen toe te voegen. U leert hoe u de geavanceerde grafische functies in Aspose.Words voor .NET kunt benutten en deze effectief in uw applicaties kunt integreren. Bekijk deze tutorials om uw grafische vaardigheden in Aspose.Words te vergroten.
 
  ## Zelfstudies
+
+{{< tutorial-card link="./uniform-data-labels/" title="Uniforme data‑labels instellen in een kolomgrafiek met Aspose.Words for .NET" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="Grafiek proportioneel schalen bij het wijzigen van de paginagrootte in Word met Aspose.Words for .NET" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="Aangepaste kolomgrafiek invoegen in Word‑document met Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+
+
 | Titel | Beschrijving |
 | --- | --- |
 | [Formaat van het aantal gegevenslabels in een grafiek](./format-number-of-data-label/) | Leer hoe u gegevenslabels in grafieken opmaakt met Aspose.Words voor .NET met deze stapsgewijze handleiding. Verbeter uw Word-documenten moeiteloos. |
