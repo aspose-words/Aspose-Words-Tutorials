@@ -29,6 +29,9 @@ Bu eğitimlerle, Word belgelerinizi görsel olarak çekici ve bilgilendirici gra
 
 {{< tutorial-card link="./insert-custom-chart/" title="Aspose.Words for .NET kullanarak Word belgesine Custom Column Chart ekleyin." imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./insert-sample-column-chart/" title="Aspose.Words for .NET kullanarak Word belgesine Örnek Sütun Grafiği ekleyin" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+
 
 
 | Başlık | Açıklama |

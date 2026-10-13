@@ -29,6 +29,9 @@ Aspose.Words for .NET 圖形程式教學提供了全面的資源，用於學習�
 
 {{< tutorial-card link="./insert-custom-chart/" title="使用 Aspose.Words for .NET 在 Word 文件中插入自訂直條圖" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./insert-sample-column-chart/" title="使用 Aspose.Words for .NET 在 Word 文件中插入範例直條圖" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+
 
 
 |標題 |描述 |

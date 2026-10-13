@@ -29,6 +29,9 @@
 
 {{< tutorial-card link="./insert-custom-chart/" title="إدراج مخطط عمودي مخصص في مستند Word باستخدام Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./insert-sample-column-chart/" title="إدراج مخطط عمودي نموذجي في مستند Word باستخدام Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+
 
 
 | العنوان | الوصف |

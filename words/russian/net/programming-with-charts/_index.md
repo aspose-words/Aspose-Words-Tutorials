@@ -29,6 +29,9 @@
 
 {{< tutorial-card link="./insert-custom-chart/" title="Вставка пользовательской столбчатой диаграммы в документ Word с помощью Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./insert-sample-column-chart/" title="Вставьте пример диаграммы столбцов в документ Word с помощью Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+
 
 
 | Название | Описание |

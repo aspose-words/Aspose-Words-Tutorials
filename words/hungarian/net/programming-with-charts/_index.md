@@ -29,6 +29,9 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 
 {{< tutorial-card link="./insert-custom-chart/" title="Egyéni oszlopdiagram beszúrása Word dokumentumba az Aspose.Words for .NET használatával" imgSrc="./insert-custom-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./insert-sample-column-chart/" title="Minta oszlopdiagram beszúrása Word dokumentumba az Aspose.Words for .NET használatával" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+
 
 
 | Cím | Leírás |
