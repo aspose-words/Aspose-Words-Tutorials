@@ -22,6 +22,15 @@ Aspose.Words for .NET 그래픽 프로그래밍 자습서는 Word 문서에서 �
 이 튜토리얼을 통해 시각적으로 매력적이고 유익한 그래픽을 추가하여 Word 문서를 더욱 풍성하게 만들 수 있습니다. Aspose.Words for .NET의 고급 그래픽 기능을 활용하고 애플리케이션에 효과적으로 통합하는 방법을 배우게 됩니다. 이 튜토리얼을 통해 Aspose.Words에서 그래픽 활용 능력을 향상시켜 보세요.
 
  ## 튜토리얼
+
+{{< tutorial-card link="./uniform-data-labels/" title="Aspose.Words for .NET을 사용하여 열 차트에 균일한 데이터 레이블 설정" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="Aspose.Words for .NET을 사용하여 Word에서 페이지 크기를 변경할 때 차트를 비례적으로 크기 조정하기" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="Aspose.Words for .NET을 사용하여 Word 문서에 사용자 정의 열 차트 삽입" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+
+
 | 제목 | 설명 |
 | --- | --- |
 | [차트에서 데이터 레이블의 형식 번호](./format-number-of-data-label/) | Aspose.Words for .NET을 사용하여 차트의 데이터 레이블 서식을 지정하는 방법을 단계별 가이드를 통해 알아보세요. Word 문서를 손쉽게 개선해 보세요. |

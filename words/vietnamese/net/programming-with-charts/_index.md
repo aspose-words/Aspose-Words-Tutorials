@@ -22,6 +22,15 @@ Trong các hướng dẫn này, bạn sẽ học cách tạo các loại biểu 
 Với các hướng dẫn này, bạn sẽ có thể cải thiện tài liệu Word của mình bằng cách thêm đồ họa hấp dẫn và nhiều thông tin. Bạn sẽ học cách tận dụng các tính năng đồ họa nâng cao trong Aspose.Words cho .NET và tích hợp chúng hiệu quả vào các ứng dụng của bạn. Khám phá các hướng dẫn này để mở rộng kỹ năng đồ họa của bạn trong Aspose.Words.
 
  ## Hướng dẫn
+
+{{< tutorial-card link="./uniform-data-labels/" title="Đặt Nhãn Dữ liệu Đồng nhất trong Biểu đồ Cột bằng Aspose.Words for .NET" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="Thay đổi kích thước biểu đồ một cách tỷ lệ khi thay đổi kích thước trang trong Word bằng Aspose.Words for .NET" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="Chèn Biểu Đồ Cột Tùy Chỉnh vào Tài Liệu Word bằng Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+
+
 | Tiêu đề | Mô tả |
 | --- | --- |
 | [Định dạng số nhãn dữ liệu trong biểu đồ](./format-number-of-data-label/) | Tìm hiểu cách định dạng nhãn dữ liệu trong biểu đồ bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Cải thiện tài liệu Word của bạn một cách dễ dàng. |

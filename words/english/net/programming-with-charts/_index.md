@@ -23,6 +23,15 @@ In these tutorials, you will learn how to create different types of charts such 
 With these tutorials, you will be able to enhance your Word documents by adding visually appealing and informative graphics. You will learn how to take advantage of the advanced graphics features in Aspose.Words for .NET and integrate them effectively into your applications. Explore these tutorials to expand your graphics skills in Aspose.Words.
 
  ## Tutorials
+
+{{< tutorial-card link="./insert-custom-chart/" title="Insert Custom Column Chart in Word Document Using Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+
+{{< tutorial-card link="./resize-chart/" title="Resize Chart Proportionally When Changing Page Size in Word Using Aspose.Words for .NET" imgSrc="./resize-chart/images/thumb.png" >}}
+
+
+{{< tutorial-card link="./uniform-data-labels/" title="Set Uniform Data Labels in a Column Chart Using Aspose.Words for .NET" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
 | Title | Description |
 | --- | --- |
 | [Format Number Of Data Label In A Chart](./format-number-of-data-label/) | Learn how to format data labels in charts using Aspose.Words for .NET with this step-by-step guide. Enhance your Word documents effortlessly. |

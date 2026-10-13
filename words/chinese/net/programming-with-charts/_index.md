@@ -23,6 +23,15 @@ Aspose.Words for .NET 图形编程教程提供了全面的资源，帮助您学�
 
  ## 教程
 标题 | 描述 |
+
+{{< tutorial-card link="./uniform-data-labels/" title="使用 Aspose.Words for .NET 在柱形图中设置统一的数据标签" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="使用 Aspose.Words for .NET 在 Word 中更改页面尺寸时按比例调整图表大小" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="使用 Aspose.Words for .NET 在 Word 文档中插入自定义柱形图" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+
+
 | --- | --- |
 | [图表中数据标签的格式数量](./format-number-of-data-label/) 学习如何使用 Aspose.Words for .NET 格式化图表中的数据标签，并遵循本分步指南。轻松增强您的 Word 文档。|
 | [使用形状创建和自定义图表](./create-chart-using-shape/) 学习如何使用 Aspose.Words for .NET 在 Word 文档中创建和自定义图表，本指南循序渐进，助您轻松实现数据可视化。|

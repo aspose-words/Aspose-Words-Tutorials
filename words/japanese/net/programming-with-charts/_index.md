@@ -23,6 +23,15 @@ Aspose.Words for .NET グラフィックスプログラミングチュートリ�
 
  ## チュートリアル
 タイトル | 説明 |
+
+{{< tutorial-card link="./uniform-data-labels/" title="Aspose.Words for .NET を使用して列チャートのデータ ラベルを均一に設定する" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="Aspose.Words for .NET を使用して Word のページサイズを変更する際に、チャートを比例的にリサイズする" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="Aspose.Words for .NET を使用して Word ドキュメントにカスタム column chart を挿入する" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+
+
 | --- | --- |
 | [グラフのデータラベルの数値の書式設定](./format-number-of-data-label/) Aspose.Words for .NET を使用してグラフのデータラベルを書式設定する方法をステップバイステップで解説します。Word文書を簡単に魅力的に仕上げることができます。 |
 | [図形を使用してグラフを作成およびカスタマイズする](./create-chart-using-shape/) Aspose.Words for .NET を使用してWord文書にグラフを作成およびカスタマイズする方法を、ステップバイステップで解説するガイドです。データの視覚化に最適です。 |

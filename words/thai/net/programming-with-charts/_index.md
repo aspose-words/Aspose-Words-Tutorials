@@ -24,6 +24,15 @@
  ## บทช่วยสอน
 | ชื่อเรื่อง | คำอธิบาย |
 -
+
+{{< tutorial-card link="./uniform-data-labels/" title="ตั้งค่าป้ายกำกับข้อมูลแบบสม่ำเสมอในแผนภูมิคอลัมน์โดยใช้ Aspose.Words for .NET" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="ปรับขนาดแผนภูมิให้สัดส่วนเท่าเดิมเมื่อเปลี่ยนขนาดหน้าใน Word ด้วย Aspose.Words for .NET" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="แทรก Custom Column Chart ใน Word Document ด้วย Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+
+
 - [รูปแบบจำนวนป้ายข้อมูลในแผนภูมิ](./format-number-of-data-label/) | เรียนรู้วิธีจัดรูปแบบป้ายชื่อข้อมูลในแผนภูมิโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ ปรับปรุงเอกสาร Word ของคุณได้อย่างง่ายดาย -
 | [สร้างและปรับแต่งแผนภูมิโดยใช้รูปร่าง](./create-chart-using-shape/) | เรียนรู้วิธีสร้างและปรับแต่งแผนภูมิในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับการแสดงภาพข้อมูล -
 | [แทรกแผนภูมิคอลัมน์แบบง่ายในเอกสาร Word](./insert-simple-column-chart/) เรียนรู้วิธีแทรกแผนภูมิคอลัมน์แบบง่ายใน Word โดยใช้ Aspose.Words สำหรับ .NET ปรับปรุงเอกสารของคุณด้วยการนำเสนอข้อมูลภาพแบบไดนามิก -

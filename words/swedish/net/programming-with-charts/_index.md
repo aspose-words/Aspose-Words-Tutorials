@@ -22,6 +22,15 @@ I dessa handledningar lär du dig hur du skapar olika typer av diagram, såsom s
 Med dessa handledningar kommer du att kunna förbättra dina Word-dokument genom att lägga till visuellt tilltalande och informativ grafik. Du lär dig hur du kan dra nytta av de avancerade grafikfunktionerna i Aspose.Words för .NET och integrera dem effektivt i dina applikationer. Utforska dessa handledningar för att utöka dina grafikkunskaper i Aspose.Words.
 
  ## Handledningar
+
+{{< tutorial-card link="./uniform-data-labels/" title="Ställ in enhetliga data‑labels i ett stapeldiagram med Aspose.Words för .NET" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="Ändra diagrammets storlek proportionellt när du ändrar sidstorlek i Word med Aspose.Words för .NET" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="Infoga anpassat stapeldiagram i Word‑dokument med Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+
+
 | Titel | Beskrivning |
 | --- | --- |
 | [Formatera antalet dataetiketter i ett diagram](./format-number-of-data-label/) | Lär dig hur du formaterar dataetiketter i diagram med Aspose.Words för .NET med den här steg-för-steg-guiden. Förbättra dina Word-dokument utan ansträngning. |

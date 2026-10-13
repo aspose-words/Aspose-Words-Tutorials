@@ -22,6 +22,15 @@ In diesen Tutorials lernen Sie, wie Sie verschiedene Diagrammtypen wie Balken-, 
 Mit diesen Tutorials können Sie Ihre Word-Dokumente mit ansprechenden und informativen Grafiken aufwerten. Sie lernen, wie Sie die erweiterten Grafikfunktionen von Aspose.Words für .NET nutzen und effektiv in Ihre Anwendungen integrieren. Entdecken Sie diese Tutorials, um Ihre Grafikkenntnisse in Aspose.Words zu erweitern.
 
  ## Anleitungen
+
+{{< tutorial-card link="./uniform-data-labels/" title="Einheitliche Datenbeschriftungen in einem Säulendiagramm mit Aspose.Words für .NET festlegen" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="Diagramm proportional skalieren beim Ändern der Seitengröße in Word mit Aspose.Words für .NET" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="Benutzerdefiniertes Säulendiagramm in Word‑Dokument einfügen mit Aspose.Words für .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+
+
 | Titel | Beschreibung |
 | --- | --- |
 | [Formatieren der Anzahl der Datenbeschriftungen in einem Diagramm](./format-number-of-data-label/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Datenbeschriftungen in Diagrammen mit Aspose.Words für .NET formatieren. Optimieren Sie Ihre Word-Dokumente mühelos. |

@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Questo tutorial dimostra come creare un documento Word, inserire un grafico a colonne, aggiungere serie di dati personalizzate e definire la dimensione e il colore predefiniti del carattere delle etichette dei dati, applicati in modo uniforme a tutte le serie del grafico.
+//ExStepSummary:0: Crea un nuovo documento Word vuoto e un DocumentBuilder per modificarlo.
+//ExStepSummary:1: Inserisci un grafico a colonne 500×300 nel documento e ottieni il suo oggetto Chart.
+//ExStepSummary:2: Rimuovi la serie di esempio predefinita che Aspose.Words aggiunge a un nuovo grafico.
+//ExStepSummary:3: Definisci le etichette di categoria e aggiungi due serie di dati (Item Alpha e Item Beta) con i relativi valori al grafico.
+//ExStepSummary:4: Imposta la dimensione e il colore di base del carattere che verranno applicati a tutte le etichette dei dati.
+//ExStepSummary:5: Abilita le etichette dei dati per ogni serie, mostra il valore numerico e applica la dimensione e il colore del carattere predefiniti.
+//ExStepSummary:6: Salva il documento in un file .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document document = new Document();
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:1-
+Shape chartContainer = builder.InsertChart(ChartType.Column, 500, 300);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+
+//ExStep:3-
+string[] periods = { "Period 1", "Period 2", "Period 3", "Period 4" };
+chart.Series.Add("Item Alpha", periods, new double[] { 120, 150, 170, 130 });
+chart.Series.Add("Item Beta", periods, new double[] { 80, 110, 140, 100 });
+
+//ExStep:4-
+const float labelFontSize = 10f;
+Color labelFontColor = Color.White;
+
+//ExStep:5-
+foreach (ChartSeries series in chart.Series)
+{
+    series.HasDataLabels = true;
+    series.DataLabels.ShowValue = true;
+    series.DataLabels.Font.Size = labelFontSize;
+    series.DataLabels.Font.Color = labelFontColor;
+}
+
+//ExStep:6-
+document.Save("UniformLabelChart.docx");
+//ExEnd

@@ -22,6 +22,15 @@ Ezekben az oktatóanyagokban megtanulod, hogyan hozhatsz létre különböző t�
 Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gazdagíthatod Word-dokumentumaidat. Megtanulod, hogyan használd ki az Aspose.Words for .NET fejlett grafikai funkcióit, és hogyan integráld azokat hatékonyan az alkalmazásaidba. Tekintsd át ezeket az oktatóanyagokat, hogy bővítsd grafikai ismereteidet az Aspose.Words-ben.
 
  ## Oktatóanyagok
+
+{{< tutorial-card link="./uniform-data-labels/" title="Egységes adatcímkék beállítása oszlopdiagramon az Aspose.Words for .NET használatával" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="Diagram arányos átméretezése Wordben oldalméret változtatásakor az Aspose.Words for .NET használatával" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="Egyéni oszlopdiagram beszúrása Word dokumentumba az Aspose.Words for .NET használatával" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+
+
 | Cím | Leírás |
 | --- | --- |
 | [Az adatcímke számának formázása egy diagramban](./format-number-of-data-label/) | Tanulja meg, hogyan formázhatja az adatcímkéket diagramokban az Aspose.Words for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Könnyedén javíthatja Word-dokumentumait. |
