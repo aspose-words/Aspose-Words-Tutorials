@@ -35,12 +35,13 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Minta oszlopdiagram beszúrása Word dokumentumba az Aspose.Words for .NET használatával" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-named-series/" title="Címkézett adat sorozat hozzáadása egy hisztogram diagramhoz Word-ben az Aspose.Words for .NET használatával" imgSrc="./add-named-series/images/thumb.png" >}}
+
 {{< tutorial-card link="./customize-x-axis-gridlines/" title="X tengely rácsvonalak testreszabása oszlopdiagramon az Aspose.Words for .NET használatával" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
 
 {{< tutorial-card link="./format-secondary-axis/" title="Másodlagos X‑tengely formázása és a megjelenítési egységek ezrekre állítása Word vonaldiagramokban az Aspose.Words for .NET használatával" imgSrc="./format-secondary-axis/images/thumb.png" >}}
 
 {{< tutorial-card link="./update-chart-title/" title="Diagramcím frissítése és a jelmagyarázat láthatóságának váltása Word-ben az Aspose.Words for .NET használatával" imgSrc="./update-chart-title/images/thumb.png" >}}
-
 
 
 

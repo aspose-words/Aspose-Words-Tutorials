@@ -35,6 +35,10 @@ Bu eğitimlerle, Word belgelerinizi görsel olarak çekici ve bilgilendirici gra
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Aspose.Words for .NET kullanarak Word belgesine Örnek Sütun Grafiği ekleyin" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-named-series/" title="Aspose.Words for .NET kullanarak Word'de bir Histogram Grafiğine Adlandırılmış Veri Serisi Ekleyin" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Aspose.Words for .NET kullanarak bir Word belgesindeki Grafik Serilerini ve Veri Noktalarını Doğrulama" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
 {{< tutorial-card link="./customize-x-axis-gridlines/" title="Aspose.Words for .NET kullanarak bir sütun grafiğinde X Ekseni Izgara Çizgilerini Özelleştirin" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
 
 {{< tutorial-card link="./format-secondary-axis/" title="Aspose.Words for .NET kullanarak Word line chart'larında Secondary X‑Axis'i biçimlendirin ve Display Units'i bin olarak ayarlayın." imgSrc="./format-secondary-axis/images/thumb.png" >}}

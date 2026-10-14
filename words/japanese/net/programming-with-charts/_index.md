@@ -36,6 +36,10 @@ Aspose.Words for .NET グラフィックスプログラミングチュートリ�
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Aspose.Words for .NET を使用して Word ドキュメントにサンプル縦棒グラフを挿入する" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-named-series/" title="Aspose.Words for .NET を使用して Word のヒストグラム チャートに名前付きデータ系列を追加する" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Aspose.Words for .NET を使用して Word 文書内のチャート系列とデータポイントを検証する" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
 {{< tutorial-card link="./customize-x-axis-gridlines/" title="Aspose.Words for .NET を使用した列グラフの X 軸グリッドラインのカスタマイズ" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
 
 {{< tutorial-card link="./format-secondary-axis/" title="Aspose.Words for .NET を使用して Word の折れ線グラフでセカンダリ X 軸をフォーマットし、表示単位を千単位に設定する" imgSrc="./format-secondary-axis/images/thumb.png" >}}

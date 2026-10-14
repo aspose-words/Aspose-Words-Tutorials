@@ -35,6 +35,10 @@
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="إدراج مخطط عمودي نموذجي في مستند Word باستخدام Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-named-series/" title="إضافة سلسلة بيانات مسماة إلى مخطط هيستوجرام في Word باستخدام Aspose.Words for .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="تحقق من سلاسل المخطط ونقاط البيانات في مستند Word باستخدام Aspose.Words for .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
 {{< tutorial-card link="./customize-x-axis-gridlines/" title="تخصيص خطوط شبكة المحور X في مخطط عمودي باستخدام Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
 
 {{< tutorial-card link="./format-secondary-axis/" title="تنسيق محور X الثانوي وتعيين وحدة العرض إلى الآلاف في مخططات Word الخطية باستخدام Aspose.Words for .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
