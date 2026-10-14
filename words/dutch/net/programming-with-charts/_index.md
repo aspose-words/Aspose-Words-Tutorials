@@ -39,6 +39,12 @@ Met deze tutorials kunt u uw Word-documenten verbeteren door visueel aantrekkeli
 
 {{< tutorial-card link="./validate-chart-data/" title="Grafiekreeksen en gegevenspunten valideren in een Word Document met Aspose.Words voor .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
 
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Aanpassen van X‑as‑roosterlijnen in een kolomgrafiek met Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Formatteer de secundaire X‑as en stel weergave‑eenheden in op duizenden in Word‑lijndiagrammen met Aspose.Words voor .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Grafiektitel bijwerken en legenda‑zichtbaarheid schakelen in Word met Aspose.Words voor .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
+
 
 
 

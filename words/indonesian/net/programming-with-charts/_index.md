@@ -41,6 +41,12 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 
 {{< tutorial-card link="./validate-chart-data/" title="Validasi Seri Diagram dan Titik Data dalam Dokumen Word Menggunakan Aspose.Words untuk .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
 
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Sesuaikan Garis Kisi Sumbu X pada Diagram Kolom Menggunakan Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Format Sumbu X Sekunder dan Atur Unit Tampilan ke Ribuan dalam Diagram Garis Word Menggunakan Aspose.Words untuk .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Perbarui Judul Diagram dan Alihkan Visibilitas Legenda di Word Menggunakan Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
+
 
 
 

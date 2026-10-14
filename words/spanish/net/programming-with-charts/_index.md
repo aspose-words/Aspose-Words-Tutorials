@@ -39,6 +39,12 @@ Con estos tutoriales, podrá mejorar sus documentos de Word añadiendo gráficos
 
 {{< tutorial-card link="./validate-chart-data/" title="Validar series de gráficos y puntos de datos en un documento de Word usando Aspose.Words para .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
 
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Personalice las líneas de cuadrícula del eje X en un gráfico de columnas usando Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Formatear el eje X secundario y establecer unidades de visualización en miles en gráficos de líneas de Word usando Aspose.Words para .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Actualizar el título del gráfico y alternar la visibilidad de la leyenda en Word usando Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
+
 
 
 

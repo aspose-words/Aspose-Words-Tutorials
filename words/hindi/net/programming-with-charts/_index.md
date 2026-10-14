@@ -39,6 +39,12 @@ Aspose.Words for .NET Graphics Programming ट्यूटोरियल आप
 
 {{< tutorial-card link="./validate-chart-data/" title="Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में चार्ट सीरीज़ और डेटा पॉइंट्स को वैलिडेट करें।" imgSrc="./validate-chart-data/images/thumb.png" >}}
 
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Aspose.Words for .NET का उपयोग करके कॉलम चार्ट में X अक्ष की ग्रिडलाइन को कस्टमाइज़ करें।" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Aspose.Words for .NET का उपयोग करके Word लाइन चार्ट्स में सेकेंडरी X‑अक्ष को फ़ॉर्मेट करें और डिस्प्ले यूनिट को हजारों पर सेट करें।" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Aspose.Words for .NET का उपयोग करके Word में चार्ट शीर्षक अपडेट करें और लेजेंड की दृश्यता टॉगल करें" imgSrc="./update-chart-title/images/thumb.png" >}}
+
 
 
 

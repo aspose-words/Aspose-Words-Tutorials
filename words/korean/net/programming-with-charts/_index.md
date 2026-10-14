@@ -39,6 +39,12 @@ Aspose.Words for .NET 그래픽 프로그래밍 자습서는 Word 문서에서 �
 
 {{< tutorial-card link="./validate-chart-data/" title="Aspose.Words for .NET을 사용하여 Word 문서에서 차트 시리즈 및 데이터 포인트를 검증합니다." imgSrc="./validate-chart-data/images/thumb.png" >}}
 
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Aspose.Words for .NET을 사용하여 열 차트의 X 축 격자선을 사용자 지정합니다." imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Aspose.Words for .NET을 사용하여 Word 선 차트에서 보조 X축을 서식 지정하고 표시 단위를 천 단위로 설정합니다." imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Aspose.Words for .NET을 사용하여 Word에서 차트 제목을 업데이트하고 범례 표시 여부를 전환하기" imgSrc="./update-chart-title/images/thumb.png" >}}
+
 
 
 

@@ -40,6 +40,12 @@ Aspose.Words for .NET 图形编程教程提供了全面的资源，帮助您学�
 
 {{< tutorial-card link="./validate-chart-data/" title="使用 Aspose.Words for .NET 验证 Word 文档中的图表系列和数据点" imgSrc="./validate-chart-data/images/thumb.png" >}}
 
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="使用 Aspose.Words for .NET 定制柱形图中的 X 轴网格线" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="使用 Aspose.Words for .NET 在 Word 折线图中格式化次要 X 轴并将显示单位设置为千。" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="使用 Aspose.Words for .NET 在 Word 中更新图表标题并切换图例可见性" imgSrc="./update-chart-title/images/thumb.png" >}}
+
 
 
 

@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Using Aspose.Words, this tutorial creates a Word document, inserts a column chart, updates the chart title with user‑provided text, and toggles the legend's visibility and overlay based on user preferences.
+//ExStepSummary:0: Define the user‑supplied chart title and whether the legend should be shown.
+//ExStepSummary:1: Create a fresh Word document and a DocumentBuilder to add content.
+//ExStepSummary:2: Insert a 432 × 252 pt column chart into the document and verify the shape actually contains a chart.
+//ExStepSummary:3: Retrieve the chart object, set its title text to the user value, and ensure the title is displayed.
+//ExStepSummary:4: Configure the legend: show it on the right if requested, otherwise hide it, and allow it to overlay the plot area.
+//ExStepSummary:5: Save the modified document to disk as CustomChart.docx.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+string chartHeader = "Fiscal Q1 Performance Summary";
+bool displayLegend = false;
+
+//ExStep:1-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:2-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+if (!chartContainer.HasChart)
+    throw new InvalidOperationException("The inserted shape does not contain a chart.");
+
+//ExStep:3-
+Chart chartObj = chartContainer.Chart;
+ChartTitle chartTitle = chartObj.Title;
+chartTitle.Text = chartHeader;
+chartTitle.Show = true;
+
+//ExStep:4-
+ChartLegend chartLegend = chartObj.Legend;
+chartLegend.Position = displayLegend ? LegendPosition.Right : LegendPosition.None;
+chartLegend.Overlay = true;
+
+//ExStep:5-
+wordDoc.Save("CustomChart.docx");
+//ExEnd
