@@ -53,6 +53,8 @@ Explora el formato de fuente en Aspose.Words para Java: tamaño, estilo, color y
 Aprenda a usar notas al pie y al final eficazmente en Aspose.Words para Java. ¡Mejore sus habilidades de formato de documentos hoy mismo!
 ### [Uso de campos de formulario en Aspose.Words para Java](./using-form-fields/)
 Aprenda a usar Aspose.Words para Java para crear documentos de Word interactivos con campos de formulario. ¡Empiece ya!
+### [Crear botón de campo de formulario en Word con Aspose.Words para Java](./create-form-field-button-in-word-with-aspose-words-java/)
+Aprenda a crear un botón de campo de formulario en documentos Word usando Aspose.Words para Java. Guía paso a paso.
 ### [Uso de HarfBuzz en Aspose.Words para Java](./using-harfbuzz/)
 Aprenda a usar HarfBuzz para modelado de texto avanzado en Aspose.Words para Java. Mejore la representación de texto en scripts complejos con esta guía paso a paso.
 ### [Uso de encabezados y pies de página en Aspose.Words para Java](./using-headers-and-footers/)

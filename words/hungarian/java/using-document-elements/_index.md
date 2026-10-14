@@ -53,6 +53,8 @@ Fedezd fel a betűtípus formázását az Aspose.Words for Java programban: mér
 Tanuld meg hatékonyan használni a lábjegyzeteket és végjegyzeteket az Aspose.Words for Java programban. Fejleszd dokumentumformázási készségeidet még ma!
 ### [Űrlapmezők használata az Aspose.Words Java-ban](./using-form-fields/)
 „Tanuld meg az Aspose.Words Java-beli használatát interaktív Word-dokumentumok létrehozásához űrlapmezőkkel. Kezdj hozzá most!”
+### [Űrlapmező gomb létrehozása Word-ben az Aspose.Words Java-ban](./create-form-field-button-in-word-with-aspose-words-java/)
+Tanuld meg, hogyan hozhatsz létre űrlapmező gombot a Word dokumentumokban az Aspose.Words Java segítségével.
 ### [HarfBuzz használata az Aspose.Words Java-ban](./using-harfbuzz/)
 Tanuld meg a HarfBuzz használatát haladó szövegformázáshoz az Aspose.Words for Java programban. Javítsd a szövegmegjelenítést összetett szkriptekben ezzel a lépésről lépésre szóló útmutatóval.
 ### [Fejlécek és láblécek használata az Aspose.Words programban Java-ban](./using-headers-and-footers/)

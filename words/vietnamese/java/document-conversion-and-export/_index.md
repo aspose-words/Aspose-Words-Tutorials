@@ -184,7 +184,10 @@ Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang định d�
 Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang PDF bằng Aspose.Words for Java, bao gồm các tùy chọn lưu và tối ưu chất lượng.
 
 ### [Tạo PDF Truy cập được từ Word – Hướng Dẫn Toàn Diện](./create-accessible-pdf-from-word-full-guide/)
-Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập, tuân thủ tiêu chuẩn WCAG, từ tài liệu Word bằng Aspose.Words for Java.
+Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập, tuân thủ tiêu chuẩn WCAG, từ tài liệu Word bằng Aspose.Words cho Java.
+
+### [Lưu markdown dưới dạng Word với Aspose.Words cho Java](./save-markdown-as-word-with-aspose-words-for-java/)
+Hướng dẫn chi tiết cách chuyển đổi tệp Markdown sang tài liệu Word bằng Aspose.Words cho Java.
 
 ## Câu hỏi thường gặp
 

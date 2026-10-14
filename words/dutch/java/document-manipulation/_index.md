@@ -104,6 +104,7 @@ Ontdek de kracht van Aspose.Words voor Java. Beheer documentopties en -instellin
 Optimaliseer documentbeheer met Aspose.Words voor Java. Leer werken met documenteigenschappen, aangepaste metadata toevoegen en meer in deze uitgebreide tutorial.
 ### [Webextensies gebruiken in Aspose.Words voor Java](./using-web-extensions/)
 Verbeter documenten met webextensies in Aspose.Words voor Java. Leer hoe u webgebaseerde content naadloos kunt integreren. 
+### [Leeg Word-document maken met placeholder-tekst met C#](./create-blank-word-document-with-placeholder-text-using-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

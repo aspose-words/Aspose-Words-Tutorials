@@ -104,6 +104,8 @@ Odemkněte sílu Aspose.Words pro Javu. Zvládněte možnosti a nastavení dokum
 Optimalizujte správu dokumentů s Aspose.Words pro Javu. V tomto komplexním tutoriálu se naučte pracovat s vlastnostmi dokumentu, přidávat vlastní metadata a další.
 ### [Používání webových rozšíření v Aspose.Words pro Javu](./using-web-extensions/)
 Vylepšete dokumenty pomocí webových rozšíření v Aspose.Words pro Javu. Naučte se bezproblémově integrovat webový obsah. 
+### [Vytvoření prázdného dokumentu Word s textem zástupce pomocí C#](./create-blank-word-document-with-placeholder-text-using-c/)
+Naučte se, jak vytvořit prázdný dokument Word s textem zástupce pomocí C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

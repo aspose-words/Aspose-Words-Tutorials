@@ -40,6 +40,8 @@
 เรียนรู้วิธีเพิ่มเงาให้กับรูปร่างใน C# ด้วย Aspose.Words เพื่อสร้างเอกสารที่ดูเป็นมืออาชีพ
 ### [วิธีตั้งเงาบนรูปร่างใน Aspose.Words – คู่มือฉบับสมบูรณ์](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 เรียนรู้วิธีเพิ่มเงาให้กับรูปร่างในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
+### [วิธีสร้างรูปทรงที่จัดกลุ่มในเอกสาร Word ด้วย Java](./how-to-create-grouped-shapes-in-a-word-document-using-java/)
+เรียนรู้วิธีสร้างและจัดการรูปทรงที่รวมเป็นกลุ่มในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 

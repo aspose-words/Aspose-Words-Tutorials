@@ -71,6 +71,8 @@
 Научитесь эффективно использовать контроль версий Aspose.Words for Java. Пошаговое руководство для разработчиков. Оптимизируйте управление документами.
 ### [Использование разделов в Aspose.Words для Java](./using-sections/)
 Исследуйте Aspose.Words для Java: полное руководство по использованию разделов. Добавляйте, удаляйте, присоединяйте, клонируйте разделы с примерами кода.
+### [Создание кнопки поля формы в Word с Aspose.Words для Java](./create-form-field-button-in-word-with-aspose-words-java/)
+Узнайте, как добавить кнопку поля формы в документы Word с помощью Aspose.Words для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

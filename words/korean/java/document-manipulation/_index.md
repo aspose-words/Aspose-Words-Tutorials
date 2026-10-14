@@ -103,7 +103,8 @@ Aspose.Words for Java의 강력한 기능을 활용하세요. 원활한 문서 �
 ### [Java용 Aspose.Words에서 문서 속성 사용](./using-document-properties/)
 Aspose.Words for Java를 사용하여 문서 관리를 최적화하세요. 이 포괄적인 튜토리얼에서 문서 속성 작업, 사용자 정의 메타데이터 추가 등의 방법을 알아보세요.
 ### [Java용 Aspose.Words에서 웹 확장 기능 사용](./using-web-extensions/)
-Aspose.Words for Java의 웹 확장 기능으로 문서를 더욱 풍부하게 만들고, 웹 기반 콘텐츠를 원활하게 통합하는 방법을 알아보세요. 
+Aspose.Words for Java의 웹 확장 기능으로 문서를 더욱 풍부하게 만들고, 웹 기반 콘텐츠를 원활하게 통합하는 방법을 알아보세요.
+### [C#용 Aspose.Words에서 자리 표시자 텍스트가 포함된 빈 Word 문서 만들기](./create-blank-word-document-with-placeholder-text-using-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

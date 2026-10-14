@@ -36,6 +36,7 @@ Java के लिए Aspose.Words के साथ Word दस्तावे�
 
 ### [जावा में Word दस्तावेज़ बनाएं – आयताकार आकार को छाया प्रभाव के साथ जोड़ें](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ में आयताकार आकार को छाया प्रभाव के साथ जोड़ने का तरीका सीखें।
+
 ### [जावा के साथ Word में आयताकार आकृति बनाएं – पूर्ण गाइड](./create-rectangle-shape-in-word-with-java-full-guide/)
 जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ में आयताकार आकृति जोड़ने और अनुकूलित करने की पूरी प्रक्रिया सीखें।
 
@@ -44,8 +45,12 @@ Word दस्तावेज़ में आकृति पर छाया �
 
 ### [C# में आकृति पर शैडो इफ़ेक्ट लागू करें – चरण‑दर‑चरण गाइड](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 C# में Aspose.Words का उपयोग करके आकृति पर शैडो इफ़ेक्ट जोड़ने के लिए विस्तृत चरण और कोड उदाहरण।
+
 ### [Aspose.Words में आकृति पर छाया कैसे सेट करें – पूर्ण गाइड](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Aspose.Words में आकृति पर छाया लागू करने के चरण-दर-चरण निर्देश और कोड उदाहरण।
+
+### [जावा का उपयोग करके Word दस्तावेज़ में समूहित आकृतियाँ कैसे बनाएं](./how-to-create-grouped-shapes-in-a-word-document-using-java/)
+जावा में Aspose.Words का उपयोग करके समूहित आकृतियों को बनाने की चरण‑दर‑चरण गाइड।
 
 ## अतिरिक्त संसाधन
 

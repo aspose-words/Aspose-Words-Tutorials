@@ -52,7 +52,9 @@ Utforska teckensnittsformatering i Aspose.Words för Java: storlek, stil, färg 
 ### [Använda fotnoter och slutnoter i Aspose.Words för Java](./using-footnotes-and-endnotes/)
 Lär dig att använda fotnoter och slutnoter effektivt i Aspose.Words för Java. Förbättra dina kunskaper i dokumentformatering idag!
 ### [Använda formulärfält i Aspose.Words för Java](./using-form-fields/)
-"Lär dig använda Aspose.Words för Java för att skapa interaktiva Word-dokument med formulärfält. Kom igång nu!"
+Lär dig använda Aspose.Words för Java för att skapa interaktiva Word-dokument med formulärfält. Kom igång nu!
+### [Skapa formulärknapp i Word med Aspose.Words för Java](./create-form-field-button-in-word-with-aspose-words-java/)
+Lär dig hur du skapar en formulärknapp i ett Word-dokument med Aspose.Words för Java.
 ### [Använda HarfBuzz i Aspose.Words för Java](./using-harfbuzz/)
 Lär dig använda HarfBuzz för avancerad textformning i Aspose.Words för Java. Förbättra textrendering i komplexa skript med den här steg-för-steg-guiden.
 ### [Använda sidhuvuden och sidfot i Aspose.Words för Java](./using-headers-and-footers/)

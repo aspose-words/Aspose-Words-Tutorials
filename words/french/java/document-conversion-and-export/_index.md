@@ -206,6 +206,9 @@ Apprenez à générer des PDF accessibles depuis des documents Word en respectan
 ### [Comment enregistrer un DOCX en texte – Guide complet pour convertir DOCX en TXT avec exportation des formules](./how-to-save-docx-as-text-complete-guide-to-convert-docx-to-t/)
 Apprenez à enregistrer des fichiers DOCX au format texte (TXT) et à exporter les équations mathématiques avec Aspose.Words for Java.
 
+### [Enregistrer le markdown en Word avec Aspose.Words pour Java](./save-markdown-as-word-with-aspose-words-for-java/)
+Apprenez à convertir du markdown en document Word en utilisant Aspose.Words for Java.
+
 ## Questions fréquentes
 
 **Q : Comment ajouter un filigrane à un PDF existant avec Aspose.Words ?**  

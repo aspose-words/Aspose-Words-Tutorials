@@ -40,6 +40,8 @@ Lernen Sie, wie Sie mit Aspose.Words für Java Schatten zu Formen in Word-Dokume
 Erfahren Sie, wie Sie mit Aspose.Words für C# Schatteneffekte auf Formen anwenden und das Erscheinungsbild Ihrer Dokumente verbessern.
 ### [Wie Sie in Aspose.Words einen Schatten für eine Form festlegen – Komplettanleitung](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java Schatten zu Formen hinzufügen und deren Aussehen anpassen.
+### [Wie man gruppierte Formen in einem Word-Dokument mit Java erstellt](./how-to-create-grouped-shapes-in-a-word-document-using-java/)
+Erfahren Sie, wie Sie gruppierte Formen in Word-Dokumenten mit Java erstellen.
 
 ## Weitere Ressourcen
 

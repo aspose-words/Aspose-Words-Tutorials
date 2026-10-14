@@ -141,7 +141,8 @@ Aprenda a extraer texto plano de documentos DOCX, incluyendo la exportación de 
 Aprenda a convertir documentos Word a LaTeX mediante Markdown y generar un PDF final.
 
 ### [Cómo exportar LaTeX desde DOCX – Guía de conversión de Word a TXT](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
-Aprenda a convertir documentos DOCX a archivos TXT con contenido LaTeX usando Aspose.Words.
+Aprenda a convertir documentos DOCX a archivos TXT con contenido LaTeX usando Aspose.Words for Java.
+
 ### [Cómo guardar Markdown desde Word – Guía completa](./how-to-save-markdown-from-word-complete-guide/)
 Aprenda a guardar documentos Word como archivos Markdown paso a paso con Aspose.Words.
 
@@ -169,6 +170,9 @@ Aprenda a generar PDFs accesibles PDF/UA a partir de documentos DOCX usando Aspo
 ### [Crear PDF accesible desde Word – Guía completa](./create-accessible-pdf-from-word-full-guide/)
 Aprenda a generar PDFs accesibles conforme a PDF/UA a partir de documentos Word usando Aspose.Words para Java.
 
+### [Guardar markdown como Word con Aspose.Words para Java](./save-markdown-as-word-with-aspose-words-for-java/)
+Aprende a convertir archivos Markdown a documentos Word usando Aspose.Words for Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -181,6 +185,7 @@ Aprende a convertir archivos DOCX a TXT y exportar ecuaciones de Word en formato
 
 ### [Convertir docx a markdown – Exportar ecuaciones matemáticas a LaTeX con Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Aprenda a convertir documentos DOCX a Markdown y exportar ecuaciones matemáticas a LaTeX usando Aspose.Words.
+
 ### [Incrustar imágenes como base64 al convertir DOCX a Markdown en Java](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
 Aprende a incrustar imágenes en formato base64 al convertir documentos DOCX a Markdown usando Aspose.Words for Java.
 
@@ -194,4 +199,3 @@ Aprenda a convertir archivos DOCX a PDF usando Aspose.Words for Java con un tuto
 
 ### [Exportar Word a Markdown – Guía completa en Java](./export-word-to-markdown-full-java-guide/)
 Aprenda a exportar documentos Word a Markdown usando Aspose.Words for Java en una guía paso a paso.
-

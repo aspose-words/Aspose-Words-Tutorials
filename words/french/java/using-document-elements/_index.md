@@ -53,6 +53,8 @@ Découvrez la mise en forme des polices dans Aspose.Words pour Java : taille, s
 Apprenez à utiliser efficacement les notes de bas de page et de fin dans Aspose.Words pour Java. Améliorez vos compétences en mise en forme de documents dès aujourd'hui !
 ### [Utilisation des champs de formulaire dans Aspose.Words pour Java](./using-form-fields/)
 Apprenez à utiliser Aspose.Words pour Java pour créer des documents Word interactifs avec des champs de formulaire. Commencez dès maintenant !
+### [Créer un bouton de champ de formulaire dans Word avec Aspose.Words Java](./create-form-field-button-in-word-with-aspose-words-java/)
+Apprenez à créer un bouton de champ de formulaire dans Word en utilisant Aspose.Words pour Java.
 ### [Utilisation de HarfBuzz dans Aspose.Words pour Java](./using-harfbuzz/)
 Apprenez à utiliser HarfBuzz pour la mise en forme avancée du texte dans Aspose.Words pour Java. Améliorez le rendu du texte dans les scripts complexes grâce à ce guide étape par étape.
 ### [Utilisation des en-têtes et des pieds de page dans Aspose.Words pour Java](./using-headers-and-footers/)

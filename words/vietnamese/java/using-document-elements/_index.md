@@ -53,6 +53,8 @@ Khám phá định dạng phông chữ trong Aspose.Words for Java: kích thư�
 Học cách sử dụng chú thích cuối trang và chú thích cuối văn bản hiệu quả trong Aspose.Words for Java. Nâng cao kỹ năng định dạng tài liệu của bạn ngay hôm nay!
 ### [Sử dụng trường biểu mẫu trong Aspose.Words cho Java](./using-form-fields/)
 "Học cách sử dụng Aspose.Words for Java để tạo tài liệu Word tương tác với các trường biểu mẫu. Bắt đầu ngay!"
+### [Tạo nút trường biểu mẫu trong Word bằng Aspose.Words Java](./create-form-field-button-in-word-with-aspose-words-java/)
+Hướng dẫn tạo nút trường biểu mẫu trong tài liệu Word bằng Aspose.Words cho Java.
 ### [Sử dụng HarfBuzz trong Aspose.Words cho Java](./using-harfbuzz/)
 Học cách sử dụng HarfBuzz để định hình văn bản nâng cao trong Aspose.Words cho Java. Cải thiện khả năng hiển thị văn bản trong các tập lệnh phức tạp với hướng dẫn từng bước này.
 ### [Sử dụng Header và Footer trong Aspose.Words cho Java](./using-headers-and-footers/)

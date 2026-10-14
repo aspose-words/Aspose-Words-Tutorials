@@ -71,9 +71,10 @@ Naučte se používat objekty OLE a ovládací prvky ActiveX v Aspose.Words pro 
 Naučte se efektivně používat revizní prvky Aspose.Words pro Javu. Podrobný návod pro vývojáře. Optimalizujte správu dokumentů.
 ### [Používání sekcí v Aspose.Words pro Javu](./using-sections/)
 Prozkoumejte Aspose.Words pro Javu: Komplexní průvodce používáním sekcí. Přidávání, mazání, přidávání a klonování sekcí s příklady kódu.
+### [Vytvoření tlačítka formulářového pole ve Wordu pomocí Aspose.Words pro Javu](./create-form-field-button-in-word-with-aspose-words-java/)
+Naučte se, jak vytvořit tlačítko formulářového pole ve Wordu pomocí Aspose.Words pro Javu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 

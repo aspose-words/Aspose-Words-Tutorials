@@ -41,6 +41,9 @@ Panduan langkah demi langkah menambahkan efek bayangan pada bentuk menggunakan A
 ### [Cara Menetapkan Bayangan pada Bentuk di Aspose.Words – Panduan Lengkap](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Panduan lengkap untuk menambahkan efek bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk Java.
 
+### [Cara Membuat Bentuk Berkelompok dalam Dokumen Word menggunakan Java](./how-to-create-grouped-shapes-in-a-word-document-using-java/)
+Pelajari cara membuat dan mengelola bentuk berkelompok dalam dokumen Word menggunakan Aspose.Words untuk Java.
+
 ## Sumber Daya Tambahan
 
 ## Sumber Daya Tambahan

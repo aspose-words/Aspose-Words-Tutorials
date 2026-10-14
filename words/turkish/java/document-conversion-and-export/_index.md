@@ -191,6 +191,9 @@ Java geliştiricileri için Aspose.Words kullanarak Word belgesinden PDF oluştu
 ### [Word'den Erişilebilir PDF Oluşturma – Tam Kılavuz](./create-accessible-pdf-from-word-full-guide/)
 Aspose.Words for Java kullanarak Word belgelerinden erişilebilir PDF dosyaları oluşturmayı adım adım öğrenin.
 
+### [Markdown'ı Word olarak kaydet – Aspose.Words for Java ile](./save-markdown-as-word-with-aspose-words-for-java/)
+Markdown dosyasını Aspose.Words for Java kullanarak Word belgesine dönüştürmeyi adım adım öğrenin.
+
 ## Sık Sorulan Sorular
 
 **S: Aspose.Words kullanarak mevcut bir PDF’e nasıl filigran eklerim?**  

@@ -71,6 +71,8 @@ Erfahren Sie, wie Sie OLE-Objekte und ActiveX-Steuerelemente in Aspose.Words fü
 Lernen Sie, Aspose.Words für Javas Revisionskontrolle effizient zu nutzen. Schritt-für-Schritt-Anleitung für Entwickler. Optimieren Sie Ihr Dokumentenmanagement.
 ### [Verwenden von Abschnitten in Aspose.Words für Java](./using-sections/)
 Entdecken Sie Aspose.Words für Java: Eine umfassende Anleitung zur Verwendung von Abschnitten. Hinzufügen, Löschen, Anhängen und Klonen von Abschnitten mit Codebeispielen.
+### [Erstellen einer Formularfeld-Schaltfläche in Word mit Aspose.Words für Java](./create-form-field-button-in-word-with-aspose-words-java/)
+Erfahren Sie, wie Sie in Aspose.Words für Java eine Schaltfläche als Formularfeld in Word-Dokumente einfügen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -80,6 +80,8 @@ Pelajari cara menggunakan Structured Document Tags (SDT) di Aspose.Words untuk J
 Pelajari cara menyempurnakan format dokumen dengan Aspose.Words untuk Java. Jelajahi gaya, tema, dan lainnya dalam panduan lengkap ini dengan contoh kode sumber.
 ### [Membuat Daftar Isi di Aspose.Words untuk Java](./generating-table-of-contents/)
 Pelajari cara membuat dan menyesuaikan Daftar Isi (TOC) menggunakan Aspose.Words untuk Java. Buat dokumen yang terorganisir dan profesional dengan mudah.
+### [Membuat Dokumen Word Kosong dengan Teks Placeholder menggunakan C#](./create-blank-word-document-with-placeholder-text-using-c/)
+Buat dokumen Word kosong dengan teks placeholder menggunakan C#.
 ### [Melindungi Dokumen di Aspose.Words untuk Java](./protecting-documents/)
 Pelajari cara mengamankan dokumen Java Word Anda dengan Aspose.Words untuk Java. Lindungi data Anda dengan kata sandi dan banyak lagi.
 ### [Membagi Dokumen ke dalam Halaman di Aspose.Words untuk Java](./splitting-documents-into-pages/)

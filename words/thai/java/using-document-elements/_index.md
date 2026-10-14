@@ -72,6 +72,9 @@
 ### [การใช้ Sections ใน Aspose.Words สำหรับ Java](./using-sections/)
 สำรวจ Aspose.Words สำหรับ Java: คู่มือที่ครอบคลุมเกี่ยวกับการใช้ส่วนต่างๆ เพิ่ม ลบ ผนวก โคลนส่วนต่างๆ ด้วยตัวอย่างโค้ด
 
+### [สร้างปุ่มฟิลด์ฟอร์มใน Word ด้วย Aspose.Words Java](./create-form-field-button-in-word-with-aspose-words-java/)
+เรียนรู้วิธีสร้างปุ่มฟิลด์ฟอร์มในเอกสาร Word ด้วย Aspose.Words for Java อย่างละเอียด
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

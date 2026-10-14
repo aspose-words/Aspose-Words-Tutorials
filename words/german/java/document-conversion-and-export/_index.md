@@ -95,8 +95,10 @@ Erfahren Sie, wie Sie Wasserzeichen zu Dokumenten in Aspose.Words for Java hinzu
 
 ### [Word als PDF speichern mit Aspose.Words – Schritt‑für‑Schritt Java‑Leitfaden](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
 Erfahren Sie, wie Sie ein Word‑Dokument mit Aspose.Words in Java einfach in ein PDF konvertieren – komplette Schritt‑für‑Schritt‑Anleitung.
+
 ### [PDF‑UA in Aspose.Words für Java erstellen – DOCX zu PDF konvertieren](./create-pdf-ua-in-java-convert-docx-to-pdf/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java PDF/UA‑Dateien aus DOCX erstellen und konvertieren, um barrierefreie PDFs zu erhalten.
+
 ### [PDF aus Word erstellen – Schritt‑für‑Schritt‑Anleitung für Java‑Entwickler](./create-pdf-from-word-step-by-step-guide-for-java-developers/)
 Erfahren Sie, wie Sie mit Aspose.Words for Java ein PDF aus einem Word‑Dokument erstellen – detaillierte Schritt‑für‑Schritt‑Anleitung.
 
@@ -111,6 +113,9 @@ Erfahren Sie, wie Sie ein Word‑Dokument als Markdown‑Datei speichern und dab
 
 ### [Wie man Markdown aus Word exportiert – Schritt‑für‑Schritt Java‑Leitfaden](./how-to-export-markdown-from-word-step-by-step-java-guide/)
 Erfahren Sie, wie Sie Markdown aus einem Word‑Dokument mit Aspose.Words für Java exportieren – Schritt‑für‑Schritt‑Leitfaden.
+
+### [Markdown als Word speichern mit Aspose.Words für Java](./save-markdown-as-word-with-aspose-words-for-java/)
+Speichern Sie Markdown als Word-Dokument mit Aspose.Words für Java.
 
 ### [Barrierefreies PDF aus DOCX in Java erstellen – Vollständige Anleitung](./create-accessible-pdf-from-docx-in-java-full-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words for Java ein PDF erstellen, das den PDF/UA‑Standards für Barrierefreiheit entspricht.
@@ -171,6 +176,7 @@ Konvertieren Sie DOCX‑Dateien in reine Textdateien und exportieren Sie darin e
 
 ### [Exportieren von Word nach Markdown – Vollständige Java-Anleitung](./export-word-to-markdown-full-java-guide/)
 Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words for Java in Markdown konvertieren – Schritt‑für‑Schritt‑Anleitung inklusive Codebeispielen.
+
 ### [DOCX als TXT speichern – Schnellleitfaden für C# mit LaTeX‑Matheexport](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Textdateien konvertieren und dabei LaTeX‑Matheformeln exportieren – kompakte C#‑Anleitung.
 
@@ -179,11 +185,13 @@ Erfahren Sie, wie Sie Bilder beim Konvertieren von Word‑Dokumenten nach Markdo
 
 ### [PDF‑Speicheroptionen – DOCX in PDF in Java mit voller Kontrolle konvertieren](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 Erfahren Sie, wie Sie mit PDF‑Speicheroptionen die Konvertierung von DOCX nach PDF in Java präzise steuern können.
+
 ### [Exportieren von DOCX nach PDF – Komplettleitfaden zur Erstellung barrierefreier PDFs](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
 Erfahren Sie, wie Sie DOCX‑Dateien in PDF konvertieren und dabei barrierefreie PDFs mit Tags, Lesezeichen und korrekter Struktur erzeugen.
 
 ### [docx‑to‑pdf‑Tutorial – Word mit LowCode in PDF konvertieren](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
 Erfahren Sie, wie Sie mit LowCode Word‑Dokumente schnell und einfach in PDF umwandeln, ohne umfangreichen Code zu schreiben.
+
 ### [Word als Text speichern – Gleichungen nach LaTeX exportieren mit Aspose.Words](./save-word-as-text-export-equations-to-latex-with-aspose-word/)
 Erfahren Sie, wie Sie Word‑Dokumente als Textdatei speichern und darin enthaltene Formeln im LaTeX‑Format exportieren.
 
@@ -192,6 +200,7 @@ Erfahren Sie, wie Sie DOCX‑Dateien in Markdown umwandeln und dabei eingebettet
 
 ### [Word nach Markdown exportieren – Java‑Leitfaden mit Aspose.Words](./export-word-to-markdown-java-guide-using-aspose-words/)
 Erfahren Sie, wie Sie Word‑Dokumente in Markdown umwandeln und dabei Bilder extrahieren, mit Aspose.Words für Java.
+
 ### [Convert docx to markdown with Aspose.Words – Complete Guide](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in Markdown konvertieren und dabei Formatierung und Inhalte erhalten.
 
