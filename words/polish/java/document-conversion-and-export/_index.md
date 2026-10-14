@@ -145,7 +145,7 @@ Dowiedz się, jak przy użyciu Aspose.Words for Java zapisać plik DOCX jako PDF
 ### [Eksportuj Word do Markdown – Pełny przewodnik Java](./export-word-to-markdown-full-java-guide/)
 Dowiedz się, jak wyeksportować dokumenty Word do formatu Markdown przy użyciu Aspose.Words for Java. Przewodnik krok po kroku z przykładami kodu.
 
-### [Tworzenie dostępnego PDF z Word – przewodnik krok po kroku](./create-accessible-pdf-from-word-step-by-step-guide/)
+### [Tworzenie dostępnego PDF z Worda – przewodnik krok po kroku](./create-accessible-pdf-from-word-step-by-step-guide/)
 Dowiedz się, jak tworzyć dostępne pliki PDF z dokumentów Word przy użyciu Aspose.Words for Java. Przewodnik krok po kroku z przykładami kodu.
 ### [Zapisz docx jako txt – szybki przewodnik C# z eksportem równań LaTeX](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
 Dowiedz się, jak zapisać plik DOCX jako TXT w C# z eksportem równań LaTeX. Przewodnik krok po kroku z kodem źródłowym.
@@ -193,6 +193,9 @@ Dowiedz się, jak w prostych krokach wygenerować plik PDF z dokumentu Word przy
 
 ### [Tworzenie dostępnego PDF z Worda – pełny przewodnik](./create-accessible-pdf-from-word-full-guide/)
 Dowiedz się, jak generować pliki PDF spełniające standardy dostępności z dokumentów Word przy użyciu Aspose.Words for Java.
+
+### [Zapisz markdown jako Word przy użyciu Aspose.Words dla Javy](./save-markdown-as-word-with-aspose-words-for-java/)
+Dowiedz się, jak zamienić plik Markdown na dokument Word przy użyciu Aspose.Words for Java, krok po kroku z przykładami kodu.
 
 ## Najczęściej zadawane pytania
 

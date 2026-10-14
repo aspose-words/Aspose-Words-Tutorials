@@ -3,7 +3,7 @@ date: 2025-12-10
 description: 學習如何使用 Aspose.Words for Java 添加浮水印、將 docx 轉換為 PDF，並產生條碼標籤。全面的文件轉換與匯出指南。
 linktitle: How to Add Watermark – Document Conversion and Export
 second_title: Aspose.Words Java Document Processing API
-title: 如何添加水印 – 使用 Aspose.Words for Java 进行文档转换与导出
+title: 如何添加水印 – 使用 Aspose.Words for Java进行文档转换与导出
 url: /zh-hant/java/document-conversion-and-export/
 weight: 22
 ---
@@ -76,6 +76,8 @@ Aspose.Words for Java 的主要功能之一是能夠 **convert docx to pdf** 以
 ### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
 
 ### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
+### [將 Markdown 儲存為 Word – 使用 Aspose.Words for Java](./save-markdown-as-word-with-aspose-words-for-java/)
+
 ### [在 Java 中將 docx 儲存為 markdown – 完整步驟指南](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
 教您如何使用 Aspose.Words for Java 將 DOCX 檔案轉換為 Markdown 格式，提供完整的程式碼範例與設定說明。
 

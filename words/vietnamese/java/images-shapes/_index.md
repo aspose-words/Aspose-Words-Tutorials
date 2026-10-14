@@ -40,6 +40,8 @@ Hướng dẫn chi tiết cách áp dụng hiệu ứng bóng cho hình dạng t
 Hướng dẫn chi tiết cách áp dụng hiệu ứng bóng cho hình dạng trong tài liệu Word bằng C# sử dụng Aspose.Words.
 ### [Cách đặt bóng cho hình dạng trong Aspose.Words – Hướng dẫn chi tiết](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Hướng dẫn chi tiết cách áp dụng hiệu ứng bóng cho hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
+### [Cách tạo các hình dạng nhóm trong tài liệu Word bằng Java](./how-to-create-grouped-shapes-in-a-word-document-using-java/)
+Hướng dẫn chi tiết cách tạo và quản lý các hình dạng nhóm trong tài liệu Word bằng Aspose.Words cho Java.
 
 ## Tài nguyên bổ sung
 

@@ -36,7 +36,7 @@ Seguendo questi tutorial, non solo imparerai le basi della manipolazione degli e
 
 ## Inizia oggi
 
-Pronti per iniziare? Andate su [Documentazione dell'API Aspose.Words per Java](https://reference.aspose.com/words/java/) per accedere alla documentazione completa. Troverai spiegazioni dettagliate, esempi di codice e riferimenti API che ti guideranno attraverso ogni aspetto della manipolazione degli elementi del documento.
+Pronti per iniziare? Andate su [Documentazione dell'API Aspose.Words per Java](https://reference.aspose.com/words/java/) per accedere alla documentazione completa. Troverete spiegazioni dettagliate, esempi di codice e riferimenti API che vi guideranno attraverso ogni aspetto della manipolazione degli elementi del documento.
 
 In conclusione, padroneggiare la manipolazione degli elementi dei documenti utilizzando Aspose.Words per Java è un'abilità preziosa per qualsiasi sviluppatore Java che lavori con i documenti. Questi tutorial offrono un percorso chiaro e strutturato per aiutarti a diventare esperto in questo ambito. Quindi, rimboccati le maniche, immergiti nei tutorial e sfrutta appieno il potenziale di Aspose.Words per Java nei tuoi progetti di elaborazione di documenti.
 
@@ -53,6 +53,8 @@ Esplora la formattazione dei font in Aspose.Words per Java: dimensioni, stile, c
 Impara a usare efficacemente note a piè di pagina e note di chiusura in Aspose.Words per Java. Migliora le tue competenze di formattazione dei documenti oggi stesso!
 ### [Utilizzo dei campi modulo in Aspose.Words per Java](./using-form-fields/)
 Impara a usare Aspose.Words per Java per creare documenti Word interattivi con campi modulo. Inizia subito!
+### [Creare un pulsante di campo modulo in Word con Aspose.Words per Java](./create-form-field-button-in-word-with-aspose-words-java/)
+Scopri come aggiungere un pulsante di campo modulo nei documenti Word usando Aspose.Words per Java.
 ### [Utilizzo di HarfBuzz in Aspose.Words per Java](./using-harfbuzz/)
 Impara a usare HarfBuzz per la modellazione avanzata del testo in Aspose.Words per Java. Migliora il rendering del testo negli script complessi con questa guida passo passo.
 ### [Utilizzo di intestazioni e piè di pagina in Aspose.Words per Java](./using-headers-and-footers/)

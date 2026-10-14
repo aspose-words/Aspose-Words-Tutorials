@@ -53,6 +53,8 @@ Ontdek de lettertypeopmaak in Aspose.Words voor Java: grootte, stijl, kleur en m
 Leer effectief voetnoten en eindnoten gebruiken in Aspose.Words voor Java. Verbeter vandaag nog uw vaardigheden in documentopmaak!
 ### [Formuliervelden gebruiken in Aspose.Words voor Java](./using-form-fields/)
 Leer hoe u Aspose.Words voor Java kunt gebruiken om interactieve Word-documenten met formuliervelden te maken. Ga nu aan de slag!
+### [Formulierveldknop maken in Word met Aspose.Words voor Java](./create-form-field-button-in-word-with-aspose-words-java/)
+Leer hoe u een formulierveldknop maakt in Word met Aspose.Words voor Java.
 ### [HarfBuzz gebruiken in Aspose.Words voor Java](./using-harfbuzz/)
 Leer HarfBuzz gebruiken voor geavanceerde tekstvormgeving in Aspose.Words voor Java. Verbeter de tekstweergave in complexe scripts met deze stapsgewijze handleiding.
 ### [Kop- en voetteksten gebruiken in Aspose.Words voor Java](./using-headers-and-footers/)

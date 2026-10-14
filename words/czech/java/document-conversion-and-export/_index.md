@@ -137,6 +137,7 @@ Naučte se, jak pomocí Aspose.Words for Java vytvořit PDF s přístupnými zna
 
 ### [Jak exportovat Markdown z Wordu pomocí Javy – Kompletní průvodce](./how-to-export-markdown-from-word-using-java-complete-guide/)
 Naučte se exportovat obsah Wordu do formátu Markdown pomocí Aspose.Words for Java v podrobném průvodci.
+
 ### [Převod docx na txt – Export rovnic Word jako LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/)
 Naučte se převést soubory DOCX na prostý text a exportovat rovnice Word do formátu LaTeX pomocí Aspose.Words.
 
@@ -148,6 +149,7 @@ Naučte se převádět dokumenty Word do formátu Markdown pomocí Aspose.Words 
 
 ### [Vytvoření přístupného PDF z Wordu – krok‑za‑krokem průvodce](./create-accessible-pdf-from-word-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Words for Java vytvořit PDF s přístupnými značkami a optimalizovat jej pro čtečky obrazovky.
+
 ### [Uložení docx jako txt – Rychlý průvodce C# s exportem LaTeX Math](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
 Naučte se převést DOCX na prostý text a exportovat rovnice LaTeX pomocí Aspose.Words v C#.
 
@@ -183,6 +185,7 @@ Naučte se exportovat dokumenty Word do formátu Markdown v Javě pomocí Aspose
 
 ### [Vytvořit PDF UA v Javě – převod DOCX do PDF](./create-pdf-ua-in-java-convert-docx-to-pdf/)
 Naučte se, jak v Javě vytvořit PDF UA a převést soubor DOCX do PDF pomocí Aspose.Words.
+
 ### [Převod docx na markdown pomocí Aspose.Words – Kompletní průvodce](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
 Naučte se, jak pomocí Aspose.Words převést soubory DOCX do formátu Markdown v několika krocích.
 
@@ -197,6 +200,9 @@ Naučte se, jak pomocí Aspose.Words for Java převést dokument Word do PDF v n
 
 ### [Vytvoření přístupného PDF z Wordu – Kompletní průvodce](./create-accessible-pdf-from-word-full-guide/)
 Naučte se, jak pomocí Aspose.Words for Java vytvořit PDF s podporou přístupnosti z dokumentu Word, včetně značek a struktury.
+
+### [Uložit markdown jako Word pomocí Aspose.Words pro Javu](./save-markdown-as-word-with-aspose-words-for-java/)
+Převádějte soubory Markdown do formátu Word pomocí Aspose.Words for Java.
 
 ## Často kladené otázky
 

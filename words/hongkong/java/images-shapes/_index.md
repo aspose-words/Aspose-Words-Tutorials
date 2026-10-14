@@ -41,6 +41,9 @@ Aspose.Words Java 程式碼教程
 ### [如何在 Aspose.Words 中為形狀設定陰影 – 完整指南](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 了解如何在 Aspose.Words for Java 中為形狀添加陰影效果，並自訂其屬性以提升文件的視覺效果。
 
+### [如何使用 Java 在 Word 文件中建立群組形狀](./how-to-create-grouped-shapes-in-a-word-document-using-java/)
+了解如何在 Aspose.Words for Java 中將多個形狀組合為群組，以便在 Word 文件中統一操作和格式化。
+
 ## 其他資源
 
 ## 其他資源

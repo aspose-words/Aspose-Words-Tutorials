@@ -106,7 +106,7 @@ Aspose.Words for Java를 활용한 개체 생성 방법. 코드를 포함하는 
 ### [Java에서 DOCX 복구 및 마크다운·PDF/UA 내보내기 – 완전 가이드](./how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/)
 손상된 DOCX 파일을 복구하고, 마크다운과 PDF/UA 형식으로 내보내는 전체 과정과 코드를 단계별로 안내합니다.
 
-### [Java용 Aspose.Words에서 DOCX를 PDF로 변환](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
+### [Java용 Aspose.Words에서 DOCX를 PDF로 변환](./aspose-word-to-pdf-convert-docx-to-pdf/)
 Aspose.Words for Java를 사용해 DOCX 파일을 PDF 형식으로 변환하는 방법을 단계별로 안내합니다.
 
 ### [DOCX에서 접근성 PDF 만들기 – 완전 가이드](./create-accessible-pdf-from-docx-complete-guide/)
@@ -158,7 +158,7 @@ Aspose.Words for Java를 사용하여 Word 문서를 마크다운 형식으로 �
 Aspose.Words for Java를 사용해 Word 문서를 PDF로 변환하는 방법을 단계별로 안내합니다.
 
 ### [Word에서 마크다운 내보내기 – 단계별 Java 가이드](./how-to-export-markdown-from-word-step-by-step-java-guide/)
-Aspose.Words for Java를 사용하여 Word 문서를 마크다운 형식으로 내보내는 전체 단계별 가이드를 제공합니다.
+Aspose.Words for Java를 사용하여 Word 문서를 Markdown 형식으로 내보내는 전체 단계별 가이드를 제공합니다.
 
 ### [Java에서 DOCX로부터 접근 가능한 PDF 만들기 – 전체 가이드](./create-accessible-pdf-from-docx-in-java-full-guide/)
 Aspose.Words for Java를 사용해 DOCX 파일을 접근성 PDF로 변환하는 단계별 방법을 안내합니다.
@@ -173,6 +173,9 @@ Aspose.Words for Java를 이용해 Word 문서를 Markdown 형식으로 내보�
 
 ### [Java용 Aspose.Words에서 PDF UA 만들기 – DOCX를 PDF로 변환](./create-pdf-ua-in-java-convert-docx-to-pdf/)
 Aspose.Words for Java를 사용해 DOCX 파일을 PDF UA 형식으로 변환하는 방법을 단계별로 안내합니다.
+
+### [Java용 Aspose.Words에서 마크다운을 Word로 저장](./save-markdown-as-word-with-aspose-words-for-java/)
+Aspose.Words for Java를 사용해 마크다운 파일을 Word 문서(.docx)로 변환하는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

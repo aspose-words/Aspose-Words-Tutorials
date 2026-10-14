@@ -57,6 +57,8 @@ Document manipulation using Aspose.Words for Java is a valuable skill for develo
 Start your learning journey today and unlock the endless possibilities of document manipulation with Aspose.Words for Java.
 
 ## Document Manipulation Tutorials
+### [Create blank Word document with placeholder text using C#](./create-blank-word-document-with-placeholder-text-using-c/)
+Learn how to generate a blank Word document and insert placeholder text using Aspose.Words for C#.
 ### [Using Cleanup Options in Aspose.Words for Java](./using-cleanup-options/)
 Enhance Document Clarity with Aspose.Words for Java Cleanup Options. Learn how to remove empty paragraphs, unused regions, and more.
 ### [Using Fields in Aspose.Words for Java](./using-fields/)

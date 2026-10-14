@@ -103,7 +103,10 @@ Exploitez la puissance d'Aspose.Words pour Java. Maîtrisez les options et param
 ### [Utilisation des propriétés de document dans Aspose.Words pour Java](./using-document-properties/)
 Optimisez la gestion de vos documents avec Aspose.Words pour Java. Apprenez à gérer les propriétés des documents, à ajouter des métadonnées personnalisées et bien plus encore dans ce tutoriel complet.
 ### [Utilisation des extensions Web dans Aspose.Words pour Java](./using-web-extensions/)
-Améliorez vos documents avec les extensions Web d'Aspose.Words pour Java. Apprenez à intégrer facilement du contenu Web. 
+Améliorez vos documents avec les extensions Web d'Aspose.Words pour Java. Apprenez à intégrer facilement du contenu Web.
+
+### [Créer un document Word vierge avec du texte de substitution en C#](./create-blank-word-document-with-placeholder-text-using-c/)
+Apprenez à créer un document Word vierge contenant du texte de substitution à l'aide d'Aspose.Words pour C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -41,6 +41,9 @@ Scopri come aggiungere un effetto ombra a una forma usando Aspose.Words per C# c
 ### [Come impostare l'ombra su una forma in Aspose.Words – Guida completa](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Scopri come aggiungere e personalizzare l'ombra alle forme nei documenti Word usando Aspose.Words per Java.
 
+### [Come creare forme raggruppate in un documento Word usando Java](./how-to-create-grouped-shapes-in-a-word-document-using-java/)
+Scopri come creare e gestire forme raggruppate in un documento Word con Aspose.Words per Java.
+
 ## Risorse aggiuntive
 
 ## Risorse aggiuntive

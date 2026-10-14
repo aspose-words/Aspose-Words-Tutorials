@@ -41,6 +41,9 @@ Leer hoe u een schaduweffect op een vorm toepast in C# met Aspose.Words.
 ### [Hoe schaduw instellen op een vorm in Aspose.Words – Complete gids](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Leer stap voor stap hoe u schaduweffecten op vormen toepast met Aspose.Words voor Java.
 
+### [Hoe gegroepeerde vormen te maken in een Word-document met Java](./how-to-create-grouped-shapes-in-a-word-document-using-java/)
+Leer hoe u gegroepeerde vormen in een Word-document maakt met Aspose.Words voor Java.
+
 ## Aanvullende bronnen
 
 ## Aanvullende bronnen

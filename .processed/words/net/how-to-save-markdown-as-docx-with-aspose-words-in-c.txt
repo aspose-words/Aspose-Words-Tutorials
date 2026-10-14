@@ -1,0 +1,7 @@
+Title: How to save markdown as docx with Aspose.Words in C#
+Slug: how-to-save-markdown-as-docx-with-aspose-words-in-c
+Category: working-with-markdown
+ProcessedDate: 2026-10-14T00:08:06.584248
+SourceRepo: AI Search API
+Keywords: save markdown as docx, convert markdown to docx, how to convert markdown, markdown conversion c#, aspose markdown conversion
+PRNumber: 321

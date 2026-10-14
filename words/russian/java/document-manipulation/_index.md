@@ -104,13 +104,4 @@ Aspose.Words для Java — это мощный и универсальный A
 Оптимизируйте управление документами с помощью Aspose.Words для Java. Научитесь работать со свойствами документа, добавлять пользовательские метаданные и многое другое в этом всеобъемлющем руководстве.
 ### [Использование веб-расширений в Aspose.Words для Java](./using-web-extensions/)
 Улучшайте документы с помощью веб-расширений в Aspose.Words для Java. Научитесь бесшовно интегрировать веб-контент. 
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/products-backtop-button >}}
+### [Создание пустого документа Word с текстом‑заполнителем на C#](./create-blank-word-document-with-placeholder-text-using-c/)

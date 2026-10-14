@@ -69,7 +69,9 @@ Dowiedz się, jak wydajnie wyodrębniać zawartość z dokumentów Word za pomoc
 ### [Znajdowanie i zamiana tekstu w Aspose.Words dla Java](./finding-and-replacing-text/)
 Dowiedz się, jak znajdować i zamieniać tekst w dokumentach Word za pomocą Aspose.Words for Java. Przewodnik krok po kroku z przykładami kodu. Udoskonal swoje umiejętności manipulowania dokumentami Java.
 ### [Usuwanie zawartości z dokumentów w Aspose.Words dla Java](./removing-content-from-documents/)
-Dowiedz się, jak usuwać zawartość z dokumentów Word w Javie za pomocą Aspose.Words dla Javy. Usuń podziały stron, podziały sekcji i inne. Zoptymalizuj przetwarzanie dokumentów.
+Dowiedz się, jak usuwać zawartość z dokumentów Word w Javie za pomocą Aspose.Words for Javy. Usuń podziały stron, podziały sekcji i inne. Zoptymalizuj przetwarzanie dokumentów.
+### [Utwórz pusty dokument Word z tekstem zastępczym przy użyciu C#](./create-blank-word-document-with-placeholder-text-using-c/)
+Tworzenie pustego dokumentu Word z tekstem zastępczym przy użyciu C#.
 ### [Korzystanie z zakładek w Aspose.Words dla Java](./using-bookmarks/)
 Zoptymalizuj przetwarzanie dokumentów za pomocą Aspose.Words for Java. Naucz się używać zakładek do wydajnej nawigacji i manipulacji treścią w tym przewodniku krok po kroku.
 ### [Korzystanie z zakresów dokumentów w Aspose.Words dla Java](./using-document-ranges/)

@@ -41,6 +41,9 @@ Naučte se, jak aplikovat stínový efekt na tvary v C# pomocí Aspose.Words –
 ### [Jak nastavit stín na tvar v Aspose.Words – kompletní průvodce](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Naučte se, jak přidat stín k tvarům v dokumentech Word pomocí Aspose.Words pro Javu.
 
+### [Jak vytvořit seskupené tvary ve Word dokumentu pomocí Javy](./how-to-create-grouped-shapes-in-a-word-document-using-java/)
+Naučte se, jak seskupit tvary v dokumentu Word pomocí Aspose.Words pro Javu.
+
 ## Další zdroje
 
 ## Další zdroje
