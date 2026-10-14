@@ -54,6 +54,8 @@
 | [รับการทดแทนโดยไม่ต้องมีคำต่อท้าย](./get-substitution-without-suffixes/) | ในบทช่วยสอนนี้ เรียนรู้วิธีรับการแทนที่แบบไม่มีคำต่อท้ายในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET -
 - [วิธีตรวจจับแบบอักษรใน Aspose.Words – จัดการการแจ้งเตือนและการตั้งค่า](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | เรียนรู้วิธีตรวจจับแบบอักษรใน Aspose.Words พร้อมจัดการการแจ้งเตือนและตั้งค่าการแทนที่แบบอักษรเพื่อให้เอกสารแสดงผลอย่างถูกต้อง -
 | [รับการทดแทนโดยไม่ต้องมีคำต่อท้าย](./get-substitution-without-suffixes/) | ในบทช่วยสอนนี้ เรียนรู้วิธีรับการแทนที่แบบไม่มีคำต่อท้ายในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET |
+| [บันทึกเอกสาร Word – ตรวจจับแบบอักษรที่หายไปด้วย Aspose.Words](./save-word-document-detect-missing-fonts-with-aspose-words/) | เรียนรู้วิธีบันทึกเอกสาร Word พร้อมตรวจจับแบบอักษรที่หายไปโดยใช้ Aspose.Words สำหรับ .NET -
+- [วิธีรับการแจ้งเตือน – ตั้งค่าการตั้งค่าแบบอักษรเริ่มต้น](./how-to-capture-warnings-set-default-font-settings/) | เรียนรู้วิธีจับคำเตือนและตั้งค่าฟอนต์เริ่มต้นใน Aspose.Words สำหรับ .NET ด้วยขั้นตอนละเอียด -
 | [วิธีโหลด DOCX และตรวจจับแบบอักษรที่หายไป – คู่มือ C# ฉบับสมบูรณ์](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | เรียนรู้วิธีโหลดไฟล์ DOCX และตรวจจับแบบอักษรที่ขาดหายโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือ C# อย่างละเอียด |
 | [จัดการแบบอักษรที่หายไปใน C# ด้วย Aspose.Words – คู่มือเต็ม](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) | เรียนรู้วิธีจัดการแบบอักษรที่หายไปในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET ด้วยคู่มือขั้นตอนเต็ม |
 | [สร้าง FontSettings ใน C# – ตรวจหาแบบอักษรที่หายไปและบันทึกข้อความแบบอักษร](./create-fontsettings-in-c-detect-missing-fonts-capture-font-m/) | เรียนรู้วิธีสร้าง FontSettings ใน C# เพื่อตรวจหาแบบอักษรที่หายไปและบันทึกข้อความแบบอักษรด้วย Aspose.Words สำหรับ .NET -
@@ -62,7 +64,6 @@
 
 | [วิธีใช้ FontSettings เพื่อจัดการแบบอักษรที่หายไปใน Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | เรียนรู้วิธีใช้ FontSettings เพื่อตรวจจับและแทนที่แบบอักษรที่หายไปในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET |
 | [วิธีตรวจจับแบบอักษรใน C# – ใช้ Callback กับ Aspose.Words](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | เรียนรู้วิธีตรวจจับแบบอักษรในเอกสาร Word ด้วย C# โดยใช้ Callback ของ Aspose.Words |
-| [บันทึกเอกสาร Word – ตรวจจับแบบอักษรที่หายไปด้วย Aspose.Words](./save-word-document-detect-missing-fonts-with-aspose-words/) | เรียนรู้วิธีบันทึกเอกสาร Word พร้อมตรวจจับแบบอักษรที่หายไปโดยใช้ Aspose.Words สำหรับ .NET -
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
