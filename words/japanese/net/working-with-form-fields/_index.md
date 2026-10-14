@@ -19,7 +19,7 @@ Aspose.Words for .NET は様々なフォームフィールドタイプをサポ�
 
 
 {{< tutorial-card link="./insert-form-fields/" title="Word文書にコンボボックスフォームフィールドを挿入する" imgSrc="./insert-form-fields/images/thumb.png" >}}
-
+{{< tutorial-card link="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/" title="C#でdocxをpdfに変換し、フォームフィールドを非表示にする方法" imgSrc="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

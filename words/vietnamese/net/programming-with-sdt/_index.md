@@ -24,6 +24,7 @@ Các mẫu mã được cung cấp trong hướng dẫn sẽ giúp bạn hiểu 
  ## Hướng dẫn
 | Tiêu đề | Mô tả |
 | --- | --- |
+| [Tạo tài liệu Word mới và chèn điều khiển nội dung trong C#](./create-new-word-document-and-insert-content-control-in-c/) | Hướng dẫn tạo tài liệu Word mới và chèn điều khiển nội dung bằng C# trong Aspose.Words. |
 | [Kiểm soát nội dung loại hộp kiểm](./check-box-type-content-control/) | Tìm hiểu cách thêm Kiểm soát nội dung loại hộp kiểm vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. |
 | [Trạng thái hiện tại của hộp kiểm](./current-state-of-check-box/) | Tìm hiểu cách quản lý hộp kiểm trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn này bao gồm thiết lập, cập nhật và lưu hộp kiểm theo chương trình. |
 | [Sửa đổi Kiểm soát Nội dung](./modify-content-controls/) | Tìm hiểu cách sửa đổi thẻ tài liệu có cấu trúc trong Word bằng Aspose.Words cho .NET. Cập nhật văn bản, danh sách thả xuống và hình ảnh từng bước. |

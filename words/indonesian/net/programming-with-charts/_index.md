@@ -41,10 +41,15 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 
 {{< tutorial-card link="./format-secondary-axis/" title="Format Sumbu X Sekunder dan Atur Unit Tampilan ke Ribuan dalam Diagram Garis Word Menggunakan Aspose.Words untuk .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
 
+{{< tutorial-card link="./aspose-words-radial-chart-example-enable-graduations-in-c/" title="Contoh Bagan Radial Aspose.Words: Aktifkan Graduasi dalam C#" imgSrc="./aspose-words-radial-chart-example-enable-graduations-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Simpan Dokumen yang Dimodifikasi dengan Irisan Bagan Pai Meledak dalam C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="Cara memformat bagan di Word dengan C# dan format angka khusus" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Cara mengatur jumlah bin histogram dan menambahkan label data dalam bagan Word menggunakan C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
+{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Sesuaikan Label Bagan Secara Programatis dalam Dokumen Word dengan C#" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | [Format Nomor Label Data Dalam Bagan](./format-number-of-data-label/) | Pelajari cara memformat label data dalam bagan menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurnakan dokumen Word Anda dengan mudah. Bahasa Indonesia:
 | [Membuat & Menyesuaikan Bagan Menggunakan Bentuk](./create-chart-using-shape/) | Pelajari cara membuat dan menyesuaikan bagan dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk visualisasi data. Bahasa Indonesia:

@@ -21,6 +21,7 @@ Dividir Documento é um recurso abrangente que explica como dividir um documento
 | Título | Descrição |
 | --- | --- |
 | [Dividir documento do Word por títulos HTML](./by-headings-html/) | Aprenda a dividir um documento do Word por títulos em HTML usando o Aspose.Words para .NET. Siga nosso guia passo a passo detalhado. |
+| [Dividir documento do Word por títulos em C#](./how-to-split-a-word-document-into-sections-by-heading-in-c/) | Aprenda a dividir um documento do Word em seções com base em títulos usando C# e Aspose.Words para .NET. |
 | [Dividir documento do Word por seções HTML](./by-sections-html/) Aprenda como dividir um documento do Word em seções em HTML usando o Aspose.Words para .NET com este guia detalhado passo a passo. |
 | [Dividir documento do Word por seções](./by-sections/) | Aprenda a dividir um documento do Word em seções usando o Aspose.Words para .NET. Siga este guia passo a passo detalhado para um gerenciamento eficiente de documentos. |
 | [Dividir documento do Word por página](./page-by-page/) | Aprenda a dividir um documento do Word por páginas usando o Aspose.Words para .NET com este guia passo a passo detalhado. Perfeito para gerenciar documentos grandes com eficiência. |

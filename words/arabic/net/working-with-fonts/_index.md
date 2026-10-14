@@ -32,6 +32,7 @@
 | [تعيين علامة التأكيد على الخط](./set-font-emphasis-mark/) |تعرّف على كيفية ضبط علامات توكيد الخطوط في Aspose.Words لـ .NET من خلال هذا الدليل المفصل خطوة بخطوة. مثالي لمطوري .NET. |
 | [تعيين مجلدات الخطوط](./set-fonts-folders/) |تعرّف على كيفية إعداد مجلدات خطوط مخصصة في Aspose.Words لـ .NET من خلال هذا الدليل الشامل خطوة بخطوة. مثالي للمطورين الذين يرغبون في تحسين خطوط المستندات. |
 | [تمكين تعطيل استبدال الخط](./enable-disable-font-substitution/) |تعرّف على كيفية تفعيل أو تعطيل استبدال الخطوط في مستندات Word باستخدام Aspose.Words لـ .NET. تأكد من تناسق مستنداتك على جميع المنصات. |
+| [كيفية تنفيذ استبدال الخط في المستند باستخدام C#](./how-to-perform-font-substitution-in-document-with-c/) |تعلم كيفية استبدال الخطوط في مستندات Word باستخدام Aspose.Words لـ .NET و C# خطوة بخطوة. |
 | [تعيين إعدادات الخط الاحتياطي](./set-font-fallback-settings/) |تعرف على كيفية تعيين إعدادات استبدال الخط في Aspose.Words لـ .NET وتخصيص استبدال الخط في مستندات Word الخاصة بك. |
 | [تحميل إعدادات Noto الاحتياطية](./load-noto-fallback-settings/) |تعرّف على كيفية تحميل إعدادات Noto الاحتياطية في مستند Word باستخدام Aspose.Words لـ .NET. اتبع دليلنا خطوة بخطوة لضمان عرض جميع الأحرف بشكل صحيح. |
 | [تعيين مثيلات مجلدات الخطوط الافتراضية](./set-fonts-folders-default-instance/) |تعرّف على كيفية تعيين مجلدات الخطوط للنسخة الافتراضية في Aspose.Words لـ .NET من خلال هذا البرنامج التعليمي خطوة بخطوة. خصّص مستندات Word بسهولة. |
@@ -66,7 +67,6 @@
 | [معالجة الخطوط المفقودة في Aspose.Words – دليل كامل C#](./handle-missing-fonts-in-aspose-words-complete-c-guide/) |تعلم كيفية التعامل مع الخطوط المفقودة في مستندات Word باستخدام Aspose.Words لـ .NET مع مثال شامل بلغة C#. |
 | [كيفية استخدام FontSettings للتعامل مع الخطوط المفقودة في Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) |تعلم كيفية تكوين FontSettings لمعالجة الخطوط المفقودة وضمان عرض المستندات بشكل صحيح باستخدام Aspose.Words لـ .NET. |
 | [كيفية التقاط التحذيرات – تعيين إعدادات الخط الافتراضية](./how-to-capture-warnings-set-default-font-settings/) |تعلم كيفية التقاط التحذيرات وتعيين إعدادات الخط الافتراضية باستخدام Aspose.Words لـ .NET. |
-
 | [معالجة الخطوط المفقودة في C# باستخدام Aspose.Words – دليل شامل](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) |تعلم كيفية اكتشاف ومعالجة الخطوط المفقودة في مستندات Word باستخدام Aspose.Words في C# خطوة بخطوة. |
 | [إنشاء إعدادات الخط في C# – اكتشاف الخطوط المفقودة وتسجيل رسائل الخط](./create-fontsettings-in-c-detect-missing-fonts-capture-font-m/) |تعرف على كيفية إنشاء FontSettings في C# لاكتشاف الخطوط المفقودة وتسجيل رسائل الخط باستخدام Aspose.Words لـ .NET. |
 | [التقاط تحذيرات الخط في C# – دليل كامل](./capture-font-warnings-in-c-complete-guide/) |تعرف على كيفية التقاط تحذيرات الخط أثناء معالجة المستندات باستخدام Aspose.Words لـ .NET بلغة C#. |

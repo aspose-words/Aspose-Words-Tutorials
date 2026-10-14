@@ -52,6 +52,8 @@
 | [Резюмирование документа Word с локальной LLM – руководство на C#](./summarize-word-document-with-local-llm-c-guide/) | Узнайте, как использовать локальную LLM для резюмирования Word‑документов на C# с помощью Aspose.Words. |
 | [Как проверить грамматику в документах Word – Полное руководство на C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Узнайте, как с помощью Aspose.Words для .NET реализовать проверку грамматики в документах Word, используя C#. |
 | [Как проверить грамматику с помощью локальной LLM на C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Узнайте, как использовать локальную модель LLM в C# для проверки грамматики текста с помощью Aspose.Words. |
+| [Резюмирование документа Word с ИИ‑резюмированием](./summarize-word-document-with-ai-document-summarization/) | Полное руководство по резюмированию документов Word с использованием ИИ‑технологий. |
+| [Как перевести docx на французский с помощью ИИ в C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Пошаговое руководство по переводу DOCX‑файлов на французский язык с использованием ИИ и Aspose.Words в C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

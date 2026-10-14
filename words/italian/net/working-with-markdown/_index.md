@@ -41,6 +41,7 @@
 | [Enfasi](./emphases/) | Scopri come creare testo enfatizzato in Markdown usando Aspose.Words per .NET. Questa guida illustra gli stili grassetto, corsivo e combinato con istruzioni dettagliate. |
 | [Utilizzare la fonte di avviso](./use-warning-source/) | Padroneggia Aspose.Words per .NET con questa guida dettagliata sull'utilizzo della classe WarningSource per la gestione degli avvisi di Markdown. Perfetta per gli sviluppatori C#. |
 | [Carica file Markdown in un documento – Tutorial completo di parsing](./load-markdown-file-into-a-document-complete-parsing-tutorial/) | Scopri come caricare un file Markdown in un documento Word e analizzarlo completamente con Aspose.Words per .NET. |
+| [Come salvare markdown come docx con Aspose.Words in C#](./how-to-save-markdown-as-docx-with-aspose-words-in-c/) | Scopri come convertire file Markdown in documenti DOCX usando Aspose.Words per .NET con C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

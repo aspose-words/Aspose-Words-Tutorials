@@ -21,6 +21,7 @@ Split Document är en omfattande resurs som förklarar hur man delar upp ett dok
 | Titel | Beskrivning |
 | --- | --- |
 | [Dela Word-dokument efter rubriker i HTML](./by-headings-html/) | Lär dig hur du delar upp ett Word-dokument efter rubriker till HTML med Aspose.Words för .NET. Följ vår detaljerade steg-för-steg-guide. |
+| [Hur du delar ett Word-dokument i sektioner efter rubrik i C#](./how-to-split-a-word-document-into-sections-by-heading-in-c/) | Lär dig hur du delar ett Word-dokument i sektioner efter rubrik med C# och Aspose.Words för .NET. |
 | [Dela Word-dokument efter avsnitt HTML](./by-sections-html/) Lär dig hur du delar upp ett Word-dokument i sektioner till HTML med Aspose.Words för .NET med den här detaljerade steg-för-steg-guiden. |
 | [Dela Word-dokument efter avsnitt](./by-sections/) | Lär dig hur du delar upp ett Word-dokument i sektioner med Aspose.Words för .NET. Följ den här detaljerade steg-för-steg-guiden för effektiv dokumenthantering. |
 | [Dela Word-dokument efter sida](./page-by-page/) | Lär dig hur du delar upp ett Word-dokument per sida med Aspose.Words för .NET med den här detaljerade steg-för-steg-guiden. Perfekt för att hantera stora dokument effektivt. |

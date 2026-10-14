@@ -19,7 +19,7 @@
 
 
 {{< tutorial-card link="./insert-form-fields/" title="إدراج حقل نموذج المربع المنسدل في مستند Word" imgSrc="./insert-form-fields/images/thumb.png" >}}
-
+{{< tutorial-card link="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/" title="كيفية تحويل docx إلى pdf وإخفاء حقول النموذج في C#" imgSrc="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -19,7 +19,7 @@
 
 
 {{< tutorial-card link="./insert-form-fields/" title="वर्ड डॉक्यूमेंट में कॉम्बो बॉक्स फॉर्म फ़ील्ड डालें" imgSrc="./insert-form-fields/images/thumb.png" >}}
-
+{{< tutorial-card link="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/" title="C# में docx को pdf में बदलें और फ़ॉर्म फ़ील्ड छिपाएँ" imgSrc="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

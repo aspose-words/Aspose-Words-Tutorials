@@ -19,7 +19,7 @@ Aspose.Words dla .NET obsługuje różne typy pól formularzy, umożliwiając pr
 
 
 {{< tutorial-card link="./insert-form-fields/" title="Wstaw pole formularza Combo Box do dokumentu Word" imgSrc="./insert-form-fields/images/thumb.png" >}}
-
+{{< tutorial-card link="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/" title="Jak przekonwertować docx na pdf i ukryć pola formularza w C#" imgSrc="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -39,29 +39,36 @@
 
 {{< tutorial-card link="./format-secondary-axis/" title="تنسيق محور X الثانوي وتعيين وحدة العرض إلى الآلاف في مخططات Word الخطية باستخدام Aspose.Words for .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
 
+{{< tutorial-card link="./aspose-words-radial-chart-example-enable-graduations-in-c/" title="مثال مخطط شعاعي Aspose.Words: تمكين التدرجات في C#" imgSrc="./aspose-words-radial-chart-example-enable-graduations-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="حفظ المستند المعدل بشرائح فطيرة منفجرة في C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="كيفية تنسيق المخطط في Word باستخدام C# وتنسيقات الأرقام المخصصة" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="كيفية تعيين عدد صناديق الرسم البياني التكراري وإضافة تسميات البيانات في مخطط Word باستخدام C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
+{{< tutorial-card link="./single-chart-series/" title="تخصيص سلسلة مخطط واحد في مخطط" imgSrc="./single-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="تعديل تسميات المخطط برمجيًا في مستند Word باستخدام C#" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | العنوان | الوصف |
 | --- | --- |
 | [تنسيق رقم تسمية البيانات في الرسم البياني](./format-number-of-data-label/) | تعلّم كيفية تنسيق تسميات البيانات في المخططات باستخدام Aspose.Words for .NET من خلال هذا الدليل المفصل. حسّن مستندات Word الخاصة بك بسهولة. |
-| [إنشاء مخطط وتخصيصه باستخدام الشكل](./create-chart-using-shape/) تعلّم كيفية إنشاء وتخصيص المخططات البيانية في مستندات Word باستخدام Aspose.Words لـ .NET من خلال هذا الدليل المفصل. مثالي لتصور البيانات.
+| [إنشاء مخطط وتخصيصه باستخدام الشكل](./create-chart-using-shape/) تعلّم كيفية إنشاء وتخصيص المخططات البيانية في مستندات Word باستخدام Aspose.Words لـ .NET من خلال هذا الدليل المفصل. مثالي لتصور البيانات. |
 | [إدراج مخطط عمودي بسيط في مستند Word](./insert-simple-column-chart/) تعلّم كيفية إدراج مخطط عمودي بسيط في Word باستخدام Aspose.Words لـ .NET. حسّن مستنداتك بعروض بيانات مرئية ديناميكية. |
 | [إدراج مخطط عمودي في مستند Word](./insert-column-chart/) | تعلّم كيفية إدراج مخططات عمودية في مستندات Word باستخدام Aspose.Words لـ .NET. حسّن عرض البيانات في تقاريرك وعروضك التقديمية. |
 | [إدراج مخطط المنطقة في مستند Word](./insert-area-chart/) |تعرف على كيفية إدراج مخطط منطقة في مستند Word باستخدام Aspose.Words لـ .NET في هذا الدليل الشامل خطوة بخطوة. |
 | [إدراج مخطط فقاعي في مستند Word](./insert-bubble-chart/) | تعلّم كيفية إدراج مخطط فقاعي في مستند وورد باستخدام Aspose.Words for .NET من خلال هذا الدليل المفصل. حسّن مستنداتك. |
 | [إدراج مخطط التشتت في مستند Word](./insert-scatter-chart/) | تعلّم كيفية إدراج مخطط تشتت في وورد باستخدام Aspose.Words لـ .NET. خطوات سهلة لدمج تمثيلات البيانات المرئية في مستنداتك. |
-| [تحديد خصائص المحور XY في الرسم البياني](./define-xyaxis-properties/) تعلّم كيفية تعريف خصائص المحور X وY في مخطط باستخدام Aspose.Words لـ .NET من خلال هذا الدليل المفصل. مثالي لمطوري .NET.
+| [تحديد خصائص المحور XY في الرسم البياني](./define-xyaxis-properties/) تعلّم كيفية تعريف خصائص المحور X وY في مخطط باستخدام Aspose.Words لـ .NET من خلال هذا الدليل المفصل. مثالي لمطوري .NET. |
 | [إضافة قيم التاريخ والوقت إلى محور الرسم البياني](./date-time-values-to-axis/) |تعرف على كيفية إضافة قيم التاريخ والوقت إلى محور الرسم البياني باستخدام Aspose.Words لـ .NET في هذا الدليل الشامل خطوة بخطوة. |
-| [تنسيق الأرقام للمحور في الرسم البياني](./number-format-for-axis/) تعلّم كيفية تنسيق أرقام محاور المخطط باستخدام Aspose.Words لـ .NET من خلال هذا الدليل المفصل. حسّن قابلية قراءة مستندك واحترافيته بسهولة.
+| [تنسيق الأرقام للمحور في الرسم البياني](./number-format-for-axis/) تعلّم كيفية تنسيق أرقام محاور المخطط باستخدام Aspose.Words لـ .NET من خلال هذا الدليل المفصل. حسّن قابلية قراءة مستندك واحترافيته بسهولة. |
 | [حدود المحور](./bounds-of-axis/) |تعرف على كيفية تعيين حدود المحور في الرسم البياني باستخدام Aspose.Words لـ .NET للتحكم في نطاق القيم المعروضة على المحور. |
 | [وحدة الفاصل الزمني بين العلامات على محور الرسم البياني](./interval-unit-between-labels-on-axis/) |تعرف على كيفية تعيين وحدة الفاصل بين العلامات على محور الرسم البياني باستخدام Aspose.Words لـ .NET. |
 | [إخفاء محور الرسم البياني في مستند Word](./hide-chart-axis/) |تعرف على كيفية إخفاء محور الرسم البياني في مستند Word باستخدام Aspose.Words لـ .NET من خلال البرنامج التعليمي المفصل خطوة بخطوة. |
-| [حدد محاذاة تسمية متعددة الأسطر في الرسم البياني](./tick-multi-line-label-alignment/) تعلّم كيفية محاذاة علامات متعددة الأسطر في مخطط باستخدام Aspose.Words لـ .NET من خلال دليلنا المفصل خطوة بخطوة. مثالي للمطورين من جميع المستويات.
-| [تخصيص تسمية بيانات الرسم البياني](./chart-data-label/) تعرّف على كيفية تخصيص تسميات بيانات المخططات باستخدام Aspose.Words لـ .NET في دليل خطوة بخطوة. مثالي لمطوري .NET.
-| [تعيين الخيارات الافتراضية لعناوين البيانات في الرسم البياني](./default-options-for-data-labels/) تعرّف على كيفية تعيين خيارات افتراضية لعلامات البيانات في مخطط بياني باستخدام Aspose.Words لـ .NET. اتبع دليلنا خطوة بخطوة لإنشاء المخططات البيانية وتخصيصها بسهولة.
+| [حدد محاذاة تسمية متعددة الأسطر في الرسم البياني](./tick-multi-line-label-alignment/) تعلّم كيفية محاذاة علامات متعددة الأسطر في مخطط باستخدام Aspose.Words لـ .NET من خلال دليلنا المفصل خطوة بخطوة. مثالي للمطورين من جميع المستويات. |
+| [تخصيص تسمية بيانات الرسم البياني](./chart-data-label/) تعرّف على كيفية تخصيص تسميات بيانات المخططات باستخدام Aspose.Words لـ .NET في دليل خطوة بخطوة. مثالي لمطوري .NET. |
+| [تعيين الخيارات الافتراضية لعناوين البيانات في الرسم البياني](./default-options-for-data-labels/) تعرّف على كيفية تعيين خيارات افتراضية لعلامات البيانات في مخطط بياني باستخدام Aspose.Words لـ .NET. اتبع دليلنا خطوة بخطوة لإنشاء المخططات البيانية وتخصيصها بسهولة. |
 | [تخصيص نقطة بيانات مخطط واحدة في مخطط](./single-chart-data-point/) | تعرّف على كيفية تخصيص نقاط بيانات مخطط فردي باستخدام Aspose.Words لـ .NET في دليل مفصل خطوة بخطوة. حسّن مخططاتك باستخدام علامات وأحجام فريدة. |
 | [تخصيص سلسلة مخطط واحد في مخطط](./single-chart-series/) | تعرّف على كيفية تخصيص سلسلة مخططات فردية في مستند Word باستخدام Aspose.Words لـ .NET. اتبع دليلنا خطوة بخطوة لتجربة سلسة. |
 

@@ -50,6 +50,8 @@
 | [使用本地 LLM 汇总 Word 文档 – C# 指南](./summarize-word-document-with-local-llm-c-guide/) 使用 Aspose.Words for .NET 与本地大型语言模型（LLM）在 C# 中实现 Word 文档的自动摘要，提供完整分步指南。|
 | [如何在 Word 文档中检查语法 – 完整 C# 指南](./how-to-check-grammar-in-word-documents-complete-c-guide/) 使用 Aspose.Words for .NET 和 C# 检查 Word 文档中的语法错误，提升文档质量的完整指南。|
 | [如何使用本地 LLM 检查 C# 语法](./how-to-check-grammar-with-a-local-llm-in-c/) 了解如何在 C# 项目中集成本地大语言模型进行语法检查，提升代码质量。|
+| [使用 AI 文档摘要汇总 Word 文档](./summarize-word-document-with-ai-document-summarization/) 使用 Aspose.Words for .NET 与 AI 文档摘要功能，在 C# 中实现 Word 文档的自动汇总。|
+| [在 C# 中使用 AI 将 docx 翻译为法语](./how-to-translate-docx-to-french-with-ai-in-c/) 使用 Aspose.Words for .NET 与 AI 在 C# 中实现 docx 文档的法语翻译，提供详细步骤和最佳实践。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

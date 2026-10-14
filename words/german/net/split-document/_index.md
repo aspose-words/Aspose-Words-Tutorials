@@ -21,6 +21,7 @@
 | Titel | Beschreibung |
 | --- | --- |
 | [Word-Dokument nach Überschriften aufteilen (HTML)](./by-headings-html/) | Erfahren Sie, wie Sie ein Word-Dokument mit Aspose.Words für .NET nach Überschriften in HTML aufteilen. Folgen Sie unserer detaillierten Schritt-für-Schritt-Anleitung. |
+| [Word-Dokument nach Überschriften aufteilen (C#)](./how-to-split-a-word-document-into-sections-by-heading-in-c/) | Erfahren Sie, wie Sie ein Word-Dokument mit Aspose.Words für .NET nach Überschriften in C# aufteilen. |
 | [Word-Dokument nach HTML-Abschnitten aufteilen](./by-sections-html/) Erfahren Sie in dieser ausführlichen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET ein Word-Dokument nach Abschnitten in HTML aufteilen. |
 | [Word-Dokument nach Abschnitten aufteilen](./by-sections/) | Erfahren Sie, wie Sie ein Word-Dokument mit Aspose.Words für .NET in Abschnitte aufteilen. Folgen Sie dieser detaillierten Schritt-für-Schritt-Anleitung für effizientes Dokumentenmanagement. |
 | [Word-Dokument nach Seite aufteilen](./page-by-page/) | Erfahren Sie in dieser detaillierten Schritt-für-Schritt-Anleitung, wie Sie ein Word-Dokument mit Aspose.Words für .NET seitenweise aufteilen. Perfekt für die effiziente Verwaltung großer Dokumente. |

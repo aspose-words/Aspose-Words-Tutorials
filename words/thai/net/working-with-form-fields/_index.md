@@ -20,6 +20,8 @@ Aspose.Words สำหรับ .NET รองรับฟิลด์แบบ�
 
 {{< tutorial-card link="./insert-form-fields/" title="การแทรกเขตข้อมูลฟอร์มกล่องรวมในเอกสาร Word" imgSrc="./insert-form-fields/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/" title="วิธีแปลง docx เป็น pdf และซ่อนฟิลด์ฟอร์มใน C#" imgSrc="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

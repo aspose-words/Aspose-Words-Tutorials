@@ -36,6 +36,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Ganti Dengan String](./replace-with-string/) | Pelajari cara mengganti string dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurna bagi pengembang yang ingin mengotomatiskan pengeditan dokumen. Bahasa Indonesia:
 | [Ganti Teks Dalam Tabel](./replace-text-in-table/) | Ganti teks dalam tabel Word dengan mudah menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci ini. |
 | [Ganti Teks di DOCX dengan C# – Panduan Langkah‑per‑Langkah](./replace-text-in-docx-with-c-step-by-step-guide/) | Pelajari cara mengganti teks dalam file DOCX menggunakan C# dengan Aspose.Words untuk .NET melalui panduan langkah demi langkah. |
+| [Cara mengganti placeholder dalam file DOCX dengan Aspose.Words](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | Pelajari cara mengganti placeholder dalam file DOCX menggunakan Aspose.Words untuk .NET dengan contoh kode langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

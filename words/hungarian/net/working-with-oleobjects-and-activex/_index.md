@@ -27,8 +27,8 @@ Ezek az oktatóanyagok gyakorlatias, lépésről lépésre bemutatják a szöveg
 | [Ole objektum beszúrása Wordbe Ole csomaggal](./insert-ole-object-with-ole-package/) | Ismerje meg, hogyan szúrhat be OLE objektumokat Word dokumentumokba az Aspose.Words for .NET segítségével. Kövesse részletes, lépésről lépésre szóló útmutatónkat a fájlok zökkenőmentes beágyazásához. |
 | [Ole objektum beszúrása ikonként Word dokumentumba](./insert-ole-object-as-icon/) | Ismerje meg, hogyan szúrhat be OLE objektumot ikonként Word dokumentumokba az Aspose.Words for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat dokumentumai fejlesztéséhez. |
 | [Ole objektum beszúrása ikonként Stream használatával](./insert-ole-object-as-icon-using-stream/) | Tanuld meg, hogyan szúrhatsz be egy OLE objektumot ikonként egy adatfolyam használatával az Aspose.Words for .NET segítségével ebben a részletes, lépésről lépésre szóló útmutatóban. |
-| [Active XControl tulajdonságok beolvasása Word fájlból](./read-active-xcontrol-properties/) | Tanulja meg, hogyan olvashat ActiveX-vezérlők tulajdonságait Word-fájlokból az Aspose.Words for .NET segítségével egy lépésről lépésre szóló útmutatóban. Fejlessze dokumentumautomatizálási készségeit. |
-
+| [Active XControl tulajdonságok beolvasása Word fájlból](./read-active-xcontrol-properties/) | Tanulja meg, hogyan olvashat ActiveX-vezérlők tulajdonságait Word-fájlokból az Aspose.Words for .NET segítségével egy lépésről szóló útmutatóban. Fejlessze dokumentumautomatizálási készségeit. |
+| [Parancsgomb hozzáadása programozottan egy Word dokumentumba](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | Tanulja meg, hogyan adhat hozzá parancsgombot programozottan egy Word dokumentumhoz az Aspose.Words for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

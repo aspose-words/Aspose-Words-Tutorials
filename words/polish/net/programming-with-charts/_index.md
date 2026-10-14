@@ -39,10 +39,25 @@ Dzięki tym samouczkom będziesz w stanie ulepszyć swoje dokumenty Word, dodaj�
 
 {{< tutorial-card link="./format-secondary-axis/" title="Formatuj drugą oś X i ustaw jednostki wyświetlania na tysiące w wykresach liniowych Word przy użyciu Aspose.Words dla .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
 
+{{< tutorial-card link="./aspose-words-radial-chart-example-enable-graduations-in-c/" title="Przykład wykresu radialnego Aspose.Words: włącz podziały w C#" imgSrc="./aspose-words-radial-chart-example-enable-graduations-in-c/images/thumb.png" >}}
+
+{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Zapisz zmodyfikowany dokument z wybuchniętymi fragmentami wykresu kołowego w C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
+
+{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="Jak sformatować wykres w Wordzie przy użyciu C# i własnych formatów liczb" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
+
+{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Jak ustawić liczbę przedziałów histogramu i dodać etykiety danych w wykresie Word przy użyciu C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
+
+{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Programowe dostosowanie etykiet wykresu w dokumencie Word przy użyciu C#" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
 
 
+{{< blocks/products/products-backtop-button >}}
 
 | Tytuł | Opis |
 | --- | --- |
@@ -63,15 +78,6 @@ Dzięki tym samouczkom będziesz w stanie ulepszyć swoje dokumenty Word, dodaj�
 | [Dostosuj etykietę danych wykresu](./chart-data-label/) | Dowiedz się, jak dostosowywać etykiety danych wykresu za pomocą Aspose.Words dla .NET w przewodniku krok po kroku. Idealne dla programistów .NET. |
 | [Ustaw domyślne opcje etykiet danych na wykresie](./default-options-for-data-labels/) | Dowiedz się, jak ustawić domyślne opcje etykiet danych na wykresie przy użyciu Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bez wysiłku tworzyć i dostosowywać wykresy. |
 | [Dostosuj pojedynczy punkt danych wykresu na wykresie](./single-chart-data-point/) | Dowiedz się, jak dostosować pojedyncze punkty danych wykresu za pomocą Aspose.Words dla .NET w szczegółowym przewodniku krok po kroku. Ulepsz swoje wykresy za pomocą unikalnych znaczników i rozmiarów. |
-| [Dostosuj pojedynczą serię wykresów na wykresie](./single-chart-series/) | Dowiedz się, jak dostosować pojedynczą serię wykresów w dokumencie Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezproblemowe działanie. |
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/products-backtop-button >}}
+| [Dostosuj pojedynczą serię wykresów na wykresie](./single-chart-series/) | Dowiedz się, jak dostosować pojedną serię wykresów w dokumencie Word przy użyciu Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezproblemowe działanie. |
+| [Jak sformatować wykres w Wordzie przy użyciu C# i własnych formatów liczb](./how-to-format-chart-in-word-with-c-and-custom-number-formats/) | Dowiedz się, jak sformatować wykres w Wordzie przy użyciu C# i własnych formatów liczbowych. |
+| [Jak ustawić liczbę przedziałów histogramu i dodać etykiety danych w wykresie Word przy użyciu C#](./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/) | Dowiedz się, jak ustawić liczbę przedziałów histogramu i dodać etykiety danych w wykresie Word przy użyciu C#. |

@@ -41,6 +41,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Penekanan](./emphases/) | Pelajari cara membuat teks yang ditekankan di Markdown menggunakan Aspose.Words untuk .NET. Panduan ini mencakup gaya tebal, miring, dan gabungan dengan petunjuk langkah demi langkah. Bahasa Indonesia:
 | [Gunakan Sumber Peringatan](./use-warning-source/) | Kuasai Aspose.Words untuk .NET dengan panduan langkah demi langkah tentang penggunaan kelas WarningSource untuk menangani peringatan Markdown. Sempurna untuk pengembang C#. |
 | [Muat File Markdown ke Dokumen – Tutorial Parsing Lengkap](./load-markdown-file-into-a-document-complete-parsing-tutorial/) | Pelajari cara memuat file Markdown ke dalam dokumen menggunakan Aspose.Words untuk .NET dengan tutorial parsing lengkap. |
+| [Cara menyimpan markdown sebagai docx dengan Aspose.Words di C#](./how-to-save-markdown-as-docx-with-aspose-words-in-c/) | Pelajari cara menyimpan file Markdown menjadi dokumen DOCX menggunakan Aspose.Words di C# dengan contoh langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

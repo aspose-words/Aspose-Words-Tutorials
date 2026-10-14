@@ -1,5 +1,5 @@
 ---
-"description": "Naučte se, jak vytvářet, upravovat a manipulovat s grafikou v dokumentech Wordu pomocí Aspose.Words pro .NET. Výukové programy poskytují podrobná vysvětlení a zdrojový kód C#, které vám pomohou s přidáváním grafů."
+"description": "Naučte se, jak vytvářet, upravovat a manipulovat s grafikou v dokumentech Wordu pomocí Aspose.Words pro .NET. Výukové programy poskytují podrobné vysvětlení a zdrojový kód C#, které vám pomohou s přidáváním grafů."
 "linktitle": "Používání grafů"
 "second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
 "title": "Používání API grafů slov"
@@ -39,10 +39,15 @@ těmito tutoriály budete moci vylepšit své dokumenty Word přidáním vizuál
 
 {{< tutorial-card link="./format-secondary-axis/" title="Formátování sekundární osy X a nastavení zobrazovacích jednotek na tisíce v čárových grafech Word pomocí Aspose.Words pro .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
 
+{{< tutorial-card link="./aspose-words-radial-chart-example-enable-graduations-in-c/" title="Příklad radiálního grafu Aspose.Words: povolení stupnice v C#" imgSrc="./aspose-words-radial-chart-example-enable-graduations-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Programaticky upravit popisky grafu v dokumentu Word pomocí C#" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
+{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Uložení upraveného dokumentu s výbuchovými výsečemi koláčového grafu v C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="Jak formátovat graf ve Wordu pomocí C# a vlastních číselných formátů" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Jak nastavit počet košů histogramu a přidat popisky dat v grafu Word pomocí C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
 | Název | Popis |
 | --- | --- |
@@ -64,7 +69,7 @@ těmito tutoriály budete moci vylepšit své dokumenty Word přidáním vizuál
 | [Nastavení výchozích možností pro popisky dat v grafu](./default-options-for-data-labels/) | Naučte se, jak nastavit výchozí možnosti pro popisky dat v grafu pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu a bez námahy si vytvořte a upravte grafy. |
 | [Přizpůsobení jednoho datového bodu v grafu](./single-chart-data-point/) | Naučte se, jak přizpůsobit jednotlivé datové body grafu pomocí Aspose.Words pro .NET v podrobném návodu krok za krokem. Vylepšete své grafy jedinečnými značkami a velikostmi. |
 | [Přizpůsobení jedné série grafů v grafu](./single-chart-series/) | Naučte se, jak přizpůsobit jednotlivé série grafů v dokumentu Word pomocí Aspose.Words pro .NET. Pro bezproblémový zážitek postupujte podle našeho podrobného návodu. |
-
+| [Příklad radiálního grafu Aspose.Words: povolení stupnice v C#](./aspose-words-radial-chart-example-enable-graduations-in-c/) | Naučte se, jak povolit stupnice v radiálním grafu pomocí Aspose.Words pro .NET v jazyce C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -20,6 +20,8 @@ Aspose.Words для .NET поддерживает различные типы п
 
 {{< tutorial-card link="./insert-form-fields/" title="Вставить поле формы «Комбинированный список» в документ Word" imgSrc="./insert-form-fields/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/" title="Как конвертировать DOCX в PDF и скрыть поля формы в C#" imgSrc="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -21,6 +21,7 @@ Split Document to kompleksowe źródło, które wyjaśnia, jak podzielić dokume
 | Tytuł | Opis |
 | --- | --- |
 | [Podziel dokument Word według nagłówków Html](./by-headings-html/) | Dowiedz się, jak podzielić dokument Word według nagłówków na HTML za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem krok po kroku. |
+| [Jak podzielić dokument Word na sekcje według nagłówka w C#](./how-to-split-a-word-document-into-sections-by-heading-in-c/) | Dowiedz się, jak przy użyciu Aspose.Words dla .NET podzielić dokument Word na sekcje według nagłówków w C#. |
 | [Podziel dokument Word według sekcji HTML](./by-sections-html/) Dowiedz się, jak podzielić dokument Word na sekcje do formatu HTML za pomocą Aspose.Words dla platformy .NET, korzystając z tego szczegółowego przewodnika krok po kroku. |
 | [Podziel dokument Word według sekcji](./by-sections/) | Dowiedz się, jak podzielić dokument Word na sekcje za pomocą Aspose.Words dla .NET. Postępuj zgodnie z tym szczegółowym przewodnikiem krok po kroku, aby skutecznie zarządzać dokumentami. |
 | [Podziel dokument Word według strony](./page-by-page/) | Dowiedz się, jak podzielić dokument Word według strony za pomocą Aspose.Words dla .NET dzięki temu szczegółowemu przewodnikowi krok po kroku. Idealne do wydajnego zarządzania dużymi dokumentami. |

@@ -39,10 +39,15 @@ Com estes tutoriais, você poderá aprimorar seus documentos do Word adicionando
 
 {{< tutorial-card link="./format-secondary-axis/" title="Formate o eixo X secundário e defina unidades de exibição para milhares em gráficos de linhas do Word usando Aspose.Words para .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
 
+{{< tutorial-card link="./aspose-words-radial-chart-example-enable-graduations-in-c/" title="Exemplo de gráfico radial Aspose.Words: habilitar graduações em C#" imgSrc="./aspose-words-radial-chart-example-enable-graduations-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Salvar documento modificado com fatias de gráfico de pizza explodidas em C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="Como formatar gráfico no Word com C# e formatos numéricos personalizados" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Como definir a contagem de bins de histograma e adicionar rótulos de dados em um gráfico do Word usando C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
+{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Ajustar programaticamente rótulos de gráfico em um documento Word com C#" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | Título | Descrição |
 | --- | --- |
@@ -55,7 +60,7 @@ Com estes tutoriais, você poderá aprimorar seus documentos do Word adicionando
 | [Inserir gráfico de dispersão em documento do Word](./insert-scatter-chart/) | Aprenda a inserir um gráfico de dispersão no Word com o Aspose.Words para .NET. Etapas simples para integrar representações visuais de dados aos seus documentos. |
 | [Definir propriedades do eixo XY em um gráfico](./define-xyaxis-properties/) Aprenda a definir as propriedades do eixo XY em um gráfico usando o Aspose.Words para .NET com este guia passo a passo. Perfeito para desenvolvedores .NET. |
 | [Adicionar valores de data e hora ao eixo de um gráfico](./date-time-values-to-axis/) | Aprenda como adicionar valores de data e hora ao eixo de um gráfico usando o Aspose.Words para .NET neste guia passo a passo abrangente. |
-| [Formato numérico para eixo em um gráfico](./number-format-for-axis/) | Aprenda a formatar números de eixo de gráfico usando o Aspose.Words para .NET com este guia passo a passo. Melhore a legibilidade e o profissionalismo do seu documento sem esforço. |
+| [Formato numérico para eixo em um gráfico](./number-format-for-axis/) | Aprenda a formatar números de eixo de gráfico usando o Aspose.Words para .NET com um guia passo a passo. Melhore a legibilidade e o profissionalismo do seu documento sem esforço. |
 | [Limites do Eixo](./bounds-of-axis/) | Aprenda a definir os limites de um eixo em um gráfico usando o Aspose.Words para .NET controlando o intervalo de valores exibidos no eixo. |
 | [Unidade de intervalo entre rótulos no eixo de um gráfico](./interval-unit-between-labels-on-axis/) | Aprenda a definir a unidade de intervalo entre rótulos no eixo de um gráfico usando o Aspose.Words para .NET. |
 | [Ocultar eixo do gráfico em um documento do Word](./hide-chart-axis/) Aprenda como ocultar o eixo do gráfico em um documento do Word usando o Aspose.Words para .NET com nosso tutorial detalhado passo a passo. |
@@ -64,7 +69,7 @@ Com estes tutoriais, você poderá aprimorar seus documentos do Word adicionando
 | [Definir opções padrão para rótulos de dados em um gráfico](./default-options-for-data-labels/) | Aprenda a definir opções padrão para rótulos de dados em um gráfico usando o Aspose.Words para .NET. Siga nosso guia passo a passo para criar e personalizar gráficos sem esforço. |
 | [Personalize um único ponto de dados do gráfico em um gráfico](./single-chart-data-point/) | Aprenda a personalizar pontos de dados de gráficos individuais usando o Aspose.Words para .NET em um guia passo a passo detalhado. Aprimore seus gráficos com marcadores e tamanhos exclusivos. |
 | [Personalizar séries de gráficos individuais em um gráfico](./single-chart-series/) | Aprenda a personalizar séries de gráficos individuais em um documento do Word usando o Aspose.Words para .NET. Siga nosso guia passo a passo para uma experiência perfeita. |
-
+| [Como formatar gráfico no Word com C# e formatos numéricos personalizados](./how-to-format-chart-in-word-with-c-and-custom-number-formats/) | Aprenda a aplicar formatos numéricos personalizados a gráficos no Word usando Aspose.Words para .NET e C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -35,14 +35,13 @@ Met deze tutorials kunt u uw Word-documenten verbeteren door visueel aantrekkeli
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Voeg een voorbeeld kolomgrafiek toe aan een Word‑document met Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
-{{< tutorial-card link="./modify-chart-series/" title="Grafiekseriedata bijwerken in een Word‑document met Aspose.Words for .NET" imgSrc="./modify-chart-series/images/thumb.png" >}}
+{{< tutorial-card link="./modify-chart-series/" title="Grafiekseriedata bijwerken in een Word‑document met Aspose.Words voor .NET" imgSrc="./modify-chart-series/images/thumb.png" >}}
 
 {{< tutorial-card link="./format-secondary-axis/" title="Formatteer de secundaire X‑as en stel weergave‑eenheden in op duizenden in Word‑lijndiagrammen met Aspose.Words voor .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
 
+{{< tutorial-card link="./aspose-words-radial-chart-example-enable-graduations-in-c/" title="Aspose.Words radiale grafiekvoorbeeld: graduaties inschakelen in C#" imgSrc="./aspose-words-radial-chart-example-enable-graduations-in-c/images/thumb.png" >}}
 
-
-
-
+{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Aangepast document opslaan met uitgeklapte taartdiagramsegmenten in C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
 | Titel | Beschrijving |
 | --- | --- |
@@ -64,7 +63,9 @@ Met deze tutorials kunt u uw Word-documenten verbeteren door visueel aantrekkeli
 | [Standaardopties instellen voor gegevenslabels in een grafiek](./default-options-for-data-labels/) | Leer hoe u standaardopties voor gegevenslabels in een grafiek instelt met Aspose.Words voor .NET. Volg onze stapsgewijze handleiding om moeiteloos grafieken te maken en aan te passen. |
 | [Pas een enkel grafiekgegevenspunt in een grafiek aan](./single-chart-data-point/) | Leer hoe u afzonderlijke grafiekgegevenspunten kunt aanpassen met Aspose.Words voor .NET in een gedetailleerde stapsgewijze handleiding. Verfraai uw grafieken met unieke markeringen en formaten. |
 | [Pas enkele grafiekreeksen in een grafiek aan](./single-chart-series/) | Leer hoe u afzonderlijke grafiekreeksen in een Word-document kunt aanpassen met Aspose.Words voor .NET. Volg onze stapsgewijze handleiding voor een naadloze ervaring. |
-
+| [Hoe een grafiek in Word te formatteren met C# en aangepaste getalformaten](./how-to-format-chart-in-word-with-c-and-custom-number-formats/) | Leer hoe u met C# aangepaste getalformaten toepast op grafieken in Word met Aspose.Words. |
+| [Hoe het aantal histogrambins in te stellen en gegevenslabels toe te voegen in een Word‑grafiek met C#](./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/) | Leer hoe u het aantal bins van een histogram instelt en data‑labels toevoegt aan een Word‑grafiek met C#. |
+| [Programmamatig grafieklabels aanpassen in een Word‑document met C#](./programmatically-adjust-chart-labels-in-a-word-document-with/) | Leer hoe u grafieklabels in een Word‑document programmatic kunt aanpassen met C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -52,6 +52,8 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Tóm tắt tài liệu Word bằng LLM cục bộ – Hướng dẫn C#](./summarize-word-document-with-local-llm-c-guide/) | Khám phá cách sử dụng Aspose.Words cho .NET với LLM cục bộ để tóm tắt tài liệu Word bằng C# một cách nhanh chóng và hiệu quả. |
 | [Cách Kiểm Tra Ngữ Pháp trong Tài Liệu Word – Hướng Dẫn C# Đầy Đủ](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET để kiểm tra ngữ pháp trong tài liệu Word bằng C#. |
 | [Cách kiểm tra ngữ pháp bằng LLM cục bộ trong C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Hướng dẫn tích hợp LLM cục bộ trong C# để kiểm tra ngữ pháp tài liệu Word bằng Aspose.Words. |
+| [Tóm tắt tài liệu Word bằng AI – Hướng dẫn tóm tắt tài liệu](./summarize-word-document-with-ai-document-summarization/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET và AI để tóm tắt tài liệu Word một cách nhanh chóng. |
+| [Cách dịch tài liệu docx sang tiếng Pháp bằng AI trong C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET và AI để dịch tài liệu DOCX sang tiếng Pháp bằng C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

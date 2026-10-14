@@ -23,7 +23,7 @@
 | [設定註腳列](./set-foot-note-columns/) 了解如何使用 Aspose.Words for .NET 在 Word 文件中設定註腳列。按照我們的逐步指南輕鬆自訂腳註佈局。 |
 | [設定註腳和尾註位置](./set-footnote-and-end-note-position/) |透過本詳細的逐步指南了解如何使用 Aspose.Words for .NET 在 Word 文件中設定腳註和尾註的位置。 |
 | [設定尾註選項](./set-endnote-options/) |透過本全面的逐步指南了解如何使用 Aspose.Words for .NET 在 Word 文件中設定尾註選項。 |
-
+| [如何變更腳註分隔線並自訂其樣式於 Word 文件](./how-to-change-footnote-separator-and-customize-its-style-in/) | 了解如何使用 Aspose.Words for .NET 在 Word 文件中更改腳註分隔線並自訂其樣式的步驟。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

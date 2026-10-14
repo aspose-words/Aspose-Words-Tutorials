@@ -41,6 +41,7 @@ Words Processing with Markdown to kompleksowe źródło wiedzy na temat pracy z 
 | [Akcenty](./emphases/) | Dowiedz się, jak tworzyć wyróżniony tekst w Markdown przy użyciu Aspose.Words dla .NET. Ten przewodnik obejmuje style pogrubione, kursywę i łączone z instrukcjami krok po kroku. |
 | [Użyj źródła ostrzeżenia](./use-warning-source/) | Poznaj Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku na temat używania klasy WarningSource do obsługi ostrzeżeń Markdown. Idealne dla programistów C#. |
 | [Załaduj plik Markdown do dokumentu – Kompletny samouczek parsowania](./load-markdown-file-into-a-document-complete-parsing-tutorial/) | Dowiedz się, jak wczytać plik Markdown do dokumentu i przeprowadzić pełne parsowanie przy użyciu Aspose.Words dla .NET. |
+| [Jak zapisać markdown jako docx przy użyciu Aspose.Words w C#](./how-to-save-markdown-as-docx-with-aspose-words-in-c/) | Dowiedz się, jak zapisać plik Markdown jako dokument DOCX przy użyciu Aspose.Words w C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
