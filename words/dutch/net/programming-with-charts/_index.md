@@ -35,9 +35,11 @@ Met deze tutorials kunt u uw Word-documenten verbeteren door visueel aantrekkeli
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Voeg een voorbeeld kolomgrafiek toe aan een Word‑document met Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
-{{< tutorial-card link="./modify-chart-series/" title="Grafiekseriedata bijwerken in een Word‑document met Aspose.Words for .NET" imgSrc="./modify-chart-series/images/thumb.png" >}}
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Aanpassen van X‑as‑roosterlijnen in een kolomgrafiek met Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
 
 {{< tutorial-card link="./format-secondary-axis/" title="Formatteer de secundaire X‑as en stel weergave‑eenheden in op duizenden in Word‑lijndiagrammen met Aspose.Words voor .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Grafiektitel bijwerken en legenda‑zichtbaarheid schakelen in Word met Aspose.Words voor .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
 

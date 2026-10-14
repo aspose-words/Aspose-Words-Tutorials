@@ -35,9 +35,11 @@ Aspose.Words for .NET 圖形程式教學提供了全面的資源，用於學習�
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="使用 Aspose.Words for .NET 在 Word 文件中插入範例直條圖" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
-{{< tutorial-card link="./modify-chart-series/" title="使用 Aspose.Words for .NET 在 Word 文件中更新 Chart 系列資料。" imgSrc="./modify-chart-series/images/thumb.png" >}}
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="使用 Aspose.Words for .NET 自訂直條圖的 X 軸格線" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
 
 {{< tutorial-card link="./format-secondary-axis/" title="使用 Aspose.Words for .NET 在 Word 折線圖中格式化次要 X 軸並將顯示單位設定為千位" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="使用 Aspose.Words for .NET 在 Word 中更新圖表標題並切換圖例可見性" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
 

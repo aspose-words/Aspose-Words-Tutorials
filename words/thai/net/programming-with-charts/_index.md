@@ -37,9 +37,11 @@
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="แทรกแผนภูมิคอลัมน์ตัวอย่างในเอกสาร Word ด้วย Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
-{{< tutorial-card link="./modify-chart-series/" title="อัปเดตข้อมูลซีรีส์ของแผนภูมิในเอกสาร Word ด้วย Aspose.Words for .NET" imgSrc="./modify-chart-series/images/thumb.png" >}}
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="ปรับแต่งเส้นกริดแกน X ในแผนภูมิคอลัมน์โดยใช้ Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
 
 {{< tutorial-card link="./format-secondary-axis/" title="จัดรูปแบบแกน X รองและตั้งหน่วยการแสดงผลเป็นพันในแผนภูมิเส้นของ Word โดยใช้ Aspose.Words for .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="อัปเดตชื่อแผนภูมิและสลับการแสดงผลของคำอธิบายใน Word ด้วย Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
 

@@ -35,9 +35,11 @@ Com estes tutoriais, você poderá aprimorar seus documentos do Word adicionando
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Inserir Gráfico de Colunas de Exemplo em Documento Word Usando Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
-{{< tutorial-card link="./modify-chart-series/" title="Atualizar Dados de Séries de Gráfico em um Documento Word Usando Aspose.Words for .NET" imgSrc="./modify-chart-series/images/thumb.png" >}}
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Personalize as linhas de grade do eixo X em um gráfico de colunas usando Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
 
 {{< tutorial-card link="./format-secondary-axis/" title="Formate o eixo X secundário e defina unidades de exibição para milhares em gráficos de linhas do Word usando Aspose.Words para .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Atualizar o Título do Gráfico e Alternar a Visibilidade da Legenda no Word usando Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
 

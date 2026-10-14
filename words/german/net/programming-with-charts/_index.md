@@ -35,9 +35,11 @@ Mit diesen Tutorials können Sie Ihre Word-Dokumente mit ansprechenden und infor
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Beispiel‑Säulendiagramm in ein Word‑Dokument einfügen mit Aspose.Words für .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
-{{< tutorial-card link="./modify-chart-series/" title="Diagramm‑Seriendaten in einem Word‑Dokument mit Aspose.Words für .NET aktualisieren" imgSrc="./modify-chart-series/images/thumb.png" >}}
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Anpassen der X‑Achsen‑Gitternetzlinien in einem Säulendiagramm mit Aspose.Words für .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
 
 {{< tutorial-card link="./format-secondary-axis/" title="Sekundäre X‑Achse formatieren und Anzeigeeinheiten auf Tausend setzen in Word‑Liniendiagrammen mit Aspose.Words für .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Diagrammtitel aktualisieren und Legenden‑Sichtbarkeit in Word mit Aspose.Words für .NET umschalten" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
 
