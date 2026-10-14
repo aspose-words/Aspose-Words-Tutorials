@@ -52,6 +52,9 @@ Leer hoe je met Aspose.Words voor Python toegankelijke PDF's maakt vanuit Word, 
 ### [Word opslaan als Markdown – Complete gids met PDF/A‑UA-export](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Leer hoe je met Aspose.Words voor Python Word-documenten opslaat als Markdown en exporteert naar PDF/A‑UA.
 
+### [DOCX naar Markdown converteren met Aspose.Words in Python](./convert-docx-to-markdown-with-aspose-words-in-python/)
+Leer hoe je DOCX-bestanden naar Markdown converteert met Aspose.Words voor Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

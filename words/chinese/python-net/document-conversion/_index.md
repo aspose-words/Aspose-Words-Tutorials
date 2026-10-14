@@ -46,6 +46,9 @@
 ### [如何从 Word 导出 LaTeX – 将 DOCX 转换为 Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 学习使用 Aspose.Words for Python 将 Word 文档导出为 LaTeX，并将 DOCX 转换为 Markdown，实现高效格式转换。
 
+### [使用 Aspose.Words 将 docx 转换为 Markdown（Python）](./convert-docx-to-markdown-with-aspose-words-in-python/)
+学习使用 Aspose.Words for Python 将 DOCX 文件转换为 Markdown，实现高效内容提取。
+
 ### [使用 Aspose.Words 将 Word 创建为 PDF – 完整 Python 指南](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 学习使用 Aspose.Words for Python 将 Word 文档转换为 PDF，轻松实现高质量文档生成。
 

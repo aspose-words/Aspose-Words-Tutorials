@@ -47,6 +47,8 @@ Lär dig hur du skapar en tillgänglig PDF från Word med Aspose.Words för Pyth
 Lär dig hur du sparar Word-dokument som Markdown och exporterar till PDF/A‑UA med Aspose.Words för Python. Steg‑för‑steg‑instruktioner och kodexempel.
 ### [Skapa PDF UA från Word – Steg‑för‑steg‑guide](./create-pdf-ua-from-word-step-by-step-guide/)
 Lär dig hur du konverterar Word-dokument till PDF/UA med Aspose.Words för Python i en detaljerad steg‑för‑steg‑guide.
+### [Konvertera DOCX till Markdown med Aspose.Words i Python](./convert-docx-to-markdown-with-aspose-words-in-python/)
+Lär dig hur du konverterar DOCX-filer till Markdown med Aspose.Words i Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

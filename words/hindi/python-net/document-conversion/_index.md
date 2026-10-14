@@ -54,6 +54,9 @@ Aspose.Words का उपयोग करके पायथन में व�
 ### [Word से PDF/UA बनाएं – चरण‑बद्ध गाइड](./create-pdf-ua-from-word-step-by-step-guide/)
 Word दस्तावेज़ से PDF/UA बनाना सीखें, चरण‑बद्ध कोड और सर्वोत्तम प्रथाओं के साथ।
 
+### [DOCX को मार्कडाउन में बदलें – Aspose.Words के साथ पायथन](./convert-docx-to-markdown-with-aspose-words-in-python/)
+Aspose.Words का उपयोग करके पायथन में DOCX को मार्कडाउन में बदलने का चरण‑दर‑स्टेप मार्गदर्शन।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
