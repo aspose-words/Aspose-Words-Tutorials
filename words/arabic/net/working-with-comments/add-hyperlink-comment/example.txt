@@ -1,0 +1,58 @@
+//ExStart
+//ExSummary: يوضح هذا البرنامج التعليمي كيفية إنشاء مستند Word، وإضافة تعليق يحتوي على ارتباط تشعبي قابل للنقر إلى موقع ويب خارجي، وتكوين التعليق ليظهر كتعليق توضيحي في PDF، وتصدير المستند إلى PDF، والتحقق من أن ملف PDF تم إنشاؤه بشكل صحيح.
+//ExStepSummary:0: أنشئ كائن Document جديد فارغ وDocumentBuilder للعمل معه.
+//ExStepSummary:1: اكتب سطرًا من النص الظاهر الذي سيستضيف التعليق القادم.
+//ExStepSummary:2: أنشئ Comment من تأليف Jane Doe وأرفقه بالفقرة الأولى من المستند.
+//ExStepSummary:3: داخل التعليق، أضف فقرة وأدرج ارتباطًا تشعبيًا أزرقًا ومُسطّرًا إلى موقع Aspose.Words Library.
+//ExStepSummary:4: قم بتكوين المستند لعرض التعليقات كتعليقات توضيحية في PDF وقم بتحديث التخطيط.
+//ExStepSummary:5: أنشئ مجلد "Output" في الدليل الحالي لتخزين ملف PDF المُولَّد.
+//ExStepSummary:6: احفظ المستند المُجهَّز كملف PDF باستخدام PdfSaveOptions.
+//ExStepSummary:7: تحقق من وجود ملف PDF وأنه يحتوي على بيانات، ثم اعرض النتيجة في وحدة التحكم.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+docBuilder.Writeln("The following paragraph includes a comment with a link.");
+
+//ExStep:2-
+Comment note = new Comment(myDocument, "Jane Doe", "JD", DateTime.Now);
+Paragraph targetParagraph = myDocument.FirstSection.Body.FirstParagraph;
+targetParagraph.AppendChild(note);
+
+//ExStep:3-
+Paragraph noteParagraph = (Paragraph)note.AppendChild(new Paragraph(myDocument));
+DocumentBuilder noteBuilder = new DocumentBuilder(myDocument);
+noteBuilder.MoveTo(noteParagraph);
+noteBuilder.Font.Color = Color.Blue;
+noteBuilder.Font.Underline = Underline.Single;
+noteBuilder.InsertHyperlink("Aspose.Words Library", "https://www.aspose.com/words", false);
+noteBuilder.Font.ClearFormatting();
+
+//ExStep:4-
+myDocument.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInAnnotations;
+myDocument.UpdatePageLayout();
+
+//ExStep:5-
+string resultFolder = Path.Combine(Directory.GetCurrentDirectory(), "Output");
+Directory.CreateDirectory(resultFolder);
+
+//ExStep:6-
+string pdfFilePath = Path.Combine(resultFolder, "CommentWithLink.pdf");
+PdfSaveOptions saveOptions = new PdfSaveOptions();
+myDocument.Save(pdfFilePath, saveOptions);
+
+//ExStep:7-
+if (File.Exists(pdfFilePath) && new FileInfo(pdfFilePath).Length > 0)
+{
+    Console.WriteLine("PDF generated successfully with a linked comment.");
+}
+else
+{
+    Console.WriteLine("PDF creation failed.");
+}
+//ExEnd
