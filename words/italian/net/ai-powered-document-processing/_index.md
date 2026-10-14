@@ -51,7 +51,8 @@ Infine, non dimenticare di dare un'occhiata al nostro [Lavorare con le opzioni d
 | [Come riassumere i documenti Word – Guida completa C#](./how-to-summarize-word-documents-complete-c-guide/) | Scopri come riassumere documenti Word usando Aspose.Words per .NET con una guida completa in C#. |
 | [Come controllare la grammatica nei documenti Word – Guida completa C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Scopri come utilizzare Aspose.Words per .NET per verificare la grammatica nei documenti Word con una guida passo‑passo in C#. |
 | [Come verificare la grammatica con un LLM locale in C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Scopri come utilizzare un modello linguistico locale per controllare la grammatica del codice C# con Aspose.Words per .NET. |
-
+| [Riassumere documento Word con sintesi AI](./summarize-word-document-with-ai-document-summarization/) | Scopri come riassumere documenti Word usando l'intelligenza artificiale con Aspose.Words per .NET. |
+| [Come tradurre docx in francese con IA in C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Scopri come tradurre file DOCX in francese usando l'intelligenza artificiale con Aspose.Words per .NET e C#. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

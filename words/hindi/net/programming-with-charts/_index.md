@@ -39,10 +39,11 @@ Aspose.Words for .NET Graphics Programming ट्यूटोरियल आप
 
 {{< tutorial-card link="./format-secondary-axis/" title="Aspose.Words for .NET का उपयोग करके Word लाइन चार्ट्स में सेकेंडरी X‑अक्ष को फ़ॉर्मेट करें और डिस्प्ले यूनिट को हजारों पर सेट करें।" imgSrc="./format-secondary-axis/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="C# और कस्टम नंबर फ़ॉर्मेट्स के साथ Word में चार्ट को फ़ॉर्मेट कैसे करें" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="C# का उपयोग करके Word चार्ट में हिस्टोग्राम बिन काउंट सेट करें और डेटा लेबल जोड़ें" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
-
-
+{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="C# के साथ Word दस्तावेज़ में चार्ट लेबल को प्रोग्रामेटिक रूप से समायोजित करें" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | शीर्षक | विवरण |
 | --- | --- |
@@ -52,7 +53,7 @@ Aspose.Words for .NET Graphics Programming ट्यूटोरियल आप
 | [वर्ड दस्तावेज़ में कॉलम चार्ट डालें](./insert-column-chart/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में कॉलम चार्ट सम्मिलित करना सीखें। अपनी रिपोर्ट और प्रस्तुतियों में डेटा विज़ुअलाइज़ेशन को बेहतर बनाएँ। |
 | [वर्ड दस्तावेज़ में क्षेत्र चार्ट डालें](./insert-area-chart/) | इस व्यापक चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में क्षेत्र चार्ट सम्मिलित करना सीखें। |
 | [वर्ड दस्तावेज़ में बबल चार्ट डालें](./insert-bubble-chart/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में बबल चार्ट सम्मिलित करना सीखें। अपने दस्तावेज़ों को बेहतर बनाएँ। |
-| [वर्ड डॉक्यूमेंट में स्कैटर चार्ट डालें](./insert-scatter-chart/) | .NET के लिए Aspose.Words के साथ Word में स्कैटर चार्ट सम्मिलित करना सीखें। अपने दस्तावेज़ों में दृश्य डेटा अभ्यावेदन को एकीकृत करने के लिए आसान चरण। |
+| [वर्ड डॉक्यूमेंट में स्कैटर चार्ट डालें](./insert-scatter-chart/) | .NET के लिए Aspose.Words के साथ Word में स्कैटर चार्ट सम्मिलित करना सीखें। अपने दस्तावेज़ में दृश्य डेटा अभ्यावेदन को एकीकृत करने के लिए आसान चरण। |
 | [चार्ट में XY अक्ष गुण परिभाषित करें](./define-xyaxis-properties/) इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके चार्ट में XY अक्ष गुणधर्मों को परिभाषित करना सीखें। .NET डेवलपर्स के लिए बिल्कुल सही। |
 | [चार्ट के अक्ष में दिनांक समय मान जोड़ें](./date-time-values-to-axis/) | इस व्यापक चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.Words का उपयोग करके चार्ट के अक्ष में दिनांक और समय मान जोड़ना सीखें। |
 | [चार्ट में अक्ष के लिए संख्या प्रारूप](./number-format-for-axis/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके चार्ट अक्ष संख्याओं को प्रारूपित करना सीखें। अपने दस्तावेज़ की पठनीयता और व्यावसायिकता को सहजता से बढ़ाएँ। |
@@ -64,7 +65,8 @@ Aspose.Words for .NET Graphics Programming ट्यूटोरियल आप
 | [चार्ट में डेटा लेबल के लिए डिफ़ॉल्ट विकल्प सेट करें](./default-options-for-data-labels/) | .NET के लिए Aspose.Words का उपयोग करके चार्ट में डेटा लेबल के लिए डिफ़ॉल्ट विकल्प सेट करना सीखें। चार्ट को आसानी से बनाने और कस्टमाइज़ करने के लिए हमारे चरण-दर-चरण गाइड का पालन करें। |
 | [चार्ट में एकल चार्ट डेटा बिंदु को अनुकूलित करें](./single-chart-data-point/) | विस्तृत चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.Words का उपयोग करके एकल चार्ट डेटा बिंदुओं को अनुकूलित करना सीखें। अद्वितीय मार्करों और आकारों के साथ अपने चार्ट को बेहतर बनाएँ। |
 | [एक चार्ट में एकल चार्ट श्रृंखला को अनुकूलित करें](./single-chart-series/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में एकल चार्ट श्रृंखला को अनुकूलित करना सीखें। सहज अनुभव के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें। |
-
+| [Aspose.Words रेडियल चार्ट उदाहरण: C# में ग्रेजुएशन सक्षम करें](./aspose-words-radial-chart-example-enable-graduations-in-c/) | Aspose.Words में रेडियल चार्ट पर ग्रेजुएशन सक्षम करने का चरण-दर-चरण उदाहरण। |
+| [C# में विस्फोटित पाई चार्ट स्लाइस के साथ संशोधित दस्तावेज़ सहेजें](./save-modified-document-with-exploded-pie-chart-slices-in-c/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -23,6 +23,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Mengatur Kolom Catatan Kaki](./set-foot-note-columns/) | Pelajari cara mengatur kolom catatan kaki dalam dokumen Word menggunakan Aspose.Words untuk .NET. Sesuaikan tata letak catatan kaki Anda dengan mudah dengan panduan langkah demi langkah kami. Bahasa Indonesia:
 | [Mengatur Posisi Catatan Kaki dan Catatan Akhir](./set-footnote-and-end-note-position/) Pelajari cara mengatur posisi catatan kaki dan catatan akhir dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci ini. Bahasa Indonesia:
 | [Mengatur Opsi Catatan Akhir](./set-endnote-options/) | Pelajari cara mengatur opsi catatan akhir dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. |
+| [Cara mengubah pemisah catatan kaki dan menyesuaikan gayanya dalam dokumen Word](./how-to-change-footnote-separator-and-customize-its-style-in/) | Pelajari cara mengubah pemisah catatan kaki serta menyesuaikan gaya pemisahnya dalam dokumen Word menggunakan Aspose.Words untuk .NET. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

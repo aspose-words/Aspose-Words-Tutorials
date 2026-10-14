@@ -39,7 +39,7 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | Tytuł | Opis |
 | --- | --- |
 | [Praca z modelem AI](./working-with-ai-model/) | Dowiedz się, jak używać Aspose.Words dla .NET do podsumowywania dokumentów za pomocą AI. Proste kroki w celu ulepszenia zarządzania dokumentami. |
-| [Praca z modelem Google AI](./working-with-google-ai-model/) Ulepsz przetwarzanie dokumentów dzięki Aspose.Words for .NET i Google AI, aby bez wysiłku tworzyć zwięzłe podsumowania. |
+| [Praca z modelem Google AI](./working-with-google-ai-model/) | Ulepsz przetwarzanie dokumentów dzięki Aspose.Words for .NET i Google AI, aby bez wysiłku tworzyć zwięzłe podsumowania. |
 | [Praca z otwartym modelem AI](./working-with-open-ai-model/) | Odblokuj wydajne podsumowanie dokumentów za pomocą Aspose.Words dla .NET z potężnymi modelami OpenAI. Zanurz się w tym kompleksowym przewodniku już teraz. |
 | [Praca z opcjami podsumowania](./working-with-summarize-options/) | Naucz się skutecznie podsumowywać dokumenty Word za pomocą Aspose.Words dla platformy .NET dzięki naszemu przewodnikowi krok po kroku dotyczącemu integrowania modeli AI w celu szybkiego uzyskiwania analiz. |
 | [Podsumowanie dokumentu Word w C# – Kompletny przewodnik z AI](./summarize-word-document-in-c-complete-ai-powered-guide/) | Kompletny przewodnik, jak używać Aspose.Words dla .NET i AI do podsumowywania dokumentów Word w C#. |
@@ -51,6 +51,8 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Podsumowanie dokumentu Word przy użyciu lokalnego LLM – przewodnik C#](./summarize-word-document-with-local-llm-c-guide/) | Dowiedz się, jak używać lokalnego modelu LLM w C# do podsumowywania dokumentów Word przy użyciu Aspose.Words. |
 | [Jak sprawdzić gramatykę w dokumentach Word – Kompletny przewodnik C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Szybko sprawdź i popraw gramatykę w dokumentach Word przy użyciu Aspose.Words for .NET i C#. |
 | [Jak sprawdzić gramatykę przy użyciu lokalnego LLM w C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Dowiedz się, jak używać lokalnego modelu językowego w C# do sprawdzania gramatyki dokumentów Word przy pomocy Aspose.Words. |
+| [Podsumowanie dokumentu Word przy użyciu podsumowania AI](./summarize-word-document-with-ai-document-summarization/) | Kompletny przewodnik, jak używać Aspose.Words dla .NET i AI do podsumowywania dokumentów Word. |
+| [Jak przetłumaczyć docx na francuski przy użyciu AI w C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Dowiedz się, jak używać Aspose.Words i AI do tłumaczenia dokumentów DOCX na język francuski w C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

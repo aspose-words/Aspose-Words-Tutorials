@@ -21,6 +21,7 @@ Split Document is een uitgebreide bron die uitlegt hoe u een document in afzonde
 | Titel | Beschrijving |
 | --- | --- |
 | [Word-document splitsen op koppen HTML](./by-headings-html/) | Leer hoe je een Word-document op basis van koppen kunt splitsen in HTML met Aspose.Words voor .NET. Volg onze gedetailleerde, stapsgewijze handleiding. |
+| [Word-document splitsen op koppen in C#](./how-to-split-a-word-document-into-sections-by-heading-in-c/) | Leer hoe je een Word-document op basis van koppen kunt splitsen in C# met Aspose.Words voor .NET. Volg onze gedetailleerde, stapsgewijze handleiding. |
 | [Word-document splitsen in secties HTML](./by-sections-html/) Leer hoe u een Word-document in secties in HTML kunt opsplitsen met behulp van Aspose.Words voor .NET met deze gedetailleerde, stapsgewijze handleiding. |
 | [Word-document in secties splitsen](./by-sections/) | Leer hoe u een Word-document in secties kunt splitsen met Aspose.Words voor .NET. Volg deze gedetailleerde, stapsgewijze handleiding voor efficiënt documentbeheer. |
 | [Word-document per pagina splitsen](./page-by-page/) | Leer hoe u een Word-document per pagina kunt splitsen met Aspose.Words voor .NET met deze gedetailleerde, stapsgewijze handleiding. Perfect voor het efficiënt beheren van grote documenten. |

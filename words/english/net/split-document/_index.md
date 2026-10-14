@@ -22,6 +22,7 @@ Split Document is a comprehensive resource that explains how to split a document
 | Title | Description |
 | --- | --- |
 | [Split Word Document By Headings Html](./by-headings-html/) | Learn how to split a Word document by headings into HTML using Aspose.Words for .NET. Follow our detailed, step-by-step guide. |
+| [How to split a Word document into sections by heading in C#](./how-to-split-a-word-document-into-sections-by-heading-in-c/) | Learn how to split a Word document into sections by heading using C# and Aspose.Words for .NET. Follow our detailed step-by-step guide. |
 | [Split Word Document By Sections HTML](./by-sections-html/) | Learn how to split a Word document by sections into HTML using Aspose.Words for .NET with this detailed, step-by-step guide. |
 | [Split Word Document By Sections](./by-sections/) | Learn how to split a Word document by sections using Aspose.Words for .NET. Follow this detailed, step-by-step guide for efficient document management. |
 | [Split Word Document By Page](./page-by-page/) | Learn how to split a Word document by page using Aspose.Words for .NET with this detailed, step-by-step guide. Perfect for managing large documents efficiently. |

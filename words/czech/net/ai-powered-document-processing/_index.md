@@ -51,6 +51,8 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | [Shrnutí Word dokumentu s lokálním LLM – průvodce v C#](./summarize-word-document-with-local-llm-c-guide/) | Naučte se, jak pomocí lokálního modelu LLM v C# shrnout Word dokumenty bez odesílání dat do cloudu. |
 | [Jak zkontrolovat gramatiku v dokumentech Word – Kompletní průvodce v C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Naučte se pomocí Aspose.Words pro .NET kontrolovat gramatiku v dokumentech Word pomocí C#. |
 | [Jak zkontrolovat gramatiku pomocí lokálního LLM v C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Naučte se, jak pomocí lokálního LLM v C# kontrolovat gramatiku v dokumentech Word s Aspose.Words. |
+| [Shrnutí Word dokumentu pomocí AI sumarizace](./summarize-word-document-with-ai-document-summarization/) | Kompletní průvodce, jak pomocí AI shrnout Word dokumenty v C# s Aspose.Words. |
+| [Jak přeložit docx do francouzštiny pomocí AI v C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Naučte se pomocí Aspose.Words a AI přeložit soubory DOCX do francouzštiny v C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

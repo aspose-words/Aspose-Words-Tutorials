@@ -51,6 +51,7 @@ doc.Save("Output.docx");
 | [Set Fonts Folders](./set-fonts-folders/) | Learn how to set custom font folders in Aspose.Words for .NET with this comprehensive, step-by-step guide. Perfect for developers looking to enhance document fonts. |
 | [Enable Disable Font Substitution](./enable-disable-font-substitution/) | Learn how to enable or disable font substitution in Word documents using Aspose.Words for .NET. Ensure your documents look consistent across all platforms. |
 | [Enable Font Substitution Warnings in Aspose.Words – Complete Guide](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | Learn how to enable font substitution warnings in Aspose.Words for .NET with this complete step-by-step guide. |
+| [How to perform font substitution in document with C#](./how-to-perform-font-substitution-in-document-with-c/) | Learn how to perform font substitution in a Word document using Aspose.Words for .NET with C#. |
 | [Set Font Fallback Settings](./set-font-fallback-settings/) | Learn how to set font substitution settings in Aspose.Words for .NET and customize font substitution in your Word documents. |
 | [Load Noto Fallback Settings](./load-noto-fallback-settings/) | Learn how to load Noto fallback settings in a Word document using Aspose.Words for .NET. Follow our step-by-step guide to ensure all characters display correctly. |
 | [Set Fonts Folders Default Instance](./set-fonts-folders-default-instance/) | Learn how to set fonts folders for the default instance in Aspose.Words for .NET with this step-by-step tutorial. Customize your Word documents effortlessly. |
@@ -87,7 +88,6 @@ doc.Save("Output.docx");
 | [Create FontSettings in C# – Detect Missing Fonts & Capture Font Messages](./create-fontsettings-in-c-detect-missing-fonts-capture-font-m/) | Learn how to create FontSettings in C# to detect missing fonts and capture font messages with Aspose.Words for .NET. |
 | [Custom Font Settings in C# – Load Word & Handle Missing Fonts](./custom-font-settings-in-c-load-word-handle-missing-fonts/) | Learn how to load Word documents with custom font settings in C# and handle missing fonts using Aspose.Words for .NET. |
 | [How to Use FontSettings to Handle Missing Fonts in Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | Learn how to use FontSettings to manage missing fonts in Aspose.Words for .NET with a step-by-step guide. |
-
 | [How to Capture Warnings in Aspose.Words – Complete Guide](./how-to-capture-warnings-in-aspose-words-complete-guide/) | Learn how to capture warnings in Aspose.Words for .NET with this comprehensive step-by-step guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

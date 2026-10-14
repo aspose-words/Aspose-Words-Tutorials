@@ -20,6 +20,7 @@ Aspose.Words voor .NET ondersteunt verschillende formulierveldtypen, zodat u com
 
 {{< tutorial-card link="./insert-form-fields/" title="Invoegen van een keuzelijst met invoervak in een Word-document" imgSrc="./insert-form-fields/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/" title="Hoe docx naar pdf converteren en formuliervelden verbergen in C#" imgSrc="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

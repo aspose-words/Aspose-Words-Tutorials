@@ -41,7 +41,7 @@
 | [Markdown-Datei in ein Dokument laden – Vollständiges Parsing‑Tutorial](./load-markdown-file-into-a-document-complete-parsing-tutorial/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Markdown-Dateien vollständig einlesen und in ein Word‑Dokument konvertieren. |
 | [Schwerpunkte](./emphases/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET hervorgehobenen Text in Markdown erstellen. Diese Anleitung behandelt die Formatierungen Fett, Kursiv und kombiniert mit Schritt-für-Schritt-Anleitungen. |
 | [Warnquelle verwenden](./use-warning-source/) | Meistern Sie Aspose.Words für .NET mit dieser Schritt-für-Schritt-Anleitung zur Verwendung der WarningSource-Klasse zur Behandlung von Markdown-Warnungen. Perfekt für C#-Entwickler. |
-
+| [Wie man Markdown als DOCX mit Aspose.Words in C# speichert](./how-to-save-markdown-as-docx-with-aspose-words-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Markdown in ein DOCX-Dokument speichern. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

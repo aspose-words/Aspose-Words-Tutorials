@@ -36,7 +36,7 @@ Aspose.Words for .NET은 .NET 애플리케이션에서 Word 문서의 단어 처
 | [문자열로 바꾸기](./replace-with-string/) | Aspose.Words for .NET을 사용하여 Word 문서의 문자열을 바꾸는 방법을 단계별 가이드를 통해 알아보세요. 문서 편집을 자동화하려는 개발자에게 적합합니다. |
 | [표의 텍스트 바꾸기](./replace-text-in-table/) | Aspose.Words for .NET을 사용하여 Word 표의 텍스트를 손쉽게 바꾸는 자세한 단계별 가이드를 소개합니다. |
 | [C#로 DOCX 텍스트 교체 – 단계별 가이드](./replace-text-in-docx-with-c-step-by-step-guide/) | Aspose.Words for .NET을 활용하여 C#로 DOCX 파일의 텍스트를 교체하는 방법을 단계별로 안내합니다. |
-
+| [Aspose.Words를 사용하여 docx 파일의 자리표시자를 교체하는 방법](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | Aspose.Words for .NET을 사용해 docx 파일 내 자리표시자를 교체하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

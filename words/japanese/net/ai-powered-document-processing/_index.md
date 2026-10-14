@@ -49,6 +49,8 @@
 | [ローカルLLMでWord文書を要約 – C# ガイド](./summarize-word-document-with-local-llm-c-guide/) Aspose.Words for .NET とローカル LLM を組み合わせ、C# で Word 文書を要約する手順を解説します。 |
 | [Word 文書の文法チェック方法 – 完全 C# ガイド](./how-to-check-grammar-in-word-documents-complete-c-guide/) Aspose.Words for .NET と C# を使用して、Word 文書の文法を自動的にチェックし、修正提案を行う方法を学びます。 |
 | [C# でローカル LLM を使って文法チェックする方法](./how-to-check-grammar-with-a-local-llm-in-c/) Aspose.Words for .NET とローカル LLM を組み合わせ、C# で文書の文法チェックを自動化する手順を解説します。 |
+| [AI ドキュメント要約で Word 文書を要約する](./summarize-word-document-with-ai-document-summarization/) Aspose.Words for .NET と AI を組み合わせて、Word 文書を自動的に要約する方法を解説します。 |
+| [C# で AI を使用して docx をフランス語に翻訳する方法](./how-to-translate-docx-to-french-with-ai-in-c/) Aspose.Words for .NET と AI を組み合わせ、C# で docx ファイルをフランス語に自動翻訳する手順を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

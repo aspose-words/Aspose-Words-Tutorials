@@ -51,6 +51,8 @@ Terakhir, jangan lupa untuk memeriksa [Bekerja Dengan Opsi Ringkasan](./working-
 | [Cara Memperbaiki Tata Bahasa pada File DOCX dengan C# – Panduan Langkah demi Langkah Lengkap](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Pelajari cara memperbaiki kesalahan tata bahasa dalam dokumen DOCX menggunakan C# dengan panduan lengkap langkah demi langkah. |
 | [Cara Memeriksa Tata Bahasa dalam Dokumen Word – Panduan Lengkap C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Pelajari cara memeriksa tata bahasa dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan lengkap C#. |
 | [Cara memeriksa tata bahasa dengan LLM lokal di C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Pelajari cara menggunakan LLM lokal di C# untuk memeriksa tata bahasa dokumen secara otomatis dengan Aspose.Words. |
+| [Ringkas Dokumen Word dengan Ringkasan AI](./summarize-word-document-with-ai-document-summarization/) | Pelajari cara merangkum dokumen Word secara otomatis menggunakan AI untuk hasil cepat dan akurat. |
+| [Cara menerjemahkan docx ke Prancis dengan AI di C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Pelajari cara menggunakan Aspose.Words dan AI untuk menerjemahkan file DOCX ke bahasa Prancis secara otomatis dengan C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

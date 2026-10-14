@@ -39,10 +39,15 @@ Bu eğitimlerle, Word belgelerinizi görsel olarak çekici ve bilgilendirici gra
 
 {{< tutorial-card link="./format-secondary-axis/" title="Aspose.Words for .NET kullanarak Word line chart'larında Secondary X‑Axis'i biçimlendirin ve Display Units'i bin olarak ayarlayın." imgSrc="./format-secondary-axis/images/thumb.png" >}}
 
+{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="C#'ta patlatılmış pasta dilimleriyle değiştirilmiş belgeyi kaydetme" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./aspose-words-radial-chart-example-enable-graduations-in-c/" title="Aspose.Words radial grafik örneği: C#'da derecelendirmeleri etkinleştirme" imgSrc="./aspose-words-radial-chart-example-enable-graduations-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="C# ve özel sayı formatlarıyla Word'de grafiği biçimlendirme" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="C# kullanarak Word grafiğinde histogram kutu sayısını ayarlama ve veri etiketleri ekleme" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
+{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="C# ile bir Word belgesindeki grafik etiketlerini programlı olarak ayarlama" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | Başlık | Açıklama |
 | --- | --- |
@@ -63,8 +68,8 @@ Bu eğitimlerle, Word belgelerinizi görsel olarak çekici ve bilgilendirici gra
 | [Grafik Veri Etiketini Özelleştir](./chart-data-label/) | Aspose.Words for .NET kullanarak adım adım bir kılavuzda grafik veri etiketlerini nasıl özelleştireceğinizi öğrenin. .NET geliştiricileri için mükemmel. |
 | [Bir Grafikteki Veri Etiketleri İçin Varsayılan Seçenekleri Ayarlama](./default-options-for-data-labels/) | Aspose.Words for .NET kullanarak bir grafikteki veri etiketleri için varsayılan seçenekleri nasıl ayarlayacağınızı öğrenin. Grafikleri zahmetsizce oluşturmak ve özelleştirmek için adım adım kılavuzumuzu izleyin. |
 | [Bir Grafikteki Tek Bir Grafik Veri Noktasını Özelleştirin](./single-chart-data-point/) | Aspose.Words for .NET kullanarak tek grafik veri noktalarını nasıl özelleştireceğinizi ayrıntılı adım adım bir kılavuzda öğrenin. Grafiklerinizi benzersiz işaretleyiciler ve boyutlarla geliştirin. |
-| [Bir Grafikteki Tek Grafik Serisini Özelleştir](./single-chart-series/) | Aspose.Words for .NET kullanarak Word belgesinde tek grafik serilerinin nasıl özelleştirileceğini öğrenin. Sorunsuz bir deneyim için adım adım kılavuzumuzu izleyin. |
-
+| [Bir Grafikte Tek Grafik Serisini Özelleştir](./single-chart-series/) | Aspose.Words for .NET kullanarak Word belgesinde tek grafik serilerinin nasıl özelleştirileceğini öğrenin. Sorunsuz bir deneyim için adım adım kılavuzumuzu izleyin. |
+| [Aspose.Words radial grafik örneği: C#'da derecelendirmeleri etkinleştirme](./aspose-words-radial-chart-example-enable-graduations-in-c/) | Aspose.Words for .NET kullanarak radial grafiklerde derecelendirmeleri nasıl etkinleştireceğinizi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

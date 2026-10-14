@@ -40,16 +40,23 @@ Aspose.Words for .NET 图形编程教程提供了全面的资源，帮助您学�
 
 {{< tutorial-card link="./format-secondary-axis/" title="使用 Aspose.Words for .NET 在 Word 折线图中格式化次要 X 轴并将显示单位设置为千。" imgSrc="./format-secondary-axis/images/thumb.png" >}}
 
+{{< tutorial-card link="./aspose-words-radial-chart-example-enable-graduations-in-c/" title="Aspose.Words 径向图表示例：在 C# 中启用刻度" imgSrc="./aspose-words-radial-chart-example-enable-graduations-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="使用 Aspose.Words for .NET 在 C# 中保存带有爆炸饼图切片的修改文档" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="使用 C# 和自定义数字格式在 Word 中格式化图表" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="使用 C# 在 Word 图表中设置直方图箱数并添加数据标签" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
+{{< tutorial-card link="./single-chart-series/" title="使用 Aspose.Words for .NET 在 Word 文档中自定义单个图表系列" imgSrc="./single-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="使用 C# 在 Word 文档中以编程方式调整图表标签" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | --- | --- |
 | [图表中数据标签的格式数量](./format-number-of-data-label/) 学习如何使用 Aspose.Words for .NET 格式化图表中的数据标签，并遵循本分步指南。轻松增强您的 Word 文档。|
 | [使用形状创建和自定义图表](./create-chart-using-shape/) 学习如何使用 Aspose.Words for .NET 在 Word 文档中创建和自定义图表，本指南循序渐进，助您轻松实现数据可视化。|
 | [在Word文档中插入简单柱形图](./insert-simple-column-chart/) 了解如何使用 Aspose.Words for .NET 在 Word 中插入简单柱形图。使用动态可视化数据演示增强您的文档。|
-| [在Word文档中插入柱形图](./insert-column-chart/) 了解如何使用 Aspose.Words for .NET 在 Word 文档中插入柱形图。增强报告和演示文稿中的数据可视化。|
+| [在Word文档中插入柱形图](./insert-column-chart/) 了解如何使用 Aspose.Words for .NET 在 Word 文档中插入柱形图。增强报告和演示稿中的数据可视化。|
 | [将面积图插入Word文档](./insert-area-chart/) 通过本全面的分步指南了解如何使用 Aspose.Words for .NET 将面积图插入 Word 文档。|
 | [在 Word 文档中插入气泡图](./insert-bubble-chart/) 学习如何使用 Aspose.Words for .NET 在 Word 文档中插入气泡图，并遵循本分步指南。增强您的文档。|
 | [在 Word 文档中插入散点图](./insert-scatter-chart/) 了解如何使用 Aspose.Words for .NET 在 Word 中插入散点图。将可视化数据表示集成到文档中的简单步骤。|

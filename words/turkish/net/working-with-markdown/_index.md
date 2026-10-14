@@ -41,6 +41,7 @@ Words Processing with Markdown, Aspose.Words for .NET kütüphanesini kullanarak
 | [Vurgular](./emphases/) | Aspose.Words for .NET kullanarak Markdown'da vurgulu metin oluşturmayı öğrenin. Bu kılavuz, adım adım talimatlarla kalın, italik ve birleşik stilleri kapsar. |
 | [Uyarı Kaynağını Kullan](./use-warning-source/) | Markdown uyarılarını işlemek için WarningSource sınıfını kullanma konusunda adım adım bu kılavuzla .NET için Aspose.Words'ü öğrenin. C# geliştiricileri için mükemmel. |
 | [Markdown Dosyasını Belgeye Yükleme – Tam Ayrıştırma Eğitimi](./load-markdown-file-into-a-document-complete-parsing-tutorial/) | Aspose.Words for .NET ile Markdown dosyasını tamamen ayrıştırarak belgeye yüklemeyi adım adım öğrenin. |
+| [Markdown'ı Aspose.Words ile C#'ta docx olarak kaydetme](./how-to-save-markdown-as-docx-with-aspose-words-in-c/) | Aspose.Words for .NET kullanarak Markdown dosyasını C# ile docx formatına kaydetmeyi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -36,7 +36,7 @@ Ya sea que necesite reemplazar palabras específicas, actualizar plantillas de t
 | [Reemplazar con cadena](./replace-with-string/) Aprenda a reemplazar cadenas en documentos de Word con Aspose.Words para .NET con esta guía paso a paso. Ideal para desarrolladores que buscan automatizar la edición de documentos.
 | [Reemplazar texto en la tabla](./replace-text-in-table/) | Reemplace sin esfuerzo texto en una tabla de Word usando Aspose.Words para .NET con esta guía detallada paso a paso. |
 | [Reemplazar texto en DOCX con C# – Guía paso a paso](./replace-text-in-docx-with-c-step-by-step-guide/) Aprenda a reemplazar texto en archivos DOCX usando C# con Aspose.Words para .NET, siguiendo una guía paso a paso. |
-
+| [Cómo reemplazar marcadores de posición en archivos docx con Aspose.Words](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) Aprenda a sustituir marcadores de posición en archivos DOCX usando Aspose.Words para .NET. Guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

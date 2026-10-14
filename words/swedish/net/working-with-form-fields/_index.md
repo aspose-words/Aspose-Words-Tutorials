@@ -20,6 +20,7 @@ Aspose.Words för .NET stöder olika typer av formulärfält, vilket gör att du
 
 {{< tutorial-card link="./insert-form-fields/" title="Infoga kombinationsruteformulärfält i Word-dokument" imgSrc="./insert-form-fields/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/" title="Konvertera docx till pdf och dölja formulärfält i C#" imgSrc="./how-to-convert-docx-to-pdf-and-hide-form-fields-in-c/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

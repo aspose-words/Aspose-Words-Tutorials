@@ -36,7 +36,7 @@ Akár konkrét szavakat kell lecserélnie, akár szövegsablonokat kell frissít
 | [Cserélje karakterlánccal](./replace-with-string/) | Tanulja meg, hogyan cserélhet le karakterláncokat Word-dokumentumokban az Aspose.Words for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Tökéletes azoknak a fejlesztőknek, akik automatizálni szeretnék a dokumentumszerkesztést. |
 | [Szöveg cseréje a táblázatban](./replace-text-in-table/) | Könnyedén cserélhet ki szöveget egy Word-táblázatban az Aspose.Words for .NET segítségével ezzel a részletes, lépésről lépésre szóló útmutatóval. |
 | [Szöveg cseréje DOCX-ben C#-val – Lépésről‑lépésre útmutató](./replace-text-in-docx-with-c-step-by-step-guide/) | Tanulja meg, hogyan cserélhet szöveget DOCX fájlokban C# használatával az Aspose.Words for .NET segítségével. Részletes, lépésről‑lépésre útmutató. |
-
+| [Hogyan cserélje ki a helyőrzőket docx fájlokban az Aspose.Words segítségével](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | Tanulja meg, hogyan helyettesítheti a helyőrzőket docx fájlokban az Aspose.Words for .NET használatával. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

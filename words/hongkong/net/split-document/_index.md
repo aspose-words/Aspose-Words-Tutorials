@@ -21,6 +21,7 @@
 |標題 |描述 |
 | --- | --- |
 | [按標題HTML拆分Word文檔](./by-headings-html/) |了解如何使用 Aspose.Words for .NET 將 Word 文件按標題拆分為 HTML。請按照我們詳細的逐步指南進行操作。 |
+| [如何在 C# 中按標題將 Word 文檔拆分為節](./how-to-split-a-word-document-into-sections-by-heading-in-c/) |了解如何使用 Aspose.Words for .NET 在 C# 中根據標題將 Word 文檔拆分為節。 |
 | [按部分 HTML 拆分 Word 文件](./by-sections-html/) |透過本詳細的逐步指南，了解如何使用 Aspose.Words for .NET 將 Word 文件以部分分割為 HTML。 |
 | [按部分拆分 Word 文件](./by-sections/) |了解如何使用 Aspose.Words for .NET 按部分分割 Word 文件。按照這個詳細的、循序漸進的指南，實現高效的文件管理。 |
 | [按頁面拆分 Word 文件](./page-by-page/) |透過本詳細的逐步指南了解如何使用 Aspose.Words for .NET 按頁面分割 Word 文件。非常適合高效管理大型文件。 |
