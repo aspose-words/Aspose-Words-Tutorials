@@ -33,6 +33,7 @@ Aspose.Words for .NET 教程：使用 ImageSaveOptions 进行文字处理，将�
 | [将 Word 转换为 PNG – 合并页面为垂直条带](./convert-word-to-png-merge-pages-into-a-vertical-strip/) 通过本分步指南学习如何使用 Aspose.Words for .NET 将 Word 文档的多个页面合并为一张垂直条带的 PNG 图像。|
 | [将 Word 转换为 PNG – 完整 C# 指南](./convert-word-to-png-complete-c-guide/) 通过本完整的 C# 指南，了解如何使用 Aspose.Words for .NET 将 Word 文档转换为 PNG，并掌握关键设置与最佳实践。|
 | [在将 Word 转换为 PNG 时设置 DPI – 高分辨率导出指南](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) 通过本分步指南，了解如何在使用 Aspose.Words for .NET 将 Word 文档转换为 PNG 时实现高分辨率导出并设置 DPI。|
+| [从 Word 文档创建 PNG 网格 – 完整指南](./create-png-grid-from-word-document-complete-guide/) 通过本完整指南学习如何使用 Aspose.Words for .NET 将 Word 文档的页面导出为 PNG 网格图像，实现批量转换和布局控制。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

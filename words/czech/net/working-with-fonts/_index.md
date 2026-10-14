@@ -70,6 +70,7 @@ Ať už chcete formátovat text pomocí různých fontů, nastavit pravidla pro 
 | [Jak zachytit varování v Aspose.Words – Kompletní průvodce](./how-to-capture-warnings-in-aspose-words-complete-guide/) | Naučte se, jak zachytit a zpracovat varování v Aspose.Words pro .NET pomocí podrobného průvodce krok za krokem. |
 | [Jak použít FontSettings k řešení chybějících písem v Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | Naučte se, jak pomocí třídy FontSettings zvládnout chybějící písma v dokumentech Word s Aspose.Words pro .NET. |
 | [Jak zachytit varování – nastavit výchozí nastavení písma](./how-to-capture-warnings-set-default-font-settings/) | Naučte se, jak zachytit varování a nastavit výchozí nastavení písma v Aspose.Words pro .NET. |
+| [Uložit dokument Word – Detekovat chybějící písma pomocí Aspose.Words](./save-word-document-detect-missing-fonts-with-aspose-words/) | Naučte se, jak uložit dokument Word a detekovat chybějící písma pomocí Aspose.Words pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

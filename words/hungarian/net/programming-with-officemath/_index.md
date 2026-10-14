@@ -28,6 +28,7 @@ Az Aspose.Words for .NET oktatóanyagok az OfficeMath szövegszerkesztésről v�
 | [Hogyan mentse el a DOCX-et TXT formátumba LaTeX matematikai exporttal](./how-to-save-docx-as-txt-with-latex-math-export/) | Tanulja meg, hogyan exportálhatja a DOCX dokumentumokat TXT formátumba, miközben a LaTeX matematikai képleteket megtartja. |
 | [Hogyan konvertáljon egyenleteket Wordből LaTeX-be – Mentés TXT-ként](./how-to-convert-equations-in-word-to-latex-save-as-txt/) | Ismerje meg, hogyan konvertálhatja a Wordben lévő egyenleteket LaTeX formátumba, és mentheti őket TXT fájlként. |
 | [DOCX mentése txt-be – Teljes C# útmutató a Word matematikai képletek LaTeX-be exportálásához](./save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/) | Ismerje meg, hogyan exportálhatja a Word matematikai képleteket LaTeX formátumba, miközben a DOCX fájlt txt-be menti C#-ban. |
+| [Word konvertálása LaTeX-re – Teljes C# útmutató az Office Math LaTeX exportálásához](./convert-word-to-latex-complete-c-guide-to-export-office-math/) | Ismerje meg, hogyan exportálhatja az Office Math egyenleteket LaTeX formátumba C# segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

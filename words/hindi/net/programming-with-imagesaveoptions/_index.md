@@ -33,6 +33,7 @@
 | [C# के साथ Word को इमेज के रूप में सहेजें – चरण‑दर‑चरण गाइड](./save-word-as-images-with-c-step-by-step-guide/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ को इमेज में बदलने की प्रक्रिया को चरण‑दर‑चरण सीखें। |
 
 | [Word को PNG में बदलते समय DPI सेट करना – हाई‑रेज़ोल्यूशन एक्सपोर्ट गाइड](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ को PNG में हाई‑रेज़ोल्यूशन के साथ बदलते समय DPI कैसे सेट करें, इस गाइड में सीखें। |
+| [Word दस्तावेज़ से PNG ग्रिड बनाना – पूर्ण गाइड](./create-png-grid-from-word-document-complete-guide/) | Aspose.Words का उपयोग करके Word फ़ाइल से कई PNG छवियों की ग्रिड बनाना सीखें, चरण-दर-चरण पूर्ण गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

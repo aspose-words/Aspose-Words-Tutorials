@@ -51,6 +51,7 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Hur du sammanfattar Word-dokument – Komplett C#-guide](./how-to-summarize-word-documents-complete-c-guide/) | Lär dig steg-för-steg hur du använder Aspose.Words för .NET och C# för att automatiskt sammanfatta Word-dokument. |
 | [Hur man kontrollerar grammatik i Word-dokument – Komplett C#-guide](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Lär dig att använda Aspose.Words för .NET för att automatiskt kontrollera och rätta grammatik i Word-dokument med C#. |
 | [Hur man kontrollerar grammatik med en lokal LLM i C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Lär dig att använda en lokal LLM i C# för att kontrollera grammatik i Word-dokument med Aspose.Words. |
+| [Hur man kontrollerar grammatik och sammanfattar Word-dokument med Aspose.Words AI](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Lär dig att använda Aspose.Words AI för att rätta grammatik och skapa sammanfattningar av Word-dokument på några sekunder. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

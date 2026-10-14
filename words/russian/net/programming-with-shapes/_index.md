@@ -50,6 +50,7 @@
 | [Создать прямоугольную форму с тенью в Word с помощью Aspose.Words](./create-rectangle-shape-with-shadow-in-word-using-aspose-word/) | Узнайте, как создать прямоугольную форму с эффектом тени в документах Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 | [Добавить тень к фигуре в C# – Полное руководство Aspose.Words](./add-shadow-to-shape-in-c-complete-aspose-words-guide/) | Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 | [Создать документ Word – Как добавить прямоугольную форму и тень](./create-word-document-how-to-add-rectangle-shape-and-shadow/) | Узнайте, как добавить прямоугольную форму с теневым эффектом в документ Word с помощью Aspose.Words для .NET. |
+| [Создать прямоугольную форму с тенью в C# с использованием Aspose.Words](./create-rectangle-shape-with-shadow-in-c-using-aspose-words/) | Узнайте, как создать прямоугольную форму с тенью в документах Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

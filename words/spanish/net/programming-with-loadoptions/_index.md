@@ -57,6 +57,7 @@ En estos tutoriales, aprenderá a usar LoadOptions para cargar documentos de Wor
 | [Cómo recuperar DOCX – Guía paso a paso para archivos corruptos](./how-to-recover-docx-step-by-step-guide-for-corrupt-files/) Aprenda a recuperar archivos DOCX dañados paso a paso con Aspose.Words para .NET. |
 | [Cargar DOCX corrupto en C# – Guía completa de Aspose.Words](./load-corrupted-docx-in-c-complete-aspose-words-guide/) Aprenda a cargar documentos DOCX dañados en C# usando Aspose.Words, manejando errores y recuperando contenido de forma segura. |
 | [Cómo recuperar archivos DOCX – Establecer modo de recuperación con Aspose](./how-to-recover-docx-files-set-recovery-mode-with-aspose/) Aprenda a recuperar archivos DOCX configurando el modo de recuperación con Aspose.Words para .NET. |
+| [Cómo recuperar archivos Word – Guía completa con Aspose.Words](./how-to-recover-word-files-complete-guide-with-aspose-words/) Aprenda a recuperar archivos Word dañados o perdidos usando Aspose.Words con esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

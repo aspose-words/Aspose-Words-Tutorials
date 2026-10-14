@@ -62,6 +62,8 @@
 | [Создание доступного PDF из Word – Полное руководство Aspose.Words](./create-accessible-pdf-from-word-complete-aspose-words-guide/) | Узнайте, как преобразовать документы Word в доступные PDF, соблюдая стандарты доступности, с помощью полного руководства Aspose.Words. |
 | [Конвертировать docx в pdf – Полное руководство по доступным PDF](./convert-docx-to-pdf-complete-guide-for-accessible-pdfs/) | Полное руководство по конвертации DOCX в PDF с поддержкой доступности. |
 | [Создание доступного PDF из Word – пошаговое руководство](./create-accessible-pdf-from-word-step-by-step-guide/) | Узнайте, как создать PDF с поддержкой доступности из документа Word, используя Aspose.Words для .NET, следуя пошаговым инструкциям. |
+| [Как установить параметры PDF в C# – Преобразовать Word в PDF](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | Узнайте, как настроить параметры PDF при конвертации Word в PDF с помощью Aspose.Words для .NET на C#. |
+| [Сохранить DOCX в PDF на C# – Полное руководство Aspose.Words](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) | Полное руководство по сохранению DOCX в PDF с помощью Aspose.Words для .NET на C#. |
 
 | [Создать доступный PDF из Word на C# – пошаговое руководство](./create-accessible-pdf-from-word-in-c-step-by-step-guide/) | Узнайте, как создать доступный PDF из документа Word с помощью C# и Aspose.Words, следуя пошаговому руководству. |
 | [Создание доступного PDF из Word с Aspose – пошаговое руководство](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) | Узнайте, как с помощью Aspose.Words for .NET создать PDF, соответствующий требованиям доступности, следуя пошаговому руководству. |

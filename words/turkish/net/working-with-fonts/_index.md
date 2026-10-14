@@ -71,6 +71,7 @@ Metni farklı yazı tipleriyle biçimlendirmek, yazı tipi değiştirme kurallar
 | [C#'ta Yazı Tiplerini Algılamak – Aspose.Words ile Geri Çağırma Kullanımı](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | Aspose.Words for .NET kullanarak C#'ta yazı tiplerini algılamak ve geri çağırma yöntemiyle kontrol etmek için adım adım kılavuz. |
 
 | [FontSettings Kullanarak Eksik Yazı Tiplerini Ele Alma](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | Aspose.Words for .NET'te eksik yazı tiplerini yönetmek için FontSettings'in nasıl kullanılacağını adım adım öğrenin. |
+| [Word Belgesini Kaydet – Eksik Yazı Tiplerini Aspose.Words ile Algıla](./save-word-document-detect-missing-fonts-with-aspose-words/) | Aspose.Words for .NET kullanarak Word belgesini kaydederken eksik yazı tiplerini nasıl tespit edeceğinizi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

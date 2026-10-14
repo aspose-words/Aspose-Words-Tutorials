@@ -27,6 +27,7 @@ Os tutoriais do Aspose.Words para .NET sobre Processamento de Texto com o Office
 | [Como salvar DOCX como TXT com exportação de matemática LaTeX](./how-to-save-docx-as-txt-with-latex-math-export/) | Aprenda a converter documentos DOCX em arquivos TXT preservando equações em formato LaTeX usando Aspose.Words para .NET. |
 | [Como converter equações no Word para LaTeX – Salvar como TXT](./how-to-convert-equations-in-word-to-latex-save-as-txt/) | Aprenda a converter equações do Word para LaTeX e salvá‑las como arquivos TXT usando Aspose.Words para .NET. |
 | [Salvar docx como txt – Guia completo em C# para exportar matemática do Word como LaTeX](./save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/) | Aprenda a converter documentos Word em arquivos txt e exportar equações como LaTeX usando C# e Aspose.Words. |
+| [Converter Word para LaTeX – Guia Completo em C# para Exportar Office Math como LaTeX](./convert-word-to-latex-complete-c-guide-to-export-office-math/) | Aprenda a converter documentos Word em LaTeX usando C# e exportar equações Office Math como LaTeX. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

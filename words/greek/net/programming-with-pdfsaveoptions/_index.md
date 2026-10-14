@@ -68,6 +68,8 @@
 | [Πώς να δημιουργήσετε PDF από Word σε C# – Πλήρης Οδηγός](./how-to-create-pdf-from-word-in-c-complete-guide/) | Μάθετε βήμα προς βήμα πώς να μετατρέψετε έγγραφα Word σε PDF χρησιμοποιώντας C# και Aspose.Words. |
 | [Αποθήκευση Word ως PDF σε C# – Πλήρης Οδηγός για τη Μετατροπή DOCX σε PDF με Εξαγωγή Σχημάτων](./save-word-as-pdf-in-c-full-guide-to-convert-docx-to-pdf-with/) | Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF σε C# με εξαγωγή σχημάτων, χρησιμοποιώντας Aspose.Words για .NET. |
 | [Δημιουργία προσβάσιμου PDF από Word – Οδηγός βήμα‑βήμα](./create-accessible-pdf-from-word-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε PDF προσβάσιμο από έγγραφα Word με οδηγίες βήμα‑βήμα. |
+| [Αποθήκευση DOCX ως PDF σε C# – Πλήρης Οδηγός Aspose.Words](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) | Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF χρησιμοποιώντας C# και το Aspose.Words με πλήρη οδηγό βήμα-βήμα. |
+| [Πώς να ορίσετε επιλογές PDF σε C# – Μετατροπή Word σε PDF](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | Μάθετε πώς να ρυθμίσετε τις επιλογές PDF σε C# για τη μετατροπή εγγράφων Word σε PDF χρησιμοποιώντας το Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

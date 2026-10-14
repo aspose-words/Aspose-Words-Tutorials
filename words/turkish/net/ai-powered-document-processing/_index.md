@@ -52,6 +52,7 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [Yerel LLM ile Word Belgesini Özetleme – C# Kılavuzu](./summarize-word-document-with-local-llm-c-guide/) | Yerel LLM'yi kullanarak C# ile Word belgelerini hızlıca özetlemeyi öğrenin. |
 | [Word Belgelerinde Dilbilgisi Kontrolü – Tam C# Rehberi](./how-to-check-grammar-in-word-documents-complete-c-guide/) | C# kullanarak Aspose.Words ile Word belgelerindeki dilbilgisi hatalarını nasıl tespit edip düzelteceğinizi öğrenin. |
 | [Yerel LLM ile C#'ta Dilbilgisi Kontrolü Nasıl Yapılır](./how-to-check-grammar-with-a-local-llm-in-c/) | Aspose.Words for .NET ve yerel LLM kullanarak C#'ta belge dilbilgisini otomatik olarak kontrol etmeyi öğrenin. |
+| [Aspose.Words AI ile Dilbilgisi Kontrolü ve Word Belgesini Özetleme](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Aspose.Words AI kullanarak Word belgelerinizde dilbilgisi hatalarını kontrol edin ve otomatik özet oluşturun.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

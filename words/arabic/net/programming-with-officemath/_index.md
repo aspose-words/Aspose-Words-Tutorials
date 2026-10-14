@@ -28,6 +28,7 @@
 
 | [حفظ المستند كملف Txt – تصدير معادلات Word إلى LaTeX في C#](./save-document-as-txt-export-word-math-to-latex-in-c/) | تعلم كيفية حفظ مستند Word كملف نصي وتصدير المعادلات إلى LaTeX باستخدام C# و Aspose.Words. |
 | [كيفية تحويل المعادلات في Word إلى LaTeX – حفظ كملف TXT](./how-to-convert-equations-in-word-to-latex-save-as-txt/) | تعرّف على طريقة تحويل المعادلات في مستند Word إلى صيغة LaTeX وحفظها كملف TXT باستخدام Aspose.Words لـ .NET. |
+| [تحويل Word إلى LaTeX – دليل C# كامل لتصدير Office Math كـ LaTeX](./convert-word-to-latex-complete-c-guide-to-export-office-math/) | دليل شامل لتحويل مستندات Word إلى LaTeX وتصدير صيغ Office Math باستخدام C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

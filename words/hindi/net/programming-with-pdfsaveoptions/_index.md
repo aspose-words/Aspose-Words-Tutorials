@@ -68,6 +68,8 @@ PdfSaveOptions के साथ Words Processing पर Aspose.Words for .NET �
 | [C# में Word से PDF बनाना – पूर्ण गाइड](./how-to-create-pdf-from-word-in-c-complete-guide/) | C# का उपयोग करके Word दस्तावेज़ को PDF में बदलने की पूरी प्रक्रिया सीखें। |
 | [C# में Word को PDF के रूप में सहेजें – Shape निर्यात के साथ DOCX को PDF में बदलने की पूर्ण गाइड](./save-word-as-pdf-in-c-full-guide-to-convert-docx-to-pdf-with/) | C# में Aspose.Words का उपयोग करके DOCX फ़ाइल को PDF में बदलें, जिसमें आकृतियों का निर्यात शामिल है। |
 | [वर्ड से सुलभ PDF बनाएं – चरण‑दर‑चरण मार्गदर्शिका](./create-accessible-pdf-from-word-step-by-step-guide/) | वर्ड दस्तावेज़ को सुलभ PDF में बदलने के लिए चरण‑दर‑चरण निर्देश, जिसमें टैगिंग और संरचना शामिल है। |
+| [C# में DOCX को PDF के रूप में सहेजें – पूर्ण Aspose.Words गाइड](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) | C# का उपयोग करके Aspose.Words के साथ DOCX फ़ाइल को PDF में बदलने की पूरी प्रक्रिया सीखें। |
+| [C# में PDF विकल्प सेट करना – Word को PDF में बदलें](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | C# में Aspose.Words का उपयोग करके PDF विकल्प सेट करके Word को PDF में बदलना सीखें। |
 
 | [C# में Word से सुलभ PDF बनाएं – चरण-दर-चरण गाइड](./create-accessible-pdf-from-word-in-c-step-by-step-guide/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ से सुलभ PDF बनाने की पूरी प्रक्रिया सीखें। |
 {{< /blocks/products/pf/tutorial-page-section >}}

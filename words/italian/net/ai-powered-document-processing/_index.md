@@ -52,6 +52,7 @@ Infine, non dimenticare di dare un'occhiata al nostro [Lavorare con le opzioni d
 | [Come controllare la grammatica nei documenti Word – Guida completa C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Scopri come utilizzare Aspose.Words per .NET per verificare la grammatica nei documenti Word con una guida passo‑passo in C#. |
 | [Come verificare la grammatica con un LLM locale in C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Scopri come utilizzare un modello linguistico locale per controllare la grammatica del codice C# con Aspose.Words per .NET. |
 
+| [Come controllare la grammatica e riassumere un documento Word con Aspose.Words AI](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Scopri come verificare la grammatica e generare riassunti dei documenti Word usando l'AI di Aspose.Words. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

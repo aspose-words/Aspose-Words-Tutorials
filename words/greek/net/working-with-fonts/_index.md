@@ -71,6 +71,8 @@
 | [Πώς να χρησιμοποιήσετε το FontSettings για την αντιμετώπιση ελλιπών γραμματοσειρών στο Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | Μάθετε πώς να χρησιμοποιήσετε το FontSettings για να διαχειριστείτε τις ελλείπουσες γραμματοσειρές σε έγγραφα Word με το Aspose.Words για .NET. |
 
 | [Πώς να εντοπίσετε γραμματοσειρές σε C# – Χρήση Callback με Aspose.Words](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | Μάθετε πώς να ανιχνεύετε τις γραμματοσειρές σε έγγραφα Word χρησιμοποιώντας callback στην Aspose.Words για .NET. |
+| [Αποθήκευση εγγράφου Word – Ανίχνευση ελλιπών γραμματοσειρών με Aspose.Words](./save-word-document-detect-missing-fonts-with-aspose-words/) | Μάθετε πώς να αποθηκεύετε έγγραφα Word ενώ ανιχνεύετε ελλιπείς γραμματοσειρές με το Aspose.Words για .NET. |
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

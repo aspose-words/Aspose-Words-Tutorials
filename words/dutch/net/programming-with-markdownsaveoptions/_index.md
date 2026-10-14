@@ -79,6 +79,9 @@ Leer hoe u Word-documenten naar Markdown opslaat en wiskundige formules exportee
 ### [Word naar Markdown converteren – Volledige gids met afbeeldingsextractie](./convert-word-to-markdown-full-guide-with-image-extraction/)
 
 Leer hoe u Word-documenten converteert naar Markdown en afbeeldingen extraheert met een volledige C#‑handleiding.
+### [Word opslaan als Markdown – Complete gids voor het converteren van Word naar Markdown en afbeeldingen extraheren](./save-word-as-markdown-complete-guide-to-convert-word-to-mark/)
+
+Leer hoe u Word-documenten opslaat als Markdown en afbeeldingen extraheert met een volledige C#‑handleiding.
 
 ### [Hoe Markdown te exporteren vanuit Word – Complete C#-gids](./how-to-export-markdown-from-word-complete-c-guide/)
 
@@ -199,6 +202,10 @@ Leer hoe u een assets-map maakt en DOCX-bestanden converteert naar Markdown met 
 ### [Docx converteren naar markdown met Aspose.Words – Volledige C#-gids](./convert-docx-to-markdown-with-aspose-words-full-c-guide/)
 
 Leer hoe u docx-bestanden naar markdown converteert met een volledige C#-handleiding en Aspose.Words.
+
+### [Docx opslaan als markdown – Complete C#-gids met Aspose.Words](./save-docx-as-markdown-with-aspose-words-complete-c-guide/)
+
+Leer hoe u DOCX-bestanden opslaat als Markdown met Aspose.Words in een volledige C#‑gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

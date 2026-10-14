@@ -168,6 +168,11 @@
 ### [สร้างโฟลเดอร์ assets และแปลง DOCX เป็น Markdown ด้วย Aspose.Words](./create-assets-folder-and-convert-docx-to-markdown-with-aspos/)
 สร้างโฟลเดอร์ assets แล้วแปลงไฟล์ DOCX เป็น Markdown ด้วย Aspose.Words อย่างละเอียด
 
+### [บันทึก Word เป็น Markdown – คู่มือเต็มเพื่อแปลง Word เป็น Markdown และสกัดรูปภาพ](./save-word-as-markdown-complete-guide-to-convert-word-to/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown พร้อมสกัดรูปภาพอย่างละเอียดด้วย C#
+
+### [บันทึก DOCX เป็น Markdown ด้วย Aspose.Words – คู่มือเต็ม C#](./save-docx-as-markdown-with-aspose-words-complete-c-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
