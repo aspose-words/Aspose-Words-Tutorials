@@ -45,6 +45,8 @@ Aprenda a gerar PDFs a partir de documentos Word usando Aspose.Words para Python
 Aprenda a gerar PDFs acessíveis a partir de documentos Word usando Aspose.Words para Python. Guia completo passo a passo.
 ### [Salvar Word como Markdown – Guia Completo com Exportação PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Aprenda a salvar documentos Word como arquivos Markdown e exportar para PDF/A‑UA usando Aspose.Words para Python. Guia passo a passo.
+### [Como recuperar DOCX corrompido e convertê-lo para Markdown, texto simples e PDF com Aspose.Words](./how-to-recover-corrupted-docx-and-convert-it-to-markdown-pla/)
+Aprenda a reparar arquivos DOCX corrompidos e convertê-los para Markdown, texto simples e PDF usando Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

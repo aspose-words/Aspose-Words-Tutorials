@@ -54,6 +54,9 @@
 ### [从 Word 创建 PDF/UA – 步骤指南](./create-pdf-ua-from-word-step-by-step-guide/)
 使用 Aspose.Words for Python 将 Word 文档转换为符合 PDF/UA 标准的 PDF，确保可访问性。
 
+### [如何恢复损坏的 docx 并将其转换为 Markdown、纯文本和 PDF（使用 Aspose.Words）](./how-to-recover-corrupted-docx-and-convert-it-to-markdown-pla/)
+使用 Aspose.Words for Python 恢复损坏的 DOCX 并转换为 Markdown、纯文本和 PDF。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

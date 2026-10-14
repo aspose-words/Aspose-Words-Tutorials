@@ -40,6 +40,9 @@
 ### [กู้ไฟล์ DOCX ที่เสียหายและแปลง Word เป็น Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายและแปลงเป็น Markdown ด้วย Aspose.Words for Python
 
+### [วิธีกู้ไฟล์ DOCX ที่เสียหายและแปลงเป็น Markdown, Plain Text และ PDF ด้วย Aspose.Words](./how-to-recover-corrupted-docx-and-convert-it-to-markdown-pla/)
+เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายและแปลงเป็น Markdown, Plain Text และ PDF ด้วย Aspose.Words for Python
+
 ### [วิธีส่งออก LaTeX จาก Word – แปลง DOCX เป็น Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 เรียนรู้วิธีส่งออก LaTeX จากเอกสาร Word และแปลงเป็น Markdown ด้วย Aspose.Words for Python
 
