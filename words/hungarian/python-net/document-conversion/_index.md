@@ -38,7 +38,7 @@ Ismerje meg, hogyan konvertálhatja a Word dokumentumokat Markdown formátumba P
 ### [Sérült DOCX helyreállítása és Word konvertálása Markdown formátumba](./recover-corrupted-docx-convert-word-to-markdown/)
 Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlokat, és konvertálhatja őket Markdown formátumba Python segítségével.
 ### [Hogyan exportáljon LaTeX-et a Word-ből – DOCX konvertálása Markdown formátumba](./how-to-export-latex-from-word-convert-docx-to-markdown/)
-Ismerje meg, hogyan exportálhat LaTeX-et a Word dokumentumokból, és konvertálhatja a DOCX fájlokat Markdown formátumba Python segítségével.
+Ismerje meg, hogyan exportálhat LaTeX-et a Word dokumentumokból, és konvertálhatja a DOCX fájlokat Markdown formátumba.
 ### [PDF létrehozása Word-ből – Teljes Python útmutató az Aspose.Words segítségével](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Lépésről lépésre bemutatjuk, hogyan konvertálhat Word dokumentumokat PDF‑be Python és Aspose.Words használatával.
 ### [Hozzon létre akadálymentes PDF-et Word-ből Python segítségével – Lépésről lépésre útmutató](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
@@ -47,6 +47,8 @@ Ismerje meg, hogyan hozhat létre akadálymentes PDF-et Word dokumentumokból Py
 Ismerje meg, hogyan mentheti a Word dokumentumokat Markdown formátumba, és exportálhatja őket PDF/A‑UA szabvánnyal Python segítségével.
 ### [PDF/UA létrehozása Word-ből – Lépésről‑lépésre útmutató](./create-pdf-ua-from-word-step-by-step-guide/)
 Ismerje meg, hogyan hozhat létre PDF/UA fájlokat Word dokumentumokból lépésről‑lépésre az Aspose.Words for Python segítségével.
+### [Hogyan állítsa helyre a sérült docx fájlt, és konvertálja Markdown, egyszerű szöveg és PDF formátumba az Aspose.Words segítségével](./how-to-recover-corrupted-docx-and-convert-it-to-markdown-pla/)
+Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlokat, és konvertálhatja őket Markdown, egyszerű szöveg vagy PDF formátumba Python és Aspose.Words használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
