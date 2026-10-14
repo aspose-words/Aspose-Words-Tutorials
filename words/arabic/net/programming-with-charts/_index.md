@@ -37,10 +37,9 @@
 
 {{< tutorial-card link="./customize-x-axis-gridlines/" title="تخصيص خطوط شبكة المحور X في مخطط عمودي باستخدام Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
 
-{{< tutorial-card link="./format-secondary-axis/" title="تنسيق المحور Y الثانوي كعملة في مخطط Word باستخدام Aspose.Words for .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+{{< tutorial-card link="./format-secondary-axis/" title="تنسيق محور X الثانوي وتعيين وحدة العرض إلى الآلاف في مخططات Word الخطية باستخدام Aspose.Words for .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
 
 {{< tutorial-card link="./update-chart-title/" title="تحديث عنوان المخطط وتبديل إظهار وسيلة الإيضاح في Word باستخدام Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
-
 
 
 

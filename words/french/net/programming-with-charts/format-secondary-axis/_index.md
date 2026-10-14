@@ -1,89 +1,91 @@
 ---
-title: Formater l'axe Y secondaire en devise dans un graphique Word avec Aspose.Words for .NET
+title: Formater l’axe X secondaire et définir les unités d’affichage en milliers dans les graphiques en courbes Word avec Aspose.Words pour .NET
 weight: 710
 limit:
-description: Apprenez à ajouter et formater un axe Y secondaire en devise dans un graphique en courbes Word avec Aspose.Words for .NET.
-keywords: [Aspose.Words for .NET, format secondary axis, currency axis formatting, Word line chart secondary series, secondary Y axis .NET, chart axis number format]
+description: Créez un graphique en courbes Word, ajoutez un axe X secondaire, définissez son unité d’affichage en milliers et appliquez un format numérique personnalisé avec Aspose.Words pour .NET.
+keywords: [secondary axis formatting, Aspose.Words for .NET, line chart axis units, display units thousands, custom numeric format axis, Word chart secondary X axis]
 url: /net/programming-with-charts/format-secondary-axis/
 date: '2026-10-13'
 lastmod: '2026-10-13'
 schemas:
 - author: Aspose
   dateModified: '2026-10-13'
-  description: Apprenez à ajouter et formater un axe Y secondaire en devise dans un
-    graphique en courbes Word avec Aspose.Words for .NET.
-  headline: Formater l'axe Y secondaire en devise dans un graphique Word avec Aspose.Words
-    for .NET
+  description: Créez un graphique en courbes Word, ajoutez un axe X secondaire, définissez
+    son unité d’affichage en milliers et appliquez un format numérique personnalisé
+    avec Aspose.Words pour .NET.
+  headline: Formater l’axe X secondaire et définir les unités d’affichage en milliers
+    dans les graphiques en courbes Word avec Aspose.Words pour .NET
   type: TechArticle
-- description: Apprenez à ajouter et formater un axe Y secondaire en devise dans un
-    graphique en courbes Word avec Aspose.Words for .NET.
-  name: Formater l'axe Y secondaire en devise dans un graphique Word avec Aspose.Words
-    for .NET
+- description: Créez un graphique en courbes Word, ajoutez un axe X secondaire, définissez
+    son unité d’affichage en milliers et appliquez un format numérique personnalisé
+    avec Aspose.Words pour .NET.
+  name: Formater l’axe X secondaire et définir les unités d’affichage en milliers
+    dans les graphiques en courbes Word avec Aspose.Words pour .NET
   steps:
-  - name: Créez un nouveau document Word vide et un DocumentBuilder pour le modifier.
-    text: Créez un nouveau document Word vide et un DocumentBuilder pour le modifier.
-  - name: Insérez un graphique en courbes de taille 450×250 points dans le document
-      et récupérez son objet Chart.
-    text: Insérez un graphique en courbes de taille 450×250 points dans le document
-      et récupérez son objet Chart.
-  - name: Supprimez la série de remplacement par défaut qu’Aspose ajoute à un nouveau
-      graphique.
-    text: Supprimez la série de remplacement par défaut qu’Aspose ajoute à un nouveau
-      graphique.
-  - name: Définissez les libellés des trimestres et ajoutez une série de données principale
-      avec des valeurs d'exemple au graphique.
-    text: Définissez les libellés des trimestres et ajoutez une série de données principale
-      avec des valeurs d'exemple au graphique.
+  - name: Créez un nouvel objet Document et un DocumentBuilder pour commencer à construire
+      le fichier Word.
+    text: Créez un nouvel objet Document et un DocumentBuilder pour commencer à construire
+      le fichier Word.
+  - name: Insérez un graphique en courbes de taille 500×300 dans le document et récupérez
+      l’objet Chart.
+    text: Insérez un graphique en courbes de taille 500×300 dans le document et récupérez
+      l’objet Chart.
+  - name: Supprimez la série de démonstration par défaut qu’Aspose.Words ajoute automatiquement.
+    text: Supprimez la série de démonstration par défaut qu’Aspose.Words ajoute automatiquement.
+  - name: Définissez un tableau d’étiquettes de catégorie qui seront utilisées pour
+      l’axe X.
+    text: Définissez un tableau d’étiquettes de catégorie qui seront utilisées pour
+      l’axe X.
+  - name: Ajoutez la série de données principale nommée "Main Data" en utilisant les
+      étiquettes et les valeurs.
+    text: Ajoutez la série de données principale nommée "Main Data" en utilisant les
+      étiquettes et les valeurs.
   - name: Créez un groupe de séries secondaire de type Line et affectez-le au groupe
-      d'axes secondaire.
+      d’axes secondaire.
     text: Créez un groupe de séries secondaire de type Line et affectez-le au groupe
-      d'axes secondaire.
-  - name: Masquez l'axe X secondaire afin que seul l'axe Y secondaire soit visible.
-    text: Masquez l'axe X secondaire afin que seul l'axe Y secondaire soit visible.
-  - name: Affichez le titre de l'axe Y secondaire et définissez son texte sur \"Sales
-      (USD)\".
-    text: Affichez le titre de l'axe Y secondaire et définissez son texte sur \"Sales
-      (USD)\".
-  - name: Définissez le format numérique de l'axe Y secondaire sur un modèle de devise
-      avec deux décimales et dissociez-le du formatage source.
-    text: Définissez le format numérique de l'axe Y secondaire sur un modèle de devise
-      avec deux décimales et dissociez-le du formatage source.
-  - name: Ajoutez une série auxiliaire au groupe secondaire, en fournissant des données
-      qui seront tracées par rapport à l'axe Y secondaire.
-    text: Ajoutez une série auxiliaire au groupe secondaire, en fournissant des données
-      qui seront tracées par rapport à l'axe Y secondaire.
-  - name: Enregistrez le document final dans un fichier nommé ProfitChart.docx dans
-      le répertoire actuel.
-    text: Enregistrez le document final dans un fichier nommé ProfitChart.docx dans
-      le répertoire actuel.
+      d’axes secondaire.
+  - name: Définissez l’unité d’affichage de l’axe X secondaire sur des milliers afin
+      que les valeurs soient affichées en K.
+    text: Définissez l’unité d’affichage de l’axe X secondaire sur des milliers afin
+      que les valeurs soient affichées en K.
+  - name: Appliquez le format numérique personnalisé "#,##0.0" aux graduations de
+      l’axe X secondaire.
+    text: Appliquez le format numérique personnalisé "#,##0.0" aux graduations de
+      l’axe X secondaire.
+  - name: Ajoutez éventuellement une série de données auxiliaire au groupe secondaire.
+    text: Ajoutez éventuellement une série de données auxiliaire au groupe secondaire.
+  - name: Enregistrez le document dans un fichier .docx.
+    text: Enregistrez le document dans un fichier .docx.
   type: HowTo
 - questions:
-  - answer: Le graphique conservera la série de remplacement par défaut qu’Aspose.Words
-      insère, de sorte que votre « Main Series » personnalisée apparaîtra aux côtés
-      de points de données indésirables.
-    question: Que se passe-t-il si j'omets l'appel `lineChart.Series.Clear()` ?
-  - answer: Définissez `secondarySeriesGroup.AxisX.Hidden = false;` (ou omettez simplement
-      la ligne qui le définit à `true`).
-    question: Comment afficher l'axe X secondaire au lieu de le masquer ?
-  - answer: Oui – changez la chaîne de format, par ex. `secondarySeriesGroup.AxisY.NumberFormat.FormatCode
-      = \"\\\"€\\\"#,##0.00\";` pour les euros ou adaptez le modèle à votre locale.
-    question: Puis-je utiliser un symbole monétaire ou un format différent pour l'axe
-      Y secondaire ?
-  - answer: Lorsque `IsLinkedToSource` est vrai, l'axe hérite du format numérique
-      de la source de données sous‑jacente, ce qui écrase tout `FormatCode` personnalisé ;
-      le définir à false oblige le graphique à utiliser le format que vous spécifiez.
-    question: Pourquoi faut‑il définir `IsLinkedToSource = false` lors de l'application
-      d'un format numérique personnalisé ?
-  - answer: Oui, affectez `secondarySeriesGroup.AxisY.Position = AxisPosition.Left;`
-      (ou `Right` pour la valeur par défaut) pour contrôler le côté sur lequel l'axe
-      est dessiné.
-    question: Est‑il possible de déplacer l'axe Y secondaire du côté gauche du graphique ?
+  - answer: Non – les paramètres `AxisX` appartiennent au `ChartSeriesGroup`, vous
+      pouvez donc définir `secondaryGroup.AxisX.DisplayUnit.Unit` et `secondaryGroup.AxisX.NumberFormat.FormatCode`
+      avant ou après l’ajout des séries ; la configuration s’appliquera à l’axe du
+      groupe dans les deux cas.
+    question: Do I have to add the secondary series before setting the display unit
+      and number format on the secondary X‑axis?
+  - answer: Oui – affectez n’importe quelle valeur `AxisBuiltInUnit`, par exemple
+      `secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Millions;` pour afficher
+      les valeurs de l’axe en millions au lieu de milliers.
+    question: Puis-je utiliser une autre unité intégrée, comme les millions, pour
+      l’axe X secondaire ?
+  - answer: Non – le code de format est appliqué uniquement à l’axe que vous modifiez
+      (`secondaryGroup.AxisX.NumberFormat.FormatCode`), ainsi l’axe X principal conserve
+      son format par défaut.
+    question: Le format personnalisé `"#,##0.0"` affectera-t-il les étiquettes de
+      l’axe X principal ?
+  - answer: Le graphique contiendra la série de démonstration par défaut en plus de
+      celles que vous ajoutez, ce qui peut entraîner des lignes supplémentaires et
+      des catégories incohérentes ; vider la collection garantit que seules les données
+      prévues apparaissent.
+    question: Que se passe-t-il si j’oublie de vider la série de démonstration avec
+      `lineChart.Series.Clear();` ?
   type: FAQPage
 images:
 - /net/programming-with-charts/format-secondary-axis/og-image.png
-og_title: Formater l'axe secondaire d'un graphique en devise
-og_description: Apprenez à ajouter un axe Y secondaire à un graphique en courbes Word et à le styliser en devise avec deux décimales.
-og_image_alt: Capture d'écran montrant un graphique en courbes Word avec un axe Y secondaire formaté en devise utilisant Aspose.Words for .NET
+og_title: Formater l’axe X secondaire et définir les unités en milliers
+og_description: Ajoutez un axe X secondaire à un graphique en courbes Word et formatez ses étiquettes en milliers avec un motif personnalisé.
+og_image_alt: Guide montrant comment ajouter un axe X secondaire à un graphique en courbes Word et formater ses étiquettes pour afficher les unités en milliers en utilisant Aspose.Words pour .NET
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -92,8 +94,8 @@ og_image_alt: Capture d'écran montrant un graphique en courbes Word avec un axe
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Formater l'axe Y secondaire en devise dans un graphique Word avec Aspose.Words
-Dans ce tutoriel, vous verrez comment créer un document Word, insérer un graphique en courbes, ajouter un axe Y secondaire, formater cet axe en devise avec deux décimales, et y lier une série de données secondaire en utilisant Aspose.Words for .NET. Formater l'axe secondaire en devise vous permet de présenter clairement les données financières aux côtés de la série principale. Suivez le code étape par étape pour voir le graphique rendu directement dans le document généré.
+# Formater l’axe X secondaire et définir les unités d’affichage en milliers dans les graphiques en courbes Word avec Aspose.Words pour .NET
+Ce tutoriel vous guide dans la création d’un document Word contenant un graphique en courbes, l’ajout d’un axe X secondaire et la configuration de cet axe pour afficher les valeurs en milliers. Vous apprendrez également à appliquer un format numérique personnalisé aux étiquettes de l’axe secondaire, ce qui vous donne un contrôle précis sur la présentation des données. Suivez les étapes pour améliorer la lisibilité des graphiques à axes multiples dans vos rapports Word.
 
 ---
 
@@ -131,20 +133,17 @@ Dans ce tutoriel, vous verrez comment créer un document Word, insérer un graph
 
 ## Frequently asked questions
 
-**Q: Que se passe-t-il si j'omets l'appel `lineChart.Series.Clear()` ?**  
-A: Le graphique conservera la série de remplacement par défaut qu’Aspose.Words insère, de sorte que votre « Main Series » personnalisée apparaîtra aux côtés de points de données indésirables.
+**Q: Do I have to add the secondary series before setting the display unit and number format on the secondary X‑axis?**  
+A: Non – les paramètres `AxisX` appartiennent au `ChartSeriesGroup`, vous pouvez donc définir `secondaryGroup.AxisX.DisplayUnit.Unit` et `secondaryGroup.AxisX.NumberFormat.FormatCode` avant ou après l’ajout des séries ; la configuration s’appliquera à l’axe du groupe dans les deux cas.
 
-**Q: Comment afficher l'axe X secondaire au lieu de le masquer ?**  
-A: Définissez `secondarySeriesGroup.AxisX.Hidden = false;` (ou omettez simplement la ligne qui le définit à `true`).
+**Q: Puis-je utiliser une autre unité intégrée, comme les millions, pour l’axe X secondaire ?**  
+A: Oui – affectez n’importe quelle valeur `AxisBuiltInUnit`, par exemple `secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Millions;` pour afficher les valeurs de l’axe en millions au lieu de milliers.
 
-**Q: Puis-je utiliser un symbole monétaire ou un format différent pour l'axe Y secondaire ?**  
-A: Oui – changez la chaîne de format, par ex. `secondarySeriesGroup.AxisY.NumberFormat.FormatCode = \"\\\"€\\\"#,##0.00\";` pour les euros ou adaptez le modèle à votre locale.
+**Q: Le format personnalisé `"#,##0.0"` affectera-t-il les étiquettes de l’axe X principal ?**  
+A: Non – le code de format est appliqué uniquement à l’axe que vous modifiez (`secondaryGroup.AxisX.NumberFormat.FormatCode`), ainsi l’axe X principal conserve son format par défaut.
 
-**Q: Pourquoi faut‑il définir `IsLinkedToSource = false` lors de l'application d'un format numérique personnalisé ?**  
-A: Lorsque `IsLinkedToSource` est vrai, l'axe hérite du format numérique de la source de données sous‑jacente, ce qui écrase tout `FormatCode` personnalisé ; le définir à false oblige le graphique à utiliser le format que vous spécifiez.
-
-**Q: Est‑il possible de déplacer l'axe Y secondaire du côté gauche du graphique ?**  
-A: Oui, affectez `secondarySeriesGroup.AxisY.Position = AxisPosition.Left;` (ou `Right` pour la valeur par défaut) pour contrôler le côté sur lequel l'axe est dessiné.
+**Q: Que se passe-t-il si j’oublie de vider la série de démonstration avec `lineChart.Series.Clear();` ?**  
+A: Le graphique contiendra la série de démonstration par défaut en plus de celles que vous ajoutez, ce qui peut entraîner des lignes supplémentaires et des catégories incohérentes ; vider la collection garantit que seules les données prévues apparaissent.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

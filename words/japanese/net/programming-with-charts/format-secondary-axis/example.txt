@@ -1,57 +1,52 @@
 //ExStart
-//ExSummary: このチュートリアルでは、Word ドキュメントを作成し、折れ線グラフを挿入し、二次 Y 軸を追加し、その軸を小数点以下2桁の通貨形式に設定し、Aspose.Words for .NET を使用して二次データ系列で埋め込む方法を示します。
-//ExStepSummary:0: 空の新しい Word ドキュメントと、編集用の DocumentBuilder を作成します。
-//ExStepSummary:1: サイズ 450×250 ポイントの折れ線グラフをドキュメントに挿入し、その Chart オブジェクトを取得します。
-//ExStepSummary:2: Aspose が新しいチャートに追加するデフォルトのプレースホルダー系列を削除します。
-//ExStepSummary:3: 四半期ラベルを定義し、サンプル値を持つ一次データ系列をチャートに追加します。
-//ExStepSummary:4: Line タイプの二次系列グループを作成し、二次軸グループに割り当てます。
-//ExStepSummary:5: 二次 X 軸を非表示にし、二次 Y 軸だけが表示されるようにします。
-//ExStepSummary:6: 二次 Y 軸のタイトルを表示し、そのテキストを \"Sales (USD)\" に設定します。
-//ExStepSummary:7: 二次 Y 軸の数値形式を小数点以下2桁の通貨パターンに設定し、ソースの書式設定からリンクを解除します。
-//ExStepSummary:8: 二次グループに補助系列を追加し、二次 Y 軸に対してプロットされるデータを提供します。
-//ExStepSummary:9: 完成したドキュメントを、現在のディレクトリにある ProfitChart.docx という名前のファイルに保存します。
+//ExSummary: このチュートリアルでは、Aspose.Words を使用して、折れ線グラフを含む Word 文書を作成し、セカンダリ X 軸を追加し、その表示単位を千単位に設定し、軸ラベルにカスタム数値書式を適用する方法を示します。
+//ExStepSummary:0: 新しい Document と DocumentBuilder を作成し、Word ファイルの作成を開始します。
+//ExStepSummary:1: サイズ 500×300 の折れ線グラフを文書に挿入し、Chart オブジェクトを取得します。
+//ExStepSummary:2: Aspose.Words が自動的に追加するデフォルトのデモシリーズを削除します。
+//ExStepSummary:3: X 軸に使用するカテゴリラベルの配列を定義します。
+//ExStepSummary:4: ラベルと値を使用して、"Main Data" という名前のプライマリ データシリーズを追加します。
+//ExStepSummary:5: Line タイプのセカンダリ シリーズ グループを作成し、セカンダリ 軸グループに割り当てます。
+//ExStepSummary:6: セカンダリ X 軸の表示単位を千単位に設定し、値が K で表示されるようにします。
+//ExStepSummary:7: カスタム数値書式 "#,##0.0" をセカンダリ X 軸の目盛ラベルに適用します。
+//ExStepSummary:8: 必要に応じて、補助データシリーズをセカンダリ グループに追加します。
+//ExStepSummary:9: 文書を .docx ファイルとして保存します。
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
-//ExStepImage:3:images/3.png
-//ExStepImage:4:images/4.png
-//ExStepImage:5:images/5.png
-//ExStepImage:6:images/6.png
-//ExStepImage:7:images/7.png
-//ExStepImage:8:images/8.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+//ExStepImage:8:images/7.png
 //ExStep:0-
-Document wordDoc = new Document();
-DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+        Document document = new Document();
+        DocumentBuilder docBuilder = new DocumentBuilder(document);
 
 //ExStep:1-
-Shape lineChartShape = docBuilder.InsertChart(ChartType.Line, 450, 250);
-Chart lineChart = lineChartShape.Chart;
+        Shape chartContainer = docBuilder.InsertChart(ChartType.Line, 500, 300);
+        Chart lineChart = chartContainer.Chart;
 
 //ExStep:2-
-lineChart.Series.Clear();
+        lineChart.Series.Clear();
 
 //ExStep:3-
-string[] quarters = new[] { "Q1", "Q2", "Q3", "Q4" };
-lineChart.Series.Add("Main Series", quarters, new double[] { 1200, 1500, 1800, 2100 });
+        string[] labels = { "Group A", "Group B", "Group C" };
 
 //ExStep:4-
-ChartSeriesGroup secondarySeriesGroup = lineChart.SeriesGroups.Add(ChartSeriesType.Line);
-secondarySeriesGroup.AxisGroup = AxisGroup.Secondary;
+        lineChart.Series.Add("Main Data", labels, new double[] { 10, 20, 30 });
 
 //ExStep:5-
-secondarySeriesGroup.AxisX.Hidden = true;
+        ChartSeriesGroup secondaryGroup = lineChart.SeriesGroups.Add(ChartSeriesType.Line);
+        secondaryGroup.AxisGroup = AxisGroup.Secondary;
 
 //ExStep:6-
-secondarySeriesGroup.AxisY.Title.Show = true;
-secondarySeriesGroup.AxisY.Title.Text = "Sales (USD)";
+        secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Thousands;
 
 //ExStep:7-
-secondarySeriesGroup.AxisY.NumberFormat.FormatCode = "\"$\"#,##0.00";
-secondarySeriesGroup.AxisY.NumberFormat.IsLinkedToSource = false;
+        secondaryGroup.AxisX.NumberFormat.FormatCode = "#,##0.0";
 
 //ExStep:8-
-secondarySeriesGroup.Series.Add("Auxiliary Series", quarters, new double[] { 3000, 3500, 4000, 4500 });
+        secondaryGroup.Series.Add("Auxiliary Data", labels, new double[] { 15, 25, 35 });
 
 //ExStep:9-
-string resultPath = Path.Combine(Directory.GetCurrentDirectory(), "ProfitChart.docx");
-wordDoc.Save(resultPath);
+        document.Save("ChartWithSecondaryAxis.docx");
 //ExEnd

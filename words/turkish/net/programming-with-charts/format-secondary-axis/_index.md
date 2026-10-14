@@ -1,82 +1,82 @@
 ---
-title: Aspose.Words for .NET kullanarak bir Word grafiğinde İkincil Y Eksenini Para Birimi Olarak Biçimlendirin
+title: Aspose.Words for .NET kullanarak Word line chart'larında Secondary X‑Axis'i biçimlendirin ve Display Units'i bin olarak ayarlayın.
 weight: 710
 limit:
-description: Aspose.Words for .NET ile bir Word çizgi grafiğinde ikincil Y eksenini para birimi olarak eklemeyi ve biçimlendirmeyi öğrenin.
-keywords: [Aspose.Words for .NET, format secondary axis, currency axis formatting, Word line chart secondary series, secondary Y axis .NET, chart axis number format]
+description: Aspose.Words for .NET ile bir Word line chart oluşturun, ikincil X‑axis ekleyin, display unit'ını bin olarak ayarlayın ve özel bir sayısal format uygulayın.
+keywords: [secondary axis formatting, Aspose.Words for .NET, line chart axis units, display units thousands, custom numeric format axis, Word chart secondary X axis]
 url: /net/programming-with-charts/format-secondary-axis/
 date: '2026-10-13'
 lastmod: '2026-10-13'
 schemas:
 - author: Aspose
   dateModified: '2026-10-13'
-  description: Aspose.Words for .NET ile bir Word çizgi grafiğinde ikincil Y eksenini
-    para birimi olarak eklemeyi ve biçimlendirmeyi öğrenin.
-  headline: Aspose.Words for .NET kullanarak bir Word grafiğinde İkincil Y Eksenini
-    Para Birimi Olarak Biçimlendirin
+  description: Aspose.Words for .NET ile bir Word line chart oluşturun, ikincil X‑axis
+    ekleyin, display unit'ını bin olarak ayarlayın ve özel bir sayısal format uygulayın.
+  headline: Aspose.Words for .NET kullanarak Word line chart'larında Secondary X‑Axis'i
+    biçimlendirin ve Display Units'i bin olarak ayarlayın.
   type: TechArticle
-- description: Aspose.Words for .NET ile bir Word çizgi grafiğinde ikincil Y eksenini
-    para birimi olarak eklemeyi ve biçimlendirmeyi öğrenin.
-  name: Aspose.Words for .NET kullanarak bir Word grafiğinde İkincil Y Eksenini Para
-    Birimi Olarak Biçimlendirin
+- description: Aspose.Words for .NET ile bir Word line chart oluşturun, ikincil X‑axis
+    ekleyin, display unit'ını bin olarak ayarlayın ve özel bir sayısal format uygulayın.
+  name: Aspose.Words for .NET kullanarak Word line chart'larında Secondary X‑Axis'i
+    biçimlendirin ve Display Units'i bin olarak ayarlayın.
   steps:
-  - name: Yeni boş bir Word belgesi ve onu düzenlemek için bir DocumentBuilder oluşturun.
-    text: Yeni boş bir Word belgesi ve onu düzenlemek için bir DocumentBuilder oluşturun.
-  - name: Belgeye 450×250 puan boyutunda bir çizgi grafik ekleyin ve onun Chart nesnesini
-      alın.
-    text: Belgeye 450×250 puan boyutunda bir çizgi grafik ekleyin ve onun Chart nesnesini
-      alın.
-  - name: Aspose'un yeni bir grafiğe eklediği varsayılan yer tutucu serisini kaldırın.
-    text: Aspose'un yeni bir grafiğe eklediği varsayılan yer tutucu serisini kaldırın.
-  - name: Çeyrek etiketlerini tanımlayın ve grafiğe örnek değerlerle bir birincil
-      veri serisi ekleyin.
-    text: Çeyrek etiketlerini tanımlayın ve grafiğe örnek değerlerle bir birincil
-      veri serisi ekleyin.
-  - name: Line türünde bir ikincil seri grubu oluşturun ve bunu ikincil eksen grubuna
-      atayın.
-    text: Line türünde bir ikincil seri grubu oluşturun ve bunu ikincil eksen grubuna
-      atayın.
-  - name: İkincil X eksenini gizleyin, böylece sadece ikincil Y ekseni görünür.
-    text: İkincil X eksenini gizleyin, böylece sadece ikincil Y ekseni görünür.
-  - name: İkincil Y ekseni başlığını gösterin ve metnini \"Sales (USD)\" olarak ayarlayın.
-    text: İkincil Y ekseni başlığını gösterin ve metnini \"Sales (USD)\" olarak ayarlayın.
-  - name: İkincil Y ekseninin sayı biçimini iki ondalık basamaklı bir para birimi
-      desenine ayarlayın ve kaynağın biçimlendirmesinden bağlantısını kaldırın.
-    text: İkincil Y ekseninin sayı biçimini iki ondalık basamaklı bir para birimi
-      desenine ayarlayın ve kaynağın biçimlendirmesinden bağlantısını kaldırın.
-  - name: İkincil gruba yardımcı bir seri ekleyin; bu seri ikincil Y eksenine karşı
-      çizilecek verileri sağlar.
-    text: İkincil gruba yardımcı bir seri ekleyin; bu seri ikincil Y eksenine karşı
-      çizilecek verileri sağlar.
-  - name: Tamamlanan belgeyi geçerli dizinde ProfitChart.docx adlı bir dosyaya kaydedin.
-    text: Tamamlanan belgeyi geçerli dizinde ProfitChart.docx adlı bir dosyaya kaydedin.
+  - name: Yeni bir Document ve bir DocumentBuilder oluşturun ve Word dosyasını oluşturmaya
+      başlayın.
+    text: Yeni bir Document ve bir DocumentBuilder oluşturun ve Word dosyasını oluşturmaya
+      başlayın.
+  - name: Belgeye 500×300 boyutunda bir line chart ekleyin ve Chart nesnesini elde
+      edin.
+    text: Belgeye 500×300 boyutunda bir line chart ekleyin ve Chart nesnesini elde
+      edin.
+  - name: Aspose.Words'ün otomatik olarak eklediği varsayılan demo serisini kaldırın.
+    text: Aspose.Words'ün otomatik olarak eklediği varsayılan demo serisini kaldırın.
+  - name: X‑axis için kullanılacak kategori etiketlerinin bir dizisini tanımlayın.
+    text: X‑axis için kullanılacak kategori etiketlerinin bir dizisini tanımlayın.
+  - name: Etiketleri ve değerleri kullanarak "Main Data" adlı birincil veri serisini
+      ekleyin.
+    text: Etiketleri ve değerleri kullanarak "Main Data" adlı birincil veri serisini
+      ekleyin.
+  - name: Line tipinde bir secondary series group oluşturun ve onu secondary axis
+      group'a atayın.
+    text: Line tipinde bir secondary series group oluşturun ve onu secondary axis
+      group'a atayın.
+  - name: İkincil X‑axis'in display unit'ını bin olarak ayarlayın, böylece değerler
+      K olarak gösterilir.
+    text: İkincil X‑axis'in display unit'ını bin olarak ayarlayın, böylece değerler
+      K olarak gösterilir.
+  - name: İkincil X‑axis'in tick etiketlerine "#,##0.0" özel sayısal formatını uygulayın.
+    text: İkincil X‑axis'in tick etiketlerine "#,##0.0" özel sayısal formatını uygulayın.
+  - name: İsteğe bağlı olarak secondary group'a yardımcı bir veri serisi ekleyin.
+    text: İsteğe bağlı olarak secondary group'a yardımcı bir veri serisi ekleyin.
+  - name: Belgeyi .docx dosyası olarak kaydedin.
+    text: Belgeyi .docx dosyası olarak kaydedin.
   type: HowTo
 - questions:
-  - answer: Grafik, Aspose.Words'un eklediği varsayılan yer tutucu serisini tutar;
-      bu yüzden özelleştirilmiş \"Main Series\" istenmeyen veri noktalarıyla birlikte
-      görünür.
-    question: '`lineChart.Series.Clear()` çağrısını atlamam durumunda ne olur?'
-  - answer: '`secondarySeriesGroup.AxisX.Hidden = false;` olarak ayarlayın (veya `true`
-      olarak ayarlayan satırı basitçe atlayın).'
-    question: İkincil X eksenini gizlemek yerine nasıl gösterebilirim?
-  - answer: Evet – format dizesini değiştirin, örneğin euro için `secondarySeriesGroup.AxisY.NumberFormat.FormatCode
-      = \\"€#,##0.00\\";` ya da bölgenize uygun bir desen ayarlayın.
-    question: İkincil Y ekseni için farklı bir para birimi simgesi veya biçimi kullanabilir
+  - answer: Hayır – `AxisX` ayarları `ChartSeriesGroup`'a aittir, bu yüzden `secondaryGroup.AxisX.DisplayUnit.Unit`
+      ve `secondaryGroup.AxisX.NumberFormat.FormatCode` değerlerini serileri eklemeden
+      önce ya da sonra ayarlayabilirsiniz; yapılandırma her iki durumda da grup eksenine
+      uygulanır.
+    question: İkincil X‑axis üzerinde display unit ve number format ayarlamadan önce
+      secondary series eklemem gerekiyor mu?
+  - answer: Evet – herhangi bir `AxisBuiltInUnit` değerini atayabilirsiniz, örneğin
+      `secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Millions;` ifadesi
+      eksen değerlerini bin yerine milyon olarak gösterir.
+    question: İkincil X‑axis için milyonlar gibi farklı bir built‑in unit kullanabilir
       miyim?
-  - answer: '`IsLinkedToSource` true olduğunda eksen, temel veri kaynağından sayı
-      biçimini devralır ve herhangi bir özel `FormatCode`''u geçersiz kılar; false
-      olarak ayarlamak, grafiğin belirttiğiniz biçimi kullanmasını zorlar.'
-    question: Özel bir sayı biçimi uygularken neden `IsLinkedToSource = false` ayarlamam
-      gerekiyor?
-  - answer: Evet, eksenin hangi tarafta çizileceğini kontrol etmek için `secondarySeriesGroup.AxisY.Position
-      = AxisPosition.Left;` (veya varsayılan için `Right`) atayın.
-    question: İkincil Y eksenini grafiğin sol tarafına taşımak mümkün mü?
+  - answer: Hayır – format kodu yalnızca değiştirdiğiniz eksene (`secondaryGroup.AxisX.NumberFormat.FormatCode`)
+      uygulanır, bu yüzden birincil X‑axis varsayılan biçimini korur.
+    question: Özel format "#,##0.0" birincil X‑axis etiketlerini etkiler mi?
+  - answer: Grafik, eklediğiniz serilerin yanı sıra varsayılan demo serisini de içerecek
+      ve bu ekstra çizgilere ve uyumsuz kategorilere yol açabilir; koleksiyonu temizlemek
+      yalnızca istediğiniz verilerin görünmesini sağlar.
+    question: '`lineChart.Series.Clear();` ile demo serisini temizlemeyi unutsam ne
+      olur?'
   type: FAQPage
 images:
 - /net/programming-with-charts/format-secondary-axis/og-image.png
-og_title: Bir Grafiğin İkincil Eksenini Para Birimi Olarak Biçimlendirin
-og_description: Bir Word çizgi grafiğine ikincil Y ekseni eklemeyi ve iki ondalık basamakla para birimi şeklinde stil vermeyi öğrenin.
-og_image_alt: Aspose.Words for .NET kullanarak ikincil Y ekseni para birimi olarak biçimlendirilmiş bir Word çizgi grafiğini gösteren ekran görüntüsü
+og_title: Secondary X‑Axis'i biçimlendirin ve Units'i bin olarak ayarlayın.
+og_description: Bir Word line chart'a secondary X‑axis ekleyin ve etiketlerini bin olarak özel bir desenle biçimlendirin.
+og_image_alt: Aspose.Words for .NET kullanarak bir Word line chart'a secondary X‑axis eklemeyi ve etiketlerini bin birimlerde gösterecek şekilde biçimlendirmeyi gösteren rehber.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -85,8 +85,8 @@ og_image_alt: Aspose.Words for .NET kullanarak ikincil Y ekseni para birimi olar
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for .NET kullanarak bir Word grafiğinde İkincil Y Eksenini Para Birimi Olarak Biçimlendirin
-Bu öğreticide, Aspose.Words for .NET kullanarak bir Word belgesi oluşturmayı, bir çizgi grafik eklemeyi, ikincil Y ekseni eklemeyi, bu ekseni iki ondalık basamaklı para birimi olarak biçimlendirmeyi ve ona ikincil bir veri serisi bağlamayı göreceksiniz. İkincil ekseni para birimi olarak biçimlendirmek, finansal verileri birincil seriyle birlikte net bir şekilde sunmanızı sağlar. Oluşturulan belgede grafiğin doğrudan nasıl oluşturulduğunu görmek için adım adım kodu izleyin.
+# Aspose.Words for .NET kullanarak Word line chart'larında Secondary X‑Axis'i biçimlendirin ve Display Units'i bin olarak ayarlayın.
+Bu öğretici, içinde bir line chart bulunan bir Word belgesi oluşturmayı, ikincil X‑axis eklemeyi ve bu ekseni bin değerler gösterecek şekilde yapılandırmayı adım adım gösterir. Ayrıca ikincil eksen etiketlerine özel bir sayısal format uygulamayı öğrenerek verinin nasıl sunulduğu üzerinde hassas kontrol elde edersiniz. Word raporlarınızdaki çoklu eksenli grafiklerin okunabilirliğini artırmak için adımları izleyin.
 
 ---
 
@@ -124,20 +124,17 @@ Bu öğreticide, Aspose.Words for .NET kullanarak bir Word belgesi oluşturmayı
 
 ## Frequently asked questions
 
-**Q: `lineChart.Series.Clear()` çağrısını atlamam durumunda ne olur?**  
-A: Grafik, Aspose.Words'un eklediği varsayılan yer tutucu serisini tutar; bu yüzden özelleştirilmiş \"Main Series\" istenmeyen veri noktalarıyla birlikte görünür.
+**Q: İkincil X‑axis üzerinde display unit ve number format ayarlamadan önce secondary series eklemem gerekiyor mu?**  
+A: Hayır – `AxisX` ayarları `ChartSeriesGroup`'a aittir, bu yüzden `secondaryGroup.AxisX.DisplayUnit.Unit` ve `secondaryGroup.AxisX.NumberFormat.FormatCode` değerlerini serileri eklemeden önce ya da sonra ayarlayabilirsiniz; yapılandırma her iki durumda da grup eksenine uygulanır.
 
-**Q: İkincil X eksenini gizlemek yerine nasıl gösterebilirim?**  
-A: `secondarySeriesGroup.AxisX.Hidden = false;` olarak ayarlayın (veya `true` olarak ayarlayan satırı basitçe atlayın).
+**Q: İkincil X‑axis için milyonlar gibi farklı bir built‑in unit kullanabilir miyim?**  
+A: Evet – herhangi bir `AxisBuiltInUnit` değerini atayabilirsiniz, örneğin `secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Millions;` ifadesi eksen değerlerini bin yerine milyon olarak gösterir.
 
-**Q: İkincil Y ekseni için farklı bir para birimi simgesi veya biçimi kullanabilir miyim?**  
-A: Evet – format dizesini değiştirin, örneğin euro için `secondarySeriesGroup.AxisY.NumberFormat.FormatCode = \\"€#,##0.00\\";` ya da bölgenize uygun bir desen ayarlayın.
+**Q: Özel format "#,##0.0" birincil X‑axis etiketlerini etkiler mi?**  
+A: Hayır – format kodu yalnızca değiştirdiğiniz eksene (`secondaryGroup.AxisX.NumberFormat.FormatCode`) uygulanır, bu yüzden birincil X‑axis varsayılan biçimini korur.
 
-**Q: Özel bir sayı biçimi uygularken neden `IsLinkedToSource = false` ayarlamam gerekiyor?**  
-A: `IsLinkedToSource` true olduğunda eksen, temel veri kaynağından sayı biçimini devralır ve herhangi bir özel `FormatCode`'u geçersiz kılar; false olarak ayarlamak, grafiğin belirttiğiniz biçimi kullanmasını zorlar.
-
-**Q: İkincil Y eksenini grafiğin sol tarafına taşımak mümkün mü?**  
-A: Evet, eksenin hangi tarafta çizileceğini kontrol etmek için `secondarySeriesGroup.AxisY.Position = AxisPosition.Left;` (veya varsayılan için `Right`) atayın.
+**Q: `lineChart.Series.Clear();` ile demo serisini temizlemeyi unutsam ne olur?**  
+A: Grafik, eklediğiniz serilerin yanı sıra varsayılan demo serisini de içerecek ve bu ekstra çizgilere ve uyumsuz kategorilere yol açabilir; koleksiyonu temizlemek yalnızca istediğiniz verilerin görünmesini sağlar.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

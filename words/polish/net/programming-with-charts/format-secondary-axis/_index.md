@@ -1,78 +1,81 @@
 ---
-title: Formatuj drugą oś Y jako walutę w wykresie Word przy użyciu Aspose.Words for .NET
+title: Formatuj drugą oś X i ustaw jednostki wyświetlania na tysiące w wykresach liniowych Word przy użyciu Aspose.Words dla .NET
 weight: 710
 limit:
-description: Dowiedz się, jak dodać i sformatować drugą oś Y jako walutę w wykresie liniowym Word przy użyciu Aspose.Words for .NET.
-keywords: [Aspose.Words for .NET, format secondary axis, currency axis formatting, Word line chart secondary series, secondary Y axis .NET, chart axis number format]
+description: Utwórz wykres liniowy w Word, dodaj drugą oś X, ustaw jej jednostkę wyświetlania na tysiące i zastosuj niestandardowy format liczbowy przy użyciu Aspose.Words dla .NET.
+keywords: [secondary axis formatting, Aspose.Words for .NET, line chart axis units, display units thousands, custom numeric format axis, Word chart secondary X axis]
 url: /net/programming-with-charts/format-secondary-axis/
 date: '2026-10-13'
 lastmod: '2026-10-13'
 schemas:
 - author: Aspose
   dateModified: '2026-10-13'
-  description: Dowiedz się, jak dodać i sformatować drugą oś Y jako walutę w wykresie
-    liniowym Word przy użyciu Aspose.Words for .NET.
-  headline: Formatuj drugą oś Y jako walutę w wykresie Word przy użyciu Aspose.Words
-    for .NET
+  description: Utwórz wykres liniowy w Word, dodaj drugą oś X, ustaw jej jednostkę
+    wyświetlania na tysiące i zastosuj niestandardowy format liczbowy przy użyciu
+    Aspose.Words dla .NET.
+  headline: Formatuj drugą oś X i ustaw jednostki wyświetlania na tysiące w wykresach
+    liniowych Word przy użyciu Aspose.Words dla .NET
   type: TechArticle
-- description: Dowiedz się, jak dodać i sformatować drugą oś Y jako walutę w wykresie
-    liniowym Word przy użyciu Aspose.Words for .NET.
-  name: Formatuj drugą oś Y jako walutę w wykresie Word przy użyciu Aspose.Words for
-    .NET
+- description: Utwórz wykres liniowy w Word, dodaj drugą oś X, ustaw jej jednostkę
+    wyświetlania na tysiące i zastosuj niestandardowy format liczbowy przy użyciu
+    Aspose.Words dla .NET.
+  name: Formatuj drugą oś X i ustaw jednostki wyświetlania na tysiące w wykresach
+    liniowych Word przy użyciu Aspose.Words dla .NET
   steps:
-  - name: Utwórz nowy pusty dokument Word oraz obiekt DocumentBuilder do jego edycji.
-    text: Utwórz nowy pusty dokument Word oraz obiekt DocumentBuilder do jego edycji.
-  - name: Wstaw wykres liniowy o rozmiarze 450×250 punktów do dokumentu i pobierz
-      jego obiekt Chart.
-    text: Wstaw wykres liniowy o rozmiarze 450×250 punktów do dokumentu i pobierz
-      jego obiekt Chart.
-  - name: Usuń domyślną serię zastępczą, którą Aspose dodaje do nowego wykresu.
-    text: Usuń domyślną serię zastępczą, którą Aspose dodaje do nowego wykresu.
-  - name: Zdefiniuj etykiety kwartałów i dodaj główną serię danych z przykładowymi
-      wartościami do wykresu.
-    text: Zdefiniuj etykiety kwartałów i dodaj główną serię danych z przykładowymi
-      wartościami do wykresu.
+  - name: Utwórz nowy obiekt Document oraz DocumentBuilder, aby rozpocząć budowanie
+      pliku Word.
+    text: Utwórz nowy obiekt Document oraz DocumentBuilder, aby rozpocząć budowanie
+      pliku Word.
+  - name: Wstaw wykres liniowy o rozmiarze 500×300 do dokumentu i uzyskaj obiekt Chart.
+    text: Wstaw wykres liniowy o rozmiarze 500×300 do dokumentu i uzyskaj obiekt Chart.
+  - name: Usuń domyślną serię demonstracyjną, którą Aspose.Words dodaje automatycznie.
+    text: Usuń domyślną serię demonstracyjną, którą Aspose.Words dodaje automatycznie.
+  - name: Zdefiniuj tablicę etykiet kategorii, które będą użyte na osi X.
+    text: Zdefiniuj tablicę etykiet kategorii, które będą użyte na osi X.
+  - name: Dodaj główną serię danych o nazwie "Main Data", używając etykiet i wartości.
+    text: Dodaj główną serię danych o nazwie "Main Data", używając etykiet i wartości.
   - name: Utwórz drugą grupę serii typu Line i przypisz ją do grupy osi drugorzędnej.
     text: Utwórz drugą grupę serii typu Line i przypisz ją do grupy osi drugorzędnej.
-  - name: Ukryj drugą oś X, aby widoczna była tylko druga oś Y.
-    text: Ukryj drugą oś X, aby widoczna była tylko druga oś Y.
-  - name: Pokaż tytuł drugiej osi Y i ustaw jego tekst na "Sales (USD)".
-    text: Pokaż tytuł drugiej osi Y i ustaw jego tekst na "Sales (USD)".
-  - name: Ustaw format liczbowy drugiej osi Y na wzorzec walutowy z dwoma miejscami
-      po przecinku i odłącz go od formatowania źródła.
-    text: Ustaw format liczbowy drugiej osi Y na wzorzec walutowy z dwoma miejscami
-      po przecinku i odłącz go od formatowania źródła.
-  - name: Dodaj pomocniczą serię do grupy drugorzędnej, dostarczając dane, które będą
-      wykreślone względem drugiej osi Y.
-    text: Dodaj pomocniczą serię do grupy drugorzędnej, dostarczając dane, które będą
-      wykreślone względem drugiej osi Y.
-  - name: Zapisz gotowy dokument do pliku o nazwie ProfitChart.docx w bieżącym katalogu.
-    text: Zapisz gotowy dokument do pliku o nazwie ProfitChart.docx w bieżącym katalogu.
+  - name: Ustaw jednostkę wyświetlania drugiej osi X na tysiące, aby wartości były
+      wyświetlane w K.
+    text: Ustaw jednostkę wyświetlania drugiej osi X na tysiące, aby wartości były
+      wyświetlane w K.
+  - name: Zastosuj niestandardowy format liczbowy "#,##0.0" do etykiet znaczników
+      drugiej osi X.
+    text: Zastosuj niestandardowy format liczbowy "#,##0.0" do etykiet znaczników
+      drugiej osi X.
+  - name: Opcjonalnie dodaj pomocniczą serię danych do drugiej grupy.
+    text: Opcjonalnie dodaj pomocniczą serię danych do drugiej grupy.
+  - name: Zapisz dokument jako plik .docx.
+    text: Zapisz dokument jako plik .docx.
   type: HowTo
 - questions:
-  - answer: Wykres zachowa domyślną serię zastępczą, którą wstawia Aspose.Words, więc
-      Twoja niestandardowa "Main Series" pojawi się obok niechcianych punktów danych.
-    question: Co się stanie, jeśli pominę wywołanie `lineChart.Series.Clear()`?
-  - answer: Ustaw `secondarySeriesGroup.AxisX.Hidden = false;` (lub po prostu pomiń
-      linię, która ustawia ją na `true`).
-    question: Jak mogę wyświetlić drugą oś X zamiast ją ukrywać?
-  - answer: Tak – zmień ciąg formatu, np. `secondarySeriesGroup.AxisY.NumberFormat.FormatCode
-      = \"€#,##0.00\";` dla euro lub dostosuj wzorzec do swojego regionu.
-    question: Czy mogę użyć innego symbolu waluty lub formatu dla drugiej osi Y?
-  - answer: Gdy `IsLinkedToSource` jest ustawione na true, oś dziedziczy format liczbowy
-      z podstawowego źródła danych, nadpisując wszelkie własne `FormatCode`; ustawienie
-      go na false wymusza użycie podanego przez Ciebie formatu.
-    question: Dlaczego muszę ustawić `IsLinkedToSource = false` przy stosowaniu własnego
-      formatu liczbowego?
-  - answer: Tak, przypisz `secondarySeriesGroup.AxisY.Position = AxisPosition.Left;`
-      (lub `Right` dla domyślnego) aby kontrolować, po której stronie oś jest rysowana.
-    question: Czy można przenieść drugą oś Y na lewą stronę wykresu?
+  - answer: Nie – ustawienia `AxisX` należą do `ChartSeriesGroup`, więc możesz ustawić
+      `secondaryGroup.AxisX.DisplayUnit.Unit` i `secondaryGroup.AxisX.NumberFormat.FormatCode`
+      przed lub po dodaniu serii; konfiguracja zostanie zastosowana do osi grupy w
+      obu przypadkach.
+    question: Czy muszę dodać drugą serię przed ustawieniem jednostki wyświetlania
+      i formatu liczbowego na drugiej osi X?
+  - answer: Tak – przypisz dowolną wartość `AxisBuiltInUnit`, np. `secondaryGroup.AxisX.DisplayUnit.Unit
+      = AxisBuiltInUnit.Millions;`, aby wyświetlać wartości osi w milionach zamiast
+      w tysiącach.
+    question: Czy mogę użyć innej wbudowanej jednostki, np. milionów, dla drugiej
+      osi X?
+  - answer: Nie – kod formatu jest stosowany tylko do osi, którą modyfikujesz (`secondaryGroup.AxisX.NumberFormat.FormatCode`),
+      więc pierwsza oś X zachowuje domyślne formatowanie.
+    question: Czy niestandardowy format "#,##0.0" wpłynie na etykiety pierwszej osi
+      X?
+  - answer: Wykres będzie zawierał domyślną serię demonstracyjną oprócz dodanych przez
+      Ciebie, co może spowodować dodatkowe linie i niezgodne kategorie; wyczyszczenie
+      kolekcji zapewnia, że pojawią się tylko zamierzone dane.
+    question: Co się stanie, jeśli zapomnę wyczyścić serię demonstracyjną za pomocą
+      `lineChart.Series.Clear();`?
   type: FAQPage
 images:
 - /net/programming-with-charts/format-secondary-axis/og-image.png
-og_title: Formatuj drugą oś wykresu jako walutę
-og_description: Dowiedz się, jak dodać drugą oś Y do wykresu liniowego Word i stylizować ją jako walutę z dwoma miejscami po przecinku.
-og_image_alt: Zrzut ekranu przedstawiający wykres liniowy Word z drugą osią Y sformatowaną jako waluta przy użyciu Aspose.Words for .NET
+og_title: Formatuj drugą oś X i ustaw jednostki na tysiące
+og_description: Dodaj drugą oś X do wykresu liniowego w Word i sformatuj jej etykiety w tysiącach przy użyciu niestandardowego wzoru.
+og_image_alt: Poradnik pokazujący, jak dodać drugą oś X do wykresu liniowego w Word i sformatować jej etykiety, aby wyświetlały jednostki w tysiącach, przy użyciu Aspose.Words dla .NET
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -81,8 +84,8 @@ og_image_alt: Zrzut ekranu przedstawiający wykres liniowy Word z drugą osią Y
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Formatuj drugą oś Y jako walutę w wykresie Word przy użyciu Aspose.Words
-W tym samouczku zobaczysz, jak zbudować dokument Word, wstawić wykres liniowy, dodać drugą oś Y, sformatować tę oś jako walutę z dwoma miejscami po przecinku oraz powiązać z nią drugą serię danych przy użyciu Aspose.Words for .NET. Formatowanie drugiej osi jako waluty pozwala wyraźnie przedstawić dane finansowe obok serii głównej. Postępuj zgodnie z kodem krok po kroku, aby zobaczyć wykres renderowany bezpośrednio w wygenerowanym dokumencie.
+# Formatuj drugą oś X i ustaw jednostki wyświetlania na tysiące w wykresach liniowych Word przy użyciu Aspose.Words dla .NET
+Ten samouczek przeprowadza Cię krok po kroku przez tworzenie dokumentu Word zawierającego wykres liniowy, dodawanie drugiej osi X oraz konfigurowanie tej osi tak, aby wyświetlała wartości w tysiącach. Dowiesz się także, jak zastosować niestandardowy format liczbowy do etykiet drugiej osi, co daje precyzyjną kontrolę nad prezentacją danych. Postępuj zgodnie z instrukcjami, aby zwiększyć czytelność wykresów wieloosiowych w raportach Word.
 
 ---
 
@@ -120,20 +123,17 @@ W tym samouczku zobaczysz, jak zbudować dokument Word, wstawić wykres liniowy,
 
 ## Frequently asked questions
 
-**Q: Co się stanie, jeśli pominę wywołanie `lineChart.Series.Clear()`?**  
-A: Wykres zachowa domyślną serię zastępczą, którą wstawia Aspose.Words, więc Twoja niestandardowa "Main Series" pojawi się obok niechcianych punktów danych.
+**Q: Czy muszę dodać drugą serię przed ustawieniem jednostki wyświetlania i formatu liczbowego na drugiej osi X?**  
+A: Nie – ustawienia `AxisX` należą do `ChartSeriesGroup`, więc możesz ustawić `secondaryGroup.AxisX.DisplayUnit.Unit` i `secondaryGroup.AxisX.NumberFormat.FormatCode` przed lub po dodaniu serii; konfiguracja zostanie zastosowana do osi grupy w obu przypadkach.
 
-**Q: Jak mogę wyświetlić drugą oś X zamiast ją ukrywać?**  
-A: Ustaw `secondarySeriesGroup.AxisX.Hidden = false;` (lub po prostu pomiń linię, która ustawia ją na `true`).
+**Q: Czy mogę użyć innej wbudowanej jednostki, np. milionów, dla drugiej osi X?**  
+A: Tak – przypisz dowolną wartość `AxisBuiltInUnit`, np. `secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Millions;`, aby wyświetlać wartości osi w milionach zamiast w tysiącach.
 
-**Q: Czy mogę użyć innego symbolu waluty lub formatu dla drugiej osi Y?**  
-A: Tak – zmień ciąg formatu, np. `secondarySeriesGroup.AxisY.NumberFormat.FormatCode = \"€#,##0.00\";` dla euro lub dostosuj wzorzec do swojego regionu.
+**Q: Czy niestandardowy format "#,##0.0" wpłynie na etykiety pierwszej osi X?**  
+A: Nie – kod formatu jest stosowany tylko do osi, którą modyfikujesz (`secondaryGroup.AxisX.NumberFormat.FormatCode`), więc pierwsza oś X zachowuje domyślne formatowanie.
 
-**Q: Dlaczego muszę ustawić `IsLinkedToSource = false` przy stosowaniu własnego formatu liczbowego?**  
-A: Gdy `IsLinkedToSource` jest ustawione na true, oś dziedziczy format liczbowy z podstawowego źródła danych, nadpisując wszelkie własne `FormatCode`; ustawienie go na false wymusza użycie podanego przez Ciebie formatu.
-
-**Q: Czy można przenieść drugą oś Y na lewą stronę wykresu?**  
-A: Tak, przypisz `secondarySeriesGroup.AxisY.Position = AxisPosition.Left;` (lub `Right` dla domyślnego) aby kontrolować, po której stronie oś jest rysowana.
+**Q: Co się stanie, jeśli zapomnę wyczyścić serię demonstracyjną za pomocą `lineChart.Series.Clear();`?**  
+A: Wykres będzie zawierał domyślną serię demonstracyjną oprócz dodanych przez Ciebie, co może spowodować dodatkowe linie i niezgodne kategorie; wyczyszczenie kolekcji zapewnia, że pojawią się tylko zamierzone dane.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

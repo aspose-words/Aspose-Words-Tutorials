@@ -38,10 +38,9 @@ Aspose.Words for .NET グラフィックスプログラミングチュートリ�
 
 {{< tutorial-card link="./customize-x-axis-gridlines/" title="Aspose.Words for .NET を使用した列グラフの X 軸グリッドラインのカスタマイズ" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
 
-{{< tutorial-card link="./format-secondary-axis/" title="Aspose.Words for .NET を使用して Word のチャートで二次 Y 軸を通貨形式に設定する" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+{{< tutorial-card link="./format-secondary-axis/" title="Aspose.Words for .NET を使用して Word の折れ線グラフでセカンダリ X 軸をフォーマットし、表示単位を千単位に設定する" imgSrc="./format-secondary-axis/images/thumb.png" >}}
 
 {{< tutorial-card link="./update-chart-title/" title="Aspose.Words for .NET を使用して Word でチャートタイトルを更新し、凡例の表示を切り替える" imgSrc="./update-chart-title/images/thumb.png" >}}
-
 
 
 

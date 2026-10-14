@@ -27,12 +27,10 @@ With these tutorials, you will be able to enhance your Word documents by adding 
 {{< tutorial-card link="./update-chart-title/" title="Update Chart Title and Toggle Legend Visibility in Word Using Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
-{{< tutorial-card link="./format-secondary-axis/" title="Format Secondary Y‑Axis as Currency in a Word Chart Using Aspose.Words for .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+{{< tutorial-card link="./format-secondary-axis/" title="Format Secondary X‑Axis and Set Display Units to Thousands in Word Line Charts Using Aspose.Words for .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
 
 
 {{< tutorial-card link="./customize-x-axis-gridlines/" title="Customize X Axis Gridlines in a Column Chart Using Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
-
-
 {{< tutorial-card link="./modify-chart-series/" title="Update Chart Series Data in a Word Document Using Aspose.Words for .NET" imgSrc="./modify-chart-series/images/thumb.png" >}}
 
 

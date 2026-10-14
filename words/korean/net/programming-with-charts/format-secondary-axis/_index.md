@@ -1,66 +1,64 @@
 ---
-title: Aspose.Words for .NET을 사용하여 Word 차트에서 보조 Y축을 통화 형식으로 지정하기
+title: Aspose.Words for .NET을 사용하여 Word 선 차트에서 보조 X축을 서식 지정하고 표시 단위를 천 단위로 설정합니다.
 weight: 710
 limit:
-description: Aspose.Words for .NET을 사용하여 Word 라인 차트에 보조 Y축을 추가하고 통화 형식으로 지정하는 방법을 배웁니다.
-keywords: [Aspose.Words for .NET, format secondary axis, currency axis formatting, Word line chart secondary series, secondary Y axis .NET, chart axis number format]
+description: Aspose.Words for .NET을 사용하여 Word 선 차트를 만들고, 보조 X축을 추가한 뒤 표시 단위를 천 단위로 설정하고 사용자 지정 숫자 형식을 적용합니다.
+keywords: [secondary axis formatting, Aspose.Words for .NET, line chart axis units, display units thousands, custom numeric format axis, Word chart secondary X axis]
 url: /net/programming-with-charts/format-secondary-axis/
 date: '2026-10-13'
 lastmod: '2026-10-13'
 schemas:
 - author: Aspose
   dateModified: '2026-10-13'
-  description: Aspose.Words for .NET을 사용하여 Word 라인 차트에 보조 Y축을 추가하고 통화 형식으로 지정하는 방법을
-    배웁니다.
-  headline: Aspose.Words for .NET을 사용하여 Word 차트에서 보조 Y축을 통화 형식으로 지정하기
+  description: Aspose.Words for .NET을 사용하여 Word 선 차트를 만들고, 보조 X축을 추가한 뒤 표시 단위를 천 단위로
+    설정하고 사용자 지정 숫자 형식을 적용합니다.
+  headline: Aspose.Words for .NET을 사용하여 Word 선 차트에서 보조 X축을 서식 지정하고 표시 단위를 천 단위로 설정합니다.
   type: TechArticle
-- description: Aspose.Words for .NET을 사용하여 Word 라인 차트에 보조 Y축을 추가하고 통화 형식으로 지정하는 방법을
-    배웁니다.
-  name: Aspose.Words for .NET을 사용하여 Word 차트에서 보조 Y축을 통화 형식으로 지정하기
+- description: Aspose.Words for .NET을 사용하여 Word 선 차트를 만들고, 보조 X축을 추가한 뒤 표시 단위를 천 단위로
+    설정하고 사용자 지정 숫자 형식을 적용합니다.
+  name: Aspose.Words for .NET을 사용하여 Word 선 차트에서 보조 X축을 서식 지정하고 표시 단위를 천 단위로 설정합니다.
   steps:
-  - name: 새 빈 Word 문서를 만들고 이를 편집하기 위해 DocumentBuilder를 생성합니다.
-    text: 새 빈 Word 문서를 만들고 이를 편집하기 위해 DocumentBuilder를 생성합니다.
-  - name: 문서에 크기 450×250 포인트인 라인 차트를 삽입하고 해당 Chart 객체를 가져옵니다.
-    text: 문서에 크기 450×250 포인트인 라인 차트를 삽입하고 해당 Chart 객체를 가져옵니다.
-  - name: Aspose가 새 차트에 추가하는 기본 플레이스홀더 시리즈를 제거합니다.
-    text: Aspose가 새 차트에 추가하는 기본 플레이스홀더 시리즈를 제거합니다.
-  - name: 분기 라벨을 정의하고 샘플 값을 가진 기본 데이터 시리즈를 차트에 추가합니다.
-    text: 분기 라벨을 정의하고 샘플 값을 가진 기본 데이터 시리즈를 차트에 추가합니다.
+  - name: 새 Document와 DocumentBuilder를 생성하여 Word 파일 작성을 시작합니다.
+    text: 새 Document와 DocumentBuilder를 생성하여 Word 파일 작성을 시작합니다.
+  - name: 문서에 크기 500×300인 선 차트를 삽입하고 Chart 객체를 가져옵니다.
+    text: 문서에 크기 500×300인 선 차트를 삽입하고 Chart 객체를 가져옵니다.
+  - name: Aspose.Words가 자동으로 추가하는 기본 데모 시리즈를 제거합니다.
+    text: Aspose.Words가 자동으로 추가하는 기본 데모 시리즈를 제거합니다.
+  - name: X축에 사용할 카테고리 레이블 배열을 정의합니다.
+    text: X축에 사용할 카테고리 레이블 배열을 정의합니다.
+  - name: 레이블과 값을 사용하여 "Main Data"라는 이름의 기본 데이터 시리즈를 추가합니다.
+    text: 레이블과 값을 사용하여 "Main Data"라는 이름의 기본 데이터 시리즈를 추가합니다.
   - name: Line 유형의 보조 시리즈 그룹을 생성하고 이를 보조 축 그룹에 할당합니다.
     text: Line 유형의 보조 시리즈 그룹을 생성하고 이를 보조 축 그룹에 할당합니다.
-  - name: 보조 X축을 숨겨 보조 Y축만 보이도록 합니다.
-    text: 보조 X축을 숨겨 보조 Y축만 보이도록 합니다.
-  - name: 보조 Y축 제목을 표시하고 텍스트를 "Sales (USD)"로 설정합니다.
-    text: 보조 Y축 제목을 표시하고 텍스트를 "Sales (USD)"로 설정합니다.
-  - name: 보조 Y축 숫자 형식을 소수점 두 자리 통화 패턴으로 설정하고 원본 서식과 연결을 해제합니다.
-    text: 보조 Y축 숫자 형식을 소수점 두 자리 통화 패턴으로 설정하고 원본 서식과 연결을 해제합니다.
-  - name: 보조 그룹에 보조 시리즈를 추가하여 보조 Y축에 플롯될 데이터를 제공합니다.
-    text: 보조 그룹에 보조 시리즈를 추가하여 보조 Y축에 플롯될 데이터를 제공합니다.
-  - name: 완성된 문서를 현재 디렉터리의 ProfitChart.docx 파일로 저장합니다.
-    text: 완성된 문서를 현재 디렉터리의 ProfitChart.docx 파일로 저장합니다.
+  - name: 보조 X축의 표시 단위를 천 단위로 설정하여 값이 K로 표시되도록 합니다.
+    text: 보조 X축의 표시 단위를 천 단위로 설정하여 값이 K로 표시되도록 합니다.
+  - name: 보조 X축 눈금 레이블에 사용자 지정 숫자 형식 "#,##0.0"을 적용합니다.
+    text: 보조 X축 눈금 레이블에 사용자 지정 숫자 형식 "#,##0.0"을 적용합니다.
+  - name: 선택적으로 보조 그룹에 보조 데이터 시리즈를 추가합니다.
+    text: 선택적으로 보조 그룹에 보조 데이터 시리즈를 추가합니다.
+  - name: 문서를 .docx 파일로 저장합니다.
+    text: 문서를 .docx 파일로 저장합니다.
   type: HowTo
 - questions:
-  - answer: 차트는 Aspose.Words가 삽입하는 기본 플레이스홀더 시리즈를 유지하므로, 사용자 정의 "Main Series"가 원치
-      않는 데이터 포인트와 함께 표시됩니다.
-    question: '`lineChart.Series.Clear()` 호출을 생략하면 어떻게 되나요?'
-  - answer: '`secondarySeriesGroup.AxisX.Hidden = false;` 로 설정합니다(또는 `true` 로 설정하는
-      줄을 생략하면 됩니다).'
-    question: 보조 X축을 숨기지 않고 표시하려면 어떻게 해야 하나요?
-  - answer: 예 – 형식 문자열을 변경하면 됩니다. 예를 들어 유로화는 `secondarySeriesGroup.AxisY.NumberFormat.FormatCode
-      = "\"€\"#,##0.00";` 와 같이 설정하거나 로케일에 맞게 패턴을 조정하세요.
-    question: 보조 Y축에 다른 통화 기호나 형식을 사용할 수 있나요?
-  - answer: '`IsLinkedToSource` 가 true이면 축이 기본 데이터 소스로부터 숫자 형식을 상속받아 사용자 지정 `FormatCode`
-      를 무시합니다; false 로 설정하면 차트가 지정한 형식을 사용하도록 강제합니다.'
-    question: 사용자 지정 숫자 형식을 적용할 때 `IsLinkedToSource = false` 로 설정해야 하는 이유는 무엇인가요?
-  - answer: 예, `secondarySeriesGroup.AxisY.Position = AxisPosition.Left;` 로 지정하면(기본값은
-      `Right`) 축이 그려지는 측면을 제어할 수 있습니다.
-    question: 보조 Y축을 차트의 왼쪽으로 이동시킬 수 있나요?
+  - answer: 아니요 – `AxisX` 설정은 `ChartSeriesGroup`에 속하므로, 시리즈를 추가하기 전이나 후에 `secondaryGroup.AxisX.DisplayUnit.Unit`
+      및 `secondaryGroup.AxisX.NumberFormat.FormatCode`를 설정할 수 있습니다; 구성은 언제든지 그룹의 축에
+      적용됩니다.
+    question: 보조 X축의 표시 단위와 숫자 형식을 설정하기 전에 보조 시리즈를 추가해야 하나요?
+  - answer: 예 – `AxisBuiltInUnit` 값을 원하는 대로 할당하면 됩니다. 예를 들어 `secondaryGroup.AxisX.DisplayUnit.Unit
+      = AxisBuiltInUnit.Millions;`와 같이 설정하면 축 값이 천이 아니라 백만 단위로 표시됩니다.
+    question: 보조 X축에 천이 아닌 백만과 같은 다른 내장 단위를 사용할 수 있나요?
+  - answer: 아니요 – 형식 코드는 수정한 축(`secondaryGroup.AxisX.NumberFormat.FormatCode`)에만 적용되므로
+      기본 X축은 기본 서식을 유지합니다.
+    question: 사용자 지정 형식 \"#,##0.0\"이 기본 X축 레이블에 영향을 미칩니까?
+  - answer: 차트에 기본 데모 시리즈가 추가된 상태로 남아, 추가한 시리즈와 함께 표시되어 불필요한 선과 카테고리 불일치가 발생할 수 있습니다.
+      컬렉션을 비우면 의도한 데이터만 표시됩니다.
+    question: '`lineChart.Series.Clear();`로 데모 시리즈를 삭제하는 것을 잊으면 어떻게 되나요?'
   type: FAQPage
 images:
 - /net/programming-with-charts/format-secondary-axis/og-image.png
-og_title: 차트의 보조 축을 통화 형식으로 지정하기
-og_description: Word 라인 차트에 보조 Y축을 추가하고 소수점 두 자리 통화 형식으로 스타일링하는 방법을 배웁니다.
-og_image_alt: Aspose.Words for .NET을 사용하여 보조 Y축이 통화 형식으로 지정된 Word 라인 차트를 보여주는 스크린샷
+og_title: 보조 X축 서식 지정 및 단위 천으로 설정
+og_description: Word 선 차트에 보조 X축을 추가하고 사용자 지정 패턴으로 레이블을 천 단위로 서식 지정합니다.
+og_image_alt: Aspose.Words for .NET을 사용하여 Word 선 차트에 보조 X축을 추가하고 레이블을 천 단위로 표시하도록 서식 지정하는 방법을 안내합니다.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -69,8 +67,8 @@ og_image_alt: Aspose.Words for .NET을 사용하여 보조 Y축이 통화 형식
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for .NET을 사용하여 Word 차트에서 보조 Y축을 통화 형식으로 지정하기
-이 튜토리얼에서는 Aspose.Words for .NET을 사용하여 Word 문서를 만들고, 라인 차트를 삽입하고, 보조 Y축을 추가한 뒤 해당 축을 소수점 두 자리 통화 형식으로 지정하고, 보조 데이터 시리즈를 연결하는 방법을 보여줍니다. 보조 축을 통화 형식으로 지정하면 기본 시리즈와 함께 재무 데이터를 명확하게 표시할 수 있습니다. 단계별 코드를 따라 하면 생성된 문서에 차트가 직접 렌더링되는 것을 확인할 수 있습니다.
+# Aspose.Words for .NET을 사용하여 Word 선 차트에서 보조 X축을 서식 지정하고 표시 단위를 천 단위로 설정합니다.
+이 튜토리얼에서는 선 차트가 포함된 Word 문서를 만들고, 보조 X축을 추가한 뒤 해당 축을 천 단위로 표시하도록 구성하는 과정을 단계별로 안내합니다. 또한 보조 축 레이블에 사용자 지정 숫자 형식을 적용하는 방법을 배워 데이터 표시 방식을 정확히 제어할 수 있습니다. 단계별로 따라 하면 Word 보고서에서 다중 축 차트의 가독성을 높일 수 있습니다.
 
 ---
 
@@ -108,20 +106,17 @@ og_image_alt: Aspose.Words for .NET을 사용하여 보조 Y축이 통화 형식
 
 ## Frequently asked questions
 
-**Q: `lineChart.Series.Clear()` 호출을 생략하면 어떻게 되나요?**  
-A: 차트는 Aspose.Words가 삽입하는 기본 플레이스홀더 시리즈를 유지하므로, 사용자 정의 "Main Series"가 원치 않는 데이터 포인트와 함께 표시됩니다.
+**Q: 보조 X축의 표시 단위와 숫자 형식을 설정하기 전에 보조 시리즈를 추가해야 하나요?**  
+A: 아니요 – `AxisX` 설정은 `ChartSeriesGroup`에 속하므로, 시리즈를 추가하기 전이나 후에 `secondaryGroup.AxisX.DisplayUnit.Unit` 및 `secondaryGroup.AxisX.NumberFormat.FormatCode`를 설정할 수 있습니다; 구성은 언제든지 그룹의 축에 적용됩니다.
 
-**Q: 보조 X축을 숨기지 않고 표시하려면 어떻게 해야 하나요?**  
-A: `secondarySeriesGroup.AxisX.Hidden = false;` 로 설정합니다(또는 `true` 로 설정하는 줄을 생략하면 됩니다).
+**Q: 보조 X축에 천이 아닌 백만과 같은 다른 내장 단위를 사용할 수 있나요?**  
+A: 예 – `AxisBuiltInUnit` 값을 원하는 대로 할당하면 됩니다. 예를 들어 `secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Millions;`와 같이 설정하면 축 값이 천이 아니라 백만 단위로 표시됩니다.
 
-**Q: 보조 Y축에 다른 통화 기호나 형식을 사용할 수 있나요?**  
-A: 예 – 형식 문자열을 변경하면 됩니다. 예를 들어 유로화는 `secondarySeriesGroup.AxisY.NumberFormat.FormatCode = "\"€\"#,##0.00";` 와 같이 설정하거나 로케일에 맞게 패턴을 조정하세요.
+**Q: 사용자 지정 형식 \"#,##0.0\"이 기본 X축 레이블에 영향을 미칩니까?**  
+A: 아니요 – 형식 코드는 수정한 축(`secondaryGroup.AxisX.NumberFormat.FormatCode`)에만 적용되므로 기본 X축은 기본 서식을 유지합니다.
 
-**Q: 사용자 지정 숫자 형식을 적용할 때 `IsLinkedToSource = false` 로 설정해야 하는 이유는 무엇인가요?**  
-A: `IsLinkedToSource` 가 true이면 축이 기본 데이터 소스로부터 숫자 형식을 상속받아 사용자 지정 `FormatCode` 를 무시합니다; false 로 설정하면 차트가 지정한 형식을 사용하도록 강제합니다.
-
-**Q: 보조 Y축을 차트의 왼쪽으로 이동시킬 수 있나요?**  
-A: 예, `secondarySeriesGroup.AxisY.Position = AxisPosition.Left;` 로 지정하면(기본값은 `Right`) 축이 그려지는 측면을 제어할 수 있습니다.
+**Q: `lineChart.Series.Clear();`로 데모 시리즈를 삭제하는 것을 잊으면 어떻게 되나요?**  
+A: 차트에 기본 데모 시리즈가 추가된 상태로 남아, 추가한 시리즈와 함께 표시되어 불필요한 선과 카테고리 불일치가 발생할 수 있습니다. 컬렉션을 비우면 의도한 데이터만 표시됩니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

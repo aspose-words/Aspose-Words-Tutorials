@@ -37,10 +37,9 @@
 
 {{< tutorial-card link="./customize-x-axis-gridlines/" title="Настройка линий сетки оси X в столбчатой диаграмме с помощью Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
 
-{{< tutorial-card link="./format-secondary-axis/" title="Форматирование вторичной оси Y как валюты в диаграмме Word с использованием Aspose.Words for .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+{{< tutorial-card link="./format-secondary-axis/" title="Форматирование вторичной оси X и установка единиц отображения в тысячи в линейных диаграммах Word с использованием Aspose.Words for .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
 
 {{< tutorial-card link="./update-chart-title/" title="Обновление заголовка диаграммы и переключение видимости легенды в Word с помощью Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
-
 
 
 

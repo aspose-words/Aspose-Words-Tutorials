@@ -37,10 +37,9 @@ Dzięki tym samouczkom będziesz w stanie ulepszyć swoje dokumenty Word, dodaj�
 
 {{< tutorial-card link="./customize-x-axis-gridlines/" title="Dostosuj linie siatki osi X w wykresie słupkowym przy użyciu Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
 
-{{< tutorial-card link="./format-secondary-axis/" title="Formatuj drugą oś Y jako walutę w wykresie Word przy użyciu Aspose.Words for .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+{{< tutorial-card link="./format-secondary-axis/" title="Formatuj drugą oś X i ustaw jednostki wyświetlania na tysiące w wykresach liniowych Word przy użyciu Aspose.Words dla .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
 
 {{< tutorial-card link="./update-chart-title/" title="Aktualizuj tytuł wykresu i przełącz widoczność legendy w Wordzie przy użyciu Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
-
 
 
 

@@ -1,57 +1,52 @@
 //ExStart
-//ExSummary: 本教程演示如何使用 Aspose.Words for .NET 创建 Word 文档、插入折线图、添加次要 Y 轴、将该轴格式化为带两位小数的货币，并使用次要数据系列填充它。
-//ExStepSummary:0: 创建一个新的空 Word 文档，并创建一个 DocumentBuilder 来编辑它。
-//ExStepSummary:1: 在文档中插入大小为 450×250 点的折线图，并获取其 Chart 对象。
-//ExStepSummary:2: 移除 Aspose 为新图表添加的默认占位系列。
-//ExStepSummary:3: 定义季度标签，并向图表添加带示例值的主数据系列。
-//ExStepSummary:4: 创建一个类型为 Line 的次要系列组，并将其分配给次要坐标轴组。
-//ExStepSummary:5: 隐藏次要 X 轴，使仅次要 Y 轴可见。
-//ExStepSummary:6: 显示次要 Y 轴标题，并将其文本设置为 \"Sales (USD)\"。
-//ExStepSummary:7: 将次要 Y 轴的数字格式设置为带两位小数的货币模式，并取消其与源格式的链接。
-//ExStepSummary:8: 向次要组添加辅助系列，提供将在次要 Y 轴上绘制的数据。
-//ExStepSummary:9: 将完成的文档保存为当前目录下名为 ProfitChart.docx 的文件。
+//ExSummary: 本教程演示如何使用 Aspose.Words 创建包含折线图的 Word 文档，添加次要 X 轴，将其显示单位设置为千，并对轴标签应用自定义数字格式。
+//ExStepSummary:0: 创建一个新的 Document 和一个 DocumentBuilder，以开始构建 Word 文件。
+//ExStepSummary:1: 在文档中插入大小为 500×300 的折线图，并获取 Chart 对象。
+//ExStepSummary:2: 移除 Aspose.Words 自动添加的默认演示系列。
+//ExStepSummary:3: 定义一个用于 X 轴的类别标签数组。
+//ExStepSummary:4: 使用标签和值添加名为 "Main Data" 的主数据系列。
+//ExStepSummary:5: 创建一个类型为 Line 的次要系列组，并将其分配给次要坐标轴组。
+//ExStepSummary:6: 将次要 X 轴的显示单位设置为千，以便数值以 K 显示。
+//ExStepSummary:7: 对次要 X 轴的刻度标签应用自定义数字格式 "#,##0.0"。
+//ExStepSummary:8: 可选地向次要组添加辅助数据系列。
+//ExStepSummary:9: 将文档保存为 .docx 文件。
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
-//ExStepImage:3:images/3.png
-//ExStepImage:4:images/4.png
-//ExStepImage:5:images/5.png
-//ExStepImage:6:images/6.png
-//ExStepImage:7:images/7.png
-//ExStepImage:8:images/8.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+//ExStepImage:8:images/7.png
 //ExStep:0-
-Document wordDoc = new Document();
-DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+        Document document = new Document();
+        DocumentBuilder docBuilder = new DocumentBuilder(document);
 
 //ExStep:1-
-Shape lineChartShape = docBuilder.InsertChart(ChartType.Line, 450, 250);
-Chart lineChart = lineChartShape.Chart;
+        Shape chartContainer = docBuilder.InsertChart(ChartType.Line, 500, 300);
+        Chart lineChart = chartContainer.Chart;
 
 //ExStep:2-
-lineChart.Series.Clear();
+        lineChart.Series.Clear();
 
 //ExStep:3-
-string[] quarters = new[] { "Q1", "Q2", "Q3", "Q4" };
-lineChart.Series.Add("Main Series", quarters, new double[] { 1200, 1500, 1800, 2100 });
+        string[] labels = { "Group A", "Group B", "Group C" };
 
 //ExStep:4-
-ChartSeriesGroup secondarySeriesGroup = lineChart.SeriesGroups.Add(ChartSeriesType.Line);
-secondarySeriesGroup.AxisGroup = AxisGroup.Secondary;
+        lineChart.Series.Add("Main Data", labels, new double[] { 10, 20, 30 });
 
 //ExStep:5-
-secondarySeriesGroup.AxisX.Hidden = true;
+        ChartSeriesGroup secondaryGroup = lineChart.SeriesGroups.Add(ChartSeriesType.Line);
+        secondaryGroup.AxisGroup = AxisGroup.Secondary;
 
 //ExStep:6-
-secondarySeriesGroup.AxisY.Title.Show = true;
-secondarySeriesGroup.AxisY.Title.Text = "Sales (USD)";
+        secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Thousands;
 
 //ExStep:7-
-secondarySeriesGroup.AxisY.NumberFormat.FormatCode = "\"$\"#,##0.00";
-secondarySeriesGroup.AxisY.NumberFormat.IsLinkedToSource = false;
+        secondaryGroup.AxisX.NumberFormat.FormatCode = "#,##0.0";
 
 //ExStep:8-
-secondarySeriesGroup.Series.Add("Auxiliary Series", quarters, new double[] { 3000, 3500, 4000, 4500 });
+        secondaryGroup.Series.Add("Auxiliary Data", labels, new double[] { 15, 25, 35 });
 
 //ExStep:9-
-string resultPath = Path.Combine(Directory.GetCurrentDirectory(), "ProfitChart.docx");
-wordDoc.Save(resultPath);
+        document.Save("ChartWithSecondaryAxis.docx");
 //ExEnd

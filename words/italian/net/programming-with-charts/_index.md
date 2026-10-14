@@ -37,10 +37,9 @@ Con questi tutorial, potrai migliorare i tuoi documenti Word aggiungendo grafica
 
 {{< tutorial-card link="./customize-x-axis-gridlines/" title="Personalizza le linee della griglia dell'asse X in un grafico a colonne utilizzando Aspose.Words per .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
 
-{{< tutorial-card link="./format-secondary-axis/" title="Formatta l'asse Y secondario come valuta in un grafico Word usando Aspose.Words per .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+{{< tutorial-card link="./format-secondary-axis/" title="Formatta l'asse X secondario e imposta le unità di visualizzazione su migliaia nei grafici a linee di Word utilizzando Aspose.Words per .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
 
 {{< tutorial-card link="./update-chart-title/" title="Aggiorna il titolo del grafico e attiva/disattiva la visibilità della legenda in Word usando Aspose.Words per .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
-
 
 
 

@@ -39,10 +39,9 @@
 
 {{< tutorial-card link="./customize-x-axis-gridlines/" title="ปรับแต่งเส้นกริดแกน X ในแผนภูมิคอลัมน์โดยใช้ Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
 
-{{< tutorial-card link="./format-secondary-axis/" title="จัดรูปแบบแกน Y รองเป็นสกุลเงินในแผนภูมิ Word ด้วย Aspose.Words for .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+{{< tutorial-card link="./format-secondary-axis/" title="จัดรูปแบบแกน X รองและตั้งหน่วยการแสดงผลเป็นพันในแผนภูมิเส้นของ Word โดยใช้ Aspose.Words for .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
 
 {{< tutorial-card link="./update-chart-title/" title="อัปเดตชื่อแผนภูมิและสลับการแสดงผลของคำอธิบายใน Word ด้วย Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
-
 
 
 

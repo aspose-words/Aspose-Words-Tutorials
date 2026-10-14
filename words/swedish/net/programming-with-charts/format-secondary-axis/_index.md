@@ -1,89 +1,82 @@
 ---
-title: Formatera sekundär Y‑axel som valuta i ett Word‑diagram med Aspose.Words för .NET
+title: Formatera sekundär X‑axel och sätt displayenheter till tusental i Word‑linjediagram med Aspose.Words för .NET
 weight: 710
 limit:
-description: Lär dig att lägga till och formatera en sekundär Y‑axel som valuta i ett Word‑linjediagram med Aspose.Words för .NET.
-keywords: [Aspose.Words for .NET, format secondary axis, currency axis formatting, Word line chart secondary series, secondary Y axis .NET, chart axis number format]
+description: Skapa ett Word‑linjediagram, lägg till en sekundär X‑axel, sätt dess displayenhet till tusental och applicera ett anpassat numeriskt format med Aspose.Words för .NET.
+keywords: [secondary axis formatting, Aspose.Words for .NET, line chart axis units, display units thousands, custom numeric format axis, Word chart secondary X axis]
 url: /net/programming-with-charts/format-secondary-axis/
 date: '2026-10-13'
 lastmod: '2026-10-13'
 schemas:
 - author: Aspose
   dateModified: '2026-10-13'
-  description: Lär dig att lägga till och formatera en sekundär Y‑axel som valuta
-    i ett Word‑linjediagram med Aspose.Words för .NET.
-  headline: Formatera sekundär Y‑axel som valuta i ett Word‑diagram med Aspose.Words
-    för .NET
+  description: Skapa ett Word‑linjediagram, lägg till en sekundär X‑axel, sätt dess
+    displayenhet till tusental och applicera ett anpassat numeriskt format med Aspose.Words
+    för .NET.
+  headline: Formatera sekundär X‑axel och sätt displayenheter till tusental i Word‑linjediagram
+    med Aspose.Words för .NET
   type: TechArticle
-- description: Lär dig att lägga till och formatera en sekundär Y‑axel som valuta
-    i ett Word‑linjediagram med Aspose.Words för .NET.
-  name: Formatera sekundär Y‑axel som valuta i ett Word‑diagram med Aspose.Words för
-    .NET
+- description: Skapa ett Word‑linjediagram, lägg till en sekundär X‑axel, sätt dess
+    displayenhet till tusental och applicera ett anpassat numeriskt format med Aspose.Words
+    för .NET.
+  name: Formatera sekundär X‑axel och sätt displayenheter till tusental i Word‑linjediagram
+    med Aspose.Words för .NET
   steps:
-  - name: Skapa ett nytt tomt Word‑dokument och en DocumentBuilder för att redigera
-      det.
-    text: Skapa ett nytt tomt Word‑dokument och en DocumentBuilder för att redigera
-      det.
-  - name: Infoga ett linjediagram med storleken 450×250 punkter i dokumentet och hämta
-      dess Chart‑objekt.
-    text: Infoga ett linjediagram med storleken 450×250 punkter i dokumentet och hämta
-      dess Chart‑objekt.
-  - name: Ta bort den standardplatshållarserien som Aspose lägger till i ett nytt
-      diagram.
-    text: Ta bort den standardplatshållarserien som Aspose lägger till i ett nytt
-      diagram.
-  - name: Definiera kvartalsetiketter och lägg till en primär dataserie med exempelvärden
-      i diagrammet.
-    text: Definiera kvartalsetiketter och lägg till en primär dataserie med exempelvärden
-      i diagrammet.
-  - name: Skapa en sekundär series group av typen Line och tilldela den till den sekundära
+  - name: Skapa ett nytt Document och en DocumentBuilder för att börja bygga Word‑filen.
+    text: Skapa ett nytt Document och en DocumentBuilder för att börja bygga Word‑filen.
+  - name: Infoga ett linjediagram med storleken 500×300 i dokumentet och hämta Chart‑objektet.
+    text: Infoga ett linjediagram med storleken 500×300 i dokumentet och hämta Chart‑objektet.
+  - name: Ta bort den förinställda demoserien som Aspose.Words lägger till automatiskt.
+    text: Ta bort den förinställda demoserien som Aspose.Words lägger till automatiskt.
+  - name: Definiera en array med kategorirubriker som ska användas för X‑axeln.
+    text: Definiera en array med kategorirubriker som ska användas för X‑axeln.
+  - name: Lägg till den primära dataserien med namnet "Main Data" med hjälp av rubrikerna
+      och värdena.
+    text: Lägg till den primära dataserien med namnet "Main Data" med hjälp av rubrikerna
+      och värdena.
+  - name: Skapa en sekundär seriegroupp av typen Line och tilldela den till den sekundära
       axelgruppen.
-    text: Skapa en sekundär series group av typen Line och tilldela den till den sekundära
+    text: Skapa en sekundär seriegroupp av typen Line och tilldela den till den sekundära
       axelgruppen.
-  - name: Dölj den sekundära X‑axeln så att endast den sekundära Y‑axeln är synlig.
-    text: Dölj den sekundära X‑axeln så att endast den sekundära Y‑axeln är synlig.
-  - name: Visa titeln för den sekundära Y‑axeln och sätt dess text till "Sales (USD)".
-    text: Visa titeln för den sekundära Y‑axeln och sätt dess text till "Sales (USD)".
-  - name: Ställ in nummerformatet för den sekundära Y‑axeln till ett valutamönster
-      med två decimaler och koppla bort det från källformatet.
-    text: Ställ in nummerformatet för den sekundära Y‑axeln till ett valutamönster
-      med två decimaler och koppla bort det från källformatet.
-  - name: Lägg till en hjälpserie i den sekundära gruppen som tillhandahåller data
-      som ska plottas mot den sekundära Y‑axeln.
-    text: Lägg till en hjälpserie i den sekundära gruppen som tillhandahåller data
-      som ska plottas mot den sekundära Y‑axeln.
-  - name: Spara det färdiga dokumentet till en fil med namnet ProfitChart.docx i den
-      aktuella katalogen.
-    text: Spara det färdiga dokumentet till en fil med namnet ProfitChart.docx i den
-      aktuella katalogen.
+  - name: Ställ in den sekundära X‑axelns displayenhet till tusental så att värdena
+      visas i K.
+    text: Ställ in den sekundära X‑axelns displayenhet till tusental så att värdena
+      visas i K.
+  - name: Applicera det anpassade numeriska formatet "#,##0.0" på den sekundära X‑axelns
+      tick‑etiketter.
+    text: Applicera det anpassade numeriska formatet "#,##0.0" på den sekundära X‑axelns
+      tick‑etiketter.
+  - name: Lägg eventuellt till en hjälpsats med data till den sekundära gruppen.
+    text: Lägg eventuellt till en hjälpsats med data till den sekundära gruppen.
+  - name: Spara dokumentet som en .docx‑fil.
+    text: Spara dokumentet som en .docx‑fil.
   type: HowTo
 - questions:
-  - answer: Diagrammet behåller den standardplatshållarserie som Aspose.Words infogar,
-      så din anpassade "Main Series" kommer att visas tillsammans med oönskade datapunkter.
-    question: Vad händer om jag utelämnar anropet `lineChart.Series.Clear()`?
-  - answer: Sätt `secondarySeriesGroup.AxisX.Hidden = false;` (eller utelämna helt
-      enkelt raden som sätter den till `true`).
-    question: Hur kan jag visa den sekundära X‑axeln istället för att dölja den?
-  - answer: Ja – ändra formatsträngen, t.ex. `secondarySeriesGroup.AxisY.NumberFormat.FormatCode
-      = "\"€\"#,##0.00";` för euro eller justera mönstret så att det passar din lokala
-      inställning.
-    question: Kan jag använda en annan valutasymbol eller ett annat format för den
-      sekundära Y‑axeln?
-  - answer: När `IsLinkedToSource` är true ärver axeln nummerformatet från den underliggande
-      datakällan, vilket åsidosätter eventuella egna `FormatCode`; att sätta den till
-      false tvingar diagrammet att använda det format du anger.
-    question: Varför måste jag sätta `IsLinkedToSource = false` när jag använder ett
-      eget nummerformat?
-  - answer: Ja, tilldela `secondarySeriesGroup.AxisY.Position = AxisPosition.Left;`
-      (eller `Right` för standard) för att styra på vilken sida axeln ritas.
-    question: Är det möjligt att flytta den sekundära Y‑axeln till diagrammets vänstra
-      sida?
+  - answer: Nej – `AxisX`‑inställningarna tillhör `ChartSeriesGroup`, så du kan sätta
+      `secondaryGroup.AxisX.DisplayUnit.Unit` och `secondaryGroup.AxisX.NumberFormat.FormatCode`
+      före eller efter att du har lagt till serier; konfigurationen kommer att tillämpas
+      på gruppens axel i båda fallen.
+    question: Måste jag lägga till den sekundära serien innan jag ställer in displayenheten
+      och talformatet på den sekundära X‑axeln?
+  - answer: Ja – tilldela vilket `AxisBuiltInUnit`‑värde som helst, t.ex. `secondaryGroup.AxisX.DisplayUnit.Unit
+      = AxisBuiltInUnit.Millions;` för att visa axelvärdena i miljoner istället för
+      tusental.
+    question: Kan jag använda en annan inbyggd enhet, till exempel miljoner, för den
+      sekundära X‑axeln?
+  - answer: Nej – formatkoden appliceras endast på den axel du modifierar (`secondaryGroup.AxisX.NumberFormat.FormatCode`),
+      så den primära X‑axeln behåller sin standardformatering.
+    question: Kommer det anpassade formatet `"#,##0.0"` att påverka den primära X‑axelns
+      etiketter?
+  - answer: Diagrammet kommer att innehålla den förinställda demoserien utöver de
+      du lägger till, vilket kan leda till extra linjer och felaktiga kategorier;
+      att rensa samlingen säkerställer att endast den avsedda datan visas.
+    question: Vad händer om jag glömmer att rensa demoserien med `lineChart.Series.Clear();`?
   type: FAQPage
 images:
 - /net/programming-with-charts/format-secondary-axis/og-image.png
-og_title: Formatera ett diagrams sekundära axel som valuta
-og_description: Lär dig att lägga till en sekundär Y‑axel i ett Word‑linjediagram och formatera den som valuta med två decimaler.
-og_image_alt: Skärmbild som visar ett Word‑linjediagram med en sekundär Y‑axel formaterad som valuta med Aspose.Words för .NET
+og_title: Formatera sekundär X‑axel och sätt enheter till tusental
+og_description: Lägg till en sekundär X‑axel i ett Word‑linjediagram och formatera dess etiketter i tusental med ett anpassat mönster.
+og_image_alt: Guide som visar hur man lägger till en sekundär X‑axel i ett Word‑linjediagram och formaterar dess etiketter så att enheterna visas i tusental med Aspose.Words för .NET
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -92,8 +85,8 @@ og_image_alt: Skärmbild som visar ett Word‑linjediagram med en sekundär Y‑
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Formatera sekundär Y‑axel som valuta i ett Word‑diagram med Aspose.Words för .NET
-I den här handledningen kommer du att se hur du bygger ett Word‑dokument, infogar ett linjediagram, lägger till en sekundär Y‑axel, formaterar den axeln som valuta med två decimaler och binder en sekundär dataserie till den med hjälp av Aspose.Words för .NET. Att formatera den sekundära axeln som valuta gör att du tydligt kan presentera finansiella data tillsammans med den primära serien. Följ den steg‑för‑steg‑koden för att se diagrammet renderas direkt i det genererade dokumentet.
+# Formatera sekundär X‑axel och sätt displayenheter till tusental i Word‑linjediagram med Aspose.Words för .NET
+Den här handledningen guidar dig genom att skapa ett Word‑dokument som innehåller ett linjediagram, lägga till en sekundär X‑axel och konfigurera den axeln så att den visar värden i tusental. Du får även lära dig hur du applicerar ett anpassat numeriskt format på den sekundära axelns etiketter, vilket ger dig exakt kontroll över hur data presenteras. Följ stegen för att förbättra läsbarheten i diagram med flera axlar i dina Word‑rapporter.
 
 ---
 
@@ -131,20 +124,17 @@ I den här handledningen kommer du att se hur du bygger ett Word‑dokument, inf
 
 ## Frequently asked questions
 
-**Q: Vad händer om jag utelämnar anropet `lineChart.Series.Clear()`?**  
-A: Diagrammet behåller den standardplatshållarserie som Aspose.Words infogar, så din anpassade "Main Series" kommer att visas tillsammans med oönskade datapunkter.
+**Q: Måste jag lägga till den sekundära serien innan jag ställer in displayenheten och talformatet på den sekundära X‑axeln?**  
+A: Nej – `AxisX`‑inställningarna tillhör `ChartSeriesGroup`, så du kan sätta `secondaryGroup.AxisX.DisplayUnit.Unit` och `secondaryGroup.AxisX.NumberFormat.FormatCode` före eller efter att du har lagt till serier; konfigurationen kommer att tillämpas på gruppens axel i båda fallen.
 
-**Q: Hur kan jag visa den sekundära X‑axeln istället för att dölja den?**  
-A: Sätt `secondarySeriesGroup.AxisX.Hidden = false;` (eller utelämna helt enkelt raden som sätter den till `true`).
+**Q: Kan jag använda en annan inbyggd enhet, till exempel miljoner, för den sekundära X‑axeln?**  
+A: Ja – tilldela vilket `AxisBuiltInUnit`‑värde som helst, t.ex. `secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Millions;` för att visa axelvärdena i miljoner istället för tusental.
 
-**Q: Kan jag använda en annan valutasymbol eller ett annat format för den sekundära Y‑axeln?**  
-A: Ja – ändra formatsträngen, t.ex. `secondarySeriesGroup.AxisY.NumberFormat.FormatCode = "\"€\"#,##0.00";` för euro eller justera mönstret så att det passar din lokala inställning.
+**Q: Kommer det anpassade formatet `"#,##0.0"` att påverka den primära X‑axelns etiketter?**  
+A: Nej – formatkoden appliceras endast på den axel du modifierar (`secondaryGroup.AxisX.NumberFormat.FormatCode`), så den primära X‑axeln behåller sin standardformatering.
 
-**Q: Varför måste jag sätta `IsLinkedToSource = false` när jag använder ett eget nummerformat?**  
-A: När `IsLinkedToSource` är true ärver axeln nummerformatet från den underliggande datakällan, vilket åsidosätter eventuella egna `FormatCode`; att sätta den till false tvingar diagrammet att använda det format du anger.
-
-**Q: Är det möjligt att flytta den sekundära Y‑axeln till diagrammets vänstra sida?**  
-A: Ja, tilldela `secondarySeriesGroup.AxisY.Position = AxisPosition.Left;` (eller `Right` för standard) för att styra på vilken sida axeln ritas.
+**Q: Vad händer om jag glömmer att rensa demoserien med `lineChart.Series.Clear();`?**  
+A: Diagrammet kommer att innehålla den förinställda demoserien utöver de du lägger till, vilket kan leda till extra linjer och felaktiga kategorier; att rensa samlingen säkerställer att endast den avsedda datan visas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

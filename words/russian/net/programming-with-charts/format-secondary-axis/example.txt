@@ -1,57 +1,52 @@
 //ExStart
-//ExSummary: В этом руководстве демонстрируется, как создать документ Word, вставить линейную диаграмму, добавить вторичную ось Y, отформатировать эту ось как валюту с двумя знаками после запятой и заполнить её вторичным набором данных, используя Aspose.Words for .NET.
-//ExStepSummary:0: Создайте новый пустой документ Word и объект DocumentBuilder для его редактирования.
-//ExStepSummary:1: Вставьте в документ линейную диаграмму размером 450×250 пунктов и получите её объект Chart.
-//ExStepSummary:2: Удалите серию‑заполнитель по умолчанию, которую Aspose добавляет в новую диаграмму.
-//ExStepSummary:3: Определите метки кварталов и добавьте основную серию данных с примерными значениями в диаграмму.
-//ExStepSummary:4: Создайте вторичную группу серий типа Line и назначьте её группе вторичной оси.
-//ExStepSummary:5: Скройте вторичную ось X, чтобы была видна только вторичная ось Y.
-//ExStepSummary:6: Отобразите заголовок вторичной оси Y и задайте его текст как "Sales (USD)".
-//ExStepSummary:7: Установите числовой формат вторичной оси Y в валютный шаблон с двумя знаками после запятой и отключите привязку к форматированию источника.
-//ExStepSummary:8: Добавьте вспомогательную серию во вторичную группу, предоставив данные, которые будут отображаться по вторичной оси Y.
-//ExStepSummary:9: Сохраните готовый документ в файл с именем ProfitChart.docx в текущем каталоге.
+//ExSummary: Этот учебный материал демонстрирует, как создать документ Word с линейной диаграммой, добавить вторичную ось X, установить её единицу отображения в тысячи и применить пользовательский числовой формат к меткам оси, используя Aspose.Words.
+//ExStepSummary:0: Создайте новый Document и DocumentBuilder, чтобы начать построение файла Word.
+//ExStepSummary:1: Вставьте линейную диаграмму размером 500×300 в документ и получите объект Chart.
+//ExStepSummary:2: Удалите стандартную демонстрационную серию, которую Aspose.Words добавляет автоматически.
+//ExStepSummary:3: Определите массив меток категорий, которые будут использоваться для оси X.
+//ExStepSummary:4: Добавьте основную серию данных с именем "Main Data", используя метки и значения.
+//ExStepSummary:5: Создайте вторичную группу серий типа Line и назначьте её вторичной группе осей.
+//ExStepSummary:6: Установите единицу отображения вторичной оси X в тысячи, чтобы значения отображались в K.
+//ExStepSummary:7: Примените пользовательский числовой формат "#,##0.0" к меткам делений вторичной оси X.
+//ExStepSummary:8: При необходимости добавьте вспомогательную серию данных во вторичную группу.
+//ExStepSummary:9: Сохраните документ в файл формата .docx.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
-//ExStepImage:3:images/3.png
-//ExStepImage:4:images/4.png
-//ExStepImage:5:images/5.png
-//ExStepImage:6:images/6.png
-//ExStepImage:7:images/7.png
-//ExStepImage:8:images/8.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+//ExStepImage:8:images/7.png
 //ExStep:0-
-Document wordDoc = new Document();
-DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+        Document document = new Document();
+        DocumentBuilder docBuilder = new DocumentBuilder(document);
 
 //ExStep:1-
-Shape lineChartShape = docBuilder.InsertChart(ChartType.Line, 450, 250);
-Chart lineChart = lineChartShape.Chart;
+        Shape chartContainer = docBuilder.InsertChart(ChartType.Line, 500, 300);
+        Chart lineChart = chartContainer.Chart;
 
 //ExStep:2-
-lineChart.Series.Clear();
+        lineChart.Series.Clear();
 
 //ExStep:3-
-string[] quarters = new[] { "Q1", "Q2", "Q3", "Q4" };
-lineChart.Series.Add("Main Series", quarters, new double[] { 1200, 1500, 1800, 2100 });
+        string[] labels = { "Group A", "Group B", "Group C" };
 
 //ExStep:4-
-ChartSeriesGroup secondarySeriesGroup = lineChart.SeriesGroups.Add(ChartSeriesType.Line);
-secondarySeriesGroup.AxisGroup = AxisGroup.Secondary;
+        lineChart.Series.Add("Main Data", labels, new double[] { 10, 20, 30 });
 
 //ExStep:5-
-secondarySeriesGroup.AxisX.Hidden = true;
+        ChartSeriesGroup secondaryGroup = lineChart.SeriesGroups.Add(ChartSeriesType.Line);
+        secondaryGroup.AxisGroup = AxisGroup.Secondary;
 
 //ExStep:6-
-secondarySeriesGroup.AxisY.Title.Show = true;
-secondarySeriesGroup.AxisY.Title.Text = "Sales (USD)";
+        secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Thousands;
 
 //ExStep:7-
-secondarySeriesGroup.AxisY.NumberFormat.FormatCode = "\"$\"#,##0.00";
-secondarySeriesGroup.AxisY.NumberFormat.IsLinkedToSource = false;
+        secondaryGroup.AxisX.NumberFormat.FormatCode = "#,##0.0";
 
 //ExStep:8-
-secondarySeriesGroup.Series.Add("Auxiliary Series", quarters, new double[] { 3000, 3500, 4000, 4500 });
+        secondaryGroup.Series.Add("Auxiliary Data", labels, new double[] { 15, 25, 35 });
 
 //ExStep:9-
-string resultPath = Path.Combine(Directory.GetCurrentDirectory(), "ProfitChart.docx");
-wordDoc.Save(resultPath);
+        document.Save("ChartWithSecondaryAxis.docx");
 //ExEnd

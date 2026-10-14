@@ -1,87 +1,87 @@
 ---
-title: Formatteer de secundaire Y‑as als valuta in een Word-diagram met Aspose.Words for .NET
+title: Formatteer de secundaire X‑as en stel weergave‑eenheden in op duizenden in Word‑lijndiagrammen met Aspose.Words voor .NET
 weight: 710
 limit:
-description: Leer hoe je een secundaire Y‑as toevoegt en formatteert als valuta in een Word-lijndiagram met Aspose.Words for .NET.
-keywords: [Aspose.Words for .NET, format secondary axis, currency axis formatting, Word line chart secondary series, secondary Y axis .NET, chart axis number format]
+description: Maak een Word‑lijndiagram, voeg een secundaire X‑as toe, stel de weergave‑eenheid in op duizenden, en pas een aangepast numeriek formaat toe met Aspose.Words voor .NET.
+keywords: [secondary axis formatting, Aspose.Words for .NET, line chart axis units, display units thousands, custom numeric format axis, Word chart secondary X axis]
 url: /net/programming-with-charts/format-secondary-axis/
 date: '2026-10-13'
 lastmod: '2026-10-13'
 schemas:
 - author: Aspose
   dateModified: '2026-10-13'
-  description: Leer hoe je een secundaire Y‑as toevoegt en formatteert als valuta
-    in een Word-lijndiagram met Aspose.Words for .NET.
-  headline: Formatteer de secundaire Y‑as als valuta in een Word-diagram met Aspose.Words
-    for .NET
+  description: Maak een Word‑lijndiagram, voeg een secundaire X‑as toe, stel de weergave‑eenheid
+    in op duizenden, en pas een aangepast numeriek formaat toe met Aspose.Words voor
+    .NET.
+  headline: Formatteer de secundaire X‑as en stel weergave‑eenheden in op duizenden
+    in Word‑lijndiagrammen met Aspose.Words voor .NET
   type: TechArticle
-- description: Leer hoe je een secundaire Y‑as toevoegt en formatteert als valuta
-    in een Word-lijndiagram met Aspose.Words for .NET.
-  name: Formatteer de secundaire Y‑as als valuta in een Word-diagram met Aspose.Words
-    for .NET
+- description: Maak een Word‑lijndiagram, voeg een secundaire X‑as toe, stel de weergave‑eenheid
+    in op duizenden, en pas een aangepast numeriek formaat toe met Aspose.Words voor
+    .NET.
+  name: Formatteer de secundaire X‑as en stel weergave‑eenheden in op duizenden in
+    Word‑lijndiagrammen met Aspose.Words voor .NET
   steps:
-  - name: Maak een nieuw leeg Word-document en een DocumentBuilder om het te bewerken.
-    text: Maak een nieuw leeg Word-document en een DocumentBuilder om het te bewerken.
-  - name: Voeg een lijndiagram van 450×250 punten toe aan het document en verkrijg
+  - name: Doe een nieuw Document en een DocumentBuilder aan om te beginnen met het
+      bouwen van het Word‑bestand.
+    text: Doe een nieuw Document en een DocumentBuilder aan om te beginnen met het
+      bouwen van het Word‑bestand.
+  - name: Voeg een lijndiagram van grootte 500×300 in het document in en verkrijg
       het Chart‑object.
-    text: Voeg een lijndiagram van 450×250 punten toe aan het document en verkrijg
+    text: Voeg een lijndiagram van grootte 500×300 in het document in en verkrijg
       het Chart‑object.
-  - name: Verwijder de standaard placeholder‑reeks die Aspose toevoegt aan een nieuw
-      diagram.
-    text: Verwijder de standaard placeholder‑reeks die Aspose toevoegt aan een nieuw
-      diagram.
-  - name: Definieer kwartaal‑labels en voeg een primaire gegevensreeks met voorbeeldwaarden
-      toe aan het diagram.
-    text: Definieer kwartaal‑labels en voeg een primaire gegevensreeks met voorbeeldwaarden
-      toe aan het diagram.
-  - name: Maak een secundaire series‑groep van het type Line en wijs deze toe aan
+  - name: Verwijder de standaard demo‑reeks die Aspose.Words automatisch toevoegt.
+    text: Verwijder de standaard demo‑reeks die Aspose.Words automatisch toevoegt.
+  - name: Definieer een array met categorielabels die voor de X‑as worden gebruikt.
+    text: Definieer een array met categorielabels die voor de X‑as worden gebruikt.
+  - name: Voeg de primaire gegevensreeks met de naam \"Main Data\" toe met behulp
+      van de labels en waarden.
+    text: Voeg de primaire gegevensreeks met de naam \"Main Data\" toe met behulp
+      van de labels en waarden.
+  - name: Maak een secundaire seriesgroep van het type Line aan en wijs deze toe aan
       de secundaire as‑groep.
-    text: Maak een secundaire series‑groep van het type Line en wijs deze toe aan
+    text: Maak een secundaire seriesgroep van het type Line aan en wijs deze toe aan
       de secundaire as‑groep.
-  - name: Verberg de secundaire X‑as zodat alleen de secundaire Y‑as zichtbaar is.
-    text: Verberg de secundaire X‑as zodat alleen de secundaire Y‑as zichtbaar is.
-  - name: Toon de titel van de secundaire Y‑as en stel de tekst in op "Sales (USD)".
-    text: Toon de titel van de secundaire Y‑as en stel de tekst in op "Sales (USD)".
-  - name: Stel het getalformaat van de secundaire Y‑as in op een valutapatroon met
-      twee decimalen en ontkoppel het van de bronformattering.
-    text: Stel het getalformaat van de secundaire Y‑as in op een valutapatroon met
-      twee decimalen en ontkoppel het van de bronformattering.
-  - name: Voeg een aanvullende reeks toe aan de secundaire groep, met gegevens die
-      tegen de secundaire Y‑as worden uitgezet.
-    text: Voeg een aanvullende reeks toe aan de secundaire groep, met gegevens die
-      tegen de secundaire Y‑as worden uitgezet.
-  - name: Sla het voltooide document op in een bestand met de naam ProfitChart.docx
-      in de huidige map.
-    text: Sla het voltooide document op in een bestand met de naam ProfitChart.docx
-      in de huidige map.
+  - name: Stel de weergave‑eenheid van de secundaire X‑as in op duizenden zodat waarden
+      worden weergegeven als K.
+    text: Stel de weergave‑eenheid van de secundaire X‑as in op duizenden zodat waarden
+      worden weergegeven als K.
+  - name: Pas een aangepast numeriek formaat \"#,##0.0\" toe op de tick‑labels van
+      de secundaire X‑as.
+    text: Pas een aangepast numeriek formaat \"#,##0.0\" toe op de tick‑labels van
+      de secundaire X‑as.
+  - name: Voeg optioneel een aanvullende gegevensreeks toe aan de secundaire groep.
+    text: Voeg optioneel een aanvullende gegevensreeks toe aan de secundaire groep.
+  - name: Sla het document op als een .docx‑bestand.
+    text: Sla het document op als een .docx‑bestand.
   type: HowTo
 - questions:
-  - answer: Het diagram behoudt de standaard placeholder‑reeks die Aspose.Words invoegt,
-      waardoor je aangepaste "Main Series" naast ongewenste datapunten verschijnt.
-    question: Wat gebeurt er als ik de aanroep `lineChart.Series.Clear()` weglaat?
-  - answer: Stel `secondarySeriesGroup.AxisX.Hidden = false;` in (of laat simpelweg
-      de regel die het op `true` zet weg).
-    question: Hoe kan ik de secundaire X‑as weergeven in plaats van deze te verbergen?
-  - answer: Ja – wijzig de opmaak‑string, bijv. `secondarySeriesGroup.AxisY.NumberFormat.FormatCode
-      = \"\\\"€\\\"#,##0.00\";` voor euro’s of pas het patroon aan aan je locale.
-    question: Kan ik een ander valutasymbool of -formaat gebruiken voor de secundaire
-      Y‑as?
-  - answer: Wanneer `IsLinkedToSource` true is, erft de as het getalformaat van de
-      onderliggende gegevensbron, waardoor elk aangepast `FormatCode` wordt overschreven;
-      door het op false te zetten, dwing je het diagram om het door jou opgegeven
-      formaat te gebruiken.
-    question: Waarom moet ik `IsLinkedToSource = false` instellen bij het toepassen
-      van een aangepast getalformaat?
-  - answer: Ja, wijs `secondarySeriesGroup.AxisY.Position = AxisPosition.Left;` toe
-      (of `Right` voor de standaard) om te bepalen aan welke kant de as wordt getekend.
-    question: Is het mogelijk om de secundaire Y‑as naar de linkerkant van het diagram
-      te verplaatsen?
+  - answer: Nee – de `AxisX`‑instellingen behoren tot de `ChartSeriesGroup`, dus je
+      kunt `secondaryGroup.AxisX.DisplayUnit.Unit` en `secondaryGroup.AxisX.NumberFormat.FormatCode`
+      instellen vóór of na het toevoegen van reeksen; de configuratie wordt in beide
+      gevallen op de as van de groep toegepast.
+    question: Moet ik de secundaire reeks toevoegen voordat ik de weergave‑eenheid
+      en het getalformaat op de secundaire X‑as instel?
+  - answer: Ja – wijs een willekeurige `AxisBuiltInUnit`‑waarde toe, bijvoorbeeld
+      `secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Millions;` om de aswaarden
+      in miljoenen weer te geven in plaats van in duizenden.
+    question: Kan ik een andere ingebouwde eenheid, zoals miljoenen, gebruiken voor
+      de secundaire X‑as?
+  - answer: Nee – de opmaakcode wordt alleen toegepast op de as die je wijzigt (`secondaryGroup.AxisX.NumberFormat.FormatCode`),
+      dus de primaire X‑as behoudt zijn standaardopmaak.
+    question: Zal het aangepaste formaat \"#,##0.0\" invloed hebben op de labels van
+      de primaire X‑as?
+  - answer: Het diagram bevat dan de standaard demo‑reeks naast de door jou toegevoegde
+      reeksen, wat kan leiden tot extra lijnen en niet‑overeenkomende categorieën;
+      het wissen van de collectie zorgt ervoor dat alleen de door jou bedoelde gegevens
+      verschijnen.
+    question: Wat gebeurt er als ik vergeet de demo‑reeks te wissen met `lineChart.Series.Clear();`?
   type: FAQPage
 images:
 - /net/programming-with-charts/format-secondary-axis/og-image.png
-og_title: Formatteer de secundaire as van een diagram als valuta
-og_description: Leer hoe je een secundaire Y‑as toevoegt aan een Word-lijndiagram en deze styleert als valuta met twee decimalen.
-og_image_alt: Schermafbeelding die een Word-lijndiagram toont met een secundaire Y‑as geformatteerd als valuta met behulp van Aspose.Words for .NET
+og_title: Formatteer de secundaire X‑as en stel eenheden in op duizenden
+og_description: Voeg een secundaire X‑as toe aan een Word‑lijndiagram en formatteer de labels in duizenden met een aangepast patroon.
+og_image_alt: Gids die laat zien hoe je een secundaire X‑as toevoegt aan een Word‑lijndiagram en de labels formatteert om eenheden in duizenden weer te geven met Aspose.Words voor .NET
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -90,8 +90,8 @@ og_image_alt: Schermafbeelding die een Word-lijndiagram toont met een secundaire
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Formatteer de secundaire Y‑as als valuta in een Word-diagram met Aspose.Words
-In deze tutorial zie je hoe je een Word-document maakt, een lijndiagram invoegt, een secundaire Y‑as toevoegt, die as formatteert als valuta met twee decimalen, en er een secundaire gegevensreeks aan bindt met behulp van Aspose.Words for .NET. Het formatteren van de secundaire as als valuta stelt je in staat financiële gegevens duidelijk naast de primaire reeks weer te geven. Volg de stapsgewijze code om het diagram direct in het gegenereerde document te zien.
+# Formatteer de secundaire X‑as en stel weergave‑eenheden in op duizenden in Word‑lijndiagrammen met Aspose.Words voor .NET
+Deze tutorial leidt je stap voor stap door het maken van een Word‑document met een lijndiagram, het toevoegen van een secundaire X‑as, en het configureren van die as om waarden in duizenden weer te geven. Je leert ook hoe je een aangepast numeriek formaat toepast op de labels van de secundaire as, waardoor je nauwkeurige controle krijgt over hoe gegevens worden gepresenteerd. Volg de stappen om de leesbaarheid van multi‑as diagrammen in je Word‑rapporten te verbeteren.
 
 ---
 
@@ -129,20 +129,17 @@ In deze tutorial zie je hoe je een Word-document maakt, een lijndiagram invoegt,
 
 ## Frequently asked questions
 
-**Q: Wat gebeurt er als ik de aanroep `lineChart.Series.Clear()` weglaat?**  
-A: Het diagram behoudt de standaard placeholder‑reeks die Aspose.Words invoegt, waardoor je aangepaste "Main Series" naast ongewenste datapunten verschijnt.
+**Q: Moet ik de secundaire reeks toevoegen voordat ik de weergave‑eenheid en het getalformaat op de secundaire X‑as instel?**  
+A: Nee – de `AxisX`‑instellingen behoren tot de `ChartSeriesGroup`, dus je kunt `secondaryGroup.AxisX.DisplayUnit.Unit` en `secondaryGroup.AxisX.NumberFormat.FormatCode` instellen vóór of na het toevoegen van reeksen; de configuratie wordt in beide gevallen op de as van de groep toegepast.
 
-**Q: Hoe kan ik de secundaire X‑as weergeven in plaats van deze te verbergen?**  
-A: Stel `secondarySeriesGroup.AxisX.Hidden = false;` in (of laat simpelweg de regel die het op `true` zet weg).
+**Q: Kan ik een andere ingebouwde eenheid, zoals miljoenen, gebruiken voor de secundaire X‑as?**  
+A: Ja – wijs een willekeurige `AxisBuiltInUnit`‑waarde toe, bijvoorbeeld `secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Millions;` om de aswaarden in miljoenen weer te geven in plaats van in duizenden.
 
-**Q: Kan ik een ander valutasymbool of -formaat gebruiken voor de secundaire Y‑as?**  
-A: Ja – wijzig de opmaak‑string, bijv. `secondarySeriesGroup.AxisY.NumberFormat.FormatCode = \"\\\"€\\\"#,##0.00\";` voor euro’s of pas het patroon aan aan je locale.
+**Q: Zal het aangepaste formaat \"#,##0.0\" invloed hebben op de labels van de primaire X‑as?**  
+A: Nee – de opmaakcode wordt alleen toegepast op de as die je wijzigt (`secondaryGroup.AxisX.NumberFormat.FormatCode`), dus de primaire X‑as behoudt zijn standaardopmaak.
 
-**Q: Waarom moet ik `IsLinkedToSource = false` instellen bij het toepassen van een aangepast getalformaat?**  
-A: Wanneer `IsLinkedToSource` true is, erft de as het getalformaat van de onderliggende gegevensbron, waardoor elk aangepast `FormatCode` wordt overschreven; door het op false te zetten, dwing je het diagram om het door jou opgegeven formaat te gebruiken.
-
-**Q: Is het mogelijk om de secundaire Y‑as naar de linkerkant van het diagram te verplaatsen?**  
-A: Ja, wijs `secondarySeriesGroup.AxisY.Position = AxisPosition.Left;` toe (of `Right` voor de standaard) om te bepalen aan welke kant de as wordt getekend.
+**Q: Wat gebeurt er als ik vergeet de demo‑reeks te wissen met `lineChart.Series.Clear();`?**  
+A: Het diagram bevat dan de standaard demo‑reeks naast de door jou toegevoegde reeksen, wat kan leiden tot extra lijnen en niet‑overeenkomende categorieën; het wissen van de collectie zorgt ervoor dat alleen de door jou bedoelde gegevens verschijnen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

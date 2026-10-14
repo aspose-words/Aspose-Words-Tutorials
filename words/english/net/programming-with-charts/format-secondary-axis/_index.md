@@ -1,83 +1,77 @@
 ---
-title: Format Secondary Y‑Axis as Currency in a Word Chart Using Aspose.Words for .NET
+title: Format Secondary X‑Axis and Set Display Units to Thousands in Word Line Charts Using Aspose.Words for .NET
 weight: 710
 limit:
-description: Learn to add and format a secondary Y‑axis as currency in a Word line chart with Aspose.Words for .NET.
-keywords: [Aspose.Words for .NET, format secondary axis, currency axis formatting, Word line chart secondary series, secondary Y axis .NET, chart axis number format]
+description: Create a Word line chart, add a secondary X‑axis, set its display unit to thousands, and apply a custom numeric format with Aspose.Words for .NET.
+keywords: [secondary axis formatting, Aspose.Words for .NET, line chart axis units, display units thousands, custom numeric format axis, Word chart secondary X axis]
 url: /net/programming-with-charts/format-secondary-axis/
 date: '2026-10-13'
 lastmod: '2026-10-13'
 schemas:
 - author: Aspose
   dateModified: '2026-10-13'
-  description: Learn to add and format a secondary Y‑axis as currency in a Word line
-    chart with Aspose.Words for .NET.
-  headline: Format Secondary Y‑Axis as Currency in a Word Chart Using Aspose.Words
-    for .NET
+  description: Create a Word line chart, add a secondary X‑axis, set its display unit
+    to thousands, and apply a custom numeric format with Aspose.Words for .NET.
+  headline: Format Secondary X‑Axis and Set Display Units to Thousands in Word Line
+    Charts Using Aspose.Words for .NET
   type: TechArticle
-- description: Learn to add and format a secondary Y‑axis as currency in a Word line
-    chart with Aspose.Words for .NET.
-  name: Format Secondary Y‑Axis as Currency in a Word Chart Using Aspose.Words for
-    .NET
+- description: Create a Word line chart, add a secondary X‑axis, set its display unit
+    to thousands, and apply a custom numeric format with Aspose.Words for .NET.
+  name: Format Secondary X‑Axis and Set Display Units to Thousands in Word Line Charts
+    Using Aspose.Words for .NET
   steps:
-  - name: Create a new empty Word document and a DocumentBuilder to edit it.
-    text: Create a new empty Word document and a DocumentBuilder to edit it.
-  - name: Insert a line chart of size 450×250 points into the document and obtain
-      its Chart object.
-    text: Insert a line chart of size 450×250 points into the document and obtain
-      its Chart object.
-  - name: Remove the default placeholder series that Aspose adds to a new chart.
-    text: Remove the default placeholder series that Aspose adds to a new chart.
-  - name: Define quarter labels and add a primary data series with sample values to
-      the chart.
-    text: Define quarter labels and add a primary data series with sample values to
-      the chart.
+  - name: Create a new Document and a DocumentBuilder to start building the Word file.
+    text: Create a new Document and a DocumentBuilder to start building the Word file.
+  - name: Insert a line chart of size 500×300 into the document and obtain the Chart
+      object.
+    text: Insert a line chart of size 500×300 into the document and obtain the Chart
+      object.
+  - name: Remove the default demo series that Aspose.Words adds automatically.
+    text: Remove the default demo series that Aspose.Words adds automatically.
+  - name: Define an array of category labels that will be used for the X‑axis.
+    text: Define an array of category labels that will be used for the X‑axis.
+  - name: Add the primary data series named "Main Data" using the labels and values.
+    text: Add the primary data series named "Main Data" using the labels and values.
   - name: Create a secondary series group of type Line and assign it to the secondary
       axis group.
     text: Create a secondary series group of type Line and assign it to the secondary
       axis group.
-  - name: Hide the secondary X‑axis so only the secondary Y‑axis is visible.
-    text: Hide the secondary X‑axis so only the secondary Y‑axis is visible.
-  - name: Show the secondary Y‑axis title and set its text to "Sales (USD)".
-    text: Show the secondary Y‑axis title and set its text to "Sales (USD)".
-  - name: Set the secondary Y‑axis number format to a currency pattern with two decimal
-      places and unlink it from the source formatting.
-    text: Set the secondary Y‑axis number format to a currency pattern with two decimal
-      places and unlink it from the source formatting.
-  - name: Add an auxiliary series to the secondary group, providing data that will
-      be plotted against the secondary Y‑axis.
-    text: Add an auxiliary series to the secondary group, providing data that will
-      be plotted against the secondary Y‑axis.
-  - name: Save the finished document to a file named ProfitChart.docx in the current
-      directory.
-    text: Save the finished document to a file named ProfitChart.docx in the current
-      directory.
+  - name: Set the secondary X‑axis display unit to thousands so values are shown in
+      K.
+    text: Set the secondary X‑axis display unit to thousands so values are shown in
+      K.
+  - name: Apply a custom numeric format "#,##0.0" to the secondary X‑axis tick labels.
+    text: Apply a custom numeric format "#,##0.0" to the secondary X‑axis tick labels.
+  - name: Optionally add an auxiliary data series to the secondary group.
+    text: Optionally add an auxiliary data series to the secondary group.
+  - name: Save the document to a .docx file.
+    text: Save the document to a .docx file.
   type: HowTo
 - questions:
-  - answer: The chart will retain the default placeholder series that Aspose.Words
-      inserts, so your custom "Main Series" will appear alongside unwanted data points.
-    question: What happens if I omit the `lineChart.Series.Clear()` call?
-  - answer: Set `secondarySeriesGroup.AxisX.Hidden = false;` (or simply omit the line
-      that sets it to `true`).
-    question: How can I display the secondary X‑axis instead of hiding it?
-  - answer: Yes – change the format string, e.g. `secondarySeriesGroup.AxisY.NumberFormat.FormatCode
-      = "\"€\"#,##0.00";` for euros or adjust the pattern to suit your locale.
-    question: Can I use a different currency symbol or format for the secondary Y‑axis?
-  - answer: When `IsLinkedToSource` is true the axis inherits the number format from
-      the underlying data source, overriding any custom `FormatCode`; setting it to
-      false forces the chart to use the format you specify.
-    question: Why do I need to set `IsLinkedToSource = false` when applying a custom
-      number format?
-  - answer: Yes, assign `secondarySeriesGroup.AxisY.Position = AxisPosition.Left;`
-      (or `Right` for the default) to control which side the axis is drawn on.
-    question: Is it possible to move the secondary Y‑axis to the left side of the
-      chart?
+  - answer: No – the `AxisX` settings belong to the `ChartSeriesGroup`, so you can
+      set `secondaryGroup.AxisX.DisplayUnit.Unit` and `secondaryGroup.AxisX.NumberFormat.FormatCode`
+      before or after adding series; the configuration will apply to the group’s axis
+      either way.
+    question: Do I have to add the secondary series before setting the display unit
+      and number format on the secondary X‑axis?
+  - answer: Yes – assign any `AxisBuiltInUnit` value, e.g. `secondaryGroup.AxisX.DisplayUnit.Unit
+      = AxisBuiltInUnit.Millions;` to show the axis values in millions instead of
+      thousands.
+    question: Can I use a different built‑in unit, such as millions, for the secondary
+      X‑axis?
+  - answer: No – the format code is applied only to the axis you modify (`secondaryGroup.AxisX.NumberFormat.FormatCode`),
+      so the primary X‑axis retains its default formatting.
+    question: Will the custom format `"#,##0.0"` affect the primary X‑axis labels?
+  - answer: The chart will contain the default demo series in addition to the ones
+      you add, which can lead to extra lines and mismatched categories; clearing the
+      collection ensures only your intended data appears.
+    question: What happens if I forget to clear the demo series with `lineChart.Series.Clear();`?
   type: FAQPage
 images:
 - /net/programming-with-charts/format-secondary-axis/og-image.png
-og_title: Format a Chart’s Secondary Axis as Currency
-og_description: Learn to add a secondary Y‑axis to a Word line chart and style it as currency with two decimals.
-og_image_alt: Screenshot showing a Word line chart with a secondary Y‑axis formatted as currency using Aspose.Words for .NET
+og_title: Format Secondary X‑Axis and Set Units to Thousands
+og_description: Add a secondary X‑axis to a Word line chart and format its labels in thousands with a custom pattern.
+og_image_alt: Guide showing how to add a secondary X‑axis to a Word line chart and format its labels to display units in thousands using Aspose.Words for .NET
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -86,8 +80,8 @@ og_image_alt: Screenshot showing a Word line chart with a secondary Y‑axis for
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Format Secondary Y‑Axis as Currency in a Word Chart Using Aspose.Words
-In this tutorial you’ll see how to build a Word document, insert a line chart, add a secondary Y‑axis, format that axis as currency with two decimal places, and bind a secondary data series to it using Aspose.Words for .NET. Formatting the secondary axis as currency lets you clearly present financial data alongside the primary series. Follow the step‑by‑step code to see the chart rendered directly in the generated document.
+# Format Secondary X‑Axis and Set Display Units to Thousands in Word Line Charts Using Aspose.Words
+This tutorial walks you through creating a Word document that contains a line chart, adding a secondary X‑axis, and configuring that axis to show values in thousands. You’ll also learn how to apply a custom numeric format to the secondary axis labels, giving you precise control over how data is presented. Follow the steps to enhance the readability of multi‑axis charts in your Word reports.
 
 ---
 
@@ -125,20 +119,17 @@ In this tutorial you’ll see how to build a Word document, insert a line chart,
 
 ## Frequently asked questions
 
-**Q: What happens if I omit the `lineChart.Series.Clear()` call?**  
-A: The chart will retain the default placeholder series that Aspose.Words inserts, so your custom "Main Series" will appear alongside unwanted data points.
+**Q: Do I have to add the secondary series before setting the display unit and number format on the secondary X‑axis?**  
+A: No – the `AxisX` settings belong to the `ChartSeriesGroup`, so you can set `secondaryGroup.AxisX.DisplayUnit.Unit` and `secondaryGroup.AxisX.NumberFormat.FormatCode` before or after adding series; the configuration will apply to the group’s axis either way.
 
-**Q: How can I display the secondary X‑axis instead of hiding it?**  
-A: Set `secondarySeriesGroup.AxisX.Hidden = false;` (or simply omit the line that sets it to `true`).
+**Q: Can I use a different built‑in unit, such as millions, for the secondary X‑axis?**  
+A: Yes – assign any `AxisBuiltInUnit` value, e.g. `secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Millions;` to show the axis values in millions instead of thousands.
 
-**Q: Can I use a different currency symbol or format for the secondary Y‑axis?**  
-A: Yes – change the format string, e.g. `secondarySeriesGroup.AxisY.NumberFormat.FormatCode = "\"€\"#,##0.00";` for euros or adjust the pattern to suit your locale.
+**Q: Will the custom format `"#,##0.0"` affect the primary X‑axis labels?**  
+A: No – the format code is applied only to the axis you modify (`secondaryGroup.AxisX.NumberFormat.FormatCode`), so the primary X‑axis retains its default formatting.
 
-**Q: Why do I need to set `IsLinkedToSource = false` when applying a custom number format?**  
-A: When `IsLinkedToSource` is true the axis inherits the number format from the underlying data source, overriding any custom `FormatCode`; setting it to false forces the chart to use the format you specify.
-
-**Q: Is it possible to move the secondary Y‑axis to the left side of the chart?**  
-A: Yes, assign `secondarySeriesGroup.AxisY.Position = AxisPosition.Left;` (or `Right` for the default) to control which side the axis is drawn on.
+**Q: What happens if I forget to clear the demo series with `lineChart.Series.Clear();`?**  
+A: The chart will contain the default demo series in addition to the ones you add, which can lead to extra lines and mismatched categories; clearing the collection ensures only your intended data appears.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,83 +1,75 @@
 ---
-title: Format Sumbu Y Sekunder sebagai Mata Uang dalam Diagram Word Menggunakan Aspose.Words for .NET
+title: Format Sumbu X Sekunder dan Atur Unit Tampilan ke Ribuan dalam Diagram Garis Word Menggunakan Aspose.Words untuk .NET
 weight: 710
 limit:
-description: Pelajari cara menambahkan dan memformat sumbu Y sekunder sebagai mata uang dalam diagram garis Word dengan Aspose.Words for .NET.
-keywords: [Aspose.Words for .NET, format secondary axis, currency axis formatting, Word line chart secondary series, secondary Y axis .NET, chart axis number format]
+description: Buat diagram garis Word, tambahkan sumbu X sekunder, atur unit tampilan menjadi ribuan, dan terapkan format numerik khusus dengan Aspose.Words untuk .NET.
+keywords: [secondary axis formatting, Aspose.Words for .NET, line chart axis units, display units thousands, custom numeric format axis, Word chart secondary X axis]
 url: /net/programming-with-charts/format-secondary-axis/
 date: '2026-10-13'
 lastmod: '2026-10-13'
 schemas:
 - author: Aspose
   dateModified: '2026-10-13'
-  description: Pelajari cara menambahkan dan memformat sumbu Y sekunder sebagai mata
-    uang dalam diagram garis Word dengan Aspose.Words for .NET.
-  headline: Format Sumbu Y Sekunder sebagai Mata Uang dalam Diagram Word Menggunakan
-    Aspose.Words for .NET
+  description: Buat diagram garis Word, tambahkan sumbu X sekunder, atur unit tampilan
+    menjadi ribuan, dan terapkan format numerik khusus dengan Aspose.Words untuk .NET.
+  headline: Format Sumbu X Sekunder dan Atur Unit Tampilan ke Ribuan dalam Diagram
+    Garis Word Menggunakan Aspose.Words untuk .NET
   type: TechArticle
-- description: Pelajari cara menambahkan dan memformat sumbu Y sekunder sebagai mata
-    uang dalam diagram garis Word dengan Aspose.Words for .NET.
-  name: Format Sumbu Y Sekunder sebagai Mata Uang dalam Diagram Word Menggunakan Aspose.Words
-    for .NET
+- description: Buat diagram garis Word, tambahkan sumbu X sekunder, atur unit tampilan
+    menjadi ribuan, dan terapkan format numerik khusus dengan Aspose.Words untuk .NET.
+  name: Format Sumbu X Sekunder dan Atur Unit Tampilan ke Ribuan dalam Diagram Garis
+    Word Menggunakan Aspose.Words untuk .NET
   steps:
-  - name: Buat dokumen Word kosong baru dan DocumentBuilder untuk mengeditnya.
-    text: Buat dokumen Word kosong baru dan DocumentBuilder untuk mengeditnya.
-  - name: Sisipkan diagram garis berukuran 450×250 poin ke dalam dokumen dan dapatkan
-      objek Chart-nya.
-    text: Sisipkan diagram garis berukuran 450×250 poin ke dalam dokumen dan dapatkan
-      objek Chart-nya.
-  - name: Hapus seri placeholder default yang ditambahkan Aspose ke diagram baru.
-    text: Hapus seri placeholder default yang ditambahkan Aspose ke diagram baru.
-  - name: Tetapkan label kuartal dan tambahkan seri data utama dengan nilai contoh
-      ke diagram.
-    text: Tetapkan label kuartal dan tambahkan seri data utama dengan nilai contoh
-      ke diagram.
+  - name: Buat Document baru dan DocumentBuilder untuk mulai membangun file Word.
+    text: Buat Document baru dan DocumentBuilder untuk mulai membangun file Word.
+  - name: Sisipkan diagram garis berukuran 500×300 ke dalam dokumen dan dapatkan objek
+      Chart.
+    text: Sisipkan diagram garis berukuran 500×300 ke dalam dokumen dan dapatkan objek
+      Chart.
+  - name: Hapus seri demo default yang ditambahkan secara otomatis oleh Aspose.Words.
+    text: Hapus seri demo default yang ditambahkan secara otomatis oleh Aspose.Words.
+  - name: Definisikan array label kategori yang akan digunakan untuk sumbu X.
+    text: Definisikan array label kategori yang akan digunakan untuk sumbu X.
+  - name: Tambahkan seri data utama bernama "Main Data" menggunakan label dan nilai.
+    text: Tambahkan seri data utama bernama "Main Data" menggunakan label dan nilai.
   - name: Buat grup seri sekunder bertipe Line dan tetapkan ke grup sumbu sekunder.
     text: Buat grup seri sekunder bertipe Line dan tetapkan ke grup sumbu sekunder.
-  - name: Sembunyikan sumbu X sekunder sehingga hanya sumbu Y sekunder yang terlihat.
-    text: Sembunyikan sumbu X sekunder sehingga hanya sumbu Y sekunder yang terlihat.
-  - name: Tampilkan judul sumbu Y sekunder dan atur teksnya menjadi \"Sales (USD)\".
-    text: Tampilkan judul sumbu Y sekunder dan atur teksnya menjadi \"Sales (USD)\".
-  - name: Atur format angka sumbu Y sekunder menjadi pola mata uang dengan dua tempat
-      desimal dan lepaskan tautannya dari format sumber.
-    text: Atur format angka sumbu Y sekunder menjadi pola mata uang dengan dua tempat
-      desimal dan lepaskan tautannya dari format sumber.
-  - name: Tambahkan seri tambahan ke grup sekunder, menyediakan data yang akan dipetakan
-      terhadap sumbu Y sekunder.
-    text: Tambahkan seri tambahan ke grup sekunder, menyediakan data yang akan dipetakan
-      terhadap sumbu Y sekunder.
-  - name: Simpan dokumen selesai ke file bernama ProfitChart.docx di direktori saat
-      ini.
-    text: Simpan dokumen selesai ke file bernama ProfitChart.docx di direktori saat
-      ini.
+  - name: Atur unit tampilan sumbu X sekunder menjadi ribuan sehingga nilai ditampilkan
+      dalam K.
+    text: Atur unit tampilan sumbu X sekunder menjadi ribuan sehingga nilai ditampilkan
+      dalam K.
+  - name: Terapkan format numerik khusus "#,##0.0" pada label tick sumbu X sekunder.
+    text: Terapkan format numerik khusus "#,##0.0" pada label tick sumbu X sekunder.
+  - name: Opsional, tambahkan seri data tambahan ke grup sekunder.
+    text: Opsional, tambahkan seri data tambahan ke grup sekunder.
+  - name: Simpan dokumen ke file .docx.
+    text: Simpan dokumen ke file .docx.
   type: HowTo
 - questions:
-  - answer: Diagram akan mempertahankan seri placeholder default yang disisipkan Aspose.Words,
-      sehingga \"Main Series\" khusus Anda akan muncul bersama titik data yang tidak
-      diinginkan.
-    question: Apa yang terjadi jika saya menghilangkan pemanggilan `lineChart.Series.Clear()`?
-  - answer: Atur `secondarySeriesGroup.AxisX.Hidden = false;` (atau cukup hilangkan
-      baris yang mengaturnya ke `true`).
-    question: Bagaimana saya dapat menampilkan sumbu X sekunder alih-alih menyembunyikannya?
-  - answer: Ya – ubah string format, misalnya `secondarySeriesGroup.AxisY.NumberFormat.FormatCode
-      = \"\\\"€\\\"#,##0.00\";` untuk euro atau sesuaikan pola agar cocok dengan locale
-      Anda.
-    question: Apakah saya dapat menggunakan simbol mata uang atau format yang berbeda
-      untuk sumbu Y sekunder?
-  - answer: Ketika `IsLinkedToSource` bernilai true, sumbu mewarisi format angka dari
-      sumber data yang mendasarinya, menimpa `FormatCode` khusus apa pun; mengaturnya
-      ke false memaksa diagram menggunakan format yang Anda tentukan.
-    question: Mengapa saya perlu mengatur `IsLinkedToSource = false` saat menerapkan
-      format angka khusus?
-  - answer: Ya, tetapkan `secondarySeriesGroup.AxisY.Position = AxisPosition.Left;`
-      (atau `Right` untuk default) untuk mengontrol sisi mana sumbu digambar.
-    question: Apakah memungkinkan memindahkan sumbu Y sekunder ke sisi kiri diagram?
+  - answer: Tidak – pengaturan `AxisX` milik `ChartSeriesGroup`, sehingga Anda dapat
+      mengatur `secondaryGroup.AxisX.DisplayUnit.Unit` dan `secondaryGroup.AxisX.NumberFormat.FormatCode`
+      sebelum atau sesudah menambahkan seri; konfigurasi akan diterapkan pada sumbu
+      grup tersebut dalam kedua kasus.
+    question: Apakah saya harus menambahkan seri sekunder sebelum mengatur unit tampilan
+      dan format angka pada sumbu X sekunder?
+  - answer: Ya – tetapkan nilai `AxisBuiltInUnit` apa pun, misalnya `secondaryGroup.AxisX.DisplayUnit.Unit
+      = AxisBuiltInUnit.Millions;` untuk menampilkan nilai sumbu dalam jutaan alih-alih
+      ribuan.
+    question: Apakah saya dapat menggunakan unit bawaan lain, seperti jutaan, untuk
+      sumbu X sekunder?
+  - answer: Tidak – kode format hanya diterapkan pada sumbu yang Anda ubah (`secondaryGroup.AxisX.NumberFormat.FormatCode`),
+      sehingga sumbu X utama tetap menggunakan format default.
+    question: Apakah format khusus "#,##0.0" akan memengaruhi label sumbu X utama?
+  - answer: Diagram akan berisi seri demo default selain seri yang Anda tambahkan,
+      yang dapat menyebabkan garis tambahan dan kategori yang tidak cocok; membersihkan
+      koleksi memastikan hanya data yang Anda inginkan yang muncul.
+    question: Apa yang terjadi jika saya lupa membersihkan seri demo dengan `lineChart.Series.Clear();`?
   type: FAQPage
 images:
 - /net/programming-with-charts/format-secondary-axis/og-image.png
-og_title: Format Sumbu Sekunder Chart sebagai Mata Uang
-og_description: Pelajari cara menambahkan sumbu Y sekunder ke diagram garis Word dan menataannya sebagai mata uang dengan dua desimal.
-og_image_alt: Tangkapan layar yang menunjukkan diagram garis Word dengan sumbu Y sekunder yang diformat sebagai mata uang menggunakan Aspose.Words for .NET
+og_title: Format Sumbu X Sekunder dan Atur Unit ke Ribuan
+og_description: Tambahkan sumbu X sekunder ke diagram garis Word dan format labelnya dalam ribuan dengan pola khusus.
+og_image_alt: Panduan yang menunjukkan cara menambahkan sumbu X sekunder ke diagram garis Word dan memformat labelnya untuk menampilkan unit dalam ribuan menggunakan Aspose.Words untuk .NET
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -86,8 +78,8 @@ og_image_alt: Tangkapan layar yang menunjukkan diagram garis Word dengan sumbu Y
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Format Sumbu Y Sekunder sebagai Mata Uang dalam Diagram Word Menggunakan Aspose.Words
-Pada tutorial ini Anda akan melihat cara membuat dokumen Word, menyisipkan diagram garis, menambahkan sumbu Y sekunder, memformat sumbu tersebut sebagai mata uang dengan dua tempat desimal, dan mengikat seri data sekunder kepadanya menggunakan Aspose.Words for .NET. Memformat sumbu sekunder sebagai mata uang memungkinkan Anda menyajikan data keuangan dengan jelas bersama seri utama. Ikuti kode langkah demi langkah untuk melihat diagram yang dirender langsung dalam dokumen yang dihasilkan.
+# Format Sumbu X Sekunder dan Atur Unit Tampilan ke Ribuan dalam Diagram Garis Word Menggunakan Aspose.Words untuk .NET
+Tutorial ini memandu Anda membuat dokumen Word yang berisi diagram garis, menambahkan sumbu X sekunder, dan mengkonfigurasi sumbu tersebut agar menampilkan nilai dalam ribuan. Anda juga akan belajar cara menerapkan format numerik khusus pada label sumbu sekunder, memberikan kontrol yang tepat atas cara data ditampilkan. Ikuti langkah‑langkahnya untuk meningkatkan keterbacaan diagram multi‑sumbu dalam laporan Word Anda.
 
 ---
 
@@ -125,20 +117,17 @@ Pada tutorial ini Anda akan melihat cara membuat dokumen Word, menyisipkan diagr
 
 ## Frequently asked questions
 
-**Q: Apa yang terjadi jika saya menghilangkan pemanggilan `lineChart.Series.Clear()`?**  
-A: Diagram akan mempertahankan seri placeholder default yang disisipkan Aspose.Words, sehingga \"Main Series\" khusus Anda akan muncul bersama titik data yang tidak diinginkan.
+**Q: Apakah saya harus menambahkan seri sekunder sebelum mengatur unit tampilan dan format angka pada sumbu X sekunder?**  
+A: Tidak – pengaturan `AxisX` milik `ChartSeriesGroup`, sehingga Anda dapat mengatur `secondaryGroup.AxisX.DisplayUnit.Unit` dan `secondaryGroup.AxisX.NumberFormat.FormatCode` sebelum atau sesudah menambahkan seri; konfigurasi akan diterapkan pada sumbu grup tersebut dalam kedua kasus.
 
-**Q: Bagaimana saya dapat menampilkan sumbu X sekunder alih-alih menyembunyikannya?**  
-A: Atur `secondarySeriesGroup.AxisX.Hidden = false;` (atau cukup hilangkan baris yang mengaturnya ke `true`).
+**Q: Apakah saya dapat menggunakan unit bawaan lain, seperti jutaan, untuk sumbu X sekunder?**  
+A: Ya – tetapkan nilai `AxisBuiltInUnit` apa pun, misalnya `secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Millions;` untuk menampilkan nilai sumbu dalam jutaan alih-alih ribuan.
 
-**Q: Apakah saya dapat menggunakan simbol mata uang atau format yang berbeda untuk sumbu Y sekunder?**  
-A: Ya – ubah string format, misalnya `secondarySeriesGroup.AxisY.NumberFormat.FormatCode = \"\\\"€\\\"#,##0.00\";` untuk euro atau sesuaikan pola agar cocok dengan locale Anda.
+**Q: Apakah format khusus "#,##0.0" akan memengaruhi label sumbu X utama?**  
+A: Tidak – kode format hanya diterapkan pada sumbu yang Anda ubah (`secondaryGroup.AxisX.NumberFormat.FormatCode`), sehingga sumbu X utama tetap menggunakan format default.
 
-**Q: Mengapa saya perlu mengatur `IsLinkedToSource = false` saat menerapkan format angka khusus?**  
-A: Ketika `IsLinkedToSource` bernilai true, sumbu mewarisi format angka dari sumber data yang mendasarinya, menimpa `FormatCode` khusus apa pun; mengaturnya ke false memaksa diagram menggunakan format yang Anda tentukan.
-
-**Q: Apakah memungkinkan memindahkan sumbu Y sekunder ke sisi kiri diagram?**  
-A: Ya, tetapkan `secondarySeriesGroup.AxisY.Position = AxisPosition.Left;` (atau `Right` untuk default) untuk mengontrol sisi mana sumbu digambar.
+**Q: Apa yang terjadi jika saya lupa membersihkan seri demo dengan `lineChart.Series.Clear();`?**  
+A: Diagram akan berisi seri demo default selain seri yang Anda tambahkan, yang dapat menyebabkan garis tambahan dan kategori yang tidak cocok; membersihkan koleksi memastikan hanya data yang Anda inginkan yang muncul.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

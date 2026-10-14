@@ -1,57 +1,52 @@
 //ExStart
-//ExSummary: 이 튜토리얼에서는 Aspose.Words for .NET을 사용하여 Word 문서를 만들고, 라인 차트를 삽입하고, 보조 Y축을 추가한 뒤 해당 축을 소수점 두 자리 통화 형식으로 지정하고, 보조 데이터 시리즈로 채우는 방법을 보여줍니다.
-//ExStepSummary:0: 새 빈 Word 문서를 만들고 이를 편집하기 위해 DocumentBuilder를 생성합니다.
-//ExStepSummary:1: 문서에 크기 450×250 포인트인 라인 차트를 삽입하고 해당 Chart 객체를 가져옵니다.
-//ExStepSummary:2: Aspose가 새 차트에 추가하는 기본 플레이스홀더 시리즈를 제거합니다.
-//ExStepSummary:3: 분기 라벨을 정의하고 샘플 값을 가진 기본 데이터 시리즈를 차트에 추가합니다.
-//ExStepSummary:4: Line 유형의 보조 시리즈 그룹을 생성하고 이를 보조 축 그룹에 할당합니다.
-//ExStepSummary:5: 보조 X축을 숨겨 보조 Y축만 보이도록 합니다.
-//ExStepSummary:6: 보조 Y축 제목을 표시하고 텍스트를 "Sales (USD)"로 설정합니다.
-//ExStepSummary:7: 보조 Y축 숫자 형식을 소수점 두 자리 통화 패턴으로 설정하고 원본 서식과 연결을 해제합니다.
-//ExStepSummary:8: 보조 그룹에 보조 시리즈를 추가하여 보조 Y축에 플롯될 데이터를 제공합니다.
-//ExStepSummary:9: 완성된 문서를 현재 디렉터리의 ProfitChart.docx 파일로 저장합니다.
+//ExSummary: 이 튜토리얼에서는 Aspose.Words를 사용하여 선 차트가 포함된 Word 문서를 만들고, 보조 X축을 추가한 뒤 표시 단위를 천 단위로 설정하고 축 레이블에 사용자 지정 숫자 형식을 적용하는 방법을 보여줍니다.
+//ExStepSummary:0: 새 Document와 DocumentBuilder를 생성하여 Word 파일 작성을 시작합니다.
+//ExStepSummary:1: 문서에 크기 500×300인 선 차트를 삽입하고 Chart 객체를 가져옵니다.
+//ExStepSummary:2: Aspose.Words가 자동으로 추가하는 기본 데모 시리즈를 제거합니다.
+//ExStepSummary:3: X축에 사용할 카테고리 레이블 배열을 정의합니다.
+//ExStepSummary:4: 레이블과 값을 사용하여 "Main Data"라는 이름의 기본 데이터 시리즈를 추가합니다.
+//ExStepSummary:5: Line 유형의 보조 시리즈 그룹을 생성하고 이를 보조 축 그룹에 할당합니다.
+//ExStepSummary:6: 보조 X축의 표시 단위를 천 단위로 설정하여 값이 K로 표시되도록 합니다.
+//ExStepSummary:7: 보조 X축 눈금 레이블에 사용자 지정 숫자 형식 "#,##0.0"을 적용합니다.
+//ExStepSummary:8: 선택적으로 보조 그룹에 보조 데이터 시리즈를 추가합니다.
+//ExStepSummary:9: 문서를 .docx 파일로 저장합니다.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
-//ExStepImage:3:images/3.png
-//ExStepImage:4:images/4.png
-//ExStepImage:5:images/5.png
-//ExStepImage:6:images/6.png
-//ExStepImage:7:images/7.png
-//ExStepImage:8:images/8.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+//ExStepImage:8:images/7.png
 //ExStep:0-
-Document wordDoc = new Document();
-DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+        Document document = new Document();
+        DocumentBuilder docBuilder = new DocumentBuilder(document);
 
 //ExStep:1-
-Shape lineChartShape = docBuilder.InsertChart(ChartType.Line, 450, 250);
-Chart lineChart = lineChartShape.Chart;
+        Shape chartContainer = docBuilder.InsertChart(ChartType.Line, 500, 300);
+        Chart lineChart = chartContainer.Chart;
 
 //ExStep:2-
-lineChart.Series.Clear();
+        lineChart.Series.Clear();
 
 //ExStep:3-
-string[] quarters = new[] { "Q1", "Q2", "Q3", "Q4" };
-lineChart.Series.Add("Main Series", quarters, new double[] { 1200, 1500, 1800, 2100 });
+        string[] labels = { "Group A", "Group B", "Group C" };
 
 //ExStep:4-
-ChartSeriesGroup secondarySeriesGroup = lineChart.SeriesGroups.Add(ChartSeriesType.Line);
-secondarySeriesGroup.AxisGroup = AxisGroup.Secondary;
+        lineChart.Series.Add("Main Data", labels, new double[] { 10, 20, 30 });
 
 //ExStep:5-
-secondarySeriesGroup.AxisX.Hidden = true;
+        ChartSeriesGroup secondaryGroup = lineChart.SeriesGroups.Add(ChartSeriesType.Line);
+        secondaryGroup.AxisGroup = AxisGroup.Secondary;
 
 //ExStep:6-
-secondarySeriesGroup.AxisY.Title.Show = true;
-secondarySeriesGroup.AxisY.Title.Text = "Sales (USD)";
+        secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Thousands;
 
 //ExStep:7-
-secondarySeriesGroup.AxisY.NumberFormat.FormatCode = "\"$\"#,##0.00";
-secondarySeriesGroup.AxisY.NumberFormat.IsLinkedToSource = false;
+        secondaryGroup.AxisX.NumberFormat.FormatCode = "#,##0.0";
 
 //ExStep:8-
-secondarySeriesGroup.Series.Add("Auxiliary Series", quarters, new double[] { 3000, 3500, 4000, 4500 });
+        secondaryGroup.Series.Add("Auxiliary Data", labels, new double[] { 15, 25, 35 });
 
 //ExStep:9-
-string resultPath = Path.Combine(Directory.GetCurrentDirectory(), "ProfitChart.docx");
-wordDoc.Save(resultPath);
+        document.Save("ChartWithSecondaryAxis.docx");
 //ExEnd

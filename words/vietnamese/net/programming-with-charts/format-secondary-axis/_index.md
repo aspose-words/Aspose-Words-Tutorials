@@ -1,83 +1,77 @@
 ---
-title: Định dạng trục Y phụ thành Tiền tệ trong biểu đồ Word bằng Aspose.Words for .NET
+title: Định dạng Trục X Phụ và Đặt Đơn vị Hiển thị thành Hàng nghìn trong Biểu đồ Đường Word bằng Aspose.Words cho .NET
 weight: 710
 limit:
-description: Học cách thêm và định dạng trục Y phụ dưới dạng tiền tệ trong biểu đồ đường Word bằng Aspose.Words for .NET.
-keywords: [Aspose.Words for .NET, format secondary axis, currency axis formatting, Word line chart secondary series, secondary Y axis .NET, chart axis number format]
+description: Tạo một biểu đồ đường Word, thêm trục X phụ, đặt đơn vị hiển thị của nó thành hàng nghìn, và áp dụng định dạng số tùy chỉnh với Aspose.Words cho .NET.
+keywords: [secondary axis formatting, Aspose.Words for .NET, line chart axis units, display units thousands, custom numeric format axis, Word chart secondary X axis]
 url: /net/programming-with-charts/format-secondary-axis/
 date: '2026-10-13'
 lastmod: '2026-10-13'
 schemas:
 - author: Aspose
   dateModified: '2026-10-13'
-  description: Học cách thêm và định dạng trục Y phụ dưới dạng tiền tệ trong biểu
-    đồ đường Word bằng Aspose.Words for .NET.
-  headline: Định dạng trục Y phụ thành Tiền tệ trong biểu đồ Word bằng Aspose.Words
-    for .NET
+  description: Tạo một biểu đồ đường Word, thêm trục X phụ, đặt đơn vị hiển thị của
+    nó thành hàng nghìn, và áp dụng định dạng số tùy chỉnh với Aspose.Words cho .NET.
+  headline: Định dạng Trục X Phụ và Đặt Đơn vị Hiển thị thành Hàng nghìn trong Biểu
+    đồ Đường Word bằng Aspose.Words cho .NET
   type: TechArticle
-- description: Học cách thêm và định dạng trục Y phụ dưới dạng tiền tệ trong biểu
-    đồ đường Word bằng Aspose.Words for .NET.
-  name: Định dạng trục Y phụ thành Tiền tệ trong biểu đồ Word bằng Aspose.Words for
-    .NET
+- description: Tạo một biểu đồ đường Word, thêm trục X phụ, đặt đơn vị hiển thị của
+    nó thành hàng nghìn, và áp dụng định dạng số tùy chỉnh với Aspose.Words cho .NET.
+  name: Định dạng Trục X Phụ và Đặt Đơn vị Hiển thị thành Hàng nghìn trong Biểu đồ
+    Đường Word bằng Aspose.Words cho .NET
   steps:
-  - name: Tạo một tài liệu Word trống mới và một DocumentBuilder để chỉnh sửa nó.
-    text: Tạo một tài liệu Word trống mới và một DocumentBuilder để chỉnh sửa nó.
-  - name: Chèn một biểu đồ đường có kích thước 450×250 điểm vào tài liệu và lấy đối
-      tượng Chart của nó.
-    text: Chèn một biểu đồ đường có kích thước 450×250 điểm vào tài liệu và lấy đối
-      tượng Chart của nó.
-  - name: Xóa chuỗi placeholder mặc định mà Aspose thêm vào biểu đồ mới.
-    text: Xóa chuỗi placeholder mặc định mà Aspose thêm vào biểu đồ mới.
-  - name: Xác định các nhãn quý và thêm một chuỗi dữ liệu chính với các giá trị mẫu
-      vào biểu đồ.
-    text: Xác định các nhãn quý và thêm một chuỗi dữ liệu chính với các giá trị mẫu
-      vào biểu đồ.
-  - name: Tạo một nhóm chuỗi phụ loại Line và gán nó cho nhóm trục phụ.
-    text: Tạo một nhóm chuỗi phụ loại Line và gán nó cho nhóm trục phụ.
-  - name: Ẩn trục X phụ để chỉ trục Y phụ hiển thị.
-    text: Ẩn trục X phụ để chỉ trục Y phụ hiển thị.
-  - name: Hiển thị tiêu đề trục Y phụ và đặt văn bản của nó thành "Sales (USD)".
-    text: Hiển thị tiêu đề trục Y phụ và đặt văn bản của nó thành "Sales (USD)".
-  - name: Đặt định dạng số của trục Y phụ thành mẫu tiền tệ với hai chữ số thập phân
-      và tách nó khỏi định dạng nguồn.
-    text: Đặt định dạng số của trục Y phụ thành mẫu tiền tệ với hai chữ số thập phân
-      và tách nó khỏi định dạng nguồn.
-  - name: Thêm một chuỗi phụ trợ vào nhóm phụ, cung cấp dữ liệu sẽ được vẽ trên trục
-      Y phụ.
-    text: Thêm một chuỗi phụ trợ vào nhóm phụ, cung cấp dữ liệu sẽ được vẽ trên trục
-      Y phụ.
-  - name: Lưu tài liệu đã hoàn thiện vào tệp có tên ProfitChart.docx trong thư mục
-      hiện tại.
-    text: Lưu tài liệu đã hoàn thiện vào tệp có tên ProfitChart.docx trong thư mục
-      hiện tại.
+  - name: Tạo một Document mới và một DocumentBuilder để bắt đầu xây dựng tệp Word.
+    text: Tạo một Document mới và một DocumentBuilder để bắt đầu xây dựng tệp Word.
+  - name: Chèn một biểu đồ đường có kích thước 500×300 vào tài liệu và lấy đối tượng
+      Chart.
+    text: Chèn một biểu đồ đường có kích thước 500×300 vào tài liệu và lấy đối tượng
+      Chart.
+  - name: Xóa series demo mặc định mà Aspose.Words tự động thêm.
+    text: Xóa series demo mặc định mà Aspose.Words tự động thêm.
+  - name: Xác định một mảng các nhãn danh mục sẽ được sử dụng cho trục X.
+    text: Xác định một mảng các nhãn danh mục sẽ được sử dụng cho trục X.
+  - name: Thêm series dữ liệu chính có tên "Main Data" bằng cách sử dụng các nhãn
+      và giá trị.
+    text: Thêm series dữ liệu chính có tên "Main Data" bằng cách sử dụng các nhãn
+      và giá trị.
+  - name: Tạo một nhóm series phụ loại Line và gán nó cho nhóm trục phụ.
+    text: Tạo một nhóm series phụ loại Line và gán nó cho nhóm trục phụ.
+  - name: Đặt đơn vị hiển thị của trục X phụ thành hàng nghìn để các giá trị hiển
+      thị dưới dạng K.
+    text: Đặt đơn vị hiển thị của trục X phụ thành hàng nghìn để các giá trị hiển
+      thị dưới dạng K.
+  - name: Áp dụng định dạng số tùy chỉnh "#,##0.0" cho các nhãn tick của trục X phụ.
+    text: Áp dụng định dạng số tùy chỉnh "#,##0.0" cho các nhãn tick của trục X phụ.
+  - name: Tùy chọn, thêm một series dữ liệu phụ trợ vào nhóm phụ.
+    text: Tùy chọn, thêm một series dữ liệu phụ trợ vào nhóm phụ.
+  - name: Lưu tài liệu thành tệp .docx.
+    text: Lưu tài liệu thành tệp .docx.
   type: HowTo
 - questions:
-  - answer: Biểu đồ sẽ giữ lại chuỗi placeholder mặc định mà Aspose.Words chèn vào,
-      vì vậy "Main Series" tùy chỉnh của bạn sẽ xuất hiện cùng với các điểm dữ liệu
-      không mong muốn.
-    question: Điều gì sẽ xảy ra nếu tôi bỏ qua lệnh `lineChart.Series.Clear()`?
-  - answer: Đặt `secondarySeriesGroup.AxisX.Hidden = false;` (hoặc đơn giản là bỏ
-      qua dòng đặt nó thành `true`).
-    question: Làm sao tôi có thể hiển thị trục X phụ thay vì ẩn nó?
-  - answer: Đúng – thay đổi chuỗi định dạng, ví dụ `secondarySeriesGroup.AxisY.NumberFormat.FormatCode
-      = \"\\\"€\\\"#,##0.00\";` cho euro hoặc điều chỉnh mẫu cho phù hợp với địa phương
-      của bạn.
-    question: Tôi có thể sử dụng ký hiệu tiền tệ hoặc định dạng khác cho trục Y phụ
-      không?
-  - answer: Khi `IsLinkedToSource` là true, trục sẽ kế thừa định dạng số từ nguồn
-      dữ liệu gốc, ghi đè bất kỳ `FormatCode` tùy chỉnh nào; đặt nó thành false buộc
-      biểu đồ sử dụng định dạng bạn chỉ định.
-    question: Tại sao tôi cần đặt `IsLinkedToSource = false` khi áp dụng định dạng
-      số tùy chỉnh?
-  - answer: Đúng, gán `secondarySeriesGroup.AxisY.Position = AxisPosition.Left;` (hoặc
-      `Right` cho mặc định) để điều khiển trục được vẽ ở phía nào.
-    question: Có thể di chuyển trục Y phụ sang phía bên trái của biểu đồ không?
+  - answer: Không – các cài đặt `AxisX` thuộc về `ChartSeriesGroup`, vì vậy bạn có
+      thể đặt `secondaryGroup.AxisX.DisplayUnit.Unit` và `secondaryGroup.AxisX.NumberFormat.FormatCode`
+      trước hoặc sau khi thêm series; cấu hình sẽ áp dụng cho trục của nhóm dù thế
+      nào.
+    question: Tôi có phải thêm series phụ trước khi đặt đơn vị hiển thị và định dạng
+      số cho trục X phụ không?
+  - answer: Có – gán bất kỳ giá trị `AxisBuiltInUnit` nào, ví dụ `secondaryGroup.AxisX.DisplayUnit.Unit
+      = AxisBuiltInUnit.Millions;` để hiển thị giá trị trục dưới dạng triệu thay vì
+      hàng nghìn.
+    question: Tôi có thể sử dụng một đơn vị tích hợp khác, chẳng hạn như triệu, cho
+      trục X phụ không?
+  - answer: Không – mã định dạng chỉ được áp dụng cho trục bạn chỉnh sửa (`secondaryGroup.AxisX.NumberFormat.FormatCode`),
+      vì vậy trục X chính giữ nguyên định dạng mặc định.
+    question: Định dạng tùy chỉnh "#,##0.0" có ảnh hưởng đến nhãn trục X chính không?
+  - answer: Biểu đồ sẽ chứa series demo mặc định cùng với các series bạn thêm, có
+      thể dẫn đến các đường thừa và danh mục không khớp; việc xóa bộ sưu tập đảm bảo
+      chỉ có dữ liệu bạn muốn hiển thị.
+    question: Điều gì sẽ xảy ra nếu tôi quên xóa series demo bằng `lineChart.Series.Clear();`?
   type: FAQPage
 images:
 - /net/programming-with-charts/format-secondary-axis/og-image.png
-og_title: Định dạng trục phụ của Chart thành Tiền tệ
-og_description: Học cách thêm trục Y phụ vào biểu đồ đường Word và định dạng nó dưới dạng tiền tệ với hai chữ số thập phân.
-og_image_alt: Ảnh chụp màn hình hiển thị biểu đồ đường Word với trục Y phụ được định dạng dưới dạng tiền tệ bằng Aspose.Words for .NET
+og_title: Định dạng Trục X Phụ và Đặt Đơn vị thành Hàng nghìn
+og_description: Thêm trục X phụ vào biểu đồ đường Word và định dạng các nhãn của nó dưới dạng hàng nghìn với mẫu tùy chỉnh.
+og_image_alt: Hướng dẫn cách thêm trục X phụ vào biểu đồ đường Word và định dạng các nhãn để hiển thị đơn vị hàng nghìn bằng Aspose.Words cho .NET
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -86,8 +80,8 @@ og_image_alt: Ảnh chụp màn hình hiển thị biểu đồ đường Word v
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Định dạng trục Y phụ thành Tiền tệ trong biểu đồ Word bằng Aspose.Words
-Trong hướng dẫn này, bạn sẽ thấy cách tạo tài liệu Word, chèn biểu đồ đường, thêm trục Y phụ, định dạng trục đó dưới dạng tiền tệ với hai chữ số thập phân, và liên kết một chuỗi dữ liệu phụ với nó bằng cách sử dụng Aspose.Words for .NET. Định dạng trục phụ dưới dạng tiền tệ giúp bạn trình bày rõ ràng dữ liệu tài chính cùng với chuỗi chính. Hãy làm theo mã từng bước để xem biểu đồ được hiển thị trực tiếp trong tài liệu được tạo.
+# Định dạng Trục X Phụ và Đặt Đơn vị Hiển thị thành Hàng nghìn trong Biểu đồ Đường Word bằng Aspose.Words cho .NET
+Hướng dẫn này sẽ đưa bạn qua quá trình tạo một tài liệu Word chứa biểu đồ đường, thêm trục X phụ, và cấu hình trục đó để hiển thị giá trị dưới dạng hàng nghìn. Bạn cũng sẽ học cách áp dụng định dạng số tùy chỉnh cho nhãn trục phụ, cho phép bạn kiểm soát chính xác cách dữ liệu được trình bày. Thực hiện các bước để cải thiện khả năng đọc của các biểu đồ đa trục trong báo cáo Word của bạn.
 
 ---
 
@@ -125,20 +119,17 @@ Trong hướng dẫn này, bạn sẽ thấy cách tạo tài liệu Word, chèn
 
 ## Frequently asked questions
 
-**Q: Điều gì sẽ xảy ra nếu tôi bỏ qua lệnh `lineChart.Series.Clear()`?**  
-A: Biểu đồ sẽ giữ lại chuỗi placeholder mặc định mà Aspose.Words chèn vào, vì vậy "Main Series" tùy chỉnh của bạn sẽ xuất hiện cùng với các điểm dữ liệu không mong muốn.
+**Q: Tôi có phải thêm series phụ trước khi đặt đơn vị hiển thị và định dạng số cho trục X phụ không?**  
+A: Không – các cài đặt `AxisX` thuộc về `ChartSeriesGroup`, vì vậy bạn có thể đặt `secondaryGroup.AxisX.DisplayUnit.Unit` và `secondaryGroup.AxisX.NumberFormat.FormatCode` trước hoặc sau khi thêm series; cấu hình sẽ áp dụng cho trục của nhóm dù thế nào.
 
-**Q: Làm sao tôi có thể hiển thị trục X phụ thay vì ẩn nó?**  
-A: Đặt `secondarySeriesGroup.AxisX.Hidden = false;` (hoặc đơn giản là bỏ qua dòng đặt nó thành `true`).
+**Q: Tôi có thể sử dụng một đơn vị tích hợp khác, chẳng hạn như triệu, cho trục X phụ không?**  
+A: Có – gán bất kỳ giá trị `AxisBuiltInUnit` nào, ví dụ `secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Millions;` để hiển thị giá trị trục dưới dạng triệu thay vì hàng nghìn.
 
-**Q: Tôi có thể sử dụng ký hiệu tiền tệ hoặc định dạng khác cho trục Y phụ không?**  
-A: Đúng – thay đổi chuỗi định dạng, ví dụ `secondarySeriesGroup.AxisY.NumberFormat.FormatCode = \"\\\"€\\\"#,##0.00\";` cho euro hoặc điều chỉnh mẫu cho phù hợp với địa phương của bạn.
+**Q: Định dạng tùy chỉnh "#,##0.0" có ảnh hưởng đến nhãn trục X chính không?**  
+A: Không – mã định dạng chỉ được áp dụng cho trục bạn chỉnh sửa (`secondaryGroup.AxisX.NumberFormat.FormatCode`), vì vậy trục X chính giữ nguyên định dạng mặc định.
 
-**Q: Tại sao tôi cần đặt `IsLinkedToSource = false` khi áp dụng định dạng số tùy chỉnh?**  
-A: Khi `IsLinkedToSource` là true, trục sẽ kế thừa định dạng số từ nguồn dữ liệu gốc, ghi đè bất kỳ `FormatCode` tùy chỉnh nào; đặt nó thành false buộc biểu đồ sử dụng định dạng bạn chỉ định.
-
-**Q: Có thể di chuyển trục Y phụ sang phía bên trái của biểu đồ không?**  
-A: Đúng, gán `secondarySeriesGroup.AxisY.Position = AxisPosition.Left;` (hoặc `Right` cho mặc định) để điều khiển trục được vẽ ở phía nào.
+**Q: Điều gì sẽ xảy ra nếu tôi quên xóa series demo bằng `lineChart.Series.Clear();`?**  
+A: Biểu đồ sẽ chứa series demo mặc định cùng với các series bạn thêm, có thể dẫn đến các đường thừa và danh mục không khớp; việc xóa bộ sưu tập đảm bảo chỉ có dữ liệu bạn muốn hiển thị.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

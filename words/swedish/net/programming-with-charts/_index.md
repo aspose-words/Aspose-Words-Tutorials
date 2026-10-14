@@ -37,10 +37,9 @@ Med dessa handledningar kommer du att kunna förbättra dina Word-dokument genom
 
 {{< tutorial-card link="./customize-x-axis-gridlines/" title="Anpassa X‑axelns rutnätslinjer i ett stapeldiagram med Aspose.Words för .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
 
-{{< tutorial-card link="./format-secondary-axis/" title="Formatera sekundär Y‑axel som valuta i ett Word‑diagram med Aspose.Words för .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+{{< tutorial-card link="./format-secondary-axis/" title="Formatera sekundär X‑axel och sätt displayenheter till tusental i Word‑linjediagram med Aspose.Words för .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
 
 {{< tutorial-card link="./update-chart-title/" title="Uppdatera diagramtitel och växla legendens synlighet i Word med Aspose.Words för .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
-
 
 
 

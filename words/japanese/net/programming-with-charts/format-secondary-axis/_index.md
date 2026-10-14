@@ -1,63 +1,60 @@
 ---
-title: Aspose.Words for .NET を使用して Word のチャートで二次 Y 軸を通貨形式に設定する
+title: Aspose.Words for .NET を使用して Word の折れ線グラフでセカンダリ X 軸をフォーマットし、表示単位を千単位に設定する
 weight: 710
 limit:
-description: Aspose.Words for .NET を使用して、Word の折れ線グラフに二次 Y 軸を追加し、通貨形式に設定する方法を学びます。
-keywords: [Aspose.Words for .NET, format secondary axis, currency axis formatting, Word line chart secondary series, secondary Y axis .NET, chart axis number format]
+description: Aspose.Words for .NET を使用して Word の折れ線グラフを作成し、セカンダリ X 軸を追加、表示単位を千単位に設定し、カスタム数値書式を適用します。
+keywords: [secondary axis formatting, Aspose.Words for .NET, line chart axis units, display units thousands, custom numeric format axis, Word chart secondary X axis]
 url: /net/programming-with-charts/format-secondary-axis/
 date: '2026-10-13'
 lastmod: '2026-10-13'
 schemas:
 - author: Aspose
   dateModified: '2026-10-13'
-  description: Aspose.Words for .NET を使用して、Word の折れ線グラフに二次 Y 軸を追加し、通貨形式に設定する方法を学びます。
-  headline: Aspose.Words for .NET を使用して Word のチャートで二次 Y 軸を通貨形式に設定する
+  description: Aspose.Words for .NET を使用して Word の折れ線グラフを作成し、セカンダリ X 軸を追加、表示単位を千単位に設定し、カスタム数値書式を適用します。
+  headline: Aspose.Words for .NET を使用して Word の折れ線グラフでセカンダリ X 軸をフォーマットし、表示単位を千単位に設定する
   type: TechArticle
-- description: Aspose.Words for .NET を使用して、Word の折れ線グラフに二次 Y 軸を追加し、通貨形式に設定する方法を学びます。
-  name: Aspose.Words for .NET を使用して Word のチャートで二次 Y 軸を通貨形式に設定する
+- description: Aspose.Words for .NET を使用して Word の折れ線グラフを作成し、セカンダリ X 軸を追加、表示単位を千単位に設定し、カスタム数値書式を適用します。
+  name: Aspose.Words for .NET を使用して Word の折れ線グラフでセカンダリ X 軸をフォーマットし、表示単位を千単位に設定する
   steps:
-  - name: 空の新しい Word ドキュメントと、編集用の DocumentBuilder を作成します。
-    text: 空の新しい Word ドキュメントと、編集用の DocumentBuilder を作成します。
-  - name: サイズ 450×250 ポイントの折れ線グラフをドキュメントに挿入し、その Chart オブジェクトを取得します。
-    text: サイズ 450×250 ポイントの折れ線グラフをドキュメントに挿入し、その Chart オブジェクトを取得します。
-  - name: Aspose が新しいチャートに追加するデフォルトのプレースホルダー系列を削除します。
-    text: Aspose が新しいチャートに追加するデフォルトのプレースホルダー系列を削除します。
-  - name: 四半期ラベルを定義し、サンプル値を持つ一次データ系列をチャートに追加します。
-    text: 四半期ラベルを定義し、サンプル値を持つ一次データ系列をチャートに追加します。
-  - name: Line タイプの二次系列グループを作成し、二次軸グループに割り当てます。
-    text: Line タイプの二次系列グループを作成し、二次軸グループに割り当てます。
-  - name: 二次 X 軸を非表示にし、二次 Y 軸だけが表示されるようにします。
-    text: 二次 X 軸を非表示にし、二次 Y 軸だけが表示されるようにします。
-  - name: 二次 Y 軸のタイトルを表示し、そのテキストを \"Sales (USD)\" に設定します。
-    text: 二次 Y 軸のタイトルを表示し、そのテキストを \"Sales (USD)\" に設定します。
-  - name: 二次 Y 軸の数値形式を小数点以下2桁の通貨パターンに設定し、ソースの書式設定からリンクを解除します。
-    text: 二次 Y 軸の数値形式を小数点以下2桁の通貨パターンに設定し、ソースの書式設定からリンクを解除します。
-  - name: 二次グループに補助系列を追加し、二次 Y 軸に対してプロットされるデータを提供します。
-    text: 二次グループに補助系列を追加し、二次 Y 軸に対してプロットされるデータを提供します。
-  - name: 完成したドキュメントを、現在のディレクトリにある ProfitChart.docx という名前のファイルに保存します。
-    text: 完成したドキュメントを、現在のディレクトリにある ProfitChart.docx という名前のファイルに保存します。
+  - name: 新しい Document と DocumentBuilder を作成し、Word ファイルの作成を開始します。
+    text: 新しい Document と DocumentBuilder を作成し、Word ファイルの作成を開始します。
+  - name: サイズ 500×300 の折れ線グラフを文書に挿入し、Chart オブジェクトを取得します。
+    text: サイズ 500×300 の折れ線グラフを文書に挿入し、Chart オブジェクトを取得します。
+  - name: Aspose.Words が自動的に追加するデフォルトのデモシリーズを削除します。
+    text: Aspose.Words が自動的に追加するデフォルトのデモシリーズを削除します。
+  - name: X 軸に使用するカテゴリラベルの配列を定義します。
+    text: X 軸に使用するカテゴリラベルの配列を定義します。
+  - name: ラベルと値を使用して、"Main Data" という名前のプライマリ データシリーズを追加します。
+    text: ラベルと値を使用して、"Main Data" という名前のプライマリ データシリーズを追加します。
+  - name: Line タイプのセカンダリ シリーズ グループを作成し、セカンダリ 軸グループに割り当てます。
+    text: Line タイプのセカンダリ シリーズ グループを作成し、セカンダリ 軸グループに割り当てます。
+  - name: セカンダリ X 軸の表示単位を千単位に設定し、値が K で表示されるようにします。
+    text: セカンダリ X 軸の表示単位を千単位に設定し、値が K で表示されるようにします。
+  - name: カスタム数値書式 "#,##0.0" をセカンダリ X 軸の目盛ラベルに適用します。
+    text: カスタム数値書式 "#,##0.0" をセカンダリ X 軸の目盛ラベルに適用します。
+  - name: 必要に応じて、補助データシリーズをセカンダリ グループに追加します。
+    text: 必要に応じて、補助データシリーズをセカンダリ グループに追加します。
+  - name: 文書を .docx ファイルとして保存します。
+    text: 文書を .docx ファイルとして保存します。
   type: HowTo
 - questions:
-  - answer: チャートは Aspose.Words が挿入するデフォルトのプレースホルダー系列を保持するため、カスタムの \"Main Series\"
-      が不要なデータポイントと一緒に表示されます。
-    question: '`lineChart.Series.Clear()` 呼び出しを省略するとどうなりますか？'
-  - answer: '`secondarySeriesGroup.AxisX.Hidden = false;` を設定します（または `true` に設定している行を削除するだけでも構いません）。'
-    question: 二次 X 軸を非表示にせずに表示するにはどうすればよいですか？
-  - answer: はい。書式文字列を変更します。例えばユーロの場合は `secondarySeriesGroup.AxisY.NumberFormat.FormatCode
-      = \"€\"#,##0.00\";` のようにし、ロケールに合わせてパターンを調整してください。
-    question: 二次 Y 軸に別の通貨記号や書式を使用できますか？
-  - answer: '`IsLinkedToSource` が true の場合、軸は基になるデータソースから数値書式を継承し、カスタムの `FormatCode`
-      が上書きされます。false に設定すると、指定した書式が強制的に使用されます。'
-    question: カスタム数値書式を適用する際に `IsLinkedToSource = false` を設定する必要があるのはなぜですか？
-  - answer: はい。`secondarySeriesGroup.AxisY.Position = AxisPosition.Left;` を割り当てれば（デフォルトは
-      `Right`）軸が描画される側を制御できます。
-    question: 二次 Y 軸をチャートの左側に移動することは可能ですか？
+  - answer: いいえ – `AxisX` の設定は `ChartSeriesGroup` に属するため、シリーズを追加する前でも後でも `secondaryGroup.AxisX.DisplayUnit.Unit`
+      と `secondaryGroup.AxisX.NumberFormat.FormatCode` を設定できます。設定はどちらの場合でもグループの軸に適用されます。
+    question: セカンダリ X 軸の表示単位と数値書式を設定する前に、セカンダリシリーズを追加する必要がありますか？
+  - answer: はい – 任意の `AxisBuiltInUnit` 値を割り当てれば可能です。例えば `secondaryGroup.AxisX.DisplayUnit.Unit
+      = AxisBuiltInUnit.Millions;` とすれば、軸の値が千単位ではなく百万単位で表示されます。
+    question: セカンダリ X 軸に、千単位ではなく百万単位などの別の組み込み単位を使用できますか？
+  - answer: いいえ – 書式コードは変更した軸（`secondaryGroup.AxisX.NumberFormat.FormatCode`）にのみ適用されるため、プライマリ
+      X 軸はデフォルトの書式のままです。
+    question: カスタム書式 "#,##0.0" はプライマリ X 軸のラベルに影響しますか？
+  - answer: チャートには追加したシリーズに加えてデフォルトのデモシリーズも含まれ、余分な線やカテゴリの不一致が発生します。コレクションをクリアすれば、意図したデータだけが表示されます。
+    question: '`lineChart.Series.Clear();` でデモシリーズのクリアを忘れるとどうなりますか？'
   type: FAQPage
 images:
 - /net/programming-with-charts/format-secondary-axis/og-image.png
-og_title: チャートの二次軸を通貨形式に設定する
-og_description: Word の折れ線グラフに二次 Y 軸を追加し、小数点以下2桁の通貨形式でスタイル設定する方法を学びます。
-og_image_alt: Aspose.Words for .NET を使用して二次 Y 軸が通貨形式に設定された Word の折れ線グラフを示すスクリーンショット
+og_title: セカンダリ X 軸をフォーマットし、単位を千に設定する
+og_description: Word の折れ線グラフにセカンダリ X 軸を追加し、カスタムパターンでラベルを千単位にフォーマットします。
+og_image_alt: Aspose.Words for .NET を使用して、Word の折れ線グラフにセカンダリ X 軸を追加し、ラベルを千単位で表示するようにフォーマットする方法を示すガイド
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -66,8 +63,8 @@ og_image_alt: Aspose.Words for .NET を使用して二次 Y 軸が通貨形式�
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for .NET を使用して Word のチャートで二次 Y 軸を通貨形式に設定する
-このチュートリアルでは、Word ドキュメントを作成し、折れ線グラフを挿入し、二次 Y 軸を追加し、その軸を小数点以下2桁の通貨形式に設定し、Aspose.Words for .NET を使用して二次データ系列をバインドする方法を示します。二次軸を通貨形式にすることで、一次系列と並んで財務データを明確に提示できます。ステップバイステップのコードに従って、生成されたドキュメント内に直接チャートが描画される様子をご確認ください。
+# Aspose.Words for .NET を使用して Word の折れ線グラフでセカンダリ X 軸をフォーマットし、表示単位を千単位に設定する
+このチュートリアルでは、折れ線グラフを含む Word 文書の作成、セカンダリ X 軸の追加、およびその軸を千単位で表示するように設定する手順を説明します。また、セカンダリ軸ラベルにカスタム数値書式を適用してデータの表示を細かく制御する方法も学べます。手順に従って、Word レポートのマルチ軸チャートの可読性を向上させましょう。
 
 ---
 
@@ -105,20 +102,17 @@ og_image_alt: Aspose.Words for .NET を使用して二次 Y 軸が通貨形式�
 
 ## Frequently asked questions
 
-**Q: `lineChart.Series.Clear()` 呼び出しを省略するとどうなりますか？**  
-A: チャートは Aspose.Words が挿入するデフォルトのプレースホルダー系列を保持するため、カスタムの \"Main Series\" が不要なデータポイントと一緒に表示されます。
+**Q: セカンダリ X 軸の表示単位と数値書式を設定する前に、セカンダリシリーズを追加する必要がありますか？**  
+A: いいえ – `AxisX` の設定は `ChartSeriesGroup` に属するため、シリーズを追加する前でも後でも `secondaryGroup.AxisX.DisplayUnit.Unit` と `secondaryGroup.AxisX.NumberFormat.FormatCode` を設定できます。設定はどちらの場合でもグループの軸に適用されます。
 
-**Q: 二次 X 軸を非表示にせずに表示するにはどうすればよいですか？**  
-A: `secondarySeriesGroup.AxisX.Hidden = false;` を設定します（または `true` に設定している行を削除するだけでも構いません）。
+**Q: セカンダリ X 軸に、千単位ではなく百万単位などの別の組み込み単位を使用できますか？**  
+A: はい – 任意の `AxisBuiltInUnit` 値を割り当てれば可能です。例えば `secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Millions;` とすれば、軸の値が千単位ではなく百万単位で表示されます。
 
-**Q: 二次 Y 軸に別の通貨記号や書式を使用できますか？**  
-A: はい。書式文字列を変更します。例えばユーロの場合は `secondarySeriesGroup.AxisY.NumberFormat.FormatCode = \"€\"#,##0.00\";` のようにし、ロケールに合わせてパターンを調整してください。
+**Q: カスタム書式 "#,##0.0" はプライマリ X 軸のラベルに影響しますか？**  
+A: いいえ – 書式コードは変更した軸（`secondaryGroup.AxisX.NumberFormat.FormatCode`）にのみ適用されるため、プライマリ X 軸はデフォルトの書式のままです。
 
-**Q: カスタム数値書式を適用する際に `IsLinkedToSource = false` を設定する必要があるのはなぜですか？**  
-A: `IsLinkedToSource` が true の場合、軸は基になるデータソースから数値書式を継承し、カスタムの `FormatCode` が上書きされます。false に設定すると、指定した書式が強制的に使用されます。
-
-**Q: 二次 Y 軸をチャートの左側に移動することは可能ですか？**  
-A: はい。`secondarySeriesGroup.AxisY.Position = AxisPosition.Left;` を割り当てれば（デフォルトは `Right`）軸が描画される側を制御できます。
+**Q: `lineChart.Series.Clear();` でデモシリーズのクリアを忘れるとどうなりますか？**  
+A: チャートには追加したシリーズに加えてデフォルトのデモシリーズも含まれ、余分な線やカテゴリの不一致が発生します。コレクションをクリアすれば、意図したデータだけが表示されます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

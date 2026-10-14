@@ -1,57 +1,52 @@
 //ExStart
-//ExSummary: يوضح هذا البرنامج التعليمي كيفية إنشاء مستند Word، وإدراج مخطط خطي، وإضافة محور Y ثانوي، وتنسيق ذلك المحور كعملة برقمين عشريين، وتعبئته بسلسلة بيانات ثانوية باستخدام Aspose.Words for .NET.
-//ExStepSummary:0: أنشئ مستند Word جديد فارغ وDocumentBuilder لتعديله.
-//ExStepSummary:1: أدرج مخططًا خطيًا بحجم 450×250 نقطة في المستند واحصل على كائن Chart الخاص به.
-//ExStepSummary:2: احذف سلسلة العنصر النائب الافتراضية التي يضيفها Aspose إلى مخطط جديد.
-//ExStepSummary:3: عرّف تسميات الأرباع وأضف سلسلة بيانات أساسية بقيم نموذجية إلى المخطط.
-//ExStepSummary:4: أنشئ مجموعة سلاسل ثانوية من النوع Line وعيّنها إلى مجموعة المحور الثانوي.
-//ExStepSummary:5: أخفِ المحور X الثانوي بحيث يكون المحور Y الثانوي هو الوحيد الظاهر.
-//ExStepSummary:6: اعرض عنوان المحور Y الثانوي وضع نصه إلى "Sales (USD)".
-//ExStepSummary:7: عيّن تنسيق الأرقام للمحور Y الثانوي إلى نمط عملة برقمين عشريين وافصل هذا التنسيق عن تنسيق المصدر.
-//ExStepSummary:8: أضف سلسلة مساعدة إلى المجموعة الثانوية، موفرًا بيانات سيتم رسمها مقابل المحور Y الثانوي.
-//ExStepSummary:9: احفظ المستند النهائي في ملف باسم ProfitChart.docx في الدليل الحالي.
+//ExSummary: يوضح هذا البرنامج التعليمي كيفية إنشاء مستند Word يحتوي على مخطط خطي، وإضافة محور X ثانوي، وتعيين وحدة العرض إلى الآلاف، وتطبيق تنسيق رقمي مخصص على تسميات المحور باستخدام Aspose.Words.
+//ExStepSummary:0: أنشئ كائن Document جديد و DocumentBuilder لبدء بناء ملف Word.
+//ExStepSummary:1: أدرج مخططًا خطيًا بحجم 500×300 في المستند واحصل على كائن Chart.
+//ExStepSummary:2: احذف سلسلة العرض التجريبية الافتراضية التي يضيفها Aspose.Words تلقائيًا.
+//ExStepSummary:3: عرّف مصفوفة من تسميات الفئات التي ستُستخدم لمحور X.
+//ExStepSummary:4: أضف سلسلة البيانات الأساسية المسماة \"Main Data\" باستخدام التسميات والقيم.
+//ExStepSummary:5: أنشئ مجموعة سلسلة ثانوية من النوع Line وعيّنها إلى مجموعة المحور الثانوي.
+//ExStepSummary:6: عيّن وحدة عرض محور X الثانوي إلى الآلاف بحيث تُعرض القيم بـ K.
+//ExStepSummary:7: طبق تنسيق رقمي مخصص \"#,##0.0\" على تسميات علامات محور X الثانوي.
+//ExStepSummary:8: يمكنك إضافة سلسلة بيانات مساعدة إلى المجموعة الثانوية اختياريًا.
+//ExStepSummary:9: احفظ المستند كملف .docx.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
-//ExStepImage:3:images/3.png
-//ExStepImage:4:images/4.png
-//ExStepImage:5:images/5.png
-//ExStepImage:6:images/6.png
-//ExStepImage:7:images/7.png
-//ExStepImage:8:images/8.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+//ExStepImage:8:images/7.png
 //ExStep:0-
-Document wordDoc = new Document();
-DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+        Document document = new Document();
+        DocumentBuilder docBuilder = new DocumentBuilder(document);
 
 //ExStep:1-
-Shape lineChartShape = docBuilder.InsertChart(ChartType.Line, 450, 250);
-Chart lineChart = lineChartShape.Chart;
+        Shape chartContainer = docBuilder.InsertChart(ChartType.Line, 500, 300);
+        Chart lineChart = chartContainer.Chart;
 
 //ExStep:2-
-lineChart.Series.Clear();
+        lineChart.Series.Clear();
 
 //ExStep:3-
-string[] quarters = new[] { "Q1", "Q2", "Q3", "Q4" };
-lineChart.Series.Add("Main Series", quarters, new double[] { 1200, 1500, 1800, 2100 });
+        string[] labels = { "Group A", "Group B", "Group C" };
 
 //ExStep:4-
-ChartSeriesGroup secondarySeriesGroup = lineChart.SeriesGroups.Add(ChartSeriesType.Line);
-secondarySeriesGroup.AxisGroup = AxisGroup.Secondary;
+        lineChart.Series.Add("Main Data", labels, new double[] { 10, 20, 30 });
 
 //ExStep:5-
-secondarySeriesGroup.AxisX.Hidden = true;
+        ChartSeriesGroup secondaryGroup = lineChart.SeriesGroups.Add(ChartSeriesType.Line);
+        secondaryGroup.AxisGroup = AxisGroup.Secondary;
 
 //ExStep:6-
-secondarySeriesGroup.AxisY.Title.Show = true;
-secondarySeriesGroup.AxisY.Title.Text = "Sales (USD)";
+        secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Thousands;
 
 //ExStep:7-
-secondarySeriesGroup.AxisY.NumberFormat.FormatCode = "\"$\"#,##0.00";
-secondarySeriesGroup.AxisY.NumberFormat.IsLinkedToSource = false;
+        secondaryGroup.AxisX.NumberFormat.FormatCode = "#,##0.0";
 
 //ExStep:8-
-secondarySeriesGroup.Series.Add("Auxiliary Series", quarters, new double[] { 3000, 3500, 4000, 4500 });
+        secondaryGroup.Series.Add("Auxiliary Data", labels, new double[] { 15, 25, 35 });
 
 //ExStep:9-
-string resultPath = Path.Combine(Directory.GetCurrentDirectory(), "ProfitChart.docx");
-wordDoc.Save(resultPath);
+        document.Save("ChartWithSecondaryAxis.docx");
 //ExEnd

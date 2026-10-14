@@ -1,86 +1,90 @@
 ---
-title: Formatear el eje Y secundario como moneda en un gráfico Word usando Aspose.Words for .NET
+title: Formatear el eje X secundario y establecer unidades de visualización en miles en gráficos de líneas de Word usando Aspose.Words para .NET
 weight: 710
 limit:
-description: Aprenda a añadir y formatear un eje Y secundario como moneda en un gráfico de líneas Word con Aspose.Words for .NET.
-keywords: [Aspose.Words for .NET, format secondary axis, currency axis formatting, Word line chart secondary series, secondary Y axis .NET, chart axis number format]
+description: Cree un gráfico de líneas de Word, agregue un eje X secundario, establezca su unidad de visualización en miles y aplique un formato numérico personalizado con Aspose.Words para .NET.
+keywords: [secondary axis formatting, Aspose.Words for .NET, line chart axis units, display units thousands, custom numeric format axis, Word chart secondary X axis]
 url: /net/programming-with-charts/format-secondary-axis/
 date: '2026-10-13'
 lastmod: '2026-10-13'
 schemas:
 - author: Aspose
   dateModified: '2026-10-13'
-  description: Aprenda a añadir y formatear un eje Y secundario como moneda en un
-    gráfico de líneas Word con Aspose.Words for .NET.
-  headline: Formatear el eje Y secundario como moneda en un gráfico Word usando Aspose.Words
-    for .NET
+  description: Cree un gráfico de líneas de Word, agregue un eje X secundario, establezca
+    su unidad de visualización en miles y aplique un formato numérico personalizado
+    con Aspose.Words para .NET.
+  headline: Formatear el eje X secundario y establecer unidades de visualización en
+    miles en gráficos de líneas de Word usando Aspose.Words para .NET
   type: TechArticle
-- description: Aprenda a añadir y formatear un eje Y secundario como moneda en un
-    gráfico de líneas Word con Aspose.Words for .NET.
-  name: Formatear el eje Y secundario como moneda en un gráfico Word usando Aspose.Words
-    for .NET
+- description: Cree un gráfico de líneas de Word, agregue un eje X secundario, establezca
+    su unidad de visualización en miles y aplique un formato numérico personalizado
+    con Aspose.Words para .NET.
+  name: Formatear el eje X secundario y establecer unidades de visualización en miles
+    en gráficos de líneas de Word usando Aspose.Words para .NET
   steps:
-  - name: Cree un nuevo documento Word vacío y un DocumentBuilder para editarlo.
-    text: Cree un nuevo documento Word vacío y un DocumentBuilder para editarlo.
-  - name: Inserte un gráfico de líneas de tamaño 450×250 puntos en el documento y
-      obtenga su objeto Chart.
-    text: Inserte un gráfico de líneas de tamaño 450×250 puntos en el documento y
-      obtenga su objeto Chart.
-  - name: Elimine la serie de marcador de posición predeterminada que Aspose agrega
-      a un gráfico nuevo.
-    text: Elimine la serie de marcador de posición predeterminada que Aspose agrega
-      a un gráfico nuevo.
-  - name: Defina etiquetas de trimestres y añada una serie de datos primaria con valores
-      de ejemplo al gráfico.
-    text: Defina etiquetas de trimestres y añada una serie de datos primaria con valores
-      de ejemplo al gráfico.
-  - name: Cree un grupo de series secundario de tipo Line y asígnelo al grupo de ejes
-      secundarios.
-    text: Cree un grupo de series secundario de tipo Line y asígnelo al grupo de ejes
-      secundarios.
-  - name: Oculte el eje X secundario para que solo sea visible el eje Y secundario.
-    text: Oculte el eje X secundario para que solo sea visible el eje Y secundario.
-  - name: Muestre el título del eje Y secundario y establezca su texto a "Sales (USD)".
-    text: Muestre el título del eje Y secundario y establezca su texto a "Sales (USD)".
-  - name: Establezca el formato numérico del eje Y secundario a un patrón de moneda
-      con dos decimales y desvínculelo del formato de origen.
-    text: Establezca el formato numérico del eje Y secundario a un patrón de moneda
-      con dos decimales y desvínculelo del formato de origen.
-  - name: Añada una serie auxiliar al grupo secundario, proporcionando datos que se
-      trazarán contra el eje Y secundario.
-    text: Añada una serie auxiliar al grupo secundario, proporcionando datos que se
-      trazarán contra el eje Y secundario.
-  - name: Guarde el documento final en un archivo llamado ProfitChart.docx en el directorio
-      actual.
-    text: Guarde el documento final en un archivo llamado ProfitChart.docx en el directorio
-      actual.
+  - name: Cree un nuevo Document y un DocumentBuilder para comenzar a construir el
+      archivo de Word.
+    text: Cree un nuevo Document y un DocumentBuilder para comenzar a construir el
+      archivo de Word.
+  - name: Inserte un gráfico de líneas de tamaño 500×300 en el documento y obtenga
+      el objeto Chart.
+    text: Inserte un gráfico de líneas de tamaño 500×300 en el documento y obtenga
+      el objeto Chart.
+  - name: Elimine la serie de demostración predeterminada que Aspose.Words agrega
+      automáticamente.
+    text: Elimine la serie de demostración predeterminada que Aspose.Words agrega
+      automáticamente.
+  - name: Defina una matriz de etiquetas de categoría que se utilizará para el eje
+      X.
+    text: Defina una matriz de etiquetas de categoría que se utilizará para el eje
+      X.
+  - name: Agregue la serie de datos primaria llamada "Main Data" usando las etiquetas
+      y los valores.
+    text: Agregue la serie de datos primaria llamada "Main Data" usando las etiquetas
+      y los valores.
+  - name: Cree un grupo de series secundario de tipo Line y asígnelo al grupo de eje
+      secundario.
+    text: Cree un grupo de series secundario de tipo Line y asígnelo al grupo de eje
+      secundario.
+  - name: Establezca la unidad de visualización del eje X secundario en miles para
+      que los valores se muestren en K.
+    text: Establezca la unidad de visualización del eje X secundario en miles para
+      que los valores se muestren en K.
+  - name: Aplique un formato numérico personalizado "#,##0.0" a las etiquetas de marcas
+      del eje X secundario.
+    text: Aplique un formato numérico personalizado "#,##0.0" a las etiquetas de marcas
+      del eje X secundario.
+  - name: Opcionalmente, agregue una serie de datos auxiliar al grupo secundario.
+    text: Opcionalmente, agregue una serie de datos auxiliar al grupo secundario.
+  - name: Guarde el documento en un archivo .docx.
+    text: Guarde el documento en un archivo .docx.
   type: HowTo
 - questions:
-  - answer: El gráfico conservará la serie de marcador de posición predeterminada
-      que Aspose.Words inserta, por lo que su "Main Series" personalizada aparecerá
-      junto a puntos de datos no deseados.
-    question: ¿Qué ocurre si omito la llamada `lineChart.Series.Clear()`?
-  - answer: Establezca `secondarySeriesGroup.AxisX.Hidden = false;` (o simplemente
-      omita la línea que lo establece a `true`).
-    question: ¿Cómo puedo mostrar el eje X secundario en lugar de ocultarlo?
-  - answer: Sí – cambie la cadena de formato, por ejemplo `secondarySeriesGroup.AxisY.NumberFormat.FormatCode
-      = "\"€\"#,##0.00";` para euros o ajuste el patrón según su configuración regional.
-    question: ¿Puedo usar un símbolo de moneda o formato diferente para el eje Y secundario?
-  - answer: Cuando `IsLinkedToSource` es true, el eje hereda el formato numérico de
-      la fuente de datos subyacente, sobrescribiendo cualquier `FormatCode` personalizado;
-      establecerlo en false obliga al gráfico a usar el formato que usted especifica.
-    question: ¿Por qué es necesario establecer `IsLinkedToSource = false` al aplicar
-      un formato numérico personalizado?
-  - answer: Sí, asigne `secondarySeriesGroup.AxisY.Position = AxisPosition.Left;`
-      (o `Right` para el valor predeterminado) para controlar en qué lado se dibuja
-      el eje.
-    question: ¿Es posible mover el eje Y secundario al lado izquierdo del gráfico?
+  - answer: 'No: la configuración `AxisX` pertenece a `ChartSeriesGroup`, por lo que
+      puede establecer `secondaryGroup.AxisX.DisplayUnit.Unit` y `secondaryGroup.AxisX.NumberFormat.FormatCode`
+      antes o después de agregar series; la configuración se aplicará al eje del grupo
+      en cualquier caso.'
+    question: ¿Tengo que agregar la serie secundaria antes de establecer la unidad
+      de visualización y el formato numérico en el eje X secundario?
+  - answer: 'Sí: asigne cualquier valor de `AxisBuiltInUnit`, por ejemplo `secondaryGroup.AxisX.DisplayUnit.Unit
+      = AxisBuiltInUnit.Millions;` para mostrar los valores del eje en millones en
+      lugar de miles.'
+    question: ¿Puedo usar una unidad incorporada diferente, como millones, para el
+      eje X secundario?
+  - answer: 'No: el código de formato se aplica solo al eje que modifica (`secondaryGroup.AxisX.NumberFormat.FormatCode`),
+      por lo que el eje X primario conserva su formato predeterminado.'
+    question: ¿El formato personalizado "#,##0.0" afectará las etiquetas del eje X
+      primario?
+  - answer: El gráfico contendrá la serie de demostración predeterminada además de
+      las que agregue, lo que puede generar líneas extra y categorías desajustadas;
+      limpiar la colección garantiza que solo aparezcan los datos que desea.
+    question: ¿Qué ocurre si olvido limpiar la serie de demostración con `lineChart.Series.Clear();`?
   type: FAQPage
 images:
 - /net/programming-with-charts/format-secondary-axis/og-image.png
-og_title: Formatear el eje secundario de un Chart como moneda
-og_description: Aprenda a añadir un eje Y secundario a un gráfico de líneas Word y a darle estilo de moneda con dos decimales.
-og_image_alt: Captura de pantalla que muestra un gráfico de líneas Word con un eje Y secundario formateado como moneda usando Aspose.Words for .NET
+og_title: Formatear eje X secundario y establecer unidades en miles
+og_description: Agregue un eje X secundario a un gráfico de líneas de Word y formatee sus etiquetas en miles con un patrón personalizado.
+og_image_alt: Guía que muestra cómo agregar un eje X secundario a un gráfico de líneas de Word y formatear sus etiquetas para mostrar unidades en miles usando Aspose.Words para .NET
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -89,8 +93,8 @@ og_image_alt: Captura de pantalla que muestra un gráfico de líneas Word con un
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Formatear el eje Y secundario como moneda en un gráfico Word usando Aspose.Words
-En este tutorial verá cómo crear un documento Word, insertar un gráfico de líneas, añadir un eje Y secundario, formatear ese eje como moneda con dos decimales y vincularle una serie de datos secundaria usando Aspose.Words for .NET. Formatear el eje secundario como moneda le permite presentar claramente datos financieros junto a la serie primaria. Siga el código paso a paso para ver el gráfico renderizado directamente en el documento generado.
+# Formatear el eje X secundario y establecer unidades de visualización en miles en gráficos de líneas de Word usando Aspose.Words para .NET
+Este tutorial le guía paso a paso para crear un documento de Word que contiene un gráfico de líneas, agregar un eje X secundario y configurar ese eje para mostrar valores en miles. También aprenderá cómo aplicar un formato numérico personalizado a las etiquetas del eje secundario, lo que le brinda un control preciso sobre cómo se presentan los datos. Siga los pasos para mejorar la legibilidad de los gráficos de varios ejes en sus informes de Word.
 
 ---
 
@@ -128,20 +132,17 @@ En este tutorial verá cómo crear un documento Word, insertar un gráfico de l�
 
 ## Frequently asked questions
 
-**Q: ¿Qué ocurre si omito la llamada `lineChart.Series.Clear()`?**  
-A: El gráfico conservará la serie de marcador de posición predeterminada que Aspose.Words inserta, por lo que su "Main Series" personalizada aparecerá junto a puntos de datos no deseados.
+**Q: ¿Tengo que agregar la serie secundaria antes de establecer la unidad de visualización y el formato numérico en el eje X secundario?**  
+A: No: la configuración `AxisX` pertenece a `ChartSeriesGroup`, por lo que puede establecer `secondaryGroup.AxisX.DisplayUnit.Unit` y `secondaryGroup.AxisX.NumberFormat.FormatCode` antes o después de agregar series; la configuración se aplicará al eje del grupo en cualquier caso.
 
-**Q: ¿Cómo puedo mostrar el eje X secundario en lugar de ocultarlo?**  
-A: Establezca `secondarySeriesGroup.AxisX.Hidden = false;` (o simplemente omita la línea que lo establece a `true`).
+**Q: ¿Puedo usar una unidad incorporada diferente, como millones, para el eje X secundario?**  
+A: Sí: asigne cualquier valor de `AxisBuiltInUnit`, por ejemplo `secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Millions;` para mostrar los valores del eje en millones en lugar de miles.
 
-**Q: ¿Puedo usar un símbolo de moneda o formato diferente para el eje Y secundario?**  
-A: Sí – cambie la cadena de formato, por ejemplo `secondarySeriesGroup.AxisY.NumberFormat.FormatCode = "\"€\"#,##0.00";` para euros o ajuste el patrón según su configuración regional.
+**Q: ¿El formato personalizado "#,##0.0" afectará las etiquetas del eje X primario?**  
+A: No: el código de formato se aplica solo al eje que modifica (`secondaryGroup.AxisX.NumberFormat.FormatCode`), por lo que el eje X primario conserva su formato predeterminado.
 
-**Q: ¿Por qué es necesario establecer `IsLinkedToSource = false` al aplicar un formato numérico personalizado?**  
-A: Cuando `IsLinkedToSource` es true, el eje hereda el formato numérico de la fuente de datos subyacente, sobrescribiendo cualquier `FormatCode` personalizado; establecerlo en false obliga al gráfico a usar el formato que usted especifica.
-
-**Q: ¿Es posible mover el eje Y secundario al lado izquierdo del gráfico?**  
-A: Sí, asigne `secondarySeriesGroup.AxisY.Position = AxisPosition.Left;` (o `Right` para el valor predeterminado) para controlar en qué lado se dibuja el eje.
+**Q: ¿Qué ocurre si olvido limpiar la serie de demostración con `lineChart.Series.Clear();`?**  
+A: El gráfico contendrá la serie de demostración predeterminada además de las que agregue, lo que puede generar líneas extra y categorías desajustadas; limpiar la colección garantiza que solo aparezcan los datos que desea.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

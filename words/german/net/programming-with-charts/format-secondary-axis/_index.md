@@ -1,95 +1,92 @@
 ---
-title: Sekundäre Y‑Achse in einem Word‑Diagramm als Währung formatieren mit Aspose.Words for .NET
+title: Sekundäre X‑Achse formatieren und Anzeigeeinheiten auf Tausend setzen in Word‑Liniendiagrammen mit Aspose.Words für .NET
 weight: 710
 limit:
-description: Erfahren Sie, wie Sie einer Word‑Liniendiagramm eine sekundäre Y‑Achse hinzufügen und sie als Währung formatieren mit Aspose.Words for .NET.
-keywords: [Aspose.Words for .NET, format secondary axis, currency axis formatting, Word line chart secondary series, secondary Y axis .NET, chart axis number format]
+description: Erstellen Sie ein Word‑Liniendiagramm, fügen Sie eine sekundäre X‑Achse hinzu, setzen Sie deren Anzeigeeinheit auf Tausend und wenden Sie ein benutzerdefiniertes Zahlenformat mit Aspose.Words für .NET an.
+keywords: [secondary axis formatting, Aspose.Words for .NET, line chart axis units, display units thousands, custom numeric format axis, Word chart secondary X axis]
 url: /net/programming-with-charts/format-secondary-axis/
 date: '2026-10-13'
 lastmod: '2026-10-13'
 schemas:
 - author: Aspose
   dateModified: '2026-10-13'
-  description: Erfahren Sie, wie Sie einer Word‑Liniendiagramm eine sekundäre Y‑Achse
-    hinzufügen und sie als Währung formatieren mit Aspose.Words for .NET.
-  headline: Sekundäre Y‑Achse in einem Word‑Diagramm als Währung formatieren mit Aspose.Words
-    for .NET
+  description: Erstellen Sie ein Word‑Liniendiagramm, fügen Sie eine sekundäre X‑Achse
+    hinzu, setzen Sie deren Anzeigeeinheit auf Tausend und wenden Sie ein benutzerdefiniertes
+    Zahlenformat mit Aspose.Words für .NET an.
+  headline: Sekundäre X‑Achse formatieren und Anzeigeeinheiten auf Tausend setzen
+    in Word‑Liniendiagrammen mit Aspose.Words für .NET
   type: TechArticle
-- description: Erfahren Sie, wie Sie einer Word‑Liniendiagramm eine sekundäre Y‑Achse
-    hinzufügen und sie als Währung formatieren mit Aspose.Words for .NET.
-  name: Sekundäre Y‑Achse in einem Word‑Diagramm als Währung formatieren mit Aspose.Words
-    for .NET
+- description: Erstellen Sie ein Word‑Liniendiagramm, fügen Sie eine sekundäre X‑Achse
+    hinzu, setzen Sie deren Anzeigeeinheit auf Tausend und wenden Sie ein benutzerdefiniertes
+    Zahlenformat mit Aspose.Words für .NET an.
+  name: Sekundäre X‑Achse formatieren und Anzeigeeinheiten auf Tausend setzen in Word‑Liniendiagrammen
+    mit Aspose.Words für .NET
   steps:
-  - name: Erstellen Sie ein neues leeres Word‑Dokument und einen DocumentBuilder,
-      um es zu bearbeiten.
-    text: Erstellen Sie ein neues leeres Word‑Dokument und einen DocumentBuilder,
-      um es zu bearbeiten.
-  - name: Fügen Sie ein Liniendiagramm mit der Größe 450 × 250 Punkte in das Dokument
-      ein und erhalten Sie das zugehörige Chart‑Objekt.
-    text: Fügen Sie ein Liniendiagramm mit der Größe 450 × 250 Punkte in das Dokument
-      ein und erhalten Sie das zugehörige Chart‑Objekt.
-  - name: Entfernen Sie die standardmäßige Platzhalter‑Serie, die Aspose einem neuen
-      Diagramm hinzufügt.
-    text: Entfernen Sie die standardmäßige Platzhalter‑Serie, die Aspose einem neuen
-      Diagramm hinzufügt.
-  - name: Definieren Sie Quartals‑Beschriftungen und fügen Sie dem Diagramm eine primäre
-      Datenreihe mit Beispielwerten hinzu.
-    text: Definieren Sie Quartals‑Beschriftungen und fügen Sie dem Diagramm eine primäre
-      Datenreihe mit Beispielwerten hinzu.
-  - name: Erstellen Sie eine sekundäre Seriengruppe vom Typ Line und weisen Sie sie
-      der sekundären Achsengruppe zu.
-    text: Erstellen Sie eine sekundäre Seriengruppe vom Typ Line und weisen Sie sie
-      der sekundären Achsengruppe zu.
-  - name: Blenden Sie die sekundäre X‑Achse aus, sodass nur die sekundäre Y‑Achse
-      sichtbar ist.
-    text: Blenden Sie die sekundäre X‑Achse aus, sodass nur die sekundäre Y‑Achse
-      sichtbar ist.
-  - name: Zeigen Sie den Titel der sekundären Y‑Achse an und setzen Sie den Text auf
-      "Sales (USD)".
-    text: Zeigen Sie den Titel der sekundären Y‑Achse an und setzen Sie den Text auf
-      "Sales (USD)".
-  - name: Setzen Sie das Zahlenformat der sekundären Y‑Achse auf ein Währungsmuster
-      mit zwei Dezimalstellen und lösen Sie die Verknüpfung mit der Quellformatierung.
-    text: Setzen Sie das Zahlenformat der sekundären Y‑Achse auf ein Währungsmuster
-      mit zwei Dezimalstellen und lösen Sie die Verknüpfung mit der Quellformatierung.
-  - name: Fügen Sie der sekundären Gruppe eine Hilfsserie hinzu, die Daten liefert,
-      die gegen die sekundäre Y‑Achse geplottet werden.
-    text: Fügen Sie der sekundären Gruppe eine Hilfsserie hinzu, die Daten liefert,
-      die gegen die sekundäre Y‑Achse geplottet werden.
-  - name: Speichern Sie das fertige Dokument unter dem Dateinamen ProfitChart.docx
-      im aktuellen Verzeichnis.
-    text: Speichern Sie das fertige Dokument unter dem Dateinamen ProfitChart.docx
-      im aktuellen Verzeichnis.
+  - name: Erstellen Sie ein neues Document und einen DocumentBuilder, um mit dem Aufbau
+      der Word‑Datei zu beginnen.
+    text: Erstellen Sie ein neues Document und einen DocumentBuilder, um mit dem Aufbau
+      der Word‑Datei zu beginnen.
+  - name: Fügen Sie ein Liniendiagramm mit der Größe 500×300 in das Dokument ein und
+      erhalten Sie das Chart‑Objekt.
+    text: Fügen Sie ein Liniendiagramm mit der Größe 500×300 in das Dokument ein und
+      erhalten Sie das Chart‑Objekt.
+  - name: Entfernen Sie die standardmäßige Demo‑Serie, die Aspose.Words automatisch
+      hinzufügt.
+    text: Entfernen Sie die standardmäßige Demo‑Serie, die Aspose.Words automatisch
+      hinzufügt.
+  - name: Definieren Sie ein Array von Kategorienbeschriftungen, das für die X‑Achse
+      verwendet wird.
+    text: Definieren Sie ein Array von Kategorienbeschriftungen, das für die X‑Achse
+      verwendet wird.
+  - name: Fügen Sie die primäre Datenreihe mit dem Namen "Main Data" unter Verwendung
+      der Beschriftungen und Werte hinzu.
+    text: Fügen Sie die primäre Datenreihe mit dem Namen "Main Data" unter Verwendung
+      der Beschriftungen und Werte hinzu.
+  - name: Erstellen Sie eine sekundäre Series‑Group vom Typ Line und weisen Sie sie
+      der sekundären Achsen‑Group zu.
+    text: Erstellen Sie eine sekundäre Series‑Group vom Typ Line und weisen Sie sie
+      der sekundären Achsen‑Group zu.
+  - name: Setzen Sie die Anzeigeeinheit der sekundären X‑Achse auf Tausend, sodass
+      Werte in K angezeigt werden.
+    text: Setzen Sie die Anzeigeeinheit der sekundären X‑Achse auf Tausend, sodass
+      Werte in K angezeigt werden.
+  - name: Wenden Sie das benutzerdefinierte Zahlenformat "#,##0.0" auf die Tick‑Beschriftungen
+      der sekundären X‑Achse an.
+    text: Wenden Sie das benutzerdefinierte Zahlenformat "#,##0.0" auf die Tick‑Beschriftungen
+      der sekundären X‑Achse an.
+  - name: Fügen Sie optional eine Hilfsdatenreihe zur sekundären Gruppe hinzu.
+    text: Fügen Sie optional eine Hilfsdatenreihe zur sekundären Gruppe hinzu.
+  - name: Speichern Sie das Dokument als .docx‑Datei.
+    text: Speichern Sie das Dokument als .docx‑Datei.
   type: HowTo
 - questions:
-  - answer: Das Diagramm behält die standardmäßige Platzhalter‑Serie, die Aspose.Words
-      einfügt, bei, sodass Ihre benutzerdefinierte "Main Series" neben unerwünschten
-      Datenpunkten erscheint.
-    question: Was passiert, wenn ich den Aufruf `lineChart.Series.Clear()` weglasse?
-  - answer: Setzen Sie `secondarySeriesGroup.AxisX.Hidden = false;` (oder lassen Sie
-      einfach die Zeile weg, die sie auf `true` setzt).
-    question: Wie kann ich die sekundäre X‑Achse anzeigen, anstatt sie auszublenden?
-  - answer: Ja – ändern Sie die Formatzeichenfolge, z. B. `secondarySeriesGroup.AxisY.NumberFormat.FormatCode
-      = "\"€\"#,##0.00";` für Euro oder passen Sie das Muster an Ihre Locale an.
-    question: Kann ich ein anderes Währungssymbol oder Format für die sekundäre Y‑Achse
-      verwenden?
-  - answer: Wenn `IsLinkedToSource` true ist, erbt die Achse das Zahlenformat aus
-      der zugrunde liegenden Datenquelle, wodurch jedes benutzerdefinierte `FormatCode`
-      überschrieben wird; das Setzen auf false zwingt das Diagramm, das von Ihnen
-      angegebene Format zu verwenden.
-    question: Warum muss ich `IsLinkedToSource = false` setzen, wenn ich ein benutzerdefiniertes
-      Zahlenformat anwende?
-  - answer: Ja, weisen Sie `secondarySeriesGroup.AxisY.Position = AxisPosition.Left;`
-      zu (oder `Right` für die Vorgabe), um zu steuern, auf welcher Seite die Achse
-      gezeichnet wird.
-    question: Ist es möglich, die sekundäre Y‑Achse auf die linke Seite des Diagramms
-      zu verschieben?
+  - answer: Nein – die `AxisX`‑Einstellungen gehören zur `ChartSeriesGroup`, sodass
+      Sie `secondaryGroup.AxisX.DisplayUnit.Unit` und `secondaryGroup.AxisX.NumberFormat.FormatCode`
+      vor oder nach dem Hinzufügen von Serien festlegen können; die Konfiguration
+      wird in beiden Fällen auf die Achse der Gruppe angewendet.
+    question: Muss ich die sekundäre Serie hinzufügen, bevor ich die Anzeigeeinheit
+      und das Zahlenformat für die sekundäre X‑Achse festlege?
+  - answer: Ja – weisen Sie einen beliebigen `AxisBuiltInUnit`‑Wert zu, z. B. `secondaryGroup.AxisX.DisplayUnit.Unit
+      = AxisBuiltInUnit.Millions;`, um die Achsenwerte in Millionen anstelle von Tausend
+      anzuzeigen.
+    question: Kann ich für die sekundäre X‑Achse eine andere vordefinierte Einheit,
+      z. B. Millionen, verwenden?
+  - answer: Nein – der Formatcode wird nur auf die von Ihnen modifizierte Achse (`secondaryGroup.AxisX.NumberFormat.FormatCode`)
+      angewendet, sodass die primäre X‑Achse ihre Standardformatierung beibehält.
+    question: Wird das benutzerdefinierte Format `"#,##0.0"` die Beschriftungen der
+      primären X‑Achse beeinflussen?
+  - answer: Das Diagramm enthält dann zusätzlich zur von Ihnen hinzugefügten die standardmäßige
+      Demo‑Serie, was zu zusätzlichen Linien und nicht übereinstimmenden Kategorien
+      führen kann; das Leeren der Sammlung stellt sicher, dass nur die beabsichtigten
+      Daten angezeigt werden.
+    question: Was passiert, wenn ich vergesse, die Demo‑Serie mit `lineChart.Series.Clear();`
+      zu löschen?
   type: FAQPage
 images:
 - /net/programming-with-charts/format-secondary-axis/og-image.png
-og_title: Die sekundäre Achse eines Diagramms als Währung formatieren
-og_description: Erfahren Sie, wie Sie einem Word‑Liniendiagramm eine sekundäre Y‑Achse hinzufügen und sie mit zwei Dezimalstellen als Währung formatieren.
-og_image_alt: Screenshot, der ein Word‑Liniendiagramm mit einer als Währung formatierten sekundären Y‑Achse zeigt, erstellt mit Aspose.Words for .NET
+og_title: Sekundäre X‑Achse formatieren und Einheiten auf Tausend setzen
+og_description: Fügen Sie einem Word‑Liniendiagramm eine sekundäre X‑Achse hinzu und formatieren Sie deren Beschriftungen in Tausend mit einem benutzerdefinierten Muster.
+og_image_alt: Anleitung, wie man einem Word‑Liniendiagramm eine sekundäre X‑Achse hinzufügt und deren Beschriftungen mit Aspose.Words für .NET so formatiert, dass die Anzeigeeinheiten in Tausend dargestellt werden.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -98,8 +95,8 @@ og_image_alt: Screenshot, der ein Word‑Liniendiagramm mit einer als Währung f
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sekundäre Y‑Achse in einem Word‑Diagramm als Währung formatieren mit Aspose.Words
-In diesem Tutorial sehen Sie, wie Sie ein Word‑Dokument erstellen, ein Liniendiagramm einfügen, eine sekundäre Y‑Achse hinzufügen, diese Achse als Währung mit zwei Dezimalstellen formatieren und eine sekundäre Datenreihe daran binden, wobei Aspose.Words for .NET verwendet wird. Das Formatieren der sekundären Achse als Währung ermöglicht es, Finanzdaten klar neben der primären Reihe darzustellen. Folgen Sie dem Schritt‑für‑Schritt‑Code, um das Diagramm direkt im erzeugten Dokument zu sehen.
+# Sekundäre X‑Achse formatieren und Anzeigeeinheiten auf Tausend setzen in Word‑Liniendiagrammen mit Aspose.Words für .NET
+Dieses Tutorial führt Sie Schritt für Schritt durch das Erstellen eines Word‑Dokuments mit einem Liniendiagramm, das Hinzufügen einer sekundären X‑Achse und die Konfiguration dieser Achse, sodass Werte in Tausend angezeigt werden. Sie lernen außerdem, wie Sie ein benutzerdefiniertes Zahlenformat auf die Beschriftungen der sekundären Achse anwenden, um die Darstellung der Daten präzise zu steuern. Befolgen Sie die Schritte, um die Lesbarkeit von Diagrammen mit mehreren Achsen in Ihren Word‑Berichten zu verbessern.
 
 ---
 
@@ -137,20 +134,17 @@ In diesem Tutorial sehen Sie, wie Sie ein Word‑Dokument erstellen, ein Liniend
 
 ## Frequently asked questions
 
-**Q: Was passiert, wenn ich den Aufruf `lineChart.Series.Clear()` weglasse?**  
-A: Das Diagramm behält die standardmäßige Platzhalter‑Serie, die Aspose.Words einfügt, bei, sodass Ihre benutzerdefinierte "Main Series" neben unerwünschten Datenpunkten erscheint.
+**Q: Muss ich die sekundäre Serie hinzufügen, bevor ich die Anzeigeeinheit und das Zahlenformat für die sekundäre X‑Achse festlege?**  
+A: Nein – die `AxisX`‑Einstellungen gehören zur `ChartSeriesGroup`, sodass Sie `secondaryGroup.AxisX.DisplayUnit.Unit` und `secondaryGroup.AxisX.NumberFormat.FormatCode` vor oder nach dem Hinzufügen von Serien festlegen können; die Konfiguration wird in beiden Fällen auf die Achse der Gruppe angewendet.
 
-**Q: Wie kann ich die sekundäre X‑Achse anzeigen, anstatt sie auszublenden?**  
-A: Setzen Sie `secondarySeriesGroup.AxisX.Hidden = false;` (oder lassen Sie einfach die Zeile weg, die sie auf `true` setzt).
+**Q: Kann ich für die sekundäre X‑Achse eine andere vordefinierte Einheit, z. B. Millionen, verwenden?**  
+A: Ja – weisen Sie einen beliebigen `AxisBuiltInUnit`‑Wert zu, z. B. `secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Millions;`, um die Achsenwerte in Millionen anstelle von Tausend anzuzeigen.
 
-**Q: Kann ich ein anderes Währungssymbol oder Format für die sekundäre Y‑Achse verwenden?**  
-A: Ja – ändern Sie die Formatzeichenfolge, z. B. `secondarySeriesGroup.AxisY.NumberFormat.FormatCode = "\"€\"#,##0.00";` für Euro oder passen Sie das Muster an Ihre Locale an.
+**Q: Wird das benutzerdefinierte Format `"#,##0.0"` die Beschriftungen der primären X‑Achse beeinflussen?**  
+A: Nein – der Formatcode wird nur auf die von Ihnen modifizierte Achse (`secondaryGroup.AxisX.NumberFormat.FormatCode`) angewendet, sodass die primäre X‑Achse ihre Standardformatierung beibehält.
 
-**Q: Warum muss ich `IsLinkedToSource = false` setzen, wenn ich ein benutzerdefiniertes Zahlenformat anwende?**  
-A: Wenn `IsLinkedToSource` true ist, erbt die Achse das Zahlenformat aus der zugrunde liegenden Datenquelle, wodurch jedes benutzerdefinierte `FormatCode` überschrieben wird; das Setzen auf false zwingt das Diagramm, das von Ihnen angegebene Format zu verwenden.
-
-**Q: Ist es möglich, die sekundäre Y‑Achse auf die linke Seite des Diagramms zu verschieben?**  
-A: Ja, weisen Sie `secondarySeriesGroup.AxisY.Position = AxisPosition.Left;` zu (oder `Right` für die Vorgabe), um zu steuern, auf welcher Seite die Achse gezeichnet wird.
+**Q: Was passiert, wenn ich vergesse, die Demo‑Serie mit `lineChart.Series.Clear();` zu löschen?**  
+A: Das Diagramm enthält dann zusätzlich zur von Ihnen hinzugefügten die standardmäßige Demo‑Serie, was zu zusätzlichen Linien und nicht übereinstimmenden Kategorien führen kann; das Leeren der Sammlung stellt sicher, dass nur die beabsichtigten Daten angezeigt werden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

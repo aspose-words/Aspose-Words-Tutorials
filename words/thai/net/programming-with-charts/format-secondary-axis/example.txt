@@ -1,57 +1,52 @@
 //ExStart
-//ExSummary: บทแนะนำนี้แสดงวิธีสร้างเอกสาร Word, แทรกแผนภูมิเส้น, เพิ่มแกน Y รอง, จัดรูปแบบแกนนั้นเป็นสกุลเงินด้วยสองตำแหน่งทศนิยม, และเติมข้อมูลด้วยชุดข้อมูลรองโดยใช้ Aspose.Words for .NET.
-//ExStepSummary:0: สร้างเอกสาร Word ว่างใหม่และ DocumentBuilder เพื่อแก้ไขมัน.
-//ExStepSummary:1: แทรกแผนภูมิเส้นขนาด 450×250 จุดลงในเอกสารและรับอ็อบเจ็กต์ Chart ของมัน.
-//ExStepSummary:2: ลบชุดข้อมูลตัวแทนค่าเริ่มต้นที่ Aspose เพิ่มให้กับแผนภูมิใหม่.
-//ExStepSummary:3: กำหนดป้ายกำกับไตรมาสและเพิ่มชุดข้อมูลหลักพร้อมค่าตัวอย่างลงในแผนภูมิ.
-//ExStepSummary:4: สร้างกลุ่มชุดข้อมูลรองประเภท Line และกำหนดให้กับกลุ่มแกนรอง.
-//ExStepSummary:5: ซ่อนแกน X รองเพื่อให้เห็นเฉพาะแกน Y รอง.
-//ExStepSummary:6: แสดงชื่อแกน Y รองและตั้งข้อความเป็น \"Sales (USD)\".
-//ExStepSummary:7: ตั้งรูปแบบตัวเลขของแกน Y รองเป็นรูปแบบสกุลเงินที่มีสองตำแหน่งทศนิยมและยกเลิกการเชื่อมโยงกับรูปแบบแหล่งข้อมูล.
-//ExStepSummary:8: เพิ่มชุดข้อมูลเสริมไปยังกลุ่มรอง เพื่อให้ข้อมูลถูกพล็อตกับแกน Y รอง.
-//ExStepSummary:9: บันทึกเอกสารที่เสร็จแล้วเป็นไฟล์ชื่อ ProfitChart.docx ในไดเรกทอรีปัจจุบัน.
+//ExSummary: บทแนะนำนี้แสดงวิธีสร้างเอกสาร Word พร้อมแผนภูมิเส้น, เพิ่มแกน X รอง, ตั้งหน่วยการแสดงผลเป็นพัน, และใช้รูปแบบตัวเลขแบบกำหนดเองกับป้ายแกนโดยใช้ Aspose.Words.
+//ExStepSummary:0: สร้าง Document ใหม่และ DocumentBuilder เพื่อเริ่มสร้างไฟล์ Word.
+//ExStepSummary:1: แทรกแผนภูมิเส้นขนาด 500×300 ลงในเอกสารและรับอ็อบเจกต์ Chart.
+//ExStepSummary:2: ลบซีรีส์ตัวอย่างเริ่มต้นที่ Aspose.Words เพิ่มโดยอัตโนมัติ.
+//ExStepSummary:3: กำหนดอาร์เรย์ของป้ายหมวดหมู่ที่จะใช้สำหรับแกน X.
+//ExStepSummary:4: เพิ่มซีรีส์ข้อมูลหลักที่ชื่อ "Main Data" โดยใช้ป้ายและค่า.
+//ExStepSummary:5: สร้างกลุ่มซีรีส์รองประเภท Line และกำหนดให้กับกลุ่มแกนรอง.
+//ExStepSummary:6: ตั้งหน่วยการแสดงผลของแกน X รองเป็นพันเพื่อให้ค่าถูกแสดงเป็น K.
+//ExStepSummary:7: ใช้รูปแบบตัวเลขแบบกำหนดเอง "#,##0.0" กับป้ายติ๊กของแกน X รอง.
+//ExStepSummary:8: หากต้องการสามารถเพิ่มซีรีส์ข้อมูลช่วยเหลือไปยังกลุ่มรองได้.
+//ExStepSummary:9: บันทึกเอกสารเป็นไฟล์ .docx.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
-//ExStepImage:3:images/3.png
-//ExStepImage:4:images/4.png
-//ExStepImage:5:images/5.png
-//ExStepImage:6:images/6.png
-//ExStepImage:7:images/7.png
-//ExStepImage:8:images/8.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+//ExStepImage:8:images/7.png
 //ExStep:0-
-Document wordDoc = new Document();
-DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+        Document document = new Document();
+        DocumentBuilder docBuilder = new DocumentBuilder(document);
 
 //ExStep:1-
-Shape lineChartShape = docBuilder.InsertChart(ChartType.Line, 450, 250);
-Chart lineChart = lineChartShape.Chart;
+        Shape chartContainer = docBuilder.InsertChart(ChartType.Line, 500, 300);
+        Chart lineChart = chartContainer.Chart;
 
 //ExStep:2-
-lineChart.Series.Clear();
+        lineChart.Series.Clear();
 
 //ExStep:3-
-string[] quarters = new[] { "Q1", "Q2", "Q3", "Q4" };
-lineChart.Series.Add("Main Series", quarters, new double[] { 1200, 1500, 1800, 2100 });
+        string[] labels = { "Group A", "Group B", "Group C" };
 
 //ExStep:4-
-ChartSeriesGroup secondarySeriesGroup = lineChart.SeriesGroups.Add(ChartSeriesType.Line);
-secondarySeriesGroup.AxisGroup = AxisGroup.Secondary;
+        lineChart.Series.Add("Main Data", labels, new double[] { 10, 20, 30 });
 
 //ExStep:5-
-secondarySeriesGroup.AxisX.Hidden = true;
+        ChartSeriesGroup secondaryGroup = lineChart.SeriesGroups.Add(ChartSeriesType.Line);
+        secondaryGroup.AxisGroup = AxisGroup.Secondary;
 
 //ExStep:6-
-secondarySeriesGroup.AxisY.Title.Show = true;
-secondarySeriesGroup.AxisY.Title.Text = "Sales (USD)";
+        secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Thousands;
 
 //ExStep:7-
-secondarySeriesGroup.AxisY.NumberFormat.FormatCode = "\"$\"#,##0.00";
-secondarySeriesGroup.AxisY.NumberFormat.IsLinkedToSource = false;
+        secondaryGroup.AxisX.NumberFormat.FormatCode = "#,##0.0";
 
 //ExStep:8-
-secondarySeriesGroup.Series.Add("Auxiliary Series", quarters, new double[] { 3000, 3500, 4000, 4500 });
+        secondaryGroup.Series.Add("Auxiliary Data", labels, new double[] { 15, 25, 35 });
 
 //ExStep:9-
-string resultPath = Path.Combine(Directory.GetCurrentDirectory(), "ProfitChart.docx");
-wordDoc.Save(resultPath);
+        document.Save("ChartWithSecondaryAxis.docx");
 //ExEnd

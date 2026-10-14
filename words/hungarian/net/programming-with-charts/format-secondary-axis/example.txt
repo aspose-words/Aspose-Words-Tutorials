@@ -1,57 +1,52 @@
 //ExStart
-//ExSummary: Ez a bemutató azt mutatja be, hogyan hozhatunk létre Word dokumentumot, szúrhatunk be vonaldiagramot, adhatunk hozzá másodlagos Y‑tengelyt, formázhatjuk azt a tengelyt pénznemként két tizedesjeggyel, és tölthetjük fel egy másodlagos adat sorozattal az Aspose.Words for .NET segítségével.
-//ExStepSummary:0: Hozzon létre egy új, üres Word dokumentumot és egy DocumentBuilder‑t a szerkesztéséhez.
-//ExStepSummary:1: Szúrjon be egy 450×250 pont méretű vonaldiagramot a dokumentumba, és szerezze meg a hozzá tartozó Chart objektumot.
-//ExStepSummary:2: Távolítsa el az alapértelmezett helyőrző sorozatot, amelyet az Aspose egy új diagramhoz ad.
-//ExStepSummary:3: Határozza meg a negyedéves címkéket, és adjon hozzá egy elsődleges adat sorozatot mintaértékekkel a diagramhoz.
-//ExStepSummary:4: Hozzon létre egy Line típusú másodlagos sorozatcsoportot, és rendelje hozzá a másodlagos tengelycsoporthoz.
-//ExStepSummary:5: Rejtse el a másodlagos X‑tengelyt, hogy csak a másodlagos Y‑tengely legyen látható.
-//ExStepSummary:6: Jelenítse meg a másodlagos Y‑tengely címét, és állítsa be a szövegét \"Sales (USD)\"-re.
-//ExStepSummary:7: Állítsa be a másodlagos Y‑tengely számformátumát egy két tizedesjegyű pénznem mintára, és válassza le a forrásformázástól.
-//ExStepSummary:8: Adjon egy segéd sorozatot a másodlagos csoporthoz, amely adatokat biztosít a másodlagos Y‑tengelyhez.
-//ExStepSummary:9: Mentse el a kész dokumentumot a ProfitChart.docx nevű fájlba az aktuális könyvtárban.
+//ExSummary: Ez a bemutató azt mutatja be, hogyan lehet Word dokumentumot létrehozni vonaldiagrammal, hozzáadni egy másodlagos X‑tengelyt, beállítani a megjelenítési egységet ezrekre, és egy egyéni numerikus formátumot alkalmazni a tengelycímkékre az Aspose.Words használatával.
+//ExStepSummary:0: Hozzon létre egy új Document objektumot és egy DocumentBuilder-t a Word fájl építésének megkezdéséhez.
+//ExStepSummary:1: Illesszen be egy 500×300 méretű vonaldiagramot a dokumentumba, és szerezze meg a Chart objektumot.
+//ExStepSummary:2: Távolítsa el az alapértelmezett demo sorozatot, amelyet az Aspose.Words automatikusan hozzáad.
+//ExStepSummary:3: Definiáljon egy tömböt a kategória címkékkel, amelyeket az X‑tengelyhez használ.
+//ExStepSummary:4: Adja hozzá az elsődleges adat sorozatot "Main Data" névvel a címkék és értékek felhasználásával.
+//ExStepSummary:5: Hozzon létre egy másodlagos sorozatcsoportot Line típusúként, és rendelje hozzá a másodlagos tengelycsoporthoz.
+//ExStepSummary:6: Állítsa be a másodlagos X‑tengely megjelenítési egységét ezrekre, hogy az értékek K‑ban jelenjenek meg.
+//ExStepSummary:7: Alkalmazzon egy egyéni numerikus formátumot "#,##0.0" a másodlagos X‑tengely jelölőcímkéire.
+//ExStepSummary:8: Opcionálisan adjon hozzá egy segéd adat sorozatot a másodlagos csoporthoz.
+//ExStepSummary:9: Mentse a dokumentumot .docx fájlba.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
-//ExStepImage:3:images/3.png
-//ExStepImage:4:images/4.png
-//ExStepImage:5:images/5.png
-//ExStepImage:6:images/6.png
-//ExStepImage:7:images/7.png
-//ExStepImage:8:images/8.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+//ExStepImage:8:images/7.png
 //ExStep:0-
-Document wordDoc = new Document();
-DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+        Document document = new Document();
+        DocumentBuilder docBuilder = new DocumentBuilder(document);
 
 //ExStep:1-
-Shape lineChartShape = docBuilder.InsertChart(ChartType.Line, 450, 250);
-Chart lineChart = lineChartShape.Chart;
+        Shape chartContainer = docBuilder.InsertChart(ChartType.Line, 500, 300);
+        Chart lineChart = chartContainer.Chart;
 
 //ExStep:2-
-lineChart.Series.Clear();
+        lineChart.Series.Clear();
 
 //ExStep:3-
-string[] quarters = new[] { "Q1", "Q2", "Q3", "Q4" };
-lineChart.Series.Add("Main Series", quarters, new double[] { 1200, 1500, 1800, 2100 });
+        string[] labels = { "Group A", "Group B", "Group C" };
 
 //ExStep:4-
-ChartSeriesGroup secondarySeriesGroup = lineChart.SeriesGroups.Add(ChartSeriesType.Line);
-secondarySeriesGroup.AxisGroup = AxisGroup.Secondary;
+        lineChart.Series.Add("Main Data", labels, new double[] { 10, 20, 30 });
 
 //ExStep:5-
-secondarySeriesGroup.AxisX.Hidden = true;
+        ChartSeriesGroup secondaryGroup = lineChart.SeriesGroups.Add(ChartSeriesType.Line);
+        secondaryGroup.AxisGroup = AxisGroup.Secondary;
 
 //ExStep:6-
-secondarySeriesGroup.AxisY.Title.Show = true;
-secondarySeriesGroup.AxisY.Title.Text = "Sales (USD)";
+        secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Thousands;
 
 //ExStep:7-
-secondarySeriesGroup.AxisY.NumberFormat.FormatCode = "\"$\"#,##0.00";
-secondarySeriesGroup.AxisY.NumberFormat.IsLinkedToSource = false;
+        secondaryGroup.AxisX.NumberFormat.FormatCode = "#,##0.0";
 
 //ExStep:8-
-secondarySeriesGroup.Series.Add("Auxiliary Series", quarters, new double[] { 3000, 3500, 4000, 4500 });
+        secondaryGroup.Series.Add("Auxiliary Data", labels, new double[] { 15, 25, 35 });
 
 //ExStep:9-
-string resultPath = Path.Combine(Directory.GetCurrentDirectory(), "ProfitChart.docx");
-wordDoc.Save(resultPath);
+        document.Save("ChartWithSecondaryAxis.docx");
 //ExEnd

@@ -1,57 +1,52 @@
 //ExStart
-//ExSummary: Hướng dẫn này trình bày cách tạo tài liệu Word, chèn biểu đồ đường, thêm trục Y phụ, định dạng trục đó dưới dạng tiền tệ với hai chữ số thập phân, và điền dữ liệu cho một chuỗi dữ liệu phụ bằng cách sử dụng Aspose.Words for .NET.
-//ExStepSummary:0: Tạo một tài liệu Word trống mới và một DocumentBuilder để chỉnh sửa nó.
-//ExStepSummary:1: Chèn một biểu đồ đường có kích thước 450×250 điểm vào tài liệu và lấy đối tượng Chart của nó.
-//ExStepSummary:2: Xóa chuỗi placeholder mặc định mà Aspose thêm vào biểu đồ mới.
-//ExStepSummary:3: Xác định các nhãn quý và thêm một chuỗi dữ liệu chính với các giá trị mẫu vào biểu đồ.
-//ExStepSummary:4: Tạo một nhóm chuỗi phụ loại Line và gán nó cho nhóm trục phụ.
-//ExStepSummary:5: Ẩn trục X phụ để chỉ trục Y phụ hiển thị.
-//ExStepSummary:6: Hiển thị tiêu đề trục Y phụ và đặt văn bản của nó thành "Sales (USD)".
-//ExStepSummary:7: Đặt định dạng số của trục Y phụ thành mẫu tiền tệ với hai chữ số thập phân và tách nó khỏi định dạng nguồn.
-//ExStepSummary:8: Thêm một chuỗi phụ trợ vào nhóm phụ, cung cấp dữ liệu sẽ được vẽ trên trục Y phụ.
-//ExStepSummary:9: Lưu tài liệu đã hoàn thiện vào tệp có tên ProfitChart.docx trong thư mục hiện tại.
+//ExSummary: Hướng dẫn này trình bày cách tạo tài liệu Word có biểu đồ đường, thêm trục X phụ, đặt đơn vị hiển thị của nó thành hàng nghìn, và áp dụng định dạng số tùy chỉnh cho nhãn trục bằng Aspose.Words.
+//ExStepSummary:0: Tạo một Document mới và một DocumentBuilder để bắt đầu xây dựng tệp Word.
+//ExStepSummary:1: Chèn một biểu đồ đường có kích thước 500×300 vào tài liệu và lấy đối tượng Chart.
+//ExStepSummary:2: Xóa series demo mặc định mà Aspose.Words tự động thêm.
+//ExStepSummary:3: Xác định một mảng các nhãn danh mục sẽ được sử dụng cho trục X.
+//ExStepSummary:4: Thêm series dữ liệu chính có tên "Main Data" bằng cách sử dụng các nhãn và giá trị.
+//ExStepSummary:5: Tạo một nhóm series phụ loại Line và gán nó cho nhóm trục phụ.
+//ExStepSummary:6: Đặt đơn vị hiển thị của trục X phụ thành hàng nghìn để các giá trị hiển thị dưới dạng K.
+//ExStepSummary:7: Áp dụng định dạng số tùy chỉnh "#,##0.0" cho các nhãn tick của trục X phụ.
+//ExStepSummary:8: Tùy chọn, thêm một series dữ liệu phụ trợ vào nhóm phụ.
+//ExStepSummary:9: Lưu tài liệu thành tệp .docx.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
-//ExStepImage:3:images/3.png
-//ExStepImage:4:images/4.png
-//ExStepImage:5:images/5.png
-//ExStepImage:6:images/6.png
-//ExStepImage:7:images/7.png
-//ExStepImage:8:images/8.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+//ExStepImage:8:images/7.png
 //ExStep:0-
-Document wordDoc = new Document();
-DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+        Document document = new Document();
+        DocumentBuilder docBuilder = new DocumentBuilder(document);
 
 //ExStep:1-
-Shape lineChartShape = docBuilder.InsertChart(ChartType.Line, 450, 250);
-Chart lineChart = lineChartShape.Chart;
+        Shape chartContainer = docBuilder.InsertChart(ChartType.Line, 500, 300);
+        Chart lineChart = chartContainer.Chart;
 
 //ExStep:2-
-lineChart.Series.Clear();
+        lineChart.Series.Clear();
 
 //ExStep:3-
-string[] quarters = new[] { "Q1", "Q2", "Q3", "Q4" };
-lineChart.Series.Add("Main Series", quarters, new double[] { 1200, 1500, 1800, 2100 });
+        string[] labels = { "Group A", "Group B", "Group C" };
 
 //ExStep:4-
-ChartSeriesGroup secondarySeriesGroup = lineChart.SeriesGroups.Add(ChartSeriesType.Line);
-secondarySeriesGroup.AxisGroup = AxisGroup.Secondary;
+        lineChart.Series.Add("Main Data", labels, new double[] { 10, 20, 30 });
 
 //ExStep:5-
-secondarySeriesGroup.AxisX.Hidden = true;
+        ChartSeriesGroup secondaryGroup = lineChart.SeriesGroups.Add(ChartSeriesType.Line);
+        secondaryGroup.AxisGroup = AxisGroup.Secondary;
 
 //ExStep:6-
-secondarySeriesGroup.AxisY.Title.Show = true;
-secondarySeriesGroup.AxisY.Title.Text = "Sales (USD)";
+        secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Thousands;
 
 //ExStep:7-
-secondarySeriesGroup.AxisY.NumberFormat.FormatCode = "\"$\"#,##0.00";
-secondarySeriesGroup.AxisY.NumberFormat.IsLinkedToSource = false;
+        secondaryGroup.AxisX.NumberFormat.FormatCode = "#,##0.0";
 
 //ExStep:8-
-secondarySeriesGroup.Series.Add("Auxiliary Series", quarters, new double[] { 3000, 3500, 4000, 4500 });
+        secondaryGroup.Series.Add("Auxiliary Data", labels, new double[] { 15, 25, 35 });
 
 //ExStep:9-
-string resultPath = Path.Combine(Directory.GetCurrentDirectory(), "ProfitChart.docx");
-wordDoc.Save(resultPath);
+        document.Save("ChartWithSecondaryAxis.docx");
 //ExEnd

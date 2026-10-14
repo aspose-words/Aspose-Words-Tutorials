@@ -1,82 +1,81 @@
 ---
-title: Formátujte sekundární osu Y jako měnu v grafu Word pomocí Aspose.Words pro .NET
+title: Formátování sekundární osy X a nastavení zobrazovacích jednotek na tisíce v čárových grafech Word pomocí Aspose.Words pro .NET
 weight: 710
 limit:
-description: Naučte se přidat a naformátovat sekundární osu Y jako měnu v čárovém grafu Word pomocí Aspose.Words pro .NET.
-keywords: [Aspose.Words for .NET, format secondary axis, currency axis formatting, Word line chart secondary series, secondary Y axis .NET, chart axis number format]
+description: Vytvořte čárový graf Word, přidejte sekundární osu X, nastavte její zobrazovací jednotku na tisíce a použijte vlastní číselný formát pomocí Aspose.Words pro .NET.
+keywords: [secondary axis formatting, Aspose.Words for .NET, line chart axis units, display units thousands, custom numeric format axis, Word chart secondary X axis]
 url: /net/programming-with-charts/format-secondary-axis/
 date: '2026-10-13'
 lastmod: '2026-10-13'
 schemas:
 - author: Aspose
   dateModified: '2026-10-13'
-  description: Naučte se přidat a naformátovat sekundární osu Y jako měnu v čárovém
-    grafu Word pomocí Aspose.Words pro .NET.
-  headline: Formátujte sekundární osu Y jako měnu v grafu Word pomocí Aspose.Words
-    pro .NET
+  description: Vytvořte čárový graf Word, přidejte sekundární osu X, nastavte její
+    zobrazovací jednotku na tisíce a použijte vlastní číselný formát pomocí Aspose.Words
+    pro .NET.
+  headline: Formátování sekundární osy X a nastavení zobrazovacích jednotek na tisíce
+    v čárových grafech Word pomocí Aspose.Words pro .NET
   type: TechArticle
-- description: Naučte se přidat a naformátovat sekundární osu Y jako měnu v čárovém
-    grafu Word pomocí Aspose.Words pro .NET.
-  name: Formátujte sekundární osu Y jako měnu v grafu Word pomocí Aspose.Words pro
-    .NET
+- description: Vytvořte čárový graf Word, přidejte sekundární osu X, nastavte její
+    zobrazovací jednotku na tisíce a použijte vlastní číselný formát pomocí Aspose.Words
+    pro .NET.
+  name: Formátování sekundární osy X a nastavení zobrazovacích jednotek na tisíce
+    v čárových grafech Word pomocí Aspose.Words pro .NET
   steps:
-  - name: Vytvořte nový prázdný dokument Word a DocumentBuilder pro jeho úpravu.
-    text: Vytvořte nový prázdný dokument Word a DocumentBuilder pro jeho úpravu.
-  - name: Vložte čárový graf o rozměrech 450×250 bodů do dokumentu a získejte jeho
-      objekt Chart.
-    text: Vložte čárový graf o rozměrech 450×250 bodů do dokumentu a získejte jeho
-      objekt Chart.
-  - name: Odeberte výchozí zástupnou sérii, kterou Aspose přidává do nového grafu.
-    text: Odeberte výchozí zástupnou sérii, kterou Aspose přidává do nového grafu.
-  - name: Definujte štítky čtvrtletí a přidejte primární datovou sérii s ukázkovými
-      hodnotami do grafu.
-    text: Definujte štítky čtvrtletí a přidejte primární datovou sérii s ukázkovými
-      hodnotami do grafu.
+  - name: Vytvořte nový Document a DocumentBuilder pro zahájení tvorby souboru Word.
+    text: Vytvořte nový Document a DocumentBuilder pro zahájení tvorby souboru Word.
+  - name: Vložte do dokumentu čárový graf o rozměrech 500 × 300 a získejte objekt
+      Chart.
+    text: Vložte do dokumentu čárový graf o rozměrech 500 × 300 a získejte objekt
+      Chart.
+  - name: Odstraňte výchozí demonstrační sérii, kterou Aspose.Words přidává automaticky.
+    text: Odstraňte výchozí demonstrační sérii, kterou Aspose.Words přidává automaticky.
+  - name: Definujte pole štítků kategorií, které budou použity pro osu X.
+    text: Definujte pole štítků kategorií, které budou použity pro osu X.
+  - name: Přidejte primární datovou sérii pojmenovanou „Main Data“ pomocí štítků a
+      hodnot.
+    text: Přidejte primární datovou sérii pojmenovanou „Main Data“ pomocí štítků a
+      hodnot.
   - name: Vytvořte sekundární skupinu sérií typu Line a přiřaďte ji ke skupině sekundární
       osy.
     text: Vytvořte sekundární skupinu sérií typu Line a přiřaďte ji ke skupině sekundární
       osy.
-  - name: Skryjte sekundární osu X, aby byla viditelná pouze sekundární osa Y.
-    text: Skryjte sekundární osu X, aby byla viditelná pouze sekundární osa Y.
-  - name: Zobrazte název sekundární osy Y a nastavte jeho text na "Sales (USD)".
-    text: Zobrazte název sekundární osy Y a nastavte jeho text na "Sales (USD)".
-  - name: Nastavte číselný formát sekundární osy Y na měnový vzor se dvěma desetinnými
-      místy a odpojte jej od formátování zdroje.
-    text: Nastavte číselný formát sekundární osy Y na měnový vzor se dvěma desetinnými
-      místy a odpojte jej od formátování zdroje.
-  - name: Přidejte pomocnou sérii do sekundární skupiny, která poskytne data vykreslená
-      proti sekundární ose Y.
-    text: Přidejte pomocnou sérii do sekundární skupiny, která poskytne data vykreslená
-      proti sekundární ose Y.
-  - name: Uložte dokončený dokument do souboru s názvem ProfitChart.docx v aktuálním
-      adresáři.
-    text: Uložte dokončený dokument do souboru s názvem ProfitChart.docx v aktuálním
-      adresáři.
+  - name: Nastavte zobrazovací jednotku sekundární osy X na tisíce, aby se hodnoty
+      zobrazovaly v K.
+    text: Nastavte zobrazovací jednotku sekundární osy X na tisíce, aby se hodnoty
+      zobrazovaly v K.
+  - name: Použijte vlastní číselný formát "#,##0.0" na popisky značek sekundární osy
+      X.
+    text: Použijte vlastní číselný formát "#,##0.0" na popisky značek sekundární osy
+      X.
+  - name: Volitelně přidejte pomocnou datovou sérii do sekundární skupiny.
+    text: Volitelně přidejte pomocnou datovou sérii do sekundární skupiny.
+  - name: Uložte dokument do souboru .docx.
+    text: Uložte dokument do souboru .docx.
   type: HowTo
 - questions:
-  - answer: Graf si ponechá výchozí zástupnou sérii, kterou Aspose.Words vloží, takže
-      vaše vlastní „Main Series“ se objeví vedle nechtěných datových bodů.
-    question: Co se stane, pokud vynechám volání `lineChart.Series.Clear()`?
-  - answer: Nastavte `secondarySeriesGroup.AxisX.Hidden = false;` (nebo jednoduše
-      vynechejte řádek, který ji nastavuje na `true`).
-    question: Jak mohu zobrazit sekundární osu X místo jejího skrytí?
-  - answer: Ano – změňte řetězec formátu, např. `secondarySeriesGroup.AxisY.NumberFormat.FormatCode
-      = "\"€\"#,##0.00";` pro eura nebo upravte vzor podle vašeho locale.
-    question: Mohu pro sekundární osu Y použít jiný měnový symbol nebo formát?
-  - answer: Když je `IsLinkedToSource` nastaven na true, osa zdědí číselný formát
-      z podkladového zdroje dat, čímž přepíše jakýkoli vlastní `FormatCode`; nastavení
-      na false vynutí, aby graf použil formát, který určíte.
-    question: Proč potřebuji nastavit `IsLinkedToSource = false` při aplikaci vlastního
-      číselného formátu?
-  - answer: Ano, přiřaďte `secondarySeriesGroup.AxisY.Position = AxisPosition.Left;`
-      (nebo `Right` pro výchozí) k určení, na které straně bude osa vykreslena.
-    question: Je možné přesunout sekundární osu Y na levou stranu grafu?
+  - answer: Ne – nastavení `AxisX` patří k `ChartSeriesGroup`, takže můžete nastavit
+      `secondaryGroup.AxisX.DisplayUnit.Unit` a `secondaryGroup.AxisX.NumberFormat.FormatCode`
+      před nebo po přidání sérií; konfigurace se použije na osu skupiny v obou případech.
+    question: Musím přidat sekundární sérii před nastavením zobrazovací jednotky a
+      číselného formátu na sekundární osu X?
+  - answer: Ano – přiřaďte libovolnou hodnotu `AxisBuiltInUnit`, např. `secondaryGroup.AxisX.DisplayUnit.Unit
+      = AxisBuiltInUnit.Millions;` a tím zobrazíte hodnoty osy v milionech místo tisíců.
+    question: Mohu pro sekundární osu X použít jinou vestavěnou jednotku, například
+      miliony?
+  - answer: Ne – kód formátu se použije pouze na osu, kterou upravujete (`secondaryGroup.AxisX.NumberFormat.FormatCode`),
+      takže primární osa X si zachová výchozí formátování.
+    question: Ovlivní vlastní formát `"#,##0.0"` popisky primární osy X?
+  - answer: Graf bude obsahovat výchozí demonstrační sérii vedle těch, které přidáte,
+      což může vést k nadbytečným čarám a nesouladu kategorií; vymazání kolekce zajistí,
+      že se zobrazí pouze zamýšlená data.
+    question: Co se stane, pokud zapomenu vymazat demonstrační sérii pomocí `lineChart.Series.Clear();`?
   type: FAQPage
 images:
 - /net/programming-with-charts/format-secondary-axis/og-image.png
-og_title: Formátujte sekundární osu grafu jako měnu
-og_description: Naučte se přidat sekundární osu Y do čárového grafu Word a stylizovat ji jako měnu se dvěma desetinnými místy.
-og_image_alt: Snímek obrazovky zobrazující čárový graf Word se sekundární osou Y formátovanou jako měna pomocí Aspose.Words pro .NET
+og_title: Formátování sekundární osy X a nastavení jednotek na tisíce
+og_description: Přidejte sekundární osu X do čárového grafu Word a naformátujte její popisky v tisících pomocí vlastního vzoru.
+og_image_alt: Průvodce ukazující, jak přidat sekundární osu X do čárového grafu Word a naformátovat její popisky tak, aby zobrazovaly jednotky v tisících pomocí Aspose.Words pro .NET
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -85,8 +84,8 @@ og_image_alt: Snímek obrazovky zobrazující čárový graf Word se sekundárn�
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Formátujte sekundární osu Y jako měnu v grafu Word pomocí Aspose.Words pro .NET
-Cílem tohoto tutoriálu je ukázat, jak vytvořit dokument Word, vložit čárový graf, přidat sekundární osu Y, naformátovat tuto osu jako měnu se dvěma desetinnými místy a svázat s ní sekundární datovou sérii pomocí Aspose.Words pro .NET. Formátování sekundární osy jako měny vám umožní jasně prezentovat finanční data vedle primární série. Postupujte podle krok‑za‑krokem kódu a uvidíte graf vykreslený přímo v generovaném dokumentu.
+# Formátování sekundární osy X a nastavení zobrazovacích jednotek na tisíce v čárových grafech Word pomocí Aspose.Words pro .NET
+Tento tutoriál vás provede vytvořením dokumentu Word, který obsahuje čárový graf, přidáním sekundární osy X a nastavením této osy tak, aby zobrazovala hodnoty v tisících. Také se naučíte, jak použít vlastní číselný formát na popisky sekundární osy, což vám poskytne přesnou kontrolu nad tím, jak jsou data prezentována. Postupujte podle kroků a zlepšete čitelnost víceosých grafů ve svých Word zprávách.
 
 ---
 
@@ -124,20 +123,17 @@ Cílem tohoto tutoriálu je ukázat, jak vytvořit dokument Word, vložit čáro
 
 ## Frequently asked questions
 
-**Q: Co se stane, pokud vynechám volání `lineChart.Series.Clear()`?**  
-A: Graf si ponechá výchozí zástupnou sérii, kterou Aspose.Words vloží, takže vaše vlastní „Main Series“ se objeví vedle nechtěných datových bodů.
+**Q: Musím přidat sekundární sérii před nastavením zobrazovací jednotky a číselného formátu na sekundární osu X?**  
+A: Ne – nastavení `AxisX` patří k `ChartSeriesGroup`, takže můžete nastavit `secondaryGroup.AxisX.DisplayUnit.Unit` a `secondaryGroup.AxisX.NumberFormat.FormatCode` před nebo po přidání sérií; konfigurace se použije na osu skupiny v obou případech.
 
-**Q: Jak mohu zobrazit sekundární osu X místo jejího skrytí?**  
-A: Nastavte `secondarySeriesGroup.AxisX.Hidden = false;` (nebo jednoduše vynechejte řádek, který ji nastavuje na `true`).
+**Q: Mohu pro sekundární osu X použít jinou vestavěnou jednotku, například miliony?**  
+A: Ano – přiřaďte libovolnou hodnotu `AxisBuiltInUnit`, např. `secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Millions;` a tím zobrazíte hodnoty osy v milionech místo tisíců.
 
-**Q: Mohu pro sekundární osu Y použít jiný měnový symbol nebo formát?**  
-A: Ano – změňte řetězec formátu, např. `secondarySeriesGroup.AxisY.NumberFormat.FormatCode = "\"€\"#,##0.00";` pro eura nebo upravte vzor podle vašeho locale.
+**Q: Ovlivní vlastní formát `"#,##0.0"` popisky primární osy X?**  
+A: Ne – kód formátu se použije pouze na osu, kterou upravujete (`secondaryGroup.AxisX.NumberFormat.FormatCode`), takže primární osa X si zachová výchozí formátování.
 
-**Q: Proč potřebuji nastavit `IsLinkedToSource = false` při aplikaci vlastního číselného formátu?**  
-A: Když je `IsLinkedToSource` nastaven na true, osa zdědí číselný formát z podkladového zdroje dat, čímž přepíše jakýkoli vlastní `FormatCode`; nastavení na false vynutí, aby graf použil formát, který určíte.
-
-**Q: Je možné přesunout sekundární osu Y na levou stranu grafu?**  
-A: Ano, přiřaďte `secondarySeriesGroup.AxisY.Position = AxisPosition.Left;` (nebo `Right` pro výchozí) k určení, na které straně bude osa vykreslena.
+**Q: Co se stane, pokud zapomenu vymazat demonstrační sérii pomocí `lineChart.Series.Clear();`?**  
+A: Graf bude obsahovat výchozí demonstrační sérii vedle těch, které přidáte, což může vést k nadbytečným čarám a nesouladu kategorií; vymazání kolekce zajistí, že se zobrazí pouze zamýšlená data.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

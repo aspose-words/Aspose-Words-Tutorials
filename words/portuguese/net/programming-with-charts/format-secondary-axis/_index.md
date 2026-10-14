@@ -1,85 +1,87 @@
 ---
-title: Formatar o eixo Y secundário como moeda em um gráfico Word usando Aspose.Words for .NET
+title: Formate o eixo X secundário e defina unidades de exibição para milhares em gráficos de linhas do Word usando Aspose.Words para .NET
 weight: 710
 limit:
-description: Aprenda a adicionar e formatar um eixo Y secundário como moeda em um gráfico de linhas Word com Aspose.Words for .NET.
-keywords: [Aspose.Words for .NET, format secondary axis, currency axis formatting, Word line chart secondary series, secondary Y axis .NET, chart axis number format]
+description: Crie um gráfico de linhas Word, adicione um eixo X secundário, defina sua unidade de exibição para milhares e aplique um formato numérico personalizado com Aspose.Words para .NET.
+keywords: [secondary axis formatting, Aspose.Words for .NET, line chart axis units, display units thousands, custom numeric format axis, Word chart secondary X axis]
 url: /net/programming-with-charts/format-secondary-axis/
 date: '2026-10-13'
 lastmod: '2026-10-13'
 schemas:
 - author: Aspose
   dateModified: '2026-10-13'
-  description: Aprenda a adicionar e formatar um eixo Y secundário como moeda em um
-    gráfico de linhas Word com Aspose.Words for .NET.
-  headline: Formatar o eixo Y secundário como moeda em um gráfico Word usando Aspose.Words
-    for .NET
+  description: Crie um gráfico de linhas Word, adicione um eixo X secundário, defina
+    sua unidade de exibição para milhares e aplique um formato numérico personalizado
+    com Aspose.Words para .NET.
+  headline: Formate o eixo X secundário e defina unidades de exibição para milhares
+    em gráficos de linhas do Word usando Aspose.Words para .NET
   type: TechArticle
-- description: Aprenda a adicionar e formatar um eixo Y secundário como moeda em um
-    gráfico de linhas Word com Aspose.Words for .NET.
-  name: Formatar o eixo Y secundário como moeda em um gráfico Word usando Aspose.Words
-    for .NET
+- description: Crie um gráfico de linhas Word, adicione um eixo X secundário, defina
+    sua unidade de exibição para milhares e aplique um formato numérico personalizado
+    com Aspose.Words para .NET.
+  name: Formate o eixo X secundário e defina unidades de exibição para milhares em
+    gráficos de linhas do Word usando Aspose.Words para .NET
   steps:
-  - name: Crie um novo documento Word vazio e um DocumentBuilder para editá-lo.
-    text: Crie um novo documento Word vazio e um DocumentBuilder para editá-lo.
-  - name: Inserir um gráfico de linhas com tamanho de 450×250 pontos no documento
-      e obter seu objeto Chart.
-    text: Inserir um gráfico de linhas com tamanho de 450×250 pontos no documento
-      e obter seu objeto Chart.
-  - name: Remova a série de espaço reservado padrão que o Aspose adiciona a um novo
-      gráfico.
-    text: Remova a série de espaço reservado padrão que o Aspose adiciona a um novo
-      gráfico.
-  - name: Defina rótulos de trimestre e adicione uma série de dados primária com valores
-      de exemplo ao gráfico.
-    text: Defina rótulos de trimestre e adicione uma série de dados primária com valores
-      de exemplo ao gráfico.
-  - name: Crie um grupo de séries secundário do tipo Line e atribua‑o ao grupo de
+  - name: Crie um novo Document e um DocumentBuilder para começar a construir o arquivo
+      Word.
+    text: Crie um novo Document e um DocumentBuilder para começar a construir o arquivo
+      Word.
+  - name: Insira um gráfico de linhas com tamanho 500×300 no documento e obtenha o
+      objeto Chart.
+    text: Insira um gráfico de linhas com tamanho 500×300 no documento e obtenha o
+      objeto Chart.
+  - name: Remova a série de demonstração padrão que o Aspose.Words adiciona automaticamente.
+    text: Remova a série de demonstração padrão que o Aspose.Words adiciona automaticamente.
+  - name: Defina um array de rótulos de categoria que será usado para o eixo X.
+    text: Defina um array de rótulos de categoria que será usado para o eixo X.
+  - name: Adicione a série de dados primária chamada "Main Data" usando os rótulos
+      e valores.
+    text: Adicione a série de dados primária chamada "Main Data" usando os rótulos
+      e valores.
+  - name: Crie um grupo de séries secundário do tipo Line e atribua-o ao grupo de
       eixo secundário.
-    text: Crie um grupo de séries secundário do tipo Line e atribua‑o ao grupo de
+    text: Crie um grupo de séries secundário do tipo Line e atribua-o ao grupo de
       eixo secundário.
-  - name: Oculte o eixo X secundário para que apenas o eixo Y secundário fique visível.
-    text: Oculte o eixo X secundário para que apenas o eixo Y secundário fique visível.
-  - name: Exiba o título do eixo Y secundário e defina seu texto como "Sales (USD)".
-    text: Exiba o título do eixo Y secundário e defina seu texto como "Sales (USD)".
-  - name: Defina o formato numérico do eixo Y secundário como um padrão de moeda com
-      duas casas decimais e desvincule‑lo da formatação de origem.
-    text: Defina o formato numérico do eixo Y secundário como um padrão de moeda com
-      duas casas decimais e desvincule‑lo da formatação de origem.
-  - name: Adicione uma série auxiliar ao grupo secundário, fornecendo dados que serão
-      plotados contra o eixo Y secundário.
-    text: Adicione uma série auxiliar ao grupo secundário, fornecendo dados que serão
-      plotados contra o eixo Y secundário.
-  - name: Salve o documento finalizado em um arquivo chamado ProfitChart.docx no diretório
-      atual.
-    text: Salve o documento finalizado em um arquivo chamado ProfitChart.docx no diretório
-      atual.
+  - name: Defina a unidade de exibição do eixo X secundário para milhares, de modo
+      que os valores sejam mostrados em K.
+    text: Defina a unidade de exibição do eixo X secundário para milhares, de modo
+      que os valores sejam mostrados em K.
+  - name: Aplique o formato numérico personalizado "#,##0.0" aos rótulos de marcação
+      do eixo X secundário.
+    text: Aplique o formato numérico personalizado "#,##0.0" aos rótulos de marcação
+      do eixo X secundário.
+  - name: Opcionalmente, adicione uma série de dados auxiliar ao grupo secundário.
+    text: Opcionalmente, adicione uma série de dados auxiliar ao grupo secundário.
+  - name: Salve o documento em um arquivo .docx.
+    text: Salve o documento em um arquivo .docx.
   type: HowTo
 - questions:
-  - answer: O gráfico manterá a série de espaço reservado padrão que o Aspose.Words
-      insere, de modo que sua "Main Series" personalizada aparecerá junto a pontos
-      de dados indesejados.
-    question: O que acontece se eu omitir a chamada `lineChart.Series.Clear()`?
-  - answer: Defina `secondarySeriesGroup.AxisX.Hidden = false;` (ou simplesmente omita
-      a linha que o define como `true`).
-    question: Como posso exibir o eixo X secundário em vez de ocultá‑lo?
-  - answer: Sim – altere a string de formato, por exemplo `secondarySeriesGroup.AxisY.NumberFormat.FormatCode
-      = "\\\"€\\\"#,##0.00";` para euros ou ajuste o padrão para atender ao seu locale.
-    question: Posso usar um símbolo de moeda ou formato diferente para o eixo Y secundário?
-  - answer: Quando `IsLinkedToSource` está true, o eixo herda o formato numérico da
-      fonte de dados subjacente, sobrescrevendo qualquer `FormatCode` personalizado;
-      defini‑lo como false força o gráfico a usar o formato que você especificar.
-    question: Por que preciso definir `IsLinkedToSource = false` ao aplicar um formato
-      numérico personalizado?
-  - answer: Sim, atribua `secondarySeriesGroup.AxisY.Position = AxisPosition.Left;`
-      (ou `Right` para o padrão) para controlar em qual lado o eixo é desenhado.
-    question: É possível mover o eixo Y secundário para o lado esquerdo do gráfico?
+  - answer: Não – as configurações de `AxisX` pertencem ao `ChartSeriesGroup`, portanto
+      você pode definir `secondaryGroup.AxisX.DisplayUnit.Unit` e `secondaryGroup.AxisX.NumberFormat.FormatCode`
+      antes ou depois de adicionar as séries; a configuração será aplicada ao eixo
+      do grupo de qualquer forma.
+    question: Preciso adicionar a série secundária antes de definir a unidade de exibição
+      e o formato numérico no eixo X secundário?
+  - answer: Sim – atribua qualquer valor de `AxisBuiltInUnit`, por exemplo `secondaryGroup.AxisX.DisplayUnit.Unit
+      = AxisBuiltInUnit.Millions;` para exibir os valores do eixo em milhões em vez
+      de milhares.
+    question: Posso usar uma unidade interna diferente, como milhões, para o eixo
+      X secundário?
+  - answer: Não – o código de formato é aplicado apenas ao eixo que você modifica
+      (`secondaryGroup.AxisX.NumberFormat.FormatCode`), portanto o eixo X primário
+      mantém sua formatação padrão.
+    question: O formato personalizado "#,##0.0" afetará os rótulos do eixo X primário?
+  - answer: O gráfico conterá a série de demonstração padrão além das que você adicionou,
+      o que pode gerar linhas extras e categorias incompatíveis; limpar a coleção
+      garante que apareçam apenas os dados pretendidos.
+    question: O que acontece se eu esquecer de limpar a série de demonstração com
+      `lineChart.Series.Clear();`?
   type: FAQPage
 images:
 - /net/programming-with-charts/format-secondary-axis/og-image.png
-og_title: Formatar o eixo secundário de um Chart como moeda
-og_description: Aprenda a adicionar um eixo Y secundário a um gráfico de linhas Word e estilizar‑lo como moeda com duas casas decimais.
-og_image_alt: Captura de tela mostrando um gráfico de linhas Word com um eixo Y secundário formatado como moeda usando Aspose.Words for .NET
+og_title: Formate o eixo X secundário e defina unidades para milhares
+og_description: Adicione um eixo X secundário a um gráfico de linhas Word e formate seus rótulos em milhares com um padrão personalizado.
+og_image_alt: Guia que mostra como adicionar um eixo X secundário a um gráfico de linhas Word e formatar seus rótulos para exibir unidades em milhares usando Aspose.Words para .NET
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -88,8 +90,8 @@ og_image_alt: Captura de tela mostrando um gráfico de linhas Word com um eixo Y
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Formatar o eixo Y secundário como moeda em um gráfico Word usando Aspose.Words
-Neste tutorial você verá como criar um documento Word, inserir um gráfico de linhas, adicionar um eixo Y secundário, formatar esse eixo como moeda com duas casas decimais e vincular a ele uma série de dados secundária usando Aspose.Words for .NET. Formatar o eixo secundário como moeda permite apresentar claramente dados financeiros ao lado da série primária. Siga o código passo a passo para ver o gráfico renderizado diretamente no documento gerado.
+# Formate o eixo X secundário e defina unidades de exibição para milhares em gráficos de linhas do Word usando Aspose.Words para .NET
+Este tutorial orienta você na criação de um documento Word que contém um gráfico de linhas, na adição de um eixo X secundário e na configuração desse eixo para exibir valores em milhares. Você também aprenderá a aplicar um formato numérico personalizado aos rótulos do eixo secundário, proporcionando controle preciso sobre como os dados são apresentados. Siga os passos para melhorar a legibilidade de gráficos com múltiplos eixos em seus relatórios Word.
 
 ---
 
@@ -127,20 +129,17 @@ Neste tutorial você verá como criar um documento Word, inserir um gráfico de 
 
 ## Frequently asked questions
 
-**Q: O que acontece se eu omitir a chamada `lineChart.Series.Clear()`?**  
-A: O gráfico manterá a série de espaço reservado padrão que o Aspose.Words insere, de modo que sua "Main Series" personalizada aparecerá junto a pontos de dados indesejados.
+**Q: Preciso adicionar a série secundária antes de definir a unidade de exibição e o formato numérico no eixo X secundário?**  
+A: Não – as configurações de `AxisX` pertencem ao `ChartSeriesGroup`, portanto você pode definir `secondaryGroup.AxisX.DisplayUnit.Unit` e `secondaryGroup.AxisX.NumberFormat.FormatCode` antes ou depois de adicionar as séries; a configuração será aplicada ao eixo do grupo de qualquer forma.
 
-**Q: Como posso exibir o eixo X secundário em vez de ocultá‑lo?**  
-A: Defina `secondarySeriesGroup.AxisX.Hidden = false;` (ou simplesmente omita a linha que o define como `true`).
+**Q: Posso usar uma unidade interna diferente, como milhões, para o eixo X secundário?**  
+A: Sim – atribua qualquer valor de `AxisBuiltInUnit`, por exemplo `secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Millions;` para exibir os valores do eixo em milhões em vez de milhares.
 
-**Q: Posso usar um símbolo de moeda ou formato diferente para o eixo Y secundário?**  
-A: Sim – altere a string de formato, por exemplo `secondarySeriesGroup.AxisY.NumberFormat.FormatCode = "\\\"€\\\"#,##0.00";` para euros ou ajuste o padrão para atender ao seu locale.
+**Q: O formato personalizado "#,##0.0" afetará os rótulos do eixo X primário?**  
+A: Não – o código de formato é aplicado apenas ao eixo que você modifica (`secondaryGroup.AxisX.NumberFormat.FormatCode`), portanto o eixo X primário mantém sua formatação padrão.
 
-**Q: Por que preciso definir `IsLinkedToSource = false` ao aplicar um formato numérico personalizado?**  
-A: Quando `IsLinkedToSource` está true, o eixo herda o formato numérico da fonte de dados subjacente, sobrescrevendo qualquer `FormatCode` personalizado; defini‑lo como false força o gráfico a usar o formato que você especificar.
-
-**Q: É possível mover o eixo Y secundário para o lado esquerdo do gráfico?**  
-A: Sim, atribua `secondarySeriesGroup.AxisY.Position = AxisPosition.Left;` (ou `Right` para o padrão) para controlar em qual lado o eixo é desenhado.
+**Q: O que acontece se eu esquecer de limpar a série de demonstração com `lineChart.Series.Clear();`?**  
+A: O gráfico conterá a série de demonstração padrão além das que você adicionou, o que pode gerar linhas extras e categorias incompatíveis; limpar a coleção garante que apareçam apenas os dados pretendidos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
