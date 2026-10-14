@@ -1,0 +1,7 @@
+Title: Convert docx to markdown & save images from docx
+Slug: convert-docx-to-markdown-save-images-from-docx
+Category: programming-with-markdownsaveoptions
+ProcessedDate: 2026-06-27T14:33:07.040209
+SourceRepo: AI Search API
+Keywords: convert docx to markdown, save images from docx, extract images from word file, export word document as markdown
+PRNumber: 213

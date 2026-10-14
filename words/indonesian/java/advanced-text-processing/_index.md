@@ -64,6 +64,9 @@ Pelajari cara mengelola dan menyisipkan **control characters** dalam dokumen men
 ### [Menguasai Aspose.Words Java&#58; Panduan Lengkap untuk LayoutCollector & LayoutEnumerator untuk Pemrosesan Teks](./aspose-words-java-layoutcollector-enumerator-guide/)
 Manfaatkan kekuatan **LayoutCollector** dan **LayoutEnumerator** Aspose.Words Java untuk pemrosesan teks lanjutan. Pelajari cara mengelola tata letak dokumen secara efisien, menganalisis pagination, dan mengontrol penomoran halaman.
 
+### [Buat bentuk persegi panjang di Word dengan C# – Panduan Langkah‑ demi‑ Langkah](./create-rectangle-shape-in-word-with-c-step-by-step-guide/)
+Pelajari cara membuat bentuk persegi panjang di dokumen Word menggunakan C# dengan panduan langkah demi langkah.
+
 ## Kasus Penggunaan Umum
 
 | Skenario | Bagaimana Membantu |

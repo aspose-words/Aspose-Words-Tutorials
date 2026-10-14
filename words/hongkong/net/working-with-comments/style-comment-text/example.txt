@@ -1,0 +1,64 @@
+//ExStart
+//ExSummary: 使用 Aspose.Words 的 Document、DocumentBuilder、Comment 以及 Style 類別，本教學在 Word 檔案中建立批註，並將自訂段落樣式套用至每個批註段落，使批註文字符合企業品牌。
+//ExStepSummary:0: 建立一個新的空白 Document，並使用 DocumentBuilder 進行編輯。
+//ExStepSummary:1: 在文件中插入兩個範例句子。
+//ExStepSummary:2: 由 Carol 建立批註，設定批註文字，移至文件開頭，並將該批註附加至第一段落。
+//ExStepSummary:3: 由 Dave 建立批註，設定批註文字，移至文件結尾，並將該批註附加至最後一段落。
+//ExStepSummary:4: 定義一個名為「BrandComment」的自訂段落樣式，使用 Arial、10 點、深藍色、粗體格式，以符合企業品牌。
+//ExStepSummary:5: 將文件中所有 Comment 節點收集到清單中。
+//ExStepSummary:6: 遍歷每個批註，並將 BrandComment 樣式套用至批註內的每個段落。
+//ExStepSummary:7: 如有需要，建立 Results 資料夾，並將修改後的文件儲存為 StyledCommentsDocument.docx。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:6:images/4.png
+//ExStep:0-
+Document document = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(document);
+
+//ExStep:1-
+docBuilder.Writeln("Introductory line for the file.");
+docBuilder.Writeln("Follow‑up line for the file.");
+
+//ExStep:2-
+Comment remarkOne = new Comment(document, "Carol", "C", DateTime.Now);
+remarkOne.SetText("Preliminary assessment note.");
+docBuilder.MoveToDocumentStart();
+docBuilder.CurrentParagraph.AppendChild(remarkOne);
+
+//ExStep:3-
+Comment remarkTwo = new Comment(document, "Dave", "D", DateTime.Now);
+remarkTwo.SetText("Further clarification required.");
+docBuilder.MoveToDocumentEnd();
+docBuilder.CurrentParagraph.AppendChild(remarkTwo);
+
+//ExStep:4-
+Style brandCommentStyle = document.Styles.Add(StyleType.Paragraph, "BrandComment");
+brandCommentStyle.Font.Name = "Arial";
+brandCommentStyle.Font.Size = 10;
+brandCommentStyle.Font.Color = Color.DarkBlue;
+brandCommentStyle.Font.Bold = true;
+
+//ExStep:5-
+var allComments = document.GetChildNodes(NodeType.Comment, true)
+                                 .OfType<Comment>()
+                                 .ToList();
+
+//ExStep:6-
+foreach (Comment commentNode in allComments)
+{
+    if (commentNode.Paragraphs.Count == 0)
+        commentNode.EnsureMinimum();
+
+    foreach (Paragraph para in commentNode.Paragraphs)
+    {
+        para.ParagraphFormat.Style = brandCommentStyle;
+    }
+}
+
+//ExStep:7-
+string resultFolder = Path.Combine(Directory.GetCurrentDirectory(), "Results");
+Directory.CreateDirectory(resultFolder);
+string resultFile = Path.Combine(resultFolder, "StyledCommentsDocument.docx");
+document.Save(resultFile);
+//ExEnd

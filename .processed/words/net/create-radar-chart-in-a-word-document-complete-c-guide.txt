@@ -1,0 +1,7 @@
+Title: create radar chart in a Word document – complete C# guide
+Slug: create-radar-chart-in-a-word-document-complete-c-guide
+Category: programming-with-charts
+ProcessedDate: 2026-08-11T07:19:03.827117
+SourceRepo: AI Search API
+Keywords: create radar chart, insert chart into word document, how to insert radar chart
+PRNumber: 249
