@@ -26,7 +26,7 @@ tags:
 - Aspose.Words
 - FontSettings
 - DocumentProcessing
-title: Register Warning Callback in Aspose.Words for Java – Complete Programming Guide
+title: Register Warning Callback using Aspose.Words for Java API – Complete Programming Guide
 url: /java/document-rendering/register-warning-callback-in-java-complete-programming-guide/
 ---
 
@@ -235,11 +235,12 @@ Happy coding, and may your PDFs always render exactly as intended!
 
 ## Related Tutorials
 
-- {{< relref "/words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/" >}}Capture Font Substitution Warnings in Aspose.Words for Java – Complete Guide{{< /relref >}}
-- {{< relref "/words/english/net/programming-with-loadoptions/warning-callback/" >}}Warning Callback In Word Document{{< /relref >}}
-- {{< relref "/words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide/" >}}How to Load DOCX and Detect Missing Fonts – Complete C# Guide{{< /relref >}}
+- {{< relref "words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words" >}}Capture Font Substitution Warnings in Aspose.Words for Java – Complete Guide{{< /relref >}}
+- {{< relref "words/english/net/programming-with-loadoptions/warning-callback" >}}Warning Callback In Word Document{{< /relref >}}
+- {{< relref "words/english/net/working-with-fonts/how-to-load-docx-and-detect-missing-fonts-complete-c-guide" >}}How to Load DOCX and Detect Missing Fonts – Complete C# Guide{{< /relref >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}

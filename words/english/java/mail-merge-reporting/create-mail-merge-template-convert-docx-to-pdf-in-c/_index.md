@@ -34,7 +34,7 @@ tags:
 - DOCX
 - PDF
 - Mail Merge
-title: Create Mail Merge Template & Convert DOCX to PDF in C# with LowCode
+title: Create Mail Merge Template & Convert DOCX to PDF in C# using LowCode API
 url: /java/mail-merge-reporting/create-mail-merge-template-convert-docx-to-pdf-in-c/
 ---
 
@@ -255,11 +255,12 @@ class Program
 
 ## Related Tutorials
 
-- [Create Accessible PDF from Word with C# – Step‑by‑Step Guide](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
-- [Convert Word to PDF in C# using Aspose.Words – Guide](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
-- [Create Accessible PDF – Step‑by‑Step Guide for PDF/UA Compliance](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
+- [Create Accessible PDF from Word with C# – Step‑by‑Step Guide](words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
+- [Convert Word to PDF in C# using Aspose.Words – Guide](words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
+- [Create Accessible PDF – Step‑by‑Step Guide for PDF/UA Compliance](words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -46,7 +46,7 @@ tags:
 - Aspose.Words
 - Java
 - Word Automation
-title: Apply shadow to shape in Java using Aspose.Words – Complete Programming Guide
+title: Add shadow to shape in Java using Aspose.Words – Complete Programming Guide
 url: /java/images-shapes/add-shadow-to-shape-in-java-complete-programming-guide/
 ---
 
@@ -54,7 +54,7 @@ url: /java/images-shapes/add-shadow-to-shape-in-java-complete-programming-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Apply shadow to shape in Java using Aspose.Words – Complete Programming Guide
+# Add shadow to shape in Java using Aspose.Words – Complete Programming Guide
 
 Ever needed to **add shadow to shape** in a Word document but weren’t sure where to start? In this guide we’ll walk through loading a Word document, tweaking the shadow’s blur, angle, and even swapping the shadow color—all with clean Java code.
 
@@ -242,9 +242,9 @@ Happy coding, and feel free to drop a comment if you hit any snags!
 
 ## Related Tutorials
 
-- {{< relref "../create-word-document-java-add-rectangle-shape-with-shadow-ef" >}}Create Word Document Java – Add Rectangle Shape with Shadow Effect{{< /relref >}}
-- {{< relref "../adding-content-using-documentbuilder" >}}How to create form fields and add content using DocumentBuilder in Aspose.Words for Java{{< /relref >}}
-- {{< relref "../using-watermarks-to-documents" >}}How to Add Watermark to Documents Using Aspose.Words for Java{{< /relref >}}
+- [Create Word Document Java – Add Rectangle Shape with Shadow Effect](../create-word-document-java-add-rectangle-shape-with-shadow-ef)
+- [How to create form fields and add content using DocumentBuilder in Aspose.Words for Java](../adding-content-using-documentbuilder)
+- [How to Add Watermark to Documents Using Aspose.Words for Java](../using-watermarks-to-documents)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

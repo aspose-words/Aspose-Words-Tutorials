@@ -25,7 +25,7 @@ tags:
 - Aspose.Words
 - Java
 - Document Recovery
-title: Recover Corrupted DOCX Using Aspose.Words for Java – Complete Guide
+title: Recover Corrupted DOCX with Aspose.Words for Java LoadOptions – Complete Guide
 url: /java/document-loading-and-saving/recover-corrupted-docx-with-aspose-words-for-java-complete-g/
 ---
 
@@ -238,7 +238,7 @@ Got questions or a tricky file you can’t crack? Drop a comment below, and happ
 - [How to Load HTML and Save as DOCX using Aspose.Words for Java](/words/english/java/document-loading-and-saving/loading-and-saving-html-documents/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

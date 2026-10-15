@@ -1,6 +1,6 @@
 ---
-title: Render Word Documents with Aspose.Words for Java
-linktitle: Render Word Documents with Aspose.Words for Java
+title: Render Word Documents to PDF, XPS, HTML with Aspose.Words for Java
+linktitle: Render Word Documents to PDF, XPS, HTML with Aspose.Words for Java
 second_title: Aspose.Words Java Document Processing API
 description: Efficiently render Word documents to PDF, XPS, HTML, and images in Java using Aspose.Words for Java. Master document rendering for professional outputs.
 weight: 16
@@ -34,25 +34,25 @@ doc.save("output.pdf", SaveFormat.PDF);
 Render documents effortlessly with Aspose.Words for Java's tutorials on document rendering. These guides offer a comprehensive exploration of rendering options, allowing you to convert Word documents into different formats while preserving their layout and design. Learn how to render documents in batches, customize output settings, and optimize rendering performance. Aspose.Words for Java empowers you to create visually stunning outputs and efficiently manage word processing and document processing tasks. Elevate your document rendering skills and unlock new possibilities with Aspose.Words for Java.
 
 ## Document rendering tutorials
-### [Master Document Rendering](./master-document-rendering/)
+### [Master document rendering]({{< relref "master-document-rendering/_index.md" >}})
 Learn document rendering with Aspose.Words for Java! Step-by-step tutorial, source code included. Enhance apps with seamless document processing.
-### [Rendering document pages as images](./rendering-document-pages-images/)
+### [Rendering document pages as images]({{< relref "rendering-document-pages-images/_index.md" >}})
 Learn how to render document pages as images using Aspose.Words for Java. Step-by-step guide with code examples for efficient document conversion.
-### [Document thumbnail generation](./document-thumbnail-generation/)
+### [Document thumbnail generation]({{< relref "document-thumbnail-generation/_index.md" >}})
 Learn how to generate document thumbnails using Aspose.Words for Java. Enhance user experiences with visual previews.
-### [Rendering shapes and graphics in documents](./rendering-shapes-graphics/)
+### [Rendering shapes and graphics in documents]({{< relref "rendering-shapes-graphics/_index.md" >}})
 Learn how to enhance your documents with shapes and graphics using Aspose.Words for Java. Create visually stunning content effortlessly.
-### [Document printing and rendering](./document-printing-rendering/)
+### [Document printing and rendering]({{< relref "document-printing-rendering/_index.md" >}})
 Discover efficient document printing and rendering using Aspose.Words for Java. Learn step-by-step with source code examples.
-### [Rendering documents to HTML](./rendering-documents-html/)
+### [Rendering documents to HTML]({{< relref "rendering-documents-html/_index.md" >}})
 Learn how to render documents to HTML effortlessly with Aspose.Words for Java. Step-by-step guide for efficient document conversion.
-### [Register warning callback in Java – complete programming guide](./register-warning-callback-in-java-complete-programming-guide/)
+### [Register warning callback in Java – complete programming guide]({{< relref "register-warning-callback-in-java-complete-programming-guide/_index.md" >}})
 Learn how to register a warning callback in Java using Aspose.Words. Step-by-step guide with code examples for handling warnings.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/products-backtop-button / >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

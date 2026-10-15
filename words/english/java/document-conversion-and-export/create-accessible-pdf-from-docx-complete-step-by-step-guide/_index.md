@@ -13,7 +13,7 @@ keywords:
 language: en
 og_description: Create accessible PDF from DOCX using Aspose.Words. This guide shows
   how to save docx as pdf, export docx to pdf, and set compliance for accessible output.
-og_title: Create Accessible PDF from DOCX – Full Programming Walkthrough
+og_title: Export DOCX to Accessible PDF with Aspose.Words – Complete Step‑by‑Step Guide
 schemas:
 - author: Aspose
   dateModified: '2026-05-23'
@@ -47,7 +47,7 @@ tags:
 - DOCX
 - Accessibility
 - Aspose.Words
-title: Create Accessible PDF from DOCX with Aspose.Words – Complete Step‑by‑Step Guide
+title: Export DOCX to Accessible PDF with Aspose.Words – Complete Step‑by‑Step Guide
 url: /java/document-conversion-and-export/create-accessible-pdf-from-docx-complete-step-by-step-guide/
 ---
 

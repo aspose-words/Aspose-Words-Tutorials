@@ -11,19 +11,19 @@ keywords:
 - custom LLM integration java
 language: en
 og_description: Integrate Aspose.Words to build a grammar checker in Java using a local LLM. This tutorial shows how to load a Word document and set a custom model provider for AI‑driven checks.
-og_title: Integrate Aspose.Words to Build a Grammar Checker in Java – Complete Guide
+og_title: Integrate Aspose.Words API to Build a Grammar Checker in Java – Complete Step‑by‑Step Guide
 schemas:
 - author: Aspose
   dateModified: '2026-05-23'
   description: Integrate Aspose.Words to build a grammar checker in Java with a custom model provider. Learn how to load a Word document and set a custom model provider in just a few steps.
-  headline: Integrate Aspose.Words to Build a Grammar Checker in Java – Complete Step‑by‑Step Guide
+  headline: Integrate Aspose.Words API to Build a Grammar Checker in Java – Complete Step‑by‑Step Guide
   type: TechArticle
 tags:
 - Java
 - Grammar Checker
 - AI
 - Document Processing
-title: Integrate Aspose.Words to Build a Grammar Checker in Java – Complete Step‑by‑Step Guide
+title: Integrate Aspose.Words API to Build a Grammar Checker in Java – Complete Step‑by‑Step Guide
 url: /java/ai-machine-learning-integration/build-grammar-checker-java-complete-step-by-step-guide/
 ---
 

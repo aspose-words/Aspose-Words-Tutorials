@@ -22,7 +22,7 @@ tags:
 - Aspose.Words
 - Java
 - Document Conversion
-title: 'Save docx as markdown with Java: Convert docx to markdown using Aspose.Words'
+title: 'How to Save docx as markdown with Java: Convert docx to markdown using Aspose.Words'
 url: /java/document-conversion-and-export/save-docx-as-markdown-convert-docx-to-markdown-using-aspose/
 ---
 
@@ -212,6 +212,6 @@ If everything is wired correctly, you’ll see the confirmation message and the 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

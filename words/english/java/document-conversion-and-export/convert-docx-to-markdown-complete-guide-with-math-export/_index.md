@@ -38,7 +38,7 @@ tags:
 - Java
 - Markdown
 - LaTeX
-title: Convert DOCX to Markdown with Aspose.Words – Complete Guide and Math Export
+title: Convert DOCX to Markdown using Aspose.Words API – Complete Guide with Math Export
 url: /java/document-conversion-and-export/convert-docx-to-markdown-complete-guide-with-math-export/
 ---
 
@@ -249,11 +249,12 @@ Give it a spin, tweak the options, and let your documentation workflow run smoot
 
 ## Related Tutorials
 
-- {{< relref "/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/" >}}Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words{{< /relref >}}
-- {{< relref "/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/" >}}How to Save Markdown from DOCX – Step‑by‑Step Guide{{< /relref >}}
-- {{< relref "/words/english/net/programming-with-markdownsaveoptions/how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/" >}}How to Use Markdown: Convert DOCX to Markdown with LaTeX Equations{{< /relref >}}
+- [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
+- [How to Save Markdown from DOCX – Step‑by‑Step Guide](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
+- [How to Use Markdown: Convert DOCX to Markdown with LaTeX Equations](/words/english/net/programming-with-markdownsaveoptions/how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}

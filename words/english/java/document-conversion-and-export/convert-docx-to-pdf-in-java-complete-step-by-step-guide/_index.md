@@ -15,7 +15,7 @@ schemas:
 - author: Aspose
   dateModified: '2026-05-23'
   description: Convert docx to pdf with Java quickly using Aspose.Words. Learn how to save Word as PDF, export shapes correctly, and leverage the Aspose.Words for Java library in a single tutorial.
-  headline: Convert docx to pdf in Java – Complete Step‑by‑Step Guide
+  headline: Convert docx to pdf in Java – Complete Step‑by‑‑Step Guide
   type: TechArticle
 tags:
 - Java
@@ -211,4 +211,5 @@ Give it a spin, tweak the `PdfSaveOptions` to suit your needs, and soon you’ll
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
