@@ -1,9 +1,7 @@
 ---
 category: general
 date: 2026-03-25
-description: Create custom AI model to edit Word documents – learn how to make text
-  more formal, replace paragraph text, and rewrite a Word paragraph using Aspose.Words
-  AI.
+description: Create a custom AI model to edit Word documents using Aspose.Words for Java – learn how to make text more formal, replace paragraph text, and rewrite a Word paragraph with AI.
 draft: false
 keywords:
 - create custom ai model
@@ -12,15 +10,13 @@ keywords:
 - edit paragraph with ai
 - rewrite word paragraph
 language: en
-og_description: Create custom AI model to edit Word documents. Learn how to make text
-  more formal, replace paragraph text, and rewrite a Word paragraph using Aspose.Words
-  AI.
+og_description: Create a custom AI model to edit Word documents using Aspose.Words for Java. Learn how to make text more formal, replace paragraph text, and rewrite a Word paragraph with AI.
 og_title: Create Custom AI Model – Edit Word Paragraphs in Java
 tags:
 - Aspose.Words
 - Java
 - AI integration
-title: Create Custom AI Model – Edit Word Paragraphs in Java
+title: Create Custom AI Model – Edit Word Paragraphs in Java with Aspose.Words
 url: /java/ai-machine-learning-integration/create-custom-ai-model-edit-word-paragraphs-in-java/
 ---
 
@@ -44,7 +40,7 @@ If you’re wondering *why bother building a custom model* instead of calling Op
 
 ---
 
-## Create Custom AI Model – Setup and Configuration
+## Create custom AI model – setup and configuration
 
 First we need to tell Aspose.Words where our LLM lives. The `AiModelEndpoint` class holds the URL and optional API key. Because we’re using a local server, the key can be an empty string, but the parameter is required.
 
@@ -139,7 +135,7 @@ When you open `output.docx` you should see the first paragraph now sounding cons
 
 ---
 
-## Full Working Example
+## Full working example
 
 Below is the complete program—copy it into `LlmDemo.java`, adjust the paths, and run it with `javac` + `java`.
 
@@ -183,7 +179,7 @@ public class LlmDemo {
 
 ---
 
-## Common Questions & Edge Cases
+## Common questions & edge cases
 
 ### What if my document has multiple sections?
 
@@ -225,5 +221,5 @@ We’ve shown you how to **create custom AI model** with Aspose.Words, connect i
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

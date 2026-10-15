@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-03-25
-description: Learn how to export LaTeX while converting a DOCX file to Markdown. Includes
-  step‑by‑step C# code, tips for images, and handling equations.
+description: Learn how to export LaTeX while converting a DOCX file to Markdown using Aspose.Words for .NET. Includes step‑by‑step C# code, tips for images, and handling equations.
 draft: false
 keywords:
 - how to export latex
@@ -11,15 +10,14 @@ keywords:
 - save docx as markdown
 - save document as markdown
 language: en
-og_description: Step‑by‑step guide on how to export LaTeX while converting DOCX to
-  Markdown using C#. Includes full code, options, and best‑practice tips.
+og_description: Step‑by‑step guide on how to export LaTeX while converting DOCX to Markdown using C#. Includes full code, options, and best‑practice tips.
 og_title: How to Export LaTeX from DOCX – C# Markdown Conversion Guide
 tags:
 - Aspose.Words
 - C#
 - Markdown
 - LaTeX
-title: How to Export LaTeX from DOCX – Convert Word to Markdown with C#
+title: Export LaTeX from DOCX to Markdown using Aspose.Words for .NET (C#)
 url: /java/document-conversion-and-export/how-to-export-latex-from-docx-convert-word-to-markdown-with/
 ---
 
@@ -70,7 +68,7 @@ document.Save(@"C:\Docs\out.md", mdOptions);
 
 That’s it—three concise steps and you’ve got a Markdown file where every equation looks like `$$E = mc^2$$`. The `OfficeMathExportMode.LATEX` flag is the magic bullet for the primary keyword **how to export latex**.
 
-### Why Use LaTeX Export?
+### Why use LaTeX export?
 
 - **Readability** – LaTeX is the lingua franca of scientific publishing; Markdown readers that support MathJax render it beautifully.
 - **Portability** – LaTeX code stays pure text, making version control diffs meaningful.
@@ -144,15 +142,15 @@ The image file (`out_0.png`) will be placed next to the Markdown file, rendered 
 
 ## Tips for Saving DOCX as Markdown (and Avoiding Common Pitfalls)
 
-### 1. Image Resolution Matters
+### 1. image resolution matters
 
 If your source Word contains high‑resolution figures, the default 96 DPI can look blurry after conversion. Raising `ImageResolution` to 300 DPI (as shown) usually yields crisp PNGs. Beware, though—larger DPI means bigger file size.
 
-### 2. Handling Unsupported Elements
+### 2. handling unsupported elements
 
 Aspose.Words converts most Word features, but a few exotic objects (like SmartArt) fall back to image placeholders. If you need those as vector graphics, consider exporting the document to HTML first, then post‑process.
 
-### 3. Multiple Output Files
+### 3. multiple output files
 
 When you **save docx as markdown**, Aspose creates a separate image file for each picture. Keep the output folder tidy by using a dedicated sub‑folder:
 
@@ -163,7 +161,7 @@ options.ImagesFolderAlias = "images";
 
 Now the Markdown will reference `images/img1.png` instead of a flat file list.
 
-### 4. Batch Conversion
+### 4. batch conversion
 
 Want to **convert docx to markdown** for dozens of files? Wrap the logic in a `foreach` loop that scans a directory:
 
@@ -176,7 +174,7 @@ foreach (var file in Directory.GetFiles(@"C:\Docs\Batch", "*.docx"))
 }
 ```
 
-### 5. Verify LaTeX Rendering
+### 5. verify LaTeX rendering
 
 Not all Markdown renderers support MathJax out of the box. If you’re publishing to GitHub Pages, enable the MathJax plugin or add the following snippet to your HTML layout:
 
@@ -194,7 +192,7 @@ Sometimes you need the reverse flow—turning a Markdown file (with LaTeX blocks
 
 While this is beyond the core tutorial, it shows the flexibility of the library when you need to **how to convert markdown** in the opposite direction.
 
-## Full Working Example (All Files)
+## Full working example (All files)
 
 ```
 /DocxToMarkdown
@@ -220,5 +218,5 @@ If you hit any snags—like missing equations or unexpected image sizes—refer 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

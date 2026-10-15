@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-03-25
-description: Create PDF document in C# and learn how to add rectangle shape, set fill
-  color, adjust shape size and set shape transparency in just a few steps.
+description: Create PDF document in C# using Aspose.Words and learn how to add a rectangle shape, set fill color, adjust shape size, and set shape transparency in just a few steps.
 draft: false
 keywords:
 - create pdf document
@@ -18,7 +17,7 @@ tags:
 - C#
 - PDF
 - Aspose.Words
-title: Create PDF Document with a Rectangle Shape – Full C# Guide
+title: Create PDF Document with a Rectangle Shape using Aspose.Words – Full C# Guide
 url: /java/images-shapes/create-pdf-document-with-a-rectangle-shape-full-c-guide/
 ---
 
@@ -36,7 +35,7 @@ In this tutorial we’ll walk through a complete, ready‑to‑run C# example th
 
 ---
 
-## What You’ll Need
+## What you’ll need
 
 | Prerequisite | Why it matters |
 |--------------|----------------|
@@ -59,7 +58,7 @@ That’s it—no extra DLLs, no native dependencies. Once the package is in plac
 
 Below we break the process into five logical steps. Each step has a clear heading (so AI models can index it) and a short code block that you can copy‑paste directly.
 
-### ## 1. Create PDF Document and Prepare the Canvas
+### ## 1. create PDF document and prepare the canvas
 
 The very first thing we do is instantiate a `Document`. Think of it as a blank canvas that will eventually become your PDF file.
 
@@ -81,7 +80,7 @@ class Program
 
 > **Why?** `Document` holds all sections, paragraphs, and shapes. Starting with a clean object guarantees no hidden artifacts from previous runs.
 
-### ## 2. Add Rectangle Shape – Set Fill Color and Shape Size
+### ## 2. add rectangle shape – set fill color and shape size
 
 Now we create a rectangle, give it a bright yellow fill, and define its dimensions. This covers both **add rectangle shape** and **set fill color** as well as **set shape size**.
 
@@ -99,7 +98,7 @@ Now we create a rectangle, give it a bright yellow fill, and define its dimensio
 
 > **Note:** Width/height are measured in points (1 point = 1/72 inch). Adjust these numbers to fit your layout.
 
-### ## 3. Apply an Outer Shadow and Set Shape Transparency
+### ## 3. apply an outer shadow and set shape transparency
 
 Shadows add depth, and controlling their opacity is the essence of **set shape transparency**. Below we configure a gray outer shadow with 30 % transparency.
 
@@ -116,7 +115,7 @@ Shadows add depth, and controlling their opacity is the essence of **set shape t
 
 > **Why set transparency?** A 30 % transparent shadow looks subtle, preventing the rectangle from looking “flat” on the page.
 
-### ## 4. Insert the Shape Into the Document Body
+### ## 4. insert the shape into the document body
 
 We now place the rectangle into the first paragraph of the document’s first section. This step ties everything together.
 
@@ -149,7 +148,7 @@ When you run the program, a file named `shadow.pdf` appears. Opening it shows a 
 
 ---
 
-## Full Working Example (Copy‑Paste Ready)
+## Full working example (Copy‑Paste ready)
 
 Below is the entire source file, ready for you to drop into a new console project.
 
@@ -230,3 +229,4 @@ If you found this guide useful, give it a star on GitHub, share it with a teamma
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}

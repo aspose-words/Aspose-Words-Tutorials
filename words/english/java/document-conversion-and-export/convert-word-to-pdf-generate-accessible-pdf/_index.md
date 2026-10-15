@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-03-25
-description: Convert Word to PDF and generate an accessible PDF (PDF/UA‑2) using Aspose.Words.
-  Learn how to export Word to PDF with compliance in C#.
+description: Convert Word to PDF and generate an accessible PDF (PDF/UA‑2) using Aspose.Words for .NET. Learn how to export Word to PDF with compliance in C#.
 draft: false
 keywords:
 - convert word to pdf
@@ -11,14 +10,13 @@ keywords:
 - export word to pdf
 - how to convert word pdf
 language: en
-og_description: Convert Word to PDF and generate an accessible PDF (PDF/UA‑2) with
-  Aspose.Words in C#. Follow the step‑by‑step guide.
+og_description: Convert Word to PDF and generate an accessible PDF (PDF/UA‑2) with Aspose.Words in C#. Follow the step‑by‑step guide.
 og_title: Convert Word to PDF – Generate Accessible PDF
 tags:
 - Aspose.Words
 - C#
 - PDF/UA
-title: Convert Word to PDF – Generate Accessible PDF
+title: Convert Word to PDF and Generate Accessible PDF with Aspose.Words
 url: /java/document-conversion-and-export/convert-word-to-pdf-generate-accessible-pdf/
 ---
 
@@ -192,3 +190,4 @@ Happy coding, and may your PDFs always be readable!
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
