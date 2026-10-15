@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-05-23
-description: Add shadow to shape in Java using Aspose.Words. Learn how to load a Word
-  document, set shadow blur, angle, and change shadow color efficiently.
+description: Apply shadow to shape in Java with Aspose.Words for Java. Learn how to load a Word document, set shadow blur, angle, and change shadow color efficiently.
 draft: false
 keywords:
 - add shadow to shape
@@ -11,45 +10,34 @@ keywords:
 - set shadow blur
 - set shadow angle
 language: en
-og_description: Add shadow to shape in Java with Aspose.Words. This tutorial shows
-  how to load a Word document, set shadow blur, angle, and change shadow color.
-og_title: Add shadow to shape in Java – Complete Guide
+og_description: Apply shadow to shape in Java with Aspose.Words for Java. This tutorial shows how to load a Word document, set shadow blur, angle, and change shadow color.
+og_title: Apply shadow to shape in Java – Complete Guide
 schemas:
 - author: Aspose
   dateModified: '2026-05-23'
-  description: Add shadow to shape in Java using Aspose.Words. Learn how to load a
-    Word document, set shadow blur, angle, and change shadow color efficiently.
-  headline: Add shadow to shape in Java – Complete Programming Guide
+  description: Apply shadow to shape in Java using Aspose.Words for Java. Learn how to load a Word document, set shadow blur, angle, and change shadow color efficiently.
+  headline: Apply shadow to shape in Java – Complete Programming Guide
   type: TechArticle
-- description: Add shadow to shape in Java using Aspose.Words. Learn how to load a
-    Word document, set shadow blur, angle, and change shadow color efficiently.
-  name: Add shadow to shape in Java – Complete Programming Guide
+- description: Apply shadow to shape in Java using Aspose.Words for Java. Learn how to load a Word document, set shadow blur, angle, and change shadow color efficiently.
+  name: Apply shadow to shape in Java – Complete Programming Guide
   steps:
   - name: 1. Load Word document
-    text: First, we need to bring the `.docx` file into memory. This is the foundation
-      for every subsequent operation.
+    text: First, we need to bring the `.docx` file into memory. This is the foundation for every subsequent operation.
   - name: 2. Retrieve the first shape in the document
-    text: Most tutorials skim over node traversal, but grabbing the right shape is
-      essential when you want to **add shadow to shape**.
+    text: Most tutorials skim over node traversal, but grabbing the right shape is essential when you want to **add shadow to shape**.
   - name: 3. Configure the shape’s shadow effect
-    text: Now the fun part—tweaking the shadow. We’ll touch on **set shadow blur**,
-      **set shadow angle**, and **change shadow color** all in one tidy block.
+    text: Now the fun part—tweaking the shadow. We’ll touch on **set shadow blur**, **set shadow angle**, and **change shadow color** all in one tidy block.
   - name: 4. Save the modified document
     text: Once the shadow is set, persist the changes.
   - name: Expected Output
-    text: '- The `output.docx` file will look identical to `input.docx` except the
-      first shape now sports a soft blue shadow cast at a 45° angle. - Open the file
-      in Microsoft Word or LibreOffice to verify the visual effect.'
+    text: '- The `output.docx` file will look identical to `input.docx` except the first shape now sports a soft blue shadow cast at a 45° angle. - Open the file in Microsoft Word or LibreOffice to verify the visual effect.'
   type: HowTo
 - questions:
-  - answer: Yes—Aspose.Words handles `.doc` transparently. Just change the file extension
-      in the `Document` constructor.
+  - answer: Yes—Aspose.Words handles `.doc` transparently. Just change the file extension in the `Document` constructor.
     question: Does this work with older `.doc` files?
-  - answer: The Word format doesn’t support animated shadows; you’d need to export
-      to a format like PowerPoint or HTML + CSS for that.
+  - answer: The Word format doesn’t support animated shadows; you’d need to export to a format like PowerPoint or HTML + CSS for that.
     question: Can I animate the shadow?
-  - answer: 'Pass `true` for the `deep` flag (as we did) and the API will locate shapes
-      anywhere in the document tree, including headers/footers. --- ## Conclusion
+  - answer: 'Pass `true` for the `deep` flag (as we did) and the API will locate shapes anywhere in the document tree, including headers/footers. --- ## Conclusion
       We’ve just **added shadow to shape** objects in a Word document using Java,
       covering everything from **load word document** to **set shadow blur**, *'
     question: What if the shape is inside a header or footer?
@@ -58,7 +46,7 @@ tags:
 - Aspose.Words
 - Java
 - Word Automation
-title: Add shadow to shape in Java – Complete Programming Guide
+title: Apply shadow to shape in Java using Aspose.Words – Complete Programming Guide
 url: /java/images-shapes/add-shadow-to-shape-in-java-complete-programming-guide/
 ---
 
@@ -66,7 +54,7 @@ url: /java/images-shapes/add-shadow-to-shape-in-java-complete-programming-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Add shadow to shape in Java – Complete Programming Guide
+# Apply shadow to shape in Java using Aspose.Words – Complete Programming Guide
 
 Ever needed to **add shadow to shape** in a Word document but weren’t sure where to start? In this guide we’ll walk through loading a Word document, tweaking the shadow’s blur, angle, and even swapping the shadow color—all with clean Java code.
 
@@ -74,7 +62,7 @@ If you’ve ever wondered how to **load Word document** files programmatically o
 
 ---
 
-## What You’ll Learn
+## What you’ll learn
 
 - How to **load a Word document** with Aspose.Words for Java  
 - The exact steps to **add shadow to shape** objects  
@@ -176,7 +164,7 @@ Once the shadow is set, persist the changes.
 
 ---
 
-## Full Working Example
+## Full working example
 
 Putting it all together, here’s the complete code you can copy‑paste into a new Java class.
 
@@ -216,7 +204,7 @@ public class ShadowDemo {
 
 ---
 
-## Edge Cases & Practical Tips
+## Edge cases & practical tips
 
 | Situation | What to Do |
 |-----------|------------|
@@ -228,7 +216,7 @@ public class ShadowDemo {
 
 ---
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Does this work with older `.doc` files?**  
 A: Yes—Aspose.Words handles `.doc` transparently. Just change the file extension in the `Document` constructor.
@@ -254,11 +242,12 @@ Happy coding, and feel free to drop a comment if you hit any snags!
 
 ## Related Tutorials
 
-- [Create Word Document Java – Add Rectangle Shape with Shadow Effect](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [How to create form fields and add content using DocumentBuilder in Aspose.Words for Java](/words/english/java/document-manipulation/adding-content-using-documentbuilder/)
-- [How to Add Watermark to Documents Using Aspose.Words for Java](/words/english/java/document-conversion-and-export/using-watermarks-to-documents/)
+- {{< relref "../create-word-document-java-add-rectangle-shape-with-shadow-ef" >}}Create Word Document Java – Add Rectangle Shape with Shadow Effect{{< /relref >}}
+- {{< relref "../adding-content-using-documentbuilder" >}}How to create form fields and add content using DocumentBuilder in Aspose.Words for Java{{< /relref >}}
+- {{< relref "../using-watermarks-to-documents" >}}How to Add Watermark to Documents Using Aspose.Words for Java{{< /relref >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

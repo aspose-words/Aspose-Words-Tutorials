@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-05-23
-description: Learn how to save PNG from a Word document, convert Word to PNG, and
-  configure image layout with a horizontal strip layout using Aspose.Words.
+description: Learn how to save PNG from a Word document using Aspose.Words for Java, convert Word to PNG, and configure image layout with a horizontal strip layout.
 draft: false
 keywords:
 - how to save png
@@ -56,7 +55,7 @@ tags:
 - Aspose.Words
 - Java
 - ImageConversion
-title: How to Save PNG from Word – Complete Step‑by‑Step Guide
+title: How to Save PNG from Word using Aspose.Words for Java – Complete Step‑by‑Step Guide
 url: /java/document-conversion-and-export/how-to-save-png-from-word-complete-step-by-step-guide/
 ---
 
@@ -70,7 +69,7 @@ Ever wondered **how to save PNG** directly from a Word document without fiddling
 
 In this tutorial we’ll walk through the entire process, from loading the source file to configuring the image layout and finally **how to export PNG** files you can drop into a web page or email. By the end you’ll have a ready‑to‑run snippet that does everything you asked for, plus some handy tips for edge cases.
 
-## What You’ll Need
+## What you’ll need
 
 Before we dive in, make sure you’ve got the basics covered:
 
@@ -90,7 +89,7 @@ That’s it. No external image tools, no command‑line gymnastics. Just a few M
 </dependency>
 ```
 
-## Step 1: Load the Source Document
+## Step 1: load the source document
 
 The first thing we do is tell Aspose.Words which file we’re working with. This is the **how to export png** starting point—without a document object there’s nothing to export.
 
@@ -119,7 +118,7 @@ saveOptions.setPageSet(new PageSet(0, 3));
 saveOptions.setLayout(ImageSaveOptions.Layout.HORIZONTAL);
 ```
 
-### Breaking Down the Settings
+### Breaking down the settings
 
 | Setting | What It Does | Why You Might Use It |
 |---------|--------------|----------------------|
@@ -153,7 +152,7 @@ When you open any of these files you’ll see crisp, lossless PNGs that match th
 
 *Alt text: how to save png example output*
 
-## Full Working Example
+## Full working example
 
 Putting it all together, here’s a self‑contained Java class you can drop into any project. It includes error handling and a couple of optional tweaks for those who like to experiment.
 
@@ -190,7 +189,7 @@ public class WordToPngConverter {
 
 Run this program and you’ll have a set of PNG files ready for whatever downstream workflow you have—be it uploading to a CMS, attaching to an email, or feeding into a machine‑learning model.
 
-## Advanced Scenarios & Common Questions
+## Advanced scenarios & common questions
 
 ### 1. **Can I convert the entire document to a single PNG?**  
 Sure thing. Just set `options.setPageCount(doc.getPageCount())` and omit the `PageSet`. The API will render every page side‑by‑side (or top‑to‑bottom if you switch the layout).
@@ -223,11 +222,12 @@ If you run into any hiccups, drop a comment below or check Aspose’s official d
 
 ## Related Tutorials
 
-- [How to Convert DOCX to PNG in Java – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
-- [How to Set DPI When Converting Word to PNG – Complete C# Guide](/words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
-- [How to Convert Word to PDF Using Aspose.Words for Java](/words/english/java/document-converting/using-document-converting/)
+- [How to Convert DOCX to PNG in Java – Aspose.Words](words/english/java/document-converting/converting-documents-images/)
+- [How to Set DPI When Converting Word to PNG – Complete C# Guide](words/english/net/programming-with-imagesaveoptions/how-to-set-dpi-when-converting-word-to-png-complete-c-guide/)
+- [How to Convert Word to PDF Using Aspose.Words for Java](words/english/java/document-converting/using-document-converting/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}

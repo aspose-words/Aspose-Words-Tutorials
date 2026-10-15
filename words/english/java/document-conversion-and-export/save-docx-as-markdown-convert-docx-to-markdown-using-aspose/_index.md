@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-05-23
-description: Save docx as markdown quickly with Java. Learn how to convert docx to
-  markdown, preserve blank lines, and export word to markdown in a few steps.
+description: Save docx as markdown quickly with Java using Aspose.Words. Learn how to convert docx to markdown, preserve blank lines, and export word to markdown in a few steps.
 draft: false
 keywords:
 - save docx as markdown
@@ -11,21 +10,19 @@ keywords:
 - preserve blank lines
 - save word as markdown
 language: en
-og_description: Save docx as markdown with Aspose.Words. This tutorial shows how to
-  convert docx to markdown while preserving blank lines.
+og_description: Save docx as markdown with Aspose.Words. This tutorial shows how to convert docx to markdown while preserving blank lines.
 og_title: Save docx as markdown – Java Guide
 schemas:
 - author: Aspose
   dateModified: '2026-05-23'
-  description: Save docx as markdown quickly with Java. Learn how to convert docx
-    to markdown, preserve blank lines, and export word to markdown in a few steps.
+  description: Save docx as markdown quickly with Java using Aspose.Words. Learn how to convert docx to markdown, preserve blank lines, and export word to markdown in a few steps.
   headline: 'Save docx as markdown: Convert docx to markdown using Aspose.Words'
   type: TechArticle
 tags:
 - Aspose.Words
 - Java
 - Document Conversion
-title: 'Save docx as markdown: Convert docx to markdown using Aspose.Words'
+title: 'Save docx as markdown with Java: Convert docx to markdown using Aspose.Words'
 url: /java/document-conversion-and-export/save-docx-as-markdown-convert-docx-to-markdown-using-aspose/
 ---
 
@@ -147,7 +144,7 @@ More content...
 
 Notice the two blank lines separating the sections—those are preserved thanks to the `PRESERVE` flag.
 
-## Full Working Example
+## Full working example
 
 Putting everything together, here’s a self‑contained Java class you can copy‑paste into your project. It demonstrates how to **save docx as markdown**, **convert docx to markdown**, and **preserve blank lines** in one go.
 
@@ -205,16 +202,16 @@ If everything is wired correctly, you’ll see the confirmation message and the 
 | Issue | What happens | How to fix it |
 |-------|--------------|---------------|
 | **Missing Aspose license** | The library runs in evaluation mode, inserting watermarks into the output. | Obtain a free temporary license from Aspose or purchase one. Load it with `License license = new License(); license.setLicense("Aspose.Words.lic");` before creating the `Document`. |
-| **Images disappear** | By default, images are saved to a folder and referenced with relative paths. If the folder isn’t created, links break. | Set `mdOpts.setExportImages(true);` and
-
+| **Images disappear** | By default, images are saved to a folder and referenced with relative paths. If the folder isn’t created, links break. | Set `mdOpts.setExportImages(true);` and ensure the output directory exists. |
 
 ## Related Tutorials
 
-- [How to Export LaTeX from Word: Convert DOCX to Markdown & Save as PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
-- [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [How to Export Markdown from DOCX – Complete Guide](/words/english/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/)
+- [How to Export LaTeX from Word: Convert DOCX to Markdown & Save as PDF](../how-to-export-latex-from-word-convert-docx-to-markdown-save/)
+- [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words](../convert-docx-to-markdown-export-math-equations-to-latex-with/)
+- [How to Export Markdown from DOCX – Complete Guide](../../net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}

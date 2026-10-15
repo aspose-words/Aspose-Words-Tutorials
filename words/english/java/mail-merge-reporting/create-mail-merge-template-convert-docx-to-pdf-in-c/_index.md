@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-05-23
-description: Create mail merge template and convert DOCX to PDF using LowCode in C#.
-  Step‑by‑step guide covering conversion, mail‑merge, and batch processing.
+description: Create mail merge template and convert DOCX to PDF using the LowCode API in C#. Step‑by‑step guide covering conversion, mail‑merge, and batch processing.
 draft: false
 keywords:
 - create mail merge template
@@ -11,34 +10,23 @@ keywords:
 - convert word to pdf
 - batch docx to pdf
 language: en
-og_description: Create mail merge template and convert DOCX to PDF with LowCode. Learn
-  the full workflow, from template design to batch PDF generation.
+og_description: Create mail merge template and convert DOCX to PDF with LowCode. Learn the full workflow, from template design to batch PDF generation.
 og_title: Create Mail Merge Template & Convert DOCX to PDF in C#
 schemas:
 - author: Aspose
   dateModified: '2026-05-23'
-  description: Create mail merge template and convert DOCX to PDF using LowCode in
-    C#. Step‑by‑step guide covering conversion, mail‑merge, and batch processing.
+  description: Create mail merge template and convert DOCX to PDF using LowCode in C#. Step‑by‑step guide covering conversion, mail‑merge, and batch processing.
   headline: Create Mail Merge Template & Convert DOCX to PDF in C#
   type: TechArticle
-- description: Create mail merge template and convert DOCX to PDF using LowCode in
-    C#. Step‑by‑step guide covering conversion, mail‑merge, and batch processing.
+- description: Create mail merge template and convert DOCX to PDF using LowCode in C#. Step‑by‑step guide covering conversion, mail‑merge, and batch processing.
   name: Create Mail Merge Template & Convert DOCX to PDF in C#
   steps:
   - name: Why this matters
-    text: '- **Performance:** The library streams the file, so even large Word documents
-      won’t blow up memory. - **Accuracy:** LowCode respects Word’s layout engine,
-      preserving headers, footers, and complex tables—something many open‑source converters
-      miss. - **Error handling:** If the source file is missing o'
+    text: '- **Performance:** The library streams the file, so even large Word documents won’t blow up memory. - **Accuracy:** LowCode respects Word’s layout engine, preserving headers, footers, and complex tables—something many open‑source converters miss. - **Error handling:** If the source file is missing o'
   - name: CSV format expectations
-    text: '| FirstName | LastName | ProductName | PurchaseDate | OrderNumber | |-----------|----------|------------|--------------|-------------|
-      | Alice | Smith | Widget Pro | 2024‑03‑15 | 12345 | | Bob | Jones | Gadget X
-      | 2024‑03‑16 | 12346 |'
+    text: '| FirstName | LastName | ProductName | PurchaseDate | OrderNumber | |-----------|----------|------------|--------------|-------------| | Alice | Smith | Widget Pro | 2024‑03‑15 | 12345 | | Bob | Jones | Gadget X | 2024‑03‑16 | 12346 |'
   - name: Edge‑case handling
-    text: '- **Large CSV files:** If your data source exceeds a few thousand rows,
-      consider streaming the CSV instead of loading it all at once (LowCode supports
-      `IEnumerable<string[]>`). - **File‑name collisions:** The batch script overwrites
-      existing PDFs; add a timestamp or GUID if you need uniqueness. - **'
+    text: '- **Large CSV files:** If your data source exceeds a few thousand rows, consider streaming the CSV instead of loading it all at once (LowCode supports `IEnumerable<string[]>`). - **File‑name collisions:** The batch script overwrites existing PDFs; add a timestamp or GUID if you need uniqueness. - **'
   type: HowTo
 tags:
 - C#
@@ -46,7 +34,7 @@ tags:
 - DOCX
 - PDF
 - Mail Merge
-title: Create Mail Merge Template & Convert DOCX to PDF in C#
+title: Create Mail Merge Template & Convert DOCX to PDF in C# with LowCode
 url: /java/mail-merge-reporting/create-mail-merge-template-convert-docx-to-pdf-in-c/
 ---
 
@@ -60,7 +48,7 @@ Ever wondered how to **create mail merge template** without spending hours fiddl
 
 We'll also sprinkle in the **convert docx to pdf** steps you need for a smooth **docx to pdf conversion** pipeline. By the end you’ll have a ready‑to‑run console app that can take a CSV data source, merge it into a Word template, and spit out polished PDFs. No mystery, just clear code and reasoning.
 
-## What You’ll Need
+## What you’ll need
 
 - .NET 6.0 SDK or later (the code compiles with .NET Core as well)  
 - A reference to the **LowCode** NuGet package (`LowCode.Converter` and `LowCode.MailMerger`)  
@@ -71,7 +59,7 @@ That’s it. If you’ve got those, we can jump straight into the meat of the so
 
 ![Create mail merge template workflow diagram](image-placeholder.png){alt="Create mail merge template workflow diagram"}
 
-## Step 1: Set Up the Project and Install LowCode
+## Step 1: set up the project and install lowCode
 
 First, spin up a new console project:
 
@@ -137,7 +125,7 @@ Acme Corp.
 
 Why use double curly braces? LowCode’s `MailMerger` looks for that pattern by default, making the template language‑agnostic. You could also use Word’s built‑in «MERGEFIELD» syntax, but the braces keep things tidy and avoid Word‑specific quirks.
 
-## Step 4: Perform the Mail Merge
+## Step 4: perform the mail merge
 
 Now we tie the data source (a CSV file) to the template and generate a merged `.docx`. LowCode’s API again makes this a single call:
 
@@ -219,7 +207,7 @@ foreach (var docxPath in Directory.GetFiles(mergedFolder, "*.docx"))
 - **File‑name collisions:** The batch script overwrites existing PDFs; add a timestamp or GUID if you need uniqueness.  
 - **Permissions:** Ensure the process has write access to the output folder, especially when running under IIS or a Windows Service.
 
-## Full Working Example
+## Full working example
 
 Putting it all together, here’s a minimal `Program.cs` that demonstrates the entire workflow from template creation to batch PDF generation:
 
@@ -246,15 +234,32 @@ class Program
             MailMerger.merge(template, data, merged);
             Console.WriteLine($"✅ Merged DOCX at {merged}");
         }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"❌ Merge failed: {ex.Message}");
+        }
 
+        // 3️⃣ Convert to PDF
+        try
+        {
+            Converter.convert(merged, mergedPdf);
+            Console.WriteLine($"✅ Final PDF ready at {mergedPdf}");
+        }
+        catch (ConversionException ex)
+        {
+            Console.Error.WriteLine($"❌ PDF conversion failed: {ex.Message}");
+        }
+    }
+}
+```
 
 ## Related Tutorials
 
 - [Create Accessible PDF from Word with C# – Step‑by‑Step Guide](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
-- [convert word to pdf in C# using Aspose.Words – Guide](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
+- [Convert Word to PDF in C# using Aspose.Words – Guide](/words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide/)
 - [Create Accessible PDF – Step‑by‑Step Guide for PDF/UA Compliance](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
 
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

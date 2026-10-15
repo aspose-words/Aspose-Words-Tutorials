@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-05-23
-description: Convert DOCX to Markdown quickly and learn how to export math as LaTeX.
-  This tutorial shows you how to save Word as Markdown with full equation support.
+description: Convert DOCX to Markdown quickly using Aspose.Words and learn how to export math as LaTeX. This tutorial shows you how to save Word as Markdown with full equation support.
 draft: false
 keywords:
 - convert docx to markdown
@@ -10,18 +9,15 @@ keywords:
 - save word as markdown
 - export word equations latex
 language: en
-og_description: Convert DOCX to Markdown and export Word equations as LaTeX. Learn
-  step‑by‑step how to save Word as Markdown with math support.
+og_description: Convert DOCX to Markdown and export Word equations as LaTeX. Learn step‑by‑step how to save Word as Markdown with math support.
 og_title: Convert DOCX to Markdown – Full Math Export Guide
 schemas:
 - author: Aspose
   dateModified: '2026-05-23'
-  description: Convert DOCX to Markdown quickly and learn how to export math as LaTeX.
-    This tutorial shows you how to save Word as Markdown with full equation support.
+  description: Convert DOCX to Markdown quickly using Aspose.Words and learn how to export math as LaTeX. This tutorial shows you how to save Word as Markdown with full equation support.
   headline: Convert DOCX to Markdown – Complete Guide with Math Export
   type: TechArticle
-- description: Convert DOCX to Markdown quickly and learn how to export math as LaTeX.
-    This tutorial shows you how to save Word as Markdown with full equation support.
+- description: Convert DOCX to Markdown quickly using Aspose.Words and learn how to export math as LaTeX. This tutorial shows you how to save Word as Markdown with full equation support.
   name: Convert DOCX to Markdown – Complete Guide with Math Export
   steps:
   - name: Quick Verification Script
@@ -42,7 +38,7 @@ tags:
 - Java
 - Markdown
 - LaTeX
-title: Convert DOCX to Markdown – Complete Guide with Math Export
+title: Convert DOCX to Markdown with Aspose.Words – Complete Guide and Math Export
 url: /java/document-conversion-and-export/convert-docx-to-markdown-complete-guide-with-math-export/
 ---
 
@@ -56,7 +52,7 @@ Ever needed to **convert DOCX to Markdown** but were stuck on handling those pes
 
 We'll walk through a hands‑on example using Aspose.Words for Java, explain why each setting matters, and finish with a ready‑to‑run code snippet. By the end, you’ll be able to **export word equations latex** automatically, no extra post‑processing required.
 
-## What This Tutorial Covers
+## What this tutorial covers
 
 - Prerequisites: Java 17+, Maven, and an Aspose.Words for Java license (or a free evaluation).  
 - Step‑by‑step conversion from `.docx` to `.md` with math turned into LaTeX.  
@@ -65,7 +61,7 @@ We'll walk through a hands‑on example using Aspose.Words for Java, explain why
 
 If you’ve ever wondered *“does this work with complex equations?”* or *“can I keep my images while I export?”*, keep reading – we’ll answer those questions and more.
 
-## Step 1: Set Up Your Project (Primary Keyword in Action)
+## Step 1: set up your project (Primary keyword in action)
 
 First thing’s first: we need a Java project that can talk to Aspose.Words. If you already have a Maven `pom.xml`, just add the dependency; otherwise create a new Maven project.
 
@@ -96,7 +92,7 @@ First thing’s first: we need a Java project that can talk to Aspose.Words. If 
 
 Now that the environment is ready, we can actually **convert docx to markdown**.
 
-## Step 2: Load the Source Document
+## Step 2: load the source document
 
 Loading the `.docx` is straightforward. The `Document` class abstracts away the file format, so you can feed it a path, a stream, or even a byte array.
 
@@ -115,7 +111,7 @@ public class DocxToMarkdown {
 
 Notice that we haven’t touched **how to export math** yet – that comes in the next step. The `Document` object now holds everything: paragraphs, tables, images, and of course, Office Math objects.
 
-## Step 3: Create Markdown Save Options (the Heart of Export)
+## Step 3: create markdown save options (the heart of export)
 
 `MarkdownSaveOptions` lets us dictate exactly how the conversion behaves. The crucial line for **export word equations latex** is the `setOfficeMathExportMode` call.
 
@@ -132,7 +128,7 @@ mdOpts.setExportImagesAsBase64(true);
 
 Why LaTeX? Most Markdown renderers (GitHub, GitLab, MkDocs with the MathJax plugin) understand `$…$` for inline and `$$…$$` for display math. By selecting `LATEX`, Aspose translates each Office Math node into that exact syntax, removing the need for a post‑conversion script.
 
-## Step 4: Save the Document as Markdown
+## Step 4: save the document as markdown
 
 Now we tie everything together. The `save` method takes the output path and the options we just configured.
 
@@ -158,7 +154,7 @@ $$
 ![Image](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...)
 ```
 
-### Quick Verification Script
+### Quick verification script
 
 If you want to double‑check that the LaTeX snippets are present, run a tiny grep:
 
@@ -173,7 +169,7 @@ Both commands should return lines containing your equations, confirming that **h
 
 While the basic flow covers most scenarios, real‑world documents throw curveballs. Below are a few common pitfalls and how to address them.
 
-### 5.1. Complex Equation Layouts
+### 5.1. complex equation layouts
 
 Some Office Math objects contain matrices or piecewise functions. Aspose’s LaTeX exporter handles most of them, but you might need to tweak the `MarkdownSaveOptions` to preserve alignment:
 
@@ -181,7 +177,7 @@ Some Office Math objects contain matrices or piecewise functions. Aspose’s LaT
 mdOpts.setTableAlignment(MarkdownSaveOptions.TableAlignment.CENTER);
 ```
 
-### 5.2. Mixed Content – Images + Math
+### 5.2. mixed content – images + math
 
 If you prefer external image files instead of Base64, switch the flag:
 
@@ -196,7 +192,7 @@ mdOpts.setImageSavingCallback(new IImageSavingCallback() {
 
 Now your Markdown will reference `images/figure1.png`, keeping the file size small.
 
-### 5.3. Custom File Naming
+### 5.3. custom file naming
 
 When converting many DOCX files in a batch, you can programmatically generate output names:
 
@@ -209,7 +205,7 @@ doc.save(outPath, mdOpts);
 
 That way you **convert docx to markdown** in bulk without manual renaming.
 
-## Full Working Example (All Steps in One Place)
+## Full working example (All steps in one place)
 
 Below is the complete, self‑contained Java class you can copy‑paste into your IDE and run immediately (assuming the Maven setup from Step 1).
 
@@ -253,11 +249,11 @@ Give it a spin, tweak the options, and let your documentation workflow run smoot
 
 ## Related Tutorials
 
-- [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [How to Save Markdown from DOCX – Step‑by‑Step Guide](/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/)
-- [How to Use Markdown: Convert DOCX to Markdown with LaTeX Equations](/words/english/net/programming-with-markdownsaveoptions/how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/)
+- {{< relref "/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/" >}}Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words{{< /relref >}}
+- {{< relref "/words/english/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-docx-step-by-step-guide/" >}}How to Save Markdown from DOCX – Step‑by‑Step Guide{{< /relref >}}
+- {{< relref "/words/english/net/programming-with-markdownsaveoptions/how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/" >}}How to Use Markdown: Convert DOCX to Markdown with LaTeX Equations{{< /relref >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
