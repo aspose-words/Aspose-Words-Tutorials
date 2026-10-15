@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-05-04
-description: How to set resolution for Markdown export from Word. Learn markdown image
-  resolution, how to export equations, and save Word as markdown in Java.
+description: How to set resolution for Markdown export from Word using Aspose.Words. Learn markdown image resolution, how to export equations, and save Word as markdown in Java.
 draft: false
 keywords:
 - how to set resolution
@@ -11,15 +10,14 @@ keywords:
 - how to export equations
 - save word as markdown
 language: en
-og_description: How to set resolution for Markdown export from Word. This guide shows
-  markdown image resolution, exporting equations, and saving Word as markdown.
+og_description: How to set resolution for Markdown export from Word using Aspose.Words. This guide shows markdown image resolution, exporting equations, and saving Word as markdown.
 og_title: How to Set Resolution When Saving Word as Markdown
 tags:
 - Aspose.Words
 - Java
 - Markdown
 - Document Export
-title: How to Set Resolution When Saving Word as Markdown
+title: How to Set Image Resolution When Saving Word as Markdown with Aspose.Words for Java
 url: /java/document-conversion-and-export/how-to-set-resolution-when-saving-word-as-markdown/
 ---
 
@@ -67,7 +65,7 @@ doc.save("YOUR_DIRECTORY/MathExport.md", saveOptions);
 
 The `setImageResolution(int dpi)` call is the heart of **how to set resolution**. It tells Aspose.Words to rasterize any fallback images (e.g., when an equation cannot be represented in pure LaTeX) at the specified dots‑per‑inch. If you omit this line, the library falls back to its default 220 dpi, which may look fuzzy on retina displays.
 
-### Why Use LaTeX for Equations?
+### Why use LaTeX for equations?
 
 When you export equations as LaTeX (`OfficeMathExportMode.LATEX`), the resulting Markdown contains raw LaTeX code wrapped in `$…$` or `$$…$$`. Most modern Markdown renderers (GitHub, GitLab, MkDocs with MathJax) will render those as crisp, scalable vector graphics—no resolution worries there. The resolution setting only matters for **markdown image resolution** of any raster fallback images, such as embedded charts or pictures that aren’t natively supported in Markdown.
 

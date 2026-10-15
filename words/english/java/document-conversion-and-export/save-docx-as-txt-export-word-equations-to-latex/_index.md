@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-05-04
-description: Save docx as txt quickly using Aspose.Words for Java. Learn to convert
-  word to txt, preserve line breaks, and export equations to LaTeX.
+description: Save docx as txt quickly using Aspose.Words for Java. Learn to convert word to txt, preserve line breaks, and export equations to LaTeX.
 draft: false
 keywords:
 - save docx as txt
@@ -11,14 +10,13 @@ keywords:
 - convert docx to plain text
 - export word equations latex
 language: en
-og_description: Save docx as txt with Aspose.Words for Java. This guide shows how
-  to convert docx to plain text, preserve line breaks, and export equations as LaTeX.
+og_description: Save docx as txt with Aspose.Words for Java. This guide shows how to convert docx to plain text, preserve line breaks, and export equations as LaTeX.
 og_title: Save docx as txt – Export Word Equations to LaTeX
 tags:
 - aspose-words
 - java
 - txt-export
-title: Save docx as txt – Export Word Equations to LaTeX
+title: Save docx as txt with Aspose.Words for Java – Export Word Equations to LaTeX
 url: /java/document-conversion-and-export/save-docx-as-txt-export-word-equations-to-latex/
 ---
 
@@ -32,7 +30,7 @@ Ever wondered how to **save docx as txt** without losing the math you painstakin
 
 In this tutorial we’ll walk through a complete, ready‑to‑run solution that **converts Word to txt**, preserves every line break exactly as it appears, and spits out LaTeX for any OfficeMath objects. By the end you’ll have a single Java program that does it all—no manual fiddling required.
 
-## What You’ll Learn
+## What you’ll learn
 
 - How to **save docx as txt** using Aspose.Words for Java.
 - The correct way to **convert word to txt** while keeping line breaks (`how to preserve line breaks`).
@@ -51,7 +49,7 @@ In this tutorial we’ll walk through a complete, ready‑to‑run solution that
 
 ---
 
-## Step 1: Set Up the Project and Add Aspose.Words
+## Step 1: set up the project and add Aspose.Words
 
 First, create a new Maven (or Gradle) project. Add the Aspose.Words dependency to your `pom.xml`:
 
@@ -71,7 +69,7 @@ implementation 'com.aspose:aspose-words:23.12'
 
 Once the library is on the classpath, you’re ready to **convert docx to plain text**.
 
-## Step 2: Load the Word Document
+## Step 2: load the word document
 
 We’ll start by loading the source `.docx`. This is the part where many newbies forget to handle `IOException`, so we wrap everything in a try‑catch or just declare `throws Exception` for brevity.
 
@@ -86,7 +84,7 @@ public class TxtMathExport {
 
 > **Why this matters:** `Document` abstracts the whole file structure, giving us access to paragraphs, runs, and the hidden OfficeMath nodes that hold equations.
 
-## Step 3: Configure TXT Save Options
+## Step 3: configure TXT save options
 
 Now comes the heart of the tutorial—telling Aspose exactly how we want the text file to look. Two settings are crucial:
 
@@ -123,7 +121,7 @@ That’s it—run the program and you’ll see `output.txt` sitting next to your
 
 ![Save docx as txt example](image.png "Save docx as txt – sample output showing LaTeX equations")
 
-### Expected Output Sample
+### Expected output sample
 
 If `input.docx` contains the equation *∑_{i=1}^{n} i = n(n+1)/2*, the resulting line in `output.txt` will look like:
 
@@ -135,7 +133,7 @@ Everything else stays plain, making the file perfect for downstream processing (
 
 ---
 
-## Common Questions & Edge Cases
+## Common questions & edge cases
 
 ### What if the document has no equations?
 
@@ -155,7 +153,7 @@ Yes. Aspose.Words for Java is platform‑agnostic; just make sure the `JAVA_HOME
 
 ---
 
-## Full Working Example (Copy‑Paste Ready)
+## Full working example (Copy‑Paste ready)
 
 Below is the complete program, ready to compile and run. Replace `YOUR_DIRECTORY` with the actual folder that holds `input.docx`.
 
@@ -194,7 +192,7 @@ or, if you’re using Gradle:
 
 ---
 
-## Recap & Next Steps
+## Recap & next steps
 
 We’ve just shown you **how to save docx as txt** while keeping every line break intact and turning Word equations into clean LaTeX. The approach scales, respects memory limits, and works on any OS that runs Java.
 
@@ -212,5 +210,5 @@ Happy coding, and enjoy the simplicity of turning rich Word files into lightweig
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

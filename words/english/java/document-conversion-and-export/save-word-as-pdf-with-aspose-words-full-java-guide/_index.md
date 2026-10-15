@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-05-04
-description: save word as pdf using Aspose.Words Java API – learn to convert docx
-  to pdf, export shapes, and control PDF output in minutes.
+description: Convert Word to PDF using Aspose.Words for Java API – learn to convert DOCX to PDF, export shapes, and control PDF output in minutes.
 draft: false
 keywords:
 - save word as pdf
@@ -11,14 +10,13 @@ keywords:
 - convert word document pdf
 - aspose convert word pdf
 language: en
-og_description: save word as pdf quickly with Aspose.Words Java. This guide shows
-  how to convert docx to pdf, export shapes, and fine‑tune PDF output.
-og_title: save word as pdf with Aspose.Words – Complete Java Tutorial
+og_description: Convert Word to PDF quickly with Aspose.Words for Java. This guide shows how to convert DOCX to PDF, export shapes, and fine‑tune PDF output.
+og_title: Convert Word to PDF with Aspose.Words – Complete Java Tutorial
 tags:
 - Aspose.Words
 - Java
 - PDF conversion
-title: save word as pdf with Aspose.Words – Full Java Guide
+title: Convert Word to PDF with Aspose.Words – Full Java Guide
 url: /java/document-conversion-and-export/save-word-as-pdf-with-aspose-words-full-java-guide/
 ---
 
@@ -36,7 +34,7 @@ We’ll also sprinkle in tips on *how to export shapes* the way you want, discus
 
 ---
 
-## What You’ll Need
+## What you’ll need
 
 Before we dive, make sure you have:
 
@@ -198,7 +196,7 @@ Give it a try, tweak the `ExportFloatingShapesAsInlineTag` setting, and see how 
 
 Happy coding, and enjoy turning Word documents into flawless PDFs!
 
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

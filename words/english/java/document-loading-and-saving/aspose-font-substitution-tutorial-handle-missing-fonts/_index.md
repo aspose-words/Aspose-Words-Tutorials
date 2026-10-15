@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-05-04
-description: Aspose font substitution tutorial shows how to handle missing fonts in
-  Java using warning callbacks and LoadOptions for reliable document loading.
+description: Aspose.Words font substitution tutorial shows how to handle missing fonts in Java for DOCX files using warning callbacks and LoadOptions for reliable document loading.
 draft: false
 keywords:
 - aspose font substitution tutorial
@@ -11,14 +10,13 @@ keywords:
 - Java LoadOptions warning handling
 - missing font detection Aspose
 language: en
-og_description: Aspose font substitution tutorial explains how to handle missing fonts
-  in Java, capture substitution events, and keep your documents looking right.
+og_description: Aspose.Words font substitution tutorial explains how to handle missing fonts in Java for DOCX documents, capture substitution events, and keep your documents looking right.
 og_title: Aspose Font Substitution Tutorial – Handle Missing Fonts
 tags:
 - Aspose.Words
 - Java
 - Font Management
-title: Aspose Font Substitution Tutorial – Handle Missing Fonts
+title: Aspose.Words Font Substitution Tutorial – Handle Missing Fonts in DOCX
 url: /java/document-loading-and-saving/aspose-font-substitution-tutorial-handle-missing-fonts/
 ---
 
@@ -32,7 +30,7 @@ Ever needed an **aspose font substitution tutorial** because a DOCX you load sud
 
 In this guide we’ll walk through a complete, ready‑to‑run Java example that captures font‑substitution warnings, explains why each piece matters, and shows you how to verify the result. By the end you’ll know exactly how to keep your documents looking sharp even when the original typefaces aren’t on the machine.
 
-## What You’ll Learn
+## What you’ll learn
 
 - How to register a custom `IWarningCallback` that listens for `FONT_SUBSTITUTION` events.  
 - Why using `LoadOptions` is the recommended approach for reliable font handling.  
@@ -45,7 +43,7 @@ In this guide we’ll walk through a complete, ready‑to‑run Java example tha
 
 ![Aspose font substitution tutorial diagram](https://example.com/images/font-substitution-diagram.png "Aspose font substitution tutorial diagram")
 
-## Step 1 – Define a Warning Callback to Capture Substitutions  
+## Step 1 – define a warning callback to capture substitutions
 
 The first thing Aspose.Words does when it can’t find a requested font is fire a `WarningInfo` event. By implementing `IWarningCallback` you can log, display, or even abort the load if you prefer.
 
@@ -80,7 +78,7 @@ loadOptions.setWarningCallback(new FontWarningCollector());
 
 ---
 
-## Step 3 – Load a Document That Might Need Font Substitution  
+## Step 3 – load a document that might need font substitution
 
 Now we actually read a file that we know is missing a font. Replace `YOUR_DIRECTORY` with the folder that holds your test files.
 
@@ -130,7 +128,7 @@ The output should contain the fallback font (e.g., *Arial*) instead of the missi
 
 ---
 
-## Pro Tips & Common Pitfalls
+## Pro tips & common pitfalls
 
 - **Pro tip:** Set `loadOptions.setFontSettings(new FontSettings())` if you need to point Aspose at a custom font folder before loading. This reduces the number of substitutions.
 - **Watch out for:** Forgetting to call `setWarningCallback`. The code will still run, but you’ll miss the crucial diagnostic messages.
@@ -139,7 +137,7 @@ The output should contain the fallback font (e.g., *Arial*) instead of the missi
 
 ---
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Does this work with PDF or image formats?**  
 A: The warning callback is specific to the loading phase of Word processing formats (`.docx`, `.doc`, `.rtf`, etc.). PDF rendering uses a different pipeline, but you can still capture font‑related warnings via `PdfLoadOptions`.
@@ -164,7 +162,7 @@ From here you might explore:
 
 Give it a spin, tweak the fallback fonts, and let your documents stay beautiful even when the original typefaces disappear. Happy coding!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-05-04
-description: Create word document java using Aspose.Words and learn how to check grammar
-  with a custom LLM. Step‑by‑step guide for Java developers.
+description: Generate Word documents in Java using Aspose.Words and check grammar with a custom LLM. Step‑by‑step guide for Java developers.
 draft: false
 keywords:
 - create word document java
@@ -10,14 +9,13 @@ keywords:
 - how to check grammar
 - use custom llm
 language: en
-og_description: Create word document java and see how to check grammar using a custom
-  LLM. Complete Java tutorial with runnable code.
-og_title: Create word document java with Custom LLM Grammar Check
+og_description: Generate Word documents in Java and see how to check grammar using a custom LLM. Complete Java tutorial with runnable code.
+og_title: Generate Word Document in Java with Aspose.Words and Custom LLM Grammar Check
 tags:
 - Java
 - Aspose.Words
 - LLM
-title: Create word document java with Custom LLM Grammar Check
+title: Generate Word Document in Java with Aspose.Words and Custom LLM Grammar Check
 url: /java/ai-machine-learning-integration/create-word-document-java-with-custom-llm-grammar-check/
 ---
 
@@ -25,11 +23,11 @@ url: /java/ai-machine-learning-integration/create-word-document-java-with-custom
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create word document java with Custom LLM Grammar Check
+# Generate Word Document in Java with Aspose.Words and Custom LLM Grammar Check
 
 Ever wondered how to **create word document java** projects that also proofread themselves? You're not alone—many developers want a single pipeline that spits out a polished *.docx* file without juggling multiple tools. In this tutorial we’ll walk through exactly that, showing you **how to create docx** files with Aspose.Words, hook up a locally hosted LLM, and finally **how to check grammar** automatically. By the end you’ll have a self‑contained Java program that writes, validates, and saves a Word document—all while **using custom LLM** endpoints you control.
 
-## What You’ll Need
+## What you’ll need
 
 Before we dive in, make sure you have the following on your workstation:
 
@@ -43,7 +41,7 @@ Before we dive in, make sure you have the following on your workstation:
 
 If any of these sound unfamiliar, don’t panic—each item is free or has a community‑edition that works perfectly for learning purposes.
 
-## Step 1 – Set Up Your Maven Project
+## Step 1 – set up your maven project
 
 To **create word document java** projects quickly, start with a minimal Maven `pom.xml`. This file pulls in the Aspose.Words library and any HTTP client you prefer (we’ll use Apache HttpClient).
 
@@ -187,7 +185,7 @@ builder.endTable();
 
 You can sprinkle this code anywhere between the document‑creation block (Step 2.1) and the grammar‑check call (Step 2.3). The LLM will still receive the full text, so it can correct any natural‑language parts while leaving tables untouched.
 
-## Step 4 – Dealing with Endpoint Issues (Use Custom LLM Safely)
+## Step 4 – dealing with endpoint issues (Use custom LLM safely)
 
 When **using custom llm** endpoints, a few hiccups are common:
 
@@ -195,9 +193,10 @@ When **using custom llm** endpoints, a few hiccups are common:
 |---------|--------------|-----|
 | `Connection refused` error | LLM server not running or wrong port | Start Ollama (`ollama serve`) and verify `http://localhost:11434/api/generate` works with `curl`. |
 | Response JSON missing `completion` field | Model name mismatch | Ensure the model you set (`llama3.1:8b`) is installed (`ollama list`). |
-| Grammar check returns the original text unchanged | Prompt not recognized by LLM | Adjust the model’s system
+| Grammar check returns the original text unchanged | Prompt not recognized by LLM | Adjust the model’s system prompt or verify the request payload. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}

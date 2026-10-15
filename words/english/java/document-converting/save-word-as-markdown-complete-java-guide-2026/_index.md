@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-05-04
-description: Learn how to save Word as markdown and convert docx to markdown with
-  Aspose.Words for Java, including drop empty paragraphs or omit empty paragraphs.
+description: Learn how to save Word as markdown and convert docx to markdown using the Aspose.Words for Java API, including how to drop empty paragraphs or omit empty paragraphs.
 draft: false
 keywords:
 - save word as markdown
@@ -18,7 +17,7 @@ tags:
 - Aspose.Words
 - Java
 - Markdown
-title: Save Word as Markdown – Complete Java Guide (2026)
+title: Save Word as Markdown with Aspose.Words for Java – Complete Guide (2026)
 url: /java/document-converting/save-word-as-markdown-complete-java-guide-2026/
 ---
 
@@ -61,7 +60,7 @@ No external scripts, no fiddly regexes—just straightforward Java code that wor
 
 ---
 
-## Step 1 – Load the Source DOCX Document
+## Step 1 – load the source DOCX document
 
 The first thing we need is a `Document` object that represents the Word file. This is where the **save word as markdown** workflow begins.
 
@@ -82,7 +81,7 @@ Aspose.Words parses the Word file into an object model, giving you access to eve
 
 ---
 
-## Step 2 – Configure Markdown Save Options
+## Step 2 – configure markdown save options
 
 Now we tell Aspose how we want the markdown to look. The `MarkdownSaveOptions` class lets you set the empty‑paragraph handling mode, among other tweaks.
 
@@ -107,7 +106,7 @@ You can swap the enum value depending on whether you want to **drop empty paragr
 
 ---
 
-## Step 3 – Save the Document as Markdown
+## Step 3 – save the document as markdown
 
 With the document loaded and options set, the final step is a one‑liner that writes out the `.md` file.
 
@@ -121,7 +120,7 @@ Running the program will generate `output.md` in the same folder. If you used `P
 
 ---
 
-## Full Working Example
+## Full working example
 
 Below is the complete, ready‑to‑run Java class that puts everything together. Copy‑paste it, adjust the file paths, and you’re good to go.
 
@@ -184,7 +183,7 @@ Notice how the blank line after the title disappears when you **omit empty parag
 
 ---
 
-## Step‑by‑Step Summary (Quick Reference)
+## Step‑by‑Step summary (Quick reference)
 
 | Step | What you do | Why it matters |
 |------|-------------|----------------|
@@ -195,7 +194,7 @@ Notice how the blank line after the title disappears when you **omit empty parag
 
 ---
 
-## Common Questions & Edge Cases
+## Common questions & edge cases
 
 **Q: What if my Word file contains images?**  
 A: Aspose.Words will embed images as base‑64 data URIs in the markdown by default. You can change the `ImagesFolder` property on `MarkdownSaveOptions` to store them as separate files.
@@ -211,7 +210,7 @@ A: Aspose.Words streams the source file, so memory usage stays modest. For multi
 
 ---
 
-## Next Steps & Related Topics
+## Next steps & related topics
 
 * **Convert Word to HTML** – similar API, just swap `HtmlSaveOptions`.  
 * **Batch conversion** – loop over a directory of `.docx` files and call the same method.  
@@ -234,5 +233,5 @@ Give it a try, tweak the empty‑paragraph mode to suit your style guide, and th
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
