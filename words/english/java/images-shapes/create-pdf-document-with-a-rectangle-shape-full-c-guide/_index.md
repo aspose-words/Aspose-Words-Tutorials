@@ -17,7 +17,7 @@ tags:
 - C#
 - PDF
 - Aspose.Words
-title: Create PDF Document with a Rectangle Shape using Aspose.Words – Full C# Guide
+title: Create PDF Document, Add Rectangle Shape, and Set Transparency with Aspose.Words – Full C# Guide
 url: /java/images-shapes/create-pdf-document-with-a-rectangle-shape-full-c-guide/
 ---
 
@@ -227,6 +227,6 @@ If you found this guide useful, give it a star on GitHub, share it with a teamma
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

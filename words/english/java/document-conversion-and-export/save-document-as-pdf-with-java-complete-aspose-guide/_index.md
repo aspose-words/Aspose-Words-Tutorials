@@ -11,12 +11,12 @@ keywords:
 - aspose convert docx pdf
 language: en
 og_description: Save a document as PDF quickly using Aspose.Words for Java. This guide shows how to convert DOCX to PDF, configure inline tagging, and avoid common pitfalls.
-og_title: Save document as PDF with Aspose.Words for Java – Complete Guide
+og_title: Convert DOCX to PDF with Aspose.Words for Java – Complete Guide
 tags:
 - Aspose.Words
 - Java
 - PDF conversion
-title: Save document as PDF with Aspose.Words for Java – Complete Guide
+title: Convert DOCX to PDF with Aspose.Words for Java – Complete Guide
 url: /java/document-conversion-and-export/save-document-as-pdf-with-java-complete-aspose-guide/
 ---
 
@@ -207,7 +207,7 @@ Got a tricky conversion scenario or a bug you can’t squash? Drop a comment, an
 ![save document as pdf workflow diagram](https://example.com/images/save-document-as-pdf.png "save document as pdf workflow")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

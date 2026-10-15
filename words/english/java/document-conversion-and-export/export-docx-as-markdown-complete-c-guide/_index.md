@@ -17,7 +17,7 @@ tags:
 - Aspose.Words
 - Markdown
 - Document Conversion
-title: How to Export DOCX as Markdown with Aspose.Words for .NET – Complete C# Guide
+title: Convert DOCX to Markdown with Aspose.Words for .NET – Complete C# Guide
 url: /java/document-conversion-and-export/export-docx-as-markdown-complete-c-guide/
 ---
 
@@ -227,5 +227,6 @@ Happy coding, and may your markdown always be as clean as your code!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

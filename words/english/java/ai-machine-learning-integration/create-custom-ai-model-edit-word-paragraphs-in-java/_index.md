@@ -16,7 +16,7 @@ tags:
 - Aspose.Words
 - Java
 - AI integration
-title: Create Custom AI Model – Edit Word Paragraphs in Java with Aspose.Words
+title: Create a Custom AI Model to Edit Word Paragraphs in Java with Aspose.Words
 url: /java/ai-machine-learning-integration/create-custom-ai-model-edit-word-paragraphs-in-java/
 ---
 
@@ -222,4 +222,5 @@ We’ve shown you how to **create custom AI model** with Aspose.Words, connect i
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}

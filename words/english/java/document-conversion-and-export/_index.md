@@ -1,5 +1,5 @@
 ---
-title: Add Watermark to Documents – Convert and Export with Aspose.Words for Java
+title: Add Watermark to DOCX Documents – Convert and Export with Aspose.Words for Java
 linktitle: How to Add Watermark – Document Conversion and Export
 second_title: Aspose.Words Java Document Processing API
 description: Learn how to add watermarks, convert DOCX to PDF, and generate barcode labels using Aspose.Words for Java – a comprehensive guide for document conversion and export.
@@ -153,9 +153,9 @@ A: Yes, a commercial license is required for production deployments; a free tria
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}

@@ -17,7 +17,7 @@ tags:
 - PDF
 - Aspose.Words
 - Document Conversion
-title: Convert DOCX to PDF in Java with Aspose.Words – Simple Low‑Code Guide
+title: Convert DOCX to PDF in Java with Aspose.Words Low‑Code API – Simple Guide
 url: /java/document-converting/convert-docx-to-pdf-in-java-simple-low-code-guide/
 ---
 
@@ -176,4 +176,5 @@ Give it a try in your own project, experiment with the optional settings, and le
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}

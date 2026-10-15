@@ -1,5 +1,5 @@
 ---
-title: "Aspose.Words for Java: Learn to Insert and Manipulate Images & Shapes"
+title: "Aspose.Words for Java API: Insert and Manipulate Images & Shapes"
 description: "Learn how to integrate and customize images and shapes in Aspose.Words for Java, enabling professional‑grade document outputs in your Java applications."
 weight: 6
 url: "/java/images-shapes/"
@@ -67,10 +67,9 @@ Step-by-step guide to create a PDF with a rectangle shape using Aspose.Words for
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
