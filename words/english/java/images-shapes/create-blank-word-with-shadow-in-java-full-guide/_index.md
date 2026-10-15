@@ -16,7 +16,7 @@ tags:
 - Aspose.Words
 - Java
 - Document Automation
-title: Create a blank Word document with shadow using Aspose.Words for Java – Full guide
+title: Create a blank .docx Word document with shadow using Aspose.Words for Java – Full guide
 url: /java/images-shapes/create-blank-word-with-shadow-in-java-full-guide/
 ---
 
@@ -24,7 +24,7 @@ url: /java/images-shapes/create-blank-word-with-shadow-in-java-full-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create a blank Word document with shadow using Aspose.Words for Java – Full guide
+# Create a blank .docx Word document with shadow using Aspose.Words for Java – Full guide
 
 Ever needed to **create blank word** files from code and make them look a bit fancier? You're not the only one. In many reporting or template‑generation projects, the first thing you do is spin up an empty Word document, then sprinkle in a shape with a shadow to give it that polished feel.  
 
@@ -182,7 +182,7 @@ We started by **create blank word** using `new Document()`, then inserted a rect
 Feel free to tweak the blur radius, offsets, or colors until the shadow feels just right for your document’s design language. Happy coding, and may your generated Word files always look a little more polished!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

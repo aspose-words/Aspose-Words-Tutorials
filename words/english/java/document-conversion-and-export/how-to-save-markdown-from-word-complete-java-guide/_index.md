@@ -11,13 +11,13 @@ keywords:
 - java convert word markdown
 language: en
 og_description: Learn how to save markdown from a DOCX file while preserving images using Aspose.Words for Java. This guide walks you through every step.
-og_title: Convert Word to Markdown with Aspose.Words – Java Step‑by‑Step
+og_title: Convert DOCX to Markdown with Aspose.Words – Java Step‑by‑Step
 tags:
 - Aspose.Words
 - Java
 - Markdown
 - DOCX conversion
-title: Convert Word to Markdown with Aspose.Words – Complete Java Guide
+title: Convert DOCX to Markdown with Aspose.Words for Java – Complete Guide
 url: /java/document-conversion-and-export/how-to-save-markdown-from-word-complete-java-guide/
 ---
 
@@ -25,7 +25,7 @@ url: /java/document-conversion-and-export/how-to-save-markdown-from-word-complet
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Convert Word to Markdown with Aspose.Words – Complete Java Guide
+# Convert DOCX to Markdown with Aspose.Words for Java – Complete Guide
 
 Ever wondered **how to save markdown** from a Word document without losing any of those embedded pictures? You're not the only one. In many projects—documentation sites, static blogs, or automated pipelines—we need to turn a `.docx` into clean Markdown while keeping the visual assets intact.  
 

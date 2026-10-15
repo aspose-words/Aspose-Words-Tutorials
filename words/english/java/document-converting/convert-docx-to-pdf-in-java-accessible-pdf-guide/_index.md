@@ -17,7 +17,7 @@ tags:
 - Java
 - PDF
 - Accessibility
-title: Convert DOCX to PDF in Java with Aspose.Words – Accessible PDF Guide
+title: Convert DOCX to PDF/UA in Java using Aspose.Words API – Accessible PDF Guide
 url: /java/document-converting/convert-docx-to-pdf-in-java-accessible-pdf-guide/
 ---
 
@@ -222,6 +222,6 @@ Remember, making PDFs accessible isn’t a one‑off task; it’s a habit you’
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

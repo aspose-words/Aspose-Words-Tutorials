@@ -1,6 +1,6 @@
 ---
-title: Extract and Save Images from Word using Aspose.Words for Java API
-linktitle: Extract and Save Images from Word using Aspose.Words for Java API
+title: Extract and Save Images from Word Documents using Aspose.Words for Java
+linktitle: Extract and Save Images from Word Documents using Aspose.Words for Java
 second_title: Aspose.Words Java Document Processing API
 description: Learn how to extract images from Word documents and use the Aspose.Words for Java API to load, convert, and save files (PDF, HTML, etc.). Includes code examples for image extraction and document saving.
 weight: 20
@@ -113,10 +113,10 @@ Document settings are the key to delivering documents tailored to your exact req
 ### {{< relref "saving-documents-as-rtf-format" >}}Saving Documents as RTF Format in Aspose.Words for Java{{< /relref >}}
 ### {{< relref "saving-documents-as-text-files" >}}Saving Documents as Text Files in Aspose.Words for Java{{< /relref >}}
 ### {{< relref "determining-document-format" >}}Determining Document Format in Aspose.Words for Java{{< /relref >}}
-### {{< relref "recover-corrupted-docx-complete-guide-to-fix-and-process-doc" >}}Recover Corrupted DOCX – Complete Guide to Fix and Process Documents{{< /relref >}}
-### {{< relref "aspose-words-loadoptions-recover-corrupted-word-docs-in-java" >}}Aspose Words LoadOptions – Recover Corrupted Word Docs in Java{{< /relref >}}
+### {{< relref "recover-corrupted-docx-complete-guide-to-fix-and-process-doc" >}}Recover corrupted DOCX – complete guide to fix and process documents{{< /relref >}}
+### {{< relref "aspose-words-loadoptions-recover-corrupted-word-docs-in-java" >}}Aspose words loadOptions – recover corrupted word docs in java{{< /relref >}}
 ### {{< relref "capture-font-substitution-warnings-in-java-with-aspose-words" >}}Capture Font Substitution Warnings in Java with Aspose.Words{{< /relref >}}
-### {{< relref "aspose-font-substitution-tutorial-handle-missing-fonts" >}}Aspose Font Substitution Tutorial – Handle Missing Fonts{{< /relref >}}
+### {{< relref "aspose-font-substitution-tutorial-handle-missing-fonts" >}}Aspose font substitution tutorial – handle missing fonts{{< /relref >}}
 
 ## Frequently asked questions
 
@@ -143,9 +143,9 @@ Document settings are the key to delivering documents tailored to your exact req
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}

@@ -16,7 +16,7 @@ tags:
 - Aspose.Words
 - Java
 - PDF conversion
-title: Convert Word to PDF with Aspose.Words – Full Java Guide
+title: Save Word as PDF with Aspose.Words – Full Java Guide
 url: /java/document-conversion-and-export/save-word-as-pdf-with-aspose-words-full-java-guide/
 ---
 
@@ -197,6 +197,7 @@ Give it a try, tweak the `ExportFloatingShapesAsInlineTag` setting, and see how 
 Happy coding, and enjoy turning Word documents into flawless PDFs!
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

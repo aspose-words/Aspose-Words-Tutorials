@@ -17,7 +17,7 @@ tags:
 - Java
 - Markdown
 - Document Export
-title: How to Set Image Resolution When Saving Word as Markdown with Aspose.Words for Java
+title: How to Set Image Resolution When Exporting Word to Markdown with Aspose.Words for Java
 url: /java/document-conversion-and-export/how-to-set-resolution-when-saving-word-as-markdown/
 ---
 
@@ -93,7 +93,7 @@ If you ever need the old image‑based fallback, simply switch to `OfficeMathExp
 
 ---
 
-## Save Word as Markdown – Full End‑to‑End Example
+## Save word as markdown – full end‑to‑End example
 
 Below is a complete, runnable Maven project snippet that demonstrates the whole flow, from dependency declaration to execution.
 
@@ -146,7 +146,7 @@ public class MarkdownMathExport {
 
 ---
 
-## Common Questions & Edge Cases
+## Common questions & edge cases
 
 ### What if I need a different DPI for only one image?
 
@@ -180,3 +180,4 @@ If you found this guide useful, give it a star on GitHub, share it with teammate
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
