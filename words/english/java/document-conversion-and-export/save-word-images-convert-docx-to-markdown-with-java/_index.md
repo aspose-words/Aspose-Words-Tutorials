@@ -11,13 +11,13 @@ keywords:
 - create markdown from docx
 language: en
 og_description: Extract and save Word images while converting a DOCX file to Markdown. This guide walks you through extracting images from Word and creating markdown from docx using Java.
-og_title: Extract and Save Word Images – Convert DOCX to Markdown with Aspose.Words for Java
+og_title: Extract and Save Word Images – Convert DOCX to Markdown Using Aspose.Words for Java API
 tags:
 - Aspose.Words
 - Java
 - Markdown
 - Image Extraction
-title: Extract and Save Word Images – Convert DOCX to Markdown with Aspose.Words for Java
+title: Extract and Save Word Images – Convert DOCX to Markdown Using Aspose.Words for Java API
 url: /java/document-conversion-and-export/save-word-images-convert-docx-to-markdown-with-java/
 ---
 
@@ -25,7 +25,7 @@ url: /java/document-conversion-and-export/save-word-images-convert-docx-to-markd
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Extract and Save Word Images – Convert DOCX to Markdown with Aspose.Words for Java
+# Extract and Save Word Images – Convert DOCX to Markdown Using Aspose.Words for Java API
 
 Need to **save Word images** when you convert a DOCX file to Markdown? You're not the only one hitting this snag. Many developers ask, *“How do I extract images from Word and still get a clean markdown file?”* In this guide we’ll walk you through the complete process—loading a DOCX, configuring Aspose.Words so every picture lands in an `assets/` folder, and finally writing out a markdown document that references those images. By the end you’ll be able to **convert docx to markdown**, **export docx images**, and **create markdown from docx** with just a few lines of Java.
 
@@ -229,6 +229,6 @@ You now know **how to save Word images** while you **convert docx to markdown** 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

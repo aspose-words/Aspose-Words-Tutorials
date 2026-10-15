@@ -11,13 +11,13 @@ keywords:
 - save document as markdown
 language: en
 og_description: Step‑by‑step guide on how to export LaTeX while converting DOCX to Markdown using C#. Includes full code, options, and best‑practice tips.
-og_title: How to Export LaTeX from DOCX – C# Markdown Conversion Guide
+og_title: Convert DOCX to Markdown and Export LaTeX – C# Guide
 tags:
 - Aspose.Words
 - C#
 - Markdown
 - LaTeX
-title: How to Export LaTeX from DOCX to Markdown with Aspose.Words for .NET (C#)
+title: Convert DOCX to Markdown and Export LaTeX with Aspose.Words for .NET (C#)
 url: /java/document-conversion-and-export/how-to-export-latex-from-docx-convert-word-to-markdown-with/
 ---
 
@@ -217,7 +217,7 @@ If you hit any snags—like missing equations or unexpected image sizes—refer 
 ![Diagram showing the conversion flow from DOCX to Markdown with LaTeX export – how to export latex](https://example.com/convert-flow.png "Diagram illustrating how to export latex while converting DOCX to Markdown")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

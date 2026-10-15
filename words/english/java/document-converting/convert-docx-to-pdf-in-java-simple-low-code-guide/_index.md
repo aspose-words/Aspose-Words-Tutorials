@@ -17,7 +17,7 @@ tags:
 - PDF
 - Aspose.Words
 - Document Conversion
-title: Convert DOCX to PDF in Java with Aspose.Words Low‑Code API – Simple Guide
+title: Generate PDF from DOCX in Java with Aspose.Words Low‑Code API – Simple Guide
 url: /java/document-converting/convert-docx-to-pdf-in-java-simple-low-code-guide/
 ---
 

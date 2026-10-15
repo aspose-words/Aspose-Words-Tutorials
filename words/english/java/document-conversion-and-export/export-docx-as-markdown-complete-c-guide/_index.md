@@ -17,7 +17,7 @@ tags:
 - Aspose.Words
 - Markdown
 - Document Conversion
-title: Convert DOCX to Markdown with Aspose.Words for .NET – Complete C# Guide
+title: Export DOCX as Markdown with Aspose.Words for .NET – Complete C# Guide
 url: /java/document-conversion-and-export/export-docx-as-markdown-complete-c-guide/
 ---
 

@@ -17,7 +17,7 @@ tags:
 - C#
 - Aspose.Words
 - DocumentConversion
-title: Convert DOCX to TXT with Aspose.Words – Full C# Guide
+title: Save DOCX as TXT with Aspose.Words for .NET – Complete C# Guide
 url: /java/document-conversion-and-export/save-docx-as-txt-full-c-guide/
 ---
 

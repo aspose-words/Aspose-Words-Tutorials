@@ -10,12 +10,12 @@ keywords:
 - load word document safely
 language: en
 og_description: Recover corrupted word document quickly. This tutorial shows how to open damaged docx file safely with load word document with recovery options in Java.
-og_title: Recover Corrupted DOCX Word Document Using Aspose.Words – Java Guide
+og_title: Recover Corrupted DOCX Word Document Using Aspose.Words LoadOptions – Java Guide
 tags:
 - Aspose.Words
 - Java
 - Document Recovery
-title: Recover Corrupted DOCX Word Document Using Aspose.Words – Java Guide
+title: Recover Corrupted DOCX Word Document Using Aspose.Words LoadOptions – Java Guide
 url: /java/document-loading-and-saving/recover-corrupted-word-document-using-aspose-words-guide/
 ---
 
@@ -188,7 +188,7 @@ From here you might:
 Experiment with the different `RecoveryMode` values, log detailed diagnostics, and you’ll find that even the messiest Word files can often be rescued. Happy coding, and may your documents stay uncorrupted!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

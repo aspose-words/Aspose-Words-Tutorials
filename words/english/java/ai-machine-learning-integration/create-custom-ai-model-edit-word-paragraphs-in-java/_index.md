@@ -11,12 +11,12 @@ keywords:
 - rewrite word paragraph
 language: en
 og_description: Create a custom AI model to edit Word documents using Aspose.Words for Java. Learn how to make text more formal, replace paragraph text, and rewrite a Word paragraph with AI.
-og_title: Create Custom AI Model – Edit Word Paragraphs in Java
+og_title: Build Custom AI Model – Edit Word Paragraphs in Java
 tags:
 - Aspose.Words
 - Java
 - AI integration
-title: Create a Custom AI Model to Edit Word Paragraphs in Java with Aspose.Words
+title: Build a Custom AI Model to Edit Word Paragraphs in Java with Aspose.Words
 url: /java/ai-machine-learning-integration/create-custom-ai-model-edit-word-paragraphs-in-java/
 ---
 

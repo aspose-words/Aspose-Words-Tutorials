@@ -14,7 +14,7 @@ tags:
 - java
 - aspose-words
 - document-processing
-title: Use Aspose.Words Warning Callback to Load a .docx Word Document in Java
+title: Use Aspose.Words IWarningCallback to Load a .docx Word Document in Java
 url: /java/document-loading-and-saving/warning-callback-tutorial-load-word-document-in-java/
 ---
 
@@ -241,7 +241,7 @@ Give those ideas a try, and you’ll quickly see how powerful a well‑placed wa
 Feel free to drop a comment below or ping me on GitHub. Happy coding, and may your documents always render with the fonts you expect!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

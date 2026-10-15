@@ -1,5 +1,5 @@
 ---
-title: "Aspose.Words for Java API: Insert and Manipulate Images & Shapes"
+title: "Insert and Manipulate Images & Shapes with Aspose.Words for Java API"
 description: "Learn how to integrate and customize images and shapes in Aspose.Words for Java, enabling professional‑grade document outputs in your Java applications."
 weight: 6
 url: "/java/images-shapes/"
@@ -47,13 +47,13 @@ public class InsertImageExample {
 
 ## Available Tutorials
 
-### [Custom page & image saving in java with Aspose.Words callbacks](./aspose-words-java-callback-custom-savings/)
+### [Custom page & image saving in java with Aspose.Words callbacks]({{< relref "./aspose-words-java-callback-custom-savings/" >}})
 A code tutorial for Aspose.Words Java
 
-### [How to Render Document Pages as Thumbnails using Aspose.Words for Java](./render-word-pages-thumbnails-aspose-java/)
+### [How to Render Document Pages as Thumbnails using Aspose.Words for Java]({{< relref "./render-word-pages-thumbnails-aspose-java/" >}})
 Learn how to generate high-quality thumbnails and custom-sized bitmaps of Word documents with Aspose.Words for Java. Enhance your document handling capabilities today.
 
-### [Create PDF Document with a Rectangle Shape – Full C# Guide](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+### [Create PDF Document with a Rectangle Shape – Full C# Guide]({{< relref "./create-pdf-document-with-a-rectangle-shape-full-c-guide/" >}})
 Step-by-step guide to create a PDF with a rectangle shape using Aspose.Words for C#.
 
 ## Additional Resources

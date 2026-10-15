@@ -16,7 +16,7 @@ tags:
 - Aspose.Words
 - C#
 - PDF/UA
-title: Export Word to PDF with Aspose.Words for .NET – Generate PDF/UA‑2 Accessible PDF
+title: Convert Word to PDF and Generate PDF/UA‑2 Accessible PDF with Aspose.Words for .NET
 url: /java/document-conversion-and-export/convert-word-to-pdf-generate-accessible-pdf/
 ---
 
