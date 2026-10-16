@@ -16,7 +16,7 @@ tags:
 - aspose-words
 - java
 - txt-export
-title: Convert and Save docx as txt with Aspose.Words for Java – Export Word Equations to LaTeX
+title: Convert and Save docx as txt using Aspose.Words for Java API – Export Word Equations to LaTeX
 url: /java/document-conversion-and-export/save-docx-as-txt-export-word-equations-to-latex/
 ---
 
@@ -209,7 +209,7 @@ If you hit a snag, drop a comment below or check Aspose’s official docs—they
 Happy coding, and enjoy the simplicity of turning rich Word files into lightweight, LaTeX‑ready text!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

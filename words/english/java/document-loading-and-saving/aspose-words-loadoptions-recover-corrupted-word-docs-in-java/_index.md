@@ -16,7 +16,7 @@ tags:
 - Aspose.Words
 - Java
 - Document Recovery
-title: Recover Corrupted Word Docs with Aspose.Words LoadOptions in Java
+title: Use Aspose.Words LoadOptions to Recover Corrupted Word Docs in Java
 url: /java/document-loading-and-saving/aspose-words-loadoptions-recover-corrupted-word-docs-in-java/
 ---
 

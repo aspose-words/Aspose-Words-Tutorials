@@ -10,12 +10,12 @@ keywords:
 - use custom llm
 language: en
 og_description: Generate Word documents in Java and see how to check grammar using a custom LLM. Complete Java tutorial with runnable code.
-og_title: Generate DOCX Document in Java with Aspose.Words and Custom LLM Grammar Check
+og_title: Generate DOCX Document in Java with Aspose.Words for Java and Custom LLM Grammar Check
 tags:
 - Java
 - Aspose.Words
 - LLM
-title: Generate DOCX Document in Java with Aspose.Words and Custom LLM Grammar Check
+title: Generate DOCX Document in Java with Aspose.Words for Java and Custom LLM Grammar Check
 url: /java/ai-machine-learning-integration/create-word-document-java-with-custom-llm-grammar-check/
 ---
 

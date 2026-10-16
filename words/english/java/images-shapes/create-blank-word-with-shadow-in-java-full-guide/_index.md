@@ -11,12 +11,12 @@ keywords:
 - how to set offset
 language: en
 og_description: Create a blank Word document in Java with Aspose.Words and learn how to set shadow color, blur, and offset for shapes. Follow this step‑by‑step tutorial.
-og_title: Create a blank Word document with shadow using Aspose.Words for Java – Full guide
+og_title: Create a blank .docx Word document with shadow using Aspose.Words for Java API – Full guide
 tags:
 - Aspose.Words
 - Java
 - Document Automation
-title: Create a blank .docx Word document with shadow using Aspose.Words for Java – Full guide
+title: Create a blank .docx Word document with shadow using Aspose.Words for Java API – Full guide
 url: /java/images-shapes/create-blank-word-with-shadow-in-java-full-guide/
 ---
 
@@ -24,7 +24,7 @@ url: /java/images-shapes/create-blank-word-with-shadow-in-java-full-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create a blank .docx Word document with shadow using Aspose.Words for Java – Full guide
+# Create a blank .docx Word document with shadow using Aspose.Words for Java API – Full guide
 
 Ever needed to **create blank word** files from code and make them look a bit fancier? You're not the only one. In many reporting or template‑generation projects, the first thing you do is spin up an empty Word document, then sprinkle in a shape with a shadow to give it that polished feel.  
 

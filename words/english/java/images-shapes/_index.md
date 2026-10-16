@@ -1,5 +1,5 @@
 ---
-title: "Insert Images & Shapes with Aspose.Words for Java API | Master Your Docs"
+title: "Insert Images & Shapes into Word Documents with Aspose.Words for Java API | Master Your Docs"
 description: "Learn how to insert and manipulate images and shapes using Aspose.Words for Java, enabling seamless visual integration in your Java applications."
 weight: 6
 url: "/java/images-shapes/"
@@ -37,16 +37,16 @@ doc.save("Output.docx");
 
 ## Available Tutorials
 
-### [Custom page & image saving in java with Aspose.Words callbacks](aspose-words-java-callback-custom-savings/)
+### {{< relref "aspose-words-java-callback-custom-savings/" >}}Custom page & image saving in java with Aspose.Words callbacks{{< /relref >}}
 A code tutorial for Aspose.Words Java
 
-### [How to Render Document Pages as Thumbnails using Aspose.Words for Java](render-word-pages-thumbnails-aspose-java/)
+### {{< relref "render-word-pages-thumbnails-aspose-java/" >}}How to Render Document Pages as Thumbnails using Aspose.Words for Java{{< /relref >}}
 Learn how to generate high-quality thumbnails and custom-sized bitmaps of Word documents with Aspose.Words for Java. Enhance your document handling capabilities today.
 
-### [Create word document java – add rectangle shape with shadow effect](create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+### {{< relref "create-word-document-java-add-rectangle-shape-with-shadow-ef/" >}}Create word document java – add rectangle shape with shadow effect{{< /relref >}}
 Learn how to add a rectangle shape with a shadow effect to a Word document using Aspose.Words for Java.
 
-### [Create blank word with shadow in Java – Full guide](create-blank-word-with-shadow-in-java-full-guide/)
+### {{< relref "create-blank-word-with-shadow-in-java-full-guide/" >}}Create blank word with shadow in Java – Full guide{{< /relref >}}
 Learn how to create a blank Word document with a shadow effect using Aspose.Words for Java in this comprehensive guide.
 
 ## Additional Resources
@@ -64,4 +64,5 @@ Learn how to create a blank Word document with a shadow effect using Aspose.Word
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}

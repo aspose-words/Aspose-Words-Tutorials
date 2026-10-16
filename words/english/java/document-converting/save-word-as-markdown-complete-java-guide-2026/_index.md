@@ -17,7 +17,7 @@ tags:
 - Aspose.Words
 - Java
 - Markdown
-title: Convert Word to Markdown with Aspose.Words for Java – Complete Guide (2026)
+title: Save Word as Markdown with Aspose.Words for Java – Complete Guide (2026)
 url: /java/document-converting/save-word-as-markdown-complete-java-guide-2026/
 ---
 
@@ -161,7 +161,7 @@ First paragraph.
 Second paragraph.
 ```
 
-*With `PRESERVE`* you’ll get:
+*With `PRESERVE* you’ll get:
 
 ```markdown
 # Title
@@ -171,7 +171,7 @@ First paragraph.
 Second paragraph.
 ```
 
-*With `OMIT`* you’ll see:
+*With `OMIT* you’ll see:
 
 ```markdown
 # Title

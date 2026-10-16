@@ -1,5 +1,5 @@
 ---
-title: "How to Integrate AI with Aspose.Words for Java API to Automate Document Processing – AI & ML"
+title: "Leverage AI with Aspose.Words for Java API to Automate Document Processing – AI & ML"
 description: "Learn how to integrate AI with the Aspose.Words for Java API for smart document processing. Discover AI document automation, content generation, and translation."
 weight: 20
 url: "/java/ai-machine-learning-integration/"

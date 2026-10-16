@@ -16,7 +16,7 @@ tags:
 - Aspose.Words
 - Java
 - PDF conversion
-title: Save Word as PDF with Aspose.Words – Full Java Guide
+title: Convert Word to PDF with Aspose.Words for Java – Full Guide
 url: /java/document-conversion-and-export/save-word-as-pdf-with-aspose-words-full-java-guide/
 ---
 

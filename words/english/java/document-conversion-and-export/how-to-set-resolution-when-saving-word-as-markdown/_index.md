@@ -17,7 +17,7 @@ tags:
 - Java
 - Markdown
 - Document Export
-title: How to Set Image Resolution When Exporting Word to Markdown with Aspose.Words for Java
+title: How to Set Image Resolution When Saving Word as Markdown with Aspose.Words for Java
 url: /java/document-conversion-and-export/how-to-set-resolution-when-saving-word-as-markdown/
 ---
 
@@ -178,6 +178,6 @@ If you found this guide useful, give it a star on GitHub, share it with teammate
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
