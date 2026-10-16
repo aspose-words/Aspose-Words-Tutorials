@@ -1,7 +1,7 @@
 ---
 category: general
 date: 2026-06-20
-description: Save Word document using Aspose.Words in Java while adding a rectangle shape and applying a shadow. Learn how to insert shape step‑by‑step.
+description: Save a Word document using the Aspose.Words for Java API while adding a rectangle shape and applying a shadow. Learn step‑by‑step how to insert and style shapes.
 draft: false
 keywords:
 - save word document
@@ -40,7 +40,7 @@ tags:
 - Aspose.Words
 - Java
 - Word Automation
-title: Save Word Document with Aspose.Words – Add Rectangle Shape & Shadow in Java
+title: Save Word Document using Aspose.Words for Java – Add Rectangle Shape & Shadow
 url: /java/images-shapes/save-word-document-add-rectangle-shape-shadow-in-java/
 ---
 
@@ -196,5 +196,5 @@ The following tutorials cover closely related topics that build on the technique
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

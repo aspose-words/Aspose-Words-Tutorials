@@ -260,7 +260,7 @@ Negligible. The callback runs synchronously during loading, and the extra checks
 
 ## Wrap‑Up
 
-We’ve covered **how to set a callback** in Aspose.Words Java, demonstrated **detect missing fonts**, shown practical ways to **handle missing fonts**, and explained how to **customize document loading** with `LoadOptions`.  
+We’ve covered **how to set a callback** in Aspose.Words Java, demonstrated **detect missing fonts**, showed practical ways to **handle missing fonts**, and explained how to **customize document loading** with `LoadOptions`.  
 
 Armed with this knowledge, you can now safeguard your document pipelines against silent font swaps, keep branding intact, and give your users clear feedback when something goes awry.
 
@@ -275,6 +275,8 @@ Feel free to experiment, and let us know how you customized the callback for you
 ---
 
 <!-- TODO: Add a section on handling multiple missing fonts in batch processing -->
+
+**TODO: Add a section on handling multiple missing fonts in batch processing.**
 
 ## What should you learn next?
 

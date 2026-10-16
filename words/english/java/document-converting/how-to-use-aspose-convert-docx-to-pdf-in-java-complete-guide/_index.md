@@ -25,7 +25,7 @@ tags:
 - Aspose
 - Java
 - PDF conversion
-title: 'How to Use Aspose: Convert DOCX to PDF in Java – Complete Guide'
+title: 'How to Use Aspose.Words: Convert DOCX to PDF in Java – Complete Guide'
 url: /java/document-converting/how-to-use-aspose-convert-docx-to-pdf-in-java-complete-guide/
 ---
 
@@ -33,7 +33,7 @@ url: /java/document-converting/how-to-use-aspose-convert-docx-to-pdf-in-java-com
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Use Aspose: Convert DOCX to PDF in Java – Complete Guide
+# How to Use Aspose.Words: Convert DOCX to PDF in Java – Complete Guide
 
 Ever wondered **how to use Aspose** to turn a Word document into a sleek PDF without wrestling with complex libraries? You're not alone. In many Java projects the need to **convert docx to pdf** pops up—whether you're building a reporting engine, an invoice generator, or just need a portable copy of a contract.  
 
@@ -212,13 +212,10 @@ Now you can integrate DOCX‑to‑PDF conversion into any Java service, whether 
 
 Got questions or a tricky scenario? Drop a comment below, and happy coding! 
 
-**TODO:** Add a detailed walkthrough of licensing setup and replace the placeholder image with an actual screenshot.
-
-![How to use Aspose to convert DOCX to PDF in Java](image-placeholder.png "How to use Aspose to convert DOCX to PDF in Java")
+![How to use Aspose.Words to convert DOCX to PDF in Java](aspose-convert-docx-to-pdf-java.png "How to use Aspose.Words to convert DOCX to PDF in Java")
 
 
 ## What should you learn next?
-
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
@@ -230,3 +227,4 @@ The following tutorials cover closely related topics that build on the technique
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}

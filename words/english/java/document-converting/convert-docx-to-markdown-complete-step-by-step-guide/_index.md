@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-06-20
-description: convert docx to markdown with images and LaTeX equations. Learn how to
-  save word document as markdown using Aspose.Words in minutes.
+description: Convert docx to markdown with images and LaTeX equations using Aspose.Words for Java. Learn how to save a Word document as markdown quickly.
 draft: false
 keywords:
 - convert docx to markdown
@@ -25,7 +24,7 @@ tags:
 - Java
 - Markdown
 - DocumentConversion
-title: convert docx to markdown – Complete Step‑by‑Step Guide
+title: Convert docx to markdown with Aspose.Words – Complete Step‑by‑Step Guide
 url: /java/document-converting/convert-docx-to-markdown-complete-step-by-step-guide/
 ---
 
@@ -39,7 +38,7 @@ Ever wondered how to **convert docx to markdown** without losing a single image 
 
 The short answer: using Aspose.Words for Java you can load a `.docx`, tweak a few `MarkdownSaveOptions`, and call `document.save(...)`. No external converters, no manual copy‑pasting, and definitely no missing pictures. Let’s dive in.
 
-## What You’ll Need
+## What you’ll need
 
 Before we start, make sure you have the following prerequisites:
 
@@ -62,7 +61,7 @@ If you already have a Maven project, add the dependency:
 
 > **Pro tip:** The free trial works for most scenarios, but a full license removes the evaluation watermark from the generated markdown.
 
-## Step 1 – Load the Source Document
+## Step 1 – load the source document
 
 The first thing you have to do is open the Word file you want to transform. Think of the `Document` class as a wrapper around the whole `.docx` package.
 
@@ -75,7 +74,7 @@ Document document = new Document("YOUR_DIRECTORY/input.docx");
 
 > **Why this matters:** Loading the document gives you access to every part of the file—paragraphs, tables, images, and even the hidden Office Math objects that represent equations.
 
-## Step 2 – Configure Markdown Save Options
+## Step 2 – configure markdown save options
 
 Now comes the fun part: we tell Aspose how we want the markdown output to look. This is where you **convert word to markdown with images** and also decide how equations are rendered.
 
@@ -98,7 +97,7 @@ mdOptions.setImageResolution(300);
 * `setOfficeMathExportMode(OfficeMathExportMode.LATEX)` – tells the library to turn every Word equation into a LaTeX snippet wrapped in `$…$` (inline) or `$$…$$` (block). This satisfies the **export word equations as latex** requirement.
 * `setImageResolution(300)` – controls the pixel density of raster images that get embedded as base64 data URLs. Higher DPI means larger markdown files but crisper pictures.
 
-## Step 3 – Save the Document as Markdown
+## Step 3 – save the document as markdown
 
 With the options prepared, the final step is a single line of code that writes the markdown file to disk.
 
@@ -123,7 +122,7 @@ If something looks off, double‑check the original `.docx` for unsupported feat
 
 *Alt text:* **convert docx to markdown** workflow illustration.
 
-## Advanced: Controlling Image Export
+## Advanced: controlling image export
 
 By default Aspose embeds images directly into the markdown using base64. If you prefer separate image files (helpful for large repositories), switch the `ImageSavingCallback`:
 
@@ -145,7 +144,7 @@ mdOptions.setImageSavingCallback(new IImageSavingCallback() {
 
 Now each picture lands in an `images/` folder, and the markdown references them with a relative path—perfect for static site generators like Hugo or Jekyll.
 
-## Common Pitfalls & How to Avoid Them
+## Common pitfalls & how to avoid them
 
 | Symptom | Likely Cause | Fix |
 |---------|--------------|-----|
@@ -154,7 +153,7 @@ Now each picture lands in an `images/` folder, and the markdown references them 
 | Markdown contains `&#...;` entities | Special characters weren’t escaped | Use `mdOptions.setExportImagesAsBase64(true)` to force base64 encoding, which sidesteps HTML entities. |
 | Output file is empty | Input path wrong or file not found | Verify `input.docx` exists and the path is absolute or correctly relative to the working directory. |
 
-## Full Working Example
+## Full working example
 
 Below is a self‑contained Java class you can copy‑paste into your project and run immediately.
 
@@ -232,7 +231,7 @@ This is a paragraph with an inline equation $E = mc^2$.
 $$\int_{0}^{\infty} e^{-x} dx = 1$$
 ```
 
-## Recap & Next Steps
+## Recap & next steps
 
 We’ve covered everything you need to **convert docx to markdown** while preserving images and LaTeX equations. In a nutshell:
 
@@ -253,7 +252,7 @@ Feel free to experiment; the Aspose API is flexible enough for most edge cases.
 *Happy coding! If you hit a snag, drop a comment below or check the Aspose.Words Java documentation for deeper insights.*
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.

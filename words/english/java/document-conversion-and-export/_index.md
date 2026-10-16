@@ -79,52 +79,52 @@ So, dive into the tutorials listed below and unlock the full potential of Aspose
 For more information, check out the [Aspose.Words for Java API Documentation](https://reference.aspose.com/words/java/), and to get started, download the library from the [Aspose.Words for Java download page](https://releases.aspose.com/words/java/). If you have any questions or need assistance, feel free to reach out to our [support forum](https://forum.aspose.com/).
 
 ## Document conversion and export tutorials
-### [Generating Custom Barcode Labels in Aspose.Words for Java](./generating-custom-barcode-labels/)
+### [Generating Custom Barcode Labels in Aspose.Words for Java]({{< relref "generating-custom-barcode-labels" >}})
 Generate Custom Barcode Labels in Aspose.Words for Java. Learn how to create personalized barcode solutions using Aspose.Words for Java in this step‑by‑step guide.
 
-### [Using Barcode Generation in Aspose.Words for Java](./using-barcode-generation/)
+### [Using Barcode Generation in Aspose.Words for Java]({{< relref "using-barcode-generation" >}})
 Learn how to generate custom barcodes in Java using Aspose.Words for Java. Step‑by‑step guide with source code for barcode generation. Enhance document automation with Aspose.Words.
 
-### [Using Charts in Aspose.Words for Java](./using-charts/)
+### [Using Charts in Aspose.Words for Java]({{< relref "using-charts" >}})
 Learn how to create and customize charts in Aspose.Words for Java. Explore chart types, formatting, and axis properties for data visualization.
 
-### [Using Office Math Objects in Aspose.Words for Java](./using-office-math-objects/)
+### [Using Office Math Objects in Aspose.Words for Java]({{< relref "using-office-math-objects" >}})
 Unlock the power of mathematical equations in documents with Aspose.Words for Java. Learn to manipulate and display Office Math objects effortlessly.
 
-### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
+### [Using Document Shapes in Aspose.Words for Java]({{< relref "using-document-shapes" >}})
 Unlock the Power of Document Shapes in Aspose.Words for Java. Learn to Create Visually Engaging Documents with Step‑by‑Step Examples.
 
-### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
+### [Using Watermarks to Documents in Aspose.Words for Java]({{< relref "using-watermarks-to-documents" >}})
 Learn how to add watermarks to documents in Aspose.Words for Java. Customize text and image watermarks for professional‑looking documents.
 
-### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
+### [Formatting Tables and Table Styles in Aspose.Words for Java]({{< relref "formatting-tables-and-table-styles" >}})
 Learn how to format tables and apply table styles in Aspose.Words for Java. Explore step‑by‑step guides with source code for effective table formatting. Enhance your document layout with Aspose.Words.
 
-### [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
+### [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words]({{< relref "convert-docx-to-markdown-export-math-equations-to-latex-with" >}})
 Learn how to convert DOCX files to Markdown and export embedded Math equations as LaTeX using Aspose.Words for Java.
 
-### [Save word as markdown in java – complete guide](./save-word-as-markdown-in-java-complete-guide/)
+### [Save word as markdown in java – complete guide]({{< relref "save-word-as-markdown-in-java-complete-guide" >}})
 Learn how to convert and save Word documents as Markdown using Aspose.Words for Java with step‑by‑step examples.
 
-### [Save document as TXT – quick guide to exporting word math](./save-document-as-txt-quick-guide-to-exporting-word-math/)
+### [Save document as TXT – quick guide to exporting word math]({{< relref "save-document-as-txt-quick-guide-to-exporting-word-math" >}})
 Learn how to export Word documents as plain text files while preserving Math equations using Aspose.Words for Java.
 
-### [aspose word to pdf – Convert DOCX to PDF in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
+### [aspose word to pdf – Convert DOCX to PDF in Java]({{< relref "aspose-word-to-pdf-convert-docx-to-pdf-in-java" >}})
 Learn how to convert DOCX files to PDF using Aspose.Words for Java with simple code examples.
 
-### [Set pages per sheet in word to PNG conversion – complete guide](./set-pages-per-sheet-in-word-to-png-conversion-complete-guide/)
+### [Set pages per sheet in word to PNG conversion – complete guide]({{< relref "set-pages-per-sheet-in-word-to-png-conversion-complete-guide" >}})
 Learn how to set pages per sheet when converting Word documents to PNG images using Aspose.Words for Java in this complete guide.
 
-### [Save document as PDF – complete Aspose.Words guide](./save-document-as-pdf-complete-aspose-words-guide/)
+### [Save document as PDF – complete Aspose.Words guide]({{< relref "save-document-as-pdf-complete-aspose-words-guide" >}})
 Learn how to save documents as PDF using Aspose.Words for Java with detailed steps and customization options.
 
-### [How to Embed Images in Markdown When Converting DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
+### [How to Embed Images in Markdown When Converting DOCX]({{< relref "how-to-embed-images-in-markdown-when-converting-docx" >}})
 Learn how to embed images from DOCX files into Markdown during conversion using Aspose.Words for Java.
 
-### [Create accessible PDF from DOCX – complete guide](./create-accessible-pdf-from-docx-complete-guide/)
+### [Create accessible PDF from DOCX – complete guide]({{< relref "create-accessible-pdf-from-docx-complete-guide" >}})
 Learn how to generate accessible PDFs from DOCX files using Aspose.Words for Java, ensuring compliance with accessibility standards.
 
-### [Create PDF UA with Aspose.Words – Complete Guide](./create-pdf-ua-with-aspose-words-complete-guide/)
+### [Create PDF UA with Aspose.Words – Complete Guide]({{< relref "create-pdf-ua-with-aspose-words-complete-guide" >}})
 Learn how to generate PDF/UA compliant documents using Aspose.Words for Java with step‑by‑step instructions.
 
 ## Frequently asked questions

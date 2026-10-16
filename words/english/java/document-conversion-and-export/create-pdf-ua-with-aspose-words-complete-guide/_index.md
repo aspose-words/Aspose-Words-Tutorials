@@ -11,19 +11,19 @@ keywords:
 - aspose pdf save options
 language: en
 og_description: Create PDF UA using Aspose.Words API. This tutorial shows how to convert docx to PDF, save Word as PDF, and generate an accessible PDF with full PDF/UA compliance.
-og_title: Create PDF UA with Aspose.Words – Complete Guide
+og_title: Convert DOCX to PDF/UA with Aspose.Words – Complete Guide
 schemas:
 - author: Aspose
   dateModified: '2026-06-21'
   description: Create PDF UA using Aspose.Words API – learn how to convert docx to PDF, save Word as PDF, and generate an accessible PDF with PDF/UA compliance.
-  headline: Create PDF UA with Aspose.Words – Complete Guide
+  headline: Convert DOCX to PDF/UA with Aspose.Words – Complete Guide
   type: TechArticle
 tags:
 - Aspose.Words
 - PDF/UA
 - C#
 - Document Conversion
-title: Create PDF UA with Aspose.Words – Complete Guide
+title: Convert DOCX to PDF/UA with Aspose.Words – Complete Guide
 url: /java/document-conversion-and-export/create-pdf-ua-with-aspose-words-complete-guide/
 ---
 
@@ -31,7 +31,7 @@ url: /java/document-conversion-and-export/create-pdf-ua-with-aspose-words-comple
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create PDF UA with Aspose.Words – Complete Guide
+# Convert DOCX to PDF/UA with Aspose.Words – Complete Guide
 
 Ever wondered how to **create PDF UA** files from Word documents using Aspose.Words? In this guide we'll walk you through the exact steps to **convert docx to pdf** while guaranteeing the result meets PDF/UA 2 accessibility standards.  
 

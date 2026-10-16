@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-06-20
-description: Save Word as Markdown quickly with Aspose.Words. Learn how to convert
-  docx to markdown, export images from docx, and customize image export in Java.
+description: Save Word as Markdown quickly with Aspose.Words. Learn how to convert docx to markdown, export images from docx, and customize image export in Java.
 draft: false
 keywords:
 - save word as markdown
@@ -11,19 +10,15 @@ keywords:
 - java docx to markdown
 - customize image export
 language: en
-og_description: Save Word as Markdown with Aspose.Words. This tutorial shows how to
-  convert docx to markdown, export images from docx, and customize image export in
-  Java.
+og_description: Save Word as Markdown with Aspose.Words. This tutorial shows how to convert docx to markdown, export images from docx, and customize image export in Java.
 og_title: Save Word as Markdown with Aspose.Words in Java – Complete Guide
 schemas:
 - author: Aspose
   dateModified: '2026-06-20'
-  description: Save Word as Markdown quickly with Aspose.Words. Learn how to convert
-    docx to markdown, export images from docx, and customize image export in Java.
+  description: Save Word as Markdown quickly with Aspose.Words. Learn how to convert docx to markdown, export images from docx, and customize image export in Java.
   headline: Save Word as Markdown in Java – Complete Guide
   type: TechArticle
-- description: Save Word as Markdown quickly with Aspose.Words. Learn how to convert
-    docx to markdown, export images from docx, and customize image export in Java.
+- description: Save Word as Markdown quickly with Aspose.Words. Learn how to convert docx to markdown, export images from docx, and customize image export in Java.
   name: Save Word as Markdown in Java – Complete Guide
   steps:
   - name: Maven users
@@ -54,7 +49,7 @@ tags:
 - Aspose.Words
 - Java
 - Markdown
-title: Save Word as Markdown with Aspose.Words in Java – Complete Guide
+title: Convert and Save Word as Markdown with Aspose.Words in Java – Complete Guide
 url: /java/document-conversion-and-export/save-word-as-markdown-in-java-complete-guide/
 ---
 
@@ -354,5 +349,5 @@ The following tutorials cover closely related topics that build on the technique
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

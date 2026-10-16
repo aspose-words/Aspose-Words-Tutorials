@@ -1,7 +1,7 @@
 ---
 category: general
 date: 2026-06-21
-description: How to set pages per sheet while converting docx to png. Learn how to export a Word document as PNG with grid layout and full code example.
+description: How to set pages per sheet while converting docx to png using Aspose.Words. Learn how to export a Word document as PNG with grid layout and full code example.
 draft: false
 keywords:
 - set pages per sheet
@@ -38,7 +38,7 @@ tags:
 - Aspose.Words
 - C#
 - Document Conversion
-title: How to Set Pages Per Sheet in Word to PNG Conversion – Complete Guide
+title: Export Word to PNG with Pages Per Sheet – Complete Guide
 url: /java/document-conversion-and-export/set-pages-per-sheet-in-word-to-png-conversion-complete-guide/
 ---
 
@@ -306,3 +306,4 @@ The following tutorials cover closely related topics that build on the technique
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}

@@ -56,7 +56,7 @@ tags:
 - Java
 - Aspose.Words
 - Document Conversion
-title: Convert docx to markdown with Aspose.Words for Java – Complete Guide
+title: How to Convert docx to markdown with Aspose.Words for Java – Complete Guide
 url: /java/document-converting/convert-docx-to-markdown-complete-guide/
 ---
 

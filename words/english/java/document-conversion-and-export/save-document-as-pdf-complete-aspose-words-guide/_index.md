@@ -1,7 +1,7 @@
 ---
 category: general
 date: 2026-06-20
-description: Save document as PDF using the Aspose.Words API. Learn how to convert docx to pdf, convert word to pdf, and save word as pdf in just a few lines of Java.
+description: Save document as PDF using Aspose.Words for Java. Learn how to convert docx to pdf, convert word to pdf, and save word as pdf in just a few lines of Java.
 draft: false
 keywords:
 - save document as pdf
@@ -57,7 +57,7 @@ tags:
 - Java
 - PDF
 - Document Conversion
-title: Convert and Save Document as PDF – Complete Aspose.Words Guide
+title: Convert and Save Document as PDF using Aspose.Words for Java – Complete Guide
 url: /java/document-conversion-and-export/save-document-as-pdf-complete-aspose-words-guide/
 ---
 
@@ -246,17 +246,18 @@ What’s next? Try swapping the INLINE mode for BLOCK, embed custom fonts, or bu
 
 Got more questions? Drop a comment, experiment with the code, and happy converting!
 
-<!-- TODO: Add a section on handling encrypted PDFs and advanced PDF/A compliance. -->
+TODO: Add a section on handling encrypted PDFs and advanced PDF/A compliance.
 
 ## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Convert Word to PDF Using Aspose.Words for Java](/words/english/java/document-converting/using-document-converting/)
-- [aspose word to pdf – Convert DOCX to PDF in Java](/words/english/java/document-conversion-and-export/aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
-- [How to Export LaTeX from Word: Convert DOCX to Markdown & Save as PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
+- [How to Convert Word to PDF Using Aspose.Words for Java]({{< relref "../../document-converting/using-document-converting/_index.md" >}})
+- [aspose word to pdf – Convert DOCX to PDF in Java]({{< relref "../../aspose-word-to-pdf-convert-docx-to-pdf-in-java/_index.md" >}})
+- [How to Export LaTeX from Word: Convert DOCX to Markdown & Save as PDF]({{< relref "../../how-to-export-latex-from-word-convert-docx-to-markdown-save/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}

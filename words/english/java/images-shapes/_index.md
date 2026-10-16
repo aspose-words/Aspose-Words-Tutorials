@@ -1,6 +1,6 @@
 ---
-title: "Aspose.Words for Java: Learn to Insert Images & Shapes | Master Your Docs"
-description: "Learn how to insert, manipulate, and customize images and shapes in Java applications using Aspose.Words for Java. Follow step-by-step tutorials with code examples to create professional documents."
+title: "Aspose.Words for Java: Insert Images & Shapes into Documents | Master Your Docs"
+description: "Learn how to insert, manipulate, and customize images and shapes in Java applications using the Aspose.Words for Java API. Follow step-by-step tutorials with code examples to create professional documents."
 weight: 6
 url: "/java/images-shapes/"
 ---
