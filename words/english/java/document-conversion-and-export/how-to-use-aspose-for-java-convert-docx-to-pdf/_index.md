@@ -63,7 +63,7 @@ In this tutorial we’ll walk through a complete, runnable example that shows ex
 
 > **Pro tip:** If you’re using an IDE like IntelliJ IDEA, let it auto‑import the Maven dependency—makes life easier.
 
-## Step 1: Add Aspose.Words Dependency
+## Step 1: add Aspose.Words dependency
 
 First, tell Maven to fetch the Aspose library. Add this snippet to your `pom.xml`:
 
@@ -79,7 +79,7 @@ First, tell Maven to fetch the Aspose library. Add this snippet to your `pom.xml
 
 If you’re not using Maven, download the JAR from the Aspose website and add it to your project’s classpath manually.
 
-## Step 2: Import the Low‑Code Conversion API
+## Step 2: import the low‑Code conversion API
 
 Now we can start writing Java code. Open a new class called `DocxToPdfDemo` and import the required types:
 
@@ -91,7 +91,7 @@ import com.aspose.words.SaveFormat;
 
 These imports give us access to the one‑liner conversion method and the enum that tells Aspose which output format we need.
 
-## Step 3: Define Source Path and Target Format
+## Step 3: define source path and target format
 
 Next, specify where the DOCX lives and which format we want. The low‑code API expects the source file path, the desired extension, and a `SaveFormat` constant.
 
@@ -105,7 +105,7 @@ public class DocxToPdfDemo {
 
 > **Note:** `targetExtension` can be any format supported by Aspose (e.g., `"html"`, `"png"`). Here we focus on **save word as pdf**.
 
-## Step 4: Perform the Conversion
+## Step 4: perform the conversion
 
 The heart of the tutorial—calling `Converter.convert`. Wrap it in a try‑catch block so we can surface any errors.
 
@@ -124,13 +124,13 @@ The heart of the tutorial—calling `Converter.convert`. Wrap it in a try‑catc
 }
 ```
 
-### What Happens Under the Hood?
+### What happens under the hood?
 
 - `Converter.convert` reads the DOCX, parses its structure, and streams the content into a PDF container.
 - `SaveFormat.PDF` tells Aspose to use the PDF renderer rather than the default Word format.
 - The output file is automatically named `source.pdf` in the same directory—no extra file‑handling code required.
 
-## Step 5: Run and Verify
+## Step 5: run and verify
 
 Compile and run the program:
 
@@ -146,7 +146,7 @@ Conversion successful! PDF created at: YOUR_DIRECTORY/source.pdf
 
 Open the generated PDF with any viewer; the text, images, and formatting should match the original DOCX.
 
-### Edge Cases & Common Pitfalls
+### Edge cases & common pitfalls
 
 | Situation                              | What to Watch For                              | Fix / Recommendation                               |
 |----------------------------------------|------------------------------------------------|-----------------------------------------------------|
@@ -155,7 +155,7 @@ Open the generated PDF with any viewer; the text, images, and formatting should 
 | Large documents (>100 MB)               | Out‑of‑memory errors                           | Increase JVM heap (`-Xmx2g`) or stream the conversion with `Document.save` API |
 | Need password‑protected PDF            | PDF opens but asks for a password             | Use the overload of `Converter.convert` that accepts `PdfSaveOptions` |
 
-## Optional: Advanced Customization
+## Optional: advanced customization
 
 If you want more control—say, setting PDF metadata or embedding a custom font—you can replace the low‑code call with the full API:
 
@@ -194,7 +194,7 @@ That’s the entire **export docx as pdf** workflow, and you now have a solid fo
 Feel free to experiment, break things, and then fix them— that’s how you really learn. If you hit any snags, drop a comment below and we’ll troubleshoot together. Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
@@ -205,5 +205,5 @@ The following tutorials cover closely related topics that build on the technique
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

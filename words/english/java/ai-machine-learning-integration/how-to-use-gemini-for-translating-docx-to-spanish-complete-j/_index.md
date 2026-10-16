@@ -13,7 +13,7 @@ keywords:
 language: en
 og_description: How to use Gemini to translate an English DOCX into Spanish. This
   guide walks you through configuring AI translation and shows complete Java code.
-og_title: How to Use Gemini – Java Translation from DOCX to Spanish
+og_title: Translate DOCX to Spanish with Gemini API – Complete Java Guide
 schemas:
 - author: Aspose
   dateModified: '2026-06-24'
@@ -54,7 +54,7 @@ tags:
 - java
 - gemini
 - ai
-title: How to Use Gemini for Translating DOCX to Spanish – Complete Java Guide
+title: Translate DOCX to Spanish with Gemini API – Complete Java Guide
 url: /java/ai-machine-learning-integration/how-to-use-gemini-for-translating-docx-to-spanish-complete-j/
 ---
 
@@ -62,7 +62,7 @@ url: /java/ai-machine-learning-integration/how-to-use-gemini-for-translating-doc
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Use Gemini for Translating DOCX to Spanish – Complete Java Guide
+# Translate DOCX to Spanish with Gemini API – Complete Java Guide
 
 Ever wondered **how to use Gemini** to turn a Word document into flawless Spanish? You’re not the only one—developers constantly hit the wall when they need to translate a `.docx` without losing formatting. The good news? With a few lines of Java and the right AI options, you can automate the whole process.
 
@@ -88,7 +88,7 @@ Gemini Pro offers state‑of‑the‑art multilingual models that understand con
 
 Now, let’s break the implementation into bite‑size steps.
 
-### Step 1: Configure AI Translation
+### Step 1: configure AI translation
 
 The first thing you have to do is tell the SDK which model you want. This is where **configure AI translation** comes into play.
 
@@ -104,7 +104,7 @@ aiOptions.setModel(AiModelType.GEMINI_PRO);          // Pick the Gemini Pro mode
 
 > **Pro tip:** If you’re on a tight budget, swap `GEMINI_PRO` for `GEMINI_FLASH`—you’ll lose a bit of nuance but save on token costs.
 
-### Step 2: Load the English DOCX
+### Step 2: load the english DOCX
 
 Next up, we need the source document. The `Document` class abstracts away the low‑level file handling, giving you a clean API for reading text.
 
@@ -118,7 +118,7 @@ The constructor reads the file, parses the OOXML, and stores the textual content
 
 > **Edge case:** For very large DOCX files (over 10 MB) you might hit a timeout. In that scenario, split the document into sections and translate each chunk separately.
 
-### Step 3: Perform the Translation to Spanish
+### Step 3: perform the translation to spanish
 
 Now the fun part—actually invoking Gemini to translate the text. The SDK’s `translate` method accepts the `AiOptions` we built earlier and a target language enum.
 
@@ -133,7 +133,7 @@ The `translate` call returns a wrapper object that contains metadata (like token
 > **Common question:** *What if I need a different language?*  
 Just replace `Language.SPANISH` with `Language.FRENCH`, `Language.GERMAN`, etc. The same `AiOptions` works for any supported language.
 
-### Step 4: View the Result
+### Step 4: view the result
 
 Finally, we output the translated content. In a real‑world app you’d probably write it to a file, but `System.out.println` keeps the example concise.
 
@@ -163,7 +163,7 @@ Here we create a fresh `Document` instance, inject the translated string, and pe
 
 ---
 
-## Handling Real‑World Challenges
+## Handling real‑World challenges
 
 ### Large Documents
 
@@ -172,7 +172,7 @@ When dealing with multi‑megabyte files, you might run into two issues:
 1. **API payload limits** – Gemini caps the request size. Split the document into logical sections (e.g., each chapter) and translate them sequentially.
 2. **Memory pressure** – Loading the entire DOCX into RAM can be heavy. Use streaming APIs if your SDK version supports them.
 
-### Preserving Rich Formatting
+### Preserving rich formatting
 
 The basic `translate` method only moves plain text. If you have bold, italics, or tables, you’ll need to:
 
@@ -199,7 +199,7 @@ This protects your application from network hiccups or quota overruns.
 
 ---
 
-## Full Working Example
+## Full working example
 
 Below is the complete program you can copy‑paste into `GeminiDocxTranslator.java`. It compiles and runs as‑is (just replace the placeholder path and insert your API key in the SDK config).
 
@@ -272,7 +272,7 @@ Give it a try, tweak the options, and let Gemini do the heavy lifting. Happy cod
 ---
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
@@ -283,5 +283,5 @@ The following tutorials cover closely related topics that build on the technique
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

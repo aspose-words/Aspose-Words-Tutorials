@@ -12,7 +12,7 @@ keywords:
 language: en
 og_description: Run grammar check on a DOCX file with Java. This tutorial shows how
   to load docx java, configure self hosted llm and get revised text quickly.
-og_title: Run Grammar Check on DOCX in Java – Full Guide
+og_title: Run Grammar Check on DOCX in Java with Aspose.Words – Full Guide
 schemas:
 - author: Aspose
   dateModified: '2026-06-24'
@@ -24,7 +24,7 @@ tags:
 - Java
 - AI
 - Document Processing
-title: Run Grammar Check on DOCX in Java – Complete Programming Guide
+title: Run Grammar Check on DOCX in Java with Aspose.Words – Complete Programming Guide
 url: /java/ai-machine-learning-integration/run-grammar-check-on-docx-in-java-complete-programming-guide/
 ---
 
@@ -40,7 +40,7 @@ In this guide we’ll walk through every step: from **load docx java** to **conf
 
 ---
 
-## Why You Should Run Grammar Check Programmatically
+## Why you should run grammar check programmatically
 
 Before we dive into code, let’s answer the “why”. Automated grammar correction can:
 
@@ -52,7 +52,7 @@ And because we’re using a **self‑hosted LLM**, you keep data inside your fir
 
 ---
 
-## Step 1: Load DOCX in Java
+## Step 1: load DOCX in java
 
 The first thing you need is a way to read a `.docx` file. Several libraries exist, but for this tutorial we’ll use **Aspose.Words for Java** because it offers a simple API and works well with AI extensions.
 
@@ -82,7 +82,7 @@ Loading the document correctly ensures that all text, footnotes, and tables are 
 
 ---
 
-## Step 2: Configure Self‑Hosted LLM
+## Step 2: configure self‑Hosted LLM
 
 Now we tell the library which AI model to use. The `AiOptions` class (provided by the same SDK) lets you point to any OpenAI‑compatible endpoint, such as a locally‑run Llama or a custom‑trained model.
 
@@ -115,7 +115,7 @@ Hard‑coding the endpoint or forgetting to set the provider will cause the SDK 
 
 ---
 
-## Step 3: Run Grammar Check and Get Revised Text
+## Step 3: run grammar check and get revised text
 
 With the document loaded and the AI options prepared, we can finally **run grammar check**. The SDK returns a `GrammarCheckResult` that contains the corrected version of the original text.
 
@@ -143,7 +143,7 @@ Calling `checkGrammar` triggers a network request to your LLM. If the model is n
 
 ---
 
-## Putting It All Together – Full Working Example
+## Putting it all together – full working example
 
 Below is a minimal, self‑contained Java program that demonstrates the entire flow. Paste it into a file called `GrammarChecker.java`, add the Aspose.Words Maven dependency, and run it from the command line.
 
@@ -227,7 +227,7 @@ The exact wording may differ depending on how your **self hosted llm** was train
 
 ---
 
-## Common Pitfalls & Pro Tips
+## Common pitfalls & pro tips
 
 | Issue | Why it Happens | How to Fix / Avoid |
 |------|----------------|--------------------|
@@ -251,8 +251,7 @@ Now that you can **run grammar check** and **get revised text**, consider these 
 * **Persist revisions** –
 
 
-## What Should You Learn Next?
-
+## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
@@ -262,5 +261,7 @@ The following tutorials cover closely related topics that build on the technique
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
+{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

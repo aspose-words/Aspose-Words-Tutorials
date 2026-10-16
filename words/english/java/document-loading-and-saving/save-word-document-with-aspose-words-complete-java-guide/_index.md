@@ -47,7 +47,7 @@ tags:
 - Aspose.Words
 - Java
 - Word Automation
-title: Save Word Document with Aspose.Words – Complete Java Guide
+title: How to Save Word Document with Aspose.Words in Java – Complete Guide
 url: /java/document-loading-and-saving/save-word-document-with-aspose-words-complete-java-guide/
 ---
 
@@ -63,7 +63,7 @@ In this tutorial we’ll walk through a real‑world example: loading an existin
 
 ![save word document with shadow effect example](placeholder-image.png){alt="save word document with shadow effect example"}
 
-## What You’ll Need
+## What you’ll need
 
 - **Java Development Kit (JDK) 8+** – the code runs on any recent JDK.
 - **Aspose.Words for Java** library (the Maven artifact `com.aspose:aspose-words`).  
@@ -186,7 +186,7 @@ Now that we’ve *added shadow to shape* and tweaked its properties, we finally 
 
 Open `output.docx` in Microsoft Word, LibreOffice, or even Google Docs. You should see the first shape sporting a subtle red shadow, slightly blurred and offset by three points. If the shadow looks too harsh, go back and lower the `blurRadius` or increase `transparency`.
 
-### Common Questions & Edge Cases
+### Common questions & edge cases
 
 | Question | Answer |
 |----------|--------|
@@ -196,7 +196,7 @@ Open `output.docx` in Microsoft Word, LibreOffice, or even Google Docs. You shou
 | **How to set a soft‑edge shadow (no blur but a faint outline)?** | Set `blurRadius` to `0.0` and increase `transparency` to something like `0.5`. The shadow will act more like a glow. |
 | **Can I animate the shadow?** | Not directly in Word. Shadows are static visual properties; to animate you’d need to export to a format that supports animation (e.g., HTML with CSS). |
 
-## Full Working Example (Copy‑Paste Ready)
+## Full working example (Copy‑Paste ready)
 
 ```java
 import com.aspose.words.*;
@@ -238,17 +238,16 @@ Run the class, open `output.docx`, and admire the shadow‑enhanced shape. That�
 
 We’ve just demonstrated how to **save word document** after programmatically adding a shadow to a shape, tweaking blur, offset, color, and—crucially—*changing shadow transparency*. The steps are straightforward: load, locate, configure, update, and save. Because the code is self‑contained, you can
 
+## What should you learn next?
 
-## What Should You Learn Next?
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [Create Word Document Java – Add Rectangle Shape with Shadow Effect](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [How to save document as pdf with Aspose.Words for Java](/words/english/java/document-loading-and-saving/saving-documents-as-pdf/)
-- [How to save word as pcl with Aspose.Words for Java](/words/english/java/document-loading-and-saving/saving-documents-as-pcl-format/)
+- [Create Word Document Java – Add Rectangle Shape with Shadow Effect]({{< relref "/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/" >}})
+- [How to save document as PDF with Aspose.Words for Java]({{< relref "/words/english/java/document-loading-and-saving/saving-documents-as-pdf/" >}})
+- [How to save Word as PCL with Aspose.Words for Java]({{< relref "/words/english/java/document-loading-and-saving/saving-documents-as-pcl-format/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
