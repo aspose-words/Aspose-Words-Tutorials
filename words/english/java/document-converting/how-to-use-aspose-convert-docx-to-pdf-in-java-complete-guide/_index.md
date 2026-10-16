@@ -84,7 +84,7 @@ dependencies {
 
 > **Why this matters:** Adding the correct dependency ensures the **aspose words converter** classes are available at compile‑time, eliminating `ClassNotFoundException` headaches later.
 
-## Step 2: Import the Low‑Code Conversion API
+## Step 2: import the low‑Code conversion API
 
 Now that the library is on the classpath, we can import the low‑code helper that Aspose provides. This tiny wrapper does most of the heavy lifting for us.
 
@@ -95,7 +95,7 @@ import com.aspose.words.lowcode.*;
 
 > **Note:** The `LowCode` class lives in the `com.aspose.words.lowcode` package and offers a single static method `convert`. It abstracts away the `Document` and `SaveOptions` boilerplate that traditional Aspose code requires.
 
-## Step 3: Define Source and Destination Paths
+## Step 3: define source and destination paths
 
 You’ll need absolute or relative paths for the input DOCX and the target PDF. Keep them in variables so you can reuse the logic in loops or services.
 
@@ -107,7 +107,7 @@ String targetPath = "YOUR_DIRECTORY/output.pdf";
 
 Replace `YOUR_DIRECTORY` with the actual folder on your machine, or use `System.getProperty("user.dir")` to build a path relative to the project root.
 
-## Step 4: Perform the Conversion
+## Step 4: perform the conversion
 
 Here’s the core line that does the conversion. It’s as simple as calling a method—hence the “low‑code” moniker.
 
@@ -128,7 +128,7 @@ try {
 }
 ```
 
-### What If I Need Custom Settings?
+### What if i need custom settings?
 
 The low‑code API is great for quick jobs, but sometimes you need to tweak PDF options (e.g., image compression, embed fonts). In that case you can fall back to the full Aspose API:
 
@@ -143,7 +143,7 @@ doc.save(targetPath, options);
 
 Both approaches ultimately **convert docx to pdf**, but the low‑code method keeps your code tidy.
 
-## Step 5: Verify the Output
+## Step 5: verify the output
 
 After the conversion finishes, open `output.pdf` with any PDF viewer. You should see the same layout, fonts, and images that were in `input.docx`. If something looks off, check:
 
@@ -151,7 +151,7 @@ After the conversion finishes, open `output.pdf` with any PDF viewer. You should
 - If the license file is missing, Aspose may add a watermark.  
 - File permissions on the target directory.
 
-## Edge Cases & Common Pitfalls
+## Edge cases & common pitfalls
 
 | Scenario | What to Watch For | Fix |
 |----------|-------------------|-----|
@@ -160,7 +160,7 @@ After the conversion finishes, open `output.pdf` with any PDF viewer. You should
 | **Missing fonts** | PDF shows fallback fonts, breaking layout. | Install required fonts on the server or embed them via `PdfSaveOptions.setEmbedFullFonts(true)`. |
 | **Concurrent conversions** | Race conditions on shared output folder. | Use unique file names (`UUID.randomUUID()`) or a thread‑safe queue. |
 
-## Full Working Example
+## Full working example
 
 Below is a self‑contained Java class you can copy‑paste into your IDE. It demonstrates the entire flow from dependency setup (assumed already in `pom.xml`) to conversion and error handling.
 
@@ -197,7 +197,7 @@ public class DocxToPdfConverter {
 
 Open `data/output.pdf` and you should see an exact replica of `input.docx`.
 
-## Additional Tips for Real‑World Projects
+## Additional tips for real‑World projects
 
 - **Batch processing:** Wrap the conversion call in a loop that iterates over a directory of DOCX files.  
 - **REST endpoint:** Expose the conversion logic via Spring Boot (`@PostMapping`) to let clients upload DOCX and receive a PDF stream.  
@@ -206,16 +206,18 @@ Open `data/output.pdf` and you should see an exact replica of `input.docx`.
 
 ## Conclusion
 
-We’ve covered **how to use Aspose** to **convert docx to pdf** in Java, from setting up the Maven dependency to handling edge cases and scaling the solution. The **aspose words converter** low‑code API makes the transformation almost trivial—just two lines of code after the import.  
+We’ve covered **how to use Aspose** to **convert docx to pdf** in Java, from setting up the Maven dependency to handling edge cases and scaling the solution. The **aspose words converter** low‑code API makes the transformation almost trivial—just two lines of code after the import.
 
 Now you can integrate DOCX‑to‑PDF conversion into any Java service, whether it’s a batch job, a web API, or a desktop utility. Want to explore more? Check out Aspose’s other features like **DOCX to HTML**, **PDF merging**, or **image extraction**—all accessible via the same library.
 
 Got questions or a tricky scenario? Drop a comment below, and happy coding! 
 
+**TODO:** Add a detailed walkthrough of licensing setup and replace the placeholder image with an actual screenshot.
+
 ![How to use Aspose to convert DOCX to PDF in Java](image-placeholder.png "How to use Aspose to convert DOCX to PDF in Java")
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.

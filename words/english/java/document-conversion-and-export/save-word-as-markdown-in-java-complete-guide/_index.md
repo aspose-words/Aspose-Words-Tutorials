@@ -14,7 +14,7 @@ language: en
 og_description: Save Word as Markdown with Aspose.Words. This tutorial shows how to
   convert docx to markdown, export images from docx, and customize image export in
   Java.
-og_title: Save Word as Markdown in Java – Complete Guide
+og_title: Save Word as Markdown with Aspose.Words in Java – Complete Guide
 schemas:
 - author: Aspose
   dateModified: '2026-06-20'
@@ -54,7 +54,7 @@ tags:
 - Aspose.Words
 - Java
 - Markdown
-title: Save Word as Markdown in Java – Complete Guide
+title: Save Word as Markdown with Aspose.Words in Java – Complete Guide
 url: /java/document-conversion-and-export/save-word-as-markdown-in-java-complete-guide/
 ---
 
@@ -88,7 +88,7 @@ If any of these sound unfamiliar, don’t panic—installing a JDK and adding a 
 
 ---
 
-## Step 1: Set Up Aspose.Words in Your Project
+## Step 1: set up Aspose.Words in your project
 
 ### Maven users
 
@@ -114,7 +114,7 @@ Once the dependency resolves, you’re ready to write Java code that **save word
 
 ---
 
-## Step 2: Create a Simple Java Class
+## Step 2: create a simple java class
 
 Create a file called `DocxToMarkdown.java`. The skeleton looks like this:
 
@@ -134,7 +134,7 @@ The `import` statements bring in the core Aspose classes (`Document`, `MarkdownS
 
 ---
 
-## Step 3: Load the Source Document
+## Step 3: load the source document
 
 Inside `main`, point Aspose.Words at your `.docx` file:
 
@@ -147,7 +147,7 @@ Replace `YOUR_DIRECTORY` with the absolute or relative path where `input.docx` l
 
 ---
 
-## Step 4: Configure Markdown Save Options
+## Step 4: configure markdown save options
 
 Now we tell Aspose that we want **convert docx to markdown** and that we care about how images are handled.
 
@@ -160,7 +160,7 @@ At this point `markdownOptions` uses the default behavior: images get saved next
 
 ---
 
-## Step 5: Implement a Resource‑Saving Callback
+## Step 5: implement a resource‑Saving callback
 
 The callback is where we **export images from docx** exactly the way we want. Below is a concise implementation that:
 
@@ -194,7 +194,7 @@ markdownOptions.setResourceSavingCallback(new IResourceSavingCallback() {
 
 ---
 
-## Step 6: Save the Document as Markdown
+## Step 6: save the document as markdown
 
 The final line does the heavy lifting:
 
@@ -224,7 +224,7 @@ The image link matches the file we generated in the callback, proving that **exp
 
 ---
 
-## Step 7: Run and Verify
+## Step 7: run and verify
 
 Compile and run:
 
@@ -239,7 +239,7 @@ Open `doc.md` in any Markdown viewer (VS Code, Typora, GitHub preview). The im
 
 ---
 
-## Common Questions & Edge Cases
+## Common questions & edge cases
 
 ### 1. What if the source document has **SVG** images?
 
@@ -275,7 +275,7 @@ The callback is lightweight; however, writing many files to disk can be I/O‑bo
 
 ---
 
-## Full Working Example
+## Full working example
 
 Below is the **complete code** you can copy‑paste into `DocxToMarkdown.java`. It includes all the pieces we discussed, plus a small utility method to ensure the output folder exists.
 
@@ -340,11 +340,11 @@ Run the program, and you’ll see console output confirming the locations. Open 
 
 ## Conclusion
 
-We’ve just covered everything you need to **save Word as markdown
+We’ve just covered everything you need to **save Word as markdown** with Aspose.Words for Java, customize image export, and keep your output tidy and deterministic.
 
+---
 
-## What Should You Learn Next?
-
+## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 

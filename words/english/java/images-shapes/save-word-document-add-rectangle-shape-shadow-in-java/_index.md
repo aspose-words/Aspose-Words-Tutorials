@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-06-20
-description: Save Word document using Aspose.Words in Java while adding a rectangle
-  shape and applying a shadow. Learn how to insert shape step‑by‑step.
+description: Save Word document using Aspose.Words in Java while adding a rectangle shape and applying a shadow. Learn how to insert shape step‑by‑step.
 draft: false
 keywords:
 - save word document
@@ -11,47 +10,37 @@ keywords:
 - how to add shadow
 - how to insert shape
 language: en
-og_description: Save Word document with Aspose.Words Java. This guide shows how to
-  add a rectangle shape, apply a shadow, and insert it into a paragraph.
-og_title: Save Word Document – Add Rectangle Shape & Shadow in Java
+og_description: Save Word document with Aspose.Words Java. This guide shows how to add a rectangle shape, apply a shadow, and insert it into a paragraph.
+og_title: Save Word Document with Aspose.Words – Add Rectangle Shape & Shadow in Java
 schemas:
 - author: Aspose
   dateModified: '2026-06-20'
-  description: Save Word document using Aspose.Words in Java while adding a rectangle
-    shape and applying a shadow. Learn how to insert shape step‑by‑step.
+  description: Save Word document using Aspose.Words in Java while adding a rectangle shape and applying a shadow. Learn how to insert shape step‑by‑step.
   headline: Save Word Document – Add Rectangle Shape & Shadow in Java
   type: TechArticle
-- description: Save Word document using Aspose.Words in Java while adding a rectangle
-    shape and applying a shadow. Learn how to insert shape step‑by‑step.
+- description: Save Word document using Aspose.Words in Java while adding a rectangle shape and applying a shadow. Learn how to insert shape step‑by‑step.
   name: Save Word Document – Add Rectangle Shape & Shadow in Java
   steps:
   - name: '**Compile** – `javac -cp "aspose-words-xx.jar" ShadowShapeDemo.java`'
     text: '**Compile** – `javac -cp "aspose-words-xx.jar" ShadowShapeDemo.java`'
   - name: '**Execute** – `java -cp ".;aspose-words-xx.jar" ShadowShapeDemo`'
     text: '**Execute** – `java -cp ".;aspose-words-xx.jar" ShadowShapeDemo`'
-  - name: '**Open** `shadow.docx` in Microsoft Word or LibreOffice. You should see
-      the rectangle with a soft black shadow anchored at the start of the first paragraph.'
-    text: '**Open** `shadow.docx` in Microsoft Word or LibreOffice. You should see
-      the rectangle with a soft black shadow anchored at the start of the first paragraph.'
+  - name: '**Open** `shadow.docx` in Microsoft Word or LibreOffice. You should see the rectangle with a soft black shadow anchored at the start of the first paragraph.'
+    text: '**Open** `shadow.docx` in Microsoft Word or LibreOffice. You should see the rectangle with a soft black shadow anchored at the start of the first paragraph.'
   type: HowTo
 - questions:
-  - answer: Yes. Retrieve the target `Section` or `PageSetup` and insert the shape
-      into a paragraph located on that page.
+  - answer: Yes. Retrieve the target `Section` or `PageSetup` and insert the shape into a paragraph located on that page.
     question: Can I add the shape to a specific page?
-  - answer: Absolutely. Aspose.Words abstracts the format, so the same code **saves
-      a Word document** whether it’s `.doc` or `.docx`.
+  - answer: Absolutely. Aspose.Words abstracts the format, so the same code **saves a Word document** whether it’s `.doc` or `.docx`.
     question: Does this work with .doc files?
-  - answer: 'Replace `ShapeType.RECTANGLE` with `ShapeType.ELLIPSE`. All shadow properties
-      remain the same. --- ## Conclusion You now know how to **save a Word document**
-      while **adding a rectangle shape**, **applying a shadow**, and **inserting the
-      shape** into the first paragraph—all with a handful of clean Ja'
+  - answer: 'Replace `ShapeType.RECTANGLE` with `ShapeType.ELLIPSE`. All shadow properties remain the same. --- ## Conclusion You now know how to **save a Word document** while **adding a rectangle shape**, **applying a shadow**, and **inserting the shape** into the first paragraph—all with a handful of clean Ja'
     question: What if I need a different shape, like an ellipse?
   type: FAQPage
 tags:
 - Aspose.Words
 - Java
 - Word Automation
-title: Save Word Document – Add Rectangle Shape & Shadow in Java
+title: Save Word Document with Aspose.Words – Add Rectangle Shape & Shadow in Java
 url: /java/images-shapes/save-word-document-add-rectangle-shape-shadow-in-java/
 ---
 
@@ -59,7 +48,7 @@ url: /java/images-shapes/save-word-document-add-rectangle-shape-shadow-in-java/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Save Word Document – Add Rectangle Shape & Shadow in Java
+# Save Word Document with Aspose.Words – Add Rectangle Shape & Shadow in Java
 
 Ever wondered how to **save a Word document** after you’ve customized its layout? You’re not alone—most developers hit that snag when they need to programmatically enrich a DOCX file. The good news is that with Aspose.Words for Java you can **save a Word document**, drop a rectangle shape right where you want it, and even give that shape a subtle shadow.
 
@@ -74,7 +63,7 @@ If you’ve got those basics covered, let’s dive in.
 
 ---
 
-## Save Word Document – Complete Java Example
+## Save word document – complete java example
 
 Below is the full, ready‑to‑run source code. Copy it into your IDE, adjust the paths, and hit **Run**.
 
@@ -129,7 +118,7 @@ Why use a rectangle shape at all? Think of it as a visual anchor—perfect for c
 
 ---
 
-## Apply Shadow to Shape
+## Apply shadow to shape
 
 Shadows give depth. The `Shadow` object attached to a `Shape` exposes properties that map directly to Word’s UI options.
 
@@ -195,15 +184,15 @@ Ready for the next challenge? Try layering multiple shapes, adding text inside t
 
 Happy coding, and may your Word automation be shadow‑free of bugs!
 
+TODO: Add more advanced shape examples.
 
-## What Should You Learn Next?
+## What should you learn next?
 
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [Create Word Document Java – Add Rectangle Shape with Shadow Effect](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [How to save document as pdf with Aspose.Words for Java](/words/english/java/document-loading-and-saving/saving-documents-as-pdf/)
-- [How to save word as pcl with Aspose.Words for Java](/words/english/java/document-loading-and-saving/saving-documents-as-pcl-format/)
+- [Create Word Document Java – Add Rectangle Shape with Shadow Effect]({{< relref "../create-word-document-java-add-rectangle-shape-with-shadow-ef/_index.md" >}})
+- [How to save document as pdf with Aspose.Words for Java]({{< relref "../../document-loading-and-saving/saving-documents-as-pdf/_index.md" >}})
+- [How to save word as pcl with Aspose.Words for Java]({{< relref "../../document-loading-and-saving/saving-documents-as-pcl-format/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

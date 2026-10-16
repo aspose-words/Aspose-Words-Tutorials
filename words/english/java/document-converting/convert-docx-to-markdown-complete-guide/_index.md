@@ -46,17 +46,17 @@ schemas:
   - answer: Yes. Aspose.Words supports the older Word format. Just change the file
       extension in the `Document` constructor.
     question: Does this work with `.doc` (binary) files?
-  - answer: 'Switch the mode to `PRESERVE_WHITESPACE` for those specific sections,
-      or post‑process the markdown to replace placeholder tokens with line breaks.
-      --- ## Full Working Example Below is a self‑contained Java class you can drop
-      into any project. It demonstrates **how to convert docx** to markdown, resp'
+  - answer: Switch the `MarkdownEmptyParagraphExportMode` to `PRESERVE_WHITESPACE` for
+      sections where you need to retain empty lines, such as code samples. Alternatively,
+      run a post‑processing step on the generated markdown to insert line breaks where
+      required.
     question: What if I need to keep empty paragraphs for code samples?
   type: FAQPage
 tags:
 - Java
 - Aspose.Words
 - Document Conversion
-title: Convert docx to markdown – Complete Guide
+title: Convert docx to markdown with Aspose.Words for Java – Complete Guide
 url: /java/document-converting/convert-docx-to-markdown-complete-guide/
 ---
 
@@ -70,7 +70,7 @@ Ever wondered how to **convert docx to markdown** without losing formatting or e
 
 In this tutorial we’ll walk through a straightforward, programmatic way to **save Word as markdown** using Aspose.Words for Java, while also showing you how to **ignore empty paragraphs** when you don’t want extra line breaks. By the end you’ll know exactly **how to convert docx** files into clean markdown ready for GitHub, Jekyll, or any other markdown‑friendly platform.
 
-## What You’ll Learn
+## What you’ll learn
 
 - How to load a *.docx* file with Aspose.Words.
 - Which `MarkdownSaveOptions` settings control empty paragraph handling.
@@ -82,7 +82,7 @@ In this tutorial we’ll walk through a straightforward, programmatic way to **s
 
 ---
 
-## Step 1 – Load the Source Document  
+## Step 1 – load the source document
 
 The first thing you need is a `Document` object that represents the Word file you want to transform.
 
@@ -95,7 +95,7 @@ Document doc = new Document("YOUR_DIRECTORY/input.docx");
 
 ---
 
-## Step 2 – Configure Markdown Options (Control Empty Paragraphs)
+## Step 2 – configure markdown options (Control empty paragraphs)
 
 Aspose.Words lets you decide what to do with blank lines. The `MarkdownEmptyParagraphExportMode` enum has three values:
 
@@ -118,7 +118,7 @@ mdOpts.setEmptyParagraphExportMode(MarkdownEmptyParagraphExportMode.IGNORE);
 
 ---
 
-## Step 3 – Save the Document as Markdown  
+## Step 3 – save the document as markdown
 
 Now you have everything wired up—just call `save` with the options you configured.
 
@@ -151,9 +151,9 @@ if (markdown.contains("\n\n")) {
 
 ---
 
-## Advanced Topics & Edge Cases  
+## Advanced topics & edge cases
 
-### 1. Preserving Images  
+### 1. preserving images
 
 If your DOCX contains images, Aspose extracts them to the same folder as the markdown file by default. To control the destination:
 
@@ -162,7 +162,7 @@ mdOpts.setImagesFolder("YOUR_DIRECTORY/images");
 mdOpts.setExportImagesAsBase64(false); // Saves as separate image files
 ```
 
-### 2. Handling Tables  
+### 2. handling tables
 
 Markdown tables are plain‑text, so very wide tables may wrap oddly. You can force Aspose to export tables as HTML blocks inside the markdown:
 
@@ -170,7 +170,7 @@ Markdown tables are plain‑text, so very wide tables may wrap oddly. You can fo
 mdOpts.setTableExportMode(MarkdownTableExportMode.HTML);
 ```
 
-### 3. Encoding Issues  
+### 3. encoding issues
 
 Non‑ASCII characters (e.g., emojis, accented letters) need UTF‑8 encoding. Ensure your JVM runs with `-Dfile.encoding=UTF-8` or set the writer explicitly:
 
@@ -178,7 +178,7 @@ Non‑ASCII characters (e.g., emojis, accented letters) need UTF‑8 encoding. E
 mdOpts.setEncoding(Encoding.getEncoding("UTF-8"));
 ```
 
-### 4. Automating in Maven  
+### 4. automating in maven
 
 Add the following execution to your `pom.xml` to run the conversion during the `process-resources` phase:
 
@@ -204,7 +204,7 @@ Now every `mvn package` will automatically **convert docx to markdown**, keeping
 
 ---
 
-## Frequently Asked Questions  
+## Frequently asked questions
 
 **Q: Can I convert multiple Word files in one run?**  
 A: Absolutely. Wrap the three‑step logic in a loop that iterates over a directory of `.docx` files. Remember to give each output a unique name (e.g., `input1.md`, `input2.md`).
@@ -213,11 +213,11 @@ A: Absolutely. Wrap the three‑step logic in a loop that iterates over a direct
 A: Yes. Aspose.Words supports the older Word format. Just change the file extension in the `Document` constructor.
 
 **Q: What if I need to keep empty paragraphs for code samples?**  
-A: Switch the mode to `PRESERVE_WHITESPACE` for those specific sections, or post‑process the markdown to replace placeholder tokens with line breaks.
+A: Switch the `MarkdownEmptyParagraphExportMode` to `PRESERVE_WHITESPACE` for sections where you need to retain empty lines, such as code samples. Alternatively, run a post‑processing step on the generated markdown to insert line breaks where required.
 
 ---
 
-## Full Working Example  
+## Full working example
 
 Below is a self‑contained Java class you can drop into any project. It demonstrates **how to convert docx** to markdown, respects the **ignore empty paragraphs** setting, and logs the result.
 
@@ -288,7 +288,7 @@ What’s next? Try converting a whole documentation folder, experiment with `PRE
 Got more questions or a tricky Word layout you can’t get right? Drop a comment below, and happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
@@ -301,3 +301,4 @@ The following tutorials cover closely related topics that build on the technique
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
