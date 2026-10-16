@@ -55,7 +55,7 @@ tags:
 - Aspose.Words
 - Java
 - ImageConversion
-title: How to Convert Word to PNG and Export Images with Aspose.Words for Java – Complete Step‑by‑Step Guide
+title: How to Save PNG from Word with Aspose.Words for Java – Complete Step‑by‑Step Guide
 url: /java/document-conversion-and-export/how-to-save-png-from-word-complete-step-by-step-guide/
 ---
 
@@ -219,7 +219,6 @@ We’ve covered **how to save PNG** from a Word file, demonstrated the **convert
 
 If you run into any hiccups, drop a comment below or check Aspose’s official docs—they’re packed with extra examples and performance tips. Happy coding, and enjoy turning those Word files into beautiful PNG assets!
 
-
 ## Related Tutorials
 
 - [How to Convert DOCX to PNG in Java – Aspose.Words]({{< relref "words/english/java/document-converting/converting-documents-images" >}})
@@ -227,7 +226,7 @@ If you run into any hiccups, drop a comment below or check Aspose’s official d
 - [How to Convert Word to PDF Using Aspose.Words for Java]({{< relref "words/english/java/document-converting/using-document-converting" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

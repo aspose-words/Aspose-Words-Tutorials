@@ -47,7 +47,7 @@ tags:
 - DOCX
 - Accessibility
 - Aspose.Words
-title: Export DOCX to Accessible PDF with Aspose.Words – Complete Step‑by‑Step Guide
+title: Create Accessible PDF from DOCX with Aspose.Words – Complete Step‑by‑Step Guide
 url: /java/document-conversion-and-export/create-accessible-pdf-from-docx-complete-step-by-step-guide/
 ---
 
@@ -219,5 +219,6 @@ Got questions or want to share your own accessibility success story? Drop a comm
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

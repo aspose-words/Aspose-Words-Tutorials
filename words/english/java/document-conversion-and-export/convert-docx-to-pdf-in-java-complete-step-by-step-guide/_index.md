@@ -21,7 +21,7 @@ tags:
 - Java
 - docx
 - PDF
-title: Convert docx to pdf in Java with Aspose.Words – Complete Step‑by‑Step Guide
+title: How to Convert DOCX to PDF in Java using Aspose.Words – Complete Step‑by‑Step Guide
 url: /java/document-conversion-and-export/convert-docx-to-pdf-in-java-complete-step-by-step-guide/
 ---
 
@@ -209,7 +209,7 @@ Give it a spin, tweak the `PdfSaveOptions` to suit your needs, and soon you’ll
 - [How to Convert Word to PDF Using Aspose.Words for Java]({{< relref "/words/english/java/document-converting/using-document-converting/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

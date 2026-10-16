@@ -233,9 +233,9 @@ Got questions or a tricky file you can’t crack? Drop a comment below, and happ
 
 ## Related Tutorials
 
-- [Recover corrupted docx – Complete Guide to Fix and Process Documents](/words/english/java/document-loading-and-saving/recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
-- [How to Convert DOCX to PNG in Java – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
-- [How to Load HTML and Save as DOCX using Aspose.Words for Java](/words/english/java/document-loading-and-saving/loading-and-saving-html-documents/)
+- [Recover corrupted docx – Complete Guide to Fix and Process Documents]({{< relref "/words/english/java/document-loading-and-saving/recover-corrupted-docx-complete-guide-to-fix-and-process-doc/" >}})
+- [How to Convert DOCX to PNG in Java – Aspose.Words]({{< relref "/words/english/java/document-converting/converting-documents-images/" >}})
+- [How to Load HTML and Save as DOCX using Aspose.Words for Java]({{< relref "/words/english/java/document-loading-and-saving/loading-and-saving-html-documents/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/products-backtop-button >}}

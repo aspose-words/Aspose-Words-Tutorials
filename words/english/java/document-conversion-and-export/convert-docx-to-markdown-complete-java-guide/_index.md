@@ -11,7 +11,7 @@ keywords:
 - markdown resource handling
 language: en
 og_description: Export docx to markdown using Aspose.Words for Java. This guide shows how to export Word to markdown, manage images, and save the document as markdown efficiently.
-og_title: Convert docx to markdown using Aspose.Words for Java – Complete Guide
+og_title: Export docx to markdown using Aspose.Words for Java – Complete Guide
 schemas:
 - author: Aspose
   dateModified: '2026-05-23'
@@ -36,7 +36,7 @@ tags:
 - Java
 - Aspose.Words
 - Markdown
-title: Convert docx to markdown using Aspose.Words for Java – Complete Guide
+title: Export docx to markdown using Aspose.Words for Java – Complete Guide
 url: /java/document-conversion-and-export/convert-docx-to-markdown-complete-java-guide/
 ---
 
@@ -201,9 +201,9 @@ Got questions about handling tables, footnotes, or custom fonts? Drop a comment 
 
 ## Related Tutorials
 
-- [How to Export Markdown with Aspose.Words for Java](words/english/java/document-loading-and-saving/saving-documents-as-markdown/)
-- [How to Export LaTeX from Word: Convert DOCX to Markdown & Save as PDF](words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
-- [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words](words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
+- [How to Export Markdown with Aspose.Words for Java]({{< relref "words/english/java/document-loading-and-saving/saving-documents-as-markdown/" >}})
+- [How to Export LaTeX from Word: Convert DOCX to Markdown & Save as PDF]({{< relref "words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/" >}})
+- [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words]({{< relref "words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/products-backtop-button >}}

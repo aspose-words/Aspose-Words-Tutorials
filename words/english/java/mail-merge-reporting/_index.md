@@ -1,5 +1,5 @@
 ---
-title: "Automate Mail Merge & Reporting with Aspose.Words for Java – Tutorials for Developers"
+title: "Automate Mail Merge & Reporting with Aspose.Words for Java API – Tutorials for Developers"
 description: "Explore Aspose.Words for Java tutorials on Mail Merge and Reporting, learn how to automate document generation, enhance reporting features, and streamline business processes."
 weight: 7
 url: "/java/mail-merge-reporting/"
@@ -45,19 +45,19 @@ public class MailMergeExample {
 
 ## Available Tutorials
 
-### {{< relref "aspose-words-java-document-signing-tutorial" >}}Automate document signing in java with Aspose.Words: a comprehensive guide{{< /relref >}}
+### [Automate document signing in java with Aspose.Words: a comprehensive guide]({{< relref "aspose-words-java-document-signing-tutorial" >}})
 Learn how to automate document signing using Aspose.Words for Java. This tutorial covers setting up your environment, creating test data, adding signature lines, and digitally signing documents.
 
-### {{< relref "aspose-words-java-custom-mail-merge" >}}Mail merge in java with custom data using Aspose.Words: a comprehensive guide{{< /relref >}}
+### [Mail merge in java with custom data using Aspose.Words: a comprehensive guide]({{< relref "aspose-words-java-custom-mail-merge" >}})
 Learn how to perform mail merges using custom data sources in Java with Aspose.Words, including best practices and practical applications.
 
-### {{< relref "master-mail-merge-html-images-aspose-words-java" >}}Master Mail Merge with HTML & Images using Aspose.Words for Java{{< /relref >}}
+### [Master Mail Merge with HTML & Images using Aspose.Words for Java]({{< relref "master-mail-merge-html-images-aspose-words-java" >}})
 A code tutorial for Aspose.Words Java
 
-### {{< relref "rename-word-merge-fields-aspose-words-java" >}}Rename Word Merge Fields with Aspose.Words for Java{{< /relref >}}
+### [Rename Word Merge Fields with Aspose.Words for Java]({{< relref "rename-word-merge-fields-aspose-words-java" >}})
 A code tutorial for Aspose.Words Java
 
-### {{< relref "create-mail-merge-template-convert-docx-to-pdf-in-c" >}}Create Mail Merge Template & Convert DOCX to PDF in C#{{< /relref >}}
+### [Create Mail Merge Template & Convert DOCX to PDF in C#]({{< relref "create-mail-merge-template-convert-docx-to-pdf-in-c" >}})
 Learn how to create a mail merge template in C# and convert the resulting DOCX file to PDF using Aspose.Words.
 
 ## Additional Resources
@@ -72,6 +72,7 @@ Learn how to create a mail merge template in C# and convert the resulting DOCX f
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 

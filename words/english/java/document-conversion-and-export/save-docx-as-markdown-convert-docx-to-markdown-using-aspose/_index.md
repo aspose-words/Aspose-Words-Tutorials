@@ -22,7 +22,7 @@ tags:
 - Aspose.Words
 - Java
 - Document Conversion
-title: 'How to Save docx as markdown with Java: Convert docx to markdown using Aspose.Words'
+title: 'Convert DOCX to Markdown with Aspose.Words for Java – Save DOCX as Markdown'
 url: /java/document-conversion-and-export/save-docx-as-markdown-convert-docx-to-markdown-using-aspose/
 ---
 
@@ -206,9 +206,9 @@ If everything is wired correctly, you’ll see the confirmation message and the 
 
 ## Related Tutorials
 
-- [How to Export LaTeX from Word: Convert DOCX to Markdown & Save as PDF](../how-to-export-latex-from-word-convert-docx-to-markdown-save/)
-- [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words](../convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [How to Export Markdown from DOCX – Complete Guide](../../net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/)
+- {{< relref "../how-to-export-latex-from-word-convert-docx-to-markdown-save/_index.md" >}}
+- {{< relref "../convert-docx-to-markdown-export-math-equations-to-latex-with/_index.md" >}}
+- {{< relref "../../net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/_index.md" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

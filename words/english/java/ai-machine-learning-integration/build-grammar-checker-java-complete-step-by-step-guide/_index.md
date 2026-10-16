@@ -23,7 +23,7 @@ tags:
 - Grammar Checker
 - AI
 - Document Processing
-title: Integrate Aspose.Words API to Build a Grammar Checker in Java – Complete Step‑by‑Step Guide
+title: Integrate Aspose.Words for Java API to Build a Grammar Checker – Complete Step‑by‑Step Guide
 url: /java/ai-machine-learning-integration/build-grammar-checker-java-complete-step-by-step-guide/
 ---
 

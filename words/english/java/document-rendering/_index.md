@@ -1,6 +1,6 @@
 ---
-title: Render Word Documents to PDF, XPS, HTML with Aspose.Words for Java
-linktitle: Render Word Documents to PDF, XPS, HTML with Aspose.Words for Java
+title: Render Word Documents to PDF, XPS, HTML using Aspose.Words for Java API
+linktitle: Render Word Documents to PDF, XPS, HTML using Aspose.Words for Java API
 second_title: Aspose.Words Java Document Processing API
 description: Efficiently render Word documents to PDF, XPS, HTML, and images in Java using Aspose.Words for Java. Master document rendering for professional outputs.
 weight: 16
