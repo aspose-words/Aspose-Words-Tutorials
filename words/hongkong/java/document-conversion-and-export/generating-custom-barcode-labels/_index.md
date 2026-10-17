@@ -14,7 +14,7 @@ weight: 10
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Words for Java 中產生自訂條碼標籤
+# 使用 Aspose Barcode Java 產生自訂條碼標籤
 
 ## 在 Aspose.Words for Java 中產生自訂條碼的簡介
 

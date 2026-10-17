@@ -1,24 +1,24 @@
 ---
 category: general
-date: 2026-04-21
-description: 在几分钟内将 Word 文件创建为可访问的 PDF —— 学习使用 Aspose.Words 将 Word 转换为 PDF、将 docx
-  保存为 PDF，以及导出 Word 为 PDF。
+date: 2026-02-15
+description: 在 C# 中从 DOCX 文件创建可访问的 PDF。了解如何将 docx 转换为 pdf、将 Word 保存为 pdf、导出 docx 为
+  pdf，并满足 PDF/UA‑2 合规性。
 draft: false
 keywords:
 - create accessible pdf
+- convert docx to pdf
+- save word as pdf
+- export docx to pdf
 - convert word to pdf
-- save docx as pdf
-- export word to pdf
-- save document as pdf
 language: zh
-og_description: 快速从 Word 文档创建可访问的 PDF。本指南展示如何将 Word 转换为 PDF、将 docx 保存为 PDF，以及使用完整代码导出
-  Word 为 PDF。
-og_title: 从 Word 创建可访问的 PDF – 完整编程指南
+og_description: 使用 C# 从 DOCX 文件创建可访问的 PDF。本指南展示如何将 docx 转换为 pdf、将 Word 保存为 pdf，以及如何确保
+  PDF/UA‑2 合规。
+og_title: 从 Word 创建可访问的 PDF – 完整 C# 教程
 tags:
 - Aspose.Words
-- PDF/UA
 - C#
-title: 从 Word 创建可访问 PDF – 步骤指南
+- PDF Accessibility
+title: 从 Word 创建可访问的 PDF – 步骤指南
 url: /zh/net/basic-conversions/create-accessible-pdf-from-word-step-by-step-guide/
 ---
 
@@ -26,145 +26,187 @@ url: /zh/net/basic-conversions/create-accessible-pdf-from-word-step-by-step-guid
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create Accessible PDF from Word – Complete Programming Guide
+# 从 Word 创建可访问 PDF – 步骤指南
 
-需要 **从 Word 文档创建可访问的 PDF** 吗？这样不仅满足 PDF/UA 合规性，还能让您的内容对屏幕阅读器、移动设备以及所有依赖辅助技术的用户可用。
+是否曾需要从 Word 文档 **创建可访问 PDF**，但不确定该调整哪些设置？你并不孤单。在许多企业环境中，可访问性不是可有可无，而是必须的，尤其是当你必须满足 PDF/UA‑2 标准时。  
 
-在本教程中，您将看到如何使用几行 C# 代码 **将 word 转换为 pdf**、**将 docx 保存为 pdf**，以及 **导出 word 为 pdf**。无需外部服务，只需 Aspose.Words for .NET 完成繁重工作。
+在本教程中，我们将逐步演示一个完整且可运行的示例，展示如何 **convert docx to pdf**、**save word as pdf**，并确保输出完全可访问。完成后，你将拥有一个独立的 C# 程序，可直接嵌入任何 .NET 项目中。
 
-## What You’ll Learn
+## 你将学到
 
-我们将逐步演示将 `.docx` 文件转换为完整标记的可访问 PDF 所需的每一步。完成后，您将能够：
+- 如何使用 Aspose.Words for .NET 加载 `.docx` 文件。  
+- 哪些 `PdfSaveOptions` 属性可强制实现 PDF/UA‑2 合规。  
+- 将 **export docx to pdf** 的完整步骤，同时保留标签、替代文本和阅读顺序。  
+- 处理边缘情况的技巧，例如缺失文档属性或大图像。  
 
-* 从磁盘加载 Word 文档。  
-* 为 PDF/UA 合规性配置 `PdfSaveOptions`（定义可访问 PDF 的标准）。  
-* 将文档保存为可访问的 PDF 文件。  
+无需外部工具，无需手动后处理——只需今天即可运行的纯代码。
 
-如果您曾经好奇为什么简单的 `doc.Save("file.pdf")` 有时会生成未通过可访问性检查的 PDF，这里会给出答案。唯一的前提是使用最近版本的 Aspose.Words 库（2024‑xx 或更高）以及 .NET 开发环境。
+## 前提条件
 
-![Create accessible PDF example](/images/accessible-pdf.png){: .align-center alt="使用 Aspose.Words 从 Word 创建可访问的 PDF"}
+在开始之前，请确保具备以下条件：
 
-## Step 1 – Create Accessible PDF from Word
+| 要求 | 重要原因 |
+|-------------|----------------|
+| **.NET 6.0+** (or .NET Framework 4.7.2) | 最新的运行时为你提供更好的性能和长期支持。 |
+| **Aspose.Words for .NET** (v23.12 or newer) | 此库能够自动嵌入可访问性标签。 |
+| **A DOCX file** you own the rights to (e.g., `input.docx`) | 源文档提供将要转换为 PDF 的内容。 |
+| **Visual Studio 2022** (or any IDE you prefer) | IDE 使调试更容易，但任何文本编辑器都可以使用。 |
 
-首先需要一个指向源 `.docx` 的 `Document` 对象。这段代码与任何 Word 处理任务相同，但我们会显式写出，因为路径在后续验证输出时很重要。
+你可以使用以下方式获取 NuGet 包：
+
+```bash
+dotnet add package Aspose.Words
+```
+
+> **技巧提示：** 如果你针对特定平台（Windows、Linux、macOS），请选择相应的 RID‑specific 包以减小二进制体积。
+
+## 步骤 1：加载 DOCX 文档  
+
+我们首先需要一个代表 Word 文件的 `Document` 对象。可以把它视为 Aspose.Words 操作的内存画布。
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Saving;
 
 // Step 1: Load the source document
-Document doc = new Document(@"C:\MyProjects\Docs\input.docx");
-
-// Quick sanity check – make sure the document loaded
-if (doc == null)
-{
-    throw new InvalidOperationException("Failed to load the Word file.");
-}
+Document sourceDocument = new Document(@"C:\MyDocs\input.docx");
 ```
 
-*Why this matters:* 加载文档后，您即可访问其内部结构（段落、表格、标题）。随后 **创建可访问的 pdf** 时，Aspose.Words 会基于该结构自动生成所需的 PDF 标记。
+> **此步骤重要原因：** 加载文件会解析所有底层的 WordML，包括标题、表格以及任何现有的可访问性元数据。如果 DOCX 已经包含图像的 alt 文本，Aspose.Words 在后续导出时会保留它。
 
-## Step 2 – Configure PDF/UA Compliance
+## 步骤 2：配置 PDF 保存选项以实现可访问性  
 
-PDF/UA（通用可访问性）是定义 PDF 必须如何标记的 ISO 标准。如果不打开此标志，生成的 PDF 可能在屏幕上显示正常，却会在大多数可访问性验证器中失败。
+现在我们告诉库我们希望如何生成 PDF。关键属性是 `Compliance`，我们将其设置为 `PdfCompliance.PdfUa2`。此标志强制输出符合 PDF/UA‑2 规范。
 
 ```csharp
-// Step 2: Configure PDF save options for PDF/UA compliance
-PdfSaveOptions pdfOptions = new PdfSaveOptions
-{
-    // This tells Aspose.Words to produce a PDF/UA‑compliant file
-    Compliance = PdfCompliance.PdfUADocument,
+using Aspose.Words.Saving;
 
-    // Optional: Treat horizontal rules as artifacts (they’re decorative)
-    // This mirrors the original example you saw.
-    // You can also tweak other options like EmbedFullFonts = true;
-    SaveFormat = SaveFormat.Pdf
+// Step 2: Configure PDF save options for accessibility (PDF/UA‑2 compliance)
+PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
+{
+    // Ensures the PDF is tagged and meets PDF/UA‑2 requirements
+    Compliance = PdfCompliance.PdfUa2,
+
+    // Optional: embed the source document's metadata into the PDF
+    ExportDocumentStructure = true,
+
+    // Optional: preserve hyperlinks and bookmarks
+    PreserveFormFields = true
 };
 ```
 
-*Pro tip:* 如果您的 Word 文档包含装饰性线条（水平规则），将其标记为 artifact 可防止屏幕阅读器将其读取为内容。这个小技巧往往决定了可访问性审计是通过还是失败。
+> **为什么设置 `ExportDocumentStructure`：** 它告诉导出器包含逻辑阅读顺序，屏幕阅读器依赖此顺序。  
+> **图像怎么办？** 只要原始 DOCX 有 alt 文本，Aspose.Words 会自动将其复制到 PDF 的图像标签中。
 
-## Step 3 – Save Document as PDF
+## 步骤 3：将文档保存为可访问的 PDF  
 
-现在我们终于 **将文档保存为 pdf**。`Save` 方法接受路径和我们刚准备好的 `PdfSaveOptions`。
+最后，我们将 PDF 写入磁盘。这一行代码完成了繁重的工作——标签化、嵌入字体以及在内部验证合规性。
 
 ```csharp
 // Step 3: Save the document as an accessible PDF
-string outputPath = @"C:\MyProjects\Docs\Accessible.pdf";
-doc.Save(outputPath, pdfOptions);
+sourceDocument.Save(@"C:\MyDocs\output.pdf", pdfSaveOptions);
+```
 
-// Verify that the file exists
-if (!System.IO.File.Exists(outputPath))
+程序运行结束后，在 Adobe Acrobat Pro 中打开 `output.pdf`，检查 **File > Properties > Description > PDF/A and PDF/UA**。你应该会看到一个绿色勾，表明符合 PDF/UA‑2 标准。
+
+> **预期结果：** PDF 将保留原始 Word 文件中的所有标题、表格和 alt 文本，并且可通过屏幕阅读器完整导航。
+
+## 完整工作示例  
+
+下面是完整的控制台应用程序代码，你可以复制粘贴到新的 .NET 项目中。它包含错误处理和快速验证步骤。
+
+```csharp
+using System;
+using Aspose.Words;
+using Aspose.Words.Saving;
+
+namespace AccessiblePdfDemo
 {
-    throw new IOException("The PDF was not created successfully.");
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            try
+            {
+                // 1️⃣ Load the DOCX
+                string inputPath = @"C:\MyDocs\input.docx";
+                Document doc = new Document(inputPath);
+                Console.WriteLine($"Loaded document: {inputPath}");
+
+                // 2️⃣ Set up PDF options for PDF/UA‑2
+                PdfSaveOptions options = new PdfSaveOptions
+                {
+                    Compliance = PdfCompliance.PdfUa2,
+                    ExportDocumentStructure = true,
+                    PreserveFormFields = true
+                };
+
+                // 3️⃣ Save as accessible PDF
+                string outputPath = @"C:\MyDocs\output.pdf";
+                doc.Save(outputPath, options);
+                Console.WriteLine($"Accessible PDF created at: {outputPath}");
+
+                // Quick sanity check – open the file size
+                var fileInfo = new System.IO.FileInfo(outputPath);
+                Console.WriteLine($"File size: {fileInfo.Length / 1024} KB");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+                // In a real app you might log the stack trace or rethrow
+            }
+        }
+    }
 }
 ```
 
-执行此行代码时，Aspose.Words 会写入一个 PDF，具备以下特性：
+**运行程序** 会打印几行状态信息，并生成 `output.pdf`。在任何支持可访问性检查的 PDF 阅读器中打开它，你会看到文档已正确打标签。
 
-* 包含正确的结构标记（标题、段落、表格、列表）。  
-* 将装饰性元素标记为 artifacts。  
-* 嵌入字体，以避免在其他机器上出现布局错位。
+![创建可访问 PDF 示例](https://example.com/images/accessible-pdf.png "显示使用 Aspose.Words 创建的带标签 PDF 的截图 – create accessible pdf")
 
-现在您可以在 Adobe Acrobat 中打开 `Accessible.pdf` 并运行 **Accessibility Checker**——它应显示 “No errors”。
+## 边缘情况与常见问题  
 
-## Optional: How to Convert Word to PDF (Non‑UA)
+### 如果我的 DOCX 没有图像的 alt 文本怎么办？
 
-如果不需要完整的 PDF/UA 合规性，过程会更简短。这就是经典的 **convert word to pdf** 场景：
+PDF 仍然在技术上是可访问的，但图像会被标记为装饰性。你应先在 Word 中为图片添加 alt 文本——选择图片 → **Layout > Alt Text**——或通过 `Shape.AlternativeText` 以编程方式设置。
 
-```csharp
-// Simple conversion without accessibility tags
-doc.Save(@"C:\MyProjects\Docs\Simple.pdf", SaveFormat.Pdf);
-```
+### 我可以嵌入自定义字体吗？
 
-*When to use this?* 适用于您控制查看环境的内部报告，或仅用于打印的 PDF 生成。只需记住，这样会失去可访问性保障。
+可以。将 `pdfSaveOptions.FontEmbeddingMode = FontEmbeddingMode.Always` 设置为强制嵌入字体。这可以防止在未安装原始字体的机器上出现字体替换。
 
-## Optional: Save Docx as PDF – Best Practices
+### 如何处理大文档？
 
-有时需求仅是 **save docx as pdf**，而不必担心标记。下面的代码片段展示了如何在保持原始布局的同时使用相同的 `PdfSaveOptions` 对象（去掉合规性标志）。
+处理超过 100 MB 的文件时，考虑使用流式写入输出：
 
 ```csharp
-PdfSaveOptions simpleOptions = new PdfSaveOptions
+using (FileStream outStream = new FileStream(outputPath, FileMode.Create))
 {
-    Compliance = PdfCompliance.PdfA1b, // PDF/A for archiving, not accessibility
-    EmbedFullFonts = true
-};
-
-doc.Save(@"C:\MyProjects\Docs\Archived.pdf", simpleOptions);
+    doc.Save(outStream, options);
+}
 ```
 
-*Why switch to PDF/A?* PDF/A 适合长期存储，因为它会嵌入渲染文档所需的全部内容。当您需要一个稳定的文件但不要求 PDF/UA 时，这是一个很好的折中方案。
+流式写入可以降低内存压力并加快写入速度。
 
-## Verifying the Result – Quick Checklist
+### PDF/UA‑2 与 PDF/A‑2 是同一个吗？
 
-1. **在 Acrobat 中打开** → *Tools* → *Accessibility* → *Full Check*。  
-2. 查找 **“Document structure”** 部分——应列出标题、段落、表格等的标记。  
-3. 确认 **“Artifacts”** 已正确识别（例如装饰性线条）。  
+不是。PDF/A 注重归档（不含外部内容），而 PDF/UA 额外加入了可访问性要求。若同时需要归档合规，Aspose.Words 可以通过设置 `Compliance = PdfCompliance.PdfUa2` 和 `PdfACompliance = PdfACompliance.PdfA2b` 来同时生成两者。
 
-如果出现任何问题，请返回 **Step 2** 并调整 `PdfSaveOptions`。例如，您可以显式设置 `pdfOptions.TaggedPdf = true`，尽管在 `Compliance = PdfUADocument` 时默认已为 true。
+## 顺畅转换的技巧  
 
-## Common Pitfalls & How to Avoid Them
+- **提前验证：** 在保存之前使用 `doc.ValidateStructure()` 捕获结构错误的 Word 标记。  
+- **保持标题层级合理：** 屏幕阅读器依赖标题级别（`Heading 1`、`Heading 2`、…）。  
+- **避免嵌套表格：** 它们会混淆标签生成器并导致阅读顺序错误。  
+- **使用真实屏幕阅读器进行测试：** NVDA（免费）或 JAWS（商业）会揭示你在 Acrobat 检查器中可能忽略的问题。  
+- **批量处理：** 将上述逻辑包装在循环中一次性转换多个 DOCX 文件；记得在每次处理后释放 `Document` 对象以释放内存。
 
-| Pitfall | Symptom | Fix |
-|---------|---------|-----|
-| Missing fonts | Text looks different on another machine | Set `EmbedFullFonts = true` in `PdfSaveOptions`. |
-| Horizontal rules read as text | Screen‑reader reads “---” | Mark them as artifacts (`pdfOptions.HorizontalRuleAsArtifact = true`). |
-| Large file size | PDF is unexpectedly big | Enable `pdfOptions.Compress = true` or use `PdfCompressionLevel` settings. |
-| Validation fails on tables | Table cells not tagged | Ensure your Word tables use proper heading styles; Aspose.Words respects them automatically. |
+## 结论  
 
-## Wrap‑Up: What We Achieved
+我们刚刚使用 Aspose.Words **创建了可访问的 PDF**，从加载 DOCX 到配置 `PdfSaveOptions` 以实现 PDF/UA‑2 合规，完整覆盖了整个过程。这个简短的程序不仅 **convert docx to pdf**，还能保证生成的文件可被辅助技术读取。  
 
-现在您已经掌握了使用 Aspose.Words **从 Word 文件创建可访问 pdf** 的方法。三步流程——加载、配置、保存——涵盖了从 **convert word to pdf** 到 **save document as pdf** 的完整生命周期，并保证 PDF/UA 合规。
+如果你在其他场景下想要 **save word as pdf**——例如服务器端生成或自动化报告流水线——只需复用相同的 `PdfSaveOptions` 配置。若需更深入的自定义，可探索 `ImageCompression`、`CustomTimeStamp` 或 `PdfDigitalSignature` 等属性。  
 
-尝试运行代码，打开生成的 `Accessible.pdf`，让 Acrobat 的可访问性检查给您一个赞。
+准备好迎接下一个挑战了吗？尝试在 **export docx to pdf** 时添加水印，或在返回 PDF 字节数组的 Web API 中实验 **convert word to pdf**。无限可能，而你现在已经拥有构建可访问文档工作流的坚实基础。
 
-### What’s Next?
-
-* 探索 **PdfSaveOptions** 属性，以微调压缩、图像质量和 PDF/A 合规性。  
-* 尝试 **export word to pdf** 进行批量处理：遍历文件夹中的 `.docx` 文件，一次性生成 PDF。  
-* 深入了解 Aspose.Words 的 **accessibility API**，以编程方式添加自定义标记或修改现有标记。  
-
-如果本指南对您有帮助，请与团队分享或在评论中留下您的技巧。祝编码愉快，享受构建面向所有人的 PDF！
+*祝编码愉快，愿你的 PDF 始终可读！*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

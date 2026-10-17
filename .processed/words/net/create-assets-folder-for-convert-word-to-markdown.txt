@@ -1,0 +1,7 @@
+Title: Create Assets Folder for Convert Word to Markdown
+Slug: create-assets-folder-for-convert-word-to-markdown
+Category: programming-with-markdownsaveoptions
+ProcessedDate: 2026-05-27T02:58:38.962571
+SourceRepo: AI Search API
+Keywords: create assets folder, convert word to markdown, extract images from docx, convert docx with images, write image stream
+PRNumber: 192

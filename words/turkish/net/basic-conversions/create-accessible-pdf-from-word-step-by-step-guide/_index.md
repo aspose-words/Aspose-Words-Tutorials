@@ -1,25 +1,25 @@
 ---
 category: general
-date: 2026-04-21
-description: Dakikalar içinde bir Word dosyasından erişilebilir PDF oluşturun – Word'ü
-  PDF'ye dönüştürmeyi, docx'i PDF olarak kaydetmeyi ve Aspose.Words kullanarak Word'ü
-  PDF'ye dışa aktarmayı öğrenin.
+date: 2026-02-15
+description: C#'ta bir DOCX dosyasından erişilebilir PDF oluşturun. Docx'i PDF'ye
+  nasıl dönüştüreceğinizi, Word'ü PDF olarak nasıl kaydedeceğinizi, docx'i PDF'ye
+  nasıl dışa aktaracağınızı öğrenin ve PDF/UA‑2 uyumluluğunu sağlayın.
 draft: false
 keywords:
 - create accessible pdf
+- convert docx to pdf
+- save word as pdf
+- export docx to pdf
 - convert word to pdf
-- save docx as pdf
-- export word to pdf
-- save document as pdf
 language: tr
-og_description: Word belgesinden hızlıca erişilebilir PDF oluşturun. Bu rehber, Word’u
-  PDF’ye dönüştürmeyi, docx’i PDF olarak kaydetmeyi ve tam kodla Word’den PDF’ye dışa
-  aktarmayı gösterir.
-og_title: Word'den Erişilebilir PDF Oluşturma – Tam Programlama Rehberi
+og_description: C#'ta bir DOCX dosyasından erişilebilir PDF oluşturun. Bu rehber,
+  docx'i pdf'ye nasıl dönüştüreceğinizi, Word'ü pdf olarak nasıl kaydedeceğinizi ve
+  PDF/UA‑2 uyumluluğunu nasıl sağlayacağınızı gösterir.
+og_title: Word'den Erişilebilir PDF Oluşturma – Tam C# Öğreticisi
 tags:
 - Aspose.Words
-- PDF/UA
 - C#
+- PDF Accessibility
 title: Word'den Erişilebilir PDF Oluşturma – Adım Adım Rehber
 url: /tr/net/basic-conversions/create-accessible-pdf-from-word-step-by-step-guide/
 ---
@@ -28,145 +28,183 @@ url: /tr/net/basic-conversions/create-accessible-pdf-from-word-step-by-step-guid
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word'den Erişilebilir PDF Oluşturma – Tam Programlama Rehberi
+# Word'den Erişilebilir PDF Oluşturma – Adım Adım Kılavuz
 
-Need to **create accessible pdf** from a Word document? Doing that not only satisfies PDF/UA compliance but also makes your content usable for screen‑readers, mobile devices, and anyone who relies on assistive technology.  
+Word belgesinden **erişilebilir PDF** oluşturmanız gerektiğinde ancak hangi ayarları değiştirmeniz gerektiğinden emin olmadığınız oldu mu? Yalnız değilsiniz. Birçok kurumsal ortamda erişilebilirlik bir lüks değil—bir zorunluluktur, özellikle PDF/UA‑2 standartlarını karşılamanız gerektiğinde.  
 
-In this tutorial you’ll see how to **convert word to pdf**, **save docx as pdf**, and **export word to pdf** with a handful of lines of C# code. No external services, just Aspose.Words for .NET doing the heavy lifting.
+Bu öğreticide, **docx to pdf** nasıl **convert** edileceğini, **save word as pdf** nasıl yapılacağını ve çıktının tamamen erişilebilir olmasını gösteren tam, çalıştırılabilir bir örnek üzerinden ilerleyeceğiz. Sonunda, herhangi bir .NET projesine ekleyebileceğiniz bağımsız bir C# programına sahip olacaksınız.
 
 ## Öğrenecekleriniz
 
-We’ll walk through every step required to turn a `.docx` file into a fully‑tagged, accessible PDF. By the end you’ll be able to:
+- Aspose.Words for .NET kullanarak bir `.docx` dosyasını nasıl yükleyeceğinizi.  
+- `PdfSaveOptions` özelliklerinin PDF/UA‑2 uyumluluğunu nasıl zorunlu kıldığını.  
+- Etiketleri, alt metni ve okuma sırasını koruyarak **export docx to pdf** için tam adımları.  
+- Eksik belge özellikleri veya büyük resimler gibi uç durumları ele almanın ipuçları.  
 
-* Diskten bir Word belgesi yükleyin.  
-* PDF/UA uyumluluğu için `PdfSaveOptions` yapılandırın (erişilebilir bir PDF'i tanımlayan standart).  
-* Belgeyi erişilebilir bir PDF dosyası olarak kaydedin.  
+No external tools, no manual post‑processing—just pure code you can run today.
 
-If you’ve ever wondered *why* a simple `doc.Save("file.pdf")` sometimes produces a PDF that fails accessibility checks, you’ll get the answer here. The only prerequisite is a recent version of the Aspose.Words library (2024‑xx or later) and a .NET development environment.
+## Önkoşullar
 
-![Erişilebilir PDF oluşturma örneği](/images/accessible-pdf.png){: .align-center alt="Word kullanarak Aspose.Words ile Erişilebilir PDF oluşturma"}
+İlerlemeye başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-## Adım 1 – Word'den Erişilebilir PDF Oluşturma
+| Requirement | Why it matters |
+|-------------|----------------|
+| **.NET 6.0+** (or .NET Framework 4.7.2) | En yeni çalışma zamanı daha iyi performans ve uzun vadeli destek sağlar. |
+| **Aspose.Words for .NET** (v23.12 or newer) | Bu kütüphane erişilebilirlik etiketlerini otomatik olarak gömmeyi bilir. |
+| **A DOCX file** you own the rights to (e.g., `input.docx`) | Kaynak belge, PDF'ye dönüşecek içeriği sağlar. |
+| **Visual Studio 2022** (or any IDE you prefer) | IDE'ler hata ayıklamayı kolaylaştırır, ancak herhangi bir metin düzenleyicisi de çalışır. |
 
-The first thing you need is a `Document` object that points at your source `.docx`. This is the same code you’d use for any Word‑processing task, but we’ll keep it explicit because the path matters when you later verify the output.
+You can grab the NuGet package with:
+
+```bash
+dotnet add package Aspose.Words
+```
+
+> **Pro ipucu:** Belirli bir platformu hedefliyorsanız (Windows, Linux, macOS), ikili dosya boyutunu küçültmek için uygun RID‑özel paketini seçin.
+
+## 1. Adım: DOCX Belgesini Yükleyin  
+
+İlk olarak, Word dosyasını temsil eden bir `Document` nesnesine ihtiyacımız var. Bunu, Aspose.Words'ün çalıştığı bellek içi bir tuval olarak düşünebilirsiniz.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Saving;
 
 // Step 1: Load the source document
-Document doc = new Document(@"C:\MyProjects\Docs\input.docx");
-
-// Quick sanity check – make sure the document loaded
-if (doc == null)
-{
-    throw new InvalidOperationException("Failed to load the Word file.");
-}
+Document sourceDocument = new Document(@"C:\MyDocs\input.docx");
 ```
 
-*Why this matters:* Loading the document gives you access to its internal structure (paragraphs, tables, headings). When you later **create accessible pdf**, Aspose.Words will automatically generate the required PDF tags based on that structure.
+> **Bu adımın önemi:** Dosyanın yüklenmesi, başlıklar, tablolar ve mevcut erişilebilirlik meta verileri dahil tüm alt WordML'yi ayrıştırır. DOCX zaten resimler için alt metin içeriyorsa, Aspose.Words bunu daha sonra dışa aktardığımızda korur.
 
-## Adım 2 – PDF/UA Uyumluluğunu Yapılandırma
+## 2. Adım: Erişilebilirlik İçin PDF Kaydetme Seçeneklerini Yapılandırın  
 
-PDF/UA (Universal Accessibility) is the ISO standard that defines how a PDF must be tagged. Without turning this flag on, the generated PDF might look fine on screen but will fail most accessibility validators.
+Şimdi kütüphaneye PDF'nin nasıl oluşturulacağını söylüyoruz. Ana özellik `Compliance` olup, bunu `PdfCompliance.PdfUa2` olarak ayarlıyoruz. Bu bayrak, çıktının PDF/UA‑2 standardına uymasını zorunlu kılar.
 
 ```csharp
-// Step 2: Configure PDF save options for PDF/UA compliance
-PdfSaveOptions pdfOptions = new PdfSaveOptions
-{
-    // This tells Aspose.Words to produce a PDF/UA‑compliant file
-    Compliance = PdfCompliance.PdfUADocument,
+using Aspose.Words.Saving;
 
-    // Optional: Treat horizontal rules as artifacts (they’re decorative)
-    // This mirrors the original example you saw.
-    // You can also tweak other options like EmbedFullFonts = true;
-    SaveFormat = SaveFormat.Pdf
+// Step 2: Configure PDF save options for accessibility (PDF/UA‑2 compliance)
+PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
+{
+    // Ensures the PDF is tagged and meets PDF/UA‑2 requirements
+    Compliance = PdfCompliance.PdfUa2,
+
+    // Optional: embed the source document's metadata into the PDF
+    ExportDocumentStructure = true,
+
+    // Optional: preserve hyperlinks and bookmarks
+    PreserveFormFields = true
 };
 ```
 
-*Pro tip:* If your Word document contains decorative lines (horizontal rules), marking them as artifacts prevents them from being read as content by screen‑readers. That tiny tweak can make the difference between a pass and a fail in an accessibility audit.
+> **Neden `ExportDocumentStructure` ayarlıyoruz:** Bu, dışa aktarıcının ekran okuyucularının güvendiği mantıksal okuma sırasını dahil etmesini söyler.  
+> **Resimler ne olacak?** Orijinal DOCX'te alt metin olduğu sürece, Aspose.Words bunu PDF'nin resim etiketlerine otomatik olarak kopyalar.
 
-## Adım 3 – Belgeyi PDF Olarak Kaydetme
+## 3. Adım: Belgeyi Erişilebilir PDF Olarak Kaydedin  
 
-Now we finally **save document as pdf**. The `Save` method takes the path and the `PdfSaveOptions` we just prepared.
+Son olarak, PDF'yi diske yazıyoruz. Bu tek satır, etiketleme, font gömme ve uyumluluğu doğrulama gibi ağır işleri arka planda yapar.
 
 ```csharp
 // Step 3: Save the document as an accessible PDF
-string outputPath = @"C:\MyProjects\Docs\Accessible.pdf";
-doc.Save(outputPath, pdfOptions);
+sourceDocument.Save(@"C:\MyDocs\output.pdf", pdfSaveOptions);
+```
 
-// Verify that the file exists
-if (!System.IO.File.Exists(outputPath))
+Program tamamlandıktan sonra, `output.pdf` dosyasını Adobe Acrobat Pro'da açın ve **File > Properties > Description > PDF/A and PDF/UA** bölümünü kontrol edin. PDF/UA‑2 uyumluluğunu gösteren yeşil bir işaret görmelisiniz.
+
+> **Beklenen sonuç:** PDF, orijinal Word dosyasındaki tüm başlıkları, tabloları ve alt metni koruyacak ve bir ekran okuyucu ile tamamen gezilebilir olacaktır.
+
+## Tam Çalışan Örnek  
+
+Aşağıda, yeni bir .NET projesine kopyalayıp‑yapıştırabileceğiniz tam konsol uygulaması yer alıyor. Hata yönetimi ve hızlı bir doğrulama adımı içerir.
+
+```csharp
+using System;
+using Aspose.Words;
+using Aspose.Words.Saving;
+
+namespace AccessiblePdfDemo
 {
-    throw new IOException("The PDF was not created successfully.");
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            try
+            {
+                // 1️⃣ Load the DOCX
+                string inputPath = @"C:\MyDocs\input.docx";
+                Document doc = new Document(inputPath);
+                Console.WriteLine($"Loaded document: {inputPath}");
+
+                // 2️⃣ Set up PDF options for PDF/UA‑2
+                PdfSaveOptions options = new PdfSaveOptions
+                {
+                    Compliance = PdfCompliance.PdfUa2,
+                    ExportDocumentStructure = true,
+                    PreserveFormFields = true
+                };
+
+                // 3️⃣ Save as accessible PDF
+                string outputPath = @"C:\MyDocs\output.pdf";
+                doc.Save(outputPath, options);
+                Console.WriteLine($"Accessible PDF created at: {outputPath}");
+
+                // Quick sanity check – open the file size
+                var fileInfo = new System.IO.FileInfo(outputPath);
+                Console.WriteLine($"File size: {fileInfo.Length / 1024} KB");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+                // In a real app you might log the stack trace or rethrow
+            }
+        }
+    }
 }
 ```
 
-When this line runs, Aspose.Words writes a PDF that:
+**Programı çalıştırmak** birkaç durum satırı yazdırır ve size `output.pdf` bırakır. Erişilebilirlik kontrollerini destekleyen herhangi bir PDF okuyucusunda açın, belgeyi doğru şekilde etiketlenmiş olarak göreceksiniz.
 
-* Contains proper structural tags (heading, paragraph, table, list).  
-* Marks decorative elements as artifacts.  
-* Embeds fonts to avoid layout shifts on other machines.
+![Create accessible PDF example](https://example.com/images/accessible-pdf.png "Screenshot showing a tagged PDF created with Aspose.Words – create accessible pdf")
 
-You can now open `Accessible.pdf` in Adobe Acrobat and run the **Accessibility Checker** – it should report “No errors”.
+## Kenar Durumları ve Yaygın Sorular  
 
-## Opsiyonel: Word'den PDF'e Dönüştürme (UA Dışı)
+### DOCX dosyamda resimler için alt metin yoksa ne olur?  
+PDF hâlâ teknik olarak erişilebilir olacak, ancak resimler dekoratif olarak işaretlenecek. Önce Word'de alt metin eklemelisiniz—resmi seçin → **Layout > Alt Text**—veya programlı olarak `Shape.AlternativeText` aracılığıyla ayarlayın.
 
-If you don’t need full PDF/UA compliance, the process is even shorter. This is the classic **convert word to pdf** scenario:
+### Özel fontları gömebilir miyim?  
+Evet. Font gömmeyi zorlamak için `pdfSaveOptions.FontEmbeddingMode = FontEmbeddingMode.Always` ayarlayın. Bu, orijinal fontlar yüklü olmayan makinelerde font değişimini önler.
 
-```csharp
-// Simple conversion without accessibility tags
-doc.Save(@"C:\MyProjects\Docs\Simple.pdf", SaveFormat.Pdf);
-```
-
-*When to use this?* For internal reports where you control the viewer environment, or when you’re generating PDFs for printing only. Just remember that you’ll lose the accessibility guarantees.
-
-## Opsiyonel: Docx'i PDF Olarak Kaydet – En İyi Uygulamalar
-
-Sometimes the requirement is simply to **save docx as pdf** without worrying about tags. The following snippet shows how to preserve the original layout while still using the same `PdfSaveOptions` object (minus the compliance flag).
+### Büyük belgelerle nasıl başa çıkılır?  
+100 MB'den büyük dosyalarla çalışırken, çıktıyı akış (stream) olarak düşünün:
 
 ```csharp
-PdfSaveOptions simpleOptions = new PdfSaveOptions
+using (FileStream outStream = new FileStream(outputPath, FileMode.Create))
 {
-    Compliance = PdfCompliance.PdfA1b, // PDF/A for archiving, not accessibility
-    EmbedFullFonts = true
-};
-
-doc.Save(@"C:\MyProjects\Docs\Archived.pdf", simpleOptions);
+    doc.Save(outStream, options);
+}
 ```
 
-*Why switch to PDF/A?* PDF/A is great for long‑term storage because it embeds everything needed to render the document later. It’s a good compromise when you need a stable file but don’t require PDF/UA.
+Akış, bellek baskısını azaltır ve yazma işlemini hızlandırır.
 
-## Sonucu Doğrulama – Hızlı Kontrol Listesi
+### PDF/UA‑2, PDF/A‑2 ile aynı mı?  
+Hayır. PDF/A arşivlemeye odaklanır (dış içerik yok), PDF/UA ise erişilebilirlik gereksinimlerini ekler. Aspose.Words, `Compliance = PdfCompliance.PdfUa2` ve `PdfACompliance = PdfACompliance.PdfA2b` ayarlarını yaparak ikisini aynı anda üretebilir, eğer arşiv uyumluluğu da gerekiyorsa.
 
-1. **Acrobat'ta Aç** → *Tools* → *Accessibility* → *Full Check*.  
-2. Look for the **“Document structure”** section – it should list tags for headings, paragraphs, tables, etc.  
-3. Ensure **“Artifacts”** are correctly identified (e.g., decorative lines).  
+## Sorunsuz Dönüşüm İçin İpuçları  
 
-If any issues appear, go back to **Step 2** and tweak the `PdfSaveOptions`. For example, you can set `pdfOptions.TaggedPdf = true` explicitly, though it’s true by default when `Compliance = PdfUADocument`.
+- **Erken doğrulama:** Kaydetmeden önce `doc.ValidateStructure()` kullanarak hatalı Word işaretlemesini yakalayın.  
+- **Başlıkları mantıklı tutun:** Ekran okuyucular başlık seviyelerine (`Heading 1`, `Heading 2`, …) güvenir.  
+- **İç içe tabloları önleyin:** Etiket oluşturucuları karıştırabilir ve bozuk okuma sırasına yol açabilir.  
+- **Gerçek bir ekran okuyucu ile test edin:** NVDA (ücretsiz) veya JAWS (ticari) Acrobat denetleyicisinde kaçırabileceğiniz sorunları ortaya çıkarır.  
+- **Toplu işleme:** Yukarıdaki mantığı bir döngüye sararak birden çok DOCX dosyasını aynı anda dönüştürün; sadece her `Document` nesnesini serbest bırakmayı unutmayın.
 
-## Yaygın Tuzaklar ve Nasıl Kaçınılır
+## Sonuç  
 
-| Sorun | Belirti | Çözüm |
-|-------|---------|-------|
-| Missing fonts | Text looks different on another machine | Set `EmbedFullFonts = true` in `PdfSaveOptions`. |
-| Horizontal rules read as text | Screen‑reader reads “---” | Mark them as artifacts (`pdfOptions.HorizontalRuleAsArtifact = true`). |
-| Large file size | PDF is unexpectedly big | Enable `pdfOptions.Compress = true` or use `PdfCompressionLevel` settings. |
-| Validation fails on tables | Table cells not tagged | Ensure your Word tables use proper heading styles; Aspose.Words respects them automatically. |
+Aspose.Words kullanarak bir Word dosyasından **erişilebilir PDF** oluşturduk, DOCX'i yüklemekten `PdfSaveOptions`'ı PDF/UA‑2 uyumluluğu için yapılandırmaya kadar her şeyi kapsadık. Kısa program yalnızca **convert docx to pdf** yapmakla kalmaz, aynı zamanda ortaya çıkan dosyanın yardımcı teknolojiler tarafından okunabilir olmasını da garanti eder.  
 
-## Özet: Başardıklarımız
+Diğer senaryolarda **save word as pdf** yapmak istiyorsanız—örneğin sunucu tarafı oluşturma veya otomatik rapor hatları—aynı `PdfSaveOptions` yapılandırmasını yeniden kullanın. Daha derin özelleştirme için `ImageCompression`, `CustomTimeStamp` veya `PdfDigitalSignature` gibi özellikleri keşfedin.  
 
-You now know how to **create accessible pdf** from a Word file using Aspose.Words. The three‑step flow—load, configure, save—covers the entire lifecycle from **convert word to pdf** to **save document as pdf** while guaranteeing PDF/UA compliance.
+Bir sonraki meydan okumaya hazır mısınız? **export docx to pdf** yaparken aynı zamanda filigran eklemeyi deneyin veya **convert word to pdf** işlemini PDF'yi bayt dizisi olarak döndüren bir web API'sinde deneyin. Gökyüzü sınırdır ve artık erişilebilir belge iş akışları oluşturmak için sağlam bir temele sahipsiniz.
 
-Give the code a spin, open the resulting `Accessible.pdf` in Acrobat, and watch the accessibility checker give you a thumbs‑up.
-
-### Sıradaki Adımlar?
-
-* Explore the **PdfSaveOptions** properties to fine‑tune compression, image quality, and PDF/A compliance.  
-* Try **export word to pdf** for batch processing: loop through a folder of `.docx` files and generate PDFs in one go.  
-* Dive into Aspose.Words’ **accessibility API** to add custom tags or modify existing ones programmatically.  
-
-If you found this guide helpful, share it with teammates or drop a comment with your own tips. Happy coding, and enjoy building PDFs that work for everyone!
+*Kodlamaktan keyif alın, ve PDF'leriniz her zaman okunabilir olsun!*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: باستخدام Aspose.Words، يُنشئ هذا البرنامج التعليمي مستند Word، يُدرج مخطط عمودي، يُحدّث عنوان المخطط بالنص المزوّد من قبل المستخدم، ويُبدّل إظهار وسيلة الإيضاح وتراكبها بناءً على تفضيلات المستخدم.
+//ExStepSummary:0: حدّد عنوان المخطط المزوّد من قبل المستخدم وما إذا كان يجب إظهار وسيلة الإيضاح.
+//ExStepSummary:1: أنشئ مستند Word جديدًا وDocumentBuilder لإضافة المحتوى.
+//ExStepSummary:2: أدرج مخططًا عموديًا بحجم 432 × 252 pt في المستند وتأكد من أن الشكل يحتوي فعليًا على مخطط.
+//ExStepSummary:3: استرجع كائن المخطط (chart)، عيّن نص عنوانه إلى القيمة التي قدمها المستخدم، وتأكد من عرض العنوان.
+//ExStepSummary:4: قم بتكوين وسيلة الإيضاح: اعرضها على اليمين إذا طُلب ذلك، وإلا أخفها، واسمح لها بالتراكب فوق منطقة الرسم.
+//ExStepSummary:5: احفظ المستند المعدل على القرص باسم CustomChart.docx.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+string chartHeader = "Fiscal Q1 Performance Summary";
+bool displayLegend = false;
+
+//ExStep:1-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:2-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+if (!chartContainer.HasChart)
+    throw new InvalidOperationException("The inserted shape does not contain a chart.");
+
+//ExStep:3-
+Chart chartObj = chartContainer.Chart;
+ChartTitle chartTitle = chartObj.Title;
+chartTitle.Text = chartHeader;
+chartTitle.Show = true;
+
+//ExStep:4-
+ChartLegend chartLegend = chartObj.Legend;
+chartLegend.Position = displayLegend ? LegendPosition.Right : LegendPosition.None;
+chartLegend.Overlay = true;
+
+//ExStep:5-
+wordDoc.Save("CustomChart.docx");
+//ExEnd

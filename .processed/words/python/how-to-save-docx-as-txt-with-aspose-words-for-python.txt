@@ -1,0 +1,7 @@
+Title: How to save docx as txt with Aspose.Words for Python
+Slug: how-to-save-docx-as-txt-with-aspose-words-for-python
+Category: document-conversion
+ProcessedDate: 2026-09-21T17:12:57.478716
+SourceRepo: AI Search API
+Keywords: save docx as txt, convert word to plain text, how to convert docx to txt, save document as plain text, export equations to latex
+PRNumber: 284

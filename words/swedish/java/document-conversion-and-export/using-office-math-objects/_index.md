@@ -15,7 +15,7 @@ weight: 13
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Använda Office Math-objekt i Aspose.Words för Java
+# Visa matematik inline med Office Math i Aspose.Words för Java
 
 ## Introduktion till att använda Office Math-objekt i Aspose.Words för Java
 
@@ -136,7 +136,7 @@ När allt sätts ihop visar följande kodsnutt ett minimalt, end‑to‑end‑ex
 ---
 
 **Senast uppdaterad:** 2025-12-15  
-**Testat med:** Aspose.Words för Java 24.12 (senaste vid skrivtillfället)  
+**Testat med:** Aspose.Words för Java 24.12 (senaste vid skrivtillfället) 
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
