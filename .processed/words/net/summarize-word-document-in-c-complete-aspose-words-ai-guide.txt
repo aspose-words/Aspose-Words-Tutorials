@@ -1,0 +1,7 @@
+Title: Summarize Word document in C# – complete Aspose.Words AI guide
+Slug: summarize-word-document-in-c-complete-aspose-words-ai-guide
+Category: ai-powered-document-processing
+ProcessedDate: 2026-08-11T07:19:30.313026
+SourceRepo: AI Search API
+Keywords: summarize word document, document summarizer example, c# generate text summary
+PRNumber: 249

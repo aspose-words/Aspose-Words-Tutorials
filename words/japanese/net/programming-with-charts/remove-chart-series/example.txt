@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Aspose.Words for .NET を使用して、このチュートリアルでは Document を作成し、DocumentBuilder を使って縦棒グラフを挿入し、ChartSeriesCollection.RemoveAt で特定のデータ系列をグラフから削除し、変更されたドキュメントを保存します。
+//ExStepSummary:0: 新しい Word Document を作成し、それにリンクした DocumentBuilder を作成します。
+//ExStepSummary:1: サイズ 432×252 ポイントの縦棒グラフを挿入し、さらに操作できるように Chart オブジェクトを取得します。
+//ExStepSummary:2: 削除すべき系列のゼロベースインデックス（2 番目の系列）を定義します。
+//ExStepSummary:3: インデックスが有効な場合、チャートの Series コレクションに対して RemoveAt を呼び出してその系列を削除します。
+//ExStepSummary:4: 更新されたドキュメントを .docx ファイルとして保存します。
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+int targetSeriesIdx = 1;
+
+//ExStep:3-
+if (targetSeriesIdx >= 0 && targetSeriesIdx < columnChart.Series.Count)
+{
+    columnChart.Series.RemoveAt(targetSeriesIdx);
+}
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutSeries.docx");
+//ExEnd

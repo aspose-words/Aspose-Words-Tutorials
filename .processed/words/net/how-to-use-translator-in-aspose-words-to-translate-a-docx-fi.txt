@@ -1,0 +1,7 @@
+Title: How to use translator in Aspose.Words to translate a DOCX file
+Slug: how-to-use-translator-in-aspose-words-to-translate-a-docx-fi
+Category: ai-powered-document-processing
+ProcessedDate: 2026-09-12T02:56:31.524572
+SourceRepo: AI Search API
+Keywords: how to use translator, how to translate docx, translate docx to french, translate word with google, translate docx with google
+PRNumber: 273
