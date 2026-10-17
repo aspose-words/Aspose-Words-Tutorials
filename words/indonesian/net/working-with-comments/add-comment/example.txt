@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: Tutorial ini menunjukkan cara membuat dokumen Word baru, menambahkan tiga paragraf, menemukan paragraf tertentu, melampirkan komentar dengan informasi penulis ke dalamnya, dan menyimpan hasilnya sebagai file DOCX menggunakan Aspose.Words.
+//ExStepSummary:0: Instansiasi Document baru dan DocumentBuilder untuk mulai membangun file Word.
+//ExStepSummary:1: Gunakan DocumentBuilder.Writeln untuk menambahkan tiga paragraf teks terpisah ke dalam dokumen.
+//ExStepSummary:2: Dapatkan paragraf kedua secara aman, kembali ke paragraf pertama jika dokumen memiliki kurang dari dua paragraf.
+//ExStepSummary:3: Buat Comment dengan detail penulis, atur teksnya, dan lampirkan ke paragraf yang dipilih.
+//ExStepSummary:4: Simpan dokumen yang dimodifikasi sebagai file DOCX bernama 'sample.docx' di folder saat ini.
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder builderObj = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+builderObj.Writeln("Introductory line.");
+builderObj.Writeln("Middle line.");
+builderObj.Writeln("Concluding line.");
+
+//ExStep:2-
+Paragraph? chosenParagraph = null;
+ParagraphCollection? paraList = wordDoc.FirstSection?.Body?.Paragraphs;
+if (paraList != null && paraList.Count > 1)
+{
+    chosenParagraph = paraList[1];
+}
+else if (paraList != null && paraList.Count > 0)
+{
+    chosenParagraph = paraList[0];
+}
+
+//ExStep:3-
+if (chosenParagraph != null)
+{
+    Comment note = new Comment(wordDoc, "Jordan", "JH", DateTime.Now);
+    note.SetText("Please examine this section.");
+    chosenParagraph.AppendChild(note);
+}
+
+//ExStep:4-
+wordDoc.Save("sample.docx");
+//ExEnd

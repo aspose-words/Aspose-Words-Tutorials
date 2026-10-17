@@ -1,0 +1,60 @@
+//ExStart
+//ExSummary: 本教程演示如何在 Word 文档中插入柱形图、更改文档的页面尺寸为 A4，并自动调整图表大小，使其在新页面宽度下保持比例。
+//ExStepSummary:0: 创建一个新的 Document 对象并使用 DocumentBuilder 对其进行编辑。
+//ExStepSummary:1: 插入一个尺寸为 432×252 点的柱形图，并获取其 Chart 对象。
+//ExStepSummary:2: 将图表标题文本设置为 "Quarterly Revenue" 并使其可见。
+//ExStepSummary:3: 将文档保存为文件，显示原始图表尺寸。
+//ExStepSummary:4: 将文档的纸张尺寸更改为 A4 并刷新布局。
+//ExStepSummary:5: 计算一个新的图表宽度，使其等于页面宽度的 80%，同时保持原始宽高比。
+//ExStepSummary:6: 如果该形状包含图表，则使用计算得到的宽度和高度对其进行重新尺寸调整。
+//ExStepSummary:7: 在图表已重新调整大小以适应新页面尺寸后，保存文档。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:6:images/4.png
+//ExStep:0-
+// Instantiate an empty document.
+Document myDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDoc);
+
+//ExStep:1-
+// Place a column chart with a starting size of 432×252 points.
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chartObj = chartContainer.Chart;
+
+//ExStep:2-
+// Provide a basic heading for the chart.
+chartObj.Title.Text = "Quarterly Revenue";
+chartObj.Title.Show = true;
+
+//ExStep:3-
+// Persist the file to illustrate the original dimensions.
+myDoc.Save("report_before.docx");
+
+//ExStep:4-
+// Switch the document's paper format to A4.
+docBuilder.PageSetup.PaperSize = PaperSize.A4;
+
+// Refresh layout after the page configuration change.
+myDoc.UpdatePageLayout();
+
+//ExStep:5-
+// Determine updated chart size so it stays proportional to the new page width.
+// Use 80 % of the page width while keeping the original width‑to‑height ratio.
+double pageWidth = docBuilder.PageSetup.PageWidth;
+double originalAspectRatio = chartContainer.Height / chartContainer.Width;
+double newChartWidth = pageWidth * 0.8;
+double newChartHeight = newChartWidth * originalAspectRatio;
+
+//ExStep:6-
+// Verify the shape actually hosts a chart before applying new dimensions.
+if (chartContainer.HasChart)
+{
+    chartContainer.Width = newChartWidth;
+    chartContainer.Height = newChartHeight;
+}
+
+//ExStep:7-
+// Save the final document with the adjusted chart.
+myDoc.Save("report_after.docx");
+//ExEnd

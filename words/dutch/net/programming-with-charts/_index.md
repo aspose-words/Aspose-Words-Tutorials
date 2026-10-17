@@ -22,6 +22,34 @@ In deze tutorials leert u hoe u verschillende soorten diagrammen maakt, zoals st
 Met deze tutorials kunt u uw Word-documenten verbeteren door visueel aantrekkelijke en informatieve afbeeldingen toe te voegen. U leert hoe u de geavanceerde grafische functies in Aspose.Words voor .NET kunt benutten en deze effectief in uw applicaties kunt integreren. Bekijk deze tutorials om uw grafische vaardigheden in Aspose.Words te vergroten.
 
  ## Zelfstudies
+
+{{< tutorial-card link="./uniform-data-labels/" title="Uniforme data‑labels instellen in een kolomgrafiek met Aspose.Words for .NET" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="Grafiek proportioneel schalen bij het wijzigen van de paginagrootte in Word met Aspose.Words for .NET" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="Aangepaste kolomgrafiek invoegen in Word‑document met Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./hide-plot-border/" title="Plot Area Border verbergen in een column chart met Aspose.Words for .NET" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Verwijder een Chart Series uit een Word Document met Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-sample-column-chart/" title="Voeg een voorbeeld kolomgrafiek toe aan een Word‑document met Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-named-series/" title="Voeg een benoemde gegevensreeks toe aan een histogram‑grafiek in Word met Aspose.Words for .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Grafiekreeksen en gegevenspunten valideren in een Word Document met Aspose.Words voor .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Aanpassen van X‑as‑roosterlijnen in een kolomgrafiek met Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Formatteer de secundaire X‑as en stel weergave‑eenheden in op duizenden in Word‑lijndiagrammen met Aspose.Words voor .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Grafiektitel bijwerken en legenda‑zichtbaarheid schakelen in Word met Aspose.Words voor .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
+
+
+
+
+
+
 | Titel | Beschrijving |
 | --- | --- |
 | [Formaat van het aantal gegevenslabels in een grafiek](./format-number-of-data-label/) | Leer hoe u gegevenslabels in grafieken opmaakt met Aspose.Words voor .NET met deze stapsgewijze handleiding. Verbeter uw Word-documenten moeiteloos. |
