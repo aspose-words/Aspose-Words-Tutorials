@@ -1,0 +1,7 @@
+Title: How to recover docx files with Aspose.Words for Python
+Slug: how-to-recover-docx-files-with-aspose-words-for-python
+Category: document-options-and-settings
+ProcessedDate: 2026-08-17T19:08:08.378181
+SourceRepo: AI Search API
+Keywords: how to recover docx, enable recovery mode, display page count, recover word file, recover damaged word
+PRNumber: 257

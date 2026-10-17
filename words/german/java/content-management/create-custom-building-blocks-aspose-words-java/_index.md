@@ -55,11 +55,10 @@ Bevor wir beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 - Grundlegendes Verständnis der Java‑Programmierung.
 - Vertrautheit mit XML und Dokumenten‑Verarbeitungskonzepten ist hilfreich, aber nicht zwingend erforderlich.
 
-## Einrichten von Aspose.Words
+## Aspose.Words einrichten
 
 Fügen Sie die Aspose.Words‑Bibliothek Ihrem Projekt über Maven oder Gradle hinzu:
 
-**Maven:**
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -68,7 +67,9 @@ Fügen Sie die Aspose.Words‑Bibliothek Ihrem Projekt über Maven oder Gradle h
 </dependency>
 ```
 
-**Gradle:**
+### Gradle-Abhängigkeit
+Für Gradle‑basierte Projekte fügen Sie hinzu:
+
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```

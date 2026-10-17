@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: В этом руководстве демонстрируется, как создать документ Word, вставить столбчатую диаграмму, заполнить её примерными данными, скрыть границу области построения диаграммы, оставив линии осей видимыми, и в конце сохранить документ.
+//ExStepSummary:0: Создайте новый пустой документ Word и объект DocumentBuilder для его редактирования.
+//ExStepSummary:1: Вставьте в документ столбчатую диаграмму размером 432×252 и получите её объект Chart.
+//ExStepSummary:2: Очистите любые существующие серии, задайте три метки категорий и добавьте к диаграмме серию с примерными значениями.
+//ExStepSummary:3: Установите толщину обводки области построения в ноль, удалив её границу, но оставив линии осей видимыми.
+//ExStepSummary:4: Сохраните изменённый документ в файл формата .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+columnChart.Series.Clear();
+string[] labels = { "Group A", "Group B", "Group C" };
+columnChart.Series.Add("Demo Data", labels, new double[] { 10, 20, 30 });
+
+//ExStep:3-
+columnChart.Format.Stroke.Weight = 0;
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutPlotBorder.docx");
+//ExEnd

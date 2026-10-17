@@ -33,6 +33,7 @@ Whether you are a beginner or an experienced developer, the Aspose.Words for .NE
 | [Configuring Link To Content](./configuring-link-to-content/) | Learn how to configure a link to content in a Word document using Aspose.Words for .NET with our detailed, step-by-step tutorial. |
 | [Convert Between Measurement Units](./convert-between-measurement-units/) | Learn how to convert measurement units in Aspose.Words for .NET. Follow our step-by-step guide to set document margins, headers, and footers in inches and points. |
 | [Use Control Characters](./use-control-characters/) | Discover how to automate Word document tasks using Aspose.Words for .NET. This guide covers setup, text replacement, and more, making your workflow efficient. |
+| [How to Count Pages in a Word Document – Recover & Count](./how-to-count-pages-in-a-word-document-recover-count/) | Learn how to count pages in a Word document using Aspose.Words for .NET with this step-by-step guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
