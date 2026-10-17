@@ -1,0 +1,7 @@
+Title: Change Font Style in Word Documents – Complete C# Guide
+Slug: change-font-style-in-word-documents-complete-c-guide
+Category: document-styling
+ProcessedDate: 2026-06-27T15:22:29.839899
+SourceRepo: AI Search API
+Keywords: change font style, set font weight, set bold weight, adjust font width, modify font in word
+PRNumber: 214

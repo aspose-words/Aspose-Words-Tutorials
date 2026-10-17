@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: Hướng dẫn này cho thấy cách tạo một tài liệu Word mới, thêm ba đoạn văn, xác định một đoạn văn cụ thể, gắn một bình luận có thông tin tác giả vào đoạn đó, và lưu kết quả dưới dạng tệp DOCX bằng Aspose.Words.
+//ExStepSummary:0: Khởi tạo một Document mới và một DocumentBuilder để bắt đầu xây dựng tệp Word.
+//ExStepSummary:1: Sử dụng DocumentBuilder.Writeln để thêm ba đoạn văn bản riêng biệt vào tài liệu.
+//ExStepSummary:2: Lấy đoạn văn thứ hai một cách an toàn, nếu tài liệu có ít hơn hai đoạn thì sẽ quay lại đoạn đầu tiên.
+//ExStepSummary:3: Tạo một Comment với thông tin tác giả, đặt nội dung của nó, và gắn vào đoạn văn đã chọn.
+//ExStepSummary:4: Lưu tài liệu đã chỉnh sửa dưới dạng tệp DOCX có tên 'sample.docx' trong thư mục hiện tại.
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder builderObj = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+builderObj.Writeln("Introductory line.");
+builderObj.Writeln("Middle line.");
+builderObj.Writeln("Concluding line.");
+
+//ExStep:2-
+Paragraph? chosenParagraph = null;
+ParagraphCollection? paraList = wordDoc.FirstSection?.Body?.Paragraphs;
+if (paraList != null && paraList.Count > 1)
+{
+    chosenParagraph = paraList[1];
+}
+else if (paraList != null && paraList.Count > 0)
+{
+    chosenParagraph = paraList[0];
+}
+
+//ExStep:3-
+if (chosenParagraph != null)
+{
+    Comment note = new Comment(wordDoc, "Jordan", "JH", DateTime.Now);
+    note.SetText("Please examine this section.");
+    chosenParagraph.AppendChild(note);
+}
+
+//ExStep:4-
+wordDoc.Save("sample.docx");
+//ExEnd

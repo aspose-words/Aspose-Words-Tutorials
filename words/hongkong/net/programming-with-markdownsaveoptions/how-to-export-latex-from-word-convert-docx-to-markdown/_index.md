@@ -1,17 +1,19 @@
 ---
 category: general
-date: 2026-03-27
-description: 如何使用 Aspose.Words 從 Word 文件匯出 LaTeX ─ 將 DOCX 轉換為包含 LaTeX 公式的 Markdown。
+date: 2026-01-13
+description: 如何使用 Aspose.Words 從 Word 匯出 LaTeX – 學習將 DOCX 轉換為 Markdown 並快速儲存 Markdown
+  檔案。
 draft: false
 keywords:
 - how to export latex
 - convert word to markdown
-- how to convert docx
-- save word as markdown
-- export equations as latex
+- convert docx to markdown
+- how to save markdown
+- save docx as markdown
 language: zh-hant
-og_description: 在第一句中說明了如何從 Word 文件匯出 LaTeX，示範如何將 DOCX 轉換為含有 LaTeX 方程式的 Markdown。
-og_title: 如何從 Word 匯出 LaTeX — 完整指南
+og_description: 如何使用 Aspose.Words 從 Word 匯出 LaTeX。本指南說明如何將 DOCX 轉換為 Markdown，並有效地儲存
+  Markdown 檔案。
+og_title: 如何從 Word 匯出 LaTeX – 將 DOCX 轉換為 Markdown
 tags:
 - Aspose.Words
 - C#
@@ -27,181 +29,144 @@ url: /zh-hant/net/programming-with-markdownsaveoptions/how-to-export-latex-from-
 
 # 如何從 Word 匯出 LaTeX – 將 DOCX 轉換為 Markdown
 
-有沒有想過 **如何從 Word 檔案匯出 LaTeX**，卻不會得到一堆 PNG 圖片？你並不是唯一遇到這個問題的人；開發者在需要乾淨、可編輯的公式於靜態網站或科學部落格時，常常卡在這裡。好消息是？使用 Aspose.Words，你可以 **將 Word 轉換為 Markdown**，並將每個 OfficeMath 物件保留為原生 LaTeX——不需要後處理。
+有沒有想過 **如何從 Word 文件匯出 LaTeX** 而不必手動複製每個公式？你並不是唯一有此困擾的人。許多開發者在需要將 Office Math 公式搬移到靜態網站或以 Markdown 撰寫的學術論文時，常會卡關。  
 
-在本教學中，我們將逐步說明 **將 Word 文件儲存為 Markdown** 同時 **將公式匯出為 LaTeX** 的完整流程。完成後，你將擁有可執行的 C# 程式碼片段、每個選項的清晰說明，以及處理複雜公式或混合內容等邊緣情況的技巧。無需外部工具，只需一個 NuGet 套件與幾行程式碼。
+好消息是？只要幾行 C# 程式碼，加上功能強大的 **Aspose.Words** 函式庫，你就能快速 *將 Word 轉換為 markdown*，且公式會以乾淨的 LaTeX 字串呈現，隨時可供任何渲染器使用。在本教學中，我們會一步步說明所需的全部流程——從安裝套件到驗證輸出——讓你能在瞬間 **將 docx 儲存為 markdown**。
 
-## 您需要的環境
+## 你將學會
 
-- .NET 6+（或 .NET Framework 4.7.2 以上）– 最新執行環境效果最佳。  
-- Visual Studio 2022 或任何能編譯 C# 專案的編輯器。  
-- Aspose.Words for .NET 授權（免費試用版可用於實驗）。  
-- 含有至少一個公式（OfficeMath）的 DOCX 檔案。
+- 如何在 .NET 專案中安裝並參考 Aspose.Words。  
+- 如何載入包含 Office Math 的 `.docx`。  
+- 如何設定 `MarkdownSaveOptions` 以 LaTeX 形式匯出公式。  
+- 如何以程式方式 **儲存 markdown** 檔案並檢查結果。  
+- 處理邊緣情況的技巧，例如缺少字型或大型文件。  
 
-如果你已經具備上述條件，太好了——讓我們開始吧。
+不需要事先具備 Aspose 經驗；只要對 C# 與 .NET 有基本了解即可。
 
-## 如何從 Word 匯出 LaTeX – 概覽
+---
 
-以下是此流程的高階概觀：
+## 步驟 1：安裝 Aspose.Words for .NET
 
-1. **Install** the Aspose.Words NuGet package.  
-2. **Load** the source `.docx` that holds your equations.  
-3. **Configure** `MarkdownSaveOptions` so that `OfficeMathExportMode` is set to `LaTeX`.  
-4. **Save** the document as a `.md` file.  
-5. **Verify** that the generated Markdown contains LaTeX blocks (`$$…$$`).
-
-![Diagram showing the flow from DOCX to Markdown with LaTeX equations](how-to-export-latex.png){alt="從 Word 匯出 LaTeX 流程圖"}
-
-## 步驟 1 – 安裝 Aspose.Words for .NET（將 Word 轉換為 Markdown）
-
-首先，你需要這個負責核心工作的函式庫。打開終端機（或套件管理員主控台）並執行：
+在撰寫任何程式碼之前，我們需要先取得負責繁重工作的函式庫。
 
 ```bash
-dotnet add package Aspose.Words --version 24.10
+# Using the .NET CLI
+dotnet add package Aspose.Words
 ```
 
-> **Pro tip:** 如果你使用 Visual Studio，右鍵點擊專案 → *Manage NuGet Packages* → 搜尋 “Aspose.Words” 並安裝最新的穩定版。
+> **專業提示**：如果你使用 Visual Studio，也可以透過 NuGet 套件管理員 UI 加入套件。只要搜尋 “Aspose.Words” 並點選 *Install* 即可。
 
-為什麼這很重要：Aspose.Words 抽象化了 Open XML 格式，提供乾淨的 API 讓你在不必自行處理低階 XML 的情況下操作 Word 文件。它同時內建支援將 OfficeMath 轉換為 LaTeX，這正是我們 **export equations as LaTeX** 需求的核心。
+為何此步驟重要：Aspose.Words 抽象化了複雜的 OpenXML 解析，提供簡易的 API 來匯出 Markdown，包括 LaTeX 公式。若省略套件安裝，顯然會在編譯時產生錯誤。
 
-## 步驟 2 – 載入 DOCX（如何轉換 docx）
+## 步驟 2：載入來源 Word 文件
 
-套件安裝完成後，載入你想要轉換的檔案。將 `YOUR_DIRECTORY` 替換成你的 `.docx` 所在路徑：
+函式庫已就緒，現在把 `.docx` 載入記憶體。
 
 ```csharp
 using Aspose.Words;
 
-// Step 2: Load the source Word document containing equations
-Document doc = new Document(@"C:\Projects\MyDocs\input.docx");
+// Replace with the path to your actual file
+string inputPath = @"C:\Docs\input.docx";
+
+Document document = new Document(inputPath);
 ```
 
-> **Why load it this way?** `Document` 建構子會將整個檔案解析成物件模型，讓你即時存取段落、表格，以及最重要的 OfficeMath 物件。若檔案遺失或損毀，Aspose 會拋出具描述性的 `FileNotFoundException`，你可以捕捉它以實作優雅的錯誤處理。
+*這段程式碼在做什麼？* `Document` 建構子會讀取檔案，建立物件模型，並讓每個段落、表格與 Office Math 物件都能透過 API 存取。若檔案包含影像或複雜版面配置，Aspose.Words 也會保留它們，以便之後匯出。
 
-## 步驟 3 – 設定 MarkdownSaveOptions（將公式匯出為 LaTeX）
+> **邊緣情況**：如果檔案受密碼保護，請使用 `new Document(inputPath, new LoadOptions { Password = "yourPwd" })` 的重載建構子。
 
-魔法發生在 `MarkdownSaveOptions` 物件中。預設情況下 Aspose 會把公式渲染成 PNG 圖片，但我們想要 LaTeX。將 `OfficeMathExportMode` 設為 `LaTeX`：
+## 步驟 3：設定 Markdown 儲存選項以匯出 LaTeX
+
+預設情況下，Aspose.Words 在儲存為 Markdown 時會把公式輸出為影像。我們希望改為 LaTeX，因此需要調整 `OfficeMathExportMode`。
 
 ```csharp
 using Aspose.Words.Saving;
 
-// Step 3: Configure Markdown save options to export OfficeMath as LaTeX
-MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
+// Create options object and tell Aspose to use LaTeX
+MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
 {
-    // Export equations as LaTeX instead of images
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
-
-    // Optional: keep original line breaks for better diff‑friendly output
-    ExportImagesAsBase64 = false,
-    ExportHeadersFooters = true
+    // This is the key line – it converts Office Math to LaTeX strings
+    OfficeMathExportMode = OfficeMathExportMode.LaTeX
 };
 ```
 
-關於可選旗標的說明：`ExportImagesAsBase64` 告訴 Aspose 不要嵌入二進位資料，保持 Markdown 乾淨。`ExportHeadersFooters` 確保不會遺失可能位於頁首或頁腳的上下文——例如標題或作者名稱。
+為何要設定 `OfficeMathExportMode`？此列舉有三個值：`Image`、`MathML` 與 `LaTeX`。LaTeX 在科學出版上最具可移植性，且大多數靜態網站產生器都能直接支援。
 
-## 步驟 4 – 儲存文件（將 Word 儲存為 Markdown）
+## 步驟 4：將文件儲存為 Markdown 檔案
 
-最後，將轉換後的內容寫入 `.md` 檔案：
+設定好選項後，我們終於可以寫出 Markdown 檔案。
 
 ```csharp
-// Step 4: Save the document as a Markdown file using the configured options
-doc.Save(@"C:\Projects\MyDocs\output.md", mdOptions);
+// Destination path for the Markdown output
+string outputPath = @"C:\Docs\output.md";
+
+document.Save(outputPath, markdownOptions);
 ```
 
-執行此行程式後，你會在來源檔案旁看到 `output.md`。用任何文字編輯器開啟，它應該會顯示類似以下的 LaTeX 區塊：
+執行此行程式後，你會在原始 DOCX 同目錄下看到 `output.md`。用任何文字編輯器開啟它，應該會看到類似以下內容：
 
 ```markdown
-Here is an inline equation $E = mc^2$.
+# Sample Equation
 
-And a displayed formula:
+Here is an inline equation $E = mc^2$ and a displayed one:
 
 $$
-\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+\int_{a}^{b} f(x)\,dx = F(b) - F(a)
 $$
 ```
 
-這就是 **save word as markdown** 的部分完成——不需要額外的轉換步驟。
+請注意，公式會以原始 LaTeX 形式包在 `$…$` 或 `$$…$$` 中。這正是我們所要求的。
 
-## 步驟 5 – 驗證結果（將公式匯出為 LaTeX）
+> **如果需要不同的 Markdown 風格呢？**  
+> Aspose.Words 透過 `MarkdownSaveOptions` 的 `MarkdownDocumentType` 屬性支援 CommonMark 與 GitHub‑flavored Markdown。若你的流程需要特定語法，請在呼叫 `Save` 前調整此屬性。
 
-驗證常被忽略，但快速的健全性檢查能省下大量時間。執行以下簡易腳本，讀取產生的檔案並印出第一個 LaTeX 區塊：
+## 步驟 5：驗證結果與常見陷阱
+
+### 快速檢查
 
 ```csharp
-string markdown = File.ReadAllText(@"C:\Projects\MyDocs\output.md");
-var firstLatex = System.Text.RegularExpressions.Regex.Match(markdown, @"\$\$(.*?)\$\$", System.Text.RegularExpressions.RegexOptions.Singleline);
-Console.WriteLine(firstLatex.Success ? $"First LaTeX block: {firstLatex.Value}" : "No LaTeX found.");
+Console.WriteLine(File.ReadAllText(outputPath));
 ```
 
-如果看到 `First LaTeX block: $$ … $$` 被印出，代表你已成功 **exported LaTeX** 從 Word。若沒有，請再次確認來源文件確實包含 OfficeMath 物件；純文字公式不會被轉換。
+執行此程式碼片段會將 Markdown 輸出到主控台——對於開發期間的快速驗證相當有用。
 
-## 處理常見的邊緣情況
+### 常見問題與解決方法
 
-| Scenario | What to Watch For | Recommended Fix |
-|----------|-------------------|-----------------|
-| **混合圖片與公式** | Aspose 仍可能為非 OfficeMath 圖形嵌入圖片。 | 將 `ExportImagesAsBase64 = false`，並將圖片保留為外部檔案，然後在 Markdown 中手動引用它們。 |
-| **複雜的巢狀公式** | 過深的巢狀可能產生需要手動調整的 LaTeX。 | 使用 LaTeX 格式化工具（例如 `latexindent`）後處理區塊，或調整 `mdOptions` → `ExportMathAsDisplay = true`。 |
-| **大型文件** | 載入巨大的 `.docx` 檔案時記憶體使用量會急升。 | 使用 `LoadOptions` 搭配 `LoadFormat.Docx`，若支援則啟用 `LoadOptions.LoadFormat` 串流。 |
-| **缺少授權** | 免費試用版會在輸出中加入浮水印註解。 | 透過 `License license = new License(); license.SetLicense("Aspose.Words.lic");` 套用有效授權。 |
+| Issue | Likely cause | Fix |
+|-------|--------------|-----|
+| 公式顯示為影像 | `OfficeMathExportMode` 保持預設值 (`Image`) | 設定 `OfficeMathExportMode = OfficeMathExportMode.LaTeX` |
+| LaTeX 符號亂碼 | 產生 DOCX 的系統缺少字型 | 安裝原始 Office 字型或在轉換前將字型嵌入 DOCX 中 |
+| 大型文件處理時間過長 | 未使用串流，整份文件一次載入記憶體 | 使用 `LoadOptions { LoadFormat = LoadFormat.Docx, MemoryUsage = MemoryUsage.Limit }` 以降低記憶體壓力 |
 
-這些技巧能讓你的工作流程更穩健，尤其在 **convert word to markdown** 的生產環境中。
+## 加分項：自動化多檔案批次處理
 
-## 完整範例（所有步驟於單一檔案）
-
-以下是一個自包含的 Console 應用程式，你可以直接複製貼上到新建的 .NET 專案並立即執行。
+如果你有一個資料夾裡放滿 Word 檔案，只要寫一個小迴圈即可批次轉換：
 
 ```csharp
-using System;
-using System.IO;
-using Aspose.Words;
-using Aspose.Words.Saving;
+string sourceFolder = @"C:\Docs\WordFiles";
+string targetFolder = @"C:\Docs\Markdown";
 
-namespace WordToMarkdownLaTeX
+foreach (var file in Directory.GetFiles(sourceFolder, "*.docx"))
 {
-    class Program
-    {
-        static void Main()
-        {
-            // Optional: apply your Aspose.Words license here
-            // var license = new License();
-            // license.SetLicense("Aspose.Words.lic");
-
-            // 1️⃣ Load the DOCX that contains equations
-            string inputPath = @"C:\Projects\MyDocs\input.docx";
-            Document doc = new Document(inputPath);
-
-            // 2️⃣ Configure save options – this is where we **export equations as LaTeX**
-            MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
-            {
-                OfficeMathExportMode = OfficeMathExportMode.LaTeX,
-                ExportImagesAsBase64 = false,
-                ExportHeadersFooters = true
-            };
-
-            // 3️⃣ Save as Markdown
-            string outputPath = @"C:\Projects\MyDocs\output.md";
-            doc.Save(outputPath, mdOptions);
-            Console.WriteLine($"✅ Markdown with LaTeX saved to: {outputPath}");
-
-            // 4️⃣ Quick verification – show the first LaTeX block
-            string markdown = File.ReadAllText(outputPath);
-            var match = System.Text.RegularExpressions.Regex.Match(
-                markdown, @"\$\$(.*?)\$\$", System.Text.RegularExpressions.RegexOptions.Singleline);
-            Console.WriteLine(match.Success
-                ? $"First LaTeX block found:\n{match.Value}"
-                : "No LaTeX blocks detected.");
-        }
-    }
+    var doc = new Document(file);
+    string fileName = Path.GetFileNameWithoutExtension(file);
+    string mdPath = Path.Combine(targetFolder, $"{fileName}.md");
+    doc.Save(mdPath, markdownOptions);
+    Console.WriteLine($"Converted {fileName}.docx → {fileName}.md");
 }
 ```
 
-執行程式後，開啟 `output.md`，你會看到公式以乾淨的 LaTeX 呈現。這就是 **how to export latex** 從 Word 文件的完整解答。
+現在你可以一次 **convert docx to markdown**，對文件團隊而言是極大的省時利器。
 
 ## 結論
 
-我們已逐步說明 **how to export LaTeX** 從 Word 的方法，展示了如何 **convert Word to markdown**、**save word as markdown**，以及使用 Aspose.Words **export equations as LaTeX**。核心概念很簡單：載入 DOCX、調整 `MarkdownSaveOptions`，讓函式庫負責繁重的轉換工作。
+我們已完整說明如何使用 Aspose.Words **匯出 LaTeX** 從 Word 文件的所有步驟，從安裝函式庫到處理邊緣情況與批次處理。只要在 `MarkdownSaveOptions` 中設定 `OfficeMathExportMode.LaTeX`，就能可靠地 **convert word to markdown**，讓公式保持為乾淨的 LaTeX，並 **save markdown** 檔案，能順利配合靜態網站產生器、Jupyter notebook 或任何支援 LaTeX 的渲染器。
 
-如果你已準備好自動化文件管線，試著將此程式碼與 Hugo、Jekyll 等靜態網站產生器串接——只要把產生的 `.md` 檔案推送到倉庫，網站就會自動重建。想深入了解，可參考 Aspose 的「Export to LaTeX」指南、嘗試 `HtmlSaveOptions` 以取得網頁預覽，或探索 `DocumentVisitor` API 進行自訂轉換。
+接下來的步驟？可以嘗試自訂 Markdown 輸出樣式、使用 `MarkdownDocumentType` 來實驗 GitHub‑flavored 語法，或將此程式碼片段整合到 CI 流程中，自動從 Word 產生文件。掌握基礎後，想做的事就只有天際。
 
-對於邊緣情況、授權或 CI/CD 整合有任何疑問，歡迎在下方留言，祝開發順利！
+祝開發順利，願你的公式永遠完美渲染！ 
+
+![output.md 顯示 LaTeX 公式的螢幕截圖](output-example.png "output.md 顯示 LaTeX 公式")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

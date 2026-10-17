@@ -44,6 +44,9 @@ Aspose.Words for Java के साथ वॉटरमार्क लगान�
 ### [दस्तावेज़ शीर्षलेख और पादलेख शैली](./document-header-footer-styling/)
 इस विस्तृत गाइड में जानें कि Aspose.Words for Java का उपयोग करके दस्तावेज़ हेडर और फ़ुटर को कैसे स्टाइल किया जाए। चरण-दर-चरण निर्देश और स्रोत कोड शामिल हैं।
 
+### [जावा वर्ड दस्तावेज़ों में फ़ॉन्ट का पता कैसे लगाएँ – पूर्ण गाइड](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
+Java के लिए Aspose.Words का उपयोग करके वर्ड दस्तावेज़ों में फ़ॉन्ट पहचानना सीखें। स्रोत कोड के साथ चरण-दर-चरण गाइड।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

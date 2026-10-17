@@ -1,20 +1,19 @@
 ---
 category: general
-date: 2026-03-27
-description: Jak wyeksportować LaTeX z dokumentów Word przy użyciu Aspose.Words –
-  konwertuj DOCX na Markdown z równaniami w formacie LaTeX.
+date: 2026-01-13
+description: Jak wyeksportować LaTeX z Worda przy użyciu Aspose.Words – dowiedz się,
+  jak konwertować DOCX na markdown i szybko zapisywać pliki markdown.
 draft: false
 keywords:
 - how to export latex
 - convert word to markdown
-- how to convert docx
-- save word as markdown
-- export equations as latex
+- convert docx to markdown
+- how to save markdown
+- save docx as markdown
 language: pl
-og_description: Jak wyeksportować LaTeX z dokumentów Word, wyjaśniono w pierwszym
-  zdaniu, pokazując, jak przekonwertować plik DOCX na Markdown z równaniami w formacie
-  LaTeX.
-og_title: Jak wyeksportować LaTeX z Worda – kompletny przewodnik
+og_description: Jak wyeksportować LaTeX z Worda przy użyciu Aspose.Words. Ten przewodnik
+  pokazuje, jak konwertować DOCX na markdown i efektywnie zapisywać pliki markdown.
+og_title: Jak wyeksportować LaTeX z Worda – konwertuj DOCX na Markdown
 tags:
 - Aspose.Words
 - C#
@@ -28,185 +27,158 @@ url: /pl/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak wyeksportować LaTeX z Worda – Konwertuj DOCX na Markdown
+# Jak wyeksportować LaTeX z Worda – konwersja DOCX do Markdown
 
-Zastanawiałeś się kiedyś **jak wyeksportować LaTeX** z pliku Word bez uzyskania szeregu PNG‑ów? Nie jesteś sam; programiści często napotykają ten problem, gdy potrzebują czystych, edytowalnych równań dla statycznych stron lub blogów naukowych. Dobra wiadomość? Dzięki Aspose.Words możesz **konwertować Word na Markdown** i zachować każdy obiekt OfficeMath jako natywny LaTeX — bez konieczności dodatkowego przetwarzania.
+Zastanawiałeś się kiedyś **jak wyeksportować LaTeX** z dokumentu Word bez ręcznego kopiowania każdej równania? Nie jesteś jedyny. Wielu programistów napotyka problem, gdy muszą przenieść równania Office Math na statyczną stronę lub do pracy naukowej, która jest w formacie Markdown.  
 
-W tym samouczku przeprowadzimy Cię przez cały proces **zapisywania dokumentu Word jako Markdown** przy **eksportowaniu równań jako LaTeX**. Na koniec otrzymasz działający fragment C#, klarowne wyjaśnienie każdej opcji oraz wskazówki, jak radzić sobie z trudnymi przypadkami, takimi jak złożone formuły czy mieszana zawartość. Bez zewnętrznych narzędzi, tylko jeden pakiet NuGet i kilka linii kodu.
+Dobre wieści? Kilka linijek C# i potężna biblioteka **Aspose.Words** pozwolą Ci *przekonwertować Word na markdown* w mgnieniu oka, a równania pojawią się jako czyste ciągi LaTeX gotowe dla dowolnego renderera. W tym tutorialu przejdziemy krok po kroku przez wszystko, czego potrzebujesz — od instalacji pakietu po weryfikację wyniku — abyś mógł **zapisać docx jako markdown** w krótkim czasie.
 
-## Co będzie potrzebne
+## Czego się nauczysz
 
-- .NET 6+ (lub .NET Framework 4.7.2 i wyższy) – najnowszy runtime działa najlepiej.  
-- Visual Studio 2022 lub dowolny edytor, który potrafi kompilować projekty C#.  
-- Licencja Aspose.Words for .NET (bezpłatna wersja próbna wystarczy do eksperymentów).  
-- Plik DOCX zawierający przynajmniej jedno równanie (OfficeMath).
+- Jak zainstalować i odwołać się do Aspose.Words w projekcie .NET.  
+- Jak załadować plik `.docx` zawierający Office Math.  
+- Jak skonfigurować `MarkdownSaveOptions`, aby eksportować równania jako LaTeX.  
+- Jak programowo **zapisać pliki markdown** i sprawdzić wyniki.  
+- Wskazówki dotyczące obsługi przypadków brzegowych, takich jak brakujące czcionki lub duże dokumenty.  
 
-Jeśli już to masz, świetnie — zanurzmy się.
+Nie wymagana jest wcześniejsza znajomość Aspose; wystarczy podstawowa znajomość C# i .NET.
 
-## Jak wyeksportować LaTeX z Worda – przegląd
+---
 
-Poniżej przedstawiono wysokopoziomowy widok kolejnych kroków:
+## Krok 1: Zainstaluj Aspose.Words dla .NET
 
-1. **Zainstaluj** pakiet NuGet Aspose.Words.  
-2. **Wczytaj** źródłowy plik `.docx` zawierający równania.  
-3. **Skonfiguruj** `MarkdownSaveOptions`, aby `OfficeMathExportMode` było ustawione na `LaTeX`.  
-4. **Zapisz** dokument jako plik `.md`.  
-5. **Zweryfikuj**, że wygenerowany Markdown zawiera bloki LaTeX (`$$…$$`).
-
-Każdy z tych kroków jest szczegółowo opisany w kolejnych sekcjach.
-
-![Diagram showing the flow from DOCX to Markdown with LaTeX equations](how-to-export-latex.png){alt="Diagram pokazujący przepływ z DOCX do Markdown z równaniami LaTeX"}
-
-## Krok 1 – Zainstaluj Aspose.Words dla .NET (convert word to markdown)
-
-Na początek potrzebujesz biblioteki, która wykona ciężką pracę. Otwórz terminal (lub Package Manager Console) i uruchom:
+Zanim napiszemy jakikolwiek kod, potrzebujemy biblioteki, która wykona ciężką pracę.
 
 ```bash
-dotnet add package Aspose.Words --version 24.10
+# Using the .NET CLI
+dotnet add package Aspose.Words
 ```
 
-> **Pro tip:** Jeśli używasz Visual Studio, kliknij prawym przyciskiem projektu → *Manage NuGet Packages* → wyszukaj „Aspose.Words” i zainstaluj najnowszą stabilną wersję.
+> **Pro tip:** Jeśli używasz Visual Studio, możesz również dodać pakiet za pomocą interfejsu NuGet Package Manager. Wystarczy wyszukać „Aspose.Words” i kliknąć *Install*.
 
-Dlaczego to ważne: Aspose.Words abstrahuje format Open XML, dając czyste API do manipulacji dokumentami Word bez konieczności ręcznego obchodzenia się z niskopoziomowym XML. Biblioteka zawiera wbudowane wsparcie dla konwersji OfficeMath do LaTeX, co jest sednem naszego **export equations as LaTeX**.
+Dlaczego ten krok jest ważny: Aspose.Words abstrahuje skomplikowane parsowanie OpenXML i udostępnia prostą API do eksportu Markdown, w tym równania LaTeX. Pominięcie instalacji pakietu oczywiście spowoduje błędy kompilacji.
 
-## Krok 2 – Wczytaj DOCX (how to convert docx)
+---
 
-Teraz, gdy pakiet jest już dostępny, wczytaj plik, który chcesz przekształcić. Zamień `YOUR_DIRECTORY` na ścieżkę, w której znajduje się Twój plik `.docx`:
+## Krok 2: Załaduj źródłowy dokument Word
+
+Teraz, gdy biblioteka jest gotowa, wczytajmy plik `.docx` do pamięci.
 
 ```csharp
 using Aspose.Words;
 
-// Step 2: Load the source Word document containing equations
-Document doc = new Document(@"C:\Projects\MyDocs\input.docx");
+// Replace with the path to your actual file
+string inputPath = @"C:\Docs\input.docx";
+
+Document document = new Document(inputPath);
 ```
 
-> **Dlaczego wczytywać w ten sposób?** Konstruktor `Document` parsuje cały plik do modelu obiektowego, dając natychmiastowy dostęp do akapitów, tabel i — co najważniejsze — obiektów OfficeMath. Jeśli plik jest nieobecny lub uszkodzony, Aspose rzuca opisowy `FileNotFoundException`, który możesz przechwycić, aby obsłużyć błąd w elegancki sposób.
+*Co się tutaj dzieje?* Konstruktor `Document` odczytuje plik, buduje model obiektowy i udostępnia każdy akapit, tabelę oraz obiekt Office Math poprzez API. Jeśli plik zawiera obrazy lub skomplikowane układy, Aspose.Words zachowa je do późniejszego eksportu.
 
-## Krok 3 – Skonfiguruj MarkdownSaveOptions (export equations as latex)
+> **Przypadek brzegowy:** Jeśli plik jest zabezpieczony hasłem, użyj przeciążenia `new Document(inputPath, new LoadOptions { Password = "yourPwd" })`.
 
-Magia dzieje się w obiekcie `MarkdownSaveOptions`. Domyślnie Aspose renderowałby równania jako obrazy PNG, ale my chcemy LaTeX. Ustaw `OfficeMathExportMode` na `LaTeX`:
+---
+
+## Krok 3: Skonfiguruj opcje zapisu Markdown dla eksportu LaTeX
+
+Domyślnie Aspose.Words zapisuje równania jako obrazy przy zapisie do Markdown. Chcemy LaTeX, więc modyfikujemy `OfficeMathExportMode`.
 
 ```csharp
 using Aspose.Words.Saving;
 
-// Step 3: Configure Markdown save options to export OfficeMath as LaTeX
-MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
+// Create options object and tell Aspose to use LaTeX
+MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
 {
-    // Export equations as LaTeX instead of images
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
-
-    // Optional: keep original line breaks for better diff‑friendly output
-    ExportImagesAsBase64 = false,
-    ExportHeadersFooters = true
+    // This is the key line – it converts Office Math to LaTeX strings
+    OfficeMathExportMode = OfficeMathExportMode.LaTeX
 };
 ```
 
-Krótka uwaga o opcjonalnych flagach: `ExportImagesAsBase64` mówi Aspose, aby nie osadzał danych binarnych, co utrzymuje Markdown w czystości. `ExportHeadersFooters` zapewnia, że nie utracisz żadnego kontekstu znajdującego się w nagłówkach lub stopkach — przydatne, gdy w nagłówku znajduje się tytuł lub nazwisko autora.
+Dlaczego ustawiamy `OfficeMathExportMode`? Enum posiada trzy wartości: `Image`, `MathML` i `LaTeX`. LaTeX jest najbardziej przenośny w publikacjach naukowych, a większość generatorów stron statycznych rozumie go od razu.
 
-## Krok 4 – Zapisz dokument (save word as markdown)
+---
 
-Na koniec zapisz przekształconą zawartość do pliku `.md`:
+## Krok 4: Zapisz dokument jako plik Markdown
+
+Mając przygotowane opcje, możemy w końcu zapisać plik Markdown.
 
 ```csharp
-// Step 4: Save the document as a Markdown file using the configured options
-doc.Save(@"C:\Projects\MyDocs\output.md", mdOptions);
+// Destination path for the Markdown output
+string outputPath = @"C:\Docs\output.md";
+
+document.Save(outputPath, markdownOptions);
 ```
 
-Po wykonaniu tej linii znajdziesz `output.md` obok pliku źródłowego. Otwórz go w dowolnym edytorze tekstu, a zobaczysz bloki LaTeX wyglądające tak:
+Po wykonaniu tej linii znajdziesz `output.md` obok oryginalnego DOCX. Otwórz go w dowolnym edytorze tekstu i powinieneś zobaczyć coś takiego:
 
 ```markdown
-Here is an inline equation $E = mc^2$.
+# Sample Equation
 
-And a displayed formula:
+Here is an inline equation $E = mc^2$ and a displayed one:
 
 $$
-\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+\int_{a}^{b} f(x)\,dx = F(b) - F(a)
 $$
 ```
 
-To już **save word as markdown** — bez dodatkowych kroków konwersji.
+Zauważ, że równania pojawiają się jako surowy LaTeX otoczony `$…$` lub `$$…$$`. To dokładnie to, o co prosiliśmy.
 
-## Krok 5 – Zweryfikuj wynik (export equations as latex)
+> **Co zrobić, jeśli potrzebujesz innego wariantu Markdown?**  
+> Aspose.Words obsługuje CommonMark oraz GitHub‑flavored Markdown poprzez właściwość `MarkdownDocumentType` w `MarkdownSaveOptions`. Dostosuj ją przed wywołaniem `Save`, jeśli Twój pipeline wymaga konkretnej składni.
 
-Łatwo pominąć weryfikację, a szybka kontrola może zaoszczędzić godziny później. Uruchom prosty skrypt, który odczyta wygenerowany plik i wypisze pierwszy blok LaTeX:
+---
+
+## Krok 5: Zweryfikuj wynik i typowe pułapki
+
+### Szybka kontrola poprawności
 
 ```csharp
-string markdown = File.ReadAllText(@"C:\Projects\MyDocs\output.md");
-var firstLatex = System.Text.RegularExpressions.Regex.Match(markdown, @"\$\$(.*?)\$\$", System.Text.RegularExpressions.RegexOptions.Singleline);
-Console.WriteLine(firstLatex.Success ? $"First LaTeX block: {firstLatex.Value}" : "No LaTeX found.");
+Console.WriteLine(File.ReadAllText(outputPath));
 ```
 
-Jeśli zobaczysz `First LaTeX block: $$ … $$` w konsoli, udało Ci się **export LaTeX** z Worda. Jeśli nie, sprawdź, czy dokument źródłowy naprawdę zawiera obiekty OfficeMath; zwykłe tekstowe równania nie zostaną skonwertowane.
+Uruchomienie fragmentu wypisuje Markdown w konsoli — świetne do szybkiej weryfikacji podczas developmentu.
 
-## Radzenie sobie z typowymi przypadkami brzegowymi
+### Typowe problemy i ich rozwiązania
 
-| Scenariusz | Na co zwrócić uwagę | Zalecane rozwiązanie |
-|------------|---------------------|----------------------|
-| **Mieszane obrazy i równania** | Aspose może nadal osadzać obrazy dla grafiki nie‑OfficeMath. | Ustaw `ExportImagesAsBase64 = false` i pozostaw obrazy jako pliki zewnętrzne, a następnie odwołuj się do nich ręcznie w Markdown. |
-| **Złożone, zagnieżdżone równania** | Głęboko zagnieżdżone struktury mogą generować LaTeX wymagający ręcznej korekty. | Przetwórz blok przy pomocy formatatora LaTeX (np. `latexindent`) lub ustaw `mdOptions → ExportMathAsDisplay = true`. |
-| **Duże dokumenty** | Zużycie pamięci rośnie przy ładowaniu ogromnych plików `.docx`. | Użyj `LoadOptions` z `LoadFormat.Docx` i włącz strumieniowe ładowanie, jeśli jest dostępne. |
-| **Brak licencji** | Bezpłatna wersja próbna dodaje komentarz‑znak wodny do wyniku. | Zastosuj ważną licencję: `License license = new License(); license.SetLicense("Aspose.Words.lic");`. |
+| Problem | Prawdopodobna przyczyna | Rozwiązanie |
+|---------|--------------------------|-------------|
+| Równania pojawiają się jako obrazy | `OfficeMathExportMode` pozostawiony w domyślnym stanie (`Image`) | Ustaw `OfficeMathExportMode = OfficeMathExportMode.LaTeX` |
+| Symbole LaTeX są zniekształcone | Brakująca czcionka w systemie, w którym utworzono DOCX | Zainstaluj oryginalne czcionki Office lub osadź je w DOCX przed konwersją |
+| Duże dokumenty trwają zbyt długo | Brak strumieniowania, cały dokument ładowany do pamięci | Użyj `LoadOptions { LoadFormat = LoadFormat.Docx, MemoryUsage = MemoryUsage.Limit }`, aby zmniejszyć obciążenie pamięci |
 
-Te wskazówki utrzymują Twój przepływ pracy stabilnym, szczególnie gdy **convert word to markdown** w środowiskach produkcyjnych.
+---
 
-## Pełny przykład działający (Wszystkie kroki w jednym pliku)
+## Bonus: Automatyzacja całego procesu dla wielu plików
 
-Poniżej znajduje się samodzielna aplikacja konsolowa, którą możesz skopiować do nowego projektu .NET i od razu uruchomić.
+Jeśli masz folder pełen plików Word, mała pętla może je wsadowo konwertować:
 
 ```csharp
-using System;
-using System.IO;
-using Aspose.Words;
-using Aspose.Words.Saving;
+string sourceFolder = @"C:\Docs\WordFiles";
+string targetFolder = @"C:\Docs\Markdown";
 
-namespace WordToMarkdownLaTeX
+foreach (var file in Directory.GetFiles(sourceFolder, "*.docx"))
 {
-    class Program
-    {
-        static void Main()
-        {
-            // Optional: apply your Aspose.Words license here
-            // var license = new License();
-            // license.SetLicense("Aspose.Words.lic");
-
-            // 1️⃣ Load the DOCX that contains equations
-            string inputPath = @"C:\Projects\MyDocs\input.docx";
-            Document doc = new Document(inputPath);
-
-            // 2️⃣ Configure save options – this is where we **export equations as LaTeX**
-            MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
-            {
-                OfficeMathExportMode = OfficeMathExportMode.LaTeX,
-                ExportImagesAsBase64 = false,
-                ExportHeadersFooters = true
-            };
-
-            // 3️⃣ Save as Markdown
-            string outputPath = @"C:\Projects\MyDocs\output.md";
-            doc.Save(outputPath, mdOptions);
-            Console.WriteLine($"✅ Markdown with LaTeX saved to: {outputPath}");
-
-            // 4️⃣ Quick verification – show the first LaTeX block
-            string markdown = File.ReadAllText(outputPath);
-            var match = System.Text.RegularExpressions.Regex.Match(
-                markdown, @"\$\$(.*?)\$\$", System.Text.RegularExpressions.RegexOptions.Singleline);
-            Console.WriteLine(match.Success
-                ? $"First LaTeX block found:\n{match.Value}"
-                : "No LaTeX blocks detected.");
-        }
-    }
+    var doc = new Document(file);
+    string fileName = Path.GetFileNameWithoutExtension(file);
+    string mdPath = Path.Combine(targetFolder, $"{fileName}.md");
+    doc.Save(mdPath, markdownOptions);
+    Console.WriteLine($"Converted {fileName}.docx → {fileName}.md");
 }
 ```
 
-Uruchom program, otwórz `output.md` i zobaczysz równania wyświetlone jako czysty LaTeX. To kompletną odpowiedź na pytanie **jak wyeksportować latex** z dokumentu Word.
+Teraz możesz **konwertować docx na markdown** masowo, co jest ogromnym oszczędzeniem czasu dla zespołów dokumentacyjnych.
+
+---
 
 ## Zakończenie
 
-Omówiliśmy **jak wyeksportować LaTeX** z Worda krok po kroku, pokazując, jak **konwertować Word na markdown**, **zapisować word jako markdown** i **eksportować równania jako LaTeX** przy użyciu Aspose.Words. Główna idea jest prosta: wczytaj DOCX, dostosuj `MarkdownSaveOptions` i pozwól bibliotece wykonać ciężką pracę.  
+Omówiliśmy wszystko, co musisz wiedzieć o **jak wyeksportować LaTeX** z dokumentu Word przy użyciu Aspose.Words, od instalacji biblioteki po obsługę przypadków brzegowych i przetwarzanie wsadowe. Konfigurując `MarkdownSaveOptions` z `OfficeMathExportMode.LaTeX`, możesz niezawodnie **konwertować word na markdown**, zachować równania jako czysty LaTeX i **zapisać markdown** w plikach, które współpracują ze statycznymi generatorami stron, notebookami Jupyter czy dowolnym renderem rozumiejącym LaTeX.
 
-Jeśli chcesz zautomatyzować pipeline dokumentacji, spróbuj połączyć ten kod ze statycznym generatorami stron, takimi jak Hugo lub Jekyll — po prostu wrzuć wygenerowane pliki `.md` do repozytorium i niech strona się przebuduje. Po dalsze lektury: przewodnik Aspose „Export to LaTeX”, eksperymenty z `HtmlSaveOptions` dla podglądów webowych lub zagłębienie się w API `DocumentVisitor` dla własnych transformacji.
+Co dalej? Spróbuj dostosować styl wyjściowego Markdown, poeksperymentuj z `MarkdownDocumentType` dla składni GitHub‑flavored, lub zintegrować ten fragment w pipeline CI, który automatycznie generuje dokumentację z źródeł Word. Niebo jest granicą, gdy opanujesz podstawy.
 
-Masz pytania o przypadki brzegowe, licencjonowanie lub integrację w CI/CD? Zostaw komentarz poniżej i powodzenia w kodowaniu!
+Miłego kodowania i niech Twoje równania zawsze renderują się perfekcyjnie! 
+
+![Zrzut ekranu output.md pokazujący równania LaTeX](output-example.png "output.md wyświetlający równania LaTeX")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
