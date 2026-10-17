@@ -1,0 +1,7 @@
+Title: How to create forms2olecontrol in code with Aspose.Words
+Slug: how-to-create-forms2olecontrol-in-code-with-aspose-words
+Category: using-document-elements
+ProcessedDate: 2026-09-12T03:49:37.234821
+SourceRepo: AI Search API
+Keywords: create forms2olecontrol in code
+PRNumber: 274

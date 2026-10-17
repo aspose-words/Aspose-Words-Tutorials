@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Questo tutorial dimostra come creare un nuovo documento Word, inserire un grafico a colonne predefinito con DocumentBuilder.InsertChart, ottenere l'oggetto Chart incorporato e salvare il documento in un file .docx.
+//ExStepSummary:0: Crea un documento Word vuoto e un DocumentBuilder per modificarlo.
+//ExStepSummary:1: Inserisci un grafico a colonne di dimensioni 432 × 252 punti nel documento.
+//ExStepSummary:2: Recupera l'oggetto Chart dalla forma inserita per ulteriori personalizzazioni, se necessario.
+//ExStepSummary:3: Salva il documento, che ora contiene il grafico a colonne inserito, in un file .docx.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+Chart embeddedChart = chartContainer.Chart;
+
+//ExStep:3-
+wordDoc.Save("column-demo.docx");
+//ExEnd

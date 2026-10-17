@@ -1,10 +1,9 @@
 ---
-date: 2025-12-20
-description: 學習如何載入 HTML 並使用 Aspose.Words for Java 將 HTML 轉換為 DOCX。一步一步的指引展示如何儲存 DOCX
-  檔案以及使用結構化文件標記。
+date: 2026-02-24
+description: 學習如何使用 Aspose.Words for Java 載入 HTML 以及儲存 DOCX——HTML 轉 DOCX 的逐步教學指南。
 linktitle: Loading and Saving HTML Documents
 second_title: Aspose.Words Java Document Processing API
-title: 如何使用 Aspose.Words for Java 載入 HTML 並儲存為 DOCX
+title: 如何使用 Aspose.Words for Java 載入 HTML 並另存為 DOCX
 url: /zh-hant/java/document-loading-and-saving/loading-and-saving-html-documents/
 weight: 10
 ---
@@ -17,38 +16,30 @@ weight: 10
 
 # 如何使用 Aspose.Words for Java 載入 HTML 並儲存為 DOCX
 
-## 使用 Aspose.Words for Java 載入與儲存 HTML 文件的簡介
+在本教學中，您將學會 **如何載入 HTML** 檔案至 `Document` 物件，並 **如何儲存為 DOCX** 檔案——全部使用功能強大的 **Aspose.Words for Java** 函式庫。無論是轉換簡單片段或完整的網頁，以下步驟都提供可靠、可投入生產環境的 HTML 轉 DOCX 方案。
 
-在本文中，我們將探討 **如何載入 HTML** 並使用 Aspose.Words for Java 函式庫將其儲存為 DOCX 檔案。Aspose.Words 是一個功能強大的 API，可讓您以程式方式操作 Word 文件，且它提供對 HTML 匯入/匯出的完整支援。我們將逐步說明整個流程，從設定載入選項到將結果持久化為 Word 文件。
+## 快速解答
+- **程式碼的功能是什麼？** 它載入 HTML 字串，將其視為結構化文件標記，並儲存為 DOCX 檔案。  
+- **需要哪個函式庫？** Aspose.Words for Java（即「aspose words java」SDK）。  
+- **需要授權嗎？** 免費試用可用於測試；正式上線需購買商業授權。  
+- **可以自訂 HTML 載入選項嗎？** 可以——您可以將 `PreferredControlType` 設為 `STRUCTURED_DOCUMENT_TAG`。  
+- **適合企業專案嗎？** 絕對適合；API 為高容量、企業級文件處理而設計。
 
-## 快速回答
+## 什麼是 **如何載入 HTML** 與 Aspose.Words for Java？
+載入 HTML 意指將 HTML 字串或檔案傳入 `Document` 建構子，讓 Aspose.Words 解析標記並建立內部的 Word 文件模型。之後即可對該模型進行操作，或儲存為任何支援的格式，例如 DOCX。
 
-- **載入 HTML 的主要類別是什麼？** `Document` 搭配 `HtmlLoadOptions`。
-- **哪個選項可啟用結構化文件標記 (Structured Document Tags)？** `HtmlLoadOptions.setPreferredControlType(HtmlControlType.STRUCTURED_DOCUMENT_TAG)`。
-- **我可以一步完成 HTML 轉 DOCX 嗎？** 可以 – 載入 HTML 後呼叫 `doc.save(...".docx")`。
-- **開發時需要授權嗎？** 免費試用版可用於測試；正式環境需購買商業授權。
-- **需要哪個版本的 Java？** 支援 Java 8 及以上版本。
+## 為什麼選擇 **Aspose.Words for Java** 進行 HTML 轉 DOCX？
+- **完整格式支援** ─ 從簡單 HTML 到含 CSS、圖片與表單控制項的複雜頁面。  
+- **結構化文件標記** ─ 保留表單控制項為可重複使用的標記，便於日後編輯。  
+- **不依賴 Microsoft Office** ─ 只要能執行 Java 的平台皆可運作。  
+- **企業級效能** ─ 能有效處理大型文件。
 
-## 在 Aspose.Words 中，「如何載入 HTML」是什麼意思？
-
-載入 HTML 指的是讀取 HTML 字串或檔案，並將其轉換為 Aspose.Words 的 `Document` 物件。此物件之後可進行編輯、格式化，或儲存為 API 支援的任何格式，例如 DOCX、PDF 或 RTF。
-
-## 為何使用 Aspose.Words 進行 HTML 轉 DOCX 的轉換？
-
-- **保留版面配置** – 表格、清單與圖片皆保持原樣。
-- **支援結構化文件標記** – 適合在 Word 中建立內容控制項。
-- **不需 Microsoft Office** – 可在任何伺服器或雲端環境執行。
-- **高效能** – 能快速處理大型 HTML 檔案。
-
-## 先決條件
-
-1. **Aspose.Words for Java 函式庫** – 從 [here](https://releases.aspose.com/words/java/) 下載。
-2. **Java 開發環境** – 已安裝並設定 JDK 8 以上。
-3. **具備基本的 Java I/O 知識** – 我們將使用 `ByteArrayInputStream` 來提供 HTML 字串。
+## 前置條件
+1. **Aspose.Words for Java 函式庫** ─ 從 [here](https://releases.aspose.com/words/java/) 下載。  
+2. **Java 開發環境** ─ 已安裝並設定 JDK 8 以上版本。  
 
 ## 如何載入 HTML 文件
-
-以下是一個簡潔範例，示範在載入 HTML 片段時啟用 **結構化文件標記** 功能。
+以下程式碼示範 **如何載入 HTML** 至 `Document`。我們建立一段簡短的 HTML 片段，設定 `HtmlLoadOptions` 使用 **結構化文件標記**，然後實例化 `Document`。
 
 ```java
 final String HTML = "\r\n
@@ -67,25 +58,19 @@ HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 Document doc = new Document(new ByteArrayInputStream(HTML.getBytes(StandardCharsets.UTF_8)), loadOptions);
 ```
 
-**說明**
+*小技巧：* `STRUCTURED_DOCUMENT_TAG` 選項會將表單控制項（例如 `<select>` 元素）保留為可編輯的標記，方便日後資料輸入。
 
-- 我們建立一個包含簡單 `<select>` 控制項的 `HTML` 字串。
-- `HtmlLoadOptions` 讓我們指定 HTML 的解析方式。將首選控制類型設定為 `STRUCTURED_DOCUMENT_TAG`，即告訴 Aspose.Words 將 HTML 表單控制項轉換為 Word 內容控制項。
-- `Document` 建構子會使用 UTF‑8 編碼，從 `ByteArrayInputStream` 讀取 HTML。
-
-## 如何儲存為 DOCX（將 HTML 轉換為 DOCX）
-
-HTML 載入為 `Document` 後，將其儲存為 DOCX 檔案相當簡單：
+## 如何從 HTML 儲存為 DOCX
+HTML 載入完成後，將其儲存為 DOCX 檔案相當直接。以下示範 **如何儲存 docx**，使用同一個 `Document` 例項。
 
 ```java
 doc.save("Your Directory Path" + "WorkingWithHtmlLoadOptions.PreferredControlType.docx");
 ```
 
-將 `"Your Directory Path"` 替換為您希望輸出檔案所在的實際資料夾路徑。
+將 `"Your Directory Path"` 替換為您希望輸出檔案的資料夾路徑。產生的 DOCX 可於 Microsoft Word、LibreOffice 或任何支援 DOCX 的檢視器開啟。
 
-## 完整的載入與儲存 HTML 文件的原始程式碼
-
-以下是結合載入與儲存步驟的完整可執行範例，您可以直接複製貼上到 IDE 中使用。
+## 完整來源程式碼（載入與儲存 HTML 文件）
+為方便起見，以下提供完整、可直接執行的範例，結合載入與儲存步驟。您只要複製貼上至 IDE，即可執行。
 
 ```java
 final String HTML = "\r\n
@@ -103,41 +88,39 @@ Document doc = new Document(new ByteArrayInputStream(HTML.getBytes(StandardChars
 doc.save("Your Directory Path" + "WorkingWithHtmlLoadOptions.PreferredControlType.docx");
 ```
 
-## 常見問題與技巧
+執行程式後會產生名為 `WorkingWithHtmlLoadOptions.PreferredControlType.docx` 的 Word 文件，內含以結構化文件標記呈現的 HTML 下拉選單。
 
-| 問題 | 為何發生 | 解決方法 |
-|------|----------|----------|
-| **缺少字型** | HTML 參考了伺服器上未安裝的字型。 | 使用 `FontSettings` 將字型嵌入 DOCX，或確保所需字型已安裝。 |
-| **圖片未顯示** | 相對圖片路徑無法解析。 | 使用絕對 URL，或將圖片載入 `MemoryStream` 並設定 `HtmlLoadOptions.setImageSavingCallback`。 |
-| **控制項類型未轉換** | 未設定 `setPreferredControlType` 或設定了錯誤的列舉值。 | 確認使用 `HtmlControlType.STRUCTURED_DOCUMENT_TAG`。 |
-| **編碼問題** | HTML 字串使用了不同的字符集編碼。 | 轉換字串為位元組時，務必使用 `StandardCharsets.UTF_8`。 |
+## 常見問題與除錯
+| 症狀 | 可能原因 | 解決方式 |
+|---|---|---|
+| 儲存後下拉選單消失 | 未設定 `PreferredControlType` | 確認在載入前已呼叫 `loadOptions.setPreferredControlType(HtmlControlType.STRUCTURED_DOCUMENT_TAG);` |
+| 圖片未顯示 | 圖片 URL 為相對路徑或無法存取 | 使用絕對 URL，或將圖片以 Base64 內嵌於 HTML 字串中。 |
+| 格式異常 | CSS 支援度不足 | 簡化 CSS 或改用行內樣式；Aspose.Words 只支援部份 CSS。 |
 
-## 常見問與答
+## 常見問答
 
-### 如何安裝 Aspose.Words for Java？
+**Q: 如何安裝 Aspose.Words for Java？**  
+A: 從 [here](https://releases.aspose.com/words/java/) 下載函式庫，並將 JAR 檔加入專案的 classpath。
 
-可從 [here](https://releases.aspose.com/words/java/) 下載 Aspose.Words for Java。請依照下載頁面的安裝指南，將 JAR 檔案加入專案的 classpath 中。
+**Q: 能否載入包含 CSS、腳本、圖片的複雜 HTML 文件？**  
+A: 能。Aspose.Words 能處理複雜的 HTML。為取得最佳效果，請提供結構良好的標記，並使用 `HtmlLoadOptions` 進行細部調整。
 
-### 我可以使用 Aspose.Words 載入複雜的 HTML 文件嗎？
+**Q: 還支援哪些格式的相互轉換？**  
+A: API 支援 DOC、DOCX、RTF、PDF、HTML、EPUB、ODT 等多種格式。
 
-可以，Aspose.Words for Java 能處理複雜的 HTML，包括巢狀表格、CSS 樣式以及不含 JavaScript 的互動元素。可調整 `HtmlLoadOptions`（例如 `setLoadImages` 或 `setCssStyleSheetFileName`）以微調匯入行為。
+**Q: Aspose.Words 是否適合大規模企業部署？**  
+A: 絕對適合。全球眾多企業已採用它進行高容量文件產生、報表與遷移專案。
 
-### Aspose.Words 支援哪些其他文件格式？
+**Q: 哪裡可以找到更多範例與 API 參考文件？**  
+A: 請造訪官方文件 [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)。
 
-Aspose.Words 支援 DOC、DOCX、RTF、HTML、PDF、EPUB、XPS 等多種格式。API 可一行程式碼儲存為任意上述格式。
-
-### Aspose.Words 適合企業級文件自動化嗎？
-
-絕對適合。許多大型企業使用它進行自動化報表產生、大量文件轉換，以及在不依賴 Microsoft Office 的伺服器端文件處理。
-
-### 我可以在哪裡找到更多 Aspose.Words for Java 的文件與範例？
-
-您可於 Aspose.Words for Java 文件網站上瀏覽完整 API 參考與其他教學：[Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)。
+## 結論
+現在您已掌握 **如何載入 HTML** 至 `Document`，以及 **如何儲存 docx** 的完整流程，使用 Aspose.Words for Java。此 **HTML 轉 DOCX** 技術對簡單片段與完整網頁皆可靠，且透過 **結構化文件標記** 可確保表單控制項在最終 Word 檔案中保持可編輯狀態。
 
 ---
 
-**最後更新日期：** 2025-12-20  
-**測試環境：** Aspose.Words for Java 24.12（撰寫時的最新版本）  
+**最後更新：** 2026-02-24  
+**測試環境：** Aspose.Words for Java 24.12（撰寫時最新版本）  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

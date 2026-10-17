@@ -32,6 +32,7 @@ Aspose.Words for .NET 教程“使用文档属性进行文字处理”深入讲�
 | [配置内容链接](./configuring-link-to-content/) 通过我们详细的分步教程了解如何使用 Aspose.Words for .NET 配置 Word 文档中的内容链接。|
 | [测量单位转换](./convert-between-measurement-units/) 了解如何在 Aspose.Words for .NET 中转换测量单位。按照我们的分步指南，以英寸和磅为单位设置文档边距、页眉和页脚。|
 | [使用控制字符](./use-control-characters/) 了解如何使用 Aspose.Words for .NET 自动执行 Word 文档任务。本指南涵盖设置、文本替换等内容，让您的工作流程更加高效。|
+| [如何统计 Word 文档页数 – 恢复与计数](./how-to-count-pages-in-a-word-document-recover-count/) 了解如何使用 Aspose.Words for .NET 在 Word 文档中统计页数并进行恢复计数。|
 | [检查 Word 文档页数 – 恢复损坏文件](./check-page-count-in-word-docs-recover-corrupted-files/) 了解如何使用 Aspose.Words for .NET 检查 Word 文档的页数并恢复损坏的文件。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}

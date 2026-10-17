@@ -32,6 +32,7 @@ Aspose.Words for .NET のドキュメントプロパティを使用した文書�
 | [コンテンツへのリンクの設定](./configuring-link-to-content/) 詳細なステップバイステップのチュートリアルで、Aspose.Words for .NET を使用して Word 文書内のコンテンツへのリンクを構成する方法を学習します。 |
 | [測定単位の変換](./convert-between-measurement-units/) Aspose.Words for .NET で測定単位を変換する方法を学びましょう。ドキュメントの余白、ヘッダー、フッターをインチとポイントで設定するには、ステップバイステップガイドに従ってください。 |
 | [制御文字を使用する](./use-control-characters/) Aspose.Words for .NET を使用して Word 文書のタスクを自動化する方法をご紹介します。このガイドでは、セットアップ、テキストの置換など、ワークフローを効率化するためのさまざまな方法を解説します。 |
+| [Word 文書のページ数をカウントする方法 – Recover & Count](./how-to-count-pages-in-a-word-document-recover-count/) Aspose.Words for .NET を使用して、Word 文書の総ページ数を取得し、ページ数の回復とカウント方法を学びます。 |
 | [Word 文書のページ数を確認し、破損ファイルを復元](./check-page-count-in-word-docs-recover-corrupted-files/) Aspose.Words for .NET を使用して、ページ数を取得し、破損した Word ファイルを回復する方法をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -1,0 +1,7 @@
+Title: How to create rectangle shape and group shapes in Word with Aspose.Words
+Slug: how-to-create-rectangle-shape-and-group-shapes-in-word-with
+Category: programming-with-shapes
+ProcessedDate: 2026-09-05T18:39:08.833970
+SourceRepo: AI Search API
+Keywords: create rectangle shape, group shapes in word, how to insert rectangle word, how to insert ellipse word, aspose.words create shapes
+PRNumber: 265

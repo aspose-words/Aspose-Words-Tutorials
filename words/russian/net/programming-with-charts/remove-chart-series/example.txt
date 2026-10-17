@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: С помощью Aspose.Words for .NET этот учебник создает Document, вставляет столбчатую диаграмму через DocumentBuilder, удаляет определённую серию данных из диаграммы с помощью ChartSeriesCollection.RemoveAt и сохраняет изменённый документ.
+//ExStepSummary:0: Создайте новый Word Document и DocumentBuilder, привязанный к нему.
+//ExStepSummary:1: Вставьте столбчатую диаграмму размером 432×252 пункта и получите объект Chart для дальнейшего изменения.
+//ExStepSummary:2: Определите нулевой индекс серии, которую следует удалить (вторая серия).
+//ExStepSummary:3: Если индекс действителен, вызовите RemoveAt у коллекции Series диаграммы, чтобы удалить эту серию.
+//ExStepSummary:4: Сохраните обновлённый документ в файл формата .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+int targetSeriesIdx = 1;
+
+//ExStep:3-
+if (targetSeriesIdx >= 0 && targetSeriesIdx < columnChart.Series.Count)
+{
+    columnChart.Series.RemoveAt(targetSeriesIdx);
+}
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutSeries.docx");
+//ExEnd

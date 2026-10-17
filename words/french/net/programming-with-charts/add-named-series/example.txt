@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Ce tutoriel montre comment utiliser Aspose.Words Document et DocumentBuilder pour créer un document Word, intégrer un histogramme, et ajouter une série de données étiquetée en utilisant la surcharge ChartSeriesCollection.Add qui accepte un nom et des valeurs.
+//ExStepSummary:0: Créez un nouveau document Word vide ainsi qu’un DocumentBuilder pour le modifier.
+//ExStepSummary:1: Insérez une forme de graphique histogramme de taille 500×300 dans le document et récupérez son objet Chart.
+//ExStepSummary:2: Supprimez la série de remplissage par défaut qu’Aspose.Words ajoute aux nouveaux graphiques.
+//ExStepSummary:3: Ajoutez une série nommée « Demo Series » avec les points de données spécifiés au graphique histogramme.
+//ExStepSummary:4: Enregistrez le document dans un fichier .docx contenant la série de graphique étiquetée.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape histogramShape = docBuilder.InsertChart(ChartType.Histogram, 500, 300);
+Chart histogramChart = histogramShape.Chart;
+
+//ExStep:2-
+histogramChart.Series.Clear();
+
+//ExStep:3-
+histogramChart.Series.Add("Demo Series", new double[] { 10, 20, 15, 30, 25 });
+
+//ExStep:4-
+myDocument.Save("LabeledSeriesDemo.docx");
+//ExEnd
