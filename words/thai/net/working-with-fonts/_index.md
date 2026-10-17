@@ -64,6 +64,7 @@
 
 | [วิธีใช้ FontSettings เพื่อจัดการแบบอักษรที่หายไปใน Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | เรียนรู้วิธีใช้ FontSettings เพื่อตรวจจับและแทนที่แบบอักษรที่หายไปในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET |
 | [วิธีตรวจจับแบบอักษรใน C# – ใช้ Callback กับ Aspose.Words](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | เรียนรู้วิธีตรวจจับแบบอักษรในเอกสาร Word ด้วย C# โดยใช้ Callback ของ Aspose.Words |
+| [วิธีจับการแจ้งเตือนใน Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) | เรียนรู้วิธีจับการแจ้งเตือนใน Aspose.Words ด้วย C# อย่างครบถ้วนในบทช่วยสอนนี้ |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

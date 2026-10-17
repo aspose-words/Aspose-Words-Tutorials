@@ -41,6 +41,7 @@ Aspose.Words for .NET 教學課程將引導您了解在操作 Word 文件的過�
 | [將 docx 儲存為 txt – 完整 C# 指南](./save-docx-as-txt-complete-c-guide/) |本完整指南說明如何使用 C# 將 Word docx 檔案轉換為純文字 txt，涵蓋所有設定與範例程式碼。 |
 
 | [如何從 Word 匯出 LaTeX – 將 DOCX 轉換為含方程式的 TXT](./how-to-export-latex-from-word-convert-docx-to-txt-with-equat/) |本教學說明如何使用 Aspose.Words for .NET 將 Word 文件中的方程式匯出為 LaTeX 格式的文字檔。 |
+| [將 docx 儲存為 txt – 使用 Aspose.Words 匯出數學為 LaTeX](./save-docx-as-txt-export-math-to-latex-with-aspose-words/) |說明如何將 docx 轉換為 txt，並將文件中的數學公式匯出為 LaTeX 代碼。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

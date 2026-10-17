@@ -36,7 +36,6 @@ V těchto tutoriálech se naučíte, jak používat LoadOptions k načítání d
 | [Jak obnovit soubory DOCX v C# – Kompletní průvodce](./how-to-recover-docx-files-in-c-complete-guide/) | Naučte se, jak obnovit poškozené soubory DOCX v C# pomocí podrobného návodu krok za krokem. |
 | [Obnovit poškozený DOCX pomocí Aspose.Words – nastavit režim obnovy a možnosti načítání](./recover-damaged-docx-with-aspose-words-set-recovery-mode-and/) | Naučte se, jak nastavit režim obnovy a použít LoadOptions pro načtení poškozených souborů DOCX v Aspose.Words. |
 | [Jak obnovit DOCX – nastavit režim obnovy a otevřít poškozené soubory Word](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) | Naučte se, jak nastavit režim obnovy a otevřít poškozené soubory DOCX pomocí Aspose.Words pro .NET. |
-| [Jak obnovit soubory DOCX v C# – krok za krokem](./how-to-recover-docx-files-in-c-step-by-step-guide/) | Naučte se, jak v C# obnovit poškozené soubory DOCX krok za krokem pomocí Aspose.Words. |
 | [Jak obnovit DOCX – krok za krokem pro poškozené soubory](./how-to-recover-docx-step-by-step-guide-for-corrupt-files/) | Naučte se, jak obnovit poškozené soubory DOCX pomocí Aspose.Words krok za krokem. |
 | [Jak obnovit soubory DOCX – nastavit režim obnovy s Aspose](./how-to-recover-docx-files-set-recovery-mode-with-aspose/) | Naučte se, jak nastavit režim obnovy pro opravu poškozených souborů DOCX pomocí Aspose.Words v .NET. |
 | [Jak obnovit soubory Word – kompletní průvodce s Aspose.Words](./how-to-recover-word-files-complete-guide-with-aspose-words/) | Naučte se, jak pomocí Aspose.Words obnovit poškozené soubory Word krok za krokem. |
@@ -62,6 +61,7 @@ V těchto tutoriálech se naučíte, jak používat LoadOptions k načítání d
 | [Načíst poškozený dokument Word – Detekovat problémy a obnovit poškozený docx v C#](./load-corrupted-word-document-detect-issues-recover-damaged-d/) | Naučte se, jak detekovat problémy a obnovit poškozené soubory DOCX pomocí Aspose.Words v C#. |
 | [Načíst poškozený DOCX v C# – Kompletní průvodce Aspose.Words](./load-corrupted-docx-in-c-complete-aspose-words-guide/) | Kompletní průvodce načítáním poškozených souborů DOCX v C# pomocí Aspose.Words. |
 | [Obnovit poškozený soubor Word – otevřít poškozený DOCX pomocí Aspose](./recover-damaged-word-file-open-corrupted-docx-using-aspose/) | Naučte se, jak otevřít a opravit poškozené soubory DOCX pomocí Aspose.Words pro .NET. |
+| [Jak obnovit soubory DOCX v C# – krok za krokem](./how-to-recover-docx-files-in-c-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Words obnovit poškozené soubory DOCX v C# krok za krokem. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

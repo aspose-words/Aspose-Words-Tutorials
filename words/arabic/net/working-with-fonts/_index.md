@@ -73,6 +73,7 @@
 | [إعدادات الخط المخصصة في C# – تحميل Word ومعالجة الخطوط المفقودة](./custom-font-settings-in-c-load-word-handle-missing-fonts/) |تعلم كيفية ضبط إعدادات الخط المخصصة في C# لتحميل مستندات Word ومعالجة الخطوط المفقودة باستخدام Aspose.Words. |
 | [كيفية اكتشاف الخطوط في C# – استخدام رد الاتصال مع Aspose.Words](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | تعلم كيفية اكتشاف الخطوط في مستندات Word باستخدام C# و Aspose.Words عبر رد الاتصال. |
 | [حفظ مستند Word – اكتشاف الخطوط المفقودة باستخدام Aspose.Words](./save-word-document-detect-missing-fonts-with-aspose-words/) |تعلم كيفية حفظ مستند Word مع الكشف عن الخطوط المفقودة باستخدام Aspose.Words لـ .NET. |
+| [كيفية التقاط التحذيرات في Aspose.Words – دليل C# كامل](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) |تعلم كيفية التقاط إشعارات التحذير في Aspose.Words باستخدام C# خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

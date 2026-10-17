@@ -142,6 +142,10 @@
 
 ### [حفظ DOCX كـ Markdown باستخدام Aspose.Words – دليل C# كامل](./save-docx-as-markdown-with-aspose-words-complete-c-guide/)
 
+### [حفظ docx كـ markdown – دليل C# كامل مع Aspose.Words](./save-docx-as-markdown-complete-c-guide-with-aspose-words/)
+
+### [تصدير Word إلى Markdown مع ظلال الأشكال وPDF/UA](./export-word-to-markdown-with-shape-shadows-and-pdf-ua/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

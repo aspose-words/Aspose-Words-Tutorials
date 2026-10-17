@@ -35,6 +35,7 @@
 | [บันทึก docx เป็น txt – ส่งออกสมการเป็น LaTeX](./save-docx-as-txt-export-equations-to-latex/) | เรียนรู้วิธีบันทึกไฟล์ docx เป็น txt พร้อมส่งออกสมการเป็น LaTeX ด้วย Aspose.Words สำหรับ .NET |
 | [บันทึก docx เป็น txt – คู่มือ C# ฉบับสมบูรณ์](./save-docx-as-txt-complete-c-guide/) | เรียนรู้วิธีบันทึกไฟล์ docx เป็น txt อย่างละเอียดด้วย C# พร้อมตัวอย่างโค้ดและการตั้งค่าต่างๆ |
 | [วิธีส่งออก LaTeX จาก Word – แปลง DOCX เป็น TXT พร้อมสมการ](./how-to-export-latex-from-word-convert-docx-to-txt-with-equat/) | เรียนรู้วิธีแปลงเอกสาร Word ที่มีสมการเป็นไฟล์ LaTeX TXT ด้วย Aspose.Words สำหรับ .NET -
+| [บันทึก docx เป็น txt – ส่งออก Math ไปยัง LaTeX ด้วย Aspose.Words](./save-docx-as-txt-export-math-to-latex-with-aspose-words/) | เรียนรู้วิธีบันทึกไฟล์ docx เป็น txt พร้อมส่งออกสมการ Math เป็น LaTeX ด้วย Aspose.Words สำหรับ .NET -
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

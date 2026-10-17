@@ -61,13 +61,13 @@ Cho dù bạn muốn chuyển đổi tài liệu Word sang PDF để phân phố
 | [Tạo PDF/UA từ Word bằng C# – Hướng dẫn đầy đủ](./create-pdf-ua-from-word-in-c-complete-guide/) | Hướng dẫn chi tiết cách tạo tài liệu PDF/UA từ Word bằng C# sử dụng Aspose.Words cho .NET. |
 | [Tạo PDF có thể truy cập từ Word – Hướng dẫn đầy đủ Aspose.Words](./create-accessible-pdf-from-word-complete-aspose-words-guide/) | Hướng dẫn chi tiết cách tạo tệp PDF có khả năng truy cập từ tài liệu Word bằng Aspose.Words cho .NET. |
 | [Chuyển đổi docx sang pdf – Hướng dẫn toàn diện cho PDF có thể truy cập](./convert-docx-to-pdf-complete-guide-for-accessible-pdfs/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu docx sang PDF đáp ứng tiêu chuẩn truy cập, bao gồm các tùy chọn và mẫu mã. |
+| [Tạo PDF có khả năng truy cập từ Word – Hướng dẫn từng bước](./create-accessible-pdf-from-word-step-by-step-guide/) | Tìm hiểu cách tạo PDF có khả năng truy cập từ tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước. |
 
 | [Tạo PDF có khả năng truy cập từ Word trong C# – Hướng dẫn từng bước](./create-accessible-pdf-from-word-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo tệp PDF có khả năng truy cập từ tài liệu Word bằng C# và Aspose.Words. |
 | [Tạo PDF có thể truy cập từ Word với Aspose – Hướng dẫn từng bước](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) | Hướng dẫn chi tiết cách tạo tệp PDF có khả năng truy cập từ tài liệu Word bằng Aspose.Words cho .NET. |
 | [Tạo PDF UA từ Word trong C# – Hướng dẫn từng bước](./create-pdf-ua-from-word-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo tài liệu PDF UA từ Word bằng C# với Aspose.Words, bao gồm các bước thiết lập và mã mẫu. |
 | [Cách tạo PDF từ Word trong C# – Hướng dẫn đầy đủ](./how-to-create-pdf-from-word-in-c-complete-guide/) | Tìm hiểu cách tạo tệp PDF từ tài liệu Word bằng C# sử dụng Aspose.Words cho .NET qua hướng dẫn chi tiết từng bước. |
 | [Lưu Word thành PDF trong C# – Hướng dẫn đầy đủ chuyển DOCX sang PDF với xuất hình dạng](./save-word-as-pdf-in-c-full-guide-to-convert-docx-to-pdf-with/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF trong C# đồng thời xuất các hình dạng và đồ họa. |
-| [Tạo PDF có khả năng truy cập từ Word – Hướng dẫn từng bước](./create-accessible-pdf-from-word-step-by-step-guide/) | Tìm hiểu cách tạo PDF có khả năng truy cập từ tài liệu Word bằng Aspose.Words cho .NET qua hướng dẫn từng bước. |
 | [Lưu DOCX thành PDF trong C# – Hướng dẫn đầy đủ Aspose.Words](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF bằng C# với Aspose.Words, bao gồm các tùy chọn và mã mẫu. |
 | [Cách thiết lập tùy chọn PDF trong C# – Chuyển đổi Word sang PDF](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | Hướng dẫn từng bước để thiết lập các tùy chọn PDF trong C# và chuyển đổi tài liệu Word sang PDF bằng Aspose.Words. |
 

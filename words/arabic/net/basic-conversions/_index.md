@@ -29,6 +29,7 @@
 | [تحويل Word إلى PDF باستخدام C# و Aspose.Words – دليل](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | تعرّف على كيفية تحويل مستندات Word إلى PDF باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
 | [كيفية إنشاء PDF من DOCX في C# – دليل خطوة بخطوة](./how-to-create-pdf-from-docx-in-c-step-by-step-guide/) | تعرّف على كيفية تحويل ملفات DOCX إلى PDF باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
 | [تحويل DOCX إلى PDF باستخدام C# – دليل خطوة بخطوة](./convert-docx-to-pdf-in-c-step-by-step-guide/) | تعرّف على كيفية تحويل ملفات DOCX إلى PDF باستخدام C# مع Aspose.Words خطوة بخطوة مع أمثلة عملية. |
+| [إنشاء PDF من Word باستخدام C# – دليل خطوة بخطوة](./create-pdf-from-word-in-c-step-by-step-guide/) | تعرّف على كيفية إنشاء ملف PDF من مستند Word باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
 | [حفظ مستند Word كـ PDF باستخدام Aspose.Words – دليل C# كامل](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | تعرّف على طريقة حفظ مستندات Word بصيغة PDF باستخدام Aspose.Words في C# مع شرح مفصل وأمثلة عملية. |
 | [حفظ ملف docx كـ PDF باستخدام Aspose.Words – دليل C# كامل](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | تعرّف على طريقة حفظ ملفات docx بصيغة PDF باستخدام Aspose.Words في C# مع شرح مفصل وأمثلة عملية. |
 | [كيفية إنشاء PDF من Word – دليل C# كامل](./how-to-create-pdf-from-word-complete-c-guide/) | تعرّف على طريقة إنشاء ملفات PDF من مستندات Word باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |

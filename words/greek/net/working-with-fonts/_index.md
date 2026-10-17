@@ -73,6 +73,7 @@
 | [Πώς να εντοπίσετε γραμματοσειρές σε C# – Χρήση Callback με Aspose.Words](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | Μάθετε πώς να ανιχνεύετε τις γραμματοσειρές σε έγγραφα Word χρησιμοποιώντας callback στην Aspose.Words για .NET. |
 | [Αποθήκευση εγγράφου Word – Ανίχνευση ελλιπών γραμματοσειρών με Aspose.Words](./save-word-document-detect-missing-fonts-with-aspose-words/) | Μάθετε πώς να αποθηκεύετε έγγραφα Word ενώ ανιχνεύετε ελλιπείς γραμματοσειρές με το Aspose.Words για .NET. |
 
+| [Πώς να Καταγράψετε Προειδοποιήσεις στο Aspose.Words – Πλήρης Οδηγός C#](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) | Μάθετε πώς να εντοπίζετε και να διαχειρίζεστε προειδοποιήσεις κατά την επεξεργασία εγγράφων Word με το Aspose.Words για .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
