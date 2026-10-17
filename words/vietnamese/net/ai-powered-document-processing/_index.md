@@ -53,6 +53,8 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Cách Kiểm Tra Ngữ Pháp trong Tài Liệu Word – Hướng Dẫn C# Đầy Đủ](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET để kiểm tra ngữ pháp trong tài liệu Word bằng C#. |
 | [Cách kiểm tra ngữ pháp bằng LLM cục bộ trong C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Hướng dẫn tích hợp LLM cục bộ trong C# để kiểm tra ngữ pháp tài liệu Word bằng Aspose.Words. |
 | [Cách kiểm tra ngữ pháp và tóm tắt tài liệu Word với Aspose.Words AI](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Hướng dẫn sử dụng Aspose.Words AI để kiểm tra ngữ pháp và tóm tắt tài liệu Word một cách tự động và hiệu quả. |
+| [Tạo tóm tắt bằng AI – Hướng dẫn Aspose Words C#](./create-summary-with-ai-c-aspose-words-tutorial/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET với C# để tạo tóm tắt tài liệu bằng AI một cách nhanh chóng và hiệu quả. |
+| [Cách kiểm tra ngữ pháp trong Word bằng C# – Hướng dẫn đầy đủ](./how-to-check-grammar-in-word-with-c-complete-guide/) | Hướng dẫn từng bước sử dụng Aspose.Words cho .NET để kiểm tra ngữ pháp tài liệu Word bằng C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

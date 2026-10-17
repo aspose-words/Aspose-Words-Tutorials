@@ -142,6 +142,14 @@
 
 ### [حفظ DOCX كـ Markdown باستخدام Aspose.Words – دليل C# كامل](./save-docx-as-markdown-with-aspose-words-complete-c-guide/)
 
+### [إنشاء ملف markdown من Word – دليل كامل لتصدير المعادلات](./create-markdown-file-from-word-full-guide-to-export-equation/)
+
+### [كيفية حفظ Markdown – دليل كامل مع استخراج الصور](./how-to-save-markdown-full-guide-with-image-extraction/)
+
+### [إزالة الفقرات الفارغة – تحويل Word إلى Markdown في C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/)
+
+### [تحويل docx إلى markdown – دليل C# كامل](./convert-docx-to-markdown-complete-c-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

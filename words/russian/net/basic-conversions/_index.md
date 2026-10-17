@@ -40,6 +40,7 @@ Basic Conversions проведет вас через базовые преобр
 | [Сохранить PDF в формате Word (Docx)](./pdf-to-docx/) | Узнайте, как преобразовать PDF в документ Word (Docx) с помощью Aspose.Words для .NET в этом подробном пошаговом руководстве. Идеально подходит для разработчиков. |
 | [Как экспортировать LaTeX из Word – пошаговое руководство](./how-to-export-latex-from-word-step-by-step-guide/) | Узнайте, как экспортировать документ Word в LaTeX с помощью Aspose.Words для .NET, следуя пошаговому руководству. |
 | [Как экспортировать LaTeX из Word – пошаговое руководство C#](./how-to-export-latex-from-word-step-by-step-c-guide/) | Узнайте, как экспортировать документ Word в LaTeX с помощью Aspose.Words для .NET, используя C#. |
+| [Как экспортировать LaTeX из DOCX – Конвертировать в TXT](./how-to-export-latex-from-docx-convert-to-txt/) | Узнайте, как экспортировать LaTeX из DOCX и сохранить как TXT с помощью Aspose.Words для .NET. |
 | [Конвертировать Word в PDF в C# с Aspose.Words – Руководство](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Узнайте, как конвертировать Word в PDF в C# с помощью Aspose.Words. Пошаговое руководство для разработчиков. |
 | [Создать доступный PDF из Word – пошаговое руководство](./create-accessible-pdf-from-word-step-by-step-guide/) | Узнайте, как создать доступный PDF из документа Word с помощью Aspose.Words для .NET, следуя пошаговому руководству. |
 | [Конвертировать DOCX в PDF на C# – Полное руководство](./convert-docx-to-pdf-in-c-complete-guide/) | Полное руководство по конвертации DOCX в PDF на C# с использованием Aspose.Words для .NET. |
@@ -61,6 +62,7 @@ Basic Conversions проведет вас через базовые преобр
 | [Сохранить Word как PDF с Aspose.Words – пошаговое руководство](./save-word-as-pdf-with-aspose-words-step-by-step-guide/) | Узнайте, как сохранить документ Word в PDF с помощью Aspose.Words, следуя пошаговому руководству. |
 | [Конвертировать Docx в PDF в C#](./docx-to-pdf-tutorial-convert-word-to-pdf-in-c/) | Узнайте, как конвертировать DOCX в PDF в C# с помощью Aspose.Words. Пошаговое руководство с примерами кода. |
 | [Создать PDF из DOCX в C# – пошаговое руководство](./how-to-create-pdf-from-docx-in-c-step-by-step-guide/) | Узнайте, как преобразовать DOCX в PDF с помощью Aspose.Words для .NET в C#. Пошаговое руководство с примерами кода. |
+| [Создать доступный PDF из DOCX – пошаговое руководство C#](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | Узнайте, как создать доступный PDF из DOCX с помощью Aspose.Words для .NET, следуя пошаговому руководству на C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

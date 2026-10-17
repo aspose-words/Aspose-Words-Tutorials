@@ -70,6 +70,7 @@ Che tu voglia convertire documenti Word in PDF per la distribuzione online, l'ar
 | [Crea PDF accessibile da Word – Guida passo‑passo](./create-accessible-pdf-from-word-step-by-step-guide/) | Scopri come generare PDF accessibili da documenti Word con Aspose.Words per .NET, seguendo una guida dettagliata passo passo. |
 | [Salva DOCX come PDF in C# – Guida completa Aspose.Words](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) | Impara a convertire file DOCX in PDF usando C# con Aspose.Words, passo dopo passo con esempi di codice. |
 | [Come impostare le opzioni PDF in C# – Convertire Word in PDF](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | Scopri come configurare le opzioni PDF in C# per convertire documenti Word in PDF con Aspose.Words. |
+| [Come salvare PDF da Word in C# – Guida completa](./how-to-save-pdf-from-word-in-c-complete-guide/) | Scopri come salvare documenti Word come PDF in C# usando Aspose.Words, con esempi passo passo e impostazioni avanzate. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

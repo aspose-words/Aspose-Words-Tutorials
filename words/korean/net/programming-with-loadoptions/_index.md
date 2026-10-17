@@ -28,6 +28,7 @@ Aspose.Words for .NET 튜토리얼은 LoadOptions를 사용하여 워드 프로�
 | [Ms Word 버전 설정](./set-ms-word-version/) | Aspose.Words for .NET을 사용하여 MS Word 버전을 설정하는 방법을 자세한 가이드를 통해 알아보세요. 문서 조작을 간소화하려는 개발자에게 적합합니다. |
 | [Word 문서에서 임시 폴더 사용](./use-temp-folder/) | Aspose.Words로 Word 문서를 로드하는 동안 임시 폴더를 사용하여 .NET 애플리케이션의 성능을 향상시키는 방법을 알아보세요. |
 | [Word 문서의 경고 콜백](./warning-callback/) | Aspose.Words for .NET을 사용하여 Word 문서에서 경고를 포착하고 처리하는 방법을 단계별 가이드를 통해 알아보세요. 강력한 문서 처리를 보장합니다. |
+| [경고 포착 방법 – 누락된 글꼴에 대한 로드 옵션 구성](./how-to-capture-warnings-configure-load-options-for-missing-f/) | Aspose.Words for .NET에서 누락된 글꼴이 있을 때 경고를 포착하고 로드 옵션을 설정하는 방법을 단계별로 안내합니다. |
 | [Word 문서에 인코딩을 사용하여 로드](./load-with-encoding/) | Aspose.Words for .NET을 사용하여 특정 인코딩으로 Word 문서를 로드하는 방법을 알아보세요. 자세한 설명이 포함된 단계별 가이드입니다. |
 | [PDF 이미지 건너뛰기](./skip-pdf-images/) | Aspose.Words for .NET을 사용하여 PDF 문서를 로드할 때 이미지를 건너뛰는 방법을 알아보세요. 원활한 텍스트 추출을 위한 단계별 가이드를 따라해 보세요. |
 | [메타파일을 PNG로 변환](./convert-metafiles-to-png/) | Aspose.Words for .NET을 사용하여 Word 문서의 메타파일을 PNG로 쉽게 변환하는 단계별 튜토리얼을 소개합니다. 문서 관리를 간소화하세요. |

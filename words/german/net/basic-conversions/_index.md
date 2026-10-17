@@ -59,6 +59,8 @@
 | [DOCX als TXT speichern – DOCX konvertieren, LaTeX extrahieren](./how-to-save-docx-as-txt-convert-docx-extract-latex/) | Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für .NET in TXT speichern und dabei LaTeX‑Inhalte extrahieren. |
 | [Wie man PDF aus DOCX in C# erstellt – Schritt‑für‑Schritt‑Anleitung](./how-to-create-pdf-from-docx-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein PDF aus einer DOCX-Datei in C# erstellen – detaillierte Schritt‑für‑Schritt‑Anleitung. |
 | [DOCX als TXT speichern – Vollständige Anleitung zur Konvertierung von Word-Dateien in Klartext](./save-docx-as-txt-complete-guide-to-converting-word-files-to/) | Erfahren Sie, wie Sie DOCX mit Aspose.Words für .NET in Textdateien (TXT) konvertieren – Schritt‑für‑Schritt‑Anleitung mit Codebeispielen. |
+| [Wie man LaTeX aus DOCX exportiert – in TXT konvertieren](./how-to-export-latex-from-docx-convert-to-txt/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET LaTeX aus DOCX exportieren und in TXT konvertieren – Schritt‑für‑Schritt‑Anleitung. |
+| [Erstellen Sie ein barrierefreies PDF aus DOCX – Schritt‑für‑Schritt C#‑Leitfaden](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein barrierefreies PDF aus DOCX erstellen – vollständige Schritt‑für‑Schritt‑Anleitung in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

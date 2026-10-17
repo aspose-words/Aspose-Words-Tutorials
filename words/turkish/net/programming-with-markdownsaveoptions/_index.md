@@ -84,6 +84,10 @@ Words Processing with MarkdownSaveOptions, .NET için Aspose.Words kütüphanesi
 | [Aspose.Words ile docx'i markdown'a dönüştür – Tam C# Rehberi](./convert-docx-to-markdown-with-aspose-words-full-c-guide/) | Aspose.Words kullanarak docx dosyalarını markdown formatına dönüştürmek için tam C# rehberi. |
 | [Word'ü Markdown Olarak Kaydet – Word'ü Markdown'a Dönüştürme ve Görüntü Çıkarma Tam Rehberi](./save-word-as-markdown-complete-guide-to-convert-word-to-mark/) | Aspose.Words for .NET ile Word belgelerini Markdown'a kaydedin, görüntüleri ayıklayın ve tam adım adım rehberle dönüştürün. |
 | [DOCX'i Aspose.Words ile Markdown Olarak Kaydet – Tam C# Rehberi](./save-docx-as-markdown-with-aspose-words-complete-c-guide/) | Aspose.Words for .NET kullanarak DOCX dosyasını Markdown formatına kaydedin. Tam C# rehberi. |
+| [docx'i markdown'a dönüştür – Tam C# Rehberi](./convert-docx-to-markdown-complete-c-guide/) | Aspose.Words for .NET kullanarak docx dosyasını tam C# rehberiyle markdown formatına dönüştürün. |
+| [Markdown'ı kaydet – Görüntü Çıkarma ile Tam Rehber](./how-to-save-markdown-full-guide-with-image-extraction/) | Aspose.Words for .NET kullanarak Markdown dosyasını görüntüleri ayıklayarak kaydetmeyi adım adım öğrenin. Tam rehber. |
+| [Word'den markdown dosyası oluştur – Denklemleri dışa aktarma tam rehberi](./create-markdown-file-from-word-full-guide-to-export-equation/) | Aspose.Words for .NET kullanarak Word belgelerinden denklemlerle birlikte markdown dosyası oluşturmayı adım adım öğrenin. |
+| [Boş Paragrafları Kaldır – Word'ü C# ile Markdown'a Dönüştür](./remove-empty-paragraphs-convert-word-to-markdown-in-c/) | Aspose.Words for .NET kullanarak Word belgelerindeki boş paragrafları kaldırın ve C# ile Markdown formatına dönüştürün. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

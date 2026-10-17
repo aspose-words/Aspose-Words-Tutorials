@@ -33,6 +33,8 @@ Pelajari cara mengonversi dokumen DOCX ke Markdown dengan persamaan LaTeX menggu
 Pelajari cara mengonversi file DOCX ke format Markdown dengan panduan langkah demi langkah menggunakan C#.
 ### [Mengonversi docx ke markdown dalam C# – Panduan Langkah‑demi‑Langkah](./convert-docx-to-markdown-in-c-step-by-step-guide/)
 Pelajari cara mengonversi file DOCX ke Markdown dengan panduan lengkap langkah demi langkah dalam C#.
+### [Konversi docx ke markdown – Panduan Lengkap C#](./convert-docx-to-markdown-complete-c-guide/)
+Pelajari cara mengonversi file DOCX ke Markdown dengan panduan lengkap C#.
 ### [Simpan docx sebagai markdown – Panduan Lengkap C# dengan Persamaan LaTeX](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 Pelajari cara mengonversi file DOCX ke Markdown dengan panduan lengkap C# termasuk persamaan LaTeX.
 ### [Simpan docx sebagai markdown – Panduan Lengkap C# dengan Ekstraksi Gambar](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
@@ -145,6 +147,11 @@ Pelajari cara mengonversi file DOCX ke Markdown dengan panduan lengkap menggunak
 Pelajari cara mengonversi dokumen Word ke Markdown lengkap dengan ekstraksi gambar menggunakan C#.
 ### [Simpan DOCX sebagai Markdown dengan Aspose.Words – Panduan Lengkap C#](./save-docx-as-markdown-with-aspose-words-complete-c-guide/)
 Pelajari cara mengonversi file DOCX menjadi Markdown dengan panduan lengkap menggunakan Aspose.Words dan C#.
+### [Buat file markdown dari Word – Panduan Lengkap untuk Mengekspor Persamaan](./create-markdown-file-from-word-full-guide-to-export-equation/)
+Pelajari cara membuat file markdown dari dokumen Word dan mengekspor persamaan dengan panduan lengkap menggunakan Aspose.Words untuk .NET.
+### [Cara Menyimpan Markdown – Panduan Lengkap dengan Ekstraksi Gambar](./how-to-save-markdown-full-guide-with-image-extraction/)
+### [Hapus Paragraf Kosong – Konversi Word ke Markdown dalam C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/)
+Pelajari cara menghapus paragraf kosong saat mengonversi dokumen Word ke format Markdown menggunakan C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -60,6 +60,8 @@
 | [Μετατροπή DOCX σε PDF – Δημιουργία Προσβάσιμου PDF (PDF/UA)](./convert-docx-to-pdf-generate-accessible-pdf-pdf-ua/) | Μάθετε πώς να μετατρέπετε DOCX σε PDF με υποστήριξη PDF/UA για προσβάσιμα έγγραφα, χρησιμοποιώντας Aspose.Words για .NET. |
 | [Μετατροπή DOCX σε PDF σε C# – Οδηγός βήμα‑βήμα](./convert-docx-to-pdf-in-c-step-by-step-guide/) | Μάθετε πώς να μετατρέπετε αρχεία DOCX σε PDF με C# και Aspose.Words, ακολουθώντας οδηγίες βήμα‑βήμα. |
 | [Μετατροπή docx σε txt – Εξαγωγή εξισώσεων Word σε LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/) | Μάθετε πώς να μετατρέπετε αρχεία docx σε txt και να εξάγετε τις εξισώσεις Word σε LaTeX. |
+| [Πώς να εξάγετε LaTeX από DOCX – Μετατροπή σε TXT](./how-to-export-latex-from-docx-convert-to-txt/) | Μάθετε πώς να εξάγετε LaTeX από DOCX και να το μετατρέψετε σε αρχείο TXT χρησιμοποιώντας το Aspose.Words για .NET. |
+| [Δημιουργία Προσβάσιμου PDF από DOCX – Οδηγός βήμα‑βήμα C#](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF από DOCX χρησιμοποιώντας Aspose.Words για .NET με οδηγίες βήμα‑βήμα σε C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

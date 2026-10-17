@@ -70,6 +70,7 @@
 | [Создание PDF UA из Word на C# – пошаговое руководство](./create-pdf-ua-from-word-in-c-step-by-step-guide/) | Узнайте, как создать PDF/UA из документа Word с помощью Aspose.Words для .NET, следуя пошаговому руководству на C#. |
 | [Как создать PDF из Word на C# – Полное руководство](./how-to-create-pdf-from-word-in-c-complete-guide/) | Узнайте, как с помощью Aspose.Words for .NET преобразовать документы Word в PDF в C# с полным пошаговым руководством. |
 | [Сохранить Word как PDF в C# – Полное руководство по конвертации DOCX в PDF с экспортом фигур](./save-word-as-pdf-in-c-full-guide-to-convert-docx-to-pdf-with/) | Подробное руководство по сохранению документов Word в PDF в C#, включая экспорт фигур и настройку параметров. |
+| [Как сохранить PDF из Word в C# – Полное руководство](./how-to-save-pdf-from-word-in-c-complete-guide/) | Узнайте, как сохранить документ Word в PDF с помощью C# и Aspose.Words, следуя пошаговому полному руководству. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

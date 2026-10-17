@@ -52,6 +52,8 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
 | [Hogyan ellenőrizze a nyelvtant Word dokumentumokban – Teljes C# útmutató](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Ismerje meg, hogyan használhatja az Aspose.Words for .NET-et a Word dokumentumok nyelvtani ellenőrzésére C#-ban, lépésről lépésre. |
 | [Hogyan ellenőrizze a nyelvtant egy helyi LLM-mel C#-ban](./how-to-check-grammar-with-a-local-llm-in-c/) | Tanulja meg, hogyan használhat helyi nagy nyelvi modellt a nyelvtani ellenőrzéshez C#-ban az Aspose.Words for .NET segítségével. |
 | [Hogyan ellenőrizze a nyelvtant és összefoglalja a Word-dokumentumot az Aspose.Words AI-val](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Ismerje meg, hogyan használhatja az Aspose.Words AI-t a nyelvtan ellenőrzésére és a Word-dokumentumok összefoglalására. |
+| [Hogyan ellenőrizze a nyelvtant a Wordben C#-val – Teljes útmutató](./how-to-check-grammar-in-word-with-c-complete-guide/) | Ismerje meg, hogyan használhatja az Aspose.Words for .NET-et a Word dokumentumok nyelvtani ellenőrzésére C#-ban, lépésről lépésre. |
+| [Összegzés létrehozása AI-val – C# Aspose Words oktatóanyag](./create-summary-with-ai-c-aspose-words-tutorial/) | Tanulja meg, hogyan hozhat létre AI-alapú összefoglalókat C#-ban az Aspose.Words segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

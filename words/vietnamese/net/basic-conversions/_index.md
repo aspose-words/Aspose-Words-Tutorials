@@ -61,6 +61,8 @@ Basic Conversions hướng dẫn bạn cách chuyển đổi tài liệu cơ b�
 | [Chuyển đổi PNG sang Base64 trong C# – Hướng dẫn đầy đủ](./convert-png-to-base64-in-c-complete-guide/) | Hướng dẫn chi tiết cách chuyển đổi hình ảnh PNG thành chuỗi Base64 trong C# bằng Aspose.Words, kèm ví dụ mã nguồn. |
 | [Cách xuất LaTeX từ Word – Hướng dẫn C# từng bước](./how-to-export-latex-from-word-step-by-step-c-guide/) | Hướng dẫn chi tiết cách xuất LaTeX từ tài liệu Word bằng Aspose.Words cho .NET trong C#, kèm ví dụ mã nguồn. |
 | [Tạo PDF có thể truy cập – Chuyển đổi Word sang PDF](./create-accessible-pdf-convert-word-to-pdf/) | Hướng dẫn tạo PDF có khả năng truy cập từ tài liệu Word bằng Aspose.Words cho .NET, bao gồm các tùy chọn tiếp cận và ví dụ mã. |
+| [Cách xuất LaTeX từ DOCX – Chuyển sang TXT](./how-to-export-latex-from-docx-convert-to-txt/) | Hướng dẫn chi tiết cách xuất nội dung LaTeX từ tài liệu DOCX và lưu dưới dạng tệp TXT bằng Aspose.Words cho .NET. |
+| [Tạo PDF có thể truy cập từ DOCX – Hướng dẫn từng bước C#](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập từ tài liệu DOCX bằng Aspose.Words cho .NET, kèm ví dụ C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -39,7 +39,7 @@ Enfin, n'oubliez pas de consulter notre [Travailler avec les options de résumé
 | Titre | Description |
 | --- | --- |
 | [Travailler avec un modèle d'IA](./working-with-ai-model/) | Apprenez à utiliser Aspose.Words pour .NET pour synthétiser des documents avec l'IA. Étapes simples pour améliorer la gestion des documents. |
-| [Travailler avec le modèle d'IA de Google](./working-with-google-ai-model/) Améliorez le traitement de vos documents avec Aspose.Words pour .NET et Google AI pour créer des résumés concis sans effort. |
+| [Travailler avec le modèle d'IA de Google](./working-with-google-ai-model/) | Améliorez le traitement de vos documents avec Aspose.Words pour .NET et Google AI pour créer des résumés concis sans effort. |
 | [Travailler avec un modèle d'IA ouvert](./working-with-open-ai-model/) | Bénéficiez d'une synthèse efficace de vos documents grâce à Aspose.Words pour .NET et aux puissants modèles d'OpenAI. Découvrez dès maintenant ce guide complet. |
 | [Travailler avec les options de résumé](./working-with-summarize-options/) | Apprenez à résumer efficacement des documents Word à l'aide d'Aspose.Words pour .NET avec notre guide étape par étape sur l'intégration de modèles d'IA pour des informations rapides. |
 | [Résumer un document Word avec l'IA – OpenAI vs Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | Comparez OpenAI et Gemini pour résumer vos documents Word avec Aspose.Words pour .NET. |
@@ -52,6 +52,8 @@ Enfin, n'oubliez pas de consulter notre [Travailler avec les options de résumé
 | [Comment vérifier la grammaire dans les documents Word – Guide complet C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Apprenez à utiliser Aspose.Words pour .NET afin de vérifier la grammaire des documents Word avec un guide complet en C#. |
 | [Comment vérifier la grammaire avec un LLM local en C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Apprenez à utiliser un LLM local en C# pour analyser et corriger la grammaire de vos documents Word avec Aspose.Words. |
 | [Comment vérifier la grammaire et résumer un document Word avec Aspose.Words IA](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Apprenez à corriger la grammaire et à résumer automatiquement vos documents Word grâce à l'IA d'Aspose.Words. |
+| [Comment vérifier la grammaire dans Word avec C# – Guide complet](./how-to-check-grammar-in-word-with-c-complete-guide/) | Apprenez à utiliser Aspose.Words pour .NET afin de vérifier la grammaire des documents Word avec C#. |
+| [Créer un résumé avec l'IA – Tutoriel C# Aspose Words](./create-summary-with-ai-c-aspose-words-tutorial/) | Apprenez à générer des résumés de documents Word avec l'IA en utilisant C# et Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

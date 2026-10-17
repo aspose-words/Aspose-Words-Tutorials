@@ -53,6 +53,8 @@ Por último, no olvides visitar nuestra [Trabajar con opciones de resumen](./wor
 | [Cómo comprobar la gramática en documentos Word – Guía completa en C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Aprenda a verificar la gramática en documentos Word usando Aspose.Words para .NET con una guía paso a paso en C#. |
 | [Cómo comprobar la gramática con un LLM local en C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Aprenda a usar un modelo de lenguaje local en C# para corregir la gramática de documentos con Aspose.Words. |
 | [Cómo verificar la gramática y resumir documentos Word con Aspose.Words IA](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Aprenda a usar la IA de Aspose.Words para corregir gramática y generar resúmenes de documentos Word rápidamente. |
+| [Cómo comprobar la gramática en Word con C# – Guía completa](./how-to-check-grammar-in-word-with-c-complete-guide/) | Aprenda a usar Aspose.Words para .NET y C# para verificar la gramática en documentos de Word automáticamente. |
+| [Crear resumen con IA – Tutorial C# Aspose Words](./create-summary-with-ai-c-aspose-words-tutorial/) | Aprenda a crear resúmenes automáticos con IA usando Aspose.Words para .NET y C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

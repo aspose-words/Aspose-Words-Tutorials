@@ -27,6 +27,7 @@
 | [Создать доступный PDF и конвертировать Word в Markdown – Полное руководство C#](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/) | Полное руководство по созданию доступных PDF и конвертации Word в Markdown с использованием C# и Aspose.Words. |
 | [Как использовать Markdown: преобразовать DOCX в Markdown с уравнениями LaTeX](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | Конвертируйте документы DOCX в Markdown, сохраняя формулы LaTeX, с помощью Aspose.Words для .NET. |
 | [Конвертировать docx в markdown – пошаговое руководство C#](./convert-docx-to-markdown-step-by-step-c-guide/) | Подробное пошаговое руководство по конвертации файлов DOCX в Markdown с использованием C# и Aspose.Words. |
+| [Конвертировать docx в markdown – Полное руководство C#](./convert-docx-to-markdown-complete-c-guide/) | Полное руководство по конвертации DOCX в Markdown с помощью C# и Aspose.Words. |
 | [Сохранить docx как markdown – Полное руководство C# с уравнениями LaTeX](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) | Полное руководство по конвертации DOCX в Markdown с поддержкой уравнений LaTeX на C#. |
 | [Сохранить docx как markdown – Полное руководство C# с извлечением изображений](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | Полное руководство по сохранению DOCX в Markdown с извлечением изображений на C# с использованием Aspose.Words. |
 | [Сохранить docx как markdown & извлечь изображения – руководство C#](./save-docx-as-markdown-extract-images-c-guide/) | Подробное руководство по конвертации DOCX в Markdown с извлечением изображений на C# с использованием Aspose.Words. |
@@ -85,6 +86,9 @@
 | [Конвертировать docx в markdown с Aspose.Words – Полное руководство C#](./convert-docx-to-markdown-with-aspose-words-full-c-guide/) | Полное руководство по конвертации DOCX в Markdown с использованием Aspose.Words на C#. |
 | [Сохранить Word как Markdown – Полное руководство по конвертации Word в Markdown и извлечению изображений](./save-word-as-markdown-complete-guide-to-convert-word-to-mark/) | Полное руководство по сохранению Word в Markdown с извлечением изображений с помощью Aspose.Words для .NET. |
 | [Сохранить DOCX как Markdown с Aspose.Words – Полное руководство C#](./save-docx-as-markdown-with-aspose-words-complete-c-guide/) | Подробное руководство по сохранению DOCX в Markdown с использованием Aspose.Words и C#. |
+| [Создать файл markdown из Word – Полное руководство по экспорту уравнений](./create-markdown-file-from-word-full-guide-to-export-equation/) | Подробное руководство по созданию markdown‑файла из Word с экспортом уравнений, используя Aspose.Words для .NET. |
+| [Как сохранить Markdown – Полное руководство с извлечением изображений](./how-to-save-markdown-full-guide-with-image-extraction/) | Полное руководство по сохранению Markdown с извлечением изображений с использованием Aspose.Words для .NET. |
+| [Удалить пустые абзацы – Конвертировать Word в Markdown на C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/) | Узнайте, как удалить пустые абзацы при конвертации документов Word в Markdown с помощью Aspose.Words для .NET на C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

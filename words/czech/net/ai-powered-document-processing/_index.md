@@ -52,6 +52,8 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | [Jak zkontrolovat gramatiku v dokumentech Word – Kompletní průvodce v C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Naučte se pomocí Aspose.Words pro .NET kontrolovat gramatiku v dokumentech Word pomocí C#. |
 | [Jak zkontrolovat gramatiku pomocí lokálního LLM v C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Naučte se, jak pomocí lokálního LLM v C# kontrolovat gramatiku v dokumentech Word s Aspose.Words. |
 | [Jak zkontrolovat gramatiku a shrnout Word dokument pomocí Aspose.Words AI](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Naučte se kontrolovat gramatiku a automaticky shrnovat Word dokumenty pomocí AI v Aspose.Words. |
+| [Vytvoření shrnutí pomocí AI – C# Aspose Words tutoriál](./create-summary-with-ai-c-aspose-words-tutorial/) | Naučte se, jak pomocí Aspose.Words pro .NET a C# vytvořit automatické shrnutí dokumentů s využitím AI. |
+| [Jak zkontrolovat gramatiku ve Wordu pomocí C# – Kompletní průvodce](./how-to-check-grammar-in-word-with-c-complete-guide/) | Naučte se pomocí Aspose.Words pro .NET kontrolovat gramatiku v dokumentech Word pomocí C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

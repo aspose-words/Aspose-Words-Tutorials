@@ -42,6 +42,10 @@ Leer hoe u Aspose.Words gebruikt om DOCX-bestanden naar Markdown met LaTeX‑ver
 ### [Hoe Markdown op te slaan vanuit Word – Complete gids](./how-to-save-markdown-from-word-complete-guide/)
 Leer hoe u Markdown vanuit Word opslaat met een volledige stap‑voor‑stap C#‑handleiding.
 
+### [Docx converteren naar markdown – Complete C#-gids](./convert-docx-to-markdown-complete-c-guide/)
+
+Leer hoe u docx-bestanden naar markdown converteert met een volledige C#‑gids.
+
 ### [Docx opslaan als markdown – Complete C#-gids met LaTeX‑vergelijkingen](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 Leer hoe u docx opslaat als markdown met een volledige C#‑gids inclusief LaTeX‑vergelijkingen.
 
@@ -82,6 +86,9 @@ Leer hoe u Word-documenten converteert naar Markdown en afbeeldingen extraheert 
 ### [Word opslaan als Markdown – Complete gids voor het converteren van Word naar Markdown en afbeeldingen extraheren](./save-word-as-markdown-complete-guide-to-convert-word-to-mark/)
 
 Leer hoe u Word-documenten opslaat als Markdown en afbeeldingen extraheert met een volledige C#‑handleiding.
+### [Hoe Markdown op te slaan – Volledige gids met afbeeldingsextractie](./how-to-save-markdown-full-guide-with-image-extraction/)
+
+Leer hoe u Markdown-bestanden opslaat en afbeeldingen extraheert met een volledige C#‑handleiding.
 
 ### [Hoe Markdown te exporteren vanuit Word – Complete C#-gids](./how-to-export-markdown-from-word-complete-c-guide/)
 
@@ -207,12 +214,18 @@ Leer hoe u docx-bestanden naar markdown converteert met een volledige C#-handlei
 
 Leer hoe u DOCX-bestanden opslaat als Markdown met Aspose.Words in een volledige C#‑gids.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### [Maak markdown‑bestand van Word – Volledige gids voor het exporteren van vergelijkingen](./create-markdown-file-from-word-full-guide-to-export-equation/)
 
+Leer hoe u een markdown‑bestand maakt vanuit Word en formules exporteert met Aspose.Words voor .NET.
+
+### [Lege alinea's verwijderen – Converteer Word naar Markdown in C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/)
+
+Leer hoe u lege alinea's uit Word-documenten verwijdert tijdens de conversie naar Markdown met Aspose.Words voor .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

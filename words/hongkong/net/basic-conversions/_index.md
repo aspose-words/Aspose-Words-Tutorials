@@ -40,6 +40,7 @@
 | [將 docx 轉換為 txt – 匯出 Word 方程式為 LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/) | 了解如何使用 Aspose.Words for .NET 將 DOCX 轉換為 TXT 並將 Word 方程式匯出為 LaTeX。 |
 | [如何從 Word 匯出 LaTeX – 步驟說明指南](./how-to-export-latex-from-word-step-by-step-guide/) | 了解如何使用 Aspose.Words for .NET 從 Word 文件匯出 LaTeX，提供逐步說明與範例程式碼，適合開發人員。 |
 | [如何從 Word 匯出 LaTeX – 步驟說明 C# 指南](./how-to-export-latex-from-word-step-by-step-c-guide/) | 了解如何使用 Aspose.Words for .NET 在 C# 中將 Word 匯出為 LaTeX，提供逐步說明與程式碼範例，適合開發人員。 |
+| [如何從 DOCX 匯出 LaTeX – 轉換為 TXT](./how-to-export-latex-from-docx-convert-to-txt/) | 了解如何使用 Aspose.Words for .NET 從 DOCX 匯出 LaTeX 並轉換為 TXT。提供逐步指南與程式碼範例。 |
 | [將文字文件轉換為 Word 文件](./txt-to-docx/) |了解如何使用 Aspose.Words for .NET 將文字檔案轉換為 Word 文件。使用我們全面的指南有效地管理文件轉換。 | 
 | [將 PDF 儲存為 Jpeg](./pdf-to-jpeg/) |使用 Aspose.Words for .NET 輕鬆將 PDF 轉換為 JPEG。請遵循我們的詳細指南，其中包含範例和常見問題。非常適合開發人員和愛好者。 |
 | [將 PDF 儲存為 Word 格式 (Docx)](./pdf-to-docx/) |透過本詳細的逐步指南了解如何使用 Aspose.Words for .NET 將 PDF 轉換為 Word 文件 (Docx)。非常適合開發人員。 |
@@ -59,6 +60,7 @@
 | [Word 轉 PDF 教學：使用 Aspose.Words 將 DOCX 轉換為 PDF](./word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/) | 了解如何使用 Aspose.Words for .NET 在 C# 中將 DOCX 轉換為 PDF，提供逐步指南與程式碼範例。 |
 | [使用 Aspose.Words 將 Word 儲存為 PDF – 步驟說明指南](./save-word-as-pdf-with-aspose-words-step-by-step-guide/) | 逐步說明如何使用 Aspose.Words 在 .NET 中將 Word 文件儲存為 PDF，提供程式碼範例與實作要點。 |
 | [如何在 C# 中從 DOCX 建立 PDF – 步驟說明指南](./how-to-create-pdf-from-docx-in-c-step-by-step-guide/) | 了解如何使用 Aspose.Words for .NET 在 C# 中將 DOCX 轉換為 PDF，提供詳細步驟與程式碼範例。 |
+| [從 DOCX 建立可存取 PDF – 步驟說明 C# 教學](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | 了解如何使用 Aspose.Words for .NET 在 C# 中將 DOCX 轉換為符合可存取性標準的 PDF，提供完整步驟與程式碼範例。 |
 
 | [在 C# 中將 PNG 轉換為 Base64 – 完整指南](./convert-png-to-base64-in-c-complete-guide/) | 了解如何在 C# 中將 PNG 圖片轉換為 Base64 字串，完整步驟與程式碼示例，適合需要圖像編碼的開發人員。 |
 

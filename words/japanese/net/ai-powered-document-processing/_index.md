@@ -50,6 +50,8 @@
 | [Word 文書の文法チェック方法 – 完全 C# ガイド](./how-to-check-grammar-in-word-documents-complete-c-guide/) Aspose.Words for .NET と C# を使用して、Word 文書の文法を自動的にチェックし、修正提案を行う方法を学びます。 |
 | [C# でローカル LLM を使って文法チェックする方法](./how-to-check-grammar-with-a-local-llm-in-c/) Aspose.Words for .NET とローカル LLM を組み合わせ、C# で文書の文法チェックを自動化する手順を解説します。 |
 | [Aspose.Words AI を使用した文法チェックと Word 文書の要約方法](./how-to-check-grammar-and-summarize-word-document-with-aspose/) Aspose.Words for .NET の AI 機能で文法チェックと要約を実装する手順を学びます。 |
+| [C# で Word の文法をチェックする方法 – 完全ガイド](./how-to-check-grammar-in-word-with-c-complete-guide/) C# を使用して Word 文書の文法チェックを自動化し、正確な文章作成を実現する完全ガイドです。 |
+| [AI で要約を作成する – C# Aspose Words チュートリアル](./create-summary-with-ai-c-aspose-words-tutorial/) C# と Aspose.Words を使用して、AI を活用した文書要約の作成方法をステップバイステップで学びます。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

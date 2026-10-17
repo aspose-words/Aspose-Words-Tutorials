@@ -83,6 +83,10 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [Aspose.Words के साथ DOCX को Markdown में बदलें – पूर्ण C# गाइड](./convert-docx-to-markdown-with-aspose-words-full-c-guide/) | Aspose.Words का उपयोग करके DOCX को Markdown में बदलने की पूरी C# गाइड |
 | [Word को Markdown के रूप में सहेजें – Word को Markdown में बदलने और छवियों को निकालने की पूरी गाइड](./save-word-as-markdown-complete-guide-to-convert-word-to-mark/) | Word को Markdown में बदलने और छवियों को निकालने की पूरी गाइड। |
 | [Aspose.Words के साथ DOCX को Markdown के रूप में सहेजें – पूर्ण C# गाइड](./save-docx-as-markdown-with-aspose-words-complete-c-guide/) | Aspose.Words का उपयोग करके C# में DOCX को Markdown में बदलने की पूरी गाइड। |
+| [DOCX को मार्कडाउन में बदलें – पूर्ण C# गाइड](./convert-docx-to-markdown-complete-c-guide/) | DOCX फ़ाइल को C# में पूर्ण गाइड के साथ मार्कडाउन में बदलने की विस्तृत प्रक्रिया। |
+| [Word से markdown फ़ाइल बनाएं – समीकरण निर्यात के लिए पूर्ण गाइड](./create-markdown-file-from-word-full-guide-to-export-equation/) | Word दस्तावेज़ को markdown फ़ाइल में बदलें और समीकरणों को निर्यात करने के लिए पूर्ण चरण‑दर‑स्टेप गाइड। |
+| [मार्कडाउन सहेजने का तरीका – इमेज एक्सट्रैक्शन के साथ पूर्ण गाइड](./how-to-save-markdown-full-guide-with-image-extraction/) | इमेज एक्सट्रैक्शन के साथ मार्कडाउन सहेजने की पूरी गाइड। चरण‑दर‑स्टेप प्रक्रिया। |
+| [खाली पैराग्राफ हटाएँ – C# में Word को Markdown में परिवर्तित करें](./remove-empty-paragraphs-convert-word-to-markdown-in-c/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ से खाली पैराग्राफ हटाकर Markdown में निर्यात करने का तरीका। |
 
 | [Word को Markdown में बदलें – इमेज एक्सट्रैक्शन के साथ पूर्ण गाइड](./convert-word-to-markdown-full-guide-with-image-extraction/) | इमेज एक्सट्रैक्शन के साथ Word को Markdown में बदलने की पूरी गाइड। C# में चरण‑दर‑स्टेप प्रक्रिया। |
 | [docx को markdown में बदलें – लाइन‑ब्रेक संरक्षण के साथ पूर्ण गाइड](./convert-docx-to-markdown-complete-guide-with-line-break-pres/) | docx फ़ाइल को markdown में बदलते समय लाइन‑ब्रेक को संरक्षित रखने का पूर्ण चरण‑दर‑स्टेप गाइड। |

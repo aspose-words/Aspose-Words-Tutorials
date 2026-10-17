@@ -53,6 +53,8 @@
 | [如何在 Word 文件中檢查文法 – 完整 C# 指南](./how-to-check-grammar-in-word-documents-complete-c-guide/) |使用 Aspose.Words for .NET 及 C# 完整指南，教您如何在 Word 文件中自動檢查並校正文法錯誤。 |
 | [如何在 C# 中使用本地 LLM 檢查文法](./how-to-check-grammar-with-a-local-llm-in-c/) |使用 Aspose.Words for .NET 結合本地大型語言模型，在 C# 中自動檢查並校正文檔文法。 |
 | [使用 Aspose.Words AI 檢查文法並匯總 Word 文件](./how-to-check-grammar-and-summarize-word-document-with-aspose/) |使用 Aspose.Words AI 檢查文法並自動匯總 Word 文件，提升寫作與審閱效率。 |
+| [如何使用 C# 檢查 Word 文法 – 完整指南](./how-to-check-grammar-in-word-with-c-complete-guide/) |使用 Aspose.Words for .NET 與 C# 檢查 Word 文檔的語法錯誤，提供完整步驟與示例。 |
+| [使用 AI 建立摘要 – C# Aspose Words 教學](./create-summary-with-ai-c-aspose-words-tutorial/) |使用 Aspose.Words for .NET 及 C# 透過 AI 快速生成文件摘要的完整指南。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
