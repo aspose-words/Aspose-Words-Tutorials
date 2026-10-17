@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Este tutorial muestra cómo crear un documento de Word, insertar un gráfico de columnas, reemplazar sus datos de muestra y luego habilitar y dar estilo a las líneas de cuadrícula principales en el eje X primario.
+//ExStepSummary:0: Cree un nuevo documento de Word y un DocumentBuilder para editarlo.
+//ExStepSummary:1: Inserte un gráfico de columnas de 432×252 en el documento y obtenga su objeto Chart.
+//ExStepSummary:2: Elimine la serie predeterminada y añada una serie personalizada con tres grupos y valores.
+//ExStepSummary:3: Obtenga una referencia al eje horizontal (X) primario del gráfico.
+//ExStepSummary:4: Habilite la visualización de las líneas de cuadrícula principales en el eje X primario.
+//ExStepSummary:5: Establezca el color de las líneas de cuadrícula en azul y su grosor en 2 puntos.
+//ExStepSummary:6: Guarde el documento en un archivo .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document myDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+chart.Series.Add("Demo Series",
+    new[] { "Group One", "Group Two", "Group Three" },
+    new double[] { 10, 20, 30 });
+
+//ExStep:3-
+ChartAxis horizontalAxis = chart.AxisX;
+
+//ExStep:4-
+horizontalAxis.HasMajorGridlines = true;
+
+//ExStep:5-
+horizontalAxis.Format.Stroke.Color = Color.Blue;
+horizontalAxis.Format.Stroke.Weight = 2.0;
+
+//ExStep:6-
+myDoc.Save("PrimaryXGridlines.docx");
+//ExEnd

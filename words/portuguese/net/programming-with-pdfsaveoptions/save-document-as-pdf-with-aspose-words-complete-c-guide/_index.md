@@ -1,25 +1,23 @@
 ---
 category: general
-date: 2026-03-24
-description: Salvar documento como PDF usando Aspose.Words em C#. Aprenda como converter
-  Word para PDF e definir configurações de fonte personalizadas para uma saída impecável.
+date: 2026-02-15
+description: Salve o documento como PDF usando Aspose.Words em C#. Aprenda a converter
+  Word para PDF, capturar avisos de fontes e garantir uma saída precisa.
 draft: false
 keywords:
 - save document as pdf
 - convert word to pdf
-- set custom font settings
-- Aspose.Words PDF conversion
-- C# document automation
+- word to pdf conversion
+- export word as pdf
+- pdf conversion from word
 language: pt
-og_description: Salve o documento como PDF com Aspose.Words. Este guia mostra como
-  converter Word para PDF e definir configurações de fonte personalizadas para resultados
-  confiáveis.
-og_title: Salvar documento como PDF – Tutorial completo de C#
+og_description: Salvar documento como PDF usando Aspose.Words em C#. Este guia mostra
+  como converter Word para PDF enquanto lida com avisos de substituição de fontes.
+og_title: Salvar documento como PDF com Aspose.Words – Guia completo em C#
 tags:
 - Aspose.Words
 - C#
-- PDF
-- Font Management
+- PDF generation
 title: Salvar documento como PDF com Aspose.Words – Guia completo em C#
 url: /pt/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-words-complete-c-guide/
 ---
@@ -30,176 +28,204 @@ url: /pt/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-wo
 
 # Salvar Documento como PDF com Aspose.Words – Guia Completo em C#
 
-Já se perguntou como **salvar documento como PDF** sem lutar contra avisos misteriosos de substituição de fontes? Você não está sozinho. Em muitos projetos precisamos **converter Word para PDF** garantindo que a tipografia exata que o autor escolheu apareça no arquivo final.  
+Já precisou **salvar documento como PDF** mas não tinha certeza de como manter todas as fontes intactas? Você não está sozinho. Em muitos projetos corporativos, os arquivos Word que recebemos referenciam fontes que simplesmente não estão instaladas no servidor, e a conversão as substitui silenciosamente.  
 
-A boa notícia? Com algumas linhas de C# e Aspose.Words você pode fazer ambos — **salvar documento como PDF** e **definir configurações de fonte personalizadas** para que a saída corresponda às suas expectativas. Neste tutorial vamos percorrer cada passo, explicar por que cada parte importa e fornecer um exemplo de código pronto‑para‑executar.
+Neste tutorial, vamos percorrer um cenário de **convert Word to PDF** que não só cria um PDF perfeito, mas também informa exatamente quais fontes foram substituídas. Ao final, você terá um programa C# pronto‑para‑executar, uma compreensão clara do porquê de cada passo e algumas dicas profissionais que você pode inserir em sua própria base de código.
 
-## O que Você Vai Aprender
-
-- Um aplicativo console C# completo e executável que carrega um `.docx`, aplica tratamento de fontes personalizado e **salva o documento como PDF**.  
-- Compreensão do pipeline de **converter Word para PDF** e onde a substituição de fontes pode aparecer.  
-- Dicas para solucionar fontes ausentes, configurar pastas de fontes privadas e capturar avisos programaticamente.  
-
-**Pré‑requisitos** – você precisará de .NET 6+ (ou .NET Framework 4.7.2+), Visual Studio 2022 (ou qualquer IDE de sua preferência) e uma licença ativa do Aspose.Words (a versão de avaliação gratuita funciona para esta demonstração). Nenhuma outra biblioteca de terceiros é necessária.
-
-![Diagram illustrating the flow of loading a Word file, applying custom font settings, and saving as PDF](/images/save-document-as-pdf-flow.png "Save document as PDF flow diagram")
+> **O que você receberá:** uma listagem completa de código, explicação do callback de aviso, saída esperada no console e sugestões para lidar com casos extremos, como pastas de fontes personalizadas.
 
 ---
 
-## Instalar Aspose.Words para .NET
+## Pré-requisitos
 
-Antes de escrever qualquer código, certifique‑se de que o pacote Aspose.Words está referenciado em seu projeto.
+- **.NET 6.0** (ou qualquer versão recente do .NET) – Aspose.Words funciona com .NET Framework, .NET Core e .NET 5/6.
+- **Aspose.Words for .NET** pacote NuGet (`Install-Package Aspose.Words`) – a biblioteca que faz o trabalho pesado.
+- Um arquivo Word que referencia uma fonte ausente (por exemplo, `MissingFont.docx`). Se você não tiver um, crie um documento simples e altere a fonte para algo que você saiba que não está instalado na sua máquina, como “Papyrus”.
+- Uma IDE com a qual você se sinta confortável – Visual Studio, Rider ou até mesmo VS Code serve.
 
-```bash
-dotnet add package Aspose.Words.NET
-```
+É isso. Sem SDKs extras, sem interop COM, apenas um projeto C# limpo.
 
-> **Dica profissional:** Se você estiver usando o Visual Studio, clique com o botão direito no projeto → *Gerenciar Pacotes NuGet* → procure por *Aspose.Words.NET* e instale a versão estável mais recente (a partir de março 2026 é a 24.9).
+---
 
-Instalar o pacote lhe dá acesso às classes `Document`, `LoadOptions`, `FontSettings` e de callback de avisos que precisaremos para **definir configurações de fonte personalizadas** mais adiante.
+## Etapa 1 – Carregar o Arquivo Word (Primeiro Passo em Convert Word to PDF)
 
-## Definir Configurações de Fonte Personalizadas e Manipulador de Avisos
-
-Aspose.Words substituirá automaticamente uma fonte ausente por um fallback genérico, o que costuma estragar o layout. Para manter o controle, criamos um objeto `FontSettings` e anexamos um callback de aviso que expõe quaisquer eventos de **substituição de fonte**.
+A primeira coisa que precisamos é um objeto `Document` que representa o arquivo Word de origem. Aspose.Words lê o `.docx` (ou `.doc`) e constrói um modelo em memória que você pode manipular.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Fonts;
+using Aspose.Words.Warnings;
 
-/// <summary>
-/// Receives warning callbacks from Aspose.Words.
-/// Only prints font‑substitution warnings to the console.
-/// </summary>
-class FontSubstitutionWarningHandler : IWarningCallback
+// Path to the source Word document that may reference missing fonts.
+string sourcePath = @"C:\Docs\MissingFont.docx";
+
+// Create the Document instance – this loads the file into memory.
+Document document = new Document(sourcePath);
+```
+
+> **Por que isso importa:** Carregar o arquivo antecipadamente permite que a biblioteca analise as referências de fontes. Se uma fonte estiver ausente, Aspose.Words emitirá posteriormente um aviso `FontSubstitution`, que podemos capturar.
+
+---
+
+## Etapa 2 – Anexar um Callback de Aviso para Capturar Substituições de Fonte
+
+Aspose.Words emite avisos através de um mecanismo de callback. Ao atribuir um `WarningInfoCollection` a `document.WarningCallback`, coletamos todos os avisos que ocorrem durante o processamento.
+
+```csharp
+// Create a collection that will hold any warnings generated.
+WarningInfoCollection warningCollection = new WarningInfoCollection();
+
+// Register the collection as the document's warning callback.
+document.WarningCallback = warningCollection;
+```
+
+> **Dica profissional:** Você também pode implementar `IWarningCallback` por conta própria se precisar de registro personalizado ou quiser abortar em certos avisos. A abordagem de coleção é rápida e perfeita para a maioria dos cenários.
+
+---
+
+## Etapa 3 – Salvar Documento como PDF – A Operação Principal
+
+Agora instruímos o Aspose.Words a renderizar o conteúdo do Word em um arquivo PDF. Este é o momento em que qualquer fonte ausente é substituída, e o aviso que configuramos anteriormente é disparado.
+
+```csharp
+// Destination PDF path.
+string pdfPath = @"C:\Docs\Result.pdf";
+
+// Perform the conversion. This call may trigger FontSubstitution warnings.
+document.Save(pdfPath);
+```
+
+> **O que acontece nos bastidores?** Aspose.Words percorre cada parágrafo, procura a fonte necessária e, se não a encontrar, recorre a uma substituição padrão (geralmente Arial). O aviso informa exatamente qual fonte estava ausente e qual foi usada em seu lugar.
+
+---
+
+## Etapa 4 – Analisar e Relatar Substituições de Fonte
+
+Após a operação de salvamento, iteramos sobre os avisos coletados. Se algum aviso for do tipo `FontSubstitution`, fazemos cast para `FontSubstitutionWarning` para extrair os nomes da fonte original e da fonte substituída.
+
+```csharp
+// Loop through all captured warnings.
+foreach (WarningInfo warning in warningCollection)
 {
-    public void Process(WarningInfo info)
+    // We're only interested in font substitution warnings.
+    if (warning.Type == WarningType.FontSubstitution)
     {
-        // React only to font‑substitution warnings.
-        if (info.WarningType == WarningType.FontSubstitution)
-        {
-            Console.WriteLine($"[Font substitution] Original: {info.Description}");
-        }
+        var fontWarning = (FontSubstitutionWarning)warning;
+        Console.WriteLine(
+            $"Substituted '{fontWarning.OriginalFontName}' with '{fontWarning.SubstitutedFontName}'. Reason: {fontWarning.Reason}");
     }
 }
-
-// Step 1: Create FontSettings and attach the warning handler.
-FontSettings fontSettings = new FontSettings();
-fontSettings.SetWarningCallback(new FontSubstitutionWarningHandler());
-
-// OPTIONAL: Point Aspose.Words to a folder that contains your custom fonts.
-// This is where the **set custom font settings** magic really shines.
-string customFontFolder = Path.Combine(Environment.CurrentDirectory, "MyFonts");
-if (Directory.Exists(customFontFolder))
-{
-    fontSettings.SetFontsFolder(customFontFolder, /*recursive=*/ true);
-    Console.WriteLine($"Custom font folder registered: {customFontFolder}");
-}
 ```
 
-**Por que isso importa:**  
-- A interface `IWarningCallback` fornece um ponto de inserção no pipeline de conversão. Quando o Aspose.Words não encontra a fonte solicitada, ele dispara um aviso `FontSubstitution`. Ao registrá‑lo, você sabe imediatamente quais fontes precisam ser adicionadas à sua coleção privada.  
-- Registrar uma pasta de fontes privada via `SetFontsFolder` é o núcleo de **definir configurações de fonte personalizadas**. Isso permite que você distribua fontes com sua aplicação, tornando a renderização do PDF independente das fontes instaladas na máquina de destino.
-
-## Carregar o Documento Word com FontSettings
-
-Agora que o ambiente de fontes está pronto, carregamos o `.docx` de origem passando o `FontSettings` através de `LoadOptions`. Isso garante que o documento seja renderizado usando as fontes que acabamos de registrar.
-
-```csharp
-// Step 2: Prepare load options that carry our FontSettings.
-LoadOptions loadOptions = new LoadOptions
-{
-    FontSettings = fontSettings
-};
-
-// Path to the source Word file – replace with your actual file.
-string inputPath = Path.Combine(Environment.CurrentDirectory, "input.docx");
-
-// Load the document; any missing fonts will trigger our warning handler.
-Document document = new Document(inputPath, loadOptions);
-Console.WriteLine($"Loaded '{Path.GetFileName(inputPath)}' successfully.");
-```
-
-**Tratamento de casos extremos:**  
-- Se `input.docx` referenciar uma fonte que não está no sistema **e** não está em `MyFonts`, o manipulador de avisos imprimirá uma mensagem, mas a conversão ainda será bem‑sucedida usando um fallback.  
-- Para documentos grandes, considere definir explicitamente `LoadOptions.LoadFormat = LoadFormat.Docx` para evitar a sobrecarga de detecção automática.
-
-## Salvar Documento como PDF e Capturar Substituições
-
-Com o documento em memória e nossa configuração de fontes personalizada ativa, o passo final é a chamada real de **salvar documento como PDF**. Todos os avisos de substituição de fontes já foram emitidos durante a fase de carregamento, mas você também pode capturar avisos que surgirem durante a gravação.
-
-```csharp
-// Step 3: Define the output PDF path.
-string outputPath = Path.Combine(Environment.CurrentDirectory, "output.pdf");
-
-// Save the document as PDF. Any additional warnings will flow through the same handler.
-document.Save(outputPath, SaveFormat.Pdf);
-Console.WriteLine($"PDF saved to '{outputPath}'.");
-```
-
-Ao executar o programa, o console exibirá linhas como:
+**Saída de console de exemplo**
 
 ```
-[Font substitution] Original: "Calibri" (fallback: "Arial")
-Custom font folder registered: C:\Projects\MyApp\MyFonts
-Loaded 'input.docx' successfully.
-PDF saved to 'C:\Projects\MyApp\output.pdf'.
+Substituted 'Papyrus' with 'Arial Unicode MS'. Reason: Font not found on the system.
 ```
 
-Se você vir mensagens de substituição, basta colocar o arquivo de fonte ausente em `MyFonts` e executar novamente — o PDF agora será renderizado com o tipo de letra pretendido.
+Se o documento de origem usar apenas fontes instaladas, o loop simplesmente termina sem imprimir nada – um sinal claro de que a operação **save document as PDF** foi bem‑sucedida sem substituições.
 
-## Verificar Saída e Lidar com Problemas Comuns
+---
 
-### Verificação rápida
+### Exemplo Completo em Funcionamento
 
-Abra `output.pdf` em qualquer visualizador de PDF. O texto deve ficar idêntico ao arquivo Word original, e as fontes listadas nas propriedades do documento devem corresponder às que você colocou em `MyFonts`.
-
-### E se o PDF ainda mostrar a fonte errada?
-
-1. **Verifique novamente o nome da fonte** – Aspose.Words diferencia maiúsculas de minúsculas. O nome usado no arquivo Word deve coincidir com o nome do arquivo (sem extensão) da fonte que você adicionou.  
-2. **Garanta que o arquivo de fonte seja suportado** – TrueType (`.ttf`) e OpenType (`.otf`) são seguros; PostScript Type 1 pode exigir licenciamento adicional.  
-3. **Limpe o cache de fontes** – Ocasionalmente a biblioteca armazena em cache informações de fontes ausentes. Exclua a pasta `Aspose.Words.Fonts` no diretório temporário do usuário (`%TEMP%`) e execute novamente.
-
-### Cenário avançado: Usando múltiplas pastas de fontes personalizadas
-
-Se seu projeto inclui fontes para diferentes idiomas (por exemplo, latim e cirílico), registre cada pasta:
-
-```csharp
-fontSettings.SetFontsFolder(@"C:\MyApp\Fonts\Latin", true);
-fontSettings.SetFontsFolder(@"C:\MyApp\Fonts\Cyrillic", true);
-```
-
-Aspose.Words as pesquisará na ordem em que foram adicionadas, proporcionando controle granular sobre qual versão da fonte terá prioridade.
-
-## Exemplo Completo Funcional (Pronto para Copiar‑Colar)
-
-Abaixo está o **programa completo** que você pode compilar e executar. Ele demonstra tudo o que discutimos — desde a instalação do pacote NuGet até **salvar o documento como PDF** enquanto **define configurações de fonte personalizadas** e trata avisos.
+Juntando tudo, aqui está o programa completo, pronto‑para‑executar. Cole isso em um novo projeto de console, ajuste os caminhos dos arquivos e pressione **F5**.
 
 ```csharp
 using System;
-using System.IO;
 using Aspose.Words;
-using Aspose.Words.Fonts;
+using Aspose.Words.Warnings;
 
 class Program
 {
     static void Main()
     {
-        // ---------------------------------------------------------
-        // 1️⃣ Set up custom font handling and warning callback.
-        // ---------------------------------------------------------
-        FontSettings fontSettings = new FontSettings();
-        fontSettings.SetWarningCallback(new FontSubstitutionWarningHandler());
+        // 1️⃣ Load the Word document that may reference missing fonts.
+        string sourcePath = @"C:\Docs\MissingFont.docx";
+        Document document = new Document(sourcePath);
 
-        // Register a private font folder (optional but recommended).
-        string customFontFolder = Path.Combine(Environment.CurrentDirectory, "MyFonts");
-        if (Directory.Exists(customFontFolder))
+        // 2️⃣ Prepare a warning collection to capture any font substitution messages.
+        WarningInfoCollection warningCollection = new WarningInfoCollection();
+        document.WarningCallback = warningCollection;
+
+        // 3️⃣ Save the document as PDF – this step triggers the conversion.
+        string pdfPath = @"C:\Docs\Result.pdf";
+        document.Save(pdfPath);
+
+        // 4️⃣ Review the warnings and report any font substitutions.
+        foreach (WarningInfo warning in warningCollection)
         {
-            fontSettings.SetFontsFolder(customFontFolder, true);
-            Console.WriteLine($"Custom font folder registered: {customFontFolder}");
+            if (warning.Type == WarningType.FontSubstitution)
+            {
+                var fontWarning = (FontSubstitutionWarning)warning;
+                Console.WriteLine(
+                    $"Substituted '{fontWarning.OriginalFontName}' with '{fontWarning.SubstitutedFontName}'. Reason: {fontWarning.Reason}");
+            }
         }
 
-        // ---------------------------------------------------------
-        // 2️⃣ Load the Word
+        Console.WriteLine("Conversion finished. Check the PDF and console output for details.");
+    }
+}
+```
+
+> **Resultado esperado:** Um arquivo `Result.pdf` aparece na pasta de destino, e o console imprime quaisquer substituições de fonte que ocorreram. Abra o PDF em um visualizador – você deve ver o mesmo layout do arquivo Word original, exceto pelas fontes ausentes que foram substituídas.
+
+---
+
+## Lidando com Casos Limite e Variações Comuns
+
+### 1. Fornecendo uma Pasta de Fontes Personalizada
+
+Se o seu ambiente de implantação possui uma coleção privada de fontes corporativas, você pode apontar o Aspose.Words para essa pasta:
+
+```csharp
+FontSettings fontSettings = new FontSettings();
+fontSettings.SetFontsFolder(@"C:\MyCompany\Fonts", recursive: true);
+document.FontSettings = fontSettings;
+```
+
+Agora a biblioteca pesquisará `C:\MyCompany\Fonts` antes de recorrer às fontes do sistema, reduzindo a chance de substituições indesejadas.
+
+### 2. Suprimindo Avisos Quando Você Não Precisa Deles
+
+Às vezes você só quer uma conversão silenciosa. Você pode substituir o `WarningInfoCollection` por um callback vazio:
+
+```csharp
+document.WarningCallback = new WarningCallback(); // No‑op implementation
+```
+
+### 3. Convertendo Múltiplos Documentos em Lote
+
+Envolva a lógica em um loop `foreach` sobre um diretório de arquivos `.docx`. Lembre‑se de re‑inicializar o `WarningInfoCollection` para cada documento a fim de manter os avisos isolados.
+
+```csharp
+foreach (var file in Directory.GetFiles(@"C:\Docs\Batch", "*.docx"))
+{
+    Document doc = new Document(file);
+    var warnings = new WarningInfoCollection();
+    doc.WarningCallback = warnings;
+    string outPdf = Path.ChangeExtension(file, ".pdf");
+    doc.Save(outPdf);
+    // Process warnings as shown earlier…
+}
+```
+
+---
+
+## Visão Geral Visual
+
+![Diagrama de fluxo de salvar documento como PDF mostrando carregamento, captura de avisos, salvamento e etapas de relatório](save-document-as-pdf-workflow.png)
+
+*Texto alternativo: Diagrama ilustrando as etapas para salvar documento como PDF enquanto captura avisos de substituição de fontes.*
+
+---
+
+## Conclusão
+
+Acabamos de percorrer um fluxo de trabalho **save document as PDF** que não só converte um arquivo Word em PDF, mas também lhe dá total visibilidade sobre qualquer substituição de fonte que ocorra. Ao conectar um callback de aviso, você transforma uma substituição silenciosa em informação acionável — perfeito para ambientes com alta exigência de conformidade, onde cada glifo importa.
+
+Para recapitular em uma frase: *Carregue o arquivo Word, anexe uma coleção de avisos, salve como PDF e, em seguida, itere os avisos para registrar quaisquer substituições de fontes.*  
+
+Se você está procurando **convert Word to PDF** em outros contextos, considere explorar as opções avançadas do Aspose.Words como `PdfSaveOptions` para compressão de imagens, conformidade PDF/A ou assinaturas digitais
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

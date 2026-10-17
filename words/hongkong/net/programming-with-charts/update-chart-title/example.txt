@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: 使用 Aspose.Words，本教學會建立 Word 文件，插入柱形圖，使用使用者提供的文字更新圖表標題，並根據使用者偏好切換圖例的可見性與覆蓋設定。
+//ExStepSummary:0: 定義使用者提供的圖表標題以及是否顯示圖例。
+//ExStepSummary:1: 建立一個全新的 Word 文件，並使用 DocumentBuilder 來加入內容。
+//ExStepSummary:2: 在文件中插入一個 432 × 252 pt 的柱形圖，並確認該 Shape 確實包含圖表。
+//ExStepSummary:3: 取得 Chart 物件，將其標題文字設定為使用者提供的值，並確保標題顯示。
+//ExStepSummary:4: 設定圖例：若要求則顯示於右側，否則隱藏，且允許圖例覆蓋繪圖區域。
+//ExStepSummary:5: 將修改後的文件儲存至磁碟，檔名為 CustomChart.docx。
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+string chartHeader = "Fiscal Q1 Performance Summary";
+bool displayLegend = false;
+
+//ExStep:1-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:2-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+if (!chartContainer.HasChart)
+    throw new InvalidOperationException("The inserted shape does not contain a chart.");
+
+//ExStep:3-
+Chart chartObj = chartContainer.Chart;
+ChartTitle chartTitle = chartObj.Title;
+chartTitle.Text = chartHeader;
+chartTitle.Show = true;
+
+//ExStep:4-
+ChartLegend chartLegend = chartObj.Legend;
+chartLegend.Position = displayLegend ? LegendPosition.Right : LegendPosition.None;
+chartLegend.Overlay = true;
+
+//ExStep:5-
+wordDoc.Save("CustomChart.docx");
+//ExEnd

@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: يوضح هذا البرنامج التعليمي كيفية إنشاء مستند Word، وإدراج مخطط عمودي، واستبدال بياناته النموذجية، ثم تمكين وتنسيق خطوط الشبكة الرئيسية على المحور X الأساسي.
+//ExStepSummary:0: أنشئ مستند Word جديدًا وDocumentBuilder لتعديله.
+//ExStepSummary:1: أدرج مخططًا عموديًا بحجم 432×252 في المستند واحصل على كائن Chart الخاص به.
+//ExStepSummary:2: أزل السلسلة الافتراضية وأضف سلسلة مخصصة تحتوي على ثلاث مجموعات وقيم.
+//ExStepSummary:3: احصل على مرجع إلى المحور الأفقي (X) الأساسي للمخطط.
+//ExStepSummary:4: فعّل عرض خطوط الشبكة الرئيسية على المحور X الأساسي.
+//ExStepSummary:5: عيّن لون خطوط الشبكة إلى الأزرق وسمكها إلى نقطتين.
+//ExStepSummary:6: احفظ المستند كملف .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document myDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+chart.Series.Add("Demo Series",
+    new[] { "Group One", "Group Two", "Group Three" },
+    new double[] { 10, 20, 30 });
+
+//ExStep:3-
+ChartAxis horizontalAxis = chart.AxisX;
+
+//ExStep:4-
+horizontalAxis.HasMajorGridlines = true;
+
+//ExStep:5-
+horizontalAxis.Format.Stroke.Color = Color.Blue;
+horizontalAxis.Format.Stroke.Weight = 2.0;
+
+//ExStep:6-
+myDoc.Save("PrimaryXGridlines.docx");
+//ExEnd

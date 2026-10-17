@@ -1,25 +1,24 @@
 ---
 category: general
-date: 2026-03-24
-description: Uložte dokument jako PDF pomocí Aspose.Words v C#. Naučte se, jak převést
-  Word na PDF a nastavit vlastní nastavení písma pro dokonalý výstup.
+date: 2026-02-15
+description: Uložte dokument jako PDF pomocí Aspose.Words v C#. Naučte se převádět
+  Word do PDF, zachytávat varování o písmech a zajistit přesný výstup.
 draft: false
 keywords:
 - save document as pdf
 - convert word to pdf
-- set custom font settings
-- Aspose.Words PDF conversion
-- C# document automation
+- word to pdf conversion
+- export word as pdf
+- pdf conversion from word
 language: cs
-og_description: Uložte dokument jako PDF pomocí Aspose.Words. Tento průvodce ukazuje,
-  jak převést Word do PDF a nastavit vlastní nastavení fontů pro spolehlivé výsledky.
-og_title: Uložit dokument jako PDF – kompletní C# tutoriál
+og_description: Uložte dokument jako PDF pomocí Aspose.Words v C#. Tento průvodce
+  ukazuje, jak převést Word do PDF a zároveň řešit varování o náhradě fontů.
+og_title: Uložení dokumentu jako PDF pomocí Aspose.Words – Kompletní průvodce C#
 tags:
 - Aspose.Words
 - C#
-- PDF
-- Font Management
-title: Uložení dokumentu jako PDF s Aspose.Words – Kompletní průvodce C#
+- PDF generation
+title: Uložení dokumentu jako PDF pomocí Aspose.Words – kompletní průvodce C#
 url: /cs/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-words-complete-c-guide/
 ---
 
@@ -29,174 +28,186 @@ url: /cs/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-wo
 
 # Uložení dokumentu jako PDF pomocí Aspose.Words – Kompletní průvodce v C#  
 
-Už jste se někdy zamýšleli, jak **uložit dokument jako PDF** bez boje s tajemnými varováními o nahrazování fontů? Nejste v tom sami. V mnoha projektech potřebujeme **převést Word do PDF**, přičemž musíme zajistit, že přesná typografie, kterou autor zvolil, se objeví ve finálním souboru.  
+Už jste někdy potřebovali **uložit dokument jako PDF**, ale nebyli jste si jisti, jak zachovat všechny písma? Nejste v tom sami. V mnoha podnikových projektech Word soubory, které dostáváme, odkazují na písma, která nejsou nainstalována na serveru, a konverze je tiše nahrazuje.  
 
-Dobrá zpráva? S několika řádky C# a Aspose.Words můžete udělat obojí – **uložit dokument jako PDF** a **nastavit vlastní nastavení fontů**, aby výstup odpovídal vašim očekáváním. V tomto tutoriálu projdeme každý krok, vysvětlíme, proč je jednotlivá část důležitá, a poskytneme vám připravený ukázkový kód.  
+V tomto tutoriálu projdeme scénář **převodu Wordu do PDF**, který nejen vytvoří dokonalé PDF, ale také vám přesně řekne, která písma byla nahrazena. Na konci budete mít připravený spustitelný C# program, jasné pochopení, proč je každý krok důležitý, a několik profesionálních tipů, které můžete vložit do svého kódu.
 
-## Co si z toho odnesete
+> **Co získáte:** kompletní výpis kódu, vysvětlení callbacku pro varování, očekávaný výstup do konzole a návrhy, jak řešit okrajové případy, jako jsou vlastní složky s fonty.
 
-- Kompletní, spustitelná C# konzolová aplikace, která načte soubor `.docx`, použije vlastní zpracování fontů a **uloží dokument jako PDF**.  
-- Porozumění **převodu Word do PDF** pipeline a tomu, kde se může objevit nahrazování fontů.  
-- Tipy pro řešení chybějících fontů, konfiguraci soukromých složek s fonty a programové zachytávání varování.  
+## Požadavky
 
-**Požadavky** – budete potřebovat .NET 6+ (nebo .NET Framework 4.7.2+), Visual Studio 2022 (nebo jakékoli IDE dle preference) a aktivní licenci Aspose.Words (bezplatná zkušební verze stačí pro tuto ukázku). Žádné další knihovny třetích stran nejsou vyžadovány.  
+- **.NET 6.0** (nebo jakákoli aktuální verze .NET) – Aspose.Words funguje s .NET Framework, .NET Core a .NET 5/6.  
+- **Aspose.Words for .NET** NuGet balíček (`Install-Package Aspose.Words`) – knihovna, která provádí těžkou práci.  
+- Word soubor, který odkazuje na chybějící písmo (např. `MissingFont.docx`). Pokud ho nemáte, vytvořte jednoduchý dokument a změňte písmo na něco, co není nainstalováno ve vašem systému, například „Papyrus“.  
+- IDE, ve které se cítíte pohodlně – Visual Studio, Rider nebo i VS Code bude stačit.  
 
-![Diagram znázorňující tok načítání souboru Word, aplikování vlastního nastavení fontů a uložení jako PDF](/images/save-document-as-pdf-flow.png "Diagram toku uložení dokumentu jako PDF")
+To je vše. Žádné další SDK, žádné COM interop, jen čistý C# projekt.
 
----
+## Krok 1 – Načtení Word souboru (První krok při převodu Wordu do PDF)
 
-## Instalace Aspose.Words pro .NET
-
-Než napíšeme jakýkoli kód, ujistěte se, že je v projektu odkaz na balíček Aspose.Words.  
-
-```bash
-dotnet add package Aspose.Words.NET
-```
-
-> **Tip:** Pokud používáte Visual Studio, klikněte pravým tlačítkem na projekt → *Manage NuGet Packages* → vyhledejte *Aspose.Words.NET* a nainstalujte nejnovější stabilní verzi (k březnu 2026 je to 24.9).  
-
-Instalace balíčku vám poskytne přístup ke třídám `Document`, `LoadOptions`, `FontSettings` a ke třídám pro zpětné volání varování, které později potřebujeme k **nastavení vlastního nastavení fontů**.  
-
-## Nastavení vlastního nastavení fontů a obslužného programu varování
-
-Aspose.Words automaticky nahradí chybějící font generickým náhradním fontem, což často zničí rozvržení. Pro zachování kontroly vytvoříme objekt `FontSettings` a připojíme zpětné volání varování, které odhalí jakékoli události **nahrazení fontu**.  
+Prvním, co potřebujeme, je objekt `Document`, který představuje zdrojový Word soubor. Aspose.Words načte `.docx` (nebo `.doc`) a vytvoří model v paměti, který můžete upravovat.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Fonts;
+using Aspose.Words.Warnings;
 
-/// <summary>
-/// Receives warning callbacks from Aspose.Words.
-/// Only prints font‑substitution warnings to the console.
-/// </summary>
-class FontSubstitutionWarningHandler : IWarningCallback
+// Path to the source Word document that may reference missing fonts.
+string sourcePath = @"C:\Docs\MissingFont.docx";
+
+// Create the Document instance – this loads the file into memory.
+Document document = new Document(sourcePath);
+```
+
+> **Proč je to důležité:** Včasné načtení souboru umožní knihovně analyzovat odkazy na písma. Pokud písmo chybí, Aspose.Words později vyvolá varování `FontSubstitution`, které můžeme zachytit.
+
+## Krok 2 – Připojení callbacku pro varování k zachycení nahrazení fontů
+
+Aspose.Words vysílá varování prostřednictvím callback mechanismu. Přiřazením `WarningInfoCollection` k `document.WarningCallback` shromažďujeme každé varování, které nastane během zpracování.
+
+```csharp
+// Create a collection that will hold any warnings generated.
+WarningInfoCollection warningCollection = new WarningInfoCollection();
+
+// Register the collection as the document's warning callback.
+document.WarningCallback = warningCollection;
+```
+
+> **Pro tip:** Můžete také sami implementovat `IWarningCallback`, pokud potřebujete vlastní logování nebo chcete ukončit při určitých varováních. Přístup s kolekcí je rychlý a ideální pro většinu scénářů.
+
+## Krok 3 – Uložení dokumentu jako PDF – Hlavní operace
+
+Nyní řekneme Aspose.Words, aby vykreslil obsah Wordu do PDF souboru. To je okamžik, kdy je jakékoli chybějící písmo nahrazeno a varování, které jsme dříve nastavili, je vyvoláno.
+
+```csharp
+// Destination PDF path.
+string pdfPath = @"C:\Docs\Result.pdf";
+
+// Perform the conversion. This call may trigger FontSubstitution warnings.
+document.Save(pdfPath);
+```
+
+> **Co se děje pod kapotou?** Aspose.Words prochází každý odstavec, vyhledává požadované písmo a pokud jej nenajde, použije výchozí náhradu (obvykle Arial). Varování vám přesně řekne, které písmo chybělo a které bylo použito místo něj.
+
+## Krok 4 – Analýza a reportování nahrazení fontů
+
+Po operaci uložení iterujeme přes shromážděná varování. Pokud je některé varování typu `FontSubstitution`, přetypujeme jej na `FontSubstitutionWarning`, abychom získali původní a nahrazené názvy fontů.
+
+```csharp
+// Loop through all captured warnings.
+foreach (WarningInfo warning in warningCollection)
 {
-    public void Process(WarningInfo info)
+    // We're only interested in font substitution warnings.
+    if (warning.Type == WarningType.FontSubstitution)
     {
-        // React only to font‑substitution warnings.
-        if (info.WarningType == WarningType.FontSubstitution)
-        {
-            Console.WriteLine($"[Font substitution] Original: {info.Description}");
-        }
+        var fontWarning = (FontSubstitutionWarning)warning;
+        Console.WriteLine(
+            $"Substituted '{fontWarning.OriginalFontName}' with '{fontWarning.SubstitutedFontName}'. Reason: {fontWarning.Reason}");
     }
 }
-
-// Step 1: Create FontSettings and attach the warning handler.
-FontSettings fontSettings = new FontSettings();
-fontSettings.SetWarningCallback(new FontSubstitutionWarningHandler());
-
-// OPTIONAL: Point Aspose.Words to a folder that contains your custom fonts.
-// This is where the **set custom font settings** magic really shines.
-string customFontFolder = Path.Combine(Environment.CurrentDirectory, "MyFonts");
-if (Directory.Exists(customFontFolder))
-{
-    fontSettings.SetFontsFolder(customFontFolder, /*recursive=*/ true);
-    Console.WriteLine($"Custom font folder registered: {customFontFolder}");
-}
 ```
 
-**Proč je to důležité:**  
-- Rozhraní `IWarningCallback` vám poskytuje háček do konverzní pipeline. Když Aspose.Words nemůže najít požadovaný font, vyvolá varování `FontSubstitution`. Zalogováním tohoto varování okamžitě zjistíte, které fonty je potřeba přidat do vaší soukromé kolekce.  
-- Registrace soukromé složky s fonty pomocí `SetFontsFolder` je jádrem **nastavení vlastního nastavení fontů**. Umožňuje vám distribuovat fonty s aplikací, což činí vykreslování PDF nezávislé na nainstalovaných fontech cílového počítače.  
-
-## Načtení Word dokumentu s nastavením fontů
-
-Jakmile je prostředí fontů připravené, načteme zdrojový soubor `.docx` a předáme `FontSettings` prostřednictvím `LoadOptions`. Tím zajistíme, že dokument bude vykreslen pomocí právě registrovaných fontů.  
-
-```csharp
-// Step 2: Prepare load options that carry our FontSettings.
-LoadOptions loadOptions = new LoadOptions
-{
-    FontSettings = fontSettings
-};
-
-// Path to the source Word file – replace with your actual file.
-string inputPath = Path.Combine(Environment.CurrentDirectory, "input.docx");
-
-// Load the document; any missing fonts will trigger our warning handler.
-Document document = new Document(inputPath, loadOptions);
-Console.WriteLine($"Loaded '{Path.GetFileName(inputPath)}' successfully.");
-```
-
-**Zvládání okrajových případů:**  
-- Pokud `input.docx` odkazuje na font, který není v systému **a** není v `MyFonts`, obslužný program varování vypíše zprávu, ale konverze stále proběhne s použitím náhradního fontu.  
-- U velkých dokumentů zvažte explicitní nastavení `LoadOptions.LoadFormat = LoadFormat.Docx`, aby se předešlo režii automatické detekce.  
-
-## Uložení dokumentu jako PDF a zachycení náhrad
-
-S dokumentem v paměti a aktivním vlastním nastavením fontů je posledním krokem skutečné volání **uložit dokument jako PDF**. Všechna varování o nahrazení fontů již byla vyvolána během fáze načítání, ale můžete také zachytit varování, která vzniknou během ukládání.  
-
-```csharp
-// Step 3: Define the output PDF path.
-string outputPath = Path.Combine(Environment.CurrentDirectory, "output.pdf");
-
-// Save the document as PDF. Any additional warnings will flow through the same handler.
-document.Save(outputPath, SaveFormat.Pdf);
-Console.WriteLine($"PDF saved to '{outputPath}'.");
-```
-
-Po spuštění programu se v konzoli zobrazí řádky jako:  
+**Ukázkový výstup do konzole**
 
 ```
-[Font substitution] Original: "Calibri" (fallback: "Arial")
-Custom font folder registered: C:\Projects\MyApp\MyFonts
-Loaded 'input.docx' successfully.
-PDF saved to 'C:\Projects\MyApp\output.pdf'.
+Substituted 'Papyrus' with 'Arial Unicode MS'. Reason: Font not found on the system.
 ```
 
-Pokud uvidíte zprávy o náhradě, stačí vložit chybějící soubor fontu do `MyFonts` a program spustit znovu – PDF se nyní vykreslí s požadovaným typem písma.  
+Pokud zdrojový dokument používá pouze nainstalovaná písma, smyčka se jednoduše ukončí bez výpisu – čistý znak, že operace **uložení dokumentu jako PDF** proběhla úspěšně bez nahrazení.
 
-## Ověření výstupu a řešení běžných problémů
+### Kompletní funkční příklad
 
-### Rychlá kontrola
-
-Otevřete `output.pdf` v libovolném PDF prohlížeči. Text by měl vypadat identicky jako v původním souboru Word a fonty uvedené ve vlastnostech dokumentu by měly odpovídat těm, které jste umístili do `MyFonts`.  
-
-### Co když PDF stále zobrazuje špatný font?
-
-1. **Zkontrolujte název fontu** – Aspose.Words rozlišuje velká a malá písmena. Název použitý v souboru Word musí odpovídat názvu souboru (bez přípony) fontu, který jste přidali.  
-2. **Ujistěte se, že soubor fontu je podporován** – TrueType (`.ttf`) a OpenType (`.otf`) jsou bezpečné; PostScript Type 1 může vyžadovat další licencování.  
-3. **Vyčistěte cache fontů** – Občas knihovna ukládá informace o chybějících fontech do cache. Odstraňte složku `Aspose.Words.Fonts` v dočasném adresáři uživatele (`%TEMP%`) a spusťte znovu.  
-
-### Pokročilý scénář: Použití více vlastních složek s fonty
-
-Pokud váš projekt obsahuje fonty pro různé jazyky (např. latinku a cyrilici), zaregistrujte každou složku:  
-
-```csharp
-fontSettings.SetFontsFolder(@"C:\MyApp\Fonts\Latin", true);
-fontSettings.SetFontsFolder(@"C:\MyApp\Fonts\Cyrillic", true);
-```
-
-## Kompletní funkční příklad (připravený ke kopírování)
-
-Níže je **kompletní program**, který můžete zkompilovat a spustit. Ukazuje vše, o čem jsme mluvili – od instalace NuGet balíčku po **uložení dokumentu jako PDF** při **nastavení vlastního nastavení fontů** a zpracování varování.  
+Spojením všech částí získáte kompletní, připravený k spuštění program. Vložte jej do nového konzolového projektu, upravte cesty k souborům a stiskněte **F5**.
 
 ```csharp
 using System;
-using System.IO;
 using Aspose.Words;
-using Aspose.Words.Fonts;
+using Aspose.Words.Warnings;
 
 class Program
 {
     static void Main()
     {
-        // ---------------------------------------------------------
-        // 1️⃣ Set up custom font handling and warning callback.
-        // ---------------------------------------------------------
-        FontSettings fontSettings = new FontSettings();
-        fontSettings.SetWarningCallback(new FontSubstitutionWarningHandler());
+        // 1️⃣ Load the Word document that may reference missing fonts.
+        string sourcePath = @"C:\Docs\MissingFont.docx";
+        Document document = new Document(sourcePath);
 
-        // Register a private font folder (optional but recommended).
-        string customFontFolder = Path.Combine(Environment.CurrentDirectory, "MyFonts");
-        if (Directory.Exists(customFontFolder))
+        // 2️⃣ Prepare a warning collection to capture any font substitution messages.
+        WarningInfoCollection warningCollection = new WarningInfoCollection();
+        document.WarningCallback = warningCollection;
+
+        // 3️⃣ Save the document as PDF – this step triggers the conversion.
+        string pdfPath = @"C:\Docs\Result.pdf";
+        document.Save(pdfPath);
+
+        // 4️⃣ Review the warnings and report any font substitutions.
+        foreach (WarningInfo warning in warningCollection)
         {
-            fontSettings.SetFontsFolder(customFontFolder, true);
-            Console.WriteLine($"Custom font folder registered: {customFontFolder}");
+            if (warning.Type == WarningType.FontSubstitution)
+            {
+                var fontWarning = (FontSubstitutionWarning)warning;
+                Console.WriteLine(
+                    $"Substituted '{fontWarning.OriginalFontName}' with '{fontWarning.SubstitutedFontName}'. Reason: {fontWarning.Reason}");
+            }
         }
 
-        // ---------------------------------------------------------
-        // 2️⃣ Load the Word
+        Console.WriteLine("Conversion finished. Check the PDF and console output for details.");
+    }
+}
+```
+
+> **Očekávaný výsledek:** Soubor `Result.pdf` se objeví v cílové složce a konzole vypíše všechna nahrazení fontů, která nastala. Otevřete PDF v prohlížeči – měli byste vidět stejné rozložení jako v původním Word souboru, kromě chybějících fontů, které byly nahrazeny.
+
+## Řešení okrajových případů a běžných variant
+
+### 1. Poskytnutí vlastní složky s fonty
+
+Pokud má vaše nasazovací prostředí soukromou kolekci firemních fontů, můžete nasměrovat Aspose.Words na tuto složku:
+
+```csharp
+FontSettings fontSettings = new FontSettings();
+fontSettings.SetFontsFolder(@"C:\MyCompany\Fonts", recursive: true);
+document.FontSettings = fontSettings;
+```
+
+Knihovna nyní bude hledat `C:\MyCompany\Fonts` před tím, než přejde na systémové fonty, čímž se sníží pravděpodobnost nechtěných nahrazení.
+
+### 2. Potlačení varování, když je nepotřebujete
+
+Někdy chcete jen tichou konverzi. Můžete nahradit `WarningInfoCollection` prázdným callbackem:
+
+```csharp
+document.WarningCallback = new WarningCallback(); // No‑op implementation
+```
+
+### 3. Hromadná konverze více dokumentů
+
+Zabalte logiku do smyčky `foreach` přes adresář souborů `.docx`. Nezapomeňte pro každý dokument znovu inicializovat `WarningInfoCollection`, aby byla varování oddělena.
+
+```csharp
+foreach (var file in Directory.GetFiles(@"C:\Docs\Batch", "*.docx"))
+{
+    Document doc = new Document(file);
+    var warnings = new WarningInfoCollection();
+    doc.WarningCallback = warnings;
+    string outPdf = Path.ChangeExtension(file, ".pdf");
+    doc.Save(outPdf);
+    // Process warnings as shown earlier…
+}
+```
+
+## Vizualní přehled
+
+![Diagram ukazující kroky pro uložení dokumentu jako PDF s načítáním, zachycením varování, uložením a reportováním](save-document-as-pdf-workflow.png)
+
+*Alt text: Diagram ilustrující kroky pro uložení dokumentu jako PDF při zachycení varování o nahrazení fontů.*
+
+## Závěr
+
+Právě jsme prošli workflow **uložení dokumentu jako PDF**, který nejen převádí Word soubor do PDF, ale také vám poskytuje úplnou přehlednost o všech nahrazených fontech. Připojením callbacku pro varování proměníte tichý fallback na použitelné informace – ideální pro prostředí s vysokými požadavky na soulad, kde záleží na každém glyfu.
+
+Shrnutí v jedné větě: *Načtěte Word soubor, připojte kolekci varování, uložte jako PDF a poté projděte varování, abyste zaznamenali všechna nahrazení fontů.*  
+
+Pokud hledáte **převod Wordu do PDF** v jiných kontextech, zvažte prozkoumání pokročilých možností Aspose.Words, jako jsou `PdfSaveOptions` pro kompresi obrázků, soulad s PDF/A nebo digitální podpisy.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

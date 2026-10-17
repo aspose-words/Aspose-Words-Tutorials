@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: บทแนะนำนี้แสดงวิธีสร้างเอกสาร Word ใหม่, เพิ่มย่อหน้า 3 ย่อหน้า, ค้นหาย่อหน้าที่กำหนด, แนบคอมเมนต์พร้อมข้อมูลผู้เขียนไปยังย่อหน้านั้น, และบันทึกผลลัพธ์เป็นไฟล์ DOCX ด้วย Aspose.Words.
+//ExStepSummary:0: สร้างอินสแตนซ์ของ Document ใหม่และ DocumentBuilder เพื่อเริ่มสร้างไฟล์ Word.
+//ExStepSummary:1: ใช้ DocumentBuilder.Writeln เพื่อเพิ่มข้อความสามย่อหน้าแยกกันลงในเอกสาร.
+//ExStepSummary:2: ดึงย่อหน้าที่สองอย่างปลอดภัย, หากเอกสารมีน้อยกว่าย่อหน้า 2 จะใช้ย่อหน้าแรกแทน.
+//ExStepSummary:3: สร้าง Comment พร้อมรายละเอียดผู้เขียน, ตั้งค่าข้อความของมัน, และแนบไปยังย่อหน้าที่เลือก.
+//ExStepSummary:4: บันทึกเอกสารที่แก้ไขเป็นไฟล์ DOCX ชื่อ 'sample.docx' ในโฟลเดอร์ปัจจุบัน.
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder builderObj = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+builderObj.Writeln("Introductory line.");
+builderObj.Writeln("Middle line.");
+builderObj.Writeln("Concluding line.");
+
+//ExStep:2-
+Paragraph? chosenParagraph = null;
+ParagraphCollection? paraList = wordDoc.FirstSection?.Body?.Paragraphs;
+if (paraList != null && paraList.Count > 1)
+{
+    chosenParagraph = paraList[1];
+}
+else if (paraList != null && paraList.Count > 0)
+{
+    chosenParagraph = paraList[0];
+}
+
+//ExStep:3-
+if (chosenParagraph != null)
+{
+    Comment note = new Comment(wordDoc, "Jordan", "JH", DateTime.Now);
+    note.SetText("Please examine this section.");
+    chosenParagraph.AppendChild(note);
+}
+
+//ExStep:4-
+wordDoc.Save("sample.docx");
+//ExEnd

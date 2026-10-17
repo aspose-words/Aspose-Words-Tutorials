@@ -1,24 +1,23 @@
 ---
 category: general
-date: 2026-03-24
-description: บันทึกเอกสารเป็น PDF ด้วย Aspose.Words ใน C#. เรียนรู้วิธีแปลง Word เป็น
-  PDF และตั้งค่าฟอนต์แบบกำหนดเองเพื่อผลลัพธ์ที่สมบูรณ์แบบ.
+date: 2026-02-15
+description: บันทึกเอกสารเป็น PDF ด้วย Aspose.Words ใน C# เรียนรู้การแปลง Word เป็น
+  PDF, จับคำเตือนฟอนต์, และรับประกันผลลัพธ์ที่แม่นยำ.
 draft: false
 keywords:
 - save document as pdf
 - convert word to pdf
-- set custom font settings
-- Aspose.Words PDF conversion
-- C# document automation
+- word to pdf conversion
+- export word as pdf
+- pdf conversion from word
 language: th
-og_description: บันทึกเอกสารเป็น PDF ด้วย Aspose.Words คู่มือนี้แสดงวิธีแปลง Word
-  เป็น PDF และตั้งค่าฟอนต์แบบกำหนดเองเพื่อผลลัพธ์ที่เชื่อถือได้
-og_title: บันทึกเอกสารเป็น PDF – คอร์สเต็ม C#
+og_description: บันทึกเอกสารเป็น PDF ด้วย Aspose.Words ใน C# คู่มือนี้แสดงวิธีแปลง
+  Word เป็น PDF พร้อมจัดการคำเตือนการแทนที่ฟอนต์
+og_title: บันทึกเอกสารเป็น PDF ด้วย Aspose.Words – คู่มือ C# ฉบับสมบูรณ์
 tags:
 - Aspose.Words
 - C#
-- PDF
-- Font Management
+- PDF generation
 title: บันทึกเอกสารเป็น PDF ด้วย Aspose.Words – คู่มือ C# ฉบับสมบูรณ์
 url: /th/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-words-complete-c-guide/
 ---
@@ -29,186 +28,188 @@ url: /th/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-wo
 
 # บันทึกเอกสารเป็น PDF ด้วย Aspose.Words – คู่มือ C# ฉบับสมบูรณ์
 
-เคยสงสัยไหมว่า **บันทึกเอกสารเป็น PDF** อย่างไรโดยไม่ต้องเจอคำเตือนการแทนที่ฟอนต์ที่ลึกลับ? คุณไม่ได้เป็นคนเดียว ในหลายโครงการเราต้อง **แปลง Word เป็น PDF** พร้อมรับประกันว่าฟอนต์ที่ผู้เขียนเลือกใช้จะปรากฏในไฟล์สุดท้ายอย่างตรงตามที่ต้องการ  
+เคยต้องการ **บันทึกเอกสารเป็น PDF** แต่ไม่แน่ใจว่าจะทำให้ฟอนต์ทั้งหมดคงเดิมได้อย่างไรหรือไม่? คุณไม่ได้เป็นคนเดียว ในหลายโครงการระดับองค์กร ไฟล์ Word ที่เรารับมามักอ้างอิงฟอนต์ที่ไม่ได้ติดตั้งบนเซิร์ฟเวอร์ และการแปลงจะเปลี่ยนฟอนต์เหล่านั้นโดยไม่แจ้งเตือน  
 
-ข่าวดีคือ? ด้วยเพียงไม่กี่บรรทัดของ C# และ Aspose.Words คุณสามารถทำได้ทั้งสองอย่าง—**บันทึกเอกสารเป็น PDF** และ **ตั้งค่าฟอนต์แบบกำหนดเอง** เพื่อให้ผลลัพธ์ตรงกับความคาดหวังของคุณ ในบทเรียนนี้เราจะเดินผ่านทุกขั้นตอน อธิบายว่าทำไมแต่ละส่วนถึงสำคัญ และให้ตัวอย่างโค้ดที่พร้อมรัน
+ในบทแนะนำนี้ เราจะพาคุณผ่านสถานการณ์ **convert Word to PDF** ที่ไม่เพียงสร้าง PDF ที่สมบูรณ์แบบเท่านั้น แต่ยังบอกคุณอย่างชัดเจนว่าฟอนต์ใดบ้างที่ถูกแทนที่ ในตอนท้ายคุณจะได้โปรแกรม C# ที่พร้อมรัน ความเข้าใจที่ชัดเจนว่าทำไมแต่ละขั้นตอนจึงสำคัญ และเคล็ดลับระดับมืออาชีพที่คุณสามารถนำไปใช้ในโค้ดของคุณได้
 
-## สิ่งที่คุณจะได้เรียนรู้
-
-- แอปคอนโซล C# ที่สมบูรณ์และสามารถรันได้ ซึ่งโหลดไฟล์ `.docx` ปรับการจัดการฟอนต์แบบกำหนดเอง และ **บันทึกเอกสารเป็น PDF**  
-- ความเข้าใจในกระบวนการ **แปลง Word เป็น PDF** และจุดที่การแทนที่ฟอนต์อาจแทรกซึมเข้ามา  
-- เคล็ดลับการแก้ไขปัญหาฟอนต์ที่หายไป การกำหนดโฟลเดอร์ฟอนต์ส่วนตัว และการจับคำเตือนแบบโปรแกรมเมติก  
-
-**ข้อกำหนดเบื้องต้น** – คุณต้องมี .NET 6+ (หรือ .NET Framework 4.7.2+), Visual Studio 2022 (หรือ IDE ที่คุณชอบ) และไลเซนส์ Aspose.Words ที่ใช้งานได้ (รุ่นทดลองฟรีก็ใช้ได้สำหรับสาธิตนี้) ไม่ต้องใช้ไลบรารีของบุคคลที่สามอื่นใด
-
-![แผนภาพแสดงกระบวนการโหลดไฟล์ Word, ตั้งค่าฟอนต์แบบกำหนดเอง, และบันทึกเป็น PDF](/images/save-document-as-pdf-flow.png "แผนภาพกระบวนการบันทึกเอกสารเป็น PDF")
+> **สิ่งที่คุณจะได้:** รายการโค้ดเต็ม, คำอธิบายของ warning callback, ผลลัพธ์คอนโซลที่คาดหวัง, และข้อเสนอแนะสำหรับการจัดการกรณีขอบเช่นโฟลเดอร์ฟอนต์แบบกำหนดเอง.
 
 ---
 
-## ติดตั้ง Aspose.Words สำหรับ .NET
+## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเขียนโค้ดใด ๆ ให้ตรวจสอบว่าแพคเกจ Aspose.Words ถูกอ้างอิงในโปรเจกต์ของคุณแล้ว
+- **.NET 6.0** (หรือเวอร์ชัน .NET ล่าสุดใดก็ได้) – Aspose.Words ทำงานร่วมกับ .NET Framework, .NET Core, และ .NET 5/6.
+- **Aspose.Words for .NET** NuGet package (`Install-Package Aspose.Words`) – ไลบรารีที่ทำงานหนักให้คุณ
+- ไฟล์ Word ที่อ้างอิงฟอนต์ที่หายไป (เช่น `MissingFont.docx`). หากคุณไม่มีไฟล์ดังกล่าว ให้สร้างเอกสารง่าย ๆ แล้วเปลี่ยนฟอนต์เป็นสิ่งที่คุณรู้ว่าไม่ได้ติดตั้งบนเครื่องของคุณ เช่น “Papyrus”.
+- IDE ที่คุณถนัด – Visual Studio, Rider, หรือแม้แต่ VS Code ก็ใช้ได้
 
-```bash
-dotnet add package Aspose.Words.NET
-```
+เท่านี้เอง ไม่ต้อง SDK เพิ่มเติม ไม่ต้อง COM interop เพียงโครงการ C# ที่สะอาด
 
-> **เคล็ดลับระดับมืออาชีพ:** หากคุณใช้ Visual Studio ให้คลิกขวาที่โปรเจกต์ → *Manage NuGet Packages* → ค้นหา *Aspose.Words.NET* แล้วติดตั้งเวอร์ชันเสถียรล่าสุด (ณ เดือนมีนาคม 2026 เวอร์ชันคือ 24.9)
+## ขั้นตอนที่ 1 – โหลดไฟล์ Word (การเคลื่อนที่แรกใน Convert Word to PDF)
 
-การติดตั้งแพคเกจจะทำให้คุณเข้าถึงคลาส `Document`, `LoadOptions`, `FontSettings` และคลาส callback สำหรับคำเตือนที่เราจะใช้เพื่อ **ตั้งค่าฟอนต์แบบกำหนดเอง** ในขั้นตอนต่อไป
-
----
-
-## ตั้งค่าฟอนต์แบบกำหนดเองและตัวจัดการคำเตือน
-
-Aspose.Words จะทำการแทนที่ฟอนต์ที่หายไปโดยอัตโนมัติด้วยฟอนต์สำรองทั่วไป ซึ่งมักทำให้รูปแบบเสียหาย เพื่อให้คุณควบคุมได้ เราจะสร้างอ็อบเจ็กต์ `FontSettings` และผูก callback สำหรับคำเตือนที่แสดงเหตุการณ์ **การแทนที่ฟอนต์** ใด ๆ
+สิ่งแรกที่เราต้องการคืออ็อบเจกต์ `Document` ที่แทนไฟล์ Word ต้นฉบับ Aspose.Words จะอ่านไฟล์ `.docx` (หรือ `.doc`) และสร้างโมเดลในหน่วยความจำที่คุณสามารถจัดการได้
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Fonts;
+using Aspose.Words.Warnings;
 
-/// <summary>
-/// Receives warning callbacks from Aspose.Words.
-/// Only prints font‑substitution warnings to the console.
-/// </summary>
-class FontSubstitutionWarningHandler : IWarningCallback
+// Path to the source Word document that may reference missing fonts.
+string sourcePath = @"C:\Docs\MissingFont.docx";
+
+// Create the Document instance – this loads the file into memory.
+Document document = new Document(sourcePath);
+```
+
+> **ทำไมสิ่งนี้ถึงสำคัญ:** การโหลดไฟล์ตั้งแต่ต้นทำให้ไลบรารีสามารถวิเคราะห์การอ้างอิงฟอนต์ได้ หากฟอนต์หายไป Aspose.Words จะส่งคำเตือน `FontSubstitution` ในภายหลัง ซึ่งเราสามารถดักจับได้
+
+## ขั้นตอนที่ 2 – แนบ Warning Callback เพื่อดักจับการแทนที่ฟอนต์
+
+Aspose.Words ส่งคำเตือนผ่านกลไก callback โดยการกำหนด `WarningInfoCollection` ให้กับ `document.WarningCallback` เราจะเก็บคำเตือนทุกอย่างที่เกิดขึ้นระหว่างการประมวลผล
+
+```csharp
+// Create a collection that will hold any warnings generated.
+WarningInfoCollection warningCollection = new WarningInfoCollection();
+
+// Register the collection as the document's warning callback.
+document.WarningCallback = warningCollection;
+```
+
+> **เคล็ดลับระดับมืออาชีพ:** คุณสามารถทำการ implement `IWarningCallback` เองได้หากต้องการบันทึกแบบกำหนดเองหรืออยากยกเลิกเมื่อเจอคำเตือนบางประเภท วิธีการใช้ collection นี้รวดเร็วและเหมาะกับสถานการณ์ส่วนใหญ่
+
+## ขั้นตอนที่ 3 – บันทึกเอกสารเป็น PDF – การดำเนินการหลัก
+
+ตอนนี้เราบอก Aspose.Words ให้เรนเดอร์เนื้อหา Word เป็นไฟล์ PDF นี่คือช่วงเวลาที่ฟอนต์ที่หายไปจะถูกแทนที่และคำเตือนที่เราตั้งค่าไว้ก่อนหน้านี้จะถูกส่งออก
+
+```csharp
+// Destination PDF path.
+string pdfPath = @"C:\Docs\Result.pdf";
+
+// Perform the conversion. This call may trigger FontSubstitution warnings.
+document.Save(pdfPath);
+```
+
+> **อะไรเกิดขึ้นภายใน?** Aspose.Words จะวนผ่านแต่ละย่อหน้า ค้นหาฟอนต์ที่ต้องการ และหากไม่พบ จะใช้การแทนที่ค่าเริ่มต้น (โดยทั่วไปคือ Arial) คำเตือนจะบอกคุณอย่างชัดเจนว่าฟอนต์ใดหายไปและใช้ฟอนต์ใดแทน
+
+## ขั้นตอนที่ 4 – วิเคราะห์และรายงานการแทนที่ฟอนต์
+
+หลังจากการบันทึก เราจะวนลูปผ่านคำเตือนที่เก็บไว้ หากมีคำเตือนประเภท `FontSubstitution` เราจะทำการ cast เป็น `FontSubstitutionWarning` เพื่อดึงชื่อฟอนต์ต้นฉบับและฟอนต์ที่แทนที่
+
+```csharp
+// Loop through all captured warnings.
+foreach (WarningInfo warning in warningCollection)
 {
-    public void Process(WarningInfo info)
+    // We're only interested in font substitution warnings.
+    if (warning.Type == WarningType.FontSubstitution)
     {
-        // React only to font‑substitution warnings.
-        if (info.WarningType == WarningType.FontSubstitution)
-        {
-            Console.WriteLine($"[Font substitution] Original: {info.Description}");
-        }
+        var fontWarning = (FontSubstitutionWarning)warning;
+        Console.WriteLine(
+            $"Substituted '{fontWarning.OriginalFontName}' with '{fontWarning.SubstitutedFontName}'. Reason: {fontWarning.Reason}");
     }
 }
-
-// Step 1: Create FontSettings and attach the warning handler.
-FontSettings fontSettings = new FontSettings();
-fontSettings.SetWarningCallback(new FontSubstitutionWarningHandler());
-
-// OPTIONAL: Point Aspose.Words to a folder that contains your custom fonts.
-// This is where the **set custom font settings** magic really shines.
-string customFontFolder = Path.Combine(Environment.CurrentDirectory, "MyFonts");
-if (Directory.Exists(customFontFolder))
-{
-    fontSettings.SetFontsFolder(customFontFolder, /*recursive=*/ true);
-    Console.WriteLine($"Custom font folder registered: {customFontFolder}");
-}
 ```
 
-**ทำไมจึงสำคัญ:**  
-- อินเทอร์เฟซ `IWarningCallback` ให้จุดเชื่อมต่อเข้าสู่กระบวนการแปลง เมื่อ Aspose.Words ไม่พบฟอนต์ที่ร้องขอ จะส่งคำเตือน `FontSubstitution` การบันทึกคำเตือนนี้ทำให้คุณทราบทันทีว่าฟอนต์ใดต้องเพิ่มเข้าไปในคอลเลกชันส่วนตัวของคุณ  
-- การลงทะเบียนโฟลเดอร์ฟอนต์ส่วนตัวผ่าน `SetFontsFolder` คือหัวใจของ **ตั้งค่าฟอนต์แบบกำหนดเอง** ทำให้คุณสามารถจัดส่งฟอนต์พร้อมแอปพลิเคชัน ทำให้การเรนเดอร์ PDF ไม่ขึ้นกับฟอนต์ที่ติดตั้งบนเครื่องเป้าหมาย
-
----
-
-## โหลดเอกสาร Word พร้อม FontSettings
-
-เมื่อสภาพแวดล้อมฟอนต์พร้อมแล้ว เราจะโหลดไฟล์ `.docx` ต้นฉบับโดยส่ง `FontSettings` ผ่าน `LoadOptions` เพื่อให้แน่ใจว่าเอกสารถูกเรนเดอร์ด้วยฟอนต์ที่เราลงทะเบียนไว้
-
-```csharp
-// Step 2: Prepare load options that carry our FontSettings.
-LoadOptions loadOptions = new LoadOptions
-{
-    FontSettings = fontSettings
-};
-
-// Path to the source Word file – replace with your actual file.
-string inputPath = Path.Combine(Environment.CurrentDirectory, "input.docx");
-
-// Load the document; any missing fonts will trigger our warning handler.
-Document document = new Document(inputPath, loadOptions);
-Console.WriteLine($"Loaded '{Path.GetFileName(inputPath)}' successfully.");
-```
-
-**การจัดการกรณีขอบ:**  
-- หาก `input.docx` อ้างอิงฟอนต์ที่ไม่มีในระบบ **และ** ไม่อยู่ใน `MyFonts` ตัวจัดการคำเตือนจะพิมพ์ข้อความ แต่การแปลงยังคงสำเร็จโดยใช้ฟอนต์สำรอง  
-- สำหรับเอกสารขนาดใหญ่ ควรตั้งค่า `LoadOptions.LoadFormat = LoadFormat.Docx` อย่างชัดเจนเพื่อหลีกเลี่ยงค่าใช้จ่ายจากการตรวจจับอัตโนมัติ
-
----
-
-## บันทึกเอกสารเป็น PDF และจับการแทนที่ฟอนต์
-
-เมื่อเอกสารถูกโหลดเข้าสู่หน่วยความจำและการตั้งค่าฟอนต์แบบกำหนดเองของเราทำงานอยู่ ขั้นตอนสุดท้ายคือการเรียก **บันทึกเอกสารเป็น PDF** ทั้งหมดของคำเตือนการแทนที่ฟอนต์จะถูกส่งออกในระหว่างขั้นตอนโหลดแล้ว แต่คุณยังสามารถจับคำเตือนที่เกิดขึ้นระหว่างการบันทึกได้อีกด้วย
-
-```csharp
-// Step 3: Define the output PDF path.
-string outputPath = Path.Combine(Environment.CurrentDirectory, "output.pdf");
-
-// Save the document as PDF. Any additional warnings will flow through the same handler.
-document.Save(outputPath, SaveFormat.Pdf);
-Console.WriteLine($"PDF saved to '{outputPath}'.");
-```
-
-เมื่อคุณรันโปรแกรม คอนโซลจะแสดงบรรทัดเช่น:
+**ตัวอย่างผลลัพธ์คอนโซล**
 
 ```
-[Font substitution] Original: "Calibri" (fallback: "Arial")
-Custom font folder registered: C:\Projects\MyApp\MyFonts
-Loaded 'input.docx' successfully.
-PDF saved to 'C:\Projects\MyApp\output.pdf'.
+Substituted 'Papyrus' with 'Arial Unicode MS'. Reason: Font not found on the system.
 ```
 
-หากเห็นข้อความการแทนที่ เพียงวางไฟล์ฟอนต์ที่หายไปลงใน `MyFonts` แล้วรันใหม่ – PDF จะเรนเดอร์ด้วยฟอนต์ที่ต้องการ
+หากเอกสารต้นฉบับใช้ฟอนต์ที่ติดตั้งอยู่แล้ว ลูปจะจบโดยไม่พิมพ์อะไรออกมา – สัญญาณที่ชัดเจนว่าการ **save document as PDF** สำเร็จโดยไม่มีการแทนที่ฟอนต์
 
----
+### ตัวอย่างการทำงานเต็มรูปแบบ
 
-## ตรวจสอบผลลัพธ์และจัดการกับปัญหาที่พบบ่อย
-
-### ตรวจสอบอย่างรวดเร็ว
-
-เปิด `output.pdf` ด้วยโปรแกรมดู PDF ใด ๆ ข้อความควรดูเหมือนกับไฟล์ Word ต้นฉบับ และฟอนต์ที่แสดงในคุณสมบัติของเอกสารควรตรงกับฟอนต์ที่คุณวางไว้ใน `MyFonts`
-
-### PDF ยังแสดงฟอนต์ผิดอยู่หรือไม่?
-
-1. **ตรวจสอบชื่อฟอนต์อีกครั้ง** – Aspose.Words แยกแยะตัวพิมพ์ใหญ่‑เล็ก ชื่อที่ใช้ในไฟล์ Word ต้องตรงกับชื่อไฟล์ (ไม่มีส่วนขยาย) ของฟอนต์ที่คุณเพิ่ม  
-2. **ตรวจสอบว่าฟอนต์รองรับ** – TrueType (`.ttf`) และ OpenType (`.otf`) ปลอดภัย; PostScript Type 1 อาจต้องมีไลเซนส์เพิ่มเติม  
-3. **ล้างแคชฟอนต์** – บางครั้งไลบรารีจะเก็บข้อมูลฟอนต์ที่หายไปไว้ในแคช ลบโฟลเดอร์ `Aspose.Words.Fonts` ในไดเรกทอรีชั่วคราวของผู้ใช้ (`%TEMP%`) แล้วรันใหม่
-
-### สถานการณ์ขั้นสูง: ใช้หลายโฟลเดอร์ฟอนต์แบบกำหนดเอง
-
-หากโปรเจกต์ของคุณรวมฟอนต์สำหรับหลายภาษา (เช่น ละตินและซีริลลิก) ให้ลงทะเบียนแต่ละโฟลเดอร์:
-
-```csharp
-fontSettings.SetFontsFolder(@"C:\MyApp\Fonts\Latin", true);
-fontSettings.SetFontsFolder(@"C:\MyApp\Fonts\Cyrillic", true);
-```
-
-Aspose.Words จะค้นหาโฟลเดอร์ตามลำดับที่เพิ่มเข้าไป ทำให้คุณควบคุมได้ว่าเวอร์ชันฟอนต์ใดจะชนะ
-
----
-
-## ตัวอย่างทำงานเต็มรูปแบบ (พร้อมคัดลอก‑วาง)
-
-ด้านล่างเป็น **โปรแกรมเต็ม** ที่คุณสามารถคอมไพล์และรันได้ แสดงทุกอย่างที่เราได้พูดถึง—from การติดตั้งแพคเกจ NuGet ไปจนถึง **บันทึกเอกสารเป็น PDF** พร้อม **ตั้งค่าฟอนต์แบบกำหนดเอง** และการจัดการคำเตือน
+เมื่อนำทั้งหมดมารวมกัน นี่คือโปรแกรมที่สมบูรณ์พร้อมรัน ให้คัดลอกโค้ดนี้ไปยังโปรเจกต์คอนโซลใหม่ ปรับเส้นทางไฟล์ แล้วกด **F5**
 
 ```csharp
 using System;
-using System.IO;
 using Aspose.Words;
-using Aspose.Words.Fonts;
+using Aspose.Words.Warnings;
 
 class Program
 {
     static void Main()
     {
-        // ---------------------------------------------------------
-        // 1️⃣ Set up custom font handling and warning callback.
-        // ---------------------------------------------------------
-        FontSettings fontSettings = new FontSettings();
-        fontSettings.SetWarningCallback(new FontSubstitutionWarningHandler());
+        // 1️⃣ Load the Word document that may reference missing fonts.
+        string sourcePath = @"C:\Docs\MissingFont.docx";
+        Document document = new Document(sourcePath);
 
-        // Register a private font folder (optional but recommended).
-        string customFontFolder = Path.Combine(Environment.CurrentDirectory, "MyFonts");
-        if (Directory.Exists(customFontFolder))
+        // 2️⃣ Prepare a warning collection to capture any font substitution messages.
+        WarningInfoCollection warningCollection = new WarningInfoCollection();
+        document.WarningCallback = warningCollection;
+
+        // 3️⃣ Save the document as PDF – this step triggers the conversion.
+        string pdfPath = @"C:\Docs\Result.pdf";
+        document.Save(pdfPath);
+
+        // 4️⃣ Review the warnings and report any font substitutions.
+        foreach (WarningInfo warning in warningCollection)
         {
-            fontSettings.SetFontsFolder(customFontFolder, true);
-            Console.WriteLine($"Custom font folder registered: {customFontFolder}");
+            if (warning.Type == WarningType.FontSubstitution)
+            {
+                var fontWarning = (FontSubstitutionWarning)warning;
+                Console.WriteLine(
+                    $"Substituted '{fontWarning.OriginalFontName}' with '{fontWarning.SubstitutedFontName}'. Reason: {fontWarning.Reason}");
+            }
         }
 
-        // ---------------------------------------------------------
-        // 2️⃣ Load the Word
+        Console.WriteLine("Conversion finished. Check the PDF and console output for details.");
+    }
+}
+```
+
+> **ผลลัพธ์ที่คาดหวัง:** ไฟล์ `Result.pdf` จะปรากฏในโฟลเดอร์เป้าหมาย และคอนโซลจะแสดงการแทนที่ฟอนต์ใด ๆ ที่เกิดขึ้น เปิด PDF ด้วยโปรแกรมดู – คุณควรเห็นเลย์เอาต์เดียวกับไฟล์ Word ต้นฉบับ ยกเว้นฟอนต์ที่หายไปที่ถูกแทนที่
+
+## การจัดการกรณีขอบและความแตกต่างทั่วไป
+
+### 1. การระบุโฟลเดอร์ฟอนต์แบบกำหนดเอง
+
+หากสภาพแวดล้อมการปรับใช้ของคุณมีคอลเลกชันฟอนต์ขององค์กรส่วนตัว คุณสามารถชี้ Aspose.Words ไปยังโฟลเดอร์นั้นได้:
+
+```csharp
+FontSettings fontSettings = new FontSettings();
+fontSettings.SetFontsFolder(@"C:\MyCompany\Fonts", recursive: true);
+document.FontSettings = fontSettings;
+```
+
+ตอนนี้ไลบรารีจะค้นหา `C:\MyCompany\Fonts` ก่อนที่จะใช้ฟอนต์ระบบ ลดโอกาสการแทนที่ที่ไม่ต้องการ
+
+### 2. การปิดการแจ้งเตือนเมื่อคุณไม่ต้องการ
+
+บางครั้งคุณอาจต้องการการแปลงแบบเงียบ ๆ คุณสามารถแทนที่ `WarningInfoCollection` ด้วย callback ที่ว่างเปล่าได้:
+
+```csharp
+document.WarningCallback = new WarningCallback(); // No‑op implementation
+```
+
+### 3. การแปลงหลายเอกสารในชุด
+
+ใส่ตรรกะไว้ในลูป `foreach` ที่วนผ่านไดเรกทอรีของไฟล์ `.docx` อย่าลืมรี‑initialize `WarningInfoCollection` สำหรับแต่ละเอกสารเพื่อให้คำเตือนแยกจากกัน
+
+```csharp
+foreach (var file in Directory.GetFiles(@"C:\Docs\Batch", "*.docx"))
+{
+    Document doc = new Document(file);
+    var warnings = new WarningInfoCollection();
+    doc.WarningCallback = warnings;
+    string outPdf = Path.ChangeExtension(file, ".pdf");
+    doc.Save(outPdf);
+    // Process warnings as shown earlier…
+}
+```
+
+## ภาพรวมเชิงภาพ
+
+![ไดอะแกรมการทำงานบันทึกเอกสารเป็น PDF แสดงขั้นตอนการโหลด การดักจับคำเตือน การบันทึก และการรายงาน](save-document-as-pdf-workflow.png)
+
+*ข้อความแทนภาพ: ไดอะแกรมที่แสดงขั้นตอนการบันทึกเอกสารเป็น PDF พร้อมการดักจับคำเตือนการแทนที่ฟอนต์*
+
+## สรุป
+
+เราได้อธิบายขั้นตอน **save document as PDF** ที่ไม่เพียงแปลงไฟล์ Word เป็น PDF เท่านั้น แต่ยังให้คุณมองเห็นการแทนที่ฟอนต์ใด ๆ ที่เกิดขึ้นอย่างครบถ้วน ด้วยการเชื่อมต่อ warning callback คุณจะเปลี่ยนการแทนที่แบบเงียบเป็นข้อมูลที่นำไปใช้ได้—เหมาะสำหรับสภาพแวดล้อมที่ต้องปฏิบัติตามข้อกำหนดอย่างเคร่งครัดที่ทุก glyph มีความสำคัญ  
+
+สรุปสั้น ๆ ในหนึ่งประโยค: *โหลดไฟล์ Word, แนบ warning collection, บันทึกเป็น PDF, แล้ววนลูปคำเตือนเพื่อบันทึกการแทนที่ฟอนต์ใด ๆ*  
+
+หากคุณต้องการ **convert Word to PDF** ในบริบทอื่น ๆ ให้พิจารณาสำรวจตัวเลือกขั้นสูงของ Aspose.Words เช่น `PdfSaveOptions` สำหรับการบีบอัดภาพ, การปฏิบัติตาม PDF/A, หรือการลงลายเซ็นดิจิทัล
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

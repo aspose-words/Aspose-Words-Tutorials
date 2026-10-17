@@ -1,26 +1,26 @@
 ---
 category: general
-date: 2026-03-24
+date: 2026-02-15
 description: Enregistrez le document au format PDF avec Aspose.Words en C#. Apprenez
-  à convertir Word en PDF et à définir des paramètres de police personnalisés pour
-  un rendu parfait.
+  à convertir Word en PDF, à capturer les avertissements de police et à garantir une
+  sortie précise.
 draft: false
 keywords:
 - save document as pdf
 - convert word to pdf
-- set custom font settings
-- Aspose.Words PDF conversion
-- C# document automation
+- word to pdf conversion
+- export word as pdf
+- pdf conversion from word
 language: fr
-og_description: Enregistrez le document au format PDF avec Aspose.Words. Ce guide
-  montre comment convertir Word en PDF et définir des paramètres de police personnalisés
-  pour des résultats fiables.
-og_title: Enregistrer le document en PDF – Tutoriel complet C#
+og_description: Enregistrez le document au format PDF à l'aide d'Aspose.Words en C#.
+  Ce guide montre comment convertir Word en PDF tout en gérant les avertissements
+  de substitution de police.
+og_title: Enregistrer le document au format PDF avec Aspose.Words – Guide complet
+  C#
 tags:
 - Aspose.Words
 - C#
-- PDF
-- Font Management
+- PDF generation
 title: Enregistrer le document au format PDF avec Aspose.Words – Guide complet C#
 url: /fr/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-words-complete-c-guide/
 ---
@@ -29,178 +29,190 @@ url: /fr/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-wo
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Enregistrer un document au format PDF avec Aspose.Words – Guide complet C#  
+# Enregistrer le document au format PDF avec Aspose.Words – Guide complet C#
 
-Vous êtes‑vous déjà demandé comment **enregistrer un document au format PDF** sans lutter contre d'étranges avertissements de substitution de police ? Vous n'êtes pas seul. Dans de nombreux projets, nous devons **convertir Word en PDF** tout en garantissant que la typographie exacte choisie par l'auteur apparaît dans le fichier final.  
+Vous avez déjà eu besoin de **save document as PDF** mais vous n'étiez pas sûr de comment conserver chaque police intacte ? Vous n'êtes pas seul. Dans de nombreux projets d'entreprise, les fichiers Word que nous recevons font référence à des polices qui ne sont tout simplement pas installées sur le serveur, et la conversion les remplace silencieusement.  
 
-Bonne nouvelle ? Avec quelques lignes de C# et Aspose.Words, vous pouvez faire les deux — **enregistrer un document au format PDF** et **définir des paramètres de police personnalisés** afin que la sortie corresponde à vos attentes. Dans ce tutoriel, nous passerons en revue chaque étape, expliquerons pourquoi chaque élément est important, et vous fournirons un exemple de code prêt à l'exécution.
+Dans ce tutoriel, nous parcourrons un scénario de **convert Word to PDF** qui non seulement crée un PDF parfait mais indique également exactement quelles polices ont été substituées. À la fin, vous disposerez d'un programme C# prêt à l'exécution, d'une compréhension claire de pourquoi chaque étape est importante, et de quelques astuces professionnelles que vous pourrez intégrer à votre propre base de code.
 
-## Ce que vous retirerez de ce tutoriel
-
-- Une application console C# complète et exécutable qui charge un `.docx`, applique une gestion personnalisée des polices, et **enregistre le document au format PDF**.  
-- Compréhension du pipeline de **conversion de Word en PDF** et des points où la substitution de police peut s'infiltrer.  
-- Conseils pour dépanner les polices manquantes, configurer des dossiers de polices privés, et capturer les avertissements par programme.  
-
-**Prérequis** – vous aurez besoin de .NET 6+ (ou .NET Framework 4.7.2+), Visual Studio 2022 (ou tout IDE de votre choix), et d'une licence active Aspose.Words (l'essai gratuit fonctionne pour cette démonstration). Aucune autre bibliothèque tierce n'est requise.
-
-![Diagram illustrating the flow of loading a Word file, applying custom font settings, and saving as PDF](/images/save-document-as-pdf-flow.png "Save document as PDF flow diagram")
+> **Ce que vous obtiendrez :** une liste complète du code, une explication du rappel d'avertissement, la sortie console attendue, et des suggestions pour gérer les cas limites comme les dossiers de polices personnalisées.
 
 ---
 
-## Installer Aspose.Words pour .NET
+## Prérequis
 
-Avant d'écrire du code, assurez‑vous que le package Aspose.Words est référencé dans votre projet.
+- **.NET 6.0** (ou toute version récente de .NET) – Aspose.Words fonctionne avec .NET Framework, .NET Core et .NET 5/6.
+- **Aspose.Words for .NET** package NuGet (`Install-Package Aspose.Words`) – la bibliothèque qui fait le gros du travail.
+- Un fichier Word qui référence une police manquante (par ex., `MissingFont.docx`). Si vous n'en avez pas, créez un document simple et changez la police pour quelque chose que vous savez ne pas être installé sur votre machine, comme « Papyrus ».
+- Un IDE avec lequel vous êtes à l'aise – Visual Studio, Rider ou même VS Code conviendra.
 
-```bash
-dotnet add package Aspose.Words.NET
-```
+C’est tout. Aucun SDK supplémentaire, aucune interop COM, juste un projet C# propre.
 
-> **Astuce :** Si vous utilisez Visual Studio, faites un clic droit sur le projet → *Manage NuGet Packages* → recherchez *Aspose.Words.NET* et installez la dernière version stable (en mars 2026, c’est la 24.9).
+## Étape 1 – Charger le fichier Word (Première étape dans Convert Word to PDF)
 
-L'installation du package vous donne accès aux classes `Document`, `LoadOptions`, `FontSettings` et aux callbacks d'avertissement dont nous aurons besoin pour **définir des paramètres de police personnalisés** plus tard.
-
-## Définir des paramètres de police personnalisés et le gestionnaire d'avertissements
-
-Aspose.Words substituera automatiquement une police manquante par une police générique de secours, ce qui ruine souvent la mise en page. Pour garder le contrôle, nous créons un objet `FontSettings` et attachons un callback d'avertissement qui signale tout événement de **substitution de police**.
+La première chose dont nous avons besoin est un objet `Document` qui représente le fichier Word source. Aspose.Words lit le `.docx` (ou `.doc`) et construit un modèle en mémoire que vous pouvez manipuler.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Fonts;
+using Aspose.Words.Warnings;
 
-/// <summary>
-/// Receives warning callbacks from Aspose.Words.
-/// Only prints font‑substitution warnings to the console.
-/// </summary>
-class FontSubstitutionWarningHandler : IWarningCallback
+// Path to the source Word document that may reference missing fonts.
+string sourcePath = @"C:\Docs\MissingFont.docx";
+
+// Create the Document instance – this loads the file into memory.
+Document document = new Document(sourcePath);
+```
+
+> **Pourquoi c’est important :** Charger le fichier tôt permet à la bibliothèque d'analyser les références de police. Si une police est manquante, Aspose.Words déclenchera plus tard un avertissement `FontSubstitution`, que nous pouvons capturer.
+
+## Étape 2 – Attacher un rappel d’avertissement pour capturer les substitutions de police
+
+Aspose.Words émet des avertissements via un mécanisme de rappel. En assignant un `WarningInfoCollection` à `document.WarningCallback`, nous collectons chaque avertissement qui survient pendant le traitement.
+
+```csharp
+// Create a collection that will hold any warnings generated.
+WarningInfoCollection warningCollection = new WarningInfoCollection();
+
+// Register the collection as the document's warning callback.
+document.WarningCallback = warningCollection;
+```
+
+> **Astuce pro :** Vous pouvez également implémenter vous‑même `IWarningCallback` si vous avez besoin d’un journal personnalisé ou si vous souhaitez interrompre sur certains avertissements. L’approche par collection est rapide et parfaite pour la plupart des scénarios.
+
+## Étape 3 – Enregistrer le document au format PDF – L’opération principale
+
+Nous demandons maintenant à Aspose.Words de rendre le contenu Word dans un fichier PDF. C’est le moment où toute police manquante est remplacée, et l’avertissement que nous avons configuré précédemment est déclenché.
+
+```csharp
+// Destination PDF path.
+string pdfPath = @"C:\Docs\Result.pdf";
+
+// Perform the conversion. This call may trigger FontSubstitution warnings.
+document.Save(pdfPath);
+```
+
+> **Que se passe-t-il en coulisse ?** Aspose.Words parcourt chaque paragraphe, recherche la police requise, et si elle ne la trouve pas, il revient à une substitution par défaut (généralement Arial). L’avertissement vous indique exactement quelle police était manquante et laquelle a été utilisée à la place.
+
+## Étape 4 – Analyser et rapporter les substitutions de police
+
+Après l’opération d’enregistrement, nous parcourons les avertissements collectés. Si un avertissement est de type `FontSubstitution`, nous le convertissons en `FontSubstitutionWarning` pour extraire les noms de police d’origine et substituée.
+
+```csharp
+// Loop through all captured warnings.
+foreach (WarningInfo warning in warningCollection)
 {
-    public void Process(WarningInfo info)
+    // We're only interested in font substitution warnings.
+    if (warning.Type == WarningType.FontSubstitution)
     {
-        // React only to font‑substitution warnings.
-        if (info.WarningType == WarningType.FontSubstitution)
-        {
-            Console.WriteLine($"[Font substitution] Original: {info.Description}");
-        }
+        var fontWarning = (FontSubstitutionWarning)warning;
+        Console.WriteLine(
+            $"Substituted '{fontWarning.OriginalFontName}' with '{fontWarning.SubstitutedFontName}'. Reason: {fontWarning.Reason}");
     }
 }
-
-// Step 1: Create FontSettings and attach the warning handler.
-FontSettings fontSettings = new FontSettings();
-fontSettings.SetWarningCallback(new FontSubstitutionWarningHandler());
-
-// OPTIONAL: Point Aspose.Words to a folder that contains your custom fonts.
-// This is where the **set custom font settings** magic really shines.
-string customFontFolder = Path.Combine(Environment.CurrentDirectory, "MyFonts");
-if (Directory.Exists(customFontFolder))
-{
-    fontSettings.SetFontsFolder(customFontFolder, /*recursive=*/ true);
-    Console.WriteLine($"Custom font folder registered: {customFontFolder}");
-}
 ```
 
-**Why this matters:**  
-- L'interface `IWarningCallback` vous fournit un point d'accroche dans le pipeline de conversion. Lorsque Aspose.Words ne trouve pas une police demandée, il déclenche un avertissement `FontSubstitution`. En le consignant, vous savez immédiatement quelles polices doivent être ajoutées à votre collection privée.  
-- Enregistrer un dossier de polices privées via `SetFontsFolder` est l'essentiel de **définir des paramètres de police personnalisés**. Cela vous permet de livrer des polices avec votre application, rendant le rendu PDF indépendant des polices installées sur la machine cible.
-
-## Charger le document Word avec FontSettings
-
-Maintenant que l'environnement de police est prêt, nous chargeons le `.docx` source en passant les `FontSettings` via `LoadOptions`. Cela garantit que le document est rendu en utilisant les polices que nous venons d'enregistrer.
-
-```csharp
-// Step 2: Prepare load options that carry our FontSettings.
-LoadOptions loadOptions = new LoadOptions
-{
-    FontSettings = fontSettings
-};
-
-// Path to the source Word file – replace with your actual file.
-string inputPath = Path.Combine(Environment.CurrentDirectory, "input.docx");
-
-// Load the document; any missing fonts will trigger our warning handler.
-Document document = new Document(inputPath, loadOptions);
-Console.WriteLine($"Loaded '{Path.GetFileName(inputPath)}' successfully.");
-```
-
-**Edge case handling:**  
-- Si `input.docx` référence une police qui n'est pas dans le système **et** qui n'est pas dans `MyFonts`, le gestionnaire d'avertissements affichera un message, mais la conversion réussira tout de même en utilisant une police de secours.  
-- Pour les documents volumineux, envisagez d'utiliser explicitement `LoadOptions.LoadFormat = LoadFormat.Docx` afin d'éviter le surcoût de la détection automatique.
-
-## Enregistrer le document au format PDF et capturer les substitutions
-
-Avec le document en mémoire et notre configuration de police personnalisée active, l'étape finale est l'appel réel à **enregistrer le document au format PDF**. Tous les avertissements de substitution de police ont déjà été émis pendant la phase de chargement, mais vous pouvez également capturer les avertissements qui surviennent lors de l'enregistrement.
-
-```csharp
-// Step 3: Define the output PDF path.
-string outputPath = Path.Combine(Environment.CurrentDirectory, "output.pdf");
-
-// Save the document as PDF. Any additional warnings will flow through the same handler.
-document.Save(outputPath, SaveFormat.Pdf);
-Console.WriteLine($"PDF saved to '{outputPath}'.");
-```
-
-Lorsque vous exécutez le programme, la console affichera des lignes comme :
+**Exemple de sortie console**
 
 ```
-[Font substitution] Original: "Calibri" (fallback: "Arial")
-Custom font folder registered: C:\Projects\MyApp\MyFonts
-Loaded 'input.docx' successfully.
-PDF saved to 'C:\Projects\MyApp\output.pdf'.
+Substituted 'Papyrus' with 'Arial Unicode MS'. Reason: Font not found on the system.
 ```
 
-Si vous voyez des messages de substitution, il suffit de placer le fichier de police manquant dans `MyFonts` et de relancer — le PDF rendra maintenant la police prévue.
+Si le document source n’utilise que des polices installées, la boucle se termine simplement sans rien afficher – un signe clair que l’opération **save document as PDF** a réussi sans substitutions.
 
-## Vérifier la sortie et gérer les problèmes courants
+### Exemple complet fonctionnel
 
-### Vérification rapide
-
-Ouvrez `output.pdf` dans n'importe quel lecteur PDF. Le texte doit être identique au fichier Word original, et les polices listées dans les propriétés du document doivent correspondre à celles que vous avez placées dans `MyFonts`.
-
-### Que faire si le PDF montre toujours la mauvaise police ?
-
-1. **Vérifiez à nouveau le nom de la police** – Aspose.Words est sensible à la casse. Le nom utilisé dans le fichier Word doit correspondre au nom de fichier (sans extension) de la police que vous avez ajoutée.  
-2. **Assurez‑vous que le fichier de police est pris en charge** – TrueType (`.ttf`) et OpenType (`.otf`) sont sûrs ; PostScript Type 1 peut nécessiter une licence supplémentaire.  
-3. **Videz le cache des polices** – Parfois la bibliothèque met en cache les informations de police manquante. Supprimez le dossier `Aspose.Words.Fonts` dans le répertoire temporaire de l'utilisateur (`%TEMP%`) et relancez.
-
-### Scénario avancé : Utiliser plusieurs dossiers de polices personnalisés
-
-Si votre projet regroupe des polices pour différentes langues (par ex., latin et cyrillique), enregistrez chaque dossier :
-
-```csharp
-fontSettings.SetFontsFolder(@"C:\MyApp\Fonts\Latin", true);
-fontSettings.SetFontsFolder(@"C:\MyApp\Fonts\Cyrillic", true);
-```
-
-Aspose.Words les recherchera dans l'ordre d'ajout, vous offrant un contrôle précis sur la version de police qui l'emportera.
-
-## Exemple complet fonctionnel (prêt à copier‑coller)
-
-Voici le **programme complet** que vous pouvez compiler et exécuter. Il montre tout ce dont nous avons parlé — de l'installation du package NuGet à **l'enregistrement du document au format PDF** tout en **définissant des paramètres de police personnalisés** et en gérant les avertissements.
+En rassemblant le tout, voici le programme complet, prêt à l’exécution. Collez-le dans un nouveau projet console, ajustez les chemins de fichiers, et appuyez sur **F5**.
 
 ```csharp
 using System;
-using System.IO;
 using Aspose.Words;
-using Aspose.Words.Fonts;
+using Aspose.Words.Warnings;
 
 class Program
 {
     static void Main()
     {
-        // ---------------------------------------------------------
-        // 1️⃣ Set up custom font handling and warning callback.
-        // ---------------------------------------------------------
-        FontSettings fontSettings = new FontSettings();
-        fontSettings.SetWarningCallback(new FontSubstitutionWarningHandler());
+        // 1️⃣ Load the Word document that may reference missing fonts.
+        string sourcePath = @"C:\Docs\MissingFont.docx";
+        Document document = new Document(sourcePath);
 
-        // Register a private font folder (optional but recommended).
-        string customFontFolder = Path.Combine(Environment.CurrentDirectory, "MyFonts");
-        if (Directory.Exists(customFontFolder))
+        // 2️⃣ Prepare a warning collection to capture any font substitution messages.
+        WarningInfoCollection warningCollection = new WarningInfoCollection();
+        document.WarningCallback = warningCollection;
+
+        // 3️⃣ Save the document as PDF – this step triggers the conversion.
+        string pdfPath = @"C:\Docs\Result.pdf";
+        document.Save(pdfPath);
+
+        // 4️⃣ Review the warnings and report any font substitutions.
+        foreach (WarningInfo warning in warningCollection)
         {
-            fontSettings.SetFontsFolder(customFontFolder, true);
-            Console.WriteLine($"Custom font folder registered: {customFontFolder}");
+            if (warning.Type == WarningType.FontSubstitution)
+            {
+                var fontWarning = (FontSubstitutionWarning)warning;
+                Console.WriteLine(
+                    $"Substituted '{fontWarning.OriginalFontName}' with '{fontWarning.SubstitutedFontName}'. Reason: {fontWarning.Reason}");
+            }
         }
 
-        // ---------------------------------------------------------
-        // 2️⃣ Load the Word
+        Console.WriteLine("Conversion finished. Check the PDF and console output for details.");
+    }
+}
+```
+
+> **Résultat attendu :** Un fichier `Result.pdf` apparaît dans le dossier cible, et la console affiche toutes les substitutions de police qui se sont produites. Ouvrez le PDF dans un visualiseur – vous devriez voir la même mise en page que le fichier Word original, sauf pour les polices manquantes qui ont été remplacées.
+
+## Gestion des cas limites et des variations courantes
+
+### 1. Fournir un dossier de polices personnalisé
+
+Si votre environnement de déploiement possède une collection privée de polices d’entreprise, vous pouvez pointer Aspose.Words vers ce dossier :
+
+```csharp
+FontSettings fontSettings = new FontSettings();
+fontSettings.SetFontsFolder(@"C:\MyCompany\Fonts", recursive: true);
+document.FontSettings = fontSettings;
+```
+
+La bibliothèque recherchera maintenant `C:\MyCompany\Fonts` avant de revenir aux polices système, réduisant ainsi le risque de substitutions indésirables.
+
+### 2. Supprimer les avertissements lorsque vous n’en avez pas besoin
+
+Parfois vous voulez simplement une conversion silencieuse. Vous pouvez remplacer le `WarningInfoCollection` par un rappel vide :
+
+```csharp
+document.WarningCallback = new WarningCallback(); // No‑op implementation
+```
+
+### 3. Convertir plusieurs documents en lot
+
+Enveloppez la logique dans une boucle `foreach` sur un répertoire de fichiers `.docx`. N’oubliez pas de ré‑initialiser le `WarningInfoCollection` pour chaque document afin de garder les avertissements isolés.
+
+```csharp
+foreach (var file in Directory.GetFiles(@"C:\Docs\Batch", "*.docx"))
+{
+    Document doc = new Document(file);
+    var warnings = new WarningInfoCollection();
+    doc.WarningCallback = warnings;
+    string outPdf = Path.ChangeExtension(file, ".pdf");
+    doc.Save(outPdf);
+    // Process warnings as shown earlier…
+}
+```
+
+## Vue d’ensemble visuelle
+
+![Save document as PDF workflow diagram showing loading, warning capture, saving, and reporting steps](save-document-as-pdf-workflow.png)
+
+*Texte alternatif : Diagramme illustrant les étapes pour enregistrer un document au format PDF tout en capturant les avertissements de substitution de police.*
+
+## Conclusion
+
+Nous venons de parcourir un workflow **save document as PDF** qui non seulement convertit un fichier Word en PDF mais vous donne également une visibilité complète sur toute substitution de police qui se produit. En attachant un rappel d’avertissement, vous transformez un remplacement silencieux en information exploitable — parfait pour les environnements fortement soumis à la conformité où chaque glyphe compte.
+
+Pour résumer en une phrase : *Chargez le fichier Word, attachez une collection d’avertissements, enregistrez en PDF, puis parcourez les avertissements pour consigner toute substitution de police.*  
+
+Si vous cherchez à **convert Word to PDF** dans d’autres contextes, envisagez d’explorer les options avancées d’Aspose.Words comme `PdfSaveOptions` pour la compression d’images, la conformité PDF/A ou les signatures numériques.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

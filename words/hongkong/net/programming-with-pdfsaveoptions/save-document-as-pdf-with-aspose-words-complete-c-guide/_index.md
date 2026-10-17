@@ -1,25 +1,26 @@
 ---
 category: general
-date: 2026-03-24
-description: 使用 Aspose.Words 在 C# 中將文件另存為 PDF。了解如何將 Word 轉換為 PDF，並設定自訂字型以獲得完美的輸出。
+date: 2026-02-15
+description: 使用 Aspose.Words 於 C# 將文件另存為 PDF。學習如何將 Word 轉換為 PDF、捕捉字型警告，並確保輸出正確。
 draft: false
 keywords:
 - save document as pdf
 - convert word to pdf
-- set custom font settings
-- Aspose.Words PDF conversion
-- C# document automation
+- word to pdf conversion
+- export word as pdf
+- pdf conversion from word
 language: zh-hant
-og_description: 使用 Aspose.Words 將文件另存為 PDF。本指南說明如何將 Word 轉換為 PDF，並設定自訂字型以確保可靠的結果。
-og_title: 將文件另存為 PDF – 完整 C# 教學
+og_description: 使用 Aspose.Words 在 C# 中將文件儲存為 PDF。本指南示範如何在處理字型替換警告的同時，將 Word 轉換為 PDF。
+og_title: 使用 Aspose.Words 將文件儲存為 PDF – 完整 C# 指南
 tags:
 - Aspose.Words
 - C#
-- PDF
-- Font Management
-title: 使用 Aspose.Words 將文件儲存為 PDF – 完整 C# 指南
+- PDF generation
+title: 使用 Aspose.Words 將文件另存為 PDF – 完整 C# 指南
 url: /zh-hant/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-words-complete-c-guide/
 ---
+
+
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
@@ -27,186 +28,188 @@ url: /zh-hant/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspo
 
 # 使用 Aspose.Words 將文件另存為 PDF – 完整 C# 指南
 
-有沒有想過如何 **將文件另存為 PDF**，卻不必與神祕的字型替換警告鬥爭？你並不孤單。在許多專案中，我們需要 **將 Word 轉換為 PDF**，同時確保作者選擇的精確排版在最終檔案中得以保留。  
+曾經需要 **save document as PDF** 但不確定如何保持每個字型完整嗎？你並不孤單。在許多企業專案中，我們收到的 Word 檔案會引用根本未安裝在伺服器上的字型，轉換時會悄悄將它們替換掉。  
 
-好消息是？只要幾行 C# 程式碼加上 Aspose.Words，你就能同時做到 **將文件另存為 PDF** 與 **設定自訂字型**，讓輸出符合你的預期。在本教學中，我們將逐步說明每個步驟、解釋每個環節的重要性，並提供一個可直接執行的程式範例。
+在本教學中，我們將逐步說明一個 **convert Word to PDF** 的情境，不僅能產生完美的 PDF，還會精確告知哪些字型被替換。完成後，你將擁有一個可直接執行的 C# 程式、對每個步驟重要性的清晰理解，以及一些可直接套用到自己程式碼庫的專業提示。
 
-## 你將學會的內容
-
-- 一個完整且可執行的 C# 主控台應用程式，能載入 `.docx`、套用自訂字型處理，並 **將文件另存為 PDF**。  
-- 了解 **將 Word 轉換為 PDF** 的流程，以及字型替換可能出現的環節。  
-- 提供排除缺字型問題、設定私有字型資料夾，以及以程式方式捕捉警告的技巧。  
-
-**先決條件** – 需要 .NET 6+（或 .NET Framework 4.7.2+）、Visual Studio 2022（或任何你喜歡的 IDE），以及有效的 Aspose.Words 授權（免費試用版即可執行本示範）。不需要其他第三方函式庫。
-
-![說明載入 Word 檔案、套用自訂字型設定並另存為 PDF 流程的圖示](/images/save-document-as-pdf-flow.png "Save document as PDF flow diagram")
+> **What you’ll get:** 完整的程式碼清單、警告回呼的說明、預期的主控台輸出，以及處理如自訂字型資料夾等邊緣案例的建議。
 
 ---
 
-## 安裝 Aspose.Words for .NET
+## 先決條件
 
-在撰寫任何程式碼之前，請確保你的專案已參考 Aspose.Words 套件。
+- **.NET 6.0**（或任何較新的 .NET 版本）– Aspose.Words 支援 .NET Framework、.NET Core 以及 .NET 5/6。
+- **Aspose.Words for .NET** NuGet 套件（`Install-Package Aspose.Words`）– 負責繁重工作的函式庫。
+- 參考缺失字型的 Word 檔案（例如 `MissingFont.docx`）。如果沒有，可建立一個簡單文件，將字型改為你知道未安裝於機器上的字型，例如 “Papyrus”。  
+- 你熟悉的 IDE – Visual Studio、Rider，或甚至 VS Code 都可以。
 
-```bash
-dotnet add package Aspose.Words.NET
-```
+就是這樣。無需額外 SDK、無 COM interop，只要一個乾淨的 C# 專案。
 
-> **小技巧：** 若你使用 Visual Studio，右鍵點擊專案 → *管理 NuGet 套件* → 搜尋 *Aspose.Words.NET* 並安裝最新的穩定版（截至 2026 年 3 月為 24.9）。
+## 步驟 1 – 載入 Word 檔案（Convert Word to PDF 的第一步）
 
-安裝套件後，你即可使用 `Document`、`LoadOptions`、`FontSettings` 以及警告回呼類別，這些都是稍後 **設定自訂字型** 所必需的。
-
----
-
-## 設定自訂字型與警告處理程式
-
-Aspose.Words 會自動將缺少的字型替換為通用備用字型，這常常會破壞版面配置。為了掌控全局，我們建立 `FontSettings` 物件，並附加一個警告回呼，以顯示任何 **字型替換** 事件。
+我們首先需要一個代表來源 Word 檔案的 `Document` 物件。Aspose.Words 會讀取 `.docx`（或 `.doc`），並建立可供操作的記憶體模型。
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Fonts;
+using Aspose.Words.Warnings;
 
-/// <summary>
-/// Receives warning callbacks from Aspose.Words.
-/// Only prints font‑substitution warnings to the console.
-/// </summary>
-class FontSubstitutionWarningHandler : IWarningCallback
+// Path to the source Word document that may reference missing fonts.
+string sourcePath = @"C:\Docs\MissingFont.docx";
+
+// Create the Document instance – this loads the file into memory.
+Document document = new Document(sourcePath);
+```
+
+> **Why this matters:** 及早載入檔案讓函式庫能解析字型參考。若字型缺失，Aspose.Words 之後會拋出 `FontSubstitution` 警告，我們可以捕捉它。
+
+## 步驟 2 – 附加警告回呼以捕捉字型替換
+
+Aspose.Words 透過回呼機制發出警告。將 `WarningInfoCollection` 指派給 `document.WarningCallback` 後，我們即可收集處理過程中發生的所有警告。
+
+```csharp
+// Create a collection that will hold any warnings generated.
+WarningInfoCollection warningCollection = new WarningInfoCollection();
+
+// Register the collection as the document's warning callback.
+document.WarningCallback = warningCollection;
+```
+
+> **Pro tip:** 若需要自訂日誌或在特定警告時中止，你也可以自行實作 `IWarningCallback`。使用集合的方式快速且適用於大多數情境。
+
+## 步驟 3 – 將文件另存為 PDF – 核心操作
+
+現在我們指示 Aspose.Words 將 Word 內容渲染成 PDF 檔案。這正是任何缺失字型被替換的時刻，同時先前設定的警告也會被觸發。
+
+```csharp
+// Destination PDF path.
+string pdfPath = @"C:\Docs\Result.pdf";
+
+// Perform the conversion. This call may trigger FontSubstitution warnings.
+document.Save(pdfPath);
+```
+
+> **What happens under the hood?** Aspose.Words 會逐段檢查，尋找所需字型；若找不到，則回退至預設替代字型（通常為 Arial）。警告會精確告知缺失的字型以及改用的字型。
+
+## 步驟 4 – 分析與報告字型替換
+
+儲存操作完成後，我們會遍歷收集到的警告。若警告類型為 `FontSubstitution`，則將其轉型為 `FontSubstitutionWarning`，以取得原始字型與替代字型的名稱。
+
+```csharp
+// Loop through all captured warnings.
+foreach (WarningInfo warning in warningCollection)
 {
-    public void Process(WarningInfo info)
+    // We're only interested in font substitution warnings.
+    if (warning.Type == WarningType.FontSubstitution)
     {
-        // React only to font‑substitution warnings.
-        if (info.WarningType == WarningType.FontSubstitution)
-        {
-            Console.WriteLine($"[Font substitution] Original: {info.Description}");
-        }
+        var fontWarning = (FontSubstitutionWarning)warning;
+        Console.WriteLine(
+            $"Substituted '{fontWarning.OriginalFontName}' with '{fontWarning.SubstitutedFontName}'. Reason: {fontWarning.Reason}");
     }
 }
-
-// Step 1: Create FontSettings and attach the warning handler.
-FontSettings fontSettings = new FontSettings();
-fontSettings.SetWarningCallback(new FontSubstitutionWarningHandler());
-
-// OPTIONAL: Point Aspose.Words to a folder that contains your custom fonts.
-// This is where the **set custom font settings** magic really shines.
-string customFontFolder = Path.Combine(Environment.CurrentDirectory, "MyFonts");
-if (Directory.Exists(customFontFolder))
-{
-    fontSettings.SetFontsFolder(customFontFolder, /*recursive=*/ true);
-    Console.WriteLine($"Custom font folder registered: {customFontFolder}");
-}
 ```
 
-**為什麼這很重要：**  
-- `IWarningCallback` 介面提供了進入轉換管線的掛鉤。當 Aspose.Words 找不到請求的字型時，會發出 `FontSubstitution` 警告。透過記錄它，你即可立即知道哪些字型需要加入私有集合。  
-- 透過 `SetFontsFolder` 註冊私有字型資料夾是 **設定自訂字型** 的核心。它讓你可以將字型隨應用程式一起部署，使 PDF 渲染不受目標機器已安裝字型的影響。
-
----
-
-## 使用 FontSettings 載入 Word 文件
-
-現在字型環境已就緒，我們在載入來源 `.docx` 時透過 `LoadOptions` 傳入 `FontSettings`。這可確保文件使用我們剛註冊的字型進行渲染。
-
-```csharp
-// Step 2: Prepare load options that carry our FontSettings.
-LoadOptions loadOptions = new LoadOptions
-{
-    FontSettings = fontSettings
-};
-
-// Path to the source Word file – replace with your actual file.
-string inputPath = Path.Combine(Environment.CurrentDirectory, "input.docx");
-
-// Load the document; any missing fonts will trigger our warning handler.
-Document document = new Document(inputPath, loadOptions);
-Console.WriteLine($"Loaded '{Path.GetFileName(inputPath)}' successfully.");
-```
-
-**邊緣案例處理：**  
-- 若 `input.docx` 參考的字型既不在系統中 **又** 不在 `MyFonts` 中，警告處理程式會印出訊息，但轉換仍會使用備用字型成功完成。  
-- 對於大型文件，建議明確設定 `LoadOptions.LoadFormat = LoadFormat.Docx`，以避免自動偵測帶來的額外開銷。
-
----
-
-## 另存文件為 PDF 並捕捉字型替換
-
-在記憶體中持有文件且自訂字型設定已啟用後，最後一步就是實際呼叫 **將文件另存為 PDF**。所有字型替換警告已在載入階段發出，但你也可以捕捉在儲存過程中產生的警告。
-
-```csharp
-// Step 3: Define the output PDF path.
-string outputPath = Path.Combine(Environment.CurrentDirectory, "output.pdf");
-
-// Save the document as PDF. Any additional warnings will flow through the same handler.
-document.Save(outputPath, SaveFormat.Pdf);
-Console.WriteLine($"PDF saved to '{outputPath}'.");
-```
-
-執行程式時，主控台會顯示類似以下的訊息：
+**範例主控台輸出**
 
 ```
-[Font substitution] Original: "Calibri" (fallback: "Arial")
-Custom font folder registered: C:\Projects\MyApp\MyFonts
-Loaded 'input.docx' successfully.
-PDF saved to 'C:\Projects\MyApp\output.pdf'.
+Substituted 'Papyrus' with 'Arial Unicode MS'. Reason: Font not found on the system.
 ```
 
-如果看到替換訊息，只需將缺少的字型檔案放入 `MyFonts`，再重新執行——PDF 即會以預期的字型渲染。
+如果來源文件僅使用已安裝的字型，迴圈會直接結束且不會輸出任何內容——這表示 **save document as PDF** 操作成功且未發生字型替換。
 
----
+### 完整範例程式
 
-## 驗證輸出與處理常見問題
-
-### 快速檢查
-
-在任何 PDF 閱讀器中開啟 `output.pdf`。文字應與原始 Word 檔案完全相同，且文件屬性中列出的字型應與你放入 `MyFonts` 的字型相符。
-
-### 若 PDF 仍顯示錯誤字型該怎麼辦？
-
-1. **再次確認字型名稱** – Aspose.Words 對大小寫敏感。Word 檔案中使用的名稱必須與你加入的字型檔案名稱（不含副檔名）完全相同。  
-2. **確保字型檔案受支援** – TrueType（`.ttf`）與 OpenType（`.otf`）皆安全；PostScript Type 1 可能需要額外授權。  
-3. **清除字型快取** – 有時函式庫會快取缺少字型的資訊。刪除使用者暫存目錄（`%TEMP%`）中的 `Aspose.Words.Fonts` 資料夾，然後重新執行。
-
-### 進階情境：使用多個自訂字型資料夾
-
-如果你的專案為不同語言（例如拉丁文與西里爾文）捆綁字型，請分別註冊每個資料夾：
-
-```csharp
-fontSettings.SetFontsFolder(@"C:\MyApp\Fonts\Latin", true);
-fontSettings.SetFontsFolder(@"C:\MyApp\Fonts\Cyrillic", true);
-```
-
-Aspose.Words 會依註冊的順序搜尋，讓你精細控制哪個字型版本優先使用。
-
----
-
-## 完整可執行範例（直接複製貼上）
-
-以下是你可以編譯執行的 **完整程式**。它示範了我們所討論的所有內容——從安裝 NuGet 套件到 **將文件另存為 PDF**、**設定自訂字型** 以及處理警告。
+將所有步驟整合起來，以下是完整且可直接執行的程式。將它貼到新的主控台專案中，調整檔案路徑，然後按 **F5**。
 
 ```csharp
 using System;
-using System.IO;
 using Aspose.Words;
-using Aspose.Words.Fonts;
+using Aspose.Words.Warnings;
 
 class Program
 {
     static void Main()
     {
-        // ---------------------------------------------------------
-        // 1️⃣ Set up custom font handling and warning callback.
-        // ---------------------------------------------------------
-        FontSettings fontSettings = new FontSettings();
-        fontSettings.SetWarningCallback(new FontSubstitutionWarningHandler());
+        // 1️⃣ Load the Word document that may reference missing fonts.
+        string sourcePath = @"C:\Docs\MissingFont.docx";
+        Document document = new Document(sourcePath);
 
-        // Register a private font folder (optional but recommended).
-        string customFontFolder = Path.Combine(Environment.CurrentDirectory, "MyFonts");
-        if (Directory.Exists(customFontFolder))
+        // 2️⃣ Prepare a warning collection to capture any font substitution messages.
+        WarningInfoCollection warningCollection = new WarningInfoCollection();
+        document.WarningCallback = warningCollection;
+
+        // 3️⃣ Save the document as PDF – this step triggers the conversion.
+        string pdfPath = @"C:\Docs\Result.pdf";
+        document.Save(pdfPath);
+
+        // 4️⃣ Review the warnings and report any font substitutions.
+        foreach (WarningInfo warning in warningCollection)
         {
-            fontSettings.SetFontsFolder(customFontFolder, true);
-            Console.WriteLine($"Custom font folder registered: {customFontFolder}");
+            if (warning.Type == WarningType.FontSubstitution)
+            {
+                var fontWarning = (FontSubstitutionWarning)warning;
+                Console.WriteLine(
+                    $"Substituted '{fontWarning.OriginalFontName}' with '{fontWarning.SubstitutedFontName}'. Reason: {fontWarning.Reason}");
+            }
         }
 
-        // ---------------------------------------------------------
-        // 2️⃣ Load the Word
+        Console.WriteLine("Conversion finished. Check the PDF and console output for details.");
+    }
+}
+```
+
+> **Expected result:** 目標資料夾會出現 `Result.pdf` 檔案，主控台會列印出發生的任何字型替換。使用檢視器開啟 PDF，你應該會看到與原始 Word 檔相同的版面配置，僅有缺失的字型被取代。
+
+## 處理邊緣案例與常見變化
+
+### 1. 提供自訂字型資料夾
+
+如果部署環境有私有的企業字型集合，你可以將 Aspose.Words 指向該資料夾：
+
+```csharp
+FontSettings fontSettings = new FontSettings();
+fontSettings.SetFontsFolder(@"C:\MyCompany\Fonts", recursive: true);
+document.FontSettings = fontSettings;
+```
+
+現在函式庫會先搜尋 `C:\MyCompany\Fonts`，再回退至系統字型，降低不必要的替換機會。
+
+### 2. 不需要警告時抑制它們
+
+有時你只想要靜默轉換。可以將 `WarningInfoCollection` 換成空的回呼：
+
+```csharp
+document.WarningCallback = new WarningCallback(); // No‑op implementation
+```
+
+### 3. 批次轉換多個文件
+
+將邏輯包在對 `.docx` 檔案目錄的 `foreach` 迴圈中。記得為每個文件重新初始化 `WarningInfoCollection`，以保持警告的獨立性。
+
+```csharp
+foreach (var file in Directory.GetFiles(@"C:\Docs\Batch", "*.docx"))
+{
+    Document doc = new Document(file);
+    var warnings = new WarningInfoCollection();
+    doc.WarningCallback = warnings;
+    string outPdf = Path.ChangeExtension(file, ".pdf");
+    doc.Save(outPdf);
+    // Process warnings as shown earlier…
+}
+```
+
+## 視覺概覽
+
+![保存文件為 PDF 工作流程圖，顯示載入、警告捕捉、儲存和報告步驟](save-document-as-pdf-workflow.png)
+
+*Alt text: 圖示說明在保存文件為 PDF 時捕捉字型替換警告的步驟。*
+
+## 結論
+
+我們剛剛走過一個 **save document as PDF** 工作流程，不僅將 Word 檔案轉換為 PDF，還能完整顯示任何發生的字型替換。透過掛接警告回呼，將沉默的替換轉化為可操作的資訊——非常適合對每個字形都很在意的合規環境。
+
+簡單一句話概括：*載入 Word 檔案、附加警告集合、另存為 PDF，然後遍歷警告以記錄任何字型替換。*
+
+如果你在其他情境下想要 **convert Word to PDF**，可考慮探索 Aspose.Words 的進階選項，例如 `PdfSaveOptions` 用於影像壓縮、PDF/A 合規或數位簽章。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

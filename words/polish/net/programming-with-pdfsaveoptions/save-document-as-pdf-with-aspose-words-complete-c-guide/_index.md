@@ -1,29 +1,33 @@
 ---
 category: general
-date: 2026-03-24
+date: 2026-02-15
 description: Zapisz dokument jako PDF przy użyciu Aspose.Words w C#. Dowiedz się,
-  jak konwertować Word na PDF i ustawić niestandardowe ustawienia czcionek dla bezbłędnego
-  wyniku.
+  jak konwertować Worda na PDF, przechwytywać ostrzeżenia o czcionkach i zapewnić
+  dokładny wynik.
 draft: false
 keywords:
 - save document as pdf
 - convert word to pdf
-- set custom font settings
-- Aspose.Words PDF conversion
-- C# document automation
+- word to pdf conversion
+- export word as pdf
+- pdf conversion from word
 language: pl
-og_description: Zapisz dokument jako PDF przy użyciu Aspose.Words. Ten przewodnik
-  pokazuje, jak przekonwertować Word na PDF i ustawić niestandardowe ustawienia czcionek,
-  aby uzyskać niezawodne wyniki.
-og_title: Zapisz dokument jako PDF – pełny samouczek C#
+og_description: Zapisz dokument jako PDF przy użyciu Aspose.Words w C#. Ten przewodnik
+  pokazuje, jak konwertować Word na PDF, obsługując ostrzeżenia o podstawianiu czcionek.
+og_title: Zapisz dokument jako PDF przy użyciu Aspose.Words – Kompletny przewodnik
+  C#
 tags:
 - Aspose.Words
 - C#
-- PDF
-- Font Management
+- PDF generation
 title: Zapisz dokument jako PDF przy użyciu Aspose.Words – Kompletny przewodnik C#
 url: /pl/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-words-complete-c-guide/
 ---
+
+
+
+
+
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
@@ -31,176 +35,206 @@ url: /pl/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-wo
 
 # Zapisz dokument jako PDF przy użyciu Aspose.Words – Kompletny przewodnik C#
 
-Zastanawiałeś się kiedyś, jak **zapisz dokument jako PDF** bez walki z tajemniczymi ostrzeżeniami o podstawianiu czcionek? Nie jesteś sam. W wielu projektach musimy **konwertować Word na PDF**, zapewniając, że dokładna typografia wybrana przez autora pojawi się w ostatecznym pliku.  
+Kiedykolwiek potrzebowałeś **zapisania dokumentu jako PDF**, ale nie byłeś pewien, jak zachować wszystkie czcionki? Nie jesteś sam. W wielu projektach korporacyjnych otrzymywane pliki Word odwołują się do czcionek, które po prostu nie są zainstalowane na serwerze, a konwersja cicho je zamienia.
 
-Dobre wieści? Dzięki kilku liniom C# i Aspose.Words możesz zrobić obie rzeczy — **zapisz dokument jako PDF** i **ustaw niestandardowe ustawienia czcionek**, tak aby wynik spełniał Twoje oczekiwania. W tym samouczku przeprowadzimy Cię przez każdy krok, wyjaśnimy, dlaczego każdy element ma znaczenie, i dostarczymy gotowy do uruchomienia przykład kodu.
+W tym tutorialu przeprowadzimy Cię przez scenariusz **konwersji Word do PDF**, który nie tylko tworzy idealny plik PDF, ale także informuje dokładnie, które czcionki zostały podmienione. Po zakończeniu będziesz mieć gotowy do uruchomienia program w C#, jasne zrozumienie, dlaczego każdy krok ma znaczenie, oraz kilka profesjonalnych wskazówek, które możesz wprowadzić do własnego kodu.
 
-## Co zyskasz po zakończeniu
-
-- Kompletna, uruchamialna aplikacja konsolowa C#, która wczytuje plik `.docx`, stosuje niestandardowe obsługi czcionek i **zapisuje dokument jako PDF**.  
-- Zrozumienie procesu **konwertowanie Word na PDF** oraz miejsc, w których może pojawić się podstawianie czcionek.  
-- Wskazówki dotyczące rozwiązywania problemów z brakującymi czcionkami, konfigurowania prywatnych folderów czcionek oraz przechwytywania ostrzeżeń programowo.  
-
-**Wymagania wstępne** – potrzebujesz .NET 6+ (lub .NET Framework 4.7.2+), Visual Studio 2022 (lub dowolnego IDE, które preferujesz) oraz aktywnej licencji Aspose.Words (bezpłatna wersja próbna wystarczy do tego demo). Nie są wymagane inne biblioteki zewnętrzne.
-
-![Diagram przedstawiający przepływ ładowania pliku Word, stosowania niestandardowych ustawień czcionek i zapisywania jako PDF](/images/save-document-as-pdf-flow.png "Diagram przepływu zapisywania dokumentu jako PDF")
+> **Co otrzymasz:** pełną listę kodu, wyjaśnienie callbacku ostrzeżeń, oczekiwany wynik w konsoli oraz sugestie dotyczące obsługi przypadków brzegowych, takich jak własne foldery czcionek.
 
 ---
 
-## Zainstaluj Aspose.Words dla .NET
+## Wymagania wstępne
 
-Zanim napiszemy jakikolwiek kod, upewnij się, że pakiet Aspose.Words jest dodany do Twojego projektu.
+Zanim zaczniemy, upewnij się, że masz:
 
-```bash
-dotnet add package Aspose.Words.NET
-```
+- **.NET 6.0** (lub dowolną nowszą wersję .NET) – Aspose.Words działa z .NET Framework, .NET Core oraz .NET 5/6.  
+- Pakiet NuGet **Aspose.Words for .NET** (`Install-Package Aspose.Words`) – biblioteka wykonująca ciężką pracę.  
+- Plik Word, który odwołuje się do brakującej czcionki (np. `MissingFont.docx`). Jeśli go nie masz, utwórz prosty dokument i zmień czcionkę na taką, której wiesz, że nie ma zainstalowanej na Twoim komputerze, np. „Papyrus”.  
+- IDE, z którym czujesz się komfortowo – Visual Studio, Rider lub nawet VS Code będą wystarczające.
 
-> **Pro tip:** Jeśli używasz Visual Studio, kliknij prawym przyciskiem myszy projekt → *Manage NuGet Packages* → wyszukaj *Aspose.Words.NET* i zainstaluj najnowszą stabilną wersję (stan na marzec 2026 to 24.9).
+To wszystko. Nie potrzebujesz dodatkowych SDK, żadnego COM interop, po prostu czysty projekt C#.
 
-Instalacja pakietu daje dostęp do klas `Document`, `LoadOptions`, `FontSettings` oraz callbacków ostrzeżeń, które będą potrzebne do **ustawienia niestandardowych ustawień czcionek** później.
+---
 
-## Ustaw niestandardowe ustawienia czcionek i obsługę ostrzeżeń
+## Krok 1 – Wczytaj plik Word (pierwszy ruch w konwersji Word do PDF)
 
-Aspose.Words automatycznie podstawia brakującą czcionkę domyślną, co często psuje układ. Aby zachować kontrolę, tworzymy obiekt `FontSettings` i podłączamy callback ostrzeżeń, który wyświetla wszelkie zdarzenia **podstawiania czcionek**.
+Pierwszą rzeczą, której potrzebujemy, jest obiekt `Document` reprezentujący źródłowy plik Word. Aspose.Words odczytuje plik `.docx` (lub `.doc`) i buduje model w pamięci, którym możesz manipulować.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Fonts;
+using Aspose.Words.Warnings;
 
-/// <summary>
-/// Receives warning callbacks from Aspose.Words.
-/// Only prints font‑substitution warnings to the console.
-/// </summary>
-class FontSubstitutionWarningHandler : IWarningCallback
+// Path to the source Word document that may reference missing fonts.
+string sourcePath = @"C:\Docs\MissingFont.docx";
+
+// Create the Document instance – this loads the file into memory.
+Document document = new Document(sourcePath);
+```
+
+> **Dlaczego to ważne:** Wczytanie pliku na wczesnym etapie pozwala bibliotece przeanalizować odwołania do czcionek. Jeśli jakaś czcionka jest brakująca, Aspose.Words później zgłosi ostrzeżenie `FontSubstitution`, które możemy przechwycić.
+
+---
+
+## Krok 2 – Dołącz callback ostrzeżeń, aby przechwycić podmiany czcionek
+
+Aspose.Words emituje ostrzeżenia za pomocą mechanizmu callback. Przypisując `WarningInfoCollection` do `document.WarningCallback`, zbieramy każde ostrzeżenie pojawiające się podczas przetwarzania.
+
+```csharp
+// Create a collection that will hold any warnings generated.
+WarningInfoCollection warningCollection = new WarningInfoCollection();
+
+// Register the collection as the document's warning callback.
+document.WarningCallback = warningCollection;
+```
+
+> **Wskazówka dla profesjonalistów:** Możesz także samodzielnie zaimplementować `IWarningCallback`, jeśli potrzebujesz własnego logowania lub chcesz przerwać działanie przy określonych ostrzeżeniach. Podejście z kolekcją jest szybkie i idealne w większości scenariuszy.
+
+---
+
+## Krok 3 – Zapisz dokument jako PDF – operacja kluczowa
+
+Teraz instruujemy Aspose.Words, aby wyrenderował zawartość Worda do pliku PDF. To moment, w którym każda brakująca czcionka zostaje podmieniona, a wcześniej ustawione ostrzeżenie zostaje wywołane.
+
+```csharp
+// Destination PDF path.
+string pdfPath = @"C:\Docs\Result.pdf";
+
+// Perform the conversion. This call may trigger FontSubstitution warnings.
+document.Save(pdfPath);
+```
+
+> **Co się dzieje „pod maską”?** Aspose.Words przechodzi przez każdy akapit, wyszukuje wymaganą czcionkę i jeśli jej nie znajdzie, przechodzi na domyślną podmianę (zwykle Arial). Ostrzeżenie informuje dokładnie, która czcionka była brakująca i jaka została użyta zamiast niej.
+
+---
+
+## Krok 4 – Analiza i raportowanie podmian czcionek
+
+Po operacji zapisu iterujemy zebrane ostrzeżenia. Jeśli któreś z nich jest typu `FontSubstitution`, rzutujemy je na `FontSubstitutionWarning`, aby wyciągnąć nazwy oryginalnej i podmienionej czcionki.
+
+```csharp
+// Loop through all captured warnings.
+foreach (WarningInfo warning in warningCollection)
 {
-    public void Process(WarningInfo info)
+    // We're only interested in font substitution warnings.
+    if (warning.Type == WarningType.FontSubstitution)
     {
-        // React only to font‑substitution warnings.
-        if (info.WarningType == WarningType.FontSubstitution)
-        {
-            Console.WriteLine($"[Font substitution] Original: {info.Description}");
-        }
+        var fontWarning = (FontSubstitutionWarning)warning;
+        Console.WriteLine(
+            $"Substituted '{fontWarning.OriginalFontName}' with '{fontWarning.SubstitutedFontName}'. Reason: {fontWarning.Reason}");
     }
 }
-
-// Step 1: Create FontSettings and attach the warning handler.
-FontSettings fontSettings = new FontSettings();
-fontSettings.SetWarningCallback(new FontSubstitutionWarningHandler());
-
-// OPTIONAL: Point Aspose.Words to a folder that contains your custom fonts.
-// This is where the **set custom font settings** magic really shines.
-string customFontFolder = Path.Combine(Environment.CurrentDirectory, "MyFonts");
-if (Directory.Exists(customFontFolder))
-{
-    fontSettings.SetFontsFolder(customFontFolder, /*recursive=*/ true);
-    Console.WriteLine($"Custom font folder registered: {customFontFolder}");
-}
 ```
 
-**Dlaczego to ważne:**  
-- Interfejs `IWarningCallback` zapewnia hak do pipeline konwersji. Gdy Aspose.Words nie może znaleźć żądanej czcionki, generuje ostrzeżenie `FontSubstitution`. Logując je, od razu wiesz, które czcionki należy dodać do prywatnej kolekcji.  
-- Rejestrowanie prywatnego folderu czcionek za pomocą `SetFontsFolder` jest sednem **ustawienia niestandardowych ustawień czcionek**. Pozwala to dołączyć czcionki do aplikacji, czyniąc renderowanie PDF niezależnym od czcionek zainstalowanych na docelowym komputerze.
-
-## Wczytaj dokument Word z ustawieniami czcionek
-
-Teraz, gdy środowisko czcionek jest gotowe, wczytujemy źródłowy plik `.docx`, przekazując `FontSettings` przez `LoadOptions`. Dzięki temu dokument jest renderowany przy użyciu właśnie zarejestrowanych czcionek.
-
-```csharp
-// Step 2: Prepare load options that carry our FontSettings.
-LoadOptions loadOptions = new LoadOptions
-{
-    FontSettings = fontSettings
-};
-
-// Path to the source Word file – replace with your actual file.
-string inputPath = Path.Combine(Environment.CurrentDirectory, "input.docx");
-
-// Load the document; any missing fonts will trigger our warning handler.
-Document document = new Document(inputPath, loadOptions);
-Console.WriteLine($"Loaded '{Path.GetFileName(inputPath)}' successfully.");
-```
-
-**Obsługa przypadków brzegowych:**  
-- Jeśli `input.docx` odwołuje się do czcionki, której nie ma w systemie **i** nie znajduje się w `MyFonts`, obsługa ostrzeżeń wypisze komunikat, ale konwersja i tak zakończy się sukcesem, używając czcionki zastępczej.  
-- W przypadku dużych dokumentów rozważ explicite ustawienie `LoadOptions.LoadFormat = LoadFormat.Docx`, aby uniknąć kosztów automatycznego wykrywania.
-
-## Zapisz dokument jako PDF i przechwyć podstawienia
-
-Mając dokument w pamięci i aktywną naszą niestandardową konfigurację czcionek, ostatnim krokiem jest rzeczywiste wywołanie **zapisz dokument jako PDF**. Wszystkie ostrzeżenia o podstawianiu czcionek zostały już wygenerowane podczas fazy wczytywania, ale możesz także przechwycić ostrzeżenia pojawiające się podczas zapisywania.
-
-```csharp
-// Step 3: Define the output PDF path.
-string outputPath = Path.Combine(Environment.CurrentDirectory, "output.pdf");
-
-// Save the document as PDF. Any additional warnings will flow through the same handler.
-document.Save(outputPath, SaveFormat.Pdf);
-Console.WriteLine($"PDF saved to '{outputPath}'.");
-```
-
-When you run the program, the console will show lines like:
+**Przykładowy wynik w konsoli**
 
 ```
-[Font substitution] Original: "Calibri" (fallback: "Arial")
-Custom font folder registered: C:\Projects\MyApp\MyFonts
-Loaded 'input.docx' successfully.
-PDF saved to 'C:\Projects\MyApp\output.pdf'.
+Substituted 'Papyrus' with 'Arial Unicode MS'. Reason: Font not found on the system.
 ```
 
-Jeśli zobaczysz komunikaty o podstawieniu, po prostu umieść brakujący plik czcionki w folderze `MyFonts` i uruchom program ponownie — PDF zostanie teraz wyrenderowany z zamierzonym krojem pisma.
+Jeśli dokument źródłowy używa wyłącznie zainstalowanych czcionek, pętla po prostu kończy się bez wypisywania czegokolwiek – czysty sygnał, że operacja **zapisania dokumentu jako PDF** zakończyła się sukcesem bez podmian.
 
-## Zweryfikuj wynik i radź sobie z typowymi problemami
+---
 
-### Szybka kontrola poprawności
+### Pełny działający przykład
 
-Otwórz `output.pdf` w dowolnym przeglądarce PDF. Tekst powinien wyglądać identycznie jak w oryginalnym pliku Word, a czcionki wymienione w właściwościach dokumentu powinny odpowiadać tym, które umieściłeś w `MyFonts`.
-
-### Co zrobić, jeśli PDF nadal wyświetla niewłaściwą czcionkę?
-
-1. **Sprawdź ponownie nazwę czcionki** – Aspose.Words rozróżnia wielkość liter. Nazwa użyta w pliku Word musi odpowiadać nazwie pliku (bez rozszerzenia) czcionki, którą dodałeś.  
-2. **Upewnij się, że plik czcionki jest obsługiwany** – TrueType (`.ttf`) i OpenType (`.otf`) są bezpieczne; PostScript Type 1 może wymagać dodatkowej licencji.  
-3. **Wyczyść pamięć podręczną czcionek** – Czasami biblioteka buforuje informacje o brakujących czcionkach. Usuń folder `Aspose.Words.Fonts` w katalogu tymczasowym użytkownika (`%TEMP%`) i uruchom ponownie.
-
-### Zaawansowany scenariusz: używanie wielu niestandardowych folderów czcionek
-
-Jeśli Twój projekt dołącza czcionki dla różnych języków (np. łacińskiego i cyrylicy), zarejestruj każdy folder:
-
-```csharp
-fontSettings.SetFontsFolder(@"C:\MyApp\Fonts\Latin", true);
-fontSettings.SetFontsFolder(@"C:\MyApp\Fonts\Cyrillic", true);
-```
-
-Aspose.Words będzie przeszukiwać je w kolejności dodania, dając Ci precyzyjną kontrolę nad tym, która wersja czcionki zostanie wybrana.
-
-## Pełny działający przykład (gotowy do skopiowania i wklejenia)
-
-Poniżej znajduje się **kompletny program**, który możesz skompilować i uruchomić. Demonstruje wszystko, o czym rozmawialiśmy — od instalacji pakietu NuGet po **zapisanie dokumentu jako PDF** przy **ustawianiu niestandardowych ustawień czcionek** i obsłudze ostrzeżeń.
+Łącząc wszystko w całość, oto kompletny, gotowy do uruchomienia program. Wklej go do nowego projektu konsolowego, dostosuj ścieżki do plików i naciśnij **F5**.
 
 ```csharp
 using System;
-using System.IO;
 using Aspose.Words;
-using Aspose.Words.Fonts;
+using Aspose.Words.Warnings;
 
 class Program
 {
     static void Main()
     {
-        // ---------------------------------------------------------
-        // 1️⃣ Set up custom font handling and warning callback.
-        // ---------------------------------------------------------
-        FontSettings fontSettings = new FontSettings();
-        fontSettings.SetWarningCallback(new FontSubstitutionWarningHandler());
+        // 1️⃣ Load the Word document that may reference missing fonts.
+        string sourcePath = @"C:\Docs\MissingFont.docx";
+        Document document = new Document(sourcePath);
 
-        // Register a private font folder (optional but recommended).
-        string customFontFolder = Path.Combine(Environment.CurrentDirectory, "MyFonts");
-        if (Directory.Exists(customFontFolder))
+        // 2️⃣ Prepare a warning collection to capture any font substitution messages.
+        WarningInfoCollection warningCollection = new WarningInfoCollection();
+        document.WarningCallback = warningCollection;
+
+        // 3️⃣ Save the document as PDF – this step triggers the conversion.
+        string pdfPath = @"C:\Docs\Result.pdf";
+        document.Save(pdfPath);
+
+        // 4️⃣ Review the warnings and report any font substitutions.
+        foreach (WarningInfo warning in warningCollection)
         {
-            fontSettings.SetFontsFolder(customFontFolder, true);
-            Console.WriteLine($"Custom font folder registered: {customFontFolder}");
+            if (warning.Type == WarningType.FontSubstitution)
+            {
+                var fontWarning = (FontSubstitutionWarning)warning;
+                Console.WriteLine(
+                    $"Substituted '{fontWarning.OriginalFontName}' with '{fontWarning.SubstitutedFontName}'. Reason: {fontWarning.Reason}");
+            }
         }
 
-        // ---------------------------------------------------------
-        // 2️⃣ Load the Word
+        Console.WriteLine("Conversion finished. Check the PDF and console output for details.");
+    }
+}
+```
+
+> **Oczekiwany rezultat:** Plik `Result.pdf` pojawia się w docelowym folderze, a konsola wypisuje wszystkie podmiany czcionek, które wystąpiły. Otwórz PDF w przeglądarce – powinieneś zobaczyć taki sam układ jak w oryginalnym pliku Word, z wyjątkiem brakujących czcionek, które zostały zastąpione.
+
+---
+
+## Obsługa przypadków brzegowych i typowych wariantów
+
+### 1. Udostępnienie własnego folderu czcionek
+
+Jeśli środowisko wdrożeniowe posiada prywatną kolekcję firmowych czcionek, możesz skierować Aspose.Words do tego folderu:
+
+```csharp
+FontSettings fontSettings = new FontSettings();
+fontSettings.SetFontsFolder(@"C:\MyCompany\Fonts", recursive: true);
+document.FontSettings = fontSettings;
+```
+
+Teraz biblioteka najpierw przeszuka `C:\MyCompany\Fonts`, zanim sięgnie po czcionki systemowe, zmniejszając ryzyko niechcianych podmian.
+
+### 2. Wyłączanie ostrzeżeń, gdy nie są potrzebne
+
+Czasami po prostu chcesz cichą konwersję. Możesz zamienić `WarningInfoCollection` na pusty callback:
+
+```csharp
+document.WarningCallback = new WarningCallback(); // No‑op implementation
+```
+
+### 3. Konwersja wielu dokumentów w partii
+
+Umieść logikę w pętli `foreach` przetwarzającej katalog plików `.docx`. Pamiętaj, aby ponownie zainicjować `WarningInfoCollection` dla każdego dokumentu, aby ostrzeżenia były odseparowane.
+
+```csharp
+foreach (var file in Directory.GetFiles(@"C:\Docs\Batch", "*.docx"))
+{
+    Document doc = new Document(file);
+    var warnings = new WarningInfoCollection();
+    doc.WarningCallback = warnings;
+    string outPdf = Path.ChangeExtension(file, ".pdf");
+    doc.Save(outPdf);
+    // Process warnings as shown earlier…
+}
+```
+
+---
+
+## Przegląd wizualny
+
+![Save document as PDF workflow diagram showing loading, warning capture, saving, and reporting steps](save-document-as-pdf-workflow.png)
+
+*Alt text: Diagram ilustrujący kroki zapisu dokumentu jako PDF przy jednoczesnym przechwytywaniu ostrzeżeń o podmianie czcionek.*
+
+---
+
+## Zakończenie
+
+Właśnie przeszliśmy przez **workflow zapisu dokumentu jako PDF**, który nie tylko konwertuje plik Word do PDF, ale także zapewnia pełną widoczność wszelkich podmian czcionek. Dzięki podłączeniu callbacku ostrzeżeń zamieniasz cichą podmianę w użyteczną informację – idealną dla środowisk o wysokich wymaganiach zgodności, gdzie każdy glif ma znaczenie.
+
+Podsumowując w jednym zdaniu: *Wczytaj plik Word, dołącz kolekcję ostrzeżeń, zapisz jako PDF, a następnie przeiteruj ostrzeżenia, aby zalogować podmiany czcionek.*  
+
+Jeśli chcesz **konwertować Word do PDF** w innych kontekstach, rozważ zaawansowane opcje Aspose.Words, takie jak `PdfSaveOptions` do kompresji obrazów, zgodności PDF/A czy podpisów cyfrowych.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
