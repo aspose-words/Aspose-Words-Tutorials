@@ -36,13 +36,15 @@ Seguendo questi tutorial, non solo imparerai le basi della manipolazione degli e
 
 ## Inizia oggi
 
-Pronti per iniziare? Andate su [Documentazione dell'API Aspose.Words per Java](https://reference.aspose.com/words/java/) per accedere alla documentazione completa. Troverai spiegazioni dettagliate, esempi di codice e riferimenti API che ti guideranno attraverso ogni aspetto della manipolazione degli elementi del documento.
+Pronti per iniziare? Andate su [Documentazione dell'API Aspose.Words per Java](https://reference.aspose.com/words/java/) per accedere alla documentazione completa. Troverete spiegazioni dettagliate, esempi di codice e riferimenti API che vi guideranno attraverso ogni aspetto della manipolazione degli elementi del documento.
 
 In conclusione, padroneggiare la manipolazione degli elementi dei documenti utilizzando Aspose.Words per Java è un'abilità preziosa per qualsiasi sviluppatore Java che lavori con i documenti. Questi tutorial offrono un percorso chiaro e strutturato per aiutarti a diventare esperto in questo ambito. Quindi, rimboccati le maniche, immergiti nei tutorial e sfrutta appieno il potenziale di Aspose.Words per Java nei tuoi progetti di elaborazione di documenti.
 
 Ricorda, la pratica rende perfetti, e con Aspose.Words per Java, imparerai a creare, modificare e migliorare documenti come un professionista in pochissimo tempo. Buona programmazione!
 
 ## Tutorial sull'utilizzo degli elementi del documento
+### [Creare un documento Word vuoto e aggiungere un pulsante ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+Impara a creare un documento Word vuoto e inserire un pulsante ActiveX usando Aspose.Words per Java.
 ### [Utilizzo dei commenti in Aspose.Words per Java](./using-comments/)
 Scopri come utilizzare i commenti in Aspose.Words per Java. Tutorial passo passo per aggiungere e personalizzare i commenti nei tuoi documenti.
 ### [Utilizzo dei campi in Aspose.Words per Java](./using-fields/)

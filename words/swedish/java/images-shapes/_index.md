@@ -41,6 +41,9 @@ Lär dig hur du lägger till en skugga på en form i C# med Aspose.Words – en 
 ### [Hur man sätter skugga på en form i Aspose.Words – Komplett guide](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Lär dig hur du lägger till skuggeffekter på former i Word-dokument med Aspose.Words för Java.
 
+### [Hur man grupperar former i Word med Java – komplett guide](./how-to-group-shapes-in-word-with-java-complete-guide/)
+Lär dig hur du grupperar former i Word-dokument med Aspose.Words för Java.
+
 ## Ytterligare resurser
 
 ## Ytterligare resurser

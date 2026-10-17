@@ -41,6 +41,9 @@
 ### [كيفية تعيين الظل على شكل في Aspose.Words – دليل كامل](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 تعلم خطوة بخطوة كيفية إضافة ظل إلى الأشكال في مستندات Word باستخدام Aspose.Words لجافا.
 
+### [كيفية تجميع الأشكال في Word باستخدام Java – دليل كامل](./how-to-group-shapes-in-word-with-java-complete-guide/)
+تعلم خطوة بخطوة كيفية تجميع الأشكال في مستندات Word باستخدام Aspose.Words لجافا.
+
 ## موارد إضافية
 
 ## موارد إضافية

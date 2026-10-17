@@ -67,6 +67,8 @@ Bu adım adım eğitimle Java için Aspose.Words'de Markdown kullanmayı öğren
 Bu adım adım eğitimle Aspose.Words for Java'da düğümleri yönetmeyi öğrenin. Belge işleme gücünü açığa çıkarın.
 ### [Aspose.Words for Java'da OLE Nesneleri ve ActiveX Denetimlerini Kullanma](./using-ole-objects-and-activex/)
 Aspose.Words for Java'da OLE nesnelerini ve ActiveX denetimlerini kullanmayı öğrenin. Kolayca etkileşimli belgeler oluşturun. Hemen başlayın!
+### [Boş bir Word belgesi oluşturun ve ActiveX düğmesi ekleyin (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+Java ile boş bir Word dosyası oluşturup içine ActiveX düğmesi eklemeyi öğrenin.
 ### [Java için Aspose.Words'de Revizyonları Kullanma](./using-revisions/)
 Aspose.Words for Java'nın revizyon kontrollerini etkili bir şekilde kullanmayı öğrenin. Geliştiriciler için adım adım kılavuz. Belge yönetiminizi optimize edin.
 ### [Java için Aspose.Words'de Bölümleri Kullanma](./using-sections/)

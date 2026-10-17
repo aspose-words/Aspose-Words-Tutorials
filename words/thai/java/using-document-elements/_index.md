@@ -71,6 +71,8 @@
 เรียนรู้การใช้ Aspose.Words สำหรับการควบคุมการแก้ไขของ Java อย่างมีประสิทธิภาพ คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา เพิ่มประสิทธิภาพการจัดการเอกสารของคุณ
 ### [การใช้ Sections ใน Aspose.Words สำหรับ Java](./using-sections/)
 สำรวจ Aspose.Words สำหรับ Java: คู่มือที่ครอบคลุมเกี่ยวกับการใช้ส่วนต่างๆ เพิ่ม ลบ ผนวก โคลนส่วนต่างๆ ด้วยตัวอย่างโค้ด
+### [สร้างเอกสาร Word ว่างและเพิ่มปุ่ม ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+เรียนรู้วิธีสร้างเอกสาร Word เปล่าและแทรกปุ่ม ActiveX ด้วย Aspose.Words for Java
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

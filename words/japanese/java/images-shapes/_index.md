@@ -41,6 +41,9 @@ C# で図形に影効果を適用する手順をステップバイステップ�
 ### [Aspose.Words で図形に影を設定する方法 – 完全ガイド](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Aspose.Words for Java で図形に影効果を適用する手順をステップバイステップで解説します。
 
+### [Java で Word の図形をグループ化する方法 – 完全ガイド](./how-to-group-shapes-in-word-with-java-complete-guide/)
+Aspose.Words for Java を使用して、Word 文書内の図形をグループ化し、レイアウトを整理する方法をステップバイステップで解説します。
+
 ## 追加リソース
 
 ## 追加リソース

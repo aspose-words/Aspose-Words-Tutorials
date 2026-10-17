@@ -47,6 +47,9 @@ C# में Aspose.Words का उपयोग करके आकृति �
 ### [Aspose.Words में आकृति पर छाया कैसे सेट करें – पूर्ण गाइड](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Aspose.Words में आकृति पर छाया लागू करने के चरण-दर-चरण निर्देश और कोड उदाहरण।
 
+### [जावा के साथ Word में आकृतियों को समूहित करने की पूरी गाइड](./how-to-group-shapes-in-word-with-java-complete-guide/)
+जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ में आकृतियों को समूहित करने के चरण‑दर‑चरण निर्देश।
+
 ## अतिरिक्त संसाधन
 
 - [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)

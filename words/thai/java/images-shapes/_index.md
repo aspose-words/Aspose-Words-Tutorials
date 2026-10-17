@@ -41,6 +41,9 @@
 ### [วิธีตั้งเงาบนรูปร่างใน Aspose.Words – คู่มือฉบับสมบูรณ์](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 เรียนรู้วิธีเพิ่มเงาให้กับรูปร่างในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
 
+### [วิธีจัดกลุ่มรูปร่างใน Word ด้วย Java – คู่มือฉบับสมบูรณ์](./how-to-group-shapes-in-word-with-java-complete-guide/)
+เรียนรู้วิธีจัดกลุ่มรูปร่างในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 ## แหล่งข้อมูลเพิ่มเติม

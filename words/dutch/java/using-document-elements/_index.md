@@ -67,6 +67,8 @@ Leer Markdown gebruiken in Aspose.Words voor Java met deze stapsgewijze tutorial
 Leer hoe je knooppunten in Aspose.Words voor Java kunt bewerken met deze stapsgewijze tutorial. Ontgrendel de kracht van documentverwerking.
 ### [OLE-objecten en ActiveX-besturingselementen gebruiken in Aspose.Words voor Java](./using-ole-objects-and-activex/)
 Leer OLE-objecten en ActiveX-besturingselementen gebruiken in Aspose.Words voor Java. Maak eenvoudig interactieve documenten. Ga nu aan de slag!
+### [Maak een leeg Word-document en voeg een ActiveX-knop toe (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+Leer hoe u een leeg Word-document maakt en een ActiveX-knop toevoegt met Aspose.Words voor Java.
 ### [Revisies gebruiken in Aspose.Words voor Java](./using-revisions/)
 Leer hoe u Aspose.Words voor Java's revisiebeheer efficiënt kunt gebruiken. Stapsgewijze handleiding voor ontwikkelaars. Optimaliseer uw documentbeheer.
 ### [Secties gebruiken in Aspose.Words voor Java](./using-sections/)

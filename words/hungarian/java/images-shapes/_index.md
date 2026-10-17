@@ -41,6 +41,9 @@ Ismerje meg, hogyan adhat árnyékot egy alakzathoz C#‑ban az Aspose.Words seg
 ### [Hogyan állítsunk be árnyékot egy alakzatra az Aspose.Words-ben – Teljes útmutató](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Ismerje meg, hogyan adhat árnyékot alakzatokhoz az Aspose.Words for Java segítségével, részletes példákkal és beállítási lehetőségekkel.
 
+### [Hogyan csoportosítsunk alakzatokat Word-ben Java-val – teljes útmutató](./how-to-group-shapes-in-word-with-java-complete-guide/)
+Ismerje meg, hogyan csoportosíthatja az alakzatokat Word dokumentumokban Java segítségével, lépésről lépésre.
+
 ## További források
 
 ## További források
