@@ -1,0 +1,7 @@
+Title: Ai document summarization in C# – complete guide
+Slug: ai-document-summarization-in-c-complete-guide
+Category: ai-powered-document-processing
+ProcessedDate: 2026-08-04T22:50:41.461142
+SourceRepo: AI Search API
+Keywords: ai document summarization, summarize word document, load docx file, summarize docx google, summarize text openai
+PRNumber: 241

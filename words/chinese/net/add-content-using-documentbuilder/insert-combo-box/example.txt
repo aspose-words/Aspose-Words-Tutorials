@@ -1,0 +1,24 @@
+//ExStart
+//ExSummary: 本教程展示了如何使用 DocumentBuilder 创建 Word 文档、添加带预定义项目的组合框表单字段并保存文档。
+//ExStepSummary:0: 设置生成的文档将要保存的文件夹路径。
+//ExStepSummary:1: 创建一个字符串数组，用于填充组合框的选项。
+//ExStepSummary:2: 实例化一个新的 Document 并创建与之关联的 DocumentBuilder。
+//ExStepSummary:3: 调用 `builder.InsertComboBox` 在当前光标位置放置一个名为 "DropDown"、包含已定义项目的组合框。
+//ExStepSummary:4: 将文档保存为 .docx 文件到指定目录。
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+string[] items = { "One", "Two", "Three" };
+
+//ExStep:2-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertComboBox("DropDown", items, 0);
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertComboBoxFormField.docx");
+//ExEnd

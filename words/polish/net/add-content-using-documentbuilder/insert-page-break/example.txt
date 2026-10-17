@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: Ten samouczek pokazuje, jak wstawiać podziały stron do dokumentu Word przy użyciu Aspose.Words Document i DocumentBuilder.
+//ExStepSummary:0: Utwórz obiekt Document oraz DocumentBuilder, które będą używane do dodawania treści.
+//ExStepSummary:1: Zapisz tekst pierwszej strony i wstaw podział strony, aby kolejna treść zaczęła się na nowej stronie.
+//ExStepSummary:2: Zapisz tekst drugiej strony i wstaw kolejny podział strony, aby rozpocząć trzecią stronę.
+//ExStepSummary:3: Zapisz tekst trzeciej strony, kończąc trzy‑stronicowy dokument.
+//ExStepSummary:4: Zapisz złożony dokument jako plik .docx w określonym katalogu.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("This is page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:2-
+builder.Writeln("This is page 2.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+builder.Writeln("This is page 3.");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd
