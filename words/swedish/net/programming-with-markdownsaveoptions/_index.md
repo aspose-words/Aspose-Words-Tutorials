@@ -210,6 +210,11 @@ Lär dig konvertera Word-dokument till Markdown med en komplett C#‑guide.
 
 ### [Konvertera DOCX till Markdown i C# – Fullständig guide](./convert-docx-to-markdown-in-c-complete-guide/)
 Lär dig konvertera DOCX-filer till Markdown med en komplett C#‑guide.
+### [Hur man sparar Markdown från Word – Komplett guide för att extrahera bilder och konvertera DOCX](./how-to-save-markdown-from-word-complete-guide-to-extract-ima/)
+Lär dig steg‑för‑steg hur du sparar Word‑dokument som Markdown och extraherar bilder med en komplett guide.
+
+### [Konvertera DOCX till Markdown – Komplett guide för att exportera Word till Markdown](./convert-docx-to-markdown-complete-guide-to-export-word-to-ma/)
+Lär dig konvertera DOCX-filer till Markdown med en komplett guide för export av Word-dokument.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

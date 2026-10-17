@@ -35,6 +35,8 @@ Ismerje meg, hogyan konvertálhatja a DOCX fájlokat markdown formátumba C#-ban
 Ismerje meg, hogyan konvertálhat DOCX fájlokat Markdownba C#‑ban lépésről‑lépésre az Aspose.Words for .NET segítségével.
 ### [DOCX mentése Markdownba – Lépésről‑lépésre C# útmutató](./save-docx-as-markdown-step-by-step-c-tutorial/)
 Ismerje meg, hogyan mentheti el a DOCX fájlokat Markdown formátumba lépésről‑lépésre C#‑ban az Aspose.Words for .NET segítségével.
+### [DOCX konvertálása Markdownba – Teljes útmutató a Word exportálásához Markdownba](./convert-docx-to-markdown-complete-guide-to-export-word-to-ma/)
+Ismerje meg, hogyan konvertálhat DOCX fájlokat teljes körű útmutatóval Markdown formátumba az Aspose.Words for .NET használatával.
 ### [DOCX mentése Markdownba – Teljes C# útmutató LaTeX egyenletekkel](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 ### [Hogyan használjuk az Aspose – DOCX konvertálása Markdownba LaTeX egyenletekkel](./how-to-use-aspose-convert-docx-to-markdown-with-latex-equati/)
 ### [Word konvertálása Markdownba – Képek kinyerése C#-ban](./convert-word-to-markdown-extract-images-in-c/)
@@ -81,6 +83,8 @@ Ismerje meg, hogyan ágyazhat be képeket Base64 formátumban a Word dokumentumo
 Ismerje meg, hogyan menthet Word dokumentumokat Markdown formátumba C#-ban az Aspose.Words for .NET segítségével.
 ### [Hogyan mentse a Markdownot a Wordből – Teljes útmutató](./how-to-save-markdown-from-word-complete-guide/)
 Ismerje meg, hogyan menthet Word dokumentumokat Markdown formátumba az Aspose.Words for .NET segítségével.
+### [Hogyan mentse a Markdownot a Wordből – Teljes útmutató képek kinyerésével és DOCX konvertálásával](./how-to-save-markdown-from-word-complete-guide-to-extract-ima/)
+Ismerje meg, hogyan menthet Word dokumentumokat Markdownba, miközben képeket nyer ki és DOCX fájlokat konvertál.
 ### [Hogyan nevezze át a képeket a DOCX‑ből Markdownba konvertáláskor](./how-to-rename-images-when-converting-docx-to-markdown/)
 Ismerje meg, hogyan nevezheti át a képeket a DOCX‑ből Markdownba történő konvertálás során az Aspose.Words for .NET használatával.
 ### [Hogyan mentse el a Markdownot – Teljes C# útmutató](./how-to-save-markdown-complete-c-guide/)

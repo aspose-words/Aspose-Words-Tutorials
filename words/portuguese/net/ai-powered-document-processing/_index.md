@@ -55,6 +55,7 @@ Por fim, não se esqueça de conferir nosso [Trabalhando com opções de resumo]
 | [Como verificar gramática e resumir documento Word com IA do Aspose.Words](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Descubra como usar a IA do Aspose.Words para corrigir gramática e gerar resumos de documentos Word de forma rápida. |
 | [Verificar gramática de documento Word em C# – Guia completo de programação](./check-grammar-word-document-in-c-complete-programming-guide/) | Aprenda a usar Aspose.Words para .NET para verificar a gramática de documentos Word em C# com um guia passo a passo completo. |
 | [Como carregar Word em C# e reescrever parágrafo com IA](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Aprenda a carregar documentos Word em C# e usar IA para reescrever parágrafos automaticamente. |
+| [Como Verificar Gramática em C# com Aspose.Words IA](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Aprenda a usar a IA do Aspose.Words para .NET para corrigir gramática em documentos C# de forma automática e precisa. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

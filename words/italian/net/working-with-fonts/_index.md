@@ -72,6 +72,7 @@ Che tu voglia formattare il testo con diversi font, impostare regole di sostituz
 | [Come catturare gli avvisi – Impostare le impostazioni predefinite dei caratteri](./how-to-capture-warnings-set-default-font-settings/) | Scopri come catturare gli avvisi e impostare le impostazioni predefinite dei font in Aspose.Words per .NET. |
 | [Salva documento Word – Rileva i font mancanti con Aspose.Words](./save-word-document-detect-missing-fonts-with-aspose-words/) | Scopri come salvare un documento Word rilevando i font mancanti usando Aspose.Words per .NET. |
 | [Crea callback di avviso per il caricamento di documenti Word – Guida completa](./create-warning-callback-for-loading-word-documents-complete/) | Scopri come creare una callback di avviso per il caricamento di documenti Word usando Aspose.Words per .NET. |
+| [Come rilevare i font in Aspose.Words – Guida completa](./how-to-detect-fonts-in-aspose-words-complete-guide/) | Scopri come rilevare i font nei documenti Word usando Aspose.Words per .NET con questa guida completa passo passo. |
 
 | [Come utilizzare FontSettings per gestire i font mancanti in Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | Scopri come gestire i font mancanti con FontSettings in Aspose.Words per .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}

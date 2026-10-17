@@ -52,6 +52,7 @@
 | [Aspose.Words AI を使用した文法チェックと Word 文書の要約方法](./how-to-check-grammar-and-summarize-word-document-with-aspose/) Aspose.Words for .NET の AI 機能で文法チェックと要約を実装する手順を学びます。 |
 | [C# で Word 文書の文法チェック – 完全プログラミングガイド](./check-grammar-word-document-in-c-complete-programming-guide/) Aspose.Words for .NET を使用して、C# で Word 文書の文法チェックを行う完全ガイドです。 |
 | [C# で Word をロードし、AI で段落を書き換える方法](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) Aspose.Words for .NET を使用して、C# で Word 文書を読み込み、AI を活用して特定の段落を自動的に書き換える手順を解説します。 |
+| [C# で Aspose.Words AI を使って文法をチェックする方法](./how-to-check-grammar-in-c-with-aspose-words-ai/) Aspose.Words の AI 機能を活用し、C# で文書の文法エラーを自動的に検出・修正する手順を学びます。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

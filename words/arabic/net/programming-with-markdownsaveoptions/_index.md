@@ -52,6 +52,7 @@
 ### [حفظ Word كـ Markdown – دليل كامل لتحويل DOCX واستخراج الصور](./save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
 
 ### [تحويل Word إلى Markdown – تضمين الصور كـ Base64](./convert-word-to-markdown-embed-images-as-base64/)
+
 ### [كيفية تصدير LaTeX: تحويل DOCX إلى Markdown و TXT](./how-to-export-latex-convert-docx-to-markdown-txt/)
 
 ### [كيفية إعادة تسمية الصور عند تحويل DOCX إلى Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)
@@ -148,6 +149,9 @@
 ### [كيفية تحويل Word إلى Markdown في C# – دليل كامل](./how-to-convert-word-to-markdown-in-c-complete-guide/)
 
 ### [تحويل DOCX إلى Markdown في C# – دليل كامل](./convert-docx-to-markdown-in-c-complete-guide/)
+### [كيفية حفظ Markdown من Word – دليل كامل لاستخراج الصور وتحويل DOCX](./how-to-save-markdown-from-word-complete-guide-to-extract-ima/)
+
+### [تحويل DOCX إلى Markdown – دليل كامل لتصدير Word إلى Markdown](./convert-docx-to-markdown-complete-guide-to-export-word-to-ma/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

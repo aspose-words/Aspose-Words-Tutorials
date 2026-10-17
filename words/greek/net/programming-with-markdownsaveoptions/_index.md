@@ -88,6 +88,8 @@
 | [Πώς να εξάγετε συνδέσμους: Μετατροπή DOCX σε Markdown σε C#](./how-to-export-links-convert-docx-to-markdown-in-c/) | Μάθετε πώς να εξάγετε συνδέσμους από DOCX σε μορφή Markdown με C# και Aspose.Words. |
 | [Πώς να μετατρέψετε το Word σε Markdown σε C# – Πλήρης Οδηγός](./how-to-convert-word-to-markdown-in-c-complete-guide/) | Μάθετε πώς να μετατρέψετε έγγραφα Word σε Markdown με πλήρη οδηγό C# χρησιμοποιώντας Aspose.Words. |
 | [Μετατροπή DOCX σε Markdown σε C# – Πλήρης Οδηγός](./convert-docx-to-markdown-in-c-complete-guide/) | Μάθετε πώς να μετατρέψετε αρχεία DOCX σε Markdown με πλήρη οδηγό C# χρησιμοποιώντας Aspose.Words. |
+| [Πώς να αποθηκεύσετε Markdown από το Word – Πλήρης Οδηγός για Εξαγωγή Εικόνων και Μετατροπή DOCX](./how-to-save-markdown-from-word-complete-guide-to-extract-ima/) | Μάθετε πώς να αποθηκεύσετε έγγραφα Word ως Markdown, εξάγοντας εικόνες και μετατρέποντας DOCX, με πλήρη οδηγό. |
+| [Μετατροπή DOCX σε Markdown – Πλήρης Οδηγός για Εξαγωγή Word σε Markdown](./convert-docx-to-markdown-complete-guide-to-export-word-to-ma/) | Μάθετε πώς να μετατρέψετε έγγραφα DOCX σε Markdown με πλήρη οδηγό βήμα‑βήμα χρησιμοποιώντας Aspose.Words για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

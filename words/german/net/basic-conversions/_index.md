@@ -61,6 +61,7 @@
 | [DOCX als TXT speichern – Vollständige Anleitung zur Konvertierung von Word-Dateien in Klartext](./save-docx-as-txt-complete-guide-to-converting-word-files-to/) | Erfahren Sie, wie Sie DOCX mit Aspose.Words für .NET in Textdateien (TXT) konvertieren – Schritt‑für‑Schritt‑Anleitung mit Codebeispielen. |
 | [PDF aus Word in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./how-to-create-pdf-from-word-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein PDF aus einem Word‑Dokument in C# generieren – detaillierte Schritt‑für‑Schritt‑Anleitung. |
 | [PDF aus Word in C# erstellen – Vollständiger Low‑Code‑Leitfaden](./create-pdf-from-word-in-c-complete-lowcode-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET in C# PDFs aus Word-Dokumenten erstellen – vollständige Low‑Code‑Anleitung. |
+| [DOCX in PDF mit C# konvertieren – Schritt‑für‑Schritt‑Anleitung](./convert-docx-to-pdf-with-c-step-by-step-guide/) | Erfahren Sie, wie Sie DOCX mit Aspose.Words in C# in PDF konvertieren. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

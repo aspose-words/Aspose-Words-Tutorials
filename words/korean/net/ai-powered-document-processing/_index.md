@@ -55,6 +55,7 @@
 | [Aspose.Words AI로 문법 검사 및 Word 문서 요약하는 방법](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Aspose.Words for .NET을 사용하여 문법을 검사하고 문서를 요약하는 방법을 단계별로 안내합니다. |
 | [C#을 사용한 Word 문서 문법 검사 – 완전 프로그래밍 가이드](./check-grammar-word-document-in-c-complete-programming-guide/) | C#과 Aspose.Words를 활용하여 Word 문서의 문법을 자동으로 검사하고 교정하는 방법을 단계별로 안내합니다. |
 | [C#에서 Word를 로드하고 AI로 단락을 재작성하는 방법](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Aspose.Words for .NET을 사용해 C#에서 Word 문서를 로드하고 AI로 단락을 자동 재작성하는 방법을 단계별로 안내합니다. |
+| [C#에서 Aspose.Words AI로 문법 검사하는 방법](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Aspose.Words AI를 활용해 C# 코드에서 문법 오류를 자동으로 감지하고 교정하는 단계별 가이드. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

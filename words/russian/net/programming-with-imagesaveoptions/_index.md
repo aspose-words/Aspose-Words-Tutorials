@@ -35,6 +35,7 @@
 | [Как установить DPI при конвертации Word в PNG – Руководство по экспорту в высоком разрешении](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) | Узнайте, как задать DPI при конвертации Word в PNG с высоким разрешением с помощью Aspose.Words for .NET. |
 
 | [Создать сетку PNG из документа Word – Полное руководство](./create-png-grid-from-word-document-complete-guide/) | Узнайте, как создать сетку PNG из документа Word с помощью Aspose.Words for .NET в полном руководстве. |
+| [Как установить разрешение при конвертации Word в PNG – Полное руководство](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Узнайте, как задать разрешение при конвертации Word в PNG с помощью Aspose.Words for .NET в полном руководстве. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -30,6 +30,7 @@ OfficeMath ile Word İşleme konusunda Aspose.Words for .NET eğitimleri, Word b
 | [docx'i txt olarak kaydet – C#'ta Word Matematiğini LaTeX'e Dışa Aktar](./save-docx-as-txt-export-word-math-to-latex-in-c/) | C# kullanarak docx dosyasını txt olarak kaydedin ve Word Math denklemlerini LaTeX formatına dönüştürün. |
 
 | [Word'ü LaTeX'e Dönüştür – Office Math'i LaTeX Olarak Dışa Aktarmak İçin Tam C# Kılavuzu](./convert-word-to-latex-complete-c-guide-to-export-office-math/) | Aspose.Words for .NET kullanarak Word belgelerindeki Office Math denklemlerini LaTeX formatına nasıl dışa aktaracağınızı öğrenin. |
+| [Office Math'i LaTeX olarak kaydet – Word denklemlerini C# ile LaTeX'e dışa aktar](./save-office-math-latex-export-word-equations-to-latex-in-c/) | C# kullanarak Word belgelerindeki Office Math denklemlerini LaTeX formatına dönüştürün. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
