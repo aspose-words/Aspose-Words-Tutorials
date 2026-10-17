@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: Este tutorial muestra cómo crear un nuevo documento Word, agregar tres párrafos, localizar un párrafo específico, adjuntar un comentario con la información del autor a él, y guardar el resultado como un archivo DOCX usando Aspose.Words.
+//ExStepSummary:0: Instancie un nuevo Document y un DocumentBuilder para comenzar a construir el archivo Word.
+//ExStepSummary:1: Utilice DocumentBuilder.Writeln para agregar tres párrafos de texto separados al documento.
+//ExStepSummary:2: Recupere de forma segura el segundo párrafo, recurriendo al primero si el documento tiene menos de dos párrafos.
+//ExStepSummary:3: Cree un Comment con los datos del autor, establezca su texto y adjúntelo al párrafo seleccionado.
+//ExStepSummary:4: Guarde el documento modificado como un archivo DOCX llamado 'sample.docx' en la carpeta actual.
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder builderObj = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+builderObj.Writeln("Introductory line.");
+builderObj.Writeln("Middle line.");
+builderObj.Writeln("Concluding line.");
+
+//ExStep:2-
+Paragraph? chosenParagraph = null;
+ParagraphCollection? paraList = wordDoc.FirstSection?.Body?.Paragraphs;
+if (paraList != null && paraList.Count > 1)
+{
+    chosenParagraph = paraList[1];
+}
+else if (paraList != null && paraList.Count > 0)
+{
+    chosenParagraph = paraList[0];
+}
+
+//ExStep:3-
+if (chosenParagraph != null)
+{
+    Comment note = new Comment(wordDoc, "Jordan", "JH", DateTime.Now);
+    note.SetText("Please examine this section.");
+    chosenParagraph.AppendChild(note);
+}
+
+//ExStep:4-
+wordDoc.Save("sample.docx");
+//ExEnd

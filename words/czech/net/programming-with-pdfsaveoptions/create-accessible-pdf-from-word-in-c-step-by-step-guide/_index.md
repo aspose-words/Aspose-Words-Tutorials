@@ -1,25 +1,24 @@
 ---
 category: general
-date: 2026-04-01
+date: 2026-03-06
 description: Vytvořte přístupný PDF z dokumentu Word pomocí Aspose.Words v C#. Naučte
-  se, jak převést Word na PDF, exportovat docx do PDF a zajistit soulad s PDF/UA‑2.
+  se, jak převést Word do PDF, uložit Word jako PDF a zajistit soulad s PDF/UA‑1.
 draft: false
 keywords:
 - create accessible pdf
 - convert word to pdf
+- save word as pdf
 - export docx to pdf
-- save docx as pdf
-- how to convert word to pdf
+- save word document pdf
 language: cs
-og_description: Vytvořte přístupný PDF z Wordu pomocí Aspose.Words. Tento tutoriál
-  ukazuje, jak převést Word do PDF, exportovat docx do PDF a splnit standardy PDF/UA‑2.
+og_description: Vytvořte přístupný PDF z Wordu pomocí Aspose.Words. Tento průvodce
+  ukazuje, jak převést Word do PDF, uložit Word jako PDF a splnit standardy PDF/UA‑1.
 og_title: Vytvořte přístupný PDF z Wordu v C# – Kompletní průvodce
 tags:
 - Aspose.Words
 - C#
-- PDF/UA
-- Accessibility
-title: Vytvořte přístupný PDF z Wordu v C# – průvodce krok za krokem
+- PDF/UA‑1
+title: Vytvořte přístupný PDF z Wordu v C# – krok za krokem průvodce
 url: /cs/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-in-c-step-by-step-guide/
 ---
 
@@ -27,227 +26,178 @@ url: /cs/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-in-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvoření přístupného PDF z Wordu v C# – krok za krokem průvodce
+# Vytvoření přístupného PDF z Wordu v C# – Kompletní průvodce
 
-Už jste někdy potřebovali **create accessible PDF** z Word souboru a nebyli jste si jisti, kterou knihovnu použít? Nejste jediní — mnoho vývojářů narazí na tento problém, když musí splnit požadavky na přístupnost PDF/UA‑2 pro právní nebo firemní soulad.  
+Potřebujete **vytvořit přístupné pdf** ze souboru Word? V tomto tutoriálu vám ukážeme, jak **převést Word do pdf** pomocí Aspose.Words a zároveň splnit přísný standard přístupnosti PDF/UA‑1. Ať už budujete portál zaměřený na soulad s předpisy, nebo jen chcete, aby si každý uživatel mohl přečíst vaše dokumenty, níže uvedené kroky vás z .docx dostanou k plně označenému PDF během několika řádků C#.
 
-Dobrá zpráva? S Aspose.Words můžete **convert Word to PDF**, **export docx to PDF** a **save docx as PDF** během několika řádků. V tomto tutoriálu projdeme celý proces, vysvětlíme *proč* je každý krok důležitý a pokryjeme několik okrajových případů, na které můžete narazit.
+Probereme vše, co potřebujete vědět: načtení `.docx`, nastavení správných `PdfSaveOptions` a nakonec **uložení Word dokumentu jako pdf**. Na konci budete mít znovupoužitelný úryvek, který můžete vložit do libovolného .NET projektu, plus tipy pro okrajové případy jako velké soubory nebo vlastní fonty. Žádné externí nástroje, žádná magie — jen čistý kód, který funguje dnes.
 
-> **Rychlý TL;DR:** Nainstalujte Aspose.Words, načtěte svůj `.docx`, nastavte `PdfSaveOptions.Compliance = PdfCompliance.PdfUATwo` a zavolejte `doc.Save(...)`. To je vše.
+## Co budete potřebovat
 
----
+- **Aspose.Words for .NET** (jakákoli aktuální verze; ukázané API funguje s 23.x a novějšími).  
+- Vývojové prostředí .NET — Visual Studio, Rider nebo `dotnet` CLI.  
+- Zdrojový Word soubor (`.docx`), který chcete učinit přístupným.  
 
-## Co se naučíte
-
-- Jak **create accessible PDF**, která projde validací PDF/UA‑2.
-- Přesný kód potřebný k **convert Word to PDF** pomocí Aspose.Words.
-- Tipy pro práci s velkými dokumenty, vlastními fonty a zpracování chyb.
-- Kam se dále podívat, pokud potřebujete přidat vodoznaky, záložky nebo digitální podpisy.
-
-### Předpoklady
-
-- .NET 6+ (nebo .NET Framework 4.7.2+).  
-- Platná licence Aspose.Words (zdarma zkušební verze funguje pro testování).  
-- Základní znalost C# a Visual Studio nebo VS Code.
-
-Pokud vám něco chybí, pořiďte si to hned—jinak se ponořme dál.
-
----
-
-## Vytvoření přístupného PDF – Přehled
-
-Než napíšeme jakýkoli kód, stojí za to pochopit *proč* nastavujeme příznak souladu. PDF/UA‑2 (PDF/Universal Accessibility) zajišťuje, že čtečky obrazovky mohou interpretovat strukturu dokumentu, tabulky jsou správně označeny a pořadí navigace odpovídá pořadí čtení. Bez tohoto příznaku můžete skončit s perfektně vypadajícím PDF, které neprojde audit přístupnosti.
-
-![Příklad vytvořeného přístupného PDF](https://example.com/images/accessible-pdf.png "Snímek obrazovky zobrazující vygenerovaný přístupný PDF dokument")
-
-*Alt text: “snímek obrazovky vytvořeného přístupného pdf zobrazujícího označené nadpisy a čitelný text”*
-
----
-
-## Krok 1: Instalace Aspose.Words
-
-Nejprve—přidejte NuGet balíček do svého projektu. Otevřete terminál ve složce řešení a spusťte:
+Pokud jste ještě nenainstalovali NuGet balíček, spusťte:
 
 ```bash
 dotnet add package Aspose.Words
 ```
 
-Nebo, pokud dáváte přednost Package Manager Console ve Visual Studio:
+To je vše — žádné další závislosti.
 
-```powershell
-Install-Package Aspose.Words
-```
+## Krok 1: Načtení Word dokumentu
 
-**Pro tip:** Použijte nejnovější stabilní verzi (aktuálně 23.12), abyste získali nejnovější opravy PDF/UA.
-
----
-
-## Krok 2: Načtení zdrojového Word dokumentu
-
-Nyní, když je knihovna k dispozici, musíme načíst `.docx` do paměti. Třída `Document` provádí veškerou těžkou práci.
+Nejprve načteme `.docx` do paměti. Představte si `Document` jako most mezi Wordem a PDF.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-// Replace with your actual file path
+// Replace with the actual path to your source file
 string inputPath = @"C:\Docs\input.docx";
 
-try
-{
-    // Step 2: Load the source Word document
-    Document doc = new Document(inputPath);
-}
-catch (Exception ex)
-{
-    Console.WriteLine($"Failed to load document: {ex.Message}");
-    throw;
-}
+Document wordDoc = new Document(inputPath);
 ```
 
-**Proč je to důležité:** Aspose.Words parsuje Word soubor, zachovává styly, nadpisy a skryté metadata. Tyto prvky se stávají základem pro přístupné značky ve finálním PDF.
+**Proč je to důležité:** Načtení dokumentu hned na začátku vám poskytne přístup k jeho struktuře (styly, nadpisy, tabulky), kterou Aspose.Words později převede na PDF značky. Přeskočení tohoto kroku nebo použití surového proudu může ztratit metadata, na která se spoléhají nástroje pro přístupnost.
 
----
+> **Pro tip:** Pokud pracujete s uživateli nahrávanými soubory, zabalte načítání do `try‑catch` bloku a ověřte velikost souboru před voláním `new Document()`, abyste předešli špičkám paměti.
 
-## Krok 3: Konfigurace PDF Save Options pro přístupnost
+## Krok 2: Nastavení PDF Save Options pro PDF/UA‑1
 
-Kouzlo nastane, když řekneme Aspose.Words, aby vytvořil soubor kompatibilní s PDF/UA‑2. To se provádí pomocí `PdfSaveOptions`.
+Jádrem tvorby **přístupného pdf** je vlastnost `PdfSaveOptions.Compliance`. Nastavením na `PdfCompliance.PdfUa1` řeknete Aspose, aby vložil potřebné značky, alternativní text a logické pořadí čtení.
 
 ```csharp
-// Step 3: Create PDF save options and enable PDF/UA‑2 compliance
-PdfSaveOptions pdfOptions = new PdfSaveOptions
+PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
 {
-    // Ensures the resulting PDF meets accessibility standards
-    Compliance = PdfCompliance.PdfUATwo,
+    // Enforce PDF/UA‑1 compliance (the official accessibility spec)
+    Compliance = PdfCompliance.PdfUa1,
 
-    // Optional: embed all fonts to avoid missing‑glyph issues
-    EmbedFullFonts = true,
-
-    // Optional: set a custom DPI for better image quality
-    ImageDpi = 300
+    // Optional: preserve original document layout exactly
+    // (helps when you have complex tables or multi‑column layouts)
+    PreserveFormFields = true
 };
 ```
 
-**Proč nastavujeme `Compliance = PdfUATwo`:** Vynutí, aby Aspose.Words označil nadpisy, tabulky, seznamy a další strukturované prvky podle specifikace PDF/UA. Bez toho by PDF vypadalo v pořádku, ale neprošlo audit přístupnosti.
+**Proč je to důležité:** PDF/UA‑1 je ISO standard pro univerzálně přístupná PDF. Bez tohoto příznaku by výstup byl jen vizuální PDF — čtečky obrazovky by se potýkaly s chybějícími značkami.  
 
----
+> **Pozor:** Některé starší PDF prohlížeče ignorují metadata PDF/UA‑1. Pokud potřebujete zpětnou kompatibilitu, můžete zároveň vygenerovat i verzi bez UA.
 
-## Krok 4: Uložení dokumentu jako přístupného PDF
+## Krok 3: Uložení dokumentu jako PDF
 
-Nakonec zapíšeme PDF na disk pomocí právě nastavených možností.
+Nyní zapíšeme soubor. Metoda `Save` přijímá cílovou cestu a možnosti, které jsme právě nakonfigurovali.
 
 ```csharp
-// Step 4: Save the document as a PDF using the configured options
 string outputPath = @"C:\Docs\output.pdf";
 
-try
-{
-    doc.Save(outputPath, pdfOptions);
-    Console.WriteLine($"✅ Accessible PDF created at: {outputPath}");
-}
-catch (Exception ex)
-{
-    Console.WriteLine($"Failed to save PDF: {ex.Message}");
-    throw;
-}
+wordDoc.Save(outputPath, pdfSaveOptions);
 ```
 
-Když otevřete `output.pdf` v Adobe Acrobat Pro a spustíte **Accessibility Check**, měli byste vidět **0 chyb** (předpokládáme, že váš původní Word soubor byl dobře strukturovaný).
+Po dokončení volání je `output.pdf` plně označený, **export docx to pdf**, který projde většinou validátorů přístupnosti (např. PAC 3). Otevřete jej v Adobe Acrobat Pro a spusťte „Full Check“ — měli byste vidět zelenou fajfku pro soulad s PDF/UA.
 
----
+### Kompletní funkční příklad
 
-## Převod Wordu do PDF – Běžné varianty
-
-### 1. Převod ve Web API
-
-Pokud potřebujete tuto funkci zpřístupnit přes endpoint ASP.NET Core, zabalte logiku do akce kontroleru:
+Spojením všech částí získáte samostatnou konzolovou aplikaci, kterou můžete zkopírovat a spustit:
 
 ```csharp
-[HttpPost("api/pdf/convert")]
-public IActionResult ConvertToPdf([FromForm] IFormFile file)
+using System;
+using Aspose.Words;
+using Aspose.Words.Saving;
+
+class Program
 {
-    using var stream = file.OpenReadStream();
-    var doc = new Document(stream);
-    var options = new PdfSaveOptions { Compliance = PdfCompliance.PdfUATwo };
-    using var outStream = new MemoryStream();
-    doc.Save(outStream, options);
-    outStream.Position = 0;
-    return File(outStream, "application/pdf", $"{Path.GetFileNameWithoutExtension(file.FileName)}.pdf");
+    static void Main()
+    {
+        // 1️⃣ Load the source Word document
+        string inputPath = @"C:\Docs\input.docx";
+        Document wordDoc = new Document(inputPath);
+
+        // 2️⃣ Configure PDF/UA‑1 compliance
+        PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
+        {
+            Compliance = PdfCompliance.PdfUa1,
+            PreserveFormFields = true
+        };
+
+        // 3️⃣ Save as an accessible PDF
+        string outputPath = @"C:\Docs\output.pdf";
+        wordDoc.Save(outputPath, pdfSaveOptions);
+
+        Console.WriteLine("✅ Accessible PDF created at: " + outputPath);
+    }
 }
 ```
 
-### 2. Práce s velkými soubory
+Spusťte program a uvidíte potvrzovací zprávu. Vygenerované PDF lze otevřít v libovolném prohlížeči a asistenční technologie budou číst nadpisy, tabulky i obrázky ve správném pořadí.
 
-Pro dokumenty větší než 100 MB povolte **streaming**, aby se předešlo `OutOfMemoryException`:
+## Běžné varianty a okrajové případy
+
+### 1. Převod více souborů najednou
+
+Pokud potřebujete **convert word to pdf** pro celou složku, zabalte logiku do smyčky:
 
 ```csharp
-PdfSaveOptions largeOptions = new PdfSaveOptions
+string[] docxFiles = Directory.GetFiles(@"C:\Docs\Batch", "*.docx");
+foreach (var file in docxFiles)
 {
-    Compliance = PdfCompliance.PdfUATwo,
-    // Saves each page as a separate stream internally
-    SaveFormat = SaveFormat.Pdf,
-    MemoryUsageSetting = MemoryUsageSetting.LowResolution
-};
-doc.Save(outputPath, largeOptions);
+    var doc = new Document(file);
+    string pdfPath = Path.ChangeExtension(file, ".pdf");
+    doc.Save(pdfPath, pdfSaveOptions);
+}
 ```
 
-### 3. Přidání vlastních značek
+### 2. Přidání alternativního textu k obrázkům
 
-Někdy potřebujete vložit další značky (např. vlastní atribut jazyka). Použijte vlastnost `PdfSaveOptions.TaggedPdf`:
+Přístupnost není jen o značkách; obrázky potřebují popisný alt text. Aspose.Words respektuje vlastnost `AlternativeText` u objektů `Shape`. Pokud generujete Word soubor programově, nastavte ji takto:
 
 ```csharp
-pdfOptions.TaggedPdf = true; // already true for PDF/UA‑2, but explicit is clearer
+Shape picture = new Shape(doc, ShapeType.Image);
+picture.ImageData.SetImage("logo.png");
+picture.AlternativeText = "Company logo – white on blue background";
 ```
 
----
+Po exportu PDF přenese stejný popis.
 
-## Export docx do PDF – Seznam nejlepších postupů
+### 3. Práce s velkými dokumenty
 
-| ✅ | Položka kontrolního seznamu |
-|---|------------------------------|
-| ✅ | Použít nejnovější verzi Aspose.Words |
-| ✅ | Ověřit, že zdrojový `.docx` má správné styly nadpisů |
-| ✅ | Nastavit `PdfSaveOptions.Compliance = PdfCompliance.PdfUATwo` |
-| ✅ | Vložit fonty (`EmbedFullFonts = true`) pro konzistentní vykreslování |
-| ✅ | Spustit audit přístupnosti na vygenerovaném PDF |
-| ✅ | Zpracovávat výjimky a logovat cesty k souborům pro ladění |
+Velmi velké `.docx` soubory (stovky stránek) mohou zatížit paměť. Použijte `LoadOptions` s `LoadFormat.Docx` a povolte streamování `LoadOptions.LoadFormat`:
 
-Pokud je některá z těchto položek nezaškrtnutá, můžete skončit s PDF, které vypadá v pořádku, ale neprojde testem souladu.
+```csharp
+LoadOptions loadOptions = new LoadOptions { LoadFormat = LoadFormat.Docx };
+Document largeDoc = new Document(inputPath, loadOptions);
+largeDoc.Save(outputPath, pdfSaveOptions);
+```
 
----
+### 4. Vkládání vlastních fontů
 
-## Uložení docx jako PDF – FAQ řešení problémů
+Pokud váš Word soubor používá nestandardní fonty, ujistěte se, že jsou vloženy, aby PDF správně vykreslilo dokument pro všechny uživatele:
 
-**Q: Mé PDF vypadá v pořádku, ale kontrola přístupnosti hlásí chybějící značky.**  
-A: Ujistěte se, že váš Word dokument používá vestavěné styly nadpisů (`Heading 1`, `Heading 2`, …). Vlastní styly nejsou automaticky označeny, pokud je nepropojujete pomocí `PdfSaveOptions.CustomHeadingLevels`.
+```csharp
+pdfSaveOptions.FontEmbeddingMode = FontEmbeddingMode.EmbedAll;
+```
 
-**Q: Ve PDF jsou nahrazeny fonty.**  
-A: Nastavte `EmbedFullFonts = true` a ujistěte se, že soubory fontů jsou přístupné na serveru. Pokud běžíte v Linux kontejneru, nainstalujte požadované fonty systémově.
+Vkládání fontů také zabraňuje přepnutí na výchozí fonty, které by mohly narušit pořadí čtení.
 
-**Q: Převod je pomalý u 200‑stránkového reportu.**  
-A: Povolte `MemoryUsageSetting = MemoryUsageSetting.LowResolution` nebo rozdělte dokument na sekce a každou převádějte zvlášť.
+## Ověření výsledku
 
----
+Po vygenerování PDF:
 
-## Jak převést Word do PDF – Další kroky
+1. Otevřete jej v **Adobe Acrobat Pro** → *Tools* → *Accessibility* → *Full Check*.  
+2. Vyhledejte **PDF/UA** fajfku.  
+3. Použijte čtečku obrazovky (NVDA, JAWS) k navigaci nadpisů a tabulek — měly by následovat logické pořadí, které vidíte ve Wordu.
 
-Nyní, když můžete **create accessible PDF** soubory, zvažte rozšíření workflow:
-
-- **Watermarking** – Použijte `PdfSaveOptions.AdditionalOptions["Watermark"] = "Confidential"`.
-- **Digital Signatures** – Kombinujte Aspose.PDF s Aspose.Words pro podepsání výstupu.
-- **Batch Processing** – Procházejte složku s `.docx` soubory a generujte PDF paralelně (`Parallel.ForEach`).
-
-Každé z těchto témat si zaslouží vlastní podrobný rozbor, ale základní vzor zůstává stejný: načíst → nakonfigurovat → uložit.
-
----
+Pokud se objeví nějaké problémy, vraťte se ke zdrojovému Word dokumentu: zajistěte správné styly nadpisů (`Heading 1`, `Heading 2`, …) a přidejte alt text ke všem obrázkům. PDF engine může převést jen to, co už v dokumentu existuje.
 
 ## Závěr
 
-Probrali jsme vše, co potřebujete k **create accessible PDF** z Word dokumentu pomocí Aspose.Words v C#. Kompletní řešení se zredukuje na několik řádků kódu, přičemž poskytuje soulad s PDF/UA‑2 ihned po vybalení — klíčový požadavek pro mnoho regulovaných odvětví.  
+Nyní víte, jak **vytvořit přístupné pdf** ze souboru Word pomocí Aspose.Words, jak **convert word to pdf**, **save word as pdf**, a dokonce **export docx to pdf**, a to vše v souladu s PDF/UA‑1 standardem. Ukázkový úryvek je připravený do produkce, řeší běžné úskalí a lze jej rozšířit o hromadné zpracování nebo vkládání vlastních fontů.
 
-Vyzkoušejte to s vlastními `.docx` soubory, experimentujte s volitelnými nastaveními a nechte kontrolu přístupnosti potvrdit, že jste dosáhli cíle. Pokud narazíte na problémy, podívejte se znovu na výše uvedený kontrolní seznam nebo zanechte komentář — šťastné programování!
+Co dál? Zkuste přidat **metadata** (název, autor, jazyk) do PDF, nebo experimentovat s **digitálními podpisy** pro odvětví s přísnými požadavky na soulad. Principy jsou stejné — nastavte správné možnosti a Aspose udělá těžkou práci.
 
----
+Pokud se vám tento průvodce hodil, sdílejte ho, zanechte komentář s vlastními tipy nebo prozkoumejte další Aspose.Words tutoriály o **saving Word as PDF**, **PDF/UA validation** a **document automation**. Šťastné kódování a užívejte si tvorbu skutečně přístupných dokumentů!  
+
+![Create accessible pdf example](image-placeholder.png "Create accessible pdf example")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -35,6 +35,8 @@ Dans ces tutoriels, nous nous concentrerons non seulement sur la création de do
 Apprenez à styliser et à traiter des documents avec Aspose.Words pour Java ! Créez des résultats visuellement époustouflants grâce à des exemples de code source. 
 ### [Application de styles et de polices dans les documents](./applying-styles-fonts/)
 Apprenez à appliquer des styles et des polices à vos documents avec Aspose.Words pour Java. Guide étape par étape avec code source. Exploitez tout le potentiel de la mise en forme de vos documents.
+### [Comment détecter les polices dans les documents Word Java – Guide complet](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
+Apprenez à détecter les polices utilisées dans les documents Word avec Aspose.Words pour Java. Guide complet avec exemples de code source.
 ### [Mise en forme des paragraphes et du texte dans les documents](./styling-paragraphs-text/)
 Apprenez à mettre en forme les paragraphes et le texte de vos documents avec Aspose.Words pour Java. Guide étape par étape avec code source pour une mise en forme efficace de vos documents.
 ### [Personnalisation des thèmes de documents](./customizing-document-themes/)

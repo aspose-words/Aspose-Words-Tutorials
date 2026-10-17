@@ -62,6 +62,7 @@ Office Math 物件代表 Microsoft Office 使用的豐富方程式格式。Aspos
 Document doc = new Document("Your Directory Path" + "OfficeMath.docx");
 ```
 
+
 ### 步驟 2：存取 Office Math 物件
 
 取得第一個 `OfficeMath` 節點（若有多個可稍後迴圈）：
@@ -85,6 +86,7 @@ officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
 ```java
 officeMath.setJustification(OfficeMathJustification.LEFT);
 ```
+
 
 ### 步驟 5：儲存已修改的文件
 

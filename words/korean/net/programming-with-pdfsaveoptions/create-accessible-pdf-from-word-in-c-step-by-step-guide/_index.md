@@ -1,25 +1,24 @@
 ---
 category: general
-date: 2026-04-01
-description: Aspose.Words를 사용하여 C#에서 Word 문서로부터 접근성 PDF를 생성합니다. Word를 PDF로 변환하고, docx를
-  PDF로 내보내는 방법을 배우며, PDF/UA‑2 준수를 보장합니다.
+date: 2026-03-06
+description: C#에서 Aspose.Words를 사용해 Word 문서에서 접근성 PDF를 생성합니다. Word를 PDF로 변환하고, Word를
+  PDF로 저장하는 방법과 PDF/UA‑1 준수를 보장하는 방법을 배워보세요.
 draft: false
 keywords:
 - create accessible pdf
 - convert word to pdf
+- save word as pdf
 - export docx to pdf
-- save docx as pdf
-- how to convert word to pdf
+- save word document pdf
 language: ko
-og_description: Aspose.Words를 사용하여 Word에서 접근성 PDF 만들기. 이 튜토리얼은 Word를 PDF로 변환하고, docx를
-  PDF로 내보내며, PDF/UA‑2 표준을 충족하는 방법을 보여줍니다.
-og_title: C#로 Word에서 접근 가능한 PDF 만들기 – 완전 가이드
+og_description: Aspose.Words를 사용하여 Word에서 접근 가능한 PDF를 만들기. 이 가이드는 Word를 PDF로 변환하고,
+  Word를 PDF로 저장하며, PDF/UA‑1 표준을 충족하는 방법을 보여줍니다.
+og_title: C#에서 Word로부터 접근성 PDF 만들기 – 완전 가이드
 tags:
 - Aspose.Words
 - C#
-- PDF/UA
-- Accessibility
-title: C#로 Word에서 접근성 PDF 만들기 – 단계별 가이드
+- PDF/UA‑1
+title: C#에서 Word를 사용해 접근성 PDF 만들기 – 단계별 가이드
 url: /ko/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-in-c-step-by-step-guide/
 ---
 
@@ -27,227 +26,178 @@ url: /ko/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-in-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# C#에서 Word를 사용해 접근성 PDF 만들기 – 단계별 가이드
+# C#에서 Word를 사용해 접근성 PDF 만들기 – 완전 가이드
 
-Word 파일에서 **접근성 PDF 만들기**가 필요했지만 어떤 라이브러리를 믿어야 할지 몰랐던 적이 있나요? 당신만 그런 것이 아닙니다—많은 개발자들이 법적·기업 규정에 맞춰 PDF/UA‑2 접근성 요구사항을 충족해야 할 때 이 문제에 부딪힙니다.  
+Word 파일에서 **접근성 PDF 만들기**가 필요하신가요? 이 튜토리얼에서는 Aspose.Words를 사용해 **Word를 PDF로 변환**하면서 엄격한 PDF/UA‑1 접근성 표준을 충족하는 방법을 보여드립니다. 컴플라이언스 중심 포털을 구축하든, 모든 사용자가 문서를 읽을 수 있게 하든, 아래 단계는 .docx를 몇 줄의 C# 코드만으로 완전 태그가 지정된 PDF로 변환합니다.
 
-좋은 소식은? Aspose.Words를 사용하면 **Word를 PDF로 변환**, **docx를 PDF로 내보내기**, 그리고 **docx를 PDF로 저장**을 몇 줄의 코드만으로 할 수 있습니다. 이번 튜토리얼에서는 전체 과정을 단계별로 살펴보고, 각 단계가 왜 중요한지 설명하며, 마주칠 수 있는 몇 가지 예외 상황도 다룹니다.
+우리는 알아야 할 모든 것을 다룰 것입니다: `.docx` 로드, 올바른 `PdfSaveOptions` 구성, 그리고 최종적으로 **Word 문서를 PDF로 저장**합니다. 끝까지 하면 어떤 .NET 프로젝트에도 넣을 수 있는 재사용 가능한 스니펫과 대용량 파일이나 사용자 정의 폰트와 같은 엣지 케이스에 대한 팁을 얻을 수 있습니다. 외부 도구도, 마법도 없습니다—오늘 바로 작동하는 순수 코드만 있습니다.
 
-> **Quick TL;DR:** Aspose.Words를 설치하고, `.docx`를 로드한 뒤 `PdfSaveOptions.Compliance = PdfCompliance.PdfUATwo`를 설정하고 `doc.Save(...)`를 호출하면 됩니다. 끝!
+## 필요 사항
 
----
+- **Aspose.Words for .NET** (최근 버전이면 모두 가능; 표시된 API는 23.x 및 이후 버전에서 작동합니다).  
+- .NET 개발 환경 – Visual Studio, Rider, 혹은 `dotnet` CLI면 충분합니다.  
+- 접근성을 부여하고 싶은 원본 Word 파일 (`.docx`).  
 
-## What You’ll Learn
-
-- PDF/UA‑2 검증을 통과하는 **접근성 PDF 만들기** 방법
-- Aspose.Words를 사용해 **Word를 PDF로 변환**하는 정확한 코드
-- 대용량 문서, 사용자 정의 폰트, 오류 처리 팁
-- 워터마크, 북마크, 디지털 서명을 추가하고 싶을 때 다음에 살펴볼 곳
-
-### Prerequisites
-
-- .NET 6+ (또는 .NET Framework 4.7.2+).  
-- 유효한 Aspose.Words 라이선스(무료 체험판으로 테스트 가능).  
-- C# 및 Visual Studio 또는 VS Code에 대한 기본 지식
-
-이 중 누락된 것이 있다면 지금 바로 준비하고, 준비가 되었다면 바로 시작해봅시다.
-
----
-
-## Create accessible PDF – Overview
-
-코드를 작성하기 전에 **왜** 컴플라이언스 플래그를 설정하는지 이해하는 것이 중요합니다. PDF/UA‑2(PDF/Universal Accessibility)는 스크린 리더가 문서 구조를 해석하고, 표가 올바르게 태그되며, 탐색 순서가 읽기 순서와 일치하도록 보장합니다. 이 플래그가 없으면 겉보기엔 완벽한 PDF가 만들어지지만 접근성 감사에서 실패할 수 있습니다.
-
-![Create accessible PDF example](https://example.com/images/accessible-pdf.png "Screenshot showing a generated accessible PDF document")
-
-*Alt text: “create accessible pdf screenshot showing tagged headings and readable text”*
-
----
-
-## Step 1: Install Aspose.Words
-
-먼저 NuGet 패키지를 프로젝트에 추가합니다. 솔루션 폴더에서 터미널을 열고 다음을 실행하세요:
+아직 NuGet 패키지를 설치하지 않으셨다면, 다음을 실행하세요:
 
 ```bash
 dotnet add package Aspose.Words
 ```
 
-또는 Visual Studio 내부의 Package Manager Console를 선호한다면:
+이것으로 끝—추가 종속성은 없습니다.
 
-```powershell
-Install-Package Aspose.Words
-```
+## 단계 1: Word 문서 로드
 
-> **Pro tip:** 최신 안정 버전(현재 23.12)을 사용하면 최신 PDF/UA 수정 사항을 받을 수 있습니다.
-
----
-
-## Step 2: Load the Source Word Document
-
-라이브러리를 사용할 준비가 되었으니 이제 `.docx` 파일을 메모리로 불러와야 합니다. `Document` 클래스가 모든 무거운 작업을 수행합니다.
+먼저, `.docx`를 메모리로 가져옵니다. `Document`를 Word와 PDF 사이의 다리라고 생각하면 됩니다.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-// Replace with your actual file path
+// Replace with the actual path to your source file
 string inputPath = @"C:\Docs\input.docx";
 
-try
-{
-    // Step 2: Load the source Word document
-    Document doc = new Document(inputPath);
-}
-catch (Exception ex)
-{
-    Console.WriteLine($"Failed to load document: {ex.Message}");
-    throw;
-}
+Document wordDoc = new Document(inputPath);
 ```
 
-**왜 중요한가:** Aspose.Words는 Word 파일을 파싱하면서 스타일, 헤딩, 숨겨진 메타데이터를 보존합니다. 이러한 요소들이 최종 PDF의 접근성 태그 기반이 됩니다.
+**왜 중요한가:** 문서를 일찍 로드하면 구조(스타일, 헤딩, 테이블)에 접근할 수 있으며, Aspose.Words가 이후에 이를 PDF 태그로 변환합니다. 이 단계를 건너뛰거나 원시 스트림을 사용하면 접근성 도구가 의존하는 메타데이터가 손실될 수 있습니다.
 
----
+> **프로 팁:** 사용자 업로드 파일을 처리할 경우, 로드를 `try‑catch` 블록으로 감싸고 `new Document()`를 호출하기 전에 파일 크기를 검증하여 메모리 급증을 방지하세요.
 
-## Step 3: Configure PDF Save Options for Accessibility
+## 단계 2: PDF/UA‑1용 PDF 저장 옵션 구성
 
-Aspose.Words에게 PDF/UA‑2 규격에 맞는 파일을 출력하도록 지시하면 마법이 일어납니다. 이는 `PdfSaveOptions`를 통해 설정합니다.
+**접근성 PDF**를 만들기의 핵심은 `PdfSaveOptions.Compliance` 속성입니다. 이를 `PdfCompliance.PdfUa1`로 설정하면 Aspose가 필요한 태그, 대체 텍스트, 논리적 읽기 순서를 삽입하도록 지시합니다.
 
 ```csharp
-// Step 3: Create PDF save options and enable PDF/UA‑2 compliance
-PdfSaveOptions pdfOptions = new PdfSaveOptions
+PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
 {
-    // Ensures the resulting PDF meets accessibility standards
-    Compliance = PdfCompliance.PdfUATwo,
+    // Enforce PDF/UA‑1 compliance (the official accessibility spec)
+    Compliance = PdfCompliance.PdfUa1,
 
-    // Optional: embed all fonts to avoid missing‑glyph issues
-    EmbedFullFonts = true,
-
-    // Optional: set a custom DPI for better image quality
-    ImageDpi = 300
+    // Optional: preserve original document layout exactly
+    // (helps when you have complex tables or multi‑column layouts)
+    PreserveFormFields = true
 };
 ```
 
-**왜 `Compliance = PdfUATwo`를 설정하는가:** 이 옵션은 Aspose.Words가 헤딩, 표, 리스트 및 기타 구조 요소를 PDF/UA 사양에 따라 태그하도록 강제합니다. 설정하지 않으면 PDF는 보기에는 괜찮지만 접근성 감사에서 실패합니다.
+**왜 중요한가:** PDF/UA‑1은 보편적으로 접근 가능한 PDF에 대한 ISO 표준입니다. 이 플래그가 없으면 출력은 시각적인 PDF만 되며, 스크린 리더는 태그가 없어서 제대로 읽지 못합니다.
 
----
+> **주의:** 일부 오래된 PDF 뷰어는 PDF/UA‑1 메타데이터를 무시합니다. 이전 호환성이 필요하면 접근 가능한 버전과 함께 비‑UA 버전을 생성할 수도 있습니다.
 
-## Step 4: Save the Document as an Accessible PDF
+## 단계 3: 문서를 PDF로 저장
 
-이제 앞서 구성한 옵션을 사용해 PDF를 디스크에 저장합니다.
+이제 파일을 저장합니다. `Save` 메서드는 대상 경로와 방금 구성한 옵션을 인수로 받습니다.
 
 ```csharp
-// Step 4: Save the document as a PDF using the configured options
 string outputPath = @"C:\Docs\output.pdf";
 
-try
-{
-    doc.Save(outputPath, pdfOptions);
-    Console.WriteLine($"✅ Accessible PDF created at: {outputPath}");
-}
-catch (Exception ex)
-{
-    Console.WriteLine($"Failed to save PDF: {ex.Message}");
-    throw;
-}
+wordDoc.Save(outputPath, pdfSaveOptions);
 ```
 
-`output.pdf`를 Adobe Acrobat Pro에서 열고 **Accessibility Check**를 실행하면 **0 errors**가 표시되어야 합니다(원본 Word 파일이 잘 구조화되어 있다고 가정).
+호출이 완료되면 `output.pdf`는 완전 태그가 지정된 **export docx to pdf**이며 대부분의 접근성 검증기(e.g., PAC 3)를 통과합니다. Adobe Acrobat Pro에서 열고 “Full Check”를 실행하면 PDF/UA 준수를 나타내는 초록색 체크마크가 표시됩니다.
 
----
+### 전체 작업 예제
 
-## Convert Word to PDF – Common Variations
-
-### 1. Converting in a Web API
-
-ASP.NET Core 엔드포인트를 통해 이 기능을 제공해야 한다면, 로직을 컨트롤러 액션으로 감싸면 됩니다:
+모두 합치면, 복사·붙여넣기만 하면 실행할 수 있는 독립형 콘솔 앱 예제가 아래에 있습니다:
 
 ```csharp
-[HttpPost("api/pdf/convert")]
-public IActionResult ConvertToPdf([FromForm] IFormFile file)
+using System;
+using Aspose.Words;
+using Aspose.Words.Saving;
+
+class Program
 {
-    using var stream = file.OpenReadStream();
-    var doc = new Document(stream);
-    var options = new PdfSaveOptions { Compliance = PdfCompliance.PdfUATwo };
-    using var outStream = new MemoryStream();
-    doc.Save(outStream, options);
-    outStream.Position = 0;
-    return File(outStream, "application/pdf", $"{Path.GetFileNameWithoutExtension(file.FileName)}.pdf");
+    static void Main()
+    {
+        // 1️⃣ Load the source Word document
+        string inputPath = @"C:\Docs\input.docx";
+        Document wordDoc = new Document(inputPath);
+
+        // 2️⃣ Configure PDF/UA‑1 compliance
+        PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
+        {
+            Compliance = PdfCompliance.PdfUa1,
+            PreserveFormFields = true
+        };
+
+        // 3️⃣ Save as an accessible PDF
+        string outputPath = @"C:\Docs\output.pdf";
+        wordDoc.Save(outputPath, pdfSaveOptions);
+
+        Console.WriteLine("✅ Accessible PDF created at: " + outputPath);
+    }
 }
 ```
 
-### 2. Handling Large Files
+프로그램을 실행하면 확인 메시지가 표시됩니다. 생성된 PDF는 모든 뷰어에서 열 수 있으며, 보조 기술이 헤딩, 테이블, 이미지를 올바른 순서대로 읽어줍니다.
 
-문서 크기가 100 MB를 초과할 경우, `OutOfMemoryException`을 방지하기 위해 **스트리밍**을 활성화합니다:
+## 일반적인 변형 및 엣지 케이스
+
+### 1. 배치로 여러 파일 변환
+
+전체 폴더에 대해 **convert word to pdf**가 필요하면, 로직을 루프에 감싸세요:
 
 ```csharp
-PdfSaveOptions largeOptions = new PdfSaveOptions
+string[] docxFiles = Directory.GetFiles(@"C:\Docs\Batch", "*.docx");
+foreach (var file in docxFiles)
 {
-    Compliance = PdfCompliance.PdfUATwo,
-    // Saves each page as a separate stream internally
-    SaveFormat = SaveFormat.Pdf,
-    MemoryUsageSetting = MemoryUsageSetting.LowResolution
-};
-doc.Save(outputPath, largeOptions);
+    var doc = new Document(file);
+    string pdfPath = Path.ChangeExtension(file, ".pdf");
+    doc.Save(pdfPath, pdfSaveOptions);
+}
 ```
 
-### 3. Adding Custom Tags
+### 2. 이미지에 대체 텍스트 추가
 
-때때로 추가 태그(예: 사용자 정의 언어 속성)를 삽입해야 할 때는 `PdfSaveOptions.TaggedPdf` 속성을 사용합니다:
+접근성은 태그뿐만 아니라 이미지에 설명적인 alt 텍스트가 필요합니다. Aspose.Words는 `Shape` 객체의 `AlternativeText` 속성을 지원합니다. 프로그래밍으로 Word 파일을 생성한다면 다음과 같이 설정하세요:
 
 ```csharp
-pdfOptions.TaggedPdf = true; // already true for PDF/UA‑2, but explicit is clearer
+Shape picture = new Shape(doc, ShapeType.Image);
+picture.ImageData.SetImage("logo.png");
+picture.AlternativeText = "Company logo – white on blue background";
 ```
 
----
+내보내면 PDF에 동일한 설명이 포함됩니다.
 
-## Export docx to PDF – Best Practices Checklist
+### 3. 대용량 문서 처리
 
-| ✅ | Checklist Item |
-|---|-----------------|
-| ✅ | Use the latest Aspose.Words version |
-| ✅ | Verify the source `.docx` has proper heading styles |
-| ✅ | Set `PdfSaveOptions.Compliance = PdfCompliance.PdfUATwo` |
-| ✅ | Embed fonts (`EmbedFullFonts = true`) for consistent rendering |
-| ✅ | Run an accessibility audit on the generated PDF |
-| ✅ | Handle exceptions and log file paths for debugging |
+수백 페이지에 달하는 매우 큰 `.docx` 파일은 메모리를 많이 소모할 수 있습니다. `LoadFormat.Docx`와 함께 `LoadOptions`를 사용하고 `LoadOptions.LoadFormat` 스트리밍을 활성화하세요:
 
-위 항목 중 하나라도 체크되지 않으면, 겉보기엔 괜찮은 PDF가 만들어지지만 컴플라이언스 테스트에서 실패할 수 있습니다.
+```csharp
+LoadOptions loadOptions = new LoadOptions { LoadFormat = LoadFormat.Docx };
+Document largeDoc = new Document(inputPath, loadOptions);
+largeDoc.Save(outputPath, pdfSaveOptions);
+```
 
----
+### 4. 사용자 정의 폰트 포함
 
-## Save docx as PDF – Troubleshooting FAQ
+Word 파일에 비표준 폰트를 사용한다면, PDF가 모든 사용자에게 올바르게 렌더링되도록 폰트를 포함해야 합니다:
 
-**Q: My PDF looks fine but the accessibility check reports missing tags.**  
-A: Word 문서가 기본 제공 헤딩 스타일(`Heading 1`, `Heading 2`, …)을 사용하고 있는지 확인하세요. 사용자 정의 스타일은 `PdfSaveOptions.CustomHeadingLevels`를 통해 매핑하지 않으면 자동으로 태그되지 않습니다.
+```csharp
+pdfSaveOptions.FontEmbeddingMode = FontEmbeddingMode.EmbedAll;
+```
 
-**Q: Fonts are substituted in the PDF.**  
-A: `EmbedFullFonts = true`를 설정하고 서버에서 폰트 파일에 접근할 수 있는지 확인하세요. Linux 컨테이너 환경이라면 시스템 전체에 필요한 폰트를 설치해야 합니다.
+폰트를 포함하면 기본 폰트로 대체되는 것을 방지해 읽기 순서가 깨지는 것을 막을 수 있습니다.
 
-**Q: The conversion is slow for a 200‑page report.**  
-A: `MemoryUsageSetting = MemoryUsageSetting.LowResolution`을 활성화하거나 문서를 섹션별로 나누어 각각 변환하십시오.
+## 결과 검증
 
----
+PDF를 생성한 후:
 
-## How to Convert Word to PDF – Next Steps
+1. **Adobe Acrobat Pro**에서 열고 → *Tools* → *Accessibility* → *Full Check*를 실행합니다.  
+2. **PDF/UA** 체크마크를 찾습니다.  
+3. 스크린 리더(NVDA, JAWS)를 사용해 헤딩과 테이블을 탐색합니다 – Word에서 보는 논리적 순서를 따라야 합니다.
 
-이제 **접근성 PDF 만들기**가 가능해졌으니 워크플로우를 확장해 보세요:
+문제가 발생하면 원본 Word 문서를 다시 확인하세요: 올바른 헤딩 스타일(`Heading 1`, `Heading 2`, …)을 사용하고 모든 그림에 alt 텍스트를 추가합니다. PDF 엔진은 이미 존재하는 내용만 변환할 수 있습니다.
 
-- **Watermarking** – `PdfSaveOptions.AdditionalOptions["Watermark"] = "Confidential"` 사용
-- **Digital Signatures** – Aspose.PDF와 Aspose.Words를 결합해 출력 파일에 서명
-- **Batch Processing** – 폴더에 있는 `.docx` 파일들을 순회하며 `Parallel.ForEach`로 병렬 처리해 PDF 생성
+## 결론
 
-이 주제들 각각은 별도의 심층 가이드를 필요로 하지만, 핵심 패턴은 변함없습니다: 로드 → 설정 → 저장.
+이제 Aspose.Words를 사용해 Word 파일에서 **접근성 PDF 만들기**, **word를 pdf로 변환**, **word를 pdf로 저장**, 그리고 **export docx to pdf**까지 PDF/UA‑1 표준을 충족하는 방법을 알게 되었습니다. 위 스니펫은 프로덕션에 바로 사용할 수 있으며 일반적인 함정을 처리하고 배치 처리나 사용자 정의 폰트 포함으로 확장할 수 있습니다.
 
----
+다음은? PDF에 **metadata**(제목, 저자, 언어)를 추가하거나, 컴플라이언스가 중요한 산업을 위해 **디지털 서명**을 실험해 보세요. 같은 원칙이 적용됩니다—올바른 옵션을 설정하면 Aspose가 무거운 작업을 수행합니다.
 
-## Conclusion
+이 가이드가 도움이 되었다면 공유하고, 여러분만의 팁을 댓글로 남기거나 **Word를 PDF로 저장**, **PDF/UA 검증**, **문서 자동화**에 관한 다른 Aspose.Words 튜토리얼을 살펴보세요. 즐거운 코딩 되시고, 진정으로 접근 가능한 문서를 만드는 즐거움을 누리세요!  
 
-우리는 C#에서 Aspose.Words를 사용해 Word 문서로부터 **접근성 PDF 만들기**에 필요한 모든 과정을 살펴보았습니다. 전체 솔루션은 몇 줄의 코드로 요약되지만, PDF/UA‑2 컴플라이언스를 즉시 제공해 주어 규제 산업에서 필수적인 요구사항을 충족합니다.  
-
-직접 `.docx` 파일로 시도해 보고, 선택 옵션들을 실험해 보며, 접근성 검사를 통해 정상 작동을 확인하세요. 문제가 발생하면 위 체크리스트를 다시 검토하거나 댓글을 남겨 주세요—행복한 코딩 되세요!
-
----
+![Create accessible pdf example](image-placeholder.png "Create accessible pdf example")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

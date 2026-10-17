@@ -1,25 +1,24 @@
 ---
 category: general
-date: 2026-04-01
-description: 使用 Aspose.Words 於 C# 從 Word 文件建立可存取的 PDF。了解如何將 Word 轉換為 PDF、將 docx 匯出為
-  PDF，並確保符合 PDF/UA‑2 標準。
+date: 2026-03-06
+description: 使用 Aspose.Words 於 C# 從 Word 文件建立可存取的 PDF。了解如何將 Word 轉換為 PDF、將 Word 儲存為
+  PDF，並確保符合 PDF/UA‑1 標準。
 draft: false
 keywords:
 - create accessible pdf
 - convert word to pdf
+- save word as pdf
 - export docx to pdf
-- save docx as pdf
-- how to convert word to pdf
+- save word document pdf
 language: zh-hant
-og_description: 使用 Aspose.Words 從 Word 建立可存取的 PDF。本教學示範如何將 Word 轉換為 PDF、將 docx 匯出為
-  PDF，並符合 PDF/UA‑2 標準。
-og_title: 使用 C# 從 Word 建立可存取的 PDF – 完整指南
+og_description: 使用 Aspose.Words 從 Word 建立可存取的 PDF。本指南說明如何將 Word 轉換為 PDF、將 Word 儲存為
+  PDF，並符合 PDF/UA‑1 標準。
+og_title: 使用 C# 從 Word 建立無障礙 PDF – 完整指南
 tags:
 - Aspose.Words
 - C#
-- PDF/UA
-- Accessibility
-title: 在 C# 中從 Word 建立可存取的 PDF – 步驟指南
+- PDF/UA‑1
+title: 使用 C# 從 Word 建立可存取的 PDF – 逐步指南
 url: /zh-hant/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-in-c-step-by-step-guide/
 ---
 
@@ -27,227 +26,178 @@ url: /zh-hant/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-wor
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 從 Word 建立可存取的 PDF（C#）— 步驟指南
+# 使用 C# 從 Word 建立可存取的 PDF – 完整指南
 
-是否曾需要 **建立可存取的 PDF**，卻不確定該使用哪個函式庫？你並非唯一遇到這個問題的人——許多開發者在必須符合 PDF/UA‑2 可存取性要求（例如法律或企業合規）時，都會卡在這裡。
+需要 **create accessible pdf** 從 Word 檔案嗎？在本教學中，我們將示範如何使用 Aspose.Words **convert Word to pdf**，同時符合嚴格的 PDF/UA‑1 可存取性標準。無論您是在建置以合規為導向的入口網站，或只是希望所有使用者都能閱讀您的文件，以下步驟可讓您在幾行 C# 程式碼內，將 .docx 轉換為完整標記的 PDF。
 
-好消息是：使用 Aspose.Words，你只需要幾行程式碼就能 **將 Word 轉換為 PDF**、**將 docx 匯出為 PDF**，以及 **將 docx 儲存為 PDF**。本教學將逐步說明整個流程、解釋每個步驟的原因，並探討可能遇到的少數例外情況。
+我們將涵蓋您需要了解的所有內容：載入 `.docx`、設定正確的 `PdfSaveOptions`，以及最後 **saving the Word document as pdf**。完成後，您將擁有可重複使用的程式碼片段，可直接放入任何 .NET 專案，並提供大型檔案或自訂字型等邊緣情況的技巧。無需外部工具，沒有魔法——只有即時可用的純程式碼。
 
-> **快速 TL;DR：** 安裝 Aspose.Words、載入 `.docx`、設定 `PdfSaveOptions.Compliance = PdfCompliance.PdfUATwo`，然後呼叫 `doc.Save(...)`。就這樣。
+## 您需要的條件
 
----
+- **Aspose.Words for .NET**（任何近期版本；此 API 在 23.x 及之後皆可使用）。  
+- .NET 開發環境 — Visual Studio、Rider，或 `dotnet` CLI 均可。  
+- 您想要製作可存取性的來源 Word 檔案（`.docx`）。
 
-## 你將學到什麼
-
-- 如何 **建立可通過 PDF/UA‑2 驗證的可存取 PDF**。
-- 使用 Aspose.Words **將 Word 轉換為 PDF** 的完整程式碼。
-- 處理大型文件、自訂字型與錯誤處理的技巧。
-- 若需加入浮水印、書籤或數位簽章，下一步該往哪裡找。
-
-### 前置條件
-
-- .NET 6+（或 .NET Framework 4.7.2+）。  
-- 有效的 Aspose.Words 授權（免費試用版可用於測試）。  
-- 基本的 C# 與 Visual Studio 或 VS Code 使用經驗。
-
-如果缺少上述任一項，請先取得，然後再繼續。
-
----
-
-## 建立可存取 PDF – 概觀
-
-在撰寫程式碼之前，先了解 **為什麼要設定相容性旗標**。PDF/UA‑2（PDF/Universal Accessibility）確保螢幕閱讀器能正確解讀文件結構、表格被正確標記，且導覽順序與閱讀順序相符。若未設定此旗標，可能會得到外觀完美卻在可存取性稽核中失敗的 PDF。
-
-![Create accessible PDF example](https://example.com/images/accessible-pdf.png "Screenshot showing a generated accessible PDF document")
-
-*Alt text: “create accessible pdf screenshot showing tagged headings and readable text”*
-
----
-
-## 步驟 1：安裝 Aspose.Words
-
-首先，將 NuGet 套件加入專案。於解決方案資料夾的終端機執行：
+如果您尚未安裝 NuGet 套件，請執行：
 
 ```bash
 dotnet add package Aspose.Words
 ```
 
-或是使用 Visual Studio 內的套件管理員主控台：
+就這樣——不需要其他相依性。
 
-```powershell
-Install-Package Aspose.Words
-```
+## 步驟 1：載入 Word 文件
 
-> **專業提示：** 使用最新的穩定版（目前為 23.12）以取得最新的 PDF/UA 修正。
-
----
-
-## 步驟 2：載入來源 Word 文件
-
-函式庫已就緒後，我們需要將 `.docx` 載入記憶體。`Document` 類別會負責所有繁重的工作。
+首先，我們將 `.docx` 載入記憶體。把 `Document` 想像成 Word 與 PDF 之間的橋樑。
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-// Replace with your actual file path
+// Replace with the actual path to your source file
 string inputPath = @"C:\Docs\input.docx";
 
-try
-{
-    // Step 2: Load the source Word document
-    Document doc = new Document(inputPath);
-}
-catch (Exception ex)
-{
-    Console.WriteLine($"Failed to load document: {ex.Message}");
-    throw;
-}
+Document wordDoc = new Document(inputPath);
 ```
 
-**為什麼這很重要：** Aspose.Words 會解析 Word 檔案，保留樣式、標題與隱藏的中繼資料。這些元素將成為最終 PDF 中可存取標記的基礎。
+**Why this matters:** 早期載入文件可讓您取得其結構（樣式、標題、表格），Aspose.Words 之後會將其轉換為 PDF 標記。跳過此步驟或使用原始串流可能會遺失可存取工具依賴的中繼資料。
 
----
+> **Pro tip:** 若您處理使用者上傳的檔案，請將載入包在 try‑catch 區塊中，並在呼叫 `new Document()` 前驗證檔案大小，以避免記憶體激增。
 
-## 步驟 3：設定 PDF 儲存選項以符合可存取性
+## 步驟 2：設定 PDF/UA‑1 的 PDF 儲存選項
 
-當我們告訴 Aspose.Words 輸出符合 PDF/UA‑2 的檔案時，魔法就會發生。這是透過 `PdfSaveOptions` 完成的。
+建立 **accessible pdf** 的核心在於 `PdfSaveOptions.Compliance` 屬性。將其設定為 `PdfCompliance.PdfUa1` 即告訴 Aspose 嵌入必要的標記、替代文字與邏輯閱讀順序。
 
 ```csharp
-// Step 3: Create PDF save options and enable PDF/UA‑2 compliance
-PdfSaveOptions pdfOptions = new PdfSaveOptions
+PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
 {
-    // Ensures the resulting PDF meets accessibility standards
-    Compliance = PdfCompliance.PdfUATwo,
+    // Enforce PDF/UA‑1 compliance (the official accessibility spec)
+    Compliance = PdfCompliance.PdfUa1,
 
-    // Optional: embed all fonts to avoid missing‑glyph issues
-    EmbedFullFonts = true,
-
-    // Optional: set a custom DPI for better image quality
-    ImageDpi = 300
+    // Optional: preserve original document layout exactly
+    // (helps when you have complex tables or multi‑column layouts)
+    PreserveFormFields = true
 };
 ```
 
-**為什麼要設定 `Compliance = PdfUATwo`：** 它會強制 Aspose.Words 依照 PDF/UA 規範為標題、表格、清單等結構元素加上標記。若不設定，PDF 看起來雖然正常，卻會在可存取性稽核中失敗。
+**Why this matters:** PDF/UA‑1 是普遍可存取 PDF 的 ISO 標準。若未設定此旗標，輸出將僅是視覺 PDF——螢幕閱讀器會因缺少標記而無法順利閱讀。
 
----
+> **Watch out:** 某些較舊的 PDF 檢視器會忽略 PDF/UA‑1 中繼資料。若需要向後相容，您也可以同時產生非 UA 版本作為備援。
 
-## 步驟 4：將文件儲存為可存取的 PDF
+## 步驟 3：將文件儲存為 PDF
 
-最後，使用剛剛設定好的選項將 PDF 寫入磁碟。
+現在我們將檔案寫出。`Save` 方法接受目標路徑以及剛剛設定的選項。
 
 ```csharp
-// Step 4: Save the document as a PDF using the configured options
 string outputPath = @"C:\Docs\output.pdf";
 
-try
-{
-    doc.Save(outputPath, pdfOptions);
-    Console.WriteLine($"✅ Accessible PDF created at: {outputPath}");
-}
-catch (Exception ex)
-{
-    Console.WriteLine($"Failed to save PDF: {ex.Message}");
-    throw;
-}
+wordDoc.Save(outputPath, pdfSaveOptions);
 ```
 
-當你在 Adobe Acrobat Pro 開啟 `output.pdf` 並執行 **Accessibility Check** 時，應該會看到 **0 個錯誤**（前提是原始 Word 文件結構良好）。
+呼叫完成後，`output.pdf` 會是一個完整標記的 **export docx to pdf**，通過大多數可存取性驗證器（例如 PAC 3）。在 Adobe Acrobat Pro 中開啟並執行「Full Check」——您應該會看到 PDF/UA 合規的綠色勾勾。
 
----
+### 完整範例程式
 
-## 將 Word 轉換為 PDF – 常見變化
-
-### 1. 在 Web API 中轉換
-
-若需透過 ASP.NET Core 端點提供此功能，請將邏輯包在控制器動作中：
+將上述全部結合，以下是一個可直接複製貼上並執行的獨立主控台應用程式：
 
 ```csharp
-[HttpPost("api/pdf/convert")]
-public IActionResult ConvertToPdf([FromForm] IFormFile file)
+using System;
+using Aspose.Words;
+using Aspose.Words.Saving;
+
+class Program
 {
-    using var stream = file.OpenReadStream();
-    var doc = new Document(stream);
-    var options = new PdfSaveOptions { Compliance = PdfCompliance.PdfUATwo };
-    using var outStream = new MemoryStream();
-    doc.Save(outStream, options);
-    outStream.Position = 0;
-    return File(outStream, "application/pdf", $"{Path.GetFileNameWithoutExtension(file.FileName)}.pdf");
+    static void Main()
+    {
+        // 1️⃣ Load the source Word document
+        string inputPath = @"C:\Docs\input.docx";
+        Document wordDoc = new Document(inputPath);
+
+        // 2️⃣ Configure PDF/UA‑1 compliance
+        PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
+        {
+            Compliance = PdfCompliance.PdfUa1,
+            PreserveFormFields = true
+        };
+
+        // 3️⃣ Save as an accessible PDF
+        string outputPath = @"C:\Docs\output.pdf";
+        wordDoc.Save(outputPath, pdfSaveOptions);
+
+        Console.WriteLine("✅ Accessible PDF created at: " + outputPath);
+    }
 }
 ```
 
-### 2. 處理大型檔案
+執行程式後，您會看到確認訊息。產生的 PDF 可在任何檢視器開啟，輔助技術會依正確順序讀取標題、表格與圖片。
 
-對於超過 100 MB 的文件，啟用 **串流** 以避免 `OutOfMemoryException`：
+## 常見變形與邊緣情況
+
+### 1. 批次轉換多個檔案
+
+如果您需要為整個資料夾 **convert word to pdf**，請將邏輯包在迴圈中：
 
 ```csharp
-PdfSaveOptions largeOptions = new PdfSaveOptions
+string[] docxFiles = Directory.GetFiles(@"C:\Docs\Batch", "*.docx");
+foreach (var file in docxFiles)
 {
-    Compliance = PdfCompliance.PdfUATwo,
-    // Saves each page as a separate stream internally
-    SaveFormat = SaveFormat.Pdf,
-    MemoryUsageSetting = MemoryUsageSetting.LowResolution
-};
-doc.Save(outputPath, largeOptions);
+    var doc = new Document(file);
+    string pdfPath = Path.ChangeExtension(file, ".pdf");
+    doc.Save(pdfPath, pdfSaveOptions);
+}
 ```
 
-### 3. 加入自訂標記
+### 2. 為圖片加入替代文字
 
-有時需要注入額外標記（例如自訂語言屬性）。使用 `PdfSaveOptions.TaggedPdf` 屬性：
+可存取性不僅僅是標記；圖片需要具描述性的 alt 文字。Aspose.Words 會遵守 `Shape` 物件的 `AlternativeText` 屬性。若您以程式方式產生 Word 檔案，請如下設定：
 
 ```csharp
-pdfOptions.TaggedPdf = true; // already true for PDF/UA‑2, but explicit is clearer
+Shape picture = new Shape(doc, ShapeType.Image);
+picture.ImageData.SetImage("logo.png");
+picture.AlternativeText = "Company logo – white on blue background";
 ```
 
----
+匯出後，PDF 會保留相同的描述。
 
-## 匯出 docx 為 PDF – 最佳實踐清單
+### 3. 處理大型文件
 
-| ✅ | 清單項目 |
-|---|----------|
-| ✅ | 使用最新的 Aspose.Words 版本 |
-| ✅ | 確認來源 `.docx` 使用正確的標題樣式 |
-| ✅ | 設定 `PdfSaveOptions.Compliance = PdfCompliance.PdfUATwo` |
-| ✅ | 嵌入字型（`EmbedFullFonts = true`）以確保渲染一致 |
-| ✅ | 對產生的 PDF 執行可存取性稽核 |
-| ✅ | 處理例外並記錄檔案路徑以便除錯 |
+非常大的 `.docx` 檔案（數百頁）可能會耗盡記憶體。請使用 `LoadOptions` 搭配 `LoadFormat.Docx`，並啟用 `LoadOptions.LoadFormat` 串流：
 
-若上述任一項未勾選，可能會得到外觀正常但未通過合規測試的 PDF。
+```csharp
+LoadOptions loadOptions = new LoadOptions { LoadFormat = LoadFormat.Docx };
+Document largeDoc = new Document(inputPath, loadOptions);
+largeDoc.Save(outputPath, pdfSaveOptions);
+```
 
----
+### 4. 自訂字型嵌入
 
-## 儲存 docx 為 PDF – 疑難排解 FAQ
+如果您的 Word 檔案使用非標準字型，請確保將其嵌入，以便 PDF 能正確呈現給所有使用者：
 
-**Q：我的 PDF 看起來沒問題，但可存取性檢查顯示缺少標記。**  
-A：確保 Word 文件使用內建的標題樣式（`Heading 1`、`Heading 2`…）。自訂樣式不會自動標記，除非透過 `PdfSaveOptions.CustomHeadingLevels` 進行對應。
+```csharp
+pdfSaveOptions.FontEmbeddingMode = FontEmbeddingMode.EmbedAll;
+```
 
-**Q：PDF 中的字型被取代了。**  
-A：設定 `EmbedFullFonts = true`，並確保伺服器上可取得字型檔案。若在 Linux 容器中執行，請全系統安裝所需字型。
+嵌入字型亦可避免回退至預設字型，從而破壞閱讀順序。
 
-**Q：將 200 頁的報告轉換時速度很慢。**  
-A：啟用 `MemoryUsageSetting = MemoryUsageSetting.LowResolution`，或將文件切分為多個章節分別轉換。
+## 驗證結果
 
----
+產生 PDF 後：
 
-## 如何將 Word 轉換為 PDF – 後續步驟
+1. 在 **Adobe Acrobat Pro** 中開啟 → *Tools* → *Accessibility* → *Full Check*。  
+2. 尋找 **PDF/UA** 勾選標記。  
+3. 使用螢幕閱讀器（NVDA、JAWS）導航標題與表格——它們應該遵循您在 Word 中看到的邏輯順序。
 
-現在你已能 **建立可存取的 PDF**，可以考慮擴充工作流程：
-
-- **浮水印** – 使用 `PdfSaveOptions.AdditionalOptions["Watermark"] = "Confidential"`。
-- **數位簽章** – 結合 Aspose.PDF 與 Aspose.Words 為輸出檔簽章。
-- **批次處理** – 迭代資料夾內的 `.docx` 檔案，使用平行處理 (`Parallel.ForEach`) 同時產生 PDF。
-
-這些主題各自都值得深入探討，但核心模式仍然相同：載入 → 設定 → 儲存。
-
----
+若出現任何問題，請回顧來源 Word 文件：確保使用正確的標題樣式（`Heading 1`、`Heading 2`、…）並為所有圖片加入 alt 文字。PDF 引擎只能轉換已存在的資訊。
 
 ## 結論
 
-我們已完整說明如何使用 Aspose.Words 在 C# 中 **從 Word 建立可存取的 PDF**。完整解決方案只需幾行程式碼，即可自動取得 PDF/UA‑2 相容性，這對許多受規範限制的產業而言是關鍵需求。
+您現在已了解如何使用 Aspose.Words 從 Word 檔案 **create accessible pdf**、如何 **convert word to pdf**、**save word as pdf**，甚至 **export docx to pdf**，同時符合 PDF/UA‑1 標準。上述程式碼片段已具備生產環境可用性，處理常見陷阱，且可延伸至批次處理或自訂字型嵌入。
 
-快用自己的 `.docx` 試試看，玩玩可選設定，讓可存取性檢查驗證你的成果。如果遇到問題，請回顧上方清單或留下評論——祝開發順利！
+接下來可以做什麼？試著為 PDF 加入 **metadata**（標題、作者、語言），或嘗試 **digital signatures** 以符合高度合規的產業需求。原則相同——設定正確的選項，剩下的交給 Aspose 處理。
 
----
+如果您覺得本指南有幫助，請分享、留下您的技巧評論，或探索其他 Aspose.Words 教學，例如 **saving Word as PDF**、**PDF/UA validation** 與 **document automation**。祝程式開發愉快，並享受打造真正可存取文件的過程！  
+
+![建立可存取的 pdf 範例](image-placeholder.png "建立可存取的 pdf 範例")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

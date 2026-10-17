@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Med hjälp av klasserna Document och DocumentBuilder visar den här handledningen hur man lägger till ett dynamiskt DATE-fält i det primära sidhuvudet i ett Word-dokument och sedan sparar filen.
+//ExStepSummary:0: Skapa ett nytt Document och en DocumentBuilder för att redigera det.
+//ExStepSummary:1: Flytta builderns markör till det primära sidhuvudet så att efterföljande insättningar påverkar sidhuvudet.
+//ExStepSummary:2: Skriv den statiska etiketten och infoga ett DATE-fält formaterat som “MMMM d, yyyy” i sidhuvudet, vilket skapar ett dynamiskt datum.
+//ExStepSummary:3: Återgå till huvudtexten och lägg till ett exempelparagraf, som visar normalt dokumentinnehåll tillsammans med sidhuvudet.
+//ExStepSummary:4: Spara dokumentet som en .docx-fil.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+builder.Write("Generated on: ");
+builder.InsertField("DATE \\@ \"MMMM d, yyyy\"");
+
+//ExStep:3-
+builder.MoveToDocumentEnd();
+builder.Writeln("This is the document body.");
+
+//ExStep:4-
+doc.Save("HeaderDate.docx");
+//ExEnd

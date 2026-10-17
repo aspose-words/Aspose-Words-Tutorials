@@ -1,26 +1,26 @@
 ---
 category: general
-date: 2026-04-01
+date: 2026-03-06
 description: Tạo PDF có khả năng truy cập từ tài liệu Word bằng Aspose.Words trong
-  C#. Tìm hiểu cách chuyển Word sang PDF, xuất docx sang PDF và đảm bảo tuân thủ PDF/UA‑2.
+  C#. Tìm hiểu cách chuyển đổi Word sang PDF, lưu Word dưới dạng PDF và đảm bảo tuân
+  thủ PDF/UA‑1.
 draft: false
 keywords:
 - create accessible pdf
 - convert word to pdf
+- save word as pdf
 - export docx to pdf
-- save docx as pdf
-- how to convert word to pdf
+- save word document pdf
 language: vi
-og_description: Tạo PDF có khả năng truy cập từ Word bằng Aspose.Words. Hướng dẫn
-  này cho thấy cách chuyển đổi Word sang PDF, xuất docx sang PDF và đáp ứng tiêu chuẩn
-  PDF/UA‑2.
+og_description: Tạo PDF có thể truy cập được từ Word bằng Aspose.Words. Hướng dẫn
+  này chỉ cách chuyển đổi Word sang PDF, lưu Word dưới dạng PDF và đáp ứng tiêu chuẩn
+  PDF/UA‑1.
 og_title: Tạo PDF có khả năng truy cập từ Word bằng C# – Hướng dẫn đầy đủ
 tags:
 - Aspose.Words
 - C#
-- PDF/UA
-- Accessibility
-title: Tạo PDF có khả năng truy cập từ Word bằng C# – Hướng dẫn từng bước
+- PDF/UA‑1
+title: Tạo PDF có khả năng truy cập từ Word bằng C# – Hướng dẫn chi tiết từng bước
 url: /vi/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-in-c-step-by-step-guide/
 ---
 
@@ -28,225 +28,178 @@ url: /vi/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-in-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo PDF có khả năng truy cập từ Word trong C# – Hướng dẫn từng bước
+# Tạo PDF Truy cập được từ Word trong C# – Hướng Dẫn Toàn Diện
 
-Bạn đã bao giờ cần **tạo PDF có khả năng truy cập** từ một tệp Word và không chắc thư viện nào đáng tin cậy? Bạn không phải là người duy nhất—nhiều nhà phát triển gặp khó khăn này khi phải đáp ứng yêu cầu khả năng truy cập PDF/UA‑2 cho mục đích pháp lý hoặc tuân thủ doanh nghiệp.  
+Cần **tạo pdf truy cập được** từ một tệp Word? Trong hướng dẫn này, chúng tôi sẽ chỉ cho bạn cách **chuyển đổi Word sang pdf** bằng Aspose.Words đồng thời đáp ứng tiêu chuẩn truy cập nghiêm ngặt PDF/UA‑1. Dù bạn đang xây dựng một cổng thông tin tập trung vào tuân thủ hay chỉ muốn mọi người dùng có thể đọc tài liệu của bạn, các bước dưới đây sẽ đưa bạn từ .docx tới một PDF được gắn thẻ đầy đủ chỉ trong vài dòng C#.
 
-Tin tốt là gì? Với Aspose.Words, bạn có thể **chuyển đổi Word sang PDF**, **xuất docx ra PDF**, và **lưu docx dưới dạng PDF** chỉ trong vài dòng mã. Trong tutorial này, chúng ta sẽ đi qua toàn bộ quy trình, giải thích *tại sao* mỗi bước quan trọng, và đề cập một vài trường hợp đặc biệt bạn có thể gặp.
+Chúng tôi sẽ đề cập đến mọi thứ bạn cần biết: tải một `.docx`, cấu hình `PdfSaveOptions` phù hợp, và cuối cùng **lưu tài liệu Word dưới dạng pdf**. Khi kết thúc, bạn sẽ có một đoạn mã có thể tái sử dụng để chèn vào bất kỳ dự án .NET nào, cùng với các mẹo cho các trường hợp đặc biệt như tệp lớn hoặc phông chữ tùy chỉnh. Không cần công cụ bên ngoài, không có phép màu—chỉ là mã thuần hoạt động ngay hôm nay.
 
-> **TL;DR nhanh:** Cài đặt Aspose.Words, tải `.docx` của bạn, đặt `PdfSaveOptions.Compliance = PdfCompliance.PdfUATwo`, và gọi `doc.Save(...)`. Xong.
+## Những Gì Bạn Cần
 
----
+- **Aspose.Words for .NET** (bất kỳ phiên bản mới nào; API được trình bày hoạt động với 23.x trở lên).  
+- Môi trường phát triển .NET – Visual Studio, Rider, hoặc `dotnet` CLI đều được.  
+- Tệp Word nguồn (`.docx`) mà bạn muốn làm cho truy cập được.  
 
-## Bạn sẽ học được gì
-
-- Cách **tạo PDF có khả năng truy cập** đáp ứng kiểm tra PDF/UA‑2.  
-- Mã chính xác cần thiết để **chuyển đổi Word sang PDF** bằng Aspose.Words.  
-- Mẹo xử lý tài liệu lớn, phông chữ tùy chỉnh và xử lý lỗi.  
-- Nơi cần xem tiếp nếu bạn muốn thêm watermark, bookmark hoặc chữ ký số.
-
-### Yêu cầu trước
-
-- .NET 6+ (hoặc .NET Framework 4.7.2+).  
-- Giấy phép Aspose.Words hợp lệ (bản dùng thử miễn phí đủ cho việc thử nghiệm).  
-- Kiến thức cơ bản về C# và Visual Studio hoặc VS Code.
-
-Nếu bạn thiếu bất kỳ mục nào ở trên, hãy lấy chúng ngay—nếu không, chúng ta cùng bắt đầu.
-
----
-
-## Tạo PDF có khả năng truy cập – Tổng quan
-
-Trước khi viết bất kỳ mã nào, bạn nên hiểu *tại sao* chúng ta cần đặt cờ tuân thủ. PDF/UA‑2 (PDF/Universal Accessibility) đảm bảo các trình đọc màn hình có thể diễn giải cấu trúc tài liệu, bảng được gắn thẻ đúng cách, và thứ tự điều hướng khớp với thứ tự đọc. Nếu không có cờ này, bạn có thể có một PDF trông hoàn hảo nhưng lại không vượt qua kiểm tra khả năng truy cập.
-
-![Create accessible PDF example](https://example.com/images/accessible-pdf.png "Screenshot showing a generated accessible PDF document")
-
-*Alt text: “ảnh chụp màn hình tạo PDF có khả năng truy cập hiển thị các tiêu đề được gắn thẻ và văn bản có thể đọc được”*
-
----
-
-## Bước 1: Cài đặt Aspose.Words
-
-Điều đầu tiên cần làm—thêm gói NuGet vào dự án. Mở terminal trong thư mục solution và chạy:
+Nếu bạn chưa cài đặt gói NuGet, hãy chạy:
 
 ```bash
 dotnet add package Aspose.Words
 ```
 
-Hoặc, nếu bạn thích Package Manager Console trong Visual Studio:
+Xong—không cần phụ thuộc bổ sung.
 
-```powershell
-Install-Package Aspose.Words
-```
+## Bước 1: Tải Tài liệu Word
 
-> **Pro tip:** Sử dụng phiên bản ổn định mới nhất (hiện tại là 23.12) để nhận các bản sửa lỗi PDF/UA mới nhất.
-
----
-
-## Bước 2: Tải tài liệu Word nguồn
-
-Bây giờ thư viện đã sẵn sàng, chúng ta cần đưa `.docx` vào bộ nhớ. Lớp `Document` thực hiện toàn bộ công việc nặng.
+Đầu tiên, chúng ta đưa `.docx` vào bộ nhớ. Hãy nghĩ `Document` như cầu nối giữa Word và PDF.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-// Replace with your actual file path
+// Replace with the actual path to your source file
 string inputPath = @"C:\Docs\input.docx";
 
-try
-{
-    // Step 2: Load the source Word document
-    Document doc = new Document(inputPath);
-}
-catch (Exception ex)
-{
-    Console.WriteLine($"Failed to load document: {ex.Message}");
-    throw;
-}
+Document wordDoc = new Document(inputPath);
 ```
 
-**Tại sao điều này quan trọng:** Aspose.Words phân tích tệp Word, giữ nguyên các style, heading và siêu dữ liệu ẩn. Những yếu tố này trở thành cơ sở cho các thẻ khả năng truy cập trong PDF cuối cùng.
+**Tại sao điều này quan trọng:** Việc tải tài liệu sớm cho phép bạn truy cập vào cấu trúc của nó (kiểu dáng, tiêu đề, bảng) mà Aspose.Words sẽ sau này chuyển thành các thẻ PDF. Bỏ qua bước này hoặc sử dụng luồng thô có thể làm mất siêu dữ liệu mà các công cụ truy cập dựa vào.
 
----
+> **Mẹo chuyên nghiệp:** Nếu bạn đang xử lý các tệp do người dùng tải lên, hãy bao bọc việc tải trong một khối try‑catch và xác thực kích thước tệp trước khi gọi `new Document()` để tránh tăng đột biến bộ nhớ.
 
-## Bước 3: Cấu hình PDF Save Options cho khả năng truy cập
+## Bước 2: Cấu hình PDF Save Options cho PDF/UA‑1
 
-Phép màu xảy ra khi chúng ta yêu cầu Aspose.Words xuất ra một tệp PDF/UA‑2 tuân thủ. Điều này được thực hiện qua `PdfSaveOptions`.
+Trung tâm của việc tạo **pdf truy cập được** là thuộc tính `PdfSaveOptions.Compliance`. Đặt nó thành `PdfCompliance.PdfUa1` sẽ yêu cầu Aspose nhúng các thẻ cần thiết, văn bản thay thế và thứ tự đọc logic.
 
 ```csharp
-// Step 3: Create PDF save options and enable PDF/UA‑2 compliance
-PdfSaveOptions pdfOptions = new PdfSaveOptions
+PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
 {
-    // Ensures the resulting PDF meets accessibility standards
-    Compliance = PdfCompliance.PdfUATwo,
+    // Enforce PDF/UA‑1 compliance (the official accessibility spec)
+    Compliance = PdfCompliance.PdfUa1,
 
-    // Optional: embed all fonts to avoid missing‑glyph issues
-    EmbedFullFonts = true,
-
-    // Optional: set a custom DPI for better image quality
-    ImageDpi = 300
+    // Optional: preserve original document layout exactly
+    // (helps when you have complex tables or multi‑column layouts)
+    PreserveFormFields = true
 };
 ```
 
-**Tại sao chúng ta đặt `Compliance = PdfUATwo`:** Nó buộc Aspose.Words gắn thẻ các heading, bảng, danh sách và các yếu tố cấu trúc khác theo tiêu chuẩn PDF/UA. Nếu không có cài đặt này, PDF sẽ trông ổn nhưng sẽ không vượt qua kiểm tra khả năng truy cập.
+**Tại sao điều này quan trọng:** PDF/UA‑1 là tiêu chuẩn ISO cho các PDF truy cập được trên toàn cầu. Nếu không có cờ này, kết quả sẽ chỉ là một PDF dạng hình ảnh—trình đọc màn hình sẽ gặp khó khăn vì thiếu thẻ.
 
----
+> **Cảnh báo:** Một số trình xem PDF cũ bỏ qua siêu dữ liệu PDF/UA‑1. Nếu bạn cần tương thích ngược, bạn cũng có thể tạo một phiên bản không‑UA song song với phiên bản truy cập được.
 
-## Bước 4: Lưu tài liệu dưới dạng PDF có khả năng truy cập
+## Bước 3: Lưu Tài liệu dưới dạng PDF
 
-Cuối cùng, chúng ta ghi PDF ra đĩa bằng các tùy chọn vừa cấu hình.
+Bây giờ chúng ta ghi tệp ra. Phương thức `Save` nhận đường dẫn đích và các tùy chọn chúng ta vừa cấu hình.
 
 ```csharp
-// Step 4: Save the document as a PDF using the configured options
 string outputPath = @"C:\Docs\output.pdf";
 
-try
-{
-    doc.Save(outputPath, pdfOptions);
-    Console.WriteLine($"✅ Accessible PDF created at: {outputPath}");
-}
-catch (Exception ex)
-{
-    Console.WriteLine($"Failed to save PDF: {ex.Message}");
-    throw;
-}
+wordDoc.Save(outputPath, pdfSaveOptions);
 ```
 
-Khi mở `output.pdf` trong Adobe Acrobat Pro và chạy **Accessibility Check**, bạn sẽ thấy **0 lỗi** (giả sử tệp Word gốc của bạn đã được cấu trúc tốt).
+Khi lệnh gọi hoàn thành, `output.pdf` sẽ là một PDF được gắn thẻ đầy đủ, **export docx to pdf** đáp ứng hầu hết các công cụ kiểm tra truy cập (ví dụ, PAC 3). Mở nó trong Adobe Acrobat Pro và chạy “Full Check” – bạn sẽ thấy dấu kiểm màu xanh lá cho sự tuân thủ PDF/UA.
 
----
+### Ví dụ Hoạt Động Đầy Đủ
 
-## Chuyển đổi Word sang PDF – Các biến thể phổ biến
-
-### 1. Chuyển đổi trong Web API
-
-Nếu bạn cần cung cấp chức năng này qua một endpoint ASP.NET Core, hãy bọc logic trong một hành động controller:
+Chúng tôi đưa tất cả lại với nhau, đây là một ứng dụng console tự chứa mà bạn có thể sao chép‑dán và chạy:
 
 ```csharp
-[HttpPost("api/pdf/convert")]
-public IActionResult ConvertToPdf([FromForm] IFormFile file)
+using System;
+using Aspose.Words;
+using Aspose.Words.Saving;
+
+class Program
 {
-    using var stream = file.OpenReadStream();
-    var doc = new Document(stream);
-    var options = new PdfSaveOptions { Compliance = PdfCompliance.PdfUATwo };
-    using var outStream = new MemoryStream();
-    doc.Save(outStream, options);
-    outStream.Position = 0;
-    return File(outStream, "application/pdf", $"{Path.GetFileNameWithoutExtension(file.FileName)}.pdf");
+    static void Main()
+    {
+        // 1️⃣ Load the source Word document
+        string inputPath = @"C:\Docs\input.docx";
+        Document wordDoc = new Document(inputPath);
+
+        // 2️⃣ Configure PDF/UA‑1 compliance
+        PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
+        {
+            Compliance = PdfCompliance.PdfUa1,
+            PreserveFormFields = true
+        };
+
+        // 3️⃣ Save as an accessible PDF
+        string outputPath = @"C:\Docs\output.pdf";
+        wordDoc.Save(outputPath, pdfSaveOptions);
+
+        Console.WriteLine("✅ Accessible PDF created at: " + outputPath);
+    }
 }
 ```
 
-### 2. Xử lý tệp lớn
+Chạy chương trình, và bạn sẽ thấy thông báo xác nhận. PDF được tạo ra có thể mở trong bất kỳ trình xem nào, và các công nghệ hỗ trợ sẽ đọc tiêu đề, bảng và hình ảnh theo đúng thứ tự.
 
-Đối với tài liệu lớn hơn 100 MB, bật **streaming** để tránh `OutOfMemoryException`:
+## Các Biến Thể Thông Thường & Trường Hợp Đặc Biệt
+
+### 1. Chuyển Đổi Nhiều Tệp trong Một Lô
+
+Nếu bạn cần **convert word to pdf** cho toàn bộ thư mục, hãy bao bọc logic trong một vòng lặp:
 
 ```csharp
-PdfSaveOptions largeOptions = new PdfSaveOptions
+string[] docxFiles = Directory.GetFiles(@"C:\Docs\Batch", "*.docx");
+foreach (var file in docxFiles)
 {
-    Compliance = PdfCompliance.PdfUATwo,
-    // Saves each page as a separate stream internally
-    SaveFormat = SaveFormat.Pdf,
-    MemoryUsageSetting = MemoryUsageSetting.LowResolution
-};
-doc.Save(outputPath, largeOptions);
+    var doc = new Document(file);
+    string pdfPath = Path.ChangeExtension(file, ".pdf");
+    doc.Save(pdfPath, pdfSaveOptions);
+}
 ```
 
-### 3. Thêm thẻ tùy chỉnh
+### 2. Thêm Văn Bản Thay Thế cho Hình Ảnh
 
-Đôi khi bạn cần chèn thêm thẻ (ví dụ: thuộc tính ngôn ngữ tùy chỉnh). Sử dụng thuộc tính `PdfSaveOptions.TaggedPdf`:
+Accessibility isn’t just about tags; images need descriptive alt text. Aspose.Words respects the `AlternativeText` property on `Shape` objects. If you’re generating the Word file programmatically, set it like this:
 
 ```csharp
-pdfOptions.TaggedPdf = true; // already true for PDF/UA‑2, but explicit is clearer
+Shape picture = new Shape(doc, ShapeType.Image);
+picture.ImageData.SetImage("logo.png");
+picture.AlternativeText = "Company logo – white on blue background";
 ```
 
----
+Khi xuất, PDF sẽ mang cùng mô tả đó.
 
-## Xuất docx ra PDF – Danh sách kiểm tra các thực tiễn tốt nhất
+### 3. Xử Lý Tài Liệu Lớn
 
-| ✅ | Mục kiểm tra |
-|---|--------------|
-| ✅ | Sử dụng phiên bản Aspose.Words mới nhất |
-| ✅ | Xác minh tệp `.docx` nguồn có style heading đúng |
-| ✅ | Đặt `PdfSaveOptions.Compliance = PdfCompliance.PdfUATwo` |
-| ✅ | Nhúng phông chữ (`EmbedFullFonts = true`) để hiển thị nhất quán |
-| ✅ | Thực hiện kiểm tra khả năng truy cập trên PDF đã tạo |
-| ✅ | Xử lý ngoại lệ và ghi log đường dẫn tệp để gỡ lỗi |
+Các tệp `.docx` rất lớn (hàng trăm trang) có thể gây áp lực cho bộ nhớ. Sử dụng `LoadOptions` với `LoadFormat.Docx` và bật streaming `LoadOptions.LoadFormat`:
 
-Nếu bất kỳ mục nào chưa được đánh dấu, bạn có thể có một PDF trông ổn nhưng không đạt tiêu chuẩn tuân thủ.
+```csharp
+LoadOptions loadOptions = new LoadOptions { LoadFormat = LoadFormat.Docx };
+Document largeDoc = new Document(inputPath, loadOptions);
+largeDoc.Save(outputPath, pdfSaveOptions);
+```
 
----
+### 4. Nhúng Phông Chữ Tùy Chỉnh
 
-## Lưu docx dưới dạng PDF – FAQ khắc phục sự cố
+Nếu tệp Word của bạn sử dụng phông chữ không chuẩn, hãy chắc chắn chúng được nhúng để PDF hiển thị đúng cho mọi người dùng:
 
-**Q: PDF của tôi trông ổn nhưng kiểm tra khả năng truy cập báo thiếu thẻ.**  
-A: Đảm bảo tài liệu Word của bạn sử dụng các style heading tích hợp sẵn (`Heading 1`, `Heading 2`, …). Các style tùy chỉnh sẽ không tự động được gắn thẻ trừ khi bạn ánh xạ chúng qua `PdfSaveOptions.CustomHeadingLevels`.
+```csharp
+pdfSaveOptions.FontEmbeddingMode = FontEmbeddingMode.EmbedAll;
+```
 
-**Q: Phông chữ bị thay thế trong PDF.**  
-A: Đặt `EmbedFullFonts = true` và chắc chắn các tệp phông chữ có thể truy cập được trên server. Nếu bạn đang chạy trong container Linux, hãy cài đặt các phông chữ cần thiết trên hệ thống.
+Nhúng phông chữ cũng ngăn việc chuyển sang phông mặc định có thể làm phá vỡ thứ tự đọc.
 
-**Q: Quá trình chuyển đổi chậm đối với báo cáo 200 trang.**  
-A: Bật `MemoryUsageSetting = MemoryUsageSetting.LowResolution` hoặc chia tài liệu thành các phần và chuyển đổi từng phần riêng biệt.
+## Xác Minh Kết Quả
 
----
+Sau khi bạn đã tạo ra PDF:
 
-## Cách chuyển đổi Word sang PDF – Các bước tiếp theo
+1. Mở nó trong **Adobe Acrobat Pro** → *Tools* → *Accessibility* → *Full Check*.  
+2. Tìm dấu kiểm **PDF/UA**.  
+3. Sử dụng trình đọc màn hình (NVDA, JAWS) để duyệt tiêu đề và bảng – chúng nên theo thứ tự logic như trong Word.
 
-Bây giờ bạn đã có thể **tạo PDF có khả năng truy cập**, hãy cân nhắc mở rộng quy trình:
+Nếu có bất kỳ vấn đề nào xuất hiện, hãy xem lại tài liệu Word nguồn: đảm bảo các kiểu tiêu đề đúng (`Heading 1`, `Heading 2`, …) và thêm văn bản thay thế cho mọi hình ảnh. Công cụ PDF chỉ có thể chuyển đổi những gì đã có.
 
-- **Watermarking** – Sử dụng `PdfSaveOptions.AdditionalOptions["Watermark"] = "Confidential"`.  
-- **Digital Signatures** – Kết hợp Aspose.PDF với Aspose.Words để ký vào tệp đầu ra.  
-- **Batch Processing** – Duyệt qua một thư mục các tệp `.docx` và tạo PDF song song (`Parallel.ForEach`).
+## Kết Luận
 
-Mỗi chủ đề này xứng đáng có một bài viết chi tiết riêng, nhưng mẫu cơ bản vẫn giữ nguyên: load → configure → save.
+Bạn giờ đã biết cách **tạo pdf truy cập được** từ tệp Word bằng Aspose.Words, cách **convert word to pdf**, **save word as pdf**, và thậm chí **export docx to pdf** đồng thời đáp ứng tiêu chuẩn PDF/UA‑1. Đoạn mã trên đã sẵn sàng cho môi trường sản xuất, xử lý các lỗi thường gặp, và có thể mở rộng cho xử lý hàng loạt hoặc nhúng phông chữ tùy chỉnh.
 
----
+Tiếp theo? Hãy thử thêm **metadata** (tiêu đề, tác giả, ngôn ngữ) vào PDF, hoặc thử nghiệm **chữ ký số** cho các ngành công nghiệp yêu cầu tuân thủ cao. Nguyên tắc vẫn giống—đặt đúng tùy chọn, và Aspose sẽ thực hiện phần còn lại.
 
-## Kết luận
+Nếu bạn thấy hướng dẫn này hữu ích, hãy chia sẻ, để lại bình luận với các mẹo của bạn, hoặc khám phá các hướng dẫn khác của Aspose.Words về **saving Word as PDF**, **PDF/UA validation**, và **document automation**. Chúc lập trình vui vẻ, và tận hưởng việc xây dựng các tài liệu thực sự truy cập được!  
 
-Chúng ta đã bao quát mọi thứ bạn cần để **tạo PDF có khả năng truy cập** từ tài liệu Word bằng Aspose.Words trong C#. Giải pháp hoàn chỉnh chỉ cần vài dòng mã, nhưng lại cung cấp tuân thủ PDF/UA‑2 ngay từ đầu—một yêu cầu quan trọng cho nhiều ngành công nghiệp chịu quy định.  
-
-Hãy thử với các tệp `.docx` của bạn, khám phá các tùy chọn tùy chỉnh, và để các kiểm tra khả năng truy cập xác nhận bạn đã đạt mục tiêu. Nếu gặp khó khăn, hãy xem lại danh sách kiểm tra ở trên hoặc để lại bình luận—chúc bạn lập trình vui!  
+![Ví dụ tạo pdf truy cập được](image-placeholder.png "Ví dụ tạo pdf truy cập được")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

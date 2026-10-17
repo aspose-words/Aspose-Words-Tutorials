@@ -1,26 +1,24 @@
 ---
 category: general
-date: 2026-04-01
-description: Maak een toegankelijke PDF van een Word‑document met Aspose.Words in
-  C#. Leer hoe je Word naar PDF converteert, docx naar PDF exporteert en zorgt voor
-  PDF/UA‑2‑naleving.
+date: 2026-03-06
+description: Maak een toegankelijke pdf van een Word‑document met Aspose.Words in
+  C#. Leer hoe je Word naar pdf converteert, Word opslaat als pdf, en zorgt voor PDF/UA‑1‑naleving.
 draft: false
 keywords:
 - create accessible pdf
 - convert word to pdf
+- save word as pdf
 - export docx to pdf
-- save docx as pdf
-- how to convert word to pdf
+- save word document pdf
 language: nl
-og_description: Maak een toegankelijke PDF van Word met Aspose.Words. Deze tutorial
-  laat zien hoe je Word naar PDF converteert, docx naar PDF exporteert en voldoet
-  aan de PDF/UA‑2-standaarden.
+og_description: Maak een toegankelijke pdf vanuit Word met Aspose.Words. Deze gids
+  laat zien hoe je Word naar pdf converteert, Word opslaat als pdf, en voldoet aan
+  de PDF/UA‑1‑standaarden.
 og_title: Maak een toegankelijke PDF van Word in C# – Complete gids
 tags:
 - Aspose.Words
 - C#
-- PDF/UA
-- Accessibility
+- PDF/UA‑1
 title: Maak een toegankelijke PDF van Word in C# – Stapsgewijze handleiding
 url: /nl/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-in-c-step-by-step-guide/
 ---
@@ -29,207 +27,176 @@ url: /nl/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-in-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Maak toegankelijke PDF van Word in C# – Stapsgewijze handleiding
+# Maak Toegankelijke PDF van Word in C# – Volledige Gids
 
-Heb je ooit een **toegankelijke PDF** moeten maken van een Word‑bestand en wist je niet welke bibliotheek je kon vertrouwen? Je bent niet de enige—veel ontwikkelaars lopen tegen dit obstakel aan wanneer ze moeten voldoen aan PDF/UA‑2 toegankelijkheidseisen voor juridische of bedrijfscompliance.  
+Moet je een **toegankelijke pdf** maken van een Word‑bestand? In deze tutorial laten we je zien hoe je **Word naar pdf** kunt **converteren** met Aspose.Words terwijl je voldoet aan de strenge PDF/UA‑1 toegankelijkheidsstandaard. Of je nu een compliance‑gericht portaal bouwt of gewoon wilt dat elke gebruiker je documenten kan lezen, de onderstaande stappen brengen je van .docx naar een volledig getagde PDF in een paar regels C#.
 
-Het goede nieuws? Met Aspose.Words kun je **Word naar PDF converteren**, **docx naar PDF exporteren**, en **docx opslaan als PDF** in slechts een handvol regels. In deze tutorial lopen we het volledige proces door, leggen we uit *waarom* elke stap belangrijk is, en behandelen we een paar randgevallen die je kunt tegenkomen.
+We behandelen alles wat je moet weten: het laden van een `.docx`, het configureren van de juiste `PdfSaveOptions`, en uiteindelijk **het Word‑document opslaan als pdf**. Aan het einde heb je een herbruikbare code‑fragment die je in elk .NET‑project kunt gebruiken, plus tips voor randgevallen zoals grote bestanden of aangepaste lettertypen. Geen externe tools, geen magie—alleen pure code die vandaag werkt.
 
-> **Snelle TL;DR:** Installeer Aspose.Words, laad je `.docx`, stel `PdfSaveOptions.Compliance = PdfCompliance.PdfUATwo` in, en roep `doc.Save(...)` aan. Dat is alles.
+## Wat je nodig hebt
 
----
+- **Aspose.Words for .NET** (een recente versie; de getoonde API werkt met 23.x en later).  
+- Een .NET‑ontwikkelomgeving – Visual Studio, Rider, of de `dotnet` CLI volstaat.  
+- Een bron‑Word‑bestand (`.docx`) dat je toegankelijk wilt maken.  
 
-## Wat je zult leren
-
-- Hoe je een **toegankelijke PDF** kunt **maken** die de PDF/UA‑2 validatie doorstaat.
-- De exacte code die nodig is om **Word naar PDF** te **converteren** met Aspose.Words.
-- Tips voor het verwerken van grote documenten, aangepaste lettertypen en foutafhandeling.
-- Waar je vervolgens moet kijken als je watermerken, bladwijzers of digitale handtekeningen wilt toevoegen.
-
-### Vereisten
-
-- .NET 6+ (of .NET Framework 4.7.2+).  
-- Een geldige Aspose.Words‑licentie (de gratis proefversie werkt voor testen).  
-- Basiskennis van C# en Visual Studio of VS Code.
-
-Als je een van deze mist, haal ze dan nu—anders, laten we beginnen.
-
----
-
-## Toegankelijke PDF maken – Overzicht
-
-Voordat we code schrijven, is het de moeite waard om te begrijpen *waarom* we de compliance‑vlag instellen. PDF/UA‑2 (PDF/Universal Accessibility) zorgt ervoor dat schermlezers de documentstructuur kunnen interpreteren, tabellen correct getagd zijn, en de navigatievolgorde overeenkomt met de leesvolgorde. Zonder deze vlag kun je eindigen met een perfect uitziende PDF die een toegankelijkheidsaudit niet doorstaat.
-
-![Toegankelijke PDF voorbeeld](https://example.com/images/accessible-pdf.png "Schermafbeelding die een gegenereerd toegankelijk PDF‑document toont")
-
-*Alt‑tekst: “toegankelijke pdf screenshot die getagde koppen en leesbare tekst toont”*
-
-## Stap 1: Installeer Aspose.Words
-
-Allereerst—voeg het NuGet‑pakket toe aan je project. Open een terminal in de oplossingsmap en voer uit:
+Als je het NuGet‑pakket nog niet hebt geïnstalleerd, voer dan uit:
 
 ```bash
 dotnet add package Aspose.Words
 ```
 
-Of, als je de Package Manager Console in Visual Studio verkiest:
+## Stap 1: Laad het Word‑document
 
-```powershell
-Install-Package Aspose.Words
-```
-
-> **Pro tip:** Gebruik de nieuwste stabiele versie (momenteel 23.12) om de nieuwste PDF/UA‑fixes te krijgen.
-
-## Stap 2: Laad het bron‑Word‑document
-
-Nu de bibliotheek beschikbaar is, moeten we de `.docx` in het geheugen laden. De `Document`‑klasse doet al het zware werk.
+Eerst laden we de `.docx` in het geheugen. Beschouw `Document` als de brug tussen Word en PDF.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-// Replace with your actual file path
+// Replace with the actual path to your source file
 string inputPath = @"C:\Docs\input.docx";
 
-try
-{
-    // Step 2: Load the source Word document
-    Document doc = new Document(inputPath);
-}
-catch (Exception ex)
-{
-    Console.WriteLine($"Failed to load document: {ex.Message}");
-    throw;
-}
+Document wordDoc = new Document(inputPath);
 ```
 
-**Waarom dit belangrijk is:** Aspose.Words parseert het Word‑bestand, behoudt stijlen, koppen en verborgen metadata. Deze elementen vormen de basis voor de toegankelijke tags in de uiteindelijke PDF.
+**Waarom dit belangrijk is:** Het vroeg laden van het document geeft je toegang tot de structuur (stijlen, koppen, tabellen) die Aspose.Words later zal vertalen naar PDF‑tags. Het overslaan van deze stap of het gebruiken van een ruwe stream kan metadata verliezen waar toegankelijkheidstools op vertrouwen.
 
-## Stap 3: Configureer PDF‑opslaanopties voor toegankelijkheid
+> **Pro tip:** Als je te maken hebt met door gebruikers geüploade bestanden, wikkel het laden dan in een try‑catch‑blok en valideer de bestandsgrootte voordat je `new Document()` aanroept om geheugenpieken te voorkomen.
 
-De magie gebeurt wanneer we Aspose.Words vertellen een PDF/UA‑2‑conform bestand te genereren. Dit gebeurt via `PdfSaveOptions`.
+## Stap 2: Configureer PDF‑opslaanopties voor PDF/UA‑1
+
+Het hart van het maken van een **toegankelijke pdf** is de `PdfSaveOptions.Compliance`‑eigenschap. Deze instellen op `PdfCompliance.PdfUa1` vertelt Aspose om de benodigde tags, alternatieve tekst en logische leesvolgorde in te sluiten.
 
 ```csharp
-// Step 3: Create PDF save options and enable PDF/UA‑2 compliance
-PdfSaveOptions pdfOptions = new PdfSaveOptions
+PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
 {
-    // Ensures the resulting PDF meets accessibility standards
-    Compliance = PdfCompliance.PdfUATwo,
+    // Enforce PDF/UA‑1 compliance (the official accessibility spec)
+    Compliance = PdfCompliance.PdfUa1,
 
-    // Optional: embed all fonts to avoid missing‑glyph issues
-    EmbedFullFonts = true,
-
-    // Optional: set a custom DPI for better image quality
-    ImageDpi = 300
+    // Optional: preserve original document layout exactly
+    // (helps when you have complex tables or multi‑column layouts)
+    PreserveFormFields = true
 };
 ```
 
-**Waarom we `Compliance = PdfUATwo` instellen:** Het dwingt Aspose.Words om koppen, tabellen, lijsten en andere structurele elementen te taggen volgens de PDF/UA‑specificatie. Zonder deze instelling zou de PDF er goed uitzien maar een toegankelijkheidsaudit niet doorstaan.
+**Waarom dit belangrijk is:** PDF/UA‑1 is de ISO‑standaard voor universeel toegankelijke PDF’s. Zonder deze vlag zou de output alleen een visuele PDF zijn—screenreaders zouden struikelen over ontbrekende tags.  
 
-## Stap 4: Sla het document op als een toegankelijke PDF
+> **Let op:** Sommige oudere PDF‑viewers negeren PDF/UA‑1‑metadata. Als je achterwaartse compatibiliteit nodig hebt, kun je ook een niet‑UA‑versie genereren naast de toegankelijke versie.
 
-Tot slot schrijven we de PDF naar schijf met de opties die we zojuist hebben geconfigureerd.
+## Stap 3: Sla het document op als PDF
+
+Nu schrijven we het bestand weg. De `Save`‑methode neemt het bestemmingspad en de opties die we zojuist hebben geconfigureerd.
 
 ```csharp
-// Step 4: Save the document as a PDF using the configured options
 string outputPath = @"C:\Docs\output.pdf";
 
-try
-{
-    doc.Save(outputPath, pdfOptions);
-    Console.WriteLine($"✅ Accessible PDF created at: {outputPath}");
-}
-catch (Exception ex)
-{
-    Console.WriteLine($"Failed to save PDF: {ex.Message}");
-    throw;
-}
+wordDoc.Save(outputPath, pdfSaveOptions);
 ```
 
-Wanneer je `output.pdf` opent in Adobe Acrobat Pro en **Accessibility Check** uitvoert, zou je **0 fouten** moeten zien (ervan uitgaande dat je oorspronkelijke Word‑bestand goed gestructureerd was).
+Wanneer de oproep voltooid is, is `output.pdf` een volledig getagde, **export docx to pdf** die door de meeste toegankelijkheidsvalidators komt (bijv. PAC 3). Open het in Adobe Acrobat Pro en voer de “Full Check” uit – je zou een groen vinkje moeten zien voor PDF/UA‑compliance.
 
-## Word naar PDF converteren – Veelvoorkomende variaties
+### Volledig Werkend Voorbeeld
 
-### 1. Converteren in een Web‑API
-
-Als je deze functionaliteit via een ASP.NET Core‑endpoint wilt aanbieden, wikkel je de logica in een controller‑actie:
+Alles bij elkaar, hier is een zelfstandige console‑app die je kunt kopiëren‑plakken en uitvoeren:
 
 ```csharp
-[HttpPost("api/pdf/convert")]
-public IActionResult ConvertToPdf([FromForm] IFormFile file)
+using System;
+using Aspose.Words;
+using Aspose.Words.Saving;
+
+class Program
 {
-    using var stream = file.OpenReadStream();
-    var doc = new Document(stream);
-    var options = new PdfSaveOptions { Compliance = PdfCompliance.PdfUATwo };
-    using var outStream = new MemoryStream();
-    doc.Save(outStream, options);
-    outStream.Position = 0;
-    return File(outStream, "application/pdf", $"{Path.GetFileNameWithoutExtension(file.FileName)}.pdf");
+    static void Main()
+    {
+        // 1️⃣ Load the source Word document
+        string inputPath = @"C:\Docs\input.docx";
+        Document wordDoc = new Document(inputPath);
+
+        // 2️⃣ Configure PDF/UA‑1 compliance
+        PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
+        {
+            Compliance = PdfCompliance.PdfUa1,
+            PreserveFormFields = true
+        };
+
+        // 3️⃣ Save as an accessible PDF
+        string outputPath = @"C:\Docs\output.pdf";
+        wordDoc.Save(outputPath, pdfSaveOptions);
+
+        Console.WriteLine("✅ Accessible PDF created at: " + outputPath);
+    }
 }
 ```
 
-### 2. Grote bestanden verwerken
+Voer het programma uit, en je ziet een bevestigingsbericht. De gegenereerde PDF kan in elke viewer worden geopend, en assistieve technologieën lezen koppen, tabellen en afbeeldingen in de juiste volgorde.
 
-Voor documenten groter dan 100 MB, schakel **streaming** in om `OutOfMemoryException` te voorkomen:
+## Veelvoorkomende Variaties & Randgevallen
+
+### 1. Meerdere bestanden batchgewijs converteren
+
+Als je een hele map moet **convert word to pdf**, wikkel de logica dan in een lus:
 
 ```csharp
-PdfSaveOptions largeOptions = new PdfSaveOptions
+string[] docxFiles = Directory.GetFiles(@"C:\Docs\Batch", "*.docx");
+foreach (var file in docxFiles)
 {
-    Compliance = PdfCompliance.PdfUATwo,
-    // Saves each page as a separate stream internally
-    SaveFormat = SaveFormat.Pdf,
-    MemoryUsageSetting = MemoryUsageSetting.LowResolution
-};
-doc.Save(outputPath, largeOptions);
+    var doc = new Document(file);
+    string pdfPath = Path.ChangeExtension(file, ".pdf");
+    doc.Save(pdfPath, pdfSaveOptions);
+}
 ```
 
-### 3. Aangepaste tags toevoegen
+### 2. Alternatieve tekst toevoegen voor afbeeldingen
 
-Soms moet je extra tags injecteren (bijv. een aangepast taalattribuut). Gebruik de `PdfSaveOptions.TaggedPdf`‑eigenschap:
+Toegankelijkheid gaat niet alleen over tags; afbeeldingen hebben beschrijvende alt‑tekst nodig. Aspose.Words respecteert de `AlternativeText`‑eigenschap op `Shape`‑objecten. Als je het Word‑bestand programmatisch genereert, stel je het als volgt in:
 
 ```csharp
-pdfOptions.TaggedPdf = true; // already true for PDF/UA‑2, but explicit is clearer
+Shape picture = new Shape(doc, ShapeType.Image);
+picture.ImageData.SetImage("logo.png");
+picture.AlternativeText = "Company logo – white on blue background";
 ```
 
-## Export docx naar PDF – Checklist voor beste praktijken
+Na export zal de PDF dezelfde beschrijving bevatten.
 
-| ✅ | Checklist Item |
-|---|-----------------|
-| ✅ | Gebruik de nieuwste Aspose.Words‑versie |
-| ✅ | Controleer of de bron‑`.docx` de juiste kopstijlen heeft |
-| ✅ | Stel `PdfSaveOptions.Compliance = PdfCompliance.PdfUATwo` in |
-| ✅ | Integreer lettertypen (`EmbedFullFonts = true`) voor consistente weergave |
-| ✅ | Voer een toegankelijkheidsaudit uit op de gegenereerde PDF |
-| ✅ | Afhandelen van uitzonderingen en logbestandenpaden voor debugging |
+### 3. Grote documenten verwerken
 
-Als een van deze items niet is aangevinkt, kun je eindigen met een PDF die er goed uitziet maar niet slaagt voor compliance‑testen.
+Zeer grote `.docx`‑bestanden (honderden pagina’s) kunnen het geheugen belasten. Gebruik de `LoadOptions` met `LoadFormat.Docx` en schakel streaming via `LoadOptions.LoadFormat` in:
 
-## docx opslaan als PDF – Veelgestelde vragen voor probleemoplossing
+```csharp
+LoadOptions loadOptions = new LoadOptions { LoadFormat = LoadFormat.Docx };
+Document largeDoc = new Document(inputPath, loadOptions);
+largeDoc.Save(outputPath, pdfSaveOptions);
+```
 
-**Q: Mijn PDF ziet er goed uit maar de toegankelijkheidscontrole meldt ontbrekende tags.**  
-A: Zorg ervoor dat je Word‑document ingebouwde kopstijlen gebruikt (`Heading 1`, `Heading 2`, …). Aangepaste stijlen worden niet automatisch getagd tenzij je ze mappt via `PdfSaveOptions.CustomHeadingLevels`.
+### 4. Aangepaste lettertype‑inbedding
 
-**Q: Lettertypen worden vervangen in de PDF.**  
-A: Stel `EmbedFullFonts = true` in en zorg ervoor dat de lettertypebestanden toegankelijk zijn op de server. Als je in een Linux‑container werkt, installeer dan de benodigde lettertypen systeem‑breed.
+Als je Word‑bestand niet‑standaard lettertypen gebruikt, zorg er dan voor dat ze worden ingesloten zodat de PDF correct wordt weergegeven voor alle gebruikers:
 
-**Q: De conversie is traag voor een rapport van 200 pagina’s.**  
-A: Schakel `MemoryUsageSetting = MemoryUsageSetting.LowResolution` in of splits het document in secties en converteer elk afzonderlijk.
+```csharp
+pdfSaveOptions.FontEmbeddingMode = FontEmbeddingMode.EmbedAll;
+```
 
-## Hoe Word naar PDF converteren – Volgende stappen
+Het insluiten van lettertypen voorkomt ook dat er teruggevallen wordt op standaardlettertypen die de leesvolgorde kunnen verstoren.
 
-Nu je **toegankelijke PDF**‑bestanden kunt **maken**, overweeg dan de workflow uit te breiden:
+## Controleer het resultaat
 
-- **Watermarking** – Gebruik `PdfSaveOptions.AdditionalOptions["Watermark"] = "Confidential"`.
-- **Digital Signatures** – Combineer Aspose.PDF met Aspose.Words om de output te ondertekenen.
-- **Batch Processing** – Loop over een map met `.docx`‑bestanden en genereer PDF’s parallel (`Parallel.ForEach`).
+Nadat je de PDF hebt gegenereerd:
 
-Elk van deze onderwerpen verdient een eigen diepgaande verkenning, maar het kernpatroon blijft hetzelfde: laden → configureren → opslaan.
+1. Open het in **Adobe Acrobat Pro** → *Tools* → *Accessibility* → *Full Check*.  
+2. Zoek naar het **PDF/UA**‑vinkje.  
+3. Gebruik een screenreader (NVDA, JAWS) om door koppen en tabellen te navigeren – ze moeten de logische volgorde volgen die je in Word ziet.
+
+Als er problemen optreden, bekijk dan het bron‑Word‑document opnieuw: zorg voor correcte kopstijlen (`Heading 1`, `Heading 2`, …) en voeg alt‑tekst toe aan alle afbeeldingen. De PDF‑engine kan alleen vertalen wat al aanwezig is.
 
 ## Conclusie
 
-We hebben alles behandeld wat je nodig hebt om **toegankelijke PDF** te **maken** van een Word‑document met Aspose.Words in C#. De volledige oplossing bestaat uit een paar regels code, maar levert direct PDF/UA‑2‑compliance—een cruciale eis voor veel gereguleerde sectoren.  
+Je weet nu hoe je een **toegankelijke pdf** maakt van een Word‑bestand met Aspose.Words, hoe je **word to pdf** kunt **converteren**, **word als pdf opslaat**, en zelfs **export docx to pdf** terwijl je voldoet aan de PDF/UA‑1‑normen. Het bovenstaande fragment is productie‑klaar, behandelt veelvoorkomende valkuilen, en kan worden uitgebreid voor batchverwerking of aangepaste lettertype‑inbedding.
 
-Probeer het met je eigen `.docx`‑bestanden, experimenteer met de optionele instellingen, en laat de toegankelijkheidscontroles bevestigen dat je het goed hebt gedaan. Als je tegen problemen aanloopt, bekijk dan de checklist hierboven opnieuw of laat een reactie achter—veel plezier met coderen!
+Wat is de volgende stap? Probeer **metadata** (titel, auteur, taal) aan de PDF toe te voegen, of experimenteer met **digitale handtekeningen** voor sterk gereguleerde sectoren. Dezelfde principes gelden—stel de juiste opties in, en Aspose doet het zware werk.
+
+Als je deze gids nuttig vond, deel hem, laat een reactie achter met je eigen tips, of bekijk de andere Aspose.Words‑tutorials over **saving Word as PDF**, **PDF/UA validation**, en **document automation**. Veel programmeerplezier, en geniet van het bouwen van echt toegankelijke documenten!  
+
+![Create accessible pdf example](image-placeholder.png "Create accessible pdf example")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

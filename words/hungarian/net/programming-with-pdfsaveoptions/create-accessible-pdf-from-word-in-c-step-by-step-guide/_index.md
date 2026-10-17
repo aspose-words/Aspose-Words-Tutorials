@@ -1,26 +1,25 @@
 ---
 category: general
-date: 2026-04-01
-description: Készítsen akadálymentes PDF-et egy Word-dokumentumból az Aspose.Words
-  C#-ban. Tanulja meg, hogyan konvertálja a Word-et PDF-re, exportálja a docx-et PDF-be,
-  és biztosítsa a PDF/UA‑2 megfelelőséget.
+date: 2026-03-06
+description: Készítsen hozzáférhető PDF-et egy Word dokumentumból az Aspose.Words
+  C# használatával. Tanulja meg, hogyan konvertálja a Word-et PDF-re, hogyan mentse
+  a Word-et PDF-ként, és hogyan biztosítsa a PDF/UA‑1 megfelelőséget.
 draft: false
 keywords:
 - create accessible pdf
 - convert word to pdf
+- save word as pdf
 - export docx to pdf
-- save docx as pdf
-- how to convert word to pdf
+- save word document pdf
 language: hu
-og_description: Készítsen akadálymentes PDF-et Word-ből az Aspose.Words segítségével.
-  Ez az útmutató bemutatja, hogyan konvertálhatja a Word dokumentumot PDF-be, exportálhatja
-  a docx-et PDF-be, és hogyan felelhet meg a PDF/UA‑2 szabványoknak.
+og_description: Készítsen akadálymentes PDF-et Wordből az Aspose.Words segítségével.
+  Ez az útmutató bemutatja, hogyan konvertálja a Word dokumentumot PDF-be, hogyan
+  mentse a Word-et PDF-ként, és hogyan feleljen meg a PDF/UA‑1 szabványoknak.
 og_title: Készítsen akadálymentes PDF-et Wordből C#-ban – Teljes útmutató
 tags:
 - Aspose.Words
 - C#
-- PDF/UA
-- Accessibility
+- PDF/UA‑1
 title: Akadálymentes PDF létrehozása Wordből C#-ban – Lépésről lépésre útmutató
 url: /hu/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-in-c-step-by-step-guide/
 ---
@@ -29,227 +28,178 @@ url: /hu/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-in-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hozzon létre akadálymentes PDF-et Word-ből C#-ban – Lépésről‑lépésre útmutató
+# Hozzon létre akadálymentes PDF-et Word-ből C#-ban – Teljes útmutató
 
-Valaha szüksége volt **akadálymentes PDF** létrehozására egy Word fájlból, és nem tudta, melyik könyvtárban bízhat? Nem egyedül van – sok fejlesztő ütközik ebbe a helyzetbe, amikor a PDF/UA‑2 hozzáférhetőségi követelményeket kell teljesíteni jogi vagy vállalati megfelelés miatt.  
+Szüksége van **akadálymentes pdf** létrehozására egy Word fájlból? Ebben a bemutatóban megmutatjuk, hogyan **konvertálhatja a Word-ot pdf-be** az Aspose.Words segítségével, miközben megfelel a szigorú PDF/UA‑1 hozzáférhetőségi szabványnak. Akár egy megfelelőség‑központú portált épít, akár csak azt szeretné, hogy minden felhasználó elolvashassa a dokumentumait, az alábbi lépések néhány C# sorral a .docx‑et egy teljesen címkézett PDF‑vé alakítják.
 
-A jó hír? Az Aspose.Words segítségével **Word‑ot PDF‑re konvertálhat**, **docx‑et PDF‑re exportálhat**, és **docx‑et PDF‑ként menthet** néhány sor kóddal. Ebben az útmutatóban végigvezetjük a teljes folyamatot, elmagyarázzuk, *miért* fontos minden lépés, és bemutatunk néhány esetleges edge‑case‑t, amivel találkozhat.
+Mindent lefedünk, ami szükséges: a `.docx` betöltése, a megfelelő `PdfSaveOptions` beállítása, és végül a **Word dokumentum mentése pdf‑ként**. A végére egy újrahasználható kódrészletet kap, amelyet bármely .NET projektbe beilleszthet, valamint tippeket a speciális esetekhez, például nagy fájlok vagy egyedi betűtípusok kezeléséhez. Nincs külső eszköz, nincs varázslat – csak tiszta kód, amely ma már működik.
 
-> **Gyors TL;DR:** Telepítse az Aspose.Words‑t, töltse be a `.docx`‑et, állítsa be a `PdfSaveOptions.Compliance = PdfCompliance.PdfUATwo` értéket, és hívja meg a `doc.Save(...)`‑t. Ennyi.
+## Amire szüksége lesz
 
----
+- **Aspose.Words for .NET** (bármely friss verzió; a bemutatott API a 23.x és újabb verziókkal működik).  
+- .NET fejlesztői környezet – Visual Studio, Rider vagy a `dotnet` CLI is megfelel.  
+- Egy forrás Word fájl (`.docx`), amelyet akadálymentessé szeretne tenni.  
 
-## Mit fog megtanulni
-
-- Hogyan **hozzon létre akadálymentes PDF-et**, amely átmegy a PDF/UA‑2 validáción.
-- A pontos kód, amelyre szükség van a **Word‑ból PDF‑re konvertáláshoz** az Aspose.Words segítségével.
-- Tippek nagy dokumentumok, egyedi betűtípusok és hibakezelés kezeléséhez.
-- Hol keressen tovább, ha vízjelet, könyvjelzőket vagy digitális aláírásokat szeretne hozzáadni.
-
-### Előfeltételek
-
-- .NET 6+ (vagy .NET Framework 4.7.2+).  
-- Érvényes Aspose.Words licenc (az ingyenes próba a teszteléshez megfelelő).  
-- Alapvető ismeretek C#‑ban és Visual Studio vagy VS Code használatában.
-
-Ha valamelyik hiányzik, szerezze be most – egyébként merüljünk el.
-
----
-
-## Akadálymentes PDF létrehozása – Áttekintés
-
-Mielőtt kódot írnánk, érdemes megérteni, *miért* állítjuk be a megfelelőségi jelzőt. A PDF/UA‑2 (PDF/Universal Accessibility) biztosítja, hogy a képernyőolvasók értelmezni tudják a dokumentum szerkezetét, a táblázatok helyesen legyenek címkézve, és a navigációs sorrend egyezzen az olvasási sorrenddel. Enélkül a jelző nélkül egy tökéletesen kinéző PDF is elbukhat egy hozzáférhetőségi auditon.
-
-![Create accessible PDF example](https://example.com/images/accessible-pdf.png "Screenshot showing a generated accessible PDF document")
-
-*Alt szöveg: “akadálymentes pdf képernyőkép, amely címkézett címsorokat és olvasható szöveget mutat”*
-
----
-
-## 1. lépés: Aspose.Words telepítése
-
-Először is—adja hozzá a NuGet csomagot a projektjéhez. Nyisson egy terminált a megoldás mappájában, és futtassa:
+Ha még nem telepítette a NuGet csomagot, futtassa:
 
 ```bash
 dotnet add package Aspose.Words
 ```
 
-Vagy, ha a Visual Studio belső Package Manager Console‑t részesíti előnyben:
+Ennyi – nincs további függőség.
 
-```powershell
-Install-Package Aspose.Words
-```
+## 1. lépés: A Word dokumentum betöltése
 
-> **Pro tipp:** Használja a legújabb stabil verziót (jelenleg 23.12), hogy megkapja a legújabb PDF/UA javításokat.
-
----
-
-## 2. lépés: A forrás Word dokumentum betöltése
-
-Miután a könyvtár elérhető, be kell töltenünk a `.docx`‑et a memóriába. A `Document` osztály végzi a nehéz munkát.
+Először beolvassuk a `.docx`‑et a memóriába. Tekintse a `Document`‑et a hídnak a Word és a PDF között.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-// Replace with your actual file path
+// Replace with the actual path to your source file
 string inputPath = @"C:\Docs\input.docx";
 
-try
-{
-    // Step 2: Load the source Word document
-    Document doc = new Document(inputPath);
-}
-catch (Exception ex)
-{
-    Console.WriteLine($"Failed to load document: {ex.Message}");
-    throw;
-}
+Document wordDoc = new Document(inputPath);
 ```
 
-**Miért fontos:** Az Aspose.Words feldolgozza a Word fájlt, megőrizve a stílusokat, címsorokat és a rejtett metaadatokat. Ezek az elemek lesznek az alapjai a végső PDF-ben lévő akadálymentes címkéknek.
+**Miért fontos:** A dokumentum korai betöltése hozzáférést biztosít a struktúrájához (stílusok, címsorok, táblázatok), amelyet az Aspose.Words később PDF‑címkékké alakít. Ennek kihagyása vagy egy nyers stream használata elveszítheti azokat a metaadatokat, amelyekre a hozzáférhetőségi eszközök támaszkodnak.
 
----
+> **Pro tipp:** Ha felhasználók által feltöltött fájlokkal dolgozik, csomagolja a betöltést egy try‑catch blokkba, és ellenőrizze a fájlméretet a `new Document()` hívása előtt, hogy elkerülje a memória‑csúcsokat.
 
-## 3. lépés: PDF mentési beállítások konfigurálása a hozzáférhetőséghez
+## 2. lépés: PDF mentési beállítások konfigurálása a PDF/UA‑1‑hez
 
-A varázslat akkor történik, amikor azt mondjuk az Aspose.Words‑nek, hogy PDF/UA‑2 kompatibilis fájlt állítson elő. Ezt a `PdfSaveOptions` segítségével tesszük.
+Az **akadálymentes pdf** létrehozásának központja a `PdfSaveOptions.Compliance` tulajdonság. Ennek `PdfCompliance.PdfUa1`‑re állítása azt mondja az Aspose‑nak, hogy ágyazza be a szükséges címkéket, alternatív szöveget és a logikai olvasási sorrendet.
 
 ```csharp
-// Step 3: Create PDF save options and enable PDF/UA‑2 compliance
-PdfSaveOptions pdfOptions = new PdfSaveOptions
+PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
 {
-    // Ensures the resulting PDF meets accessibility standards
-    Compliance = PdfCompliance.PdfUATwo,
+    // Enforce PDF/UA‑1 compliance (the official accessibility spec)
+    Compliance = PdfCompliance.PdfUa1,
 
-    // Optional: embed all fonts to avoid missing‑glyph issues
-    EmbedFullFonts = true,
-
-    // Optional: set a custom DPI for better image quality
-    ImageDpi = 300
+    // Optional: preserve original document layout exactly
+    // (helps when you have complex tables or multi‑column layouts)
+    PreserveFormFields = true
 };
 ```
 
-**Miért állítjuk be a `Compliance = PdfUATwo` értéket:** Ez arra kényszeríti az Aspose.Words‑t, hogy a PDF/UA specifikáció szerint címkézze a címsorokat, táblázatokat, listákat és egyéb szerkezeti elemeket. Enélkül a PDF jól néz ki, de elbukna egy hozzáférhetőségi auditon.
+**Miért fontos:** A PDF/UA‑1 az ISO szabvány a univerzálisan hozzáférhető PDF‑ekhez. Enélkül a kimenet csak egy vizuális PDF lenne – a képernyőolvasók hiányzó címkék miatt elakadnának.  
 
----
+> **Figyelem:** Egyes régebbi PDF‑megjelenítők figyelmen kívül hagyják a PDF/UA‑1 metaadatokat. Ha visszafelé kompatibilitásra van szükség, generálhat egy nem‑UA verziót is a hozzáférhető mellett.
 
-## 4. lépés: A dokumentum mentése akadálymentes PDF‑ként
+## 3. lépés: A dokumentum mentése PDF‑ként
 
-Végül a PDF‑et a lemezre írjuk a most beállított opciók használatával.
+Most kiírjuk a fájlt. A `Save` metódus megkapja a célútvonalat és a korábban beállított opciókat.
 
 ```csharp
-// Step 4: Save the document as a PDF using the configured options
 string outputPath = @"C:\Docs\output.pdf";
 
-try
-{
-    doc.Save(outputPath, pdfOptions);
-    Console.WriteLine($"✅ Accessible PDF created at: {outputPath}");
-}
-catch (Exception ex)
-{
-    Console.WriteLine($"Failed to save PDF: {ex.Message}");
-    throw;
-}
+wordDoc.Save(outputPath, pdfSaveOptions);
 ```
 
-Amikor megnyitja a `output.pdf`‑t az Adobe Acrobat Pro‑ban, és futtatja a **Accessibility Check**‑et, **0 hibát** kell látnia (feltéve, hogy az eredeti Word fájl jól strukturált volt).
+Amikor a hívás befejeződik, az `output.pdf` egy teljesen címkézett, **export docx to pdf**, amely a legtöbb hozzáférhetőségi validátoron átmegy (pl. PAC 3). Nyissa meg az Adobe Acrobat Pro‑ban, és futtassa a „Full Check”‑et – zöld pipa jelenik meg a PDF/UA megfelelőséghez.
 
----
+### Teljes működő példa
 
-## Word‑ból PDF‑re konvertálás – Gyakori variációk
-
-### 1. Konvertálás Web API‑ban
-
-Ha ezt a funkciót ASP.NET Core végponton keresztül szeretné elérhetővé tenni, csomagolja be a logikát egy controller akcióba:
+Összeállítva, itt egy önálló konzolalkalmazás, amelyet egyszerűen másolhat és futtathat:
 
 ```csharp
-[HttpPost("api/pdf/convert")]
-public IActionResult ConvertToPdf([FromForm] IFormFile file)
+using System;
+using Aspose.Words;
+using Aspose.Words.Saving;
+
+class Program
 {
-    using var stream = file.OpenReadStream();
-    var doc = new Document(stream);
-    var options = new PdfSaveOptions { Compliance = PdfCompliance.PdfUATwo };
-    using var outStream = new MemoryStream();
-    doc.Save(outStream, options);
-    outStream.Position = 0;
-    return File(outStream, "application/pdf", $"{Path.GetFileNameWithoutExtension(file.FileName)}.pdf");
+    static void Main()
+    {
+        // 1️⃣ Load the source Word document
+        string inputPath = @"C:\Docs\input.docx";
+        Document wordDoc = new Document(inputPath);
+
+        // 2️⃣ Configure PDF/UA‑1 compliance
+        PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
+        {
+            Compliance = PdfCompliance.PdfUa1,
+            PreserveFormFields = true
+        };
+
+        // 3️⃣ Save as an accessible PDF
+        string outputPath = @"C:\Docs\output.pdf";
+        wordDoc.Save(outputPath, pdfSaveOptions);
+
+        Console.WriteLine("✅ Accessible PDF created at: " + outputPath);
+    }
 }
 ```
 
-### 2. Nagy fájlok kezelése
+Futtassa a programot, és egy megerősítő üzenetet fog látni. A generált PDF bármely megjelenítőben megnyitható, és a segítő technológiák helyesen olvassák fel a címsorokat, táblázatokat és képeket a megfelelő sorrendben.
 
-100 MB-nál nagyobb dokumentumok esetén engedélyezze a **streaming**‑et, hogy elkerülje az `OutOfMemoryException`‑t:
+## Gyakori variációk és speciális esetek
+
+### 1. Több fájl konvertálása kötegben
+
+Ha egy egész mappát szeretne **convert word to pdf**, csomagolja a logikát egy ciklusba:
 
 ```csharp
-PdfSaveOptions largeOptions = new PdfSaveOptions
+string[] docxFiles = Directory.GetFiles(@"C:\Docs\Batch", "*.docx");
+foreach (var file in docxFiles)
 {
-    Compliance = PdfCompliance.PdfUATwo,
-    // Saves each page as a separate stream internally
-    SaveFormat = SaveFormat.Pdf,
-    MemoryUsageSetting = MemoryUsageSetting.LowResolution
-};
-doc.Save(outputPath, largeOptions);
+    var doc = new Document(file);
+    string pdfPath = Path.ChangeExtension(file, ".pdf");
+    doc.Save(pdfPath, pdfSaveOptions);
+}
 ```
 
-### 3. Egyedi címkék hozzáadása
+### 2. Alternatív szöveg hozzáadása képekhez
 
-Néha extra címkéket kell beilleszteni (pl. egy egyedi nyelvi attribútum). Használja a `PdfSaveOptions.TaggedPdf` tulajdonságot:
+A hozzáférhetőség nem csak a címkékről szól; a képeknek leíró alt szövegre is szükségük van. Az Aspose.Words tiszteletben tartja a `AlternativeText` tulajdonságot a `Shape` objektumokon. Ha programozottan generálja a Word fájlt, állítsa be így:
 
 ```csharp
-pdfOptions.TaggedPdf = true; // already true for PDF/UA‑2, but explicit is clearer
+Shape picture = new Shape(doc, ShapeType.Image);
+picture.ImageData.SetImage("logo.png");
+picture.AlternativeText = "Company logo – white on blue background";
 ```
 
----
+Exportáláskor a PDF ugyanazt a leírást fogja tartalmazni.
 
-## docx‑ export PDF‑be – Legjobb gyakorlatok ellenőrzőlistája
+### 3. Nagy dokumentumok kezelése
 
-| ✅ | Checklist Item |
-|---|-----------------|
-| ✅ | Használja a legújabb Aspose.Words verziót |
-| ✅ | Ellenőrizze, hogy a forrás `.docx` megfelelő címsor stílusokkal rendelkezik |
-| ✅ | Állítsa be a `PdfSaveOptions.Compliance = PdfCompliance.PdfUATwo` értéket |
-| ✅ | Ágyazza be a betűtípusokat (`EmbedFullFonts = true`) a konzisztens megjelenítéshez |
-| ✅ | Futtasson hozzáférhetőségi auditot a generált PDF‑en |
-| ✅ | Kezelje a kivételeket és naplózza a fájl útvonalakat a hibakereséshez |
+Nagyon nagy `.docx` fájlok (százszáz oldalas) megterhelhetik a memóriát. Használja a `LoadOptions`‑t `LoadFormat.Docx`‑szel, és engedélyezze a streaminget:
 
-Ha bármelyik elem nincs bejelölve, előfordulhat, hogy egy jól kinéző PDF-et kap, amely nem felel meg a megfelelőségi tesztnek.
+```csharp
+LoadOptions loadOptions = new LoadOptions { LoadFormat = LoadFormat.Docx };
+Document largeDoc = new Document(inputPath, loadOptions);
+largeDoc.Save(outputPath, pdfSaveOptions);
+```
 
----
+### 4. Egyedi betűtípus beágyazása
 
-## docx mentése PDF‑ként – Hibaelhárítás GYIK
+Ha a Word fájl nem szabványos betűtípusokat használ, győződjön meg róla, hogy be vannak ágyazva, hogy a PDF minden felhasználó számára helyesen jelenjen meg:
 
-**Q: A PDF‑em jól néz ki, de a hozzáférhetőségi ellenőrzés hiányzó címkéket jelent.**  
-A: Győződjön meg arról, hogy a Word dokumentum beépített címsor stílusokat használ (`Heading 1`, `Heading 2`, …). Az egyedi stílusok nem kerülnek automatikusan címkézésre, hacsak nem térképezi őket a `PdfSaveOptions.CustomHeadingLevels` segítségével.
+```csharp
+pdfSaveOptions.FontEmbeddingMode = FontEmbeddingMode.EmbedAll;
+```
 
-**Q: A betűtípusok helyettesítve vannak a PDF‑ben.**  
-A: Állítsa be az `EmbedFullFonts = true` értéket, és győződjön meg arról, hogy a betűtípus fájlok elérhetők a szerveren. Ha Linux konténeren fut, telepítse a szükséges betűtípusokat rendszerszinten.
+A betűtípusok beágyazása megakadályozza, hogy a fallback alapértelmezett betűtípusokra váltson, ami megtörhetné az olvasási sorrendet.
 
-**Q: A konvertálás lassú egy 200 oldalas jelentésnél.**  
-A: Engedélyezze a `MemoryUsageSetting = MemoryUsageSetting.LowResolution` beállítást, vagy bontsa a dokumentumot szakaszokra, és konvertálja őket külön-külön.
+## Az eredmény ellenőrzése
 
----
+Miután legenerálta a PDF‑et:
 
-## Hogyan konvertáljunk Word‑t PDF‑re – Következő lépések
+1. Nyissa meg **Adobe Acrobat Pro**‑ban → *Tools* → *Accessibility* → *Full Check*.  
+2. Keresse a **PDF/UA** pipa jelzést.  
+3. Használjon képernyőolvasót (NVDA, JAWS) a címsorok és táblázatok navigálásához – azoknak a Word‑ben látható logikai sorrendet kell követniük.
 
-Most, hogy **akadálymentes PDF** fájlokat tud létrehozni, fontolja meg a munkafolyamat kibővítését:
+Ha bármilyen probléma merül fel, ellenőrizze a forrás Word dokumentumot: biztosítsa a megfelelő címsor‑stílusokat (`Heading 1`, `Heading 2`, …) és adjon alt szöveget minden képhez. A PDF‑motor csak azt tudja lefordítani, ami már ott van.
 
-- **Vízjel** – Használja a `PdfSaveOptions.AdditionalOptions["Watermark"] = "Confidential"` beállítást.
-- **Digitális aláírások** – Kombinálja az Aspose.PDF‑et az Aspose.Words‑szal a kimenet aláírásához.
-- **Kötegelt feldolgozás** – Iteráljon egy `.docx` fájlok mappáján, és generáljon PDF‑eket párhuzamosan (`Parallel.ForEach`).
+## Összegzés
 
-Ezek a témák mind mélyebb vizsgálatot érdemelnek, de az alapminta változatlan: betöltés → konfigurálás → mentés.
+Most már tudja, hogyan **create accessible pdf** egy Word fájlból az Aspose.Words segítségével, hogyan **convert word to pdf**, **save word as pdf**, és akár **export docx to pdf** is, miközben megfelel a PDF/UA‑1 szabványnak. A fenti kódrészlet production‑kész, kezeli a gyakori buktatókat, és kiterjeszthető kötegelt feldolgozásra vagy egyedi betűtípus beágyazásra.
 
----
+Mi a következő lépés? Próbáljon meg **metadata**‑t (cím, szerző, nyelv) hozzáadni a PDF‑hez, vagy kísérletezzen **digitális aláírásokkal** a szigorú megfelelőséget igénylő iparágakban. Ugyanazok a elvek – állítsa be a megfelelő opciókat, és az Aspose elvégzi a nehéz munkát.
 
-## Következtetés
+Ha hasznosnak találta ezt az útmutatót, ossza meg, hagyjon megjegyzést saját tippekkel, vagy nézze meg a többi Aspose.Words tutorialt a **saving Word as PDF**, **PDF/UA validation**, és **document automation** témakörökben. Boldog kódolást, és élvezze a valóban hozzáférhető dokumentumok építését!  
 
-Mindent lefedtünk, ami szükséges a **akadálymentes PDF** létrehozásához egy Word dokumentumból az Aspose.Words C#‑ban. A teljes megoldás néhány kódsorra redukálódik, ugyanakkor natívan biztosítja a PDF/UA‑2 megfelelőséget – ami számos szabályozott iparág számára kritikus követelmény.  
-
-Próbálja ki a saját `.docx` fájljain, kísérletezzen az opcionális beállításokkal, és hagyja, hogy a hozzáférhetőségi ellenőrzések megerősítsék, hogy elérte a célt. Ha problémába ütközik, nézze át a fenti ellenőrzőlistát, vagy hagyjon megjegyzést – jó kódolást!
-
----
+![Akadálymentes PDF példája](image-placeholder.png "Akadálymentes PDF példája")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
