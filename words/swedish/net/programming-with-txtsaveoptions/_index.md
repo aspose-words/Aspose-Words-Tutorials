@@ -40,6 +40,7 @@ Tack vare dessa handledningar kommer du att kunna utnyttja funktionerna i Aspose
 | [Spara docx som txt – Exportera ekvationer till LaTeX](./save-docx-as-txt-export-equations-to-latex/) | Lär dig hur du sparar DOCX som TXT och exporterar ekvationer till LaTeX med Aspose.Words för .NET. |
 | [Spara docx som txt – Komplett C#-guide](./save-docx-as-txt-complete-c-guide/) | Lär dig hur du sparar docx-filer som txt med en komplett C#-guide i Aspose.Words för .NET. |
 | [Hur man exporterar LaTeX från Word – Konvertera DOCX till TXT med ekvationer](./how-to-export-latex-from-word-convert-docx-to-txt-with-equat/) | Lär dig konvertera Word-dokument med LaTeX-ekvationer till TXT-filer med Aspose.Words för .NET. |
+| [Spara docx som txt – Exportera Word-ekvationer till LaTeX med C#](./save-docx-as-txt-export-word-equations-to-latex-with-c/) | Lär dig hur du sparar DOCX som TXT och konverterar Word-ekvationer till LaTeX med C# i Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

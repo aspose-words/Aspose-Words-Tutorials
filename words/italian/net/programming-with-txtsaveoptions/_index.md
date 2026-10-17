@@ -41,6 +41,7 @@ Grazie a questi tutorial, potrai sfruttare appieno le funzionalità di Aspose.Wo
 | [Salva documento come TXT – Esporta equazioni Word in LaTeX](./save-document-as-txt-export-word-equations-to-latex/) | Scopri come salvare un documento Word in formato TXT esportando le equazioni in LaTeX con Aspose.Words per .NET. |
 | [Salva docx come txt – Esporta equazioni in LaTeX](./save-docx-as-txt-export-equations-to-latex/) | Scopri come salvare documenti DOCX in formato TXT esportando le equazioni in LaTeX con Aspose.Words per .NET. |
 | [Come esportare LaTeX da Word – Convertire DOCX in TXT con equazioni](./how-to-export-latex-from-word-convert-docx-to-txt-with-equat/) | Scopri come esportare contenuti LaTeX da documenti Word, convertendo DOCX in file TXT con equazioni preservate. |
+| [Salva docx come txt – Esporta le equazioni Word in LaTeX con C#](./save-docx-as-txt-export-word-equations-to-latex-with-c/) | Scopri come convertire le equazioni di Word in LaTeX durante il salvataggio di documenti DOCX in file TXT usando C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

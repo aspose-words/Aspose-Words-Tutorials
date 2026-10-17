@@ -213,6 +213,14 @@ Leer hoe u lege alinea's behoudt bij het opslaan van een DOCX als Markdown met e
 ### [Hoe links exporteren: DOCX naar Markdown in C#](./how-to-export-links-convert-docx-to-markdown-in-c/)
 Leer hoe u links uit een DOCX-bestand exporteert en converteert naar Markdown met C# en Aspose.Words.
 
+### [DOCX naar Markdown converteren – Afbeeldingen extraheren uit DOCX met Aspose.Words](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/)
+
+Leer hoe u afbeeldingen uit een DOCX haalt en het document naar Markdown converteert met Aspose.Words.
+
+### [Word naar Markdown converteren – Volledige gids met PDF/UA-export](./convert-word-to-markdown-full-guide-with-pdf-ua-export/)
+
+Leer hoe u Word-documenten naar Markdown converteert en tegelijkertijd PDF/UA exporteert met een uitgebreide C#‑handleiding.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

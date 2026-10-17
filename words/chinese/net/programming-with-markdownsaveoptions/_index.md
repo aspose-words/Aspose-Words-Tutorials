@@ -183,6 +183,9 @@
 ### [如何导出链接：在 C# 中将 DOCX 转换为 Markdown](./how-to-export-links-convert-docx-to-markdown-in-c/)
 
 使用 Aspose.Words for .NET 将 DOCX 文档导出为 Markdown，并演示如何导出链接，提供完整的 C# 示例和步骤。
+### [将 Word 转换为 Markdown – 完整指南（含 PDF/UA 导出）](./convert-word-to-markdown-full-guide-with-pdf-ua-export/)
+
+使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown，并导出符合 PDF/UA 标准的 PDF，提供完整示例和分步指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

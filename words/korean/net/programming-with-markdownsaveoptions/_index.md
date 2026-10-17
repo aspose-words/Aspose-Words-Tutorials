@@ -86,6 +86,8 @@
 | [Word를 Markdown으로 저장 – Word를 Markdown으로 변환하고 이미지 추출하는 전체 가이드](./save-word-as-markdown-complete-guide-to-convert-word-to-mark/) | Aspose.Words for .NET을 사용하여 Word 문서를 Markdown으로 변환하고 이미지 추출까지 수행하는 전체 단계별 가이드 |
 | [docx를 markdown으로 저장 – 빈 단락 포함 전체 가이드](./save-docx-as-markdown-complete-guide-with-empty-paragraphs/) | Aspose.Words for .NET을 사용하여 빈 단락이 포함된 docx 파일을 Markdown으로 변환하는 전체 가이드 |
 | [링크 내보내기: C#에서 DOCX를 Markdown으로 변환하는 방법](./how-to-export-links-convert-docx-to-markdown-in-c/) | Aspose.Words for .NET을 사용하여 DOCX 파일의 링크를 Markdown으로 내보내는 방법을 단계별로 안내합니다. |
+| [docx를 markdown으로 변환 – 이미지 추출 포함 전체 C# 가이드](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 Markdown으로 변환하면서 이미지 추출하는 방법을 단계별로 안내합니다. |
+| [Word를 Markdown으로 변환 – PDF/UA 내보내기 전체 가이드](./convert-word-to-markdown-full-guide-with-pdf-ua-export/) | Aspose.Words for .NET을 사용하여 Word 문서를 Markdown으로 변환하고 PDF/UA 형식으로 내보내는 전체 단계별 가이드 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

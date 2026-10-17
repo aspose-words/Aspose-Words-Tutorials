@@ -40,6 +40,7 @@ Ezeknek az oktatóanyagoknak köszönhetően teljes mértékben kiaknázhatod az
 | [DOCX mentése TXT-ként – Egyenletek exportálása LaTeX-be](./save-docx-as-txt-export-equations-to-latex/) | Tanulja meg, hogyan exportálhatja a DOCX dokumentumban lévő egyenleteket LaTeX formátumba TXT mentéskor. |
 | [Docx mentése txt-be – Teljes C# útmutató](./save-docx-as-txt-complete-c-guide/) | Ismerje meg, hogyan menthet docx fájlt txt formátumba a teljes C# útmutató segítségével az Aspose.Words for .NET használatával. |
 | [Hogyan exportáljunk LaTeX-et Wordből – DOCX konvertálása TXT-be egyenletekkel](./how-to-export-latex-from-word-convert-docx-to-txt-with-equat/) | Tanulja meg, hogyan konvertálja a Word DOCX fájlokat LaTeX formátumba TXT-be, megőrizve az egyenleteket az Aspose.Words for .NET segítségével. |
+| [docx mentése txt‑ként – Word egyenletek exportálása LaTeX‑be C#‑val](./save-docx-as-txt-export-word-equations-to-latex-with-c/) | Tanulja meg, hogyan exportálhatja a Word egyenleteket LaTeX formátumba C#‑ban, miközben a DOCX fájlt TXT‑ként menti. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

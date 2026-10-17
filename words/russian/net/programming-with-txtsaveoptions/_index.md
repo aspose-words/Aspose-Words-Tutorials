@@ -41,6 +41,7 @@
 | [Сохранить docx как txt – Полное руководство C#](./save-docx-as-txt-complete-c-guide/) | Узнайте, как полностью преобразовать файлы docx в txt с помощью Aspose.Words для .NET, используя C#. |
 
 | [Как экспортировать LaTeX из Word – преобразовать DOCX в TXT с уравнениями](./how-to-export-latex-from-word-convert-docx-to-txt-with-equat/) | Узнайте, как экспортировать LaTeX из Word, преобразуя DOCX в TXT с уравнениями, используя Aspose.Words для .NET. |
+| [Сохранить docx как txt – Экспорт уравнений Word в LaTeX с C#](./save-docx-as-txt-export-word-equations-to-latex-with-c/) | Узнайте, как экспортировать уравнения из документов Word в формат LaTeX при сохранении как txt с помощью C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -39,6 +39,7 @@ Aspose.Words for .NET 教程将引导您了解该库在处理 Word 文档方面�
 | [将 docx 保存为 txt – 将公式导出为 LaTeX](./save-docx-as-txt-export-equations-to-latex/) 了解如何使用 Aspose.Words for .NET 将 docx 文档保存为 txt 并将公式导出为 LaTeX。|
 | [将 docx 保存为 txt – 完整 C# 指南](./save-docx-as-txt-complete-c-guide/) 本指南详细演示如何使用 C# 将 docx 文档保存为 txt 文件的完整步骤。|
 | [如何从 Word 导出 LaTeX – 将 DOCX 转换为带公式的 TXT](./how-to-export-latex-from-word-convert-docx-to-txt-with-equat/) 本教程演示如何使用 Aspose.Words for .NET 将 Word 文档中的公式导出为 LaTeX，并将 DOCX 转换为包含公式的 TXT 文件。|
+| [将 docx 保存为 txt – 使用 C# 将 Word 方程导出为 LaTeX](./save-docx-as-txt-export-word-equations-to-latex-with-c/) 本教程演示如何使用 Aspose.Words for .NET 将 Word 文档中的公式导出为 LaTeX，并保存为 txt 文件。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

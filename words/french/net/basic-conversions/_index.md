@@ -62,6 +62,7 @@ Conversions de base vous guide dans les conversions de documents de base avec la
 | [Convertir un fichier texte en document Word](./txt-to-docx/) | Apprenez à convertir des fichiers texte en documents Word avec Aspose.Words pour .NET. Gérez efficacement vos conversions de documents grâce à notre guide complet. | 
 | [Comment créer un PDF à partir de DOCX en C# – Guide étape par étape](./how-to-create-pdf-from-docx-in-c-step-by-step-guide/) | Apprenez à créer un PDF à partir d'un fichier DOCX en C# avec Aspose.Words, guide complet étape par étape. |
 | [Comment créer un PDF à partir de Word en C# – Guide étape par étape](./how-to-create-pdf-from-word-in-c-step-by-step-guide/) | Apprenez à créer un PDF à partir d'un document Word en C# avec Aspose.Words, guide complet étape par étape. |
+| [Convertir Word en PDF en C# – Guide complet avec Aspose.Words](./convert-word-to-pdf-in-c-full-guide-with-aspose-words/) | Apprenez à convertir un document Word en PDF en C# avec Aspose.Words grâce à un guide complet étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -73,6 +73,7 @@ Akár különböző betűtípusokkal szeretné formázni a szöveget, betűtípu
 | [Word dokumentum mentése – Hiányzó betűtípusok észlelése az Aspose.Words segítségével](./save-word-document-detect-missing-fonts-with-aspose-words/) | Tanulja meg, hogyan menthet Word dokumentumot, miközben az Aspose.Words for .NET segítségével észleli a hiányzó betűtípusokat. |
 
 | [FontSettings használata a hiányzó betűtípusok kezeléséhez az Aspose.Words-ben](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | Ismerje meg, hogyan kezelheti a hiányzó betűtípusokat a FontSettings segítségével az Aspose.Words for .NET-ben. |
+| [Aspose betűtípus-helyettesítés – Hiányzó betűtípusok észlelése Word dokumentumokban](./aspose-font-substitution-detect-missing-fonts-in-word-docume/) | Ismerje meg, hogyan észlelheti a hiányzó betűtípusokat a Word-dokumentumokban az Aspose.Words for .NET segítségével. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
