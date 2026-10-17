@@ -61,6 +61,8 @@ Basic Conversions przeprowadzi Cię przez podstawowe konwersje dokumentów przy 
 | [Konwertuj DOCX do PDF – Generuj dostępny PDF (PDF/UA)](./convert-docx-to-pdf-generate-accessible-pdf-pdf-ua/) | Dowiedz się, jak konwertować pliki DOCX do PDF spełniających standard PDF/UA, zapewniając dostępność dokumentów. |
 | [Zapisz docx jako txt – Kompletny przewodnik konwertowania plików Word na tekst](./save-docx-as-txt-complete-guide-to-converting-word-files-to/) | Dowiedz się, jak przekonwertować plik DOCX na czysty tekst (TXT) przy użyciu Aspose.Words dla .NET. Szczegółowy przewodnik krok po kroku. |
 | [Jak utworzyć PDF z Worda w C# – Przewodnik krok po kroku](./how-to-create-pdf-from-word-in-c-step-by-step-guide/) | Dowiedz się, jak w prosty sposób wygenerować plik PDF z dokumentu Word przy użyciu Aspose.Words w C#. |
+| [Konwertuj docx do txt – Kompletny przewodnik dla matematyki Word do LaTeX](./convert-docx-to-txt-complete-guide-for-word-math-to-latex/) | Dowiedz się, jak konwertować pliki DOCX do TXT, zachowując formuły matematyczne Word i przekształcając je do LaTeX. |
+| [Utwórz PDF z Worda w C# – Kompletny przewodnik](./create-pdf-from-word-in-c-full-guide/) | Dowiedz się, jak w prosty sposób utworzyć plik PDF z dokumentu Word przy użyciu Aspose.Words w C#. Szczegółowy przewodnik krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -34,6 +34,7 @@ Các hướng dẫn cũng đề cập đến các khái niệm cơ bản về th
 | [Chuyển đổi Word sang PNG – Hướng dẫn C# đầy đủ](./convert-word-to-png-complete-c-guide/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định dạng PNG bằng C# trong Aspose.Words cho .NET. |
 | [Cách Đặt DPI Khi Chuyển Đổi Word Sang PNG – Hướng Dẫn Xuất Độ Phân Giải Cao](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) | Hướng dẫn chi tiết cách xuất ảnh PNG với DPI cao khi chuyển đổi tài liệu Word bằng Aspose.Words cho .NET. |
 | [Tạo lưới PNG từ tài liệu Word – Hướng dẫn đầy đủ](./create-png-grid-from-word-document-complete-guide/) | Hướng dẫn chi tiết cách tạo lưới PNG từ tài liệu Word bằng Aspose.Words cho .NET, bao gồm các bước thiết lập và tùy chỉnh. |
+| [Cách đặt DPI – Xuất Word sang PNG dạng lưới trong C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Hướng dẫn chi tiết cách thiết lập DPI khi xuất tài liệu Word thành lưới các ảnh PNG bằng C# trong Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

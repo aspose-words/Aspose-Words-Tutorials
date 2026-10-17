@@ -54,6 +54,7 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [Grammatikprüfung mit einem lokalen LLM in C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Erfahren Sie, wie Sie mit einem lokalen LLM in C# Grammatikfehler in Word-Dokumenten automatisch erkennen und korrigieren. |
 | [Wie man Grammatik prüft und ein Word-Dokument mit Aspose.Words KI zusammenfasst](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Erfahren Sie, wie Sie Grammatik prüfen und Word-Dokumente mit Aspose.Words KI zusammenfassen. |
 | [Grammatikprüfung von Word-Dokumenten in C# – Vollständiger Programmierleitfaden](./check-grammar-word-document-in-c-complete-programming-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET die Grammatik von Word-Dokumenten in C# prüfen und korrigieren – Schritt-für-Schritt-Anleitung. |
+| [Wie man Grammatik in C# mit Aspose.Words prüft – Schritt‑für‑Schritt‑Anleitung](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Grammatikprüfungen in C# automatisieren und Texte fehlerfrei machen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

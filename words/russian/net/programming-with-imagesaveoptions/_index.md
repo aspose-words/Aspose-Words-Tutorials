@@ -33,6 +33,7 @@
 | [Конвертировать Word в PNG – Объединить страницы в вертикальную полосу](./convert-word-to-png-merge-pages-into-a-vertical-strip/) | Узнайте, как преобразовать документ Word в PNG, объединяя все страницы в одну вертикальную полосу. |
 | [Конвертировать Word в PNG – Полное руководство C#](./convert-word-to-png-complete-c-guide/) | Узнайте, как преобразовать документы Word в PNG с помощью Aspose.Words for .NET, используя полный пошаговый C# пример. |
 | [Как установить DPI при конвертации Word в PNG – Руководство по экспорту в высоком разрешении](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) | Узнайте, как задать DPI при конвертации Word в PNG с высоким разрешением с помощью Aspose.Words for .NET. |
+| [Как установить DPI – экспорт Word в PNG‑сетку на C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Узнайте, как задать DPI при экспорте документов Word в сетку PNG с помощью Aspose.Words for .NET в C#. |
 
 | [Создать сетку PNG из документа Word – Полное руководство](./create-png-grid-from-word-document-complete-guide/) | Узнайте, как создать сетку PNG из документа Word с помощью Aspose.Words for .NET в полном руководстве. |
 

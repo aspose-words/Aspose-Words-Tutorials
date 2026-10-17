@@ -54,6 +54,7 @@
 | [كيفية التحقق من القواعد النحوية باستخدام نموذج لغة محلي في C#](./how-to-check-grammar-with-a-local-llm-in-c/) | تعلم كيفية استخدام نموذج لغة محلي في C# للتحقق من القواعد النحوية في مستندات Word باستخدام Aspose.Words. |
 | [كيفية فحص القواعد وتلخيص مستند Word باستخدام Aspose.Words AI](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | تعلم كيفية فحص القواعد النحوية وتلخيص مستندات Word باستخدام الذكاء الاصطناعي من Aspose.Words. |
 | [تحقق من قواعد مستند Word في C# – دليل برمجة كامل](./check-grammar-word-document-in-c-complete-programming-guide/) | دليل شامل لفحص قواعد مستند Word باستخدام C# و Aspose.Words، مع خطوات عملية لتصحيح الأخطاء اللغوية. |
+| [كيفية فحص القواعد النحوية في C# باستخدام Aspose.Words – دليل خطوة بخطوة](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) | تعلم كيفية فحص وتصحيح الأخطاء النحوية في مستندات C# باستخدام Aspose.Words خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

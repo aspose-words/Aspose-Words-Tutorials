@@ -54,6 +54,7 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Hoe controleer je grammatica met een lokaal LLM in C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Leer hoe u met een lokaal LLM grammatica controleert in C# met Aspose.Words voor .NET. |
 | [Hoe grammatica te controleren en Word-document samen te vatten met Aspose.Words AI](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Leer hoe u grammatica controleert en documenten samenvat met Aspose.Words AI in .NET. |
 | [Grammatica controleren in Word-document met C# – Complete programmeergids](./check-grammar-word-document-in-c-complete-programming-guide/) | Leer hoe u met Aspose.Words voor .NET grammatica in Word-documenten kunt controleren en corrigeren via C#. |
+| [Hoe grammatica te controleren in C# met Aspose.Words – Stapsgewijze handleiding](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) | Leer hoe u grammatica controleert in C# met Aspose.Words via een eenvoudige stap‑voor‑stap gids. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

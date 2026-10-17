@@ -212,6 +212,8 @@ Leer hoe u lege alinea's behoudt bij het opslaan van een DOCX als Markdown met e
 
 ### [Hoe links exporteren: DOCX naar Markdown in C#](./how-to-export-links-convert-docx-to-markdown-in-c/)
 Leer hoe u links uit een DOCX-bestand exporteert en converteert naar Markdown met C# en Aspose.Words.
+### [Document opslaan als Markdown met C# – Volledige gids](./save-document-as-markdown-with-c-full-guide/)
+Leer hoe u documenten opslaat als Markdown met C# in een volledige stap‑voor‑stap handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

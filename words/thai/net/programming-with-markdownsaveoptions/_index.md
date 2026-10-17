@@ -73,11 +73,12 @@
 
 ### [แปลง Word เป็น Markdown – ฝังรูปภาพเป็น Base64](./convert-word-to-markdown-embed-images-as-base64/)
 เรียนรู้วิธีแปลงไฟล์ Word เป็น Markdown พร้อมฝังรูปภาพเป็น Base64 ด้วย Aspose.Words สำหรับ .NET
+
 ### [วิธีบันทึก Markdown จาก Word – คู่มือ C# ฉบับเต็ม](./how-to-save-markdown-from-word-complete-c-guide/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างละเอียดด้วย C#
 
 ### [วิธีบันทึก Markdown จาก Word – คู่มือเต็ม](./how-to-save-markdown-from-word-complete-guide/)
-เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างละเอียดด้วย C#
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างละเอียดด้วย C+
 
 ### [วิธีส่งออก LaTeX: แปลง DOCX เป็น Markdown และ TXT](./how-to-export-latex-convert-docx-to-markdown-txt/)
 
@@ -92,6 +93,9 @@
 ### [แปลง Word เป็น Markdown ใน C# – คู่มือเต็มพร้อมการสกัดรูปภาพ](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 
 ### [วิธีส่งออก LaTeX จาก Word – แปลง DOCX เป็น Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+### [บันทึกเอกสารเป็น Markdown ด้วย C# – คู่มือเต็ม](./save-document-as-markdown-with-c-full-guide/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 ### [แปลง Word เป็น Markdown – คู่มือเต็มพร้อมการสกัดรูปภาพ](./convert-word-to-markdown-complete-guide-with-image-extractio/)
 แปลงไฟล์ Word เป็น Markdown พร้อมสกัดรูปภาพอย่างครบถ้วนด้วย Aspose.Words สำหรับ .NET

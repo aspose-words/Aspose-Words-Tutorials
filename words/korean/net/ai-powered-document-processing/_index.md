@@ -54,6 +54,7 @@
 | [C# 로컬 LLM으로 문법 검사하는 방법](./how-to-check-grammar-with-a-local-llm-in-c/) | Aspose.Words for .NET와 로컬 LLM을 사용하여 C#에서 문법 검사를 수행하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words AI로 문법 검사 및 Word 문서 요약하는 방법](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Aspose.Words for .NET을 사용하여 문법을 검사하고 문서를 요약하는 방법을 단계별로 안내합니다. |
 | [C#을 사용한 Word 문서 문법 검사 – 완전 프로그래밍 가이드](./check-grammar-word-document-in-c-complete-programming-guide/) | C#과 Aspose.Words를 활용하여 Word 문서의 문법을 자동으로 검사하고 교정하는 방법을 단계별로 안내합니다. |
+| [C#에서 Aspose.Words로 문법 검사하는 방법 – 단계별 가이드](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) | Aspose.Words for .NET을 활용해 C#에서 문법 검사를 자동화하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

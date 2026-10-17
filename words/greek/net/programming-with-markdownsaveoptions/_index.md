@@ -86,6 +86,7 @@
 | [Αποθήκευση DOCX ως Markdown με Aspose.Words – Πλήρης Οδηγός C#](./save-docx-as-markdown-with-aspose-words-complete-c-guide/) | Μάθετε πώς να αποθηκεύσετε αρχεία DOCX ως Markdown με πλήρη οδηγό C# χρησιμοποιώντας Aspose.Words. |
 | [Αποθήκευση docx ως markdown – Πλήρης οδηγός με κενές παραγράφους](./save-docx-as-markdown-complete-guide-with-empty-paragraphs/) | Μάθετε πώς να αποθηκεύσετε αρχεία docx ως markdown, διατηρώντας κενές παραγράφους, με πλήρη οδηγό C#. |
 | [Πώς να εξάγετε συνδέσμους: Μετατροπή DOCX σε Markdown σε C#](./how-to-export-links-convert-docx-to-markdown-in-c/) | Μάθετε πώς να εξάγετε συνδέσμους από DOCX σε μορφή Markdown με C# και Aspose.Words. |
+| [Αποθήκευση εγγράφου ως Markdown με C# – Πλήρης Οδηγός](./save-document-as-markdown-with-c-full-guide/) | Μάθετε πώς να αποθηκεύσετε έγγραφα ως Markdown χρησιμοποιώντας C# με πλήρη οδηγό και παραδείγματα κώδικα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

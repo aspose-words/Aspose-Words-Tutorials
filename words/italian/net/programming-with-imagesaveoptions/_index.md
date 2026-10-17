@@ -34,6 +34,7 @@ tutorial trattano anche i concetti base della manipolazione delle immagini, tra 
 | [Crea una griglia PNG da documento Word – Guida passo‑passo](./create-png-grid-from-word-document-step-by-step-guide/) | Scopri come generare una griglia di immagini PNG da un documento Word usando Aspose.Words per .NET, passo dopo passo. |
 | [Come impostare DPI durante la conversione da Word a PNG – Guida all'esportazione ad alta risoluzione](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) | Scopri come esportare documenti Word in PNG ad alta risoluzione impostando il DPI con Aspose.Words per .NET, esempi passo passo. |
 | [Crea una griglia PNG da documento Word – Guida completa](./create-png-grid-from-word-document-complete-guide/) | Scopri come generare una griglia di immagini PNG da un documento Word con questa guida completa passo passo. |
+| [come impostare DPI – Esporta Word in PNG Grid in C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Scopri come impostare il DPI durante l'esportazione di un documento Word in una griglia PNG usando C# con Aspose.Words per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

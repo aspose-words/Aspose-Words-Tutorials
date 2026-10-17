@@ -131,6 +131,8 @@ Ismerje meg, hogyan menthet DOCX fájlokat Markdown formátumba, miközben kezel
 
 ### [Hogyan exportáljunk linkeket: DOCX konvertálása Markdownba C#-ban](./how-to-export-links-convert-docx-to-markdown-in-c/)
 Ismerje meg, hogyan exportálhat linkeket a DOCX fájlokból Markdown formátumba C#-ban az Aspose.Words for .NET segítségével.
+### [Dokumentum mentése Markdownba C#‑vel – Teljes útmutató](./save-document-as-markdown-with-c-full-guide/)
+Ismerje meg, hogyan menthet dokumentumokat Markdown formátumba C#‑ban egy teljes útmutató segítségével az Aspose.Words for .NET használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

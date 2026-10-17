@@ -33,6 +33,7 @@ Los tutoriales también abarcan los conceptos básicos de la manipulación de im
 | [Convertir Word a PNG – Guía completa en C#](./convert-word-to-png-complete-c-guide/) | Aprenda a convertir documentos Word a imágenes PNG con una guía completa en C# paso a paso. |
 | [Cómo establecer DPI al convertir Word a PNG – Guía de exportación de alta resolución](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) | Aprenda a establecer la resolución DPI al convertir documentos Word a imágenes PNG de alta resolución usando Aspose.Words para .NET con esta guía paso a paso. |
 | [Crear cuadrícula PNG a partir de documento Word – Guía completa](./create-png-grid-from-word-document-complete-guide/) | Aprenda a crear una cuadrícula de imágenes PNG a partir de un documento Word usando Aspose.Words para .NET con esta guía paso a paso. |
+| [Cómo establecer DPI – Exportar Word a cuadrícula PNG en C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Aprenda a exportar páginas de un documento Word a una cuadrícula de imágenes PNG con control de DPI usando Aspose.Words para .NET en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

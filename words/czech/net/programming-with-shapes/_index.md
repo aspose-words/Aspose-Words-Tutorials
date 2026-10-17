@@ -52,6 +52,7 @@ Používáním Aspose.Words pro .NET a podle těchto tutoriálů zvládnete mani
 | [Přidat stín k tvaru v C# – Kompletní průvodce Aspose.Words](./add-shadow-to-shape-in-c-complete-aspose-words-guide/) | Naučte se, jak přidat stín k tvarům v dokumentech Word pomocí Aspose.Words pro .NET v tomto podrobném návodu. |
 | [Vytvořit dokument Word – Jak přidat obdélníkový tvar a stín](./create-word-document-how-to-add-rectangle-shape-and-shadow/) | Naučte se, jak pomocí Aspose.Words přidat obdélníkový tvar se stínem do dokumentu Word. |
 | [Vytvořit obdélníkový tvar se stínem](./create-rectangle-shape-with-shadow-in-c-using-aspose-words/) | Naučte se, jak vytvořit obdélníkový tvar se stínem v C# pomocí Aspose.Words. |
+| [Jak nastavit stín na tvar v C# – krok za krokem](./how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/) | Naučte se, jak nastavit stín na tvar ve Wordu pomocí Aspose.Words pro .NET v C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -62,6 +62,7 @@ Bu eğitimlerde, özel ayarlarla Word belgelerini yüklemek için LoadOptions'ı
 | [DOCX Dosyasını Kurtarma – Bozuk Dosyalar İçin Adım Adım Kılavuz](./how-to-recover-docx-step-by-step-guide-for-corrupt-files/) | Aspose.Words for .NET ile bozuk DOCX dosyalarını adım adım nasıl kurtaracağınızı öğrenin. |
 | [C#'ta Bozuk DOCX Yükleme – Tam Aspose.Words Kılavuzu](./load-corrupted-docx-in-c-complete-aspose-words-guide/) | Aspose.Words for .NET ile bozuk DOCX dosyalarını C# içinde nasıl yükleyeceğinizi adım adım öğrenin. |
 | [Hasarlı Word dosyasını kurtar – bozuk docx'i Aspose kullanarak aç](./recover-damaged-word-file-open-corrupted-docx-using-aspose/) | Aspose.Words for .NET ile bozuk bir docx dosyasını nasıl açıp kurtaracağınızı adım adım öğrenin. |
+| [Aspose.Words'te LoadOptions Kullanımı – Tam C# Kılavuzu](./how-to-use-loadoptions-in-aspose-words-complete-c-guide/) | Aspose.Words for .NET ile LoadOptions kullanarak C# ortamında belgeleri nasıl yükleyeceğinizi ve özelleştireceğinizi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

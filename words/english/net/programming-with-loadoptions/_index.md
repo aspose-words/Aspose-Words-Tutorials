@@ -90,6 +90,8 @@ class Program
 | [How to Use LoadOptions in Aspose.Words – Complete Guide](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | A comprehensive guide on using LoadOptions in Aspose.Words for .NET, covering all settings and best practices. |
 | [How to Recover DOCX – Complete Guide Using Aspose.Words](./how-to-recover-docx-complete-guide-using-aspose-words/) | Step-by-step guide to recover corrupted DOCX files using Aspose.Words for .NET, covering detection, repair, and saving restored documents. |
 | [How to Recover DOCX Files with Aspose.Words – Step‑by‑Step Guide](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/) | Step-by-step guide to recover corrupted DOCX files using Aspose.Words for .NET. |
+| [How to Use LoadOptions in Aspose.Words – Complete C# Guide](./how-to-use-loadoptions-in-aspose-words-complete-c-guide/) | A step-by-step C# guide on using LoadOptions in Aspose.Words for .NET, covering all settings and best practices. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

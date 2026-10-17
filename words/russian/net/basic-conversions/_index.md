@@ -62,6 +62,8 @@ Basic Conversions проведет вас через базовые преобр
 | [Конвертировать Docx в PDF в C#](./docx-to-pdf-tutorial-convert-word-to-pdf-in-c/) | Узнайте, как конвертировать DOCX в PDF в C# с помощью Aspose.Words. Пошаговое руководство с примерами кода. |
 | [Создать PDF из DOCX в C# – пошаговое руководство](./how-to-create-pdf-from-docx-in-c-step-by-step-guide/) | Узнайте, как преобразовать DOCX в PDF с помощью Aspose.Words для .NET в C#. Пошаговое руководство с примерами кода. |
 | [Как создать PDF из Word в C# – пошаговое руководство](./how-to-create-pdf-from-word-in-c-step-by-step-guide/) | Узнайте, как создать PDF из документа Word в C# с помощью Aspose.Words, следуя пошаговому руководству. |
+| [Конвертировать docx в txt – Полное руководство по преобразованию формул Word в LaTeX](./convert-docx-to-txt-complete-guide-for-word-math-to-latex/) | Подробное руководство по конвертации DOCX в TXT с поддержкой экспорта математических формул Word в LaTeX. |
+| [Создать PDF из Word на C# – Полное руководство](./create-pdf-from-word-in-c-full-guide/) | Узнайте, как создать PDF из документа Word с помощью Aspose.Words для .NET в C#. Подробное пошаговое руководство для разработчиков. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

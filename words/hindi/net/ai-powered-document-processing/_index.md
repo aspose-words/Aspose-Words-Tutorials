@@ -53,6 +53,7 @@
 | [स्थानीय LLM के साथ C# में व्याकरण जांचना](./how-to-check-grammar-with-a-local-llm-in-c/) | स्थानीय LLM को एकीकृत करके C# में व्याकरण जांचने की प्रक्रिया सीखें। तेज़ और सटीक सुधार के लिए। |
 | [Aspose.Words AI के साथ व्याकरण जांचें और Word दस्तावेज़ का सारांश बनाएं](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Aspose.Words AI का उपयोग करके व्याकरण सुधारें और दस्तावेज़ का सारांश बनाना सीखें। |
 | [C# में वर्ड दस्तावेज़ की व्याकरण जाँच – पूर्ण प्रोग्रामिंग गाइड](./check-grammar-word-document-in-c-complete-programming-guide/) | .NET के लिए Aspose.Words का उपयोग करके C# में वर्ड दस्तावेज़ की व्याकरण जांच कैसे करें, सीखें। |
+| [C# में व्याकरण जांचें Aspose.Words के साथ – चरण‑दर‑चरण गाइड](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) | C# में Aspose.Words का उपयोग करके व्याकरण जांचें और सुधारें। आसान चरण‑दर‑चरण मार्गदर्शिका। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
