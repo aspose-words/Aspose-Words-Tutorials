@@ -183,6 +183,8 @@ Kompletny przewodnik C# pokazujący, jak konwertować dokumenty Word do Markdown
 
 ### [Zapisz DOCX jako Markdown z Aspose.Words – Kompletny przewodnik C#](./save-docx-as-markdown-with-aspose-words-complete-c-guide/)
 Kompletny przewodnik C# konwertujący pliki DOCX na Markdown przy użyciu Aspose.Words.
+### [Utwórz markdown z Worda przy użyciu Aspose.Words – Pełny przewodnik C#](./create-markdown-from-word-with-aspose-words-full-c-guide/)
+Kompletny przewodnik C# pokazujący, jak konwertować dokumenty Word do formatu Markdown przy użyciu Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -72,6 +72,7 @@
 | [Converti docx in markdown con Aspose.Words – Guida completa C#](./convert-docx-to-markdown-with-aspose-words-full-c-guide/) | Scopri come convertire DOCX in Markdown usando Aspose.Words con una guida completa in C#. |
 | [Salva Word come Markdown – Guida completa per convertire Word in Markdown e estrarre immagini](./save-word-as-markdown-complete-guide-to-convert-word-to-mark/) | Impara a convertire documenti Word in Markdown e a estrarre le immagini con una guida completa passo‑passo in C#. |
 | [Salva DOCX come Markdown con Aspose.Words – Guida completa C#](./save-docx-as-markdown-with-aspose-words-complete-c-guide/) | Impara a convertire file DOCX in Markdown usando Aspose.Words con una guida completa in C#. |
+| [Crea markdown da Word con Aspose.Words – Guida completa C#](./create-markdown-from-word-with-aspose-words-full-c-guide/) | Scopri come creare file markdown da documenti Word usando Aspose.Words con una guida completa in C#. |
 
 | [Come esportare LaTeX da Word: Converti DOCX in Markdown con Aspose](./how-to-export-latex-from-word-convert-docx-to-markdown-with/) | Scopri come esportare equazioni LaTeX da documenti Word convertendoli in Markdown con Aspose.Words per .NET. |
 | [Converti Word in Markdown – Incorpora immagini come Base64](./convert-word-to-markdown-embed-images-as-base64/) | Converti documenti Word in Markdown incorporando le immagini direttamente come stringhe Base64 per un output autonomo. |

@@ -84,6 +84,7 @@
 | [建立資產資料夾並使用 Aspose.Words 將 DOCX 轉換為 Markdown](./create-assets-folder-and-convert-docx-to-markdown-with-aspos/) |示篯如何建立資產資料夾，並使用 Aspose.Words 將 DOCX 檔案轉換為 Markdown 格式。 |
 | [使用 Aspose.Words 將 docx 轉換為 markdown – 完整 C# 指南](./convert-docx-to-markdown-with-aspose-words-full-c-guide/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 DOCX 轉換為 Markdown，提供完整步驟與範例程式碼。 |
 | [將 Word 儲存為 Markdown – 完整 C# 指南（含圖像提取）](./save-word-as-markdown-complete-guide-to-convert-word-to-mark/) |示範如何使用 Aspose.Words for .NET 將 Word 文件匯出為 Markdown，並同時提取其中的圖像，提供完整 C# 範例。 |
+| [使用 Aspose.Words 從 Word 建立 Markdown – 完整 C# 指南](./create-markdown-from-word-with-aspose-words-full-c-guide/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 Word 文件轉換為 Markdown，提供完整步驟與範例程式碼。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

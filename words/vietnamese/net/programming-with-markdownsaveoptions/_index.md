@@ -85,6 +85,7 @@ Words Processing with MarkdownSaveOptions là một nguồn tài nguyên chuyên
 | [Tạo thư mục tài nguyên và chuyển DOCX sang Markdown với Aspose.Words](./create-assets-folder-and-convert-docx-to-markdown-with-aspos/) | Hướng dẫn tạo thư mục assets và chuyển đổi DOCX sang Markdown bằng Aspose.Words trong C#. |
 | [Chuyển đổi docx sang markdown với Aspose.Words – Hướng dẫn đầy đủ C#](./convert-docx-to-markdown-with-aspose-words-full-c-guide/) | Hướng dẫn chi tiết cách chuyển đổi file docx sang markdown bằng C# và Aspose.Words, bao gồm các tùy chọn và ví dụ thực tế. |
 | [Lưu Word thành Markdown – Hướng dẫn đầy đủ để chuyển Word sang Markdown & trích xuất hình ảnh](./save-word-as-markdown-complete-guide-to-convert-word-to-mark/) | Hướng dẫn chi tiết cách lưu tài liệu Word thành Markdown và trích xuất hình ảnh bằng C# và Aspose.Words. |
+| [Tạo markdown từ Word với Aspose.Words – Hướng dẫn đầy đủ C#](./create-markdown-from-word-with-aspose-words-full-c-guide/) | Hướng dẫn chi tiết cách tạo file markdown từ tài liệu Word bằng Aspose.Words trong C#, bao gồm các tùy chọn và ví dụ thực tế. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

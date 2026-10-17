@@ -173,6 +173,8 @@
 
 ### [บันทึก DOCX เป็น Markdown ด้วย Aspose.Words – คู่มือเต็ม C#](./save-docx-as-markdown-with-aspose-words-complete-c-guide/)
 
+### [สร้าง markdown จาก Word ด้วย Aspose.Words – คู่มือเต็ม C#](./create-markdown-from-word-with-aspose-words-full-c-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
