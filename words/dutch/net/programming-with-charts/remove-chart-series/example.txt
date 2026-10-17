@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Met Aspose.Words for .NET maakt deze tutorial een Document aan, voegt een kolomgrafiek in via DocumentBuilder, verwijdert een specifieke gegevensreeks uit de grafiek met ChartSeriesCollection.RemoveAt, en slaat het gewijzigde document op.
+//ExStepSummary:0: Maak een nieuw Word Document en een DocumentBuilder die eraan gekoppeld is.
+//ExStepSummary:1: Voeg een kolomgrafiek van 432×252 punten in en verkrijg het Chart‑object voor verdere manipulatie.
+//ExStepSummary:2: Definieer de nul‑gebaseerde index van de reeks die verwijderd moet worden (de tweede reeks).
+//ExStepSummary:3: Als de index geldig is, roep RemoveAt aan op de Series‑collectie van de grafiek om die reeks te verwijderen.
+//ExStepSummary:4: Sla het bijgewerkte document op als een .docx‑bestand.
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+int targetSeriesIdx = 1;
+
+//ExStep:3-
+if (targetSeriesIdx >= 0 && targetSeriesIdx < columnChart.Series.Count)
+{
+    columnChart.Series.RemoveAt(targetSeriesIdx);
+}
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutSeries.docx");
+//ExEnd

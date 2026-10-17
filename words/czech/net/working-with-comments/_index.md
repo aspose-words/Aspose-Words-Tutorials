@@ -19,6 +19,15 @@
 těchto tutoriálech se naučíte různé aspekty zpracování textu s komentáři v dokumentech Word pomocí Aspose.Words pro .NET. Zjistíte, jak přidávat komentáře do dokumentů, ukotvovat odpovědi na komentáře ke konkrétnímu textu, přidávat a odebírat odpovědi na komentáře a řešit komentáře a jejich odpovědi. Každý tutoriál poskytuje podrobný návod s kompletním zdrojovým kódem, který vám umožní vylepšit spolupráci a správu zpětné vazby v rámci vašich dokumentů Word pomocí Aspose.Words pro .NET.
 
  ## Návody
+
+{{< tutorial-card link="./add-hyperlink-comment/" title="Přidejte Hyperlink Comment a exportujte jako PDF anotaci pomocí Aspose.Words pro .NET" imgSrc="./add-hyperlink-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-comment/" title="Vložte Comment do konkrétního odstavce ve Word dokumentu pomocí Aspose.Words pro .NET" imgSrc="./add-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./style-comment-text/" title="Použijte vlastní styl na text komentářů ve Word dokumentech pomocí Aspose.Words pro .NET" imgSrc="./style-comment-text/images/thumb.png" >}}
+
+
+
 | Název | Popis |
 | --- | --- |
 | [Přidat komentáře](./add-comments/) | Naučte se, jak přidávat komentáře do dokumentů Word pomocí Aspose.Words pro .NET s naším průvodcem. Vylepšete si proces spolupráce na dokumentech bez námahy. |
