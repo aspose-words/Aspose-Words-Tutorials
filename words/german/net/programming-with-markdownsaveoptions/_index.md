@@ -208,6 +208,11 @@ Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und leere Absätze
 
 ### [Wie man Links exportiert: DOCX in Markdown konvertieren in C#](./how-to-export-links-convert-docx-to-markdown-in-c/)
 Erfahren Sie, wie Sie Links aus DOCX‑Dateien in Markdown exportieren – komplette Anleitung in C#.
+### [Wie man Word zu Markdown in C# konvertiert – Vollständige C#‑Anleitung](./how-to-convert-word-to-markdown-in-c-complete-guide/)
+Erfahren Sie, wie Sie Word‑Dokumente in Markdown konvertieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
+
+### [DOCX in Markdown konvertieren – Vollständige C#‑Anleitung](./convert-docx-to-markdown-in-c-complete-guide/)
+Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -52,6 +52,7 @@
 | [如何使用本地 LLM 检查 C# 语法](./how-to-check-grammar-with-a-local-llm-in-c/) 了解如何在 C# 项目中集成本地大语言模型进行语法检查，提升代码质量。|
 | [使用 Aspose.Words AI 检查语法并汇总 Word 文档](./how-to-check-grammar-and-summarize-word-document-with-aspose/) 使用 Aspose.Words for .NET 与 AI 结合，检查文档语法并生成摘要，提高文档质量与效率。|
 | [在 C# 中检查 Word 文档语法 – 完整编程指南](./check-grammar-word-document-in-c-complete-programming-guide/) 使用 Aspose.Words for .NET 在 C# 中检查 Word 文档的语法错误，提供完整的编程指南。|
+| [如何在 C# 中加载 Word 并使用 AI 重写段落](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) 了解如何使用 Aspose.Words for .NET 在 C# 中加载 Word 文档并利用 AI 重写段落，实现智能内容编辑。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

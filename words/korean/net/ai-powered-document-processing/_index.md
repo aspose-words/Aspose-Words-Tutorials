@@ -39,7 +39,7 @@
 | 제목 | 설명 |
 | --- | --- |
 | [AI 모델 작업](./working-with-ai-model/) | Aspose.Words for .NET을 사용하여 AI로 문서를 요약하는 방법을 알아보세요. 문서 관리 기능을 향상시키는 간단한 단계입니다. |
-| [Google AI 모델 작업](./working-with-google-ai-model/) Aspose.Words for .NET과 Google AI를 사용하여 문서 처리 능력을 향상시키고 간결한 요약을 손쉽게 작성하세요. |
+| [Google AI 모델 작업](./working-with-google-ai-model/) | Aspose.Words for .NET과 Google AI를 사용하여 문서 처리 능력을 향상시키고 간결한 요약을 손쉽게 작성하세요. |
 | [오픈 AI 모델 작업](./working-with-open-ai-model/) | OpenAI의 강력한 모델을 기반으로 Aspose.Words for .NET을 사용하여 효율적인 문서 요약을 구현해 보세요. 지금 바로 이 종합 가이드를 살펴보세요. |
 | [요약 옵션 사용](./working-with-summarize-options/) | Aspose.Words for .NET을 사용하여 Word 문서를 효과적으로 요약하는 방법을 알아보고, AI 모델을 통합하여 빠른 통찰력을 얻는 방법에 대한 단계별 가이드를 살펴보세요. |
 | [C#에서 Word 문서 요약 – 완전 AI 기반 가이드](./summarize-word-document-in-c-complete-ai-powered-guide/) | Aspose.Words for .NET과 AI를 활용해 C#에서 Word 문서를 효율적으로 요약하는 전체 가이드를 제공합니다. |
@@ -54,6 +54,7 @@
 | [C# 로컬 LLM으로 문법 검사하는 방법](./how-to-check-grammar-with-a-local-llm-in-c/) | Aspose.Words for .NET와 로컬 LLM을 사용하여 C#에서 문법 검사를 수행하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words AI로 문법 검사 및 Word 문서 요약하는 방법](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Aspose.Words for .NET을 사용하여 문법을 검사하고 문서를 요약하는 방법을 단계별로 안내합니다. |
 | [C#을 사용한 Word 문서 문법 검사 – 완전 프로그래밍 가이드](./check-grammar-word-document-in-c-complete-programming-guide/) | C#과 Aspose.Words를 활용하여 Word 문서의 문법을 자동으로 검사하고 교정하는 방법을 단계별로 안내합니다. |
+| [C#에서 Word를 로드하고 AI로 단락을 재작성하는 방법](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Aspose.Words for .NET을 사용해 C#에서 Word 문서를 로드하고 AI로 단락을 자동 재작성하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

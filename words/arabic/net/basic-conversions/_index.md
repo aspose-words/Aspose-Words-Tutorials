@@ -36,6 +36,7 @@
 | [إنشاء PDF من Word – دليل C# كامل مع اكتشاف الخطوط](./create-pdf-from-word-complete-c-guide-with-font-detection/) | تعلم كيفية إنشاء ملفات PDF من مستندات Word باستخدام C# و Aspose.Words مع الكشف التلقائي عن الخطوط. |
 | [إنشاء PDF من DOCX باستخدام C# – دليل كامل مع تصدير الأشكال](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | تعلم كيفية تحويل ملفات DOCX إلى PDF مع تصدير الأشكال باستخدام Aspose.Words لـ .NET في دليل شامل خطوة بخطوة. |
 | [حفظ مستند Word كـ PDF باستخدام Aspose.Words – دليل خطوة بخطوة](./save-word-as-pdf-with-aspose-words-step-by-step-guide/) | تعرّف على كيفية حفظ مستندات Word بصيغة PDF باستخدام Aspose.Words خطوة بخطوة مع أمثلة عملية. |
+| [إنشاء PDF من Word باستخدام C# – دليل LowCode كامل](./create-pdf-from-word-in-c-complete-lowcode-guide/) | دليل شامل لإنشاء ملفات PDF من مستندات Word باستخدام C# و Aspose.Words مع خطوات LowCode سهلة. |
 | [تحويل Docx إلى بايت](./docx-to-byte/) | تعلّم كيفية تحويل ملفات Docx إلى مصفوفة بايت في .NET باستخدام Aspose.Words لمعالجة مستندات فعّالة. دليل خطوة بخطوة مُرفق. |  
 | [دليل تحويل docx إلى pdf – تحويل Word إلى PDF باستخدام C#](./docx-to-pdf-tutorial-convert-word-to-pdf-in-c/) تعلّم كيفية تحويل ملفات DOCX إلى PDF باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
 | [تحويل Docx إلى Epub](./docx-to-epub/) حوّل ملفات DOCX إلى EPUB بسهولة باستخدام Aspose.Words لـ .NET. اتبع دليلنا التعليمي لدمجها بسلاسة في تطبيقات .NET.

@@ -175,6 +175,9 @@
 ### [บันทึก DOCX เป็น Markdown ด้วย Aspose.Words – คู่มือเต็ม C#](./save-docx-as-markdown-with-aspose-words-complete-c-guide/)
 
 ### [วิธีส่งออกลิงก์: แปลง DOCX เป็น Markdown ด้วย C#](./how-to-export-links-convert-docx-to-markdown-in-c/)
+### [วิธีแปลง Word เป็น Markdown ใน C# – คู่มือเต็ม](./how-to-convert-word-to-markdown-in-c-complete-guide/)
+
+### [แปลง DOCX เป็น Markdown ใน C# – คู่มือเต็ม](./convert-docx-to-markdown-in-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

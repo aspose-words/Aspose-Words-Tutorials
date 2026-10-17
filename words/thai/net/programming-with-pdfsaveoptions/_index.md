@@ -69,6 +69,7 @@
 - [สร้าง PDF ที่เข้าถึงได้จาก Word – คู่มือทีละขั้นตอน](./create-accessible-pdf-from-word-step-by-step-guide/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากไฟล์ Word ด้วยขั้นตอนละเอียดโดยใช้ Aspose.Words สำหรับ .NET |
 - [บันทึก DOCX เป็น PDF ใน C# – คู่มือ Aspose.Words ฉบับสมบูรณ์](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) | เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น PDF ด้วย C# โดยใช้ Aspose.Words อย่างละเอียดในคู่มือฉบับสมบูรณ์
 - [วิธีตั้งค่าตัวเลือก PDF ใน C# – แปลง Word เป็น PDF](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | เรียนรู้วิธีตั้งค่าตัวเลือก PDF ใน C# เพื่อแปลงไฟล์ Word เป็น PDF ด้วย Aspose.Words สำหรับ .NET
+- [สร้าง PDF ที่เข้าถึงได้จาก Word – คู่มือ C# ฉบับสมบูรณ์](./create-accessible-pdf-from-word-complete-c-guide/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากไฟล์ Word ด้วย Aspose.Words สำหรับ .NET ด้วยคู่มือ C# ขั้นตอนเต็ม
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

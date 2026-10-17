@@ -71,6 +71,7 @@ Ya sea que desee formatear texto con diferentes fuentes, establecer reglas de su
 | [Cómo detectar fuentes en C# – Usar devolución de llamada con Aspose.Words](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | Aprenda a detectar fuentes en documentos Word usando una devolución de llamada en C# con Aspose.Words. |
 | [Cómo capturar advertencias – Configurar la fuente predeterminada](./how-to-capture-warnings-set-default-font-settings/) | Aprenda a capturar advertencias y establecer la configuración de fuente predeterminada con Aspose.Words para .NET. |
 | [Guardar documento Word – Detectar fuentes faltantes con Aspose.Words](./save-word-document-detect-missing-fonts-with-aspose-words/) | Aprenda a guardar documentos Word detectando fuentes faltantes usando Aspose.Words para .NET. |
+| [Crear devolución de llamada de advertencia al cargar documentos Word – Guía completa](./create-warning-callback-for-loading-word-documents-complete/) | Aprenda a crear una devolución de llamada de advertencia al cargar documentos Word con Aspose.Words para .NET en esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

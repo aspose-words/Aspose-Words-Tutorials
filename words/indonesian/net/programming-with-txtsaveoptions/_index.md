@@ -40,6 +40,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Simpan docx sebagai txt – Ekspor persamaan ke LaTeX](./save-docx-as-txt-export-equations-to-latex/) | Pelajari cara menyimpan file docx sebagai txt sambil mengekspor persamaan matematika ke format LaTeX menggunakan Aspose.Words untuk .NET. |
 | [Simpan docx sebagai txt – Panduan Lengkap C#](./save-docx-as-txt-complete-c-guide/) | Pelajari cara menyimpan file docx menjadi txt dengan contoh kode lengkap C# menggunakan Aspose.Words. |
 | [Cara Mengekspor LaTeX dari Word – Mengonversi DOCX ke TXT dengan Persamaan](./how-to-export-latex-from-word-convert-docx-to-txt-with-equat/) | Pelajari cara mengekspor konten LaTeX, termasuk persamaan, dari dokumen Word ke berkas TXT menggunakan Aspose.Words untuk .NET. |
+| [Simpan docx sebagai txt – Panduan Lengkap C# dengan Persamaan LaTeX](./save-docx-as-txt-complete-c-guide-with-latex-equations/) | Pelajari cara menyimpan file DOCX sebagai TXT dengan persamaan LaTeX menggunakan C# dalam Aspose.Words untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

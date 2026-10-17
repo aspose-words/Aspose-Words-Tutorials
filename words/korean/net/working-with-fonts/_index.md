@@ -72,6 +72,7 @@
 | [C#에서 글꼴 감지하기 – Aspose.Words와 콜백 사용](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | Aspose.Words for .NET을 사용하여 콜백을 통해 C#에서 문서의 글꼴을 감지하고 처리하는 방법을 단계별로 안내합니다. |
 | [경고 캡처 방법 – 기본 글꼴 설정](./how-to-capture-warnings-set-default-font-settings/) | Aspose.Words for .NET을 사용하여 경고를 캡처하고 기본 글꼴 설정을 지정하는 방법을 단계별로 안내합니다. |
 | [Word 문서 저장 – Aspose.Words로 누락된 글꼴 감지](./save-word-document-detect-missing-fonts-with-aspose-words/) | Aspose.Words for .NET을 사용하여 Word 문서를 저장하면서 누락된 글꼴을 감지하는 방법을 단계별로 안내합니다. |
+| [Word 문서 로드 시 경고 콜백 만들기 – 완전 가이드](./create-warning-callback-for-loading-word-documents-complete/) | Aspose.Words for .NET을 사용하여 Word 문서를 로드할 때 경고 콜백을 설정하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
