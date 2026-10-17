@@ -71,6 +71,7 @@
 | [Αποθήκευση DOCX ως PDF σε C# – Πλήρης Οδηγός Aspose.Words](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) | Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF χρησιμοποιώντας C# και το Aspose.Words με πλήρη οδηγό βήμα-βήμα. |
 | [Πώς να ορίσετε επιλογές PDF σε C# – Μετατροπή Word σε PDF](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | Μάθετε πώς να ρυθμίσετε τις επιλογές PDF σε C# για τη μετατροπή εγγράφων Word σε PDF χρησιμοποιώντας το Aspose.Words. |
 
+| [Αποθήκευση εγγράφου ως PDF σε C# – Πλήρης Οδηγός](./save-document-as-pdf-in-c-complete-guide/) | Μάθετε πώς να αποθηκεύσετε έγγραφα Word ως PDF χρησιμοποιώντας C# και Aspose.Words με πλήρη βήμα-βήμα οδηγίες. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

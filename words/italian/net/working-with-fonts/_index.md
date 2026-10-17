@@ -27,7 +27,7 @@ Che tu voglia formattare il testo con diversi font, impostare regole di sostituz
 | --- | --- |
 | [Formattazione dei caratteri](./font-formatting/) | Scopri come formattare i caratteri nei documenti Word utilizzando Aspose.Words per .NET con una guida dettagliata e passo dopo passo. |
 | [Ottieni la spaziatura delle linee del carattere](./get-font-line-spacing/) | Scopri come ottenere l'interlinea del font usando Aspose.Words per .NET con questo tutorial passo passo. Perfetto per gli sviluppatori. |
-| [Controlla l'effetto testo DrawingML](./check-drawingml-text-effect/) Scopri come controllare gli effetti di testo DrawingML nei documenti Word utilizzando Aspose.Words per .NET con la nostra guida dettagliata e passo dopo passo. Migliora i tuoi documenti con facilità. |
+| [Controlla l'effetto testo DrawingML](./check-drawingml-text-effect/) | Scopri come controllare gli effetti di testo DrawingML nei documenti Word utilizzando Aspose.Words per .NET con la nostra guida dettagliata e passo dopo passo. Migliora i tuoi documenti con facilità. |
 | [Imposta formattazione carattere](./set-font-formatting/) | Scopri come impostare la formattazione dei caratteri nei documenti Word utilizzando Aspose.Words per .NET. Segui la nostra guida dettagliata passo passo per migliorare l'automazione dei tuoi documenti. |
 | [Imposta il segno di enfasi del carattere](./set-font-emphasis-mark/) | Scopri come impostare i segni di enfasi nei documenti Word utilizzando Aspose.Words per .NET con questa guida dettagliata e passo passo. Perfetta per gli sviluppatori .NET. |
 | [Imposta cartelle dei caratteri](./set-fonts-folders/) | Scopri come impostare cartelle di font personalizzate in Aspose.Words per .NET con questa guida completa e passo passo. Perfetta per gli sviluppatori che desiderano migliorare i font dei documenti. |
@@ -71,6 +71,7 @@ Che tu voglia formattare il testo con diversi font, impostare regole di sostituz
 | [Come rilevare i font in C# – Utilizzare il callback con Aspose.Words](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | Scopri come rilevare i font nei documenti Word usando un callback in C# con Aspose.Words per .NET. |
 | [Come catturare gli avvisi – Impostare le impostazioni predefinite dei caratteri](./how-to-capture-warnings-set-default-font-settings/) | Scopri come catturare gli avvisi e impostare le impostazioni predefinite dei font in Aspose.Words per .NET. |
 | [Salva documento Word – Rileva i font mancanti con Aspose.Words](./save-word-document-detect-missing-fonts-with-aspose-words/) | Scopri come salvare un documento Word rilevando i font mancanti usando Aspose.Words per .NET. |
+| [Come rilevare i font in C# – Guida completa](./how-to-detect-fonts-in-c-complete-guide/) | Scopri come rilevare i font presenti in un documento o nel sistema usando Aspose.Words per .NET con C# in questa guida completa. |
 
 | [Come utilizzare FontSettings per gestire i font mancanti in Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | Scopri come gestire i font mancanti con FontSettings in Aspose.Words per .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}

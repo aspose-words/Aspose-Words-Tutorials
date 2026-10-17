@@ -173,6 +173,12 @@
 
 ### [บันทึก DOCX เป็น Markdown ด้วย Aspose.Words – คู่มือเต็ม C#](./save-docx-as-markdown-with-aspose-words-complete-c-guide/)
 
+### [วิธีใช้ Aspose แปลง DOCX เป็น Markdown พร้อมการส่งออกคณิตศาสตร์](./how-to-use-aspose-to-convert-docx-to-markdown-with-math-expo/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown พร้อมการส่งออกสมการคณิตศาสตร์โดยใช้ Aspose.Words สำหรับ .NET
+
+### [บันทึก Word เป็น Markdown – คู่มือเต็ม C# เพื่อส่งออกรูปภาพจาก Word](./save-word-as-markdown-complete-c-guide-to-export-word-images/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown พร้อมการส่งออกรูปภาพด้วย C# อย่างละเอียด
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -72,6 +72,7 @@ Cho dù bạn muốn định dạng văn bản bằng các phông chữ khác nh
 | [Cài đặt phông chữ tùy chỉnh trong C# – Tải Word và Xử lý phông chữ thiếu](./custom-font-settings-in-c-load-word-handle-missing-fonts/) | Hướng dẫn cách tải tài liệu Word và xử lý các phông chữ bị thiếu bằng C# và Aspose.Words. |
 | [Cách bắt cảnh báo trong Aspose.Words – Hướng dẫn đầy đủ](./how-to-capture-warnings-in-aspose-words-complete-guide/) | Tìm hiểu cách bắt các cảnh báo trong Aspose.Words bằng .NET với hướng dẫn chi tiết từng bước. |
 | [Lưu tài liệu Word – Phát hiện phông chữ thiếu với Aspose.Words](./save-word-document-detect-missing-fonts-with-aspose-words/) | Tìm hiểu cách lưu tài liệu Word và phát hiện phông chữ thiếu bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước. |
+| [Cách phát hiện phông chữ trong C# – Hướng dẫn đầy đủ](./how-to-detect-fonts-in-c-complete-guide/) | Tìm hiểu cách phát hiện các phông chữ trong tài liệu Word bằng C# và Aspose.Words cho .NET qua hướng dẫn chi tiết. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

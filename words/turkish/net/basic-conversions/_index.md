@@ -61,6 +61,7 @@ Basic Conversions, Aspose.Words for .NET kitaplığını kullanarak temel belge 
 | [Word'ü PDF olarak kaydet – Aspose.Words Adım Adım Rehberi](./save-word-as-pdf-with-aspose-words-step-by-step-guide/) | Aspose.Words for .NET ile C# kullanarak Word belgelerini PDF'ye dönüştürmenin adım adım rehberi. |
 | [Erişilebilir PDF Oluştur – Word'ü PDF'ye Dönüştür](./create-accessible-pdf-convert-word-to-pdf/) | Aspose.Words for .NET kullanarak erişilebilir PDF'ler oluşturmayı ve Word belgelerini PDF'ye dönüştürmeyi öğrenin. |
 | [C# ile DOCX'ten PDF Oluşturma – Adım Adım Kılavuz](./how-to-create-pdf-from-docx-in-c-step-by-step-guide/) | Aspose.Words for .NET kullanarak C# ile DOCX dosyasını PDF'ye dönüştürmeyi adım adım öğrenin. |
+| [Docx'i txt olarak kaydedin ve Word denklemlerini LaTeX'e dışa aktarın](./save-docx-as-txt-and-export-word-equations-to-latex/) | Aspose.Words for .NET kullanarak DOCX dosyasını TXT'ye kaydedin ve içindeki denklemleri LaTeX formatına dönüştürün. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

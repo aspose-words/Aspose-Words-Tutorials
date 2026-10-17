@@ -62,6 +62,7 @@
 | [Как восстановить файлы DOCX – установить режим восстановления с Aspose](./how-to-recover-docx-files-set-recovery-mode-with-aspose/) | Узнайте, как восстановить файлы DOCX, задав режим восстановления с помощью Aspose.Words. |
 | [Восстановление повреждённого файла Word – открыть повреждённый DOCX с помощью Aspose](./recover-damaged-word-file-open-corrupted-docx-using-aspose/) | Узнайте, как восстановить повреждённый файл Word и открыть повреждённый DOCX с помощью Aspose.Words. |
 | [Как восстановить файлы Word – Полное руководство с Aspose.Words](./how-to-recover-word-files-complete-guide-with-aspose-words/) | Подробное пошаговое руководство по восстановлению повреждённых файлов Word с помощью Aspose.Words. |
+| [Как восстановить DOCX с помощью Aspose.Words – пошаговое руководство](./how-to-recover-docx-with-aspose-words-step-by-step-guide/) | Узнайте, как восстановить DOCX с помощью Aspose.Words, следуя пошаговому руководству. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

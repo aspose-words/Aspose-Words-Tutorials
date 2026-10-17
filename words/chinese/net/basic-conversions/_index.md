@@ -61,6 +61,7 @@
 | [如何在 C# 中将 DOCX 转换为 PDF – 步骤指南](./how-to-create-pdf-from-docx-in-c-step-by-step-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 DOCX 文件转换为 PDF，提供分步指南和代码示例。|
 | [将 DOCX 转换为 PDF – 生成可访问 PDF（PDF/UA）](./convert-docx-to-pdf-generate-accessible-pdf-pdf-ua/) | 学习如何使用 Aspose.Words for .NET 将 DOCX 转换为符合 PDF/UA 标准的可访问 PDF，提供分步指南和代码示例。|
 | [在 C# 中将 DOCX 转换为 PDF – 步骤指南](./convert-docx-to-pdf-in-c-step-by-step-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 DOCX 转换为 PDF，提供分步指南和代码示例。|
+| [将 docx 保存为 txt 并导出 Word 方程为 LaTeX](./save-docx-as-txt-and-export-word-equations-to-latex/) | 学习使用 Aspose.Words for .NET 将 docx 转换为 txt 并导出 Word 方程为 LaTeX，提供分步指南和代码示例。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -59,6 +59,7 @@ Základní konverze vás provede základními konveremi dokumentů pomocí kniho
 | [Jak vytvořit PDF z DOCX v C# – krok za krokem](./how-to-create-pdf-from-docx-in-c-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Words převést soubor DOCX do PDF v C# s podrobným návodem a ukázkovým kódem. |
 | [Převod DOCX do PDF – Vytvořit přístupný PDF (PDF/UA)](./convert-docx-to-pdf-generate-accessible-pdf-pdf-ua/) | Naučte se, jak převést soubory DOCX do přístupného PDF (PDF/UA) pomocí Aspose.Words pro .NET. Praktický průvodce s ukázkovým kódem. |
 | [Převod DOCX do PDF v C# – Průvodce krok za krokem](./convert-docx-to-pdf-in-c-step-by-step-guide/) | Naučte se, jak převést DOCX do PDF v C# pomocí Aspose.Words. Praktický krok‑za‑krokem návod s ukázkovým kódem. |
+| [Uložit docx jako txt a exportovat rovnice Wordu do LaTeXu](./save-docx-as-txt-and-export-word-equations-to-latex/) | Naučte se, jak uložit DOCX jako TXT a exportovat rovnice Wordu do LaTeXu pomocí Aspose.Words pro .NET. |
 
 | [Převod docx na txt s rovnicemi LaTeX – průvodce Aspose.Words](./convert-docx-to-txt-with-latex-equations-aspose-words-guide/) | Naučte se, jak převést DOCX na TXT s rovnicemi LaTeX pomocí Aspose.Words pro .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}

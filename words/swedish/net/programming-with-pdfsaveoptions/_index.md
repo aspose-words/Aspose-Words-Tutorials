@@ -1,8 +1,8 @@
 ---
 "description": "Utforska ordbehandling med PDF-sparalternativ i Aspose.Words för .NET. Lär dig hur du genererar Word-dokument till PDF med avancerade funktioner genom steg-för-steg-handledningar och exempelkod."
-"linktitle": "Ordbehandling med Pdfsaveoptions"
+"linktitle": "Ordbehandling med Pdfsavealternativ"
 "second_title": "Aspose.Words dokumentbehandlings-API"
-"title": "Ordbehandling med Pdfsaveoptions"
+"title": "Ordbehandling med Pdfsavealternativ"
 "url": "/sv/net/programming-with-pdfsaveoptions/"
 "weight": 1680
 ---
@@ -13,7 +13,7 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ordbehandling med Pdfsaveoptions
+# Ordbehandling med Pdfsavealternativ
 
 Aspose.Words för .NET-handledningarna om ordbehandling med PdfSaveOptions guidar dig genom de olika funktionerna och teknikerna för ordbehandling med PDF-sparalternativ. Dessa handledningar hjälper dig att förstå hur du anpassar konvertering från Word till PDF genom att ändra layoutinställningar, teckensnitt, bilder, metadata och mer.
 
@@ -70,6 +70,7 @@ Oavsett om du vill konvertera Word-dokument till PDF för onlinedistribution, ar
 | [Skapa tillgänglig PDF från Word – steg‑för‑steg‑guide](./create-accessible-pdf-from-word-step-by-step-guide/) | Lär dig hur du skapar en tillgänglig PDF från ett Word-dokument med Aspose.Words för .NET i en steg‑för‑steg‑guide. |
 | [Spara DOCX som PDF i C# – Komplett Aspose.Words-guide](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) | Lär dig hur du konverterar DOCX-filer till PDF med C# och Aspose.Words i en komplett steg-för-steg-guide. |
 | [Hur man ställer in PDF-alternativ i C# – Konvertera Word till PDF](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | Lär dig hur du konfigurerar PDF-alternativ i C# för att konvertera Word-dokument till PDF med Aspose.Words. |
+| [Spara dokument som PDF i C# – Komplett guide](./save-document-as-pdf-in-c-complete-guide/) | Lär dig steg för steg hur du sparar ett Word-dokument som PDF i C# med Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
