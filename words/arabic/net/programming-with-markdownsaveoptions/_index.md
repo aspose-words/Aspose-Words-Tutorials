@@ -142,6 +142,8 @@
 
 ### [حفظ DOCX كـ Markdown باستخدام Aspose.Words – دليل C# كامل](./save-docx-as-markdown-with-aspose-words-complete-c-guide/)
 
+### [حفظ صور Word أثناء التحويل إلى Markdown – دليل C# كامل](./save-word-images-while-converting-to-markdown-complete-c-gui/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -60,6 +60,8 @@
 | [Φόρτωση κατεστραμμένου DOCX σε C# – Πλήρης Οδηγός Aspose.Words](./load-corrupted-docx-in-c-complete-aspose-words-guide/) | Μάθετε πώς να φορτώνετε κατεστραμμένα αρχεία DOCX σε C# χρησιμοποιώντας το Aspose.Words, με βήμα-βήμα οδηγίες και παραδείγματα κώδικα. |
 | [Ανάκτηση κατεστραμμένου αρχείου Word – άνοιγμα κατεστραμμένου docx χρησιμοποιώντας το Aspose](./recover-damaged-word-file-open-corrupted-docx-using-aspose/) | Μάθετε πώς να ανοίξετε και να επαναφέρετε κατεστραμμένα αρχεία docx με το Aspose.Words για .NET. |
 | [Πώς να ανακτήσετε αρχεία Word – Πλήρης οδηγός με Aspose.Words](./how-to-recover-word-files-complete-guide-with-aspose-words/) Μάθετε πώς να ανακτήσετε αρχεία Word που έχουν καταστραφεί ή χαλασμένα χρησιμοποιώντας το Aspose.Words σε βήμα-προς-βήμα οδηγό. |
+| [Ανάκτηση κατεστραμμένου αρχείου Word και εμφάνιση λειτουργίας ανάκτησης σε C#](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | Μάθετε πώς να ανακτήσετε κατεστραμμένα αρχεία Word και να εμφανίσετε τη λειτουργία ανάκτησης χρησιμοποιώντας C# και Aspose.Words. |
+| [Πώς να καταγράψετε προειδοποιήσεις σε C# – Εντοπισμός ελλιπών γραμματοσειρών & Καταγραφή αντικατάστασης](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) | Μάθετε πώς να εντοπίζετε προειδοποιήσεις για ελλιπείς γραμματοσειρές και να καταγράφετε τις αντικαταστάσεις κατά τη φόρτωση εγγράφων Word με Aspose.Words για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

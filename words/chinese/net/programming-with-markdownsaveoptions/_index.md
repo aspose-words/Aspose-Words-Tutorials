@@ -176,6 +176,9 @@
 ### [使用 Aspose.Words 将 DOCX 保存为 Markdown – 完整 C# 指南](./save-docx-as-markdown-with-aspose-words-complete-c-guide/)
 
 使用 Aspose.Words for .NET 将 DOCX 文档保存为 Markdown，提供完整的 C# 示例和详细步骤指南。
+### [在转换为 Markdown 时保存 Word 图像 – 完整 C# 指南](./save-word-images-while-converting-to-markdown-complete-c-gui/)
+
+使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown，同时提取并保存嵌入的图像，提供完整的 C# 示例和步骤指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

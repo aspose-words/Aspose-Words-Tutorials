@@ -62,6 +62,8 @@ Dans ces tutoriels, vous apprendrez à utiliser LoadOptions pour charger des doc
 | [Comment récupérer des fichiers DOCX – définir le mode de récupération avec Aspose](./how-to-recover-docx-files-set-recovery-mode-with-aspose/) | Apprenez à activer le mode de récupération pour restaurer des fichiers DOCX endommagés avec Aspose.Words pour .NET. Guide étape par étape. |
 | [Récupérer un fichier Word endommagé – ouvrir un DOCX corrompu avec Aspose](./recover-damaged-word-file-open-corrupted-docx-using-aspose/) | Apprenez à récupérer et ouvrir un fichier DOCX corrompu avec Aspose.Words pour .NET. |
 | [Comment récupérer des fichiers Word – Guide complet avec Aspose.Words](./how-to-recover-word-files-complete-guide-with-aspose-words/) | Apprenez à récupérer des fichiers Word endommagés avec Aspose.Words grâce à ce guide complet étape par étape. |
+| [Récupérer un fichier Word corrompu et afficher le mode de récupération en C#](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | Apprenez à récupérer un fichier Word endommagé et à afficher le mode de récupération avec Aspose.Words pour .NET en C#. |
+| [Comment capturer les avertissements en C# – Détecter les polices manquantes et consigner les substitutions](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) | Apprenez à détecter les avertissements de polices manquantes et à enregistrer les substitutions lors du chargement de documents Word avec Aspose.Words pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

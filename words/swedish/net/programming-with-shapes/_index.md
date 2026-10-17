@@ -30,7 +30,7 @@ Genom att använda Aspose.Words för .NET och följa dessa handledningar kommer 
 | [Layout i cell](./layout-in-cell/) | Lär dig hur du ställer in layouten i celler med Aspose.Words för .NET med den här omfattande guiden. Perfekt för utvecklare som vill anpassa Word-dokument. |
 | [Lägg till hörnklippta](./add-corners-snipped/) | Lär dig hur du lägger till en hörnklippt form i dina Word-dokument med Aspose.Words för .NET. Den här steg-för-steg-guiden gör att du enkelt kan förbättra dina dokument. |
 | [Hämta faktiska formgränspunkter](./get-actual-shape-bounds-points/) | Upptäck hur du får fram faktiska formgränser i Word-dokument med Aspose.Words för .NET. Lär dig exakt formmanipulation med den här detaljerade guiden. |
-| [Vertikalt ankare](./vertical-anchor/) | Lär dig hur du ställer in vertikala ankarpositioner för textrutor i Word-dokument med Aspose.Words för .NET. Enkel steg-för-steg-guide ingår.
+| [Vertikalt ankare](./vertical-anchor/) | Lär dig hur du ställer in vertikala ankarpositioner för textrutor i Word-dokument med Aspose.Words för .NET. Enkel steg-för-steg-guide ingår. |
 | [Identifiera smart konstform](./detect-smart-art-shape/) | Lär dig hur du identifierar SmartArt-former i Word-dokument med Aspose.Words för .NET med den här omfattande guiden. Perfekt för att automatisera ditt dokumentarbetsflöde. |
 | [Uppdatera Smart Art-teckning](./update-smart-art-drawing/) | Lär dig hur du uppdaterar Smart Art-ritningar i Word-dokument med Aspose.Words för .NET med den här steg-för-steg-guiden. Se till att dina bilder alltid är korrekta. |
 | [Skapa rektangelform i Word med Aspose.Words – Steg‑för‑steg‑guide](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Lär dig hur du skapar en rektangel i Word-dokument med Aspose.Words i en tydlig steg‑för‑steg‑guide. |
@@ -52,6 +52,7 @@ Genom att använda Aspose.Words för .NET och följa dessa handledningar kommer 
 | [Lägg till skugga till form i C# – Komplett Aspose.Words‑guide](./add-shadow-to-shape-in-c-complete-aspose-words-guide/) | Lär dig hur du lägger till skugga på former i Word-dokument med Aspose.Words för .NET i C#. |
 | [Skapa Word-dokument – Så lägger du till en rektangelform och skugga](./create-word-document-how-to-add-rectangle-shape-and-shadow/) | Lär dig hur du skapar ett Word-dokument och lägger till en rektangelform med skuggeffekt med Aspose.Words för .NET. |
 | [Skapa rektangelform med skugga i C# med Aspose.Words](./create-rectangle-shape-with-shadow-in-c-using-aspose-words/) | Lär dig hur du skapar en rektangelform med skugga i Word-dokument med Aspose.Words för .NET i C#. |
+| [Skapa rektangelform och hur du lägger till skugga i C#](./create-rectangle-shape-and-how-to-add-shadow-in-c/) | Lär dig hur du skapar en rektangelform och lägger till skugga i Word-dokument med Aspose.Words för .NET i C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

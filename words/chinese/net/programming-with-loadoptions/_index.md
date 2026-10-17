@@ -28,6 +28,7 @@ Aspose.Words for .NET 教程为希望掌握使用 LoadOptions 进行文字处理
 | [设置 Ms Word 版本](./set-ms-word-version/) 通过我们的详细指南，了解如何使用 Aspose.Words for .NET 设置 MS Word 版本。非常适合希望简化文档操作的开发人员。|
 | [在 Word 文档中使用临时文件夹](./use-temp-folder/) 了解如何在使用 Aspose.Words 加载 Word 文档时使用临时文件夹来提高 .NET 应用程序的性能。|
 | [Word 文档中的警告回调](./warning-callback/) 学习如何使用 Aspose.Words for .NET 捕获和处理 Word 文档中的警告，并遵循我们的分步指南。确保文档处理稳健。|
+| [如何在 C# 中捕获警告 – 检测缺失字体并记录替换](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) 了解如何使用 Aspose.Words for .NET 在 C# 中捕获文档警告，检测缺失字体并记录字体替换过程的分步指南。|
 | [在 Word 文档中加载编码](./load-with-encoding/) 了解如何使用 Aspose.Words for .NET 加载具有特定编码的 Word 文档。分步指南，详细解释。|
 | [跳过 PDF 图像](./skip-pdf-images/) 了解如何使用 Aspose.Words for .NET 加载 PDF 文档时跳过图片。按照本分步指南操作，即可实现无缝文本提取。|
 | [将图元文件转换为 Png](./convert-metafiles-to-png/) | 按照本分步教程，使用 Aspose.Words for .NET 轻松将 Word 文档中的元文件转换为 PNG。简化您的文档管理。|
@@ -60,6 +61,7 @@ Aspose.Words for .NET 教程为希望掌握使用 LoadOptions 进行文字处理
 | [在 C# 中加载损坏的 DOCX – 完整的 Aspose.Words 指南](./load-corrupted-docx-in-c-complete-aspose-words-guide/) 了解如何使用 Aspose.Words for .NET 在 C# 中加载并修复损坏的 DOCX 文件的完整步骤指南。|
 | [恢复损坏的 Word 文件 – 使用 Aspose 打开损坏的 docx](./recover-damaged-word-file-open-corrupted-docx-using-aspose/) 了解如何使用 Aspose.Words for .NET 打开并恢复损坏的 docx 文件，分步指南帮助您修复文档。|
 | [如何使用 Aspose.Words 恢复 Word 文件 – 完整指南](./how-to-recover-word-files-complete-guide-with-aspose-words/) 本完整指南详细演示如何使用 Aspose.Words 恢复受损的 Word 文件，提供分步示例和最佳实践。|
+| [在 C# 中恢复损坏的 Word 文件并显示恢复模式](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) 了解如何使用 Aspose.Words for .NET 在 C# 中恢复损坏的 Word 文件并显示恢复模式，提供分步指南。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

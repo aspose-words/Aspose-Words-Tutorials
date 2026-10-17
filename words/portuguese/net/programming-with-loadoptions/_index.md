@@ -61,6 +61,8 @@ Nestes tutoriais, você aprenderá a usar LoadOptions para carregar documentos d
 | [Carregar DOCX Corrompido em C# – Guia Completo do Aspose.Words](./load-corrupted-docx-in-c-complete-aspose-words-guide/) | Aprenda a carregar documentos DOCX corrompidos em C# usando o Aspose.Words, com um guia passo a passo completo. |
 | [Como Recuperar Arquivos DOCX – Definir Modo de Recuperação com Aspose](./how-to-recover-docx-files-set-recovery-mode-with-aspose/) | Aprenda a definir o modo de recuperação ao restaurar arquivos DOCX com Aspose.Words para .NET. |
 | [Recuperar arquivo Word danificado – abrir DOCX corrompido usando Aspose](./recover-damaged-word-file-open-corrupted-docx-using-aspose/) | Aprenda a abrir e reparar arquivos DOCX corrompidos usando Aspose.Words para .NET. |
+| [Recuperar arquivo Word corrompido e exibir modo de recuperação em C#](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | Aprenda a recuperar arquivos Word corrompidos e exibir o modo de recuperação usando Aspose.Words para .NET em C#. |
+| [Como Capturar Avisos em C# – Detectar Fontes Ausentes e Registrar Substituição](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) | Aprenda a capturar avisos, detectar fontes ausentes e registrar substituições ao carregar documentos Word com Aspose.Words para .NET em C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
