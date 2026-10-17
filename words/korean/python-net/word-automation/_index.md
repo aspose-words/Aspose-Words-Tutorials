@@ -35,6 +35,9 @@ Aspose.Words for Python을 사용하여 워드 자동화를 마스터하면 개�
 ### [단어 자동화를 간편하게](./word-automation-made-easy/)
 Aspose.Words for Python을 사용하여 워드 프로세싱을 간편하게 자동화하세요. 프로그래밍 방식으로 문서를 작성하고, 서식을 지정하고, 조작할 수 있습니다. 지금 바로 생산성을 높여 보세요!
 
+### [Python에서 그림자 모양이 있는 빈 Word 문서 만들기](./create-blank-word-document-with-shadowed-shape-in-python/)
+Python을 사용해 그림자 효과가 적용된 빈 Word 문서를 생성하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

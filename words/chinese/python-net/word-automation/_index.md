@@ -35,6 +35,9 @@ Word 自动化彻底改变了文档管理和 Word 文档处理领域的格局。
 ### [轻松实现 Word 自动化](./word-automation-made-easy/)
 使用 Aspose.Words for Python 轻松实现文字处理自动化。以编程方式创建、格式化和操作文档。立即提升生产力！
 
+### [在 Python 中创建带阴影形状的空白 Word 文档](./create-blank-word-document-with-shadowed-shape-in-python/)
+使用 Aspose.Words for Python 创建空白 Word 文档并添加带阴影的形状，实现高级文档布局。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

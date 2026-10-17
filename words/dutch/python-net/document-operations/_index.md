@@ -63,6 +63,9 @@ Leer hoe u beschadigde DOCX-bestanden kunt herstellen en openen met Aspose.Words
     ### [Herstel beschadigde DOCX – Complete gids om herstelmodus in te schakelen & paginatelling te krijgen](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
 Leer hoe u beschadigde DOCX-bestanden kunt herstellen, herstelmodus inschakelt en het aantal pagina's bepaalt met Aspose.Words voor Python-net.
 
+    ### [Hoe beschadigde DOCX-bestanden te herstellen met Aspose.Words voor Python](./how-to-recover-corrupted-docx-files-with-aspose-words-for-py/)
+Leer hoe u beschadigde DOCX-bestanden kunt herstellen met Aspose.Words voor Python.
+
 ## Aanvullende bronnen
 
 - [Aspose.Words voor Python-net-documentatie](https://docs.aspose.com/words/python-net/)

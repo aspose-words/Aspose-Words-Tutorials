@@ -63,6 +63,9 @@
     ### [Ανάκτηση Κατεστραμμένου DOCX – Πλήρης Οδηγός για Ενεργοποίηση Λειτουργίας Ανάκτησης & Λήψη Αριθμού Σελίδων](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
     Μάθετε πώς να ενεργοποιήσετε τη λειτουργία ανάκτησης σε κατεστραμμένα αρχεία DOCX και να προσδιορίσετε τον αριθμό των σελίδων τους.
 
+    ### [Πώς να ανακτήσετε κατεστραμμένα αρχεία docx με το Aspose.Words για Python](./how-to-recover-corrupted-docx-files-with-aspose-words-for-py/)
+    Μάθετε πώς να επαναφέρετε και να ανοίξετε κατεστραμμένα αρχεία DOCX χρησιμοποιώντας το Aspose.Words για Python.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.Words για τεκμηρίωση Python-net](https://docs.aspose.com/words/python-net/)

@@ -41,18 +41,31 @@ Aspose.Words for Python के साथ Python दस्तावेज़ र�
 दोषग्रस्त DOCX फ़ाइलों को ठीक करें और उन्हें मार्कडाउन फ़ॉर्मेट में बदलने के लिए पायथन कोड और चरण-दर-चरण मार्गदर्शन।
 
 ### [वर्ड से LaTeX निर्यात कैसे करें – DOCX को मार्कडाउन में परिवर्तित करें](./how-to-export-latex-from-word-convert-docx-to-markdown/)
-वर्ड दस्तावेज़ को LaTeX में निर्यात करके DOCX को मार्कडाउन में बदलने के लिए पायथन कोड और चरण-दर-चरण मार्गदर्शन।
+वर्ड से LaTeX निर्यात करके DOCX को मार्कडाउन में बदलने के लिए पायथन कोड और चरण‑दर‑चरण मार्गदर्शन।
+
+### [वर्ड से LaTeX निर्यात कैसे करें और DOCX को मार्कडाउन में बदलें](./how-to-export-latex-from-word-and-convert-docx-to-markdown/)
+वर्ड से LaTeX निर्यात करके DOCX को मार्कडाउन में बदलने के लिए पायथन कोड और चरण‑दर‑चरण मार्गदर्शन।
+
+### [Aspose.Words का उपयोग करके Word दस्तावेज़ों से LaTeX निर्यात कैसे करें](./how-to-export-latex-from-word-documents-using-aspose-words/)
+Aspose.Words के साथ Word फ़ाइलों को LaTeX फ़ॉर्मेट में बदलने के चरण‑दर‑स्टेप मार्गदर्शन।
 
 ### [वर्ड से PDF बनाएं – Aspose.Words के साथ पूर्ण पायथन गाइड](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Aspose.Words का उपयोग करके पायथन में वर्ड दस्तावेज़ को PDF में बदलने के चरण-दर-स्टेप मार्गदर्शन।
 
-### [पायथन के साथ वर्ड से सुलभ PDF बनाएं – चरण‑दर‑चरण गाइड](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
-Aspose.Words का उपयोग करके पायथन में वर्ड दस्तावेज़ को सुलभ PDF में बदलने के चरण‑दर‑चरण मार्गदर्शन।
+### [पायथन के साथ वर्ड से सुलभ PDF बनाएं – चरण‑दर‑स्टेप गाइड](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
+Aspose.Words का उपयोग करके पायथन में वर्ड दस्तावेज़ को सुलभ PDF में बदलने के चरण‑दर‑स्टेप मार्गदर्शन।
 
 ### [वर्ड को मार्कडाउन के रूप में सहेजें – PDF/A‑UA निर्यात के साथ पूर्ण गाइड](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
-वर्ड दस्तावेज़ को मार्कडाउन में सहेजने और PDF/A‑UA निर्यात करने के लिए पायथन कोड और चरण‑दर‑चरण मार्गदर्शन।
+वर्ड दस्तावेज़ को मार्कडाउन में सहेजने और PDF/A‑UA निर्यात करने के लिए पायथन कोड और चरण‑दर‑स्टेप मार्गदर्शन।
+
 ### [Word से PDF/UA बनाएं – चरण‑बद्ध गाइड](./create-pdf-ua-from-word-step-by-step-guide/)
 Word दस्तावेज़ से PDF/UA बनाना सीखें, चरण‑बद्ध कोड और सर्वोत्तम प्रथाओं के साथ।
+
+### [Python में PDF/UA अनुपालन के साथ Word को PDF में निर्यात कैसे करें](./how-to-export-word-to-pdf-with-pdf-ua-compliance-in-python/)
+Python में PDF/UA मानकों के साथ Word को PDF में निर्यात करने के चरण‑दर‑स्टेप मार्गदर्शन।
+
+### [Aspose.Words के साथ Docx को PDF में सहेजें – चरण‑दर‑स्टेप गाइड](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
+Aspose.Words का उपयोग करके DOCX फ़ाइल को PDF में बदलने के लिए विस्तृत चरण‑दर‑स्टेप मार्गदर्शन।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

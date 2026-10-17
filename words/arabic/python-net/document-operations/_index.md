@@ -63,6 +63,9 @@
 ### [استعادة ملف DOCX تالف – دليل شامل لتفعيل وضع الاستعادة والحصول على عدد الصفحات](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
 تعلم كيفية تمكين وضع الاستعادة في Aspose.Words للبايثون واستخراج عدد الصفحات من ملفات DOCX التالفة.
 
+### [كيفية استعادة ملفات DOCX التالفة باستخدام Aspose.Words للبايثون](./how-to-recover-corrupted-docx-files-with-aspose-words-for-py/)
+تعلم كيفية استعادة ملفات DOCX التالفة باستخدام Aspose.Words للبايثون.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Python-net](https://docs.aspose.com/words/python-net/)

@@ -35,6 +35,9 @@ Dengan menguasai otomatisasi kata menggunakan Aspose.Words untuk Python, pengemb
 ### [Otomatisasi Kata Menjadi Mudah](./word-automation-made-easy/)
 Otomatiskan pemrosesan kata dengan mudah menggunakan Aspose.Words untuk Python. Buat, format, dan manipulasi dokumen secara terprogram. Tingkatkan produktivitas sekarang!
 
+### [Buat dokumen Word kosong dengan bentuk berbayang dalam Python](./create-blank-word-document-with-shadowed-shape-in-python/)
+Buat dokumen Word kosong dan tambahkan bentuk berbayang menggunakan Aspose.Words untuk Python. Pelajari cara mengimplementasikannya secara mudah.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

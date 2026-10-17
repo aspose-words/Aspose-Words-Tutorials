@@ -43,6 +43,12 @@ Word 문서를 Markdown으로 저장하는 방법을 Python으로 완벽히 안�
 ### [Word에서 LaTeX 내보내기 – DOCX를 Markdown으로 변환](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Word 문서를 LaTeX 형식으로 내보내고, DOCX를 Markdown으로 변환하는 방법을 단계별로 안내합니다.
 
+### [Word에서 LaTeX 내보내기 및 DOCX를 Markdown으로 변환하기](./how-to-export-latex-from-word-and-convert-docx-to-markdown/)
+Word 문서를 LaTeX 형식으로 내보내고 DOCX를 Markdown으로 변환하는 방법을 단계별로 안내합니다!
+
+### [Aspose.Words를 사용해 Word 문서에서 LaTeX 내보내기](./how-to-export-latex-from-word-documents-using-aspose-words/)
+Aspose.Words를 활용해 Word 문서를 LaTeX 형식으로 내보내는 방법을 단계별로 안내합니다.
+
 ### [Word에서 PDF 만들기 – Aspose.Words와 함께하는 완전 Python 가이드](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Aspose.Words를 사용해 Word 문서를 PDF로 변환하는 방법을 단계별로 안내합니다.
 
@@ -51,6 +57,12 @@ Aspose.Words를 활용해 Word 문서를 접근성 PDF로 변환하는 방법을
 
 ### [Word를 Markdown으로 저장하기 – PDF/A‑UA 내보내기 완전 가이드](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Word 문서를 Markdown으로 저장하고 PDF/A‑UA 형식으로 내보내는 방법을 단계별로 안내합니다.
+
+### [Aspose.Words로 docx를 pdf로 저장하기: 단계별 가이드](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
+Aspose.Words를 사용해 docx 파일을 PDF로 변환하는 방법을 단계별로 안내합니다.
+
+### [Python으로 PDF/UA 준수 Word를 PDF로 내보내는 방법](./how-to-export-word-to-pdf-with-pdf-ua-compliance-in-python/)
+Python을 사용해 PDF/UA 표준을 만족하는 Word 문서를 PDF로 변환하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

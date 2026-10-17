@@ -35,6 +35,9 @@ Aspose.Words for Python を用いたワードオートメーションを習得�
 ### [Wordの自動化が簡単に](./word-automation-made-easy/)
 Aspose.Words for Pythonを使えば、Word処理を簡単に自動化できます。プログラムでドキュメントを作成、フォーマット、操作。生産性を今すぐ向上させましょう！
 
+### [Pythonで影付きシェイプ付きの空白Word文書を作成](./create-blank-word-document-with-shadowed-shape-in-python/)
+PythonとAspose.Wordsを使用して、影付きシェイプを含む空白のWord文書をプログラムで作成する方法を学びます。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
