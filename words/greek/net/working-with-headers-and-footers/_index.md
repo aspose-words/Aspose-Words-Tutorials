@@ -20,6 +20,12 @@
 
 
  ## Εκπαιδευτικά σεμινάρια
+
+{{< tutorial-card link="./insert-header-date/" title="Εισαγωγή Δυναμικής Ημερομηνίας στην Κεφαλίδα σε Έγγραφο Word με χρήση Aspose.Words for .NET" imgSrc="./insert-header-date/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-page-numbers/" title="Προσθήκη αριθμών σελίδων στο υποσέλιδο ενός εγγράφου Word χρησιμοποιώντας το Aspose.Words για .NET" imgSrc="./add-page-numbers/images/thumb.png" >}}
+
+
 | Τίτλος | Περιγραφή |
 | --- | --- |
 | [Δημιουργία Κεφαλίδας Υποσέλιδου](./create-header-footer/) | Μάθετε πώς να δημιουργείτε κεφαλίδες και υποσέλιδα στα έγγραφά σας στο Word με το Aspose.Words για .NET. Προσαρμόστε τις κεφαλίδες και τα υποσέλιδα για κάθε σελίδα. |

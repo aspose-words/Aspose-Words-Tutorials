@@ -32,7 +32,7 @@ Cho dù bạn là người mới bắt đầu hay là nhà phát triển có kin
 | [Cấu hình liên kết đến nội dung](./configuring-link-to-content/) | Tìm hiểu cách cấu hình liên kết đến nội dung trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước của chúng tôi. |
 | [Chuyển đổi giữa các đơn vị đo lường](./convert-between-measurement-units/) | Tìm hiểu cách chuyển đổi đơn vị đo lường trong Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để đặt lề, tiêu đề và chân trang tài liệu theo inch và điểm. |
 | [Sử dụng ký tự điều khiển](./use-control-characters/) | Khám phá cách tự động hóa các tác vụ tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn này bao gồm thiết lập, thay thế văn bản và nhiều hơn nữa, giúp quy trình làm việc của bạn hiệu quả hơn. |
-
+| [Cách Đếm Số Trang trong Tài liệu Word – Khôi phục & Đếm](./how-to-count-pages-in-a-word-document-recover-count/) | Học cách đếm số trang trong tài liệu Word bằng Aspose.Words cho .NET, bao gồm khôi phục và đếm chính xác. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

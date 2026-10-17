@@ -22,6 +22,34 @@ V těchto tutoriálech se naučíte, jak vytvářet různé typy grafů, jako js
 těmito tutoriály budete moci vylepšit své dokumenty Word přidáním vizuálně atraktivní a informativní grafiky. Naučíte se, jak využít pokročilé grafické funkce v Aspose.Words pro .NET a efektivně je integrovat do svých aplikací. Prozkoumejte tyto tutoriály a rozšířte si své grafické dovednosti v Aspose.Words.
 
  ## Návody
+
+{{< tutorial-card link="./uniform-data-labels/" title="Nastavte jednotné popisky dat ve sloupcovém grafu pomocí Aspose.Words pro .NET" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="Proporcionální změna velikosti grafu při změně velikosti stránky ve Wordu pomocí Aspose.Words pro .NET" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="Vložení vlastního sloupcového grafu do dokumentu Word pomocí Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./hide-plot-border/" title="Skrytí okraje oblasti vykreslování ve sloupcovém grafu pomocí Aspose.Words pro .NET" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Odeberte řadu grafu z Word Documentu pomocí Aspose.Words pro .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-sample-column-chart/" title="Vložte ukázkový sloupcový graf do dokumentu Word pomocí Aspose.Words pro .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-named-series/" title="Přidejte pojmenovanou datovou řadu do histogramového grafu ve Wordu pomocí Aspose.Words pro .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Ověřte řady grafu a datové body v dokumentu Word pomocí Aspose.Words pro .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Přizpůsobte mřížky osy X ve sloupcovém grafu pomocí Aspose.Words pro .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Formátování sekundární osy X a nastavení zobrazovacích jednotek na tisíce v čárových grafech Word pomocí Aspose.Words pro .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Aktualizujte název grafu a přepněte viditelnost legendy ve Wordu pomocí Aspose.Words pro .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
+
+
+
+
+
+
 | Název | Popis |
 | --- | --- |
 | [Formátování čísla popisku dat v grafu](./format-number-of-data-label/) | Naučte se, jak formátovat popisky dat v grafech pomocí Aspose.Words pro .NET s tímto podrobným návodem. Vylepšete své dokumenty Word bez námahy. |

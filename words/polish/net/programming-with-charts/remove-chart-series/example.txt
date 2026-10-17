@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Korzystając z Aspose.Words for .NET, ten samouczek tworzy obiekt Document, wstawia wykres kolumnowy za pomocą DocumentBuilder, usuwa określoną serię danych z wykresu przy użyciu ChartSeriesCollection.RemoveAt i zapisuje zmodyfikowany dokument.
+//ExStepSummary:0: Utwórz nowy dokument Word oraz powiązany z nim obiekt DocumentBuilder.
+//ExStepSummary:1: Wstaw wykres kolumnowy o rozmiarze 432×252 punktów i uzyskaj obiekt Chart do dalszej manipulacji.
+//ExStepSummary:2: Zdefiniuj indeks zerowy serii, którą należy usunąć (druga seria).
+//ExStepSummary:3: Jeśli indeks jest prawidłowy, wywołaj metodę RemoveAt na kolekcji Series wykresu, aby usunąć tę serię.
+//ExStepSummary:4: Zapisz zaktualizowany dokument do pliku .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+int targetSeriesIdx = 1;
+
+//ExStep:3-
+if (targetSeriesIdx >= 0 && targetSeriesIdx < columnChart.Series.Count)
+{
+    columnChart.Series.RemoveAt(targetSeriesIdx);
+}
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutSeries.docx");
+//ExEnd

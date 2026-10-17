@@ -1,0 +1,7 @@
+Title: Save Word as PDF – Convert Shapes to Inline with Aspose.Words
+Slug: save-word-as-pdf-convert-shapes-to-inline-with-aspose-words
+Category: document-conversion
+ProcessedDate: 2026-06-18T03:44:41.404221
+SourceRepo: AI Search API
+Keywords: save word as pdf, word to pdf inline, convert shapes to inline
+PRNumber: 206
