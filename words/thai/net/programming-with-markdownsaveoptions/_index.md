@@ -176,6 +176,9 @@
 
 ### [วิธีส่งออกลิงก์: แปลง DOCX เป็น Markdown ด้วย C#](./how-to-export-links-convert-docx-to-markdown-in-c/)
 
+### [บันทึก Word เป็น Markdown พร้อมโฟลเดอร์รูปภาพแบบกำหนดเอง – คู่มือเต็ม](./save-word-as-markdown-with-custom-image-folder-full-guide/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown โดยกำหนดโฟลเดอร์รูปภาพของคุณเองอย่างละเอียดด้วย Aspose.Words สำหรับ .NET
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

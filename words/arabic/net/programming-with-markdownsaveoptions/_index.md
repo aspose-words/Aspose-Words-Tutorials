@@ -146,6 +146,8 @@
 
 ### [كيفية تصدير الروابط: تحويل DOCX إلى Markdown في C#](./how-to-export-links-convert-docx-to-markdown-in-c/)
 
+### [حفظ Word كـ Markdown مع مجلد صور مخصص – دليل كامل](./save-word-as-markdown-with-custom-image-folder-full-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

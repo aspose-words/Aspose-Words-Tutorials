@@ -65,10 +65,10 @@ Whether you want to convert Word documents to PDF for online distribution, archi
 | [Create accessible pdf from Word in C# – Step‑by‑Step Guide](./create-accessible-pdf-from-word-in-c-step-by-step-guide/) | Learn how to create accessible PDF files from Word documents using Aspose.Words for .NET in C# with this step-by-step guide. |
 | [Save Word as PDF in C# – Full Guide to Convert DOCX to PDF with Shape Export](./save-word-as-pdf-in-c-full-guide-to-convert-docx-to-pdf-with/) | Learn how to convert DOCX to PDF in C# while preserving shapes using Aspose.Words for .NET with this comprehensive step-by-step guide. |
 | [Save Document as PDF with Aspose.Words – Complete C# Guide](./save-document-as-pdf-with-aspose-words-complete-c-guide/) | Step-by-step guide to saving Word documents as PDF using Aspose.Words in C#, covering all essential options and code samples. |
+| [Create Accessible PDF from Word – Step‑by‑Step Guide](./create-accessible-pdf-from-word-step-by-step-guide/) | Learn how to create accessible PDFs from Word documents using Aspose.Words for .NET in this step-by-step guide. |
 
 | [Create Accessible PDF from Word with Aspose – Step‑by‑Step Guide](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) | Learn how to create accessible PDFs from Word documents using Aspose.Words for .NET in this step‑by‑step guide. |
 | [How to Create PDF from Word in C# – Complete Guide](./how-to-create-pdf-from-word-in-c-complete-guide/) | Step-by-step guide to generate PDFs from Word documents in C# using Aspose.Words for .NET. |
-| [Create Accessible PDF from Word – Step‑by‑Step Guide](./create-accessible-pdf-from-word-step-by-step-guide/) | Create an accessible PDF from Word using Aspose.Words for .NET with step‑by‑step instructions. |
 | [Save DOCX as PDF in C# – Complete Aspose.Words Guide](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) | Learn how to convert DOCX files to PDF in C# using Aspose.Words with a comprehensive step-by-step guide. |
 | [How to Set PDF Options in C# – Convert Word to PDF](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | Learn how to set PDF options in C# when converting Word documents to PDF using Aspose.Words for .NET. Follow this step-by-step guide. |
 

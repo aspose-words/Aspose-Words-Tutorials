@@ -28,7 +28,6 @@ Aspose.Words for .NET 使用 OfficeMath 進行文字處理的教學課程將指�
 | [如何將 Word 中的方程式轉換為 LaTeX 並儲存為 TXT](./how-to-convert-equations-in-word-to-latex-save-as-txt/) |說明如何使用 Aspose.Words for .NET 將 Word 文件中的數學方程式匯出為 LaTeX 格式並儲存為 TXT 檔案。 |
 | [將 docx 另存為 txt – 完整的 C# 指南，將 Word 數學導出為 LaTeX](./save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/) |說明如何使用 C# 將 Word 文檔中的數學方程式匯出為 LaTeX，並將 docx 另存為 txt 檔案的完整步驟。 |
 | [將 Word 轉換為 LaTeX – 完整的 C# 指南，將 Office Math 匯出為 LaTeX](./convert-word-to-latex-complete-c-guide-to-export-office-math/) |說明如何使用 C# 將 Word 文件中的 Office Math 公式匯出為 LaTeX 格式的完整步驟與範例。 |
-
 | [將 docx 另存為 txt – 在 C# 中匯出 Word 數學為 LaTeX](./save-docx-as-txt-export-word-math-to-latex-in-c/) |示範如何使用 Aspose.Words for .NET 將 Word 文件中的數學方程式匯出為 LaTeX，並將 docx 另存為 txt 檔案。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -60,6 +60,7 @@
 | [วิธีกู้คืนไฟล์ DOCX – ตั้งค่าโหมดการกู้คืนด้วย Aspose](./how-to-recover-docx-files-set-recovery-mode-with-aspose/) | เรียนรู้วิธีกู้คืนไฟล์ DOCX ด้วยการตั้งค่าโหมดการกู้คืนใน Aspose.Words สำหรับ .NET |
 | [กู้ไฟล์ Word ที่เสีย – เปิดไฟล์ DOCX ที่เสียโดยใช้ Aspose](./recover-damaged-word-file-open-corrupted-docx-using-aspose/) | เรียนรู้วิธีกู้ไฟล์ Word ที่เสียและเปิดไฟล์ DOCX ที่เสียโดยใช้ Aspose.Words สำหรับ .NET |
 | [วิธีกู้คืนไฟล์ Word – คู่มือฉบับสมบูรณ์กับ Aspose.Words](./how-to-recover-word-files-complete-guide-with-aspose-words/) | เรียนรู้วิธีกู้คืนไฟล์ Word ที่เสียหายหรือสูญหายด้วย Aspose.Words สำหรับ .NET อย่างละเอียด |
+| [กู้คืนไฟล์ DOCX ที่เสีย – คู่มือ C# ฉบับสมบูรณ์เพื่อแก้ไขและบันทึกไฟล์](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) | เรียนรู้วิธีกู้คืนไฟล์ DOCX ที่เสียหายด้วย Aspose.Words สำหรับ .NET ด้วยคู่มือขั้นตอนเต็มที่ช่วยแก้ไขและบันทึกไฟล์ |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

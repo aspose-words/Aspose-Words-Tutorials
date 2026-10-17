@@ -60,6 +60,7 @@ W tych samouczkach nauczysz się, jak używać LoadOptions do ładowania dokumen
 | [Odzyskaj uszkodzone pliki Word – przewodnik krok po kroku dla programistów C#](./recover-corrupted-word-files-step-by-step-guide-for-c-develo/) Dowiedz się, jak odzyskać uszkodzone pliki Word przy użyciu Aspose.Words w C# w kilku prostych krokach. |
 | [Ładowanie uszkodzonego dokumentu Word – wykrywanie problemów i odzyskiwanie uszkodzonego docx w C#](./load-corrupted-word-document-detect-issues-recover-damaged-d/) | Dowiedz się, jak wykrywać problemy i naprawiać uszkodzone pliki docx przy użyciu Aspose.Words w C#. |
 | [Ładowanie uszkodzonego DOCX w C# – Kompletny przewodnik Aspose.Words](./load-corrupted-docx-in-c-complete-aspose-words-guide/) | Dowiedz się, jak w C# ładować uszkodzone pliki DOCX przy użyciu Aspose.Words, aby odzyskać dane i naprawić dokumenty. |
+| [Odzyskaj uszkodzony DOCX – Kompletny przewodnik C# naprawy i zapisu plików](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) | Dowiedz się, jak naprawić uszkodzone pliki DOCX i zapisać je ponownie przy użyciu C# i Aspose.Words w kilku prostych krokach. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

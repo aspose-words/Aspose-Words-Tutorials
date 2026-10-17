@@ -209,6 +209,9 @@ Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und leere Absätze
 ### [Wie man Links exportiert: DOCX in Markdown konvertieren in C#](./how-to-export-links-convert-docx-to-markdown-in-c/)
 Erfahren Sie, wie Sie Links aus DOCX‑Dateien in Markdown exportieren – komplette Anleitung in C#.
 
+### [Word als Markdown speichern mit benutzerdefiniertem Bildordner – Vollständige Anleitung](./save-word-as-markdown-with-custom-image-folder-full-guide/)
+Erfahren Sie, wie Sie Word-Dokumente mit einem benutzerdefinierten Bildordner in Markdown speichern – vollständige Schritt‑für‑Schritt‑Anleitung.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

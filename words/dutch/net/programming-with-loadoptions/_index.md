@@ -62,6 +62,7 @@ In deze tutorials leert u hoe u LoadOptions kunt gebruiken om Word-documenten me
 | [Hoe DOCX-bestanden te herstellen – herstelmodus instellen met Aspose](./how-to-recover-docx-files-set-recovery-mode-with-aspose/) | Leer hoe u beschadigde DOCX-bestanden kunt herstellen door de herstelmodus in te stellen met Aspose.Words voor .NET. |
 | [Herstel beschadigd Word‑bestand – open corrupt DOCX met Aspose](./recover-damaged-word-file-open-corrupted-docx-using-aspose/) | Leer hoe u een beschadigd Word‑bestand kunt openen en herstellen met Aspose.Words voor .NET in een stapsgewijze handleiding. |
 | [Hoe Word-bestanden te herstellen – Complete gids met Aspose.Words](./how-to-recover-word-files-complete-guide-with-aspose-words/) | Leer stap voor stap hoe u beschadigde Word-bestanden kunt herstellen met Aspose.Words in deze volledige gids. |
+| [Herstel beschadigde DOCX – Complete C#-gids om bestanden te repareren en op te slaan](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) | Leer hoe u beschadigde DOCX-bestanden kunt herstellen en opslaan met een volledige C#-handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
