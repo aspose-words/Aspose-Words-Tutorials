@@ -44,6 +44,9 @@ Tìm hiểu cách áp dụng hình mờ và thiết lập cấu hình trang bằ
 ### [Kiểu dáng của Đầu trang và Chân trang Tài liệu](./document-header-footer-styling/)
 Tìm hiểu cách định dạng tiêu đề và chân trang tài liệu bằng Aspose.Words for Java trong hướng dẫn chi tiết này. Bao gồm hướng dẫn từng bước và mã nguồn.
 
+### [Cách phát hiện phông chữ trong tài liệu Word Java – Hướng dẫn toàn diện](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
+Tìm hiểu cách phát hiện các phông chữ được sử dụng trong tài liệu Word bằng Aspose.Words cho Java. Hướng dẫn chi tiết với mã nguồn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -1,0 +1,7 @@
+Title: Convert docx to pdf in Java – step‑by‑step guide
+Slug: convert-docx-to-pdf-in-java-step-by-step-guide
+Category: document-converting
+ProcessedDate: 2026-08-14T11:14:42.320796
+SourceRepo: AI Search API
+Keywords: convert docx to pdf, save pdf from word, convert word document pdf, set document encoding java
+PRNumber: 252

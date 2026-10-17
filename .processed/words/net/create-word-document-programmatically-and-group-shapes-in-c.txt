@@ -1,0 +1,7 @@
+Title: Create word document programmatically and group shapes in C#
+Slug: create-word-document-programmatically-and-group-shapes-in-c
+Category: programming-with-shapes
+ProcessedDate: 2026-08-11T07:18:58.828845
+SourceRepo: AI Search API
+Keywords: create word document programmatically, group multiple shapes word, add rectangle to word, how to create group shape
+PRNumber: 249
