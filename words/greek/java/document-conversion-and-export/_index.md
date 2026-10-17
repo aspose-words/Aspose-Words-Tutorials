@@ -194,6 +194,20 @@ weight: 22
 
 ### [Δημιουργία Προσβάσιμου PDF από Word – Πλήρης Οδηγός](./create-accessible-pdf-from-word-full-guide/)
 Μάθετε πώς να δημιουργήσετε προσβάσιμα PDF από έγγραφα Word χρησιμοποιώντας το Aspose.Words for Java, βήμα‑βήμα με παραδείγματα κώδικα.
+### [Μετατροπή docx σε markdown – Πλήρης οδηγός Java με Aspose.Words](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε μορφή Markdown χρησιμοποιώντας το Aspose.Words for Java, βήμα‑βήμα.
+
+### [Αποθήκευση docx ως markdown με Java – Πλήρης Οδηγός](./save-docx-as-markdown-with-java-full-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε μορφή Markdown χρησιμοποιώντας το Aspose.Words for Java, βήμα‑βήμα.
+
+### [Αποθήκευση docx ως txt – Πλήρης Οδηγός C# με Εξαγωγή Μαθηματικών](./save-docx-as-txt-complete-c-guide-with-math-export/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε κείμενο TXT χρησιμοποιώντας C# και να εξάγετε μαθηματικούς τύπους με Aspose.Words.
+
+### [Επιλογές αποθήκευσης PDF: Μετατροπή DOCX σε PDF με ετικέτες σχήματος](./pdf-save-options-convert-docx-to-pdf-with-shape-tags/)
+Μάθετε πώς να χρησιμοποιήσετε τις επιλογές αποθήκευσης PDF για να μετατρέψετε DOCX σε PDF διατηρώντας ετικέτες σχήματος.
+
+### [Δημιουργία Προσβάσιμου PDF από DOCX – Πλήρης Οδηγός Προγραμματισμού](./create-accessible-pdf-from-docx-complete-programming-guide/)
+Μάθετε πώς να μετατρέψετε DOCX σε προσβάσιμο PDF, διασφαλίζοντας συμβατότητα με πρότυπα προσβασιμότητας, βήμα‑βήμα.
 
 ## Συχνές Ερωτήσεις
 

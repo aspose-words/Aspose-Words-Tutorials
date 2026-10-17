@@ -156,6 +156,11 @@ Apprenez à récupérer des fichiers DOCX corrompus en définissant le mode de r
 Apprenez à activer le mode de récupération d'Aspose.Words pour restaurer les documents DOCX corrompus en Java.
 ### [Comment récupérer un docx – Activer le mode de récupération et lire les avertissements](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
 Apprenez à activer le mode de récupération dans Aspose.Words for Java pour restaurer les fichiers DOCX corrompus et afficher les avertissements.
+### [Récupérer un document Word corrompu – Guide complet Java](./recover-broken-word-document-complete-java-guide/)
+Apprenez à restaurer des documents Word endommagés avec Aspose.Words for Java grâce à un guide complet étape par étape.
+
+### [Capturer les avertissements de substitution de police – Détecter les polices manquantes](./capture-font-substitution-warnings-detect-missing-fonts/)
+Apprenez à capturer les avertissements de substitution de police et à détecter les polices manquantes avec Aspose.Words for Java.
 
 ## Foire aux questions
 

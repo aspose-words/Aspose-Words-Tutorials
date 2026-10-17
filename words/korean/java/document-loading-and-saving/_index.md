@@ -111,6 +111,8 @@ Aspose.Words for Java의 다재다능함을 살펴보며 다양한 형식으로 
 ### [DOCX 복구 방법 – 복구 모드 설정 및 경고 표시](./how-to-recover-docx-set-recovery-mode-display-warnings/)
 ### [Aspose.Words for Java를 사용하여 docx 복구 – 복구 모드 활성화](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
 ### [docx 복구 방법 – 복구 모드 활성화 및 경고 읽기](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
+### [손상된 워드 문서 복구 – 완전 Java 가이드](./recover-broken-word-document-complete-java-guide/)
+### [폰트 대체 경고 캡처 – 누락된 폰트 감지](./capture-font-substitution-warnings-detect-missing-fonts/)
 
 ## 자주 묻는 질문
 

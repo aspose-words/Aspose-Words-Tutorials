@@ -82,7 +82,6 @@ Aspose.Words for Java를 활용한 개체 생성 방법. 코드를 포함하는 
 ### [PDF 저장 옵션 – Java에서 DOCX를 PDF로 완전 제어 변환](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 
 ### [Java용 Aspose.Words에서 테이블 및 테이블 스타일 서식 지정](./formatting-tables-and-table-styles/)
-
 ### [Java용 Aspose.Words에서 docx를 markdown으로 변환하는 전체 가이드](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
 
 ### [C#용 Aspose.Words에서 docx를 markdown으로 변환하는 전체 가이드](./convert-docx-to-markdown-in-c-complete-guide/)
@@ -173,6 +172,16 @@ Aspose.Words for Java를 이용해 Word 문서를 Markdown 형식으로 내보�
 
 ### [Java용 Aspose.Words에서 PDF UA 만들기 – DOCX를 PDF로 변환](./create-pdf-ua-in-java-convert-docx-to-pdf/)
 Aspose.Words for Java를 사용해 DOCX 파일을 PDF UA 형식으로 변환하는 방법을 단계별로 안내합니다.
+### [docx를 markdown으로 변환 – Aspose.Words와 함께하는 전체 Java 가이드](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
+
+### [Java로 docx를 마크다운으로 저장 – 전체 가이드](./save-docx-as-markdown-with-java-full-guide/)
+
+### [docx를 txt로 저장 – 수학 내보내기가 포함된 완전한 C# 가이드](./save-docx-as-txt-complete-c-guide-with-math-export/)
+
+### [PDF 저장 옵션: Shape 태그를 사용하여 DOCX를 PDF로 변환](./pdf-save-options-convert-docx-to-pdf-with-shape-tags/)
+
+### [DOCX에서 접근 가능한 PDF 생성 – 전체 프로그래밍 가이드](./create-accessible-pdf-from-docx-complete-programming-guide/)
+Aspose.Words for Java를 사용해 DOCX 파일을 접근성 PDF로 변환하는 단계별 가이드.
 
 ## 자주 묻는 질문
 

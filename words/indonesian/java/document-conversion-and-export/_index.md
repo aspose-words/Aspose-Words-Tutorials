@@ -192,6 +192,20 @@ Pelajari cara mengonversi dokumen Word menjadi PDF secara otomatis menggunakan A
 
 ### [Buat PDF Aksesibel dari Word – Panduan Lengkap](./create-accessible-pdf-from-word-full-guide/)
 Pelajari cara mengonversi dokumen Word menjadi PDF yang memenuhi standar aksesibilitas, termasuk tag, teks alternatif, dan struktur dokumen.
+### [Mengonversi DOCX ke Markdown – Panduan Java Lengkap dengan Aspose.Words](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
+Pelajari cara mengonversi file DOCX menjadi format Markdown menggunakan Aspose.Words for Java dalam panduan langkah demi langkah lengkap.
+
+### [Simpan DOCX sebagai Markdown dengan Java – Panduan Lengkap](./save-docx-as-markdown-with-java-full-guide/)
+Pelajari cara menyimpan file DOCX menjadi format Markdown menggunakan Java dengan Aspose.Words dalam panduan lengkap langkah demi langkah.
+
+### [Opsi Penyimpanan PDF: Mengonversi DOCX ke PDF dengan Tag Bentuk](./pdf-save-options-convert-docx-to-pdf-with-shape-tags/)
+Pelajari cara menggunakan opsi penyimpanan PDF untuk mengonversi file DOCX menjadi PDF sambil mempertahankan tag bentuk dalam dokumen.
+
+### [Buat PDF Aksesibel dari DOCX – Panduan Pemrograman Lengkap](./create-accessible-pdf-from-docx-complete-programming-guide/)
+Panduan lengkap untuk menghasilkan PDF yang dapat diakses dari file DOCX menggunakan Aspose.Words for Java.
+
+### [Simpan DOCX sebagai TXT – Panduan Lengkap C# dengan Ekspor Math](./save-docx-as-txt-complete-c-guide-with-math-export/)
+Pelajari cara menyimpan file DOCX menjadi TXT menggunakan C#, termasuk mengekspor objek Math secara akurat.
 
 ## Pertanyaan yang Sering Diajukan
 

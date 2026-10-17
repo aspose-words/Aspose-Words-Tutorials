@@ -129,6 +129,17 @@ Aprenda a convertir archivos DOCX a Markdown en Java, extrayendo imágenes y pre
 
 ### [Exportar Word a Markdown – Guía Java usando Aspose.Words](./export-word-to-markdown-java-guide-using-aspose-words/)
 Aprenda a exportar documentos Word a Markdown con Aspose.Words para Java de forma sencilla.
+### [Convertir DOCX a Markdown – Guía completa de Java con Aspose.Words](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
+Aprende a convertir documentos DOCX a Markdown usando Aspose.Words for Java en esta guía paso a paso.
+
+### [Guardar docx como markdown con Java – Guía completa](./save-docx-as-markdown-with-java-full-guide/)
+Aprende a convertir documentos DOCX a archivos markdown usando Aspose.Words for Java en esta guía paso a paso.
+
+### [Opciones de guardado PDF: Convertir DOCX a PDF con etiquetas de forma](./pdf-save-options-convert-docx-to-pdf-with-shape-tags/)
+Aprenda a usar las opciones de guardado PDF para convertir DOCX a PDF conservando etiquetas de forma en Aspose.Words for Java.
+
+### [Crear PDF accesible desde DOCX – Guía completa de programación](./create-accessible-pdf-from-docx-complete-programming-guide/)
+Aprenda a generar PDFs accesibles a partir de documentos DOCX con Aspose.Words para Java.
 
 ## Preguntas frecuentes
 ### [Convert docx to markdown with Aspose.Words – Complete Guide](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
@@ -168,6 +179,8 @@ Aprenda a exportar contenido Markdown desde Word usando Aspose.Words for Java co
 Aprenda a generar PDFs accesibles PDF/UA a partir de documentos DOCX usando Aspose.Words para Java.
 ### [Crear PDF accesible desde Word – Guía completa](./create-accessible-pdf-from-word-full-guide/)
 Aprenda a generar PDFs accesibles conforme a PDF/UA a partir de documentos Word usando Aspose.Words para Java.
+### [Guardar docx como txt – Guía completa en C# con exportación de matemáticas](./save-docx-as-txt-complete-c-guide-with-math-export/)
+Aprende a guardar documentos DOCX como archivos TXT en C#, incluyendo la exportación de ecuaciones matemáticas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

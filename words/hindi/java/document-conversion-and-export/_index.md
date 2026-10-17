@@ -179,6 +179,19 @@ Aspose.Words for Java का उपयोग करके Word दस्ता�
 
 ### [Word से एक्सेसेबल PDF बनाएं – पूर्ण गाइड](./create-accessible-pdf-from-word-full-guide/)
 Aspose.Words for Java का उपयोग करके Word दस्तावेज़ से एक्सेसेबल PDF बनाने की पूरी प्रक्रिया सीखें।
+### [DOCX को मार्कडाउन में बदलें – Aspose.Words के साथ पूर्ण जावा गाइड](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
+Aspose.Words for Java का उपयोग करके DOCX फ़ाइल को मार्कडाउन में परिवर्तित करने की पूरी प्रक्रिया सीखें। कोड उदाहरण सहित।
+
+### [DOCX को TXT के रूप में सहेजें – गणित निर्यात के साथ पूर्ण C# गाइड](./save-docx-as-txt-complete-c-guide-with-math-export/)
+Aspose.Words for C# का उपयोग करके DOCX को TXT में बदलें और गणितीय समीकरणों को निर्यात करने की पूरी प्रक्रिया सीखें।
+
+### [PDF सहेजने के विकल्प: Shape टैग्स के साथ DOCX को PDF में बदलें](./pdf-save-options-convert-docx-to-pdf-with-shape-tags/)
+Shape टैग्स को संरक्षित रखते हुए DOCX को PDF में बदलने के लिए PDF सहेजने विकल्पों का उपयोग कैसे करें, सीखें।
+
+### [जावा के साथ DOCX को मार्कडाउन में सहेजें – पूर्ण गाइड](./save-docx-as-markdown-with-java-full-guide/)
+Aspose.Words for Java का उपयोग करके DOCX फ़ाइल को मार्कडाउन में सहेजने की पूरी प्रक्रिया सीखें, कोड उदाहरण सहित।
+
+### [DOCX से एक्सेसिबल PDF बनाएं – पूर्ण प्रोग्रामिंग गाइड](./create-accessible-pdf-from-docx-complete-programming-guide/)
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

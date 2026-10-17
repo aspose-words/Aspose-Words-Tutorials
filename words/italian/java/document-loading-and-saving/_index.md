@@ -162,6 +162,12 @@ Scopri come attivare la modalità di recupero per riparare file DOCX danneggiati
 ### [Come recuperare docx – Abilitare la modalità di recupero e leggere gli avvisi](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
 Scopri come attivare la modalità di recupero in Aspose.Words per Java e gestire gli avvisi durante l'apertura di file DOCX danneggiati.
 
+### [Recuperare documento Word danneggiato – Guida completa Java](./recover-broken-word-document-complete-java-guide/)
+Scopri come riparare documenti Word corrotti in Java usando Aspose.Words, con esempi passo‑passo per il recupero completo.
+
+### [Cattura avvisi di sostituzione dei font – Rileva font mancanti con Aspose.Words per Java](./capture-font-substitution-warnings-detect-missing-fonts/)
+Scopri come intercettare gli avvisi di sostituzione dei font e identificare i font mancanti durante il caricamento dei documenti con Aspose.Words per Java.
+
 ## Domande Frequenti
 
 **D:** Come posso **salvare immagini da word** programmaticamente nei documenti?  
