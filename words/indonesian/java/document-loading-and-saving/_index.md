@@ -162,6 +162,12 @@ Pelajari cara memulihkan file DOCX yang rusak menggunakan Aspose.Words dengan me
 ### [Cara memulihkan docx – Aktifkan Mode Pemulihan & Baca Peringatan](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
 Panduan memulihkan file DOCX dengan mengaktifkan mode pemulihan dan meninjau peringatan untuk menghindari kehilangan data.
 
+### [Pulihkan Dokumen Word Rusak – Panduan Java Lengkap](./recover-broken-word-document-complete-java-guide/)
+Pelajari cara memulihkan dokumen Word yang rusak menggunakan Aspose.Words untuk Java dengan panduan lengkap dan contoh kode.
+
+### [Menangkap Peringatan Substitusi Font – Deteksi Font yang Hilang](./capture-font-substitution-warnings-detect-missing-fonts/)
+Pelajari cara menangkap peringatan substitusi font dan mengidentifikasi font yang tidak tersedia saat memuat dokumen dengan Aspose.Words untuk Java.
+
 ## Pertanyaan yang Sering Diajukan
 
 **T:** Bagaimana cara saya secara programatis **menyimpan gambar dari word** dokumen?  

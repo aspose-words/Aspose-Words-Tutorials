@@ -190,6 +190,20 @@ Java geliştiricileri için Aspose.Words kullanarak Word belgesinden PDF oluştu
 
 ### [Word'den Erişilebilir PDF Oluşturma – Tam Kılavuz](./create-accessible-pdf-from-word-full-guide/)
 Aspose.Words for Java kullanarak Word belgelerinden erişilebilir PDF dosyaları oluşturmayı adım adım öğrenin.
+### [docx'i markdown'a dönüştürme – Aspose.Words ile Tam Java Rehberi](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
+Aspose.Words for Java kullanarak DOCX dosyalarını Markdown formatına dönüştürmeyi adım adım öğrenin.
+
+### [docx'i markdown olarak kaydet – Java Tam Rehberi](./save-docx-as-markdown-with-java-full-guide/)
+Aspose.Words for Java kullanarak DOCX dosyalarını Markdown formatına kaydetmeyi adım adım öğrenin.
+
+### [docx'i txt olarak kaydet – Matematik Dışa Aktarımlı Tam C# Rehberi](./save-docx-as-txt-complete-c-guide-with-math-export/)
+Aspose.Words for C# kullanarak docx dosyalarını txt formatına dönüştürmeyi ve matematik nesnelerini dışa aktarmayı adım adım öğrenin.
+
+### [pdf kaydetme seçenekleri: Şekil Etiketleriyle DOCX'i PDF'e Dönüştürme](./pdf-save-options-convert-docx-to-pdf-with-shape-tags/)
+PDF kaydetme seçeneklerini kullanarak DOCX dosyasını şekil etiketleriyle PDF'e dönüştürmeyi adım adım öğrenin.
+
+### [DOCX'ten Erişilebilir PDF Oluşturma – Tam Programlama Rehberi](./create-accessible-pdf-from-docx-complete-programming-guide/)
+Aspose.Words for Java kullanarak DOCX dosyasından erişilebilir PDF oluşturmayı, etiketleme ve alternatif metin eklemeyi adım adım öğrenin.
 
 ## Sık Sorulan Sorular
 

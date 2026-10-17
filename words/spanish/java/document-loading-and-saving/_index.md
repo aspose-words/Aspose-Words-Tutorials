@@ -130,6 +130,9 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 ### [Cómo recuperar DOCX – Establecer modo de recuperación y mostrar advertencias](./how-to-recover-docx-set-recovery-mode-display-warnings/)
 ### [Cómo recuperar docx con Aspose.Words – Habilitar modo de recuperación](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
 ### [Cómo recuperar docx – Habilitar modo de recuperación y leer advertencias](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
+### [Recuperar documento de Word dañado – Guía completa de Java](./recover-broken-word-document-complete-java-guide/)
+
+### [Capturar advertencias de sustitución de fuentes – Detectar fuentes faltantes](./capture-font-substitution-warnings-detect-missing-fonts/)
 
 ## Preguntas frecuentes
 

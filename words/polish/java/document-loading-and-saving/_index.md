@@ -154,6 +154,11 @@ Dowiedz się, jak wykrywać i pobierać brakujące czcionki w Javie przy użyciu
 Dowiedz się, jak włączyć tryb odzyskiwania w Aspose.Words, aby przywrócić uszkodzone dokumenty DOCX i zachować ich zawartość.
 ### [Jak odzyskać docx – Włącz tryb odzyskiwania i odczytaj ostrzeżenia](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
 Dowiedz się, jak włączyć tryb odzyskiwania w Aspose.Words for Java i odczytać ostrzeżenia, aby przywrócić uszkodzone pliki DOCX.
+### [Odzyskaj uszkodzony dokument Word – Kompletny przewodnik Java](./recover-broken-word-document-complete-java-guide/)
+Dowiedz się, jak odzyskać uszkodzone dokumenty Word przy użyciu Aspose.Words for Java, z praktycznymi przykładami kodu krok po kroku.
+
+### [Rejestrowanie ostrzeżeń o podstawianiu czcionek – wykrywanie brakujących czcionek](./capture-font-substitution-warnings-detect-missing-fonts/)
+Dowiedz się, jak przechwytywać ostrzeżenia o podstawianiu czcionek i wykrywać brakujące czcionki w dokumentach przy użyciu Aspose.Words for Java.
 
 ## Najczęściej zadawane pytania
 

@@ -130,6 +130,9 @@ Aspose.Words for Java 讓您輕鬆 **從 Word 儲存圖像**，同時提供強�
 ### [如何復原 docx – 讀取損壞 Word 檔案的完整指南](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 ### [如何在 Java 中取得缺失字型 – Aspose.Words 指南](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 ### [使用 Aspose.Words for Java 復原 docx – 啟用復原模式並閱讀警告](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
+### [使用 Aspose.Words for Java 復原損壞的 Word 文件 – 完整 Java 指南](./recover-broken-word-document-complete-java-guide/)
+
+### [捕捉字體替換警告 – 偵測缺少的字體](./capture-font-substitution-warnings-detect-missing-fonts/)
 
 ## 常見問題
 

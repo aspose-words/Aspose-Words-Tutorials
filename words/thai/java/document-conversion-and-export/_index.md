@@ -194,6 +194,19 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 
 ### [แปลง docx เป็น markdown ด้วย C# – คู่มือครบถ้วน](./convert-docx-to-markdown-in-c-complete-guide/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown อย่างละเอียดโดยใช้ C# และ Aspose.Words.
+### [แปลง docx เป็น markdown – คู่มือ Java เต็มรูปแบบกับ Aspose.Words](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
+เรียนรู้วิธีแปลงไฟล์ DOCX ไปเป็น Markdown อย่างละเอียดด้วย Aspose.Words for Java ในขั้นตอนเดียว
+
+### [บันทึก docx เป็น markdown ด้วย Java – คู่มือเต็ม](./save-docx-as-markdown-with-java-full-guide/)
+วิธีบันทึกไฟล์ DOCX เป็น Markdown ด้วย Java อย่างครบถ้วน พร้อมตัวอย่างโค้ด
+
+### [บันทึก docx เป็น txt – คู่มือ C# ครบถ้วนพร้อมการส่งออก Math](./save-docx-as-txt-complete-c-guide-with-math-export/)
+เรียนรู้วิธีบันทึกไฟล์ DOCX เป็นไฟล์ TXT ด้วย C# พร้อมการส่งออกสมการคณิตศาสตร์อย่างละเอียด
+
+### [ตัวเลือกการบันทึก PDF: แปลง DOCX เป็น PDF พร้อมแท็กรูปทรง](./pdf-save-options-convert-docx-to-pdf-with-shape-tags/)
+
+### [สร้าง PDF ที่เข้าถึงได้จาก DOCX – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./create-accessible-pdf-from-docx-complete-programming-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ที่รองรับการเข้าถึงสำหรับผู้ใช้ทุกคน ด้วย Aspose.Words for Java อย่างละเอียด
 
 ## คำถามที่พบบ่อย
 

@@ -86,6 +86,9 @@ Exploitez la puissance des formes de documents dans Aspose.Words pour Java. Appr
 ### [Utilisation de filigranes pour les documents dans Aspose.Words pour Java](./using-watermarks-to-documents/)
 Apprenez à ajouter des filigranes à vos documents dans Aspose.Words pour Java. Personnalisez vos filigranes de texte et d'image pour des documents d'aspect professionnel.
 
+### [Options d’enregistrement PDF : convertir DOCX en PDF avec des balises de forme](./pdf-save-options-convert-docx-to-pdf-with-shape-tags/)
+Apprenez à utiliser les options d’enregistrement PDF pour convertir des fichiers DOCX en PDF tout en conservant les balises de forme.
+
 ### [Formatage et styles de tableaux dans Aspose.Words pour Java](./formatting-tables-and-table-styles/)
 Apprenez à formmer des tableaux et à appliquer des styles dans Aspose.Words pour Java. Explorez des guides étape par étape avec code source pour une mise en forme efficace des tableaux. Améliorez la mise en page de vos documents avec Aspose.Words.
 
@@ -205,6 +208,18 @@ Apprenez à générer des PDF accessibles depuis des documents Word en respectan
 
 ### [Comment enregistrer un DOCX en texte – Guide complet pour convertir DOCX en TXT avec exportation des formules](./how-to-save-docx-as-text-complete-guide-to-convert-docx-to-t/)
 Apprenez à enregistrer des fichiers DOCX au format texte (TXT) et à exporter les équations mathématiques avec Aspose.Words for Java.
+
+### [Convertir docx en markdown – Guide complet Java avec Aspose.Words](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
+Apprenez à transformer des fichiers DOCX en Markdown en Java avec Aspose.Words grâce à ce guide complet étape par étape.
+
+### [Enregistrer docx en markdown avec Java – Guide complet](./save-docx-as-markdown-with-java-full-guide/)
+Apprenez à enregistrer des fichiers DOCX au format Markdown en Java avec Aspose.Words, étape par étape.
+
+### [Enregistrer docx en txt – Guide complet C# avec exportation de formules](./save-docx-as-txt-complete-c-guide-with-math-export/)
+Apprenez à convertir des fichiers DOCX en texte brut tout en conservant les équations mathématiques avec Aspose.Words en C#.
+
+### [Créer un PDF accessible à partir de DOCX – Guide complet de programmation](./create-accessible-pdf-from-docx-complete-programming-guide/)
+Apprenez à créer des PDF accessibles à partir de DOCX en Java, en respectant les normes d'accessibilité, avec un guide complet pas à pas.
 
 ## Questions fréquentes
 

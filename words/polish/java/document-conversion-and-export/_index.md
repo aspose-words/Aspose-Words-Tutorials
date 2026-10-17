@@ -193,6 +193,20 @@ Dowiedz się, jak w prostych krokach wygenerować plik PDF z dokumentu Word przy
 
 ### [Tworzenie dostępnego PDF z Worda – pełny przewodnik](./create-accessible-pdf-from-word-full-guide/)
 Dowiedz się, jak generować pliki PDF spełniające standardy dostępności z dokumentów Word przy użyciu Aspose.Words for Java.
+### [pdf save options: Convert DOCX to PDF with Shape Tags](./pdf-save-options-convert-docx-to-pdf-with-shape-tags/)
+Dowiedz się, jak zapisać DOCX jako PDF z zachowaniem tagów kształtów, wykorzystując opcje zapisu PDF w Aspose.Words for Java.
+
+### [Konwertowanie docx do markdown – pełny przewodnik Java z Aspose.Words](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
+Dowiedz się, jak konwertować pliki DOCX do formatu Markdown przy użyciu Aspose.Words for Java. Przewodnik krok po kroku z przykładami kodu.
+
+### [Zapisz docx jako txt – Kompletny przewodnik C# z eksportem Math](./save-docx-as-txt-complete-c-guide-with-math-export/)
+Dowiedz się, jak konwertować pliki DOCX na tekst w C#, wraz z eksportem obiektów Math.
+
+### [Zapisz docx jako markdown w Javie – pełny przewodnik](./save-docx-as-markdown-with-java-full-guide/)
+Dowiedz się, jak konwertować pliki DOCX do formatu Markdown przy użyciu Aspose.Words for Java. Kompletny przewodnik krok po kroku.
+
+### [Utwórz dostępny PDF z DOCX – Kompletny przewodnik programistyczny](./create-accessible-pdf-from-docx-complete-programming-guide/)
+Dowiedz się, jak przy użyciu Aspose.Words for Java wygenerować PDF spełniający standardy dostępności z pliku DOCX.
 
 ## Najczęściej zadawane pytania
 

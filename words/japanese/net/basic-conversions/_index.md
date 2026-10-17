@@ -53,6 +53,7 @@
 | [Docx を Txt として保存する方法 – Docx を変換し LaTeX を抽出](./how-to-save-docx-as-txt-convert-docx-extract-latex/) Aspose.Words for .NET を使用して DOCX を TXT に変換し、LaTeX を抽出する方法をステップバイステップで解説します。 |
 | [C#でDOCXからPDFを作成する方法 – ステップバイステップガイド](./how-to-create-pdf-from-docx-in-c-step-by-step-guide/) Aspose.Words for .NET を使用して、C# で DOCX ファイルを PDF に変換する手順を詳しく解説します。コード例付きで開発者に最適です。 |
 | [C# で DOCX を PDF に変換する – ステップバイステップ ガイド](./convert-docx-to-pdf-in-c-step-by-step-guide/) Aspose.Words for .NET を使用して C# で DOCX ファイルを PDF に変換する方法を、ステップバイステップで解説します。コード例付きで開発者に最適です。 |
+| [C# で Word から PDF を作成する – ステップバイステップガイド](./how-to-create-pdf-from-word-in-c-step-by-step-guide/) Aspose.Words for .NET を使用して C# で Word 文書を PDF に変換する手順を、コード例と共に詳しく解説します。 |
 | [C# で Word から PDF を作成する – 完全 LowCode ガイド](./create-pdf-from-word-in-c-complete-lowcode-guide/) Aspose.Words for .NET を使用して、C# で Word 文書から PDF を低コードで作成する完全ガイドです。ステップバイステップのコード例を提供します。 |
 
 | [DOCX からアクセシブル PDF を作成する – 完全 Aspose ガイド](./create-accessible-pdf-from-docx-complete-aspose-guide/) Aspose.Words for .NET を使用して、DOCX からアクセシブルな PDF を生成する方法をステップバイステップで解説します。コード例付きで開発者に最適です。 |

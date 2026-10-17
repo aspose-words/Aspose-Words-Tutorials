@@ -52,6 +52,7 @@ Terakhir, jangan lupa untuk memeriksa [Bekerja Dengan Opsi Ringkasan](./working-
 | [Cara Memeriksa Tata Bahasa dalam Dokumen Word – Panduan Lengkap C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Pelajari cara memeriksa tata bahasa dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan lengkap C#. |
 | [Cara memeriksa tata bahasa dengan LLM lokal di C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Pelajari cara menggunakan LLM lokal di C# untuk memeriksa tata bahasa dokumen secara otomatis dengan Aspose.Words. |
 | [Cara memeriksa tata bahasa dan meringkas dokumen Word dengan Aspose.Words AI](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Pelajari cara menggunakan Aspose.Words AI untuk memeriksa tata bahasa dan meringkas dokumen Word secara otomatis. |
+| [Periksa Tata Bahasa Dokumen Word di C# – Panduan Pemrograman Lengkap](./check-grammar-word-document-in-c-complete-programming-guide/) | Pelajari cara memeriksa tata bahasa dokumen Word menggunakan Aspose.Words untuk .NET dalam C# dengan panduan lengkap. |
 | [Cara Memuat Word di C# dan Menulis Ulang Paragraf dengan AI](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Pelajari cara memuat dokumen Word di C# dan menulis ulang paragraf secara otomatis menggunakan AI. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

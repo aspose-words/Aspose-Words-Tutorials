@@ -84,6 +84,8 @@
 | [Aspose.Words로 자산 폴더를 만들고 DOCX를 Markdown으로 변환하기](./create-assets-folder-and-convert-docx-to-markdown-with-aspos/) | Aspose.Words를 사용하여 자산 폴더를 생성하고 DOCX 파일을 Markdown 형식으로 변환하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words를 사용하여 docx를 markdown으로 변환 – 전체 C# 가이드](./convert-docx-to-markdown-with-aspose-words-full-c-guide/) | Aspose.Words for .NET을 사용하여 docx 파일을 markdown으로 변환하는 전체 C# 가이드 |
 | [Word를 Markdown으로 저장 – Word를 Markdown으로 변환하고 이미지 추출하는 전체 가이드](./save-word-as-markdown-complete-guide-to-convert-word-to-mark/) | Aspose.Words for .NET을 사용하여 Word 문서를 Markdown으로 변환하고 이미지 추출까지 수행하는 전체 단계별 가이드 |
+| [docx를 markdown으로 저장 – 빈 단락 포함 전체 가이드](./save-docx-as-markdown-complete-guide-with-empty-paragraphs/) | Aspose.Words for .NET을 사용하여 빈 단락이 포함된 docx 파일을 Markdown으로 변환하는 전체 가이드 |
+| [링크 내보내기: C#에서 DOCX를 Markdown으로 변환하는 방법](./how-to-export-links-convert-docx-to-markdown-in-c/) | Aspose.Words for .NET을 사용하여 DOCX 파일의 링크를 Markdown으로 내보내는 방법을 단계별로 안내합니다. |
 | [C#에서 Word를 Markdown으로 변환하는 방법 – 전체 가이드](./how-to-convert-word-to-markdown-in-c-complete-guide/) | Aspose.Words for .NET을 사용하여 Word 문서를 C#에서 Markdown으로 변환하는 전체 단계별 가이드 |
 | [C#에서 DOCX를 Markdown으로 변환 – 전체 가이드](./convert-docx-to-markdown-in-c-complete-guide/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 C#에서 Markdown으로 변환하는 전체 단계별 가이드 |
 

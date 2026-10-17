@@ -150,6 +150,11 @@ Naučte se nastavit režim obnovy při načítání DOCX souborů a zobrazit var
 ### [Jak obnovit docx pomocí Aspose.Words – Povolit režim obnovy](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
 ### [Jak obnovit docx – Povolit režim obnovy a číst varování](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
 Naučte se povolit režim obnovy při načítání DOCX a interpretovat varování o poškození souboru.
+### [Obnovení poškozeného dokumentu Word – Kompletní průvodce pro Javu](./recover-broken-word-document-complete-java-guide/)
+Naučte se, jak opravit poškozené soubory Word pomocí Aspose.Words for Java s podrobnými ukázkami kódu.
+
+### [Zachycení varování o nahrazení fontů – Detekce chybějících fontů](./capture-font-substitution-warnings-detect-missing-fonts/)
+Naučte se zachytit varování o nahrazení fontů a identifikovat chybějící písma při zpracování dokumentů v Aspose.Words for Java.
 
 ## Často kladené otázky
 

@@ -195,6 +195,20 @@ Learn how to generate accessible PDF files from Word documents using Aspose.Word
 
 ### [How to Save DOCX as Text – Complete Guide to Convert DOCX to TXT with Math Export](./how-to-save-docx-as-text-complete-guide-to-convert-docx-to-t/)
 Learn how to convert DOCX files to plain text, preserving mathematical equations, using Aspose.Words for Java in this comprehensive guide.
+### [convert docx to markdown – Full Java Guide with Aspose.Words](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
+Learn how to convert DOCX files to Markdown using Aspose.Words for Java in a comprehensive step‑by‑step guide.
+
+### [Save docx as markdown with Java – Full Guide](./save-docx-as-markdown-with-java-full-guide/)
+Learn how to convert DOCX files to Markdown using Aspose.Words for Java in a comprehensive step‑by‑step guide.
+
+### [save docx as txt – Complete C# Guide with Math Export](./save-docx-as-txt-complete-c-guide-with-math-export/)
+Learn how to save DOCX files as TXT using C#, including exporting embedded Math equations.
+
+### [pdf save options: Convert DOCX to PDF with Shape Tags](./pdf-save-options-convert-docx-to-pdf-with-shape-tags/)
+Convert DOCX to PDF with Shape Tags using PDF save options in Aspose.Words for Java. Learn how to preserve shape tags during conversion.
+
+### [Create Accessible PDF from DOCX – Complete Programming Guide](./create-accessible-pdf-from-docx-complete-programming-guide/)
+Learn how to generate accessible PDFs from DOCX using Aspose.Words for Java, ensuring compliance with accessibility standards.
 
 ## Frequently Asked Questions
 

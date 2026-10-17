@@ -61,6 +61,8 @@ Conversões Básicas orienta você nas conversões básicas de documentos usando
 | [Como criar PDF a partir de DOCX em C# – Guia passo a passo](./how-to-create-pdf-from-docx-in-c-step-by-step-guide/) | Aprenda a criar PDF a partir de arquivos DOCX usando C# e Aspose.Words com este guia passo a passo. |
 | [Salvar docx como txt – Guia Completo para Converter Arquivos Word em Texto Simples](./save-docx-as-txt-complete-guide-to-converting-word-files-to/) | Aprenda a converter documentos DOCX em arquivos de texto simples (TXT) usando Aspose.Words para .NET com este guia passo a passo. |
 | [Converter docx para txt – Exportar Equações do Word como LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/) | Aprenda a converter arquivos DOCX para TXT e exportar equações do Word como LaTeX usando Aspose.Words para .NET. |
+| [Como criar PDF a partir do Word em C# – Guia passo a passo](./how-to-create-pdf-from-word-in-c-step-by-step-guide/) | Aprenda a gerar PDFs a partir de documentos Word usando C# e Aspose.Words neste guia passo a passo. |
+
 | [Criar PDF a partir do Word em C# – Guia LowCode Completo](./create-pdf-from-word-in-c-complete-lowcode-guide/) | Aprenda a criar PDFs a partir de documentos Word usando C# com um guia LowCode completo e passo a passo. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 

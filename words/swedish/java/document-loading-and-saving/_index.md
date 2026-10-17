@@ -156,6 +156,11 @@ Lär dig hur du aktiverar återställningsläge i Aspose.Words för Java för at
 Lär dig hur du återställer skadade DOCX‑filer med Aspose.Words genom att aktivera återställningsläget för att rädda innehåll.
 ### [Hur du återställer docx – Aktivera återställningsläge & Läs varningar](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
 Lär dig hur du aktiverar återställningsläge i Aspose.Words för Java för att återställa skadade DOCX-filer och läsa varningsmeddelanden.
+### [Återställ skadat Word‑dokument – Komplett Java‑guide](./recover-broken-word-document-complete-java-guide/)
+Lär dig hur du reparerar korrupta Word‑filer med Aspose.Words för Java, steg‑för‑steg‑instruktioner och kodexempel.
+
+### [Fånga varningar för teckensnittssubstitution – Upptäck saknade teckensnitt](./capture-font-substitution-warnings-detect-missing-fonts/)
+Lär dig hur du fångar varningar för teckensnittssubstitution och identifierar saknade teckensnitt i dina dokument med Aspose.Words för Java.
 
 ## Vanliga frågor
 

@@ -197,6 +197,20 @@ Naučte se, jak pomocí Aspose.Words for Java převést dokument Word do PDF v n
 
 ### [Vytvoření přístupného PDF z Wordu – Kompletní průvodce](./create-accessible-pdf-from-word-full-guide/)
 Naučte se, jak pomocí Aspose.Words for Java vytvořit PDF s podporou přístupnosti z dokumentu Word, včetně značek a struktury.
+### [Převod DOCX na Markdown – kompletní průvodce v Javě s Aspose.Words](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
+Naučte se převést soubory DOCX do formátu Markdown pomocí Aspose.Words for Java v několika krocích.
+
+### [Uložení DOCX jako Markdown – kompletní průvodce v Javě](./save-docx-as-markdown-with-java-full-guide/)
+Naučte se převést soubory DOCX do formátu Markdown pomocí Aspose.Words for Java v podrobném průvodci.
+
+### [Uložení DOCX jako TXT – kompletní průvodce v C# s exportem Math](./save-docx-as-txt-complete-c-guide-with-math-export/)
+Naučte se, jak převést soubor DOCX na textový formát TXT v C# a exportovat matematické rovnice pomocí Aspose.Words.
+
+### [Možnosti uložení PDF: Převod DOCX na PDF s tagy tvarů v Aspose.Words for Java](./pdf-save-options-convert-docx-to-pdf-with-shape-tags/)
+Naučte se, jak pomocí možností uložení PDF převést DOCX na PDF a zachovat tagy tvarů v Aspose.Words for Java.
+
+### [Vytvořit přístupný PDF z DOCX – kompletní programovací průvodce](./create-accessible-pdf-from-docx-complete-programming-guide/)
+Naučte se, jak pomocí Aspose.Words for Java vytvořit PDF s přístupností z DOCX, včetně značek a struktury pro čtečky obrazovky.
 
 ## Často kladené otázky
 

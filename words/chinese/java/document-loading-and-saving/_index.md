@@ -155,30 +155,20 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 了解如何在 Aspose.Words for Java 中启用恢复模式并读取警告，以恢复受损的 docx 文件。
 
 ## 常见问题
+### [捕获字体替换警告 – 检测缺失字体](./capture-font-substitution-warnings-detect-missing-fonts/)
+学习如何捕获字体替换警告并检测文档中缺失的字体，以确保文档渲染一致性。
 
-**Q:** 如何以编程方式 **save images from word** 文档？  
-**A:** 使用 `new Document("file.docx")` 加载文档，遍历包含图像的 `Shape` 节点，然后对每个节点调用 `shape.getImageData().save("image.png")`。
+### [恢复损坏的 Word 文件 – C# 安全打开指南](./recover-corrupted-word-file-c-guide-to-open-safely/)
+学习如何在 C# 中安全打开并恢复损坏的 Word 文件，提供代码示例和实用技巧。
 
-**Q:** 提取图像后还能 **save pdf java** 吗？  
-**A:** 可以。处理完毕后调用 `document.save("output.pdf")` ——库会自动完成 PDF 转换。
-
-**Q:** 将 Word 转换为 HTML 的最佳方式是什么 **convert word html java**？  
-**A:** 加载 Word 文件后使用 `document.save("output.html", SaveFormat.HTML)`；您也可以指定 `HtmlSaveOptions` 以获得更精细的结果。
-
-**Q:** 如何使用自定义选项 **load html document java**？  
-**A:** 在构造 `Document` 对象时使用 `LoadOptions`（例如 `new LoadOptions(LoadFormat.HTML)`）。
-
-**Q:** 有简单方法加载包含宏的 **load docx java** 文件吗？  
-**A:** 有——设置 `LoadOptions.setLoadFormat(LoadFormat.DOCX)`，如果文件受保护，还可启用 `LoadOptions.setPassword()`。
+### [恢复损坏的 Word 文档 – 完整 Java 指南](./recover-broken-word-document-complete-java-guide/)
+学习使用 Aspose.Words for Java 检测并修复损坏的 Word 文件，完整步骤帮助您恢复文档内容。
 
 ---
 
 **最后更新：** 2025-12-19  
 **测试环境：** Aspose.Words for Java 24.12（最新）  
 **作者：** Aspose
-
-### [恢复损坏的 Word 文件 – C# 安全打开指南](./recover-corrupted-word-file-c-guide-to-open-safely/)
-学习如何在 C# 中安全打开并恢复损坏的 Word 文件，提供代码示例和实用技巧。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

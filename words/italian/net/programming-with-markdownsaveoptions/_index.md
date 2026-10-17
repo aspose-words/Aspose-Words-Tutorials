@@ -72,6 +72,8 @@
 | [Converti docx in markdown con Aspose.Words – Guida completa C#](./convert-docx-to-markdown-with-aspose-words-full-c-guide/) | Scopri come convertire DOCX in Markdown usando Aspose.Words con una guida completa in C#. |
 | [Salva Word come Markdown – Guida completa per convertire Word in Markdown e estrarre immagini](./save-word-as-markdown-complete-guide-to-convert-word-to-mark/) | Impara a convertire documenti Word in Markdown e a estrarre le immagini con una guida completa passo‑passo in C#. |
 | [Salva DOCX come Markdown con Aspose.Words – Guida completa C#](./save-docx-as-markdown-with-aspose-words-complete-c-guide/) | Impara a convertire file DOCX in Markdown usando Aspose.Words con una guida completa in C#. |
+| [Salva docx come markdown – Guida completa con paragrafi vuoti](./save-docx-as-markdown-complete-guide-with-empty-paragraphs/) | Scopri come convertire file DOCX in Markdown includendo paragrafi vuoti con una guida completa in C#. |
+| [Come esportare i link: Converti DOCX in Markdown in C#](./how-to-export-links-convert-docx-to-markdown-in-c/) | Scopri come esportare i link da un documento DOCX a Markdown usando Aspose.Words per .NET in C#. |
 | [Come convertire Word in Markdown in C# – Guida completa](./how-to-convert-word-to-markdown-in-c-complete-guide/) | Scopri come convertire documenti Word in Markdown usando C# con una guida completa passo‑passo. |
 | [Converti DOCX in Markdown in C# – Guida completa](./convert-docx-to-markdown-in-c-complete-guide/) | Scopri come convertire file DOCX in Markdown usando C# con una guida completa passo‑passo. |
 

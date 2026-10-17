@@ -38,6 +38,7 @@ doc.Save("output.pdf", Aspose.Words.SaveFormat.Pdf);
 | [Create Accessible PDF – Convert Word to PDF](./create-accessible-pdf-convert-word-to-pdf/) | Learn how to create an accessible PDF from Word using Aspose.Words for .NET. Step‑by‑step guide with code examples. |
 | [docx to pdf tutorial – Convert Word to PDF in C#](./docx-to-pdf-tutorial-convert-word-to-pdf-in-c/) | Learn how to convert DOCX to PDF using Aspose.Words for .NET in C#. Step‑by‑step guide with code examples. |
 | [Convert DOCX to PDF – Generate Accessible PDF (PDF/UA)](./convert-docx-to-pdf-generate-accessible-pdf-pdf-ua/) | Learn how to convert DOCX to an accessible PDF (PDF/UA) using Aspose.Words for .NET. Step‑by‑step guide with code examples. |
+| [How to Create PDF from Word in C# – Step‑by‑Step Guide](./how-to-create-pdf-from-word-in-c-step-by-step-guide/) | Learn how to create PDF from Word using Aspose.Words for .NET in C#. Step‑by‑step guide with code examples. |
 | [Create PDF from Word in C# – Complete LowCode Guide](./create-pdf-from-word-in-c-complete-lowcode-guide/) | Learn how to generate PDFs from Word documents using low‑code techniques in C# with Aspose.Words. Step‑by‑step guide for developers. |
 | [Convert Docx To Byte](./docx-to-byte/) | Learn how to convert Docx to byte array in .NET using Aspose.Words for efficient document processing. Step-by-step guide included. |  
 | [Convert Docx To Epub](./docx-to-epub/) | Convert DOCX to EPUB easily with Aspose.Words for .NET. Follow our tutorial for seamless integration into your .NET applications. |

@@ -214,6 +214,21 @@ weight: 22
 ### [Конвертация docx в markdown в C# — Полное руководство](./convert-docx-to-markdown-in-c-complete-guide/)
 Узнайте, как преобразовать файлы DOCX в формат Markdown с помощью Aspose.Words для C#. Пошаговое руководство с примерами кода.
 
+### [Конвертация docx в markdown – Полное руководство на Java с Aspose.Words](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
+Узнайте, как преобразовать файлы DOCX в формат Markdown с помощью Aspose.Words for Java в полном пошаговом руководстве.
+
+### [Сохранить docx как markdown с Java — Полное руководство](./save-docx-as-markdown-with-java-full-guide/)
+Узнайте, как преобразовать файлы DOCX в формат Markdown с помощью Aspose.Words for Java в полном пошаговом руководстве.
+
+### [Сохранить docx как txt – Полное руководство на C# с экспортом Math](./save-docx-as-txt-complete-c-guide-with-math-export/)
+Узнайте, как преобразовать файлы DOCX в текстовый формат TXT с помощью Aspose.Words для C#, включая экспорт математических объектов.
+
+### [Параметры сохранения PDF: Преобразование DOCX в PDF с тегами фигур](./pdf-save-options-convert-docx-to-pdf-with-shape-tags/)
+Узнайте, как использовать параметры сохранения PDF в Aspose.Words для Java, чтобы конвертировать DOCX в PDF, сохраняя теги фигур.
+
+### [Создание доступного PDF из DOCX – Полное руководство по программированию](./create-accessible-pdf-from-docx-complete-programming-guide/)
+Узнайте, как с помощью Aspose.Words for Java преобразовать DOCX в PDF с поддержкой доступности, добавив теги и структуру для чтения скринридерами.
+
 ## Часто задаваемые вопросы
 
 **Q: Как добавить водяной знак в существующий PDF с помощью Aspose.Words?**  

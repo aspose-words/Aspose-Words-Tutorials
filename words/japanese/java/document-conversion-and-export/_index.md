@@ -79,6 +79,9 @@ Aspose.Words for Java で文書内の数式の力を引き出します。Office 
 
 ### [Aspose.Words for Java でドキュメントシェイプを使用する](./using-document-shapes/)
 
+### [PDF 保存オプション: Shape タグで DOCX を PDF に変換](./pdf-save-options-convert-docx-to-pdf-with-shape-tags/)
+Shape タグを利用して DOCX を PDF に変換し、PDF 保存オプションをカスタマイズする方法を解説します。
+
 ### [Aspose.Words for Java でドキュメントにウォーターマークを使用する](./using-watermarks-to-documents/)
 Aspose.Words for Java で文書にウォーターマークを追加する方法を学びます。テキストや画像のウォーターマークをカスタマイズして、プロフェッショナルな文書を作成します。
 
@@ -148,6 +151,15 @@ Aspose.Words for Java を使用して DOCX を Markdown に変換し、画像を
 
 ### [Java で PDF/UA を作成 – DOCX を PDF に変換](./create-pdf-ua-in-java-convert-docx-to-pdf/)
 Aspose.Words for Java を使用して、PDF/UA 準拠の PDF を作成し、DOCX を PDF に変換する手順を解説します。
+### [Aspose.Words を使用した docx から markdown への変換 – 完全な Java ガイド](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
+
+### [Java で docx を markdown に保存 – 完全ガイド](./save-docx-as-markdown-with-java-full-guide/)
+
+### [DOCX を TXT に保存 – 数式エクスポート付き 完全 C# ガイド](./save-docx-as-txt-complete-c-guide-with-math-export/)
+Aspose.Words を使用して DOCX を TXT に変換し、数式をエクスポートする方法を C# で詳しく解説します。
+
+### [DOCX からアクセシブル PDF を作成する – 完全プログラミングガイド](./create-accessible-pdf-from-docx-complete-programming-guide/)
+Aspose.Words for Java を使用して、DOCX ファイルからアクセシブルな PDF を生成する方法をステップバイステップで解説します。
 
 ---
 
