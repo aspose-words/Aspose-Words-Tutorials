@@ -54,6 +54,8 @@
 | [Πώς να ελέγξετε τη γραμματική και να συνοψίσετε έγγραφο Word με το Aspose.Words AI](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words AI για έλεγχο γραμματικής και σύνοψη εγγράφων Word. |
 | [Έλεγχος γραμματικής εγγράφου Word σε C# – Πλήρης προγραμματιστικός οδηγός](./check-grammar-word-document-in-c-complete-programming-guide/) | Μάθετε πώς να ελέγχετε τη γραμματική σε έγγραφα Word χρησιμοποιώντας C# και το Aspose.Words για .NET. |
 | [Πώς να φορτώσετε Word σε C# και να ξαναγράψετε παράγραφο με AI](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Μάθετε πώς να φορτώσετε ένα έγγραφο Word σε C# και να χρησιμοποιήσετε AI για να ξαναγράψετε μια παράγραφο. |
+| [Σύνοψη εγγράφου Word με τοπικό LLM – Οδηγός βήμα‑βήμα C#](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | Μάθετε πώς να χρησιμοποιήσετε τοπικό LLM για να συνοψίσετε έγγραφα Word με C# και Aspose.Words. |
+| [Έλεγχος Γραμματικής Word με Aspose.Words AI – Πλήρης Οδηγός](./check-word-grammar-with-aspose-words-ai-complete-guide/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words AI για να ελέγχετε τη γραμματική εγγράφων Word με C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

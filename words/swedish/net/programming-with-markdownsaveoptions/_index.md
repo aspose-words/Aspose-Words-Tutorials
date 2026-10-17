@@ -42,6 +42,9 @@ Lär dig konvertera DOCX-filer till Markdown med en detaljerad steg‑för‑ste
 ### [Spara docx som markdown – Fullständig C#-guide med LaTeX-ekvationer](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 Lär dig spara DOCX-filer som Markdown med en komplett C#‑guide som inkluderar LaTeX‑ekvationer.
 
+### [Spara docx som markdown med LaTeX‑ekvationer – C#‑guide](./save-docx-as-markdown-with-latex-equations-c-guide/)
+Lär dig spara DOCX som Markdown med LaTeX‑ekvationer i en komplett C#‑guide.
+
 ### [Spara docx som markdown – Fullständig C#-guide med bildextraktion](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
 Lär dig spara DOCX som Markdown och extrahera bilder med en komplett C#-guide.
 
@@ -83,6 +86,7 @@ Lär dig exportera LaTeX från Word och konvertera DOCX till Markdown med Aspose
 
 ### [Konvertera Word till Markdown – Bädda in bilder som Base64](./convert-word-to-markdown-embed-images-as-base64/)
 Lär dig konvertera Word-dokument till Markdown och bädda in bilder som Base64‑strängar för enkel distribution.
+
 ### [Hur man sparar Markdown från Word – Komplett C#-guide](./how-to-save-markdown-from-word-complete-c-guide/)
 Lär dig steg‑för‑steg hur du sparar Word‑dokument som Markdown med en komplett C#‑guide.
 
@@ -210,6 +214,8 @@ Lär dig konvertera Word-dokument till Markdown med en komplett C#‑guide.
 
 ### [Konvertera DOCX till Markdown i C# – Fullständig guide](./convert-docx-to-markdown-in-c-complete-guide/)
 Lär dig konvertera DOCX-filer till Markdown med en komplett C#‑guide.
+### [Exportera docx som markdown – Fullständig C#-guide](./export-docx-as-markdown-complete-c-guide/)
+Lär dig steg‑för‑steg hur du exporterar DOCX‑filer till Markdown med en komplett C#‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

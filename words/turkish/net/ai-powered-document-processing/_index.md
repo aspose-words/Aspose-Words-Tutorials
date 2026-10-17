@@ -55,6 +55,8 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [Aspose.Words AI ile Dilbilgisi Kontrolü ve Word Belgesini Özetleme](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Aspose.Words AI kullanarak Word belgelerinizde dilbilgisi hatalarını kontrol edin ve otomatik özet oluşturun.
 | [C# ile Word Belgesinde Dilbilgisi Kontrolü – Tam Programlama Rehberi](./check-grammar-word-document-in-c-complete-programming-guide/) | Aspose.Words for .NET kullanarak C# ile Word belgelerindeki dilbilgisini otomatik olarak kontrol etmeyi öğrenin. |
 | [C#'ta Word Dosyası Yükleme ve Paragrafı AI ile Yeniden Yazma](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | C# ile Word belgesini yükleyip, AI kullanarak paragrafı nasıl yeniden yazacağınızı adım adım öğrenin. |
+| [Yerel LLM ile Word Belgesini Özetleme – Adım Adım C# Rehberi](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | Yerel bir LLM kullanarak C# ile Word belgelerini nasıl özetleyeceğinizi adım adım öğrenin. |
+| [Aspose.Words AI ile Word Dilbilgisini Kontrol Et – Tam Kılavuz](./check-word-grammar-with-aspose-words-ai-complete-guide/) | Aspose.Words AI kullanarak Word belgelerinizde dilbilgisi hatalarını otomatik olarak tespit edip düzeltmeyi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

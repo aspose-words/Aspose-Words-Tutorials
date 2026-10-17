@@ -63,6 +63,7 @@
 | [在 C# 中将 DOCX 转换为 PDF – 步骤指南](./convert-docx-to-pdf-in-c-step-by-step-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 DOCX 转换为 PDF，提供分步指南和代码示例。|
 | [如何在 C# 中将 Word 转换为 PDF – 步骤指南](./how-to-create-pdf-from-word-in-c-step-by-step-guide/) | 学习使用 Aspose.Words for .NET 在 C# 中将 Word 文档转换为 PDF，提供详细的分步指南和代码示例。|
 | [使用 Aspose.Words 将 Word 转换为 PDF – 完整 LowCode 指南](./create-pdf-from-word-in-c-complete-lowcode-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中通过低代码方式将 Word 文档转换为 PDF，提供完整的分步指南和示例代码。|
+| [在 C# 中从 Word 创建 PDF – 快速低代码指南](./create-pdf-from-word-in-c-fast-low-code-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中快速将 Word 文档转换为 PDF，提供低代码实现步骤。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -55,6 +55,8 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [Wie man Grammatik prüft und ein Word-Dokument mit Aspose.Words KI zusammenfasst](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Erfahren Sie, wie Sie Grammatik prüfen und Word-Dokumente mit Aspose.Words KI zusammenfassen. |
 | [Grammatikprüfung von Word-Dokumenten in C# – Vollständiger Programmierleitfaden](./check-grammar-word-document-in-c-complete-programming-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET die Grammatik von Word-Dokumenten in C# prüfen und korrigieren – Schritt-für-Schritt-Anleitung. |
 | [Wie man Word in C# lädt und Absatz mit KI umschreibt](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Lernen Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument in C# laden und mithilfe von KI Absätze automatisch neu formulieren. |
+| [Word-Dokument mit lokalem LLM zusammenfassen – Schritt‑für‑Schritt C#‑Leitfaden](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und einem lokalen LLM Word-Dokumente in C# automatisch zusammenfassen. |
+| [Word-Grammatik mit Aspose.Words KI prüfen – Komplettleitfaden](./check-word-grammar-with-aspose-words-ai-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und KI die Grammatik von Word-Dokumenten automatisch prüfen und korrigieren. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -53,6 +53,8 @@ Infine, non dimenticare di dare un'occhiata al nostro [Lavorare con le opzioni d
 | [Come verificare la grammatica con un LLM locale in C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Scopri come utilizzare un modello linguistico locale per controllare la grammatica del codice C# con Aspose.Words per .NET. |
 | [Controlla la grammatica del documento Word in C# – Guida completa di programmazione](./check-grammar-word-document-in-c-complete-programming-guide/) | Verifica e correggi la grammatica dei documenti Word con Aspose.Words per .NET in C#. Guida passo‑passo per risultati accurati. |
 | [Come caricare Word in C# e riscrivere il paragrafo con IA](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Scopri come caricare un documento Word in C# e riscrivere i paragrafi usando l'intelligenza artificiale di Aspose.Words. |
+| [Riassumere documento Word con un LLM locale – Guida passo‑passo C#](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | Scopri come riassumere documenti Word usando un modello LLM locale con C# e Aspose.Words per .NET. |
+| [Controlla la grammatica di Word con Aspose.Words AI – Guida completa](./check-word-grammar-with-aspose-words-ai-complete-guide/) | Scopri come utilizzare Aspose.Words AI per verificare e correggere la grammatica nei documenti Word in modo rapido ed efficace. |
 
 | [Come controllare la grammatica e riassumere un documento Word con Aspose.Words AI](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Scopri come verificare la grammatica e generare riassunti dei documenti Word usando l'AI di Aspose.Words. |
 {{< /blocks/products/pf/tutorial-page-section >}}

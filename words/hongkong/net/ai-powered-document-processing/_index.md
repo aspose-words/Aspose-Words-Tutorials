@@ -55,6 +55,8 @@
 | [使用 Aspose.Words AI 檢查文法並匯總 Word 文件](./how-to-check-grammar-and-summarize-word-document-with-aspose/) |使用 Aspose.Words AI 檢查文法並自動匯總 Word 文件，提升寫作與審閱效率。 |
 | [檢查 C# Word 文件語法 – 完整程式設計指南](./check-grammar-word-document-in-c-complete-programming-guide/) |了解如何使用 Aspose.Words for .NET 在 C# 中檢查 Word 文件的語法錯誤，提升文件品質與寫作效率。 |
 | [如何在 C# 中載入 Word 並使用 AI 重寫段落](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) |示範如何使用 Aspose.Words for .NET 在 C# 中載入 Word 文件，並結合 AI 重寫指定段落，提高內容品質。 |
+| [使用本地大型語言模型匯總 Word 文件 – 步驟式 C# 指南](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) |使用本地 LLM 於 C# 中自動匯總 Word 文件，提供完整步驟與範例程式碼。 |
+| [使用 Aspose.Words AI 檢查 Word 文法 – 完整指南](./check-word-grammar-with-aspose-words-ai-complete-guide/) |使用 Aspose.Words AI 在 C# 中檢查 Word 文檔的語法錯誤，提供完整步驟與範例程式碼。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -62,6 +62,7 @@ Az Alapvető konverziók című útmutató végigvezeti Önt az Aspose.Words for
 | [DOCX konvertálása PDF-be C#-ban – Lépésről‑lépésre útmutató](./convert-docx-to-pdf-in-c-step-by-step-guide/) | Tanulja meg, hogyan konvertálhat DOCX fájlokat PDF-be C#-ban az Aspose.Words for .NET segítségével lépésről‑lépésre útmutatóval. |
 | [Hogyan hozzunk létre PDF-et Wordből C#‑ban – Lépésről‑lépésre útmutató](./how-to-create-pdf-from-word-in-c-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre PDF fájlokat Word dokumentumokból C#‑ban az Aspose.Words for .NET használatával, részletes lépésről‑lépésre útmutatóval. |
 | [PDF létrehozása Wordből C#‑ban – Teljes LowCode útmutató](./create-pdf-from-word-in-c-complete-lowcode-guide/) | Tanulja meg, hogyan hozhat létre PDF-et Word dokumentumokból C#‑ban az Aspose.Words LowCode megoldásával, részletes, lépésről‑lépésre útmutatóval. |
+| [PDF létrehozása Wordből C#‑ban – Gyors alacsony kódszintű útmutató](./create-pdf-from-word-in-c-fast-low-code-guide/) | Ismerje meg, hogyan hozhat létre PDF-et Word dokumentumokból C#‑ban gyors, kevés kóddal az Aspose.Words segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

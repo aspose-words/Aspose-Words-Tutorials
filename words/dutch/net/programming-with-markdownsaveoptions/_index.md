@@ -49,13 +49,16 @@ Leer hoe u docx opslaat als markdown met een volledige C#‑gids inclusief LaTeX
 
 Leer hoe u Word-documenten naar Markdown converteert en wiskundige vergelijkingen exporteert als LaTeX met Aspose.Words voor .NET.
 
+### [Docx opslaan als markdown met LaTeX‑vergelijkingen – C#‑gids](./save-docx-as-markdown-with-latex-equations-c-guide/)
+
 ### [Docx opslaan als markdown – Volledige C#-gids met afbeeldingsextractie](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
 ### [Docx opslaan als markdown – Complete C#-gids met afbeeldingsextractie](./save-docx-as-markdown-complete-c-guide-with-image-extraction/)
 
 ### [Word naar Markdown converteren – Complete gids met afbeeldingsextractie](./convert-word-to-markdown-complete-guide-with-image-extractio/)
+### [Export docx als markdown – Complete C#-gids](./export-docx-as-markdown-complete-c-guide/)
+Leer hoe u docx-bestanden exporteert naar markdown met een volledige C#‑handleiding.
 
 ### [Word naar Markdown converteren in C# – Volledige gids met afbeeldingsextractie](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
-
 Leer hoe u Word-documenten naar Markdown converteert en afbeeldingen extraheert met een volledige C#-handleiding.
 
 ### [Docx opslaan als markdown – Gids voor afbeeldingsextractie in C#](./save-docx-as-markdown-extract-images-c-guide/)
@@ -109,11 +112,9 @@ Leer hoe u Word-documenten opslaat als Markdown met een volledige C#-handleiding
 Leer stap‑voor‑stap hoe u met Aspose.Words voor .NET Markdown genereert vanuit Word‑documenten.
 
 ### [Hoe LaTeX vanuit Word te exporteren: DOCX naar Markdown converteren met Aspose](./how-to-export-latex-from-word-convert-docx-to-markdown-with/)
-
 Leer hoe u LaTeX‑inhoud uit een Word‑document exporteert en converteert naar Markdown met Aspose.Words voor .NET.
 
 ### [Word naar Markdown – Afbeeldingen insluiten als Base64](./convert-word-to-markdown-embed-images-as-base64/)
-
 Leer hoe u Word-documenten naar Markdown converteert en afbeeldingen embed als Base64‑strings met Aspose.Words voor .NET.
 
 ### [Hoe LaTeX te exporteren: DOCX naar Markdown & TXT converteren](./how-to-export-latex-convert-docx-to-markdown-txt/)

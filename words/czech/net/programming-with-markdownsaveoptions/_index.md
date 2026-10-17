@@ -86,6 +86,8 @@ Zpracování textu pomocí MarkdownSaveOptions je podrobný návod, který vás 
 | [Jak exportovat odkazy: převod DOCX do Markdownu v C#](./how-to-export-links-convert-docx-to-markdown-in-c/) | Naučte se exportovat odkazy při převodu souboru DOCX do Markdownu v C# pomocí Aspose.Words. |
 | [Jak převést Word do Markdownu v C# – Kompletní průvodce](./how-to-convert-word-to-markdown-in-c-complete-guide/) | Kompletní průvodce převodem dokumentů Word do Markdownu v C# pomocí Aspose.Words. |
 | [Převod DOCX do Markdownu v C# – Kompletní průvodce](./convert-docx-to-markdown-in-c-complete-guide/) | Kompletní průvodce převodem souborů DOCX do Markdownu v C# pomocí Aspose.Words. |
+| [Uložení docx jako markdown s rovnicemi LaTeX – průvodce v C#](./save-docx-as-markdown-with-latex-equations-c-guide/) | Naučte se převádět soubory DOCX do Markdownu a zachovat rovnice LaTeX pomocí Aspose.Words pro .NET. |
+| [Export docx jako markdown – Kompletní průvodce v C#](./export-docx-as-markdown-complete-c-guide/) | Kompletní průvodce exportem souborů DOCX do formátu Markdown pomocí Aspose.Words v C#. |
 
 | **[Uložení Wordu jako Markdown – Kompletní průvodce v C# s Aspose.Words](./save-word-as-markdown-complete-c-guide-with-aspose-words/)** | Naučte se kompletně exportovat dokumenty Word do Markdownu pomocí Aspose.Words v C#. |
 {{< /blocks/products/pf/tutorial-page-section >}}
