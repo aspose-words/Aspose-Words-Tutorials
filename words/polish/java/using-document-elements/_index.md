@@ -71,6 +71,8 @@ Naucz się używać obiektów OLE i kontrolek ActiveX w Aspose.Words dla Java. T
 Naucz się efektywnie używać kontroli wersji Aspose.Words for Java. Przewodnik krok po kroku dla programistów. Zoptymalizuj zarządzanie dokumentami.
 ### [Korzystanie z sekcji w Aspose.Words dla Java](./using-sections/)
 Poznaj Aspose.Words dla Javy: kompleksowy przewodnik po używaniu sekcji. Dodawaj, usuwaj, dołączaj, klonuj sekcje z przykładami kodu.
+### [Utwórz pusty dokument Word i dodaj przycisk ActiveX (Java)](./create-a-blank-word-document-and-add-an-activex-button-java/)
+Dowiedz się, jak w Aspose.Words for Java utworzyć pusty dokument Word i dodać przycisk ActiveX krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

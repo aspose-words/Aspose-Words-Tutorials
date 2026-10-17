@@ -36,10 +36,15 @@ Tìm hiểu cách tạo hình thu nhỏ chất lượng cao và bitmap tùy ch�
 
 ### [Thêm bóng cho hình dạng trong Word – Hướng dẫn đầy đủ Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Hướng dẫn chi tiết cách áp dụng hiệu ứng bóng cho hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
+
 ### [Áp dụng hiệu ứng bóng cho hình dạng trong C# – Hướng dẫn từng bước](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Hướng dẫn chi tiết cách áp dụng hiệu ứng bóng cho hình dạng trong tài liệu Word bằng C# sử dụng Aspose.Words.
+
 ### [Cách đặt bóng cho hình dạng trong Aspose.Words – Hướng dẫn chi tiết](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Hướng dẫn chi tiết cách áp dụng hiệu ứng bóng cho hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
+
+### [Cách nhóm các hình dạng trong Word bằng Java – hướng dẫn đầy đủ](./how-to-group-shapes-in-word-with-java-complete-guide/)
+Hướng dẫn chi tiết cách nhóm các hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
 
 ## Tài nguyên bổ sung
 

@@ -36,10 +36,15 @@ Naučte se, jak generovat vysoce kvalitní miniatury a rastrové obrázky vlastn
 
 ### [Přidání stínu k tvaru ve Wordu – kompletní průvodce Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Naučte se, jak přidat stín k tvarům v dokumentech Word pomocí Aspose.Words pro Javu.
+
 ### [Aplikace stínového efektu na tvar v C# – krok za krokem průvodce](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Naučte se, jak aplikovat stínový efekt na tvary v C# pomocí Aspose.Words – podrobný krok‑za‑krokem průvodce.
+
 ### [Jak nastavit stín na tvar v Aspose.Words – kompletní průvodce](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Naučte se, jak přidat stín k tvarům v dokumentech Word pomocí Aspose.Words pro Javu.
+
+### [Jak seskupit tvary ve Wordu s Javou – kompletní průvodce](./how-to-group-shapes-in-word-with-java-complete-guide/)
+Naučte se, jak seskupit tvary v dokumentech Word pomocí Aspose.Words pro Javu.
 
 ## Další zdroje
 

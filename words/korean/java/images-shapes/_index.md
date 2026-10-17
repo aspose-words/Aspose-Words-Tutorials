@@ -36,10 +36,15 @@ Aspose.Words for Java를 사용하여 Word 문서의 고품질 썸네일과 사�
 
 ### [Word에서 도형에 그림자 추가 – 완전한 Aspose.Words 가이드](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Aspose.Words for Java를 사용하여 Word 문서의 도형에 그림자를 적용하는 방법을 단계별로 안내합니다.
+
 ### [C#에서 도형에 그림자 효과 적용 – 단계별 가이드](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 C#를 사용하여 도형에 그림자 효과를 적용하는 방법을 단계별로 안내합니다.
+
 ### [Aspose.Words에서 도형에 그림자 적용하기 – 완전 가이드](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Aspose.Words for Java를 사용하여 도형에 그림자를 설정하는 방법을 단계별로 안내합니다.
+
+### [Java로 Word에서 도형 그룹화하기 – 완전 가이드](./how-to-group-shapes-in-word-with-java-complete-guide/)
+Java를 사용하여 Word 문서에서 도형을 그룹화하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 
