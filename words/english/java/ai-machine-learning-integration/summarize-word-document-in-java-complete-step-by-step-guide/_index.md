@@ -57,7 +57,7 @@ tags:
 - Aspose.Words
 - AI
 - LLM
-title: Generate Summary of Word Document in Java using Aspose.Words – Complete Step‑by‑Step Guide
+title: Summarize Word Document in Java with Aspose.Words – Complete Step‑by‑Step Guide
 url: /java/ai-machine-learning-integration/summarize-word-document-in-java-complete-step-by-step-guide/
 ---
 

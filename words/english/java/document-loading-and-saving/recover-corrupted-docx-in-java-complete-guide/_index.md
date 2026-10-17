@@ -39,7 +39,7 @@ tags:
 - Aspose.Words
 - Document Recovery
 - DOCX
-title: Recover corrupted docx in Java using Aspose.Words for Java – Complete Guide
+title: Recover corrupted DOCX files in Java with Aspose.Words – Complete Guide
 url: /java/document-loading-and-saving/recover-corrupted-docx-in-java-complete-guide/
 ---
 
@@ -47,7 +47,7 @@ url: /java/document-loading-and-saving/recover-corrupted-docx-in-java-complete-g
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Recover corrupted docx in Java using Aspose.Words for Java – Complete Guide
+# Recover corrupted DOCX files in Java with Aspose.Words – Complete Guide
 
 Ever tried to **recover corrupted docx** files and hit a wall? In this tutorial we’ll show you how to **recover corrupted docx** using Aspose.Words for Java by **set recovery mode** and **load document with recovery** so the file opens just like a healthy Word document.  
 

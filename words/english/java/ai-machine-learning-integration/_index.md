@@ -1,5 +1,5 @@
 ---
-title: "How to Integrate AI with Aspose.Words for Java API to Automate Document Processing – AI & ML"
+title: "Boost Productivity: Integrate AI with Aspose.Words for Java API to Automate Document Processing – AI & ML"
 description: "Learn how to integrate AI with Aspose.Words for Java API to automate smart document processing, enabling AI‑driven document automation, content generation, and translation."
 weight: 20
 url: "/java/ai-machine-learning-integration/"
@@ -72,10 +72,10 @@ Export the enriched document to the format you need—PDF, DOCX, HTML, or even E
 
 ## Available Tutorials
 
-### [Master text processing in java: using Aspose.Words & AI models for summarization and translation](./java-aspose-words-text-processing/)
+### {{< relref "java-aspose-words-text-processing/_index.md" >}}Master text processing in java: using Aspose.Words & AI models for summarization and translation{{< /relref >}}
 Learn how to automate text summarization and translation using Aspose.Words for Java with OpenAI's GPT‑4 and Google's Gemini. Enhance your Java applications today.
 
-### [Summarize word document in java – complete step‑by‑Step guide](./summarize-word-document-in-java-complete-step-by-step-guide/)
+### {{< relref "summarize-word-document-in-java-complete-step-by-step-guide/_index.md" >}}Summarize word document in java – complete step‑by‑Step guide{{< /relref >}}
 Step‑by‑step guide to extract text from a Word file and generate a concise summary using Aspose.Words for Java and AI models.
 
 ## Additional Resources

@@ -57,7 +57,7 @@ tags:
 - Java
 - PDF
 - Document Conversion
-title: Convert and Save Document as PDF using Aspose.Words for Java – Complete Guide
+title: Convert and Save Document as PDF using Aspose.Words API for Java – Complete Guide
 url: /java/document-conversion-and-export/save-document-as-pdf-complete-aspose-words-guide/
 ---
 
@@ -246,7 +246,7 @@ What’s next? Try swapping the INLINE mode for BLOCK, embed custom fonts, or bu
 
 Got more questions? Drop a comment, experiment with the code, and happy converting!
 
-TODO: Add a section on handling encrypted PDFs and advanced PDF/A compliance.
+FIXME: Add more examples for PDF/A compliance and encrypted PDF handling.
 
 ## What should you learn next?
 

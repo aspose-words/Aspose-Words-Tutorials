@@ -1,5 +1,5 @@
 ---
-title: "Aspose.Words for Java: Insert Images & Shapes into Documents | Master Your Docs"
+title: "Aspose.Words for Java: Insert Images & Shapes into DOCX Documents | Master Your Docs"
 description: "Learn how to insert, manipulate, and customize images and shapes in Java applications using the Aspose.Words for Java API. Follow step-by-step tutorials with code examples to create professional documents."
 weight: 6
 url: "/java/images-shapes/"
@@ -37,16 +37,16 @@ doc.save("Output.docx");
 
 ## Available Tutorials
 
-### [Custom page & image saving in java with Aspose.Words callbacks](./aspose-words-java-callback-custom-savings/)
+### [Custom page & image saving in java with Aspose.Words callbacks]({{< relref "aspose-words-java-callback-custom-savings" >}})
 A code tutorial for Aspose.Words Java
 
-### [How to Render Document Pages as Thumbnails using Aspose.Words for Java](./render-word-pages-thumbnails-aspose-java/)
+### [How to Render Document Pages as Thumbnails using Aspose.Words for Java]({{< relref "render-word-pages-thumbnails-aspose-java" >}})
 Learn how to generate high-quality thumbnails and custom-sized bitmaps of Word documents with Aspose.Words for Java. Enhance your document handling capabilities today.
 
-### [Create word document java – add rectangle shape with shadow effect](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+### [Create word document java – add rectangle shape with shadow effect]({{< relref "create-word-document-java-add-rectangle-shape-with-shadow-ef" >}})
 Learn how to add a rectangle shape with a shadow effect to a Word document using Aspose.Words for Java.
 
-### [Save word document – add rectangle shape & shadow in java](./save-word-document-add-rectangle-shape-shadow-in-java/)
+### [Save word document – add rectangle shape & shadow in java]({{< relref "save-word-document-add-rectangle-shape-shadow-in-java" >}})
 Learn how to save a Word document after adding a rectangle shape with a shadow effect using Aspose.Words for Java.
 
 ## Additional Resources
@@ -60,10 +60,8 @@ Learn how to save a Word document after adding a rectangle shape with a shadow e
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/products-backtop-button >}}

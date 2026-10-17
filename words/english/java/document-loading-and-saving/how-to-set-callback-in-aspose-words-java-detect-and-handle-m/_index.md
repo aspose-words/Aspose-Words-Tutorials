@@ -44,7 +44,7 @@ tags:
 - Aspose.Words
 - Java
 - Document Processing
-title: How to Set a Callback in Aspose.Words for Java – Detect and Handle Missing Fonts
+title: Set IWarningCallback in Aspose.Words for Java – Detect and Handle Missing Fonts
 url: /java/document-loading-and-saving/how-to-set-callback-in-aspose-words-java-detect-and-handle-m/
 ---
 
@@ -52,7 +52,7 @@ url: /java/document-loading-and-saving/how-to-set-callback-in-aspose-words-java-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Set a Callback in Aspose.Words for Java – Detect and Handle Missing Fonts
+# Set IWarningCallback in Aspose.Words for Java – Detect and Handle Missing Fonts
 
 Ever wondered **how to set callback** in Aspose.Words Java so you can spot missing fonts before they ruin your PDF or DOCX? You're not the only one. Missing font warnings can silently corrupt layout, and without a proper warning callback you might never notice until the final document looks off.  
 
@@ -87,7 +87,7 @@ The **warning callback** is Aspose.Words’ way of shouting at you when somethin
 
 ---
 
-## Step 2: create a loadOptions instance
+## Step 2: create a LoadOptions instance
 
 `LoadOptions` is the entry point for customizing document loading. You’ll attach the callback to this object before you actually load the file.
 
@@ -250,6 +250,61 @@ Negligible. The callback runs synchronously during loading, and the extra checks
 
 ---
 
+## Handling multiple missing fonts in batch processing
+
+When processing a large batch of documents, you often need a consolidated report of all missing fonts rather than per‑file console output. The following pattern collects warnings in a thread‑safe list and writes a CSV summary after the batch completes:
+
+```java
+import java.util.Collections;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.concurrent.ConcurrentLinkedQueue;
+
+// Thread‑safe collection for warnings
+ConcurrentLinkedQueue<String> missingFontLog = new ConcurrentLinkedQueue<>();
+
+// Shared LoadOptions for the batch
+LoadOptions batchOptions = new LoadOptions();
+batchOptions.setWarningCallback(new IWarningCallback() {
+    @Override
+    public void warning(WarningInfo info) {
+        if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
+            missingFontLog.add(info.getDescription());
+        }
+    }
+});
+
+String[] files = {"doc1.docx", "doc2.docx", "doc3.docx"};
+for (String path : files) {
+    try {
+        Document doc = new Document(path, batchOptions);
+        // Optional: further processing per document
+    } catch (Exception e) {
+        System.err.println("Failed to load " + path + ": " + e.getMessage());
+    }
+}
+
+// Write CSV report
+try (java.io.PrintWriter writer = new java.io.PrintWriter("missing-fonts-report.csv")) {
+    writer.println("Document,Missing Font,Substituted With");
+    for (String desc : missingFontLog) {
+        // Example description: "Font substitution: The font \"MyCustomFont\" was not found. Substituted with \"Arial\"."
+        writer.println(String.format("%s,%s", path, desc.replaceAll("\"", "")));
+    }
+}
+System.out.println("Batch processing complete. Report saved to missing-fonts-report.csv");
+```
+
+Key points:
+
+* **Concurrent collection** – safe if you later parallelize the loop.
+* **Single LoadOptions instance** – re‑using the same callback avoids redundant object creation.
+* **CSV output** – easy to import into Excel or a monitoring system.
+
+With this approach you can audit font usage across hundreds of files, enforce corporate font policies, and automatically trigger remediation workflows.
+
+---
+
 ## Visual Overview
 
 ![how to set callback example in Aspose.Words Java](https://example.com/images/callback-diagram.png "how to set callback")
@@ -273,10 +328,6 @@ Armed with this knowledge, you can now safeguard your document pipelines against
 Feel free to experiment, and let us know how you customized the callback for your own projects. Happy coding!
 
 ---
-
-<!-- TODO: Add a section on handling multiple missing fonts in batch processing -->
-
-**TODO: Add a section on handling multiple missing fonts in batch processing.**
 
 ## What should you learn next?
 

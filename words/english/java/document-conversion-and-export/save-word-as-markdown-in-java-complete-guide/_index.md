@@ -49,7 +49,7 @@ tags:
 - Aspose.Words
 - Java
 - Markdown
-title: Convert and Save Word as Markdown with Aspose.Words in Java – Complete Guide
+title: Convert and Save Word as Markdown with Aspose.Words in Java – Export Images – Complete Guide
 url: /java/document-conversion-and-export/save-word-as-markdown-in-java-complete-guide/
 ---
 

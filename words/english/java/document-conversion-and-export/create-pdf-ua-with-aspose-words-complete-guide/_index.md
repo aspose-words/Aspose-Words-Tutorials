@@ -23,7 +23,7 @@ tags:
 - PDF/UA
 - C#
 - Document Conversion
-title: Convert DOCX to PDF/UA with Aspose.Words – Complete Guide
+title: Convert DOCX to PDF/UA with Aspose.Words API – Complete Guide
 url: /java/document-conversion-and-export/create-pdf-ua-with-aspose-words-complete-guide/
 ---
 
@@ -31,7 +31,7 @@ url: /java/document-conversion-and-export/create-pdf-ua-with-aspose-words-comple
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Convert DOCX to PDF/UA with Aspose.Words – Complete Guide
+# Convert DOCX to PDF/UA with Aspose.Words API – Complete Guide
 
 Ever wondered how to **create PDF UA** files from Word documents using Aspose.Words? In this guide we'll walk you through the exact steps to **convert docx to pdf** while guaranteeing the result meets PDF/UA 2 accessibility standards.  
 
