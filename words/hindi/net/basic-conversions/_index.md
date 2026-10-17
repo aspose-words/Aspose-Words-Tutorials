@@ -61,6 +61,7 @@
 | [Aspose.Words के साथ Word को PDF के रूप में सहेजें – चरण‑दर‑चरण गाइड](./save-word-as-pdf-with-aspose-words-step-by-step-guide/) | Aspose.Words का उपयोग करके Word फ़ाइल को PDF में बदलने की चरण‑दर‑चरण गाइड। |
 | [एक्सेसिबल PDF बनाएं – Word को PDF में बदलें](./create-accessible-pdf-convert-word-to-pdf/) | Aspose.Words for .NET का उपयोग करके Word फ़ाइल को एक्सेसिबल PDF में बदलने की चरण‑दर‑स्टेप गाइड। |
 | [C# में DOCX को PDF में बदलें – चरण‑दर‑स्टेप गाइड](./convert-docx-to-pdf-in-c-step-by-step-guide/) | C# में Aspose.Words का उपयोग करके DOCX को PDF में बदलने की विस्तृत चरण‑दर‑स्टेप मार्गदर्शिका। |
+| [C# में Word से PDF बनाना – चरण‑दर‑चरण गाइड](./how-to-create-pdf-from-word-in-c-step-by-step-guide/) | C# में Aspose.Words का उपयोग करके Word से PDF बनाने की विस्तृत चरण‑दर‑चरण गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

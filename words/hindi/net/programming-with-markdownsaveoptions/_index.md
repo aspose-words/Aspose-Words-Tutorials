@@ -83,6 +83,8 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [Aspose.Words के साथ DOCX को Markdown में बदलें – पूर्ण C# गाइड](./convert-docx-to-markdown-with-aspose-words-full-c-guide/) | Aspose.Words का उपयोग करके DOCX को Markdown में बदलने की पूरी C# गाइड |
 | [Word को Markdown के रूप में सहेजें – Word को Markdown में बदलने और छवियों को निकालने की पूरी गाइड](./save-word-as-markdown-complete-guide-to-convert-word-to-mark/) | Word को Markdown में बदलने और छवियों को निकालने की पूरी गाइड। |
 | [Aspose.Words के साथ DOCX को Markdown के रूप में सहेजें – पूर्ण C# गाइड](./save-docx-as-markdown-with-aspose-words-complete-c-guide/) | Aspose.Words का उपयोग करके C# में DOCX को Markdown में बदलने की पूरी गाइड। |
+| [DOCX को Markdown में सहेजें – खाली पैराग्राफ़ों के साथ पूर्ण गाइड](./save-docx-as-markdown-complete-guide-with-empty-paragraphs/) | खाली पैराग्राफ़ों को बनाए रखते हुए DOCX को Markdown में सहेजने की पूरी गाइड। |
+| [लिंक निर्यात कैसे करें: C# में DOCX को मार्कडाउन में परिवर्तित करें](./how-to-export-links-convert-docx-to-markdown-in-c/) | C# में Aspose.Words का उपयोग करके DOCX फ़ाइलों को लिंक सहित मार्कडाउन में निर्यात करने की चरण‑दर‑चरण गाइड। |
 
 | [Word को Markdown में बदलें – इमेज एक्सट्रैक्शन के साथ पूर्ण गाइड](./convert-word-to-markdown-full-guide-with-image-extraction/) | इमेज एक्सट्रैक्शन के साथ Word को Markdown में बदलने की पूरी गाइड। C# में चरण‑दर‑स्टेप प्रक्रिया। |
 | [docx को markdown में बदलें – लाइन‑ब्रेक संरक्षण के साथ पूर्ण गाइड](./convert-docx-to-markdown-complete-guide-with-line-break-pres/) | docx फ़ाइल को markdown में बदलते समय लाइन‑ब्रेक को संरक्षित रखने का पूर्ण चरण‑दर‑स्टेप गाइड। |

@@ -60,6 +60,7 @@ Grundläggande konverteringar guidar dig genom grundläggande dokumentkonverteri
 | [Word till PDF‑handledning: Konvertera DOCX till PDF med Aspose.Words](./word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/) | Lär dig hur du konverterar DOCX-filer till PDF med Aspose.Words i en steg‑för‑steg‑guide. |
 | [Spara Word som PDF med Aspose.Words – Steg‑för‑steg‑guide](./save-word-as-pdf-with-aspose-words-step-by-step-guide/) | Lär dig hur du sparar Word-dokument som PDF med Aspose.Words. Steg‑för‑steg‑guide med kodexempel. |
 | [Konvertera DOCX till PDF i C# – Steg‑för‑steg‑guide](./convert-docx-to-pdf-in-c-step-by-step-guide/) | Lär dig hur du konverterar DOCX till PDF i C# med Aspose.Words. Steg‑för‑steg‑guide med kodexempel. |
+| [Hur man skapar PDF från Word i C# – Steg‑för‑steg‑guide](./how-to-create-pdf-from-word-in-c-step-by-step-guide/) | Lär dig hur du skapar PDF från ett Word-dokument i C# med Aspose.Words i en detaljerad steg‑för‑steg‑guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

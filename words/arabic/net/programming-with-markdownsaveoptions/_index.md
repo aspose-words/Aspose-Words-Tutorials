@@ -142,6 +142,10 @@
 
 ### [حفظ DOCX كـ Markdown باستخدام Aspose.Words – دليل C# كامل](./save-docx-as-markdown-with-aspose-words-complete-c-guide/)
 
+### [حفظ docx كـ markdown – دليل كامل مع فقرات فارغة](./save-docx-as-markdown-complete-guide-with-empty-paragraphs/)
+
+### [كيفية تصدير الروابط: تحويل DOCX إلى Markdown في C#](./how-to-export-links-convert-docx-to-markdown-in-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

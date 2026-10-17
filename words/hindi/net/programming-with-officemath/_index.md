@@ -28,6 +28,7 @@ OfficeMath के साथ वर्ड प्रोसेसिंग पर A
 | [Word में समीकरणों को LaTeX में बदलें – TXT के रूप में सहेजें](./how-to-convert-equations-in-word-to-latex-save-as-txt/) | Word दस्तावेज़ में समीकरणों को LaTeX में बदलें और TXT फ़ाइल के रूप में सहेजें। चरण-दर-चरण मार्गदर्शिका। |
 | [docx को txt के रूप में सहेजें – Word गणित को LaTeX के रूप में निर्यात करने के लिए पूर्ण C# गाइड](./save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/) | C# में Aspose.Words का उपयोग करके docx फ़ाइल को txt में बदलें और Word गणित को LaTeX में निर्यात करने की पूरी प्रक्रिया सीखें। |
 | [Word को LaTeX में बदलें – Office Math को LaTeX के रूप में निर्यात करने के लिए पूर्ण C# गाइड](./convert-word-to-latex-complete-c-guide-to-export-office-math/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ों से Office Math को LaTeX फ़ॉर्मेट में निर्यात करने की पूरी प्रक्रिया सीखें। |
+| [docx को txt के रूप में सहेजें – C# में Word Math को LaTeX में निर्यात करें](./save-docx-as-txt-export-word-math-to-latex-in-c/) | C# में Aspose.Words का उपयोग करके DOCX को TXT में बदलें और Word Math को LaTeX में निर्यात करना सीखें। |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

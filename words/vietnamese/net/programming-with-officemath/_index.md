@@ -28,6 +28,7 @@ Hướng dẫn Aspose.Words for .NET về Xử lý Words với OfficeMath sẽ h
 | [Cách chuyển đổi phương trình trong Word sang LaTeX – Lưu dưới dạng TXT](./how-to-convert-equations-in-word-to-latex-save-as-txt/) | Hướng dẫn chuyển các phương trình trong tài liệu Word sang định dạng LaTeX và lưu dưới dạng tệp TXT bằng Aspose.Words cho .NET. |
 | [Lưu docx thành txt – Hướng dẫn C# đầy đủ để xuất toán học Word dưới dạng LaTeX](./save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang tệp txt và xuất các công thức toán học dưới dạng LaTeX bằng C#. |
 | [Chuyển đổi Word sang LaTeX – Hướng dẫn C# đầy đủ để xuất Office Math dưới dạng LaTeX](./convert-word-to-latex-complete-c-guide-to-export-office-math/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang LaTeX, bao gồm xuất các công thức Office Math bằng C#. |
+| [Lưu docx thành txt – Xuất Word Math sang LaTeX trong C#](./save-docx-as-txt-export-word-math-to-latex-in-c/) | Hướng dẫn lưu tài liệu docx thành tệp txt và xuất công thức Word Math sang LaTeX bằng C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

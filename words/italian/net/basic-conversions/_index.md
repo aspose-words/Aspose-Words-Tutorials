@@ -60,6 +60,7 @@
 | [Tutorial docx to pdf – Converti Word in PDF con C#](./docx-to-pdf-tutorial-convert-word-to-pdf-in-c/) | Scopri come convertire documenti DOCX in PDF con C# usando Aspose.Words per .NET. Guida passo passo con esempi di codice. |
 | [Come salvare docx come txt – converti docx, estrai LaTeX](./how-to-save-docx-as-txt-convert-docx-extract-latex/) | Scopri come salvare un file DOCX in TXT ed estrarre contenuti LaTeX usando Aspose.Words per .NET. |
 | [Come creare PDF da DOCX in C# – Guida passo‑passo](./how-to-create-pdf-from-docx-in-c-step-by-step-guide/) | Scopri come convertire DOCX in PDF usando C# e Aspose.Words con esempi di codice dettagliati. |
+| [Come creare PDF da Word in C# – Guida passo‑passo](./how-to-create-pdf-from-word-in-c-step-by-step-guide/) | Impara a generare PDF da documenti Word in C# con Aspose.Words, seguendo una guida dettagliata passo‑passo con esempi di codice. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
