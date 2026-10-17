@@ -43,7 +43,7 @@ tags:
 - Aspose.Words
 - Java
 - Document Conversion
-title: Convert DOCX to TXT and Export Word Math to LaTeX with Aspose.Words for Java – Full Tutorial
+title: Convert DOCX to TXT and Export Word Math to LaTeX using Aspose.Words for Java API – Full Tutorial
 url: /java/document-conversion-and-export/convert-docx-to-txt-and-export-word-math-latex-complete-guid/
 ---
 
@@ -51,7 +51,7 @@ url: /java/document-conversion-and-export/convert-docx-to-txt-and-export-word-ma
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# convert docx to txt and export word math latex – Full Tutorial
+# Convert DOCX to TXT and Export Word Math to LaTeX using Aspose.Words for Java API – Full Tutorial
 
 Ever wondered how to **convert docx to txt** while preserving those tricky Office Math equations as LaTeX? You're not alone. Many developers hit a wall when the plain‑text output drops the math entirely, leaving you with gibberish or empty spaces.  
 
@@ -290,7 +290,7 @@ The following tutorials cover closely related topics that build on the technique
 - [How to Export LaTeX from Word: Convert DOCX to Markdown & Save as PDF]({{< relref "how-to-export-latex-from-word-convert-docx-to-markdown-save/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

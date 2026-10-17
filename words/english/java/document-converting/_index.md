@@ -1,5 +1,5 @@
 ---
-title: Convert Word to PDF using Aspose.Words for Java API
+title: Convert Word Documents to PDF with Aspose.Words for Java Document Conversion API
 linktitle: Document Converting
 second_title: Aspose.Words Java Document Processing API
 description: Streamline converting Word to PDF in Java with Aspose.Words! Learn comprehensive guides for document converting, export documents to PDF, and more.

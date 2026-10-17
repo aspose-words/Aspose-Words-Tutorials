@@ -53,7 +53,7 @@ tags:
 - Aspose.Words
 - Java
 - Document Conversion
-title: How to Convert DOCX to Markdown with Java using Aspose.Words – Complete Programming Guide
+title: Convert DOCX to Markdown with Java using Aspose.Words – Complete Programming Guide
 url: /java/document-conversion-and-export/convert-docx-to-markdown-with-java-complete-programming-guid/
 ---
 
@@ -242,12 +242,12 @@ Happy coding, and may your documentation always stay crisp, clean, and fully ver
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Embed Images in Markdown When Converting DOCX](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
-- [How to Rename Images When Converting DOCX to Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
-- [How to Export Markdown from DOCX – Complete Guide](/words/english/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/)
+- [Embed Images in Markdown When Converting DOCX]({{< relref "/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/" >}})
+- [Rename Images When Converting DOCX to Markdown]({{< relref "/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/" >}})
+- [Export Markdown from DOCX – Complete Guide]({{< relref "/words/english/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-guide/" >}})
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

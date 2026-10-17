@@ -37,7 +37,7 @@ tags:
 - Aspose.Words
 - Java
 - Font Substitution
-title: How to Capture Fonts and Handle Warnings in Aspose.Words for Java – Full Guide
+title: Learn to Capture Fonts and Handle Warnings in Aspose.Words for Java – Full Guide
 url: /java/document-rendering/how-to-handle-warnings-in-aspose-words-for-java-full-guide/
 ---
 
@@ -282,9 +282,9 @@ Next steps? Try pairing this approach with Aspose.PDF to verify that the embedde
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Capture Font Substitution Warnings in Java with Aspose.Words – Complete Guide](words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/)
-- [How to Detect Fonts in Aspose.Words – Handle Warnings & Settings](words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings/)
-- [How to Capture Fonts in Aspose.Words – Complete Guide](words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide/)
+- {{< relref "words/english/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words" >}}Capture Font Substitution Warnings in Java with Aspose.Words – Complete Guide{{< /relref >}}
+- {{< relref "words/english/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-handle-warnings-settings" >}}How to Detect Fonts in Aspose.Words – Handle Warnings & Settings{{< /relref >}}
+- {{< relref "words/english/net/working-with-fonts/how-to-capture-fonts-in-aspose-words-complete-guide" >}}How to Capture Fonts in Aspose.Words – Complete Guide{{< /relref >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

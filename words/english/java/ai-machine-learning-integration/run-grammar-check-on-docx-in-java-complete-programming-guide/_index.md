@@ -24,7 +24,7 @@ tags:
 - Java
 - AI
 - Document Processing
-title: Run Grammar Check on DOCX in Java with Aspose.Words – Complete Programming Guide
+title: Run Grammar Check on DOCX in Java with Aspose.Words API – Complete Programming Guide
 url: /java/ai-machine-learning-integration/run-grammar-check-on-docx-in-java-complete-programming-guide/
 ---
 
@@ -255,9 +255,9 @@ Now that you can **run grammar check** and **get revised text**, consider these 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Extract Text Using Aspose.Words for Java](/words/english/java/document-manipulation/extracting-content-from-documents/)
-- [How to create plain text file with Aspose.Words for Java](/words/english/java/document-loading-and-saving/saving-documents-as-text-files/)
-- [How to Convert DOCX to PNG in Java – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
+- [How to Extract Text Using Aspose.Words for Java]({{< relref "words/english/java/document-manipulation/extracting-content-from-documents/_index.md" >}})
+- [How to create plain text file with Aspose.Words for Java]({{< relref "words/english/java/document-loading-and-saving/saving-documents-as-text-files/_index.md" >}})
+- [How to Convert DOCX to PNG in Java – Aspose.Words]({{< relref "words/english/java/document-converting/converting-documents-images/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

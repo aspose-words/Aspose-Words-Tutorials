@@ -54,7 +54,7 @@ tags:
 - java
 - gemini
 - ai
-title: Translate DOCX to Spanish with Gemini API – Complete Java Guide
+title: How to Use Gemini API to Translate DOCX to Spanish – Complete Java Guide
 url: /java/ai-machine-learning-integration/how-to-use-gemini-for-translating-docx-to-spanish-complete-j/
 ---
 
@@ -62,7 +62,7 @@ url: /java/ai-machine-learning-integration/how-to-use-gemini-for-translating-doc
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Translate DOCX to Spanish with Gemini API – Complete Java Guide
+# How to Use Gemini API to Translate DOCX to Spanish – Complete Java Guide
 
 Ever wondered **how to use Gemini** to turn a Word document into flawless Spanish? You’re not the only one—developers constantly hit the wall when they need to translate a `.docx` without losing formatting. The good news? With a few lines of Java and the right AI options, you can automate the whole process.
 
@@ -277,9 +277,9 @@ Give it a try, tweak the options, and let Gemini do the heavy lifting. Happy cod
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Load HTML and Save as DOCX using Aspose.Words for Java](/words/english/java/document-loading-and-saving/loading-and-saving-html-documents/)
-- [How to Convert DOCX to PNG in Java – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
-- [How to Merge Multiple DOCX Files Using Aspose.Words for Java](/words/english/java/document-merging/using-document-merging/)
+- [How to Load HTML and Save as DOCX using Aspose.Words for Java]({{< relref "words/english/java/document-loading-and-saving/loading-and-saving-html-documents/_index.md" >}})  
+- [How to Convert DOCX to PNG in Java – Aspose.Words]({{< relref "words/english/java/document-converting/converting-documents-images/_index.md" >}})  
+- [How to Merge Multiple DOCX Files Using Aspose.Words for Java]({{< relref "words/english/java/document-merging/using-document-merging/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
