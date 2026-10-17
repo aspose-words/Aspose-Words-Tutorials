@@ -20,6 +20,15 @@
 
  ## チュートリアル
 タイトル | 説明 |
+
+{{< tutorial-card link="./add-hyperlink-comment/" title="Aspose.Words for .NET を使用してハイパーリンク付きコメントを追加し、PDF アノテーションとしてエクスポートする" imgSrc="./add-hyperlink-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-comment/" title="Aspose.Words for .NET を使用して、Word ドキュメントの特定の段落に Comment を挿入する" imgSrc="./add-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./style-comment-text/" title="Aspose.Words for .NET を使用して、Word ドキュメントのコメントテキストにカスタムスタイルを適用する" imgSrc="./style-comment-text/images/thumb.png" >}}
+
+
+
 | --- | --- |
 | [コメントを追加](./add-comments/) Aspose.Words for .NET を使ってWord文書にコメントを追加する方法をガイドで学びましょう。ドキュメントの共同作業プロセスを簡単に強化できます。 |
 | [アンカーコメント](./anchor-comment/) Aspose.Words for .NET を使用して Word 文書にアンカーコメントを追加する方法を学びましょう。効率的なドキュメント共同作業のためのステップバイステップガイドをご覧ください。 |

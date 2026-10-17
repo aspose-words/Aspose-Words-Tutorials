@@ -1,25 +1,25 @@
 ---
 category: general
-date: 2026-04-07
-description: Hozzon létre akadálymentes PDF-et egy DOCX fájlból C#-ban. Tanulja meg,
-  hogyan konvertálja a Word-et PDF-be, mentse a docx-et PDF-ként, és biztosítsa a
-  PDF/UA megfelelőséget.
+date: 2026-03-21
+description: Készítsen hozzáférhető PDF-et egy Word-dokumentumból az Aspose.Words
+  segítségével. Konvertálja a Word-et PDF-re, exportálja a dokumentumot PDF formátumba,
+  és tanulja meg, hogyan teheti a PDF-et hozzáférhetővé.
 draft: false
 keywords:
 - create accessible pdf
 - convert word to pdf
-- save docx as pdf
-- export docx to pdf
-- save document as pdf
+- export document as pdf
+- convert docx to pdf
+- how to make pdf accessible
 language: hu
-og_description: Készítsen hozzáférhető PDF-et Wordből C#-ban. Ez az útmutató bemutatja,
-  hogyan konvertálja a Word dokumentumot PDF-be, hogyan mentse a docx fájlt PDF-ként,
-  és hogyan feleljen meg a PDF/UA szabványoknak.
-og_title: Akadálymentes PDF létrehozása – Teljes C# oktatóanyag
+og_description: Készítsen hozzáférhető PDF-et egy Word-fájlból percek alatt. Kövesse
+  ezt az útmutatót a docx PDF-re konvertálásához, és biztosítsa a PDF/UA‑1 megfelelőséget.
+og_title: Akadálymentes PDF létrehozása Wordből – Teljes útmutató
 tags:
 - Aspose.Words
 - PDF accessibility
 - C#
+- Document conversion
 title: Akadálymentes PDF létrehozása Wordből – Lépésről lépésre útmutató
 url: /hu/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-step-by-step-guide/
 ---
@@ -28,117 +28,148 @@ url: /hu/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-ste
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hozzon létre akadálymentes PDF-et Wordből – Teljes programozási útmutató
+# Hozzon létre akadálymentes PDF-et Word-ből – Lépésről‑lépésre útmutató
 
-Valaha szüksége volt **akadálymentes PDF** létrehozására egy Word dokumentumból, de nem tudta, mely beállításokat kell módosítani? Nem egyedül van. Sok vállalatnál a PDF/UA (Universal Accessibility) megfelelés szigorú követelmény, és a szokásos „convert‑to‑PDF” gomb egyszerűen nem elegendő.  
+Valaha is szükséged volt **akadálymentes PDF** fájlok létrehozására közvetlenül egy Word dokumentumból, de nem tudtad, hol kezdj? Nem vagy egyedül – sok fejlesztő ütközik ugyanabba a falba, amikor a hozzáférhetőségi szabályozások megjelennek egy projekt ellenőrzőlistáján. A jó hír? Néhány C# és az Aspose.Words sorával *.docx*-et konvertálhatsz PDF‑be, amely megfelel a PDF/UA‑1 szabványoknak, és megtanulod, **hogyan tegyük a PDF-et hozzáférhetővé** a képernyőolvasó felhasználók számára.
 
-Ebben az útmutatóban egy tömör, vég‑től‑végig megoldáson megyünk végig, amely **Word‑ot PDF‑re konvertál**, **docx‑et PDF‑ként ment**, és garantálja, hogy a kimenet megfeleljen az akadálymentességi szabványoknak. Nincsenek homályos hivatkozások – csak a másolható‑beilleszthető kód, valamint a „miért” minden egyes sor mögött.
+Ebben az útmutatóban végigvezetünk a teljes folyamaton: egy *.docx* betöltése, a megfelelő mentési beállítások konfigurálása, és végül a dokumentum exportálása PDF‑ként, amely készen áll a megfelelőségi ellenőrzésekre. A végére képes leszel **convert word to pdf**, **export document as pdf** műveletekre, és magabiztosan tudhatod, hogy a kimenet tiszteletben tartja a hozzáférhetőségi legjobb gyakorlatokat. Nincs szükség külső eszközökre, nincs kézi címkézés – csak tiszta, programozott kód.
 
-> **TL;DR:** Töltsön be egy `.docx` fájlt, állítsa be a `PdfSaveOptions.Compliance` értékét `PdfUa1`‑re (vagy `PdfUa2`‑ra), és hívja meg a `Document.Save` metódust. Ennyi a **akadálymentes PDF** létrehozásához az Aspose.Words for .NET‑el.
+## Előfeltételek
 
----
+| Követelmény | Indok |
+|-------------|--------|
+| .NET 6.0 or later | .NET Standard 2.0+ támogatott az Aspose.Words által, a .NET 6 a jelenlegi LTS. |
+| Aspose.Words for .NET (NuGet package `Aspose.Words`) | `Document`, `PdfSaveOptions` és PDF/UA megfelelőségi funkciókat biztosít. |
+| A sample Word file (`input.docx`) | A forrás, amelyet konvertálni fogsz. |
+| Basic C# knowledge | Hasznos, de nem kötelező; a kód erősen kommentált. |
 
-## Mit fog megtanulni
+A könyvtár telepíthető a következővel:
 
-- Hogyan **konvertálja a Word‑ot PDF‑re**, miközben megőrzi a címsorokat, az alt‑szöveget és az olvasási sorrendet.  
-- A `PdfUa1` és `PdfUa2` közötti különbség, valamint mikor melyiket válassza.  
-- Hogyan **mentse a docx‑et PDF‑ként** néhány C# sorral.  
-- Gyakori buktatók (hiányzó betűkészletek, nem támogatott címkék) és gyors megoldások.  
-- Egy kész‑készlet kódminta, amelyet bármely .NET projektbe beilleszthet.
-
-### Előfeltételek
-
-- .NET 6 vagy újabb (a kód .NET Framework 4.7+‑on is működik).  
-- Aspose.Words for .NET telepítve NuGet‑en keresztül (`Install-Package Aspose.Words`).  
-- Egy Word fájl (`input.docx`), amely már megfelelő struktúrával rendelkezik (stílusok, alt‑szöveg a képekhez).  
-
-Ha még nem adta hozzá az Aspose.Words‑t, futtassa az alábbi parancsot a Package Manager Console‑ban:
-
-```powershell
-Install-Package Aspose.Words
+```bash
+dotnet add package Aspose.Words
 ```
 
-Ez az egyetlen külső függőség, amire szüksége van.
+> **Pro tipp:** Ha Visual Studio‑ban dolgozol, a NuGet Package Manager UI ugyanazt a feladatot néhány kattintással elvégzi.
 
 ---
 
-## Akadálymentes PDF létrehozása – Miért fontos az akadálymentesség
+## 1. lépés – Töltsd be a konvertálni kívánt Word dokumentumot
 
-Amikor egy PDF **PDF/UA**‑ként (Universal Accessibility) van megjelölve, a képernyőolvasók képesek navigálni a címsorok, táblázatok és űrlapmezők között, akárcsak az eredeti Word fájlban. Ez nem csak egy plusz funkció; sok kormány és vállalat a PDF/UA megfelelést jogi követelménynek tekinti.  
-
-A `Compliance` tulajdonság beállítása a `PdfSaveOptions`‑on azt mondja a könyvtárnak, hogy ágyazza be a szükséges címkéket, állítsa be a helyes dokumentumnyelvet, és adjon hozzá logikus olvasási sorrendet. Ennek a lépésnek a kihagyása „csak‑vizuális” PDF‑et eredményez, amely nem felel meg az akadálymentességi auditoknak.
-
----
-
-## Word konvertálása PDF‑re az Aspose.Words‑szal
-
-Az alábbi a legegyszerűbb módja annak, hogy **Word‑ot PDF‑re konvertáljon**, miközben a dokumentum akadálymentes marad.
+Az első dolog, amit teszünk, hogy beolvassuk a forrás `.docx`-et. Tekintsd a `Document`-et a hídnak a Word és minden más, az Aspose által támogatott formátum között.
 
 ```csharp
-using System;
 using Aspose.Words;
-using Aspose.Words.Saving;
 
-class Program
+// Step 1: Load the source document you want to export as PDF/UA‑1 compliant
+Document doc = new Document("YOUR_DIRECTORY/input.docx");
+
+// Quick sanity check – ensure the file was loaded
+if (doc == null)
 {
-    static void Main()
-    {
-        // 1️⃣ Load the source document (your .docx)
-        Document doc = new Document(@"C:\MyDocs\input.docx");
-
-        // 2️⃣ Configure PDF save options for accessibility compliance
-        PdfSaveOptions pdfOptions = new PdfSaveOptions
-        {
-            // PDF/UA 1.0 is widely supported; switch to PdfUa2 for newer features
-            Compliance = PdfCompliance.PdfUa1
-        };
-
-        // 3️⃣ Save the document as an accessible PDF
-        doc.Save(@"C:\MyDocs\Compliant.pdf", pdfOptions);
-
-        Console.WriteLine("✅ Accessible PDF created at C:\\MyDocs\\Compliant.pdf");
-    }
+    throw new InvalidOperationException("Failed to load the Word document.");
 }
 ```
 
-**Mi történik itt?**  
-
-- `Document` beolvassa a Word fájlt, megőrizve minden stílust és struktúrát.  
-- `PdfSaveOptions.Compliance` azt mondja az Aspose.Words‑nek, hogy a kimenetet PDF/UA‑ként címkézze.  
-- `doc.Save` a PDF‑et a lemezre írja, automatikusan beágyazva a címkéket.
-
-> **Pro tipp:** Ha a forrás Word fájl egyedi címsor‑stílusokat használ, győződjön meg róla, hogy ezek a beépített címsor‑szintekhez (`Heading1`, `Heading2`, …) vannak leképezve. Ez biztosítja, hogy a generált PDF megfelelő címsor‑címkéket kapjon.
+> **Miért fontos:** A fájl korai betöltése lehetővé teszi a tulajdonságok (oldalszám, szakaszok stb.) ellenőrzését, mielőtt az export beállításait meghoznád. Emellett felszínre hozza a sérülési problémákat, mielőtt időt vesztegetnél a konvertálással.
 
 ---
 
-## Docx mentése PDF‑ként – PDF/UA megfelelőség beállítása
+## 2. lépés – PDF mentési beállítások konfigurálása a hozzáférhetőséghez
 
-Ha már ismeri a `PdfSaveOptions` osztályt, kíváncsi lehet, vannak-e más kapcsolók, amelyek befolyásolják az akadálymentességet. Néhány hasznos tulajdonság:
-
-| Tulajdonság | Hatás az akadálymentességre | Tipikus érték |
-|------------|----------------------------|---------------|
-| `Compliance` | Bekapcsolja vagy kikapcsolja a PDF/UA címkézést | `PdfCompliance.PdfUa1` vagy `PdfUa2` |
-| `EmbedFullFonts` | Biztosítja, hogy az olvasók a tervezett tipográfiát lássák | `true` (alapértelmezett) |
-| `OptimizeOutput` | Csökkenti a fájlméretet a címkék eltávolítása nélkül | `true` |
-
-Kiterjesztheti az előző kódrészletet így:
+Az Aspose.Words a PDF/UA megfelelőséget egyetlen tulajdonság módosításával teszi lehetővé. A `Compliance = PdfCompliance.PdfUAX` beállítása automatikusan címkézi a struktúrákat (címek, táblázatok, listák) és a vízszintes vonalakat *műtárgyak*‑ként kezeli – pontosan azt, amit a hozzáférhetőségi ellenőrzők elvárnak.
 
 ```csharp
-PdfSaveOptions pdfOptions = new PdfSaveOptions
+using Aspose.Words.Saving;
+
+// Step 2: Configure PDF save options for accessibility compliance
+PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
 {
-    Compliance = PdfCompliance.PdfUa2, // newer PDF/UA version
+    // PDF/UA‑1 compliance automatically tags horizontal rules as artifacts.
+    // Use PdfUAX2 for the newer PDF/UA‑2 standard if required.
+    Compliance = PdfCompliance.PdfUAX,
+
+    // Optional: embed the original font to avoid substitution issues
     EmbedFullFonts = true,
-    OptimizeOutput = true
+
+    // Optional: set a custom title for the PDF metadata
+    Title = "Accessible PDF generated from input.docx"
 };
 ```
 
-A `PdfUa2`‑re váltás újabb PDF/UA funkciókat támogat, például a *artifact* címkézést a díszítő képekhez. Ha ezekre nincs szüksége, maradjon a `PdfUa1`‑nél a régebbi segédeszközökkel való maximális kompatibilitás érdekében.
+> **Miért fontos:** `PdfCompliance.PdfUAX` nélkül a létrehozott PDF hiányzik a strukturális címkékből, amelyekre a segítő technológiák támaszkodnak. Az `EmbedFullFonts` hozzáadása biztosítja, hogy a dokumentum minden eszközön ugyanúgy nézzen ki – további hozzáférhetőségi előny.
 
 ---
 
-## Docx exportálása PDF‑re – Teljes működő példa
+## 3. lépés – Dokumentum mentése akadálymentes PDF‑ként
 
-Az alábbi önálló konzolalkalmazás bemutatja a teljes folyamatot, a fájl betöltésétől a kimenet ellenőrzéséig.
+Most kiírjuk a fájlt. A `Save` metódus figyelembe veszi a most beállított opciókat, és olyan PDF-et hoz létre, amely átmegy a legtöbb automatikus hozzáférhetőségi vizsgálaton (pl. PAC 3, axe‑pdf).
+
+```csharp
+// Step 3: Save the document as a PDF with the accessibility options applied
+string outputPath = "YOUR_DIRECTORY/Accessible.pdf";
+doc.Save(outputPath, pdfSaveOptions);
+
+// Verify the file exists
+if (!System.IO.File.Exists(outputPath))
+{
+    throw new IOException("The PDF was not created successfully.");
+}
+```
+
+**Várt eredmény:** `Accessible.pdf` megjelenik a `YOUR_DIRECTORY`-ben. Nyisd meg az Adobe Acrobat‑ban → Tools → Accessibility → Full Check. **0 hibát** kell látnod a hiányzó címkék miatt, és a dokumentum *PDF/UA‑1 compliant*‑ként lesz jelölve.
+
+---
+
+## Gyakori variációk és szélsőséges esetek
+
+### Több fájl konvertálása ciklusban
+
+Ha egy mappában lévő Word fájlokat kell kötegelt feldolgozni, csomagold be a három lépést egy `foreach` ciklusba:
+
+```csharp
+string[] docxFiles = Directory.GetFiles("YOUR_DIRECTORY", "*.docx");
+foreach (var file in docxFiles)
+{
+    Document batchDoc = new Document(file);
+    string pdfName = Path.ChangeExtension(file, ".pdf");
+    batchDoc.Save(pdfName, pdfSaveOptions);
+}
+```
+
+### PDF/UA‑2 célzása a PDF/UA‑1 helyett
+
+Néhány szervezet áttért az újabb **PDF/UA‑2** szabványra. Cseréld ki a megfelelőségi enumot:
+
+```csharp
+pdfSaveOptions.Compliance = PdfCompliance.PdfUAX2;
+```
+
+### Egyedi címkék manuális hozzáadása
+
+Nagyon testreszabott struktúrák (pl. egyedi mérföldkövek) esetén a PDF címkefa fát a mentés után módosíthatod:
+
+```csharp
+// Not required for basic accessibility, but possible via Aspose.Pdf (separate library)
+```
+
+> **Megjegyzés:** A manuális címkézés egy haladó téma; a beépített megfelelőségi jelző 95 %-ban lefedi a mindennapi eseteket.
+
+---
+
+## Hozzáférhetőség ellenőrzése – Gyors ellenőrzőlista
+
+| Ellenőrzés | Hogyan ellenőrizhető |
+|-----------|----------------------|
+| **Címkézés** | Nyisd meg a PDF-et az Acrobatban → *Tags* panel; egy hierarchikus fát kell látnod (H1, H2, Table, Figure). |
+| **Műtárgyak** | A vízszintes vonalak az *Artifacts* alatt jelennek meg, nem a *Tags* alatt. |
+| **Olvasási sorrend** | Használd a *Reading Order* eszközt a logikus áramlás biztosításához. |
+| **Metaadatok** | A dokumentum címe, nyelve és a PDF/UA megfelelőségi jelző megtalálható a *File → Properties* alatt. |
+
+Ha bármelyik elem hiányzik, nézd át újra a `PdfSaveOptions` beállításokat, vagy fontold meg explicit címkék hozzáadását az Aspose.Pdf segítségével.
+
+---
+
+## Teljes működő példa (másolás‑beillesztés kész)
 
 ```csharp
 using System;
@@ -146,92 +177,59 @@ using System.IO;
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-namespace AccessiblePdfDemo
+class AccessiblePdfGenerator
 {
-    class Program
+    static void Main()
     {
-        static void Main()
+        // 1. Load the source .docx
+        string inputPath = "YOUR_DIRECTORY/input.docx";
+        Document doc = new Document(inputPath);
+
+        // 2. Set up PDF/UA‑1 compliance options
+        PdfSaveOptions options = new PdfSaveOptions
         {
-            // 👉 Define paths – adjust to your environment
-            string inputPath = Path.Combine(Environment.CurrentDirectory, "input.docx");
-            string outputPath = Path.Combine(Environment.CurrentDirectory, "Compliant.pdf");
+            Compliance = PdfCompliance.PdfUAX,
+            EmbedFullFonts = true,
+            Title = "Accessible PDF generated from input.docx"
+        };
 
-            // ✅ Validate that the source file exists
-            if (!File.Exists(inputPath))
-            {
-                Console.WriteLine($"❌ Input file not found: {inputPath}");
-                return;
-            }
+        // 3. Export as an accessible PDF
+        string outputPath = "YOUR_DIRECTORY/Accessible.pdf";
+        doc.Save(outputPath, options);
 
-            // 1️⃣ Load the DOCX – Aspose.Words parses styles, alt‑text, and tables
-            Document doc = new Document(inputPath);
-
-            // 2️⃣ Set up PDF/UA options – this is the heart of “create accessible pdf”
-            PdfSaveOptions options = new PdfSaveOptions
-            {
-                Compliance = PdfCompliance.PdfUa1, // or PdfUa2 for newer spec
-                EmbedFullFonts = true,
-                OptimizeOutput = true
-            };
-
-            // 3️⃣ Save as PDF – the library adds tags automatically
-            doc.Save(outputPath, options);
-
-            // 4️⃣ Quick verification – file size and existence
-            FileInfo info = new FileInfo(outputPath);
-            Console.WriteLine($"✅ PDF created: {outputPath} ({info.Length / 1024} KB)");
-
-            // 🎉 Optional: Open the PDF automatically (Windows only)
-            // System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo(outputPath) { UseShellExecute = true });
-        }
+        // 4. Simple verification message
+        Console.WriteLine($"Accessible PDF created at: {Path.GetFullPath(outputPath)}");
     }
 }
 ```
 
-### Várható eredmény
-
-- Egy **Compliant.pdf** nevű fájl jelenik meg ugyanabban a mappában, ahol a végrehajtható állomány található.  
-- A PDF megnyitása az Adobe Acrobat Pro‑ban → *Tools → Accessibility → Full Check* **Nincs akadálymentességi probléma** jelentést kell, hogy adjon (feltéve, hogy a forrás Word fájl jól strukturált volt).  
-- A PDF *Properties → Advanced* fülén **PDF/UA** jelenik meg a „PDF/A and PDF/UA compliance” szakasz alatt.
+Futtasd a programot (`dotnet run`), és lesz egy **create accessible pdf** készen a terjesztésre.
 
 ---
 
-## Gyakori szélhelyzetek és megoldások
+## Gyakran ismételt kérdések
 
-| Helyzet | Miért fontos | Gyors megoldás |
-|---------|--------------|----------------|
-| **Missing fonts** | A PDF alapértelmezett betűkészletre válthat, ami tönkreteszi a vizuális elrendezést. | Állítsa be az `EmbedFullFonts = true`‑t (már alapértelmezett) és győződjön meg róla, hogy a betűkészlet‑fájlok elérhetők a build gépen. |
-| **Images without alt‑text** | A képernyőolvasók csak „kép” szöveget olvasnak le leírás nélkül. | Adjon `Alt Text`‑et a Word‑ben (`Jobb‑klikk → Format Picture → Alt Text`) a konvertálás előtt. |
-| **Custom styles not recognized as headings** | A PDF/UA-nek megfelelő címsor‑címkék szükségesek. | Mapolja az egyedi stílusokat a beépített címsorokra a `doc.Styles["MyCustomHeading"].BaseStyleName = "Heading 1";` segítségével. |
-| **Large documents cause memory pressure** | Egy 500 oldalas fájl konvertálása jelentős RAM‑használatot eredményezhet. | Használja a `doc.Save(outputPath, options)`‑t `options.SaveFormat = SaveFormat.Pdf` beállítással, és fontolja meg a feldolgozást darabokban, ha `OutOfMemoryException`-t kap. |
-| **Need to export docx to pdf without accessibility** | Néha csak egy gyors vizuális PDF-re van szükség. | Hagyja ki a `Compliance` beállítást, vagy állítsa `PdfCompliance.Pdf15`‑re. |
+**K: Működik ez a .NET Framework 4.8‑al?**  
+A: Igen. Az Aspose.Words a .NET Standard 2.0‑t célozza, amely kompatibilis a .NET Framework 4.6.1+ verzióval.
 
----
+**K: Mi van, ha a Word dokumentumom képeket tartalmaz alt szöveggel?**  
+A: Az Aspose.Words automatikusan átviszi a képek `alt` attribútumait a PDF/UA címkékbe, megőrizve a hozzáférhetőséget.
 
-## Kép példa (Alt Text beágyazva)
+**K: Beállíthatom a PDF nyelvét (pl. `en‑US`)?**  
+A: Természetesen. Használd a `options.Language = "en-US";` beállítást a mentés előtt.
 
-![Screenshot showing the PDF/UA tag tree in Adobe Acrobat – demonstrates that we have successfully created accessible PDF](https://example.com/images/accessible-pdf-screenshot.png)
-
-*Az előző alt‑szöveg megerősíti a fő kulcsszót, és segít mind a felhasználóknak, mind az AI modelleknek megérteni a kép kontextusát.*
-
----
-
-## Gyakran Ismételt Kérdések
-
-**Q: Működik ez .NET Core‑dal?**  
-A: Teljesen. Az Aspose.Words platformfüggetlen; csak hivatkozzon a NuGet csomagra a .NET 6+ projektjében.
-
-**Q: Képes vagyok több DOCX fájlt egyszerre feldolgozni?**  
-A: Igen. Tegye a betöltési és mentési logikát egy `foreach (var file in Directory.GetFiles(folder, "*.docx"))` ciklusba. A teljesítmény érdekében használjon egyetlen `PdfSaveOptions` példányt újra és újra.
-
-**Q: Mi a teendő, ha egy egyedi PDF/UA címkét kell hozzáadni, amit az Aspose nem generál automatikusan?**  
-A: Használja az alacsony szintű PDF API‑t (`PdfSaveOptions.CustomProperties`), vagy utófeldolgozza a PDF‑et egy olyan könyvtárral, mint az iText 7, amely lehetővé teszi a manuális címke‑beszúrást.
+**K: Hogyan ellenőrizhetem a PDF/UA‑2 megfelelőséget?**  
+A: Cseréld a `Compliance = PdfCompliance.PdfUAX2` beállítást, és futtasd ugyanazt az Acrobat teljes ellenőrzést; az eszköz jelenteni fogja az újabb szabványt.
 
 ---
 
 ## Összegzés
 
-Ön
+Most már tudod, hogyan **hozz létre akadálymentes PDF** fájlokat Word‑ből az Aspose.Words segítségével, lefedve mindent a dokumentum betöltésétől, a PDF/UA‑1 megfelelőség beállításáig, a végső kimenet mentéséig. Ez a megoldás lehetővé teszi, hogy **convert word to pdf**, **export document as pdf**, és biztosítja, hogy a létrehozott fájl megfeleljen a hozzáférhetőségi szabványoknak – pontosan amire szükséged van, amikor a “**how to make pdf accessible**” kérdés felmerül egy kódfelülvizsgálat során.
+
+Készen állsz a következő kihívásra? Próbáld megadni a PDF/A‑2b megfelelőséget archiválási célokra, vagy kísérletezz a PDF jelszóval való védelmével, miközben a címkék érintetlenek maradnak. Ugyanaz a minta érvényes – csak cseréld ki a megfelelő `PdfSaveOptions` tulajdonságokra.
+
+Ha hasznosnak találtad ezt az útmutatót, adj egy csillagot, oszd meg a csapattagokkal, vagy hagyj egy megjegyzést a saját tippjeiddel. Boldog kódolást, és tedd a webet egyre hozzáférhetőbbé – egy PDF‑et egyszerre!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

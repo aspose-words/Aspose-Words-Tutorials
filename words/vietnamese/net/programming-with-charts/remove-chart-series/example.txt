@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Sử dụng Aspose.Words for .NET, hướng dẫn này tạo một Document, chèn biểu đồ cột bằng DocumentBuilder, xóa một series dữ liệu cụ thể khỏi biểu đồ bằng ChartSeriesCollection.RemoveAt, và lưu tài liệu đã sửa đổi.
+//ExStepSummary:0: Tạo một Word Document mới và một DocumentBuilder liên kết với nó.
+//ExStepSummary:1: Chèn một biểu đồ cột có kích thước 432×252 điểm và lấy đối tượng Chart để thao tác tiếp theo.
+//ExStepSummary:2: Xác định chỉ mục bắt đầu từ 0 của series cần xóa (series thứ hai).
+//ExStepSummary:3: Nếu chỉ mục hợp lệ, gọi RemoveAt trên bộ sưu tập Series của chart để xóa series đó.
+//ExStepSummary:4: Lưu tài liệu đã cập nhật thành file .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+int targetSeriesIdx = 1;
+
+//ExStep:3-
+if (targetSeriesIdx >= 0 && targetSeriesIdx < columnChart.Series.Count)
+{
+    columnChart.Series.RemoveAt(targetSeriesIdx);
+}
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutSeries.docx");
+//ExEnd

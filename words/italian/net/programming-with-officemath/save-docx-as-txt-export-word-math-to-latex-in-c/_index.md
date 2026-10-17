@@ -1,24 +1,25 @@
 ---
 category: general
-date: 2026-04-07
-description: Salva docx come txt rapidamente e impara come esportare la matematica
-  in LaTeX. Converti Word in txt, gestisci Office Math e mantieni intatte le equazioni.
+date: 2026-03-24
+description: Scopri come salvare i file docx in txt e convertire Word in LaTeX. Questa
+  guida mostra come esportare le equazioni matematiche in LaTeX usando Aspose.Words.
 draft: false
 keywords:
 - save docx as txt
-- convert word to txt
+- convert word to latex
 - how to export math
-- how to convert docx
-- how to save txt
+- save document as txt
+- export equations to latex
 language: it
-og_description: Salva docx come txt con esportazione di formule LaTeX. Un tutorial
-  passo‑passo in C# che mostra come convertire Word in txt e mantenere le equazioni.
-og_title: Salva docx come txt – Guida C# per esportare le equazioni di Word
+og_description: Salva docx come txt e converti Word in LaTeX. Guida passo‑passo su
+  come esportare le equazioni matematiche in LaTeX usando C#.
+og_title: Salva docx come txt – Esporta le equazioni di Word in LaTeX
 tags:
-- C#
 - Aspose.Words
-- DocumentConversion
-title: Salva docx come txt – Esporta la matematica di Word in LaTeX in C#
+- C#
+- LaTeX
+- Document Conversion
+title: Salva docx come txt – Esporta le equazioni Word in LaTeX in C#
 url: /it/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-latex-in-c/
 ---
 
@@ -26,133 +27,30 @@ url: /it/net/programming-with-officemath/save-docx-as-txt-export-word-math-to-la
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Salva docx come txt – Esporta la matematica di Word in LaTeX con C#
+# Salva docx come txt – Esporta Math di Word in LaTeX in C#
 
-Hai mai avuto bisogno di **salvare docx come txt** ma temuto che le tue equazioni si trasformassero in un caos di simboli? Non sei solo. Molti sviluppatori incontrano questo ostacolo quando provano a **convertire word in txt** per l'elaborazione successiva, soprattutto quando la sorgente contiene oggetti Office Math.
+Hai mai avuto bisogno di **salvare docx come txt** ma anche mantenere intatte quelle eleganti equazioni Office Math? Non sei l'unico. In molti progetti—articoli accademici, pipeline di report automatizzate o anteprime rapide—vorrai una versione in testo semplice di un file Word mantenendo la matematica in un formato comprensibile da LaTeX.
 
-La buona notizia? Con poche righe di C# e le opzioni di salvataggio corrette, puoi preservare ogni equazione come LaTeX pulito, rendendo il file di testo semplice sia leggibile dall'uomo sia pronto per pipeline scientifiche. In questo tutorial percorreremo l'intero processo, risponderemo a *come esportare la matematica* da un file Word e ti mostreremo *come convertire docx* senza perdere alcuna fedeltà matematica.
+La buona notizia è che Aspose.Words per .NET ti permette di fare esattamente questo con poche righe di C#. In questo tutorial vedremo come caricare un *.docx*, configurare le opzioni di salvataggio affinché la matematica venga esportata come LaTeX e, infine, scrivere il risultato in un file *.txt*. Alla fine saprai **come esportare la matematica** da Word, **convertire Word in LaTeX** e avrai un documento *txt* pronto all'uso per l'elaborazione successiva.
 
-## Cosa imparerai
-
-- Caricare un file `.docx` usando Aspose.Words (o qualsiasi libreria compatibile).
-- Configurare `TxtSaveOptions` affinché Office Math venga esportato come LaTeX.
-- Salvare il documento come file `.txt` che mantiene intatte le equazioni.
-- Suggerimenti per gestire casi particolari come equazioni nascoste o documenti di grandi dimensioni.
-- Un esempio di codice completo e eseguibile che puoi copiare‑incollare subito.
-
-Nessuno strumento di build complicato, solo un progetto .NET e il pacchetto NuGet Aspose.Words. Iniziamo.
-
----
+> **Cosa otterrai:** un esempio di codice completo e eseguibile, spiegazioni sul perché ogni impostazione è importante, consigli per i casi limite e un rapido passo di verifica così potrai essere sicuro che la conversione sia riuscita.
 
 ## Prerequisiti
 
-| Requisito | Perché è importante |
-|-------------|----------------|
-| .NET 6.0 o successivo | Funzionalità linguistiche moderne e migliori prestazioni. |
-| Aspose.Words for .NET (NuGet) | Fornisce `Document`, `TxtSaveOptions` e `OfficeMathExportMode`. |
-| Un file Word (`.docx`) che contiene equazioni | Per vedere l'esportazione LaTeX in azione. |
-| Conoscenze di base di C# | Seguirai il codice riga per riga. |
+Prima di immergerci, assicurati di avere:
 
-Se non hai ancora aggiunto Aspose.Words, esegui:
+- **Aspose.Words per .NET** (ultimo pacchetto NuGet al 2026‑03).  
+- Un ambiente di sviluppo .NET (Visual Studio, Rider o VS Code con l'estensione C#).  
+- Un documento Word (`input.docx`) che contenga almeno un oggetto Office Math (ad esempio un'equazione creata con l'editor di equazioni).  
+- Familiarità di base con la sintassi C#—nulla di speciale, solo le consuete istruzioni `using` e il metodo `Main`.
 
-```bash
-dotnet add package Aspose.Words
-```
+Se hai spuntato tutte queste caselle, cominciamo.
 
-Tutto qui—nessuna configurazione aggiuntiva necessaria.
+## Step 1: Carica il documento sorgente per **salvare docx come txt**
 
-## Passo 1: Caricare il file DOCX
-
-Per prima cosa, dobbiamo caricare il documento sorgente in memoria. Pensalo come aprire un libro prima di iniziare a leggerlo.
+La prima cosa di cui abbiamo bisogno è un oggetto `Document` che rappresenti il *.docx* che vogliamo convertire. Aspose.Words astrae il formato del file, così non devi preoccuparti dei dettagli sottostanti di OpenXML.
 
 ```csharp
-using Aspose.Words;
-
-// Step 1: Load the source document
-Document doc = new Document("YOUR_DIRECTORY/input.docx");
-```
-
-> **Consiglio professionale:** Usa un percorso assoluto durante i test per evitare sorprese del tipo “file non trovato”. In produzione probabilmente riceverai il percorso da un file di configurazione o da un upload dell'utente.
-
-## Passo 2: Configurare le opzioni di salvataggio TXT per l'esportazione della matematica
-
-Per impostazione predefinita, `TxtSaveOptions` genera solo testo semplice e rimuove Office Math. Non lo vogliamo. Impostare `OfficeMathExportMode` su `LaTeX` indica alla libreria di tradurre ogni equazione nella sua rappresentazione LaTeX.
-
-```csharp
-// Step 2: Create TXT save options and configure Office Math export to LaTeX
-TxtSaveOptions txtSaveOptions = new TxtSaveOptions
-{
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX
-};
-```
-
-### Perché LaTeX?
-
-LaTeX è la lingua franca della pubblicazione scientifica. Quando in seguito inserisci il `.txt` in un processore markdown, Jupyter notebook o qualsiasi strumento che supporta LaTeX, le equazioni vengono renderizzate perfettamente. Se preferisci invece simboli Unicode semplici, potresti passare a `OfficeMathExportMode.Unicode`, ma LaTeX ti offre il massimo controllo.
-
-## Passo 3: Salvare il documento come file di testo semplice
-
-Ora avviene la magia. Il metodo `Save` scrive il documento su disco usando le opzioni appena definite.
-
-```csharp
-// Step 3: Save the document as a plain‑text file using the configured options
-doc.Save("YOUR_DIRECTORY/Math.txt", txtSaveOptions);
-```
-
-Dopo l'esecuzione di questa riga, `Math.txt` conterrà:
-
-```
-This is a sample paragraph.
-
-Here is an equation in LaTeX:
-\[
-E = mc^{2}
-\]
-
-Another paragraph follows.
-```
-
-Nota come l'equazione appare all'interno di `\[` e `\]` — esattamente ciò che LaTeX si aspetta.
-
-## Come esportare la matematica da documenti complessi
-
-### Gestione di equazioni nascoste o in linea
-
-Alcuni file Word memorizzano le equazioni all'interno di riquadri di testo nascosti. Aspose.Words le tratta allo stesso modo delle equazioni visibili, quindi l'esportazione LaTeX funziona automaticamente. Tuttavia, se noti equazioni mancanti, verifica che l'oggetto `Document` non sia impostato per ignorare il contenuto nascosto:
-
-```csharp
-doc.RemoveHiddenParagraphs = false; // Ensure hidden text is processed
-```
-
-### Documenti di grandi dimensioni e utilizzo della memoria
-
-Salvare una tesi di 500 pagine può consumare molta RAM. Per mantenere basso l'impronta di memoria, puoi trasmettere in streaming l'output:
-
-```csharp
-using (FileStream stream = new FileStream("YOUR_DIRECTORY/Math.txt", FileMode.Create, FileAccess.Write))
-{
-    doc.Save(stream, txtSaveOptions);
-}
-```
-
-Lo streaming scrive blocchi su disco man mano che vengono generati, evitando che l'intero file risieda in memoria contemporaneamente.
-
-## Problemi comuni e come evitarli
-
-| Problema | Sintomo | Risoluzione |
-|---------|---------|-----|
-| Mancano le parentesi LaTeX | Le equazioni appaiono come codice grezzo (`E = mc^{2}`) | Assicurati che `OfficeMathExportMode = LaTeX`. |
-| File di output vuoto | Percorso errato o permessi insufficienti | Verifica che la directory di output esista e sia scrivibile. |
-| Caratteri corrotti | File codificato in UTF‑8 senza BOM su un sistema che si aspetta ANSI | Aggiungi `txtSaveOptions.Encoding = Encoding.UTF8;` |
-| Le equazioni scompaiono dopo la conversione | Documento caricato con `LoadOptions` che escludono la matematica | Usa `LoadOptions` predefinite o imposta `LoadOptions.LoadFormat = LoadFormat.Docx`. |
-
-## Esempio completo funzionante
-
-Di seguito trovi il programma completo che puoi compilare ed eseguire. Include la gestione degli errori, la validazione del percorso e un piccolo log della console così sai che tutto è riuscito.
-
-```csharp
-using System;
-using System.IO;
 using Aspose.Words;
 using Aspose.Words.Saving;
 
@@ -160,91 +58,108 @@ class Program
 {
     static void Main()
     {
-        // Paths – change these to match your environment
-        string inputPath  = @"YOUR_DIRECTORY\input.docx";
-        string outputPath = @"YOUR_DIRECTORY\Math.txt";
-
-        // Validate input
-        if (!File.Exists(inputPath))
-        {
-            Console.WriteLine($"❌ Input file not found: {inputPath}");
-            return;
-        }
-
-        try
-        {
-            // Load the source document
-            Document doc = new Document(inputPath);
-
-            // Configure TXT save options – export Office Math as LaTeX
-            TxtSaveOptions saveOptions = new TxtSaveOptions
-            {
-                OfficeMathExportMode = OfficeMathExportMode.LaTeX,
-                Encoding = System.Text.Encoding.UTF8   // ensures proper character handling
-            };
-
-            // Optional: keep hidden content
-            doc.RemoveHiddenParagraphs = false;
-
-            // Save as plain‑text
-            doc.Save(outputPath, saveOptions);
-
-            Console.WriteLine($"✅ Success! File saved to {outputPath}");
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"❗ An error occurred: {ex.Message}");
-        }
+        // Load the source document containing equations
+        Document doc = new Document("YOUR_DIRECTORY/input.docx");
+        // ... next steps will follow
     }
 }
 ```
 
-**Output previsto** (estratto da `Math.txt`):
+*Perché è importante:* il caricamento del documento ci dà accesso al suo albero di nodi, inclusi eventuali nodi `OfficeMath` che contengono le equazioni. Se il file non viene trovato, Aspose lancia una chiara `FileNotFoundException`, così saprai subito cosa è andato storto.
 
-```
-Linear regression model:
+## Step 2: Configura le opzioni di salvataggio TXT – **convertire Word in LaTeX**
 
-\[
-y = \beta_{0} + \beta_{1}x
-\]
-
-The residual sum of squares is:
-\[
-RSS = \sum_{i=1}^{n}(y_i - \hat{y}_i)^2
-\]
-```
-
-Ora puoi inserire questo file in qualsiasi processore che supporta LaTeX, e le equazioni verranno renderizzate splendidamente.
-
-## Come convertire DOCX in TXT senza perdere la formattazione
-
-Se ti serve solo testo semplice e non ti interessa la matematica, basta omettere la riga `OfficeMathExportMode`:
+Per impostazione predefinita, il salvataggio come testo semplice rimuoverebbe tutta la formattazione—compresa la matematica. La classe `TxtSaveOptions` ci consente di indicare alla libreria come gestire Office Math. Impostare `OfficeMathExportMode` su `LaTeX` converte ogni equazione nella sua rappresentazione LaTeX.
 
 ```csharp
-TxtSaveOptions txtOnly = new TxtSaveOptions(); // defaults to plain text
-doc.Save("plain.txt", txtOnly);
+// Step 2: Configure TXT save options to export Office Math as LaTeX
+TxtSaveOptions txtSaveOptions = new TxtSaveOptions
+{
+    // This flag makes every OfficeMath node become a LaTeX string.
+    OfficeMathExportMode = OfficeMathExportMode.LaTeX
+};
 ```
 
-Ma ricorda, **come esportare la matematica** è il fattore distintivo per i flussi di lavoro scientifici. Mantenere LaTeX intatto è ciò che rende la conversione davvero utile.
+*Perché è importante:* LaTeX è la lingua franca della pubblicazione scientifica. Esportando in LaTeX preserviamo la semantica dell'equazione invece di appiattirla in simboli illeggibili. Se ti serve un formato diverso (ad esempio MathML), puoi sostituire `OfficeMathExportMode.MathML` qui—un altro esempio di **come esportare la matematica** in modo che si adatti ai tuoi strumenti downstream.
 
-## Prossimi passi e argomenti correlati
+## Step 3: Salva il documento come file di testo semplice usando le opzioni configurate
 
-- **Conversione batch:** Avvolgi il codice in un ciclo `foreach` per elaborare un'intera cartella di file `.docx`.
-- **Generazione di Markdown:** Aggiungi intestazioni `#` o elenchi `*` al testo per produrre markdown pronto per la pubblicazione.
-- **Esportazione PDF:** Usa `PdfSaveOptions` per creare una versione PDF accanto al txt.
-- **Messa a punto avanzata di LaTeX:** Post‑processa l'output con regex per sostituire `\[`/`\]` con `$...$` per le equazioni in linea.
+Ora che le opzioni sono impostate, l'ultimo passo è una singola riga: chiama `Save` con il percorso di destinazione e l'istanza `TxtSaveOptions`.
 
-Ognuno di questi si basa sulla stessa base: caricare un `Document` e scegliere le `SaveOptions` corrette. Sentiti libero di sperimentare; l'API è sufficientemente flessibile per la maggior parte degli scenari di automazione dei documenti.
+```csharp
+// Step 3: Save the document as a plain‑text file using the configured options
+doc.Save("YOUR_DIRECTORY/Math.txt", txtSaveOptions);
+```
 
-## Conclusione
+Fatto! Il file `Math.txt` conterrà il testo normale del documento Word, e ogni equazione apparirà come frammento LaTeX racchiuso da `$…$` (inline) o `$$…$$` (display) a seconda del layout originale.
 
-Abbiamo coperto tutto ciò di cui hai bisogno per **salvare docx come txt** mantenendo ogni equazione in LaTeX. Dal caricamento del file sorgente, alla configurazione di `TxtSaveOptions` per **come esportare la matematica**, fino alla scrittura del file di testo finale, l'intero flusso di lavoro si adatta in poche concise istruzioni C#.  
+### Output previsto
 
-Ora puoi automatizzare la conversione di report Word, articoli accademici o qualsiasi documento che mescola testo e matematica, e inserire il `.txt` risultante in strumenti successivi senza perdere alcun dettaglio scientifico.  
+Se `input.docx` conteneva una semplice equazione come *x² + y² = z²*, la riga corrispondente in `Math.txt` sarà simile a:
 
-Provalo, modifica le opzioni per il tuo caso d'uso e facci sapere nei commenti come è andata. Buon coding!  
+```
+The Pythagorean theorem is expressed as $x^{2} + y^{2} = z^{2}$ in LaTeX.
+```
 
-![Diagramma che mostra la pipeline di conversione da DOCX → elaborazione C# → TXT con matematica LaTeX](https://example.com/images/save-docx-as-txt.png "pipeline di salvataggio docx come txt")
+Puoi aprire il file risultante in qualsiasi editor, passarlo a un compilatore LaTeX o instradarlo in un processore markdown che supporta la matematica LaTeX.
+
+![Screenshot di Math.txt che mostra equazioni LaTeX](/images/save-docx-as-txt-example.png "esempio di salvataggio docx come txt")
+
+*Image alt text:* **esempio di salvataggio docx come txt** – file di testo semplice con equazioni LaTeX.
+
+## Come esportare la matematica – verifica della conversione
+
+Un rapido controllo di coerenza ti salva da bug sottili in seguito. Dopo la chiamata a `Save`, leggi il file e stampa le prime righe:
+
+```csharp
+// Optional verification step
+string[] lines = File.ReadAllLines("YOUR_DIRECTORY/Math.txt");
+Console.WriteLine("First 5 lines of the exported txt:");
+for (int i = 0; i < Math.Min(5, lines.Length); i++)
+{
+    Console.WriteLine(lines[i]);
+}
+```
+
+Se vedi frammenti LaTeX invece di caratteri Unicode confusi, hai **esportato correttamente le equazioni in LaTeX**. In caso contrario, ricontrolla che il documento sorgente contenga effettivamente oggetti `OfficeMath`—le equazioni in testo semplice non verranno convertite.
+
+## Edge Cases & Practical Tips (salvare documento come txt)
+
+| Situazione | Cosa controllare | Modifica consigliata |
+|------------|------------------|----------------------|
+| **Documenti grandi (>100 MB)** | L'uso di memoria aumenta quando si carica l'intero file. | Usa `LoadOptions` con `LoadFormat.Docx` e streamma il file se incontri `OutOfMemoryException`. |
+| **Equazioni con simboli personalizzati** | Alcuni simboli rari potrebbero non avere un corrispondente diretto in LaTeX. | Post‑processa l'output con un semplice dizionario di sostituzione (ad esempio, sostituisci `\unicode{...}` con la macro corretta). |
+| **Contenuto multilingue** | I caratteri Unicode sono preservati, ma LaTeX potrebbe richiedere pacchetti come `inputenc`. | Aggiungi `\usepackage[utf8]{inputenc}` all'inizio del tuo documento LaTeX quando lo compili successivamente. |
+| **Hai bisogno di testo semplice senza LaTeX** | Il flag `OfficeMathExportMode` forza LaTeX. | Imposta `OfficeMathExportMode = OfficeMathExportMode.Text` per ottenere una descrizione testuale invece. |
+
+> **Pro tip:** Se prevedi di elaborare in batch decine di file, avvolgi la logica a tre passi in un metodo riutilizzabile:
+
+```csharp
+static void ConvertDocxToTxtWithLatex(string srcPath, string dstPath)
+{
+    Document doc = new Document(srcPath);
+    TxtSaveOptions opts = new TxtSaveOptions { OfficeMathExportMode = OfficeMathExportMode.LaTeX };
+    doc.Save(dstPath, opts);
+}
+```
+
+Puoi quindi chiamare `ConvertDocxToTxtWithLatex` all'interno di un ciclo `foreach` su una directory di file Word.
+
+## Prossimi passi – estendere il workflow
+
+Ora che sai **come esportare la matematica** da Word e **salvare docx come txt**, potresti voler:
+
+- **Combinare con una pipeline Markdown** – anteporre un blocco front‑matter YAML a `Math.txt` e alimentarlo ai generator di siti statici.  
+- **Integrare con un sistema di build LaTeX** – concatenare più file `.txt` in un unico sorgente `.tex` e eseguire `pdflatex`.  
+- **Esplorare altri formati di esportazione** – Aspose.Words supporta anche `HtmlSaveOptions` con output MathML, perfetto per visualizzatori web.  
+
+Ognuno di questi scenari riutilizza la stessa idea di base: configura le `SaveOptions` appropriate e lascia che Aspose gestisca il lavoro pesante.
+
+---
+
+### TL;DR
+
+Abbiamo mostrato come **salvare docx come txt** mentre **converti Word in LaTeX** per ogni oggetto Office Math, rispondendo efficacemente a **come esportare la matematica** e **esportare equazioni in LaTeX** in C#. L'esempio completo e eseguibile è nei frammenti di codice sopra, e con il passaggio di verifica opzionale puoi essere certo che la conversione sia riuscita. Sentiti libero di modificare le opzioni per il tuo flusso di lavoro specifico, e buona programmazione!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

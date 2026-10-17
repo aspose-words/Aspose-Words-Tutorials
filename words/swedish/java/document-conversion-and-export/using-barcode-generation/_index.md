@@ -10,11 +10,9 @@ url: /sv/java/document-conversion-and-export/using-barcode-generation/
 weight: 11
 ---
 
-{{< blocks/products/products-backtop-button >}}
-
-{{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Användning av streckkodsgenerering i Aspose.Words för Java
 
@@ -117,10 +115,10 @@ För omfattande dokumentation och fler kodexempel, besök [Aspose.Words for Java
 **Testad med:** Aspose.Words för Java 24.12 (latest)  
 **Författare:** Aspose  
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}

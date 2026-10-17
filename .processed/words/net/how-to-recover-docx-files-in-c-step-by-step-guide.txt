@@ -1,0 +1,7 @@
+Title: How to Recover DOCX Files in C# – Step‑by‑Step Guide
+Slug: how-to-recover-docx-files-in-c-step-by-step-guide
+Category: programming-with-loadoptions
+ProcessedDate: 2026-05-27T02:58:35.319610
+SourceRepo: AI Search API
+Keywords: how to recover docx, set recovery mode, recover corrupted word, load document recovery, recover corrupted docx
+PRNumber: 192
