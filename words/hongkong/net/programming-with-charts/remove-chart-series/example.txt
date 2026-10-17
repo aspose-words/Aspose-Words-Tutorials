@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: 使用 Aspose.Words for .NET，本教學會建立 Document，透過 DocumentBuilder 插入直條圖，使用 ChartSeriesCollection.RemoveAt 移除圖表中的特定資料系列，並儲存已修改的文件。
+//ExStepSummary:0: 建立一個新的 Word Document，並建立與之關聯的 DocumentBuilder。
+//ExStepSummary:1: 插入大小為 432×252 點的直條圖，並取得 Chart 物件以便進一步操作。
+//ExStepSummary:2: 定義要移除的資料系列的零基索引（第二個系列）。
+//ExStepSummary:3: 如果索引有效，對圖表的 Series 集合呼叫 RemoveAt 以刪除該系列。
+//ExStepSummary:4: 將更新後的文件儲存為 .docx 檔案。
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+int targetSeriesIdx = 1;
+
+//ExStep:3-
+if (targetSeriesIdx >= 0 && targetSeriesIdx < columnChart.Series.Count)
+{
+    columnChart.Series.RemoveAt(targetSeriesIdx);
+}
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutSeries.docx");
+//ExEnd

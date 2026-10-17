@@ -1,25 +1,26 @@
 ---
 category: general
-date: 2026-03-28
-description: Buat PDF yang dapat diakses dari dokumen Word menggunakan C#. Pelajari
-  cara mengonversi Word ke PDF dan mengatur aksesibilitas PDF dalam hitungan menit.
+date: 2026-03-21
+description: Buat PDF yang dapat diakses dari dokumen Word menggunakan Aspose.Words.
+  Konversi Word ke PDF, ekspor dokumen sebagai PDF, dan pelajari cara membuat PDF
+  dapat diakses.
 draft: false
 keywords:
 - create accessible pdf
 - convert word to pdf
-- export docx to pdf
+- export document as pdf
+- convert docx to pdf
 - how to make pdf accessible
-- configure pdf accessibility
 language: id
-og_description: Buat PDF yang dapat diakses dari Word di C#. Ikuti panduan ini untuk
-  mengonversi Word ke PDF, mengekspor DOCX ke PDF, dan mengonfigurasi aksesibilitas
-  PDF.
-og_title: Buat PDF Aksesibel dari Word – Tutorial C# Lengkap
+og_description: Buat PDF yang dapat diakses dari file Word dalam hitungan menit. Ikuti
+  panduan ini untuk mengonversi docx ke PDF dan memastikan kepatuhan PDF/UA‑1.
+og_title: Buat PDF Aksesibel dari Word – Panduan Lengkap
 tags:
 - Aspose.Words
+- PDF accessibility
 - C#
-- PDF/UA
-title: Buat PDF yang dapat diakses dari Word – Panduan Langkah demi Langkah
+- Document conversion
+title: Buat PDF Aksesibel dari Word – Panduan Langkah demi Langkah
 url: /id/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-step-by-step-guide/
 ---
 
@@ -27,216 +28,192 @@ url: /id/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-ste
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Buat PDF yang Dapat Diakses dari Word – Tutorial Lengkap C#
+# Buat PDF Aksesibel dari Word – Panduan Langkah‑per‑Langkah
 
-Pernahkah Anda perlu **membuat PDF yang dapat diakses** dari file Word tetapi tidak yakin pengaturan mana yang harus diubah? Anda tidak sendirian. Di banyak perusahaan, tim kepatuhan menuntut PDF yang memenuhi standar PDF/UA (Universal Accessibility), dan para pengembang sering bertanya-tanya *bagaimana cara membuat PDF dapat diakses* tanpa menulis banyak kode tambahan.
+Pernah perlu **membuat PDF yang aksesibel** langsung dari dokumen Word tetapi tidak yakin harus mulai dari mana? Anda tidak sendirian—banyak pengembang mengalami hal yang sama ketika regulasi aksesibilitas muncul dalam daftar periksa proyek. Kabar baik? Dengan beberapa baris C# dan Aspose.Words Anda dapat mengonversi *.docx* menjadi PDF yang memenuhi standar PDF/UA‑1, dan Anda juga akan belajar **cara membuat PDF dapat diakses** untuk pengguna pembaca layar.
 
-Berita baiknya? Dengan beberapa baris C# dan pustaka yang tepat, Anda dapat **mengonversi Word ke PDF** dan mengonfigurasi aksesibilitas PDF dalam sekejap. Dalam tutorial ini kami akan membahas seluruh proses—dari memuat `.docx` hingga menyimpan PDF yang dapat diakses—sehingga Anda dapat mengirim dokumen yang sesuai hari ini.
-
-> **Apa yang akan Anda pelajari**
-> * Cara **mengekspor DOCX ke PDF** sambil mempertahankan tag dan struktur.  
-> * Pengaturan `PdfSaveOptions` mana yang mengaktifkan kepatuhan PDF/UA.  
-> * Tips menangani gambar, tabel, dan gaya khusus sehingga output benar‑benar lulus pemeriksaan aksesibilitas.  
-
-Tidak ada basa‑basi, hanya contoh praktis yang dapat dijalankan yang dapat Anda masukkan ke proyek .NET mana pun.
+Dalam tutorial ini kami akan membahas seluruh proses: memuat *.docx*, mengonfigurasi opsi penyimpanan yang tepat, dan akhirnya mengekspor dokumen sebagai PDF yang siap untuk pemeriksaan kepatuhan. Pada akhir tutorial Anda akan dapat **mengonversi word ke pdf**, **mengekspor dokumen sebagai pdf**, dan merasa yakin bahwa output mematuhi praktik terbaik aksesibilitas. Tanpa alat eksternal, tanpa penandaan manual—hanya kode yang bersih dan programatis.
 
 ## Prasyarat
 
-| Persyaratan | Mengapa penting |
-|-------------|-----------------|
-| **.NET 6.0 atau lebih baru** | Fitur bahasa modern dan kinerja yang lebih baik. |
-| **Aspose.Words for .NET** (versi terbaru) | Menyediakan kelas `Document` dan `PdfSaveOptions` yang digunakan dalam kode. |
-| **Visual Studio 2022** (atau IDE lain yang Anda sukai) | Untuk debugging mudah dan manajemen proyek. |
-| **Contoh `.docx`** (mis., `input.docx`) | Dokumen Word sumber yang ingin Anda konversi. |
+| Persyaratan | Alasan |
+|-------------|--------|
+| .NET 6.0 atau lebih baru | Aspose.Words mendukung .NET Standard 2.0+, .NET 6 adalah LTS saat ini. |
+| Aspose.Words for .NET (NuGet package `Aspose.Words`) | Menyediakan `Document`, `PdfSaveOptions`, dan fitur kepatuhan PDF/UA. |
+| Contoh file Word (`input.docx`) | Sumber yang akan Anda konversi. |
+| Pengetahuan dasar C# | Bermanfaat tetapi tidak wajib; kode memiliki banyak komentar. |
 
-Jika Anda belum menginstal Aspose.Words, jalankan:
+Anda dapat menginstal pustaka dengan:
 
 ```bash
 dotnet add package Aspose.Words
 ```
 
-Itu saja—tidak ada DLL tambahan atau dependensi native.
+> **Pro tip:** Jika Anda bekerja di Visual Studio, UI NuGet Package Manager melakukan hal yang sama dalam beberapa klik.
 
-## Gambaran Solusi
+## Langkah 1 – Muat Dokumen Word yang Ingin Anda Konversi
 
-Pada tingkat tinggi kami akan:
-
-1. Muat dokumen Word sumber.  
-2. Buat objek `PdfSaveOptions` dan set properti `Compliance`‑nya ke `PdfUAX` (atau `PdfUAX2` untuk spesifikasi yang lebih baru).  
-3. Simpan dokumen sebagai PDF yang dapat diakses.
-
-Setiap langkah dijelaskan di bawah, dan Anda akan melihat mengapa langkah **mengonfigurasi aksesibilitas PDF** adalah kunci untuk lolos validasi PDF/UA.
-
-![Create accessible PDF example](/images/accessible-pdf.png){alt="Buat PDF yang dapat diakses menggunakan Aspose.Words"}
-
-## Langkah 1: Muat Dokumen Word
-
-Hal pertama yang kita butuhkan adalah instance `Document` yang menunjuk ke `.docx` kita. Anggap ini seperti membuka buku sebelum Anda mulai menulis catatan di margin.
+Hal pertama yang kami lakukan adalah membaca sumber `.docx`. Anggap `Document` sebagai jembatan antara Word dan semua format lain yang didukung Aspose.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Saving;
 
-// Load the source .docx file
-Document doc = new Document(@"C:\MyFiles\input.docx");
+// Step 1: Load the source document you want to export as PDF/UA‑1 compliant
+Document doc = new Document("YOUR_DIRECTORY/input.docx");
+
+// Quick sanity check – ensure the file was loaded
+if (doc == null)
+{
+    throw new InvalidOperationException("Failed to load the Word document.");
+}
 ```
 
-> **Tips pro:** Jika file Anda berada di share jaringan, bungkus pemuatan dalam blok `try/catch` untuk menangani `FileNotFoundException` atau masalah izin secara elegan.
+> **Mengapa ini penting:** Memuat file lebih awal memungkinkan Anda memeriksa properti (jumlah halaman, bagian, dll.) sebelum memutuskan pengaturan ekspor. Ini juga mengungkap masalah korupsi sebelum Anda membuang waktu pada konversi.
 
-## Langkah 2: Konfigurasikan Aksesibilitas PDF (PDF/UA)
+## Langkah 2 – Konfigurasikan Opsi Penyimpanan PDF untuk Aksesibilitas
 
-Sekarang masuk ke inti tutorial—**mengonfigurasi aksesibilitas PDF**. Kelas `PdfSaveOptions` memungkinkan Anda memberi tahu Aspose.Words tingkat kepatuhan PDF yang Anda butuhkan.
+Aspose.Words menjadikan kepatuhan PDF/UA hanya satu perubahan properti. Menetapkan `Compliance = PdfCompliance.PdfUAX` secara otomatis menandai elemen struktural (heading, tabel, daftar) dan memperlakukan garis horizontal sebagai *artifacts*—tepat seperti yang diharapkan validator aksesibilitas.
 
 ```csharp
-// Create PDF save options and enable PDF/UA compliance
-PdfSaveOptions pdfOptions = new PdfSaveOptions
+using Aspose.Words.Saving;
+
+// Step 2: Configure PDF save options for accessibility compliance
+PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
 {
-    // PDF/UA (Universal Accessibility) ensures the PDF meets accessibility standards
-    Compliance = PdfCompliance.PdfUAX // Use PdfUAX2 for PDF/UA‑2 if required
+    // PDF/UA‑1 compliance automatically tags horizontal rules as artifacts.
+    // Use PdfUAX2 for the newer PDF/UA‑2 standard if required.
+    Compliance = PdfCompliance.PdfUAX,
+
+    // Optional: embed the original font to avoid substitution issues
+    EmbedFullFonts = true,
+
+    // Optional: set a custom title for the PDF metadata
+    Title = "Accessible PDF generated from input.docx"
 };
 ```
 
-### Mengapa PDF/UA?
+> **Mengapa ini penting:** Tanpa `PdfCompliance.PdfUAX`, PDF yang dihasilkan tidak memiliki tag struktural yang dibutuhkan teknologi bantu. Menambahkan `EmbedFullFonts` memastikan dokumen terlihat sama di setiap perangkat—satu kemenangan aksesibilitas lagi.
 
-PDF/UA menambahkan pohon struktur tersembunyi ke PDF, memetakan heading, daftar, tabel, dan teks alternatif untuk gambar. Pembaca layar mengandalkan struktur tersebut untuk menyampaikan makna kepada pengguna dengan gangguan penglihatan. Tanpa itu, PDF Anda mungkin terlihat baik bagi pengguna yang dapat melihat tetapi gagal dalam audit kepatuhan.
+## Langkah 3 – Simpan Dokumen sebagai PDF yang Aksesibel
 
-### Memilih Antara `PdfUAX` dan `PdfUAX2`
-
-* **`PdfUAX`** – Selaras dengan PDF/UA‑1 (ISO 14289‑1). Kebanyakan alur kerja lama masih menargetkan versi ini.  
-* **`PdfUAX2`** – PDF/UA‑2 yang lebih baru (ISO 14289‑2) menambahkan dukungan untuk tagging yang lebih kaya dan penanganan tata letak kompleks yang lebih baik. Jika organisasi Anda sudah beralih, ganti nilai enum tersebut.
-
-## Langkah 3: Simpan Dokumen sebagai PDF yang Dapat Diakses
-
-Dengan opsi yang sudah disiapkan, penyimpanan cukup satu pemanggilan metode. File yang dihasilkan akan secara otomatis membawa tag aksesibilitas.
+Sekarang kami menulis file keluar. Metode `Save` menghormati opsi yang baru saja kami atur, menghasilkan PDF yang lolos sebagian besar pemindaian aksesibilitas otomatis (mis., PAC 3, axe‑pdf).
 
 ```csharp
-// Save the document as an accessible PDF
-doc.Save(@"C:\MyFiles\Accessible.pdf", pdfOptions);
+// Step 3: Save the document as a PDF with the accessibility options applied
+string outputPath = "YOUR_DIRECTORY/Accessible.pdf";
+doc.Save(outputPath, pdfSaveOptions);
+
+// Verify the file exists
+if (!System.IO.File.Exists(outputPath))
+{
+    throw new IOException("The PDF was not created successfully.");
+}
 ```
 
-Saat Anda membuka `Accessible.pdf` di Adobe Acrobat Pro dan menjalankan **Tools → Accessibility → Full Check**, Anda seharusnya melihat hasil lulus bersih (atau hanya peringatan minor tentang konten khusus yang mungkin perlu Anda sesuaikan).
+**Hasil yang diharapkan:** `Accessible.pdf` muncul di `YOUR_DIRECTORY`. Buka di Adobe Acrobat → Tools → Accessibility → Full Check. Anda harus melihat **0 error** untuk tag yang hilang, dan dokumen akan diberi label *PDF/UA‑1 compliant*.
 
-## Contoh Kerja Lengkap
+## Variasi Umum & Kasus Tepi
 
-Menggabungkan semuanya, berikut aplikasi konsol mandiri yang dapat Anda kompilasi dan jalankan langsung:
+### Mengonversi Banyak File dalam Loop
+
+Jika Anda perlu memproses batch folder file Word, bungkus tiga langkah dalam loop `foreach`:
+
+```csharp
+string[] docxFiles = Directory.GetFiles("YOUR_DIRECTORY", "*.docx");
+foreach (var file in docxFiles)
+{
+    Document batchDoc = new Document(file);
+    string pdfName = Path.ChangeExtension(file, ".pdf");
+    batchDoc.Save(pdfName, pdfSaveOptions);
+}
+```
+
+### Menargetkan PDF/UA‑2 Alih-alih PDF/UA‑1
+
+Beberapa organisasi telah beralih ke standar **PDF/UA‑2** yang lebih baru. Ganti enum kepatuhan:
+
+```csharp
+pdfSaveOptions.Compliance = PdfCompliance.PdfUAX2;
+```
+
+### Menambahkan Tag Kustom Secara Manual
+
+Untuk struktur yang sangat disesuaikan (mis., landmark kustom), Anda dapat memanipulasi pohon tag PDF setelah menyimpan:
+
+```csharp
+// Not required for basic accessibility, but possible via Aspose.Pdf (separate library)
+```
+
+> **Catatan:** Penandaan manual adalah topik lanjutan; flag kepatuhan bawaan mencakup 95 % skenario sehari-hari.
+
+## Memverifikasi Aksesibilitas – Daftar Periksa Cepat
+
+| Pemeriksaan | Cara Memverifikasi |
+|-------------|--------------------|
+| **Tagging** | Buka PDF di Acrobat → panel *Tags*; Anda harus melihat pohon hierarkis (H1, H2, Table, Figure). |
+| **Artifacts** | Garis horizontal muncul di bawah *Artifacts* bukan *Tags*. |
+| **Reading Order** | Gunakan alat *Reading Order* untuk memastikan alur logis. |
+| **Metadata** | Judul dokumen, bahasa, dan flag kepatuhan PDF/UA muncul di *File → Properties*. |
+
+Jika salah satu item ini hilang, tinjau kembali `PdfSaveOptions` atau pertimbangkan menambahkan tag eksplisit dengan Aspose.Pdf.
+
+## Contoh Lengkap yang Berfungsi (Siap Salin‑Tempel)
 
 ```csharp
 using System;
+using System.IO;
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-namespace AccessiblePdfDemo
+class AccessiblePdfGenerator
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        // 1. Load the source .docx
+        string inputPath = "YOUR_DIRECTORY/input.docx";
+        Document doc = new Document(inputPath);
+
+        // 2. Set up PDF/UA‑1 compliance options
+        PdfSaveOptions options = new PdfSaveOptions
         {
-            // 1️⃣ Load the source document
-            string inputPath = @"C:\MyFiles\input.docx";
-            Document doc = new Document(inputPath);
-            Console.WriteLine($"Loaded document: {inputPath}");
+            Compliance = PdfCompliance.PdfUAX,
+            EmbedFullFonts = true,
+            Title = "Accessible PDF generated from input.docx"
+        };
 
-            // 2️⃣ Configure PDF/UA compliance
-            PdfSaveOptions pdfOptions = new PdfSaveOptions
-            {
-                Compliance = PdfCompliance.PdfUAX // Change to PdfUAX2 if needed
-            };
-            Console.WriteLine("PDF accessibility options configured (PDF/UA).");
+        // 3. Export as an accessible PDF
+        string outputPath = "YOUR_DIRECTORY/Accessible.pdf";
+        doc.Save(outputPath, options);
 
-            // 3️⃣ Save as an accessible PDF
-            string outputPath = @"C:\MyFiles\Accessible.pdf";
-            doc.Save(outputPath, pdfOptions);
-            Console.WriteLine($"Accessible PDF created at: {outputPath}");
-        }
+        // 4. Simple verification message
+        Console.WriteLine($"Accessible PDF created at: {Path.GetFullPath(outputPath)}");
     }
 }
 ```
 
-**Output yang diharapkan di konsol:**
+Jalankan program (`dotnet run`), dan Anda akan memiliki **membuat pdf yang dapat diakses** yang siap didistribusikan.
 
-```
-Loaded document: C:\MyFiles\input.docx
-PDF accessibility options configured (PDF/UA).
-Accessible PDF created at: C:\MyFiles\Accessible.pdf
-```
+## Pertanyaan yang Sering Diajukan
 
-Buka file yang dihasilkan, jalankan pemeriksa aksesibilitas, dan Anda akan melihat bahwa heading, daftar, dan gambar (jika memiliki `Alt Text` di Word) ditandai dengan benar.
+**Q: Apakah ini bekerja dengan .NET Framework 4.8?**  
+A: Ya. Aspose.Words menargetkan .NET Standard 2.0, yang kompatibel dengan .NET Framework 4.6.1+.
 
-## Konversi Word ke PDF Sambil Mempertahankan Aksesibilitas
+**Q: Bagaimana jika dokumen Word saya berisi gambar dengan teks alt?**  
+A: Aspose.Words secara otomatis membawa atribut `alt` gambar ke dalam tag PDF/UA, mempertahankan aksesibilitas.
 
-Jika satu‑satunya tujuan Anda adalah **mengonversi Word ke PDF**, Anda dapat menghilangkan `PdfSaveOptions` sepenuhnya dan memanggil `doc.Save("output.pdf")`. Itu akan menghasilkan PDF, tetapi tidak dijamin memenuhi PDF/UA. Pendekatan yang sadar aksesibilitas yang baru saja kami bahas menambah hampir tidak ada overhead, jadi mengapa melewatkannya?
+**Q: Bisakah saya mengatur bahasa PDF (mis., `en‑US`)?**  
+A: Tentu saja. Gunakan `options.Language = "en-US";` sebelum menyimpan.
 
-### Kapan Menggunakan Konversi Sederhana
-
-* Anda menghasilkan draft internal di mana aksesibilitas tidak wajib.  
-* Proses hilir (mis., portal pihak ketiga) akan menambahkan tagnya sendiri nanti.
-
-Bahkan begitu, menyimpan `PdfSaveOptions` siap pakai memudahkan beralih ke mode patuh nanti.
-
-## Ekspor DOCX ke PDF dengan Tag Kustom
-
-Terkadang Anda perlu **mengekspor DOCX ke PDF** tetapi juga ingin menyisipkan tag kustom—misalnya, menandai tabel sebagai tabel data untuk pembaca layar. Anda dapat melakukannya dengan memanipulasi dokumen Word sebelum menyimpan:
-
-```csharp
-// Mark a table as a data table (helps accessibility tools)
-Table firstTable = (Table)doc.GetChild(NodeType.Table, 0, true);
-firstTable.IsDataTable = true;
-```
-
-Setelah mengatur properti tersebut, jalankan prosedur penyimpanan yang sama seperti sebelumnya. PDF yang dihasilkan akan membawa semantik tambahan.
-
-## Cara Membuat PDF Dapat Diakses: Kesalahan Umum
-
-| Kesalahan | Apa yang terjadi | Cara menghindari |
-|-----------|------------------|------------------|
-| **Missing Alt Text** | Gambar menjadi tidak terdengar bagi teknologi bantu. | Tambahkan teks alternatif di Word (`Layout → Alt Text`) sebelum konversi. |
-| **Improper Heading Levels** | Pembaca layar mungkin membaca bagian-bagian tidak berurutan. | Gunakan gaya heading bawaan Word (`Heading 1`, `Heading 2`, …). |
-| **Complex Tables Without Summary** | Tabel dibaca sebagai dinding teks. | Setel `Table.IsDataTable = true` dan berikan ringkasan di Word. |
-| **Using PDF/A Instead of PDF/UA** | PDF/A berfokus pada preservasi, bukan aksesibilitas. | Pilih `PdfCompliance.PdfUAX` (atau `PdfUAX2`) secara eksplisit. |
-
-Menangani hal ini sejak awal menghemat Anda dari audit kepatuhan yang gagal di kemudian hari.
-
-## Konfigurasikan Aksesibilitas PDF untuk Berbagai Skenario
-
-Berikut beberapa variasi yang mungkin Anda perlukan, tergantung pada kebutuhan proyek Anda.
-
-### 1️⃣ Aktifkan PDF/UA‑2 untuk Persiapan Masa Depan
-
-```csharp
-pdfOptions.Compliance = PdfCompliance.PdfUAX2;
-```
-
-### 2️⃣ Pertahankan Font Asli (penting untuk konsistensi visual)
-
-```csharp
-pdfOptions.FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll;
-```
-
-### 3️⃣ Tambahkan Bahasa Dokumen Kustom (membantu pembaca layar spesifik bahasa)
-
-```csharp
-doc.BuiltInDocumentProperties.Language = "en-US";
-```
-
-Gabungkan opsi-opsi ini sesuai kebutuhan; kelas `PdfSaveOptions` cukup fleksibel untuk sebagian besar skenario.
-
-## Verifikasi Hasil
-
-Setelah Anda menghasilkan `Accessible.pdf`, jalankan pemeriksaan cepat:
-
-1. Buka PDF di **Adobe Acrobat Pro**.  
-2. Arahkan ke **Tools → Accessibility → Full Check**.  
-3. Tinjau laporan—idealnya Anda akan melihat “Tidak ada kesalahan aksesibilitas yang terdeteksi.”
-
-Jika Anda menemukan peringatan tentang teks alternatif yang hilang, kembali ke `.docx` asli, tambahkan informasi yang kurang, dan jalankan kembali konversi. Ini adalah proses iteratif, tetapi kodenya tetap sama.
+**Q: Bagaimana cara memverifikasi kepatuhan PDF/UA‑2?**  
+A: Ubah `Compliance = PdfCompliance.PdfUAX2` dan jalankan pemeriksaan penuh Acrobat yang sama; alat akan melaporkan standar yang lebih baru.
 
 ## Kesimpulan
 
-Kami telah membahas semua yang Anda perlukan untuk **membuat PDF yang dapat diakses** dari Word menggunakan C#. Dengan memuat dokumen, mengonfigurasi `PdfSaveOptions` untuk kepatuhan PDF/UA, dan menyimpan, Anda mendapatkan PDF yang memenuhi standar aksesibilitas modern. Sepanjang perjalanan kami menyentuh **konversi Word ke PDF**, **ekspor DOCX ke PDF**, dan menjawab **bagaimana cara membuat PDF dapat diakses** dengan contoh kode konkret dan tips praktis.
+Anda sekarang tahu cara **membuat PDF yang aksesibel** dari Word menggunakan Aspose.Words, mencakup semua mulai dari memuat dokumen, mengatur kepatuhan PDF/UA‑1, hingga menyimpan output akhir. Solusi ini memungkinkan Anda **mengonversi word ke pdf**, **mengekspor dokumen sebagai pdf**, dan memastikan file yang dihasilkan memenuhi standar aksesibilitas—tepat apa yang Anda butuhkan ketika pertanyaan “**bagaimana membuat pdf dapat diakses**” muncul dalam review kode.
 
-Siap untuk tantangan berikutnya? Cobalah menambahkan **konten dinamis** (seperti tabel yang dihasilkan) atau **menyematkan font kustom** sambil tetap mempertahankan aksesibilitas. Atau jelajahi Aspose.PDF untuk pemrosesan lanjutan PDF yang memerlukan tagging tambahan.
+Siap untuk tantangan berikutnya? Coba tambahkan kepatuhan PDF/A‑2b untuk tujuan arsip, atau bereksperimen dengan melindungi PDF dengan password sambil mempertahankan tag. Pola yang sama berlaku—hanya ganti properti `PdfSaveOptions` yang sesuai.
 
-Selamat coding, dan semoga PDF Anda selalu dapat dibaca oleh semua orang!
+Jika Anda menemukan panduan ini berguna, beri bintang, bagikan dengan rekan tim, atau tinggalkan komentar dengan tip Anda sendiri. Selamat coding, dan terus membuat web lebih aksesibel—satu PDF pada satu waktu!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

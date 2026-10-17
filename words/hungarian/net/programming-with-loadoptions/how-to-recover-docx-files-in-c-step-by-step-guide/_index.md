@@ -1,20 +1,20 @@
 ---
 category: general
-date: 2026-03-28
+date: 2026-02-26
 description: Tanulja meg, hogyan állíthatja helyre a docx fájlokat az Aspose.Words
-  segítségével. Ez az útmutató bemutatja, hogyan konfigurálhatja a helyreállítási
-  módot, és hogyan nyithatja meg biztonságosan a sérült docx fájlokat.
+  segítségével. Állítsa be a helyreállítási módot, töltse be a dokumentumot helyreállítással,
+  és gyorsan javítsa ki a sérült docx fájlokat.
 draft: false
 keywords:
 - how to recover docx
-- recover damaged docx
-- configure recovery mode
-- how to open corrupted docx
+- set recovery mode
+- load document with recovery
+- recover corrupted docx
 language: hu
-og_description: Hogyan állítsuk helyre a docx fájlokat C#-ban? Kövesd ezt az útmutatót
-  a helyreállítási mód beállításához, és biztonságosan nyisd meg a sérült docx fájlokat
-  az Aspose.Words segítségével.
-og_title: Hogyan állítsunk helyre DOCX fájlokat C#-ban – Teljes útmutató
+og_description: Hogyan állíthatók helyre a docx fájlok az Aspose.Words segítségével.
+  Állítsa be a helyreállítási módot, töltse be a dokumentumot helyreállítással, és
+  könnyedén állítsa vissza a sérült docx-et.
+og_title: Hogyan állítsunk vissza DOCX fájlokat C#-ban – Teljes útmutató
 tags:
 - Aspose.Words
 - C#
@@ -27,199 +27,206 @@ url: /hu/net/programming-with-loadoptions/how-to-recover-docx-files-in-c-step-by
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan állítsuk helyre a DOCX fájlokat C#‑ban – Lépésről‑lépésre útmutató
+# Hogyan állítsuk helyre a DOCX fájlokat C#‑ban – Teljes programozási útmutató
 
-Gondolkodtál már azon, **hogyan állítsuk helyre a docx** fájlokat, amelyek nem nyílnak meg? Lehet, hogy egy ügyfél által beküldött jelentést kaptál, ami minden alkalommal összeomlik a Wordben, amikor megpróbálod megnyitni. Tapasztalatom szerint a leggyorsabb módja annak, hogy a dokumentumot használható állapotba hozzuk, ha egy robusztus könyvtárra, például az Aspose.Words‑ra bízzuk a nehéz munkát.  
+Gondolkodtál már azon, **hogyan állítsuk helyre a docx** fájlt, amikor egy felhasználó hibás fájlt jelent? Nem vagy egyedül. Sok vállalati alkalmazásban egy sérült DOCX hirtelen megjelenhet – lehet, hogy a feltöltés megszakadt, vagy a lemez hibát szenvedett. A jó hír? Az Aspose.Words beépített módot biztosít a javítás megkísérlésére anélkül, hogy egyedi elemzőt kellene írnod.
 
-Ebben az útmutatóban pontosan megmutatjuk, **hogyan állítsuk helyre a docx** fájlokat, megtanulod, hogyan **konfiguráld a helyreállítási módot**, és felfedezed a helyes megközelítést **hogyan nyissuk meg a sérült docx‑et** anélkül, hogy összeomlana az alkalmazásod. A végére egy kész‑kód snippetet kapsz, amely egy törött *.docx*-et tiszta `Document` objektummá alakít, amit menthetsz, szerkeszthetsz vagy exportálhatsz.
+Ebben az útmutatóban végigvezetünk a pontos lépéseken, hogy **set recovery mode**, **load document with recovery**, és végül **recover corrupted docx**, így a további logikád tovább futhat. Nincs felesleges szó, csak a kód, amit ma beilleszthetsz egy .NET projektbe.
 
-## Mit fogsz megtanulni
-
-- Az Aspose.Words NuGet csomag telepítése.
-- A `LoadOptions` beállítása, hogy automatikusan **helyreállítsa a sérült docx** fájlokat.
-- `RecoveryMode.Recover` jelző használata a **helyreállítási mód konfigurálásához**.
-- Ellenőrizd, hogy a dokumentum sikeresen betöltődött-e, és kezeld az esetleges tartalék logikát.
-- Tippek a szélhelyzetek kezeléséhez, például jelszóval védett vagy részben hiányzó részek esetén.
-
-Nem szükséges előzetes Aspose ismeret – elegendő egy alap C# környezet és a kísérletezésre való hajlandóság.
+> **Pro tipp:** Még ha a fájl valójában nem is sérült, a recovery mode használata egy biztonsági hálót ad, amely szinte semmilyen teljesítményköltséggel nem jár.
 
 ---
 
-![Diagram a sérült DOCX betöltésének folyamata helyreállítási móddal – hogyan állítsuk helyre a docx](https://example.com/images/recover-docx-flow.png "hogyan állítsuk helyre a docx példadiagram")
+## Amire szükséged lesz
 
-## Előfeltételek
+| Követelmény | Indok |
+|------------|--------|
+| **Aspose.Words for .NET** (latest version) | Biztosítja a `LoadOptions.RecoveryMode`-t |
+| **.NET 6+** (or .NET Framework 4.6+) | A könyvtárhoz szükséges futtatókörnyezet |
+| Egy **példa sérült DOCX** (vagy bármely DOCX, amit tesztelni szeretnél) | A helyreállítás működésének megtekintéséhez |
+| Egy IDE (Visual Studio, Rider, VS Code) | Gyors hibakereséshez |
 
-- .NET 6.0 vagy újabb (a kód .NET Framework 4.7+ esetén is működik).
-- Visual Studio 2022 (vagy bármelyik kedvelt IDE).
-- Az **Aspose.Words for .NET** könyvtár egy példánya – telepítsd NuGet‑en keresztül.
-- Egy minta sérült `input.docx`, amelyet javítani szeretnél.
+Ennyi—nincs extra NuGet csomag, nincs XML manipuláció, csak az Aspose.Words.
 
-## 1. lépés – Az Aspose.Words telepítése és a névtér hozzáadása
+![how to recover docx](/images/how-to-recover-docx.png "Illustration of recovering a DOCX file")
 
-Mielőtt **hogyan nyissuk meg a sérült docx‑et**, szükséged van a könyvtárra, amely ismeri a Word formátumok olvasását.
+---
 
-```bash
-dotnet add package Aspose.Words
-```
+## Hogyan állítsuk helyre a DOCX‑t – Alapvető lépések
+
+Az alábbi magas szintű folyamatot fogjuk megvalósítani:
+
+1. **Create a `LoadOptions` object** és mondd meg az Aspose-nak, hogy *helyreállítsa* a fájlt.  
+2. **Load the potentially corrupted document** ezekkel a beállításokkal.  
+3. **Optionally inspect any warnings** amelyeket az Aspose generált a betöltés során.  
+
+---
+
+## A Recovery Mode beállítása
+
+Az első dolog, amit meg kell tenned, hogy megmond a könyvtárnak, mit tegyen, amikor problémába ütközik. Itt jön képbe a **set recovery mode** kulcsszó.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.LoadOptions;
-```
 
-> **Pro tipp:** Ha egy régi projekttel dolgozol, nyisd meg a NuGet Package Manager felületet, keresd meg a „Aspose.Words” csomagot, és kattints a **Install** gombra. A csomag tartalmazza az összes kodeket, amely a DOCX részek értelmezéséhez szükséges, még akkor is, ha néhány XML rész hiányzik.
-
-## 2. lépés – A helyreállítási mód konfigurálása a sérült DOCX helyreállításához
-
-A **hogyan állítsuk helyre a docx** lényege a `LoadOptions` objektumban rejlik. Ha azt mondod az Aspose‑nak, hogy *próbálja* újraépíteni a dokumentumot, engedélyezed a **helyreállítási mód konfigurálása** funkciót.
-
-```csharp
-// Step 2: Create LoadOptions and tell Aspose to recover if possible
+// Step 1: Create LoadOptions and enable recovery
 var loadOptions = new LoadOptions
 {
-    // RecoveryMode.Recover attempts to fix structural issues.
-    RecoveryMode = RecoveryMode.Recover
+    // RecoveryMode.Recover attempts to fix structural issues
+    RecoveryMode = LoadOptions.RecoveryModeMode.Recover
 };
 ```
 
-### Miért fontos ez
+**Miért fontos:**  
+`RecoveryMode.Recover` arra készteti a betöltőt, hogy átvizsgálja a DOCX csomagot hiányzó részek, hibás kapcsolatok vagy rosszul formázott XML után. Kivétel dobása helyett megpróbál egy használható dokumentumfát újraépíteni. Ha kihagyod ezt a lépést, egy sérült fájl egyszerűen összeomlik a `FileCorruptedException`‑el.
 
-Amikor egy DOCX sérült, a Word gyakran egy általános „a fájl sérült” üzenettel áll le. A `RecoveryMode.Recover` azt utasítja az Aspose‑t, hogy:
+---
 
-1. Átvizsgálja a ZIP konténert a hiányzó részekért.
-2. Újrahozza az alapértelmezett szekciókat, ha hiányoznak.
-3. A lehető legtöbb felhasználói tartalmat (szöveg, képek, stílusok) megőrizze.
+## A dokumentum betöltése helyreállítással
 
-Ha kihagyod ezt a lépést, a `Document` konstruktor kivételt dob, és soha nem lesz lehetőséged adatot menteni.
-
-## 3. lépés – A sérült fájl betöltése a konfigurált beállításokkal
-
-Miután a **helyreállítási mód konfigurálása** jelző be van állítva, a törött fájl megnyitása egyszerű.
+Most, hogy a beállítások készen állnak, ténylegesen **load document with recovery**. A `Document` konstruktor egy fájl útvonalat és egy `LoadOptions` példányt fogad.
 
 ```csharp
-// Step 3: Load the potentially corrupted DOCX with the recovery options
-try
+// Step 2: Load the DOCX using the recovery options
+string filePath = @"C:\Docs\Corrupted.docx";
+Document doc = new Document(filePath, loadOptions);
+```
+
+**Mi történik a háttérben?**  
+Az Aspose elemzi a ZIP konténert, újraépíti a hiányzó részeket, és feltölti a `Document` objektumot. Ha nem tudja teljesen megjavítani a fájlt, akkor is kapsz egy részben használható dokumentumot, valamint egy figyelmeztetések gyűjteményét, amelyet áttekinthetsz.
+
+---
+
+## Figyelmeztetések ellenőrzése (Opcionális, de ajánlott)
+
+Betöltés után lehet, hogy **recover corrupted docx** szeretnél, miközben megérted, mi ment félre. Minden figyelmeztetés a `doc.Warnings`‑ben tárolódik.
+
+```csharp
+// Step 3: Enumerate any warnings generated during recovery
+foreach (var warning in doc.Warnings)
 {
-    Document doc = new Document(@"C:\Docs\input.docx", loadOptions);
-    Console.WriteLine("✅ Document loaded successfully!");
-    
-    // Optional: Save a clean copy to verify the recovery
-    doc.Save(@"C:\Docs\output_recovered.docx");
-    Console.WriteLine("🗂 Clean copy saved as output_recovered.docx");
-}
-catch (Exception ex)
-{
-    Console.Error.WriteLine($"❌ Failed to open the file: {ex.Message}");
-    // You could fall back to a different strategy here,
-    // like extracting raw XML parts manually.
+    Console.WriteLine($"Warning: {warning.Description}");
 }
 ```
 
-### Mit várhatsz
+A tipikus figyelmeztetések közé tartozik a „Missing image part” vagy az „Invalid bookmark reference”. Nem akadályozzák meg a dokumentum használhatóságát, de nyomokat adnak a naplózáshoz vagy a felhasználói visszajelzéshez.
 
-- Ha a fájl csak enyhén sérült, láthatod a „✅ Document loaded successfully!” üzenetet, és egy friss `output_recovered.docx` fájlt, amely figyelmeztetés nélkül nyílik meg a Wordben.
-- Ha a sérülés súlyos (pl. a ZIP konténer maga hibás), a catch blokk fut, és egy egyértelmű hibát kapsz, amely elmagyarázza, miért sikertelen a helyreállítás.
+---
 
-## 4. lépés – A helyreállított tartalom ellenőrzése (Hogyan nyissuk meg biztonságosan a sérült DOCX‑et)
+## Teljes működő példa
 
-Betöltés után jó gyakorlat néhány kulcsfontosságú tulajdonságot ellenőrizni, hogy a dokumentum ne hiányozzon kritikus szekciókban.
-
-```csharp
-// Verify that at least one section and one paragraph exist
-if (doc.Sections.Count == 0)
-{
-    Console.WriteLine("⚠️ No sections were recovered – the file might be severely corrupted.");
-}
-else
-{
-    Console.WriteLine($"📄 Sections recovered: {doc.Sections.Count}");
-    Console.WriteLine($"📝 First paragraph text: {doc.FirstSection.Body.Paragraphs[0].GetText()}");
-}
-```
-
-Ezzel a gyors ellenőrzéssel megválaszolod a rejtett kérdést, **hogyan nyissuk meg a sérült docx‑et** anélkül, hogy későbbi null‑referencia hibát kockáztatnál.
-
-## 5. lépés – Szélhelyzetek és gyakori buktatók kezelése
-
-### Jelszóval védett fájlok
-
-Ha a sérült DOCX jelszóval is védett, a `LoadOptions` rendelkezik egy `Password` tulajdonsággal. Kombináld a helyreállítási móddal:
-
-```csharp
-var loadOptions = new LoadOptions
-{
-    RecoveryMode = RecoveryMode.Recover,
-    Password = "MySecret"
-};
-```
-
-### Nagy fájlok és memóriaigény
-
-Gigabájt méretű dokumentumok esetén fontold meg a `LoadOptions.LoadFormat` kifejezett beállítását `LoadFormat.Docx`‑re. Ez felgyorsítja a kezdeti zip feldolgozást és csökkenti a memóriahasználatot.
-
-### Ha a helyreállítás sikertelen
-
-Néha az egyetlen megoldás a nyers XML részek kinyerése és kézi összefűzése. Az Aspose `Document.Save` túlterheléseket kínál, amelyekkel egyedi csomópontokat exportálhatsz egyedi feldolgozáshoz.
-
-## Teljes működő példa (másolás‑beillesztés kész)
+Összeállítva, itt egy teljes, azonnal futtatható program. Nyugodtan másold be egy konzolos alkalmazásba, és állítsd be a `filePath`‑t bármelyik, szerinted sérült DOCX fájlra.
 
 ```csharp
 using System;
 using Aspose.Words;
 using Aspose.Words.LoadOptions;
 
-class RecoverDocxDemo
+namespace DocxRecoveryDemo
 {
-    static void Main()
+    class Program
     {
-        // 1️⃣ Install Aspose.Words via NuGet before running this code.
-
-        // 2️⃣ Configure recovery mode – this is the core of how to recover docx
-        var loadOptions = new LoadOptions
+        static void Main()
         {
-            RecoveryMode = RecoveryMode.Recover   // <-- tells Aspose to attempt fixes
-        };
-
-        // 3️⃣ Attempt to load the corrupted file
-        try
-        {
-            Document doc = new Document(@"C:\Docs\input.docx", loadOptions);
-            Console.WriteLine("✅ Document loaded successfully!");
-
-            // 4️⃣ Quick sanity check – proves how to open corrupted docx safely
-            Console.WriteLine($"📄 Sections: {doc.Sections.Count}");
-            if (doc.Sections.Count > 0)
+            // 1️⃣ Create LoadOptions with recovery enabled
+            var loadOptions = new LoadOptions
             {
-                Console.WriteLine($"📝 First paragraph: {doc.FirstSection.Body.Paragraphs[0].GetText()}");
-            }
+                RecoveryMode = LoadOptions.RecoveryModeMode.Recover
+            };
 
-            // 5️⃣ Save a clean copy for verification
-            string outputPath = @"C:\Docs\output_recovered.docx";
-            doc.Save(outputPath);
-            Console.WriteLine($"🗂 Clean copy written to: {outputPath}");
-        }
-        catch (Exception ex)
-        {
-            Console.Error.WriteLine($"❌ Unable to recover the file: {ex.Message}");
-            // Optional: implement fallback logic here.
+            // 2️⃣ Path to the potentially corrupted DOCX
+            string filePath = @"YOUR_DIRECTORY/Corrupted.docx";
+
+            try
+            {
+                // 3️⃣ Load the document using the recovery options
+                Document doc = new Document(filePath, loadOptions);
+                Console.WriteLine("✅ Document loaded successfully.");
+
+                // 4️⃣ (Optional) Show any warnings that occurred
+                if (doc.Warnings.Count > 0)
+                {
+                    Console.WriteLine("⚠️ Warnings generated during recovery:");
+                    foreach (var warning in doc.Warnings)
+                    {
+                        Console.WriteLine($"- {warning.Description}");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("No warnings – the file looks healthy after recovery.");
+                }
+
+                // 5️⃣ Save the repaired file (you can overwrite or use a new name)
+                string repairedPath = @"YOUR_DIRECTORY/Recovered.docx";
+                doc.Save(repairedPath);
+                Console.WriteLine($"📄 Recovered file saved to: {repairedPath}");
+            }
+            catch (Exception ex)
+            {
+                // If recovery completely fails, we end up here
+                Console.WriteLine($"❌ Unable to recover the document: {ex.Message}");
+            }
         }
     }
 }
 ```
 
-Futtasd a programot, állítsd be az `input.docx`-et egy olyan fájlra, amely általában összeomlatja a Wordöt, és nézd meg, ahogy az Aspose újraépíti. A legtöbb valós helyzetben egy használható dokumentumot kapsz, és elkerülöd a rettegett „a fájl sérült” párbeszédpanelt.
+**Várható kimenet**
 
-## Összegzés
+```
+✅ Document loaded successfully.
+⚠️ Warnings generated during recovery:
+- Missing image part: image1.png
+- Invalid bookmark reference: Bookmark_5
+📄 Recovered file saved to: YOUR_DIRECTORY/Recovered.docx
+```
 
-Lépésről‑lépésre végigmentünk a **hogyan állítsuk helyre a docx** fájlokon, az Aspose.Words telepítésétől a **helyreállítási mód konfigurálásáig**, végül pedig a **hogyan nyissuk meg a sérült docx‑et** biztonságosan. A fő tanulság? A `RecoveryMode = RecoveryMode.Recover` beállítás elvégzi a legtöbb nehéz munkát, így a vállalati logikára koncentrálhatsz a mély szintű XML javítások helyett.
+Ha a fájl a javítás határán túl van, a catch blokk egy hibaüzenetet ír ki ahelyett, hogy az egész alkalmazást összeomlasztaná.
 
-Ezután érdemes lehet felfedezni:
+---
 
-- **Sérült docx** fájlok helyreállítása, amelyek beágyazott diagramokat vagy makrókat tartalmaznak.
-- A helyreállított dokumentum PDF‑re vagy HTML‑re konvertálása további feldolgozáshoz.
-- Kötegelt helyreállítás automatizálása egy mappa tele törött jelentésekkel.
+## Szélsőséges esetek és gyakori kérdések
 
-Próbáld ki, finomhangold a beállításokat a környezetedhez, és tudasd velünk, hogyan működik nálad. Boldog kódolást!
+### Mi van, ha a fájl egyáltalán nem ZIP csomag?
+
+Az Aspose.Words egy érvényes OpenXML konténert vár. Ha a fájl valami más (például egy régi .doc bináris), a betöltő `FileCorruptedException`‑t dob *mielőtt* elérné a helyreállítási logikát. Ebben az esetben először konvertálni kell a fájlt, vagy egy másik API‑t kell használni.
+
+### Befolyásolja a `RecoveryMode.Recover` a teljesítményt?
+
+Az extra átvizsgálás nagy dokumentumoknál körülbelül 5‑10 % plusz terhelést jelent, ami a legtöbb webszolgáltatás számára elhanyagolható. Ha másodpercenként ezrek fájljait dolgozod fel, mérj és fontold meg a mód csak a valóban az első betöltési kísérletnél hibát okozó fájloknál való aktiválását.
+
+### Helyreállítható egy jelszóval védett DOCX?
+
+Nem. A helyreállítás **azután** fut, hogy a fájlt sikeresen megnyitották. Ha a dokumentum titkosított, előbb meg kell adni a jelszót; ellenkező esetben az Aspose megtagadja a megnyitást, és a helyreállítás nem indul el.
+
+### Hogyan tudom, hogy a helyreállított dokumentum használható-e?
+
+A legbiztonságosabb mód egy gyors validáció futtatása – például próbáld meg PDF‑ként menteni, vagy iterálj a szakaszain. Ha ezek a műveletek sikeresek, biztos lehetsz benne, hogy a fő tartalom megmaradt.
+
+---
+
+## Mikor használjuk a helyreállítást a visszaeső stratégiákkal szemben
+
+| Helyzet | Ajánlott tevékenység |
+|-----------|--------------------|
+| **Kisebb XML hibák** (hiányzó kapcsolatok, eltévedt címkék) | **Set recovery mode** és folytasd |
+| **Teljes zip sérülés** (nem lehet kicsomagolni) | Kérd a felhasználót, hogy töltse fel újra; a helyreállítás nem segít |
+| **Jelszóval védett fájlok** | Kérd először a jelszót, majd **load document with recovery** |
+| **Nagy mennyiségű kötegelt import** ahol a sebesség fontosabb a tökéletességnél | Próbáld meg a normál betöltést; hiba esetén próbáld újra **recovery mode**‑dal |
+
+A normál betöltés és a helyreállítási kísérlet egymásra építésével a legjobbat kapod: gyors feldolgozás az egészséges fájloknál és elegáns kezelés a hibásaknál.
+
+---
+
+## Következtetés
+
+Most már áttekintettük, hogyan **recover docx** fájlokat C#‑ban az Aspose.Words segítségével, a **set recovery mode**‑tól a **load document with recovery**‑ig, végül a **recover corrupted docx** figyelmeztetések ellenőrzése közben. A teljes példa egy termelésre kész mintát mutat, amelyet bármely .NET szolgáltatásba beilleszthetsz.
+
+Következő lépések? Próbáld megcserélni a kimeneti formátumot – mentsd a helyreállított dokumentumot PDF‑ként, HTML‑ként vagy akár egyszerű szövegként, hogy ellenőrizd, a tartalom megmaradt-e. Érdemes lehet megvizsgálni a `LoadOptions` zászlókat a **LoadOptions.LoadFormat**‑hoz, ha régebbi `.doc` fájlokat kell kezelni.
+
+Nyugodtan kísérletezz, naplózd a figyelmeztetéseket az analitikához, és oszd meg a tapasztalataidat a kommentekben. Boldog kódolást, és legyenek egészségesek a DOCX fájljaid!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

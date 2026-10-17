@@ -1,18 +1,18 @@
 ---
 category: general
-date: 2026-03-28
-description: تعلم كيفية استعادة ملفات docx باستخدام Aspose.Words. يوضح هذا الدليل
-  أيضًا كيفية تكوين وضع الاستعادة وفتح ملفات docx التالفة بأمان.
+date: 2026-02-26
+description: تعلم كيفية استعادة ملفات docx باستخدام Aspose.Words. اضبط وضع الاستعادة،
+  حمّل المستند مع الاستعادة، وقم بإصلاح ملفات docx التالفة بسرعة.
 draft: false
 keywords:
 - how to recover docx
-- recover damaged docx
-- configure recovery mode
-- how to open corrupted docx
+- set recovery mode
+- load document with recovery
+- recover corrupted docx
 language: ar
-og_description: كيف تستعيد ملفات docx في C#؟ اتبع هذا الدليل لتكوين وضع الاسترداد
-  وفتح ملفات docx التالفة بأمان باستخدام Aspose.Words.
-og_title: كيفية استعادة ملفات DOCX في C# – دليل كامل
+og_description: كيفية استعادة ملفات docx باستخدام Aspose.Words. ضبط وضع الاستعادة،
+  تحميل المستند مع الاستعادة، واستعادة ملفات docx التالفة بسهولة.
+og_title: كيفية استعادة ملفات DOCX في C# – دليل شامل
 tags:
 - Aspose.Words
 - C#
@@ -25,199 +25,210 @@ url: /ar/net/programming-with-loadoptions/how-to-recover-docx-files-in-c-step-by
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# كيفية استعادة ملفات DOCX في C# – دليل خطوة بخطوة
+# كيفية استعادة ملفات DOCX في C# – دليل برمجي كامل
 
-هل تساءلت يومًا **how to recover docx** عن الملفات التي ترفض الفتح؟ ربما استلمت تقريرًا مقدمًا من عميل يتسبب في تعطل Word في كل مرة تحاول فيها عرضه. وفقًا لتجربتي، أسرع طريقة لإعادة المستند إلى حالة قابلة للاستخدام هي السماح لمكتبة قوية مثل Aspose.Words بالتعامل مع العملية.  
+هل تساءلت يومًا **كيف تستعيد docx** عندما يبلغك المستخدم عن ملف تالف؟ لست وحدك. في العديد من التطبيقات المؤسسية قد تظهر ملفات DOCX تالفة من لا شيء — ربما انقطع الرفع، أو تعرض القرص لعطل مفاجئ. الخبر السار؟ Aspose.Words يوفّر لك طريقة مدمجة لمحاولة الإصلاح دون الحاجة إلى كتابة محلل مخصص.
 
-في هذا الدرس ستشاهد بالضبط **how to recover docx** للملفات، وتتعلم **configure recovery mode**، وتكتشف النهج الصحيح **how to open corrupted docx** دون أن يتعطل تطبيقك. في النهاية ستحصل على مقتطف جاهز للتنفيذ يحول ملف *.docx* تالف إلى كائن `Document` نظيف يمكنك حفظه أو تحريره أو تصديره.
+في هذا الدليل سنستعرض الخطوات الدقيقة لـ **set recovery mode**، **load document with recovery**، وأخيرًا **recover corrupted docx** حتى يتمكن منطقك اللاحق من الاستمرار. لا إطالة، فقط الكود الذي يمكنك إدراجه في مشروع .NET اليوم.
 
-## ما ستتعلمه
-
-- تثبيت حزمة Aspose.Words عبر NuGet.
-- إعداد `LoadOptions` لاستعادة **recover damaged docx** تلقائيًا.
-- استخدام علم `RecoveryMode.Recover` لـ **configure recovery mode**.
-- التحقق من تحميل المستند بنجاح ومعالجة أي منطق احتياطي.
-- نصائح للتعامل مع الحالات الخاصة مثل الملفات المحمية بكلمة مرور أو الأجزاء المفقودة جزئيًا.
-
-لا يلزم أي معرفة مسبقة بـ Aspose — فقط إعداد أساسي لـ C# ورغبة في التجربة.
+> **Pro tip:** حتى إذا لم يكن الملف فعليًا تالفًا، فإن استخدام وضع الاستعادة يضيف شبكة أمان لا تكلفك تقريبًا أي شيء من حيث الأداء.
 
 ---
 
-![مخطط يوضح تدفق تحميل ملف DOCX تالف مع وضع الاستعادة – how to recover docx](https://example.com/images/recover-docx-flow.png "مخطط مثال how to recover docx")
+## ما الذي ستحتاجه
 
-## المتطلبات المسبقة
+قبل أن نبدأ، تأكد من أن لديك:
 
-- .NET 6.0 أو أحدث (الكود يعمل أيضًا على .NET Framework 4.7+).
-- Visual Studio 2022 (أو أي بيئة تطوير تفضلها).
-- نسخة من مكتبة **Aspose.Words for .NET** – تثبيت عبر NuGet.
-- ملف `input.docx` تالف تجريبي تريد إصلاحه.
+| المتطلب | السبب |
+|------------|--------|
+| **Aspose.Words for .NET** (latest version) | يوفر `LoadOptions.RecoveryMode` |
+| **.NET 6+** (or .NET Framework 4.6+) | بيئة تشغيل مطلوبة للمكتبة |
+| **sample corrupted DOCX** (or any DOCX you want to test) | لمشاهدة عملية الاستعادة عمليًا |
+| **IDE** (Visual Studio, Rider, VS Code) | للتصحيح السريع |
 
-## الخطوة 1 – تثبيت Aspose.Words وإضافة مساحة الاسم
+هذا كل شيء — لا حزم NuGet إضافية، لا تعديل XML، فقط Aspose.Words.
 
-قبل أن تتمكن من **how to open corrupted docx**، تحتاج إلى المكتبة التي تعرف كيفية قراءة صيغ Word.
+![كيفية استعادة docx](/images/how-to-recover-docx.png "توضيح لاستعادة ملف DOCX")
 
-```bash
-dotnet add package Aspose.Words
-```
+---
+
+## كيفية استعادة DOCX – الخطوات الأساسية
+
+فيما يلي التدفق عالي المستوى الذي سنطبقه:
+
+1. **Create a `LoadOptions` object** and tell Aspose to *recover* the file.  
+2. **Load the potentially corrupted document** with those options.  
+3. **Optionally inspect any warnings** that Aspose generated during the load.  
+
+كل خطوة مشروحة بالتفصيل، مع مقتطفات كود يمكنك نسخها ولصقها.
+
+---
+
+## ضبط وضع الاستعادة
+
+أول شيء عليك فعله هو إخبار المكتبة بما تريدها أن تفعله عندما تواجه مشكلة. هنا يأتي دور كلمة **set recovery mode**.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.LoadOptions;
-```
 
-> **نصيحة احترافية:** إذا كنت تستخدم مشروعًا قديمًا، افتح واجهة مدير الحزم NuGet، ابحث عن “Aspose.Words”، وانقر **Install**. الحزمة تشمل جميع المشفرات المطلوبة لتفسير أجزاء DOCX، حتى عندما تكون بعض أجزاء XML مفقودة.
-
-## الخطوة 2 – تكوين وضع الاستعادة لاستعادة DOCX التالف
-
-جوهر **how to recover docx** يكمن في كائن `LoadOptions`. من خلال إخبار Aspose أنك تريد منه *محاولة* إعادة بناء المستند، تقوم بتمكين ميزة **configure recovery mode**.
-
-```csharp
-// Step 2: Create LoadOptions and tell Aspose to recover if possible
+// Step 1: Create LoadOptions and enable recovery
 var loadOptions = new LoadOptions
 {
-    // RecoveryMode.Recover attempts to fix structural issues.
-    RecoveryMode = RecoveryMode.Recover
+    // RecoveryMode.Recover attempts to fix structural issues
+    RecoveryMode = LoadOptions.RecoveryModeMode.Recover
 };
 ```
 
-### لماذا هذا مهم
+**Why this matters:**  
+`RecoveryMode.Recover` يجعل المحمل يفحص حزمة DOCX للعثور على الأجزاء المفقودة، العلاقات المكسورة، أو XML غير صالح. بدلاً من إلقاء استثناء، يحاول إعادة بناء شجرة مستند قابلة للاستخدام. إذا تخطيت هذه الخطوة، سيتسبب ملف تالف في تعطل تطبيقك بـ `FileCorruptedException`.
 
-عند تلف ملف DOCX، غالبًا ما يتوقف Word برسالة عامة “الملف تالف”. `RecoveryMode.Recover` يوجه Aspose إلى:
+---
 
-1. فحص حاوية ZIP للعثور على الأجزاء المفقودة.
-2. إعادة إنشاء الأقسام الافتراضية إذا كانت غائبة.
-3. الحفاظ على أكبر قدر ممكن من محتوى المستخدم (نص، صور، أنماط).
+## تحميل المستند مع الاستعادة
 
-إذا تخطيت هذه الخطوة، سيتسبب مُنشئ `Document` في رمي استثناء ولن تحصل أبدًا على فرصة لإنقاذ أي بيانات.
-
-## الخطوة 3 – تحميل الملف التالف باستخدام الخيارات المكوَّنة
-
-الآن بعد ضبط علم **configure recovery mode**، يصبح فتح الملف التالف أمرًا بسيطًا.
+الآن بعد أن أصبحت الخيارات جاهزة، نقوم فعليًا بـ **load document with recovery**. يُقبل مُنشئ `Document` مسار الملف ومثيل `LoadOptions`.
 
 ```csharp
-// Step 3: Load the potentially corrupted DOCX with the recovery options
-try
+// Step 2: Load the DOCX using the recovery options
+string filePath = @"C:\Docs\Corrupted.docx";
+Document doc = new Document(filePath, loadOptions);
+```
+
+**What happens under the hood?**  
+Aspose يحلل حاوية ZIP، يعيد بناء الأجزاء المفقودة، ويملأ كائن `Document`. إذا لم يتمكن من إصلاح الملف بالكامل، ستحصل على مستند جزئي قابل للاستخدام بالإضافة إلى مجموعة من التحذيرات التي يمكنك مراجعتها.
+
+---
+
+## فحص التحذيرات (اختياري لكن موصى به)
+
+بعد التحميل، قد ترغب في **recover corrupted docx** مع فهم ما حدث. كل تحذير يُخزن في `doc.Warnings`.
+
+```csharp
+// Step 3: Enumerate any warnings generated during recovery
+foreach (var warning in doc.Warnings)
 {
-    Document doc = new Document(@"C:\Docs\input.docx", loadOptions);
-    Console.WriteLine("✅ Document loaded successfully!");
-    
-    // Optional: Save a clean copy to verify the recovery
-    doc.Save(@"C:\Docs\output_recovered.docx");
-    Console.WriteLine("🗂 Clean copy saved as output_recovered.docx");
-}
-catch (Exception ex)
-{
-    Console.Error.WriteLine($"❌ Failed to open the file: {ex.Message}");
-    // You could fall back to a different strategy here,
-    // like extracting raw XML parts manually.
+    Console.WriteLine($"Warning: {warning.Description}");
 }
 ```
 
-### ما المتوقع
+تشمل التحذيرات الشائعة “Missing image part” أو “Invalid bookmark reference”. لا تمنع هذه التحذيرات المستند من أن يكون قابلًا للاستخدام، لكنها تعطيك دلائل للتسجيل أو إبلاغ المستخدم.
 
-- إذا كان الملف متضررًا قليلًا، سترى رسالة “✅ Document loaded successfully!” وملف `output_recovered.docx` جديد يفتح في Word دون تحذيرات.
-- إذا كان التلف شديدًا (مثلاً حاوية ZIP نفسها مكسورة)، سيُنفّذ كتلة الـ catch، وستحصل على خطأ واضح يوضح سبب فشل الاستعادة.
+---
 
-## الخطوة 4 – التحقق من المحتوى المستعاد (How to Open Corrupted DOCX Safely)
+## مثال كامل يعمل
 
-بعد التحميل، من الممارسات الجيدة فحص بعض الخصائص الرئيسية للتأكد من أن المستند لا يفتقد أقسامًا حيوية.
-
-```csharp
-// Verify that at least one section and one paragraph exist
-if (doc.Sections.Count == 0)
-{
-    Console.WriteLine("⚠️ No sections were recovered – the file might be severely corrupted.");
-}
-else
-{
-    Console.WriteLine($"📄 Sections recovered: {doc.Sections.Count}");
-    Console.WriteLine($"📝 First paragraph text: {doc.FirstSection.Body.Paragraphs[0].GetText()}");
-}
-```
-
-من خلال إجراء هذا الفحص السريع، تجيب على السؤال الضمني **how to open corrupted docx** دون المخاطرة بحدوث تعطل لاحق بسبب مرجع فارغ.
-
-## الخطوة 5 – معالجة الحالات الخاصة والمشكلات الشائعة
-
-### الملفات المحمية بكلمة مرور
-
-إذا كان ملف DOCX التالف محميًا أيضًا بكلمة مرور، يحتوي `LoadOptions` على خاصية `Password`. اجمعها مع وضع الاستعادة:
-
-```csharp
-var loadOptions = new LoadOptions
-{
-    RecoveryMode = RecoveryMode.Recover,
-    Password = "MySecret"
-};
-```
-
-### الملفات الكبيرة وضغط الذاكرة
-
-بالنسبة للمستندات بحجم جيجابايت، فكر في تمكين `LoadOptions.LoadFormat` إلى `LoadFormat.Docx` صراحةً. هذا يسرّع عملية تحليل الـ zip الأولية ويقلل من استهلاك الذاكرة.
-
-### عندما تفشل الاستعادة
-
-أحيانًا يكون المسار الوحيد الممكن هو استخراج أجزاء XML الخام وربطها يدويًا. توفر Aspose إصدارات `Document.Save` التي تسمح لك بتصدير العقد الفردية للمعالجة المخصصة.
-
-## مثال كامل يعمل (جاهز للنسخ واللصق)
+نجمع كل ما سبق في برنامج كامل جاهز للتنفيذ. يمكنك نسخ هذا إلى تطبيق Console وتوجيه `filePath` إلى أي DOCX تشك في أنه تالف.
 
 ```csharp
 using System;
 using Aspose.Words;
 using Aspose.Words.LoadOptions;
 
-class RecoverDocxDemo
+namespace DocxRecoveryDemo
 {
-    static void Main()
+    class Program
     {
-        // 1️⃣ Install Aspose.Words via NuGet before running this code.
-
-        // 2️⃣ Configure recovery mode – this is the core of how to recover docx
-        var loadOptions = new LoadOptions
+        static void Main()
         {
-            RecoveryMode = RecoveryMode.Recover   // <-- tells Aspose to attempt fixes
-        };
-
-        // 3️⃣ Attempt to load the corrupted file
-        try
-        {
-            Document doc = new Document(@"C:\Docs\input.docx", loadOptions);
-            Console.WriteLine("✅ Document loaded successfully!");
-
-            // 4️⃣ Quick sanity check – proves how to open corrupted docx safely
-            Console.WriteLine($"📄 Sections: {doc.Sections.Count}");
-            if (doc.Sections.Count > 0)
+            // 1️⃣ Create LoadOptions with recovery enabled
+            var loadOptions = new LoadOptions
             {
-                Console.WriteLine($"📝 First paragraph: {doc.FirstSection.Body.Paragraphs[0].GetText()}");
-            }
+                RecoveryMode = LoadOptions.RecoveryModeMode.Recover
+            };
 
-            // 5️⃣ Save a clean copy for verification
-            string outputPath = @"C:\Docs\output_recovered.docx";
-            doc.Save(outputPath);
-            Console.WriteLine($"🗂 Clean copy written to: {outputPath}");
-        }
-        catch (Exception ex)
-        {
-            Console.Error.WriteLine($"❌ Unable to recover the file: {ex.Message}");
-            // Optional: implement fallback logic here.
+            // 2️⃣ Path to the potentially corrupted DOCX
+            string filePath = @"YOUR_DIRECTORY/Corrupted.docx";
+
+            try
+            {
+                // 3️⃣ Load the document using the recovery options
+                Document doc = new Document(filePath, loadOptions);
+                Console.WriteLine("✅ Document loaded successfully.");
+
+                // 4️⃣ (Optional) Show any warnings that occurred
+                if (doc.Warnings.Count > 0)
+                {
+                    Console.WriteLine("⚠️ Warnings generated during recovery:");
+                    foreach (var warning in doc.Warnings)
+                    {
+                        Console.WriteLine($"- {warning.Description}");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("No warnings – the file looks healthy after recovery.");
+                }
+
+                // 5️⃣ Save the repaired file (you can overwrite or use a new name)
+                string repairedPath = @"YOUR_DIRECTORY/Recovered.docx";
+                doc.Save(repairedPath);
+                Console.WriteLine($"📄 Recovered file saved to: {repairedPath}");
+            }
+            catch (Exception ex)
+            {
+                // If recovery completely fails, we end up here
+                Console.WriteLine($"❌ Unable to recover the document: {ex.Message}");
+            }
         }
     }
 }
 ```
 
-شغّل البرنامج، ووجه `input.docx` إلى ملف يتسبب عادةً في تعطل Word، وشاهد Aspose يعيد بنائه. في معظم السيناريوهات الواقعية ستحصل على مستند قابل للاستخدام وتتفادى مربع الحوار المخيف “الملف تالف”.
+**Expected output**
+
+```
+✅ Document loaded successfully.
+⚠️ Warnings generated during recovery:
+- Missing image part: image1.png
+- Invalid bookmark reference: Bookmark_5
+📄 Recovered file saved to: YOUR_DIRECTORY/Recovered.docx
+```
+
+إذا كان الملف خارج نطاق الإصلاح، سيطبع كتلة `catch` رسالة خطأ بدلاً من تعطل التطبيق بالكامل.
+
+---
+
+## حالات الحافة والأسئلة الشائعة
+
+### ماذا لو لم يكن الملف حزمة ZIP أصلاً؟
+
+Aspose.Words يتوقع حاوية OpenXML صالحة. إذا كان الملف شيئًا آخر (مثل ملف .doc قديم ثنائي)، سيُطلق المحمل استثناء `FileCorruptedException` *قبل* أن يصل إلى منطق الاستعادة. في هذه الحالة تحتاج إلى تحويل الملف أولًا أو استخدام API مختلف.
+
+### هل يؤثر `RecoveryMode.Recover` على الأداء؟
+
+المسح الإضافي يضيف تقريبًا 5‑10 % عبء على المستندات الكبيرة، وهو أمر ضئيل لمعظم خدمات الويب. إذا كنت تعالج آلاف الملفات في الثانية، قم بالاختبار واعتبر تشغيل الوضع فقط للملفات التي تفشل في المحاولة الأولى.
+
+### هل يمكنني استعادة DOCX محمي بكلمة مرور؟
+
+لا. الاستعادة تُجرى **بعد** فتح الملف بنجاح. إذا كان المستند مشفرًا، يجب أن تزود كلمة المرور أولًا؛ وإلا سيت رفض Aspose فتحه ولن تُفعَّل الاستعادة.
+
+### كيف أعرف ما إذا كان المستند المستعاد قابلًا للاستخدام؟
+
+الأكثر أمانًا هو إجراء تحقق سريع — مثلاً محاولة حفظه كـ PDF أو التجول عبر أقسامه. إذا نجحت هذه العمليات، يمكنك أن تكون واثقًا من بقاء المحتوى الأساسي.
+
+---
+
+## متى تستخدم الاستعادة مقابل استراتيجيات الاحتياط
+
+| الحالة | الإجراء الموصى به |
+|-----------|--------------------|
+| **مشكلات XML طفيفة** (علاقات مفقودة، وسوم غريبة) | **Set recovery mode** والاستمرار |
+| **فساد كامل للـ zip** (لا يمكن فك الضغط) | طلب إعادة رفع من المستخدم؛ الاستعادة لن تساعد |
+| **ملفات محمية بكلمة مرور** | طلب كلمة المرور أولًا، ثم **load document with recovery** |
+| **استيراد دفعات ضخمة** حيث السرعة أهم من الكمال | محاولة التحميل العادي؛ عند الفشل، إعادة المحاولة بـ **recovery mode** |
+
+بدمج تحميل عادي يليه محاولة استعادة، تحصل على أفضل ما في العالمين: معالجة سريعة للملفات السليمة وتعامل سلس مع الملفات التالفة.
+
+---
 
 ## الخلاصة
 
-لقد استعرضنا **how to recover docx** للملفات خطوة بخطوة، من تثبيت Aspose.Words إلى **configure recovery mode** وأخيرًا **how to open corrupted docx** بأمان. الخلاصة الأساسية؟ ضبط `RecoveryMode = RecoveryMode.Recover` يقوم بمعظم العمل الشاق، مما يتيح لك التركيز على منطق الأعمال بدلاً من إصلاحات XML منخفضة المستوى.
+لقد غطينا للتو **how to recover docx** في C# باستخدام Aspose.Words، من **set recovery mode** إلى **load document with recovery** وأخيرًا **recover corrupted docx** مع فحص التحذيرات. المثال الكامل يُظهر نمطًا جاهزًا للإنتاج يمكنك إدراجه في أي خدمة .NET.
 
-بعد ذلك، قد تستكشف:
+ما الخطوة التالية؟ جرّب تغيير صيغة الإخراج — احفظ المستند المستعاد كـ PDF أو HTML أو حتى نص عادي للتحقق من بقاء المحتوى. يمكنك أيضًا استكشاف أعلام `LoadOptions` لـ **LoadOptions.LoadFormat** إذا احتجت التعامل مع ملفات `.doc` القديمة.
 
-- **Recover damaged docx** ملفات تحتوي على مخططات أو ماكرو مدمجة.
-- تحويل المستند المستعاد إلى PDF أو HTML للمعالجة اللاحقة.
-- أتمتة الاستعادة الدفعية لمجلد مليء بالتقارير التالفة.
-
-جرّبه، عدّل الخيارات لتناسب بيئتك، وأخبرنا كيف يعمل بالنسبة لك. برمجة سعيدة!
+لا تتردد في التجربة، سجل التحذيرات للتحليلات، وشارك نتائجك في التعليقات. برمجة سعيدة، ولتظل ملفات DOCX الخاصة بك بصحة جيدة!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

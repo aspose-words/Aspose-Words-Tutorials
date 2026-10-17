@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: このチュートリアルでは、Word ドキュメントの作成、列チャートの挿入、カスタム データ系列の追加、そしてチャート内のすべての系列に均一に適用されるデフォルトのデータ ラベルのフォントサイズと色の定義方法を示します。
+//ExStepSummary:0: 新しい空の Word ドキュメントと、それを編集するための DocumentBuilder を作成します。
+//ExStepSummary:1: ドキュメントに 500×300 の列チャートを挿入し、その Chart オブジェクトを取得します。
+//ExStepSummary:2: Aspose.Words が新しいチャートに追加するデフォルトのサンプル系列を削除します。
+//ExStepSummary:3: カテゴリ ラベルを定義し、2 つのデータ系列（Item Alpha と Item Beta）とその値をチャートに追加します。
+//ExStepSummary:4: すべてのデータ ラベルに適用されるベースラインのフォントサイズと色を設定します。
+//ExStepSummary:5: 各系列のデータ ラベルを有効にし、数値を表示し、事前定義されたフォントサイズと色を適用します。
+//ExStepSummary:6: ドキュメントを .docx ファイルとして保存します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document document = new Document();
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:1-
+Shape chartContainer = builder.InsertChart(ChartType.Column, 500, 300);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+
+//ExStep:3-
+string[] periods = { "Period 1", "Period 2", "Period 3", "Period 4" };
+chart.Series.Add("Item Alpha", periods, new double[] { 120, 150, 170, 130 });
+chart.Series.Add("Item Beta", periods, new double[] { 80, 110, 140, 100 });
+
+//ExStep:4-
+const float labelFontSize = 10f;
+Color labelFontColor = Color.White;
+
+//ExStep:5-
+foreach (ChartSeries series in chart.Series)
+{
+    series.HasDataLabels = true;
+    series.DataLabels.ShowValue = true;
+    series.DataLabels.Font.Size = labelFontSize;
+    series.DataLabels.Font.Color = labelFontColor;
+}
+
+//ExStep:6-
+document.Save("UniformLabelChart.docx");
+//ExEnd

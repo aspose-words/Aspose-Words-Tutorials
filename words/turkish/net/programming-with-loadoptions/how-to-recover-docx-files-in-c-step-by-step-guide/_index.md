@@ -1,19 +1,19 @@
 ---
 category: general
-date: 2026-03-28
+date: 2026-02-26
 description: Aspose.Words kullanarak docx dosyalarını nasıl kurtaracağınızı öğrenin.
-  Bu rehber ayrıca kurtarma modunu nasıl yapılandıracağınızı ve bozuk docx dosyalarını
-  güvenli bir şekilde nasıl açacağınızı gösterir.
+  Kurtarma modunu ayarlayın, belgeyi kurtarma ile yükleyin ve bozuk docx dosyasını
+  hızlıca düzeltin.
 draft: false
 keywords:
 - how to recover docx
-- recover damaged docx
-- configure recovery mode
-- how to open corrupted docx
+- set recovery mode
+- load document with recovery
+- recover corrupted docx
 language: tr
-og_description: C#'de docx dosyalarını nasıl kurtarabilirsiniz? Kurtarma modunu yapılandırmak
-  ve bozuk docx dosyalarını Aspose.Words ile güvenli bir şekilde açmak için bu öğreticiyi
-  izleyin.
+og_description: Aspose.Words kullanarak docx dosyalarını nasıl kurtarabilirsiniz.
+  Kurtarma modunu ayarlayın, belgeyi kurtarma ile yükleyin ve bozuk docx dosyasını
+  zahmetsizce geri getirin.
 og_title: C#'ta DOCX Dosyalarını Kurtarma – Tam Rehber
 tags:
 - Aspose.Words
@@ -27,199 +27,210 @@ url: /tr/net/programming-with-loadoptions/how-to-recover-docx-files-in-c-step-by
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# C#'ta DOCX Dosyalarını Kurtarma – Adım Adım Kılavuz
+# C#'ta DOCX Dosyalarını Kurtarma – Tam Programlama Öğreticisi
 
-Hiç **docx dosyalarını nasıl kurtarılır** dosyalarının açılmayı reddettiğini merak ettiniz mi? Belki bir müşteriden aldığınız rapor, her görüntülemeye çalıştığınızda Word'ü çökertiyor. Deneyimime göre, bu belgeyi yeniden kullanılabilir bir duruma getirmenin en hızlı yolu, Aspose.Words gibi sağlam bir kütüphanenin ağır işi üstlenmesine izin vermektir.  
+Hiç **docx nasıl kurtarılır** diye merak ettiniz mi, bir kullanıcı bozuk bir dosya bildirdiğinde? Tek başınıza değilsiniz. Birçok kurumsal uygulamada, bir DOCX dosyası birden ortaya çıkabilir—belki yükleme kesintiye uğradı, ya da disk bir aksaklık yaşadı. İyi haber? Aspose.Words, özel bir ayrıştırıcı yazmadan bir düzeltme denemek için yerleşik bir yol sunar.
 
-Bu öğreticide tam olarak **docx dosyalarını nasıl kurtarılır** dosyalarını görecek, **recovery mode'u yapılandırmayı** öğrenecek ve uygulamanızı çökertmeden **bozuk docx dosyalarını nasıl açılır** sorusunun doğru yaklaşımını keşfedeceksiniz. Sonunda, kırık bir *.docx* dosyasını kaydedebileceğiniz, düzenleyebileceğiniz veya dışa aktarabileceğiniz temiz bir `Document` nesnesine dönüştüren, çalıştırmaya hazır bir kod parçasına sahip olacaksınız.
+Bu rehberde **kurtarma modunu ayarla**, **kurtarma ile belgeyi yükle** ve sonunda **bozuk docx'i kurtar** adımlarını tam olarak göstereceğiz, böylece sonraki mantığınız çalışmaya devam edebilir. Gereksiz ayrıntı yok, sadece .NET projenize bugün ekleyebileceğiniz kod.
 
-## Öğrenecekleriniz
-
-- Aspose.Words NuGet paketini kurun.
-- `LoadOptions`'ı otomatik olarak **hasarlı docx'i kurtarmak** için yapılandırın.
-- `RecoveryMode.Recover` bayrağını **recovery mode'u yapılandırmak** için kullanın.
-- Belgenin başarıyla yüklendiğini doğrulayın ve olası geri dönüş mantığını yönetin.
-- Şifre korumalı veya kısmen eksik bölümler gibi uç durumlarla başa çıkmak için ipuçları.
-
-Aspose hakkında önceden bilgi sahibi olmanız gerekmez—sadece temel bir C# ortamı ve deneme isteği yeterlidir.
+> **Pro tip:** Dosya aslında bozuk olmasa bile, kurtarma modunu kullanmak performansta neredeyse hiç maliyet getirmeyen bir güvenlik ağı ekler.
 
 ---
 
-![Bozuk bir DOCX'in recovery mode ile yüklenme akışını gösteren diyagram – docx nasıl kurtarılır](https://example.com/images/recover-docx-flow.png "docx nasıl kurtarılır örnek diyagramı")
+## Gereksinimler
 
-## Önkoşullar
+İlerlemeye başlamadan önce şunların olduğundan emin olun:
 
-- .NET 6.0 veya daha yeni bir sürüm (kod .NET Framework 4.7+ üzerinde de çalışır).
-- Visual Studio 2022 (veya tercih ettiğiniz herhangi bir IDE).
-- **Aspose.Words for .NET** kütüphanesinin bir kopyası – NuGet üzerinden kurun.
-- Düzeltmek istediğiniz örnek bozuk `input.docx`.
+| Gereksinim | Sebep |
+|------------|--------|
+| **Aspose.Words for .NET** (latest version) | `LoadOptions.RecoveryMode` sağlar |
+| **.NET 6+** (or .NET Framework 4.6+) | Kütüphane için gerekli çalışma zamanı |
+| A **sample corrupted DOCX** (or any DOCX you want to test) | Kurtarmayı eylemde görmek için |
+| An IDE (Visual Studio, Rider, VS Code) | Hızlı hata ayıklama için |
 
-## Adım 1 – Aspose.Words'ı Kurun ve Namespace'i Ekleyin
+Hepsi bu—ek NuGet paketleri, XML ayarlamaları yok, sadece Aspose.Words.
 
-Bozuk docx dosyalarını **nasıl açacağınızı** öğrenmeden önce, Word formatlarını okuyabilen kütüphaneye ihtiyacınız var.
+![docx nasıl kurtarılır](/images/how-to-recover-docx.png "DOCX dosyasını kurtarmanın illüstrasyonu")
 
-```bash
-dotnet add package Aspose.Words
-```
+---
+
+## DOCX'i Kurtarma – Temel Adımlar
+
+Aşağıda uygulayacağımız yüksek‑seviye akış yer alıyor:
+
+1. **`LoadOptions` nesnesi oluştur** ve Aspose'a dosyayı *kurtarmasını* söyle.  
+2. **Olası bozuk belgeyi** bu seçeneklerle yükle.  
+3. **İsteğe bağlı olarak**, yükleme sırasında Aspose'un ürettiği uyarıları incele.  
+
+Her adım ayrıntılı olarak açıklanacak, kopyalayıp yapıştırabileceğiniz kod parçacıklarıyla.
+
+---
+
+## Kurtarma Modunu Ayarlama
+
+Kütüphaneye bir sorunla karşılaştığında ne yapmasını istediğinizi söylemeniz gerekir. İşte **kurtarma modunu ayarla** anahtar kelimesinin devreye girdiği yer.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.LoadOptions;
-```
 
-> **İpucu:** Eski bir proje kullanıyorsanız, NuGet Package Manager UI'yi açın, “Aspose.Words” için arama yapın ve **Install** (Yükle) düğmesine tıklayın. Paket, bazı XML parçaları eksik olsa bile DOCX bölümlerini yorumlamak için gereken tüm codec'leri içerir.
-
-## Adım 2 – Bozuk DOCX'i Kurtarmak İçin Recovery Mode'u Yapılandırın
-
-`LoadOptions` nesnesi, **docx dosyalarını nasıl kurtarılır** sorusunun kalbidir. Aspose'a belgeyi *yeniden oluşturmayı* denemesini söyleyerek, **recovery mode'u yapılandırma** özelliğini etkinleştirirsiniz.
-
-```csharp
-// Step 2: Create LoadOptions and tell Aspose to recover if possible
+// Step 1: Create LoadOptions and enable recovery
 var loadOptions = new LoadOptions
 {
-    // RecoveryMode.Recover attempts to fix structural issues.
-    RecoveryMode = RecoveryMode.Recover
+    // RecoveryMode.Recover attempts to fix structural issues
+    RecoveryMode = LoadOptions.RecoveryModeMode.Recover
 };
 ```
 
-### Neden Önemli
+**Neden önemli:**  
+`RecoveryMode.Recover` yükleyicinin DOCX paketini eksik parçalar, kırık ilişkiler veya hatalı XML için taramasını sağlar. Bir istisna fırlatmak yerine kullanılabilir bir belge ağacı oluşturmaya çalışır. Bu adımı atlayıp bir bozuk dosya yüklerseniz uygulamanız `FileCorruptedException` ile çökebilir.
 
-Bir DOCX bozulduğunda, Word genellikle genel bir “dosya bozuk” mesajı vererek işlemi durdurur. `RecoveryMode.Recover` Aspose'a şunları yapmasını söyler:
+---
 
-1. ZIP konteynerini eksik parçalar için tarar.
-2. Varsayılan bölümler yoksa yeniden oluşturur.
-3. Kullanıcı içeriğini (metin, resimler, stiller) mümkün olduğunca korur.
+## Kurtarma ile Belgeyi Yükleme
 
-Bu adımı atladığınızda, `Document` yapıcı fonksiyonu bir istisna fırlatır ve hiçbir veriyi kurtarma şansınız olmaz.
-
-## Adım 3 – Yapılandırılmış Seçeneklerle Bozuk Dosyayı Yükleyin
-
-Artık **recovery mode'u yapılandırma** bayrağı ayarlandığına göre, bozuk dosyayı açmak oldukça basittir.
+Seçenekler hazır olduğuna göre, **kurtarma ile belgeyi yükle** işlemini gerçekleştireceğiz. `Document` yapıcı metodu bir dosya yolu ve bir `LoadOptions` örneği alır.
 
 ```csharp
-// Step 3: Load the potentially corrupted DOCX with the recovery options
-try
+// Step 2: Load the DOCX using the recovery options
+string filePath = @"C:\Docs\Corrupted.docx";
+Document doc = new Document(filePath, loadOptions);
+```
+
+**Arka planda ne olur?**  
+Aspose ZIP konteynerini ayrıştırır, eksik parçaları yeniden oluşturur ve `Document` nesnesini doldurur. Dosyayı tamamen onaramazsa yine de kısmen kullanılabilir bir belge ve gözden geçirebileceğiniz bir uyarı koleksiyonu alırsınız.
+
+---
+
+## Uyarıları İnceleme (İsteğe Bağlı ama Tavsiye Edilir)
+
+Yükledikten sonra **bozuk docx'i kurtar** ve aynı zamanda neyin yanlış gittiğini anlamak isteyebilirsiniz. Her uyarı `doc.Warnings` içinde saklanır.
+
+```csharp
+// Step 3: Enumerate any warnings generated during recovery
+foreach (var warning in doc.Warnings)
 {
-    Document doc = new Document(@"C:\Docs\input.docx", loadOptions);
-    Console.WriteLine("✅ Document loaded successfully!");
-    
-    // Optional: Save a clean copy to verify the recovery
-    doc.Save(@"C:\Docs\output_recovered.docx");
-    Console.WriteLine("🗂 Clean copy saved as output_recovered.docx");
-}
-catch (Exception ex)
-{
-    Console.Error.WriteLine($"❌ Failed to open the file: {ex.Message}");
-    // You could fall back to a different strategy here,
-    // like extracting raw XML parts manually.
+    Console.WriteLine($"Warning: {warning.Description}");
 }
 ```
 
-### Beklenen Sonuçlar
+Tipik uyarılar “Missing image part” (Eksik resim bölümü) veya “Invalid bookmark reference” (Geçersiz yer imi referansı) gibi mesajlar içerir. Belgeyi kullanılabilir kılmayı engellemezler, ancak günlükleme veya kullanıcı geri bildirimi için ipuçları verirler.
 
-- Dosya sadece hafifçe zarar görmüşse, “✅ Document loaded successfully!” mesajını göreceksiniz ve Word'de uyarı vermeden açılan yeni bir `output_recovered.docx` elde edeceksiniz.
-- Eğer bozulma ciddi ise (örneğin ZIP konteyneri kendisi bozuksa), catch bloğu çalışır ve kurtarmanın neden başarısız olduğunu açıklayan net bir hata alırsınız.
+---
 
-## Adım 4 – Kurtarılan İçeriği Doğrulayın (Bozuk DOCX'i Güvenli Açma)
+## Tam Çalışan Örnek
 
-Yükledikten sonra, belgenin kritik bölümlerinin eksik olmadığını doğrulamak için birkaç önemli özelliği incelemek iyi bir uygulamadır.
-
-```csharp
-// Verify that at least one section and one paragraph exist
-if (doc.Sections.Count == 0)
-{
-    Console.WriteLine("⚠️ No sections were recovered – the file might be severely corrupted.");
-}
-else
-{
-    Console.WriteLine($"📄 Sections recovered: {doc.Sections.Count}");
-    Console.WriteLine($"📝 First paragraph text: {doc.FirstSection.Body.Paragraphs[0].GetText()}");
-}
-```
-
-Bu hızlı tutarlılık kontrolünü yaparak, **bozuk docx dosyalarını nasıl açılır** sorusuna, ileride oluşabilecek null‑reference hatasından kaçınarak yanıt vermiş olursunuz.
-
-## Adım 5 – Uç Durumları ve Yaygın Tuzakları Ele Alma
-
-### Şifre Koruması Olan Dosyalar
-
-Bozuk DOCX aynı zamanda şifre korumalıysa, `LoadOptions` içinde bir `Password` özelliği bulunur. Bunu recovery mode ile birleştirin:
-
-```csharp
-var loadOptions = new LoadOptions
-{
-    RecoveryMode = RecoveryMode.Recover,
-    Password = "MySecret"
-};
-```
-
-### Büyük Dosyalar ve Bellek Yükü
-
-Gigabayt boyutundaki belgeler için, `LoadOptions.LoadFormat`'u açıkça `LoadFormat.Docx` olarak ayarlamayı düşünün. Bu, ilk zip ayrıştırmasını hızlandırır ve bellek tüketimini azaltır.
-
-### Kurtarma Başarısız Olduğunda
-
-Bazen tek uygulanabilir yol, ham XML parçalarını çıkarmak ve manuel olarak birleştirmektir. Aspose, özel işleme için tek tek düğümleri dışa aktarmanızı sağlayan `Document.Save` aşırı yüklemeleri sunar.
-
-## Tam Çalışan Örnek (Kopyala-Yapıştır Hazır)
+Hepsini bir araya getirdiğimizde, işte eksiksiz, çalıştırmaya hazır bir program. Bu kodu bir konsol uygulamasına kopyalayıp `filePath` değişkenini bozuk olduğunu düşündüğünüz herhangi bir DOCX dosyasına yönlendirebilirsiniz.
 
 ```csharp
 using System;
 using Aspose.Words;
 using Aspose.Words.LoadOptions;
 
-class RecoverDocxDemo
+namespace DocxRecoveryDemo
 {
-    static void Main()
+    class Program
     {
-        // 1️⃣ Install Aspose.Words via NuGet before running this code.
-
-        // 2️⃣ Configure recovery mode – this is the core of how to recover docx
-        var loadOptions = new LoadOptions
+        static void Main()
         {
-            RecoveryMode = RecoveryMode.Recover   // <-- tells Aspose to attempt fixes
-        };
-
-        // 3️⃣ Attempt to load the corrupted file
-        try
-        {
-            Document doc = new Document(@"C:\Docs\input.docx", loadOptions);
-            Console.WriteLine("✅ Document loaded successfully!");
-
-            // 4️⃣ Quick sanity check – proves how to open corrupted docx safely
-            Console.WriteLine($"📄 Sections: {doc.Sections.Count}");
-            if (doc.Sections.Count > 0)
+            // 1️⃣ Create LoadOptions with recovery enabled
+            var loadOptions = new LoadOptions
             {
-                Console.WriteLine($"📝 First paragraph: {doc.FirstSection.Body.Paragraphs[0].GetText()}");
-            }
+                RecoveryMode = LoadOptions.RecoveryModeMode.Recover
+            };
 
-            // 5️⃣ Save a clean copy for verification
-            string outputPath = @"C:\Docs\output_recovered.docx";
-            doc.Save(outputPath);
-            Console.WriteLine($"🗂 Clean copy written to: {outputPath}");
-        }
-        catch (Exception ex)
-        {
-            Console.Error.WriteLine($"❌ Unable to recover the file: {ex.Message}");
-            // Optional: implement fallback logic here.
+            // 2️⃣ Path to the potentially corrupted DOCX
+            string filePath = @"YOUR_DIRECTORY/Corrupted.docx";
+
+            try
+            {
+                // 3️⃣ Load the document using the recovery options
+                Document doc = new Document(filePath, loadOptions);
+                Console.WriteLine("✅ Document loaded successfully.");
+
+                // 4️⃣ (Optional) Show any warnings that occurred
+                if (doc.Warnings.Count > 0)
+                {
+                    Console.WriteLine("⚠️ Warnings generated during recovery:");
+                    foreach (var warning in doc.Warnings)
+                    {
+                        Console.WriteLine($"- {warning.Description}");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("No warnings – the file looks healthy after recovery.");
+                }
+
+                // 5️⃣ Save the repaired file (you can overwrite or use a new name)
+                string repairedPath = @"YOUR_DIRECTORY/Recovered.docx";
+                doc.Save(repairedPath);
+                Console.WriteLine($"📄 Recovered file saved to: {repairedPath}");
+            }
+            catch (Exception ex)
+            {
+                // If recovery completely fails, we end up here
+                Console.WriteLine($"❌ Unable to recover the document: {ex.Message}");
+            }
         }
     }
 }
 ```
 
-Programı çalıştırın, `input.docx`'i genellikle Word'ü çökerten bir dosyaya yönlendirin ve Aspose'un onu yeniden inşa etmesini izleyin. Çoğu gerçek dünyadaki senaryoda kullanılabilir bir belge elde eder ve korkutucu “dosya bozuk” iletişim kutusundan kaçınırsınız.
+**Beklenen çıktı**
+
+```
+✅ Document loaded successfully.
+⚠️ Warnings generated during recovery:
+- Missing image part: image1.png
+- Invalid bookmark reference: Bookmark_5
+📄 Recovered file saved to: YOUR_DIRECTORY/Recovered.docx
+```
+
+Dosya onarılamaz durumdaysa, catch bloğu uygulamanın çökmesi yerine bir hata mesajı yazdırır.
+
+---
+
+## Kenar Durumları ve Yaygın Sorular
+
+### Dosya hiç bir ZIP paketi değilse ne olur?
+
+Aspose.Words geçerli bir OpenXML konteyneri bekler. Dosya başka bir şeyse (ör. eski bir .doc ikili dosyası), yükleyici `FileCorruptedException` fırlatır ve kurtarma mantığına hiç ulaşmaz. Bu durumda önce dosyayı dönüştürmeniz ya da farklı bir API kullanmanız gerekir.
+
+### `RecoveryMode.Recover` performansı etkiler mi?
+
+Ek tarama, büyük belgelerde yaklaşık %5‑10 ek yük getirir; çoğu web servisi için ihmal edilebilir bir seviyedir. Saniyede binlerce dosya işliyorsanız, ölçüm yapın ve yalnızca ilk yükleme denemesinde başarısız olan dosyalar için modu etkinleştirmeyi düşünün.
+
+### Şifre korumalı bir DOCX'i kurtarabilir miyim?
+
+Hayır. Kurtarma, dosya **after** (sonra) başarıyla açıldıktan sonra çalışır. Belge şifrelenmişse önce şifreyi sağlamalısınız; aksi takdirde Aspose açmayı reddeder ve kurtarma devreye girmez.
+
+### Kurtarılan belgenin kullanılabilir olduğunu nasıl anlarsınız?
+
+En güvenli yol hızlı bir doğrulama çalıştırmaktır—ör. PDF olarak kaydetmeyi deneyin ya da bölümlerini döngüyle gezinin. Bu işlemler başarılı olursa, temel içeriğin hayatta kaldığından emin olabilirsiniz.
+
+---
+
+## Kurtarma ve Yedek Stratejileri Ne Zaman Kullanılır
+
+| Durum | Önerilen Eylem |
+|-----------|--------------------|
+| **Küçük XML hataları** (eksik ilişkiler, hatalı etiketler) | **kurtarma modunu ayarla** ve devam et |
+| **Tam zip bozulması** (açma mümkün değil) | Kullanıcıyı yeniden yüklemeye yönlendir; kurtarma yardımcı olmayacak |
+| **Şifre korumalı dosyalar** | Önce şifre iste, ardından **kurtarma ile belgeyi yükle** |
+| **Toplu toplu içe aktarma**; hız mükemmeliyetten daha önemli | Normal yüklemeyi dene; başarısız olursa **kurtarma moduyla** yeniden dene |
+
+Normal bir yükleme ardından kurtarma denemesi katmanlayarak, her iki dünyanın da en iyisini elde edersiniz: sağlıklı dosyalar için hızlı işleme ve bozuk olanlar için sorunsuz yönetim.
+
+---
 
 ## Sonuç
 
-Aspose.Words'ı kurmaktan **recovery mode'u yapılandırmaya** ve sonunda **bozuk docx dosyalarını güvenli bir şekilde nasıl açılır** konusuna kadar **docx dosyalarını nasıl kurtarılır** adımlarını adım adım inceledik. Temel çıkarım? `RecoveryMode = RecoveryMode.Recover` ayarı, ağır işi büyük ölçüde üstlenir ve düşük seviyeli XML onarımları yerine iş mantığına odaklanmanızı sağlar.
+**docx nasıl kurtarılır** dosyalarını C# ile Aspose.Words kullanarak, **kurtarma modunu ayarla** adımından **kurtarma ile belgeyi yükle** ve sonunda **bozuk docx'i kurtar** adımlarına kadar ele aldık, ayrıca uyarıları incelemeyi de gösterdik. Tam örnek, herhangi bir .NET servisine ekleyebileceğiniz üretim‑hazır bir desen sunar.
 
-Sonra şunları keşfedebilirsiniz:
+Sonraki adımlar? Çıktı formatını değiştirin—kurtarılan belgeyi PDF, HTML ya da düz metin olarak kaydedip içeriğin hayatta kalıp kalmadığını doğrulayın. Ayrıca eski `.doc` dosyalarını ele almanız gerekiyorsa **LoadOptions.LoadFormat** bayraklarını keşfedebilirsiniz.
 
-- Gömülü grafikler veya makrolar içeren **hasarlı docx** dosyalarını kurtarmak.
-- Kurtarılan belgeyi PDF veya HTML'ye dönüştürmek, sonraki işleme için.
-- Bozuk raporlarla dolu bir klasör için toplu kurtarmayı otomatikleştirmek.
-
-Deneyin, seçenekleri ortamınıza göre ayarlayın ve nasıl çalıştığını bize bildirin. İyi kodlamalar!
+Deneyler yapmaktan, uyarıları analiz için kaydetmekten ve bulgularınızı yorumlarda paylaşmaktan çekinmeyin. Mutlu kodlamalar, ve DOCX dosyalarınız sağlıklı kalsın!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,25 +1,25 @@
 ---
 category: general
-date: 2026-03-28
-description: Utwórz dostępny PDF z dokumentów Word przy użyciu C#. Dowiedz się, jak
-  konwertować Word na PDF i konfigurować dostępność PDF w kilka minut.
+date: 2026-03-21
+description: Utwórz dostępny PDF z dokumentu Word przy użyciu Aspose.Words. Konwertuj
+  Word na PDF, wyeksportuj dokument jako PDF i dowiedz się, jak uczynić PDF dostępnym.
 draft: false
 keywords:
 - create accessible pdf
 - convert word to pdf
-- export docx to pdf
+- export document as pdf
+- convert docx to pdf
 - how to make pdf accessible
-- configure pdf accessibility
 language: pl
-og_description: Utwórz dostępny PDF z Worda w C#. Skorzystaj z tego przewodnika, aby
-  przekonwertować Word na PDF, wyeksportować DOCX do PDF i skonfigurować dostępność
-  PDF.
-og_title: Utwórz dostępny PDF z Worda – Kompletny samouczek C#
+og_description: Stwórz dostępny PDF z pliku Word w kilka minut. Skorzystaj z tego
+  przewodnika, aby przekonwertować docx na PDF i zapewnić zgodność z PDF/UA‑1.
+og_title: Tworzenie dostępnego PDF z Worda – Kompletny przewodnik
 tags:
 - Aspose.Words
+- PDF accessibility
 - C#
-- PDF/UA
-title: Utwórz dostępny PDF z Worda – Przewodnik krok po kroku
+- Document conversion
+title: Tworzenie dostępnego PDF z Worda – Przewodnik krok po kroku
 url: /pl/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-step-by-step-guide/
 ---
 
@@ -27,218 +27,210 @@ url: /pl/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-ste
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Utwórz dostępny PDF z Worda – Kompletny samouczek C#
+# Utwórz dostępny PDF z Worda – przewodnik krok po kroku
 
-Czy kiedykolwiek potrzebowałeś **utworzyć dostępny PDF** z pliku Word, ale nie byłeś pewien, które ustawienia włączyć? Nie jesteś sam. W wielu przedsiębiorstwach zespoły ds. zgodności wymagają PDF‑ów spełniających standardy PDF/UA (Universal Accessibility), a programiści często zastanawiają się, *jak uczynić PDF dostępnym* bez pisania mnóstwa dodatkowego kodu.
+Czy kiedykolwiek potrzebowałeś **utworzyć dostępny PDF** bezpośrednio z dokumentu Word, ale nie wiedziałeś od czego zacząć? Nie jesteś sam — wielu programistów napotyka ten sam problem, gdy regulacje dotyczące dostępności pojawiają się na liście kontrolnej projektu. Dobre wieści? Kilka linii C# i Aspose.Words pozwala przekonwertować *.docx* na PDF spełniający standardy PDF/UA‑1, a także dowiesz się **jak uczynić PDF dostępnym** dla użytkowników czytników ekranu.
 
-Dobre wieści? Kilka linijek C# i odpowiednia biblioteka pozwolą Ci **konwertować Word do PDF** i skonfigurować dostępność PDF w mgnieniu oka. W tym samouczku przeprowadzimy Cię przez cały proces — od wczytania pliku `.docx` po zapisanie dostępnego PDF — abyś już dziś mógł dostarczać zgodne dokumenty.
-
-> **Czego się nauczysz**
-> * Jak **eksportować DOCX do PDF** zachowując tagi i strukturę.  
-> * Które ustawienia `PdfSaveOptions` włączają zgodność z PDF/UA.  
-> * Wskazówki dotyczące obsługi obrazów, tabel i własnych stylów, aby wynik naprawdę przeszedł kontrole dostępności.  
-
-Bez zbędnego lania wody, tylko praktyczny, gotowy do uruchomienia przykład, który możesz wkleić do dowolnego projektu .NET.
+W tym samouczku przeprowadzimy Cię przez cały proces: wczytanie *.docx*, skonfigurowanie odpowiednich opcji zapisu i w końcu wyeksportowanie dokumentu jako PDF gotowego do kontroli zgodności. Po zakończeniu będziesz w stanie **convert word to pdf**, **export document as pdf** i będziesz pewny, że wynik respektuje najlepsze praktyki dostępności. Bez zewnętrznych narzędzi, bez ręcznego tagowania — tylko czysty, programowy kod.
 
 ## Wymagania wstępne
 
-Zanim przejdziemy dalej, upewnij się, że masz:
+Zanim zaczniemy, upewnij się, że masz:
 
-| Wymaganie | Dlaczego jest ważne |
-|-----------|---------------------|
-| **.NET 6.0 lub nowszy** | Nowoczesne funkcje języka i lepsza wydajność. |
-| **Aspose.Words for .NET** (najnowsza wersja) | Dostarcza klasy `Document` i `PdfSaveOptions` używane w kodzie. |
-| **Visual Studio 2022** (lub dowolne inne IDE) | Ułatwia debugowanie i zarządzanie projektem. |
-| **Przykładowy plik `.docx`** (np. `input.docx`) | Źródłowy dokument Word, który chcesz przekonwertować. |
+| Wymaganie | Powód |
+|-------------|--------|
+| .NET 6.0 or later | Aspose.Words obsługuje .NET Standard 2.0+, .NET 6 jest aktualnym LTS. |
+| Aspose.Words for .NET (NuGet package `Aspose.Words`) | Udostępnia `Document`, `PdfSaveOptions` oraz funkcje zgodności PDF/UA. |
+| A sample Word file (`input.docx`) | Źródło, które zostanie przekonwertowane. |
+| Basic C# knowledge | Przydatna, ale nieobowiązkowa; kod jest obficie skomentowany. |
 
-Jeśli jeszcze nie zainstalowałeś Aspose.Words, uruchom:
+Możesz zainstalować bibliotekę za pomocą:
 
 ```bash
 dotnet add package Aspose.Words
 ```
 
-To wszystko — nie potrzebujesz dodatkowych DLL‑ów ani natywnych zależności.
+> **Pro tip:** Jeśli pracujesz w Visual Studio, interfejs UI Menedżera Pakietów NuGet wykonuje tę samą czynność w kilku kliknięciach.
 
-## Przegląd rozwiązania
+---
 
-Na wysokim poziomie wykonamy następujące kroki:
+## Krok 1 – Wczytaj dokument Word, który chcesz przekonwertować
 
-1. Wczytamy źródłowy dokument Word.  
-2. Utworzymy obiekt `PdfSaveOptions` i ustawimy jego właściwość `Compliance` na `PdfUAX` (lub `PdfUAX2` dla nowszej specyfikacji).  
-3. Zapiszemy dokument jako dostępny PDF.
-
-Każdy krok jest opisany poniżej, a zobaczysz, dlaczego **konfiguracja dostępności PDF** jest kluczem do przejścia walidacji PDF/UA.
-
-![Create accessible PDF example](/images/accessible-pdf.png){alt="Utwórz dostępny PDF przy użyciu Aspose.Words"}
-
-## Krok 1: Wczytaj dokument Word
-
-Pierwszą rzeczą, której potrzebujemy, jest instancja `Document` wskazująca na nasz plik `.docx`. Pomyśl o tym jak o otwarciu książki przed rozpoczęciem robienia notatek na marginesie.
+Pierwszą rzeczą, którą robimy, jest odczytanie źródłowego `.docx`. Traktuj `Document` jako most między Wordem a wszystkimi innymi formatami obsługiwanymi przez Aspose.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Saving;
 
-// Load the source .docx file
-Document doc = new Document(@"C:\MyFiles\input.docx");
+// Step 1: Load the source document you want to export as PDF/UA‑1 compliant
+Document doc = new Document("YOUR_DIRECTORY/input.docx");
+
+// Quick sanity check – ensure the file was loaded
+if (doc == null)
+{
+    throw new InvalidOperationException("Failed to load the Word document.");
+}
 ```
 
-> **Wskazówka:** Jeśli plik znajduje się na udziale sieciowym, otocz wczytywanie blokiem `try/catch`, aby elegancko obsłużyć `FileNotFoundException` lub problemy z uprawnieniami.
+> **Dlaczego to ważne:** Wczesne wczytanie pliku pozwala sprawdzić właściwości (liczba stron, sekcje itp.) przed podjęciem decyzji o ustawieniach eksportu. Dzięki temu wykryjesz ewentualne problemy z uszkodzeniem pliku, zanim zmarnujesz czas na konwersję.
 
-## Krok 2: Skonfiguruj dostępność PDF (PDF/UA)
+---
 
-Teraz przechodzi do sedna samouczka — **skonfiguruj dostępność PDF**. Klasa `PdfSaveOptions` pozwala precyzyjnie określić, jaki poziom zgodności PDF jest wymagany.
+## Krok 2 – Skonfiguruj opcje zapisu PDF pod kątem dostępności
+
+Aspose.Words zapewnia zgodność PDF/UA poprzez jedną zmianę właściwości. Ustawienie `Compliance = PdfCompliance.PdfUAX` automatycznie taguje elementy strukturalne (nagłówki, tabele, listy) i traktuje poziome linie jako *artefakty* — dokładnie to, czego oczekują walidatory dostępności.
 
 ```csharp
-// Create PDF save options and enable PDF/UA compliance
-PdfSaveOptions pdfOptions = new PdfSaveOptions
+using Aspose.Words.Saving;
+
+// Step 2: Configure PDF save options for accessibility compliance
+PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
 {
-    // PDF/UA (Universal Accessibility) ensures the PDF meets accessibility standards
-    Compliance = PdfCompliance.PdfUAX // Use PdfUAX2 for PDF/UA‑2 if required
+    // PDF/UA‑1 compliance automatically tags horizontal rules as artifacts.
+    // Use PdfUAX2 for the newer PDF/UA‑2 standard if required.
+    Compliance = PdfCompliance.PdfUAX,
+
+    // Optional: embed the original font to avoid substitution issues
+    EmbedFullFonts = true,
+
+    // Optional: set a custom title for the PDF metadata
+    Title = "Accessible PDF generated from input.docx"
 };
 ```
 
-### Dlaczego PDF/UA?
+> **Dlaczego to ważne:** Bez `PdfCompliance.PdfUAX` wynikowy PDF nie zawiera tagów strukturalnych, na których opierają się technologie wspomagające. Dodanie `EmbedFullFonts` zapewnia, że dokument wygląda tak samo na każdym urządzeniu — kolejny sukces w zakresie dostępności.
 
-PDF/UA dodaje ukryte drzewo struktury do pliku PDF, mapując nagłówki, listy, tabele i tekst alternatywny dla obrazów. Czytniki ekranu korzystają z tej struktury, aby przekazać znaczenie użytkownikom z wadami wzroku. Bez niej Twój PDF może wyglądać dobrze dla osób widzących, ale nie przejdzie audytów zgodności.
+---
 
-### Wybór między `PdfUAX` a `PdfUAX2`
+## Krok 3 – Zapisz dokument jako dostępny PDF
 
-* **`PdfUAX`** – odpowiada PDF/UA‑1 (ISO 14289‑1). Większość starszych procesów wciąż celuje w tę wersję.  
-* **`PdfUAX2`** – nowszy PDF/UA‑2 (ISO 14289‑2) wprowadza wsparcie dla bogatszego tagowania i lepsze radzenie sobie ze złożonymi układami. Jeśli Twoja organizacja już przeszła na tę wersję, zamień wartość wyliczenia.
-
-## Krok 3: Zapisz dokument jako dostępny PDF
-
-Mając już skonfigurowane opcje, zapis to jedyne wywołanie metody. Powstały plik automatycznie będzie zawierał tagi dostępności.
+Teraz zapisujemy plik. Metoda `Save` respektuje właśnie ustawione opcje, generując PDF, który przechodzi większość automatycznych skanów dostępności (np. PAC 3, axe‑pdf).
 
 ```csharp
-// Save the document as an accessible PDF
-doc.Save(@"C:\MyFiles\Accessible.pdf", pdfOptions);
+// Step 3: Save the document as a PDF with the accessibility options applied
+string outputPath = "YOUR_DIRECTORY/Accessible.pdf";
+doc.Save(outputPath, pdfSaveOptions);
+
+// Verify the file exists
+if (!System.IO.File.Exists(outputPath))
+{
+    throw new IOException("The PDF was not created successfully.");
+}
 ```
 
-Po otwarciu `Accessible.pdf` w Adobe Acrobat Pro i uruchomieniu **Tools → Accessibility → Full Check** powinieneś zobaczyć czysty wynik (lub jedynie drobne ostrzeżenia o niestandardowej treści, które możesz jeszcze dopracować).
+**Oczekiwany wynik:** `Accessible.pdf` pojawia się w `YOUR_DIRECTORY`. Otwórz go w Adobe Acrobat → Tools → Accessibility → Full Check. Powinieneś zobaczyć **0 błędów** dotyczących brakujących tagów, a dokument będzie oznaczony jako *PDF/UA‑1 compliant*.
 
-## Pełny działający przykład
+---
 
-Łącząc wszystko razem, oto samodzielna aplikacja konsolowa, którą możesz od razu skompilować i uruchomić:
+## Typowe warianty i przypadki brzegowe
+
+### Konwertowanie wielu plików w pętli
+
+If you need to batch‑process a folder of Word files, wrap the three steps in a `foreach` loop:
+
+```csharp
+string[] docxFiles = Directory.GetFiles("YOUR_DIRECTORY", "*.docx");
+foreach (var file in docxFiles)
+{
+    Document batchDoc = new Document(file);
+    string pdfName = Path.ChangeExtension(file, ".pdf");
+    batchDoc.Save(pdfName, pdfSaveOptions);
+}
+```
+
+### Celowanie w PDF/UA‑2 zamiast PDF/UA‑1
+
+Some organizations have moved to the newer **PDF/UA‑2** standard. Switch the compliance enum:
+
+```csharp
+pdfSaveOptions.Compliance = PdfCompliance.PdfUAX2;
+```
+
+### Dodawanie własnych tagów ręcznie
+
+For highly customized structures (e.g., custom landmarks), you can manipulate the PDF tag tree after saving:
+
+```csharp
+// Not required for basic accessibility, but possible via Aspose.Pdf (separate library)
+```
+
+> **Uwaga:** Ręczne tagowanie to temat zaawansowany; wbudowana flaga zgodności obejmuje 95 % codziennych scenariuszy.
+
+---
+
+## Weryfikacja dostępności – szybka lista kontrolna
+
+| Sprawdzenie | Jak zweryfikować |
+|-------|---------------|
+| **Tagging** | Otwórz PDF w Acrobat → panel *Tags*; powinieneś zobaczyć hierarchiczne drzewo (H1, H2, Table, Figure). |
+| **Artifacts** | Poziome linie pojawiają się pod *Artifacts* zamiast *Tags*. |
+| **Reading Order** | Użyj narzędzia *Reading Order*, aby zapewnić logiczny przepływ. |
+| **Metadata** | Tytuł dokumentu, język i flaga zgodności PDF/UA są obecne w *File → Properties*. |
+
+Jeśli którykolwiek z tych elementów brakuje, wróć do `PdfSaveOptions` lub rozważ dodanie explicite tagów przy użyciu Aspose.Pdf.
+
+---
+
+## Pełny działający przykład (gotowy do kopiowania i wklejenia)
 
 ```csharp
 using System;
+using System.IO;
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-namespace AccessiblePdfDemo
+class AccessiblePdfGenerator
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        // 1. Load the source .docx
+        string inputPath = "YOUR_DIRECTORY/input.docx";
+        Document doc = new Document(inputPath);
+
+        // 2. Set up PDF/UA‑1 compliance options
+        PdfSaveOptions options = new PdfSaveOptions
         {
-            // 1️⃣ Load the source document
-            string inputPath = @"C:\MyFiles\input.docx";
-            Document doc = new Document(inputPath);
-            Console.WriteLine($"Loaded document: {inputPath}");
+            Compliance = PdfCompliance.PdfUAX,
+            EmbedFullFonts = true,
+            Title = "Accessible PDF generated from input.docx"
+        };
 
-            // 2️⃣ Configure PDF/UA compliance
-            PdfSaveOptions pdfOptions = new PdfSaveOptions
-            {
-                Compliance = PdfCompliance.PdfUAX // Change to PdfUAX2 if needed
-            };
-            Console.WriteLine("PDF accessibility options configured (PDF/UA).");
+        // 3. Export as an accessible PDF
+        string outputPath = "YOUR_DIRECTORY/Accessible.pdf";
+        doc.Save(outputPath, options);
 
-            // 3️⃣ Save as an accessible PDF
-            string outputPath = @"C:\MyFiles\Accessible.pdf";
-            doc.Save(outputPath, pdfOptions);
-            Console.WriteLine($"Accessible PDF created at: {outputPath}");
-        }
+        // 4. Simple verification message
+        Console.WriteLine($"Accessible PDF created at: {Path.GetFullPath(outputPath)}");
     }
 }
 ```
 
-**Oczekiwany wynik w konsoli:**
+Uruchom program (`dotnet run`), a otrzymasz **create accessible pdf** gotowy do dystrybucji.
 
-```
-Loaded document: C:\MyFiles\input.docx
-PDF accessibility options configured (PDF/UA).
-Accessible PDF created at: C:\MyFiles\Accessible.pdf
-```
+---
 
-Otwórz wygenerowany plik, uruchom sprawdzarkę dostępności i zobacz, że nagłówki, listy oraz obrazy (jeśli mają `Alt Text` w Wordzie) są poprawnie otagowane.
+## Najczęściej zadawane pytania
 
-## Konwertuj Word do PDF zachowując dostępność
+**Q: Czy to działa z .NET Framework 4.8?**  
+A: Tak. Aspose.Words celuje w .NET Standard 2.0, który jest kompatybilny z .NET Framework 4.6.1+.
 
-Jeśli Twoim jedynym celem jest **konwertowanie Word do PDF**, możesz całkowicie pominąć `PdfSaveOptions` i wywołać `doc.Save("output.pdf")`. Otrzymasz PDF, ale nie będzie on gwarantowanie spełniał wymagań PDF/UA. Podejście świadome dostępności, które właśnie omówiliśmy, nie wprowadza praktycznie żadnego narzutu, więc po co je pomijać?
+**Q: Co jeśli mój dokument Word zawiera obrazy z tekstem alternatywnym?**  
+A: Aspose.Words automatycznie przenosi atrybuty `alt` obrazów do tagów PDF/UA, zachowując dostępność.
 
-### Kiedy używać prostej konwersji
+**Q: Czy mogę ustawić język PDF (np. `en‑US`)?**  
+A: Oczywiście. Użyj `options.Language = "en-US";` przed zapisem.
 
-* Tworzysz wewnętrzne wersje robocze, gdzie dostępność nie jest wymagana.  
-* Proces dalszy (np. portal zewnętrzny) doda własne tagi później.  
+**Q: Jak zweryfikować zgodność PDF/UA‑2?**  
+A: Zmień `Compliance = PdfCompliance.PdfUAX2` i uruchom ten sam pełny test w Acrobat; narzędzie zgłosi nowszy standard.
 
-Nawet w takim wypadku warto mieć pod ręką `PdfSaveOptions`, aby w razie potrzeby łatwo przełączyć się na tryb zgodny.
+---
 
-## Eksportuj DOCX do PDF z własnymi tagami
+## Zakończenie
 
-Czasami potrzebujesz **eksportować DOCX do PDF**, a jednocześnie wstrzyknąć własne tagi — na przykład oznaczyć tabelę jako tabelę danych dla czytników ekranu. Możesz to zrobić, modyfikując dokument Word przed zapisem:
+Teraz wiesz, jak **create accessible PDF** z Worda przy użyciu Aspose.Words, obejmując wszystko od wczytania dokumentu, ustawienia zgodności PDF/UA‑1, po zapis końcowego wyniku. To rozwiązanie pozwala **convert word to pdf**, **export document as pdf**, i zapewnia, że powstały plik spełnia standardy dostępności — dokładnie to, czego potrzebujesz, gdy w przeglądzie kodu pojawia się pytanie „**how to make pdf accessible**”.
 
-```csharp
-// Mark a table as a data table (helps accessibility tools)
-Table firstTable = (Table)doc.GetChild(NodeType.Table, 0, true);
-firstTable.IsDataTable = true;
-```
+Gotowy na kolejne wyzwanie? Spróbuj dodać zgodność PDF/A‑2b w celach archiwizacji lub poeksperymentuj z zabezpieczeniem PDF hasłem przy zachowaniu tagów. Ten sam schemat ma zastosowanie — wystarczy podmienić odpowiednie właściwości `PdfSaveOptions`.
 
-Po ustawieniu takich właściwości uruchom tę samą procedurę zapisu co wcześniej. Powstały PDF będzie zawierał dodatkową semantykę.
-
-## Jak uczynić PDF dostępnym: typowe pułapki
-
-| Pułapka | Co się dzieje | Jak uniknąć |
-|---------|----------------|-------------|
-| **Brak tekstu alternatywnego** | Obrazy stają się niewidoczne dla technologii wspomagających. | Dodaj tekst alternatywny w Wordzie (`Układ → Tekst alternatywny`) przed konwersją. |
-| **Nieprawidłowe poziomy nagłówków** | Czytniki ekranu mogą odczytywać sekcje w niewłaściwej kolejności. | Używaj wbudowanych stylów nagłówków Worda (`Heading 1`, `Heading 2`, …). |
-| **Złożone tabele bez podsumowania** | Tabele są odczytywane jako ciągły blok tekstu. | Ustaw `Table.IsDataTable = true` i podaj podsumowanie w Wordzie. |
-| **Używanie PDF/A zamiast PDF/UA** | PDF/A skupia się na zachowaniu, nie na dostępności. | Jawnie wybierz `PdfCompliance.PdfUAX` (lub `PdfUAX2`). |
-
-Rozwiązanie tych problemów już na etapie tworzenia dokumentu oszczędza późniejsze niepowodzenia w audytach zgodności.
-
-## Konfiguracja dostępności PDF dla różnych scenariuszy
-
-Poniżej kilka wariantów, które mogą Ci się przydać w zależności od wymagań projektu.
-
-### 1️⃣ Włącz PDF/UA‑2 dla przyszłości
-
-```csharp
-pdfOptions.Compliance = PdfCompliance.PdfUAX2;
-```
-
-### 2️⃣ Zachowaj oryginalne czcionki (ważne dla spójności wizualnej)
-
-```csharp
-pdfOptions.FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll;
-```
-
-### 3️⃣ Dodaj własny język dokumentu (pomaga czytnikom specyficznym dla języka)
-
-```csharp
-doc.BuiltInDocumentProperties.Language = "en-US";
-```
-
-Łącz te opcje wedle potrzeb; klasa `PdfSaveOptions` jest na tyle elastyczna, że obsłuży większość scenariuszy.
-
-## Zweryfikuj wynik
-
-Po wygenerowaniu `Accessible.pdf` wykonaj szybki test:
-
-1. Otwórz PDF w **Adobe Acrobat Pro**.  
-2. Przejdź do **Tools → Accessibility → Full Check**.  
-3. Przejrzyj raport — najlepiej zobaczysz „No accessibility errors detected”.
-
-Jeśli pojawią się ostrzeżenia o brakującym tekście alternatywnym, wróć do oryginalnego `.docx`, dodaj brakujące informacje i ponownie uruchom konwersję. To iteracyjny proces, ale kod pozostaje niezmieniony.
-
-## Podsumowanie
-
-Omówiliśmy wszystko, co potrzebne, aby **utworzyć dostępny PDF** z Worda przy użyciu C#. Ładowanie dokumentu, konfiguracja `PdfSaveOptions` pod zgodność z PDF/UA i zapis dają plik PDF spełniający współczesne standardy dostępności. Po drodze dotknęliśmy tematów **konwersji Word do PDF**, **eksportu DOCX do PDF** oraz odpowiedzieliśmy na pytanie **jak uczynić PDF dostępnym** przy pomocy konkretnych fragmentów kodu i praktycznych wskazówek.
-
-Gotowy na kolejny krok? Spróbuj dodać **dynamiczną treść** (np. generowane tabele) lub **osadzać własne czcionki**, zachowując jednocześnie dostępność. Albo zbadaj Aspose.PDF do późniejszej obróbki PDF‑ów, które wymagają dodatkowego tagowania.
-
-Miłego kodowania i niech Twoje PDF‑y będą czytelne dla każdego!
+Jeśli uznałeś ten przewodnik za przydatny, wystaw gwiazdkę, podziel się nim z zespołem lub zostaw komentarz z własnymi wskazówkami. Szczęśliwego kodowania i dalej zwiększaj dostępność sieci — jeden PDF na raz!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

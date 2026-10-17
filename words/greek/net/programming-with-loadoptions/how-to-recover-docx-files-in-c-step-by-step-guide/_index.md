@@ -1,25 +1,25 @@
 ---
 category: general
-date: 2026-03-28
-description: Μάθετε πώς να ανακτήσετε αρχεία docx χρησιμοποιώντας το Aspose.Words.
-  Αυτός ο οδηγός δείχνει επίσης πώς να ρυθμίσετε τη λειτουργία ανάκτησης και να ανοίξετε
-  με ασφάλεια κατεστραμμένα αρχεία docx.
+date: 2026-02-26
+description: Μάθετε πώς να ανακτήσετε αρχεία docx χρησιμοποιώντας το Aspose.Words.
+  Ορίστε τη λειτουργία ανάκτησης, φορτώστε το έγγραφο με ανάκτηση και διορθώστε γρήγορα
+  τα κατεστραμμένα docx.
 draft: false
 keywords:
 - how to recover docx
-- recover damaged docx
-- configure recovery mode
-- how to open corrupted docx
+- set recovery mode
+- load document with recovery
+- recover corrupted docx
 language: el
-og_description: Πώς να ανακτήσετε αρχεία docx σε C#; Ακολουθήστε αυτόν τον οδηγό για
-  να ρυθμίσετε τη λειτουργία ανάκτησης και να ανοίξετε με ασφάλεια κατεστραμμένα docx
-  με το Aspose.Words.
+og_description: Πώς να ανακτήσετε αρχεία docx χρησιμοποιώντας το Aspose.Words. Ορίστε
+  τη λειτουργία ανάκτησης, φορτώστε το έγγραφο με ανάκτηση και αποκαταστήστε το κατεστραμμένο
+  docx χωρίς κόπο.
 og_title: Πώς να ανακτήσετε αρχεία DOCX σε C# – Πλήρης οδηγός
 tags:
 - Aspose.Words
 - C#
 - Document Recovery
-title: Πώς να ανακτήσετε αρχεία DOCX σε C# – Οδηγός βήμα‑βήμα
+title: Πώς να ανακτήσετε αρχεία DOCX σε C# – Οδηγός βήμα‑προς‑βήμα
 url: /el/net/programming-with-loadoptions/how-to-recover-docx-files-in-c-step-by-step-guide/
 ---
 
@@ -27,213 +27,190 @@ url: /el/net/programming-with-loadoptions/how-to-recover-docx-files-in-c-step-by
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Πώς να Ανακτήσετε Αρχεία DOCX σε C# – Οδηγός Βήμα‑Βήμα
+# Πώς να Ανακτήσετε Αρχεία DOCX σε C# – Πλήρης Προγραμματιστική Εκπαίδευση
 
-Έχετε αναρωτηθεί ποτέ **πώς να ανακτήσετε docx** αρχεία που αρνούνται να ανοίξουν; Ίσως λάβατε μια αναφορά που υπέβαλε πελάτης και που καταρρέει το Word κάθε φορά που προσπαθείτε να το δείτε. Από την εμπειρία μου, ο πιο γρήγορος τρόπος να επαναφέρετε το έγγραφο σε λειτουργική κατάσταση είναι να αφήσετε μια ισχυρή βιβλιοθήκη όπως η Aspose.Words να κάνει το σκληρό κομμάτι.  
+Έχετε αναρωτηθεί ποτέ **πώς να ανακτήσετε docx** όταν ένας χρήστης αναφέρει ένα κατεστραμμένο αρχείο; Δεν είστε μόνοι. Σε πολλές επιχειρηματικές εφαρμογές ένα κατεστραμμένο DOCX μπορεί να εμφανιστεί ξαφνικά—ίσως η μεταφόρτωση διακόπηκε ή ο δίσκος υπέστη ένα σφάλμα. Τα καλά νέα; Η Aspose.Words σας παρέχει έναν ενσωματωμένο τρόπο για να προσπαθήσετε να το διορθώσετε χωρίς να γράψετε έναν προσαρμοσμένο parser.
 
-Σε αυτό το tutorial θα δείτε ακριβώς **πώς να ανακτήσετε docx** αρχεία, θα μάθετε να **ρυθμίσετε τη λειτουργία ανάκτησης**, και θα ανακαλύψετε τη σωστή προσέγγιση **πώς να ανοίξετε κατεστραμμένο docx** χωρίς να σπάσει η εφαρμογή σας. Στο τέλος θα έχετε ένα έτοιμο κομμάτι κώδικα που μετατρέπει ένα σπασμένο *.docx* σε ένα καθαρό αντικείμενο `Document` που μπορείτε να αποθηκεύσετε, να επεξεργαστείτε ή να εξάγετε.
+Σε αυτόν τον οδηγό θα περάσουμε βήμα-βήμα τις ακριβείς ενέργειες για **set recovery mode**, **load document with recovery**, και τελικά **recover corrupted docx** ώστε η λογική σας να συνεχίσει να λειτουργεί. Χωρίς περιττές πληροφορίες, μόνο ο κώδικας που μπορείτε να ενσωματώσετε σε ένα .NET project σήμερα.
 
-## Τι Θα Μάθετε
+> **Συμβουλή:** Ακόμη και αν το αρχείο δεν είναι πραγματικά κατεστραμμένο, η χρήση της λειτουργίας ανάκτησης προσθέτει ένα δίχτυ ασφαλείας που δεν κοστίζει σχεδόν τίποτα σε απόδοση.
 
-- Εγκατάσταση του πακέτου NuGet Aspose.Words.  
-- Ρύθμιση του `LoadOptions` για **ανακτήσετε κατεστραμμένο docx** αυτόματα.  
-- Χρήση της σημαίας `RecoveryMode.Recover` για **ρυθμίσετε τη λειτουργία ανάκτησης**.  
-- Επαλήθευση ότι το έγγραφο φορτώθηκε επιτυχώς και διαχείριση τυχόν εναλλακτικής λογικής.  
-- Συμβουλές για αντιμετώπιση ειδικών περιπτώσεων όπως αρχεία με κωδικό πρόσβασης ή με ελλιπείς ενότητες.
+## Τι Θα Χρειαστεί
 
-Δεν απαιτείται προγενέστερη γνώση της Aspose — απλώς μια βασική ρύθμιση C# και η διάθεση να πειραματιστείτε.
+Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε:
 
----
+| Απαίτηση | Αιτία |
+|------------|--------|
+| **Aspose.Words for .NET** (τελευταία έκδοση) | Παρέχει `LoadOptions.RecoveryMode` |
+| **.NET 6+** (ή .NET Framework 4.6+) | Απαιτούμενο runtime για τη βιβλιοθήκη |
+| Ένα **δείγμα κατεστραμμένου DOCX** (ή οποιοδήποτε DOCX που θέλετε να δοκιμάσετε) | Για να δείτε την ανάκτηση σε δράση |
+| Ένα IDE (Visual Studio, Rider, VS Code) | Για γρήγορο debugging |
 
-![Διάγραμμα που δείχνει τη ροή φόρτωσης ενός κατεστραμμένου DOCX με λειτουργία ανάκτησης – πώς να ανακτήσετε docx](https://example.com/images/recover-docx-flow.png "παράδειγμα διαγράμματος πώς να ανακτήσετε docx")
+Αυτό είναι όλο—χωρίς επιπλέον πακέτα NuGet, χωρίς χειρισμό XML, μόνο Aspose.Words.
 
-## Προαπαιτούμενα
+![πώς να ανακτήσετε docx](/images/how-to-recover-docx.png "Εικόνα ανάκτησης ενός αρχείου DOCX")
 
-- .NET 6.0 ή νεότερο (ο κώδικας λειτουργεί επίσης σε .NET Framework 4.7+).  
-- Visual Studio 2022 (ή οποιοδήποτε IDE προτιμάτε).  
-- Ένα αντίγραφο της βιβλιοθήκης **Aspose.Words for .NET** – εγκαταστήστε το μέσω NuGet.  
-- Ένα δείγμα κατεστραμμένου `input.docx` που θέλετε να διορθώσετε.
+## Πώς να Ανακτήσετε DOCX – Βασικά Βήματα
 
----
+Παρακάτω είναι η υψηλού επιπέδου ροή που θα υλοποιήσουμε:
 
-## Βήμα 1 – Εγκατάσταση του Aspose.Words και Προσθήκη του Namespace
+1. **Δημιουργήστε ένα αντικείμενο `LoadOptions`** και πείτε στην Aspose να *ανακτήσει* το αρχείο.  
+2. **Φορτώστε το πιθανώς κατεστραμμένο έγγραφο** με αυτές τις επιλογές.  
+3. **Προαιρετικά ελέγξτε τυχόν προειδοποιήσεις** που δημιούργησε η Aspose κατά τη φόρτωση.  
 
-Πριν μπορέσετε να **πώς να ανοίξετε κατεστραμμένο docx**, χρειάζεστε τη βιβλιοθήκη που ξέρει πώς να διαβάζει μορφές Word.
+## Ρύθμιση της Λειτουργίας Ανάκτησης
 
-```bash
-dotnet add package Aspose.Words
-```
+Το πρώτο πράγμα που πρέπει να κάνετε είναι να πείτε στη βιβλιοθήκη τι θέλετε να κάνει όταν αντιμετωπίσει ένα πρόβλημα. Εδώ έρχεται σε δράση η λέξη-κλειδί **set recovery mode**.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.LoadOptions;
-```
 
-> **Pro tip:** Αν χρησιμοποιείτε ένα παλαιό έργο, ανοίξτε το UI του NuGet Package Manager, αναζητήστε το “Aspose.Words” και κάντε κλικ στο **Install**. Το πακέτο περιλαμβάνει όλους τους κωδικοποιητές που απαιτούνται για την ερμηνεία των τμημάτων DOCX, ακόμη και όταν λείπουν κάποια XML bits.
-
----
-
-## Βήμα 2 – Ρύθμιση της Λειτουργίας Ανάκτησης για Ανάκτηση Κατεστραμμένου DOCX
-
-Η καρδιά του **πώς να ανακτήσετε docx** βρίσκεται στο αντικείμενο `LoadOptions`. Με το να πείτε στην Aspose ότι θέλετε να *προσπαθήσει* να ξαναχτίσει το έγγραφο, ενεργοποιείτε τη δυνατότητα **ρυθμίσετε τη λειτουργία ανάκτησης**.
-
-```csharp
-// Step 2: Create LoadOptions and tell Aspose to recover if possible
+// Step 1: Create LoadOptions and enable recovery
 var loadOptions = new LoadOptions
 {
-    // RecoveryMode.Recover attempts to fix structural issues.
-    RecoveryMode = RecoveryMode.Recover
+    // RecoveryMode.Recover attempts to fix structural issues
+    RecoveryMode = LoadOptions.RecoveryModeMode.Recover
 };
 ```
 
-### Γιατί είναι σημαντικό
+**Γιατί είναι σημαντικό:**  
+`RecoveryMode.Recover` κάνει τον φορτωτή να σαρώσει το πακέτο DOCX για ελλιπή μέρη, σπασμένες σχέσεις ή κατεστραμμένο XML. Αντί να ρίξει εξαίρεση, προσπαθεί να ξαναχτίσει ένα χρησιμοποιήσιμο δέντρο εγγράφου. Αν παραλείψετε αυτό το βήμα, ένα κατεστραμμένο αρχείο θα καταρρεύσει απλώς την εφαρμογή σας με `FileCorruptedException`.
 
-Όταν ένα DOCX είναι κατεστραμμένο, το Word συχνά τερματίζει με ένα γενικό μήνυμα “το αρχείο είναι κατεστραμμένο”. Η `RecoveryMode.Recover` οδηγεί την Aspose να:
+## Φόρτωση του Εγγράφου με Ανάκτηση
 
-1. Σαρώνει το κοντέινερ ZIP για τμήματα που λείπουν.  
-2. Δημιουργεί ξανά προεπιλεγμένες ενότητες αν λείπουν.  
-3. Διατηρεί όσο το δυνατόν περισσότερο περιεχόμενο του χρήστη (κείμενο, εικόνες, στυλ).
-
-Αν παραλείψετε αυτό το βήμα, ο κατασκευαστής `Document` θα πετάξει εξαίρεση και δεν θα έχετε ποτέ την ευκαιρία να διασώσετε δεδομένα.
-
----
-
-## Βήμα 3 – Φόρτωση του Κατεστραμμένου Αρχείου Χρησιμοποιώντας τις Ρυθμισμένες Επιλογές
-
-Τώρα που η σημαία **ρυθμίσετε τη λειτουργία ανάκτησης** είναι ορισμένη, το άνοιγμα του σπασμένου αρχείου γίνεται απλό.
+Τώρα που οι επιλογές είναι έτοιμες, στην πραγματικότητα **φορτώνουμε το έγγραφο με ανάκτηση**. Ο κατασκευαστής `Document` δέχεται μια διαδρομή αρχείου και μια παρουσία `LoadOptions`.
 
 ```csharp
-// Step 3: Load the potentially corrupted DOCX with the recovery options
-try
+// Step 2: Load the DOCX using the recovery options
+string filePath = @"C:\Docs\Corrupted.docx";
+Document doc = new Document(filePath, loadOptions);
+```
+
+**Τι συμβαίνει στο παρασκήνιο;**  
+Η Aspose αναλύει το container ZIP, ξαναχτίζει τα ελλιπή μέρη και γεμίζει το αντικείμενο `Document`. Αν δεν μπορεί να επισκευάσει πλήρως το αρχείο, θα λάβετε ακόμα ένα μερικώς χρησιμοποιήσιμο έγγραφο συν μια συλλογή προειδοποιήσεων που μπορείτε να ελέγξετε.
+
+## Έλεγχος Προειδοποιήσεων (Προαιρετικό αλλά Συνιστάται)
+
+Μετά τη φόρτωση, ίσως θέλετε να **recover corrupted docx** ενώ επίσης καταλαβαίνετε τι πήγε στραβά. Κάθε προειδοποίηση αποθηκεύεται στο `doc.Warnings`.
+
+```csharp
+// Step 3: Enumerate any warnings generated during recovery
+foreach (var warning in doc.Warnings)
 {
-    Document doc = new Document(@"C:\Docs\input.docx", loadOptions);
-    Console.WriteLine("✅ Document loaded successfully!");
-    
-    // Optional: Save a clean copy to verify the recovery
-    doc.Save(@"C:\Docs\output_recovered.docx");
-    Console.WriteLine("🗂 Clean copy saved as output_recovered.docx");
-}
-catch (Exception ex)
-{
-    Console.Error.WriteLine($"❌ Failed to open the file: {ex.Message}");
-    // You could fall back to a different strategy here,
-    // like extracting raw XML parts manually.
+    Console.WriteLine($"Warning: {warning.Description}");
 }
 ```
 
-### Τι να περιμένετε
+Τυπικές προειδοποιήσεις περιλαμβάνουν “Missing image part” ή “Invalid bookmark reference”. Δεν εμποδίζουν τη χρήση του εγγράφου, αλλά σας δίνουν ενδείξεις για καταγραφή ή ανατροφοδότηση χρήστη.
 
-- Αν το αρχείο είναι μόνο ελαφρώς κατεστραμμένο, θα δείτε το μήνυμα “✅ Document loaded successfully!” και ένα νέο `output_recovered.docx` που ανοίγει στο Word χωρίς προειδοποιήσεις.  
-- Αν η αλλοίωση είναι σοβαρή (π.χ. το ίδιο το κοντέινερ ZIP είναι σπασμένο), εκτελείται το τμήμα catch και λαμβάνετε ένα σαφές σφάλμα που εξηγεί γιατί η ανάκτηση απέτυχε.
+## Πλήρες Παράδειγμα Εργασίας
 
----
-
-## Βήμα 4 – Επαλήθευση του Ανακτηθέντος Περιεχομένου (Πώς να Ανοίξετε Κατεστραμμένο DOCX Ασφαλώς)
-
-Μετά τη φόρτωση, είναι καλή πρακτική να ελέγξετε μερικές βασικές ιδιότητες ώστε να βεβαιωθείτε ότι το έγγραφο δεν λείπουν κρίσιμες ενότητες.
-
-```csharp
-// Verify that at least one section and one paragraph exist
-if (doc.Sections.Count == 0)
-{
-    Console.WriteLine("⚠️ No sections were recovered – the file might be severely corrupted.");
-}
-else
-{
-    Console.WriteLine($"📄 Sections recovered: {doc.Sections.Count}");
-    Console.WriteLine($"📝 First paragraph text: {doc.FirstSection.Body.Paragraphs[0].GetText()}");
-}
-```
-
-Κάνοντας αυτόν τον γρήγορο έλεγχο λογικής, απαντάτε στην εσωτερική ερώτηση **πώς να ανοίξετε κατεστραμμένο docx** χωρίς να διακινδυνεύσετε ένα μετέπειτα σφάλμα null‑reference.
-
----
-
-## Βήμα 5 – Διαχείριση Ειδικών Περιπτώσεων και Συνηθισμένων Παγίδων
-
-### Αρχεία με κωδικό πρόσβασης
-
-Αν το κατεστραμμένο DOCX είναι επίσης προστατευμένο με κωδικό, το `LoadOptions` διαθέτει ιδιότητα `Password`. Συνδυάστε το με τη λειτουργία ανάκτησης:
-
-```csharp
-var loadOptions = new LoadOptions
-{
-    RecoveryMode = RecoveryMode.Recover,
-    Password = "MySecret"
-};
-```
-
-### Μεγάλα αρχεία και πίεση μνήμης
-
-Για έγγραφα μεγέθους gigabyte, σκεφτείτε να ορίσετε ρητά το `LoadOptions.LoadFormat` σε `LoadFormat.Docx`. Αυτό επιταχύνει την αρχική ανάλυση zip και μειώνει την κατανάλωση μνήμης.
-
-### Όταν η ανάκτηση αποτυγχάνει
-
-Μερικές φορές η μόνη εφικτή λύση είναι η εξαγωγή των ακατέργαστων τμημάτων XML και η χειροκίνητη συγκόλλησή τους. Η Aspose παρέχει υπερφορτώσεις του `Document.Save` που σας επιτρέπουν να εξάγετε μεμονωμένους κόμβους για προσαρμοσμένη επεξεργασία.
-
----
-
-## Πλήρες Παράδειγμα Εργασίας (Έτοιμο για Αντιγραφή‑Επικόλληση)
+Συνδυάζοντας όλα, εδώ είναι ένα πλήρες, έτοιμο‑για‑εκτέλεση πρόγραμμα. Μπορείτε να το αντιγράψετε σε μια εφαρμογή console και να ορίσετε το `filePath` σε οποιοδήποτε DOCX υποπτεύεστε ότι είναι κατεστραμμένο.
 
 ```csharp
 using System;
 using Aspose.Words;
 using Aspose.Words.LoadOptions;
 
-class RecoverDocxDemo
+namespace DocxRecoveryDemo
 {
-    static void Main()
+    class Program
     {
-        // 1️⃣ Install Aspose.Words via NuGet before running this code.
-
-        // 2️⃣ Configure recovery mode – this is the core of how to recover docx
-        var loadOptions = new LoadOptions
+        static void Main()
         {
-            RecoveryMode = RecoveryMode.Recover   // <-- tells Aspose to attempt fixes
-        };
-
-        // 3️⃣ Attempt to load the corrupted file
-        try
-        {
-            Document doc = new Document(@"C:\Docs\input.docx", loadOptions);
-            Console.WriteLine("✅ Document loaded successfully!");
-
-            // 4️⃣ Quick sanity check – proves how to open corrupted docx safely
-            Console.WriteLine($"📄 Sections: {doc.Sections.Count}");
-            if (doc.Sections.Count > 0)
+            // 1️⃣ Create LoadOptions with recovery enabled
+            var loadOptions = new LoadOptions
             {
-                Console.WriteLine($"📝 First paragraph: {doc.FirstSection.Body.Paragraphs[0].GetText()}");
-            }
+                RecoveryMode = LoadOptions.RecoveryModeMode.Recover
+            };
 
-            // 5️⃣ Save a clean copy for verification
-            string outputPath = @"C:\Docs\output_recovered.docx";
-            doc.Save(outputPath);
-            Console.WriteLine($"🗂 Clean copy written to: {outputPath}");
-        }
-        catch (Exception ex)
-        {
-            Console.Error.WriteLine($"❌ Unable to recover the file: {ex.Message}");
-            // Optional: implement fallback logic here.
+            // 2️⃣ Path to the potentially corrupted DOCX
+            string filePath = @"YOUR_DIRECTORY/Corrupted.docx";
+
+            try
+            {
+                // 3️⃣ Load the document using the recovery options
+                Document doc = new Document(filePath, loadOptions);
+                Console.WriteLine("✅ Document loaded successfully.");
+
+                // 4️⃣ (Optional) Show any warnings that occurred
+                if (doc.Warnings.Count > 0)
+                {
+                    Console.WriteLine("⚠️ Warnings generated during recovery:");
+                    foreach (var warning in doc.Warnings)
+                    {
+                        Console.WriteLine($"- {warning.Description}");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("No warnings – the file looks healthy after recovery.");
+                }
+
+                // 5️⃣ Save the repaired file (you can overwrite or use a new name)
+                string repairedPath = @"YOUR_DIRECTORY/Recovered.docx";
+                doc.Save(repairedPath);
+                Console.WriteLine($"📄 Recovered file saved to: {repairedPath}");
+            }
+            catch (Exception ex)
+            {
+                // If recovery completely fails, we end up here
+                Console.WriteLine($"❌ Unable to recover the document: {ex.Message}");
+            }
         }
     }
 }
 ```
 
-Τρέξτε το πρόγραμμα, δείξτε το `input.docx` σε ένα αρχείο που συνήθως καταρρέει το Word, και παρακολουθήστε την Aspose να το ξαναχτίζει. Στις περισσότερες πραγματικές περιπτώσεις θα καταλήξετε με ένα χρήσιμο έγγραφο και θα αποφύγετε το τρομακτικό παράθυρο “το αρχείο είναι κατεστραμμένο”.
+**Αναμενόμενο αποτέλεσμα**
 
----
+```
+✅ Document loaded successfully.
+⚠️ Warnings generated during recovery:
+- Missing image part: image1.png
+- Invalid bookmark reference: Bookmark_5
+📄 Recovered file saved to: YOUR_DIRECTORY/Recovered.docx
+```
+
+Αν το αρχείο είναι πέρα από την επισκευή, το μπλοκ catch θα εκτυπώσει ένα μήνυμα σφάλματος αντί να καταρρεύσει ολόκληρη η εφαρμογή.
+
+## Ακραίες Περιπτώσεις & Συχνές Ερωτήσεις
+
+### Τι γίνεται αν το αρχείο δεν είναι καθόλου πακέτο ZIP;
+
+Η Aspose.Words αναμένει ένα έγκυρο container OpenXML. Αν το αρχείο είναι κάτι άλλο (π.χ. ένα παλιό δυαδικό .doc), ο φορτωτής θα ρίξει `FileCorruptedException` *πριν* φτάσει στη λογική ανάκτησης. Σε αυτήν την περίπτωση πρέπει πρώτα να μετατρέψετε το αρχείο ή να χρησιμοποιήσετε διαφορετικό API.
+
+### Επηρεάζει η `RecoveryMode.Recover` την απόδοση;
+
+Η επιπλέον σάρωση προσθέτει περίπου 5‑10 % επιπλέον φόρτο σε μεγάλα έγγραφα, κάτι που είναι αμελητέο για τις περισσότερες web υπηρεσίες. Αν επεξεργάζεστε χιλιάδες αρχεία ανά δευτερόλεπτο, κάντε benchmark και σκεφτείτε να ενεργοποιείτε τη λειτουργία μόνο για αρχεία που αποτυγχάνουν στην πρώτη προσπάθεια φόρτωσης.
+
+### Μπορώ να ανακτήσω ένα DOCX προστατευμένο με κωδικό;
+
+Όχι. Η ανάκτηση εκτελείται **μετά** το αρχείο να ανοίξει επιτυχώς. Αν το έγγραφο είναι κρυπτογραφημένο, πρέπει πρώτα να δώσετε τον κωδικό πρόσβασης· διαφορετικά η Aspose θα αρνηθεί το άνοιγμα και η ανάκτηση δεν θα ξεκινήσει.
+
+### Πώς ξέρω αν το ανακτημένο έγγραφο είναι χρησιμοποιήσιμο;
+
+Ο πιο ασφαλής τρόπος είναι να εκτελέσετε μια γρήγορη επικύρωση—π.χ., δοκιμάστε να το αποθηκεύσετε ως PDF ή να περάσετε από τις ενότητες του. Αν αυτές οι λειτουργίες περάσουν, μπορείτε να είστε σίγουροι ότι το κύριο περιεχόμενο επέζησε.
+
+## Πότε να Χρησιμοποιήσετε την Ανάκτηση έναντι Στρατηγικών Εναλλακτικού Σχεδίου
+
+| Κατάσταση | Συνιστώμενη Ενέργεια |
+|-----------|--------------------|
+| **Μικρά σφάλματα XML** (ελλιπείς σχέσεις, άσχετες ετικέτες) | **Set recovery mode** και συνέχιση |
+| **Πλήρης κατεστραμμένη zip** (δεν μπορεί να αποσυμπιεστεί) | Ζητήστε από τον χρήστη να ξαναφορτώσει· η ανάκτηση δεν θα βοηθήσει |
+| **Αρχεία προστατευμένα με κωδικό** | Ζητήστε πρώτα τον κωδικό, μετά **load document with recovery** |
+| **Μαζική εισαγωγή παρτίδας** όπου η ταχύτητα έχει μεγαλύτερη σημασία από την τελειότητα | Δοκιμάστε κανονική φόρτωση· σε περίπτωση αποτυχίας, ξαναπροσπαθήστε με **recovery mode** |
+
+Συνδυάζοντας μια κανονική φόρτωση με μια προσπάθεια ανάκτησης, έχετε το καλύτερο και από τα δύο: γρήγορη επεξεργασία για υγιή αρχεία και ευγενική διαχείριση για τα κατεστραμμένα.
 
 ## Συμπέρασμα
 
-Διασχίσαμε **πώς να ανακτήσετε docx** αρχεία βήμα‑βήμα, από την εγκατάσταση του Aspose.Words μέχρι το **ρυθμίσετε τη λειτουργία ανάκτησης** και τέλος το **πώς να ανοίξετε κατεστραμμένο docx** με ασφάλεια. Το κύριο συμπέρασμα; Ο ορισμός `RecoveryMode = RecoveryMode.Recover` κάνει το μεγαλύτερο μέρος της δουλειάς, επιτρέποντάς σας να εστιάσετε στη λογική της επιχείρησης αντί για τις χαμηλού επιπέδου επισκευές XML.
+Μόλις καλύψαμε **πώς να ανακτήσετε docx** αρχεία σε C# χρησιμοποιώντας την Aspose.Words, από **set recovery mode** μέχρι **load document with recovery** και τελικά **recover corrupted docx** ενώ ελέγχετε τις προειδοποιήσεις. Το πλήρες παράδειγμα δείχνει ένα πρότυπο έτοιμο για παραγωγή που μπορείτε να ενσωματώσετε σε οποιαδήποτε υπηρεσία .NET.
 
-Στη συνέχεια, μπορείτε να εξερευνήσετε:
+Επόμενα βήματα; Δοκιμάστε να αλλάξετε τη μορφή εξόδου—αποθηκεύστε το ανακτημένο έγγραφο ως PDF, HTML ή ακόμα και απλό κείμενο για να επαληθεύσετε ότι το περιεχόμενο επέζησε. Μπορείτε επίσης να εξερευνήσετε τις σημαίες `LoadOptions` για **LoadOptions.LoadFormat** αν χρειάζεται να χειριστείτε παλαιότερα αρχεία `.doc`.
 
-- **Ανακτήσετε κατεστραμμένο docx** αρχεία που περιέχουν ενσωματωμένα γραφήματα ή μακροεντολές.  
-- Μετατροπή του ανακτηθέντος εγγράφου σε PDF ή HTML για επεξεργασία downstream.  
-- Αυτοματοποίηση μαζικής ανάκτησης για έναν φάκελο γεμάτο σπασμένες αναφορές.
-
-Δοκιμάστε το, προσαρμόστε τις επιλογές στο περιβάλλον σας, και ενημερώστε μας πώς λειτουργεί για εσάς. Καλό κώδικα!
+Μη διστάσετε να πειραματιστείτε, να καταγράψετε τις προειδοποιήσεις για αναλύσεις, και να μοιραστείτε τα ευρήματά σας στα σχόλια. Καλό προγραμματισμό, και εύχομαι τα αρχεία DOCX σας να παραμείνουν υγιή!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
