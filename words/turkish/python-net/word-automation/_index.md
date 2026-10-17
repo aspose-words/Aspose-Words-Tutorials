@@ -35,6 +35,9 @@ Geliştiriciler, Python için Aspose.Words kullanarak kelime otomasyonunda ustal
 ### [Kelime Otomasyonu Kolaylaştırıldı](./word-automation-made-easy/)
 Aspose.Words for Python kullanarak kelime işlemeyi kolaylıkla otomatikleştirin. Belgeleri programatik olarak oluşturun, biçimlendirin ve düzenleyin. Şimdi üretkenliği artırın!
 
+### [Python ile gölgeli şekilli boş Word belgesi oluşturma](./create-blank-word-document-with-shadowed-shape-in-python/)
+Python ve Aspose.Words kullanarak gölgeli bir şekil içeren boş bir Word belgesi oluşturun.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

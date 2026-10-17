@@ -35,6 +35,9 @@ Door tekstautomatisering onder de knie te krijgen met Aspose.Words voor Python, 
 ### [Woordautomatisering eenvoudig gemaakt](./word-automation-made-easy/)
 Automatiseer tekstverwerking eenvoudig met Aspose.Words voor Python. Creëer, formatteer en bewerk documenten programmatisch. Verhoog nu uw productiviteit!
 
+### [Maak een leeg Word-document met een schaduwvorm in Python](./create-blank-word-document-with-shadowed-shape-in-python/)
+Maak een leeg Word-document en voeg een vorm met schaduw toe via Aspose.Words voor Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

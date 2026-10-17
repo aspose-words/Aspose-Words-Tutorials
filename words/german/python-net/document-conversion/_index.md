@@ -38,15 +38,23 @@ Erfahren Sie, wie Sie mit Aspose.Words für Python Word-Dokumente in Markdown ko
 ### [Beschädigte DOCX wiederherstellen und Word in Markdown konvertieren](./recover-corrupted-docx-convert-word-to-markdown/)
 Lernen Sie, beschädigte DOCX-Dateien zu reparieren und anschließend in Markdown zu konvertieren.
 ### [Wie man LaTeX aus Word exportiert – DOCX in Markdown konvertieren](./how-to-export-latex-from-word-convert-docx-to-markdown/)
-Erfahren Sie, wie Sie mit Aspose.Words für Python DOCX-Dateien in LaTeX exportieren und anschließend in Markdown konvertieren.
+Erfahren Sie, wie Sie mit Aspose.Words für Python LaTeX aus Word exportieren und DOCX-Dateien in Markdown konvertieren.
+### [Wie man LaTeX aus Word exportiert und DOCX in Markdown konvertiert](./how-to-export-latex-from-word-and-convert-docx-to-markdown/)
+Erfahren Sie, wie Sie mit Aspose.Words für Python LaTeX aus Word exportieren und DOCX-Dateien in Markdown konvertieren.
+### [Wie man LaTeX aus Word‑Dokumenten mit Aspose.Words exportiert](./how-to-export-latex-from-word-documents-using-aspose-words/)
+Erfahren Sie, wie Sie mit Aspose.Words für Python LaTeX aus Word‑Dokumenten exportieren.
 ### [PDF aus Word erstellen – Vollständige Python-Anleitung mit Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Erfahren Sie, wie Sie mit Aspose.Words für Python Word-Dokumente in PDF konvertieren und speichern.
 ### [Barrierefreies PDF aus Word mit Python – Schritt‑für‑Schritt‑Anleitung](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Erfahren Sie, wie Sie mit Aspose.Words für Python barrierefreie PDFs aus Word-Dokumenten erstellen.
-### [Word als Markdown speichern – Vollständige Anleitung mit PDF/A‑UA-Export](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
+### [Word als Markdown speichern – Vollständige Anleitung mit PDF/A‑UA‑Export](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Erfahren Sie, wie Sie mit Aspose.Words für Python Word-Dokumente in Markdown konvertieren und gleichzeitig PDF/A‑UA exportieren.
-### [PDF UA aus Word erstellen – Schritt-für-Schritt-Anleitung](./create-pdf-ua-from-word-step-by-step-guide/)
+### [PDF UA aus Word erstellen – Schritt‑für‑Schritt‑Anleitung](./create-pdf-ua-from-word-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für Python PDFs im PDF/UA-Standard aus Word-Dokumenten erstellen.
+### [PDF/UA‑konformes PDF aus Word exportieren – Python](./how-to-export-word-to-pdf-with-pdf-ua-compliance-in-python/)
+Erfahren Sie, wie Sie mit Aspose.Words für Python Word-Dokumente in PDF/UA‑konforme PDFs exportieren.
+### [DOCX als PDF mit Aspose.Words speichern: eine Schritt‑für‑Schritt‑Anleitung](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words DOCX‑Dateien in PDFs umwandeln und speichern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -35,6 +35,9 @@ Ao dominar a automação de palavras com o Aspose.Words para Python, os desenvol
 ### [Automação de palavras facilitada](./word-automation-made-easy/)
 Automatize o processamento de texto com facilidade usando o Aspose.Words para Python. Crie, formate e manipule documentos programaticamente. Aumente a produtividade agora mesmo!
 
+### [Criar documento Word em branco com forma sombreada em Python](./create-blank-word-document-with-shadowed-shape-in-python/)
+Crie um documento Word vazio e adicione uma forma com sombra usando Aspose.Words para Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

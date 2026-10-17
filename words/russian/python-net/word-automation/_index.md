@@ -35,6 +35,9 @@
 ### [Автоматизация Word стала проще](./word-automation-made-easy/)
 Автоматизируйте обработку Word с легкостью с помощью Aspose.Words для Python. Создавайте, форматируйте и управляйте документами программно. Повысьте производительность прямо сейчас!
 
+### [Создать пустой документ Word с теневой фигурой в Python](./create-blank-word-document-with-shadowed-shape-in-python/)
+Создайте пустой документ Word и добавьте в него форму с тенью, используя Aspose.Words для Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

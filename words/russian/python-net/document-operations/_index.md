@@ -63,6 +63,8 @@
 ### [Восстановление повреждённого DOCX – Полное руководство по включению режима восстановления и получению количества страниц](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
 Узнайте, как включить режим восстановления в Aspose.Words для Python‑net и определить количество страниц в повреждённом DOCX‑файле.
 
+### [Как восстановить повреждённые файлы DOCX с помощью Aspose.Words для Python](./how-to-recover-corrupted-docx-files-with-aspose-words-for-py/)
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words для Python-net](https://docs.aspose.com/words/python-net/)

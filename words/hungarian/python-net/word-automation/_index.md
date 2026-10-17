@@ -34,6 +34,8 @@ Az Aspose.Words for Python segítségével elsajátított szövegautomatizálás
 ## Python Word automatizálási oktatóanyagok
 ### [Word Automation egyszerűen](./word-automation-made-easy/)
 Automatizálja a szövegszerkesztést könnyedén az Aspose.Words for Python segítségével. Hozzon létre, formázzon és szerkesszen dokumentumokat programozottan. Növelje a termelékenységet most!
+### [Üres Word dokumentum létrehozása árnyékolt alakzattal Pythonban](./create-blank-word-document-with-shadowed-shape-in-python/)
+Üres Word dokumentumot hoz létre árnyékolt alakzattal Python és Aspose.Words segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

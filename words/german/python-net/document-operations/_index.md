@@ -63,6 +63,9 @@ Lernen Sie, wie Sie beschädigte DOCX-Dateien mit Aspose.Words für Python‑net
 ### [Beschädigtes DOCX wiederherstellen – Vollständiger Leitfaden zum Aktivieren des Wiederherstellungsmodus & Ermitteln der Seitenzahl](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
 Erfahren Sie, wie Sie beschädigte DOCX-Dateien wiederherstellen, den Wiederherstellungsmodus aktivieren und die Seitenzahl ermitteln.
 
+### [Wie beschädigte DOCX-Dateien mit Aspose.Words für Python wiederherstellen](./how-to-recover-corrupted-docx-files-with-aspose-words-for-py/)
+Erfahren Sie, wie Sie beschädigte DOCX-Dateien mit Aspose.Words für Python‑net wiederherstellen.
+
 ## Weitere Ressourcen
 
 - [Aspose.Words für die Python-Net-Dokumentation](https://docs.aspose.com/words/python-net/)

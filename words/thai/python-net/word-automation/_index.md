@@ -35,6 +35,9 @@
 ### [การทำงานอัตโนมัติของคำศัพท์ทำได้ง่าย](./word-automation-made-easy/)
 ทำให้การประมวลผลคำเป็นอัตโนมัติได้อย่างง่ายดายด้วย Aspose.Words สำหรับ Python สร้าง จัดรูปแบบ และจัดการเอกสารด้วยโปรแกรม เพิ่มประสิทธิภาพการทำงานทันที!
 
+### [สร้างเอกสาร Word ว่างพร้อมรูปร่างที่มีเงาใน Python](./create-blank-word-document-with-shadowed-shape-in-python/)
+ใช้ Aspose.Words สำหรับ Python เพื่อสร้างเอกสาร Word ว่างและเพิ่มรูปร่างที่มีเงาอย่างง่ายดาย
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

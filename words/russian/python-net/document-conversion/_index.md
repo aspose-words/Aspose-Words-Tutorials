@@ -39,10 +39,18 @@
 Узнайте, как восстановить повреждённый DOCX и преобразовать Word в Markdown с помощью Aspose.Words для Python.
 ### [Как экспортировать LaTeX из Word — преобразовать DOCX в Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Узнайте, как с помощью Aspose.Words для Python экспортировать LaTeX из Word и конвертировать DOCX в Markdown.
+### [Как экспортировать LaTeX из Word и конвертировать DOCX в Markdown](./how-to-export-latex-from-word-and-convert-docx-to-markdown/)
+Узнайте, как с помощью Aspose.Words для Python экспортировать LaTeX из Word и преобразовать DOCX в Markdown.
+### [Как экспортировать LaTeX из документов Word с помощью Aspose.Words](./how-to-export-latex-from-word-documents-using-aspose-words/)
+Узнайте, как экспортировать LaTeX из документов Word, используя возможности Aspose.Words для Python.
 ### [Создание PDF из Word — полное руководство Python с Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Узнайте, как быстро и без усилий преобразовать документы Word в PDF с помощью Aspose.Words для Python.
+### [Сохранить DOCX в PDF с Aspose.Words: пошаговое руководство](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
+Узнайте, как с помощью Aspose.Words сохранить документ DOCX в PDF пошагово.
 ### [Создание доступного PDF из Word с Python – пошаговое руководство](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Узнайте, как с помощью Aspose.Words для Python создать PDF, соответствующий стандартам доступности, из документов Word.
+### [Как экспортировать Word в PDF с соответствием PDF/UA в Python](./how-to-export-word-to-pdf-with-pdf-ua-compliance-in-python/)
+Узнайте, как с помощью Aspose.Words для Python экспортировать документы Word в PDF, соответствующий стандарту PDF/UA.
 ### [Сохранение Word в Markdown — полное руководство с экспортом PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Узнайте, как с помощью Aspose.Words для Python сохранить документ Word в Markdown и экспортировать его в PDF/A‑UA.
 

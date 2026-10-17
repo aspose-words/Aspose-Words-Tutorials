@@ -35,6 +35,9 @@ Zvládnutím automatizace textu pomocí Aspose.Words pro Python mohou vývojář
 ### [Automatizace slov snadno a rychle](./word-automation-made-easy/)
 Automatizujte zpracování textu snadno pomocí Aspose.Words pro Python. Vytvářejte, formátujte a manipulujte s dokumenty programově. Zvyšte produktivitu hned teď!
 
+### [Vytvořte prázdný dokument Word s tvarem se stínem v Pythonu](./create-blank-word-document-with-shadowed-shape-in-python/)
+Vytvořte prázdný dokument Word a přidejte do něj tvar se stínem pomocí Aspose.Words pro Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -43,8 +43,14 @@
 ### [如何從 Word 匯出 LaTeX – 將 DOCX 轉換為 Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 學習使用 Aspose.Words for Python 從 Word 匯出 LaTeX，並將 DOCX 轉換為 Markdown 的完整步驟。
 
+### [如何從 Word 匯出 LaTeX 並將 DOCX 轉換為 Markdown](./how-to-export-latex-from-word-and-convert-docx-to-markdown/)
+學習使用 Aspose.Words for Python 從 Word 匯出 LaTeX，並將 DOCX 轉換為 Markdown 的完整步驟。
+
 ### [從 Word 建立 PDF – 完整 Python 指南與 Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 學習使用 Aspose.Words for Python 將 Word 文件轉換為 PDF 的完整步驟。
+
+### [將 docx 儲存為 pdf（使用 Aspose.Words）：逐步指南](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
+學習使用 Aspose.Words for Python 將 docx 文件轉換為 PDF 的完整步驟。
 
 ### [使用 Python 從 Word 建立可存取 PDF – 步驟指南](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 學習使用 Aspose.Words for Python 將 Word 文件轉換為符合可存取性標準的 PDF 的完整步驟。
@@ -54,6 +60,12 @@
 
 ### [從 Word 建立 PDF/UA – 完整指南](./create-pdf-ua-from-word-step-by-step-guide/)
 學習使用 Aspose.Words for Python 將 Word 文件轉換為符合 PDF/UA 標準的 PDF，提供完整步驟與範例。
+
+### [如何在 Python 中將 Word 匯出為符合 PDF/UA 標準的 PDF](./how-to-export-word-to-pdf-with-pdf-ua-compliance-in-python/)
+學習使用 Aspose.Words for Python 將 Word 文件匯出為符合 PDF/UA 標準的 PDF 的完整步驟。
+
+### [如何使用 Aspose.Words 從 Word 文件匯出 LaTeX](./how-to-export-latex-from-word-documents-using-aspose-words/)
+學習使用 Aspose.Words for Python 將 Word 文件匯出為 LaTeX 格式的完整步驟。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

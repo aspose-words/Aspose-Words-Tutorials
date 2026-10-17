@@ -39,6 +39,10 @@ Naučte se uložit obsah Wordu jako Markdown pomocí Aspose.Words pro Python.
 Naučte se opravit poškozené soubory DOCX a převést je do formátu Markdown pomocí Aspose.Words pro Python.
 ### [Jak exportovat LaTeX z Wordu – převod DOCX na Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Naučte se exportovat obsah Wordu jako LaTeX a převést soubory DOCX na Markdown pomocí Aspose.Words pro Python.
+### [Jak exportovat LaTeX z Wordu a převést DOCX na Markdown](./how-to-export-latex-from-word-and-convert-docx-to-markdown/)
+Naučte se exportovat obsah Wordu jako LaTeX a převést soubory DOCX na Markdown pomocí Aspose.Words pro Python.
+### [Jak exportovat LaTeX z dokumentů Word pomocí Aspose.Words](./how-to-export-latex-from-word-documents-using-aspose-words/)
+Naučte se exportovat obsah Wordu jako LaTeX pomocí Aspose.Words pro Python.
 ### [Vytvoření PDF z Wordu – kompletní průvodce v Pythonu s Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Naučte se převést dokument Word do PDF pomocí Aspose.Words pro Python s podrobnými ukázkami kódu.
 ### [Vytvoření přístupného PDF z Wordu pomocí Pythonu – krok za krokem](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
@@ -47,6 +51,10 @@ Naučte se pomocí Aspose.Words pro Python vytvořit přístupné PDF z dokument
 Naučte se uložit dokument Word jako Markdown a exportovat jej do PDF/A‑UA pomocí Aspose.Words pro Python.
 ### [Vytvoření PDF UA z Wordu – průvodce krok za krokem](./create-pdf-ua-from-word-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Words pro Python převést dokument Word do PDF/UA s plnou podporou přístupnosti.
+### [Uložení DOCX jako PDF pomocí Aspose.Words: průvodce krok za krokem](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
+Naučte se převést soubor DOCX do PDF pomocí Aspose.Words v Pythonu s podrobným návodem.
+### [Jak exportovat Word do PDF s kompatibilitou PDF/UA v Pythonu](./how-to-export-word-to-pdf-with-pdf-ua-compliance-in-python/)
+Naučte se exportovat dokument Word do PDF s podporou PDF/UA pomocí Aspose.Words pro Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

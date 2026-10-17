@@ -63,6 +63,9 @@ Learn how to manipulate PDFs using Aspose.Words for Python. Convert, edit, and h
     ### [Recover Corrupted DOCX – Complete Guide to Enable Recovery Mode & Get Page Count](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
     Learn how to enable recovery mode to open corrupted DOCX files and retrieve the page count using Aspose.Words for Python-net.
 
+    ### [How to recover corrupted docx files with Aspose.Words for Python](./how-to-recover-corrupted-docx-files-with-aspose-words-for-py/)
+    Learn how to recover corrupted DOCX files using Aspose.Words for Python.
+
 ## Additional Resources
 
 - [Aspose.Words for Python-net Documentation](https://docs.aspose.com/words/python-net/)

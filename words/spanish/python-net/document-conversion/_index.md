@@ -51,8 +51,21 @@ Aprenda a generar PDFs accesibles desde documentos Word usando Aspose.Words para
 
 ### [Guardar Word como Markdown – Guía completa con exportación PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Aprenda a guardar documentos Word como archivos Markdown y exportarlos a PDF/A‑UA usando Aspose.Words para Python. Guía paso a paso.
+
 ### [Crear PDF UA desde Word – Guía paso a paso](./create-pdf-ua-from-word-step-by-step-guide/)
 Aprenda a generar PDFs compatibles con PDF/UA a partir de documentos Word usando Aspose.Words para Python.
+
+### [Cómo exportar LaTeX desde Word y convertir DOCX a Markdown](./how-to-export-latex-from-word-and-convert-docx-to-markdown/)
+Aprenda a exportar contenido LaTeX desde Word y convertir archivos DOCX a Markdown usando Aspose.Words para Python.
+
+### [Cómo exportar LaTeX desde documentos Word usando Aspose.Words](./how-to-export-latex-from-word-documents-using-aspose-words/)
+Aprenda a exportar contenido LaTeX desde documentos Word con Aspose.Words para Python. Guía paso a paso y ejemplos de código.
+
+### [Guardar docx como PDF – Guía paso a paso con Aspose.Words](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
+Aprenda a guardar archivos DOCX como PDF usando Aspose.Words para Python. Guía paso a paso con ejemplos de código.
+
+### [Cómo exportar Word a PDF con cumplimiento PDF/UA en Python](./how-to-export-word-to-pdf-with-pdf-ua-compliance-in-python/)
+Aprenda a exportar documentos Word a PDF cumpliendo con la norma PDF/UA usando Aspose.Words para Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

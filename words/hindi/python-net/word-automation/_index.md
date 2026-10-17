@@ -35,6 +35,9 @@
 ### [वर्ड ऑटोमेशन को आसान बनाया गया](./word-automation-made-easy/)
 Python के लिए Aspose.Words का उपयोग करके आसानी से वर्ड प्रोसेसिंग को स्वचालित करें। प्रोग्रामेटिक रूप से दस्तावेज़ बनाएँ, फ़ॉर्मेट करें और उनमें बदलाव करें। उत्पादकता को अभी बढ़ाएँ!
 
+### [Python में शैडो वाले आकार के साथ खाली Word दस्तावेज़ बनाएं](./create-blank-word-document-with-shadowed-shape-in-python/)
+Python के लिए Aspose.Words का उपयोग करके शैडो वाले आकार के साथ एक खाली Word फ़ाइल बनाएं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

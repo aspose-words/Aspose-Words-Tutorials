@@ -39,12 +39,20 @@ Aprenda a exportar documentos Word como arquivos Markdown usando Aspose.Words pa
 Aprenda a reparar arquivos DOCX corrompidos e convertê-los em Markdown usando Aspose.Words para Python.
 ### [Como Exportar LaTeX do Word – Converter DOCX para Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Aprenda a exportar documentos Word como arquivos LaTeX usando Aspose.Words para Python. Guia passo a passo completo.
+### [Como exportar LaTeX do Word e converter DOCX para Markdown](./how-to-export-latex-from-word-and-convert-docx-to-markdown/)
+Aprenda a exportar documentos Word como LaTeX e convertê-los para Markdown usando Aspose.Words para Python.
+### [Como exportar LaTeX de documentos Word usando Aspose.Words](./how-to-export-latex-from-word-documents-using-aspose-words/)
+Aprenda a exportar documentos Word como arquivos LaTeX usando Aspose.Words para Python. Guia passo a passo completo.
 ### [Criar PDF a partir do Word – Guia completo em Python com Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Aprenda a gerar PDFs a partir de documentos Word usando Aspose.Words para Python. Guia passo a passo completo.
 ### [Criar PDF acessível a partir do Word – Guia passo a passo em Python](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Aprenda a gerar PDFs acessíveis a partir de documentos Word usando Aspose.Words para Python. Guia completo passo a passo.
 ### [Salvar Word como Markdown – Guia Completo com Exportação PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Aprenda a salvar documentos Word como arquivos Markdown e exportar para PDF/A‑UA usando Aspose.Words para Python. Guia passo a passo.
+### [Como exportar Word para PDF com conformidade PDF/UA em Python](./how-to-export-word-to-pdf-with-pdf-ua-compliance-in-python/)
+Aprenda a exportar documentos Word como PDF compatível com PDF/UA usando Aspose.Words para Python.
+### [Salvar docx como pdf com Aspose.Words: um guia passo a passo](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
+Aprenda a converter arquivos DOCX em PDF usando Aspose.Words para Python com instruções detalhadas passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

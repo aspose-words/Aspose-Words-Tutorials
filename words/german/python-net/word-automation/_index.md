@@ -35,6 +35,9 @@ Durch die Beherrschung der Textautomatisierung mit Aspose.Words für Python kön
 ### [Word-Automatisierung leicht gemacht](./word-automation-made-easy/)
 Automatisieren Sie die Textverarbeitung mühelos mit Aspose.Words für Python. Erstellen, formatieren und bearbeiten Sie Dokumente programmgesteuert. Steigern Sie jetzt Ihre Produktivität!
 
+### [Erstellen eines leeren Word-Dokuments mit schattierter Form in Python](./create-blank-word-document-with-shadowed-shape-in-python/)
+Erzeugen Sie ein leeres Word-Dokument und fügen Sie eine schattierte Form mit Aspose.Words für Python hinzu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -43,8 +43,14 @@ Aspose.Words for Python kullanarak bozuk DOCX dosyalarını onarın ve Word belg
 ### [Word'den LaTeX Dışa Aktarma – DOCX'i Markdown'a Dönüştürme](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Aspose.Words for Python kullanarak Word belgelerinden LaTeX dışa aktarımı ve DOCX'i Markdown'a dönüştürmeyi öğrenin.
 
+### [Word'den LaTeX Dışa Aktarma ve DOCX'i Markdown'a Dönüştürme](./how-to-export-latex-from-word-and-convert-docx-to-markdown/)
+Aspose.Words for Python kullanarak Word belgelerinden LaTeX dışa aktarımı ve DOCX'i Markdown'a dönüştürmeyi öğrenin.
+
 ### [Word'den PDF Oluşturma – Aspose.Words ile Tam Python Kılavuzu](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Aspose.Words for Python kullanarak Word belgelerinden PDF dosyaları oluşturmayı adım adım öğrenin.
+
+### [docx'i PDF olarak kaydetme – Aspose.Words ile adım adım kılavuz](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
+Aspose.Words for Python kullanarak docx dosyalarını PDF'e dönüştürmeyi adım adım öğrenin.
 
 ### [Word'den Erişilebilir PDF Oluşturma – Python ile Adım Adım Kılavuz](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Aspose.Words for Python kullanarak Word belgelerinden erişilebilir PDF dosyaları oluşturmayı adım adım öğrenin.
@@ -53,6 +59,12 @@ Aspose.Words for Python kullanarak Word belgelerinden erişilebilir PDF dosyalar
 Aspose.Words for Python kullanarak Word belgelerini Markdown formatına kaydedin ve PDF/A‑UA uyumlu dosyalar oluşturun.
 ### [Word'den PDF/UA Oluşturma – Adım Adım Kılavuz](./create-pdf-ua-from-word-step-by-step-guide/)
 Aspose.Words for Python kullanarak Word belgelerinden PDF/UA dosyaları oluşturmayı adım adım öğrenin.
+
+### [Word'den PDF/UA Uyumluluğu ile PDF Olarak Dışa Aktarma – Python ile Tam Kılavuz](./how-to-export-word-to-pdf-with-pdf-ua-compliance-in-python/)
+Aspose.Words for Python kullanarak Word belgelerini PDF/UA uyumlu PDF olarak dışa aktarmayı öğrenin.
+
+### [Word'den LaTeX Dışa Aktarma – Aspose.Words kullanarak](./how-to-export-latex-from-word-documents-using-aspose-words/)
+Aspose.Words for Python ile Word belgelerinden LaTeX formatına nasıl dışa aktarım yapılacağını adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
