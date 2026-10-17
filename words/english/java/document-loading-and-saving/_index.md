@@ -1,6 +1,6 @@
 ---
-title: Save Images from Word Using Aspose.Words for Java API
-linktitle: Save Images from Word Using Aspose.Words for Java API
+title: Extract and Save Images from Word Documents Using Aspose.Words for Java API
+linktitle: Extract and Save Images from Word Documents Using Aspose.Words for Java API
 second_title: Aspose.Words Java Document Processing API
 description: Learn how to save images from Word documents and efficiently load and save files using Aspose.Words for Java. Includes save pdf java, convert word html java, and more.
 weight: 20
@@ -181,5 +181,6 @@ Learn how to repair corrupted DOCX files and process them using Aspose.Words for
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

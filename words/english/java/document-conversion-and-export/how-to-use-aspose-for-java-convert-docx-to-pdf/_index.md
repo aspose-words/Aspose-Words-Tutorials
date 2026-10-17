@@ -40,7 +40,7 @@ tags:
 - Aspose
 - Java
 - Document Conversion
-title: 'How to Use Aspose for Java: Convert DOCX to PDF'
+title: 'How to Use Aspose.Words for Java to Convert DOCX to PDF'
 url: /java/document-conversion-and-export/how-to-use-aspose-for-java-convert-docx-to-pdf/
 ---
 
@@ -48,7 +48,7 @@ url: /java/document-conversion-and-export/how-to-use-aspose-for-java-convert-doc
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Use Aspose for Java: Convert DOCX to PDF
+# How to Use Aspose.Words for Java to Convert DOCX to PDF
 
 Ever wondered **how to use Aspose** to turn a Word document into a sleek PDF without leaving your Java code? You're not alone—developers constantly need a reliable way to **export docx as pdf** for reporting, invoicing, or e‑signature workflows.  
 
@@ -199,11 +199,12 @@ Feel free to experiment, break things, and then fix them— that’s how you rea
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Convert Word to PDF Using Aspose.Words for Java](/words/english/java/document-converting/using-document-converting/)
-- [How to save document as pdf with Aspose.Words for Java](/words/english/java/document-loading-and-saving/saving-documents-as-pdf/)
-- [How to Convert DOCX to PNG in Java – Aspose.Words](/words/english/java/document-converting/converting-documents-images/)
+- {{< relref "words/english/java/document-converting/using-document-converting/_index.md" >}}How to Convert Word to PDF Using Aspose.Words for Java{{< /relref >}}
+- {{< relref "words/english/java/document-loading-and-saving/saving-documents-as-pdf/_index.md" >}}How to save document as pdf with Aspose.Words for Java{{< /relref >}}
+- {{< relref "words/english/java/document-converting/converting-documents-images/_index.md" >}}How to Convert DOCX to PNG in Java – Aspose.Words{{< /relref >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}

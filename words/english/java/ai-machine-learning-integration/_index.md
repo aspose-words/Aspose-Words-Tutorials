@@ -1,5 +1,5 @@
 ---
-title: "Integrate AI into Aspose.Words for Java API – Document Automation"
+title: "Integrate AI with Aspose.Words for Java API to Automate DOCX Document Processing"
 description: "Learn how to integrate AI for smart document processing using Aspose.Words for Java. Discover AI document automation, content generation, and translation."
 weight: 20
 url: "/java/ai-machine-learning-integration/"
@@ -71,16 +71,16 @@ Export the enriched document to the format you need—PDF, DOCX, HTML, or even E
 
 ## Available Tutorials
 
-### [Master text processing in java: using Aspose.Words & AI models for summarization and translation](./java-aspose-words-text-processing/)
+### [Master text processing in java: using Aspose.Words & AI models for summarization and translation]({{< relref "java-aspose-words-text-processing" >}})
 Learn how to automate text summarization and translation using Aspose.Words for Java with OpenAI's GPT‑4 and Google's Gemini. Enhance your Java applications today.
 
-### [Run Grammar Check on DOCX in Java – Complete Programming Guide](./run-grammar-check-on-docx-in-java-complete-programming-guide/)
+### [Run Grammar Check on DOCX in Java – Complete Programming Guide]({{< relref "run-grammar-check-on-docx-in-java-complete-programming-guide" >}})
 Learn how to integrate grammar checking into DOCX files using Aspose.Words for Java and an AI grammar service.
 
-### [Create document summary in java with Aspose.Words – full guide](./create-document-summary-in-java-with-aspose-words-full-guide/)
+### [Create document summary in java with Aspose.Words – full guide]({{< relref "create-document-summary-in-java-with-aspose-words-full-guide" >}})
 Learn how to generate concise document summaries in Java using Aspose.Words and AI-powered summarization techniques.
 
-### [How to Use Gemini for Translating DOCX to Spanish – Complete Java Guide](./how-to-use-gemini-for-translating-docx-to-spanish-complete-j/)
+### [How to Use Gemini for Translating DOCX to Spanish – Complete Java Guide]({{< relref "how-to-use-gemini-for-translating-docx-to-spanish-complete-j" >}})
 Step-by-step guide to translate DOCX files to Spanish using Google Gemini AI with Aspose.Words for Java.
 
 ## Additional Resources
@@ -119,9 +119,6 @@ A: For most use cases, pre‑trained models work well. If you need higher accura
 {{< /blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
 
 ---
 

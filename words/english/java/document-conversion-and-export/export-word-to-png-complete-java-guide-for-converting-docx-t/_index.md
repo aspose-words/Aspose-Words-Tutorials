@@ -54,7 +54,7 @@ tags:
 - Java
 - Aspose.Words
 - Document Conversion
-title: Export Word to PNG with Aspose.Words – Complete Java Guide for Converting DOCX to Images
+title: Export Word to PNG using Aspose.Words for Java – Complete Guide for Converting DOCX to Images
 url: /java/document-conversion-and-export/export-word-to-png-complete-java-guide-for-converting-docx-t/
 ---
 
@@ -276,4 +276,5 @@ The following tutorials cover closely related topics that build on the technique
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}

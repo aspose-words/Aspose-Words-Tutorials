@@ -13,17 +13,17 @@ keywords:
 language: en
 og_description: Create accessible PDF from a DOCX file with Aspose.Words. This tutorial
   shows how to convert docx to pdf, save word as pdf, and meet PDF/UA standards.
-og_title: Convert Word to Accessible PDF with Aspose.Words – Complete Guide
+og_title: Create Accessible PDF from Word with Aspose.Words – Complete Guide
 schemas:
 - author: Aspose
   dateModified: '2026-06-24'
   description: Create accessible PDF from a DOCX file using Aspose.Words. Learn how
     to convert docx to pdf, save word as pdf, and ensure PDF/UA compliance.
-  headline: Convert Word to Accessible PDF with Aspose.Words – Complete Guide
+  headline: Create Accessible PDF from Word with Aspose.Words – Complete Guide
   type: TechArticle
 - description: Create accessible PDF from a DOCX file using Aspose.Words. Learn how
     to convert docx to pdf, save word as pdf, and ensure PDF/UA compliance.
-  name: Convert Word to Accessible PDF with Aspose.Words – Complete Guide
+  name: Create Accessible PDF from Word with Aspose.Words – Complete Guide
   steps:
   - name: Load the source document
     text: We start by pulling the Word file into a `Document` object. Think of this
@@ -57,7 +57,7 @@ tags:
 - C#
 - PDF
 - DOCX
-title: Convert Word to Accessible PDF with Aspose.Words – Complete Guide
+title: Create Accessible PDF from Word with Aspose.Words – Complete Guide
 url: /java/document-conversion-and-export/create-accessible-pdf-from-word-complete-guide/
 ---
 
@@ -65,7 +65,7 @@ url: /java/document-conversion-and-export/create-accessible-pdf-from-word-comple
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Convert Word to Accessible PDF with Aspose.Words – Complete Guide
+# Create Accessible PDF from Word with Aspose.Words – Complete Guide
 
 Ever needed to **create accessible PDF** from a Word document but weren’t sure how to keep the accessibility tags intact? You’re not the only one. Whether you’re building a compliance‑first reporting tool or just want every PDF you ship to be screen‑reader friendly, the right approach makes a world of difference.
 
@@ -211,9 +211,9 @@ Got questions about a specific Word feature or how to handle complex tables? Dro
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Create Accessible PDF from Word – Convert to PDF/UA](words/english/java/document-conversion-and-export/create-accessible-pdf-from-word-convert-to-pdf-ua/)
-- [How to Convert Word to PDF Using Aspose.Words for Java](words/english/java/document-converting/using-document-converting/)
-- [Create Accessible PDF from DOCX – Complete Guide](words/english/java/document-conversion-and-export/create-accessible-pdf-from-docx-complete-guide/)
+- [Create Accessible PDF from Word – Convert to PDF/UA](/words/english/java/document-conversion-and-export/create-accessible-pdf-from-word-convert-to-pdf-ua/)
+- [How to Convert Word to PDF Using Aspose.Words for Java](/words/english/java/document-converting/using-document-converting/)
+- [Create Accessible PDF from DOCX – Complete Guide](/words/english/java/document-conversion-and-export/create-accessible-pdf-from-docx-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/products-backtop-button >}}

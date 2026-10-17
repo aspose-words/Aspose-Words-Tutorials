@@ -94,25 +94,25 @@ Leverage `Document doc = new Document(new ByteArrayInputStream(htmlBytes), new L
 
 ## Document converting tutorials
 
-### [Using document converting feature](./using-document-converting/)
+### [Using document converting feature]({{< relref "using-document-converting/_index.md" >}})
 Learn efficient document converting with Aspose.Words for Java. Convert, merge, and process files flawlessly. Simplify your workflow in one powerful library.
 
-### [Exporting documents to pDF](./exporting-documents-to-pdf/)
+### [Exporting documents to PDF]({{< relref "exporting-documents-to-pdf/_index.md" >}})
 Learn how to export documents to PDF using Aspose.Words for Java. This step-by-step guide simplifies the process for seamless document conversion.
 
-### [Converting documents to different formats](./converting-documents-different-formats/)
+### [Converting documents to different formats]({{< relref "converting-documents-different-formats/_index.md" >}})
 Learn how to convert documents to different formats using Aspose.Words for Java. Step-by-step guide for efficient document conversion.
 
-### [Converting HTML to Documents](./converting-html-documents/)
+### [Converting HTML to Documents]({{< relref "converting-html-documents/_index.md" >}})
 Convert HTML to Word documents effortlessly with Aspose.Words for Java. Learn how to perform this conversion in just a few steps with our comprehensive guide.
 
-### [Document conversion with saveOptions](./document-conversion-saveoptions/)
+### [Document conversion with saveOptions]({{< relref "document-conversion-saveoptions/_index.md" >}})
 Efficiently convert DOCX to EPUB using Aspose.Words for Java. Learn how to customize save options, split content, and export document properties in this step-by-step guide.
 
-### [Converting documents to images](./converting-documents-images/)
+### [Converting documents to images]({{< relref "converting-documents-images/_index.md" >}})
 Learn how to convert Word documents to images using Aspose.Words for Java. Step-by-step guide, complete with code examples and FAQs.
 
-### [Convert docx to markdown with Java – Full Step‑by‑Step Guide](./convert-docx-to-markdown-with-java-full-step-by-step-guide/)
+### [Convert docx to markdown with Java – Full Step‑by‑Step Guide]({{< relref "convert-docx-to-markdown-with-java-full-step-by-step-guide/_index.md" >}})
 Step‑by‑step guide to convert DOCX files to Markdown using Aspose.Words for Java, covering setup, code examples, and customization.
 
 ## Frequently asked questions
