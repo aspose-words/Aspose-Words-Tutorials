@@ -85,6 +85,17 @@
 ### [如何从 DOCX 导出 Markdown – 完整分步指南](./how-to-export-markdown-from-docx-complete-step-by-step-guide/)
 
 使用 Aspose.Words for .NET 将 DOCX 文档导出为 Markdown，提供完整的 C# 示例和分步指南。
+### [如何从 Word 导出 LaTeX – 将 DOCX 转换为 Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+
+使用 Aspose.Words for .NET 将 Word 文档中的 LaTeX 导出为 Markdown，提供完整示例和分步指南。
+
+### [从 Word 创建 Markdown – 完整 C# 指南](./create-markdown-from-word-full-c-guide/)
+
+使用 Aspose.Words for .NET 将 Word 文档创建为 Markdown，提供完整的 C# 示例和分步指南。
+
+### [如何从 DOCX 导出 LaTeX – 转换为 Markdown](./how-to-export-latex-from-docx-convert-to-markdown/)
+
+使用 Aspose.Words for .NET 将 DOCX 文档中的 LaTeX 导出为 Markdown，提供完整示例和分步指南。
 
 ### [如何使用 Aspose – 将 DOCX 转换为带 LaTeX 方程的 Markdown](./how-to-use-aspose-convert-docx-to-markdown-with-latex-equati/)
 
@@ -95,9 +106,6 @@
 ### [将 DOCX 转换为 Markdown 时如何设置分辨率](./how-to-set-resolution-when-converting-docx-to-markdown/)
 
 使用 Aspose.Words for .NET 将 DOCX 转换为 Markdown 时，设置导出分辨率的步骤和示例。
-### [如何从 DOCX 导出 LaTeX – 将 DOCX 转换为 Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
-
-使用 Aspose.Words for .NET 将 Word 文档中的 LaTeX 导出为 Markdown，提供完整示例和分步指南。
 ### [将 Word 转换为 Markdown – 完整指南（含图像提取）](./convert-word-to-markdown-complete-guide-with-image-extractio/)
 
 使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown，并提取嵌入的图像，提供完整的 C# 示例和步骤指南。

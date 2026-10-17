@@ -24,14 +24,14 @@ Dengan menggunakan Aspose.Words untuk .NET dan mengikuti tutorial ini, Anda akan
  ## Tutorial
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | --- Bahasa Indonesia:
-| [Tambahkan Bentuk Grup](./add-group-shape/) | Pelajari cara menambahkan bentuk grup ke dokumen Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah yang komprehensif ini. Bahasa Indonesia:
-| [Sisipkan Bentuk](./insert-shape/) | Pelajari cara menyisipkan dan memanipulasi bentuk dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Bahasa Indonesia:
-| [Rasio Aspek Terkunci](./aspect-ratio-locked/) | Pelajari cara mengunci rasio aspek bentuk dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah ini untuk menjaga gambar dan bentuk Anda tetap proporsional. Bahasa Indonesia:
-| [Tata Letak Dalam Sel](./layout-in-cell/) | Pelajari cara mengatur tata letak dalam sel menggunakan Aspose.Words untuk .NET dengan panduan lengkap ini. Sempurna bagi pengembang yang ingin menyesuaikan dokumen Word. Bahasa Indonesia:
-| [Tambahkan Sudut yang Dipotong](./add-corners-snipped/) | Pelajari cara menambahkan bentuk potongan sudut ke dokumen Word Anda menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah ini memastikan Anda dapat menyempurnakan dokumen Anda dengan mudah. Bahasa Indonesia:
-| [Dapatkan Titik Batas Bentuk Aktual](./get-actual-shape-bounds-points/) | Temukan cara mendapatkan titik batas bentuk yang sebenarnya dalam dokumen Word menggunakan Aspose.Words untuk .NET. Pelajari manipulasi bentuk yang tepat dengan panduan terperinci ini. Bahasa Indonesia:
-| [Jangkar Vertikal](./vertical-anchor/) | Pelajari cara mengatur posisi jangkar vertikal untuk kotak teks dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah yang mudah disertakan.Bahasa Indonesia:
-| [Deteksi Bentuk Seni Cerdas](./detect-smart-art-shape/) | Pelajari cara mendeteksi bentuk SmartArt dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan lengkap ini. Sempurna untuk mengotomatiskan alur kerja dokumen Anda. Bahasa Indonesia:
+| [Tambahkan Bentuk Grup](./add-group-shape/) | Pelajari cara menambahkan bentuk grup ke dokumen Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah yang komprehensif ini. Bahasa Indonesia: |
+| [Sisipkan Bentuk](./insert-shape/) | Pelajari cara menyisipkan dan memanipulasi bentuk dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Bahasa Indonesia: |
+| [Rasio Aspek Terkunci](./aspect-ratio-locked/) | Pelajari cara mengunci rasio aspek bentuk dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah ini untuk menjaga gambar dan bentuk Anda tetap proporsional. Bahasa Indonesia: |
+| [Tata Letak Dalam Sel](./layout-in-cell/) | Pelajari cara mengatur tata letak dalam sel menggunakan Aspose.Words untuk .NET dengan panduan lengkap ini. Sempurna bagi pengembang yang ingin menyesuaikan dokumen Word. Bahasa Indonesia: |
+| [Tambahkan Sudut yang Dipotong](./add-corners-snipped/) | Pelajari cara menambahkan bentuk potongan sudut ke dokumen Word Anda menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah ini memastikan Anda dapat menyempurnakan dokumen Anda dengan mudah. Bahasa Indonesia: |
+| [Dapatkan Titik Batas Bentuk Aktual](./get-actual-shape-bounds-points/) | Temukan cara mendapatkan titik batas bentuk yang sebenarnya dalam dokumen Word menggunakan Aspose.Words untuk .NET. Pelajari manipulasi bentuk yang tepat dengan panduan terperinci ini. Bahasa Indonesia: |
+| [Jangkar Vertikal](./vertical-anchor/) | Pelajari cara mengatur posisi jangkar vertikal untuk kotak teks dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah yang mudah disertakan.Bahasa Indonesia: |
+| [Deteksi Bentuk Seni Cerdas](./detect-smart-art-shape/) | Pelajari cara mendeteksi bentuk SmartArt dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan lengkap ini. Sempurna untuk mengotomatiskan alur kerja dokumen Anda. Bahasa Indonesia: |
 | [Perbarui Gambar Seni Cerdas](./update-smart-art-drawing/) | Pelajari cara memperbarui gambar Smart Art dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Pastikan visual Anda selalu akurat. |
 | [Buat Bentuk Persegi Panjang di Word dengan Aspose.Words – Panduan langkah demi langkah](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Pelajari cara membuat bentuk persegi panjang di dokumen Word menggunakan Aspose.Words dengan panduan langkah demi langkah. |
 | [Buat dokumen Word kosong dengan Aspose.Words – Panduan Langkah demi Langkah](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | Pelajari cara membuat dokumen Word kosong menggunakan Aspose.Words dengan panduan langkah demi langkah yang mudah diikuti. |
@@ -52,6 +52,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Tambahkan Bayangan ke Bentuk di C# – Panduan Lengkap Aspose.Words](./add-shadow-to-shape-in-c-complete-aspose-words-guide/) | Pelajari cara menambahkan efek bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh kode C#. |
 | [Buat Dokumen Word – Cara Menambahkan Bentuk Persegi Panjang dan Bayangan](./create-word-document-how-to-add-rectangle-shape-and-shadow/) | Pelajari cara menambahkan bentuk persegi panjang dengan efek bayangan ke dokumen Word menggunakan Aspose.Words untuk .NET. |
 | [Buat bentuk persegi panjang dengan bayangan di C# menggunakan Aspose.Words](./create-rectangle-shape-with-shadow-in-c-using-aspose-words/) | Pelajari cara membuat bentuk persegi panjang dengan efek bayangan di dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah. |
+| [Buat Dokumen Word C# – Tambahkan Bentuk dengan Bayangan](./create-word-document-c-add-shape-with-shadow/) | Pelajari cara menambahkan bentuk dengan efek bayangan ke dokumen Word menggunakan Aspose.Words untuk .NET dalam C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -203,6 +203,12 @@ Erfahren Sie, wie Sie Word‑Dokumente in Markdown konvertieren und dabei Bilder
 ### [DOCX als Markdown speichern – Vollständige C#‑Anleitung mit Aspose.Words](./save-docx-as-markdown-with-aspose-words-complete-c-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in Markdown konvertieren – komplette C#‑Anleitung.
 
+### [Wie man LaTeX aus DOCX exportiert – Konvertieren zu Markdown](./how-to-export-latex-from-docx-convert-to-markdown/)
+Erfahren Sie, wie Sie LaTeX‑Formeln aus DOCX‑Dateien exportieren und in Markdown konvertieren.
+
+### [Markdown aus Word erstellen – Vollständige C#‑Anleitung](./create-markdown-from-word-full-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für .NET Markdown aus Word‑Dokumenten generieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

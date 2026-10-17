@@ -61,6 +61,7 @@ Cho dù bạn muốn chuyển đổi tài liệu Word sang PDF để phân phố
 | [Tạo PDF/UA từ Word bằng C# – Hướng dẫn đầy đủ](./create-pdf-ua-from-word-in-c-complete-guide/) | Hướng dẫn chi tiết cách tạo tài liệu PDF/UA từ Word bằng C# sử dụng Aspose.Words cho .NET. |
 | [Tạo PDF có thể truy cập từ Word – Hướng dẫn đầy đủ Aspose.Words](./create-accessible-pdf-from-word-complete-aspose-words-guide/) | Hướng dẫn chi tiết cách tạo tệp PDF có khả năng truy cập từ tài liệu Word bằng Aspose.Words cho .NET. |
 | [Chuyển đổi docx sang pdf – Hướng dẫn toàn diện cho PDF có thể truy cập](./convert-docx-to-pdf-complete-guide-for-accessible-pdfs/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu docx sang PDF đáp ứng tiêu chuẩn truy cập, bao gồm các tùy chọn và mẫu mã. |
+| [Cách lưu PDF từ DOCX bằng Aspose.Words – Hướng dẫn từng bước](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF bằng Aspose.Words cho .NET qua các bước thực tế. |
 
 | [Tạo PDF có khả năng truy cập từ Word trong C# – Hướng dẫn từng bước](./create-accessible-pdf-from-word-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo tệp PDF có khả năng truy cập từ tài liệu Word bằng C# và Aspose.Words. |
 | [Tạo PDF có thể truy cập từ Word với Aspose – Hướng dẫn từng bước](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) | Hướng dẫn chi tiết cách tạo tệp PDF có khả năng truy cập từ tài liệu Word bằng Aspose.Words cho .NET. |

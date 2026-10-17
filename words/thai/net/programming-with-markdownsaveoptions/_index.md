@@ -90,8 +90,6 @@
 
 ### [แปลง Word เป็น Markdown ใน C# – คู่มือเต็มพร้อมการสกัดรูปภาพ](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 
-### [วิธีส่งออก LaTeX จาก Word – แปลง DOCX เป็น Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
-
 ### [แปลง Word เป็น Markdown – คู่มือเต็มพร้อมการสกัดรูปภาพ](./convert-word-to-markdown-complete-guide-with-image-extractio/)
 แปลงไฟล์ Word เป็น Markdown พร้อมสกัดรูปภาพอย่างครบถ้วนด้วย Aspose.Words สำหรับ .NET
 
@@ -172,6 +170,15 @@
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown พร้อมสกัดรูปภาพอย่างละเอียดด้วย C#
 
 ### [บันทึก DOCX เป็น Markdown ด้วย Aspose.Words – คู่มือเต็ม C#](./save-docx-as-markdown-with-aspose-words-complete-c-guide/)
+
+### [วิธีส่งออก LaTeX จาก Word – แปลง DOCX เป็น Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+เรียนรู้วิธีส่งออกสูตร LaTeX จากไฟล์ Word และแปลงเป็น Markdown ด้วย Aspose.Words สำหรับ .NET อย่างละเอียด
+
+### [วิธีส่งออก LaTeX จาก DOCX – แปลงเป็น Markdown](./how-to-export-latex-from-docx-convert-to-markdown/)
+เรียนรู้วิธีส่งออกสูตร LaTeX จากไฟล์ DOCX และแปลงเป็น Markdown ด้วย Aspose.Words สำหรับ .NET อย่างละเอียด
+
+### [สร้าง markdown จาก Word – คู่มือเต็ม C#](./create-markdown-from-word-full-c-guide/)
+เรียนรู้ขั้นตอนการสร้างไฟล์ markdown จาก Word อย่างครบถ้วนด้วย C#
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

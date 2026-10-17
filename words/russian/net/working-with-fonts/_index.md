@@ -72,6 +72,7 @@
 | [Как использовать FontSettings для обработки отсутствующих шрифтов в Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | Узнайте, как использовать FontSettings для обработки отсутствующих шрифтов в Aspose.Words для .NET. |
 | [Как обнаружить шрифты в C# – использовать обратный вызов с Aspose.Words](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | Узнайте, как обнаруживать шрифты в C# с использованием обратного вызова в Aspose.Words для .NET. |
 | [Сохранить документ Word – обнаружить недостающие шрифты с Aspose.Words](./save-word-document-detect-missing-fonts-with-aspose-words/) | Узнайте, как сохранять документ Word и обнаруживать отсутствующие шрифты с помощью Aspose.Words для .NET. |
+| [Aspose Font Substitution – Как настроить параметры шрифтов в C#](./aspose-font-substitution-how-to-configure-font-settings-in-c/) | Узнайте, как настроить параметры замены шрифтов в Aspose.Words для .NET с помощью C# в этом пошаговом руководстве. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

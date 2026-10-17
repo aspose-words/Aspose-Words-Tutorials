@@ -37,12 +37,13 @@ Aspose.Words for .NET 튜토리얼에서는 PDFSaveOptions를 사용한 워드 �
 | [Scale WMF 글꼴을 메타파일 크기로 PDF 크기 줄이기](./scale-wmf-fonts-to-metafile-size/) | Aspose.Words for .NET을 사용하여 PDF로 변환할 때 WMF 글꼴을 메타파일 크기로 조정하여 PDF 크기를 줄이는 단계별 가이드입니다. |
 | [추가 텍스트 위치 지정으로 PDF 텍스트 위치 지정 개선](./additional-text-positioning/) | Aspose.Words for .NET을 사용하여 몇 가지 간단한 단계로 PDF 텍스트 배치를 개선하는 방법을 알아보세요. 문서의 모양을 개선해 보세요. |
 | [Word 문서를 PDF 1.7로 변환](./conversion-to-pdf-17/) | Aspose.Words for .NET을 사용하여 Word 문서를 PDF 1.7로 손쉽게 변환하세요. 이 가이드를 따라 누구든지 쉽게 접근하고 전문적인 서식을 갖춘 문서를 만드세요. |
+| [Aspose.Words를 사용하여 DOCX에서 PDF 저장 방법 – 단계별 가이드](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) | Aspose.Words를 활용해 DOCX 파일을 PDF로 변환하는 과정을 단계별로 안내합니다. |
 | [이미지 다운샘플링으로 PDF 문서 크기 줄이기](./downsampling-images/) | Aspose.Words for .NET을 사용하여 이미지를 다운샘플링하여 PDF 문서 크기를 줄이세요. PDF를 최적화하여 업로드 및 다운로드 시간을 단축하세요. |
 | [PDF 문서에서 개요 옵션 설정](./set-outline-options/) | Aspose.Words for .NET을 사용하여 PDF 문서의 개요 옵션을 설정하는 방법을 알아보세요. 제목 수준과 확장된 개요를 구성하여 PDF 탐색 기능을 향상하세요. |
 | [PDF 문서에서 사용자 정의 속성 내보내기](./custom-properties-export/) | Aspose.Words for .NET을 사용하여 PDF 문서에서 사용자 지정 속성을 내보내는 방법을 자세하고 단계별 가이드를 통해 알아보세요. |
 | [Word 문서 구조를 PDF 문서로 내보내기](./export-document-structure/) | Aspose.Words for .NET을 사용하여 Word 문서의 구조를 PDF로 내보내세요. 단계별 가이드를 따라 문서 레이아웃을 유지하고 PDF 탐색 기능을 개선해 보세요. |
 | [PDF 문서의 이미지 압축](./image-compression/) Aspose.Words for .NET을 사용하여 PDF 문서의 이미지를 압축하는 방법을 알아보세요. 파일 크기와 품질을 최적화하려면 이 가이드를 따르세요. |
-| [PDF 문서에서 마지막으로 인쇄된 속성 업데이트](./update-last-printed-property/) | Aspose.Words for .NET을 사용하여 PDF 문서에서 마지막으로 인쇄된 속성을 업데이트하는 방법을 단계별 가이드를 통해 알아보세요. |
+| [PDF 문서에서 마지막으로 인쇄된 속성 업데이트](./update-last-printed-property/) | Aspose.Words for .NET을 사용을 통해 PDF 문서에서 마지막으로 인쇄된 속성을 업데이트하는 방법을 단계별 가이드를 통해 알아보세요. |
 | [PDF 문서에서 3D DML 3DEffects 렌더링](./dml-3deffects-rendering/) | 이 포괄적인 단계별 가이드를 통해 Aspose.Words for .NET을 사용하여 PDF 문서에서 놀라운 3D DML 효과를 렌더링하는 방법을 알아보세요. |
 | [PDF 문서에서 이미지 보간](./interpolate-images/) | Aspose.Words for .NET을 사용하여 PDF 문서의 이미지를 보간하는 방법을 단계별 가이드를 통해 알아보세요. PDF 이미지 품질을 쉽게 개선할 수 있습니다. |
 | [C#에서 접근성 PDF 만들기 – 단계별 가이드](./create-accessible-pdf-in-c-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 C#에서 접근성 PDF를 단계별로 만드는 방법을 안내합니다. |

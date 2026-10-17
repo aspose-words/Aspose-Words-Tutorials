@@ -26,7 +26,7 @@ Egal, ob Sie Word-Dokumente für die Online-Verteilung, Archivierung oder den Dr
 | --- | --- |
 | [Dokumenttitel in der Fenstertitelleiste anzeigen](./display-doc-title-in-window-titlebar/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET den Dokumenttitel in der Fenstertitelleiste Ihrer PDFs anzeigen. |
 | [PDF-Renderwarnungen](./pdf-render-warnings/) | Schritt-für-Schritt-Anleitung zum Umgang mit PDF-Rendering-Warnungen mit Aspose.Words für .NET. |
-| [Fügen Sie mithilfe des Zertifikatsinhabers eine digitale Signatur zu PDF hinzu](./digitally-signed-pdf-using-certificate-holder/) | Sichern Sie Ihre PDF-Dateien mit einer digitalen Signatur mit Aspose.Words für .NET. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um Ihren PDFs mühelos eine digitale Signatur hinzuzufügen. |
+| [Fügen Sie mithilfe des Zertifikatsinhabers eine digitale Signatur zu PDF hinzufügen](./digitally-signed-pdf-using-certificate-holder/) | Sichern Sie Ihre PDF-Dateien mit einer digitalen Signatur mit Aspose.Words für .NET. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um Ihren PDFs mühelos eine digitale Signatur hinzuzufügen. |
 | [Schriftarten in PDF-Dokumente einbetten](./embedded-all-fonts/) | Betten Sie Schriftarten mühelos in PDF-Dokumente ein – mit Aspose.Words für .NET und dieser detaillierten Schritt-für-Schritt-Anleitung. Sorgen Sie für ein einheitliches Erscheinungsbild auf allen Geräten. |
 | [Einbetten von Teilmengen von Schriftarten in PDF-Dokumente](./embedded-subset-fonts/) Reduzieren Sie die PDF-Dateigröße, indem Sie mit Aspose.Words für .NET nur die benötigten Schriftarten einbetten. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um Ihre PDFs effizient zu optimieren. |
 | [Reduzieren Sie die PDF-Größe, indem Sie eingebettete Schriftarten deaktivieren](./disable-embed-windows-fonts/) | Reduzieren Sie die PDF-Größe, indem Sie eingebettete Schriftarten mit Aspose.Words für .NET deaktivieren. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um Ihre Dokumente für effizientes Speichern und Teilen zu optimieren. |
@@ -69,6 +69,7 @@ Egal, ob Sie Word-Dokumente für die Online-Verteilung, Archivierung oder den Dr
 | [Barrierefreies PDF aus Word erstellen – Schritt‑für‑Schritt‑Anleitung](./create-accessible-pdf-from-word-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET barrierefreie PDFs aus Word-Dokumenten erstellen. |
 | [DOCX als PDF in C# speichern – Vollständige Aspose.Words-Anleitung](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein DOCX-Dokument in C# vollständig in ein PDF konvertieren. |
 | [Wie man PDF-Optionen in C# festlegt – Word in PDF konvertieren](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET PDF-Optionen in C# konfigurieren, um Word-Dokumente in PDFs zu konvertieren. |
+| [Wie man PDF aus DOCX mit Aspose.Words speichert – Schritt‑für‑Schritt‑Anleitung](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein DOCX‑Dokument in ein PDF konvertieren und speichern – detaillierte Schritt‑für‑Schritt‑Anleitung. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

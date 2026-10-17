@@ -69,6 +69,7 @@ Apprenez à créer un dossier, convertir des documents Word en Markdown et extra
 ### [Comment exporter Markdown depuis Word – Guide complet C#](./how-to-export-markdown-from-word-complete-c-guide/)
 
 ### [Comment enregistrer Word en Markdown – Guide complet C#](./how-to-save-word-as-markdown-complete-c-guide/)
+### [Créer du markdown depuis Word – Guide complet C#](./create-markdown-from-word-full-c-guide/)
 
 ### [Comment enregistrer le Markdown depuis DOCX – Guide étape par étape](./how-to-save-markdown-from-docx-step-by-step-guide/)
 
@@ -91,8 +92,6 @@ Apprenez à enregistrer un document Word au format Markdown avec un guide comple
 ### [Enregistrer les images Word – Convertir Word en Markdown avec Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
 
 ### [Convertir Word en Markdown en C# – Guide complet avec extraction d'images](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
-
-### [Comment exporter LaTeX depuis Word – Convertir DOCX en Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 Apprenez à exporter du LaTeX depuis Word vers Markdown en convertissant des fichiers DOCX avec Aspose.Words pour .NET.
 
@@ -178,6 +177,10 @@ Apprenez à convertir des documents Word en Markdown avec Aspose.Words grâce à
 ### [Enregistrer Word en Markdown – Guide complet pour convertir Word en Markdown et extraire les images](./save-word-as-markdown-complete-guide-to-convert-word-to-mark/)
 
 ### [Enregistrer DOCX en Markdown avec Aspose.Words – Guide complet C#](./save-docx-as-markdown-with-aspose-words-complete-c-guide/)
+
+### [Comment exporter LaTeX depuis Word – Convertir DOCX en Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+
+### [Comment exporter LaTeX depuis DOCX – Convertir en Markdown](./how-to-export-latex-from-docx-convert-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -72,6 +72,7 @@ Niezależnie od tego, czy chcesz formatować tekst za pomocą różnych czcionek
 | [Jak wykrywać czcionki w C# – użycie wywołania zwrotnego z Aspose.Words](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | Dowiedz się, jak wykrywać użyte czcionki w dokumencie Word przy pomocy wywołania zwrotnego w Aspose.Words dla .NET. |
 | [Jak przechwytywać ostrzeżenia – Ustaw domyślne ustawienia czcionki](./how-to-capture-warnings-set-default-font-settings/) | Dowiedz się, jak przechwytywać ostrzeżenia i ustawiać domyślne czcionki w Aspose.Words dla .NET. |
 | [Zapisz dokument Word – wykryj brakujące czcionki z Aspose.Words](./save-word-document-detect-missing-fonts-with-aspose-words/) | Dowiedz się, jak zapisać dokument Word i wykrywać brakujące czcionki przy użyciu Aspose.Words dla .NET. |
+| [Podstawianie czcionek Aspose – Jak skonfigurować ustawienia czcionek w C#](./aspose-font-substitution-how-to-configure-font-settings-in-c/) | Dowiedz się, jak skonfigurować ustawienia czcionek w Aspose.Words dla .NET przy użyciu C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
