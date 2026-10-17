@@ -92,6 +92,9 @@ Leer hoe je LoadOptions configureert om ontbrekende lettertypen te detecteren en
 ### [Hoe docx te herstellen met Aspose.Words – Herstelmodus inschakelen](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
 Leer hoe je beschadigde DOCX-bestanden kunt herstellen met Aspose.Words door de herstelmodus te activeren.
 
+### [Word-document opslaan – Lettertype‑instellingen instellen, ontbrekende lettertypen afhandelen](./save-word-document-set-font-settings-handle-missing-fonts/)
+Leer hoe je lettertype‑instellingen configureert en ontbrekende lettertypen behandelt bij het opslaan van een Word‑document met Aspose.Words for Java.
+
 ### [RTF‑laadopties configureren in Aspose.Words for Java](./configuring-rtf-load-options/)
 Configureer RTF‑laadopties in Aspose.Words for Java. Leer hoe je UTF‑8‑tekst in RTF‑documenten herkent. Stapsgewijze gids met code‑voorbeelden.
 
@@ -159,6 +162,9 @@ Leer hoe je beschadigde DOCX‑bestanden kunt herstellen met Aspose.Words in een
 ### [Hoe DOCX te herstellen – Herstelmodus instellen & waarschuwingen weergeven](./how-to-recover-docx-set-recovery-mode-display-warnings/)
 Leer hoe je de herstelmodus inschakelt en waarschuwingen weergeeft bij het openen van beschadigde DOCX‑bestanden met Aspose.Words for Java.
 ### [Herstel beschadigd Word‑document – Complete Java‑gids](./recover-broken-word-document-complete-java-guide/)
+
+### [Hoe DOCX‑bestanden te herstellen – Stapsgewijze Java‑gids](./how-to-recover-docx-files-step-by-step-java-guide/)
+Leer hoe je beschadigde DOCX‑bestanden kunt repareren met Aspose.Words for Java in een stapsgewijze handleiding.
 
 ## Veelgestelde vragen
 

@@ -159,6 +159,11 @@ Aspose.Words for Java упрощает **save images from Word** докумен�
 ### [Отслеживание предупреждений о замене шрифтов – обнаружение недостающих шрифтов](./capture-font-substitution-warnings-detect-missing-fonts/)
 Узнайте, как фиксировать предупреждения о замене шрифтов и определять недостающие шрифты при загрузке документов с Aspose.Words for Java.
 
+### [Восстановление DOCX‑файлов – пошаговое руководство Java](./how-to-recover-docx-files-step-by-step-java-guide/)
+
+### [Сохранение Word‑документа – настройка шрифтов, обработка отсутствующих шрифтов](./save-word-document-set-font-settings-handle-missing-fonts/)
+Узнайте, как установить параметры шрифтов при сохранении Word‑документа и обработать недостающие шрифты с помощью Aspose.Words for Java.
+
 ## Часто задаваемые вопросы
 
 **Q:** Как программно **save images from word** документы?  

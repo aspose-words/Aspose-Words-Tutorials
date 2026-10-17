@@ -128,6 +128,8 @@ Aspose.Words का उपयोग करके दस्तावेज़ो�
 
 ### [Aspose.Words में दस्तावेज़ों को टेक्स्ट फ़ाइलों के रूप में सेव करना](./saving-documents-as-text-files/)
 Aspose.Words के साथ दस्तावेज़ों को टेक्स्ट फ़ाइलों के रूप में सेव करना सीखें। Java कोड उदाहरणों के साथ चरण‑दर‑चरण गाइड।
+### [Word दस्तावेज़ सहेजें – फ़ॉन्ट सेटिंग्स सेट करें, लापता फ़ॉन्ट्स को संभालें](./save-word-document-set-font-settings-handle-missing-fonts/)
+Aspose.Words for Java के साथ फ़ॉन्ट सेटिंग्स कॉन्फ़िगर करें और लापता फ़ॉन्ट्स को संभालते हुए Word दस्तावेज़ सहेजें।
 
 ### [Aspose.Words के साथ दस्तावेज़ फ़ॉर्मेट निर्धारित करना](./determining-document-format/)
 Aspose.Words के साथ Java में दस्तावेज़ फ़ॉर्मेट को पहचानना सीखें। DOC, DOCX आदि को पहचानें और फ़ाइलों को प्रभावी ढंग से व्यवस्थित करें।
@@ -143,6 +145,10 @@ Aspose.Words का उपयोग करके क्षतिग्रस्�
 ### [Corrupted docx को पुनर्प्राप्त करें – दस्तावेज़ ठीक करने और प्रोसेस करने की पूरी गाइड](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 
 Corrupted docx फ़ाइलों को ठीक करने, पुनर्स्थापित करने और आगे प्रोसेस करने के चरण‑दर‑चरण मार्गदर्शन।
+
+### [DOCX फ़ाइलों को पुनर्प्राप्त करने का तरीका – चरण‑दर‑चरण जावा गाइड](./how-to-recover-docx-files-step-by-step-java-guide/)
+
+DOCX फ़ाइलों को पुनर्प्राप्त करने के चरण‑दर‑चरण गाइड, जावा कोड उदाहरणों के साथ।
 
 ### [Aspose.Words के साथ जावा में फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैप्चर करें – पूर्ण गाइड](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Aspose.Words for Java में फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैसे पकड़ें और संभालें, कोड उदाहरणों के साथ सीखें।

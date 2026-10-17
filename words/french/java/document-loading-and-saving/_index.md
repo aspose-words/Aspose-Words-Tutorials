@@ -96,6 +96,9 @@ Configuration des options de chargement RTF dans Aspose.Words for Java. Apprenez
 ### [Chargement de fichiers texte avec Aspose.Words for Java](./loading-text-files/)
 Débloquez la puissance d'Aspose.Words for Java. Apprenez à charger des documents texte, gérer les listes, les espaces et la direction du texte.
 
+### [Comment récupérer les fichiers DOCX – Guide Java étape par étape](./how-to-recover-docx-files-step-by-step-java-guide/)
+Apprenez à réparer et récupérer des fichiers DOCX corrompus avec Aspose.Words for Java grâce à un guide détaillé.
+
 ### [Options avancées d'enregistrement avec Aspose.Words for Java](./advance-saving-options/)
 Apprenez la manipulation avancée de documents avec Aspose.Words for Java. Chiffrez, gérez les métafichiers, et plus encore. Vos documents Word, à votre façon.
 
@@ -139,7 +142,6 @@ Apprenez à charger des fichiers DOCX corrompus et à récupérer le contenu gr�
 Apprenez à réparer les fichiers DOCX endommagés, récupérer le contenu et le traiter avec Aspose.Words for Java.
 
 ### [Capture des avertissements de substitution de police en Java avec Aspose.Words – Guide complet](./capture-font-substitution-warnings-in-java-with-aspose-words/)
-Apprenez à capturer les avertissements de substitution de police lors du chargement de documents Word en Java avec Aspose.Words.
 ### [Comment récupérer un docx – Guide complet pour lire les fichiers Word corrompus](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 Apprenez à réparer et lire des fichiers Word .docx corrompus avec Aspose.Words for Java.
 ### [Définir le mode de récupération pour récupérer un document Word endommagé](./set-recovery-mode-to-recover-broken-word-document/)
@@ -161,6 +163,8 @@ Apprenez à restaurer des documents Word endommagés avec Aspose.Words for Java 
 
 ### [Capturer les avertissements de substitution de police – Détecter les polices manquantes](./capture-font-substitution-warnings-detect-missing-fonts/)
 Apprenez à capturer les avertissements de substitution de police et à détecter les polices manquantes avec Aspose.Words for Java.
+### [Enregistrer le document Word – Définir les paramètres de police, gérer les polices manquantes](./save-word-document-set-font-settings-handle-missing-fonts/)
+Apprenez à définir les polices lors de l'enregistrement d'un document Word et à gérer les polices manquantes avec Aspose.Words for Java.
 
 ## Foire aux questions
 

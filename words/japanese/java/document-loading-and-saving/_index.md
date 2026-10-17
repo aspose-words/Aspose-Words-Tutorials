@@ -131,6 +131,10 @@ Aspose.Words for Java の多様性を探り、さまざまな形式でドキュ�
 
 ### [フォント置換警告の取得 – 欠落フォントの検出](./capture-font-substitution-warnings-detect-missing-fonts/)
 
+### [Word ドキュメントを保存 – フォント設定と欠落フォントの処理](./save-word-document-set-font-settings-handle-missing-fonts/)
+
+### [DOCX ファイルの復元方法 – ステップバイステップ Java ガイド](./how-to-recover-docx-files-step-by-step-java-guide/)
+
 ## よくある質問
 
 **Q:** プログラムで **save images from word** ドキュメントを保存するにはどうすればよいですか？  

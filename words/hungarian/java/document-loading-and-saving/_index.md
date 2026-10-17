@@ -138,7 +138,9 @@ Tanulja meg, hogyan ismerje fel a dokumentumformátumokat Java‑ban az Aspose.W
 ### [Hogyan állítsuk helyre a DOCX-et – Sérült fájlok betöltése helyreállítási beállításokkal](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
 ### [Sérült docx helyreállítása – Teljes útmutató a dokumentumok javításához és feldolgozásához](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+### [DOCX fájlok helyreállítása – Lépésről‑lépésre Java útmutató](./how-to-recover-docx-files-step-by-step-java-guide/)
 ### [Betűtípus helyettesítési figyelmeztetések rögzítése Java-ban az Aspose.Words‑szal – Teljes útmutató](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+### [Word dokumentum mentése – Betűtípus-beállítások megadása, hiányzó betűtípusok kezelése](./save-word-document-set-font-settings-handle-missing-fonts/)
 
 ### [Hogyan állítsuk vissza a docx-et – Teljes útmutató a sérült Word fájlok olvasásához](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 

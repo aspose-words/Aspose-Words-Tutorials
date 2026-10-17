@@ -168,6 +168,11 @@ Scopri come riparare documenti Word corrotti in Java usando Aspose.Words, con es
 ### [Cattura avvisi di sostituzione dei font – Rileva font mancanti con Aspose.Words per Java](./capture-font-substitution-warnings-detect-missing-fonts/)
 Scopri come intercettare gli avvisi di sostituzione dei font e identificare i font mancanti durante il caricamento dei documenti con Aspose.Words per Java.
 
+### [Come Recuperare File DOCX – Guida Passo‑per‑Passo Java](./how-to-recover-docx-files-step-by-step-java-guide/)
+
+### [Salva documento Word – Imposta impostazioni dei caratteri, gestisci i font mancanti](./save-word-document-set-font-settings-handle-missing-fonts/)
+Impara a impostare le proprietà dei font e a gestire i font mancanti durante il salvataggio di documenti Word con Aspose.Words per Java.
+
 ## Domande Frequenti
 
 **D:** Come posso **salvare immagini da word** programmaticamente nei documenti?  

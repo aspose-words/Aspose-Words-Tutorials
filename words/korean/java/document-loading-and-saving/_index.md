@@ -100,6 +100,7 @@ Aspose.Words for Java의 다재다능함을 살펴보며 다양한 형식으로 
 ### [Java에서 로드 옵션 만들기 – 누락된 글꼴 감지 및 DOCX 로드 방법](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
 
 ### [손상된 docx 복구 – 문서 복구 및 처리 완전 가이드](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+### [DOCX 파일 복구 방법 – 단계별 Java 가이드](./how-to-recover-docx-files-step-by-step-java-guide/)
 ### [Java에서 Aspose.Words로 글꼴 대체 경고 캡처 – 완전 가이드](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [docx 복구 방법 – 손상된 Word 파일 읽기 완전 가이드](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 
@@ -113,6 +114,7 @@ Aspose.Words for Java의 다재다능함을 살펴보며 다양한 형식으로 
 ### [docx 복구 방법 – 복구 모드 활성화 및 경고 읽기](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
 ### [손상된 워드 문서 복구 – 완전 Java 가이드](./recover-broken-word-document-complete-java-guide/)
 ### [폰트 대체 경고 캡처 – 누락된 폰트 감지](./capture-font-substitution-warnings-detect-missing-fonts/)
+### [Word 문서 저장 – 글꼴 설정 적용 및 누락된 글꼴 처리](./save-word-document-set-font-settings-handle-missing-fonts/)
 
 ## 자주 묻는 질문
 

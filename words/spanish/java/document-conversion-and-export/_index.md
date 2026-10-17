@@ -99,6 +99,14 @@ Aprende a convertir documentos DOCX a Markdown en Java usando Aspose.Words con e
 Aprenda a reparar documentos DOCX dañados, convertirlos a Markdown y generar PDFs accesibles PDF/UA usando Aspose.Words for Java.
 ### [Guardar docx como txt – Guía rápida en C# con exportación de matemáticas LaTeX](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
 Aprenda a convertir documentos DOCX a archivos de texto plano y exportar ecuaciones LaTeX usando C# y Aspose.Words.
+### [Guardar docx como markdown – Guía paso a paso en Java](./save-docx-as-markdown-step-by-step-java-guide/)
+Aprenda a convertir documentos DOCX a archivos markdown usando Aspose.Words for Java con ejemplos claros.
+
+### [Guardar docx como markdown con Java – Guía completa paso a paso](./save-docx-as-markdown-with-java-complete-step-by-step-guide/)
+Aprenda a convertir documentos DOCX a archivos markdown usando Aspose.Words for Java con ejemplos claros y paso a paso.
+
+### [Guardar documento como TXT – Guía rápida para exportar ecuaciones de Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
+Aprenda a guardar documentos Word como archivos TXT y exportar ecuaciones matemáticas manteniendo el formato.
 
 ### [Crear PDF UA en Java – Guía completa](./create-pdf-ua-in-java-complete-guide/)
 Aprenda a generar PDFs accesibles según el estándar PDF/UA en Java con Aspose.Words mediante una guía paso a paso.
@@ -181,6 +189,18 @@ Aprenda a generar PDFs accesibles PDF/UA a partir de documentos DOCX usando Aspo
 Aprenda a generar PDFs accesibles conforme a PDF/UA a partir de documentos Word usando Aspose.Words para Java.
 ### [Guardar docx como txt – Guía completa en C# con exportación de matemáticas](./save-docx-as-txt-complete-c-guide-with-math-export/)
 Aprende a guardar documentos DOCX como archivos TXT en C#, incluyendo la exportación de ecuaciones matemáticas.
+
+### [Crear PDF accesible desde DOCX usando Aspose Words](./create-accessible-pdf-from-docx-using-aspose-words/)
+Aprenda a generar PDFs accesibles conforme a PDF/UA a partir de documentos DOCX usando Aspose.Words.
+
+### [Crear PDF accesible – Guía paso a paso para convertir Word a PDF](./create-accessible-pdf-step-by-step-guide-to-convert-word-to/)
+Aprenda a generar PDFs accesibles cumpliendo con PDF/UA a partir de documentos Word usando Aspose.Words for Java.
+
+### [Cómo guardar DOCX como TXT – Guía completa](./how-to-save-docx-as-txt-complete-guide/)
+Aprenda a guardar documentos DOCX como archivos TXT usando Aspose.Words for Java con ejemplos paso a paso.
+
+### [Cargar imágenes a CDN mientras se convierte DOCX a Markdown – Guía completa en Java](./upload-images-to-cdn-while-converting-docx-to-markdown-full/)
+Aprenda a subir imágenes a un CDN durante la conversión de DOCX a Markdown usando Aspose.Words for Java en esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -138,6 +138,9 @@ Naučte se nastavit LoadOptions v Aspose.Words for Java, detekovat chybějící 
 
 ### [Obnovení poškozeného docx – Kompletní průvodce opravou a zpracováním dokumentů](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 
+### [Jak obnovit soubory DOCX – krok‑za‑krokem průvodce v Javě](./how-to-recover-docx-files-step-by-step-java-guide/)
+Naučte se, jak pomocí Aspose.Words for Java opravit poškozené soubory DOCX a obnovit jejich obsah krok po kroku.
+
 ### [Zachycení varování o nahrazení fontů v Javě pomocí Aspose.Words – Kompletní průvodce](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Naučte se, jak zachytit a zpracovat varování o nahrazení fontů při načítání dokumentů v Javě pomocí Aspose.Words.
 ### [Jak obnovit docx – Kompletní průvodce čtením poškozených souborů Word](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
@@ -155,6 +158,9 @@ Naučte se, jak opravit poškozené soubory Word pomocí Aspose.Words for Java s
 
 ### [Zachycení varování o nahrazení fontů – Detekce chybějících fontů](./capture-font-substitution-warnings-detect-missing-fonts/)
 Naučte se zachytit varování o nahrazení fontů a identifikovat chybějící písma při zpracování dokumentů v Aspose.Words for Java.
+
+### [Uložení Word dokumentu – Nastavení písma, řešení chybějících fontů](./save-word-document-set-font-settings-handle-missing-fonts/)
+Naučte se, jak nastavit písmo při ukládání Word dokumentu a jak zacházet s chybějícími fonty pomocí Aspose.Words for Java.
 
 ## Často kladené otázky
 

@@ -66,20 +66,10 @@ Aspose.Words for Java की मुख्य विशेषताओं मे�
 
 ## दस्तावेज़ रूपांतरण और निर्यात ट्यूटोरियल
 ### [Aspose.Words for Java में बारकोड जेनरेशन का उपयोग करना](./using-barcode-generation/)
-Aspose.Words for Java का उपयोग करके जावा में कस्टम बारकोड कैसे जेनरेट करें, सीखें। स्रोत कोड के साथ चरण‑दर‑स्टेप गाइड। Aspose.Words के साथ दस्तावेज़ ऑटोमेशन को बढ़ाएँ।
-
 ### [Aspose.Words for Java में चार्ट्स का उपयोग करना](./using-charts/)
-Aspose.Words for Java में चार्ट्स बनाना और कस्टमाइज़ करना सीखें। डेटा विज़ुअलाइज़ेशन के लिए चार्ट प्रकार, फ़ॉर्मेटिंग और एक्सिस प्रॉपर्टीज़ का अन्वेषण करें।
-
 ### [Aspose.Words for Java में ऑफिस मैथ ऑब्जेक्ट्स का उपयोग करना](./using-office-math-objects/)
-Aspose.Words for Java के साथ दस्तावेज़ों में गणितीय समीकरणों की शक्ति को अनलॉक करें। Office Math ऑब्जेक्ट्स को आसानी से मैनीपुलेट और डिस्प्ले करना सीखें।
-
 ### [Aspose.Words for Java में डॉक्यूमेंट शेप्स का उपयोग करना](./using-document-shapes/)
-Aspose.Words for Java में डॉक्यूमेंट शेप्स की शक्ति को अनलॉक करें। चरण‑दर‑स्टेप उदाहरणों के साथ विज़ुअली आकर्षक दस्तावेज़ बनाना सीखें।
-
 ### [Aspose.Words for Java में दस्तावेज़ों में वॉटरमार्क का उपयोग करना](./using-watermarks-to-documents/)
-Aspose.Words for Java में दस्तावेज़ों में वॉटरमार्क कैसे जोड़ें, सीखें। पेशेवर दिखने वाले दस्तावेज़ों के लिए टेक्स्ट और इमेज वॉटरमार्क को कस्टमाइज़ करें।
-
 ### [Aspose.Words for Java में टेबल्स और टेबल स्टाइल्स को फ़ॉर्मेट करना](./formatting-tables-and-table-styles/)
 Aspose.Words for Java में टेबल्स को फ़ॉर्मेट करना और टेबल स्टाइल्स लागू करना सीखें। प्रभावी टेबल फ़ॉर्मेटिंग के लिए स्रोत कोड के साथ चरण‑दर‑स्टेप गाइड। Aspose.Words के साथ अपने दस्तावेज़ लेआउट को बेहतर बनाएं।
 
@@ -104,13 +94,11 @@ Aspose.Words for Java का उपयोग करके DOCX फ़ाइल �
 Java में Aspose.Words का उपयोग करके docx फ़ाइल को PDF में बदलने की पूरी प्रक्रिया सीखें।
 
 ### [docx को markdown में बदलें – Aspose.Words के साथ गणितीय समीकरणों को LaTeX में निर्यात करें](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
-
+### [docx को markdown में सहेजें – चरण‑दर‑स्टेप जावा गाइड](./save-docx-as-markdown-step-by-step-java-guide/)
+### [जावा के साथ docx को मार्कडाउन में सहेजें – पूर्ण चरण‑दर‑चरण गाइड](./save-docx-as-markdown-with-java-complete-step-by-step-guide/)
 ### [दस्तावेज़ को TXT के रूप में सहेजें – Word गणित निर्यात के लिए त्वरित गाइड](./save-document-as-txt-quick-guide-to-exporting-word-math/)
-Aspose.Words for Java का उपयोग करके Word दस्तावेज़ को TXT फ़ाइल में बदलें और गणितीय समीकरणों को निर्यात करने की प्रक्रिया सीखें।
-
+### [DOCX को TXT के रूप में सहेजें – पूर्ण गाइड](./how-to-save-docx-as-txt-complete-guide/)
 ### [DOCX को मार्कडाउन में बदलते समय छवियों को एम्बेड कैसे करें](./how-to-embed-images-in-markdown-when-converting-docx/)
-DOCX को मार्कडाउन में बदलते समय छवियों को सही तरीके से एम्बेड करने की चरण‑दर‑स्टेप गाइड।
-
 ### [DOCX से एक्सेसिबल PDF बनाना – पूर्ण गाइड](./create-accessible-pdf-from-docx-complete-guide/)
 DOCX फ़ाइल को एक्सेसिबल PDF में बदलने की पूरी प्रक्रिया, टैग, संरचना और अनुपालन सेटिंग्स के साथ।
 ### [Java में DOCX को Markdown में बदलते समय इमेजेज को Base64 के रूप में एम्बेड करना](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
@@ -192,6 +180,10 @@ Shape टैग्स को संरक्षित रखते हुए DOC
 Aspose.Words for Java का उपयोग करके DOCX फ़ाइल को मार्कडाउन में सहेजने की पूरी प्रक्रिया सीखें, कोड उदाहरण सहित।
 
 ### [DOCX से एक्सेसिबल PDF बनाएं – पूर्ण प्रोग्रामिंग गाइड](./create-accessible-pdf-from-docx-complete-programming-guide/)
+### [DOCX से एक्सेसिबल PDF बनाना – पूर्ण गाइड](./create-accessible-pdf-from-docx/)
+### [Aspose Words का उपयोग करके DOCX से एक्सेसिबल PDF बनाएं](./create-accessible-pdf-from-docx-using-aspose-words/)
+### [एक्सेसिबल PDF बनाएं – वर्ड को PDF में बदलने के लिए चरण‑दर‑चरण गाइड](./create-accessible-pdf-step-by-step-guide-to-convert-word-to/)
+### [DOCX को मार्कडाउन में बदलते समय इमेज को CDN पर अपलोड करें – पूर्ण जावा गाइड](./upload-images-to-cdn-while-converting-docx-to-markdown-full/)
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

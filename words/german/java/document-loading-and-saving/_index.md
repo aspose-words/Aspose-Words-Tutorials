@@ -83,8 +83,6 @@ Dokumenteinstellungen sind der Schlüssel, um Dokumente exakt nach Ihren Anforde
 ## Related Tutorials – Load, Save, and Convert
 ### [Laden und Speichern von HTML‑Dokumenten mit Aspose.Words für Java](./loading-and-saving-html-documents/)
 ### [Arbeiten mit Ladeoptionen in Aspose.Words für Java](./using-load-options/)
-Meistern Sie Ladeoptionen in Aspose.Words für Java. Passen Sie das Laden von Dokumenten an, behandeln Sie Verschlüsselungen, konvertieren Sie Shapes, setzen Sie Word‑Versionen und mehr für effiziente Java‑Dokumentenverarbeitung.
-
 ### [Ladeoptionen in Java erstellen – Fehlende Schriftarten erkennen & DOCX laden](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
 Lernen Sie, wie Sie Ladeoptionen konfigurieren, fehlende Schriftarten erkennen und DOCX-Dateien korrekt laden.
 
@@ -116,10 +114,8 @@ Erfahren Sie, wie Sie beschädigte DOCX‑Dateien mit Aspose.Words wiederherstel
 Erfahren Sie, wie Sie beschädigte DOCX‑Dateien mit Aspose.Words für Java wiederherstellen und lesbar machen.
 
 ### [Beschädigtes docx wiederherstellen – Vollständiger Leitfaden zum Reparieren und Verarbeiten von Dokumenten](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
-Erfahren Sie, wie Sie beschädigte DOCX‑Dateien reparieren und anschließend mit Aspose.Words für Java verarbeiten.
-
+### [Wie man DOCX-Dateien wiederherstellt – Schritt‑für‑Schritt Java‑Leitfaden](./how-to-recover-docx-files-step-by-step-java-guide/)
 ### [Erfassung von Font‑Substitutions‑Warnungen in Java mit Aspose.Words – Vollständiger Leitfaden](./capture-font-substitution-warnings-in-java-with-aspose-words/)
-Erfahren Sie, wie Sie Font‑Substitutions‑Warnungen in Java mit Aspose.Words erfassen und verarbeiten – vollständige Anleitung.
 ### [Wiederherstellungsmodus festlegen, um beschädigtes Word‑Dokument zu reparieren](./set-recovery-mode-to-recover-broken-word-document/)
 Lernen Sie, wie Sie den Wiederherstellungsmodus setzen, um beschädigte Word‑Dokumente mit Aspose.Words für Java zu reparieren.
 
@@ -132,6 +128,7 @@ Lernen Sie, wie Sie beschädigte DOCX-Dateien wiederherstellen und das repariert
 Erfahren Sie, wie Sie den Wiederherstellungsmodus aktivieren und Warnungen anzeigen lassen, um beschädigte DOCX‑Dateien mit Aspose.Words für Java zu reparieren.
 ### [Wie man DOCX wiederherstellt – Wiederherstellungsmodus aktivieren & Warnungen lesen](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
 Erfahren Sie, wie Sie den Wiederherstellungsmodus aktivieren und Warnungen lesen, um beschädigte DOCX-Dateien zu reparieren.
+### [Word-Dokument speichern – Schriftarteinstellungen festlegen, fehlende Schriften behandeln](./save-word-document-set-font-settings-handle-missing-fonts/)
 
 ## Häufig gestellte Fragen
 
