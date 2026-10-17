@@ -1,0 +1,7 @@
+Title: Compare word documents and replace placeholders in C#
+Slug: compare-word-documents-and-replace-placeholders-in-c
+Category: compare-documents
+ProcessedDate: 2026-09-08T22:52:47.831582
+SourceRepo: AI Search API
+Keywords: compare word documents, how to replace text, automate document generation, how to compare docx, insert current date
+PRNumber: 267

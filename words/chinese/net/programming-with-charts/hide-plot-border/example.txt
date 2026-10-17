@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: 本教程演示如何创建 Word 文档，插入柱形图，使用示例数据填充，隐藏图表的绘图区边框但保留坐标轴线可见，最后保存文档。
+//ExStepSummary:0: 创建一个新的空白 Word 文档，并使用 DocumentBuilder 对其进行编辑。
+//ExStepSummary:1: 在文档中插入一个 432×252 的柱形图，并获取其 Chart 对象。
+//ExStepSummary:2: 清除所有现有系列，定义三个类别标签，并向图表添加一个包含示例数值的系列。
+//ExStepSummary:3: 将绘图区的 Stroke 粗细设为 0，去除其边框，同时保留坐标轴线可见。
+//ExStepSummary:4: 将修改后的文档保存为 .docx 文件。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+columnChart.Series.Clear();
+string[] labels = { "Group A", "Group B", "Group C" };
+columnChart.Series.Add("Demo Data", labels, new double[] { 10, 20, 30 });
+
+//ExStep:3-
+columnChart.Format.Stroke.Weight = 0;
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutPlotBorder.docx");
+//ExEnd

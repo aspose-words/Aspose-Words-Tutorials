@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: Den här handledningen visar hur man infogar sidbrytningar i ett Word-dokument med hjälp av Aspose.Words Document och DocumentBuilder.
+//ExStepSummary:0: Skapa ett Document-objekt och en DocumentBuilder som kommer att användas för att lägga till innehåll.
+//ExStepSummary:1: Skriv texten för den första sidan och infoga en sidbrytning så att nästa innehåll börjar på en ny sida.
+//ExStepSummary:2: Skriv texten för den andra sidan och infoga ytterligare en sidbrytning för att starta den tredje sidan.
+//ExStepSummary:3: Skriv texten för den tredje sidan och fullborda det tre‑sidiga dokumentet.
+//ExStepSummary:4: Spara det sammansatta dokumentet som en .docx‑fil i den angivna katalogen.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("This is page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:2-
+builder.Writeln("This is page 2.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+builder.Writeln("This is page 3.");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

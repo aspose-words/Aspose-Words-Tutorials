@@ -19,6 +19,15 @@
 이 튜토리얼에서는 Aspose.Words for .NET을 사용하여 Word 문서에 주석을 포함한 워드 프로세싱의 다양한 측면을 학습합니다. 문서에 주석을 추가하고, 주석 답글을 특정 텍스트에 고정하고, 주석 답글을 추가 및 제거하고, 주석과 해당 답글을 처리하는 방법을 알아봅니다. 각 튜토리얼은 전체 소스 코드가 포함된 단계별 가이드를 제공하여 Aspose.Words for .NET을 사용하여 Word 문서 내에서 협업 및 피드백 관리를 강화할 수 있도록 지원합니다.
 
  ## 튜토리얼
+
+{{< tutorial-card link="./add-hyperlink-comment/" title="Aspose.Words for .NET을 사용하여 하이퍼링크 주석을 추가하고 PDF 주석으로 내보내기" imgSrc="./add-hyperlink-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-comment/" title="Aspose.Words for .NET을 사용하여 Word 문서의 특정 단락에 Comment를 삽입합니다." imgSrc="./add-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./style-comment-text/" title="Aspose.Words for .NET을 사용하여 Word 문서의 주석 텍스트에 사용자 정의 스타일 적용" imgSrc="./style-comment-text/images/thumb.png" >}}
+
+
+
 | 제목 | 설명 |
 | --- | --- |
 | [댓글 추가](./add-comments/) | Aspose.Words for .NET을 사용하여 Word 문서에 주석을 추가하는 방법을 가이드를 통해 알아보세요. 문서 협업 프로세스를 더욱 간편하게 개선해 보세요. |

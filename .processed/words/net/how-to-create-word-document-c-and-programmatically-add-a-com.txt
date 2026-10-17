@@ -1,0 +1,7 @@
+Title: How to create word document c# and programmatically add a command button
+Slug: how-to-create-word-document-c-and-programmatically-add-a-com
+Category: working-with-oleobjects-and-activex
+ProcessedDate: 2026-09-12T02:56:25.633144
+SourceRepo: AI Search API
+Keywords: create word document c#, programmatically add command button
+PRNumber: 273

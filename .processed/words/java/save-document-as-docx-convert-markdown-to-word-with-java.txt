@@ -1,0 +1,7 @@
+Title: Save Document as DOCX – Convert Markdown to Word with Java
+Slug: save-document-as-docx-convert-markdown-to-word-with-java
+Category: document-conversion-and-export
+ProcessedDate: 2026-07-23T10:44:16.747515
+SourceRepo: AI Search API
+Keywords: save document as docx, convert markdown to docx, how to convert markdown, markdown to word conversion, convert md to docx
+PRNumber: 232

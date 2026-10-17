@@ -1,0 +1,7 @@
+Title: how to add activex control in Word with Aspose.Words – step‑by‑step guide
+Slug: how-to-add-activex-control-in-word-with-aspose-words-step-by
+Category: working-with-oleobjects-and-activex
+ProcessedDate: 2026-08-08T03:02:21.768648
+SourceRepo: AI Search API
+Keywords: how to add activex control, associate macro with button, add clickable button word, add command button word
+PRNumber: 245

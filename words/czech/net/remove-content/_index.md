@@ -25,10 +25,10 @@ Ať už potřebujete manipulovat s dokumenty Word, vytvářet je, převádět ne
 | Název | Popis |
 | --- | --- |
 | [Odstranění zalomení stránek v dokumentu Word](./remove-page-breaks/) | Naučte se, jak odstranit zalomení stránek v dokumentu Word pomocí Aspose.Words pro .NET s naším podrobným návodem. Zlepšete si své dovednosti v manipulaci s dokumenty. |
-| [Odstranění zalomení sekcí v dokumentu Word](./remove-section-breaks/) | Naučte se, jak odstranit zalomení oddílů v dokumentech Word pomocí Aspose.Words pro .NET. Tento podrobný návod krok za krokem zajišťuje bezproblémovou správu a úpravy dokumentů.
-| [Odstranění zápatí v dokumentu Word](./remove-footers/) Naučte se, jak odstranit zápatí z dokumentů Wordu pomocí Aspose.Words pro .NET s tímto komplexním podrobným návodem. |
+| [Odstranění zalomení sekcí v dokumentu Word](./remove-section-breaks/) | Naučte se, jak odstranit zalomení oddílů v dokumentech Word pomocí Aspose.Words pro .NET. Tento podrobný návod krok za krokem zajišťuje bezproblémovou správu a úpravy dokumentů. |
+| [Odstranění zápatí v dokumentu Word](./remove-footers/) | Naučte se, jak odstranit zápatí z dokumentů Wordu pomocí Aspose.Words pro .NET s tímto komplexním podrobným návodem. |
 | [Odebrat obsah v dokumentu Word](./remove-table-of-contents/) | Naučte se, jak odstranit obsah v dokumentu Word pomocí Aspose.Words pro .NET. |
-
+| [Jak volat LLM v C# – Kompletní průvodce s lokálním modelem](./how-to-call-llm-in-c-complete-guide-with-local-model/) | Naučte se, jak v C# volat velké jazykové modely pomocí lokálního modelu – krok za krokem s ukázkovým kódem. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
