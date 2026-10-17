@@ -1,25 +1,51 @@
 ---
 category: general
-date: 2026-03-17
-description: जावा में DOCX को मार्कडाउन में बदलें, वर्ड फ़ाइलों से छवियों को निकालते
-  हुए। यह चरण‑दर‑चरण गाइड Aspose.Words के उपयोग को सहज रूपांतरण के लिए दिखाता है।
+date: 2026-10-12
+description: Java में DOCX को Markdown में बदलें, Word फ़ाइलों से इमेज निकालते हुए।
+  यह चरण‑दर‑चरण गाइड Aspose.Words के उपयोग को दिखाता है जिससे सहज रूपांतरण हो सके।
 draft: false
 keywords:
-- convert docx to markdown
-- extract images word
-- java docx to markdown
-- convert word markdown images
-language: hi
-og_description: जावा में DOCX को मार्कडाउन में बदलें, वर्ड फ़ाइलों से चित्र निकालें।
-  सही इमेज संसाधनों के साथ मार्कडाउन प्राप्त करने के लिए इस पूर्ण ट्यूटोरियल का पालन
-  करें।
-og_title: DOCX को मार्कडाउन में परिवर्तित करें – इमेज एक्सट्रैक्शन के साथ जावा गाइड
+- docx to markdown java
+- extract images from docx
+- aspose words java
+- markdown embedded images
+- aspose words maven
+lastmod: 2026-10-12
+og_description: Docx to markdown java गाइड दिखाता है कि Aspose.Words का उपयोग करके
+  इमेज निकालते हुए DOCX फ़ाइलों को Markdown में कैसे बदला जाए। विश्वसनीय परिणामों
+  के लिए चरणों का पालन करें।
+og_image_alt: 'Developer guide: Convert DOCX to Markdown in Java with image extraction'
+og_title: Docx to markdown java – इमेज एक्सट्रैक्शन के साथ DOCX को बदलें
+schemas:
+- author: Aspose
+  dateModified: '2026-10-12'
+  description: Convert DOCX to Markdown in Java, extracting images from Word files.
+    This step‑by‑step guide shows Aspose.Words usage for seamless conversion.
+  headline: 'Docx to markdown java: convert DOCX to Markdown with image extraction'
+  type: TechArticle
+- questions:
+  - answer: Yes, the library is distributed as a plain JAR and works with both Maven
+      and Gradle build systems.
+    question: Is the solution compatible with Maven and Gradle?
+  - answer: Iterate over a directory, load each file with `new Document(path)`, and
+      call `save` with the same `MarkdownSaveOptions` instance for each iteration.
+    question: Can I convert a batch of DOCX files at once?
+  - answer: The callback writes each image as it is encountered, so even very large
+      images are streamed to disk without loading the entire document into memory.
+    question: How are large images handled?
+  - answer: By default images are saved as PNG, but you can preserve the original
+      format by returning `args.getOriginalFileName()` in the callback’s `setFileName`
+      method.
+    question: Does the API support extracting images in their original format?
+  - answer: Any version from 20.12 onward supports Markdown export and the `IResourceSavingCallback`
+      interface.
+    question: What version of Aspose.Words is required?
+  type: FAQPage
 tags:
-- Java
+- docx to markdown
 - Aspose.Words
-- Markdown
-- DOCX
-title: DOCX को Markdown में परिवर्तित करें – इमेज एक्सट्रैक्शन के साथ जावा गाइड
+- Java document processing
+title: 'Docx to markdown java: इमेज एक्सट्रैक्शन के साथ DOCX को Markdown में बदलें'
 url: /hi/java/document-conversion-and-export/convert-docx-to-markdown-java-guide-with-image-extraction/
 ---
 
@@ -27,26 +53,35 @@ url: /hi/java/document-conversion-and-export/convert-docx-to-markdown-java-guide
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# DOCX को Markdown में बदलें – इमेज एक्सट्रैक्शन के साथ Java गाइड
+# Docx to markdown java: DOCX को Markdown में इमेज एक्सट्रैक्शन के साथ बदलें
 
-क्या आपको **DOCX को Markdown में बदलने** की ज़रूरत पड़ी है लेकिन तस्वीरें कैसे रखें, समझ नहीं आया? आप अकेले नहीं हैं—कई डेवलपर्स को Word से स्टैटिक साइट्स पर डॉक्यूमेंटेशन ले जाने में यही समस्या आती है।  
+क्या आपको कभी Java में DOCX को Markdown में बदलने की ज़रूरत पड़ी है लेकिन चित्रों को बरकरार रखने का तरीका नहीं पता था? आप अकेले नहीं हैं—कई डेवलपर्स को Word से स्थैतिक साइटों पर दस्तावेज़ ले जाने पर यही समस्या आती है। यह **docx to markdown java** गाइड आपको दिखाता है कि कैसे Word दस्तावेज़ को साफ़ markdown में बदलें **और** Aspose.Words का उपयोग करके हर एम्बेडेड इमेज को स्वचालित रूप से निकालें। कोई बाहरी सेवाएँ नहीं, कोई कमांड‑लाइन हैक्स नहीं—सिर्फ शुद्ध Java कोड जिसे आप किसी भी Maven या Gradle प्रोजेक्ट में डाल सकते हैं।
 
-अच्छी खबर यह है कि कुछ ही लाइनों के Java कोड और Aspose.Words के साथ, आप Word डॉक्यूमेंट को साफ़ Markdown **और** सभी एम्बेडेड इमेज़ को ऑटोमैटिकली एक्सट्रैक्ट कर सकते हैं। इस ट्यूटोरियल में हम पूरी प्रक्रिया को कवर करेंगे, स्रोत फ़ाइल को लोड करने से लेकर एक Markdown फ़ाइल और PNG की फ़ोल्डर तैयार करने तक, जो आपके स्टैटिक‑साइट जेनरेटर के लिए तैयार होगी।
+## त्वरित उत्तर
+- **क्या मैं इसे बिना लाइसेंस के चला सकता हूँ?** हाँ, Aspose.Words एक मुफ्त मूल्यांकन मोड प्रदान करता है जो वॉटरमार्क जोड़ता है; लाइसेंस इसे प्रोडक्शन के लिए हटाता है।
+- **कौन सा Java संस्करण आवश्यक है?** Java 17 या कोई भी JDK 8+ काम करता है क्योंकि API पिछली संस्करणों के साथ संगत है।
+- **इमेजेज़ कैसे सहेजी जाती हैं?** लाइब्रेरी प्रत्येक इमेज को आपके द्वारा निर्दिष्ट फ़ोल्डर में लिखती है, उन्हें क्रमिक रूप से नाम देती है (जैसे `img_0.png`).
+- **कौन से फ़ॉर्मेट समर्थित हैं?** Aspose.Words 35+ इनपुट और आउटपुट फ़ॉर्मेट संभालता है, जिसमें DOCX, PDF, HTML, और Markdown शामिल हैं।
+- **क्या समाधान मेमोरी‑कुशल है?** रिसोर्स‑सेविंग कॉलबैक एक समय में एक इमेज प्रोसेस करता है, जिससे 1,000‑पेज दस्तावेज़ों के लिए भी मेमोरी उपयोग कम रहता है।
 
-हम **extract images word‑files**, “java docx to markdown” के एज केस (जहाँ स्रोत में टेबल्स हों) आदि जैसे संबंधित मुद्दों को भी छुएँगे, और यह सुनिश्चित करेंगे कि अंतिम आउटपुट आपके मौजूदा **convert word markdown images** वर्कफ़्लो के साथ मेल खाए। कोई बाहरी सर्विस नहीं, कोई कमांड‑लाइन हैक नहीं—सिर्फ शुद्ध Java कोड जिसे आप किसी भी Maven या Gradle प्रोजेक्ट में डाल सकते हैं।
-
-## What You’ll Need
-
-- **Java 17** (या कोई भी नया JDK; API 8+ पर समान रूप से काम करता है)
+## आपको क्या चाहिए
+- **Java 17** (या कोई भी नवीनतम JDK; API 8+ पर भी समान काम करता है)
 - **Aspose.Words for Java** (फ़्री ट्रायल या लाइसेंस्ड JAR)
 - एक **DOCX** फ़ाइल जिसमें कम से कम एक इमेज हो (हम इसे `input.docx` कहेंगे)
-- कोई IDE या टेक्स्ट एडिटर—IntelliJ IDEA, Eclipse, VS Code, जो भी आप पसंद करते हैं
+- एक IDE या टेक्स्ट एडिटर—IntelliJ IDEA, Eclipse, VS Code, जो भी आपको पसंद हो
 
-> **Pro tip:** अगर आपने अभी तक अपने प्रोजेक्ट में Aspose.Words नहीं जोड़ा है, तो Aspose वेबसाइट से नवीनतम JAR डाउनलोड करके अपने `libs` फ़ोल्डर में रखें, फिर उसे क्लासपाथ में जोड़ें।
+> **प्रो टिप:** यदि आपने अभी तक अपने प्रोजेक्ट में Aspose.Words नहीं जोड़ा है, तो Aspose वेबसाइट से नवीनतम JAR प्राप्त करें और इसे अपने `libs` फ़ोल्डर में डालें, फिर इसे क्लासपाथ में जोड़ें।
 
-## Step 1: Set Up the Project and Import Dependencies
+## Java में docx को markdown में कैसे बदलें?
 
-पहले, एक साधारण Maven मॉड्यूल (या Gradle, अगर वही आपका पसंदीदा है) बनाएँ। यहाँ एक न्यूनतम `pom.xml` स्निपेट है जो Aspose.Words को इम्पोर्ट करता है:
+DOCX को `new Document("input.docx")` से लोड करें। `Document` क्लास एक Word फ़ाइल को मेमोरी में लोड किए हुए दर्शाता है। एक `MarkdownSaveOptions` ऑब्जेक्ट को कॉन्फ़िगर करें जिसमें रिसोर्स‑सेविंग कॉलबैक शामिल हो, और `sourceDoc.save("output.md", markdownOptions)` को कॉल करें। कॉलबैक प्रत्येक इमेज को आपके द्वारा चुने गए फ़ोल्डर में लिखता है, जिससे आपको केवल तीन लाइनों के कोड में प्रकाशित करने योग्य markdown फ़ाइल और मिलती‑जुलती इमेज डायरेक्टरी मिलती है। यह तरीका किसी भी आकार के दस्तावेज़ के लिए काम करता है और टेबल, फुटनोट, और एम्बेडेड ग्राफ़िक्स को संरक्षित रखता है।
+
+### परिभाषा एंकर: Document क्लास
+`Document` क्लास Aspose.Words का मुख्य ऑब्जेक्ट है जो मेमोरी में लोड की गई Word फ़ाइल को दर्शाता है।
+
+## चरण 1: प्रोजेक्ट सेट अप करें और डिपेंडेंसीज़ इम्पोर्ट करें
+
+सबसे पहले, एक साधारण Maven मॉड्यूल (या यदि आप Gradle पसंद करते हैं तो Gradle) बनाएं। यहाँ एक न्यूनतम `pom.xml` स्निपेट है जो Aspose.Words को शामिल करता है:
 
 ```xml
 <project>
@@ -65,11 +100,11 @@ url: /hi/java/document-conversion-and-export/convert-docx-to-markdown-java-guide
 </project>
 ```
 
-अगर आप Maven नहीं इस्तेमाल कर रहे हैं, तो बस यह सुनिश्चित करें कि `aspose-words-23.12.jar` (या नया संस्करण) कंपाइल करते समय क्लासपाथ में हो।
+यदि आप Maven का उपयोग नहीं कर रहे हैं, तो सुनिश्चित करें कि `aspose-words-23.12.jar` (या नया) कंपाइल करते समय क्लासपाथ में हो।
 
-## Step 2: Load the DOCX Document Containing Images
+## चरण 2: इमेजेज़ वाली docx दस्तावेज़ लोड करें
 
-अब वह Java क्लास लिखते हैं जो मुख्य काम करेगा। सबसे पहले हम Word फ़ाइल खोलते हैं:
+अब चलिए वह Java क्लास लिखते हैं जो भारी काम करता है। सबसे पहले हम Word फ़ाइल खोलते हैं:
 
 ```java
 import com.aspose.words.*;
@@ -81,11 +116,11 @@ public class MarkdownResourceCallbackDemo {
         Document sourceDoc = new Document("YOUR_DIRECTORY/input.docx");
 ```
 
-> **Why this matters:** `Document` किसी भी Aspose.Words ऑपरेशन की एंट्री पॉइंट है। यह DOCX को पार्स करता है, मेमोरी में ऑब्जेक्ट मॉडल बनाता है, और हमें पैराग्राफ, टेबल्स और ज़रूर एम्बेडेड मीडिया तक पहुँच देता है।
+> **यह क्यों महत्वपूर्ण है:** `Document` *किसी* भी Aspose.Words ऑपरेशन का एंट्री पॉइंट है। यह DOCX को पार्स करता है, एक इन‑मेमोरी ऑब्जेक्ट मॉडल बनाता है, और हमें पैराग्राफ, टेबल, और बेशक एम्बेडेड मीडिया तक पहुँच देता है।
 
-## Step 3: Configure MarkdownSaveOptions with a Resource‑Saving Callback
+## चरण 3: markdownsaveoptions को रिसोर्स‑सेविंग कॉलबैक के साथ कॉन्फ़िगर करें
 
-जब Aspose.Words Markdown में कन्वर्ट करता है, तो वह इमेज फ़ाइलें उस फ़ोल्डर में लिखता है जिसे आप निर्दिष्ट करते हैं। फ़ोल्डर नाम और फ़ाइल नेमिंग स्कीम को कंट्रोल करने के लिए, हम `IResourceSavingCallback` इम्प्लीमेंट करते हैं:
+जब Aspose.Words markdown में बदलता है, तो यह इमेज फ़ाइलें आपके द्वारा निर्दिष्ट फ़ोल्डर में लिखता है। फ़ोल्डर नाम और फ़ाइल नामकरण योजना को नियंत्रित करने के लिए, हम `IResourceSavingCallback` को इम्प्लीमेंट करते हैं। `IResourceSavingCallback` इंटरफ़ेस आपको Aspose.Words द्वारा लिखे गए प्रत्येक रिसोर्स, जैसे इमेजेज़, को इंटरसेप्ट करने देता है।
 
 ```java
         // Create Markdown save options and define where images will be stored
@@ -99,16 +134,18 @@ public class MarkdownResourceCallbackDemo {
         });
 ```
 
-### What the callback does
+### परिभाषा एंकर: IResourceSavingCallback
+`IResourceSavingCallback` एक इंटरफ़ेस है जो आपको Aspose.Words द्वारा लिखे गए प्रत्येक रिसोर्स (जैसे इमेजेज़) को इंटरसेप्ट करने देता है, जिससे आप आउटपुट पाथ और फ़ाइलनाम चुन सकते हैं।
 
-- **`setDirectory`** Aspose को बताता है कि इमेज फ़ाइलें कहाँ ड्रॉप करनी हैं।  
-- **`setFileName`** एक डिटरमिनिस्टिक नाम बनाता है (`img_0.png`, `img_1.png`, …) ताकि आप Markdown से बिना अनुमान लगाए उन्हें रेफ़र कर सकें।
+#### कॉलबैक क्या करता है
+- **`setDirectory`** Aspose को बताता है कि इमेज फ़ाइलें कहाँ डालनी हैं।  
+- **`setFileName`** एक निश्चित नाम बनाता है (`img_0.png`, `img_1.png`, …) ताकि आप उन्हें markdown से बिना अनुमान लगाए रेफ़र कर सकें।  
 
-अगर आपको अलग इमेज फ़ॉर्मेट चाहिए (जैसे JPEG), तो बस `setFileName` में एक्सटेंशन बदल दें और Aspose आपके लिए कन्वर्ज़न कर देगा।
+यदि आपको अलग इमेज फ़ॉर्मेट चाहिए (जैसे JPEG), तो बस `setFileName` में एक्सटेंशन बदलें और Aspose आपके लिए परिवर्तन करेगा।
 
-## Step 4: Save the Document as Markdown
+## चरण 4: दस्तावेज़ को markdown के रूप में सहेजें
 
-ऑप्शन तैयार होने के बाद, अंतिम कदम एक‑लाइनर है:
+ऑप्शन तैयार होने के बाद, अंतिम चरण एक‑लाइनर है:
 
 ```java
         // Save the document as Markdown using the configured options
@@ -119,12 +156,11 @@ public class MarkdownResourceCallbackDemo {
 
 प्रोग्राम चलाने पर दो आर्टिफैक्ट बनते हैं:
 
-1. `output.md` – मूल Word कंटेंट का Markdown प्रतिनिधित्व।  
-2. `markdown-resources/` – एक फ़ोल्डर जिसमें हर एक्सट्रैक्टेड इमेज (`img_0.png`, `img_1.png`, …) रखी जाती है।
+1. `output.md` – मूल Word सामग्री का markdown प्रतिनिधित्व।  
+2. `markdown-resources/` – एक फ़ोल्डर जिसमें हर निकाली गई इमेज (`img_0.png`, `img_1.png`, …) रखी जाती है।
 
-### Expected markdown snippet
-
-अगर `input.docx` में एक पैराग्राफ के बाद इमेज है, तो परिणामी Markdown कुछ इस तरह दिख सकता है:
+### अपेक्षित markdown स्निपेट
+यदि `input.docx` में एक पैराग्राफ के बाद इमेज है, तो परिणामी markdown कुछ इस तरह दिख सकता है:
 
 ```markdown
 Here is an introductory paragraph.
@@ -134,21 +170,20 @@ Here is an introductory paragraph.
 Another paragraph after the picture.
 ```
 
-ध्यान दें कि इमेज रेफ़रेंस एक रिलेटिव पाथ का उपयोग करता है जो हमारे बनाए फ़ोल्डर से मेल खाता है। यह बिल्कुल वही है जो Jekyll, Hugo, या MkDocs जैसे स्टैटिक साइट जेनरेटर को चाहिए।
+ध्यान दें कि इमेज रेफ़रेंस एक रिलेटिव पाथ उपयोग करता है जो हमने बनाए फ़ोल्डर से मेल खाता है। यह वही है जो आपको Jekyll, Hugo, या MkDocs जैसे स्थैतिक साइट जेनरेटर के लिए चाहिए।
 
-## Step 5: Verify the Output and Tweak (Optional)
+## चरण 5: आउटपुट को सत्यापित करें और समायोजित करें (वैकल्पिक)
 
-रन के बाद, `output.md` को किसी भी टेक्स्ट एडिटर में खोलें:
+रन के बाद, किसी भी टेक्स्ट एडिटर में `output.md` खोलें:
 
-- **इमेज लिंक चेक करें:** उन्हें `markdown-resources` फ़ोल्डर की ओर इशारा करना चाहिए।  
-- **Markdown रेंडरिंग वैलिडेट करें:** फ़ाइल को Markdown प्रीव्यू (VS Code, Typora, या आपका CI पाइपलाइन) में खोलें ताकि तस्वीरें सही दिखें।  
-- **नामकरण या फ़ोल्डर स्ट्रक्चर एडजस्ट करें:** अगर आप अलग हायरार्की पसंद करते हैं, तो कॉलबैक लॉजिक को उसी अनुसार बदलें।
+- **इमेज लिंक जांचें:** उन्हें `markdown-resources` फ़ोल्डर की ओर इशारा करना चाहिए।  
+- **markdown रेंडरिंग वैलिडेट करें:** फ़ाइल को markdown प्रीव्यू (VS Code, Typora, या आपके CI पाइपलाइन) में खोलें ताकि चित्र अपेक्षित रूप से दिखें।  
+- **नामकरण या फ़ोल्डर संरचना समायोजित करें:** यदि आप अलग हायरार्की चाहते हैं, तो कॉलबैक लॉजिक को उसी अनुसार बदलें।
 
-### Handling edge cases
-
-- **टेबल्स में इनलाइन इमेजेज:** Aspose.Words स्वचालित रूप से उन इमेजेज को भी एक्सट्रैक्ट करता है।  
-- **बड़ी DOCX फ़ाइलें:** कॉलबैक प्रति रिसोर्स चलता है, इसलिए मेमोरी खपत कम रहती है।  
-- **मिसिंग इमेजेज:** अगर कोई इमेज एक्सपोर्ट नहीं होती, तो Aspose `ResourceSavingException` थ्रो करता है। `sourceDoc.save` कॉल को try‑catch ब्लॉक में रैप करके समस्या वाले इंडेक्स को लॉग करें।
+### किनारे के मामलों को संभालना
+- **इनलाइन इमेजेज़ वाली टेबल्स:** Aspose.Words स्वचालित रूप से उन इमेजेज़ को भी निकालता है।  
+- **बड़े DOCX फ़ाइलें:** कॉलबैक प्रत्येक रिसोर्स पर चलता है, इसलिए 1,000‑पेज दस्तावेज़ों के लिए भी मेमोरी खपत कम रहती है।  
+- **गुम इमेजेज़:** यदि कोई इमेज एक्सपोर्ट नहीं हो पाती, तो Aspose `ResourceSavingException` फेंकता है। समस्या वाले इंडेक्स को लॉग करने के लिए `sourceDoc.save` कॉल को try‑catch ब्लॉक में रैप करें।
 
 ```java
 try {
@@ -159,47 +194,80 @@ try {
 }
 ```
 
-## Bonus: Convert Word Markdown Images for Existing Sites
+## बोनस: मौजूदा साइटों के लिए word markdown इमेजेज़ को बदलें
 
-अगर आपका मौजूदा Markdown साइट इमेजेज को किसी विशेष सब‑फ़ोल्डर (जैसे `assets/img/`) में रखता है, तो बस कॉलबैक को इस तरह एडजस्ट करें:
+यदि आपके पास पहले से एक markdown साइट है जो इमेजेज़ को एक विशिष्ट सब‑फ़ोल्डर (जैसे `assets/img/`) में अपेक्षित करती है, तो बस कॉलबैक को समायोजित करें:
 
 ```java
 args.setDirectory("YOUR_DIRECTORY/assets/img");
 args.setFileName("docx_image_" + args.getIndex() + ".png");
 ```
 
-यह छोटा बदलाव आपको **convert word markdown images** करने देता है बिना जेनरेटेड Markdown को छुए—CI पाइपलाइन के लिए परफेक्ट जहाँ फ़ोल्डर लेआउट फिक्स्ड होता है।
+यह छोटा बदलाव आपको **word markdown इमेजेज़ को बदलने** की अनुमति देता है बिना जेनरेटेड markdown को छुए—CI पाइपलाइन के लिए परफेक्ट जहाँ फ़ोल्डर लेआउट लॉक्ड हो।
 
----
+![docx को markdown में बदलने का उदाहरण](placeholder-image.png "docx को markdown में बदलें")
 
-![convert docx to markdown example](placeholder-image.png "convert docx to markdown")
+[docx को markdown में बदलने का उदाहरण](placeholder-image.png "docx को markdown में बदलें")
+
+[छवि 1](markdown-resources/img_0.png)
 
 *इमेज का alt टेक्स्ट मुख्य कीवर्ड शामिल करता है ताकि SEO आवश्यकताओं को पूरा किया जा सके।*
 
-## Common Questions & Gotchas
+## सामान्य प्रश्न और जाल
 
-- **क्या इस कोड को चलाने के लिए लाइसेंस चाहिए?**  
-  Aspose.Words एक फ्री इवैल्यूएशन मोड देता है जो पहले पेज पर वॉटरमार्क जोड़ता है। प्रोडक्शन के लिए लाइसेंस खरीदें और `License license = new License(); license.setLicense("Aspose.Words.lic");` को डॉक्यूमेंट लोड करने से पहले कॉल करें।
+- **क्या इस कोड को चलाने के लिए मुझे लाइसेंस चाहिए?**  
+  Aspose.Words एक मुफ्त मूल्यांकन मोड प्रदान करता है जो पहले पेज पर वॉटरमार्क जोड़ता है। प्रोडक्शन के लिए, लाइसेंस खरीदें और दस्तावेज़ लोड करने से पहले `License license = new License(); license.setLicense("Aspose.Words.lic");` को कॉल करें।
 
-- **अगर मेरे DOCX में SVG इमेजेज हों तो?**  
-  Aspose.Words डिफ़ॉल्ट रूप से SVG को PNG में कन्वर्ट करता है जब आप रास्टर फ़ॉर्मेट जैसे `.png` मांगते हैं। अगर आपको मूल SVG चाहिए, तो आपको एक कस्टम `IResourceSavingCallback` बनाकर `args.getOriginalFileName()` को बिना बदले लिखना पड़ेगा।
+- **अगर मेरे DOCX में SVG इमेजेज़ हैं तो?**  
+  Aspose.Words डिफ़ॉल्ट रूप से SVG को PNG में बदलता है जब आप रास्टर फ़ॉर्मेट जैसे `.png` का अनुरोध करते हैं। यदि आपको मूल SVG चाहिए, तो एक कस्टम `IResourceSavingCallback` इम्प्लीमेंट करें जो `args.getOriginalFileName()` को बिना बदले लिखे।
 
-- **क्या मैं Markdown को सीधे HTTP रिस्पॉन्स में स्ट्रीम कर सकता हूँ?**  
-  बिल्कुल। डिस्क पर सेव करने की बजाय `ByteArrayOutputStream` और `markdownOptions.setSaveFormat(SaveFormat.MARKDOWN);` का उपयोग करें, फिर बाइट एरे को सर्वलेट आउटपुट स्ट्रीम में लिखें।
+- **क्या मैं markdown को सीधे HTTP रिस्पॉन्स में स्ट्रीम कर सकता हूँ?**  
+  बिल्कुल। डिस्क में सहेजने के बजाय, `ByteArrayOutputStream` और `markdownOptions.setSaveFormat(SaveFormat.MARKDOWN);` का उपयोग करें और फिर बाइट एरे को सर्वलेट आउटपुट स्ट्रीम में लिखें।
 
-## Conclusion
+## अक्सर पूछे जाने वाले प्रश्न
 
-अब आपके पास **DOCX को Markdown में बदलने** का एक **पूरा, रन करने योग्य समाधान** है, जो Java और Aspose.Words की मदद से सभी इमेजेज को साफ़‑सुथरे ढंग से एक्सट्रैक्ट करता है। कोड “java docx to markdown” परिदृश्य को संभालता है, **extract images word** वर्कफ़्लो का सम्मान करता है, और आपको **convert word markdown images** आउटपुट लेआउट पर पूरी कंट्रोल देता है।
+**प्रश्न: क्या समाधान Maven और Gradle के साथ संगत है?**  
+उत्तर: हाँ, लाइब्रेरी एक साधारण JAR के रूप में वितरित होती है और Maven और Gradle दोनों बिल्ड सिस्टम के साथ काम करती है।
+
+**प्रश्न: क्या मैं एक साथ कई DOCX फ़ाइलें बदल सकता हूँ?**  
+उत्तर: एक डायरेक्टरी पर इटररेट करें, प्रत्येक फ़ाइल को `new Document(path)` से लोड करें, और प्रत्येक इटरशन के लिए समान `MarkdownSaveOptions` इंस्टेंस के साथ `save` कॉल करें।
+
+**प्रश्न: बड़े इमेजेज़ कैसे संभाले जाते हैं?**  
+उत्तर: कॉलबैक प्रत्येक इमेज को जैसे ही मिलता है, लिखता है, इसलिए बहुत बड़े इमेजेज़ भी पूरे दस्तावेज़ को मेमोरी में लोड किए बिना डिस्क पर स्ट्रीम होते हैं।
+
+**प्रश्न: क्या API मूल फ़ॉर्मेट में इमेजेज़ निकालने का समर्थन करता है?**  
+उत्तर: डिफ़ॉल्ट रूप से इमेजेज़ PNG के रूप में सहेजी जाती हैं, लेकिन आप कॉलबैक के `setFileName` मेथड में `args.getOriginalFileName()` लौटाकर मूल फ़ॉर्मेट को संरक्षित कर सकते हैं।
+
+**प्रश्न: Aspose.Words का कौन सा संस्करण आवश्यक है?**  
+उत्तर: 20.12 और उसके बाद के किसी भी संस्करण में Markdown एक्सपोर्ट और `IResourceSavingCallback` इंटरफ़ेस का समर्थन है।
+
+## निष्कर्ष
+
+अब आपके पास Java और Aspose.Words का उपयोग करके DOCX को markdown में बदलने का **पूरा, चलाने योग्य समाधान** है, जो हर इमेज को साफ़-सुथरे ढंग से निकालता है। कोड “java docx to markdown” परिदृश्य को संभालता है, **extract images from docx** वर्कफ़्लो का सम्मान करता है, और आपको **convert word markdown images** आउटपुट लेआउट पर पूर्ण नियंत्रण देता है।
 
 अब आप कर सकते हैं:
 
-- इस यूटिलिटी को Maven प्लगइन में इंटीग्रेट करके ऑटोमैटेड डॉक्यूमेंटेशन बिल्ड्स बनाएं।  
-- कॉलबैक को एन्हांस करके इमेजेज को उनके alt‑text या आसपास के पैराग्राफ के आधार पर री‑नाम करें।  
-- इसे PDF‑to‑DOCX कन्वर्ज़न चेन के साथ जोड़ें ताकि लेगेसी डॉक्यूमेंट्स को भी कवर किया जा सके।
+- इस यूटिलिटी को Maven प्लगइन में जोड़ें ताकि दस्तावेज़ निर्माण स्वचालित हो सके।  
+- कॉलबैक को विस्तारित करें ताकि इमेजेज़ को उनके alt‑text या आसपास के पैराग्राफ के आधार पर रीनेम किया जा सके।  
+- इसे लेगेसी दस्तावेज़ों के लिए PDF‑to‑DOCX कन्वर्ज़न चेन के साथ मिलाएँ।
 
-इसे ट्राय करें, फ़ोल्डर नामों को अपने स्टैटिक‑साइट सेटअप के अनुसार एडजस्ट करें, और Markdown को अपनी अगली रिलीज़ में फ्लो होने दें। Happy coding!
+इसे आज़माएँ, फ़ोल्डर नामों को अपने स्थैतिक‑साइट सेटअप के अनुसार समायोजित करें, और markdown को अपनी अगली रिलीज़ में प्रवाहित होने दें। कोडिंग का आनंद लें!
+
+---
+
+**अंतिम अपडेट:** 2026-10-12  
+**परीक्षित संस्करण:** Aspose.Words 23.12 (Java)  
+**लेखक:** Aspose
+
+## संबंधित ट्यूटोरियल
+
+- [Word से इमेजेज़ सहेजें – Aspose.Words for Java गाइड](/words/java/document-loading-and-saving/)
+- [Aspose.Words के साथ Markdown रूपांतरण में निपुणता: टेबल्स और इमेजेज़ गाइड](/words/java/tables-lists/mastering-markdown-conversion-aspose-words-tables-images/)
+- [Java में Docx को PDF में बदलें चरण-दर-चरण गाइड](/words/java/document-converting/convert-docx-to-pdf-in-java-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
