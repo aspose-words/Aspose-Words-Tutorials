@@ -43,6 +43,8 @@ Java için Aspose.Words kullanarak belge temalarını nasıl özelleştireceğin
 Aspose.Words for Java ile filigranların nasıl uygulanacağını ve sayfa yapılandırmalarının nasıl ayarlanacağını öğrenin. Kaynak kodlu kapsamlı bir kılavuz.
 ### [Belge Başlığı ve Alt Bilgi Biçimlendirmesi](./document-header-footer-styling/)
 Bu ayrıntılı kılavuzda Aspose.Words for Java kullanarak belge başlıklarını ve altbilgilerini nasıl biçimlendireceğinizi öğrenin. Adım adım talimatlar ve kaynak kodu dahildir.
+### [Java Word Belgelerinde Yazı Tiplerini Algılamak – Tam Kılavuz](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
+Aspose.Words for Java kullanarak Word belgelerindeki yazı tiplerini nasıl tespit edeceğinizi öğrenin. Adım adım örnekler.
 ### [Aspose.Words for Java’da Varsayılan Yazı Tipi Ayarlarını Belirleme – Tam Kılavuz](./set-default-font-settings-in-aspose-words-for-java-complete/)
 Aspose.Words for Java’da varsayılan yazı tipi ayarlarını nasıl belirleyeceğinizi ve belge oluştururken otomatik olarak uygulayacağınızı öğrenin. 
 

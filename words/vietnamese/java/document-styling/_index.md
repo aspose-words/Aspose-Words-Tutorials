@@ -46,6 +46,9 @@ Tìm hiểu cách định dạng tiêu đề và chân trang tài liệu bằng 
 ### [Cài đặt Phông chữ Mặc định trong Aspose.Words cho Java – Hướng dẫn đầy đủ](./set-default-font-settings-in-aspose-words-for-java-complete/)
 Tìm hiểu cách thiết lập phông chữ mặc định cho tài liệu bằng Aspose.Words cho Java. Hướng dẫn chi tiết kèm ví dụ mã nguồn.
 
+### [Cách phát hiện phông chữ trong tài liệu Word Java – Hướng dẫn toàn diện](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
+Tìm hiểu cách phát hiện các phông chữ được sử dụng trong tài liệu Word bằng Aspose.Words cho Java. Hướng dẫn chi tiết với mã nguồn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

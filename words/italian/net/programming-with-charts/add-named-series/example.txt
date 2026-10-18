@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Questo tutorial mostra come utilizzare Aspose.Words Document e DocumentBuilder per creare un documento Word, incorporare un grafico a istogramma e aggiungere una serie di dati etichettata usando il sovraccarico ChartSeriesCollection.Add che accetta un nome e dei valori.
+//ExStepSummary:0: Crea un nuovo documento Word vuoto e un DocumentBuilder per modificarlo.
+//ExStepSummary:1: Inserisci una forma di grafico a istogramma di dimensioni 500×300 nel documento e ottieni il relativo oggetto Chart.
+//ExStepSummary:2: Rimuovi la serie segnaposto predefinita che Aspose.Words aggiunge ai nuovi grafici.
+//ExStepSummary:3: Aggiungi una serie denominata "Demo Series" con i punti dati specificati al grafico a istogramma.
+//ExStepSummary:4: Salva il documento in un file .docx contenente la serie di grafico etichettata.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape histogramShape = docBuilder.InsertChart(ChartType.Histogram, 500, 300);
+Chart histogramChart = histogramShape.Chart;
+
+//ExStep:2-
+histogramChart.Series.Clear();
+
+//ExStep:3-
+histogramChart.Series.Add("Demo Series", new double[] { 10, 20, 15, 30, 25 });
+
+//ExStep:4-
+myDocument.Save("LabeledSeriesDemo.docx");
+//ExEnd

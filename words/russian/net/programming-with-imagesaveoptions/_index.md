@@ -28,7 +28,14 @@
 | [Получить диапазон страниц Jpeg](./get-jpeg-page-range/) | Конвертируйте определенные страницы документов Word в JPEG с пользовательскими настройками с помощью Aspose.Words для .NET. Узнайте, как настроить яркость, контрастность и разрешение шаг за шагом. |
 | [Обратный вызов сохранения страницы](./page-saving-callback/) | Научитесь сохранять каждую страницу документа Word как отдельное изображение PNG с помощью Aspose.Words для .NET с помощью нашего подробного пошагового руководства. |
 | [Как установить DPI при конвертации Word в PNG – Полное руководство C#](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | Узнайте, как задать DPI при преобразовании документов Word в PNG с помощью Aspose.Words for .NET в полном C# руководстве. |
+| [Создать сетку PNG из документа Word – пошаговое руководство](./create-png-grid-from-word-document-step-by-step-guide/) | Узнайте, как создать сетку PNG из документа Word, используя Aspose.Words for .NET, в пошаговом руководстве. |
+| [Сохранить Word как изображения с C# – пошаговое руководство](./save-word-as-images-with-c-step-by-step-guide/) | Узнайте, как сохранить документ Word в виде изображений с помощью C# и Aspose.Words, следуя пошаговому руководству. |
+| [Конвертировать Word в PNG – Объединить страницы в вертикальную полосу](./convert-word-to-png-merge-pages-into-a-vertical-strip/) | Узнайте, как преобразовать документ Word в PNG, объединяя все страницы в одну вертикальную полосу. |
+| [Конвертировать Word в PNG – Полное руководство C#](./convert-word-to-png-complete-c-guide/) | Узнайте, как преобразовать документы Word в PNG с помощью Aspose.Words for .NET, используя полный пошаговый C# пример. |
+| [Как установить DPI при конвертации Word в PNG – Руководство по экспорту в высоком разрешении](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) | Узнайте, как задать DPI при конвертации Word в PNG с высоким разрешением с помощью Aspose.Words for .NET. |
 
+| [Создать сетку PNG из документа Word – Полное руководство](./create-png-grid-from-word-document-complete-guide/) | Узнайте, как создать сетку PNG из документа Word с помощью Aspose.Words for .NET в полном руководстве. |
+| [Как установить разрешение при конвертации Word в PNG – Полное руководство](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Узнайте, как задать разрешение при конвертации Word в PNG с помощью Aspose.Words for .NET в полном руководстве. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

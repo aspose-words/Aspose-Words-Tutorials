@@ -46,6 +46,9 @@ Aspose.Words for Java के साथ वॉटरमार्क लगान�
 ### [Aspose.Words for Java में डिफ़ॉल्ट फ़ॉन्ट सेटिंग्स सेट करना – पूर्ण गाइड](./set-default-font-settings-in-aspose-words-for-java-complete/)
 Java के लिए Aspose.Words में डिफ़ॉल्ट फ़ॉन्ट सेट करने की प्रक्रिया सीखें, कोड उदाहरणों के साथ पूर्ण गाइड।
 
+### [जावा वर्ड दस्तावेज़ों में फ़ॉन्ट का पता कैसे लगाएँ – पूर्ण गाइड](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
+Java के लिए Aspose.Words का उपयोग करके वर्ड दस्तावेज़ों में फ़ॉन्ट पहचानना सीखें। स्रोत कोड के साथ चरण-दर-चरण गाइड।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

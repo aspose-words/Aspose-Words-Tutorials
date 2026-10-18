@@ -1,0 +1,7 @@
+Title: Replace text in docx with C# – Full Step‑by‑Step Guide
+Slug: replace-text-in-docx-with-c-full-step-by-step-guide
+Category: find-and-replace-text
+ProcessedDate: 2026-06-02T12:33:49.459145
+SourceRepo: AI Search API
+Keywords: replace text in docx, replace all occurrences word, find and replace word document, how to replace text c#
+PRNumber: 197

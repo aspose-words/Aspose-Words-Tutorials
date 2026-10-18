@@ -37,6 +37,11 @@
 ### [Πώς να Προσθέσετε Σκιά σε C# – Πλήρης Οδηγός Προγραμματισμού](./how-to-add-shadow-in-c-complete-programming-guide/)
 Μάθετε πώς να εφαρμόσετε σκιές σε αντικείμενα C# χρησιμοποιώντας Aspose.Words για βελτιωμένη εμφάνιση εγγράφων.
 
+### [Προσθήκη ορθογωνίου σε PDF με Aspose.Words – Οδηγός βήμα‑βήμα](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
+Μάθετε πώς να προσθέσετε ένα ορθογώνιο σχήμα σε PDF χρησιμοποιώντας το Aspose.Words για Python‑net, βήμα προς βήμα.
+### [Δημιουργία σχήματος ορθογωνίου σε Python – Πλήρης Οδηγός για Προσθήκη Σκιών & Αποθήκευση ως PDF](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
+Μάθετε πώς να δημιουργήσετε σχήμα ορθογωνίου, να προσθέσετε σκιές και να αποθηκεύσετε το έγγραφο ως PDF χρησιμοποιώντας Aspose.Words για Python-net.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.Words για τεκμηρίωση Python-net](https://docs.aspose.com/words/python-net/)

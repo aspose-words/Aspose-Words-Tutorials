@@ -1,0 +1,7 @@
+Title: How to Rewrite Paragraph with AI in C# – Full Guide
+Slug: how-to-rewrite-paragraph-with-ai-in-c-full-guide
+Category: find-and-replace-text
+ProcessedDate: 2026-06-08T18:48:14.687302
+SourceRepo: AI Search API
+Keywords: how to rewrite paragraph, rewrite paragraph with ai, integrate local llm, edit word document programmatically, local llm endpoint
+PRNumber: 201

@@ -1,0 +1,7 @@
+Title: How to summarize docx files with Aspose.Words AI in C#
+Slug: how-to-summarize-docx-files-with-aspose-words-ai-in-c
+Category: ai-powered-document-processing
+ProcessedDate: 2026-10-01T02:20:16.363940
+SourceRepo: AI Search API
+Keywords: how to summarize docx
+PRNumber: 294

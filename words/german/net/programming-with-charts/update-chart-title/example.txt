@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Mit Aspose.Words erstellt dieses Tutorial ein Word‑Dokument, fügt ein Säulendiagramm ein, aktualisiert den Diagrammtitel mit vom Benutzer bereitgestelltem Text und schaltet die Sichtbarkeit sowie das Overlay der Legende basierend auf den Benutzereinstellungen um.
+//ExStepSummary:0: Definieren Sie den vom Benutzer bereitgestellten Diagrammtitel und ob die Legende angezeigt werden soll.
+//ExStepSummary:1: Erstellen Sie ein neues Word‑Dokument und einen DocumentBuilder, um Inhalte hinzuzufügen.
+//ExStepSummary:2: Fügen Sie ein 432 × 252 pt column chart in das Dokument ein und prüfen Sie, ob die Shape tatsächlich ein Diagramm enthält.
+//ExStepSummary:3: Rufen Sie das Chart‑Objekt ab, setzen Sie dessen Titeltext auf den vom Benutzer angegebenen Wert und stellen Sie sicher, dass der Titel angezeigt wird.
+//ExStepSummary:4: Konfigurieren Sie die Legende: Zeigen Sie sie rechts an, wenn gewünscht, andernfalls verbergen Sie sie, und erlauben Sie, dass sie den Plot‑Bereich überlagert.
+//ExStepSummary:5: Speichern Sie das modifizierte Dokument auf dem Datenträger unter dem Namen CustomChart.docx.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+string chartHeader = "Fiscal Q1 Performance Summary";
+bool displayLegend = false;
+
+//ExStep:1-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:2-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+if (!chartContainer.HasChart)
+    throw new InvalidOperationException("The inserted shape does not contain a chart.");
+
+//ExStep:3-
+Chart chartObj = chartContainer.Chart;
+ChartTitle chartTitle = chartObj.Title;
+chartTitle.Text = chartHeader;
+chartTitle.Show = true;
+
+//ExStep:4-
+ChartLegend chartLegend = chartObj.Legend;
+chartLegend.Position = displayLegend ? LegendPosition.Right : LegendPosition.None;
+chartLegend.Overlay = true;
+
+//ExStep:5-
+wordDoc.Save("CustomChart.docx");
+//ExEnd

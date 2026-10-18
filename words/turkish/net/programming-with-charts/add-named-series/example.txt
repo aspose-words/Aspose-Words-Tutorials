@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Bu öğreticide, Aspose.Words Document ve DocumentBuilder kullanarak bir Word belgesi oluşturma, bir histogram grafiği gömme ve adı ve değerleri kabul eden ChartSeriesCollection.Add aşırı yüklemesini kullanarak etiketli bir veri serisi ekleme gösterilmektedir.
+//ExStepSummary:0: Yeni boş bir Word belgesi ve onu düzenlemek için bir DocumentBuilder oluşturun.
+//ExStepSummary:1: Belgeye 500×300 boyutlarında bir histogram grafik şekli ekleyin ve onun Chart nesnesini elde edin.
+//ExStepSummary:2: Aspose.Words'ün yeni grafiklere eklediği varsayılan yer tutucu seriyi kaldırın.
+//ExStepSummary:3: "Demo Series" adlı bir seriyi belirtilen veri noktalarıyla histogram grafiğine ekleyin.
+//ExStepSummary:4: Belgeyi etiketli grafik serilerini içeren bir .docx dosyasına kaydedin.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape histogramShape = docBuilder.InsertChart(ChartType.Histogram, 500, 300);
+Chart histogramChart = histogramShape.Chart;
+
+//ExStep:2-
+histogramChart.Series.Clear();
+
+//ExStep:3-
+histogramChart.Series.Add("Demo Series", new double[] { 10, 20, 15, 30, 25 });
+
+//ExStep:4-
+myDocument.Save("LabeledSeriesDemo.docx");
+//ExEnd

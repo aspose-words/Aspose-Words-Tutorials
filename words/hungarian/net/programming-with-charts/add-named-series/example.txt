@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Ez az útmutató bemutatja, hogyan kell használni az Aspose.Words Document és DocumentBuilder osztályokat egy Word dokumentum létrehozásához, egy hisztogram diagram beágyazásához, és egy címkézett adat sorozat hozzáadásához a ChartSeriesCollection.Add túlterhelésével, amely név és értékek paramétert fogad.
+//ExStepSummary:0: Hozzon létre egy új üres Word dokumentumot és egy DocumentBuilder-t a szerkesztéséhez.
+//ExStepSummary:1: Illesszen be egy 500×300 méretű hisztogram diagram alakzatot a dokumentumba, és szerezze meg a hozzá tartozó Chart objektumot.
+//ExStepSummary:2: Távolítsa el az alapértelmezett helyőrző sorozatot, amelyet az Aspose.Words új diagramokhoz ad.
+//ExStepSummary:3: Adjon hozzá egy "Demo Series" nevű sorozatot a megadott adatpontokkal a hisztogram diagramhoz.
+//ExStepSummary:4: Mentse a dokumentumot egy .docx fájlba, amely tartalmazza a címkézett diagram sorozatot.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape histogramShape = docBuilder.InsertChart(ChartType.Histogram, 500, 300);
+Chart histogramChart = histogramShape.Chart;
+
+//ExStep:2-
+histogramChart.Series.Clear();
+
+//ExStep:3-
+histogramChart.Series.Add("Demo Series", new double[] { 10, 20, 15, 30, 25 });
+
+//ExStep:4-
+myDocument.Save("LabeledSeriesDemo.docx");
+//ExEnd
