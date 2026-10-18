@@ -44,6 +44,9 @@ Hướng dẫn chi tiết cách áp dụng hiệu ứng bóng cho hình dạng t
 ### [Cách đặt bóng cho hình dạng trong C# – Thêm bóng cho hình dạng dễ dàng](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
 Hướng dẫn chi tiết cách áp dụng hiệu ứng bóng cho hình dạng trong tài liệu Word bằng Aspose.Words cho C#.
 
+### [Tạo hình chữ nhật trong tài liệu Word Java – Hướng dẫn chi tiết từng bước](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Hướng dẫn chi tiết cách tạo hình chữ nhật trong tài liệu Word bằng Aspose.Words cho Java.
+
 ## Tài nguyên bổ sung
 
 ## Tài nguyên bổ sung

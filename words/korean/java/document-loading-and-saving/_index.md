@@ -116,6 +116,7 @@ Aspose.Words for Java의 다재다능함을 살펴보며 다양한 형식으로 
 ### [폰트 대체 경고 캡처 – 누락된 폰트 감지](./capture-font-substitution-warnings-detect-missing-fonts/)
 ### [Word 문서 저장 – 글꼴 설정 적용 및 누락된 글꼴 처리](./save-word-document-set-font-settings-handle-missing-fonts/)
 ### [Word 문서 복구 – Java에서 복구 모드 설정 완전 가이드](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
+### [손상된 Word 문서 열기 – Java에서 복구 모드 설정](./open-corrupted-word-document-set-recovery-mode-in-java/)
 
 ## 자주 묻는 질문
 

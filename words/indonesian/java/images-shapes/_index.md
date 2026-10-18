@@ -44,6 +44,9 @@ Panduan lengkap untuk menambahkan efek bayangan pada bentuk di dokumen Word meng
 ### [Cara Menetapkan Bayangan pada Bentuk di C# – Tambahkan Bayangan Bentuk dengan Mudah](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
 Pelajari cara menambahkan efek bayangan pada bentuk di C# menggunakan Aspose.Words dengan langkah mudah.
 
+### [Buat Bentuk Persegi Panjang dalam Dokumen Word Java – Panduan Langkah‑ demi‑Langkah Lengkap](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Panduan lengkap untuk menambahkan bentuk persegi panjang ke dokumen Word menggunakan Aspose.Words untuk Java.
+
 ## Sumber Daya Tambahan
 
 ## Sumber Daya Tambahan

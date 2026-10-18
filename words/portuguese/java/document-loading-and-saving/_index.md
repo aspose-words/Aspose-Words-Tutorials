@@ -115,9 +115,9 @@ As configurações de documentos são a chave para entregar documentos adaptados
 ### [Como Recuperar DOCX – Carregar Arquivos Corrompidos com Opções de Recuperação](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
 ### [Recuperar docx corrompido – Guia completo para corrigir e processar documentos](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
-
 ### [Como Recuperar Arquivos DOCX – Guia Java Passo a Passo](./how-to-recover-docx-files-step-by-step-java-guide/)
 
+### [Abrir Documento Word Corrompido – Definir Modo de Recuperação em Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
 ### [Capturar avisos de substituição de fontes em Java com Aspose.Words – Guia completo](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [Como recuperar docx – Guia completo para ler arquivos Word corrompidos](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 ### [Definir modo de recuperação para recuperar documento Word corrompido](./set-recovery-mode-to-recover-broken-word-document/)

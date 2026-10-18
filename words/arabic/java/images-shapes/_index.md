@@ -44,6 +44,9 @@
 ### [كيفية تعيين الظل على شكل في C# – إضافة ظل الشكل بسهولة](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
 تعلم كيفية إضافة ظل إلى الأشكال في C# باستخدام Aspose.Words بسهولة
 
+### [إنشاء شكل مستطيل في مستند Word باستخدام Java – دليل كامل خطوة بخطوة](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+دليل شامل يوضح كيفية إنشاء شكل مستطيل في مستند Word باستخدام Aspose.Words for Java خطوة بخطوة
+
 ## موارد إضافية
 
 ## موارد إضافية

@@ -44,6 +44,9 @@ Naučte se, jak přidat stín k tvarům v dokumentech Word pomocí Aspose.Words 
 ### [Jak nastavit stín na tvar v C# – Přidejte stín tvaru snadno](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
 Naučte se, jak pomocí Aspose.Words pro C# přidat stín k tvarům ve Word dokumentu.
 
+### [Vytvořit obdélníkový tvar v dokumentu Word v Javě – Kompletní průvodce krok za krokem](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Kompletní návod, jak v Javě pomocí Aspose.Words vytvořit obdélníkový tvar v dokumentu Word.
+
 ## Další zdroje
 
 ## Další zdroje

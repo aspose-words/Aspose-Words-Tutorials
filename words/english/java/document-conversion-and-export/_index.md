@@ -123,6 +123,8 @@ Learn how to export Markdown from Word using Aspose.Words for Java in this compr
 
 ### [Save docx as markdown – Complete C# Guide](./save-docx-as-markdown-complete-c-guide/)
 Learn how to save DOCX files as Markdown using Aspose.Words for C#. Step‑by‑step guide with code examples.
+### [Save word as markdown – Export Math to LaTeX with Java](./save-word-as-markdown-export-math-to-latex-with-java/)
+Learn how to save a Word document as Markdown and export embedded Math equations to LaTeX using Aspose.Words for Java.
 
 ### [Save Document as TXT – Quick Guide to Exporting Word Math](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Learn how to export Word documents as plain text files while preserving Math equations using Aspose.Words for Java.
@@ -148,6 +150,8 @@ Learn how to embed images from DOCX files into Markdown during conversion using 
 
 ### [Upload Images to CDN While Converting DOCX to Markdown – Full Java Guide](./upload-images-to-cdn-while-converting-docx-to-markdown-full/)
 Learn how to upload images to a CDN while converting DOCX files to Markdown using Aspose.Words for Java in this comprehensive guide.
+### [Embed Images as Base64 When Converting DOCX to Markdown](./embed-images-as-base64-when-converting-docx-to-markdown/)
+Learn how to embed images as Base64 strings during DOCX to Markdown conversion using Aspose.Words for Java.
 
 ### [Create Accessible PDF from DOCX – Complete Guide](./create-accessible-pdf-from-docx-complete-guide/)
 Learn how to generate accessible PDFs from DOCX files using Aspose.Words for Java, ensuring compliance with accessibility standards.
@@ -242,6 +246,15 @@ Learn how to generate accessible PDFs from Word documents using Aspose.Words for
 
 ### [Create PDF UA Document with Aspose.Words – Full Java Guide](./create-pdf-ua-document-with-aspose-words-full-java-guide/)
 Learn how to generate PDF/UA compliant documents using Aspose.Words for Java with step‑by‑step code examples.
+
+### [Save Document as PDF with Aspose.Words Java – Full Accessibility Guide](./save-document-as-pdf-with-aspose-words-java-full-accessibili/)
+Learn how to save a Word document as a fully accessible PDF using Aspose.Words for Java, covering tags, structure, and compliance.
+
+### [Create Accessible PDF in Java – Full Tagging Guide](./create-accessible-pdf-in-java-full-tagging-guide/)
+Learn how to generate fully tagged, accessible PDFs in Java with Aspose.Words, covering tags, structure, and compliance.
+
+### [Export docx to txt with Java – Complete Programming Guide](./export-docx-to-txt-with-java-complete-programming-guide/)
+Learn how to export DOCX files to plain text using Aspose.Words for Java with a step‑by‑step programming guide.
 
 ## Frequently Asked Questions
 

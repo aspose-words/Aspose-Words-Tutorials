@@ -44,6 +44,9 @@ Aspose.Words for Java를 사용하여 도형에 그림자를 설정하는 방법
 ### [C#에서 도형에 그림자 설정하기 – 도형 그림자를 쉽게 추가](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
 C#를 사용해 Word 문서의 도형에 그림자를 적용하는 방법을 단계별로 안내합니다.
 
+### [Java Word 문서에 사각형 도형 만들기 – 전체 단계별 가이드](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Java를 사용해 Word 문서에 사각형 도형을 삽입하고 사용자 지정하는 전체 단계별 가이드를 제공합니다.
+
 ## 추가 자료
 
 ## 추가 자료

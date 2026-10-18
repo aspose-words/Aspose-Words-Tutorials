@@ -44,6 +44,9 @@ Aspose.Words Java 代码教程
 ### [如何在 C# 中为形状设置阴影 – 轻松添加形状阴影](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
 演示如何在 C# 使用 Aspose.Words 为形状添加阴影效果，轻松自定义外观。
 
+### [使用 Aspose.Words for Java 在 Word 文档中创建矩形形状 – 完整分步指南](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+本教程提供在 Java 环境下使用 Aspose.Words 为 Word 文档创建矩形形状的完整步骤和代码示例。
+
 ## 其他资源
 
 ## 其他资源

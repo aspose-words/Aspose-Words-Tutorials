@@ -45,6 +45,9 @@ Learn how to apply and customize shadow effects on shapes in Word documents usin
 ### [How to Set Shadow on a Shape in C# – Add Shape Shadow Easily](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
 Learn how to apply shadow effects to shapes in Aspose.Words for C# with simple code examples.
 
+### [Create Rectangle Shape in Java Word Document – Full Step‑by‑Step Guide](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Step-by-step guide to create and customize rectangle shapes in Word documents using Aspose.Words for Java.
+
 ## Additional Resources
 
 ## Additional Resources

@@ -161,6 +161,7 @@ Aspose.Words का उपयोग करके क्षतिग्रस्�
 ### [docx को पुनर्प्राप्त करने का तरीका – रिकवरी मोड सक्षम करें और चेतावनियों को पढ़ें](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
 docx फ़ाइलों को पुनर्प्राप्त करने के लिए रिकवरी मोड कैसे सक्षम करें और चेतावनियों को पढ़ें, इस चरण‑दर‑चरण गाइड में जानें।
 ### [Word दस्तावेज़ पुनर्प्राप्ति – जावा में रिकवरी मोड सेट करने की पूरी गाइड](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
+### [Corrupted Word दस्तावेज़ खोलें – Java में रिकवरी मोड सेट करें](./open-corrupted-word-document-set-recovery-mode-in-java/)
 
 ## अक्सर पूछे जाने वाले प्रश्न
 ### [फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैप्चर करें – लापता फ़ॉन्ट्स का पता लगाएँ](./capture-font-substitution-warnings-detect-missing-fonts/)

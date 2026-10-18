@@ -44,6 +44,9 @@ Dowiedz się, jak dodać cień do kształtu w dokumencie przy użyciu Aspose.Wor
 ### [Jak ustawić cień na kształcie w C# – łatwe dodawanie cienia do kształtu](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
 Dowiedz się, jak dodać cień do kształtu w C# przy użyciu Aspose.Words, aby poprawić wygląd dokumentów.
 
+### [Utwórz prostokątny kształt w dokumencie Word w Javie – Pełny przewodnik krok po kroku](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Dowiedz się, jak w pełni krok po kroku dodać prostokątny kształt do dokumentu Word przy użyciu Aspose.Words dla Java.
+
 ## Dodatkowe zasoby
 
 ## Dodatkowe zasoby

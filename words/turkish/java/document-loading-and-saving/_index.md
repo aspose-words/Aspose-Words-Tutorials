@@ -160,6 +160,7 @@ Aspose.Words for Java’da eksik yazı tiplerini belirlemek ve font değiştirme
 Java’da Aspose.Words ile belgeyi kaydederken yazı tipi ayarlarını yapılandırın ve eksik yazı tiplerini otomatik olarak yönetin.
 ### [Word Belgesini Kurtarma – Java’da Kurtarma Modunu Ayarlama Tam Kılavuzu](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
 Java’da Aspose.Words ile bozuk Word belgelerini kurtarmak ve kurtarma modunu etkinleştirmek için adım adım rehber.
+### [Bozuk Word Belgesini Aç – Java’da Kurtarma Modunu Ayarlama](./open-corrupted-word-document-set-recovery-mode-in-java/)
 
 ## Sıkça Sorulan Sorular
 

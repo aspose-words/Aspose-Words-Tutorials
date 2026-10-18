@@ -50,6 +50,9 @@ Aspose.Words में आकृति पर छाया लागू कर�
 ### [C# में आकार पर छाया सेट करने का तरीका – आसानी से आकार की छाया जोड़ें](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
 C# में Aspose.Words का उपयोग करके आकार पर छाया सेट करने की सरल विधि सीखें।
 
+### [जावा वर्ड दस्तावेज़ में आयताकार आकार बनाएं – पूर्ण चरण‑दर‑चरण मार्गदर्शिका](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Aspose.Words for Java का उपयोग करके वर्ड दस्तावेज़ में आयताकार आकार जोड़ने की पूरी चरण‑दर‑चरण प्रक्रिया सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)

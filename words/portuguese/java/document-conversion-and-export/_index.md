@@ -126,6 +126,8 @@ Aprenda a salvar documentos DOCX como arquivos Markdown usando Aspose.Words for 
 Aprenda a salvar documentos DOCX como arquivos Markdown usando Java e Aspose.Words neste guia completo passo a passo.
 ### [Salvar docx como markdown – Guia completo em C#](./save-docx-as-markdown-complete-c-guide/)
 Aprenda a converter arquivos DOCX para Markdown usando Aspose.Words em C#, com exemplo completo passo a passo.
+### [Salvar Word como Markdown – Exportar Matemática para LaTeX com Java](./save-word-as-markdown-export-math-to-latex-with-java/)
+Aprenda a salvar documentos Word como arquivos Markdown e exportar equações matemáticas para LaTeX usando Aspose.Words for Java.
 
 ### [Aspose.Words para PDF – Converter DOCX para PDF em Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Aprenda a converter arquivos DOCX para PDF rapidamente usando Aspose.Words for Java.
@@ -241,6 +243,15 @@ Aprenda a criar documentos PDF/UA com Aspose.Words em Java com este guia complet
 ## Como Exportar Markdown do Word – Guia Completo
 ### [Como Exportar Markdown do Word – Guia Completo](./how-to-export-markdown-from-word-complete-guide/)
 Aprenda a exportar documentos Word para Markdown usando Aspose.Words para Java, passo a passo com exemplos de código.
+
+### [Salvar Documento como PDF com Aspose.Words Java – Guia Completo de Acessibilidade](./save-document-as-pdf-with-aspose-words-java-full-accessibili/)
+Aprenda a salvar documentos como PDF totalmente acessíveis usando Aspose.Words for Java, garantindo conformidade com normas de acessibilidade.
+
+### [Criar PDF Acessível em Java – Guia Completo de Marcação](./create-accessible-pdf-in-java-full-tagging-guide/)
+Aprenda a gerar PDFs totalmente acessíveis em Java usando Aspose.Words, com tags completas para conformidade de acessibilidade.
+
+### [Exportar docx para txt com Java – Guia de Programação Completo](./export-docx-to-txt-with-java-complete-programming-guide/)
+Aprenda a exportar documentos DOCX para arquivos TXT usando Aspose.Words for Java neste guia completo, com exemplos de código passo a passo.
 
 ## Perguntas Frequentes
 

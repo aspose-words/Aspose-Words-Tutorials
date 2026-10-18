@@ -44,6 +44,9 @@ Ismerje meg, hogyan adhat árnyékot alakzatokhoz az Aspose.Words for Java segí
 ### [Hogyan állítsunk be árnyékot egy alakzatra C#-ban – Alakzat árnyék egyszerűen hozzáadása](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
 Tanulja meg, hogyan adhat hozzá árnyékot egy alakzathoz C#-ban az Aspose.Words segítségével.
 
+### [Téglalap alakzat létrehozása Java Word dokumentumban – Teljes lépésről‑lépésre útmutató](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Ismerje meg, hogyan hozhat létre téglalap alakzatot Word dokumentumban Java segítségével, részletes, lépésről‑lépésre útmutatóval.
+
 ## További források
 
 ## További források

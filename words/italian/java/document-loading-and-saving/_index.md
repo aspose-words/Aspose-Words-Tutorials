@@ -109,6 +109,9 @@ In questo tutorial abbiamo coperto varie opzioni avanzate di salvataggio di docu
 ### [Recupera docx corrotto – Guida completa per riparare e processare i documenti](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 Scopri come riparare file DOCX corrotti, recuperarne il contenuto e continuare l'elaborazione con Aspose.Words per Java.
 
+### [Apri documento Word corrotto – Imposta la modalità di recupero in Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
+Scopri come aprire file Word danneggiati impostando la modalità di recupero con Aspose.Words per Java, garantendo il ripristino dei contenuti.
+
 ### [Salvataggio di Immagini da Documenti in Aspose.Words per Java](./saving-images-from-documents/)
 Impara a salvare immagini da documenti usando Aspose.Words per Java con la nostra guida completa passo‑per‑step. Personalizza formati, compressione e altro.
 

@@ -129,12 +129,16 @@ weight: 22
 
 ### [حفظ docx كملف markdown – دليل كامل للغة C#](./save-docx-as-markdown-complete-c-guide/)
 دليل شامل لتحويل ملفات DOCX إلى تنسيق Markdown باستخدام Aspose.Words للغة C#.
+### [حفظ مستند Word كملف markdown – تصدير المعادلات إلى LaTeX باستخدام Java](./save-word-as-markdown-export-math-to-latex-with-java/)
+تعلم كيفية حفظ مستند Word كملف markdown وتصدير المعادلات الرياضية إلى LaTeX باستخدام Aspose.Words for Java.
 
 ### [حفظ المستند كملف TXT – دليل سريع لتصدير معادلات Word Math](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 تعلم كيفية حفظ المستند كملف TXT وتصدير معادلات Word Math بسهولة باستخدام Aspose.Words for Java.
 
 ### [حفظ المستند كملف TXT – تحويل DOCX إلى نص مع LaTeX](./save-document-as-txt-convert-docx-to-text-with-latex/)
 دليل خطوة بخطوة لحفظ مستند DOCX كملف نصي (TXT) مع تصدير المعادلات إلى LaTeX باستخدام Aspose.Words.
+### [تصدير docx إلى txt باستخدام Java – دليل برمجة كامل](./export-docx-to-txt-with-java-complete-programming-guide/)
+تعلم كيفية تحويل ملفات DOCX إلى TXT باستخدام Aspose.Words for Java خطوة بخطوة.
 
 ### [Aspose Word إلى PDF – تحويل DOCX إلى PDF في Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 تعلم كيفية تحويل ملفات DOCX إلى PDF باستخدام Aspose.Words for Java بخطوات بسيطة.
@@ -144,6 +148,8 @@ weight: 22
 
 ### [رفع الصور إلى CDN أثناء تحويل DOCX إلى Markdown – دليل Java كامل](./upload-images-to-cdn-while-converting-docx-to-markdown-full/)
 تعلم كيفية رفع الصور إلى شبكة CDN أثناء تحويل ملفات DOCX إلى تنسيق Markdown باستخدام Aspose.Words for Java.
+### [تضمين الصور كـ Base64 عند تحويل DOCX إلى Markdown](./embed-images-as-base64-when-converting-docx-to-markdown/)
+تعلم كيفية تضمين الصور في ملفات Markdown كبيانات Base64 أثناء تحويل مستندات DOCX باستخدام Aspose.Words.
 
 ### [إنشاء ملف PDF ميسّر من DOCX – دليل شامل](./create-accessible-pdf-from-docx-complete-guide/)
 ### [تضمين الصور كـ base64 عند تحويل DOCX إلى Markdown في Java](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
@@ -245,6 +251,12 @@ weight: 22
 
 ### [إنشاء مستند PDF UA باستخدام Aspose.Words – دليل Java كامل](./create-pdf-ua-document-with-aspose-words-full-java-guide/)
 دليل شامل لإنشاء مستند PDF UA باستخدام Aspose.Words في Java مع أمثلة خطوة بخطوة.
+
+### [حفظ المستند كملف PDF باستخدام Aspose.Words Java – دليل الوصول الكامل](./save-document-as-pdf-with-aspose-words-java-full-accessibili/)
+تعلم كيفية حفظ المستندات كملفات PDF ميسّرة وفق معايير الوصول باستخدام Aspose.Words for Java.
+
+### [إنشاء PDF ميسّر في Java – دليل كامل للوسم](./create-accessible-pdf-in-java-full-tagging-guide/)
+تعلم كيفية إنشاء ملفات PDF ميسّرة مع وسم كامل باستخدام Aspose.Words for Java لضمان توافق مع معايير الوصول.
 
 ## الأسئلة المتكررة
 

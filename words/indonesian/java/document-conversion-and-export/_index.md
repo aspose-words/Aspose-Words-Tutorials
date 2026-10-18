@@ -130,12 +130,16 @@ Pelajari cara menyimpan file DOCX menjadi markdown menggunakan Java dengan Aspos
 Pelajari cara mengunggah gambar ke CDN secara otomatis saat mengonversi file DOCX menjadi Markdown menggunakan Aspose.Words for Java.
 ### [Simpan docx sebagai markdown – Panduan Lengkap C#](./save-docx-as-markdown-complete-c-guide/)
 Pelajari cara menyimpan file DOCX menjadi markdown menggunakan Aspose.Words untuk C# dalam panduan lengkap langkah demi langkah.
+### [Simpan Word sebagai Markdown – Ekspor Matematika ke LaTeX dengan Java](./save-word-as-markdown-export-math-to-latex-with-java/)
+Simpan dokumen Word sebagai file markdown dan ekspor persamaan matematika ke format LaTeX menggunakan Aspose.Words for Java.
 
 ### [Cara Menyisipkan Gambar dalam Markdown Saat Mengonversi DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Pelajari cara menyisipkan gambar ke dalam file Markdown selama proses konversi DOCX menggunakan Aspose.Words for Java.
 
 ### [Cara Mengekspor Markdown dari Word – Panduan Lengkap](./how-to-export-markdown-from-word-complete-guide/)
 Pelajari cara mengekspor dokumen Word menjadi file Markdown dengan Aspose.Words dalam panduan langkah demi langkah yang lengkap.
+### [Menyematkan Gambar sebagai Base64 saat Mengonversi DOCX ke Markdown](./embed-images-as-base64-when-converting-docx-to-markdown/)
+Pelajari cara menyisipkan gambar dalam format Base64 selama konversi DOCX ke Markdown menggunakan Aspose.Words for Java.
 
 ### [Simpan Dokumen sebagai TXT – Panduan Cepat Mengekspor Matematika Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Pelajari cara menyimpan dokumen Word sebagai file TXT sambil mengekspor persamaan matematika dengan Aspose.Words.
@@ -144,6 +148,8 @@ Pelajari cara menyimpan dokumen Word sebagai file TXT sambil mengekspor persamaa
 Pelajari cara menyimpan file DOCX menjadi TXT dengan Aspose.Words for Java dalam panduan lengkap langkah demi langkah.
 ### [Simpan Dokumen sebagai TXT – Konversi DOCX ke Teks dengan LaTeX](./save-document-as-txt-convert-docx-to-text-with-latex/)
 Pelajari cara menyimpan dokumen Word sebagai file TXT dan mengekspor persamaan LaTeX menggunakan Aspose.Words.
+### [Ekspor docx ke txt dengan Java – Panduan Pemrograman Lengkap](./export-docx-to-txt-with-java-complete-programming-guide/)
+Pelajari cara mengekspor file DOCX menjadi TXT menggunakan Aspose.Words for Java dengan contoh kode lengkap.
 
 ### [Buat PDF Aksesibel dari DOCX – Panduan Lengkap](./create-accessible-pdf-from-docx-complete-guide/)
 Pelajari cara mengonversi file DOCX menjadi PDF yang memenuhi standar aksesibilitas, termasuk tag, teks alternatif, dan struktur dokumen.
@@ -240,6 +246,12 @@ Pelajari cara mengonversi dokumen Word menjadi PDF yang memenuhi standar aksesib
 
 ### [Simpan Dokumen sebagai PDF dengan Java – Panduan Lengkap Langkah demi Langkah](./save-document-as-pdf-with-java-complete-step-by-step-guide/)
 Pelajari cara menyimpan dokumen sebagai PDF menggunakan Java dengan Aspose.Words dalam panduan langkah demi langkah yang lengkap.
+
+### [Simpan Dokumen sebagai PDF dengan Aspose.Words Java – Panduan Aksesibilitas Lengkap](./save-document-as-pdf-with-aspose-words-java-full-accessibili/)
+Pelajari cara menyimpan dokumen sebagai PDF yang sepenuhnya dapat diakses menggunakan Aspose.Words for Java, termasuk tag, teks alternatif, dan struktur.
+
+### [Buat PDF Aksesibel di Java – Panduan Tagging Lengkap](./create-accessible-pdf-in-java-full-tagging-guide/)
+Pelajari cara membuat PDF yang sepenuhnya dapat diakses dengan tag lengkap menggunakan Aspose.Words for Java.
 
 ## Pertanyaan yang Sering Diajukan
 

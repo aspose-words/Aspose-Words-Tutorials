@@ -44,6 +44,9 @@ Aprenda a aplicar sombras personalizadas a formas em documentos Word usando Aspo
 ### [Como definir sombra em uma forma em C# – Adicione sombra à forma facilmente](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
 Aprenda a aplicar sombra a formas em C# com Aspose.Words, facilitando a personalização visual dos documentos.
 
+### [Criar forma retangular em documento Word Java – Guia completo passo a passo](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Um guia detalhado que mostra como inserir e formatar uma forma retangular em documentos Word usando Aspose.Words para Java.
+
 ## Recursos adicionais
 
 ## Recursos adicionais

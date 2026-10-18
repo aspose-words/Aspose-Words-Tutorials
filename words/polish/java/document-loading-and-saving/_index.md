@@ -133,6 +133,8 @@ Dowiedz się, jak odzyskać uszkodzone dokumenty Word przy użyciu Aspose.Words 
 Dowiedz się, jak przechwytywać ostrzeżenia o podstawianiu czcionek i wykrywać brakujące czcionki w dokumentach przy użyciu Aspose.Words for Java.
 ### [Jak odzyskać pliki DOCX – Przewodnik krok po kroku w Javie](./how-to-recover-docx-files-step-by-step-java-guide/)
 
+### [Otwórz uszkodzony dokument Word – ustaw tryb odzyskiwania w Javie](./open-corrupted-word-document-set-recovery-mode-in-java/)
+
 ## Najczęściej zadawane pytania
 
 **Q:** Jak programowo **save images from word** dokumenty?  

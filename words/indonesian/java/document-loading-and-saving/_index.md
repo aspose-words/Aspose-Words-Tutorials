@@ -127,8 +127,6 @@ Pelajari cara menyimpan dokumen dalam format RTF menggunakan Aspose.Words untuk 
 Pelajari cara menyimpan dokumen sebagai file teks di Aspose.Words untuk Java. Ikuti panduan langkah demi langkah kami dengan contoh kode Java.
 
 ### [Menentukan Format Dokumen di Aspose.Words untuk Java](./determining-document-format/)
-Pelajari cara mendeteksi format dokumen di Java dengan Aspose.Words. Identifikasi DOC, DOCX, dan lainnya. Atur file secara efisien.
-
 ### [Membuat Opsi Pemuatan di Java – Deteksi Font yang Hilang & Cara Memuat DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
 Pelajari cara membuat LoadOptions di Java untuk mendeteksi font yang hilang dan memuat file DOCX dengan pengaturan khusus.
 
@@ -174,6 +172,7 @@ Pelajari cara memulihkan dokumen Word yang rusak menggunakan Aspose.Words untuk 
 Pelajari cara menangkap peringatan substitusi font dan mengidentifikasi font yang tidak tersedia saat memuat dokumen dengan Aspose.Words untuk Java.
 ### [Simpan Dokumen Word – Atur Pengaturan Font, Tangani Font yang Hilang](./save-word-document-set-font-settings-handle-missing-fonts/)
 Pelajari cara menyimpan dokumen Word dengan mengatur font dan mengelola font yang tidak tersedia menggunakan Aspose.Words untuk Java.
+### [Buka Dokumen Word Rusak – Atur Mode Pemulihan di Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
 
 ## Pertanyaan yang Sering Diajukan
 

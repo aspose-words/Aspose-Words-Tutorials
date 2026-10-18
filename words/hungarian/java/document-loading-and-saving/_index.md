@@ -155,6 +155,7 @@ Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlt, és mentheti a h
 
 ### [Betűtípus helyettesítési figyelmeztetések rögzítése – Hiányzó betűtípusok észlelése](./capture-font-substitution-warnings-detect-missing-fonts/)
 ### [Word dokumentum helyreállítása – Teljes útmutató a helyreállítási mód beállításához Java-ban](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
+### [Sérült Word dokumentum megnyitása – Helyreállítási mód beállítása Java-ban](./open-corrupted-word-document-set-recovery-mode-in-java/)
 
 ## Gyakran Ismételt Kérdések
 

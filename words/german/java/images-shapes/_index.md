@@ -44,6 +44,9 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java Schatten zu Formen hinzufügen 
 ### [Wie man einem Shape in C# einen Schatten hinzufügt – Schatten leicht setzen](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
 Erfahren Sie, wie Sie mit Aspose.Words für C# Schatten zu Formen hinzufügen und das Aussehen Ihrer Dokumente verbessern.
 
+### [Rechteckform in Java-Word-Dokument erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Ein detailliertes Beispiel, das zeigt, wie man mit Aspose.Words für Java ein Rechteck in ein Word-Dokument einfügt.
+
 ## Weitere Ressourcen
 
 ## Weitere Ressourcen

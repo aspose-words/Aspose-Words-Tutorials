@@ -167,6 +167,8 @@ Leer hoe je de herstelmodus inschakelt en waarschuwingen weergeeft bij het opene
 Leer hoe je beschadigde DOCX‑bestanden kunt repareren met Aspose.Words for Java in een stapsgewijze handleiding.
 ### [Herstel Word‑document – Complete gids voor het instellen van herstelmodus in Java](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
 Leer hoe je een beschadigd Word‑document kunt herstellen en de herstelmodus in Java kunt configureren met Aspose.Words.
+### [Open beschadigd Word‑document – herstelmodus instellen in Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
+Leer hoe je een beschadigd Word‑document opent en de herstelmodus configureert met Aspose.Words for Java.
 
 ## Veelgestelde vragen
 

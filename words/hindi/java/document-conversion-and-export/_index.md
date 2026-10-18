@@ -34,7 +34,7 @@ weight: 22
 - **सर्वव्यापी फ़ॉर्मेट सपोर्ट** – DOCX, PDF, ODT से लेकर HTML तक।  
 - **उच्च‑गुणवत्ता रूपांतरण** – लेआउट, फ़ॉन्ट और ग्राफ़िक्स को बरकरार रखता है।  
 - **बिल्ट‑इन बारकोड और चार्ट जेनरेशन** – दस्तावेज़ ऑटोमेशन को सरल बनाता है।  
-- **शेप्स, टेबल्स और वॉटरमार्क के लिए मजबूत API** – सभी एक ही लाइब्रेरी में।
+- **शेप्स, टेबल्स और वॉटरमार्क के लिए मजबूत API** – सभी एक ही लाइब्रेरी में हैं।
 
 ## पूर्वापेक्षाएँ
 - Java 8 या उससे ऊपर (Java 17 अनुशंसित)।  
@@ -92,6 +92,8 @@ Aspose.Words for Java का उपयोग करके DOCX से LaTeX न�
 Aspose.Words for Java का उपयोग करके DOCX फ़ाइल को आसानी से PDF में बदलें। चरण‑दर‑स्टेप कोड उदाहरण।
 ### [Java के साथ docx को pdf में सहेजें – पूर्ण चरण‑दर‑चरण गाइड](./save-docx-as-pdf-with-java-complete-step-by-step-guide/)
 Java में Aspose.Words का उपयोग करके docx फ़ाइल को PDF में बदलने की पूरी प्रक्रिया सीखें।
+### [Aspose.Words for Java में Word को Markdown के रूप में सहेजें – Math को LaTeX में निर्यात करें](./save-word-as-markdown-export-math-to-latex-with-java/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ को Markdown में बदलें और गणितीय समीकरणों को LaTeX स्वरूप में निर्यात करें।
 
 ### [docx को markdown में बदलें – Aspose.Words के साथ गणितीय समीकरणों को LaTeX में निर्यात करें](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 ### [docx को markdown में सहेजें – चरण‑दर‑स्टेप जावा गाइड](./save-docx-as-markdown-step-by-step-java-guide/)
@@ -195,6 +197,16 @@ Aspose.Words for Java का उपयोग करके DOCX फ़ाइल �
 ### [एक्सेसिबल PDF बनाना – जावा गाइड वर्ड दस्तावेज़ रूपांतरण के लिए](./create-accessible-pdf-java-guide-for-converting-word-documen/)
 
 ### [Aspose.Words के साथ PDF UA दस्तावेज़ बनाएं – पूर्ण जावा गाइड](./create-pdf-ua-document-with-aspose-words-full-java-guide/)
+### [Java के साथ docx को txt में निर्यात – पूर्ण प्रोग्रामिंग गाइड](./export-docx-to-txt-with-java-complete-programming-guide/)
+Aspose.Words for Java का उपयोग करके docx फ़ाइल को txt में बदलने की पूरी प्रक्रिया, कोड उदाहरण सहित।
+
+### [DOCX को मार्कडाउन में बदलते समय छवियों को Base64 के रूप में एम्बेड करें](./embed-images-as-base64-when-converting-docx-to-markdown/)
+DOCX को markdown में परिवर्तित करते समय छवियों को Base64 एन्कोडेड रूप में एम्बेड करने की चरण‑दर‑स्टेप गाइड।
+
+### [Aspose.Words for Java में एक्सेसिबल PDF बनाना – पूर्ण टैगिंग गाइड](./create-accessible-pdf-in-java-full-tagging-guide/)
+Aspose.Words for Java का उपयोग करके एक्सेसिबल PDF बनाने के लिए टैगिंग चरण‑दर‑स्टेप गाइड।
+
+### [Aspose.Words Java के साथ दस्तावेज़ को PDF के रूप में सहेजें – पूर्ण एक्सेसिबिलिटी गाइड](./save-document-as-pdf-with-aspose-words-java-full-accessibili/)
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
