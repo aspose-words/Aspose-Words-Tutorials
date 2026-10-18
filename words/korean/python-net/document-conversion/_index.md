@@ -51,6 +51,20 @@ Aspose.Words를 활용해 Word 문서를 접근성 PDF로 변환하는 방법을
 
 ### [Word를 Markdown으로 저장하기 – PDF/A‑UA 내보내기 완전 가이드](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Word 문서를 Markdown으로 저장하고 PDF/A‑UA 형식으로 내보내는 방법을 단계별로 안내합니다.
+### [DOCX를 Markdown으로 저장 – 방정식을 LaTeX로 내보내는 빠른 Python 가이드](./save-docx-as-markdown-quick-python-guide-to-export-equations/)
+DOCX 파일을 Markdown으로 변환하고, 수식들을 LaTeX 형식으로 내보내는 방법을 빠르게 안내합니다.
+
+### [문서를 TXT로 저장 – Aspose.Words를 사용해 Word 수식을 LaTeX로 내보내기](./save-document-as-txt-export-word-math-to-latex-with-aspose-w/)
+Aspose.Words를 활용해 Word 문서를 TXT 파일로 저장하고, 수식을 LaTeX 형식으로 내보내는 방법을 단계별로 안내합니다.
+
+### [Aspose.Words로 docx를 PDF로 저장 – 완전 Python 가이드](./save-docx-as-pdf-with-aspose-words-complete-python-guide/)
+Aspose.Words를 활용해 docx 파일을 PDF로 변환하고 저장하는 방법을 단계별로 안내합니다.
+
+### [DOCX를 Markdown으로 변환할 때 이미지 삽입 방법 – 완전 가이드](./how-to-embed-images-when-converting-docx-to-markdown-complet/)
+DOCX 파일을 Markdown으로 변환하면서 이미지 파일을 올바르게 포함시키는 방법을 단계별로 안내합니다.
+
+### [DOCX에서 Markdown으로 이미지 삽입 – 완전 가이드](./how-to-embed-images-in-markdown-from-docx-full-guide/)
+DOCX를 Markdown으로 변환하면서 이미지를 삽입하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -48,6 +48,16 @@ Learn how to create accessible PDFs from Word documents using Aspose.Words for P
 Learn how to save Word documents as Markdown and export PDF/A‑UA using Aspose.Words for Python in this comprehensive guide.
 ### [Create PDF UA from Word – Step‑by‑Step Guide](./create-pdf-ua-from-word-step-by-step-guide/)
 Learn how to generate PDF/UA compliant documents from Word using Aspose.Words for Python in a step‑by‑step guide.
+### [save docx as markdown – Quick Python Guide to Export Equations to LaTeX](./save-docx-as-markdown-quick-python-guide-to-export-equations/)
+Learn how to save DOCX as Markdown and export equations to LaTeX using Aspose.Words for Python.
+### [Save Document as TXT – Export Word Math to LaTeX with Aspose.Words](./save-document-as-txt-export-word-math-to-latex-with-aspose-w/)
+Learn how to save a Word document as TXT while exporting equations to LaTeX using Aspose.Words for Python.
+### [Save docx as pdf with Aspose.Words – Complete Python Guide](./save-docx-as-pdf-with-aspose-words-complete-python-guide/)
+Learn how to save DOCX files as PDF using Aspose.Words for Python in this comprehensive guide.
+### [How to embed images when converting DOCX to Markdown – Complete Guide](./how-to-embed-images-when-converting-docx-to-markdown-complet/)
+Learn how to embed images while converting DOCX to Markdown using Aspose.Words for Python in this step-by-step guide.
+### [how to embed images in Markdown from DOCX – Full Guide](./how-to-embed-images-in-markdown-from-docx-full-guide/)
+Learn how to embed images when converting DOCX to Markdown using Aspose.Words for Python in this comprehensive guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

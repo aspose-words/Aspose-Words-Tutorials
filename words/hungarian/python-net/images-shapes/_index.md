@@ -39,6 +39,8 @@ Ismerd meg, hogyan alkalmazhatsz árnyékhatást C#-ban az Aspose.Words segíts�
 
 ### [Téglalap hozzáadása PDF-hez az Aspose.Words segítségével – Lépésről lépésre útmutató](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 Tanuld meg, hogyan adhatsz hozzá téglalapot PDF dokumentumokhoz az Aspose.Words használatával, részletes lépésről lépésre útmutatóval.
+### [Téglalap alakzat létrehozása Pythonban – Teljes útmutató az árnyékok hozzáadásához és PDF-be mentéshez](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
+Tanuld meg, hogyan hozhatsz létre téglalap alakzatot, adj hozzá árnyékot, és mentsd PDF formátumban az Aspose.Words for Python segítségével.
 
 ## További források
 

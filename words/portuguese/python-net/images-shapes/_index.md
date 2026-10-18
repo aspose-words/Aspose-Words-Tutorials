@@ -39,6 +39,8 @@ Aprenda a aplicar sombras a objetos em documentos Word usando Aspose.Words para 
 
 ### [Adicionar retângulo a PDF com Aspose.Words – Guia passo a passo](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 Aprenda a inserir um retângulo em documentos PDF usando Aspose.Words com instruções detalhadas passo a passo.
+### [Criar forma retangular em Python – Guia completo para adicionar sombras e salvar como PDF](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
+Aprenda a criar formas retangulares, aplicar sombras e salvar documentos como PDF usando Aspose.Words para Python.
 
 ## Recursos adicionais
 

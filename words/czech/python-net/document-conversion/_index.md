@@ -47,6 +47,16 @@ Naučte se pomocí Aspose.Words pro Python vytvořit přístupné PDF z dokument
 Naučte se uložit dokument Word jako Markdown a exportovat jej do PDF/A‑UA pomocí Aspose.Words pro Python.
 ### [Vytvoření PDF UA z Wordu – průvodce krok za krokem](./create-pdf-ua-from-word-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Words pro Python převést dokument Word do PDF/UA s plnou podporou přístupnosti.
+### [Uložení DOCX jako Markdown – Rychlý průvodce v Pythonu pro export rovnic do LaTeXu](./save-docx-as-markdown-quick-python-guide-to-export-equations/)
+Naučte se rychle exportovat rovnice z DOCX do LaTeXu a uložit dokument jako Markdown pomocí Aspose.Words pro Python.
+### [Uložení dokumentu jako TXT – Export rovnic z Wordu do LaTeXu pomocí Aspose.Words](./save-document-as-txt-export-word-math-to-latex-with-aspose-w/)
+Naučte se uložit dokument jako TXT a exportovat rovnice z Wordu do LaTeXu pomocí Aspose.Words.
+### [Uložení docx jako pdf pomocí Aspose.Words – Kompletní průvodce v Pythonu](./save-docx-as-pdf-with-aspose-words-complete-python-guide/)
+Naučte se uložit soubor DOCX jako PDF pomocí Aspose.Words v Pythonu.
+### [Jak vložit obrázky při převodu DOCX do Markdown – kompletní průvodce](./how-to-embed-images-when-converting-docx-to-markdown-complet/)
+Naučte se vkládat obrázky při konverzi DOCX do Markdown pomocí Aspose.Words pro Python.
+### [Jak vložit obrázky v Markdownu z DOCX – Kompletní průvodce](./how-to-embed-images-in-markdown-from-docx-full-guide/)
+Naučte se vkládat obrázky z DOCX do Markdownu pomocí Aspose.Words pro Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

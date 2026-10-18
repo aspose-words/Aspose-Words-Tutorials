@@ -62,6 +62,8 @@ Apprenez à récupérer et ouvrir des fichiers DOCX corrompus avec Aspose.Words 
 
 ### [Récupérer un DOCX corrompu – Guide complet pour activer le mode de récupération et obtenir le nombre de pages](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
 Apprenez à activer le mode de récupération des fichiers DOCX corrompus et à déterminer le nombre de pages avec Aspose.Words pour Python-net.
+### [Récupérer un document Word corrompu avec Python – Guide complet](./recover-corrupted-word-document-using-python-complete-guide/)
+Apprenez à restaurer et ouvrir des documents Word corrompus en utilisant Python et Aspose.Words.
 
 ## Ressources supplémentaires
 

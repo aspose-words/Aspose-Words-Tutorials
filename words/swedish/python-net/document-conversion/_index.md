@@ -47,6 +47,16 @@ Lär dig hur du skapar en tillgänglig PDF från Word med Aspose.Words för Pyth
 Lär dig hur du sparar Word-dokument som Markdown och exporterar till PDF/A‑UA med Aspose.Words för Python. Steg‑för‑steg‑instruktioner och kodexempel.
 ### [Skapa PDF UA från Word – Steg‑för‑steg‑guide](./create-pdf-ua-from-word-step-by-step-guide/)
 Lär dig hur du konverterar Word-dokument till PDF/UA med Aspose.Words för Python i en detaljerad steg‑för‑steg‑guide.
+### [Spara DOCX som Markdown – Snabb Python-guide för att exportera ekvationer till LaTeX](./save-docx-as-markdown-quick-python-guide-to-export-equations/)
+Lär dig snabbt hur du sparar DOCX som Markdown och exporterar ekvationer till LaTeX med Python.
+### [Spara dokument som TXT – Exportera Word-matematik till LaTeX med Aspose.Words](./save-document-as-txt-export-word-math-to-latex-with-aspose-w/)
+Lär dig hur du sparar ett Word-dokument som TXT och exporterar matematiska ekvationer till LaTeX med Aspose.Words för Python.
+### [Spara docx som pdf med Aspose.Words – Komplett Python-guide](./save-docx-as-pdf-with-aspose-words-complete-python-guide/)
+Lär dig hur du sparar DOCX som PDF med Aspose.Words för Python. Steg-för-steg-instruktioner och kodexempel.
+### [Hur man bäddar in bilder vid konvertering av DOCX till Markdown – Komplett guide](./how-to-embed-images-when-converting-docx-to-markdown-complet/)
+Lär dig hur du bäddar in bilder när du konverterar DOCX-filer till Markdown med Aspose.Words för Python. Steg-för-steg-instruktioner och kodexempel.
+### [Hur du bäddar in bilder i Markdown från DOCX – Fullständig guide](./how-to-embed-images-in-markdown-from-docx-full-guide/)
+Lär dig hur du bäddar in bilder i Markdown från DOCX med Aspose.Words för Python. Detaljerade steg-för-steg-instruktioner och kodexempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

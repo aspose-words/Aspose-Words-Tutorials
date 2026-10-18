@@ -62,6 +62,8 @@ Aspose.Words for Python を使用して、Word 文書を PostScript 形式に変
 
 ### [破損した DOCX の復元 – 復元モードの有効化とページ数取得の完全ガイド](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
 破損した DOCX ファイルを復元モードで開き、ページ数を取得する手順を詳しく解説します。
+### [Python で破損した Word 文書を復元する – 完全ガイド](./recover-corrupted-word-document-using-python-complete-guide/)
+Python と Aspose.Words を活用して、破損した Word 文書を検出し、修復する手順を詳しく解説します。
 
 ## 追加リソース
 

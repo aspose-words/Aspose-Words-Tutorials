@@ -53,6 +53,20 @@
 学习使用 Aspose.Words for Python 将 Word 文档转换为符合可访问性标准的 PDF，提升文档可读性和合规性。
 ### [从 Word 创建 PDF/UA – 步骤指南](./create-pdf-ua-from-word-step-by-step-guide/)
 使用 Aspose.Words for Python 将 Word 文档转换为符合 PDF/UA 标准的 PDF，确保可访问性。
+### [将 docx 保存为 markdown – 快速 Python 指南：将公式导出为 LaTeX](./save-docx-as-markdown-quick-python-guide-to-export-equations/)
+学习使用 Aspose.Words for Python 将 docx 文档中的公式导出为 LaTeX，并保存为 Markdown，实现高效转换。
+
+### [将文档保存为 TXT – 使用 Aspose.Words 导出 Word 公式为 LaTeX](./save-document-as-txt-export-word-math-to-latex-with-aspose-w/)
+学习使用 Aspose.Words for Python 将 Word 文档保存为 TXT，并将公式导出为 LaTeX，实现高效转换。
+
+### [将 docx 保存为 pdf – 完整 Python 指南](./save-docx-as-pdf-with-aspose-words-complete-python-guide/)
+学习使用 Aspose.Words for Python 将 docx 文档转换并保存为 PDF，提升文档处理效率。
+
+### [在将 DOCX 转换为 Markdown 时嵌入图像 – 完整指南](./how-to-embed-images-when-converting-docx-to-markdown-complet/)
+学习使用 Aspose.Words for Python 在将 DOCX 转换为 Markdown 时嵌入图像，确保文档完整呈现。
+
+### [如何从 DOCX 嵌入图像到 Markdown – 完整指南](./how-to-embed-images-in-markdown-from-docx-full-guide/)
+学习使用 Aspose.Words for Python 将 DOCX 中的图像嵌入到 Markdown，完整指南帮助您实现无缝转换。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

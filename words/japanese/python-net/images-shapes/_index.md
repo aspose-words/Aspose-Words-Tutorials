@@ -39,6 +39,8 @@ C# を使用してテキストや図形に影効果を適用する手順を詳�
 
 ### [Aspose.Words で PDF に矩形を追加する – ステップバイステップガイド](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 Aspose.Words を使用して PDF 文書に矩形を挿入し、位置やサイズを設定する方法を段階的に解説します。
+### [Python で矩形シェイプを作成 – 影の追加と PDF への保存 完全ガイド](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
+Python で矩形を描画し、影効果を適用し、PDF として保存する方法をステップバイステップで解説します。
 
 ## 追加リソース
 

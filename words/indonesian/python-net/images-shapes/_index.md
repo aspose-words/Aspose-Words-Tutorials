@@ -28,6 +28,9 @@ Kategori 'Gambar & Bentuk' dalam tutorial Python-net Aspose.Words dirancang untu
 ### [Menguasai Parsing Jenis Media di Aspose.Words untuk Python: Panduan Lengkap](./mastering-aspose-words-python-media-type-parsing/)
 Pelajari cara mengurai jenis media, mengenkripsi berkas, dan memvalidasi tanda tangan digital dengan Aspose.Words untuk Python. Tingkatkan kemampuan pemrosesan dokumen Anda hari ini.
 
+### [Buat bentuk persegi panjang di Python – Panduan Lengkap Menambahkan Bayangan & Menyimpan sebagai PDF](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
+Pelajari cara membuat bentuk persegi panjang, menambahkan bayangan, dan menyimpan dokumen sebagai PDF menggunakan Aspose.Words untuk Python.
+
     ### [Optimize RTF Image Handling in Python using Aspose.Words API&#58; Save as WMF and Ensure Compatibility](./optimize-rtf-image-handling-aspose-words-python/)
 Pelajari cara mengoptimalkan penanganan gambar dalam dokumen RTF dengan Aspose.Words untuk Python. Simpan gambar sebagai format WMF dan pastikan kompatibilitas dengan pembaca lama.
 

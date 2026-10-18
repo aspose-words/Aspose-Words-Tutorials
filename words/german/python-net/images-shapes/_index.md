@@ -39,6 +39,8 @@ Erfahren Sie, wie Sie Schatten zu C#-Grafiken hinzufügen und das Erscheinungsbi
 
 ### [Rechteck zu PDF mit Aspose.Words hinzufügen – Schritt‑für‑Schritt‑Anleitung](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words ein Rechteck in ein PDF einfügen und formatieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Rechteckform in Python erstellen – Vollständiger Leitfaden zum Hinzufügen von Schatten & Speichern als PDF](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
+Erfahren Sie, wie Sie in Python ein Rechteck erstellen, Schatten hinzufügen und das Ergebnis als PDF speichern.
 
 ## Weitere Ressourcen
 

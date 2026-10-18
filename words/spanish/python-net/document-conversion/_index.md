@@ -53,6 +53,20 @@ Aprenda a generar PDFs accesibles desde documentos Word usando Aspose.Words para
 Aprenda a guardar documentos Word como archivos Markdown y exportarlos a PDF/A‑UA usando Aspose.Words para Python. Guía paso a paso.
 ### [Crear PDF UA desde Word – Guía paso a paso](./create-pdf-ua-from-word-step-by-step-guide/)
 Aprenda a generar PDFs compatibles con PDF/UA a partir de documentos Word usando Aspose.Words para Python.
+### [Guardar DOCX como Markdown – Guía rápida de Python para exportar ecuaciones a LaTeX](./save-docx-as-markdown-quick-python-guide-to-export-equations/)
+Aprenda a guardar archivos DOCX como Markdown y exportar ecuaciones a LaTeX usando Aspose.Words para Python.
+
+### [Guardar documento como TXT – Exportar ecuaciones de Word a LaTeX con Aspose.Words](./save-document-as-txt-export-word-math-to-latex-with-aspose-w/)
+Aprenda a guardar documentos como TXT y exportar ecuaciones de Word a LaTeX usando Aspose.Words para Python.
+
+### [Guardar docx como pdf con Aspose.Words – Guía completa de Python](./save-docx-as-pdf-with-aspose-words-complete-python-guide/)
+Aprenda a guardar archivos DOCX como PDF usando Aspose.Words para Python. Guía paso a paso y ejemplos de código.
+
+### [Cómo incrustar imágenes al convertir DOCX a Markdown – Guía completa](./how-to-embed-images-when-converting-docx-to-markdown-complet/)
+Aprenda a incrustar imágenes al convertir archivos DOCX a Markdown usando Aspose.Words para Python. Guía paso a paso y ejemplos de código.
+
+### [Cómo incrustar imágenes en Markdown desde DOCX – Guía completa](./how-to-embed-images-in-markdown-from-docx-full-guide/)
+Aprenda a incrustar imágenes al convertir archivos DOCX a Markdown usando Aspose.Words para Python. Guía paso a paso y ejemplos de código.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

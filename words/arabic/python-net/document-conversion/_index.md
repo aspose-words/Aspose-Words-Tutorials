@@ -45,6 +45,16 @@
 تعلم كيفية إنشاء ملفات PDF ميسّرة من مستندات Word باستخدام Aspose.Words لبايثون لضمان إمكانية الوصول.
 ### [حفظ Word كـ Markdown – دليل كامل مع تصدير PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 تعلم كيفية حفظ مستندات Word كملفات Markdown مع تصدير PDF/A‑UA باستخدام Aspose.Words لبايثون.
+### [حفظ docx كـ markdown – دليل بايثون سريع لتصدير المعادلات إلى LaTeX](./save-docx-as-markdown-quick-python-guide-to-export-equations/)
+تعلم كيفية حفظ ملفات docx كـ markdown وتصدير المعادلات إلى LaTeX باستخدام Aspose.Words لبايثون.
+### [حفظ المستند كملف TXT – تصدير معادلات Word إلى LaTeX باستخدام Aspose.Words](./save-document-as-txt-export-word-math-to-latex-with-aspose-w/)
+تعلم كيفية حفظ مستندات Word كملفات TXT وتصدير المعادلات إلى LaTeX باستخدام Aspose.Words لبايثون.
+### [حفظ docx كـ pdf باستخدام Aspose.Words – دليل بايثون كامل](./save-docx-as-pdf-with-aspose-words-complete-python-guide/)
+اكتشف خطوات التحويل السريعة والفعّالة لملفات docx إلى pdf باستخدام Aspose.Words في بايثون.
+### [كيفية تضمين الصور عند تحويل DOCX إلى Markdown – دليل كامل](./how-to-embed-images-when-converting-docx-to-markdown-complet/)
+تعلم كيفية تضمين الصور أثناء تحويل ملفات DOCX إلى صيغة Markdown باستخدام Aspose.Words لبايثون.
+### [كيفية تضمين الصور في Markdown من DOCX – دليل كامل](./how-to-embed-images-in-markdown-from-docx-full-guide/)
+اكتشف طريقة تضمين الصور في ملفات Markdown عند تحويل DOCX باستخدام Aspose.Words لبايثون.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

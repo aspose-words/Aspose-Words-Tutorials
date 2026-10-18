@@ -47,6 +47,16 @@ Ismerje meg, hogyan hozhat létre akadálymentes PDF-et Word dokumentumokból Py
 Ismerje meg, hogyan mentheti a Word dokumentumokat Markdown formátumba, és exportálhatja őket PDF/A‑UA szabvánnyal Python segítségével.
 ### [PDF/UA létrehozása Word-ből – Lépésről‑lépésre útmutató](./create-pdf-ua-from-word-step-by-step-guide/)
 Ismerje meg, hogyan hozhat létre PDF/UA fájlokat Word dokumentumokból lépésről‑lépésre az Aspose.Words for Python segítségével.
+### [docx mentése markdownként – Gyors Python útmutató az egyenletek LaTeX-be exportálásához](./save-docx-as-markdown-quick-python-guide-to-export-equations/)
+Ismerje meg, hogyan exportálhatja a Word egyenleteket LaTeX formátumba a docx markdown konvertálás során.
+### [Dokumentum mentése TXT-ként – Word egyenletek exportálása LaTeX-be az Aspose.Words segítségével](./save-document-as-txt-export-word-math-to-latex-with-aspose-w/)
+Ismerje meg, hogyan menthet dokumentumot TXT formátumba, és exportálhatja a Word egyenleteket LaTeX-be az Aspose.Words használatával.
+### [docx mentése PDF-ként – Teljes Python útmutató az Aspose.Words segítségével](./save-docx-as-pdf-with-aspose-words-complete-python-guide/)
+Ismerje meg, hogyan menthet DOCX fájlokat PDF formátumba az Aspose.Words for Python használatával.
+### [Hogyan ágyazzon be képeket a DOCX konvertálásakor Markdown formátumba – Teljes Python útmutató](./how-to-embed-images-when-converting-docx-to-markdown-complet/)
+Ismerje meg, hogyan ágyazhat be képeket a DOCX fájlokból Markdown formátumba Python segítségével.
+### [Hogyan ágyazzon be képeket a DOCX-ből Markdown-be – Teljes útmutató](./how-to-embed-images-in-markdown-from-docx-full-guide/)
+Ismerje meg, hogyan ágyazhat be képeket a DOCX fájlokból Markdown formátumba Python segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

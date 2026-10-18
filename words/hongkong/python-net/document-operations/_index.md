@@ -62,6 +62,8 @@ Aspose.Words Python-net 程式碼教學
 
 ### [恢復損壞的 DOCX – 完整指南：啟用復原模式並取得頁數](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
 了解如何在 Aspose.Words for Python-net 中啟用復原模式以修復損壞的 DOCX，並取得文件的頁數。
+### [使用 Python 復原受損的 Word 文件 – 完整指南](./recover-corrupted-word-document-using-python-complete-guide/)
+了解如何使用 Python 復原受損的 Word 文件，提供完整步驟與範例。
 
 ## 其他資源
 

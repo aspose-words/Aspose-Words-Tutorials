@@ -45,6 +45,16 @@
 Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF από έγγραφα Word χρησιμοποιώντας Aspose.Words για Python. Οδηγός βήμα‑βήμα.
 ### [Αποθήκευση Word ως Markdown – Πλήρης Οδηγός με Εξαγωγή PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Μάθετε πώς να αποθηκεύσετε Word ως Markdown και να εξάγετε PDF/A‑UA με το Aspose.Words για Python.
+### [Αποθήκευση docx ως markdown – Γρήγορος οδηγός Python για εξαγωγή εξισώσεων σε LaTeX](./save-docx-as-markdown-quick-python-guide-to-export-equations/)
+Μάθετε πώς να μετατρέψετε docx σε markdown και να εξάγετε εξισώσεις σε LaTeX με τον Aspose.Words για Python.
+### [Αποθήκευση εγγράφου ως TXT – Εξαγωγή μαθηματικών Word σε LaTeX με Aspose.Words](./save-document-as-txt-export-word-math-to-latex-with-aspose-w/)
+Μάθετε πώς να αποθηκεύσετε έγγραφα Word ως TXT και να μετατρέψετε μαθηματικά σε LaTeX χρησιμοποιώντας Aspose.Words.
+### [Αποθήκευση docx ως PDF με Aspose.Words – Πλήρης οδηγός Python](./save-docx-as-pdf-with-aspose-words-complete-python-guide/)
+Μάθετε πώς να αποθηκεύσετε ένα docx ως PDF χρησιμοποιώντας Aspose.Words για Python. Πλήρης οδηγός.
+### [Πώς να ενσωματώσετε εικόνες κατά τη μετατροπή DOCX σε Markdown – Πλήρης οδηγός](./how-to-embed-images-when-converting-docx-to-markdown-complet/)
+Μάθετε πώς να ενσωματώσετε εικόνες σε αρχεία Markdown κατά τη μετατροπή από DOCX χρησιμοποιώντας Aspose.Words για Python.
+### [Πώς να ενσωματώσετε εικόνες σε Markdown από DOCX – Πλήρης οδηγός](./how-to-embed-images-in-markdown-from-docx-full-guide/)
+Μάθετε πώς να ενσωματώσετε εικόνες σε αρχεία Markdown από DOCX χρησιμοποιώντας Aspose.Words για Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
