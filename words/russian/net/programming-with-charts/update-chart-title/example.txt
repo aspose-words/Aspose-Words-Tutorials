@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: С помощью Aspose.Words этот учебник создает документ Word, вставляет столбчатую диаграмму, обновляет заголовок диаграммы текстом, предоставленным пользователем, и переключает видимость и наложение легенды в соответствии с предпочтениями пользователя.
+//ExStepSummary:0: Задайте заголовок диаграммы, предоставленный пользователем, и укажите, должна ли отображаться легенда.
+//ExStepSummary:1: Создайте новый документ Word и объект DocumentBuilder для добавления содержимого.
+//ExStepSummary:2: Вставьте столбчатую диаграмму размером 432 × 252 pt в документ и проверьте, что объект Shape действительно содержит диаграмму.
+//ExStepSummary:3: Получите объект диаграммы, задайте его заголовку текст, полученный от пользователя, и убедитесь, что заголовок отображается.
+//ExStepSummary:4: Настройте легенду: отобразите её справа, если это запрошено, иначе скройте, и разрешите ей накладываться на область построения.
+//ExStepSummary:5: Сохраните изменённый документ на диск под именем CustomChart.docx.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+string chartHeader = "Fiscal Q1 Performance Summary";
+bool displayLegend = false;
+
+//ExStep:1-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:2-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+if (!chartContainer.HasChart)
+    throw new InvalidOperationException("The inserted shape does not contain a chart.");
+
+//ExStep:3-
+Chart chartObj = chartContainer.Chart;
+ChartTitle chartTitle = chartObj.Title;
+chartTitle.Text = chartHeader;
+chartTitle.Show = true;
+
+//ExStep:4-
+ChartLegend chartLegend = chartObj.Legend;
+chartLegend.Position = displayLegend ? LegendPosition.Right : LegendPosition.None;
+chartLegend.Overlay = true;
+
+//ExStep:5-
+wordDoc.Save("CustomChart.docx");
+//ExEnd

@@ -63,6 +63,9 @@ Tanuld meg, hogyan manipulálhatsz PDF fájlokat az Aspose.Words for Python seg�
 ### [Korrupt Word dokumentum helyreállítása Python használatával – Teljes útmutató](./recover-corrupted-word-document-using-python-complete-guide/)
 Tanulja meg, hogyan állíthatja helyre a sérült Word fájlokat Python és Aspose.Words segítségével.
 
+### [Korrupt DOCX helyreállítása – Teljes útmutató a helyreállítási mód engedélyezéséhez és az oldalszám lekéréséhez](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
+A korrupt DOCX fájlok helyreállítása és a dokumentum oldalszámának lekérdezése az Aspose.Words for Python-net segítségével.
+
 ## További források
 
 - [Aspose.Words Python-net dokumentációhoz](https://docs.aspose.com/words/python-net/)

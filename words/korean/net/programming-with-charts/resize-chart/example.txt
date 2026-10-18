@@ -1,0 +1,60 @@
+//ExStart
+//ExSummary: 이 튜토리얼은 Word 문서에 열 차트를 삽입하고, 문서의 페이지 크기를 A4로 변경한 뒤 차트가 새로운 페이지 너비에 비례하도록 자동으로 크기를 조정하는 방법을 보여줍니다.
+//ExStepSummary:0: 새 Document 객체와 이를 편집할 DocumentBuilder를 생성합니다.
+//ExStepSummary:1: 432×252 포인트 크기의 열 차트를 삽입하고 해당 Chart 객체를 가져옵니다.
+//ExStepSummary:2: 차트 제목 텍스트를 "Quarterly Revenue" 로 설정하고 표시합니다.
+//ExStepSummary:3: 원래 차트 크기가 유지된 상태로 문서를 파일에 저장합니다.
+//ExStepSummary:4: 문서의 용지 크기를 A4로 변경하고 레이아웃을 새로 고칩니다.
+//ExStepSummary:5: 원래 가로세로 비율을 유지하면서 페이지 너비의 80 %에 해당하는 새로운 차트 너비를 계산합니다.
+//ExStepSummary:6: 해당 shape에 차트가 포함되어 있으면, 계산된 너비와 높이를 적용하여 크기를 조정합니다.
+//ExStepSummary:7: 차트가 새 페이지 크기에 맞게 크기가 조정된 후 문서를 저장합니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:6:images/4.png
+//ExStep:0-
+// Instantiate an empty document.
+Document myDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDoc);
+
+//ExStep:1-
+// Place a column chart with a starting size of 432×252 points.
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chartObj = chartContainer.Chart;
+
+//ExStep:2-
+// Provide a basic heading for the chart.
+chartObj.Title.Text = "Quarterly Revenue";
+chartObj.Title.Show = true;
+
+//ExStep:3-
+// Persist the file to illustrate the original dimensions.
+myDoc.Save("report_before.docx");
+
+//ExStep:4-
+// Switch the document's paper format to A4.
+docBuilder.PageSetup.PaperSize = PaperSize.A4;
+
+// Refresh layout after the page configuration change.
+myDoc.UpdatePageLayout();
+
+//ExStep:5-
+// Determine updated chart size so it stays proportional to the new page width.
+// Use 80 % of the page width while keeping the original width‑to‑height ratio.
+double pageWidth = docBuilder.PageSetup.PageWidth;
+double originalAspectRatio = chartContainer.Height / chartContainer.Width;
+double newChartWidth = pageWidth * 0.8;
+double newChartHeight = newChartWidth * originalAspectRatio;
+
+//ExStep:6-
+// Verify the shape actually hosts a chart before applying new dimensions.
+if (chartContainer.HasChart)
+{
+    chartContainer.Width = newChartWidth;
+    chartContainer.Height = newChartHeight;
+}
+
+//ExStep:7-
+// Save the final document with the adjusted chart.
+myDoc.Save("report_after.docx");
+//ExEnd

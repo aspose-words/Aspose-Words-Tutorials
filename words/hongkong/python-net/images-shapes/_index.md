@@ -37,8 +37,8 @@ Aspose.Words Python-net 教程中的「圖像和形狀」類別旨在幫助開�
     ### [如何在 C# 中添加陰影 – 完整程式設計指南](./how-to-add-shadow-in-c-complete-programming-guide/)
 了解如何使用 C# 為圖形或文字添加陰影效果，提升文件視覺效果的完整教學。
 
-    ### [在 Python 中建立矩形形狀 – 完整陰影添加與保存為 PDF 指南](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
-了解如何在 Python 中使用 Aspose.Words 建立矩形形狀、添加陰影並將文件保存為 PDF。
+    ### [使用 Aspose.Words 向 PDF 添加矩形 – 步驟指南](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
+本指南說明如何使用 Aspose.Words 在 PDF 中繪製矩形，涵蓋程式碼示例與操作步驟。
 
 ## 其他資源
 

@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: Aspose.Words Document ve DocumentBuilder kullanarak, bu öğreticide Word belgesinin birincil altbilgi kısmına otomatik olarak güncellenen sayfa numaraları eklenir.
+//ExStepSummary:0: Yeni bir Document nesnesi ve ona bağlı bir DocumentBuilder oluşturun.
+//ExStepSummary:1: Builder'ın imlecini ilk bölümün birincil altbilgisine taşıyın.
+//ExStepSummary:2: Paragraf hizalamasını ortala olarak ayarlayın, böylece altbilgi metni ortalanır.
+//ExStepSummary:3: "Page " etiketini yazın ve mevcut sayfa numarasını gösteren bir PAGE alanı ekleyin.
+//ExStepSummary:4: " of " yazın ve toplam sayfa sayısını gösteren bir NUMPAGES alanı ekleyin.
+//ExStepSummary:5: Belgeyi bir .docx dosyasına kaydedin.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+
+//ExStep:2-
+builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
+
+//ExStep:3-
+builder.Write("Page ");
+builder.InsertField("PAGE", null);
+
+//ExStep:4-
+builder.Write(" of ");
+builder.InsertField("NUMPAGES", null);
+
+//ExStep:5-
+doc.Save("PageNumbers.docx");
+//ExEnd

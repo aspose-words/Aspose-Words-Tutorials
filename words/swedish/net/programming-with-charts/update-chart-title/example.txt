@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Med Aspose.Words skapar den här handledningen ett Word‑dokument, infogar ett stapeldiagram, uppdaterar diagramtitel med text som användaren har angett och växlar legendens synlighet och överlagring baserat på användarens preferenser.
+//ExStepSummary:0: Definiera den användar‑tillhandahållna diagramtiteln och om legenden ska visas.
+//ExStepSummary:1: Skapa ett nytt Word‑dokument och en DocumentBuilder för att lägga till innehåll.
+//ExStepSummary:2: Infoga ett stapeldiagram på 432 × 252 pt i dokumentet och verifiera att formen faktiskt innehåller ett diagram.
+//ExStepSummary:3: Hämta diagramobjektet, sätt dess titeltext till användarvärdet och säkerställ att titeln visas.
+//ExStepSummary:4: Konfigurera legenden: visa den till höger om så begärs, annars dölj den, och låt den överlappa plotområdet.
+//ExStepSummary:5: Spara det modifierade dokumentet på disk som CustomChart.docx.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+string chartHeader = "Fiscal Q1 Performance Summary";
+bool displayLegend = false;
+
+//ExStep:1-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:2-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+if (!chartContainer.HasChart)
+    throw new InvalidOperationException("The inserted shape does not contain a chart.");
+
+//ExStep:3-
+Chart chartObj = chartContainer.Chart;
+ChartTitle chartTitle = chartObj.Title;
+chartTitle.Text = chartHeader;
+chartTitle.Show = true;
+
+//ExStep:4-
+ChartLegend chartLegend = chartObj.Legend;
+chartLegend.Position = displayLegend ? LegendPosition.Right : LegendPosition.None;
+chartLegend.Overlay = true;
+
+//ExStep:5-
+wordDoc.Save("CustomChart.docx");
+//ExEnd

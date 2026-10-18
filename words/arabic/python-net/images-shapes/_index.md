@@ -37,6 +37,8 @@
 ### [كيفية إضافة الظل في C# – دليل برمجة شامل](./how-to-add-shadow-in-c-complete-programming-guide/)
 تعلم كيفية إضافة تأثير الظل إلى عناصر C# باستخدام Aspose.Words خطوة بخطوة.
 
+### [إضافة مستطيل إلى PDF باستخدام Aspose.Words – دليل خطوة بخطوة](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
+تعلم كيفية إضافة مستطيل إلى ملفات PDF باستخدام Aspose.Words خطوة بخطوة.
 ### [إنشاء شكل مستطيل في بايثون – دليل كامل لإضافة الظلال وحفظه كملف PDF](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
 تعلم كيفية إنشاء شكل مستطيل، إضافة الظلال، وحفظ المستند كملف PDF باستخدام Aspose.Words لبايثون.
 

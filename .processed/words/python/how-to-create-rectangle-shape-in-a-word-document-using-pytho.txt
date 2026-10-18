@@ -1,0 +1,7 @@
+Title: How to create rectangle shape in a Word document using Python
+Slug: how-to-create-rectangle-shape-in-a-word-document-using-pytho
+Category: images-shapes
+ProcessedDate: 2026-10-01T02:42:56.377589
+SourceRepo: AI Search API
+Keywords: create rectangle shape, how to add shape, apply shadow to shape, set shadow blur, save word with shape
+PRNumber: 296

@@ -20,6 +20,15 @@ url: /net/working-with-comments/
 In these tutorials, you will learn various aspects of Words Processing with comments in Word documents using Aspose.Words for .NET. You will discover how to add comments to documents, anchor comment replies to specific text, add and remove comment replies, and resolve comments and their replies. Each tutorial provides a step-by-step guide with full source code, enabling you to enhance collaboration and feedback management within your Word documents using Aspose.Words for .NET.
 
  ## Tutorials
+
+{{< tutorial-card link="./style-comment-text/" title="Apply Custom Style to Comment Text in Word Documents Using Aspose.Words for .NET" imgSrc="./style-comment-text/images/thumb.png" >}}
+
+
+{{< tutorial-card link="./add-comment/" title="Insert a Comment on a Specific Paragraph in a Word Document Using Aspose.Words for .NET" imgSrc="./add-comment/images/thumb.png" >}}
+
+
+{{< tutorial-card link="./add-hyperlink-comment/" title="Add Hyperlink Comment and Export as PDF Annotation Using Aspose.Words for .NET" imgSrc="./add-hyperlink-comment/images/thumb.png" >}}
+
 | Title | Description |
 | --- | --- |
 | [Add Comments](./add-comments/) | Learn how to add comments to your Word documents using Aspose.Words for .NET with our guide. Enhance your document collaboration process effortlessly. |

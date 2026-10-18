@@ -37,6 +37,14 @@
 Μάθετε πώς να αποθηκεύσετε περιεχόμενο Word ως Markdown χρησιμοποιώντας Aspose.Words για Python. Ο πλήρης οδηγός.
 ### [Ανάκτηση Κατεστραμμένου DOCX & Μετατροπή Word σε Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Μάθετε πώς να επαναφέρετε κατεστραμμένα αρχεία DOCX και να τα μετατρέψετε σε Markdown με το Aspose.Words για Python.
+### [Πώς να εξάγετε LaTeX από το Word – Μετατροπή DOCX σε Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+Μάθετε πώς να εξάγετε LaTeX από έγγραφα Word και να τα μετατρέψετε σε Markdown με το Aspose.Words για Python.
+### [Δημιουργία PDF από Word – Πλήρης οδηγός Python με Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
+Μάθετε πώς να δημιουργείτε PDF από έγγραφα Word χρησιμοποιώντας Aspose.Words για Python. Πλήρης οδηγός.
+### [Δημιουργία Προσβάσιμου PDF από Word με Python – Οδηγός Βήμα‑βήμα](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
+Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF από έγγραφα Word χρησιμοποιώντας Aspose.Words για Python. Οδηγός βήμα‑βήμα.
+### [Αποθήκευση Word ως Markdown – Πλήρης Οδηγός με Εξαγωγή PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
+Μάθετε πώς να αποθηκεύσετε Word ως Markdown και να εξάγετε PDF/A‑UA με το Aspose.Words για Python.
 ### [Αποθήκευση docx ως markdown – Γρήγορος οδηγός Python για εξαγωγή εξισώσεων σε LaTeX](./save-docx-as-markdown-quick-python-guide-to-export-equations/)
 Μάθετε πώς να μετατρέψετε docx σε markdown και να εξάγετε εξισώσεις σε LaTeX με τον Aspose.Words για Python.
 ### [Αποθήκευση εγγράφου ως TXT – Εξαγωγή μαθηματικών Word σε LaTeX με Aspose.Words](./save-document-as-txt-export-word-math-to-latex-with-aspose-w/)

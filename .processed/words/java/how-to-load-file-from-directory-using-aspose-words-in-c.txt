@@ -1,0 +1,7 @@
+Title: How to load file from directory using Aspose.Words in C#
+Slug: how-to-load-file-from-directory-using-aspose-words-in-c
+Category: document-loading-and-saving
+ProcessedDate: 2026-09-12T03:49:43.289670
+SourceRepo: AI Search API
+Keywords: load file from directory, default load options, set document encoding, set load options
+PRNumber: 274

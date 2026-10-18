@@ -37,6 +37,16 @@ Pelajari konversi dokumen Python dengan Aspose.Words untuk Python. Konversi, man
 Pelajari cara mengekspor dokumen Word menjadi file Markdown dengan Aspose.Words untuk Python secara lengkap.
 ### [Pulihkan DOCX yang Rusak & Konversi Word ke Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Pelajari cara memulihkan file DOCX yang rusak dan mengonversinya menjadi format Markdown menggunakan Aspose.Words untuk Python.
+### [Cara Mengekspor LaTeX dari Word – Mengonversi DOCX ke Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+Pelajari cara mengekspor LaTeX dari dokumen Word dan mengonversi file DOCX ke format Markdown menggunakan Aspose.Words untuk Python.
+### [Buat PDF dari Word – Panduan Lengkap Python dengan Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
+Pelajari cara mengonversi dokumen Word menjadi PDF menggunakan Aspose.Words untuk Python secara lengkap.
+### [Buat PDF Aksesibel dari Word dengan Python – Panduan Langkah‑demi‑Langkah](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
+Pelajari cara membuat PDF yang dapat diakses dari dokumen Word menggunakan Aspose.Words untuk Python secara lengkap.
+### [Simpan Word sebagai Markdown – Panduan Lengkap dengan Ekspor PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
+Pelajari cara menyimpan dokumen Word sebagai file Markdown dan mengekspor ke PDF/A‑UA menggunakan Aspose.Words untuk Python.
+### [Buat PDF UA dari Word – Panduan Langkah‑per‑Langkah](./create-pdf-ua-from-word-step-by-step-guide/)
+Pelajari cara membuat PDF UA dari dokumen Word menggunakan Aspose.Words untuk Python secara lengkap.
 ### [Simpan DOCX sebagai Markdown – Panduan Cepat Python untuk Mengekspor Persamaan ke LaTeX](./save-docx-as-markdown-quick-python-guide-to-export-equations/)
 Pelajari cara mengekspor persamaan dalam file DOCX ke format LaTeX saat mengonversi ke Markdown menggunakan Aspose.Words untuk Python.
 ### [Simpan Dokumen sebagai TXT – Ekspor Matematika Word ke LaTeX dengan Aspose.Words](./save-document-as-txt-export-word-math-to-latex-with-aspose-w/)
