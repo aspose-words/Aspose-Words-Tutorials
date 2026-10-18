@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Aspose.Words for .NET का उपयोग करके, यह ट्यूटोरियल एक Document बनाता है, DocumentBuilder के माध्यम से एक कॉलम चार्ट सम्मिलित करता है, ChartSeriesCollection.RemoveAt के द्वारा चार्ट से एक विशिष्ट डेटा सीरीज़ हटाता है, और संशोधित दस्तावेज़ को सहेजता है।
+//ExStepSummary:0: एक नया Word Document बनाएं और उससे जुड़ा एक DocumentBuilder बनाएं।
+//ExStepSummary:1: 432×252 पॉइंट्स आकार का एक कॉलम चार्ट सम्मिलित करें और आगे की हेरफेर के लिए Chart ऑब्जेक्ट प्राप्त करें।
+//ExStepSummary:2: हटाई जाने वाली सीरीज़ का शून्य‑आधारित इंडेक्स निर्धारित करें (दूसरी सीरीज़)।
+//ExStepSummary:3: यदि इंडेक्स वैध है, तो चार्ट की Series कलेक्शन पर RemoveAt कॉल करके उस सीरीज़ को हटाएँ।
+//ExStepSummary:4: अपडेटेड दस्तावेज़ को .docx फ़ाइल में सहेजें।
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+int targetSeriesIdx = 1;
+
+//ExStep:3-
+if (targetSeriesIdx >= 0 && targetSeriesIdx < columnChart.Series.Count)
+{
+    columnChart.Series.RemoveAt(targetSeriesIdx);
+}
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutSeries.docx");
+//ExEnd

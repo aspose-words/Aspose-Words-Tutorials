@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Deze tutorial laat zien hoe je een Word‑document maakt, een column chart invoegt, deze vult met voorbeeldgegevens, de plot area border van de chart verbergt terwijl de aslijnen zichtbaar blijven, en tenslotte het document opslaat.
+//ExStepSummary:0: Maak een nieuw leeg Word‑document en een DocumentBuilder om het te bewerken.
+//ExStepSummary:1: Voeg een column chart van 432×252 toe aan het document en verkrijg het Chart‑object.
+//ExStepSummary:2: Verwijder eventuele bestaande series, definieer drie categorie‑labels en voeg een serie met voorbeeldwaarden toe aan de chart.
+//ExStepSummary:3: Stel het stroke‑gewicht van het plot‑gebied in op nul, waardoor de rand wordt verwijderd terwijl de aslijnen zichtbaar blijven.
+//ExStepSummary:4: Sla het gewijzigde document op als een .docx‑bestand.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+columnChart.Series.Clear();
+string[] labels = { "Group A", "Group B", "Group C" };
+columnChart.Series.Add("Demo Data", labels, new double[] { 10, 20, 30 });
+
+//ExStep:3-
+columnChart.Format.Stroke.Weight = 0;
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutPlotBorder.docx");
+//ExEnd

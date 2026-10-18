@@ -1,0 +1,7 @@
+Title: Create PDF from Word Document in Python – Step‑by‑Step Guide
+Slug: create-pdf-from-word-document-in-python-step-by-step-guide
+Category: document-conversion
+ProcessedDate: 2026-07-20T09:07:34.007861
+SourceRepo: AI Search API
+Keywords: create pdf from word document, convert docx to pdf python, how to convert word document to pdf, convert word to pdf without losing formatting, convert multiple docx files to pdf
+PRNumber: 230

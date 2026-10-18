@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: This tutorial shows how to insert page breaks into a Word document using Aspose.Words Document and DocumentBuilder.
+//ExStepSummary:0: Create a Document object and a DocumentBuilder that will be used to add content.
+//ExStepSummary:1: Write the first page text and insert a page break so the next content starts on a new page.
+//ExStepSummary:2: Write the second page text and insert another page break to start the third page.
+//ExStepSummary:3: Write the third page text, completing the three‑page document.
+//ExStepSummary:4: Save the assembled document to a .docx file in the specified directory.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("This is page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:2-
+builder.Writeln("This is page 2.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+builder.Writeln("This is page 3.");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

@@ -47,6 +47,7 @@ Bằng cách làm theo các hướng dẫn này, bạn sẽ có thể khai thác
 | [Nhận vị trí bảng nổi](./get-floating-table-position/) | Tìm hiểu cách lấy vị trí bảng nổi trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn chi tiết, từng bước này sẽ hướng dẫn bạn mọi thứ bạn cần biết. |
 | [Vị trí của bảng nổi](./floating-table-position/) | Tìm hiểu cách kiểm soát vị trí nổi của bảng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết của chúng tôi. |
 | [Đặt vị trí ngang hoặc dọc tương đối](./set-relative-horizontal-or-vertical-position/) Tìm hiểu cách thiết lập vị trí ngang và dọc tương đối cho các bảng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. |
+| [Ẩn hàng trong bảng bằng C# – Hướng dẫn đơn giản để xóa hàng bảng](./hide-row-in-table-with-c-simple-guide-to-removing-table-rows/) | Tìm hiểu cách ẩn hàng trong bảng Word bằng Aspose.Words cho .NET với C# qua hướng dẫn chi tiết từng bước. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

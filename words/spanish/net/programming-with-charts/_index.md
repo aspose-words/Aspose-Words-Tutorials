@@ -22,6 +22,34 @@ En estos tutoriales, aprenderá a crear diferentes tipos de gráficos, como grá
 Con estos tutoriales, podrá mejorar sus documentos de Word añadiendo gráficos visualmente atractivos e informativos. Aprenderá a aprovechar las funciones gráficas avanzadas de Aspose.Words para .NET y a integrarlas eficazmente en sus aplicaciones. Explore estos tutoriales para ampliar sus conocimientos de diseño gráfico en Aspose.Words.
 
  ## Tutoriales
+
+{{< tutorial-card link="./uniform-data-labels/" title="Establecer etiquetas de datos uniformes en un gráfico de columnas usando Aspose.Words for .NET" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="Redimensionar el gráfico proporcionalmente al cambiar el tamaño de página en Word usando Aspose.Words for .NET" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="Insertar gráfico de columnas personalizado en documento Word usando Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./hide-plot-border/" title="Ocultar el borde del área de trazado en un gráfico de columnas con Aspose.Words para .NET" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Eliminar una serie de gráfico de un Word Document usando Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-sample-column-chart/" title="Inserte un gráfico de columnas de muestra en un documento Word usando Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-named-series/" title="Agregar una Serie de Datos Nombrada a un Gráfico de Histograma en Word usando Aspose.Words para .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Validar series de gráficos y puntos de datos en un documento de Word usando Aspose.Words para .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Personalice las líneas de cuadrícula del eje X en un gráfico de columnas usando Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Formatear el eje X secundario y establecer unidades de visualización en miles en gráficos de líneas de Word usando Aspose.Words para .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Actualizar el título del gráfico y alternar la visibilidad de la leyenda en Word usando Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
+
+
+
+
+
+
 | Título | Descripción |
 | --- | --- |
 | [Formato del número de etiqueta de datos en un gráfico](./format-number-of-data-label/) Aprenda a dar formato a las etiquetas de datos en gráficos con Aspose.Words para .NET con esta guía paso a paso. Mejore sus documentos de Word sin esfuerzo.

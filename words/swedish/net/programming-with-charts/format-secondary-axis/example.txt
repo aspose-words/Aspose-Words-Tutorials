@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: Den här handledningen visar hur man skapar ett Word‑dokument med ett linjediagram, lägger till en sekundär X‑axel, sätter dess displayenhet till tusental och tillämpar ett anpassat numeriskt format på axelrubrikerna med Aspose.Words.
+//ExStepSummary:0: Skapa ett nytt Document och en DocumentBuilder för att börja bygga Word‑filen.
+//ExStepSummary:1: Infoga ett linjediagram med storleken 500×300 i dokumentet och hämta Chart‑objektet.
+//ExStepSummary:2: Ta bort den förinställda demoserien som Aspose.Words lägger till automatiskt.
+//ExStepSummary:3: Definiera en array med kategorirubriker som ska användas för X‑axeln.
+//ExStepSummary:4: Lägg till den primära dataserien med namnet "Main Data" med hjälp av rubrikerna och värdena.
+//ExStepSummary:5: Skapa en sekundär seriegroupp av typen Line och tilldela den till den sekundära axelgruppen.
+//ExStepSummary:6: Ställ in den sekundära X‑axelns displayenhet till tusental så att värdena visas i K.
+//ExStepSummary:7: Applicera det anpassade numeriska formatet "#,##0.0" på den sekundära X‑axelns tick‑etiketter.
+//ExStepSummary:8: Lägg eventuellt till en hjälpsats med data till den sekundära gruppen.
+//ExStepSummary:9: Spara dokumentet som en .docx‑fil.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+//ExStepImage:8:images/7.png
+//ExStep:0-
+        Document document = new Document();
+        DocumentBuilder docBuilder = new DocumentBuilder(document);
+
+//ExStep:1-
+        Shape chartContainer = docBuilder.InsertChart(ChartType.Line, 500, 300);
+        Chart lineChart = chartContainer.Chart;
+
+//ExStep:2-
+        lineChart.Series.Clear();
+
+//ExStep:3-
+        string[] labels = { "Group A", "Group B", "Group C" };
+
+//ExStep:4-
+        lineChart.Series.Add("Main Data", labels, new double[] { 10, 20, 30 });
+
+//ExStep:5-
+        ChartSeriesGroup secondaryGroup = lineChart.SeriesGroups.Add(ChartSeriesType.Line);
+        secondaryGroup.AxisGroup = AxisGroup.Secondary;
+
+//ExStep:6-
+        secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Thousands;
+
+//ExStep:7-
+        secondaryGroup.AxisX.NumberFormat.FormatCode = "#,##0.0";
+
+//ExStep:8-
+        secondaryGroup.Series.Add("Auxiliary Data", labels, new double[] { 15, 25, 35 });
+
+//ExStep:9-
+        document.Save("ChartWithSecondaryAxis.docx");
+//ExEnd

@@ -22,6 +22,34 @@
 باستخدام هذه الدروس التعليمية، ستتمكن من تحسين مستندات Word الخاصة بك بإضافة رسومات جذابة وغنية بالمعلومات. ستتعلم كيفية الاستفادة من ميزات الرسومات المتقدمة في Aspose.Words لـ .NET ودمجها بفعالية في تطبيقاتك. استكشف هذه الدروس التعليمية لتنمية مهاراتك في الرسومات في Aspose.Words.
 
  ## دروس تعليمية
+
+{{< tutorial-card link="./uniform-data-labels/" title="تعيين تسميات بيانات موحدة في مخطط عمودي باستخدام Aspose.Words for .NET" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="إعادة تحجيم المخطط بشكل متناسب عند تغيير حجم الصفحة في Word باستخدام Aspose.Words for .NET" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="إدراج مخطط عمودي مخصص في مستند Word باستخدام Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./hide-plot-border/" title="إخفاء حد مساحة الرسم في مخطط عمودي باستخدام Aspose.Words for .NET" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="إزالة سلسلة مخطط من مستند Word باستخدام Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-sample-column-chart/" title="إدراج مخطط عمودي نموذجي في مستند Word باستخدام Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-named-series/" title="إضافة سلسلة بيانات مسماة إلى مخطط هيستوجرام في Word باستخدام Aspose.Words for .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="تحقق من سلاسل المخطط ونقاط البيانات في مستند Word باستخدام Aspose.Words for .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="تخصيص خطوط شبكة المحور X في مخطط عمودي باستخدام Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="تنسيق محور X الثانوي وتعيين وحدة العرض إلى الآلاف في مخططات Word الخطية باستخدام Aspose.Words for .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="تحديث عنوان المخطط وتبديل إظهار وسيلة الإيضاح في Word باستخدام Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
+
+
+
+
+
+
 | العنوان | الوصف |
 | --- | --- |
 | [تنسيق رقم تسمية البيانات في الرسم البياني](./format-number-of-data-label/) | تعلّم كيفية تنسيق تسميات البيانات في المخططات باستخدام Aspose.Words for .NET من خلال هذا الدليل المفصل. حسّن مستندات Word الخاصة بك بسهولة. |

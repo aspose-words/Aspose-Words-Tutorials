@@ -1,0 +1,7 @@
+Title: How to convert docx to pdf with accessibility in Python
+Slug: how-to-convert-docx-to-pdf-with-accessibility-in-python
+Category: document-conversion
+ProcessedDate: 2026-09-27T23:03:57.282938
+SourceRepo: AI Search API
+Keywords: convert docx to pdf, create accessible pdf from word, convert word to accessible pdf
+PRNumber: 291
