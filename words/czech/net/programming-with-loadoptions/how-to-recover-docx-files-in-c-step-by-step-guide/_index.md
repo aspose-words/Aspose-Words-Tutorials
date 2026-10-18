@@ -1,48 +1,22 @@
 ---
 category: general
-date: 2026-05-26
-description: Naučte se, jak obnovit soubory DOCX v C# pomocí možností načítání Aspose.Words.
-  Nastavte režim obnovy a snadno načtěte obnovený dokument.
+date: 2026-02-26
+description: Naučte se, jak obnovit soubory DOCX pomocí Aspose.Words. Nastavte režim
+  obnovy, načtěte dokument s obnovou a rychle opravte poškozený DOCX.
 draft: false
 keywords:
 - how to recover docx
 - set recovery mode
-- recover corrupted word
-- load document recovery
+- load document with recovery
 - recover corrupted docx
 language: cs
-og_description: Jak rychle obnovit soubory DOCX pomocí Aspose.Words. Naučte se nastavit
-  režim obnovy, načíst obnovu dokumentu a pracovat s poškozenými soubory Word.
+og_description: Jak obnovit soubory docx pomocí Aspose.Words. Nastavte režim obnovy,
+  načtěte dokument s obnovou a snadno obnovte poškozený docx.
 og_title: Jak obnovit soubory DOCX v C# – Kompletní průvodce
-schemas:
-- author: Aspose
-  dateModified: '2026-05-26'
-  description: Learn how to recover docx files in C# using Aspose.Words load options.
-    Set recovery mode and load document recovery with ease.
-  headline: How to Recover DOCX Files in C# – Step‑by‑Step Guide
-  type: TechArticle
-- description: Learn how to recover docx files in C# using Aspose.Words load options.
-    Set recovery mode and load document recovery with ease.
-  name: How to Recover DOCX Files in C# – Step‑by‑Step Guide
-  steps:
-  - name: '**Install Aspose.Words** (`Install-Package Aspose.Words`)'
-    text: '**Install Aspose.Words** (`Install-Package Aspose.Words`)'
-  - name: '**Create `LoadOptions`** and **set recovery mode** to `Recover`.'
-    text: '**Create `LoadOptions`** and **set recovery mode** to `Recover`.'
-  - name: '**Load the DOCX** with the options object.'
-    text: '**Load the DOCX** with the options object.'
-  - name: '**Inspect `WarningInfoCollection`** for hidden issues.'
-    text: '**Inspect `WarningInfoCollection`** for hidden issues.'
-  - name: '**Save** the recovered file to a known location.'
-    text: '**Save** the recovered file to a known location.'
-  - name: '**Log** the chosen recovery mode for future audits.'
-    text: '**Log** the chosen recovery mode for future audits.'
-  type: HowTo
 tags:
-- C#
 - Aspose.Words
+- C#
 - Document Recovery
-- DOCX
 title: Jak obnovit soubory DOCX v C# – krok za krokem průvodce
 url: /cs/net/programming-with-loadoptions/how-to-recover-docx-files-in-c-step-by-step-guide/
 ---
@@ -53,155 +27,202 @@ url: /cs/net/programming-with-loadoptions/how-to-recover-docx-files-in-c-step-by
 
 # Jak obnovit soubory DOCX v C# – Kompletní programovací tutoriál
 
-Už jste se někdy zamysleli **jak obnovit docx** soubory, které se po výpadku proudu nebo po poškozeném stažení neotevírají? Nejste v tom sami – poškozené dokumenty Word se objevují častěji, než byste chtěli, zejména v automatizovaných pipelinech, které denně zpracovávají desítky souborů. Dobrá zpráva? S Aspose.Words můžete **nastavit režim obnovy**, říct knihovně, aby udělala maximum, a udržet tak svůj workflow v chodu.
+Už jste se někdy zamysleli **jak obnovit docx**, když uživatel nahlásí poškozený soubor? Nejste jediní. V mnoha podnikových aplikacích se může poškozený DOCX objevit z ničeho nic – možná byl přenos přerušen, nebo disk zaznamenal výpadek. Dobrá zpráva? Aspose.Words vám poskytuje vestavěný způsob, jak se pokusit o opravu, aniž byste museli psát vlastní parser.
 
-V tomto tutoriálu si projdeme reálný příklad, který ukazuje, jak přesně nakonfigurovat možnosti načítání, obnovit poškozený DOCX a ověřit, že obnova byla úspěšná. Na konci budete schopni vložit poškozený soubor do své C# aplikace a získat zpět použivatelný objekt `Document` – bez ručního kopírování a vkládání.
+V tomto průvodci projdeme přesně kroky k **set recovery mode**, **load document with recovery** a nakonec **recover corrupted docx**, aby vaše následná logika mohla pokračovat. Žádné zbytečnosti, jen kód, který můžete dnes vložit do .NET projektu.
 
-## Co si z toho odnesete
-
-- Jasné pochopení **obnovy načtení dokumentu** pomocí Aspose.Words.  
-- Krok‑za‑krokem kód, který můžete zkopírovat do libovolného .NET projektu.  
-- Tipy, jak zacházet s okrajovými případy, jako jsou chybějící soubory nebo neobnovitelný obsah.  
-- Rychlý kontrolní seznam, který ověří, že operace **recover corrupted docx** skutečně fungovala.
-
-> **Předpoklady** – Potřebujete .NET 6+ (nebo .NET Framework 4.6+), NuGet balíček Aspose.Words for .NET a základní vývojové prostředí C# (Visual Studio, Rider nebo VS Code). Žádná speciální oprávnění ani externí nástroje nejsou vyžadovány.
+> **Pro tip:** I když soubor není ve skutečnosti poškozený, použití režimu obnovy přidává bezpečnostní síť, která téměř nic nestojí na výkonu.
 
 ---
 
-## Jak obnovit soubory DOCX – Konfigurace možností načítání
+## Co budete potřebovat
 
-Prvním krokem je říct Aspose.Words, jak agresivně má postupovat, když narazí na problém. Zde vstupuje do hry **set recovery mode**. Třída `LoadOptions` nabízí výčet `RecoveryMode` se třemi možnostmi:
+| Požadavek | Důvod |
+|------------|--------|
+| **Aspose.Words for .NET** (latest version) | Poskytuje `LoadOptions.RecoveryMode` |
+| **.NET 6+** (or .NET Framework 4.6+) | Požadované runtime pro knihovnu |
+| A **sample corrupted DOCX** (or any DOCX you want to test) | Pro zobrazení obnovy v praxi |
+| An IDE (Visual Studio, Rider, VS Code) | Pro rychlé ladění |
 
-| Režim                     | Co dělá                                                                      |
-|---------------------------|------------------------------------------------------------------------------|
-| `Strict`                  | Vyvolá výjimku při jakékoli chybě – užitečné pro validační pipeline.        |
-| `Recover`                 | Pokusí se opravit problémy a vrátí dokument, přičemž vypíše varování.       |
-| `RecoverWithoutWarnings` | Stejné jako `Recover`, ale potlačí varovné zprávy (čistší výstup).           |
+To je vše – žádné extra NuGet balíčky, žádné manipulace s XML, jen Aspose.Words.
 
-Pro většinu scénářů **recover corrupted docx** zvolíte **Recover**, protože chcete maximalizovat šanci na zachování obsahu a zároveň být informováni o tom, co bylo opraveno.
+![jak obnovit docx](/images/how-to-recover-docx.png "Ilustrace obnovy souboru DOCX")
+
+---
+
+## Jak obnovit DOCX – Hlavní kroky
+
+Níže je vysokou úrovní tok, který implementujeme:
+
+1. **Vytvořte objekt `LoadOptions`** a řekněte Aspose, aby *obnovil* soubor.  
+2. **Načtěte potenciálně poškozený dokument** s těmito možnostmi.  
+3. **Volitelně zkontrolujte všechna varování** která Aspose vygeneroval během načítání.  
+
+---
+
+## Nastavení režimu obnovy
+
+První věc, kterou musíte udělat, je říct knihovně, co má dělat, když narazí na problém. Zde přichází na řadu klíčové slovo **set recovery mode**.
 
 ```csharp
-// Step 1: Configure load options to recover a corrupted document
-LoadOptions loadOptions = new LoadOptions
+using Aspose.Words;
+using Aspose.Words.LoadOptions;
+
+// Step 1: Create LoadOptions and enable recovery
+var loadOptions = new LoadOptions
 {
-    // RecoveryMode can be Strict, Recover, or RecoverWithoutWarnings
-    RecoveryMode = RecoveryMode.Recover
+    // RecoveryMode.Recover attempts to fix structural issues
+    RecoveryMode = LoadOptions.RecoveryModeMode.Recover
 };
 ```
 
-> **Proč je to důležité** – Explicitním nastavením režimu obnovy se vyhnete výchozímu chování `Strict`, které by jen vyhodilo `CorruptedFileException` a zastavilo váš program. Tento řádek je základem každého robustního řešení **recover corrupted word**.
+**Proč je to důležité:**  
+`RecoveryMode.Recover` způsobí, že načítač prohledá balíček DOCX na chybějící části, poškozené vztahy nebo špatně formátované XML. Místo vyhození výjimky se pokusí znovu vytvořit použitelné stromové struktury dokumentu. Pokud tento krok přeskočíte, poškozený soubor jednoduše zhavaruje vaši aplikaci s `FileCorruptedException`.
 
-## Nastavení režimu obnovy při načítání dokumentu
+---
 
-Jakmile máte instanci `LoadOptions`, musíte ji předat při vytváření objektu `Document`. Tím říkáte Aspose.Words, aby použil strategii obnovy už od samého začátku.
+## Načítání dokumentu s obnovou
 
-```csharp
-// Step 2: Load the possibly corrupted DOCX using the configured options
-Document document = new Document("YOUR_DIRECTORY/maybeCorrupt.docx", loadOptions);
-```
-
-> **Pro tip** – Udržujte cestu k souboru konfigurovatelnou (např. přes appsettings.json), abyste mohli stejný kód použít v konzolové aplikaci, webovém API nebo background službě bez nutnosti rekompilace.
-
-Pokud je soubor skutečně poškozený, Aspose.Words se pokusí rekonstruovat interní struktury Open XML, odstranit poškozené části a přesto vám vrátí objekt `Document`, se kterým můžete dále pracovat.
-
-## Ověření režimu obnovy a inspekce dokumentu
-
-Po načtení je užitečné potvrdit, který režim byl ve skutečnosti použit. To je zvláště důležité, pokud později přepínáte mezi `Strict` a `Recover` pro testování.
+Nyní, když jsou možnosti připravené, skutečně **load document with recovery**. Konstruktor `Document` přijímá cestu k souboru a instanci `LoadOptions`.
 
 ```csharp
-// Step 3: Confirm the recovery mode used during loading
-Console.WriteLine($"Document loaded with recovery mode: {loadOptions.RecoveryMode}");
+// Step 2: Load the DOCX using the recovery options
+string filePath = @"C:\Docs\Corrupted.docx";
+Document doc = new Document(filePath, loadOptions);
 ```
 
-Typický výstup do konzole:
+**Co se děje pod kapotou?**  
+Aspose parsuje ZIP kontejner, znovu vytvoří chybějící části a naplní objekt `Document`. Pokud se nepodaří plně opravit soubor, stále získáte částečně použitelný dokument plus kolekci varování, která můžete zkontrolovat.
 
-```
-Document loaded with recovery mode: Recover
-```
+---
 
-Můžete také projít kolekci varování (pokud existuje), abyste viděli, co bylo opraveno:
+## Kontrola varování (volitelné, ale doporučené)
+
+Po načtení můžete chtít **recover corrupted docx**, zatímco také pochopíte, co se pokazilo. Každé varování je uloženo v `doc.Warnings`.
 
 ```csharp
-foreach (WarningInfo warning in document.WarningInfoCollection)
+// Step 3: Enumerate any warnings generated during recovery
+foreach (var warning in doc.Warnings)
 {
     Console.WriteLine($"Warning: {warning.Description}");
 }
 ```
 
-Pokud je kolekce prázdná, dokument byl buď čistý, nebo byly problémy tak malé, že Aspose.Words nepotřeboval zvýraznit žádnou chybu.
-
-## Zpracování varování a uložení obnoveného dokumentu
-
-Někdy budete chtít uchovat kopii obnoveného souboru pro auditní účely. Uložení dokumentu po obnově je jednoduché:
-
-```csharp
-// Step 4: Save the recovered document to a new location
-string outputPath = "YOUR_DIRECTORY/recovered.docx";
-document.Save(outputPath);
-Console.WriteLine($"Recovered document saved to: {outputPath}");
-```
-
-Nyní máte **recover corrupted docx** soubor, který lze otevřít v Microsoft Word, Google Docs nebo v jakémkoli jiném programu podporujícím formát DOCX.
-
-## Okrajové případy a časté úskalí
-
-| Situace                                   | Co udělat                                                                      |
-|-------------------------------------------|--------------------------------------------------------------------------------|
-| Soubor nenalezen                          | Zachyťte `FileNotFoundException` a zalogujte srozumitelnou zprávu.            |
-| Soubor je starší `.doc` (binární)         | Použijte `LoadOptions` s `LoadFormat.Doc` a stále nastavte `RecoveryMode`.   |
-| Obnova selže úplně (null dokument)        | Přesměrujte uživatele na přátelskou chybovou stránku nebo zkuste `RecoverWithoutWarnings`. |
-| Velké dokumenty (>100 MB)                  | Zvyšte limity paměti v `LoadOptions.LoadFormat`, pokud je to potřeba (viz dokumentace). |
-
-```csharp
-try
-{
-    Document doc = new Document("maybeCorrupt.docx", loadOptions);
-    // proceed with normal flow
-}
-catch (Exception ex)
-{
-    Console.Error.WriteLine($"Failed to recover document: {ex.Message}");
-}
-```
-
-> **Proč to pomáhá** – Předvídáním těchto scénářů se vyhnete nepříjemnému „aplikace spadla“ a zajistíte, aby proces **load document recovery** probíhal plynule.
-
-## Rychlý kontrolní seznam pro úspěšnou obnovu
-
-1. **Nainstalujte Aspose.Words** (`Install-Package Aspose.Words`)  
-2. **Vytvořte `LoadOptions`** a **nastavte režim obnovy** na `Recover`.  
-3. **Načtěte DOCX** s objektem možností.  
-4. **Prohlédněte `WarningInfoCollection`** pro skryté problémy.  
-5. **Uložte** obnovený soubor na známé místo.  
-6. **Zaznamenejte** zvolený režim obnovy pro budoucí audity.
-
-Dodržení tohoto seznamu zajistí, že budete **recover corrupted docx** soubory konzistentně a bez zbytečných komplikací.
+Typická varování zahrnují „Missing image part“ nebo „Invalid bookmark reference“. Nezastavují použitelnost dokumentu, ale poskytují vám vodítka pro logování nebo zpětnou vazbu uživateli.
 
 ---
 
-![Diagram showing how to recover docx flow diagram](recover-docx-flow.png){: .align-center alt="Diagram znázorňující tok obnovy docx"}
+## Kompletní funkční příklad
 
-*Ilustrace výše mapuje rozhodovací tok od načtení potenciálně poškozeného souboru až po uložení čisté verze.*
+Poskládáním všeho dohromady zde máte kompletní, připravený program. Klidně jej zkopírujte do konzolové aplikace a nasměrujte `filePath` na jakýkoli DOCX, o kterém se domníváte, že je poškozený.
+
+```csharp
+using System;
+using Aspose.Words;
+using Aspose.Words.LoadOptions;
+
+namespace DocxRecoveryDemo
+{
+    class Program
+    {
+        static void Main()
+        {
+            // 1️⃣ Create LoadOptions with recovery enabled
+            var loadOptions = new LoadOptions
+            {
+                RecoveryMode = LoadOptions.RecoveryModeMode.Recover
+            };
+
+            // 2️⃣ Path to the potentially corrupted DOCX
+            string filePath = @"YOUR_DIRECTORY/Corrupted.docx";
+
+            try
+            {
+                // 3️⃣ Load the document using the recovery options
+                Document doc = new Document(filePath, loadOptions);
+                Console.WriteLine("✅ Document loaded successfully.");
+
+                // 4️⃣ (Optional) Show any warnings that occurred
+                if (doc.Warnings.Count > 0)
+                {
+                    Console.WriteLine("⚠️ Warnings generated during recovery:");
+                    foreach (var warning in doc.Warnings)
+                    {
+                        Console.WriteLine($"- {warning.Description}");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("No warnings – the file looks healthy after recovery.");
+                }
+
+                // 5️⃣ Save the repaired file (you can overwrite or use a new name)
+                string repairedPath = @"YOUR_DIRECTORY/Recovered.docx";
+                doc.Save(repairedPath);
+                Console.WriteLine($"📄 Recovered file saved to: {repairedPath}");
+            }
+            catch (Exception ex)
+            {
+                // If recovery completely fails, we end up here
+                Console.WriteLine($"❌ Unable to recover the document: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
+**Očekávaný výstup**
+
+```
+✅ Document loaded successfully.
+⚠️ Warnings generated during recovery:
+- Missing image part: image1.png
+- Invalid bookmark reference: Bookmark_5
+📄 Recovered file saved to: YOUR_DIRECTORY/Recovered.docx
+```
+
+Pokud je soubor mimo opravu, blok catch vytiskne chybovou zprávu místo toho, aby zhavaroval celou aplikaci.
+
+---
+
+## Hraniční případy a časté otázky
+
+### Co když soubor není vůbec ZIP balíček?
+
+Aspose.Words očekává platný OpenXML kontejner. Pokud je soubor něco jiného (např. starý binární .doc), načítač vyhodí `FileCorruptedException` *předtím*, než se vůbec dostane k logice obnovy. V takovém případě musíte soubor nejprve převést nebo použít jinou API.
+
+### Ovlivňuje `RecoveryMode.Recover` výkon?
+
+Dodatečné skenování přidává přibližně 5‑10 % režii u velkých dokumentů, což je pro většinu webových služeb zanedbatelné. Pokud zpracováváte tisíce souborů za sekundu, proveďte benchmark a zvažte zapínání režimu jen pro soubory, které selžou při prvním načtení.
+
+### Můžu obnovit DOCX chráněný heslem?
+
+Ne. Obnova probíhá **po** úspěšném otevření souboru. Pokud je dokument šifrovaný, musíte nejprve zadat heslo; jinak Aspose odmítne soubor otevřít a obnova se nespustí.
+
+### Jak zjistím, zda je obnovený dokument použitelný?
+
+Nejbezpečnější způsob je provést rychlou validaci – např. pokusit se uložit jako PDF nebo projít jeho sekce. Pokud tyto operace uspějí, můžete mít jistotu, že hlavní obsah přežil.
+
+---
+
+## Kdy použít obnovu vs. fallback strategie
+
+| Situace | Doporučená akce |
+|-----------|--------------------|
+| **Menší XML chyby** (chybějící vztahy, osamocené tagy) | **Set recovery mode** a pokračujte |
+| **Úplná poškození zipu** (nelze rozbalit) | Požádejte uživatele o opětovné nahrání; obnova nepomůže |
+| **Soubory chráněné heslem** | Nejprve požádejte o heslo, poté **load document with recovery** |
+| **Hromadný import** kde rychlost je důležitější než dokonalost | Zkuste normální načtení; při selhání opakujte s **recovery mode** |
+
+---
 
 ## Závěr
 
-Probrali jsme **jak obnovit docx** soubory v C# od začátku až do konce: konfigurace `LoadOptions`, **nastavení režimu obnovy**, načtení dokumentu, ověření režimu, zpracování varování a nakonec uložení opraveného souboru. Tento end‑to‑end přístup vám umožní proměnit rozbitý Word soubor v použitelné aktivum pomocí několika řádků kódu.
+Právě jsme prošli **jak obnovit docx** soubory v C# pomocí Aspose.Words, od **set recovery mode** po **load document with recovery** a nakonec **recover corrupted docx** při kontrole varování. Kompletní příklad ukazuje produkčně připravený vzor, který můžete vložit do libovolné .NET služby.
 
-Pokud chcete jít dál, zvažte:
+Další kroky? Zkuste změnit výstupní formát – uložte obnovený dokument jako PDF, HTML nebo dokonce prostý text, abyste ověřili, že obsah přežil. Můžete také prozkoumat příznaky `LoadOptions` pro **LoadOptions.LoadFormat**, pokud potřebujete pracovat se staršími soubory `.doc`.
 
-- **Obnovu obrázků**, které byly během poškození odstraněny (použijte `LoadOptions.PreserveMetaData`).  
-- **Dávkové zpracování** více souborů pomocí paralelních `Task` ů pro vyšší rychlost.  
-- **Integraci s Azure Functions** pro automatické opravy nahrávek v cloudu.
-
-Nebojte se experimentovat – třeba vyměnit `RecoverWithoutWarnings` za čistší výstup v konzoli, nebo logovat každé varování do monitorovací služby. Čím více si s možnostmi pohráváte, tím lépe pochopíte kompromisy mezi přísnou validací a agresivní obnovou.
-
-Máte otázky ohledně neústupného souboru, který stále nejde otevřít? Zanechte komentář níže a společně to vyřešíme. Šťastné programování a ať vaše Word dokumenty zůstávají navždy nepoškozené!
-
-## Související tutoriály
-
-- [Recover Corrupted Document in C# – Set Recovery Mode & Prompt User](/words/english/net/programming-with-loadoptions/recover-corrupted-document-in-c-set-recovery-mode-prompt-use/)
-- [how to recover docx – C# guide for corrupted Word files](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
-- [Recover Damaged Word File – Complete Guide to Open Corrupted DOCX & Get Page](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
+Neváhejte experimentovat, logovat varování pro analytiku a sdílet své poznatky v komentářích. Šťastné programování a ať jsou vaše soubory DOCX zdravé!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,49 +1,23 @@
 ---
 category: general
-date: 2026-05-26
-description: Tìm hiểu cách khôi phục tệp docx trong C# bằng các tùy chọn tải của Aspose.Words.
-  Đặt chế độ khôi phục và tải tài liệu một cách dễ dàng.
+date: 2026-02-26
+description: Tìm hiểu cách khôi phục tệp docx bằng Aspose.Words. Đặt chế độ khôi phục,
+  tải tài liệu với chế độ khôi phục và nhanh chóng sửa chữa tệp docx bị hỏng.
 draft: false
 keywords:
 - how to recover docx
 - set recovery mode
-- recover corrupted word
-- load document recovery
+- load document with recovery
 - recover corrupted docx
 language: vi
-og_description: Cách khôi phục nhanh các tệp docx với Aspose.Words. Tìm hiểu cách
-  thiết lập chế độ khôi phục, tải tài liệu khôi phục và xử lý các tệp Word bị hỏng.
-og_title: Cách Khôi Phục Tệp DOCX trong C# – Hướng Dẫn Toàn Diện
-schemas:
-- author: Aspose
-  dateModified: '2026-05-26'
-  description: Learn how to recover docx files in C# using Aspose.Words load options.
-    Set recovery mode and load document recovery with ease.
-  headline: How to Recover DOCX Files in C# – Step‑by‑Step Guide
-  type: TechArticle
-- description: Learn how to recover docx files in C# using Aspose.Words load options.
-    Set recovery mode and load document recovery with ease.
-  name: How to Recover DOCX Files in C# – Step‑by‑Step Guide
-  steps:
-  - name: '**Install Aspose.Words** (`Install-Package Aspose.Words`)'
-    text: '**Install Aspose.Words** (`Install-Package Aspose.Words`)'
-  - name: '**Create `LoadOptions`** and **set recovery mode** to `Recover`.'
-    text: '**Create `LoadOptions`** and **set recovery mode** to `Recover`.'
-  - name: '**Load the DOCX** with the options object.'
-    text: '**Load the DOCX** with the options object.'
-  - name: '**Inspect `WarningInfoCollection`** for hidden issues.'
-    text: '**Inspect `WarningInfoCollection`** for hidden issues.'
-  - name: '**Save** the recovered file to a known location.'
-    text: '**Save** the recovered file to a known location.'
-  - name: '**Log** the chosen recovery mode for future audits.'
-    text: '**Log** the chosen recovery mode for future audits.'
-  type: HowTo
+og_description: Cách khôi phục tệp docx bằng Aspose.Words. Đặt chế độ khôi phục, tải
+  tài liệu với chế độ khôi phục và khôi phục tệp docx bị hỏng một cách dễ dàng.
+og_title: Cách khôi phục tệp DOCX trong C# – Hướng dẫn đầy đủ
 tags:
-- C#
 - Aspose.Words
+- C#
 - Document Recovery
-- DOCX
-title: Cách khôi phục tệp DOCX trong C# – Hướng dẫn từng bước
+title: Cách Khôi Phục Tệp DOCX trong C# – Hướng Dẫn Từng Bước
 url: /vi/net/programming-with-loadoptions/how-to-recover-docx-files-in-c-step-by-step-guide/
 ---
 
@@ -53,155 +27,210 @@ url: /vi/net/programming-with-loadoptions/how-to-recover-docx-files-in-c-step-by
 
 # Cách Khôi Phục Tệp DOCX trong C# – Hướng Dẫn Lập Trình Toàn Diện
 
-Bạn đã bao giờ tự hỏi **cách khôi phục docx** mà không mở được sau một sự cố mất điện hoặc tải xuống bị hỏng? Bạn không phải là người duy nhất—các tài liệu Word bị hỏng xuất hiện thường xuyên hơn bạn mong muốn, đặc biệt trong các pipeline tự động xử lý hàng chục tệp mỗi ngày. Tin tốt là gì? Với Aspose.Words, bạn có thể **set recovery mode**, chỉ cho thư viện làm hết sức mình, và giữ cho quy trình làm việc của bạn tiếp tục.
+Bạn đã bao giờ tự hỏi **cách khôi phục docx** khi người dùng báo cáo tệp bị hỏng chưa? Bạn không phải là người duy nhất. Trong nhiều ứng dụng doanh nghiệp, một DOCX bị hỏng có thể xuất hiện bất ngờ—có thể quá trình tải lên bị gián đoạn, hoặc ổ đĩa gặp trục trặc. Tin tốt là gì? Aspose.Words cung cấp cho bạn một cách tích hợp để cố gắng sửa chữa mà không cần viết trình phân tích tùy chỉnh.
 
-Trong tutorial này, chúng ta sẽ đi qua một ví dụ thực tế cho thấy cách cấu hình load options, khôi phục một DOCX bị hỏng, và xác minh việc khôi phục đã thành công. Khi kết thúc, bạn sẽ có thể đưa một tệp hỏng vào ứng dụng C# của mình và nhận lại một đối tượng `Document` có thể sử dụng—không cần sao chép‑dán thủ công.
+Trong hướng dẫn này, chúng ta sẽ đi qua các bước **cài đặt chế độ khôi phục**, **tải tài liệu với chế độ khôi phục**, và cuối cùng **khôi phục docx bị hỏng** để logic downstream của bạn vẫn có thể tiếp tục chạy. Không có lời hoa mỹ, chỉ có mã bạn có thể đưa vào dự án .NET ngay hôm nay.
 
-## Những Điều Bạn Sẽ Nhận Được
-
-- Hiểu rõ về **load document recovery** bằng Aspose.Words.  
-- Mã từng bước mà bạn có thể copy‑paste vào bất kỳ dự án .NET nào.  
-- Mẹo xử lý các trường hợp biên như tệp thiếu hoặc nội dung không thể khôi phục.  
-- Danh sách kiểm tra nhanh để xác minh rằng thao tác **recover corrupted docx** thực sự đã hoạt động.
-
-> **Prerequisites** – Bạn cần .NET 6+ (hoặc .NET Framework 4.6+), gói NuGet Aspose.Words for .NET, và một môi trường phát triển C# cơ bản (Visual Studio, Rider, hoặc VS Code). Không cần quyền đặc biệt hay công cụ bên ngoài.
+> **Mẹo:** Ngay cả khi tệp không thực sự bị hỏng, việc sử dụng chế độ khôi phục sẽ tạo một lớp bảo vệ mà hầu như không ảnh hưởng đến hiệu năng.
 
 ---
 
-## Cách Khôi Phục Tệp DOCX – Cấu Hình Load Options
+## Bạn Cần Gì
 
-Điều đầu tiên bạn cần làm là cho Aspose.Words biết mức độ “aggressive” khi gặp vấn đề. Đây là nơi **set recovery mode** vào cuộc. Lớp `LoadOptions` cung cấp một enum `RecoveryMode` với ba lựa chọn:
+Trước khi bắt đầu, hãy chắc chắn bạn có:
 
-| Chế độ                     | Chức năng                                                               |
-|----------------------------|-------------------------------------------------------------------------|
-| `Strict`                   | Ném ngoại lệ khi có bất kỳ lỗi nào—hữu ích cho các pipeline kiểm tra.   |
-| `Recover`                  | Cố gắng sửa các vấn đề và trả về tài liệu, kèm cảnh báo.                |
-| `RecoverWithoutWarnings`   | Giống `Recover` nhưng ẩn các thông báo cảnh báo (đầu ra sạch hơn).      |
+| Yêu cầu | Lý do |
+|------------|--------|
+| **Aspose.Words for .NET** (phiên bản mới nhất) | Cung cấp `LoadOptions.RecoveryMode` |
+| **.NET 6+** (hoặc .NET Framework 4.6+) | Yêu cầu runtime cho thư viện |
+| Một **tệp DOCX bị hỏng mẫu** (hoặc bất kỳ DOCX nào bạn muốn thử) | Để xem quá trình khôi phục hoạt động |
+| Một IDE (Visual Studio, Rider, VS Code) | Để gỡ lỗi nhanh chóng |
 
-Đối với hầu hết các kịch bản “recover corrupted docx”, bạn sẽ chọn **Recover** vì muốn có cơ hội tốt nhất để cứu lại nội dung đồng thời vẫn biết được những gì đã được sửa.
+Xong rồi—không cần gói NuGet bổ sung, không cần chỉnh sửa XML, chỉ cần Aspose.Words.
+
+---
+
+![cách khôi phục docx](/images/how-to-recover-docx.png "Minh hoạ quá trình khôi phục tệp DOCX")
+
+---
+
+## Cách Khôi Phục DOCX – Các Bước Cốt Lõi
+
+Dưới đây là luồng cấp cao mà chúng ta sẽ thực hiện:
+
+1. **Tạo một đối tượng `LoadOptions`** và yêu cầu Aspose *khôi phục* tệp.  
+2. **Tải tài liệu có khả năng bị hỏng** bằng các tùy chọn đó.  
+3. **Tùy chọn kiểm tra các cảnh báo** mà Aspose tạo ra trong quá trình tải.  
+
+Mỗi bước sẽ được giải thích chi tiết, kèm theo các đoạn mã bạn có thể sao chép‑dán.
+
+---
+
+## Cài Đặt Chế Độ Khôi Phục
+
+Điều đầu tiên bạn phải làm là thông báo cho thư viện biết bạn muốn nó làm gì khi gặp vấn đề. Đây là nơi từ khóa **set recovery mode** (cài đặt chế độ khôi phục) được sử dụng.
 
 ```csharp
-// Step 1: Configure load options to recover a corrupted document
-LoadOptions loadOptions = new LoadOptions
+using Aspose.Words;
+using Aspose.Words.LoadOptions;
+
+// Step 1: Create LoadOptions and enable recovery
+var loadOptions = new LoadOptions
 {
-    // RecoveryMode can be Strict, Recover, or RecoverWithoutWarnings
-    RecoveryMode = RecoveryMode.Recover
+    // RecoveryMode.Recover attempts to fix structural issues
+    RecoveryMode = LoadOptions.RecoveryModeMode.Recover
 };
 ```
 
-> **Why this matters** – Bằng cách đặt chế độ khôi phục một cách rõ ràng, bạn tránh hành vi mặc định `Strict`, vốn sẽ chỉ ném `CorruptedFileException` và dừng chương trình. Dòng này là nền tảng của bất kỳ giải pháp **recover corrupted word** mạnh mẽ nào.
+**Tại sao điều này quan trọng:**  
+`RecoveryMode.Recover` khiến bộ tải quét gói DOCX để tìm các phần thiếu, mối quan hệ bị hỏng hoặc XML không hợp lệ. Thay vì ném ra ngoại lệ, nó cố gắng xây dựng lại cây tài liệu có thể sử dụng được. Nếu bỏ qua bước này, tệp hỏng sẽ chỉ làm ứng dụng của bạn bị sập với `FileCorruptedException`.
 
-## Đặt Recovery Mode Khi Tải Tài Liệu
+---
 
-Bây giờ bạn đã có một thể hiện `LoadOptions`, hãy truyền nó khi khởi tạo một `Document`. Điều này cho Aspose.Words áp dụng chiến lược khôi phục ngay từ đầu.
+## Tải Tài Liệu Với Chế Độ Khôi Phục
 
-```csharp
-// Step 2: Load the possibly corrupted DOCX using the configured options
-Document document = new Document("YOUR_DIRECTORY/maybeCorrupt.docx", loadOptions);
-```
-
-> **Pro tip** – Giữ đường dẫn tệp có thể cấu hình (ví dụ, qua appsettings.json) để bạn có thể tái sử dụng cùng một đoạn mã trong ứng dụng console, API web, hoặc service nền mà không cần biên dịch lại.
-
-Nếu tệp thực sự bị hỏng, Aspose.Words sẽ cố gắng tái cấu trúc các cấu trúc Open XML nội bộ, loại bỏ các phần sai định dạng, và vẫn cung cấp cho bạn một đối tượng `Document` có thể làm việc.
-
-## Xác Minh Recovery Mode và Kiểm Tra Tài Liệu
-
-Sau khi tải, việc xác nhận chế độ thực tế đã được áp dụng là hữu ích. Điều này đặc biệt quan trọng nếu bạn sau này chuyển đổi giữa `Strict` và `Recover` để thử nghiệm.
+Khi các tùy chọn đã sẵn sàng, chúng ta thực sự **load document with recovery** (tải tài liệu với khôi phục). Hàm khởi tạo `Document` nhận một đường dẫn tệp và một thể hiện `LoadOptions`.
 
 ```csharp
-// Step 3: Confirm the recovery mode used during loading
-Console.WriteLine($"Document loaded with recovery mode: {loadOptions.RecoveryMode}");
+// Step 2: Load the DOCX using the recovery options
+string filePath = @"C:\Docs\Corrupted.docx";
+Document doc = new Document(filePath, loadOptions);
 ```
 
-Đầu ra console điển hình:
+**Điều gì xảy ra bên trong?**  
+Aspose phân tích container ZIP, xây dựng lại các phần thiếu và điền vào đối tượng `Document`. Nếu không thể sửa hoàn toàn tệp, bạn vẫn sẽ nhận được một tài liệu phần nào có thể sử dụng được cùng với một tập hợp các cảnh báo để xem xét.
 
-```
-Document loaded with recovery mode: Recover
-```
+---
 
-Bạn cũng có thể liệt kê các cảnh báo (nếu có) để xem những gì đã được sửa:
+## Kiểm Tra Cảnh Báo (Tùy Chọn nhưng Được Khuyến Khích)
+
+Sau khi tải, bạn có thể muốn **recover corrupted docx** (khôi phục docx bị hỏng) đồng thời hiểu nguyên nhân gây ra lỗi. Mọi cảnh báo đều được lưu trong `doc.Warnings`.
 
 ```csharp
-foreach (WarningInfo warning in document.WarningInfoCollection)
+// Step 3: Enumerate any warnings generated during recovery
+foreach (var warning in doc.Warnings)
 {
     Console.WriteLine($"Warning: {warning.Description}");
 }
 ```
 
-Nếu bộ sưu tập rỗng, tài liệu có thể đã sạch hoặc các vấn đề quá nhẹ để Aspose.Words cần đưa ra cảnh báo.
-
-## Xử Lý Cảnh Báo và Lưu Tài Liệu Đã Khôi Phục
-
-Đôi khi bạn muốn giữ một bản sao của tệp đã khôi phục để kiểm toán. Lưu tài liệu sau khi khôi phục rất đơn giản:
-
-```csharp
-// Step 4: Save the recovered document to a new location
-string outputPath = "YOUR_DIRECTORY/recovered.docx";
-document.Save(outputPath);
-Console.WriteLine($"Recovered document saved to: {outputPath}");
-```
-
-Bây giờ bạn có một tệp **recover corrupted docx** có thể mở trong Microsoft Word, Google Docs, hoặc bất kỳ phần mềm nào hỗ trợ định dạng DOCX.
-
-## Trường Hợp Đặc Biệt & Những Sai Lầm Thường Gặp
-
-| Tình huống                              | Cách xử lý                                                               |
-|----------------------------------------|--------------------------------------------------------------------------|
-| File not found                         | Bắt `FileNotFoundException` và ghi lại thông báo rõ ràng.               |
-| File is an older `.doc` (binary)      | Sử dụng `LoadOptions` với `LoadFormat.Doc` và vẫn đặt `RecoveryMode`.   |
-| Recovery fails completely (null doc)  | Chuyển hướng tới trang lỗi thân thiện với người dùng hoặc thử lại với `RecoverWithoutWarnings`. |
-| Large documents (>100 MB)              | Tăng giới hạn bộ nhớ của `LoadOptions.LoadFormat` nếu cần (xem tài liệu). |
-
-```csharp
-try
-{
-    Document doc = new Document("maybeCorrupt.docx", loadOptions);
-    // proceed with normal flow
-}
-catch (Exception ex)
-{
-    Console.Error.WriteLine($"Failed to recover document: {ex.Message}");
-}
-```
-
-> **Why this helps** – Khi dự đoán trước những kịch bản này, bạn tránh được khoảnh khắc “ứng dụng bị sập” đáng sợ và giữ cho quá trình **load document recovery** diễn ra một cách êm ái.
-
-## Danh Sách Kiểm Tra Nhanh Cho Việc Khôi Phục Thành Công
-
-1. **Cài đặt Aspose.Words** (`Install-Package Aspose.Words`)  
-2. **Tạo `LoadOptions`** và **đặt recovery mode** thành `Recover`.  
-3. **Tải DOCX** bằng đối tượng options.  
-4. **Kiểm tra `WarningInfoCollection`** để phát hiện các vấn đề ẩn.  
-5. **Lưu** tệp đã khôi phục vào vị trí đã biết.  
-6. **Ghi log** chế độ khôi phục đã chọn để kiểm tra sau.
-
-Thực hiện danh sách này sẽ giúp bạn **recover corrupted docx** một cách nhất quán mà không bỏ lỡ bước nào.
+Các cảnh báo thường gặp bao gồm “Missing image part” (phần hình ảnh thiếu) hoặc “Invalid bookmark reference” (tham chiếu dấu trang không hợp lệ). Chúng không ngăn tài liệu sử dụng được, nhưng cung cấp manh mối để ghi log hoặc phản hồi người dùng.
 
 ---
 
-![Diagram showing how to recover docx flow diagram](recover-docx-flow.png){: .align-center alt="Sơ đồ luồng cách khôi phục docx"}
+## Ví Dụ Hoàn Chỉnh Hoạt Động
 
-*Hình minh họa trên mô tả luồng quyết định từ việc tải một tệp có thể bị hỏng đến việc lưu phiên bản sạch.*
+Kết hợp tất cả lại, đây là một chương trình hoàn chỉnh, sẵn sàng chạy. Bạn có thể sao chép đoạn này vào một ứng dụng console và chỉ định `filePath` tới bất kỳ DOCX nào bạn nghi ngờ bị hỏng.
 
-## Tổng Kết
+```csharp
+using System;
+using Aspose.Words;
+using Aspose.Words.LoadOptions;
 
-Chúng ta đã bao quát **cách khôi phục docx** trong C# từ đầu đến cuối: cấu hình `LoadOptions`, **set recovery mode**, tải tài liệu, xác minh chế độ, xử lý cảnh báo, và cuối cùng lưu tệp đã sửa. Cách tiếp cận toàn diện này cho phép bạn biến một tệp Word bị hỏng thành tài sản có thể sử dụng chỉ với vài dòng mã.
+namespace DocxRecoveryDemo
+{
+    class Program
+    {
+        static void Main()
+        {
+            // 1️⃣ Create LoadOptions with recovery enabled
+            var loadOptions = new LoadOptions
+            {
+                RecoveryMode = LoadOptions.RecoveryModeMode.Recover
+            };
 
-Nếu bạn muốn đi xa hơn, hãy khám phá:
+            // 2️⃣ Path to the potentially corrupted DOCX
+            string filePath = @"YOUR_DIRECTORY/Corrupted.docx";
 
-- **Khôi phục hình ảnh** bị loại bỏ trong quá trình hỏng (sử dụng `LoadOptions.PreserveMetaData`).  
-- **Xử lý hàng loạt** nhiều tệp bằng các `Task` song song để tăng tốc.  
-- **Tích hợp với Azure Functions** để tự động sửa các tệp tải lên trên đám mây.
+            try
+            {
+                // 3️⃣ Load the document using the recovery options
+                Document doc = new Document(filePath, loadOptions);
+                Console.WriteLine("✅ Document loaded successfully.");
 
-Hãy thoải mái thử nghiệm—có thể thay `RecoverWithoutWarnings` để có đầu ra console sạch hơn, hoặc ghi lại mọi cảnh báo vào dịch vụ giám sát. Bạn càng chơi nhiều với các tùy chọn, bạn sẽ càng hiểu rõ các đánh đổi giữa kiểm tra nghiêm ngặt và khôi phục mạnh mẽ.
+                // 4️⃣ (Optional) Show any warnings that occurred
+                if (doc.Warnings.Count > 0)
+                {
+                    Console.WriteLine("⚠️ Warnings generated during recovery:");
+                    foreach (var warning in doc.Warnings)
+                    {
+                        Console.WriteLine($"- {warning.Description}");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("No warnings – the file looks healthy after recovery.");
+                }
 
-Có câu hỏi về tệp cứng đầu vẫn không mở được? Để lại bình luận bên dưới, chúng tôi sẽ cùng bạn khắc phục. Chúc lập trình vui vẻ, và mong các tài liệu Word của bạn luôn không bị hỏng!
+                // 5️⃣ Save the repaired file (you can overwrite or use a new name)
+                string repairedPath = @"YOUR_DIRECTORY/Recovered.docx";
+                doc.Save(repairedPath);
+                Console.WriteLine($"📄 Recovered file saved to: {repairedPath}");
+            }
+            catch (Exception ex)
+            {
+                // If recovery completely fails, we end up here
+                Console.WriteLine($"❌ Unable to recover the document: {ex.Message}");
+            }
+        }
+    }
+}
+```
 
-## Các Tutorial Liên Quan
+**Kết quả mong đợi**
 
-- [Khôi phục tài liệu bị hỏng trong C# – Đặt chế độ khôi phục & Nhắc người dùng](/words/english/net/programming-with-loadoptions/recover-corrupted-document-in-c-set-recovery-mode-prompt-use/)
-- [cách khôi phục docx – Hướng dẫn C# cho các tệp Word bị hỏng](/words/english/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrupted-word-files/)
-- [Khôi phục tệp Word bị hỏng – Hướng dẫn toàn diện mở DOCX bị hỏng & Lấy trang](/words/english/net/programming-with-loadoptions/recover-damaged-word-file-complete-guide-to-open-corrupted-d/)
+```
+✅ Document loaded successfully.
+⚠️ Warnings generated during recovery:
+- Missing image part: image1.png
+- Invalid bookmark reference: Bookmark_5
+📄 Recovered file saved to: YOUR_DIRECTORY/Recovered.docx
+```
+
+Nếu tệp không thể sửa được, khối catch sẽ in ra thông báo lỗi thay vì làm sập toàn bộ ứng dụng.
+
+---
+
+## Trường Hợp Cạnh & Các Câu Hỏi Thường Gặp
+
+### Nếu tệp không phải là gói ZIP gì cả?
+
+Aspose.Words yêu cầu một container OpenXML hợp lệ. Nếu tệp là dạng khác (ví dụ, tệp .doc cũ dạng nhị phân), bộ tải sẽ ném `FileCorruptedException` *trước* khi tới logic khôi phục. Trong trường hợp đó bạn cần chuyển đổi tệp trước hoặc sử dụng API khác.
+
+### `RecoveryMode.Recover` có ảnh hưởng tới hiệu năng không?
+
+Việc quét thêm sẽ tăng khoảng 5‑10 % thời gian xử lý trên tài liệu lớn, điều này hầu như không đáng kể đối với hầu hết các dịch vụ web. Nếu bạn xử lý hàng ngàn tệp mỗi giây, hãy đo hiệu năng và cân nhắc bật chế độ này chỉ cho những tệp thực sự thất bại ở lần tải đầu tiên.
+
+### Tôi có thể khôi phục DOCX được bảo vệ bằng mật khẩu không?
+
+Không. Quá trình khôi phục diễn ra **sau** khi tệp được mở thành công. Nếu tài liệu được mã hóa, bạn phải cung cấp mật khẩu trước; nếu không Aspose sẽ từ chối mở và không thực hiện khôi phục.
+
+### Làm sao biết tài liệu đã khôi phục có thể sử dụng được không?
+
+Cách an toàn nhất là thực hiện kiểm tra nhanh—ví dụ, cố gắng lưu nó dưới dạng PDF hoặc duyệt qua các phần. Nếu các thao tác này thành công, bạn có thể yên tâm nội dung chính đã được bảo tồn.
+
+---
+
+## Khi Nào Nên Dùng Khôi Phục vs. Chiến Lược Dự Phòng
+
+| Tình Huống | Hành Động Đề Xuất |
+|-----------|--------------------|
+| **Lỗi XML nhỏ** (mối quan hệ thiếu, thẻ lẻ) | **Set recovery mode** và tiếp tục |
+| **Hỏng hoàn toàn zip** (không thể giải nén) | Yêu cầu người dùng tải lại; khôi phục không giúp gì |
+| **Tệp được bảo vệ bằng mật khẩu** | Yêu cầu nhập mật khẩu trước, sau đó **load document with recovery** |
+| **Nhập khẩu hàng loạt, tốc độ quan trọng hơn độ hoàn hảo** | Cố gắng tải bình thường; nếu thất bại, thử lại với **recovery mode** |
+
+Bằng cách xếp lớp tải bình thường rồi thử khôi phục khi gặp lỗi, bạn sẽ có được cả tốc độ cho các tệp khỏe mạnh và khả năng xử lý mềm mại cho những tệp hỏng.
+
+---
+
+## Kết Luận
+
+Chúng ta vừa tìm hiểu **cách khôi phục docx** trong C# bằng Aspose.Words, từ **cài đặt chế độ khôi phục** đến **tải tài liệu với khôi phục** và cuối cùng **khôi phục docx bị hỏng** đồng thời kiểm tra các cảnh báo. Ví dụ đầy đủ minh họa một mẫu thiết kế sẵn sàng cho môi trường sản xuất mà bạn có thể đưa vào bất kỳ dịch vụ .NET nào.
+
+Bước tiếp theo? Hãy thử đổi định dạng đầu ra—lưu tài liệu đã khôi phục dưới dạng PDF, HTML, hoặc thậm chí plain text để xác nhận nội dung đã tồn tại. Bạn cũng có thể khám phá các cờ `LoadOptions` khác như **LoadOptions.LoadFormat** nếu cần xử lý các tệp `.doc` cũ.
+
+Hãy thử nghiệm, ghi lại các cảnh báo để phân tích, và chia sẻ kết quả của bạn trong phần bình luận. Chúc lập trình vui vẻ, và mong các tệp DOCX của bạn luôn khỏe mạnh!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

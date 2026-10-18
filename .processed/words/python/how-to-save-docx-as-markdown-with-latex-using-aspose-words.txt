@@ -1,0 +1,7 @@
+Title: How to save docx as markdown with LaTeX using Aspose.Words
+Slug: how-to-save-docx-as-markdown-with-latex-using-aspose-words
+Category: document-conversion
+ProcessedDate: 2026-09-21T17:12:43.673353
+SourceRepo: AI Search API
+Keywords: save docx as markdown, convert word to markdown, how to export math, how to convert docx, save word as markdown
+PRNumber: 284

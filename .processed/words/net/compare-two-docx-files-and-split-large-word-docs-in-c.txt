@@ -1,0 +1,7 @@
+Title: Compare two docx files and split large Word docs in C#
+Slug: compare-two-docx-files-and-split-large-word-docs-in-c
+Category: compare-documents
+ProcessedDate: 2026-09-15T07:13:00.625457
+SourceRepo: AI Search API
+Keywords: compare two docx files, compare word documents, how to compare docx, how to split docx, split large word document
+PRNumber: 276
