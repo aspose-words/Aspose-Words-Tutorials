@@ -1,9 +1,14 @@
 ---
-"date": "2025-03-28"
-"description": "Tìm hiểu cách tận dụng Aspose.Words for Java để làm chủ quá trình xử lý tài liệu, bao gồm hỗ trợ VML, mã hóa, tùy chọn nhập HTML, v.v."
-"title": "Aspose.Words cho Java&#58; Các tính năng HTML toàn diện và Hướng dẫn xử lý tài liệu"
-"url": "/vi/java/document-operations/aspose-words-java-html-features-guide/"
-"weight": 1
+date: '2026-02-06'
+description: Tìm hiểu cách tải HTML VML với Aspose.Words for Java, mã hóa các tệp
+  HTML Java, đặt URI cơ sở HTML và cấu hình các tùy chọn điều khiển HTML.
+keywords:
+- Aspose.Words for Java
+- HTML document processing
+- document encryption
+title: Tải HTML VML bằng Aspose.Words cho Java – Hướng dẫn đầy đủ
+url: /vi/java/document-operations/aspose-words-java-html-features-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,40 +17,44 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
 # Các tính năng HTML toàn diện với Aspose.Words cho Java: Hướng dẫn dành cho nhà phát triển
 
 ## Giới thiệu
 
-Việc điều hướng thế giới phức tạp của quá trình xử lý tài liệu có thể rất khó khăn, đặc biệt là khi xử lý nhiều tính năng HTML khác nhau. Cho dù bạn đang xử lý hỗ trợ Ngôn ngữ đánh dấu vectơ (VML), tài liệu được mã hóa hay các hành vi nhập HTML cụ thể, **Aspose.Words cho Java** cung cấp giải pháp mạnh mẽ. Trong hướng dẫn này, chúng tôi sẽ khám phá cách triển khai các chức năng này một cách liền mạch bằng Aspose.Words, nâng cao khả năng xử lý tài liệu của bạn.
+Việc điều hướng thế giới phức tạp của xử lý tài liệu có thể gây khó khăn, đặc biệt khi làm việc với nhiều tính năng HTML khác nhau. Dù bạn đang xử lý hỗ trợ Vector Markup Language (VML), tài liệu được mã hoá, hay các hành vi nhập HTML cụ thể, **Aspose.Words for Java** cung cấp một giải pháp mạnh mẽ. Trong hướng dẫn này, bạn sẽ học **how to load html vml** một cách hiệu quả và an toàn, đồng thời bao phủ các nhiệm vụ liên quan như **encrypt html java**, **set html base uri**, và **configure html control**.
 
-**Những gì bạn sẽ học được:**
-- Cách tải tài liệu HTML có hỗ trợ VML.
-- Các kỹ thuật xử lý HTML trang cố định và cảnh báo.
-- Phương pháp mã hóa và tải các tài liệu HTML được bảo vệ bằng mật khẩu.
-- Sử dụng URI cơ sở trong Tùy chọn tải HTML.
-- Nhập các phần tử đầu vào HTML dưới dạng thẻ tài liệu có cấu trúc hoặc trường biểu mẫu.
-- Bỏ qua `<noscript>` các thành phần trong quá trình tải HTML.
-- Cấu hình chế độ nhập khối để kiểm soát việc bảo toàn cấu trúc HTML.
-- Hỗ trợ `@font-face` quy tắc cho phông chữ tùy chỉnh.
+**Bạn sẽ học được:**
+- Cách tải tài liệu HTML với hỗ trợ VML.
+- Kỹ thuật xử lý HTML dạng trang cố định và các cảnh báo.
+- Phương pháp mã hoá và tải tài liệu HTML có bảo vệ bằng mật khẩu.
+- Sử dụng base URI trong HTML Load Options.
+- Nhập các phần tử input HTML dưới dạng structured document tags hoặc form fields.
+- Bỏ qua các phần tử `<noscript>` khi tải HTML.
+- Cấu hình chế độ nhập block để kiểm soát việc bảo tồn cấu trúc HTML.
+- Hỗ trợ các quy tắc `@font-face` cho phông chữ tùy chỉnh.
 
-Với những hiểu biết sâu sắc này, bạn sẽ được trang bị tốt để giải quyết nhiều tác vụ xử lý HTML. Hãy cùng tìm hiểu các điều kiện tiên quyết và thiết lập trước!
+## Câu trả lời nhanh
+- **Cách chính để bật VML khi tải HTML là gì?** Đặt `loadOptions.setSupportVml(true)`.
+- **Tôi có thể tải các tệp HTML được bảo vệ bằng mật khẩu không?** Có, truyền mật khẩu vào `HtmlLoadOptions`.
+- **Làm sao để giải quyết các đường dẫn ảnh tương đối?** Sử dụng `loadOptions.setBaseUri("your/base/uri")`.
+- **Có thể nhập `<select>` dưới dạng trường biểu mẫu không?** Đặt `loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag)`.
+- **Lớp nào ghi lại các cảnh báo trong quá trình tải?** Triển khai `IWarningCallback` và gán nó cho `loadOptions.setWarningCallback(...)`.
 
-## Điều kiện tiên quyết
+## Yêu cầu trước
 
-Trước khi chúng ta bắt đầu triển khai nhiều tính năng HTML khác nhau với Aspose.Words cho Java, hãy đảm bảo rằng môi trường của bạn được thiết lập đúng cách:
+Trước khi chúng ta bắt đầu triển khai các tính năng HTML khác nhau với Aspose.Words cho Java, hãy đảm bảo môi trường của bạn đã được thiết lập đúng cách:
 
-- **Thư viện bắt buộc:** Bạn cần thư viện Aspose.Words phiên bản 25.3 trở lên.
-- **Môi trường phát triển:** Hướng dẫn này giả định rằng bạn đang sử dụng Maven hoặc Gradle để quản lý phụ thuộc.
-- **Cơ sở kiến thức:** Hiểu biết cơ bản về Java và quen thuộc với các tài liệu HTML sẽ rất có lợi.
+- **Thư viện yêu cầu:** Bạn cần thư viện Aspose.Words phiên bản 25.3 trở lên.
+- **Môi trường phát triển:** Hướng dẫn này giả định bạn đang sử dụng Maven hoặc Gradle để quản lý phụ thuộc.
+- **Kiến thức nền:** Hiểu biết cơ bản về Java và quen thuộc với tài liệu HTML sẽ có lợi.
 
-## Thiết lập Aspose.Words
+## Cài đặt Aspose.Words
 
-Để bắt đầu làm việc với Aspose.Words, trước tiên bạn cần đưa nó vào dự án của mình. Sau đây là các bước để thiết lập thư viện bằng Maven và Gradle:
+Để bắt đầu làm việc với Aspose.Words, trước tiên bạn cần đưa nó vào dự án của mình. Dưới đây là các bước để thiết lập thư viện bằng Maven và Gradle:
 
 ### Maven
 
-Thêm phụ thuộc sau vào `pom.xml` tài liệu:
+Thêm phụ thuộc sau vào tệp `pom.xml` của bạn:
 
 ```xml
 <dependency>
@@ -55,19 +64,19 @@ Thêm phụ thuộc sau vào `pom.xml` tài liệu:
 </dependency>
 ```
 
-### Tốt nghiệp
+### Gradle
 
-Bao gồm điều này trong của bạn `build.gradle` tài liệu:
+Bao gồm đoạn này trong tệp `build.gradle` của bạn:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-#### Mua lại giấy phép
+#### Nhận giấy phép
 
-Aspose.Words yêu cầu giấy phép để có đầy đủ chức năng. Bạn có thể dùng thử miễn phí, yêu cầu giấy phép tạm thời hoặc mua giấy phép vĩnh viễn. Truy cập [trang mua hàng](https://purchase.aspose.com/buy) để biết thêm chi tiết.
+Aspose.Words yêu cầu giấy phép để có đầy đủ chức năng. Bạn có thể nhận bản dùng thử miễn phí, yêu cầu giấy phép tạm thời, hoặc mua bản vĩnh viễn. Truy cập [trang mua hàng](https://purchase.aspose.com/buy) để biết thêm chi tiết.
 
-Để khởi tạo Aspose.Words trong dự án Java của bạn, hãy đảm bảo rằng bạn đã thiết lập cấp phép đúng cách:
+Để khởi tạo Aspose.Words trong dự án Java của bạn, hãy chắc chắn rằng bạn đã thiết lập giấy phép đúng cách:
 
 ```java
 import com.aspose.words.License;
@@ -82,200 +91,229 @@ public class InitializeAspose {
 }
 ```
 
-## Hướng dẫn thực hiện
+## Hướng dẫn triển khai
 
-Chúng tôi sẽ chia nhỏ quá trình triển khai thành các phần dựa trên các tính năng chúng tôi muốn triển khai.
+Chúng tôi sẽ chia triển khai thành các phần dựa trên các tính năng mà chúng ta muốn thực hiện.
 
-### Hỗ trợ VML trong Tài liệu HTML
+### Cách tải html vml với Aspose.Words
 
-**Tổng quan:**
-Tải một tài liệu HTML có hoặc không có hỗ trợ VML cho phép kết xuất đồ họa vector đa dạng. Tính năng này rất quan trọng khi xử lý các tài liệu bao gồm các thành phần đồ họa như biểu đồ và hình dạng.
+**Tổng quan:**  
+Việc tải tài liệu HTML có hỗ trợ VML cho phép hiển thị đa dạng các đồ họa vector như biểu đồ và hình dạng. Đây là bước cốt lõi cho từ khóa chính **load html vml**.
 
-#### Thực hiện từng bước:
+#### Các bước thực hiện
 
-1. **Thiết lập tùy chọn tải**
-   
-   ```java
-   import com.aspose.words.Document;
-   import com.aspose.words.HtmlLoadOptions;
+1. **Cấu hình Load Options**
 
-   HtmlLoadOptions loadOptions = new HtmlLoadOptions();
-   loadOptions.setSupportVml(true); // Bật hỗ trợ VML
-   ```
+```java
+import com.aspose.words.Document;
+import com.aspose.words.HtmlLoadOptions;
 
-2. **Tải Tài liệu**
-   
-   ```java
-   Document doc = new Document("path/to/VML conditional.htm", loadOptions);
-   ```
+HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+loadOptions.setSupportVml(true); // Enable VML support
+```
 
-3. **Xác minh loại hình ảnh**
-   
-   Đảm bảo rằng loại hình ảnh phù hợp với mong đợi của bạn:
-   
-   ```java
-   import com.aspose.words.NodeType;
-   import com.aspose.words.Shape;
+2. **Tải tài liệu**
 
-   Shape imageShape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
-   String expectedImageType = "JPG"; // Điều chỉnh dựa trên logic thực tế
+```java
+Document doc = new Document("path/to/VML conditional.htm", loadOptions);
+```
 
-   if (!imageShape.getImageData().getImageType().toString().equals(expectedImageType)) {
-       throw new AssertionError("Unexpected image type loaded.");
-   }
-   ```
+3. **Xác minh loại ảnh**
 
-### Tải HTML Đã sửa và Xử lý Cảnh báo
+```java
+import com.aspose.words.NodeType;
+import com.aspose.words.Shape;
 
-**Tổng quan:**
-Việc tải các tài liệu HTML trang cố định có thể tạo ra các cảnh báo cần được quản lý để xử lý chính xác.
+Shape imageShape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+String expectedImageType = "JPG"; // Adjust based on actual logic
 
-#### Thực hiện từng bước:
+if (!imageShape.getImageData().getImageType().toString().equals(expectedImageType)) {
+    throw new AssertionError("Unexpected image type loaded.");
+}
+```
 
-1. **Xác định cảnh báo gọi lại**
-   
-   ```java
-   import com.aspose.words.IWarningCallback;
-   import com.aspose.words.WarningInfo;
-   import java.util.ArrayList;
+### Tải HTML dạng cố định và Xử lý Cảnh báo
 
-   private static class ListDocumentWarnings implements IWarningCallback {
-       private final ArrayList<WarningInfo> mWarnings = new ArrayList<>();
+**Tổng quan:**  
+Việc tải tài liệu HTML dạng trang cố định có thể tạo ra các cảnh báo cần được quản lý để xử lý chính xác.
 
-       public void warning(WarningInfo info) { 
-           mWarnings.add(info); 
-       }
+#### Các bước thực hiện
 
-       public ArrayList<WarningInfo> warnings() { return mWarnings; }
-   }
-   ```
+1. **Định nghĩa Warning Callback**
 
-2. **Cấu hình Tùy chọn Tải**
-   
-   ```java
-   HtmlLoadOptions loadOptions = new HtmlLoadOptions();
-   ListDocumentWarnings warningCallback = new ListDocumentWarnings();
-   loadOptions.setWarningCallback(warningCallback);
-   ```
+```java
+import com.aspose.words.IWarningCallback;
+import com.aspose.words.WarningInfo;
+import java.util.ArrayList;
 
-3. **Tải Tài Liệu và Kiểm Tra Cảnh Báo**
-   
-   ```java
-   Document doc = new Document("path/to/HtmlFixed.html", loadOptions);
+private static class ListDocumentWarnings implements IWarningCallback {
+    private final ArrayList<WarningInfo> mWarnings = new ArrayList<>();
 
-   if (warningCallback.warnings().size() != 1) {
-       throw new AssertionError("Unexpected number of warnings.");
-   }
-   ```
+    public void warning(WarningInfo info) { 
+        mWarnings.add(info); 
+    }
 
-### Mã hóa tài liệu HTML
+    public ArrayList<WarningInfo> warnings() { return mWarnings; }
+}
+```
 
-**Tổng quan:**
-Mã hóa tài liệu HTML bằng mật khẩu đảm bảo truy cập an toàn, điều này rất cần thiết đối với thông tin nhạy cảm.
+2. **Cấu hình Load Options**
 
-#### Thực hiện từng bước:
+```java
+HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+ListDocumentWarnings warningCallback = new ListDocumentWarnings();
+loadOptions.setWarningCallback(warningCallback);
+```
 
-1. **Chuẩn bị các tùy chọn chữ ký số**
-   
-   ```java
-   import com.aspose.words.CertificateHolder;
-   import com.aspose.words.DigitalSignatureUtil;
-   import com.aspose.words.SignOptions;
+3. **Tải tài liệu và kiểm tra cảnh báo**
 
-   CertificateHolder certificateHolder = CertificateHolder.create("path/to/morzal.pfx", "aw");
-   SignOptions signOptions = new SignOptions();
-   signOptions.setComments("Comment");
-   signOptions.setSignTime(new Date());
-   signOptions.setDecryptionPassword("docPassword");
-   ```
+```java
+Document doc = new Document("path/to/HtmlFixed.html", loadOptions);
 
-2. **Ký và mã hóa tài liệu**
-   
-   ```java
-   String inputFileName = "path/to/Encrypted.docx";
-   String outputFileName = "path/to/output/directory/HtmlLoadOptions.EncryptedHtml.html";
+if (warningCallback.warnings().size() != 1) {
+    throw new AssertionError("Unexpected number of warnings.");
+}
+```
 
-   DigitalSignatureUtil.sign(inputFileName, outputFileName, certificateHolder, signOptions);
-   ```
+### Mã hoá tài liệu HTML
 
-3. **Tải tài liệu được mã hóa**
-   
-   ```java
-   import com.aspose.words.Document;
+**Tổng quan:**  
+Mã hoá tài liệu HTML bằng mật khẩu đảm bảo truy cập an toàn, điều này rất quan trọng đối với thông tin nhạy cảm—điều này đáp ứng kịch bản **encrypt html java**.
 
-   HtmlLoadOptions loadOptions = new HtmlLoadOptions("docPassword");
-   Document doc = new Document(outputFileName, loadOptions);
+#### Các bước thực hiện
 
-   if (!doc.getText().trim().equals("Test encrypted document.")) {
-       throw new AssertionError("Unexpected document text.");
-   }
-   ```
+1. **Chuẩn bị tùy chọn chữ ký số**
 
-### URI cơ sở cho Tùy chọn tải HTML
+```java
+import com.aspose.words.CertificateHolder;
+import com.aspose.words.DigitalSignatureUtil;
+import com.aspose.words.SignOptions;
 
-**Tổng quan:**
-Việc chỉ định URI cơ sở giúp giải quyết các URI tương đối, đặc biệt khi xử lý hình ảnh hoặc các tài nguyên được liên kết khác.
+CertificateHolder certificateHolder = CertificateHolder.create("path/to/morzal.pfx", "aw");
+SignOptions signOptions = new SignOptions();
+signOptions.setComments("Comment");
+signOptions.setSignTime(new Date());
+signOptions.setDecryptionPassword("docPassword");
+```
 
-#### Thực hiện từng bước:
+2. **Ký và mã hoá tài liệu**
 
-1. **Cấu hình Tùy chọn Tải với URI Cơ sở**
-   
-   ```java
-   HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.HTML, "", "path/to/imageDir");
-   ```
+```java
+String inputFileName = "path/to/Encrypted.docx";
+String outputFileName = "path/to/output/directory/HtmlLoadOptions.EncryptedHtml.html";
 
-2. **Tải tài liệu và xác minh hình ảnh**
-   
-   ```java
-   import com.aspose.words.Document;
-   import com.aspose.words.NodeType;
+DigitalSignatureUtil.sign(inputFileName, outputFileName, certificateHolder, signOptions);
+```
 
-   Document doc = new Document("path/to/Missing image.html", loadOptions);
-   Shape imageShape = (Shape) doc.getChildNodes(NodeType.SHAPE, true).get(0);
+3. **Tải tài liệu đã mã hoá**
 
-   if (!imageShape.isImage()) {
-       throw new AssertionError("Expected an image shape.");
-   }
-   ```
+```java
+import com.aspose.words.Document;
 
-### Nhập HTML Chọn làm Thẻ Tài liệu có cấu trúc
+HtmlLoadOptions loadOptions = new HtmlLoadOptions("docPassword");
+Document doc = new Document(outputFileName, loadOptions);
 
-**Tổng quan:**
-Nhập khẩu `<select>` Các thành phần như thẻ tài liệu có cấu trúc cho phép kiểm soát và định dạng tốt hơn trong các tài liệu Word.
+if (!doc.getText().trim().equals("Test encrypted document.")) {
+    throw new AssertionError("Unexpected document text.");
+}
+```
 
-#### Thực hiện từng bước:
+### Base URI cho HTML Load Options
 
-1. **Đặt Loại Điều Khiển Ưa Thích**
-   
-   ```java
-   import com.aspose.words.HtmlLoadOptions;
-   import com.aspose.words.ControlType;
+**Tổng quan:**  
+Việc chỉ định **set html base uri** giúp giải quyết các URI tương đối, đặc biệt khi làm việc với ảnh hoặc các tài nguyên liên kết khác.
 
-   HtmlLoadOptions loadOptions = new HtmlLoadOptions();
-   loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag);
-   ```
+#### Các bước thực hiện
+
+1. **Cấu hình Load Options với Base URI**
+
+```java
+HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.HTML, "", "path/to/imageDir");
+```
+
+2. **Tải tài liệu và xác minh ảnh**
+
+```java
+import com.aspose.words.Document;
+import com.aspose.words.NodeType;
+
+Document doc = new Document("path/to/Missing image.html", loadOptions);
+Shape imageShape = (Shape) doc.getChildNodes(NodeType.SHAPE, true).get(0);
+
+if (!imageShape.isImage()) {
+    throw new AssertionError("Expected an image shape.");
+}
+```
+
+### Nhập HTML Select dưới dạng Structured Document Tag
+
+**Tổng quan:**  
+Để **configure html control** hành vi, bạn có thể nhập các phần tử `<select>` dưới dạng Structured Document Tags, cho phép bạn kiểm soát chi tiết hơn các trường biểu mẫu trong tài liệu Word.
+
+#### Các bước thực hiện
+
+1. **Đặt loại điều khiển ưu tiên**
+
+```java
+import com.aspose.words.HtmlLoadOptions;
+import com.aspose.words.ControlType;
+
+HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag);
+```
 
 2. **Tải tài liệu và xác minh cấu trúc**
-   
-   ```java
-   import com.aspose.words.Document;
-   import com.aspose.words.NodeType;
-   import com.aspose.words.StructuredDocumentTag;
 
-   Document doc = new Document("path/to/Input HTML with select element.html", loadOptions);
-   StructuredDocumentTag sdt = (StructuredDocumentTag)doc.getChild(NodeType.STRUCTURED_DOCUMENT_TAG, 0, true);
+```java
+import com.aspose.words.Document;
+import com.aspose.words.NodeType;
+import com.aspose.words.StructuredDocumentTag;
 
-   if (!sdt.getTagName().equals("Select")) {
-       throw new AssertionError("Expected a Structured Document Tag with tag name 'Select'.");
-   }
-   ```
+Document doc = new Document("path/to/Input HTML with select element.html", loadOptions);
+StructuredDocumentTag sdt = (StructuredDocumentTag)doc.getChild(NodeType.STRUCTURED_DOCUMENT_TAG, 0, true);
+
+if (!sdt.getTagName().equals("Select")) {
+    throw new AssertionError("Expected a Structured Document Tag with tag name 'Select'.");
+}
+```
+
+## Các vấn đề thường gặp và giải pháp
+
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|------------|----------|
+| Đồ họa VML không hiển thị | Cờ `supportVml` để mặc định (`false`) | Đảm bảo gọi `loadOptions.setSupportVml(true)` trước khi tải. |
+| Ảnh bị thiếu sau khi tải | Không thể giải quyết các đường dẫn tương đối | Sử dụng **set html base uri** (`loadOptions.setBaseUri(...)`) để chỉ tới thư mục đúng. |
+| HTML được bảo vệ bằng mật khẩu gây ra ngoại lệ | Chưa cung cấp mật khẩu | Truyền mật khẩu vào `new HtmlLoadOptions("yourPassword")`. |
+| Các điều khiển biểu mẫu hiển thị dưới dạng văn bản thường | `HtmlControlType` sai | Đặt `loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag)` hoặc `FormField` theo nhu cầu. |
+| Cảnh báo không mong muốn | Các phần tử HTML chưa được xử lý | Triển khai `IWarningCallback` để ghi lại và xem lại các cảnh báo. |
+
+## Câu hỏi thường gặp
+
+**Q: Tôi có thể tải các tệp HTML chứa cả đồ họa VML và SVG hiện đại không?**  
+A: Có. Bật VML bằng `setSupportVml(true)`; SVG được Aspose.Words xử lý tự động.
+
+**Q: Làm sao để mã hoá một tài liệu HTML mà không dùng chứng chỉ số?**  
+A: Sử dụng hàm khởi tạo `HtmlLoadOptions` nhận mật khẩu và lưu tài liệu bằng `Document.save(..., SaveFormat.HTML)` sau khi đã đặt mật khẩu.
+
+**Q: Điều gì sẽ xảy ra nếu base URI trỏ tới thư mục không tồn tại?**  
+A: Aspose.Words sẽ ném ra `FileNotFoundException` cho các tài nguyên bị thiếu. Kiểm tra đường dẫn trước khi tải.
+
+**Q: Có thể thay đổi loại điều khiển mặc định cho tất cả các phần tử biểu mẫu HTML không?**  
+A: Có. Sử dụng `loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag)` để áp dụng toàn cục.
+
+**Q: Các callback cảnh báo có an toàn với đa luồng không?**  
+A: Việc triển khai callback nên an toàn với đa luồng nếu bạn dự định tải tài liệu đồng thời. Sử dụng các collection đồng bộ hoặc lưu trữ thread‑local.
+
+---
+
+**Cập nhật lần cuối:** 2026-02-06  
+**Đã kiểm tra với:** Aspose.Words for Java 25.3  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

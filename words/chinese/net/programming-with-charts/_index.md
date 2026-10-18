@@ -23,6 +23,34 @@ Aspose.Words for .NET 图形编程教程提供了全面的资源，帮助您学�
 
  ## 教程
 标题 | 描述 |
+
+{{< tutorial-card link="./uniform-data-labels/" title="使用 Aspose.Words for .NET 在柱形图中设置统一的数据标签" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="使用 Aspose.Words for .NET 在 Word 中更改页面尺寸时按比例调整图表大小" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="使用 Aspose.Words for .NET 在 Word 文档中插入自定义柱形图" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./hide-plot-border/" title="使用 Aspose.Words for .NET 隐藏柱形图的绘图区边框" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="使用 Aspose.Words for .NET 从 Word 文档中删除图表系列" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-sample-column-chart/" title="使用 Aspose.Words for .NET 在 Word 文档中插入示例柱形图" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-named-series/" title="使用 Aspose.Words for .NET 在 Word 中的直方图图表添加命名数据系列" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="使用 Aspose.Words for .NET 验证 Word 文档中的图表系列和数据点" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="使用 Aspose.Words for .NET 定制柱形图中的 X 轴网格线" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="使用 Aspose.Words for .NET 在 Word 折线图中格式化次要 X 轴并将显示单位设置为千。" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="使用 Aspose.Words for .NET 在 Word 中更新图表标题并切换图例可见性" imgSrc="./update-chart-title/images/thumb.png" >}}
+
+
+
+
+
+
 | --- | --- |
 | [图表中数据标签的格式数量](./format-number-of-data-label/) 学习如何使用 Aspose.Words for .NET 格式化图表中的数据标签，并遵循本分步指南。轻松增强您的 Word 文档。|
 | [使用形状创建和自定义图表](./create-chart-using-shape/) 学习如何使用 Aspose.Words for .NET 在 Word 文档中创建和自定义图表，本指南循序渐进，助您轻松实现数据可视化。|

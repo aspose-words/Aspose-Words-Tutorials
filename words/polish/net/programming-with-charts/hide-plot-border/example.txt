@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Ten tutorial pokazuje, jak utworzyć dokument Word, wstawić wykres kolumnowy, wypełnić go przykładowymi danymi, ukryć obramowanie obszaru wykresu, zachowując widoczne linie osi, oraz na końcu zapisać dokument.
+//ExStepSummary:0: Utwórz nowy pusty dokument Word oraz obiekt DocumentBuilder do jego edycji.
+//ExStepSummary:1: Wstaw wykres kolumnowy o wymiarach 432×252 do dokumentu i uzyskaj jego obiekt Chart.
+//ExStepSummary:2: Wyczyść istniejące serie, zdefiniuj trzy etykiety kategorii i dodaj serię z przykładowymi wartościami do wykresu.
+//ExStepSummary:3: Ustaw grubość obrysu obszaru wykresu na zero, usuwając jego obramowanie, pozostawiając jednocześnie widoczne linie osi.
+//ExStepSummary:4: Zapisz zmodyfikowany dokument do pliku .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+columnChart.Series.Clear();
+string[] labels = { "Group A", "Group B", "Group C" };
+columnChart.Series.Add("Demo Data", labels, new double[] { 10, 20, 30 });
+
+//ExStep:3-
+columnChart.Format.Stroke.Weight = 0;
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutPlotBorder.docx");
+//ExEnd

@@ -15,7 +15,7 @@ weight: 13
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Использование объектов Office Math в Aspose.Words для Java
+# Отображение математических формул в строке с Office Math в Aspose.Words for Java
 
 ## Введение в использование объектов Office Math в Aspose.Words для Java
 
@@ -74,7 +74,6 @@ OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true)
 ### Шаг 3: Установка типа отображения
 
 Управляйте тем, будет ли уравнение отображаться встроенно в окружающий текст или на отдельной строке:
-
 ```java
 officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
 ```

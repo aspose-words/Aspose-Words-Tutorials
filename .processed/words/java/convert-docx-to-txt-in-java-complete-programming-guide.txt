@@ -1,0 +1,7 @@
+Title: Convert docx to txt in Java – Complete Programming Guide
+Slug: convert-docx-to-txt-in-java-complete-programming-guide
+Category: document-converting
+ProcessedDate: 2026-06-08T19:21:13.285332
+SourceRepo: AI Search API
+Keywords: convert docx to txt, save word document as plain text file
+PRNumber: 202
