@@ -24,6 +24,34 @@
  ## บทช่วยสอน
 | ชื่อเรื่อง | คำอธิบาย |
 -
+
+{{< tutorial-card link="./uniform-data-labels/" title="ตั้งค่าป้ายกำกับข้อมูลแบบสม่ำเสมอในแผนภูมิคอลัมน์โดยใช้ Aspose.Words for .NET" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="ปรับขนาดแผนภูมิให้สัดส่วนเท่าเดิมเมื่อเปลี่ยนขนาดหน้าใน Word ด้วย Aspose.Words for .NET" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="แทรก Custom Column Chart ใน Word Document ด้วย Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./hide-plot-border/" title="ซ่อนขอบพื้นที่พล็อตในแผนภูมิคอลัมน์ด้วย Aspose.Words for .NET" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="ลบ Chart Series จาก Word Document ด้วย Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-sample-column-chart/" title="แทรกแผนภูมิคอลัมน์ตัวอย่างในเอกสาร Word ด้วย Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-named-series/" title="เพิ่มชุดข้อมูลที่มีชื่อให้กับแผนภูมิฮิสโตแกรมใน Word ด้วย Aspose.Words for .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="ตรวจสอบชุดข้อมูลและจุดข้อมูลของแผนภูมิในเอกสาร Word ด้วย Aspose.Words for .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="ปรับแต่งเส้นกริดแกน X ในแผนภูมิคอลัมน์โดยใช้ Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="จัดรูปแบบแกน X รองและตั้งหน่วยการแสดงผลเป็นพันในแผนภูมิเส้นของ Word โดยใช้ Aspose.Words for .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="อัปเดตชื่อแผนภูมิและสลับการแสดงผลของคำอธิบายใน Word ด้วย Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
+
+
+
+
+
+
 - [รูปแบบจำนวนป้ายข้อมูลในแผนภูมิ](./format-number-of-data-label/) | เรียนรู้วิธีจัดรูปแบบป้ายชื่อข้อมูลในแผนภูมิโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ ปรับปรุงเอกสาร Word ของคุณได้อย่างง่ายดาย -
 | [สร้างและปรับแต่งแผนภูมิโดยใช้รูปร่าง](./create-chart-using-shape/) | เรียนรู้วิธีสร้างและปรับแต่งแผนภูมิในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับการแสดงภาพข้อมูล -
 | [แทรกแผนภูมิคอลัมน์แบบง่ายในเอกสาร Word](./insert-simple-column-chart/) เรียนรู้วิธีแทรกแผนภูมิคอลัมน์แบบง่ายใน Word โดยใช้ Aspose.Words สำหรับ .NET ปรับปรุงเอกสารของคุณด้วยการนำเสนอข้อมูลภาพแบบไดนามิก -

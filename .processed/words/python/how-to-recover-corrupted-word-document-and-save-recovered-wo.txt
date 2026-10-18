@@ -1,0 +1,7 @@
+Title: How to recover corrupted Word document and save recovered Word file with Aspose.Words
+Slug: how-to-recover-corrupted-word-document-and-save-recovered-wo
+Category: document-operations
+ProcessedDate: 2026-08-20T23:08:34.800323
+SourceRepo: AI Search API
+Keywords: recover corrupted word document, save recovered word file
+PRNumber: 260

@@ -1,0 +1,7 @@
+Title: Convert docx to pdf with Python – Complete Guide
+Slug: convert-docx-to-pdf-with-python-complete-guide
+Category: document-conversion
+ProcessedDate: 2026-06-18T03:44:43.095294
+SourceRepo: AI Search API
+Keywords: convert docx to pdf, save word document as pdf, create pdf from word file, convert word document to pdf python, how to convert word to pdf
+PRNumber: 206

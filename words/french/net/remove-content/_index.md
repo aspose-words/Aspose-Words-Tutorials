@@ -28,7 +28,7 @@ Que vous ayez besoin de manipuler, créer, convertir ou générer des documents 
 | [Supprimer les sauts de section dans un document Word](./remove-section-breaks/) | Apprenez à supprimer les sauts de section dans vos documents Word avec Aspose.Words pour .NET. Ce guide détaillé, étape par étape, garantit une gestion et une édition fluides de vos documents.
 | [Supprimer les pieds de page dans un document Word](./remove-footers/) Apprenez à supprimer les pieds de page des documents Word à l'aide d'Aspose.Words pour .NET avec ce guide complet étape par étape. |
 | [Supprimer la table des matières dans un document Word](./remove-table-of-contents/) | Apprenez à supprimer la table des matières dans un document Word à l'aide d'Aspose.Words pour .NET. |
-
+| [Comment appeler un LLM en C# – Guide complet avec modèle local](./how-to-call-llm-in-c-complete-guide-with-local-model/) | Apprenez à intégrer un modèle de langage local dans vos applications C# grâce à ce guide complet étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

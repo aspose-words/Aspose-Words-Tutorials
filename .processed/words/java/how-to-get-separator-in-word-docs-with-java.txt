@@ -1,0 +1,7 @@
+Title: how to get separator in Word docs with Java
+Slug: how-to-get-separator-in-word-docs-with-java
+Category: using-document-elements
+ProcessedDate: 2026-08-14T11:14:15.276096
+SourceRepo: AI Search API
+Keywords: how to get separator, access footnote separator, load word document, display footnote separator
+PRNumber: 252
