@@ -56,6 +56,9 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
 | [Hogyan töltsünk be Word-öt C#-ban és írjuk át a bekezdést AI-val](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Tanulja meg, hogyan töltsön be Word dokumentumot C#-ban, és használjon AI-t a bekezdések átírásához. |
 | [Hogyan ellenőrizze a nyelvtant C#-ban az Aspose.Words AI segítségével](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Ismerje meg, hogyan használhatja az Aspose.Words AI-t a C# nyelvtani ellenőrzéshez, hogy javítsa dokumentumai minőségét. |
 | [Csatlakozás helyi LLM-hez C#-ban – Teljes programozási útmutató](./connect-to-local-llm-in-c-complete-programming-guide/) | Ismerje meg, hogyan csatlakoztathatja a helyi nagy nyelvi modellt C# alkalmazásához az Aspose.Words segítségével. |
+| [Hogyan használjuk az LLM-et az Aspose.Words-szal – Bekezdések átírása C#-ban](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Tanulja meg, hogyan használhatja az LLM-et az Aspose.Words-ben a bekezdések C#-os átírásához. |
+| [Hogyan ellenőrzze a nyelvtant C#-ban – Teljes útmutató Word dokumentumokhoz](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Tanulja meg, hogyan használhatja az Aspose.Words for .NET-et a nyelvtani ellenőrzéshez C#-ban Word dokumentumokban. |
+| [Word-dokumentum összefoglalása C#-ban – Teljes útmutató az Anthropic Claude használatával](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Ismerje meg, hogyan használhatja az Anthropic Claude modellt Word-dokumentumok C#-os összefoglalásához az Aspose.Words segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

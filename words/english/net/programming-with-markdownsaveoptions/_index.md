@@ -119,6 +119,7 @@ class Program
 | [How to Export Links: Convert DOCX to Markdown in C#](./how-to-export-links-convert-docx-to-markdown-in-c/) | Learn how to export links while converting DOCX to Markdown using Aspose.Words for .NET. |
 | [Convert DOCX to Markdown – Complete Guide to Export Word to Markdown](./convert-docx-to-markdown-complete-guide-to-export-word-to-ma/) | Learn how to convert DOCX files to Markdown with a comprehensive guide covering export options using Aspose.Words for .NET. |
 | [markdown image relative path – Convert Word to Markdown](./markdown-image-relative-path-convert-word-to-markdown/) | Learn how to convert Word documents to Markdown while preserving relative image paths using Aspose.Words for .NET. |
+| [How to Save Images – Convert DOCX to Markdown with Aspose.Words](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/) | Learn how to extract and save images while converting DOCX to Markdown using Aspose.Words for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

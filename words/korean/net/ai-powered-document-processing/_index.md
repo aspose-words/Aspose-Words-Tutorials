@@ -57,6 +57,9 @@
 | [C#에서 Word를 로드하고 AI로 단락을 재작성하는 방법](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Aspose.Words for .NET을 사용해 C#에서 Word 문서를 로드하고 AI로 단락을 자동 재작성하는 방법을 단계별로 안내합니다. |
 | [C#에서 Aspose.Words AI로 문법 검사하는 방법](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Aspose.Words AI를 활용해 C# 코드에서 문법 오류를 자동으로 감지하고 교정하는 단계별 가이드. |
 | [C#에서 로컬 LLM에 연결 – 완전 프로그래밍 가이드](./connect-to-local-llm-in-c-complete-programming-guide/) | C#을 사용해 로컬 LLM에 연결하고 활용하는 방법을 단계별로 안내합니다. |
+| [LLM을 사용하여 Aspose.Words와 함께 C#에서 문단 재작성하기](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Aspose.Words와 LLM을 사용해 C#에서 문단을 재작성하는 방법을 단계별로 안내합니다. |
+| [C#에서 문법 검사하기 – Word 문서를 위한 완전 가이드](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Aspose.Words for .NET을 사용하여 C#에서 Word 문서의 문법을 검사하는 방법을 단계별로 안내합니다. |
+| [Anthropic Claude를 사용한 C# Word 문서 요약 – 완전 가이드](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Aspose.Words for .NET과 Anthropic Claude를 사용하여 C#에서 Word 문서를 효율적으로 요약하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

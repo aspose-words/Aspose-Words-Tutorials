@@ -57,6 +57,9 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Cách tải Word trong C# và viết lại đoạn văn với AI](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Hướng dẫn tải tài liệu Word trong C# và sử dụng AI để tự động viết lại đoạn văn. |
 | [Cách kiểm tra ngữ pháp trong C# bằng Aspose.Words AI](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Hướng dẫn sử dụng Aspose.Words AI để kiểm tra và sửa lỗi ngữ pháp trong tài liệu C# một cách tự động. |
 | [Kết nối với LLM cục bộ trong C# – Hướng dẫn lập trình hoàn chỉnh](./connect-to-local-llm-in-c-complete-programming-guide/) | Hướng dẫn chi tiết cách kết nối Aspose.Words với LLM cục bộ trong C# để xử lý tài liệu thông minh. |
+| [Cách sử dụng LLM với Aspose.Words – Viết lại đoạn văn trong C#](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Khám phá cách sử dụng LLM với Aspose.Words để tự động viết lại các đoạn văn trong tài liệu C#. |
+| [Cách kiểm tra ngữ pháp trong C# – Hướng dẫn toàn diện cho tài liệu Word](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Tìm hiểu cách sử dụng Aspose.Words cho .NET để kiểm tra ngữ pháp tài liệu Word trong C# một cách chi tiết và hiệu quả. |
+| [Tóm tắt tài liệu Word trong C# – Hướng dẫn toàn diện sử dụng Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Khám phá cách sử dụng Anthropic Claude để tóm tắt tài liệu Word trong C# một cách chi tiết và hiệu quả. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

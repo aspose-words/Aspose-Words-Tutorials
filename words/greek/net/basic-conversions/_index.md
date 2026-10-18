@@ -63,6 +63,7 @@
 | [Μετατροπή docx σε txt – Εξαγωγή εξισώσεων Word σε LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/) | Μάθετε πώς να μετατρέπετε αρχεία docx σε txt και να εξάγετε τις εξισώσεις Word σε LaTeX. |
 | [Πώς να δημιουργήσετε PDF από Word σε C# – Οδηγός βήμα‑βήμα](./how-to-create-pdf-from-word-in-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε PDF από έγγραφα Word χρησιμοποιώντας Aspose.Words για .NET σε C# με οδηγίες βήμα‑βήμα. |
 | [Δημιουργία PDF από Word σε C# – Πλήρης Οδηγός LowCode](./create-pdf-from-word-in-c-complete-lowcode-guide/) | Μάθετε πώς να δημιουργήσετε PDF από έγγραφα Word σε C# χρησιμοποιώντας LowCode με βήμα‑βήμα οδηγίες. |
+| [Δημιουργία Προσβάσιμου PDF από DOCX σε C# – Πώς να Μετατρέψετε Word σε PDF](./create-accessible-pdf-from-docx-in-c-how-to-convert-word-to/) | Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF από DOCX χρησιμοποιώντας Aspose.Words για .NET σε C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

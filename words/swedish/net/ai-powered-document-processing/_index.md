@@ -56,6 +56,9 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Hur man laddar Word i C# och skriver om stycke med AI](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Lär dig att ladda ett Word-dokument i C# och använda AI för att omformulera stycken automatiskt. |
 | [Hur man kontrollerar grammatik i C# med Aspose.Words AI](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Lär dig att använda Aspose.Words AI för att automatiskt rätta grammatik i C#-applikationer. |
 | [Anslut till lokal LLM i C# – Komplett programmeringsguide](./connect-to-local-llm-in-c-complete-programming-guide/) | Lär dig hur du ansluter till en lokal LLM med C# och Aspose.Words för .NET i en komplett steg-för-steg-guide. |
+| [Hur du använder LLM med Aspose.Words – Omskriv stycken i C#](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Lär dig hur du integrerar en LLM för att automatiskt omskriva stycken i Word-dokument med C# och Aspose.Words. |
+| [Hur man kontrollerar grammatik i C# – Komplett guide för Word-dokument](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Lär dig hur du använder Aspose.Words för .NET för att automatiskt kontrollera grammatik i Word-dokument med C#. |
+| [Sammanfatta Word-dokument i C# – Komplett guide med Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Lär dig hur du använder Anthropic Claude för att automatiskt sammanfatta Word-dokument med C# och Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

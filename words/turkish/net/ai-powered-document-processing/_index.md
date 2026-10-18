@@ -57,6 +57,9 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [C#'ta Word Dosyası Yükleme ve Paragrafı AI ile Yeniden Yazma](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | C# ile Word belgesini yükleyip, AI kullanarak paragrafı nasıl yeniden yazacağınızı adım adım öğrenin. |
 | [C#'ta Aspose.Words AI ile Dilbilgisi Kontrolü Nasıl Yapılır](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Aspose.Words AI kullanarak C# içinde metinlerin dilbilgisini otomatik olarak kontrol etmeyi öğrenin. |
 | [C#'ta Yerel LLM'ye Bağlan – Tam Programlama Kılavuzu](./connect-to-local-llm-in-c-complete-programming-guide/) | C# kullanarak yerel LLM'ye bağlanmayı ve tam programlama rehberiyle entegrasyonu öğrenin. |
+| [LLM ile Aspose.Words Kullanımı – Paragrafları C#'ta Yeniden Yazma](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | LLM'leri Aspose.Words ile entegre ederek C#'ta paragrafları otomatik olarak yeniden yazmayı öğrenin. |
+| [C#'ta Dilbilgisi Kontrolü – Word Belgeleri için Tam Kılavuz](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Aspose.Words for .NET kullanarak C# ile Word belgelerinizde dilbilgisi hatalarını otomatik olarak tespit edip düzeltmeyi öğrenin. |
+| [C#'ta Word Belgesini Özetleme – Anthropic Claude Kullanarak Tam Kılavuz](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Anthropic Claude modelini kullanarak C# ile Word belgelerini nasıl özetleyeceğinizi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

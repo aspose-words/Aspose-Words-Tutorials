@@ -57,6 +57,9 @@
 | [如何在 C# 中載入 Word 並使用 AI 重寫段落](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) |示範如何使用 Aspose.Words for .NET 在 C# 中載入 Word 文件，並結合 AI 重寫指定段落，提高內容品質。 |
 | [使用 Aspose.Words AI 在 C# 中檢查文法](./how-to-check-grammar-in-c-with-aspose-words-ai/) |了解如何使用 Aspose.Words AI 在 C# 中檢查文法，提升文件品質與準確性。 |
 | [在 C# 中連接本地 LLM – 完整程式指南](./connect-to-local-llm-in-c-complete-programming-guide/) |學習如何在 C# 應用程式中連接本地大型語言模型，提供完整步驟與範例代碼，提升離線 AI 能力。 |
+| [如何使用 LLM 與 Aspose.Words – 在 C# 中改寫段落](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) |使用 Aspose.Words for .NET 結合大型語言模型，在 C# 中自動改寫段落以提升文件品質。 |
+| [如何在 C# 中檢查文法 – Word 文件完整指南](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) |使用 Aspose.Words for .NET 結合 AI 檢查 C# 程式碼中的文法，提升 Word 文件品質。 |
+| [在 C# 中彙總 Word 文件 – 使用 Anthropic Claude 的完整指南](./summarize-word-document-in-c-complete-guide-using-anthropic/) |使用 Aspose.Words for .NET 結合 Anthropic Claude，在 C# 中高效彙總 Word 文件，提升文件處理效率。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

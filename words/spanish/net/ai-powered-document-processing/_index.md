@@ -57,6 +57,9 @@ Por último, no olvides visitar nuestra [Trabajar con opciones de resumen](./wor
 | [Cómo cargar Word en C# y reescribir párrafos con IA](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Aprenda a cargar documentos Word en C# y reescribir párrafos usando IA con Aspose.Words para .NET. |
 | [Cómo comprobar la gramática en C# con Aspose.Words IA](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Aprenda a usar la IA de Aspose.Words para .NET y corregir la gramática en documentos de C# de forma automática. |
 | [Conectar a LLM local en C# – Guía completa de programación](./connect-to-local-llm-in-c-complete-programming-guide/) | Aprenda a conectar y usar un modelo de lenguaje local en C# con Aspose.Words, paso a paso. |
+| [Cómo usar LLM con Aspose.Words – Reescribir párrafos en C#](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Aprenda a integrar un modelo LLM con Aspose.Words para .NET y reescribir automáticamente párrafos en C# de forma sencilla. |
+| [Cómo comprobar la gramática en C# – Guía completa para documentos Word](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Aprenda a usar Aspose.Words para .NET y verificar la gramática en documentos Word con C# de forma sencilla. |
+| [Cómo resumir documentos Word en C# – Guía completa usando Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Aprenda a resumir documentos Word con Aspose.Words para .NET usando el modelo Claude de Anthropic. Guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

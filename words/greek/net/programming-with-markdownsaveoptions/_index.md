@@ -91,6 +91,7 @@
 | [Πώς να αποθηκεύσετε Markdown από το Word – Πλήρης Οδηγός για Εξαγωγή Εικόνων και Μετατροπή DOCX](./how-to-save-markdown-from-word-complete-guide-to-extract-ima/) | Μάθετε πώς να αποθηκεύσετε έγγραφα Word ως Markdown, εξάγοντας εικόνες και μετατρέποντας DOCX, με πλήρη οδηγό. |
 | [Μετατροπή DOCX σε Markdown – Πλήρης Οδηγός για Εξαγωγή Word σε Markdown](./convert-docx-to-markdown-complete-guide-to-export-word-to-ma/) | Μάθετε πώς να μετατρέψετε έγγραφα DOCX σε Markdown με πλήρη οδηγό βήμα‑βήμα χρησιμοποιώντας Aspose.Words για .NET. |
 | [σχετική διαδρομή εικόνας markdown – Μετατροπή Word σε Markdown](./markdown-image-relative-path-convert-word-to-markdown/) | Μάθετε πώς να ορίσετε σχετικές διαδρομές εικόνων κατά τη μετατροπή εγγράφων Word σε Markdown με Aspose.Words για .NET. |
+| [Αποθήκευση εικόνων – Μετατροπή DOCX σε Markdown με Aspose.Words](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/) | Μάθετε πώς να αποθηκεύσετε εικόνες από DOCX κατά τη μετατροπή σε Markdown με Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

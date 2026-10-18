@@ -57,6 +57,9 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Hoe Word in C# te laden en alinea te herschrijven met AI](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Leer hoe u met Aspose.Words en AI een Word-document laadt in C# en alinea's automatisch herschrijft. |
 | [Hoe grammatica te controleren in C# met Aspose.Words AI](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Leer hoe u met Aspose.Words AI grammaticale fouten in C#-code kunt detecteren en corrigeren. |
 | [Verbinden met lokale LLM in C# – Complete programmeergids](./connect-to-local-llm-in-c-complete-programming-guide/) | Leer hoe u in C# verbinding maakt met een lokale LLM en volledige programmeerinstructies volgt. |
+| [Samenvatten van Word-document in C# – Complete gids met Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Leer hoe u Word-documenten samenvat in C# met Anthropic Claude voor snelle inzichten. |
+| [Hoe LLM te gebruiken met Aspose.Words – Alinea's herschrijven in C#](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Leer hoe u met LLM's en Aspose.Words alinea's automatisch kunt herschrijven in C# voor efficiëntere documentbewerking. |
+| [Hoe grammatica te controleren in C# – Complete gids voor Word-documenten](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Leer hoe u grammatica controleert in C# voor Word-documenten met Aspose.Words, inclusief stapsgewijze voorbeelden. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

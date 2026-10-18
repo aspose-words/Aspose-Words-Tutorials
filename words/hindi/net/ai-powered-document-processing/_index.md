@@ -56,6 +56,9 @@
 | [C# में Word लोड करें और AI के साथ पैराग्राफ पुनर्लेखन](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | C# में Aspose.Words से Word लोड करके AI के साथ पैराग्राफ को पुनः लिखना सीखें। |
 | [Aspose.Words AI के साथ C# में व्याकरण जांच कैसे करें](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Aspose.Words AI का उपयोग करके C# में दस्तावेज़ों का व्याकरण कैसे जांचें, सीखें। |
 | [C# में स्थानीय LLM से कनेक्ट करें – पूर्ण प्रोग्रामिंग गाइड](./connect-to-local-llm-in-c-complete-programming-guide/) | C# में स्थानीय बड़े भाषा मॉडल को जोड़ने और उपयोग करने के लिए चरण-दर-चरण मार्गदर्शिका। |
+| [C# में व्याकरण जांच कैसे करें – Word दस्तावेज़ों के लिए पूर्ण गाइड](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ों में व्याकरण जांच करने की पूरी प्रक्रिया सीखें। |
+| [LLM के साथ Aspose.Words का उपयोग कैसे करें – C# में पैराग्राफ पुनर्लेखन](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | C# में Aspose.Words के साथ LLM का उपयोग करके पैराग्राफ को पुनर्लेखित करने की प्रक्रिया सीखें। |
+| [C# में Word दस्तावेज़ का सारांश – Anthropic Claude का उपयोग करके पूर्ण गाइड](./summarize-word-document-in-c-complete-guide-using-anthropic/) | C# में Aspose.Words और Anthropic Claude का उपयोग करके Word दस्तावेज़ को प्रभावी रूप से सारांशित करने की पूरी प्रक्रिया सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

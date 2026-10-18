@@ -56,6 +56,9 @@
 | [Πώς να φορτώσετε Word σε C# και να ξαναγράψετε παράγραφο με AI](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Μάθετε πώς να φορτώσετε ένα έγγραφο Word σε C# και να χρησιμοποιήσετε AI για να ξαναγράψετε μια παράγραφο. |
 | [Πώς να ελέγξετε τη γραμματική σε C# με το Aspose.Words AI](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words AI για αυτόματο έλεγχο γραμματικής σε κώδικα C#. |
 | [Σύνδεση με τοπικό LLM σε C# – Πλήρης Οδηγός Προγραμματισμού](./connect-to-local-llm-in-c-complete-programming-guide/) | Μάθετε πώς να συνδέσετε ένα τοπικό μοντέλο γλώσσας σε C# χρησιμοποιώντας το Aspose.Words για .NET. |
+| [Σύνοψη εγγράφου Word σε C# – Πλήρης οδηγός με χρήση του Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Μάθετε πώς να χρησιμοποιήσετε το μοντέλο Anthropic Claude για να συνοψίσετε έγγραφα Word σε C# με το Aspose.Words. |
+| [Πώς να χρησιμοποιήσετε LLM με το Aspose.Words – Επαναγράψτε παραγράφους σε C#](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Μάθετε πώς να ενσωματώσετε μοντέλα γλώσσας για την επαναγραφή παραγράφων σε έγγραφα Word χρησιμοποιώντας C# και Aspose.Words. |
+| [Πώς να ελέγξετε τη γραμματική σε C# – Πλήρης οδηγός για έγγραφα Word](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Μάθετε πώς να ενσωματώσετε έλεγχο γραμματικής σε έγγραφα Word χρησιμοποιώντας Aspose.Words για .NET και C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

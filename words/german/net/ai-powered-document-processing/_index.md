@@ -57,6 +57,9 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [Wie man Word in C# lädt und Absatz mit KI umschreibt](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Lernen Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument in C# laden und mithilfe von KI Absätze automatisch neu formulieren. |
 | [Wie man Grammatik in C# mit Aspose.Words KI prüft](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Erfahren Sie, wie Sie mit Aspose.Words KI Grammatikprüfungen in C#‑Anwendungen implementieren und Texte automatisch korrigieren. |
 | [Verbindung zu lokalem LLM in C# – Vollständiger Programmierleitfaden](./connect-to-local-llm-in-c-complete-programming-guide/) | Erfahren Sie, wie Sie in C# eine Verbindung zu einem lokalen LLM herstellen und KI‑Funktionen in Ihre Anwendungen integrieren. |
+| [LLM mit Aspose.Words verwenden – Absätze in C# umschreiben](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Erfahren Sie, wie Sie mit LLMs und Aspose.Words in C# Absätze neu formulieren, um Inhalte zu verbessern und zu vereinfachen. |
+| [Wie man Grammatik in C# prüft – Vollständiger Leitfaden für Word-Dokumente](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Grammatik in C#-Anwendungen prüfen und Word-Dokumente automatisch korrigieren. |
+| [Word-Dokument zusammenfassen in C# – Vollständiger Leitfaden mit Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und Anthropic Claude Word-Dokumente in C# effizient zusammenfassen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

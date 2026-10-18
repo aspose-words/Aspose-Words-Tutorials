@@ -57,6 +57,7 @@ Basic Conversions จะแนะนำคุณเกี่ยวกับก�
 - [บันทึก docx เป็น txt – คู่มือฉบับสมบูรณ์เพื่อส่งออกสมการ Word เป็น LaTeX](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น TXT พร้อมส่งออกสมการ Word เป็น LaTeX อย่างละเอียด -
 - [แปลง PNG เป็น Base64 ใน C# – คู่มือฉบับสมบูรณ์](./convert-png-to-base64-in-c-complete-guide/) | เรียนรู้วิธีแปลงไฟล์ PNG เป็นสตริง Base64 ด้วย C# อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน -
 - [สร้าง PDF ที่เข้าถึงได้จาก Word – คู่มือขั้นตอนโดยละเอียด](./create-accessible-pdf-from-word-step-by-step-guide/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากไฟล์ Word ด้วย Aspose.Words สำหรับ .NET อย่างละเอียดและง่ายต่อการทำตาม -
+- [สร้าง PDF ที่เข้าถึงได้จาก DOCX ด้วย C# – วิธีแปลง Word เป็น PDF](./create-accessible-pdf-from-docx-in-c-how-to-convert-word-to/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากไฟล์ DOCX ด้วย C# และ Aspose.Words พร้อมขั้นตอนและตัวอย่างโค้ดที่ชัดเจน -
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

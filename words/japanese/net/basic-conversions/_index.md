@@ -56,6 +56,7 @@
 | [C# で Word から PDF を作成する – ステップバイステップガイド](./how-to-create-pdf-from-word-in-c-step-by-step-guide/) Aspose.Words for .NET を使用して C# で Word 文書を PDF に変換する手順を、コード例と共に詳しく解説します。 |
 | [C# で Word から PDF を作成する – 完全 LowCode ガイド](./create-pdf-from-word-in-c-complete-lowcode-guide/) Aspose.Words for .NET を使用して、C# で Word 文書から PDF を低コードで作成する完全ガイドです。ステップバイステップのコード例を提供します。 |
 | [C#でdocxをPDFに変換する – ステップバイステップ ガイド](./convert-docx-to-pdf-with-c-step-by-step-guide/) Aspose.Words for .NET を使用して C# で docx を PDF に変換する方法をステップバイステップで解説します。コード例付きで開発者に最適です。 |
+| [C# で DOCX からアクセシブル PDF を作成 – Word を PDF に変換する方法](./create-accessible-pdf-from-docx-in-c-how-to-convert-word-to/) Aspose.Words for .NET を使用して C# で DOCX からアクセシブル PDF を作成する方法をステップバイステップで解説します。 |
 
 | [DOCX からアクセシブル PDF を作成する – 完全 Aspose ガイド](./create-accessible-pdf-from-docx-complete-aspose-guide/) Aspose.Words for .NET を使用して、DOCX からアクセシブルな PDF を生成する方法をステップバイステップで解説します。コード例付きで開発者に最適です。 |
 | [C# で PNG を Base64 に変換する – 完全ガイド](./convert-png-to-base64-in-c-complete-guide/) C# で PNG 画像を Base64 文字列に変換する方法を、コード例と共にステップバイステップで解説します。 |

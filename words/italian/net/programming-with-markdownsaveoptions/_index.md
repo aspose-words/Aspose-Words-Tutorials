@@ -93,6 +93,7 @@
 | [Come salvare Markdown da Word con immagini – Guida completa C#](./how-to-save-markdown-from-word-with-images-complete-c-guide/) | Scopri come salvare documenti Word in Markdown includendo le immagini con una guida completa in C#. |
 | [Salva Word come Markdown – Guida completa per convertire DOCX ed estrarre immagini](./save-word-as-markdown-complete-guide-to-convert-docx-and-ext/) | Impara a convertire file DOCX in Markdown ed estrarre le immagini con una guida completa passo‑passo in C#. |
 | [Percorso relativo immagine markdown – Converti Word in Markdown](./markdown-image-relative-path-convert-word-to-markdown/) | Converti documenti Word in Markdown gestendo percorsi relativi delle immagini per un output corretto. |
+| [Come salvare immagini – Converti DOCX in Markdown con Aspose.Words](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/) | Scopri come estrarre e salvare le immagini da file DOCX durante la conversione in Markdown usando Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

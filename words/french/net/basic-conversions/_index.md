@@ -64,6 +64,7 @@ Conversions de base vous guide dans les conversions de documents de base avec la
 | [Comment créer un PDF à partir de DOCX en C# – Guide étape par étape](./how-to-create-pdf-from-docx-in-c-step-by-step-guide/) | Apprenez à créer un PDF à partir d'un fichier DOCX en C# avec Aspose.Words, guide complet étape par étape. |
 | [Comment créer un PDF à partir de Word en C# – Guide étape par étape](./how-to-create-pdf-from-word-in-c-step-by-step-guide/) | Apprenez à créer un PDF à partir d'un document Word en C# avec Aspose.Words, guide complet étape par étape. |
 | [Créer un PDF à partir de Word en C# – Guide complet LowCode](./create-pdf-from-word-in-c-complete-lowcode-guide/) | Apprenez à générer un PDF à partir d'un document Word en C# avec Aspose.Words, en suivant un guide complet LowCode. |
+| [Créer un PDF accessible à partir de DOCX en C# – Comment convertir Word en PDF](./create-accessible-pdf-from-docx-in-c-how-to-convert-word-to/) | Apprenez à générer un PDF accessible depuis un fichier DOCX en C# avec Aspose.Words, incluant les balises d'accessibilité. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

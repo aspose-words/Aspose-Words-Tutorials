@@ -75,6 +75,7 @@ Bahasa Indonesia: [Atur Folder Font](./set-fonts-folder/) | Pelajari cara mengat
 | [Cara Mendeteksi Font di C# – Gunakan Callback dengan Aspose.Words](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | Pelajari cara mendeteksi font dalam C# menggunakan callback dengan Aspose.Words. |
 | [Cara Menangkap Peringatan – Atur Pengaturan Font Default](./how-to-capture-warnings-set-default-font-settings/) | Pelajari cara menangkap peringatan dan mengatur pengaturan font default menggunakan Aspose.Words untuk .NET. Bahasa Indonesia:
 | [Buat panggilan balik peringatan untuk memuat dokumen Word – Panduan Lengkap](./create-warning-callback-for-loading-word-documents-complete/) | Pelajari cara membuat callback peringatan saat memuat dokumen Word menggunakan Aspose.Words untuk .NET. |
+| [Penggantian Font Aspose: Deteksi Font Hilang dalam Dokumen Word](./aspose-font-substitution-detect-missing-fonts-in-word-docs/) | Pelajari cara mendeteksi font yang hilang dalam dokumen Word menggunakan Aspose.Words untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

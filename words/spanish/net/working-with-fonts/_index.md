@@ -22,7 +22,7 @@ Los tutoriales ofrecen explicaciones detalladas paso a paso de cada función, ju
 
 Ya sea que desee formatear texto con diferentes fuentes, establecer reglas de sustitución de fuentes, cargar fuentes desde directorios específicos o recibir notificaciones de fuentes, los tutoriales "Procesamiento de textos con fuentes" le proporcionaràn el conocimiento para realizar estas tareas con facilidad.
 
- ## Tutoriales
+## Tutoriales
 | Título | Descripción |
 | --- | --- |
 | [Formato de fuente](./font-formatting/) | Aprenda a formatear fuentes en documentos de Word usando Aspose.Words para .NET con una guía detallada paso a paso. |
@@ -73,6 +73,7 @@ Ya sea que desee formatear texto con diferentes fuentes, establecer reglas de su
 | [Cómo capturar advertencias – Configurar la fuente predeterminada](./how-to-capture-warnings-set-default-font-settings/) | Aprenda a capturar advertencias y establecer la configuración de fuente predeterminada con Aspose.Words para .NET. |
 | [Guardar documento Word – Detectar fuentes faltantes con Aspose.Words](./save-word-document-detect-missing-fonts-with-aspose-words/) | Aprenda a guardar documentos Word detectando fuentes faltantes usando Aspose.Words para .NET. |
 | [Crear devolución de llamada de advertencia al cargar documentos Word – Guía completa](./create-warning-callback-for-loading-word-documents-complete/) | Aprenda a crear una devolución de llamada de advertencia al cargar documentos Word con Aspose.Words para .NET en esta guía paso a paso. |
+| [Sustitución de fuentes Aspose: Detectar fuentes faltantes en documentos Word](./aspose-font-substitution-detect-missing-fonts-in-word-docs/) | Aprenda a detectar fuentes faltantes en documentos Word usando Aspose.Words para .NET con esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

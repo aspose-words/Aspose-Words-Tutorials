@@ -76,12 +76,11 @@
 | [كيفية اكتشاف الخطوط في C# – استخدام رد الاتصال مع Aspose.Words](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | تعلم كيفية اكتشاف الخطوط في مستندات Word باستخدام C# و Aspose.Words عبر رد الاتصال. |
 | [حفظ مستند Word – اكتشاف الخطوط المفقودة باستخدام Aspose.Words](./save-word-document-detect-missing-fonts-with-aspose-words/) |تعلم كيفية حفظ مستند Word مع الكشف عن الخطوط المفقودة باستخدام Aspose.Words لـ .NET. |
 
+| [استبدال الخطوط في Aspose: اكتشاف الخطوط المفقودة في مستندات Word](./aspose-font-substitution-detect-missing-fonts-in-word-docs/) |تعرف على كيفية اكتشاف الخطوط المفقودة في مستندات Word باستخدام Aspose.Words لـ .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

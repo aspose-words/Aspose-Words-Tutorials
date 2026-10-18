@@ -217,6 +217,8 @@ Lär dig steg‑för‑steg hur du sparar Word‑dokument som Markdown och extra
 Lär dig konvertera DOCX-filer till Markdown med en komplett guide för export av Word-dokument.
 ### [Markdown‑bild relativ sökväg – Konvertera Word till Markdown](./markdown-image-relative-path-convert-word-to-markdown/)
 Lär dig hur du använder relativa bildsökvägar när du konverterar Word-dokument till Markdown med Aspose.Words för .NET.
+### [Spara bilder – Konvertera DOCX till Markdown med Aspose.Words](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/)
+Lär dig spara bilder när du konverterar DOCX till Markdown med Aspose.Words för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

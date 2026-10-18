@@ -72,6 +72,7 @@
 | [自訂字體設定（C#）– 載入 Word 並處理缺少的字體](./custom-font-settings-in-c-load-word-handle-missing-fonts/) |了解如何在 Aspose.Words for .NET 中使用 C# 設定自訂字體、載入 Word 文件並處理缺失字體。 |
 | [處理缺失字體於 Aspose.Words – 完整 C# 指南](./handle-missing-fonts-in-aspose-words-complete-c-guide/) |了解如何在 Aspose.Words for .NET 中偵測與處理缺失的字體，確保文件正確呈現。 |
 | [建立載入 Word 文件的警告回呼 – 完整指南](./create-warning-callback-for-loading-word-documents-complete/) |了解如何在 Aspose.Words for .NET 中設定警告回呼，以在載入 Word 文件時接收並處理警告訊息。 |
+| [Aspose 字體替換：偵測 Word 文件中缺失的字體](./aspose-font-substitution-detect-missing-fonts-in-word-docs/) |了解如何使用 Aspose.Words for .NET 偵測 Word 文件中缺失的字體並處理字體替換。 |
 
 | [使用 FontSettings 處理缺失字體](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) |了解如何在 Aspose.Words for .NET 中使用 FontSettings 來偵測並處理缺少的字體。 |
 

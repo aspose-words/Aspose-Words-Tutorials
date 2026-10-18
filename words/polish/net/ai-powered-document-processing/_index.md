@@ -56,6 +56,9 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Jak załadować dokument Word w C# i przepisać akapit przy użyciu AI](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Naucz się wczytywać dokumenty Word w C# i automatycznie przepisywać akapity przy pomocy AI w Aspose.Words. |
 | [Jak sprawdzić gramatykę w C# przy użyciu Aspose.Words AI](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Dowiedz się, jak wykorzystać Aspose.Words AI w C# do automatycznej kontroli gramatyki w dokumentach Word. |
 | [Połączenie z lokalnym modelem LLM w C# – Kompletny przewodnik programistyczny](./connect-to-local-llm-in-c-complete-programming-guide/) | Dowiedz się, jak w C# podłączyć lokalny model LLM i wykorzystać go w Aspose.Words do przetwarzania dokumentów. |
+| [Jak używać LLM z Aspose.Words – Przepisanie akapitów w C#](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Dowiedz się, jak wykorzystać modele językowe do automatycznego przepisywania akapitów w dokumentach Word przy użyciu C# i Aspose.Words. |
+| [Jak sprawdzić gramatykę w C# – Kompletny przewodnik po dokumentach Word](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Dowiedz się, jak używać Aspose.Words dla .NET do sprawdzania gramatyki w dokumentach Word przy pomocy C#. |
+| [Podsumuj dokument Word w C# – Kompletny przewodnik z użyciem Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Dowiedz się, jak podsumować dokumenty Word w C# przy użyciu modelu Anthropic Claude i Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
