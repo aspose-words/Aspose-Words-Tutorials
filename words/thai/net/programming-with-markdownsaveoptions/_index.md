@@ -98,6 +98,8 @@
 ### [วิธีส่งออก LaTeX จาก Word – แปลง DOCX เป็น Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 ### [แปลง DOCX เป็น Markdown – คู่มือเต็มเพื่อส่งออก Word เป็น Markdown](./convert-docx-to-markdown-complete-guide-to-export-word-to-ma/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown อย่างละเอียดด้วยคู่มือเต็มสำหรับการส่งออก Word ไปเป็น Markdown
+### [เส้นทางรูปภาพแบบสัมพันธ์ใน Markdown – แปลง Word เป็น Markdown](./markdown-image-relative-path-convert-word-to-markdown/)
+เรียนรู้วิธีกำหนดเส้นทางรูปภาพแบบสัมพันธ์เมื่อแปลงไฟล์ Word เป็น Markdown ด้วย Aspose.Words สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,6 +56,7 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [C# ile Word Belgesinde Dilbilgisi Kontrolü – Tam Programlama Rehberi](./check-grammar-word-document-in-c-complete-programming-guide/) | Aspose.Words for .NET kullanarak C# ile Word belgelerindeki dilbilgisini otomatik olarak kontrol etmeyi öğrenin. |
 | [C#'ta Word Dosyası Yükleme ve Paragrafı AI ile Yeniden Yazma](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | C# ile Word belgesini yükleyip, AI kullanarak paragrafı nasıl yeniden yazacağınızı adım adım öğrenin. |
 | [C#'ta Aspose.Words AI ile Dilbilgisi Kontrolü Nasıl Yapılır](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Aspose.Words AI kullanarak C# içinde metinlerin dilbilgisini otomatik olarak kontrol etmeyi öğrenin. |
+| [C#'ta Yerel LLM'ye Bağlan – Tam Programlama Kılavuzu](./connect-to-local-llm-in-c-complete-programming-guide/) | C# kullanarak yerel LLM'ye bağlanmayı ve tam programlama rehberiyle entegrasyonu öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

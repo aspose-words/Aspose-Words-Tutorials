@@ -39,7 +39,7 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | Tytuł | Opis |
 | --- | --- |
 | [Praca z modelem AI](./working-with-ai-model/) | Dowiedz się, jak używać Aspose.Words dla .NET do podsumowywania dokumentów za pomocą AI. Proste kroki w celu ulepszenia zarządzania dokumentami. |
-| [Praca z modelem Google AI](./working-with-google-ai-model/) Ulepsz przetwarzanie dokumentów dzięki Aspose.Words for .NET i Google AI, aby bez wysiłku tworzyć zwięzłe podsumowania. |
+| [Praca z modelem Google AI](./working-with-google-ai-model/) | Ulepsz przetwarzanie dokumentów dzięki Aspose.Words for .NET i Google AI, aby bez wysiłku tworzyć zwięzłe podsumowania. |
 | [Praca z otwartym modelem AI](./working-with-open-ai-model/) | Odblokuj wydajne podsumowanie dokumentów za pomocą Aspose.Words dla .NET z potężnymi modelami OpenAI. Zanurz się w tym kompleksowym przewodniku już teraz. |
 | [Praca z opcjami podsumowania](./working-with-summarize-options/) | Naucz się skutecznie podsumowywać dokumenty Word za pomocą Aspose.Words dla platformy .NET dzięki naszemu przewodnikowi krok po kroku dotyczącemu integrowania modeli AI w celu szybkiego uzyskiwania analiz. |
 | [Podsumowanie dokumentu Word w C# – Kompletny przewodnik z AI](./summarize-word-document-in-c-complete-ai-powered-guide/) | Kompletny przewodnik, jak używać Aspose.Words dla .NET i AI do podsumowywania dokumentów Word w C#. |
@@ -55,6 +55,7 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Sprawdź gramatykę dokumentu Word w C# – Kompletny przewodnik programistyczny](./check-grammar-word-document-in-c-complete-programming-guide/) | Dowiedz się, jak używać Aspose.Words dla .NET do sprawdzania gramatyki w dokumentach Word przy użyciu C# w pełnym przewodniku. |
 | [Jak załadować dokument Word w C# i przepisać akapit przy użyciu AI](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Naucz się wczytywać dokumenty Word w C# i automatycznie przepisywać akapity przy pomocy AI w Aspose.Words. |
 | [Jak sprawdzić gramatykę w C# przy użyciu Aspose.Words AI](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Dowiedz się, jak wykorzystać Aspose.Words AI w C# do automatycznej kontroli gramatyki w dokumentach Word. |
+| [Połączenie z lokalnym modelem LLM w C# – Kompletny przewodnik programistyczny](./connect-to-local-llm-in-c-complete-programming-guide/) | Dowiedz się, jak w C# podłączyć lokalny model LLM i wykorzystać go w Aspose.Words do przetwarzania dokumentów. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -90,6 +90,7 @@ Words Processing with MarkdownSaveOptions, .NET için Aspose.Words kütüphanesi
 | [docx'i C# ile markdown'a dönüştür – Tam Rehber](./convert-docx-to-markdown-in-c-complete-guide/) | Aspose.Words for .NET kullanarak docx dosyasını C# ile markdown formatına tamamen dönüştürün. Adım adım rehber. |
 | [Word'den Markdown Kaydetme – Görüntüleri Çıkarma ve DOCX Dönüştürme Tam Rehberi](./how-to-save-markdown-from-word-complete-guide-to-extract-ima/) | Aspose.Words for .NET kullanarak Word belgelerinden Markdown kaydedin, görüntüleri çıkarın ve DOCX dosyalarını dönüştürün. |
 | [DOCX'i Markdown'a Dönüştür – Word'u Markdown'a Dışa Aktarma Tam Rehberi](./convert-docx-to-markdown-complete-guide-to-export-word-to-ma/) | Aspose.Words for .NET kullanarak DOCX dosyasını Markdown'a dışa aktarmak için tam adım adım rehber. |
+| [Markdown Görüntü Göreli Yolu – Word'ü Markdown'a Dönüştür](./markdown-image-relative-path-convert-word-to-markdown/) | Aspose.Words for .NET kullanarak Word belgelerindeki görüntülerin göreli yolunu ayarlayarak Markdown'a dönüştürmeyi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -55,6 +55,7 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Kontrollera grammatik i Word-dokument i C# – Komplett programmeringsguide](./check-grammar-word-document-in-c-complete-programming-guide/) | Lär dig hur du använder Aspose.Words för .NET för att automatiskt rätta grammatik i Word-dokument med C#. |
 | [Hur man laddar Word i C# och skriver om stycke med AI](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Lär dig att ladda ett Word-dokument i C# och använda AI för att omformulera stycken automatiskt. |
 | [Hur man kontrollerar grammatik i C# med Aspose.Words AI](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Lär dig att använda Aspose.Words AI för att automatiskt rätta grammatik i C#-applikationer. |
+| [Anslut till lokal LLM i C# – Komplett programmeringsguide](./connect-to-local-llm-in-c-complete-programming-guide/) | Lär dig hur du ansluter till en lokal LLM med C# och Aspose.Words för .NET i en komplett steg-för-steg-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,6 +56,7 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Kiểm tra ngữ pháp tài liệu Word trong C# – Hướng dẫn lập trình đầy đủ](./check-grammar-word-document-in-c-complete-programming-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET để kiểm tra ngữ pháp tài liệu Word bằng C#. |
 | [Cách tải Word trong C# và viết lại đoạn văn với AI](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Hướng dẫn tải tài liệu Word trong C# và sử dụng AI để tự động viết lại đoạn văn. |
 | [Cách kiểm tra ngữ pháp trong C# bằng Aspose.Words AI](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Hướng dẫn sử dụng Aspose.Words AI để kiểm tra và sửa lỗi ngữ pháp trong tài liệu C# một cách tự động. |
+| [Kết nối với LLM cục bộ trong C# – Hướng dẫn lập trình hoàn chỉnh](./connect-to-local-llm-in-c-complete-programming-guide/) | Hướng dẫn chi tiết cách kết nối Aspose.Words với LLM cục bộ trong C# để xử lý tài liệu thông minh. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

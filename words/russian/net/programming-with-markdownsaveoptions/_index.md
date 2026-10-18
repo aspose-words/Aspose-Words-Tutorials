@@ -91,6 +91,7 @@
 | [Конвертировать DOCX в Markdown на C# – Полное руководство](./convert-docx-to-markdown-in-c-complete-guide/) | Подробное руководство по конвертации файлов DOCX в Markdown с помощью C# и Aspose.Words для .NET. |
 | [Как сохранить Markdown из Word – Полное руководство по извлечению изображений и конвертации DOCX](./how-to-save-markdown-from-word-complete-guide-to-extract-ima/) | Полное руководство по сохранению Markdown из Word с извлечением изображений и конвертацией DOCX с помощью Aspose.Words. |
 | [Конвертировать DOCX в Markdown – Полное руководство по экспорту Word в Markdown](./convert-docx-to-markdown-complete-guide-to-export-word-to-ma/) | Полное руководство по конвертации DOCX в Markdown с использованием Aspose.Words для .NET. |
+| [Относительный путь к изображению Markdown – Конвертировать Word в Markdown](./markdown-image-relative-path-convert-word-to-markdown/) | Конвертируйте документы Word в Markdown, используя относительные пути к изображениям. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,6 +56,7 @@
 | [تحقق من قواعد مستند Word في C# – دليل برمجة كامل](./check-grammar-word-document-in-c-complete-programming-guide/) | دليل شامل لفحص قواعد مستند Word باستخدام C# و Aspose.Words، مع خطوات عملية لتصحيح الأخطاء اللغوية. |
 | [كيفية تحميل مستند Word في C# وإعادة كتابة الفقرة باستخدام الذكاء الاصطناعي](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | تعلم كيفية تحميل مستند Word في C# وإعادة صياغة الفقرات باستخدام نماذج الذكاء الاصطناعي. |
 | [كيفية التحقق من القواعد النحوية في C# باستخدام Aspose.Words AI](./how-to-check-grammar-in-c-with-aspose-words-ai/) | تعلم كيفية استخدام Aspose.Words AI في C# للتحقق من القواعد النحوية للمستندات وتحسين جودة النص. |
+| [الاتصال بنموذج لغة كبير محلي في C# – دليل برمجة كامل](./connect-to-local-llm-in-c-complete-programming-guide/) | تعلم كيفية ربط Aspose.Words بـ LLM محلي باستخدام C# في دليل برمجة شامل. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

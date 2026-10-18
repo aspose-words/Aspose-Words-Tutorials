@@ -31,6 +31,7 @@ Les tutoriels Aspose.Words pour .NET sur le traitement de texte avec OfficeMath 
 | [Convertir Word en LaTeX – Guide complet C# pour exporter Office Math en LaTeX](./convert-word-to-latex-complete-c-guide-to-export-office-math/) | Apprenez à convertir des documents Word contenant des équations Office Math en LaTeX à l'aide de C# avec Aspose.Words. |
 | [Enregistrer docx en txt – Exporter les formules Word en LaTeX en C#](./save-docx-as-txt-export-word-math-to-latex-in-c/) | Apprenez à convertir un document DOCX en fichier texte et à exporter les équations Word au format LaTeX avec C# et Aspose.Words. |
 | [Enregistrer Office Math LaTeX – Exporter les équations Word en LaTeX en C#](./save-office-math-latex-export-word-equations-to-latex-in-c/) | Apprenez à exporter les équations OfficeMath d’un document Word au format LaTeX avec C#. |
+| [Convertir DOCX en TXT – Exporter les équations Word en LaTeX en C#](./convert-docx-to-txt-export-word-equations-to-latex-in-c/) | Apprenez à convertir un fichier DOCX en TXT et à exporter les équations Word au format LaTeX en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

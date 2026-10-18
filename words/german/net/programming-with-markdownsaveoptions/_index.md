@@ -218,6 +218,8 @@ Erfahren Sie, wie Sie Markdown aus Word speichern, Bilder extrahieren und DOCX k
 
 ### [DOCX in Markdown konvertieren – Vollständige Anleitung zum Exportieren von Word nach Markdown](./convert-docx-to-markdown-complete-guide-to-export-word-to-ma/)
 Erfahren Sie, wie Sie DOCX‑Dateien vollständig nach Markdown exportieren – umfassende Schritt‑für‑Schritt‑Anleitung in C#.
+### [Markdown‑Bild relativer Pfad – Word zu Markdown konvertieren](./markdown-image-relative-path-convert-word-to-markdown/)
+Erfahren Sie, wie Sie beim Konvertieren von Word nach Markdown relative Bildpfade korrekt setzen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

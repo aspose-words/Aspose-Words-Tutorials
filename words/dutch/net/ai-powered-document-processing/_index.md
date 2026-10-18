@@ -56,6 +56,7 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Grammatica controleren in Word-document met C# – Complete programmeergids](./check-grammar-word-document-in-c-complete-programming-guide/) | Leer hoe u met Aspose.Words voor .NET grammatica in Word-documenten kunt controleren en corrigeren via C#. |
 | [Hoe Word in C# te laden en alinea te herschrijven met AI](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Leer hoe u met Aspose.Words en AI een Word-document laadt in C# en alinea's automatisch herschrijft. |
 | [Hoe grammatica te controleren in C# met Aspose.Words AI](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Leer hoe u met Aspose.Words AI grammaticale fouten in C#-code kunt detecteren en corrigeren. |
+| [Verbinden met lokale LLM in C# – Complete programmeergids](./connect-to-local-llm-in-c-complete-programming-guide/) | Leer hoe u in C# verbinding maakt met een lokale LLM en volledige programmeerinstructies volgt. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

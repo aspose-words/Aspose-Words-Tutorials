@@ -55,6 +55,7 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | [Kontrola gramatiky dokumentu Word v C# – Kompletní programovací průvodce](./check-grammar-word-document-in-c-complete-programming-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET kontrolovat gramatiku v dokumentech Word pomocí C#. |
 | [Jak načíst Word v C# a přepsat odstavec pomocí AI](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Naučte se načíst dokument Word v C# a pomocí AI přepsat odstavec pomocí Aspose.Words. |
 | [Jak zkontrolovat gramatiku v C# pomocí Aspose.Words AI](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Naučte se, jak pomocí Aspose.Words AI kontrolovat gramatiku v C# a zlepšit kvalitu svých dokumentů. |
+| [Připojení k lokálnímu LLM v C# – Kompletní programovací průvodce](./connect-to-local-llm-in-c-complete-programming-guide/) | Naučte se, jak v C# připojit a využívat lokální model LLM pro generování textu s Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

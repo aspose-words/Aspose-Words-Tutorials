@@ -93,6 +93,7 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [Word को Markdown में बदलें – इमेज एक्सट्रैक्शन के साथ पूर्ण गाइड](./convert-word-to-markdown-full-guide-with-image-extraction/) | इमेज एक्सट्रैक्शन के साथ Word को Markdown में बदलने की पूरी गाइड। C# में चरण‑दर‑स्टेप प्रक्रिया। |
 | [docx को markdown में बदलें – लाइन‑ब्रेक संरक्षण के साथ पूर्ण गाइड](./convert-docx-to-markdown-complete-guide-with-line-break-pres/) | docx फ़ाइल को markdown में बदलते समय लाइन‑ब्रेक को संरक्षित रखने का पूर्ण चरण‑दर‑स्टेप गाइड। |
 | [Word से समीकरणों को Markdown में बदलने का तरीका – पूर्ण C# गाइड](./how-to-convert-equations-from-word-to-markdown-complete-c-gu/) | Word दस्तावेज़ में समीकरणों को Markdown में बदलने के लिए पूर्ण C# गाइड। चरण‑दर‑स्टेप निर्देश और कोड उदाहरण। |
+| [markdown इमेज रिलेटिव पाथ – वर्ड को मार्कडाउन में बदलें](./markdown-image-relative-path-convert-word-to-markdown/) | Word दस्तावेज़ को Markdown में बदलते समय इमेज के रिलेटिव पाथ को सेट करने का तरीका सीखें। |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

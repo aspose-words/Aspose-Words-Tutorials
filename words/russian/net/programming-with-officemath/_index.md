@@ -30,6 +30,7 @@
 | [Конвертировать Word в LaTeX – Полное руководство C# по экспорту Office Math в LaTeX](./convert-word-to-latex-complete-c-guide-to-export-office-math/) | Узнайте, как экспортировать математические уравнения Office Math из Word в LaTeX с помощью C#. |
 | [Сохранить docx как txt – экспортировать математические уравнения Word в LaTeX на C#](./save-docx-as-txt-export-word-math-to-latex-in-c/) | Узнайте, как сохранить документ Word в формате txt и экспортировать математические уравнения в LaTeX с помощью C#. |
 | [Сохранить Office Math в LaTeX – экспортировать уравнения Word в LaTeX на C#](./save-office-math-latex-export-word-equations-to-latex-in-c/) | Узнайте, как экспортировать уравнения Office Math из Word в LaTeX с помощью C# и Aspose.Words. |
+| [Конвертировать docx в txt – экспортировать уравнения Word в LaTeX на C#](./convert-docx-to-txt-export-word-equations-to-latex-in-c/) | Узнайте, как конвертировать DOCX в TXT и экспортировать уравнения Word в LaTeX с помощью C# и Aspose.Words. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

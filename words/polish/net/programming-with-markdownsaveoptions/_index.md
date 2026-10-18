@@ -199,6 +199,8 @@ Kompletny przewodnik pokazujący, jak zapisać dokument Word jako Markdown, wyod
 
 ### [Konwertuj DOCX do Markdown – Kompletny przewodnik eksportu Word do Markdown](./convert-docx-to-markdown-complete-guide-to-export-word-to-ma/)
 Kompletny przewodnik pokazujący, jak konwertować pliki DOCX do formatu Markdown przy użyciu Aspose.Words dla .NET.
+### [Ścieżka względna obrazu markdown – konwertuj Word do Markdown](./markdown-image-relative-path-convert-word-to-markdown/)
+Dowiedz się, jak ustawić względne ścieżki obrazów przy konwersji dokumentu Word do formatu Markdown przy użyciu Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

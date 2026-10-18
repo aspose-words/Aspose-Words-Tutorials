@@ -56,6 +56,7 @@
 | [Проверка грамматики Word-документа в C# – Полное руководство по программированию](./check-grammar-word-document-in-c-complete-programming-guide/) | Узнайте, как с помощью Aspose.Words проверить грамматику Word‑документов в C# с полным пошаговым руководством. |
 | [Как загрузить Word в C# и переписать абзац с помощью ИИ](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Узнайте, как загрузить документ Word в C# и с помощью ИИ переписать абзац, улучшив содержание за несколько шагов. |
 | [Как проверить грамматику в C# с помощью Aspose.Words AI](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Узнайте, как использовать AI Aspose.Words в C# для проверки грамматики документов Word. |
+| [Подключение к локальному LLM на C# – Полное руководство по программированию](./connect-to-local-llm-in-c-complete-programming-guide/) | Узнайте, как интегрировать локальную модель LLM в C# с помощью Aspose.Words для .NET, пошаговое руководство. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
