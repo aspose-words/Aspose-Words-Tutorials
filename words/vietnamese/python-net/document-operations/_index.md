@@ -63,6 +63,9 @@ Tìm hiểu cách thao tác PDF bằng Aspose.Words for Python. Chuyển đổi,
     ### [Khôi phục tài liệu Word bị hỏng với Aspose.Words cho Python](./recover-corrupted-word-document-with-aspose-words-python/)
     Hướng dẫn cách khôi phục các tệp Word bị hỏng bằng Aspose.Words cho Python, bao gồm các bước và mã mẫu.
 
+    ### [Khôi phục DOCX bị hỏng – Hướng dẫn toàn diện để bật chế độ khôi phục & lấy số trang](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
+Hướng dẫn chi tiết cách khôi phục tài liệu DOCX hỏng, bật chế độ khôi phục và đếm số trang bằng Aspose.Words cho Python-net.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.Words cho Tài liệu Python-net](https://docs.aspose.com/words/python-net/)

@@ -37,6 +37,24 @@
 تعلم كيفية استخراج وحفظ محتوى Markdown من مستندات Word باستخدام Aspose.Words لبايثون.
 ### [استعادة DOCX التالف وتحويل Word إلى Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 تعلم كيفية إصلاح ملفات DOCX التالفة وتحويل مستندات Word إلى صيغة Markdown باستخدام Aspose.Words لبايثون.
+### [كيفية تصدير LaTeX من Word – تحويل DOCX إلى Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+تعلم كيفية استخراج LaTeX من مستندات Word وتحويلها إلى Markdown باستخدام Aspose.Words لبايثون.
+### [إنشاء PDF من Word – دليل بايثون كامل مع Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
+دليل شامل لإنشاء PDF من مستند Word باستخدام Aspose.Words لبايثون.
+### [إنشاء PDF قابل للوصول من Word باستخدام بايثون – دليل خطوة بخطوة](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
+تعلم كيفية إنشاء ملفات PDF ميسّرة من مستندات Word باستخدام Aspose.Words لبايثون لضمان إمكانية الوصول.
+### [حفظ Word كـ Markdown – دليل كامل مع تصدير PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
+تعلم كيفية حفظ مستندات Word كملفات Markdown مع تصدير PDF/A‑UA باستخدام Aspose.Words لبايثون.
+### [حفظ docx كـ markdown – دليل بايثون سريع لتصدير المعادلات إلى LaTeX](./save-docx-as-markdown-quick-python-guide-to-export-equations/)
+تعلم كيفية حفظ ملفات docx كـ markdown وتصدير المعادلات إلى LaTeX باستخدام Aspose.Words لبايثون.
+### [حفظ المستند كملف TXT – تصدير معادلات Word إلى LaTeX باستخدام Aspose.Words](./save-document-as-txt-export-word-math-to-latex-with-aspose-w/)
+تعلم كيفية حفظ مستندات Word كملفات TXT وتصدير المعادلات إلى LaTeX باستخدام Aspose.Words لبايثون.
+### [حفظ docx كـ pdf باستخدام Aspose.Words – دليل بايثون كامل](./save-docx-as-pdf-with-aspose-words-complete-python-guide/)
+اكتشف خطوات التحويل السريعة والفعّالة لملفات docx إلى pdf باستخدام Aspose.Words في بايثون.
+### [كيفية تضمين الصور عند تحويل DOCX إلى Markdown – دليل كامل](./how-to-embed-images-when-converting-docx-to-markdown-complet/)
+تعلم كيفية تضمين الصور أثناء تحويل ملفات DOCX إلى صيغة Markdown باستخدام Aspose.Words لبايثون.
+### [كيفية تضمين الصور في Markdown من DOCX – دليل كامل](./how-to-embed-images-in-markdown-from-docx-full-guide/)
+اكتشف طريقة تضمين الصور في ملفات Markdown عند تحويل DOCX باستخدام Aspose.Words لبايثون.
 ### [كيفية استعادة DOCX وتحويله إلى Markdown و PDF – دليل بايثون كامل](./how-to-recover-docx-and-convert-it-to-markdown-and-pdf-compl/)
 تعلم كيفية استعادة ملفات DOCX التالفة وتحويلها إلى صيغتي Markdown و PDF باستخدام Aspose.Words لبايثون.
 ### [حفظ Word كـ Markdown – دليل بايثون كامل](./save-word-as-markdown-complete-python-guide/)

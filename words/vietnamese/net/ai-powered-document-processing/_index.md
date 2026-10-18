@@ -39,9 +39,27 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | Tiêu đề | Mô tả |
 | --- | --- |
 | [Làm việc với mô hình AI](./working-with-ai-model/) | Tìm hiểu cách sử dụng Aspose.Words cho .NET để tóm tắt tài liệu bằng AI. Các bước dễ dàng để nâng cao quản lý tài liệu. |
-| [Làm việc với mô hình AI của Google](./working-with-google-ai-model/) Nâng cao khả năng xử lý tài liệu của bạn với Aspose.Words cho .NET và Google AI để tạo bản tóm tắt ngắn gọn một cách dễ dàng. |
+| [Làm việc với mô hình AI của Google](./working-with-google-ai-model/) | Nâng cao khả năng xử lý tài liệu của bạn với Aspose.Words cho .NET và Google AI để tạo bản tóm tắt ngắn gọn một cách dễ dàng. |
 | [Làm việc với mô hình AI mở](./working-with-open-ai-model/) | Mở khóa tóm tắt tài liệu hiệu quả bằng Aspose.Words cho .NET với các mô hình mạnh mẽ của OpenAI. Khám phá hướng dẫn toàn diện này ngay. |
 | [Làm việc với tùy chọn tóm tắt](./working-with-summarize-options/) | Học cách tóm tắt tài liệu Word hiệu quả bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi về cách tích hợp các mô hình AI để có thông tin chi tiết nhanh chóng. |
+| [Tóm tắt tài liệu Word bằng C# – Hướng dẫn toàn diện sử dụng AI](./summarize-word-document-in-c-complete-ai-powered-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET và AI để tóm tắt tài liệu Word bằng C#. |
+| [Cách kiểm tra ngữ pháp trong DOCX với Aspose.Words – sử dụng gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Hướng dẫn sử dụng Aspose.Words và gpt-4 turbo để kiểm tra ngữ pháp tài liệu DOCX một cách nhanh chóng. |
+| [Cách kiểm tra ngữ pháp trong Word với Aspose.Words AI – Hướng dẫn đầy đủ](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Khám phá cách sử dụng Aspose.Words AI để tự động kiểm tra và sửa lỗi ngữ pháp trong tài liệu Word một cách nhanh chóng. |
+| [Cách kiểm tra ngữ pháp trong C# bằng LLM cục bộ](./how-to-check-grammar-in-c-using-a-local-llm/) | Tìm hiểu cách sử dụng LLM cục bộ trong C# để kiểm tra ngữ pháp tài liệu nhanh chóng và chính xác. |
+| [Tóm tắt tài liệu Word bằng AI – OpenAI vs Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | So sánh cách OpenAI và Gemini tóm tắt tài liệu Word bằng AI trong Aspose.Words cho .NET. |
+| [Cách tóm tắt tài liệu Word – Hướng dẫn C# đầy đủ](./how-to-summarize-word-documents-complete-c-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET với C# để tóm tắt tài liệu Word một cách hiệu quả. |
+| [Cách sửa lỗi ngữ pháp trong tệp DOCX bằng C# – Hướng dẫn chi tiết từng bước](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET để tự động sửa lỗi ngữ pháp trong tài liệu DOCX bằng C#. |
+| [Tóm tắt tài liệu Word bằng LLM cục bộ – Hướng dẫn C#](./summarize-word-document-with-local-llm-c-guide/) | Khám phá cách sử dụng Aspose.Words cho .NET với LLM cục bộ để tóm tắt tài liệu Word bằng C# một cách nhanh chóng và hiệu quả. |
+| [Cách Kiểm Tra Ngữ Pháp trong Tài Liệu Word – Hướng Dẫn C# Đầy Đủ](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET để kiểm tra ngữ pháp trong tài liệu Word bằng C#. |
+| [Cách kiểm tra ngữ pháp bằng LLM cục bộ trong C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Hướng dẫn tích hợp LLM cục bộ trong C# để kiểm tra ngữ pháp tài liệu Word bằng Aspose.Words. |
+| [Cách kiểm tra ngữ pháp và tóm tắt tài liệu Word với Aspose.Words AI](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Hướng dẫn sử dụng Aspose.Words AI để kiểm tra ngữ pháp và tóm tắt tài liệu Word một cách tự động và hiệu quả. |
+| [Kiểm tra ngữ pháp tài liệu Word trong C# – Hướng dẫn lập trình đầy đủ](./check-grammar-word-document-in-c-complete-programming-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET để kiểm tra ngữ pháp tài liệu Word bằng C#. |
+| [Cách tải Word trong C# và viết lại đoạn văn với AI](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Hướng dẫn tải tài liệu Word trong C# và sử dụng AI để tự động viết lại đoạn văn. |
+| [Cách kiểm tra ngữ pháp trong C# bằng Aspose.Words AI](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Hướng dẫn sử dụng Aspose.Words AI để kiểm tra và sửa lỗi ngữ pháp trong tài liệu C# một cách tự động. |
+| [Kết nối với LLM cục bộ trong C# – Hướng dẫn lập trình hoàn chỉnh](./connect-to-local-llm-in-c-complete-programming-guide/) | Hướng dẫn chi tiết cách kết nối Aspose.Words với LLM cục bộ trong C# để xử lý tài liệu thông minh. |
+| [Cách sử dụng LLM với Aspose.Words – Viết lại đoạn văn trong C#](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Khám phá cách sử dụng LLM với Aspose.Words để tự động viết lại các đoạn văn trong tài liệu C#. |
+| [Cách kiểm tra ngữ pháp trong C# – Hướng dẫn toàn diện cho tài liệu Word](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Tìm hiểu cách sử dụng Aspose.Words cho .NET để kiểm tra ngữ pháp tài liệu Word trong C# một cách chi tiết và hiệu quả. |
+| [Tóm tắt tài liệu Word trong C# – Hướng dẫn toàn diện sử dụng Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Khám phá cách sử dụng Anthropic Claude để tóm tắt tài liệu Word trong C# một cách chi tiết và hiệu quả. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

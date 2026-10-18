@@ -38,7 +38,37 @@
 學習使用 Aspose.Words for Python 將 Word 文件轉換並儲存為 Markdown 格式的完整步驟。
 
 ### [恢復損壞的 DOCX 並將 Word 轉換為 Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
-學習使用 Aspose.Words for Python 復原損壞的 DOCX 並將 Word 轉換為 Markdown 的完整步驟。
+學習使用 Aspose.Words for Python 復原損壞的 DOCX 並將 DOCX 轉換為 Markdown 的完整步驟。
+
+### [如何從 Word 匯出 LaTeX – 將 DOCX 轉換為 Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+學習使用 Aspose.Words for Python 從 Word 匯出 LaTeX，並將 DOCX 轉換為 Markdown 的完整步驟。
+
+### [從 Word 建立 PDF – 完整 Python 指南與 Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
+學習使用 Aspose.Words for Python 將 Word 文件轉換為 PDF 的完整步驟。
+
+### [使用 Python 從 Word 建立可存取 PDF – 步驟指南](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
+學習使用 Aspose.Words for Python 將 Word 文件轉換為符合可存取性標準的 PDF 的完整步驟。
+
+### [如何將 Word 儲存為 Markdown – 完整指南，含 PDF/A‑UA 匯出](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
+學習使用 Aspose.Words for Python 將 Word 文件儲存為 Markdown，並匯出符合 PDF/A‑UA 標準的 PDF 的完整步驟。
+
+### [從 Word 建立 PDF/UA – 完整指南](./create-pdf-ua-from-word-step-by-step-guide/)
+學習使用 Aspose.Words for Python 將 Word 文件轉換為符合 PDF/UA 標準的 PDF，提供完整步驟與範例。
+
+### [將 docx 儲存為 markdown – 快速 Python 指南：將方程式匯出為 LaTeX](./save-docx-as-markdown-quick-python-guide-to-export-equations/)
+學習使用 Aspose.Words for Python 將 docx 轉換為 markdown，並將方程式匯出為 LaTeX 的快速步驟。
+
+### [將文件另存為 TXT – 使用 Aspose.Words 匯出 Word 數學為 LaTeX](./save-document-as-txt-export-word-math-to-latex-with-aspose-w/)
+學習使用 Aspose.Words for Python 將 Word 文件另存為 TXT，並將數學方程式匯出為 LaTeX 的完整步驟。
+
+### [使用 Aspose.Words 將 docx 儲存為 pdf – 完整 Python 指南](./save-docx-as-pdf-with-aspose-words-complete-python-guide/)
+學習使用 Aspose.Words for Python 將 docx 檔案轉換為 PDF 的完整步驟，提升文件處理效率。
+
+### [將 DOCX 轉換為 Markdown 時嵌入圖片 – 完整指南](./how-to-embed-images-when-converting-docx-to-markdown-complet/)
+學習使用 Aspose.Words for Python 在將 DOCX 轉換為 Markdown 時嵌入圖片的完整步驟。
+
+### [將 DOCX 中的圖片嵌入 Markdown – 完整指南](./how-to-embed-images-in-markdown-from-docx-full-guide/)
+學習使用 Aspose.Words for Python 在將 DOCX 轉換為 Markdown 時嵌入圖片的完整步驟。
 
 ### [將 Word 儲存為 Markdown – 完整 Python 指南](./save-word-as-markdown-complete-python-guide/)
 學習使用 Aspose.Words for Python 將 Word 文件儲存為 Markdown 格式的完整步驟。

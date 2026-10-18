@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Bu öğreticide, bir Word belgesi oluşturma, bir sütun grafiği ekleme, örnek verilerle doldurma, grafiğin çizim alanı kenarlığını eksen çizgileri görünür kalacak şekilde gizleme ve sonunda belgeyi kaydetme gösterilmektedir.
+//ExStepSummary:0: Yeni boş bir Word belgesi ve onu düzenlemek için bir DocumentBuilder oluşturun.
+//ExStepSummary:1: Belgeye 432×252 boyutlarında bir sütun grafiği ekleyin ve onun Chart nesnesini alın.
+//ExStepSummary:2: Mevcut serileri temizleyin, üç kategori etiketi tanımlayın ve grafiğe örnek değerlerle bir seri ekleyin.
+//ExStepSummary:3: Çizim alanının kenarlık kalınlığını sıfıra ayarlayın; böylece kenarlık kaldırılırken eksen çizgileri görünür kalır.
+//ExStepSummary:4: Değiştirilen belgeyi bir .docx dosyasına kaydedin.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+columnChart.Series.Clear();
+string[] labels = { "Group A", "Group B", "Group C" };
+columnChart.Series.Add("Demo Data", labels, new double[] { 10, 20, 30 });
+
+//ExStep:3-
+columnChart.Format.Stroke.Weight = 0;
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutPlotBorder.docx");
+//ExEnd

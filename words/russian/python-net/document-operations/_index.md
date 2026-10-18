@@ -60,6 +60,10 @@
 ### [Восстановление повреждённого DOCX – открытие и загрузка Word‑документа](./recover-corrupted-docx-open-load-word-document/)
 Узнайте, как открыть и загрузить повреждённый DOCX‑файл с помощью Aspose.Words для Python‑net.
 
+### [Восстановление повреждённого DOCX – Полное руководство по включению режима восстановления и получению количества страниц](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
+Узнайте, как включить режим восстановления в Aspose.Words для Python‑net и определить количество страниц в повреждённом DOCX‑файле.
+### [Восстановление повреждённого документа Word с помощью Python – Полное руководство](./recover-corrupted-word-document-using-python-complete-guide/)
+Узнайте, как восстановить повреждённый документ Word с помощью Python и Aspose.Words, следуя подробным шагам.
 ### [Восстановление повреждённого Word‑документа с помощью Aspose.Words для Python](./recover-corrupted-word-document-with-aspose-words-python/)
 Узнайте, как восстановить повреждённый документ Word с помощью Aspose.Words для Python.
 
