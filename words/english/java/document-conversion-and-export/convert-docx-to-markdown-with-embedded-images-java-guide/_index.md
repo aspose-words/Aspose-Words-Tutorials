@@ -37,7 +37,7 @@ tags:
 - Java
 - Aspose.Words
 - Document Conversion
-title: convert docx to markdown with embedded images – Java guide
+title: Convert DOCX to Markdown with Embedded Images using Aspose.Words for Java
 url: /java/document-conversion-and-export/convert-docx-to-markdown-with-embedded-images-java-guide/
 ---
 
@@ -45,7 +45,7 @@ url: /java/document-conversion-and-export/convert-docx-to-markdown-with-embedded
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# convert docx to markdown with embedded images – Java guide
+# Convert DOCX to Markdown with Embedded Images using Aspose.Words for Java
 
 Ever needed to **convert docx to markdown** but kept hitting a wall when images vanished or turned into broken links? You're not the only one. In many projects—static site generators, documentation pipelines, or quick‑look previews—preserving those pictures is a must, and the usual converters often drop them.  
 
@@ -232,16 +232,15 @@ Happy coding, and may your Markdown always stay image‑rich!
 ---
 
 
-## What Should You Learn Next?
-
+## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Embed Images in Markdown When Converting DOCX](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
-- [How to Export Markdown with Aspose.Words for Java](/words/english/java/document-loading-and-saving/saving-documents-as-markdown/)
-- [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
+{{< relref "/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx.md" >}}
+{{< relref "/words/english/java/document-loading-and-saving/saving-documents-as-markdown.md" >}}
+{{< relref "/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with.md" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

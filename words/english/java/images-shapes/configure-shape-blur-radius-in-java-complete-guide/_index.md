@@ -14,19 +14,19 @@ keywords:
 language: en
 og_description: Configure shape blur radius in a Word document using Java. Follow
   this detailed tutorial to master Aspose.Words shape shadow settings.
-og_title: Configure Shape Blur Radius in Java – Complete Guide
+og_title: Configure Shape Blur Radius in Aspose.Words for Java – Complete Guide
 schemas:
 - author: Aspose
   dateModified: '2026-06-27'
   description: Learn how to configure shape blur radius using Aspose.Words for Java.
     This step‑by‑step tutorial also covers shadow settings, transparency, and saving
     the document.
-  headline: Configure Shape Blur Radius in Java – Complete Guide
+  headline: Configure Shape Blur Radius in Aspose.Words for Java – Complete Guide
   type: TechArticle
 - description: Learn how to configure shape blur radius using Aspose.Words for Java.
     This step‑by‑step tutorial also covers shadow settings, transparency, and saving
     the document.
-  name: Configure Shape Blur Radius in Java – Complete Guide
+  name: Configure Shape Blur Radius in Aspose.Words for Java – Complete Guide
   steps:
   - name: Understanding the Numbers
     text: '- **Blur radius** (`setBlurRadius`) controls how fuzzy the shadow looks.
@@ -49,7 +49,7 @@ tags:
 - Aspose.Words
 - Java
 - Document Automation
-title: Configure Shape Blur Radius in Java – Complete Guide
+title: Configure Shape Blur Radius in Aspose.Words for Java – Complete Guide
 url: /java/images-shapes/configure-shape-blur-radius-in-java-complete-guide/
 ---
 
@@ -63,7 +63,7 @@ Ever needed to **configure shape blur radius** in a Word document while working 
 
 In this tutorial we’ll walk through the entire process—from loading the `.docx` file to tweaking the shadow’s blur and finally saving the result. Along the way we’ll also touch on related topics like **Aspose.Words shape shadow**, **Java shadow format**, and general **Word document shape manipulation**. By the end, you’ll have a ready‑to‑run code snippet and a clear understanding of why each line matters.
 
-## What You’ll Learn
+## What you’ll learn
 
 - How to load a Word document with Aspose.Words for Java.  
 - How to locate the first `Shape` object inside the document body.  
@@ -74,7 +74,7 @@ No external libraries beyond Aspose.Words are required, and the code works with 
 
 ---
 
-## Step 1: Load the Word Document
+## Step 1: load the word document
 
 Before you can touch any shape, you need the document in memory. Aspose.Words makes this a one‑liner.
 
@@ -90,7 +90,7 @@ Creating a `Document` object parses the whole file, giving you access to section
 
 ---
 
-## Step 2: Retrieve the Target Shape
+## Step 2: retrieve the target shape
 
 Shapes can live anywhere—headers, footers, tables, you name it. For simplicity, we’ll grab the first shape found in the main body of the first section.
 
@@ -109,7 +109,7 @@ The `getChild` call walks the node tree depth‑first, returning the *first* sha
 
 ---
 
-## Step 3: Configure the Shape’s Shadow – Set Blur Radius
+## Step 3: configure the shape’s shadow – set blur radius
 
 Now comes the star of the show: adjusting the blur radius. This lives inside the `ShadowFormat` object attached to the shape.
 
@@ -137,7 +137,7 @@ shadow.setTransparency(0.3);      // 0 = fully opaque, 1 = fully transparent
 
 ---
 
-## Step 4: Save the Modified Document
+## Step 4: save the modified document
 
 All the heavy lifting is done; now write the changes back to disk.
 
@@ -151,7 +151,7 @@ Calling `save` writes the entire document, including the updated `ShadowFormat`.
 
 ---
 
-## Full Working Example
+## Full working example
 
 Below is the complete, self‑contained program you can copy‑paste into any Java IDE. Make sure you have the Aspose.Words for Java JAR on your classpath.
 
@@ -191,7 +191,7 @@ Running the program produces a new `output.docx` where the first shape now carri
 
 ---
 
-## Handling Multiple Shapes & Advanced Scenarios
+## Handling multiple shapes & advanced scenarios
 
 ### Targeting a Specific Shape by Name
 
@@ -205,7 +205,7 @@ Shape target = (Shape) document.getChildNodes(NodeType.SHAPE, true)
         .orElse(null);
 ```
 
-### Applying Different Blur Radii
+### Applying different blur radii
 
 You might want a stronger blur for background graphics and a subtle one for icons. Loop through all shapes:
 
@@ -224,7 +224,7 @@ for (Node node : document.getChildNodes(NodeType.SHAPE, true)) {
 
 ---
 
-## Common Pitfalls & How to Avoid Them
+## Common pitfalls & how to avoid them
 
 | Pitfall | Why It Happens | Fix |
 |---------|----------------|-----|
@@ -250,16 +250,17 @@ Got a scenario that isn’t covered here? Drop a comment or check the Aspose.Wor
 ---
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Create Word Document Java – Add Rectangle Shape with Shadow Effect](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Using Document Options and Settings in Aspose.Words for Java](/words/english/java/document-manipulation/using-document-options-and-settings/)
-- [How to Convert Word to PDF Using Aspose.Words for Java](/words/english/java/document-converting/using-document-converting/)
+- [Create Word Document Java – Add Rectangle Shape with Shadow Effect]({{< relref "words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef" >}})
+- [Using Document Options and Settings in Aspose.Words for Java]({{< relref "words/english/java/document-manipulation/using-document-options-and-settings" >}})
+- [How to Convert Word to PDF Using Aspose.Words for Java]({{< relref "words/english/java/document-converting/using-document-converting" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}

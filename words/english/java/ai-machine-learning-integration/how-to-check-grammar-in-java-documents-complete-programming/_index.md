@@ -43,7 +43,7 @@ tags:
 - Java
 - AI
 - Text Processing
-title: How to Check Grammar in Java Documents – Complete Programming Guide
+title: How to Check Grammar in Java Documents with Aspose.Words for Java – Complete Programming Guide
 url: /java/ai-machine-learning-integration/how-to-check-grammar-in-java-documents-complete-programming/
 ---
 
@@ -61,7 +61,7 @@ In this guide we’ll walk through the exact steps to load a Word file, **choose
 
 ---
 
-## Prerequisites – What You Need Before Starting
+## Prerequisites – what you need before starting
 
 - **Java 11+** (the code uses the enhanced `var` syntax, but you can stick to older versions if you prefer).
 - **Maven** or **Gradle** to pull in the AI‑enabled word‑processing library (e.g., `com.aspose:aspose-words-java` version 23.9 or later).
@@ -114,7 +114,7 @@ public enum AiModelType {
 
 ---
 
-## Step 3 – Run the Grammar Check (Detect Grammar Errors Automatically)
+## Step 3 – run the grammar check (Detect grammar errors automatically)
 
 Now the heavy lifting begins. The `checkGrammar` method sends the document text to the selected AI model and returns a structured result.
 
@@ -128,7 +128,7 @@ CheckGrammarResult grammarResult = document.checkGrammar(aiModel);
 
 ---
 
-## Step 4 – Iterate Through Detected Errors (Displaying What the AI Found)
+## Step 4 – iterate through detected errors (Displaying what the AI found)
 
 Finally, we need to surface the errors to the user or log them for further processing.
 
@@ -146,9 +146,9 @@ for (GrammarError error : grammarResult.getErrors()) {
 
 ---
 
-## Advanced Topics – Going Beyond the Basic Flow
+## Advanced topics – going beyond the basic flow
 
-### 1. Customizing the AI Model at Runtime
+### 1. customizing the AI model at runtime
 
 Sometimes you’ll want to let end‑users pick a model from a UI dropdown. Here’s a quick helper that maps a string to the enum:
 
@@ -163,7 +163,7 @@ public AiModelType parseModel(String modelName) {
 }
 ```
 
-### 2. Handling Large Documents Efficiently
+### 2. handling large documents efficiently
 
 For files exceeding 5 MB, split the content into sections before sending them to the AI. The library provides a `splitIntoSections()` utility:
 
@@ -175,7 +175,7 @@ for (Document part : sections) {
 }
 ```
 
-### 3. Ignoring Specific Rules
+### 3. ignoring specific rules
 
 If your domain uses jargon (e.g., “API” or “SDK”) that the AI flags incorrectly, you can supply a **whitelist**:
 
@@ -185,7 +185,7 @@ grammarResult.addIgnoreWords(Arrays.asList("API", "SDK", "microservice"));
 
 ---
 
-## Common Pitfalls & How to Avoid Them
+## Common pitfalls & how to avoid them
 
 | Pitfall | Why It Happens | Fix |
 |---------|----------------|-----|
@@ -196,7 +196,7 @@ grammarResult.addIgnoreWords(Arrays.asList("API", "SDK", "microservice"));
 
 ---
 
-## Full Working Example – Paste This Into Your IDE
+## Full working example – paste this into your IDE
 
 ```java
 import com.aspose.words.*;
@@ -252,17 +252,15 @@ Next steps? Try swapping `AiModelType.CLAUDE_2` to see how the suggestions diffe
 
 Got a question about handling multilingual docs or customizing the error messages? Drop a comment below, and happy coding!
 
+## What should you learn next?
 
-## What Should You Learn Next?
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [How to Extract Text Using Aspose.Words for Java](/words/english/java/document-manipulation/extracting-content-from-documents/)
-- [How to Load HTML and Save as DOCX using Aspose.Words for Java](/words/english/java/document-loading-and-saving/loading-and-saving-html-documents/)
-- [How to save document as pdf with Aspose.Words for Java](/words/english/java/document-loading-and-saving/saving-documents-as-pdf/)
+- {{< relref "words/english/java/document-manipulation/extracting-content-from-documents/_index.md" >}}How to Extract Text Using Aspose.Words for Java{{< /relref >}}
+- {{< relref "words/english/java/document-loading-and-saving/loading-and-saving-html-documents/_index.md" >}}How to Load HTML and Save as DOCX using Aspose.Words for Java{{< /relref >}}
+- {{< relref "words/english/java/document-loading-and-saving/saving-documents-as-pdf/_index.md" >}}How to save document as pdf with Aspose.Words for Java{{< /relref >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

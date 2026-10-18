@@ -1,7 +1,7 @@
 ---
 category: general
 date: 2026-06-27
-description: Change font style in Word documents with C#. Learn how to set font weight,
+description: Modify font style in Word documents with Aspose.Words using C#. Learn how to set font weight,
   set bold weight, and adjust font width for precise typography.
 draft: false
 keywords:
@@ -11,19 +11,19 @@ keywords:
 - adjust font width
 - modify font in word
 language: en
-og_description: Change font style in Word documents with C#. Discover how to set font
+og_description: Modify font style in Word documents with Aspose.Words using C#. Discover how to set font
   weight, set bold weight, and adjust font width in a few easy steps.
-og_title: Change Font Style in Word Documents – Complete C# Guide
+og_title: Modify Font Style in Word Documents with Aspose.Words – Complete C# Guide
 schemas:
 - author: Aspose
   dateModified: '2026-06-27'
-  description: Change font style in Word documents with C#. Learn how to set font
+  description: Modify font style in Word documents with Aspose.Words using C#. Learn how to set font
     weight, set bold weight, and adjust font width for precise typography.
-  headline: Change Font Style in Word Documents – Complete C# Guide
+  headline: Modify Font Style in Word Documents with Aspose.Words – Complete C# Guide
   type: TechArticle
-- description: Change font style in Word documents with C#. Learn how to set font
+- description: Modify font style in Word documents with Aspose.Words using C#. Learn how to set font
     weight, set bold weight, and adjust font width for precise typography.
-  name: Change Font Style in Word Documents – Complete C# Guide
+  name: Modify Font Style in Word Documents with Aspose.Words – Complete C# Guide
   steps:
   - name: Prerequisites
     text: '- .NET 6.0 or later (the code compiles on .NET Core as well) - Aspose.Words
@@ -48,7 +48,7 @@ tags:
 - C#
 - Aspose.Words
 - typography
-title: Change Font Style in Word Documents – Complete C# Guide
+title: Modify Font Style in Word Documents with Aspose.Words – Complete C# Guide
 url: /java/document-styling/change-font-style-in-word-documents-complete-c-guide/
 ---
 
@@ -56,13 +56,13 @@ url: /java/document-styling/change-font-style-in-word-documents-complete-c-guide
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Change Font Style in Word Documents – Complete C# Guide
+# Modify Font Style in Word Documents with Aspose.Words – Complete C# Guide
 
 Ever needed to **change font style** in a Word file but weren’t sure which API call actually does the trick? You’re not alone—most developers hit that wall when they first try to programmatically tweak typography.  
 
 The good news is that with a few lines of C# you can **set font weight**, even crank up a bold weight, and fine‑tune the width of each glyph. In this tutorial we’ll walk through a full, runnable example that modifies a `.docx` file from start to finish.
 
-## What This Guide Covers
+## What this guide covers
 
 We’ll start by loading an existing document, then create a `FontSettings` object that holds a `FontVariation`. From there we’ll **set font weight**, **set bold weight**, and **adjust font width** before finally applying the changes and saving the result. No external configuration files, no magic strings—just plain C# and the Aspose.Words library. By the end you’ll be able to **modify font in Word** documents with confidence, whether you’re building a reporting engine or a bulk‑formatting tool.
 
@@ -76,7 +76,7 @@ If you’ve got those basics covered, let’s dive in.
 
 ---
 
-## Step 1: Change Font Style – Load the Word Document
+## Step 1: change font style – load the word document
 
 The first thing you need to do is bring the target file into memory. Think of this as opening a blank canvas where you’ll later paint your new typography.
 
@@ -98,7 +98,7 @@ class Program
 
 ---
 
-## Step 2: Set Font Weight and Set Bold Weight
+## Step 2: set font weight and set bold weight
 
 Now that the document is in memory, we create a `FontSettings` container. This object is the gateway to every font‑level tweak you can make.  
 
@@ -130,7 +130,7 @@ Below we **set font weight** to 700 (bold) and also demonstrate how you could ra
 
 ---
 
-## Step 3: Adjust Font Width
+## Step 3: adjust font width
 
 If you ever needed to make a font look tighter for a headline or more spacious for a paragraph, you’ll be glad you arrived at this step. The `Width` property does exactly that.
 
@@ -145,7 +145,7 @@ If you ever needed to make a font look tighter for a headline or more spacious f
 
 ---
 
-## Step 4: Apply the Font Settings – Modify Font in Word
+## Step 4: apply the font settings – modify font in word
 
 With our `FontSettings` fully configured, the final leap is to tell the document to use them. This is where we **modify font in Word** at the document level, affecting every run of text that inherits the default style.
 
@@ -159,7 +159,7 @@ If you only want to target a specific paragraph or run, you could retrieve that 
 
 ---
 
-## Step 5: Save and Verify the Changes
+## Step 5: save and verify the changes
 
 Saving is the last, but certainly not the least, part of the workflow. After persisting the file you can open it in Microsoft Word to see the new styling in action.
 
@@ -182,7 +182,7 @@ Open `output.docx` in Word, select a paragraph, and check the **Font** dialog. Y
 
 ---
 
-## Frequently Asked Questions & Edge Cases
+## Frequently asked questions & edge cases
 
 ### Can I change the font family at the same time?
 
@@ -220,17 +220,15 @@ Got a scenario that isn’t covered? Drop a comment, and we’ll dig into it tog
 
 ![change font style example](placeholder.png){alt="change font style example"}
 
-
-## What Should You Learn Next?
-
+## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Set Font Emphasis Mark](/words/hindi/net/working-with-fonts/set-font-emphasis-mark/)
-- [Set Font Fallback Settings](/words/hindi/net/working-with-fonts/set-font-fallback-settings/)
-- [Set Font Formatting](/words/hindi/net/working-with-fonts/set-font-formatting/)
+- [Set Font Emphasis Mark]({{< relref "words/hindi/net/working-with-fonts/set-font-emphasis-mark/_index.md" >}})
+- [Set Font Fallback Settings]({{< relref "words/hindi/net/working-with-fonts/set-font-fallback-settings/_index.md" >}})
+- [Set Font Formatting]({{< relref "words/hindi/net/working-with-fonts/set-font-formatting/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

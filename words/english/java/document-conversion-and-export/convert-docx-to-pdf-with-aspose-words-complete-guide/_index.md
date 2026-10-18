@@ -47,7 +47,7 @@ tags:
 - Aspose.Words
 - PDF conversion
 - Java
-title: Convert DOCX to PDF with Aspose.Words – Complete Guide
+title: How to Convert DOCX to PDF with Aspose.Words – Complete Guide
 url: /java/document-conversion-and-export/convert-docx-to-pdf-with-aspose-words-complete-guide/
 ---
 
@@ -55,7 +55,7 @@ url: /java/document-conversion-and-export/convert-docx-to-pdf-with-aspose-words-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Convert DOCX to PDF with Aspose.Words – Complete Guide
+# How to Convert DOCX to PDF with Aspose.Words – Complete Guide
 
 Ever wondered how to **convert DOCX to PDF** without losing those tricky floating shapes? You’re not the only one. In many projects—think automated report generators or batch‑processing pipelines—getting a clean PDF out of a Word file is a daily headache.
 
@@ -89,7 +89,7 @@ Document doc = new Document("YOUR_DIRECTORY/input.docx");
 
 ---
 
-## Step 2: Configure PDF Save Options – How to Export Shapes
+## Step 2: configure PDF save options – how to export shapes
 
 Now comes the juicy part: configuring **PDF save options Aspose** to dictate how floating objects are handled. By default, Aspose treats floating shapes as block‑level elements, which can shift their position in the PDF. If you need them inline—say, for tight layout fidelity—you’ll toggle a single flag.
 
@@ -110,7 +110,7 @@ If you’re wondering *“how to export shapes”* for a newsletter‑style layo
 
 ---
 
-## Step 3: Save the Document as PDF – The Final Conversion
+## Step 3: save the document as PDF – the final conversion
 
 With the document loaded and the options tuned, the last step is simply calling `save`. This is where the **save Word as PDF** magic happens.
 
@@ -129,7 +129,7 @@ doc.save("YOUR_DIRECTORY/WithFloatingShapes.pdf", pdfOpts);
 
 ---
 
-## Step 4: Verify the Result and Tackle Common Edge Cases
+## Step 4: verify the result and tackle common edge cases
 
 ### Quick verification
 
@@ -180,7 +180,7 @@ for (String fileName : files) {
 
 ---
 
-## Full Working Example
+## Full working example
 
 Putting everything together, here’s a self‑contained Java class you can compile and run right away:
 
@@ -221,8 +221,7 @@ Next steps? Try experimenting with additional `PdfSaveOptions` such as `setCompl
 Got questions about handling special cases, or want to share your own tweaks? Drop a comment below—happy coding!
 
 
-## What Should You Learn Next?
-
+## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
@@ -232,5 +231,5 @@ The following tutorials cover closely related topics that build on the technique
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
