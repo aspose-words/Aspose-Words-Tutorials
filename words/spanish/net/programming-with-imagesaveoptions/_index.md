@@ -35,6 +35,7 @@ Los tutoriales también abarcan los conceptos básicos de la manipulación de im
 | [Crear cuadrícula PNG a partir de documento Word – Guía completa](./create-png-grid-from-word-document-complete-guide/) | Aprenda a crear una cuadrícula de imágenes PNG a partir de un documento Word usando Aspose.Words para .NET con esta guía paso a paso. |
 | [Cómo establecer la resolución al convertir Word a PNG – Guía completa](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Aprenda a establecer la resolución al convertir documentos Word a imágenes PNG usando Aspose.Words para .NET con esta guía paso a paso. |
 | [Exportar Word como PNG – Convertir DOCX a una sola imagen](./export-word-as-png-convert-docx-to-one-image/) | Aprenda a convertir un documento DOCX completo en una única imagen PNG usando Aspose.Words para .NET. |
+| [Convertir docx a png – Guía completa paso a paso](./convert-docx-to-png-complete-step-by-step-guide/) | Aprenda a convertir documentos DOCX a imágenes PNG con una guía paso a paso usando Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

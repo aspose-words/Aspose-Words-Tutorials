@@ -41,6 +41,7 @@ Of u nu Word-documenten naar PDF wilt converteren voor online distributie, archi
 | [Overzichtopties instellen in een PDF-document](./set-outline-options/) | Leer hoe u de contouropties in een PDF-document instelt met Aspose.Words voor .NET. Verbeter de navigatie in PDF's door kopniveaus en uitgebreide contouren te configureren. |
 | [Aangepaste eigenschappen exporteren in een PDF-document](./custom-properties-export/) | Leer hoe u aangepaste eigenschappen in een PDF-document kunt exporteren met Aspose.Words voor .NET met onze gedetailleerde, stapsgewijze handleiding. |
 | [Exporteer Word-documentstructuur naar PDF-document](./export-document-structure/) | Exporteer de structuur van een Word-document naar een PDF met Aspose.Words voor .NET. Volg onze stapsgewijze handleiding om de documentindeling te behouden en de navigatie in PDF's te verbeteren. |
+| [Hoe PDF opslaan vanuit Word met inline shape-export – Complete gids](./how-to-save-pdf-from-word-with-inline-shape-export-complete/) | Leer hoe u PDF's vanuit Word opslaat met inline shape-export met Aspose.Words voor .NET in deze volledige stap‑voor‑stap gids. |
 | [Beeldcompressie in een PDF-document](./image-compression/) Leer hoe u afbeeldingen in PDF-documenten comprimeert met Aspose.Words voor .NET. Volg deze handleiding voor optimale bestandsgrootte en -kwaliteit. |
 | [Laatst afgedrukte eigenschap in PDF-document bijwerken](./update-last-printed-property/) | Leer hoe u de laatst afgedrukte eigenschap in een PDF-document kunt bijwerken met Aspose.Words voor .NET met onze stapsgewijze handleiding. |
 | [3D DML 3D-effecten renderen in een PDF-document](./dml-3deffects-rendering/) | Leer hoe u verbluffende 3D DML-effecten kunt maken in PDF-documenten met Aspose.Words voor .NET met deze uitgebreide stapsgewijze handleiding. |
@@ -70,6 +71,7 @@ Of u nu Word-documenten naar PDF wilt converteren voor online distributie, archi
 | [Toegankelijk PDF maken vanuit Word – Stapsgewijze handleiding](./create-accessible-pdf-from-word-step-by-step-guide/) | Leer hoe u een toegankelijk PDF-bestand maakt vanuit een Word-document met Aspose.Words voor .NET in deze stapsgewijze handleiding. |
 | [DOCX opslaan als PDF in C# – Complete Aspose.Words-gids](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) | Leer hoe u een DOCX-bestand naar PDF converteert in C# met een volledige stap‑voor‑stap Aspose.Words‑handleiding. |
 | [PDF-opties instellen in C# – Word naar PDF converteren](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | Leer hoe u PDF-opties configureert in C# om Word-documenten nauwkeurig naar PDF te converteren met Aspose.Words voor .NET. |
+| [Maak pdf/ua-2-conforme document – Complete C#-gids](./create-pdf-ua-2-compliant-document-complete-c-guide/) | Leer hoe u met Aspose.Words voor .NET een PDF/UA‑2‑conform document maakt via een volledige C#‑stapsgewijze gids. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

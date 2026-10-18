@@ -60,6 +60,7 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [LLM mit Aspose.Words verwenden – Absätze in C# umschreiben](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Erfahren Sie, wie Sie mit LLMs und Aspose.Words in C# Absätze neu formulieren, um Inhalte zu verbessern und zu vereinfachen. |
 | [Wie man Grammatik in C# prüft – Vollständiger Leitfaden für Word-Dokumente](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Grammatik in C#-Anwendungen prüfen und Word-Dokumente automatisch korrigieren. |
 | [Word-Dokument zusammenfassen in C# – Vollständiger Leitfaden mit Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und Anthropic Claude Word-Dokumente in C# effizient zusammenfassen. |
+| [Word-Dokument in C# mit einem benutzerdefinierten GPT-Modell zusammenfassen – Vollständige Anleitung](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und einem eigenen GPT-Modell Word-Dokumente in C# automatisch zusammenfassen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

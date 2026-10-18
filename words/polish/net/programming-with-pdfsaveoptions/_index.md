@@ -70,6 +70,8 @@ Niezależnie od tego, czy chcesz przekonwertować dokumenty Word do PDF w celu d
 | [Zapisz DOCX jako PDF w C# – Kompletny przewodnik Aspose.Words](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) | Dowiedz się, jak w C# zapisać dokument DOCX jako PDF przy użyciu Aspose.Words, krok po kroku. |
 | [Jak ustawić opcje PDF w C# – Konwertuj Word do PDF](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | Dowiedz się, jak w C# ustawić opcje PDF przy konwersji dokumentu Word do PDF przy użyciu Aspose.Words. |
 
+| [Jak zapisać PDF z Worda z eksportem kształtów wbudowanych – Kompletny przewodnik](./how-to-save-pdf-from-word-with-inline-shape-export-complete/) | Dowiedz się, jak wyeksportować kształty inline podczas zapisywania dokumentu Word jako PDF przy użyciu Aspose.Words dla .NET. |
+| [Utwórz dokument zgodny z PDF/UA-2 – Kompletny przewodnik C#](./create-pdf-ua-2-compliant-document-complete-c-guide/) | Dowiedz się, jak w C# utworzyć dokument PDF zgodny z normą PDF/UA‑2, spełniający wymogi dostępności, krok po kroku. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

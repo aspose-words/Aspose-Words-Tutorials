@@ -123,6 +123,8 @@ Aprenda a exportar equações LaTeX de documentos Word para Markdown usando Aspo
 Aprenda a usar caminhos relativos de imagens ao converter documentos Word para Markdown com Aspose.Words para .NET.
 ### [Criar pasta de ativos para converter Word para Markdown](./create-assets-folder-for-convert-word-to-markdown/)
 Aprenda a criar uma pasta de ativos ao converter documentos Word para Markdown usando Aspose.Words para .NET.
+### [Converter docx para markdown com C# – Guia completo](./convert-docx-to-markdown-with-c-complete-guide/)
+Aprenda a converter arquivos DOCX para Markdown usando C# com Aspose.Words, passo a passo com exemplos de código.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

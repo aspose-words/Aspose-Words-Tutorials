@@ -37,6 +37,7 @@ Quer você precise substituir palavras específicas, atualizar modelos de texto 
 | [Substituir texto na tabela](./replace-text-in-table/) | Substitua facilmente o texto na tabela do Word usando o Aspose.Words para .NET com este guia detalhado passo a passo. |
 | [Substituir Texto em DOCX com C# – Guia Passo a Passo](./replace-text-in-docx-with-c-step-by-step-guide/) | Aprenda a substituir texto em arquivos DOCX usando C# com o Aspose.Words para .NET, passo a passo. |
 
+| [Substituir texto em docx com C# – Guia completo passo a passo](./replace-text-in-docx-with-c-full-step-by-step-guide/) | Aprenda a substituir texto em arquivos docx usando C# com um guia detalhado passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

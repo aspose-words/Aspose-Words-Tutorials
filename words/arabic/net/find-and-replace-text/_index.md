@@ -37,6 +37,7 @@ Aspose.Words لـ .NET مكتبة فعّالة تُقدّم مجموعة واس�
 | [استبدال النص في الجدول](./replace-text-in-table/) |استبدل النص في جدول Word بسهولة باستخدام Aspose.Words لـ .NET باستخدام هذا الدليل المفصل خطوة بخطوة. |
 | [استبدال النص في DOCX باستخدام C# – دليل خطوة بخطوة](./replace-text-in-docx-with-c-step-by-step-guide/) | تعلم كيفية استبدال النص في ملفات DOCX باستخدام C# مع Aspose.Words خطوة بخطوة. |
 
+| [استبدال النص في ملف docx باستخدام C# – دليل خطوة بخطوة كامل](./replace-text-in-docx-with-c-full-step-by-step-guide/) | تعلم كيفية استبدال النص في مستندات docx باستخدام C# مع Aspose.Words لل.NET خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

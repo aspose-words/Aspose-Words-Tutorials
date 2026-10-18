@@ -60,6 +60,7 @@
 | [如何使用 LLM 與 Aspose.Words – 在 C# 中改寫段落](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) |使用 Aspose.Words for .NET 結合大型語言模型，在 C# 中自動改寫段落以提升文件品質。 |
 | [如何在 C# 中檢查文法 – Word 文件完整指南](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) |使用 Aspose.Words for .NET 結合 AI 檢查 C# 程式碼中的文法，提升 Word 文件品質。 |
 | [在 C# 中彙總 Word 文件 – 使用 Anthropic Claude 的完整指南](./summarize-word-document-in-c-complete-guide-using-anthropic/) |使用 Aspose.Words for .NET 結合 Anthropic Claude，在 C# 中高效彙總 Word 文件，提升文件處理效率。 |
+| [使用自訂 GPT 模型在 C# 中彙總 Word 文件 – 完整指南](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) |使用 Aspose.Words for .NET 結合自訂 GPT 模型，在 C# 中快速生成 Word 文件的精確摘要。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

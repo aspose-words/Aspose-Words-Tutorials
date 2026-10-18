@@ -70,6 +70,8 @@ Aspose.Words for .NET 튜토리얼에서는 PDFSaveOptions를 사용한 워드 �
 | [C#에서 DOCX를 PDF로 저장 – Aspose.Words 완전 가이드](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) | Aspose.Words for .NET을 사용해 C#에서 DOCX 파일을 PDF로 변환하는 전체 단계별 가이드 |
 | [C#에서 PDF 옵션 설정 – Word를 PDF로 변환](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | C#에서 Aspose.Words를 사용해 PDF 옵션을 설정하고 Word 문서를 PDF로 변환하는 방법을 단계별로 안내합니다. |
 
+| [인라인 도형 내보내기로 Word에서 PDF 저장 방법 – 완전 가이드](./how-to-save-pdf-from-word-with-inline-shape-export-complete/) | Aspose.Words for .NET을 사용하여 Word 문서의 인라인 도형을 포함한 PDF 저장 방법을 단계별로 안내합니다. |
+| [PDF/UA-2 준수 문서 만들기 – 완전 C# 가이드](./create-pdf-ua-2-compliant-document-complete-c-guide/) | Aspose.Words for .NET와 C#을 사용해 PDF/UA‑2 표준을 충족하는 문서를 단계별로 만드는 전체 가이드 |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

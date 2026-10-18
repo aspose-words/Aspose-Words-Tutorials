@@ -75,6 +75,7 @@
 | [Word 문서 저장 – Aspose.Words로 누락된 글꼴 감지](./save-word-document-detect-missing-fonts-with-aspose-words/) | Aspose.Words for .NET을 사용하여 Word 문서를 저장하면서 누락된 글꼴을 감지하는 방법을 단계별로 안내합니다. |
 | [Word 문서 로드 시 경고 콜백 만들기 – 완전 가이드](./create-warning-callback-for-loading-word-documents-complete/) | Aspose.Words for .NET을 사용하여 Word 문서를 로드할 때 경고 콜백을 설정하는 방법을 단계별로 안내합니다. |
 | [Aspose 글꼴 대체: Word 문서에서 누락된 글꼴 감지](./aspose-font-substitution-detect-missing-fonts-in-word-docs/) | Aspose.Words for .NET을 사용하여 Word 문서에서 누락된 글꼴을 감지하는 방법을 단계별 가이드로 알아보세요. |
+| [.NET에서 글꼴 처리 방법 – 누락된 글꼴 감지](./how-to-handle-fonts-in-net-detect-missing-fonts/) | Aspose.Words for .NET을 사용하여 문서에서 누락된 글꼴을 감지하고 처리하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

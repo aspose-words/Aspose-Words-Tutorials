@@ -70,6 +70,8 @@
 | [Δημιουργία προσβάσιμου PDF από Word – Οδηγός βήμα‑βήμα](./create-accessible-pdf-from-word-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε PDF προσβάσιμο από έγγραφα Word με οδηγίες βήμα‑βήμα. |
 | [Αποθήκευση DOCX ως PDF σε C# – Πλήρης Οδηγός Aspose.Words](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) | Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF χρησιμοποιώντας C# και το Aspose.Words με πλήρη οδηγό βήμα-βήμα. |
 | [Πώς να ορίσετε επιλογές PDF σε C# – Μετατροπή Word σε PDF](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | Μάθετε πώς να ρυθμίσετε τις επιλογές PDF σε C# για τη μετατροπή εγγράφων Word σε PDF χρησιμοποιώντας το Aspose.Words. |
+| [Δημιουργία εγγράφου συμβατού με pdf/ua-2 – Πλήρης οδηγός C#](./create-pdf-ua-2-compliant-document-complete-c-guide/) | Μάθετε πώς να δημιουργήσετε έγγραφο PDF/UA‑2 συμβατό χρησιμοποιώντας C# με πλήρη βήμα‑προς‑βήμα οδηγό. |
+| [Πώς να αποθηκεύσετε PDF από Word με εξαγωγή ενσωματωμένου σχήματος – Πλήρης Οδηγός](./how-to-save-pdf-from-word-with-inline-shape-export-complete/) | Μάθετε πώς να αποθηκεύσετε έγγραφα PDF από Word εξάγοντας ενσωματωμένα σχήματα με πλήρη οδηγό βήμα‑βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

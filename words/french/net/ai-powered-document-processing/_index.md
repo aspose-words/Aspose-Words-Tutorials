@@ -59,6 +59,7 @@ Enfin, n'oubliez pas de consulter notre [Travailler avec les options de résumé
 | [Comment utiliser un LLM avec Aspose.Words – Réécrire des paragraphes en C#](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Utilisez un modèle de langage pour réécrire automatiquement des paragraphes Word en C# avec Aspose.Words. |
 | [Comment vérifier la grammaire en C# – Guide complet pour les documents Word](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Apprenez à vérifier la grammaire des documents Word en C# avec Aspose.Words grâce à ce guide complet. |
 | [Résumer un document Word en C# – Guide complet utilisant Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Apprenez à résumer des documents Word en C# avec le modèle Claude d'Anthropic via Aspose.Words. |
+| [Résumer un document Word en C# avec un modèle GPT personnalisé – Guide complet](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Apprenez à résumer des documents Word en C# en utilisant un modèle GPT personnalisé avec Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

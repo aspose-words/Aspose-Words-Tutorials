@@ -70,6 +70,8 @@
 | [حفظ مستند Word كملف PDF في C# – دليل كامل لتحويل DOCX إلى PDF مع تصدير الأشكال](./save-word-as-pdf-in-c-full-guide-to-convert-docx-to-pdf-with/) | دليل شامل يوضح كيفية تحويل ملفات DOCX إلى PDF مع تصدير الأشكال باستخدام Aspose.Words لـ .NET في C#. |
 | [حفظ ملف DOCX كـ PDF في C# – دليل Aspose.Words الكامل](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) | تعلم كيفية تحويل مستندات DOCX إلى PDF باستخدام C# و Aspose.Words خطوة بخطوة. |
 | [كيفية ضبط خيارات PDF في C# – تحويل Word إلى PDF](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | تعرّف على ضبط خيارات PDF في C# لتحويل مستندات Word إلى PDF باستخدام Aspose.Words. |
+| [كيفية حفظ PDF من Word مع تصدير الشكل المضمن – دليل كامل](./how-to-save-pdf-from-word-with-inline-shape-export-complete/) | تعلم كيفية حفظ مستند Word كملف PDF مع تصدير الأشكال المضمنة باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
+| [إنشاء مستند متوافق مع pdf/ua-2 – دليل C# كامل](./create-pdf-ua-2-compliant-document-complete-c-guide/) |دليل شامل خطوة بخطوة لإنشاء مستند PDF/UA-2 متوافق باستخدام Aspose.Words لـ .NET ولغة C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -69,6 +69,8 @@ Akár Word dokumentumokat szeretne PDF formátumba konvertálni online terjeszt�
 
 | [DOCX mentése PDF-be C#-ban – Teljes Aspose.Words útmutató](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) | Lépésről lépésre bemutatja, hogyan konvertálhat DOCX fájlokat PDF-be C#-ban az Aspose.Words segítségével. |
 | [PDF beállítások beállítása C#-ban – Word konvertálása PDF-be](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | Ismerje meg, hogyan állíthatja be a PDF opciókat C#-ban a Word dokumentumok PDF-be konvertálásához az Aspose.Words segítségével. |
+| [Hogyan mentse PDF-be a Word dokumentumot beágyazott alakzat exportálással – Teljes útmutató](./how-to-save-pdf-from-word-with-inline-shape-export-complete/) | Ismerje meg, hogyan exportálhat beágyazott alakzatokat PDF-be a Word dokumentumból az Aspose.Words for .NET segítségével. |
+| [PDF/UA-2 szabványnak megfelelő dokumentum létrehozása – Teljes C# útmutató](./create-pdf-ua-2-compliant-document-complete-c-guide/) | Lépésről lépésre útmutató a PDF/UA-2 szabványnak megfelelő dokumentum létrehozásához C#-ban az Aspose.Words for .NET segítségével. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

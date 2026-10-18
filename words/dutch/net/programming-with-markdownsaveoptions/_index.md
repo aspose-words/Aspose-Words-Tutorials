@@ -229,6 +229,7 @@ Leer hoe u afbeeldingen met relatieve paden correct exporteert bij het converter
 Leer hoe u een assets‑map maakt voor het converteren van Word naar Markdown met Aspose.Words voor .NET.
 
 ### [Opslaan van Word als Markdown – Complete gids met Aspose.Words](./save-word-as-markdown-complete-guide-with-aspose-words/)
+### [Docx naar markdown met C# – Complete gids](./convert-docx-to-markdown-with-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

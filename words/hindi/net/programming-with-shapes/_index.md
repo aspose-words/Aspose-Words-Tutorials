@@ -57,6 +57,7 @@
 | [छाया वाले आयत आकार के साथ खाली Word दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-blank-word-document-with-shadowed-rectangle-ste/) | Aspose.Words का उपयोग करके छाया वाले आयत आकार के साथ एक खाली Word दस्तावेज़ बनाने के चरण‑दर‑चरण निर्देश। |
 | [छाया वाले आयत आकार के साथ Word दस्तावेज़ बनाएं – पूर्ण गाइड](./create-word-document-with-shadowed-rectangle-complete-guide/) | Aspose.Words का उपयोग करके छाया वाले आयत आकार के साथ Word दस्तावेज़ बनाने के विस्तृत चरण‑दर‑चरण निर्देश। |
 | [C# में Word दस्तावेज़ बनाएं – आयत आकार और छाया जोड़ें](./create-word-document-insert-rectangle-shape-shadow-in-c/) | C# और Aspose.Words का उपयोग करके Word दस्तावेज़ में आयत आकार और छाया जोड़ने की चरण‑दर‑चरण गाइड। |
+| [C# में Word आकृतियों में शैडो जोड़ने का तरीका – पूर्ण गाइड](./how-to-add-shadow-to-word-shapes-in-c-complete-guide/) | C# में Aspose.Words का उपयोग करके Word आकृतियों में शैडो जोड़ने के चरण‑दर‑श मार्गदर्शन। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

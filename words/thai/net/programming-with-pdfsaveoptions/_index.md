@@ -70,6 +70,8 @@
 - [บันทึก DOCX เป็น PDF ใน C# – คู่มือ Aspose.Words ฉบับสมบูรณ์](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) | เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น PDF ด้วย C# โดยใช้ Aspose.Words อย่างละเอียดในคู่มือฉบับสมบูรณ์
 - [วิธีตั้งค่าตัวเลือก PDF ใน C# – แปลง Word เป็น PDF](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | เรียนรู้วิธีตั้งค่าตัวเลือก PDF ใน C# เพื่อแปลงไฟล์ Word เป็น PDF ด้วย Aspose.Words สำหรับ .NET
 - [สร้าง PDF ที่เข้าถึงได้จาก Word – คู่มือ C# ฉบับสมบูรณ์](./create-accessible-pdf-from-word-complete-c-guide/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากไฟล์ Word ด้วย Aspose.Words สำหรับ .NET ด้วยคู่มือ C# ขั้นตอนเต็ม
+- [วิธีบันทึก PDF จาก Word ด้วยการส่งออก Inline Shape – คู่มือฉบับสมบูรณ์](./how-to-save-pdf-from-word-with-inline-shape-export-complete/) | เรียนรู้วิธีบันทึกไฟล์ PDF จาก Word พร้อมส่งออก Inline Shape อย่างละเอียดด้วย Aspose.Words สำหรับ .NET
+- [สร้างเอกสารที่เป็นไปตามมาตรฐาน pdf/ua-2 – คู่มือ C# ฉบับสมบูรณ์](./create-pdf-ua-2-compliant-document-complete-c-guide/) | เรียนรู้วิธีสร้างเอกสาร PDF/UA‑2 ที่เป็นไปตามมาตรฐานด้วย Aspose.Words สำหรับ .NET ผ่านคู่มือ C# อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

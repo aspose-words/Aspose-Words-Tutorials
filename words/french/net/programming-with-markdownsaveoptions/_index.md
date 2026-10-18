@@ -198,6 +198,9 @@ Apprenez à exporter les liens d'un document DOCX vers Markdown en utilisant C# 
 ### [Créer un dossier d'actifs pour convertir Word en Markdown](./create-assets-folder-for-convert-word-to-markdown/)
 
 ### [Enregistrer Word en Markdown – Guide complet avec Aspose.Words](./save-word-as-markdown-complete-guide-with-aspose-words/)
+### [Convertir docx en markdown avec C# – Guide complet](./convert-docx-to-markdown-with-c-complete-guide/)
+
+Apprenez à convertir des fichiers DOCX en Markdown avec C#, grâce à un guide complet pas à pas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

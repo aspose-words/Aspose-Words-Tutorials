@@ -92,6 +92,7 @@ Zpracování textu pomocí MarkdownSaveOptions je podrobný návod, který vás 
 | [Jak uložit obrázky – převod DOCX do Markdownu s Aspose.Words](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/) | Naučte se ukládat obrázky při převodu DOCX do Markdownu pomocí Aspose.Words. |
 | [Vytvořit složku s prostředky pro převod Wordu do Markdownu](./create-assets-folder-for-convert-word-to-markdown/) | Naučte se vytvořit složku pro ukládání prostředků při převodu dokumentů Word do formátu Markdown pomocí Aspose.Words pro .NET. |
 | [Uložení Wordu jako Markdown – Kompletní průvodce s Aspose.Words](./save-word-as-markdown-complete-guide-with-aspose-words/) | Kompletní průvodce ukládáním dokumentů Word jako Markdown pomocí Aspose.Words pro .NET. |
+| [Převod docx do markdown pomocí C# – Kompletní průvodce](./convert-docx-to-markdown-with-c-complete-guide/) | Kompletní průvodce převodem souborů DOCX do Markdownu pomocí C# a Aspose.Words. |
 
 | **[Uložení Wordu jako Markdown – Kompletní průvodce v C# s Aspose.Words](./save-word-as-markdown-complete-c-guide-with-aspose-words/)** | Naučte se kompletně exportovat dokumenty Word do Markdownu pomocí Aspose.Words v C#. |
 {{< /blocks/products/pf/tutorial-page-section >}}

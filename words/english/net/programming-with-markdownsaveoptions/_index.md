@@ -76,6 +76,7 @@ class Program
 | [Convert docx to markdown – Complete Guide with Line‑Break Preservation](./convert-docx-to-markdown-complete-guide-with-line-break-pres/) | Learn how to convert DOCX files to Markdown while preserving line breaks using Aspose.Words for .NET. |
 | [convert word to markdown with Aspose.Words – Full C# Guide](./convert-word-to-markdown-with-aspose-words-full-c-guide/) | Learn how to convert Word documents to Markdown using Aspose.Words in C# with a comprehensive guide. |
 | [Convert DOCX to Markdown in C# – Complete Guide](./convert-docx-to-markdown-in-c-complete-guide/) | Learn how to convert DOCX files to Markdown in C# with a comprehensive guide using Aspose.Words for .NET. |
+| [Convert docx to markdown with C# – Complete Guide](./convert-docx-to-markdown-with-c-complete-guide/) | Learn how to convert DOCX files to Markdown using C# with a comprehensive step‑by‑step guide. |
 | [How to Export Markdown from Word – Complete C# Guide](./how-to-export-markdown-from-word-complete-c-guide/) |  |
 | [How to Save Word as Markdown – Complete C# Guide](./how-to-save-word-as-markdown-complete-c-guide/) | Learn how to save Word documents as Markdown using Aspose.Words for .NET with a complete C# guide. |
 | [Convert docx to markdown with Aspose.Words – Full C# Guide](./convert-docx-to-markdown-with-aspose-words-full-c-guide/) | Learn how to convert DOCX to Markdown using Aspose.Words with a comprehensive C# guide. |

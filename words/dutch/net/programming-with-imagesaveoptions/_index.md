@@ -35,6 +35,7 @@ De tutorials behandelen ook de basisprincipes van beeldmanipulatie, waaronder he
 | [Maak PNG-raster van Word-document – Complete gids](./create-png-grid-from-word-document-complete-guide/) | Leer hoe u een PNG-raster maakt van een Word-document met Aspose.Words voor .NET in deze volledige stap‑voor‑stap handleiding. |
 | [Hoe resolutie in te stellen bij het converteren van Word naar PNG – Complete gids](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Leer hoe u de resolutie kunt aanpassen bij het omzetten van Word-documenten naar PNG met Aspose.Words voor .NET in C#. |
 | [Export Word als PNG – Converteer DOCX naar één afbeelding](./export-word-as-png-convert-docx-to-one-image/) | Leer hoe u een Word-document (DOCX) in één PNG-afbeelding kunt converteren met Aspose.Words voor .NET. |
+| [Docx naar png converteren – Complete stapsgewijze gids](./convert-docx-to-png-complete-step-by-step-guide/) | Leer hoe u een DOCX-bestand naar PNG converteert met een volledige stap‑voor‑stap handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

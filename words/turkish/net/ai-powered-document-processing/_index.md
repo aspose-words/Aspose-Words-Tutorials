@@ -60,6 +60,7 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [LLM ile Aspose.Words Kullanımı – Paragrafları C#'ta Yeniden Yazma](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | LLM'leri Aspose.Words ile entegre ederek C#'ta paragrafları otomatik olarak yeniden yazmayı öğrenin. |
 | [C#'ta Dilbilgisi Kontrolü – Word Belgeleri için Tam Kılavuz](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Aspose.Words for .NET kullanarak C# ile Word belgelerinizde dilbilgisi hatalarını otomatik olarak tespit edip düzeltmeyi öğrenin. |
 | [C#'ta Word Belgesini Özetleme – Anthropic Claude Kullanarak Tam Kılavuz](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Anthropic Claude modelini kullanarak C# ile Word belgelerini nasıl özetleyeceğinizi öğrenin. |
+| [C# ile Özel GPT Modeli Kullanarak Word Belgesini Özetleme – Tam Kılavuz](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | C# ve özel GPT modeliyle Word belgelerini hızlı ve doğru şekilde özetleyin. Adım adım tam rehber. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

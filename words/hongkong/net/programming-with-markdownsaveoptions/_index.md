@@ -94,6 +94,7 @@
 | [Markdown 圖像相對路徑 – 將 Word 轉換為 Markdown](./markdown-image-relative-path-convert-word-to-markdown/) |示範如何在將 Word 轉換為 Markdown 時，使用相對路徑引用圖像。 |
 | [如何儲存圖像 – 使用 Aspose.Words 將 DOCX 轉換為 Markdown](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/) |示範如何使用 Aspose.Words for .NET 從 DOCX 文件中提取圖像並將其儲存於 Markdown 中。 |
 | [將 Word 儲存為 Markdown – 完整指南（使用 Aspose.Words）](./save-word-as-markdown-complete-guide-with-aspose-words/) |示範如何使用 Aspose.Words for .NET 將 Word 文件完整儲存為 Markdown，提供完整步驟與範例程式碼。 |
+| [使用 C# 將 docx 轉換為 markdown – 完整指南](./convert-docx-to-markdown-with-c-complete-guide/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 docx 完整轉換為 markdown，提供詳細步驟與範例程式碼。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

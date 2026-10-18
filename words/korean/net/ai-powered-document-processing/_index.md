@@ -60,6 +60,7 @@
 | [LLM을 사용하여 Aspose.Words와 함께 C#에서 문단 재작성하기](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Aspose.Words와 LLM을 사용해 C#에서 문단을 재작성하는 방법을 단계별로 안내합니다. |
 | [C#에서 문법 검사하기 – Word 문서를 위한 완전 가이드](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Aspose.Words for .NET을 사용하여 C#에서 Word 문서의 문법을 검사하는 방법을 단계별로 안내합니다. |
 | [Anthropic Claude를 사용한 C# Word 문서 요약 – 완전 가이드](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Aspose.Words for .NET과 Anthropic Claude를 사용하여 C#에서 Word 문서를 효율적으로 요약하는 방법을 단계별로 안내합니다. |
+| [맞춤형 GPT 모델을 활용한 C# Word 문서 요약 – 전체 가이드](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | 맞춤형 GPT 모델을 통합하여 C#에서 Word 문서를 자동으로 요약하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

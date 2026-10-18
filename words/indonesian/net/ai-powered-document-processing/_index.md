@@ -58,6 +58,7 @@ Terakhir, jangan lupa untuk memeriksa [Bekerja Dengan Opsi Ringkasan](./working-
 | [Cara Menggunakan LLM dengan Aspose.Words – Menulis Ulang Paragraf dalam C#](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Pelajari cara menggunakan model bahasa besar (LLM) dengan Aspose.Words untuk menulis ulang paragraf secara otomatis dalam C#. |
 | [Cara Memeriksa Tata Bahasa di C# – Panduan Lengkap untuk Dokumen Word](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Pelajari cara memeriksa tata bahasa dokumen Word menggunakan Aspose.Words untuk .NET dalam C# dengan panduan lengkap. |
 | [Ringkas Dokumen Word di C# – Panduan Lengkap Menggunakan Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Pelajari cara merangkum dokumen Word secara otomatis menggunakan model Anthropic Claude dengan Aspose.Words untuk .NET dalam C#. |
+| [Meringkas Dokumen Word di C# Menggunakan Model GPT Kustom – Panduan Lengkap](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Pelajari cara meringkas dokumen Word dengan model GPT kustom menggunakan Aspose.Words untuk .NET dalam panduan lengkap ini. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

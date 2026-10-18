@@ -60,6 +60,7 @@
 | [كيفية استخدام LLM مع Aspose.Words – إعادة كتابة الفقرات في C#](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | تعلم كيفية دمج نموذج اللغة الكبيرة مع Aspose.Words لإعادة كتابة فقرات مستندات Word باستخدام C#. |
 | [كيفية فحص القواعد النحوية في C# – دليل كامل لمستندات Word](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | تعلم كيفية فحص القواعد النحوية في مستندات Word باستخدام Aspose.Words لـ .NET وC#. |
 | [تلخيص مستند Word في C# – دليل كامل باستخدام Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | تعلم كيفية تلخيص مستندات Word باستخدام Aspose.Words لـ .NET مع نموذج Anthropic Claude في دليل شامل خطوة بخطوة. |
+| [تلخيص مستند Word باستخدام نموذج GPT مخصص في C# – دليل كامل](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | تعلم كيفية تلخيص مستندات Word في C# باستخدام نموذج GPT مخصص خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

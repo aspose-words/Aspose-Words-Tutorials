@@ -37,6 +37,7 @@ Az oktatóanyagok a képmanipuláció alapvető fogalmait is lefedik, beleértve
 | [Hogyan állítsuk be a felbontást a Word PNG-re konvertálásakor – Teljes útmutató](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Ismerje meg, hogyan állíthatja be a felbontást a Word dokumentum PNG formátumba konvertálásakor C#-ban, részletes lépésekkel. |
 
 | [Word exportálása PNG-ként – DOCX konvertálása egyetlen képpé](./export-word-as-png-convert-docx-to-one-image/) | Tanulja meg, hogyan exportálhatja a Word-dokumentumot PNG formátumba egyetlen képként az Aspose.Words for .NET segítségével. |
+| [DOCX konvertálása PNG-re – Teljes lépésről‑lépésre útmutató](./convert-docx-to-png-complete-step-by-step-guide/) | Tanulja meg, hogyan konvertáljon DOCX fájlokat PNG képekké az Aspose.Words for .NET használatával részletes, lépésről‑lépésre útmutatóval. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

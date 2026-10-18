@@ -57,6 +57,7 @@
 | [LLM を使用した Aspose.Words – C# で段落を書き換える方法](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) Aspose.Words と LLM を組み合わせ、C# で段落を書き換える手順を学び、文書を自動的に改善します。 |
 | [C# で文法チェックする方法 – Word 文書の完全ガイド](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) Aspose.Words for .NET と C# を使用して、Word 文書の文法チェックを自動化する完全ガイドです。 |
 | [C# で Word 文書を要約する – Anthropic Claude を使用した完全ガイド](./summarize-word-document-in-c-complete-guide-using-anthropic/) Anthropic Claude を活用し、C# で Word 文書を自動要約する手順をステップバイステップで解説します。 |
+| [カスタム GPT モデルを使用した C# での Word 文書要約 – 完全ガイド](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) カスタム GPT モデルを活用し、C# で Word 文書を自動要約する方法をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
