@@ -23,6 +23,38 @@ In these tutorials, you will learn how to create different types of charts such 
 With these tutorials, you will be able to enhance your Word documents by adding visually appealing and informative graphics. You will learn how to take advantage of the advanced graphics features in Aspose.Words for .NET and integrate them effectively into your applications. Explore these tutorials to expand your graphics skills in Aspose.Words.
 
  ## Tutorials
+
+{{< tutorial-card link="./validate-chart-data/" title="Validate Chart Series and Data Points in a Word Document Using Aspose.Words for .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+
+{{< tutorial-card link="./add-named-series/" title="Add a Named Data Series to a Histogram Chart in Word Using Aspose.Words for .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Update Chart Title and Toggle Legend Visibility in Word Using Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
+
+
+{{< tutorial-card link="./format-secondary-axis/" title="Format Secondary X‑Axis and Set Display Units to Thousands in Word Line Charts Using Aspose.Words for .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Customize X Axis Gridlines in a Column Chart Using Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+{{< tutorial-card link="./modify-chart-series/" title="Update Chart Series Data in a Word Document Using Aspose.Words for .NET" imgSrc="./modify-chart-series/images/thumb.png" >}}
+
+
+{{< tutorial-card link="./remove-chart-series/" title="Remove a Chart Series from a Word Document Using Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+
+{{< tutorial-card link="./hide-plot-border/" title="Hide Plot Area Border in a Column Chart with Aspose.Words for .NET" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-sample-column-chart/" title="Insert Sample Column Chart in Word Document Using Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+
+{{< tutorial-card link="./insert-custom-chart/" title="Insert Custom Column Chart in Word Document Using Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+
+{{< tutorial-card link="./resize-chart/" title="Resize Chart Proportionally When Changing Page Size in Word Using Aspose.Words for .NET" imgSrc="./resize-chart/images/thumb.png" >}}
+
+
+{{< tutorial-card link="./uniform-data-labels/" title="Set Uniform Data Labels in a Column Chart Using Aspose.Words for .NET" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
 | Title | Description |
 | --- | --- |
 | [Format Number Of Data Label In A Chart](./format-number-of-data-label/) | Learn how to format data labels in charts using Aspose.Words for .NET with this step-by-step guide. Enhance your Word documents effortlessly. |

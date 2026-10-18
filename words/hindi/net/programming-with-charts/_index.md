@@ -22,6 +22,34 @@ Aspose.Words for .NET Graphics Programming ट्यूटोरियल आप
 इन ट्यूटोरियल्स की मदद से, आप अपने वर्ड डॉक्यूमेंट्स को आकर्षक और जानकारीपूर्ण ग्राफ़िक्स जोड़कर बेहतर बना पाएँगे। आप सीखेंगे कि Aspose.Words for .NET में एडवांस्ड ग्राफ़िक्स सुविधाओं का लाभ कैसे उठाएँ और उन्हें अपने एप्लीकेशन में प्रभावी ढंग से कैसे एकीकृत करें। Aspose.Words में अपने ग्राफ़िक्स कौशल का विस्तार करने के लिए इन ट्यूटोरियल्स को देखें।
 
  ## ट्यूटोरियल
+
+{{< tutorial-card link="./uniform-data-labels/" title="Aspose.Words for .NET का उपयोग करके कॉलम चार्ट में समान डेटा लेबल सेट करें" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="Aspose.Words for .NET का उपयोग करके Word में पेज साइज बदलते समय चार्ट को अनुपातिक रूप से री-साइज़ करें" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में कस्टम कॉलम चार्ट डालें" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./hide-plot-border/" title="Aspose.Words for .NET के साथ कॉलम चार्ट में प्लॉट एरिया बॉर्डर को छिपाएँ" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Aspose.Words for .NET का उपयोग करके Word Document से एक Chart Series हटाएँ" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-sample-column-chart/" title="Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में सैंपल कॉलम चार्ट डालें।" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-named-series/" title="Aspose.Words for .NET का उपयोग करके Word में एक हिस्टोग्राम चार्ट में नेम्ड डेटा सीरीज़ जोड़ें।" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में चार्ट सीरीज़ और डेटा पॉइंट्स को वैलिडेट करें।" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Aspose.Words for .NET का उपयोग करके कॉलम चार्ट में X अक्ष की ग्रिडलाइन को कस्टमाइज़ करें।" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Aspose.Words for .NET का उपयोग करके Word लाइन चार्ट्स में सेकेंडरी X‑अक्ष को फ़ॉर्मेट करें और डिस्प्ले यूनिट को हजारों पर सेट करें।" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Aspose.Words for .NET का उपयोग करके Word में चार्ट शीर्षक अपडेट करें और लेजेंड की दृश्यता टॉगल करें" imgSrc="./update-chart-title/images/thumb.png" >}}
+
+
+
+
+
+
 | शीर्षक | विवरण |
 | --- | --- |
 | [चार्ट में डेटा लेबल की संख्या को प्रारूपित करें](./format-number-of-data-label/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके चार्ट में डेटा लेबल को फ़ॉर्मेट करना सीखें। अपने Word दस्तावेज़ों को आसानी से बेहतर बनाएँ। |

@@ -68,6 +68,9 @@ Aspose.Words Java 代码教程
 ### [使用 Aspose.Words 将 Word 文档保存为 PostScript 格式，并设置书籍折叠方式](./aspose-words-java-postscript-book-fold-settings/)
 了解如何使用 Aspose.Words for Java 将 Word 文档转换为具有专业品质的小册子。本指南涵盖如何保存为 PostScript 格式以及如何配置书籍折叠设置。
 
+### [遍历文档警告：在 Java 中检测缺失字体](./iterate-document-warnings-detect-missing-fonts-in-java/)
+学习如何遍历文档警告并检测缺失的字体，以确保在 Java 中生成的文档完整显示。
+
 ## 其他资源
 
 - [Aspose.Words for Java 文档](https://reference.aspose.com/words/java/)

@@ -1,0 +1,7 @@
+Title: Add shadow to shape in Word with Aspose.Words – Complete Guide
+Slug: add-shadow-to-shape-in-word-with-aspose-words-complete-guide
+Category: programming-with-shapes
+ProcessedDate: 2026-06-18T02:46:45.438567
+SourceRepo: AI Search API
+Keywords: add shadow to shape, how to add picture shadow, apply shadow effect word
+PRNumber: 204

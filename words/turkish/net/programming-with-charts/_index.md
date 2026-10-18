@@ -22,6 +22,34 @@ Bu eğitimlerde, çubuk grafikler, pasta grafikler, alan grafikleri, çizgi graf
 Bu eğitimlerle, Word belgelerinizi görsel olarak çekici ve bilgilendirici grafikler ekleyerek geliştirebileceksiniz. Aspose.Words for .NET'teki gelişmiş grafik özelliklerinden nasıl yararlanacağınızı ve bunları uygulamalarınıza etkili bir şekilde nasıl entegre edeceğinizi öğreneceksiniz. Aspose.Words'teki grafik becerilerinizi geliştirmek için bu eğitimleri keşfedin.
 
  ## Eğitimler
+
+{{< tutorial-card link="./uniform-data-labels/" title="Aspose.Words for .NET kullanarak bir sütun grafikte Tekdüze Veri Etiketleri ayarlayın" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="Aspose.Words for .NET kullanarak Word'de Sayfa Boyutunu Değiştirirken Grafiği Orantılı Olarak Yeniden Boyutlandırma" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="Aspose.Words for .NET kullanarak Word belgesine Custom Column Chart ekleyin." imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./hide-plot-border/" title="Aspose.Words for .NET ile bir Sütun Grafiğinde Çizim Alanı Kenarlığını Gizleme" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Aspose.Words for .NET kullanarak bir Word Document'ten Chart Series kaldırma" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-sample-column-chart/" title="Aspose.Words for .NET kullanarak Word belgesine Örnek Sütun Grafiği ekleyin" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-named-series/" title="Aspose.Words for .NET kullanarak Word'de bir Histogram Grafiğine Adlandırılmış Veri Serisi Ekleyin" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Aspose.Words for .NET kullanarak bir Word belgesindeki Grafik Serilerini ve Veri Noktalarını Doğrulama" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Aspose.Words for .NET kullanarak bir sütun grafiğinde X Ekseni Izgara Çizgilerini Özelleştirin" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Aspose.Words for .NET kullanarak Word line chart'larında Secondary X‑Axis'i biçimlendirin ve Display Units'i bin olarak ayarlayın." imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Aspose.Words for .NET kullanarak Word'de Grafik Başlığını Güncelleyin ve Efsane Görünürlüğünü Değiştirin" imgSrc="./update-chart-title/images/thumb.png" >}}
+
+
+
+
+
+
 | Başlık | Açıklama |
 | --- | --- |
 | [Bir Grafikteki Veri Etiketinin Sayısını Biçimlendir](./format-number-of-data-label/) | Bu adım adım kılavuzla Aspose.Words for .NET kullanarak grafiklerdeki veri etiketlerini nasıl biçimlendireceğinizi öğrenin. Word belgelerinizi zahmetsizce geliştirin. |

@@ -22,6 +22,34 @@ W tych samouczkach nauczysz się, jak tworzyć różne typy wykresów, takie jak
 Dzięki tym samouczkom będziesz w stanie ulepszyć swoje dokumenty Word, dodając atrakcyjne wizualnie i informacyjne grafiki. Dowiesz się, jak korzystać z zaawansowanych funkcji graficznych w Aspose.Words dla .NET i skutecznie integrować je ze swoimi aplikacjami. Przeglądaj te samouczki, aby rozwinąć swoje umiejętności graficzne w Aspose.Words.
 
  ## Samouczki
+
+{{< tutorial-card link="./uniform-data-labels/" title="Ustaw jednolite etykiety danych w wykresie słupkowym przy użyciu Aspose.Words for .NET" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="Proporcjonalne skalowanie wykresu przy zmianie rozmiaru strony w Word przy użyciu Aspose.Words for .NET" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="Wstaw własny wykres słupkowy do dokumentu Word przy użyciu Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./hide-plot-border/" title="Ukryj obramowanie obszaru wykresu w wykresie kolumnowym przy użyciu Aspose.Words for .NET" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Usuwanie serii wykresu z dokumentu Word przy użyciu Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-sample-column-chart/" title="Wstaw przykładowy wykres słupkowy do dokumentu Word przy użyciu Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-named-series/" title="Dodaj nazwaną serię danych do wykresu histogramu w Wordzie przy użyciu Aspose.Words for .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Walidacja serii wykresu i punktów danych w dokumencie Word przy użyciu Aspose.Words dla .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Dostosuj linie siatki osi X w wykresie słupkowym przy użyciu Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Formatuj drugą oś X i ustaw jednostki wyświetlania na tysiące w wykresach liniowych Word przy użyciu Aspose.Words dla .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Aktualizuj tytuł wykresu i przełącz widoczność legendy w Wordzie przy użyciu Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
+
+
+
+
+
+
 | Tytuł | Opis |
 | --- | --- |
 | [Formatuj liczbę etykiet danych na wykresie](./format-number-of-data-label/) | Dowiedz się, jak formatować etykiety danych na wykresach za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Ulepszaj swoje dokumenty Word bez wysiłku. |

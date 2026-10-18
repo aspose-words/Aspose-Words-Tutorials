@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: 이 튜토리얼에서는 Aspose.Words Document와 DocumentBuilder를 사용하여 Word 문서에 페이지 나누기를 삽입하는 방법을 보여줍니다.
+//ExStepSummary:0: 콘텐츠를 추가하는 데 사용할 Document 객체와 DocumentBuilder를 생성합니다.
+//ExStepSummary:1: 첫 페이지 텍스트를 작성하고 페이지 나누기를 삽입하여 다음 콘텐츠가 새 페이지에서 시작하도록 합니다.
+//ExStepSummary:2: 두 번째 페이지 텍스트를 작성하고 또 다른 페이지 나누기를 삽입하여 세 번째 페이지를 시작합니다.
+//ExStepSummary:3: 세 번째 페이지 텍스트를 작성하여 세 페이지 문서를 완성합니다.
+//ExStepSummary:4: 조립된 문서를 지정된 디렉터리의 .docx 파일로 저장합니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("This is page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:2-
+builder.Writeln("This is page 2.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+builder.Writeln("This is page 3.");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

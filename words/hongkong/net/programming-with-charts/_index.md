@@ -22,6 +22,34 @@ Aspose.Words for .NET 圖形程式教學提供了全面的資源，用於學習�
 透過這些教程，您將能夠透過添加視覺上吸引人且資訊豐富的圖形來增強您的 Word 文件。您將學習如何利用 Aspose.Words for .NET 中的高級圖形功能並將其有效地整合到您的應用程式中。探索這些教學以擴展您在 Aspose.Words 中的圖形技能。
 
  ## 教學
+
+{{< tutorial-card link="./uniform-data-labels/" title="使用 Aspose.Words for .NET 在柱形圖中設定統一的資料標籤" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="使用 Aspose.Words for .NET 在 Word 中變更頁面尺寸時比例調整圖表大小" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="使用 Aspose.Words for .NET 在 Word 文件中插入自訂直條圖" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./hide-plot-border/" title="使用 Aspose.Words for .NET 隱藏直條圖的繪圖區邊框" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="使用 Aspose.Words for .NET 從 Word 文件中移除圖表系列" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-sample-column-chart/" title="使用 Aspose.Words for .NET 在 Word 文件中插入範例直條圖" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-named-series/" title="使用 Aspose.Words for .NET 在 Word 直方圖圖表中加入具名稱的資料系列" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="使用 Aspose.Words for .NET 驗證 Word 文件中的圖表系列與資料點" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="使用 Aspose.Words for .NET 自訂直條圖的 X 軸格線" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="使用 Aspose.Words for .NET 在 Word 折線圖中格式化次要 X 軸並將顯示單位設定為千位" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="使用 Aspose.Words for .NET 在 Word 中更新圖表標題並切換圖例可見性" imgSrc="./update-chart-title/images/thumb.png" >}}
+
+
+
+
+
+
 |標題 |描述 |
 | --- | --- |
 | [圖表中資料標籤的格式數量](./format-number-of-data-label/) |透過本逐步指南了解如何使用 Aspose.Words for .NET 格式化圖表中的資料標籤。輕鬆增強您的 Word 文件。 |

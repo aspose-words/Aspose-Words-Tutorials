@@ -1,0 +1,7 @@
+Title: How to Export LaTeX from Word – Complete Guide to Export LaTeX
+Slug: how-to-export-latex-from-word-complete-guide-to-export-latex
+Category: programming-with-txtsaveoptions
+ProcessedDate: 2026-06-21T06:40:21.488893
+SourceRepo: AI Search API
+Keywords: how to export latex, convert docx to txt, save docx as txt, export word equations, save document latex
+PRNumber: 207
