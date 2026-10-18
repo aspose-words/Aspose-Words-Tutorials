@@ -65,6 +65,17 @@ Leer hoe je met Aspose.Words voor Python afbeeldingen kunt embedden bij het omze
 
 ### [Hoe afbeeldingen in te sluiten in Markdown vanuit DOCX – Volledige gids](./how-to-embed-images-in-markdown-from-docx-full-guide/)
 Leer hoe je met Aspose.Words voor Python afbeeldingen embedt bij het omzetten van DOCX naar Markdown.
+### [Word opslaan als Markdown – Complete Python-gids](./save-word-as-markdown-complete-python-guide/)
+Leer hoe je met Aspose.Words voor Python Word-documenten kunt opslaan als Markdown-bestanden.
+
+### [Docx opslaan als txt – converteer Word naar TXT met LaTeX](./save-docx-as-txt-convert-word-to-txt-with-latex/)
+Leer hoe je met Aspose.Words voor Python een DOCX-bestand kunt omzetten naar een TXT-bestand met LaTeX-opmaak.
+
+### [Word opslaan als PDF met Shape-tagging – Complete Python-gids](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
+Leer hoe je met Aspose.Words voor Python Word-documenten als PDF opslaat en shapes tagt voor geavanceerde bewerkingen.
+
+### [Hoe DOCX te herstellen en converteren naar Markdown en PDF – Complete Python-gids](./how-to-recover-docx-and-convert-it-to-markdown-and-pdf-compl/)
+Leer hoe je beschadigde DOCX-bestanden kunt herstellen en ze omzet naar Markdown en PDF met Aspose.Words voor Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

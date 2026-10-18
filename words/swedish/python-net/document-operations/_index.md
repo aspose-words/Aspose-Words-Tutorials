@@ -66,6 +66,9 @@ Lär dig hur du manipulerar PDF-filer med Aspose.Words för Python. Konvertera, 
     ### [Återställ korrupt DOCX – Komplett guide för att aktivera återställningsläge & få sidantal](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
 Lär dig hur du återställer korrupta DOCX-filer, aktiverar återställningsläge och hämtar sidantal med Aspose.Words för Python-net.
 
+    ### [Återställ korrupt Word-dokument med Aspose.Words för Python](./recover-corrupted-word-document-with-aspose-words-python/)
+Lär dig hur du återställer skadade Word-dokument med Aspose.Words för Python och återfår data utan förlust.
+
 ## Ytterligare resurser
 
 - [Aspose.Words för Python-net-dokumentation](https://docs.aspose.com/words/python-net/)

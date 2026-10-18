@@ -41,6 +41,8 @@ Hướng dẫn chi tiết cách thêm hiệu ứng bóng cho đối tượng tro
 Hướng dẫn chi tiết cách chèn hình chữ nhật vào tài liệu PDF bằng Aspose.Words trong Python-net.
 ### [Tạo hình chữ nhật trong Python – Hướng dẫn đầy đủ về Thêm bóng và Lưu dưới dạng PDF](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
 Hướng dẫn chi tiết cách tạo hình chữ nhật, áp dụng hiệu ứng bóng và lưu tài liệu dưới dạng PDF bằng Aspose.Words cho Python-net.
+### [Cách chèn hình chữ nhật và thêm bóng trong Word bằng Aspose](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
+Hướng dẫn chi tiết cách chèn hình chữ nhật và áp dụng hiệu ứng bóng cho đối tượng trong tài liệu Word bằng Aspose.Words.
 
 ## Tài nguyên bổ sung
 

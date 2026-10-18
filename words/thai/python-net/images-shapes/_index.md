@@ -41,6 +41,8 @@
 เรียนรู้วิธีเพิ่มสี่เหลี่ยมผืนผ้าในไฟล์ PDF โดยใช้ Aspose.Words ผ่านขั้นตอนที่ละเอียดและตัวอย่างโค้ดที่พร้อมใช้งาน
 ### [สร้างรูปสี่เหลี่ยมใน Python – คู่มือเต็มการเพิ่มเงาและบันทึกเป็น PDF](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
 เรียนรู้วิธีสร้างรูปสี่เหลี่ยม เพิ่มเงา และบันทึกเป็น PDF ด้วย Aspose.Words สำหรับ Python
+### [วิธีแทรกสี่เหลี่ยมผืนผ้าและเพิ่มเงาใน Word ด้วย Aspose](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
+เรียนรู้วิธีแทรกสี่เหลี่ยมผืนผ้าและเพิ่มเงาในเอกสาร Word ด้วย Aspose.Words สำหรับ Python-net อย่างละเอียด
 
 ## แหล่งข้อมูลเพิ่มเติม
 

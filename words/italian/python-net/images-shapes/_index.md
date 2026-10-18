@@ -41,6 +41,8 @@ Scopri come aggiungere ombre agli oggetti in C# usando Aspose.Words, con esempi 
 Scopri come inserire un rettangolo in un PDF usando Aspose.Words con istruzioni dettagliate passo‑passo.
 ### [Creare forma rettangolare in Python – Guida completa per aggiungere ombre e salvare come PDF](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
 Scopri come creare una forma rettangolare, aggiungere ombre e salvare il documento come PDF usando Aspose.Words per Python.
+### [Come inserire un rettangolo e aggiungere l'ombra in Word usando Aspose](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
+Scopri come aggiungere un rettangolo con ombra ai documenti Word tramite Aspose.Words per Python-net.
 
 ## Risorse aggiuntive
 

@@ -41,6 +41,8 @@
 تعلم كيفية إضافة مستطيل إلى ملفات PDF باستخدام Aspose.Words خطوة بخطوة.
 ### [إنشاء شكل مستطيل في بايثون – دليل كامل لإضافة الظلال وحفظه كملف PDF](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
 تعلم كيفية إنشاء شكل مستطيل، إضافة الظلال، وحفظ المستند كملف PDF باستخدام Aspose.Words لبايثون.
+### [كيفية إدراج مستطيل وإضافة ظل في Word باستخدام Aspose](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
+تعلّم كيفية إدراج مستطيل وإضافة ظل إلى مستندات Word باستخدام Aspose خطوة بخطوة.
 
 ## موارد إضافية
 

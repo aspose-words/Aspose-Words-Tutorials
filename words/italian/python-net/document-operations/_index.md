@@ -64,6 +64,8 @@ Scopri come aprire e caricare documenti Word DOCX corrotti con Aspose.Words per 
 Scopri come abilitare la modalità di recupero per aprire DOCX corrotti e determinare il numero di pagine con Aspose.Words per Python-net.
 ### [Recupera documento Word corrotto usando Python – Guida completa](./recover-corrupted-word-document-using-python-complete-guide/)
 Scopri come recuperare documenti Word corrotti con Python grazie a questa guida completa.
+### [Recupera documento Word corrotto con Aspose.Words per Python](./recover-corrupted-word-document-with-aspose-words-python/)
+Scopri come aprire e riparare documenti Word corrotti usando Aspose.Words per Python.
 
 ## Risorse aggiuntive
 

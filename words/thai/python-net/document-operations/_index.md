@@ -64,6 +64,8 @@
 เรียนรู้วิธีเปิดโหมดการกู้คืนไฟล์ DOCX ที่เสียหายและรับจำนวนหน้าด้วย Aspose.Words สำหรับ Python-net
 ### [กู้ไฟล์ Word ที่เสียหายโดยใช้ Python – คู่มือฉบับสมบูรณ์](./recover-corrupted-word-document-using-python-complete-guide/)
 เรียนรู้วิธีกู้ไฟล์ Word ที่เสียหายด้วย Python และ Aspose.Words อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้
+### [กู้ไฟล์ Word ที่เสียหายด้วย Aspose.Words สำหรับ Python](./recover-corrupted-word-document-with-aspose-words-python/)
+เรียนรู้วิธีกู้ไฟล์ Word ที่เสียหายและเปิดโหลดด้วย Aspose.Words สำหรับ Python อย่างมีประสิทธิภาพ
 
 ## แหล่งข้อมูลเพิ่มเติม
 

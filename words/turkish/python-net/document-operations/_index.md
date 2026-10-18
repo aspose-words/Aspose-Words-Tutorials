@@ -64,6 +64,8 @@ Aspose.Words for Python-net ile bozuk DOCX dosyalarını açma ve yükleme yönt
 Aspose.Words for Python-net kullanarak bozuk DOCX dosyalarını kurtarma modunu etkinleştirip sayfa sayısını nasıl alacağınızı öğrenin.
 ### [Bozuk Word Belgesini Python ile Kurtar – Tam Kılavuz](./recover-corrupted-word-document-using-python-complete-guide/)
 Aspose.Words for Python-net kullanarak bozuk Word belgelerini nasıl açıp onarabileceğinizi adım adım öğrenin.
+### [Aspose.Words Python ile Bozuk Word Belgesini Kurtarın](./recover-corrupted-word-document-with-aspose-words-python/)
+Aspose.Words for Python kullanarak bozuk Word belgelerini nasıl açıp onaracağınızı öğrenin.
 
 ## Ek Kaynaklar
 

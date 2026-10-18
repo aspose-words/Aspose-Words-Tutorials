@@ -42,6 +42,8 @@ Pelajari cara menambahkan efek bayangan pada elemen di C# dengan panduan lengkap
 
 ### [Menambahkan persegi panjang ke PDF dengan Aspose.Words – Panduan Langkah demi Langkah](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 Pelajari cara menambahkan bentuk persegi panjang ke file PDF menggunakan Aspose.Words dengan contoh kode Python-net yang mudah diikuti.
+### [Cara Menyisipkan Persegi Panjang dan Menambahkan Bayangan di Word menggunakan Aspose](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
+Pelajari cara menyisipkan bentuk persegi panjang dan menambahkan efek bayangan pada dokumen Word menggunakan Aspose.Words untuk Python-net.
 
 ## Sumber Daya Tambahan
 

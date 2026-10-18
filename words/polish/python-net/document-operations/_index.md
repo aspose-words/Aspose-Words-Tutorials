@@ -64,6 +64,8 @@ Dowiedz się, jak otworzyć i załadować uszkodzony plik DOCX przy użyciu Aspo
 Dowiedz się, jak włączyć tryb odzyskiwania uszkodzonych plików DOCX i uzyskać liczbę stron dokumentu przy użyciu Aspose.Words dla Python-net.
 ### [Odzyskaj uszkodzony dokument Word przy użyciu Pythona – Kompletny przewodnik](./recover-corrupted-word-document-using-python-complete-guide/)
 Dowiedz się, jak otworzyć i naprawić uszkodzony dokument Word przy użyciu Pythona.
+### [Odzyskaj uszkodzony dokument Word przy użyciu Aspose.Words dla Pythona](./recover-corrupted-word-document-with-aspose-words-python/)
+Dowiedz się, jak przywrócić uszkodzony dokument Word przy użyciu Aspose.Words w Pythonie.
 
 ## Dodatkowe zasoby
 

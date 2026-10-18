@@ -57,6 +57,14 @@ Pelajari cara menyimpan file DOCX menjadi PDF menggunakan Aspose.Words untuk Pyt
 Pelajari cara menyisipkan gambar secara tepat saat mengonversi file DOCX ke Markdown menggunakan Aspose.Words untuk Python.
 ### [Cara Menyisipkan Gambar dalam Markdown dari DOCX – Panduan Lengkap](./how-to-embed-images-in-markdown-from-docx-full-guide/)
 Panduan lengkap untuk menyisipkan gambar secara akurat saat mengonversi DOCX ke Markdown dengan Aspose.Words untuk Python.
+### [Simpan Word sebagai Markdown – Pandilan Lengkap Python](./save-word-as-markdown-complete-python-guide/)
+Pelajari cara menyimpan dokumen Word menjadi file Markdown dengan Aspose.Words untuk Python secara lengkap.
+### [Simpan DOCX sebagai TXT – Konversi Word ke TXT dengan LaTeX](./save-docx-as-txt-convert-word-to-txt-with-latex/)
+Pelajari cara mengonversi file DOCX menjadi teks (TXT) menggunakan LaTeX dengan Aspose.Words untuk Python.
+### [Simpan Word sebagai PDF dengan Penandaan Bentuk – Panduan Lengkap Python](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
+Pelajari cara menyimpan dokumen Word sebagai PDF dengan penandaan bentuk menggunakan Aspose.Words untuk Python secara lengkap.
+### [Cara Memulihkan DOCX dan Mengonversinya ke Markdown serta PDF – Panduan Lengkap Python](./how-to-recover-docx-and-convert-it-to-markdown-and-pdf-compl/)
+Pelajari cara memulihkan file DOCX yang rusak, lalu mengonversinya menjadi Markdown dan PDF dengan Aspose.Words untuk Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -55,6 +55,14 @@
 Узнайте, как сохранять изображения из DOCX при конвертации в Markdown с помощью Aspose.Words для Python.
 ### [Как встраивать изображения в Markdown из DOCX – Полное руководство](./how-to-embed-images-in-markdown-from-docx-full-guide/)
 Узнайте, как встраивать изображения из DOCX при конвертации в Markdown с помощью Aspose.Words для Python.
+### [Сохранить Word как Markdown — Полное руководство Python](./save-word-as-markdown-complete-python-guide/)
+Подробное руководство по сохранению файлов Word в формате Markdown с использованием Aspose.Words для Python.
+### [Сохранить DOCX как TXT — конвертировать Word в TXT с LaTeX](./save-docx-as-txt-convert-word-to-txt-with-latex/)
+Узнайте, как с помощью Aspose.Words для Python преобразовать документы Word в текстовый формат TXT, используя LaTeX.
+### [Сохранить Word как PDF с тегированием фигур — Полное руководство Python](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
+Узнайте, как сохранять документы Word в PDF с тегированием фигур, используя Aspose.Words для Python.
+### [Как восстановить DOCX и конвертировать его в Markdown и PDF — Полное руководство Python](./how-to-recover-docx-and-convert-it-to-markdown-and-pdf-compl/)
+Узнайте, как восстановить повреждённый DOCX и преобразовать его в Markdown и PDF с помощью Aspose.Words для Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

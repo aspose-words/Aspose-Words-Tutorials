@@ -66,6 +66,9 @@ Leer hoe u PDF's kunt bewerken met Aspose.Words voor Python. Converteer, bewerk 
     ### [Herstel beschadigde DOCX – Complete gids om herstelmodus in te schakelen & paginatelling te krijgen](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
 Leer hoe u beschadigde DOCX-bestanden kunt herstellen, herstelmodus inschakelt en het aantal pagina's bepaalt met Aspose.Words voor Python-net.
 
+    ### [Herstel beschadigd Word-document met Aspose.Words voor Python](./recover-corrupted-word-document-with-aspose-words-python/)
+Leer hoe u beschadigde Word-documenten kunt herstellen met Aspose.Words voor Python.
+
 ## Aanvullende bronnen
 
 - [Aspose.Words voor Python-net-documentatie](https://docs.aspose.com/words/python-net/)

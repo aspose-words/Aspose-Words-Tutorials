@@ -64,6 +64,8 @@
 تعلم كيفية تمكين وضع الاستعادة في Aspose.Words للبايثون واستخراج عدد الصفحات من ملفات DOCX التالفة.
 ### [استعادة مستند Word تالف باستخدام Python – دليل شامل](./recover-corrupted-word-document-using-python-complete-guide/)
 تعلم كيفية استعادة ملفات Word التالفة وإصلاحها برمجيًا باستخدام Aspose.Words للغة Python.
+### [استعادة مستند Word تالف باستخدام Aspose.Words للبايثون](./recover-corrupted-word-document-with-aspose-words-python/)
+تعلم كيفية استعادة مستند Word التالف وفتحه وتحميله باستخدام Aspose.Words للغة بايثون.
 
 ## موارد إضافية
 

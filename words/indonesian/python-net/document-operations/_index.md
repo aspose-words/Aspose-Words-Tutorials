@@ -65,6 +65,8 @@ Pelajari cara membuka dan memuat dokumen Word DOCX yang rusak menggunakan Aspose
 
 ### [Pulihkan DOCX Rusak – Panduan Lengkap Mengaktifkan Mode Pemulihan & Mendapatkan Jumlah Halaman](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
 Pelajari cara mengaktifkan mode pemulihan pada dokumen DOCX yang rusak dan menghitung jumlah halaman secara otomatis.
+### [Pulihkan Dokumen Word Rusak dengan Aspose.Words Python](./recover-corrupted-word-document-with-aspose-words-python/)
+Pelajari cara memulihkan dokumen Word yang rusak menggunakan Aspose.Words untuk Python secara efisien.
 
 ## Sumber Daya Tambahan
 

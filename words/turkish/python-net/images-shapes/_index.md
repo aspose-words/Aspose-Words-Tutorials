@@ -41,6 +41,8 @@ C# kullanarak Word belgelerine gölge eklemeyi adım adım öğrenin.
 Aspose.Words kullanarak PDF belgelerine dikdörtgen şekli eklemeyi adım adım öğrenin.
 ### [Python'da Dikdörtgen Şekli Oluşturma – Gölge Ekleme ve PDF Olarak Kaydetme Tam Kılavuzu](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
 Python ve Aspose.Words kullanarak dikdörtgen şekli ekleyin, gölge uygulayın ve belgeyi PDF olarak kaydedin.
+### [Aspose ile Word'e Dikdörtgen Ekleme ve Gölge Ekleme](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
+Aspose.Words for Python-net kullanarak Word belgesine dikdörtgen şekli ekleyip gölgesini ayarlamayı adım adım öğrenin.
 
 ## Ek Kaynaklar
 

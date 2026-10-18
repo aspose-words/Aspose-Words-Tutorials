@@ -67,6 +67,17 @@ DOCX から Markdown へ変換する際、画像を正しく埋め込む手順�
 
 ### [DOCX から Markdown に画像を埋め込む方法 – 完全ガイド](./how-to-embed-images-in-markdown-from-docx-full-guide/)
 DOCX から Markdown に画像を埋め込む手順とコード例を解説します。Python で簡単に実装可能です。
+### [DOCX を復元し、Markdown と PDF に変換する方法 – 完全 Python ガイド](./how-to-recover-docx-and-convert-it-to-markdown-and-pdf-compl/)
+DOCX を復元し、Markdown と PDF に変換する手順を Python で詳しく解説します。簡単に実装可能です！
+
+### [Word を Markdown に保存する – 完全 Python ガイド](./save-word-as-markdown-complete-python-guide/)
+Word 文書を Markdown に変換し保存する手順を Python で詳しく解説します。シンプルに実装可能です。
+
+### [DOCX を TXT に保存 – LaTeX で Word を TXT に変換](./save-docx-as-txt-convert-word-to-txt-with-latex/)
+LaTeX を利用して Word の DOCX をプレーンテキスト (TXT) に変換し、保存する方法を解説します。
+
+### [Word をシェイプ タグ付けで PDF に保存 – 完全 Python ガイド](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
+Aspose.Words for Python を使って、シェイプ タグを保持しながら Word 文書を PDF に変換する方法を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

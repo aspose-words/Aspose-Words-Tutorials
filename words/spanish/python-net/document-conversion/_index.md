@@ -67,6 +67,17 @@ Aprenda a incrustar imágenes al convertir archivos DOCX a Markdown usando Aspos
 
 ### [Cómo incrustar imágenes en Markdown desde DOCX – Guía completa](./how-to-embed-images-in-markdown-from-docx-full-guide/)
 Aprenda a incrustar imágenes al convertir archivos DOCX a Markdown usando Aspose.Words para Python. Guía paso a paso y ejemplos de código.
+### [Cómo recuperar DOCX y convertirlo a Markdown y PDF – Guía completa de Python](./how-to-recover-docx-and-convert-it-to-markdown-and-pdf-compl/)
+Aprenda a reparar archivos DOCX dañados y convertirlos a Markdown y PDF usando Aspose.Words para Python. Guía paso a paso y ejemplos.
+
+### [Guardar Word como Markdown – Guía completa de Python](./save-word-as-markdown-complete-python-guide/)
+Descubra cómo exportar documentos de Word a formato Markdown con Aspose.Words para Python. Instrucciones claras y ejemplos prácticos.
+
+### [Guardar DOCX como TXT – convertir Word a TXT con LaTeX](./save-docx-as-txt-convert-word-to-txt-with-latex/)
+Aprenda a convertir documentos DOCX a archivos de texto plano usando LaTeX con Aspose.Words para Python.
+
+### [Guardar Word como PDF con etiquetado de formas – Guía completa de Python](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
+Aprenda a guardar documentos Word como PDF conservando etiquetas de formas usando Aspose.Words para Python. Guía paso a paso y ejemplos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

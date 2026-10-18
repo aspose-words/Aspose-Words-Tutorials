@@ -57,6 +57,14 @@ Ismerje meg, hogyan menthet DOCX fájlokat PDF formátumba az Aspose.Words for P
 Ismerje meg, hogyan ágyazhat be képeket a DOCX fájlokból Markdown formátumba Python segítségével.
 ### [Hogyan ágyazzon be képeket a DOCX-ből Markdown-be – Teljes útmutató](./how-to-embed-images-in-markdown-from-docx-full-guide/)
 Ismerje meg, hogyan ágyazhat be képeket a DOCX fájlokból Markdown formátumba Python segítségével.
+### [Word mentése Markdown formátumba – Teljes Python útmutató](./save-word-as-markdown-complete-python-guide/)
+Tanulja meg, hogyan menthet Word dokumentumot Markdown formátumba Python segítségével.
+### [docx mentése txt – Word konvertálása TXT-be LaTeX segítségével](./save-docx-as-txt-convert-word-to-txt-with-latex/)
+Ismerje meg, hogyan menthet docx fájlokat egyszerű szöveg (txt) formátumba LaTeX használatával Pythonban.
+### [Word mentése PDF-be alakzatcímkékkel – Teljes Python útmutató](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
+Tanulja meg, hogyan menthet Word dokumentumot PDF-be alakzatcímkékkel Python segítségével.
+### [Hogyan állítsa helyre a DOCX-et és konvertálja Markdown és PDF formátumba – Teljes Python útmutató](./how-to-recover-docx-and-convert-it-to-markdown-and-pdf-compl/)
+Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlokat, és konvertálhatja őket Markdown és PDF formátumba Python segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

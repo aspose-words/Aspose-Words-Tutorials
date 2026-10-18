@@ -67,6 +67,17 @@ DOCX को मार्कडाउन में बदलते समय छ�
 
 ### [DOCX से मार्कडाउन में छवियों को एम्बेड कैसे करें – पूर्ण गाइड](./how-to-embed-images-in-markdown-from-docx-full-guide/)
 DOCX फ़ाइलों से मार्कडाउन में छवियों को एम्बेड करने के लिए विस्तृत पायथन गाइड।
+### [DOCX को पुनर्प्राप्त करें और इसे मार्कडाउन और PDF में बदलें – पूर्ण पायथन गाइड](./how-to-recover-docx-and-convert-it-to-markdown-and-pdf-compl/)
+DOCX फ़ाइल को ठीक करें, फिर पायथन के साथ इसे मार्कडाउन और PDF फ़ॉर्मेट में बदलने के चरण-दर-चरण मार्गदर्शन।
+
+### [वर्ड को मार्कडाउन के रूप में सहेजें – पूर्ण पायथन गाइड](./save-word-as-markdown-complete-python-guide/)
+पायथन का उपयोग करके वर्ड फ़ाइल को मार्कडाउन में बदलने के लिए विस्तृत कोड उदाहरण और निर्देश।
+
+### [DOCX को TXT के रूप में सहेजें – LaTeX के साथ Word को TXT में बदलें](./save-docx-as-txt-convert-word-to-txt-with-latex/)
+Python और LaTeX का उपयोग करके Word DOCX फ़ाइल को टेक्स्ट (TXT) फ़ॉर्मेट में बदलने का चरण-दर-चरण मार्गदर्शन।
+
+### [वर्ड को PDF के रूप में सहेजें शैप टैगिंग के साथ – पूर्ण पायथन गाइड](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
+शैप टैगिंग के साथ वर्ड फ़ाइल को PDF में बदलने के लिए पायथन कोड और चरण-दर-चरण मार्गदर्शन।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
