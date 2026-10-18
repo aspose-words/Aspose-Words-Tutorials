@@ -34,14 +34,19 @@ Un tutoriel de code pour Aspose.Words Java
 ### [Comment afficher des pages de document sous forme de vignettes avec Aspose.Words pour Java](./render-word-pages-thumbnails-aspose-java/)
 Apprenez à générer des miniatures de haute qualité et des bitmaps de taille personnalisée pour vos documents Word avec Aspose.Words pour Java. Améliorez vos capacités de gestion de documents dès aujourd'hui.
 
-### [Créer un document Word Java – Ajouter une forme rectangle avec effet d'ombre](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-Apprenez à insérer une forme rectangle avec ombre dans un document Word en Java à l'aide d'Aspose.Words.
+### [Ajouter une ombre à une forme dans Word – Guide complet Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+Apprenez à appliquer des ombres aux formes dans vos documents Word avec Aspose.Words pour Java.
+### [Appliquer un effet d'ombre à une forme en C# – Guide étape par étape](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
+Découvrez comment ajouter un effet d'ombre à une forme en C# avec Aspose.Words, étape par étape.
+### [Comment définir une ombre sur une forme dans Aspose.Words – Guide complet](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
+Apprenez à ajouter et personnaliser des ombres aux formes dans vos documents Word avec Aspose.Words pour Java.
 
 ### [Comment appliquer une ombre à une forme en C# – Ajouter facilement une ombre à une forme](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
 Apprenez à appliquer une ombre à une forme dans un document Word en C# avec Aspose.Words.
 
 ## Ressources supplémentaires
 
+## Ressources supplémentaires
 - [Documentation Aspose.Words pour Java](https://reference.aspose.com/words/java/)
 - [Référence de l'API Aspose.Words pour Java](https://reference.aspose.com/words/java/)
 - [Télécharger Aspose.Words pour Java](https://releases.aspose.com/words/java/)
