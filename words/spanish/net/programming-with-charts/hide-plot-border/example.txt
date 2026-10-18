@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Este tutorial muestra cómo crear un documento Word, insertar un gráfico de columnas, rellenarlo con datos de ejemplo, ocultar el borde del área de trazado del gráfico mientras se mantienen visibles las líneas de los ejes y, finalmente, guardar el documento.
+//ExStepSummary:0: Cree un nuevo documento Word vacío y un DocumentBuilder para editarlo.
+//ExStepSummary:1: Inserte un gráfico de columnas de 432×252 en el documento y obtenga su objeto Chart.
+//ExStepSummary:2: Elimine cualquier serie existente, defina tres etiquetas de categoría y añada una serie con valores de ejemplo al gráfico.
+//ExStepSummary:3: Establezca el grosor del trazo del área de trazado a cero, eliminando su borde mientras se mantienen visibles las líneas de los ejes.
+//ExStepSummary:4: Guarde el documento modificado en un archivo .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+columnChart.Series.Clear();
+string[] labels = { "Group A", "Group B", "Group C" };
+columnChart.Series.Add("Demo Data", labels, new double[] { 10, 20, 30 });
+
+//ExStep:3-
+columnChart.Format.Stroke.Weight = 0;
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutPlotBorder.docx");
+//ExEnd

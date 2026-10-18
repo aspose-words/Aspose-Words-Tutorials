@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: โดยใช้ Aspose.Words บทเรียนนี้จะสร้างเอกสาร Word แทรกแผนภูมิคอลัมน์ ปรับปรุงชื่อแผนภูมิด้วยข้อความที่ผู้ใช้ให้มา และสลับการแสดงผลและการซ้อนทับของคำอธิบาย (legend) ตามการตั้งค่าของผู้ใช้
+//ExStepSummary:0: กำหนดชื่อแผนภูมิที่ผู้ใช้ระบุและกำหนดว่าคำอธิบาย (legend) ควรแสดงหรือไม่
+//ExStepSummary:1: สร้างเอกสาร Word ใหม่และใช้ DocumentBuilder เพื่อเพิ่มเนื้อหา
+//ExStepSummary:2: แทรกแผนภูมิคอลัมน์ขนาด 432 × 252 pt ลงในเอกสารและตรวจสอบว่า Shape นั้นจริง ๆ มีแผนภูมิอยู่
+//ExStepSummary:3: ดึงอ็อบเจ็กต์ Chart, ตั้งค่าข้อความชื่อให้เป็นค่าที่ผู้ใช้ระบุ และตรวจสอบให้ชื่อแสดงผล
+//ExStepSummary:4: กำหนดค่าคำอธิบาย (legend): แสดงที่ด้านขวาหากต้องการ มิฉะนั้นซ่อน และให้สามารถซ้อนทับพื้นที่พล็อตได้
+//ExStepSummary:5: บันทึกเอกสารที่แก้ไขแล้วลงดิสก์เป็นไฟล์ CustomChart.docx
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+string chartHeader = "Fiscal Q1 Performance Summary";
+bool displayLegend = false;
+
+//ExStep:1-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:2-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+if (!chartContainer.HasChart)
+    throw new InvalidOperationException("The inserted shape does not contain a chart.");
+
+//ExStep:3-
+Chart chartObj = chartContainer.Chart;
+ChartTitle chartTitle = chartObj.Title;
+chartTitle.Text = chartHeader;
+chartTitle.Show = true;
+
+//ExStep:4-
+ChartLegend chartLegend = chartObj.Legend;
+chartLegend.Position = displayLegend ? LegendPosition.Right : LegendPosition.None;
+chartLegend.Overlay = true;
+
+//ExStep:5-
+wordDoc.Save("CustomChart.docx");
+//ExEnd

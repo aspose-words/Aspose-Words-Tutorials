@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Questo tutorial mostra come creare un documento Word, inserire un grafico a colonne, sostituire i dati di esempio e quindi abilitare e formattare le linee della griglia principale sull'asse X primario.
+//ExStepSummary:0: Crea un nuovo documento Word e un DocumentBuilder per modificarlo.
+//ExStepSummary:1: Inserisci un grafico a colonne 432×252 nel documento e ottieni il suo oggetto Chart.
+//ExStepSummary:2: Rimuovi la serie predefinita e aggiungi una serie personalizzata con tre gruppi e valori.
+//ExStepSummary:3: Ottieni un riferimento all'asse orizzontale (X) primario del grafico.
+//ExStepSummary:4: Abilita la visualizzazione delle linee della griglia principale sull'asse X primario.
+//ExStepSummary:5: Imposta il colore delle linee della griglia su blu e il loro spessore a 2 punti.
+//ExStepSummary:6: Salva il documento in un file .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document myDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+chart.Series.Add("Demo Series",
+    new[] { "Group One", "Group Two", "Group Three" },
+    new double[] { 10, 20, 30 });
+
+//ExStep:3-
+ChartAxis horizontalAxis = chart.AxisX;
+
+//ExStep:4-
+horizontalAxis.HasMajorGridlines = true;
+
+//ExStep:5-
+horizontalAxis.Format.Stroke.Color = Color.Blue;
+horizontalAxis.Format.Stroke.Weight = 2.0;
+
+//ExStep:6-
+myDoc.Save("PrimaryXGridlines.docx");
+//ExEnd

@@ -1,0 +1,7 @@
+Title: How to export LaTeX from Word – Convert DOCX to Markdown
+Slug: how-to-export-latex-from-word-convert-docx-to-markdown
+Category: document-conversion
+ProcessedDate: 2026-08-01T18:39:12.761947
+SourceRepo: AI Search API
+Keywords: how to export latex, convert docx to markdown, save word as markdown, markdown with latex equations, convert word equations latex
+PRNumber: 240

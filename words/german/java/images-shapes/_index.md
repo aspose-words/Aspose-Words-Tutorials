@@ -34,11 +34,25 @@ Ein Code-Tutorial für Aspose.Words Java
 ### [So rendern Sie Dokumentseiten als Miniaturansichten mit Aspose.Words für Java](./render-word-pages-thumbnails-aspose-java/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java hochwertige Miniaturansichten und Bitmaps in benutzerdefinierter Größe von Word-Dokumenten erstellen. Verbessern Sie noch heute Ihre Dokumentenverwaltung.
 
-### [Word-Dokument in Java erstellen – Rechteckform mit Schatteneffekt hinzufügen](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-Ein Codebeispiel, das zeigt, wie man in Aspose.Words für Java ein Rechteck mit Schatten in ein Word-Dokument einfügt.
+### [Schatten zu Form in Word hinzufügen – Vollständige Aspose.Words-Anleitung](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+Lernen Sie, wie Sie mit Aspose.Words für Java Schatten zu Formen in Word-Dokumenten hinzufügen.
+### [Schatteneffekt auf eine Form in C# anwenden – Schritt‑für‑Schritt‑Anleitung](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für C# Schatteneffekte auf Formen anwenden und das Erscheinungsbild Ihrer Dokumente verbessern.
+### [Wie Sie in Aspose.Words einen Schatten für eine Form festlegen – Komplettanleitung](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java Schatten zu Formen hinzufügen und deren Aussehen anpassen.
+
+### [Wie man einem Shape in C# einen Schatten hinzufügt – Schatten leicht setzen](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+Erfahren Sie, wie Sie mit Aspose.Words für C# Schatten zu Formen hinzufügen und das Aussehen Ihrer Dokumente verbessern.
+
+### [Rechteckform in Java-Word-Dokument erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Ein detailliertes Beispiel, das zeigt, wie man mit Aspose.Words für Java ein Rechteck in ein Word-Dokument einfügt.
+
+### [Textfeld-Form in Java erstellen – Vollständige Anleitung zum Hinzufügen von Schatten](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+Ein umfassendes Beispiel, das zeigt, wie man in Aspose.Words für Java ein Textfeld mit Schatteneffekt erstellt.
 
 ## Weitere Ressourcen
 
+## Weitere Ressourcen
 - [Aspose.Words für Java-Dokumentation](https://reference.aspose.com/words/java/)
 - [Aspose.Words für Java API-Referenz](https://reference.aspose.com/words/java/)
 - [Laden Sie Aspose.Words für Java herunter](https://releases.aspose.com/words/java/)

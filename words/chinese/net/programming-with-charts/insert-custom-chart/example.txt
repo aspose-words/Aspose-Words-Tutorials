@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: 本教程展示了如何创建 Word 文档，插入柱形图，清除其默认数据，并使用来自二维数组的自定义数据进行填充——将每行映射为一个系列，将每列映射为一个类别——随后添加标题并保存文件。
+//ExStepSummary:0: 创建一个新的 Document 并附加一个 DocumentBuilder。
+//ExStepSummary:1: 在文档中插入大小为 432×252 点的 column chart，并获取其 Chart 对象。
+//ExStepSummary:2: 从图表中移除自动生成的示例系列。
+//ExStepSummary:3: 定义 X 轴的类别标签以及每个系列的图例项。
+//ExStepSummary:4: 创建一个二维数组，其中每行保存一个系列的数值。
+//ExStepSummary:5: 遍历每个系列，从矩阵中提取对应行的数值，并使用相应的图例项和 X 轴标签将该系列添加到图表中。
+//ExStepSummary:6: 将图表标题文本设置为 “Half‑Yearly Revenue”，并使其可见。
+//ExStepSummary:7: 将包含自定义图表的文档保存为 .docx 文件。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:6:images/4.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chartObj = chartContainer.Chart;
+
+//ExStep:2-
+chartObj.Series.Clear();
+
+//ExStep:3-
+string[] xLabels = { "Jan", "Feb", "Mar", "Apr" };
+string[] legendEntries = { "Item Alpha", "Item Beta", "Item Gamma" };
+
+//ExStep:4-
+double[,] dataMatrix = {
+    { 120.5, 135.0, 150.2, 165.3 }, // Item Alpha
+    { 80.0,  95.5, 110.1, 130.0 }, // Item Beta
+    { 60.3,  70.4,  85.6,  95.2 }   // Item Gamma
+};
+
+//ExStep:5-
+for (int sIdx = 0; sIdx < legendEntries.Length; sIdx++)
+{
+    double[] rowValues = new double[xLabels.Length];
+    for (int cIdx = 0; cIdx < xLabels.Length; cIdx++)
+    {
+        rowValues[cIdx] = dataMatrix[sIdx, cIdx];
+    }
+
+    chartObj.Series.Add(legendEntries[sIdx], xLabels, rowValues);
+}
+
+//ExStep:6-
+chartObj.Title.Text = "Half‑Yearly Revenue";
+chartObj.Title.Show = true;
+
+//ExStep:7-
+myDocument.Save("CustomChart.docx");
+//ExEnd

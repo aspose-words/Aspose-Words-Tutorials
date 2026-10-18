@@ -67,6 +67,9 @@ Exportujte obohacený dokument do požadovaného formátu — PDF, DOCX, HTM
 ### [Mistrovské zpracování textu v Javě: Použití Aspose.Words a AI modelů pro shrnutí a překlad](./java-aspose-words-text-processing/)
 Naučte se automatizovat shrnutí a překlad textu pomocí Aspose.Words pro Java s OpenAI GPT‑4 a Google Gemini. Vylepšete své Java aplikace ještě dnes.
 
+### [Jak nakonfigurovat LLM – Nahrazení textu v DOCX pomocí AI](./how-to-configure-llm-replace-text-in-docx-with-ai/)
+Naučte se nastavit LLM pro automatické nahrazování textu v DOCX souborech pomocí AI a Aspose.Words.
+
 ## Další zdroje
 
 - [Dokumentace Aspose.Words pro Java](https://reference.aspose.com/words/java/)

@@ -23,8 +23,16 @@ Aspose.Words for .NET の OfficeMath を使った Words Processing チュート�
 | [数式](./math-equations/) Aspose.Words for .NET を使用して Word 文書に数式を設定する方法を学びます。例、FAQ などを交えたステップバイステップのガイドです。 |
 | [docx を txt に保存 – C# で Word Math を LaTeX にエクスポート](./save-docx-as-txt-export-word-math-to-latex-with-c/) C# を使用して、docx ファイルをテキスト形式に変換し、Word の数式を LaTeX 形式でエクスポートする方法を解説します。 |
 | [ドキュメントをTXTとして保存 – C#でWord MathをLaTeXにエクスポート](./save-document-as-txt-export-word-math-to-latex-in-c/) C# を使用して Word 文書を TXT 形式で保存し、数式を LaTeX にエクスポートする方法を解説します。 |
+| [docx を txt に保存 – Aspose.Words で数式を LaTeX にエクスポート](./save-docx-as-txt-export-equations-to-latex-with-aspose-words/) Aspose.Words を使用して DOCX をテキスト形式で保存し、文書内の数式を LaTeX にエクスポートする方法を解説します。 |
+| [LaTeX 数式エクスポートで DOCX を TXT に保存する方法](./how-to-save-docx-as-txt-with-latex-math-export/) Aspose.Words for .NET を使用して、DOCX 文書をテキスト形式に変換し、数式を LaTeX 形式でエクスポートする方法を解説します。 |
+| [Word の数式を LaTeX に変換して TXT として保存する方法](./how-to-convert-equations-in-word-to-latex-save-as-txt/) Word 文書内の数式を LaTeX 形式に変換し、テキストファイルとして保存する手順を紹介します。 |
+| [Word を LaTeX に変換 – Office Math を LaTeX としてエクスポートする完全 C# ガイド](./convert-word-to-latex-complete-c-guide-to-export-office-math/) C# を使用して Word 文書の Office Math を LaTeX 形式にエクスポートする方法をステップバイステップで解説します。 |
+| [docx を txt に保存 – C# で Word Math を LaTeX にエクスポート](./save-docx-as-txt-export-word-math-to-latex-in-c/) C# で docx を txt に変換し、Word の数式を LaTeX 形式でエクスポートする手順を紹介します。 |
+| [DOCX を TXT に変換 – C# で Word の数式を LaTeX にエクスポート](./convert-docx-to-txt-export-word-equations-to-latex-in-c/) C# を使用して DOCX を TXT に変換し、Word の数式を LaTeX 形式でエクスポートする方法を解説します。 |
 | [Word から LaTeX へ数式をエクスポートする完全ガイド](./how-to-export-math-from-word-to-latex-complete-guide/) C# を使用して Word 文書の数式を LaTeX 形式にエクスポートする手順を詳しく解説します。 |
 
+| [docx を txt に保存 – Word の数式を LaTeX にエクスポートする完全 C# ガイド](./save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/) Aspose.Words for .NET を使用して、Word 文書の数式を LaTeX 形式のテキストファイルにエクスポートする方法をステップバイステップで解説します。 |
+| [Office Math LaTeX を保存 – C# で Word の数式を LaTeX にエクスポート](./save-office-math-latex-export-word-equations-to-latex-in-c/) C# を使用して Word 文書の数式を LaTeX 形式でエクスポートする方法を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

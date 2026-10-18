@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: โดยใช้ Aspose.Words for .NET, บทเรียนนี้จะสร้าง Document, แทรก column chart ผ่าน DocumentBuilder, ลบ series ของข้อมูลที่ระบุจาก chart ด้วย ChartSeriesCollection.RemoveAt, และบันทึกเอกสารที่แก้ไขแล้ว
+//ExStepSummary:0: สร้าง Word Document ใหม่และ DocumentBuilder ที่เชื่อมต่อกับมัน
+//ExStepSummary:1: แทรก column chart ขนาด 432×252 จุดและรับอ็อบเจ็กต์ Chart เพื่อการจัดการต่อไป
+//ExStepSummary:2: กำหนดดัชนีเริ่มจากศูนย์ของ series ที่ต้องการลบ (series ที่สอง)
+//ExStepSummary:3: หากดัชนีถูกต้อง ให้เรียก RemoveAt บนคอลเลกชัน Series ของ chart เพื่อทำการลบ series นั้น
+//ExStepSummary:4: บันทึกเอกสารที่อัปเดตเป็นไฟล์ .docx
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+int targetSeriesIdx = 1;
+
+//ExStep:3-
+if (targetSeriesIdx >= 0 && targetSeriesIdx < columnChart.Series.Count)
+{
+    columnChart.Series.RemoveAt(targetSeriesIdx);
+}
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutSeries.docx");
+//ExEnd

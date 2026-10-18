@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Этот учебник показывает, как использовать Aspose.Words Document и DocumentBuilder для создания Word‑документа, встраивания гистограммы и добавления помеченного набора данных с помощью перегрузки ChartSeriesCollection.Add, принимающей имя и значения.
+//ExStepSummary:0: Создайте новый пустой Word‑документ и DocumentBuilder для его редактирования.
+//ExStepSummary:1: Вставьте в документ форму гистограммы размером 500×300 и получите её объект Chart.
+//ExStepSummary:2: Удалите серию‑заполнитель по умолчанию, которую Aspose.Words добавляет к новым диаграммам.
+//ExStepSummary:3: Добавьте именованную серию под названием "Demo Series" с указанными точками данных в гистограмму.
+//ExStepSummary:4: Сохраните документ в файл .docx, содержащий помеченную серию диаграммы.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape histogramShape = docBuilder.InsertChart(ChartType.Histogram, 500, 300);
+Chart histogramChart = histogramShape.Chart;
+
+//ExStep:2-
+histogramChart.Series.Clear();
+
+//ExStep:3-
+histogramChart.Series.Add("Demo Series", new double[] { 10, 20, 15, 30, 25 });
+
+//ExStep:4-
+myDocument.Save("LabeledSeriesDemo.docx");
+//ExEnd
