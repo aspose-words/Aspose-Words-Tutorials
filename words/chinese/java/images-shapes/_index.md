@@ -47,6 +47,9 @@ Aspose.Words Java 代码教程
 ### [使用 Aspose.Words for Java 在 Word 文档中创建矩形形状 – 完整分步指南](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
 本教程提供在 Java 环境下使用 Aspose.Words 为 Word 文档创建矩形形状的完整步骤和代码示例。
 
+### [使用 Aspose.Words for Java 创建文本框形状 – 添加阴影的完整指南](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+演示如何在 Word 文档中使用 Aspose.Words for Java 创建文本框形状并添加阴影效果。
+
 ## 其他资源
 
 ## 其他资源

@@ -161,6 +161,10 @@ Java’da Aspose.Words ile belgeyi kaydederken yazı tipi ayarlarını yapıland
 ### [Word Belgesini Kurtarma – Java’da Kurtarma Modunu Ayarlama Tam Kılavuzu](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
 Java’da Aspose.Words ile bozuk Word belgelerini kurtarmak ve kurtarma modunu etkinleştirmek için adım adım rehber.
 ### [Bozuk Word Belgesini Aç – Java’da Kurtarma Modunu Ayarlama](./open-corrupted-word-document-set-recovery-mode-in-java/)
+### [Java’da Uyarı Geri Çağrısını Kaydet – Eksik Yazı Tiplerini İzleme](./register-warning-callback-in-java-track-missing-fonts/)
+Java’da eksik yazı tiplerini yakalamak için uyarı geri çağrısını nasıl kaydedeceğinizi öğrenin.
+
+### [Aspose.Words for Java ile bozuk docx dosyasını kurtarma](./recover-corrupted-docx-using-aspose-words-java/)
 
 ## Sıkça Sorulan Sorular
 

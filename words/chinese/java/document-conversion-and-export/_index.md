@@ -68,7 +68,6 @@ Aspose.Words for Java 的关键功能之一是能够 **convert docx to pdf** 并
 ### [在 Aspose.Words for Java 中生成自定义条形码标签](./generating-custom-barcode-labels/)
 
 ### [在 Aspose.Words for Java 中使用条形码生成](./using-barcode-generation/)
-
 ### [在 Aspose.Words for Java 中使用图表](./using-charts/)
 ### [在 Aspose.Words for Java 中使用 Office Math 对象](./using-office-math-objects/)
 
@@ -91,6 +90,7 @@ Aspose.Words for Java 的关键功能之一是能够 **convert docx to pdf** 并
 本教程详细演示如何使用 Aspose.Words for Java 在 Java 环境下生成符合 WCAG 标准的可访问 PDF，并完整添加标签。
 
 ### [在 Aspose.Words for Java 中格式化表格和表格样式](./formatting-tables-and-table-styles/)
+
 了解如何在 Aspose.Words for Java 中格式化表格并应用表格样式。通过带源码的分步指南学习有效的表格格式化。使用 Aspose.Words 提升文档布局。
 
 ### [在 Java 中将 docx 保存为 markdown – 完整分步指南](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
@@ -132,6 +132,13 @@ Aspose.Words for Java 的关键功能之一是能够 **convert docx to pdf** 并
 
 ### [将文档另存为 TXT – 将 DOCX 转换为文本并使用 LaTeX](./save-document-as-txt-convert-docx-to-text-with-latex/)
 ### [使用 Java 将 docx 导出为 txt – 完整编程指南](./export-docx-to-txt-with-java-complete-programming-guide/)
+### [在 Aspose.Words for Java 中将 Word 导出为 Markdown – 完整 Java 指南](./export-word-to-markdown-complete-java-guide/)
+
+完整指南展示如何使用 Aspose.Words for Java 将 Word 文档转换为 Markdown，包括代码示例和关键设置。
+
+### [在 Aspose.Words for Java 中将 DOCX 导出为 Markdown – 完整 Java 指南](./export-docx-as-markdown-complete-java-guide/)
+
+### [将文档另存为 TXT – 导出 Word 方程的完整指南](./save-as-plain-text-complete-guide-to-export-word-equations/)
 
 ### [在 Aspose.Words for Java 中将 DOCX 转换为 Markdown 时嵌入图像](./how-to-embed-images-in-markdown-when-converting-docx/)
 ### [在 Java 中将 DOCX 转换为 Markdown 时将图像嵌入为 Base64](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
@@ -242,6 +249,8 @@ Aspose.Words for Java 的关键功能之一是能够 **convert docx to pdf** 并
 ### [在将 DOCX 转换为 Markdown 时嵌入图像为 Base64](./embed-images-as-base64-when-converting-docx-to-markdown/)
 
 ### [在 Aspose.Words for Java 中将文档保存为 PDF – 完整可访问性指南](./save-document-as-pdf-with-aspose-words-java-full-accessibili/)
+
+### [在 Aspose.Words for Java 中创建 PDF/UA-2 合规文档 – 完整 Java 指南](./create-pdf-ua-2-compliant-document-complete-java-guide/)
 
 ## 常见问题
 

@@ -163,6 +163,10 @@ Naučte se zachytit varování o nahrazení fontů a identifikovat chybějící 
 ### [Uložení Word dokumentu – Nastavení písma, řešení chybějících fontů](./save-word-document-set-font-settings-handle-missing-fonts/)
 Naučte se, jak nastavit písmo při ukládání Word dokumentu a jak zacházet s chybějícími fonty pomocí Aspose.Words for Java.
 ### [Obnovení dokumentu Word – Kompletní průvodce nastavením režimu obnovy v Javě](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
+### [Obnovení poškozeného docx pomocí Aspose.Words pro Java](./recover-corrupted-docx-using-aspose-words-java/)
+Naučte se, jak pomocí Aspose.Words for Java opravit a načíst poškozené soubory DOCX.
+
+### [Registrace výstražného zpětného volání v Javě – Sledování chybějících fontů](./register-warning-callback-in-java-track-missing-fonts/)
 
 ## Často kladené otázky
 

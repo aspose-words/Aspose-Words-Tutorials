@@ -147,6 +147,8 @@ Pelajari cara memulihkan file DOCX yang rusak, memperbaikinya, dan melanjutkan p
 Pelajari cara memulihkan file DOCX yang rusak menggunakan Aspose.Words untuk Java dengan contoh kode langkah demi langkah.
 ### [Pulihkan Dokumen Word – Panduan Lengkap Mengatur Mode Pemulihan di Java](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
 Pelajari cara memulihkan dokumen Word yang rusak dan mengatur mode pemulihan menggunakan Aspose.Words untuk Java dalam panduan lengkap.
+### [Pulihkan docx yang rusak menggunakan Aspose.Words untuk Java](./recover-corrupted-docx-using-aspose-words-java/)
+Pelajari cara memulihkan file DOCX yang rusak menggunakan Aspose.Words untuk Java dengan contoh kode lengkap.
 
 ### [Menangkap Peringatan Substitusi Font di Java dengan Aspose.Words – Panduan Lengkap](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Pelajari cara menangkap peringatan substitusi font saat memuat dokumen di Java menggunakan Aspose.Words, termasuk contoh kode lengkap.
@@ -173,6 +175,9 @@ Pelajari cara menangkap peringatan substitusi font dan mengidentifikasi font yan
 ### [Simpan Dokumen Word – Atur Pengaturan Font, Tangani Font yang Hilang](./save-word-document-set-font-settings-handle-missing-fonts/)
 Pelajari cara menyimpan dokumen Word dengan mengatur font dan mengelola font yang tidak tersedia menggunakan Aspose.Words untuk Java.
 ### [Buka Dokumen Word Rusak – Atur Mode Pemulihan di Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
+
+### [Daftarkan callback peringatan di Java – Lacak font yang hilang](./register-warning-callback-in-java-track-missing-fonts/)
+Pelajari cara mendaftarkan callback peringatan di Java untuk melacak font yang hilang saat memuat dokumen dengan Aspose.Words.
 
 ## Pertanyaan yang Sering Diajukan
 

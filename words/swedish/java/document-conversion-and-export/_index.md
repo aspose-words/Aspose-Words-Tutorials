@@ -86,6 +86,9 @@ Lär dig hur du sparar ett DOCX‑dokument som TXT och exporterar matematiska ek
 ### [Exportera docx till txt med Java – Komplett programmeringsguide](./export-docx-to-txt-with-java-complete-programming-guide/)
 Lär dig hur du exporterar DOCX-filer till TXT med Java och Aspose.Words i en komplett steg‑för‑steg‑guide.
 
+### [Spara som vanlig text – Komplett guide för att exportera Word‑ekvationer](./save-as-plain-text-complete-guide-to-export-word-equations/)
+Lär dig hur du sparar Word‑dokument som ren text och exporterar ekvationer med Aspose.Words.
+
 ### [Konvertera docx till markdown – Exportera matematiska ekvationer till LaTeX med Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Lär dig hur du konverterar DOCX‑filer till Markdown och exporterar matematiska ekvationer som LaTeX med Aspose.Words.
 
@@ -96,6 +99,12 @@ Lär dig hur du konverterar DOCX‑filer till Markdown med C# och Aspose.Words i
 Lär dig hur du exporterar innehåll från Word till Markdown med Aspose.Words for Java i en steg‑för‑steg‑guide.
 ### [Spara Word som markdown – Exportera matematik till LaTeX med Java](./save-word-as-markdown-export-math-to-latex-with-java/)
 Lär dig hur du sparar ett Word‑dokument som markdown och exporterar matematiska ekvationer till LaTeX med Java.
+
+### [Export Word till Markdown – Komplett Java‑guide](./export-word-to-markdown-complete-java-guide/)
+Lär dig hur du konverterar Word‑dokument till Markdown med Aspose.Words for Java i en komplett steg‑för‑steg‑guide.
+
+### [Exportera DOCX som Markdown – Komplett Java‑guide](./export-docx-as-markdown-complete-java-guide/)
+Lär dig hur du exporterar DOCX‑filer till Markdown med Aspose.Words for Java i en komplett steg‑för‑steg‑guide.
 
 ### [Aspose Word till PDF – Konvertera DOCX till PDF i Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Lär dig hur du konverterar DOCX‑filer till PDF med Aspose.Words for Java i några enkla steg.
@@ -257,6 +266,9 @@ Lär dig hur du sparar ett dokument som PDF med full tillgänglighet med Aspose.
 
 ### [Skapa tillgänglig PDF i Java – Fullständig taggningsguide](./create-accessible-pdf-in-java-full-tagging-guide/)
 Lär dig hur du skapar PDF‑dokument med fullständig tillgänglighet och taggning i Java med Aspose.Words.
+
+### [Skapa PDF/UA-2‑kompatibelt dokument – Komplett Java‑guide](./create-pdf-ua-2-compliant-document-complete-java-guide/)
+Lär dig hur du skapar PDF/UA‑2‑kompatibla dokument med Aspose.Words for Java i en komplett steg‑för‑steg‑guide.
 
 ## Vanliga frågor
 

@@ -143,7 +143,6 @@ Aspose.Words का उपयोग करके क्षतिग्रस्�
 ### [DOCX को पुनर्प्राप्त करने का तरीका – करप्ट फ़ाइलों को रिकवरी विकल्पों के साथ लोड करें](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
 ### [Corrupted docx को पुनर्प्राप्त करें – दस्तावेज़ ठीक करने और प्रोसेस करने की पूरी गाइड](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
-
 ### [DOCX फ़ाइलों को पुनर्प्राप्त करने का तरीका – चरण‑दर‑चरण जावा गाइड](./how-to-recover-docx-files-step-by-step-java-guide/)
 
 DOCX फ़ाइलों को पुनर्प्राप्त करने के चरण‑दर‑चरण गाइड, जावा कोड उदाहरणों के साथ।
@@ -162,6 +161,10 @@ Aspose.Words का उपयोग करके क्षतिग्रस्�
 docx फ़ाइलों को पुनर्प्राप्त करने के लिए रिकवरी मोड कैसे सक्षम करें और चेतावनियों को पढ़ें, इस चरण‑दर‑चरण गाइड में जानें।
 ### [Word दस्तावेज़ पुनर्प्राप्ति – जावा में रिकवरी मोड सेट करने की पूरी गाइड](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
 ### [Corrupted Word दस्तावेज़ खोलें – Java में रिकवरी मोड सेट करें](./open-corrupted-word-document-set-recovery-mode-in-java/)
+### [Java में चेतावनी कॉलबैक पंजीकृत करें – गायब फ़ॉन्ट्स को ट्रैक करें](./register-warning-callback-in-java-track-missing-fonts/)
+
+### [Aspose.Words for Java के साथ भ्रष्ट docx को पुनर्प्राप्त करें](./recover-corrupted-docx-using-aspose-words-java/)
+Aspose.Words Java का उपयोग करके भ्रष्ट या क्षतिग्रस्त docx फ़ाइलों को ठीक करने और पुनर्स्थापित करने की चरण‑दर‑चरण गाइड।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 ### [फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैप्चर करें – लापता फ़ॉन्ट्स का पता लगाएँ](./capture-font-substitution-warnings-detect-missing-fonts/)

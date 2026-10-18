@@ -169,6 +169,12 @@ Learn how to enable and use recovery mode in Aspose.Words for Java to repair cor
 
 ### [Open Corrupted Word Document – Set Recovery Mode in Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
 
+### [Register warning callback in Java – Track missing fonts](./register-warning-callback-in-java-track-missing-fonts/)
+Learn how to register a warning callback in Aspose.Words for Java to track missing font warnings during document processing.
+
+### [Recover corrupted docx using Aspose.Words Java](./recover-corrupted-docx-using-aspose-words-java/)
+Learn how to recover corrupted DOCX files using Aspose.Words for Java.
+
 ## Frequently Asked Questions
 
 **Q:** How do I programmatically **save images from word** documents?  

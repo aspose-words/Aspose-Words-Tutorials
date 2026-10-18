@@ -47,6 +47,9 @@ Scopri come applicare rapidamente un'ombra a una forma in C# usando Aspose.Words
 ### [Crea forma rettangolare in documento Word Java – Guida completa passo‑passo](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
 Scopri come aggiungere una forma rettangolare a un documento Word usando Aspose.Words per Java, con istruzioni dettagliate passo dopo passo.
 
+### [Crea casella di testo in Java – Guida completa all'aggiunta di ombre](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+Impara a creare una casella di testo con effetto ombra in un documento Word usando Aspose.Words per Java.
+
 ## Risorse aggiuntive
 
 ## Risorse aggiuntive

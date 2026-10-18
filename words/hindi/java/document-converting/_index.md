@@ -106,6 +106,8 @@ Aspose.Words for Java के साथ Word दस्तावेज़ों �
 
 ### [Java में DOCX को PDF में बदलें – चरण‑दर‑चरण गाइड](./convert-docx-to-pdf-in-java-step-by-step-guide/)
 Java में Aspose.Words का उपयोग करके DOCX फ़ाइल को PDF में बदलने के चरण‑दर‑चरण मार्गदर्शन।
+### [Aspose.Words के साथ docx को pdf में सहेजें – पूर्ण Java गाइड](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+Aspose.Words for Java का उपयोग करके DOCX फ़ाइल को PDF में बदलने के चरण‑दर‑चरण पूर्ण गाइड।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

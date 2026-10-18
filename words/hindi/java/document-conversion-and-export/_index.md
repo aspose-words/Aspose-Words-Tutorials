@@ -98,6 +98,12 @@ Aspose.Words for Java का उपयोग करके Word दस्ता�
 ### [docx को markdown में बदलें – Aspose.Words के साथ गणितीय समीकरणों को LaTeX में निर्यात करें](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 ### [docx को markdown में सहेजें – चरण‑दर‑स्टेप जावा गाइड](./save-docx-as-markdown-step-by-step-java-guide/)
 ### [जावा के साथ docx को मार्कडाउन में सहेजें – पूर्ण चरण‑दर‑चरण गाइड](./save-docx-as-markdown-with-java-complete-step-by-step-guide/)
+### [Word को Markdown में निर्यात – पूर्ण जावा गाइड](./export-word-to-markdown-complete-java-guide/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ को Markdown में बदलने की पूरी प्रक्रिया सीखें। कोड उदाहरण सहित।
+
+### [DOCX को मार्कडाउन के रूप में निर्यात – पूर्ण जावा गाइड](./export-docx-as-markdown-complete-java-guide/)
+Aspose.Words for Java का उपयोग करके DOCX फ़ाइल को मार्कडाउन में बदलने की पूरी प्रक्रिया, कोड उदाहरण सहित।
+
 ### [दस्तावेज़ को TXT के रूप में सहेजें – Word गणित निर्यात के लिए त्वरित गाइड](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 ### [DOCX को TXT के रूप में सहेजें – पूर्ण गाइड](./how-to-save-docx-as-txt-complete-guide/)
 ### [DOCX को मार्कडाउन में बदलते समय छवियों को एम्बेड कैसे करें](./how-to-embed-images-in-markdown-when-converting-docx/)
@@ -207,6 +213,12 @@ DOCX को markdown में परिवर्तित करते सम�
 Aspose.Words for Java का उपयोग करके एक्सेसिबल PDF बनाने के लिए टैगिंग चरण‑दर‑स्टेप गाइड।
 
 ### [Aspose.Words Java के साथ दस्तावेज़ को PDF के रूप में सहेजें – पूर्ण एक्सेसिबिलिटी गाइड](./save-document-as-pdf-with-aspose-words-java-full-accessibili/)
+
+### [PDF/UA‑2 अनुरूप दस्तावेज़ बनाना – पूर्ण जावा गाइड](./create-pdf-ua-2-compliant-document-complete-java-guide/)
+Aspose.Words for Java का उपयोग करके PDF/UA‑2 मानकों के अनुरूप दस्तावेज़ बनाने की पूरी प्रक्रिया सीखें।
+
+### [सादा टेक्स्ट के रूप में सहेजें – Word समीकरण निर्यात के लिए पूर्ण गाइड](./save-as-plain-text-complete-guide-to-export-word-equations/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ में गणितीय समीकरणों को सादा टेक्स्ट में निर्यात करने की पूरी प्रक्रिया।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

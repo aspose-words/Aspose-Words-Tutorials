@@ -90,6 +90,9 @@ Word 文書をアクセシブルな PDF に変換する手順をステップバ�
 ### [Aspose.Words for Java でアクセシブル PDF を作成 – 完全タグ付けガイド](./create-accessible-pdf-in-java-full-tagging-guide/)
 Aspose.Words for Java を使用して、アクセシブル PDF を作成し、完全なタグ付けを実装する方法をステップバイステップで解説します。
 
+### [PDF/UA-2 準拠文書の作成 – 完全 Java ガイド](./create-pdf-ua-2-compliant-document-complete-java-guide/)
+Aspose.Words for Java を使用して PDF/UA-2 準拠の文書を作成する手順をステップバイステップで解説します。
+
 ### [Aspose.Words for Java でテーブルとテーブルスタイルの書式設定](./formatting-tables-and-table-styles/)
 
 ### [docx を txt として保存 – LaTeX 数式エクスポート付きクイック C# ガイド](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
@@ -187,6 +190,17 @@ Aspose.Words for Java を使用し、DOCX を Markdown に変換する際に画�
 ### [Aspose.Words Java で文書を PDF として保存 – 完全アクセシビリティガイド](./save-document-as-pdf-with-aspose-words-java-full-accessibili/)
 
 ### [Aspose.Words for Java で docx を txt にエクスポート – 完全プログラミングガイド](./export-docx-to-txt-with-java-complete-programming-guide/)
+### [Word を Markdown にエクスポート – 完全 Java ガイド](./export-word-to-markdown-complete-java-guide/)
+Aspose.Words for Java を使用して、Word 文書を Markdown に変換し、数式や画像を正しくエクスポートする完全ガイドです。
+
+### [DOCX を Markdown にエクスポート – 完全 Java ガイド](./export-docx-as-markdown-complete-java-guide/)
+Aspose.Words for Java を使用して DOCX ファイルを Markdown に変換し、数式や画像を正しくエクスポートする完全ガイドです。
+
+### [ドキュメントをTXTとして保存 – Word数式エクスポートのクイックガイド](./save-document-as-txt-quick-guide-to-export-word-math/)
+Aspose.Words for Java を使用して、Word 文書を TXT 形式で保存し、数式をエクスポートする方法をステップバイステップで解説します。
+
+### [ドキュメントをTXTとして保存 – Word数式エクスポートの完全ガイド](./save-as-plain-text-complete-guide-to-export-word-equations/)
+Aspose.Words for Java で Word 文書をプレーンテキストに保存し、数式を完全にエクスポートする手順を詳しく解説します。
 
 ---
 

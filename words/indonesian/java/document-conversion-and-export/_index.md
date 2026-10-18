@@ -132,6 +132,11 @@ Pelajari cara mengunggah gambar ke CDN secara otomatis saat mengonversi file DOC
 Pelajari cara menyimpan file DOCX menjadi markdown menggunakan Aspose.Words untuk C# dalam panduan lengkap langkah demi langkah.
 ### [Simpan Word sebagai Markdown – Ekspor Matematika ke LaTeX dengan Java](./save-word-as-markdown-export-math-to-latex-with-java/)
 Simpan dokumen Word sebagai file markdown dan ekspor persamaan matematika ke format LaTeX menggunakan Aspose.Words for Java.
+### [Ekspor Word ke Markdown – Panduan Lengkap Java](./export-word-to-markdown-complete-java-guide/)
+Pelajari cara mengekspor dokumen Word ke format Markdown dengan Aspose.Words for Java dalam panduan langkah demi langkah lengkap.
+
+### [Ekspor DOCX sebagai Markdown – Panduan Lengkap Java](./export-docx-as-markdown-complete-java-guide/)
+Pelajari cara mengekspor file DOCX menjadi format Markdown secara lengkap menggunakan Aspose.Words for Java.
 
 ### [Cara Menyisipkan Gambar dalam Markdown Saat Mengonversi DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Pelajari cara menyisipkan gambar ke dalam file Markdown selama proses konversi DOCX menggunakan Aspose.Words for Java.
@@ -150,6 +155,8 @@ Pelajari cara menyimpan file DOCX menjadi TXT dengan Aspose.Words for Java dalam
 Pelajari cara menyimpan dokumen Word sebagai file TXT dan mengekspor persamaan LaTeX menggunakan Aspose.Words.
 ### [Ekspor docx ke txt dengan Java – Panduan Pemrograman Lengkap](./export-docx-to-txt-with-java-complete-programming-guide/)
 Pelajari cara mengekspor file DOCX menjadi TXT menggunakan Aspose.Words for Java dengan contoh kode lengkap.
+### [Simpan sebagai Teks Biasa – Panduan Lengkap Mengekspor Persamaan Word](./save-as-plain-text-complete-guide-to-export-word-equations/)
+Pelajari cara menyimpan dokumen Word sebagai file teks biasa sambil mengekspor persamaan matematika menggunakan Aspose.Words for Java.
 
 ### [Buat PDF Aksesibel dari DOCX – Panduan Lengkap](./create-accessible-pdf-from-docx-complete-guide/)
 Pelajari cara mengonversi file DOCX menjadi PDF yang memenuhi standar aksesibilitas, termasuk tag, teks alternatif, dan struktur dokumen.
@@ -252,6 +259,9 @@ Pelajari cara menyimpan dokumen sebagai PDF yang sepenuhnya dapat diakses menggu
 
 ### [Buat PDF Aksesibel di Java – Panduan Tagging Lengkap](./create-accessible-pdf-in-java-full-tagging-guide/)
 Pelajari cara membuat PDF yang sepenuhnya dapat diakses dengan tag lengkap menggunakan Aspose.Words for Java.
+
+### [Buat Dokumen yang Mematuhi PDF/UA-2 – Panduan Lengkap Java](./create-pdf-ua-2-compliant-document-complete-java-guide/)
+Pelajari cara membuat dokumen PDF/UA-2 yang sesuai standar aksesibilitas menggunakan Aspose.Words for Java dalam panduan langkah demi langkah lengkap.
 
 ## Pertanyaan yang Sering Diajukan
 

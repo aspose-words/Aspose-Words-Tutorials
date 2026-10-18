@@ -141,6 +141,11 @@ weight: 22
 Сохраните документ DOCX в формат markdown с помощью Aspose.Words для C#. Полное пошаговое руководство.
 ### [Сохранить Word как markdown – экспортировать Math в LaTeX с Java](./save-word-as-markdown-export-math-to-latex-with-java/)
 Сохраните документ Word в формате markdown и экспортируйте математические уравнения в LaTeX с помощью Java.
+### [Экспорт Word в Markdown – Полное руководство на Java](./export-word-to-markdown-complete-java-guide/)
+Полное руководство по экспорту документов Word в формат Markdown с помощью Aspose.Words for Java.
+
+### [Экспорт DOCX в Markdown – Полное руководство на Java](./export-docx-as-markdown-complete-java-guide/)
+Полное руководство по экспорту документов DOCX в формат Markdown с помощью Aspose.Words for Java.
 
 ### [Как встраивать изображения в Markdown при конвертации DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Узнайте, как сохранять изображения из DOCX при экспорте в Markdown с помощью Aspose.Words for Java.
@@ -157,6 +162,8 @@ weight: 22
 Сохраните документ DOCX в текстовый файл TXT, экспортируя формулы LaTeX, используя Aspose.Words for Java.
 ### [Экспорт docx в txt с Java – Полное руководство по программированию](./export-docx-to-txt-with-java-complete-programming-guide/)
 Подробное руководство по экспорту документов DOCX в текстовый формат TXT с использованием Aspose.Words for Java.
+### [Сохранить как обычный текст – Полное руководство по экспорту уравнений Word](./save-as-plain-text-complete-guide-to-export-word-equations/)
+Узнайте, как экспортировать уравнения из Word в простой текстовый файл с помощью Aspose.Words for Java.
 
 ### [Aspose.Words в PDF – Конвертировать DOCX в PDF в Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Пошаговое руководство по конвертации DOCX в PDF с помощью Aspose.Words for Java, включая настройку параметров сохранения.
@@ -275,6 +282,9 @@ weight: 22
 
 ### [Создание доступного PDF в Java – Полное руководство по тегированию](./create-accessible-pdf-in-java-full-tagging-guide/)
 Полное руководство по созданию доступных PDF с полным тегированием в Aspose.Words для Java.
+
+### [Создание документа, соответствующего PDF/UA-2 – Полное руководство на Java](./create-pdf-ua-2-compliant-document-complete-java-guide/)
+Пошаговое руководство по созданию PDF/UA‑2 совместимых документов с помощью Aspose.Words для Java.
 
 ## Часто задаваемые вопросы
 

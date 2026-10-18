@@ -47,6 +47,9 @@ Leer hoe u eenvoudig een schaduweffect aan een vorm toevoegt in C# met Aspose.Wo
 ### [Rechthoekvorm maken in Java Word-document – Volledige stapsgewijze handleiding](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
 Leer hoe u een rechthoekige vorm toevoegt aan een Word-document met Aspose.Words voor Java.
 
+### [Tekstvakvorm maken in Java – Complete gids voor het toevoegen van schaduwen](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+Leer hoe u een tekstvakvorm met schaduweffect toevoegt aan een Word-document met Aspose.Words voor Java.
+
 ## Aanvullende bronnen
 
 ## Aanvullende bronnen

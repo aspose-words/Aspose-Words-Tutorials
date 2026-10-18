@@ -79,20 +79,10 @@ Für weitere Informationen sehen Sie sich die [Aspose.Words for Java API Documen
 Generieren Sie benutzerdefinierte Barcode‑Etiketten in Aspose.Words for Java. Erfahren Sie, wie Sie personalisierte Barcode‑Lösungen mit Aspose.Words für Java in dieser Schritt‑für‑Schritt‑Anleitung erstellen.
 
 ### [Using Barcode Generation in Aspose.Words for Java](./using-barcode-generation/)
-Erfahren Sie, wie Sie benutzerdefinierte Barcodes in Java mit Aspose.Words for Java erzeugen. Schritt‑für‑Schritt‑Anleitung mit Quellcode zur Barcode‑Generierung. Verbessern Sie die Dokumenten‑Automatisierung mit Aspose.Words.
-
 ### [Using Charts in Aspose.Words for Java](./using-charts/)
-Erfahren Sie, wie Sie Diagramme in Aspose.Words for Java erstellen und anpassen. Erkunden Sie Diagrammtypen, Formatierung und Achseneigenschaften für die Datenvisualisierung.
-
 ### [Using Office Math Objects in Aspose.Words for Java](./using-office-math-objects/)
-Entfesseln Sie die Möglichkeiten mathematischer Gleichungen in Dokumenten mit Aspose.Words for Java. Lernen Sie, Office‑Math‑Objekte mühelos zu manipulieren und darzustellen.
-
 ### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
-Entdecken Sie die Möglichkeiten von Dokumentformen in Aspose.Words for Java. Lernen Sie, visuell ansprechende Dokumente mit Schritt‑für‑Schritt‑Beispielen zu erstellen.
-
 ### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
-Erfahren Sie, wie Sie Wasserzeichen zu Dokumenten in Aspose.Words for Java hinzufügen. Passen Sie Text‑ und Bildwasserzeichen für professionell aussehende Dokumente an.
-
 ### [Word als PDF speichern mit Aspose.Words – Schritt‑für‑Schritt Java‑Leitfaden](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
 Erfahren Sie, wie Sie ein Word‑Dokument mit Aspose.Words in Java einfach in ein PDF konvertieren – komplette Schritt‑für‑Schritt‑Anleitung.
 ### [PDF‑UA in Aspose.Words für Java erstellen – DOCX zu PDF konvertieren](./create-pdf-ua-in-java-convert-docx-to-pdf/)
@@ -253,6 +243,10 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java PDFs erstellen, die den PDF/UA�
 
 ### [Barrierefreies PDF in Java erstellen – Vollständiger Tagging-Leitfaden](./create-accessible-pdf-in-java-full-tagging-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words for Java ein vollständig getaggtes, barrierefreies PDF in Java erstellen.
+### [Export Word nach Markdown – Vollständiger Java-Leitfaden](./export-word-to-markdown-complete-java-guide/)
+### [DOCX als Markdown exportieren – Vollständiger Java-Leitfaden](./export-docx-as-markdown-complete-java-guide/)
+### [Als Klartext speichern – Vollständiger Leitfaden zum Exportieren von Word‑Gleichungen](./save-as-plain-text-complete-guide-to-export-word-equations/)
+### [Erstellen eines PDF/UA-2 konformen Dokuments – Vollständiger Java-Leitfaden](./create-pdf-ua-2-compliant-document-complete-java-guide/)
 
 ## Häufig gestellte Fragen
 

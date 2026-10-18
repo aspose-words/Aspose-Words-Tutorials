@@ -172,6 +172,10 @@ Apprenez à capturer les avertissements de substitution de police et à détecte
 ### [Enregistrer le document Word – Définir les paramètres de police, gérer les polices manquantes](./save-word-document-set-font-settings-handle-missing-fonts/)
 Apprenez à définir les polices lors de l'enregistrement d'un document Word et à gérer les polices manquantes avec Aspose.Words for Java.
 
+### [Enregistrement d'un rappel d'avertissement en Java – Suivre les polices manquantes](./register-warning-callback-in-java-track-missing-fonts/)
+
+### [Récupérer un docx corrompu avec Aspose.Words Java](./recover-corrupted-docx-using-aspose-words-java/)
+
 ## Foire aux questions
 
 **Q:** Comment puis‑je **save images from word** programmatically ?  

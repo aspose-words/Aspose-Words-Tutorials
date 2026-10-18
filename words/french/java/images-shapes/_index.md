@@ -47,6 +47,9 @@ Apprenez à appliquer une ombre à une forme dans un document Word en C# avec As
 ### [Créer une forme rectangle dans un document Word Java – Guide complet étape par étape](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
 Apprenez à créer une forme rectangle dans un document Word en Java avec un guide complet étape par étape.
 
+### [Créer une forme de zone de texte en Java – Guide complet pour ajouter des ombres](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+Apprenez à créer une zone de texte avec effet d'ombre dans un document Word en Java à l'aide d'Aspose.Words.
+
 ## Ressources supplémentaires
 
 ## Ressources supplémentaires

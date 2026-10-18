@@ -47,6 +47,9 @@ Dowiedz się, jak dodać cień do kształtu w C# przy użyciu Aspose.Words, aby 
 ### [Utwórz prostokątny kształt w dokumencie Word w Javie – Pełny przewodnik krok po kroku](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
 Dowiedz się, jak w pełni krok po kroku dodać prostokątny kształt do dokumentu Word przy użyciu Aspose.Words dla Java.
 
+### [Utwórz pole tekstowe w Javie – Kompletny przewodnik po dodawaniu cieni](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+Dowiedz się, jak dodać pole tekstowe z efektem cienia do dokumentu Word przy użyciu Aspose.Words dla Java.
+
 ## Dodatkowe zasoby
 
 ## Dodatkowe zasoby

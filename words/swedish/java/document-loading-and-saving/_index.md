@@ -143,6 +143,9 @@ Lär dig att reparera skadade DOCX‑filer med Aspose.Words för Java i en detal
 ### [Öppna korrupt Word-dokument – Ställ in återställningsläge i Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
 Lär dig hur du öppnar skadade Word‑dokument och aktiverar återställningsläge med Aspose.Words för Java för att reparera filer.
 
+### [Återställ korrupt docx med Aspose.Words för Java](./recover-corrupted-docx-using-aspose-words-java/)
+Lär dig hur du reparerar skadade DOCX‑filer med Aspose.Words för Java i en steg‑för‑steg‑guide.
+
 ### [Fånga varningar om teckensnittssubstitution i Java med Aspose.Words – Komplett guide](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [Hur du återställer docx – Komplett guide för att läsa korrupta Word‑filer](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 Lär dig hur du reparerar och läser korrupta .docx‑filer med Aspose.Words för Java i denna steg‑för‑steg‑guide.
@@ -170,6 +173,8 @@ Lär dig hur du fångar varningar för teckensnittssubstitution och identifierar
 ### [Spara Word-dokument – Ställ in teckensnittinställningar, hantera saknade teckensnitt](./save-word-document-set-font-settings-handle-missing-fonts/)
 
 ### [Återställ Word-dokument – Komplett guide för att ställa in återställningsläge i Java](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
+
+### [Registrera varningsåteruppringning i Java – Spåra saknade teckensnitt](./register-warning-callback-in-java-track-missing-fonts/)
 
 ## Vanliga frågor
 

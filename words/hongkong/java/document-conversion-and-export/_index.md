@@ -98,7 +98,9 @@ Aspose.Words for Java 的主要功能之一是能夠 **convert docx to pdf** 以
 
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 
-### [將文件另存為 TXT – 匯出 Word 數學的快速指南](./save-document-as-txt-quick-guide-to-exporting-word-math/)
+### [將文件另存為 TXT – 匯出 Word 數學的快速指南](./save-document-as-txt-quick-guide-to-export-word-math/)
+
+### [另存為純文字 – 匯出 Word 方程式完整指南](./save-as-plain-text-complete-guide-to-export-word-equations/)
 
 ### [Save Document as TXT – Convert DOCX to Text with LaTeX](./save-document-as-txt-convert-docx-to-text-with-latex/)
 
@@ -207,6 +209,11 @@ Aspose.Words for Java 的主要功能之一是能夠 **convert docx to pdf** 以
 ### [在 Java 中建立可存取 PDF – 完整標記指南](./create-accessible-pdf-in-java-full-tagging-guide/)
 
 ### [Export docx to txt with Java – Complete Programming Guide](./export-docx-to-txt-with-java-complete-programming-guide/)
+### [將 Word 匯出為 Markdown – 完整 Java 指南](./export-word-to-markdown-complete-java-guide/)
+
+### [將 DOCX 匯出為 Markdown – 完整 Java 指南](./export-docx-as-markdown-complete-java-guide/)
+
+### [建立符合 PDF/UA-2 標準的文件 – 完整 Java 指南](./create-pdf-ua-2-compliant-document-complete-java-guide/)
 
 ## 常見問題
 

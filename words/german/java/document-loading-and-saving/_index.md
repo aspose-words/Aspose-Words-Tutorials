@@ -133,6 +133,8 @@ Erfahren Sie, wie Sie den Wiederherstellungsmodus aktivieren und Warnungen anzei
 Erfahren Sie, wie Sie den Wiederherstellungsmodus aktivieren und Warnungen lesen, um beschädigte DOCX-Dateien zu reparieren.
 ### [Word-Dokument speichern – Schriftarteinstellungen festlegen, fehlende Schriften behandeln](./save-word-document-set-font-settings-handle-missing-fonts/)
 ### [Beschädigtes Word‑Dokument öffnen – Wiederherstellungsmodus in Java setzen](./open-corrupted-word-document-set-recovery-mode-in-java/)
+### [Warnungs‑Callback in Java registrieren – Fehlende Schriftarten verfolgen](./register-warning-callback-in-java-track-missing-fonts/)
+### [Beschädigtes DOCX wiederherstellen mit Aspose.Words für Java](./recover-corrupted-docx-using-aspose-words-java/)
 
 ## Häufig gestellte Fragen
 

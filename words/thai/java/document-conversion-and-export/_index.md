@@ -74,6 +74,11 @@ For more information, check out the [Aspose.Words for Java API Documentation](ht
 
 ### [ฝังรูปภาพเป็น Base64 เมื่อแปลง DOCX เป็น Markdown](./embed-images-as-base64-when-converting-docx-to-markdown/)
 เรียนรู้วิธีฝังรูปภาพเป็น Base64 ระหว่างการแปลง DOCX เป็น Markdown ด้วย Aspose.Words for Java
+### [ส่งออก Word เป็น Markdown – คู่มือฉบับสมบูรณ์สำหรับ Java](./export-word-to-markdown-complete-java-guide/)
+เรียนรู้วิธีแปลงไฟล์ Word เป็น Markdown อย่างครบถ้วนด้วย Aspose.Words for Java
+
+### [ส่งออก DOCX เป็น Markdown – คู่มือฉบับสมบูรณ์สำหรับ Java](./export-docx-as-markdown-complete-java-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown อย่างครบถ้วนด้วย Aspose.Words for Java
 
 ### [Generating Custom Barcode Labels in Aspose.Words for Java](./generating-custom-barcode-labels/)
 Generate Custom Barcode Labels in Aspose.Words for Java. Learn how to create personalized barcode solutions using Aspose.Words for Java in this step‑by‑step guide.
@@ -132,6 +137,8 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น TXT และแปลงเนื้อหาเป็น LaTeX ด้วย Aspose.Words for Java
 ### [ส่งออก docx เป็น txt ด้วย Java – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./export-docx-to-txt-with-java-complete-programming-guide/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น TXT อย่างละเอียดด้วย Java และ Aspose.Words
+### [บันทึกเป็นข้อความธรรมดา – คู่มือฉบับสมบูรณ์สำหรับการส่งออกสมการ Word](./save-as-plain-text-complete-guide-to-export-word-equations/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็นข้อความธรรมดา พร้อมส่งออกสมการอย่างครบถ้วนด้วย Aspose.Words
 
 ### [Aspose.Words to PDF – แปลง DOCX เป็น PDF ด้วย Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF อย่างง่ายด้วย Aspose.Words for Java
@@ -255,6 +262,9 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 
 ### [บันทึกเอกสารเป็น PDF ด้วย Aspose.Words Java – คู่มือการเข้าถึงเต็มรูปแบบ](./save-document-as-pdf-with-aspose-words-java-full-accessibili/)
 เรียนรู้วิธีบันทึกเอกสารเป็น PDF พร้อมคุณสมบัติการเข้าถึงสำหรับผู้ใช้ทุกคนด้วย Aspose.Words for Java
+
+### [สร้างเอกสารที่เป็นไปตามมาตรฐาน PDF/UA-2 – คู่มือฉบับสมบูรณ์สำหรับ Java](./create-pdf-ua-2-compliant-document-complete-java-guide/)
+เรียนรู้วิธีสร้างเอกสาร PDF/UA‑2 ที่เป็นไปตามมาตรฐานโดยใช้ Aspose.Words for Java
 
 ## คำถามที่พบบ่อย
 

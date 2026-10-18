@@ -102,6 +102,8 @@ Học cách bắt các cảnh báo thay thế phông chữ khi tải tài liệu
 
 ### [Lưu Tài Liệu Word – Đặt Cài Đặt Phông Chữ, Xử Lý Phông Chữ Thiếu](./save-word-document-set-font-settings-handle-missing-fonts/)
 Học cách lưu tài liệu Word, thiết lập phông chữ và xử lý các phông chữ bị thiếu.
+### [Đăng ký callback cảnh báo trong Java – Theo dõi phông chữ bị thiếu](./register-warning-callback-in-java-track-missing-fonts/)
+Học cách đăng ký callback để bắt các cảnh báo thiếu phông chữ khi tải tài liệu trong Aspose.Words cho Java.
 
 ### [Configuring RTF Load Options in Aspose.Words for Java](./configuring-rtf-load-options/)
 Cấu hình RTF Load Options trong Aspose.Words for Java. Học cách nhận diện văn bản UTF-8 trong tài liệu RTF. Hướng dẫn chi tiết kèm ví dụ mã nguồn.
@@ -166,6 +168,9 @@ Học cách khôi phục các tệp DOCX bị hỏng bằng Aspose.Words for Jav
 
 ### [Mở Tài Liệu Word Bị Hỏng – Thiết Lập Chế Độ Phục Hồi trong Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
 Học cách mở tài liệu Word bị hỏng và thiết lập chế độ phục hồi trong Java bằng Aspose.Words.
+
+### [Khôi phục docx bị hỏng bằng Aspose.Words Java](./recover-corrupted-docx-using-aspose-words-java/)
+Học cách khôi phục các tệp DOCX bị hỏng bằng Aspose.Words cho Java, với hướng dẫn chi tiết và ví dụ mã nguồn.
 
 ## Câu Hỏi Thường Gặp
 

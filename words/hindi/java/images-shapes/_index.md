@@ -53,6 +53,9 @@ C# में Aspose.Words का उपयोग करके आकार प�
 ### [जावा वर्ड दस्तावेज़ में आयताकार आकार बनाएं – पूर्ण चरण‑दर‑चरण मार्गदर्शिका](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
 Aspose.Words for Java का उपयोग करके वर्ड दस्तावेज़ में आयताकार आकार जोड़ने की पूरी चरण‑दर‑चरण प्रक्रिया सीखें।
 
+### [जावा में टेक्स्ट बॉक्स आकार बनाएं – छाया जोड़ने के लिए पूर्ण गाइड](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+जावा में Aspose.Words का उपयोग करके टेक्स्ट बॉक्स आकार में छाया प्रभाव जोड़ने का तरीका सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)

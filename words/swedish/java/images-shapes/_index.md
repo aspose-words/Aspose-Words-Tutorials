@@ -47,6 +47,9 @@ Lär dig hur du enkelt lägger till skugga på en form i C# med Aspose.Words.
 ### [Skapa rektangelform i Java Word-dokument – Fullständig steg‑för‑steg‑guide](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
 Lär dig hur du skapar en rektangelform i ett Word-dokument med Aspose.Words för Java.
 
+### [Skapa textrutaform i Java – Komplett guide för att lägga till skuggor](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+Lär dig hur du skapar en textruta med skuggeffekt i ett Word-dokument med Aspose.Words för Java.
+
 ## Ytterligare resurser
 
 ## Ytterligare resurser

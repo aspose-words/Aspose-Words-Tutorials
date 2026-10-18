@@ -111,6 +111,8 @@ Scopri come riparare file DOCX corrotti, recuperarne il contenuto e continuare l
 
 ### [Apri documento Word corrotto – Imposta la modalità di recupero in Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
 Scopri come aprire file Word danneggiati impostando la modalità di recupero con Aspose.Words per Java, garantendo il ripristino dei contenuti.
+### [Recupera docx corrotto usando Aspose.Words per Java](./recover-corrupted-docx-using-aspose-words-java/)
+Scopri come riparare file DOCX corrotti e recuperarne il contenuto con Aspose.Words per Java in pochi passaggi.
 
 ### [Salvataggio di Immagini da Documenti in Aspose.Words per Java](./saving-images-from-documents/)
 Impara a salvare immagini da documenti usando Aspose.Words per Java con la nostra guida completa passo‑per‑step. Personalizza formati, compressione e altro.
@@ -178,6 +180,9 @@ Impara a impostare le proprietà dei font e a gestire i font mancanti durante il
 
 ### [Recupera documento Word – Guida completa per impostare la modalità di recupero in Java](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
 Scopri come impostare la modalità di recupero per riparare documenti Word danneggiati usando Aspose.Words per Java.
+
+### [Registra callback di avviso in Java – Traccia i font mancanti](./register-warning-callback-in-java-track-missing-fonts/)
+Impara a registrare una callback per gli avvisi di sostituzione dei font in Java con Aspose.Words, per monitorare i font mancanti.
 
 ## Domande Frequenti
 
