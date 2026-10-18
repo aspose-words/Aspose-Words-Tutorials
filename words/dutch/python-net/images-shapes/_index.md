@@ -37,6 +37,13 @@ Leer hoe je SVG-uitvoer optimaliseert met Aspose.Words voor Python. Deze handlei
 ### [Hoe schaduw toe te voegen in C# – Complete programmeergids](./how-to-add-shadow-in-c-complete-programming-guide/)
 Leer hoe u schaduweffecten aan tekst of vormen toevoegt in C# met Aspose.Words.
 
+### [Rechthoek toevoegen aan PDF met Aspose.Words – Stapsgewijze gids](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
+Leer hoe u een rechthoek toevoegt aan een PDF met Aspose.Words via een duidelijke stap‑voor‑stap gids.
+### [Rechthoekvorm maken in Python – Volledige gids voor het toevoegen van schaduwen en opslaan als PDF](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
+Leer hoe u een rechthoekige vorm toevoegt, schaduweffecten toepast en het document als PDF opslaat met Aspose.Words voor Python.
+### [Hoe een rechthoek in Word in te voegen en schaduw toe te voegen met Aspose](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
+Leer hoe u een rechthoek toevoegt en er een schaduweffect op toepast in een Word-document met Aspose.Words voor Python-net.
+
 ## Aanvullende bronnen
 
 - [Aspose.Words voor Python-net-documentatie](https://docs.aspose.com/words/python-net/)

@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: Ten samouczek pokazuje, jak utworzyć nowy dokument Word, wstawić pole formularza typu pole wyboru przy użyciu DocumentBuilder i zapisać powstały plik.
+//ExStepSummary:0: Utwórz zmienną katalogu danych, zainicjuj obiekt Document i utwórz DocumentBuilder dla tego dokumentu.
+//ExStepSummary:1: Wywołaj `builder.InsertCheckBox`, aby dodać zaznaczone, włączone pole formularza typu pole wyboru o nazwie "CheckBox" w bieżącej pozycji kursora.
+//ExStepSummary:2: Zapisz zmodyfikowany dokument w określonym folderze przy użyciu `doc.Save`.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertCheckBox("CheckBox", true, true, 0);
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx");
+//ExEnd

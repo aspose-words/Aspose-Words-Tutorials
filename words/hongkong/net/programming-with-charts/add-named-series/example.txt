@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: 本教學示範如何使用 Aspose.Words 的 Document 與 DocumentBuilder 來建立 Word 文件、嵌入直方圖圖表，並使用接受名稱與數值的 ChartSeriesCollection.Add 重載來新增帶標籤的資料系列。
+//ExStepSummary:0: 建立一個全新的空白 Word 文件，並使用 DocumentBuilder 進行編輯。
+//ExStepSummary:1: 在文件中插入大小為 500×300 的直方圖圖表形狀，並取得其 Chart 物件。
+//ExStepSummary:2: 移除 Aspose.Words 為新圖表自動加入的預設佔位系列。
+//ExStepSummary:3: 在直方圖圖表中加入名為「Demo Series」且包含指定資料點的系列。
+//ExStepSummary:4: 將文件儲存為包含已標籤圖表系列的 .docx 檔案。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape histogramShape = docBuilder.InsertChart(ChartType.Histogram, 500, 300);
+Chart histogramChart = histogramShape.Chart;
+
+//ExStep:2-
+histogramChart.Series.Clear();
+
+//ExStep:3-
+histogramChart.Series.Add("Demo Series", new double[] { 10, 20, 15, 30, 25 });
+
+//ExStep:4-
+myDocument.Save("LabeledSeriesDemo.docx");
+//ExEnd

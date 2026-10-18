@@ -14,7 +14,7 @@ weight: 13
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Words for Java 中使用 Office Math 对象
+# 使用 Aspose.Words for Java 在 Office Math 中显示行内数学
 
 ## 在 Aspose.Words for Java 中使用 Office Math 对象的介绍
 

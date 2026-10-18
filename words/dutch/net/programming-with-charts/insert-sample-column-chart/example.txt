@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Deze tutorial laat zien hoe je een nieuw Word‑document maakt, een standaard kolomgrafiek invoegt met DocumentBuilder.InsertChart, het ingesloten Chart‑object verkrijgt en het document opslaat als een .docx‑bestand.
+//ExStepSummary:0: Maak een leeg Word‑document en een DocumentBuilder om het te bewerken.
+//ExStepSummary:1: Voeg een kolomgrafiek van 432 × 252 punten toe aan het document.
+//ExStepSummary:2: Haal het Chart‑object op uit de ingevoegde shape voor verdere aanpassing indien nodig.
+//ExStepSummary:3: Sla het document, dat nu de ingevoegde kolomgrafiek bevat, op als een .docx‑bestand.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+Chart embeddedChart = chartContainer.Chart;
+
+//ExStep:3-
+wordDoc.Save("column-demo.docx");
+//ExEnd
