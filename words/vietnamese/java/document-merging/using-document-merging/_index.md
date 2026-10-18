@@ -1,10 +1,12 @@
 ---
-"description": "Học cách hợp nhất các tài liệu Word một cách liền mạch bằng Aspose.Words for Java. Kết hợp, định dạng và xử lý xung đột hiệu quả chỉ trong vài bước. Bắt đầu ngay!"
-"linktitle": "Sử dụng tính năng hợp nhất tài liệu"
-"second_title": "API xử lý tài liệu Java Aspose.Words"
-"title": "Sử dụng tính năng hợp nhất tài liệu"
-"url": "/vi/java/document-merging/using-document-merging/"
-"weight": 10
+date: 2026-02-11
+description: Tìm hiểu cách hợp nhất nhiều tệp DOCX bằng Aspose.Words cho Java. Kết
+  hợp hiệu quả các tài liệu Word lớn, xử lý xung đột định dạng và chèn ngắt trang.
+linktitle: Using Document Merging
+second_title: Aspose.Words Java Document Processing API
+title: Cách hợp nhất nhiều tệp DOCX bằng Aspose.Words cho Java
+url: /vi/java/document-merging/using-document-merging/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,30 +15,49 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sử dụng tính năng hợp nhất tài liệu
+# Kết Hợp Nhiều Tệp DOCX Sử Dụng Aspose.Words cho Java
 
-Aspose.Words for Java cung cấp giải pháp mạnh mẽ cho các nhà phát triển cần hợp nhất nhiều tài liệu Word theo chương trình. Hợp nhất tài liệu là yêu cầu chung trong nhiều ứng dụng khác nhau, chẳng hạn như tạo báo cáo, hợp nhất thư và lắp ráp tài liệu. Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách thực hiện hợp nhất tài liệu bằng Aspose.Words for Java.
+Kết hợp nhiều tệp DOCX là một nhu cầu thường gặp khi bạn cần tổng hợp báo cáo, hợp đồng, hoặc các thư được tạo hàng loạt thành một tài liệu duy nhất, hoàn chỉnh. Trong hướng dẫn này, bạn sẽ học **cách kết hợp nhiều tệp DOCX** một cách nhanh chóng và đáng tin cậy với Aspose.Words cho Java, đồng thời giữ nguyên định dạng và xử lý các thách thức phổ biến như xung đột kiểu dáng và chèn ngắt trang.
 
-## 1. Giới thiệu về việc hợp nhất tài liệu
+## Câu trả lời nhanh
+- **Thư viện nào tốt nhất để kết hợp tệp DOCX?** Aspose.Words cho Java.  
+- **Tôi có thể kết hợp các tài liệu Word lớn không?** Có – API được tối ưu cho việc kết hợp khối lượng lớn.  
+- **Làm sao chèn ngắt trang giữa các tệp đã kết hợp?** Sử dụng `ImportFormatMode` thích hợp hoặc thêm ngắt thủ công sau khi nối.  
+- **Có cần giấy phép cho môi trường sản xuất không?** Cần giấy phép thương mại cho các triển khai không dùng bản dùng thử.  
+- **Java 8 có được hỗ trợ không?** Hoàn toàn; Aspose.Words hoạt động với Java 8 và các runtime mới hơn.
 
-Hợp nhất tài liệu là quá trình kết hợp hai hoặc nhiều tài liệu Word riêng biệt thành một tài liệu duy nhất, gắn kết. Đây là chức năng quan trọng trong tự động hóa tài liệu, cho phép tích hợp liền mạch văn bản, hình ảnh, bảng và nội dung khác từ nhiều nguồn khác nhau. Aspose.Words for Java đơn giản hóa quá trình hợp nhất, cho phép các nhà phát triển thực hiện nhiệm vụ này theo chương trình mà không cần can thiệp thủ công.
+## “Kết hợp nhiều tệp docx” là gì?
+Kết hợp nhiều tệp DOCX có nghĩa là kết hợp chương trình hai hoặc nhiều tài liệu Word thành một tệp `.docx` duy nhất. Quá trình này bảo tồn văn bản, hình ảnh, bảng, tiêu đề, chân trang và các thành phần Word khác, tạo ra một tài liệu cuối cùng liền mạch mà không cần sao chép‑dán thủ công.
+
+## Tại sao nên dùng Aspose.Words cho Java để kết hợp các tài liệu Word lớn?
+- **Kiểm soát đầy đủ định dạng** – chọn cách nhập kiểu dáng.  
+- **Tối ưu hiệu năng** – xử lý hàng trăm trang với mức sử dụng bộ nhớ tối thiểu.  
+- **API phong phú** – hỗ trợ ngắt trang, ngắt đoạn, và kết hợp các đoạn cụ thể.  
+- **Không phụ thuộc vào Microsoft Office** – hoạt động trên bất kỳ nền tảng nào chạy Java.
+
+## Yêu cầu trước
+- Môi trường phát triển Java 8 (hoặc mới hơn).  
+- Thư viện Aspose.Words cho Java JAR đã được thêm vào classpath của dự án.  
+- Hai tệp DOCX trở lên mà bạn muốn kết hợp (ví dụ: `document1.docx`, `document2.docx`).
+
+## 1. Giới thiệu về việc kết hợp tài liệu
+Kết hợp tài liệu là quá trình ghép hai hoặc nhiều tài liệu Word riêng biệt thành một tài liệu duy nhất, mạch lạc. Đây là chức năng quan trọng trong tự động hoá tài liệu, cho phép tích hợp liền mạch văn bản, hình ảnh, bảng và các nội dung khác từ nhiều nguồn. Aspose.Words cho Java đơn giản hoá quá trình này, cho phép các nhà phát triển thực hiện công việc một cách lập trình mà không cần can thiệp thủ công.
 
 ## 2. Bắt đầu với Aspose.Words cho Java
+Trước khi đi sâu vào việc kết hợp tài liệu, hãy chắc chắn rằng chúng ta đã cài đặt Aspose.Words cho Java đúng cách trong dự án. Thực hiện các bước sau để bắt đầu:
 
-Trước khi đi sâu vào việc hợp nhất tài liệu, hãy đảm bảo rằng chúng ta đã thiết lập Aspose.Words for Java đúng cách trong dự án của mình. Thực hiện theo các bước sau để bắt đầu:
+### Nhận Aspose.Words cho Java
+Truy cập Aspose Releases (https://releases.aspose.com/words/java) để tải phiên bản mới nhất của thư viện.
 
-### Tải Aspose.Words cho Java:
- Truy cập Aspose Releases (https://releases.aspose.com/words/java) để tải phiên bản mới nhất của thư viện.
+### Thêm Thư viện Aspose.Words
+Bao gồm tệp JAR của Aspose.Words vào classpath của dự án Java của bạn.
 
-### Thêm thư viện Aspose.Words:
- Bao gồm tệp JAR Aspose.Words vào classpath của dự án Java của bạn.
+### Khởi tạo Aspose.Words
+Trong mã Java, nhập các lớp cần thiết từ Aspose.Words, và bạn đã sẵn sàng để bắt đầu kết hợp tài liệu.
 
-### Khởi tạo Aspose.Words:
- Trong mã Java của bạn, hãy nhập các lớp cần thiết từ Aspose.Words và bạn đã sẵn sàng để bắt đầu hợp nhất tài liệu.
+## 3. Cách kết hợp nhiều tệp docx (Hai Tài liệu)
 
-## 3. Hợp nhất hai tài liệu
-
-Hãy bắt đầu bằng cách hợp nhất hai tài liệu Word đơn giản. Giả sử chúng ta có hai tệp, "document1.docx" và "document2.docx", nằm trong thư mục dự án.
+Hãy bắt đầu bằng việc kết hợp hai tài liệu Word đơn giản. Giả sử chúng ta có hai tệp, `document1.docx` và `document2.docx`, nằm trong thư mục dự án.
 
 ```java
 import com.aspose.words.*;
@@ -44,14 +65,14 @@ import com.aspose.words.*;
 public class DocumentMerger {
     public static void main(String[] args) {
         try {
-            // Tải các tài liệu nguồn
+            // Load the source documents
             Document doc1 = new Document("document1.docx");
             Document doc2 = new Document("document2.docx");
 
-            // Thêm nội dung của tài liệu thứ hai vào tài liệu đầu tiên
+            // Append the content of the second document to the first
             doc1.appendDocument(doc2, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 
-            // Lưu tài liệu đã hợp nhất
+            // Save the merged document
             doc1.save("merged_document.docx");
         } catch (Exception e) {
             System.out.println("An error occurred: " + e.getMessage());
@@ -61,26 +82,21 @@ public class DocumentMerger {
 }
 ```
 
-Trong ví dụ trên, chúng tôi đã tải hai tài liệu bằng cách sử dụng `Document` lớp và sau đó sử dụng `appendDocument()` phương pháp hợp nhất nội dung của "document2.docx" vào "document1.docx" trong khi vẫn giữ nguyên định dạng của tài liệu nguồn.
+Trong ví dụ trên, chúng ta tải hai tài liệu bằng lớp `Document` và sau đó dùng phương thức `appendDocument()` để kết hợp nội dung của `document2.docx` vào `document1.docx` trong khi giữ nguyên định dạng của tài liệu nguồn.
 
-## 4. Xử lý định dạng tài liệu
+## 4. Xử lý Định dạng Tài liệu (aspose words document merge)
 
-Khi hợp nhất tài liệu, có thể có trường hợp các kiểu và định dạng của tài liệu nguồn xung đột. Aspose.Words for Java cung cấp một số chế độ định dạng nhập để xử lý các tình huống như vậy:
+Khi kết hợp tài liệu, có thể xảy ra trường hợp các kiểu dáng và định dạng của tài liệu nguồn xung đột nhau. Aspose.Words cho Java cung cấp một số chế độ nhập định dạng để xử lý các tình huống này:
 
-- `ImportFormatMode.KEEP_SOURCE_FORMATTING`: 
-Giữ nguyên định dạng của tài liệu nguồn.
+- `ImportFormatMode.KEEP_SOURCE_FORMATTING`: Giữ nguyên định dạng của tài liệu nguồn.  
+- `ImportFormatMode.USE_DESTINATION_STYLES`: Áp dụng các kiểu dáng của tài liệu đích.  
+- `ImportFormatMode.KEEP_DIFFERENT_STYLES`: Bảo tồn các kiểu dáng khác nhau giữa tài liệu nguồn và đích.
 
-- `ImportFormatMode.USE_DESTINATION_STYLES`: 
-Áp dụng kiểu của tài liệu đích.
+Chọn chế độ nhập định dạng phù hợp dựa trên yêu cầu kết hợp của bạn.
 
-- `ImportFormatMode.KEEP_DIFFERENT_STYLES`: 
-Giữ nguyên các kiểu khác nhau giữa tài liệu nguồn và tài liệu đích.
+## 5. Cách kết hợp các tài liệu Word lớn (Nhiều Tài liệu)
 
-Chọn chế độ định dạng nhập phù hợp dựa trên yêu cầu hợp nhất của bạn.
-
-## 5. Hợp nhất nhiều tài liệu
-
-Để hợp nhất nhiều hơn hai tài liệu, hãy làm theo cách tiếp cận tương tự như trên và sử dụng `appendDocument()` phương pháp nhiều lần:
+Để kết hợp hơn hai tài liệu, thực hiện tương tự như trên và gọi phương thức `appendDocument()` nhiều lần:
 
 ```java
 import com.aspose.words.*;
@@ -92,7 +108,7 @@ public class DocumentMerger {
             Document doc2 = new Document("document2.docx");
             Document doc3 = new Document("document3.docx");
 
-            // Thêm nội dung của tài liệu thứ hai vào tài liệu đầu tiên
+            // Append the content of the second document to the first
             doc1.appendDocument(doc2, ImportFormatMode.KEEP_SOURCE_FORMATTING);
             doc1.appendDocument(doc3, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 
@@ -105,24 +121,19 @@ public class DocumentMerger {
 }
 ```
 
-## 6. Chèn ngắt tài liệu
+## 6. Cách chèn ngắt trang khi kết hợp
 
-Đôi khi, cần phải chèn ngắt trang hoặc ngắt phần giữa các tài liệu đã hợp nhất để duy trì cấu trúc tài liệu phù hợp. Aspose.Words cung cấp các tùy chọn để chèn ngắt trang trong quá trình hợp nhất:
+Đôi khi, cần chèn ngắt trang hoặc ngắt đoạn giữa các tài liệu đã kết hợp để duy trì cấu trúc tài liệu đúng. Aspose.Words cung cấp các tùy chọn để chèn ngắt trong quá trình kết hợp:
 
-- `doc1.appendDocument(doc2, ImportFormatMode.KEEP_SOURCE_FORMATTING);`:
-Ghép các tài liệu mà không bị ngắt quãng.
-
-- `doc1.appendDocument(doc2, ImportFormatMode.USE_DESTINATION_STYLES);`: 
-Chèn một khoảng ngắt liên tục giữa các tài liệu.
-
-- `doc1.appendDocument(doc2, ImportFormatMode.KEEP_DIFFERENT_STYLES);`: 
-Chèn ngắt trang khi kiểu dáng giữa các tài liệu khác nhau.
+- `doc1.appendDocument(doc2, ImportFormatMode.KEEP_SOURCE_FORMATTING);` – kết hợp mà không có ngắt nào.  
+- `doc1.appendDocument(doc2, ImportFormatMode.USE_DESTINATION_STYLES);` – chèn ngắt liên tục giữa các tài liệu.  
+- `doc1.appendDocument(doc2, ImportFormatMode.KEEP_DIFFERENT_STYLES);` – chèn ngắt trang khi các kiểu dáng giữa các tài liệu khác nhau.
 
 Chọn phương pháp phù hợp dựa trên yêu cầu cụ thể của bạn.
 
-## 7. Hợp nhất các phần tài liệu cụ thể
+## 7. Kết hợp các Phần Cụ thể của Tài liệu (how to merge docs)
 
-Trong một số trường hợp, bạn có thể chỉ muốn hợp nhất các phần cụ thể của tài liệu. Ví dụ, chỉ hợp nhất nội dung chính, không bao gồm tiêu đề và chân trang. Aspose.Words cho phép bạn đạt được mức độ chi tiết này bằng cách sử dụng `Range` lớp học:
+Trong một số trường hợp, bạn có thể muốn chỉ kết hợp các phần cụ thể của tài liệu. Ví dụ, chỉ kết hợp nội dung thân, loại trừ tiêu đề và chân trang. Aspose.Words cho phép bạn thực hiện mức độ chi tiết này bằng lớp `Range`:
 
 ```java
 import com.aspose.words.*;
@@ -133,10 +144,10 @@ public class DocumentMerger {
             Document doc1 = new Document("document1.docx");
             Document doc2 = new Document("document2.docx");
 
-            // Lấy phần cụ thể của tài liệu thứ hai
+            // Get the specific section of the second document
             Section sectionToMerge = doc2.getSections().get(0);
 
-            // Thêm phần vào tài liệu đầu tiên
+            // Append the section to the first document
             doc1.appendContent(sectionToMerge);
 
             doc1.save("merged_document.docx");
@@ -148,9 +159,9 @@ public class DocumentMerger {
 }
 ```
 
-## 8. Xử lý xung đột và phong cách trùng lặp
+## 8. Xử lý Xung đột và Kiểu dáng Trùng lặp
 
-Khi hợp nhất nhiều tài liệu, xung đột có thể phát sinh do các kiểu trùng lặp. Aspose.Words cung cấp cơ chế giải quyết để xử lý các xung đột như vậy:
+Khi kết hợp nhiều tài liệu, có thể phát sinh xung đột do kiểu dáng trùng lặp. Aspose.Words cung cấp cơ chế giải quyết để xử lý các xung đột này:
 
 ```java
 import com.aspose.words.*;
@@ -161,7 +172,7 @@ public class DocumentMerger {
             Document doc1 = new Document("document1.docx");
             Document doc2 = new Document("document2.docx");
 
-            // Giải quyết xung đột bằng cách sử dụng KEEP_DIFFERENT_STYLES
+            // Resolve conflicts by using KEEP_DIFFERENT_STYLES
             doc1.appendDocument(doc2, ImportFormatMode.KEEP_DIFFERENT_STYLES);
 
             doc1.save("merged_document.docx");
@@ -173,61 +184,44 @@ public class DocumentMerger {
 }
 ```
 
-Bằng cách sử dụng `ImportFormatMode.KEEP_DIFFERENT_STYLES`Aspose.Words giữ nguyên các kiểu khác nhau giữa tài liệu nguồn và tài liệu đích, giải quyết xung đột một cách khéo léo.
+Bằng cách sử dụng `ImportFormatMode.KEEP_DIFFERENT_STYLES`, Aspose.Words giữ lại các kiểu dáng khác nhau giữa tài liệu nguồn và đích, giải quyết xung đột một cách nhẹ nhàng.
 
-## Phần kết luận
+## Những Sai lầm Thường Gặp & Mẹo
+- **Tiêu thụ bộ nhớ khi tài liệu lớn** – Tải tài liệu từ luồng khi làm việc với các tệp rất lớn để giảm áp lực lên heap.  
+- **Xung đột kiểu dáng** – Ưu tiên `KEEP_DIFFERENT_STYLES` khi các tài liệu nguồn có bộ kiểu dáng riêng biệt.  
+- **Vị trí ngắt trang** – Sau khi nối, bạn có thể chèn chương trình một `SectionBreak` nếu chế độ ngắt tự động không đáp ứng nhu cầu bố cục.
 
-Aspose.Words for Java trao quyền cho các nhà phát triển Java khả năng hợp nhất các tài liệu Word một cách dễ dàng. Bằng cách làm theo hướng dẫn từng bước trong bài viết này, giờ đây bạn có thể hợp nhất các tài liệu, xử lý định dạng, chèn ngắt và quản lý xung đột một cách dễ dàng. Với Aspose.Words for Java, việc hợp nhất tài liệu trở thành một quy trình liền mạch và tự động, giúp tiết kiệm thời gian và công sức quý báu.
+## Câu hỏi Thường gặp
 
-## Câu hỏi thường gặp 
+**H: Tôi có thể kết hợp các tài liệu có định dạng và kiểu dáng khác nhau không?**  
+Đ: Có, Aspose.Words cho Java xử lý việc kết hợp các tài liệu với định dạng và kiểu dáng đa dạng, giải quyết xung đột một cách thông minh.
 
-### Tôi có thể ghép các tài liệu có định dạng và kiểu khác nhau không?
+**H: Aspose.Words có hỗ trợ kết hợp các tài liệu lớn một cách hiệu quả không?**  
+Đ: Chắc chắn. Thư viện được tối ưu cho việc kết hợp hiệu suất cao các tệp Word lớn.
 
-Có, Aspose.Words for Java xử lý việc hợp nhất các tài liệu với nhiều định dạng và phong cách khác nhau. Thư viện giải quyết xung đột một cách thông minh, cho phép bạn hợp nhất các tài liệu từ nhiều nguồn khác nhau một cách liền mạch.
+**H: Tôi có thể kết hợp các tài liệu được bảo mật bằng mật khẩu không?**  
+Đ: Có. Tải mỗi tài liệu kèm mật khẩu trước khi gọi `appendDocument`.
 
-### Aspose.Words có hỗ trợ việc ghép các tài liệu lớn một cách hiệu quả không?
+**H: Có thể chỉ kết hợp các phần đã chọn không?**  
+Đ: Có. Sử dụng các đối tượng `Section` hoặc `Range` để chọn và nối các phần cụ thể.
 
-Aspose.Words for Java được thiết kế để xử lý hiệu quả các tài liệu lớn. Nó sử dụng các thuật toán được tối ưu hóa để hợp nhất tài liệu, đảm bảo hiệu suất cao ngay cả với nội dung rộng lớn.
+**H: Aspose.Words có giữ nguyên định dạng gốc theo mặc định không?**  
+Đ: Mặc định nó sử dụng `KEEP_SOURCE_FORMATTING`, giữ nguyên giao diện của tài liệu nguồn.
 
-### Tôi có thể hợp nhất các tài liệu được bảo vệ bằng mật khẩu bằng Aspose.Words cho Java không?
+## Kết luận
 
-Có, Aspose.Words for Java hỗ trợ hợp nhất các tài liệu được bảo vệ bằng mật khẩu. Đảm bảo rằng bạn cung cấp đúng mật khẩu để truy cập và hợp nhất các tài liệu này.
+Aspose.Words cho Java cung cấp cho các nhà phát triển Java khả năng **kết hợp nhiều tệp DOCX** một cách dễ dàng. Bằng cách làm theo hướng dẫn từng bước trong bài viết này, bạn có thể kết hợp tài liệu, xử lý định dạng, chèn ngắt và quản lý xung đột kiểu dáng một cách thuận lợi. Cách tiếp cận này tiết kiệm thời gian quý báu và giảm thiểu công việc thủ công trong quy trình lắp ráp tài liệu.
 
-### Có thể hợp nhất các phần cụ thể từ nhiều tài liệu không?
+---
 
-Có, Aspose.Words cho phép bạn chọn lọc hợp nhất các phần cụ thể từ các tài liệu khác nhau. Điều này giúp bạn kiểm soát chi tiết quá trình hợp nhất.
-
-### Tôi có thể hợp nhất các tài liệu có theo dõi thay đổi và bình luận không?
-
-Chắc chắn rồi, Aspose.Words for Java có thể xử lý việc hợp nhất các tài liệu có theo dõi các thay đổi và bình luận. Bạn có tùy chọn giữ nguyên hoặc xóa các bản sửa đổi này trong quá trình hợp nhất.
-
-### Aspose.Words có giữ nguyên định dạng gốc của các tài liệu đã hợp nhất không?
-
-Aspose.Words giữ nguyên định dạng của tài liệu nguồn theo mặc định. Tuy nhiên, bạn có thể chọn các chế độ định dạng nhập khác nhau để xử lý xung đột và duy trì tính nhất quán về định dạng.
-
-### Tôi có thể ghép các tài liệu từ các định dạng tệp không phải Word như PDF hoặc RTF không?
-
-Aspose.Words chủ yếu được thiết kế để làm việc với các tài liệu Word. Để hợp nhất các tài liệu từ các định dạng tệp không phải Word, hãy cân nhắc sử dụng sản phẩm Aspose phù hợp cho định dạng cụ thể đó, chẳng hạn như Aspose.PDF hoặc Aspose.RTF.
-
-### Tôi có thể xử lý phiên bản tài liệu trong quá trình hợp nhất như thế nào?
-
-Có thể thực hiện phiên bản tài liệu trong quá trình hợp nhất bằng cách triển khai các biện pháp kiểm soát phiên bản phù hợp trong ứng dụng của bạn. Aspose.Words tập trung vào việc hợp nhất nội dung tài liệu và không trực tiếp quản lý phiên bản.
-
-### Aspose.Words for Java có tương thích với Java 8 và các phiên bản mới hơn không?
-
-Có, Aspose.Words for Java tương thích với Java 8 và các phiên bản mới hơn. Luôn khuyến nghị sử dụng phiên bản Java mới nhất để có hiệu suất và bảo mật tốt hơn.
-
-### Aspose.Words có hỗ trợ việc ghép tài liệu từ các nguồn từ xa như URL không?
-
-Có, Aspose.Words for Java có thể tải tài liệu từ nhiều nguồn khác nhau, bao gồm URL, luồng và đường dẫn tệp. Bạn có thể hợp nhất tài liệu được lấy từ các vị trí từ xa một cách liền mạch.
-
+**Cập nhật lần cuối:** 2026-02-11  
+**Đã kiểm tra với:** Aspose.Words 24.12 cho Java  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,0 +1,7 @@
+Title: Create radial chart and insert chart into Word with Java
+Slug: create-radial-chart-and-insert-chart-into-word-with-java
+Category: word-processing
+ProcessedDate: 2026-09-27T22:40:04.826624
+SourceRepo: AI Search API
+Keywords: create radial chart, insert chart into word, create blank word document, how to set chart size, add data series chart
+PRNumber: 290

@@ -1,0 +1,7 @@
+Title: How to style chart in a Word document using Python
+Slug: how-to-style-chart-in-a-word-document-using-python
+Category: formatting-styles
+ProcessedDate: 2026-08-11T08:09:32.103679
+SourceRepo: AI Search API
+Keywords: how to style chart, load word document python, apply predefined chart style, apply chart style word
+PRNumber: 250

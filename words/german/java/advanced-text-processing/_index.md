@@ -64,6 +64,9 @@ Erfahren Sie, wie Sie **control characters** in Dokumenten verwalten und einfüg
 ### [Meistern von Aspose.Words Java: Ein vollständiger Leitfaden zu LayoutCollector & LayoutEnumerator für die Textverarbeitung](./aspose-words-java-layoutcollector-enumerator-guide/)
 Entfesseln Sie die Leistungsfähigkeit von Aspose.Words Java's **LayoutCollector** und **LayoutEnumerator** für fortgeschrittene Textverarbeitung. Lernen Sie, wie Sie Dokumentlayouts effizient verwalten, die Seitennummerierung analysieren und die Seitenzahlen steuern können.
 
+### [Rechteckform in Word mit C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-rectangle-shape-in-word-with-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für C# ein Rechteck in ein Word‑Dokument einfügen und formatieren.
+
 ## Häufige Anwendungsfälle
 
 | Szenario | Wie es hilft |
