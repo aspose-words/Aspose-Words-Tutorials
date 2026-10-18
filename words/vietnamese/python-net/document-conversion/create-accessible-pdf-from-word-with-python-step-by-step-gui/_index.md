@@ -1,54 +1,26 @@
 ---
 category: general
-date: 2026-06-05
-description: Tạo PDF có khả năng truy cập bằng Python. Tìm hiểu cách chuyển đổi Word
-  sang PDF và lưu tài liệu dưới dạng PDF có khả năng truy cập với Aspose.Words trong
-  vài phút.
+date: 2026-03-01
+description: Tạo PDF có khả năng truy cập từ tài liệu Word bằng Python và Aspose.Words.
+  Tìm hiểu cách chuyển Word sang PDF, lưu file docx dưới dạng PDF và đảm bảo tuân
+  thủ tiêu chuẩn PDF/UA‑1.
 draft: false
 keywords:
 - create accessible pdf
 - convert word to pdf
-- save document as accessible pdf
+- save docx as pdf
+- export docx to pdf
+- python convert docx pdf
 language: vi
-og_description: Tạo tệp PDF có khả năng truy cập từ tài liệu Word bằng Python. Hướng
-  dẫn này chỉ cách chuyển đổi Word sang PDF và lưu tài liệu dưới dạng PDF có khả năng
-  truy cập với Aspose.Words.
-og_title: Tạo PDF có khả năng truy cập từ Word bằng Python – Hướng dẫn chi tiết
-schemas:
-- author: Aspose
-  dateModified: '2026-06-05'
-  description: Create accessible PDF using Python. Learn how to convert Word to PDF
-    and save document as accessible PDF with Aspose.Words in minutes.
-  headline: Create Accessible PDF from Word with Python – Step‑by‑Step Guide
-  type: TechArticle
-- description: Create accessible PDF using Python. Learn how to convert Word to PDF
-    and save document as accessible PDF with Aspose.Words in minutes.
-  name: Create Accessible PDF from Word with Python – Step‑by‑Step Guide
-  steps:
-  - name: What the options really do
-    text: '| Option | Effect | |--------|--------| | `compliance = PDF_UA_1` | Generates
-      a PDF that conforms to the PDF/UA‑1 standard (ISO 14289‑1). This includes tagged
-      structure, correct reading order, and mandatory document information. | | `PDF_UA_2`
-      (available in newer Aspose releases) | Targets the newer'
-  - name: Can I **convert Word to PDF** without losing existing bookmarks?
-    text: Yes. As long as the Word file contains proper heading styles and bookmark
-      entries, Aspose.Words will translate them into PDF tags automatically. No extra
-      code needed.
-  - name: What if my Word document uses custom fonts that aren’t installed on the
-      server?
-    text: Aspose.Words will embed the missing fonts if you enable `pdf_opts.embed_full_fonts
-      = True`. This prevents “font substitution” warnings that can break layout and
-      accessibility.
-  - name: Is PDF/UA‑2 supported on all platforms?
-    text: PDF/UA‑2 is a newer spec, and while Aspose.Words supports it, some older
-      PDF readers still only recognize PDF/UA‑1. If you’re targeting a broad audience,
-      stick with `PDF_UA_1` unless you know the downstream tools support the newer
-      version.
-  type: HowTo
+og_description: Tạo PDF có khả năng truy cập từ tài liệu Word bằng Python. Hướng dẫn
+  này chỉ cách chuyển Word sang PDF, lưu docx dưới dạng PDF và đáp ứng tiêu chuẩn
+  PDF/UA‑1.
+og_title: Tạo PDF có khả năng truy cập từ Word bằng Python – Hướng dẫn từng bước
 tags:
+- PDF
 - Python
-- PDF accessibility
 - Aspose.Words
+- Accessibility
 title: Tạo PDF có thể truy cập từ Word bằng Python – Hướng dẫn từng bước
 url: /vi/python/document-conversion/create-accessible-pdf-from-word-with-python-step-by-step-gui/
 ---
@@ -57,215 +29,183 @@ url: /vi/python/document-conversion/create-accessible-pdf-from-word-with-python-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo PDF Truy cập được từ Word bằng Python – Hướng Dẫn Toàn Diện
+# Tạo PDF có thể truy cập từ Word bằng Python – Hướng dẫn từng bước
 
-Bạn đã bao giờ cần **tạo file PDF truy cập được** từ một tài liệu Word nhưng không chắc thư viện nào sẽ giữ nguyên các thẻ, văn bản thay thế và thứ tự đọc? Bạn không phải là người duy nhất. Trong nhiều dự án—như mẫu đơn chính phủ, mô-đun e‑learning, hoặc báo cáo doanh nghiệp—khả năng truy cập không phải là tùy chọn, mà là yêu cầu tuân thủ.
+Bạn đã bao giờ cần **tạo pdf có thể truy cập** từ một tệp Word nhưng không chắc thư viện nào sẽ giữ tài liệu của bạn sẵn sàng tuân thủ? Bạn không phải là người duy nhất. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn chuyển đổi một `.docx` thành tài liệu **PDF/UA‑1** bằng Aspose.Words for Python, để bạn có thể **convert word to pdf**, **save docx as pdf**, và **export docx to pdf** mà không làm mất khả năng truy cập.
 
-Tin tốt? Chỉ với vài dòng Python và Aspose.Words, bạn có thể **chuyển đổi Word sang PDF** trong khi bảo tồn mọi tính năng truy cập, sau đó **lưu tài liệu dưới dạng PDF truy cập được** trong một thao tác liền mạch. Không cần xử lý hậu kỳ, không cần chèn thẻ thủ công, chỉ cần mã thực hiện công việc nặng cho bạn.
+Chúng tôi sẽ bao phủ mọi thứ bạn cần: lệnh cài đặt một dòng, lý do PDF/UA‑1 quan trọng, cách điều chỉnh các tùy chọn lưu, và một kiểm tra nhanh để chắc chắn đầu ra thực sự là một PDF có thể truy cập. Khi kết thúc, bạn sẽ có một script có thể tái sử dụng mà bạn có thể đưa vào bất kỳ pipeline tự động nào.
 
-Trong hướng dẫn này, bạn sẽ học:
+## Những gì bạn sẽ học
 
-* Cách cài đặt gói Aspose.Words cho Python.  
-* Mã chính xác để tải một file `.docx`, cấu hình tuân thủ PDF/UA, và ghi ra file đầu ra.  
-* Tại sao mỗi tùy chọn lại quan trọng đối với khả năng truy cập và những gì có thể sai nếu bỏ qua.  
-* Các cách nhanh chóng để xác minh rằng PDF kết quả thực sự truy cập được.
+- Cài đặt và import thư viện Aspose.Words cho Python.
+- Tải tài liệu Word (`.docx`) từ đĩa.
+- Cấu hình `PdfSaveOptions` để thực thi tuân thủ PDF/UA‑1.
+- Lưu tệp dưới dạng PDF có thể truy cập.
+- Tùy chọn: xác minh các thẻ truy cập của PDF.
 
-Kết thúc, bạn sẽ có một script sẵn sàng chạy, tạo ra file PDF/UA‑1 (hoặc PDF/UA‑2) tuân thủ, và bạn sẽ hiểu “tại sao” đằng sau mỗi dòng mã.
-
----
-
-## Những Điều Cần Chuẩn Bị Trước Khi Bắt Đầu
-
-| Yêu cầu trước | Lý do quan trọng |
-|--------------|-------------------|
-| Python 3.8 hoặc mới hơn | Aspose.Words for Python 3 hỗ trợ 3.8+; các phiên bản cũ hơn thiếu các gợi ý kiểu. |
-| Truy cập `pip` để cài đặt gói | Bạn sẽ tải thư viện từ PyPI. |
-| Giấy phép Aspose.Words hợp lệ (tùy chọn nhưng loại bỏ watermark đánh giá) | Bản dùng thử miễn phí hoạt động, nhưng giấy phép cho phép bạn tạo PDF không giới hạn. |
-| Một file Word mẫu (`input.docx`) có các tính năng truy cập sẵn (heading, alt‑text, caption bảng) | Quá trình chuyển đổi chỉ có thể bảo tồn những gì đã có. |
-
-Nếu bạn đã có môi trường ảo, tuyệt vời—hãy kích hoạt nó. Nếu chưa, chạy:
-
-```bash
-python -m venv venv
-source venv/bin/activate   # on Windows: venv\Scripts\activate
-```
-
-Bây giờ bạn đã sẵn sàng cài đặt thư viện.
+Không cần kiến thức trước về Aspose; chỉ cần một môi trường Python 3 hoạt động và một `.docx` bạn muốn xuất bản.
 
 ---
 
-## Bước 1: Cài Đặt Aspose.Words cho Python
+## Bước 1 – Cài đặt Aspose.Words cho Python (rào cản đầu tiên)
 
-Phụ thuộc duy nhất bạn cần là gói Aspose.Words chính thức. Cài đặt bằng `pip`:
+Trước khi chúng ta viết bất kỳ mã nào, chúng ta cần thư viện thực hiện công việc nặng. Aspose.Words for Python‑via‑.NET được phân phối qua `pip`, vì vậy một lệnh duy nhất sẽ cung cấp phiên bản ổn định mới nhất.
 
 ```bash
 pip install aspose-words
 ```
 
-> **Mẹo chuyên nghiệp:** Ghi cố định phiên bản (`aspose-words==23.9`) để tránh những thay đổi gây lỗi bất ngờ sau này.
+*Why this step matters*: Aspose.Words xử lý việc chuyển đổi Word‑to‑PDF nội bộ, giữ nguyên kiểu dáng, bảng, và quan trọng nhất, các thẻ truy cập mà trình đọc màn hình dựa vào. Cố gắng tự làm với `python-docx` + `reportlab` sẽ yêu cầu bạn tự xây dựng các thẻ này thủ công—điều mà hầu hết các nhà phát triển muốn tránh.
+
+> **Pro tip:** Nếu bạn đang làm việc trong môi trường ảo (được khuyến nghị mạnh mẽ), hãy kích hoạt nó trước. Điều này giữ cho các phụ thuộc dự án của bạn được cô lập và làm cho các nâng cấp trong tương lai trở nên dễ dàng.
 
 ---
 
-## Bước 2: Tải Tài Liệu Word Nguồn
+## Bước 2 – Import thư viện và tải tài liệu nguồn của bạn
 
-Khi gói đã được cài đặt, dòng mã đầu tiên chỉ đơn giản là tải file `.docx`. Đây là bước bạn quyết định *tài liệu nào* sẽ được chuyển đổi.
+Bây giờ gói đã có trên máy của bạn, hãy đưa nó vào script và chỉ tới `.docx` bạn muốn chuyển đổi.
 
 ```python
+# Step 2: Import the Aspose.Words library
 import aspose.words as aw
 
-# Step 2: Load the source Word document
-doc = aw.Document("YOUR_DIRECTORY/input.docx")
+# Load the source Word document (replace with your actual path)
+doc_path = "YOUR_DIRECTORY/input.docx"
+document = aw.Document(doc_path)
 ```
 
-> **Tại sao điều này quan trọng:** `aw.Document` phân tích Open XML, xây dựng mô hình đối tượng nội bộ, và bảo tồn bất kỳ siêu dữ liệu truy cập nào (như style heading hoặc alt‑text ảnh). Nếu bỏ qua bước này và cố mở file hỏng, Aspose sẽ ném ra lỗi rõ ràng `FileNotFoundError` hoặc `InvalidFileFormatException`.
+*Why we import `aspose.words as aw`*: Bí danh ngắn `aw` giữ cho mã gọn gàng trong khi vẫn đủ rõ ràng cho những người đọc chưa quen với thư viện. Đối tượng `Document` đại diện cho toàn bộ tệp Word trong bộ nhớ, cho phép chúng ta truy cập nội dung, bố cục và siêu dữ liệu truy cập ẩn.
 
 ---
 
-## Bước 3: Cấu Hình Tùy Chọn Lưu PDF cho Khả Năng Truy Cập
+## Bước 3 – Cấu hình tùy chọn lưu PDF cho tuân thủ PDF/UA‑1
 
-Lưu PDF thông thường cũng hoạt động, nhưng không đảm bảo tuân thủ PDF/UA. Lớp `PdfSaveOptions` cho phép bạn chỉ định chính xác cách Aspose xử lý đầu ra.
+Phép màu biến một PDF thông thường thành **PDF có thể truy cập** nằm trong đối tượng `PdfSaveOptions`. Bằng cách đặt `pdf_a_compliance` thành `PdfCompliance.PDF_UA_1`, Aspose tự động chèn các thẻ cần thiết, thứ tự đọc logic và các chỗ giữ chỗ văn bản thay thế.
 
 ```python
-# Step 3: Create PDF save options and set the PDF/UA compliance level
-pdf_opts = aw.saving.PdfSaveOptions()
-pdf_opts.compliance = aw.saving.PdfCompliance.PDF_UA_1   # Use PDF_UA_2 for newer versions
-pdf_opts.save_format = aw.SaveFormat.PDF                # Optional, defaults to PDF
+# Step 3: Configure PDF save options to enforce PDF/UA‑1 compliance
+pdf_save_options = aw.saving.PdfSaveOptions()
+pdf_save_options.pdf_a_compliance = aw.saving.PdfCompliance.PDF_UA_1
 ```
 
-### Các tùy chọn thực sự làm gì
-
-| Tùy chọn | Hiệu quả |
-|----------|----------|
-| `compliance = PDF_UA_1` | Tạo PDF tuân thủ tiêu chuẩn PDF/UA‑1 (ISO 14289‑1). Bao gồm cấu trúc thẻ, thứ tự đọc đúng, và thông tin tài liệu bắt buộc. |
-| `PDF_UA_2` (có trong các phiên bản Aspose mới hơn) | Nhắm tới spec PDF/UA‑2 mới hơn, yêu cầu chặt chẽ hơn về cài đặt ngôn ngữ và mô tả thay thế. |
-| `save_format = PDF` | Rõ ràng chỉ định API muốn xuất ra PDF; bạn cũng có thể đặt thành XPS hoặc các định dạng khác, nhưng PDF là mặc định cho khả năng truy cập. |
-
-> **Cạm bẫy phổ biến:** Quên đặt `compliance`. File vẫn là PDF, nhưng trình đọc màn hình có thể bỏ qua các thẻ, làm mất khả năng truy cập.
+*Why this matters*: PDF/UA‑1 là tiêu chuẩn ISO cho các PDF có thể truy cập toàn cầu. Khi bạn bật nó, Aspose thực hiện công việc nặng—thêm các thẻ cấu trúc (như `<Sect>`, `<P>`, `<Table>`), đánh dấu hình ảnh với văn bản thay thế (nếu có trong tài liệu Word), và đảm bảo tài liệu có thể điều hướng bằng công nghệ hỗ trợ.
 
 ---
 
-## Bước 4: Lưu Tài Liệu dưới Dạng PDF Truy Cập Được
+## Bước 4 – Lưu tài liệu dưới dạng PDF có thể truy cập
 
-Bây giờ phép màu xảy ra. Với tài liệu đã được tải và các tùy chọn đã cấu hình, bạn ghi file ra đĩa.
+Với các tùy chọn đã được cấu hình, bước cuối cùng là một dòng lệnh ghi PDF ra đĩa.
 
 ```python
-# Step 4: Save the document as an accessible PDF file
-doc.save("YOUR_DIRECTORY/accessible.pdf", pdf_opts)
-print("✅ Accessible PDF created at YOUR_DIRECTORY/accessible.pdf")
+# Step 4: Save the document as an accessible PDF
+output_path = "YOUR_DIRECTORY/output.pdf"
+document.save(output_path, pdf_save_options)
+print(f"✅ Accessible PDF saved to {output_path}")
 ```
 
-Nếu bạn có phiên bản có giấy phép, watermark sẽ tự động biến mất. File `accessible.pdf` tạo ra sẽ chứa:
-
-* Cấu trúc thẻ phản ánh các heading trong Word.  
-* Văn bản thay thế cho mọi hình ảnh (nếu đã có trong nguồn).  
-* Ngôn ngữ tài liệu đúng (kế thừa từ Word).  
-
-Bạn có thể mở PDF trong Adobe Acrobat Pro → **File > Properties > Tags** để xác nhận sự hiện diện của các thẻ.
+*Why we use `document.save` with options*: Phương thức `save` tôn trọng `PdfSaveOptions` mà chúng ta truyền vào, đảm bảo tệp kết quả tuân thủ PDF/UA‑1. Bỏ qua các tùy chọn sẽ tạo ra một PDF có thể xem được hoàn hảo, nhưng sẽ thiếu thông tin cấu trúc cần cho trình đọc màn hình.
 
 ---
 
-## Bước 5: Xác Minh Tuân Thủ PDF/UA (Tùy Chọn nhưng Được Khuyến Khích)
+## Tổng quan trực quan (hình ảnh)
 
-Một bước kiểm tra nhanh sẽ giúp bạn tránh việc phải sửa lại tốn kém sau này. Công cụ **Preflight** của Adobe Acrobat hoặc **PDF Accessibility Checker (PAC)** miễn phí có thể quét file.
+![lưu đồ tạo pdf có thể truy cập](image.png "lưu đồ tạo pdf có thể truy cập")
 
-```python
-# Optional: Run a quick compliance check using Aspose's built‑in validator (requires Aspose.PDF)
-# Note: This requires the separate Aspose.PDF package.
-# from aspose.pdf import Document as PdfDocument
-# pdf_doc = PdfDocument("YOUR_DIRECTORY/accessible.pdf")
-# validator = pdf_doc.validate(aw.saving.PdfCompliance.PDF_UA_1)
-# print("Validation result:", validator.is_valid)
-```
-
-Nếu bạn không có Aspose.PDF, mở PDF trong Acrobat và tìm **“PDF/UA – Pass”** trong báo cáo Preflight.
+*Alt text*: "Sơ đồ cho thấy luồng từ việc cài đặt Aspose.Words, tải DOCX, cấu hình các tùy chọn PDF/UA‑1, và lưu PDF có thể truy cập."
 
 ---
 
-## Câu Hỏi Thường Gặp (FAQ)
+## Bước 5 – Xác minh khả năng truy cập của PDF (tùy chọn nhưng được khuyến nghị)
 
-### Tôi có thể **chuyển Word sang PDF** mà không mất bookmark hiện có không?
-
-Có. Miễn là file Word chứa các style heading và mục bookmark đúng, Aspose.Words sẽ tự động chuyển chúng thành thẻ PDF. Không cần mã bổ sung.
-
-### Nếu tài liệu Word của tôi dùng font tùy chỉnh chưa được cài trên server thì sao?
-
-Aspose.Words sẽ nhúng các font thiếu nếu bạn bật `pdf_opts.embed_full_fonts = True`. Điều này ngăn cảnh báo “font substitution” có thể làm hỏng bố cục và khả năng truy cập.
+Nếu bạn muốn chắc chắn 100 % rằng đầu ra đáp ứng tiêu chuẩn, bạn có thể chạy kiểm tra nhanh với công cụ **PDF Accessibility Checker (PAC)** miễn phí hoặc mở PDF trong Adobe Acrobat và xem bảng **Tags**.
 
 ```python
-pdf_opts.embed_full_fonts = True
+# Optional: Quick tag inspection using Aspose.Words (requires additional license)
+tags = document.get_child_nodes(aw.NodeType.TAG, True)
+print(f"Document contains {len(tags)} accessibility tags.")
 ```
 
-### PDF/UA‑2 có được hỗ trợ trên mọi nền tảng không?
-
-PDF/UA‑2 là spec mới, và dù Aspose.Words hỗ trợ, một số trình đọc PDF cũ vẫn chỉ nhận ra PDF/UA‑1. Nếu bạn hướng tới đối tượng rộng, hãy dùng `PDF_UA_1` trừ khi bạn chắc chắn các công cụ downstream hỗ trợ phiên bản mới hơn.
+*Why verify*: Mặc dù Aspose xử lý hầu hết các trường hợp tự động, các tệp Word phức tạp với đồ họa tùy chỉnh hoặc bảng không chuẩn đôi khi cần điều chỉnh văn bản thay thế thủ công. Một đếm thẻ nhanh sẽ cho bạn sự tự tin trước khi phát hành tệp cho người dùng cuối.
 
 ---
 
-## Script Đầy Đủ – Giải Pháp Một File
+## Các biến thể phổ biến & trường hợp góc cạnh
 
-Dưới đây là script sẵn sàng chạy, gói gọn mọi thứ chúng ta đã thảo luận. Lưu lại dưới tên `create_accessible_pdf.py` và chạy `python create_accessible_pdf.py`.
+| Situation | What to Change | Reason |
+|-----------|----------------|--------|
+| **Nhiều tệp DOCX** | Lặp qua danh sách các đường dẫn đầu vào và gọi `document.save` trong vòng lặp. | Xử lý hàng loạt tiết kiệm thời gian khi bạn có một thư mục đầy báo cáo. |
+| **Tài liệu lớn (>100 MB)** | Tăng `memory_limit` trong `PdfSaveOptions` hoặc sử dụng `Document.save` với một stream. | Ngăn ngừa sự cố hết bộ nhớ trên máy có RAM thấp. |
+| **Phông chữ tùy chỉnh không được nhúng** | Đặt `pdf_save_options.embed_full_fonts = True`. | Đảm bảo PDF trông giống nhau trên mọi thiết bị. |
+| **Cần PDF/A‑2b thay vì PDF/UA‑1** | Sử dụng `PdfCompliance.PDF_A_2B`. | Một số cơ quan quản lý yêu cầu PDF/A‑2b để lưu trữ. |
+| **Chạy trên Linux mà không có runtime .NET** | Cài đặt runtime **.NET Core** và đặt biến môi trường `ASPOSE_Words_LICENSE`. | Aspose.Words for Python‑via‑.NET phụ thuộc vào .NET; runtime phải có sẵn. |
+
+---
+
+## Mẹo chuyên nghiệp & Những cạm bẫy cần lưu ý
+
+- **Pro tip:** Nếu tệp Word nguồn của bạn đã chứa văn bản thay thế cho hình ảnh, Aspose sẽ tự động giữ lại. Nếu không, hãy xem xét thêm `Alt Text` mô tả trong Word trước khi chuyển đổi.
+- **Watch out for:** Các bảng rất phức tạp có thể mất một số độ chính xác bố cục. Kiểm tra một mẫu đại diện trước khi chuyển đổi hàng loạt.
+- **Performance hint:** Việc tái sử dụng một thể hiện `PdfSaveOptions` duy nhất cho nhiều lần lưu giảm tải tạo đối tượng.
+
+---
+
+## Script đầy đủ – Sẵn sàng sao chép & dán
+
+Dưới đây là script hoàn chỉnh, có thể chạy được, bao gồm mọi bước đã thảo luận. Chỉ cần thay thế các đường dẫn placeholder và bạn đã sẵn sàng.
 
 ```python
+# ------------------------------------------------------------
 # create_accessible_pdf.py
-# -------------------------------------------------
-# Purpose: Demonstrates how to create accessible PDF
-#          from a Word document using Aspose.Words.
-# -------------------------------------------------
+# ------------------------------------------------------------
+# Author: Your Name
+# Date:   2026‑03‑01
+# Purpose: Convert a DOCX to an accessible PDF/UA‑1 using Aspose.Words
+# ------------------------------------------------------------
 
 import aspose.words as aw
 import os
 
-def main():
-    # Adjust these paths to match your environment
-    input_path = os.path.join("YOUR_DIRECTORY", "input.docx")
-    output_path = os.path.join("YOUR_DIRECTORY", "accessible.pdf")
+def convert_to_accessible_pdf(input_docx: str, output_pdf: str) -> None:
+    """
+    Convert a .docx file to an accessible PDF/UA‑1.
 
-    # 1️⃣ Load the Word document
-    doc = aw.Document(input_path)
+    Args:
+        input_docx (str): Full path to the source Word document.
+        output_pdf (str): Full path where the PDF will be saved.
+    """
+    # Load the document
+    document = aw.Document(input_docx)
 
-    # 2️⃣ Configure PDF save options for accessibility
-    pdf_opts = aw.saving.PdfSaveOptions()
-    pdf_opts.compliance = aw.saving.PdfCompliance.PDF_UA_1   # PDF/UA‑1 compliance
-    pdf_opts.save_format = aw.SaveFormat.PDF                # Explicit, but optional
-    pdf_opts.embed_full_fonts = True                        # Ensure fonts are embedded
+    # Configure PDF/UA‑1 compliance
+    pdf_options = aw.saving.PdfSaveOptions()
+    pdf_options.pdf_a_compliance = aw.saving.PdfCompliance.PDF_UA_1
 
-    # 3️⃣ Save as an accessible PDF
-    doc.save(output_path, pdf_opts)
+    # Save the accessible PDF
+    document.save(output_pdf, pdf_options)
 
-    print(f"✅ Accessible PDF created at {output_path}")
+    print(f"✅ Accessible PDF created: {output_pdf}")
 
 if __name__ == "__main__":
-    main()
+    # Example usage – adjust paths to your environment
+    INPUT_PATH = os.path.join("YOUR_DIRECTORY", "input.docx")
+    OUTPUT_PATH = os.path.join("YOUR_DIRECTORY", "output.pdf")
+
+    convert_to_accessible_pdf(INPUT_PATH, OUTPUT_PATH)
 ```
 
-**Kết quả mong đợi:** Sau khi thực thi, bạn sẽ thấy dòng xác nhận được in ra console, và file `accessible.pdf` sẽ xuất hiện trong `YOUR_DIRECTORY`. Mở nó trong Acrobat, bạn sẽ thấy “Tagged PDF” dưới **File > Properties > Description** và dấu kiểm xanh trong báo cáo **Preflight** cho tuân thủ PDF/UA.
+Chạy nó với:
+
+```bash
+python create_accessible_pdf.py
+```
+
+Bạn sẽ thấy dấu kiểm màu xanh lá xác nhận tệp đã được ghi.
 
 ---
 
-## Các Trường Hợp Cạnh Thường Gặp & Cách Xử Lý
+## Kết luận
 
-| Tình huống | Cách xử lý |
-|-----------|------------|
-| **Thiếu hình ảnh** trong file Word nguồn | Aspose.Words sẽ bỏ qua chúng; nếu cần dấu hiệu hình ảnh cho trình đọc màn hình, hãy thêm hình ảnh placeholder có alt‑text. |
-| **Bảng phức tạp** có ô hợp nhất | Đảm bảo bảng được đánh dấu là **table** trong Word (không chỉ là chuỗi đoạn văn). Chuyển đổi PDF chỉ giữ cấu trúc bảng khi ngữ nghĩa bảng trong Word đúng. |
-| **Tài liệu lớn (>100 MB)** | Xem xét stream PDF ra đĩa bằng `pdf_opts.save_format = aw.SaveFormat.PDF` và `doc.save(output_stream, pdf_opts)` để giảm áp lực bộ nhớ. |
-| **Chạy trên Linux mà không có font Microsoft** | Cài gói `msttcorefonts` hoặc nhúng font qua `pdf_opts.embed_full_fonts = True` để tránh dịch chuyển bố cục. |
-
----
-
-## Kết Luận
-
-Chúng ta vừa đi qua toàn bộ quy trình **tạo PDF truy cập được**
-
-
-## Bạn Nên Học Gì Tiếp Theo?
-
-
-Các hướng dẫn sau đây đề cập đến các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật đã trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm ví dụ mã hoàn chỉnh cùng giải thích từng bước để giúp bạn làm chủ các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
-
-- [Create Accessible PDF from Word – Complete Guide](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
-- [Create Accessible PDF – Step‑by‑Step Guide for PDF/UA Compliance](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
-- [How to Convert Word to PDF Using Aspose.Words for Java](/words/english/java/document-converting/using-document-converting/)
+Chúng tôi vừa **tạo các tệp PDF có thể truy cập** từ tài liệu Word bằng Python, bao phủ mọi thứ từ cài đặt đến xác minh. Script cho thấy cách sạch sẽ để **convert word to pdf**, **save docx as pdf**, và **export docx to pdf** trong khi đáp ứng PDF
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

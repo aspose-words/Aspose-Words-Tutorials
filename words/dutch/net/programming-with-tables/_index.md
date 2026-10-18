@@ -47,7 +47,7 @@ Door deze tutorials te volgen, kunt u de tabelmanipulatiefuncties van Aspose.Wor
 | [Krijg een zwevende tafelpositie](./get-floating-table-position/) | Leer hoe u zwevende tabelposities in Word-documenten kunt verkrijgen met Aspose.Words voor .NET. Deze gedetailleerde, stapsgewijze handleiding leidt u door alles wat u moet weten. |
 | [Zwevende tafelpositie](./floating-table-position/) | Leer hoe u de zwevende positie van tabellen in Word-documenten kunt bepalen met Aspose.Words voor .NET met onze gedetailleerde, stapsgewijze handleiding. |
 | [Relatieve horizontale of verticale positie instellen](./set-relative-horizontal-or-vertical-position/) Leer hoe u relatieve horizontale en verticale posities voor tabellen in Word-documenten instelt met Aspose.Words voor .NET met behulp van deze stapsgewijze handleiding. |
-
+| [Rij verbergen in tabel met C# – Eenvoudige gids voor het verwijderen van tabelrijen](./hide-row-in-table-with-c-simple-guide-to-removing-table-rows/) | Leer hoe u rijen in een tabel kunt verbergen met Aspose.Words voor .NET en C# in deze eenvoudige stap‑voor‑stap gids. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

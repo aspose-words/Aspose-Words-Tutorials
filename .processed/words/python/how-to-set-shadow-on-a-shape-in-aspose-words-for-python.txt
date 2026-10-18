@@ -1,0 +1,7 @@
+Title: How to set shadow on a shape in Aspose.Words for Python
+Slug: how-to-set-shadow-on-a-shape-in-aspose-words-for-python
+Category: images-shapes
+ProcessedDate: 2026-09-27T23:03:50.853540
+SourceRepo: AI Search API
+Keywords: how to set shadow, add shadow to shape, apply shadow effect, set shadow color, how to add shadow
+PRNumber: 291

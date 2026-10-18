@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Hướng dẫn này trình bày cách tạo tài liệu Word, chèn biểu đồ cột, thêm chuỗi dữ liệu tùy chỉnh và định nghĩa kích thước phông chữ và màu sắc mặc định cho nhãn dữ liệu được áp dụng đồng nhất cho tất cả các chuỗi trong biểu đồ.
+//ExStepSummary:0: Tạo một tài liệu Word mới trống và một DocumentBuilder để chỉnh sửa nó.
+//ExStepSummary:1: Chèn một biểu đồ cột kích thước 500×300 vào tài liệu và lấy đối tượng Chart của nó.
+//ExStepSummary:2: Xóa chuỗi mẫu mặc định mà Aspose.Words thêm vào biểu đồ mới.
+//ExStepSummary:3: Xác định nhãn danh mục và thêm hai chuỗi dữ liệu (Item Alpha và Item Beta) cùng giá trị của chúng vào biểu đồ.
+//ExStepSummary:4: Đặt kích thước phông chữ và màu sắc cơ bản sẽ được áp dụng cho tất cả các nhãn dữ liệu.
+//ExStepSummary:5: Bật nhãn dữ liệu cho mỗi chuỗi, hiển thị giá trị số và áp dụng kích thước phông chữ và màu sắc đã định trước.
+//ExStepSummary:6: Lưu tài liệu dưới dạng tệp .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document document = new Document();
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:1-
+Shape chartContainer = builder.InsertChart(ChartType.Column, 500, 300);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+
+//ExStep:3-
+string[] periods = { "Period 1", "Period 2", "Period 3", "Period 4" };
+chart.Series.Add("Item Alpha", periods, new double[] { 120, 150, 170, 130 });
+chart.Series.Add("Item Beta", periods, new double[] { 80, 110, 140, 100 });
+
+//ExStep:4-
+const float labelFontSize = 10f;
+Color labelFontColor = Color.White;
+
+//ExStep:5-
+foreach (ChartSeries series in chart.Series)
+{
+    series.HasDataLabels = true;
+    series.DataLabels.ShowValue = true;
+    series.DataLabels.Font.Size = labelFontSize;
+    series.DataLabels.Font.Color = labelFontColor;
+}
+
+//ExStep:6-
+document.Save("UniformLabelChart.docx");
+//ExEnd

@@ -1,0 +1,7 @@
+Title: How to group shapes in Word with Aspose.Words for C#
+Slug: how-to-group-shapes-in-word-with-aspose-words-for-c
+Category: programming-with-shapes
+ProcessedDate: 2026-09-21T15:45:05.222913
+SourceRepo: AI Search API
+Keywords: group shapes in word
+PRNumber: 282

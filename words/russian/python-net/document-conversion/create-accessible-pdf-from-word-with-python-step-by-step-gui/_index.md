@@ -1,54 +1,27 @@
 ---
 category: general
-date: 2026-06-05
-description: Создайте доступный PDF с помощью Python. Узнайте, как конвертировать
-  Word в PDF и сохранить документ как доступный PDF с Aspose.Words за считанные минуты.
+date: 2026-03-01
+description: Создайте доступный PDF из документа Word с помощью Python и Aspose.Words.
+  Узнайте, как преобразовать Word в PDF, сохранить docx как PDF и обеспечить соответствие
+  стандарту PDF/UA‑1.
 draft: false
 keywords:
 - create accessible pdf
 - convert word to pdf
-- save document as accessible pdf
+- save docx as pdf
+- export docx to pdf
+- python convert docx pdf
 language: ru
-og_description: Создавайте доступные PDF‑файлы из документов Word с помощью Python.
-  Этот учебник показывает, как конвертировать Word в PDF и сохранить документ как
-  доступный PDF с Aspose.Words.
-og_title: Создание доступного PDF из Word с помощью Python — Полное руководство
-schemas:
-- author: Aspose
-  dateModified: '2026-06-05'
-  description: Create accessible PDF using Python. Learn how to convert Word to PDF
-    and save document as accessible PDF with Aspose.Words in minutes.
-  headline: Create Accessible PDF from Word with Python – Step‑by‑Step Guide
-  type: TechArticle
-- description: Create accessible PDF using Python. Learn how to convert Word to PDF
-    and save document as accessible PDF with Aspose.Words in minutes.
-  name: Create Accessible PDF from Word with Python – Step‑by‑Step Guide
-  steps:
-  - name: What the options really do
-    text: '| Option | Effect | |--------|--------| | `compliance = PDF_UA_1` | Generates
-      a PDF that conforms to the PDF/UA‑1 standard (ISO 14289‑1). This includes tagged
-      structure, correct reading order, and mandatory document information. | | `PDF_UA_2`
-      (available in newer Aspose releases) | Targets the newer'
-  - name: Can I **convert Word to PDF** without losing existing bookmarks?
-    text: Yes. As long as the Word file contains proper heading styles and bookmark
-      entries, Aspose.Words will translate them into PDF tags automatically. No extra
-      code needed.
-  - name: What if my Word document uses custom fonts that aren’t installed on the
-      server?
-    text: Aspose.Words will embed the missing fonts if you enable `pdf_opts.embed_full_fonts
-      = True`. This prevents “font substitution” warnings that can break layout and
-      accessibility.
-  - name: Is PDF/UA‑2 supported on all platforms?
-    text: PDF/UA‑2 is a newer spec, and while Aspose.Words supports it, some older
-      PDF readers still only recognize PDF/UA‑1. If you’re targeting a broad audience,
-      stick with `PDF_UA_1` unless you know the downstream tools support the newer
-      version.
-  type: HowTo
+og_description: Создайте доступный PDF из документа Word с помощью Python. Это руководство
+  показывает, как конвертировать Word в PDF, сохранить docx как PDF и соответствовать
+  стандарту PDF/UA‑1.
+og_title: Создание доступного PDF из Word с помощью Python – пошаговое руководство
 tags:
+- PDF
 - Python
-- PDF accessibility
 - Aspose.Words
-title: Создание доступного PDF из Word с помощью Python – пошаговое руководство
+- Accessibility
+title: Создание доступного PDF из Word с помощью Python — пошаговое руководство
 url: /ru/python/document-conversion/create-accessible-pdf-from-word-with-python-step-by-step-gui/
 ---
 
@@ -56,214 +29,171 @@ url: /ru/python/document-conversion/create-accessible-pdf-from-word-with-python-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Создать доступный PDF из Word с помощью Python – Полное руководство
+# Создание доступного PDF из Word с помощью Python – Пошаговое руководство
 
-Когда‑нибудь вам нужно было **создать доступный PDF** из документа Word, но вы не были уверены, какая библиотека сохранит теги, альтернативный текст и порядок чтения? Вы не одиноки. Во многих проектах — будь то государственные формы, e‑learning модули или корпоративные отчёты — доступность не является опцией, а требованием соответствия.
+Когда‑нибудь вам нужно было **create accessible pdf** из файла Word, но вы не были уверены, какая библиотека сохранит ваш документ готовым к соответствию требованиям? Вы не одиноки. В этом руководстве мы пройдем процесс преобразования `.docx` в документ **PDF/UA‑1** с помощью Aspose.Words for Python, чтобы вы могли **convert word to pdf**, **save docx as pdf**, и **export docx to pdf** без потери доступности.
 
-Хорошая новость? С несколькими строками кода на Python и Aspose.Words вы можете **конвертировать Word в PDF**, сохраняя каждую функцию доступности, а затем **сохранить документ как доступный PDF** в одной плавной операции. Никакой дополнительной пост‑обработки, никаких ручных вставок тегов — просто чистый код, который делает всю тяжёлую работу за вас.
+Мы расскажем обо всём, что вам понадобится: однострочная команда установки, почему важен PDF/UA‑1, как настроить параметры сохранения и быстрый sanity‑check, чтобы убедиться, что полученный файл действительно является доступным PDF. К концу вы получите переиспользуемый скрипт, который можно внедрить в любой конвейер автоматизации.
 
-В этом руководстве вы узнаете:
+## Что вы узнаете
 
-* Как установить пакет Aspose.Words для Python.  
-* Точный код, необходимый для загрузки `.docx`, настройки соответствия PDF/UA и записи результата.  
-* Почему каждая опция важна для доступности и что может пойти не так, если её пропустить.  
-* Быстрые способы проверить, действительно ли полученный PDF доступен.
+- Установить и импортировать библиотеку Aspose.Words для Python.  
+- Загрузить документ Word (`.docx`) с диска.  
+- Настроить `PdfSaveOptions` для обеспечения соответствия PDF/UA‑1.  
+- Сохранить файл как доступный PDF.  
+- Опционально: проверить теги доступности PDF.
 
-К концу вы получите готовый к запуску скрипт, который создаёт файл, соответствующий PDF/UA‑1 (или PDF/UA‑2), и поймёте «почему» за каждой строкой кода.
-
----
-
-## Что вам понадобится перед началом
-
-| Требование | Почему это важно |
-|------------|------------------|
-| Python 3.8 или новее | Aspose.Words for Python 3 поддерживает версии 3.8+; в более старых версиях отсутствуют подсказки типов. |
-| `pip` доступ для установки пакетов | Вы загрузите библиотеку из PyPI. |
-| Действительная лицензия Aspose.Words (необязательно, но удаляет водяной знак оценки) | Бесплатная пробная версия работает, но лицензия позволяет генерировать неограниченное количество PDF. |
-| Пример файла Word (`input.docx`) с встроенными функциями доступности (заголовки, alt‑text, подписи таблиц) | Конверсия может сохранить только то, что уже присутствует. |
-
-Если у вас уже есть виртуальное окружение, отлично — активируйте его. Если нет, выполните:
-
-```bash
-python -m venv venv
-source venv/bin/activate   # on Windows: venv\Scripts\activate
-```
-
-Теперь вы готовы установить библиотеку.
+Не требуется предварительное знание Aspose; достаточно рабочей среды Python 3 и файла `.docx`, который вы хотите опубликовать.
 
 ---
 
-## Шаг 1: Установить Aspose.Words для Python
+## Шаг 1 – Установка Aspose.Words для Python (первый барьер)
 
-Единственная зависимость, которая вам нужна, — официальный пакет Aspose.Words. Установите его с помощью `pip`:
+Прежде чем писать код, нам нужна библиотека, которая действительно выполняет тяжёлую работу. Aspose.Words for Python‑via‑.NET распространяется через `pip`, поэтому одной командой вы получаете последнюю стабильную версию.
 
 ```bash
 pip install aspose-words
 ```
 
-> **Pro tip:** Зафиксируйте версию (`aspose-words==23.9`), чтобы избежать неожиданных несовместимых изменений позже.
+*Почему этот шаг важен*: Aspose.Words обрабатывает преобразование Word‑в‑PDF внутри, сохраняя стили, таблицы и, что самое главное, теги доступности, от которых зависят скрин‑ридеры. Попытка собрать всё самостоятельно с помощью `python-docx` + `reportlab` потребовала бы вручную воссоздавать эти теги — то, чего большинство разработчиков хотят избежать.
+
+> **Совет:** Если вы работаете в виртуальном окружении (настоятельно рекомендуется), сначала активируйте его. Это изолирует зависимости проекта и делает будущие обновления безболезненными.
 
 ---
 
-## Шаг 2: Загрузить исходный документ Word
+## Шаг 2 – Импорт библиотеки и загрузка исходного документа
 
-После установки пакета первая строка кода просто загружает `.docx`. На этом этапе вы решаете, *какой* документ будете конвертировать.
+Теперь, когда пакет установлен на вашем компьютере, давайте подключим его к скрипту и укажем путь к `.docx`, который нужно преобразовать.
 
 ```python
+# Step 2: Import the Aspose.Words library
 import aspose.words as aw
 
-# Step 2: Load the source Word document
-doc = aw.Document("YOUR_DIRECTORY/input.docx")
+# Load the source Word document (replace with your actual path)
+doc_path = "YOUR_DIRECTORY/input.docx"
+document = aw.Document(doc_path)
 ```
 
-> **Почему это важно:** `aw.Document` разбирает Open XML, строит внутреннюю модель объектов и сохраняет любые метаданные доступности (например, стили заголовков или alt‑text изображений). Если пропустить этот шаг и попытаться открыть повреждённый файл, Aspose выдаст понятный `FileNotFoundError` или `InvalidFileFormatException`.
+*Почему мы импортируем `aspose.words as aw`*: Краткий псевдоним `aw` делает код аккуратным, оставаясь при этом достаточно явным для читателей, незнакомых с библиотекой. Объект `Document` представляет весь файл Word в памяти, предоставляя доступ к содержимому, разметке и скрытым метаданным доступности.
 
 ---
 
-## Шаг 3: Настроить параметры сохранения PDF для доступности
+## Шаг 3 – Настройка параметров сохранения PDF для соответствия PDF/UA‑1
 
-Обычное сохранение в PDF работает, но не гарантирует соответствие PDF/UA. Класс `PdfSaveOptions` позволяет точно указать Aspose, как обрабатывать вывод.
+Магия, превращающая обычный PDF в **accessible PDF**, живёт в объекте `PdfSaveOptions`. Установив `pdf_a_compliance` в `PdfCompliance.PDF_UA_1`, Aspose автоматически вставляет необходимые теги, логический порядок чтения и заполняет альтернативный текст.
 
 ```python
-# Step 3: Create PDF save options and set the PDF/UA compliance level
-pdf_opts = aw.saving.PdfSaveOptions()
-pdf_opts.compliance = aw.saving.PdfCompliance.PDF_UA_1   # Use PDF_UA_2 for newer versions
-pdf_opts.save_format = aw.SaveFormat.PDF                # Optional, defaults to PDF
+# Step 3: Configure PDF save options to enforce PDF/UA‑1 compliance
+pdf_save_options = aw.saving.PdfSaveOptions()
+pdf_save_options.pdf_a_compliance = aw.saving.PdfCompliance.PDF_UA_1
 ```
 
-### Что действительно делают эти опции
-
-| Опция | Эффект |
-|-------|--------|
-| `compliance = PDF_UA_1` | Генерирует PDF, соответствующий стандарту PDF/UA‑1 (ISO 14289‑1). Включает тегированную структуру, правильный порядок чтения и обязательную информацию о документе. |
-| `PDF_UA_2` (доступно в более новых версиях Aspose) | Ориентировано на более новый стандарт PDF/UA‑2, который добавляет более строгие требования к настройкам языка и альтернативным описаниям. |
-| `save_format = PDF` | Явно указывает API, что нужен PDF; можно также задать XPS или другие форматы, но PDF — значение по умолчанию для доступности. |
-
-> **Распространённая ошибка:** Не установить `compliance`. Файл всё равно будет PDF, но скрин‑ридеры могут игнорировать теги, нарушая доступность.
+*Почему это важно*: PDF/UA‑1 — это ISO‑стандарт для универсально доступных PDF. При его включении Aspose берёт на себя всю тяжёлую работу — добавляет структурные теги (например `<Sect>`, `<P>`, `<Table>`), помечает изображения alt‑текстом (если он присутствует в документе Word) и гарантирует навигацию документа вспомогательными технологиями.
 
 ---
 
-## Шаг 4: Сохранить документ как доступный PDF
+## Шаг 4 – Сохранение документа как доступного PDF
 
-Теперь происходит магия. С загруженным документом и настроенными параметрами вы записываете файл на диск.
+После настройки параметров последний шаг — однострочная команда, записывающая PDF на диск.
 
 ```python
-# Step 4: Save the document as an accessible PDF file
-doc.save("YOUR_DIRECTORY/accessible.pdf", pdf_opts)
-print("✅ Accessible PDF created at YOUR_DIRECTORY/accessible.pdf")
+# Step 4: Save the document as an accessible PDF
+output_path = "YOUR_DIRECTORY/output.pdf"
+document.save(output_path, pdf_save_options)
+print(f"✅ Accessible PDF saved to {output_path}")
 ```
 
-Если у вас лицензированная версия, водяной знак исчезнет автоматически. Полученный `accessible.pdf` будет содержать:
+*Почему мы используем `document.save` с параметрами*: Метод `save` учитывает переданные `PdfSaveOptions`, гарантируя, что полученный файл соответствует PDF/UA‑1. Если параметры опустить, получится полностью просматриваемый PDF, но без структурной информации, необходимой скрин‑ридерам.
 
-* Тегированную структуру, отражающую заголовки Word.  
-* Alt‑text для каждого изображения (если он был в исходном файле).  
-* Корректный язык документа (унаследованный из Word).  
+## Visual Overview (image)
 
-Вы можете открыть PDF в Adobe Acrobat Pro → **File > Properties > Tags**, чтобы подтвердить наличие тегов.
+![create accessible pdf flowchart](image.png "create accessible pdf flowchart")
 
----
+*Alt text*: "Diagram showing the flow from installing Aspose.Words, loading a DOCX, configuring PDF/UA‑1 options, and saving an accessible PDF."
 
-## Шаг 5: Проверить соответствие PDF/UA (Опционально, но рекомендуется)
+## Шаг 5 – Проверка доступности PDF (опционально, но рекомендуется)
 
-Быстрый шаг проверки спасёт вас от дорогой переделки позже. Инструмент **Preflight** в Adobe Acrobat или бесплатный **PDF Accessibility Checker (PAC)** могут просканировать файл.
+Если вы хотите быть на 100 % уверены, что результат соответствует стандарту, можно быстро проверить его с помощью бесплатного **PDF Accessibility Checker (PAC)** или открыть PDF в Adobe Acrobat и посмотреть панель **Tags**.
 
 ```python
-# Optional: Run a quick compliance check using Aspose's built‑in validator (requires Aspose.PDF)
-# Note: This requires the separate Aspose.PDF package.
-# from aspose.pdf import Document as PdfDocument
-# pdf_doc = PdfDocument("YOUR_DIRECTORY/accessible.pdf")
-# validator = pdf_doc.validate(aw.saving.PdfCompliance.PDF_UA_1)
-# print("Validation result:", validator.is_valid)
+# Optional: Quick tag inspection using Aspose.Words (requires additional license)
+tags = document.get_child_nodes(aw.NodeType.TAG, True)
+print(f"Document contains {len(tags)} accessibility tags.")
 ```
 
-Если у вас нет Aspose.PDF, откройте PDF в Acrobat и ищите **«PDF/UA – Pass»** в отчёте Preflight.
+*Почему проверка важна*: Хотя Aspose автоматически обрабатывает большинство случаев, сложные файлы Word с пользовательской графикой или нестандартными таблицами иногда требуют ручных правок alt‑текста. Быстрый подсчёт тегов даст уверенность перед тем, как отправлять файл конечным пользователям.
 
----
+## Common Variations & Edge Cases
 
-## Часто задаваемые вопросы (FAQ)
+| Ситуация | Что изменить | Причина |
+|-----------|----------------|--------|
+| **Несколько файлов DOCX** | Пройтись по списку путей к входным файлам и вызвать `document.save` внутри цикла. | Пакетная обработка экономит время, когда у вас есть папка, полная отчётов. |
+| **Большие документы (>100 MB)** | Увеличить `memory_limit` в `PdfSaveOptions` или использовать `Document.save` с потоком. | Предотвращает сбои из‑за нехватки памяти на машинах с небольшим ОЗУ. |
+| **Шрифт не встроен** | Установить `pdf_save_options.embed_full_fonts = True`. | Гарантирует одинаковый вид PDF на любом устройстве. |
+| **Нужен PDF/A‑2b вместо PDF/UA‑1** | Использовать `PdfCompliance.PDF_A_2B`. | Некоторые регуляторные органы требуют PDF/A‑2b для архивирования. |
+| **Запуск на Linux без .NET runtime** | Установить runtime **.NET Core** и задать переменную окружения `ASPOSE_Words_LICENSE`. | Aspose.Words for Python‑via‑.NET зависит от .NET; runtime должен быть установлен. |
 
-### Могу ли я **конвертировать Word в PDF** без потери существующих закладок?
+## Pro Tips & Pitfalls to Watch Out For
 
-Да. При условии, что в файле Word присутствуют правильные стили заголовков и записи закладок, Aspose.Words автоматически переводит их в теги PDF. Дополнительный код не требуется.
+- **Совет:** Если ваш исходный файл Word уже содержит alt‑текст для изображений, Aspose сохраняет его автоматически. Если нет, подумайте о добавлении описательного `Alt Text` в Word перед конвертацией.  
+- **Обратите внимание:** Очень сложные таблицы могут потерять часть точности макета. Протестируйте представительный образец перед массовой конвертацией.  
+- **Подсказка по производительности:** Повторное использование одного экземпляра `PdfSaveOptions` при множественных сохранениях уменьшает накладные расходы на создание объектов.  
 
-### Что делать, если мой документ Word использует пользовательские шрифты, которые не установлены на сервере?
+## Full Script – Ready to Copy & Paste
 
-Aspose.Words встроит недостающие шрифты, если вы включите `pdf_opts.embed_full_fonts = True`. Это предотвращает предупреждения о «замене шрифтов», которые могут нарушить макет и доступность.
-
-```python
-pdf_opts.embed_full_fonts = True
-```
-
-### Поддерживается ли PDF/UA‑2 на всех платформах?
-
-PDF/UA‑2 — более новый стандарт, и хотя Aspose.Words его поддерживает, некоторые старые PDF‑читалки всё ещё распознают только PDF/UA‑1. Если ваша аудитория широкая, придерживайтесь `PDF_UA_1`, если только вы не уверены, что downstream‑инструменты поддерживают новую версию.
-
----
-
-## Полный скрипт – решение в одном файле
-
-Ниже готовый к запуску скрипт, который объединяет всё, о чём мы говорили. Сохраните его как `create_accessible_pdf.py` и запустите `python create_accessible_pdf.py`.
+Ниже приведён полностью готовый к запуску скрипт, включающий все обсуждённые шаги. Просто замените пути‑заполнители, и вы готовы к работе.
 
 ```python
+# ------------------------------------------------------------
 # create_accessible_pdf.py
-# -------------------------------------------------
-# Purpose: Demonstrates how to create accessible PDF
-#          from a Word document using Aspose.Words.
-# -------------------------------------------------
+# ------------------------------------------------------------
+# Author: Your Name
+# Date:   2026‑03‑01
+# Purpose: Convert a DOCX to an accessible PDF/UA‑1 using Aspose.Words
+# ------------------------------------------------------------
 
 import aspose.words as aw
 import os
 
-def main():
-    # Adjust these paths to match your environment
-    input_path = os.path.join("YOUR_DIRECTORY", "input.docx")
-    output_path = os.path.join("YOUR_DIRECTORY", "accessible.pdf")
+def convert_to_accessible_pdf(input_docx: str, output_pdf: str) -> None:
+    """
+    Convert a .docx file to an accessible PDF/UA‑1.
 
-    # 1️⃣ Load the Word document
-    doc = aw.Document(input_path)
+    Args:
+        input_docx (str): Full path to the source Word document.
+        output_pdf (str): Full path where the PDF will be saved.
+    """
+    # Load the document
+    document = aw.Document(input_docx)
 
-    # 2️⃣ Configure PDF save options for accessibility
-    pdf_opts = aw.saving.PdfSaveOptions()
-    pdf_opts.compliance = aw.saving.PdfCompliance.PDF_UA_1   # PDF/UA‑1 compliance
-    pdf_opts.save_format = aw.SaveFormat.PDF                # Explicit, but optional
-    pdf_opts.embed_full_fonts = True                        # Ensure fonts are embedded
+    # Configure PDF/UA‑1 compliance
+    pdf_options = aw.saving.PdfSaveOptions()
+    pdf_options.pdf_a_compliance = aw.saving.PdfCompliance.PDF_UA_1
 
-    # 3️⃣ Save as an accessible PDF
-    doc.save(output_path, pdf_opts)
+    # Save the accessible PDF
+    document.save(output_pdf, pdf_options)
 
-    print(f"✅ Accessible PDF created at {output_path}")
+    print(f"✅ Accessible PDF created: {output_pdf}")
 
 if __name__ == "__main__":
-    main()
+    # Example usage – adjust paths to your environment
+    INPUT_PATH = os.path.join("YOUR_DIRECTORY", "input.docx")
+    OUTPUT_PATH = os.path.join("YOUR_DIRECTORY", "output.pdf")
+
+    convert_to_accessible_pdf(INPUT_PATH, OUTPUT_PATH)
 ```
 
-**Ожидаемый вывод:** После выполнения вы увидите строку подтверждения в консоли, а файл `accessible.pdf` появится в `YOUR_DIRECTORY`. Открыв его в Acrobat, вы должны увидеть «Tagged PDF» в **File > Properties > Description** и зелёную галочку в отчёте **Preflight** о соответствии PDF/UA.
+Запустите его с помощью:
 
----
+```bash
+python create_accessible_pdf.py
+```
 
-## Общие граничные случаи и как с ними справиться
+Вы должны увидеть зелёную галочку, подтверждающую, что файл был записан.
 
-| Ситуация | Что делать |
-|----------|------------|
-| **Missing images** в исходном файле Word | Aspose.Words просто пропустит их; добавьте изображение‑заполнитель с alt‑text, если нужен визуальный сигнал для скрин‑ридеров. |
-| **Complex tables** с объединёнными ячейками | Убедитесь, что таблица правильно помечена как **table** в Word (а не просто набор абзацев). Конверсия сохраняет структуру таблицы только при корректной семантике Word. |
-| **Large documents (>100 MB)** | Рассмотрите возможность потоковой записи PDF на диск с использованием `pdf_opts.save_format = aw.SaveFormat.PDF` и `doc.save(output_stream, pdf_opts)`, чтобы снизить нагрузку на память. |
-| **Running on Linux without Microsoft fonts** | Установите пакет `msttcorefonts` или встроите шрифты через `pdf_opts.embed_full_fonts = True`, чтобы избежать сдвигов макета. |
+## Conclusion
 
----
-
-## Подведение итогов
-
-Мы только что прошли весь процесс **создания доступного PDF**
-
-
-## Что изучать дальше?
-
-Следующие руководства охватывают тесно связанные темы, построенные на техниках, продемонстрированных в этом руководстве. Каждый ресурс включает полностью работающие примеры кода с пошаговыми объяснениями, чтобы помочь вам освоить дополнительные возможности API и исследовать альтернативные подходы в собственных проектах.
-
-- [Создать доступный PDF из Word – Полное руководство](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
-- [Создать доступный PDF – Пошаговое руководство по соответствию PDF/UA](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
-- [Как конвертировать Word в PDF с помощью Aspose.Words для Java](/words/english/java/document-converting/using-document-converting/)
+Мы только что **created accessible PDF** файлы из документов Word с помощью Python, охватив всё от установки до проверки. Скрипт демонстрирует чистый способ **convert word to pdf**, **save docx as pdf**, и **export docx to pdf**, соответствующий требованиям PDF
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

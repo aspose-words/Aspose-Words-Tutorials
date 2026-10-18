@@ -1,55 +1,28 @@
 ---
 category: general
-date: 2026-06-05
-description: Készítsen akadálymentes PDF-et Python segítségével. Tanulja meg, hogyan
-  konvertálja a Word dokumentumot PDF-re, és mentse el a dokumentumot akadálymentes
-  PDF-ként az Aspose.Words használatával percek alatt.
+date: 2026-03-01
+description: Készítsen akadálymentes PDF-et egy Word-dokumentumból Python és az Aspose.Words
+  segítségével. Tanulja meg, hogyan konvertálja a Word-et PDF-re, mentse a docx-et
+  PDF-ként, és biztosítsa a PDF/UA‑1 megfelelőséget.
 draft: false
 keywords:
 - create accessible pdf
 - convert word to pdf
-- save document as accessible pdf
+- save docx as pdf
+- export docx to pdf
+- python convert docx pdf
 language: hu
-og_description: Hozzon létre akadálymentes PDF fájlokat Word dokumentumokból Python
-  segítségével. Ez az útmutató bemutatja, hogyan konvertálhatja a Word-et PDF-be,
-  és mentheti a dokumentumot akadálymentes PDF-ként az Aspose.Words használatával.
-og_title: Készítsen akadálymentes PDF-et Wordből Python segítségével – Teljes útmutató
-schemas:
-- author: Aspose
-  dateModified: '2026-06-05'
-  description: Create accessible PDF using Python. Learn how to convert Word to PDF
-    and save document as accessible PDF with Aspose.Words in minutes.
-  headline: Create Accessible PDF from Word with Python – Step‑by‑Step Guide
-  type: TechArticle
-- description: Create accessible PDF using Python. Learn how to convert Word to PDF
-    and save document as accessible PDF with Aspose.Words in minutes.
-  name: Create Accessible PDF from Word with Python – Step‑by‑Step Guide
-  steps:
-  - name: What the options really do
-    text: '| Option | Effect | |--------|--------| | `compliance = PDF_UA_1` | Generates
-      a PDF that conforms to the PDF/UA‑1 standard (ISO 14289‑1). This includes tagged
-      structure, correct reading order, and mandatory document information. | | `PDF_UA_2`
-      (available in newer Aspose releases) | Targets the newer'
-  - name: Can I **convert Word to PDF** without losing existing bookmarks?
-    text: Yes. As long as the Word file contains proper heading styles and bookmark
-      entries, Aspose.Words will translate them into PDF tags automatically. No extra
-      code needed.
-  - name: What if my Word document uses custom fonts that aren’t installed on the
-      server?
-    text: Aspose.Words will embed the missing fonts if you enable `pdf_opts.embed_full_fonts
-      = True`. This prevents “font substitution” warnings that can break layout and
-      accessibility.
-  - name: Is PDF/UA‑2 supported on all platforms?
-    text: PDF/UA‑2 is a newer spec, and while Aspose.Words supports it, some older
-      PDF readers still only recognize PDF/UA‑1. If you’re targeting a broad audience,
-      stick with `PDF_UA_1` unless you know the downstream tools support the newer
-      version.
-  type: HowTo
+og_description: Készítsen hozzáférhető PDF-et egy Word-dokumentumból Python segítségével.
+  Ez az útmutató bemutatja, hogyan konvertálja a Word-et PDF-be, hogyan mentse a docx-et
+  PDF-ként, és hogyan feleljen meg a PDF/UA‑1 szabványoknak.
+og_title: Hozzon létre akadálymentes PDF-et Wordből Python segítségével – Lépésről
+  lépésre útmutató
 tags:
+- PDF
 - Python
-- PDF accessibility
 - Aspose.Words
-title: Készíts hozzáférhető PDF-et Wordből Python használatával – Lépésről lépésre
+- Accessibility
+title: Hozzon létre akadálymentes PDF-et Word-ből Python segítségével – Lépésről lépésre
   útmutató
 url: /hu/python/document-conversion/create-accessible-pdf-from-word-with-python-step-by-step-gui/
 ---
@@ -58,214 +31,183 @@ url: /hu/python/document-conversion/create-accessible-pdf-from-word-with-python-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hozzon létre akadálymentes PDF-et Word-ből Python‑nal – Teljes útmutató
+# Hozzon létre akadálymentes PDF-et Word-ből Python segítségével – Lépésről‑lépésre útmutató
 
-Valaha szüksége volt **akadálymentes PDF** fájlok létrehozására egy Word dokumentumból, de nem tudta, melyik könyvtár tartja meg a címkéket, az alt‑szöveget és az olvasási sorrendet? Ön sem egyedül van. Sok projektben – legyen szó kormányzati űrlapokról, e‑learning modulokról vagy vállalati jelentésekről – a hozzáférhetőség nem választható, hanem megfelelőségi követelmény.
+Szüksége volt már **akadálymentes pdf** létrehozására egy Word-fájlból, de nem tudta, melyik könyvtár tartja a dokumentumot a megfelelőségre kész állapotban? Nem egyedül van ezzel. Ebben az útmutatóban végigvezetjük a `.docx` **PDF/UA‑1** dokumentummá konvertálását az Aspose.Words for Python segítségével, így **convert word to pdf**, **save docx as pdf**, és **export docx to pdf** anélkül, hogy megsértené az akadálymentességet.
 
-A jó hír? Néhány Python sorral és az Aspose.Words segítségével **Word‑ot PDF‑re konvertálhat**, miközben megőrzi minden hozzáférhetőségi funkciót, majd **elmentheti a dokumentumot akadálymentes PDF‑ként** egyetlen sima műveletben. Nincs extra utófeldolgozás, nincs kézi címke‑beszúrás, csak tiszta kód, amely a nehéz munkát elvégzi Ön helyett.
+Mindent lefedünk, amire szüksége van: az egy‑soros telepítési parancsot, hogy miért fontos a PDF/UA‑1, hogyan állíthatja be a mentési beállításokat, és egy gyors ellenőrzést, hogy a kimenet valóban akadálymentes PDF legyen. A végére egy újrahasználható szkriptet kap, amelyet bármely automatizálási folyamatba beilleszthet.
 
-Ebben az oktatóanyagban megtanulja:
+## Mit fog megtanulni
 
-* Hogyan telepítse az Aspose.Words for Python csomagot.  
-* A pontos kódot, amely betölti a `.docx`‑et, beállítja a PDF/UA megfelelőséget, és kiírja a kimenetet.  
-* Miért fontos minden opció a hozzáférhetőség szempontjából, és mi mehet félre, ha kihagyja őket.  
-* Gyors módszerek annak ellenőrzésére, hogy a kapott PDF valóban akadálymentes‑e.
+- Az Aspose.Words könyvtár telepítése és importálása Pythonhoz.
+- Word-dokumentum (`.docx`) betöltése a lemezről.
+- `PdfSaveOptions` beállítása a PDF/UA‑1 megfelelőség érvényesítéséhez.
+- A fájl mentése akadálymentes PDF-ként.
+- Opcionális: a PDF hozzáférhetőségi címkéinek ellenőrzése.
 
-A végére egy kész‑futtatható szkriptet kap, amely PDF/UA‑1 (vagy PDF/UA‑2) szabványnak megfelelő fájlt állít elő, és megérti a „miértet” minden egyes sor mögött.
-
----
-
-## Amire szüksége lesz, mielőtt elkezdené
-
-| Előfeltétel | Miért fontos |
-|--------------|----------------|
-| Python 3.8 vagy újabb | Az Aspose.Words for Python 3 a 3.8‑as verziótól támogatja; a régebbi verziók hiányoznak a típusjelzései. |
-| `pip` hozzáférés a csomagok telepítéséhez | A könyvtárat a PyPI‑ról fogja letölteni. |
-| Érvényes Aspose.Words licenc (opcionális, de eltávolítja a kiértékelési vízjelet) | A ingyenes próba működik, de egy licenc lehetővé teszi korlátlan PDF‑ek generálását. |
-| Minta Word fájl (`input.docx`) beépített hozzáférhetőségi funkciókkal (címek, alt‑szöveg, táblacímkék) | A konverzió csak azt tudja megőrizni, ami már létezik. |
-
-Ha már rendelkezik virtuális környezettel, nagyszerű – aktiválja. Ha nincs, futtassa:
-
-```bash
-python -m venv venv
-source venv/bin/activate   # on Windows: venv\Scripts\activate
-```
-
-Most már készen áll a könyvtár telepítésére.
+Az Aspose előzetes ismerete nem szükséges; csak egy működő Python 3 környezet és egy `.docx`, amelyet közzé szeretne tenni.
 
 ---
 
-## 1. lépés: Aspose.Words telepítése Pythonhoz
+## 1. lépés – Aspose.Words for Python telepítése (az első akadály)
 
-Az egyetlen függőség, amire szüksége van, a hivatalos Aspose.Words csomag. Telepítse a `pip`‑el:
+Mielőtt kódot írnánk, szükségünk van arra a könyvtárra, amely ténylegesen elvégzi a nehéz munkát. Az Aspose.Words for Python‑via‑.NET a `pip`‑en keresztül érhető el, így egyetlen parancs a legújabb stabil kiadást biztosítja.
 
 ```bash
 pip install aspose-words
 ```
 
-> **Pro tipp:** Rögzítse a verziót (`aspose-words==23.9`), hogy elkerülje a későbbi meglepő tör breaking változásokat.
+*Miért fontos ez a lépés*: Az Aspose.Words belsőleg kezeli a Word‑PDF konverziót, megőrizve a stílusokat, táblázatokat, és ami a legfontosabb, a képernyőolvasók által használt hozzáférhetőségi címkéket. A saját megoldás megpróbálása `python-docx` + `reportlab` használatával manuálisan kellene újraépíteni ezeket a címkéket – amit a legtöbb fejlesztő el akar kerülni.
+
+> **Pro tip:** Ha virtuális környezetben dolgozik (erősen ajánlott), először aktiválja azt. Ez elszigeteli a projekt függőségeit, és a jövőbeni frissítéseket problémamentessé teszi.
 
 ---
 
-## 2. lépés: A forrás Word dokumentum betöltése
+## 2. lépés – A könyvtár importálása és a forrásdokumentum betöltése
 
-Miután a csomag a helyén van, az első kódsor egyszerűen betölti a `.docx`‑et. Ebben a lépésben dönt arról, *melyik* dokumentumot fogja konvertálni.
+Miután a csomag a gépén van, hozzuk be a szkriptbe, és irányítsuk a kívánt `.docx` fájlra, amelyet át szeretnénk alakítani.
 
 ```python
+# Step 2: Import the Aspose.Words library
 import aspose.words as aw
 
-# Step 2: Load the source Word document
-doc = aw.Document("YOUR_DIRECTORY/input.docx")
+# Load the source Word document (replace with your actual path)
+doc_path = "YOUR_DIRECTORY/input.docx"
+document = aw.Document(doc_path)
 ```
 
-> **Miért fontos ez:** `aw.Document` elemzi az Open XML‑t, felépít egy belső objektummodellt, és megőrzi minden hozzáférhetőségi metaadatot (például a cím stílusokat vagy a kép alt‑szövegét). Ha kihagyja ezt, és egy sérült fájlt próbál megnyitni, az Aspose egyértelmű `FileNotFoundError`‑t vagy `InvalidFileFormatException`‑t dob.
+*Miért importáljuk `aspose.words as aw`*: A rövid alias `aw` rendezetten tartja a kódot, miközben elég egyértelmű azok számára, akik nem ismerik a könyvtárat. A `Document` objektum a teljes Word-fájlt reprezentálja a memóriában, hozzáférést biztosítva a tartalomhoz, elrendezéshez és a rejtett hozzáférhetőségi metaadatokhoz.
 
 ---
 
-## 3. lépés: PDF mentési beállítások konfigurálása a hozzáférhetőséghez
+## 3. lépés – PDF mentési beállítások konfigurálása a PDF/UA‑1 megfelelőséghez
 
-Egy normál PDF mentés működik, de nem garantálja a PDF/UA megfelelőséget. A `PdfSaveOptions` osztály lehetővé teszi, hogy pontosan megmondja az Aspose‑nek, hogyan kezelje a kimenetet.
+A varázslat, amely egy normál PDF-et **akadálymentes PDF**-vé alakít, a `PdfSaveOptions` objektumban rejlik. A `pdf_a_compliance` beállításával `PdfCompliance.PDF_UA_1` értékre, az Aspose automatikusan beilleszti a szükséges címkéket, a logikai olvasási sorrendet és az alternatív szöveg helyőrzőket.
 
 ```python
-# Step 3: Create PDF save options and set the PDF/UA compliance level
-pdf_opts = aw.saving.PdfSaveOptions()
-pdf_opts.compliance = aw.saving.PdfCompliance.PDF_UA_1   # Use PDF_UA_2 for newer versions
-pdf_opts.save_format = aw.SaveFormat.PDF                # Optional, defaults to PDF
+# Step 3: Configure PDF save options to enforce PDF/UA‑1 compliance
+pdf_save_options = aw.saving.PdfSaveOptions()
+pdf_save_options.pdf_a_compliance = aw.saving.PdfCompliance.PDF_UA_1
 ```
 
-### Mit csinálnak valójában a beállítások
-
-| Opció | Hatás |
-|--------|--------|
-| `compliance = PDF_UA_1` | PDF‑t generál, amely megfelel a PDF/UA‑1 szabványnak (ISO 14289‑1). Ez magában foglalja a címkézett struktúrát, a helyes olvasási sorrendet és a kötelező dokumentuminformációkat. |
-| `PDF_UA_2` (újabb Aspose kiadásokban elérhető) | A újabb PDF/UA‑2 specifikációra céloz, amely szigorúbb követelményeket támaszt a nyelvi beállítások és az alternatív leírások tekintetében. |
-| `save_format = PDF` | Kifejezetten azt mondja az API‑nak, hogy PDF‑t akar; beállítható XPS‑re vagy más formátumra is, de a PDF az alapértelmezett a hozzáférhetőséghez. |
-
-> **Gyakori buktató:** Elfelejti beállítani a `compliance`‑t. A fájl továbbra is PDF lesz, de a képernyőolvasók esetleg figyelmen kívül hagyják a címkéket, ami a hozzáférhetőséget megtöri.
+*Miért fontos ez*: A PDF/UA‑1 az ISO szabvány a univerzálisan hozzáférhető PDF-ekhez. Ha engedélyezi, az Aspose elvégzi a nehéz munkát – hozzáadja a struktúra címkéket (például `<Sect>`, `<P>`, `<Table>`), a képeket alt szöveggel jelöli (ha a Word-dokumentumban jelen van), és biztosítja, hogy a dokumentum navigálható legyen a segítő technológiákkal.
 
 ---
 
-## 4. lépés: A dokumentum mentése akadálymentes PDF‑ként
+## 4. lépés – A dokumentum mentése akadálymentes PDF-ként
 
-Most jön a varázslat. A dokumentum betöltve és a beállítások konfigurálva, a fájlt a lemezre írja.
+A beállítások konfigurálása után az utolsó lépés egy egy‑soros parancs, amely a PDF-et a lemezre írja.
 
 ```python
-# Step 4: Save the document as an accessible PDF file
-doc.save("YOUR_DIRECTORY/accessible.pdf", pdf_opts)
-print("✅ Accessible PDF created at YOUR_DIRECTORY/accessible.pdf")
+# Step 4: Save the document as an accessible PDF
+output_path = "YOUR_DIRECTORY/output.pdf"
+document.save(output_path, pdf_save_options)
+print(f"✅ Accessible PDF saved to {output_path}")
 ```
 
-Ha licencelt verziója van, a vízjel automatikusan eltűnik. A keletkezett `accessible.pdf` a következőket tartalmazza:
-
-* Címkézett struktúra, amely tükrözi a Word címeket.  
-* Alt‑szöveg minden képhez (ha a forrásban létezett).  
-* Megfelelő dokumentumnyelv (a Word‑ből örökölve).  
-
-Megnyithatja a PDF‑et az Adobe Acrobat Pro → **File > Properties > Tags** menüpontban, hogy megerősítse a címkék jelenlétét.
+*Miért használjuk a `document.save`-et opciókkal*: A `save` metódus figyelembe veszi a megadott `PdfSaveOptions`-t, garantálva, hogy a létrejövő fájl megfelel a PDF/UA‑1 szabványnak. Az opciók kihagyása egy tökéletesen megtekinthető PDF-et eredményez, de hiányozna a képernyőolvasók számára szükséges struktúrainformáció.
 
 ---
 
-## 5. lépés: PDF/UA megfelelőség ellenőrzése (opcionális, de ajánlott)
+## Vizuális áttekintés (kép)
 
-Egy gyors validációs lépés megspórolja a későbbi költséges újra‑dolgozást. Az Adobe Acrobat **Preflight** eszköze vagy a ingyenes **PDF Accessibility Checker (PAC)** be tudja olvasni a fájlt.
+![akadálymentes pdf folyamatábra](image.png "akadálymentes pdf folyamatábra")
 
-```python
-# Optional: Run a quick compliance check using Aspose's built‑in validator (requires Aspose.PDF)
-# Note: This requires the separate Aspose.PDF package.
-# from aspose.pdf import Document as PdfDocument
-# pdf_doc = PdfDocument("YOUR_DIRECTORY/accessible.pdf")
-# validator = pdf_doc.validate(aw.saving.PdfCompliance.PDF_UA_1)
-# print("Validation result:", validator.is_valid)
-```
-
-Ha nincs Aspose.PDF, nyissa meg a PDF‑et az Acrobat‑ban, és keresse a **“PDF/UA – Pass”** feliratot a Preflight jelentésben.
+*Alt text*: "Diagram, amely bemutatja az Aspose.Words telepítésétől, a DOCX betöltéséig, a PDF/UA‑1 opciók konfigurálásáig és az akadálymentes PDF mentéséig tartó folyamatot."
 
 ---
 
-## Gyakran Ismételt Kérdések (GYIK)
+## 5. lépés – A PDF hozzáférhetőségének ellenőrzése (opcionális, de ajánlott)
 
-### Átalakíthatom a **Word‑ot PDF‑re** anélkül, hogy elveszíteném a meglévő könyvjelzőket?
-
-Igen. Amíg a Word fájl megfelelő cím stílusokat és könyvjelző bejegyzéseket tartalmaz, az Aspose.Words automatikusan PDF címkékké alakítja őket. Nem szükséges extra kód.
-
-### Mi van, ha a Word dokumentum egyedi betűtípusokat használ, amelyek nincsenek telepítve a szerveren?
-
-Az Aspose.Words beágyazza a hiányzó betűtípusokat, ha engedélyezi a `pdf_opts.embed_full_fonts = True` beállítást. Ez megakadályozza a „betűtípus helyettesítés” figyelmeztetéseket, amelyek elronthatják a megjelenést és a hozzáférhetőséget.
+Ha 100 %-ban biztosra akarja menni, hogy a kimenet megfelel a szabványnak, futtathat egy gyors ellenőrzést a ingyenes **PDF Accessibility Checker (PAC)** segítségével, vagy megnyithatja a PDF-et az Adobe Acrobatban, és megtekintheti a **Tags** panelt.
 
 ```python
-pdf_opts.embed_full_fonts = True
+# Optional: Quick tag inspection using Aspose.Words (requires additional license)
+tags = document.get_child_nodes(aw.NodeType.TAG, True)
+print(f"Document contains {len(tags)} accessibility tags.")
 ```
 
-### Támogatott-e a PDF/UA‑2 minden platformon?
-
-A PDF/UA‑2 egy újabb specifikáció, és bár az Aspose.Words támogatja, néhány régebbi PDF‑olvasó még csak a PDF/UA‑1‑et ismeri fel. Ha széles közönségnek szánja, maradjon a `PDF_UA_1`‑nél, hacsak nem biztos benne, hogy a downstream eszközök támogatják az újabb verziót.
+*Miért ellenőrizni*: Bár az Aspose a legtöbb esetet automatikusan kezeli, a komplex Word-fájlok egyedi grafikákkal vagy nem szabványos táblázatokkal néha manuális alt‑text módosításokat igényelnek. Egy gyors címkeszám biztosítékot ad, mielőtt a fájlt a végfelhasználóknak küldené.
 
 ---
 
-## Teljes szkript – egyfájlos megoldás
+## Gyakori változatok és szélsőséges esetek
 
-Az alábbiakban egy kész‑futtatható szkriptet talál, amely mindent egyben tartalmaz, amit eddig megbeszéltünk. Mentse `create_accessible_pdf.py` néven, és futtassa `python create_accessible_pdf.py` paranccsal.
+| Situation | What to Change | Reason |
+|-----------|----------------|--------|
+| **Több DOCX fájl** | Iteráljon a bemeneti útvonalak listáján, és a cikluson belül hívja meg a `document.save`-et. | A kötegelt feldolgozás időt takarít meg, ha egy mappában sok jelentés található. |
+| **Nagy dokumentumok (>100 MB)** | Növelje a `memory_limit` értékét a `PdfSaveOptions`-ban, vagy használja a `Document.save`-et stream-mel. | Megakadályozza a memóriahiány miatti összeomlásokat alacsony RAM-mal rendelkező gépeken. |
+| **Egyedi betűtípus nincs beágyazva** | Állítsa be a `pdf_save_options.embed_full_fonts = True` értéket. | Biztosítja, hogy a PDF minden eszközön ugyanúgy jelenjen meg. |
+| **PDF/A‑2b szükséges a PDF/UA‑1 helyett** | Használja a `PdfCompliance.PDF_A_2B`-t. | Egyes szabályozó hatóságok archiválásra a PDF/A‑2b-t követelik. |
+| **Linuxon futtatás .NET runtime nélkül** | Telepítse a **.NET Core** runtime-ot, és állítsa be az `ASPOSE_Words_LICENSE` környezeti változót. | Az Aspose.Words for Python‑via‑.NET a .NET-re támaszkodik; a runtime-nak jelen kell lennie. |
+
+---
+
+## Pro tippek és buktatók, amire figyelni kell
+
+- **Pro tip:** Ha a forrás Word-fájl már tartalmaz alt szöveget a képekhez, az Aspose automatikusan megőrzi azt. Ha nem, fontolja meg leíró `Alt Text` hozzáadását a Word-ben a konverzió előtt.
+- **Watch out for:** Nagyon összetett táblázatok elveszíthetik a layout egy részét. Teszteljen egy reprezentatív mintát a tömeges konverzió előtt.
+- **Performance hint:** Egyetlen `PdfSaveOptions` példány újrahasználata sok mentés során csökkenti az objektum‑létrehozási terhelést.
+
+---
+
+## Teljes szkript – Kész a másoláshoz és beillesztéshez
+
+Alább a teljes, futtatható szkript, amely tartalmazza a megvitatott minden lépést. Csak cserélje ki a helyőrző útvonalakat, és már használatra kész.
 
 ```python
+# ------------------------------------------------------------
 # create_accessible_pdf.py
-# -------------------------------------------------
-# Purpose: Demonstrates how to create accessible PDF
-#          from a Word document using Aspose.Words.
-# -------------------------------------------------
+# ------------------------------------------------------------
+# Author: Your Name
+# Date:   2026‑03‑01
+# Purpose: Convert a DOCX to an accessible PDF/UA‑1 using Aspose.Words
+# ------------------------------------------------------------
 
 import aspose.words as aw
 import os
 
-def main():
-    # Adjust these paths to match your environment
-    input_path = os.path.join("YOUR_DIRECTORY", "input.docx")
-    output_path = os.path.join("YOUR_DIRECTORY", "accessible.pdf")
+def convert_to_accessible_pdf(input_docx: str, output_pdf: str) -> None:
+    """
+    Convert a .docx file to an accessible PDF/UA‑1.
 
-    # 1️⃣ Load the Word document
-    doc = aw.Document(input_path)
+    Args:
+        input_docx (str): Full path to the source Word document.
+        output_pdf (str): Full path where the PDF will be saved.
+    """
+    # Load the document
+    document = aw.Document(input_docx)
 
-    # 2️⃣ Configure PDF save options for accessibility
-    pdf_opts = aw.saving.PdfSaveOptions()
-    pdf_opts.compliance = aw.saving.PdfCompliance.PDF_UA_1   # PDF/UA‑1 compliance
-    pdf_opts.save_format = aw.SaveFormat.PDF                # Explicit, but optional
-    pdf_opts.embed_full_fonts = True                        # Ensure fonts are embedded
+    # Configure PDF/UA‑1 compliance
+    pdf_options = aw.saving.PdfSaveOptions()
+    pdf_options.pdf_a_compliance = aw.saving.PdfCompliance.PDF_UA_1
 
-    # 3️⃣ Save as an accessible PDF
-    doc.save(output_path, pdf_opts)
+    # Save the accessible PDF
+    document.save(output_pdf, pdf_options)
 
-    print(f"✅ Accessible PDF created at {output_path}")
+    print(f"✅ Accessible PDF created: {output_pdf}")
 
 if __name__ == "__main__":
-    main()
+    # Example usage – adjust paths to your environment
+    INPUT_PATH = os.path.join("YOUR_DIRECTORY", "input.docx")
+    OUTPUT_PATH = os.path.join("YOUR_DIRECTORY", "output.pdf")
+
+    convert_to_accessible_pdf(INPUT_PATH, OUTPUT_PATH)
 ```
 
-**Várható kimenet:** A futtatás után a konzolon megjelenik egy megerősítő sor, és a `accessible.pdf` fájl megjelenik a `YOUR_DIRECTORY` könyvtárban. Az Acrobat‑ban meg kell jelenjen a **“Tagged PDF”** a **File > Properties > Description** alatt, valamint egy zöld pipa a **Preflight** jelentésben a PDF/UA megfelelőséghez.
+Futtassa a következővel:
 
----
+```bash
+python create_accessible_pdf.py
+```
 
-## Gyakori szélsőséges esetek és kezelési módok
-
-| Helyzet | Mit kell tenni |
-|-----------|------------|
-| **Hiányzó képek** a forrás Word fájlban | Az Aspose.Words egyszerűen kihagyja őket; ha a képernyőolvasóknak vizuális jelzésre van szüksége, adjon hozzá egy helyőrző képet alt‑szöveggel. |
-| **Összetett táblák** egyesített cellákkal | Ellenőrizze, hogy a táblát megfelelően **table**‑ként jelölték-e a Word‑ben (ne csak bekezdések sorozataként). A PDF konverzió csak akkor tiszteli meg a táblaszerkezetet, ha a Word táblaszemantika helyes. |
-| **Nagy dokumentumok (>100 MB)** | Fontolja meg a PDF streaming‑et a lemezre a `pdf_opts.save_format = aw.SaveFormat.PDF` és `doc.save(output_stream, pdf_opts)` használatával, hogy csökkentse a memóriaigényt. |
-| **Linuxon futtatás Microsoft betűkészletek nélkül** | Telepítse a `msttcorefonts` csomagot, vagy ágyazza be a betűtípusokat a `pdf_opts.embed_full_fonts = True` beállítással, hogy elkerülje a megjelenéseltolódásokat. |
+Egy zöld pipa jelenik meg, amely megerősíti, hogy a fájl sikeresen íródott.
 
 ---
 
 ## Összegzés
 
-Most végigjártuk a teljes folyamatot a **akadálymentes PDF** létrehozásához
-
-
-## Mit érdemes következőként megtanulni?
-
-Az alábbi oktatóanyagok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódpéldákat tartalmaz lépés‑ről‑lépésre magyarázatokkal, hogy segítsen elsajátítani további API‑funkciókat és alternatív megvalósítási megközelítéseket saját projektjeiben.
-
-- [Hozzon létre akadálymentes PDF-et Word‑ből – Teljes útmutató](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
-- [Akadálymentes PDF – Lépésről‑lépésre útmutató a PDF/UA megfelelőséghez](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
-- [Hogyan konvertáljunk Word‑ot PDF‑re az Aspose.Words for Java használatával](/words/english/java/document-converting/using-document-converting/)
+Épp most **akadálymentes PDF** fájlokat hoztunk létre Word-dokumentumokból Python segítségével, lefedve mindent a telepítéstől az ellenőrzésig. A szkript tiszta módot mutat a **convert word to pdf**, **save docx as pdf**, és **export docx to pdf** végrehajtására, miközben megfelel a PDF
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

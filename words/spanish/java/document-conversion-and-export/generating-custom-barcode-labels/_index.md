@@ -122,7 +122,6 @@ class CustomBarcodeGenerator implements IBarcodeGenerator {
 ```
 
 **Explicación**
-
 - `getBarcodeImage` crea una instancia de `BarcodeGenerator`, aplica los colores suministrados a través de `BarcodeParameters` y finalmente devuelve un `BufferedImage`.  
 - El método también maneja errores devolviendo una imagen de marcador de posición, asegurando que la creación del documento Word nunca falle.
 
