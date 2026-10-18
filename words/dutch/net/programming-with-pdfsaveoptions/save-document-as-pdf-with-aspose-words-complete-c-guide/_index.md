@@ -1,19 +1,19 @@
 ---
 category: general
-date: 2026-05-01
-description: Leer hoe je een document als PDF opslaat met Aspose.Words in C#. De tutorial
-  behandelt ook het converteren van Word naar PDF, het exporteren van wiskundige LaTeX
-  en het omgaan met ontbrekende lettertypen.
+date: 2026-02-15
+description: Document opslaan als PDF met Aspose.Words in C#. Leer hoe je Word naar
+  PDF converteert, lettertypewaarschuwingen vastlegt en zorgt voor een nauwkeurige
+  output.
 draft: false
 keywords:
 - save document as pdf
 - convert word to pdf
-- export math latex
-- handle missing fonts
+- word to pdf conversion
+- export word as pdf
+- pdf conversion from word
 language: nl
-og_description: Sla een document moeiteloos op als pdf met Aspose.Words. Deze gids
-  laat ook zien hoe je Word naar pdf converteert, wiskundige LaTeX exporteert en ontbrekende
-  lettertypen afhandelt.
+og_description: Document opslaan als PDF met Aspose.Words in C#. Deze gids laat zien
+  hoe je Word naar PDF converteert en fontvervangingswaarschuwingen afhandelt.
 og_title: Document opslaan als PDF met Aspose.Words – Complete C#-gids
 tags:
 - Aspose.Words
@@ -27,228 +27,206 @@ url: /nl/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-wo
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Document opslaan als PDF met Aspose.Words – Complete C# Gids
+# Document opslaan als PDF met Aspose.Words – Complete C#-gids
 
-Heb je je ooit afgevraagd **hoe je een document als pdf kunt opslaan** direct vanuit een Word‑bestand zonder toegankelijkheidsfuncties te verliezen? Je bent niet de enige—ontwikkelaars vragen voortdurend om een betrouwbare manier om Word naar PDF te converteren terwijl wiskundige vergelijkingen behouden blijven en ontbrekende lettertypen op een nette manier worden afgehandeld.  
+Heb je ooit **document opslaan als PDF** moeten doen, maar wist je niet hoe je elk lettertype intact kon houden? Je bent niet de enige. In veel enterprise-projecten verwijzen de Word‑bestanden die we ontvangen naar lettertypen die simpelweg niet op de server zijn geïnstalleerd, en de conversie vervangt ze stilletjes.  
 
-In deze tutorial lopen we stap voor stap door een oplossing die niet alleen **document opslaan als pdf** laat zien, maar ook **word naar pdf converteren**, **math latex exporteren**, en **ontbrekende lettertypen afhandelen** demonstreert met de nieuwste Aspose.Words voor .NET. Aan het einde heb je een kant‑klaar C#‑programma dat PDF/UA‑2‑conforme bestanden produceert, perfect voor toegankelijkheidscontroles.
+In deze tutorial lopen we een **convert Word to PDF** scenario door dat niet alleen een perfecte PDF maakt, maar je ook precies vertelt welke lettertypen zijn vervangen. Aan het einde heb je een kant‑klaar C#‑programma, een duidelijk begrip van waarom elke stap belangrijk is, en een paar pro‑tips die je in je eigen codebase kunt gebruiken.
 
-## Wat je nodig hebt
+> **Wat je krijgt:** een volledige code‑listing, uitleg van de warning‑callback, verwachte console‑output, en suggesties voor het afhandelen van randgevallen zoals aangepaste lettertype‑mappen.
 
-- .NET 6 of later (de code werkt ook met .NET Core en .NET Framework)  
-- Aspose.Words voor .NET 25.10 of nieuwer – je kunt een gratis proefversie downloaden van de Aspose‑website  
-- Een bescheiden Word‑document (`input.docx`) dat minstens één zwevende vorm en een wiskundige vergelijking bevat (om de export‑math‑latex‑functie in actie te zien)  
-- Visual Studio 2022 (of elke IDE die je wilt)
+---
 
-> **Pro tip:** Als je op een CI/CD‑pipeline werkt, voeg dan het Aspose.Words‑NuGet‑pakket toe aan je projectbestand:
+## Vereisten
 
-```xml
-<PackageReference Include="Aspose.Words" Version="25.10.0" />
-```
+- **.NET 6.0** (of een recente .NET‑versie) – Aspose.Words werkt met .NET Framework, .NET Core en .NET 5/6.
+- **Aspose.Words for .NET** NuGet‑pakket (`Install-Package Aspose.Words`) – de bibliotheek die het zware werk doet.
+- Een Word‑bestand dat verwijst naar een ontbrekend lettertype (bijv. `MissingFont.docx`). Als je er geen hebt, maak dan een eenvoudig document en wijzig het lettertype naar iets dat je weet dat niet op je machine is geïnstalleerd, zoals “Papyrus”.
+- Een IDE waar je je prettig bij voelt – Visual Studio, Rider, of zelfs VS Code volstaat.
 
-Laten we nu in de code duiken.
+Dat is alles. Geen extra SDK’s, geen COM‑interop, gewoon een schoon C#‑project.
 
-## Stap 1: Laad het bron‑document met automatische herstel
+---
 
-Bij het werken met Word‑bestanden uit de praktijk kun je corrupte secties of ontbrekende bronnen tegenkomen. Het inschakelen van automatische herstel zorgt ervoor dat het laadproces nooit een uitzondering gooit.
+## Stap 1 – Laad het Word‑bestand (Eerste stap in Convert Word to PDF)
+
+Het eerste wat we nodig hebben is een `Document`‑object dat het bron‑Word‑bestand vertegenwoordigt. Aspose.Words leest de `.docx` (of `.doc`) en bouwt een in‑memory model dat je kunt manipuleren.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Loading;
-using Aspose.Words.Saving;
+using Aspose.Words.Warnings;
 
-// LoadOptions tells Aspose how to behave while reading the file.
-LoadOptions loadOptions = new LoadOptions
-{
-    // If the document is partially damaged, Aspose will try to fix it.
-    RecoveryMode = RecoveryMode.AutoRecover
-};
+// Path to the source Word document that may reference missing fonts.
+string sourcePath = @"C:\Docs\MissingFont.docx";
 
-// Replace "YOUR_DIRECTORY" with the folder that holds your .docx.
-Document document = new Document("YOUR_DIRECTORY/input.docx", loadOptions);
+// Create the Document instance – this loads the file into memory.
+Document document = new Document(sourcePath);
 ```
 
-**Waarom dit belangrijk is:**  
-`RecoveryMode.AutoRecover` beschermt je pipeline tegen crashes bij misvormde invoer, wat vooral handig is wanneer je **word naar pdf converteert** in bulk.
+> **Waarom dit belangrijk is:** Het vroeg laden van het bestand laat de bibliotheek lettertype‑referenties parseren. Als een lettertype ontbreekt, zal Aspose.Words later een `FontSubstitution`‑waarschuwing geven, die we kunnen opvangen.
 
-## Stap 2: Stel PDF‑opslaan‑opties in voor volledige toegankelijkheid
+---
 
-PDF/UA‑2 is de ISO‑norm voor toegankelijke PDF’s. Door een paar vlaggen te configureren krijgen we een bestand dat schermlezers kunnen navigeren, en zorgen we er ook voor dat wiskundige vergelijkingen worden geëxporteerd als verborgen LaTeX.
+## Stap 2 – Voeg een warning‑callback toe om lettertype‑vervangingen vast te leggen
+
+Aspose.Words geeft waarschuwingen af via een callback‑mechanisme. Door een `WarningInfoCollection` toe te wijzen aan `document.WarningCallback`, verzamelen we elke waarschuwing die tijdens de verwerking optreedt.
 
 ```csharp
-PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
-{
-    // Enforce PDF/UA‑2 compliance.
-    PdfCompliance = PdfCompliance.PdfUa2,
+// Create a collection that will hold any warnings generated.
+WarningInfoCollection warningCollection = new WarningInfoCollection();
 
-    // Floating shapes (like text boxes) become <Figure> tags – essential for accessibility.
-    ExportFloatingShapesAsInlineTag = true,
-
-    // Export Office Math as hidden LaTeX (requires Aspose.Words 25.10+).
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX
-};
+// Register the collection as the document's warning callback.
+document.WarningCallback = warningCollection;
 ```
 
-**Key points:**  
+> **Pro‑tip:** Je kunt ook zelf `IWarningCallback` implementeren als je aangepaste logging nodig hebt of wilt afbreken bij bepaalde waarschuwingen. De collectie‑aanpak is snel en perfect voor de meeste scenario’s.
 
-- **ExportFloatingShapesAsInlineTag** – zorgt ervoor dat de resulterende PDF de oorspronkelijke lay-out respecteert en toch semantisch correct blijft.  
-- **OfficeMathExportMode.LaTeX** – voldoet aan de **export math latex**‑vereiste, waardoor downstream‑tools de vergelijkingen kunnen extraheren indien nodig.
+---
 
-## Stap 3: Waarschuwingen vastleggen (bijv. ontbrekende lettertypen)
+## Stap 3 – Document opslaan als PDF – De kernoperatie
 
-Ontbrekende lettertypen zijn een veelvoorkomend probleem bij het converteren van documenten. Aspose.Words kan deze problemen melden via een `WarningCallback`. We zullen ze verzamelen zodat je ze later kunt loggen of erop kunt reageren.
+Nu vertellen we Aspose.Words om de Word‑inhoud te renderen naar een PDF‑bestand. Dit is het moment waarop elk ontbrekend lettertype wordt vervangen, en de waarschuwing die we eerder hebben ingesteld wordt geactiveerd.
 
 ```csharp
-// Simple collector that stores all warnings in a list.
-public class WarningInfoCollector : IWarningCallback
-{
-    public List<WarningInfo> Warnings { get; } = new();
+// Destination PDF path.
+string pdfPath = @"C:\Docs\Result.pdf";
 
-    public void Warning(WarningInfo info)
+// Perform the conversion. This call may trigger FontSubstitution warnings.
+document.Save(pdfPath);
+```
+
+> **Wat er onder de motorkap gebeurt:** Aspose.Words loopt door elke alinea, zoekt het vereiste lettertype op, en als het die niet kan vinden, valt het terug op een standaardvervanging (meestal Arial). De waarschuwing vertelt je precies welk lettertype ontbrak en welk lettertype in plaats daarvan werd gebruikt.
+
+---
+
+## Stap 4 – Analyseer en rapporteer lettertype‑vervangingen
+
+Na de opslaan‑operatie itereren we over de verzamelde waarschuwingen. Als een waarschuwing van het type `FontSubstitution` is, casten we deze naar `FontSubstitutionWarning` om de oorspronkelijke en vervangende lettertype‑namen te halen.
+
+```csharp
+// Loop through all captured warnings.
+foreach (WarningInfo warning in warningCollection)
+{
+    // We're only interested in font substitution warnings.
+    if (warning.Type == WarningType.FontSubstitution)
     {
-        Warnings.Add(info);
+        var fontWarning = (FontSubstitutionWarning)warning;
+        Console.WriteLine(
+            $"Substituted '{fontWarning.OriginalFontName}' with '{fontWarning.SubstitutedFontName}'. Reason: {fontWarning.Reason}");
     }
 }
-
-// Attach the collector to the document.
-document.WarningCallback = new WarningInfoCollector();
 ```
 
-**Waarom dit relevant is:**  
-Als de bron een lettertype gebruikt dat niet op de server is geïnstalleerd, zal de PDF terugvallen op een standaardlettertype, wat de lay-out kan breken. Door **ontbrekende lettertypen af te handelen** kunnen we de gebruiker waarschuwen of een vervanging insluiten.
-
-## Stap 4: Sla het document op als een toegankelijke PDF
-
-Nu het moment van de waarheid—de daadwerkelijke conversie uitvoeren.
-
-```csharp
-// Save the PDF to the output folder.
-document.Save("YOUR_DIRECTORY/output.pdf", pdfSaveOptions);
-```
-
-Als alles soepel verloopt, krijg je een PDF/UA‑2‑bestand dat verborgen LaTeX bevat voor elke vergelijking en correcte tagging voor zwevende vormen.
-
-## Stap 5: Bekijk de vastgelegde waarschuwingen (optioneel maar aanbevolen)
-
-Na de opslaan‑operatie kun je over de verzamelde waarschuwingen itereren en ze loggen.
-
-```csharp
-var collector = (WarningInfoCollector)document.WarningCallback;
-
-foreach (var warning in collector.Warnings)
-{
-    Console.WriteLine($"{warning.Type}: {warning.Description}");
-}
-```
-
-Typische output kan er als volgt uitzien:
+**Voorbeeld console‑output**
 
 ```
-FontSubstitution: Font "Calibri" was not found. Substituted with "Arial".
+Substituted 'Papyrus' with 'Arial Unicode MS'. Reason: Font not found on the system.
 ```
 
-Het vroeg zien van deze berichten helpt je **ontbrekende lettertypen af te handelen** voordat ze eindgebruikers beïnvloeden.
+Als het bron‑document alleen geïnstalleerde lettertypen gebruikt, eindigt de lus simpelweg zonder iets af te drukken – een duidelijk teken dat de **save document as PDF**‑operatie geslaagd is zonder vervangingen.
 
-## Volledig werkend voorbeeld
+---
 
-Alles samenvoegend, hier is het volledige, kant‑klaar programma. Vervang de tijdelijke paden door die van jou.
+### Volledig werkend voorbeeld
+
+Alles bij elkaar, hier is het volledige, kant‑klaar programma. Plak dit in een nieuw console‑project, pas de bestands‑paden aan, en druk op **F5**.
 
 ```csharp
 using System;
-using System.Collections.Generic;
 using Aspose.Words;
-using Aspose.Words.Loading;
-using Aspose.Words.Saving;
+using Aspose.Words.Warnings;
 
-// ------------------------------------------------------------
-// Step 0: Helper class for warning collection (handles missing fonts)
-// ------------------------------------------------------------
-public class WarningInfoCollector : IWarningCallback
-{
-    public List<WarningInfo> Warnings { get; } = new();
-
-    public void Warning(WarningInfo info) => Warnings.Add(info);
-}
-
-// ------------------------------------------------------------
-// Main conversion routine
-// ------------------------------------------------------------
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Load the source .docx with auto‑recovery.
-        var loadOptions = new LoadOptions { RecoveryMode = RecoveryMode.AutoRecover };
-        var document = new Document("YOUR_DIRECTORY/input.docx", loadOptions);
+        // 1️⃣ Load the Word document that may reference missing fonts.
+        string sourcePath = @"C:\Docs\MissingFont.docx";
+        Document document = new Document(sourcePath);
 
-        // 2️⃣ Configure PDF/UA‑2 options (export math as LaTeX, handle floating shapes).
-        var pdfOptions = new PdfSaveOptions
+        // 2️⃣ Prepare a warning collection to capture any font substitution messages.
+        WarningInfoCollection warningCollection = new WarningInfoCollection();
+        document.WarningCallback = warningCollection;
+
+        // 3️⃣ Save the document as PDF – this step triggers the conversion.
+        string pdfPath = @"C:\Docs\Result.pdf";
+        document.Save(pdfPath);
+
+        // 4️⃣ Review the warnings and report any font substitutions.
+        foreach (WarningInfo warning in warningCollection)
         {
-            PdfCompliance = PdfCompliance.PdfUa2,
-            ExportFloatingShapesAsInlineTag = true,
-            OfficeMathExportMode = OfficeMathExportMode.LaTeX
-        };
-
-        // 3️⃣ Attach warning collector to capture missing‑font alerts.
-        document.WarningCallback = new WarningInfoCollector();
-
-        // 4️⃣ Perform the conversion.
-        document.Save("YOUR_DIRECTORY/output.pdf", pdfOptions);
-
-        // 5️⃣ (Optional) Print any warnings to the console.
-        var collector = (WarningInfoCollector)document.WarningCallback;
-        foreach (var w in collector.Warnings)
-        {
-            Console.WriteLine($"{w.Type}: {w.Description}");
+            if (warning.Type == WarningType.FontSubstitution)
+            {
+                var fontWarning = (FontSubstitutionWarning)warning;
+                Console.WriteLine(
+                    $"Substituted '{fontWarning.OriginalFontName}' with '{fontWarning.SubstitutedFontName}'. Reason: {fontWarning.Reason}");
+            }
         }
 
-        Console.WriteLine("✅ Conversion complete! PDF saved as output.pdf");
+        Console.WriteLine("Conversion finished. Check the PDF and console output for details.");
     }
 }
 ```
 
-**Expected result:**  
-- `output.pdf` voldoet aan PDF/UA‑2.  
-- Alle zwevende vormen worden getagd als inline‑figuren.  
-- Elk Office‑Math‑object verschijnt als verborgen LaTeX (zichtbaar wanneer je de structuur van de PDF inspecteert).  
-- Eventuele lettertype‑gerelateerde problemen worden naar de console geprint, waardoor je de kans krijgt om **ontbrekende lettertypen af te handelen** voordat je het bestand publiceert.
+> **Verwacht resultaat:** Er verschijnt een `Result.pdf`‑bestand in de doelmap, en de console drukt eventuele lettertype‑vervangingen af die zich hebben voorgedaan. Open de PDF in een viewer – je zou dezelfde lay-out moeten zien als het originele Word‑bestand, behalve de eventuele ontbrekende lettertypen die zijn vervangen.
 
-![Diagram dat de stroom toont van Word → Aspose.Words → Toegankelijke PDF (document opslaan als pdf)](conversion-diagram.png "Stroomdiagram voor het opslaan van een document als pdf")
+---
 
-*Afbeeldings‑alt‑tekst:* **Diagram van hoe je een document opslaat als pdf met Aspose.Words**
+## Randgevallen en veelvoorkomende variaties afhandelen
 
-## Veelgestelde vragen & randgevallen
+### 1. Een aangepaste lettertype‑map opgeven
 
-### Wat als ik een oudere Aspose.Words‑versie gebruik?
-
-De `OfficeMathExportMode.LaTeX`‑vlag werd geïntroduceerd in 25.10. Voor oudere releases kun je nog steeds **word naar pdf converteren**, maar de wiskunde wordt gerasterd in plaats van geëxporteerd als LaTeX. Upgrade voor optimale toegankelijkheid.
-
-### Kan ik aangepaste lettertypen insluiten om terugval te voorkomen?
-
-Ja. Stel `PdfSaveOptions.FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll` in vóór het aanroepen van `Save`. Dit helpt ook bij het **afhandelen van ontbrekende lettertypen** door de PDF te dwingen de benodigde glyphs te bevatten.
-
-### Hoe verifieer ik de PDF/UA‑2‑conformiteit?
-
-Open het bestand in Adobe Acrobat Pro → “Print Production” → “Preflight”. Kies het “PDF/A‑2b” of “PDF/UA‑2”‑profiel; Acrobat geeft eventuele overtredingen weer.
-
-### Hoe zit het met met wachtwoord‑beveiligde Word‑bestanden?
-
-Load the document with a `LoadOptions` that includes `Password`. Example:
+Als je implementatie‑omgeving een privé‑collectie van bedrijfs‑lettertypen heeft, kun je Aspose.Words naar die map laten wijzen:
 
 ```csharp
-var loadOptions = new LoadOptions { Password = "mySecret" };
-var doc = new Document("protected.docx", loadOptions);
+FontSettings fontSettings = new FontSettings();
+fontSettings.SetFontsFolder(@"C:\MyCompany\Fonts", recursive: true);
+document.FontSettings = fontSettings;
 ```
 
-De rest van de pipeline blijft ongewijzigd.
+Nu zal de bibliotheek `C:\MyCompany\Fonts` doorzoeken voordat hij terugvalt op systeem‑lettertypen, waardoor de kans op ongewenste vervangingen afneemt.
+
+### 2. Waarschuwingen onderdrukken wanneer je ze niet nodig hebt
+
+Soms wil je gewoon een stille conversie. Je kunt de `WarningInfoCollection` vervangen door een lege callback:
+
+```csharp
+document.WarningCallback = new WarningCallback(); // No‑op implementation
+```
+
+### 3. Meerdere documenten in één batch converteren
+
+Plaats de logica in een `foreach`‑lus over een map met `.docx`‑bestanden. Vergeet niet `WarningInfoCollection` voor elk document opnieuw te initialiseren om waarschuwingen geïsoleerd te houden.
+
+```csharp
+foreach (var file in Directory.GetFiles(@"C:\Docs\Batch", "*.docx"))
+{
+    Document doc = new Document(file);
+    var warnings = new WarningInfoCollection();
+    doc.WarningCallback = warnings;
+    string outPdf = Path.ChangeExtension(file, ".pdf");
+    doc.Save(outPdf);
+    // Process warnings as shown earlier…
+}
+```
+
+---
+
+## Visueel overzicht
+
+![Diagram dat de stappen toont om een document op te slaan als PDF terwijl lettertype‑vervangingswaarschuwingen worden vastgelegd](save-document-as-pdf-workflow.png)
+
+*Alt‑tekst: Diagram dat de stappen toont om een document op te slaan als PDF terwijl lettertype‑vervangingswaarschuwingen worden vastgelegd.*
+
+---
 
 ## Conclusie
 
-We hebben alles behandeld wat je nodig hebt om **document op te slaan als pdf** met Aspose.Words in C#. De tutorial toonde ook hoe je **word naar pdf kunt converteren**, **math latex kunt exporteren**, en **ontbrekende lettertypen kunt afhandelen**—alles terwijl je een toegankelijke PDF/UA‑2‑file produceert.  
+We hebben zojuist een **save document as PDF**‑workflow doorlopen die niet alleen een Word‑bestand naar PDF converteert, maar je ook volledige zichtbaarheid geeft in elke lettertype‑vervanging die optreedt. Door een warning‑callback te koppelen, maak je van een stille fallback bruikbare informatie — perfect voor omgevingen met zware compliance‑eisen waar elk glyph belangrijk is.
 
-Probeer de code uit, experimenteer met verschillende `PdfSaveOptions` (bijv. beeldcompressie, PDF/A‑2b), en integreer het in je document‑verwerkingsservice. Als je verder wilt gaan, overweeg dan om Aspose’s PDF‑specifieke bibliotheek te verkennen voor post‑processing of digitale handtekeningen.  
+Samengevat in één zin: *Laad het Word‑bestand, voeg een warning‑collectie toe, sla op als PDF, en iterate vervolgens de waarschuwingen om eventuele lettertype‑vervangingen te loggen.*  
 
-Heb je meer scenario's die je wilt aanpakken? Laat gerust een reactie achter of bekijk onze andere handleidingen over **PDF-manipulatie**, **beeld‑extractie**, en **batch‑conversie**. Veel plezier met coderen!
+Als je **convert Word to PDF** in andere contexten wilt doen, overweeg dan de geavanceerde opties van Aspose.Words zoals `PdfSaveOptions` voor afbeelding‑compressie, PDF/A‑compliance, of digitale handtekeningen
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

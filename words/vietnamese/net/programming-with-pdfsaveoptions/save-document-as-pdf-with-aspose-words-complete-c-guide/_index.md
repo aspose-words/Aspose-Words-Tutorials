@@ -1,25 +1,24 @@
 ---
 category: general
-date: 2026-05-01
-description: Học cách lưu tài liệu dưới dạng PDF bằng Aspose.Words trong C#. Bài hướng
-  dẫn cũng bao gồm chuyển đổi Word sang PDF, xuất LaTeX cho toán học và xử lý các
-  phông chữ thiếu.
+date: 2026-02-15
+description: Lưu tài liệu dưới dạng PDF bằng Aspose.Words trong C#. Tìm hiểu cách
+  chuyển đổi Word sang PDF, ghi lại cảnh báo phông chữ và đảm bảo đầu ra chính xác.
 draft: false
 keywords:
 - save document as pdf
 - convert word to pdf
-- export math latex
-- handle missing fonts
+- word to pdf conversion
+- export word as pdf
+- pdf conversion from word
 language: vi
-og_description: Lưu tài liệu dưới dạng PDF một cách dễ dàng với Aspose.Words. Hướng
-  dẫn này cũng chỉ cách chuyển đổi Word sang PDF, xuất LaTeX toán học và xử lý các
-  phông chữ thiếu.
-og_title: Lưu tài liệu thành PDF với Aspose.Words – Hướng dẫn C# đầy đủ
+og_description: Lưu tài liệu dưới dạng PDF bằng Aspose.Words trong C#. Hướng dẫn này
+  chỉ cách chuyển đổi Word sang PDF đồng thời xử lý các cảnh báo thay thế phông chữ.
+og_title: Lưu tài liệu dưới dạng PDF với Aspose.Words – Hướng dẫn C# đầy đủ
 tags:
 - Aspose.Words
 - C#
 - PDF generation
-title: Lưu tài liệu dưới dạng PDF với Aspose.Words – Hướng dẫn C# toàn diện
+title: Lưu tài liệu dưới dạng PDF với Aspose.Words – Hướng dẫn C# đầy đủ
 url: /vi/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-words-complete-c-guide/
 ---
 
@@ -27,228 +26,208 @@ url: /vi/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-wo
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lưu Tài Liệu dưới dạng PDF với Aspose.Words – Hướng Dẫn C# Đầy Đủ
+# Lưu tài liệu dưới dạng PDF với Aspose.Words – Hướng dẫn C# đầy đủ
 
-Bạn đã bao giờ tự hỏi **cách lưu tài liệu dưới dạng pdf** trực tiếp từ tệp Word mà không mất các tính năng truy cập? Bạn không phải là người duy nhất—các nhà phát triển luôn hỏi về một cách đáng tin cậy để chuyển đổi Word sang PDF đồng thời bảo tồn các công thức toán học và xử lý các phông chữ thiếu một cách khéo léo.  
+Bạn đã bao giờ cần **lưu tài liệu dưới dạng PDF** nhưng không chắc làm sao để giữ nguyên mọi phông chữ? Bạn không phải là người duy nhất. Trong nhiều dự án doanh nghiệp, các tệp Word chúng ta nhận được tham chiếu tới các phông chữ mà thực tế không được cài đặt trên máy chủ, và quá trình chuyển đổi sẽ âm thầm thay thế chúng.
 
-Trong tutorial này, chúng ta sẽ đi qua một giải pháp từng bước không chỉ **lưu tài liệu dưới dạng pdf** mà còn minh họa **chuyển đổi word sang pdf**, **xuất math latex**, và **xử lý phông chữ thiếu** bằng Aspose.Words for .NET mới nhất. Khi kết thúc, bạn sẽ có một chương trình C# sẵn sàng chạy, tạo ra các tệp PDF/UA‑2 tuân thủ, hoàn hảo cho các cuộc kiểm tra khả năng truy cập.
+Trong tutorial này, chúng ta sẽ đi qua một kịch bản **chuyển đổi Word sang PDF** không chỉ tạo ra một PDF hoàn hảo mà còn cho bạn biết chính xác phông chữ nào đã bị thay thế. Khi kết thúc, bạn sẽ có một chương trình C# sẵn sàng chạy, hiểu rõ lý do mỗi bước quan trọng, và một vài mẹo chuyên nghiệp bạn có thể áp dụng vào code của mình.
 
-## Những Gì Bạn Cần Chuẩn Bị
+> **Bạn sẽ nhận được:** một danh sách mã nguồn đầy đủ, giải thích về callback cảnh báo, đầu ra console mong đợi, và các đề xuất xử lý các trường hợp đặc biệt như thư mục phông chữ tùy chỉnh.
 
-- .NET 6 trở lên (mã hoạt động với .NET Core và .NET Framework cũng được)  
-- Aspose.Words for .NET 25.10 hoặc mới hơn – bạn có thể tải bản dùng thử miễn phí từ trang web Aspose  
-- Một tệp Word đơn giản (`input.docx`) chứa ít nhất một hình dạng nổi và một công thức toán học (để thấy tính năng export‑math‑latex hoạt động)  
-- Visual Studio 2022 (hoặc bất kỳ IDE nào bạn thích)
+---
 
-> **Mẹo chuyên nghiệp:** Nếu bạn đang chạy trên pipeline CI/CD, hãy thêm gói NuGet Aspose.Words vào tệp dự án của bạn:
+## Yêu cầu trước
 
-```xml
-<PackageReference Include="Aspose.Words" Version="25.10.0" />
-```
+Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
 
-Bây giờ, chúng ta cùng khám phá mã nguồn.
+- **.NET 6.0** (hoặc bất kỳ phiên bản .NET nào mới) – Aspose.Words hoạt động với .NET Framework, .NET Core và .NET 5/6.  
+- **Gói NuGet Aspose.Words for .NET** (`Install-Package Aspose.Words`) – thư viện thực hiện các công việc nặng.  
+- Một tệp Word tham chiếu tới phông chữ bị thiếu (ví dụ, `MissingFont.docx`). Nếu bạn chưa có, tạo một tài liệu đơn giản và đổi phông chữ sang một loại bạn biết không được cài đặt trên máy, như “Papyrus”.  
+- Một IDE bạn cảm thấy thoải mái – Visual Studio, Rider, hoặc thậm chí VS Code cũng được.
 
-## Bước 1: Tải Tài Liệu Nguồn với Khôi Phục Tự Động
+Đó là tất cả. Không cần SDK bổ sung, không cần COM interop, chỉ một dự án C# sạch sẽ.
 
-Khi làm việc với các tệp Word thực tế, bạn có thể gặp các phần bị hỏng hoặc tài nguyên thiếu. Bật chế độ khôi phục tự động đảm bảo quá trình tải không bao giờ ném ra ngoại lệ.
+---
+
+## Bước 1 – Tải tệp Word (Bước đầu trong Convert Word to PDF)
+
+Điều đầu tiên chúng ta cần là một đối tượng `Document` đại diện cho tệp Word nguồn. Aspose.Words đọc file `.docx` (hoặc `.doc`) và xây dựng mô hình trong bộ nhớ mà bạn có thể thao tác.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Loading;
-using Aspose.Words.Saving;
+using Aspose.Words.Warnings;
 
-// LoadOptions tells Aspose how to behave while reading the file.
-LoadOptions loadOptions = new LoadOptions
-{
-    // If the document is partially damaged, Aspose will try to fix it.
-    RecoveryMode = RecoveryMode.AutoRecover
-};
+// Path to the source Word document that may reference missing fonts.
+string sourcePath = @"C:\Docs\MissingFont.docx";
 
-// Replace "YOUR_DIRECTORY" with the folder that holds your .docx.
-Document document = new Document("YOUR_DIRECTORY/input.docx", loadOptions);
+// Create the Document instance – this loads the file into memory.
+Document document = new Document(sourcePath);
 ```
 
-**Tại sao điều này quan trọng:**  
-`RecoveryMode.AutoRecover` bảo vệ pipeline của bạn khỏi việc sập khi đầu vào bị sai định dạng, điều này đặc biệt hữu ích khi bạn **chuyển đổi word sang pdf** hàng loạt.
+> **Tại sao lại quan trọng:** Việc tải tệp sớm cho phép thư viện phân tích các tham chiếu phông chữ. Nếu một phông chữ bị thiếu, Aspose.Words sẽ sau này phát sinh cảnh báo `FontSubstitution`, mà chúng ta có thể bắt lại.
 
-## Bước 2: Cấu Hình Tùy Chọn Lưu PDF cho Khả Năng Truy Cập Đầy Đủ
+---
 
-PDF/UA‑2 là tiêu chuẩn ISO cho các PDF có khả năng truy cập. Bằng cách cấu hình một vài cờ, chúng ta nhận được tệp mà các trình đọc màn hình có thể điều hướng, đồng thời đảm bảo các công thức toán học được xuất dưới dạng LaTeX ẩn.
+## Bước 2 – Gắn Callback Cảnh báo để Ghi lại Phông chữ Thay thế
+
+Aspose.Words phát ra các cảnh báo thông qua một cơ chế callback. Bằng cách gán một `WarningInfoCollection` cho `document.WarningCallback`, chúng ta thu thập mọi cảnh báo xảy ra trong quá trình xử lý.
 
 ```csharp
-PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
-{
-    // Enforce PDF/UA‑2 compliance.
-    PdfCompliance = PdfCompliance.PdfUa2,
+// Create a collection that will hold any warnings generated.
+WarningInfoCollection warningCollection = new WarningInfoCollection();
 
-    // Floating shapes (like text boxes) become <Figure> tags – essential for accessibility.
-    ExportFloatingShapesAsInlineTag = true,
-
-    // Export Office Math as hidden LaTeX (requires Aspose.Words 25.10+).
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX
-};
+// Register the collection as the document's warning callback.
+document.WarningCallback = warningCollection;
 ```
 
-**Các điểm chính:**  
+> **Mẹo chuyên nghiệp:** Bạn cũng có thể tự triển khai `IWarningCallback` nếu cần ghi log tùy chỉnh hoặc muốn dừng lại khi gặp một số cảnh báo nhất định. Cách dùng collection nhanh chóng và phù hợp cho hầu hết các trường hợp.
 
-- **ExportFloatingShapesAsInlineTag** – đảm bảo PDF kết quả giữ nguyên bố cục gốc đồng thời vẫn đúng ngữ nghĩa.  
-- **OfficeMathExportMode.LaTeX** – đáp ứng yêu cầu **export math latex**, cho phép các công cụ downstream trích xuất công thức nếu cần.
+---
 
-## Bước 3: Thu Thập Cảnh Báo (ví dụ: Phông Chữ Thiếu)
+## Bước 3 – Lưu tài liệu dưới dạng PDF – Hoạt động Cốt lõi
 
-Phông chữ thiếu là một rắc rối phổ biến khi chuyển đổi tài liệu. Aspose.Words có thể báo cáo các vấn đề này qua một `WarningCallback`. Chúng ta sẽ thu thập chúng để bạn có thể ghi log hoặc xử lý sau này.
+Bây giờ chúng ta yêu cầu Aspose.Words render nội dung Word thành tệp PDF. Đây là thời điểm bất kỳ phông chữ nào bị thiếu sẽ được thay thế, và cảnh báo chúng ta thiết lập ở trên sẽ được kích hoạt.
 
 ```csharp
-// Simple collector that stores all warnings in a list.
-public class WarningInfoCollector : IWarningCallback
-{
-    public List<WarningInfo> Warnings { get; } = new();
+// Destination PDF path.
+string pdfPath = @"C:\Docs\Result.pdf";
 
-    public void Warning(WarningInfo info)
+// Perform the conversion. This call may trigger FontSubstitution warnings.
+document.Save(pdfPath);
+```
+
+> **Bên trong thực tế xảy ra gì?** Aspose.Words duyệt qua từng đoạn văn, tra cứu phông chữ yêu cầu, và nếu không tìm thấy, nó sẽ quay lại một phông chữ thay thế mặc định (thường là Arial). Cảnh báo sẽ cho bạn biết chính xác phông chữ nào bị thiếu và phông chữ nào đã được dùng thay thế.
+
+---
+
+## Bước 4 – Phân tích và Báo cáo Phông chữ Thay thế
+
+Sau khi thực hiện lưu, chúng ta lặp qua các cảnh báo đã thu thập. Nếu bất kỳ cảnh báo nào có loại `FontSubstitution`, chúng ta ép kiểu thành `FontSubstitutionWarning` để lấy tên phông chữ gốc và phông chữ thay thế.
+
+```csharp
+// Loop through all captured warnings.
+foreach (WarningInfo warning in warningCollection)
+{
+    // We're only interested in font substitution warnings.
+    if (warning.Type == WarningType.FontSubstitution)
     {
-        Warnings.Add(info);
+        var fontWarning = (FontSubstitutionWarning)warning;
+        Console.WriteLine(
+            $"Substituted '{fontWarning.OriginalFontName}' with '{fontWarning.SubstitutedFontName}'. Reason: {fontWarning.Reason}");
     }
 }
-
-// Attach the collector to the document.
-document.WarningCallback = new WarningInfoCollector();
 ```
 
-**Lý do bạn cần quan tâm:**  
-Nếu nguồn sử dụng một phông chữ không được cài trên máy chủ, PDF sẽ chuyển sang phông mặc định, có thể làm hỏng bố cục. Bằng cách **xử lý phông chữ thiếu** chúng ta có thể cảnh báo người dùng hoặc nhúng phông thay thế.
-
-## Bước 4: Lưu Tài Liệu dưới dạng PDF Có Khả Năng Truy Cập
-
-Bây giờ là thời khắc quyết định—thực hiện chuyển đổi.
-
-```csharp
-// Save the PDF to the output folder.
-document.Save("YOUR_DIRECTORY/output.pdf", pdfSaveOptions);
-```
-
-Nếu mọi thứ diễn ra suôn sẻ, bạn sẽ có một tệp PDF/UA‑2 chứa LaTeX ẩn cho mỗi công thức và đánh thẻ đúng cho các hình dạng nổi.
-
-## Bước 5: Xem Lại Các Cảnh Báo Đã Thu Thập (Tùy Chọn nhưng Được Khuyến Khích)
-
-Sau khi lưu, bạn có thể duyệt qua các cảnh báo đã thu thập và ghi chúng lại.
-
-```csharp
-var collector = (WarningInfoCollector)document.WarningCallback;
-
-foreach (var warning in collector.Warnings)
-{
-    Console.WriteLine($"{warning.Type}: {warning.Description}");
-}
-```
-
-Kết quả điển hình có thể trông như sau:
+**Ví dụ đầu ra console**
 
 ```
-FontSubstitution: Font "Calibri" was not found. Substituted with "Arial".
+Substituted 'Papyrus' with 'Arial Unicode MS'. Reason: Font not found on the system.
 ```
 
-Nhìn thấy những thông báo này sớm giúp bạn **xử lý phông chữ thiếu** trước khi chúng ảnh hưởng tới người dùng cuối.
+Nếu tài liệu nguồn chỉ sử dụng các phông chữ đã được cài đặt, vòng lặp sẽ kết thúc mà không in gì – một dấu hiệu sạch sẽ rằng thao tác **save document as PDF** đã thành công mà không có sự thay thế nào.
 
-## Ví Dụ Hoàn Chỉnh
+---
 
-Kết hợp tất cả lại, đây là chương trình hoàn chỉnh, sẵn sàng chạy. Thay thế các đường dẫn placeholder bằng của bạn.
+### Ví dụ Hoàn chỉnh
+
+Kết hợp tất cả lại, đây là chương trình đầy đủ, sẵn sàng chạy. Dán đoạn này vào một dự án console mới, điều chỉnh đường dẫn tệp, và nhấn **F5**.
 
 ```csharp
 using System;
-using System.Collections.Generic;
 using Aspose.Words;
-using Aspose.Words.Loading;
-using Aspose.Words.Saving;
+using Aspose.Words.Warnings;
 
-// ------------------------------------------------------------
-// Step 0: Helper class for warning collection (handles missing fonts)
-// ------------------------------------------------------------
-public class WarningInfoCollector : IWarningCallback
-{
-    public List<WarningInfo> Warnings { get; } = new();
-
-    public void Warning(WarningInfo info) => Warnings.Add(info);
-}
-
-// ------------------------------------------------------------
-// Main conversion routine
-// ------------------------------------------------------------
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Load the source .docx with auto‑recovery.
-        var loadOptions = new LoadOptions { RecoveryMode = RecoveryMode.AutoRecover };
-        var document = new Document("YOUR_DIRECTORY/input.docx", loadOptions);
+        // 1️⃣ Load the Word document that may reference missing fonts.
+        string sourcePath = @"C:\Docs\MissingFont.docx";
+        Document document = new Document(sourcePath);
 
-        // 2️⃣ Configure PDF/UA‑2 options (export math as LaTeX, handle floating shapes).
-        var pdfOptions = new PdfSaveOptions
+        // 2️⃣ Prepare a warning collection to capture any font substitution messages.
+        WarningInfoCollection warningCollection = new WarningInfoCollection();
+        document.WarningCallback = warningCollection;
+
+        // 3️⃣ Save the document as PDF – this step triggers the conversion.
+        string pdfPath = @"C:\Docs\Result.pdf";
+        document.Save(pdfPath);
+
+        // 4️⃣ Review the warnings and report any font substitutions.
+        foreach (WarningInfo warning in warningCollection)
         {
-            PdfCompliance = PdfCompliance.PdfUa2,
-            ExportFloatingShapesAsInlineTag = true,
-            OfficeMathExportMode = OfficeMathExportMode.LaTeX
-        };
-
-        // 3️⃣ Attach warning collector to capture missing‑font alerts.
-        document.WarningCallback = new WarningInfoCollector();
-
-        // 4️⃣ Perform the conversion.
-        document.Save("YOUR_DIRECTORY/output.pdf", pdfOptions);
-
-        // 5️⃣ (Optional) Print any warnings to the console.
-        var collector = (WarningInfoCollector)document.WarningCallback;
-        foreach (var w in collector.Warnings)
-        {
-            Console.WriteLine($"{w.Type}: {w.Description}");
+            if (warning.Type == WarningType.FontSubstitution)
+            {
+                var fontWarning = (FontSubstitutionWarning)warning;
+                Console.WriteLine(
+                    $"Substituted '{fontWarning.OriginalFontName}' with '{fontWarning.SubstitutedFontName}'. Reason: {fontWarning.Reason}");
+            }
         }
 
-        Console.WriteLine("✅ Conversion complete! PDF saved as output.pdf");
+        Console.WriteLine("Conversion finished. Check the PDF and console output for details.");
     }
 }
 ```
 
-**Kết quả mong đợi:**  
-- `output.pdf` tuân thủ PDF/UA‑2.  
-- Tất cả các hình dạng nổi được đánh thẻ là hình ảnh nội tuyến.  
-- Mỗi đối tượng Office Math xuất hiện dưới dạng LaTeX ẩn (có thể thấy khi kiểm tra cấu trúc PDF).  
-- Bất kỳ vấn đề liên quan đến phông chữ nào đều được in ra console, cho bạn cơ hội **xử lý phông chữ thiếu** trước khi phát hành tệp.
+> **Kết quả mong đợi:** Một tệp `Result.pdf` xuất hiện trong thư mục đích, và console in ra bất kỳ sự thay thế phông chữ nào đã xảy ra. Mở PDF bằng trình xem – bạn sẽ thấy bố cục giống hệt tệp Word gốc, ngoại trừ những phông chữ bị thiếu đã được thay thế.
 
-![Sơ đồ mô tả luồng từ Word → Aspose.Words → PDF có khả năng truy cập (lưu tài liệu dưới dạng pdf)](conversion-diagram.png "Sơ đồ luồng để lưu tài liệu dưới dạng pdf")
+---
 
-*Văn bản thay thế ảnh:* **Sơ đồ cách lưu tài liệu dưới dạng pdf bằng Aspose.Words**
+## Xử lý Các Trường Hợp Đặc Biệt và Các Biến Thể Thông Thường
 
-## Câu Hỏi Thường Gặp & Các Trường Hợp Cạnh
+### 1. Cung cấp Thư mục Phông chữ Tùy chỉnh
 
-### Nếu tôi đang dùng phiên bản Aspose.Words cũ hơn thì sao?
-
-Cờ `OfficeMathExportMode.LaTeX` được giới thiệu từ 25.10. Đối với các phiên bản cũ hơn, bạn vẫn có thể **chuyển đổi word sang pdf**, nhưng công thức sẽ được raster hoá thay vì xuất dưới dạng LaTeX. Nên nâng cấp để đạt khả năng truy cập tốt nhất.
-
-### Tôi có thể nhúng phông chữ tùy chỉnh để tránh fallback không?
-
-Có. Đặt `PdfSaveOptions.FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll` trước khi gọi `Save`. Điều này cũng giúp **xử lý phông chữ thiếu** bằng cách buộc PDF chứa các glyph cần thiết.
-
-### Làm sao kiểm tra tính tuân thủ PDF/UA‑2?
-
-Mở tệp trong Adobe Acrobat Pro → “Print Production” → “Preflight”. Chọn hồ sơ “PDF/A‑2b” hoặc “PDF/UA‑2”; Acrobat sẽ báo cáo bất kỳ vi phạm nào.
-
-### Còn các tệp Word được bảo vệ bằng mật khẩu thì sao?
-
-Tải tài liệu bằng một `LoadOptions` bao gồm `Password`. Ví dụ:
+Nếu môi trường triển khai của bạn có một bộ sưu tập phông chữ nội bộ, bạn có thể chỉ định Aspose.Words tới thư mục đó:
 
 ```csharp
-var loadOptions = new LoadOptions { Password = "mySecret" };
-var doc = new Document("protected.docx", loadOptions);
+FontSettings fontSettings = new FontSettings();
+fontSettings.SetFontsFolder(@"C:\MyCompany\Fonts", recursive: true);
+document.FontSettings = fontSettings;
 ```
 
-Phần còn lại của pipeline không thay đổi.
+Bây giờ thư viện sẽ tìm kiếm trong `C:\MyCompany\Fonts` trước khi quay lại các phông chữ hệ thống, giảm khả năng xảy ra thay thế không mong muốn.
 
-## Kết Luận
+### 2. Ẩn Cảnh báo Khi Bạn Không Cần Chúng
 
-Chúng ta đã bao quát mọi thứ cần thiết để **lưu tài liệu dưới dạng pdf** bằng Aspose.Words trong C#. Tutorial cũng đã minh họa cách **chuyển đổi word sang pdf**, **xuất math latex**, và **xử lý phông chữ thiếu**—tất cả đều tạo ra một tệp PDF/UA‑2 có khả năng truy cập.  
+Đôi khi bạn chỉ muốn một quá trình chuyển đổi im lặng. Bạn có thể thay thế `WarningInfoCollection` bằng một callback rỗng:
 
-Hãy chạy thử mã, thử nghiệm với các `PdfSaveOptions` khác nhau (ví dụ: nén hình ảnh, PDF/A‑2b), và tích hợp vào dịch vụ xử lý tài liệu của bạn. Nếu muốn đi sâu hơn, hãy khám phá thư viện PDF‑specific của Aspose để xử lý hậu kỳ hoặc ký số kỹ thuật số.
+```csharp
+document.WarningCallback = new WarningCallback(); // No‑op implementation
+```
 
-Bạn có thêm các kịch bản muốn giải quyết? Đừng ngần ngại để lại bình luận hoặc xem các hướng dẫn khác của chúng tôi về **PDF manipulation**, **image extraction**, và **batch conversion**. Chúc bạn lập trình vui vẻ!
+### 3. Chuyển Đổi Nhiều Tài liệu Trong Một Lô
+
+Bao bọc logic trong một vòng `foreach` duyệt qua thư mục chứa các tệp `.docx`. Đừng quên khởi tạo lại `WarningInfoCollection` cho mỗi tài liệu để giữ cảnh báo được tách biệt.
+
+```csharp
+foreach (var file in Directory.GetFiles(@"C:\Docs\Batch", "*.docx"))
+{
+    Document doc = new Document(file);
+    var warnings = new WarningInfoCollection();
+    doc.WarningCallback = warnings;
+    string outPdf = Path.ChangeExtension(file, ".pdf");
+    doc.Save(outPdf);
+    // Process warnings as shown earlier…
+}
+```
+
+---
+
+## Tổng quan Trực quan
+
+![Save document as PDF workflow diagram showing loading, warning capture, saving, and reporting steps](save-document-as-pdf-workflow.png)
+
+*Alt text: Sơ đồ minh họa các bước lưu tài liệu dưới dạng PDF đồng thời ghi lại các cảnh báo thay thế phông chữ.*
+
+---
+
+## Kết luận
+
+Chúng ta vừa đi qua một quy trình **save document as PDF** không chỉ chuyển đổi tệp Word sang PDF mà còn cung cấp cho bạn khả năng quan sát đầy đủ mọi phông chữ bị thay thế. Bằng cách gắn một callback cảnh báo, bạn biến một hành vi âm thầm thành thông tin có thể hành động – hoàn hảo cho các môi trường yêu cầu tuân thủ nghiêm ngặt, nơi mỗi glyph đều quan trọng.
+
+Tóm tắt ngắn gọn: *Tải tệp Word, gắn collection cảnh báo, lưu dưới dạng PDF, sau đó lặp qua các cảnh báo để ghi lại bất kỳ sự thay thế phông chữ nào.*  
+
+Nếu bạn muốn **convert Word to PDF** trong các ngữ cảnh khác, hãy khám phá các tùy chọn nâng cao của Aspose.Words như `PdfSaveOptions` để nén hình ảnh, tuân thủ PDF/A, hoặc ký số kỹ thuật số.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

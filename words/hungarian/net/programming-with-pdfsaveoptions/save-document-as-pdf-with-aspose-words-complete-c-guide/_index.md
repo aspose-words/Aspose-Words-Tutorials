@@ -1,25 +1,26 @@
 ---
 category: general
-date: 2026-05-01
-description: Ismerje meg, hogyan menthet dokumentumot PDF formátumba az Aspose.Words
-  használatával C#-ban. A tutorial emellett lefedi a Word PDF-re konvertálását, a
-  matematikai LaTeX exportálását és a hiányzó betűtípusok kezelését.
+date: 2026-02-15
+description: Dokumentum mentése PDF-ként az Aspose.Words használatával C#-ban. Tanulja
+  meg, hogyan konvertálja a Word-et PDF-be, rögzítse a betűtípusra vonatkozó figyelmeztetéseket,
+  és biztosítsa a pontos kimenetet.
 draft: false
 keywords:
 - save document as pdf
 - convert word to pdf
-- export math latex
-- handle missing fonts
+- word to pdf conversion
+- export word as pdf
+- pdf conversion from word
 language: hu
-og_description: Mentse a dokumentumot PDF formátumban könnyedén az Aspose.Words segítségével.
-  Ez az útmutató bemutatja, hogyan konvertálhatja a Word-et PDF-re, exportálhatja
-  a matematikai LaTeX-et, és kezelheti a hiányzó betűtípusokat.
+og_description: Dokumentum mentése PDF formátumban az Aspose.Words használatával C#-ban.
+  Ez az útmutató bemutatja, hogyan konvertálhatja a Word dokumentumot PDF-re, miközben
+  kezeli a betűkészlet helyettesítési figyelmeztetéseket.
 og_title: Dokumentum mentése PDF‑be az Aspose.Words segítségével – Teljes C# útmutató
 tags:
 - Aspose.Words
 - C#
 - PDF generation
-title: Dokumentum mentése PDF‑ként az Aspose.Words segítségével – Teljes C# útmutató
+title: Dokumentum mentése PDF-ként az Aspose.Words segítségével – Teljes C# útmutató
 url: /hu/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-words-complete-c-guide/
 ---
 
@@ -29,226 +30,206 @@ url: /hu/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-wo
 
 # Dokumentum mentése PDF-be az Aspose.Words segítségével – Teljes C# útmutató
 
-Gondolkodtál már azon, **hogyan mentheted el a dokumentumot PDF‑ként** közvetlenül egy Word‑fájlból anélkül, hogy elveszítenéd a hozzáférhetőségi funkciókat? Nem vagy egyedül – a fejlesztők folyamatosan keresik a megbízható módot a Word‑PDF konvertálásra, miközben megőrzik a matematikai egyenleteket és elegánsan kezelik a hiányzó betűtípusokat.
+Valaha szükséged volt **dokumentum mentése PDF-be**, de nem tudtad, hogyan tartsd meg minden betűtípust? Nem vagy egyedül. Sok vállalati projektben a kapott Word fájlok olyan betűtípusokra hivatkoznak, amelyek egyszerűen nincsenek telepítve a szerveren, és a konverzió csendben helyettesíti őket.  
 
-Ebben az útmutatóban lépésről‑lépésre bemutatunk egy megoldást, amely nem csak **save document as pdf**, hanem demonstrálja a **convert word to pdf**, **export math latex**, és **handle missing fonts** funkciókat a legújabb Aspose.Words for .NET segítségével. A végére egy kész‑C# programod lesz, amely PDF/UA‑2 kompatibilis fájlokat állít elő, tökéletesen alkalmas hozzáférhetőségi auditokra.
+Ebben az útmutatóban végigvezetünk egy **convert Word to PDF** szcenárión, amely nem csak tökéletes PDF-et hoz létre, hanem pontosan megmondja, mely betűtípusok lettek helyettesítve. A végére egy azonnal futtatható C# programmal, a lépések jelentőségének tiszta megértésével és néhány profi tippel fogsz rendelkezni, amelyeket beépíthetsz a saját kódodba.
 
-## What You’ll Need
+> **Mit kapsz:** egy teljes kódlistát, a figyelmeztetési visszahívás magyarázatát, a várt konzolkimenetet, valamint javaslatokat a speciális esetek, például egyedi betűtárgyak kezelésére.
 
-- .NET 6 vagy újabb (a kód .NET Core‑dal és .NET Framework‑kel is működik)  
-- Aspose.Words for .NET 25.10 vagy újabb – ingyenes próbaverziót a Aspose weboldaláról tölthetsz le  
-- Egy egyszerű Word‑dokumentum (`input.docx`), amely legalább egy lebegő alakzatot és egy matematikai egyenletet tartalmaz (a **export‑math‑latex** funkció megtekintéséhez)  
-- Visual Studio 2022 (vagy bármely kedvelt IDE)
+---
 
-> **Pro tip:** Ha CI/CD pipeline‑t használsz, add hozzá az Aspose.Words NuGet csomagot a projektfájlodhoz:
+## Előfeltételek
 
-```xml
-<PackageReference Include="Aspose.Words" Version="25.10.0" />
-```
+Mielőtt belevágnánk, győződj meg róla, hogy a következők rendelkezésre állnak:
 
-Most merüljünk el a kódban.
+- **.NET 6.0** (vagy bármely friss .NET verzió) – az Aspose.Words működik .NET Framework, .NET Core és .NET 5/6 környezetben.  
+- **Aspose.Words for .NET** NuGet csomag (`Install-Package Aspose.Words`) – a könyvtár, amely a nehéz munkát elvégzi.  
+- Egy Word fájl, amely hiányzó betűtípusra hivatkozik (pl. `MissingFont.docx`). Ha nincs ilyen, hozz létre egy egyszerű dokumentumot, és állítsd be a betűtípust egy olyanra, amely biztosan nincs telepítve a gépeden, például a „Papyrus” betűtípusra.  
+- Egy kedvelt IDE – Visual Studio, Rider vagy akár VS Code is megfelelő.
 
-## Step 1: Load the Source Document with Automatic Recovery
+Ennyi. Nincs szükség extra SDK-ra, COM interopra, csak egy tiszta C# projekt.
 
-Valós Word‑fájlok esetén előfordulhatnak sérült szakaszok vagy hiányzó erőforrások. Az automatikus helyreállítás engedélyezése biztosítja, hogy a betöltés soha ne dobjon kivételt.
+---
+
+## 1. lépés – Word fájl betöltése (Az első lépés a Convert Word to PDF folyamatban)
+
+Az első dolog, amire szükségünk van, egy `Document` objektum, amely a forrás Word fájlt képviseli. Az Aspose.Words beolvassa a `.docx` (vagy `.doc`) fájlt, és egy memóriában lévő modellt épít, amelyet manipulálhatsz.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Loading;
-using Aspose.Words.Saving;
+using Aspose.Words.Warnings;
 
-// LoadOptions tells Aspose how to behave while reading the file.
-LoadOptions loadOptions = new LoadOptions
-{
-    // If the document is partially damaged, Aspose will try to fix it.
-    RecoveryMode = RecoveryMode.AutoRecover
-};
+// Path to the source Word document that may reference missing fonts.
+string sourcePath = @"C:\Docs\MissingFont.docx";
 
-// Replace "YOUR_DIRECTORY" with the folder that holds your .docx.
-Document document = new Document("YOUR_DIRECTORY/input.docx", loadOptions);
+// Create the Document instance – this loads the file into memory.
+Document document = new Document(sourcePath);
 ```
 
-**Miért fontos:**  
-`RecoveryMode.AutoRecover` megvédi a pipeline‑t a hibás bemenetek miatti összeomlástól, ami különösen hasznos, ha **convert word to pdf** tömegesen végzed.
+> **Miért fontos:** A fájl korai betöltése lehetővé teszi a könyvtár számára a betűtípus-referenciák elemzését. Ha egy betűtípus hiányzik, az Aspose.Words később `FontSubstitution` figyelmeztetést generál, amelyet el tudunk kapni.
 
-## Step 2: Set Up PDF Save Options for Full Accessibility
+---
 
-A PDF/UA‑2 az ISO szabvány az akadálymentes PDF‑ekhez. Néhány jelző beállításával olyan fájlt kapunk, amelyet a képernyőolvasók navigálni tudnak, és biztosítjuk, hogy a matematikai egyenletek rejtett LaTeX‑ként legyenek exportálva.
+## 2. lépés – Figyelmeztetési visszahívás csatolása a betűtípus-helyettesítések rögzítéséhez
+
+Az Aspose.Words figyelmeztetéseket ad vissza egy visszahívási mechanizmuson keresztül. Egy `WarningInfoCollection` hozzárendelésével a `document.WarningCallback`-hez minden, a feldolgozás során keletkező figyelmeztetést összegyűjtünk.
 
 ```csharp
-PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
-{
-    // Enforce PDF/UA‑2 compliance.
-    PdfCompliance = PdfCompliance.PdfUa2,
+// Create a collection that will hold any warnings generated.
+WarningInfoCollection warningCollection = new WarningInfoCollection();
 
-    // Floating shapes (like text boxes) become <Figure> tags – essential for accessibility.
-    ExportFloatingShapesAsInlineTag = true,
-
-    // Export Office Math as hidden LaTeX (requires Aspose.Words 25.10+).
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX
-};
+// Register the collection as the document's warning callback.
+document.WarningCallback = warningCollection;
 ```
 
-**Főbb pontok:**  
+> **Pro tipp:** Ha egyedi naplózást vagy bizonyos figyelmeztetések esetén megszakítást szeretnél, saját `IWarningCallback` implementációt is készíthetsz. A gyűjtemény alapú megoldás gyors és a legtöbb esetben tökéletes.
 
-- **ExportFloatingShapesAsInlineTag** – biztosítja, hogy a létrejövő PDF megőrizze az eredeti elrendezést, miközben szemantikus szempontból helyes marad.  
-- **OfficeMathExportMode.LaTeX** – teljesíti a **export math latex** követelményt, lehetővé téve, hogy a downstream eszközök kinyerjék az egyenleteket, ha szükséges.
+---
 
-## Step 3: Capture Warnings (e.g., Missing Fonts)
+## 3. lépés – Dokumentum mentése PDF-be – A központi művelet
 
-A hiányzó betűtípusok gyakori fejfájás a dokumentumok konvertálásakor. Az Aspose.Words egy `WarningCallback`‑en keresztül jelentheti ezeket a problémákat. Összegyűjtjük őket, hogy később naplózhassuk vagy kezelhessük őket.
+Most azt mondjuk az Aspose.Words-nak, hogy a Word tartalmat PDF fájlba renderelje. Ebben a pillanatban minden hiányzó betűtípus helyettesítésre kerül, és a korábban beállított figyelmeztetés aktiválódik.
 
 ```csharp
-// Simple collector that stores all warnings in a list.
-public class WarningInfoCollector : IWarningCallback
-{
-    public List<WarningInfo> Warnings { get; } = new();
+// Destination PDF path.
+string pdfPath = @"C:\Docs\Result.pdf";
 
-    public void Warning(WarningInfo info)
+// Perform the conversion. This call may trigger FontSubstitution warnings.
+document.Save(pdfPath);
+```
+
+> **Mi történik a háttérben?** Az Aspose.Words soronként végigjárja a bekezdéseket, megkeresi a szükséges betűtípust, és ha nem találja, egy alapértelmezett helyettesítést (általában Arial) használ. A figyelmeztetés pontosan megadja, melyik betűtípus hiányzott és melyik lett helyettesítve.
+
+---
+
+## 4. lépés – Betűtípus-helyettesítések elemzése és jelentése
+
+A mentési művelet után végigiterálunk a gyűjtött figyelmeztetéseken. Ha egy figyelmeztetés típusa `FontSubstitution`, akkor `FontSubstitutionWarning`-ra cast-eljük, hogy kinyerjük az eredeti és a helyettesített betűtípus nevét.
+
+```csharp
+// Loop through all captured warnings.
+foreach (WarningInfo warning in warningCollection)
+{
+    // We're only interested in font substitution warnings.
+    if (warning.Type == WarningType.FontSubstitution)
     {
-        Warnings.Add(info);
+        var fontWarning = (FontSubstitutionWarning)warning;
+        Console.WriteLine(
+            $"Substituted '{fontWarning.OriginalFontName}' with '{fontWarning.SubstitutedFontName}'. Reason: {fontWarning.Reason}");
     }
 }
-
-// Attach the collector to the document.
-document.WarningCallback = new WarningInfoCollector();
 ```
 
-**Miért érdekel:**  
-Ha a forrás olyan betűtípust használ, amely nincs telepítve a szerveren, a PDF alapértelmezett betűtípusra vált, ami esetleg tönkreteheti az elrendezést. **handle missing fonts** segítségével felhívhatjuk a felhasználó figyelmét, vagy beágyazhatunk egy helyettesítőt.
-
-## Step 4: Save the Document as an Accessible PDF
-
-Itt jön a döntő pillanat – a tényleges konvertálás.
-
-```csharp
-// Save the PDF to the output folder.
-document.Save("YOUR_DIRECTORY/output.pdf", pdfSaveOptions);
-```
-
-Ha minden rendben megy, egy PDF/UA‑2 fájlt kapsz, amely rejtett LaTeX‑et tartalmaz minden egyenlethez, és megfelelő címkézést a lebegő alakzatokhoz.
-
-## Step 5: Review Captured Warnings (Optional but Recommended)
-
-A mentés után végigiterálhatunk a gyűjtött figyelmeztetéseken és naplózhatjuk őket.
-
-```csharp
-var collector = (WarningInfoCollector)document.WarningCallback;
-
-foreach (var warning in collector.Warnings)
-{
-    Console.WriteLine($"{warning.Type}: {warning.Description}");
-}
-```
-
-A tipikus kimenet például így nézhet ki:
+**Példa konzolkimenet**
 
 ```
-FontSubstitution: Font "Calibri" was not found. Substituted with "Arial".
+Substituted 'Papyrus' with 'Arial Unicode MS'. Reason: Font not found on the system.
 ```
 
-Ezeknek az üzeneteknek a korai megtekintése segít **handle missing fonts** még azelőtt, hogy a végfelhasználókat érintenék.
+Ha a forrásdokumentum csak telepített betűtípusokat használ, a ciklus egyszerűen befejeződik anélkül, hogy bármit kiírna – ez egy tiszta jel arra, hogy a **save document as PDF** művelet sikeresen lefutott helyettesítések nélkül.
 
-## Full Working Example
+---
 
-Mindent egy helyen, itt a teljes, futtatható program. Cseréld ki a helyőrző útvonalakat a sajátjaidra.
+### Teljes működő példa
+
+Az összes lépést egy helyen, egy kész, futtatható programként. Másold be egy új konzolos projektbe, állítsd be a fájlutakat, és nyomd meg az **F5**-öt.
 
 ```csharp
 using System;
-using System.Collections.Generic;
 using Aspose.Words;
-using Aspose.Words.Loading;
-using Aspose.Words.Saving;
+using Aspose.Words.Warnings;
 
-// ------------------------------------------------------------
-// Step 0: Helper class for warning collection (handles missing fonts)
-// ------------------------------------------------------------
-public class WarningInfoCollector : IWarningCallback
-{
-    public List<WarningInfo> Warnings { get; } = new();
-
-    public void Warning(WarningInfo info) => Warnings.Add(info);
-}
-
-// ------------------------------------------------------------
-// Main conversion routine
-// ------------------------------------------------------------
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Load the source .docx with auto‑recovery.
-        var loadOptions = new LoadOptions { RecoveryMode = RecoveryMode.AutoRecover };
-        var document = new Document("YOUR_DIRECTORY/input.docx", loadOptions);
+        // 1️⃣ Load the Word document that may reference missing fonts.
+        string sourcePath = @"C:\Docs\MissingFont.docx";
+        Document document = new Document(sourcePath);
 
-        // 2️⃣ Configure PDF/UA‑2 options (export math as LaTeX, handle floating shapes).
-        var pdfOptions = new PdfSaveOptions
+        // 2️⃣ Prepare a warning collection to capture any font substitution messages.
+        WarningInfoCollection warningCollection = new WarningInfoCollection();
+        document.WarningCallback = warningCollection;
+
+        // 3️⃣ Save the document as PDF – this step triggers the conversion.
+        string pdfPath = @"C:\Docs\Result.pdf";
+        document.Save(pdfPath);
+
+        // 4️⃣ Review the warnings and report any font substitutions.
+        foreach (WarningInfo warning in warningCollection)
         {
-            PdfCompliance = PdfCompliance.PdfUa2,
-            ExportFloatingShapesAsInlineTag = true,
-            OfficeMathExportMode = OfficeMathExportMode.LaTeX
-        };
-
-        // 3️⃣ Attach warning collector to capture missing‑font alerts.
-        document.WarningCallback = new WarningInfoCollector();
-
-        // 4️⃣ Perform the conversion.
-        document.Save("YOUR_DIRECTORY/output.pdf", pdfOptions);
-
-        // 5️⃣ (Optional) Print any warnings to the console.
-        var collector = (WarningInfoCollector)document.WarningCallback;
-        foreach (var w in collector.Warnings)
-        {
-            Console.WriteLine($"{w.Type}: {w.Description}");
+            if (warning.Type == WarningType.FontSubstitution)
+            {
+                var fontWarning = (FontSubstitutionWarning)warning;
+                Console.WriteLine(
+                    $"Substituted '{fontWarning.OriginalFontName}' with '{fontWarning.SubstitutedFontName}'. Reason: {fontWarning.Reason}");
+            }
         }
 
-        Console.WriteLine("✅ Conversion complete! PDF saved as output.pdf");
+        Console.WriteLine("Conversion finished. Check the PDF and console output for details.");
     }
 }
 ```
 
-**Várható eredmény:**  
-- `output.pdf` megfelel a PDF/UA‑2 szabványnak.  
-- Minden lebegő alakzat inline ábraként van címkézve.  
-- Minden Office Math objektum rejtett LaTeX‑ként jelenik meg (látható, ha a PDF struktúráját vizsgálod).  
-- Bármely betűtípussal kapcsolatos probléma a konzolra kerül kiírásra, így **handle missing fonts** még a fájl kiadása előtt.
+> **Várt eredmény:** A `Result.pdf` fájl megjelenik a célmappában, a konzol pedig kiírja az esetlegesen előforduló betűtípus-helyettesítéseket. Nyisd meg a PDF-et egy megjelenítőben – ugyanazt a kinézetet kell látnod, mint az eredeti Word fájlban, kivéve a hiányzó betűtípusok helyettesítését.
 
-![Diagram showing the flow from Word → Aspose.Words → Accessible PDF (save document as pdf)](conversion-diagram.png "Flow diagram for saving document as pdf")
+---
 
-*Image alt text:* **Diagram of how to save document as pdf using Aspose.Words**
+## Speciális esetek és gyakori variációk kezelése
 
-## Common Questions & Edge Cases
+### 1. Egyedi betűtárgy mappa megadása
 
-### What if I’m using an older Aspose.Words version?
-
-Az `OfficeMathExportMode.LaTeX` jelző a 25.10‑es verzióban került bevezetésre. Régebbi kiadásoknál is **convert word to pdf** lehetséges, de a matematika raszteres lesz a LaTeX exportálása helyett. A legjobb hozzáférhetőségért frissíts.
-
-### Can I embed custom fonts to avoid fallback?
-
-Igen. Állítsd be a `PdfSaveOptions.FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll` értéket a `Save` hívása előtt. Ez szintén segít **handle missing fonts**, mivel a PDF tartalmazni fogja a szükséges glifeket.
-
-### How do I verify the PDF/UA‑2 compliance?
-
-Nyisd meg a fájlt az Adobe Acrobat Pro‑ban → “Print Production” → “Preflight”. Válaszd a “PDF/A‑2b” vagy “PDF/UA‑2” profilt; az Acrobat jelenteni fog minden esetleges megsértést.
-
-### What about password‑protected Word files?
-
-Töltsd be a dokumentumot egy `LoadOptions`‑szal, amely tartalmazza a `Password`‑t. Példa:
+Ha a telepítési környezetednek saját, vállalati betűtárgygyűjteménye van, az Aspose.Words erre a mappára mutathat:
 
 ```csharp
-var loadOptions = new LoadOptions { Password = "mySecret" };
-var doc = new Document("protected.docx", loadOptions);
+FontSettings fontSettings = new FontSettings();
+fontSettings.SetFontsFolder(@"C:\MyCompany\Fonts", recursive: true);
+document.FontSettings = fontSettings;
 ```
 
-A pipeline többi része változatlan marad.
+Ezután a könyvtár először a `C:\MyCompany\Fonts` mappát keresi, mielőtt a rendszerbetűtípusokra támaszkodna, ezáltal csökkentve a nem kívánt helyettesítések esélyét.
 
-## Conclusion
+### 2. Figyelmeztetések elnyomása, ha nincs rájuk szükség
 
-Mindent lefedtünk, ami ahhoz kell, hogy **save document as pdf** használatával Aspose.Words‑ben C#‑ban dolgozz. Az útmutató bemutatta, hogyan **convert word to pdf**, **export math latex**, és **handle missing fonts**, miközben egy hozzáférhető PDF/UA‑2 fájlt állít elő.  
+Néha csak egy csendes konverzióra van szükség. Cseréld le a `WarningInfoCollection`-t egy üres visszahívásra:
 
-Próbáld ki a kódot, kísérletezz különböző `PdfSaveOptions`‑okkal (pl. képtömörítés, PDF/A‑2b), és integráld a dokumentum‑feldolgozó szolgáltatásodba. Ha tovább szeretnél menni, nézd meg az Aspose PDF‑specifikus könyvtárát a poszt‑feldolgozáshoz vagy digitális aláírásokhoz.
+```csharp
+document.WarningCallback = new WarningCallback(); // No‑op implementation
+```
 
-Van még olyan szituáció, amit szeretnél megoldani? Nyugodtan írj kommentet, vagy nézd meg a többi útmutatónkat a **PDF manipulation**, **image extraction**, és **batch conversion** témakörökben. Boldog kódolást!
+### 3. Több dokumentum konvertálása kötegben
+
+A logikát egy `foreach` ciklusba helyezheted, amely egy `.docx` fájlokból álló könyvtárat dolgoz fel. Ne felejtsd el minden egyes dokumentumhoz újra inicializálni a `WarningInfoCollection`-t, hogy a figyelmeztetések elkülönüljenek.
+
+```csharp
+foreach (var file in Directory.GetFiles(@"C:\Docs\Batch", "*.docx"))
+{
+    Document doc = new Document(file);
+    var warnings = new WarningInfoCollection();
+    doc.WarningCallback = warnings;
+    string outPdf = Path.ChangeExtension(file, ".pdf");
+    doc.Save(outPdf);
+    // Process warnings as shown earlier…
+}
+```
+
+---
+
+## Vizuális áttekintés
+
+![Save document as PDF workflow diagram showing loading, warning capture, saving, and reporting steps](save-document-as-pdf-workflow.png)
+
+*Alt text: Diagram, amely bemutatja a dokumentum PDF-be mentésének lépéseit a betűtípus-helyettesítési figyelmeztetések rögzítése közben.*
+
+---
+
+## Összegzés
+
+Áttekintettük a **save document as PDF** munkafolyamatot, amely nem csak Word fájlt konvertál PDF-be, hanem teljes átláthatóságot biztosít a betűtípus-helyettesítésekkel kapcsolatban is. Egy figyelmeztetési visszahívás csatolásával a csendes fallback információvá válik – tökéletes megoldás olyan, szabályozás‑érzékeny környezetekben, ahol minden karakter számít.
+
+Egy mondatban összefoglalva: *Töltsd be a Word fájlt, csatolj egy figyelmeztetési gyűjteményt, ments PDF-be, majd iteráld a figyelmeztetéseket a betűtípus-helyettesítések naplózásához.*  
+
+Ha más kontextusban szeretnél **convert Word to PDF** megoldást, érdemes megvizsgálni az Aspose.Words fejlett beállításait, például a `PdfSaveOptions`-t képtömörítéshez, PDF/A megfelelőséghez vagy digitális aláírásokhoz.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

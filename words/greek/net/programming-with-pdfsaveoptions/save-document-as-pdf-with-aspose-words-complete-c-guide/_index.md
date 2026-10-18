@@ -1,19 +1,20 @@
 ---
 category: general
-date: 2026-05-01
-description: Μάθετε πώς να αποθηκεύσετε το έγγραφο ως PDF χρησιμοποιώντας το Aspose.Words
-  σε C#. Το σεμινάριο καλύπτει επίσης τη μετατροπή Word σε PDF, την εξαγωγή μαθηματικών
-  σε LaTeX και τη διαχείριση ελλιπών γραμματοσειρών.
+date: 2026-02-15
+description: Αποθηκεύστε το έγγραφο ως PDF χρησιμοποιώντας το Aspose.Words σε C#.
+  Μάθετε πώς να μετατρέπετε το Word σε PDF, να καταγράφετε προειδοποιήσεις γραμματοσειρών
+  και να εξασφαλίζετε ακριβή έξοδο.
 draft: false
 keywords:
 - save document as pdf
 - convert word to pdf
-- export math latex
-- handle missing fonts
+- word to pdf conversion
+- export word as pdf
+- pdf conversion from word
 language: el
-og_description: Αποθηκεύστε το έγγραφο ως PDF χωρίς κόπο με το Aspose.Words. Αυτός
-  ο οδηγός δείχνει επίσης πώς να μετατρέψετε το Word σε PDF, να εξάγετε μαθηματικό
-  LaTeX και να διαχειριστείτε τις ελλιπείς γραμματοσειρές.
+og_description: Αποθηκεύστε το έγγραφο ως PDF χρησιμοποιώντας το Aspose.Words σε C#.
+  Αυτός ο οδηγός δείχνει πώς να μετατρέψετε το Word σε PDF ενώ διαχειρίζεστε προειδοποιήσεις
+  αντικατάστασης γραμματοσειρών.
 og_title: Αποθήκευση εγγράφου ως PDF με το Aspose.Words – Πλήρης οδηγός C#
 tags:
 - Aspose.Words
@@ -27,226 +28,208 @@ url: /el/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-wo
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Αποθήκευση Εγγράφου ως PDF με Aspose.Words – Πλήρης Οδηγός C# 
+# Αποθήκευση εγγράφου ως PDF με Aspose.Words – Πλήρης οδηγός C# 
 
-Έχετε αναρωτηθεί ποτέ **πώς να αποθηκεύσετε το έγγραφο ως pdf** απευθείας από ένα αρχείο Word χωρίς να χάσετε τα χαρακτηριστικά προσβασιμότητας; Δεν είστε μόνοι—οι προγραμματιστές ζητούν συνεχώς έναν αξιόπιστο τρόπο για να μετατρέψουν το Word σε PDF διατηρώντας τις μαθηματικές εξισώσεις και αντιμετωπίζοντας με χάρη τις ελλιπείς γραμματοσειρές.  
+Έχετε χρειαστεί ποτέ να **αποθηκεύσετε έγγραφο ως PDF** αλλά δεν ήσασταν σίγουροι πώς να διατηρήσετε κάθε γραμματοσειρά αμετάβλητη; Δεν είστε μόνοι. Σε πολλά εταιρικά έργα τα αρχεία Word που λαμβάνουμε αναφέρονται σε γραμματοσειρές που απλώς δεν είναι εγκατεστημένες στον διακομιστή, και η μετατροπή τις αντικαθιστά σιωπηρά.  
 
-Σε αυτό το tutorial θα περάσουμε βήμα‑βήμα από μια λύση που όχι μόνο **αποθηκεύει το έγγραφο ως pdf** αλλά επίσης δείχνει **convert word to pdf**, **export math latex**, και **handle missing fonts** χρησιμοποιώντας την πιο πρόσφατη έκδοση του Aspose.Words για .NET. Στο τέλος θα έχετε ένα έτοιμο προς εκτέλεση πρόγραμμα C# που παράγει αρχεία συμβατά με PDF/UA‑2, ιδανικά για ελέγχους προσβασιμότητας.
+Σε αυτό το tutorial θα περάσουμε από ένα σενάριο **convert Word to PDF** που όχι μόνο δημιουργεί ένα τέλειο PDF αλλά και σας λέει ακριβώς ποιες γραμματοσειρές αντικαταστάθηκαν. Στο τέλος θα έχετε ένα έτοιμο‑για‑εκτέλεση πρόγραμμα C#, μια σαφή κατανόηση του γιατί κάθε βήμα είναι σημαντικό, και μερικές επαγγελματικές συμβουλές που μπορείτε να ενσωματώσετε στον κώδικά σας.
 
-## Τι Θα Χρειαστείτε
+> **Τι θα λάβετε:** μια πλήρη λίστα κώδικα, εξήγηση του warning callback, αναμενόμενη έξοδος κονσόλας, και προτάσεις για διαχείριση ειδικών περιπτώσεων όπως προσαρμοσμένοι φάκελοι γραμματοσειρών.
 
-- .NET 6 ή νεότερο (ο κώδικας λειτουργεί επίσης με .NET Core και .NET Framework)  
-- Aspose.Words for .NET 25.10 ή νεότερο – μπορείτε να κατεβάσετε μια δωρεάν δοκιμή από την ιστοσελίδα Aspose  
-- Ένα απλό έγγραφο Word (`input.docx`) που περιέχει τουλάχιστον ένα αιωρούμενο σχήμα και μια μαθηματική εξίσωση (για να δείτε τη λειτουργία export‑math‑latex σε δράση)  
-- Visual Studio 2022 (ή οποιοδήποτε IDE προτιμάτε)
+---
 
-> **Συμβουλή επαγγελματία:** Αν βρίσκεστε σε CI/CD pipeline, προσθέστε το πακέτο NuGet Aspose.Words στο αρχείο του έργου σας:
+## Προαπαιτούμενα
 
-```xml
-<PackageReference Include="Aspose.Words" Version="25.10.0" />
-```
+Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε:
 
-Τώρα ας βουτήξουμε στον κώδικα.
+- **.NET 6.0** (ή οποιαδήποτε πρόσφατη έκδοση .NET) – το Aspose.Words λειτουργεί με .NET Framework, .NET Core και .NET 5/6.  
+- **Aspose.Words for .NET** πακέτο NuGet (`Install-Package Aspose.Words`) – η βιβλιοθήκη που κάνει τη βαριά δουλειά.  
+- Ένα αρχείο Word που αναφέρει μια ελλιπή γραμματοσειρά (π.χ., `MissingFont.docx`). Αν δεν έχετε κάποιο, δημιουργήστε ένα απλό έγγραφο και αλλάξτε τη γραμματοσειρά σε κάτι που ξέρετε ότι δεν είναι εγκατεστημένο στο σύστημά σας, όπως “Papyrus”.  
+- Ένα IDE με το οποίο αισθάνεστε άνετα – Visual Studio, Rider ή ακόμη και VS Code θα δουλέψουν.  
 
-## Βήμα 1: Φόρτωση του Πηγαίου Εγγράφου με Αυτόματη Ανάκτηση
+Αυτό είναι όλο. Χωρίς επιπλέον SDKs, χωρίς COM interop, μόνο ένα καθαρό έργο C#.
 
-Κατά την επεξεργασία πραγματικών αρχείων Word μπορεί να συναντήσετε κατεστραμμένα τμήματα ή ελλιπείς πόρους. Η ενεργοποίηση της αυτόματης ανάκτησης εξασφαλίζει ότι η διαδικασία φόρτωσης δεν θα πετάξει ποτέ εξαίρεση.
+---
+
+## Βήμα 1 – Φόρτωση του αρχείου Word (Πρώτο βήμα στο Convert Word to PDF)
+
+Το πρώτο πράγμα που χρειαζόμαστε είναι ένα αντικείμενο `Document` που αντιπροσωπεύει το πηγαίο αρχείο Word. Το Aspose.Words διαβάζει το `.docx` (ή `.doc`) και δημιουργεί ένα μοντέλο στη μνήμη που μπορείτε να επεξεργαστείτε.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Loading;
-using Aspose.Words.Saving;
+using Aspose.Words.Warnings;
 
-// LoadOptions tells Aspose how to behave while reading the file.
-LoadOptions loadOptions = new LoadOptions
-{
-    // If the document is partially damaged, Aspose will try to fix it.
-    RecoveryMode = RecoveryMode.AutoRecover
-};
+// Path to the source Word document that may reference missing fonts.
+string sourcePath = @"C:\Docs\MissingFont.docx";
 
-// Replace "YOUR_DIRECTORY" with the folder that holds your .docx.
-Document document = new Document("YOUR_DIRECTORY/input.docx", loadOptions);
+// Create the Document instance – this loads the file into memory.
+Document document = new Document(sourcePath);
 ```
 
-**Γιατί είναι σημαντικό:**  
-`RecoveryMode.AutoRecover` προστατεύει το pipeline σας από κατάρρευση σε εσφαλμένα δεδομένα, κάτι που είναι ιδιαίτερα χρήσιμο όταν **convert word to pdf** μαζικά.
+> **Γιατί είναι σημαντικό:** Η πρώιμη φόρτωση του αρχείου επιτρέπει στη βιβλιοθήκη να αναλύσει τις αναφορές γραμματοσειρών. Αν λείπει μια γραμματοσειρά, το Aspose.Words θα εκδώσει αργότερα μια προειδοποίηση `FontSubstitution`, την οποία μπορούμε να συλλάβουμε.
 
-## Βήμα 2: Ρύθμιση Επιλογών Αποθήκευσης PDF για Πλήρη Προσβασιμότητα
+---
 
-Το PDF/UA‑2 είναι το πρότυπο ISO για προσβάσιμα PDF. Με τη ρύθμιση μερικών σημάνσεων (flags) λαμβάνουμε ένα αρχείο που οι αναγνώστες οθόνης μπορούν να περιηγηθούν, και επίσης διασφαλίζουμε ότι οι μαθηματικές εξισώσεις εξάγονται ως κρυφό LaTeX.
+## Βήμα 2 – Προσθήκη Warning Callback για σύλληψη αντικαταστάσεων γραμματοσειρών
+
+Το Aspose.Words εκδίδει προειδοποιήσεις μέσω ενός μηχανισμού callback. Αναθέτοντας ένα `WarningInfoCollection` στο `document.WarningCallback`, συλλέγουμε κάθε προειδοποίηση που συμβαίνει κατά την επεξεργασία.
 
 ```csharp
-PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
-{
-    // Enforce PDF/UA‑2 compliance.
-    PdfCompliance = PdfCompliance.PdfUa2,
+// Create a collection that will hold any warnings generated.
+WarningInfoCollection warningCollection = new WarningInfoCollection();
 
-    // Floating shapes (like text boxes) become <Figure> tags – essential for accessibility.
-    ExportFloatingShapesAsInlineTag = true,
-
-    // Export Office Math as hidden LaTeX (requires Aspose.Words 25.10+).
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX
-};
+// Register the collection as the document's warning callback.
+document.WarningCallback = warningCollection;
 ```
 
-**Κύρια σημεία:**  
+> **Συμβουλή επαγγελματία:** Μπορείτε επίσης να υλοποιήσετε το `IWarningCallback` μόνοι σας αν χρειάζεστε προσαρμοσμένο logging ή θέλετε να διακόψετε σε ορισμένες προειδοποιήσεις. Η προσέγγιση με τη συλλογή είναι γρήγορη και τέλεια για τις περισσότερες περιπτώσεις.
 
-- **ExportFloatingShapesAsInlineTag** – εξασφαλίζει ότι το παραγόμενο PDF σέβεται την αρχική διάταξη ενώ παραμένει σημασιολογικά σωστό.  
-- **OfficeMathExportMode.LaTeX** – ικανοποιεί την απαίτηση **export math latex**, επιτρέποντας στα επόμενα εργαλεία να εξάγουν τις εξισώσεις αν χρειαστεί.
+---
 
-## Βήμα 3: Συλλογή Προειδοποιήσεων (π.χ., Ελλιπείς Γραμματοσειρές)
+## Βήμα 3 – Αποθήκευση εγγράφου ως PDF – Η βασική λειτουργία
 
-Οι ελλιπείς γραμματοσειρές είναι ένα κοινό πρόβλημα κατά τη μετατροπή εγγράφων. Το Aspose.Words μπορεί να αναφέρει αυτά τα ζητήματα μέσω ενός `WarningCallback`. Θα τα συλλέξουμε ώστε να μπορείτε να τα καταγράψετε ή να δράσετε αργότερα.
+Τώρα λέμε στο Aspose.Words να αποδώσει το περιεχόμενο του Word σε αρχείο PDF. Αυτή είναι η στιγμή που οποιαδήποτε ελλιπής γραμματοσειρά αντικαθίσταται, και η προειδοποίηση που ρυθμίσαμε νωρίτερα ενεργοποιείται.
 
 ```csharp
-// Simple collector that stores all warnings in a list.
-public class WarningInfoCollector : IWarningCallback
-{
-    public List<WarningInfo> Warnings { get; } = new();
+// Destination PDF path.
+string pdfPath = @"C:\Docs\Result.pdf";
 
-    public void Warning(WarningInfo info)
+// Perform the conversion. This call may trigger FontSubstitution warnings.
+document.Save(pdfPath);
+```
+
+> **Τι συμβαίνει στο παρασκήνιο;** Το Aspose.Words διασχίζει κάθε παράγραφο, αναζητά τη απαιτούμενη γραμματοσειρά, και αν δεν τη βρει, επιστρέφει σε μια προεπιλεγμένη αντικατάσταση (συνήθως Arial). Η προειδοποίηση σας λέει ακριβώς ποια γραμματοσειρά έλειπε και ποια χρησιμοποιήθηκε αντί αυτού.
+
+---
+
+## Βήμα 4 – Ανάλυση και αναφορά αντικαταστάσεων γραμματοσειρών
+
+Μετά τη λειτουργία αποθήκευσης, επαναλαμβάνουμε τις συλλεγμένες προειδοποιήσεις. Αν κάποια προειδοποίηση είναι τύπου `FontSubstitution`, την μετατρέπουμε σε `FontSubstitutionWarning` για να εξάγουμε τα ονόματα της αρχικής και της αντικατεστημένης γραμματοσειράς.
+
+```csharp
+// Loop through all captured warnings.
+foreach (WarningInfo warning in warningCollection)
+{
+    // We're only interested in font substitution warnings.
+    if (warning.Type == WarningType.FontSubstitution)
     {
-        Warnings.Add(info);
+        var fontWarning = (FontSubstitutionWarning)warning;
+        Console.WriteLine(
+            $"Substituted '{fontWarning.OriginalFontName}' with '{fontWarning.SubstitutedFontName}'. Reason: {fontWarning.Reason}");
     }
 }
-
-// Attach the collector to the document.
-document.WarningCallback = new WarningInfoCollector();
 ```
 
-**Γιατί σας ενδιαφέρει:**  
-Αν η πηγή χρησιμοποιεί γραμματοσειρά που δεν είναι εγκατεστημένη στον διακομιστή, το PDF θα επιστρέψει σε προεπιλεγμένη γραμματοσειρά, ενδεχομένως να σπάσει τη διάταξη. Με το **handle missing fonts** μπορούμε να ειδοποιήσουμε τον χρήστη ή να ενσωματώσουμε μια εναλλακτική.
-
-## Βήμα 4: Αποθήκευση του Εγγράφου ως Προσβάσιμο PDF
-
-Τώρα η στιγμή της αλήθειας—να εκτελέσουμε πραγματικά τη μετατροπή.
-
-```csharp
-// Save the PDF to the output folder.
-document.Save("YOUR_DIRECTORY/output.pdf", pdfSaveOptions);
-```
-
-Αν όλα πάνε ομαλά, θα έχετε ένα αρχείο PDF/UA‑2 που περιέχει κρυφό LaTeX για κάθε εξίσωση και σωστή σήμανση για τα αιωρούμενα σχήματα.
-
-## Βήμα 5: Ανασκόπηση Συλλεγμένων Προειδοποιήσεων (Προαιρετικό αλλά Συνιστάται)
-
-Μετά τη λειτουργία αποθήκευσης, μπορείτε να επαναλάβετε τις συλλεγμένες προειδοποιήσεις και να τις καταγράψετε.
-
-```csharp
-var collector = (WarningInfoCollector)document.WarningCallback;
-
-foreach (var warning in collector.Warnings)
-{
-    Console.WriteLine($"{warning.Type}: {warning.Description}");
-}
-```
-
-Η τυπική έξοδος μπορεί να μοιάζει με:
+**Δείγμα εξόδου κονσόλας**
 
 ```
-FontSubstitution: Font "Calibri" was not found. Substituted with "Arial".
+Substituted 'Papyrus' with 'Arial Unicode MS'. Reason: Font not found on the system.
 ```
 
-Η έγκαιρη εμφάνιση αυτών των μηνυμάτων σας βοηθά να **handle missing fonts** πριν επηρεάσουν τους τελικούς χρήστες.
+Αν το πηγαίο έγγραφο χρησιμοποιεί μόνο εγκατεστημένες γραμματοσειρές, η επανάληψη ολοκληρώνεται απλώς χωρίς να τυπώσει κάτι – ένα καθαρό σημάδι ότι η λειτουργία **save document as PDF** ολοκληρώθηκε χωρίς αντικαταστάσεις.
 
-## Πλήρες Παράδειγμα Λειτουργίας
+---
 
-Συνδυάζοντας όλα, εδώ είναι το πλήρες, έτοιμο‑για‑εκτέλεση πρόγραμμα. Αντικαταστήστε τις διαδρομές placeholder με τις δικές σας.
+### Πλήρες λειτουργικό παράδειγμα
+
+Συνδυάζοντας όλα, εδώ είναι το πλήρες, έτοιμο‑για‑εκτέλεση πρόγραμμα. Επικολλήστε το σε ένα νέο έργο κονσόλας, προσαρμόστε τις διαδρομές αρχείων, και πατήστε **F5**.
 
 ```csharp
 using System;
-using System.Collections.Generic;
 using Aspose.Words;
-using Aspose.Words.Loading;
-using Aspose.Words.Saving;
+using Aspose.Words.Warnings;
 
-// ------------------------------------------------------------
-// Step 0: Helper class for warning collection (handles missing fonts)
-// ------------------------------------------------------------
-public class WarningInfoCollector : IWarningCallback
-{
-    public List<WarningInfo> Warnings { get; } = new();
-
-    public void Warning(WarningInfo info) => Warnings.Add(info);
-}
-
-// ------------------------------------------------------------
-// Main conversion routine
-// ------------------------------------------------------------
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Load the source .docx with auto‑recovery.
-        var loadOptions = new LoadOptions { RecoveryMode = RecoveryMode.AutoRecover };
-        var document = new Document("YOUR_DIRECTORY/input.docx", loadOptions);
+        // 1️⃣ Load the Word document that may reference missing fonts.
+        string sourcePath = @"C:\Docs\MissingFont.docx";
+        Document document = new Document(sourcePath);
 
-        // 2️⃣ Configure PDF/UA‑2 options (export math as LaTeX, handle floating shapes).
-        var pdfOptions = new PdfSaveOptions
+        // 2️⃣ Prepare a warning collection to capture any font substitution messages.
+        WarningInfoCollection warningCollection = new WarningInfoCollection();
+        document.WarningCallback = warningCollection;
+
+        // 3️⃣ Save the document as PDF – this step triggers the conversion.
+        string pdfPath = @"C:\Docs\Result.pdf";
+        document.Save(pdfPath);
+
+        // 4️⃣ Review the warnings and report any font substitutions.
+        foreach (WarningInfo warning in warningCollection)
         {
-            PdfCompliance = PdfCompliance.PdfUa2,
-            ExportFloatingShapesAsInlineTag = true,
-            OfficeMathExportMode = OfficeMathExportMode.LaTeX
-        };
-
-        // 3️⃣ Attach warning collector to capture missing‑font alerts.
-        document.WarningCallback = new WarningInfoCollector();
-
-        // 4️⃣ Perform the conversion.
-        document.Save("YOUR_DIRECTORY/output.pdf", pdfOptions);
-
-        // 5️⃣ (Optional) Print any warnings to the console.
-        var collector = (WarningInfoCollector)document.WarningCallback;
-        foreach (var w in collector.Warnings)
-        {
-            Console.WriteLine($"{w.Type}: {w.Description}");
+            if (warning.Type == WarningType.FontSubstitution)
+            {
+                var fontWarning = (FontSubstitutionWarning)warning;
+                Console.WriteLine(
+                    $"Substituted '{fontWarning.OriginalFontName}' with '{fontWarning.SubstitutedFontName}'. Reason: {fontWarning.Reason}");
+            }
         }
 
-        Console.WriteLine("✅ Conversion complete! PDF saved as output.pdf");
+        Console.WriteLine("Conversion finished. Check the PDF and console output for details.");
     }
 }
 ```
 
-**Αναμενόμενο αποτέλεσμα:**  
-- `output.pdf` συμμορφώνεται με PDF/UA‑2.  
-- Όλα τα αιωρούμενα σχήματα είναι σημειωμένα ως ενσωματωμένες εικόνες.  
-- Κάθε αντικείμενο Office Math εμφανίζεται ως κρυφό LaTeX (ορατό όταν ελέγχετε τη δομή του PDF).  
-- Οποιοδήποτε πρόβλημα σχετικό με γραμματοσειρές εκτυπώνεται στην κονσόλα, δίνοντάς σας την ευκαιρία να **handle missing fonts** πριν τη διανομή του αρχείου.
+> **Αναμενόμενο αποτέλεσμα:** Ένα αρχείο `Result.pdf` εμφανίζεται στον φάκελο προορισμού, και η κονσόλα τυπώνει τυχόν αντικαταστάσεις γραμματοσειρών που συνέβησαν. Ανοίξτε το PDF σε έναν προβολέα – θα πρέπει να δείτε την ίδια διάταξη με το αρχικό αρχείο Word, εκτός από τις ελλιπείς γραμματοσειρές που αντικαταστάθηκαν.
 
-![Διάγραμμα που δείχνει τη ροή από Word → Aspose.Words → Προσβάσιμο PDF (save document as pdf)](conversion-diagram.png "Διάγραμμα ροής για την αποθήκευση εγγράφου ως pdf")
+---
 
-*Κείμενο alt εικόνας:* **Διάγραμμα του πώς να αποθηκεύσετε το έγγραφο ως pdf χρησιμοποιώντας το Aspose.Words**
+## Διαχείριση ειδικών περιπτώσεων και κοινών παραλλαγών
 
-## Συχνές Ερωτήσεις & Ακραίες Περιπτώσεις
+### 1. Παροχή προσαρμοσμένου φακέλου γραμματοσειρών
 
-### Τι γίνεται αν χρησιμοποιώ παλαιότερη έκδοση του Aspose.Words;
-
-Η σημαία `OfficeMathExportMode.LaTeX` εισήχθη στην έκδοση 25.10. Για παλαιότερες εκδόσεις μπορείτε ακόμη να **convert word to pdf**, αλλά τα μαθηματικά θα είναι rasterized αντί να εξαχθούν ως LaTeX. Αναβαθμίστε για τη βέλτιστη προσβασιμότητα.
-
-### Μπορώ να ενσωματώσω προσαρμοσμένες γραμματοσειρές για να αποφύγω την εναλλακτική;
-
-Ναι. Ορίστε `PdfSaveOptions.FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll` πριν καλέσετε το `Save`. Αυτό επίσης βοηθά το **handle missing fonts** εξαναγκάζοντας το PDF να περιέχει τα απαιτούμενα γλύφους.
-
-### Πώς μπορώ να επαληθεύσω τη συμμόρφωση PDF/UA‑2;
-
-Ανοίξτε το αρχείο στο Adobe Acrobat Pro → “Print Production” → “Preflight”. Επιλέξτε το προφίλ “PDF/A‑2b” ή “PDF/UA‑2”; το Acrobat θα αναφέρει τυχόν παραβάσεις.
-
-### Τι γίνεται με αρχεία Word προστατευμένα με κωδικό;
-
-Φορτώστε το έγγραφο με ένα `LoadOptions` που περιλαμβάνει `Password`. Παράδειγμα:
+Αν το περιβάλλον ανάπτυξης σας έχει μια ιδιωτική συλλογή εταιρικών γραμματοσειρών, μπορείτε να κατευθύνετε το Aspose.Words σε αυτόν τον φάκελο:
 
 ```csharp
-var loadOptions = new LoadOptions { Password = "mySecret" };
-var doc = new Document("protected.docx", loadOptions);
+FontSettings fontSettings = new FontSettings();
+fontSettings.SetFontsFolder(@"C:\MyCompany\Fonts", recursive: true);
+document.FontSettings = fontSettings;
 ```
+
+Τώρα η βιβλιοθήκη θα ψάξει το `C:\MyCompany\Fonts` πριν επιστρέψει στις συστημικές γραμματοσειρές, μειώνοντας την πιθανότητα ανεπιθύμητων αντικαταστάσεων.
+
+### 2. Καταστολή προειδοποιήσεων όταν δεν τις χρειάζεστε
+
+Μερικές φορές θέλετε απλώς μια σιωπηλή μετατροπή. Μπορείτε να αντικαταστήσετε το `WarningInfoCollection` με ένα κενό callback:
+
+```csharp
+document.WarningCallback = new WarningCallback(); // No‑op implementation
+```
+
+### 3. Μετατροπή πολλαπλών εγγράφων σε παρτίδα
+
+Τυλίξτε τη λογική σε έναν βρόχο `foreach` πάνω σε έναν φάκελο με αρχεία `.docx`. Θυμηθείτε να επανεκκινήσετε το `WarningInfoCollection` για κάθε έγγραφο ώστε οι προειδοποιήσεις να παραμείνουν απομονωμένες.
+
+```csharp
+foreach (var file in Directory.GetFiles(@"C:\Docs\Batch", "*.docx"))
+{
+    Document doc = new Document(file);
+    var warnings = new WarningInfoCollection();
+    doc.WarningCallback = warnings;
+    string outPdf = Path.ChangeExtension(file, ".pdf");
+    doc.Save(outPdf);
+    // Process warnings as shown earlier…
+}
+```
+
+---
+
+## Οπτική επισκόπηση
+
+![Διάγραμμα ροής αποθήκευσης εγγράφου ως PDF που δείχνει τα βήματα φόρτωσης, σύλληψη προειδοποιήσεων, αποθήκευσης και αναφοράς](save-document-as-pdf-workflow.png)
+
+*Alt text: Διάγραμμα που απεικονίζει τα βήματα για την αποθήκευση εγγράφου ως PDF ενώ καταγράφονται οι προειδοποιήσεις αντικατάστασης γραμματοσειρών.*
+
+---
 
 ## Συμπέρασμα
 
-Καλύψαμε όλα όσα χρειάζεστε για να **save document as pdf** χρησιμοποιώντας το Aspose.Words σε C#. Το tutorial επίσης έδειξε πώς να **convert word to pdf**, **export math latex**, και **handle missing fonts**—όλα ενώ παράγουμε ένα προσβάσιμο αρχείο PDF/UA‑2.  
+Μόλις περάσαμε από μια ροή εργασίας **save document as PDF** που όχι μόνο μετατρέπει ένα αρχείο Word σε PDF αλλά και σας παρέχει πλήρη διαφάνεια σε οποιαδήποτε αντικατάσταση γραμματοσειράς συμβαίνει. Συνδέοντας ένα warning callback, μετατρέπετε μια σιωπηλή εναλλακτική λύση σε επεξεργάσιμες πληροφορίες — ιδανικό για περιβάλλοντα με αυστηρές απαιτήσεις συμμόρφωσης όπου κάθε γλύφη έχει σημασία.
 
-Δοκιμάστε τον κώδικα, πειραματιστείτε με διαφορετικές `PdfSaveOptions` (π.χ., συμπίεση εικόνας, PDF/A‑2b), και ενσωματώστε το στην υπηρεσία επεξεργασίας εγγράφων σας. Αν χρειάζεστε περισσότερα, εξετάστε τη βιβλιοθήκη PDF‑specific της Aspose για μετα-επεξεργασία ή ψηφιακές υπογραφές.  
+Για να το συνοψίσουμε σε μία πρόταση: *Φορτώστε το αρχείο Word, συνδέστε μια συλλογή προειδοποιήσεων, αποθηκεύστε ως PDF, και στη συνέχεια επαναλάβετε τις προειδοποιήσεις για να καταγράψετε τυχόν αντικαταστάσεις γραμματοσειρών.*  
 
-Έχετε περισσότερα σενάρια που θέλετε να αντιμετωπίσετε; Μη διστάσετε να αφήσετε ένα σχόλιο ή να δείτε τις άλλες οδηγίες μας για **PDF manipulation**, **image extraction**, και **batch conversion**. Καλή προγραμματιστική!
+Αν ψάχνετε να **convert Word to PDF** σε άλλα πλαίσια, εξετάστε τις προχωρημένες επιλογές του Aspose.Words όπως `PdfSaveOptions` για συμπίεση εικόνων, συμμόρφωση PDF/A ή ψηφιακές υπογραφές
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,19 +1,19 @@
 ---
 category: general
-date: 2026-05-01
-description: Dowiedz się, jak zapisać dokument jako PDF przy użyciu Aspose.Words w
-  C#. Poradnik obejmuje również konwersję Worda do PDF, eksport matematyki w formacie
-  LaTeX oraz obsługę brakujących czcionek.
+date: 2026-02-15
+description: Zapisz dokument jako PDF przy użyciu Aspose.Words w C#. Dowiedz się,
+  jak konwertować Worda na PDF, przechwytywać ostrzeżenia o czcionkach i zapewnić
+  dokładny wynik.
 draft: false
 keywords:
 - save document as pdf
 - convert word to pdf
-- export math latex
-- handle missing fonts
+- word to pdf conversion
+- export word as pdf
+- pdf conversion from word
 language: pl
-og_description: Zapisz dokument jako PDF bez wysiłku dzięki Aspose.Words. Ten przewodnik
-  pokazuje także, jak konwertować Word na PDF, eksportować LaTeX matematyczny oraz
-  radzić sobie z brakującymi czcionkami.
+og_description: Zapisz dokument jako PDF przy użyciu Aspose.Words w C#. Ten przewodnik
+  pokazuje, jak konwertować Word na PDF, obsługując ostrzeżenia o podstawianiu czcionek.
 og_title: Zapisz dokument jako PDF przy użyciu Aspose.Words – Kompletny przewodnik
   C#
 tags:
@@ -24,230 +24,217 @@ title: Zapisz dokument jako PDF przy użyciu Aspose.Words – Kompletny przewodn
 url: /pl/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-words-complete-c-guide/
 ---
 
+
+
+
+
+
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zapisz dokument jako PDF przy użyciu Aspose.Words – Kompletny przewodnik C#  
+# Zapisz dokument jako PDF przy użyciu Aspose.Words – Kompletny przewodnik C#
 
-Zastanawiałeś się kiedyś **jak zapisać dokument jako pdf** bezpośrednio z pliku Word, nie tracąc funkcji dostępności? Nie jesteś jedyny — programiści stale pytają o niezawodny sposób konwersji Word do PDF przy zachowaniu równań matematycznych i eleganckim obsługiwaniu brakujących czcionek.  
+Kiedykolwiek potrzebowałeś **zapisania dokumentu jako PDF**, ale nie byłeś pewien, jak zachować wszystkie czcionki? Nie jesteś sam. W wielu projektach korporacyjnych otrzymywane pliki Word odwołują się do czcionek, które po prostu nie są zainstalowane na serwerze, a konwersja cicho je zamienia.
 
-W tym samouczku przeprowadzimy krok po kroku rozwiązanie, które nie tylko **zapisuje dokument jako pdf**, ale także demonstruje **konwertować word do pdf**, **eksport matematyki do latex**, oraz **obsługę brakujących czcionek** przy użyciu najnowszego Aspose.Words dla .NET. Po zakończeniu będziesz mieć gotowy do uruchomienia program w C#, który generuje pliki zgodne z PDF/UA‑2, idealne do audytów dostępności.
+W tym tutorialu przeprowadzimy Cię przez scenariusz **konwersji Word do PDF**, który nie tylko tworzy idealny plik PDF, ale także informuje dokładnie, które czcionki zostały podmienione. Po zakończeniu będziesz mieć gotowy do uruchomienia program w C#, jasne zrozumienie, dlaczego każdy krok ma znaczenie, oraz kilka profesjonalnych wskazówek, które możesz wprowadzić do własnego kodu.
 
-## Czego będziesz potrzebować
+> **Co otrzymasz:** pełną listę kodu, wyjaśnienie callbacku ostrzeżeń, oczekiwany wynik w konsoli oraz sugestie dotyczące obsługi przypadków brzegowych, takich jak własne foldery czcionek.
 
-- .NET 6 lub nowszy (kod działa również z .NET Core i .NET Framework)  
-- Aspose.Words dla .NET 25.10 lub nowszy – możesz pobrać darmową wersję próbną ze strony Aspose  
-- Skromny dokument Word (`input.docx`) zawierający przynajmniej jedną pływającą figurę i równanie matematyczne (aby zobaczyć działanie funkcji export‑math‑latex)  
-- Visual Studio 2022 (lub dowolne IDE)
+---
 
-> **Wskazówka:** Jeśli pracujesz w pipeline CI/CD, dodaj pakiet NuGet Aspose.Words do pliku projektu:
+## Wymagania wstępne
 
-```xml
-<PackageReference Include="Aspose.Words" Version="25.10.0" />
-```
+Zanim zaczniemy, upewnij się, że masz:
 
-## Krok 1: Załaduj dokument źródłowy z automatycznym odzyskiwaniem
+- **.NET 6.0** (lub dowolną nowszą wersję .NET) – Aspose.Words działa z .NET Framework, .NET Core oraz .NET 5/6.  
+- Pakiet NuGet **Aspose.Words for .NET** (`Install-Package Aspose.Words`) – biblioteka wykonująca ciężką pracę.  
+- Plik Word, który odwołuje się do brakującej czcionki (np. `MissingFont.docx`). Jeśli go nie masz, utwórz prosty dokument i zmień czcionkę na taką, której wiesz, że nie ma zainstalowanej na Twoim komputerze, np. „Papyrus”.  
+- IDE, z którym czujesz się komfortowo – Visual Studio, Rider lub nawet VS Code będą wystarczające.
 
-Podczas pracy z rzeczywistymi plikami Word możesz napotkać uszkodzone sekcje lub brakujące zasoby. Włączenie automatycznego odzyskiwania zapewnia, że proces ładowania nie zgłosi wyjątku.
+To wszystko. Nie potrzebujesz dodatkowych SDK, żadnego COM interop, po prostu czysty projekt C#.
+
+---
+
+## Krok 1 – Wczytaj plik Word (pierwszy ruch w konwersji Word do PDF)
+
+Pierwszą rzeczą, której potrzebujemy, jest obiekt `Document` reprezentujący źródłowy plik Word. Aspose.Words odczytuje plik `.docx` (lub `.doc`) i buduje model w pamięci, którym możesz manipulować.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Loading;
-using Aspose.Words.Saving;
+using Aspose.Words.Warnings;
 
-// LoadOptions tells Aspose how to behave while reading the file.
-LoadOptions loadOptions = new LoadOptions
-{
-    // If the document is partially damaged, Aspose will try to fix it.
-    RecoveryMode = RecoveryMode.AutoRecover
-};
+// Path to the source Word document that may reference missing fonts.
+string sourcePath = @"C:\Docs\MissingFont.docx";
 
-// Replace "YOUR_DIRECTORY" with the folder that holds your .docx.
-Document document = new Document("YOUR_DIRECTORY/input.docx", loadOptions);
+// Create the Document instance – this loads the file into memory.
+Document document = new Document(sourcePath);
 ```
 
-**Dlaczego to ważne:**  
-`RecoveryMode.AutoRecover` chroni Twój pipeline przed awarią przy niepoprawnym wejściu, co jest szczególnie przydatne, gdy **konwertujesz word do pdf** masowo.
+> **Dlaczego to ważne:** Wczytanie pliku na wczesnym etapie pozwala bibliotece przeanalizować odwołania do czcionek. Jeśli jakaś czcionka jest brakująca, Aspose.Words później zgłosi ostrzeżenie `FontSubstitution`, które możemy przechwycić.
 
-## Krok 2: Skonfiguruj opcje zapisu PDF dla pełnej dostępności
+---
 
-PDF/UA‑2 to standard ISO dla dostępnych PDF‑ów. Konfigurując kilka flag, uzyskujemy plik, który czytniki ekranu mogą nawigować, a także zapewniamy, że równania matematyczne są eksportowane jako ukryty LaTeX.
+## Krok 2 – Dołącz callback ostrzeżeń, aby przechwycić podmiany czcionek
+
+Aspose.Words emituje ostrzeżenia za pomocą mechanizmu callback. Przypisując `WarningInfoCollection` do `document.WarningCallback`, zbieramy każde ostrzeżenie pojawiające się podczas przetwarzania.
 
 ```csharp
-PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
-{
-    // Enforce PDF/UA‑2 compliance.
-    PdfCompliance = PdfCompliance.PdfUa2,
+// Create a collection that will hold any warnings generated.
+WarningInfoCollection warningCollection = new WarningInfoCollection();
 
-    // Floating shapes (like text boxes) become <Figure> tags – essential for accessibility.
-    ExportFloatingShapesAsInlineTag = true,
-
-    // Export Office Math as hidden LaTeX (requires Aspose.Words 25.10+).
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX
-};
+// Register the collection as the document's warning callback.
+document.WarningCallback = warningCollection;
 ```
 
-**Key points:**  
+> **Wskazówka dla profesjonalistów:** Możesz także samodzielnie zaimplementować `IWarningCallback`, jeśli potrzebujesz własnego logowania lub chcesz przerwać działanie przy określonych ostrzeżeniach. Podejście z kolekcją jest szybkie i idealne w większości scenariuszy.
 
-- **ExportFloatingShapesAsInlineTag** – zapewnia, że wynikowy PDF zachowuje oryginalny układ, pozostając jednocześnie semantycznie poprawny.  
-- **OfficeMathExportMode.LaTeX** – spełnia wymóg **export math latex**, umożliwiając narzędziom downstream wyodrębnianie równań w razie potrzeby.
+---
 
-## Krok 3: Przechwyć ostrzeżenia (np. brakujące czcionki)
+## Krok 3 – Zapisz dokument jako PDF – operacja kluczowa
 
-Brakujące czcionki to częsta bolączka przy konwersji dokumentów. Aspose.Words może zgłaszać te problemy za pomocą `WarningCallback`. Zbierzemy je, abyś mógł je później zalogować lub podjąć odpowiednie działania.
+Teraz instruujemy Aspose.Words, aby wyrenderował zawartość Worda do pliku PDF. To moment, w którym każda brakująca czcionka zostaje podmieniona, a wcześniej ustawione ostrzeżenie zostaje wywołane.
 
 ```csharp
-// Simple collector that stores all warnings in a list.
-public class WarningInfoCollector : IWarningCallback
-{
-    public List<WarningInfo> Warnings { get; } = new();
+// Destination PDF path.
+string pdfPath = @"C:\Docs\Result.pdf";
 
-    public void Warning(WarningInfo info)
+// Perform the conversion. This call may trigger FontSubstitution warnings.
+document.Save(pdfPath);
+```
+
+> **Co się dzieje „pod maską”?** Aspose.Words przechodzi przez każdy akapit, wyszukuje wymaganą czcionkę i jeśli jej nie znajdzie, przechodzi na domyślną podmianę (zwykle Arial). Ostrzeżenie informuje dokładnie, która czcionka była brakująca i jaka została użyta zamiast niej.
+
+---
+
+## Krok 4 – Analiza i raportowanie podmian czcionek
+
+Po operacji zapisu iterujemy zebrane ostrzeżenia. Jeśli któreś z nich jest typu `FontSubstitution`, rzutujemy je na `FontSubstitutionWarning`, aby wyciągnąć nazwy oryginalnej i podmienionej czcionki.
+
+```csharp
+// Loop through all captured warnings.
+foreach (WarningInfo warning in warningCollection)
+{
+    // We're only interested in font substitution warnings.
+    if (warning.Type == WarningType.FontSubstitution)
     {
-        Warnings.Add(info);
+        var fontWarning = (FontSubstitutionWarning)warning;
+        Console.WriteLine(
+            $"Substituted '{fontWarning.OriginalFontName}' with '{fontWarning.SubstitutedFontName}'. Reason: {fontWarning.Reason}");
     }
 }
-
-// Attach the collector to the document.
-document.WarningCallback = new WarningInfoCollector();
 ```
 
-**Dlaczego to ważne:**  
-Jeśli źródło używa czcionki, która nie jest zainstalowana na serwerze, PDF przełączy się na domyślną czcionkę, co może zepsuć układ. Dzięki **handle missing fonts** możemy ostrzec użytkownika lub osadzić zamiennik.
-
-## Krok 4: Zapisz dokument jako dostępny PDF
-
-Teraz moment prawdy — faktyczne wykonanie konwersji.
-
-```csharp
-// Save the PDF to the output folder.
-document.Save("YOUR_DIRECTORY/output.pdf", pdfSaveOptions);
-```
-
-Jeśli wszystko pójdzie gładko, otrzymasz plik PDF/UA‑2 zawierający ukryty LaTeX dla każdego równania oraz odpowiednie tagowanie pływających figur.
-
-## Krok 5: Przejrzyj przechwycone ostrzeżenia (opcjonalnie, ale zalecane)
-
-Po operacji zapisu możesz przeiterować zebrane ostrzeżenia i je zalogować.
-
-```csharp
-var collector = (WarningInfoCollector)document.WarningCallback;
-
-foreach (var warning in collector.Warnings)
-{
-    Console.WriteLine($"{warning.Type}: {warning.Description}");
-}
-```
-
-Typowy wynik może wyglądać tak:
+**Przykładowy wynik w konsoli**
 
 ```
-FontSubstitution: Font "Calibri" was not found. Substituted with "Arial".
+Substituted 'Papyrus' with 'Arial Unicode MS'. Reason: Font not found on the system.
 ```
 
-Wczesne zobaczenie tych komunikatów pomaga **handle missing fonts** zanim wpłyną na końcowych użytkowników.
+Jeśli dokument źródłowy używa wyłącznie zainstalowanych czcionek, pętla po prostu kończy się bez wypisywania czegokolwiek – czysty sygnał, że operacja **zapisania dokumentu jako PDF** zakończyła się sukcesem bez podmian.
 
-## Pełny działający przykład
+---
 
-Łącząc wszystko razem, oto kompletny, gotowy do uruchomienia program. Zamień ścieżki zastępcze na własne.
+### Pełny działający przykład
+
+Łącząc wszystko w całość, oto kompletny, gotowy do uruchomienia program. Wklej go do nowego projektu konsolowego, dostosuj ścieżki do plików i naciśnij **F5**.
 
 ```csharp
 using System;
-using System.Collections.Generic;
 using Aspose.Words;
-using Aspose.Words.Loading;
-using Aspose.Words.Saving;
+using Aspose.Words.Warnings;
 
-// ------------------------------------------------------------
-// Step 0: Helper class for warning collection (handles missing fonts)
-// ------------------------------------------------------------
-public class WarningInfoCollector : IWarningCallback
-{
-    public List<WarningInfo> Warnings { get; } = new();
-
-    public void Warning(WarningInfo info) => Warnings.Add(info);
-}
-
-// ------------------------------------------------------------
-// Main conversion routine
-// ------------------------------------------------------------
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Load the source .docx with auto‑recovery.
-        var loadOptions = new LoadOptions { RecoveryMode = RecoveryMode.AutoRecover };
-        var document = new Document("YOUR_DIRECTORY/input.docx", loadOptions);
+        // 1️⃣ Load the Word document that may reference missing fonts.
+        string sourcePath = @"C:\Docs\MissingFont.docx";
+        Document document = new Document(sourcePath);
 
-        // 2️⃣ Configure PDF/UA‑2 options (export math as LaTeX, handle floating shapes).
-        var pdfOptions = new PdfSaveOptions
+        // 2️⃣ Prepare a warning collection to capture any font substitution messages.
+        WarningInfoCollection warningCollection = new WarningInfoCollection();
+        document.WarningCallback = warningCollection;
+
+        // 3️⃣ Save the document as PDF – this step triggers the conversion.
+        string pdfPath = @"C:\Docs\Result.pdf";
+        document.Save(pdfPath);
+
+        // 4️⃣ Review the warnings and report any font substitutions.
+        foreach (WarningInfo warning in warningCollection)
         {
-            PdfCompliance = PdfCompliance.PdfUa2,
-            ExportFloatingShapesAsInlineTag = true,
-            OfficeMathExportMode = OfficeMathExportMode.LaTeX
-        };
-
-        // 3️⃣ Attach warning collector to capture missing‑font alerts.
-        document.WarningCallback = new WarningInfoCollector();
-
-        // 4️⃣ Perform the conversion.
-        document.Save("YOUR_DIRECTORY/output.pdf", pdfOptions);
-
-        // 5️⃣ (Optional) Print any warnings to the console.
-        var collector = (WarningInfoCollector)document.WarningCallback;
-        foreach (var w in collector.Warnings)
-        {
-            Console.WriteLine($"{w.Type}: {w.Description}");
+            if (warning.Type == WarningType.FontSubstitution)
+            {
+                var fontWarning = (FontSubstitutionWarning)warning;
+                Console.WriteLine(
+                    $"Substituted '{fontWarning.OriginalFontName}' with '{fontWarning.SubstitutedFontName}'. Reason: {fontWarning.Reason}");
+            }
         }
 
-        Console.WriteLine("✅ Conversion complete! PDF saved as output.pdf");
+        Console.WriteLine("Conversion finished. Check the PDF and console output for details.");
     }
 }
 ```
 
-**Expected result:**  
-- `output.pdf` jest zgodny z PDF/UA‑2.  
-- Wszystkie pływające figury są oznaczone jako inline figures.  
-- Każdy obiekt Office Math pojawia się jako ukryty LaTeX (widoczny po zbadaniu struktury PDF).  
-- Wszelkie problemy związane z czcionkami są wypisywane w konsoli, dając Ci możliwość **handle missing fonts** przed udostępnieniem pliku.
+> **Oczekiwany rezultat:** Plik `Result.pdf` pojawia się w docelowym folderze, a konsola wypisuje wszystkie podmiany czcionek, które wystąpiły. Otwórz PDF w przeglądarce – powinieneś zobaczyć taki sam układ jak w oryginalnym pliku Word, z wyjątkiem brakujących czcionek, które zostały zastąpione.
 
-![Diagram przedstawiający przepływ od Word → Aspose.Words → Dostępny PDF (zapisz dokument jako pdf)](conversion-diagram.png "Diagram przepływu zapisywania dokumentu jako pdf")
+---
 
-*Tekst alternatywny obrazu:* **Diagram pokazujący, jak zapisać dokument jako pdf przy użyciu Aspose.Words**
+## Obsługa przypadków brzegowych i typowych wariantów
 
-## Częste pytania i przypadki brzegowe
+### 1. Udostępnienie własnego folderu czcionek
 
-### Co jeśli używam starszej wersji Aspose.Words?
-
-Flaga `OfficeMathExportMode.LaTeX` została wprowadzona w wersji 25.10. W starszych wydaniach nadal możesz **convert word to pdf**, ale matematyka będzie rasteryzowana zamiast eksportowana jako LaTeX. Zaktualizuj, aby uzyskać najlepszą dostępność.
-
-### Czy mogę osadzić własne czcionki, aby uniknąć domyślnego zastąpienia?
-
-Tak. Ustaw `PdfSaveOptions.FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll` przed wywołaniem `Save`. To również pomaga **handle missing fonts**, wymuszając, aby PDF zawierał wymagane glify.
-
-### Jak zweryfikować zgodność z PDF/UA‑2?
-
-Otwórz plik w Adobe Acrobat Pro → “Print Production” → “Preflight”. Wybierz profil “PDF/A‑2b” lub “PDF/UA‑2”; Acrobat zgłosi wszelkie naruszenia.
-
-### Co z plikami Word chronionymi hasłem?
-
-Załaduj dokument przy użyciu `LoadOptions`, które zawiera `Password`. Przykład:
+Jeśli środowisko wdrożeniowe posiada prywatną kolekcję firmowych czcionek, możesz skierować Aspose.Words do tego folderu:
 
 ```csharp
-var loadOptions = new LoadOptions { Password = "mySecret" };
-var doc = new Document("protected.docx", loadOptions);
+FontSettings fontSettings = new FontSettings();
+fontSettings.SetFontsFolder(@"C:\MyCompany\Fonts", recursive: true);
+document.FontSettings = fontSettings;
 ```
 
-Reszta pipeline pozostaje niezmieniona.
+Teraz biblioteka najpierw przeszuka `C:\MyCompany\Fonts`, zanim sięgnie po czcionki systemowe, zmniejszając ryzyko niechcianych podmian.
+
+### 2. Wyłączanie ostrzeżeń, gdy nie są potrzebne
+
+Czasami po prostu chcesz cichą konwersję. Możesz zamienić `WarningInfoCollection` na pusty callback:
+
+```csharp
+document.WarningCallback = new WarningCallback(); // No‑op implementation
+```
+
+### 3. Konwersja wielu dokumentów w partii
+
+Umieść logikę w pętli `foreach` przetwarzającej katalog plików `.docx`. Pamiętaj, aby ponownie zainicjować `WarningInfoCollection` dla każdego dokumentu, aby ostrzeżenia były odseparowane.
+
+```csharp
+foreach (var file in Directory.GetFiles(@"C:\Docs\Batch", "*.docx"))
+{
+    Document doc = new Document(file);
+    var warnings = new WarningInfoCollection();
+    doc.WarningCallback = warnings;
+    string outPdf = Path.ChangeExtension(file, ".pdf");
+    doc.Save(outPdf);
+    // Process warnings as shown earlier…
+}
+```
+
+---
+
+## Przegląd wizualny
+
+![Save document as PDF workflow diagram showing loading, warning capture, saving, and reporting steps](save-document-as-pdf-workflow.png)
+
+*Alt text: Diagram ilustrujący kroki zapisu dokumentu jako PDF przy jednoczesnym przechwytywaniu ostrzeżeń o podmianie czcionek.*
+
+---
 
 ## Zakończenie
 
-Omówiliśmy wszystko, co potrzebne, aby **save document as pdf** przy użyciu Aspose.Words w C#. Samouczek również pokazał, jak **convert word to pdf**, **export math latex**, oraz **handle missing fonts** — wszystko przy tworzeniu dostępnego pliku PDF/UA‑2.  
+Właśnie przeszliśmy przez **workflow zapisu dokumentu jako PDF**, który nie tylko konwertuje plik Word do PDF, ale także zapewnia pełną widoczność wszelkich podmian czcionek. Dzięki podłączeniu callbacku ostrzeżeń zamieniasz cichą podmianę w użyteczną informację – idealną dla środowisk o wysokich wymaganiach zgodności, gdzie każdy glif ma znaczenie.
 
-Wypróbuj kod, eksperymentuj z różnymi `PdfSaveOptions` (np. kompresja obrazów, PDF/A‑2b) i zintegrować go z usługą przetwarzania dokumentów. Jeśli potrzebujesz iść dalej, rozważ eksplorację biblioteki PDF‑specyficznej Aspose do post‑przetwarzania lub podpisów cyfrowych.  
+Podsumowując w jednym zdaniu: *Wczytaj plik Word, dołącz kolekcję ostrzeżeń, zapisz jako PDF, a następnie przeiteruj ostrzeżenia, aby zalogować podmiany czcionek.*  
 
-Masz więcej scenariuszy, które chciałbyś rozwiązać? Śmiało zostaw komentarz lub sprawdź nasze inne przewodniki o **PDF manipulation**, **image extraction** i **batch conversion**. Szczęśliwego kodowania!
+Jeśli chcesz **konwertować Word do PDF** w innych kontekstach, rozważ zaawansowane opcje Aspose.Words, takie jak `PdfSaveOptions` do kompresji obrazów, zgodności PDF/A czy podpisów cyfrowych.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

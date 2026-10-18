@@ -1,19 +1,18 @@
 ---
 category: general
-date: 2026-05-01
-description: Lär dig hur du sparar dokument som PDF med Aspose.Words i C#. Handledningen
-  täcker också hur du konverterar Word till PDF, exporterar matematiska LaTeX och
-  hanterar saknade teckensnitt.
+date: 2026-02-15
+description: Spara dokument som PDF med Aspose.Words i C#. Lär dig konvertera Word
+  till PDF, fånga teckensnittsvarningar och säkerställ korrekt resultat.
 draft: false
 keywords:
 - save document as pdf
 - convert word to pdf
-- export math latex
-- handle missing fonts
+- word to pdf conversion
+- export word as pdf
+- pdf conversion from word
 language: sv
-og_description: Spara dokument som PDF utan ansträngning med Aspose.Words. Denna guide
-  visar också hur du konverterar Word till PDF, exporterar matematiska LaTeX och hanterar
-  saknade teckensnitt.
+og_description: Spara dokument som PDF med Aspose.Words i C#. Denna guide visar hur
+  du konverterar Word till PDF samtidigt som du hanterar varningar om teckensnittssubstitution.
 og_title: Spara dokument som PDF med Aspose.Words – Komplett C#‑guide
 tags:
 - Aspose.Words
@@ -27,226 +26,192 @@ url: /sv/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-wo
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Spara dokument som PDF med Aspose.Words – Komplett C#-guide
+# Spara dokument som PDF med Aspose.Words – Komplett C#‑guide
 
-Har du någonsin undrat **how to save document as pdf** direkt från en Word-fil utan att förlora tillgänglighetsfunktioner? Du är inte ensam—utvecklare frågar ständigt efter ett pålitligt sätt att konvertera Word till PDF samtidigt som matematiska ekvationer bevaras och saknade teckensnitt hanteras på ett smidigt sätt.  
+Har du någonsin behövt **spara dokument som PDF** men varit osäker på hur du behåller varje teckensnitt intakt? Du är inte ensam. I många företagsprojekt refererar Word‑filerna vi får till teckensnitt som helt enkelt inte är installerade på servern, och konverteringen byter tyst ut dem.  
 
-I den här handledningen går vi igenom en steg‑för‑steg‑lösning som inte bara **save document as pdf** utan också demonstrerar **convert word to pdf**, **export math latex** och **handle missing fonts** med den senaste Aspose.Words för .NET. I slutet har du ett färdigt C#‑program som producerar PDF/UA‑2‑kompatibla filer, perfekta för tillgänglighetsgranskningar.
+I den här handledningen går vi igenom ett **convert Word to PDF**‑scenario som inte bara skapar en perfekt PDF utan också berättar exakt vilka teckensnitt som ersattes. I slutet har du ett färdigt C#‑program, en klar förståelse för varför varje steg är viktigt, och några proffstips du kan lägga till i din egen kodbas.
 
-## Vad du behöver
+> **Vad du får:** en fullständig kodlista, förklaring av varningsåterkallelsen, förväntad konsolutdata och förslag på hur du hanterar kantfall som anpassade teckensnittsmapp.
 
-- .NET 6 eller senare (koden fungerar även med .NET Core och .NET Framework)  
-- Aspose.Words för .NET 25.10 eller nyare – du kan hämta en gratis provversion från Aspose-webbplatsen  
-- Ett enkelt Word‑dokument (`input.docx`) som innehåller minst en flytande form och en matematisk ekvation (för att se export‑math‑latex‑funktionen i praktiken)  
-- Visual Studio 2022 (eller någon annan IDE du föredrar)
+---
 
-> **Proffstips:** Om du använder en CI/CD‑pipeline, lägg till Aspose.Words NuGet‑paketet i din projektfil:
+## Förutsättningar
 
-```xml
-<PackageReference Include="Aspose.Words" Version="25.10.0" />
-```
+- **.NET 6.0** (eller någon recent .NET‑version) – Aspose.Words fungerar med .NET Framework, .NET Core och .NET 5/6.
+- **Aspose.Words for .NET** NuGet‑paket (`Install-Package Aspose.Words`) – biblioteket som gör det tunga arbetet.
+- En Word‑fil som refererar till ett saknat teckensnitt (t.ex. `MissingFont.docx`). Om du inte har en sådan, skapa ett enkelt dokument och ändra teckensnittet till något du vet inte är installerat på din maskin, som “Papyrus”.
+- En IDE du är bekväm med – Visual Studio, Rider eller till och med VS Code räcker.
 
-## Steg 1: Ladda källdokumentet med automatisk återställning
+Det är allt. Inga extra SDK‑ar, ingen COM‑interop, bara ett rent C#‑projekt.
 
-När du arbetar med verkliga Word‑filer kan du stöta på korrupta sektioner eller saknade resurser. Genom att aktivera automatisk återställning säkerställer du att inläsningsprocessen aldrig kastar ett undantag.
+---
+
+## Steg 1 – Läs in Word‑filen (Första steget i Convert Word to PDF)
+
+Det första vi behöver är ett `Document`‑objekt som representerar käll‑Word‑filen. Aspose.Words läser `.docx` (eller `.doc`) och bygger en in‑memory‑modell som du kan manipulera.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Loading;
-using Aspose.Words.Saving;
+using Aspose.Words.Warnings;
 
-// LoadOptions tells Aspose how to behave while reading the file.
-LoadOptions loadOptions = new LoadOptions
-{
-    // If the document is partially damaged, Aspose will try to fix it.
-    RecoveryMode = RecoveryMode.AutoRecover
-};
+// Path to the source Word document that may reference missing fonts.
+string sourcePath = @"C:\Docs\MissingFont.docx";
 
-// Replace "YOUR_DIRECTORY" with the folder that holds your .docx.
-Document document = new Document("YOUR_DIRECTORY/input.docx", loadOptions);
+// Create the Document instance – this loads the file into memory.
+Document document = new Document(sourcePath);
 ```
 
-**Varför detta är viktigt:**  
-`RecoveryMode.AutoRecover` skyddar din pipeline från att krascha på felaktig indata, vilket är särskilt praktiskt när du **convert word to pdf** i stora mängder.
+> **Varför detta är viktigt:** Att läsa in filen tidigt låter biblioteket analysera teckensnittreferenser. Om ett teckensnitt saknas kommer Aspose.Words senare att ge en `FontSubstitution`‑varning, som vi kan fånga.
 
-## Steg 2: Konfigurera PDF‑spara‑alternativ för full tillgänglighet
+## Steg 2 – Anslut en varningsåterkallelse för att fånga teckensnittsersättningar
 
-PDF/UA‑2 är ISO‑standarden för tillgängliga PDF‑filer. Genom att konfigurera några flaggor får vi en fil som skärmläsare kan navigera i, och vi ser också till att matematiska ekvationer exporteras som dold LaTeX.
+Aspose.Words avger varningar via en återkallelsemekanism. Genom att tilldela en `WarningInfoCollection` till `document.WarningCallback` samlar vi in varje varning som uppstår under bearbetningen.
 
 ```csharp
-PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
-{
-    // Enforce PDF/UA‑2 compliance.
-    PdfCompliance = PdfCompliance.PdfUa2,
+// Create a collection that will hold any warnings generated.
+WarningInfoCollection warningCollection = new WarningInfoCollection();
 
-    // Floating shapes (like text boxes) become <Figure> tags – essential for accessibility.
-    ExportFloatingShapesAsInlineTag = true,
-
-    // Export Office Math as hidden LaTeX (requires Aspose.Words 25.10+).
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX
-};
+// Register the collection as the document's warning callback.
+document.WarningCallback = warningCollection;
 ```
 
-**Key points:**  
+> **Proffstips:** Du kan också implementera `IWarningCallback` själv om du behöver anpassad loggning eller vill avbryta vid vissa varningar. Samlingsmetoden är snabb och perfekt för de flesta scenarier.
 
-- **ExportFloatingShapesAsInlineTag** – säkerställer att den resulterande PDF‑en bevarar den ursprungliga layouten samtidigt som den förblir semantiskt korrekt.  
-- **OfficeMathExportMode.LaTeX** – uppfyller kravet **export math latex**, vilket låter efterföljande verktyg extrahera ekvationerna vid behov.
+## Steg 3 – Spara dokument som PDF – Kärnoperationen
 
-## Steg 3: Fånga varningar (t.ex. saknade teckensnitt)
-
-Saknade teckensnitt är ett vanligt huvudvärk när man konverterar dokument. Aspose.Words kan rapportera dessa problem via en `WarningCallback`. Vi samlar dem så att du kan logga eller agera på dem senare.
+Nu instruerar vi Aspose.Words att rendera Word‑innehållet till en PDF‑fil. Detta är ögonblicket då eventuella saknade teckensnitt byts ut, och varningen vi konfigurerade tidigare avfyras.
 
 ```csharp
-// Simple collector that stores all warnings in a list.
-public class WarningInfoCollector : IWarningCallback
-{
-    public List<WarningInfo> Warnings { get; } = new();
+// Destination PDF path.
+string pdfPath = @"C:\Docs\Result.pdf";
 
-    public void Warning(WarningInfo info)
+// Perform the conversion. This call may trigger FontSubstitution warnings.
+document.Save(pdfPath);
+```
+
+> **Vad händer under huven?** Aspose.Words går igenom varje stycke, letar upp det behövda teckensnittet, och om det inte kan hitta det faller det tillbaka på en standardersättning (vanligtvis Arial). Varningen berättar exakt vilket teckensnitt som saknades och vilket som användes istället.
+
+## Steg 4 – Analysera och rapportera teckensnittsersättningar
+
+Efter sparningsoperationen itererar vi över de insamlade varningarna. Om någon varning är av typen `FontSubstitution` kastar vi den till `FontSubstitutionWarning` för att hämta det ursprungliga och ersatta teckensnittets namn.
+
+```csharp
+// Loop through all captured warnings.
+foreach (WarningInfo warning in warningCollection)
+{
+    // We're only interested in font substitution warnings.
+    if (warning.Type == WarningType.FontSubstitution)
     {
-        Warnings.Add(info);
+        var fontWarning = (FontSubstitutionWarning)warning;
+        Console.WriteLine(
+            $"Substituted '{fontWarning.OriginalFontName}' with '{fontWarning.SubstitutedFontName}'. Reason: {fontWarning.Reason}");
     }
 }
-
-// Attach the collector to the document.
-document.WarningCallback = new WarningInfoCollector();
 ```
 
-**Varför du bryr dig:**  
-Om källan använder ett teckensnitt som inte är installerat på servern, kommer PDF‑en att falla tillbaka på ett standardteckensnitt, vilket kan förstöra layouten. Genom att **handle missing fonts** kan vi varna användaren eller bädda in ett ersättningsteckensnitt.
-
-## Steg 4: Spara dokumentet som en tillgänglig PDF
-
-Nu är det dags för sanningen—att faktiskt utföra konverteringen.
-
-```csharp
-// Save the PDF to the output folder.
-document.Save("YOUR_DIRECTORY/output.pdf", pdfSaveOptions);
-```
-
-Om allt går smidigt får du en PDF/UA‑2‑fil som innehåller dold LaTeX för varje ekvation och korrekt taggning för flytande former.
-
-## Steg 5: Granska fångade varningar (valfritt men rekommenderat)
-
-Efter spara‑operationen kan du iterera över de samlade varningarna och logga dem.
-
-```csharp
-var collector = (WarningInfoCollector)document.WarningCallback;
-
-foreach (var warning in collector.Warnings)
-{
-    Console.WriteLine($"{warning.Type}: {warning.Description}");
-}
-```
-
-Typical output might look like:
+**Exempel på konsolutdata**
 
 ```
-FontSubstitution: Font "Calibri" was not found. Substituted with "Arial".
+Substituted 'Papyrus' with 'Arial Unicode MS'. Reason: Font not found on the system.
 ```
 
-Att se dessa meddelanden tidigt hjälper dig att **handle missing fonts** innan de påverkar slutanvändarna.
+Om källdokumentet endast använder installerade teckensnitt avslutas loopen helt enkelt utan att skriva ut något – ett tydligt tecken på att **save document as PDF**‑operationen lyckades utan ersättningar.
 
-## Fullt fungerande exempel
+### Fullt fungerande exempel
 
-När vi sätter ihop allt, här är det kompletta, färdiga programmet. Ersätt platshållar‑sökvägarna med dina egna.
+När vi sätter ihop allt, här är det kompletta, färdiga programmet. Klistra in detta i ett nytt konsolprojekt, justera filsökvägarna och tryck **F5**.
 
 ```csharp
 using System;
-using System.Collections.Generic;
 using Aspose.Words;
-using Aspose.Words.Loading;
-using Aspose.Words.Saving;
+using Aspose.Words.Warnings;
 
-// ------------------------------------------------------------
-// Step 0: Helper class for warning collection (handles missing fonts)
-// ------------------------------------------------------------
-public class WarningInfoCollector : IWarningCallback
-{
-    public List<WarningInfo> Warnings { get; } = new();
-
-    public void Warning(WarningInfo info) => Warnings.Add(info);
-}
-
-// ------------------------------------------------------------
-// Main conversion routine
-// ------------------------------------------------------------
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Load the source .docx with auto‑recovery.
-        var loadOptions = new LoadOptions { RecoveryMode = RecoveryMode.AutoRecover };
-        var document = new Document("YOUR_DIRECTORY/input.docx", loadOptions);
+        // 1️⃣ Load the Word document that may reference missing fonts.
+        string sourcePath = @"C:\Docs\MissingFont.docx";
+        Document document = new Document(sourcePath);
 
-        // 2️⃣ Configure PDF/UA‑2 options (export math as LaTeX, handle floating shapes).
-        var pdfOptions = new PdfSaveOptions
+        // 2️⃣ Prepare a warning collection to capture any font substitution messages.
+        WarningInfoCollection warningCollection = new WarningInfoCollection();
+        document.WarningCallback = warningCollection;
+
+        // 3️⃣ Save the document as PDF – this step triggers the conversion.
+        string pdfPath = @"C:\Docs\Result.pdf";
+        document.Save(pdfPath);
+
+        // 4️⃣ Review the warnings and report any font substitutions.
+        foreach (WarningInfo warning in warningCollection)
         {
-            PdfCompliance = PdfCompliance.PdfUa2,
-            ExportFloatingShapesAsInlineTag = true,
-            OfficeMathExportMode = OfficeMathExportMode.LaTeX
-        };
-
-        // 3️⃣ Attach warning collector to capture missing‑font alerts.
-        document.WarningCallback = new WarningInfoCollector();
-
-        // 4️⃣ Perform the conversion.
-        document.Save("YOUR_DIRECTORY/output.pdf", pdfOptions);
-
-        // 5️⃣ (Optional) Print any warnings to the console.
-        var collector = (WarningInfoCollector)document.WarningCallback;
-        foreach (var w in collector.Warnings)
-        {
-            Console.WriteLine($"{w.Type}: {w.Description}");
+            if (warning.Type == WarningType.FontSubstitution)
+            {
+                var fontWarning = (FontSubstitutionWarning)warning;
+                Console.WriteLine(
+                    $"Substituted '{fontWarning.OriginalFontName}' with '{fontWarning.SubstitutedFontName}'. Reason: {fontWarning.Reason}");
+            }
         }
 
-        Console.WriteLine("✅ Conversion complete! PDF saved as output.pdf");
+        Console.WriteLine("Conversion finished. Check the PDF and console output for details.");
     }
 }
 ```
 
-**Expected result:**  
-- `output.pdf` uppfyller PDF/UA‑2‑kraven.  
-- Alla flytande former är taggade som inline‑figurer.  
-- Varje Office Math‑objekt visas som dold LaTeX (synligt när du inspekterar PDF‑ens struktur).  
-- Alla teckensnittsrelaterade problem skrivs ut till konsolen, vilket ger dig möjlighet att **handle missing fonts** innan filen levereras.
+> **Förväntat resultat:** En `Result.pdf`‑fil visas i mål‑mappen, och konsolen skriver ut eventuella teckensnittsersättningar som inträffade. Öppna PDF‑filen i en visare – du bör se samma layout som i original‑Word‑filen, förutom eventuella saknade teckensnitt som ersattes.
 
-![Diagram som visar flödet från Word → Aspose.Words → Accessible PDF (save document as pdf)](conversion-diagram.png "Flödesdiagram för att spara dokument som pdf")
+## Hantera kantfall och vanliga variationer
 
-*Bildtext:* **Diagram över hur man sparar dokument som pdf med Aspose.Words**
+### 1. Ange en anpassad teckensnittsmapp
 
-## Vanliga frågor & kantfall
-
-### Vad händer om jag använder en äldre version av Aspose.Words?
-
-`OfficeMathExportMode.LaTeX`‑flaggan introducerades i 25.10. För äldre versioner kan du fortfarande **convert word to pdf**, men matematiken kommer att rasteriseras istället för att exporteras som LaTeX. Uppgradera för bästa tillgänglighet.
-
-### Kan jag bädda in egna teckensnitt för att undvika fallback?
-
-Ja. Ställ in `PdfSaveOptions.FontEmbeddingMode = PdfFontEmbeddingMode.EmbedAll` innan du anropar `Save`. Detta hjälper också **handle missing fonts** genom att tvinga PDF‑en att innehålla de nödvändiga glyferna.
-
-### Hur verifierar jag PDF/UA‑2‑kompatibiliteten?
-
-Öppna filen i Adobe Acrobat Pro → “Print Production” → “Preflight”. Välj profilen “PDF/A‑2b” eller “PDF/UA‑2”; Acrobat kommer att rapportera eventuella avvikelser.
-
-### Vad händer med lösenordsskyddade Word‑filer?
-
-Läs in dokumentet med en `LoadOptions` som innehåller `Password`. Exempel:
+Om din driftsmiljö har en privat samling av företags‑teckensnitt kan du peka Aspose.Words till den mappen:
 
 ```csharp
-var loadOptions = new LoadOptions { Password = "mySecret" };
-var doc = new Document("protected.docx", loadOptions);
+FontSettings fontSettings = new FontSettings();
+fontSettings.SetFontsFolder(@"C:\MyCompany\Fonts", recursive: true);
+document.FontSettings = fontSettings;
 ```
 
-Resten av pipeline‑processen förblir oförändrad.
+Nu kommer biblioteket att söka i `C:\MyCompany\Fonts` innan det faller tillbaka på systemteckensnitt, vilket minskar risken för oönskade ersättningar.
+
+### 2. Undertrycka varningar när du inte behöver dem
+
+Ibland vill du bara ha en tyst konvertering. Du kan ersätta `WarningInfoCollection` med en tom återkallelse:
+
+```csharp
+document.WarningCallback = new WarningCallback(); // No‑op implementation
+```
+
+### 3. Konvertera flera dokument i en batch
+
+Packa in logiken i en `foreach`‑loop över en katalog med `.docx`‑filer. Kom ihåg att åter‑initiera `WarningInfoCollection` för varje dokument för att hålla varningarna separata.
+
+```csharp
+foreach (var file in Directory.GetFiles(@"C:\Docs\Batch", "*.docx"))
+{
+    Document doc = new Document(file);
+    var warnings = new WarningInfoCollection();
+    doc.WarningCallback = warnings;
+    string outPdf = Path.ChangeExtension(file, ".pdf");
+    doc.Save(outPdf);
+    // Process warnings as shown earlier…
+}
+```
+
+## Visuell översikt
+
+![Spara dokument som PDF arbetsflödesdiagram som visar laddning, varningsinsamling, sparning och rapporteringssteg](save-document-as-pdf-workflow.png)
+
+*Alt text: Diagram som illustrerar stegen för att spara dokument som PDF samtidigt som teckensnittsersättningsvarningar fångas.*
 
 ## Slutsats
 
-Vi har gått igenom allt du behöver för att **save document as pdf** med Aspose.Words i C#. Handledningen demonstrerade också hur man **convert word to pdf**, **export math latex** och **handle missing fonts**—allt medan du producerar en tillgänglig PDF/UA‑2‑fil.  
+Vi har just gått igenom ett **save document as PDF**‑arbetsflöde som inte bara konverterar en Word‑fil till PDF utan också ger dig full insyn i alla teckensnittsersättningar som sker. Genom att ansluta en varningsåterkallelse förvandlar du en tyst återgång till handlingsbar information – perfekt för miljöer med tung efterlevnad där varje tecken är viktigt.
 
-Kör koden, experimentera med olika `PdfSaveOptions` (t.ex. bildkomprimering, PDF/A‑2b), och integrera den i din dokument‑bearbetningstjänst. Om du vill gå längre, överväg att utforska Asposes PDF‑specifika bibliotek för efterbearbetning eller digitala signaturer.
+För att sammanfatta i en mening: *Läs in Word‑filen, anslut en varningssamling, spara som PDF, och iterera sedan varningarna för att logga eventuella teckensnittsersättningar.*  
 
-Har du fler scenarier du vill lösa? Känn dig fri att lämna en kommentar eller kolla in våra andra guider om **PDF manipulation**, **image extraction** och **batch conversion**. Lycka till med kodandet!
+Om du vill **convert Word to PDF** i andra sammanhang, överväg att utforska Aspose.Words avancerade alternativ som `PdfSaveOptions` för bildkomprimering, PDF/A‑efterlevnad eller digitala signaturer
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

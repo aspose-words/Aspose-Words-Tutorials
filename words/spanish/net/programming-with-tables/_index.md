@@ -35,6 +35,7 @@ Siguiendo estos tutoriales, podrá aprovechar al máximo las funciones de manipu
 | [Combinar filas](./combine-rows/) | Aprenda a combinar filas de varias tablas en una usando Aspose.Words para .NET con nuestra guía paso a paso. |
 | [Tabla dividida](./split-table/) Aprenda a dividir tablas en documentos de Word con Aspose.Words para .NET. Nuestra guía paso a paso facilita y optimiza la gestión de tablas.
 | [Formato de fila Deshabilitar salto entre páginas](./row-format-disable-break-across-pages/) | Aprenda cómo deshabilitar los saltos de fila en las páginas de documentos de Word usando Aspose.Words para .NET para mantener la legibilidad y el formato de la tabla. |
+| [Ocultar fila en tabla con C# – Guía simple para eliminar filas de tabla](./hide-row-in-table-with-c-simple-guide-to-removing-table-rows/) | Aprenda a ocultar o eliminar filas de una tabla en Word usando Aspose.Words para .NET con C#. |
 | [Mantener la mesa unida](./keep-table-together/) Aprenda a evitar que las tablas se dividan entre páginas en documentos de Word con Aspose.Words para .NET. Siga nuestra guía para mantener documentos legibles y profesionales.
 | [Fusión vertical](./vertical-merge/) Domine la fusión vertical en tablas de Word con Aspose.Words para .NET con esta guía detallada. Aprenda instrucciones paso a paso para un formato profesional de documentos.
 | [Fusión horizontal](./horizontal-merge/) | Aprenda a combinar celdas horizontalmente en un documento de Word usando Aspose.Words para .NET con este tutorial detallado paso a paso. |

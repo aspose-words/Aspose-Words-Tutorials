@@ -1,0 +1,7 @@
+Title: Convert Word to Markdown – Complete Guide with Image Extraction
+Slug: convert-word-to-markdown-complete-guide-with-image-extractio
+Category: programming-with-markdownsaveoptions
+ProcessedDate: 2026-06-18T02:46:50.659256
+SourceRepo: AI Search API
+Keywords: convert word to markdown, extract images from docx, how to extract images, how to use callback, convert docx to markdown
+PRNumber: 204

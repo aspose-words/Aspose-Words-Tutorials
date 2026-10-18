@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: บทแนะนำนี้แสดงวิธีสร้างเอกสาร Word, แทรกแผนภูมิคอลัมน์, เติมข้อมูลตัวอย่าง, ซ่อนขอบพื้นที่พล็อตของแผนภูมิในขณะที่ยังคงให้เส้นแกนมองเห็น, และสุดท้ายบันทึกเอกสาร.
+//ExStepSummary:0: สร้างเอกสาร Word ว่างใหม่และ DocumentBuilder เพื่อแก้ไขเอกสารนั้น.
+//ExStepSummary:1: แทรกแผนภูมิคอลัมน์ขนาด 432×252 ลงในเอกสารและรับอ็อบเจ็กต์ Chart ของมัน.
+//ExStepSummary:2: ล้างซีรีส์ที่มีอยู่ทั้งหมด, กำหนดป้ายชื่อหมวดหมู่สามรายการ, และเพิ่มซีรีส์ที่มีค่าตัวอย่างลงในแผนภูมิ.
+//ExStepSummary:3: ตั้งค่า stroke weight ของพื้นที่พล็อตเป็นศูนย์, ลบขอบของมันออกในขณะที่ยังคงให้เส้นแกนมองเห็น.
+//ExStepSummary:4: บันทึกเอกสารที่แก้ไขแล้วเป็นไฟล์ .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+columnChart.Series.Clear();
+string[] labels = { "Group A", "Group B", "Group C" };
+columnChart.Series.Add("Demo Data", labels, new double[] { 10, 20, 30 });
+
+//ExStep:3-
+columnChart.Format.Stroke.Weight = 0;
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutPlotBorder.docx");
+//ExEnd
