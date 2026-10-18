@@ -46,7 +46,7 @@ Poniżej znajduje się zwięzły opis typowego przepływu pracy. (Rzeczywisty ko
 
 1. **Utwórz instancję `Document`** – załaduj źródłowy plik Word (`.docx`, `.doc` itp.).  
 2. **Iteruj przez `NodeCollection` dokumentu** aby znaleźć węzły `Shape` zawierające obrazy.  
-3. **Wyodrębnij każdy obraz** za pomocą API `Shape.getImageData()` i zapisz go do pliku używając `ImageData.save()`.
+3. **Wyodrębnij każdy obraz** za pomocą API `Shape.getImageData()` i zapisz go do pliku użyając `ImageData.save()`.
 
 > *Wskazówka:* Użyj `Document.getChildNodes(NodeType.SHAPE, true)`, aby pobrać wszystkie kształty, w tym znajdujące się w nagłówkach, stopkach i przypisach.
 
@@ -81,63 +81,62 @@ Poznaj wszechstronność Aspose.Words for Java, zagłębiając się w zapisywani
 Ustawienia dokumentu są kluczem do dostarczania dokumentów dopasowanych do Twoich dokładnych wymagań. Dowiedz się, jak dostosować ustawienia takie jak rozmiar strony, marginesy i czcionki, aby uzyskać pożądany rezultat.
 
 ## Powiązane tutoriale – ładowanie, zapisywanie i konwersja
-
 ### [Loading and Saving HTML Documents with Aspose.Words for Java](./loading-and-saving-html-documents/)
-Dowiedz się, jak ładować i zapisywać dokumenty HTML w Javie przy użyciu Aspose.Words for Java. Przewodnik krok po kroku z przykładami kodu dla płynnej integracji dokumentów.
-
 ### [Working with Load Options in Aspose.Words for Java](./using-load-options/)
 Opanowanie opcji ładowania w Aspose.Words for Java. Dostosuj ładowanie dokumentów, obsługuj szyfrowanie, konwertuj kształty, ustaw wersje Word i wiele więcej dla efektywnego przetwarzania dokumentów w Javie.
 
+### [Utwórz Opcje Ładowania w Javie – Wykryj Brakujące Czcionki i Jak Ładować DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
+Dowiedz się, jak tworzyć opcje ładowania w Javie, wykrywać brakujące czcionki i prawidłowo ładować pliki DOCX przy użyciu Aspose.Words.
+
 ### [Configuring RTF Load Options in Aspose.Words for Java](./configuring-rtf-load-options/)
-Konfigurowanie opcji ładowania RTF w Aspose.Words for Java. Dowiedz się, jak rozpoznawać tekst UTF‑8 w dokumentach RTF. Przewodnik krok po kroku z przykładami kodu.
-
 ### [Loading Text Files with Aspose.Words for Java](./loading-text-files/)
-Ładowanie plików tekstowych przy użyciu Aspose.Words for Java. Odkryj moc Aspose.Words for Java. Naucz się ładować dokumenty tekstowe, zarządzać listami, obsługiwać spacje i kontrolować kierunek tekstu.
-
 ### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
-Zaawansowane opcje zapisywania w Aspose.Words for Java. Poznaj zaawansowaną manipulację dokumentami w Aspose.Words for Java. Szyfruj, obsługuj metafile i więcej. Twoje dokumenty Word, po Twojemu.
-
 ### [Saving HTML Documents with Fixed Layout in Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
-Zapisywanie dokumentów HTML z układem stałym w Aspose.Words for Java. Dowiedz się, jak zapisywać dokumenty HTML z układem stałym w Aspose.Words for Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać płynne formatowanie dokumentów.
-
 ### [Advance HTML Documents Saving Options with Aspose.Words Java](./advance-html-documents-saving-options/)
-Zaawansowane opcje zapisywania dokumentów HTML w Aspose.Words Java. W tym tutorialu omówiliśmy różne zaawansowane opcje zapisywania dokumentów HTML w Aspose.Words for Java. Opcje te umożliwiają tworzenie wysokiej jakości HTML.
-
 ### [Saving Images from Documents in Aspose.Words for Java](./saving-images-from-documents/)
-Zapisywanie obrazów z dokumentów w Aspose.Words for Java. Dowiedz się, jak zapisywać obrazy z dokumentów przy użyciu Aspose.Words for Java dzięki naszemu kompleksowemu przewodnikowi krok po kroku. Dostosuj formaty, kompresję i nie tylko.
-
 ### [Saving Documents as Markdown in Aspose.Words for Java](./saving-documents-as-markdown/)
-Zapisywanie dokumentów jako Markdown w Aspose.Words for Java. Dowiedz się, jak konwertować dokumenty Word na Markdown przy użyciu Aspose.Words for Java. Ten przewodnik krok po kroku obejmuje wyrównanie tabel, obsługę obrazów i więcej.
-
 ### [Saving Documents as ODT Format in Aspose.Words for Java](./saving-documents-as-odt-format/)
-Zapisywanie dokumentów w formacie ODT w Aspose.Words for Java. Dowiedz się, jak zapisywać dokumenty w formacie ODT przy użyciu Aspose.Words for Java. Zapewnij kompatybilność z otwartymi pakietami biurowymi.
-
 ### [Saving Documents as OOXML Format in Aspose.Words for Java](./saving-documents-as-ooxml-format/)
-Zapisywanie dokumentów w formacie OOXML w Aspose.Words for Java. Dowiedz się, jak zapisywać dokumenty w formacie OOXML przy użyciu Aspose.Words for Java. Zabezpieczaj, optymalizuj i dostosowuj pliki bez wysiłku.
-
 ### [Saving Documents as PCL Format in Aspose.Words for Java](./saving-documents-as-pcl-format/)
-Zapisywanie dokumentów w formacie PCL w Aspose.Words for Java. Dowiedz się, jak zapisywać dokumenty w formacie PCL przy użyciu Aspose.Words for Java. Przewodnik krok po kroku i przykłady kodu dla efektywnej konwersji dokumentów.
-
 ### [Saving Documents as PDF in Aspose.Words for Java](./saving-documents-as-pdf/)
-Zapisywanie dokumentów jako PDF w Aspose.Words for Java. Dowiedz się, jak zapisywać dokumenty Word jako PDF przy użyciu Aspose.Words for Java. Dostosuj czcionki, właściwości i jakość obrazów. Kompleksowy przewodnik konwersji do PDF.
-
 ### [Saving Documents as RTF Format in Aspose.Words for Java](./saving-documents-as-rtf-format/)
-Zapisywanie dokumentów w formacie RTF w Aspose.Words for Java. Dowiedz się, jak zapisywać dokumenty w formacie RTF przy użyciu Aspose.Words for Java. Przewodnik krok po kroku z kodem źródłowym dla efektywnej konwersji dokumentów.
-
 ### [Saving Documents as Text Files in Aspose.Words for Java](./saving-documents-as-text-files/)
-Zapisywanie dokumentów jako pliki tekstowe w Aspose.Words for Java. Dowiedz się, jak zapisywać dokumenty jako pliki tekstowe w Aspose.Words for Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku z przykładami kodu Java.
-
+### [Zapisz dokument Word – Ustawienia czcionek i obsługa brakujących czcionek](./save-word-document-set-font-settings-handle-missing-fonts/)
 ### [Determining Document Format in Aspose.Words for Java](./determining-document-format/)
 Określanie formatu dokumentu w Aspose.Words for Java. Dowiedz się, jak wykrywać formaty dokumentów w Javie przy użyciu Aspose.Words. Rozpoznawaj DOC, DOCX i inne. Organizuj pliki efektywnie.
 
-### [Odzyskaj uszkodzony docx – Kompletny przewodnik naprawy i przetwarzania dokumentów](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
-Kompletny przewodnik, jak naprawić uszkodzone pliki DOCX i przywrócić ich zawartość przy użyciu Aspose.Words for Java.
+### [Jak odzyskać pliki DOCX przy użyciu Aspose.Words – przewodnik krok po kroku](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 
+### [Odzyskaj dokument Word – Kompletny przewodnik ustawiania trybu odzyskiwania w Javie](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
+
+### [Jak odzyskać DOCX – Ładowanie uszkodzonych plików z opcjami odzyskiwania](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
+Dowiedz się, jak wczytać uszkodzony plik DOCX i odzyskać jego zawartość przy użyciu opcji odzyskiwania w Aspose.Words for Java.
+
+### [Odzyskaj uszkodzony docx – Kompletny przewodnik naprawy i przetwarzania dokumentów](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 ### [Odzyskaj uszkodzony docx przy użyciu Aspose.Words Java](./recover-corrupted-docx-using-aspose-words-java/)
 Dowiedz się, jak przywrócić uszkodzone pliki DOCX przy użyciu Aspose.Words for Java, krok po kroku.
 
 ### [Rejestrowanie ostrzeżeń o podstawianiu czcionek w Javie przy użyciu Aspose.Words – Kompletny przewodnik](./capture-font-substitution-warnings-in-java-with-aspose-words/)
-Dowiedz się, jak przechwytywać i obsługiwać ostrzeżenia o podstawianiu czcionek w dokumentach Word przy użyciu Aspose.Words for Java.
+### [Jak odzyskać docx – Kompletny przewodnik odczytu uszkodzonych plików Word](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+Dowiedz się, jak odczytać i naprawić uszkodzone pliki DOCX przy użyciu Aspose.Words for Java.
+### [Ustaw tryb odzyskiwania, aby przywrócić uszkodzony dokument Word](./set-recovery-mode-to-recover-broken-word-document/)
+Dowiedz się, jak włączyć tryb odzyskiwania, aby przywrócić uszkodzone dokumenty Word przy użyciu Aspose.Words for Java.
+
+### [How to Get Missing Fonts in Java – Aspose.Words Guide](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
+Dowiedz się, jak wykrywać i pobierać brakujące czcionki w Javie przy użyciu Aspose.Words.
+### [Jak odzyskać docx – zapisać odzyskany dokument przy użyciu Javy](./how-to-recover-docx-save-recovered-document-using-java/)
+### [Jak odzyskać DOCX przy użyciu Aspose.Words – włącz tryb odzyskiwania](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
+Dowiedz się, jak włączyć tryb odzyskiwania w Aspose.Words, aby przywrócić uszkodzone dokumenty DOCX i zachować ich zawartość.
+### [Jak odzyskać docx – Włącz tryb odzyskiwania i odczytaj ostrzeżenia](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
+Dowiedz się, jak włączyć tryb odzyskiwania w Aspose.Words for Java i odczytać ostrzeżenia, aby przywrócić uszkodzone pliki DOCX.
+### [Odzyskaj uszkodzony dokument Word – Kompletny przewodnik Java](./recover-broken-word-document-complete-java-guide/)
+Dowiedz się, jak odzyskać uszkodzone dokumenty Word przy użyciu Aspose.Words for Java, z praktycznymi przykładami kodu krok po kroku.
+
+### [Rejestrowanie ostrzeżeń o podstawianiu czcionek – wykrywanie brakujących czcionek](./capture-font-substitution-warnings-detect-missing-fonts/)
+Dowiedz się, jak przechwytywać ostrzeżenia o podstawianiu czcionek i wykrywać brakujące czcionki w dokumentach przy użyciu Aspose.Words for Java.
+### [Jak odzyskać pliki DOCX – Przewodnik krok po kroku w Javie](./how-to-recover-docx-files-step-by-step-java-guide/)
+
+### [Otwórz uszkodzony dokument Word – ustaw tryb odzyskiwania w Javie](./open-corrupted-word-document-set-recovery-mode-in-java/)
 
 ### [Zarejestruj wywołanie zwrotne ostrzeżenia w Javie – Śledź brakujące czcionki](./register-warning-callback-in-java-track-missing-fonts/)
 

@@ -1,0 +1,64 @@
+//ExStart
+//ExSummary: En utilisant les classes Aspose.Words Document, DocumentBuilder, Comment et Style, ce tutoriel crée des commentaires dans un fichier Word et applique un style de paragraphe personnalisé à chaque paragraphe de commentaire afin que le texte du commentaire corresponde à la marque de l'entreprise.
+//ExStepSummary:0: Créez un nouveau Document vide et un DocumentBuilder pour le modifier.
+//ExStepSummary:1: Insérez deux phrases d'exemple dans le document.
+//ExStepSummary:2: Créez un commentaire de Carol, définissez son texte, déplacez‑vous au début du document et attachez le commentaire au premier paragraphe.
+//ExStepSummary:3: Créez un commentaire de Dave, définissez son texte, déplacez‑vous à la fin du document et attachez le commentaire au dernier paragraphe.
+//ExStepSummary:4: Définissez un style de paragraphe personnalisé nommé "BrandComment" avec la police Arial, 10 pt, couleur bleu foncé, en gras, pour correspondre à la marque de l'entreprise.
+//ExStepSummary:5: Collectez tous les nœuds Comment du document dans une liste.
+//ExStepSummary:6: Parcourez chaque commentaire et appliquez le style BrandComment à chaque paragraphe à l'intérieur du commentaire.
+//ExStepSummary:7: Créez un dossier Results si nécessaire et enregistrez le document modifié sous le nom StyledCommentsDocument.docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:6:images/4.png
+//ExStep:0-
+Document document = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(document);
+
+//ExStep:1-
+docBuilder.Writeln("Introductory line for the file.");
+docBuilder.Writeln("Follow‑up line for the file.");
+
+//ExStep:2-
+Comment remarkOne = new Comment(document, "Carol", "C", DateTime.Now);
+remarkOne.SetText("Preliminary assessment note.");
+docBuilder.MoveToDocumentStart();
+docBuilder.CurrentParagraph.AppendChild(remarkOne);
+
+//ExStep:3-
+Comment remarkTwo = new Comment(document, "Dave", "D", DateTime.Now);
+remarkTwo.SetText("Further clarification required.");
+docBuilder.MoveToDocumentEnd();
+docBuilder.CurrentParagraph.AppendChild(remarkTwo);
+
+//ExStep:4-
+Style brandCommentStyle = document.Styles.Add(StyleType.Paragraph, "BrandComment");
+brandCommentStyle.Font.Name = "Arial";
+brandCommentStyle.Font.Size = 10;
+brandCommentStyle.Font.Color = Color.DarkBlue;
+brandCommentStyle.Font.Bold = true;
+
+//ExStep:5-
+var allComments = document.GetChildNodes(NodeType.Comment, true)
+                                 .OfType<Comment>()
+                                 .ToList();
+
+//ExStep:6-
+foreach (Comment commentNode in allComments)
+{
+    if (commentNode.Paragraphs.Count == 0)
+        commentNode.EnsureMinimum();
+
+    foreach (Paragraph para in commentNode.Paragraphs)
+    {
+        para.ParagraphFormat.Style = brandCommentStyle;
+    }
+}
+
+//ExStep:7-
+string resultFolder = Path.Combine(Directory.GetCurrentDirectory(), "Results");
+Directory.CreateDirectory(resultFolder);
+string resultFile = Path.Combine(resultFolder, "StyledCommentsDocument.docx");
+document.Save(resultFile);
+//ExEnd

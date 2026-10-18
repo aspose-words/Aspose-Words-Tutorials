@@ -67,6 +67,9 @@ Xuất tài liệu đã được làm giàu sang định dạng bạn cần—PD
 ### [Master Text Processing in Java&#58; Using Aspose.Words & AI Models for Summarization and Translation](./java-aspose-words-text-processing/)
 Tìm hiểu cách tự động hoá tóm tắt và dịch văn bản bằng Aspose.Words for Java kết hợp với GPT‑4 của OpenAI và Gemini của Google. Nâng cao ứng dụng Java của bạn ngay hôm nay.
 
+### [Cách cấu hình LLM – Thay thế văn bản trong DOCX bằng AI](./how-to-configure-llm-replace-text-in-docx-with-ai/)
+Hướng dẫn cấu hình mô hình ngôn ngữ lớn để tự động thay thế nội dung trong tài liệu DOCX bằng AI.
+
 ## Additional Resources
 
 - [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)

@@ -34,14 +34,25 @@ Hướng dẫn mã cho Aspose.Words Java
 ### [Cách kết xuất các trang tài liệu dưới dạng hình thu nhỏ bằng Aspose.Words cho Java](./render-word-pages-thumbnails-aspose-java/)
 Tìm hiểu cách tạo hình thu nhỏ chất lượng cao và bitmap tùy chỉnh kích thước của tài liệu Word bằng Aspose.Words for Java. Nâng cao khả năng xử lý tài liệu của bạn ngay hôm nay.
 
-### [Tạo tài liệu Word bằng Java – Thêm hình chữ nhật với hiệu ứng bóng](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-Hướng dẫn cách chèn hình chữ nhật có bóng vào tài liệu Word bằng Aspose.Words cho Java.
+### [Thêm bóng cho hình dạng trong Word – Hướng dẫn đầy đủ Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+Hướng dẫn chi tiết cách áp dụng hiệu ứng bóng cho hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
+### [Áp dụng hiệu ứng bóng cho hình dạng trong C# – Hướng dẫn từng bước](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách áp dụng hiệu ứng bóng cho hình dạng trong tài liệu Word bằng C# sử dụng Aspose.Words.
+### [Cách đặt bóng cho hình dạng trong Aspose.Words – Hướng dẫn chi tiết](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
+Hướng dẫn chi tiết cách áp dụng hiệu ứng bóng cho hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
+
+### [Cách đặt bóng cho hình dạng trong C# – Thêm bóng cho hình dạng dễ dàng](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+Hướng dẫn chi tiết cách áp dụng hiệu ứng bóng cho hình dạng trong tài liệu Word bằng Aspose.Words cho C#.
+
+### [Tạo hình chữ nhật trong tài liệu Word Java – Hướng dẫn chi tiết từng bước](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Hướng dẫn chi tiết cách tạo hình chữ nhật trong tài liệu Word bằng Aspose.Words cho Java.
 
 ### [Tạo hình dạng hộp văn bản trong Java – Hướng dẫn toàn diện về thêm bóng](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
 Hướng dẫn chi tiết cách chèn và tùy chỉnh hộp văn bản có hiệu ứng bóng trong tài liệu Word bằng Aspose.Words cho Java.
 
 ## Tài nguyên bổ sung
 
+## Tài nguyên bổ sung
 - [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/)
 - [Tài liệu tham khảo API Aspose.Words cho Java](https://reference.aspose.com/words/java/)
 - [Tải xuống Aspose.Words cho Java](https://releases.aspose.com/words/java/)

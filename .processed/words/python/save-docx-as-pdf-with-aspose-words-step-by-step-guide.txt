@@ -1,0 +1,7 @@
+Title: Save docx as pdf with Aspose.Words – Step‑by‑Step Guide
+Slug: save-docx-as-pdf-with-aspose-words-step-by-step-guide
+Category: document-conversion
+ProcessedDate: 2026-06-21T07:53:52.045756
+SourceRepo: AI Search API
+Keywords: save docx as pdf, convert word to pdf, how to export word document to pdf, create pdf from word document, aspose convert docx to pdf
+PRNumber: 209

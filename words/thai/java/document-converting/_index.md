@@ -101,6 +101,10 @@ weight: 14
 ### [การแปลงเอกสารเป็นภาพ](./converting-documents-images/)
 เรียนรู้วิธีแปลงเอกสาร Word เป็นภาพด้วย Aspose.Words for Java. คู่มือขั้นตอนพร้อมตัวอย่างโค้ดและคำถามที่พบบ่อย.
 
+### [บันทึกไฟล์ docx เป็น markdown ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์](./save-docx-as-markdown-with-aspose-words-complete-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown อย่างละเอียดด้วย Aspose.Words สำหรับ Java พร้อมตัวอย่างโค้ดและเคล็ดลับ
+### [แปลง DOCX เป็น PDF ใน Java – คู่มือขั้นตอนโดยละเอียด](./convert-docx-to-pdf-in-java-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ด้วย Aspose.Words for Java อย่างละเอียดด้วยขั้นตอนที่ชัดเจนและตัวอย่างโค้ด.
 ### [บันทึก docx เป็น pdf ด้วย Aspose.Words – คู่มือ Java ครบวงจร](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
 เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น PDF อย่างละเอียดด้วย Aspose.Words for Java พร้อมตัวอย่างโค้ดและเคล็ดลับการปรับแต่ง
 

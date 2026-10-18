@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: 이 튜토리얼에서는 Aspose.Words를 사용하여 새 Word 문서를 만들고, 세 개의 단락을 추가하고, 특정 단락을 찾아 해당 단락에 작성자 정보를 포함한 댓글을 첨부한 다음, 결과를 DOCX 파일로 저장하는 방법을 보여줍니다.
+//ExStepSummary:0: 새 Document와 DocumentBuilder를 인스턴스화하여 Word 파일 작성을 시작합니다.
+//ExStepSummary:1: DocumentBuilder.Writeln을 사용하여 문서에 세 개의 별도 텍스트 단락을 추가합니다.
+//ExStepSummary:2: 문서에 두 개 미만의 단락이 있을 경우 첫 번째 단락으로 대체하면서 두 번째 단락을 안전하게 가져옵니다.
+//ExStepSummary:3: 작성자 정보를 포함한 Comment를 생성하고 텍스트를 설정한 뒤, 선택한 단락에 첨부합니다.
+//ExStepSummary:4: 수정된 문서를 현재 폴더에 'sample.docx'라는 이름의 DOCX 파일로 저장합니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder builderObj = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+builderObj.Writeln("Introductory line.");
+builderObj.Writeln("Middle line.");
+builderObj.Writeln("Concluding line.");
+
+//ExStep:2-
+Paragraph? chosenParagraph = null;
+ParagraphCollection? paraList = wordDoc.FirstSection?.Body?.Paragraphs;
+if (paraList != null && paraList.Count > 1)
+{
+    chosenParagraph = paraList[1];
+}
+else if (paraList != null && paraList.Count > 0)
+{
+    chosenParagraph = paraList[0];
+}
+
+//ExStep:3-
+if (chosenParagraph != null)
+{
+    Comment note = new Comment(wordDoc, "Jordan", "JH", DateTime.Now);
+    note.SetText("Please examine this section.");
+    chosenParagraph.AppendChild(note);
+}
+
+//ExStep:4-
+wordDoc.Save("sample.docx");
+//ExEnd

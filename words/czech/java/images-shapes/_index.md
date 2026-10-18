@@ -34,14 +34,25 @@ Výukový program pro Aspose.Words v Javě
 ### [Jak vykreslit stránky dokumentu jako miniatury pomocí Aspose.Words pro Javu](./render-word-pages-thumbnails-aspose-java/)
 Naučte se, jak generovat vysoce kvalitní miniatury a rastrové obrázky vlastní velikosti v dokumentech Word pomocí Aspose.Words pro Javu. Vylepšete si své schopnosti práce s dokumenty ještě dnes.
 
-### [Vytvořit Word dokument v Javě – Přidat obdélníkový tvar se stínovým efektem](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-Naučte se, jak přidat obdélníkový tvar se stínem do Word dokumentu pomocí Aspose.Words pro Javu.
+### [Přidání stínu k tvaru ve Wordu – kompletní průvodce Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+Naučte se, jak přidat stín k tvarům v dokumentech Word pomocí Aspose.Words pro Javu.
+### [Aplikace stínového efektu na tvar v C# – krok za krokem průvodce](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
+Naučte se, jak aplikovat stínový efekt na tvary v C# pomocí Aspose.Words – podrobný krok‑za‑krokem průvodce.
+### [Jak nastavit stín na tvar v Aspose.Words – kompletní průvodce](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
+Naučte se, jak přidat stín k tvarům v dokumentech Word pomocí Aspose.Words pro Javu.
+
+### [Jak nastavit stín na tvar v C# – Přidejte stín tvaru snadno](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+Naučte se, jak pomocí Aspose.Words pro C# přidat stín k tvarům ve Word dokumentu.
+
+### [Vytvořit obdélníkový tvar v dokumentu Word v Javě – Kompletní průvodce krok za krokem](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Kompletní návod, jak v Javě pomocí Aspose.Words vytvořit obdélníkový tvar v dokumentu Word.
 
 ### [Vytvořit textové pole tvaru v Javě – Kompletní průvodce přidáváním stínů](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
 Naučte se, jak vytvořit textové pole jako tvar a přidat mu stín v dokumentu Word pomocí Aspose.Words pro Javu.
 
 ## Další zdroje
 
+## Další zdroje
 - [Dokumentace k Aspose.Words pro Javu](https://reference.aspose.com/words/java/)
 - [Referenční příručka k Aspose.Words pro Java API](https://reference.aspose.com/words/java/)
 - [Stáhněte si Aspose.Words pro Javu](https://releases.aspose.com/words/java/)
