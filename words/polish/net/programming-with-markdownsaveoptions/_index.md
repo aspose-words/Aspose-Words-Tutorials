@@ -205,11 +205,16 @@ Dowiedz się, jak ustawić względne ścieżki obrazów przy konwersji dokumentu
 Dowiedz się, jak wyodrębnić i zapisać obrazy z plików DOCX podczas konwersji do formatu Markdown przy użyciu Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+### [Utwórz folder zasobów dla konwersji Word do Markdown](./create-assets-folder-for-convert-word-to-markdown/)
+Dowiedz się, jak utworzyć folder zasobów niezbędny przy konwersji dokumentów Word do formatu Markdown przy użyciu Aspose.Words.
 
+### [Zapisz Word jako Markdown – Kompletny przewodnik z Aspose.Words](./save-word-as-markdown-complete-guide-with-aspose-words/)
+Kompletny przewodnik C# pokazujący, jak zapisać dokument Word w formacie Markdown przy użyciu Aspose.Words.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

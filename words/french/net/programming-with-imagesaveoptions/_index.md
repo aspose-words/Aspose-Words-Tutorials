@@ -35,6 +35,7 @@ Ces tutoriels abordent également les concepts de base de la manipulation d'imag
 | [Créer une grille PNG à partir d'un document Word – Guide complet](./create-png-grid-from-word-document-complete-guide/) | Apprenez à générer une grille d'images PNG à partir d'un document Word avec Aspose.Words pour .NET, étape par étape. |
 | [Comment définir la résolution lors de la conversion de Word en PNG – Guide complet](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Apprenez à définir la résolution lors de la conversion d'un document Word en image PNG avec Aspose.Words pour .NET grâce à ce guide complet en C#. |
 
+| [Exporter Word en PNG – Convertir DOCX en une seule image](./export-word-as-png-convert-docx-to-one-image/) | Apprenez à convertir un document DOCX en une image PNG unique avec Aspose.Words pour .NET grâce à ce guide étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

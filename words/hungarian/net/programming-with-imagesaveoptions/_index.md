@@ -36,6 +36,7 @@ Az oktatóanyagok a képmanipuláció alapvető fogalmait is lefedik, beleértve
 | [PNG rács létrehozása Word dokumentumból – Teljes útmutató](./create-png-grid-from-word-document-complete-guide/) | Tanulja meg, hogyan hozhat létre PNG képrácsot Word dokumentumból az Aspose.Words for .NET segítségével, részletes lépésekkel. |
 | [Hogyan állítsuk be a felbontást a Word PNG-re konvertálásakor – Teljes útmutató](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Ismerje meg, hogyan állíthatja be a felbontást a Word dokumentum PNG formátumba konvertálásakor C#-ban, részletes lépésekkel. |
 
+| [Word exportálása PNG-ként – DOCX konvertálása egyetlen képpé](./export-word-as-png-convert-docx-to-one-image/) | Tanulja meg, hogyan exportálhatja a Word-dokumentumot PNG formátumba egyetlen képként az Aspose.Words for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

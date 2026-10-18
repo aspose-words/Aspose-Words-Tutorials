@@ -53,6 +53,7 @@
 | [Δημιουργία σχήματος ορθογωνίου με σκιά σε C# χρησιμοποιώντας το Aspose.Words](./create-rectangle-shape-with-shadow-in-c-using-aspose-words/) | Μάθετε πώς να δημιουργήσετε σχήμα ορθογωνίου με σκιά σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET. |
 | [Δημιουργία κενής εγγράφου Word με σχήμα ορθογωνίου με σκιά – Οδηγός βήμα‑προς‑βήμα](./create-blank-word-document-with-shadowed-rectangle-ste/) | Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word με σχήμα ορθογωνίου με σκιά χρησιμοποιώντας το Aspose.Words για .NET, βήμα‑προς‑βήμα. |
 | [Δημιουργία εγγράφου Word με σχήμα ορθογωνίου με σκιά – Πλήρης οδηγός](./create-word-document-with-shadowed-rectangle-complete-guide/) | Μάθετε πώς να δημιουργήσετε έγγραφο Word με ορθογώνιο σχήμα με σκιά, βήμα‑βήμα, χρησιμοποιώντας Aspose.Words για .NET. |
+| [Δημιουργία εγγράφου Word – Εισαγωγή σχήματος ορθογωνίου και σκιάς σε C#](./create-word-document-insert-rectangle-shape-shadow-in-c/) | Μάθετε πώς να δημιουργήσετε έγγραφο Word και να προσθέσετε σχήμα ορθογωνίου με σκιά χρησιμοποιώντας C# και Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

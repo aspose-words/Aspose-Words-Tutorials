@@ -35,6 +35,7 @@
 | [كيفية ضبط DPI عند تحويل Word إلى PNG – دليل التصدير عالي الدقة](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) |تعلم كيفية تعيين قيمة DPI عند تحويل مستندات Word إلى PNG بجودة عالية باستخدام Aspose.Words for .NET مع مثال كامل. |
 | [إنشاء شبكة PNG من مستند Word – دليل كامل](./create-png-grid-from-word-document-complete-guide/) |تعلم كيفية إنشاء شبكة من صور PNG من مستند Word باستخدام Aspose.Words for .NET خطوة بخطوة. |
 | [كيفية ضبط الدقة عند تحويل Word إلى PNG – دليل كامل](./how-to-set-resolution-when-converting-word-to-png-complete-g/) |تعلم كيفية تعيين الدقة عند تحويل مستندات Word إلى PNG باستخدام Aspose.Words for .NET مع دليل كامل. |
+| [تصدير Word كـ PNG – تحويل DOCX إلى صورة واحدة](./export-word-as-png-convert-docx-to-one-image/) |تعلم كيفية تصدير مستند Word إلى صورة PNG واحدة باستخدام Aspose.Words for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

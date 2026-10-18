@@ -223,6 +223,10 @@ Erfahren Sie, wie Sie Markdown aus Word speichern, Bilder extrahieren und DOCX k
 Erfahren Sie, wie Sie DOCX‑Dateien vollständig nach Markdown exportieren – umfassende Schritt‑für‑Schritt‑Anleitung in C#.
 ### [Markdown‑Bild relativer Pfad – Word zu Markdown konvertieren](./markdown-image-relative-path-convert-word-to-markdown/)
 Erfahren Sie, wie Sie beim Konvertieren von Word nach Markdown relative Bildpfade korrekt setzen.
+### [Assets-Ordner für die Konvertierung von Word zu Markdown erstellen](./create-assets-folder-for-convert-word-to-markdown/)
+
+### [Word als Markdown speichern – Vollständige Anleitung mit Aspose.Words](./save-word-as-markdown-complete-guide-with-aspose-words/)
+Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words in Markdown konvertieren – komplette Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

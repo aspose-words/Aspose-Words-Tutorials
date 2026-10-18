@@ -120,6 +120,8 @@ class Program
 | [Convert DOCX to Markdown – Complete Guide to Export Word to Markdown](./convert-docx-to-markdown-complete-guide-to-export-word-to-ma/) | Learn how to convert DOCX files to Markdown with a comprehensive guide covering export options using Aspose.Words for .NET. |
 | [markdown image relative path – Convert Word to Markdown](./markdown-image-relative-path-convert-word-to-markdown/) | Learn how to convert Word documents to Markdown while preserving relative image paths using Aspose.Words for .NET. |
 | [How to Save Images – Convert DOCX to Markdown with Aspose.Words](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/) | Learn how to extract and save images while converting DOCX to Markdown using Aspose.Words for .NET. |
+| [Create Assets Folder for Convert Word to Markdown](./create-assets-folder-for-convert-word-to-markdown/) | Learn how to set up an assets folder for storing images and resources when converting Word to Markdown using Aspose.Words for .NET. |
+| [Save Word as Markdown – Complete Guide with Aspose.Words](./save-word-as-markdown-complete-guide-with-aspose-words/) | Learn how to save Word documents as Markdown using Aspose.Words for .NET with a comprehensive step‑by‑step guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

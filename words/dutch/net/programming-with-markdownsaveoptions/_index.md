@@ -225,6 +225,10 @@ Leer hoe u links uit een DOCX-bestand exporteert en converteert naar Markdown me
 ### [markdown-afbeeldingsrelatief pad – Converteer Word naar Markdown](./markdown-image-relative-path-convert-word-to-markdown/)
 Leer hoe u afbeeldingen met relatieve paden correct exporteert bij het converteren van Word naar Markdown met Aspose.Words voor .NET.
 ### [Hoe afbeeldingen opslaan – Converteer DOCX naar Markdown met Aspose.Words](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/)
+### [Maak assets-map voor het converteren van Word naar Markdown](./create-assets-folder-for-convert-word-to-markdown/)
+Leer hoe u een assets‑map maakt voor het converteren van Word naar Markdown met Aspose.Words voor .NET.
+
+### [Opslaan van Word als Markdown – Complete gids met Aspose.Words](./save-word-as-markdown-complete-guide-with-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

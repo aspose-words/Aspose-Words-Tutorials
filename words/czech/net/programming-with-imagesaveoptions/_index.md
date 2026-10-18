@@ -34,6 +34,7 @@ Výukové programy se také zabývají základními koncepty manipulace s obráz
 | [Jak nastavit DPI při převodu Wordu na PNG – Průvodce exportem ve vysokém rozlišení](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) | Naučte se nastavit DPI při konverzi dokumentu Word do PNG pomocí Aspose.Words pro .NET a získat vysoké rozlišení. |
 | [Vytvoření mřížky PNG z dokumentu Word – Kompletní průvodce](./create-png-grid-from-word-document-complete-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET vytvořit mřížku PNG obrázků z dokumentu Word, včetně nastavení rozlišení a rozložení. |
 | [Jak nastavit rozlišení při převodu Wordu na PNG – Kompletní průvodce](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Naučte se nastavit rozlišení při konverzi dokumentu Word do PNG pomocí Aspose.Words pro .NET v C#. |
+| [Exportovat Word jako PNG – Převést DOCX na jeden obrázek](./export-word-as-png-convert-docx-to-one-image/) | Naučte se, jak exportovat dokument Word do jednoho souboru PNG pomocí Aspose.Words pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

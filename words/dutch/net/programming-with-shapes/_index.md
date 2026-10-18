@@ -53,6 +53,7 @@ Door Aspose.Words voor .NET te gebruiken en deze tutorials te volgen, krijgt u d
 | [Word-document maken – Hoe een rechthoekvorm en schaduw toe te voegen](./create-word-document-how-to-add-rectangle-shape-and-shadow/) | Leer hoe u een rechthoekvorm met schaduw toevoegt aan een Word‑document met Aspose.Words voor .NET. |
 | [Rechthoekvorm met schaduw maken in C# met Aspose.Words](./create-rectangle-shape-with-shadow-in-c-using-aspose-words/) | Leer hoe u een rechthoekvorm met schaduw toevoegt aan een Word-document met Aspose.Words voor .NET in C#. |
 | [Word‑document met schaduwrechthoek maken – Complete gids](./create-word-document-with-shadowed-rectangle-complete-guide/) | Leer hoe u een Word‑document maakt met een schaduwrechthoek met Aspose.Words voor .NET. |
+| [Word-document maken – Rechthoekvorm en schaduw invoegen in C#](./create-word-document-insert-rectangle-shape-shadow-in-c/) | Leer hoe u een Word‑document maakt en een rechthoek met schaduw toevoegt met Aspose.Words voor .NET in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -35,6 +35,7 @@
 | [Word को PNG में बदलते समय DPI सेट करना – हाई‑रेज़ोल्यूशन एक्सपोर्ट गाइड](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ को PNG में हाई‑रेज़ोल्यूशन के साथ बदलते समय DPI कैसे सेट करें, इस गाइड में सीखें। |
 | [Word दस्तावेज़ से PNG ग्रिड बनाना – पूर्ण गाइड](./create-png-grid-from-word-document-complete-guide/) | Aspose.Words का उपयोग करके Word फ़ाइल से कई PNG छवियों की ग्रिड बनाना सीखें, चरण-दर-चरण पूर्ण गाइड। |
 | [Word को PNG में बदलते समय रिज़ॉल्यूशन सेट करना – पूर्ण गाइड](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ को PNG में बदलते समय रिज़ॉल्यूशन कैसे सेट करें, इस पूर्ण गाइड में सीखें। |
+| [Word को PNG के रूप में निर्यात करें – DOCX को एक छवि में बदलें](./export-word-as-png-convert-docx-to-one-image/) | DOCX फ़ाइल को एकल PNG छवि में बदलने की प्रक्रिया सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

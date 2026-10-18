@@ -46,7 +46,6 @@ Aspose.Words for .NET ट्यूटोरियल उन डेवलपर�
 | [DOCX पुनर्प्राप्ति – क्षतिग्रस्त फ़ाइलों के लिए चरण‑बद्ध गाइड](./how-to-recover-docx-step-by-step-guide-for-corrupt-files/) | .NET के लिए Aspose.Words का उपयोग करके क्षतिग्रस्त DOCX फ़ाइल को पुनर्प्राप्त करने की चरण‑दर‑चरण गाइड। |
 | [क्षतिग्रस्त वर्ड फ़ाइल पुनर्प्राप्त करें – Aspose के साथ भ्रष्ट docx खोलें](./recover-damaged-word-file-open-corrupted-docx-using-aspose/) | .NET के लिए Aspose.Words का उपयोग करके क्षतिग्रस्त Word फ़ाइल को पुनर्प्राप्त करें और भ्रष्ट docx को खोलें। चरण-दर-चरण मार्गदर्शिका। |
 | [Word फ़ाइलों को पुनर्प्राप्त करने का तरीका – Aspose.Words के साथ पूर्ण गाइड](./how-to-recover-word-files-complete-guide-with-aspose-words/) | .NET के लिए Aspose.Words का उपयोग करके क्षतिग्रस्त या खोई हुई Word फ़ाइलों को पुनर्प्राप्त करने की पूरी प्रक्रिया सीखें। |
-| [Aspose Load Options – कस्टम फ़ॉन्ट सेटिंग्स के साथ DOCX लोड करें](./aspose-load-options-load-docx-with-custom-font-settings/) | Aspose.Words में कस्टम फ़ॉन्ट सेटिंग्स के साथ DOCX फ़ाइल लोड करने का तरीका सीखें। |
 | [क्षतिग्रस्त Word दस्तावेज़ पुनर्प्राप्ति – पूर्ण C# गाइड](./recover-damaged-word-document-complete-c-guide/) | C# में Aspose.Words का उपयोग करके क्षतिग्रस्त Word फ़ाइलों को पुनर्प्राप्त करने के चरण-दर-स्टेप मार्गदर्शन। |
 | [क्षतिग्रस्त Word फ़ाइल पुनर्प्राप्त करें – भ्रष्ट DOCX खोलने और पृष्ठ गिनती प्राप्त करने के पूर्ण गाइड](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | भ्रष्ट DOCX फ़ाइल को खोलने, सामग्री पुनर्स्थापित करने और पृष्ठ गिनती जानने के चरण-दर-स्टेप मार्गदर्शन। |
 | [LoadOptions के साथ Aspose.Words का उपयोग कैसे करें – पूर्ण गाइड](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | Aspose.Words में LoadOptions के साथ उन्नत लोडिंग विकल्पों को लागू करने की विस्तृत चरण-दर-चरण गाइड। |
@@ -61,6 +60,9 @@ Aspose.Words for .NET ट्यूटोरियल उन डेवलपर�
 | [क्षतिग्रस्त वर्ड दस्तावेज़ लोड करें – समस्याओं का पता लगाएँ और C# में क्षतिग्रस्त docx पुनर्प्राप्त करें](./load-corrupted-word-document-detect-issues-recover-damaged-d/) | .NET के लिए Aspose.Words का उपयोग करके क्षतिग्रस्त Word दस्तावेज़ लोड करें, समस्याओं का पता लगाएँ और C# में क्षतिग्रस्त docx फ़ाइल को पुनर्प्राप्त करें। |
 | [C# में भ्रष्ट DOCX लोड करें – पूर्ण Aspose.Words गाइड](./load-corrupted-docx-in-c-complete-aspose-words-guide/) | .NET के लिए Aspose.Words का उपयोग करके भ्रष्ट DOCX फ़ाइल को लोड करने और संभालने की पूरी मार्गदर्शिका। |
 | [DOCX फ़ाइलों को पुनर्प्राप्त करने का तरीका – Aspose के साथ रिकवरी मोड सेट करें](./how-to-recover-docx-files-set-recovery-mode-with-aspose/) | .NET के लिए Aspose.Words का उपयोग करके DOCX फ़ाइलों को पुनर्प्राप्त करने और रिकवरी मोड सेट करने की चरण-दर-स्टेप गाइड। |
+| [docx को पुनर्प्राप्त करने की विधि – भ्रष्ट Word फ़ाइलों के लिए C# गाइड](./how-to-recover-docx-c-guide-for-corrupted-word-files/) भ्रष्ट .docx फ़ाइलों को पुनर्स्थापित करने के लिए C# कोड उदाहरण और चरण-दर-चरण मार्गदर्शिका। |
+| [docx पुनर्प्राप्ति – रिकवरी मोड सेट करें और क्षतिग्रस्त Word फ़ाइलें खोलें](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) रिकवरी मोड सेट करके और क्षतिग्रस्त Word फ़ाइलें खोलकर docx फ़ाइलों को पुनर्प्राप्त करने की चरण-दर-चरण प्रक्रिया सीखें। |
+| [Aspose Load Options – कस्टम फ़ॉन्ट सेटिंग्स के साथ DOCX लोड करें](./aspose-load-options-load-docx-with-custom-font-settings/) |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

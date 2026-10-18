@@ -161,6 +161,10 @@ Panduan lengkap mengonversi file DOCX menjadi Markdown menggunakan Aspose.Words 
 Pelajari cara mengatur jalur relatif gambar saat mengonversi dokumen Word ke format Markdown menggunakan Aspose.Words untuk .NET.
 ### [Cara Menyimpan Gambar – Mengonversi DOCX ke Markdown dengan Aspose.Words](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/)
 Pelajari cara menyimpan gambar saat mengonversi file DOCX ke format Markdown menggunakan Aspose.Words.
+### [Buat Folder Aset untuk Mengonversi Word ke Markdown](./create-assets-folder-for-convert-word-to-markdown/)
+Pelajari cara membuat folder aset untuk menyimpan gambar dan sumber daya saat mengonversi dokumen Word ke Markdown dengan Aspose.Words.
+### [Simpan Word sebagai Markdown – Panduan Lengkap dengan Aspose.Words](./save-word-as-markdown-complete-guide-with-aspose-words/)
+Pelajari cara menyimpan dokumen Word sebagai Markdown dengan panduan lengkap menggunakan Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

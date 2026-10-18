@@ -36,6 +36,7 @@ Aspose.Words for .NET 教學課程中使用 ImageSaveOptions 進行文字處理�
 | [將 Word 轉換為 PNG 時設定解析度 – 完整指南](./how-to-set-resolution-when-converting-word-to-png-complete-g/) |本完整指南說明如何在將 Word 文件轉換為 PNG 時設定解析度，以控制圖像品質與大小。 |
 
 | [將 Word 轉換為 PNG – 完整 C# 指南](./convert-word-to-png-complete-c-guide/) |本完整 C# 教程說明如何將 Word 文件轉換為 PNG 圖像，涵蓋所有必要設定與最佳化步驟。 |
+| [將 Word 匯出為 PNG – 將 DOCX 轉換為單一圖像](./export-word-as-png-convert-docx-to-one-image/) |說明如何使用 Aspose.Words for .NET 將整個 DOCX 文件匯出為單一 PNG 圖像。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -35,6 +35,7 @@ Handledningarna täcker även de grundläggande koncepten för bildmanipulation,
 | [Hur du anger DPI när du konverterar Word till PNG – Guide för högupplöst export](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) | Lär dig hur du ställer in DPI för högupplöst PNG-export från Word med Aspose.Words för .NET i en detaljerad guide. |
 | [Skapa PNG-rutnät från Word-dokument – Komplett guide](./create-png-grid-from-word-document-complete-guide/) | Lär dig hur du skapar ett PNG-rutnät från ett Word-dokument med Aspose.Words för .NET i en komplett steg-för-steg-guide. |
 | [Hur du anger upplösning när du konverterar Word till PNG – Komplett guide](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Lär dig hur du ställer in upplösning för PNG-export från Word med Aspose.Words för .NET i en komplett guide. |
+| [Exportera Word som PNG – Konvertera DOCX till en bild](./export-word-as-png-convert-docx-to-one-image/) | Lär dig hur du exporterar ett Word-dokument till en enda PNG-bild med Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -153,6 +153,9 @@
 ### [تحويل DOCX إلى Markdown – دليل كامل لتصدير Word إلى Markdown](./convert-docx-to-markdown-complete-guide-to-export-word-to-ma/)
 ### [مسار الصورة النسبي في Markdown – تحويل Word إلى Markdown](./markdown-image-relative-path-convert-word-to-markdown/)
 ### [كيفية حفظ الصور – تحويل DOCX إلى Markdown باستخدام Aspose.Words](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/)
+### [إنشاء مجلد الأصول لتحويل Word إلى Markdown](./create-assets-folder-for-convert-word-to-markdown/)
+
+### [حفظ Word كـ Markdown – دليل كامل مع Aspose.Words](./save-word-as-markdown-complete-guide-with-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
