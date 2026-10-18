@@ -138,6 +138,8 @@ Aspose.Words for Java 讓您輕鬆 **從 Word 儲存圖像**，同時提供強�
 
 ### [捕捉字體替換警告 – 偵測缺少的字體](./capture-font-substitution-warnings-detect-missing-fonts/)
 
+### [恢復 Word 文件 – 完整指南：在 Java 中設定復原模式](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
+
 ## 常見問題
 
 **Q:** 如何以程式方式 **從 Word 儲存圖像** 文件？  

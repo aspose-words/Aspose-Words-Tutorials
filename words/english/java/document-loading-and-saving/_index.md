@@ -164,6 +164,9 @@ Learn how to recover corrupted DOCX files by enabling recovery mode and reading 
 ### [Capture Font Substitution Warnings – Detect Missing Fonts](./capture-font-substitution-warnings-detect-missing-fonts/)
 Learn how to capture font substitution warnings and detect missing fonts using Aspose.Words for Java.
 
+### [Recover Word Document – Complete Guide to Set Recovery Mode in Java](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
+Learn how to enable and use recovery mode in Aspose.Words for Java to repair corrupted Word documents and ensure successful processing.
+
 ## Frequently Asked Questions
 
 **Q:** How do I programmatically **save images from word** documents?  

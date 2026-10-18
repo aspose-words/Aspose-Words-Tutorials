@@ -184,6 +184,17 @@ Aspose.Words for Java का उपयोग करके DOCX फ़ाइल �
 ### [Aspose Words का उपयोग करके DOCX से एक्सेसिबल PDF बनाएं](./create-accessible-pdf-from-docx-using-aspose-words/)
 ### [एक्सेसिबल PDF बनाएं – वर्ड को PDF में बदलने के लिए चरण‑दर‑चरण गाइड](./create-accessible-pdf-step-by-step-guide-to-convert-word-to/)
 ### [DOCX को मार्कडाउन में बदलते समय इमेज को CDN पर अपलोड करें – पूर्ण जावा गाइड](./upload-images-to-cdn-while-converting-docx-to-markdown-full/)
+### [docx को markdown के रूप में सहेजें – पूर्ण C# गाइड](./save-docx-as-markdown-complete-c-guide/)
+
+### [दस्तावेज़ को TXT के रूप में सहेजें – DOCX को LaTeX के साथ टेक्स्ट में बदलें](./save-document-as-txt-convert-docx-to-text-with-latex/)
+
+### [Java के साथ दस्तावेज़ को PDF के रूप में सहेजें – पूर्ण चरण‑दर‑चरण गाइड](./save-document-as-pdf-with-java-complete-step-by-step-guide/)
+
+### [Word से Markdown निर्यात कैसे करें – पूर्ण गाइड](./how-to-export-markdown-from-word-complete-guide/)
+
+### [एक्सेसिबल PDF बनाना – जावा गाइड वर्ड दस्तावेज़ रूपांतरण के लिए](./create-accessible-pdf-java-guide-for-converting-word-documen/)
+
+### [Aspose.Words के साथ PDF UA दस्तावेज़ बनाएं – पूर्ण जावा गाइड](./create-pdf-ua-document-with-aspose-words-full-java-guide/)
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

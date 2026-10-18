@@ -115,6 +115,9 @@ Erfahren Sie, wie Sie beschädigte DOCX‑Dateien mit Aspose.Words für Java wie
 
 ### [Beschädigtes docx wiederherstellen – Vollständiger Leitfaden zum Reparieren und Verarbeiten von Dokumenten](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 ### [Wie man DOCX-Dateien wiederherstellt – Schritt‑für‑Schritt Java‑Leitfaden](./how-to-recover-docx-files-step-by-step-java-guide/)
+### [Wiederherstellen von Word‑Dokumenten – Vollständiger Leitfaden zum Einstellen des Wiederherstellungsmodus in Java](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
+Erfahren Sie, wie Sie den Wiederherstellungsmodus in Aspose.Words für Java aktivieren, um beschädigte Word‑Dateien zu reparieren.
+
 ### [Erfassung von Font‑Substitutions‑Warnungen in Java mit Aspose.Words – Vollständiger Leitfaden](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [Wiederherstellungsmodus festlegen, um beschädigtes Word‑Dokument zu reparieren](./set-recovery-mode-to-recover-broken-word-document/)
 Lernen Sie, wie Sie den Wiederherstellungsmodus setzen, um beschädigte Word‑Dokumente mit Aspose.Words für Java zu reparieren.

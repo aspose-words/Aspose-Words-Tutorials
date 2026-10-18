@@ -41,6 +41,9 @@ Lär dig hur du lägger till en skugga på en form i C# med Aspose.Words – en 
 ### [Hur man sätter skugga på en form i Aspose.Words – Komplett guide](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Lär dig hur du lägger till skuggeffekter på former i Word-dokument med Aspose.Words för Java.
 
+### [Hur du lägger till skugga på en form i C# – Lägg enkelt till formskugga](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+Lär dig hur du enkelt lägger till skugga på en form i C# med Aspose.Words.
+
 ## Ytterligare resurser
 
 ## Ytterligare resurser

@@ -66,7 +66,6 @@ Aspose.Words for Java の主要機能のひとつは、**convert docx to pdf** �
 
 ## ドキュメント変換とエクスポートのチュートリアル
 ### [Aspose.Words for Java でカスタムバーコードラベルを生成する](./generating-custom-barcode-labels/)
-
 ### [Aspose.Words for Java でバーコード生成を使用する](./using-barcode-generation/)
 
 ### [Aspose.Words for Java でチャートを使用する](./using-charts/)
@@ -175,6 +174,13 @@ Aspose.Words for Java を使用して DOCX ファイルを TXT 形式で保存�
 
 ### [DOCX を Markdown に変換しながら画像を CDN にアップロード – 完全 Java ガイド](./upload-images-to-cdn-while-converting-docx-to-markdown-full/)
 Aspose.Words for Java を使用し、DOCX を Markdown に変換する際に画像を CDN に自動アップロードする手順をステップバイステップで解説します。
+### [アクセシブル PDF の作成 – Word 文書変換のための Java ガイド](./create-accessible-pdf-java-guide-for-converting-word-documen/)
+### [docx を markdown に保存 – 完全 C# ガイド](./save-docx-as-markdown-complete-c-guide/)
+### [Word から Markdown をエクスポートする方法 – 完全ガイド](./how-to-export-markdown-from-word-complete-guide/)
+### [ドキュメントをTXTとして保存 – Word数式エクスポートのクイックガイド](./save-document-as-txt-quick-guide-to-exporting-word-math/)
+### [ドキュメントをTXTとして保存 – DOCXをLaTeXテキストに変換](./save-document-as-txt-convert-docx-to-text-with-latex/)
+### [Aspose.Words for Java で文書を PDF に保存 – 完全ステップバイステップガイド](./save-document-as-pdf-with-java-complete-step-by-step-guide/)
+### [Aspose.Words for Java で PDF/UA 文書を作成 – 完全 Java ガイド](./create-pdf-ua-document-with-aspose-words-full-java-guide/)
 
 ---
 

@@ -41,6 +41,9 @@ C# で図形に影効果を適用する手順をステップバイステップ�
 ### [Aspose.Words で図形に影を設定する方法 – 完全ガイド](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Aspose.Words for Java で図形に影効果を適用する手順をステップバイステップで解説します。
 
+### [C# でシェイプに影を設定する方法 – 簡単にシェイプの影を追加](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+C# を使用して Word 文書内のシェイプに影効果を適用し、視覚的に魅力的なレイアウトを作成する手順を解説します。
+
 ## 追加リソース
 
 ## 追加リソース

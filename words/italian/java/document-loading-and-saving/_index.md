@@ -173,6 +173,9 @@ Scopri come intercettare gli avvisi di sostituzione dei font e identificare i fo
 ### [Salva documento Word – Imposta impostazioni dei caratteri, gestisci i font mancanti](./save-word-document-set-font-settings-handle-missing-fonts/)
 Impara a impostare le proprietà dei font e a gestire i font mancanti durante il salvataggio di documenti Word con Aspose.Words per Java.
 
+### [Recupera documento Word – Guida completa per impostare la modalità di recupero in Java](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
+Scopri come impostare la modalità di recupero per riparare documenti Word danneggiati usando Aspose.Words per Java.
+
 ## Domande Frequenti
 
 **D:** Come posso **salvare immagini da word** programmaticamente nei documenti?  

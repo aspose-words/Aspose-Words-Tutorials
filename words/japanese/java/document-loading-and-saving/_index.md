@@ -135,6 +135,8 @@ Aspose.Words for Java の多様性を探り、さまざまな形式でドキュ�
 
 ### [DOCX ファイルの復元方法 – ステップバイステップ Java ガイド](./how-to-recover-docx-files-step-by-step-java-guide/)
 
+### [Word ドキュメントの復元 – Java でリカバリモードを設定する完全ガイド](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
+
 ## よくある質問
 
 **Q:** プログラムで **save images from word** ドキュメントを保存するにはどうすればよいですか？  

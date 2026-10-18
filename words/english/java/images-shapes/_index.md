@@ -42,6 +42,9 @@ Learn how to apply shadow effects to shapes in Aspose.Words using C#, with step-
 ### [How to Set Shadow on a Shape in Aspose.Words – Complete Guide](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Learn how to apply and customize shadow effects on shapes in Word documents using Aspose.Words for Java.
 
+### [How to Set Shadow on a Shape in C# – Add Shape Shadow Easily](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+Learn how to apply shadow effects to shapes in Aspose.Words for C# with simple code examples.
+
 ## Additional Resources
 
 ## Additional Resources

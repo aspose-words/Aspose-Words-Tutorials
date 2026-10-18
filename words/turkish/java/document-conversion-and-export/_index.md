@@ -121,12 +121,16 @@ Aspose.Words kullanarak docx dosyasını markdown’a dönüştürün ve matemat
 
 ### [DOCX'i markdown olarak kaydet – Adım‑adım Java Rehberi](./save-docx-as-markdown-step-by-step-java-guide/)
 Aspose.Words for Java kullanarak DOCX dosyasını markdown formatına dönüştürmeyi adım adım öğrenin.
+### [Aspose.Words for Java'da Word'den Markdown'a Dışa Aktarma – Tam Kılavuz](./how-to-export-markdown-from-word-complete-guide/)
+Aspose.Words for Java kullanarak Word belgelerini markdown formatına dönüştürmeyi ve tüm içeriği dışa aktarmayı adım adım öğrenin.
 
 ### [Belgeyi TXT Olarak Kaydet – Word Matematiğini Dışa Aktarma Hızlı Rehberi](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Aspose.Words for Java kullanarak belgeyi TXT formatına kaydedin ve Word matematik denklemlerini dışa aktarın.
 
 ### [DOCX'i TXT Olarak Kaydet – Tam Kılavuz](./how-to-save-docx-as-txt-complete-guide/)
 Aspose.Words for Java kullanarak DOCX dosyasını TXT formatına dönüştürmeyi adım adım öğrenin.
+### [Belgeyi TXT Olarak Kaydet – DOCX'i LaTeX ile Metne Dönüştürme](./save-document-as-txt-convert-docx-to-text-with-latex/)
+Aspose.Words for Java kullanarak DOCX dosyasını TXT formatına ve LaTeX uyumlu metne dönüştürün.
 
 ### [Aspose Word to PDF – Java’da DOCX'i PDF'e Dönüştürme](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Aspose.Words for Java kullanarak DOCX dosyalarını hızlı ve doğru bir şekilde PDF formatına dönüştürün.
@@ -222,6 +226,16 @@ DOCX'ten Markdown'a dönüşüm sırasında resimleri CDN'ye otomatik olarak yü
 
 ### [Java ile docx'i markdown olarak kaydet – Tam Adım‑Adım Kılavuz](./save-docx-as-markdown-with-java-complete-step-by-step-guide/)
 Java kullanarak DOCX dosyasını markdown formatına dönüştürmeyi adım adım öğrenin.
+
+### [DOCX'i markdown olarak kaydet – Tam C# Kılavuzu](./save-docx-as-markdown-complete-c-guide/)
+Aspose.Words for C# kullanarak docx dosyasını markdown formatına dönüştürmeyi ve tüm içeriği dışa aktarmayı öğrenin.
+
+### [Aspose.Words for Java'da PDF UA Belgesi Oluşturma – Tam Java Kılavuzu](./create-pdf-ua-document-with-aspose-words-full-java-guide/)
+Aspose.Words kullanarak PDF/UA standardına uygun belgeler oluşturmayı adım adım öğrenin.
+
+### [Java ile PDF Olarak Belge Kaydet – Tam Adım‑Adım Kılavuz](./save-document-as-pdf-with-java-complete-step-by-step-guide/)
+
+### [Aspose.Words for Java'da Erişilebilir PDF Oluşturma – Java Rehberi: Word Belgelerini Dönüştürme](./create-accessible-pdf-java-guide-for-converting-word-documen/)
 
 ## Sık Sorulan Sorular
 

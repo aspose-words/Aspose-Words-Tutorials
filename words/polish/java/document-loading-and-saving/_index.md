@@ -107,6 +107,8 @@ Określanie formatu dokumentu w Aspose.Words for Java. Dowiedz się, jak wykrywa
 
 ### [Jak odzyskać pliki DOCX przy użyciu Aspose.Words – przewodnik krok po kroku](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 
+### [Odzyskaj dokument Word – Kompletny przewodnik ustawiania trybu odzyskiwania w Javie](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
+
 ### [Jak odzyskać DOCX – Ładowanie uszkodzonych plików z opcjami odzyskiwania](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 Dowiedz się, jak wczytać uszkodzony plik DOCX i odzyskać jego zawartość przy użyciu opcji odzyskiwania w Aspose.Words for Java.
 

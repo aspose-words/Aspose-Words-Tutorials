@@ -47,6 +47,9 @@ C# में Aspose.Words का उपयोग करके आकृति �
 ### [Aspose.Words में आकृति पर छाया कैसे सेट करें – पूर्ण गाइड](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Aspose.Words में आकृति पर छाया लागू करने के चरण-दर-चरण निर्देश और कोड उदाहरण।
 
+### [C# में आकार पर छाया सेट करने का तरीका – आसानी से आकार की छाया जोड़ें](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+C# में Aspose.Words का उपयोग करके आकार पर छाया सेट करने की सरल विधि सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)

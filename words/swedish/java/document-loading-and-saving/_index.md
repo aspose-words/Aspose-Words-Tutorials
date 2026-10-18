@@ -136,7 +136,6 @@ Lär dig hur du upptäcker dokumentformat i Java med Aspose.Words. Identifiera D
 Lär dig hur du återställer korrupta DOCX‑filer med Aspose.Words för Java genom att använda återställningsalternativ för att rädda innehåll.
 
 ### [Återställ korrupt docx – Komplett guide för att reparera och bearbeta dokument](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
-Lär dig hur du reparerar skadade DOCX‑filer och bearbetar dem med Aspose.Words för Java.
 
 ### [Hur du återställer DOCX‑filer – Steg‑för‑steg Java‑guide](./how-to-recover-docx-files-step-by-step-java-guide/)
 Lär dig att reparera skadade DOCX‑filer med Aspose.Words för Java i en detaljerad steg‑för‑steg‑guide.
@@ -166,6 +165,8 @@ Lär dig hur du reparerar korrupta Word‑filer med Aspose.Words för Java, steg
 Lär dig hur du fångar varningar för teckensnittssubstitution och identifierar saknade teckensnitt i dina dokument med Aspose.Words för Java.
 
 ### [Spara Word-dokument – Ställ in teckensnittinställningar, hantera saknade teckensnitt](./save-word-document-set-font-settings-handle-missing-fonts/)
+
+### [Återställ Word-dokument – Komplett guide för att ställa in återställningsläge i Java](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
 
 ## Vanliga frågor
 

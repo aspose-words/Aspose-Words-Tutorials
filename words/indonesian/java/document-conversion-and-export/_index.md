@@ -84,6 +84,9 @@ Manfaatkan Kekuatan Bentuk Dokumen di Aspose.Words for Java. Pelajari cara Membu
 ### [Menggunakan Watermark pada Dokumen di Aspose.Words for Java](./using-watermarks-to-documents/)
 Pelajari cara menambahkan watermark ke dokumen di Aspose.Words for Java. Sesuaikan watermark teks dan gambar untuk dokumen berpenampilan profesional.
 
+### [Buat Dokumen PDF UA dengan Aspose.Words – Panduan Java Lengkap](./create-pdf-ua-document-with-aspose-words-full-java-guide/)
+Pelajari cara membuat dokumen PDF UA menggunakan Aspose.Words for Java dalam panduan langkah demi langkah lengkap.
+
 ### [Memformat Tabel dan Gaya Tabel di Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Pelajari cara memformat tabel dan menerapkan gaya tabel di Aspose.Words for Java. Jelajahi panduan langkah demi langkah dengan kode sumber untuk pemformatan tabel yang efektif. Tingkatkan tata letak dokumen Anda dengan Aspose.Words.
 
@@ -125,15 +128,22 @@ Pelajari cara menyimpan file DOCX menjadi markdown menggunakan Java dengan Aspos
 
 ### [Unggah Gambar ke CDN Saat Mengonversi DOCX ke Markdown – Panduan Java Lengkap](./upload-images-to-cdn-while-converting-docx-to-markdown-full/)
 Pelajari cara mengunggah gambar ke CDN secara otomatis saat mengonversi file DOCX menjadi Markdown menggunakan Aspose.Words for Java.
+### [Simpan docx sebagai markdown – Panduan Lengkap C#](./save-docx-as-markdown-complete-c-guide/)
+Pelajari cara menyimpan file DOCX menjadi markdown menggunakan Aspose.Words untuk C# dalam panduan lengkap langkah demi langkah.
 
 ### [Cara Menyisipkan Gambar dalam Markdown Saat Mengonversi DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Pelajari cara menyisipkan gambar ke dalam file Markdown selama proses konversi DOCX menggunakan Aspose.Words for Java.
+
+### [Cara Mengekspor Markdown dari Word – Panduan Lengkap](./how-to-export-markdown-from-word-complete-guide/)
+Pelajari cara mengekspor dokumen Word menjadi file Markdown dengan Aspose.Words dalam panduan langkah demi langkah yang lengkap.
 
 ### [Simpan Dokumen sebagai TXT – Panduan Cepat Mengekspor Matematika Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Pelajari cara menyimpan dokumen Word sebagai file TXT sambil mengekspor persamaan matematika dengan Aspose.Words.
 
 ### [Cara Menyimpan DOCX sebagai TXT – Panduan Lengkap](./how-to-save-docx-as-txt-complete-guide/)
 Pelajari cara menyimpan file DOCX menjadi TXT dengan Aspose.Words for Java dalam panduan lengkap langkah demi langkah.
+### [Simpan Dokumen sebagai TXT – Konversi DOCX ke Teks dengan LaTeX](./save-document-as-txt-convert-docx-to-text-with-latex/)
+Pelajari cara menyimpan dokumen Word sebagai file TXT dan mengekspor persamaan LaTeX menggunakan Aspose.Words.
 
 ### [Buat PDF Aksesibel dari DOCX – Panduan Lengkap](./create-accessible-pdf-from-docx-complete-guide/)
 Pelajari cara mengonversi file DOCX menjadi PDF yang memenuhi standar aksesibilitas, termasuk tag, teks alternatif, dan struktur dokumen.
@@ -224,6 +234,12 @@ Pelajari cara mengonversi file DOCX menjadi PDF yang memenuhi standar aksesibili
 
 ### [Buat PDF Aksesibel – Panduan Langkah‑per‑Langkah Mengonversi Word ke PDF](./create-accessible-pdf-step-by-step-guide-to-convert-word-to/)
 Pelajari cara mengonversi dokumen Word menjadi PDF yang memenuhi standar aksesibilitas dalam panduan langkah demi langkah ini.
+
+### [Buat PDF Aksesibel – Panduan Java untuk Mengonversi Dokumen Word](./create-accessible-pdf-java-guide-for-converting-word-documen/)
+Pelajari cara mengonversi dokumen Word menjadi PDF yang memenuhi standar aksesibilitas menggunakan Aspose.Words for Java.
+
+### [Simpan Dokumen sebagai PDF dengan Java – Panduan Lengkap Langkah demi Langkah](./save-document-as-pdf-with-java-complete-step-by-step-guide/)
+Pelajari cara menyimpan dokumen sebagai PDF menggunakan Java dengan Aspose.Words dalam panduan langkah demi langkah yang lengkap.
 
 ## Pertanyaan yang Sering Diajukan
 

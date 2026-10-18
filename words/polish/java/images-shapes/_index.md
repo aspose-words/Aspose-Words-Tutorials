@@ -41,6 +41,9 @@ Dowiedz się, jak dodać efekt cienia do kształtu w C# przy użyciu Aspose.Word
 ### [Jak ustawić cień na kształcie w Aspose.Words – kompletny przewodnik](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Dowiedz się, jak dodać cień do kształtu w dokumencie przy użyciu Aspose.Words for Java, krok po kroku.
 
+### [Jak ustawić cień na kształcie w C# – łatwe dodawanie cienia do kształtu](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+Dowiedz się, jak dodać cień do kształtu w C# przy użyciu Aspose.Words, aby poprawić wygląd dokumentów.
+
 ## Dodatkowe zasoby
 
 ## Dodatkowe zasoby

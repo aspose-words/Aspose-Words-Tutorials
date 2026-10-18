@@ -41,6 +41,9 @@ Ismerje meg, hogyan adhat árnyékot egy alakzathoz C#‑ban az Aspose.Words seg
 ### [Hogyan állítsunk be árnyékot egy alakzatra az Aspose.Words-ben – Teljes útmutató](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Ismerje meg, hogyan adhat árnyékot alakzatokhoz az Aspose.Words for Java segítségével, részletes példákkal és beállítási lehetőségekkel.
 
+### [Hogyan állítsunk be árnyékot egy alakzatra C#-ban – Alakzat árnyék egyszerűen hozzáadása](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+Tanulja meg, hogyan adhat hozzá árnyékot egy alakzathoz C#-ban az Aspose.Words segítségével.
+
 ## További források
 
 ## További források

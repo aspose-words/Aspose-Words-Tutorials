@@ -81,7 +81,6 @@ Aspose.Words for Java를 활용한 개체 생성 방법. 코드를 포함하는 
 
 ### [PDF 저장 옵션 – Java에서 DOCX를 PDF로 완전 제어 변환](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 
-### [Java용 Aspose.Words에서 테이블 및 테이블 스타일 서식 지정](./formatting-tables-and-table-styles/)
 ### [Java용 Aspose.Words에서 docx를 markdown으로 변환하는 전체 가이드](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
 
 ### [C#용 Aspose.Words에서 docx를 markdown으로 변환하는 전체 가이드](./convert-docx-to-markdown-in-c-complete-guide/)
@@ -106,16 +105,20 @@ Aspose.Words for Java를 활용한 개체 생성 방법. 코드를 포함하는 
 손상된 DOCX 파일을 복구하고, 마크다운과 PDF/UA 형식으로 내보내는 전체 과정과 코드를 단계별로 안내합니다.
 
 ### [Java용 Aspose.Words에서 DOCX를 PDF로 변환](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
-Aspose.Words for Java를 사용해 DOCX 파일을 PDF 형식으로 변환하는 방법을 단계별로 안내합니다.
+
+### [Java로 문서를 PDF로 저장 – 단계별 완전 가이드](./save-document-as-pdf-with-java-complete-step-by-step-guide/)
 
 ### [DOCX에서 접근성 PDF 만들기 – 완전 가이드](./create-accessible-pdf-from-docx-complete-guide/)
-
 ### [Aspose Words를 사용하여 DOCX에서 접근성 PDF 만들기](./create-accessible-pdf-from-docx-using-aspose-words/)
 
 ### [접근성 PDF 만들기 – Word를 PDF로 변환하는 단계별 가이드](./create-accessible-pdf-step-by-step-guide-to-convert-word-to/)
+### [접근성 PDF 만들기 – Java 가이드 (Word 문서 변환)](./create-accessible-pdf-java-guide-for-converting-word-documen/)
+
+### [Java용 Aspose.Words에서 테이블 및 테이블 스타일 서식 지정](./formatting-tables-and-table-styles/)
 
 ### [docx를 markdown으로 변환 – Aspose.Words로 수학 방정식을 LaTeX로 내보내기](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
-Aspose.Words를 사용해 DOCX 파일을 Markdown으로 변환하고, 수학 방정식을 LaTeX 형식으로 내보내는 방법을 배웁니다.
+
+### [docx를 markdown으로 저장 – 완전 C# 가이드](./save-docx-as-markdown-complete-c-guide/)
 
 ### [DOCX를 마크다운으로 저장 – 단계별 Java 가이드](./save-docx-as-markdown-step-by-step-java-guide/)
 Aspose.Words를 사용해 DOCX 파일을 마크다운 형식으로 저장하는 방법을 단계별로 안내합니다.
@@ -124,13 +127,13 @@ Aspose.Words를 사용해 DOCX 파일을 마크다운 형식으로 저장하는 
 Aspose.Words for Java를 사용해 DOCX 파일을 markdown 형식으로 변환하고 저장하는 전체 단계별 방법을 안내합니다.
 
 ### [DOCX 변환 시 Markdown에 이미지 삽입하는 방법](./how-to-embed-images-in-markdown-when-converting-docx/)
-DOCX 파일을 Markdown으로 변환하면서 이미지 파일을 올바르게 포함하는 방법을 단계별로 안내합니다.
+
+### [Word에서 Markdown 내보내기 – 완전 가이드](./how-to-export-markdown-from-word-complete-guide/)
 
 ### [DOCX를 Markdown으로 변환하면서 이미지를 CDN에 업로드 – 전체 Java 가이드](./upload-images-to-cdn-while-converting-docx-to-markdown-full/)
 DOCX를 Markdown으로 변환하는 과정에서 이미지 파일을 CDN에 자동 업로드하고 링크를 삽입하는 방법을 단계별로 안내합니다.
 
 ### [문서를 TXT로 저장 – Word 수식 내보내기 빠른 가이드](./save-document-as-txt-quick-guide-to-exporting-word-math/)
-Aspose.Words for Java를 사용하여 문서를 TXT 형식으로 저장하고 Word 수식을 내보내는 방법을 단계별로 안내합니다.
 ### [Java에서 DOCX를 Markdown으로 변환할 때 이미지를 Base64로 삽입하기](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
 Aspose.Words for Java를 사용해 DOCX를 Markdown으로 변환하면서 이미지 데이터를 Base64 문자열로 인코딩하여 삽입하는 방법을 안내합니다.
 
@@ -197,6 +200,9 @@ Aspose.Words for Java를 사용해 DOCX 파일을 접근성 PDF로 변환하는 
 
 ### [DOCX를 TXT로 저장하는 방법 – 완전 가이드](./how-to-save-docx-as-txt-complete-guide/)
 Aspose.Words for Java를 사용해 DOCX 파일을 텍스트 파일로 저장하고, 수식 및 서식을 처리하는 전체 단계별 가이드.
+### [문서를 TXT로 저장 – DOCX를 LaTeX와 함께 텍스트로 변환](./save-document-as-txt-convert-docx-to-text-with-latex/)
+
+### [Aspose.Words로 PDF UA 문서 만들기 – 전체 Java 가이드](./create-pdf-ua-document-with-aspose-words-full-java-guide/)
 
 ## 자주 묻는 질문
 

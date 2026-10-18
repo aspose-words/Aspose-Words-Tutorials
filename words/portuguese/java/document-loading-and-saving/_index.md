@@ -130,6 +130,7 @@ As configurações de documentos são a chave para entregar documentos adaptados
 ### [Capturar Avisos de Substituição de Fonte – Detectar Fontes Ausentes](./capture-font-substitution-warnings-detect-missing-fonts/)
 
 ### [Salvar Documento Word – Definir Configurações de Fonte, Tratar Fontes Ausentes](./save-word-document-set-font-settings-handle-missing-fonts/)
+### [Recuperar Documento Word – Guia Completo para Definir o Modo de Recuperação em Java](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
 
 ## Perguntas Frequentes
 

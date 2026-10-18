@@ -107,7 +107,7 @@ Học cách lưu tài liệu Word, thiết lập phông chữ và xử lý các 
 Cấu hình RTF Load Options trong Aspose.Words for Java. Học cách nhận diện văn bản UTF-8 trong tài liệu RTF. Hướng dẫn chi tiết kèm ví dụ mã nguồn.
 
 ### [Loading Text Files with Aspose.Words for Java](./loading-text-files/)
-Mở khóa sức mạnh của Aspose.Words for Java. Học cách tải tài liệu văn bản, quản lý danh sách, xử lý khoảng trắng và điều khiển hướng văn bản.
+Mở khóa sức mạnh của Aspose.Words cho Java. Học cách tải tài liệu văn bản, quản lý danh sách, xử lý khoảng trắng và điều khiển hướng văn bản.
 
 ### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
 Học các tùy chọn lưu nâng cao với Aspose.Words for Java. Mã hoá, xử lý metafile và hơn thế nữa. Tài liệu Word của bạn, cách của bạn.
@@ -161,6 +161,8 @@ Hướng dẫn bật chế độ khôi phục khi mở file docx và cách đọ
 
 ### [Cách Khôi phục Tệp DOCX – Hướng dẫn Java Từng Bước](./how-to-recover-docx-files-step-by-step-java-guide/)
 Học cách khôi phục các tệp DOCX bị hỏng bằng Aspose.Words for Java qua các bước chi tiết và ví dụ mã nguồn thực tế.
+
+### [Khôi phục tài liệu Word – Hướng dẫn toàn diện để thiết lập chế độ khôi phục trong Java](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
 
 ## Câu Hỏi Thường Gặp
 
