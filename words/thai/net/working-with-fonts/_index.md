@@ -50,6 +50,7 @@
 | [รับการแจ้งเตือน](./receive-warning-notification/) เรียนรู้วิธีรับการแจ้งเตือนเมื่อใช้ Aspose.Words สำหรับ .NET และจัดการปัญหาหรือคำเตือนต่างๆ ในเอกสารของคุณ -
 | [จับการแจ้งเตือนฟอนต์ใน C# – คู่มือเต็ม](./capture-font-warnings-in-c-complete-guide/) | เรียนรู้วิธีจับการแจ้งเตือนฟอนต์ที่หายหรือถูกแทนที่ใน Aspose.Words สำหรับ .NET ด้วย C# อย่างละเอียด -
 - [เปิดใช้งานการแจ้งเตือนการทดแทนแบบอักษรใน Aspose.Words – คู่มือฉบับสมบูรณ์](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | เรียนรู้วิธีเปิดใช้งานการแจ้งเตือนการทดแทนแบบอักษรใน Aspose.Words สำหรับ .NET เพื่อให้คุณทราบเมื่อแบบอักษรถูกแทนที่ -
+- [จัดการการทดแทนแบบอักษรใน Aspose.Words – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./handle-font-substitution-in-aspose-words-complete-programmin/) | เรียนรู้วิธีจัดการการทดแทนแบบอักษรอย่างละเอียดใน Aspose.Words สำหรับ .NET ด้วยคู่มือการเขียนโปรแกรมฉบับสมบูรณ์ -
 | [ตัวอย่างแหล่งที่มาของฟอนต์ Steam](./resource-steam-font-source-example/) | เรียนรู้วิธีใช้ Resource Stream Font Source เพื่อโหลดแบบอักษรที่กำหนดเองลงใน Aspose.Words สำหรับ .NET -
 | [รับการทดแทนโดยไม่ต้องมีคำต่อท้าย](./get-substitution-without-suffixes/) | ในบทช่วยสอนนี้ เรียนรู้วิธีรับการแทนที่แบบไม่มีคำต่อท้ายในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET -
 - [วิธีตรวจจับแบบอักษรใน Aspose.Words – จัดการการแจ้งเตือนและการตั้งค่า](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | เรียนรู้วิธีตรวจจับแบบอักษรใน Aspose.Words พร้อมจัดการการแจ้งเตือนและตั้งค่าการแทนที่แบบอักษรเพื่อให้เอกสารแสดงผลอย่างถูกต้อง -
@@ -64,6 +65,7 @@
 
 | [วิธีใช้ FontSettings เพื่อจัดการแบบอักษรที่หายไปใน Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | เรียนรู้วิธีใช้ FontSettings เพื่อตรวจจับและแทนที่แบบอักษรที่หายไปในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET |
 | [วิธีตรวจจับแบบอักษรใน C# – ใช้ Callback กับ Aspose.Words](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | เรียนรู้วิธีตรวจจับแบบอักษรในเอกสาร Word ด้วย C# โดยใช้ Callback ของ Aspose.Words |
+| [สร้างการเรียกกลับคำเตือนสำหรับการโหลดเอกสาร Word – คู่มือฉบับสมบูรณ์](./create-warning-callback-for-loading-word-documents-complete/) | เรียนรู้วิธีสร้าง callback คำเตือนเมื่อโหลดเอกสาร Word ด้วย Aspose.Words สำหรับ .NET |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

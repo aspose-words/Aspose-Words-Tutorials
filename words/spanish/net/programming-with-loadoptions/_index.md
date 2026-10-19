@@ -58,6 +58,11 @@ En estos tutoriales, aprenderá a usar LoadOptions para cargar documentos de Wor
 | [Cargar DOCX corrupto en C# – Guía completa de Aspose.Words](./load-corrupted-docx-in-c-complete-aspose-words-guide/) Aprenda a cargar documentos DOCX dañados en C# usando Aspose.Words, manejando errores y recuperando contenido de forma segura. |
 | [Cómo recuperar archivos DOCX – Establecer modo de recuperación con Aspose](./how-to-recover-docx-files-set-recovery-mode-with-aspose/) Aprenda a recuperar archivos DOCX configurando el modo de recuperación con Aspose.Words para .NET. |
 | [Cómo recuperar archivos Word – Guía completa con Aspose.Words](./how-to-recover-word-files-complete-guide-with-aspose-words/) Aprenda a recuperar archivos Word dañados o perdidos usando Aspose.Words con esta guía paso a paso. |
+| [Recuperar archivo Word dañado – Guía completa para establecer modo de recuperación](./recover-damaged-word-file-complete-guide-to-setting-recovery/) Aprenda a recuperar archivos Word dañados configurando el modo de recuperación con Aspose.Words para .NET. |
+| [Configurar opciones de carga de documentos en C# – Guía completa](./configure-document-load-options-in-c-complete-guide/) Aprenda a configurar LoadOptions para cargar documentos en C# con Aspose.Words, incluyendo fuentes, recuperación y rendimiento. |
+| [Abrir archivo Word corrupto en C# – Guía completa](./open-corrupted-word-file-in-c-complete-guide/) Guía completa para abrir archivos Word dañados en C# con Aspose.Words, incluyendo configuración de recuperación y manejo de errores. |
+| [Cómo usar LoadOptions para detectar fuentes faltantes](./how-to-use-loadoptions-to-detect-missing-fonts/) Aprenda a detectar fuentes faltantes al cargar documentos Word usando LoadOptions en Aspose.Words para .NET. |
+| [Reparar docx dañado con Aspose.Words – Guía completa en C#](./repair-damaged-docx-with-aspose-words-complete-c-guide/) Aprenda a reparar archivos DOCX dañados usando Aspose.Words en C# con esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -45,6 +45,8 @@ Aspose.Words for Java มีบทช่วยสอนมากมายสำ�
 เรียนรู้วิธีใช้ Callback การแจ้งเตือนของ Aspose เพื่อตรวจจับและติดตามฟอนต์ที่หายไปในเอกสาร
 ### [วิธีจับคำเตือน – ตรวจจับฟอนต์ที่หายไปใน Aspose.Words](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
 เรียนรู้วิธีดักจับคำเตือนและตรวจสอบฟอนต์ที่หายไปในเอกสาร Word ด้วย Aspose.Words for Java
+### [ค้นหาแบบอักษรที่หายไปใน Java ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
+เรียนรู้วิธีค้นหาและแก้ไขแบบอักษรที่หายไปในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

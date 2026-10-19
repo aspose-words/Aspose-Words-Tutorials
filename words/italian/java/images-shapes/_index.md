@@ -41,6 +41,20 @@ Scopri come aggiungere un effetto ombra a una forma usando Aspose.Words per C# c
 ### [Come impostare l'ombra su una forma in Aspose.Words – Guida completa](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Scopri come aggiungere e personalizzare l'ombra alle forme nei documenti Word usando Aspose.Words per Java.
 
+### [Come impostare l'ombra su una forma in C# – Aggiungi l'ombra alla forma facilmente](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+Scopri come applicare rapidamente un'ombra a una forma in C# usando Aspose.Words, con esempi di codice pronti all'uso.
+
+### [Crea forma rettangolare in documento Word Java – Guida completa passo‑passo](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Scopri come aggiungere una forma rettangolare a un documento Word usando Aspose.Words per Java, con istruzioni dettagliate passo dopo passo.
+
+### [Crea casella di testo in Java – Guida completa all'aggiunta di ombre](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+Impara a creare una casella di testo con effetto ombra in un documento Word usando Aspose.Words per Java.
+### [Crea documento PDF con una forma rettangolare – Guida completa C#](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+Guida completa per creare un documento PDF con una forma rettangolare usando Aspose.Words per C#.
+
+### [Crea documento Word Java – Aggiungi ombra alla forma](./create-word-document-java-add-shadow-to-shape-guide/)
+Impara a aggiungere un'ombra a una forma in un documento Word usando Aspose.Words per Java.
+
 ## Risorse aggiuntive
 
 ## Risorse aggiuntive

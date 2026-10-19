@@ -39,6 +39,16 @@ Dowiedz się, jak dodać cienie do obiektów w C# przy użyciu Aspose.Words, kro
 
 ### [Dodaj prostokąt do PDF za pomocą Aspose.Words – Przewodnik krok po kroku](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 Dowiedz się, jak dodać prostokąt do pliku PDF przy użyciu Aspose.Words w prostych krokach.
+### [Tworzenie prostokątnego kształtu w Python – Kompletny przewodnik dodawania cieni i zapisywania jako PDF](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
+Dowiedz się, jak utworzyć prostokątny kształt, dodać cień i zapisać dokument jako PDF przy użyciu Aspose.Words dla Python-net.
+### [Jak wstawić prostokąt i dodać cień w Wordzie przy użyciu Aspose](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
+Dowiedz się, jak dodać prostokąt i zastosować cień w dokumencie Word przy użyciu biblioteki Aspose.Words dla Python-net.
+### [Tworzenie dokumentu Word w Python – Przewodnik: Dodawanie cienia do kształtu](./create-word-document-python-add-shadow-to-shape-guide/)
+Dowiedz się, jak dodać cień do kształtu w dokumencie Word przy użyciu Aspose.Words dla Pythona.
+### [Dodaj cień do kształtu w Pythonie – Kompletny samouczek Aspose.Words](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
+Dowiedz się, jak dodać cień do kształtów w dokumentach przy użyciu Aspose.Words dla Pythona.
+### [Jak zapisać dokument z prostokątem z cieniem – Pełny przewodnik w Pythonie](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
+Dowiedz się, jak zapisać dokument z prostokątem z cieniem przy użyciu Aspose.Words w Pythonie.
 
 ## Dodatkowe zasoby
 

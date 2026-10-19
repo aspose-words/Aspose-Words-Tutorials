@@ -52,6 +52,11 @@ Door Aspose.Words voor .NET te gebruiken en deze tutorials te volgen, krijgt u d
 | [Schaduw toevoegen aan vorm in C# – Complete Aspose.Words-gids](./add-shadow-to-shape-in-c-complete-aspose-words-guide/) | Leer hoe u schaduw toevoegt aan vormen in Word-documenten met Aspose.Words voor .NET in C#. |
 | [Word-document maken – Hoe een rechthoekvorm en schaduw toe te voegen](./create-word-document-how-to-add-rectangle-shape-and-shadow/) | Leer hoe u een rechthoekvorm met schaduw toevoegt aan een Word‑document met Aspose.Words voor .NET. |
 | [Rechthoekvorm met schaduw maken in C# met Aspose.Words](./create-rectangle-shape-with-shadow-in-c-using-aspose-words/) | Leer hoe u een rechthoekvorm met schaduw toevoegt aan een Word-document met Aspose.Words voor .NET in C#. |
+| [Word‑document met schaduwrechthoek maken – Complete gids](./create-word-document-with-shadowed-rectangle-complete-guide/) | Leer hoe u een Word‑document maakt met een schaduwrechthoek met Aspose.Words voor .NET. |
+| [Word-document maken – Rechthoekvorm en schaduw invoegen in C#](./create-word-document-insert-rectangle-shape-shadow-in-c/) | Leer hoe u een Word‑document maakt en een rechthoek met schaduw toevoegt met Aspose.Words voor .NET in C#. |
+| [Hoe schaduw toe te voegen aan Word‑vormen in C# – Complete gids](./how-to-add-shadow-to-word-shapes-in-c-complete-guide/) | Leer hoe u een schaduw toevoegt aan Word‑vormen in C# met Aspose.Words voor .NET. |
+| [Hoe een schaduw toevoegen in Word – Complete gids voor vormen](./how-to-add-shadow-word-complete-guide-for-shapes/) | Leer hoe u een schaduw toevoegt aan vormen in Word-documenten met Aspose.Words voor .NET via deze volledige gids. |
+| [Schaduw toevoegen aan vorm in Word met Aspose.Words – Complete gids](./add-shadow-to-shape-in-word-with-aspose-words-complete-guide/) | Leer hoe u een schaduw toevoegt aan een vorm in Word met Aspose.Words via een volledige stap‑voor‑stap gids. |
 | [Word-document maken C# – Vorm met schaduw toevoegen](./create-word-document-c-add-shape-with-shadow/) | Leer hoe u een vorm met schaduw toevoegt aan een Word‑document met Aspose.Words voor .NET in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

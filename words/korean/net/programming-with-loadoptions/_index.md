@@ -43,8 +43,10 @@ Aspose.Words for .NET 튜토리얼은 LoadOptions를 사용하여 워드 프로�
 | [Aspose Load Options – 사용자 정의 글꼴 설정으로 DOCX 로드](./aspose-load-options-load-docx-with-custom-font-settings/) | Aspose.Words for .NET에서 사용자 지정 글꼴을 설정하여 DOCX 파일을 로드하는 방법을 단계별로 안내합니다. |
 | [손상된 Word 문서 복구 – 완전한 C# 가이드](./recover-damaged-word-document-complete-c-guide/) | Aspose.Words for .NET을 사용하여 손상된 Word 문서를 C#으로 복구하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words로 손상된 docx 복구 – 복구 모드 및 로드 옵션 설정](./recover-damaged-docx-with-aspose-words-set-recovery-mode-and/) | Aspose.Words를 사용해 손상된 docx 파일을 복구하고 복구 모드와 로드 옵션을 설정하는 방법을 단계별로 안내합니다. |
+| [LoadOptions를 사용하여 누락된 글꼴 감지하는 방법](./how-to-use-loadoptions-to-detect-missing-fonts/) | LoadOptions를 활용해 누락된 글꼴을 감지하고 대체 글꼴을 지정하는 방법을 단계별로 안내합니다. |
 | [손상된 Word 파일 복구 – 손상된 DOCX 열기 및 페이지 수 확인 완전 가이드](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | Aspose.Words for .NET을 사용해 손상된 DOCX 파일을 열고 페이지 수를 확인하는 방법을 단계별로 안내합니다. |
 | [docx 복구 방법 – 손상된 Word 파일을 위한 C# 가이드](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | 손상된 Word 파일을 복구하고 정상적인 docx로 변환하는 단계별 C# 가이드 |
+| [C#에서 DOCX 파일 복구하기 – 단계별 가이드](./how-to-recover-docx-files-in-c-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 손상된 DOCX 파일을 복구하고 정상 파일로 변환하는 단계별 가이드입니다. |
 | [C#에서 Aspose.Words를 사용한 Word 문서 복구](./recover-word-document-with-aspose-words-in-c/) | Aspose.Words for .NET을 사용하여 손상된 Word 문서를 복구하는 단계별 가이드를 제공합니다. |
 | [Aspose.Words에서 LoadOptions 사용 방법 – 완전 가이드](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | Aspose.Words에서 LoadOptions를 활용해 문서를 로드하고 설정을 맞추는 방법을 단계별로 안내합니다. |
 | [C#에서 손상된 문서 복구 – 복구 모드 설정 및 사용자에게 알림](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | Aspose.Words for .NET을 사용하여 손상된 문서를 복구하고, 복구 모드를 설정하며 사용자에게 복구 옵션을 안내하는 방법을 단계별로 안내합니다. |
@@ -55,12 +57,15 @@ Aspose.Words for .NET 튜토리얼은 LoadOptions를 사용하여 워드 프로�
 | [C#에서 손상된 DOCX 파일 복구 – 완전 가이드](./recover-corrupted-docx-files-in-c-complete-guide/) | 손상된 DOCX 파일을 C#과 Aspose.Words로 복구하는 단계별 가이드를 제공합니다. |
 | [C#에서 Aspose Load Options 구성 – 전체 가이드](./configure-aspose-load-options-in-c-complete-guide/) | Aspose.Words for .NET에서 C#을 사용해 Load Options를 설정하고 최적화하는 방법을 단계별로 안내합니다. |
 | [Aspose Load Options – DOCX를 Markdown 및 PDF로 변환](./aspose-load-options-convert-docx-to-markdown-pdf/) | Aspose.Words for .NET을 사용해 DOCX 파일을 Markdown 형식과 PDF 파일로 변환하는 방법을 단계별로 안내합니다. |
-| [C#에서 DOCX 파일 복구하기 – 단계별 가이드](./how-to-recover-docx-files-in-c-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 손상된 DOCX 파일을 C#에서 복구하는 방법을 단계별로 안내합니다. |
 | [손상된 Word 파일 복구 – C# 개발자를 위한 단계별 가이드](./recover-corrupted-word-files-step-by-step-guide-for-c-develo/) | Aspose.Words for .NET을 사용하여 손상된 Word 파일을 복구하는 방법을 C# 개발자를 위해 단계별로 안내합니다. |
 | [Aspose.Words로 손상된 DOCX 복구 – 완전한 C# 가이드](./recover-corrupted-docx-with-aspose-words-complete-c-guide/) | Aspose.Words를 활용해 손상된 DOCX 파일을 복구하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words로 DOCX 파일 복구하기 – 단계별 가이드](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/) | Aspose.Words를 사용하여 손상된 DOCX 파일을 복구하는 방법을 단계별로 안내합니다. |
 | [손상된 워드 문서 로드 – 문제 감지 및 C#에서 손상된 docx 복구](./load-corrupted-word-document-detect-issues-recover-damaged-d/) | Aspose.Words for .NET을 사용하여 손상된 Word 문서를 로드하고, 문제를 감지하며, C#에서 손상된 docx 파일을 복구하는 방법을 단계별로 안내합니다. |
 | [C#에서 손상된 DOCX 로드 – 완전한 Aspose.Words 가이드](./load-corrupted-docx-in-c-complete-aspose-words-guide/) | Aspose.Words for .NET을 사용하여 C#에서 손상된 DOCX 파일을 로드하고 복구하는 방법을 단계별로 안내합니다. |
+| [손상된 Word 파일 복구 – 복구 모드 설정 완전 가이드](./recover-damaged-word-file-complete-guide-to-setting-recovery/) | Aspose.Words for .NET을 사용하여 손상된 Word 파일을 복구하고 복구 모드를 설정하는 방법을 단계별로 안내합니다. |
+| [C#에서 문서 로드 옵션 구성 – 완전 가이드](./configure-document-load-options-in-c-complete-guide/) | Aspose.Words for .NET에서 C#을 사용해 문서 로드 옵션을 설정하고 최적화하는 방법을 단계별로 안내합니다. |
+| [C#에서 손상된 Word 파일 열기 – 완전 가이드](./open-corrupted-word-file-in-c-complete-guide/) | Aspose.Words for .NET을 사용하여 손상된 Word 파일을 열고 복구하는 완전 가이드를 제공합니다. |
+| [Aspose.Words로 손상된 docx 복구 – 완전 C# 가이드](./repair-damaged-docx-with-aspose-words-complete-c-guide/) | Aspose.Words를 사용해 손상된 docx 파일을 복구하고 완전한 C# 구현 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

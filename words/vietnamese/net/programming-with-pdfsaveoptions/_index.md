@@ -48,9 +48,9 @@ Cho dù bạn muốn chuyển đổi tài liệu Word sang PDF để phân phố
 | [Tạo PDF có thể truy cập trong C# – Hướng dẫn từng bước](./create-accessible-pdf-in-c-step-by-step-guide/) | Hướng dẫn chi tiết từng bước để tạo PDF có thể truy cập bằng C# với Aspose.Words, bao gồm các thiết lập khả năng tiếp cận. |
 | [Lưu Word thành PDF với Aspose Words – Hướng dẫn đầy đủ C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Hướng dẫn chi tiết cách lưu tài liệu Word thành PDF bằng Aspose.Words trong C#. |
 | [Lưu docx thành pdf với Aspose.Words – Hướng dẫn C# đầy đủ](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Hướng dẫn chi tiết cách lưu tài liệu DOCX thành PDF bằng Aspose.Words trong C#. |
-| [Tạo PDF có thể truy cập từ Word bằng C# – Hướng dẫn từng bước](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập từ tài liệu Word bằng C#. |
+| [Tạo PDF có thể truy cập từ Word bằng C# – Hướng dẫn từng bước](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập từ tài liệu Word bằng Aspose.Words cho .NET. |
 | [Tạo PDF có thể truy cập trong C# – Hướng dẫn truy cập PDF](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Hướng dẫn tạo PDF đáp ứng tiêu chuẩn truy cập, bao gồm thẻ, cấu trúc và nội dung cho người dùng khuyết tật bằng Aspose.Words cho .NET. |
-| [Tạo PDF có khả năng truy cập từ Word – Hướng dẫn đầy đủ](./create-accessible-pdf-from-word-complete-guide/) | Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập từ tài liệu Word bằng Aspose.Words cho .NET. |
+| [Tạo PDF có thể truy cập từ Word – Hướng dẫn đầy đủ](./create-accessible-pdf-from-word-complete-guide/) | Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập từ tài liệu Word bằng Aspose.Words cho .NET. |
 | [Tạo PDF có thể truy cập – Hướng dẫn từng bước để tuân thủ PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Hướng dẫn chi tiết cách tạo PDF đáp ứng tiêu chuẩn PDF/UA để đảm bảo khả năng truy cập cho mọi người. |
 | [Tạo PDF có khả năng truy cập từ Word – Hướng dẫn đầy đủ C#](./create-accessible-pdf-from-word-complete-c-guide/) | Hướng dẫn chi tiết cách tạo PDF có thể truy cập từ tài liệu Word bằng C# với Aspose.Words cho .NET. |
 | [Tạo PDF có thể truy cập từ Word bằng C# – Hướng dẫn toàn diện](./create-accessible-pdf-from-word-in-c-complete-guide/) | Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập từ tài liệu Word bằng C# với Aspose.Words cho .NET. |
@@ -71,6 +71,13 @@ Cho dù bạn muốn chuyển đổi tài liệu Word sang PDF để phân phố
 | [Tạo PDF có khả năng truy cập từ Word – Hướng dẫn từng bước](./create-accessible-pdf-from-word-step-by-step-guide/) | Tìm hiểu cách tạo PDF có khả năng truy cập từ tài liệu Word bằng Aspose.Words cho .NET qua hướng dẫn từng bước. |
 | [Lưu DOCX thành PDF trong C# – Hướng dẫn đầy đủ Aspose.Words](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF bằng C# với Aspose.Words, bao gồm các tùy chọn và mã mẫu. |
 | [Cách thiết lập tùy chọn PDF trong C# – Chuyển đổi Word sang PDF](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | Hướng dẫn từng bước để thiết lập các tùy chọn PDF trong C# và chuyển đổi tài liệu Word sang PDF bằng Aspose.Words. |
+| [Cách lưu PDF từ Word với xuất hình dạng nội tuyến – Hướng dẫn đầy đủ](./how-to-save-pdf-from-word-with-inline-shape-export-complete/) | Hướng dẫn chi tiết cách xuất các hình dạng nội tuyến khi lưu tài liệu Word thành PDF bằng Aspose.Words cho .NET. |
+| [Tạo tài liệu tuân thủ pdf/ua-2 – Hướng dẫn C# đầy đủ](./create-pdf-ua-2-compliant-document-complete-c-guide/) | Hướng dẫn chi tiết cách tạo tài liệu PDF/UA‑2 tuân thủ tiêu chuẩn bằng C# và Aspose.Words cho .NET. |
+| [Cách xuất PDF từ Word với Aspose – Hướng dẫn đầy đủ từng bước](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) | Hướng dẫn chi tiết cách xuất tài liệu Word sang PDF bằng Aspose.Words trong C# qua các bước cụ thể. |
+| [Gắn thẻ PDF để truy cập trong C# – Hướng dẫn đầy đủ](./tag-pdf-for-accessibility-in-c-complete-guide/) | Hướng dẫn chi tiết cách gắn thẻ PDF để đáp ứng tiêu chuẩn truy cập bằng C# và Aspose.Words. |
+| [Lưu tài liệu PDF với thay thế phông chữ trong C# – Hướng dẫn đầy đủ](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Hướng dẫn chi tiết cách lưu tài liệu PDF với việc thay thế phông chữ trong C# bằng Aspose.Words. |
+| [Tạo PDF có khả năng truy cập với Aspose.Words – Hướng dẫn đầy đủ](./create-accessible-pdf-with-aspose-words-complete-guide/) | Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập bằng Aspose.Words cho .NET. |
+| [Tạo PDF có thể truy cập từ Word bằng Aspose.Words](./create-accessible-pdf-from-word-using-aspose-words/) | Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập từ tài liệu Word bằng Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
