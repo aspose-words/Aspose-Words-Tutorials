@@ -52,6 +52,9 @@ Javaでテキストボックスシェイプを作成し、影効果を適用す�
 ### [矩形シェイプを使用した PDF ドキュメント作成 – 完全 C# ガイド](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
 C# を使用して矩形シェイプを含む PDF ドキュメントを作成する完全ガイドです。
 
+### [JavaでWord文書を作成 – シェイプに影を追加するガイド](./create-word-document-java-add-shadow-to-shape-guide/)
+JavaでWord文書にシェイプの影効果を追加し、視覚的に魅力的なレイアウトを作成する方法を学びます。
+
 ## 追加リソース
 
 ## 追加リソース

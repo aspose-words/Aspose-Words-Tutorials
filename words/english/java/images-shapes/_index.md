@@ -71,6 +71,9 @@ Learn how to create a text box shape with shadow effects in a Word document usin
 ### [Create PDF Document with a Rectangle Shape – Full C# Guide]({{< relref "./create-pdf-document-with-a-rectangle-shape-full-c-guide/" >}})
 Step-by-step guide to create a PDF with a rectangle shape using Aspose.Words for C#.
 
+### [Create Word Document Java – Add Shadow to Shape Guide](./create-word-document-java-add-shadow-to-shape-guide/)
+Learn how to add a shadow to a shape in a Word document using Aspose.Words for Java.
+
 ## Additional Resources
 
 ## Additional Resources

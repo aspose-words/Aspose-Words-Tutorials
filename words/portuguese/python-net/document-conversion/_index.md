@@ -78,6 +78,12 @@ Aprenda a criar PDFs acessíveis a partir de documentos Word usando Aspose.Words
 Aprenda a exportar arquivos DOCX como Markdown usando Aspose.Words para Python. Guia passo a passo completo.
 ### [Criar Grade PNG a partir de Documento Word – Guia Completo Passo a Passo](./create-png-grid-from-word-document-complete-step-by-step-gui/)
 Aprenda a gerar uma grade de imagens PNG a partir de documentos Word usando Aspose.Words para Python. Guia passo a passo completo.
+### [Salvar Word como PDF – Converter Formas para Inline com Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
+Aprenda a salvar documentos Word como PDF e converter formas em objetos inline usando Aspose.Words para Python.
+### [Converter docx para pdf com Python – Guia completo](./convert-docx-to-pdf-with-python-complete-guide/)
+Aprenda a converter arquivos docx em PDF usando Aspose.Words para Python. Guia completo passo a passo.
+### [Converter DOCX para PDF em Python – Guia completo passo a passo](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
+Aprenda a converter arquivos DOCX em PDF usando Aspose.Words para Python com um guia passo a passo completo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

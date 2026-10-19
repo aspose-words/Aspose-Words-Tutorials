@@ -76,6 +76,7 @@
 - [แท็ก PDF เพื่อการเข้าถึงใน C# – คู่มือฉบับสมบูรณ์](./tag-pdf-for-accessibility-in-c-complete-guide/) | เรียนรู้วิธีแท็ก PDF เพื่อการเข้าถึงด้วย C# โดยใช้ Aspose.Words สำหรับ .NET ในคู่มือฉบับสมบูรณ์นี้
 - [บันทึกเอกสาร PDF ด้วยการแทนที่ฟอนต์ใน C# – คู่มือฉบับสมบูรณ์](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | เรียนรู้วิธีบันทึกไฟล์ PDF จากเอกสาร Word พร้อมการแทนที่ฟอนต์ใน C# ด้วย Aspose.Words อย่างละเอียด
 - [สร้าง PDF ที่เข้าถึงได้ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์](./create-accessible-pdf-with-aspose-words-complete-guide/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้ตามมาตรฐาน WCAG ด้วย Aspose.Words สำหรับ .NET ผ่านขั้นตอนละเอียดในคู่มือฉบับสมบูรณ์นี้
+- [สร้าง PDF ที่เข้าถึงได้จาก Word ด้วย Aspose.Words](./create-accessible-pdf-from-word-using-aspose-words/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากไฟล์ Word ด้วย Aspose.Words สำหรับ .NET ผ่านขั้นตอนละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

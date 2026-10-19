@@ -64,6 +64,7 @@
 | [กู้ไฟล์ Word ที่เสีย – คู่มือเต็มสำหรับตั้งค่าโหมดการกู้คืน](./recover-damaged-word-file-complete-guide-to-setting-recovery/) | เรียนรู้วิธีกู้ไฟล์ Word ที่เสียและตั้งค่าโหมดการกู้คืนใน Aspose.Words สำหรับ .NET ด้วยคู่มือขั้นตอนที่ละเอียด |
 | [กำหนดค่าตัวเลือกการโหลดเอกสารใน C# – คู่มือฉบับสมบูรณ์](./configure-document-load-options-in-c-complete-guide/) | เรียนรู้วิธีกำหนดค่าตัวเลือกการโหลดเอกสาร Word ใน C# อย่างละเอียดด้วย Aspose.Words สำหรับ .NET |
 | [เปิดไฟล์ Word ที่เสียใน C# – คู่มือฉบับสมบูรณ์](./open-corrupted-word-file-in-c-complete-guide/) | เรียนรู้วิธีเปิดไฟล์ Word ที่เสียใน C# อย่างครบถ้วนด้วย Aspose.Words สำหรับ .NET |
+| [ซ่อมไฟล์ docx ที่เสียหายด้วย Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](./repair-damaged-docx-with-aspose-words-complete-c-guide/) | เรียนรู้วิธีซ่อมไฟล์ docx ที่เสียหายด้วย Aspose.Words สำหรับ .NET ด้วยคู่มือ C# ฉบับสมบูรณ์ |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -124,6 +124,8 @@ Apprenez à convertir un DOCX en fichier TXT en texte brut tout en exportant les
 Apprenez à exporter des fichiers DOCX en texte brut avec Aspose.Words for Java grâce à ce guide complet.
 ### [Enregistrer en texte brut – Guide complet pour exporter les équations Word](./save-as-plain-text-complete-guide-to-export-word-equations/)
 Apprenez à enregistrer un document Word en texte brut tout en exportant correctement les équations au format LaTeX.
+### [Enregistrer le docx au format TXT – Guide complet d'exportation LaTeX des équations en Java](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
+Apprenez à enregistrer un fichier DOCX en texte brut tout en exportant les équations au format LaTeX avec Aspose.Words for Java.
 
 ### [Aspose Word to PDF – Convertir DOCX en PDF en Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Convertissez facilement des fichiers DOCX en PDF avec Aspose.Words for Java en une seule ligne de code.
@@ -150,6 +152,12 @@ Apprenez à convertir un document Word en PDF accessible en respectant les norme
 
 ### [Créer un PDF accessible en Java – Guide complet de balisage](./create-accessible-pdf-in-java-full-tagging-guide/)
 Apprenez à générer des PDF accessibles avec Aspose.Words for Java en ajoutant des balises complètes pour répondre aux normes d’accessibilité.
+
+### [Créer un fichier conforme PDF/UA‑1 avec Java – Guide complet](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
+Apprenez à créer des fichiers PDF/UA‑1 conformes en Java avec Aspose.Words grâce à un guide complet étape par étape.
+
+### [Créer un document PDF/UA conforme – Guide complet Java](./create-pdf-ua-compliant-document-complete-java-guide/)
+Apprenez à créer des documents PDF/UA‑1 conformes en Java avec Aspose.Words, en suivant un guide complet pas à pas.
 
 ### [Comment intégrer des images en Markdown lors de la conversion de DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Apprenez à extraire et intégrer des images lors de la conversion de fichiers DOCX en Markdown avec Aspose.Words.

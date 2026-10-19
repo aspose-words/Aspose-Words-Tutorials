@@ -91,6 +91,8 @@ Aprenda a exportar conteúdo LaTeX de arquivos DOCX para TXT usando Aspose.Words
 
 ### [Salvar Documento como DOCX com Aspose.Words – Guia Completo em Java](./save-document-as-docx-with-aspose-words-complete-java-guide/)
 Aprenda a salvar documentos como DOCX usando Aspose.Words para Java com um guia completo passo a passo.
+### [Salvar docx como txt com exportação de matemática LaTeX – Guia completo em Java](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
+Aprenda a salvar arquivos DOCX como TXT preservando equações em LaTeX usando Aspose.Words for Java neste guia completo.
 
 ### [Usando Formas de Documento no Aspose.Words para Java](./using-document-shapes/)
 Desbloqueie o Poder das Formas de Documento no Aspose.Words para Java. Aprenda a criar documentos visualmente atraentes com exemplos passo a passo.
@@ -303,6 +305,12 @@ Aprenda a converter arquivos DOCX para TXT usando Aspose.Words em C# com um guia
 
 ### [Exportar DOCX como Markdown – Guia Completo em C#](./export-docx-as-markdown-complete-c-guide/)
 Aprenda a exportar documentos DOCX para Markdown usando C# com Aspose.Words.
+
+### [Criar Arquivo Compatível com PDF/UA‑1 usando Java – Guia Completo](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
+Aprenda a gerar arquivos PDF/UA‑1 totalmente compatíveis em Java usando Aspose.Words, com passo a passo detalhado.
+
+### [Criar documento PDF/UA compatível – Guia completo em Java](./create-pdf-ua-compliant-document-complete-java-guide/)
+Aprenda a criar documentos PDF/UA compatíveis em Java usando Aspose.Words, com instruções passo a passo e melhores práticas.
 
 ## Perguntas Frequentes
 

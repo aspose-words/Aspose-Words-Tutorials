@@ -101,6 +101,15 @@ Hướng dẫn chi tiết cách xuất tệp DOCX thành Markdown bằng Aspose.
 ### [Tạo lưới PNG từ tài liệu Word – Hướng dẫn chi tiết từng bước](./create-png-grid-from-word-document-complete-step-by-step-gui/)
 Hướng dẫn chi tiết cách tạo lưới PNG từ tài liệu Word bằng Aspose.Words cho Python.
 
+### [Lưu Word thành PDF – Chuyển các hình dạng thành Inline với Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
+Hướng dẫn lưu tài liệu Word dưới dạng PDF và chuyển các hình dạng thành dạng inline bằng Aspose.Words cho Python.
+
+### [Chuyển đổi docx sang pdf với Python – Hướng dẫn đầy đủ](./convert-docx-to-pdf-with-python-complete-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang PDF bằng Aspose.Words cho Python.
+
+### [Chuyển đổi DOCX sang PDF trong Python – Hướng dẫn chi tiết từng bước](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang PDF bằng Aspose.Words cho Python, từng bước một.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

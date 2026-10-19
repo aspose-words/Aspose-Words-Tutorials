@@ -100,6 +100,14 @@ Aspose.Words का उपयोग करके वर्ड दस्ताव
 
 ### [वर्ड दस्तावेज़ से PNG ग्रिड बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./create-png-grid-from-word-document-complete-step-by-step-gui/)
 Aspose.Words का उपयोग करके वर्ड फ़ाइल से PNG ग्रिड बनाएं। पायथन कोड और विस्तृत चरण‑दर‑चरण मार्गदर्शन।
+### [Word को PDF के रूप में सहेजें – Aspose.Words के साथ शैप्स को इनलाइन में बदलें](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
+Word को PDF में बदलें और शैप्स को इनलाइन रूप में परिवर्तित करने की विधि सीखें।
+
+### [Python के साथ docx को PDF में बदलें – संपूर्ण गाइड](./convert-docx-to-pdf-with-python-complete-guide/)
+Python और Aspose.Words का उपयोग करके docx फ़ाइलों को PDF में परिवर्तित करने की पूरी प्रक्रिया सीखें।
+
+### [Python में DOCX को PDF में बदलें – संपूर्ण चरण‑दर‑चरण गाइड](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
+Aspose.Words for Python का उपयोग करके DOCX को PDF में आसानी से बदलें। चरण‑दर‑चरण कोड और टिप्स।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

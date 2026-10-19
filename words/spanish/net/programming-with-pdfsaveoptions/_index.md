@@ -90,6 +90,7 @@ Si desea convertir documentos de Word a PDF para distribuirlos en línea, archiv
 | [Etiquetar PDF para accesibilidad en C# – Guía completa](./tag-pdf-for-accessibility-in-c-complete-guide/) | Aprenda a etiquetar PDFs para cumplir con normas de accesibilidad usando Aspose.Words para .NET y C# en esta guía completa. |
 | [Guardar documento PDF con sustitución de fuentes en C# – Guía completa](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Aprenda a guardar documentos PDF con sustitución de fuentes usando Aspose.Words para .NET en C# con esta guía completa paso a paso. |
 | [Crear PDF accesible con Aspose.Words – Guía completa](./create-accessible-pdf-with-aspose-words-complete-guide/) | Guía paso a paso para crear PDFs accesibles con Aspose.Words, cumpliendo normas de accesibilidad. |
+| [Crear PDF accesible desde Word usando Aspose.Words](./create-accessible-pdf-from-word-using-aspose-words/) | Aprenda a crear PDFs accesibles desde Word usando Aspose.Words para .NET con esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -93,6 +93,7 @@ Használja a `Document doc = new Document(new ByteArrayInputStream(htmlBytes), n
 ### [DOCX konvertálása PDF-be Java‑ban – Lépésről‑lépésre útmutató](./convert-docx-to-pdf-in-java-step-by-step-guide/)
 ### [docx mentése pdf-be az Aspose.Words segítségével – Teljes Java útmutató](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
 ### [DOCX konvertálása TXT-re Java-ban – Teljes programozási útmutató](./convert-docx-to-txt-in-java-complete-programming-guide/)
+### [DOCX konvertálása Markdown formátumba az Aspose.Words Java‑val – Teljes útmutató](./convert-docx-to-markdown-with-aspose-words-java-full-guide/)
 ### [DOCX konvertálása PDF-re Java‑ban – Egyszerű alacsony kódkörű útmutató](./convert-docx-to-pdf-in-java-simple-low-code-guide/)
 
 ## Gyakran Ismételt Kérdések

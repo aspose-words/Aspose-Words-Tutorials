@@ -100,6 +100,14 @@ Aprenda a exportar archivos DOCX a Markdown usando Aspose.Words para Python con 
 
 ### [Crear cuadrícula PNG desde documento Word – Guía completa paso a paso](./create-png-grid-from-word-document-complete-step-by-step-gui/)
 Aprenda a generar una cuadrícula de imágenes PNG a partir de un documento Word usando Aspose.Words para Python. Guía paso a paso con ejemplos de código.
+### [Guardar Word como PDF – Convertir formas a incrustadas con Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
+Aprenda a guardar documentos Word como PDF y convertir formas a imágenes incrustadas usando Aspose.Words para Python.
+
+### [Convertir docx a pdf con Python – Guía completa](./convert-docx-to-pdf-with-python-complete-guide/)
+Aprenda a convertir archivos DOCX a PDF usando Aspose.Words para Python con una guía paso a paso.
+
+### [Convertir DOCX a PDF en Python – Guía completa paso a paso](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
+Aprenda a convertir DOCX a PDF en Python con Aspose.Words mediante una guía completa paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

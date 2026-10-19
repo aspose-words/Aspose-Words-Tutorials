@@ -52,6 +52,9 @@
 ### [สร้างเอกสาร PDF ด้วยรูปสี่เหลี่ยม – คู่มือเต็ม C#](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
 เรียนรู้วิธีสร้าง PDF พร้อมรูปสี่เหลี่ยมโดยใช้ Aspose.Words สำหรับ C# อย่างละเอียด
 
+### [สร้างเอกสาร Word ด้วย Java – เพิ่มเงาให้รูปทรง](./create-word-document-java-add-shadow-to-shape-guide/)
+เรียนรู้วิธีเพิ่มเงาให้รูปทรงในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 ## แหล่งข้อมูลเพิ่มเติม

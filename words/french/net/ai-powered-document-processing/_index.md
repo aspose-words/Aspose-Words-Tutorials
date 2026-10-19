@@ -63,6 +63,7 @@ Enfin, n'oubliez pas de consulter notre [Travailler avec les options de résumé
 | [Comment réécrire du texte dans des documents Word avec Aspose.Words AI – Guide complet](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Apprenez à modifier automatiquement le texte des fichiers Word en utilisant l'IA d'Aspose.Words pour des révisions rapides et précises. |
 | [Vérifier la grammaire en C# avec Aspose.Words – Guide](./how-to-check-grammar-in-c-with-aspose-words-guide/) | Apprenez à détecter et corriger les fautes de grammaire dans vos documents Word en C# grâce à Aspose.Words. |
 | [Comment utiliser Summarize dans Aspose.Words – Guide complet](./how-to-use-summarize-in-aspose-words-complete-guide/) | Apprenez à exploiter la fonction Summarize d'Aspose.Words pour résumer vos documents Word rapidement et efficacement. |
+| [Réécrire un paragraphe avec l'IA en C# – Comment configurer un LLM local](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) | Apprenez à réécrire automatiquement des paragraphes en C# en configurant un modèle de langage local avec Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

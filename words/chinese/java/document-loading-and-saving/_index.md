@@ -152,6 +152,9 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 ### [使用 Aspose.Words 恢复损坏的 docx – 完整 Java 指南](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
 学习使用 Aspose.Words for Java 完整恢复损坏的 docx 文件的步骤和代码示例。
 
+### [在 Java 中恢复损坏的 DOCX – 完整编程指南](./recover-corrupted-docx-in-java-complete-programming-guide/)
+学习使用 Aspose.Words for Java 在 Java 环境中检测并修复损坏的 DOCX 文件的完整步骤和代码示例。
+
 ### [在 Java 中捕获字体替换警告 – Aspose.Words 完整指南](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [如何恢复 docx – 读取损坏的 Word 文件完整指南](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 学习使用 Aspose.Words for Java 读取并修复受损的 DOCX 文件，提供完整步骤和示例代码。
@@ -175,6 +178,9 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 
 ### [在 Java 中检测缺失字体替换 – 完整 Aspose.Words 指南](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
 了解如何在 Java 使用 Aspose.Words 检测缺失的字体替换并处理相关警告的完整指南。
+
+### [Log Font Substitution Warnings in Java with Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
+学习在 Java 中使用 Aspose.Words 捕获并记录字体替换警告的完整步骤，帮助您监控文档渲染问题。
 
 ## 常见问题
 ### [捕获字体替换警告 – 检测缺失字体](./capture-font-substitution-warnings-detect-missing-fonts/)

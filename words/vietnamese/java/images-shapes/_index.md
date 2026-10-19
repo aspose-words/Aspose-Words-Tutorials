@@ -52,6 +52,9 @@ Hướng dẫn chi tiết cách chèn và tùy chỉnh hộp văn bản có hi�
 ### [Tạo tài liệu PDF với hình chữ nhật – Hướng dẫn đầy đủ C#](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
 Hướng dẫn chi tiết cách tạo tài liệu PDF và chèn hình chữ nhật bằng Aspose.Words trong C#.
 
+### [Tạo tài liệu Word bằng Java – Thêm bóng vào hình dạng](./create-word-document-java-add-shadow-to-shape-guide/)
+Hướng dẫn cách chèn và áp dụng hiệu ứng bóng cho các hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
+
 ## Tài nguyên bổ sung
 
 ## Tài nguyên bổ sung

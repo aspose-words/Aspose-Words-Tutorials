@@ -67,6 +67,7 @@ Aspose.Words for .NET 教程为希望掌握使用 LoadOptions 进行文字处理
 | [如何在 C# 中恢复 DOCX 文件 – 分步指南](./how-to-recover-docx-files-in-c-step-by-step-guide/) 按照本分步指南，使用 Aspose.Words for .NET 在 C# 中恢复受损的 DOCX 文件，轻松修复文档。|
 | [在 C# 中配置文档加载选项 – 完整指南](./configure-document-load-options-in-c-complete-guide/) 本完整指南详细演示如何在 Aspose.Words for .NET 中使用 LoadOptions 配置文档加载选项，实现自定义加载行为。|
 | [如何使用 LoadOptions 检测缺失字体](./how-to-use-loadoptions-to-detect-missing-fonts/) 了解如何使用 Aspose.Words for .NET 的 LoadOptions 检测文档中缺失的字体，并进行相应处理。|
+| [使用 Aspose.Words 修复损坏的 docx – 完整 C# 指南](./repair-damaged-docx-with-aspose-words-complete-c-guide/) 按照本完整分步指南，使用 Aspose.Words for .NET 在 C# 中修复损坏的 docx 文件，确保文档恢复。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -52,6 +52,9 @@ Apprenez à créer une zone de texte avec effet d'ombre dans un document Word en
 ### [Créer un document PDF avec une forme rectangle – Guide complet C#](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
 Apprenez à générer un PDF contenant une forme rectangle en utilisant Aspose.PDF pour C#.
 
+### [Créer un document Word Java – Ajouter une ombre à une forme](./create-word-document-java-add-shadow-to-shape-guide/)
+Apprenez à ajouter une ombre à une forme dans un document Word en Java avec Aspose.Words.
+
 ## Ressources supplémentaires
 
 ## Ressources supplémentaires

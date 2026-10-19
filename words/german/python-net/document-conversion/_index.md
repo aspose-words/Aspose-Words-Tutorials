@@ -81,6 +81,12 @@ Erfahren Sie, wie Sie mit Aspose.Words für Python Word-Dokumente problemlos in 
 Erfahren Sie, wie Sie mit Aspose.Words für Python barrierefreie PDF‑Dateien aus Word‑Dokumenten erstellen und optimieren.
 ### [PNG‑Raster aus Word‑Dokument erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-png-grid-from-word-document-complete-step-by-step-gui/)
 Erfahren Sie, wie Sie mit Aspose.Words für Python ein PNG‑Raster aus einem Word‑Dokument generieren und speichern.
+### [Word als PDF speichern – Formen in Inline konvertieren mit Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
+Erfahren Sie, wie Sie Word-Dokumente als PDF speichern und dabei Formen in Inline-Objekte umwandeln.
+### [DOCX nach PDF konvertieren mit Python – Vollständige Anleitung](./convert-docx-to-pdf-with-python-complete-guide/)
+Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für Python in PDF konvertieren und dabei hochwertige Ergebnisse erzielen.
+### [DOCX in PDF konvertieren mit Python – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für Python in PDF konvertieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

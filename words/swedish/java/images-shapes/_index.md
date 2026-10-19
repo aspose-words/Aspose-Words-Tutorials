@@ -52,6 +52,9 @@ Lär dig hur du skapar en textruta med skuggeffekt i ett Word-dokument med Aspos
 ### [Skapa PDF-dokument med en rektangelform – Fullständig C#-guide](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
 Lär dig hur du skapar ett PDF-dokument och lägger till en rektangelform med Aspose.PDF för C#.
 
+### [Skapa Word-dokument Java – Lägg till skugga på form](./create-word-document-java-add-shadow-to-shape-guide/)
+Lär dig hur du lägger till en skuggeffekt på en form i ett Word-dokument med Aspose.Words för Java.
+
 ## Ytterligare resurser
 
 ## Ytterligare resurser

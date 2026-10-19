@@ -52,6 +52,9 @@ Aspose.Words Java 代码教程
 ### [使用 C# 完整指南创建带矩形形状的 PDF 文档](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
 了解如何使用 Aspose.Words for C# 在 PDF 文档中插入矩形形状并进行自定义设置。
 
+### [使用 Aspose.Words for Java 创建 Word 文档 – 添加形状阴影指南](./create-word-document-java-add-shadow-to-shape-guide/)
+演示如何在 Word 文档中使用 Aspose.Words for Java 为形状添加阴影效果。
+
 ## 其他资源
 
 ## 其他资源

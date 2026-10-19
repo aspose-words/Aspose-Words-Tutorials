@@ -66,6 +66,7 @@ Trong các hướng dẫn này, bạn sẽ học cách sử dụng LoadOptions �
 | [Cấu hình tùy chọn tải tài liệu trong C# – Hướng dẫn toàn diện](./configure-document-load-options-in-c-complete-guide/) | Hướng dẫn chi tiết cách cấu hình LoadOptions trong Aspose.Words cho .NET bằng C#. |
 | [Mở tệp Word bị hỏng trong C# – Hướng dẫn đầy đủ](./open-corrupted-word-file-in-c-complete-guide/) | Hướng dẫn chi tiết cách mở tệp Word bị hỏng bằng Aspose.Words trong C#, từng bước một. |
 | [Cách Sử Dụng LoadOptions Để Phát Hiện Phông Chữ Thiếu](./how-to-use-loadoptions-to-detect-missing-fonts/) Hướng dẫn cách sử dụng LoadOptions để phát hiện các phông chữ thiếu khi tải tài liệu Word bằng Aspose.Words cho .NET. |
+| [Sửa tệp docx bị hỏng với Aspose.Words – Hướng dẫn C# đầy đủ](./repair-damaged-docx-with-aspose-words-complete-c-guide/) Hướng dẫn chi tiết cách sửa các tệp docx bị hỏng bằng Aspose.Words trong C#, từ khôi phục đến đếm số trang. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

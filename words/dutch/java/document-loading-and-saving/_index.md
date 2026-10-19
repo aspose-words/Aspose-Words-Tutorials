@@ -99,6 +99,8 @@ Leer hoe je lettertype‑instellingen configureert en ontbrekende lettertypen be
 
 ### [Waarschuwingscallback registreren in Java – Ontbrekende lettertypen bijhouden](./register-warning-callback-in-java-track-missing-fonts/)
 Leer hoe je een waarschuwingscallback registreert om ontbrekende lettertypen te detecteren tijdens het laden van documenten.
+### [Lettertypevervangingswaarschuwingen loggen in Java met Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
+Ontdek hoe je lettertypevervangingswaarschuwingen kunt loggen en analyseren bij het verwerken van documenten met Aspose.Words for Java.
 
 ### [RTF‑laadopties configureren in Aspose.Words for Java](./configuring-rtf-load-options/)
 Configureer RTF‑laadopties in Aspose.Words for Java. Leer hoe je UTF‑8‑tekst in RTF‑documenten herkent. Stapsgewijze gids met code‑voorbeelden.
@@ -183,6 +185,9 @@ Leer hoe je ontbrekende lettertypevervangingen detecteert en verwerkt tijdens he
 ### [Corrupt docx herstellen met Aspose.Words – Complete Java-gids](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
 Leer hoe je beschadigde docx‑bestanden kunt repareren en verwerken met Aspose.Words voor Java in een stapsgewijze gids.
 ### [Herstel beschadigd Word-document met Aspose.Words – Gids](./recover-corrupted-word-document-using-aspose-words-guide/)
+
+### [Herstel beschadigde DOCX in Java – Complete programmeergids](./recover-corrupted-docx-in-java-complete-programming-guide/)
+Leer hoe je beschadigde DOCX‑bestanden kunt herstellen met Aspose.Words for Java via een volledige programmeergids met voorbeeldcode.
 
 ## Veelgestelde vragen
 

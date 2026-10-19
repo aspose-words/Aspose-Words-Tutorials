@@ -65,6 +65,7 @@ I dessa handledningar lär du dig hur du använder LoadOptions för att läsa in
 | [Konfigurera dokumentladdningsalternativ i C# – Komplett guide](./configure-document-load-options-in-c-complete-guide/) | Lär dig steg för steg hur du konfigurerar LoadOptions för att anpassa inläsning av Word-dokument i C# med Aspose.Words. |
 | [Öppna korrupt Word-fil i C# – Komplett guide](./open-corrupted-word-file-in-c-complete-guide/) | Lär dig hur du öppnar och reparerar korrupta Word-filer i C# med Aspose.Words i en komplett steg-för-steg-guide. |
 | [Hur du använder LoadOptions för att upptäcka saknade teckensnitt](./how-to-use-loadoptions-to-detect-missing-fonts/) | Lär dig hur du med LoadOptions identifierar och hanterar saknade teckensnitt i Word-dokument med Aspose.Words för .NET. |
+| [Reparera skadad docx med Aspose.Words – Komplett C#-guide](./repair-damaged-docx-with-aspose-words-complete-c-guide/) | Lär dig hur du reparerar skadade docx-filer med Aspose.Words i C# genom en komplett steg-för-steg-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

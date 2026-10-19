@@ -61,6 +61,7 @@
 | [Aspose.Words AI を使用した Word 文書のテキスト書き換え方法 – 完全ガイド](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) Aspose.Words AI を活用し、Word 文書内のテキストを自動的に書き換える手順をステップバイステップで解説します。 |
 | [C# で Aspose.Words を使用した文法チェック – ガイド](./how-to-check-grammar-in-c-with-aspose-words-guide/) Aspose.Words for .NET を利用して C# で文法チェックを実装する方法を学びます。 |
 | [Aspose.Words で Summarize を使用する方法 – 完全ガイド](./how-to-use-summarize-in-aspose-words-complete-guide/) Aspose.Words の Summarize 機能を活用し、文書要約を簡単に実装する手順を詳しく解説します。 |
+| [C# で AI を使用して段落を書き換える – ローカル LLM の構成方法](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) C# でローカル LLM を設定し、AI を使って段落を書き換える手順を学びます。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

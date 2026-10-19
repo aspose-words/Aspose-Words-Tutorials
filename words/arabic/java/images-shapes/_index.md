@@ -52,6 +52,9 @@
 ### [إنشاء مستند PDF مع شكل مستطيل – دليل كامل C#](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
 تعلم كيفية إنشاء مستند PDF وإضافة شكل مستطيل باستخدام Aspose.Words للـ C#.
 
+### [إنشاء مستند Word في Java – إضافة الظل إلى الشكل](./create-word-document-java-add-shadow-to-shape-guide/)
+تعلم كيفية إضافة الظل إلى الأشكال في مستند Word باستخدام Aspose.Words for Java
+
 ## موارد إضافية
 
 ## موارد إضافية

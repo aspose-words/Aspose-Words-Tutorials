@@ -67,7 +67,6 @@ Aspose.Words for Java の主要機能のひとつは、**convert docx to pdf** �
 ## ドキュメント変換とエクスポートのチュートリアル
 ### [Aspose.Words for Java でカスタムバーコードラベルを生成する](./generating-custom-barcode-labels/)
 ### [Aspose.Words for Java でバーコード生成を使用する](./using-barcode-generation/)
-
 ### [Aspose.Words for Java でチャートを使用する](./using-charts/)
 
 ### [Aspose.Words for Java で Office Math オブジェクトを使用する](./using-office-math-objects/)
@@ -220,6 +219,9 @@ Aspose.Words for Java を使用して DOCX ファイルを Markdown に変換し
 
 ### [ドキュメントをTXTとして保存 – Word数式エクスポートのクイックガイド](./save-document-as-txt-quick-guide-to-export-word-math/)
 Aspose.Words for Java を使用して、Word 文書を TXT 形式で保存し、数式をエクスポートする方法をステップバイステップで解説します。
+### [docx を txt として保存し LaTeX 数式をエクスポート – 完全 Java ガイド](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
+### [Java で PDF/UA‑1 準拠ファイルを作成 – 完全ガイド](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
+### [PDF/UA 準拠ドキュメントの作成 – 完全 Java ガイド](./create-pdf-ua-compliant-document-complete-java-guide/)
 
 ### [ドキュメントをTXTとして保存 – Word数式エクスポートの完全ガイド](./save-as-plain-text-complete-guide-to-export-word-equations/)
 Aspose.Words for Java で Word 文書をプレーンテキストに保存し、数式を完全にエクスポートする手順を詳しく解説します。

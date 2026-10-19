@@ -52,6 +52,9 @@ Ismerje meg, hogyan adhat hozzá árnyékhatású szövegdoboz alakzatot a Word 
 ### [PDF dokumentum létrehozása téglalap alakzattal – Teljes C# útmutató](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
 Tanulja meg, hogyan hozhat létre PDF dokumentumot téglalap alakzattal C#-ban, részletes útmutatóval.
 
+### [Word dokumentum létrehozása Java – Alakzat árnyék hozzáadása útmutató](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
 ## További források
 
 ## További források

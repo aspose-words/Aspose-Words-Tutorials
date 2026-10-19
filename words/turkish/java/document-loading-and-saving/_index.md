@@ -168,6 +168,10 @@ Java’da eksik yazı tiplerini yakalamak için uyarı geri çağrısını nası
 
 ### [Aspose.Words for Java ile bozuk docx dosyasını kurtarma](./recover-corrupted-docx-using-aspose-words-java/)
 ### [Java’da Eksik Yazı Tipi Değiştirme Uyarılarını Algılama – Aspose.Words ile Tam Kılavuz](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+### [Java’da Bozuk DOCX Dosyasını Kurtarma – Tam Programlama Kılavuzu](./recover-corrupted-docx-in-java-complete-programming-guide/)
+
+### [Java’da Font Değiştirme Uyarılarını Günlüğe Kaydetme – Aspose.Words ile](./log-font-substitution-warnings-in-java-with-aspose-words/)
+Java’da Aspose.Words kullanarak font değiştirme uyarılarını nasıl yakalayacağınızı ve günlüğe kaydedeceğinizi öğrenin.
 ### [Aspose.Words ile Bozuk Word Belgesini Kurtarma – Rehber](./recover-corrupted-word-document-using-aspose-words-guide/)
 
 ### [Uyarı Geri Çağrı Eğitimi – Java’da Word Belgesi Yükleme](./warning-callback-tutorial-load-word-document-in-java/)

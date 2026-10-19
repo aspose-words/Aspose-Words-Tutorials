@@ -52,6 +52,9 @@ Aprenda a inserir e personalizar uma caixa de texto com sombras em documentos Wo
 ### [Criar documento PDF com uma forma retangular – Guia completo em C#](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
 Aprenda a gerar um PDF contendo uma forma retangular usando Aspose.Words para C# com código completo passo a passo.
 
+### [Criar documento Word Java – Adicionar sombra a forma](./create-word-document-java-add-shadow-to-shape-guide/)
+Aprenda a adicionar sombra a formas em documentos Word usando Aspose.Words para Java.
+
 ## Recursos adicionais
 
 ## Recursos adicionais

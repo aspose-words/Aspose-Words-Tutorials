@@ -52,6 +52,9 @@ Ein umfassendes Beispiel, das zeigt, wie man in Aspose.Words für Java ein Textf
 ### [PDF-Dokument mit einer Rechteckform erstellen – Vollständige C#-Anleitung](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für C# ein PDF-Dokument erstellen und ein Rechteck als Form hinzufügen.
 
+### [Word-Dokument in Java erstellen – Schatten zu Form hinzufügen](./create-word-document-java-add-shadow-to-shape-guide/)
+Ein Codebeispiel, das zeigt, wie man in Aspose.Words für Java einer Form einen Schatteneffekt hinzufügt.
+
 ## Weitere Ressourcen
 
 ## Weitere Ressourcen

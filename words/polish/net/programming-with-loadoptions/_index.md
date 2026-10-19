@@ -64,6 +64,7 @@ W tych samouczkach nauczysz się, jak używać LoadOptions do ładowania dokumen
 | [Odzyskaj uszkodzony plik Word – Kompletny przewodnik ustawiania trybu odzyskiwania](./recover-damaged-word-file-complete-guide-to-setting-recovery/) Dowiedz się, jak ustawić tryb odzyskiwania przy otwieraniu uszkodzonych plików Word przy użyciu Aspose.Words dla .NET. |
 | [Jak używać LoadOptions do wykrywania brakujących czcionek](./how-to-use-loadoptions-to-detect-missing-fonts/) | Dowiedz się, jak przy pomocy LoadOptions wykrywać i obsługiwać brakujące czcionki w dokumentach Word przy użyciu Aspose.Words dla .NET. |
 | [Otwórz uszkodzony plik Word w C# – Kompletny przewodnik](./open-corrupted-word-file-in-c-complete-guide/) | Dowiedz się, jak otworzyć uszkodzony plik Word w C# i przywrócić jego zawartość przy użyciu Aspose.Words. |
+| [Napraw uszkodzony docx przy użyciu Aspose.Words – Kompletny przewodnik C#](./repair-damaged-docx-with-aspose-words-complete-c-guide/) | Dowiedz się, jak naprawić uszkodzone pliki docx w C# przy użyciu Aspose.Words w pełnym przewodniku krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

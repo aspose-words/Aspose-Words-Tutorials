@@ -25,8 +25,6 @@ Kategorin "Dokumenthantering" är skräddarsydd för utvecklare som strävar eft
 ## Tillgängliga handledningar
 
 ### [Avancerad PDF-manipulation med Aspose.Words för Python: En omfattande guide](./aspose-words-python-pdf-manipulation/)
-Lär dig hur du manipulerar PDF-filer med Aspose.Words för Python. Konvertera, redigera och hantera krypterade dokument med lätthet.
-
     ### [Convert DOCX to Fixed-Form XAML in Python Using Aspose.Words&#58; A Comprehensive Guide](./python-docx-to-xaml-aspose-tutorial/)
     Lär dig hur du konverterar Microsoft Word-dokument (DOCX) till XAML i fast format med hjälp av Aspose.Words för Python, vilket säkerställer effektiv resurshantering och designintegritet.
 

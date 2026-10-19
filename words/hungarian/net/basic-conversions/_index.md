@@ -65,6 +65,8 @@ Az Alapvető konverziók című útmutató végigvezeti Önt az Aspose.Words for
 | [PDF létrehozása Wordből C#‑ban – Teljes LowCode útmutató](./create-pdf-from-word-in-c-complete-lowcode-guide/) | Tanulja meg, hogyan hozhat létre PDF-et Word dokumentumokból C#‑ban az Aspose.Words LowCode megoldásával, részletes, lépésről‑lépésre útmutatóval. |
 | [Hozzon létre akadálymentes PDF-et DOCX-ből C#-ban – Hogyan konvertáljon Word-et PDF-be](./create-accessible-pdf-from-docx-in-c-how-to-convert-word-to/) | Tanulja meg, hogyan hozhat létre hozzáférhető PDF-et DOCX fájlból C#-ban az Aspose.Words for .NET segítségével. |
 | [DOCX konvertálása TXT-be – Teljes C# útmutató LaTeX egyenletekhez](./convert-docx-to-txt-complete-c-guide-for-latex-equations/) | Tanulja meg, hogyan konvertálhat DOCX fájlokat TXT formátumba C#-ban, miközben megőrzi a LaTeX egyenleteket. |
+| [Docx mentése PDF-be az Aspose.Words segítségével – Teljes lépésről‑lépésre útmutató](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/) | Tanulja meg, hogyan menthet DOCX fájlokat PDF-be az Aspose.Words segítségével lépésről‑lépésre, részletes útmutatóval. |
+| [Mail Merge és DOCX PDF-be konvertálása C#-ban – Teljes Aspose útmutató](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | Tanulja meg, hogyan használja a mail merge-t, és konvertálja a DOCX fájlokat PDF-be C#-ban az Aspose.Words segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

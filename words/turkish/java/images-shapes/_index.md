@@ -52,6 +52,9 @@ Java kullanarak Word belgesine metin kutusu şekli ekleyin ve gölge efektiyle �
 ### [Dikdörtgen Şekilli PDF Belgesi Oluşturma – Tam C# Kılavuzu](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
 C# kullanarak bir PDF belgesine dikdörtgen şekil ekleyip özelleştirmeyi adım adım öğrenin.
 
+### [Java ile Word Belgesi Oluştur – Şekle Gölge Ekleme Kılavuzu](./create-word-document-java-add-shadow-to-shape-guide/)
+Java kullanarak Word belgesine şekil ekleyip gölge uygulamayı öğrenin.
+
 ## Ek Kaynaklar
 
 ## Ek Kaynaklar

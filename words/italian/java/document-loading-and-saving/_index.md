@@ -118,6 +118,8 @@ Scopri come aprire file Word danneggiati impostando la modalità di recupero con
 Scopri come riparare file DOCX corrotti e recuperarne il contenuto con Aspose.Words per Java in pochi passaggi.
 ### [Recupera docx corrotto con Aspose.Words – Guida Java completa](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
 Scopri come riparare file DOCX danneggiati e continuare l'elaborazione con Aspose.Words per Java.
+### [Recupera DOCX corrotto in Java – Guida completa di programmazione](./recover-corrupted-docx-in-java-complete-programming-guide/)
+Scopri come individuare e riparare DOCX danneggiati in Java usando Aspose.Words, con esempi di codice passo‑per‑step.
 
 ### [Salvataggio di Immagini da Documenti in Aspose.Words per Java](./saving-images-from-documents/)
 Impara a salvare immagini da documenti usando Aspose.Words per Java con la nostra guida completa passo‑per‑step. Personalizza formati, compressione e altro.
@@ -192,6 +194,7 @@ Impara a registrare una callback per gli avvisi di sostituzione dei font in Java
 ### [Rileva la sostituzione di font mancanti in Java – Guida completa Aspose.Words](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
 Scopri come individuare le sostituzioni di font mancanti durante l'elaborazione dei documenti Word in Java con Aspose.Words.
 
+### [Registra avvisi di sostituzione dei font in Java con Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
 ### [Recupera Documenti Word Corrotti con Aspose.Words – Guida](./recover-corrupted-word-document-using-aspose-words-guide/)
 Impara a ripristinare documenti Word danneggiati usando Aspose.Words per Java in pochi passaggi.
 

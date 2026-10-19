@@ -149,8 +149,11 @@ Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words for Java in Textdateien ex
 
 ### [How to Export LaTeX from DOCX to TXT with Aspose.Words](./how-to-export-latex-from-docx-to-txt-with-aspose-words/)
 Exportieren Sie LaTeX‑Formeln aus DOCX‑Dateien in TXT‑Text mit Aspose.Words – einfache Schritt‑für‑Schritt‑Anleitung.
+### [DOCX als TXT speichern mit LaTeX‑Mathematik‑Export – Vollständige Java‑Anleitung](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
+Erfahren Sie, wie Sie DOCX‑Dateien als TXT speichern und mathematische Formeln im LaTeX‑Format exportieren – komplette Anleitung für Java.
 
 ### [DOCX in Markdown konvertieren – Mathegleichungen nach LaTeX exportieren mit Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
+Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und dabei mathematische Formeln in LaTeX‑Syntax exportieren.
 
 ### [DOCX als Markdown speichern – Schritt‑für‑Schritt‑Java‑Anleitung](./save-docx-as-markdown-step-by-step-java-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words für Java in Markdown konvertieren, inklusive Code‑Beispiele und Optionen.
@@ -285,6 +288,12 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java ein Word‑Dokument in ein PNG�
 
 ### [DOCX als Markdown exportieren – Vollständige C#‑Anleitung](./export-docx-as-markdown-complete-c-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words for C# vollständig in Markdown konvertieren.
+
+### [PDF/UA‑1‑konforme Datei mit Java erstellen – Komplettanleitung](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words for Java PDF/UA‑1‑konforme PDFs erzeugen und Barrierefreiheitsstandards erfüllen.
+
+### [PDF/UA‑konformes Dokument erstellen – Vollständige Java‑Anleitung](./create-pdf-ua-compliant-document-complete-java-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words for Java ein PDF/UA‑konformes Dokument erstellen und Barrierefreiheitsstandards erfüllen.
 
 ## Häufig gestellte Fragen
 

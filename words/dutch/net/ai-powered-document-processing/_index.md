@@ -64,6 +64,7 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Hoe tekst herschrijven in Word-documenten met Aspose.Words AI – Complete gids](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Leer hoe u met Aspose.Words AI tekst in Word-documenten kunt herschrijven voor nauwkeurige en efficiënte bewerkingen. |
 | [Hoe grammatica te controleren in C# met Aspose.Words – Gids](./how-to-check-grammar-in-c-with-aspose-words-guide/) | Leer hoe u met Aspose.Words voor .NET grammatica controleert in C#-toepassingen voor foutloze documenten. |
 | [Hoe Summarize te gebruiken in Aspose.Words – Complete gids](./how-to-use-summarize-in-aspose-words-complete-guide/) | Leer stap voor stap hoe u de Summarize-functie in Aspose.Words voor .NET toepast om documenten efficiënt samen te vatten. |
+| [Paragraaf herschrijven met AI in C# – Hoe een lokaal LLM te configureren](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) | Leer hoe u met Aspose.Words en een lokaal LLM paragrafen automatisch kunt herschrijven in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

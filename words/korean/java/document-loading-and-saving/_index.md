@@ -121,6 +121,8 @@ Aspose.Words for Java의 다재다능함을 살펴보며 다양한 형식으로 
 ### [Aspose.Words Java를 사용한 손상된 docx 복구](./recover-corrupted-docx-using-aspose-words-java/)
 ### [Java에서 경고 콜백 등록 – 누락된 글꼴 추적](./register-warning-callback-in-java-track-missing-fonts/)
 ### [Java에서 누락된 글꼴 대체 감지 – Aspose.Words 완전 가이드](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+### [Java에서 Aspose.Words로 글꼴 대체 경고 기록 – 완전 가이드](./log-font-substitution-warnings-in-java-with-aspose-words/)
+### [Java에서 손상된 DOCX 복구 – 완전 프로그래밍 가이드](./recover-corrupted-docx-in-java-complete-programming-guide/)
 ### [Aspose.Words를 사용한 손상된 Word 문서 복구 – 가이드](./recover-corrupted-word-document-using-aspose-words-guide/)
 ### [경고 콜백 튜토리얼 – Java에서 Word 문서 로드](./warning-callback-tutorial-load-word-document-in-java/)
 

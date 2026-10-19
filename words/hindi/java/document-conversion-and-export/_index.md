@@ -114,7 +114,12 @@ Aspose.Words for Java का उपयोग करके DOCX फ़ाइल �
 
 ### [दस्तावेज़ को TXT के रूप में सहेजें – Word गणित निर्यात के लिए त्वरित गाइड](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 ### [DOCX को TXT के रूप में सहेजें – पूर्ण गाइड](./how-to-save-docx-as-txt-complete-guide/)
-### [DOCX को मार्कडाउन में बदलते समय छवियों को एम्बेड कैसे करें](./how-to-embed-images-in-markdown-when-converting-docx/)
+### [docx को markdown में बदलते समय छवियों को एम्बेड कैसे करें](./how-to-embed-images-in-markdown-when-converting-docx/)
+DOCX को मार्कडाउन में बदलते समय छवियों को सही तरीके से एम्बेड करने की चरण‑दर‑स्टेप गाइड।
+
+### [docx को txt के रूप में सहेजें LaTeX गणित निर्यात के साथ – पूर्ण जावा गाइड](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
+Aspose.Words for Java का उपयोग करके docx फ़ाइल को txt में बदलें और LaTeX फ़ॉर्मेट में गणितीय समीकरण निर्यात करें।
+
 ### [DOCX से एक्सेसिबल PDF बनाना – पूर्ण गाइड](./create-accessible-pdf-from-docx-complete-guide/)
 DOCX फ़ाइल को एक्सेसिबल PDF में बदलने की पूरी प्रक्रिया, टैग, संरचना और अनुपालन सेटिंग्स के साथ।
 ### [Java में DOCX को Markdown में बदलते समय इमेजेज को Base64 के रूप में एम्बेड करना](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
@@ -259,6 +264,12 @@ C# में Aspose.Words का उपयोग करके DOCX को मा
 
 ### [Word से PNG बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./create-png-from-word-complete-step-by-step-guide/)
 Aspose.Words for Java का उपयोग करके Word दस्तावेज़ से PNG छवि बनाने का विस्तृत चरण‑दर‑चरण गाइड।
+
+### [Java के साथ PDF/UA‑1 अनुपालन फ़ाइल बनाना – पूर्ण गाइड](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
+Java में Aspose.Words का उपयोग करके PDF/UA‑1 मानकों के अनुरूप फ़ाइल बनाने का चरण‑दर‑स्टेप गाइड।
+
+### [PDF/UA‑संगत दस्तावेज़ बनाना – पूर्ण जावा गाइड](./create-pdf-ua-compliant-document-complete-java-guide/)
+Aspose.Words for Java का उपयोग करके PDF/UA‑1 मानकों के अनुरूप दस्तावेज़ बनाने की पूरी प्रक्रिया। चरण‑दर‑स्टेप कोड उदाहरण।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

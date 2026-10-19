@@ -71,6 +71,8 @@ doc.Save("output.pdf", Aspose.Words.SaveFormat.Pdf);
 | [Create PDF from DOCX in C# – Full Guide with Shape Export](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Learn how to create PDFs from DOCX in C# using Aspose.Words, including exporting shapes. Step-by-step guide with code examples. |
 | [Save Word as PDF with Aspose.Words – Step‑by‑Step Guide](./save-word-as-pdf-with-aspose-words-step-by-step-guide/) | Learn how to save Word documents as PDF using Aspose.Words – a step‑by‑step guide with code examples for developers. |
 | [Convert docx to pdf with C# – Step‑by‑Step Guide](./convert-docx-to-pdf-with-c-step-by-step-guide/) | Learn how to convert DOCX to PDF using C# and Aspose.Words with a clear step‑by‑step guide and code examples. |
+| [Save DOCX as PDF with Aspose.Words – Complete Step‑by‑Step Guide](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/) | Learn how to save DOCX as PDF using Aspose.Words in C#. Detailed step‑by‑step guide with code examples. |
+| [How to Mail Merge and Convert DOCX to PDF in C# – Complete Aspose Guide](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | Learn how to perform mail merge and convert DOCX to PDF using Aspose.Words for .NET in C#. Detailed step‑by‑step guide with code examples. |
 
 | [how to create pdf from Word – Complete C# Guide](./how-to-create-pdf-from-word-complete-c-guide/) | Learn how to create PDF from Word using Aspose.Words for .NET. Complete C# guide with step‑by‑step instructions and code examples.  |
 | [convert word to pdf in C# – Complete Aspose Guide](./convert-word-to-pdf-in-c-complete-aspose-guide/) | Learn how to convert Word documents to PDF in C# using Aspose.Words. Complete step‑by‑step guide with code examples for developers. |

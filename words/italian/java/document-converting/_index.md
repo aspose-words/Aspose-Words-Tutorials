@@ -111,6 +111,8 @@ Scopri come convertire file DOCX in PDF usando Aspose.Words per Java con esempi 
 Scopri come convertire file DOCX in PDF usando Aspose.Words per Java, con esempi di codice e opzioni avanzate.
 ### [Converti docx in txt in Java – Guida completa di programmazione](./convert-docx-to-txt-in-java-complete-programming-guide/)
 Scopri come convertire file DOCX in TXT con Java usando Aspose.Words, con esempi di codice e opzioni di salvataggio.
+### [Converti docx in markdown con Aspose.Words Java – Guida completa](./convert-docx-to-markdown-with-aspose-words-java-full-guide/)
+Scopri come trasformare file DOCX in Markdown usando Aspose.Words per Java, con esempi di codice e opzioni di personalizzazione.
 
 ## Domande frequenti
 

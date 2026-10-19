@@ -109,9 +109,6 @@
 ### [บันทึก docx เป็น markdown ด้วย Aspose.Words – คู่มือเต็มขั้นตอนโดยขั้นตอน](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/)
 
 ### [แปลง Docx เป็น Markdown ด้วย C# – คู่มือโปรแกรมเต็ม](./convert-docx-to-markdown-with-c-complete-programming-guide/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 ### [แปลง Word เป็น Markdown – คู่มือเต็มพร้อมการสกัดรูปภาพ](./convert-word-to-markdown-complete-guide-with-image-extractio/)
 แปลงไฟล์ Word เป็น Markdown พร้อมสกัดรูปภาพอย่างครบถ้วนด้วย Aspose.Words สำหรับ .NET
 

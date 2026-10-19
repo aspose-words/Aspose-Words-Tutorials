@@ -81,6 +81,12 @@ Apprenez à convertir des documents Word en PDF avec Aspose.Words pour Python, �
 Apprenez à créer des PDF accessibles à partir de documents Word avec Aspose.Words pour Python, étape par étape, pour améliorer l'accessibilité.
 ### [Créer une grille PNG à partir d'un document Word – Guide complet étape par étape](./create-png-grid-from-word-document-complete-step-by-step-gui/)
 Apprenez à générer une grille d'images PNG à partir d'un document Word avec Aspose.Words pour Python, étape par étape, pour enrichir vos projets.
+### [Enregistrer Word en PDF – Convertir les formes en inline avec Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
+Apprenez à enregistrer un document Word en PDF tout en convertissant les formes en objets inline avec Aspose.Words pour Python.
+### [Convertir docx en pdf avec Python – Guide complet](./convert-docx-to-pdf-with-python-complete-guide/)
+Apprenez à convertir des fichiers DOCX en PDF avec Python grâce à ce guide complet.
+### [Convertir DOCX en PDF avec Python – Guide complet étape par étape](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
+Apprenez à convertir des fichiers DOCX en PDF avec Python grâce à ce guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

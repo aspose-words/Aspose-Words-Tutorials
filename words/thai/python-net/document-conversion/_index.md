@@ -33,7 +33,6 @@
 ## บทช่วยสอนการแปลงเอกสาร Python
 ### [การแปลงเอกสาร Python - คู่มือฉบับสมบูรณ์](./python-document-conversion/)
 เรียนรู้การแปลงเdocument...
-
 ### [วิธีบันทึก Markdown จาก Word – คู่มือฉบับสมบูรณ์สำหรับ Python](./how-to-save-markdown-from-word-complete-python-guide/)
 เรียนรู้วิธีบันทึกไฟล์...
 
@@ -103,6 +102,12 @@
 
 ### [สร้างกริด PNG จากเอกสาร Word – คู่มือฉบับสมบูรณ์แบบขั้นตอนต่อขั้นตอน](./create-png-grid-from-word-document-complete-step-by-step-gui/)
 เรียนรู้วิธีสร้างกริด PNG จากเอกสาร Word ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
+### [บันทึก Word เป็น PDF – แปลงรูปร่างเป็น Inline ด้วย Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF และแปลงรูปทรงให้เป็นแบบ Inline ด้วย Aspose.Words for Python
+### [แปลง docx เป็น pdf ด้วย Python – คู่มือฉบับสมบูรณ์](./convert-docx-to-pdf-with-python-complete-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ด้วย Python อย่างละเอียดและครบถ้วน
+### [แปลง DOCX เป็น PDF ด้วย Python – คู่มือขั้นตอนเต็ม](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
+เรียนรู้วิธีแปลง DOCX เป็น PDF ด้วย Python อย่างละเอียดตามขั้นตอนเต็ม
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

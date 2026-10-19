@@ -142,6 +142,11 @@ Erfahren Sie, wie Sie den Wiederherstellungsmodus aktivieren und Warnungen lesen
 ### [Warnungs‑Callback in Java registrieren – Fehlende Schriftarten verfolgen](./register-warning-callback-in-java-track-missing-fonts/)
 ### [Beschädigtes DOCX wiederherstellen mit Aspose.Words für Java](./recover-corrupted-docx-using-aspose-words-java/)
 ### [Erkennung fehlender Font‑Substitution in Java – Vollständiger Aspose.Words Leitfaden](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+### [Beschädigtes DOCX in Java wiederherstellen – Vollständiger Programmierleitfaden](./recover-corrupted-docx-in-java-complete-programming-guide/)
+Erfahren Sie, wie Sie beschädigte DOCX‑Dateien in Java mit Aspose.Words reparieren und anschließend verarbeiten.
+
+### [Protokollieren von Font‑Substitutions‑Warnungen in Java mit Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
+Erfahren Sie, wie Sie Font‑Substitutions‑Warnungen in Java mit Aspose.Words erfassen und verarbeiten – eine umfassende Anleitung.
 
 ### [Beschädigtes Word‑Dokument mit Aspose.Words wiederherstellen – Leitfaden](./recover-corrupted-word-document-using-aspose-words-guide/)
 Erfahren Sie, wie Sie beschädigte Word‑Dateien mit Aspose.Words für Java reparieren und wiederherstellen – Schritt‑für‑Schritt‑Anleitung.

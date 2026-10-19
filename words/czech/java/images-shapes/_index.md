@@ -52,6 +52,9 @@ Naučte se, jak vytvořit textové pole jako tvar a přidat mu stín v dokumentu
 ### [Vytvořte PDF dokument s obdélníkovým tvarem – Kompletní průvodce v C#](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
 Naučte se, jak pomocí Aspose.Words v C# vytvořit PDF dokument s obdélníkovým tvarem.
 
+### [Vytvořit Word dokument v Javě – Přidat stín k tvaru](./create-word-document-java-add-shadow-to-shape-guide/)
+Naučte se, jak přidat stín k tvaru v dokumentu Word pomocí Aspose.Words pro Javu.
+
 ## Další zdroje
 
 ## Další zdroje

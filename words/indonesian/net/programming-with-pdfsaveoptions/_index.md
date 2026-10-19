@@ -76,6 +76,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Render 3D DML 3D Effects dalam Dokumen PDF](./dml-3deffects-rendering/) | Pelajari cara membuat efek DML 3D yang menakjubkan dalam dokumen PDF menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia:
 | [Buat PDF Aksesibel dengan Aspose.Words – Panduan Lengkap](./create-accessible-pdf-with-aspose-words-complete-guide/) | Panduan lengkap untuk membuat PDF yang dapat diakses menggunakan Aspose.Words untuk .NET. |
 
+| [Buat PDF Aksesibel dari Word menggunakan Aspose.Words](./create-accessible-pdf-from-word-using-aspose-words/) | Panduan langkah demi langkah untuk membuat PDF yang dapat diakses dari dokumen Word menggunakan Aspose.Words untuk .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -63,6 +63,7 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Hur man skriver om text i Word-dokument med Aspose.Words AI – Komplett guide](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Lär dig att automatiskt omskriva text i Word-dokument med Aspose.Words AI i en steg-för-steg-guide. |
 | [Hur du kontrollerar grammatik i C# med Aspose.Words – Guide](./how-to-check-grammar-in-c-with-aspose-words-guide/) | Lär dig hur du använder Aspose.Words för .NET i C# för att automatiskt kontrollera och rätta grammatik i dina dokument. |
 | [Hur du använder Summarize i Aspose.Words – Komplett guide](./how-to-use-summarize-in-aspose-words-complete-guide/) | Lär dig hur du använder Summarize-funktionen i Aspose.Words för .NET för att automatiskt sammanfatta dokument. |
+| [Skriv om stycke med AI i C# – Så konfigurerar du lokal LLM](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) | Lär dig att använda AI för att omformulera stycken i C# och konfigurera en lokal LLM med Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

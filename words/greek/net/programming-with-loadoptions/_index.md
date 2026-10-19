@@ -66,6 +66,7 @@
 | [Διαμόρφωση επιλογών φόρτωσης εγγράφου σε C# – Πλήρης Οδηγός](./configure-document-load-options-in-c-complete-guide/) | Μάθετε πώς να διαμορφώσετε τις επιλογές φόρτωσης εγγράφων σε C# με πλήρη οδηγό βήμα προς βήμα. |
 | [Άνοιγμα Κατεστραμμένου Αρχείου Word σε C# – Πλήρης Οδηγός](./open-corrupted-word-file-in-c-complete-guide/) | Μάθετε πώς να ανοίξετε και να επαναφέρετε κατεστραμμένα αρχεία Word σε C# με πλήρη οδηγό βήμα προς βήμα. |
 | [Πώς να χρησιμοποιήσετε το LoadOptions για την ανίχνευση ελλιπών γραμματοσειρών](./how-to-use-loadoptions-to-detect-missing-fonts/) | Μάθετε πώς να εντοπίζετε γραμματοσειρές που λείπουν κατά τη φόρτωση εγγράφων Word με το LoadOptions του Aspose.Words για .NET. |
+| [Επιδιόρθωση κατεστραμμένου docx με Aspose.Words – Πλήρης Οδηγός C#](./repair-damaged-docx-with-aspose-words-complete-c-guide/) | Μάθετε πώς να επιδιορθώσετε κατεστραμμένα αρχεία docx χρησιμοποιώντας Aspose.Words με πλήρη οδηγό C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

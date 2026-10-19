@@ -47,6 +47,8 @@ Tanuld meg, hogyan szúrj be téglalapot és adj hozzá árnyékhatást a Word d
 Tanuld meg, hogyan adhatsz árnyékot alakzatokhoz a Word dokumentumokban Python és Aspose.Words segítségével.
 ### [Árnyék hozzáadása alakzathoz Pythonban – Teljes Aspose.Words útmutató](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
 Tanuld meg, hogyan adhatsz árnyékot alakzatokhoz Pythonban az Aspose.Words segítségével, részletes, lépésről lépésre útmutató.
+### [Hogyan mentse el a dokumentumot árnyékolt téglalappal – Teljes Python útmutató](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
+Tanulja meg, hogyan menthet el egy Word dokumentumot árnyékolt téglalappal a Python‑net és az Aspose.Words segítségével.
 
 ## További források
 

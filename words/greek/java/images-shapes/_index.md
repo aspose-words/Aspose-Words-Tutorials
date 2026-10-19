@@ -52,6 +52,9 @@
 ### [Δημιουργία εγγράφου PDF με σχήμα ορθογωνίου – Πλήρης οδηγός C#](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
 Μάθετε πώς να δημιουργήσετε έγγραφο PDF με σχήμα ορθογωνίου χρησιμοποιώντας το Aspose.Words για C#.
 
+### [Δημιουργία εγγράφου Word Java – Προσθήκη σκιάς σε σχήμα](./create-word-document-java-add-shadow-to-shape-guide/)
+Μάθετε πώς να προσθέσετε σκιά σε σχήμα σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
+
 ## Πρόσθετοι Πόροι
 
 ## Πρόσθετοι Πόροι

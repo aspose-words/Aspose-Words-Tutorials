@@ -64,6 +64,8 @@
 | [Come creare PDF da Word in C# – Guida passo‑passo](./how-to-create-pdf-from-word-in-c-step-by-step-guide/) | Impara a generare PDF da documenti Word in C# con Aspose.Words, seguendo una guida dettagliata passo‑passo con esempi di codice. |
 | [Crea PDF accessibile da DOCX in C# – Come convertire Word in PDF](./create-accessible-pdf-from-docx-in-c-how-to-convert-word-to/) | Scopri come creare PDF accessibili da file DOCX usando C# e Aspose.Words, con esempi di codice e impostazioni di accessibilità. |
 | [Converti DOCX in TXT – Guida completa C# per equazioni LaTeX](./convert-docx-to-txt-complete-c-guide-for-latex-equations/) | Scopri come convertire DOCX in TXT mantenendo le equazioni LaTeX con una guida completa in C#. |
+| [Salva Docx come PDF con Aspose.Words – Guida completa passo‑per‑passo](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/) | Scopri come salvare i file Docx come PDF usando Aspose.Words con una guida completa passo‑per‑passo in C#. |
+| [Come eseguire Mail Merge e convertire DOCX in PDF in C# – Guida completa Aspose](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | Scopri come eseguire il mail merge e convertire documenti DOCX in PDF usando Aspose.Words per .NET con C#, passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

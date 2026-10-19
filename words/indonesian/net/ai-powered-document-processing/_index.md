@@ -62,6 +62,7 @@ Terakhir, jangan lupa untuk memeriksa [Bekerja Dengan Opsi Ringkasan](./working-
 | [Cara menulis ulang teks dalam dokumen Word dengan Aspose.Words AI – Panduan Lengkap](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Pelajari cara menulis ulang teks dalam dokumen Word menggunakan AI Aspose.Words dengan langkah-langkah praktis. |
 | [Cara memeriksa tata bahasa di C# dengan Aspose.Words – Panduan](./how-to-check-grammar-in-c-with-aspose-words-guide/) | Pelajari cara menggunakan Aspose.Words untuk .NET dalam memeriksa tata bahasa kode C# secara otomatis. |
 | [Cara Menggunakan Summarize di Aspose.Words – Panduan Lengkap](./how-to-use-summarize-in-aspose-words-complete-guide/) | Pelajari cara menggunakan fitur Summarize di Aspose.Words untuk .NET secara lengkap dan praktis. |
+| [Menulis Ulang Paragraf dengan AI di C# – Cara Mengonfigurasi LLM Lokal](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) | Pelajari cara menulis ulang paragraf menggunakan AI di C# dengan mengonfigurasi model bahasa lokal secara mudah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

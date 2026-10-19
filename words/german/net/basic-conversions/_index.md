@@ -64,6 +64,8 @@
 | [DOCX in PDF mit C# konvertieren – Schritt‑für‑Schritt‑Anleitung](./convert-docx-to-pdf-with-c-step-by-step-guide/) | Erfahren Sie, wie Sie DOCX mit Aspose.Words in C# in PDF konvertieren. |
 | [Barrierefreies PDF aus DOCX in C# erstellen – So konvertieren Sie Word zu PDF](./create-accessible-pdf-from-docx-in-c-how-to-convert-word-to/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein barrierefreies PDF aus DOCX in C# erstellen. |
 | [DOCX in TXT konvertieren – Vollständige C#‑Anleitung für LaTeX‑Gleichungen](./convert-docx-to-txt-complete-c-guide-for-latex-equations/) | Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in TXT umwandeln und LaTeX‑Gleichungen korrekt verarbeiten – Schritt‑für‑Schritt‑C#‑Guide. |
+| [DOCX als PDF speichern mit Aspose.Words – Vollständige Schritt‑für‑Schritt‑Anleitung](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/) | Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words problemlos als PDF speichern – umfassende Schritt‑für‑Schritt‑Anleitung. |
+| [Mail Merge durchführen und DOCX in PDF konvertieren in C# – Vollständige Aspose‑Anleitung](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Mail Merge durchführen und DOCX in PDF konvertieren – komplette Schritt‑für‑Schritt‑Anleitung. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -200,6 +200,10 @@ Learn how to register a warning callback in Aspose.Words for Java to track missi
 Learn how to recover corrupted DOCX files using Aspose.Words for Java.
 
 ### [Detect Missing Font Substitution in Java – Complete Aspose.Words Guide](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+### [Recover Corrupted DOCX in Java – Complete Programming Guide](./recover-corrupted-docx-in-java-complete-programming-guide/)
+
+### [Log Font Substitution Warnings in Java with Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
+Learn how to capture and log font substitution warnings in Java using Aspose.Words for detailed document processing insights.
 
 ## Frequently Asked Questions
 ### [Determining Document Format in Aspose.Words for Java]({{< relref "determining-document-format/_index.md" >}})

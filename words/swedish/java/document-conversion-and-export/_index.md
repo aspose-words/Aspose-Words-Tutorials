@@ -95,6 +95,9 @@ Lär dig hur du exporterar LaTeX‑formler från DOCX‑filer till TXT med Aspos
 ### [Spara dokument som DOCX med Aspose.Words – Komplett Java‑guide](./save-document-as-docx-with-aspose-words-complete-java-guide/)
 Lär dig hur du sparar ett dokument som DOCX med Aspose.Words i Java med en komplett steg‑för‑steg‑guide.
 
+### [Spara docx som txt med LaTeX‑matteexport – Komplett Java‑guide](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
+Lär dig hur du sparar DOCX‑filer som TXT och exporterar matematiska ekvationer till LaTeX med Aspose.Words för Java i en komplett steg‑för‑steg‑guide.
+
 ### [Konvertera docx till markdown – Exportera matematiska ekvationer till LaTeX med Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Lär dig hur du konverterar DOCX‑filer till Markdown och exporterar matematiska ekvationer som LaTeX med Aspose.Words.
 
@@ -310,6 +313,12 @@ Konvertera Word-dokument till PDF och generera tillgängliga PDF-filer med Aspos
 
 ### [Exportera DOCX som Markdown – Komplett C#‑guide](./export-docx-as-markdown-complete-c-guide/)
 Exportera DOCX som Markdown med en komplett C#‑guide. Lär dig hur du konverterar Word‑dokument till Markdown‑format steg för steg.
+
+### [Skapa PDF/UA‑1‑kompatibel fil med Java – Komplett guide](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
+Lär dig hur du skapar PDF/UA‑1‑kompatibla filer i Java med Aspose.Words, steg‑för‑steg‑guide för tillgänglig PDF‑export.
+
+### [Skapa PDF/UA‑kompatibelt dokument – Komplett Java‑guide](./create-pdf-ua-compliant-document-complete-java-guide/)
+Lär dig hur du skapar PDF/UA‑kompatibla dokument i Java med Aspose.Words i en komplett steg‑för‑steg‑guide.
 
 ## Vanliga frågor
 

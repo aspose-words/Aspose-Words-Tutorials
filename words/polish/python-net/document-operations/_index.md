@@ -68,6 +68,11 @@ Dowiedz się, jak otworzyć i naprawić uszkodzony dokument Word przy użyciu Py
 Dowiedz się, jak przywrócić uszkodzony dokument Word przy użyciu Aspose.Words w Pythonie.
 ### [Jak odzyskać DOCX – Kompletny przewodnik przywracania uszkodzonych dokumentów Word](./how-to-recover-docx-complete-guide-to-restoring-corrupted-wo/)
 Dowiedz się, jak przywrócić uszkodzone pliki DOCX i odzyskać ich zawartość przy użyciu Aspose.Words dla Python-net.
+### [Jak odzyskać pliki DOCX w Pythonie – Ładowanie dokumentu z odzyskiwaniem przy użyciu Aspose.Words](./how-to-recover-docx-files-in-python-load-document-with-recov/)
+Dowiedz się, jak odzyskać uszkodzone pliki DOCX i załadować je z opcją odzyskiwania przy użyciu Aspose.Words w Pythonie.
+
+### [Odzyskaj uszkodzony DOCX – Kompletny przewodnik przy użyciu Aspose.Words dla Pythona](./recover-corrupted-docx-complete-guide-using-aspose-words-for/)
+Dowiedz się, jak skutecznie odzyskać uszkodzone pliki DOCX przy użyciu Aspose.Words dla Pythona.
 
 ## Dodatkowe zasoby
 

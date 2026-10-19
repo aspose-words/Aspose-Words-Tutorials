@@ -100,6 +100,14 @@ Aspose.Words for Python kullanarak docx dosyalarını Markdown formatına nasıl
 
 ### [Word Belgesinden PNG Izgara Oluşturma – Tam Adım‑Adım Kılavuz](./create-png-grid-from-word-document-complete-step-by-step-gui/)
 Aspose.Words for Python kullanarak Word belgesinden PNG ızgara oluşturmayı adım adım öğrenin.
+### [Word'ü PDF Olarak Kaydet – Şekilleri Satır İçi Hale Dönüştür (Aspose.Words)](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
+Aspose.Words for Python kullanarak Word belgelerini PDF'ye kaydederken şekilleri satır içi öğelere dönüştürmeyi öğrenin.
+
+### [docx'i pdf'ye Dönüştürme – Python Tam Kılavuz](./convert-docx-to-pdf-with-python-complete-guide/)
+Aspose.Words for Python kullanarak docx dosyalarını PDF'ye dönüştürmeyi adım adım öğrenin.
+
+### [DOCX'i PDF'ye Dönüştürme – Python Tam Adım‑Adım Kılavuz](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
+Aspose.Words for Python ile DOCX dosyalarını PDF'ye tam adım‑adım dönüştürmeyi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

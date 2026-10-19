@@ -47,6 +47,8 @@ Hướng dẫn chi tiết cách chèn hình chữ nhật và áp dụng hiệu �
 Hướng dẫn chi tiết cách thêm bóng đổ vào hình dạng trong tài liệu Word bằng Python và Aspose.Words.
 ### [Thêm Bóng Đổ cho Hình Dạng trong Python – Hướng Dẫn Đầy Đủ Aspose.Words](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
 Hướng dẫn chi tiết cách thêm hiệu ứng bóng cho hình dạng trong tài liệu Word bằng Python và Aspose.Words.
+### [Cách Lưu Tài Liệu với Hình Chữ Nhật Có Bóng Đổ – Hướng Dẫn Python Đầy Đủ](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
+Hướng dẫn chi tiết cách lưu tài liệu Word với hình chữ nhật có bóng đổ bằng Aspose.Words cho Python.
 
 ## Tài nguyên bổ sung
 
