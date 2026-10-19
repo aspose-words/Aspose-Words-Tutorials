@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: يوضح هذا البرنامج التعليمي كيفية إنشاء مستند Word، وإدراج مخطط عمودي، ومسح البيانات الافتراضية الخاصة به، وتعبئته ببيانات مخصصة من مصفوفة ثنائية الأبعاد—حيث يتم ربط كل صف بسلسلة وكل عمود بفئة—ثم إضافة عنوان وحفظ الملف.
+//ExStepSummary:0: إنشاء مستند Document جديد وDocumentBuilder مرتبط به.
+//ExStepSummary:1: إدراج مخطط عمودي بحجم 432×252 نقطة في المستند والحصول على كائن Chart الخاص به.
+//ExStepSummary:2: إزالة السلسلة النموذجية التي تم إنشاؤها تلقائيًا من المخطط.
+//ExStepSummary:3: تحديد تسميات فئات المحور X وعناصر وسيلة الإيضاح لكل سلسلة.
+//ExStepSummary:4: إنشاء مصفوفة ثنائية الأبعاد حيث يحتوي كل صف على القيم الخاصة بسلسلة واحدة.
+//ExStepSummary:5: التكرار عبر كل سلسلة، استخراج قيم الصف الخاصة بها من المصفوفة، وإضافة السلسلة إلى المخطط مع عنصر وسيلة الإيضاح المقابل وتسميات المحور X.
+//ExStepSummary:6: تعيين نص عنوان المخطط إلى 'Half‑Yearly Revenue' وجعله مرئيًا.
+//ExStepSummary:7: حفظ المستند الذي يحتوي على المخطط المخصص إلى ملف .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:6:images/4.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chartObj = chartContainer.Chart;
+
+//ExStep:2-
+chartObj.Series.Clear();
+
+//ExStep:3-
+string[] xLabels = { "Jan", "Feb", "Mar", "Apr" };
+string[] legendEntries = { "Item Alpha", "Item Beta", "Item Gamma" };
+
+//ExStep:4-
+double[,] dataMatrix = {
+    { 120.5, 135.0, 150.2, 165.3 }, // Item Alpha
+    { 80.0,  95.5, 110.1, 130.0 }, // Item Beta
+    { 60.3,  70.4,  85.6,  95.2 }   // Item Gamma
+};
+
+//ExStep:5-
+for (int sIdx = 0; sIdx < legendEntries.Length; sIdx++)
+{
+    double[] rowValues = new double[xLabels.Length];
+    for (int cIdx = 0; cIdx < xLabels.Length; cIdx++)
+    {
+        rowValues[cIdx] = dataMatrix[sIdx, cIdx];
+    }
+
+    chartObj.Series.Add(legendEntries[sIdx], xLabels, rowValues);
+}
+
+//ExStep:6-
+chartObj.Title.Text = "Half‑Yearly Revenue";
+chartObj.Title.Show = true;
+
+//ExStep:7-
+myDocument.Save("CustomChart.docx");
+//ExEnd

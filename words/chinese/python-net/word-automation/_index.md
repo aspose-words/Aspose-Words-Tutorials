@@ -35,6 +35,12 @@ Word 自动化彻底改变了文档管理和 Word 文档处理领域的格局。
 ### [轻松实现 Word 自动化](./word-automation-made-easy/)
 使用 Aspose.Words for Python 轻松实现文字处理自动化。以编程方式创建、格式化和操作文档。立即提升生产力！
 
+### [使用 Python 替换 docx 文本 – 完整分步指南](./replace-text-docx-with-python-full-step-by-step-guide/)
+通过 Aspose.Words for Python，完整分步演示如何在 docx 文档中替换文本，实现高效文字处理。
+
+### [如何使用 Aspose 在 Python 中自动化语法纠正](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
+使用 Aspose.Words for Python，实现自动语法纠正，提升文档准确性和专业度。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

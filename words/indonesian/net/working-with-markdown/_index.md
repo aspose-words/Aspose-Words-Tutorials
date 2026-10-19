@@ -40,7 +40,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Baca Dokumen Markdown](./read-markdown-document/) Pelajari cara membaca dan memanipulasi dokumen Markdown menggunakan Aspose.Words untuk .NET dengan tutorial terperinci dan langkah demi langkah ini. Sempurna untuk pengembang dari semua tingkatan. Bahasa Indonesia:
 | [Penekanan](./emphases/) | Pelajari cara membuat teks yang ditekankan di Markdown menggunakan Aspose.Words untuk .NET. Panduan ini mencakup gaya tebal, miring, dan gabungan dengan petunjuk langkah demi langkah. Bahasa Indonesia:
 | [Gunakan Sumber Peringatan](./use-warning-source/) | Kuasai Aspose.Words untuk .NET dengan panduan langkah demi langkah tentang penggunaan kelas WarningSource untuk menangani peringatan Markdown. Sempurna untuk pengembang C#. |
-
+| [Muat File Markdown ke Dokumen – Tutorial Parsing Lengkap](./load-markdown-file-into-a-document-complete-parsing-tutorial/) | Pelajari cara memuat file Markdown ke dalam dokumen menggunakan Aspose.Words untuk .NET dengan tutorial parsing lengkap. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

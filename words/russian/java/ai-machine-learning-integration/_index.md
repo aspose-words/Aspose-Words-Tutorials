@@ -67,6 +67,9 @@ AI‑обработка документов сочетает традицион
 ### [Мастер обработки текста в Java: использование Aspose.Words и AI‑моделей для суммаризации и перевода](./java-aspose-words-text-processing/)
 Узнайте, как автоматизировать суммаризацию текста и перевод с помощью Aspose.Words for Java, используя GPT‑4 от OpenAI и Gemini от Google. Улучшайте свои Java‑приложения уже сегодня.
 
+### [Как настроить LLM — заменить текст в DOCX с помощью ИИ](./how-to-configure-llm-replace-text-in-docx-with-ai/)
+Узнайте, как использовать LLM для замены текста в DOCX‑файлах с помощью ИИ, интегрируя Aspose.Words и выбранный сервис.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words for Java](https://reference.aspose.com/words/java/)

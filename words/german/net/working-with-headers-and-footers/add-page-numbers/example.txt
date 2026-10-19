@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: Mit Aspose.Words Document und DocumentBuilder fügt dieses Tutorial automatisch aktualisierende Seitenzahlen in die primäre Fußzeile eines Word-Dokuments ein.
+//ExStepSummary:0: Erstellen Sie ein neues Document-Objekt und einen damit verbundenen DocumentBuilder.
+//ExStepSummary:1: Bewegen Sie den Cursor des Builders zur primären Fußzeile des ersten Abschnitts.
+//ExStepSummary:2: Setzen Sie die Absatzausrichtung auf zentriert, damit der Fußzeilentext zentriert wird.
+//ExStepSummary:3: Schreiben Sie das Label "Page " und fügen Sie ein PAGE-Feld ein, das die aktuelle Seitennummer anzeigt.
+//ExStepSummary:4: Schreiben Sie " of " und fügen Sie ein NUMPAGES-Feld ein, das die Gesamtseitenzahl anzeigt.
+//ExStepSummary:5: Speichern Sie das Dokument als .docx-Datei.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+
+//ExStep:2-
+builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
+
+//ExStep:3-
+builder.Write("Page ");
+builder.InsertField("PAGE", null);
+
+//ExStep:4-
+builder.Write(" of ");
+builder.InsertField("NUMPAGES", null);
+
+//ExStep:5-
+doc.Save("PageNumbers.docx");
+//ExEnd
