@@ -140,6 +140,9 @@ Dowiedz się, jak przechwytywać ostrzeżenia o podstawianiu czcionek i wykrywa�
 
 ### [Zarejestruj wywołanie zwrotne ostrzeżenia w Javie – Śledź brakujące czcionki](./register-warning-callback-in-java-track-missing-fonts/)
 
+### [Wykrywanie brakującej podstawy czcionek w Javie – Kompletny przewodnik Aspose.Words](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+Dowiedz się, jak wykrywać ostrzeżenia o brakującej podstawie czcionek w dokumentach Word przy użyciu Aspose.Words for Java.
+
 ## Najczęściej zadawane pytania
 
 **Q:** Jak programowo **save images from word** dokumenty?  

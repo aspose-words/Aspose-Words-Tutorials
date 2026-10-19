@@ -125,7 +125,10 @@ Ismerje meg, hogyan menthet Word‑dokumentumot TXT formátumba, miközben a be�
 Tanuld meg, hogyan konvertálj DOCX fájlokat TXT formátumba, és exportáld a Word egyenleteket LaTeX kóddá.
 
 ### [DOCX konvertálása markdownra – Matematikai egyenletek exportálása LaTeX-be az Aspose.Words segítségével](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
-Tanuld meg, hogyan konvertálj DOCX fájlokat markdown formátumba, és exportáld a matematikai egyenleteket LaTeX kódra az Aspose.Words használatával.
+Tanulja meg, hogyan konvertáljon DOCX fájlokat markdown formátumba, és exportálja a matematikai egyenleteket LaTeX kódra az Aspose.Words használatával.
+
+### [Word exportálása Markdownba Java‑ban – Dokumentum mentése Markdownként](./export-word-to-markdown-in-java-save-document-as-markdown/)
+Tanulja meg, hogyan konvertálja a Word dokumentumot Markdown formátumba Java‑val az Aspose.Words segítségével.
 
 ### [DOCX mentése markdownként – Lépésről‑lépésre Java útmutató](./save-docx-as-markdown-step-by-step-java-guide/)
 Tanulja meg, hogyan konvertálja a DOCX fájlokat markdown formátumba Java‑val az Aspose.Words segítségével.
@@ -244,6 +247,12 @@ Tanulja meg, hogyan hozhat létre teljesen címkézett, hozzáférhető PDF‑ek
 Tanulja meg, hogyan konvertálja a Word dokumentumokat Markdown formátumba Java‑val az Aspose.Words segítségével, lépésről‑lépésre.
 
 ### [PDF/UA-2 kompatibilis dokumentum létrehozása – Teljes Java útmutató](./create-pdf-ua-2-compliant-document-complete-java-guide/)
+
+### [Hogyan exportáljunk LaTeX-et DOCX‑ből TXT‑be az Aspose.Words‑szal](./how-to-export-latex-from-docx-to-txt-with-aspose-words/)
+Tanulja meg, hogyan konvertálja a DOCX‑ben lévő LaTeX egyenleteket TXT formátumba az Aspose.Words segítségével.
+
+### [Hogyan mentsünk PDF-et Word‑ből beágyazott alakzatokkal – Teljes útmutató](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
+Tanulja meg, hogyan menthet PDF‑et Word‑dokumentumból, miközben megőrzi a beágyazott alakzatok formázását, lépésről‑lépésre útmutatóval.
 
 ## Gyakran Ismételt Kérdések
 

@@ -175,6 +175,8 @@ Leer hoe je een beschadigd Word‑document opent en de herstelmodus configureert
 
 ### [Beschadigde docx herstellen met Aspose.Words for Java](./recover-corrupted-docx-using-aspose-words-java/)
 Leer hoe je beschadigde DOCX-bestanden kunt repareren met Aspose.Words voor Java in een paar eenvoudige stappen.
+### [Detecteer ontbrekende lettertypevervanging in Java – Complete Aspose.Words-gids](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+Leer hoe je ontbrekende lettertypevervangingen detecteert en verwerkt tijdens het laden van documenten met Aspose.Words for Java.
 
 ## Veelgestelde vragen
 

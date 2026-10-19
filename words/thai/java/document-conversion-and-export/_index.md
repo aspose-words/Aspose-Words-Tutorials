@@ -79,6 +79,8 @@ For more information, check out the [Aspose.Words for Java API Documentation](ht
 
 ### [ส่งออก DOCX เป็น Markdown – คู่มือฉบับสมบูรณ์สำหรับ Java](./export-docx-as-markdown-complete-java-guide/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown อย่างครบถ้วนด้วย Aspose.Words for Java
+### [ส่งออก Word เป็น Markdown ใน Java – บันทึกเอกสารเป็น Markdown](./export-word-to-markdown-in-java-save-document-as-markdown/)
+เรียนรู้วิธีส่งออกไฟล์ Word เป็น Markdown ด้วย Java โดยใช้ Aspose.Words
 
 ### [Generating Custom Barcode Labels in Aspose.Words for Java](./generating-custom-barcode-labels/)
 Generate Custom Barcode Labels in Aspose.Words for Java. Learn how to create personalized barcode solutions using Aspose.Words for Java in this step‑by‑step guide.
@@ -139,6 +141,8 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น TXT อย่างละเอียดด้วย Java และ Aspose.Words
 ### [บันทึกเป็นข้อความธรรมดา – คู่มือฉบับสมบูรณ์สำหรับการส่งออกสมการ Word](./save-as-plain-text-complete-guide-to-export-word-equations/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็นข้อความธรรมดา พร้อมส่งออกสมการอย่างครบถ้วนด้วย Aspose.Words
+### [วิธีส่งออก LaTeX จาก DOCX ไปเป็น TXT ด้วย Aspose.Words](./how-to-export-latex-from-docx-to-txt-with-aspose-words/)
+เรียนรู้วิธีส่งออก LaTeX จากไฟล์ DOCX ไปเป็น TXT ด้วย Aspose.Words
 
 ### [Aspose.Words to PDF – แปลง DOCX เป็น PDF ด้วย Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF อย่างง่ายด้วย Aspose.Words for Java
@@ -265,6 +269,9 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 
 ### [สร้างเอกสารที่เป็นไปตามมาตรฐาน PDF/UA-2 – คู่มือฉบับสมบูรณ์สำหรับ Java](./create-pdf-ua-2-compliant-document-complete-java-guide/)
 เรียนรู้วิธีสร้างเอกสาร PDF/UA‑2 ที่เป็นไปตามมาตรฐานโดยใช้ Aspose.Words for Java
+
+### [วิธีบันทึก PDF จาก Word พร้อม Inline Shapes – คู่มือฉบับสมบูรณ์](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
+เรียนรู้วิธีบันทึกไฟล์ PDF จากเอกสาร Word ที่มี Inline Shapes อย่างครบถ้วนด้วย Aspose.Words for Java
 
 ## คำถามที่พบบ่อย
 

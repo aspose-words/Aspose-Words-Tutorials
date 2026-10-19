@@ -142,6 +142,8 @@ Aspose.Words for Java の多様性を探り、さまざまな形式でドキュ�
 
 ### [Java で警告コールバックを登録 – 欠落フォントの追跡](./register-warning-callback-in-java-track-missing-fonts/)
 
+### [Java でフォント置換の検出 – 完全 Aspose.Words ガイド](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+
 ## よくある質問
 
 **Q:** プログラムで **save images from word** ドキュメントを保存するにはどうすればよいですか？  

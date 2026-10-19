@@ -167,6 +167,7 @@ Naučte se, jak nastavit písmo při ukládání Word dokumentu a jak zacházet 
 Naučte se, jak pomocí Aspose.Words for Java opravit a načíst poškozené soubory DOCX.
 
 ### [Registrace výstražného zpětného volání v Javě – Sledování chybějících fontů](./register-warning-callback-in-java-track-missing-fonts/)
+### [Detekce chybějící substituce fontů v Javě – Kompletní průvodce Aspose.Words](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
 
 ## Často kladené otázky
 

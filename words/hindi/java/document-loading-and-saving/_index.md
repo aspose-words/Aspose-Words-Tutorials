@@ -165,6 +165,7 @@ docx फ़ाइलों को पुनर्प्राप्त करन
 
 ### [Aspose.Words for Java के साथ भ्रष्ट docx को पुनर्प्राप्त करें](./recover-corrupted-docx-using-aspose-words-java/)
 Aspose.Words Java का उपयोग करके भ्रष्ट या क्षतिग्रस्त docx फ़ाइलों को ठीक करने और पुनर्स्थापित करने की चरण‑दर‑चरण गाइड।
+### [जावा में गायब फ़ॉन्ट प्रतिस्थापन का पता लगाएँ – Aspose.Words पूर्ण गाइड](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
 
 ## अक्सर पूछे जाने वाले प्रश्न
 ### [फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैप्चर करें – लापता फ़ॉन्ट्स का पता लगाएँ](./capture-font-substitution-warnings-detect-missing-fonts/)

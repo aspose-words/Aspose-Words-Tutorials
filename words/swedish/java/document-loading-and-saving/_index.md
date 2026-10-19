@@ -176,6 +176,8 @@ Lär dig hur du fångar varningar för teckensnittssubstitution och identifierar
 
 ### [Registrera varningsåteruppringning i Java – Spåra saknade teckensnitt](./register-warning-callback-in-java-track-missing-fonts/)
 
+### [Upptäck saknad teckensnittssubstitution i Java – Komplett Aspose.Words‑guide](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+
 ## Vanliga frågor
 
 **Q:** Hur sparar jag programatiskt **save images from word**‑dokument?  

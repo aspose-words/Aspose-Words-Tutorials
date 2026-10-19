@@ -133,6 +133,7 @@ As configurações de documentos são a chave para entregar documentos adaptados
 ### [Recuperar Documento Word – Guia Completo para Definir o Modo de Recuperação em Java](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
 ### [Recuperar docx corrompido usando Aspose.Words Java](./recover-corrupted-docx-using-aspose-words-java/)
 ### [Registrar callback de aviso em Java – Rastrear fontes ausentes](./register-warning-callback-in-java-track-missing-fonts/)
+### [Detectar substituição de fonte ausente em Java – Guia completo Aspose.Words](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
 
 ## Perguntas Frequentes
 

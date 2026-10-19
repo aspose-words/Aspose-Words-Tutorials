@@ -176,6 +176,9 @@ Apprenez à définir les polices lors de l'enregistrement d'un document Word et 
 
 ### [Récupérer un docx corrompu avec Aspose.Words Java](./recover-corrupted-docx-using-aspose-words-java/)
 
+### [Détecter la substitution de police manquante en Java – Guide complet Aspose.Words](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+Apprenez à détecter les avertissements de substitution de police manquante en Java avec Aspose.Words. Guide complet avec exemples de code.
+
 ## Foire aux questions
 
 **Q:** Comment puis‑je **save images from word** programmatically ?  

@@ -144,6 +144,8 @@ Aspose.Words for Java 讓您輕鬆 **從 Word 儲存圖像**，同時提供強�
 
 ### [在 Java 中註冊警告回呼 – 追蹤缺少字體](./register-warning-callback-in-java-track-missing-fonts/)
 
+### [使用 Aspose.Words for Java 偵測缺少字體替換 – 完整指南](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+
 ## 常見問題
 
 **Q:** 如何以程式方式 **從 Word 儲存圖像** 文件？  

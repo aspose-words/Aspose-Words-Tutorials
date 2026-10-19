@@ -123,6 +123,9 @@ Aspose.Words for Java 的关键功能之一是能够 **convert docx to pdf** 并
 
 本教程演示如何使用 Aspose.Words for Java 将 Word 文档保存为 Markdown，并将文档中的数学公式导出为 LaTeX 代码。
 
+### [在 Aspose.Words for Java 中将 Word 导出为 Markdown – 将文档保存为 Markdown](./export-word-to-markdown-in-java-save-document-as-markdown/)
+演示如何使用 Aspose.Words for Java 将 Word 文档转换并保存为 Markdown 格式，包含代码示例和关键设置。
+
 ### [将文档另存为 TXT – 导出 Word 数学的快速指南](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 
 ### [在 Aspose.Words for Java 中将 DOCX 保存为 TXT – 完整指南](./how-to-save-docx-as-txt-complete-guide/)
@@ -251,6 +254,10 @@ Aspose.Words for Java 的关键功能之一是能够 **convert docx to pdf** 并
 ### [在 Aspose.Words for Java 中将文档保存为 PDF – 完整可访问性指南](./save-document-as-pdf-with-aspose-words-java-full-accessibili/)
 
 ### [在 Aspose.Words for Java 中创建 PDF/UA-2 合规文档 – 完整 Java 指南](./create-pdf-ua-2-compliant-document-complete-java-guide/)
+
+### [在 Aspose.Words for Java 中将 DOCX 导出为 TXT 并导出 LaTeX](./how-to-export-latex-from-docx-to-txt-with-aspose-words/)
+
+### [在 Aspose.Words for Java 中使用内联形状将 Word 保存为 PDF – 完整指南](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
 
 ## 常见问题
 

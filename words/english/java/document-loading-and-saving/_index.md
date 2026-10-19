@@ -175,6 +175,8 @@ Learn how to register a warning callback in Aspose.Words for Java to track missi
 ### [Recover corrupted docx using Aspose.Words Java](./recover-corrupted-docx-using-aspose-words-java/)
 Learn how to recover corrupted DOCX files using Aspose.Words for Java.
 
+### [Detect Missing Font Substitution in Java – Complete Aspose.Words Guide](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+
 ## Frequently Asked Questions
 
 **Q:** How do I programmatically **save images from word** documents?  

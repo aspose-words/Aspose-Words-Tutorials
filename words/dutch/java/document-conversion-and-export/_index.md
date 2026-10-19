@@ -133,6 +133,8 @@ Leer hoe je een document opslaat als PDF met Java, stap voor stap, met codevoorb
 
 ### [PDF UA-document maken met Aspose.Words – volledige Java-gids](./create-pdf-ua-document-with-aspose-words-full-java-guide/)
 Leer hoe je een PDF UA-document genereert met Aspose.Words voor Java, inclusief Unicode‑ondersteuning en beveiligingsopties.
+### [Hoe PDF opslaan vanuit Word met Inline Shapes – Complete Gids](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
+Leer hoe je een PDF opslaat vanuit een Word‑document met inline‑afbeeldingen, inclusief behoud van opmaak en kwaliteit.
 
 ### [Maak Toegankelijke PDF van DOCX – Complete Gids](./create-accessible-pdf-from-docx-complete-guide/)
 Leer hoe je met Aspose.Words for Java een toegankelijke PDF maakt van een DOCX, inclusief tags, structuur en leesbaarheid voor schermlezers.
@@ -267,6 +269,12 @@ Leer hoe je Word‑documenten als platte tekst opslaat en wiskundige vergelijkin
 
 ### [Export DOCX als Markdown – Complete Java-gids](./export-docx-as-markdown-complete-java-guide/)
 Leer hoe je DOCX-bestanden exporteert naar Markdown met Aspose.Words for Java in een volledige stap‑voor‑stap gids.
+
+### [Hoe LaTeX exporteren van DOCX naar TXT met Aspose.Words](./how-to-export-latex-from-docx-to-txt-with-aspose-words/)
+Leer hoe je LaTeX‑formules uit een DOCX‑bestand exporteert naar een TXT‑bestand met Aspose.Words for Java.
+
+### [Export Word naar Markdown in Java – Document opslaan als Markdown](./export-word-to-markdown-in-java-save-document-as-markdown/)
+Leer hoe je een Word‑document exporteert naar Markdown met Aspose.Words for Java en het opslaat als .md‑bestand.
 
 ## Veelgestelde Vragen
 

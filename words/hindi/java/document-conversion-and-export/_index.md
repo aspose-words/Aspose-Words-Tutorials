@@ -220,6 +220,14 @@ Aspose.Words for Java का उपयोग करके PDF/UA‑2 मान�
 ### [सादा टेक्स्ट के रूप में सहेजें – Word समीकरण निर्यात के लिए पूर्ण गाइड](./save-as-plain-text-complete-guide-to-export-word-equations/)
 Aspose.Words for Java का उपयोग करके Word दस्तावेज़ में गणितीय समीकरणों को सादा टेक्स्ट में निर्यात करने की पूरी प्रक्रिया।
 
+### [Aspose.Words for Java में DOCX से TXT में LaTeX निर्यात करना](./how-to-export-latex-from-docx-to-txt-with-aspose-words/)
+
+### [Aspose.Words for Java में इनलाइन शैप्स के साथ वर्ड से PDF सहेजना – पूर्ण गाइड](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
+Aspose.Words for Java का उपयोग करके वर्ड दस्तावेज़ को इनलाइन शैप्स के साथ PDF में सहेजने की पूरी प्रक्रिया सीखें।
+
+### [जावा में वर्ड को मार्कडाउन में निर्यात करें – दस्तावेज़ को मार्कडाउन के रूप में सहेजें](./export-word-to-markdown-in-java-save-document-as-markdown/)
+Aspose.Words for Java का उपयोग करके वर्ड दस्तावेज़ को मार्कडाउन फ़ॉर्मेट में बदलें और सहेजें। चरण‑दर‑स्टेप कोड उदाहरण।
+
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q: Aspose.Words का उपयोग करके मौजूदा PDF में वॉटरमार्क कैसे जोड़ूँ?**  

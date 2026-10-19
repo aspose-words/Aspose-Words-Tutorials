@@ -260,6 +260,15 @@ Aspose.Words for Java ile DOCX dosyalarını tam kontrolle Markdown formatına d
 ### [PDF/UA-2 Uyumlu Belge Oluşturma – Tam Java Rehberi](./create-pdf-ua-2-compliant-document-complete-java-guide/)
 Aspose.Words for Java kullanarak PDF/UA‑2 standartlarına uygun belgeler oluşturmayı adım adım öğrenin.
 
+### [Aspose.Words ile DOCX'ten LaTeX'i TXT'ye Dışa Aktarma](./how-to-export-latex-from-docx-to-txt-with-aspose-words/)
+Aspose.Words kullanarak DOCX dosyasındaki LaTeX denklemlerini TXT formatına dışa aktarmayı adım adım öğrenin.
+
+### [Word'den Satır İçi Şekillerle PDF Kaydetme – Tam Kılavuz](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
+Word belgesindeki satır içi şekilleri koruyarak PDF olarak kaydetmeyi adım adım öğrenin.
+
+### [Java’da Word Belgesini Markdown’a Dışa Aktarma – Belgeyi Markdown Olarak Kaydet](./export-word-to-markdown-in-java-save-document-as-markdown/)
+Aspose.Words for Java kullanarak Word belgelerini Markdown formatına dönüştürün ve kaydedin.
+
 ## Sık Sorulan Sorular
 
 **S: Aspose.Words kullanarak mevcut bir PDF’e nasıl filigran eklerim?**  

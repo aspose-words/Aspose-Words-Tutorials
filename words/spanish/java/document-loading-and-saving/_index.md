@@ -144,6 +144,8 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 
 ### [Registrar devolución de llamada de advertencia en Java – Rastrear fuentes faltantes](./register-warning-callback-in-java-track-missing-fonts/)
 
+### [Detectar sustitución de fuentes faltantes en Java con Aspose.Words – Guía completa](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+
 ## Preguntas frecuentes
 
 **Q:** ¿Cómo puedo programáticamente **guardar imágenes de Word** documentos?  

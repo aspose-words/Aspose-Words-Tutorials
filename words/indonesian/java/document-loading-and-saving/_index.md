@@ -130,6 +130,9 @@ Pelajari cara menyimpan dokumen sebagai file teks di Aspose.Words untuk Java. Ik
 ### [Membuat Opsi Pemuatan di Java – Deteksi Font yang Hilang & Cara Memuat DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
 Pelajari cara membuat LoadOptions di Java untuk mendeteksi font yang hilang dan memuat file DOCX dengan pengaturan khusus.
 
+### [Deteksi Substitusi Font yang Hilang di Java – Panduan Lengkap Aspose.Words](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+Pelajari cara mendeteksi peringatan substitusi font yang hilang saat memuat dokumen di Java dengan Aspose.Words, lengkap dengan contoh kode.
+
 ### [Memulihkan File Word Rusak – Panduan C# untuk Membuka dengan Aman](./recover-corrupted-word-file-c-guide-to-open-safely/)
 Pelajari cara memulihkan dan membuka file Word yang rusak menggunakan C# dengan aman melalui langkah-langkah praktis.
 ### [Cara Memulihkan DOCX – Atur Mode Pemulihan & Tampilkan Peringatan](./how-to-recover-docx-set-recovery-mode-display-warnings/)

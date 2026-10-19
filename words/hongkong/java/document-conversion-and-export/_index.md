@@ -214,6 +214,11 @@ Aspose.Words for Java 的主要功能之一是能夠 **convert docx to pdf** 以
 ### [將 DOCX 匯出為 Markdown – 完整 Java 指南](./export-docx-as-markdown-complete-java-guide/)
 
 ### [建立符合 PDF/UA-2 標準的文件 – 完整 Java 指南](./create-pdf-ua-2-compliant-document-complete-java-guide/)
+### [如何使用 Aspose.Words 將 DOCX 匯出為 LaTeX 至 TXT](./how-to-export-latex-from-docx-to-txt-with-aspose-words/)
+
+### [如何從 Word 儲存 PDF（含行內圖形） – 完整指南](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
+
+### [在 Java 中將 Word 匯出為 Markdown – 將文件另存為 Markdown](./export-word-to-markdown-in-java-save-document-as-markdown/)
 
 ## 常見問題
 

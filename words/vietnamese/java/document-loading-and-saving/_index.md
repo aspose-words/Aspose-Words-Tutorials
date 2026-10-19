@@ -104,6 +104,7 @@ Học cách bắt các cảnh báo thay thế phông chữ khi tải tài liệu
 Học cách lưu tài liệu Word, thiết lập phông chữ và xử lý các phông chữ bị thiếu.
 ### [Đăng ký callback cảnh báo trong Java – Theo dõi phông chữ bị thiếu](./register-warning-callback-in-java-track-missing-fonts/)
 Học cách đăng ký callback để bắt các cảnh báo thiếu phông chữ khi tải tài liệu trong Aspose.Words cho Java.
+### [Phát hiện thiếu thay thế phông chữ trong Java – Hướng dẫn đầy đủ Aspose.Words](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
 
 ### [Configuring RTF Load Options in Aspose.Words for Java](./configuring-rtf-load-options/)
 Cấu hình RTF Load Options trong Aspose.Words for Java. Học cách nhận diện văn bản UTF-8 trong tài liệu RTF. Hướng dẫn chi tiết kèm ví dụ mã nguồn.

@@ -114,6 +114,7 @@ Aspose.Words for Java ทำให้การ **บันทึกภาพจ�
 ### [บันทึกเอกสาร Word – ตั้งค่าฟอนต์, จัดการฟอนต์ที่หายไป](./save-word-document-set-font-settings-handle-missing-fonts/)
 ### [กู้ไฟล์ docx ที่เสียโดยใช้ Aspose.Words Java](./recover-corrupted-docx-using-aspose-words-java/)
 ### [ลงทะเบียน callback คำเตือนใน Java – ติดตามฟอนต์ที่หายไป](./register-warning-callback-in-java-track-missing-fonts/)
+### [ตรวจจับการแทนที่ฟอนต์ที่หายไปใน Java – คู่มือ Aspose.Words ฉบับสมบูรณ์](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
 
 ## คำถามที่พบบ่อย
 
