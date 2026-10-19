@@ -37,6 +37,21 @@
 ### [Как добавить тень в C# – Полное руководство по программированию](./how-to-add-shadow-in-c-complete-programming-guide/)
 Узнайте, как добавить тень в C# с помощью полного руководства по программированию.
 
+### [Добавление прямоугольника в PDF с помощью Aspose.Words – пошаговое руководство](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
+Узнайте, как добавить прямоугольник в PDF с помощью Aspose.Words, следуя пошаговым инструкциям.
+### [Создание прямоугольной фигуры в Python – Полное руководство по добавлению теней и сохранению в PDF](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
+Узнайте, как создать прямоугольную форму, добавить тень и сохранить документ в PDF с помощью Aspose.Words для Python-net.
+### [Как вставить прямоугольник и добавить тень в Word с помощью Aspose](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
+Узнайте, как добавить прямоугольник и применить к нему тень в документе Word с помощью Aspose.Words для Python-net.
+### [Создание документа Word в Python – Руководство по добавлению тени к фигуре](./create-word-document-python-add-shadow-to-shape-guide/)
+Узнайте, как добавить тень к фигурам в документе Word с помощью Aspose.Words для Python.
+### [Добавить тень к фигуре в Python – Полное руководство Aspose.Words](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
+Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для Python.
+### [Как сохранить документ с прямоугольником с тенью – Полное руководство по Python](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
+Узнайте, как сохранить документ Word, добавив прямоугольник с тенью, используя Aspose.Words для Python.
+### [Создание прямоугольной фигуры в Python – руководство Aspose.Words](./create-rectangle-shape-in-python-aspose-words-tutorial/)
+Узнайте, как создать прямоугольную фигуру в документе Word с помощью Aspose.Words для Python.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words для Python-net](https://docs.aspose.com/words/python-net/)

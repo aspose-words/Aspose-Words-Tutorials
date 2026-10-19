@@ -49,6 +49,8 @@ Leer hoe je Word-documenten efficiënt kunt bewerken met Aspose.Words voor Pytho
 Leer hoe u documenteigenschappen en metadata beheert met Aspose.Words voor Python. Stapsgewijze handleiding met broncode.
 ### [Documentfunctionaliteit uitbreiden met webextensies](./document-functionality-web-extensions/)
 Leer hoe u de functionaliteit van documenten kunt uitbreiden met webextensies met Aspose.Words voor Python. Stapsgewijze handleiding met broncode voor naadloze integratie.
+### [PDF toegankelijk maken met Aspose.Words – Complete stapsgewijze handleiding](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
+Leer hoe u PDF-bestanden toegankelijk maakt met Aspose.Words via een volledige stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

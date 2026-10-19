@@ -19,6 +19,15 @@
 Ezekben az oktatóanyagokban a Word dokumentumokban a megjegyzésekkel történő szövegszerkesztés különböző aspektusait ismerheti meg az Aspose.Words for .NET használatával. Megtudhatja, hogyan adhat hozzá megjegyzéseket a dokumentumokhoz, hogyan rögzíthet megjegyzésválaszokat adott szöveghez, hogyan adhat hozzá és távolíthat el megjegyzésválaszokat, valamint hogyan oldhatja fel a megjegyzéseket és azok válaszait. Minden oktatóanyag lépésről lépésre bemutatja a teljes forráskódot, lehetővé téve az együttműködés és a visszajelzések kezelésének javítását a Word dokumentumokban az Aspose.Words for .NET használatával.
 
  ## Oktatóanyagok
+
+{{< tutorial-card link="./add-hyperlink-comment/" title="Hyperlink megjegyzés hozzáadása és PDF‑annotációként exportálás az Aspose.Words for .NET használatával" imgSrc="./add-hyperlink-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-comment/" title="Szúrjon be egy Comment-et egy adott bekezdésbe egy Word dokumentumban az Aspose.Words for .NET használatával." imgSrc="./add-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./style-comment-text/" title="Egyedi stílus alkalmazása a megjegyzés szövegére Word dokumentumokban az Aspose.Words for .NET használatával" imgSrc="./style-comment-text/images/thumb.png" >}}
+
+
+
 | Cím | Leírás |
 | --- | --- |
 | [Hozzászólások hozzáadása](./add-comments/) | Útmutatónk segítségével megtudhatja, hogyan fűzhet megjegyzéseket Word-dokumentumaihoz az Aspose.Words for .NET segítségével. Könnyedén fejlesztheti dokumentumai együttműködési folyamatát. |

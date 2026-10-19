@@ -34,8 +34,20 @@ Learn how to optimize image handling in RTF documents with Aspose.Words for Pyth
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Learn how to optimize SVG output using Aspose.Words for Python. This guide covers custom features like image-like properties, text rendering, and security enhancements.
 
+### [How to insert rectangle and add shadow in Word using Aspose](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
+Learn how to insert a rectangle shape and apply a shadow effect in Word documents using Aspose.Words for Python-net.
+### [Create rectangle shape in Python – Aspose.Words tutorial](./create-rectangle-shape-in-python-aspose-words-tutorial/)
+Learn how to create and customize a rectangle shape in Word documents using Aspose.Words for Python-net with clear code examples.
+
 ### [How to Add Shadow in C# – Complete Programming Guide](./how-to-add-shadow-in-c-complete-programming-guide/)
 Learn how to apply shadow effects to shapes in Word documents using Aspose.Words for C# with step-by-step code examples.
+
+### [Add rectangle to PDF with Aspose.Words – Step‑by‑Step Guide](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
+Learn how to add a rectangle shape to a PDF document using Aspose.Words with step‑by‑step code examples.
+### [Create rectangle shape in Python – Full Guide to Adding Shadows & Saving as PDF](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
+Learn how to create rectangle shapes, apply shadows, and export documents as PDF using Aspose.Words for Python.
+### [Create Word Document Python – Add Shadow to Shape Guide](./create-word-document-python-add-shadow-to-shape-guide/)
+Learn how to add shadow effects to shapes in Word documents using Aspose.Words for Python-net with clear code examples.
 
 ## Additional Resources
 

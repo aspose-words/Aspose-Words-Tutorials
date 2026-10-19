@@ -47,7 +47,7 @@ Seguindo estes tutoriais, você poderá explorar ao máximo os recursos de manip
 | [Obter posição de mesa flutuante](./get-floating-table-position/) | Aprenda como obter posições de tabela flutuantes em documentos do Word usando o Aspose.Words para .NET. Este guia passo a passo detalhado explicará tudo o que você precisa saber. |
 | [Posição da mesa flutuante](./floating-table-position/) | Aprenda a controlar a posição flutuante de tabelas em documentos do Word usando o Aspose.Words para .NET com nosso guia detalhado passo a passo. |
 | [Definir posição horizontal ou vertical relativa](./set-relative-horizontal-or-vertical-position/) Aprenda como definir posições horizontais e verticais relativas para tabelas em documentos do Word usando o Aspose.Words para .NET com este guia passo a passo. |
-
+| [Ocultar linha em tabela com C# – Guia simples para remover linhas de tabela](./hide-row-in-table-with-c-simple-guide-to-removing-table-rows/) | Aprenda a ocultar linhas em tabelas de documentos do Word usando Aspose.Words para .NET com este guia passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
