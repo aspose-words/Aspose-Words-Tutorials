@@ -41,6 +41,20 @@ C# kullanarak bir şekle gölge efekti eklemeyi adım adım öğrenin ve belgele
 ### [Aspose.Words'te Şekle Gölge Nasıl Eklenir – Tam Kılavuz](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Aspose.Words for Java'da şekillere gölge ekleyerek belge görünümünü nasıl geliştireceğinizi adım adım öğrenin.
 
+### [C#'ta Şekle Gölge Nasıl Eklenir – Şekil Gölgesini Kolayca Ekleyin](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+C# kullanarak Word belgelerinde şekillere gölge eklemeyi ve özelleştirmeyi öğrenin.
+
+### [Java Word Belgesine Dikdörtgen Şekil Ekle – Tam Adım‑Adım Rehber](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Java kullanarak Word belgesine dikdörtgen şekil eklemeyi adım adım öğrenin.
+
+### [Java'da Metin Kutusu Şekli Oluştur – Gölge Eklemeye Tam Kılavuz](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+Java kullanarak Word belgesine metin kutusu şekli ekleyin ve gölge efektiyle özelleştirin.
+### [Dikdörtgen Şekilli PDF Belgesi Oluşturma – Tam C# Kılavuzu](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+C# kullanarak bir PDF belgesine dikdörtgen şekil ekleyip özelleştirmeyi adım adım öğrenin.
+
+### [Java ile Word Belgesi Oluştur – Şekle Gölge Ekleme Kılavuzu](./create-word-document-java-add-shadow-to-shape-guide/)
+Java kullanarak Word belgesine şekil ekleyip gölge uygulamayı öğrenin.
+
 ## Ek Kaynaklar
 
 ## Ek Kaynaklar
