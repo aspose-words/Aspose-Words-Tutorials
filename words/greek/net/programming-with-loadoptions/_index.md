@@ -63,6 +63,7 @@
 | [Πώς να ανακτήσετε αρχεία Word – Πλήρης οδηγός με Aspose.Words](./how-to-recover-word-files-complete-guide-with-aspose-words/) Μάθετε πώς να ανακτήσετε αρχεία Word που έχουν καταστραφεί ή χαλασμένα χρησιμοποιώντας το Aspose.Words σε βήμα-προς-βήμα οδηγό. |
 | [Πώς να ανακτήσετε docx – ορίστε λειτουργία ανάκτησης & ανοίξτε κατεστραμμένα αρχεία Word](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) Μάθετε πώς να ενεργοποιήσετε τη λειτουργία ανάκτησης και να ανοίξετε κατεστραμμένα αρχεία Word με το Aspose.Words για .NET. |
 | [Πώς να χρησιμοποιήσετε το LoadOptions στο Aspose.Words – Πλήρης Οδηγός](./how-to-use-loadoptions-in-aspose-words-complete-guide/) Μάθετε πώς να χρησιμοποιείτε το LoadOptions στο Aspose.Words με πλήρη οδηγό βήμα προς βήμα. |
+| [Διαμόρφωση επιλογών φόρτωσης εγγράφου σε C# – Πλήρης Οδηγός](./configure-document-load-options-in-c-complete-guide/) | Μάθετε πώς να διαμορφώσετε τις επιλογές φόρτωσης εγγράφων σε C# με πλήρη οδηγό βήμα προς βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

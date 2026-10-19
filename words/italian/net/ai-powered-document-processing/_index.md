@@ -59,6 +59,7 @@ Infine, non dimenticare di dare un'occhiata al nostro [Lavorare con le opzioni d
 | [Come controllare la grammatica in C# – Guida completa per documenti Word](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Scopri come utilizzare Aspose.Words per .NET per verificare la grammatica nei documenti Word con C# in modo semplice ed efficace. |
 | [Riassumere documento Word in C# – Guida completa usando Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Scopri come utilizzare il modello Anthropic Claude con Aspose.Words per .NET per riassumere automaticamente i documenti Word in C#. |
 | [Riassumere un documento Word in C# usando un modello GPT personalizzato – Guida completa](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Scopri come utilizzare un modello GPT personalizzato per riassumere documenti Word in C# con Aspose.Words. |
+| [Come riscrivere il testo nei documenti Word con Aspose.Words AI – Guida completa](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Scopri come riscrivere automaticamente testi nei documenti Word usando l'AI di Aspose.Words per .NET. |
 
 | [Come controllare la grammatica e riassumere un documento Word con Aspose.Words AI](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Scopri come verificare la grammatica e generare riassunti dei documenti Word usando l'AI di Aspose.Words. |
 {{< /blocks/products/pf/tutorial-page-section >}}

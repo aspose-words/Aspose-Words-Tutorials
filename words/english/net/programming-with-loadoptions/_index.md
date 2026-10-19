@@ -91,6 +91,7 @@ class Program
 | [How to Recover DOCX – Complete Guide Using Aspose.Words](./how-to-recover-docx-complete-guide-using-aspose-words/) | Step-by-step guide to recover corrupted DOCX files using Aspose.Words for .NET, covering detection, repair, and saving restored documents. |
 | [How to Recover DOCX Files with Aspose.Words – Step‑by‑Step Guide](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/) | Step-by-step guide to recover corrupted DOCX files using Aspose.Words for .NET. |
 | [How to Recover DOCX Files in C# – Step‑by‑Step Guide](./how-to-recover-docx-files-in-c-step-by-step-guide/) | Step-by-step guide to recover corrupted DOCX files using Aspose.Words in C#. |
+| [Configure document load options in C# – Complete Guide](./configure-document-load-options-in-c-complete-guide/) | Step-by-step guide to configuring document load options in C# using Aspose.Words for .NET, covering all settings and best practices. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

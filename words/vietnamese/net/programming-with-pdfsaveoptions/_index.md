@@ -72,6 +72,9 @@ Cho dù bạn muốn chuyển đổi tài liệu Word sang PDF để phân phố
 | [Cách thiết lập tùy chọn PDF trong C# – Chuyển đổi Word sang PDF](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | Hướng dẫn từng bước để thiết lập các tùy chọn PDF trong C# và chuyển đổi tài liệu Word sang PDF bằng Aspose.Words. |
 | [Cách lưu PDF từ Word với xuất hình dạng nội tuyến – Hướng dẫn đầy đủ](./how-to-save-pdf-from-word-with-inline-shape-export-complete/) | Hướng dẫn chi tiết cách xuất các hình dạng nội tuyến khi lưu tài liệu Word thành PDF bằng Aspose.Words cho .NET. |
 | [Tạo tài liệu tuân thủ pdf/ua-2 – Hướng dẫn C# đầy đủ](./create-pdf-ua-2-compliant-document-complete-c-guide/) | Hướng dẫn chi tiết cách tạo tài liệu PDF/UA‑2 tuân thủ tiêu chuẩn bằng C# và Aspose.Words cho .NET. |
+| [Cách xuất PDF từ Word với Aspose – Hướng dẫn đầy đủ từng bước](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) | Hướng dẫn chi tiết cách xuất tài liệu Word sang PDF bằng Aspose.Words trong C# qua các bước cụ thể. |
+| [Gắn thẻ PDF để truy cập trong C# – Hướng dẫn đầy đủ](./tag-pdf-for-accessibility-in-c-complete-guide/) | Hướng dẫn chi tiết cách gắn thẻ PDF để đáp ứng tiêu chuẩn truy cập bằng C# và Aspose.Words. |
+| [Lưu tài liệu PDF với thay thế phông chữ trong C# – Hướng dẫn đầy đủ](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Hướng dẫn chi tiết cách lưu tài liệu PDF với việc thay thế phông chữ trong C# bằng Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -60,6 +60,7 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
 | [Hogyan ellenőrzze a nyelvtant C#-ban – Teljes útmutató Word dokumentumokhoz](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Tanulja meg, hogyan használhatja az Aspose.Words for .NET-et a nyelvtani ellenőrzéshez C#-ban Word dokumentumokban. |
 | [Word-dokumentum összefoglalása C#-ban – Teljes útmutató az Anthropic Claude használatával](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Ismerje meg, hogyan használhatja az Anthropic Claude modellt Word-dokumentumok C#-os összefoglalásához az Aspose.Words segítségével. |
 | [Word-dokumentum összefoglalása C#-ban egy egyedi GPT modell használatával – Teljes útmutató](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Tanulja meg, hogyan használhat egy egyedi GPT modellt a Word-dokumentumok C#-os összefoglalásához. |
+| [Hogyan írjuk át a szöveget Word dokumentumokban az Aspose.Words AI segítségével – Teljes útmutató](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Ismerje meg, hogyan használhatja az Aspose.Words AI-t a szöveg átfogalmazására Word dokumentumokban, lépésről lépésre útmutató. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

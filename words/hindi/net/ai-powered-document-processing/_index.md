@@ -60,6 +60,7 @@
 | [LLM के साथ Aspose.Words का उपयोग कैसे करें – C# में पैराग्राफ पुनर्लेखन](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | C# में Aspose.Words के साथ LLM का उपयोग करके पैराग्राफ को पुनर्लेखित करने की प्रक्रिया सीखें। |
 | [C# में Word दस्तावेज़ का सारांश – Anthropic Claude का उपयोग करके पूर्ण गाइड](./summarize-word-document-in-c-complete-guide-using-anthropic/) | C# में Aspose.Words और Anthropic Claude का उपयोग करके Word दस्तावेज़ को प्रभावी रूप से सारांशित करने की पूरी प्रक्रिया सीखें। |
 | [कस्टम GPT मॉडल का उपयोग करके C# में Word दस्तावेज़ का सारांश – पूर्ण गाइड](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | C# में कस्टम GPT मॉडल का उपयोग करके Word दस्तावेज़ को प्रभावी रूप से सारांशित करने का पूर्ण मार्गदर्शक। |
+| [Aspose.Words AI के साथ Word दस्तावेज़ों में टेक्स्ट को पुनर्लेखन कैसे करें – पूर्ण गाइड](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Aspose.Words AI का उपयोग करके Word दस्तावेज़ों में टेक्स्ट को पुनर्लेखन करने के चरण-दर-चरण मार्गदर्शिका। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -64,6 +64,7 @@ Aspose.Words for .NET ट्यूटोरियल उन डेवलपर�
 | [DOCX फ़ाइलों को पुनर्प्राप्त करने का तरीका – Aspose के साथ रिकवरी मोड सेट करें](./how-to-recover-docx-files-set-recovery-mode-with-aspose/) | .NET के लिए Aspose.Words का उपयोग करके DOCX फ़ाइलों को पुनर्प्राप्त करने और रिकवरी मोड सेट करने की चरण-दर-स्टेप गाइड। |
 | [docx पुनर्प्राप्ति – रिकवरी मोड सेट करें और क्षतिग्रस्त Word फ़ाइलें खोलें](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) रिकवरी मोड सेट करके और क्षतिग्रस्त Word फ़ाइलें खोलकर docx फ़ाइलों को पुनर्प्राप्त करने की चरण-दर-चरण प्रक्रिया सीखें। |
 | [Aspose Load Options – कस्टम फ़ॉन्ट सेटिंग्स के साथ DOCX लोड करें](./aspose-load-options-load-docx-with-custom-font-settings/) |
+| [C# में दस्तावेज़ लोड विकल्प कॉन्फ़िगर करें – पूर्ण गाइड](./configure-document-load-options-in-c-complete-guide/) | .NET के लिए Aspose.Words में LoadOptions का उपयोग करके दस्तावेज़ लोड विकल्प कैसे कॉन्फ़िगर करें, इस पूर्ण गाइड में सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

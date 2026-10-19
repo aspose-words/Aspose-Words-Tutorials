@@ -62,6 +62,7 @@
 | [تحميل DOCX تالف في C# – دليل Aspose.Words الكامل](./load-corrupted-docx-in-c-complete-aspose-words-guide/) | تعلّم كيفية تحميل ملفات DOCX التالفة في C# باستخدام Aspose.Words مع شرح مفصل خطوة بخطوة. |
 | [كيفية استعادة ملفات Word – دليل شامل مع Aspose.Words](./how-to-recover-word-files-complete-guide-with-aspose-words/) | تعلم خطوة بخطوة كيفية استعادة ملفات Word التالفة باستخدام Aspose.Words في دليل شامل ومفصل. |
 | [استعادة ملف Word التالف – دليل كامل لضبط وضع الاستعادة](./recover-damaged-word-file-complete-guide-to-setting-recovery/) | تعلم خطوة بخطوة كيفية ضبط وضع الاستعادة لاسترجاع ملفات Word التالفة باستخدام Aspose.Words. |
+| [تكوين خيارات تحميل المستند في C# – دليل شامل](./configure-document-load-options-in-c-complete-guide/) | دليل شامل يشرح كيفية تكوين خيارات تحميل المستند في C# باستخدام Aspose.Words لتحسين عملية التحميل. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

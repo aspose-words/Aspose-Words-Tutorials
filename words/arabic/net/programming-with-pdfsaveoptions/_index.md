@@ -72,6 +72,9 @@
 | [كيفية ضبط خيارات PDF في C# – تحويل Word إلى PDF](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | تعرّف على ضبط خيارات PDF في C# لتحويل مستندات Word إلى PDF باستخدام Aspose.Words. |
 | [كيفية حفظ PDF من Word مع تصدير الشكل المضمن – دليل كامل](./how-to-save-pdf-from-word-with-inline-shape-export-complete/) | تعلم كيفية حفظ مستند Word كملف PDF مع تصدير الأشكال المضمنة باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
 | [إنشاء مستند متوافق مع pdf/ua-2 – دليل C# كامل](./create-pdf-ua-2-compliant-document-complete-c-guide/) |دليل شامل خطوة بخطوة لإنشاء مستند PDF/UA-2 متوافق باستخدام Aspose.Words لـ .NET ولغة C#. |
+| [كيفية تصدير PDF من Word باستخدام Aspose – دليل كامل خطوة بخطوة](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) |دليل خطوة بخطوة لتصدير ملفات PDF من مستندات Word باستخدام Aspose.Words لـ .NET. |
+| [وسم ملف PDF لتسهيل الوصول في C# – دليل كامل](./tag-pdf-for-accessibility-in-c-complete-guide/) |تعلم كيفية إضافة وسوم إمكانية الوصول إلى ملفات PDF باستخدام Aspose.Words لـ .NET في C# خطوة بخطوة. |
+| [حفظ مستند PDF مع استبدال الخطوط في C# – دليل كامل](./save-document-pdf-with-font-substitution-in-c-complete-guide/) |تعلم كيفية حفظ مستندات PDF مع استبدال الخطوط باستخدام Aspose.Words لـ .NET في C# خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

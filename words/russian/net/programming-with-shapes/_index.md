@@ -54,6 +54,7 @@
 | [Создать документ Word с фигурой прямоугольника с тенью – полное руководство](./create-word-document-with-shadowed-rectangle-complete-guide/) | Узнайте, как создать документ Word и добавить в него прямоугольную фигуру с теневым эффектом с помощью Aspose.Words для .NET. |
 | [Создать документ Word – вставить прямоугольную форму и тень в C#](./create-word-document-insert-rectangle-shape-shadow-in-c/) | Узнайте, как создать документ Word и добавить прямоугольную форму с теневым эффектом, используя C# и Aspose.Words. |
 | [Как добавить тень к фигурам Word в C# – Полное руководство](./how-to-add-shadow-to-word-shapes-in-c-complete-guide/) | Узнайте, как добавить тень к фигурам Word в C# с помощью Aspose.Words для .NET в этом полном руководстве. |
+| [Как добавить тень в Word – Полное руководство по фигурам](./how-to-add-shadow-word-complete-guide-for-shapes/) | Узнайте, как добавить тень к фигурам в Word с помощью Aspose.Words для .NET в этом полном руководстве. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

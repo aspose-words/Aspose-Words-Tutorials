@@ -60,6 +60,7 @@
 | [Πώς να χρησιμοποιήσετε LLM με το Aspose.Words – Επαναγράψτε παραγράφους σε C#](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Μάθετε πώς να ενσωματώσετε μοντέλα γλώσσας για την επαναγραφή παραγράφων σε έγγραφα Word χρησιμοποιώντας C# και Aspose.Words. |
 | [Πώς να ελέγξετε τη γραμματική σε C# – Πλήρης οδηγός για έγγραφα Word](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Μάθετε πώς να ενσωματώσετε έλεγχο γραμματικής σε έγγραφα Word χρησιμοποιώντας Aspose.Words για .NET και C#. |
 | [Σύνοψη εγγράφου Word σε C# χρησιμοποιώντας προσαρμοσμένο μοντέλο GPT – Πλήρης οδηγός](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Μάθετε πώς να συνοψίζετε έγγραφα Word σε C# με προσαρμοσμένο μοντέλο GPT, βήμα‑βήμα οδηγός. |
+| [Πώς να επαναγράψετε κείμενο σε έγγραφα Word με το Aspose.Words AI – Πλήρης Οδηγός](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words AI για να επαναγράψετε κείμενο σε έγγραφα Word, βελτιώνοντας τη ροή εργασίας σας. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

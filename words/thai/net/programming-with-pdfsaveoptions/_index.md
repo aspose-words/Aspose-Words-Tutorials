@@ -72,6 +72,9 @@
 - [สร้าง PDF ที่เข้าถึงได้จาก Word – คู่มือ C# ฉบับสมบูรณ์](./create-accessible-pdf-from-word-complete-c-guide/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากไฟล์ Word ด้วย Aspose.Words สำหรับ .NET ด้วยคู่มือ C# ขั้นตอนเต็ม
 - [วิธีบันทึก PDF จาก Word ด้วยการส่งออก Inline Shape – คู่มือฉบับสมบูรณ์](./how-to-save-pdf-from-word-with-inline-shape-export-complete/) | เรียนรู้วิธีบันทึกไฟล์ PDF จาก Word พร้อมส่งออก Inline Shape อย่างละเอียดด้วย Aspose.Words สำหรับ .NET
 - [สร้างเอกสารที่เป็นไปตามมาตรฐาน pdf/ua-2 – คู่มือ C# ฉบับสมบูรณ์](./create-pdf-ua-2-compliant-document-complete-c-guide/) | เรียนรู้วิธีสร้างเอกสาร PDF/UA‑2 ที่เป็นไปตามมาตรฐานด้วย Aspose.Words สำหรับ .NET ผ่านคู่มือ C# อย่างละเอียด
+- [วิธีส่งออก PDF จาก Word ด้วย Aspose – คู่มือเต็มขั้นตอน](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) | เรียนรู้วิธีส่งออกไฟล์ PDF จากเอกสาร Word ด้วย Aspose อย่างละเอียดตามขั้นตอนครบถ้วน
+- [แท็ก PDF เพื่อการเข้าถึงใน C# – คู่มือฉบับสมบูรณ์](./tag-pdf-for-accessibility-in-c-complete-guide/) | เรียนรู้วิธีแท็ก PDF เพื่อการเข้าถึงด้วย C# โดยใช้ Aspose.Words สำหรับ .NET ในคู่มือฉบับสมบูรณ์นี้
+- [บันทึกเอกสาร PDF ด้วยการแทนที่ฟอนต์ใน C# – คู่มือฉบับสมบูรณ์](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | เรียนรู้วิธีบันทึกไฟล์ PDF จากเอกสาร Word พร้อมการแทนที่ฟอนต์ใน C# ด้วย Aspose.Words อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

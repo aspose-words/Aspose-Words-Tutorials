@@ -1,5 +1,5 @@
 ---
-"description": "Aspose.Words for .NET の PDF 保存オプションを使った Words Processing を詳しく見てみましょう。ステップバイステップのチュートリアルとサンプルコードを通して、高度な機能を使って Word 文書を PDF に変換する方法を学びましょう。"
+"description": "Aspose.Words for .NET の PDF 保存オプションを使った Words Processing を詳しく見てみしょう。ステップバイステップのチュートリアルとサンプルコードを通して、高度な機能を使って Word 文書を PDF に変換する方法を学びましょう。"
 "linktitle": "Pdfsaveoptionsを使ったワードプロセッシング"
 "second_title": "Aspose.Words ドキュメント処理 API"
 "title": "Pdfsaveoptionsを使ったワードプロセッシング"
@@ -73,6 +73,9 @@ Word文書をPDFに変換してオンライン配信、アーカイブ、印刷�
 | [C# で PDF オプションを設定する方法 – Word を PDF に変換](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) Aspose.Words for .NET を使用して、C# で PDF オプションを設定し、Word 文書を PDF に変換する手順を解説します。 |
 
 | [Word からアクセシブルな PDF を作成 – 完全 C# ガイド](./create-accessible-pdf-from-word-complete-c-guide/) Aspose.Words for .NET を使用して、Word 文書からアクセシブルな PDF を C# で作成する手順を詳しく解説します。 |
+| [C#でPDFにアクセシビリティタグを付ける – 完全ガイド](./tag-pdf-for-accessibility-in-c-complete-guide/) Aspose.Words for .NET を使用し、C#でPDFにアクセシビリティタグを付与する完全な手順を解説します。 |
+| [Aspose を使用して Word から PDF をエクスポートする方法 – 完全ステップバイステップガイド](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) Aspose.Words for .NET を使い、Word 文書を PDF にエクスポートする手順を詳細に解説します。 |
+| [C#でフォント置換を使用してドキュメントをPDFとして保存する – 完全ガイド](./save-document-pdf-with-font-substitution-in-c-complete-guide/) Aspose.Words for .NET を使用して、フォント置換を行いながらドキュメントをPDFに保存する方法をステップバイステップで解説します。 |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

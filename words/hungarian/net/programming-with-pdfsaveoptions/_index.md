@@ -71,6 +71,10 @@ Akár Word dokumentumokat szeretne PDF formátumba konvertálni online terjeszt�
 | [PDF beállítások beállítása C#-ban – Word konvertálása PDF-be](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | Ismerje meg, hogyan állíthatja be a PDF opciókat C#-ban a Word dokumentumok PDF-be konvertálásához az Aspose.Words segítségével. |
 | [Hogyan mentse PDF-be a Word dokumentumot beágyazott alakzat exportálással – Teljes útmutató](./how-to-save-pdf-from-word-with-inline-shape-export-complete/) | Ismerje meg, hogyan exportálhat beágyazott alakzatokat PDF-be a Word dokumentumból az Aspose.Words for .NET segítségével. |
 | [PDF/UA-2 szabványnak megfelelő dokumentum létrehozása – Teljes C# útmutató](./create-pdf-ua-2-compliant-document-complete-c-guide/) | Lépésről lépésre útmutató a PDF/UA-2 szabványnak megfelelő dokumentum létrehozásához C#-ban az Aspose.Words for .NET segítségével. |
+| [Hogyan exportáljon PDF-et Wordből az Aspose segítségével – Teljes lépésről‑lépésre útmutató](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) | Ismerje meg, hogyan exportálhat PDF-et Word dokumentumból az Aspose.Words for .NET használatával részletes, lépésről‑lépésre útmutatóval. |
+| [PDF címkézése a hozzáférhetőséghez C#‑ban – Teljes útmutató](./tag-pdf-for-accessibility-in-c-complete-guide/) | Ismerje meg, hogyan címkézhet PDF-fájlokat a hozzáférhetőség javítása érdekében C#‑ban az Aspose.Words for .NET segítségével. |
+| [Dokumentum PDF mentése betűtípus helyettesítéssel C#‑ban – Teljes útmutató](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Ismerje meg, hogyan menthet PDF-et betűtípus helyettesítéssel C#‑ban az Aspose.Words for .NET segítségével, lépésről lépésre útmutatóval. |
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

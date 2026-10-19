@@ -61,6 +61,7 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [Wie man Grammatik in C# prüft – Vollständiger Leitfaden für Word-Dokumente](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Grammatik in C#-Anwendungen prüfen und Word-Dokumente automatisch korrigieren. |
 | [Word-Dokument zusammenfassen in C# – Vollständiger Leitfaden mit Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und Anthropic Claude Word-Dokumente in C# effizient zusammenfassen. |
 | [Word-Dokument in C# mit einem benutzerdefinierten GPT-Modell zusammenfassen – Vollständige Anleitung](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und einem eigenen GPT-Modell Word-Dokumente in C# automatisch zusammenfassen. |
+| [Wie man Text in Word-Dokumenten mit Aspose.Words KI umschreibt – Komplettanleitung](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Erfahren Sie, wie Sie mit Aspose.Words KI Text in Word-Dokumenten automatisch umschreiben und anpassen können. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

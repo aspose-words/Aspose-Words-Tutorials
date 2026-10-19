@@ -71,6 +71,9 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Simpan DOCX sebagai PDF di C# – Panduan Lengkap Aspose.Words](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) | Panduan lengkap untuk menyimpan file DOCX menjadi PDF menggunakan Aspose.Words di C#. |
 | [Cara Menyimpan PDF dari Word dengan Ekspor Bentuk Inline – Panduan Lengkap](./how-to-save-pdf-from-word-with-inline-shape-export-complete/) | Pelajari cara mengekspor bentuk inline saat menyimpan dokumen Word sebagai PDF menggunakan Aspose.Words untuk .NET dalam panduan lengkap ini. Bahasa Indonesia: |
 | [Buat dokumen yang mematuhi pdf/ua-2 – Panduan Lengkap C#](./create-pdf-ua-2-compliant-document-complete-c-guide/) | Panduan langkah demi langkah untuk membuat dokumen PDF/UA‑2 yang sesuai standar menggunakan Aspose.Words untuk .NET dengan C#. |
+| [Cara Mengekspor PDF dari Word dengan Aspose – Panduan Lengkap Langkah‑per‑Langkah](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) | Panduan lengkap untuk mengekspor dokumen Word menjadi PDF menggunakan Aspose dengan langkah‑langkah terperinci. |
+| [Menandai PDF untuk Aksesibilitas di C# – Panduan Lengkap](./tag-pdf-for-accessibility-in-c-complete-guide/) | Pelajari cara menandai PDF untuk aksesibilitas menggunakan Aspose.Words untuk .NET dengan C# dalam panduan langkah demi langkah ini. |
+| [Simpan Dokumen PDF dengan Substitusi Font di C# – Panduan Lengkap](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Panduan lengkap untuk menyimpan dokumen PDF dengan mengganti font menggunakan Aspose.Words untuk .NET di C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

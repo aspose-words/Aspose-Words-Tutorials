@@ -52,6 +52,7 @@
 | [วิธีตรวจสอบไวยากรณ์ใน C# ด้วย Aspose.Words AI](./how-to-check-grammar-in-c-with-aspose-words-ai/) | เรียนรู้วิธีใช้ Aspose.Words AI เพื่อตรวจสอบและแก้ไขไวยากรณ์ในเอกสาร C# อย่างง่ายดาย |
 | [เชื่อมต่อกับ LLM ภายในเครื่องใน C# – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./connect-to-local-llm-in-c-complete-programming-guide/) | เรียนรู้วิธีเชื่อมต่อและใช้ LLM ภายในเครื่องด้วย C# ผ่าน Aspose.Words เพื่อประมวลผลเอกสารอัจฉริยะ -
 | [สรุปเอกสาร Word ด้วย C# โดยใช้โมเดล GPT แบบกำหนดเอง – คู่มือเต็ม](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | เรียนรู้วิธีสรุปไฟล์ Word ด้วย C# ผ่านโมเดล GPT ที่กำหนดเองโดยใช้ Aspose.Words สำหรับ .NET อย่างละเอียด -
+| [วิธีเขียนทับข้อความในเอกสาร Word ด้วย Aspose.Words AI – คู่มือฉบับสมบูรณ์](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | เรียนรู้วิธีใช้ Aspose.Words AI เพื่อเขียนทับข้อความในไฟล์ Word อย่างมีประสิทธิภาพในขั้นตอนง่ายๆ - 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -61,6 +61,7 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Hoe LLM te gebruiken met Aspose.Words – Alinea's herschrijven in C#](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Leer hoe u met LLM's en Aspose.Words alinea's automatisch kunt herschrijven in C# voor efficiëntere documentbewerking. |
 | [Hoe grammatica te controleren in C# – Complete gids voor Word-documenten](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Leer hoe u grammatica controleert in C# voor Word-documenten met Aspose.Words, inclusief stapsgewijze voorbeelden. |
 | [Samenvatten van Word-document in C# met een aangepast GPT-model – Volledige gids](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Leer hoe u met Aspose.Words en een eigen GPT-model Word-documenten in C# automatisch samenvat. |
+| [Hoe tekst herschrijven in Word-documenten met Aspose.Words AI – Complete gids](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Leer hoe u met Aspose.Words AI tekst in Word-documenten kunt herschrijven voor nauwkeurige en efficiënte bewerkingen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

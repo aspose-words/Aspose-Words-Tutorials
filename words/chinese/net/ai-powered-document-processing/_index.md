@@ -59,6 +59,7 @@
 | [如何在 C# 中检查语法 – Word 文档完整指南](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) 学习如何在 C# 使用 Aspose.Words 检查 Word 文档的语法，提升文档质量。|
 | [使用 Anthropic Claude 汇总 Word 文档 – C# 完整指南](./summarize-word-document-in-c-complete-guide-using-anthropic/) 学习如何在 C# 中使用 Anthropic Claude 与 Aspose.Words 集成，实现高效的 Word 文档摘要。|
 | [使用自定义 GPT 模型在 C# 中汇总 Word 文档 – 完整指南](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) 使用 Aspose.Words for .NET 与自定义 GPT 模型在 C# 中实现文档摘要，提供完整的分步指南。|
+| [使用 Aspose.Words AI 重写 Word 文档中的文本 – 完整指南](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) 了解如何使用 Aspose.Words AI 在 Word 文档中重写文本，实现内容改写和优化的完整步骤指南。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

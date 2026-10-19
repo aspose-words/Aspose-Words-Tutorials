@@ -61,6 +61,7 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Cách kiểm tra ngữ pháp trong C# – Hướng dẫn toàn diện cho tài liệu Word](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Tìm hiểu cách sử dụng Aspose.Words cho .NET để kiểm tra ngữ pháp tài liệu Word trong C# một cách chi tiết và hiệu quả. |
 | [Tóm tắt tài liệu Word trong C# – Hướng dẫn toàn diện sử dụng Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Khám phá cách sử dụng Anthropic Claude để tóm tắt tài liệu Word trong C# một cách chi tiết và hiệu quả. |
 | [Tóm tắt tài liệu Word trong C# bằng mô hình GPT tùy chỉnh – Hướng dẫn đầy đủ](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Khám phá cách sử dụng mô hình GPT tùy chỉnh để tóm tắt tài liệu Word trong C# với Aspose.Words, hướng dẫn chi tiết từng bước. |
+| [Cách viết lại văn bản trong tài liệu Word bằng Aspose.Words AI – Hướng dẫn đầy đủ](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Khám phá cách sử dụng Aspose.Words AI để tự động viết lại nội dung trong tài liệu Word một cách nhanh chóng và chính xác. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

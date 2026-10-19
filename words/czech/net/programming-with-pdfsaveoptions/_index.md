@@ -69,6 +69,9 @@ Ať už chcete převést dokumenty Wordu do PDF pro online distribuci, archivaci
 | [Jak nastavit možnosti PDF v C# – převod Wordu do PDF](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | Naučte se nastavit možnosti PDF při převodu dokumentu Word do PDF pomocí Aspose.Words pro .NET v C#. |
 | [Jak uložit PDF z Wordu s exportem vložených tvarů – kompletní průvodce](./how-to-save-pdf-from-word-with-inline-shape-export-complete/) | Kompletní návod, jak pomocí Aspose.Words pro .NET exportovat vložené tvary při ukládání Word dokumentu do PDF. |
 | [Vytvořte pdf/ua-2 kompatibilní dokument – Kompletní průvodce C#](./create-pdf-ua-2-compliant-document-complete-c-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET vytvořit PDF/UA‑2 kompatibilní dokument v C# podle podrobného průvodce. |
+| [Jak exportovat PDF z Wordu pomocí Aspose – Kompletní průvodce krok za krokem](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) | Kompletní návod, jak exportovat dokument Word do PDF pomocí Aspose.Words pro .NET. |
+| [Označte PDF pro přístupnost v C# – Kompletní průvodce](./tag-pdf-for-accessibility-in-c-complete-guide/) | Naučte se, jak označit PDF pro přístupnost pomocí Aspose.Words pro .NET v C# s tímto kompletním průvodcem. |
+| [Uložení PDF dokumentu s náhradou písem v C# – Kompletní průvodce](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET nahradit chybějící písma při ukládání dokumentu jako PDF v C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

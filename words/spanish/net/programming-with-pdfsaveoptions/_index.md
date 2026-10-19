@@ -86,13 +86,14 @@ Si desea convertir documentos de Word a PDF para distribuirlos en línea, archiv
 | [Cómo establecer opciones PDF en C# – Convertir Word a PDF](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | Aprenda a configurar opciones PDF en C# para convertir documentos Word a PDF con Aspose.Words para .NET. |
 | [Cómo guardar PDF desde Word con exportación de forma incrustada – Guía completa](./how-to-save-pdf-from-word-with-inline-shape-export-complete/) | Aprenda a guardar documentos Word como PDF conservando formas incrustadas con Aspose.Words para .NET en esta guía paso a paso. |
 | [Crear documento compatible con PDF/UA-2 – Guía completa en C#](./create-pdf-ua-2-compliant-document-complete-c-guide/) | Aprenda a crear documentos PDF/UA-2 compatibles usando Aspose.Words para .NET con esta guía paso a paso en C#. |
+| [Cómo exportar PDF desde Word con Aspose – Guía completa paso a paso](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) | Aprenda a exportar documentos Word a PDF usando Aspose con esta guía detallada paso a paso. |
+| [Etiquetar PDF para accesibilidad en C# – Guía completa](./tag-pdf-for-accessibility-in-c-complete-guide/) | Aprenda a etiquetar PDFs para cumplir con normas de accesibilidad usando Aspose.Words para .NET y C# en esta guía completa. |
+| [Guardar documento PDF con sustitución de fuentes en C# – Guía completa](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Aprenda a guardar documentos PDF con sustitución de fuentes usando Aspose.Words para .NET en C# con esta guía completa paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
