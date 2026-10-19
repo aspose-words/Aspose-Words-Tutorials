@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Den här handledningen visar hur du använder Aspose.Words Document och DocumentBuilder för att skapa ett Word‑dokument, bädda in ett histogramdiagram och lägga till en märkt dataserie med hjälp av overloaden ChartSeriesCollection.Add som accepterar ett namn och värden.
+//ExStepSummary:0: Skapa ett nytt tomt Word‑dokument och en DocumentBuilder för att redigera det.
+//ExStepSummary:1: Infoga en histogramdiagramform av storleken 500×300 i dokumentet och hämta dess Chart‑objekt.
+//ExStepSummary:2: Ta bort den standardplatshållarserien som Aspose.Words lägger till i nya diagram.
+//ExStepSummary:3: Lägg till en namngiven serie som heter "Demo Series" med de angivna datapunkterna till histogramdiagrammet.
+//ExStepSummary:4: Spara dokumentet till en .docx‑fil som innehåller den märkta diagramserien.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape histogramShape = docBuilder.InsertChart(ChartType.Histogram, 500, 300);
+Chart histogramChart = histogramShape.Chart;
+
+//ExStep:2-
+histogramChart.Series.Clear();
+
+//ExStep:3-
+histogramChart.Series.Add("Demo Series", new double[] { 10, 20, 15, 30, 25 });
+
+//ExStep:4-
+myDocument.Save("LabeledSeriesDemo.docx");
+//ExEnd

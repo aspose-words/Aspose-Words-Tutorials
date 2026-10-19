@@ -39,9 +39,33 @@
 | Название | Описание |
 | --- | --- |
 | [Работа с моделью ИИ](./working-with-ai-model/) | Узнайте, как использовать Aspose.Words для .NET для резюмирования документов с помощью ИИ. Простые шаги для улучшения управления документами. |
-| [Работа с моделью Google AI](./working-with-google-ai-model/) Повысьте уровень обработки документов с помощью Aspose.Words для .NET и Google AI, чтобы легко создавать краткие резюме. |
+| [Работа с моделью Google AI](./working-with-google-ai-model/) | Повысьте уровень обработки документов с помощью Aspose.Words для .NET и Google AI, чтобы легко создавать краткие резюме. |
 | [Работа с открытой моделью ИИ](./working-with-open-ai-model/) | Разблокируйте эффективное реферирование документов с помощью Aspose.Words для .NET с мощными моделями OpenAI. Погрузитесь в это всеобъемлющее руководство прямо сейчас. |
 | [Работа с параметрами резюмирования](./working-with-summarize-options/) | Научитесь эффективно резюмировать документы Word с помощью Aspose.Words для .NET с помощью нашего пошагового руководства по интеграции моделей ИИ для быстрого получения информации. |
+| [Резюмирование документа Word на C# – Полное руководство с ИИ](./summarize-word-document-in-c-complete-ai-powered-guide/) | Полное пошаговое руководство по резюмированию документов Word с помощью Aspose.Words и моделей ИИ на C#. |
+| [Как проверить грамматику в DOCX с Aspose.Words – использовать gpt‑4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Узнайте, как с помощью Aspose.Words и модели gpt‑4 turbo автоматически проверять грамматику в DOCX‑файлах. |
+| [Как проверить грамматику в Word с помощью Aspose.Words AI – Полное руководство](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Узнайте, как использовать AI Aspose.Words для автоматической проверки грамматики в документах Word. |
+| [Как проверить грамматику в C# с помощью локальной LLM](./how-to-check-grammar-in-c-using-a-local-llm/) | Узнайте, как использовать локальную LLM для проверки грамматики в C# с Aspose.Words, улучшая качество текста автоматически. |
+| [Резюмирование Word-документа с ИИ – OpenAI vs Gemini](./summarize-word-document-with-ai-openai-vs-gemini/) | Сравните, как модели OpenAI и Gemini резюмируют документы Word с помощью Aspose.Words для .NET. |
+| [Как резюмировать документы Word – Полное руководство на C#](./how-to-summarize-word-documents-complete-c-guide/) | Краткое руководство по использованию Aspose.Words для .NET и C# для создания резюме Word‑документов. |
+| [Как исправить грамматику в DOCX файлах с помощью C# – Полное пошаговое руководство](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Узнайте, как с помощью Aspose.Words для .NET исправлять грамматические ошибки в DOCX файлах на C# шаг за шагом. |
+| [Резюмирование документа Word с локальной LLM – руководство на C#](./summarize-word-document-with-local-llm-c-guide/) | Узнайте, как использовать локальную LLM для резюмирования Word‑документов на C# с помощью Aspose.Words. |
+| [Как проверить грамматику в документах Word – Полное руководство на C#](./how-to-check-grammar-in-word-documents-complete-c-guide/) | Узнайте, как с помощью Aspose.Words для .NET реализовать проверку грамматики в документах Word, используя C#. |
+| [Как проверить грамматику с помощью локальной LLM на C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Узнайте, как использовать локальную модель LLM в C# для проверки грамматики текста с помощью Aspose.Words. |
+| [Как проверять грамматику и резюмировать документ Word с помощью Aspose.Words AI](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Узнайте, как с помощью Aspose.Words AI проверять грамматику и создавать резюме документов Word в несколько шагов. |
+| [Проверка грамматики Word-документа в C# – Полное руководство по программированию](./check-grammar-word-document-in-c-complete-programming-guide/) | Узнайте, как с помощью Aspose.Words проверить грамматику Word‑документов в C# с полным пошаговым руководством. |
+| [Как загрузить Word в C# и переписать абзац с помощью ИИ](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Узнайте, как загрузить документ Word в C# и с помощью ИИ переписать абзац, улучшив содержание за несколько шагов. |
+| [Как проверить грамматику в C# с помощью Aspose.Words AI](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Узнайте, как использовать AI Aspose.Words в C# для проверки грамматики документов Word. |
+| [Подключение к локальному LLM на C# – Полное руководство по программированию](./connect-to-local-llm-in-c-complete-programming-guide/) | Узнайте, как интегрировать локальную модель LLM в C# с помощью Aspose.Words для .NET, пошаговое руководство. |
+| [Как использовать LLM с Aspose.Words – Переписать абзацы на C#](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Узнайте, как применять LLM в Aspose.Words для автоматической перезаписи абзацев в C#. |
+| [Как проверить грамматику в C# – Полное руководство по документам Word](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Узнайте, как использовать Aspose.Words для .NET для проверки грамматики в документах Word с помощью C#. |
+| [Резюмирование документа Word на C# – Полное руководство с использованием Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Узнайте, как использовать Anthropic Claude для автоматического резюмирования документов Word в C#. |
+| [Резюмирование документа Word на C# с использованием пользовательской модели GPT – Полное руководство](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Узнайте, как создать собственную модель GPT для резюмирования документов Word в C# с помощью Aspose.Words. |
+| [Как переписать текст в документах Word с помощью Aspose.Words AI – Полное руководство](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Узнайте, как использовать AI Aspose.Words для переписывания текста в документах Word, шаг за шагом. |
+| [Как проверить грамматику в C# с Aspose.Words — Руководство](./how-to-check-grammar-in-c-with-aspose-words-guide/) | Узнайте, как использовать Aspose.Words для .NET для проверки грамматики в C# и улучшения качества документов. |
+| [Как использовать Summarize в Aspose.Words — Полное руководство](./how-to-use-summarize-in-aspose-words-complete-guide/) | Узнайте, как применять функцию Summarize в Aspose.Words для .NET, чтобы быстро создавать резюме документов. |
+| [Переписать абзац с ИИ в C# – Как настроить локальную LLM](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) | Узнайте, как использовать локальную LLM для переписывания абзацев в C# с помощью Aspose.Words. |
+| [Как проверить грамматику с помощью Aspose.Words AI – Полное руководство](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | Узнайте, как использовать AI Aspose.Words для автоматической проверки грамматики в документах Word. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,7 @@
+Title: How to create hidden shape docx with Aspose.Words in C#
+Slug: how-to-create-hidden-shape-docx-with-aspose-words-in-c
+Category: programming-with-shapes
+ProcessedDate: 2026-09-21T15:45:00.182855
+SourceRepo: AI Search API
+Keywords: create hidden shape docx, set shape fill color, hide shape in word document
+PRNumber: 282

@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: Az Aspose.Words Document és DocumentBuilder használatával ez a bemutató automatikusan frissülő oldalszámokat ad a Word dokumentum elsődleges láblécéhez.
+//ExStepSummary:0: Hozzon létre egy új Document objektumot és egy hozzá kapcsolódó DocumentBuilder‑t.
+//ExStepSummary:1: Mozgassa a builder kurzorát az első szakasz elsődleges láblécéhez.
+//ExStepSummary:2: Állítsa be a bekezdés igazítását középre, hogy a lábléc szövege középre legyen igazítva.
+//ExStepSummary:3: Írja ki a "Page " feliratot, és szúrjon be egy PAGE mezőt, amely a jelenlegi oldalszámot jeleníti meg.
+//ExStepSummary:4: Írja ki a " of " szöveget, és szúrjon be egy NUMPAGES mezőt, amely a teljes oldalszámot mutatja.
+//ExStepSummary:5: Mentse a dokumentumot .docx fájlba.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+
+//ExStep:2-
+builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
+
+//ExStep:3-
+builder.Write("Page ");
+builder.InsertField("PAGE", null);
+
+//ExStep:4-
+builder.Write(" of ");
+builder.InsertField("NUMPAGES", null);
+
+//ExStep:5-
+doc.Save("PageNumbers.docx");
+//ExEnd
