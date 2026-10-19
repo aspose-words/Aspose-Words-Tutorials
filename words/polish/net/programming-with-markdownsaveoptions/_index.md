@@ -96,8 +96,6 @@ Kompletny przewodnik C# pokazujący, jak wyeksportować równania LaTeX z dokume
 ### [Konwertuj Docx do Markdown w C# – Kompletny przewodnik programistyczny](./convert-docx-to-markdown-with-c-complete-programming-guide/)
 Kompletny przewodnik C# pokazujący, jak konwertować pliki DOCX do formatu Markdown przy użyciu Aspose.Words.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 ### [Konwertuj Word do Markdown – Kompletny przewodnik z wyodrębnianiem obrazów](./convert-word-to-markdown-complete-guide-with-image-extractio/)
 Kompletny przewodnik C# pokazujący, jak konwertować dokumenty Word do Markdown i wyodrębniać obrazy przy użyciu Aspose.Words.
 
@@ -216,7 +214,6 @@ Kompletny przewodnik C# pokazujący, jak wyeksportować równania LaTeX z pliku 
 ### [Utwórz markdown z Worda – Pełny przewodnik C#](./create-markdown-from-word-full-c-guide/)
 Kompletny przewodnik C# pokazujący, jak konwertować dokumenty Word do formatu Markdown przy użyciu Aspose.Words.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 ### [Utwórz folder zasobów dla konwersji Word do Markdown](./create-assets-folder-for-convert-word-to-markdown/)
 Dowiedz się, jak utworzyć folder zasobów niezbędny przy konwersji dokumentów Word do formatu Markdown przy użyciu Aspose.Words.
 

@@ -99,8 +99,6 @@ Erfahren Sie, wie Sie LaTeX‑Formeln aus Word‑Dokumenten extrahieren und als 
 ### [Word in Markdown konvertieren – Vollständige Anleitung mit Bildextraktion](./convert-word-to-markdown-complete-guide-with-image-extractio/)
 Erfahren Sie, wie Sie Word‑Dateien in Markdown konvertieren und dabei Bilder extrahieren – umfassende Schritt‑für‑Schritt‑Anleitung.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 ### [Wie man Markdown aus Word speichert – Schritt‑für‑Schritt‑Anleitung](./how-to-save-markdown-from-word-step-by-step-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown speichern – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
 
@@ -215,8 +213,6 @@ Erfahren Sie, wie Sie LaTeX‑Formeln aus DOCX‑Dateien exportieren und in Mark
 ### [Markdown aus Word erstellen – Vollständige C#‑Anleitung](./create-markdown-from-word-full-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für .NET Markdown aus Word‑Dokumenten generieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 ### [Wie man Links exportiert: DOCX in Markdown konvertieren in C#](./how-to-export-links-convert-docx-to-markdown-in-c/)
 Erfahren Sie, wie Sie Links aus DOCX‑Dateien in Markdown exportieren – komplette Anleitung in C#.
 ### [Wie man Word zu Markdown in C# konvertiert – Vollständige C#‑Anleitung](./how-to-convert-word-to-markdown-in-c-complete-guide/)
@@ -238,7 +234,6 @@ Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words in Markdown konvertieren
 ### [DOCX in Markdown konvertieren – Vollständige C#‑Anleitung](./convert-docx-to-markdown-with-c-complete-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien mit C# vollständig in Markdown konvertieren – Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 ### [DOCX als Markdown speichern – Vollständige Schritt‑für‑Schritt‑Anleitung mit Aspose.Words](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/)
 Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in Markdown konvertieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
 
