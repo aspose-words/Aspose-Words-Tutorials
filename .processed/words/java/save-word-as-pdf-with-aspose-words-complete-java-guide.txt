@@ -1,0 +1,7 @@
+Title: Save Word as PDF with Aspose.Words – Complete Java Guide
+Slug: save-word-as-pdf-with-aspose-words-complete-java-guide
+Category: document-conversion-and-export
+ProcessedDate: 2026-06-08T19:21:07.862508
+SourceRepo: AI Search API
+Keywords: save word as pdf, convert docx to pdf, how to export shapes, aspose word to pdf, inline span tag
+PRNumber: 202

@@ -39,6 +39,12 @@ Scopri come migliorare i tuoi documenti con forme e grafica utilizzando Aspose.W
 Scopri come stampare e visualizzare documenti in modo efficiente utilizzando Aspose.Words per Java. Impara passo dopo passo con esempi di codice sorgente.
 ### [Rendering di documenti in HTML](./rendering-documents-html/)
 Scopri come convertire i documenti in HTML senza sforzo con Aspose.Words per Java. Guida passo passo per una conversione efficiente dei documenti.
+### [Come gestire i font in Java con Aspose.Words – Guida completa](./how-to-handle-fonts-in-java-with-aspose-words-complete-guide/)
+Scopri come gestire i font nei documenti Word usando Aspose.Words per Java. Esempi pratici e consigli per un rendering accurato.
+### [Tutorial di callback di avviso Aspose – Rileva e traccia i caratteri mancanti](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
+Scopri come gestire gli avvisi di font mancanti con Aspose.Words per Java, rilevando e tracciando i caratteri assenti durante il rendering.
+### [Come catturare gli avvisi – Rilevare i font mancanti in Aspose.Words](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
+Scopri come intercettare gli avvisi di font mancanti durante il rendering con Aspose.Words per Java.
 ### [Trova i font mancanti in Java con Aspose.Words – Guida completa](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
 Scopri come individuare e risolvere i font mancanti nei documenti Word usando Aspose.Words per Java, con esempi pratici passo passo.
 

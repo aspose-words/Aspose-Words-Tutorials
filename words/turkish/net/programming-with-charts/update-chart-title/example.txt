@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Aspose.Words kullanarak bu öğreticide bir Word belgesi oluşturulur, bir sütun grafiği eklenir, grafik başlığı kullanıcı tarafından sağlanan metinle güncellenir ve efsanenin görünürlüğü ve bindirme kullanıcı tercihine göre değiştirilir.
+//ExStepSummary:0: Kullanıcı tarafından sağlanan grafik başlığını ve efsanenin gösterilip gösterilmeyeceğini tanımlayın.
+//ExStepSummary:1: Yeni bir Word belgesi ve içerik eklemek için bir DocumentBuilder oluşturun.
+//ExStepSummary:2: Belgeye 432 × 252 pt boyutlarında bir sütun grafiği ekleyin ve şeklin gerçekten bir grafik içerdiğini doğrulayın.
+//ExStepSummary:3: Grafik nesnesini alın, başlık metnini kullanıcı değerine ayarlayın ve başlığın görüntülendiğinden emin olun.
+//ExStepSummary:4: Efsaneyi yapılandırın: istenirse sağda gösterin, aksi takdirde gizleyin ve grafik alanının üzerine bindirilmesine izin verin.
+//ExStepSummary:5: Değiştirilen belgeyi disk üzerine CustomChart.docx olarak kaydedin.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+string chartHeader = "Fiscal Q1 Performance Summary";
+bool displayLegend = false;
+
+//ExStep:1-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:2-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+if (!chartContainer.HasChart)
+    throw new InvalidOperationException("The inserted shape does not contain a chart.");
+
+//ExStep:3-
+Chart chartObj = chartContainer.Chart;
+ChartTitle chartTitle = chartObj.Title;
+chartTitle.Text = chartHeader;
+chartTitle.Show = true;
+
+//ExStep:4-
+ChartLegend chartLegend = chartObj.Legend;
+chartLegend.Position = displayLegend ? LegendPosition.Right : LegendPosition.None;
+chartLegend.Overlay = true;
+
+//ExStep:5-
+wordDoc.Save("CustomChart.docx");
+//ExEnd

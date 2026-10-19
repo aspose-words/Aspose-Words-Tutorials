@@ -1,0 +1,7 @@
+Title: Translate French to English in a DOCX with Aspose.Words
+Slug: translate-french-to-english-in-a-docx-with-aspose-words
+Category: ai-powered-document-processing
+ProcessedDate: 2026-09-08T22:52:43.361640
+SourceRepo: AI Search API
+Keywords: translate french to english, translate entire document, how to translate docx, set target language, translate with google api
+PRNumber: 267

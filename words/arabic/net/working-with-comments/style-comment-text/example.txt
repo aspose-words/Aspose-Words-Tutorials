@@ -1,0 +1,64 @@
+//ExStart
+//ExSummary: باستخدام فئات Aspose.Words Document و DocumentBuilder و Comment و Style، يُنشئ هذا البرنامج التعليمي تعليقات في ملف Word ويطبق نمط فقرة مخصص على كل فقرة تعليق بحيث يتطابق نص التعليق مع العلامة التجارية للشركة.
+//ExStepSummary:0: أنشئ مستند Document جديد فارغ و DocumentBuilder لتعديله.
+//ExStepSummary:1: أدرج جملتين مثاليتين في المستند.
+//ExStepSummary:2: أنشئ تعليقًا من Carol، عيّن نصه، انتقل إلى بداية المستند، وأرفق التعليق بالفقرة الأولى.
+//ExStepSummary:3: أنشئ تعليقًا من Dave، عيّن نصه، انتقل إلى نهاية المستند، وأرفق التعليق بالفقرة الأخيرة.
+//ExStepSummary:4: عرّف نمط فقرة مخصص يُدعى "BrandComment" بخط Arial، 10 نقطة، باللون الأزرق الداكن، وتنسيق غامق ليتطابق مع العلامة التجارية للشركة.
+//ExStepSummary:5: اجمع جميع عقد Comment في المستند في قائمة.
+//ExStepSummary:6: تكرّر على كل تعليق وطبّق نمط BrandComment على كل فقرة داخل التعليق.
+//ExStepSummary:7: أنشئ مجلد Results إذا لزم الأمر واحفظ المستند المعدل باسم StyledCommentsDocument.docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:6:images/4.png
+//ExStep:0-
+Document document = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(document);
+
+//ExStep:1-
+docBuilder.Writeln("Introductory line for the file.");
+docBuilder.Writeln("Follow‑up line for the file.");
+
+//ExStep:2-
+Comment remarkOne = new Comment(document, "Carol", "C", DateTime.Now);
+remarkOne.SetText("Preliminary assessment note.");
+docBuilder.MoveToDocumentStart();
+docBuilder.CurrentParagraph.AppendChild(remarkOne);
+
+//ExStep:3-
+Comment remarkTwo = new Comment(document, "Dave", "D", DateTime.Now);
+remarkTwo.SetText("Further clarification required.");
+docBuilder.MoveToDocumentEnd();
+docBuilder.CurrentParagraph.AppendChild(remarkTwo);
+
+//ExStep:4-
+Style brandCommentStyle = document.Styles.Add(StyleType.Paragraph, "BrandComment");
+brandCommentStyle.Font.Name = "Arial";
+brandCommentStyle.Font.Size = 10;
+brandCommentStyle.Font.Color = Color.DarkBlue;
+brandCommentStyle.Font.Bold = true;
+
+//ExStep:5-
+var allComments = document.GetChildNodes(NodeType.Comment, true)
+                                 .OfType<Comment>()
+                                 .ToList();
+
+//ExStep:6-
+foreach (Comment commentNode in allComments)
+{
+    if (commentNode.Paragraphs.Count == 0)
+        commentNode.EnsureMinimum();
+
+    foreach (Paragraph para in commentNode.Paragraphs)
+    {
+        para.ParagraphFormat.Style = brandCommentStyle;
+    }
+}
+
+//ExStep:7-
+string resultFolder = Path.Combine(Directory.GetCurrentDirectory(), "Results");
+Directory.CreateDirectory(resultFolder);
+string resultFile = Path.Combine(resultFolder, "StyledCommentsDocument.docx");
+document.Save(resultFile);
+//ExEnd

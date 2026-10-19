@@ -104,6 +104,12 @@ weight: 14
 ### [Μετατροπή Εγγράφων σε Εικόνες](./converting-documents-images/)
 Μάθετε πώς να μετατρέπετε έγγραφα Word σε εικόνες χρησιμοποιώντας Aspose.Words for Java. Οδηγός βήμα‑βήμα, πλήρης με παραδείγματα κώδικα και FAQ.
 
+### [Αποθήκευση docx ως markdown με Aspose.Words – Πλήρης Οδηγός](./save-docx-as-markdown-with-aspose-words-complete-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία docx σε μορφή markdown χρησιμοποιώντας Aspose.Words for Java, βήμα‑βήμα οδηγίες.
+### [Μετατροπή DOCX σε PDF σε Java – Οδηγός βήμα‑βήμα](./convert-docx-to-pdf-in-java-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF με Aspose.Words for Java, ακολουθώντας απλά βήματα και παραδείγματα κώδικα.
+### [Αποθήκευση DOCX ως PDF με Aspose.Words – Πλήρης Οδηγός Java](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF χρησιμοποιώντας Aspose.Words for Java με πλήρη βήμα‑βήμα οδηγίες.
 ### [Μετατροπή docx σε txt σε Java – Πλήρης Οδηγός Προγραμματισμού](./convert-docx-to-txt-in-java-complete-programming-guide/)
 Μάθετε πώς να μετατρέψετε αρχεία docx σε απλό κείμενο txt χρησιμοποιώντας Aspose.Words for Java, βήμα‑βήμα με παραδείγματα κώδικα.
 

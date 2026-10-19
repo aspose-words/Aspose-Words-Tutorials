@@ -34,8 +34,18 @@ Erfahren Sie, wie Sie die Bildverarbeitung in RTF-Dokumenten mit Aspose.Words f�
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Erfahren Sie, wie Sie die SVG-Ausgabe mit Aspose.Words für Python optimieren. Diese Anleitung behandelt benutzerdefinierte Funktionen wie bildähnliche Eigenschaften, Textdarstellung und Sicherheitsverbesserungen.
 
+    ### [Word-Dokument mit Python erstellen – Anleitung zum Hinzufügen von Schatten zu Formen](./create-word-document-python-add-shadow-to-shape-guide/)
+Erfahren Sie, wie Sie ein Word-Dokument mit Python erzeugen und einer Form einen Schatten hinzufügen.
+
 ### [Wie man Schatten in C# hinzufügt – Vollständiger Programmierleitfaden](./how-to-add-shadow-in-c-complete-programming-guide/)
 Erfahren Sie, wie Sie Schatten zu C#-Grafiken hinzufügen und das Erscheinungsbild Ihrer Anwendungen verbessern.
+
+### [Rechteck zu PDF mit Aspose.Words hinzufügen – Schritt‑für‑Schritt‑Anleitung](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words ein Rechteck in ein PDF einfügen und formatieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Rechteckform in Python erstellen – Vollständiger Leitfaden zum Hinzufügen von Schatten & Speichern als PDF](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
+Erfahren Sie, wie Sie in Python ein Rechteck erstellen, Schatten hinzufügen und das Ergebnis als PDF speichern.
+### [Wie man ein Rechteck einfügt und Schatten in Word mit Aspose hinzufügt](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
+Erfahren Sie, wie Sie mit Aspose ein Rechteck in ein Word-Dokument einfügen und einen Schatten hinzufügen.
 
 ## Weitere Ressourcen
 

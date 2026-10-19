@@ -21,7 +21,10 @@
 | शीर्षक | विवरण |
 | --- | --- |
 | [ओपन टाइप विशेषताएँ](./open-type-features/) | इस विस्तृत, चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में OpenType सुविधाओं को सक्षम करने का तरीका जानें। |
+| [Aspose.Words के साथ Word दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-word-document-with-aspose-words-step-by-step-guide/) | Aspose.Words का उपयोग करके Word दस्तावेज़ बनाने की चरण‑दर‑चरण प्रक्रिया सीखें। |
+| [वेरिएबल फ़ॉन्ट के साथ Word दस्तावेज़ बनाएं – गाइड](./create-word-document-with-variable-font-guide/) | वेरिएबल फ़ॉन्ट का उपयोग करके Word दस्तावेज़ बनाने की चरण-दर-चरण गाइड। |
 
+| [C# में वैरिएबल वेट फ़ॉन्ट का उपयोग – पूर्ण प्रोग्रामिंग गाइड](./use-variable-weight-font-in-c-complete-programming-guide/) | C# में वैरिएबल वेट फ़ॉन्ट को लागू करने के लिए पूर्ण प्रोग्रामिंग गाइड |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
