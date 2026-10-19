@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Deze tutorial laat zien hoe je Aspose.Words Document en DocumentBuilder gebruikt om een Word‑document te maken, een histogram‑grafiek in te sluiten en een gelabelde gegevensreeks toe te voegen met de ChartSeriesCollection.Add‑overload die een naam en waarden accepteert.
+//ExStepSummary:0: Maak een nieuw leeg Word‑document en een DocumentBuilder om het te bewerken.
+//ExStepSummary:1: Voeg een histogram‑grafiekvorm van 500×300 toe aan het document en verkrijg het bijbehorende Chart‑object.
+//ExStepSummary:2: Verwijder de standaard placeholder‑reeks die Aspose.Words aan nieuwe grafieken toevoegt.
+//ExStepSummary:3: Voeg een benoemde reeks genaamd "Demo Series" met de opgegeven gegevenspunten toe aan de histogram‑grafiek.
+//ExStepSummary:4: Sla het document op als een .docx‑bestand dat de gelabelde grafiekreeks bevat.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape histogramShape = docBuilder.InsertChart(ChartType.Histogram, 500, 300);
+Chart histogramChart = histogramShape.Chart;
+
+//ExStep:2-
+histogramChart.Series.Clear();
+
+//ExStep:3-
+histogramChart.Series.Add("Demo Series", new double[] { 10, 20, 15, 30, 25 });
+
+//ExStep:4-
+myDocument.Save("LabeledSeriesDemo.docx");
+//ExEnd

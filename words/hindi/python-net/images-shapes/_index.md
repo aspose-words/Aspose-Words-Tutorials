@@ -38,7 +38,16 @@ Aspose.Words for Python के साथ मीडिया प्रकार�
 Python के लिए Aspose.Words का उपयोग करके आकृतियों में शैडो जोड़ने की पूरी प्रक्रिया सीखें।
 
 ### [C# में शैडो कैसे जोड़ें – पूर्ण प्रोग्रामिंग गाइड](./how-to-add-shadow-in-c-complete-programming-guide/)
-C# में शैडो जोड़ने की पूरी प्रक्रिया सीखें और अपने दस्तावेज़ों को आकर्षक बनाएं।
+
+### [Aspose का उपयोग करके Word में आयत सम्मिलित करना और शैडो जोड़ना](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
+Aspose.Words के साथ Word दस्तावेज़ में आयत जोड़ें और शैडो प्रभाव लागू करने की चरण-दर-चरण गाइड।
+
+### [Aspose.Words के साथ PDF में आयत जोड़ें – चरण‑दर‑चरण गाइड](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
+Aspose.Words का उपयोग करके PDF में आयत कैसे जोड़ें, कोड उदाहरण और विस्तृत चरणों के साथ सीखें।
+### [Python में आयताकार आकृति बनाना – शैडो जोड़ना और PDF के रूप में सहेजना पूर्ण गाइड](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
+Python में आयताकार शैडो वाली आकृति बनाना, उसे PDF में सहेजना सीखें।
+### [Word दस्तावेज़ बनाना Python – आकार में शैडो जोड़ने की गाइड](./create-word-document-python-add-shadow-to-shape-guide/)
+Python के साथ Aspose.Words का उपयोग करके Word दस्तावेज़ में आकार पर शैडो जोड़ने की पूरी प्रक्रिया सीखें।
 
 ## अतिरिक्त संसाधन
 

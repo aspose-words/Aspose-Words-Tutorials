@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Usando as classes Document e DocumentBuilder, este tutorial mostra como adicionar um campo DATE dinâmico ao cabeçalho principal de um documento Word e, em seguida, salvar o arquivo.
+//ExStepSummary:0: Crie um novo Document e um DocumentBuilder para editá-lo.
+//ExStepSummary:1: Mova o cursor do builder para o cabeçalho principal para que inserções subsequentes afetem o cabeçalho.
+//ExStepSummary:2: Escreva o rótulo estático e insira um campo DATE formatado como “MMMM d, yyyy” no cabeçalho, criando uma data dinâmica.
+//ExStepSummary:3: Retorne ao corpo principal e adicione um parágrafo de exemplo, demonstrando o conteúdo normal do documento ao lado do cabeçalho.
+//ExStepSummary:4: Salve o documento em um arquivo .docx.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+builder.Write("Generated on: ");
+builder.InsertField("DATE \\@ \"MMMM d, yyyy\"");
+
+//ExStep:3-
+builder.MoveToDocumentEnd();
+builder.Writeln("This is the document body.");
+
+//ExStep:4-
+doc.Save("HeaderDate.docx");
+//ExEnd
