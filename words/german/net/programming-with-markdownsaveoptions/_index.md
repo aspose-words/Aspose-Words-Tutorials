@@ -225,8 +225,6 @@ Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in Markdown konvertieren �
 ### [Word nach Markdown exportieren mit Formschatten und PDF/UA](./export-word-to-markdown-with-shape-shadows-and-pdf-ua/)
 Erfahren Sie, wie Sie Word-Dokumente mit Formschatten in Markdown exportieren und PDF/UA-konforme PDFs erzeugen.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 ### [Markdown aus Word erstellen – Vollständige C#‑Anleitung](./create-markdown-from-word-full-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für .NET Markdown aus Word‑Dokumenten generieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
 
