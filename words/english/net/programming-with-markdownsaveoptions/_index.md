@@ -58,6 +58,7 @@ class Program
 | [Save docx as markdown – Complete C# Guide with LaTeX Equations](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) | Learn how to save DOCX as Markdown with LaTeX equations using Aspose.Words for .NET. |
 | [Save docx as markdown – Export Word equations to LaTeX in C#](./save-docx-as-markdown-export-word-equations-to-latex-in-c/) | Learn how to export Word equations to LaTeX while saving DOCX as Markdown using Aspose.Words for .NET. |
 | [Convert Word to Markdown in C# – Export Equations as LaTeX](./convert-word-to-markdown-in-c-export-equations-as-latex/) | Learn how to convert Word documents to Markdown in C# while exporting equations as LaTeX using Aspose.Words for .NET. |
+| [save docx as markdown – Complete Guide with LaTeX Equations](./save-docx-as-markdown-complete-guide-with-latex-equations/) | Learn how to save DOCX as Markdown with LaTeX equations using Aspose.Words for .NET. |
 | [save docx as markdown – Full C# Guide with Image Extraction](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | Learn how to save DOCX as Markdown with image extraction using Aspose.Words for .NET. |
 | [save docx as txt – convert docx to markdown](./save-docx-as-txt-convert-docx-to-markdown/) | Learn how to convert DOCX to TXT and then to Markdown using Aspose.Words for .NET. |
 | [Save docx as markdown with Aspose.Words – Full C# Guide](./save-docx-as-markdown-with-aspose-words-full-c-guide/) |  |
@@ -125,6 +126,7 @@ class Program
 | [Create Assets Folder for Convert Word to Markdown](./create-assets-folder-for-convert-word-to-markdown/) | Learn how to set up an assets folder for storing images and resources when converting Word to Markdown using Aspose.Words for .NET. |
 | [Save Word as Markdown – Complete Guide with Aspose.Words](./save-word-as-markdown-complete-guide-with-aspose-words/) | Learn how to save Word documents as Markdown using Aspose.Words for .NET with a comprehensive step‑by‑step guide. |
 | [Save DOCX as Markdown with Aspose.Words – Full Step‑by‑Step Guide](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/) | Learn how to save DOCX files as Markdown using Aspose.Words with a comprehensive step‑by‑step guide. |
+| [custom image folder for export markdown with images – Complete Guide](./custom-image-folder-for-export-markdown-with-images-complete/) | Learn how to set a custom folder for images when exporting Word documents to Markdown using Aspose.Words for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

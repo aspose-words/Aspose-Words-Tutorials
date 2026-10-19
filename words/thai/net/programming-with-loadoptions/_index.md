@@ -65,6 +65,8 @@
 | [กำหนดค่าตัวเลือกการโหลดเอกสารใน C# – คู่มือฉบับสมบูรณ์](./configure-document-load-options-in-c-complete-guide/) | เรียนรู้วิธีกำหนดค่าตัวเลือกการโหลดเอกสาร Word ใน C# อย่างละเอียดด้วย Aspose.Words สำหรับ .NET |
 | [เปิดไฟล์ Word ที่เสียใน C# – คู่มือฉบับสมบูรณ์](./open-corrupted-word-file-in-c-complete-guide/) | เรียนรู้วิธีเปิดไฟล์ Word ที่เสียใน C# อย่างครบถ้วนด้วย Aspose.Words สำหรับ .NET |
 | [ซ่อมไฟล์ docx ที่เสียหายด้วย Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](./repair-damaged-docx-with-aspose-words-complete-c-guide/) | เรียนรู้วิธีซ่อมไฟล์ docx ที่เสียหายด้วย Aspose.Words สำหรับ .NET ด้วยคู่มือ C# ฉบับสมบูรณ์ |
+| [กู้ไฟล์ docx ที่เสียหายด้วย Aspose.Words – คู่มือขั้นตอนเต็ม](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายอย่างละเอียดด้วย Aspose.Words สำหรับ .NET พร้อมขั้นตอนและตัวอย่างโค้ด |
+| [เปิดการแจ้งเตือนการแทนที่แบบอักษรใน C# ด้วย Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) | เรียนรู้วิธีเปิดการแจ้งเตือนการแทนที่แบบอักษรใน C# ด้วย Aspose.Words เพื่อจัดการแบบอักษรที่หายไปอย่างมีประสิทธิภาพ |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

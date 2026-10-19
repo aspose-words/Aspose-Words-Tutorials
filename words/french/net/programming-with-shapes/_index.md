@@ -55,6 +55,7 @@ En utilisant Aspose.Words pour .NET et en suivant ces tutoriels, vous maîtriser
 | [Comment ajouter une ombre aux formes Word en C# – Guide complet](./how-to-add-shadow-to-word-shapes-in-c-complete-guide/) | Apprenez à ajouter une ombre aux formes Word en C# avec Aspose.Words grâce à ce guide complet étape par étape. |
 | [Comment ajouter une ombre à une forme Word – Guide complet](./how-to-add-shadow-word-complete-guide-for-shapes/) | Apprenez à ajouter une ombre à une forme dans Word avec Aspose.Words pour .NET grâce à ce guide complet étape par étape. |
 | [Ajouter une ombre à une forme dans Word avec Aspose.Words – Guide complet](./add-shadow-to-shape-in-word-with-aspose-words-complete-guide/) | Apprenez à ajouter une ombre à une forme Word en utilisant Aspose.Words pour .NET grâce à ce guide complet étape par étape. |
+| [Ajouter une ombre à une forme dans les documents Word – Guide complet C#](./add-shadow-to-shape-in-word-documents-complete-c-guide/) | Apprenez à ajouter une ombre à une forme dans les documents Word avec Aspose.Words pour .NET en C# – guide complet. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

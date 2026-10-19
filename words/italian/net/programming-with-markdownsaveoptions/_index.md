@@ -34,6 +34,7 @@
 | [Salva docx come markdown – Guida completa C# con estrazione immagini](./save-docx-as-markdown-complete-c-guide-with-image-extraction/) | Impara a convertire file DOCX in Markdown includendo l'estrazione delle immagini con una guida completa in C#. |
 | [Come incorporare immagini in Markdown da DOCX](./how-to-embed-images-in-markdown-from-docx/) | Scopri come incorporare immagini da file DOCX in Markdown mantenendo la qualità e la corretta formattazione. |
 | [Salva immagini Word durante la conversione da Word a Markdown – Guida completa C#](./save-word-images-while-converting-word-to-markdown-complete/) | Impara a estrarre e salvare le immagini da documenti Word durante la conversione in Markdown con una guida completa in C#. |
+| [Salva docx come markdown – Guida completa con equazioni LaTeX](./save-docx-as-markdown-complete-guide-with-latex-equations/) | Impara a convertire file DOCX in Markdown includendo equazioni LaTeX con una guida dettagliata passo‑passo in C#. |
 | [Come esportare Markdown da Word – Guida completa C#](./how-to-export-markdown-from-word-complete-c-guide/) | Scopri come esportare documenti Word in Markdown con una guida completa in C#. |
 | [Come esportare Markdown da DOCX – Guida completa](./how-to-export-markdown-from-docx-complete-guide/) | Scopri come esportare documenti DOCX in Markdown con una guida completa. |
 | [Come salvare Markdown da DOCX – Guida passo‑passo](./how-to-save-markdown-from-docx-step-by-step-guide/) | Scopri come salvare documenti DOCX in Markdown con una guida passo‑passo completa. |
@@ -99,6 +100,7 @@
 | [Crea cartella Assets per la conversione da Word a Markdown](./create-assets-folder-for-convert-word-to-markdown/) | Imposta una cartella Assets per organizzare le risorse durante la conversione di documenti Word in Markdown con Aspose.Words per .NET. |
 | [Salva Word come Markdown – Guida completa con Aspose.Words](./save-word-as-markdown-complete-guide-with-aspose-words/) | Scopri come convertire documenti Word in Markdown con una guida completa usando Aspose.Words per .NET. |
 | [Converti Docx in Markdown con C# – Guida completa di programmazione](./convert-docx-to-markdown-with-c-complete-programming-guide/) | Scopri come convertire file DOCX in Markdown usando C# con una guida completa passo‑passo. |
+| [Cartella immagine personalizzata per l'esportazione Markdown con immagini – Guida completa](./custom-image-folder-for-export-markdown-with-images-complete/) | Imposta una cartella personalizzata per salvare le immagini durante l'esportazione in Markdown con Aspose.Words per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

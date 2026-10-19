@@ -159,6 +159,9 @@
 ### [حفظ Word كـ Markdown – دليل كامل مع Aspose.Words](./save-word-as-markdown-complete-guide-with-aspose-words/)
 ### [تحويل docx إلى markdown باستخدام C# – دليل كامل](./convert-docx-to-markdown-with-c-complete-guide/)
 ### [حفظ DOCX كـ markdown باستخدام Aspose.Words – دليل كامل خطوة بخطوة](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/)
+### [حفظ docx كـ markdown – دليل كامل مع معادلات LaTeX](./save-docx-as-markdown-complete-guide-with-latex-equations/)
+
+### [مجلد صور مخصص لتصدير Markdown مع الصور – دليل كامل](./custom-image-folder-for-export-markdown-with-images-complete/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

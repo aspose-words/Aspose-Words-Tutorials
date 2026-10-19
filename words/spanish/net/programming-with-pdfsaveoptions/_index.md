@@ -91,6 +91,8 @@ Si desea convertir documentos de Word a PDF para distribuirlos en línea, archiv
 | [Guardar documento PDF con sustitución de fuentes en C# – Guía completa](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Aprenda a guardar documentos PDF con sustitución de fuentes usando Aspose.Words para .NET en C# con esta guía completa paso a paso. |
 | [Crear PDF accesible con Aspose.Words – Guía completa](./create-accessible-pdf-with-aspose-words-complete-guide/) | Guía paso a paso para crear PDFs accesibles con Aspose.Words, cumpliendo normas de accesibilidad. |
 | [Crear PDF accesible desde Word usando Aspose.Words](./create-accessible-pdf-from-word-using-aspose-words/) | Aprenda a crear PDFs accesibles desde Word usando Aspose.Words para .NET con esta guía paso a paso. |
+| [Convertir DOCX a PDF con Aspose.Words – Guía completa de programación](./convert-docx-to-pdf-with-aspose-words-complete-programming-g/) | Aprenda a convertir documentos DOCX a PDF usando Aspose.Words con esta guía completa paso a paso. |
+| [Crear PDF accesible desde DOCX – Guía completa de programación](./create-accessible-pdf-from-docx-complete-programming-guide/) | Aprenda a crear PDFs accesibles desde documentos DOCX usando Aspose.Words con esta guía completa paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

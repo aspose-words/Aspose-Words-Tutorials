@@ -66,6 +66,8 @@ In questi tutorial imparerai come utilizzare LoadOptions per caricare documenti 
 | [Apri file Word danneggiato in C# – Guida completa](./open-corrupted-word-file-in-c-complete-guide/) | Scopri come aprire e riparare file Word corrotti in C# con Aspose.Words, passo passo. |
 | [Come utilizzare LoadOptions per rilevare i font mancanti](./how-to-use-loadoptions-to-detect-missing-fonts/) | Scopri come rilevare i font mancanti durante il caricamento dei documenti Word usando LoadOptions di Aspose.Words. |
 | [Ripara docx danneggiato con Aspose.Words – Guida completa C#](./repair-damaged-docx-with-aspose-words-complete-c-guide/) | Scopri come riparare file DOCX danneggiati usando Aspose.Words per .NET con una guida completa passo passo in C#. |
+| [Recupera docx corrotto con Aspose.Words – Guida completa passo‑passo](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Scopri come recuperare file DOCX corrotti usando Aspose.Words per .NET con una guida completa passo passo. |
+| [Abilita avvisi di sostituzione dei font in C# con Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Scopri come abilitare gli avvisi di sostituzione dei font in C# usando Aspose.Words per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

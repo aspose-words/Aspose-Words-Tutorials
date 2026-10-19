@@ -68,6 +68,8 @@ Aspose.Words for .NET 教學課程為希望掌握使用 LoadOptions 進行文字
 | [如何使用 LoadOptions 偵測缺失字體](./how-to-use-loadoptions-to-detect-missing-fonts/) |了解如何使用 Aspose.Words for .NET 的 LoadOptions 偵測缺失字體，確保文件正確顯示。 |
 | [在 C# 中開啟受損的 Word 檔案 – 完整指南](./open-corrupted-word-file-in-c-complete-guide/) |了解如何在 C# 使用 Aspose.Words 完整開啟受損的 Word 檔案並進行復原。 |
 | [使用 Aspose.Words 修復受損的 docx – 完整 C# 指南](./repair-damaged-docx-with-aspose-words-complete-c-guide/) |了解如何使用 Aspose.Words for .NET 在 C# 中完整修復受損的 docx 文件，提供步驟說明與範例程式碼。 |
+| [使用 Aspose.Words 復原受損的 docx – 完整步驟指南](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) |了解如何使用 Aspose.Words for .NET 完整步驟復原受損的 docx 文件，確保資料完整與正確顯示。 |
+| [在 C# 中使用 Aspose.Words 啟用字體替代警告](./enable-font-substitution-warnings-in-c-with-aspose-words/) |了解如何在 C# 使用 Aspose.Words 設定字體替代警告，以便在載入文件時偵測缺失字體。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

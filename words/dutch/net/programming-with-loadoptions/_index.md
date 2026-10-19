@@ -67,6 +67,8 @@ In deze tutorials leert u hoe u LoadOptions kunt gebruiken om Word-documenten me
 | [Configureer documentlaadopties in C# – Complete gids](./configure-document-load-options-in-c-complete-guide/) | Leer hoe u documentlaadopties in C# configureert met Aspose.Words voor .NET in deze volledige gids. |
 | [Open een beschadigd Word‑bestand in C# – Complete gids](./open-corrupted-word-file-in-c-complete-guide/) | Leer stap voor stap hoe u een beschadigd Word‑bestand opent in C# met deze volledige gids. |
 | [Beschadigd docx herstellen met Aspose.Words – Complete C#-gids](./repair-damaged-docx-with-aspose-words-complete-c-guide/) | Volledige C#-handleiding om beschadigde DOCX-bestanden te repareren met Aspose.Words, inclusief codevoorbeelden en herstelstappen. |
+| [Beschadigd docx herstellen met Aspose.Words – Complete stapsgewijze gids](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Leer stap voor stap hoe u een beschadigd DOCX‑bestand kunt herstellen met Aspose.Words voor .NET. |
+| [Waarschuwingen voor lettertypevervanging inschakelen in C# met Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Leer hoe u waarschuwingen voor lettertypevervanging inschakelt in C# met Aspose.Words, zodat ontbrekende of onjuiste lettertypen worden gedetecteerd. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

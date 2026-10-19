@@ -49,6 +49,7 @@ Of u nu Word-documenten naar PDF wilt converteren voor online distributie, archi
 | [Toegankelijke PDF maken in C# – Stapsgewijze handleiding](./create-accessible-pdf-in-c-step-by-step-guide/) | Leer stap voor stap hoe u met Aspose.Words voor .NET een toegankelijke PDF in C# maakt, inclusief tags en PDF/UA‑ondersteuning. |
 | [Word opslaan als PDF met Aspose Words – Complete C#-gids](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Leer hoe u Word-documenten naar PDF converteert met een volledige C#‑handleiding voor Aspose.Words. |
 | [Docx opslaan als pdf met Aspose.Words – Complete C#-gids](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Leer hoe u een DOCX-bestand naar PDF converteert met Aspose.Words in C# met deze volledige stap‑voor‑stap gids. |
+| [DOCX converteren naar PDF met Aspose.Words – Complete programmeergids](./convert-docx-to-pdf-with-aspose-words-complete-programming-g/) | Leer hoe u met Aspose.Words voor .NET een DOCX-bestand volledig naar PDF converteert met een stapsgewijze programmeergids. |
 | [Maak toegankelijke PDF vanuit Word met C# – Stapsgewijze handleiding](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | Leer hoe u met Aspose.Words voor .NET een toegankelijke PDF maakt vanuit een Word-document met C# in een stapsgewijze handleiding. |
 | [Toegankelijke PDF maken in C# – PDF-toegankelijkheidstutorial](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Leer hoe u met Aspose.Words voor .NET een PDF maakt die voldoet aan toegankelijkheidsnormen, inclusief tags, alternatieve tekst en navigatie. |
 | [Maak een toegankelijke PDF vanuit Word – Complete gids](./create-accessible-pdf-from-word-complete-guide/) | Leer hoe u met Aspose.Words voor .NET een toegankelijke PDF maakt vanuit een Word-document, inclusief tags en toegankelijkheidsopties. |
@@ -77,6 +78,7 @@ Of u nu Word-documenten naar PDF wilt converteren voor online distributie, archi
 | [PDF taggen voor toegankelijkheid in C# – Complete gids](./tag-pdf-for-accessibility-in-c-complete-guide/) | Leer hoe u PDF-bestanden tagt voor toegankelijkheid met Aspose.Words voor .NET in C# met deze volledige stap‑voor‑stap gids. |
 | [Hoe PDF exporteren vanuit Word met Aspose – Complete stapsgewijze handleiding](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) | Leer hoe u met Aspose.Words voor .NET een PDF exporteert vanuit een Word-document met een volledige stap‑voor‑stap gids. |
 | [Document PDF opslaan met lettertypevervanging in C# – Complete gids](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Leer hoe u PDF's opslaat met lettertypevervanging in C# met Aspose.Words voor .NET via deze volledige stap‑voor‑stap gids. |
+| [Maak toegankelijke PDF vanuit DOCX – Complete programmeergids](./create-accessible-pdf-from-docx-complete-programming-guide/) | Leer hoe u met Aspose.Words voor .NET een toegankelijke PDF maakt vanuit een DOCX-bestand met een volledige programmeergids. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

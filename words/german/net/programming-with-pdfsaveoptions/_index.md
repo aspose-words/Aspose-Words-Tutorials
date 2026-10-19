@@ -76,6 +76,8 @@ Egal, ob Sie Word-Dokumente für die Online-Verteilung, Archivierung oder den Dr
 | [PDF für Barrierefreiheit taggen in C# – Vollständige Anleitung](./tag-pdf-for-accessibility-in-c-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET PDFs für Barrierefreiheit taggen – komplette Schritt‑für‑Schritt‑Anleitung in C#. |
 | [PDF-Dokument mit Schriftartenersetzung in C# speichern – Vollständige Anleitung](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein PDF-Dokument speichern und dabei fehlende Schriftarten durch Ersatzschriften ersetzen. |
 | [Barrierefreies PDF aus Word mit Aspose.Words erstellen](./create-accessible-pdf-from-word-using-aspose-words/) | Lernen Sie, wie Sie mit Aspose.Words für .NET ein barrierefreies PDF aus einem Word-Dokument generieren. |
+| [DOCX in PDF mit Aspose.Words konvertieren – Vollständige Programmieranleitung](./convert-docx-to-pdf-with-aspose-words-complete-programming-g/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein DOCX-Dokument in ein PDF konvertieren – vollständige Schritt‑für‑Schritt‑Anleitung. |
+| [Barrierefreies PDF aus DOCX erstellen – Vollständige Programmieranleitung](./create-accessible-pdf-from-docx-complete-programming-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein barrierefreies PDF aus einem DOCX-Dokument erstellen – vollständige Programmieranleitung. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

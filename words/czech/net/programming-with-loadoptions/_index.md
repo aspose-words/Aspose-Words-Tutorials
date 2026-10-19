@@ -67,6 +67,8 @@ V těchto tutoriálech se naučíte, jak používat LoadOptions k načítání d
 | [Nastavení možností načítání dokumentu v C# – Kompletní průvodce](./configure-document-load-options-in-c-complete-guide/) | Naučte se, jak nastavit LoadOptions pro načítání dokumentů v C# pomocí Aspose.Words – kompletní průvodce. |
 | [Otevřít poškozený soubor Word v C# – Kompletní průvodce](./open-corrupted-word-file-in-c-complete-guide/) | Kompletní průvodce otevřením poškozených souborů Word v C# pomocí Aspose.Words, včetně nastavení a praktických ukázek. |
 | [Opravit poškozený docx pomocí Aspose.Words – Kompletní průvodce v C#](./repair-damaged-docx-with-aspose-words-complete-c-guide/) | Kompletní průvodce opravou poškozených souborů DOCX pomocí Aspose.Words v C#. |
+| [Obnovit poškozený docx pomocí Aspose.Words – Kompletní průvodce krok za krokem](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Kompletní průvodce obnovou poškozených souborů DOCX pomocí Aspose.Words v .NET. |
+| [Povolit varování o náhradě písma v C# s Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Naučte se, jak v C# povolit varování při náhradě chybějících písem pomocí Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -65,6 +65,8 @@ W tych samouczkach nauczysz się, jak używać LoadOptions do ładowania dokumen
 | [Jak używać LoadOptions do wykrywania brakujących czcionek](./how-to-use-loadoptions-to-detect-missing-fonts/) | Dowiedz się, jak przy pomocy LoadOptions wykrywać i obsługiwać brakujące czcionki w dokumentach Word przy użyciu Aspose.Words dla .NET. |
 | [Otwórz uszkodzony plik Word w C# – Kompletny przewodnik](./open-corrupted-word-file-in-c-complete-guide/) | Dowiedz się, jak otworzyć uszkodzony plik Word w C# i przywrócić jego zawartość przy użyciu Aspose.Words. |
 | [Napraw uszkodzony docx przy użyciu Aspose.Words – Kompletny przewodnik C#](./repair-damaged-docx-with-aspose-words-complete-c-guide/) | Dowiedz się, jak naprawić uszkodzone pliki docx w C# przy użyciu Aspose.Words w pełnym przewodniku krok po kroku. |
+| [Odzyskaj uszkodzony plik docx przy użyciu Aspose.Words – Kompletny przewodnik krok po kroku](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Dowiedz się, jak w kilku prostych krokach odzyskać uszkodzony plik docx przy użyciu Aspose.Words. |
+| [Włącz ostrzeżenia o podstawianiu czcionek w C# z Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Dowiedz się, jak w C# włączyć ostrzeżenia o podstawianiu czcionek przy użyciu Aspose.Words, aby lepiej zarządzać brakującymi czcionkami. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

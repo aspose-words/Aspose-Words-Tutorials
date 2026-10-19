@@ -66,6 +66,8 @@ I dessa handledningar lär du dig hur du använder LoadOptions för att läsa in
 | [Öppna korrupt Word-fil i C# – Komplett guide](./open-corrupted-word-file-in-c-complete-guide/) | Lär dig hur du öppnar och reparerar korrupta Word-filer i C# med Aspose.Words i en komplett steg-för-steg-guide. |
 | [Hur du använder LoadOptions för att upptäcka saknade teckensnitt](./how-to-use-loadoptions-to-detect-missing-fonts/) | Lär dig hur du med LoadOptions identifierar och hanterar saknade teckensnitt i Word-dokument med Aspose.Words för .NET. |
 | [Reparera skadad docx med Aspose.Words – Komplett C#-guide](./repair-damaged-docx-with-aspose-words-complete-c-guide/) | Lär dig hur du reparerar skadade docx-filer med Aspose.Words i C# genom en komplett steg-för-steg-guide. |
+| [Återställ korrupt docx med Aspose.Words – Komplett steg‑för‑steg‑guide](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Lär dig hur du återställer skadade docx-filer med Aspose.Words i en komplett steg‑för‑steg‑guide. |
+| [Aktivera varningar för teckensnittssubstitution i C# med Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Lär dig hur du aktiverar varningar för teckensnittssubstitution i C# med Aspose.Words för att undvika oväntade teckensnitt. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

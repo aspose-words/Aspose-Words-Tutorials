@@ -55,6 +55,7 @@ class Program
 | [Set Ms Word Version](./set-ms-word-version/) | Learn how to set MS Word versions using Aspose.Words for .NET with our detailed guide. Perfect for developers looking to streamline document manipulation. |
 | [Use Temp Folder In Word Document](./use-temp-folder/) | Learn how to enhance the performance of your .NET applications by using a temporary folder while loading Word documents with Aspose.Words. |
 | [Warning Callback In Word Document](./warning-callback/) | Learn how to catch and handle warnings in Word documents using Aspose.Words for .NET with our step-by-step guide. Ensure robust document processing. |
+| [Enable Font Substitution Warnings in C# with Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Learn how to enable font substitution warnings in C# using Aspose.Words to monitor missing fonts during document loading. |
 | [Load With Encoding In Word Document](./load-with-encoding/) | Learn how to load a Word document with specific encoding using Aspose.Words for .NET. Step-by-step guide with detailed explanations. |
 | [Skip Pdf Images](./skip-pdf-images/) | Learn how to skip images when loading PDF documents using Aspose.Words for .NET. Follow this step-by-step guide for seamless text extraction. |
 | [Convert Metafiles To Png](./convert-metafiles-to-png/) | Easily convert metafiles to PNG in Word documents using Aspose.Words for .NET with this step-by-step tutorial. Simplify your document management. |
@@ -95,6 +96,7 @@ class Program
 | [How to Use LoadOptions to Detect Missing Fonts](./how-to-use-loadoptions-to-detect-missing-fonts/) | Learn how to detect missing fonts during document loading using LoadOptions in Aspose.Words for .NET. |
 | [Open Corrupted Word File in C# – Complete Guide](./open-corrupted-word-file-in-c-complete-guide/) | Learn how to open corrupted Word files in C# using Aspose.Words with a step-by-step complete guide. |
 | [Repair damaged docx with Aspose.Words – Complete C# Guide](./repair-damaged-docx-with-aspose-words-complete-c-guide/) | Step-by-step guide to repair damaged DOCX files using Aspose.Words for .NET in C#. |
+| [Recover corrupted docx with Aspose.Words – Complete Step‑by‑Step Guide](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Learn how to recover corrupted DOCX files using Aspose.Words for .NET with a complete step-by-step guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

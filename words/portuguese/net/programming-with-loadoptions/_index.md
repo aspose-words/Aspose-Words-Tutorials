@@ -66,6 +66,8 @@ Nestes tutoriais, você aprenderá a usar LoadOptions para carregar documentos d
 | [Configurar opções de carregamento de documento em C# – Guia completo](./configure-document-load-options-in-c-complete-guide/) | Aprenda a configurar opções de carregamento de documentos no Aspose.Words para .NET usando C#. Guia passo a passo completo. |
 | [Abrir arquivo Word corrompido em C# – Guia completo](./open-corrupted-word-file-in-c-complete-guide/) | Aprenda a abrir arquivos Word corrompidos em C# usando Aspose.Words, com etapas detalhadas e dicas de recuperação. |
 | [Reparar docx danificado com Aspose.Words – Guia completo em C#](./repair-damaged-docx-with-aspose-words-complete-c-guide/) | Aprenda a reparar arquivos DOCX corrompidos usando Aspose.Words em C# com este guia completo passo a passo. |
+| [Recuperar docx corrompido com Aspose.Words – Guia completo passo a passo](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Aprenda a recuperar arquivos DOCX corrompidos usando Aspose.Words com um guia completo passo a passo. |
+| [Habilitar avisos de substituição de fontes em C# com Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Aprenda a habilitar avisos de substituição de fontes ao carregar documentos Word usando Aspose.Words para .NET em C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
