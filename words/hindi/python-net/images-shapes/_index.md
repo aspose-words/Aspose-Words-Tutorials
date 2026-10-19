@@ -52,6 +52,9 @@ Python के साथ Aspose.Words का उपयोग करके Word �
 ### [छाया वाले आयत के साथ दस्तावेज़ को सहेजना – पूर्ण पायथन गाइड](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
 Python के साथ Aspose.Words का उपयोग करके छाया वाले आयत के साथ दस्तावेज़ को सहेजने की पूरी प्रक्रिया सीखें।
 
+### [Python में आयताकार आकार बनाना – पूर्ण Aspose.Words गाइड](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
+Python के लिए Aspose.Words का उपयोग करके आयताकार आकार कैसे बनाएं और अनुकूलित करें, इस पूर्ण गाइड में सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [पायथन-नेट दस्तावेज़ीकरण के लिए Aspose.Words](https://docs.aspose.com/words/python-net/)

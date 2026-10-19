@@ -91,6 +91,10 @@
 تعلم كيفية تحويل ملفات docx إلى PDF بسهولة باستخدام Aspose.Words في بايثون خطوة بخطوة.
 ### [تصدير Word إلى Markdown – دليل كامل مع استخراج الصور في بايثون](./export-word-to-markdown-full-guide-with-image-extraction-in/)
 تعلم كيفية تصدير مستندات Word إلى صيغة Markdown مع استخراج الصور باستخدام Aspose.Words لبايثون.
+### [حفظ DOCX كـ TXT – دليل كامل لتصدير معادلات Word](./save-docx-as-txt-complete-guide-to-export-word-equations/)
+تعلم كيفية حفظ مستندات DOCX كملفات TXT وتصدير معادلات Word باستخدام Aspose.Words لبايثون.
+### [استعادة DOCX التالف وتحويله إلى PDF باستخدام Aspose.Words (Python)](./recover-corrupted-docx-and-convert-to-pdf-with-aspose-words/)
+تعلم كيفية إصلاح ملفات DOCX التالفة وتحويلها إلى PDF باستخدام Aspose.Words لبايثون.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

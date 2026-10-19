@@ -93,6 +93,12 @@ Apprenez à enregistrer vos documents Word au format Markdown facilement avec As
 Apprenez à convertir vos fichiers DOCX en PDF facilement avec Aspose.Words grâce à ce guide étape par étape.
 ### [Exporter Word en Markdown – Guide complet avec extraction d'images en Python](./export-word-to-markdown-full-guide-with-image-extraction-in/)
 Apprenez à exporter vos documents Word au format Markdown tout en extrayant les images avec Aspose.Words pour Python.
+### [Enregistrer un DOCX en TXT – Guide complet pour exporter les équations Word](./save-docx-as-txt-complete-guide-to-export-word-equations/)
+Apprenez à extraire le texte et les équations d'un document Word et à les enregistrer au format TXT avec Aspose.Words pour Python.
+### [Enregistrer Word en PDF – Générer un PDF/A‑2U accessible avec Aspose.Words](./save-word-as-pdf-generate-accessible-pdf-a-2u-with-aspose-wo/)
+Apprenez à convertir un document Word en PDF/A‑2U accessible avec Aspose.Words pour Python.
+### [Récupérer un DOCX corrompu et le convertir en PDF – Guide complet Python](./recover-corrupted-docx-and-convert-to-pdf-with-aspose-words/)
+Apprenez à réparer les fichiers DOCX corrompus et à les convertir en PDF avec Aspose.Words pour Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

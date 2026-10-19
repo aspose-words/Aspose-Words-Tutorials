@@ -119,6 +119,12 @@ Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang PDF bằng Aspos
 ### [Xuất Word sang Markdown – Hướng dẫn đầy đủ với trích xuất hình ảnh trong Python](./export-word-to-markdown-full-guide-with-image-extraction-in/)
 Hướng dẫn chi tiết cách xuất tài liệu Word thành Markdown, đồng thời trích xuất hình ảnh, sử dụng Aspose.Words cho Python.
 
+### [Khôi phục DOCX bị hỏng và Chuyển sang PDF với Aspose.Words (Python)](./recover-corrupted-docx-and-convert-to-pdf-with-aspose-words/)
+Hướng dẫn chi tiết cách khôi phục tệp DOCX hỏng và chuyển đổi sang PDF bằng Aspose.Words cho Python.
+
+### [Lưu docx thành txt – Hướng dẫn đầy đủ xuất công thức Word](./save-docx-as-txt-complete-guide-to-export-word-equations/)
+Hướng dẫn chi tiết cách lưu tài liệu Word (docx) thành tệp txt, bao gồm việc xuất các công thức Word một cách chính xác.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -76,6 +76,9 @@ Steg-för-steg-guide för att återställa skadade DOCX-filer med Aspose.Words i
 ### [Återställ korrupt DOCX – Komplett guide för att öppna Word-filer med Aspose](./recover-corrupted-docx-complete-guide-to-opening-word-files/)
 Lär dig steg-för-steg hur du reparerar och öppnar skadade DOCX-filer med Aspose.Words för Python-net.
 
+    ### [Återställ korrupta DOCX-filer i Python – En komplett guide](./recover-corrupted-docx-files-in-python-complete-guide/)
+Lär dig hur du reparerar och återställer skadade DOCX-filer med Aspose.Words för Python på ett enkelt sätt.
+
 ## Ytterligare resurser
 
 - [Aspose.Words för Python-net-dokumentation](https://docs.aspose.com/words/python-net/)

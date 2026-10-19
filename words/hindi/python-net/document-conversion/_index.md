@@ -116,6 +116,11 @@ Aspose.Words का उपयोग करके docx फ़ाइल को PDF
 
 ### [वर्ड को मार्कडाउन में निर्यात – छवि निष्कर्षण के साथ पूर्ण गाइड (Python)](./export-word-to-markdown-full-guide-with-image-extraction-in/)
 Python में Aspose.Words का उपयोग करके वर्ड को मार्कडाउन में निर्यात करें और छवियों को निकालें। पूर्ण चरण‑दर‑चरण मार्गदर्शन।
+### [DOCX को TXT के रूप में सहेजें – वर्ड समीकरण निर्यात के लिए पूर्ण गाइड](./save-docx-as-txt-complete-guide-to-export-word-equations/)
+DOCX फ़ाइलों को TXT में बदलें और वर्ड समीकरणों को निर्यात करने की पूरी प्रक्रिया सीखें।
+
+### [दोषग्रस्त DOCX को पुनर्प्राप्त करें और Aspose.Words (Python) के साथ PDF में परिवर्तित करें](./recover-corrupted-docx-and-convert-to-pdf-with-aspose-words/)
+दोषग्रस्त DOCX फ़ाइलों को ठीक करें और उन्हें Aspose.Words for Python का उपयोग करके PDF में बदलें। चरण-दर-चरण मार्गदर्शन।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

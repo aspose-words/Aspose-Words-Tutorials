@@ -118,6 +118,15 @@ Aspose.Words를 활용해 docx 파일을 PDF로 변환하는 방법을 단계별
 ### [Python을 사용한 Word를 Markdown으로 내보내기 – 이미지 추출 포함 완전 가이드](./export-word-to-markdown-full-guide-with-image-extraction-in/)
 Python으로 Word 문서를 Markdown으로 변환하고 이미지도 추출하는 방법을 단계별로 안내합니다.
 
+### [손상된 DOCX 복구 및 PDF로 변환 (Python)](./recover-corrupted-docx-and-convert-to-pdf-with-aspose-words/)
+Aspose.Words와 Python을 사용해 손상된 DOCX 파일을 복구하고 PDF로 변환하는 방법을 단계별로 안내합니다.
+
+### [DOCX를 TXT로 저장 – Word 수식 내보내기 완전 가이드](./save-docx-as-txt-complete-guide-to-export-word-equations/)
+DOCX 파일을 텍스트 파일로 변환하고 Word 수식을 추출하는 방법을 단계별로 안내합니다.
+
+### [Word를 PDF로 저장 – Aspose.Words로 접근성 있는 PDF/A‑2U 생성](./save-word-as-pdf-generate-accessible-pdf-a-2u-with-aspose-wo/)
+Aspose.Words를 사용해 Word 문서를 PDF/A‑2U 형식으로 변환하여 접근성을 보장하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

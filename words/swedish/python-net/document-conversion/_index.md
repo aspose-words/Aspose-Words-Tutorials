@@ -93,6 +93,11 @@ Lär dig hur du sparar Word-dokument som Markdown med Aspose.Words. Steg-för-st
 Lär dig hur du konverterar DOCX-filer till PDF med Aspose.Words i en detaljerad steg‑för‑steg‑guide.
 ### [Exportera Word till Markdown – Fullständig guide med bildextraktion i Python](./export-word-to-markdown-full-guide-with-image-extraction-in/)
 Lär dig hur du exporterar Word-dokument till Markdown och extraherar bilder med Aspose.Words för Python.
+### [Återställ korrupt DOCX och konvertera till PDF med Aspose.Words (Python)](./recover-corrupted-docx-and-convert-to-pdf-with-aspose-words/)
+Lär dig hur du återställer korrupta DOCX-filer och konverterar dem till PDF med Aspose.Words för Python.
+### [Spara DOCX som TXT – Komplett guide för att exportera Word‑ekvationer](./save-docx-as-txt-complete-guide-to-export-word-equations/)
+Lär dig hur du sparar DOCX-filer som TXT och exporterar Word‑ekvationer med Aspose.Words för Python. Steg‑för‑steg‑instruktioner och kodexempel.
+### [Spara Word som PDF – Generera tillgänglig PDF/A‑2U med Aspose.Words](./save-word-as-pdf-generate-accessible-pdf-a-2u-with-aspose-wo/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

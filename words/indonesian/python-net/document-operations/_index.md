@@ -78,6 +78,8 @@ Pelajari cara memulihkan file DOCX yang rusak di Python dengan memuat dokumen me
 Pelajari cara memulihkan file DOCX yang rusak secara menyeluruh dengan Aspose.Words untuk Python.
 ### [Pulihkan DOCX Rusak – Panduan Lengkap Membuka File Word dengan Aspose](./recover-corrupted-docx-complete-guide-to-opening-word-files/)
 Pelajari cara membuka dan memperbaiki file DOCX yang rusak menggunakan Aspose.Words untuk Python-net.
+### [Pulihkan File DOCX Rusak di Python – Panduan Lengkap](./recover-corrupted-docx-files-in-python-complete-guide/)
+Pelajari cara memulihkan file DOCX yang rusak dengan Aspose.Words untuk Python melalui panduan langkah demi langkah yang lengkap.
 
 ## Sumber Daya Tambahan
 

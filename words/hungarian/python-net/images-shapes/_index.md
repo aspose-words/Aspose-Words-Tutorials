@@ -51,6 +51,8 @@ Tanuld meg, hogyan adhatsz árnyékot alakzatokhoz Pythonban az Aspose.Words seg
 Tanulja meg, hogyan menthet el egy Word dokumentumot árnyékolt téglalappal a Python‑net és az Aspose.Words segítségével.
 ### [Téglalap alakzat létrehozása Pythonban – Aspose.Words oktatóanyag](./create-rectangle-shape-in-python-aspose-words-tutorial/)
 Tanulja meg, hogyan hozhat létre téglalap alakzatot a Word dokumentumokban a Python és az Aspose.Words segítségével.
+### [Téglalap alakzat létrehozása Pythonban – Teljes Aspose.Words útmutató](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
+Tanuld meg, hogyan hozhatsz létre téglalap alakzatot a Word dokumentumokban Python és Aspose.Words használatával.
 
 ## További források
 

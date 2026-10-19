@@ -51,6 +51,8 @@
 Μάθετε πώς να αποθηκεύσετε ένα έγγραφο Word με ορθογώνιο που έχει σκιά, χρησιμοποιώντας το Aspose.Words για Python‑net.
 ### [Δημιουργία σχήματος ορθογωνίου σε Python – Οδηγός Aspose.Words](./create-rectangle-shape-in-python-aspose-words-tutorial/)
 Μάθετε πώς να δημιουργήσετε και να προσαρμόσετε σχήμα ορθογωνίου σε έγγραφα Word χρησιμοποιώντας Aspose.Words για Python.
+### [Δημιουργία Σχήματος Ορθογωνίου σε Python – Πλήρης Οδηγός Aspose.Words](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
+Μάθετε πώς να δημιουργήσετε σχήμα ορθογωνίου σε έγγραφα Word χρησιμοποιώντας Aspose.Words για Python.
 
 ## Πρόσθετοι Πόροι
 

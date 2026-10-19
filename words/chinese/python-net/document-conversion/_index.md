@@ -116,6 +116,11 @@
 
 ### [使用 Aspose.Words 将 Word 导出为 Markdown – 完整指南（含图片提取）](./export-word-to-markdown-full-guide-with-image-extraction-in/)
 学习使用 Aspose.Words for Python 将 Word 文档导出为 Markdown，并提取其中的图片，实现完整的内容转换。
+### [将 docx 保存为 txt – 导出 Word 公式的完整指南](./save-docx-as-txt-complete-guide-to-export-word-equations/)
+学习使用 Aspose.Words for Python 将 docx 文档导出为 txt，完整提取 Word 中的公式，实现高效转换。
+
+### [使用 Aspose.Words (Python) 恢复损坏的 DOCX 并转换为 PDF](./recover-corrupted-docx-and-convert-to-pdf-with-aspose-words/)
+学习使用 Aspose.Words for Python 恢复损坏的 DOCX 文件并将其转换为 PDF，实现高效文档修复与转换。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

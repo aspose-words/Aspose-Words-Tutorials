@@ -51,6 +51,8 @@
 เรียนรู้วิธีบันทึกเอกสาร Word พร้อมสี่เหลี่ยมเงาโดยใช้ Aspose.Words สำหรับ Python อย่างละเอียด
 ### [สร้างรูปสี่เหลี่ยมใน Python – บทแนะนำ Aspose.Words](./create-rectangle-shape-in-python-aspose-words-tutorial/)
 เรียนรู้วิธีสร้างและกำหนดรูปสี่เหลี่ยมในเอกสาร Word ด้วย Aspose.Words สำหรับ Python
+### [สร้างรูปสี่เหลี่ยมใน Python – คู่มือ Aspose.Words ฉบับสมบูรณ์](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
+เรียนรู้วิธีสร้างรูปสี่เหลี่ยมในเอกสาร Word ด้วย Python และ Aspose.Words อย่างละเอียด
 
 ## แหล่งข้อมูลเพิ่มเติม
 

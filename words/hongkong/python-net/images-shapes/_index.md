@@ -55,6 +55,9 @@ Aspose.Words Python-net 教程中的「圖像和形狀」類別旨在幫助開�
     ### [在 Python 中建立矩形形狀 – Aspose.Words 教程](./create-rectangle-shape-in-python-aspose-words-tutorial/)
     了解如何使用 Aspose.Words for Python 在 Word 文件中插入矩形形狀的步驟與程式碼示例。
 
+    ### [在 Python 中建立矩形形狀 – 完整 Aspose.Words 指南](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
+了解如何使用 Aspose.Words for Python 在 Word 文檔中插入和自訂矩形形狀的完整步驟。
+
 ## 其他資源
 
 - [Aspose.Words for Python-net 文檔](https://docs.aspose.com/words/python-net/)

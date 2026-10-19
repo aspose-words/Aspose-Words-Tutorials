@@ -53,6 +53,8 @@ Lär dig steg för steg hur du sparar ett Word-dokument med en skuggad rektangel
 
 ### [Skapa rektangelform i Python – Aspose.Words-handledning](./create-rectangle-shape-in-python-aspose-words-tutorial/)
 Lär dig hur du skapar och anpassar en rektangelform i ett Word-dokument med Aspose.Words för Python.
+### [Skapa rektangelform i Python – Komplett Aspose.Words-guide](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
+Lär dig hur du skapar och anpassar en rektangel i Word-dokument med Aspose.Words för Python.
 
 ## Ytterligare resurser
 
