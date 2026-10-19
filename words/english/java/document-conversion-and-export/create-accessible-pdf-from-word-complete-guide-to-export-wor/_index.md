@@ -40,7 +40,7 @@ tags:
 - PDF
 - Word
 - Accessibility
-title: Create Accessible PDF from Word with Aspose.Words – Complete Guide to Export Word to PDF
+title: Create Accessible PDF with Aspose.Words for Java – Complete Guide to Export Word to PDF
 url: /java/document-conversion-and-export/create-accessible-pdf-from-word-complete-guide-to-export-wor/
 ---
 
@@ -247,11 +247,12 @@ Got questions about a specific edge case? Feel free to drop a comment—happy co
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Create Accessible PDF from Word – Complete Guide](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
-- [Create Accessible PDF from Word with C# – Step‑by‑Step Guide](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/)
-- [Create Accessible PDF from Word – Convert to PDF/UA](/words/english/java/document-conversion-and-export/create-accessible-pdf-from-word-convert-to-pdf-ua/)
+- [Create Accessible PDF from Word – Complete Guide]({{< relref "words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/" >}})
+- [Create Accessible PDF from Word with C# – Step‑by‑Step Guide]({{< relref "words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-with-c-step-by-step-guide/" >}})
+- [Create Accessible PDF from Word – Convert to PDF/UA]({{< relref "words/english/java/document-conversion-and-export/create-accessible-pdf-from-word-convert-to-pdf-ua/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}

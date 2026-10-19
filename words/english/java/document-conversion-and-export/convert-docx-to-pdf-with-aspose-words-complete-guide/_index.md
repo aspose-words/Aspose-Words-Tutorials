@@ -47,7 +47,7 @@ tags:
 - Aspose.Words
 - PDF conversion
 - Java
-title: How to Convert DOCX to PDF with Aspose.Words – Complete Guide
+title: Convert DOCX to PDF with Aspose.Words – Complete Guide
 url: /java/document-conversion-and-export/convert-docx-to-pdf-with-aspose-words-complete-guide/
 ---
 
@@ -55,7 +55,7 @@ url: /java/document-conversion-and-export/convert-docx-to-pdf-with-aspose-words-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Convert DOCX to PDF with Aspose.Words – Complete Guide
+# Convert DOCX to PDF with Aspose.Words – Complete Guide
 
 Ever wondered how to **convert DOCX to PDF** without losing those tricky floating shapes? You’re not the only one. In many projects—think automated report generators or batch‑processing pipelines—getting a clean PDF out of a Word file is a daily headache.
 
@@ -220,16 +220,16 @@ Next steps? Try experimenting with additional `PdfSaveOptions` such as `setCompl
 
 Got questions about handling special cases, or want to share your own tweaks? Drop a comment below—happy coding!
 
-
 ## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Convert Word to PDF with Aspose.Words for Java](/words/english/java/document-converting/)
-- [How to Convert Word to PDF Using Aspose.Words for Java](/words/english/java/document-converting/using-document-converting/)
-- [How to save document as pdf with Aspose.Words for Java](/words/english/java/document-loading-and-saving/saving-documents-as-pdf/)
+- [Convert Word to PDF with Aspose.Words for Java]({{< relref "../document-converting/_index.md" >}})
+- [How to Convert Word to PDF Using Aspose.Words for Java]({{< relref "../document-converting/using-document-converting/_index.md" >}})
+- [How to save document as pdf with Aspose.Words for Java]({{< relref "../document-loading-and-saving/saving-documents-as-pdf/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}

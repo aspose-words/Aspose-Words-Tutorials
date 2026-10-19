@@ -1,5 +1,5 @@
 ---
-title: "How to Integrate AI with Aspose.Words for Java for Smart Document Processing"
+title: "How to Integrate AI with Aspose.Words API for Java for Smart Document Processing"
 description: "Learn how to integrate AI for smart document processing using Aspose.Words for Java. Discover AI document automation, content generation, and translation."
 weight: 20
 url: "/java/ai-machine-learning-integration/"
@@ -71,13 +71,13 @@ Export the enriched document to the format you need—PDF, DOCX, HTML, or even E
 
 ## Available Tutorials
 
-### [Master text processing in java: using Aspose.Words & AI models for summarization and translation](./java-aspose-words-text-processing/)
+### {{< relref "java-aspose-words-text-processing" >}}
 Learn how to automate text summarization and translation using Aspose.Words for Java with OpenAI's GPT‑4 and Google's Gemini. Enhance your Java applications today.
 
-### [How to Check Grammar in Java Documents – Complete Programming Guide](./how-to-check-grammar-in-java-documents-complete-programming/)
+### {{< relref "how-to-check-grammar-in-java-documents-complete-programming" >}}
 Learn how to integrate grammar checking into Java documents using Aspose.Words and AI services for accurate, automated proofreading.
 
-### [Summarize word document in java with self‑Hosted AI – full guide](./summarize-word-document-in-java-with-self-hosted-ai-full-gui/)
+### {{< relref "summarize-word-document-in-java-with-self-hosted-ai-full-gui" >}}
 Learn how to use a self‑hosted AI model to generate summaries of Word documents in Java with Aspose.Words.
 
 ## Additional Resources
@@ -112,10 +112,10 @@ A: For most use cases, pre‑trained models work well. If you need higher accura
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
 
 ---
 

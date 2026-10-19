@@ -1,6 +1,6 @@
 ---
-title: Save Images from Word using Aspose.Words for Java API
-linktitle: Save Images from Word using Aspose.Words for Java API
+title: Extract and Save Images from Word Documents using Aspose.Words for Java API
+linktitle: Extract and Save Images from Word Documents using Aspose.Words for Java API
 second_title: Aspose.Words Java Document Processing API
 description: Learn how to save images from Word documents and efficiently load and save files using Aspose.Words for Java. Includes save pdf java, convert word html java, and more.
 weight: 20
@@ -131,7 +131,7 @@ Learn how to save documents in OOXML format with Aspose.Words for Java. Secure, 
 Learn how to save documents in PCL format using Aspose.Words for Java. Step-by-step guide and code examples for efficient document conversion.
 
 ### [Saving Documents as PDF in Aspose.Words for Java]({{< relref "saving-documents-as-pdf/_index.md" >}})
-Learn how to save Word documents as PDF using Aspose.Words for Java. Customize fonts, properties, and image quality. A comprehensive guide for PDF conversion.
+Learn how to convert Word documents to PDF using Aspose.Words for Java. Customize fonts, properties, and image quality. A comprehensive guide for PDF conversion.
 
 ### [Saving Documents as RTF Format in Aspose.Words for Java]({{< relref "saving-documents-as-rtf-format/_index.md" >}})
 Learn how to save documents as RTF format using Aspose.Words for Java. Step-by-step guide with source code for efficient document conversion.
@@ -176,7 +176,7 @@ Learn how to capture and handle font substitution warnings in Java using Aspose.
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

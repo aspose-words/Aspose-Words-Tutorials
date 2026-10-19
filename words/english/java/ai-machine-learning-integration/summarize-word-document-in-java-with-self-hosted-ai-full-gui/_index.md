@@ -52,7 +52,7 @@ tags:
 - AI
 - Aspose.Words
 - Document Summarization
-title: Generate Summary of Word Document in Java with Self‑Hosted AI – Full Guide
+title: Summarize Word Document with Aspose.Words for Java using Self‑Hosted AI – Full Guide
 url: /java/ai-machine-learning-integration/summarize-word-document-in-java-with-self-hosted-ai-full-gui/
 ---
 
@@ -282,9 +282,9 @@ Putting all the
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Aspose.Words Java: Comprehensive Guide to Word Document Processing](/words/english/java/document-operations/aspose-words-java-master-word-processing/)
-- [How to Load HTML and Save as DOCX using Aspose.Words for Java](/words/english/java/document-loading-and-saving/loading-and-saving-html-documents/)
-- [How to Convert Word to PDF Using Aspose.Words for Java](/words/english/java/document-converting/using-document-converting/)
+- [Aspose.Words Java: Comprehensive Guide to Word Document Processing]({{< relref "words/english/java/document-operations/aspose-words-java-master-word-processing/_index.md" >}})
+- [How to Load HTML and Save as DOCX using Aspose.Words for Java]({{< relref "words/english/java/document-loading-and-saving/loading-and-saving-html-documents/_index.md" >}})
+- [How to Convert Word to PDF Using Aspose.Words for Java]({{< relref "words/english/java/document-converting/using-document-converting/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

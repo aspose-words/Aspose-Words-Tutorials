@@ -25,7 +25,7 @@ tags:
 - Java
 - Aspose.Words
 - DocumentRecovery
-title: Recover Corrupted DOCX Files with Aspose.Words – Complete Java Guide
+title: Recover Corrupted DOCX Files with Aspose.Words – Set Recovery Mode, Check Document Recovered, Detect Recovery – Complete Java Guide
 url: /java/document-loading-and-saving/recover-corrupted-docx-files-complete-java-guide/
 ---
 
@@ -33,7 +33,7 @@ url: /java/document-loading-and-saving/recover-corrupted-docx-files-complete-jav
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Recover Corrupted DOCX Files with Aspose.Words – Complete Java Guide
+# Recover Corrupted DOCX Files with Aspose.Words – Set Recovery Mode, Check Document Recovered, Detect Recovery – Complete Java Guide
 
 Ever needed to **recover corrupted DOCX** files but weren’t sure which API settings to tweak? You’re not alone—office documents get damaged far more often than we’d like to admit, and a broken .docx can halt an entire workflow. The good news? With a few lines of Java you can tell Aspose.Words to attempt a repair, verify the result, and even detect when recovery has taken place.
 
@@ -238,13 +238,14 @@ That’s the whole story on how to **recover corrupted docx** files in Java. Got
 
 ## What should you learn next?
 
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Recover corrupted docx – Complete Guide to Fix and Process Documents](/words/english/java/document-loading-and-saving/recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
-- [Aspose.Words Java: Document Conversion & Security for ODT Files](/words/english/java/document-operations/aspose-words-java-document-conversion-security/)
-- [Aspose Words Java Document Signing Tutorial](/words/english/java/mail-merge-reporting/aspose-words-java-document-signing-tutorial/)
+- [Recover corrupted docx – Complete Guide to Fix and Process Documents]({{< relref "/words/english/java/document-loading-and-saving/recover-corrupted-docx-complete-guide-to-fix-and-process-doc/" >}})
+- [Aspose.Words Java: Document Conversion & Security for ODT Files]({{< relref "/words/english/java/document-operations/aspose-words-java-document-conversion-security/" >}})
+- [Aspose Words Java Document Signing Tutorial]({{< relref "/words/english/java/mail-merge-reporting/aspose-words-java-document-signing-tutorial/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}

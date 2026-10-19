@@ -43,7 +43,7 @@ tags:
 - Java
 - AI
 - Text Processing
-title: How to Check Grammar in Java Documents with Aspose.Words for Java – Complete Programming Guide
+title: How to Check Grammar in Java Documents Using Aspose.Words for Java API – Complete Programming Guide
 url: /java/ai-machine-learning-integration/how-to-check-grammar-in-java-documents-complete-programming/
 ---
 
@@ -256,11 +256,11 @@ Got a question about handling multilingual docs or customizing the error message
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- {{< relref "words/english/java/document-manipulation/extracting-content-from-documents/_index.md" >}}How to Extract Text Using Aspose.Words for Java{{< /relref >}}
-- {{< relref "words/english/java/document-loading-and-saving/loading-and-saving-html-documents/_index.md" >}}How to Load HTML and Save as DOCX using Aspose.Words for Java{{< /relref >}}
-- {{< relref "words/english/java/document-loading-and-saving/saving-documents-as-pdf/_index.md" >}}How to save document as pdf with Aspose.Words for Java{{< /relref >}}
+- [How to Extract Text Using Aspose.Words for Java]([{{< relref "words/english/java/document-manipulation/extracting-content-from-documents/_index.md" >}}]])
+- [How to Load HTML and Save as DOCX using Aspose.Words for Java]([{{< relref "words/english/java/document-loading-and-saving/loading-and-saving-html-documents/_index.md" >}}]])
+- [How to save document as pdf with Aspose.Words for Java]([{{< relref "words/english/java/document-loading-and-saving/saving-documents-as-pdf/_index.md" >}}]])
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

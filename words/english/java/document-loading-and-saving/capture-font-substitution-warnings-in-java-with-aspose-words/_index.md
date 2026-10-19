@@ -41,7 +41,7 @@ tags:
 - Aspose.Words
 - Java
 - Document Conversion
-title: Capture Font Substitution Warnings in Java Using Aspose.Words API – Complete Guide
+title: Capture Font Substitution Warnings in Java with Aspose.Words for Java – Complete Guide
 url: /java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/
 ---
 
@@ -49,7 +49,7 @@ url: /java/document-loading-and-saving/capture-font-substitution-warnings-in-jav
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Capture Font Substitution Warnings in Java Using Aspose.Words API – Complete Guide
+# Capture Font Substitution Warnings in Java with Aspose.Words for Java – Complete Guide
 
 Ever needed to **capture font substitution warnings** while loading a DOCX that uses exotic typefaces? You're not the only one. In many real‑world projects—think automated report generators or batch document converters—missing fonts trigger silent substitutions that can ruin layout fidelity.  
 
@@ -229,9 +229,9 @@ Happy coding, and may your PDFs never suffer from unexpected font swaps again!
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Enable Font Substitution Warnings in Aspose.Words – Complete Guide](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
-- [How to Set LoadOptions in Aspose.Words for Java](/words/english/java/document-loading-and-saving/using-load-options/)
-- [How to Create PDF Documents with Aspose.Words for Java | Document Processing API](/words/english/java/)
+- [Enable Font Substitution Warnings in Aspose.Words – Complete Guide]({{< relref "words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g" >}})
+- [How to Set LoadOptions in Aspose.Words for Java]({{< relref "words/english/java/document-loading-and-saving/using-load-options" >}})
+- [How to Create PDF Documents with Aspose.Words for Java | Document Processing API]({{< relref "words/english/java" >}})
 
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -49,7 +49,7 @@ tags:
 - Aspose.Words
 - Java
 - Document Automation
-title: Configure Shape Blur Radius in Aspose.Words for Java – Complete Guide
+title: Configure Shape Blur Radius with Aspose.Words for Java using setBlurRadius – Complete Guide
 url: /java/images-shapes/configure-shape-blur-radius-in-java-complete-guide/
 ---
 
@@ -252,15 +252,13 @@ Got a scenario that isn’t covered here? Drop a comment or check the Aspose.Wor
 
 ## What should you learn next?
 
-
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
 - [Create Word Document Java – Add Rectangle Shape with Shadow Effect]({{< relref "words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef" >}})
 - [Using Document Options and Settings in Aspose.Words for Java]({{< relref "words/english/java/document-manipulation/using-document-options-and-settings" >}})
 - [How to Convert Word to PDF Using Aspose.Words for Java]({{< relref "words/english/java/document-converting/using-document-converting" >}})
 
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}

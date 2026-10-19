@@ -26,7 +26,7 @@ tags:
 - DOCX
 - PNG
 - Image conversion
-title: Convert DOCX to PNG with Aspose.Words – Complete Java Guide with Grid Layout
+title: Convert DOCX to PNG with Aspose.Words for Java – Complete Guide with Grid Layout
 url: /java/document-conversion-and-export/convert-docx-to-png-complete-java-guide-with-grid-layout/
 ---
 
@@ -249,6 +249,6 @@ The following tutorials cover closely related topics that build on the technique
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

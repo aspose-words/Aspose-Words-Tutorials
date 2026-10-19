@@ -247,11 +247,12 @@ If you run into any hiccups, remember to double‑check the Maven coordinates an
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Convert Word to PDF with Aspose.Words for Java](/words/english/java/document-converting/)
-- [How to Convert Word to PDF Using Aspose.Words for Java](/words/english/java/document-converting/using-document-converting/)
-- [Convert HTML to DOCX with Aspose.Words for Java](/words/english/java/document-converting/converting-html-documents/)
+- [Convert Word to PDF with Aspose.Words for Java]({{< relref "words/english/java/document-converting/_index.md" >}})
+- [How to Convert Word to PDF Using Aspose.Words for Java]({{< relref "words/english/java/document-converting/using-document-converting/_index.md" >}})
+- [Convert HTML to DOCX with Aspose.Words for Java]({{< relref "words/english/java/document-converting/converting-html-documents/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}

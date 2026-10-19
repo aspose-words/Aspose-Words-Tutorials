@@ -13,7 +13,7 @@ keywords:
 language: en
 og_description: Modify font style in Word documents with Aspose.Words using C#. Discover how to set font
   weight, set bold weight, and adjust font width in a few easy steps.
-og_title: Modify Font Style in Word Documents with Aspose.Words – Complete C# Guide
+og_title: Set Font Weight and Adjust Font Width in Word Documents with Aspose.Words – Complete C# Guide
 schemas:
 - author: Aspose
   dateModified: '2026-06-27'
@@ -48,7 +48,7 @@ tags:
 - C#
 - Aspose.Words
 - typography
-title: Modify Font Style in Word Documents with Aspose.Words – Complete C# Guide
+title: Set Font Weight and Adjust Font Width in Word Documents with Aspose.Words – Complete C# Guide
 url: /java/document-styling/change-font-style-in-word-documents-complete-c-guide/
 ---
 
@@ -56,11 +56,11 @@ url: /java/document-styling/change-font-style-in-word-documents-complete-c-guide
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Modify Font Style in Word Documents with Aspose.Words – Complete C# Guide
+# Set Font Weight and Adjust Font Width in Word Documents with Aspose.Words – Complete C# Guide
 
 Ever needed to **change font style** in a Word file but weren’t sure which API call actually does the trick? You’re not alone—most developers hit that wall when they first try to programmatically tweak typography.  
 
-The good news is that with a few lines of C# you can **set font weight**, even crank up a bold weight, and fine‑tune the width of each glyph. In this tutorial we’ll walk through a full, runnable example that modifies a `.docx` file from start to finish.
+The good news is that with a few lines of C# you can **set font weight**, even crank up a bold weight, and **fine‑tune the width** of each glyph. In this tutorial we’ll walk through a full, runnable example that modifies a `.docx` file from start to finish.
 
 ## What this guide covers
 

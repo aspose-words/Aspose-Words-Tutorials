@@ -1,6 +1,6 @@
 ---
-title: Style Documents with Aspose.Words for Java
-linktitle: Style Documents with Aspose.Words for Java
+title: Style Documents Using Aspose.Words for Java API
+linktitle: Style Documents Using Aspose.Words for Java API
 second_title: Aspose.Words Java Document Processing API
 description: Master document styling with Aspose.Words for Java tutorials. Learn advanced formatting techniques for visually appealing and efficient documents. 
 weight: 12
@@ -57,11 +57,9 @@ Learn how to change font styles in Word documents using Aspose.Words for C#. Ste
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
