@@ -40,6 +40,64 @@ Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument Word ja
 ### [Odzyskaj uszkodzony DOCX i konwertuj Word na Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Dowiedz się, jak odzyskać uszkodzony plik DOCX i przekonwertować go do formatu Markdown przy użyciu Aspose.Words for Python.
 
+### [Jak wyeksportować LaTeX z Worda – konwertuj DOCX na Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python wyeksportować dokument Word do LaTeX i przekonwertować go na Markdown.
+
+### [Utwórz PDF z Worda – kompletny przewodnik w Pythonie z Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python utworzyć PDF z dokumentu Word.
+
+### [Utwórz dostępny PDF z Worda przy użyciu Pythona – przewodnik krok po kroku](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python utworzyć dostępny PDF z dokumentu Word, spełniający standardy dostępności.
+
+### [Zapisz Word jako Markdown – kompletny przewodnik z eksportem PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument Word jako Markdown i wyeksportować go do PDF/A‑UA.
+### [Zapisz DOCX jako Markdown – szybki przewodnik Pythona do eksportu równań do LaTeX](./save-docx-as-markdown-quick-python-guide-to-export-equations/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument DOCX jako Markdown i wyeksportować równania do LaTeX.
+
+### [Zapisz dokument jako TXT – eksportuj równania Word do LaTeX przy użyciu Aspose.Words](./save-document-as-txt-export-word-math-to-latex-with-aspose-w/)
+Dowiedz się, jak przy użyciu Aspose.Words zapisać dokument jako plik TXT i wyeksportować równania Word do LaTeX.
+
+### [Zapisz docx jako PDF z Aspose.Words – Kompletny przewodnik w Pythonie](./save-docx-as-pdf-with-aspose-words-complete-python-guide/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument DOCX jako plik PDF.
+
+### [Jak osadzić obrazy przy konwertowaniu DOCX na Markdown – Kompletny przewodnik](./how-to-embed-images-when-converting-docx-to-markdown-complet/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python osadzić obrazy w plikach Markdown podczas konwersji z DOCX.
+
+### [Jak osadzić obrazy w Markdown z DOCX – Kompletny przewodnik](./how-to-embed-images-in-markdown-from-docx-full-guide/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python osadzić obrazy w plikach Markdown podczas konwersji z DOCX.
+### [Zapisz Worda jako Markdown – kompletny przewodnik w Pythonie](./save-word-as-markdown-complete-python-guide/)
+Poznaj, jak przy pomocy Aspose.Words for Python zapisać dokument Word w formacie Markdown.
+
+### [Zapisz DOCX jako TXT – konwertuj Word do TXT przy użyciu LaTeX](./save-docx-as-txt-convert-word-to-txt-with-latex/)
+Dowiedz się, jak przy pomocy Aspose.Words for Python i LaTeX przekonwertować dokument DOCX na plik tekstowy TXT.
+
+### [Zapisz Worda jako PDF z tagowaniem kształtów – kompletny przewodnik w Pythonie](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
+Dowiedz się, jak przy pomocy Aspose.Words for Python zapisać dokument Word jako PDF i oznaczyć kształty tagami.
+
+### [Jak odzyskać DOCX i przekonwertować go na Markdown i PDF – kompletny przewodnik w Pythonie](./how-to-recover-docx-and-convert-it-to-markdown-and-pdf-compl/)
+Dowiedz się, jak przy pomocy Aspose.Words for Python odzyskać uszkodzony plik DOCX i przekonwertować go na Markdown oraz PDF.
+### [Konwertuj równania Word do LaTeX – Zapisz jako .md](./convert-word-equations-to-latex-save-as-md/)
+Dowiedz się, jak przy pomocy Aspose.Words for Python przekształcić równania Word w kod LaTeX i zapisać je jako plik Markdown.
+
+### [Konwertuj docx do txt i eksportuj równania z Worda jako LaTeX – Kompletny przewodnik](./convert-docx-to-txt-and-export-equations-from-word-as-latex/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python konwertować DOCX do TXT i eksportować równania Worda jako LaTeX.
+
+### [Jak odzyskać DOCX, konwertować na Markdown i PDF przy użyciu Aspose](./how-to-recover-docx-convert-to-markdown-pdf-with-aspose/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python odzyskać uszkodzony plik DOCX i przekonwertować go na Markdown oraz PDF.
+### [Zapisz docx jako markdown z równaniami LaTeX – przewodnik w Pythonie](./save-docx-as-markdown-with-latex-equations-python-guide/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać plik DOCX jako Markdown z zachowaniem równań LaTeX.
+
+### [Zapisz Word jako PDF z Aspose.Words – Kompletny przewodnik w Pythonie](./save-word-as-pdf-with-aspose-words-complete-python-guide/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument Word jako plik PDF.
+
+### [Utwórz dostępny PDF z Worda – kompletny przewodnik programistyczny](./create-accessible-pdf-from-word-complete-programming-guide/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python wygenerować PDF dostępny zgodnie ze standardami WCAG.
+
+### [Eksportuj docx jako markdown – Kompletny przewodnik krok po kroku](./export-docx-as-markdown-full-step-by-step-guide/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python wyeksportować plik DOCX jako Markdown w pełnym przewodniku krok po kroku.
+
+### [Utwórz siatkę PNG z dokumentu Word – kompletny przewodnik krok po kroku](./create-png-grid-from-word-document-complete-step-by-step-gui/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python wygenerować siatkę PNG z dokumentu Word.
 ### [Zapisz Word jako PDF – konwertuj kształty na wbudowane przy użyciu Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
 Dowiedz się, jak przy użyciu Aspose.Words zapisać dokument Word jako PDF, konwertując kształty na wbudowane elementy.
 

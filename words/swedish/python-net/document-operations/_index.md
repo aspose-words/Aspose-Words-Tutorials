@@ -58,11 +58,20 @@ Kategorin "Dokumenthantering" är skräddarsydd för utvecklare som strävar eft
     ### [Återställ korrupt DOCX – Öppna & ladda Word-dokument](./recover-corrupted-docx-open-load-word-document/)
     Lär dig hur du återställer och öppnar korrupta DOCX-filer med Aspose.Words för Python-net.
 
-    ### [Hur du återställer DOCX-filer i Python – Ladda dokument med återställning med Aspose.Words](./how-to-recover-docx-files-in-python-load-document-with-recov/)
-    Lär dig hur du återställer korrupta DOCX-filer och laddar dem med återställningsalternativ i Aspose.Words för Python.
+    ### [Återställ korrupt Word-dokument med Python – Komplett guide](./recover-corrupted-word-document-using-python-complete-guide/)
+    Lär dig hur du återställer och reparerar skadade Word-dokument med Python och Aspose.Words.
 
-    ### [Återställ korrupt DOCX – Komplett guide med Aspose.Words för Python](./recover-corrupted-docx-complete-guide-using-aspose-words-for/)
-    Lär dig hur du återställer och reparerar korrupta DOCX-filer med Aspose.Words för Python i en komplett guide.
+    ### [Återställ korrupt DOCX – Komplett guide för att aktivera återställningsläge & få sidantal](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
+Lär dig hur du återställer korrupta DOCX-filer, aktiverar återställningsläge och hämtar sidantal med Aspose.Words för Python-net.
+
+    ### [Återställ korrupt Word-dokument med Aspose.Words för Python](./recover-corrupted-word-document-with-aspose-words-python/)
+Lär dig hur du återställer skadade Word-dokument med Aspose.Words för Python och återfår data utan förlust.
+
+    ### [Hur man återställer DOCX – Komplett guide för att återställa korrupta Word-dokument](./how-to-recover-docx-complete-guide-to-restoring-corrupted-wo/)
+Lär dig steg-för-steg hur du återställer korrupta DOCX-filer med Aspose.Words för Python-net.
+
+    ### [Hur du återställer DOCX-filer – En komplett guide med Aspose.Words](./how-to-recover-docx-files-complete-guide-with-aspose-words/)
+Steg-för-steg-guide för att återställa skadade DOCX-filer med Aspose.Words i Python-net.
 
 ## Ytterligare resurser
 

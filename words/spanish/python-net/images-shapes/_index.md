@@ -31,14 +31,17 @@ Aprenda a analizar tipos de medios, cifrar archivos y validar firmas digitales c
 ### [Cómo agregar sombra en C# – Guía completa de programación](./how-to-add-shadow-in-c-complete-programming-guide/)
 Aprenda a aplicar sombras a objetos en documentos con Aspose.Words y C# paso a paso.
 
+### [Agregar rectángulo a PDF con Aspose.Words – Guía paso a paso](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
+Aprenda a insertar un rectángulo en documentos PDF usando Aspose.Words con una guía detallada paso a paso.
+
     ### [Optimize RTF Image Handling in Python using Aspose.Words API&#58; Save as WMF and Ensure Compatibility](./optimize-rtf-image-handling-aspose-words-python/)
 Aprenda a optimizar la gestión de imágenes en documentos RTF con Aspose.Words para Python. Guarde las imágenes en formato WMF y garantice la compatibilidad con lectores antiguos.
 
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Aprenda a optimizar la salida SVG con Aspose.Words para Python. Esta guía abarca funciones personalizadas como propiedades similares a imágenes, renderizado de texto y mejoras de seguridad.
 
-### [Cómo guardar un documento con un rectángulo sombreado – Guía completa en Python](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
-Aprenda a guardar documentos de Word aplicando un rectángulo con sombra usando Aspose.Words para Python.
+    ### [Crear forma de rectángulo en Python – Guía completa para agregar sombras y guardar como PDF](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
+Aprenda a crear una forma rectangular, aplicar sombras y exportar el documento como PDF usando Aspose.Words para Python.
 
 ## Recursos adicionales
 

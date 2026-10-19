@@ -22,6 +22,34 @@ Trong các hướng dẫn này, bạn sẽ học cách tạo các loại biểu 
 Với các hướng dẫn này, bạn sẽ có thể cải thiện tài liệu Word của mình bằng cách thêm đồ họa hấp dẫn và nhiều thông tin. Bạn sẽ học cách tận dụng các tính năng đồ họa nâng cao trong Aspose.Words cho .NET và tích hợp chúng hiệu quả vào các ứng dụng của bạn. Khám phá các hướng dẫn này để mở rộng kỹ năng đồ họa của bạn trong Aspose.Words.
 
  ## Hướng dẫn
+
+{{< tutorial-card link="./uniform-data-labels/" title="Đặt Nhãn Dữ liệu Đồng nhất trong Biểu đồ Cột bằng Aspose.Words for .NET" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="Thay đổi kích thước biểu đồ một cách tỷ lệ khi thay đổi kích thước trang trong Word bằng Aspose.Words for .NET" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="Chèn Biểu Đồ Cột Tùy Chỉnh vào Tài Liệu Word bằng Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./hide-plot-border/" title="Ẩn viền vùng vẽ trong biểu đồ cột bằng Aspose.Words for .NET" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Xóa một Chart Series khỏi Word Document bằng Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-sample-column-chart/" title="Chèn biểu đồ cột mẫu vào tài liệu Word bằng Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-named-series/" title="Thêm một Chuỗi Dữ liệu Có Nhãn vào Biểu đồ Histogram trong Word bằng Aspose.Words for .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Xác thực Chuỗi Biểu đồ và Điểm Dữ liệu trong Tài liệu Word bằng Aspose.Words cho .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Tùy chỉnh các đường lưới trục X trong biểu đồ cột bằng Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Định dạng Trục X Phụ và Đặt Đơn vị Hiển thị thành Hàng nghìn trong Biểu đồ Đường Word bằng Aspose.Words cho .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Cập nhật tiêu đề biểu đồ và bật/tắt hiển thị legend trong Word bằng Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
+
+
+
+
+
+
 | Tiêu đề | Mô tả |
 | --- | --- |
 | [Định dạng số nhãn dữ liệu trong biểu đồ](./format-number-of-data-label/) | Tìm hiểu cách định dạng nhãn dữ liệu trong biểu đồ bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Cải thiện tài liệu Word của bạn một cách dễ dàng. |
@@ -42,7 +70,7 @@ Với các hướng dẫn này, bạn sẽ có thể cải thiện tài liệu W
 | [Thiết lập tùy chọn mặc định cho nhãn dữ liệu trong biểu đồ](./default-options-for-data-labels/) | Tìm hiểu cách thiết lập tùy chọn mặc định cho nhãn dữ liệu trong biểu đồ bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tạo và tùy chỉnh biểu đồ dễ dàng. |
 | [Tùy chỉnh một điểm dữ liệu biểu đồ đơn lẻ trong biểu đồ](./single-chart-data-point/) | Tìm hiểu cách tùy chỉnh các điểm dữ liệu biểu đồ đơn lẻ bằng Aspose.Words cho .NET trong hướng dẫn từng bước chi tiết. Cải thiện biểu đồ của bạn bằng các điểm đánh dấu và kích thước độc đáo. |
 | [Tùy chỉnh chuỗi biểu đồ đơn trong biểu đồ](./single-chart-series/) | Tìm hiểu cách tùy chỉnh chuỗi biểu đồ đơn trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm liền mạch. |
-
+| [Hiển thị chú giải biểu đồ trong Word bằng C# – Hướng dẫn chi tiết từng bước](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Tìm hiểu cách hiển thị chú giải biểu đồ trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

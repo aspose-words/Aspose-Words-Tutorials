@@ -1,0 +1,7 @@
+Title: How to translate docx to french with Aspose.Words AI in C#
+Slug: how-to-translate-docx-to-french-with-aspose-words-ai-in-c
+Category: ai-powered-document-processing
+ProcessedDate: 2026-10-01T02:20:11.700032
+SourceRepo: AI Search API
+Keywords: translate docx to french, change paragraph text, translate word file, replace text in docx, how to translate docx
+PRNumber: 294

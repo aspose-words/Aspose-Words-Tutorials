@@ -34,9 +34,20 @@ Aprenda a otimizar o processamento de imagens em documentos RTF com o Aspose.Wor
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Aprenda a otimizar a saída SVG usando Aspose.Words para Python. Este guia aborda recursos personalizados, como propriedades semelhantes a imagens, renderização de texto e melhorias de segurança.
 
+### [Adicionar sombra a forma em Python – Tutorial completo do Aspose.Words](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
+Aprenda a aplicar sombras a formas em documentos Word usando Aspose.Words para Python. Guia passo a passo com exemplos de código.
+
 ### [Como adicionar sombra em C# – Guia completo de programação](./how-to-add-shadow-in-c-complete-programming-guide/)
 Aprenda a aplicar sombras a objetos em documentos Word usando Aspose.Words para C# com este guia completo.
 
+### [Adicionar retângulo a PDF com Aspose.Words – Guia passo a passo](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
+Aprenda a inserir um retângulo em documentos PDF usando Aspose.Words com instruções detalhadas passo a passo.
+### [Criar forma retangular em Python – Guia completo para adicionar sombras e salvar como PDF](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
+Aprenda a criar formas retangulares, aplicar sombras e salvar documentos como PDF usando Aspose.Words para Python.
+### [Como inserir retângulo e adicionar sombra no Word usando Aspose](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
+Aprenda a inserir um retângulo e aplicar sombra em documentos Word usando Aspose.Words para Python-net.
+### [Criar documento Word Python – Guia de adição de sombra a forma](./create-word-document-python-add-shadow-to-shape-guide/)
+Aprenda a criar documentos Word em Python e adicionar sombras a formas usando Aspose.Words.
 ### [Como salvar documento com retângulo sombreado – Guia completo em Python](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
 Aprenda a salvar um documento Word contendo um retângulo com sombra usando Aspose.Words para Python.
 
