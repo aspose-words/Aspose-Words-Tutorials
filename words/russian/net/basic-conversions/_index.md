@@ -43,6 +43,7 @@ Basic Conversions проведет вас через базовые преобр
 | [Как экспортировать LaTeX из Word – пошаговое руководство](./how-to-export-latex-from-word-step-by-step-guide/) | Узнайте, как экспортировать документ Word в LaTeX с помощью Aspose.Words для .NET, следуя пошаговому руководству. |
 | [Как экспортировать LaTeX из Word – пошаговое руководство C#](./how-to-export-latex-from-word-step-by-step-c-guide/) | Узнайте, как экспортировать документ Word в LaTeX с помощью Aspose.Words для .NET, используя C#. |
 | [Как экспортировать LaTeX из DOCX – Конвертировать в TXT](./how-to-export-latex-from-docx-convert-to-txt/) | Узнайте, как экспортировать LaTeX из DOCX и сохранить как TXT с помощью Aspose.Words для .NET. |
+| [Как экспортировать LaTeX из Word – полное руководство C#](./how-to-export-latex-from-word-complete-c-guide/) | Узнайте, как экспортировать документ Word в LaTeX с помощью Aspose.Words для .NET, следуя полному руководству на C#. |
 | [Конвертировать Word в PDF в C# с Aspose.Words – Руководство](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Узнайте, как конвертировать Word в PDF в C# с помощью Aspose.Words. Пошаговое руководство для разработчиков. |
 | [Конвертировать DOCX в PDF на C# – Полное руководство](./convert-docx-to-pdf-in-c-complete-guide/) | Полное руководство по конвертации DOCX в PDF на C# с использованием Aspose.Words для .NET. |
 | [Создать доступный PDF – преобразовать Word в PDF](./create-accessible-pdf-convert-word-to-pdf/) | Узнайте, как создать доступный PDF, преобразовав документ Word с помощью Aspose.Words для .NET. |

@@ -178,6 +178,7 @@
 ### [إزالة الفقرات الفارغة – تحويل Word إلى Markdown في C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/)
 
 ### [تحويل docx إلى markdown – دليل C# كامل](./convert-docx-to-markdown-complete-c-guide/)
+### [إنشاء markdown من Word باستخدام Aspose.Words – دليل C# كامل](./create-markdown-from-word-with-aspose-words-full-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

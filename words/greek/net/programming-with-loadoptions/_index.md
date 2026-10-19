@@ -71,6 +71,7 @@
 | [Ενεργοποίηση προειδοποιήσεων αντικατάστασης γραμματοσειράς σε C# με Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Μάθετε πώς να ενεργοποιήσετε προειδοποιήσεις όταν γίνεται αντικατάσταση γραμματοσειρών σε έγγραφα Word χρησιμοποιώντας C# και Aspose.Words. |
 | [Καταχώρηση Callback Προειδοποίησης στο Aspose.Words – Πλήρης Οδηγός Προγραμματισμού](./register-warning-callback-in-aspose-words-complete-programmi/) | Μάθετε πώς να καταχωρήσετε callback προειδοποίησης στο Aspose.Words για έλεγχο σφαλμάτων κατά τη φόρτωση εγγράφων. |
 | [Πώς να καταγράψετε προειδοποιήσεις – διαμορφώστε τις επιλογές φόρτωσης για ελλιπείς γραμματοσειρές](./how-to-capture-warnings-configure-load-options-for-missing-f/) | Μάθετε πώς να εντοπίζετε προειδοποιήσεις κατά τη φόρτωση εγγράφων Word και να ρυθμίζετε τις επιλογές φόρτωσης για ελλιπείς γραμματοσειρές. |
+| [Πώς να ανακτήσετε DOCX – Βήμα‑βήμα οδηγός για την επισκευή κατεστραμμένων αρχείων Word](./how-to-recover-docx-step-by-step-guide-to-fix-corrupted-word/) | Μάθετε πώς να ανακτήσετε αρχεία DOCX που είναι κατεστραμμένα, βήμα‑βήμα, χρησιμοποιώντας το Aspose.Words για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

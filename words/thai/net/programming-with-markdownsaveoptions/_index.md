@@ -220,6 +220,8 @@
 
 ### [ส่งออก Word เป็น Markdown พร้อมเงา Shape และ PDF/UA](./export-word-to-markdown-with-shape-shadows-and-pdf-ua/)
 
+### [สร้าง markdown จาก Word ด้วย Aspose.Words – คู่มือเต็ม C#](./create-markdown-from-word-with-aspose-words-full-c-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -109,6 +109,7 @@
 | [匯出 Word 為 Markdown（含形狀陰影與 PDF/UA）](./export-word-to-markdown-with-shape-shadows-and-pdf-ua/) |示範如何使用 Aspose.Words for .NET 將 Word 文件匯出為包含形狀陰影的 Markdown，並產生符合 PDF/UA 標準的 PDF。 |
 | [從 Word 建立 Markdown 檔案 – 完整匯出方程式指南](./create-markdown-file-from-word-full-guide-to-export-equation/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 Word 文件匯出為包含方程式的 Markdown，提供完整步驟與範例程式碼。 |
 | [移除空段落 – 在 C# 中將 Word 轉換為 Markdown](./remove-empty-paragraphs-convert-word-to-markdown-in-c/) |示範如何使用 Aspose.Words for .NET 在 C# 中移除空段落，並將 Word 文件匯出為 Markdown。 |
+| [使用 Aspose.Words 從 Word 建立 Markdown – 完整 C# 指南](./create-markdown-from-word-with-aspose-words-full-c-guide/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 Word 文件轉換為 Markdown，提供完整步驟與範例程式碼。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

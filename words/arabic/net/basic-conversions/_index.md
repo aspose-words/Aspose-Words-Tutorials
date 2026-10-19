@@ -72,6 +72,7 @@
 | [كيفية دمج البريد وتحويل DOCX إلى PDF في C# – دليل Aspose كامل](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | تعرّف على دمج البريد في مستندات DOCX وتحويلها إلى PDF باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
 | [كيفية تصدير LaTeX من DOCX – التحويل إلى TXT](./how-to-export-latex-from-docx-convert-to-txt/) | تعلم كيفية استخراج LaTeX من ملفات DOCX وتحويله إلى TXT باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
 | [إنشاء PDF قابل للوصول من DOCX – دليل خطوة بخطوة C#](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | تعرّف على كيفية إنشاء ملفات PDF قابلة للوصول من مستندات DOCX باستخدام Aspose.Words لـ .NET مع دليل C# خطوة بخطوة. |
+| [كيفية تصدير LaTeX من Word – دليل C# كامل](./how-to-export-latex-from-word-complete-c-guide/) | تعلّم كيفية تصدير مستندات Word إلى LaTeX باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

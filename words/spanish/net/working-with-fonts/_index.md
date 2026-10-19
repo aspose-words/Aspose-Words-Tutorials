@@ -78,6 +78,7 @@ Ya sea que desee formatear texto con diferentes fuentes, establecer reglas de su
 | [Manejar la sustitución de fuentes en Aspose.Words – Guía completa de programación](./handle-font-substitution-in-aspose-words-complete-programmin/) | Aprenda a gestionar la sustitución de fuentes en Aspose.Words con esta guía completa paso a paso. |
 | [Sustitución de fuentes Aspose – Cómo configurar la configuración de fuentes en C#](./aspose-font-substitution-how-to-configure-font-settings-in-c/) | Aprenda a configurar la sustitución de fuentes y ajustes de fuentes en Aspose.Words para .NET usando C# paso a paso. |
 | [Cómo capturar advertencias en Aspose.Words – Guía completa en C#](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) | Aprenda a capturar advertencias en Aspose.Words usando C# con esta guía paso a paso. |
+| [Habilitar advertencias de fuentes en Aspose.Words – Guía completa en C#](./enable-font-warnings-in-aspose-words-complete-c-guide/) | Aprenda a habilitar advertencias de fuentes en Aspose.Words para .NET con esta guía completa paso a paso en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

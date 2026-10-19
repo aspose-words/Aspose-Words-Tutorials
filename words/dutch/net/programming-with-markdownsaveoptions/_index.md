@@ -229,6 +229,9 @@ Leer hoe u DOCX-bestanden opslaat als Markdown met Aspose.Words in een volledige
 
 ### [Docx opslaan als markdown – Complete C#-gids met lege alinea's](./save-docx-as-markdown-complete-guide-with-empty-paragraphs/)
 Leer hoe u lege alinea's behoudt bij het opslaan van een DOCX als Markdown met een volledige C#‑handleiding.
+### [Maak markdown van Word met Aspose.Words – Volledige C#‑gids](./create-markdown-from-word-with-aspose-words-full-c-guide/)
+
+Leer hoe u met Aspose.Words markdown genereert vanuit Word met een volledige C#‑handleiding.
 
 ### [Hoe links exporteren: DOCX naar Markdown in C#](./how-to-export-links-convert-docx-to-markdown-in-c/)
 Leer hoe u links uit een DOCX-bestand exporteert en converteert naar Markdown met C# en Aspose.Words.

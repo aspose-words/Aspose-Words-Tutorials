@@ -107,6 +107,7 @@ Zpracování textu pomocí MarkdownSaveOptions je podrobný návod, který vás 
 | [Vytvořit markdown soubor z Wordu – Kompletní průvodce exportem rovnic](./create-markdown-file-from-word-full-guide-to-export-equation/) | Naučte se exportovat rovnice z Wordu do Markdownu pomocí Aspose.Words pro .NET. |
 | [Odstranit prázdné odstavce – převod Wordu do Markdownu v C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/) | Naučte se, jak pomocí Aspose.Words pro .NET odstranit prázdné odstavce při konverzi dokumentu Word do formátu Markdown v C#. |
 | [Převod docx do markdown – Kompletní průvodce v C#](./convert-docx-to-markdown-complete-c-guide/) | Kompletní průvodce převodem souborů DOCX do formátu Markdown pomocí Aspose.Words pro .NET v jazyce C#. |
+| [Vytvořte markdown z Wordu pomocí Aspose.Words – Kompletní průvodce v C#](./create-markdown-from-word-with-aspose-words-full-c-guide/) | Naučte se, jak pomocí Aspose.Words převést dokument Word do Markdownu v C# s podrobným průvodcem. |
 
 | **[Uložení Wordu jako Markdown – Kompletní průvodce v C# s Aspose.Words](./save-word-as-markdown-complete-c-guide-with-aspose-words/)** | Naučte se kompletně exportovat dokumenty Word do Markdownu pomocí Aspose.Words v C#. |
 {{< /blocks/products/pf/tutorial-page-section >}}

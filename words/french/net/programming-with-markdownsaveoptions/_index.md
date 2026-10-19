@@ -237,6 +237,9 @@ Apprenez à exporter des documents Word en Markdown tout en conservant les ombre
 ### [Supprimer les paragraphes vides – Convertir Word en Markdown en C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/)
 
 Apprenez à supprimer les paragraphes vides lors de la conversion de documents Word en Markdown avec Aspose.Words pour .NET en C#.
+### [Créer du markdown à partir de Word avec Aspose.Words – Guide complet C#](./create-markdown-from-word-with-aspose-words-full-c-guide/)
+
+Apprenez à générer du markdown à partir de documents Word en C# avec Aspose.Words, étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

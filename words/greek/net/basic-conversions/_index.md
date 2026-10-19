@@ -71,6 +71,7 @@
 | [Μετατροπή Word σε PDF με Aspose.Words – Πλήρης Οδηγός](./convert-word-to-pdf-with-aspose-words-complete-guide/) | Μάθετε πώς να μετατρέψετε έγγραφα Word σε PDF με το Aspose.Words σε πλήρη βήμα‑βήμα οδηγό. |
 | [Πώς να εξάγετε LaTeX από DOCX – Μετατροπή σε TXT](./how-to-export-latex-from-docx-convert-to-txt/) | Μάθετε πώς να εξάγετε LaTeX από DOCX και να το μετατρέψετε σε αρχείο TXT χρησιμοποιώντας το Aspose.Words για .NET. |
 | [Δημιουργία Προσβάσιμου PDF από DOCX – Οδηγός βήμα‑βήμα C#](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF από DOCX χρησιμοποιώντας Aspose.Words για .NET με οδηγίες βήμα‑βήμα σε C#. |
+| [Πώς να εξάγετε LaTeX από το Word – Πλήρης οδηγός C#](./how-to-export-latex-from-word-complete-c-guide/) | Μάθετε πώς να εξάγετε έγγραφα Word σε LaTeX χρησιμοποιώντας Aspose.Words για .NET με πλήρη οδηγό C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

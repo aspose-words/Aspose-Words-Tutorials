@@ -64,6 +64,7 @@ Basic Conversions จะแนะนำคุณเกี่ยวกับก�
 - [สร้าง PDF จาก Word ด้วย C# – คู่มือขั้นตอนโดยขั้นตอน](./create-pdf-from-word-in-c-step-by-step-guide/) | เรียนรู้วิธีสร้างไฟล์ PDF จากเอกสาร Word ด้วย C# และ Aspose.Words อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน -
 - [วิธีส่งออก LaTeX จาก DOCX – แปลงเป็น TXT](./how-to-export-latex-from-docx-convert-to-txt/) | เรียนรู้วิธีส่งออกเนื้อหา LaTeX จากไฟล์ DOCX และแปลงเป็นไฟล์ TXT ด้วย Aspose.Words สำหรับ .NET อย่างละเอียด -
 - [สร้าง PDF ที่เข้าถึงได้จาก DOCX – คู่มือขั้นตอนโดยขั้นตอน C#](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากไฟล์ DOCX ด้วย C# และ Aspose.Words อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน -
+- [วิธีส่งออก LaTeX จาก Word – คู่มือ C# ฉบับสมบูรณ์](./how-to-export-latex-from-word-complete-c-guide/) | เรียนรู้วิธีส่งออกเนื้อหา LaTeX จากไฟล์ Word ด้วย Aspose.Words สำหรับ .NET ด้วยตัวอย่างโค้ด C# อย่างละเอียด -
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

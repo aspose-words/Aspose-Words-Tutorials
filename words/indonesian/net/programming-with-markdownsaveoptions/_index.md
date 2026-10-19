@@ -193,6 +193,8 @@ Pelajari cara membuat file markdown dari dokumen Word dan mengekspor persamaan d
 ### [Cara Menyimpan Markdown – Panduan Lengkap dengan Ekstraksi Gambar](./how-to-save-markdown-full-guide-with-image-extraction/)
 ### [Hapus Paragraf Kosong – Konversi Word ke Markdown dalam C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/)
 Pelajari cara menghapus paragraf kosong saat mengonversi dokumen Word ke format Markdown menggunakan C#.
+### [Buat markdown dari Word dengan Aspose.Words – Panduan Lengkap C#](./create-markdown-from-word-with-aspose-words-full-c-guide/)
+Pelajari cara membuat markdown dari dokumen Word menggunakan Aspose.Words dengan panduan lengkap C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

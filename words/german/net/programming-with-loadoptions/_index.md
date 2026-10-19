@@ -70,6 +70,7 @@ In diesen Tutorials lernen Sie, wie Sie mit LoadOptions Word-Dokumente mit benut
 | [Beschädigtes DOCX mit Aspose.Words wiederherstellen – Komplett‑Anleitung Schritt für Schritt](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Erfahren Sie, wie Sie beschädigte DOCX‑Dateien mit Aspose.Words Schritt für Schritt vollständig wiederherstellen. |
 | [Warnrückruf in Aspose.Words registrieren – Vollständige Programmieranleitung](./register-warning-callback-in-aspose-words-complete-programmi/) | Erfahren Sie, wie Sie in Aspose.Words einen Warnrückruf registrieren und Warnungen beim Laden von Dokumenten verarbeiten. |
 | [Warnungen erfassen – LoadOptions für fehlende Schriftarten konfigurieren](./how-to-capture-warnings-configure-load-options-for-missing-f/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Warnungen bei fehlenden Schriftarten erfassen und über LoadOptions behandeln. |
+| [Wie man DOCX wiederherstellt – Schritt‑für‑Schritt‑Anleitung zur Behebung beschädigter Word-Dateien](./how-to-recover-docx-step-by-step-guide-to-fix-corrupted-word/) | Erfahren Sie, wie Sie beschädigte DOCX-Dateien mit Aspose.Words für .NET Schritt für Schritt wiederherstellen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

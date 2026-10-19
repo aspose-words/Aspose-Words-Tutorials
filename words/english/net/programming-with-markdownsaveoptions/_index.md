@@ -137,6 +137,7 @@ class Program
 | [Create markdown from Word – Full C# Guide](./create-markdown-from-word-full-c-guide/) | Learn how to create markdown from Word documents using Aspose.Words for .NET in a comprehensive C# guide. |
 | [Create markdown file from Word – Full Guide to Export Equations](./create-markdown-file-from-word-full-guide-to-export-equation/) | Learn how to create a markdown file from Word documents, exporting equations accurately using Aspose.Words for .NET. |
 | [Remove Empty Paragraphs – Convert Word to Markdown in C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/) | Learn how to remove empty paragraphs when converting Word documents to Markdown using Aspose.Words for .NET. |
+| [Create markdown from word with Aspose.Words – Full C# Guide](./create-markdown-from-word-with-aspose-words-full-c-guide/) | Learn how to create Markdown from Word documents using Aspose.Words in a comprehensive C# guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -110,6 +110,7 @@
 | [Создать файл markdown из Word – Полное руководство по экспорту уравнений](./create-markdown-file-from-word-full-guide-to-export-equation/) | Подробное руководство по созданию markdown‑файла из Word с экспортом уравнений, используя Aspose.Words для .NET. |
 | [Как сохранить Markdown – Полное руководство с извлечением изображений](./how-to-save-markdown-full-guide-with-image-extraction/) | Полное руководство по сохранению Markdown с извлечением изображений с использованием Aspose.Words для .NET. |
 | [Удалить пустые абзацы – Конвертировать Word в Markdown на C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/) | Узнайте, как удалить пустые абзацы при конвертации документов Word в Markdown с помощью Aspose.Words для .NET на C#. |
+| [Создать markdown из Word с Aspose.Words – Полное руководство C#](./create-markdown-from-word-with-aspose-words-full-c-guide/) | Подробное руководство по созданию markdown из документов Word с использованием Aspose.Words и C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
