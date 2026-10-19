@@ -105,6 +105,9 @@
 ### [Χρήση επεκτάσεων ιστού στο Aspose.Words για Java](./using-web-extensions/)
 Βελτιώστε τα έγγραφα με επεκτάσεις ιστού στο Aspose.Words για Java. Μάθετε να ενσωματώνετε απρόσκοπτα περιεχόμενο ιστού. 
 
+### [Επισήμανση προσβασιμότητας PDF σε Java – Δημιουργία προσβάσιμων PDF](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Μάθετε πώς να δημιουργείτε προσβάσιμα PDF με ετικέτες προσβασιμότητας χρησιμοποιώντας το Aspose.Words για Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

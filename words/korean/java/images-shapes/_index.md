@@ -29,10 +29,10 @@ Aspose.Words for Java를 사용하여 이미지 및 도형 작업에 대한 포�
 ## 사용 가능한 튜토리얼
 
 ### [Aspose.Words 콜백을 사용한 Java에서 사용자 정의 페이지 및 이미지 저장](./aspose-words-java-callback-custom-savings/)
-Aspose.Words Java에 대한 코드 튜토리얼
+Aspose.Words Java에 대한 코드 튜얼리얼
 
 ### [Aspose.Words for Java를 사용하여 문서 페이지를 썸네일로 렌더링하는 방법](./render-word-pages-thumbnails-aspose-java/)
-Aspose.Words for Java를 사용하여 Word 문서의 고품질 썸네일과 사용자 지정 크기 비트맵을 생성하는 방법을 알아보세요. 지금 바로 문서 처리 능력을 향상시키세요.
+Aspose.Words for Java를 사용하여 Word 문서의 고품질 썸네일...
 
 ### [Word에서 도형에 그림자 추가 – 완전한 Aspose.Words 가이드](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Aspose.Words for Java를 사용하여 Word 문서의 도형에 그림자를 적용하는 방법을 단계별로 안내합니다.
@@ -40,6 +40,20 @@ Aspose.Words for Java를 사용하여 Word 문서의 도형에 그림자를 적�
 C#를 사용하여 도형에 그림자 효과를 적용하는 방법을 단계별로 안내합니다.
 ### [Aspose.Words에서 도형에 그림자 적용하기 – 완전 가이드](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Aspose.Words for Java를 사용하여 도형에 그림자를 설정하는 방법을 단계별로 안내합니다.
+
+### [C#에서 도형에 그림자 설정하기 – 도형 그림자를 쉽게 추가](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+C#를 사용해 Word 문서의 도형에 그림자를 적용하는 방법을 단계별로 안내합니다.
+
+### [Java Word 문서에 사각형 도형 만들기 – 전체 단계별 가이드](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Java를 사용해 Word 문서에 사각형 도형을 삽입하고 사용자 지정하는 전체 단계별 가이드를 제공합니다.
+
+### [Java에서 텍스트 상자 도형 만들기 – 그림자 추가 완전 가이드](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+Java를 사용해 Word 문서에 텍스트 상자 도형을 삽입하고 그림자를 적용하는 방법을 단계별로 안내합니다.
+### [사각형 모양을 사용한 PDF 문서 만들기 – 전체 C# 가이드](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+C#을 사용하여 사각형 모양이 포함된 PDF 문서를 생성하고 사용자 지정하는 방법을 단계별로 안내합니다.
+
+### [Java에서 Word 문서 만들기 – 도형에 그림자 추가 가이드](./create-word-document-java-add-shadow-to-shape-guide/)
+Java를 사용해 Word 문서에 도형에 그림자를 추가하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

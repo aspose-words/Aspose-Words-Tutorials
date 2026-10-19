@@ -73,7 +73,7 @@ Aspose.Words を使用して新しい `DocumentBuilder` を作成し、目的の
 
 ### [Java のテキスト処理マスター：Aspose.Words と AI モデルを使用した要約と翻訳](./java-aspose-words-text-processing/)
 
-OpenAI の GPT‑4 と Google の Gemini を使用して、Aspose.Words for Java でテキスト要約と翻訳を自動化する方法を学びましょう。Java アプリケーションを今すぐ強化してください。
+### [カスタム AI モデルの作成 – Java で Word の段落を編集](./create-custom-ai-model-edit-word-paragraphs-in-java/)
 
 ### [LLM の設定方法 – AI で DOCX のテキストを置換する](./how-to-configure-llm-replace-text-in-docx-with-ai/)
 
@@ -105,6 +105,14 @@ A: 挿入前に AI の出力を検証してください。Aspose.Words の `Docu
 **Q: ドメイン固有の言語に対してモデルを再学習する必要がありますか？**  
 A: 多くのケースでは事前学習済みモデルで十分です。より高い精度が必要な場合は、独自のコーパスでモデルをファインチューニングし、同じ API で呼び出すことを検討してください。
 
+---
+
+---
+
+**最終更新日:** 2025-11-25  
+**テスト環境:** Aspose.Words for Java 24.11  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -112,9 +120,3 @@ A: 多くのケースでは事前学習済みモデルで十分です。より�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-11-25  
-**テスト環境:** Aspose.Words for Java 24.11  
-**作者:** Aspose

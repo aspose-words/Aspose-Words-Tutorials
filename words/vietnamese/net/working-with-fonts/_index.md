@@ -61,6 +61,7 @@ Cho dù bạn muốn định dạng văn bản bằng các phông chữ khác nh
 | [Ghi lại cảnh báo phông chữ trong C# – Hướng dẫn lập trình toàn diện](./capture-font-warnings-in-c-complete-programming-guide/) | Tìm hiểu cách ghi lại cảnh báo phông chữ khi làm việc với Aspose.Words cho .NET bằng C# trong hướng dẫn chi tiết này. |
 | [Cách tải DOCX trong C# – Hướng dẫn đầy đủ](./how-to-load-docx-in-c-complete-guide/) | Hướng dẫn chi tiết cách tải tệp DOCX trong C# bằng Aspose.Words cho .NET. |
 | [Cách phát hiện phông chữ trong Aspose.Words – Xử lý cảnh báo & cài đặt](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Tìm hiểu cách phát hiện phông chữ, quản lý cảnh báo và cấu hình cài đặt phông chữ trong Aspose.Words cho .NET. |
+| [Cách phát hiện phông chữ trong Aspose.Words – Hướng dẫn đầy đủ](./how-to-detect-fonts-in-aspose-words-complete-guide/) | Tìm hiểu cách phát hiện tất cả các phông chữ trong tài liệu Word bằng Aspose.Words cho .NET qua hướng dẫn chi tiết từng bước. |
 | [Cách bắt phông chữ trong Aspose.Words – Hướng dẫn đầy đủ](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Hướng dẫn chi tiết cách bắt và nhúng phông chữ trong tài liệu Word bằng Aspose.Words cho .NET. |
 | [Cách tải DOCX và phát hiện phông chữ thiếu – Hướng dẫn C# đầy đủ](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Tìm hiểu cách tải tệp DOCX và phát hiện các phông chữ bị thiếu trong Aspose.Words cho .NET với hướng dẫn chi tiết từng bước bằng C#. |
 | [c# tải tài liệu Word – phát hiện & xử lý phông chữ thiếu](./c-load-word-document-detect-handle-missing-fonts/) | Hướng dẫn tải tài liệu Word bằng C# và xử lý các phông chữ bị thiếu trong Aspose.Words cho .NET. |
@@ -68,10 +69,16 @@ Cho dù bạn muốn định dạng văn bản bằng các phông chữ khác nh
 | [Bật cảnh báo và phát hiện phông chữ thiếu khi tải DOCX](./how-to-enable-warnings-and-detect-missing-fonts-when-loading/) | Tìm hiểu cách bật cảnh báo và phát hiện phông chữ thiếu khi tải tệp DOCX bằng Aspose.Words cho .NET. |
 | [Cách phát hiện phông chữ trong tài liệu Word – Hướng dẫn C# đầy đủ](./how-to-detect-fonts-in-word-documents-complete-c-guide/) | Tìm hiểu cách phát hiện phông chữ trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước. |
 | [Tạo FontSettings trong C# – Phát hiện phông chữ thiếu & Ghi nhận thông báo phông chữ](./create-fontsettings-in-c-detect-missing-fonts-capture-font-m/) | Hướng dẫn tạo FontSettings trong C#, phát hiện phông chữ thiếu và ghi lại các thông báo phông chữ khi xử lý tài liệu. |
+| [Thay thế phông chữ Aspose – Cách cấu hình cài đặt phông chữ trong C#](./aspose-font-substitution-how-to-configure-font-settings-in-c/) | Tìm hiểu cách cấu hình cài đặt phông chữ trong Aspose.Words cho .NET bằng C#. |
 
 | [Cài đặt phông chữ tùy chỉnh trong C# – Tải Word và Xử lý phông chữ thiếu](./custom-font-settings-in-c-load-word-handle-missing-fonts/) | Hướng dẫn cách tải tài liệu Word và xử lý các phông chữ bị thiếu bằng C# và Aspose.Words. |
 | [Cách bắt cảnh báo trong Aspose.Words – Hướng dẫn đầy đủ](./how-to-capture-warnings-in-aspose-words-complete-guide/) | Tìm hiểu cách bắt các cảnh báo trong Aspose.Words bằng .NET với hướng dẫn chi tiết từng bước. |
 | [Lưu tài liệu Word – Phát hiện phông chữ thiếu với Aspose.Words](./save-word-document-detect-missing-fonts-with-aspose-words/) | Tìm hiểu cách lưu tài liệu Word và phát hiện phông chữ thiếu bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước. |
+| [Tạo callback cảnh báo khi tải tài liệu Word – Hướng dẫn đầy đủ](./create-warning-callback-for-loading-word-documents-complete/) | Hướng dẫn chi tiết cách tạo callback cảnh báo khi tải tài liệu Word bằng Aspose.Words cho .NET. |
+| [Phát hiện phông chữ thiếu trong tài liệu Word bằng Aspose Font Substitution](./aspose-font-substitution-detect-missing-fonts-in-word-docs/) | Tìm hiểu cách phát hiện các phông chữ bị thiếu trong tài liệu Word bằng Aspose Font Substitution trong Aspose.Words cho .NET. |
+| [Cách xử lý phông chữ trong .NET – phát hiện phông chữ thiếu](./how-to-handle-fonts-in-net-detect-missing-fonts/) | Tìm hiểu cách phát hiện các phông chữ bị thiếu trong Aspose.Words cho .NET bằng hướng dẫn chi tiết từng bước. |
+| [Xử lý Thay Thế Phông Chữ trong Aspose.Words – Hướng Dẫn Lập Trình Đầy Đủ](./handle-font-substitution-in-aspose-words-complete-programmin/) | Tìm hiểu cách xử lý thay thế phông chữ trong Aspose.Words cho .NET với hướng dẫn lập trình chi tiết từng bước. |
+| [Cách bắt cảnh báo trong Aspose.Words – Hướng dẫn C# đầy đủ](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) | Tìm hiểu cách bắt các cảnh báo trong Aspose.Words bằng C# với hướng dẫn chi tiết từng bước. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
