@@ -1,0 +1,7 @@
+Title: Add Shadow to Shape in Word Documents – Complete C# Guide
+Slug: add-shadow-to-shape-in-word-documents-complete-c-guide
+Category: programming-with-shapes
+ProcessedDate: 2026-06-21T06:40:28.126046
+SourceRepo: AI Search API
+Keywords: add shadow to shape, how to change shadow transparency, how to add shape shadow, how to apply blur shadow
+PRNumber: 207

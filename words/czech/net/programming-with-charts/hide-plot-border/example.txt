@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Tento tutoriál ukazuje, jak vytvořit dokument Word, vložit sloupcový graf, naplnit jej ukázkovými daty, skrýt okraj oblasti vykreslování grafu při zachování viditelných osových čar a nakonec dokument uložit.
+//ExStepSummary:0: Vytvořte nový prázdný dokument Word a DocumentBuilder pro jeho úpravu.
+//ExStepSummary:1: Vložte do dokumentu sloupcový graf o rozměrech 432 × 252 a získejte jeho objekt Chart.
+//ExStepSummary:2: Vymažte všechny existující řady, definujte tři štítky kategorií a přidejte do grafu řadu se vzorovými hodnotami.
+//ExStepSummary:3: Nastavte šířku tahu (stroke weight) oblasti vykreslování na nulu, čímž odstraníte její okraj a zachováte viditelné osové čáry.
+//ExStepSummary:4: Uložte upravený dokument do souboru .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+columnChart.Series.Clear();
+string[] labels = { "Group A", "Group B", "Group C" };
+columnChart.Series.Add("Demo Data", labels, new double[] { 10, 20, 30 });
+
+//ExStep:3-
+columnChart.Format.Stroke.Weight = 0;
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutPlotBorder.docx");
+//ExEnd

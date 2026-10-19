@@ -1,0 +1,7 @@
+Title: Set Button Size in Word with Java – Complete Aspose.Words Guide
+Slug: set-button-size-in-word-with-java-complete-aspose-words-guid
+Category: using-document-elements
+ProcessedDate: 2026-07-17T03:10:33.530870
+SourceRepo: AI Search API
+Keywords: set button size, insert activex button, programmatically add button, set button location, create word document button
+PRNumber: 226
