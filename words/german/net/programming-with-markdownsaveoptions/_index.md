@@ -228,8 +228,6 @@ Erfahren Sie, wie Sie Word-Dokumente in Markdown exportieren und dabei Gleichung
 ### [Markdown aus Word erstellen mit Aspose.Words – Vollständige C#‑Anleitung](./create-markdown-from-word-with-aspose-words-full-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für .NET Word‑Dokumente in Markdown konvertieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 ### [Leere Absätze entfernen – Word in Markdown konvertieren in C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/)
 Entfernen Sie leere Absätze beim Konvertieren von Word nach Markdown in C#.
 
