@@ -66,6 +66,8 @@
 เรียนรู้วิธีกู้ไฟล์ Word ที่เสียหายด้วย Python และ Aspose.Words อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้
 ### [กู้ไฟล์ Word ที่เสียหายด้วย Aspose.Words สำหรับ Python](./recover-corrupted-word-document-with-aspose-words-python/)
 เรียนรู้วิธีกู้ไฟล์ Word ที่เสียหายและเปิดโหลดด้วย Aspose.Words สำหรับ Python อย่างมีประสิทธิภาพ
+### [วิธีกู้ไฟล์ DOCX – คู่มือครบวงจรในการกู้คืนเอกสาร Word ที่เสียหาย](./how-to-recover-docx-complete-guide-to-restoring-corrupted-wo/)
+เรียนรู้ขั้นตอนการกู้ไฟล์ DOCX ที่เสียหายและคืนสภาพเอกสาร Word อย่างสมบูรณ์ด้วย Aspose.Words สำหรับ Python-net
 
 ## แหล่งข้อมูลเพิ่มเติม
 

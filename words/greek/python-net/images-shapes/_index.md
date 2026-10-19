@@ -43,6 +43,8 @@
 Μάθετε πώς να δημιουργήσετε σχήμα ορθογωνίου, να προσθέσετε σκιές και να αποθηκεύσετε το έγγραφο ως PDF χρησιμοποιώντας Aspose.Words για Python-net.
 ### [Πώς να εισάγετε ορθογώνιο και να προσθέσετε σκιά σε Word χρησιμοποιώντας το Aspose](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
 Μάθετε πώς να προσθέσετε ορθογώνιο σχήμα και σκιά σε έγγραφα Word με το Aspose.Words για Python-net.
+### [Δημιουργία Εγγράφου Word με Python – Οδηγός Προσθήκης Σκιάς σε Σχήμα](./create-word-document-python-add-shadow-to-shape-guide/)
+Μάθετε πώς να προσθέσετε σκιά σε σχήματα ενός εγγράφου Word χρησιμοποιώντας το Aspose.Words για Python.
 
 ## Πρόσθετοι Πόροι
 

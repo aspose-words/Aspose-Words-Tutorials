@@ -43,6 +43,8 @@
 Узнайте, как создать прямоугольную форму, добавить тень и сохранить документ в PDF с помощью Aspose.Words для Python-net.
 ### [Как вставить прямоугольник и добавить тень в Word с помощью Aspose](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
 Узнайте, как добавить прямоугольник и применить к нему тень в документе Word с помощью Aspose.Words для Python-net.
+### [Создание документа Word в Python – Руководство по добавлению тени к фигуре](./create-word-document-python-add-shadow-to-shape-guide/)
+Узнайте, как добавить тень к фигурам в документе Word с помощью Aspose.Words для Python.
 
 ## Дополнительные ресурсы
 

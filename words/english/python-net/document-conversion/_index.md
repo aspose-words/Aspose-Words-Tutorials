@@ -66,6 +66,12 @@ Learn how to convert DOCX files to plain TXT using LaTeX with Aspose.Words for P
 Learn how to save Word documents as PDF with shape tagging using Aspose.Words for Python in this comprehensive guide.
 ### [How to Recover DOCX and Convert It to Markdown and PDF – Complete Python Guide](./how-to-recover-docx-and-convert-it-to-markdown-and-pdf-compl/)
 Learn how to recover DOCX files and convert them to Markdown and PDF using Aspose.Words for Python in this comprehensive guide.
+### [How to Recover DOCX, Convert to Markdown & PDF with Aspose](./how-to-recover-docx-convert-to-markdown-pdf-with-aspose/)
+Learn how to recover corrupted DOCX files and convert them to Markdown and PDF using Aspose.Words for Python.
+### [Convert Word equations to LaTeX – Save as .md](./convert-word-equations-to-latex-save-as-md/)
+Learn how to extract Word equations and convert them to LaTeX format, saving the output as Markdown (.md) using Aspose.Words for Python.
+### [convert docx to txt and export equations from Word as LaTeX – Complete Guide](./convert-docx-to-txt-and-export-equations-from-word-as-latex/)
+Learn to convert DOCX files to TXT and export Word equations as LaTeX using Aspose.Words for Python in this complete guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

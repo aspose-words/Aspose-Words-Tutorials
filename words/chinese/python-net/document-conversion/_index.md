@@ -78,6 +78,14 @@
 
 ### [将 Word 保存为 PDF 并进行形状标记 – 完整 Python 指南](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
 学习使用 Aspose.Words for Python 将 Word 文档保存为 PDF，并对文档中的形状进行标记，实现高级文档处理。
+### [将 Word 方程式转换为 LaTeX – 保存为 .md](./convert-word-equations-to-latex-save-as-md/)
+学习使用 Aspose.Words for Python 将 Word 方程式转换为 LaTeX 并保存为 Markdown 文件。
+
+### [将 DOCX 转换为 TXT 并将 Word 方程式导出为 LaTeX – 完整指南](./convert-docx-to-txt-and-export-equations-from-word-as-latex/)
+学习使用 Aspose.Words for Python 将 DOCX 转换为 TXT，并导出 Word 方程式为 LaTeX，轻松实现文本和公式提取。
+
+### [如何恢复 DOCX 并转换为 Markdown 与 PDF（使用 Aspose）](./how-to-recover-docx-convert-to-markdown-pdf-with-aspose/)
+学习使用 Aspose.Words for Python 恢复损坏的 DOCX 并将其转换为 Markdown 和 PDF。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

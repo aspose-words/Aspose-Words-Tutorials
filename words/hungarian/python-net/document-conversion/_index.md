@@ -65,6 +65,12 @@ Ismerje meg, hogyan menthet docx fájlokat egyszerű szöveg (txt) formátumba L
 Tanulja meg, hogyan menthet Word dokumentumot PDF-be alakzatcímkékkel Python segítségével.
 ### [Hogyan állítsa helyre a DOCX-et és konvertálja Markdown és PDF formátumba – Teljes Python útmutató](./how-to-recover-docx-and-convert-it-to-markdown-and-pdf-compl/)
 Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlokat, és konvertálhatja őket Markdown és PDF formátumba Python segítségével.
+### [Hogyan állítsuk helyre a DOCX-et, konvertáljuk Markdown-be és PDF-be az Aspose segítségével](./how-to-recover-docx-convert-to-markdown-pdf-with-aspose/)
+Ismerje meg, hogyan állíthatja helyre a DOCX fájlokat, és konvertálhatja őket Markdown és PDF formátumba az Aspose segítségével.
+### [Word egyenletek konvertálása LaTeX-re – Mentés .md formátumba](./convert-word-equations-to-latex-save-as-md/)
+Tanulja meg, hogyan konvertálhatja a Word egyenleteket LaTeX kóddá, és mentheti őket Markdown (.md) fájlba Python segítségével.
+### [DOCX konvertálása TXT-re és egyenletek exportálása Wordből LaTeX-be – Teljes útmutató](./convert-docx-to-txt-and-export-equations-from-word-as-latex/)
+Tanulja meg, hogyan konvertálja a DOCX fájlokat TXT formátumba, és exportálja a Word egyenleteket LaTeX kóddá Python segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

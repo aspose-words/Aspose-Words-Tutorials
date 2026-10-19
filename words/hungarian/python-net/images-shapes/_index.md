@@ -43,6 +43,8 @@ Tanuld meg, hogyan adhatsz hozzá téglalapot PDF dokumentumokhoz az Aspose.Word
 Tanuld meg, hogyan hozhatsz létre téglalap alakzatot, adj hozzá árnyékot, és mentsd PDF formátumban az Aspose.Words for Python segítségével.
 ### [Hogyan szúrjunk be téglalapot és adjunk árnyékot a Wordben az Aspose segítségével](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
 Tanuld meg, hogyan szúrj be téglalapot és adj hozzá árnyékhatást a Word dokumentumokhoz az Aspose.Words for Python-net használatával.
+### [Word dokumentum létrehozása Python – Árnyék hozzáadása alakzathoz útmutató](./create-word-document-python-add-shadow-to-shape-guide/)
+Tanuld meg, hogyan adhatsz árnyékot alakzatokhoz a Word dokumentumokban Python és Aspose.Words segítségével.
 
 ## További források
 

@@ -43,6 +43,8 @@ Hướng dẫn chi tiết cách chèn hình chữ nhật vào tài liệu PDF b�
 Hướng dẫn chi tiết cách tạo hình chữ nhật, áp dụng hiệu ứng bóng và lưu tài liệu dưới dạng PDF bằng Aspose.Words cho Python-net.
 ### [Cách chèn hình chữ nhật và thêm bóng trong Word bằng Aspose](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
 Hướng dẫn chi tiết cách chèn hình chữ nhật và áp dụng hiệu ứng bóng cho đối tượng trong tài liệu Word bằng Aspose.Words.
+### [Tạo tài liệu Word bằng Python – Hướng dẫn Thêm Bóng Đổ cho Hình dạng](./create-word-document-python-add-shadow-to-shape-guide/)
+Hướng dẫn chi tiết cách thêm bóng đổ vào hình dạng trong tài liệu Word bằng Python và Aspose.Words.
 
 ## Tài nguyên bổ sung
 

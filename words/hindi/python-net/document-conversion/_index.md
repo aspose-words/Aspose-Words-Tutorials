@@ -78,6 +78,14 @@ Python और LaTeX का उपयोग करके Word DOCX फ़ाइ�
 
 ### [वर्ड को PDF के रूप में सहेजें शैप टैगिंग के साथ – पूर्ण पायथन गाइड](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
 शैप टैगिंग के साथ वर्ड फ़ाइल को PDF में बदलने के लिए पायथन कोड और चरण-दर-चरण मार्गदर्शन।
+### [Word समीकरणों को LaTeX में बदलें – .md के रूप में सहेजें](./convert-word-equations-to-latex-save-as-md/)
+Word समीकरणों को LaTeX में बदलें और .md फ़ाइल के रूप में सहेजें। पायथन कोड और चरण-दर-चरण मार्गदर्शन।
+
+### [DOCX को TXT में बदलें और Word से समीकरणों को LaTeX में निर्यात करें – पूर्ण गाइड](./convert-docx-to-txt-and-export-equations-from-word-as-latex/)
+DOCX फ़ाइलों को TXT में परिवर्तित करें और Word समीकरणों को LaTeX फ़ॉर्मेट में निर्यात करने के लिए पायथन कोड और चरण-दर-चरण मार्गदर्शन।
+
+### [Aspose के साथ DOCX को पुनर्प्राप्त करें, मार्कडाउन और PDF में बदलें](./how-to-recover-docx-convert-to-markdown-pdf-with-aspose/)
+DOCX फ़ाइल को ठीक करें, उसे मार्कडाउन और PDF फ़ॉर्मेट में बदलने के लिए पायथन कोड और चरण‑दर‑चरण मार्गदर्शन।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

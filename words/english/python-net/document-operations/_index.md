@@ -66,6 +66,9 @@ Learn how to recover and open corrupted Word documents using Aspose.Words for Py
     ### [Recover Corrupted DOCX – Complete Guide to Enable Recovery Mode & Get Page Count](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
     Learn how to enable recovery mode to open corrupted DOCX files and retrieve the page count using Aspose.Words for Python-net.
 
+    ### [How to Recover DOCX – Complete Guide to Restoring Corrupted Word Documents](./how-to-recover-docx-complete-guide-to-restoring-corrupted-wo/)
+Learn how to recover and restore corrupted DOCX files using Aspose.Words for Python-net.
+
 ## Additional Resources
 
 - [Aspose.Words for Python-net Documentation](https://docs.aspose.com/words/python-net/)

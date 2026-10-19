@@ -78,6 +78,14 @@ LaTeX を利用して Word の DOCX をプレーンテキスト (TXT) に変換�
 
 ### [Word をシェイプ タグ付けで PDF に保存 – 完全 Python ガイド](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
 Aspose.Words for Python を使って、シェイプ タグを保持しながら Word 文書を PDF に変換する方法を解説します。
+### [Word の数式を LaTeX に変換 – .md として保存](./convert-word-equations-to-latex-save-as-md/)
+Word 文書内の数式を LaTeX 形式に変換し、Markdown (.md) ファイルとして保存する方法を解説します。
+
+### [DOCX を TXT に変換し、Word の数式を LaTeX にエクスポート – 完全ガイド](./convert-docx-to-txt-and-export-equations-from-word-as-latex/)
+DOCX ファイルをテキスト形式に変換し、Word の数式を LaTeX コードとして抽出する手順を Python で解説します。
+
+### [DOCX を復元し、Markdown と PDF に変換する方法 – Aspose 使用](./how-to-recover-docx-convert-to-markdown-pdf-with-aspose/)
+Aspose を使って破損した DOCX を復元し、Markdown と PDF に変換する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

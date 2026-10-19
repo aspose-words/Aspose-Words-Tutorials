@@ -32,13 +32,23 @@
 
 ## บทช่วยสอนการแปลงเอกสาร Python
 ### [การแปลงเอกสาร Python - คู่มือฉบับสมบูรณ์](./python-document-conversion/)
-เรียนรู้การแปลงเอกสาร Python ด้วย Aspose.Words สำหรับ Python แปลง แก้ไข และปรับแต่งเอกสารได้อย่างง่ายดาย เพิ่มประสิทธิภาพการทำงานทันที!
+เรียนรู้การแปลงเdocument...
 
 ### [วิธีบันทึก Markdown จาก Word – คู่มือฉบับสมบูรณ์สำหรับ Python](./how-to-save-markdown-from-word-complete-python-guide/)
-เรียนรู้วิธีบันทึกไฟล์ Markdown จากเอกสาร Word ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
+เรียนรู้วิธีบันทึกไฟล์...
 
 ### [กู้ไฟล์ DOCX ที่เสียหายและแปลง Word เป็น Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
-เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายและแปลงเป็น Markdown ด้วย Aspose.Words for Python
+เรียนรู้...
+
+### [แปลงสมการ Word เป็น LaTeX – บันทึกเป็น .md](./convert-word-equations-to-latex-save-as-md/)
+เรียน...
+
+### [แปลง docx เป็น txt และส่งออกสมการจาก Word เป็น LaTeX – คู่มือฉบับสมบูรณ์](./convert-docx-to-txt-and-export-equations-from-word-as-latex/)
+เรียน...
+
+### [วิธีกู้ไฟล์ DOCX, แปลงเป็น Markdown และ PDF ด้วย Aspose](./how-to-recover-docx-convert-to-markdown-pdf-with-aspose/)
+เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายและแปลงเป็น Markdown และ PDF ด้วย Aspose.Words for Python
+
 
 ### [วิธีส่งออก LaTeX จาก Word – แปลง DOCX เป็น Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 เรียนรู้วิธีส่งออก LaTeX จากเอกสาร Word และแปลงเป็น Markdown ด้วย Aspose.Words for Python

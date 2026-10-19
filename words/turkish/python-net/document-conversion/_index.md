@@ -78,6 +78,14 @@ Aspose.Words for Python kullanarak Word belgelerini şekil etiketleriyle PDF'ye 
 
 ### [DOCX'i Kurtarmak ve Markdown ile PDF'ye Dönüştürmek – Tam Python Kılavuzu](./how-to-recover-docx-and-convert-it-to-markdown-and-pdf-compl/)
 Aspose.Words for Python kullanarak bozuk DOCX dosyalarını kurtarın ve aynı anda Markdown ve PDF formatlarına dönüştürün.
+### [Word denklemlerini LaTeX'e dönüştür – .md olarak kaydet](./convert-word-equations-to-latex-save-as-md/)
+Aspose.Words for Python kullanarak Word denklemlerini LaTeX formatına dönüştürüp .md dosyası olarak kaydedin.
+
+### [DOCX'i TXT'ye Dönüştürme ve Word Denklemlerini LaTeX Olarak Dışa Aktarma – Tam Kılavuz](./convert-docx-to-txt-and-export-equations-from-word-as-latex/)
+Aspose.Words for Python kullanarak DOCX dosyalarını TXT'ye dönüştürün ve Word denklemlerini LaTeX formatına dışa aktarın.
+
+### [DOCX'i Kurtarma, Markdown ve PDF'ye Dönüştürme – Aspose ile Tam Kılavuz](./how-to-recover-docx-convert-to-markdown-pdf-with-aspose/)
+Aspose.Words for Python kullanarak bozuk DOCX dosyalarını kurtarın ve belgeyi Markdown ve PDF formatlarına dönüştürün.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

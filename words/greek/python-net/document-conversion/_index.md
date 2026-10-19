@@ -63,6 +63,13 @@
 Μάθετε πώς να αποθηκεύσετε έγγραφα Word ως PDF με σήμανση σχημάτων χρησιμοποιώντας Aspose.Words για Python.
 ### [Πώς να ανακτήσετε DOCX και να το μετατρέψετε σε Markdown και PDF – Πλήρης οδηγός Python](./how-to-recover-docx-and-convert-it-to-markdown-and-pdf-compl/)
 Μάθετε πώς να ανακτήσετε κατεστραμμένα αρχεία DOCX και να τα μετατρέψετε σε Markdown και PDF με το Aspose.Words για Python.
+### [Μετατροπή εξισώσεων Word σε LaTeX – Αποθήκευση ως .md](./convert-word-equations-to-latex-save-as-md/)
+Μάθετε πώς να μετατρέψετε εξώσεις Word σε LaTeX και να τις αποθηκεύσετε ως αρχεία .md με το Aspose.Words για Python.
+### [Μετατροπή docx σε txt και εξαγωγή εξισώσεων από Word ως LaTeX – Πλήρης Οδηγός](./convert-docx-to-txt-and-export-equations-from-word-as-latex/)
+Μάθετε πώς να μετατρέψετε αρχεία docx σε txt και να εξάγετε εξισώσεις Word σε LaTeX με το Aspose.Words για Python.
+
+### [Πώς να ανακτήσετε DOCX, μετατρέψετε σε Markdown & PDF με το Aspose](./how-to-recover-docx-convert-to-markdown-pdf-with-aspose/)
+Μάθετε πώς να επαναφέρετε κατεστραμμένα αρχεία DOCX και να τα μετατρέψετε σε Markdown και PDF χρησιμοποιώντας Aspose.Words για Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

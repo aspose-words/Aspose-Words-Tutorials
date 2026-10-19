@@ -66,6 +66,8 @@ Naučte se, jak aktivovat režim obnovy a získat počet stránek poškozených 
 Kompletní návod, jak pomocí Aspose.Words pro Python obnovit poškozené soubory Word a zachovat jejich obsah.
 ### [Obnova poškozeného Word dokumentu s Aspose.Words pro Python](./recover-corrupted-word-document-with-aspose-words-python/)
 Naučte se načíst a opravit poškozené soubory Word pomocí Aspose.Words pro Python.
+### [Jak obnovit DOCX – Kompletní průvodce obnovou poškozených dokumentů Word](./how-to-recover-docx-complete-guide-to-restoring-corrupted-wo/)
+Kompletní návod, jak načíst a opravit poškozené soubory DOCX pomocí Aspose.Words pro Python-net.
 
 ## Další zdroje
 

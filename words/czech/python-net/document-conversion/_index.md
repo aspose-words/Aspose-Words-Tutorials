@@ -65,6 +65,12 @@ Naučte se převést soubory DOCX na prostý text TXT pomocí LaTeX s Aspose.Wor
 Naučte se uložit dokument Word jako PDF a přidat tagy tvarů pomocí Aspose.Words pro Python.
 ### [Jak obnovit DOCX a převést jej do Markdown a PDF – kompletní průvodce v Pythonu](./how-to-recover-docx-and-convert-it-to-markdown-and-pdf-compl/)
 Naučte se opravit poškozené DOCX soubory a převést je do formátů Markdown i PDF pomocí Aspose.Words pro Python.
+### [Převod rovnic Word do LaTeXu – Uložit jako .md](./convert-word-equations-to-latex-save-as-md/)
+Naučte se převést rovnice z dokumentu Word do LaTeX a uložit je jako soubor .md pomocí Aspose.Words pro Python.
+### [Převod DOCX na TXT a export rovnic z Wordu do LaTeXu – Kompletní průvodce](./convert-docx-to-txt-and-export-equations-from-word-as-latex/)
+Naučte se převést soubory DOCX na TXT a exportovat rovnice z Wordu do LaTeXu pomocí Aspose.Words pro Python.
+### [Jak obnovit DOCX, převést na Markdown a PDF pomocí Aspose](./how-to-recover-docx-convert-to-markdown-pdf-with-aspose/)
+Naučte se opravit poškozené soubory DOCX a převést je do formátů Markdown a PDF pomocí Aspose.Words pro Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

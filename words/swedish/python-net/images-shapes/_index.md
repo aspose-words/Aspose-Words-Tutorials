@@ -43,6 +43,8 @@ Lär dig hur du lägger till en rektangel i PDF-dokument med Aspose.Words i en d
 Lär dig hur du skapar en rektangel, applicerar skugga och sparar dokumentet som PDF med Aspose.Words för Python.
 ### [Hur man infogar en rektangel och lägger till skugga i Word med Aspose](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
 Lär dig steg för steg hur du infogar en rektangel och applicerar skugga i ett Word-dokument med Aspose.Words för Python-net.
+### [Skapa Word-dokument med Python – Guide för att lägga till skugga på form](./create-word-document-python-add-shadow-to-shape-guide/)
+Lär dig hur du skapar ett Word-dokument i Python och lägger till skugga på former med Aspose.Words.
 
 ## Ytterligare resurser
 

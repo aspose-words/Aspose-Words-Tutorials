@@ -78,6 +78,14 @@ Impara a salvare documenti Word in PDF includendo i tag delle forme usando Aspos
 
 ### [Recupera DOCX e convertilo in Markdown e PDF – Guida completa Python](./how-to-recover-docx-and-convert-it-to-markdown-and-pdf-compl/)
 Impara a riparare file DOCX danneggiati e convertirli sia in Markdown che in PDF con Aspose.Words per Python.
+### [Converti le equazioni Word in LaTeX – Salva come .md](./convert-word-equations-to-latex-save-as-md/)
+Scopri come trasformare le equazioni di Word in codice LaTeX e salvarle in file Markdown con Aspose.Words per Python.
+
+### [Converti DOCX in TXT ed esporta le equazioni da Word come LaTeX – Guida completa](./convert-docx-to-txt-and-export-equations-from-word-as-latex/)
+Scopri come trasformare file DOCX in TXT e convertire le equazioni Word in LaTeX con Aspose.Words per Python.
+
+### [Come recuperare DOCX, convertire in Markdown e PDF con Aspose](./how-to-recover-docx-convert-to-markdown-pdf-with-aspose/)
+Scopri come riparare file DOCX danneggiati e convertirli in Markdown e PDF usando Aspose.Words per Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -78,6 +78,14 @@ Aprenda a convertir documentos DOCX a archivos de texto plano usando LaTeX con A
 
 ### [Guardar Word como PDF con etiquetado de formas – Guía completa de Python](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
 Aprenda a guardar documentos Word como PDF conservando etiquetas de formas usando Aspose.Words para Python. Guía paso a paso y ejemplos.
+### [Convertir ecuaciones de Word a LaTeX – Guardar como .md](./convert-word-equations-to-latex-save-as-md/)
+Aprenda a extraer ecuaciones de Word y convertirlas a LaTeX, guardándolas en archivos Markdown (.md) con Aspose.Words para Python.
+
+### [Convertir docx a txt y exportar ecuaciones de Word como LaTeX – Guía completa](./convert-docx-to-txt-and-export-equations-from-word-as-latex/)
+Aprenda a convertir archivos DOCX a TXT y a extraer ecuaciones de Word en formato LaTeX con Aspose.Words para Python.
+
+### [Cómo recuperar DOCX, convertir a Markdown y PDF con Aspose](./how-to-recover-docx-convert-to-markdown-pdf-with-aspose/)
+Aprenda a reparar archivos DOCX dañados y convertirlos a Markdown y PDF con Aspose.Words para Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

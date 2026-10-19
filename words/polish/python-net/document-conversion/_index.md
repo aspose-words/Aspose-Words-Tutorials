@@ -76,6 +76,14 @@ Dowiedz się, jak przy pomocy Aspose.Words for Python zapisać dokument Word jak
 
 ### [Jak odzyskać DOCX i przekonwertować go na Markdown i PDF – kompletny przewodnik w Pythonie](./how-to-recover-docx-and-convert-it-to-markdown-and-pdf-compl/)
 Dowiedz się, jak przy pomocy Aspose.Words for Python odzyskać uszkodzony plik DOCX i przekonwertować go na Markdown oraz PDF.
+### [Konwertuj równania Word do LaTeX – Zapisz jako .md](./convert-word-equations-to-latex-save-as-md/)
+Dowiedz się, jak przy pomocy Aspose.Words for Python przekształcić równania Word w kod LaTeX i zapisać je jako plik Markdown.
+
+### [Konwertuj docx do txt i eksportuj równania z Worda jako LaTeX – Kompletny przewodnik](./convert-docx-to-txt-and-export-equations-from-word-as-latex/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python konwertować DOCX do TXT i eksportować równania Worda jako LaTeX.
+
+### [Jak odzyskać DOCX, konwertować na Markdown i PDF przy użyciu Aspose](./how-to-recover-docx-convert-to-markdown-pdf-with-aspose/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python odzyskać uszkodzony plik DOCX i przekonwertować go na Markdown oraz PDF.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

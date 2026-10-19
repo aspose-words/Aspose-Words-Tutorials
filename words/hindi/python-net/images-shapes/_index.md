@@ -43,6 +43,8 @@ Aspose.Words के साथ Word दस्तावेज़ में आय�
 Aspose.Words का उपयोग करके PDF में आयत कैसे जोड़ें, कोड उदाहरण और विस्तृत चरणों के साथ सीखें।
 ### [Python में आयताकार आकृति बनाना – शैडो जोड़ना और PDF के रूप में सहेजना पूर्ण गाइड](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
 Python में आयताकार शैडो वाली आकृति बनाना, उसे PDF में सहेजना सीखें।
+### [Word दस्तावेज़ बनाना Python – आकार में शैडो जोड़ने की गाइड](./create-word-document-python-add-shadow-to-shape-guide/)
+Python के साथ Aspose.Words का उपयोग करके Word दस्तावेज़ में आकार पर शैडो जोड़ने की पूरी प्रक्रिया सीखें।
 
 ## अतिरिक्त संसाधन
 

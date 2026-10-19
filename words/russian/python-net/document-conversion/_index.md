@@ -62,6 +62,11 @@
 ### [Сохранить Word как PDF с тегированием фигур — Полное руководство Python](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
 Узнайте, как сохранять документы Word в PDF с тегированием фигур, используя Aspose.Words для Python.
 ### [Как восстановить DOCX и конвертировать его в Markdown и PDF — Полное руководство Python](./how-to-recover-docx-and-convert-it-to-markdown-and-pdf-compl/)
+### [Конвертация уравнений Word в LaTeX – Сохранить как .md](./convert-word-equations-to-latex-save-as-md/)
+Узнайте, как извлечь уравнения из Word и сохранить их в формате LaTeX в файле .md с помощью Aspose.Words для Python.
+### [Конвертация DOCX в TXT и экспорт уравнений из Word в LaTeX – Полное руководство](./convert-docx-to-txt-and-export-equations-from-word-as-latex/)
+Узнайте, как преобразовать DOCX в TXT и экспортировать уравнения Word в LaTeX с помощью Aspose.Words для Python.
+### [Как восстановить DOCX, конвертировать в Markdown и PDF с помощью Aspose](./how-to-recover-docx-convert-to-markdown-pdf-with-aspose/)
 Узнайте, как восстановить повреждённый DOCX и преобразовать его в Markdown и PDF с помощью Aspose.Words для Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

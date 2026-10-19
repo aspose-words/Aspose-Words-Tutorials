@@ -69,6 +69,9 @@ A korrupt DOCX fájlok helyreállítása és a dokumentum oldalszámának lekér
 ### [Korrupt Word dokumentum helyreállítása az Aspose.Words Python segítségével](./recover-corrupted-word-document-with-aspose-words-python/)
 A korrupt Word dokumentumok helyreállítása és betöltése az Aspose.Words Python könyvtárral.
 
+### [Hogyan állítsuk helyre a DOCX-et – Teljes útmutató a sérült Word dokumentumok helyreállításához](./how-to-recover-docx-complete-guide-to-restoring-corrupted-wo/)
+Tanulja meg, hogyan állíthatja helyre a sérült DOCX fájlokat az Aspose.Words for Python-net segítségével.
+
 ## További források
 
 - [Aspose.Words Python-net dokumentációhoz](https://docs.aspose.com/words/python-net/)

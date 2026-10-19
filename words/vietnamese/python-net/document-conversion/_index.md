@@ -61,9 +61,6 @@ Hướng dẫn chi tiết cách xuất LaTeX từ tài liệu Word và chuyển 
 ### [Tạo PDF từ Word – Hướng dẫn Python đầy đủ](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang PDF bằng Aspose.Words cho Python, bao gồm các tùy chọn và ví dụ thực tế.
 
-### [Tạo PDF có thể truy cập từ Word bằng Python – Hướng dẫn từng bước](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
-Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập từ tài liệu Word bằng Aspose.Words cho Python.
-
 ### [Lưu Word thành Markdown – Hướng dẫn đầy đủ với xuất PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Hướng dẫn chi tiết cách lưu tài liệu Word thành Markdown và xuất ra PDF/A‑UA bằng Aspose.Words cho Python.
 ### [Cách khôi phục DOCX và chuyển đổi sang Markdown và PDF – Hướng dẫn Python đầy đủ](./how-to-recover-docx-and-convert-it-to-markdown-and-pdf-compl/)
@@ -77,6 +74,18 @@ Hướng dẫn chuyển đổi tệp DOCX sang định dạng TXT sử dụng La
 
 ### [Lưu Word dưới dạng PDF với Gắn Thẻ Hình – Hướng dẫn Python đầy đủ](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
 Hướng dẫn chi tiết cách lưu Word thành PDF và gắn thẻ các hình ảnh trong tài liệu bằng Aspose.Words cho Python.
+
+### [Cách khôi phục DOCX, chuyển sang Markdown & PDF với Aspose](./how-to-recover-docx-convert-to-markdown-pdf-with-aspose/)
+Hướng dẫn chi tiết cách khôi phục tệp DOCX hỏng, chuyển nội dung sang định dạng Markdown và PDF bằng Aspose.Words for Python.
+
+### [Chuyển đổi phương trình Word sang LaTeX – Lưu dưới dạng .md](./convert-word-equations-to-latex-save-as-md/)
+Hướng dẫn chuyển đổi các phương trình trong tài liệu Word sang định dạng LaTeX và lưu dưới dạng tệp Markdown (.md) bằng Aspose.Words for Python.
+
+### [Chuyển đổi docx sang txt và xuất phương trình từ Word dưới dạng LaTeX – Hướng dẫn đầy đủ](./convert-docx-to-txt-and-export-equations-from-word-as-latex/)
+Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang TXT và xuất các phương trình Word dưới dạng LaTeX bằng Aspose.Words for Python.
+
+### [Tạo PDF có thể truy cập từ Word bằng Python – Hướng dẫn chi tiết](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
+Hướng dẫn chi tiết cách tạo PDF đáp ứng tiêu chuẩn truy cập từ tài liệu Word bằng Aspose.Words for Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
