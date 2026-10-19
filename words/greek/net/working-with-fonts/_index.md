@@ -79,6 +79,7 @@
 
 | [Αντικατάσταση Γραμματοσειρών Aspose: Εντοπισμός Ελλιπών Γραμματοσειρών σε Έγγραφα Word](./aspose-font-substitution-detect-missing-fonts-in-word-docs/) | Μάθετε πώς να εντοπίζετε ελλιπείς γραμματοσειρές σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET. |
 | [Αντικατάσταση Γραμματοσειράς Aspose – Πώς να Διαμορφώσετε Ρυθμίσεις Γραμματοσειράς σε C#](./aspose-font-substitution-how-to-configure-font-settings-in-c/) | Μάθετε πώς να ρυθμίσετε την αντικατάσταση γραμματοσειρών και τις ρυθμίσεις γραμματοσειράς στο Aspose.Words για .NET με C#. |
+| [Πώς να Καταγράψετε Προειδοποιήσεις στο Aspose.Words – Πλήρης Οδηγός C#](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) | Μάθετε πώς να εντοπίζετε και να διαχειρίζεστε προειδοποιήσεις κατά την επεξεργασία εγγράφων Word με το Aspose.Words για .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

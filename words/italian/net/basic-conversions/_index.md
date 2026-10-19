@@ -67,6 +67,7 @@
 | [Salva Docx come PDF con Aspose.Words – Guida completa passo‑per‑passo](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/) | Scopri come salvare i file Docx come PDF usando Aspose.Words con una guida completa passo‑per‑passo in C#. |
 | [Come eseguire Mail Merge e convertire DOCX in PDF in C# – Guida completa Aspose](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | Scopri come eseguire il mail merge e convertire documenti DOCX in PDF usando Aspose.Words per .NET con C#, passo passo. |
 | [Convertire Word in PDF con Aspose.Words – Guida completa](./convert-word-to-pdf-with-aspose-words-complete-guide/) | Scopri come convertire Word in PDF con Aspose.Words – guida completa passo passo per sviluppatori .NET. |
+| [Crea PDF da Word in C# – Guida passo‑passo](./create-pdf-from-word-in-c-step-by-step-guide/) | Scopri come creare PDF da documenti Word usando C# e Aspose.Words con una guida passo‑passo e esempi di codice. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

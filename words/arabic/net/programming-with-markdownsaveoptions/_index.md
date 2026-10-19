@@ -168,6 +168,9 @@
 ### [إنشاء markdown من Word – دليل C# كامل](./create-markdown-from-word-full-c-guide/)
 
 ### [كيفية تصدير LaTeX من DOCX – تحويل إلى Markdown](./how-to-export-latex-from-docx-convert-to-markdown/)
+### [حفظ docx كـ markdown – دليل C# كامل مع Aspose.Words](./save-docx-as-markdown-complete-c-guide-with-aspose-words/)
+
+### [تصدير Word إلى Markdown مع ظلال الأشكال وPDF/UA](./export-word-to-markdown-with-shape-shadows-and-pdf-ua/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

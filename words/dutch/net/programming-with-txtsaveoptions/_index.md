@@ -44,6 +44,7 @@ Dankzij deze tutorials kunt u de functionaliteiten van Aspose.Words voor .NET op
 | [Maak txt van document in C# – Exporteer vergelijkingen naar LaTeX](./create-txt-from-document-in-c-export-equations-to-latex/) | Leer hoe u vergelijkingen uit een Word-document exporteert naar LaTeX bij het opslaan als txt met C# en Aspose.Words. |
 | [Hoe LaTeX exporteren vanuit Word – Complete gids voor het exporteren van LaTeX](./how-to-export-latex-from-word-complete-guide-to-export-latex/) | Leer hoe u LaTeX-bestanden vanuit een Word-document exporteert met Aspose.Words voor .NET, inclusief alle benodigde opties en voorbeeldcode. |
 | [Docx opslaan als txt – Complete gids voor het exporteren van Word‑vergelijkingen naar LaTeX](./save-docx-as-txt-complete-guide-to-exporting-word-equations/) | Leer hoe u een DOCX‑bestand als TXT exporteert en Word‑vergelijkingen omzet naar LaTeX met Aspose.Words voor .NET. |
+| [Docx opslaan als txt – Wiskunde exporteren naar LaTeX met Aspose.Words](./save-docx-as-txt-export-math-to-latex-with-aspose-words/) | Leer hoe u wiskundige formules uit een DOCX exporteert naar LaTeX bij het opslaan als TXT met Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

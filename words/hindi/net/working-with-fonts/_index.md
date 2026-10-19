@@ -78,6 +78,7 @@
 | [Aspose.Words में फ़ॉन्ट्स का पता कैसे लगाएँ – पूर्ण गाइड](./how-to-detect-fonts-in-aspose-words-complete-guide/) | Aspose.Words के साथ फ़ॉन्ट पहचान, चेतावनी प्रबंधन और सेटिंग्स को कैसे संभालें, इस पूर्ण गाइड में सीखें। |
 | [.NET में फ़ॉन्ट्स को संभालना – लापता फ़ॉन्ट्स का पता लगाएँ](./how-to-handle-fonts-in-net-detect-missing-fonts/) | .NET के लिए Aspose.Words का उपयोग करके लापता फ़ॉन्ट्स की पहचान करने की चरण‑दर‑चरण गाइड। |
 | [Aspose फ़ॉन्ट प्रतिस्थापन – C# में फ़ॉन्ट सेटिंग्स कैसे कॉन्फ़िगर करें](./aspose-font-substitution-how-to-configure-font-settings-in-c/) | .NET के लिए Aspose.Words में फ़ॉन्ट प्रतिस्थापन सेटिंग्स को कॉन्फ़िगर करने की चरण-दर-चरण गाइड। |
+| [Aspose.Words में चेतावनियों को कैप्चर करने का तरीका – पूर्ण C# गाइड](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) | Aspose.Words के साथ चेतावनी अधिसूचनाओं को कैसे पकड़ें, इस पूर्ण C# गाइड में सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

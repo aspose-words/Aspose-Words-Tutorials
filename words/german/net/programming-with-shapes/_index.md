@@ -59,6 +59,7 @@ Mit Aspose.Words für .NET und diesen Tutorials meistern Sie die Bearbeitung von
 | [Wie man Schatten zu Word‑Formen in C# hinzufügt – Komplett‑Leitfaden](./how-to-add-shadow-to-word-shapes-in-c-complete-guide/) | Erfahren Sie, wie Sie in C# Schatten zu Word‑Formen hinzufügen – vollständige Schritt‑für‑Schritt‑Anleitung. |
 | [Wie man Schatten zu Word‑Formen hinzufügt – Komplettanleitung für Formen](./how-to-add-shadow-word-complete-guide-for-shapes/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Schatten zu Word‑Formen hinzufügen – Schritt‑für‑Schritt‑Anleitung. |
 | [Word-Dokument mit C# erstellen – Form mit Schatten hinzufügen](./create-word-document-c-add-shape-with-shadow/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET in C# einer Word-Datei eine Form mit Schatten hinzufügen. |
+| [Schatten für eine Form in C# festlegen – Schritt‑für‑Schritt‑Anleitung](./how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/) | Erfahren Sie in diesem Schritt‑für‑Schritt‑Tutorial, wie Sie mit Aspose.Words für .NET Schatten zu einer Form in C# hinzufügen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

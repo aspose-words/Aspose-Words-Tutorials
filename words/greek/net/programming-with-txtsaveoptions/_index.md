@@ -44,6 +44,7 @@
 | [Δημιουργία txt από έγγραφο σε C# – Εξαγωγή εξισώσεων σε LaTeX](./create-txt-from-document-in-c-export-equations-to-latex/) | Μάθετε πώς να εξάγετε εξισώσεις από έγγραφα Word σε μορφή LaTeX κατά τη μετατροπή σε αρχείο txt με Aspose.Words για .NET. |
 | [Πώς να εξάγετε LaTeX από το Word – Πλήρης οδηγός εξαγωγής LaTeX](./how-to-export-latex-from-word-complete-guide-to-export-latex/) | Μάθετε πώς να εξάγετε LaTeX από έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET με πλήρη οδηγό βήμα-βήμα. |
 | [Αποθήκευση docx ως txt – Πλήρης οδηγός εξαγωγής εξισώσεων Word σε LaTeX](./save-docx-as-txt-complete-guide-to-exporting-word-equations/) | Μάθετε πώς να μετατρέπετε αρχεία docx σε txt και να εξάγετε εξισώσεις Word σε μορφή LaTeX με το Aspose.Words για .NET. |
+| [Αποθήκευση docx ως txt – Εξαγωγή μαθηματικών σε LaTeX με Aspose.Words](./save-docx-as-txt-export-math-to-latex-with-aspose-words/) | Μάθετε πώς να μετατρέψετε αρχεία docx σε txt και να εξάγετε μαθηματικά σε μορφή LaTeX χρησιμοποιώντας το Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

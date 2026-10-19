@@ -59,6 +59,7 @@ Genom att använda Aspose.Words för .NET och följa dessa handledningar kommer 
 | [Lägg till skugga på form i Word med Aspose.Words – Komplett guide](./add-shadow-to-shape-in-word-with-aspose-words-complete-guide/) | Lär dig hur du lägger till en skugga på en form i Word med Aspose.Words för .NET i en komplett steg‑för‑steg‑guide. |
 | [Lägg till skugga på form i Word-dokument – Komplett C#‑guide](./add-shadow-to-shape-in-word-documents-complete-c-guide/) | Lär dig hur du lägger till en skugga på former i Word-dokument med Aspose.Words för .NET i C# med en steg‑för‑steg‑guide. |
 | [Skapa Word-dokument C# – Lägg till form med skugga](./create-word-document-c-add-shape-with-shadow/) | Lär dig hur du lägger till en form med skugga i ett Word-dokument med Aspose.Words för .NET i C#. |
+| [Hur man ställer in skugga på en form i C# – Steg‑för‑steg‑guide](./how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/) | Lär dig hur du lägger till och anpassar skugga på former i Word-dokument med Aspose.Words för .NET i C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

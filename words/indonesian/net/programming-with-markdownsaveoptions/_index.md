@@ -182,6 +182,10 @@ Pelajari cara memulihkan dokumen Word yang rusak menggunakan Aspose.Words dengan
 Pelajari cara mengekspor persamaan LaTeX dari file DOCX dan mengonversinya menjadi format Markdown menggunakan Aspose.Words untuk .NET.
 ### [Buat markdown dari Word – Panduan Lengkap C#](./create-markdown-from-word-full-c-guide/)
 Pelajari cara mengonversi dokumen Word menjadi markdown menggunakan C# dengan panduan lengkap.
+### [Simpan docx sebagai markdown – Panduan Lengkap C# dengan Aspose.Words](./save-docx-as-markdown-complete-c-guide-with-aspose-words/)
+Pelajari cara mengonversi file DOCX menjadi Markdown dengan panduan lengkap C# menggunakan Aspose.Words.
+
+### [Ekspor Word ke Markdown dengan Bayangan Bentuk dan PDF/UA](./export-word-to-markdown-with-shape-shadows-and-pdf-ua/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -68,6 +68,7 @@ Az Alapvető konverziók című útmutató végigvezeti Önt az Aspose.Words for
 | [Docx mentése PDF-be az Aspose.Words segítségével – Teljes lépésről‑lépésre útmutató](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/) | Tanulja meg, hogyan menthet DOCX fájlokat PDF-be az Aspose.Words segítségével lépésről‑lépésre, részletes útmutatóval. |
 | [Mail Merge és DOCX PDF-be konvertálása C#-ban – Teljes Aspose útmutató](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | Tanulja meg, hogyan használja a mail merge-t, és konvertálja a DOCX fájlokat PDF-be C#-ban az Aspose.Words segítségével. |
 | [Word konvertálása PDF-be az Aspose.Words – Teljes útmutató](./convert-word-to-pdf-with-aspose-words-complete-guide/) | Tanulja meg, hogyan konvertálhat Word dokumentumokat PDF-be az Aspose.Words használatával, részletes lépésekkel. |
+| [PDF létrehozása Wordből C#‑ban – Lépésről‑lépésre útmutató](./create-pdf-from-word-in-c-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre PDF-et Word dokumentumból C#‑ban az Aspose.Words segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

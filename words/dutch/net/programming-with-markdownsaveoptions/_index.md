@@ -95,6 +95,9 @@ Leer hoe u Word-documenten naar Markdown converteert met C# en Aspose.Words in e
 Leer hoe u DOCX-bestanden naar Markdown converteert met C# en Aspose.Words in een volledige stap‑voor‑stap gids.
 ### [Word naar Markdown converteren – Complete gids met afbeeldingsextractie](./convert-word-to-markdown-complete-guide-with-image-extractio/)
 Leer hoe u Word-documenten naar Markdown converteert en afbeeldingen extraheert met een volledige C#‑handleiding.
+### [Docx opslaan als markdown – Complete C#-gids met Aspose.Words](./save-docx-as-markdown-complete-c-guide-with-aspose-words/)
+
+Leer hoe u docx opslaat als markdown met een volledige C#‑handleiding en Aspose.Words.
 
 ### [Hoe Markdown te exporteren vanuit Word – Complete C#-gids](./how-to-export-markdown-from-word-complete-c-guide/)
 
@@ -244,6 +247,7 @@ Leer hoe u een aangepaste map voor afbeeldingen instelt bij het exporteren van W
 Leer hoe u beschadigde Word-documenten herstelt met Aspose.Words in een volledige stap‑voor‑stap C#‑handleiding.
 ### [Markdown maken vanuit Word – Volledige C#‑gids](./create-markdown-from-word-full-c-guide/)
 Leer hoe u met C# Markdown genereert vanuit Word-documenten met een volledige stap‑voor‑stap handleiding.
+### [Export Word naar Markdown met vormschaduwen en PDF/UA](./export-word-to-markdown-with-shape-shadows-and-pdf-ua/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -69,6 +69,7 @@ Basisconversies begeleidt u door basisdocumentconversies met behulp van de Aspos
 | [Docx opslaan als PDF met Aspose.Words – Complete stap‑voor‑stap gids](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/) | Leer hoe u een DOCX-bestand opslaat als PDF met Aspose.Words via een volledige stap‑voor‑stap gids met voorbeeldcode. |
 | [Hoe u mail merge uitvoert en DOCX naar PDF converteert in C# – Complete Aspose‑gids](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | Leer hoe u mail merge uitvoert en DOCX‑bestanden naar PDF converteert in C# met Aspose.Words. |
 | [Word naar PDF converteren met Aspose.Words – Complete gids](./convert-word-to-pdf-with-aspose-words-complete-guide/) | Leer hoe u Word-documenten naar PDF converteert met Aspose.Words in een volledige stap‑voor‑stap gids. |
+| [PDF maken vanuit Word in C# – Stapsgewijze handleiding](./create-pdf-from-word-in-c-step-by-step-guide/) | Leer hoe u PDF's maakt vanuit Word in C# met Aspose.Words. Volg onze stapsgewijze handleiding met voorbeeldcode. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

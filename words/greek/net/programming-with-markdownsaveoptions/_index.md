@@ -103,6 +103,8 @@
 | [Πώς να εξάγετε LaTeX από το Word – Μετατροπή DOCX σε Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/) | Μάθετε πώς να εξάγετε εξισώσεις LaTeX από έγγραφα Word και να τις μετατρέψετε σε Markdown χρησιμοποιώντας Aspose.Words για .NET. |
 | [Πώς να εξάγετε LaTeX από DOCX – Μετατροπή σε Markdown](./how-to-export-latex-from-docx-convert-to-markdown/) | Μάθετε πώς να εξάγετε εξισώσεις LaTeX από αρχεία DOCX και να τις μετατρέψετε σε Markdown με Aspose.Words για .NET. |
 | [Δημιουργία markdown από Word – Πλήρης οδηγός C#](./create-markdown-from-word-full-c-guide/) | Μάθετε πώς να δημιουργήσετε markdown από έγγραφα Word με πλήρη οδηγό C# χρησιμοποιώντας Aspose.Words. |
+| [Αποθήκευση docx ως markdown – Πλήρης Οδηγός C# με Aspose.Words](./save-docx-as-markdown-complete-c-guide-with-aspose-words/) | Μάθετε πώς να αποθηκεύσετε αρχεία docx ως markdown με πλήρη οδηγό C# χρησιμοποιώντας Aspose.Words. |
+| [Εξαγωγή Word σε Markdown με Σκιές Σχημάτων και PDF/UA](./export-word-to-markdown-with-shape-shadows-and-pdf-ua/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

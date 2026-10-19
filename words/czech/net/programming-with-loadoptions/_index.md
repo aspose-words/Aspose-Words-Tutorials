@@ -36,7 +36,6 @@ V těchto tutoriálech se naučíte, jak používat LoadOptions k načítání d
 | [Jak obnovit soubory DOCX v C# – Kompletní průvodce](./how-to-recover-docx-files-in-c-complete-guide/) | Naučte se, jak obnovit poškozené soubory DOCX v C# pomocí podrobného návodu krok za krokem. |
 | [Obnovit poškozený DOCX pomocí Aspose.Words – nastavit režim obnovy a možnosti načítání](./recover-damaged-docx-with-aspose-words-set-recovery-mode-and/) | Naučte se, jak nastavit režim obnovy a použít LoadOptions pro načtení poškozených souborů DOCX v Aspose.Words. |
 | [Jak obnovit DOCX – nastavit režim obnovy a otevřít poškozené soubory Word](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) | Naučte se, jak nastavit režim obnovy a otevřít poškozené soubory DOCX pomocí Aspose.Words pro .NET. |
-| [Jak obnovit soubory DOCX v C# – krok za krokem](./how-to-recover-docx-files-in-c-step-by-step-guide/) | Naučte se, jak v C# obnovit poškozené soubory DOCX krok za krokem pomocí Aspose.Words. |
 | [Jak obnovit DOCX – krok za krokem pro poškozené soubory](./how-to-recover-docx-step-by-step-guide-for-corrupt-files/) | Naučte se, jak obnovit poškozené soubory DOCX pomocí Aspose.Words krok za krokem. |
 | [Jak obnovit soubory DOCX – nastavit režim obnovy s Aspose](./how-to-recover-docx-files-set-recovery-mode-with-aspose/) | Naučte se, jak nastavit režim obnovy pro opravu poškozených souborů DOCX pomocí Aspose.Words v .NET. |
 | [Jak obnovit soubory Word – kompletní průvodce s Aspose.Words](./how-to-recover-word-files-complete-guide-with-aspose-words/) | Naučte se, jak pomocí Aspose.Words obnovit poškozené soubory Word krok za krokem. |
@@ -70,6 +69,7 @@ V těchto tutoriálech se naučíte, jak používat LoadOptions k načítání d
 | [Obnovit poškozený docx pomocí Aspose.Words – Kompletní průvodce krok za krokem](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Kompletní průvodce obnovou poškozených souborů DOCX pomocí Aspose.Words v .NET. |
 | [Povolit varování o náhradě písma v C# s Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Naučte se, jak v C# povolit varování při náhradě chybějících písem pomocí Aspose.Words. |
 | [Registrace varovného zpětného volání v Aspose.Words – Kompletní programovací průvodce](./register-warning-callback-in-aspose-words-complete-programmi/) | Naučte se, jak registrovat varování zpětného volání v Aspose.Words s podrobným krok za krokem průvodcem. |
+| [Jak obnovit soubory DOCX v C# – krok za krokem](./how-to-recover-docx-files-in-c-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Words obnovit poškozené soubory DOCX v C# krok za krokem. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

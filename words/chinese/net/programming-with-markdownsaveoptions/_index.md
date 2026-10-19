@@ -261,6 +261,13 @@
 ### [使用 Aspose.Words 恢复 Word 文档 – 完整指南](./recover-word-document-with-aspose-words-full-guide/)
 
 使用 Aspose.Words for .NET 将受损的 Word 文档恢复并保存，提供完整的 C# 示例和步骤指南。
+### [将 docx 保存为 markdown – 完整 C# 指南（使用 Aspose.Words）](./save-docx-as-markdown-complete-c-guide-with-aspose-words/)
+
+使用 Aspose.Words for .NET 将 docx 文档保存为 Markdown，提供完整的 C# 示例和详细的步骤指南。
+
+### [导出 Word 为 Markdown（含形状阴影和 PDF/UA）](./export-word-to-markdown-with-shape-shadows-and-pdf-ua/)
+
+使用 Aspose.Words for .NET 将 Word 文档导出为 Markdown，保留形状阴影并生成符合 PDF/UA 标准的 PDF。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

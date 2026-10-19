@@ -117,8 +117,6 @@
 ### [กู้คืนเอกสาร Word ด้วย Aspose.Words – คู่มือเต็ม](./recover-word-document-with-aspose-words-full-guide/)
 เรียนรู้วิธีกู้คืนไฟล์ Word ที่เสียหายโดยใช้ Aspose.Words พร้อมขั้นตอนละเอียดและตัวอย่างโค้ดใน C#
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 ### [แปลง Docx เป็น Markdown ด้วย C# – คู่มือโปรแกรมเต็ม](./convert-docx-to-markdown-with-c-complete-programming-guide/)
 ### [แปลง Word เป็น Markdown – คู่มือเต็มพร้อมการสกัดรูปภาพ](./convert-word-to-markdown-complete-guide-with-image-extractio/)
 แปลงไฟล์ Word เป็น Markdown พร้อมสกัดรูปภาพอย่างครบถ้วนด้วย Aspose.Words สำหรับ .NET
@@ -216,6 +214,9 @@
 
 ### [สร้าง markdown จาก Word – คู่มือเต็ม C#](./create-markdown-from-word-full-c-guide/)
 เรียนรู้ขั้นตอนการสร้างไฟล์ markdown จาก Word อย่างครบถ้วนด้วย C#
+### [บันทึก docx เป็น markdown – คู่มือเต็ม C# พร้อม Aspose.Words](./save-docx-as-markdown-complete-c-guide-with-aspose-words/)
+
+### [ส่งออก Word เป็น Markdown พร้อมเงา Shape และ PDF/UA](./export-word-to-markdown-with-shape-shadows-and-pdf-ua/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

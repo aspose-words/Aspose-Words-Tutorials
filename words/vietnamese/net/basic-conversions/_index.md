@@ -69,6 +69,7 @@ Basic Conversions hướng dẫn bạn cách chuyển đổi tài liệu cơ b�
 | [Tạo PDF có thể truy cập từ DOCX trong C# – Cách chuyển đổi Word sang PDF](./create-accessible-pdf-from-docx-in-c-how-to-convert-word-to/) | Hướng dẫn cách tạo PDF có thể truy cập từ tệp DOCX bằng Aspose.Words cho .NET trong C#. |
 | [Chuyển đổi DOCX sang TXT – Hướng dẫn C# đầy đủ cho các phương trình LaTeX](./convert-docx-to-txt-complete-c-guide-for-latex-equations/) | Hướng dẫn chi tiết cách chuyển DOCX sang TXT trong C#, bảo toàn các công thức LaTeX, kèm ví dụ mã nguồn. |
 | [Cách Mail Merge và Chuyển Đổi DOCX sang PDF trong C# – Hướng Dẫn Đầy Đủ Aspose](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | Hướng dẫn chi tiết cách thực hiện Mail Merge và chuyển DOCX sang PDF trong C# bằng Aspose.Words, kèm ví dụ mã nguồn. |
+| [Tạo PDF từ Word trong C# – Hướng dẫn từng bước](./create-pdf-from-word-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo PDF từ tài liệu Word bằng C# sử dụng Aspose.Words, kèm ví dụ mã nguồn. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

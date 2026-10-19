@@ -71,6 +71,7 @@ Conversões Básicas orienta você nas conversões básicas de documentos usando
 | [Criar PDF a partir do Word em C# – Guia LowCode Completo](./create-pdf-from-word-in-c-complete-lowcode-guide/) | Aprenda a criar PDFs a partir de documentos Word usando C# com um guia LowCode completo e passo a passo. |
 | [Converter Word para PDF com Aspose.Words – Guia Completo](./convert-word-to-pdf-with-aspose-words-complete-guide/) | Aprenda a converter documentos Word para PDF usando Aspose.Words com este guia completo passo a passo. |
 
+| [Criar PDF a partir do Word em C# – Guia Passo a Passo](./create-pdf-from-word-in-c-step-by-step-guide/) | Aprenda a criar PDF a partir de documentos Word usando C# e Aspose.Words com este guia passo a passo. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -44,6 +44,7 @@ Aspose.Words for .NET ट्यूटोरियल आपको Word दस्
 | [C# में दस्तावेज़ से txt बनाएं – समीकरणों को LaTeX में निर्यात करें](./create-txt-from-document-in-c-export-equations-to-latex/) | C# में Aspose.Words का उपयोग करके दस्तावेज़ को txt में बदलें और समीकरणों को LaTeX फ़ॉर्मेट में निर्यात करें। |
 | [Word से LaTeX निर्यात कैसे करें – LaTeX निर्यात के लिए पूर्ण गाइड](./how-to-export-latex-from-word-complete-guide-to-export-latex/) | Word दस्तावेज़ को LaTeX फ़ॉर्मेट में बदलने की पूरी प्रक्रिया सीखें, सेटिंग्स और कोड उदाहरण सहित। |
 | [docx को txt के रूप में सहेजें – Word समीकरणों को LaTeX में निर्यात करने के लिए पूर्ण गाइड](./save-docx-as-txt-complete-guide-to-exporting-word-equations/) | Word दस्तावेज़ को txt में बदलें और समीकरणों को LaTeX फ़ॉर्मेट में निर्यात करने की पूरी प्रक्रिया सीखें। |
+| [docx को txt के रूप में सहेजें – Aspose.Words के साथ गणित को LaTeX में निर्यात करें](./save-docx-as-txt-export-math-to-latex-with-aspose-words/) | Aspose.Words का उपयोग करके docx फ़ाइल को txt में बदलें और गणितीय समीकरणों को LaTeX स्वरूप में निर्यात करना सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

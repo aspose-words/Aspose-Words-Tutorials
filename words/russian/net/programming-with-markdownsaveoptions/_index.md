@@ -104,6 +104,8 @@
 | [Восстановить документ Word с Aspose.Words – Полное руководство](./recover-word-document-with-aspose-words-full-guide/) | Восстановите повреждённый документ Word и конвертируйте его в другие форматы с помощью Aspose.Words. |
 | [Создать markdown из Word – Полное руководство C#](./create-markdown-from-word-full-c-guide/) | Полное руководство по созданию Markdown из Word с помощью C# и Aspose.Words. |
 | [Как экспортировать LaTeX из DOCX – Конвертировать в Markdown](./how-to-export-latex-from-docx-convert-to-markdown/) | Экспортируйте LaTeX из DOCX в формат Markdown с помощью Aspose.Words для .NET. Подробное руководство по конвертации. |
+| [Сохранить docx как markdown – Полное руководство C# с Aspose.Words](./save-docx-as-markdown-complete-c-guide-with-aspose-words/) | Подробное руководство по сохранению DOCX в Markdown с использованием Aspose.Words и C#. |
+| [Экспорт Word в Markdown с тенями фигур и PDF/UA](./export-word-to-markdown-with-shape-shadows-and-pdf-ua/) | Экспортируйте документы Word в Markdown, сохраняя тени фигур, и генерируйте PDF/UA с помощью Aspose.Words для .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

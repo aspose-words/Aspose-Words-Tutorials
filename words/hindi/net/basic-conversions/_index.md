@@ -69,6 +69,7 @@
 | [DOCX को PDF के रूप में सहेजें – Aspose.Words के साथ पूर्ण चरण‑दर‑स्टेप गाइड](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/) | Aspose.Words का उपयोग करके .NET में DOCX को PDF में बदलने की पूरी चरण‑दर‑स्टेप मार्गदर्शिका। |
 | [C# में मेल मर्ज और DOCX को PDF में बदलने का तरीका – पूर्ण Aspose गाइड](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | .NET के लिए Aspose.Words का उपयोग करके C# में मेल मर्ज करके DOCX को PDF में बदलना सीखें। विस्तृत चरण‑दर‑स्टेप गाइड। |
 | [Aspose.Words के साथ Word को PDF में बदलें – पूर्ण गाइड](./convert-word-to-pdf-with-aspose-words-complete-guide/) | .NET के लिए Aspose.Words का उपयोग करके Word फ़ाइल को PDF में बदलने की पूरी गाइड। चरण‑दर‑स्टेप विवरण। |
+| [C# में Word से PDF बनाएं – चरण‑दर‑चरण मार्गदर्शिका](./create-pdf-from-word-in-c-step-by-step-guide/) | C# में Aspose.Words का उपयोग करके Word फ़ाइल को PDF में बदलने की विस्तृत चरण‑दर‑चरण गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

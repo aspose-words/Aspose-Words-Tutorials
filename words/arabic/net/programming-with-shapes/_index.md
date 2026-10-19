@@ -59,6 +59,7 @@
 | [كيفية إضافة ظل إلى Word – دليل شامل للأشكال](./how-to-add-shadow-word-complete-guide-for-shapes/) |تعلم كيفية إضافة ظل إلى الأشكال في مستندات Word باستخدام Aspose.Words للـ .NET خطوة بخطوة. |
 | [إضافة ظل إلى الشكل في مستندات Word – دليل C# كامل](./add-shadow-to-shape-in-word-documents-complete-c-guide/) | تعرف على كيفية إضافة ظل إلى شكل في مستندات Word باستخدام Aspose.Words for .NET وC# خطوة بخطوة. |
 | [إنشاء مستند Word C# – إضافة شكل بظل](./create-word-document-c-add-shape-with-shadow/) | تعلم كيفية إنشاء مستند Word وإضافة شكل مع تأثير الظل باستخدام Aspose.Words for .NET وC# خطوة بخطوة. |
+| [كيفية تعيين الظل على شكل في C# – دليل خطوة بخطوة](./how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/) | تعرّف على طريقة إضافة ظل إلى الأشكال في مستندات Word باستخدام Aspose.Words for .NET مع مثال عملي بلغة C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

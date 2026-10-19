@@ -78,6 +78,7 @@
 | [Aspose Замена шрифтов: Обнаружение отсутствующих шрифтов в документах Word](./aspose-font-substitution-detect-missing-fonts-in-word-docs/) | Узнайте, как обнаружить недостающие шрифты в документах Word с помощью Aspose.Words для .NET. |
 | [Как обработать шрифты в .NET – обнаружить недостающие шрифты](./how-to-handle-fonts-in-net-detect-missing-fonts/) | Узнайте, как обнаруживать недостающие шрифты в документах Word с помощью Aspose.Words для .NET. |
 | [Aspose Font Substitution – Как настроить параметры шрифтов в C#](./aspose-font-substitution-how-to-configure-font-settings-in-c/) | Узнайте, как настроить параметры замены шрифтов в Aspose.Words для .NET с помощью C# в этом пошаговом руководстве. |
+| [Как захватывать предупреждения в Aspose.Words – Полное руководство C#](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) | Узнайте, как захватывать предупреждения в Aspose.Words для .NET с помощью полного руководства на C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

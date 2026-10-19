@@ -78,6 +78,7 @@
 | [Aspose 글꼴 대체: Word 문서에서 누락된 글꼴 감지](./aspose-font-substitution-detect-missing-fonts-in-word-docs/) | Aspose.Words for .NET을 사용하여 Word 문서에서 누락된 글꼴을 감지하는 방법을 단계별 가이드로 알아보세요. |
 | [.NET에서 글꼴 처리 방법 – 누락된 글꼴 감지](./how-to-handle-fonts-in-net-detect-missing-fonts/) | Aspose.Words for .NET을 사용하여 문서에서 누락된 글꼴을 감지하고 처리하는 방법을 단계별로 안내합니다. |
 | [Aspose 글꼴 대체 – C#에서 글꼴 설정 구성 방법](./aspose-font-substitution-how-to-configure-font-settings-in-c/) | Aspose.Words for .NET을 사용하여 C#에서 글꼴 대체 설정을 구성하는 방법을 단계별로 안내합니다. |
+| [Aspose.Words에서 경고 캡처하기 – 완전 C# 가이드](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) | Aspose.Words for .NET을 사용하여 문서 처리 중 발생하는 경고를 포착하고 관리하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

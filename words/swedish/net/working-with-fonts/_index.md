@@ -78,6 +78,7 @@ Oavsett om du vill formatera text med olika teckensnitt, ange regler för tecken
 | [Hur man fångar varningar – Ställ in standardteckensnittsinställningar](./how-to-capture-warnings-set-default-font-settings/) | Lär dig hur du fångar varningsmeddelanden och konfigurerar standardteckensnittsinställningar i Aspose.Words för .NET. |
 | [Spara Word-dokument – Upptäck saknade teckensnitt med Aspose.Words](./save-word-document-detect-missing-fonts-with-aspose-words/) | Lär dig hur du sparar ett Word-dokument och identifierar saknade teckensnitt med Aspose.Words för .NET. |
 | [Aspose teckensnittsersättning – Så konfigurerar du teckensnittsinställningar i C#](./aspose-font-substitution-how-to-configure-font-settings-in-c/) | Lär dig hur du konfigurerar teckensnittsinställningar i C# med Aspose Font Substitution. |
+| [Hur man fångar varningar i Aspose.Words – Komplett C#-guide](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) | Lär dig hur du fångar varningsmeddelanden i Aspose.Words för .NET med en komplett C#-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

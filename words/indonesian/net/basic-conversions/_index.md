@@ -69,6 +69,7 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 | [Simpan DOCX sebagai PDF dengan Aspose.Words – Panduan Lengkap Langkah‑demi‑Langkah](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/) | Panduan langkah demi langkah menyimpan file DOCX sebagai PDF menggunakan Aspose.Words. Cocok untuk pengembang .NET. |
 | [Cara Mail Merge dan Mengonversi DOCX ke PDF dalam C# – Panduan Lengkap Aspose](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | Pelajari cara melakukan mail merge dan mengonversi DOCX ke PDF menggunakan Aspose.Words dalam C# dengan panduan langkah demi langkah. |
 | [Mengonversi Word ke PDF dengan Aspose.Words – Panduan Lengkap](./convert-word-to-pdf-with-aspose-words-complete-guide/) | Panduan lengkap langkah demi langkah mengonversi dokumen Word ke PDF menggunakan Aspose.Words untuk .NET. |
+| [Buat PDF dari Word di C# – Panduan Langkah‑demi‑Langkah](./create-pdf-from-word-in-c-step-by-step-guide/) | Panduan langkah demi langkah membuat PDF dari dokumen Word menggunakan Aspose.Words untuk .NET dalam C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
