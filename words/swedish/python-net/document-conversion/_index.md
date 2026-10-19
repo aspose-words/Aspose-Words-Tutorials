@@ -71,6 +71,16 @@ Lär dig hur du omvandlar Word‑ekvationer till LaTeX och sparar dem som Markdo
 Lär dig hur du konverterar DOCX-filer till TXT och exporterar Word‑ekvationer som LaTeX med Aspose.Words för Python.
 ### [Hur man återställer DOCX, konverterar till Markdown och PDF med Aspose](./how-to-recover-docx-convert-to-markdown-pdf-with-aspose/)
 Lär dig återställa korrupta DOCX-filer och konvertera dem till både Markdown och PDF med Aspose.Words för Python.
+### [Spara docx som markdown med LaTeX-ekvationer – Python-guide](./save-docx-as-markdown-with-latex-equations-python-guide/)
+Lär dig hur du sparar docx-filer som markdown med LaTeX‑ekvationer med Aspose.Words för Python.
+### [Spara Word som PDF med Aspose.Words – Komplett Python-guide](./save-word-as-pdf-with-aspose-words-complete-python-guide/)
+Lär dig hur du sparar Word-dokument som PDF med Aspose.Words för Python. Steg-för-steg-instruktioner och kodexempel.
+### [Skapa tillgänglig PDF från Word – Komplett programmeringsguide](./create-accessible-pdf-from-word-complete-programming-guide/)
+Lär dig hur du skapar tillgängliga PDF-filer från Word med Aspose.Words för Python. Steg-för-steg-instruktioner och kodexempel.
+### [Exportera docx som markdown – Fullständig steg‑för‑steg‑guide](./export-docx-as-markdown-full-step-by-step-guide/)
+Lär dig hur du exporterar docx-filer till markdown med Aspose.Words för Python. Steg‑för‑steg‑instruktioner och kodexempel.
+### [Skapa PNG‑rutnät från Word-dokument – Komplett steg‑för‑steg‑guide](./create-png-grid-from-word-document-complete-step-by-step-gui/)
+Lär dig hur du skapar ett PNG‑rutnät från ett Word‑dokument med Aspose.Words för Python. Steg‑för‑steg‑instruktioner och kodexempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

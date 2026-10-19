@@ -86,6 +86,20 @@ Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang TXT và xuất c
 
 ### [Tạo PDF có thể truy cập từ Word bằng Python – Hướng dẫn chi tiết](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Hướng dẫn chi tiết cách tạo PDF đáp ứng tiêu chuẩn truy cập từ tài liệu Word bằng Aspose.Words for Python.
+### [Lưu docx thành markdown với công thức LaTeX – Hướng dẫn Python](./save-docx-as-markdown-with-latex-equations-python-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang Markdown, bảo toàn công thức LaTeX bằng Aspose.Words cho Python.
+
+### [Lưu Word thành PDF với Aspose.Words – Hướng dẫn Python đầy đủ](./save-word-as-pdf-with-aspose-words-complete-python-guide/)
+Hướng dẫn chi tiết cách lưu tài liệu Word thành PDF bằng Aspose.Words cho Python.
+
+### [Tạo PDF có khả năng truy cập từ Word – Hướng dẫn lập trình đầy đủ](./create-accessible-pdf-from-word-complete-programming-guide/)
+Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập từ tài liệu Word bằng Aspose.Words cho Python.
+
+### [Xuất docx thành markdown – Hướng dẫn đầy đủ từng bước](./export-docx-as-markdown-full-step-by-step-guide/)
+Hướng dẫn chi tiết cách xuất tệp DOCX thành Markdown bằng Aspose.Words cho Python.
+
+### [Tạo lưới PNG từ tài liệu Word – Hướng dẫn chi tiết từng bước](./create-png-grid-from-word-document-complete-step-by-step-gui/)
+Hướng dẫn chi tiết cách tạo lưới PNG từ tài liệu Word bằng Aspose.Words cho Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -45,6 +45,8 @@
 Μάθετε πώς να προσθέσετε ορθογώνιο σχήμα και σκιά σε έγγραφα Word με το Aspose.Words για Python-net.
 ### [Δημιουργία Εγγράφου Word με Python – Οδηγός Προσθήκης Σκιάς σε Σχήμα](./create-word-document-python-add-shadow-to-shape-guide/)
 Μάθετε πώς να προσθέσετε σκιά σε σχήματα ενός εγγράφου Word χρησιμοποιώντας το Aspose.Words για Python.
+### [Προσθήκη Σκιάς σε Σχήμα σε Python – Πλήρης Οδηγός Aspose.Words](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
+Μάθετε πώς να προσθέσετε σκιά σε σχήματα χρησιμοποιώντας Aspose.Words για Python, βελτιώνοντας την εμφάνιση των εγγράφων σας.
 
 ## Πρόσθετοι Πόροι
 

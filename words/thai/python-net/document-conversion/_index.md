@@ -89,6 +89,21 @@
 ### [วิธีกู้ไฟล์ DOCX และแปลงเป็น Markdown และ PDF – คู่มือฉบับสมบูรณ์สำหรับ Python](./how-to-recover-docx-and-convert-it-to-markdown-and-pdf-compl/)
 เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายและแปลงเป็น Markdown และ PDF ด้วย Aspose.Words for Python อย่างละเอียด
 
+### [บันทึก docx เป็น markdown พร้อมสมการ LaTeX – คู่มือ Python](./save-docx-as-markdown-with-latex-equations-python-guide/)
+เรียนรู้วิธีบันทึกไฟล์ docx เป็น markdown พร้อมสมการ LaTeX ด้วย Aspose.Words for Python อย่างละเอียดและง่ายต่อการใช้งาน
+
+### [บันทึก Word เป็น PDF ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์สำหรับ Python](./save-word-as-pdf-with-aspose-words-complete-python-guide/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
+
+### [สร้าง PDF ที่เข้าถึงได้จาก Word – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./create-accessible-pdf-from-word-complete-programming-guide/)
+เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากไฟล์ Word ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
+
+### [ส่งออก docx เป็น markdown – คู่มือฉบับสมบูรณ์สำหรับ Python](./export-docx-as-markdown-full-step-by-step-guide/)
+เรียนรู้วิธีส่งออกไฟล์ docx เป็น markdown อย่างละเอียดด้วย Aspose.Words for Python ในขั้นตอนที่ชัดเจนและครบถ้วน
+
+### [สร้างกริด PNG จากเอกสาร Word – คู่มือฉบับสมบูรณ์แบบขั้นตอนต่อขั้นตอน](./create-png-grid-from-word-document-complete-step-by-step-gui/)
+เรียนรู้วิธีสร้างกริด PNG จากเอกสาร Word ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

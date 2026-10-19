@@ -71,6 +71,16 @@ Ismerje meg, hogyan állíthatja helyre a DOCX fájlokat, és konvertálhatja ő
 Tanulja meg, hogyan konvertálhatja a Word egyenleteket LaTeX kóddá, és mentheti őket Markdown (.md) fájlba Python segítségével.
 ### [DOCX konvertálása TXT-re és egyenletek exportálása Wordből LaTeX-be – Teljes útmutató](./convert-docx-to-txt-and-export-equations-from-word-as-latex/)
 Tanulja meg, hogyan konvertálja a DOCX fájlokat TXT formátumba, és exportálja a Word egyenleteket LaTeX kóddá Python segítségével.
+### [DOCX mentése Markdown-be LaTeX egyenletekkel – Python útmutató](./save-docx-as-markdown-with-latex-equations-python-guide/)
+Tanulja meg, hogyan menthet DOCX fájlokat Markdown-be LaTeX egyenletekkel Python segítségével.
+### [DOCX exportálása Markdown-be – Teljes lépésről‑lépésre útmutató](./export-docx-as-markdown-full-step-by-step-guide/)
+Ismerje meg, hogyan exportálhat DOCX fájlokat markdown formátumba részletes, lépésről‑lépésre útmutatóval.
+### [Word mentése PDF-be az Aspose.Words segítségével – Teljes Python útmutató](./save-word-as-pdf-with-aspose-words-complete-python-guide/)
+Ismerje meg, hogyan menthet Word dokumentumokat PDF-be az Aspose.Words segítségével Python nyelven.
+### [Hozzon létre akadálymentes PDF-et a Word-ből – Teljes programozási útmutató](./create-accessible-pdf-from-word-complete-programming-guide/)
+Ismerje meg, hogyan hozhat létre akadálymentes PDF fájlokat a Word dokumentumokból Python és Aspose.Words segítségével.
+### [PNG rács létrehozása Word dokumentumból – Teljes lépésről‑lépésre útmutató](./create-png-grid-from-word-document-complete-step-by-step-gui/)
+Ismerje meg, hogyan hozhat létre PNG képrácsot Word dokumentumból Python és Aspose.Words segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

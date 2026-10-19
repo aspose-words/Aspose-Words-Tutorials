@@ -45,6 +45,8 @@ Python ve Aspose.Words kullanarak dikdörtgen şekli ekleyin, gölge uygulayın 
 Aspose.Words for Python-net kullanarak Word belgesine dikdörtgen şekli ekleyip gölgesini ayarlamayı adım adım öğrenin.
 ### [Word Belgesi Oluşturma Python – Şekle Gölge Ekleme Kılavuzu](./create-word-document-python-add-shadow-to-shape-guide/)
 Python ile Aspose.Words kullanarak bir Word belgesi oluşturun ve şekillere gölge eklemeyi öğrenin.
+### [Python'da Şekle Gölge Ekleme – Tam Aspose.Words Kılavuzu](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
+Python kullanarak Word belgelerindeki şekillere gölge eklemeyi adım adım öğrenin.
 
 ## Ek Kaynaklar
 

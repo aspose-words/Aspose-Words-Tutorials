@@ -34,6 +34,9 @@ Aspose.Words for Python के साथ मीडिया प्रकार�
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 जानें कि Python के लिए Aspose.Words का उपयोग करके SVG आउटपुट को कैसे अनुकूलित किया जाए। यह गाइड इमेज-जैसी प्रॉपर्टी, टेक्स्ट रेंडरिंग और सुरक्षा संवर्द्धन जैसी कस्टम सुविधाओं को कवर करती है।
 
+    ### [Python में आकृति में शैडो जोड़ें – पूर्ण Aspose.Words ट्यूटोरियल](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
+Python के लिए Aspose.Words का उपयोग करके आकृतियों में शैडो जोड़ने की पूरी प्रक्रिया सीखें।
+
 ### [C# में शैडो कैसे जोड़ें – पूर्ण प्रोग्रामिंग गाइड](./how-to-add-shadow-in-c-complete-programming-guide/)
 
 ### [Aspose का उपयोग करके Word में आयत सम्मिलित करना और शैडो जोड़ना](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)

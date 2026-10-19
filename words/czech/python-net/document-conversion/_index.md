@@ -71,6 +71,16 @@ Naučte se převést rovnice z dokumentu Word do LaTeX a uložit je jako soubor 
 Naučte se převést soubory DOCX na TXT a exportovat rovnice z Wordu do LaTeXu pomocí Aspose.Words pro Python.
 ### [Jak obnovit DOCX, převést na Markdown a PDF pomocí Aspose](./how-to-recover-docx-convert-to-markdown-pdf-with-aspose/)
 Naučte se opravit poškozené soubory DOCX a převést je do formátů Markdown a PDF pomocí Aspose.Words pro Python.
+### [Uložení DOCX jako Markdown s rovnicemi LaTeX – průvodce v Pythonu](./save-docx-as-markdown-with-latex-equations-python-guide/)
+Naučte se převést DOCX na Markdown a zachovat rovnice LaTeX pomocí Aspose.Words pro Python.
+### [Uložení Wordu jako PDF s Aspose.Words – kompletní průvodce v Pythonu](./save-word-as-pdf-with-aspose-words-complete-python-guide/)
+Naučte se uložit dokument Word jako PDF pomocí Aspose.Words pro Python a automatizovat konverzi.
+### [Vytvoření přístupného PDF z Wordu – kompletní průvodce v Pythonu](./create-accessible-pdf-from-word-complete-programming-guide/)
+Naučte se vytvořit přístupný PDF z dokumentu Word pomocí Aspose.Words pro Python a zajistit splnění standardů přístupnosti.
+### [Export DOCX jako Markdown – kompletní průvodce krok za krokem](./export-docx-as-markdown-full-step-by-step-guide/)
+Naučte se exportovat soubory DOCX do formátu Markdown pomocí Aspose.Words pro Python.
+### [Vytvoření PNG mřížky z dokumentu Word – kompletní průvodce krok za krokem](./create-png-grid-from-word-document-complete-step-by-step-gui/)
+Naučte se vytvořit PNG mřížku z dokumentu Word pomocí Aspose.Words pro Python a automatizovat proces.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

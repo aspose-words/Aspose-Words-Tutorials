@@ -86,6 +86,20 @@ DOCX फ़ाइलों को TXT में परिवर्तित क�
 
 ### [Aspose के साथ DOCX को पुनर्प्राप्त करें, मार्कडाउन और PDF में बदलें](./how-to-recover-docx-convert-to-markdown-pdf-with-aspose/)
 DOCX फ़ाइल को ठीक करें, उसे मार्कडाउन और PDF फ़ॉर्मेट में बदलने के लिए पायथन कोड और चरण‑दर‑चरण मार्गदर्शन।
+### [LaTeX समीकरणों के साथ docx को मार्कडाउन में सहेजें – पायथन गाइड](./save-docx-as-markdown-with-latex-equations-python-guide/)
+docx फ़ाइलों को LaTeX समीकरणों के साथ मार्कडाउन में बदलने के लिए पायथन कोड और चरण-दर-चरण मार्गदर्शन।
+
+### [docx को मार्कडाउन में निर्यात करें – पूर्ण चरण‑दर‑चरण गाइड](./export-docx-as-markdown-full-step-by-step-guide/)
+docx फ़ाइलों को मार्कडाउन फ़ॉर्मेट में बदलने के लिए पायथन कोड और विस्तृत चरण‑दर‑चरण मार्गदर्शन।
+
+### [Aspose.Words के साथ वर्ड को PDF के रूप में सहेजें – पूर्ण पायथन गाइड](./save-word-as-pdf-with-aspose-words-complete-python-guide/)
+Aspose.Words का उपयोग करके वर्ड दस्तावेज़ को PDF में बदलें। पायथन कोड और चरण-दर-चरण मार्गदर्शन।
+
+### [वर्ड से एक्सेसिबल PDF बनाएं – पूर्ण प्रोग्रामिंग गाइड](./create-accessible-pdf-from-word-complete-programming-guide/)
+Aspose.Words का उपयोग करके वर्ड दस्तावेज़ को एक्सेसिबल PDF में बदलें। पायथन कोड और चरण-दर-चरण मार्गदर्शन।
+
+### [वर्ड दस्तावेज़ से PNG ग्रिड बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./create-png-grid-from-word-document-complete-step-by-step-gui/)
+Aspose.Words का उपयोग करके वर्ड फ़ाइल से PNG ग्रिड बनाएं। पायथन कोड और विस्तृत चरण‑दर‑चरण मार्गदर्शन।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

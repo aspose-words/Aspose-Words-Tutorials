@@ -71,6 +71,16 @@ Pelajari cara mengonversi persamaan dalam dokumen Word menjadi kode LaTeX dan me
 Pelajari cara mengonversi file DOCX menjadi TXT dan mengekspor persamaan Word ke LaTeX dengan Aspose.Words untuk Python.
 ### [Cara Memulihkan DOCX, Mengonversi ke Markdown & PDF dengan Aspose](./how-to-recover-docx-convert-to-markdown-pdf-with-aspose/)
 Pelajari cara memulihkan file DOCX, mengonversinya ke Markdown dan PDF menggunakan Aspose.Words untuk Python.
+### [Simpan docx sebagai markdown dengan persamaan LaTeX – Panduan Python](./save-docx-as-markdown-with-latex-equations-python-guide/)
+Pelajari cara menyimpan file DOCX menjadi Markdown dengan persamaan LaTeX menggunakan Aspose.Words untuk Python.
+### [Simpan Word sebagai PDF dengan Aspose.Words – Pandilan Python Lengkap](./save-word-as-pdf-with-aspose-words-complete-python-guide/)
+Pelajari cara menyimpan dokumen Word menjadi PDF menggunakan Aspose.Words untuk Python secara lengkap.
+### [Buat PDF Aksesibel dari Word – Panduan Pemrograman Lengkap](./create-accessible-pdf-from-word-complete-programming-guide/)
+Pelajari cara membuat PDF yang dapat diakses dari dokumen Word menggunakan Aspose.Words untuk Python secara lengkap.
+### [Ekspor docx sebagai markdown – Panduan Lengkap Langkah-demi-Langkah](./export-docx-as-markdown-full-step-by-step-guide/)
+Pelajari cara mengekspor file DOCX menjadi Markdown dengan panduan langkah demi langkah menggunakan Aspose.Words untuk Python.
+### [Buat Grid PNG dari Dokumen Word – Panduan Lengkap Langkah-demi-Langkah](./create-png-grid-from-word-document-complete-step-by-step-gui/)
+Pelajari cara mengonversi halaman Word menjadi grid gambar PNG dengan panduan langkah demi langkah menggunakan Aspose.Words untuk Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

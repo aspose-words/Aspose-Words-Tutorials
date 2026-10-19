@@ -71,6 +71,16 @@ Erfahren Sie, wie Sie mit Aspose.Words für Python mathematische Gleichungen aus
 Erfahren Sie, wie Sie mit Aspose.Words für Python DOCX-Dateien in TXT umwandeln und Word‑Gleichungen als LaTeX‑Code exportieren.
 ### [DOCX wiederherstellen, in Markdown & PDF konvertieren – Anleitung mit Aspose](./how-to-recover-docx-convert-to-markdown-pdf-with-aspose/)
 Erfahren Sie, wie Sie beschädigte DOCX-Dateien reparieren und anschließend in Markdown und PDF mit Aspose.Words für Python konvertieren.
+### [DOCX als Markdown mit LaTeX-Gleichungen speichern – Python-Anleitung](./save-docx-as-markdown-with-latex-equations-python-guide/)
+Erfahren Sie, wie Sie DOCX-Dateien mit LaTeX-Gleichungen in Markdown konvertieren und speichern.
+### [Exportiere DOCX als Markdown – Vollständige Schritt‑für‑Schritt‑Anleitung](./export-docx-as-markdown-full-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Python DOCX-Dateien vollständig in Markdown exportieren.
+### [Word als PDF speichern mit Aspose.Words – Vollständige Python-Anleitung](./save-word-as-pdf-with-aspose-words-complete-python-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Python Word-Dokumente problemlos in PDF konvertieren und speichern.
+### [Barrierefreies PDF aus Word erstellen – Vollständige Python-Anleitung](./create-accessible-pdf-from-word-complete-programming-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Python barrierefreie PDF‑Dateien aus Word‑Dokumenten erstellen und optimieren.
+### [PNG‑Raster aus Word‑Dokument erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-png-grid-from-word-document-complete-step-by-step-gui/)
+Erfahren Sie, wie Sie mit Aspose.Words für Python ein PNG‑Raster aus einem Word‑Dokument generieren und speichern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

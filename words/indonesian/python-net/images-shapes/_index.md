@@ -46,6 +46,8 @@ Pelajari cara menambahkan bentuk persegi panjang ke file PDF menggunakan Aspose.
 Pelajari cara menyisipkan bentuk persegi panjang dan menambahkan efek bayangan pada dokumen Word menggunakan Aspose.Words untuk Python-net.
 ### [Buat Dokumen Word dengan Python – Panduan Menambahkan Bayangan pada Bentuk](./create-word-document-python-add-shadow-to-shape-guide/)
 Pelajari cara menambahkan efek bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk Python-net.
+### [Cara Menambahkan Bayangan pada Bentuk di Python – Tutorial Lengkap Aspose.Words](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
+Pelajari cara menambahkan efek bayangan pada bentuk di dokumen Word menggunakan Python dengan Aspose.Words dalam panduan lengkap ini.
 
 ## Sumber Daya Tambahan
 

@@ -46,6 +46,8 @@ Aspose.Words を使用して PDF 文書に矩形を挿入し、位置やサイ�
 Python で矩形を描画し、影効果を適用し、PDF として保存する方法をステップバイステップで解説します。
 ### [Aspose を使用して Word に長方形を挿入し、影を追加する方法](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
 Aspose.Words for Python-net を使い、Word 文書に長方形を挿入し、影効果を適用する手順を解説します。
+### [Python で図形に影を追加する – 完全 Aspose.Words チュートリアル](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
+Aspose.Words for Python を使用して、図形に影効果を追加し、文書の視覚的魅力を高める方法を詳しく解説します。
 
 ## 追加リソース
 

@@ -84,6 +84,20 @@ Dowiedz się, jak przy użyciu Aspose.Words for Python konwertować DOCX do TXT 
 
 ### [Jak odzyskać DOCX, konwertować na Markdown i PDF przy użyciu Aspose](./how-to-recover-docx-convert-to-markdown-pdf-with-aspose/)
 Dowiedz się, jak przy użyciu Aspose.Words for Python odzyskać uszkodzony plik DOCX i przekonwertować go na Markdown oraz PDF.
+### [Zapisz docx jako markdown z równaniami LaTeX – przewodnik w Pythonie](./save-docx-as-markdown-with-latex-equations-python-guide/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać plik DOCX jako Markdown z zachowaniem równań LaTeX.
+
+### [Zapisz Word jako PDF z Aspose.Words – Kompletny przewodnik w Pythonie](./save-word-as-pdf-with-aspose-words-complete-python-guide/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument Word jako plik PDF.
+
+### [Utwórz dostępny PDF z Worda – kompletny przewodnik programistyczny](./create-accessible-pdf-from-word-complete-programming-guide/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python wygenerować PDF dostępny zgodnie ze standardami WCAG.
+
+### [Eksportuj docx jako markdown – Kompletny przewodnik krok po kroku](./export-docx-as-markdown-full-step-by-step-guide/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python wyeksportować plik DOCX jako Markdown w pełnym przewodniku krok po kroku.
+
+### [Utwórz siatkę PNG z dokumentu Word – kompletny przewodnik krok po kroku](./create-png-grid-from-word-document-complete-step-by-step-gui/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python wygenerować siatkę PNG z dokumentu Word.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

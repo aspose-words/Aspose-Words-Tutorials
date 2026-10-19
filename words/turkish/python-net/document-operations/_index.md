@@ -57,7 +57,7 @@ Aspose.Words Python-net için bir kod eğitimi
     ### [Save Word Documents as PostScript in Python Using Aspose.Words&#58; A Comprehensive Guide](./save-docs-as-postscript-using-aspose-words-python/)
 Word belgelerini Python için Aspose.Words kullanarak PostScript formatına nasıl dönüştüreceğinizi öğrenin. Bu kılavuz kurulum, dönüştürme ve kitap katlama yazdırma seçeneklerini kapsar.
 
-### [Bozuk DOCX Dosyasını Kurtar – Word Belgesini Aç ve Yükle](./recover-corrupted-docx-open-load-word-document/)
+    ### [Bozuk DOCX Dosyasını Kurtar – Word Belgesini Aç ve Yükle](./recover-corrupted-docx-open-load-word-document/)
 Aspose.Words for Python-net ile bozuk DOCX dosyalarını açma ve yükleme yöntemlerini öğrenin.
 
 ### [Bozuk DOCX Dosyasını Kurtar – Kurtarma Modunu Etkinleştirme ve Sayfa Sayısını Öğrenme Rehberi](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)

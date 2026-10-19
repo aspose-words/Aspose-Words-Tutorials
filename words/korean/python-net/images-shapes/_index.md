@@ -45,6 +45,8 @@ Python을 사용해 사각형 모양을 만들고 그림자를 적용한 뒤 PDF
 Aspose.Words를 사용해 Word 문서에 사각형을 삽입하고 그림자를 적용하는 단계별 가이드를 확인하세요.
 ### [Python으로 Word 문서 만들기 – 도형에 그림자 추가 가이드](./create-word-document-python-add-shadow-to-shape-guide/)
 Python과 Aspose.Words를 활용해 Word 문서에 도형을 삽입하고 그림자를 적용하는 방법을 단계별로 안내합니다.
+### [Python에서 도형에 그림자 추가 – 완전한 Aspose.Words 튜토리얼](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
+Python을 사용해 Word 문서의 도형에 그림자를 적용하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

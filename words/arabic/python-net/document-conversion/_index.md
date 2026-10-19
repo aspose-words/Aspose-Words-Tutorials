@@ -69,6 +69,16 @@
 تعلم كيفية تحويل ملفات docx إلى txt واستخراج المعادلات من Word وتحويلها إلى LaTeX باستخدام Aspose.Words لبايثون.
 ### [كيفية استعادة DOCX وتحويله إلى Markdown و PDF باستخدام Aspose](./how-to-recover-docx-convert-to-markdown-pdf-with-aspose/)
 تعلم استعادة ملفات DOCX التالفة وتحويلها إلى صيغة Markdown ثم إلى PDF باستخدام Aspose.Words لبايثون.
+### [حفظ docx كـ markdown مع معادلات LaTeX – دليل بايثون](./save-docx-as-markdown-with-latex-equations-python-guide/)
+تعلم كيفية حفظ ملفات docx كـ markdown مع دعم معادلات LaTeX باستخدام Aspose.Words لبايثون.
+### [حفظ Word كـ PDF باستخدام Aspose.Words – دليل بايثون كامل](./save-word-as-pdf-with-aspose-words-complete-python-guide/)
+تعلم كيفية تحويل مستندات Word إلى PDF بسهولة باستخدام Aspose.Words لبايثون.
+### [إنشاء PDF قابل للوصول من Word – دليل برمجة كامل](./create-accessible-pdf-from-word-complete-programming-guide/)
+تعلم كيفية إنشاء ملفات PDF قابلة للوصول من مستندات Word باستخدام Aspose.Words لبايثون.
+### [تصدير docx كـ markdown – دليل كامل خطوة بخطوة](./export-docx-as-markdown-full-step-by-step-guide/)
+تعلم كيفية تصدير ملفات docx إلى markdown خطوة بخطوة باستخدام Aspose.Words لبايثون.
+### [إنشاء شبكة PNG من مستند Word – دليل كامل خطوة بخطوة](./create-png-grid-from-word-document-complete-step-by-step-gui/)
+تعلم كيفية إنشاء شبكة من صور PNG من مستند Word باستخدام Aspose.Words لبايثون خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

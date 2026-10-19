@@ -46,6 +46,8 @@ Erfahren Sie, wie Sie mit Aspose.Words ein Rechteck in ein PDF einfügen und for
 Erfahren Sie, wie Sie in Python ein Rechteck erstellen, Schatten hinzufügen und das Ergebnis als PDF speichern.
 ### [Wie man ein Rechteck einfügt und Schatten in Word mit Aspose hinzufügt](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
 Erfahren Sie, wie Sie mit Aspose ein Rechteck in ein Word-Dokument einfügen und einen Schatten hinzufügen.
+### [Wie man Schatten zu einer Form in Python hinzufügt – Vollständiger Aspose.Words-Leitfaden](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
+Erfahren Sie, wie Sie mit Aspose.Words für Python Schatten zu Formen hinzufügen und das visuelle Erscheinungsbild Ihrer Dokumente verbessern.
 
 ## Weitere Ressourcen
 
