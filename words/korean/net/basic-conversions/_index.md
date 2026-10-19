@@ -66,6 +66,8 @@
 | [C#로 docx를 PDF로 변환 – 단계별 가이드](./convert-docx-to-pdf-with-c-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 C#에서 docx 파일을 PDF로 변환하는 단계별 가이드입니다. |
 | [C#에서 DOCX를 사용해 접근성 PDF 만들기 – Word를 PDF로 변환하는 방법](./create-accessible-pdf-from-docx-in-c-how-to-convert-word-to/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 접근성 PDF로 변환하는 단계별 가이드입니다. |
 | [DOCX를 TXT로 변환 – LaTeX 방정식을 위한 완전한 C# 가이드](./convert-docx-to-txt-complete-c-guide-for-latex-equations/) | Aspose.Words와 C#을 활용해 DOCX 파일을 텍스트로 변환하고 LaTeX 수식을 보존하는 방법을 단계별로 안내합니다. |
+| [Aspose.Words로 DOCX를 PDF로 저장 – 완전한 단계별 가이드](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/) | Aspose.Words와 C#을 사용해 DOCX 파일을 PDF로 변환하는 전체 단계별 가이드입니다. |
+| [C#에서 메일 머지와 DOCX를 PDF로 변환하는 방법 – 완전한 Aspose 가이드](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | Aspose.Words for .NET을 사용해 C#에서 메일 머지를 수행하고 DOCX를 PDF로 변환하는 전체 단계별 가이드입니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

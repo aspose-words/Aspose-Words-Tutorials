@@ -63,6 +63,7 @@
 | [Πώς να επαναγράψετε κείμενο σε έγγραφα Word με το Aspose.Words AI – Πλήρης Οδηγός](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words AI για να επαναγράψετε κείμενο σε έγγραφα Word, βελτιώνοντας τη ροή εργασίας σας. |
 | [Πώς να ελέγξετε τη γραμματική σε C# με το Aspose.Words – Οδηγός](./how-to-check-grammar-in-c-with-aspose-words-guide/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words για .NET για να ελέγξετε τη γραμματική κειμένων σε C#. |
 | [Πώς να χρησιμοποιήσετε τη λειτουργία Summarize στο Aspose.Words – Πλήρης Οδηγός](./how-to-use-summarize-in-aspose-words-complete-guide/) | Μάθετε πώς να εφαρμόσετε τη λειτουργία Summarize στο Aspose.Words για .NET για γρήγορη και ακριβή σύνοψη εγγράφων. |
+| [Αναδιατύπωση παραγράφου με AI σε C# – Πώς να ρυθμίσετε το τοπικό LLM](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words για .NET με τοπικό μοντέλο γλώσσας για να αναδιατυπώσετε παραγράφους αυτόματα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

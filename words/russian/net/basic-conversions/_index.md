@@ -27,6 +27,7 @@ Basic Conversions проведет вас через базовые преобр
 | [Конвертировать DOCX в PDF – Создать доступный PDF (PDF/UA)](./convert-docx-to-pdf-generate-accessible-pdf-pdf-ua/) | Узнайте, как преобразовать DOCX в PDF с поддержкой стандарта доступности PDF/UA с помощью Aspose.Words для .NET. |
 | [Конвертировать DOCX в PDF на C# – пошаговое руководство](./convert-docx-to-pdf-in-c-step-by-step-guide/) | Пошаговое руководство по конвертации DOCX в PDF в C# с использованием Aspose.Words для .NET. |
 | [Конвертировать docx в pdf с C# – пошаговое руководство](./convert-docx-to-pdf-with-c-step-by-step-guide/) | Узнайте, как конвертировать DOCX в PDF с помощью C# и Aspose.Words, следуя пошаговому руководству. |
+| [Как выполнить слияние писем и конвертировать DOCX в PDF на C# – Полное руководство Aspose](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | Узнайте, как выполнить слияние писем и преобразовать DOCX в PDF с помощью Aspose.Words для .NET в C#. |
 | [Конвертировать Docx в байт](./docx-to-byte/) | Узнайте, как преобразовать Docx в массив байтов в .NET с помощью Aspose.Words для эффективной обработки документов. Пошаговое руководство включено. |  
 | [Конвертировать Docx в Epub](./docx-to-epub/) | Легко конвертируйте DOCX в EPUB с помощью Aspose.Words для .NET. Следуйте нашему руководству для бесшовной интеграции в ваши приложения .NET. |
 | [Конвертировать Docx в Mhtml и отправлять электронную почту](./docx-to-mhtml-and-sending-email/) | Узнайте, как преобразовать DOCX в MHTML и отправлять электронные письма с помощью Aspose.Words для .NET в этом пошаговом руководстве. Повысьте свою производительность с помощью простой автоматизации. |
@@ -66,6 +67,7 @@ Basic Conversions проведет вас через базовые преобр
 | [Создать доступный PDF из Word – пошаговое руководство](./create-accessible-pdf-from-word-step-by-step-guide/) | Узнайте, как создать доступный PDF из документа Word с помощью Aspose.Words для .NET, следуя пошаговому руководству. |
 | [Создать доступный PDF из DOCX на C# – Как конвертировать Word в PDF](./create-accessible-pdf-from-docx-in-c-how-to-convert-word-to/) | Узнайте, как создать доступный PDF из DOCX с помощью Aspose.Words для .NET. Пошаговое руководство с примерами кода. |
 | [Конвертировать DOCX в TXT – Полное руководство C# для уравнений LaTeX](./convert-docx-to-txt-complete-c-guide-for-latex-equations/) | Узнайте, как конвертировать DOCX в TXT, сохранив уравнения LaTeX, используя Aspose.Words для .NET в полном руководстве на C#. |
+| [Сохранить DOCX как PDF с Aspose.Words – Полное пошаговое руководство](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/) | Узнайте, как сохранить DOCX в PDF с помощью Aspose.Words, следуя полному пошаговому руководству с примерами кода. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

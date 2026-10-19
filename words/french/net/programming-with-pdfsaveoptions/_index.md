@@ -75,6 +75,7 @@ Que vous souhaitiez convertir des documents Word en PDF pour une distribution en
 | [Taguer un PDF pour l'accessibilité en C# – Guide complet](./tag-pdf-for-accessibility-in-c-complete-guide/) | Apprenez à ajouter des balises d'accessibilité à un PDF avec Aspose.Words pour .NET en C# grâce à ce guide complet étape par étape. |
 | [Enregistrer un document PDF avec substitution de police en C# – Guide complet](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Apprenez à enregistrer un document PDF en substituant les polices manquantes avec Aspose.Words pour .NET en C# grâce à ce guide complet étape par étape. |
 | [Créer un PDF accessible avec Aspose.Words – Guide complet](./create-accessible-pdf-with-aspose-words-complete-guide/) | Apprenez à créer des PDF accessibles avec Aspose.Words grâce à ce guide complet étape par étape. |
+| [Créer un PDF accessible à partir de Word avec Aspose.Words](./create-accessible-pdf-from-word-using-aspose-words/) | Apprenez à créer un PDF accessible à partir d'un document Word en utilisant Aspose.Words pour .NET, étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

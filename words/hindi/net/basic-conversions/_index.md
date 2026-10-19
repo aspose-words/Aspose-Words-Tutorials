@@ -66,6 +66,8 @@
 | [C# के साथ docx को pdf में बदलें – चरण‑दर‑चरण गाइड](./convert-docx-to-pdf-with-c-step-by-step-guide/) | C# में Aspose.Words का उपयोग करके docx को PDF में बदलने की विस्तृत चरण‑दर‑चरण गाइड। |
 | [C# में DOCX से सुलभ PDF बनाएं – Word को PDF में कैसे बदलें](./create-accessible-pdf-from-docx-in-c-how-to-convert-word-to/) | .NET के लिए Aspose.Words का उपयोग करके DOCX से सुलभ PDF बनाने की चरण‑दर‑स्टेप गाइड। |
 | [DOCX को TXT में बदलें – LaTeX समीकरणों के लिए पूर्ण C# गाइड](./convert-docx-to-txt-complete-c-guide-for-latex-equations/) | .NET के लिए Aspose.Words का उपयोग करके DOCX को TXT में बदलें, जिसमें LaTeX समीकरणों को सही ढंग से संभालने के लिए पूर्ण C# गाइड शामिल है। |
+| [DOCX को PDF के रूप में सहेजें – Aspose.Words के साथ पूर्ण चरण‑दर‑स्टेप गाइड](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/) | Aspose.Words का उपयोग करके .NET में DOCX को PDF में बदलने की पूरी चरण‑दर‑स्टेप मार्गदर्शिका। |
+| [C# में मेल मर्ज और DOCX को PDF में बदलने का तरीका – पूर्ण Aspose गाइड](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | .NET के लिए Aspose.Words का उपयोग करके C# में मेल मर्ज करके DOCX को PDF में बदलना सीखें। विस्तृत चरण‑दर‑स्टेप गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

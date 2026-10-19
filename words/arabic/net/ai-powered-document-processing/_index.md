@@ -64,6 +64,7 @@
 | [كيفية إعادة كتابة النص في مستندات Word باستخدام Aspose.Words AI – دليل كامل](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | تعلم كيفية إعادة صياغة النص في مستندات Word باستخدام تقنية Aspose.Words AI خطوة بخطوة. |
 | [كيفية التحقق من القواعد النحوية في C# باستخدام Aspose.Words – دليل](./how-to-check-grammar-in-c-with-aspose-words-guide/) | تعلم كيفية فحص القواعد النحوية في ملفات C# باستخدام Aspose.Words خطوة بخطوة. |
 | [كيفية استخدام Summarize في Aspose.Words – دليل كامل](./how-to-use-summarize-in-aspose-words-complete-guide/) | اكتشف كيفية استخدام Summarize في Aspose.Words لتلخيص المستندات بفعالية خطوة بخطوة. |
+| [إعادة كتابة الفقرة باستخدام الذكاء الاصطناعي في C# – كيفية تكوين نموذج لغة محلي](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) | تعلم كيفية إعادة كتابة الفقرات باستخدام نموذج لغة محلي في C# مع Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

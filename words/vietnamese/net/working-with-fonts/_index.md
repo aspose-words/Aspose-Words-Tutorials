@@ -76,6 +76,7 @@ Cho dù bạn muốn định dạng văn bản bằng các phông chữ khác nh
 | [Tạo callback cảnh báo khi tải tài liệu Word – Hướng dẫn đầy đủ](./create-warning-callback-for-loading-word-documents-complete/) | Hướng dẫn chi tiết cách tạo callback cảnh báo khi tải tài liệu Word bằng Aspose.Words cho .NET. |
 | [Phát hiện phông chữ thiếu trong tài liệu Word bằng Aspose Font Substitution](./aspose-font-substitution-detect-missing-fonts-in-word-docs/) | Tìm hiểu cách phát hiện các phông chữ bị thiếu trong tài liệu Word bằng Aspose Font Substitution trong Aspose.Words cho .NET. |
 | [Cách xử lý phông chữ trong .NET – phát hiện phông chữ thiếu](./how-to-handle-fonts-in-net-detect-missing-fonts/) | Tìm hiểu cách phát hiện các phông chữ bị thiếu trong Aspose.Words cho .NET bằng hướng dẫn chi tiết từng bước. |
+| [Xử lý Thay Thế Phông Chữ trong Aspose.Words – Hướng Dẫn Lập Trình Đầy Đủ](./handle-font-substitution-in-aspose-words-complete-programmin/) | Tìm hiểu cách xử lý thay thế phông chữ trong Aspose.Words cho .NET với hướng dẫn lập trình chi tiết từng bước. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

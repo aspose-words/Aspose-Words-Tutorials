@@ -64,6 +64,7 @@
 | [Aspose.Words AI를 사용하여 Word 문서의 텍스트를 재작성하는 방법 – 완전 가이드](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Aspose.Words AI를 활용해 Word 문서의 텍스트를 자동으로 재작성하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words로 C# 문법 검사하기 – 가이드](./how-to-check-grammar-in-c-with-aspose-words-guide/) | Aspose.Words를 활용해 C# 코드의 문법을 자동으로 검사하고 교정하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words에서 Summarize 사용 방법 – 완전 가이드](./how-to-use-summarize-in-aspose-words-complete-guide/) | Aspose.Words의 Summarize 기능을 활용해 문서를 효율적으로 요약하는 전체 과정을 단계별로 안내합니다. |
+| [C#에서 AI로 문단 재작성 – 로컬 LLM 구성 방법](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) | Aspose.Words for .NET과 로컬 LLM을 활용해 C#에서 AI 기반 문단 재작성 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

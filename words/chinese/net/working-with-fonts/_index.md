@@ -75,6 +75,7 @@
 | [C# 自定义字体设置 – 加载 Word 并处理缺失字体](./custom-font-settings-in-c-load-word-handle-missing-fonts/) 学习如何在 Aspose.Words for .NET 中使用 C# 加载 Word 文档并处理缺失或替换的字体。|
 | [如何使用 FontSettings 处理 Aspose.Words 中缺失的字体](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) 了解如何使用 Aspose.Words for .NET 的 FontSettings 检测并处理缺失字体，确保文档渲染正确。|
 | [如何在 .NET 中处理字体 – 检测缺失字体](./how-to-handle-fonts-in-net-detect-missing-fonts/) 学习如何在 Aspose.Words for .NET 中检测缺失字体并进行相应处理的完整分步指南。|
+| [处理 Aspose.Words 中的字体替换 – 完整编程指南](./handle-font-substitution-in-aspose-words-complete-programmin/) 通过完整的编程指南，学习在 Aspose.Words 中处理字体替换的所有步骤。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

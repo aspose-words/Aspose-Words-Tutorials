@@ -67,6 +67,7 @@ Aspose.Words for .NET ट्यूटोरियल उन डेवलपर�
 | [मेटाफ़ाइल्स को Png में बदलें](./convert-metafiles-to-png/) | इस चरण-दर-स्टेप ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में मेटाफ़ाइल्स को PNG में आसानी से बदलें। अपने दस्तावेज़ प्रबंधन को सरल बनाएँ। |
 | [Word दस्तावेज़ में Chm फ़ाइलें लोड करें](./load-chm/) | इस चरण-दर-स्टेप ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके आसानी से CHM फ़ाइलों को Word दस्तावेज़ों में लोड करें। अपने तकनीकी दस्तावेज़ों को समेकित करने के लिए बिल्कुल सही। |
 | [C# में भ्रष्ट Word फ़ाइल खोलें – पूर्ण गाइड](./open-corrupted-word-file-in-c-complete-guide/) | C# में Aspose.Words का उपयोग करके भ्रष्ट Word फ़ाइल को खोलने और पुनर्प्राप्त करने की पूरी गाइड। |
+| [Aspose.Words के साथ क्षतिग्रस्त docx की मरम्मत – पूर्ण C# गाइड](./repair-damaged-docx-with-aspose-words-complete-c-guide/) | .NET के लिए Aspose.Words का उपयोग करके क्षतिग्रस्त docx फ़ाइल को पुनर्प्राप्त करने की पूरी मार्गदर्शिका। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -64,6 +64,7 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Cách viết lại văn bản trong tài liệu Word bằng Aspose.Words AI – Hướng dẫn đầy đủ](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Khám phá cách sử dụng Aspose.Words AI để tự động viết lại nội dung trong tài liệu Word một cách nhanh chóng và chính xác. |
 | [Cách sử dụng Summarize trong Aspose.Words – Hướng dẫn toàn diện](./how-to-use-summarize-in-aspose-words-complete-guide/) | Khám phá cách sử dụng tính năng Summarize trong Aspose.Words cho .NET để tóm tắt tài liệu nhanh chóng và hiệu quả. |
 | [Cách kiểm tra ngữ pháp trong C# với Aspose.Words – Hướng dẫn](./how-to-check-grammar-in-c-with-aspose-words-guide/) | Tìm hiểu cách sử dụng Aspose.Words cho .NET trong C# để kiểm tra ngữ pháp tài liệu Word một cách tự động và hiệu quả. |
+| [Viết lại đoạn văn với AI trong C# – Cách cấu hình LLM cục bộ](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) | Hướng dẫn sử dụng Aspose.Words cho .NET để viết lại đoạn văn bằng AI trong C# và cấu hình mô hình ngôn ngữ cục bộ. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

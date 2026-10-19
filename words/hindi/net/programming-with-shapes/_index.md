@@ -59,6 +59,7 @@
 | [C# में Word दस्तावेज़ बनाएं – आयत आकार और छाया जोड़ें](./create-word-document-insert-rectangle-shape-shadow-in-c/) | C# और Aspose.Words का उपयोग करके Word दस्तावेज़ में आयत आकार और छाया जोड़ने की चरण‑दर‑चरण गाइड। |
 | [C# में Word आकृतियों में शैडो जोड़ने का तरीका – पूर्ण गाइड](./how-to-add-shadow-to-word-shapes-in-c-complete-guide/) | C# में Aspose.Words का उपयोग करके Word आकृतियों में शैडो जोड़ने के चरण‑दर‑श मार्गदर्शन। |
 | [शैडो शब्द कैसे जोड़ें – आकृतियों के लिए पूर्ण गाइड](./how-to-add-shadow-word-complete-guide-for-shapes/) | Aspose.Words का उपयोग करके Word में आकृतियों पर शैडो जोड़ने के चरण‑दर‑चरण निर्देश। |
+| [Aspose.Words के साथ Word में आकृति में छाया जोड़ें – पूर्ण गाइड](./add-shadow-to-shape-in-word-with-aspose-words-complete-guide/) | Aspose.Words का उपयोग करके Word में आकृति में छाया जोड़ने की पूरी प्रक्रिया सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

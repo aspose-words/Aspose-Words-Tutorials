@@ -65,6 +65,8 @@
 | [Δημιουργία PDF από Word σε C# – Πλήρης Οδηγός LowCode](./create-pdf-from-word-in-c-complete-lowcode-guide/) | Μάθετε πώς να δημιουργήσετε PDF από έγγραφα Word σε C# χρησιμοποιώντας LowCode με βήμα‑βήμα οδηγίες. |
 | [Δημιουργία Προσβάσιμου PDF από DOCX σε C# – Πώς να Μετατρέψετε Word σε PDF](./create-accessible-pdf-from-docx-in-c-how-to-convert-word-to/) | Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF από DOCX χρησιμοποιώντας Aspose.Words για .NET σε C#. |
 | [Μετατροπή DOCX σε TXT – Πλήρης Οδηγός C# για Εξισώσεις LaTeX](./convert-docx-to-txt-complete-c-guide-for-latex-equations/) | Μάθετε πώς να μετατρέψετε DOCX σε TXT με υποστήριξη εξισώσεων LaTeX χρησιμοποιώντας C# και Aspose.Words. |
+| [Αποθήκευση DOCX ως PDF με Aspose.Words – Πλήρης Οδηγός Βήμα‑βήμα](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/) | Μάθετε πώς να αποθηκεύετε αρχεία DOCX ως PDF χρησιμοποιώντας το Aspose.Words σε C# με πλήρη οδηγό βήμα‑βήμα. |
+| [Πώς να κάνετε Mail Merge και να μετατρέψετε DOCX σε PDF σε C# – Πλήρης Οδηγός Aspose](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | Μάθετε πώς να εκτελείτε mail merge και να μετατρέπετε DOCX σε PDF με Aspose.Words για .NET σε C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

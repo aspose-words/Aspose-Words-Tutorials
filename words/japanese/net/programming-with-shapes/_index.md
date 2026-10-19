@@ -55,6 +55,7 @@ Aspose.Words for .NET を使い、これらのチュートリアルに従うこ�
 | [影付き長方形で Word 文書を作成 – 完全ガイド](./create-word-document-with-shadowed-rectangle-complete-guide/) Aspose.Words for .NET を使用して、影付き長方形シェイプを持つ Word 文書を作成する完全な手順を解説します。 |
 | [C# で Word 文書を作成 – 長方形シェイプと影を挿入](./create-word-document-insert-rectangle-shape-shadow-in-c/) Aspose.Words for .NET と C# を使用して、Word 文書に長方形シェイプと影効果を追加する方法をステップバイステップで解説します。 |
 | [影付きシェイプの追加方法 – 完全ガイド](./how-to-add-shadow-word-complete-guide-for-shapes/) Aspose.Words for .NET と C# を使用して、Word 文書の図形に影効果を追加する手順をステップバイステップで解説します。 |
+| [Aspose.Words で Word の図形に影を追加 – 完全ガイド](./add-shadow-to-shape-in-word-with-aspose-words-complete-guide/) Aspose.Words for .NET を使用して、Word 文書の図形に影効果を追加する完全ガイドです。ステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

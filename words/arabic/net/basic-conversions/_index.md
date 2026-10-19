@@ -66,6 +66,8 @@
 | [إنشاء PDF قابل للوصول – تحويل Word إلى PDF](./create-accessible-pdf-convert-word-to-pdf/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول من مستندات Word باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
 | [كيفية إنشاء PDF من Word باستخدام C# – دليل خطوة بخطوة](./how-to-create-pdf-from-word-in-c-step-by-step-guide/) | تعرّف على كيفية إنشاء ملف PDF من مستند Word باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
 | [إنشاء PDF قابل للوصول من DOCX باستخدام C# – كيفية تحويل Word إلى PDF](./create-accessible-pdf-from-docx-in-c-how-to-convert-word-to/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول من مستندات DOCX باستخدام Aspose.Words وC# مع أمثلة عملية. |
+| [حفظ ملف DOCX كـ PDF باستخدام Aspose.Words – دليل شامل خطوة بخطوة](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/) | تعلم كيفية حفظ ملفات DOCX بصيغة PDF باستخدام Aspose.Words مع شرح مفصل وأمثلة عملية. |
+| [كيفية دمج البريد وتحويل DOCX إلى PDF في C# – دليل Aspose كامل](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | تعرّف على دمج البريد في مستندات DOCX وتحويلها إلى PDF باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -33,6 +33,7 @@ Conversions de base vous guide dans les conversions de documents de base avec la
 | [Enregistrer un document Word au format PDF avec Aspose.Words – Guide complet C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Apprenez à enregistrer un document Word en PDF avec Aspose.Words en C#, guide complet pas à pas. |
 | [Enregistrer un docx en PDF avec Aspose.Words – Guide complet C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Apprenez à convertir un fichier DOCX en PDF avec Aspose.Words en C#, guide complet pas à pas. |
 | [Enregistrer un document Word au format PDF avec Aspose.Words – Guide étape par étape](./save-word-as-pdf-with-aspose-words-step-by-step-guide/) | Apprenez à enregistrer un document Word en PDF avec Aspose.Words, guide complet pas à pas en C#. |
+| [Enregistrer un DOCX en PDF avec Aspose.Words – Guide complet étape par étape](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/) | Apprenez à enregistrer un fichier DOCX en PDF avec Aspose.Words, guide complet pas à pas. |
 | [Convertir Docx en octets](./docx-to-byte/) | Apprenez à convertir un document Docx en tableau d'octets dans .NET avec Aspose.Words pour un traitement efficace des documents. Guide étape par étape inclus. |  
 | [Convertir Docx en Epub](./docx-to-epub/) | Convertissez facilement vos fichiers DOCX en EPUB avec Aspose.Words pour .NET. Suivez notre tutoriel pour une intégration transparente à vos applications .NET. |
 | [Convertir un fichier Docx en Mhtml et envoyer un e-mail](./docx-to-mhtml-and-sending-email/) | Découvrez comment convertir du DOCX en MHTML et envoyer des e-mails avec Aspose.Words pour .NET grâce à ce guide étape par étape. Boostez votre productivité grâce à une automatisation facile. |
@@ -66,6 +67,7 @@ Conversions de base vous guide dans les conversions de documents de base avec la
 | [Comment créer un PDF à partir de Word en C# – Guide étape par étape](./how-to-create-pdf-from-word-in-c-step-by-step-guide/) | Apprenez à créer un PDF à partir d'un document Word en C# avec Aspose.Words, guide complet étape par étape. |
 | [Créer un PDF à partir de Word en C# – Guide complet LowCode](./create-pdf-from-word-in-c-complete-lowcode-guide/) | Apprenez à générer un PDF à partir d'un document Word en C# avec Aspose.Words, en suivant un guide complet LowCode. |
 | [Créer un PDF accessible à partir de DOCX en C# – Comment convertir Word en PDF](./create-accessible-pdf-from-docx-in-c-how-to-convert-word-to/) | Apprenez à générer un PDF accessible depuis un fichier DOCX en C# avec Aspose.Words, incluant les balises d'accessibilité. |
+| [Comment effectuer une fusion de courrier et convertir DOCX en PDF en C# – Guide complet Aspose](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | Apprenez à réaliser une fusion de courrier et à convertir des fichiers DOCX en PDF avec Aspose.Words en C#, guide complet pas à pas. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

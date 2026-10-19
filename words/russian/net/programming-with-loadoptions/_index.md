@@ -66,6 +66,7 @@
 | [Как восстановить файлы Word – Полное руководство с Aspose.Words](./how-to-recover-word-files-complete-guide-with-aspose-words/) | Подробное пошаговое руководство по восстановлению повреждённых файлов Word с помощью Aspose.Words. |
 | [Открыть повреждённый файл Word в C# – Полное руководство](./open-corrupted-word-file-in-c-complete-guide/) | Узнайте, как открыть повреждённый файл Word в C# с помощью Aspose.Words, следуя полному пошаговому руководству. |
 | [Как использовать LoadOptions для обнаружения отсутствующих шрифтов](./how-to-use-loadoptions-to-detect-missing-fonts/) | Узнайте, как с помощью LoadOptions обнаруживать недостающие шрифты при загрузке документов Word в Aspose.Words для .NET. |
+| [Восстановление повреждённого docx с Aspose.Words – Полное руководство C#](./repair-damaged-docx-with-aspose-words-complete-c-guide/) | Узнайте, как полностью восстановить повреждённый файл DOCX с помощью Aspose.Words в C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

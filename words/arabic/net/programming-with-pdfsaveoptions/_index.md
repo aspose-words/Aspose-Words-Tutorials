@@ -76,6 +76,7 @@
 | [حفظ مستند PDF مع استبدال الخطوط في C# – دليل كامل](./save-document-pdf-with-font-substitution-in-c-complete-guide/) |تعلم كيفية حفظ مستندات PDF مع استبدال الخطوط باستخدام Aspose.Words لـ .NET في C# خطوة بخطوة. |
 | [إنشاء ملف PDF قابل للوصول باستخدام Aspose.Words – دليل كامل](./create-accessible-pdf-with-aspose-words-complete-guide/) | دليل شامل خطوة بخطوة لإنشاء ملفات PDF قابلة للوصول باستخدام Aspose.Words لـ .NET. |
 | [إنشاء ملف PDF قابل للوصول – دليل خطوة بخطوة للامتثال لمعيار PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) |تعرف على كيفية إنشاء ملفات PDF قابلة للوصول وفقًا لمعيار PDF/UA باستخدام Aspose.Words لـ .NET من خلال دليل خطوة بخطوة. |
+| [إنشاء ملف PDF قابل للوصول من Word باستخدام Aspose.Words](./create-accessible-pdf-from-word-using-aspose-words/) | تعلم كيفية إنشاء ملف PDF قابل للوصول من مستند Word باستخدام Aspose.Words خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

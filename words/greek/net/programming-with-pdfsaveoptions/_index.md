@@ -76,6 +76,7 @@
 | [Επισήμανση PDF για προσβασιμότητα σε C# – Πλήρης Οδηγός](./tag-pdf-for-accessibility-in-c-complete-guide/) | Μάθετε πώς να προσθέσετε ετικέτες προσβασιμότητας σε αρχεία PDF χρησιμοποιώντας C# με το Aspose.Words για .NET. |
 | [Αποθήκευση εγγράφου PDF με αντικατάσταση γραμματοσειράς σε C# – Πλήρης Οδηγός](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Μάθετε πώς να αποθηκεύετε έγγραφα PDF με αντικατάσταση γραμματοσειρών χρησιμοποιώντας Aspose.Words για .NET σε C#. |
 | [Δημιουργία προσβάσιμου PDF με Aspose.Words – Πλήρης Οδηγός](./create-accessible-pdf-with-aspose-words-complete-guide/) | Μάθετε πώς να δημιουργήσετε πλήρως προσβάσιμο PDF χρησιμοποιώντας Aspose.Words με αναλυτικές οδηγίες βήμα‑βήμα. |
+| [Δημιουργία προσβάσιμου PDF από Word χρησιμοποιώντας Aspose.Words](./create-accessible-pdf-from-word-using-aspose-words/) | Μάθετε πώς να δημιουργήσετε προσβάσιμα PDF από έγγραφα Word με το Aspose.Words για .NET, ακολουθώντας βήμα‑βήμα οδηγίες. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

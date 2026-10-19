@@ -74,6 +74,7 @@ Ať už chcete převést dokumenty Wordu do PDF pro online distribuci, archivaci
 | [Uložení PDF dokumentu s náhradou písem v C# – Kompletní průvodce](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET nahradit chybějící písma při ukládání dokumentu jako PDF v C#. |
 | [Vytvořte přístupný PDF s Aspose.Words – Kompletní průvodce](./create-accessible-pdf-with-aspose-words-complete-guide/) | Kompletní průvodce vytvořením přístupného PDF pomocí Aspose.Words pro .NET. |
 
+| [Vytvořte přístupný PDF z Wordu pomocí Aspose.Words](./create-accessible-pdf-from-word-using-aspose-words/) | Naučte se, jak pomocí Aspose.Words pro .NET vytvořit přístupný PDF z dokumentu Word. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
