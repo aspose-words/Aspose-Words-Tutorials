@@ -289,13 +289,6 @@ Aprenda a convertir archivos DOCX a Markdown usando Aspose.Words para C# con est
 **Probado con:** Aspose.Words for Java 24.12  
 **Autor:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Convertir docx a txt – Exportar ecuaciones de Word como LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/)
 Aprende a convertir archivos DOCX a TXT y exportar ecuaciones de Word en formato LaTeX con Aspose.Words for Java.
 
@@ -315,3 +308,10 @@ Aprenda a convertir archivos DOCX a PDF usando Aspose.Words for Java con un tuto
 ### [Exportar Word a Markdown – Guía completa en Java](./export-word-to-markdown-full-java-guide/)
 Aprenda a exportar documentos Word a Markdown usando Aspose.Words for Java en una guía paso a paso.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -238,13 +238,6 @@ Aspose.Words for Java を使い、PDF/UA 準拠の PDF ファイルを作成す�
 **テスト環境:** Aspose.Words for Java 24.12  
 **作者:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [docx を txt に変換 – Word の数式を LaTeX としてエクスポート](./convert-docx-to-txt-export-word-equations-as-latex/)
 Aspose.Words for Java を使用して DOCX をテキストに変換し、数式を LaTeX 形式でエクスポートする方法を解説します。
 
@@ -277,3 +270,10 @@ Aspose.Words for Java を使用して、Word 文書からアクセシブルな P
 
 ### [PDF 保存オプション – Java で DOCX を PDF に変換するフルコントロール](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
