@@ -49,6 +49,8 @@ Apprenez à créer un document Word en Python et à ajouter une ombre aux formes
 Apprenez à ajouter des ombres aux formes dans vos documents Python avec Aspose.Words, améliorant ainsi l'aspect visuel et la présentation.
 ### [Comment enregistrer un document avec un rectangle ombré – Guide complet Python](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
 Apprenez à sauvegarder un document Word avec un rectangle ombré en utilisant Aspose.Words pour Python-net.
+### [Créer une forme rectangulaire en Python – Tutoriel Aspose.Words](./create-rectangle-shape-in-python-aspose-words-tutorial/)
+Apprenez à créer et personnaliser une forme rectangulaire dans un document Word à l'aide d'Aspose.Words pour Python.
 
 ## Ressources supplémentaires
 

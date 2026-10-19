@@ -157,6 +157,12 @@
 ### [حفظ Word كـ Markdown – دليل كامل مع Aspose.Words](./save-word-as-markdown-complete-guide-with-aspose-words/)
 ### [تحويل docx إلى markdown باستخدام C# – دليل كامل](./convert-docx-to-markdown-with-c-complete-guide/)
 ### [حفظ DOCX كـ markdown باستخدام Aspose.Words – دليل كامل خطوة بخطوة](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/)
+### [حفظ docx كـ markdown – دليل كامل مع معادلات LaTeX](./save-docx-as-markdown-complete-guide-with-latex-equations/)
+
+### [مجلد صور مخصص لتصدير Markdown مع الصور – دليل كامل](./custom-image-folder-for-export-markdown-with-images-complete/)
+### [تحويل docx إلى markdown وحفظ الصور من docx](./convert-docx-to-markdown-save-images-from-docx/)
+
+### [استعادة مستند Word باستخدام Aspose.Words – دليل كامل](./recover-word-document-with-aspose-words-full-guide/)
 ### [كيفية تصدير LaTeX من Word – تحويل DOCX إلى Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 ### [إنشاء markdown من Word – دليل C# كامل](./create-markdown-from-word-full-c-guide/)

@@ -49,6 +49,8 @@
 Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для Python.
 ### [Как сохранить документ с прямоугольником с тенью – Полное руководство по Python](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
 Узнайте, как сохранить документ Word, добавив прямоугольник с тенью, используя Aspose.Words для Python.
+### [Создание прямоугольной фигуры в Python – руководство Aspose.Words](./create-rectangle-shape-in-python-aspose-words-tutorial/)
+Узнайте, как создать прямоугольную фигуру в документе Word с помощью Aspose.Words для Python.
 
 ## Дополнительные ресурсы
 

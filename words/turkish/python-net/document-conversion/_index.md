@@ -108,6 +108,14 @@ Aspose.Words for Python kullanarak docx dosyalarını PDF'ye dönüştürmeyi ad
 
 ### [DOCX'i PDF'ye Dönüştürme – Python Tam Adım‑Adım Kılavuz](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
 Aspose.Words for Python ile DOCX dosyalarını PDF'ye tam adım‑adım dönüştürmeyi öğrenin.
+### [Word'ü Markdown Olarak Kaydet – Aspose.Words ile Tam Kılavuz](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Aspose.Words kullanarak Word belgelerini Markdown formatına dönüştürmeyi adım adım öğrenin.
+
+### [docx'i pdf olarak kaydet – Aspose.Words ile Tam Kılavuz](./save-docx-as-pdf-with-aspose-words-step-by-step-guide/)
+Aspose.Words for Python kullanarak docx dosyalarını PDF formatına dönüştürmeyi adım adım öğrenin.
+
+### [Word'ü Markdown'a Aktar – Görüntü Çıkarma ile Tam Kılavuz Python'da](./export-word-to-markdown-full-guide-with-image-extraction-in/)
+Aspose.Words for Python ile Word belgelerinden Markdown'a dönüştürürken görüntüleri nasıl çıkaracağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

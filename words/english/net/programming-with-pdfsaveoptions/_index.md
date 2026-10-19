@@ -80,6 +80,9 @@ Whether you want to convert Word documents to PDF for online distribution, archi
 | [Create pdf/ua-2 compliant document – Complete C# Guide](./create-pdf-ua-2-compliant-document-complete-c-guide/) | Learn how to create PDF/UA‑2 compliant documents using Aspose.Words for .NET with a complete C# guide. |
 | [Tag PDF for Accessibility in C# – Complete Guide](./tag-pdf-for-accessibility-in-c-complete-guide/) | Learn how to tag PDFs for accessibility using Aspose.Words for .NET in C#. Follow this step‑by‑step guide to create compliant PDFs. |
 | [Create Accessible PDF with Aspose.Words – Complete Guide](./create-accessible-pdf-with-aspose-words-complete-guide/) | Comprehensive guide to creating accessible PDFs with Aspose.Words for .NET, covering tags, alt text, and PDF/UA compliance. |
+| [Convert DOCX to PDF with Aspose.Words – Complete Programming Guide](./convert-docx-to-pdf-with-aspose-words-complete-programming-g/) | Comprehensive guide to converting DOCX to PDF using Aspose.Words for .NET with detailed code examples. |
+| [Create Accessible PDF from DOCX – Complete Programming Guide](./create-accessible-pdf-from-docx-complete-programming-guide/) | Learn how to generate accessible PDFs from DOCX files using Aspose.Words for .NET in this complete programming guide. |
+| [Convert Word to Accessible PDF with Aspose.Words – Complete Guide](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) | Learn how to convert Word documents to accessible PDFs using Aspose.Words with a complete step‑by‑step guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

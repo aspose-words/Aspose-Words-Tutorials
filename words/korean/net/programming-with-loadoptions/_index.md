@@ -28,6 +28,7 @@ Aspose.Words for .NET 튜토리얼은 LoadOptions를 사용하여 워드 프로�
 | [Ms Word 버전 설정](./set-ms-word-version/) | Aspose.Words for .NET을 사용하여 MS Word 버전을 설정하는 방법을 자세한 가이드를 통해 알아보세요. 문서 조작을 간소화하려는 개발자에게 적합합니다. |
 | [Word 문서에서 임시 폴더 사용](./use-temp-folder/) | Aspose.Words로 Word 문서를 로드하는 동안 임시 폴더를 사용하여 .NET 애플리케이션의 성능을 향상시키는 방법을 알아보세요. |
 | [Word 문서의 경고 콜백](./warning-callback/) | Aspose.Words for .NET을 사용하여 Word 문서에서 경고를 포착하고 처리하는 방법을 단계별 가이드를 통해 알아보세요. 강력한 문서 처리를 보장합니다. |
+| [Aspose.Words에서 경고 콜백 등록 – 완전 프로그래밍 가이드](./register-warning-callback-in-aspose-words-complete-programmi/) | Aspose.Words에서 경고 콜백을 등록하고 처리하는 전체 프로그래밍 가이드를 단계별로 안내합니다. |
 | [Word 문서에 인코딩을 사용하여 로드](./load-with-encoding/) | Aspose.Words for .NET을 사용하여 특정 인코딩으로 Word 문서를 로드하는 방법을 알아보세요. 자세한 설명이 포함된 단계별 가이드입니다. |
 | [PDF 이미지 건너뛰기](./skip-pdf-images/) | Aspose.Words for .NET을 사용하여 PDF 문서를 로드할 때 이미지를 건너뛰는 방법을 알아보세요. 원활한 텍스트 추출을 위한 단계별 가이드를 따라해 보세요. |
 | [메타파일을 PNG로 변환](./convert-metafiles-to-png/) | Aspose.Words for .NET을 사용하여 Word 문서의 메타파일을 PNG로 쉽게 변환하는 단계별 튜토리얼을 소개합니다. 문서 관리를 간소화하세요. |
@@ -66,6 +67,8 @@ Aspose.Words for .NET 튜토리얼은 LoadOptions를 사용하여 워드 프로�
 | [C#에서 문서 로드 옵션 구성 – 완전 가이드](./configure-document-load-options-in-c-complete-guide/) | Aspose.Words for .NET에서 C#을 사용해 문서 로드 옵션을 설정하고 최적화하는 방법을 단계별로 안내합니다. |
 | [C#에서 손상된 Word 파일 열기 – 완전 가이드](./open-corrupted-word-file-in-c-complete-guide/) | Aspose.Words for .NET을 사용하여 손상된 Word 파일을 열고 복구하는 완전 가이드를 제공합니다. |
 | [Aspose.Words로 손상된 docx 복구 – 완전 C# 가이드](./repair-damaged-docx-with-aspose-words-complete-c-guide/) | Aspose.Words를 사용해 손상된 docx 파일을 복구하고 완전한 C# 구현 방법을 단계별로 안내합니다. |
+| [Aspose.Words로 손상된 docx 복구 – 완전 단계별 가이드](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Aspose.Words를 사용하여 손상된 docx 파일을 복구하고 단계별 절차를 안내합니다. |
+| [C#에서 Aspose.Words를 사용한 글꼴 대체 경고 활성화](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Aspose.Words for .NET에서 C#을 사용해 글꼴 대체 경고를 활성화하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

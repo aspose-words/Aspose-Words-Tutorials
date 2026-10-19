@@ -28,6 +28,7 @@ Bu eğitimlerde, özel ayarlarla Word belgelerini yüklemek için LoadOptions'ı
 | [Ms Word Sürümünü Ayarla](./set-ms-word-version/) | Ayrıntılı kılavuzumuzla Aspose.Words for .NET kullanarak MS Word sürümlerini nasıl ayarlayacağınızı öğrenin. Belge düzenlemeyi kolaylaştırmak isteyen geliştiriciler için mükemmeldir. |
 | [Word Belgesinde Temp Klasörünü Kullanın](./use-temp-folder/) | Aspose.Words ile Word belgelerini yüklerken geçici bir klasör kullanarak .NET uygulamalarınızın performansını nasıl artıracağınızı öğrenin. |
 | [Word Belgesinde Uyarı Geri Araması](./warning-callback/) | Aspose.Words for .NET'i kullanarak Word belgelerindeki uyarıları nasıl yakalayacağınızı ve işleyeceğinizi adım adım kılavuzumuzla öğrenin. Sağlam belge işlemeyi garantileyin. |
+| [Aspose.Words'te Uyarı Geri Aramasını Kaydet – Tam Programlama Kılavuzu](./register-warning-callback-in-aspose-words-complete-programmi/) | Aspose.Words ile belgeleri yüklerken uyarı geri aramasını nasıl kaydedeceğinizi ve işleyebileceğinizi adım adım öğrenin. |
 | [Word Belgesinde Kodlamayla Yükle](./load-with-encoding/) | Aspose.Words for .NET kullanarak belirli bir kodlamayla bir Word belgesinin nasıl yükleneceğini öğrenin. Ayrıntılı açıklamalarla adım adım kılavuz. |
 | [PDF Görüntülerini Atla](./skip-pdf-images/) | Aspose.Words for .NET kullanarak PDF belgelerini yüklerken resimleri nasıl atlayacağınızı öğrenin. Sorunsuz metin çıkarma için bu adım adım kılavuzu izleyin. |
 | [Meta Dosyalarını PNG'ye Dönüştür](./convert-metafiles-to-png/) | Bu adım adım eğitimle Aspose.Words for .NET kullanarak Word belgelerindeki meta dosyalarını kolayca PNG'ye dönüştürün. Belge yönetiminizi basitleştirin. |
@@ -67,6 +68,8 @@ Bu eğitimlerde, özel ayarlarla Word belgelerini yüklemek için LoadOptions'ı
 | [Hasarlı Word dosyasını kurtar – bozuk docx'i Aspose kullanarak aç](./recover-damaged-word-file-open-corrupted-docx-using-aspose/) | Aspose.Words for .NET ile bozuk bir docx dosyasını nasıl açıp kurtaracağınızı adım adım öğrenin. |
 | [C#'ta Belge Yükleme Seçeneklerini Yapılandırma – Tam Kılavuz](./configure-document-load-options-in-c-complete-guide/) | Aspose.Words for .NET ile C#'ta belge yükleme seçeneklerini adım adım yapılandırmayı öğrenin. |
 | [C#'ta Bozuk Word Dosyasını Aç – Tam Kılavuz](./open-corrupted-word-file-in-c-complete-guide/) | Aspose.Words for .NET ile C# kullanarak bozuk bir Word dosyasını nasıl açıp içeriğini okuyacağınızı adım adım öğrenin. |
+| [Aspose.Words ile bozuk docx dosyasını kurtarma – Tam adım adım kılavuz](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Aspose.Words for .NET kullanarak bozuk bir docx dosyasını tamamen adım adım nasıl kurtaracağınızı öğrenin. |
+| [Aspose.Words ile C#'ta Yazı Tipi Değiştirme Uyarılarını Etkinleştirme](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Aspose.Words for .NET kullanarak C# uygulamanızda yazı tipi yerine koyma uyarılarını nasıl etkinleştireceğinizi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

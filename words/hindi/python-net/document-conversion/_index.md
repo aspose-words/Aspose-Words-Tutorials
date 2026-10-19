@@ -108,6 +108,14 @@ Python और Aspose.Words का उपयोग करके docx फ़ाइ
 
 ### [Python में DOCX को PDF में बदलें – संपूर्ण चरण‑दर‑चरण गाइड](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
 Aspose.Words for Python का उपयोग करके DOCX को PDF में आसानी से बदलें। चरण‑दर‑चरण कोड और टिप्स।
+### [वर्ड को मार्कडाउन के रूप में सहेजें – Aspose.Words के साथ पूर्ण गाइड](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Aspose.Words का उपयोग करके वर्ड दस्तावेज़ को मार्कडाउन फ़ॉर्मेट में बदलने के लिए चरण-दर-चरण मार्गदर्शन।
+
+### [Aspose.Words के साथ docx को pdf में सहेजें – चरण‑दर‑चरण गाइड](./save-docx-as-pdf-with-aspose-words-step-by-step-guide/)
+Aspose.Words का उपयोग करके docx फ़ाइल को PDF में बदलने के लिए पायथन कोड और विस्तृत चरण‑दर‑चरण मार्गदर्शन।
+
+### [वर्ड को मार्कडाउन में निर्यात – छवि निष्कर्षण के साथ पूर्ण गाइड (Python)](./export-word-to-markdown-full-guide-with-image-extraction-in/)
+Python में Aspose.Words का उपयोग करके वर्ड को मार्कडाउन में निर्यात करें और छवियों को निकालें। पूर्ण चरण‑दर‑चरण मार्गदर्शन।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

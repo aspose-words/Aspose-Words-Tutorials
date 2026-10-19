@@ -49,6 +49,8 @@ Python ile Aspose.Words kullanarak bir Word belgesi oluşturun ve şekillere gö
 Python kullanarak Word belgelerindeki şekillere gölge eklemeyi adım adım öğrenin.
 ### [Python'da Gölgelendirilmiş Dikdörtgen ile Belge Kaydetme – Tam Python Kılavuzu](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
 Python kullanarak gölgelendirilmiş bir dikdörtgen ekleyerek Word belgesini kaydetmeyi adım adım öğrenin.
+### [Python'da Dikdörtgen Şekli Oluşturma – Aspose.Words Eğitimi](./create-rectangle-shape-in-python-aspose-words-tutorial/)
+Python ve Aspose.Words kullanarak Word belgesine dikdörtgen şekli eklemeyi adım adım öğrenin.
 
 ## Ek Kaynaklar
 

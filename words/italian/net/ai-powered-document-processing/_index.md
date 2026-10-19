@@ -63,6 +63,7 @@ Infine, non dimenticare di dare un'occhiata al nostro [Lavorare con le opzioni d
 | [Come controllare la grammatica in C# con Aspose.Words – Guida](./how-to-check-grammar-in-c-with-aspose-words-guide/) | Scopri come verificare la grammatica dei documenti Word in C# usando Aspose.Words con questa guida passo‑passo. |
 | [Come utilizzare Summarize in Aspose.Words – Guida completa](./how-to-use-summarize-in-aspose-words-complete-guide/) | Scopri come sfruttare la funzione Summarize di Aspose.Words per .NET per creare riepiloghi efficaci dei documenti. |
 | [Riscrivi paragrafo con AI in C# – Come configurare LLM locale](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) | Scopri come riscrivere paragrafi usando un modello AI locale in C# con Aspose.Words per .NET. |
+| [Come controllare la grammatica con Aspose.Words AI – Guida completa](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | Scopri come utilizzare l'AI di Aspose.Words per verificare e correggere la grammatica nei documenti Word in modo semplice ed efficace. |
 
 | [Come controllare la grammatica e riassumere un documento Word con Aspose.Words AI](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Scopri come verificare la grammatica e generare riassunti dei documenti Word usando l'AI di Aspose.Words. |
 {{< /blocks/products/pf/tutorial-page-section >}}

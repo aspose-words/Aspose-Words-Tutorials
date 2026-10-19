@@ -78,6 +78,9 @@ Tanulja meg, hogyan állíthatja helyre a sérült DOCX fájlokat és töltheti 
 ### [Korrupt DOCX helyreállítása – Teljes útmutató az Aspose.Words for Python használatával](./recover-corrupted-docx-complete-guide-using-aspose-words-for/)
 Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlokat és töltheti be őket az Aspose.Words for Python segítségével.
 
+### [Korrupt DOCX helyreállítása – Teljes útmutató a Word fájlok megnyitásához az Aspose segítségével](./recover-corrupted-docx-complete-guide-to-opening-word-files/)
+Tanuld meg, hogyan állíthatod helyre a sérült DOCX fájlokat és nyithatod meg őket az Aspose.Words for Python-net használatával.
+
 ## További források
 
 - [Aspose.Words Python-net dokumentációhoz](https://docs.aspose.com/words/python-net/)

@@ -28,6 +28,9 @@
 ### [Word als PDF speichern und beschädigtes Word wiederherstellen – Word in Markdown konvertieren in C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 Erfahren Sie, wie Sie Word‑Dokumente als PDF speichern, beschädigte Word‑Dateien wiederherstellen und sie in Markdown konvertieren.
 
+### [Word-Dokument wiederherstellen mit Aspose.Words – Vollständige Anleitung](./recover-word-document-with-aspose-words-full-guide/)
+Erfahren Sie, wie Sie beschädigte Word-Dokumente mit Aspose.Words wiederherstellen – vollständige Schritt‑für‑Schritt‑Anleitung.
+
 ### [Erstellen Sie barrierefreies PDF und konvertieren Sie Word zu Markdown – Vollständige C#‑Anleitung](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 Erfahren Sie, wie Sie ein barrierefreies PDF erstellen und Word‑Dokumente in Markdown konvertieren – komplette C#‑Anleitung.
 
@@ -39,6 +42,9 @@ Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in Markdown konvertieren �
 
 ### [DOCX als Markdown speichern – Vollständige C#‑Anleitung mit LaTeX‑Gleichungen](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 Erfahren Sie, wie Sie DOCX‑Dateien mit LaTeX‑Formeln in Markdown konvertieren – umfassende Schritt‑für‑Schritt‑Anleitung in C#.
+
+### [DOCX als Markdown speichern – Vollständige Anleitung mit LaTeX‑Gleichungen](./save-docx-as-markdown-complete-guide-with-latex-equations/)
+Erfahren Sie, wie Sie DOCX‑Dateien mit LaTeX‑Formeln in Markdown konvertieren – umfassende Schritt‑für‑Schritt‑Anleitung.
 
 ### [DOCX als Markdown speichern – Vollständige C#‑Anleitung mit Bildextraktion](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und dabei Bilder extrahieren – umfassende Schritt‑für‑Schritt‑Anleitung in C#.
@@ -98,6 +104,10 @@ Erfahren Sie, wie Sie Word‑Dateien in Markdown konvertieren und dabei Bilder e
 Erfahren Sie, wie Sie LaTeX‑Formeln aus Word‑Dokumenten extrahieren und als Markdown mit LaTeX‑Syntax speichern.
 ### [Word in Markdown konvertieren – Vollständige Anleitung mit Bildextraktion](./convert-word-to-markdown-complete-guide-with-image-extractio/)
 Erfahren Sie, wie Sie Word‑Dateien in Markdown konvertieren und dabei Bilder extrahieren – umfassende Schritt‑für‑Schritt‑Anleitung.
+### [Benutzerdefinierter Bildordner für den Export von Markdown mit Bildern – Vollständige Anleitung](./custom-image-folder-for-export-markdown-with-images-complete/)
+Erfahren Sie, wie Sie einen benutzerdefinierten Bildordner festlegen, um Bilder beim Export nach Markdown zu verwalten.
+### [DOCX zu Markdown konvertieren und Bilder aus DOCX speichern](./convert-docx-to-markdown-save-images-from-docx/)
+Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und dabei Bilder extrahieren und speichern.
 
 ### [Wie man Markdown aus Word speichert – Schritt‑für‑Schritt‑Anleitung](./how-to-save-markdown-from-word-step-by-step-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown speichern – vollständige Schritt‑für‑Schritt‑Anleitung in C#.

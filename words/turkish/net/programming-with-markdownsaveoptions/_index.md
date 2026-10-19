@@ -97,6 +97,10 @@ Words Processing with MarkdownSaveOptions, .NET için Aspose.Words kütüphanesi
 | [C# ile docx'i markdown'a dönüştür – Tam Rehber](./convert-docx-to-markdown-with-c-complete-guide/) | Aspose.Words for .NET kullanarak C# ile docx dosyalarını markdown formatına dönüştürmeyi adım adım öğrenin. |
 | [DOCX'i Aspose.Words ile Markdown olarak Kaydet – Tam Adım‑Adım Rehber](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/) | Aspose.Words for .NET kullanarak DOCX dosyasını tam adım adım Markdown formatına dönüştürün. |
 | [C# ile Docx'i Markdown'a Dönüştür – Tam Programlama Rehberi](./convert-docx-to-markdown-with-c-complete-programming-guide/) | Aspose.Words for .NET kullanarak C# ile docx dosyalarını tam adım adım markdown formatına dönüştürün. |
+| [docx'i markdown olarak kaydet – LaTeX denklemleriyle Tam Rehber](./save-docx-as-markdown-complete-guide-with-latex-equations/) | Aspose.Words for .NET kullanarak docx dosyasını LaTeX denklemleriyle markdown formatına dönüştürün. Adım adım tam rehber. |
+| [Görüntülerle Markdown Dışa Aktarma İçin Özel Görüntü Klasörü – Tam Rehber](./custom-image-folder-for-export-markdown-with-images-complete/) | Aspose.Words for .NET kullanarak Markdown dışa aktarırken görüntüleri özel bir klasöre kaydetmeyi öğrenin. |
+| [Docx'i markdown'a dönüştür ve docx'ten görüntüleri kaydet](./convert-docx-to-markdown-save-images-from-docx/) | Aspose.Words for .NET kullanarak docx dosyasını markdown formatına dönüştürün ve içindeki görüntüleri kaydedin. |
+| [Aspose.Words ile Word Belgesini Kurtar – Tam Rehber](./recover-word-document-with-aspose-words-full-guide/) | Aspose.Words kullanarak bozuk Word belgelerini nasıl kurtaracağınızı adım adım gösteren tam rehber. |
 | [LaTeX'i DOCX'ten Dışa Aktarma – Markdown'a Dönüştür](./how-to-export-latex-from-docx-convert-to-markdown/) | Aspose.Words for .NET kullanarak DOCX dosyasından LaTeX dışa aktarın ve Markdown formatına dönüştürün. |
 | [Word'den Markdown Oluştur – Tam C# Rehberi](./create-markdown-from-word-full-c-guide/) | Aspose.Words for .NET kullanarak Word belgelerinden tam C# rehberiyle markdown oluşturmayı öğrenin. |
 

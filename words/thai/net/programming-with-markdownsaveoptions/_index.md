@@ -56,6 +56,7 @@
 
 ### [วิธีส่งออก Markdown จาก Word – คู่มือเต็ม C#](./how-to-export-markdown-from-word-complete-c-guide/)
 เรียนรู้ขั้นตอนการส่งออกไฟล์ Word เป็น Markdown อย่างครบถ้วนด้วย C+
+### [บันทึก docx เป็น markdown – คู่มือเต็ม C# พร้อมการสกัดรูปภาพ](./save-docx-as-markdown-full-c-guide-with-image-extracti/)
 
 ### [วิธีบันทึก Word เป็น Markdown – คู่มือเต็ม C#](./how-to-save-word-as-markdown-complete-c-guide/)
 เรียนรู้ขั้นตอนการบันทึกไฟล์ Word เป็นรูปแบบ Markdown อย่างละเอียดด้วย C#
@@ -96,6 +97,9 @@
 ### [บันทึกรูปภาพ Word – แปลง Word เป็น Markdown ด้วย Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
 เรียนรู้วิธีบันทึกรูปภาพจากไฟล์ Word และแปลงเป็น Markdown ด้วย Aspose.Words สำหรับ .NET
 
+### [โฟลเดอร์รูปภาพกำหนดเองสำหรับการส่งออก Markdown พร้อมรูปภาพ – คู่มือเต็ม](./custom-image-folder-for-export-markdown-with-images-complete/)
+ตั้งค่าโฟลเดอร์รูปภาพที่กำหนดเองเมื่อส่งออกเป็น Markdown พร้อมการฝังรูปภาพ – คำแนะนำครบถ้วน
+
 ### [แปลง Word เป็น Markdown ใน C# – คู่มือเต็มพร้อมการสกัดรูปภาพ](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 
 ### [แปลง DOCX เป็น Markdown – คู่มือเต็มเพื่อส่งออก Word เป็น Markdown](./convert-docx-to-markdown-complete-guide-to-export-word-to-ma/)
@@ -106,6 +110,14 @@
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างละเอียดด้วย Aspose.Words สำหรับ .NET
 ### [แปลง docx เป็น markdown ด้วย C# – คู่มือเต็ม](./convert-docx-to-markdown-with-c-complete-guide/)
 ### [บันทึก docx เป็น markdown ด้วย Aspose.Words – คู่มือเต็มขั้นตอนโดยขั้นตอน](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/)
+### [บันทึก docx เป็น markdown – คู่มือเต็มพร้อมสมการ LaTeX](./save-docx-as-markdown-complete-guide-with-latex-equations/)
+### [แปลง docx เป็น markdown และบันทึกรูปภาพจาก docx](./convert-docx-to-markdown-save-images-from-docx/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown พร้อมการสกัดและบันทึกรูปภาพจากไฟล์ต้นฉบับ
+
+### [กู้คืนเอกสาร Word ด้วย Aspose.Words – คู่มือเต็ม](./recover-word-document-with-aspose-words-full-guide/)
+เรียนรู้วิธีกู้คืนไฟล์ Word ที่เสียหายโดยใช้ Aspose.Words พร้อมขั้นตอนละเอียดและตัวอย่างโค้ดใน C#
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 ### [แปลง Docx เป็น Markdown ด้วย C# – คู่มือโปรแกรมเต็ม](./convert-docx-to-markdown-with-c-complete-programming-guide/)
 ### [แปลง Word เป็น Markdown – คู่มือเต็มพร้อมการสกัดรูปภาพ](./convert-word-to-markdown-complete-guide-with-image-extractio/)

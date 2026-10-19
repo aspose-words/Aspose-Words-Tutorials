@@ -70,6 +70,7 @@ Ismerje meg, hogyan menthet képeket a Word dokumentumból a Markdownba konvert�
 
 ### [Word konvertálása Markdownba – Teljes útmutató képek kinyerésével](./convert-word-to-markdown-full-guide-with-image-extraction/)
 ### [DOCX mentése Markdownba – Teljes C# útmutató Aspose.Words segítségével](./save-docx-as-markdown-with-aspose-words-complete-c-guide/)
+### [DOCX konvertálása Markdownba és képek mentése a DOCX‑ből](./convert-docx-to-markdown-save-images-from-docx/)
 ### [Hogyan mentse el a Markdown‑t a DOCX‑ből – Lépésről‑lépésre útmutató](./how-to-save-markdown-from-docx-step-by-step-guide/)
 Ismerje meg, hogyan mentheti el a DOCX fájlokat Markdown formátumba lépésről‑lépésre C#‑ban az Aspose.Words for .NET segítségével.
 ### [Hogyan exportáljunk Markdown‑t Word-ből – Teljes C# útmutató](./how-to-export-markdown-from-word-complete-c-guide/)
@@ -150,6 +151,11 @@ Ismerje meg, hogyan konvertálhat DOCX fájlokat Markdown formátumba C#‑ban a
 ### [Mappa létrehozása a Word Markdownba konvertálásához](./create-assets-folder-for-convert-word-to-markdown/)
 ### [Word mentése Markdownba – Teljes útmutató az Aspose.Words használatával](./save-word-as-markdown-complete-guide-with-aspose-words/)
 Ismerje meg, hogyan menthet Word dokumentumokat Markdown formátumba részletes útmutatóval az Aspose.Words segítségével.
+### [DOCX mentése Markdownba – Teljes útmutató LaTeX egyenletekkel](./save-docx-as-markdown-complete-guide-with-latex-equations/)
+### [Egyéni képmappa a Markdownba exportáláshoz képekkel – Teljes útmutató](./custom-image-folder-for-export-markdown-with-images-complete/)
+Ismerje meg, hogyan állíthat be egyéni képmappát a Markdownba exportálás során, hogy a képek megfelelően kerüljenek mentésre.
+### [Word dokumentum helyreállítása Aspose.Words segítségével – Teljes útmutató](./recover-word-document-with-aspose-words-full-guide/)
+Ismerje meg, hogyan állíthatja helyre a sérült Word dokumentumokat az Aspose.Words teljes útmutatója alapján.
 ### [Markdown létrehozása Word‑ből – Teljes C# útmutató](./create-markdown-from-word-full-c-guide/)
 Lépésről‑lépésre bemutatjuk, hogyan hozhat létre Markdown fájlokat Word dokumentumokból C#‑ban.
 

@@ -49,6 +49,8 @@
 Μάθετε πώς να προσθέσετε σκιά σε σχήματα χρησιμοποιώντας Aspose.Words για Python, βελτιώνοντας την εμφάνιση των εγγράφων σας.
 ### [Πώς να Αποθηκεύσετε Έγγραφο με Σκιά σε Ορθογώνιο – Πλήρης Οδηγός Python](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
 Μάθετε πώς να αποθηκεύσετε ένα έγγραφο Word με ορθογώνιο που έχει σκιά, χρησιμοποιώντας το Aspose.Words για Python‑net.
+### [Δημιουργία σχήματος ορθογωνίου σε Python – Οδηγός Aspose.Words](./create-rectangle-shape-in-python-aspose-words-tutorial/)
+Μάθετε πώς να δημιουργήσετε και να προσαρμόσετε σχήμα ορθογωνίου σε έγγραφα Word χρησιμοποιώντας Aspose.Words για Python.
 
 ## Πρόσθετοι Πόροι
 

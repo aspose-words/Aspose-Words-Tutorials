@@ -44,7 +44,6 @@
 | [Ανάκτηση Κατεστραμμένου Αρχείου Word – Πλήρης Οδηγός για Ορισμό Λειτουργίας Ανάκτησης](./recover-damaged-word-file-complete-guide-to-setting-recovery/) | Μάθετε πώς να ενεργοποιήσετε τη λειτουργία ανάκτησης και να ανοίξετε κατεστραμμένα αρχεία Word με το Aspose.Words για .NET. |
 | [πώς να ανακτήσετε docx – οδηγός C# για κατεστραμμένα αρχεία Word](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Μάθετε πώς να επαναφέρετε αρχεία docx που έχουν καταστραφεί, χρησιμοποιώντας C# και Aspose.Words για .NET. |
 | [Ανάκτηση εγγράφου Word με Aspose.Words σε C#](./recover-word-document-with-aspose-words-in-c/) | Μάθετε πώς να ανακτήσετε κατεστραμμένα ή χαλασμένα έγγραφα Word χρησιμοποιώντας Aspose.Words σε C#. |
-| [Ανάκτηση Κατεστραμμένου Εγγράφου σε C# – Ορισμός Λειτουργίας Ανάκτησης & Ειδοποίηση Χρήστη](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | Μάθετε πώς να ανακτήσετε κατεστραμμένα έγγραφα Word σε C# ορίζοντας λειτουργία ανάκτησης και εμφανίζοντας προτροπή στον χρήστη. |
 | [Πώς να ανακτήσετε DOCX – Πλήρης οδηγός με χρήση Aspose.Words](./how-to-recover-docx-complete-guide-using-aspose-words/) | Μάθετε πώς να ανακτήσετε αρχεία DOCX που έχουν καταστραφεί, βήμα προς βήμα, χρησιμοποιώντας το Aspose.Words για .NET. |
 | [Ανάκτηση Κατεστραμμένου Εγγράφου Word – Πλήρης Οδηγός C#](./recover-corrupted-word-document-complete-c-guide/) | Μάθετε πώς να ανακτήσετε έγγραφα Word που έχουν καταστραφεί, βήμα προς βήμα, χρησιμοποιώντας C# και Aspose.Words. |
 | [Ανάκτηση κατεστραμμένου αρχείου DOCX με το Aspose.Words](./recover-damaged-docx-file-using-aspose-words/) | Μάθετε πώς να ανακτήσετε κατεστραμμένα αρχεία DOCX χρησιμοποιώντας το Aspose.Words για .NET με βήμα-βήμα οδηγίες. |
@@ -67,6 +66,10 @@
 | [Άνοιγμα Κατεστραμμένου Αρχείου Word σε C# – Πλήρης Οδηγός](./open-corrupted-word-file-in-c-complete-guide/) | Μάθετε πώς να ανοίξετε και να επαναφέρετε κατεστραμμένα αρχεία Word σε C# με πλήρη οδηγό βήμα προς βήμα. |
 | [Πώς να χρησιμοποιήσετε το LoadOptions για την ανίχνευση ελλιπών γραμματοσειρών](./how-to-use-loadoptions-to-detect-missing-fonts/) | Μάθετε πώς να εντοπίζετε γραμματοσειρές που λείπουν κατά τη φόρτωση εγγράφων Word με το LoadOptions του Aspose.Words για .NET. |
 | [Επιδιόρθωση κατεστραμμένου docx με Aspose.Words – Πλήρης Οδηγός C#](./repair-damaged-docx-with-aspose-words-complete-c-guide/) | Μάθετε πώς να επιδιορθώσετε κατεστραμμένα αρχεία docx χρησιμοποιώντας Aspose.Words με πλήρη οδηγό C#. |
+| [Ανάκτηση Κατεστραμμένου Εγγράφου σε C# – Ορισμός Λειτουργίας Ανάκτησης & Ειδοποίηση Χρήστη](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | Μάθετε πώς να ανακτήσετε κατεστραμμένα έγγραφα Word σε C# ορίζοντας λειτουργία ανάκτησης και εμφανίζοντας προτροπή στον χρήστη. |
+| [Ανάκτηση κατεστραμμένου docx με Aspose.Words – Πλήρης Οδηγός Βήμα‑βήμα](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Μάθετε πώς να ανακτήσετε κατεστραμμένα αρχεία docx χρησιμοποιώντας Aspose.Words με πλήρη βήμα‑βήμα οδηγία. |
+| [Ενεργοποίηση προειδοποιήσεων αντικατάστασης γραμματοσειράς σε C# με Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Μάθετε πώς να ενεργοποιήσετε προειδοποιήσεις όταν γίνεται αντικατάσταση γραμματοσειρών σε έγγραφα Word χρησιμοποιώντας C# και Aspose.Words. |
+| [Καταχώρηση Callback Προειδοποίησης στο Aspose.Words – Πλήρης Οδηγός Προγραμματισμού](./register-warning-callback-in-aspose-words-complete-programmi/) | Μάθετε πώς να καταχωρήσετε callback προειδοποίησης στο Aspose.Words για έλεγχο σφαλμάτων κατά τη φόρτωση εγγράφων. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

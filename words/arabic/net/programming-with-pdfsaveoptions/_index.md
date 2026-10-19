@@ -77,6 +77,9 @@
 | [إنشاء ملف PDF قابل للوصول باستخدام Aspose.Words – دليل كامل](./create-accessible-pdf-with-aspose-words-complete-guide/) | دليل شامل خطوة بخطوة لإنشاء ملفات PDF قابلة للوصول باستخدام Aspose.Words لـ .NET. |
 | [إنشاء ملف PDF قابل للوصول – دليل خطوة بخطوة للامتثال لمعيار PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) |تعرف على كيفية إنشاء ملفات PDF قابلة للوصول وفقًا لمعيار PDF/UA باستخدام Aspose.Words لـ .NET من خلال دليل خطوة بخطوة. |
 | [إنشاء ملف PDF قابل للوصول من Word باستخدام Aspose.Words](./create-accessible-pdf-from-word-using-aspose-words/) | تعلم كيفية إنشاء ملف PDF قابل للوصول من مستند Word باستخدام Aspose.Words خطوة بخطوة. |
+| [إنشاء ملف PDF قابل للوصول من DOCX – دليل برمجة كامل](./create-accessible-pdf-from-docx-complete-programming-guide/) |دليل شامل خطوة بخطوة لإنشاء ملفات PDF قابلة للوصول من مستندات DOCX باستخدام Aspose.Words لـ .NET. |
+| [تحويل DOCX إلى PDF باستخدام Aspose.Words – دليل برمجة كامل](./convert-docx-to-pdf-with-aspose-words-complete-programming-g/) |دليل شامل خطوة بخطوة لتحويل ملفات DOCX إلى PDF باستخدام Aspose.Words في بيئة .NET. |
+| [تحويل Word إلى PDF قابل للوصول باستخدام Aspose.Words – دليل كامل](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) |دليل شامل خطوة بخطوة لتحويل مستندات Word إلى ملفات PDF قابلة للوصول باستخدام Aspose.Words. |
 | [كيفية حفظ PDF من DOCX باستخدام Aspose.Words – دليل خطوة بخطوة](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) | تعلم كيفية تحويل مستند DOCX إلى PDF باستخدام Aspose.Words خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

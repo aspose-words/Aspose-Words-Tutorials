@@ -28,6 +28,7 @@ En estos tutoriales, aprenderá a usar LoadOptions para cargar documentos de Wor
 | [Establecer la versión de Ms Word](./set-ms-word-version/) Aprenda a configurar versiones de MS Word con Aspose.Words para .NET con nuestra guía detallada. Ideal para desarrolladores que buscan optimizar la manipulación de documentos. |
 | [Usar carpeta temporal en un documento de Word](./use-temp-folder/) | Aprenda cómo mejorar el rendimiento de sus aplicaciones .NET mediante el uso de una carpeta temporal al cargar documentos de Word con Aspose.Words. |
 | [Advertencia de devolución de llamada en un documento de Word](./warning-callback/) Aprenda a detectar y gestionar advertencias en documentos de Word con Aspose.Words para .NET con nuestra guía paso a paso. Garantice un procesamiento de documentos robusto. |
+| [Registrar la devolución de llamada de advertencia en Aspose.Words – Guía completa de programación](./register-warning-callback-in-aspose-words-complete-programmi/) Aprenda a registrar y manejar devoluciones de llamada de advertencia en Aspose.Words con esta guía paso a paso. |
 | [Cargar con codificación en documento de Word](./load-with-encoding/) Aprenda a cargar un documento de Word con una codificación específica usando Aspose.Words para .NET. Guía paso a paso con explicaciones detalladas. |
 | [Omitir imágenes en PDF](./skip-pdf-images/) Aprenda a omitir imágenes al cargar documentos PDF con Aspose.Words para .NET. Siga esta guía paso a paso para una extracción de texto fluida. |
 | [Convertir metarchivos a PNG](./convert-metafiles-to-png/) Convierte fácilmente metarchivos a PNG en documentos de Word con Aspose.Words para .NET con este tutorial paso a paso. Simplifica la gestión de tus documentos. |
@@ -63,6 +64,8 @@ En estos tutoriales, aprenderá a usar LoadOptions para cargar documentos de Wor
 | [Abrir archivo Word corrupto en C# – Guía completa](./open-corrupted-word-file-in-c-complete-guide/) Guía completa para abrir archivos Word dañados en C# con Aspose.Words, incluyendo configuración de recuperación y manejo de errores. |
 | [Cómo usar LoadOptions para detectar fuentes faltantes](./how-to-use-loadoptions-to-detect-missing-fonts/) Aprenda a detectar fuentes faltantes al cargar documentos Word usando LoadOptions en Aspose.Words para .NET. |
 | [Reparar docx dañado con Aspose.Words – Guía completa en C#](./repair-damaged-docx-with-aspose-words-complete-c-guide/) Aprenda a reparar archivos DOCX dañados usando Aspose.Words en C# con esta guía paso a paso. |
+| [Recuperar docx corrupto con Aspose.Words – Guía completa paso a paso](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) Aprenda a reparar archivos DOCX dañados usando Aspose.Words en .NET con una guía paso a paso completa. |
+| [Habilitar advertencias de sustitución de fuentes en C# con Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) Aprenda a activar advertencias de sustitución de fuentes al cargar documentos con Aspose.Words en C# para mejorar la gestión tipográfica. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -108,6 +108,14 @@ Python と Aspose.Words を使用して、docx ファイルを高品質な PDF �
 
 ### [Python で docx を PDF に変換 – 完全ステップバイステップガイド](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
 Python と Aspose.Words を使用して、docx ファイルを PDF に変換する手順をステップバイステップで解説します。
+### [Word を Markdown に保存 – Aspose.Words 完全ガイド](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Aspose.Words を使って Word 文書を Markdown に変換し保存する手順を詳しく解説します。簡単に実装可能です！
+
+### [Aspose.Words で docx を PDF に保存 – ステップバイステップガイド](./save-docx-as-pdf-with-aspose-words-step-by-step-guide/)
+Aspose.Words を使用して docx ファイルを PDF に変換する手順を詳しく解説します。簡単に実装できます。
+
+### [Word を Markdown にエクスポート – 画像抽出付き完全ガイド（Python）](./export-word-to-markdown-full-guide-with-image-extraction-in/)
+Python で Word 文書を Markdown に変換し、画像を抽出して保存する方法を詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -43,6 +43,7 @@ Dzięki tym samouczkom będziesz w stanie w pełni wykorzystać funkcjonalności
 
 | [Zapisz docx jako txt – Kompletny przewodnik C# z równaniami LaTeX](./save-docx-as-txt-complete-c-guide-with-latex-equations/) | Dowiedz się, jak konwertować pliki DOCX do TXT w C#, zachowując równania LaTeX w treści. |
 | [Utwórz plik txt z dokumentu w C# – Eksportuj równania do LaTeX](./create-txt-from-document-in-c-export-equations-to-latex/) | Dowiedz się, jak w C# wyeksportować równania z dokumentu Word do formatu LaTeX przy zapisie jako plik txt. |
+| [Jak wyeksportować LaTeX z Worda – Kompletny przewodnik eksportu LaTeX](./how-to-export-latex-from-word-complete-guide-to-export-latex/) | Dowiedz się, jak przy użyciu Aspose.Words wyeksportować dokumenty Word do formatu LaTeX, krok po kroku, z przykładami C#. |
 | [Zapisz docx jako txt – Kompletny przewodnik po eksportowaniu równań Word do LaTeX](./save-docx-as-txt-complete-guide-to-exporting-word-equations/) | Dowiedz się, jak zapisać plik docx jako txt i wyeksportować równania Word do formatu LaTeX przy użyciu Aspose.Words dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

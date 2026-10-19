@@ -28,6 +28,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Atur Versi Ms Word](./set-ms-word-version/) | Pelajari cara mengatur versi MS Word menggunakan Aspose.Words untuk .NET dengan panduan terperinci kami. Sempurna bagi pengembang yang ingin menyederhanakan manipulasi dokumen. Bahasa Indonesia:
 | [Gunakan Folder Temp Dalam Dokumen Word](./use-temp-folder/) | Pelajari cara meningkatkan kinerja aplikasi .NET Anda dengan menggunakan folder sementara saat memuat dokumen Word dengan Aspose.Words. Bahasa Indonesia:
 | [Peringatan Panggilan Balik Dalam Dokumen Word](./warning-callback/) Pelajari cara menangkap dan menangani peringatan dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Pastikan pemrosesan dokumen yang kuat. Bahasa Indonesia:
+| [Daftarkan Panggilan Balik Peringatan di Aspose.Words – Panduan Pemrograman Lengkap](./register-warning-callback-in-aspose-words-complete-programmi/) Pelajari cara mendaftarkan callback peringatan di Aspose.Words dengan panduan pemrograman lengkap. |
 | [Muat Dengan Pengodean Dalam Dokumen Word](./load-with-encoding/) | Pelajari cara memuat dokumen Word dengan pengodean tertentu menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah dengan penjelasan terperinci. Bahasa Indonesia:
 | [Lewati Gambar Pdf](./skip-pdf-images/) | Pelajari cara melewati gambar saat memuat dokumen PDF menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah ini untuk ekstraksi teks yang lancar. Bahasa Indonesia:
 | [Konversi Metafile ke PNG](./convert-metafiles-to-png/) | Ubah metafile menjadi PNG dalam dokumen Word dengan mudah menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah ini. Sederhanakan pengelolaan dokumen Anda. Bahasa Indonesia:
@@ -66,6 +67,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Pulihkan File Word Rusak – Panduan Lengkap Mengatur Mode Pemulihan](./recover-damaged-word-file-complete-guide-to-setting-recovery/) | Pelajari cara mengatur mode pemulihan untuk membuka file Word yang rusak dengan Aspose.Words. |
 | [Mengonfigurasi Opsi Muat Dokumen di C# – Panduan Lengkap](./configure-document-load-options-in-c-complete-guide/) | Panduan lengkap mengonfigurasi LoadOptions untuk memuat dokumen di Aspose.Words menggunakan C#. |
 | [Buka File Word Rusak di C# – Panduan Lengkap](./open-corrupted-word-file-in-c-complete-guide/) | Pelajari cara membuka file Word yang rusak menggunakan C# dengan Aspose.Words dalam panduan langkah demi langkah. |
+| [Pulihkan docx rusak dengan Aspose.Words – Panduan Lengkap Langkah‑per‑Langkah](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Panduan lengkap untuk memulihkan file DOCX yang rusak menggunakan Aspose.Words dengan contoh kode langkah demi langkah. |
+| [Aktifkan Peringatan Substitusi Font di C# dengan Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Pelajari cara mengaktifkan peringatan substitusi font di C# menggunakan Aspose.Words untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

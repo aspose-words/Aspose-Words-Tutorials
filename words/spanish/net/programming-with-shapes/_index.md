@@ -57,6 +57,7 @@ Al usar Aspose.Words para .NET y seguir estos tutoriales, dominará la manipulac
 | [Crear documento Word – Insertar forma rectangular y sombra en C#](./create-word-document-insert-rectangle-shape-shadow-in-c/) | Aprenda a crear un documento Word e insertar una forma rectangular con sombra usando Aspose.Words para .NET y C# paso a paso. |
 | [Cómo agregar sombra a formas de Word en C# – Guía completa](./how-to-add-shadow-to-word-shapes-in-c-complete-guide/) | Aprenda a agregar sombras a formas en documentos de Word usando Aspose.Words para .NET con esta guía paso a paso. |
 | [Agregar sombra a una forma en Word con Aspose.Words – Guía completa](./add-shadow-to-shape-in-word-with-aspose-words-complete-guide/) | Aprenda a agregar sombras a formas en documentos de Word usando Aspose.Words para .NET con esta guía completa. |
+| [Agregar sombra a una forma en documentos Word – Guía completa en C#](./add-shadow-to-shape-in-word-documents-complete-c-guide/) | Aprenda a agregar sombras a formas en documentos Word con Aspose.Words para .NET mediante esta guía paso a paso. |
 | [Crear documento Word C# – Agregar forma con sombra](./create-word-document-c-add-shape-with-shadow/) | Aprenda a crear un documento Word en C# y agregar una forma con sombra usando Aspose.Words para .NET con esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -78,6 +78,9 @@ Cho dù bạn muốn chuyển đổi tài liệu Word sang PDF để phân phố
 | [Lưu tài liệu PDF với thay thế phông chữ trong C# – Hướng dẫn đầy đủ](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Hướng dẫn chi tiết cách lưu tài liệu PDF với việc thay thế phông chữ trong C# bằng Aspose.Words. |
 | [Tạo PDF có khả năng truy cập với Aspose.Words – Hướng dẫn đầy đủ](./create-accessible-pdf-with-aspose-words-complete-guide/) | Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập bằng Aspose.Words cho .NET. |
 | [Tạo PDF có thể truy cập từ Word bằng Aspose.Words](./create-accessible-pdf-from-word-using-aspose-words/) | Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập từ tài liệu Word bằng Aspose.Words cho .NET. |
+| [Tạo PDF có khả năng truy cập từ DOCX – Hướng dẫn lập trình đầy đủ](./create-accessible-pdf-from-docx-complete-programming-guide/) | Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập từ tài liệu DOCX bằng Aspose.Words cho .NET. |
+| [Chuyển đổi DOCX sang PDF với Aspose.Words – Hướng dẫn lập trình đầy đủ](./convert-docx-to-pdf-with-aspose-words-complete-programming-g/) | Hướng dẫn toàn diện cách chuyển đổi DOCX sang PDF bằng Aspose.Words trong C#. |
+| [Chuyển đổi Word sang PDF có khả năng truy cập với Aspose.Words – Hướng dẫn đầy đủ](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang PDF có khả năng truy cập bằng Aspose.Words trong C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
