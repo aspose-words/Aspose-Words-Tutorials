@@ -217,7 +217,8 @@ If you hit any snags—like missing equations or unexpected image sizes—refer 
 ![Diagram showing the conversion flow from DOCX to Markdown with LaTeX export – how to export latex](https://example.com/convert-flow.png "Diagram illustrating how to export latex while converting DOCX to Markdown")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

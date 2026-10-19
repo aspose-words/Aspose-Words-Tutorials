@@ -207,7 +207,8 @@ Got a tricky conversion scenario or a bug you can’t squash? Drop a comment, an
 ![save document as pdf workflow diagram](https://example.com/images/save-document-as-pdf.png "save document as pdf workflow")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -226,7 +226,8 @@ Ready to level up? Try converting a DOCX with complex tables, then experiment wi
 Happy coding, and may your markdown always be as clean as your code!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

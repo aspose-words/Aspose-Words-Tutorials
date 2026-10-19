@@ -241,7 +241,8 @@ Give those ideas a try, and you’ll quickly see how powerful a well‑placed wa
 Feel free to drop a comment below or ping me on GitHub. Happy coding, and may your documents always render with the fonts you expect!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

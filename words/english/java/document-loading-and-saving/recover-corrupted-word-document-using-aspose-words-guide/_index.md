@@ -188,7 +188,8 @@ From here you might:
 Experiment with the different `RecoveryMode` values, log detailed diagnostics, and you’ll find that even the messiest Word files can often be rescued. Happy coding, and may your documents stay uncorrupted!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
