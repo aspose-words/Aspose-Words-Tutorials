@@ -167,6 +167,8 @@ Pelajari cara mengekspor file DOCX menjadi TXT menggunakan Aspose.Words for Java
 Pelajari cara menyimpan dokumen Word sebagai file teks biasa sambil mengekspor persamaan matematika menggunakan Aspose.Words for Java.
 ### [Simpan Dokumen sebagai DOCX dengan Aspose.Words – Panduan Lengkap Java](./save-document-as-docx-with-aspose-words-complete-java-guide/)
 Pelajari cara menyimpan dokumen sebagai file DOCX menggunakan Aspose.Words for Java dengan contoh kode lengkap.
+### [Simpan docx sebagai txt dengan Ekspor Matematika LaTeX – Panduan Lengkap Java](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
+Pelajari cara menyimpan file DOCX sebagai TXT sambil mengekspor persamaan LaTeX menggunakan Aspose.Words for Java.
 
 ### [Buat PDF Aksesibel dari DOCX – Panduan Lengkap](./create-accessible-pdf-from-docx-complete-guide/)
 Pelajari cara mengonversi file DOCX menjadi PDF yang memenuhi standar aksesibilitas, termasuk tag, teks alternatif, dan struktur dokumen.
@@ -281,6 +283,12 @@ Pelajari cara mengonversi file Word menjadi Markdown menggunakan Aspose.Words fo
 
 ### [Buat File PDF/UA yang Mematuhi Standar dengan Java – Panduan Lengkap Aspose.Words](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
 Pelajari cara membuat file PDF/UA yang sesuai standar aksesibilitas menggunakan Aspose.Words for Java dalam panduan langkah demi langkah.
+
+### [Buat File PDF/UA‑1 yang Mematuhi Standar dengan Java – Panduan Lengkap](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
+Panduan lengkap untuk menghasilkan file PDF/UA‑1 yang sesuai standar aksesibilitas menggunakan Aspose.Words for Java.
+
+### [Buat Dokumen PDF/UA yang Mematuhi Standar – Panduan Lengkap Java](./create-pdf-ua-compliant-document-complete-java-guide/)
+Pelajari cara membuat dokumen PDF/UA‑1 yang mematuhi standar aksesibilitas menggunakan Aspose.Words for Java dalam panduan langkah demi langkah.
 
 ## Pertanyaan yang Sering Diajukan
 

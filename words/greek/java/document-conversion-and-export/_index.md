@@ -169,6 +169,9 @@ weight: 22
 ### [Πώς να Εξάγετε LaTeX από DOCX σε TXT με το Aspose.Words](./how-to-export-latex-from-docx-to-txt-with-aspose-words/)
 Μάθετε πώς να εξάγετε εξισώσεις LaTeX από αρχεία DOCX σε απλό αρχείο TXT χρησιμοποιώντας το Aspose.Words for Java.
 
+### [Αποθήκευση docx ως txt με εξαγωγή μαθηματικών LaTeX – Πλήρης οδηγός Java](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
+Μάθετε πώς να αποθηκεύετε αρχεία DOCX ως TXT διατηρώντας μαθηματικές εξισώσεις σε μορφή LaTeX χρησιμοποιώντας Aspose.Words for Java.
+
 ### [Aspose.Words σε PDF – Μετατροπή DOCX σε PDF με Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF ...
 
@@ -274,6 +277,12 @@ weight: 22
 
 ### [Δημιουργία PDF/UA Συμβατού Αρχείου με Java – Πλήρης Οδηγός Aspose.Words](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
 Μάθετε πώς να δημιουργήσετε PDF/UA αρχεία συμμορφωμένα με πρότυπα προσβασιμότητας χρησιμοποιώντας Aspose.Words for Java.
+
+### [Δημιουργία Συμβατού Αρχείου PDF/UA‑1 με Java – Πλήρης Οδηγός](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
+Μάθετε πώς να δημιουργήσετε αρχεία PDF/UA‑1 συμβατά με το Aspose.Words for Java, εξασφαλίζοντας προσβασιμότητα και συμμόρφωση.
+
+### [Δημιουργία Συμβατού εγγράφου PDF/UA – Πλήρης οδηγός Java](./create-pdf-ua-compliant-document-complete-java-guide/)
+Μάθετε πώς να δημιουργήσετε έγγραφα PDF/UA‑1 συμβατά με το Aspose.Words for Java, ακολουθώντας βήμα‑βήμα οδηγίες.
 
 ## Συχνές Ερωτήσεις
 

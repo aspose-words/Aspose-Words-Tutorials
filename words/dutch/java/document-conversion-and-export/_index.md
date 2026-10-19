@@ -154,6 +154,11 @@ Leer hoe je een document volledig toegankelijk maakt bij het opslaan als PDF met
 Leer hoe u met Aspose.Words for Java een PDF/UA‑2‑conform document maakt, inclusief toegankelijkheidsinstellingen en validatie.
 ### [PDF/UA‑conform bestand maken met Java – Volledige Aspose.Words‑gids](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
 Leer hoe u met Aspose.Words for Java een PDF/UA‑conform bestand genereert, inclusief toegankelijkheidsopties en best practices.
+### [Maak PDF/UA‑1‑conforme bestand met Java – Complete gids](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
+Leer hoe je met Aspose.Words for Java een PDF/UA‑1‑conforme file maakt, inclusief toegankelijkheidsopties en validatie.
+
+### [PDF/UA‑conform document maken – Complete Java‑gids](./create-pdf-ua-compliant-document-complete-java-guide/)
+Leer hoe je met Aspose.Words for Java een PDF/UA‑conform document maakt, inclusief toegankelijkheidsinstellingen en validatie.
 
 ### [DOCX naar Markdown converteren – Wiskundige vergelijkingen exporteren naar LaTeX met Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Leer hoe je DOCX-bestanden omzet naar Markdown en wiskundige vergelijkingen exporteert naar LaTeX met Aspose.Words.
@@ -284,6 +289,9 @@ Leer hoe je een Word‑document exporteert naar Markdown met Aspose.Words for Ja
 
 ### [Document opslaan als DOCX met Aspose.Words – Complete Java‑gids](./save-document-as-docx-with-aspose-words-complete-java-guide/)
 Leer hoe je met Aspose.Words for Java documenten opslaat als DOCX, inclusief opties voor opmaak en licentiebeheer.
+
+### [DOCX opslaan als TXT met LaTeX‑wiskunde‑export – Complete Java‑gids](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
+Leer hoe je een DOCX‑bestand opslaat als TXT en wiskundige formules exporteert naar LaTeX met Aspose.Words for Java.
 
 ## Veelgestelde Vragen
 

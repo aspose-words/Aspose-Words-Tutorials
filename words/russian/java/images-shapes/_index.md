@@ -50,6 +50,9 @@
 ### [Создание текстового поля в Java – Полное руководство по добавлению теней](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
 Узнайте, как добавить текстовое поле с теневыми эффектами в документ Word с помощью Aspose.Words для Java.
 
+### [Создание документа Word в Java – Добавление тени к фигуре](./create-word-document-java-add-shadow-to-shape-guide/)
+Узнайте, как добавить тень к фигуре в документ Word с помощью Aspose.Words для Java.
+
 ## Дополнительные ресурсы
 
 ## Дополнительные ресурсы

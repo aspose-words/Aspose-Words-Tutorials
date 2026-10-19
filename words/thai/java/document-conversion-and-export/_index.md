@@ -145,6 +145,8 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 เรียนรู้วิธีบันทึกไฟล์ Word เป็นข้อความธรรมดา พร้อมส่งออกสมการอย่างครบถ้วนด้วย Aspose.Words
 ### [วิธีส่งออก LaTeX จาก DOCX ไปเป็น TXT ด้วย Aspose.Words](./how-to-export-latex-from-docx-to-txt-with-aspose-words/)
 เรียนรู้วิธีส่งออก LaTeX จากไฟล์ DOCX ไปเป็น TXT ด้วย Aspose.Words
+### [บันทึก docx เป็น txt พร้อมส่งออกคณิตศาสตร์ LaTeX – คู่มือ Java ฉบับสมบูรณ์](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
+บันทึกไฟล์ DOCX เป็น TXT พร้อมส่งออกสมการ LaTeX อย่างครบถ้วนด้วย Aspose.Words for Java
 
 ### [Aspose.Words to PDF – แปลง DOCX เป็น PDF ด้วย Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF อย่างง่ายด้วย Aspose.Words for Java
@@ -282,6 +284,12 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 
 ### [สร้างไฟล์ PDF/UA ที่เป็นไปตามมาตรฐานด้วย Java – คู่มือเต็ม Aspose.Words](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
 เรียนรู้วิธีสร้างไฟล์ PDF/UA ที่สอดคล้องกับมาตรฐานการเข้าถึงด้วย Aspose.Words for Java อย่างละเอียด
+
+### [สร้างไฟล์ PDF/UA‑1 ที่เป็นไปตามมาตรฐานด้วย Java – คู่มือฉบับสมบูรณ์](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
+เรียนรู้วิธีสร้างไฟล์ PDF/UA‑1 ที่สอดคล้องกับมาตรฐานการเข้าถึงด้วย Aspose.Words for Java อย่างละเอียด
+
+### [สร้างเอกสาร PDF/UA ที่เป็นไปตามมาตรฐาน – คู่มือ Java ฉบับสมบูรณ์](./create-pdf-ua-compliant-document-complete-java-guide/)
+เรียนรู้วิธีสร้างเอกสาร PDF/UA ที่เป็นไปตามมาตรฐานด้วย Aspose.Words for Java ในคู่มือฉบับสมบูรณ์นี้
 
 ## คำถามที่พบบ่อย
 

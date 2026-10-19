@@ -50,6 +50,9 @@ Java kullanarak Word belgesine dikdörtgen şekil eklemeyi adım adım öğrenin
 ### [Java'da Metin Kutusu Şekli Oluştur – Gölge Eklemeye Tam Kılavuz](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
 Java kullanarak Word belgesine metin kutusu şekli ekleyin ve gölge efektiyle özelleştirin.
 
+### [Java ile Word Belgesi Oluştur – Şekle Gölge Ekleme Kılavuzu](./create-word-document-java-add-shadow-to-shape-guide/)
+Java kullanarak Word belgesine şekil ekleyip gölge uygulamayı öğrenin.
+
 ## Ek Kaynaklar
 
 ## Ek Kaynaklar

@@ -144,6 +144,8 @@ Learn how to save DOCX files as plain text while preserving LaTeX equations usin
 Learn how to export LaTeX equations from DOCX files to plain TXT using Aspose.Words for Java.
 ### [Save Document as DOCX with Aspose.Words – Complete Java Guide](./save-document-as-docx-with-aspose-words-complete-java-guide/)
 Learn how to save documents as DOCX using Aspose.Words for Java with detailed code examples and best practices.
+### [Save docx as txt with LaTeX Math Export – Complete Java Guide](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
+Learn how to save DOCX as TXT while exporting LaTeX math equations using Aspose.Words for Java. Complete step‑by‑step guide.
 
 ### [aspose word to pdf – Convert DOCX to PDF in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Learn how to convert DOCX files to PDF using Aspose.Words for Java with simple code examples.
@@ -282,6 +284,12 @@ Learn how to convert Word documents to Markdown using Aspose.Words for Java with
 
 ### [Create PDF/UA Compliant File with Java – Full Aspose.Words Guide](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
 Learn how to create PDF/UA compliant files using Aspose.Words for Java, ensuring accessibility and standards compliance.
+
+### [Create PDF/UA‑1 Compliant File with Java – Complete Guide](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
+Learn how to generate PDF/UA‑1 compliant documents using Aspose.Words for Java with step‑by‑step instructions and code examples.
+
+### [create pdf/ua compliant document – Complete Java Guide](./create-pdf-ua-compliant-document-complete-java-guide/)
+Learn how to generate PDF/UA‑1 compliant documents using Aspose.Words for Java with step‑by‑step instructions and code examples.
 
 ## Frequently Asked Questions
 

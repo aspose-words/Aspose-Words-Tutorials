@@ -145,6 +145,9 @@ Dowiedz się, jak przechwytywać ostrzeżenia o podstawianiu czcionek i wykrywa�
 
 ### [Wykrywanie brakującej podstawy czcionek w Javie – Kompletny przewodnik Aspose.Words](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
 Dowiedz się, jak wykrywać ostrzeżenia o brakującej podstawie czcionek w dokumentach Word przy użyciu Aspose.Words for Java.
+### [Odzyskaj uszkodzony DOCX w Javie – Kompletny przewodnik programistyczny](./recover-corrupted-docx-in-java-complete-programming-guide/)
+
+### [Rejestrowanie ostrzeżeń o podstawianiu czcionek w Javie przy użyciu Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
 
 ## Najczęściej zadawane pytania
 

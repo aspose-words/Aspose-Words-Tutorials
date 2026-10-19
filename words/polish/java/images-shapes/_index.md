@@ -50,6 +50,9 @@ Dowiedz się, jak w pełni krok po kroku dodać prostokątny kształt do dokumen
 ### [Utwórz pole tekstowe w Javie – Kompletny przewodnik po dodawaniu cieni](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
 Dowiedz się, jak dodać pole tekstowe z efektem cienia do dokumentu Word przy użyciu Aspose.Words dla Java.
 
+### [Utwórz dokument Word w Javie – Dodaj cień do kształtu](./create-word-document-java-add-shadow-to-shape-guide/)
+Dowiedz się, jak dodać cień do kształtu w dokumencie Word przy użyciu Aspose.Words dla Java.
+
 ## Dodatkowe zasoby
 
 ## Dodatkowe zasoby

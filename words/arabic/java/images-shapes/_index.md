@@ -50,6 +50,9 @@
 ### [إنشاء شكل صندوق نص في Java – دليل كامل لإضافة الظلال](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
 تعلم كيفية إنشاء شكل صندوق نص وإضافة تأثير الظل في مستندات Word باستخدام Aspose.Words for Java
 
+### [إنشاء مستند Word في Java – إضافة الظل إلى الشكل](./create-word-document-java-add-shadow-to-shape-guide/)
+تعلم كيفية إضافة الظل إلى الأشكال في مستند Word باستخدام Aspose.Words for Java
+
 ## موارد إضافية
 
 ## موارد إضافية

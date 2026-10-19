@@ -170,6 +170,8 @@ weight: 22
 Узнайте, как экспортировать уравнения из Word в простой текстовый файл с помощью Aspose.Words for Java.
 ### [Сохранить документ как DOCX с Aspose.Words – Полное руководство на Java](./save-document-as-docx-with-aspose-words-complete-java-guide/)
 Подробное руководство по сохранению документа в формате DOCX с использованием Aspose.Words for Java.
+### [Сохранить docx как txt с экспортом LaTeX‑математики – Полное руководство Java](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
+Пошаговое руководство по сохранению DOCX в TXT с экспортом формул в LaTeX с помощью Aspose.Words for Java.
 
 ### [Aspose.Words в PDF – Конвертировать DOCX в PDF в Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Пошаговое руководство по конвертации DOCX в PDF с помощью Aspose.Words for Java, включая настройку параметров сохранения.
@@ -301,6 +303,12 @@ weight: 22
 
 ### [Создание PDF/UA совместимого файла с Java – Полное руководство Aspose.Words](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
 Пошаговое руководство по созданию PDF/UA совместимых файлов с помощью Aspose.Words for Java.
+
+### [Создание PDF/UA‑1 совместимого файла с Aspose.Words для Java – Полное руководство](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
+Узнайте, как с помощью Aspose.Words for Java создать PDF/UA‑1 совместимый документ, отвечающий требованиям доступности и стандарта PDF/UA.
+
+### [Создание PDF/UA‑совместимого документа – Полное руководство Java](./create-pdf-ua-compliant-document-complete-java-guide/)
+Пошаговое руководство по созданию PDF/UA‑совместимых документов в Java с использованием Aspose.Words, включая настройки доступности.
 
 ## Часто задаваемые вопросы
 

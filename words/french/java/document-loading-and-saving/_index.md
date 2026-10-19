@@ -108,6 +108,9 @@ Apprenez à ouvrir des documents Word corrompus en Java en activant le mode de r
 ### [Récupérer un docx corrompu avec Aspose.Words – Guide complet Java](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
 Apprenez à réparer les fichiers DOCX corrompus en Java avec Aspose.Words grâce à ce guide complet.
 
+### [Récupérer un DOCX corrompu en Java – Guide complet de programmation](./recover-corrupted-docx-in-java-complete-programming-guide/)
+Apprenez à réparer les fichiers DOCX endommagés, extraire le contenu et le traiter avec Aspose.Words for Java grâce à un guide pas‑à‑pas.
+
 ### [Options avancées d'enregistrement avec Aspose.Words for Java](./advance-saving-options/)
 Apprenez la manipulation avancée de documents avec Aspose.Words for Java. Chiffrez, gérez les métafichiers, et plus encore. Vos documents Word, à votre façon.
 
@@ -181,6 +184,9 @@ Apprenez à définir les polices lors de l'enregistrement d'un document Word et 
 
 ### [Détecter la substitution de police manquante en Java – Guide complet Aspose.Words](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
 Apprenez à détecter les avertissements de substitution de police manquante en Java avec Aspose.Words. Guide complet avec exemples de code.
+
+### [Enregistrer les avertissements de substitution de police en Java avec Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
+Apprenez à consigner les avertissements de substitution de police lors du chargement de documents Word en Java avec Aspose.Words.
 
 ## Foire aux questions
 

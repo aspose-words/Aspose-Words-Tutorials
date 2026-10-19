@@ -123,7 +123,6 @@ Aspose.Words for Java를 사용해 PDF/UA‑2 표준을 만족하는 문서를 �
 ### [Java용 Aspose.Words에서 테이블 및 테이블 스타일 서식 지정](./formatting-tables-and-table-styles/)
 
 ### [docx를 markdown으로 변환 – Aspose.Words로 수학 방정식을 LaTeX로 내보내기](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
-
 ### [docx를 markdown으로 저장 – 완전 C# 가이드](./save-docx-as-markdown-complete-c-guide/)
 
 ### [DOCX를 마크다운으로 저장 – 단계별 Java 가이드](./save-docx-as-markdown-step-by-step-java-guide/)
@@ -239,6 +238,11 @@ Aspose.Words for Java를 이용해 DOCX 문서의 LaTeX 수식을 추출하여 �
 ### [Aspose.Words로 문서를 DOCX로 저장 – 완전 Java 가이드](./save-document-as-docx-with-aspose-words-complete-java-guide/)
 ### [Java로 Word를 Markdown으로 변환 – 전체 가이드](./convert-word-to-markdown-with-java-full-guide/)
 ### [Java로 PDF/UA 준수 파일 만들기 – Aspose.Words 전체 가이드](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
+### [DOCX를 TXT로 저장하고 LaTeX 수식 내보내기 – 완전 Java 가이드](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
+
+### [Java용 Aspose.Words에서 PDF/UA‑1 호환 파일 만들기 – 완전 가이드](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
+
+### [PDF/UA‑1 호환 문서 만들기 – 완전 Java 가이드](./create-pdf-ua-compliant-document-complete-java-guide/)
 
 ## 자주 묻는 질문
 

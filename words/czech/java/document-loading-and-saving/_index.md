@@ -171,6 +171,10 @@ Naučte se, jak pomocí Aspose.Words for Java opravit a načíst poškozené sou
 ### [Obnovení poškozeného docx pomocí Aspose.Words – Kompletní průvodce pro Javu](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
 Naučte se, jak opravit poškozené soubory DOCX pomocí Aspose.Words v Javě, krok za krokem s ukázkami kódu.
 
+### [Obnovení poškozeného DOCX v Javě – Kompletní programovací průvodce](./recover-corrupted-docx-in-java-complete-programming-guide/)
+Naučte se, jak opravit a zpracovat poškozené soubory DOCX v Javě pomocí Aspose.Words, krok za krokem s ukázkovým kódem.
+
+### [Zaznamenání varování o nahrazení fontů v Javě s Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
 
 ## Často kladené otázky
 

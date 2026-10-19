@@ -143,6 +143,8 @@ weight: 22
 تعلم كيفية حفظ مستند Word كنص عادي وتصدير معادلاته باستخدام Aspose.Words for Java خطوة بخطوة.
 ### [كيفية تصدير LaTeX من DOCX إلى TXT باستخدام Aspose.Words](./how-to-export-latex-from-docx-to-txt-with-aspose-words/)
 تعلم كيفية استخراج صيغ LaTeX من مستندات DOCX وحفظها كملفات TXT باستخدام Aspose.Words.
+### [حفظ ملف docx كملف txt مع تصدير رياضيات LaTeX – دليل Java كامل](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
+تعلم كيفية حفظ مستند DOCX كملف TXT وتصدير معادلات LaTeX بسهولة باستخدام Aspose.Words for Java.
 
 ### [Aspose Word إلى PDF – تحويل DOCX إلى PDF في Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 تعلم كيفية تحويل ملفات DOCX إلى PDF باستخدام Aspose.Words for Java بخطوات بسيطة.
@@ -288,6 +290,12 @@ weight: 22
 
 ### [إنشاء ملف PDF/UA متوافق مع Java – دليل كامل Aspose.Words](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
 دليل شامل لإنشاء ملفات PDF/UA متوافقة باستخدام Aspose.Words for Java، مع خطوات البرمجة وتفاصيل التوافق.
+
+### [إنشاء ملف PDF/UA‑1 متوافق باستخدام Java – دليل شامل](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
+دليل خطوة بخطوة لإنشاء ملفات PDF/UA‑1 متوافقة باستخدام Aspose.Words for Java.
+
+### [إنشاء مستند PDF/UA متوافق – دليل Java كامل](./create-pdf-ua-compliant-document-complete-java-guide/)
+دليل خطوة بخطوة لإنشاء مستند PDF/UA متوافق باستخدام Aspose.Words for Java.
 
 ## الأسئلة المتكررة
 

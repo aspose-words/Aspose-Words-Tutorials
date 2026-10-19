@@ -50,6 +50,9 @@ Aprenda a crear y personalizar una forma rectangular en documentos Word usando A
 ### [Crear forma de cuadro de texto en Java – Guía completa para añadir sombras](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
 Aprenda a crear una caja de texto con sombra en documentos Word usando Aspose.Words para Java.
 
+### [Crear documento Word en Java – Añadir sombra a forma](./create-word-document-java-add-shadow-to-shape-guide/)
+Aprenda a crear un documento Word en Java y agregar sombra a una forma usando Aspose.Words.
+
 ## Recursos adicionales
 
 ## Recursos adicionales

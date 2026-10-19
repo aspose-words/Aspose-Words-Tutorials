@@ -50,6 +50,9 @@ Hướng dẫn chi tiết cách tạo hình chữ nhật trong tài liệu Word 
 ### [Tạo hình dạng hộp văn bản trong Java – Hướng dẫn toàn diện về thêm bóng](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
 Hướng dẫn chi tiết cách chèn và tùy chỉnh hộp văn bản có hiệu ứng bóng trong tài liệu Word bằng Aspose.Words cho Java.
 
+### [Tạo tài liệu Word bằng Java – Thêm bóng vào hình dạng](./create-word-document-java-add-shadow-to-shape-guide/)
+Hướng dẫn cách chèn và áp dụng hiệu ứng bóng cho các hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
+
 ## Tài nguyên bổ sung
 
 ## Tài nguyên bổ sung

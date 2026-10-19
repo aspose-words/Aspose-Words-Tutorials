@@ -50,6 +50,9 @@ Um guia detalhado que mostra como inserir e formatar uma forma retangular em doc
 ### [Criar caixa de texto em Java – Guia completo para adicionar sombras](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
 Aprenda a inserir e personalizar uma caixa de texto com sombras em documentos Word usando Aspose.Words para Java.
 
+### [Criar documento Word Java – Adicionar sombra a forma](./create-word-document-java-add-shadow-to-shape-guide/)
+Aprenda a adicionar sombra a formas em documentos Word usando Aspose.Words para Java.
+
 ## Recursos adicionais
 
 ## Recursos adicionais

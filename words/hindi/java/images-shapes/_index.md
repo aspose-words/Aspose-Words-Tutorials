@@ -56,6 +56,9 @@ Aspose.Words for Java का उपयोग करके वर्ड दस्
 ### [जावा में टेक्स्ट बॉक्स आकार बनाएं – छाया जोड़ने के लिए पूर्ण गाइड](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
 जावा में Aspose.Words का उपयोग करके टेक्स्ट बॉक्स आकार में छाया प्रभाव जोड़ने का तरीका सीखें।
 
+### [जावा में Word दस्तावेज़ बनाएं – आकृति में छाया जोड़ने का गाइड](./create-word-document-java-add-shadow-to-shape-guide/)
+जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ में आकृति पर छाया प्रभाव जोड़ने का तरीका सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)

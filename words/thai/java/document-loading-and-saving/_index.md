@@ -76,23 +76,35 @@ Aspose.Words for Java ทำให้การ **บันทึกภาพจ�
 
 ## บทแนะนำที่เกี่ยวข้อง – โหลด, บันทึก, และแปลง
 ### [การโหลดและบันทึกเอกสาร HTML ด้วย Aspose.Words for Java](./loading-and-saving-html-documents/)
+
 ### [การทำงานกับ Load Options ใน Aspose.Words for Java](./using-load-options/)
 ### [สร้าง Load Options ใน Java – ตรวจจับฟอนต์ที่หายไปและวิธีโหลด DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
 ### [การกำหนดค่า RTF Load Options ใน Aspose.Words for Java](./configuring-rtf-load-options/)
+
 ### [การโหลดไฟล์ข้อความด้วย Aspose.Words for Java](./loading-text-files/)
+
 ### [ตัวเลือกการบันทึกขั้นสูงด้วย Aspose.Words for Java](./advance-saving-options/)
+
 ### [การบันทึกเอกสาร HTML ด้วย Fixed Layout ใน Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
 
 ### [ตัวเลือกการบันทึกเอกสาร HTML ขั้นสูงด้วย Aspose.Words Java](./advance-html-documents-saving-options/)
 
 ### [การบันทึกภาพจากเอกสารใน Aspose.Words for Java](./saving-images-from-documents/)
+
 ### [การบันทึกเอกสารเป็น Markdown ใน Aspose.Words for Java](./saving-documents-as-markdown/)
+
 ### [การบันทึกเอกสารเป็นรูปแบบ ODT ใน Aspose.Words for Java](./saving-documents-as-odt-format/)
+
 ### [การบันทึกเอกสารเป็นรูปแบบ OOXML ใน Aspose.Words for Java](./saving-documents-as-ooxml-format/)
+
 ### [การบันทึกเอกสารเป็นรูปแบบ PCL ใน Aspose.Words for Java](./saving-documents-as-pcl-format/)
+
 ### [การบันทึกเอกสารเป็น PDF ใน Aspose.Words for Java](./saving-documents-as-pdf/)
+
 ### [การบันทึกเอกสารเป็นรูปแบบ RTF ใน Aspose.Words for Java](./saving-documents-as-rtf-format/)
+
 ### [การบันทึกเอกสารเป็นไฟล์ข้อความใน Aspose.Words for Java](./saving-documents-as-text-files/)
+
 ### [การกำหนดรูปแบบเอกสารใน Aspose.Words for Java](./determining-document-format/)
 ### [วิธีกู้ไฟล์ DOCX ด้วย Aspose.Words – คู่มือขั้นตอนเต็ม](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 
@@ -116,6 +128,10 @@ Aspose.Words for Java ทำให้การ **บันทึกภาพจ�
 ### [กู้ไฟล์ docx ที่เสียโดยใช้ Aspose.Words Java](./recover-corrupted-docx-using-aspose-words-java/)
 ### [ลงทะเบียน callback คำเตือนใน Java – ติดตามฟอนต์ที่หายไป](./register-warning-callback-in-java-track-missing-fonts/)
 ### [ตรวจจับการแทนที่ฟอนต์ที่หายไปใน Java – คู่มือ Aspose.Words ฉบับสมบูรณ์](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+
+### [บันทึกคำเตือนการแทนที่ฟอนต์ใน Java ด้วย Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
+
+### [กู้ไฟล์ DOCX ที่เสียใน Java – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./recover-corrupted-docx-in-java-complete-programming-guide/)
 
 ## คำถามที่พบบ่อย
 

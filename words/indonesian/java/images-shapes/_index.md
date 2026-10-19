@@ -50,6 +50,9 @@ Panduan lengkap untuk menambahkan bentuk persegi panjang ke dokumen Word menggun
 ### [Buat Bentuk Kotak Teks di Java – Panduan Lengkap Menambahkan Bayangan](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
 Pelajari cara menambahkan bentuk kotak teks dengan efek bayangan ke dokumen Word menggunakan Aspose.Words untuk Java.
 
+### [Buat Dokumen Word Java – Tambahkan Bayangan pada Bentuk](./create-word-document-java-add-shadow-to-shape-guide/)
+Pelajari cara menambahkan bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk Java.
+
 ## Sumber Daya Tambahan
 
 ## Sumber Daya Tambahan
