@@ -52,6 +52,9 @@ Aspose.Words Python-net 教程中的「圖像和形狀」類別旨在幫助開�
     ### [如何使用帶陰影的矩形儲存文件 – 完整 Python 指南](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
 學習如何在 Python 中使用 Aspose.Words 為文件添加帶陰影的矩形並保存，提升文檔的視覺效果。
 
+    ### [在 Python 中建立矩形形狀 – Aspose.Words 教程](./create-rectangle-shape-in-python-aspose-words-tutorial/)
+    了解如何使用 Aspose.Words for Python 在 Word 文件中插入矩形形狀的步驟與程式碼示例。
+
 ## 其他資源
 
 - [Aspose.Words for Python-net 文檔](https://docs.aspose.com/words/python-net/)

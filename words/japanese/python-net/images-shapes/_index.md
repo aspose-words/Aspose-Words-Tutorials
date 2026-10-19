@@ -50,6 +50,8 @@ Aspose.Words for Python-net を使い、Word 文書に長方形を挿入し、�
 Aspose.Words for Python を使用して、図形に影効果を追加し、文書の視覚的魅力を高める方法を詳しく解説します。
 ### [影付き長方形で文書を保存する方法 – 完全 Python ガイド](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
 Python を使用して、影付き長方形を含む Word 文書を保存する手順をステップバイステップで解説します。
+### [Python で矩形シェイプを作成 – Aspose.Words チュートリアル](./create-rectangle-shape-in-python-aspose-words-tutorial/)
+Python-net を使用して Word 文書に矩形シェイプを挿入し、カスタマイズする方法を学びます。
 
 ## 追加リソース
 

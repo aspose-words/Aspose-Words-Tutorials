@@ -109,6 +109,15 @@ Aspose.Words를 사용해 docx 파일을 PDF로 변환하는 방법을 단계별
 ### [Python에서 DOCX를 PDF로 변환 – 완전 단계별 가이드](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
 Aspose.Words를 사용해 DOCX 파일을 PDF로 변환하는 전체 과정을 단계별로 안내합니다!
 
+### [Word를 Markdown으로 저장하기 – Aspose.Words 완전 가이드](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Aspose.Words를 활용해 Word 문서를 Markdown으로 저장하는 방법을 단계별로 안내합니다.
+
+### [Aspose.Words를 사용하여 docx를 pdf로 저장하기 – 단계별 가이드](./save-docx-as-pdf-with-aspose-words-step-by-step-guide/)
+Aspose.Words를 활용해 docx 파일을 PDF로 변환하는 방법을 단계별로 안내합니다.
+
+### [Python을 사용한 Word를 Markdown으로 내보내기 – 이미지 추출 포함 완전 가이드](./export-word-to-markdown-full-guide-with-image-extraction-in/)
+Python으로 Word 문서를 Markdown으로 변환하고 이미지도 추출하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

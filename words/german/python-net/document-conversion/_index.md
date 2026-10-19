@@ -87,6 +87,12 @@ Erfahren Sie, wie Sie Word-Dokumente als PDF speichern und dabei Formen in Inlin
 Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für Python in PDF konvertieren und dabei hochwertige Ergebnisse erzielen.
 ### [DOCX in PDF konvertieren mit Python – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für Python in PDF konvertieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Word als Markdown speichern – Vollständige Anleitung mit Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words vollständig in Markdown konvertieren und speichern.
+### [DOCX als PDF speichern mit Aspose.Words – Schritt-für-Schritt-Anleitung](./save-docx-as-pdf-with-aspose-words-step-by-step-guide/)
+Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words in PDF konvertieren – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Word nach Markdown exportieren – Vollständige Anleitung mit Bildextraktion in Python](./export-word-to-markdown-full-guide-with-image-extraction-in/)
+Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words in Markdown konvertieren und dabei Bilder extrahieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

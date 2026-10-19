@@ -87,6 +87,12 @@ Naučte se uložit dokument Word jako PDF a převést tvary na vložené objekty
 Naučte se převést DOCX soubory do PDF pomocí Aspose.Words pro Python.
 ### [Převod DOCX na PDF v Pythonu – Kompletní krok‑za‑krokem průvodce](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
 Kompletní návod, jak převést DOCX na PDF v Pythonu pomocí Aspose.Words.
+### [Uložení Wordu jako Markdown – kompletní průvodce pomocí Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Naučte se uložit dokument Word jako Markdown pomocí Aspose.Words v Pythonu.
+### [Uložení DOCX jako PDF pomocí Aspose.Words – průvodce krok za krokem](./save-docx-as-pdf-with-aspose-words-step-by-step-guide/)
+Kompletní návod, jak v Pythonu převést DOCX na PDF s Aspose.Words.
+### [Export Word do Markdown – kompletní průvodce s extrakcí obrázků v Pythonu](./export-word-to-markdown-full-guide-with-image-extraction-in/)
+Naučte se exportovat dokumenty Word do Markdown a extrahovat obrázky pomocí Aspose.Words v Pythonu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
