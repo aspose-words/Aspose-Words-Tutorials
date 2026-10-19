@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary: Aspose.Words Document와 DocumentBuilder를 사용하여, 이 튜토리얼은 HTML 마크업을 Word 문서에 삽입하고 결과를 저장합니다.
+//ExStepSummary:0: 출력 폴더를 정의하고, 새 Document를 생성한 뒤 해당 문서에 대한 DocumentBuilder를 초기화합니다.
+//ExStepSummary:1: `builder.InsertHtml()`을 호출하여 오른쪽 정렬 단락, 굵은 텍스트, 가운데 정렬 div, 그리고 왼쪽 정렬 제목을 문서에 추가합니다.
+//ExStepSummary:2: 수정된 문서를 지정된 폴더에 .docx 파일로 저장합니다.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

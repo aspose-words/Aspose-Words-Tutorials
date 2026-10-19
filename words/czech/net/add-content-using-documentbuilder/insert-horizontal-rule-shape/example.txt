@@ -1,0 +1,21 @@
+//ExStart
+//ExSummary: Tento tutoriál ukazuje, jak vytvořit Word dokument, přidat odstavec textu a vložit tvar vodorovné čáry pomocí tříd Document a DocumentBuilder.
+//ExStepSummary:0: Vytvořte nový prázdný Word dokument vytvořením instance třídy Document.
+//ExStepSummary:1: Vytvořte DocumentBuilder propojený s dokumentem, aby bylo možné provádět editační operace.
+//ExStepSummary:2: Napište odstavec textu a poté pomocí DocumentBuilder vložte tvar vodorovné čáry na pozici kurzoru.
+//ExStepSummary:3: Definujte cestu výstupní složky a uložte dokument do souboru .docx.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document doc = new Document();
+
+//ExStep:1-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

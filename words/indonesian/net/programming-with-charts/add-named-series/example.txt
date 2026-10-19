@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Tutorial ini menunjukkan cara menggunakan Aspose.Words Document dan DocumentBuilder untuk membuat dokumen Word, menyisipkan diagram histogram, dan menambahkan seri data berlabel menggunakan overload ChartSeriesCollection.Add yang menerima nama dan nilai.
+//ExStepSummary:0: Buat dokumen Word kosong baru dan DocumentBuilder untuk mengeditnya.
+//ExStepSummary:1: Masukkan bentuk diagram histogram berukuran 500×300 ke dalam dokumen dan dapatkan objek Chart-nya.
+//ExStepSummary:2: Hapus seri placeholder default yang ditambahkan Aspose.Words ke diagram baru.
+//ExStepSummary:3: Tambahkan seri bernama "Demo Series" dengan titik data yang ditentukan ke diagram histogram.
+//ExStepSummary:4: Simpan dokumen ke file .docx yang berisi seri diagram berlabel.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape histogramShape = docBuilder.InsertChart(ChartType.Histogram, 500, 300);
+Chart histogramChart = histogramShape.Chart;
+
+//ExStep:2-
+histogramChart.Series.Clear();
+
+//ExStep:3-
+histogramChart.Series.Add("Demo Series", new double[] { 10, 20, 15, 30, 25 });
+
+//ExStep:4-
+myDocument.Save("LabeledSeriesDemo.docx");
+//ExEnd

@@ -15,7 +15,7 @@ weight: 13
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Office Math-objecten gebruiken in Aspose.Words voor Java
+# Wiskunde Inline weergeven met Office Math in Aspose.Words voor Java
 
 ## Introductie tot het gebruiken van Office Math-objecten in Aspose.Words voor Java
 
@@ -66,6 +66,7 @@ Document doc = new Document("Your Directory Path" + "OfficeMath.docx");
 ### Stap 2: Toegang tot het Office Math-object
 
 Haal de eerste `OfficeMath`‑node op (u kunt later een lus gebruiken als u er meerdere heeft):
+
 
 ```java
 OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
