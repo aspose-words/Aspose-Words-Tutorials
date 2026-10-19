@@ -32,6 +32,7 @@ Akár kezdő, akár tapasztalt fejlesztő vagy, az Aspose.Words for .NET szöveg
 | [Tartalomra mutató hivatkozás konfigurálása](./configuring-link-to-content/) | Tanulja meg, hogyan konfigurálhat egy Word-dokumentum tartalmára mutató hivatkozást az Aspose.Words for .NET használatával részletes, lépésről lépésre bemutató oktatóanyagunkkal. |
 | [Mértékegységek közötti átváltás](./convert-between-measurement-units/) | Tanulja meg, hogyan válthat mértékegységeket az Aspose.Words for .NET programban. Kövesse lépésről lépésre szóló útmutatónkat a dokumentum margóinak, fejléceinek és lábléceinek hüvelykben és pontokban történő beállításához. |
 | [Használjon vezérlőkaraktereket](./use-control-characters/) | Fedezze fel, hogyan automatizálhatja a Word-dokumentumokkal kapcsolatos feladatokat az Aspose.Words for .NET segítségével. Ez az útmutató a beállítást, a szövegcserét és egyebeket ismerteti, így a munkafolyamat hatékonyabbá válik. |
+| [Hogyan számoljuk meg a lapokat egy Word-dokumentumban – Recover & Count](./how-to-count-pages-in-a-word-document-recover-count/) | Tanulja meg, hogyan számolhatja meg a Word-dokumentum lapjait az Aspose.Words for .NET használatával. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

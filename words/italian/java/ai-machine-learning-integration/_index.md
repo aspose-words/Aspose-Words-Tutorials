@@ -68,6 +68,8 @@ Esporta il documento arricchito nel formato necessario—PDF, DOCX, HTML o anche
 ### [Elaborazione Testi Master in Java&#58; Utilizzo di Aspose.Words & AI Models per Sommario e Traduzione](./java-aspose-words-text-processing/)
 Scopri come automatizzare la sintesi e la traduzione del testo usando Aspose.Words per Java con GPT‑4 di OpenAI e Gemini di Google. Migliora oggi le tue applicazioni Java.
 
+### [Come configurare LLM – Sostituire testo in DOCX con IA](./how-to-configure-llm-replace-text-in-docx-with-ai/)
+Impara a configurare un modello LLM per individuare e sostituire automaticamente testo in file DOCX usando Aspose.Words e servizi IA.
 ### [Crea modello AI personalizzato – Modifica paragrafi Word in Java](./create-custom-ai-model-edit-word-paragraphs-in-java/)
 Impara a costruire un modello AI su misura e a modificarne i paragrafi nei documenti Word usando Aspose.Words per Java.
 

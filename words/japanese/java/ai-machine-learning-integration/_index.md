@@ -75,6 +75,10 @@ Aspose.Words を使用して新しい `DocumentBuilder` を作成し、目的の
 
 ### [カスタム AI モデルの作成 – Java で Word の段落を編集](./create-custom-ai-model-edit-word-paragraphs-in-java/)
 
+### [LLM の設定方法 – AI で DOCX のテキストを置換する](./how-to-configure-llm-replace-text-in-docx-with-ai/)
+
+AI を活用して LLM を設定し、DOCX 内のテキストを自動的に置換する手順を解説します。
+
 ## 追加リソース
 
 - [Aspose.Words for Java ドキュメント](https://reference.aspose.com/words/java/)

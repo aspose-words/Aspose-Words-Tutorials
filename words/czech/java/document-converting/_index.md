@@ -100,6 +100,14 @@ Efektivně převádějte DOCX na EPUB pomocí Aspose.Words pro Java. Naučte se 
 ### [Převod dokumentů na obrázky](./converting-documents-images/)
 Naučte se, jak převádět Word dokumenty na obrázky pomocí Aspose.Words pro Java. Praktický průvodce s ukázkovým kódem a častými dotazy.
 
+### [Uložení docx jako markdown pomocí Aspose.Words – Kompletní průvodce](./save-docx-as-markdown-with-aspose-words-complete-guide/)
+Naučte se, jak převést DOCX na Markdown pomocí Aspose.Words v Javě s podrobným krok‑za‑krokem návodem.
+### [Převod DOCX do PDF v Javě – krok za krokem](./convert-docx-to-pdf-in-java-step-by-step-guide/)
+Naučte se, jak převést soubory DOCX do PDF v Javě pomocí Aspose.Words krok za krokem.
+### [Uložení DOCX jako PDF pomocí Aspose.Words – Kompletní průvodce pro Javu](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+Naučte se, jak pomocí Aspose.Words pro Java převést DOCX soubory do PDF v kompletním průvodci krok za krokem.
+### [Převod docx na txt v Javě – Kompletní programovací průvodce](./convert-docx-to-txt-in-java-complete-programming-guide/)
+Naučte se, jak v Javě převést soubory DOCX na prostý textový formát TXT pomocí Aspose.Words.
 ### [Převod DOCX do PDF v Javě – Jednoduchý low‑code průvodce](./convert-docx-to-pdf-in-java-simple-low-code-guide/)
 Rychlý návod, jak pomocí Aspose.Words v Javě převést DOCX soubory do PDF s minimálním kódem.
 

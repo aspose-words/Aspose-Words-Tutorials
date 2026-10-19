@@ -17,7 +17,7 @@
 
 Aspose.Words for .NET eğitimleri, Word belgelerini düzenleme bağlamında kütüphanenin çeşitli özellikleri ve kullanımları konusunda size yol gösterir. Eğitimlerden biri, Word belgelerinden içerik biçimlendirmesini ve yapısını korurken metin dosyalarını nasıl oluşturacağınızı göstererek TXT kaydetme seçenekleriyle Word İşleme'ye odaklanır. Sütun sınırlayıcısını belirtme ve boşlukları yönetme gibi belgelerin metin dosyalarına dönüştürülmesini özelleştirmek için kullanılabilen çeşitli seçenekleri nasıl kullanacağınızı öğreneceksiniz.
 
-Bu eğitimler, kapsanan kavramları anlamanıza ve pratik yapmanıza yardımcı olmak için örnek C# koduyla birlikte adım adım talimatlar sunar. İster yeni başlayan ister deneyimli bir geliştirici olun, .NET için Aspose.Words'ü nasıl kullanacağınız ve bu güçlü belge düzenleme kütüphanesinden en iyi şekilde nasıl yararlanacağınız hakkında ayrıntılı bilgiler bulacaksınız.
+Bu eğitimler, kapsanan kavramları anlamanıza ve pratik yapmanıza yardımcı olmak için örnek C# koduyla birlikte adım adım talimatlar sunar. İster yeni başlayan ister deneyimli bir geliştirici olun, .NET için Aspose.Words'ü nasıl kullanacağınızı ve bu güçlü belge düzenleme kütüphanesinden en iyi şekilde nasıl yararlanacağınız hakkında ayrıntılı bilgiler bulacaksınız.
 
 Bu eğitimler sayesinde, Aspose.Words for .NET'in işlevselliklerinden tam olarak yararlanabilecek ve uygulamalarınızda Word belgelerinin oluşturulması, dönüştürülmesi ve işlenmesi için etkili çözümler geliştirebileceksiniz. Adımları izleyin, kod örneklerini inceleyin ve sağlam, yüksek performanslı Word uygulamaları oluşturmak için becerilerinizi geliştirin.
 
@@ -27,7 +27,21 @@ Bu eğitimler sayesinde, Aspose.Words for .NET'in işlevselliklerinden tam olara
 | [Word Belgesine Bidi İşaretleri Ekleme](./add-bidi-marks/) | Bu kılavuzla Aspose.Words for .NET kullanarak Word belgelerine çift yönlü (Bidi) işaretlerin nasıl ekleneceğini öğrenin. Çok dilli içerik için uygun metin yönünü sağlayın. |
 | [Liste Girintisi İçin Seviye Başına Sekme Karakteri Kullan](./use-tab-character-per-level-for-list-indentation/) | Aspose.Words for .NET kullanarak sekmeli girintili çok seviyeli listeler oluşturmayı öğrenin. Belgelerinizde hassas liste biçimlendirmesi için bu kılavuzu izleyin. |
 | [Liste Girintisi İçin Seviye Başına Boşluk Karakteri Kullan](./use-space-character-per-level-for-list-indentation/) | Aspose.Words for .NET'te boşluk karakteri girintili çok seviyeli listelerin nasıl oluşturulacağını öğrenin. Hassas belge biçimlendirmesi için adım adım kılavuz. |
-
+| [DOCX'ten LaTeX'e Dönüştürme – C# ile DOCX'i TXT'ye Çevirme](./how-to-export-latex-from-docx-convert-docx-to-txt-in-c/) | Bu kılavuz, Aspose.Words for .NET kullanarak DOCX dosyalarını LaTeX formatına ve ardından TXT dosyasına nasıl dönüştüreceğinizi gösterir. |
+| [DOCX'i TXT'ye Dönüştürme – C# ile Belgeyi TXT Olarak Kaydet](./save-document-as-txt-in-c-convert-docx-to-txt/) | Aspose.Words for .NET kullanarak C# ile DOCX dosyalarını TXT formatına nasıl kaydedeceğinizi adım adım öğrenin. |
+| [docx'i txt'ye Dönüştür – Düz Metin Olarak Word Kaydetme Tam Kılavuzu](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | Aspose.Words for .NET kullanarak docx dosyalarını düz metin (txt) formatına nasıl dönüştüreceğinizi öğrenin. |
+| [Belgeyi TXT Olarak Kaydet – DOCX'i Düz Metne Dönüştürmek İçin Tam C# Kılavuzu](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Aspose.Words for .NET kullanarak DOCX dosyalarını düz metin (TXT) formatına dönüştürmeyi adım adım gösteren kapsamlı C# rehberi. |
+| [docx'i txt olarak kaydet – C# geliştiricileri için hızlı rehber](./save-docx-as-txt-quick-guide-for-c-developers/) | C# ile docx dosyalarını txt formatına hızlıca dönüştürmeyi gösteren adım adım rehber. |
+| [C#'ta docx'i txt olarak kaydet – Satır Sonlarını ve Boşlukları Koru](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Aspose.Words for .NET kullanarak docx dosyalarını txt formatına dönüştürürken satır sonları ve boşlukların korunmasını gösteren adım adım kılavuz. |
+| [DOCX'ten LaTeX'e Nasıl Dışa Aktarılır – Adım Adım Kılavuz](./how-to-export-latex-from-docx-step-by-step-guide/) | Aspose.Words for .NET kullanarak DOCX dosyasından LaTeX formatına nasıl dönüştürüleceğini adım adım öğrenin. |
+| [DOCX'i TXT Olarak Kaydet – Word Denklemlerini LaTeX'e Dönüştür](./save-docx-as-txt-export-word-equations-to-latex/) | Bu eğitimde, DOCX dosyasını TXT formatına kaydederken Word denklemlerini LaTeX koduna nasıl dönüştüreceğinizi öğrenin. |
+| [Word'den LaTeX Dışa Aktarma – Word'ü TXT'ye Dönüştürme](./how-to-export-latex-from-word-convert-word-to-txt/) | Bu eğitim, Aspose.Words for .NET ile Word belgelerinden LaTeX'e dışa aktarma ve TXT'ye dönüştürme adımlarını gösterir. |
+| [Belgeyi TXT Olarak Kaydet – Word Denklemlerini LaTeX'e Dışa Aktar](./save-document-as-txt-export-word-equations-to-latex/) | Aspose.Words for .NET kullanarak Word belgelerindeki denklemleri LaTeX formatına dönüştürerek TXT dosyası olarak kaydetmeyi öğrenin. |
+| [docx'i txt olarak kaydet – Denklemleri LaTeX'e dışa aktar](./save-docx-as-txt-export-equations-to-latex/) | Bu eğitimde Aspose.Words for .NET kullanarak docx dosyasını txt formatına kaydederken denklemleri LaTeX biçiminde dışa aktarmayı öğrenin. |
+| [docx dosyasını txt olarak kaydet – Tam C# Kılavuzu](./save-docx-as-txt-complete-c-guide/) | Aspose.Words for .NET kullanarak docx dosyalarını txt formatına dönüştürmeyi adım adım öğrenin. |
+| [Word'den LaTeX'e Dışa Aktarma – Denklemlerle DOCX'i TXT'ye Dönüştürme](./how-to-export-latex-from-word-convert-docx-to-txt-with-equat/) | Bu kılavuz, Aspose.Words for .NET kullanarak Word belgelerindeki denklemleri koruyarak LaTeX formatına ve TXT dosyasına nasıl dönüştüreceğinizi gösterir. |
+| [docx'i txt olarak kaydet – LaTeX Denklemleriyle Tam C# Rehberi](./save-docx-as-txt-complete-c-guide-with-latex-equations/) | Aspose.Words for .NET kullanarak docx dosyalarını txt'e dönüştürürken LaTeX denklemlerini koruyan eksiksiz C# örnekleri. |
+| [C# ile belgeden txt oluşturma – Denklemleri LaTeX'e dışa aktar](./create-txt-from-document-in-c-export-equations-to-latex/) | Aspose.Words for .NET kullanarak C# ile belgelerden txt dosyası oluşturup denklemleri LaTeX formatına dışa aktarmayı öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

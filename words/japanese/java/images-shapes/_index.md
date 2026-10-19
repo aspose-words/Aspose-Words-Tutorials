@@ -34,11 +34,27 @@ Aspose.Words Javaのコードチュートリアル
 ### [Aspose.Words for Java を使用してドキュメントページをサムネイルとしてレンダリングする方法](./render-word-pages-thumbnails-aspose-java/)
 Aspose.Words for Java を使って、Word 文書の高品質なサムネイルとカスタムサイズのビットマップを生成する方法を学びましょう。今すぐドキュメント処理能力を強化しましょう。
 
+### [Word の図形に影を追加する – 完全 Aspose.Words ガイド](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+Aspose.Words for Java を使用して、Word 文書内の図形に影効果を適用する方法をステップバイステップで解説します。
+### [C# で図形に影効果を適用する – ステップバイステップ ガイド](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
+C# で図形に影効果を適用する手順をステップバイステップで解説します。
+### [Aspose.Words で図形に影を設定する方法 – 完全ガイド](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
+Aspose.Words for Java で図形に影効果を適用する手順をステップバイステップで解説します。
+
+### [C# でシェイプに影を設定する方法 – 簡単にシェイプの影を追加](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+C# を使用して Word 文書内のシェイプに影効果を適用し、視覚的に魅力的なレイアウトを作成する手順を解説します。
+
+### [Java の Word 文書で長方形シェイプを作成する – 完全ステップバイステップガイド](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Java で Word 文書に長方形シェイプを挿入し、プロパティ設定や配置方法をステップバイステップで解説します。
+
+### [Javaでテキストボックスシェイプを作成 – 影を追加する完全ガイド](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+Javaでテキストボックスシェイプを作成し、影効果を適用する方法をステップバイステップで解説します。
 ### [矩形シェイプを使用した PDF ドキュメント作成 – 完全 C# ガイド](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
 C# を使用して矩形シェイプを含む PDF ドキュメントを作成する完全ガイドです。
 
 ## 追加リソース
 
+## 追加リソース
 - [Aspose.Words for Java ドキュメント](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Java API リファレンス](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Javaをダウンロード](https://releases.aspose.com/words/java/)

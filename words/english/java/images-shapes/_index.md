@@ -53,11 +53,27 @@ A code tutorial for Aspose.Words Java
 ### [How to Render Document Pages as Thumbnails using Aspose.Words for Java]({{< relref "./render-word-pages-thumbnails-aspose-java/" >}})
 Learn how to generate high-quality thumbnails and custom-sized bitmaps of Word documents with Aspose.Words for Java. Enhance your document handling capabilities today.
 
+### [Add shadow to shape in Word – Complete Aspose.Words Guide](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+Learn how to apply shadow effects to shapes in Word documents using Aspose.Words for Java, with step-by-step code examples.
+### [Apply Shadow Effect to a Shape in C# – Step‑by‑Step Guide](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
+Learn how to apply shadow effects to shapes in Aspose.Words using C#, with step-by-step code examples.
+### [How to Set Shadow on a Shape in Aspose.Words – Complete Guide](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
+Learn how to apply and customize shadow effects on shapes in Word documents using Aspose.Words for Java.
+
+### [How to Set Shadow on a Shape in C# – Add Shape Shadow Easily](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+Learn how to apply shadow effects to shapes in Aspose.Words for C# with simple code examples.
+
+### [Create Rectangle Shape in Java Word Document – Full Step‑by‑Step Guide](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Step-by-step guide to create and customize rectangle shapes in Word documents using Aspose.Words for Java.
+
+### [Create Text Box Shape in Java – Complete Guide to Adding Shadows](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+Learn how to create a text box shape with shadow effects in a Word document using Aspose.Words for Java.
 ### [Create PDF Document with a Rectangle Shape – Full C# Guide]({{< relref "./create-pdf-document-with-a-rectangle-shape-full-c-guide/" >}})
 Step-by-step guide to create a PDF with a rectangle shape using Aspose.Words for C#.
 
 ## Additional Resources
 
+## Additional Resources
 - [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Java API Reference](https://reference.aspose.com/words/java/)
 - [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
@@ -69,7 +85,7 @@ Step-by-step guide to create a PDF with a rectangle shape using Aspose.Words for
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+
+
+{{< blocks/products/products-backtop-button >}}

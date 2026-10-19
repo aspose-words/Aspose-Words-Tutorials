@@ -69,6 +69,9 @@ A code tutorial for Aspose.Words Java
 ### [Save Word Documents as PostScript with Book Fold Settings in Java using Aspose.Words](./aspose-words-java-postscript-book-fold-settings/)
 Learn how to convert Word documents into booklets with professional-quality output using Aspose.Words for Java. This guide covers saving as PostScript and configuring book fold settings.
 
+### [Iterate document warnings: Detect Missing Fonts in Java](./iterate-document-warnings-detect-missing-fonts-in-java/)
+Learn how to iterate through document warnings in Aspose.Words for Java to detect and handle missing fonts during processing.
+
 ## Additional Resources
 
 - [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)

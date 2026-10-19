@@ -68,6 +68,8 @@ Exportieren Sie das angereicherte Dokument in das gewünschte Format – PDF, DO
 ### [Meisterhafte Textverarbeitung in Java&#58; Verwendung von Aspose.Words & AI‑Modellen für Zusammenfassung und Übersetzung](./java-aspose-words-text-processing/)
 Erfahren Sie, wie Sie die Textzusammenfassung und -übersetzung mit Aspose.Words für Java und OpenAI‑GPT‑4 sowie Googles Gemini automatisieren können. Verbessern Sie noch heute Ihre Java‑Anwendungen.
 
+### [Wie man LLM konfiguriert – Text in DOCX mit KI ersetzen](./how-to-configure-llm-replace-text-in-docx-with-ai/)
+Erfahren Sie, wie Sie ein LLM einrichten, um Text in DOCX‑Dateien automatisch zu ersetzen und KI‑gestützte Inhalte zu integrieren.
 ### [Eigenes KI‑Modell erstellen – Word‑Absätze in Java bearbeiten](./create-custom-ai-model-edit-word-paragraphs-in-java/)
 Erfahren Sie, wie Sie ein benutzerdefiniertes KI‑Modell trainieren und damit Word‑Absätze in Java programmgesteuert bearbeiten.
 

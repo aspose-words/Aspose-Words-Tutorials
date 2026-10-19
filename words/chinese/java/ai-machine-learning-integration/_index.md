@@ -68,6 +68,8 @@ AI 文档处理将传统的文档操作（合并、格式化、转换）与机�
 ### [掌握 Java 文本处理&#58; 使用 Aspose.Words 与 AI 模型进行摘要和翻译](./java-aspose-words-text-processing/)
 了解如何使用 Aspose.Words for Java 与 OpenAI 的 GPT‑4 和 Google 的 Gemini 自动化文本摘要和翻译。立即提升您的 Java 应用程序。
 
+### [如何配置 LLM – 使用 AI 替换 DOCX 文本](./how-to-configure-llm-replace-text-in-docx-with-ai/)
+学习如何配置大型语言模型（LLM），在 DOCX 文档中自动识别并使用 AI 替换指定文本。
 ### [创建自定义 AI 模型 – 在 Java 中编辑 Word 段落](./create-custom-ai-model-edit-word-paragraphs-in-java/)
 使用 Aspose.Words for Java 与自定义 AI 模型编辑和优化 Word 段落，实现智能内容生成和修改。
 
