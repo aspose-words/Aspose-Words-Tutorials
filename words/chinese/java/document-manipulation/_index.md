@@ -104,6 +104,8 @@ Aspose.Words for Java 是一款功能强大且用途广泛的 API，允许开发
 使用 Aspose.Words for Java 优化文档管理。在本教程中，您将学习如何使用文档属性、添加自定义元数据等。
 ### [在 Aspose.Words for Java 中使用 Web 扩展](./using-web-extensions/)
 使用 Aspose.Words for Java 中的 Web 扩展功能增强文档。学习如何无缝集成基于 Web 的内容。 
+### [在 Java 中进行 PDF 可访问性标记 – 生成可访问的 PDF](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+学习如何使用 Aspose.Words for Java 为 PDF 文档添加可访问性标签，生成符合标准的可访问 PDF。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

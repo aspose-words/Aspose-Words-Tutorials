@@ -1,5 +1,5 @@
 ---
-"description": "Aspose.Words for .NET の PDF 保存オプションを使った Words Processing を詳しく見てみましょう。ステップバイステップのチュートリアルとサンプルコードを通して、高度な機能を使って Word 文書を PDF に変換する方法を学びましょう。"
+"description": "Aspose.Words for .NET の PDF 保存オプションを使った Words Processing を詳しく見てみしょう。ステップバイステップのチュートリアルとサンプルコードを通して、高度な機能を使って Word 文書を PDF に変換する方法を学びましょう。"
 "linktitle": "Pdfsaveoptionsを使ったワードプロセッシング"
 "second_title": "Aspose.Words ドキュメント処理 API"
 "title": "Pdfsaveoptionsを使ったワードプロセッシング"
@@ -60,6 +60,13 @@ Word文書をPDFに変換してオンライン配信、アーカイブ、印刷�
 | [アクセシブルPDFの作成 – 開発者向けステップバイステップガイド](./create-accessible-pdf-step-by-step-guide-for-developers/) Aspose.Words for .NET を使用して、アクセシブルな PDF を作成する方法を開発者向けにステップバイステップで解説します。 |
 | [Word からアクセシブル PDF を作成 – 完全 Aspose.Words ガイド](./create-accessible-pdf-from-word-complete-aspose-words-guide/) Aspose.Words for .NET を使用して、Word 文書からアクセシブルな PDF を作成し、タグ付けや代替テキストを設定する完全ガイドです。 |
 | [docx を PDF に変換 – アクセシブル PDF の完全ガイド](./convert-docx-to-pdf-complete-guide-for-accessible-pdfs/) Aspose.Words for .NET を使用して、アクセシブルな PDF を作成するための docx から PDF への完全ガイドです。 |
+| [PDF/UA-2 準拠ドキュメントの作成 – 完全 C# ガイド](./create-pdf-ua-2-compliant-document-complete-c-guide/) Aspose.Words for .NET を使用して、PDF/UA-2 に準拠したドキュメントを C# で作成する完全ガイドです。 |
+| [インラインシェイプエクスポートでWordからPDFを保存する方法 – 完全ガイド](./how-to-save-pdf-from-word-with-inline-shape-export-complete/) Aspose.Words for .NET を使用して、インラインシェイプをエクスポートしながら Word 文書を PDF に変換する手順を詳しく解説します。 |
+| [Aspose.Words でアクセシブル PDF を作成する完全ガイド](./create-accessible-pdf-with-aspose-words-complete-guide/) Aspose.Words for .NET を使用して、アクセシブルな PDF を作成する手順をステップバイステップで解説します。 |
+| [Aspose.Words を使用して Word からアクセシブル PDF を作成する](./create-accessible-pdf-from-word-using-aspose-words/) Aspose.Words for .NET を使い、Word 文書からアクセシブルな PDF を生成する手順をステップバイステップで解説します。 |
+| [Aspose.Words を使用して DOCX を PDF に変換する – 完全プログラミングガイド](./convert-docx-to-pdf-with-aspose-words-complete-programming-g/) Aspose.Words を使い、DOCX ファイルを PDF に変換する手順をステップバイステップで解説する完全ガイドです。 |
+| [DOCX からアクセシブル PDF を作成 – 完全プログラミングガイド](./create-accessible-pdf-from-docx-complete-programming-guide/) Aspose.Words for .NET を使い、DOCX ファイルからアクセシブルな PDF を作成する完全なプログラミング手順を解説します。 |
+| [Aspose.Words を使用して Word をアクセシブル PDF に変換する – 完全ガイド](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) Aspose.Words for .NET を使用し、Word 文書をアクセシブル PDF に変換する手順を詳細に解説します。 |
 
 | [C# で Word からアクセシブルな PDF を作成する – ステップバイステップ ガイド](./create-accessible-pdf-from-word-in-c-step-by-step-guide/) Aspose.Words for .NET を使用して、C# で Word 文書からアクセシブルな PDF を生成する手順を詳しく解説します。 |
 | [Aspose を使用して Word からアクセシブル PDF を作成する – ステップバイステップ ガイド](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) Aspose.Words for .NET を使い、Word 文書からアクセシブルな PDF を作成する手順を詳しく解説します。 |
@@ -69,7 +76,12 @@ Word文書をPDFに変換してオンライン配信、アーカイブ、印刷�
 | [Word からアクセシブル PDF を作成する – ステップバイステップ ガイド](./create-accessible-pdf-from-word-step-by-step-guide/) Aspose.Words for .NET を使用して、Word 文書からアクセシブルな PDF を作成する手順を詳しく解説します。 |
 | [C#でDOCXをPDFとして保存 – 完全なAspose.Wordsガイド](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) Aspose.Words for .NET を使用して、C# で DOCX を PDF に変換する手順をステップバイステップで解説します。 |
 | [C# で PDF オプションを設定する方法 – Word を PDF に変換](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) Aspose.Words for .NET を使用して、C# で PDF オプションを設定し、Word 文書を PDF に変換する手順を解説します。 |
+| [Aspose.Words を使用して DOCX から PDF を保存する方法 – ステップバイステップ ガイド](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) Aspose.Words for .NET を使い、DOCX ファイルを PDF に変換して保存する手順を詳しく解説します。 |
 
+| [Word からアクセシブルな PDF を作成 – 完全 C# ガイド](./create-accessible-pdf-from-word-complete-c-guide/) Aspose.Words for .NET を使用して、Word 文書からアクセシブルな PDF を C# で作成する手順を詳しく解説します。 |
+| [C#でPDFにアクセシビリティタグを付ける – 完全ガイド](./tag-pdf-for-accessibility-in-c-complete-guide/) Aspose.Words for .NET を使用し、C#でPDFにアクセシビリティタグを付与する完全な手順を解説します。 |
+| [Aspose を使用して Word から PDF をエクスポートする方法 – 完全ステップバイステップガイド](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) Aspose.Words for .NET を使い、Word 文書を PDF にエクスポートする手順を詳細に解説します。 |
+| [C#でフォント置換を使用してドキュメントをPDFとして保存する – 完全ガイド](./save-document-pdf-with-font-substitution-in-c-complete-guide/) Aspose.Words for .NET を使用して、フォント置換を行いながらドキュメントをPDFに保存する方法をステップバイステップで解説します。 |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

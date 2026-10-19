@@ -24,6 +24,7 @@
 | [Δημιουργία εγγράφου Word με το Aspose.Words – Οδηγός βήμα προς βήμα](./create-word-document-with-aspose-words-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε ένα έγγραφο Word χρησιμοποιώντας το Aspose.Words με αναλυτικές οδηγίες βήμα προς βήμα. |
 
 | [Δημιουργία εγγράφου Word με μεταβλητή γραμματοσειρά – Οδηγός](./create-word-document-with-variable-font-guide/) | Μάθετε πώς να δημιουργήσετε έγγραφο Word που χρησιμοποιεί μεταβλητές γραμματοσειρές με το Aspose.Words για .NET. |
+| [Χρήση γραμματοσειράς με μεταβλητό βάρος σε C# – Πλήρης προγραμματιστικός οδηγός](./use-variable-weight-font-in-c-complete-programming-guide/) | Μάθετε πώς να εφαρμόζετε γραμματοσειρές με μεταβλητό βάρος σε εφαρμογές C# χρησιμοποιώντας το Aspose.Words για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

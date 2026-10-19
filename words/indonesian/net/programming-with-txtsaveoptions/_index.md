@@ -40,6 +40,10 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Simpan docx sebagai txt – Ekspor persamaan ke LaTeX](./save-docx-as-txt-export-equations-to-latex/) | Pelajari cara menyimpan file docx sebagai txt sambil mengekspor persamaan matematika ke format LaTeX menggunakan Aspose.Words untuk .NET. |
 | [Simpan docx sebagai txt – Panduan Lengkap C#](./save-docx-as-txt-complete-c-guide/) | Pelajari cara menyimpan file docx menjadi txt dengan contoh kode lengkap C# menggunakan Aspose.Words. |
 | [Cara Mengekspor LaTeX dari Word – Mengonversi DOCX ke TXT dengan Persamaan](./how-to-export-latex-from-word-convert-docx-to-txt-with-equat/) | Pelajari cara mengekspor konten LaTeX, termasuk persamaan, dari dokumen Word ke berkas TXT menggunakan Aspose.Words untuk .NET. |
+| [Simpan docx sebagai txt – Panduan Lengkap C# dengan Persamaan LaTeX](./save-docx-as-txt-complete-c-guide-with-latex-equations/) | Pelajari cara menyimpan file DOCX sebagai TXT dengan persamaan LaTeX menggunakan C# dalam Aspose.Words untuk .NET. |
+| [Buat txt dari dokumen di C# – Ekspor persamaan ke LaTeX](./create-txt-from-document-in-c-export-equations-to-latex/) | Pelajari cara mengekspor persamaan dalam dokumen Word ke format LaTeX saat menyimpan sebagai file txt menggunakan Aspose.Words untuk .NET. |
+| [Cara Mengekspor LaTeX dari Word – Panduan Lengkap Mengekspor LaTeX](./how-to-export-latex-from-word-complete-guide-to-export-latex/) | Pelajari cara mengekspor dokumen Word menjadi LaTeX dengan panduan lengkap dan contoh kode C# menggunakan Aspose.Words untuk .NET. |
+| [Simpan docx sebagai txt – Panduan Lengkap Mengekspor Persamaan Word ke LaTeX](./save-docx-as-txt-complete-guide-to-exporting-word-equations/) | Pelajari cara menyimpan file docx sebagai txt dan mengekspor persamaan Word ke format LaTeX dengan panduan lengkap ini. |
 | [Simpan docx sebagai txt – Ekspor Matematika ke LaTeX dengan Aspose.Words](./save-docx-as-txt-export-math-to-latex-with-aspose-words/) | Pelajari cara menyimpan file docx sebagai txt dan mengekspor persamaan matematika ke format LaTeX menggunakan Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -53,6 +53,69 @@ Impara a generare PDF accessibili da documenti Word usando Aspose.Words per Pyth
 Scopri come salvare documenti Word in Markdown e generare PDF/A‑UA con Aspose.Words per Python.
 ### [Crea PDF UA da Word – Guida passo‑passo](./create-pdf-ua-from-word-step-by-step-guide/)
 Impara a generare PDF UA da documenti Word con Aspose.Words per Python, seguendo una guida dettagliata passo‑passo.
+### [Salva DOCX come Markdown – Guida rapida Python per esportare equazioni in LaTeX](./save-docx-as-markdown-quick-python-guide-to-export-equations/)
+Scopri come esportare equazioni da DOCX a LaTeX durante la conversione in Markdown con Aspose.Words per Python.
+
+### [Salva documento come TXT – Esporta equazioni Word in LaTeX con Aspose.Words](./save-document-as-txt-export-word-math-to-latex-with-aspose-w/)
+Impara a salvare documenti Word come file TXT esportando le equazioni in LaTeX con Aspose.Words per Python.
+
+### [Salva DOCX come PDF con Aspose.Words – Guida completa Python](./save-docx-as-pdf-with-aspose-words-complete-python-guide/)
+Impara a convertire file DOCX in PDF usando Aspose.Words per Python. Guida passo passo per una conversione rapida e senza errori.
+
+### [Come incorporare immagini durante la conversione da DOCX a Markdown – Guida completa](./how-to-embed-images-when-converting-docx-to-markdown-complet/)
+Scopri come includere immagini nella conversione da DOCX a Markdown con Aspose.Words per Python. Guida passo passo.
+
+### [Come incorporare immagini in Markdown da DOCX – Guida completa](./how-to-embed-images-in-markdown-from-docx-full-guide/)
+Scopri come incorporare immagini da file DOCX in Markdown usando Aspose.Words per Python. Guida passo passo.
+### [Salva Word come Markdown – Guida completa Python](./save-word-as-markdown-complete-python-guide/)
+Impara a salvare documenti Word in formato Markdown con Aspose.Words per Python. Segui la guida completa passo passo.
+
+### [Salva DOCX come TXT – Converti Word in TXT con LaTeX](./save-docx-as-txt-convert-word-to-txt-with-latex/)
+Impara a convertire documenti DOCX in file di testo TXT usando LaTeX con Aspose.Words per Python.
+
+### [Salva Word come PDF con Tag delle Forme – Guida completa Python](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
+Impara a salvare documenti Word in PDF includendo i tag delle forme usando Aspose.Words per Python. Guida passo passo.
+
+### [Recupera DOCX e convertilo in Markdown e PDF – Guida completa Python](./how-to-recover-docx-and-convert-it-to-markdown-and-pdf-compl/)
+Impara a riparare file DOCX danneggiati e convertirli sia in Markdown che in PDF con Aspose.Words per Python.
+### [Converti le equazioni Word in LaTeX – Salva come .md](./convert-word-equations-to-latex-save-as-md/)
+Scopri come trasformare le equazioni di Word in codice LaTeX e salvarle in file Markdown con Aspose.Words per Python.
+
+### [Converti DOCX in TXT ed esporta le equazioni da Word come LaTeX – Guida completa](./convert-docx-to-txt-and-export-equations-from-word-as-latex/)
+Scopri come trasformare file DOCX in TXT e convertire le equazioni Word in LaTeX con Aspose.Words per Python.
+
+### [Come recuperare DOCX, convertire in Markdown e PDF con Aspose](./how-to-recover-docx-convert-to-markdown-pdf-with-aspose/)
+Scopri come riparare file DOCX danneggiati e convertirli in Markdown e PDF usando Aspose.Words per Python.
+### [Salva docx come markdown con equazioni LaTeX – Guida Python](./save-docx-as-markdown-with-latex-equations-python-guide/)
+Scopri come convertire file DOCX in Markdown mantenendo le equazioni LaTeX usando Aspose.Words per Python.
+
+### [Esporta docx in markdown – Guida completa passo‑passo](./export-docx-as-markdown-full-step-by-step-guide/)
+Scopri come esportare file DOCX in Markdown con Aspose.Words per Python. Guida dettagliata passo‑passo per una conversione semplice.
+
+### [Salva Word come PDF con Aspose.Words – Guida completa Python](./save-word-as-pdf-with-aspose-words-complete-python-guide/)
+Impara a salvare documenti Word in PDF usando Aspose.Words per Python. Guida completa passo passo per una conversione senza sforzi.
+
+### [Crea PDF accessibile da Word – Guida completa di programmazione](./create-accessible-pdf-from-word-complete-programming-guide/)
+Impara a generare PDF accessibili da documenti Word usando Aspose.Words per Python. Guida passo passo per garantire conformità e accessibilità.
+
+### [Crea griglia PNG da documento Word – Guida completa passo‑passo](./create-png-grid-from-word-document-complete-step-by-step-gui/)
+Impara a generare una griglia di immagini PNG da un documento Word usando Aspose.Words per Python. Guida dettagliata passo‑passo.
+### [Salva Word come PDF – Converti le forme in inline con Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
+Scopri come salvare documenti Word in PDF convertendo le forme in elementi inline con Aspose.Words per Python.
+
+### [Converti docx in pdf con Python – Guida completa](./convert-docx-to-pdf-with-python-complete-guide/)
+Impara a convertire file DOCX in PDF usando Aspose.Words per Python. Guida completa per una conversione rapida ed efficiente.
+
+### [Converti DOCX in PDF con Python – Guida completa passo‑passo](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
+Impara a convertire file DOCX in PDF con Aspose.Words per Python, seguendo una guida dettagliata passo‑passo.
+### [Salva Word come Markdown – Guida completa con Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Scopri come salvare documenti Word in Markdown con Aspose.Words. Guida completa passo passo per una conversione senza sforzi.
+
+### [Salva docx come PDF con Aspose.Words – Guida passo‑passo](./save-docx-as-pdf-with-aspose-words-step-by-step-guide/)
+Impara a convertire file DOCX in PDF usando Aspose.Words con una guida dettagliata passo passo.
+
+### [Esporta Word in Markdown – Guida completa con estrazione immagini in Python](./export-word-to-markdown-full-guide-with-image-extraction-in/)
+Scopri come esportare documenti Word in Markdown includendo le immagini usando Aspose.Words per Python. Guida dettagliata passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
