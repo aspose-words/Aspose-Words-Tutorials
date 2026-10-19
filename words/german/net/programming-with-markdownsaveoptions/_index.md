@@ -232,8 +232,6 @@ Entfernen Sie leere Absätze beim Konvertieren von Word nach Markdown in C#.
 ### [DOCX in Markdown konvertieren – Vollständige C#‑Anleitung](./convert-docx-to-markdown-complete-c-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien vollständig in Markdown konvertieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 ### [Word nach Markdown exportieren mit Formschatten und PDF/UA](./export-word-to-markdown-with-shape-shadows-and-pdf-ua/)
 Erfahren Sie, wie Sie Word-Dokumente mit Formschatten in Markdown exportieren und PDF/UA-konforme PDFs erzeugen.
 

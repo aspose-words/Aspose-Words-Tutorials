@@ -255,7 +255,6 @@ Leer hoe u beschadigde Word-documenten herstelt met Aspose.Words in een volledig
 Leer hoe u met C# Markdown genereert vanuit Word-documenten met een volledige stap‑voor‑stap handleiding.
 ### [Export Word naar Markdown met vormschaduwen en PDF/UA](./export-word-to-markdown-with-shape-shadows-and-pdf-ua/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 ### [Maak markdown‑bestand van Word – Volledige gids voor het exporteren van vergelijkingen](./create-markdown-file-from-word-full-guide-to-export-equation/)
 
 Leer hoe u een markdown‑bestand maakt vanuit Word en formules exporteert met Aspose.Words voor .NET.
