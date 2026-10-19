@@ -48,6 +48,8 @@ Aspose.Words Python-net 教程中的“图像和形状”类别旨在帮助开�
 学习如何使用 Aspose 在 Word 文档中插入矩形并为其添加阴影效果。
 ### [创建 Word 文档 Python – 为形状添加阴影指南](./create-word-document-python-add-shadow-to-shape-guide/)
 学习如何使用 Aspose.Words for Python 在 Word 文档中为形状添加阴影效果的完整步骤。
+### [如何使用带阴影的矩形保存文档 – 完整 Python 指南](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
+学习在 Python 中使用 Aspose.Words 为文档添加带阴影的矩形并保存的完整步骤。
 
 ## 其他资源
 

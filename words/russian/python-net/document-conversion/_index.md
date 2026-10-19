@@ -78,6 +78,12 @@
 Узнайте, как с помощью Aspose.Words для Python экспортировать документы docx в формат markdown шаг за шагом.
 ### [Создание PNG‑сетки из документа Word — полное пошаговое руководство](./create-png-grid-from-word-document-complete-step-by-step-gui/)
 Узнайте, как с помощью Aspose.Words для Python создать PNG‑сетку из документа Word пошагово.
+### [Сохранить Word в PDF — преобразовать фигуры в встроенные с Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
+Узнайте, как сохранять документы Word в PDF, преобразуя фигурные объекты в встроенные, используя Aspose.Words для Python.
+### [Конвертация docx в pdf с Python — полное руководство](./convert-docx-to-pdf-with-python-complete-guide/)
+Узнайте, как с помощью Aspose.Words для Python преобразовать файлы docx в pdf, используя полное руководство.
+### [Конвертация DOCX в PDF в Python — полное пошаговое руководство](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
+Узнайте, как с помощью Aspose.Words для Python конвертировать DOCX в PDF, следуя полному пошаговому руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

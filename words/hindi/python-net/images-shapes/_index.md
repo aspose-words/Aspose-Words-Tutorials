@@ -49,6 +49,9 @@ Python में आयताकार शैडो वाली आकृति
 ### [Word दस्तावेज़ बनाना Python – आकार में शैडो जोड़ने की गाइड](./create-word-document-python-add-shadow-to-shape-guide/)
 Python के साथ Aspose.Words का उपयोग करके Word दस्तावेज़ में आकार पर शैडो जोड़ने की पूरी प्रक्रिया सीखें।
 
+### [छाया वाले आयत के साथ दस्तावेज़ को सहेजना – पूर्ण पायथन गाइड](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
+Python के साथ Aspose.Words का उपयोग करके छाया वाले आयत के साथ दस्तावेज़ को सहेजने की पूरी प्रक्रिया सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [पायथन-नेट दस्तावेज़ीकरण के लिए Aspose.Words](https://docs.aspose.com/words/python-net/)

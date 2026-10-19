@@ -98,6 +98,14 @@ Leer hoe je met Aspose.Words voor Python DOCX-bestanden kunt exporteren naar mar
 
 ### [PNG‑raster maken vanuit Word‑document – Complete stap‑voor‑stap gids](./create-png-grid-from-word-document-complete-step-by-step-gui/)
 Leer hoe je met Aspose.Words voor Python een PNG‑raster uit een Word‑document kunt maken, stap voor stap.
+### [Word opslaan als PDF – Vormen converteren naar inline met Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
+Leer hoe je Word-documenten als PDF opslaat en vormen converteert naar inline met Aspose.Words voor Python.
+
+### [Docx naar PDF converteren met Python – Complete gids](./convert-docx-to-pdf-with-python-complete-guide/)
+Leer hoe je docx-bestanden naar PDF converteert met Aspose.Words voor Python in een volledige stap‑voor‑stap gids.
+
+### [DOCX naar PDF converteren in Python – Complete stap‑voor‑stap gids](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
+Leer hoe je DOCX-bestanden naar PDF converteert met Aspose.Words voor Python in een volledige stap‑voor‑stap gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

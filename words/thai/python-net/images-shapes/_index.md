@@ -47,6 +47,8 @@
 เรียนรู้วิธีสร้างเอกสาร Word ด้วย Python และเพิ่มเงาให้กับรูปร่างโดยใช้ Aspose.Words
 ### [วิธีเพิ่มเงาให้กับรูปร่างใน Python – คู่มือ Aspose.Words ฉบับสมบูรณ์](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
 เรียนรู้วิธีเพิ่มเงาให้กับรูปร่างในเอกสาร Word ด้วย Python และ Aspose.Words อย่างละเอียด
+### [วิธีบันทึกเอกสารพร้อมสี่เหลี่ยมเงา – คู่มือเต็มสำหรับ Python](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
+เรียนรู้วิธีบันทึกเอกสาร Word พร้อมสี่เหลี่ยมเงาโดยใช้ Aspose.Words สำหรับ Python อย่างละเอียด
 
 ## แหล่งข้อมูลเพิ่มเติม
 

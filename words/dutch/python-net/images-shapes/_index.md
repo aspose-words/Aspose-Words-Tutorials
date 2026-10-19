@@ -48,6 +48,8 @@ Leer hoe u een rechthoekige vorm toevoegt, schaduweffecten toepast en het docume
 Leer hoe u een rechthoek toevoegt en er een schaduweffect op toepast in een Word-document met Aspose.Words voor Python-net.
 ### [Schaduw toevoegen aan vorm in Python – Complete Aspose.Words-tutorial](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
 Leer hoe u schaduweffecten aan vormen toevoegt in Word-documenten met Aspose.Words voor Python.
+### [Hoe een document op te slaan met een schaduwrand – Volledige Python-gids](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
+Leer hoe u een document opslaat met een rechthoek met schaduw met Aspose.Words voor Python-net.
 
 ## Aanvullende bronnen
 

@@ -81,6 +81,12 @@ Pelajari cara membuat PDF yang dapat diakses dari dokumen Word menggunakan Aspos
 Pelajari cara mengekspor file DOCX menjadi Markdown dengan panduan langkah demi langkah menggunakan Aspose.Words untuk Python.
 ### [Buat Grid PNG dari Dokumen Word – Panduan Lengkap Langkah-demi-Langkah](./create-png-grid-from-word-document-complete-step-by-step-gui/)
 Pelajari cara mengonversi halaman Word menjadi grid gambar PNG dengan panduan langkah demi langkah menggunakan Aspose.Words untuk Python.
+### [Simpan Word sebagai PDF – Konversi Bentuk ke Inline dengan Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
+Pelajari cara menyimpan dokumen Word sebagai PDF sambil mengonversi bentuk menjadi inline menggunakan Aspose.Words untuk Python.
+### [Konversi docx ke pdf dengan Python – Panduan Lengkap](./convert-docx-to-pdf-with-python-complete-guide/)
+Pelajari cara mengonversi file docx menjadi PDF menggunakan Aspose.Words untuk Python secara lengkap.
+### [Konversi DOCX ke PDF dengan Python – Panduan Lengkap Langkah demi Langkah](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
+Pelajari cara mengonversi file DOCX menjadi PDF menggunakan Aspose.Words untuk Python dengan panduan langkah demi langkah yang lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

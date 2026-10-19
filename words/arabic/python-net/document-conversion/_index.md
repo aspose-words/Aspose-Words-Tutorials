@@ -79,6 +79,12 @@
 تعلم كيفية تصدير ملفات docx إلى markdown خطوة بخطوة باستخدام Aspose.Words لبايثون.
 ### [إنشاء شبكة PNG من مستند Word – دليل كامل خطوة بخطوة](./create-png-grid-from-word-document-complete-step-by-step-gui/)
 تعلم كيفية إنشاء شبكة من صور PNG من مستند Word باستخدام Aspose.Words لبايثون خطوة بخطوة.
+### [حفظ Word كـ PDF – تحويل الأشكال إلى داخلية باستخدام Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
+تعلم كيفية حفظ مستندات Word كملفات PDF مع تحويل الأشكال إلى داخلية باستخدام Aspose.Words لبايثون.
+### [تحويل docx إلى pdf باستخدام بايثون – دليل كامل](./convert-docx-to-pdf-with-python-complete-guide/)
+تعلم كيفية تحويل ملفات docx إلى pdf باستخدام بايثون مع Aspose.Words خطوة بخطوة.
+### [تحويل DOCX إلى PDF في بايثون – دليل كامل خطوة بخطوة](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
+اكتشف كيفية تحويل مستندات DOCX إلى PDF باستخدام بايثون مع Aspose.Words باتباع دليل شامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -98,6 +98,14 @@ Dowiedz się, jak przy użyciu Aspose.Words for Python wyeksportować plik DOCX 
 
 ### [Utwórz siatkę PNG z dokumentu Word – kompletny przewodnik krok po kroku](./create-png-grid-from-word-document-complete-step-by-step-gui/)
 Dowiedz się, jak przy użyciu Aspose.Words for Python wygenerować siatkę PNG z dokumentu Word.
+### [Zapisz Word jako PDF – konwertuj kształty na wbudowane przy użyciu Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
+Dowiedz się, jak przy użyciu Aspose.Words zapisać dokument Word jako PDF, konwertując kształty na wbudowane elementy.
+
+### [Konwertuj docx do PDF przy użyciu Pythona – kompletny przewodnik](./convert-docx-to-pdf-with-python-complete-guide/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python przekonwertować plik docx na PDF w prosty sposób.
+
+### [Konwertuj DOCX do PDF w Pythonie – kompletny przewodnik krok po kroku](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python przekonwertować plik DOCX na PDF krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

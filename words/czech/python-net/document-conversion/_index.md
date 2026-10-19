@@ -81,6 +81,12 @@ Naučte se vytvořit přístupný PDF z dokumentu Word pomocí Aspose.Words pro 
 Naučte se exportovat soubory DOCX do formátu Markdown pomocí Aspose.Words pro Python.
 ### [Vytvoření PNG mřížky z dokumentu Word – kompletní průvodce krok za krokem](./create-png-grid-from-word-document-complete-step-by-step-gui/)
 Naučte se vytvořit PNG mřížku z dokumentu Word pomocí Aspose.Words pro Python a automatizovat proces.
+### [Uložte Word jako PDF – Převod tvarů na vložené pomocí Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
+Naučte se uložit dokument Word jako PDF a převést tvary na vložené objekty pomocí Aspose.Words.
+### [Převod docx na pdf s Pythonem – kompletní průvodce](./convert-docx-to-pdf-with-python-complete-guide/)
+Naučte se převést DOCX soubory do PDF pomocí Aspose.Words pro Python.
+### [Převod DOCX na PDF v Pythonu – Kompletní krok‑za‑krokem průvodce](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
+Kompletní návod, jak převést DOCX na PDF v Pythonu pomocí Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

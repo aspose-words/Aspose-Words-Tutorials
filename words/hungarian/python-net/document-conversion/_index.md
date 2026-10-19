@@ -81,6 +81,12 @@ Ismerje meg, hogyan menthet Word dokumentumokat PDF-be az Aspose.Words segítsé
 Ismerje meg, hogyan hozhat létre akadálymentes PDF fájlokat a Word dokumentumokból Python és Aspose.Words segítségével.
 ### [PNG rács létrehozása Word dokumentumból – Teljes lépésről‑lépésre útmutató](./create-png-grid-from-word-document-complete-step-by-step-gui/)
 Ismerje meg, hogyan hozhat létre PNG képrácsot Word dokumentumból Python és Aspose.Words segítségével.
+### [Word mentése PDF-ként – Alakzatok konvertálása inline módra az Aspose.Words segítségével](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
+Ismerje meg, hogyan menthet Word dokumentumot PDF-be, miközben az alakzatokat inline objektumokká konvertálja az Aspose.Words használatával.
+### [DOCX konvertálása PDF-be Python segítségével – Teljes útmutató](./convert-docx-to-pdf-with-python-complete-guide/)
+Tanulja meg, hogyan konvertálja a DOCX fájlokat PDF formátumba Python és Aspose.Words segítségével.
+### [DOCX konvertálása PDF-be Pythonban – Teljes lépésről‑lépésre útmutató](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
+Ismerje meg, hogyan konvertálja a DOCX fájlokat PDF formátumba Python és Aspose.Words segítségével, részletes lépésekkel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

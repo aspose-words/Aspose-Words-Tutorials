@@ -47,6 +47,8 @@ Naučte se, jak pomocí Aspose.Words v Pythonu vložit obdélníkový tvar a apl
 Naučte se, jak pomocí Aspose.Words v Pythonu přidat stín k tvarům ve Word dokumentu.
 ### [Jak přidat stín do tvaru v Pythonu – Kompletní tutoriál Aspose.Words](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
 Naučte se, jak pomocí Aspose.Words v Pythonu přidat stín do tvarů a vylepšit vizuální vzhled dokumentů.
+### [Jak uložit dokument se stínovaným obdélníkem – Kompletní průvodce v Pythonu](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
+Naučte se, jak pomocí Aspose.Words v Pythonu uložit dokument se stínovaným obdélníkem a přidat profesionální vzhled.
 
 ## Další zdroje
 

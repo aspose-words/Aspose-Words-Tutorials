@@ -35,7 +35,7 @@ Aspose.Words for Python을 사용하여 문서 변환을 마스터하면 개발�
 Aspose.Words for Python을 사용하여 Python 문서 변환을 배워보세요. 문서를 손쉽게 변환, 조작 및 맞춤 설정하여 생산성을 향상시키세요!
 
 ### [Word에서 Markdown 저장하기 – 완전 Python 가이드](./how-to-save-markdown-from-word-complete-python-guide/)
-Word 문서를 Markdown으로 저장하는 방법을 Python으로 완벽히 안내합니다!
+Word 문서를 Markdown으로 저장하는 방법 Python으로 완벽히 안내합니다!
 
 ### [손상된 DOCX 복구 및 Word를 Markdown으로 변환](./recover-corrupted-docx-convert-word-to-markdown/)
 손상된 DOCX 파일을 복구하고 Word 문서를 Markdown 형식으로 변환하는 방법을 단계별로 안내합니다!
@@ -100,6 +100,14 @@ DOCX 파일을 Markdown 형식으로 변환하는 방법을 단계별로 안내�
 
 ### [Word 문서에서 PNG 그리드 만들기 – 완전 단계별 가이드](./create-png-grid-from-word-document-complete-step-by-step-gui/)
 Aspose.Words를 사용하여 Word 문서의 페이지를 PNG 이미지 그리드로 변환하는 방법을 단계별로 안내합니다.
+### [Word를 PDF로 저장 – Aspose.Words를 사용하여 도형을 인라인으로 변환](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
+Aspose.Words를 사용해 Word 문서를 PDF로 저장하면서 도형을 인라인으로 변환하는 방법을 단계별로 안내합니다.
+
+### [Python으로 docx를 PDF로 변환 – 완전 가이드](./convert-docx-to-pdf-with-python-complete-guide/)
+Aspose.Words를 사용해 docx 파일을 PDF로 변환하는 방법을 단계별로 안내합니다!
+
+### [Python에서 DOCX를 PDF로 변환 – 완전 단계별 가이드](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
+Aspose.Words를 사용해 DOCX 파일을 PDF로 변환하는 전체 과정을 단계별로 안내합니다!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

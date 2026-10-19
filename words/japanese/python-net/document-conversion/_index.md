@@ -100,6 +100,14 @@ Python で docx ファイルを Markdown に変換し、保存する手順を詳
 
 ### [Word 文書から PNG グリッドを作成する – 完全ステップバイステップガイド](./create-png-grid-from-word-document-complete-step-by-step-gui/)
 Word 文書のページを PNG 画像のグリッドに変換し、保存する手順を Python で詳しく解説します。
+### [Word を PDF に保存 – 形状をインラインに変換する Aspose.Words](./save-word-as-pdf-convert-shapes-to-inline-with-aspose-words/)
+Aspose.Words を使用して、Word 文書を PDF に保存する際に画像や図形をインラインに変換する方法を解説します。
+
+### [Python で docx を PDF に変換 – 完全ガイド](./convert-docx-to-pdf-with-python-complete-guide/)
+Python と Aspose.Words を使用して、docx ファイルを高品質な PDF に変換する手順を詳しく解説します。
+
+### [Python で docx を PDF に変換 – 完全ステップバイステップガイド](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
+Python と Aspose.Words を使用して、docx ファイルを PDF に変換する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
