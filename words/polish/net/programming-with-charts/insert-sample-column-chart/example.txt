@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Ten samouczek pokazuje, jak utworzyć nowy dokument Word, wstawić domyślny wykres słupkowy przy użyciu DocumentBuilder.InsertChart, uzyskać osadzony obiekt Chart i zapisać dokument jako plik .docx.
+//ExStepSummary:0: Utwórz pusty dokument Word oraz DocumentBuilder do jego edycji.
+//ExStepSummary:1: Wstaw wykres słupkowy o rozmiarze 432 × 252 punktów do dokumentu.
+//ExStepSummary:2: Pobierz obiekt Chart z wstawionego kształtu w celu dalszej personalizacji, jeśli to konieczne.
+//ExStepSummary:3: Zapisz dokument, który teraz zawiera wstawiony wykres słupkowy, jako plik .docx.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+Chart embeddedChart = chartContainer.Chart;
+
+//ExStep:3-
+wordDoc.Save("column-demo.docx");
+//ExEnd

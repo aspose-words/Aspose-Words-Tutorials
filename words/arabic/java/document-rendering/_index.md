@@ -39,6 +39,13 @@
 اكتشف طباعة وعرض المستندات بكفاءة باستخدام Aspose.Words لجافا. تعلّم خطوة بخطوة مع أمثلة على أكواد المصدر.
 ### [تحويل المستندات إلى HTML](./rendering-documents-html/)
 تعلّم كيفية تحويل المستندات إلى HTML بسهولة باستخدام Aspose.Words لجافا. دليل خطوة بخطوة لتحويل المستندات بكفاءة.
+### [كيفية التعامل مع الخطوط في جافا باستخدام Aspose.Words – دليل كامل](./how-to-handle-fonts-in-java-with-aspose-words-complete-guide/)
+تعلم كيفية إدارة الخطوط في مستندات Word باستخدام Aspose.Words لجافا لضمان عرض صحيح وتنسيق مثالي.
+### [دروس استدعاء التحذير في Aspose – اكتشاف وتتبع الخطوط المفقودة](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
+تعلم كيفية استخدام استدعاء التحذير في Aspose.Words لتحديد الخطوط المفقودة وتتبعها أثناء معالجة المستندات.
+### [كيفية التقاط التحذيرات – اكتشاف الخطوط المفقودة في Aspose.Words](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
+تعلم كيفية التقاط التحذيرات واكتشاف الخطوط المفقودة أثناء معالجة المستندات باستخدام Aspose.Words لجافا.
+### [العثور على الخطوط المفقودة في Java باستخدام Aspose.Words – دليل كامل](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

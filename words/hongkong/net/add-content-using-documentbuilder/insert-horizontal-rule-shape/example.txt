@@ -1,0 +1,21 @@
+//ExStart
+//ExSummary: 本教學示範如何使用 Document 與 DocumentBuilder 建立 Word 文件、加入文字段落，並插入水平線形狀。
+//ExStepSummary:0: 透過實例化 Document 類別來建立一個全新的空白 Word 文件。
+//ExStepSummary:1: 建立一個與文件關聯的 DocumentBuilder，以執行編輯操作。
+//ExStepSummary:2: 使用 DocumentBuilder 撰寫文字段落，然後在游標位置插入水平線形狀。
+//ExStepSummary:3: 定義輸出資料夾路徑，並將文件儲存為 .docx 檔案。
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document doc = new Document();
+
+//ExStep:1-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

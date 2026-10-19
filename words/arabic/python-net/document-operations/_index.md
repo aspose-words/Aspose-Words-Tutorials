@@ -60,6 +60,22 @@
 ### [استعادة ملف DOCX تالف – فتح وتحميل مستند Word](./recover-corrupted-docx-open-load-word-document/)
 تعلم كيفية استعادة ملفات DOCX التالفة وفتحها وتحميلها باستخدام Aspose.Words للغة بايثون.
 
+### [استعادة ملف DOCX تالف – دليل شامل لتفعيل وضع الاستعادة والحصول على عدد الصفحات](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
+تعلم كيفية تمكين وضع الاستعادة في Aspose.Words للبايثون واستخراج عدد الصفحات من ملفات DOCX التالفة.
+### [استعادة مستند Word تالف باستخدام Python – دليل شامل](./recover-corrupted-word-document-using-python-complete-guide/)
+تعلم كيفية استعادة ملفات Word التالفة وإصلاحها برمجيًا باستخدام Aspose.Words للغة Python.
+### [استعادة مستند Word تالف باستخدام Aspose.Words للبايثون](./recover-corrupted-word-document-with-aspose-words-python/)
+تعلم كيفية استعادة مستند Word التالف وفتحه وتحميله باستخدام Aspose.Words للغة بايثون.
+### [كيفية استعادة ملف DOCX – دليل شامل لاستعادة مستندات Word التالفة](./how-to-recover-docx-complete-guide-to-restoring-corrupted-wo/)
+تعلم خطوة بخطوة كيفية استعادة ملفات DOCX التالفة وإصلاحها باستخدام Aspose.Words للغة بايثون.
+### [كيفية استعادة ملفات DOCX – دليل شامل مع Aspose.Words](./how-to-recover-docx-files-complete-guide-with-aspose-words/)
+تعلم خطوات استعادة ملفات DOCX التالفة وإصلاحها باستخدام Aspose.Words في بايثون.
+### [كيفية استعادة ملفات DOCX في بايثون – تحميل المستند مع الاسترداد باستخدام Aspose.Words](./how-to-recover-docx-files-in-python-load-document-with-recov/)
+تعلم طريقة استربة ملفات DOCX التالفة وتحميلها في بايثون باستخدام Aspose.Words مع تمكين خاصية الاسترداد.
+
+### [استعادة ملفات DOCX التالفة – دليل شامل باستخدام Aspose.Words للبايثون](./recover-corrupted-docx-complete-guide-using-aspose-words-for/)
+تعلم كيفية استعادة ملفات DOCX التالفة وإصلاحها بالكامل باستخدام Aspose.Words للبايثون.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Python-net](https://docs.aspose.com/words/python-net/)

@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: В этом учебнике показано, как создать документ Word, вставить столбчатую диаграмму, заменить её примерные данные, а затем включить и оформить основные линии сетки на основной оси X.
+//ExStepSummary:0: Создайте новый документ Word и объект DocumentBuilder для его редактирования.
+//ExStepSummary:1: Вставьте в документ столбчатую диаграмму размером 432×252 и получите её объект Chart.
+//ExStepSummary:2: Удалите серию по умолчанию и добавьте пользовательскую серию с тремя группами и значениями.
+//ExStepSummary:3: Получите ссылку на основную горизонтальную (X) ось диаграммы.
+//ExStepSummary:4: Включите отображение основных линий сетки на основной оси X.
+//ExStepSummary:5: Установите цвет линий сетки синим и их толщину — 2 пункта.
+//ExStepSummary:6: Сохраните документ в файл формата .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document myDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+chart.Series.Add("Demo Series",
+    new[] { "Group One", "Group Two", "Group Three" },
+    new double[] { 10, 20, 30 });
+
+//ExStep:3-
+ChartAxis horizontalAxis = chart.AxisX;
+
+//ExStep:4-
+horizontalAxis.HasMajorGridlines = true;
+
+//ExStep:5-
+horizontalAxis.Format.Stroke.Color = Color.Blue;
+horizontalAxis.Format.Stroke.Weight = 2.0;
+
+//ExStep:6-
+myDoc.Save("PrimaryXGridlines.docx");
+//ExEnd

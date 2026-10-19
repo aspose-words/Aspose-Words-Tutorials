@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Αυτό το σεμινάριο δείχνει πώς να δημιουργήσετε ένα έγγραφο Word, να εισάγετε ένα γράφημα στήλης, να αντικαταστήσετε τα δείγματα δεδομένων του και, στη συνέχεια, να ενεργοποιήσετε και να μορφοποιήσετε τις κύριες γραμμές πλέγματος στον κύριο άξονα X.
+//ExStepSummary:0: Δημιουργήστε ένα νέο έγγραφο Word και έναν DocumentBuilder για να το επεξεργαστείτε.
+//ExStepSummary:1: Εισάγετε ένα γράφημα στήλης 432×252 στο έγγραφο και αποκτήστε το αντικείμενο Chart του.
+//ExStepSummary:2: Αφαιρέστε τη προεπιλεγμένη σειρά και προσθέστε μια προσαρμοσμένη σειρά με τρεις ομάδες και τιμές.
+//ExStepSummary:3: Λάβετε μια αναφορά στον κύριο οριζόντιο (X) άξονα του γραφήματος.
+//ExStepSummary:4: Ενεργοποιήστε την εμφάνιση των κύριων γραμμών πλέγματος στον κύριο άξονα X.
+//ExStepSummary:5: Ορίστε το χρώμα των γραμμών πλέγματος σε μπλε και το βάρος τους σε 2 σημεία.
+//ExStepSummary:6: Αποθηκεύστε το έγγραφο σε αρχείο .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document myDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+chart.Series.Add("Demo Series",
+    new[] { "Group One", "Group Two", "Group Three" },
+    new double[] { 10, 20, 30 });
+
+//ExStep:3-
+ChartAxis horizontalAxis = chart.AxisX;
+
+//ExStep:4-
+horizontalAxis.HasMajorGridlines = true;
+
+//ExStep:5-
+horizontalAxis.Format.Stroke.Color = Color.Blue;
+horizontalAxis.Format.Stroke.Weight = 2.0;
+
+//ExStep:6-
+myDoc.Save("PrimaryXGridlines.docx");
+//ExEnd

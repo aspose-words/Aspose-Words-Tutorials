@@ -1,0 +1,7 @@
+Title: Create Pie Chart with Aspose.Words Java – Full Step‑by‑Step Guide
+Slug: create-pie-chart-with-aspose-words-java-full-step-by-step-gu
+Category: using-document-elements
+ProcessedDate: 2026-07-17T03:10:37.249917
+SourceRepo: AI Search API
+Keywords: create pie chart, add leader lines, show chart legend, how to explode slice, how to add legend
+PRNumber: 226
