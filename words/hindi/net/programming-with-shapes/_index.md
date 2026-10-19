@@ -63,6 +63,7 @@
 | [Aspose.Words के साथ Word में आकृति में छाया जोड़ें – पूर्ण गाइड](./add-shadow-to-shape-in-word-with-aspose-words-complete-guide/) | Aspose.Words का उपयोग करके Word में आकृति में छाया जोड़ने की पूरी प्रक्रिया सीखें। |
 | [Word दस्तावेज़ों में आकृति में छाया जोड़ें – पूर्ण C# गाइड](./add-shadow-to-shape-in-word-documents-complete-c-guide/) | C# में Aspose.Words का उपयोग करके Word आकृति में छाया जोड़ने की पूरी चरण‑दर‑चरण गाइड। |
 | [C# में आकृति पर छाया सेट करना – चरण‑दर‑चरण गाइड](./how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/) | Aspose.Words for .NET का उपयोग करके C# में आकृति पर छाया सेट करने के चरण‑दर‑चरण निर्देश। |
+| [Word आकृति पर शैडो सेट करें – C# ट्यूटोरियल](./how-to-set-shadow-on-a-word-shape-c-tutorial/) | .NET के लिए Aspose.Words का उपयोग करके Word आकृति में शैडो कैसे सेट करें, इस चरण‑दर‑स्टेप गाइड में सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

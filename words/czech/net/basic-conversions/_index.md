@@ -68,6 +68,8 @@ Základní konverze vás provede základními konveremi dokumentů pomocí kniho
 | [Jak provést hromadnou korespondenci a převést DOCX do PDF v C# – Kompletní průvodce Aspose](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | Naučte se, jak pomocí hromadné korespondence převést DOCX do PDF v C# s kompletním návodem od Aspose. |
 | [Převést Word do PDF pomocí Aspose.Words – Kompletní průvodce](./convert-word-to-pdf-with-aspose-words-complete-guide/) | Naučte se, jak pomocí Aspose.Words převést dokument Word do PDF v .NET s podrobným návodem a ukázkovým kódem. |
 | [Vytvořit PDF ze souboru Word v C# – krok za krokem](./create-pdf-from-word-in-c-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Words převést dokument Word do PDF v C# pomocí podrobného průvodce s ukázkovým kódem. |
+| [Jak exportovat LaTeX z DOCX – převod na TXT](./how-to-export-latex-from-docx-convert-to-txt/) | Naučte se, jak převést obsah LaTeX z DOCX do textového souboru TXT pomocí Aspose.Words pro .NET. |
+| [Vytvořit přístupný PDF z DOCX – krok za krokem C# průvodce](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET vytvořit přístupný PDF soubor z DOCX s podrobným kódem a nastavením přístupnosti. |
 
 | [Převod docx na txt s rovnicemi LaTeX – průvodce Aspose.Words](./convert-docx-to-txt-with-latex-equations-aspose-words-guide/) | Naučte se, jak převést DOCX na TXT s rovnicemi LaTeX pomocí Aspose.Words pro .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -65,6 +65,8 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Jak używać funkcji Summarize w Aspose.Words – Kompletny przewodnik](./how-to-use-summarize-in-aspose-words-complete-guide/) | Pełny przewodnik po funkcji Summarize w Aspose.Words, pokazujący krok po kroku, jak generować podsumowania dokumentów w .NET. |
 | [Przepisz akapit przy użyciu AI w C# – Jak skonfigurować lokalny LLM](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) | Dowiedz się, jak używać lokalnego modelu językowego w C# do przepisania akapitu przy pomocy AI w Aspose.Words. |
 | [Jak sprawdzić gramatykę za pomocą Aspose.Words AI – kompletny przewodnik](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | Dowiedz się, jak używać Aspose.Words AI do automatycznego sprawdzania gramatyki w dokumentach Word. |
+| [Jak sprawdzić gramatykę w Wordzie przy użyciu C# – Kompletny przewodnik](./how-to-check-grammar-in-word-with-c-complete-guide/) | Dowiedz się, jak wykorzystać Aspose.Words dla .NET i C# do automatycznego sprawdzania gram... |
+| [Utwórz podsumowanie przy użyciu AI – samouczek C# Aspose Words](./create-summary-with-ai-c-aspose-words-tutorial/) | Dowiedz się, jak w C# wykorzystać Aspose.Words do automatycznego generowania podsumowań dokumentów przy pomocy AI. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

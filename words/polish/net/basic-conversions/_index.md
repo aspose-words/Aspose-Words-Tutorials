@@ -68,6 +68,8 @@ Basic Conversions przeprowadzi Cię przez podstawowe konwersje dokumentów przy 
 | [Jak wykonać scalanie korespondencji i konwertować DOCX do PDF w C# – Kompletny przewodnik Aspose](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | Dowiedz się, jak używać scalania korespondencji i konwertować pliki DOCX do PDF w C# przy użyciu Aspose.Words. |
 | [Konwertuj Word do PDF przy użyciu Aspose.Words – Kompletny przewodnik](./convert-word-to-pdf-with-aspose-words-complete-guide/) | Kompletny przewodnik, jak konwertować dokumenty Word do PDF przy użyciu Aspose.Words w C#. |
 | [Utwórz PDF z Worda w C# – Przewodnik krok po kroku](./create-pdf-from-word-in-c-step-by-step-guide/) | Dowiedz się, jak w prosty sposób wygenerować plik PDF z dokumentu Word przy użyciu Aspose.Words w C#. |
+| [Jak wyeksportować LaTeX z DOCX – konwersja do TXT](./how-to-export-latex-from-docx-convert-to-txt/) | Dowiedz się, jak wyeksportować LaTeX z pliku DOCX i zapisać go jako TXT przy użyciu Aspose.Words dla .NET. |
+| [Utwórz dostępny PDF z DOCX – przewodnik krok po kroku w C#](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | Dowiedz się, jak przy użyciu Aspose.Words dla .NET wygenerować PDF spełniający standardy dostępności z pliku DOCX w C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -64,6 +64,8 @@ Terakhir, jangan lupa untuk memeriksa [Bekerja Dengan Opsi Ringkasan](./working-
 | [Cara Menggunakan Summarize di Aspose.Words – Panduan Lengkap](./how-to-use-summarize-in-aspose-words-complete-guide/) | Pelajari cara menggunakan fitur Summarize di Aspose.Words untuk .NET secara lengkap dan praktis. |
 | [Menulis Ulang Paragraf dengan AI di C# – Cara Mengonfigurasi LLM Lokal](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) | Pelajari cara menulis ulang paragraf menggunakan AI di C# dengan mengonfigurasi model bahasa lokal secara mudah. |
 | [Cara Memeriksa Tata Bahasa dengan Aspose.Words AI – Panduan Lengkap](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | Panduan lengkap untuk memeriksa tata bahasa dokumen menggunakan Aspose.Words AI pada .NET. |
+| [Buat Ringkasan dengan AI – Tutorial C# Aspose Words](./create-summary-with-ai-c-aspose-words-tutorial/) | Pelajari cara membuat ringkasan dokumen secara otomatis menggunakan AI dengan C# dan Aspose.Words. |
+| [Cara Memeriksa Tata Bahasa di Word dengan C# – Panduan Lengkap](./how-to-check-grammar-in-word-with-c-complete-guide/) | Pelajari cara memeriksa tata bahasa dokumen Word menggunakan C# dengan Aspose.Words secara lengkap. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

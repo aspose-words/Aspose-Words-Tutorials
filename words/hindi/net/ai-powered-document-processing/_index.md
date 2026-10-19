@@ -65,6 +65,8 @@
 | [Aspose.Words में Summarize का उपयोग कैसे करें – पूर्ण गाइड](./how-to-use-summarize-in-aspose-words-complete-guide/) | Aspose.Words में Summarize फ़ीचर को लागू करने के चरण-दर-चरण मार्गदर्शन, .NET में तेज़ दस्तावेज़ सारांश बनाएं। |
 | [AI के साथ पैराग्राफ पुनर्लेखन C# में – लोकल LLM कैसे कॉन्फ़िगर करें](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) | C# में स्थानीय LLM सेटअप करके AI के साथ पैराग्राफ को पुनः लिखना सीखें। |
 | [Aspose.Words AI के साथ व्याकरण जांच कैसे करें – पूर्ण गाइड](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | Aspose.Words AI का उपयोग करके .NET में दस्तावेज़ों की व्याकरण जांच करने के चरण-दर-चरण मार्गदर्शन। |
+| [C# के साथ Word में व्याकरण जांच कैसे करें – पूर्ण गाइड](./how-to-check-grammar-in-word-with-c-complete-guide/) | C# का उपयोग करके Aspose.Words के साथ Word दस्तावेज़ों में व्याकरण जांच करने की पूरी प्रक्रिया सीखें। |
+| [AI के साथ सारांश बनाएं – C# Aspose Words ट्यूटोरियल](./create-summary-with-ai-c-aspose-words-tutorial/) | C# में Aspose.Words का उपयोग करके AI के साथ दस्तावेज़ सारांश बनाना सीखें। तेज़ और सटीक परिणाम प्राप्त करें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

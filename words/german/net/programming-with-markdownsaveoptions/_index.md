@@ -59,6 +59,8 @@ Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und dabei Bilder e
 Erfahren Sie, wie Sie Word‑Dokumente in Markdown konvertieren und dabei Bilder extrahieren – umfassende Schritt‑für‑Schritt‑Anleitung in C#.
 ### [DOCX als Markdown speichern – Schritt‑für‑Schritt C#‑Tutorial](./save-docx-as-markdown-step-by-step-c-tutorial/)
 Erfahren Sie, wie Sie DOCX‑Dateien Schritt‑für‑Schritt in Markdown konvertieren – kompakte C#‑Anleitung.
+### [Wie man Markdown speichert – Vollständige Anleitung mit Bildextraktion](./how-to-save-markdown-full-guide-with-image-extraction/)
+Erfahren Sie, wie Sie Markdown-Dateien speichern und dabei Bilder extrahieren – vollständige Schritt‑für‑Schritt‑Anleitung.
 
 ### [Wie man Markdown aus Word exportiert – Vollständige C#‑Anleitung](./how-to-export-markdown-from-word-complete-c-guide/)
 Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words für .NET in Markdown exportieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
@@ -221,6 +223,14 @@ Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und leere Absätze
 Erfahren Sie, wie Sie LaTeX‑Formeln aus DOCX‑Dateien exportieren und in Markdown konvertieren.
 ### [DOCX als Markdown speichern – Vollständige C#‑Anleitung mit Aspose.Words](./save-docx-as-markdown-complete-c-guide-with-aspose-words/)
 Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in Markdown konvertieren – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
+### [Markdown-Datei aus Word erstellen – Vollständige Anleitung zum Exportieren von Gleichungen](./create-markdown-file-from-word-full-guide-to-export-equation/)
+Erfahren Sie, wie Sie Word-Dokumente in Markdown exportieren und dabei Gleichungen korrekt übernehmen.
+
+### [Leere Absätze entfernen – Word in Markdown konvertieren in C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/)
+Entfernen Sie leere Absätze beim Konvertieren von Word nach Markdown in C#.
+
+### [DOCX in Markdown konvertieren – Vollständige C#‑Anleitung](./convert-docx-to-markdown-complete-c-guide/)
+Erfahren Sie, wie Sie DOCX‑Dateien vollständig in Markdown konvertieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
 
 ### [Word nach Markdown exportieren mit Formschatten und PDF/UA](./export-word-to-markdown-with-shape-shadows-and-pdf-ua/)
 Erfahren Sie, wie Sie Word-Dokumente mit Formschatten in Markdown exportieren und PDF/UA-konforme PDFs erzeugen.

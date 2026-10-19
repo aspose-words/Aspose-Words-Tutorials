@@ -65,6 +65,8 @@
 | [Πώς να χρησιμοποιήσετε τη λειτουργία Summarize στο Aspose.Words – Πλήρης Οδηγός](./how-to-use-summarize-in-aspose-words-complete-guide/) | Μάθετε πώς να εφαρμόσετε τη λειτουργία Summarize στο Aspose.Words για .NET για γρήγορη και ακριβή σύνοψη εγγράφων. |
 | [Αναδιατύπωση παραγράφου με AI σε C# – Πώς να ρυθμίσετε το τοπικό LLM](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words για .NET με τοπικό μοντέλο γλώσσας για να αναδιατυπώσετε παραγράφους αυτόματα. |
 | [Πώς να ελέγξετε τη γραμματική με το Aspose.Words AI – Πλήρης οδηγός](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words AI για αυτόματο έλεγχο γραμματικής στα έγγραφά σας, βελτιώνοντας την ποιότητα του κειμένου. |
+| [Πώς να ελέγξετε τη γραμματική στο Word με C# – Πλήρης Οδηγός](./how-to-check-grammar-in-word-with-c-complete-guide/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words για .NET ώστε να ελέγχετε τη γραμματική εγγράφων Word με C# σε πλήρη οδηγό. |
+| [Δημιουργία περίληψης με AI – C# Aspose Words Tutorial](./create-summary-with-ai-c-aspose-words-tutorial/) | Μάθετε πώς να δημιουργήσετε αυτόματες περιλήψεις εγγράφων Word χρησιμοποιώντας AI με C# και Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -81,6 +81,7 @@ PdfSaveOptions के साथ Words Processing पर Aspose.Words for .NET �
 | [C# में DOCX को PDF के रूप में सहेजें – पूर्ण Aspose.Words गाइड](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) | C# का उपयोग करके Aspose.Words के साथ DOCX फ़ाइल को PDF में बदलने की पूरी प्रक्रिया सीखें। |
 | [C# में PDF विकल्प सेट करना – Word को PDF में बदलें](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | C# में Aspose.Words का उपयोग करके PDF विकल्प सेट करके Word को PDF में बदलना सीखें। |
 | [Aspose.Words के साथ DOCX से PDF कैसे सहेजें – चरण‑दर‑चरण गाइड](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) | Aspose.Words का उपयोग करके DOCX फ़ाइल को PDF में बदलने की प्रक्रिया को चरण‑दर‑चरण सीखें। |
+| [C# में Word से PDF कैसे सहेजें – पूर्ण गाइड](./how-to-save-pdf-from-word-in-c-complete-guide/) | C# का उपयोग करके Word दस्तावेज़ को PDF में बदलने की पूरी प्रक्रिया सीखें। |
 
 | [C# में Word से सुलभ PDF बनाएं – चरण-दर-चरण गाइड](./create-accessible-pdf-from-word-in-c-step-by-step-guide/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ से सुलभ PDF बनाने की पूरी प्रक्रिया सीखें। |
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -68,6 +68,7 @@ W tych samouczkach nauczysz się, jak używać LoadOptions do ładowania dokumen
 | [Odzyskaj uszkodzony plik docx przy użyciu Aspose.Words – Kompletny przewodnik krok po kroku](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Dowiedz się, jak w kilku prostych krokach odzyskać uszkodzony plik docx przy użyciu Aspose.Words. |
 | [Włącz ostrzeżenia o podstawianiu czcionek w C# z Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Dowiedz się, jak w C# włączyć ostrzeżenia o podstawianiu czcionek przy użyciu Aspose.Words, aby lepiej zarządzać brakującymi czcionkami. |
 | [Zarejestruj wywołanie zwrotne ostrzeżenia w Aspose.Words – Kompletny przewodnik programistyczny](./register-warning-callback-in-aspose-words-complete-programmi/) | Dowiedz się, jak zarejestrować wywołanie zwrotne ostrzeżenia w Aspose.Words, korzystając z pełnego przewodnika programistycznego. |
+| [Jak przechwytywać ostrzeżenia – skonfiguruj LoadOptions dla brakujących czcionek](./how-to-capture-warnings-configure-load-options-for-missing-f/) | Dowiedz się, jak przechwytywać ostrzeżenia o brakujących czcionkach, konfigurując LoadOptions w Aspose.Words dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -33,6 +33,7 @@ Niezależnie od tego, czy jesteś początkującym, czy doświadczonym programist
 | [Konwersja między jednostkami miary](./convert-between-measurement-units/) | Dowiedz się, jak konwertować jednostki miary w Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ustawić marginesy dokumentu, nagłówki i stopki w calach i punktach. |
 | [Użyj znaków kontrolnych](./use-control-characters/) | Dowiedz się, jak automatyzować zadania związane z dokumentami Word za pomocą Aspose.Words dla .NET. Ten przewodnik obejmuje konfigurację, zamianę tekstu i wiele więcej, co usprawni Twój przepływ pracy. |
 | [Jak zliczyć strony w dokumencie Word – odzyskaj i policz](./how-to-count-pages-in-a-word-document-recover-count/) | Dowiedz się, jak odzyskać i policzyć liczbę stron w dokumencie Word przy użyciu Aspose.Words dla .NET. |
+| [Sprawdź liczbę stron w dokumentach Word – odzyskaj uszkodzone pliki](./check-page-count-in-word-docs-recover-corrupted-files/) | Dowiedz się, jak sprawdzić liczbę stron w dokumentach Word i odzyskać uszkodzone pliki przy użyciu Aspose.Words dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

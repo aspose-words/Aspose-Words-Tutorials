@@ -70,6 +70,8 @@
 | [使用 Aspose.Words 将 Docx 保存为 PDF – 完整分步指南](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/) | 学习使用 Aspose.Words for .NET 在 C# 中将 Docx 文档保存为 PDF，提供完整的分步指南和代码示例。|
 | [如何在 C# 中进行邮件合并并将 DOCX 转换为 PDF – 完整 Aspose 指南](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | 学习如何使用 Aspose.Words for .NET 在 C# 中进行邮件合并并将 DOCX 转换为 PDF，提供完整分步指南和代码示例。|
 | [使用 Aspose.Words 将 Word 转换为 PDF – 完整指南](./convert-word-to-pdf-with-aspose-words-complete-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中完整地将 Word 文档转换为 PDF，提供详细步骤和代码示例。|
+| [如何从 DOCX 导出 LaTeX – 转换为 TXT](./how-to-export-latex-from-docx-convert-to-txt/) | 学习如何使用 Aspose.Words for .NET 将 DOCX 导出为 LaTeX 并转换为 TXT，提供分步指南和代码示例。|
+| [从 DOCX 创建可访问 PDF – 步骤式 C# 指南](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | 学习如何使用 Aspose.Words for .NET 将 DOCX 转换为可访问的 PDF，提供分步指南和代码示例，帮助开发者实现无障碍文档。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

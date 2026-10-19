@@ -70,6 +70,8 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 | [Cara Mail Merge dan Mengonversi DOCX ke PDF dalam C# – Panduan Lengkap Aspose](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | Pelajari cara melakukan mail merge dan mengonversi DOCX ke PDF menggunakan Aspose.Words dalam C# dengan panduan langkah demi langkah. |
 | [Mengonversi Word ke PDF dengan Aspose.Words – Panduan Lengkap](./convert-word-to-pdf-with-aspose-words-complete-guide/) | Panduan lengkap langkah demi langkah mengonversi dokumen Word ke PDF menggunakan Aspose.Words untuk .NET. |
 | [Buat PDF dari Word di C# – Panduan Langkah‑demi‑Langkah](./create-pdf-from-word-in-c-step-by-step-guide/) | Panduan langkah demi langkah membuat PDF dari dokumen Word menggunakan Aspose.Words untuk .NET dalam C#. |
+| [Cara Mengekspor LaTeX dari DOCX – Konversi ke TXT](./how-to-export-latex-from-docx-convert-to-txt/) | Pelajari cara mengekspor konten LaTeX dari file DOCX dan mengonversinya menjadi file TXT menggunakan Aspose.Words untuk .NET. |
+| [Buat PDF Aksesibel dari DOCX – Panduan Langkah‑demi‑Langkah C#](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | Pelajari cara membuat PDF yang dapat diakses dari file DOCX menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah dalam C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

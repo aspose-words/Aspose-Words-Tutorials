@@ -63,6 +63,8 @@
 | [Aspose.Words で Summarize を使用する方法 – 完全ガイド](./how-to-use-summarize-in-aspose-words-complete-guide/) Aspose.Words の Summarize 機能を活用し、文書要約を簡単に実装する手順を詳しく解説します。 |
 | [C# で AI を使用して段落を書き換える – ローカル LLM の構成方法](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) C# でローカル LLM を設定し、AI を使って段落を書き換える手順を学びます。 |
 | [Aspose.Words AI で文法チェックを行う方法 – 完全ガイド](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) Aspose.Words AI を活用して文書の文法を自動的にチェックし、修正提案を得る手順をステップバイステップで解説します。 |
+| [C# で Word の文法をチェックする方法 – 完全ガイド](./how-to-check-grammar-in-word-with-c-complete-guide/) C# を使用して Word 文書の文法チェックを自動化し、正確な文章作成を実現する完全ガイドです。 |
+| [AI で要約を作成する – C# Aspose Words チュートリアル](./create-summary-with-ai-c-aspose-words-tutorial/) C# と Aspose.Words を使用して、AI を活用した文書要約の作成方法をステップバイステップで学びます。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

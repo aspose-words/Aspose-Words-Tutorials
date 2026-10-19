@@ -69,6 +69,7 @@
 | [استعادة ملف docx تالف باستخدام Aspose.Words – دليل كامل خطوة بخطوة](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) |دليل شامل يوضح كيفية استعادة ملفات DOCX التالفة باستخدام Aspose.Words خطوة بخطوة. |
 | [تمكين تحذيرات استبدال الخطوط في C# باستخدام Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) | تعلم كيفية تمكين تحذيرات استبدال الخطوط في C# باستخدام Aspose.Words لتجنب مشاكل الخطوط المفقودة أثناء تحميل المستندات. |
 | [تسجيل استدعاء التحذير في Aspose.Words – دليل برمجة كامل](./register-warning-callback-in-aspose-words-complete-programmi/) | تعلم كيفية تسجيل استدعاء التحذير في Aspose.Words عبر دليل برمجي شامل خطوة بخطوة. |
+| [كيفية التقاط التحذيرات – ضبط خيارات التحميل للخطوط المفقودة](./how-to-capture-warnings-configure-load-options-for-missing-f/) | تعلّم كيفية التقاط التحذيرات وضبط خيارات التحميل للتعامل مع الخطوط المفقودة في مستندات Word باستخدام Aspose.Words لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

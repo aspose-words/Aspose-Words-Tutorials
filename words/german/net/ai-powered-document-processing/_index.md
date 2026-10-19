@@ -66,6 +66,8 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [Wie man Summarize in Aspose.Words verwendet – Komplettleitfaden](./how-to-use-summarize-in-aspose-words-complete-guide/) | Erfahren Sie, wie Sie die Summarize‑Funktion in Aspose.Words für .NET einsetzen, um Dokumente automatisch zusammenzufassen. |
 | [Absatz mit KI in C# neu schreiben – Lokales LLM konfigurieren](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und einem lokalen LLM Absätze automatisch neu formulieren. |
 | [Wie man Grammatik mit Aspose.Words KI prüft – Komplettanleitung](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.Words KI Grammatikprüfungen in .NET automatisieren und Fehler in Dokumenten schnell korrigieren. |
+| [Wie man die Grammatik in Word mit C# prüft – Komplettanleitung](./how-to-check-grammar-in-word-with-c-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und C# die Grammatik in Word-Dokumenten automatisch prüfen. |
+| [Erstellen einer Zusammenfassung mit KI – C# Aspose Words Tutorial](./create-summary-with-ai-c-aspose-words-tutorial/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und C# KI nutzen, um Dokumente automatisch zusammenzufassen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -82,12 +82,11 @@ Word文書をPDFに変換してオンライン配信、アーカイブ、印刷�
 | [C#でPDFにアクセシビリティタグを付ける – 完全ガイド](./tag-pdf-for-accessibility-in-c-complete-guide/) Aspose.Words for .NET を使用し、C#でPDFにアクセシビリティタグを付与する完全な手順を解説します。 |
 | [Aspose を使用して Word から PDF をエクスポートする方法 – 完全ステップバイステップガイド](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) Aspose.Words for .NET を使い、Word 文書を PDF にエクスポートする手順を詳細に解説します。 |
 | [C#でフォント置換を使用してドキュメントをPDFとして保存する – 完全ガイド](./save-document-pdf-with-font-substitution-in-c-complete-guide/) Aspose.Words for .NET を使用して、フォント置換を行いながらドキュメントをPDFに保存する方法をステップバイステップで解説します。 |
+| [C# で Word から PDF を保存する方法 – 完全ガイド](./how-to-save-pdf-from-word-in-c-complete-guide/) Aspose.Words for .NET を使用して、C# で Word 文書を PDF に変換する手順をステップバイステップで解説します。 |
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

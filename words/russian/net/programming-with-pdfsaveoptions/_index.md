@@ -81,6 +81,7 @@
 | [Создать доступный PDF из Word с помощью Aspose.Words](./create-accessible-pdf-from-word-using-aspose-words/) | Узнайте, как создать доступный PDF из документа Word с помощью Aspose.Words для .NET, следуя пошаговому руководству. |
 | [Конвертировать Word в доступный PDF с Aspose.Words – Полное руководство](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) | Узнайте, как полностью преобразовать документы Word в доступные PDF с помощью Aspose.Words для .NET. |
 | [Как сохранить PDF из DOCX с помощью Aspose.Words – пошаговое руководство](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) | Пошаговое руководство по сохранению PDF из DOCX с использованием Aspose.Words для .NET. |
+| [Как сохранить PDF из Word в C# – Полное руководство](./how-to-save-pdf-from-word-in-c-complete-guide/) | Узнайте, как сохранить документ Word в PDF с помощью C# и Aspose.Words, следуя пошаговому полному руководству. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

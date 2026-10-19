@@ -33,6 +33,7 @@ Traitement de texte avec MarkdownSaveOptions est une ressource approfondie qui v
 | [Convertir DOCX en Markdown – Guide complet C#](./convert-docx-to-markdown-in-c-complete-guide/) | Apprenez à convertir des fichiers DOCX en Markdown avec un guide complet en C#. |
 | [Enregistrer docx en markdown avec Aspose.Words – Guide complet C#](./save-docx-as-markdown-with-aspose-words-full-c-guide/) | Apprenez à enregistrer des fichiers DOCX en Markdown en utilisant Aspose.Words avec un guide complet en C#. |
 | [Convertir docx en markdown et enregistrer les images depuis docx](./convert-docx-to-markdown-save-images-from-docx/) | Apprenez à convertir des fichiers DOCX en Markdown tout en enregistrant les images extraites du document. |
+| [Enregistrer le Markdown – Guide complet avec extraction d'images](./how-to-save-markdown-full-guide-with-image-extraction/) | Apprenez à enregistrer du contenu Markdown en extrayant les images avec Aspose.Words pour .NET. |
 
 ### [Enregistrer Word en PDF et récupérer un Word corrompu – Convertir Word en Markdown – Convertir Word en Markdown en C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
@@ -72,6 +73,13 @@ Apprenez à créer un dossier, convertir des documents Word en Markdown et extra
 ### [Enregistrer docx en markdown – Guide complet C# avec Aspose.Words](./save-docx-as-markdown-complete-c-guide-with-aspose-words/)
 
 Apprenez à enregistrer des fichiers DOCX en Markdown en utilisant Aspose.Words pour .NET.
+### [Convertir docx en markdown – Guide complet C#](./convert-docx-to-markdown-complete-c-guide/)
+
+Apprenez à convertir des fichiers DOCX en Markdown avec un guide complet en C#.
+
+### [Créer un fichier markdown depuis Word – Guide complet pour exporter les équations](./create-markdown-file-from-word-full-guide-to-export-equation/)
+
+Apprenez à créer un fichier markdown à partir d'un document Word en exportant correctement les équations grâce à Aspose.Words pour .NET.
 
 ### [Comment exporter Markdown depuis Word – Guide complet C#](./how-to-export-markdown-from-word-complete-c-guide/)
 
@@ -226,6 +234,9 @@ Apprenez à récupérer un document Word corrompu et à le restaurer en utilisan
 ### [Exporter Word en Markdown avec ombres de formes et PDF/UA](./export-word-to-markdown-with-shape-shadows-and-pdf-ua/)
 
 Apprenez à exporter des documents Word en Markdown tout en conservant les ombres de formes et à générer des PDF/UA conformes.
+### [Supprimer les paragraphes vides – Convertir Word en Markdown en C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/)
+
+Apprenez à supprimer les paragraphes vides lors de la conversion de documents Word en Markdown avec Aspose.Words pour .NET en C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

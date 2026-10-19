@@ -66,6 +66,8 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [Aspose.Words'ta Summarize Kullanımı – Tam Kılavuz](./how-to-use-summarize-in-aspose-words-complete-guide/) | Aspose.Words'ta Summarize özelliğini nasıl kullanacağınızı adım adım gösteren kapsamlı bir rehber. |
 | [AI ile Paragrafı Yeniden Yazma (C#) – Yerel LLM Nasıl Yapılandırılır](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) | C# ile AI kullanarak bir paragrafı yeniden yazmayı ve yerel LLM'yi yapılandırmayı öğrenin. |
 | [Aspose.Words AI ile Dilbilgisi Kontrolü – Tam Kılavuz](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | Aspose.Words AI kullanarak belgelerinizde dilbilgisi hatalarını otomatik olarak tespit edip düzeltmeyi öğrenin. |
+| [C# ile Word'de Dilbilgisi Kontrolü Nasıl Yapılır – Tam Kılavuz](./how-to-check-grammar-in-word-with-c-complete-guide/) | C# kullanarak Aspose.Words ile Word belgelerinizde dilbilgisi kontrolü yapmayı öğrenin. |
+| [AI ile Özet Oluşturma – C# Aspose Words Eğitimi](./create-summary-with-ai-c-aspose-words-tutorial/) | AI kullanarak C# ile Aspose.Words ile belge özetleme adımlarını öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

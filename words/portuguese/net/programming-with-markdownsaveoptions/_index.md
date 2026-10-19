@@ -53,6 +53,8 @@ Aprenda a converter arquivos DOCX para Markdown em C# com instruções detalhada
 
 ### [Converter DOCX para Markdown – Guia Completo Usando Aspose.Words](./convert-docx-to-markdown-complete-guide-using-aspose-words/)
 Aprenda a converter arquivos DOCX para Markdown passo a passo com exemplos completos usando Aspose.Words para .NET.
+### [Converter docx para markdown – Guia completo em C#](./convert-docx-to-markdown-complete-c-guide/)
+Aprenda a converter documentos DOCX para Markdown com um guia completo em C#, incluindo exemplos de código e melhores práticas usando Aspose.Words.
 
 ### [Salvar docx como markdown – Guia completo em C# com extração de imagens](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
 Aprenda a converter arquivos DOCX para Markdown em C#, extrair imagens e mantendo a formatação com Aspose.Words.
@@ -76,6 +78,8 @@ Aprenda a converter arquivos DOCX para Markdown em C#, extraindo imagens e prese
 Aprenda a converter documentos Word para Markdown extraindo imagens, passo a passo, usando Aspose.Words para .NET.
 ### [Salvar DOCX como Markdown com Aspose.Words – Guia Completo em C#](./save-docx-as-markdown-with-aspose-words-complete-c-guide/)
 Aprenda a converter arquivos DOCX para Markdown usando Aspose.Words em C#, com exemplos detalhados.
+### [Salvar Markdown – Guia completo com extração de imagens](./how-to-save-markdown-full-guide-with-image-extraction/)
+Aprenda a salvar documentos como arquivos Markdown extraindo imagens e preservando a formatação com Aspose.Words.
 
 ### [Salvar Word como Markdown – Guia completo com Aspose.Words](./save-word-as-markdown-complete-guide-with-aspose-words/)
 Aprenda a salvar documentos Word como arquivos Markdown usando Aspose.Words, com um guia completo em C#.
@@ -244,6 +248,11 @@ Aprenda a exportar equações LaTeX de arquivos DOCX ao convertê-los para Markd
 Aprenda a gerar arquivos markdown a partir de documentos Word usando C# e Aspose.Words.
 ### [Exportar Word para Markdown com Sombras de Formas e PDF/UA](./export-word-to-markdown-with-shape-shadows-and-pdf-ua/)
 Aprenda a exportar documentos Word para Markdown preservando sombras de formas e gerando PDF/UA usando Aspose.Words para .NET.
+### [Criar arquivo markdown a partir do Word – Guia completo para exportar equações](./create-markdown-file-from-word-full-guide-to-export-equation/)
+Aprenda a criar arquivos Markdown a partir de documentos Word, exportando equações corretamente com Aspose.Words para .NET.
+
+### [Remover parágrafos vazios – Converter Word para Markdown em C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/)
+Aprenda a remover parágrafos vazios ao converter documentos Word para Markdown usando Aspose.Words em C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

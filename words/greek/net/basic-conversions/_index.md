@@ -69,6 +69,8 @@
 | [Αποθήκευση DOCX ως PDF με Aspose.Words – Πλήρης Οδηγός Βήμα‑βήμα](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/) | Μάθετε πώς να αποθηκεύετε αρχεία DOCX ως PDF χρησιμοποιώντας το Aspose.Words σε C# με πλήρη οδηγό βήμα‑βήμα. |
 | [Πώς να κάνετε Mail Merge και να μετατρέψετε DOCX σε PDF σε C# – Πλήρης Οδηγός Aspose](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | Μάθετε πώς να εκτελείτε mail merge και να μετατρέπετε DOCX σε PDF με Aspose.Words για .NET σε C#. |
 | [Μετατροπή Word σε PDF με Aspose.Words – Πλήρης Οδηγός](./convert-word-to-pdf-with-aspose-words-complete-guide/) | Μάθετε πώς να μετατρέψετε έγγραφα Word σε PDF με το Aspose.Words σε πλήρη βήμα‑βήμα οδηγό. |
+| [Πώς να εξάγετε LaTeX από DOCX – Μετατροπή σε TXT](./how-to-export-latex-from-docx-convert-to-txt/) | Μάθετε πώς να εξάγετε LaTeX από DOCX και να το μετατρέψετε σε αρχείο TXT χρησιμοποιώντας το Aspose.Words για .NET. |
+| [Δημιουργία Προσβάσιμου PDF από DOCX – Οδηγός βήμα‑βήμα C#](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF από DOCX χρησιμοποιώντας Aspose.Words για .NET με οδηγίες βήμα‑βήμα σε C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

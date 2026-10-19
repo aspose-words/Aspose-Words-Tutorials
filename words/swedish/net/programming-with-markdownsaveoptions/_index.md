@@ -40,6 +40,7 @@ Lär dig exportera LaTeX från Word och konvertera DOCX till Markdown och TXT me
 Lär dig konvertera DOCX-filer till Markdown med en detaljerad steg‑för‑steg‑guide i C#.
 
 ### [Konvertera docx till markdown med C# – Komplett guide](./convert-docx-to-markdown-with-c-complete-guide/)
+### [Konvertera docx till markdown – Fullständig C#-guide](./convert-docx-to-markdown-complete-c-guide/)
 Lär dig konvertera DOCX-filer till Markdown med en komplett C#‑guide.
 
 ### [Spara docx som markdown – Fullständig C#-guide med LaTeX-ekvationer](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
@@ -253,6 +254,14 @@ Lär dig hur du anger en egen bildmapp när du exporterar Markdown med bilder i 
 Lär dig återställa korrupta Word-dokument med Aspose.Words i en komplett guide.
 ### [Exportera Word till Markdown med formskuggor och PDF/UA](./export-word-to-markdown-with-shape-shadows-and-pdf-ua/)
 Lär dig exportera Word-dokument till Markdown samtidigt som du bevarar formskuggor och skapar PDF/UA-filer med Aspose.Words för .NET.
+### [Skapa markdown‑fil från Word – Fullständig guide för att exportera ekvationer](./create-markdown-file-from-word-full-guide-to-export-equation/)
+Lär dig skapa markdown‑filer från Word och exportera ekvationer med en komplett guide i C#.
+
+### [Spara Markdown – Fullständig guide med bildextraktion](./how-to-save-markdown-full-guide-with-image-extraction/)
+Lär dig spara Markdown-filer och extrahera bilder med en komplett guide i C#.
+
+### [Ta bort tomma stycken – Konvertera Word till Markdown i C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/)
+Lär dig hur du tar bort tomma stycken när du konverterar Word-dokument till Markdown med Aspose.Words för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -101,6 +101,10 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [DOCX से LaTeX निर्यात – Markdown में बदलें](./how-to-export-latex-from-docx-convert-to-markdown/) | .NET के लिए Aspose.Words का उपयोग करके DOCX से LaTeX निर्यात करके उसे Markdown में बदलना सीखें। |
 | [DOCX को मार्कडाउन के रूप में सहेजें – Aspose.Words के साथ पूर्ण C# गाइड](./save-docx-as-markdown-complete-c-guide-with-aspose-words/) | Aspose.Words का उपयोग करके C# में DOCX को मार्कडाउन में बदलने की विस्तृत गाइड। |
 | [आकार छायाओं और PDF/UA के साथ Word को Markdown में निर्यात करें](./export-word-to-markdown-with-shape-shadows-and-pdf-ua/) | आकार छायाओं और PDF/UA समर्थन के साथ Word को Markdown में निर्यात करने की विस्तृत गाइड। |
+| [DOCX को मार्कडाउन में बदलें – पूर्ण C# गाइड](./convert-docx-to-markdown-complete-c-guide/) | DOCX फ़ाइल को C# में पूर्ण गाइड के साथ मार्कडाउन में बदलने की विस्तृत प्रक्रिया। |
+| [Word से markdown फ़ाइल बनाएं – समीकरण निर्यात के लिए पूर्ण गाइड](./create-markdown-file-from-word-full-guide-to-export-equation/) | Word दस्तावेज़ को markdown फ़ाइल में बदलें और समीकरणों को निर्यात करने के लिए पूर्ण चरण‑दर‑स्टेप गाइड। |
+| [मार्कडाउन सहेजने का तरीका – इमेज एक्सट्रैक्शन के साथ पूर्ण गाइड](./how-to-save-markdown-full-guide-with-image-extraction/) | इमेज एक्सट्रैक्शन के साथ मार्कडाउन सहेजने की पूरी गाइड। चरण‑दर‑स्टेप प्रक्रिया। |
+| [खाली पैराग्राफ हटाएँ – C# में Word को Markdown में परिवर्तित करें](./remove-empty-paragraphs-convert-word-to-markdown-in-c/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ से खाली पैराग्राफ हटाकर Markdown में निर्यात करने का तरीका। |
 
 | [Word को Markdown में बदलें – इमेज एक्सट्रैक्शन के साथ पूर्ण गाइड](./convert-word-to-markdown-full-guide-with-image-extraction/) | इमेज एक्सट्रैक्शन के साथ Word को Markdown में बदलने की पूरी गाइड। C# में चरण‑दर‑स्टेप प्रक्रिया। |
 | [docx को markdown में बदलें – लाइन‑ब्रेक संरक्षण के साथ पूर्ण गाइड](./convert-docx-to-markdown-complete-guide-with-line-break-pres/) | docx फ़ाइल को markdown में बदलते समय लाइन‑ब्रेक को संरक्षित रखने का पूर्ण चरण‑दर‑स्टेप गाइड। |

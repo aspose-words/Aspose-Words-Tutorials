@@ -62,6 +62,8 @@
 | [C# でメールマージと DOCX を PDF に変換する方法 – 完全 Aspose ガイド](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) Aspose.Words for .NET を使用して、C# でメールマージを行い、DOCX を PDF に変換する完全ガイドです。コード例付きでステップバイステップ。 |
 | [Aspose.WordsでWordをPDFに変換する – 完全ガイド](./convert-word-to-pdf-with-aspose-words-complete-guide/) Aspose.Words for .NET を使用して C# で Word 文書を PDF に変換する完全ガイドです。コード例付きで開発者に最適です。 |
 | [C# で Word から PDF を作成する – ステップバイステップ ガイド](./create-pdf-from-word-in-c-step-by-step-guide/) Aspose.Words for .NET を使用して C# で Word 文書を PDF に変換する方法を、ステップバイステップで解説します。コード例付きで開発者に最適です。 |
+| [DOCX から LaTeX をエクスポートする – Txt に変換](./how-to-export-latex-from-docx-convert-to-txt/) Aspose.Words for .NET を使用して DOCX から LaTeX をエクスポートし、TXT 形式に変換する手順をステップバイステップで解説します。 |
+| [DOCX からアクセシブル PDF を作成する – ステップバイステップ C# ガイド](./create-accessible-pdf-from-docx-step-by-step-c-guide/) Aspose.Words for .NET を使用して DOCX からアクセシブルな PDF を作成する方法をステップバイステップで解説します。開発者に最適です。 |
 
 | [DOCX からアクセシブル PDF を作成する – 完全 Aspose ガイド](./create-accessible-pdf-from-docx-complete-aspose-guide/) Aspose.Words for .NET を使用して、DOCX からアクセシブルな PDF を生成する方法をステップバイステップで解説します。コード例付きで開発者に最適です。 |
 | [C# で PNG を Base64 に変換する – 完全ガイド](./convert-png-to-base64-in-c-complete-guide/) C# で PNG 画像を Base64 文字列に変換する方法を、コード例と共にステップバイステップで解説します。 |

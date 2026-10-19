@@ -70,6 +70,8 @@ Basic Conversions hướng dẫn bạn cách chuyển đổi tài liệu cơ b�
 | [Chuyển đổi DOCX sang TXT – Hướng dẫn C# đầy đủ cho các phương trình LaTeX](./convert-docx-to-txt-complete-c-guide-for-latex-equations/) | Hướng dẫn chi tiết cách chuyển DOCX sang TXT trong C#, bảo toàn các công thức LaTeX, kèm ví dụ mã nguồn. |
 | [Cách Mail Merge và Chuyển Đổi DOCX sang PDF trong C# – Hướng Dẫn Đầy Đủ Aspose](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | Hướng dẫn chi tiết cách thực hiện Mail Merge và chuyển DOCX sang PDF trong C# bằng Aspose.Words, kèm ví dụ mã nguồn. |
 | [Tạo PDF từ Word trong C# – Hướng dẫn từng bước](./create-pdf-from-word-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo PDF từ tài liệu Word bằng C# sử dụng Aspose.Words, kèm ví dụ mã nguồn. |
+| [Cách xuất LaTeX từ DOCX – Chuyển sang TXT](./how-to-export-latex-from-docx-convert-to-txt/) | Hướng dẫn chi tiết cách xuất nội dung LaTeX từ tài liệu DOCX và lưu dưới dạng tệp TXT bằng Aspose.Words cho .NET. |
+| [Tạo PDF có thể truy cập từ DOCX – Hướng dẫn từng bước C#](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập từ tài liệu DOCX bằng Aspose.Words cho .NET, kèm ví dụ C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

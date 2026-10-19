@@ -60,6 +60,7 @@
 | [Προσθήκη Σκιάς σε Σχήμα σε Έγγραφα Word – Πλήρης Οδηγός C#](./add-shadow-to-shape-in-word-documents-complete-c-guide/) | Μάθετε πώς να προσθέσετε σκιά σε σχήμα Word χρησιμοποιώντας Aspose.Words για .NET με C#. |
 | [Δημιουργία Εγγράφου Word C# – Προσθήκη Σχήματος με Σκιά](./create-word-document-c-add-shape-with-shadow/) | Μάθετε πώς να προσθέσετε σχήμα με σκιά σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET με C#. |
 | [Πώς να ορίσετε σκιά σε σχήμα σε C# – Οδηγός βήμα προς βήμα](./how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/) | Μάθετε πώς να προσθέσετε σκιά σε σχήματα σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET με C#. |
+| [Πώς να ορίσετε σκιά σε σχήμα Word – C# Εκπαιδευτικό](./how-to-set-shadow-on-a-word-shape-c-tutorial/) | Μάθετε πώς να προσθέσετε σκιά σε σχήματα Word χρησιμοποιώντας το Aspose.Words για .NET με C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

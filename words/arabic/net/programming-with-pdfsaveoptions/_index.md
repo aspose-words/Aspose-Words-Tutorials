@@ -81,6 +81,7 @@
 | [تحويل DOCX إلى PDF باستخدام Aspose.Words – دليل برمجة كامل](./convert-docx-to-pdf-with-aspose-words-complete-programming-g/) |دليل شامل خطوة بخطوة لتحويل ملفات DOCX إلى PDF باستخدام Aspose.Words في بيئة .NET. |
 | [تحويل Word إلى PDF قابل للوصول باستخدام Aspose.Words – دليل كامل](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) |دليل شامل خطوة بخطوة لتحويل مستندات Word إلى ملفات PDF قابلة للوصول باستخدام Aspose.Words. |
 | [كيفية حفظ PDF من DOCX باستخدام Aspose.Words – دليل خطوة بخطوة](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) | تعلم كيفية تحويل مستند DOCX إلى PDF باستخدام Aspose.Words خطوة بخطوة. |
+| [كيفية حفظ PDF من Word باستخدام C# – دليل شامل](./how-to-save-pdf-from-word-in-c-complete-guide/) |تعلم كيفية حفظ مستندات Word كملفات PDF باستخدام C# مع Aspose.Words خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

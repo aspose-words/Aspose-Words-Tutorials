@@ -80,6 +80,8 @@ Egal, ob Sie Word-Dokumente für die Online-Verteilung, Archivierung oder den Dr
 | [Barrierefreies PDF aus DOCX erstellen – Vollständige Programmieranleitung](./create-accessible-pdf-from-docx-complete-programming-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein barrierefreies PDF aus einem DOCX-Dokument erstellen – vollständige Programmieranleitung. |
 | [Word in barrierefreies PDF konvertieren mit Aspose.Words – Vollständige Anleitung](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument in ein barrierefreies PDF konvertieren – vollständige Schritt‑für‑Schritt‑Anleitung. |
 | [Wie man PDF aus DOCX mit Aspose.Words speichert – Schritt‑für‑Schritt‑Anleitung](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein DOCX‑Dokument in ein PDF konvertieren und speichern – detaillierte Schritt‑für‑Schritt‑Anleitung. |
+| [PDF aus Word in C# speichern – Komplettanleitung](./how-to-save-pdf-from-word-in-c-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET PDFs aus Word-Dokumenten in C# vollständig speichern und anpassen. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

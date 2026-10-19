@@ -75,6 +75,7 @@ Ať už chcete převést dokumenty Wordu do PDF pro online distribuci, archivaci
 | [Vytvořte přístupný PDF s Aspose.Words – Kompletní průvodce](./create-accessible-pdf-with-aspose-words-complete-guide/) | Kompletní průvodce vytvořením přístupného PDF pomocí Aspose.Words pro .NET. |
 | [Převod Wordu na přístupný PDF pomocí Aspose.Words – Kompletní průvodce](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) | Kompletní průvodce převodem dokumentů Word do přístupného PDF pomocí Aspose.Words. |
 | [Jak uložit PDF z DOCX s Aspose.Words – průvodce krok za krokem](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) | Naučte se, jak převést soubor DOCX do PDF pomocí Aspose.Words s podrobným krok za krokem návodem. |
+| [Jak uložit PDF z Wordu v C# – Kompletní průvodce](./how-to-save-pdf-from-word-in-c-complete-guide/) | Kompletní návod, jak pomocí Aspose.Words pro .NET převést dokument Word do PDF v C# s podrobnými ukázkami kódu. |
 
 | [Vytvořte přístupný PDF z Wordu pomocí Aspose.Words](./create-accessible-pdf-from-word-using-aspose-words/) | Naučte se, jak pomocí Aspose.Words pro .NET vytvořit přístupný PDF z dokumentu Word. |
 | [Převod DOCX do PDF pomocí Aspose.Words – Kompletní programovací průvodce](./convert-docx-to-pdf-with-aspose-words-complete-programming-g/) | Kompletní průvodce převodem souborů DOCX do PDF v C# pomocí Aspose.Words. |
