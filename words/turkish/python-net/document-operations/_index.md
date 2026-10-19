@@ -57,9 +57,22 @@ Aspose.Words Python-net için bir kod eğitimi
     ### [Save Word Documents as PostScript in Python Using Aspose.Words&#58; A Comprehensive Guide](./save-docs-as-postscript-using-aspose-words-python/)
 Word belgelerini Python için Aspose.Words kullanarak PostScript formatına nasıl dönüştüreceğinizi öğrenin. Bu kılavuz kurulum, dönüştürme ve kitap katlama yazdırma seçeneklerini kapsar.
 
-### [Bozuk DOCX Dosyasını Kurtar – Word Belgesini Aç ve Yükle](./recover-corrupted-docx-open-load-word-document/)
+    ### [Bozuk DOCX Dosyasını Kurtar – Word Belgesini Aç ve Yükle](./recover-corrupted-docx-open-load-word-document/)
 Aspose.Words for Python-net ile bozuk DOCX dosyalarını açma ve yükleme yöntemlerini öğrenin.
 
+### [Bozuk DOCX Dosyasını Kurtar – Kurtarma Modunu Etkinleştirme ve Sayfa Sayısını Öğrenme Rehberi](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
+Aspose.Words for Python-net kullanarak bozuk DOCX dosyalarını kurtarma modunu etkinleştirip sayfa sayısını nasıl alacağınızı öğrenin.
+### [Bozuk Word Belgesini Python ile Kurtar – Tam Kılavuz](./recover-corrupted-word-document-using-python-complete-guide/)
+Aspose.Words for Python-net kullanarak bozuk Word belgelerini nasıl açıp onarabileceğinizi adım adım öğrenin.
+### [Aspose.Words Python ile Bozuk Word Belgesini Kurtarın](./recover-corrupted-word-document-with-aspose-words-python/)
+Aspose.Words for Python kullanarak bozuk Word belgelerini nasıl açıp onaracağınızı öğrenin.
+### [DOCX Nasıl Kurtarılır – Bozuk Word Belgelerini Geri Yükleme İçin Kapsamlı Kılavuz](./how-to-recover-docx-complete-guide-to-restoring-corrupted-wo/)
+Aspose.Words for Python-net kullanarak bozuk DOCX dosyalarını nasıl kurtaracağınızı ve içeriğini geri yükleyeceğinizi öğrenin.
+### [DOCX Dosyalarını Python'da Kurtarma – Aspose.Words Kullanarak Geri Yükleme ile Belge Açma](./how-to-recover-docx-files-in-python-load-document-with-recov/)
+Aspose.Words for Python ile bozuk DOCX dosyalarını kurtarmak ve geri yükleme seçenekleriyle belge açmayı öğrenin.
+
+### [Bozuk DOCX Kurtarma – Aspose.Words for Python Kullanarak Kapsamlı Rehber](./recover-corrupted-docx-complete-guide-using-aspose-words-for/)
+Aspose.Words for Python kullanarak bozuk DOCX dosyalarını nasıl tam olarak kurtaracağınızı öğrenin.
 ### [Bozuk DOCX Dosyasını Kurtar – Aspose ile Word Dosyalarını Açma Tam Kılavuzu](./recover-corrupted-docx-complete-guide-to-opening-word-files/)
 Aspose.Words for Python-net kullanarak bozuk DOCX dosyalarını nasıl açıp kurtaracağınızı adım adım öğrenin.
 

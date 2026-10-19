@@ -47,7 +47,7 @@ Seguendo questi tutorial, sarai in grado di sfruttare appieno le funzionalità d
 | [Ottieni la posizione della tabella mobile](./get-floating-table-position/) | Scopri come ottenere posizioni di tabelle mobili nei documenti Word utilizzando Aspose.Words per .NET. Questa guida dettagliata e passo passo ti illustrerà tutto ciò che devi sapere. |
 | [Posizione della tabella mobile](./floating-table-position/) | Scopri come controllare la posizione mobile delle tabelle nei documenti Word utilizzando Aspose.Words per .NET con la nostra guida dettagliata e passo dopo passo.
 | [Imposta la posizione orizzontale o verticale relativa](./set-relative-horizontal-or-vertical-position/) Scopri come impostare le posizioni relative orizzontali e verticali per le tabelle nei documenti Word utilizzando Aspose.Words per .NET con questa guida dettagliata.
-
+| [Nascondi riga in tabella con C# – Guida semplice per rimuovere righe di tabella](./hide-row-in-table-with-c-simple-guide-to-removing-table-rows/) | Scopri come nascondere una riga in una tabella Word utilizzando Aspose.Words per .NET con C# in questa guida semplice. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
