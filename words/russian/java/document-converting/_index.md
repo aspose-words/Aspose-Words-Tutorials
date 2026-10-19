@@ -106,6 +106,8 @@ weight: 14
 Подробное руководство по конвертации DOCX в PDF с использованием Aspose.Words for Java, включая примеры кода и настройки.
 ### [Сохранить DOCX в PDF с Aspose.Words – Полное руководство Java](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
 Полное руководство по сохранению DOCX в PDF с помощью Aspose.Words для Java, включая примеры кода и настройки параметров.
+### [Конвертировать docx в txt в Java – Полное руководство](./convert-docx-to-txt-in-java-complete-programming-guide/)
+Подробное руководство по преобразованию файлов DOCX в TXT в Java с использованием Aspose.Words, включая примеры кода и настройки.
 
 ## Часто задаваемые вопросы
 

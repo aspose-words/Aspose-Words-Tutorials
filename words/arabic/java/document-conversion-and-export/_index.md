@@ -277,6 +277,18 @@ weight: 22
 ### [تصدير Word إلى Markdown في Java – حفظ المستند كملف Markdown](./export-word-to-markdown-in-java-save-document-as-markdown/)
 تعلم كيفية تصدير مستندات Word إلى صيغة Markdown باستخدام Aspose.Words for Java وحفظها كملف Markdown.
 
+### [حفظ المستند كملف DOCX باستخدام Aspose.Words – دليل Java كامل](./save-document-as-docx-with-aspose-words-complete-java-guide/)
+دليل شامل لحفظ المستندات بصيغة DOCX باستخدام Aspose.Words for Java مع أمثلة عملية.
+
+### [حفظ Word كملف PDF باستخدام Aspose.Words – دليل Java كامل](./save-word-as-pdf-with-aspose-words-complete-java-guide/)
+دليل شامل يوضح كيفية تحويل ملفات Word إلى PDF باستخدام Aspose.Words for Java خطوة بخطوة.
+
+### [تحويل Word إلى Markdown باستخدام Java – دليل كامل](./convert-word-to-markdown-with-java-full-guide/)
+تعلم كيفية تحويل ملفات Word إلى صيغة Markdown باستخدام Aspose.Words for Java خطوة بخطوة.
+
+### [إنشاء ملف PDF/UA متوافق مع Java – دليل كامل Aspose.Words](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
+دليل شامل لإنشاء ملفات PDF/UA متوافقة باستخدام Aspose.Words for Java، مع خطوات البرمجة وتفاصيل التوافق.
+
 ## الأسئلة المتكررة
 
 **س: كيف يمكنني إضافة علامة مائية إلى ملف PDF موجود باستخدام Aspose.Words؟**  

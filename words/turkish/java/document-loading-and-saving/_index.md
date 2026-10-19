@@ -140,6 +140,8 @@ Java’da eksik yazı tiplerini tespit etmek ve DOCX dosyalarını doğru şekil
 
 ### [DOCX Dosyalarını Kurtarma – Adım Adım Java Rehberi](./how-to-recover-docx-files-step-by-step-java-guide/)
 Java’da Aspose.Words for Java kullanarak bozuk DOCX dosyalarını nasıl onaracağınızı adım adım öğrenin.
+### [Aspose.Words ile bozuk docx dosyasını kurtarma – Tam Java Kılavuzu](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
+Aspose.Words for Java kullanarak bozuk DOCX dosyalarını nasıl kurtaracağınızı adım adım öğrenin.
 
 ### [Java’da Font Değiştirme Uyarılarını Yakalama – Aspose.Words ile Tam Kılavuz](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [Kırık Word Belgesini Kurtarmak İçin Kurtarma Modunu Ayarlama](./set-recovery-mode-to-recover-broken-word-document/)

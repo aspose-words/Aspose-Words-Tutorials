@@ -130,6 +130,8 @@ Convertissez facilement des fichiers DOCX en PDF avec Aspose.Words for Java en u
 
 ### [Enregistrer un document au format PDF avec Java – Guide complet étape par étape](./save-document-as-pdf-with-java-complete-step-by-step-guide/)
 Apprenez à convertir et enregistrer un document Word en PDF avec Aspose.Words for Java grâce à un guide détaillé pas à pas.
+### [Enregistrer Word en PDF avec Aspose.Words – Guide complet Java](./save-word-as-pdf-with-aspose-words-complete-java-guide/)
+Apprenez à convertir un fichier Word en PDF en Java avec Aspose.Words, incluant les options d’enregistrement et la gestion des licences.
 
 ### [Créer un PDF accessible à partir de DOCX – Guide complet](./create-accessible-pdf-from-docx-complete-guide/)
 Convertissez facilement des fichiers DOCX en PDF accessible en suivant les meilleures pratiques d’accessibilité.
@@ -281,6 +283,14 @@ Apprenez à extraire les équations LaTeX d'un DOCX et les enregistrer au format
 
 ### [Comment enregistrer un PDF depuis Word avec des formes en ligne – Guide complet](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
 Apprenez à convertir des documents Word contenant des formes en ligne en PDF en conservant la mise en page et les graphiques.
+### [Enregistrer le document au format DOCX avec Aspose.Words – Guide complet Java](./save-document-as-docx-with-aspose-words-complete-java-guide/)
+Apprenez à enregistrer un document Word en DOCX en Java avec Aspose.Words, incluant les options d’enregistrement et la gestion des licences.
+
+### [Convertir Word en Markdown avec Java – Guide complet](./convert-word-to-markdown-with-java-full-guide/)
+Apprenez à convertir des documents Word en Markdown en Java avec Aspose.Words, incluant les options d’exportation et la gestion des images.
+
+### [Créer un fichier PDF/UA conforme avec Java – Guide complet Aspose.Words](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
+Apprenez à générer des fichiers PDF/UA conformes en Java avec Aspose.Words, en suivant un guide complet pas à pas.
 
 ## Questions fréquentes
 

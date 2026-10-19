@@ -178,6 +178,9 @@ Leer hoe je beschadigde DOCX-bestanden kunt repareren met Aspose.Words voor Java
 ### [Detecteer ontbrekende lettertypevervanging in Java – Complete Aspose.Words-gids](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
 Leer hoe je ontbrekende lettertypevervangingen detecteert en verwerkt tijdens het laden van documenten met Aspose.Words for Java.
 
+### [Corrupt docx herstellen met Aspose.Words – Complete Java-gids](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
+Leer hoe je beschadigde docx‑bestanden kunt repareren en verwerken met Aspose.Words voor Java in een stapsgewijze gids.
+
 ## Veelgestelde vragen
 
 **Q:** Hoe kan ik programmatisch **save images from word** documenten opslaan?  

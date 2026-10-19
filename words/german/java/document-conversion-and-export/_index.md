@@ -166,9 +166,13 @@ Erfahren Sie, wie Sie Bilder aus DOCX extrahieren und automatisch in ein CDN hoc
 
 ### [Bilder als Base64 einbetten beim Konvertieren von DOCX zu Markdown](./embed-images-as-base64-when-converting-docx-to-markdown/)
 Erfahren Sie, wie Sie Bilder aus DOCX beim Konvertieren zu Markdown als Base64‑Kodierung einbetten, um korrekte Darstellung sicherzustellen.
+### [Word in Markdown konvertieren mit Java – Vollständiger Leitfaden](./convert-word-to-markdown-with-java-full-guide/)
+
 
 ### [Aspose Word zu PDF – DOCX in PDF konvertieren in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
-Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words for Java einfach in PDF konvertieren.
+
+### [Word als PDF speichern mit Aspose.Words – Vollständiger Java‑Leitfaden](./save-word-as-pdf-with-aspose-words-complete-java-guide/)
+Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words in Java problemlos als PDF speichern, inklusive Optionen für Qualität und Sicherheit.
 
 ### [Wie man PDF aus Word mit Inline‑Formen speichert – Komplett‑Leitfaden](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words for Java PDFs aus Word‑Dokumenten inklusive Inline‑Grafiken korrekt speichern.
@@ -256,6 +260,11 @@ Erfahren Sie, wie Sie mit Aspose.Words for Java ein vollständig getaggtes, barr
 ### [DOCX als Markdown exportieren – Vollständiger Java-Leitfaden](./export-docx-as-markdown-complete-java-guide/)
 ### [Als Klartext speichern – Vollständiger Leitfaden zum Exportieren von Word‑Gleichungen](./save-as-plain-text-complete-guide-to-export-word-equations/)
 ### [Erstellen eines PDF/UA-2 konformen Dokuments – Vollständiger Java-Leitfaden](./create-pdf-ua-2-compliant-document-complete-java-guide/)
+
+### [PDF/UA‑konforme Datei mit Java erstellen – Vollständiger Aspose.Words‑Leitfaden](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
+Erfahren Sie, wie Sie mit Aspose.Words for Java PDF/UA‑konforme Dokumente erstellen, inklusive Einstellungen für Barrierefreiheit.
+
+### [Dokument als DOCX speichern mit Aspose.Words – Komplettleitfaden für Java](./save-document-as-docx-with-aspose-words-complete-java-guide/)
 
 ## Häufig gestellte Fragen
 

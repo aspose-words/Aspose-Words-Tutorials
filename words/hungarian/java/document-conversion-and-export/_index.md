@@ -141,6 +141,8 @@ Tanuld meg, hogyan mentheted a DOCX fájlokat markdown formátumba C#‑ban az A
 Tanulja meg, hogyan menthet Word dokumentumot markdown formátumba, miközben a beágyazott matematikai egyenleteket LaTeX kóddá exportálja Java-val.
 ### [DOCX exportálása Markdownba – Teljes Java útmutató](./export-docx-as-markdown-complete-java-guide/)
 Tanulja meg, hogyan konvertálja a DOCX fájlokat Markdown formátumba Java‑val az Aspose.Words segítségével, lépésről‑lépésre.
+### [Word konvertálása Markdownra Java-val – Teljes útmutató](./convert-word-to-markdown-with-java-full-guide/)
+Tanulja meg, hogyan konvertálja a Word dokumentumokat Markdown formátumba Java és Aspose.Words segítségével, lépésről‑lépésre.
 
 ### [Hogyan ágyazzunk be képeket a Markdownba a DOCX konvertálásakor](./how-to-embed-images-in-markdown-when-converting-docx/)
 Tanuld meg, hogyan ágyazhat be képeket a Markdownba a DOCX konvertálásakor az Aspose.Words for Java használatával.
@@ -150,6 +152,10 @@ Tanulja meg, hogyan konvertálja a DOCX fájlokat PDF‑be Java‑val az Aspose.
 
 ### [Dokumentum mentése PDF‑ként Java‑val – Teljes lépésről‑lépésre útmutató](./save-document-as-pdf-with-java-complete-step-by-step-guide/)
 Tanulja meg, hogyan menthet Word dokumentumot PDF‑ként Java‑val az Aspose.Words for Java‑val, részletes lépésekkel.
+### [Word mentése PDF‑ként az Aspose.Words‑szal – Teljes Java útmutató](./save-word-as-pdf-with-aspose-words-complete-java-guide/)
+Tanulja meg, hogyan menthet Word dokumentumot PDF‑ként az Aspose.Words Java API‑val lépésről‑lépésre.
+
+### [PDF/UA kompatibilis fájl létrehozása Java‑val – Teljes Aspose.Words útmutató](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
 
 ### [Hozzon létre akadálymentes PDF-et DOCX‑ből – Teljes útmutató](./create-accessible-pdf-from-docx-complete-guide/)
 Tanulja meg, hogyan konvertáljon DOCX fájlokat teljesen hozzáférhető PDF‑be az Aspose.Words for Java segítségével.
@@ -253,6 +259,9 @@ Tanulja meg, hogyan konvertálja a DOCX‑ben lévő LaTeX egyenleteket TXT form
 
 ### [Hogyan mentsünk PDF-et Word‑ből beágyazott alakzatokkal – Teljes útmutató](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
 Tanulja meg, hogyan menthet PDF‑et Word‑dokumentumból, miközben megőrzi a beágyazott alakzatok formázását, lépésről‑lépésre útmutatóval.
+
+### [Dokumentum mentése DOCX formátumba az Aspose.Words segítségével – Teljes Java útmutató](./save-document-as-docx-with-aspose-words-complete-java-guide/)
+Tanulja meg, hogyan menthet Word dokumentumot DOCX formátumba az Aspose.Words Java API-val, részletes lépésekkel és példakóddal.
 
 ## Gyakran Ismételt Kérdések
 

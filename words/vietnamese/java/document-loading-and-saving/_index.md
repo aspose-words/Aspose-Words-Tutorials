@@ -173,6 +173,8 @@ Học cách mở tài liệu Word bị hỏng và thiết lập chế độ ph�
 ### [Khôi phục docx bị hỏng bằng Aspose.Words Java](./recover-corrupted-docx-using-aspose-words-java/)
 Học cách khôi phục các tệp DOCX bị hỏng bằng Aspose.Words cho Java, với hướng dẫn chi tiết và ví dụ mã nguồn.
 
+### [Recover corrupted docx with Aspose.Words – Complete Java Guide](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
+
 ## Câu Hỏi Thường Gặp
 
 **Hỏi:** Làm thế nào để **lưu hình ảnh từ Word** một cách lập trình?  

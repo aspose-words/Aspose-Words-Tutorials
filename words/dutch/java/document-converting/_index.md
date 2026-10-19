@@ -106,6 +106,8 @@ Leer hoe u Word‑documenten naar afbeeldingen converteert met Aspose.Words for 
 Leer hoe u DOCX‑bestanden naar PDF converteert met Aspose.Words for Java in een eenvoudige stap‑voor‑stap‑gids.
 ### [Docx opslaan als PDF met Aspose.Words – Complete Java-gids](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
 Leer stap‑voor‑stap hoe u DOCX‑bestanden converteert en opslaat als PDF met Aspose.Words in Java.
+### [Docx naar txt converteren in Java – Complete programmeergids](./convert-docx-to-txt-in-java-complete-programming-guide/)
+Leer hoe u met Aspose.Words for Java DOCX-bestanden naar platte txt-bestanden converteert, inclusief code‑voorbeelden en tips.
 
 ## Veelgestelde vragen
 

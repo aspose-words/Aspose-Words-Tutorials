@@ -168,6 +168,9 @@ Naučte se, jak pomocí Aspose.Words for Java opravit a načíst poškozené sou
 
 ### [Registrace výstražného zpětného volání v Javě – Sledování chybějících fontů](./register-warning-callback-in-java-track-missing-fonts/)
 ### [Detekce chybějící substituce fontů v Javě – Kompletní průvodce Aspose.Words](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+### [Obnovení poškozeného docx pomocí Aspose.Words – Kompletní průvodce pro Javu](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
+Naučte se, jak opravit poškozené soubory DOCX pomocí Aspose.Words v Javě, krok za krokem s ukázkami kódu.
+
 
 ## Často kladené otázky
 

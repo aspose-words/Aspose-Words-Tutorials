@@ -120,6 +120,8 @@ Dowiedz się, jak przy użyciu Aspose.Words for Java zapisać plik DOCX jako Mar
 Dowiedz się, jak zapisać dokument Word w formacie markdown i wyeksportować równania matematyczne do LaTeX przy użyciu Aspose.Words for Java.
 ### [Eksportuj Word do Markdown w Javie – Zapisz dokument jako Markdown](./export-word-to-markdown-in-java-save-document-as-markdown/)
 Dowiedz się, jak przy użyciu Aspose.Words for Java zapisać dokument Word w formacie Markdown.
+### [Konwertuj Word do Markdown w Javie – Kompletny przewodnik](./convert-word-to-markdown-with-java-full-guide/)
+Pełny przewodnik, jak konwertować dokumenty Word do formatu Markdown w Javie przy użyciu Aspose.Words.
 
 ### [Jak osadzić obrazy w Markdown podczas konwersji DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Dowiedz się, jak zachować obrazy przy konwersji DOCX do Markdown, aby były poprawnie wstawione w wynikowy plik.
@@ -274,6 +276,15 @@ Dowiedz się, jak w pełni otagować dokument PDF w Javie, aby spełniał standa
 
 ### [Utwórz dokument zgodny z PDF/UA-2 – Kompletny przewodnik w Javie](./create-pdf-ua-2-compliant-document-complete-java-guide/)
 Dowiedz się, jak generować dokumenty PDF/UA‑2 w Javie przy użyciu Aspose.Words, spełniające wymogi dostępności.
+
+### [Utwórz plik PDF/UA zgodny ze standardem w Javie – pełny przewodnik Aspose.Words](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
+Dowiedz się, jak tworzyć pliki PDF/UA zgodne ze standardem w Javie przy użyciu Aspose.Words. Przewodnik krok po kroku z kodem źródłowym.
+
+### [Zapisz dokument jako DOCX przy użyciu Aspose.Words – Kompletny przewodnik Java](./save-document-as-docx-with-aspose-words-complete-java-guide/)
+Pełny przewodnik, jak zapisać dokument w formacie DOCX przy użyciu Aspose.Words w Javie.
+
+### [Zapisz dokument Word jako PDF przy użyciu Aspose.Words – Kompletny przewodnik Java](./save-word-as-pdf-with-aspose-words-complete-java-guide/)
+Dowiedz się, jak w prosty sposób zapisać dokument Word jako PDF przy użyciu Aspose.Words w Javie, krok po kroku.
 
 ## Najczęściej zadawane pytania
 

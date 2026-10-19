@@ -144,6 +144,11 @@ Naučte se, jak pomocí Aspose.Words for Java převést soubory DOCX do PDF jedn
 Naučte se, jak pomocí Aspose.Words for Java uložit dokument do PDF pomocí podrobného krok‑za‑krokem návodu.
 ### [Jak uložit PDF z Wordu s vloženými tvary – Kompletní průvodce](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
 Naučte se, jak pomocí Aspose.Words for Java uložit soubor Word jako PDF a zachovat všechny vložené tvary.
+### [Uložení Wordu jako PDF pomocí Aspose.Words – Kompletní průvodce pro Javu](./save-word-as-pdf-with-aspose-words-complete-java-guide/)
+Naučte se, jak pomocí Aspose.Words pro Javu převést soubor Word do PDF pomocí kompletního průvodce a ukázkového kódu.
+
+### [Uložení dokumentu jako DOCX s Aspose.Words – Kompletní Java průvodce](./save-document-as-docx-with-aspose-words-complete-java-guide/)
+Naučte se, jak pomocí Aspose.Words for Java uložit dokument do formátu DOCX s pokročilými možnostmi nastavení.
 
 ### [Jak vložit obrázky do Markdown při konverzi DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Naučte se, jak při konverzi DOCX do Markdown vložit obrázky tak, aby byly správně zobrazeny v cílovém souboru.
@@ -274,6 +279,12 @@ Naučte se exportovat LaTeX rovnice z dokumentu DOCX do textového souboru TXT p
 
 ### [Export Word do Markdownu v Javě – Uložení dokumentu jako Markdown](./export-word-to-markdown-in-java-save-document-as-markdown/)
 Naučte se, jak pomocí Aspose.Words for Java převést soubor Word do formátu Markdown a uložit jej jako .md.
+
+### [Převod Wordu do Markdownu pomocí Javy – Kompletní průvodce](./convert-word-to-markdown-with-java-full-guide/)
+Naučte se převádět soubory Word do formátu Markdown v Javě pomocí Aspose.Words s podrobným krok‑za‑krokem návodem.
+
+### [Vytvoření souboru PDF/UA kompatibilního s Javou – kompletní průvodce Aspose.Words](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
+Naučte se, jak pomocí Aspose.Words for Java vytvořit PDF/UA soubor splňující standardy přístupnosti.
 
 ## Často kladené otázky
 

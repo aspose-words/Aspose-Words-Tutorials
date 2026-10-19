@@ -152,6 +152,8 @@ Learn how to repair corrupted DOCX files and process them using Aspose.Words for
 
 ### [How to Recover DOCX Files – Step‑by‑Step Java Guide](./how-to-recover-docx-files-step-by-step-java-guide/)
 Learn how to repair corrupted DOCX files using Aspose.Words for Java with a detailed step‑by‑step guide.
+### [Recover corrupted docx with Aspose.Words – Complete Java Guide](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
+Step‑by‑step guide to recover corrupted DOCX files using Aspose.Words for Java, covering detection, repair, and processing.
 
 ### [Capture Font Substitution Warnings in Java with Aspose.Words – Complete Guide](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Learn how to capture and handle font substitution warnings in Java using Aspose.Words, ensuring accurate document rendering.

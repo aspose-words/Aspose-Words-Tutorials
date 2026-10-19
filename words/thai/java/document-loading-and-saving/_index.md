@@ -101,6 +101,7 @@ Aspose.Words for Java ทำให้การ **บันทึกภาพจ�
 ### [กู้ไฟล์ docx ที่เสีย – คู่มือฉบับเต็มสำหรับการแก้ไขและประมวลผลเอกสาร](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 ### [กู้ไฟล์ Word – คู่มือฉบับสมบูรณ์ในการตั้งค่าโหมดการกู้คืนใน Java](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
 ### [เปิดไฟล์ Word ที่เสีย – ตั้งค่าโหมดการกู้คืนใน Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
+### [กู้ไฟล์ docx ที่เสียด้วย Aspose.Words – คู่มือ Java ฉบับสมบูรณ์](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
 ### [บันทึกคำเตือนการแทนที่ฟอนต์ใน Java ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [วิธีกู้คืนไฟล์ docx – คู่มือฉบับสมบูรณ์เพื่ออ่านไฟล์ Word ที่เสียหาย](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 ### [วิธีรับฟอนต์ที่หายไปใน Java – คู่มือ Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)

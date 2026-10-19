@@ -67,7 +67,6 @@ Aspose.Words for Java의 핵심 기능 중 하나는 **docx를 pdf로 변환**�
 
 ## 문서 변환 및 내보내기 튜토리얼
 ### [Java용 Aspose.Words에서 사용자 정의 바코드 라벨 생성](./generate-custom-barcode-labels/)
-
 ### [Java용 Aspose.Words에서 바코드 생성 사용](./using-barcode-세대/)
 Aspose.Words for Java를 활용한 개체 생성 방법. 코드를 포함하는 연결 가이드를 통해 Java에서 사용할 수 있도록 생성하고 문서 통화를 강화할 수 있습니다.
 
@@ -76,9 +75,7 @@ Aspose.Words for Java를 활용한 개체 생성 방법. 코드를 포함하는 
 ### [Java용 Aspose.Words에서 Office 수학 개체 사용](./using-office-math-objects/)
 
 ### [Java용 Aspose.Words에서 문서 모양 사용](./using-document-shapes/)
-
 ### [Java용 Aspose.Words에서 문서에 워터마크 사용](./using-watermarks-to-documents/)
-
 ### [PDF 저장 옵션 – Java에서 DOCX를 PDF로 완전 제어 변환](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 
 ### [Java용 Aspose.Words에서 docx를 markdown으로 변환하는 전체 가이드](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
@@ -238,6 +235,10 @@ Aspose.Words for Java를 사용해 워드 문서를 순수 텍스트로 저장�
 
 ### [Aspose.Words를 사용하여 DOCX에서 LaTeX를 TXT로 내보내는 방법](./how-to-export-latex-from-docx-to-txt-with-aspose-words/)
 Aspose.Words for Java를 이용해 DOCX 문서의 LaTeX 수식을 추출하여 텍스트 파일로 저장하는 단계별 가이드.
+### [Aspose.Words for Java에서 Word를 PDF로 저장 – 완전 Java 가이드](./save-word-as-pdf-with-aspose-words-complete-java-guide/)
+### [Aspose.Words로 문서를 DOCX로 저장 – 완전 Java 가이드](./save-document-as-docx-with-aspose-words-complete-java-guide/)
+### [Java로 Word를 Markdown으로 변환 – 전체 가이드](./convert-word-to-markdown-with-java-full-guide/)
+### [Java로 PDF/UA 준수 파일 만들기 – Aspose.Words 전체 가이드](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
 
 ## 자주 묻는 질문
 

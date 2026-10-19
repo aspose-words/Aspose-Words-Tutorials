@@ -122,6 +122,11 @@ Aspose.Words for Java يجعل من السهل **حفظ الصور من Word** �
 
 ### [تسجيل رد نداء التحذير في Aspose.Words لـ Java – تتبع الخطوط المفقودة](./register-warning-callback-in-java-track-missing-fonts/)
 ### [اكتشاف استبدال الخط المفقود في Java باستخدام Aspose.Words – دليل شامل](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+### [استعادة ملف docx تالف – دليل شامل للإصلاح ومعالجة المستندات](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+
+دليل شامل لاستعادة ملفات DOCX التالفة وإصلاحها ومعالجتها باستخدام Aspose.Words for Java.
+### [استعادة ملف docx تالف – دليل شامل باستخدام Aspose.Words للـ Java](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
+دليل خطوة بخطوة لاستعادة ملفات DOCX التالفة ومعالجتها باستخدام Aspose.Words في بيئة Java.
 
 #### الحفظ بصيغ مختلفة
 
@@ -133,8 +138,6 @@ Aspose.Words for Java يجعل من السهل **حفظ الصور من Word** �
 ### [كيفية استعادة ملف docx – تمكين وضع الاسترداد وقراءة التحذيرات](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
 اكتشف كيفية تمكين وضع الاسترداد في Aspose.Words لقراءة التحذيرات واستعادة ملفات DOCX التالفة بسهولة.
 
-### [استعادة ملف docx تالف – دليل شامل للإصلاح ومعالجة المستندات](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
-دليل شامل لاستعادة ملفات DOCX التالفة وإصلاحها ومعالجتها باستخدام Aspose.Words for Java.
 ### [التقاط تحذيرات استبدال الخطوط في Java باستخدام Aspose.Words – دليل شامل](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [كيفية استعادة ملف DOCX – دليل كامل لقراءة ملفات Word التالفة](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 تعلم خطوة بخطوة كيفية استعادة ملفات DOCX التالفة وقراءة محتواها باستخدام Aspose.Words for Java.

@@ -107,6 +107,8 @@ weight: 14
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ด้วย Aspose.Words for Java อย่างละเอียดด้วยขั้นตอนที่ชัดเจนและตัวอย่างโค้ด.
 ### [บันทึก docx เป็น pdf ด้วย Aspose.Words – คู่มือ Java ครบวงจร](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
 เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น PDF อย่างละเอียดด้วย Aspose.Words for Java พร้อมตัวอย่างโค้ดและเคล็ดลับการปรับแต่ง
+### [แปลง docx เป็น txt ใน Java – คู่มือการเขียนโปรแกรมครบวงจร](./convert-docx-to-txt-in-java-complete-programming-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็นไฟล์ข้อความ TXT ใน Java อย่างละเอียด ด้วยตัวอย่างโค้ดและเคล็ดลับการจัดการฟอร์แมต
 
 ## คำถามที่พบบ่อย
 

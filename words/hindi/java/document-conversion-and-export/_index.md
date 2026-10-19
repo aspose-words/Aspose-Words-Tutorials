@@ -70,6 +70,12 @@ Aspose.Words for Java की मुख्य विशेषताओं मे�
 ### [Aspose.Words for Java में ऑफिस मैथ ऑब्जेक्ट्स का उपयोग करना](./using-office-math-objects/)
 ### [Aspose.Words for Java में डॉक्यूमेंट शेप्स का उपयोग करना](./using-document-shapes/)
 ### [Aspose.Words for Java में दस्तावेज़ों में वॉटरमार्क का उपयोग करना](./using-watermarks-to-documents/)
+Aspose.Words for Java में दस्तावेज़ों में वॉटरमार्क कैसे जोड़ें, सीखें। पेशेवर दिखने वाले दस्तावेज़ों के लिए टेक्स्ट और इमेज वॉटरमार्क को कस्टमाइज़ करें।
+
+
+### [Aspose.Words के साथ Word को PDF में सहेजें – पूर्ण जावा गाइड](./save-word-as-pdf-with-aspose-words-complete-java-guide/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ को PDF में बदलने की पूरी प्रक्रिया, कोड उदाहरण सहित।
+
 ### [Aspose.Words for Java में टेबल्स और टेबल स्टाइल्स को फ़ॉर्मेट करना](./formatting-tables-and-table-styles/)
 Aspose.Words for Java में टेबल्स को फ़ॉर्मेट करना और टेबल स्टाइल्स लागू करना सीखें। प्रभावी टेबल फ़ॉर्मेटिंग के लिए स्रोत कोड के साथ चरण‑दर‑स्टेप गाइड। Aspose.Words के साथ अपने दस्तावेज़ लेआउट को बेहतर बनाएं।
 
@@ -227,6 +233,13 @@ Aspose.Words for Java का उपयोग करके वर्ड दस्
 
 ### [जावा में वर्ड को मार्कडाउन में निर्यात करें – दस्तावेज़ को मार्कडाउन के रूप में सहेजें](./export-word-to-markdown-in-java-save-document-as-markdown/)
 Aspose.Words for Java का उपयोग करके वर्ड दस्तावेज़ को मार्कडाउन फ़ॉर्मेट में बदलें और सहेजें। चरण‑दर‑स्टेप कोड उदाहरण।
+
+### [Aspose.Words के साथ दस्तावेज़ को DOCX के रूप में सहेजें – पूर्ण जावा गाइड](./save-document-as-docx-with-aspose-words-complete-java-guide/)
+
+### [Java के साथ Word को Markdown में बदलें – पूर्ण गाइड](./convert-word-to-markdown-with-java-full-guide/)
+
+### [Java के साथ PDF/UA अनुपालन फ़ाइल बनाएं – पूर्ण Aspose.Words गाइड](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
+Java में Aspose.Words का उपयोग करके PDF/UA मानकों के अनुरूप फ़ाइल बनाने की पूरी प्रक्रिया सीखें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

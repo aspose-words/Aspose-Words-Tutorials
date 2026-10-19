@@ -269,6 +269,18 @@ Word belgesindeki satır içi şekilleri koruyarak PDF olarak kaydetmeyi adım a
 ### [Java’da Word Belgesini Markdown’a Dışa Aktarma – Belgeyi Markdown Olarak Kaydet](./export-word-to-markdown-in-java-save-document-as-markdown/)
 Aspose.Words for Java kullanarak Word belgelerini Markdown formatına dönüştürün ve kaydedin.
 
+### [Aspose.Words for Java'da Belgeyi DOCX Olarak Kaydet – Tam Java Rehberi](./save-document-as-docx-with-aspose-words-complete-java-guide/)
+Aspose.Words for Java kullanarak bir belgeyi DOCX formatında kaydetmeyi adım adım öğrenin.
+
+### [Word Belgesini PDF Olarak Kaydet – Aspose.Words Tam Java Rehberi](./save-word-as-pdf-with-aspose-words-complete-java-guide/)
+Aspose.Words for Java kullanarak bir Word belgesini PDF formatına dönüştürmeyi adım adım öğrenin.
+
+### [Aspose.Words for Java'da Word'ü Markdown'a Dönüştürme – Tam Kılavuz](./convert-word-to-markdown-with-java-full-guide/)
+Java ve Aspose.Words kullanarak Word belgelerini Markdown formatına dönüştürmeyi adım adım öğrenin.
+
+### [Java ile PDF/UA Uyumlu Dosya Oluşturma – Aspose.Words Tam Kılavuzu](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
+Java ve Aspose.Words kullanarak PDF/UA standartlarına uygun dosyalar oluşturmayı adım adım öğrenin.
+
 ## Sık Sorulan Sorular
 
 **S: Aspose.Words kullanarak mevcut bir PDF’e nasıl filigran eklerim?**  

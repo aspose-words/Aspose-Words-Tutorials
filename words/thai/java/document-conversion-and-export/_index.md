@@ -81,6 +81,8 @@ For more information, check out the [Aspose.Words for Java API Documentation](ht
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown อย่างครบถ้วนด้วย Aspose.Words for Java
 ### [ส่งออก Word เป็น Markdown ใน Java – บันทึกเอกสารเป็น Markdown](./export-word-to-markdown-in-java-save-document-as-markdown/)
 เรียนรู้วิธีส่งออกไฟล์ Word เป็น Markdown ด้วย Java โดยใช้ Aspose.Words
+### [แปลง Word เป็น Markdown ด้วย Java – คู่มือเต็ม](./convert-word-to-markdown-with-java-full-guide/)
+เรียนรู้วิธีแปลงไฟล์ Word เป็น Markdown อย่างละเอียดด้วย Java และ Aspose.Words
 
 ### [Generating Custom Barcode Labels in Aspose.Words for Java](./generating-custom-barcode-labels/)
 Generate Custom Barcode Labels in Aspose.Words for Java. Learn how to create personalized barcode solutions using Aspose.Words for Java in this step‑by‑step guide.
@@ -149,6 +151,8 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 
 ### [บันทึกเอกสารเป็น PDF ด้วย Java – คู่มือขั้นตอนเต็มรูปแบบ](./save-document-as-pdf-with-java-complete-step-by-step-guide/)
 เรียนรู้วิธีบันทึกเอกสารเป็น PDF ด้วย Java โดยใช้ Aspose.Words ผ่านคู่มือขั้นตอนเต็มรูปแบบ
+### [บันทึก Word เป็น PDF ด้วย Aspose.Words – คู่มือ Java ฉบับสมบูรณ์](./save-word-as-pdf-with-aspose-words-complete-java-guide/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF อย่างครบถ้วนด้วย Aspose.Words for Java พร้อมตัวอย่างโค้ดและเคล็ดลับการปรับแต่ง
 
 ### [สร้าง PDF ที่เข้าถึงได้จาก DOCX – คู่มือฉบับสมบูรณ์](./create-accessible-pdf-from-docx-complete-guide/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ที่รองรับการเข้าถึงสำหรับผู้ใช้ทุกคนด้วย Aspose.Words
@@ -272,6 +276,12 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 
 ### [วิธีบันทึก PDF จาก Word พร้อม Inline Shapes – คู่มือฉบับสมบูรณ์](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
 เรียนรู้วิธีบันทึกไฟล์ PDF จากเอกสาร Word ที่มี Inline Shapes อย่างครบถ้วนด้วย Aspose.Words for Java
+
+### [บันทึกเอกสารเป็น DOCX ด้วย Aspose.Words – คู่มือ Java ฉบับสมบูรณ์](./save-document-as-docx-with-aspose-words-complete-java-guide/)
+เรียนรู้วิธีบันทึกไฟล์เอกสารเป็นรูปแบบ DOCX ด้วย Aspose.Words สำหรับ Java อย่างละเอียดและครบถ้วน
+
+### [สร้างไฟล์ PDF/UA ที่เป็นไปตามมาตรฐานด้วย Java – คู่มือเต็ม Aspose.Words](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
+เรียนรู้วิธีสร้างไฟล์ PDF/UA ที่สอดคล้องกับมาตรฐานการเข้าถึงด้วย Aspose.Words for Java อย่างละเอียด
 
 ## คำถามที่พบบ่อย
 

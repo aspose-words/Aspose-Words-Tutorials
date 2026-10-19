@@ -177,6 +177,9 @@ Lär dig hur du fångar varningar för teckensnittssubstitution och identifierar
 ### [Registrera varningsåteruppringning i Java – Spåra saknade teckensnitt](./register-warning-callback-in-java-track-missing-fonts/)
 
 ### [Upptäck saknad teckensnittssubstitution i Java – Komplett Aspose.Words‑guide](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+### [Återställ korrupt docx med Aspose.Words – Komplett Java‑guide](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
+Lär dig hur du reparerar skadade DOCX‑filer med Aspose.Words i Java – en komplett guide.
+
 
 ## Vanliga frågor
 
