@@ -68,6 +68,7 @@ Ezekben az oktatóanyagokban megtanulod, hogyan használhatod a LoadOptions eszk
 | [Sérült Word fájl megnyitása C#-ban – Teljes útmutató](./open-corrupted-word-file-in-c-complete-guide/) | Ismerje meg, hogyan nyithat meg sérült Word fájlokat C#-ban az Aspose.Words for .NET segítségével, részletes lépésekkel. |
 | [Hogyan használjuk a LoadOptions-t a hiányzó betűtípusok észleléséhez](./how-to-use-loadoptions-to-detect-missing-fonts/) | Ismerje meg, hogyan észlelhet hiányzó betűtípusokat a LoadOptions használatával az Aspose.Words for .NET-ben. |
 | [Betűtípus helyettesítési figyelmeztetések engedélyezése C#-ban az Aspose.Words segítségével](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Tanulja meg, hogyan engedélyezheti a betűtípus helyettesítési figyelmeztetéseket C#-ban az Aspose.Words használatával. |
+| [Figyelmeztetés visszahívás regisztrálása az Aspose.Words-ben – Teljes programozási útmutató](./register-warning-callback-in-aspose-words-complete-programmi/) | Ismerje meg, hogyan regisztrálhat figyelmeztetés visszahívást az Aspose.Words-ben, részletes, lépésről lépésre útmutatóval. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

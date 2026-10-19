@@ -31,6 +31,8 @@ Traitement de texte avec MarkdownSaveOptions est une ressource approfondie qui v
 | [Dossier d'images personnalisé – Convertir Word en Markdown avec Aspose.Words](./custom-image-folder-convert-word-to-markdown-with-aspose-wor/) | Apprenez à définir un dossier d'images personnalisé lors de la conversion de documents Word en Markdown avec Aspose.Words pour .NET. |
 | [Comment convertir Word en Markdown en C# – Guide complet](./how-to-convert-word-to-markdown-in-c-complete-guide/) | Apprenez à convertir des documents Word en Markdown avec un guide complet en C#. |
 | [Convertir DOCX en Markdown – Guide complet C#](./convert-docx-to-markdown-in-c-complete-guide/) | Apprenez à convertir des fichiers DOCX en Markdown avec un guide complet en C#. |
+| [Enregistrer docx en markdown avec Aspose.Words – Guide complet C#](./save-docx-as-markdown-with-aspose-words-full-c-guide/) | Apprenez à enregistrer des fichiers DOCX en Markdown en utilisant Aspose.Words avec un guide complet en C#. |
+| [Convertir docx en markdown et enregistrer les images depuis docx](./convert-docx-to-markdown-save-images-from-docx/) | Apprenez à convertir des fichiers DOCX en Markdown tout en enregistrant les images extraites du document. |
 
 ### [Enregistrer Word en PDF et récupérer un Word corrompu – Convertir Word en Markdown – Convertir Word en Markdown en C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
@@ -213,6 +215,9 @@ Apprenez à convertir des fichiers DOCX en Markdown en C# grâce à un guide com
 ### [Enregistrer docx en markdown – Guide complet avec équations LaTeX](./save-docx-as-markdown-complete-guide-with-latex-equations/)
 
 ### [Dossier d'images personnalisé pour l'exportation Markdown avec images – Guide complet](./custom-image-folder-for-export-markdown-with-images-complete/)
+### [Récupérer un document Word avec Aspose.Words – Guide complet](./recover-word-document-with-aspose-words-full-guide/)
+
+Apprenez à récupérer un document Word corrompu et à le restaurer en utilisant Aspose.Words avec un guide complet en C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

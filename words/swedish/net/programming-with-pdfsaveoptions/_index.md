@@ -79,6 +79,7 @@ Oavsett om du vill konvertera Word-dokument till PDF för onlinedistribution, ar
 | [Spara dokument PDF med teckensnittssubstitution i C# – Komplett guide](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Lär dig hur du sparar ett Word-dokument som PDF med teckensnittssubstitution i C# med Aspose.Words för .NET. |
 | [Konvertera DOCX till PDF med Aspose.Words – Komplett programmeringsguide](./convert-docx-to-pdf-with-aspose-words-complete-programming-g/) | Lär dig hur du konverterar DOCX-filer till PDF med Aspose.Words i en komplett programmeringsguide. |
 | [Skapa tillgänglig PDF från DOCX – Komplett programmeringsguide](./create-accessible-pdf-from-docx-complete-programming-guide/) | Lär dig hur du skapar en tillgänglig PDF från ett DOCX-dokument med en komplett programmeringsguide i C#. |
+| [Konvertera Word till tillgänglig PDF med Aspose.Words – Komplett guide](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) | Lär dig hur du konverterar Word-dokument till tillgängliga PDF-filer med Aspose.Words i en komplett guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -79,6 +79,7 @@
 | [Тегировать PDF для доступности в C# – Полное руководство](./tag-pdf-for-accessibility-in-c-complete-guide/) | Узнайте, как добавить теги доступности в PDF с помощью Aspose.Words для .NET на C# в полном руководстве. |
 | [Сохранить документ PDF с заменой шрифтов в C# – Полное руководство](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Узнайте, как сохранить PDF с заменой шрифтов в C# с помощью Aspose.Words, следуя полному руководству. |
 | [Создать доступный PDF из Word с помощью Aspose.Words](./create-accessible-pdf-from-word-using-aspose-words/) | Узнайте, как создать доступный PDF из документа Word с помощью Aspose.Words для .NET, следуя пошаговому руководству. |
+| [Конвертировать Word в доступный PDF с Aspose.Words – Полное руководство](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) | Узнайте, как полностью преобразовать документы Word в доступные PDF с помощью Aspose.Words для .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

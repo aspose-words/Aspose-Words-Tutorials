@@ -68,6 +68,7 @@ I dessa handledningar lär du dig hur du använder LoadOptions för att läsa in
 | [Reparera skadad docx med Aspose.Words – Komplett C#-guide](./repair-damaged-docx-with-aspose-words-complete-c-guide/) | Lär dig hur du reparerar skadade docx-filer med Aspose.Words i C# genom en komplett steg-för-steg-guide. |
 | [Återställ korrupt docx med Aspose.Words – Komplett steg‑för‑steg‑guide](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Lär dig hur du återställer skadade docx-filer med Aspose.Words i en komplett steg‑för‑steg‑guide. |
 | [Aktivera varningar för teckensnittssubstitution i C# med Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Lär dig hur du aktiverar varningar för teckensnittssubstitution i C# med Aspose.Words för att undvika oväntade teckensnitt. |
+| [Registrera varningsåteruppringning i Aspose.Words – Komplett programmeringsguide](./register-warning-callback-in-aspose-words-complete-programmi/) | Lär dig hur du registrerar en varningsåteruppringning i Aspose.Words med en komplett programmeringsguide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -100,6 +100,11 @@ Kompletny przewodnik C# pokazujący, jak wyeksportować równania LaTeX z dokume
 Kompletny przewodnik C# pokazujący, jak konwertować pliki DOCX do formatu Markdown przy użyciu Aspose.Words.
 ### [Niestandardowy folder obrazów dla eksportu Markdown z obrazami – Kompletny przewodnik](./custom-image-folder-for-export-markdown-with-images-complete/)
 Dowiedz się, jak ustawić własny folder dla obrazów podczas eksportu dokumentów Word do formatu Markdown przy użyciu Aspose.Words.
+### [Konwertuj docx do markdown i zapisz obrazy z docx](./convert-docx-to-markdown-save-images-from-docx/)
+Konwertuj pliki DOCX do formatu Markdown, jednocześnie wyodrębniając i zapisując obrazy przy użyciu Aspose.Words dla .NET.
+
+### [Odzyskaj dokument Word przy użyciu Aspose.Words – Pełny przewodnik](./recover-word-document-with-aspose-words-full-guide/)
+Kompletny przewodnik C# pokazujący, jak odzyskać uszkodzony dokument Word przy użyciu Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

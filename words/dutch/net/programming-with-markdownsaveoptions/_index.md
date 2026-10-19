@@ -236,6 +236,10 @@ Leer hoe u DOCX-bestanden opslaat als Markdown met een volledige stap‑voor‑s
 Leer stap voor stap hoe u Docx-bestanden converteert naar Markdown met C# en Aspose.Words in deze volledige programmeergids.
 ### [Aangepaste afbeeldingsmap voor exporteren naar Markdown met afbeeldingen – Volledige gids](./custom-image-folder-for-export-markdown-with-images-complete/)
 Leer hoe u een aangepaste map voor afbeeldingen instelt bij het exporteren van Word naar Markdown met Aspose.Words voor .NET.
+### [Docx naar markdown converteren en afbeeldingen opslaan vanuit docx](./convert-docx-to-markdown-save-images-from-docx/)
+
+### [Herstel Word-document met Aspose.Words – Volledige gids](./recover-word-document-with-aspose-words-full-guide/)
+Leer hoe u beschadigde Word-documenten herstelt met Aspose.Words in een volledige stap‑voor‑stap C#‑handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

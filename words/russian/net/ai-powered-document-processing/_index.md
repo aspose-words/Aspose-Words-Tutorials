@@ -65,6 +65,7 @@
 | [Как проверить грамматику в C# с Aspose.Words — Руководство](./how-to-check-grammar-in-c-with-aspose-words-guide/) | Узнайте, как использовать Aspose.Words для .NET для проверки грамматики в C# и улучшения качества документов. |
 | [Как использовать Summarize в Aspose.Words — Полное руководство](./how-to-use-summarize-in-aspose-words-complete-guide/) | Узнайте, как применять функцию Summarize в Aspose.Words для .NET, чтобы быстро создавать резюме документов. |
 | [Переписать абзац с ИИ в C# – Как настроить локальную LLM](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) | Узнайте, как использовать локальную LLM для переписывания абзацев в C# с помощью Aspose.Words. |
+| [Как проверить грамматику с помощью Aspose.Words AI – Полное руководство](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | Узнайте, как использовать AI Aspose.Words для автоматической проверки грамматики в документах Word. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

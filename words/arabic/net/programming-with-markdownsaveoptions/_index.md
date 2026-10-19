@@ -162,6 +162,9 @@
 ### [حفظ docx كـ markdown – دليل كامل مع معادلات LaTeX](./save-docx-as-markdown-complete-guide-with-latex-equations/)
 
 ### [مجلد صور مخصص لتصدير Markdown مع الصور – دليل كامل](./custom-image-folder-for-export-markdown-with-images-complete/)
+### [تحويل docx إلى markdown وحفظ الصور من docx](./convert-docx-to-markdown-save-images-from-docx/)
+
+### [استعادة مستند Word باستخدام Aspose.Words – دليل كامل](./recover-word-document-with-aspose-words-full-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

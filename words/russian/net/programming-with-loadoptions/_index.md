@@ -69,6 +69,7 @@
 | [Восстановление повреждённого docx с Aspose.Words – Полное руководство C#](./repair-damaged-docx-with-aspose-words-complete-c-guide/) | Узнайте, как полностью восстановить повреждённый файл DOCX с помощью Aspose.Words в C#. |
 | [Восстановление повреждённого DOCX с Aspose.Words – Полное пошаговое руководство](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Подробное пошаговое руководство по восстановлению повреждённого файла DOCX с помощью Aspose.Words для .NET. |
 | [Включить предупреждения о замене шрифтов в C# с Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Узнайте, как включить предупреждения о замене шрифтов при работе с документами Word в C# с помощью Aspose.Words. |
+| [Регистрация обратного вызова предупреждения в Aspose.Words – Полное руководство по программированию](./register-warning-callback-in-aspose-words-complete-programmi/) | Узнайте, как зарегистрировать обратный вызов предупреждения в Aspose.Words с помощью полного руководства по программированию. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

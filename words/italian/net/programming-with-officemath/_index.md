@@ -34,6 +34,7 @@ tutorial di Aspose.Words per .NET sull'elaborazione testi con OfficeMath vi guid
 | [Come esportare LaTeX da Word – Guida completa di programmazione](./how-to-export-latex-from-word-complete-programming-guide/) | Scopri come esportare contenuti LaTeX da documenti Word usando Aspose.Words per .NET con esempi di codice completi. |
 
 | [Come convertire le equazioni in Word in LaTeX – Salva come TXT](./how-to-convert-equations-in-word-to-latex-save-as-txt/) | Scopri come trasformare le equazioni di Word in LaTeX e salvarle come file TXT usando Aspose.Words per .NET. |
+| [Converti le equazioni Word in LaTeX – Guida completa C#](./convert-word-equations-to-latex-complete-c-guide/) | Scopri come convertire le equazioni Word in LaTeX con una guida completa in C# utilizzando Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

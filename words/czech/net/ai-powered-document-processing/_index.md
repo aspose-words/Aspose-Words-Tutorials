@@ -63,6 +63,7 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | [Jak používat Summarize v Aspose.Words – Kompletní průvodce](./how-to-use-summarize-in-aspose-words-complete-guide/) | Kompletní návod, jak využít funkci Summarize v Aspose.Words pro .NET k automatickému shrnutí dokumentů. |
 | [Jak zkontrolovat gramatiku v C# pomocí Aspose.Words – Průvodce](./how-to-check-grammar-in-c-with-aspose-words-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET kontrolovat gramatiku v C# a automatizovat opravy textu. |
 | [Přepsání odstavce pomocí AI v C# – Jak nakonfigurovat lokální LLM](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) | Naučte se, jak pomocí lokálního LLM přepsat odstavec v C# s Aspose.Words a AI. |
+| [Jak zkontrolovat gramatiku pomocí Aspose.Words AI – Kompletní průvodce](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | Naučte se, jak pomocí Aspose.Words AI automaticky kontrolovat gramatiku v dokumentech Word a zlepšit tak kvalitu textu. |
 
 | [Shrnutí Word dokumentu v C# pomocí vlastního modelu GPT – Kompletní průvodce](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Naučte se, jak pomocí vlastního modelu GPT v C# automaticky shrnout Word dokumenty s Aspose.Words. |
 {{< /blocks/products/pf/tutorial-page-section >}}

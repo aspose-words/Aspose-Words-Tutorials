@@ -82,6 +82,7 @@
 | [Converti docx in markdown con C# – Guida completa](./convert-docx-to-markdown-with-c-complete-guide/) | Scopri come convertire file DOCX in Markdown con C# grazie a una guida completa passo‑passo. |
 
 | [Salva DOCX come Markdown con Aspose.Words – Guida completa passo‑passo](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/) | Impara a convertire file DOCX in Markdown con Aspose.Words seguendo una guida completa passo‑passo in C#. |
+| [Converti docx in markdown e salva le immagini da docx](./convert-docx-to-markdown-save-images-from-docx/) | Converti file DOCX in Markdown e salva le immagini estratte con Aspose.Words per .NET. |
 | [Come esportare LaTeX da Word: Converti DOCX in Markdown con Aspose](./how-to-export-latex-from-word-convert-docx-to-markdown-with/) | Scopri come esportare equazioni LaTeX da documenti Word convertendoli in Markdown con Aspose.Words per .NET. |
 | [Converti Word in Markdown – Incorpora immagini come Base64](./convert-word-to-markdown-embed-images-as-base64/) | Converti documenti Word in Markdown incorporando le immagini direttamente come stringhe Base64 per un output autonomo. |
 | [Come esportare LaTeX: Converti DOCX in Markdown e TXT](./how-to-export-latex-convert-docx-to-markdown-txt/) | Scopri come convertire file DOCX in Markdown e TXT mantenendo le equazioni LaTeX con Aspose.Words per .NET. |
@@ -101,6 +102,7 @@
 | [Salva Word come Markdown – Guida completa con Aspose.Words](./save-word-as-markdown-complete-guide-with-aspose-words/) | Scopri come convertire documenti Word in Markdown con una guida completa usando Aspose.Words per .NET. |
 | [Converti Docx in Markdown con C# – Guida completa di programmazione](./convert-docx-to-markdown-with-c-complete-programming-guide/) | Scopri come convertire file DOCX in Markdown usando C# con una guida completa passo‑passo. |
 | [Cartella immagine personalizzata per l'esportazione Markdown con immagini – Guida completa](./custom-image-folder-for-export-markdown-with-images-complete/) | Imposta una cartella personalizzata per salvare le immagini durante l'esportazione in Markdown con Aspose.Words per .NET. |
+| [Recupera documento Word con Aspose.Words – Guida completa](./recover-word-document-with-aspose-words-full-guide/) | Scopri come recuperare documenti Word danneggiati usando Aspose.Words con una guida completa passo‑passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -99,6 +99,8 @@
 | [Μετατροπή Word σε Markdown – Πλήρης Οδηγός με Εξαγωγή Εικόνων](./convert-word-to-markdown-complete-guide-with-image-extractio/) | Μάθετε πώς να μετατρέψετε έγγραφα Word σε Markdown με πλήρη οδηγό C# και εξαγωγή εικόνων. |
 | [Αποθήκευση docx ως markdown – Πλήρης Οδηγός με Εξισώσεις LaTeX](./save-docx-as-markdown-complete-guide-with-latex-equations/) | Μάθετε πώς να αποθηκεύσετε αρχεία docx ως markdown με πλήρη οδηγό C# και υποστήριξη εξισώσεων LaTeX. |
 | [Προσαρμοσμένος φάκελος εικόνων για εξαγωγή markdown με εικόνες – Πλήρης Οδηγός](./custom-image-folder-for-export-markdown-with-images-complete/) | Μάθετε πώς να ορίσετε προσαρμοσμένο φάκελο για αποθήκευση εικόνων κατά την εξαγωγή σε Markdown με Aspose.Words για .NET. |
+| [Μετατροπή docx σε markdown & αποθήκευση εικόνων από docx](./convert-docx-to-markdown-save-images-from-docx/) | Μάθετε πώς να μετατρέψετε αρχεία docx σε markdown και να εξάγετε τις εικόνες σε ξεχωριστό φάκελο. |
+| [Ανάκτηση εγγράφου Word με Aspose.Words – Πλήρης Οδηγός](./recover-word-document-with-aspose-words-full-guide/) | Μάθετε πώς να ανακτήσετε κατεστραμμένα έγγραφα Word χρησιμοποιώντας το Aspose.Words με πλήρη οδηγό βήμα‑βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

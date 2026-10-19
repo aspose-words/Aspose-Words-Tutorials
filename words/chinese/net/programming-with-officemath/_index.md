@@ -34,6 +34,7 @@ Aspose.Words for .NET 教程“使用 OfficeMath 进行文字处理”将指导�
 | [将 DOCX 转换为 TXT – 使用 C# 将 Word 方程式导出为 LaTeX](./convert-docx-to-txt-export-word-equations-to-latex-in-c/) 了解如何使用 C# 将 DOCX 文件转换为 TXT，并将其中的 Word 方程式导出为 LaTeX。|
 | [将 Word 数学导出为 LaTeX – 完整指南](./how-to-export-math-from-word-to-latex-complete-guide/) 了解如何使用 Aspose.Words for .NET 将 Word 文档中的数学公式完整导出为 LaTeX 格式的详细步骤。|
 | [如何从 Word 导出 LaTeX – 完整编程指南](./how-to-export-latex-from-word-complete-programming-guide/) 了解如何使用 Aspose.Words for .NET 将 Word 文档中的数学公式导出为 LaTeX，并提供完整的编程示例。|
+| [将 Word 方程式转换为 LaTeX – 完整 C# 指南](./convert-word-equations-to-latex-complete-c-guide/) 了解如何使用 C# 将 Word 文档中的数学公式完整转换为 LaTeX 格式的详细指南。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

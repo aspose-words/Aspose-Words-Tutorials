@@ -69,6 +69,7 @@ Aspose.Words for .NET 튜토리얼에서는 PDFSaveOptions를 사용한 워드 �
 | [Aspose.Words를 사용하여 Word에서 접근 가능한 PDF 만들기](./create-accessible-pdf-from-word-using-aspose-words/) | Aspose.Words를 사용해 Word 문서를 접근 가능한 PDF로 변환하는 단계별 가이드입니다. |
 | [DOCX에서 접근 가능한 PDF 만들기 – 완전 프로그래밍 가이드](./create-accessible-pdf-from-docx-complete-programming-guide/) | Aspose.Words for .NET을 사용하여 DOCX를 접근 가능한 PDF로 변환하는 전체 단계별 프로그래밍 가이드 |
 | [Aspose.Words를 사용하여 DOCX를 PDF로 변환 – 완전 프로그래밍 가이드](./convert-docx-to-pdf-with-aspose-words-complete-programming-g/) | Aspose.Words와 C#을 활용해 DOCX 파일을 PDF로 변환하는 전체 단계별 프로그래밍 가이드 |
+| [Aspose.Words를 사용하여 Word를 접근 가능한 PDF로 변환 – 완전 가이드](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) | Aspose.Words와 C#을 활용해 Word 문서를 접근성 PDF로 변환하는 전체 단계별 가이드를 확인하세요. |
 
 | [Aspose를 사용하여 Word에서 접근성 PDF 만들기 – 단계별 가이드](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) | Aspose.Words for .NET을 활용해 Word 문서를 접근성 PDF로 변환하는 방법을 단계별로 안내합니다. |
 | [C#을 사용하여 Word에서 PDF UA 만들기 – 단계별 가이드](./create-pdf-ua-from-word-in-c-step-by-step-guide/) | Aspose.Words for .NET을 활용해 C# 코드로 Word 문서를 PDF UA 형식으로 변환하는 방법을 단계별로 안내합니다. |

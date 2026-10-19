@@ -67,6 +67,7 @@ Aspose.Words for .NET チュートリアルは、LoadOptions を用いた Words 
 | [Aspose.Words で破損した docx を修復する – 完全 C# ガイド](./repair-damaged-docx-with-aspose-words-complete-c-guide/) Aspose.Words for .NET を使用し、C# で破損した docx ファイルを完全に修復する手順をステップバイステップで解説します。 |
 | [Aspose.Words で破損した docx を復元する – 完全ステップバイステップガイド](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) Aspose.Words for .NET を使用して、破損した docx ファイルを完全に復元する手順をステップバイステップで解説します。 |
 | [C# でフォント置換警告を有効にする（Aspose.Words 使用）](./enable-font-substitution-warnings-in-c-with-aspose-words/) Aspose.Words for .NET を使用して、C# でフォント置換時の警告を有効にし、欠落フォントを検出する方法をステップバイステップで解説します。 |
+| [Aspose.Words で警告コールバックを登録する – 完全プログラミングガイド](./register-warning-callback-in-aspose-words-complete-programmi/) Aspose.Words for .NET を使用して、警告コールバックを登録し、文書処理中の警告をキャッチして処理する方法をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

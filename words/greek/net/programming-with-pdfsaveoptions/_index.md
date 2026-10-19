@@ -79,6 +79,7 @@
 | [Δημιουργία προσβάσιμου PDF από Word χρησιμοποιώντας Aspose.Words](./create-accessible-pdf-from-word-using-aspose-words/) | Μάθετε πώς να δημιουργήσετε προσβάσιμα PDF από έγγραφα Word με το Aspose.Words για .NET, ακολουθώντας βήμα‑βήμα οδηγίες. |
 | [Μετατροπή DOCX σε PDF με Aspose.Words – Πλήρης Οδηγός Προγραμματισμού](./convert-docx-to-pdf-with-aspose-words-complete-programming-g/) | Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF με το Aspose.Words ακολουθώντας έναν πλήρη προγραμματιστικό οδηγό. |
 | [Δημιουργία προσβάσιμου PDF από DOCX – Πλήρης Οδηγός Προγραμματισμού](./create-accessible-pdf-from-docx-complete-programming-guide/) | Μάθετε πώς να μετατρέψετε αρχεία DOCX σε προσβάσιμα PDF με πλήρη προγραμματιστική καθοδήγηση σε C#. |
+| [Μετατροπή Word σε Προσβάσιμο PDF με Aspose.Words – Πλήρης Οδηγός](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) | Μάθετε πώς να μετατρέψετε έγγραφα Word σε προσβάσιμα PDF ακολουθώντας έναν πλήρη οδηγό με Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

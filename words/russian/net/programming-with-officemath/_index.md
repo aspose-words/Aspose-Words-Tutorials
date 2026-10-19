@@ -34,6 +34,7 @@
 | [Как экспортировать математику из Word в LaTeX – Полное руководство](./how-to-export-math-from-word-to-latex-complete-guide/) | Узнайте, как экспортировать математические уравнения из Word в LaTeX с помощью Aspose.Words для .NET. |
 | [Как экспортировать LaTeX из Word – Полное руководство по программированию](./how-to-export-latex-from-word-complete-programming-guide/) | Узнайте, как экспортировать формулы LaTeX из документов Word с помощью Aspose.Words для .NET, используя C#. |
 
+| [Конвертировать уравнения Word в LaTeX – Полное руководство C#](./convert-word-equations-to-latex-complete-c-guide/) | Полное руководство по конвертации уравнений Word в LaTeX с использованием C# и Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

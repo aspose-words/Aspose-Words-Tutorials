@@ -69,6 +69,7 @@
 | [Ανάκτηση Κατεστραμμένου Εγγράφου σε C# – Ορισμός Λειτουργίας Ανάκτησης & Ειδοποίηση Χρήστη](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | Μάθετε πώς να ανακτήσετε κατεστραμμένα έγγραφα Word σε C# ορίζοντας λειτουργία ανάκτησης και εμφανίζοντας προτροπή στον χρήστη. |
 | [Ανάκτηση κατεστραμμένου docx με Aspose.Words – Πλήρης Οδηγός Βήμα‑βήμα](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Μάθετε πώς να ανακτήσετε κατεστραμμένα αρχεία docx χρησιμοποιώντας Aspose.Words με πλήρη βήμα‑βήμα οδηγία. |
 | [Ενεργοποίηση προειδοποιήσεων αντικατάστασης γραμματοσειράς σε C# με Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Μάθετε πώς να ενεργοποιήσετε προειδοποιήσεις όταν γίνεται αντικατάσταση γραμματοσειρών σε έγγραφα Word χρησιμοποιώντας C# και Aspose.Words. |
+| [Καταχώρηση Callback Προειδοποίησης στο Aspose.Words – Πλήρης Οδηγός Προγραμματισμού](./register-warning-callback-in-aspose-words-complete-programmi/) | Μάθετε πώς να καταχωρήσετε callback προειδοποίησης στο Aspose.Words για έλεγχο σφαλμάτων κατά τη φόρτωση εγγράφων. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

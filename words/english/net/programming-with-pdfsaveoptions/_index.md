@@ -81,6 +81,7 @@ Whether you want to convert Word documents to PDF for online distribution, archi
 | [Create Accessible PDF with Aspose.Words – Complete Guide](./create-accessible-pdf-with-aspose-words-complete-guide/) | Comprehensive guide to creating accessible PDFs with Aspose.Words for .NET, covering tags, alt text, and PDF/UA compliance. |
 | [Convert DOCX to PDF with Aspose.Words – Complete Programming Guide](./convert-docx-to-pdf-with-aspose-words-complete-programming-g/) | Comprehensive guide to converting DOCX to PDF using Aspose.Words for .NET with detailed code examples. |
 | [Create Accessible PDF from DOCX – Complete Programming Guide](./create-accessible-pdf-from-docx-complete-programming-guide/) | Learn how to generate accessible PDFs from DOCX files using Aspose.Words for .NET in this complete programming guide. |
+| [Convert Word to Accessible PDF with Aspose.Words – Complete Guide](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) | Learn how to convert Word documents to accessible PDFs using Aspose.Words with a complete step‑by‑step guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
