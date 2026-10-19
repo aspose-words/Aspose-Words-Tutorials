@@ -80,6 +80,7 @@ Che tu voglia convertire documenti Word in PDF per la distribuzione online, l'ar
 | [Crea PDF accessibile da Word utilizzando Aspose.Words](./create-accessible-pdf-from-word-using-aspose-words/) | Scopri come generare PDF accessibili da documenti Word usando Aspose.Words per .NET, includendo tag di accessibilità e impostazioni di conformità. |
 | [Crea PDF accessibile da DOCX – Guida completa di programmazione](./create-accessible-pdf-from-docx-complete-programming-guide/) | Guida completa per generare PDF accessibili da file DOCX usando Aspose.Words per .NET con esempi di codice. |
 | [Converti Word in PDF accessibile con Aspose.Words – Guida completa](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) | Scopri come convertire documenti Word in PDF accessibili con Aspose.Words per .NET, includendo tag di accessibilità e best practice. |
+| [Come salvare PDF da DOCX con Aspose.Words – Guida passo‑passo](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) | Scopri come convertire un documento DOCX in PDF usando Aspose.Words con istruzioni dettagliate passo‑passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

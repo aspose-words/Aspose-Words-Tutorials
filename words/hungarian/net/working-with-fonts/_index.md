@@ -74,6 +74,8 @@ Akár különböző betűtípusokkal szeretné formázni a szöveget, betűtípu
 | [Hiányzó betűtípusok kezelése az Aspose.Words-ben – Teljes C# útmutató](./handle-missing-fonts-in-aspose-words-complete-c-guide/) | Tanulja meg, hogyan kezelje a hiányzó betűtípusokat az Aspose.Words for .NET-ben egy részletes, lépésről lépésre C# útmutatóval. |
 | [Betűkészletek észlelése C#-ban – Callback használata az Aspose.Words-szal](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | Tanulja meg, hogyan észlelhet betűtípusokat C#-ban az Aspose.Words callback funkciójával lépésről lépésre. |
 | [Word dokumentum mentése – Hiányzó betűtípusok észlelése az Aspose.Words segítségével](./save-word-document-detect-missing-fonts-with-aspose-words/) | Tanulja meg, hogyan menthet Word dokumentumot, miközben az Aspose.Words for .NET segítségével észleli a hiányzó betűtípusokat. |
+| [Aspose betűtípus helyettesítés – Hogyan konfigurálja a betűtípus beállításokat C#-ban](./aspose-font-substitution-how-to-configure-font-settings-in-c/) | Ismerje meg, hogyan konfigurálhatja a betűtípus beállításokat C#-ban az Aspose.Words for .NET használatával. |
+ 
 
 | [FontSettings használata a hiányzó betűtípusok kezeléséhez az Aspose.Words-ben](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | Ismerje meg, hogyan kezelheti a hiányzó betűtípusokat a FontSettings segítségével az Aspose.Words for .NET-ben. |
 | [Figyelmeztető visszahívás létrehozása Word dokumentumok betöltéséhez – Teljes útmutató](./create-warning-callback-for-loading-word-documents-complete/) | Ismerje meg, hogyan hozhat létre figyelmeztető visszahívást a Word dokumentumok betöltésekor az Aspose.Words for .NET használatával. |

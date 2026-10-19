@@ -57,6 +57,7 @@ Používáním Aspose.Words pro .NET a podle těchto tutoriálů zvládnete mani
 | [Jak přidat stín k tvarům ve Wordu v C# – kompletní průvodce](./how-to-add-shadow-to-word-shapes-in-c-complete-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET v C# přidat stín k tvarům ve Wordu krok za krokem. |
 | [Jak přidat stín do Wordu – Kompletní průvodce pro tvary](./how-to-add-shadow-word-complete-guide-for-shapes/) | Naučte se, jak pomocí Aspose.Words pro .NET přidat stín k tvarům ve Wordu v jazyce C#. |
 | [Přidání stínu do tvaru v dokumentech Word – kompletní průvodce C#](./add-shadow-to-shape-in-word-documents-complete-c-guide/) | Naučte se, jak přidat stín k tvaru ve Wordu pomocí Aspose.Words pro .NET v jazyce C#. |
+| [Vytvořit Word dokument v C# – Přidat tvar se stínem](./create-word-document-c-add-shape-with-shadow/) | Naučte se, jak pomocí Aspose.Words pro .NET v C# přidat tvar se stínem do Word dokumentu. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

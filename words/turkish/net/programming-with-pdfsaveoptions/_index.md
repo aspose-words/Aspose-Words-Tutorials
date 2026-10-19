@@ -77,6 +77,7 @@ Görüntü kalitesi seçeneklerini ayarlamayı, görüntüler için sıkıştır
 | [C# ile Word'den PDF Oluşturma – Tam Kılavuz](./how-to-create-pdf-from-word-in-c-complete-guide/) | C# kullanarak Aspose.Words for .NET ile Word belgelerinden yüksek kaliteli PDF dosyaları oluşturmayı adım adım öğrenin. |
 | [C#'ta Word'ü PDF Olarak Kaydet – Şekil Dışa Aktarımlı DOCX'ten PDF'ye Tam Kılavuz](./save-word-as-pdf-in-c-full-guide-to-convert-docx-to-pdf-with/) | Aspose.Words for .NET kullanarak C# ile DOCX dosyalarını şekil dışa aktarımıyla PDF'ye dönüştürmeyi adım adım öğrenin. |
 | [Word'den Erişilebilir PDF Oluşturma – Adım Adım Kılavuz](./create-accessible-pdf-from-word-step-by-step-guide/) | Aspose.Words for .NET kullanarak Word belgesinden erişilebilir PDF oluşturmayı adım adım öğrenin. |
+| [Aspose.Words ile DOCX'den PDF Kaydetme – Adım Adım Kılavuz](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) | Aspose.Words kullanarak DOCX dosyasını PDF olarak kaydetmeyi adım adım öğrenin. |
 
 | [C#'ta DOCX'i PDF Olarak Kaydet – Tam Aspose.Words Kılavuzu](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) | Aspose.Words for .NET kullanarak C# ile DOCX dosyalarını PDF'ye dönüştürmeyi adım adım öğrenin. |
 | [C#'ta PDF Seçeneklerini Ayarlama – Word'ü PDF'ye Dönüştürme](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | Aspose.Words for .NET kullanarak C# ile PDF seçeneklerini ayarlayıp Word belgelerini PDF'ye dönüştürmeyi öğrenin. |

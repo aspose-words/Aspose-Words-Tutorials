@@ -58,6 +58,7 @@ Aspose.Words for .NET을 사용하고 이 튜토리얼을 따라 하면 Word 문
 | [그림자 워드 추가 방법 – 도형을 위한 완전 가이드](./how-to-add-shadow-word-complete-guide-for-shapes/) | Aspose.Words for .NET을 사용하여 Word 도형에 그림자를 추가하는 단계별 가이드를 제공합니다. |
 | [Aspose.Words를 사용하여 Word에서 도형에 그림자 추가 – 완전 가이드](./add-shadow-to-shape-in-word-with-aspose-words-complete-guide/) | Aspose.Words를 사용해 Word 도형에 그림자를 적용하는 방법을 단계별로 안내합니다. |
 | [Word 문서에서 도형에 그림자 추가 – 완전한 C# 가이드](./add-shadow-to-shape-in-word-documents-complete-c-guide/) | Aspose.Words for .NET을 사용하여 C# 코드로 Word 도형에 그림자를 적용하는 방법을 단계별로 안내합니다. |
+| [C#으로 Word 문서 만들기 – 그림자 있는 도형 추가](./create-word-document-c-add-shape-with-shadow/) | Aspose.Words for .NET을 사용하여 그림자가 적용된 도형을 Word 문서에 추가하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

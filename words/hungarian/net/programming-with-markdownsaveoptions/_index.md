@@ -45,10 +45,12 @@ Ismerje meg, hogyan konvertálhat DOCX fájlokat Markdownba C#‑ban az Aspose.W
 ### [Hogyan használjuk az Aspose – DOCX konvertálása Markdownba LaTeX egyenletekkel](./how-to-use-aspose-convert-docx-to-markdown-with-latex-equati/)
 ### [Word konvertálása Markdownba – Képek kinyerése C#-ban](./convert-word-to-markdown-extract-images-in-c/)
 ### [LaTeX exportálása Word‑ből – DOCX konvertálása Markdownba és TXT‑be](./how-to-export-latex-from-word-convert-docx-to-markdown-txt/)
+### [Hogyan exportáljunk LaTeX‑et Word‑ből – DOCX konvertálása Markdownba](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+### [Hogyan exportáljunk LaTeX‑et DOCX‑ből – Konvertálás Markdownba](./how-to-export-latex-from-docx-convert-to-markdown/)
+Ismerje meg, hogyan exportálhat LaTeX‑et DOCX fájlokból és konvertálhatja őket Markdown formátumba az Aspose.Words for .NET segítségével.
 ### [DOCX mentése Markdownba – Teljes C# útmutató képek kinyerésével](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
 ### [Hogyan ágyazzunk be képeket a Markdownba DOCX-ből](./how-to-embed-images-in-markdown-from-docx/)
 Ismerje meg, hogyan ágyazhat be képeket a DOCX dokumentumból a Markdown formátumba az Aspose.Words for .NET segítségével.
-### [Hogyan exportáljunk LaTeX-et Wordből – DOCX konvertálása Markdownba](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 ### [Word konvertálása Markdownba – Teljes útmutató képek kinyerésével](./convert-word-to-markdown-complete-guide-with-image-extractio/)
 ### [Hogyan exportáljunk LaTeX-et: DOCX konvertálása Markdownba és TXT-be](./how-to-export-latex-convert-docx-to-markdown-txt/)
 ### [DOCX konvertálása Markdownba C#‑vel – Teljes útmutató](./convert-docx-to-markdown-with-c-complete-guide/)
@@ -154,6 +156,8 @@ Ismerje meg, hogyan menthet Word dokumentumokat Markdown formátumba részletes 
 Ismerje meg, hogyan állíthat be egyéni képmappát a Markdownba exportálás során, hogy a képek megfelelően kerüljenek mentésre.
 ### [Word dokumentum helyreállítása Aspose.Words segítségével – Teljes útmutató](./recover-word-document-with-aspose-words-full-guide/)
 Ismerje meg, hogyan állíthatja helyre a sérült Word dokumentumokat az Aspose.Words teljes útmutatója alapján.
+### [Markdown létrehozása Word‑ből – Teljes C# útmutató](./create-markdown-from-word-full-c-guide/)
+Lépésről‑lépésre bemutatjuk, hogyan hozhat létre Markdown fájlokat Word dokumentumokból C#‑ban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

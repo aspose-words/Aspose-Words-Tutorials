@@ -67,6 +67,7 @@ Grundläggande konverteringar guidar dig genom grundläggande dokumentkonverteri
 | [Konvertera DOCX till TXT – Komplett C#-guide för LaTeX‑ekvationer](./convert-docx-to-txt-complete-c-guide-for-latex-equations/) | Lär dig hur du konverterar DOCX till TXT och bevarar LaTeX‑ekvationer med Aspose.Words för .NET i en komplett C#‑guide. |
 | [Spara docx som PDF med Aspose.Words – Komplett steg‑för‑steg‑guide](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/) | Lär dig hur du sparar DOCX som PDF med Aspose.Words i en komplett steg‑för‑steg‑guide med kodexempel. |
 | [Hur man använder Mail Merge och konverterar DOCX till PDF i C# – Komplett Aspose‑guide](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | Lär dig att kombinera mail merge och konvertera DOCX till PDF i C# med en komplett Aspose‑guide. |
+| [Konvertera Word till PDF med Aspose.Words – Komplett guide](./convert-word-to-pdf-with-aspose-words-complete-guide/) | Lär dig hur du konverterar Word-dokument till PDF med Aspose.Words i en komplett steg‑för‑steg‑guide med kodexempel. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

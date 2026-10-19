@@ -67,6 +67,7 @@ Az Alapvető konverziók című útmutató végigvezeti Önt az Aspose.Words for
 | [DOCX konvertálása TXT-be – Teljes C# útmutató LaTeX egyenletekhez](./convert-docx-to-txt-complete-c-guide-for-latex-equations/) | Tanulja meg, hogyan konvertálhat DOCX fájlokat TXT formátumba C#-ban, miközben megőrzi a LaTeX egyenleteket. |
 | [Docx mentése PDF-be az Aspose.Words segítségével – Teljes lépésről‑lépésre útmutató](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/) | Tanulja meg, hogyan menthet DOCX fájlokat PDF-be az Aspose.Words segítségével lépésről‑lépésre, részletes útmutatóval. |
 | [Mail Merge és DOCX PDF-be konvertálása C#-ban – Teljes Aspose útmutató](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | Tanulja meg, hogyan használja a mail merge-t, és konvertálja a DOCX fájlokat PDF-be C#-ban az Aspose.Words segítségével. |
+| [Word konvertálása PDF-be az Aspose.Words – Teljes útmutató](./convert-word-to-pdf-with-aspose-words-complete-guide/) | Tanulja meg, hogyan konvertálhat Word dokumentumokat PDF-be az Aspose.Words használatával, részletes lépésekkel. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

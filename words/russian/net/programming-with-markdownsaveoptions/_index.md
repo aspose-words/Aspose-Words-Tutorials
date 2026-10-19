@@ -102,6 +102,8 @@
 | [Сохранить docx как markdown – Полное руководство с уравнениями LaTeX](./save-docx-as-markdown-complete-guide-with-latex-equations/) | Полное руководство по сохранению DOCX в Markdown с поддержкой уравнений LaTeX на C#. |
 | [Конвертировать docx в markdown и сохранять изображения из docx](./convert-docx-to-markdown-save-images-from-docx/) | Конвертируйте документы DOCX в Markdown и сохраняйте изображения из исходного файла с помощью Aspose.Words для .NET. |
 | [Восстановить документ Word с Aspose.Words – Полное руководство](./recover-word-document-with-aspose-words-full-guide/) | Восстановите повреждённый документ Word и конвертируйте его в другие форматы с помощью Aspose.Words. |
+| [Создать markdown из Word – Полное руководство C#](./create-markdown-from-word-full-c-guide/) | Полное руководство по созданию Markdown из Word с помощью C# и Aspose.Words. |
+| [Как экспортировать LaTeX из DOCX – Конвертировать в Markdown](./how-to-export-latex-from-docx-convert-to-markdown/) | Экспортируйте LaTeX из DOCX в формат Markdown с помощью Aspose.Words для .NET. Подробное руководство по конвертации. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -80,6 +80,7 @@
 - [สร้าง PDF ที่เข้าถึงได้ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์](./create-accessible-pdf-with-aspose-words-complete-guide/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้ตามมาตรฐาน WCAG ด้วย Aspose.Words สำหรับ .NET ผ่านขั้นตอนละเอียดในคู่มือฉบับสมบูรณ์นี้
 - [สร้าง PDF ที่เข้าถึงได้จาก Word ด้วย Aspose.Words](./create-accessible-pdf-from-word-using-aspose-words/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากไฟล์ Word ด้วย Aspose.Words สำหรับ .NET ผ่านขั้นตอนละเอียด
 - [แปลง Word เป็น PDF ที่เข้าถึงได้ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) | เรียนรู้วิธีแปลงไฟล์ Word เป็น PDF ที่เข้าถึงได้ตามมาตรฐาน WCAG ด้วย Aspose.Words อย่างละเอียด
+- [วิธีบันทึก PDF จาก DOCX ด้วย Aspose.Words – คู่มือทีละขั้นตอน](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) | เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF อย่างละเอียดด้วย Aspose.Words ผ่านขั้นตอนง่าย ๆ |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

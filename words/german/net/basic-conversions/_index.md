@@ -66,6 +66,7 @@
 | [DOCX in TXT konvertieren – Vollständige C#‑Anleitung für LaTeX‑Gleichungen](./convert-docx-to-txt-complete-c-guide-for-latex-equations/) | Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in TXT umwandeln und LaTeX‑Gleichungen korrekt verarbeiten – Schritt‑für‑Schritt‑C#‑Guide. |
 | [DOCX als PDF speichern mit Aspose.Words – Vollständige Schritt‑für‑Schritt‑Anleitung](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/) | Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words problemlos als PDF speichern – umfassende Schritt‑für‑Schritt‑Anleitung. |
 | [Mail Merge durchführen und DOCX in PDF konvertieren in C# – Vollständige Aspose‑Anleitung](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Mail Merge durchführen und DOCX in PDF konvertieren – komplette Schritt‑für‑Schritt‑Anleitung. |
+| [Word in PDF konvertieren mit Aspose.Words – Vollständige Anleitung](./convert-word-to-pdf-with-aspose-words-complete-guide/) | Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words vollständig in PDF konvertieren – Schritt‑für‑Schritt‑Anleitung mit Codebeispielen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

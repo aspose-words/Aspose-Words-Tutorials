@@ -129,6 +129,8 @@ class Program
 | [Save DOCX as Markdown with Aspose.Words – Full Step‑by‑Step Guide](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/) | Learn how to save DOCX files as Markdown using Aspose.Words with a comprehensive step‑by‑step guide. |
 | [custom image folder for export markdown with images – Complete Guide](./custom-image-folder-for-export-markdown-with-images-complete/) | Learn how to set a custom folder for images when exporting Word documents to Markdown using Aspose.Words for .NET. |
 | [Convert docx to markdown & save images from docx](./convert-docx-to-markdown-save-images-from-docx/) | Convert DOCX files to Markdown while extracting and saving images using Aspose.Words for .NET. |
+| [How to Export LaTeX from DOCX – Convert to Markdown](./how-to-export-latex-from-docx-convert-to-markdown/) | Learn how to export LaTeX from DOCX and convert it to Markdown using Aspose.Words for .NET. |
+| [Create markdown from Word – Full C# Guide](./create-markdown-from-word-full-c-guide/) | Learn how to create markdown from Word documents using Aspose.Words for .NET in a comprehensive C# guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

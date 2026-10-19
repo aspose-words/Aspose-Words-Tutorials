@@ -109,8 +109,6 @@ Erfahren Sie, wie Sie einen benutzerdefinierten Bildordner festlegen, um Bilder 
 ### [DOCX zu Markdown konvertieren und Bilder aus DOCX speichern](./convert-docx-to-markdown-save-images-from-docx/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und dabei Bilder extrahieren und speichern.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 ### [Wie man Markdown aus Word speichert – Schritt‑für‑Schritt‑Anleitung](./how-to-save-markdown-from-word-step-by-step-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown speichern – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
 
@@ -219,6 +217,11 @@ Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in Markdown konvertieren �
 
 ### [DOCX als Markdown speichern – Vollständige C#‑Anleitung mit leeren Absätzen](./save-docx-as-markdown-complete-guide-with-empty-paragraphs/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und leere Absätze korrekt behandeln – umfassende Schritt‑für‑Schritt‑Anleitung in C#.
+### [Wie man LaTeX aus DOCX exportiert – Konvertieren zu Markdown](./how-to-export-latex-from-docx-convert-to-markdown/)
+Erfahren Sie, wie Sie LaTeX‑Formeln aus DOCX‑Dateien exportieren und in Markdown konvertieren.
+
+### [Markdown aus Word erstellen – Vollständige C#‑Anleitung](./create-markdown-from-word-full-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für .NET Markdown aus Word‑Dokumenten generieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
 
 ### [Wie man Links exportiert: DOCX in Markdown konvertieren in C#](./how-to-export-links-convert-docx-to-markdown-in-c/)
 Erfahren Sie, wie Sie Links aus DOCX‑Dateien in Markdown exportieren – komplette Anleitung in C#.
@@ -241,7 +244,6 @@ Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words in Markdown konvertieren
 ### [DOCX in Markdown konvertieren – Vollständige C#‑Anleitung](./convert-docx-to-markdown-with-c-complete-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien mit C# vollständig in Markdown konvertieren – Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 ### [DOCX als Markdown speichern – Vollständige Schritt‑für‑Schritt‑Anleitung mit Aspose.Words](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/)
 Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in Markdown konvertieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
 

@@ -103,6 +103,8 @@
 | [Converti Docx in Markdown con C# – Guida completa di programmazione](./convert-docx-to-markdown-with-c-complete-programming-guide/) | Scopri come convertire file DOCX in Markdown usando C# con una guida completa passo‑passo. |
 | [Cartella immagine personalizzata per l'esportazione Markdown con immagini – Guida completa](./custom-image-folder-for-export-markdown-with-images-complete/) | Imposta una cartella personalizzata per salvare le immagini durante l'esportazione in Markdown con Aspose.Words per .NET. |
 | [Recupera documento Word con Aspose.Words – Guida completa](./recover-word-document-with-aspose-words-full-guide/) | Scopri come recuperare documenti Word danneggiati usando Aspose.Words con una guida completa passo‑passo. |
+| [Come esportare LaTeX da DOCX – Convertire in Markdown](./how-to-export-latex-from-docx-convert-to-markdown/) | Scopri come esportare contenuti LaTeX da DOCX convertendoli in Markdown con Aspose.Words per .NET. |
+| [Crea markdown da Word – Guida completa C#](./create-markdown-from-word-full-c-guide/) | Scopri come creare markdown da Word con una guida completa in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

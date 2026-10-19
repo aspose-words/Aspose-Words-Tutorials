@@ -77,6 +77,7 @@ Of u nu tekst wilt opmaken met verschillende lettertypen, regels voor lettertype
 | [Hoe waarschuwingen vastleggen – Standaardlettertype-instellingen instellen](./how-to-capture-warnings-set-default-font-settings/) | Leer hoe u waarschuwingen kunt vastleggen en standaardlettertype-instellingen configureert in Aspose.Words voor .NET. |
 | [Word-document opslaan – Ontbrekende lettertypen detecteren met Aspose.Words](./save-word-document-detect-missing-fonts-with-aspose-words/) | Leer hoe u een Word-document opslaat en ontbrekende lettertypen detecteert met Aspose.Words voor .NET. |
 | [Lettertypevervanging afhandelen in Aspose.Words – Complete programmeergids](./handle-font-substitution-in-aspose-words-complete-programmin/) | Leer hoe u lettertypevervanging in Aspose.Words voor .NET kunt beheren met een volledige programmeergids. |
+| [Aspose Lettertypevervanging – Hoe Fontinstellingen in C# te Configureren](./aspose-font-substitution-how-to-configure-font-settings-in-c/) | Leer hoe u lettertypevervanging en fontinstellingen configureert in C# met Aspose.Words voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

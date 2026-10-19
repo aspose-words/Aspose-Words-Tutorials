@@ -77,6 +77,7 @@ Quer você queira formatar texto com fontes diferentes, definir regras de substi
 | [Substituição de Fonte Aspose: Detectar Fontes Ausentes em Documentos Word](./aspose-font-substitution-detect-missing-fonts-in-word-docs/) | Aprenda a detectar fontes ausentes em documentos Word usando Aspose.Words para .NET. |
 | [Como lidar com fontes em .NET – detectar fontes ausentes](./how-to-handle-fonts-in-net-detect-missing-fonts/) | Aprenda a detectar fontes ausentes em documentos .NET com Aspose.Words, garantindo renderização correta. |
 | [Manipular Substituição de Fonte no Aspose.Words – Guia Completo de Programação](./handle-font-substitution-in-aspose-words-complete-programmin/) | Aprenda a manipular a substituição de fontes no Aspose.Words para .NET com este guia completo passo a passo. |
+| [Substituição de Fonte Aspose – Como Configurar Configurações de Fonte em C#](./aspose-font-substitution-how-to-configure-font-settings-in-c/) | Aprenda a configurar as configurações de substituição de fontes no Aspose.Words para .NET usando C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

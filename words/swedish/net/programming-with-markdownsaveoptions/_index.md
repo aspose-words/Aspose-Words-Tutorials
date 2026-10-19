@@ -119,9 +119,6 @@ Lär dig steg‑för‑steg hur du sparar Word‑dokument som Markdown med en ko
 ### [Skapa tillgångsmapp för konvertering av Word till Markdown](./create-assets-folder-for-convert-word-to-markdown/)
 Lär dig hur du skapar en mapp för att lagra resurser när du konverterar Word-dokument till Markdown med Aspose.Words för .NET.
 
-### [Hur man exporterar LaTeX från Word – Konvertera DOCX till Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
-Lär dig exportera LaTeX från Word och konvertera DOCX till Markdown med en komplett guide i C#.
-
 ### [Exportera docx till markdown i C# – Fullständig guide](./export-docx-to-markdown-in-c-complete-guide/)
 Lär dig steg‑för‑steg hur du exporterar DOCX‑filer till Markdown med C# och Aspose.Words.
 
@@ -237,6 +234,14 @@ Lär dig konvertera DOCX-filer till Markdown med en komplett guide för export a
 Lär dig hur du använder relativa bildsökvägar när du konverterar Word-dokument till Markdown med Aspose.Words för .NET.
 ### [Spara bilder – Konvertera DOCX till Markdown med Aspose.Words](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/)
 Lär dig spara bilder när du konverterar DOCX till Markdown med Aspose.Words för .NET.
+### [Hur man exporterar LaTeX från Word – Konvertera DOCX till Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+Lär dig exportera LaTeX från Word och konvertera DOCX-filer till Markdown med en komplett guide i C#.
+
+### [Hur man exporterar LaTeX från DOCX – Konvertera till Markdown](./how-to-export-latex-from-docx-convert-to-markdown/)
+Lär dig exportera LaTeX från DOCX och konvertera till Markdown med en komplett C#‑guide.
+
+### [Skapa markdown från Word – Fullständig C#‑guide](./create-markdown-from-word-full-c-guide/)
+Lär dig skapa markdown från Word-dokument med en komplett C#‑guide.
 
 ### [Anpassad bildmapp för export av Markdown med bilder – Komplett guide](./custom-image-folder-for-export-markdown-with-images-complete/)
 Lär dig hur du anger en egen bildmapp när du exporterar Markdown med bilder i Aspose.Words för .NET.

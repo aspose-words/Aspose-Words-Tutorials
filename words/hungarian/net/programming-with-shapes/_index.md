@@ -56,6 +56,7 @@ Az Aspose.Words for .NET használatával és az alábbi oktatóanyagok követés
 | [Árnyék hozzáadása Word alakzatokhoz C#-ban – Teljes útmutató](./how-to-add-shadow-to-word-shapes-in-c-complete-guide/) | Tanulja meg, hogyan adhat árnyékot a Word alakzatokhoz C#-ban az Aspose.Words segítségével lépésről lépésre útmutatóval. |
 | [Árnyék hozzáadása Word-hez – Teljes útmutató alakzatokhoz](./how-to-add-shadow-word-complete-guide-for-shapes/) | Részletes útmutató az árnyékok hozzáadásához Word alakzatokhoz C#-ban az Aspose.Words használatával. |
 | [Árnyék hozzáadása alakzathoz Word dokumentumokban – Teljes C# útmutató](./add-shadow-to-shape-in-word-documents-complete-c-guide/) | Tanulja meg, hogyan adhat árnyékot a Word alakzatokhoz C#-ban az Aspose.Words segítségével lépésről lépésre. |
+| [Word dokumentum létrehozása C# – Alakzat hozzáadása árnyékkal](./create-word-document-c-add-shape-with-shadow/) | Tanulja meg, hogyan adhat hozzá árnyékos alakzatot egy Word dokumentumhoz C#-ban az Aspose.Words for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
