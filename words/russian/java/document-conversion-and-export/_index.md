@@ -97,6 +97,15 @@ weight: 22
 Сохраните документ Word в текстовый формат и экспортируйте уравнения в LaTeX с помощью Aspose.Words. Пошаговое руководство.
 
 ### [Использование водяных знаков в документах в Aspose.Words for Java](./using-watermarks-to-documents/)
+### [Сохранить документ как PDF с Java – Полное руководство Aspose](./save-document-as-pdf-with-java-complete-aspose-guide/)
+Сохраните документ в PDF с помощью Java, используя Aspose.Words. Полное пошаговое руководство.
+
+### [Создать PNG из Word – Полное пошаговое руководство](./create-png-from-word-complete-step-by-step-guide/)
+Узнайте, как преобразовать документ Word в изображение PNG с помощью Aspose.Words for Java, шаг за шагом.
+
+### [Конвертировать Word в PDF – Создать доступный PDF](./convert-word-to-pdf-generate-accessible-pdf/)
+Преобразуйте документы Word в PDF с поддержкой доступности, используя Aspose.Words for Java. Руководство по созданию доступных PDF.
+
 Узнайте, как добавить водяные знаки в документы с помощью Aspose.Words for Java. Настройте текстовые и графические водяные знаки для профессионального вида документов.
 
 ### [Форматирование таблиц и стилей таблиц в Aspose.Words для Java](./formatting-tables-and-table-styles/)
@@ -309,6 +318,17 @@ weight: 22
 
 ### [Создание PDF/UA‑совместимого документа – Полное руководство Java](./create-pdf-ua-compliant-document-complete-java-guide/)
 Пошаговое руководство по созданию PDF/UA‑совместимых документов в Java с использованием Aspose.Words, включая настройки доступности.
+### [Как экспортировать LaTeX из DOCX – Конвертировать Word в Markdown с помощью C#](./how-to-export-latex-from-docx-convert-word-to-markdown-with/)
+Узнайте, как экспортировать содержимое DOCX в формат LaTeX и преобразовать документ Word в Markdown, используя C# и Aspose.Words.
+
+### [Сохранить DOCX как TXT – Полное руководство C#](./save-docx-as-txt-full-c-guide/)
+Полное руководство по сохранению DOCX в TXT с помощью C# и Aspose.Words.
+
+### [Экспорт DOCX в Markdown – Полное руководство C#](./export-docx-as-markdown-complete-c-guide/)
+Экспортируйте документы DOCX в формат Markdown с помощью Aspose.Words и C#. Полное пошаговое руководство.
+
+### [Сохранить изображения Word – Преобразовать DOCX в Markdown с Java](./save-word-images-convert-docx-to-markdown-with-java/)
+Сохраните изображения из Word и конвертируйте DOCX в Markdown с помощью Java. Пошаговое руководство.
 
 ## Часто задаваемые вопросы
 

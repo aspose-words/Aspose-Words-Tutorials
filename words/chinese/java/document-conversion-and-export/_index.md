@@ -270,6 +270,27 @@ Aspose.Words for Java 的关键功能之一是能够 **convert docx to pdf** 并
 ### [在 Aspose.Words for Java 中使用内联形状将 Word 保存为 PDF – 完整指南](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
 
 ### [使用 Java 将 Word 转换为 Markdown – 完整指南](./convert-word-to-markdown-with-java-full-guide/)
+### [使用 Java 将文档保存为 PDF – 完整 Aspose 指南](./save-document-as-pdf-with-java-complete-aspose-guide/)
+
+完整指南教您使用 Aspose.Words for Java 将文档保存为 PDF，包括代码示例和高级选项。
+
+### [将 Word 转换为 PDF – 生成可访问的 PDF](./convert-word-to-pdf-generate-accessible-pdf/)
+
+### [在 Aspose.Words for C# 中导出 LaTeX（将 Word 转换为 Markdown）](./how-to-export-latex-from-docx-convert-word-to-markdown-with/)
+
+使用 Aspose.Words for C# 将 DOCX 文档导出为 LaTeX 或 Markdown，实现高保真 Word 转换。
+
+### [将 docx 保存为 txt – 完整 C# 指南](./save-docx-as-txt-full-c-guide/)
+
+学习如何使用 Aspose.Words for C# 将 DOCX 文档导出为纯文本文件，提供完整代码示例和关键设置说明。
+
+### [将 docx 导出为 Markdown – 完整 C# 指南](./export-docx-as-markdown-complete-c-guide/)
+
+### [保存 Word 图像 – 使用 Java 将 DOCX 转换为 Markdown](./save-word-images-convert-docx-to-markdown-with-java/)
+
+### [从 Word 创建 PNG – 完整分步指南](./create-png-from-word-complete-step-by-step-guide/)
+
+本指南详细演示如何使用 Aspose.Words for Java 将 Word 文档导出为 PNG 图像，包含完整代码示例和关键设置。
 
 ### [将 docx 保存为 TXT 并导出 LaTeX 数学 – 完整 Java 指南](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
 

@@ -94,6 +94,9 @@ Scopri come configurare le Load Options in Java per rilevare font mancanti e car
 ### [Configurare le Opzioni di Caricamento RTF in Aspose.Words per Java](./configuring-rtf-load-options/)
 Configura le RTF Load Options in Aspose.Words per Java. Scopri come riconoscere il testo UTF‑8 nei documenti RTF. Guida passo‑per‑step con esempi di codice.
 
+### [Tutorial di callback di avviso – Carica documento Word in Java](./warning-callback-tutorial-load-word-document-in-java/)
+Scopri come gestire i warning durante il caricamento di documenti Word in Java usando Aspose.Words.
+
 ### [Caricamento di File di Testo con Aspose.Words per Java](./loading-text-files/)
 Sblocca la potenza di Aspose.Words per Java. Impara a caricare documenti di testo, gestire elenchi, spazi e direzione del testo.
 
@@ -192,6 +195,8 @@ Impara a registrare una callback per gli avvisi di sostituzione dei font in Java
 Scopri come individuare le sostituzioni di font mancanti durante l'elaborazione dei documenti Word in Java con Aspose.Words.
 
 ### [Registra avvisi di sostituzione dei font in Java con Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
+### [Recupera Documenti Word Corrotti con Aspose.Words – Guida](./recover-corrupted-word-document-using-aspose-words-guide/)
+Impara a ripristinare documenti Word danneggiati usando Aspose.Words per Java in pochi passaggi.
 
 ## Domande Frequenti
 

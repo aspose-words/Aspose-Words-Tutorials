@@ -49,6 +49,8 @@ Aspose.Words Java 代码教程
 
 ### [使用 Aspose.Words for Java 创建文本框形状 – 添加阴影的完整指南](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
 演示如何在 Word 文档中使用 Aspose.Words for Java 创建文本框形状并添加阴影效果。
+### [使用 C# 完整指南创建带矩形形状的 PDF 文档](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+了解如何使用 Aspose.Words for C# 在 PDF 文档中插入矩形形状并进行自定义设置。
 
 ### [使用 Aspose.Words for Java 创建 Word 文档 – 添加形状阴影指南](./create-word-document-java-add-shadow-to-shape-guide/)
 演示如何在 Word 文档中使用 Aspose.Words for Java 为形状添加阴影效果。

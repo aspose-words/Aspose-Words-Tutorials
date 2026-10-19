@@ -161,6 +161,10 @@ Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlt, és mentheti a h
 
 ### [Figyelmeztető visszahívás regisztrálása Java-ban – Hiányzó betűtípusok nyomon követése](./register-warning-callback-in-java-track-missing-fonts/)
 ### [Hiányzó betűkészlet helyettesítésének észlelése Java‑ban – Teljes Aspose.Words útmutató](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+### [Sérült Word dokumentum helyreállítása Aspose.Words használatával – Útmutató](./recover-corrupted-word-document-using-aspose-words-guide/)
+Ismerje meg, hogyan állíthatja helyre a sérült Word dokumentumokat az Aspose.Words segítségével, részletes lépésről‑lépésre útmutatóval.
+
+### [Figyelmeztető visszahívás oktatóanyag – Word dokumentum betöltése Java‑ban](./warning-callback-tutorial-load-word-document-in-java/)
 
 ## Gyakran Ismételt Kérdések
 

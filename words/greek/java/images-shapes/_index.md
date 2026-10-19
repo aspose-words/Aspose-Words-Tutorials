@@ -49,6 +49,8 @@
 
 ### [Δημιουργία σχήματος πλαισίου κειμένου σε Java – Πλήρης οδηγός προσθήκης σκιών](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
 Μάθετε πώς να δημιουργήσετε σχήμα πλαισίου κειμένου με εφέ σκιάς σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
+### [Δημιουργία εγγράφου PDF με σχήμα ορθογωνίου – Πλήρης οδηγός C#](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+Μάθετε πώς να δημιουργήσετε έγγραφο PDF με σχήμα ορθογωνίου χρησιμοποιώντας το Aspose.Words για C#.
 
 ### [Δημιουργία εγγράφου Word Java – Προσθήκη σκιάς σε σχήμα](./create-word-document-java-add-shadow-to-shape-guide/)
 Μάθετε πώς να προσθέσετε σκιά σε σχήμα σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.

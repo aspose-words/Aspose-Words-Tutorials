@@ -82,7 +82,7 @@ Les paramètres du document sont la clé pour fournir des documents adaptés à 
 
 ## Tutoriels associés – Chargement, Enregistrement et Conversion
 ### [Chargement et enregistrement de documents HTML avec Aspose.Words for Java](./loading-and-saving-html-documents/)
-Apprenez à charger et enregistrer des documents HTML en Java avec Aspose.Words for Java. Guide étape par étape avec des exemples de code pour une intégration transparente des documents.
+Apprenez à charger et enregistrer des documents HTML en Java avec Aspose.Words for Java. Guide étape par étape avec des exemples de code.
 
 ### [Travailler avec les options de chargement dans Aspose.Words for Java](./using-load-options/)
 Maîtrisez les options de chargement dans Aspose.Words for Java. Personnalisez le chargement de documents, gérez le chiffrement, convertissez les formes, définissez les versions Word, et plus encore pour un traitement efficace des documents Java.
@@ -184,6 +184,11 @@ Apprenez à définir les polices lors de l'enregistrement d'un document Word et 
 
 ### [Détecter la substitution de police manquante en Java – Guide complet Aspose.Words](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
 Apprenez à détecter les avertissements de substitution de police manquante en Java avec Aspose.Words. Guide complet avec exemples de code.
+### [Récupérer un document Word corrompu avec Aspose.Words – Guide](./recover-corrupted-word-document-using-aspose-words-guide/)
+Apprenez à restaurer des documents Word endommagés avec Aspose.Words, étape par étape, en Java.
+
+### [Tutoriel de rappel d’avertissement – Charger un document Word en Java](./warning-callback-tutorial-load-word-document-in-java/)
+Apprenez à gérer les avertissements lors du chargement d’un document Word en Java avec Aspose.Words.
 
 ### [Enregistrer les avertissements de substitution de police en Java avec Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
 Apprenez à consigner les avertissements de substitution de police lors du chargement de documents Word en Java avec Aspose.Words.

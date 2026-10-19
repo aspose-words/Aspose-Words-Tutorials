@@ -271,6 +271,26 @@ Tanulja meg, hogyan hozhat létre PDF/UA‑1 szabványnak megfelelő hozzáférh
 
 ### [Hogyan ágyazzunk be képeket a Markdownba a DOCX konvertálásakor](./how-to-embed-images-in-markdown-when-converting-docx/)
 Tanulja meg, hogyan ágyazhat be képeket a Markdownba a DOCX konvertálásakor az Aspose.Words for Java használatával.
+### [How to Export LaTeX from DOCX – Convert Word to Markdown with C#](./how-to-export-latex-from-docx-convert-word-to-markdown-with/)
+Tanuld meg, hogyan konvertálj DOCX fájlokat LaTeX vagy Markdown formátumba C#‑ben az Aspose.Words segítségével.
+
+### [Export DOCX as Markdown – Complete C# Guide](./export-docx-as-markdown-complete-c-guide/)
+Tanuld meg, hogyan exportálj DOCX fájlokat Markdown formátumba C#‑ban, lépésről‑lépésre útmutatóval.
+
+### [DOCX mentése TXT‑ként – Teljes C# útmutató](./save-docx-as-txt-full-c-guide/)
+Tanuld meg, hogyan mentheted a DOCX fájlokat egyszerű szöveges TXT formátumba C#‑ban az Aspose.Words segítségével.
+
+### [Dokumentum mentése PDF‑ként Java‑val – Teljes Aspose útmutató](./save-document-as-pdf-with-java-complete-aspose-guide/)
+Tanuld meg, hogyan mentheted el a dokumentumot PDF formátumba Java‑ban az Aspose.Words segítségével, lépésről‑lépésre útmutatóval.
+
+### [Word képek mentése – DOCX konvertálása Markdown-be Java-val](./save-word-images-convert-docx-to-markdown-with-java/)
+Tanuld meg, hogyan mentheted el a Word dokumentum képeit, és konvertálhatod a DOCX-et Markdown formátumba Java használatával.
+
+### [PNG létrehozása Word‑ből – Teljes lépésről‑lépésre útmutató](./create-png-from-word-complete-step-by-step-guide/)
+Tanuld meg, hogyan konvertálj Word dokumentumot PNG képpé Aspose.Words for Java használatával, részletes példákkal.
+
+### [Word konvertálása PDF‑be – Hozzáférhető PDF létrehozása](./convert-word-to-pdf-generate-accessible-pdf/)
+Tanuld meg, hogyan konvertálj Word dokumentumot PDF‑be úgy, hogy a kimenet megfeleljen a hozzáférhetőségi szabványoknak.
 
 ## Gyakran Ismételt Kérdések
 

@@ -285,6 +285,26 @@ Pełny przewodnik, jak zapisać dokument w formacie DOCX przy użyciu Aspose.Wor
 
 ### [Zapisz dokument Word jako PDF przy użyciu Aspose.Words – Kompletny przewodnik Java](./save-word-as-pdf-with-aspose-words-complete-java-guide/)
 Dowiedz się, jak w prosty sposób zapisać dokument Word jako PDF przy użyciu Aspose.Words w Javie, krok po kroku.
+### [Zapisz obrazy Word – konwertuj DOCX do Markdown w Javie](./save-word-images-convert-docx-to-markdown-with-java/)
+Dowiedz się, jak wyodrębnić i zapisać obrazy z dokumentów Word oraz konwertować DOCX do Markdown przy użyciu Aspose.Words for Java.
+
+### [Jak wyeksportować LaTeX z DOCX – konwertuj Word na Markdown przy użyciu C#](./how-to-export-latex-from-docx-convert-word-to-markdown-with/)
+Dowiedz się, jak przekształcić dokument DOCX w LaTeX i Markdown przy użyciu C# oraz Aspose.Words.
+
+### [Eksportuj DOCX jako Markdown – Kompletny przewodnik C#](./export-docx-as-markdown-complete-c-guide/)
+Dowiedz się, jak wyeksportować pliki DOCX jako Markdown w C# przy użyciu Aspose.Words. Przewodnik krok po kroku z przykładami kodu.
+
+### [Zapisz docx jako txt – Pełny przewodnik C#](./save-docx-as-txt-full-c-guide/)
+Dowiedz się, jak konwertować pliki DOCX do formatu TXT w C# przy użyciu Aspose.Words, krok po kroku z przykładami kodu.
+
+### [Zapisz dokument jako PDF w Javie – Kompletny przewodnik Aspose](./save-document-as-pdf-with-java-complete-aspose-guide/)
+Dowiedz się, jak w prosty sposób zapisać dokument jako PDF w Javie przy użyciu Aspose.Words, z pełnym przykładem kodu.
+
+### [Konwertuj Word do PDF – Generuj dostępny PDF](./convert-word-to-pdf-generate-accessible-pdf/)
+Dowiedz się, jak konwertować dokumenty Word do PDF, zapewniając ich dostępność zgodnie z wymogami, przy użyciu Aspose.Words for Java.
+
+### [Tworzenie PNG z Worda – Kompletny przewodnik krok po kroku](./create-png-from-word-complete-step-by-step-guide/)
+Dowiedz się, jak wygenerować plik PNG z dokumentu Word przy użyciu Aspose.Words for Java – pełny przewodnik z przykładami kodu.
 
 ### [Tworzenie pliku zgodnego z PDF/UA‑1 w Javie – kompletny przewodnik](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
 Dowiedz się, jak w Javie wygenerować plik PDF/UA‑1 spełniający wymogi dostępności, krok po kroku, z przykładami kodu.

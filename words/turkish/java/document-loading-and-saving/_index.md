@@ -172,6 +172,10 @@ Java’da eksik yazı tiplerini yakalamak için uyarı geri çağrısını nası
 
 ### [Java’da Font Değiştirme Uyarılarını Günlüğe Kaydetme – Aspose.Words ile](./log-font-substitution-warnings-in-java-with-aspose-words/)
 Java’da Aspose.Words kullanarak font değiştirme uyarılarını nasıl yakalayacağınızı ve günlüğe kaydedeceğinizi öğrenin.
+### [Aspose.Words ile Bozuk Word Belgesini Kurtarma – Rehber](./recover-corrupted-word-document-using-aspose-words-guide/)
+
+### [Uyarı Geri Çağrı Eğitimi – Java’da Word Belgesi Yükleme](./warning-callback-tutorial-load-word-document-in-java/)
+Java’da Aspose.Words ile belge yüklerken uyarı geri çağrısını nasıl ele alacağınızı öğrenin.
 
 ## Sıkça Sorulan Sorular
 

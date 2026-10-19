@@ -66,6 +66,8 @@ Aspose.Words for Java की मुख्य विशेषताओं मे�
 
 ## दस्तावेज़ रूपांतरण और निर्यात ट्यूटोरियल
 ### [Aspose.Words for Java में बारकोड जेनरेशन का उपयोग करना](./using-barcode-generation/)
+Aspose.Words for Java का उपयोग करके जावा में कस्टम बारकोड कैसे जेनरेट करें, सीखें। स्रोत कोड के साथ चरण‑दर‑स्टेप गाइड। Aspose.Words के साथ दस्तावेज़ ऑटोमेशन को बढ़ाएँ।
+
 ### [Aspose.Words for Java में चार्ट्स का उपयोग करना](./using-charts/)
 ### [Aspose.Words for Java में ऑफिस मैथ ऑब्जेक्ट्स का उपयोग करना](./using-office-math-objects/)
 ### [Aspose.Words for Java में डॉक्यूमेंट शेप्स का उपयोग करना](./using-document-shapes/)
@@ -245,6 +247,23 @@ Aspose.Words for Java का उपयोग करके वर्ड दस्
 
 ### [Java के साथ PDF/UA अनुपालन फ़ाइल बनाएं – पूर्ण Aspose.Words गाइड](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
 Java में Aspose.Words का उपयोग करके PDF/UA मानकों के अनुरूप फ़ाइल बनाने की पूरी प्रक्रिया सीखें।
+### [Aspose.Words for Java में दस्तावेज़ को PDF के रूप में सहेजें – पूर्ण Aspose गाइड](./save-document-as-pdf-with-java-complete-aspose-guide/)
+Java में Aspose.Words का उपयोग करके DOCX को PDF में बदलने की पूरी प्रक्रिया, कोड उदाहरण और उन्नत विकल्पों के साथ।
+
+### [C# के साथ DOCX से LaTeX निर्यात – Word को Markdown में बदलें](./how-to-export-latex-from-docx-convert-word-to-markdown-with/)
+C# में Aspose.Words का उपयोग करके DOCX से LaTeX निर्यात करें और Word को Markdown में बदलें।
+
+### [docx को txt के रूप में सहेजें – पूर्ण C# गाइड](./save-docx-as-txt-full-c-guide/)
+
+### [DOCX को मार्कडाउन के रूप में निर्यात करें – पूर्ण C# गाइड](./export-docx-as-markdown-complete-c-guide/)
+C# में Aspose.Words का उपयोग करके DOCX को मार्कडाउन में निर्यात करने की पूरी प्रक्रिया, कोड उदाहरण और चरण‑दर‑स्टेप गाइड।
+
+### [Word इमेज़ सहेजें – Java के साथ DOCX को Markdown में बदलें](./save-word-images-convert-docx-to-markdown-with-java/)
+
+### [Word को PDF में बदलें – सुलभ PDF उत्पन्न करें](./convert-word-to-pdf-generate-accessible-pdf/)
+
+### [Word से PNG बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./create-png-from-word-complete-step-by-step-guide/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ से PNG छवि बनाने का विस्तृत चरण‑दर‑चरण गाइड।
 
 ### [Java के साथ PDF/UA‑1 अनुपालन फ़ाइल बनाना – पूर्ण गाइड](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
 Java में Aspose.Words का उपयोग करके PDF/UA‑1 मानकों के अनुरूप फ़ाइल बनाने का चरण‑दर‑स्टेप गाइड।

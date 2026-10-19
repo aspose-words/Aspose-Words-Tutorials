@@ -84,6 +84,8 @@ Aspose.Words for Java の多様性を探り、さまざまな形式でドキュ�
 
 ### [Aspose.Words for Java のロードオプションの使用](./using-load-options/)
 
+### [警告コールバック チュートリアル – JavaでWord文書を読み込む](./warning-callback-tutorial-load-word-document-in-java/)
+
 ### [Aspose.Words for Java の RTF ロードオプションの設定](./configuring-rtf-load-options/)
 
 ### [Aspose.Words for Java でテキストファイルを読み込む](./loading-text-files/)
@@ -145,6 +147,7 @@ Aspose.Words for Java の多様性を探り、さまざまな形式でドキュ�
 ### [Java で警告コールバックを登録 – 欠落フォントの追跡](./register-warning-callback-in-java-track-missing-fonts/)
 
 ### [Java でフォント置換の検出 – 完全 Aspose.Words ガイド](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+### [Aspose.Words を使用した破損した Word ドキュメントの復元 – ガイド](./recover-corrupted-word-document-using-aspose-words-guide/)
 
 ### [Java でフォント置換警告をログに記録する – Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
 

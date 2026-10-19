@@ -173,6 +173,9 @@ Aspose.Words Java का उपयोग करके भ्रष्ट या 
 ### [जावा में गायब फ़ॉन्ट प्रतिस्थापन का पता लगाएँ – Aspose.Words पूर्ण गाइड](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
 ### [Aspose.Words के साथ जावा में फ़ॉन्ट प्रतिस्थापन चेतावनियों को लॉग करें](./log-font-substitution-warnings-in-java-with-aspose-words/)
 जावा में Aspose.Words का उपयोग करके फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैसे कैप्चर और लॉग करें, इस चरण‑दर‑चरण गाइड में जानें।
+### [Aspose.Words for Java के साथ क्षतिग्रस्त Word दस्तावेज़ पुनर्प्राप्ति – गाइड](./recover-corrupted-word-document-using-aspose-words-guide/)
+
+### [warning callback ट्यूटोरियल – Java में Word दस्तावेज़ लोड करना](./warning-callback-tutorial-load-word-document-in-java/)
 
 ## अक्सर पूछे जाने वाले प्रश्न
 ### [फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैप्चर करें – लापता फ़ॉन्ट्स का पता लगाएँ](./capture-font-substitution-warnings-detect-missing-fonts/)

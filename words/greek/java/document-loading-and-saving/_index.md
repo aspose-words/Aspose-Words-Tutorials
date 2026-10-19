@@ -91,7 +91,7 @@ Aspose.Words for Java καθιστά απλό το **save images from Word** έ�
 ### [Διαμόρφωση Επιλογών Φόρτωσης RTF στο Aspose.Words for Java](./configuring-rtf-load-options/)
 
 ### [Φόρτωση Αρχείων Κειμένου με Aspose.Words for Java](./loading-text-files/)
-
+### [Tutorial προειδοποίησης callback – Φόρτωση εγγράφου Word σε Java](./warning-callback-tutorial-load-word-document-in-java/)
 ### [Προχωρημένες Επιλογές Αποθήκευσης με Aspose.Words for Java](./advance-saving-options/)
 
 ### [Αποθήκευση HTML Εγγράφων με Σταθερή Διάταξη στο Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
@@ -141,6 +141,7 @@ Aspose.Words for Java καθιστά απλό το **save images from Word** έ�
 ### [Ανάκτηση Κατεστραμμένου DOCX σε Java – Πλήρης Οδηγός Προγραμματισμού](./recover-corrupted-docx-in-java-complete-programming-guide/)
 
 ### [Καταγραφή Προειδοποιήσεων Αντικατάστασης Γραμματοσειράς σε Java με Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
+### [Ανάκτηση Κατεστραμμένου Εγγράφου Word με Aspose.Words – Οδηγός](./recover-corrupted-word-document-using-aspose-words-guide/)
 
 ## Συχνές Ερωτήσεις
 

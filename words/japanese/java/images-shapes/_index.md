@@ -49,6 +49,8 @@ Java で Word 文書に長方形シェイプを挿入し、プロパティ設定
 
 ### [Javaでテキストボックスシェイプを作成 – 影を追加する完全ガイド](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
 Javaでテキストボックスシェイプを作成し、影効果を適用する方法をステップバイステップで解説します。
+### [矩形シェイプを使用した PDF ドキュメント作成 – 完全 C# ガイド](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+C# を使用して矩形シェイプを含む PDF ドキュメントを作成する完全ガイドです。
 
 ### [JavaでWord文書を作成 – シェイプに影を追加するガイド](./create-word-document-java-add-shadow-to-shape-guide/)
 JavaでWord文書にシェイプの影効果を追加し、視覚的に魅力的なレイアウトを作成する方法を学びます。

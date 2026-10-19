@@ -300,6 +300,27 @@ Apprenez à convertir des documents Word en Markdown en Java avec Aspose.Words, 
 ### [Créer un fichier PDF/UA conforme avec Java – Guide complet Aspose.Words](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
 Apprenez à générer des fichiers PDF/UA conformes en Java avec Aspose.Words, en suivant un guide complet pas à pas.
 
+### [Comment exporter LaTeX depuis DOCX – Convertir Word en Markdown avec C#](./how-to-export-latex-from-docx-convert-word-to-markdown-with/)
+Apprenez à extraire du LaTeX d'un fichier DOCX et à le convertir en Markdown en utilisant C# avec Aspose.Words.
+
+### [Enregistrer les images Word – Convertir DOCX en Markdown avec Java](./save-word-images-convert-docx-to-markdown-with-java/)
+Apprenez à extraire et enregistrer les images d'un fichier DOCX tout en le convertissant en Markdown avec Aspose.Words for Java.
+
+### [Créer un PNG à partir de Word – Guide complet étape par étape](./create-png-from-word-complete-step-by-step-guide/)
+Apprenez à extraire des images PNG depuis un document Word en suivant un guide complet avec du code Java.
+
+### [Exporter DOCX en Markdown – Guide complet C#](./export-docx-as-markdown-complete-c-guide/)
+Apprenez à convertir des fichiers DOCX en Markdown avec C#, étape par étape, grâce à ce guide complet.
+
+### [Enregistrer docx en txt – Guide complet C#](./save-docx-as-txt-full-c-guide/)
+Apprenez à convertir des fichiers DOCX en fichiers texte brut (TXT) en utilisant Aspose.Words avec C# grâce à ce guide complet.
+
+### [Enregistrement d'un document au format PDF avec Java – Guide complet Aspose.Words](./save-document-as-pdf-with-java-complete-aspose-guide/)
+Apprenez à convertir et enregistrer des documents Word en PDF en une seule ligne de code avec Aspose.Words for Java.
+
+### [Convertir Word en PDF – Générer un PDF accessible](./convert-word-to-pdf-generate-accessible-pdf/)
+Apprenez à convertir des documents Word en PDF tout en respectant les normes d’accessibilité, incluant les balises et le texte alternatif.
+
 ## Questions fréquentes
 
 **Q : Comment ajouter un filigrane à un PDF existant avec Aspose.Words ?**  

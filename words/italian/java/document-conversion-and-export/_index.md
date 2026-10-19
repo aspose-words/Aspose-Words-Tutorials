@@ -277,6 +277,26 @@ Scopri come generare PDF accessibili con tag completi usando Aspose.Words per Ja
 
 ### [Creare documento conforme a PDF/UA-2 – Guida Java completa](./create-pdf-ua-2-compliant-document-complete-java-guide/)
 Impara a generare documenti PDF/UA‑2 conformi con Aspose.Words per Java, passo dopo passo, con esempi di codice.
+### [Come esportare LaTeX da DOCX – Convertire Word in Markdown con C#](./how-to-export-latex-from-docx-convert-word-to-markdown-with/)
+Scopri come trasformare documenti DOCX in LaTeX e Markdown usando C# e Aspose.Words, con esempi passo‑passo.
+
+### [Salva DOCX come TXT – Guida completa C#](./save-docx-as-txt-full-c-guide/)
+Scopri come salvare documenti DOCX come file di testo TXT usando C# con Aspose.Words, passo dopo passo.
+
+### [Esporta DOCX come Markdown – Guida completa C#](./export-docx-as-markdown-complete-c-guide/)
+Scopri come esportare documenti DOCX in formato Markdown usando C# e Aspose.Words, con esempi passo‑passo.
+
+### [Salva documento come PDF con Java – Guida completa Aspose](./save-document-as-pdf-with-java-complete-aspose-guide/)
+Scopri come salvare documenti in PDF usando Aspose.Words per Java con esempi passo‑passo e opzioni avanzate.
+
+### [Salva immagini Word – Converti DOCX in Markdown con Java](./save-word-images-convert-docx-to-markdown-with-java/)
+Scopri come estrarre immagini da documenti Word e convertirli in Markdown usando Aspose.Words per Java.
+
+### [Converti Word in PDF – Genera PDF accessibile](./convert-word-to-pdf-generate-accessible-pdf/)
+Scopri come convertire documenti Word in PDF accessibili usando Aspose.Words per Java, garantendo conformità WCAG.
+
+### [Crea PNG da Word – Guida completa passo‑passo](./create-png-from-word-complete-step-by-step-guide/)
+Scopri come estrarre immagini PNG da documenti Word usando Aspose.Words per Java, con esempi di codice dettagliati.
 
 ### [Salva docx come txt con esportazione LaTeX delle equazioni – Guida completa Java](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
 Scopri come salvare file DOCX in TXT mantenendo le equazioni in formato LaTeX usando Aspose.Words per Java.

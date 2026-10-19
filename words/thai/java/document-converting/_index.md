@@ -111,6 +111,8 @@ weight: 14
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็นไฟล์ข้อความ TXT ใน Java อย่างละเอียด ด้วยตัวอย่างโค้ดและเคล็ดลับการจัดการฟอร์แมต
 ### [แปลง docx เป็น markdown ด้วย Aspose.Words Java – คู่มือเต็ม](./convert-docx-to-markdown-with-aspose-words-java-full-guide/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown อย่างละเอียดด้วย Aspose.Words for Java
+### [แปลง DOCX เป็น PDF ใน Java – คู่มือ Low‑Code ง่าย](./convert-docx-to-pdf-in-java-simple-low-code-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ด้วยโค้ดเพียงไม่กี่บรรทัดโดยใช้ Aspose.Words for Java อย่างง่ายและรวดเร็ว.
 
 ## คำถามที่พบบ่อย
 

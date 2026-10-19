@@ -148,6 +148,9 @@ Dowiedz się, jak wykrywać ostrzeżenia o brakującej podstawie czcionek w doku
 ### [Odzyskaj uszkodzony DOCX w Javie – Kompletny przewodnik programistyczny](./recover-corrupted-docx-in-java-complete-programming-guide/)
 
 ### [Rejestrowanie ostrzeżeń o podstawianiu czcionek w Javie przy użyciu Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
+### [Odzyskiwanie uszkodzonego dokumentu Word przy użyciu Aspose.Words – Przewodnik](./recover-corrupted-word-document-using-aspose-words-guide/)
+
+### [Tutorial ostrzeżenia zwrotnego – ładowanie dokumentu Word w Javie](./warning-callback-tutorial-load-word-document-in-java/)
 
 ## Najczęściej zadawane pytania
 

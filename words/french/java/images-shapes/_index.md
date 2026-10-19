@@ -49,6 +49,8 @@ Apprenez à créer une forme rectangle dans un document Word en Java avec un gui
 
 ### [Créer une forme de zone de texte en Java – Guide complet pour ajouter des ombres](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
 Apprenez à créer une zone de texte avec effet d'ombre dans un document Word en Java à l'aide d'Aspose.Words.
+### [Créer un document PDF avec une forme rectangle – Guide complet C#](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+Apprenez à générer un PDF contenant une forme rectangle en utilisant Aspose.PDF pour C#.
 
 ### [Créer un document Word Java – Ajouter une ombre à une forme](./create-word-document-java-add-shadow-to-shape-guide/)
 Apprenez à ajouter une ombre à une forme dans un document Word en Java avec Aspose.Words.

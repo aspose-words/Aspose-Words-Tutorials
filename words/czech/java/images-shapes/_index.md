@@ -49,6 +49,8 @@ Kompletní návod, jak v Javě pomocí Aspose.Words vytvořit obdélníkový tva
 
 ### [Vytvořit textové pole tvaru v Javě – Kompletní průvodce přidáváním stínů](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
 Naučte se, jak vytvořit textové pole jako tvar a přidat mu stín v dokumentu Word pomocí Aspose.Words pro Javu.
+### [Vytvořte PDF dokument s obdélníkovým tvarem – Kompletní průvodce v C#](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+Naučte se, jak pomocí Aspose.Words v C# vytvořit PDF dokument s obdélníkovým tvarem.
 
 ### [Vytvořit Word dokument v Javě – Přidat stín k tvaru](./create-word-document-java-add-shadow-to-shape-guide/)
 Naučte se, jak přidat stín k tvaru v dokumentu Word pomocí Aspose.Words pro Javu.

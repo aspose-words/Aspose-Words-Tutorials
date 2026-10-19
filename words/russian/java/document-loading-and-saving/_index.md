@@ -100,6 +100,9 @@ Aspose.Words for Java упрощает **save images from Word** докумен�
 ### [Загрузка текстовых файлов с Aspose.Words for Java](./loading-text-files/)
 Откройте возможности Aspose.Words for Java. Научитесь загружать текстовые документы, управлять списками, обрабатывать пробелы и контролировать направление текста.
 
+### [Учебник по обработке предупреждений – загрузка документа Word в Java](./warning-callback-tutorial-load-word-document-in-java/)
+Узнайте, как использовать callback‑функцию предупреждений при загрузке Word‑документов в Java с Aspose.Words.
+
 ### [Продвинутые параметры сохранения с Aspose.Words for Java](./advance-saving-options/)
 Изучите продвинутые возможности манипуляции документами с Aspose.Words for Java. Шифрование, работа с метафайлами и многое другое. Ваши Word‑документы — ваш способ.
 
@@ -134,7 +137,10 @@ Aspose.Words for Java упрощает **save images from Word** докумен�
 Узнайте, как сохранять документы в текстовые файлы с помощью Aspose.Words for Java. Следуйте нашему пошаговому руководству с примерами кода на Java.
 
 ### [Определение формата документа в Aspose.Words for Java](./determining-document-format/)
-Узнайте, как определять форматы документов в Java с помощью Aspose.Words. Определяйте DOC, DOCX и другие. Эффективно организуйте файлы.
+Узнайте, как определять форматы документов в Java с помощью Aspose.Words. Эффективно организуйте файлы.
+
+### [Восстановление повреждённого документа Word с помощью Aspose.Words – руководство](./recover-corrupted-word-document-using-aspose-words-guide/)
+Узнайте, как восстановить повреждённые файлы Word с помощью Aspose.Words, используя Java, и сохранить их в нужных форматах.
 
 ### [Как восстановить DOCX – загрузка повреждённых файлов с параметрами восстановления](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 

@@ -188,6 +188,11 @@ Pelajari cara mendaftarkan callback peringatan di Java untuk melacak font yang h
 
 ### [Catat Peringatan Substitusi Font di Java dengan Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
 Pelajari cara mencatat peringatan substitusi font saat memuat dokumen di Java menggunakan Aspose.Words, termasuk contoh kode lengkap.
+### [Memulihkan Dokumen Word Rusak Menggunakan Aspose.Words – Panduan](./recover-corrupted-word-document-using-aspose-words-guide/)
+Pelajari cara memulihkan file Word yang rusak dengan Aspose.Words melalui panduan langkah demi langkah.
+
+### [Tutorial Callback Peringatan – Memuat Dokumen Word di Java](./warning-callback-tutorial-load-word-document-in-java/)
+Pelajari cara menggunakan callback peringatan saat memuat dokumen Word di Java dengan Aspose.Words, termasuk penanganan pesan dan log.
 
 ## Pertanyaan yang Sering Diajukan
 

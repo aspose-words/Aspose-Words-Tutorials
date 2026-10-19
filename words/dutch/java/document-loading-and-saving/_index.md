@@ -84,6 +84,8 @@ Documentinstellingen zijn de sleutel tot het leveren van documenten die precies 
 ### [HTML-documenten laden en opslaan met Aspose.Words for Java](./loading-and-saving-html-documents/)
 Leer hoe je HTML-documenten kunt laden en opslaan in Java met Aspose.Words for Java. Stapsgewijze gids met code‑voorbeelden voor naadloze documentintegratie.
 
+### [Waarschuwing callback tutorial – Word-document laden in Java](./warning-callback-tutorial-load-word-document-in-java/)
+
 ### [Werken met laadopties in Aspose.Words for Java](./using-load-options/)
 Beheers laadopties in Aspose.Words for Java. Pas documentladen aan, behandel encryptie, converteer shapes, stel Word‑versies in en meer voor efficiënte Java‑documentverwerking.
 
@@ -182,6 +184,7 @@ Leer hoe je ontbrekende lettertypevervangingen detecteert en verwerkt tijdens he
 
 ### [Corrupt docx herstellen met Aspose.Words – Complete Java-gids](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
 Leer hoe je beschadigde docx‑bestanden kunt repareren en verwerken met Aspose.Words voor Java in een stapsgewijze gids.
+### [Herstel beschadigd Word-document met Aspose.Words – Gids](./recover-corrupted-word-document-using-aspose-words-guide/)
 
 ### [Herstel beschadigde DOCX in Java – Complete programmeergids](./recover-corrupted-docx-in-java-complete-programming-guide/)
 Leer hoe je beschadigde DOCX‑bestanden kunt herstellen met Aspose.Words for Java via een volledige programmeergids met voorbeeldcode.

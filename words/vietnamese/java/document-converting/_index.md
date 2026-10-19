@@ -89,6 +89,9 @@ Tìm hiểu cách chuyển đổi tài liệu hiệu quả với Aspose.Words ch
 ### [Xuất tài liệu sang PDF](./exporting-documents-to-pdf/)
 Tìm hiểu cách xuất tài liệu sang PDF bằng Aspose.Words cho Java. Hướng dẫn từng bước này đơn giản hoá quy trình để chuyển đổi tài liệu liền mạch.
 
+### [Chuyển đổi DOCX sang PDF trong Java – Hướng dẫn Low‑Code đơn giản](./convert-docx-to-pdf-in-java-simple-low-code-guide/)
+Hướng dẫn nhanh cách chuyển đổi DOCX sang PDF trong Java chỉ với vài dòng mã, không cần cấu hình phức tạp.
+
 ### [Chuyển đổi tài liệu sang các định dạng khác nhau](./converting-documents-different-formats/)
 Tìm hiểu cách chuyển đổi tài liệu sang các định dạng khác nhau bằng Aspose.Words cho Java. Hướng dẫn từng bước để chuyển đổi tài liệu hiệu quả.
 

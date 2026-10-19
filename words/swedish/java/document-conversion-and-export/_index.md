@@ -293,6 +293,26 @@ Exportera Word-dokument till Markdown i Java med Aspose.Words. Lär dig hur du s
 
 ### [Skapa PDF/UA‑kompatibel fil med Java – Fullständig Aspose.Words‑guide](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
 Lär dig hur du skapar PDF/UA‑kompatibla dokument med Aspose.Words for Java i en komplett steg‑för‑steg‑guide.
+### [Hur man exporterar LaTeX från DOCX – Konvertera Word till Markdown med C#](./how-to-export-latex-from-docx-convert-word-to-markdown-with/)
+Lär dig hur du exporterar LaTeX från DOCX och konverterar Word-dokument till Markdown med C#.
+
+### [Spara docx som txt – Fullständig C#‑guide](./save-docx-as-txt-full-c-guide/)
+Lär dig hur du konverterar DOCX‑filer till ren text med C# och Aspose.Words i en komplett steg‑för‑steg‑guide.
+
+### [Spara dokument som PDF med Java – Komplett Aspose‑guide](./save-document-as-pdf-with-java-complete-aspose-guide/)
+Lär dig hur du sparar ett dokument som PDF i Java med Aspose.Words i en komplett steg‑för‑steg‑guide.
+
+### [Spara Word‑bilder – Konvertera DOCX till Markdown med Java](./save-word-images-convert-docx-to-markdown-with-java/)
+Lär dig hur du extraherar och sparar bilder från ett Word‑dokument och konverterar DOCX till Markdown med Java.
+
+### [Skapa PNG från Word – Komplett steg‑för‑steg‑guide](./create-png-from-word-complete-step-by-step-guide/)
+Skapa PNG‑bilder från ett Word‑dokument med Aspose.Words för Java i en komplett steg‑för‑steg‑guide.
+
+### [Konvertera Word till PDF – Skapa tillgänglig PDF](./convert-word-to-pdf-generate-accessible-pdf/)
+Konvertera Word-dokument till PDF och generera tillgängliga PDF-filer med Aspose.Words for Java.
+
+### [Exportera DOCX som Markdown – Komplett C#‑guide](./export-docx-as-markdown-complete-c-guide/)
+Exportera DOCX som Markdown med en komplett C#‑guide. Lär dig hur du konverterar Word‑dokument till Markdown‑format steg för steg.
 
 ### [Skapa PDF/UA‑1‑kompatibel fil med Java – Komplett guide](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
 Lär dig hur du skapar PDF/UA‑1‑kompatibla filer i Java med Aspose.Words, steg‑för‑steg‑guide för tillgänglig PDF‑export.

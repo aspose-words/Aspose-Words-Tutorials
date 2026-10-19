@@ -114,6 +114,8 @@ weight: 14
 Μάθετε πώς να μετατρέψετε αρχεία docx σε απλό κείμενο txt χρησιμοποιώντας Aspose.Words for Java, βήμα‑βήμα με παραδείγματα κώδικα.
 ### [Μετατροπή docx σε markdown με Aspose.Words Java – Πλήρης Οδηγός](./convert-docx-to-markdown-with-aspose-words-java-full-guide/)
 Μάθετε πώς να μετατρέψετε αρχεία DOCX σε μορφή Markdown με Aspose.Words for Java, βήμα‑βήμα, με παραδείγματα κώδικα.
+### [Μετατροπή DOCX σε PDF σε Java – Απλός Οδηγός Χαμηλού Κώδικα](./convert-docx-to-pdf-in-java-simple-low-code-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF με λίγες γραμμές κώδικα χρησιμοποιώντας Aspose.Words for Java.
 
 ## Συχνές Ερωτήσεις
 

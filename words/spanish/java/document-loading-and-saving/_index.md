@@ -147,6 +147,9 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 ### [Registrar devolución de llamada de advertencia en Java – Rastrear fuentes faltantes](./register-warning-callback-in-java-track-missing-fonts/)
 
 ### [Detectar sustitución de fuentes faltantes en Java con Aspose.Words – Guía completa](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+### [Recuperar documento Word dañado usando Aspose.Words – Guía](./recover-corrupted-word-document-using-aspose-words-guide/)
+
+### [Tutorial de devolución de llamada de advertencia – Cargar documento Word en Java](./warning-callback-tutorial-load-word-document-in-java/)
 
 ### [Registrar advertencias de sustitución de fuentes en Java con Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
 

@@ -82,8 +82,6 @@ weight: 22
 Αποκτήστε τη Δύναμη ...
 
 ### [Χρήση Υδατογραφημάτων σε Έγγραφα στο Aspose.Words for Java](./using-watermarks-to-documents/)
-Μάθετε πώς να προσθέτετε ...
-
 ### [Μορφοποίηση Πινάκων και Στυλ Πινάκων στο Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Μάθετε πώς να μορφοποιείτε ...
 
@@ -277,6 +275,26 @@ weight: 22
 
 ### [Δημιουργία PDF/UA Συμβατού Αρχείου με Java – Πλήρης Οδηγός Aspose.Words](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
 Μάθετε πώς να δημιουργήσετε PDF/UA αρχεία συμμορφωμένα με πρότυπα προσβασιμότητας χρησιμοποιώντας Aspose.Words for Java.
+### [Αποθήκευση εγγράφου ως PDF με Java – Πλήρης Οδηγός Aspose](./save-document-as-pdf-with-java-complete-aspose-guide/)
+Μάθετε πώς να αποθηκεύετε έγγραφα PDF χρησιμοποιώντας Aspose.Words for Java σε λίγα βήματα.
+
+### [Αποθήκευση Εικόνων Word – Μετατροπή DOCX σε Markdown με Java](./save-word-images-convert-docx-to-markdown-with-java/)
+Μάθετε πώς να εξάγετε εικόνες από έγγραφα Word και να τις μετατρέψετε σε Markdown με Aspose.Words for Java.
+
+### [Πώς να Εξάγετε LaTeX από DOCX – Μετατροπή Word σε Markdown με C#](./how-to-export-latex-from-docx-convert-word-to-markdown-with/)
+Μάθετε πώς να εξάγετε LaTeX από αρχεία DOCX και να μετατρέψετε Word σε Markdown χρησιμοποιώντας το Aspose.Words for C#.
+
+### [Αποθήκευση docx ως txt – Πλήρης Οδηγός C#](./save-docx-as-txt-full-c-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε απλό κείμενο TXT χρησιμοποιώντας το Aspose.Words for C# σε λίγα βήματα.
+
+### [Μετατροπή Word σε PDF – Δημιουργία Προσβάσιμου PDF](./convert-word-to-pdf-generate-accessible-pdf/)
+Μάθετε πώς να μετατρέψετε Word σε προσβάσιμο PDF με το Aspose.Words for Java, εξασφαλίζοντας συμμόρφωση με πρότυπα προσβασιμότητας.
+
+### [Εξαγωγή DOCX ως Markdown – Πλήρης Οδηγός C#](./export-docx-as-markdown-complete-c-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε Markdown με πλήρη οδηγό C# σε λίγα βήματα.
+
+### [Δημιουργία PNG από Word – Πλήρης Οδηγός Βήμα‑Βήμα](./create-png-from-word-complete-step-by-step-guide/)
+Μάθετε πώς να εξάγετε εικόνες PNG από έγγραφα Word χρησιμοποιώντας το Aspose.Words for Java, βήμα‑βήμα με παραδείγματα κώδικα.
 
 ### [Δημιουργία Συμβατού Αρχείου PDF/UA‑1 με Java – Πλήρης Οδηγός](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
 Μάθετε πώς να δημιουργήσετε αρχεία PDF/UA‑1 συμβατά με το Aspose.Words for Java, εξασφαλίζοντας προσβασιμότητα και συμμόρφωση.

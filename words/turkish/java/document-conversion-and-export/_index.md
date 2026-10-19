@@ -287,11 +287,28 @@ Java ve Aspose.Words kullanarak Word belgelerini Markdown formatına dönüştü
 
 ### [Java ile PDF/UA Uyumlu Dosya Oluşturma – Aspose.Words Tam Kılavuzu](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
 Java ve Aspose.Words kullanarak PDF/UA standartlarına uygun dosyalar oluşturmayı adım adım öğrenin.
+### [DOCX'ten LaTeX Dışa Aktarma – Word'ü C# ile Markdown'a Dönüştürme](./how-to-export-latex-from-docx-convert-word-to-markdown-with/)
+
+### [DOCX'i TXT Olarak Kaydet – Tam C# Kılavuzu](./save-docx-as-txt-full-c-guide/)
+C# ile Aspose.Words kullanarak DOCX dosyasını TXT formatına dönüştürmeyi adım adım öğrenin.
+
+### [DOCX'i Markdown Olarak Dışa Aktarma – Tam C# Kılavuzu](./export-docx-as-markdown-complete-c-guide/)
+C# ile Aspose.Words kullanarak DOCX dosyasını Markdown formatına dönüştürmeyi adım adım öğrenin.
+
+### [Java ile belgeyi PDF olarak kaydet – Tam Aspose Kılavuzu](./save-document-as-pdf-with-java-complete-aspose-guide/)
+Java’da Aspose.Words kullanarak bir belgeyi PDF formatına dönüştürmeyi adım adım öğrenin.
+
+### [Aspose.Words for Java'da Word Görsellerini Kaydet – DOCX'i Markdown'a Dönüştür](./save-word-images-convert-docx-to-markdown-with-java/)
+
+### [Word'ü PDF'ye Dönüştür – Erişilebilir PDF Oluştur](./convert-word-to-pdf-generate-accessible-pdf/)
+
+### [Word'den PNG Oluşturma – Tam Adım‑Adım Kılavuz](./create-png-from-word-complete-step-by-step-guide/)
+Aspose.Words for Java kullanarak bir Word belgesinden PNG görüntüsü oluşturmayı adım adım öğrenin.
 
 ## Sık Sorulan Sorular
 
 **S: Aspose.Words kullanarak mevcut bir PDF’e nasıl filigran eklerim?**  
-C: Belgeyi yükleyin, `DocumentBuilder.insertWatermarkText` veya `insertWatermarkImage` metodunu kullanın, ardından PDF olarak kaydedin.
+C: Belgeyi yükleyin, `DocumentBuilder.insertWatermarkText` veya `DocumentBuilder.insertWatermarkImage` metodunu kullanın, ardından PDF olarak kaydedin.
 
 **S: DOCX dosyasını PDF’e karmaşık düzenleri kaybetmeden dönüştürebilir miyim?**  
 C: Evet. Aspose.Words dönüşüm sırasında düzeni, yazı tiplerini ve grafikleri korur.

@@ -290,6 +290,26 @@ weight: 22
 
 ### [إنشاء ملف PDF/UA متوافق مع Java – دليل كامل Aspose.Words](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
 دليل شامل لإنشاء ملفات PDF/UA متوافقة باستخدام Aspose.Words for Java، مع خطوات البرمجة وتفاصيل التوافق.
+### [حفظ المستند كملف PDF باستخدام Java – دليل Aspose الكامل](./save-document-as-pdf-with-java-complete-aspose-guide/)
+دليل كامل لحفظ المستند كملف PDF باستخدام Aspose.Words for Java مع أمثلة خطوة بخطوة.
+
+### [تحويل Word إلى PDF – إنشاء PDF يمكن الوصول إليه](./convert-word-to-pdf-generate-accessible-pdf/)
+تعلم كيفية تحويل مستندات Word إلى PDF مع تحسين إمكانية الوصول باستخدام Aspose.Words for Java.
+
+### [حفظ صور Word – تحويل DOCX إلى Markdown باستخدام Java](./save-word-images-convert-docx-to-markdown-with-java/)
+تعلم كيفية استخراج صور من مستندات Word وتحويل ملفات DOCX إلى تنسيق Markdown باستخدام Aspose.Words for Java.
+
+### [إنشاء PNG من Word – دليل خطوة بخطوة كامل](./create-png-from-word-complete-step-by-step-guide/)
+تعلم كيفية استخراج صور PNG من مستندات Word باستخدام Aspose.Words for Java خطوة بخطوة.
+
+### [كيفية تصدير LaTeX من DOCX – تحويل Word إلى Markdown باستخدام C#](./how-to-export-latex-from-docx-convert-word-to-markdown-with/)
+تعلم كيفية تحويل مستندات DOCX إلى LaTeX أو Markdown باستخدام Aspose.Words للـ .NET وC# خطوة بخطوة.
+
+### [حفظ docx كملف txt – دليل كامل C#](./save-docx-as-txt-full-c-guide/)
+تعلم كيفية تحويل ملفات DOCX إلى نص عادي (txt) باستخدام Aspose.Words for .NET مع مثال كامل بلغة C#.
+
+### [تصدير DOCX إلى Markdown – دليل C# كامل](./export-docx-as-markdown-complete-c-guide/)
+تعلم كيفية تصدير ملفات DOCX إلى Markdown باستخدام Aspose.Words لـ .NET مع دليل C# كامل.
 
 ### [إنشاء ملف PDF/UA‑1 متوافق باستخدام Java – دليل شامل](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
 دليل خطوة بخطوة لإنشاء ملفات PDF/UA‑1 متوافقة باستخدام Aspose.Words for Java.

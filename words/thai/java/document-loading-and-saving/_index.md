@@ -79,6 +79,7 @@ Aspose.Words for Java ทำให้การ **บันทึกภาพจ�
 
 ### [การทำงานกับ Load Options ใน Aspose.Words for Java](./using-load-options/)
 ### [สร้าง Load Options ใน Java – ตรวจจับฟอนต์ที่หายไปและวิธีโหลด DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
+### [บทแนะนำการแจ้งเตือน Callback – โหลดเอกสาร Word ใน Java](./warning-callback-tutorial-load-word-document-in-java/)
 ### [การกำหนดค่า RTF Load Options ใน Aspose.Words for Java](./configuring-rtf-load-options/)
 
 ### [การโหลดไฟล์ข้อความด้วย Aspose.Words for Java](./loading-text-files/)
@@ -128,6 +129,7 @@ Aspose.Words for Java ทำให้การ **บันทึกภาพจ�
 ### [กู้ไฟล์ docx ที่เสียโดยใช้ Aspose.Words Java](./recover-corrupted-docx-using-aspose-words-java/)
 ### [ลงทะเบียน callback คำเตือนใน Java – ติดตามฟอนต์ที่หายไป](./register-warning-callback-in-java-track-missing-fonts/)
 ### [ตรวจจับการแทนที่ฟอนต์ที่หายไปใน Java – คู่มือ Aspose.Words ฉบับสมบูรณ์](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+### [กู้คืนเอกสาร Word ที่เสียหายโดยใช้ Aspose.Words – คู่มือ](./recover-corrupted-word-document-using-aspose-words-guide/)
 
 ### [บันทึกคำเตือนการแทนที่ฟอนต์ใน Java ด้วย Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
 

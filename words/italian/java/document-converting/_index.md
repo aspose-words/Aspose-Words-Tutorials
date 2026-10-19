@@ -89,6 +89,9 @@ Impara a gestire la conversione di documenti in modo efficiente con Aspose.Words
 ### [Exporting Documents to PDF](./exporting-documents-to-pdf/)
 Scopri come esportare documenti in PDF usando Aspose.Words per Java. Questa guida passo‑passo semplifica il processo per una conversione fluida.
 
+### [Converti DOCX in PDF con Java – Guida Low‑Code Semplice](./convert-docx-to-pdf-in-java-simple-low-code-guide/)
+Scopri come convertire rapidamente file DOCX in PDF usando poche righe di codice Java con Aspose.Words.
+
 ### [Converting Documents to Different Formats](./converting-documents-different-formats/)
 Impara a convertire documenti in diversi formati con Aspose.Words per Java. Guida passo‑passo per una conversione efficiente.
 

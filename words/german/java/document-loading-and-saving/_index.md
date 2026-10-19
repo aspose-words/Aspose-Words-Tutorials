@@ -86,6 +86,9 @@ Dokumenteinstellungen sind der Schlüssel, um Dokumente exakt nach Ihren Anforde
 ### [Ladeoptionen in Java erstellen – Fehlende Schriftarten erkennen & DOCX laden](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
 Lernen Sie, wie Sie Ladeoptionen konfigurieren, fehlende Schriftarten erkennen und DOCX-Dateien korrekt laden.
 
+### [Warnungs‑Callback‑Tutorial – Word‑Dokument in Java laden](./warning-callback-tutorial-load-word-document-in-java/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java Warnungen beim Laden von Word‑Dokumenten abfangen und verarbeiten.
+
 ### [Konfigurieren von RTF‑Ladeoptionen in Aspose.Words für Java](./configuring-rtf-load-options/)
 ### [Laden von Textdateien mit Aspose.Words für Java](./loading-text-files/)
 Entfesseln Sie die Power von Aspose.Words für Java. Lernen Sie, Textdokumente zu laden, Listen zu verwalten, Leerzeichen zu handhaben und die Textausrichtung zu steuern.
@@ -144,6 +147,9 @@ Erfahren Sie, wie Sie beschädigte DOCX‑Dateien in Java mit Aspose.Words repar
 
 ### [Protokollieren von Font‑Substitutions‑Warnungen in Java mit Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
 Erfahren Sie, wie Sie Font‑Substitutions‑Warnungen in Java mit Aspose.Words erfassen und verarbeiten – eine umfassende Anleitung.
+
+### [Beschädigtes Word‑Dokument mit Aspose.Words wiederherstellen – Leitfaden](./recover-corrupted-word-document-using-aspose-words-guide/)
+Erfahren Sie, wie Sie beschädigte Word‑Dateien mit Aspose.Words für Java reparieren und wiederherstellen – Schritt‑für‑Schritt‑Anleitung.
 
 ## Häufig gestellte Fragen
 

@@ -58,6 +58,8 @@ Aspose.Words for Java का उपयोग करके वर्ड दस्
 
 ### [जावा में Word दस्तावेज़ बनाएं – आकृति में छाया जोड़ने का गाइड](./create-word-document-java-add-shadow-to-shape-guide/)
 जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ में आकृति पर छाया प्रभाव जोड़ने का तरीका सीखें।
+### [आयताकार आकार के साथ PDF दस्तावेज़ बनाना – पूर्ण C# गाइड](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+C# में Aspose.PDF का उपयोग करके आयताकार आकार के साथ PDF दस्तावेज़ बनाने का पूर्ण मार्गदर्शन।
 
 ## अतिरिक्त संसाधन
 

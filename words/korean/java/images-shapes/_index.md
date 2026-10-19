@@ -49,6 +49,8 @@ Java를 사용해 Word 문서에 사각형 도형을 삽입하고 사용자 지�
 
 ### [Java에서 텍스트 상자 도형 만들기 – 그림자 추가 완전 가이드](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
 Java를 사용해 Word 문서에 텍스트 상자 도형을 삽입하고 그림자를 적용하는 방법을 단계별로 안내합니다.
+### [사각형 모양을 사용한 PDF 문서 만들기 – 전체 C# 가이드](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+C#을 사용하여 사각형 모양이 포함된 PDF 문서를 생성하고 사용자 지정하는 방법을 단계별로 안내합니다.
 
 ### [Java에서 Word 문서 만들기 – 도형에 그림자 추가 가이드](./create-word-document-java-add-shadow-to-shape-guide/)
 Java를 사용해 Word 문서에 도형에 그림자를 추가하는 방법을 단계별로 안내합니다.

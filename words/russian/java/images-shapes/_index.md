@@ -49,6 +49,8 @@
 
 ### [Создание текстового поля в Java – Полное руководство по добавлению теней](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
 Узнайте, как добавить текстовое поле с теневыми эффектами в документ Word с помощью Aspose.Words для Java.
+### [Создание PDF-документа с прямоугольной фигурой – Полное руководство C#](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+Подробный пример создания PDF с прямоугольной фигурой в Aspose.Words для C#.
 
 ### [Создание документа Word в Java – Добавление тени к фигуре](./create-word-document-java-add-shadow-to-shape-guide/)
 Узнайте, как добавить тень к фигуре в документ Word с помощью Aspose.Words для Java.
