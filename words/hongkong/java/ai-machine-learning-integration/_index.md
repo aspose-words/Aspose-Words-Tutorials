@@ -97,6 +97,14 @@ A: 在插入前先驗證 AI 輸出。使用 Aspose.Words 的 `DocumentBuilder` �
 **Q: 是否需要為特定領域語言重新訓練模型？**  
 A: 大多數情況下，預訓練模型已足夠。若需更高精準度，可自行微調模型後透過相同 API 呼叫。
 
+---
+
+---
+
+**最後更新：** 2025-11-25  
+**測試環境：** Aspose.Words for Java 24.11  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -104,9 +112,3 @@ A: 大多數情況下，預訓練模型已足夠。若需更高精準度，可�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-11-25  
-**測試環境：** Aspose.Words for Java 24.11  
-**作者：** Aspose

@@ -100,6 +100,12 @@ A: Untuk kebanyakan kasus penggunaan, model pra‑latih sudah cukup baik. Jika A
 
 ---
 
+---
+
+**Last Updated:** 2025-11-25  
+**Tested With:** Aspose.Words for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -107,9 +113,3 @@ A: Untuk kebanyakan kasus penggunaan, model pra‑latih sudah cukup baik. Jika A
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-25  
-**Tested With:** Aspose.Words for Java 24.11  
-**Author:** Aspose

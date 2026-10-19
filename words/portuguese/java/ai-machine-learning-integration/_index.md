@@ -99,6 +99,14 @@ A: Valide a saída da IA antes de inseri‑la. Use os métodos `DocumentBuilder`
 **Q: Preciso re‑treinar modelos para linguagem específica de domínio?**  
 A: Para a maioria dos casos de uso, modelos pré‑treinados funcionam bem. Se precisar de maior precisão, considere ajustar finamente um modelo com seu próprio corpus e então chamá‑lo via a mesma API.
 
+---
+
+---
+
+**Last Updated:** 2025-11-25  
+**Tested With:** Aspose.Words for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -106,9 +114,3 @@ A: Para a maioria dos casos de uso, modelos pré‑treinados funcionam bem. Se p
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-25  
-**Tested With:** Aspose.Words for Java 24.11  
-**Author:** Aspose

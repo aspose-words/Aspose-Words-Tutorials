@@ -106,17 +106,14 @@ A: For most use cases, pre‑trained models work well. If you need higher accura
 
 ---
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
-
 **Last Updated:** 2025-11-25  
 **Tested With:** Aspose.Words for Java 24.11  
 **Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
----
+{{< blocks/products/products-backtop-button >}}

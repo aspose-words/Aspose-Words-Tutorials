@@ -98,6 +98,14 @@ AI document processing ผสานการจัดการเอกสาร
 **Q:** **Do I need to retrain models for domain‑specific language?**  
 **A:** สำหรับกรณีส่วนใหญ่ โมเดลที่ผ่านการฝึกแล้วทำงานได้ดี. หากต้องการความแม่นยำสูงขึ้น ให้พิจารณา fine‑tune โมเดลด้วยคอร์ปัสของคุณเองและเรียกผ่าน API เดียวกัน  
 
+---
+
+---
+
+**Last Updated:** 2025-11-25  
+**Tested With:** Aspose.Words for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -105,9 +113,3 @@ AI document processing ผสานการจัดการเอกสาร
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-25  
-**Tested With:** Aspose.Words for Java 24.11  
-**Author:** Aspose

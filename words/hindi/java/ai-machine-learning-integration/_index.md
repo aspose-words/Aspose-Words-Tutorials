@@ -97,6 +97,14 @@ Aspose.Words for Java के साथ OpenAI के GPT‑4 और Google क�
 **प्र: क्या डोमेन‑विशिष्ट भाषा के लिए मॉडल को पुनः ट्रेन करना आवश्यक है?**  
 **उ:** अधिकांश उपयोग मामलों में प्री‑ट्रेंड मॉडल अच्छी तरह काम करते हैं। यदि आपको अधिक सटीकता चाहिए, तो अपने कॉर्पस पर मॉडल को फाइन‑ट्यून करने पर विचार करें और फिर उसी API के माध्यम से कॉल करें।
 
+---
+
+---
+
+**Last Updated:** 2025-11-25  
+**Tested With:** Aspose.Words for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -104,9 +112,3 @@ Aspose.Words for Java के साथ OpenAI के GPT‑4 और Google क�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-25  
-**Tested With:** Aspose.Words for Java 24.11  
-**Author:** Aspose

@@ -99,6 +99,14 @@ A: Validieren Sie die AI‑Ausgabe, bevor Sie sie einfügen. Verwenden Sie die `
 **Q: Muss ich Modelle für domänenspezifische Sprache neu trainieren?**  
 A: Für die meisten Anwendungsfälle funktionieren vortrainierte Modelle gut. Wenn Sie höhere Genauigkeit benötigen, sollten Sie ein Modell mit Ihrem eigenen Korpus feinabstimmen und es dann über dieselbe API aufrufen.
 
+---
+
+---
+
+**Last Updated:** 2025-11-25  
+**Tested With:** Aspose.Words for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -106,9 +114,3 @@ A: Für die meisten Anwendungsfälle funktionieren vortrainierte Modelle gut. We
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-25  
-**Tested With:** Aspose.Words for Java 24.11  
-**Author:** Aspose

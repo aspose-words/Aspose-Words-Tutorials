@@ -96,6 +96,14 @@ A: Valideer de AI‑output voordat je deze invoegt. Gebruik de `DocumentBuilder`
 **Q: Moet ik modellen opnieuw trainen voor domeinspecifieke taal?**  
 A: Voor de meeste use cases werken voorgetrainde modellen goed. Als je hogere nauwkeurigheid nodig hebt, overweeg dan een model te fine‑tunen op je eigen corpus en het vervolgens via dezelfde API aan te roepen.
 
+---
+
+---
+
+**Last Updated:** 2025-11-25  
+**Tested With:** Aspose.Words for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -103,9 +111,3 @@ A: Voor de meeste use cases werken voorgetrainde modellen goed. Als je hogere na
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-25  
-**Tested With:** Aspose.Words for Java 24.11  
-**Author:** Aspose

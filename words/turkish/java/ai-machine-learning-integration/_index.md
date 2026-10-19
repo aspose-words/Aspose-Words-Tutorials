@@ -97,6 +97,14 @@ C: AI çıktısını eklemeden önce doğrulayın. Aspose.Words’ `DocumentBuil
 **S: Alan‑spesifik dil için modelleri yeniden eğitmeme gerek var mı?**  
 C: Çoğu kullanım senaryosu için ön‑eğitimli modeller yeterlidir. Daha yüksek doğruluk gerekiyorsa, kendi veri kümenizle bir modeli ince ayar yapmayı ve ardından aynı API üzerinden çağırmayı düşünün.
 
+---
+
+---
+
+**Son Güncelleme:** 2025-11-25  
+**Test Edilen Versiyon:** Aspose.Words for Java 24.11  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -104,9 +112,3 @@ C: Çoğu kullanım senaryosu için ön‑eğitimli modeller yeterlidir. Daha y�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-11-25  
-**Test Edilen Versiyon:** Aspose.Words for Java 24.11  
-**Yazar:** Aspose

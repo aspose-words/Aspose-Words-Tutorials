@@ -97,6 +97,14 @@ A: Validera AI‑utdata innan du infogar den. Använd Aspose.Words `DocumentBuil
 **Q: Behöver jag återträna modeller för domänspecifikt språk?**  
 A: För de flesta användningsfall fungerar förtränade modeller bra. Om du behöver högre noggrannhet, överväg att finjustera en modell på ditt eget korpus och sedan anropa den via samma API.
 
+---
+
+---
+
+**Senast uppdaterad:** 2025-11-25  
+**Testad med Aspose.Words for Java 24.11  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -104,9 +112,3 @@ A: För de flesta användningsfall fungerar förtränade modeller bra. Om du beh
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-11-25  
-**Testad med Aspose.Words for Java 24.11  
-**Författare:** Aspose

@@ -95,6 +95,14 @@ A: 삽입하기 전에 AI 출력물을하세요. Aspose.Words의 `DocumentBuilde
 **Q: 도메인 특화 언어를 위해 모델을 재학습해야 하나요?**  
 A: 대부분의 경우 사전 학습된 모델로 충분합니다. 더 높은 정확도가 필요하면 자체 코퍼스에 모델을 파인튜닝한 뒤 동일한 API로 호출하는 것을 고려하세요.
 
+---
+
+---
+
+**마지막 업데이트:** 2025-11-25  
+**테스트 환경:** Aspose.Words for Java 24.11  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -102,9 +110,3 @@ A: 대부분의 경우 사전 학습된 모델로 충분합니다. 더 높은 �
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-11-25  
-**테스트 환경:** Aspose.Words for Java 24.11  
-**작성자:** Aspose

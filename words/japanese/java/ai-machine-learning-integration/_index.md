@@ -105,6 +105,14 @@ A: 挿入前に AI の出力を検証してください。Aspose.Words の `Docu
 **Q: ドメイン固有の言語に対してモデルを再学習する必要がありますか？**  
 A: 多くのケースでは事前学習済みモデルで十分です。より高い精度が必要な場合は、独自のコーパスでモデルをファインチューニングし、同じ API で呼び出すことを検討してください。
 
+---
+
+---
+
+**最終更新日:** 2025-11-25  
+**テスト環境:** Aspose.Words for Java 24.11  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -112,9 +120,3 @@ A: 多くのケースでは事前学習済みモデルで十分です。より�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-11-25  
-**テスト環境:** Aspose.Words for Java 24.11  
-**作者:** Aspose

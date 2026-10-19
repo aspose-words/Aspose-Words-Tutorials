@@ -96,6 +96,14 @@ A: Ellenőrizze az AI kimenetét a beillesztés előtt. Használja az Aspose.Wor
 **Q: Szükséges újra‑tréningezni a modelleket domain‑specifikus nyelvhez?**  
 A: A legtöbb esetben a előre‑tréningezett modellek jól működnek. Ha nagyobb pontosságra van szükség, fontolja meg egy modell finomhangolását saját korpuszán, majd hívja meg ugyanazon API‑n keresztül.
 
+---
+
+---
+
+**Last Updated:** 2025-11-25  
+**Tested With:** Aspose.Words for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -103,9 +111,3 @@ A: A legtöbb esetben a előre‑tréningezett modellek jól működnek. Ha nagy
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-25  
-**Tested With:** Aspose.Words for Java 24.11  
-**Author:** Aspose
