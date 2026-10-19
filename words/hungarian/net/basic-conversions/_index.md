@@ -64,6 +64,7 @@ Az Alapvető konverziók című útmutató végigvezeti Önt az Aspose.Words for
 | [Hogyan hozzunk létre PDF-et Wordből C#‑ban – Lépésről‑lépésre útmutató](./how-to-create-pdf-from-word-in-c-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre PDF fájlokat Word dokumentumokból C#‑ban az Aspose.Words for .NET használatával, részletes lépésről‑lépésre útmutatóval. |
 | [PDF létrehozása Wordből C#‑ban – Teljes LowCode útmutató](./create-pdf-from-word-in-c-complete-lowcode-guide/) | Tanulja meg, hogyan hozhat létre PDF-et Word dokumentumokból C#‑ban az Aspose.Words LowCode megoldásával, részletes, lépésről‑lépésre útmutatóval. |
 | [Hozzon létre akadálymentes PDF-et DOCX-ből C#-ban – Hogyan konvertáljon Word-et PDF-be](./create-accessible-pdf-from-docx-in-c-how-to-convert-word-to/) | Tanulja meg, hogyan hozhat létre hozzáférhető PDF-et DOCX fájlból C#-ban az Aspose.Words for .NET segítségével. |
+| [DOCX konvertálása TXT-be – Teljes C# útmutató LaTeX egyenletekhez](./convert-docx-to-txt-complete-c-guide-for-latex-equations/) | Tanulja meg, hogyan konvertálhat DOCX fájlokat TXT formátumba C#-ban, miközben megőrzi a LaTeX egyenleteket. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -46,6 +46,7 @@
 | [استعادة مستند Word باستخدام Aspose.Words في C#](./recover-word-document-with-aspose-words-in-c/) | تعلّم خطوة بخطوة كيفية استعادة مستند Word باستخدام Aspose.Words في C#. |
 | [كيفية استعادة ملف DOCX – ضبط وضع الاستعادة وفتح ملفات Word التالفة](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) | تعلم كيفية ضبط وضع الاستعادة لفتح ملفات Word التالفة واستعادة مستندات DOCX باستخدام Aspose.Words لـ .NET. |
 | [كيفية استخدام LoadOptions في Aspose.Words – دليل شامل](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | دليل شامل يشرح كيفية استخدام LoadOptions في Aspose.Words لتحميل مستندات Word مع إعدادات مخصصة. |
+| [كيفية استخدام LoadOptions لاكتشاف الخطوط المفقودة](./how-to-use-loadoptions-to-detect-missing-fonts/) | تعلم كيفية اكتشاف الخطوط المفقودة عند تحميل مستندات Word باستخدام LoadOptions في Aspose.Words لـ .NET. |
 | [استعادة مستند تالف في C# – ضبط وضع الاستعادة وإظهار مطالبة للمستخدم](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | تعلّم كيفية استعادة مستند Word تالف باستخدام Aspose.Words في C# عبر ضبط وضع الاستعادة وإظهار مطالبة للمستخدم. |
 | [استعادة ملف DOCX تالف – دليل كامل بلغة C#](./recover-corrupted-docx-complete-c-guide/) | تعلم خطوة بخطوة كيفية استعادة ملفات DOCX التالفة باستخدام دليل شامل بلغة C#. |
 | [استعادة مستند Word التالف – دليل C# كامل](./recover-corrupted-word-document-complete-c-guide/) | تعلّم كيفية استعادة مستندات Word التالفة باستخدام Aspose.Words بلغة C# من خلال دليل شامل خطوة بخطوة. |
@@ -63,6 +64,7 @@
 | [كيفية استعادة ملفات Word – دليل شامل مع Aspose.Words](./how-to-recover-word-files-complete-guide-with-aspose-words/) | تعلم خطوة بخطوة كيفية استعادة ملفات Word التالفة باستخدام Aspose.Words في دليل شامل ومفصل. |
 | [استعادة ملف Word التالف – دليل كامل لضبط وضع الاستعادة](./recover-damaged-word-file-complete-guide-to-setting-recovery/) | تعلم خطوة بخطوة كيفية ضبط وضع الاستعادة لاسترجاع ملفات Word التالفة باستخدام Aspose.Words. |
 | [تكوين خيارات تحميل المستند في C# – دليل شامل](./configure-document-load-options-in-c-complete-guide/) | دليل شامل يشرح كيفية تكوين خيارات تحميل المستند في C# باستخدام Aspose.Words لتحسين عملية التحميل. |
+| [فتح ملف Word تالف في C# – دليل كامل](./open-corrupted-word-file-in-c-complete-guide/) | تعلم خطوة بخطوة كيفية فتح ملفات Word التالفة باستخدام Aspose.Words في C# مع إعدادات استعادة متقدمة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

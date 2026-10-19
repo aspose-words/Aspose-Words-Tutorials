@@ -89,6 +89,7 @@ Si desea convertir documentos de Word a PDF para distribuirlos en línea, archiv
 | [Cómo exportar PDF desde Word con Aspose – Guía completa paso a paso](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) | Aprenda a exportar documentos Word a PDF usando Aspose con esta guía detallada paso a paso. |
 | [Etiquetar PDF para accesibilidad en C# – Guía completa](./tag-pdf-for-accessibility-in-c-complete-guide/) | Aprenda a etiquetar PDFs para cumplir con normas de accesibilidad usando Aspose.Words para .NET y C# en esta guía completa. |
 | [Guardar documento PDF con sustitución de fuentes en C# – Guía completa](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Aprenda a guardar documentos PDF con sustitución de fuentes usando Aspose.Words para .NET en C# con esta guía completa paso a paso. |
+| [Crear PDF accesible con Aspose.Words – Guía completa](./create-accessible-pdf-with-aspose-words-complete-guide/) | Guía paso a paso para crear PDFs accesibles con Aspose.Words, cumpliendo normas de accesibilidad. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

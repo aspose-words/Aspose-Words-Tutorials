@@ -61,6 +61,8 @@
 | [Πώς να ελέγξετε τη γραμματική σε C# – Πλήρης οδηγός για έγγραφα Word](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Μάθετε πώς να ενσωματώσετε έλεγχο γραμματικής σε έγγραφα Word χρησιμοποιώντας Aspose.Words για .NET και C#. |
 | [Σύνοψη εγγράφου Word σε C# χρησιμοποιώντας προσαρμοσμένο μοντέλο GPT – Πλήρης οδηγός](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Μάθετε πώς να συνοψίζετε έγγραφα Word σε C# με προσαρμοσμένο μοντέλο GPT, βήμα‑βήμα οδηγός. |
 | [Πώς να επαναγράψετε κείμενο σε έγγραφα Word με το Aspose.Words AI – Πλήρης Οδηγός](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words AI για να επαναγράψετε κείμενο σε έγγραφα Word, βελτιώνοντας τη ροή εργασίας σας. |
+| [Πώς να ελέγξετε τη γραμματική σε C# με το Aspose.Words – Οδηγός](./how-to-check-grammar-in-c-with-aspose-words-guide/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words για .NET για να ελέγξετε τη γραμματική κειμένων σε C#. |
+| [Πώς να χρησιμοποιήσετε τη λειτουργία Summarize στο Aspose.Words – Πλήρης Οδηγός](./how-to-use-summarize-in-aspose-words-complete-guide/) | Μάθετε πώς να εφαρμόσετε τη λειτουργία Summarize στο Aspose.Words για .NET για γρήγορη και ακριβή σύνοψη εγγράφων. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

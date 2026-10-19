@@ -62,6 +62,8 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [C#'ta Word Belgesini Özetleme – Anthropic Claude Kullanarak Tam Kılavuz](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Anthropic Claude modelini kullanarak C# ile Word belgelerini nasıl özetleyeceğinizi öğrenin. |
 | [C# ile Özel GPT Modeli Kullanarak Word Belgesini Özetleme – Tam Kılavuz](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | C# ve özel GPT modeliyle Word belgelerini hızlı ve doğru şekilde özetleyin. Adım adım tam rehber. |
 | [Aspose.Words AI ile Word Belgelerinde Metni Yeniden Yazma – Tam Kılavuz](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Aspose.Words AI kullanarak Word belgelerindeki metni nasıl yeniden yazacağınızı adım adım öğrenin. |
+| [C# ile Aspose.Words Kullanarak Dilbilgisi Kontrolü – Rehber](./how-to-check-grammar-in-c-with-aspose-words-guide/) | C# projelerinizde Aspose.Words ile otomatik dilbilgisi kontrolü yapmayı öğrenin. |
+| [Aspose.Words'ta Summarize Kullanımı – Tam Kılavuz](./how-to-use-summarize-in-aspose-words-complete-guide/) | Aspose.Words'ta Summarize özelliğini nasıl kullanacağınızı adım adım gösteren kapsamlı bir rehber. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

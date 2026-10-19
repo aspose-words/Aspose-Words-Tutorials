@@ -61,6 +61,8 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Sammanfatta Word-dokument i C# – Komplett guide med Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Lär dig hur du använder Anthropic Claude för att automatiskt sammanfatta Word-dokument med C# och Aspose.Words. |
 | [Sammanfatta Word-dokument i C# med en anpassad GPT-modell – Fullständig guide](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Lär dig hur du använder en egen GPT-modell för att automatiskt sammanfatta Word-dokument med Aspose.Words i C#. |
 | [Hur man skriver om text i Word-dokument med Aspose.Words AI – Komplett guide](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Lär dig att automatiskt omskriva text i Word-dokument med Aspose.Words AI i en steg-för-steg-guide. |
+| [Hur du kontrollerar grammatik i C# med Aspose.Words – Guide](./how-to-check-grammar-in-c-with-aspose-words-guide/) | Lär dig hur du använder Aspose.Words för .NET i C# för att automatiskt kontrollera och rätta grammatik i dina dokument. |
+| [Hur du använder Summarize i Aspose.Words – Komplett guide](./how-to-use-summarize-in-aspose-words-complete-guide/) | Lär dig hur du använder Summarize-funktionen i Aspose.Words för .NET för att automatiskt sammanfatta dokument. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

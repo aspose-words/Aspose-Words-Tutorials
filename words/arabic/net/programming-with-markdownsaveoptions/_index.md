@@ -33,6 +33,7 @@
 ### [تحويل docx إلى markdown – دليل خطوة بخطوة C#](./convert-docx-to-markdown-step-by-step-c-guide/)
 
 ### [تحويل docx إلى markdown في C# – دليل خطوة بخطوة](./convert-docx-to-markdown-in-c-step-by-step-guide/)
+### [تحويل Docx إلى Markdown باستخدام C# – دليل برمجة كامل](./convert-docx-to-markdown-with-c-complete-programming-guide/)
 
 ### [حفظ docx كـ markdown – دليل C# كامل مع معادلات LaTeX](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
@@ -157,6 +158,7 @@
 
 ### [حفظ Word كـ Markdown – دليل كامل مع Aspose.Words](./save-word-as-markdown-complete-guide-with-aspose-words/)
 ### [تحويل docx إلى markdown باستخدام C# – دليل كامل](./convert-docx-to-markdown-with-c-complete-guide/)
+### [حفظ DOCX كـ markdown باستخدام Aspose.Words – دليل كامل خطوة بخطوة](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

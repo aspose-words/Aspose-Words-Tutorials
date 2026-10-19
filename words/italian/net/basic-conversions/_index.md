@@ -63,6 +63,7 @@
 | [Come creare PDF da DOCX in C# – Guida passo‑passo](./how-to-create-pdf-from-docx-in-c-step-by-step-guide/) | Scopri come convertire DOCX in PDF usando C# e Aspose.Words con esempi di codice dettagliati. |
 | [Come creare PDF da Word in C# – Guida passo‑passo](./how-to-create-pdf-from-word-in-c-step-by-step-guide/) | Impara a generare PDF da documenti Word in C# con Aspose.Words, seguendo una guida dettagliata passo‑passo con esempi di codice. |
 | [Crea PDF accessibile da DOCX in C# – Come convertire Word in PDF](./create-accessible-pdf-from-docx-in-c-how-to-convert-word-to/) | Scopri come creare PDF accessibili da file DOCX usando C# e Aspose.Words, con esempi di codice e impostazioni di accessibilità. |
+| [Converti DOCX in TXT – Guida completa C# per equazioni LaTeX](./convert-docx-to-txt-complete-c-guide-for-latex-equations/) | Scopri come convertire DOCX in TXT mantenendo le equazioni LaTeX con una guida completa in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

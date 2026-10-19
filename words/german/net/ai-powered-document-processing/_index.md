@@ -62,6 +62,8 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [Word-Dokument zusammenfassen in C# – Vollständiger Leitfaden mit Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und Anthropic Claude Word-Dokumente in C# effizient zusammenfassen. |
 | [Word-Dokument in C# mit einem benutzerdefinierten GPT-Modell zusammenfassen – Vollständige Anleitung](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und einem eigenen GPT-Modell Word-Dokumente in C# automatisch zusammenfassen. |
 | [Wie man Text in Word-Dokumenten mit Aspose.Words KI umschreibt – Komplettanleitung](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Erfahren Sie, wie Sie mit Aspose.Words KI Text in Word-Dokumenten automatisch umschreiben und anpassen können. |
+| [Wie man Grammatik in C# mit Aspose.Words prüft – Leitfaden](./how-to-check-grammar-in-c-with-aspose-words-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET die Grammatik in C#-Code überprüfen und korrigieren können. |
+| [Wie man Summarize in Aspose.Words verwendet – Komplettleitfaden](./how-to-use-summarize-in-aspose-words-complete-guide/) | Erfahren Sie, wie Sie die Summarize‑Funktion in Aspose.Words für .NET einsetzen, um Dokumente automatisch zusammenzufassen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

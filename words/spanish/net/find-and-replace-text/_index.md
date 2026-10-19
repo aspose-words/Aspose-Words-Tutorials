@@ -38,6 +38,7 @@ Ya sea que necesite reemplazar palabras específicas, actualizar plantillas de t
 | [Reemplazar texto en DOCX con C# – Guía paso a paso](./replace-text-in-docx-with-c-step-by-step-guide/) Aprenda a reemplazar texto en archivos DOCX usando C# con Aspose.Words para .NET, siguiendo una guía paso a paso. |
 
 | [Reemplazar texto en docx con C# – Guía completa paso a paso](./replace-text-in-docx-with-c-full-step-by-step-guide/) Aprenda a reemplazar texto en archivos docx usando C# con Aspose.Words para .NET mediante una guía detallada paso a paso. |
+| [Cómo reescribir párrafo con IA en C# – Guía completa](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) Aprenda a reescribir párrafos usando IA en C# con Aspose.Words para .NET. Guía paso a paso y ejemplos claros. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

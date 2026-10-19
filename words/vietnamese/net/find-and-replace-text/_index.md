@@ -38,6 +38,7 @@ Cho dù bạn cần thay thế các từ cụ thể, cập nhật mẫu văn b�
 | [Thay thế văn bản trong DOCX bằng C# – Hướng dẫn từng bước](./replace-text-in-docx-with-c-step-by-step-guide/) | Tìm hiểu cách thay thế văn bản trong tệp DOCX bằng C# với Aspose.Words cho .NET qua hướng dẫn chi tiết từng bước. |
 
 | [Thay thế văn bản trong docx bằng C# – Hướng dẫn chi tiết từng bước](./replace-text-in-docx-with-c-full-step-by-step-guide/) | Hướng dẫn chi tiết cách thay thế văn bản trong tệp docx bằng C# sử dụng Aspose.Words cho .NET, từng bước một. |
+| [Cách viết lại đoạn văn bằng AI trong C# – Hướng dẫn đầy đủ](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Hướng dẫn chi tiết cách sử dụng AI để viết lại đoạn văn trong tài liệu Word bằng C# và Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

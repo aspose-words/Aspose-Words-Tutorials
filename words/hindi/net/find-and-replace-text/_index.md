@@ -37,6 +37,7 @@
 | [तालिका में पाठ बदलें](./replace-text-in-table/) | इस विस्तृत, चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word तालिका में पाठ को आसानी से बदलें। |
 | [C# के साथ DOCX में टेक्स्ट बदलें – चरण‑दर‑चरण गाइड](./replace-text-in-docx-with-c-step-by-step-guide/) | .NET के लिए Aspose.Words का उपयोग करके C# में DOCX फ़ाइलों में टेक्स्ट को बदलने का चरण‑दर‑चरण मार्गदर्शन। |
 | [C# के साथ docx में टेक्स्ट बदलें – पूर्ण चरण‑दर‑चरण गाइड](./replace-text-in-docx-with-c-full-step-by-step-guide/) | .NET के लिए Aspose.Words का उपयोग करके docx फ़ाइलों में टेक्स्ट को बदलने का पूर्ण चरण-दर-चरण मार्गदर्शन। |
+| [C# में AI के साथ पैराग्राफ को पुनर्लेखन कैसे करें – पूर्ण गाइड](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | .NET के लिए Aspose.Words के साथ AI द्वारा पैराग्राफ पुनर्लेखन का पूर्ण मार्गदर्शन। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

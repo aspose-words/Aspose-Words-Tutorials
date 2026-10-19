@@ -37,6 +37,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara Mengatur Resolusi Saat Mengonversi Word ke PNG – Panduan Lengkap](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Pelajari cara mengatur resolusi saat mengonversi dokumen Word ke PNG menggunakan Aspose.Words untuk .NET dengan panduan lengkap. |
 | [Ekspor Word sebagai PNG – Konversi DOCX ke Satu Gambar](./export-word-as-png-convert-docx-to-one-image/) | Pelajari cara mengekspor dokumen Word menjadi satu file gambar PNG menggunakan Aspose.Words untuk .NET dengan contoh kode lengkap. |
 | [Mengonversi docx ke png – Panduan Lengkap Langkah‑per‑Langkah](./convert-docx-to-png-complete-step-by-step-guide/) | Pelajari cara mengonversi file DOCX menjadi gambar PNG dengan panduan langkah demi langkah lengkap menggunakan Aspose.Words untuk .NET. |
+| [Mengonversi DOCX ke PNG – Panduan Lengkap C#](./convert-docx-to-png-complete-c-guide/) | Pelajari cara mengonversi file DOCX menjadi PNG menggunakan Aspose.Words untuk .NET dengan panduan lengkap C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

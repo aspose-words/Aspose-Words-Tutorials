@@ -95,6 +95,8 @@ Words Processing with MarkdownSaveOptions, .NET için Aspose.Words kütüphanesi
 | [Word'ü Markdown'a Dönüştürmek İçin Assets Klasörü Oluştur](./create-assets-folder-for-convert-word-to-markdown/) | Aspose.Words for .NET kullanarak Word belgelerini Markdown'a dönüştürürken gerekli varlıklar klasörünü nasıl oluşturacağınızı öğrenin. |
 | [Word'ü Markdown Olarak Kaydet – Aspose.Words ile Tam Rehber](./save-word-as-markdown-complete-guide-with-aspose-words/) | Aspose.Words for .NET kullanarak Word belgelerini Markdown formatında kaydetmek için adım adım tam rehber. |
 | [C# ile docx'i markdown'a dönüştür – Tam Rehber](./convert-docx-to-markdown-with-c-complete-guide/) | Aspose.Words for .NET kullanarak C# ile docx dosyalarını markdown formatına dönüştürmeyi adım adım öğrenin. |
+| [DOCX'i Aspose.Words ile Markdown olarak Kaydet – Tam Adım‑Adım Rehber](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/) | Aspose.Words for .NET kullanarak DOCX dosyasını tam adım adım Markdown formatına dönüştürün. |
+| [C# ile Docx'i Markdown'a Dönüştür – Tam Programlama Rehberi](./convert-docx-to-markdown-with-c-complete-programming-guide/) | Aspose.Words for .NET kullanarak C# ile docx dosyalarını tam adım adım markdown formatına dönüştürün. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -76,6 +76,7 @@ Whether you want to convert Word documents to PDF for online distribution, archi
 | [How to Save PDF from Word with Inline Shape Export – Complete Guide](./how-to-save-pdf-from-word-with-inline-shape-export-complete/) | Learn how to export inline shapes when saving Word documents as PDF using Aspose.Words for .NET in this comprehensive guide. |
 | [Create pdf/ua-2 compliant document – Complete C# Guide](./create-pdf-ua-2-compliant-document-complete-c-guide/) | Learn how to create PDF/UA‑2 compliant documents using Aspose.Words for .NET with a complete C# guide. |
 | [Tag PDF for Accessibility in C# – Complete Guide](./tag-pdf-for-accessibility-in-c-complete-guide/) | Learn how to tag PDFs for accessibility using Aspose.Words for .NET in C#. Follow this step‑by‑step guide to create compliant PDFs. |
+| [Create Accessible PDF with Aspose.Words – Complete Guide](./create-accessible-pdf-with-aspose-words-complete-guide/) | Comprehensive guide to creating accessible PDFs with Aspose.Words for .NET, covering tags, alt text, and PDF/UA compliance. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

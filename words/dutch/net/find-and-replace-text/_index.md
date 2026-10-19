@@ -37,6 +37,7 @@ Of u nu specifieke woorden moet vervangen, tekstsjablonen moet bijwerken of de i
 | [Tekst in tabel vervangen](./replace-text-in-table/) | Vervang moeiteloos tekst in een Word-tabel met Aspose.Words voor .NET met deze gedetailleerde, stapsgewijze handleiding. |
 | [Tekst vervangen in DOCX met C# – Stapsgewijze handleiding](./replace-text-in-docx-with-c-step-by-step-guide/) | Leer hoe u tekst in DOCX-bestanden vervangt met C# en Aspose.Words in deze stapsgewijze handleiding. |
 | [Tekst vervangen in docx met C# – Volledige stapsgewijze handleiding](./replace-text-in-docx-with-c-full-step-by-step-guide/) | Leer stap voor stap hoe u tekst in een docx-bestand vervangt met C# en Aspose.Words voor .NET. |
+| [Hoe een alinea herschrijven met AI in C# – Volledige gids](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Leer hoe u met AI en C# alinea's automatisch herschrijft in Word-documenten met Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

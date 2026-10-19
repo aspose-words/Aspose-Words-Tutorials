@@ -48,6 +48,7 @@ Bu eğitimlerde, özel ayarlarla Word belgelerini yüklemek için LoadOptions'ı
 | [docx dosyasını kurtarma – kurtarma modunu ayarla ve bozuk Word dosyalarını aç](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) | Aspose.Words for .NET ile bozuk bir docx dosyasını kurtarma modunu ayarlayarak nasıl açacağınızı öğrenin. |
 | [C#'ta DOCX Dosyalarını Kurtarma – Adım Adım Kılavuz](./how-to-recover-docx-files-in-c-step-by-step-guide/) | Aspose.Words for .NET ile C# kullanarak bozuk DOCX dosyalarını adım adım nasıl kurtaracağınızı öğrenin. |
 | [Aspose.Words'te LoadOptions Kullanımı – Tam Kılavuz](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | Aspose.Words for .NET ile LoadOptions kullanarak belgeleri nasıl yükleyeceğinizi ve özelleştireceğinizi adım adım öğrenin. |
+| [LoadOptions Kullanarak Eksik Yazı Tiplerini Tespit Etme](./how-to-use-loadoptions-to-detect-missing-fonts/) | LoadOptions ile eksik yazı tiplerini nasıl tespit edeceğinizi adım adım öğrenin. |
 | [C#'ta Bozuk Belgeyi Kurtarma – Kurtarma Modunu Ayarla ve Kullanıcıyı Uyar](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | Aspose.Words for .NET ile bozuk bir belgeyi kurtarmak, kurtarma modunu ayarlamak ve kullanıcıdan onay istemek için adım adım rehber. |
 | [Bozuk docx Dosyasını Kurtarma – Tam C# Kılavuzu](./recover-corrupted-docx-complete-c-guide/) | Bozuk bir docx dosyasını C# ile adım adım nasıl kurtaracağınızı öğrenin. |
 | [DOCX Dosyasını Kurtarma – Aspose.Words ile Tam Rehber](./how-to-recover-docx-complete-guide-using-aspose-words/) | Aspose.Words for .NET kullanarak bozuk DOCX dosyalarını adım adım nasıl kurtaracağınızı öğrenin. |
@@ -64,6 +65,7 @@ Bu eğitimlerde, özel ayarlarla Word belgelerini yüklemek için LoadOptions'ı
 | [C#'ta Bozuk DOCX Yükleme – Tam Aspose.Words Kılavuzu](./load-corrupted-docx-in-c-complete-aspose-words-guide/) | Aspose.Words for .NET ile bozuk DOCX dosyalarını C# içinde nasıl yükleyeceğinizi adım adım öğrenin. |
 | [Hasarlı Word dosyasını kurtar – bozuk docx'i Aspose kullanarak aç](./recover-damaged-word-file-open-corrupted-docx-using-aspose/) | Aspose.Words for .NET ile bozuk bir docx dosyasını nasıl açıp kurtaracağınızı adım adım öğrenin. |
 | [C#'ta Belge Yükleme Seçeneklerini Yapılandırma – Tam Kılavuz](./configure-document-load-options-in-c-complete-guide/) | Aspose.Words for .NET ile C#'ta belge yükleme seçeneklerini adım adım yapılandırmayı öğrenin. |
+| [C#'ta Bozuk Word Dosyasını Aç – Tam Kılavuz](./open-corrupted-word-file-in-c-complete-guide/) | Aspose.Words for .NET ile C# kullanarak bozuk bir Word dosyasını nasıl açıp içeriğini okuyacağınızı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

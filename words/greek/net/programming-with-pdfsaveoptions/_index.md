@@ -75,6 +75,7 @@
 | [Πώς να εξάγετε PDF από Word με Aspose – Πλήρης Οδηγός Βήμα‑βήμα](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) | Μάθετε πώς να εξάγετε PDF από έγγραφο Word χρησιμοποιώντας Aspose, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα. |
 | [Επισήμανση PDF για προσβασιμότητα σε C# – Πλήρης Οδηγός](./tag-pdf-for-accessibility-in-c-complete-guide/) | Μάθετε πώς να προσθέσετε ετικέτες προσβασιμότητας σε αρχεία PDF χρησιμοποιώντας C# με το Aspose.Words για .NET. |
 | [Αποθήκευση εγγράφου PDF με αντικατάσταση γραμματοσειράς σε C# – Πλήρης Οδηγός](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Μάθετε πώς να αποθηκεύετε έγγραφα PDF με αντικατάσταση γραμματοσειρών χρησιμοποιώντας Aspose.Words για .NET σε C#. |
+| [Δημιουργία προσβάσιμου PDF με Aspose.Words – Πλήρης Οδηγός](./create-accessible-pdf-with-aspose-words-complete-guide/) | Μάθετε πώς να δημιουργήσετε πλήρως προσβάσιμο PDF χρησιμοποιώντας Aspose.Words με αναλυτικές οδηγίες βήμα‑βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

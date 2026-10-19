@@ -63,6 +63,7 @@
 | [PDF aus Word in C# erstellen – Vollständiger Low‑Code‑Leitfaden](./create-pdf-from-word-in-c-complete-lowcode-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET in C# PDFs aus Word-Dokumenten erstellen – vollständige Low‑Code‑Anleitung. |
 | [DOCX in PDF mit C# konvertieren – Schritt‑für‑Schritt‑Anleitung](./convert-docx-to-pdf-with-c-step-by-step-guide/) | Erfahren Sie, wie Sie DOCX mit Aspose.Words in C# in PDF konvertieren. |
 | [Barrierefreies PDF aus DOCX in C# erstellen – So konvertieren Sie Word zu PDF](./create-accessible-pdf-from-docx-in-c-how-to-convert-word-to/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein barrierefreies PDF aus DOCX in C# erstellen. |
+| [DOCX in TXT konvertieren – Vollständige C#‑Anleitung für LaTeX‑Gleichungen](./convert-docx-to-txt-complete-c-guide-for-latex-equations/) | Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in TXT umwandeln und LaTeX‑Gleichungen korrekt verarbeiten – Schritt‑für‑Schritt‑C#‑Guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

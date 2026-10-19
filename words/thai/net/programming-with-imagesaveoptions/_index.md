@@ -37,6 +37,7 @@
 - [วิธีตั้งค่าความละเอียดเมื่อแปลง Word เป็น PNG – คู่มือฉบับสมบูรณ์](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | เรียนรู้วิธีตั้งค่าความละเอียดเมื่อแปลงไฟล์ Word เป็น PNG ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน
 - [ส่งออก Word เป็น PNG – แปลง DOCX เป็นภาพเดียว](./export-word-as-png-convert-docx-to-one-image/) | เรียนรู้วิธีแปลงไฟล์ DOCX เป็นภาพ PNG เดียวโดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน
 - [แปลง docx เป็น png – คู่มือขั้นตอนเต็ม](./convert-docx-to-png-complete-step-by-step-guide/) | เรียนรู้วิธีแปลงไฟล์ docx เป็น PNG อย่างละเอียดด้วย Aspose.Words สำหรับ .NET
+- [แปลง DOCX เป็น PNG – คู่มือ C# ฉบับสมบูรณ์](./convert-docx-to-png-complete-c-guide/) | เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PNG ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

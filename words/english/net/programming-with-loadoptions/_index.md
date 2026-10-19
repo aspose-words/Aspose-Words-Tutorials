@@ -92,6 +92,8 @@ class Program
 | [How to Recover DOCX Files with Aspose.Words – Step‑by‑Step Guide](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/) | Step-by-step guide to recover corrupted DOCX files using Aspose.Words for .NET. |
 | [How to Recover DOCX Files in C# – Step‑by‑Step Guide](./how-to-recover-docx-files-in-c-step-by-step-guide/) | Step-by-step guide to recover corrupted DOCX files using Aspose.Words in C#. |
 | [Configure document load options in C# – Complete Guide](./configure-document-load-options-in-c-complete-guide/) | Step-by-step guide to configuring document load options in C# using Aspose.Words for .NET, covering all settings and best practices. |
+| [How to Use LoadOptions to Detect Missing Fonts](./how-to-use-loadoptions-to-detect-missing-fonts/) | Learn how to detect missing fonts during document loading using LoadOptions in Aspose.Words for .NET. |
+| [Open Corrupted Word File in C# – Complete Guide](./open-corrupted-word-file-in-c-complete-guide/) | Learn how to open corrupted Word files in C# using Aspose.Words with a step-by-step complete guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

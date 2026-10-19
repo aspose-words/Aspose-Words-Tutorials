@@ -62,6 +62,8 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Hoe grammatica te controleren in C# – Complete gids voor Word-documenten](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Leer hoe u grammatica controleert in C# voor Word-documenten met Aspose.Words, inclusief stapsgewijze voorbeelden. |
 | [Samenvatten van Word-document in C# met een aangepast GPT-model – Volledige gids](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Leer hoe u met Aspose.Words en een eigen GPT-model Word-documenten in C# automatisch samenvat. |
 | [Hoe tekst herschrijven in Word-documenten met Aspose.Words AI – Complete gids](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Leer hoe u met Aspose.Words AI tekst in Word-documenten kunt herschrijven voor nauwkeurige en efficiënte bewerkingen. |
+| [Hoe grammatica te controleren in C# met Aspose.Words – Gids](./how-to-check-grammar-in-c-with-aspose-words-guide/) | Leer hoe u met Aspose.Words voor .NET grammatica controleert in C#-toepassingen voor foutloze documenten. |
+| [Hoe Summarize te gebruiken in Aspose.Words – Complete gids](./how-to-use-summarize-in-aspose-words-complete-guide/) | Leer stap voor stap hoe u de Summarize-functie in Aspose.Words voor .NET toepast om documenten efficiënt samen te vatten. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

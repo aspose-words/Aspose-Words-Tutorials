@@ -62,6 +62,8 @@ Por último, no olvides visitar nuestra [Trabajar con opciones de resumen](./wor
 | [Cómo resumir documentos Word en C# – Guía completa usando Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Aprenda a resumir documentos Word con Aspose.Words para .NET usando el modelo Claude de Anthropic. Guía paso a paso. |
 | [Resumen de documento Word en C# usando un modelo GPT personalizado – Guía completa](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Aprenda paso a paso a resumir documentos Word en C# con un modelo GPT personalizado, integrando Aspose.Words. |
 | [Cómo reescribir texto en documentos Word con Aspose.Words AI – Guía completa](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Aprenda a reescribir contenido en documentos Word usando la IA de Aspose.Words para mejorar y actualizar textos rápidamente. |
+| [Cómo comprobar la gramática en C# con Aspose.Words – Guía](./how-to-check-grammar-in-c-with-aspose-words-guide/) | Aprenda a verificar la gramática en documentos de Word usando Aspose.Words para .NET en C#. |
+| [Cómo usar Summarize en Aspose.Words – Guía completa](./how-to-use-summarize-in-aspose-words-complete-guide/) | Aprenda a utilizar la función Summarize de Aspose.Words para .NET y generar resúmenes precisos de documentos. Guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -62,6 +62,8 @@
 | [Резюмирование документа Word на C# – Полное руководство с использованием Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Узнайте, как использовать Anthropic Claude для автоматического резюмирования документов Word в C#. |
 | [Резюмирование документа Word на C# с использованием пользовательской модели GPT – Полное руководство](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Узнайте, как создать собственную модель GPT для резюмирования документов Word в C# с помощью Aspose.Words. |
 | [Как переписать текст в документах Word с помощью Aspose.Words AI – Полное руководство](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Узнайте, как использовать AI Aspose.Words для переписывания текста в документах Word, шаг за шагом. |
+| [Как проверить грамматику в C# с Aspose.Words — Руководство](./how-to-check-grammar-in-c-with-aspose-words-guide/) | Узнайте, как использовать Aspose.Words для .NET для проверки грамматики в C# и улучшения качества документов. |
+| [Как использовать Summarize в Aspose.Words — Полное руководство](./how-to-use-summarize-in-aspose-words-complete-guide/) | Узнайте, как применять функцию Summarize в Aspose.Words для .NET, чтобы быстро создавать резюме документов. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

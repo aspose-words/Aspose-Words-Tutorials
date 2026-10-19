@@ -125,6 +125,11 @@ Aprenda a usar caminhos relativos de imagens ao converter documentos Word para M
 Aprenda a criar uma pasta de ativos ao converter documentos Word para Markdown usando Aspose.Words para .NET.
 ### [Converter docx para markdown com C# – Guia completo](./convert-docx-to-markdown-with-c-complete-guide/)
 Aprenda a converter arquivos DOCX para Markdown usando C# com Aspose.Words, passo a passo com exemplos de código.
+### [Salvar docx como markdown – Guia completo passo a passo com Aspose.Words](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/)
+Aprenda a converter arquivos DOCX para Markdown usando Aspose.Words, com instruções detalhadas passo a passo.
+
+### [Converter Docx para Markdown com C# – Guia de Programação Completo](./convert-docx-to-markdown-with-c-complete-programming-guide/)
+Aprenda a converter arquivos DOCX para Markdown usando C# com um guia completo de programação usando Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

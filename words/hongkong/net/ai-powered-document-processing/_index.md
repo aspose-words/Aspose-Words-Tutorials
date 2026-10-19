@@ -62,6 +62,8 @@
 | [在 C# 中彙總 Word 文件 – 使用 Anthropic Claude 的完整指南](./summarize-word-document-in-c-complete-guide-using-anthropic/) |使用 Aspose.Words for .NET 結合 Anthropic Claude，在 C# 中高效彙總 Word 文件，提升文件處理效率。 |
 | [使用自訂 GPT 模型在 C# 中彙總 Word 文件 – 完整指南](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) |使用 Aspose.Words for .NET 結合自訂 GPT 模型，在 C# 中快速生成 Word 文件的精確摘要。 |
 | [如何使用 Aspose.Words AI 重寫 Word 文件中的文字 – 完整指南](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) |使用 Aspose.Words AI 在 Word 文件中重新撰寫文字，提升內容品質與效率的完整步驟指南。 |
+| [如何使用 Aspose.Words 在 C# 中檢查文法 – 指南](./how-to-check-grammar-in-c-with-aspose-words-guide/) |了解如何使用 Aspose.Words 在 C# 中檢查文法，提升文件品質。 |
+| [如何在 Aspose.Words 中使用匯總 – 完整指南](./how-to-use-summarize-in-aspose-words-complete-guide/) |深入了解如何在 Aspose.Words for .NET 中使用 Summarize 功能，快速生成文件摘要的完整步驟指南。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

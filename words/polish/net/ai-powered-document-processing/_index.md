@@ -61,6 +61,8 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Podsumuj dokument Word w C# – Kompletny przewodnik z użyciem Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Dowiedz się, jak podsumować dokumenty Word w C# przy użyciu modelu Anthropic Claude i Aspose.Words. |
 | [Podsumowanie dokumentu Word w C# przy użyciu własnego modelu GPT – pełny przewodnik](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Dowiedz się, jak stworzyć własny model GPT i używać go do podsumowywania dokumentów Word w C# przy pomocy Aspose.Words. |
 | [Jak przepisać tekst w dokumentach Word przy użyciu Aspose.Words AI – Kompletny przewodnik](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Dowiedz się, jak wykorzystać Aspose.Words AI do automatycznego przepisania i modyfikacji tekstu w dokumentach Word. |
+| [Jak sprawdzić gramatykę w C# przy użyciu Aspose.Words – przewodnik](./how-to-check-grammar-in-c-with-aspose-words-guide/) | Dowiedz się, jak używać Aspose.Words dla .NET do sprawdzania gramatyki w dokumentach C# w kilku prostych krokach. |
+| [Jak używać funkcji Summarize w Aspose.Words – Kompletny przewodnik](./how-to-use-summarize-in-aspose-words-complete-guide/) | Pełny przewodnik po funkcji Summarize w Aspose.Words, pokazujący krok po kroku, jak generować podsumowania dokumentów w .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

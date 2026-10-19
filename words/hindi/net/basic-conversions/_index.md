@@ -65,6 +65,7 @@
 | [C# में Word से PDF बनाएं – पूर्ण लोकोड गाइड](./create-pdf-from-word-in-c-complete-lowcode-guide/) | .NET के लिए Aspose.Words का उपयोग करके Word को PDF में बदलने की लोकोड गाइड, चरण‑दर‑स्टेप विवरण। |
 | [C# के साथ docx को pdf में बदलें – चरण‑दर‑चरण गाइड](./convert-docx-to-pdf-with-c-step-by-step-guide/) | C# में Aspose.Words का उपयोग करके docx को PDF में बदलने की विस्तृत चरण‑दर‑चरण गाइड। |
 | [C# में DOCX से सुलभ PDF बनाएं – Word को PDF में कैसे बदलें](./create-accessible-pdf-from-docx-in-c-how-to-convert-word-to/) | .NET के लिए Aspose.Words का उपयोग करके DOCX से सुलभ PDF बनाने की चरण‑दर‑स्टेप गाइड। |
+| [DOCX को TXT में बदलें – LaTeX समीकरणों के लिए पूर्ण C# गाइड](./convert-docx-to-txt-complete-c-guide-for-latex-equations/) | .NET के लिए Aspose.Words का उपयोग करके DOCX को TXT में बदलें, जिसमें LaTeX समीकरणों को सही ढंग से संभालने के लिए पूर्ण C# गाइड शामिल है। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

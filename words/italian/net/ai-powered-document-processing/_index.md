@@ -60,6 +60,8 @@ Infine, non dimenticare di dare un'occhiata al nostro [Lavorare con le opzioni d
 | [Riassumere documento Word in C# – Guida completa usando Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Scopri come utilizzare il modello Anthropic Claude con Aspose.Words per .NET per riassumere automaticamente i documenti Word in C#. |
 | [Riassumere un documento Word in C# usando un modello GPT personalizzato – Guida completa](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Scopri come utilizzare un modello GPT personalizzato per riassumere documenti Word in C# con Aspose.Words. |
 | [Come riscrivere il testo nei documenti Word con Aspose.Words AI – Guida completa](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Scopri come riscrivere automaticamente testi nei documenti Word usando l'AI di Aspose.Words per .NET. |
+| [Come controllare la grammatica in C# con Aspose.Words – Guida](./how-to-check-grammar-in-c-with-aspose-words-guide/) | Scopri come verificare la grammatica dei documenti Word in C# usando Aspose.Words con questa guida passo‑passo. |
+| [Come utilizzare Summarize in Aspose.Words – Guida completa](./how-to-use-summarize-in-aspose-words-complete-guide/) | Scopri come sfruttare la funzione Summarize di Aspose.Words per .NET per creare riepiloghi efficaci dei documenti. |
 
 | [Come controllare la grammatica e riassumere un documento Word con Aspose.Words AI](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Scopri come verificare la grammatica e generare riassunti dei documenti Word usando l'AI di Aspose.Words. |
 {{< /blocks/products/pf/tutorial-page-section >}}

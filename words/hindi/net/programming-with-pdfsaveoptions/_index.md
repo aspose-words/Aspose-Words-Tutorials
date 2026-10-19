@@ -65,6 +65,7 @@ PdfSaveOptions के साथ Words Processing पर Aspose.Words for .NET �
 | [Aspose के साथ Word से PDF निर्यात करने की पूरी चरण‑दर‑स्टेप गाइड](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) | Aspose.Words का उपयोग करके Word दस्तावेज़ को PDF में बदलने की विस्तृत चरण‑दर‑स्टेप प्रक्रिया सीखें। |
 | [C# में अभिगम्यता के लिए PDF टैग करें – पूर्ण गाइड](./tag-pdf-for-accessibility-in-c-complete-guide/) | C# में Aspose.Words का उपयोग करके PDF फ़ाइलों में अभिगम्यता टैग जोड़ने की पूरी चरण‑दर‑स्टेप गाइड। |
 | [C# में फ़ॉन्ट प्रतिस्थापन के साथ दस्तावेज़ PDF सहेजें – पूर्ण गाइड](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | C# में Aspose.Words का उपयोग करके फ़ॉन्ट प्रतिस्थापन के साथ PDF दस्तावेज़ सहेजने की पूरी प्रक्रिया सीखें। |
+| [Aspose.Words के साथ सुलभ PDF बनाएं – पूर्ण गाइड](./create-accessible-pdf-with-aspose-words-complete-guide/) | Aspose.Words का उपयोग करके सुलभ PDF बनाने की पूरी मार्गदर्शिका। |
 
 | [C# में Word से PDF/UA बनाएं – पूर्ण गाइड](./create-pdf-ua-from-word-in-c-complete-guide/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ को PDF/UA में बदलने की पूरी प्रक्रिया सीखें। |
 | [Aspose के साथ Word से सुलभ PDF बनाएं – चरण‑दर‑चरण गाइड](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) | Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ से सुलभ PDF बनाने की प्रक्रिया को चरण‑दर‑चरण सीखें। |
@@ -83,6 +84,5 @@ PdfSaveOptions के साथ Words Processing पर Aspose.Words for .NET �
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

@@ -64,6 +64,8 @@
 | [Как восстановить файлы DOCX – установить режим восстановления с Aspose](./how-to-recover-docx-files-set-recovery-mode-with-aspose/) | Узнайте, как восстановить файлы DOCX, задав режим восстановления с помощью Aspose.Words. |
 | [Восстановление повреждённого файла Word – открыть повреждённый DOCX с помощью Aspose](./recover-damaged-word-file-open-corrupted-docx-using-aspose/) | Узнайте, как восстановить повреждённый файл Word и открыть повреждённый DOCX с помощью Aspose.Words. |
 | [Как восстановить файлы Word – Полное руководство с Aspose.Words](./how-to-recover-word-files-complete-guide-with-aspose-words/) | Подробное пошаговое руководство по восстановлению повреждённых файлов Word с помощью Aspose.Words. |
+| [Открыть повреждённый файл Word в C# – Полное руководство](./open-corrupted-word-file-in-c-complete-guide/) | Узнайте, как открыть повреждённый файл Word в C# с помощью Aspose.Words, следуя полному пошаговому руководству. |
+| [Как использовать LoadOptions для обнаружения отсутствующих шрифтов](./how-to-use-loadoptions-to-detect-missing-fonts/) | Узнайте, как с помощью LoadOptions обнаруживать недостающие шрифты при загрузке документов Word в Aspose.Words для .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

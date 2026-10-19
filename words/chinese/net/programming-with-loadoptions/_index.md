@@ -45,6 +45,8 @@ Aspose.Words for .NET 教程为希望掌握使用 LoadOptions 进行文字处理
 | [恢复损坏的 Word 文件 – 打开损坏的 DOCX 完整指南并获取页数](./recover-damaged-word-file-complete-guide-to-open-corrupted-docx/) 了解如何使用 Aspose.Words for .NET 恢复损坏的 Word 文件，打开损坏的 DOCX 并获取页数。分步指南。|
 | [恢复损坏的 Word 文件 – 设置恢复模式完整指南](./recover-damaged-word-file-complete-guide-to-setting-recovery/) 了解如何在 Aspose.Words for .NET 中设置恢复模式以打开和修复损坏的 Word 文件，提供完整分步指南。|
 | [恢复损坏的 Word 文件 – 打开损坏的 DOCX 完整指南并获取页数](./recover-damaged-word-file-complete-guide-to-open-corrupted-doc/) 了解如何使用 Aspose.Words for .NET 恢复损坏的 Word 文件，打开损坏的 DOCX 并获取页数。分步指南。|
+| [恢复损坏的 Word 文件 – 打开损坏的 DOCX 完整指南并获取页数](./recover-damaged-word-file-complete-guide-to-open-corrupted-word-d/) 了解如何使用 Aspose.Words for .NET 恢复损坏的 Word 文件，打开损坏的 DOCX 并获取页数。分步指南。|
+| [在 C# 中打开损坏的 Word 文件 – 完整指南](./open-corrupted-word-file-in-c-complete-guide/) 了解如何在 C# 使用 Aspose.Words 打开并恢复损坏的 Word 文件，完整分步指南。|
 | [如何恢复 docx – C# 损坏 Word 文件指南](./how-to-recover-docx-c-guide-for-corrupted-word-files/) 了解如何使用 Aspose.Words for .NET 在 C# 中恢复受损的 docx 文件，步骤详尽，帮助您修复损坏的 Word 文档。|
 | [使用 Aspose.Words 在 C# 中恢复 Word 文档](./recover-word-document-with-aspose-words-in-c/) 了解如何使用 Aspose.Words for .NET 在 C# 中恢复受损的 Word 文档，分步指南帮助您快速修复文件。|
 | [如何恢复 docx – 设置恢复模式并打开受损的 Word 文件](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) 了解如何使用 Aspose.Words for .NET 设置恢复模式并打开受损的 Word 文件，确保文档完整性。|
@@ -64,6 +66,7 @@ Aspose.Words for .NET 教程为希望掌握使用 LoadOptions 进行文字处理
 | [如何使用 Aspose.Words 恢复 Word 文件 – 完整指南](./how-to-recover-word-files-complete-guide-with-aspose-words/) 本完整指南详细演示如何使用 Aspose.Words 恢复受损的 Word 文件，提供分步示例和最佳实践。|
 | [如何在 C# 中恢复 DOCX 文件 – 分步指南](./how-to-recover-docx-files-in-c-step-by-step-guide/) 按照本分步指南，使用 Aspose.Words for .NET 在 C# 中恢复受损的 DOCX 文件，轻松修复文档。|
 | [在 C# 中配置文档加载选项 – 完整指南](./configure-document-load-options-in-c-complete-guide/) 本完整指南详细演示如何在 Aspose.Words for .NET 中使用 LoadOptions 配置文档加载选项，实现自定义加载行为。|
+| [如何使用 LoadOptions 检测缺失字体](./how-to-use-loadoptions-to-detect-missing-fonts/) 了解如何使用 Aspose.Words for .NET 的 LoadOptions 检测文档中缺失的字体，并进行相应处理。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

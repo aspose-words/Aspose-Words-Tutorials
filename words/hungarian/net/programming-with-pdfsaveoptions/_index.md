@@ -75,6 +75,7 @@ Akár Word dokumentumokat szeretne PDF formátumba konvertálni online terjeszt�
 | [PDF címkézése a hozzáférhetőséghez C#‑ban – Teljes útmutató](./tag-pdf-for-accessibility-in-c-complete-guide/) | Ismerje meg, hogyan címkézhet PDF-fájlokat a hozzáférhetőség javítása érdekében C#‑ban az Aspose.Words for .NET segítségével. |
 | [Dokumentum PDF mentése betűtípus helyettesítéssel C#‑ban – Teljes útmutató](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Ismerje meg, hogyan menthet PDF-et betűtípus helyettesítéssel C#‑ban az Aspose.Words for .NET segítségével, lépésről lépésre útmutatóval. |
 
+| [Akadálymentes PDF létrehozása Aspose.Words segítségével – Teljes útmutató](./create-accessible-pdf-with-aspose-words-complete-guide/) | Lépésről lépésre útmutató az Aspose.Words használatával akadálymentes PDF-ek készítéséhez. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

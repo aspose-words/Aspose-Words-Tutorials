@@ -64,6 +64,8 @@ Dans ces tutoriels, vous apprendrez à utiliser LoadOptions pour charger des doc
 | [Récupérer un fichier Word endommagé – ouvrir un DOCX corrompu avec Aspose](./recover-damaged-word-file-open-corrupted-docx-using-aspose/) | Apprenez à récupérer et ouvrir un fichier DOCX corrompu avec Aspose.Words pour .NET. |
 | [Comment récupérer des fichiers Word – Guide complet avec Aspose.Words](./how-to-recover-word-files-complete-guide-with-aspose-words/) | Apprenez à récupérer des fichiers Word endommagés avec Aspose.Words grâce à ce guide complet étape par étape. |
 | [Récupérer un fichier Word endommagé – Guide complet pour définir le mode de récupération](./recover-damaged-word-file-complete-guide-to-setting-recovery/) | Apprenez à récupérer un fichier Word endommagé en configurant le mode de récupération avec Aspose.Words pour .NET, guide complet étape par étape. |
+| [Ouvrir un fichier Word corrompu en C# – Guide complet](./open-corrupted-word-file-in-c-complete-guide/) | Apprenez à ouvrir un fichier Word corrompu en C# avec un guide complet, étape par étape. |
+| [Comment utiliser LoadOptions pour détecter les polices manquantes](./how-to-use-loadoptions-to-detect-missing-fonts/) | Apprenez à détecter les polices manquantes lors du chargement de documents Word avec LoadOptions d'Aspose.Words pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

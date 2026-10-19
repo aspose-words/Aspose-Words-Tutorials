@@ -37,6 +37,7 @@ Aspose.Words for .NET の ImageSaveOptions を使った Words Processing チュ�
 | [Word を PNG に変換する際の解像度設定 – 完全ガイド](./how-to-set-resolution-when-converting-word-to-png-complete-g/) Aspose.Words for .NET を使用して、Word 文書を PNG に変換する際の解像度設定方法を詳しく解説する完全ガイドです。 |
 | [Word を PNG にエクスポート – DOCX を 1 つの画像に変換](./export-word-as-png-convert-docx-to-one-image/) Aspose.Words for .NET を使用して、Word 文書全体を単一の PNG 画像に変換する方法をステップバイステップで解説します。 |
 | [docx を PNG に変換 – 完全ステップバイステップガイド](./convert-docx-to-png-complete-step-by-step-guide/) Aspose.Words for .NET を使用して、docx ファイルを PNG 画像に変換する完全なステップバイステップガイドです。 |
+| [DOCX を PNG に変換 – 完全 C# ガイド](./convert-docx-to-png-complete-c-guide/) Aspose.Words for .NET を使用して、DOCX ファイルを PNG 画像に変換する完全な C# ガイドです。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

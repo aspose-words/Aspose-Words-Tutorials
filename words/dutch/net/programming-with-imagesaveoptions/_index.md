@@ -36,6 +36,7 @@ De tutorials behandelen ook de basisprincipes van beeldmanipulatie, waaronder he
 | [Hoe resolutie in te stellen bij het converteren van Word naar PNG – Complete gids](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Leer hoe u de resolutie kunt aanpassen bij het omzetten van Word-documenten naar PNG met Aspose.Words voor .NET in C#. |
 | [Export Word als PNG – Converteer DOCX naar één afbeelding](./export-word-as-png-convert-docx-to-one-image/) | Leer hoe u een Word-document (DOCX) in één PNG-afbeelding kunt converteren met Aspose.Words voor .NET. |
 | [Docx naar png converteren – Complete stapsgewijze gids](./convert-docx-to-png-complete-step-by-step-guide/) | Leer hoe u een DOCX-bestand naar PNG converteert met een volledige stap‑voor‑stap handleiding. |
+| [DOCX naar PNG converteren – Complete C#-gids](./convert-docx-to-png-complete-c-guide/) | Leer hoe u DOCX-bestanden naar PNG-afbeeldingen converteert met Aspose.Words voor .NET in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

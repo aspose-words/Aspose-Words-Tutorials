@@ -62,6 +62,8 @@
 | [تلخيص مستند Word في C# – دليل كامل باستخدام Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | تعلم كيفية تلخيص مستندات Word باستخدام Aspose.Words لـ .NET مع نموذج Anthropic Claude في دليل شامل خطوة بخطوة. |
 | [تلخيص مستند Word باستخدام نموذج GPT مخصص في C# – دليل كامل](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | تعلم كيفية تلخيص مستندات Word في C# باستخدام نموذج GPT مخصص خطوة بخطوة. |
 | [كيفية إعادة كتابة النص في مستندات Word باستخدام Aspose.Words AI – دليل كامل](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | تعلم كيفية إعادة صياغة النص في مستندات Word باستخدام تقنية Aspose.Words AI خطوة بخطوة. |
+| [كيفية التحقق من القواعد النحوية في C# باستخدام Aspose.Words – دليل](./how-to-check-grammar-in-c-with-aspose-words-guide/) | تعلم كيفية فحص القواعد النحوية في ملفات C# باستخدام Aspose.Words خطوة بخطوة. |
+| [كيفية استخدام Summarize في Aspose.Words – دليل كامل](./how-to-use-summarize-in-aspose-words-complete-guide/) | اكتشف كيفية استخدام Summarize في Aspose.Words لتلخيص المستندات بفعالية خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
