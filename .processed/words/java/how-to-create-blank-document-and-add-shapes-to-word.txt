@@ -1,0 +1,7 @@
+Title: How to create blank document and add shapes to Word
+Slug: how-to-create-blank-document-and-add-shapes-to-word
+Category: images-shapes
+ProcessedDate: 2026-09-18T10:54:50.231884
+SourceRepo: AI Search API
+Keywords: create blank document, add shapes to word, how to insert triangle, add triangle shape, create word document
+PRNumber: 280

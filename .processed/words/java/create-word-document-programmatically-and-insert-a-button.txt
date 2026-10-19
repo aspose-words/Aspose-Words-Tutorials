@@ -1,0 +1,7 @@
+Title: Create word document programmatically and insert a button
+Slug: create-word-document-programmatically-and-insert-a-button
+Category: using-document-elements
+ProcessedDate: 2026-09-21T16:36:50.037979
+SourceRepo: AI Search API
+Keywords: create word document programmatically, save word document button, insert command button word, set command button caption, how to use documentbuilder
+PRNumber: 283

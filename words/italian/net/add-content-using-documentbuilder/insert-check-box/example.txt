@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: Questo tutorial dimostra come creare un nuovo documento Word, inserire un campo modulo casella di controllo con DocumentBuilder e salvare il file risultante.
+//ExStepSummary:0: Crea una variabile per la directory dei dati, istanzia un Document e crea un DocumentBuilder per quel documento.
+//ExStepSummary:1: Chiama `builder.InsertCheckBox` per aggiungere un campo modulo casella di controllo selezionata e abilitata chiamato \"CheckBox\" nella posizione corrente del cursore.
+//ExStepSummary:2: Salva il documento modificato nella cartella specificata usando `doc.Save`.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertCheckBox("CheckBox", true, true, 0);
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx");
+//ExEnd

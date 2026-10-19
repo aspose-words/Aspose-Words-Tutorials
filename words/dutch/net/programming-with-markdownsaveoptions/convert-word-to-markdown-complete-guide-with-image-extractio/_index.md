@@ -1,29 +1,24 @@
 ---
 category: general
-date: 2026-06-17
-description: Converteer Word snel naar Markdown en leer hoe je afbeeldingen uit DOCX
-  kunt extraheren met een callback. Stapsgewijs voorbeeld voor Aspose.Words.
+date: 2026-01-13
+description: Converteer Word naar markdown en extraheer afbeeldingen uit docx in één
+  naadloze workflow. Leer hoe je Word‑afbeeldingen kunt exporteren en markdown kunt
+  genereren uit docx met codevoorbeelden.
 draft: false
 keywords:
 - convert word to markdown
 - extract images from docx
-- how to extract images
-- how to use callback
-- convert docx to markdown
+- convert docx to markdown with images
+- how to export word images
+- generate markdown from docx
 language: nl
-og_description: Converteer Word naar Markdown met Aspose.Words en leer hoe je afbeeldingen
-  uit DOCX kunt extraheren met behulp van een callback. Volledig codevoorbeeld.
-og_title: Word naar Markdown converteren – volledige tutorial
-schemas:
-- author: Aspose
-  dateModified: '2026-06-17'
-  description: Convert Word to Markdown quickly and learn how to extract images from
-    DOCX using a callback. Step‑by‑step example for Aspose.Words.
-  headline: Convert Word to Markdown – Complete Guide with Image Extraction
-  type: TechArticle
+og_description: Converteer Word snel naar markdown, leer hoe je Word‑afbeeldingen
+  exporteert en genereer markdown vanuit docx met stap‑voor‑stap C#‑code.
+og_title: Word naar Markdown converteren – Volledige tutorial met afbeeldingsextractie
 tags:
 - Aspose.Words
 - C#
+- Markdown
 - Document Conversion
 title: Word naar Markdown converteren – Complete gids met afbeeldingsextractie
 url: /nl/net/programming-with-markdownsaveoptions/convert-word-to-markdown-complete-guide-with-image-extractio/
@@ -35,226 +30,222 @@ url: /nl/net/programming-with-markdownsaveoptions/convert-word-to-markdown-compl
 
 # Word naar Markdown converteren – Complete gids met afbeeldingsextractie
 
-Heb je je ooit afgevraagd hoe je **Word naar Markdown** kunt **converteren** zonder een enkele afbeelding te verliezen? Je bent niet de enige. Veel ontwikkelaars hebben een betrouwbare manier nodig om `.docx`‑bestanden om te zetten naar schone Markdown terwijl ze elke ingesloten afbeelding eruit halen – denk aan het genereren van statische site‑inhoud vanuit legacy‑documenten. In deze tutorial lopen we stap voor stap door een praktische oplossing die precies dat doet, en laten we ook **hoe je callback**‑mechanismen gebruikt om te bepalen waar die afbeeldingen op schijf terechtkomen.
+Heb je ooit **Word naar markdown** moeten **converteren** maar was je bang dat de afbeeldingen verloren zouden gaan? Je bent niet de enige. Veel ontwikkelaars lopen tegen dit probleem aan bij het migreren van documentatie of statische sites, en de ontbrekende afbeeldingen maken er een puinhoop van.
 
-Aan het einde van deze gids kun je:
+In deze tutorial lopen we stap voor stap een schone, programmatiche manier door om **Word naar markdown te converteren**, **afbeeldingen uit docx te extraheren**, en te eindigen met een kant‑klaar markdown‑map. Aan het einde weet je precies *hoe je Word‑afbeeldingen exporteert* en *markdown uit docx genereert* met Aspose.Words voor .NET.
 
-* Een Word‑document in één oproep naar Markdown converteren.  
-* Afbeeldingen uit DOCX‑bestanden extraheren en opslaan in een speciale map.  
-* Het callback‑patroon van Aspose.Words begrijpen voor fijnmazige resource‑afhandeling.  
+> **Pro tip:** Dezelfde aanpak werkt met andere .NET‑bibliotheken die resource‑callbacks ondersteunen – vervang gewoon `MarkdownSaveOptions` door de juiste klasse.
 
-Geen poespas, alleen een praktisch, uitvoerbaar voorbeeld dat je in je eigen project kunt gebruiken.
+![convert word to markdown example](convert_word_to_markdown.png)
+
+## Wat je zult bereiken
+
+- Een `.docx` laden die inline of zwevende afbeeldingen bevat.  
+- Het document opslaan als een markdown‑bestand terwijl elke afbeelding naar een aparte map wordt gekopieerd.  
+- Een markdown‑bestand krijgen dat correct naar de geëxtraheerde afbeeldingen verwijst, zodat je statische site of documentatie‑generator ze direct ziet.
+
+Geen handmatig kopiëren‑plakken, geen gebroken links, en geen mysterieuze afbeelding‑404‑fouten.
 
 ## Vereisten
 
-Voordat we beginnen, zorg dat je het volgende klaar hebt staan:
+- .NET 6.0 of later (de code werkt ook op .NET Framework 4.7+).  
+- Aspose.Words for .NET NuGet‑pakket (`Aspose.Words` versie 23.12 of nieuwer).  
+- Een basisbegrip van C# en bestands‑I/O.
 
-| Vereiste | Waarom het belangrijk is |
-|----------|--------------------------|
-| **.NET 6.0+** (of .NET Framework 4.6.2+) | Aspose.Words ondersteunt beide; nieuwere runtimes geven betere prestaties. |
-| **Aspose.Words for .NET** NuGet‑pakket | Biedt de `Document`, `MarkdownSaveOptions` en callback‑API’s. |
-| Een **voorbeeld‑DOCX**‑bestand met afbeeldingen (bijv. `input.docx`) | We extraheren die afbeeldingen om de callback te demonstreren. |
-| Een IDE zoals **Visual Studio 2022** of **VS Code** | Alles wat C# kan compileren volstaat. |
+Als je dat hebt, laten we erin duiken.
 
-Je kunt de bibliotheek via de CLI installeren:
+## Stap 1 – Installeer Aspose.Words
+
+Allereerst, voeg de bibliotheek toe aan je project:
 
 ```bash
 dotnet add package Aspose.Words
 ```
 
-Dat is alles – geen extra afhankelijkheden nodig.
+Die ene regel haalt alles binnen wat je nodig hebt om **docx naar markdown met afbeeldingen te converteren**. Geen extra DLL‑zoektochten nodig.
 
-## Stap 1: Laad het bron‑Word‑document
+## Stap 2 – Laad het bron‑Word‑document
 
-Het eerste wat we doen is het `.docx`‑bestand openen. Dit is hetzelfde, ongeacht of je later naar HTML, PDF of Markdown converteert.
+We beginnen met het maken van een `Document`‑object dat verwijst naar de `.docx` die je afbeeldingen bevat.
 
 ```csharp
-using Aspose.Words;
+using System;
 using System.IO;
-
-// Load the Word document from disk
-Document document = new Document(@"C:\Docs\input.docx");
-```
-
-> **Pro tip:** Als je met streams werkt (bijv. een bestand uploaden via een webformulier), werkt `new Document(stream)` net zo goed.
-
-## Stap 2: Definieer een Callback – Hoe je callback gebruikt voor resource‑opslaan
-
-Aspose.Words laat je het opslaan‑proces onderscheppen via `IResourceSavingCallback`. Dit is het **hoe je afbeeldingen extraheert**‑deel van onze tutorial. Door een callback te leveren bepalen we precies waar elk afbeeldingsbestand wordt weggeschreven, of we slaan ongewenste resources over.
-
-```csharp
+using Aspose.Words;
 using Aspose.Words.Saving;
 
-// Create the callback that controls image output
-ResourceSavingCallback resourceCallback = new ResourceSavingCallback(
-    (sender, args) =>
-    {
-        // Folder where all extracted images will live
-        string resourcesFolder = @"C:\Docs\MarkdownResources";
-        Directory.CreateDirectory(resourcesFolder);
+// Replace with the actual path to your Word file
+string sourcePath = @"C:\Projects\Docs\WithImages.docx";
 
-        // Build a unique filename: img_0.png, img_1.jpg, etc.
-        string fileName = $"img_{args.Index}{args.Extension}";
-        args.Path = Path.Combine(resourcesFolder, fileName);
-
-        // Uncomment the next line if you ever need to skip a resource
-        // args.Cancel = true;
-    });
+Document doc = new Document(sourcePath);
 ```
 
-### Waarom een Callback?
+Waarom dit belangrijk is: de `Document`‑klasse abstraheert het volledige Word‑bestand, waardoor we toegang krijgen tot tekst, stijlen en de cruciale *resource‑collectie* waar afbeeldingen zich bevinden.
 
-* **Fijne controle** – Jij bepaalt het naamgevingsschema en de locatie.  
-* **Prestaties** – Alleen de resources die je nodig hebt worden naar schijf geschreven.  
-* **Flexibiliteit** – Werkt voor afbeeldingen, ingesloten lettertypen of andere externe assets.
+## Stap 3 – Configureer Markdown‑opslaan‑opties met een resource‑callback
 
-## Stap 3: Configureer Markdown‑opslaan‑opties – Converteer DOCX naar Markdown
-
-Nu koppelen we de callback aan de Markdown‑exporteur. Hier gebeurt de **convert docx to markdown**‑magie.
+Aspose.Words stelt ons in staat om in te haken op het opslaan‑proces via `IResourceSavingCallback`. Dit is de kern van **hoe je Word‑afbeeldingen exporteert** tijdens het converteren.
 
 ```csharp
-// Set up Markdown options and attach the callback
-MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
-{
-    // The callback defined above will be invoked for each image
-    ResourceSavingCallback = resourceCallback,
+// Define where the markdown and images will be written
+string outputFolder = @"C:\Projects\Docs\Output";
+string markdownPath = Path.Combine(outputFolder, "Doc.md");
 
-    // Optional: keep original image formats (PNG, JPEG, etc.)
-    ExportImagesAsBase64 = false
+// Ensure the resources sub‑folder exists
+string resourcesFolder = Path.Combine(outputFolder, "Resources");
+Directory.CreateDirectory(resourcesFolder);
+
+// Set up the markdown options and attach our callback
+MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
+{
+    ResourceSavingCallback = new ImageSavingCallback(resourcesFolder)
 };
 ```
 
-Als je liever afbeeldingen direct als Base64‑strings in de Markdown embedt, stel je `ExportImagesAsBase64 = true` in. Voor de meeste static‑site‑generators zijn losse afbeeldingsbestanden netter.
+## Stap 4 – Implementeer de afbeelding‑opslaan‑callback
 
-## Stap 4: Sla het document op – De definitieve Convert Word to Markdown‑aanroep
-
-Met alles aangesloten doet één enkele `Save`‑aanroep het zware werk: conversie plus afbeeldingsextractie.
+Hier is de klasse die bepaalt **waar en hoe elke afbeelding wordt opgeslagen**. Het geeft elke afbeelding een unieke bestandsnaam om conflicten te voorkomen.
 
 ```csharp
-// Output Markdown file path
-string markdownPath = @"C:\Docs\Doc.md";
+class ImageSavingCallback : IResourceSavingCallback
+{
+    private readonly string _folder;
 
+    public ImageSavingCallback(string folder)
+    {
+        _folder = folder;
+    }
+
+    public void ResourceSaving(ResourceSavingArgs args)
+    {
+        // Build a unique file name like img_7f9c3a2b-1e4d.png
+        string uniqueName = $"img_{Guid.NewGuid()}{args.Extension}";
+        string fullPath = Path.Combine(_folder, uniqueName);
+
+        // Tell Aspose to write the image to this path
+        args.FileName = fullPath;
+        args.Stream = new FileStream(fullPath, FileMode.Create);
+    }
+}
+```
+
+**Waarom een GUID gebruiken?** Omdat Word‑documenten vaak meerdere afbeeldingen met dezelfde oorspronkelijke naam bevatten. Door een GUID te genereren garanderen we dat elk bestand uniek is, wat essentieel is bij het **extraheren van afbeeldingen uit docx** voor een markdown‑workflow.
+
+## Stap 5 – Sla het document op als Markdown
+
+Nu voeren we eindelijk de conversie uit. De callback wordt automatisch uitgevoerd voor elke externe resource (d.w.z. elke afbeelding).
+
+```csharp
 // Perform the conversion
-document.Save(markdownPath, markdownOptions);
+doc.Save(markdownPath, mdOptions);
+
+Console.WriteLine($"✅ Markdown saved to: {markdownPath}");
+Console.WriteLine($"🖼️ Images extracted to: {resourcesFolder}");
 ```
 
-Na deze regel vind je:
+Wanneer de opslaan‑operatie voltooid is, vind je:
 
-* `Doc.md` – de Markdown‑representatie van je Word‑document.  
-* `C:\Docs\MarkdownResources\` – een map met `img_0.png`, `img_1.jpg`, enz.
+- `Doc.md` – een markdown‑bestand met afbeeldingslinks zoals `![Image](Resources/img_...png)`.  
+- `Resources/` – een map vol PNG/JPEG‑bestanden die in het oorspronkelijke Word‑document zaten.
 
-### Verwacht Markdown‑fragment
+Dat is de volledige **convert word to markdown**‑pipeline in slechts een paar dozijn regels.
 
-Stel dat het originele DOCX een alinea met een afbeelding bevatte, dan ziet de gegenereerde Markdown er als volgt uit:
+## Verifiëren van de output
 
-```markdown
-![Image](MarkdownResources/img_0.png)
-```
+Open `Doc.md` in een markdown‑viewer (VS Code, GitHub, MkDocs). Je zou de tekst exact moeten zien zoals in het originele Word‑bestand, en elke afbeelding correct weergegeven. Als een afbeelding kapot lijkt, controleer dan of het relatieve pad in de markdown overeenkomt met de daadwerkelijke mapnaam – de callback gebruikt al `Resources/`, dus houd die map naast het markdown‑bestand.
 
-Die regel verwijst rechtstreeks naar het geëxtraheerde afbeeldingsbestand, klaar voor een static‑site‑build.
+## Veelgestelde vragen & randgevallen
 
-## Stap 5: Verifieer de output – Hoe je afbeeldingen extraheren bevestigt
+### “Wat als mijn Word‑bestand SVG‑ of EMF‑afbeeldingen gebruikt?”
 
-Open `Doc.md` in een willekeurige teksteditor. Je zou standaard Markdown‑syntaxis moeten zien, en elke afbeeldingsreferentie moet verwijzen naar een bestand binnen `MarkdownResources`. Probeer het Markdown‑bestand te bekijken in een viewer zoals de markdown‑preview van VS Code; de afbeeldingen zouden correct moeten renderen.
+Aspose.Words converteert automatisch niet‑ondersteunde formaten naar PNG tijdens de callback. Je krijgt nog steeds een bruikbare afbeelding, hoewel de bestandsextensie `.png` zal zijn. Als je het originele formaat nodig hebt, kun je `args.Extension` inspecteren en de conversielogica aanpassen.
 
-Als een afbeelding ontbreekt, controleer dan de callback‑logica:
+### “Kan ik de beeldkwaliteit regelen?”
 
-* Had de map het juiste schrijf‑recht?  
-* Was `args.Cancel` per ongeluk op `true` gezet?  
+Ja. Binnen `ResourceSaving` kun je de stream laden in een `System.Drawing.Image`, de grootte aanpassen of opnieuw coderen, en vervolgens de gewijzigde stream terugschrijven. Dit is handig wanneer je **markdown uit docx wilt genereren** voor een website die kleinere assets vereist.
 
-Het corrigeren van deze twee punten lost meestal de problemen op.
+### “Wat met ingesloten lettertypen of andere resources?”
 
-## Randgevallen & Veelvoorkomende Valkuilen
+De `ResourceSavingCallback` wordt geactiveerd voor *elke* externe resource, niet alleen afbeeldingen. Als je ook audio, video of OLE‑objecten wilt extraheren, behandel ze dan gewoon in dezelfde callback – `args.Extension` geeft je het type.
 
-| Situatie | Waar je op moet letten | Aanbevolen oplossing |
-|----------|------------------------|----------------------|
-| **DOCX bevat SVG‑afbeeldingen** | Aspose.Words converteert SVG standaard naar PNG. | Accepteer de PNG‑output of verwerk later opnieuw als je native SVG nodig hebt. |
-| **Grote documenten (100+ MB)** | Het geheugenverbruik piekt tijdens conversie. | Gebruik `LoadOptions` met `LoadFormat.Docx` en schakel streaming in via `LoadOptions` indien beschikbaar. |
-| **Je hebt een aangepast naamgevingsschema nodig** | Het standaard `img_{index}` kan conflicteren met bestaande bestanden. | Pas de `fileName`‑constructie in de callback aan om een GUID of de originele afbeeldingsnaam (`args.FileName`) toe te voegen. |
-| **Decoratieve afbeeldingen overslaan** | Sommige afbeeldingen zijn decoratief en niet nodig in Markdown. | Inspecteer in de callback de metadata van `args.Image` (bijv. `args.Image.Title`) en zet `args.Cancel = true` voor de afbeeldingen die je wilt negeren. |
+### “Is de markdown‑syntaxis GitHub‑compatibel?”
 
-## Volledig Werkend Voorbeeld (Alle Code in één Bestand)
+Aspose.Words volgt de CommonMark‑specificatie, die GitHub gebruikt. Dus koppen, tabellen en code‑omslagen worden allemaal zoals verwacht weergegeven.
 
-Hieronder vind je het complete, kant‑en‑klaar‑te‑kopiëren programma. Vervang de paden door je eigen mappen.
+## Volledig werkend voorbeeld (klaar om te kopiëren‑plakken)
+
+Hieronder staat het volledige programma dat je in een console‑app kunt plaatsen en direct kunt uitvoeren.
 
 ```csharp
-using Aspose.Words;
-using Aspose.Words.Saving;
 using System;
 using System.IO;
+using Aspose.Words;
+using Aspose.Words.Saving;
 
 namespace WordToMarkdownDemo
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            // 1️⃣ Load the source DOCX
-            string inputPath = @"C:\Docs\input.docx";
-            Document doc = new Document(inputPath);
+            // Paths – adjust to your environment
+            string sourcePath = @"C:\Projects\Docs\WithImages.docx";
+            string outputFolder = @"C:\Projects\Docs\Output";
+            string markdownPath = Path.Combine(outputFolder, "Doc.md");
+            string resourcesFolder = Path.Combine(outputFolder, "Resources");
 
-            // 2️⃣ Set up the callback to extract images
-            ResourceSavingCallback imgCallback = new ResourceSavingCallback(
-                (sender, callbackArgs) =>
-                {
-                    string resourcesFolder = @"C:\Docs\MarkdownResources";
-                    Directory.CreateDirectory(resourcesFolder);
+            // Ensure output directories exist
+            Directory.CreateDirectory(outputFolder);
+            Directory.CreateDirectory(resourcesFolder);
 
-                    string fileName = $"img_{callbackArgs.Index}{callbackArgs.Extension}";
-                    callbackArgs.Path = Path.Combine(resourcesFolder, fileName);
-                    // Uncomment to skip a specific resource
-                    // callbackArgs.Cancel = false;
-                });
+            // Load the Word document
+            Document doc = new Document(sourcePath);
 
-            // 3️⃣ Configure Markdown options and attach the callback
+            // Configure markdown options with our callback
             MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
             {
-                ResourceSavingCallback = imgCallback,
-                ExportImagesAsBase64 = false // Keep images as separate files
+                ResourceSavingCallback = new ImageSavingCallback(resourcesFolder)
             };
 
-            // 4️⃣ Save as Markdown – this also triggers image extraction
-            string outputPath = @"C:\Docs\Doc.md";
-            doc.Save(outputPath, mdOptions);
+            // Save as markdown – images are extracted automatically
+            doc.Save(markdownPath, mdOptions);
 
-            Console.WriteLine("Conversion complete!");
-            Console.WriteLine($"Markdown file: {outputPath}");
-            Console.WriteLine($"Images saved in: C:\\Docs\\MarkdownResources");
+            Console.WriteLine($"✅ Markdown saved to: {markdownPath}");
+            Console.WriteLine($"🖼️ Images extracted to: {resourcesFolder}");
+        }
+    }
+
+    // Callback that writes each image to the Resources folder
+    class ImageSavingCallback : IResourceSavingCallback
+    {
+        private readonly string _folder;
+
+        public ImageSavingCallback(string folder) => _folder = folder;
+
+        public void ResourceSaving(ResourceSavingArgs args)
+        {
+            string uniqueName = $"img_{Guid.NewGuid()}{args.Extension}";
+            string fullPath = Path.Combine(_folder, uniqueName);
+            args.FileName = fullPath;
+            args.Stream = new FileStream(fullPath, FileMode.Create);
         }
     }
 }
 ```
 
-Voer het programma uit (`dotnet run` of druk op **F5** in Visual Studio). Wanneer de console *“Conversion complete!”* toont, heb je succesvol **convert word to markdown** en **extract images from docx** in één stap uitgevoerd.
+Voer het programma uit, open `Output\Doc.md`, en je ziet een perfect opgemaakt markdown‑bestand met alle afbeeldingen intact. 🎉
 
-## Samenvatting – Wat we hebben behandeld
+## Samenvatting
 
-* **Convert Word to Markdown** met `MarkdownSaveOptions`.  
-* **Hoe je afbeeldingen extraheert** door een `IResourceSavingCallback` te implementeren.  
-* **Hoe je callback** gebruikt om bestandsnamen, locaties en zelfs het overslaan van resources te regelen.  
-* **Convert docx to markdown** end‑to‑end met een volledig uitvoerbaar C#‑voorbeeld.
+We hebben alles behandeld wat je nodig hebt om **word naar markdown te converteren**, **afbeeldingen uit docx te extraheren**, en **markdown uit docx te genereren** zonder een enkele pixel te verliezen. De belangrijkste conclusie? Het benutten van Aspose.Words’ `ResourceSavingCallback` geeft je fijnmazige controle over hoe elke afbeelding wordt opgeslagen, waardoor het hele conversieproces betrouwbaar en herhaalbaar is.
 
-## Volgende Stappen
+### Wat is het volgende?
 
-Nu je een solide basis hebt, overweeg je de volgende uitbreidingen:
+- **Batch‑conversie:** Loop over een map met `.docx`‑bestanden en produceer binnen enkele minuten een markdown‑site.  
+- **Afbeeldingsoptimalisatie:** Integreer een bibliotheek zoals `ImageSharp` om afbeeldingen on‑the‑fly te verkleinen of te comprimeren.  
+- **Aangepaste markdown‑styling:** Pas `MarkdownSaveOptions` aan (bijv. `ExportHeadersAsHtml`) om te voldoen aan de verwachtingen van je static‑site‑generator.
 
-* **Batchverwerking** – Loop door een map met DOCX‑bestanden en genereer een bijbehorende set Markdown‑bestanden.  
-* **Front‑matter injectie** – Voeg YAML‑front‑matter toe aan elk Markdown‑bestand voor static‑site‑generators zoals Hugo of Jekyll.  
-* **Afbeeldingsoptimalisatie** – Leid de geëxtraheerde afbeeldingen via een tool zoals **ImageMagick** om de bestandsgrootte te verkleinen vóór publicatie.  
-
-Voel je vrij om te experimenteren – misschien voeg je een eigen Markdown‑renderer toe of integreer je dit in een CI‑pipeline. De mogelijkheden zijn eindeloos.
-
----
-
-*Happy coding! If you hit any snags, drop a comment below and I’ll help you troubleshoot.*
-
-## Wat moet je hierna leren?
-
-De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids zijn gedemonstreerd. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap‑uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
-
-- [Word‑afbeeldingen opslaan – Word naar Markdown converteren met Aspose](/words/english/net/programming-with-markdownsaveoptions/save-word-images-convert-word-to-markdown-with-aspose/)
-- [Word naar Markdown converteren – Afbeeldingen embedden als Base64](/words/english/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed-images-as-base64/)
-- [Hoe je afbeeldingen hernoemt bij het converteren van DOCX naar Markdown](/words/english/net/programming-with-markdownsaveoptions/how-to-rename-images-when-converting-docx-to-markdown/)
+Voel je vrij om te experimenteren, en als je tegen problemen aanloopt, laat dan een reactie achter. Veel plezier met coderen, en geniet van de naadloze brug van Word naar markdown!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

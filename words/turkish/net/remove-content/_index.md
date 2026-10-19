@@ -28,7 +28,7 @@ Word belgelerini düzenlemeniz, oluşturmanız, dönüştürmeniz veya üretmeni
 | [Word Belgesindeki Bölüm Sonlarını Kaldır](./remove-section-breaks/) | Aspose.Words for .NET kullanarak Word belgelerindeki bölüm sonlarının nasıl kaldırılacağını öğrenin. Bu ayrıntılı, adım adım kılavuz, sorunsuz belge yönetimi ve düzenlemesi sağlar.
 | [Word Belgesindeki Altbilgileri Kaldır](./remove-footers/) Bu kapsamlı adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerinden altbilgileri nasıl kaldıracağınızı öğrenin.
 | [Word Belgesindeki İçindekiler Tablosunu Kaldır](./remove-table-of-contents/) | Aspose.Words for .NET kullanarak Word belgesindeki içerik tablosunun nasıl kaldırılacağını öğrenin. |
-
+| [C#'ta LLM Çağırma – Yerel Model ile Tam Kılavuz](./how-to-call-llm-in-c-complete-guide-with-local-model/) | C# içinde yerel bir LLM modelini nasıl çağıracağınızı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

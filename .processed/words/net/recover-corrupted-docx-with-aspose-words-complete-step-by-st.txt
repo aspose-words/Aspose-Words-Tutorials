@@ -1,0 +1,7 @@
+Title: Recover corrupted docx with Aspose.Words – Complete Step‑by‑Step Guide
+Slug: recover-corrupted-docx-with-aspose-words-complete-step-by-st
+Category: programming-with-loadoptions
+ProcessedDate: 2026-06-21T06:40:17.688316
+SourceRepo: AI Search API
+Keywords: recover corrupted docx, how to recover word file, recover content from corrupted file
+PRNumber: 207
