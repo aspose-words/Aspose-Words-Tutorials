@@ -51,19 +51,19 @@ Restarting page numbering allows you to begin a new numbering sequence in a spec
 ### Required Libraries and Versions
 Ensure you have Aspose.Words for Java version 25.3 (or newer) installed.
 
-**Maven:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-words</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ### Environment Setup Requirements
 - Java Development Kit (JDK) installed.
@@ -88,6 +88,16 @@ public class SetupAsposeWords {
         System.out.println("Aspose.Words is ready to use!");
     }
 }
+```  
+
+With the library ready, you can start using the core features.
+
+## How to analyze pages using LayoutCollector?
+
+`LayoutCollector` is a class that maps each node in a `Document` to its start and end page numbers, enabling precise pagination analysis. Load your document, attach a `LayoutCollector`, and query page information – the entire operation takes just a few lines of code and provides reliable results even for large files.
+
+```text
+Load the document → create LayoutCollector → call getStartPage(node) / getEndPage(node)
 ```
 
 With the library ready, we can dive into the core features.
@@ -106,10 +116,9 @@ By leveraging the `LayoutCollector`, you can retrieve the start and end page ind
 ```java
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
-```
+```  
 
-**2. Populate the Document**
-Here, we'll add content that spans multiple pages:
+### Step 2: populate the document with multi‑page content
 ```java
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.write("Section 1");
@@ -117,14 +126,27 @@ builder.insertBreak(BreakType.PAGE_BREAK);
 builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
 builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
-```
+```  
 
-**3. Update Layout and Retrieve Metrics**
+### Step 3: update layout and retrieve metrics
 ```java
 layoutCollector.clear();
 doc.updatePageLayout();
 
 assert layoutCollector.getNumPagesSpanned(doc) == 5;
+```  
+
+**Explanation:**  
+- `DocumentBuilder` inserts content.  
+- `updatePageLayout()` forces a layout pass so page numbers are accurate.  
+- `getStartPage` / `getEndPage` return the first and last page indices for any node.
+
+## How to enumerate layout elements with LayoutEnumerator?
+
+`LayoutEnumerator` is a class that traverses the visual layout tree of a document, exposing each element’s type, position, and size—perfect for custom rendering or analytics. The `LayoutEnumerator` walks the visual layout tree, exposing each element’s type, position, and size—perfect for custom rendering or analytics.
+
+```text
+Initialize LayoutEnumerator → move to first child → iterate while moving next sibling
 ```
 
 #### Explanation
@@ -143,7 +165,7 @@ You can walk through pages, paragraphs, lines, and other layout entities, which 
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
-```
+```  
 
 **2. Traversing Forward and Backward**
 ```java
@@ -154,6 +176,18 @@ traverseLayoutForward(layoutEnumerator, 1);
 
 // Traverse backward
 traverseLayoutBackward(layoutEnumerator, 1);
+```  
+
+**Explanation:**  
+- `moveParent()` climbs up the tree.  
+- Recursive traversal gives you complete access to every layout node.
+
+## How to implement page layout callbacks?
+
+`IPageLayoutCallback` is an interface for receiving layout events during document processing, allowing you to react to layout changes such as section reflows or rendering completion. Implementing `IPageLayoutCallback` lets you react to layout events such as section reflows or rendering completion, giving you dynamic control over the document generation pipeline.
+
+```text
+Set callback on Document → implement notify(event) → handle specific layout events
 ```
 
 #### Explanation
@@ -172,9 +206,9 @@ The `IPageLayoutCallback` interface notifies you when a part of the document fin
 ```java
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
 doc.updatePageLayout();
-```
+```  
 
-**2. Implement Callback Methods**
+### Step 2: implement callback methods
 ```java
 private static class RenderPageLayoutCallback implements IPageLayoutCallback {
     public void notify(PageLayoutCallbackArgs a) throws Exception {
@@ -194,6 +228,18 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
         }
     }
 }
+```  
+
+**Explanation:**  
+- `notify()` receives an event identifier.  
+- `ImageSaveOptions` can be customized inside the callback for on‑the‑fly image rendering.
+
+## How to restart page numbering in continuous sections?
+
+`ContinuousSectionRestart` is an enumeration that specifies whether page numbering restarts in continuous sections, giving you fine‑grained control over numbering schemes across a document. When a document contains multiple sections that flow continuously, you can control whether page numbers restart automatically.
+
+```text
+Load document → set ContinuousSectionPageNumberingRestart option → save
 ```
 
 #### Explanation
@@ -211,13 +257,13 @@ By setting the `ContinuousSectionRestart` option, you can decide whether page nu
 **1. Load Document**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
-```
+```  
 
-**2. Configure Page Numbering Options**
+### Step 2: configure page‑numbering options
 ```java
 doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
 doc.updatePageLayout();
-```
+```  
 
 #### Explanation
 - **`setContinuousSectionPageNumberingRestart()`** tells Aspose.Words how to handle numbering in continuous sections.

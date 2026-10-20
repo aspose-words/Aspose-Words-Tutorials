@@ -33,6 +33,8 @@
 
 ### [วิธีการเรนเดอร์หน้าเอกสารเป็นภาพขนาดย่อโดยใช้ Aspose.Words สำหรับ Java](./render-word-pages-thumbnails-aspose-java/)
 เรียนรู้วิธีสร้างภาพขนาดย่อคุณภาพสูงและบิตแมปขนาดกำหนดเองของเอกสาร Word ด้วย Aspose.Words สำหรับ Java ปรับปรุงความสามารถในการจัดการเอกสารของคุณวันนี้
+### [สร้างเอกสาร Word ด้วย Java – เพิ่มรูปสี่เหลี่ยมผืนผ้าพร้อมเงา](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+เรียนรู้วิธีเพิ่มรูปสี่เหลี่ยมผืนผ้าพร้อมเงาในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
 
 ### [เพิ่มเงาให้กับรูปร่างใน Word – คู่มือ Aspose.Words ฉบับสมบูรณ์](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 เรียนรู้วิธีเพิ่มเงาให้กับรูปร่างในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
@@ -60,6 +62,37 @@
 
 ### [สร้างเอกสาร Word ด้วย Java – เพิ่มรูปทรงพร้อมเงา](./create-word-document-java-add-shape-with-shadow-effect/)
 เรียนรู้วิธีเพิ่มรูปทรงพร้อมเงาในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
+
+### [สร้างรูปสี่เหลี่ยมผืนผ้าใน Java ด้วย Aspose.Words – คู่มือเต็ม](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+เรียนรู้วิธีสร้างรูปสี่เหลี่ยมผืนผ้าใน Java ด้วย Aspose.Words อย่างละเอียดครบถ้วน
+
+### [วิธีการแทรกกลุ่มรูปร่างใน Java – คู่มือฉบับสมบูรณ์](./how-to-insert-group-shape-in-java-complete-guide/)
+เรียนรู้ขั้นตอนการแทรกและจัดการกลุ่มรูปร่างในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
+
+### [สร้างเอกสาร Word เปล่าพร้อมสี่เหลี่ยมกลุ่ม – คู่มือ C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+เรียนรู้วิธีสร้างเอกสาร Word เปล่าและเพิ่มสี่เหลี่ยมที่จัดกลุ่มโดยใช้ Aspose.Words สำหรับ C#
+
+### [แทรกรูปสี่เหลี่ยมผืนผ้าใน Java – จัดกลุ่มและกำหนดตำแหน่งรูปร่าง](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+เรียนรู้วิธีแทรกรูปสี่เหลี่ยมผืนผ้าในเอกสาร Word ด้วย Aspose.Words สำหรับ Java พร้อมการจัดกลุ่มและกำหนดตำแหน่งของรูปร่าง
+
+### [แทรกรูปภาพลงใน Word – คู่มือขั้นตอนโดย Aspose.Words](./insert-image-into-word-aspose-words-step-by-step-guide/)
+เรียนรู้วิธีแทรกรูปภาพในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
+
+### [แทรกรูปสี่เหลี่ยมผืนผ้าใน Word ด้วย C# – คู่มือครบถ้วน](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+### [สร้างไฟล์ Word เปล่าพร้อมเงาใน Java – คู่มือเต็ม](./create-blank-word-with-shadow-in-java-full-guide/)
+เรียนรู้วิธีสร้างเอกสาร Word เปล่าพร้อมเงาใน Java ด้วย Aspose.Words อย่างละเอียด
+### [การจัดกลุ่มรูปร่างใน Word – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./group-shapes-in-word-complete-programming-guide/)
+เรียนรู้วิธีจัดกลุ่มและจัดการรูปร่างหลายรูปในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
+
+### [ซ่อนรูปภาพใน Word – คู่มือขั้นตอนโดยขั้นตอนสำหรับ Java ด้วย Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+เรียนรู้วิธีซ่อนรูปภาพในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
+### [วิธีการจัดกลุ่มรูปร่างในเอกสาร Word ด้วย Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+เรียนรู้วิธีจัดกลุ่มรูปร่างหลายๆ รูปในเอกสาร Word อย่างง่ายดายด้วย Aspose.Words สำหรับ Java
+
+### [วิธีตั้งค่าคุณสมบัติ hidden ของรูปร่างใน Aspose.Words สำหรับ C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+เรียนรู้วิธีตั้งค่าคุณสมบัติ hidden ของรูปร่างใน Aspose.Words สำหรับ C#
+### [สร้างเอกสาร Word ว่างและจัดกลุ่มรูปร่างใน Java](./create-blank-word-document-and-group-shapes-in-java/)
+เรียนรู้วิธีสร้างเอกสาร Word ว่างและจัดกลุ่มรูปร่างด้วย Aspose.Words สำหรับ Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 

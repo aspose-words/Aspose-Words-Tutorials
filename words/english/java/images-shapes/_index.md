@@ -53,6 +53,9 @@ A code tutorial for Aspose.Words Java
 ### [How to Render Document Pages as Thumbnails using Aspose.Words for Java]({{< relref "./render-word-pages-thumbnails-aspose-java/" >}})
 Learn how to generate high-quality thumbnails and custom-sized bitmaps of Word documents with Aspose.Words for Java. Enhance your document handling capabilities today.
 
+### [Create word document java – add rectangle shape with shadow effect](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+Learn how to add a rectangle shape with a shadow effect to a Word document using Aspose.Words for Java.
+
 ### [Add shadow to shape in Word – Complete Aspose.Words Guide](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Learn how to apply shadow effects to shapes in Word documents using Aspose.Words for Java, with step-by-step code examples.
 ### [Apply Shadow Effect to a Shape in C# – Step‑by‑Step Guide](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
@@ -79,6 +82,38 @@ Learn how to group shapes in Word documents using Aspose.Words for Java with a d
 
 ### [Create Word Document Java – Add Shape with Shadow Effect](./create-word-document-java-add-shape-with-shadow-effect/)
 Learn how to add a shape with a shadow effect to a Word document using Aspose.Words for Java.
+
+### [Create rectangle shape in Java with Aspose.Words – Full Guide](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Comprehensive guide to creating and customizing rectangle shapes in Word documents using Aspose.Words for Java.
+
+### [how to insert group shape in Java – Complete Guide](./how-to-insert-group-shape-in-java-complete-guide/)
+Learn how to insert and manipulate group shapes in Word documents using Aspose.Words for Java.
+
+### [Create blank word document with grouped rectangles – C# guide](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Learn how to create a blank Word document and add grouped rectangle shapes using Aspose.Words for C#.
+
+### [Insert Rectangle Shape in Java – Group and Position Shapes](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+Learn how to group rectangle shapes and set their positions in a Word document using Aspose.Words for Java.
+
+### [Insert Image into Word – Aspose.Words Step-by-Step Guide](./insert-image-into-word-aspose-words-step-by-step-guide/)
+Step-by-step guide on inserting images into Word documents using Aspose.Words for Java.
+
+### [Insert rectangle shape in Word using C# – complete guide](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+Learn how to insert a rectangle shape into a Word document using Aspose.Words for C# with a step-by-step guide.
+### [Create blank word with shadow in Java – Full guide](./create-blank-word-with-shadow-in-java-full-guide/)
+Learn how to create a blank Word document with a shadow effect using Aspose.Words for Java in this comprehensive guide.
+### [Group shapes in Word – complete programming guide](./group-shapes-in-word-complete-programming-guide/)
+A comprehensive guide on grouping shapes in Word documents using Aspose.Words for Java.
+
+### [Hide picture in Word – step‑by‑step Java guide with Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Step-by-step guide on hiding pictures in Word documents using Aspose.Words for Java.
+### [How to group shapes in a Word document using Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Learn how to group multiple shapes into a single shape in a Word document using Aspose.Words for Java.
+
+### [How to set shape hidden property in Aspose.Words for C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Learn how to set the hidden property of shapes in a Word document using Aspose.Words for C#.
+### [Create blank Word document and group shapes in Java](./create-blank-word-document-and-group-shapes-in-java/)
+Learn how to create a blank Word document and group multiple shapes using Aspose.Words for Java.
 
 ## Additional Resources
 

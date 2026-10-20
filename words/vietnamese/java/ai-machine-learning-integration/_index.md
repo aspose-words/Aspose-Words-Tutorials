@@ -71,6 +71,8 @@ Tìm hiểu cách tự động hoá tóm tắt và dịch văn bản bằng Aspo
 Hướng dẫn cấu hình mô hình ngôn ngữ lớn để tự động thay thế nội dung trong tài liệu DOCX bằng AI.
 ### [Tạo Mô Hình AI Tùy Chỉnh – Chỉnh Sửa Đoạn Văn Bản Word trong Java](./create-custom-ai-model-edit-word-paragraphs-in-java/)
 Hướng dẫn xây dựng mô hình AI tùy chỉnh và tích hợp để chỉnh sửa các đoạn văn trong tài liệu Word bằng Aspose.Words cho Java.
+### [Tạo tài liệu Word bằng Java với Kiểm tra Ngữ pháp LLM Tùy chỉnh](./create-word-document-java-with-custom-llm-grammar-check/)
+Hướng dẫn tạo tài liệu Word trong Java và tích hợp mô hình ngôn ngữ tùy chỉnh để kiểm tra ngữ pháp tự động.
 
 ## Additional Resources
 

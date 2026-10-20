@@ -90,6 +90,8 @@ Aspose.Words для Java — это мощный и универсальный A
 Узнайте, как разбить документы на HTML-страницы с помощью Aspose.Words для Java. Следуйте нашему пошаговому руководству для бесшовного преобразования документов.
 ### [Добавление контента с помощью DocumentBuilder в Aspose.Words для Java](./adding-content-using-documentbuilder/)
 Мастер создания документов с Aspose.Words для Java. Пошаговое руководство по добавлению текста, таблиц, изображений и многого другого. Создавайте потрясающие документы Word без усилий.
+### [Как создать документ Word в Java с помощью Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Узнайте, как быстро создать документ Word в Java с использованием Aspose.Words. Пошаговое руководство с примерами кода.
 ### [Клонирование и объединение документов в Aspose.Words для Java](./cloning-and-combining-documents/)
 Узнайте, как клонировать и объединять документы в Aspose.Words для Java. Пошаговое руководство с примерами исходного кода.
 ### [Сравнение документов в Aspose.Words для Java](./comparing-documents/)
@@ -106,6 +108,8 @@ Aspose.Words для Java — это мощный и универсальный A
 Улучшайте документы с помощью веб-расширений в Aspose.Words для Java. Научитесь бесшовно интегрировать веб-контент. 
 ### [Тегирование PDF для доступности в Java – Генерация доступных PDF](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Узнайте, как добавить теги доступности в PDF с помощью Aspose.Words for Java, чтобы создавать документы, соответствующие стандартам доступности.
+### [Создание кнопки ActiveX в docx на Java – полное руководство по программированию](./create-docx-activex-button-in-java-complete-programming-guid/)
+Подробное руководство по созданию кнопки ActiveX в файлах docx с использованием Aspose.Words для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

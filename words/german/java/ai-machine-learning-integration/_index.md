@@ -72,6 +72,8 @@ Erfahren Sie, wie Sie die Textzusammenfassung und -übersetzung mit Aspose.Words
 Erfahren Sie, wie Sie ein LLM einrichten, um Text in DOCX‑Dateien automatisch zu ersetzen und KI‑gestützte Inhalte zu integrieren.
 ### [Eigenes KI‑Modell erstellen – Word‑Absätze in Java bearbeiten](./create-custom-ai-model-edit-word-paragraphs-in-java/)
 Erfahren Sie, wie Sie ein benutzerdefiniertes KI‑Modell trainieren und damit Word‑Absätze in Java programmgesteuert bearbeiten.
+### [Word‑Dokument in Java mit benutzerdefiniertem LLM‑Grammatik‑Check erstellen](./create-word-document-java-with-custom-llm-grammar-check/)
+Erfahren Sie, wie Sie ein Word‑Dokument in Java erzeugen und dabei ein benutzerdefiniertes LLM zur Grammatikprüfung einsetzen.
 
 ## Zusätzliche Ressourcen
 

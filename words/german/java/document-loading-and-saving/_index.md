@@ -89,6 +89,9 @@ Lernen Sie, wie Sie Ladeoptionen konfigurieren, fehlende Schriftarten erkennen u
 ### [Warnungs‑Callback‑Tutorial – Word‑Dokument in Java laden](./warning-callback-tutorial-load-word-document-in-java/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java Warnungen beim Laden von Word‑Dokumenten abfangen und verarbeiten.
 
+### [Aspose.Words LoadOptions – Beschädigte Word‑Dokumente in Java wiederherstellen](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+Erfahren Sie, wie Sie mit Aspose.Words LoadOptions beschädigte Word‑Dateien in Java wiederherstellen und verarbeiten.
+
 ### [Konfigurieren von RTF‑Ladeoptionen in Aspose.Words für Java](./configuring-rtf-load-options/)
 ### [Laden von Textdateien mit Aspose.Words für Java](./loading-text-files/)
 Entfesseln Sie die Power von Aspose.Words für Java. Lernen Sie, Textdokumente zu laden, Listen zu verwalten, Leerzeichen zu handhaben und die Textausrichtung zu steuern.
@@ -153,6 +156,17 @@ Erfahren Sie, wie Sie beschädigte Word‑Dateien mit Aspose.Words für Java rep
 
 ### [LoadOptions für Warnungen konfigurieren – Vollständiger Java‑Leitfaden](./configure-loadoptions-for-warnings-complete-java-guide/)
 Erfahren Sie, wie Sie LoadOptions einstellen, um Warnungen beim Laden von Dokumenten in Aspose.Words für Java zu erfassen und zu verwalten.
+
+### [DOCX‑Datei mit Java speichern – Leitfaden zum Einfügen von Inhaltssteuerelementen](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words for Java eine DOCX‑Datei speichern und Inhaltssteuerelemente programmgesteuert einfügen.
+
+### [Leeres Word‑Dokument mit Java erstellen – Vollständiger Aspose.Words‑Leitfaden](./create-blank-word-document-with-java-full-aspose-words-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein leeres Word‑Dokument erstellen und speichern – vollständige Schritt‑für‑Schritt‑Anleitung.
+
+### [Markdown‑Unterstreichung in Java laden – vollständiger Programmierleitfaden](./load-markdown-underline-in-java-complete-programming-guide/)
+Erfahren Sie, wie Sie Markdown‑Unterstreichungen in Java verarbeiten und rendern – Schritt‑für‑Schritt‑Anleitung mit Code‑Beispielen.
+### [Aspose Font‑Substitution‑Tutorial – Fehlende Schriften behandeln](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+Erfahren Sie, wie Sie fehlende Schriftarten in Aspose.Words für Java handhaben und die Font‑Substitution konfigurieren.
 
 ## Häufig gestellte Fragen
 

@@ -106,6 +106,10 @@ Zoptymalizuj zarządzanie dokumentami za pomocą Aspose.Words dla Java. Naucz si
 Ulepsz dokumenty za pomocą rozszerzeń internetowych w Aspose.Words dla Java. Naucz się bezproblemowo integrować treści internetowe. 
 ### [Tagowanie dostępności PDF w Javie – generowanie dostępnych PDF](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Dowiedz się, jak tworzyć PDF z pełną dostępnością, dodając znaczniki ułatwiające nawigację i spełniające standardy WCAG.
+### [Utworzenie przycisku ActiveX w pliku docx w Javie – kompletny przewodnik programistyczny](./create-docx-activex-button-in-java-complete-programming-guid/)
+Krok po kroku pokażemy, jak dodać przycisk ActiveX do dokumentu DOCX w Javie, wraz z pełnym kodem i wyjaśnieniami.
+### [Jak utworzyć dokument Word w Javie przy użyciu Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Dowiedz się, jak w kilku krokach stworzyć dokument Word w Javie przy użyciu Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

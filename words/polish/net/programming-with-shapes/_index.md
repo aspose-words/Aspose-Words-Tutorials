@@ -25,9 +25,11 @@ Korzystając z Aspose.Words dla .NET i postępując zgodnie z tymi samouczkami, 
 | Tytuł | Opis |
 | --- | --- |
 | [Dodaj kształt grupy](./add-group-shape/) | Dowiedz się, jak dodawać kształty grupowe do dokumentów Word za pomocą Aspose.Words dla .NET dzięki temu kompleksowemu samouczkowi krok po kroku. |
+| [Kształty grupowe w Wordzie z Aspose.Words – kompletny przewodnik C#](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Dowiedz się, jak tworzyć i zarządzać grupowymi kształtami w Wordzie przy użyciu Aspose.Words i C#. |
 | [Wstaw kształt](./insert-shape/) | Dowiedz się, jak wstawiać i manipulować kształtami w dokumentach programu Word za pomocą pakietu Aspose.Words dla platformy .NET, korzystając z naszego przewodnika krok po kroku. |
 | [Cień kształtu Aspose.Words – Dodaj cień do kształtu Word w C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Dowiedz się, jak dodać cień do kształtu w dokumencie Word przy użyciu Aspose.Words dla .NET i C#. |
 | [Jak dodać cień do kształtów Word w C# – Kompletny przewodnik](./how-to-add-shadow-to-word-shapes-in-c-complete-guide/) | Dowiedz się, jak dodać cień do kształtów w dokumencie Word przy użyciu Aspose.Words dla .NET i C#. |
+| [Jak dodać cień do kształtów Word – kompletny przewodnik C#](./how-to-add-shadow-to-word-shapes-complete-c-guide/) | Dowiedz się, jak dodać cień do kształtu w dokumencie Word przy użyciu Aspose.Words dla .NET i C#. |
 | [Jak ustawić cień na kształtach w C# – Kompletny przewodnik Aspose.Words](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) | Dowiedz się, jak dodać cień do kształtów w dokumentach Word przy użyciu Aspose.Words dla .NET i C#. |
 | [Zablokowany współczynnik proporcji](./aspect-ratio-locked/) | Dowiedz się, jak zablokować proporcje kształtów w dokumentach Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby zachować proporcje obrazów i kształtów. |
 | [Układ w komórce](./layout-in-cell/) | Dowiedz się, jak ustawić układ w komórce za pomocą Aspose.Words dla .NET dzięki temu kompleksowemu przewodnikowi. Idealne dla programistów, którzy chcą dostosować dokumenty Word. |
@@ -63,6 +65,15 @@ Korzystając z Aspose.Words dla .NET i postępując zgodnie z tymi samouczkami, 
 | [Utwórz dokument Word C# – Dodaj kształt z cieniem](./create-word-document-c-add-shape-with-shadow/) | Dowiedz się, jak dodać kształt z efektem cienia do dokumentu Word przy użyciu Aspose.Words w C#. |
 | [Jak ustawić cień na kształcie w C# – przewodnik krok po kroku](./how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/) | Dowiedz się, jak ustawić cień na kształcie w dokumentach Word przy użyciu Aspose.Words dla .NET w C# – krok po kroku. |
 | [Jak ustawić cień na kształcie w Wordzie – samouczek C#](./how-to-set-shadow-on-a-word-shape-c-tutorial/) | Dowiedz się, jak dodać i konfigurować cień kształtu w dokumencie Word przy użyciu Aspose.Words dla .NET i C#. |
+| [Jak przenieść cień w Aspose.Words – kompletny przewodnik C#](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | Dowiedz się, jak przenieść cień kształtu w dokumencie Word przy użyciu Aspose.Words dla .NET i C#. |
+| [Jak ukryć kształt w Wordzie przy użyciu C# – przewodnik krok po kroku](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Dowiedz się, jak ukrywać kształty w dokumentach Word przy użyciu Aspose.Words dla .NET i C#. |
+| [Utwórz pusty dokument Word z ukrytym kształtem elipsy – pełny przewodnik C#](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Dowiedz się, jak utworzyć pusty dokument Word z ukrytym kształtem elipsy przy użyciu Aspose.Words dla .NET w C#, krok po kroku. |
+| [Rysowanie prostokąta w Word – Dodaj kształty w Word przy użyciu Aspose](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Dowiedz się, jak rysować prostokąt i dodawać kształty w dokumencie Word przy użyciu biblioteki Aspose.Words dla .NET. |
+| [Zapisz plik docx z grupowanymi kształtami w Wordzie przy użyciu C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Dowiedz się, jak zapisać plik docx zawierający grupowane kształty w Wordzie przy użyciu C# i Aspose.Words. |
+| [Jak ukryć kształt w Wordzie przy użyciu C# – przewodnik krok po kroku](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Dowiedz się, jak ukrywać kształty w dokumentach Word przy użyciu Aspose.Words dla .NET i C#. |
+| [Wstaw prostokątny kształt w C# przy użyciu Aspose.Words – przewodnik krok po kroku](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | Dowiedz się, jak w C# utworzyć prostokątny kształt w dokumencie Word przy użyciu Aspose.Words, krok po kroku. |
+| [Jak grupować kształty w Wordzie i dodawać kształty do dokumentu Word](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Dowiedz się, jak grupować kształty i dodawać je do dokumentu Word przy użyciu Aspose.Words dla .NET. |
+| [Jak grupować kształty w dokumencie Word przy użyciu C#](./how-to-group-shapes-in-a-word-document-with-c/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

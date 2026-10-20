@@ -31,6 +31,9 @@
 ### [使用 Aspose.Words API 掌握 Java 中的 VBA 项目操作](./master-vba-project-manipulation-aspose-java/)
 了解如何通过使用 Aspose.Words for Java 操作 Word 文档中的 VBA 项目来自动化文档处理并提高工作效率。
 
+### [使用 C# 在 Word 文档中创建 ActiveX 控件](./how-to-create-activex-control-in-a-word-document-using-c/)
+了解如何使用 C# 在 Word 文档中嵌入 ActiveX 控件。
+
 ## 其他资源
 
 - [Aspose.Words for Java 文档](https://reference.aspose.com/words/java/)

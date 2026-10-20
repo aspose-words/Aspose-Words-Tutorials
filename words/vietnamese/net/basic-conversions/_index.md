@@ -29,6 +29,7 @@ Basic Conversions hướng dẫn bạn cách chuyển đổi tài liệu cơ b�
 | [Cách tạo PDF từ DOCX trong C# – Hướng dẫn từng bước](./how-to-create-pdf-from-docx-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách chuyển đổi DOCX sang PDF trong C# bằng Aspose.Words, kèm ví dụ mã nguồn. |
 | [Chuyển đổi DOCX sang PDF – Tạo PDF có thể truy cập (PDF/UA)](./convert-docx-to-pdf-generate-accessible-pdf-pdf-ua/) | Hướng dẫn chuyển DOCX sang PDF đáp ứng tiêu chuẩn PDF/UA, tạo tài liệu có thể truy cập cho mọi người. |
 | [Chuyển đổi DOCX sang PDF trong C# – Hướng dẫn lập trình đầy đủ](./convert-docx-to-pdf-in-c-complete-programming-guide/) | Hướng dẫn chi tiết cách chuyển đổi DOCX sang PDF trong C# bằng Aspose.Words, kèm ví dụ mã nguồn và các tùy chọn nâng cao. |
+| [Chuyển đổi DOCX sang PDF C# – Hướng dẫn chi tiết từng bước](./convert-docx-to-pdf-c-complete-step-by-step-guide/) | Hướng dẫn chi tiết cách chuyển đổi DOCX sang PDF trong C# bằng Aspose.Words, kèm ví dụ mã nguồn. |
 | [Chuyển đổi Word sang PDF trong C# bằng Aspose.Words – Hướng dẫn](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang PDF trong C# sử dụng Aspose.Words, kèm ví dụ mã nguồn. |
 | [Chuyển đổi Word sang PDF trong C# – Hướng dẫn đầy đủ Aspose](./convert-word-to-pdf-in-c-complete-aspose-guide/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang PDF trong C# bằng Aspose.Words, kèm ví dụ mã nguồn đầy đủ. |
 | [Chuyển đổi DOCX sang PDF trong C# – Hướng dẫn đầy đủ](./convert-docx-to-pdf-in-c-complete-guide/) | Hướng dẫn chi tiết cách chuyển đổi DOCX sang PDF trong C# bằng Aspose.Words, kèm ví dụ mã nguồn đầy đủ. |
@@ -39,6 +40,7 @@ Basic Conversions hướng dẫn bạn cách chuyển đổi tài liệu cơ b�
 | [Lưu Word thành PDF trong C# – Hướng dẫn chuyển đổi đầy đủ và khả năng truy cập](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | Hướng dẫn chi tiết cách lưu Word thành PDF trong C# sử dụng Aspose.Words, bao gồm các tùy chọn truy cập và ví dụ mã nguồn. |
 | [Tạo PDF từ Word – Hướng dẫn C# đầy đủ với phát hiện phông chữ](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Hướng dẫn chi tiết cách tạo PDF từ tài liệu Word trong C# sử dụng Aspose.Words, bao gồm phát hiện và nhúng phông chữ. |
 | [Cách tạo PDF từ Word – Hướng dẫn C# đầy đủ](./how-to-create-pdf-from-word-complete-c-guide/) | Hướng dẫn chi tiết cách tạo PDF từ tài liệu Word bằng Aspose.Words trong C#, kèm ví dụ mã nguồn. |
+| [Lưu Word thành PDF với Aspose.Words – Hướng dẫn đầy đủ](./save-word-as-pdf-with-aspose-words-complete-guide/) | Hướng dẫn chi tiết cách lưu tài liệu Word thành PDF bằng Aspose.Words, kèm ví dụ mã nguồn và các tùy chọn chuyển đổi. |
 | [Lưu docx thành PDF với Aspose.Words – Hướng dẫn C# đầy đủ](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Hướng dẫn chi tiết cách lưu tài liệu docx thành PDF bằng Aspose.Words trong C#, kèm ví dụ mã nguồn. |
 | [Lưu Word thành PDF với Aspose.Words – Hướng dẫn từng bước](./save-word-as-pdf-with-aspose-words-step-by-step-guide/) | Hướng dẫn chi tiết cách lưu tài liệu Word thành PDF bằng Aspose.Words, bao gồm các bước thực hiện và ví dụ mã nguồn. |
 | [Cách tạo PDF từ Word trong C# – Hướng dẫn từng bước](./how-to-create-pdf-from-word-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo PDF từ tài liệu Word trong C# bằng Aspose.Words, kèm ví dụ mã nguồn và các tùy chọn chuyển đổi. |
@@ -60,6 +62,7 @@ Basic Conversions hướng dẫn bạn cách chuyển đổi tài liệu cơ b�
 | [Chuyển đổi docx sang txt – Xuất công thức Word dưới dạng LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/) | Tìm hiểu cách chuyển đổi DOCX sang TXT và xuất công thức Word dưới dạng LaTeX bằng Aspose.Words cho .NET. |
 | [Lưu docx thành txt và xuất phương trình Word sang LaTeX](./save-docx-as-txt-and-export-word-equations-to-latex/) | Hướng dẫn chuyển đổi tệp DOCX sang TXT và xuất các phương trình Word thành LaTeX bằng Aspose.Words cho .NET. |
 | [Chuyển đổi docx sang txt – Hướng dẫn đầy đủ cho Word Math sang LaTeX](./convert-docx-to-txt-complete-guide-for-word-math-to-latex/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang TXT, bao gồm việc chuyển công thức Word sang LaTeX, với ví dụ mã nguồn. |
+| [Chuyển đổi Docx sang Txt với C# – Hướng dẫn lập trình đầy đủ](./convert-docx-to-txt-with-c-complete-programming-guide/) | Tìm hiểu cách chuyển đổi Docx sang Txt bằng C# với Aspose.Words, kèm hướng dẫn lập trình đầy đủ và ví dụ mã nguồn. |
 | [Chuyển đổi tệp văn bản sang tài liệu Word](./txt-to-docx/) | Tìm hiểu cách chuyển đổi tệp văn bản sang tài liệu Word bằng Aspose.Words cho .NET. Quản lý hiệu quả việc chuyển đổi tài liệu với hướng dẫn toàn diện của chúng tôi. | 
 | [Lưu PDF dưới dạng Jpeg](./pdf-to-jpeg/) | Dễ dàng chuyển đổi PDF sang JPEG bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết của chúng tôi với các ví dụ và câu hỏi thường gặp. Hoàn hảo cho các nhà phát triển và người đam mê. |
 | [Tạo PDF có khả năng truy cập từ Word – Hướng dẫn từng bước](./create-accessible-pdf-from-word-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập từ tài liệu Word bằng Aspose.Words cho .NET, kèm ví dụ mã nguồn. |
@@ -78,6 +81,10 @@ Basic Conversions hướng dẫn bạn cách chuyển đổi tài liệu cơ b�
 | [Cách xuất LaTeX từ DOCX – Chuyển sang TXT](./how-to-export-latex-from-docx-convert-to-txt/) | Hướng dẫn chi tiết cách xuất nội dung LaTeX từ tài liệu DOCX và lưu dưới dạng tệp TXT bằng Aspose.Words cho .NET. |
 | [Tạo PDF có thể truy cập từ DOCX – Hướng dẫn từng bước C#](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập từ tài liệu DOCX bằng Aspose.Words cho .NET, kèm ví dụ C#. |
 | [Cách xuất LaTeX từ Word – Hướng dẫn C# đầy đủ](./how-to-export-latex-from-word-complete-c-guide/) | Hướng dẫn chi tiết cách xuất LaTeX từ tài liệu Word bằng Aspose.Words cho .NET trong C#, kèm ví dụ mã nguồn đầy đủ. |
+| [Tạo PDF từ Word trong C# – Hướng dẫn nhanh Low‑Code](./create-pdf-from-word-in-c-fast-low-code-guide/) | Hướng dẫn nhanh tạo PDF từ tài liệu Word trong C# bằng Aspose.Words với ít mã, dễ thực hiện. |
+| [Chuyển đổi Markdown sang DOCX với Aspose.Words – Hướng dẫn C# đầy đủ](./convert-markdown-to-docx-with-aspose-words-complete-c-guide/) | Tìm hiểu cách chuyển đổi tệp Markdown sang DOCX bằng Aspose.Words cho .NET với hướng dẫn chi tiết và ví dụ mã C#. |
+| [Chuyển đổi docx sang pdf trong C# – Hướng dẫn chi tiết từng bước](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Hướng dẫn chi tiết cách chuyển đổi tệp docx sang pdf trong C# bằng Aspose.Words, kèm ví dụ mã nguồn và các tùy chọn nâng cao. |
+| [Tạo PDF từ DOCX trong C# – Hướng dẫn từng bước](./create-pdf-from-docx-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo PDF từ tài liệu DOCX bằng Aspose.Words trong C#, kèm ví dụ mã nguồn. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

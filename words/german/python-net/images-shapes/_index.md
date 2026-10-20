@@ -52,6 +52,21 @@ Erfahren Sie, wie Sie mit Aspose.Words für Python Schatten zu Formen hinzufüge
 Erfahren Sie, wie Sie mit Aspose.Words für Python ein Dokument speichern, das ein schattiertes Rechteck enthält, inklusive Codebeispielen.
 ### [Rechteckform in Python erstellen – Vollständiger Aspose.Words-Leitfaden](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für Python ein Rechteck als Form einfügen und anpassen – Schritt‑für‑Schritt‑Anleitung.
+### [Wie man Schatten zu einer Form in Word mit Python hinzufügt – Vollständiger Leitfaden](./add-shadow-to-shape-in-word-with-python-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Python Schatten zu Formen in Word‑Dokumenten hinzufügen und das Layout verbessern.
+### [Wie man Schatten in Aspose.Words setzt – Python-Beispiel](./how-to-set-shadow-in-aspose-words-python-example/)
+Erfahren Sie, wie Sie in Aspose.Words für Python Schatten zu Elementen hinzufügen und das Layout Ihrer Dokumente verbessern.
+### [Rechteck in PDF mit Aspose.Words für Python zeichnen](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
+Erfahren Sie, wie Sie mit Aspose.Words für Python ein Rechteck in ein PDF-Dokument einfügen.
+### [Wie man Schatten zu Formen in Python hinzufügt – vollständiger Aspose.Words-Leitfaden](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Python Schatten zu Formen hinzufügen und das Layout Ihrer Dokumente verbessern.
+### [Wie man einem Word-Shape Schatten hinzufügt – Vollständiger Leitfaden für Python](./how-to-add-shadow-to-a-word-shape-using-python/)
+Erfahren Sie, wie Sie mit Aspose.Words für Python Schatten zu Word-Formen hinzufügen und das Layout Ihrer Dokumente verbessern.
+### [Wie man PNG speichert und einer Form Schatten hinzufügt mit Aspose.Words](./how-to-save-png-and-add-shadow-to-shape-with-aspose-words/)
+Erfahren Sie, wie Sie PNG-Bilder speichern und Schatten zu Formen hinzufügen, um Ihre Dokumente visuell aufzuwerten.
+
+### [Wie man ein Säulendiagramm in Python mit Aspose.Words erstellt](./how-to-create-column-chart-python-with-aspose-words/)
+Erfahren Sie, wie Sie mit Aspose.Words in Python ein Säulendiagramm erstellen und in Ihr Word-Dokument einbetten.
 
 ## Weitere Ressourcen
 

@@ -103,9 +103,12 @@ Java için Aspose.Words'ün Gücünü Açın. Kusursuz Belge Yönetimi için Ana
 ### [Java için Aspose.Words'de Belge Özelliklerini Kullanma](./using-document-properties/)
 Aspose.Words for Java ile belge yönetimini optimize edin. Bu kapsamlı eğitimde belge özellikleriyle çalışmayı, özel meta veri eklemeyi ve daha fazlasını öğrenin.
 ### [Java için Aspose.Words'de Web Uzantılarını Kullanma](./using-web-extensions/)
-Aspose.Words for Java'da Web Uzantılarıyla Belgeleri Geliştirin. Web tabanlı içeriği sorunsuz bir şekilde entegre etmeyi öğrenin. 
 ### [Java için PDF erişilebilirlik etiketleme – Erişilebilir PDF'ler Oluşturma](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Aspose.Words for Java kullanarak PDF'leri erişilebilir hale getirmek için etiket eklemeyi ve yapılandırmayı öğrenin.
+### [Java'da docx ActiveX Düğmesi Oluşturma – Tam Programlama Rehberi](./create-docx-activex-button-in-java-complete-programming-guid/)
+Java'da Aspose.Words kullanarak docx dosyalarına ActiveX düğmesi eklemeyi adım adım öğrenin.
+### [Java ile Aspose.Words kullanarak Word belgesi oluşturma](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Java ve Aspose.Words ile sıfırdan Word belgesi oluşturmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

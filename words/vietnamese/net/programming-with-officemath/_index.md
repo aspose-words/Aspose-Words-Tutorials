@@ -35,6 +35,7 @@ Hướng dẫn Aspose.Words for .NET về Xử lý Words với OfficeMath sẽ h
 | [Cách xuất LaTeX từ Word – Hướng dẫn lập trình đầy đủ](./how-to-export-latex-from-word-complete-programming-guide/) | Hướng dẫn chi tiết cách xuất công thức LaTeX từ tài liệu Word bằng C#. |
 | [Chuyển đổi công thức Word sang LaTeX – Hướng dẫn đầy đủ C#](./convert-word-equations-to-latex-complete-c-guide/) | Hướng dẫn chi tiết cách chuyển các công thức Word sang LaTeX bằng C#. |
 
+| [Lưu docx thành txt – Xuất công thức Word sang MathML](./save-docx-as-txt-export-word-equations-to-mathml/) | Hướng dẫn lưu tài liệu docx dưới dạng txt và xuất các công thức Word sang định dạng MathML bằng C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

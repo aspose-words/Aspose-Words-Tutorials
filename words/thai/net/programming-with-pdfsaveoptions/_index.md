@@ -48,11 +48,13 @@
 - [บันทึก Word เป็น PDF ด้วย Aspose Words – คู่มือ C# ครบถ้วน](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF ด้วย Aspose.Words ใน C# อย่างครบถ้วน
 - [บันทึก docx เป็น pdf ด้วย Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | เรียนรู้วิธีบันทึกไฟล์ docx เป็น PDF อย่างครบถ้วนด้วย Aspose.Words ใน C# ผ่านขั้นตอนละเอียด
 - [แปลง DOCX เป็น PDF ด้วย Aspose.Words – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./convert-docx-to-pdf-with-aspose-words-complete-programming-g/) | เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF อย่างครบถ้วนด้วย Aspose.Words ผ่านขั้นตอนการเขียนโปรแกรมโดยละเอียด
+- [บันทึกเอกสารเป็น PDF ด้วย Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](./save-document-as-pdf-with-aspose-words-complete-c-guide/) | เรียนรู้วิธีบันทึกเอกสารเป็น PDF อย่างครบถ้วนด้วย Aspose.Words ใน C# ผ่านขั้นตอนละเอียด
 - [สร้าง PDF ที่เข้าถึงได้จาก Word ด้วย C# – คู่มือขั้นตอนโดยขั้นตอน](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากไฟล์ Word ด้วย C# ผ่านขั้นตอนละเอียด
 - [สร้าง PDF ที่เข้าถึงได้ใน C# – บทเรียนการทำ PDF ให้เข้าถึงได้](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้ตามมาตรฐาน WCAG ด้วย Aspose.Words สำหรับ .NET ใน C#
 - [สร้าง PDF ที่เข้าถึงได้จาก Word – คู่มือฉบับสมบูรณ์](./create-accessible-pdf-from-word-complete-guide/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากไฟล์ Word ด้วย Aspose.Words สำหรับ .NET ผ่านขั้นตอนครบถ้วน
 - [สร้าง PDF ที่เข้าถึงได้จาก DOCX – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./create-accessible-pdf-from-docx-complete-programming-guide/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากไฟล์ DOCX ด้วย Aspose.Words สำหรับ .NET ผ่านคู่มือการเขียนโปรแกรมอย่างละเอียด
 - [สร้าง PDF ที่เข้าถึงได้ – แปลง Word เป็น PDF ด้วย C#](./create-accessible-pdf-convert-word-to-pdf-with-c/) | เรียนรู้วิธีแปลงไฟล์ Word เป็น PDF ที่เข้าถึงได้ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET
+- [สร้าง PDF ที่เข้าถึงได้จาก Word – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./create-accessible-pdf-from-word-complete-programming-guide/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จาก Word ด้วย Aspose.Words สำหรับ .NET ด้วยคำแนะนำการเขียนโปรแกรมอย่างละเอียด |
 - [การแทรกภาพในเอกสาร PDF](./interpolate-images/) | เรียนรู้วิธีการแทรกรูปภาพในเอกสาร PDF โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนของเรา ปรับปรุงคุณภาพรูปภาพใน PDF ของคุณได้อย่างง่ายดาย |
 - [สร้าง PDF ที่เข้าถึงได้ใน C# – คู่มือขั้นตอนต่อขั้นตอน](./create-accessible-pdf-in-c-step-by-step-guide/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET ผ่านคู่มือขั้นตอนต่อขั้นตอน
 - [สร้าง PDF ที่เข้าถึงได้ – คู่มือขั้นตอนต่อขั้นตอนสำหรับการปฏิบัติตาม PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้ตามมาตรฐาน PDF/UA ด้วยคู่มือทีละขั้นตอนจาก Aspose.Words สำหรับ .NET |
@@ -84,6 +86,10 @@
 - [วิธีบันทึก PDF จาก DOCX ด้วย Aspose.Words – คู่มือทีละขั้นตอน](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) | เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF อย่างละเอียดด้วย Aspose.Words ผ่านขั้นตอนง่าย ๆ |
 - [วิธีบันทึก PDF จาก Word ด้วย C# – คู่มือฉบับสมบูรณ์](./how-to-save-pdf-from-word-in-c-complete-guide/) | เรียนรู้วิธีบันทึกไฟล์ PDF จากเอกสาร Word ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน
 - [บันทึกเอกสารเป็น PDF ด้วย C# – คู่มือฉบับสมบูรณ์](./save-document-as-pdf-in-c-complete-guide/) | เรียนรู้วิธีบันทึกเอกสาร Word เป็น PDF ด้วย C# อย่างละเอียดด้วย Aspose.Words สำหรับ .NET
+- [บันทึก Word เป็น PDF – คู่มือฉบับสมบูรณ์พร้อมการเข้าถึง](./save-word-as-pdf-complete-guide-with-accessibility/) | เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF อย่างครบถ้วนพร้อมการทำให้เข้าถึงได้ตามมาตรฐาน WCAG ด้วย Aspose.Words สำหรับ .NET
+- [สร้างไฟล์ PDF/UA ที่สอดคล้องจาก Word – คู่มือการส่งออกเต็มรูปแบบ](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | เรียนรู้วิธีสร้างไฟล์ PDF/UA ที่สอดคล้องจากเอกสาร Word ด้วย Aspose.Words สำหรับ .NET อย่างละเอียด
+- [บันทึกเอกสารเป็น PDF ใน C# – ส่งออก Inline Shapes](./save-document-as-pdf-in-c-export-inline-shapes/) | เรียนรู้วิธีส่งออก Inline Shapes ไปยัง PDF ด้วย Aspose.Words สำหรับ .NET ผ่านขั้นตอนแบบละเอียด
+- [สร้าง PDF ที่เข้าถึงได้ใน C# – คู่มือขั้นตอนโดยขั้นตอน](./create-accessible-pdf-in-c-step-by-step-guide/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้ตามมาตรฐาน PDF/UA ด้วย C# ผ่านขั้นตอนละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

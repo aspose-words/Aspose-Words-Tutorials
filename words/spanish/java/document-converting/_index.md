@@ -82,6 +82,9 @@ Aproveche `Document doc = new Document(new ByteArrayInputStream(htmlBytes), new 
 
 ## Tutoriales de conversión de documentos
 
+### [Convertir docx a pdf en Java – guía paso a paso](./convert-docx-to-pdf-in-java-step-by-step-guide/)
+Aprenda a convertir archivos DOCX a PDF en Java con Aspose.Words mediante una guía paso a paso y ejemplos de código.
+
 ### [Using Document Converting Feature](./using-document-converting/)
 Aprenda a convertir documentos de manera eficiente con Aspose.Words para Java. Convierta, combine y procese archivos sin problemas. Simplifique su flujo de trabajo con una biblioteca poderosa.
 
@@ -102,8 +105,6 @@ Aprenda a convertir documentos Word a imágenes usando Aspose.Words para Java. G
 
 ### [Guardar docx como markdown con Aspose.Words – Guía completa](./save-docx-as-markdown-with-aspose-words-complete-guide/)
 Aprenda a convertir archivos DOCX a formato Markdown usando Aspose.Words para Java, con ejemplos paso‑a‑paso y opciones de personalización.
-### [Convertir DOCX a PDF en Java – Guía paso a paso](./convert-docx-to-pdf-in-java-step-by-step-guide/)
-Aprenda a convertir archivos DOCX a PDF en Java con una guía paso a paso y ejemplos de código.
 ### [Guardar DOCX como PDF con Aspose.Words – Guía completa de Java](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
 Aprenda paso a paso cómo guardar archivos DOCX como PDF usando Aspose.Words para Java, con ejemplos y opciones avanzadas.
 ### [Convertir docx a txt en Java – Guía completa de programación](./convert-docx-to-txt-in-java-complete-programming-guide/)
@@ -112,6 +113,19 @@ Aprenda a convertir archivos DOCX a TXT en Java usando Aspose.Words, con ejemplo
 Aprenda a transformar archivos DOCX a Markdown usando Aspose.Words para Java, con ejemplos paso a paso y opciones de personalización.
 ### [Convertir DOCX a PDF en Java – Guía Simple de Bajo Código](./convert-docx-to-pdf-in-java-simple-low-code-guide/)
 Aprenda a convertir archivos DOCX a PDF en Java con una solución de bajo código, rápida y fácil de implementar.
+### [Guardar Markdown como DOCX con Aspose.Words – Guía Java](./save-markdown-as-docx-with-aspose-words-java-guide/)
+Aprenda a convertir archivos Markdown a DOCX usando Aspose.Words para Java en unos pocos pasos.
+### [Convertir docx a markdown – Guía completa para desarrolladores Java](./convert-docx-to-markdown-complete-guide-for-java-developers/)
+Aprenda a transformar archivos DOCX a Markdown en Java usando Aspose.Words, con ejemplos de código y opciones de personalización.
+### [Java Convertir Markdown a Word – Markdown a DOCX Java](./java-convert-markdown-to-word-markdown-to-docx-java/)
+Aprenda a convertir archivos Markdown a documentos Word (DOCX) en Java con Aspose.Words, incluyendo opciones de formato y estilo.
+### [Convertir DOCX a PDF en Java – Guía de PDF accesible](./convert-docx-to-pdf-in-java-accessible-pdf-guide/)
+Aprenda a generar PDFs accesibles a partir de archivos DOCX en Java usando Aspose.Words.
+
+### [Guardar Word como Markdown – Guía completa de Java (2026)](./save-word-as-markdown-complete-java-guide-2026/)
+Aprenda a convertir documentos Word a formato Markdown usando Aspose.Words para Java en esta guía paso a paso.
+### [Cómo convertir markdown a docx con Java y Aspose.Words](./how-to-convert-markdown-to-docx-with-java-and-aspose-words/)
+Aprenda a transformar archivos markdown en documentos DOCX usando Aspose.Words para Java en pocos pasos.
 
 ## Preguntas frecuentes
 
@@ -129,6 +143,8 @@ Aprenda a convertir archivos DOCX a PDF en Java con una solución de bajo códig
 
 **P:** *¿Existe un límite en el tamaño de los documentos que puedo convertir?*  
 **R:** No hay un límite estricto, pero los archivos muy grandes pueden requerir más memoria; considere el streaming o el procesamiento por fragmentos para cargas de trabajo masivas.
+### [Convertir markdown a docx en Java – guía paso a paso](./convert-markdown-to-docx-in-java-step-by-step-guide/)
+Aprenda a convertir archivos markdown a documentos DOCX en Java usando Aspose.Words, con ejemplos claros y opciones de formato.
 
 ---
 

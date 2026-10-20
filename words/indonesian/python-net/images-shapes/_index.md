@@ -37,6 +37,9 @@ Pelajari cara mengoptimalkan penanganan gambar dalam dokumen RTF dengan Aspose.W
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Pelajari cara mengoptimalkan output SVG menggunakan Aspose.Words untuk Python. Panduan ini mencakup fitur-fitur khusus seperti properti mirip gambar, rendering teks, dan peningkatan keamanan.
 
+### [Menambahkan Bayangan pada Bentuk di Python dengan Aspose.Words – Panduan Lengkap](./add-shadow-to-shape-in-python-with-aspose-words-full-guide/)
+Pelajari cara menambahkan bayangan pada bentuk di Python menggunakan Aspose.Words. Panduan lengkap ini membantu Anda menguasai teknik shading.
+
 ### [Cara Menambahkan Bayangan di C# – Panduan Pemrograman Lengkap](./how-to-add-shadow-in-c-complete-programming-guide/)
 Pelajari cara menambahkan efek bayangan pada elemen di C# dengan panduan lengkap ini.
 
@@ -56,6 +59,20 @@ Pelajari cara membuat bentuk persegi panjang dalam dokumen Word menggunakan Aspo
 Pelajari cara membuat bentuk persegi panjang di dokumen Word dengan Aspose.Words untuk Python, lengkap dengan contoh kode.
 ### [Cara Menyisipkan Bentuk Persegi Panjang di Python – Panduan Lengkap Aspose.Words](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
 Pelajari cara menambahkan bentuk persegi panjang ke dokumen Word menggunakan Aspose.Words untuk Python, termasuk pengaturan ukuran dan posisi.
+### [Menambahkan Bayangan pada Bentuk di Word dengan Python – Panduan Lengkap](./add-shadow-to-shape-in-word-with-python-complete-guide/)
+Pelajari cara menambahkan efek bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk Python dalam panduan lengkap ini.
+### [Cara Menyetel Bayangan di Aspose.Words – Contoh Python](./how-to-set-shadow-in-aspose-words-python-example/)
+Pelajari cara menambahkan efek bayangan pada dokumen Word menggunakan Aspose.Words dengan contoh kode Python.
+### [Menggambar persegi panjang di PDF dengan Aspose.Words untuk Python](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
+Pelajari cara menggambar persegi panjang pada file PDF menggunakan Aspose.Words untuk Python.
+### [Menambahkan Bayangan pada Bentuk di Python – Panduan Lengkap Aspose.Words](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
+Pelajari cara menambahkan bayangan pada bentuk di Python menggunakan Aspose.Words.
+### [Cara Menambahkan Bayangan pada Bentuk Word menggunakan Python](./how-to-add-shadow-to-a-word-shape-using-python/)
+Pelajari cara menambahkan efek bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk Python.
+### [Cara menyimpan PNG dan menambahkan bayangan pada bentuk dengan Aspose.Words](./how-to-save-png-and-add-shadow-to-shape-with-aspose-words/)
+
+### [Cara Membuat Diagram Kolom dengan Python menggunakan Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
+Pelajari cara membuat diagram kolom di Python dengan Aspose.Words.
 
 ## Sumber Daya Tambahan
 

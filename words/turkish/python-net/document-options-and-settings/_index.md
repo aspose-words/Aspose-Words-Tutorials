@@ -48,9 +48,18 @@ Python için Aspose.Words'ü kullanarak Word belgelerini nasıl etkili bir şeki
 ### [Belge Özellikleri ve Meta Veri Yönetimi](./document-properties-metadata/)
 Python için Aspose.Words'ü kullanarak belge özelliklerini ve meta verilerini nasıl yöneteceğinizi öğrenin. Kaynak kodlu adım adım kılavuz.
 ### [Web Uzantıları ile Belge İşlevselliğini Genişletme](./document-functionality-web-extensions/)
-Aspose.Words for Python kullanarak web uzantılarıyla belge işlevselliğini nasıl genişleteceğinizi öğrenin. Sorunsuz entegrasyon için kaynak kodlu adım adım kılavuz.
 ### [Aspose.Words ile PDF'yi Erişilebilir Hale Getirme – Tam Adım Adım Kılavuz](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
 Aspose.Words kullanarak PDF belgelerini erişilebilir kılmak için tam adım adım rehber. Kod örnekleriyle nasıl yapılacağını öğrenin.
+### [DOCX Kurtarma Rehberi – Aspose.Words ile Tam Kılavuz](./how-to-recover-docx-complete-guide-with-aspose-words/)
+Aspose.Words kullanarak bozuk DOCX dosyalarını nasıl kurtaracağınızı adım adım öğrenin. Kaynak kodlu tam rehber.
+### [Aspose.Words ile Bozuk Word Belgesini Kurtarma – adım adım Python rehberi](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+Python için Aspose.Words kullanarak bozuk bir Word belgesini nasıl kurtaracağınızı öğrenin. Kaynak kodlu adım adım kılavuz.
+### [Python'da docx dosyalarını kurtarma – adım adım rehber](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Python kullanarak bozulmuş docx dosyalarını nasıl kurtaracağınızı adım adım öğrenin.
+### [Python'da LaTeX için MarkdownSaveOptions'ı Yapılandırma – Aspose.Words rehberi](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Python ile LaTeX çıktısı için MarkdownSaveOptions ayarlarını nasıl yapılandıracağınızı öğrenin.
+### [Aspose.Words for Python ile docx dosyalarını nasıl kurtarılır](./how-to-recover-docx-files-with-aspose-words-for-python/)
+Aspose.Words for Python kullanarak bozuk veya kaybolmuş docx dosyalarını kurtarma yöntemlerini öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

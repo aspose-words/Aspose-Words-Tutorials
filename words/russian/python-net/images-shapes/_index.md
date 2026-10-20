@@ -34,6 +34,9 @@
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Узнайте, как оптимизировать вывод SVG с помощью Aspose.Words для Python. Это руководство охватывает пользовательские функции, такие как свойства, похожие на изображения, рендеринг текста и улучшения безопасности.
 
+    ### [Add Shadow to Shape in Python with Aspose.Words – Full Guide](./add-shadow-to-shape-in-python-with-aspose-words-full-guide/)
+    Узнайте, как добавить тень к фигурам в документах Word, используя Aspose.Words для Python.
+
 ### [Как добавить тень в C# – Полное руководство по программированию](./how-to-add-shadow-in-c-complete-programming-guide/)
 Узнайте, как добавить тень в C# с помощью полного руководства по программированию.
 
@@ -54,6 +57,20 @@
 Узнайте, как создать прямоугольную фигуру в документе Word с помощью Aspose.Words для Python.
 ### [Как вставить прямоугольную фигуру в Python – Полное руководство Aspose.Words](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
 Узнайте, как вставить прямоугольную форму в документы Word с помощью Aspose.Words для Python.
+### [Добавление тени к фигуре в Word с помощью Python – Полное руководство](./add-shadow-to-shape-in-word-with-python-complete-guide/)
+Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для Python.
+### [Как установить тень в Aspose.Words – пример на Python](./how-to-set-shadow-in-aspose-words-python-example/)
+Узнайте, как установить тень в документе Word с помощью Aspose.Words и Python.
+### [Рисование прямоугольника в PDF с помощью Aspose.Words для Python](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
+Узнайте, как с помощью Aspose.Words для Python нарисовать прямоугольник в PDF-документе.
+### [Добавление тени к фигуре в Python – полное руководство Aspose.Words](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
+### [Как добавить тень к фигуре Word с помощью Python](./how-to-add-shadow-to-a-word-shape-using-python/)
+Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для Python.
+### [Как сохранить PNG и добавить тень к фигуре с помощью Aspose.Words](./how-to-save-png-and-add-shadow-to-shape-with-aspose-words/)
+Узнайте, как сохранять изображения в формате PNG и добавлять тень к фигурам с помощью Aspose.Words.
+
+### [Как создать столбчатую диаграмму в Python с помощью Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
+Узнайте, как создавать столбчатые диаграммы в Python с помощью Aspose.Words.
 
 ## Дополнительные ресурсы
 

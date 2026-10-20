@@ -90,6 +90,8 @@ Leer hoe je documenten efficiënt kunt splitsen in Aspose.Words voor Java. Ontde
 Leer hoe je documenten opsplitst in HTML-pagina's met Aspose.Words voor Java. Volg onze stapsgewijze handleiding voor naadloze documentconversie.
 ### [Inhoud toevoegen met DocumentBuilder in Aspose.Words voor Java](./adding-content-using-documentbuilder/)
 Creëer documenten met Aspose.Words voor Java. Een stapsgewijze handleiding voor het toevoegen van tekst, tabellen, afbeeldingen en meer. Maak moeiteloos verbluffende Word-documenten.
+### [Docx ActiveX-knop maken in Java – volledige programmeergids](./create-docx-activex-button-in-java-complete-programming-guid/)
+Leer hoe u een ActiveX-knop in een DOCX-document toevoegt met Java, stap‑voor‑stap codevoorbeelden en volledige uitleg.
 ### [Documenten klonen en combineren in Aspose.Words voor Java](./cloning-and-combining-documents/)
 Leer hoe je documenten kunt klonen en combineren in Aspose.Words voor Java. Stapsgewijze handleiding met broncodevoorbeelden.
 ### [Documenten vergelijken in Aspose.Words voor Java](./comparing-documents/)
@@ -106,6 +108,8 @@ Optimaliseer documentbeheer met Aspose.Words voor Java. Leer werken met document
 Verbeter documenten met webextensies in Aspose.Words voor Java. Leer hoe u webgebaseerde content naadloos kunt integreren. 
 ### [PDF-toegankelijkheidsmarkering in Java – Toegankelijke PDF's genereren](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Leer hoe u toegankelijke PDF's genereert door tags toe te voegen met Aspose.Words voor Java.
+### [Hoe een Word-document maken in Java met Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Leer stap voor stap hoe u een Word-document maakt in Java met Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

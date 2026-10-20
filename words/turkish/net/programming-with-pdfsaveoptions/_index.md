@@ -53,6 +53,7 @@ Görüntü kalitesi seçeneklerini ayarlamayı, görüntüler için sıkıştır
 | [Aspose.Words ile Word'ten Erişilebilir PDF Oluşturma](./create-accessible-pdf-from-word-using-aspose-words/) | Aspose.Words kullanarak Word belgelerinden erişilebilir PDF oluşturmayı adım adım öğrenin. |
 | [C#'ta Erişilebilir PDF Oluşturma – PDF Erişilebilirlik Eğitimi](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Aspose.Words for .NET kullanarak C# ile erişilebilir PDF dosyaları oluşturmayı adım adım öğrenin. |
 | [Word'den Erişilebilir PDF Oluşturma – Tam Kılavuz](./create-accessible-pdf-from-word-complete-guide/) | Bu kapsamlı rehberde, Word belgelerinden erişilebilir PDF oluşturmak için gerekli adımları ve ayarları öğrenin. |
+| [Word'den Erişilebilir PDF Oluşturma – Tam Programlama Kılavuzu](./create-accessible-pdf-from-word-complete-programming-guide/) | C# ile Word belgelerinden tam programlama adımlarıyla erişilebilir PDF oluşturmayı öğrenin. |
 | [Erişilebilir PDF Oluşturma – PDF/UA Uyumluluğu için Adım‑Adım Kılavuz](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | PDF/UA uyumluluğu için erişilebilir PDF oluşturmayı adım adım öğrenin. |
 | [Word'den Erişilebilir PDF Oluşturma – Tam C# Kılavuzu](./create-accessible-pdf-from-word-complete-c-guide/) | Word belgelerinizden erişilebilir PDF dosyaları oluşturmak için adım adım C# rehberi. |
 | [C# ile Word'ten Erişilebilir PDF Oluşturma – Tam Kılavuz](./create-accessible-pdf-from-word-in-c-complete-guide/) | Aspose.Words for .NET kullanarak Word belgelerinden erişilebilir PDF dosyaları oluşturmayı adım adım öğrenin. |
@@ -71,6 +72,9 @@ Görüntü kalitesi seçeneklerini ayarlamayı, görüntüler için sıkıştır
 | [Aspose.Words ile DOCX'i PDF'ye Dönüştürme – Tam Programlama Kılavuzu](./convert-docx-to-pdf-with-aspose-words-complete-programming-g/) | Aspose.Words kullanarak C# ile DOCX dosyasını PDF'ye dönüştürmenin tüm adımlarını öğrenin. |
 | [Aspose.Words ile Word'ü Erişilebilir PDF'ye Dönüştürme – Tam Kılavuz](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) | Aspose.Words kullanarak C# ile Word belgelerini erişilebilir PDF'ye dönüştürmenin tüm adımlarını öğrenin. |
 | [Erişilebilir PDF Oluştur – Word'ü C# ile PDF'ye Dönüştür](./create-accessible-pdf-convert-word-to-pdf-with-c/) | C# kullanarak Word belgelerini erişilebilir PDF'ye dönüştürmeyi adım adım öğrenin. |
+| [Word'ü PDF Olarak Kaydet – Erişilebilirlik ile Tam Kılavuz](./save-word-as-pdf-complete-guide-with-accessibility/) | Aspose.Words for .NET kullanarak Word belgelerini erişilebilir PDF'ye dönüştürmenin tüm adımlarını öğrenin. |
+| [Word'den PDF/UA Uyumlu Dosya Oluşturma – Tam Dışa Aktarım Kılavuzu](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | Aspose.Words for .NET kullanarak Word belgelerinden PDF/UA uyumlu dosyalar oluşturmayı adım adım öğrenin. |
+| [C# ile Belgeyi PDF Olarak Kaydet – Satır İçi Şekilleri Dışa Aktar](./save-document-as-pdf-in-c-export-inline-shapes/) | Aspose.Words for .NET kullanarak C# içinde satır içi şekilleri PDF'ye dışa aktarmayı öğrenin. |
 
 | [C# ile Word'ten Erişilebilir PDF Oluşturma – Adım Adım Kılavuz](./create-accessible-pdf-from-word-in-c-step-by-step-guide/) | Aspose.Words for .NET kullanarak Word belgelerinden erişilebilir PDF dosyaları oluşturmayı adım adım öğrenin. |
 | [Aspose ile Word'den Erişilebilir PDF Oluşturma – Adım Adım Kılavuz](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) | Aspose.Words for .NET kullanarak Word belgesinden erişilebilir PDF oluşturmayı adım adım öğrenin. |

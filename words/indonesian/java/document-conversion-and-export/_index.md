@@ -93,6 +93,9 @@ Pelajari cara menyimpan dokumen Word sebagai PDF sambil mempertahankan bentuk in
 ### [Simpan Word sebagai PDF dengan Aspose.Words – Panduan Lengkap Java](./save-word-as-pdf-with-aspose-words-complete-java-guide/)
 Pelajari cara menyimpan dokumen Word menjadi PDF menggunakan Aspose.Words for Java dengan contoh kode lengkap.
 
+### [Simpan Word sebagai PDF dengan Aspose.Words – Panduan Java Lengkap](./save-word-as-pdf-with-aspose-words-full-java-guide/)
+Panduan lengkap untuk menyimpan dokumen Word menjadi PDF menggunakan Aspose.Words for Java dengan contoh kode praktis.
+
 ### [Memformat Tabel dan Gaya Tabel di Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Pelajari cara memformat tabel dan menerapkan gaya tabel di Aspose.Words for Java. Jelajahi panduan langkah demi langkah dengan kode sumber untuk pemformatan tabel yang efektif. Tingkatkan tata letak dokumen Anda dengan Aspose.Words.
 
@@ -150,6 +153,16 @@ Pelajari cara menyimpan dokumen Word sebagai file Markdown dengan Aspose.Words f
 
 ### [Mengonversi DOCX ke Markdown – Tutorial Java Lengkap](./convert-docx-to-markdown-complete-java-tutorial/)
 Pelajari cara mengonversi file DOCX menjadi Markdown secara lengkap menggunakan Aspose.Words for Java dalam panduan langkah demi langkah.
+### [Simpan Word sebagai Markdown – Ekspor Tabel ke HTML di Java](./save-word-as-markdown-export-tables-to-html-in-java/)
+Simpan dokumen Word sebagai file Markdown dan ekspor tabel ke HTML menggunakan Aspose.Words for Java.
+### [Simpan DOCX sebagai Markdown – Panduan Lengkap Java](./save-docx-as-markdown-complete-java-guide/)
+Pelajari cara menyimpan file DOCX menjadi format Markdown menggunakan Aspose.Words for Java dalam panduan lengkap ini.
+### [Cara Menyimpan Markdown dari Word – Panduan Java Lengkap](./how-to-save-markdown-from-word-complete-java-guide/)
+Pelajari cara mengekspor dokumen Word menjadi file Markdown menggunakan Aspose.Words for Java dalam panduan lengkap langkah demi langkah.
+### [Cara Mengonversi docx ke markdown dengan Aspose.Words](./how-to-convert-docx-to-markdown-with-aspose-words/)
+Pelajari cara mengonversi file DOCX menjadi Markdown menggunakan Aspose.Words for Java dalam panduan langkah demi langkah.
+### [Cara Menyimpan Word sebagai markdown dengan tabel HTML di Java](./how-to-save-word-as-markdown-with-html-tables-in-java/)
+Pelajari cara mengekspor dokumen Word ke format markdown sambil mempertahankan tabel HTML menggunakan Aspose.Words for Java.
 
 ### [Cara Menyisipkan Gambar dalam Markdown Saat Mengonversi DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Pelajari cara menyisipkan gambar ke dalam file Markdown selama proses konversi DOCX menggunakan Aspose.Words for Java.
@@ -158,6 +171,8 @@ Pelajari cara menyisipkan gambar ke dalam file Markdown selama proses konversi D
 Pelajari cara mengekspor dokumen Word menjadi file Markdown dengan Aspose.Words dalam panduan langkah demi langkah yang lengkap.
 ### [Menyematkan Gambar sebagai Base64 saat Mengonversi DOCX ke Markdown](./embed-images-as-base64-when-converting-docx-to-markdown/)
 Pelajari cara menyisipkan gambar dalam format Base64 selama konversi DOCX ke Markdown menggunakan Aspose.Words for Java.
+### [Cara Melakukan Konversi Markdown ke DOCX di Java](./how-to-perform-markdown-to-docx-conversion-in-java/)
+Pelajari cara mengonversi file Markdown menjadi DOCX menggunakan Aspose.Words for Java dalam panduan langkah demi langkah.
 
 ### [Simpan Dokumen sebagai TXT – Panduan Cepat Mengekspor Matematika Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Pelajari cara menyimpan dokumen Word sebagai file TXT sambil mengekspor persamaan matematika dengan Aspose.Words.
@@ -174,6 +189,8 @@ Pelajari cara menyimpan dokumen Word sebagai file teks biasa sambil mengekspor p
 Pelajari cara menyimpan dokumen sebagai file DOCX menggunakan Aspose.Words for Java dengan contoh kode lengkap.
 ### [Simpan docx sebagai txt dengan Ekspor Matematika LaTeX – Panduan Lengkap Java](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
 Pelajari cara menyimpan file DOCX sebagai TXT sambil mengekspor persamaan LaTeX menggunakan Aspose.Words for Java.
+### [Simpan Dokumen sebagai DOCX – Mengonversi Markdown ke Word dengan Java](./save-document-as-docx-convert-markdown-to-word-with-java/)
+Pelajari cara menyimpan dokumen sebagai file DOCX dengan mengonversi konten Markdown ke Word menggunakan Aspose.Words for Java dalam contoh kode lengkap.
 
 ### [Buat PDF Aksesibel dari DOCX – Panduan Lengkap](./create-accessible-pdf-from-docx-complete-guide/)
 Pelajari cara mengonversi file DOCX menjadi PDF yang memenuhi standar aksesibilitas, termasuk tag, teks alternatif, dan struktur dokumen.
@@ -317,6 +334,18 @@ Pelajari cara membuat dokumen PDF/UA‑1 yang mematuhi standar aksesibilitas men
 
 ### [Java docx ke PDF – Membuat PDF Aksesibel dengan Aspose.Words](./java-docx-to-pdf-generate-accessible-pdf-with-aspose-words/)
 Pelajari cara mengonversi DOCX ke PDF yang memenuhi standar aksesibilitas menggunakan Aspose.Words for Java, termasuk tag, teks alternatif, dan struktur dokumen.
+
+### [Simpan docx sebagai markdown – Panduan Java Lengkap dengan Ekstraksi Gambar](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
+Pelajari cara menyimpan file DOCX menjadi markdown lengkap dengan ekstraksi gambar menggunakan Aspose.Words for Java.
+
+### [Cara Mengatur Resolusi Saat Menyimpan Word sebagai Markdown](./how-to-set-resolution-when-saving-word-as-markdown/)
+Pelajari cara mengatur resolusi gambar saat mengekspor dokumen Word ke format Markdown menggunakan Aspose.Words for Java.
+
+### [Simpan docx sebagai txt – Ekspor Persamaan Word ke LaTeX](./save-docx-as-txt-export-word-equations-to-latex/)
+Pelajari cara menyimpan dokumen DOCX sebagai file TXT sambil mengekspor persamaan matematika ke format LaTeX menggunakan Aspose.Words.
+
+### [Simpan Word sebagai Markdown – panduan lengkap menggunakan Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Pelajari cara mengekspor dokumen Word ke format Markdown dengan Aspose.Words dalam panduan langkah demi langkah.
 
 ## Pertanyaan yang Sering Diajukan
 

@@ -40,6 +40,7 @@
 | [วิธีกู้คืนไฟล์ docx – คู่มือ C# สำหรับไฟล์ Word ที่เสียหาย](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | เรียนรู้วิธีกู้คืนไฟล์ Word ที่เสียหาย (.docx) ด้วย C# และ Aspose.Words อย่างละเอียด |
 | [กู้คืนเอกสาร Word ด้วย Aspose.Words ใน C#](./recover-word-document-with-aspose-words-in-c/) | เรียนรู้วิธีกู้คืนเอกสาร Word ที่เสียหายโดยใช้ Aspose.Words สำหรับ .NET ด้วย C# |
 | [วิธีกู้คืนไฟล์ DOCX – ตั้งค่าโหมดการกู้คืนและเปิดไฟล์ Word ที่เสียหาย](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) | เรียนรู้วิธีตั้งค่าโหมดการกู้คืนและเปิดไฟล์ Word ที่เสียหายด้วย Aspose.Words สำหรับ .NET |
+| [วิธีกู้คืน docx ด้วย Aspose.Words – คู่มือเต็ม](./how-to-recover-docx-with-aspose-words-full-guide/) | เรียนรู้วิธีกู้คืนไฟล์ docx ด้วย Aspose.Words อย่างละเอียดด้วยคู่มือเต็มขั้นตอนและตัวอย่างโค้ด |
 | [วิธีใช้ LoadOptions ใน Aspose.Words – คู่มือฉบับสมบูรณ์](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | เรียนรู้วิธีใช้ LoadOptions อย่างเต็มที่ใน Aspose.Words สำหรับ .NET ด้วยคู่มือที่ครอบคลุมขั้นตอนและตัวอย่างโค้ด |
 | [วิธีใช้ LoadOptions เพื่อตรวจจับแบบอักษรที่หายไป](./how-to-use-loadoptions-to-detect-missing-fonts/) | เรียนรู้วิธีใช้ LoadOptions เพื่อตรวจจับและจัดการแบบอักษรที่หายไปในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET |
 | [วิธีใช้ LoadOptions ใน Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](./how-to-use-loadoptions-in-aspose-words-complete-c-guide/) | เรียนรู้วิธีใช้ LoadOptions อย่างเต็มที่ใน Aspose.Words สำหรับ .NET ด้วยคู่มือ C# ครบขั้นตอนและตัวอย่างโค้ด |
@@ -75,6 +76,9 @@
 | [กู้ไฟล์ Word ที่เสียหายและแสดงโหมดการกู้คืนใน C#](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | เรียนรู้วิธีกู้ไฟล์ Word ที่เสียหายและเปิดโหมดการกู้คืนโดยใช้ Aspose.Words สำหรับ .NET ด้วย C# |
 | [วิธีดักจับคำเตือนใน C# – ตรวจจับแบบอักษรที่หายไปและบันทึกการแทนที่](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) | เรียนรู้วิธีดักจับคำเตือนใน C# เพื่อตรวจจับแบบอักษรที่หายไปและบันทึกการแทนที่โดยใช้ Aspose.Words สำหรับ .NET |
 | [กู้คืนไฟล์ DOCX ที่เสีย – คู่มือ C# ฉบับสมบูรณ์เพื่อแก้ไขและบันทึกไฟล์](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) | เรียนรู้วิธีกู้คืนไฟล์ DOCX ที่เสียหายด้วย Aspose.Words สำหรับ .NET ด้วยคู่มือขั้นตอนเต็มที่ช่วยแก้ไขและบันทึกไฟล์ |
+| [กู้ไฟล์ docx ที่เสีย – คู่มือเต็มสำหรับการโหลดไฟล์ Word ที่เสียใน C#](./recover-corrupted-docx-full-guide-to-loading-damaged-word-fi/) | เรียนรู้วิธีกู้ไฟล์ docx ที่เสียและโหลดไฟล์ Word ที่เสียใน C# ด้วย Aspose.Words อย่างละเอียด |
+| [ตั้งค่า Warning Callback ใน Aspose – คู่มือฉบับสมบูรณ์สำหรับการโหลดเอกสาร Word](./set-warning-callback-aspose-complete-guide-for-word-document/) | เรียนรู้วิธีตั้งค่า Warning Callback ใน Aspose.Words เพื่อจัดการคำเตือนขณะโหลดเอกสาร Word อย่างละเอียด |
+| [กู้ไฟล์ DOCX ที่เสีย – คู่มือฉบับสมบูรณ์สำหรับการแก้ไขและโหลดไฟล์ Word ที่เสียหาย](./recover-corrupted-docx-complete-guide-to-fixing-and-loading/) | เรียนรู้วิธีกู้และโหลดไฟล์ DOCX ที่เสียหายด้วยขั้นตอนละเอียดและโค้ดตัวอย่างใน Aspose.Words สำหรับ .NET |
 | [กู้คืนเอกสาร Word ที่เสียหายด้วย Aspose.Words C#](./recover-corrupted-word-document-using-aspose-words-c/) | เรียนรู้วิธีกู้คืนเอกสาร Word ที่เสียหายโดยใช้ Aspose.Words สำหรับ .NET ด้วย C# |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
