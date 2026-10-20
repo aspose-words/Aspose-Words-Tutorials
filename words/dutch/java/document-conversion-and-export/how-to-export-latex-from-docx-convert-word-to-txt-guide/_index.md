@@ -24,11 +24,9 @@ title: hoe LaTeX te exporteren vanuit DOCX – Gids voor het converteren van Wor
 url: /nl/java/document-conversion-and-export/how-to-export-latex-from-docx-convert-word-to-txt-guide/
 ---
 
-code block placeholders: they are not fenced code blocks, but placeholders. The requirement says preserve code blocks: fenced code blocks. There are none actual code fences; placeholders maybe considered code blocks? They are just placeholders. Should keep them unchanged.
 
-Make sure we didn't translate any URLs or file paths. We didn't.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

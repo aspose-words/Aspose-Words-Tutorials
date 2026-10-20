@@ -22,9 +22,8 @@ title: Převést docx na txt – Exportovat rovnice Wordu jako LaTeX
 url: /cs/java/document-conversion-and-export/convert-docx-to-txt-export-word-equations-as-latex/
 ---
 
-them unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,7 +22,6 @@ title: เพิ่มเงาให้กับรูปทรงใน C# –
 url: /th/net/programming-with-shapes/add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/
 ---
 
-final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

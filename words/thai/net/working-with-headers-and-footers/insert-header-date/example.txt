@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: โดยใช้คลาส Document และ DocumentBuilder บทเรียนนี้แสดงวิธีเพิ่มฟิลด์ DATE แบบไดนามิกลงในส่วนหัวหลักของเอกสาร Word แล้วบันทึกไฟล์
+//ExStepSummary:0: สร้าง Document ใหม่และ DocumentBuilder เพื่อแก้ไขมัน
+//ExStepSummary:1: ย้ายเคอร์เซอร์ของ builder ไปยังส่วนหัวหลักเพื่อให้การแทรกต่อไปมีผลต่อส่วนหัว
+//ExStepSummary:2: เขียนข้อความคงที่และแทรกฟิลด์ DATE ที่มีรูปแบบ “MMMM d, yyyy” ลงในส่วนหัว เพื่อสร้างวันที่แบบไดนามิก
+//ExStepSummary:3: กลับไปที่เนื้อหาหลักและเพิ่มย่อหน้าตัวอย่าง เพื่อแสดงเนื้อหาเอกสารปกติพร้อมกับส่วนหัว
+//ExStepSummary:4: บันทึกเอกสารเป็นไฟล์ .docx
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+builder.Write("Generated on: ");
+builder.InsertField("DATE \\@ \"MMMM d, yyyy\"");
+
+//ExStep:3-
+builder.MoveToDocumentEnd();
+builder.Writeln("This is the document body.");
+
+//ExStep:4-
+doc.Save("HeaderDate.docx");
+//ExEnd

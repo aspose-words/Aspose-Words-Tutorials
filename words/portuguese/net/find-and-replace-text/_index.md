@@ -35,7 +35,11 @@ Quer você precise substituir palavras específicas, atualizar modelos de texto 
 | [Reconhecer e Substituir Dentro de Padrões de Substituição](./recognize-and-substitutions-within-replacement-patterns/) | Aprenda a reconhecer e substituir texto dentro de padrões de substituição usando o Aspose.Words para .NET. Guia passo a passo com exemplos detalhados. |
 | [Substituir por string](./replace-with-string/) | Aprenda a substituir strings em documentos do Word usando o Aspose.Words para .NET com este guia passo a passo. Perfeito para desenvolvedores que buscam automatizar a edição de documentos. |
 | [Substituir texto na tabela](./replace-text-in-table/) | Substitua facilmente o texto na tabela do Word usando o Aspose.Words para .NET com este guia detalhado passo a passo. |
+| [Substituir Texto em DOCX com C# – Guia Passo a Passo](./replace-text-in-docx-with-c-step-by-step-guide/) | Aprenda a substituir texto em arquivos DOCX usando C# com o Aspose.Words para .NET, passo a passo. |
 
+| [Substituir texto em docx com C# – Guia completo passo a passo](./replace-text-in-docx-with-c-full-step-by-step-guide/) | Aprenda a substituir texto em arquivos docx usando C# com um guia detalhado passo a passo. |
+| [Como Reescrever Parágrafos com IA em C# – Guia Completo](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Aprenda a usar IA para reescrever parágrafos em C# com um guia completo passo a passo usando Aspose.Words. |
+| [Como gerar modelo de documento e preenchê-lo com dados em C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Aprenda a criar um modelo de documento Word e preenchê-lo com dados usando C# e Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

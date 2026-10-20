@@ -26,15 +26,11 @@ title: Document opslaan als PDF in C# – Volledige gids voor het exporteren van
 url: /nl/net/programming-with-pdfsaveoptions/save-document-as-pdf-in-c-complete-guide-to-export-docx-and/
 ---
 
-** we changed.
 
-**Pro tip** we left as "Pro tip". Could translate to "Pro tip". Keep as is.
 
-**Why this matters** done.
 
-**Expected output** done.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

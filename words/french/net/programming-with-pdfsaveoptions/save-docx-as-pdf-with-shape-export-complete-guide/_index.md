@@ -24,13 +24,10 @@ title: Enregistrer le docx en PDF avec l'exportation de formes – Guide complet
 url: /fr/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-shape-export-complete-guide/
 ---
 
-maybe none). No URLs.
 
-Check for any markdown links: none.
 
-Check for any code blocks: placeholders only.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

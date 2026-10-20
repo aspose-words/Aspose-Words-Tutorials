@@ -41,6 +41,12 @@ Entdecken Sie effizientes Drucken und Rendern von Dokumenten mit Aspose.Words f�
 Erfahren Sie, wie Sie mit Aspose.Words für Java mühelos Dokumente in HTML rendern. Schritt-für-Schritt-Anleitung zur effizienten Dokumentkonvertierung.
 ### [Umgang mit Schriftarten in Java mit Aspose.Words – Komplettanleitung](./how-to-handle-fonts-in-java-with-aspose-words-complete-guide/)
 Erfahren Sie, wie Sie Schriftarten in Java mit Aspose.Words verwalten, einbetten und rendern – umfassende Schritt‑für‑Schritt‑Anleitung.
+### [Aspose-Warnungs-Callback-Tutorial – Fehlende Schriftarten erkennen und verfolgen](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java fehlende Schriftarten erkennen und über Warnungs-Callbacks verfolgen.
+### [Warnungen erfassen – Fehlende Schriftarten in Aspose.Words erkennen](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
+Erfahren Sie, wie Sie Warnungen abfangen und fehlende Schriftarten in Aspose.Words erkennen, um Dokumente korrekt zu rendern.
+### [Fehlende Schriftarten in Java mit Aspose.Words – Komplettanleitung](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
+Erfahren Sie, wie Sie fehlende Schriftarten in Java‑Anwendungen mit Aspose.Words erkennen und beheben – Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

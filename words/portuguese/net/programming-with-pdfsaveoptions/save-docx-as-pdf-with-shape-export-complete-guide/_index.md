@@ -22,9 +22,8 @@ title: Salvar docx como PDF com Exportação de Formas – Guia Completo
 url: /pt/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-shape-export-complete-guide/
 ---
 
-them.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

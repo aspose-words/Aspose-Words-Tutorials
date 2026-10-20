@@ -24,7 +24,6 @@ title: DOCX mentése PDF-ként Shape Exporttel – Teljes útmutató
 url: /hu/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-shape-export-complete-guide/
 ---
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

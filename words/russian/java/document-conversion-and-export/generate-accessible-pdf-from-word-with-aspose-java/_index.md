@@ -23,17 +23,12 @@ title: Создать доступный PDF из Word с помощью Aspose�
 url: /ru/java/document-conversion-and-export/generate-accessible-pdf-from-word-with-aspose-java/
 ---
 
->}}
 
-We must keep them unchanged.
 
-Now produce final output with all translations and placeholders.
 
-Check for any missed items: The initial heading "generate accessible pdf from Word with Aspose – Java" we translated. Ensure dash is same. Use en dash? Original uses "–". Keep same.
 
-Make sure we didn't translate code block placeholders. Keep them unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

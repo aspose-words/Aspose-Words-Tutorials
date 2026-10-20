@@ -21,7 +21,6 @@ title: Adicionar sombra a forma no Word – Guia Completo do Aspose.Words
 url: /pt/java/images-shapes/add-shadow-to-shape-in-word-complete-aspose-words-guide/
 ---
 
-.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

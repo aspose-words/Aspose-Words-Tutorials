@@ -22,7 +22,7 @@ title: Java에서 누락된 글꼴을 가져오는 방법 – Aspose.Words 가�
 url: /ko/java/document-loading-and-saving/how-to-get-missing-fonts-in-java-aspose-words-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

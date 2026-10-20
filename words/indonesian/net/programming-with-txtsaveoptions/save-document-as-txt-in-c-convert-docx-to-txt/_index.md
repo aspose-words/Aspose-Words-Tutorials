@@ -24,13 +24,9 @@ title: Simpan Dokumen sebagai TXT di C# – Konversi DOCX ke TXT
 url: /id/net/programming-with-txtsaveoptions/save-document-as-txt-in-c-convert-docx-to-txt/
 ---
 
-cara mengatur encoding*". But that changes the phrase used earlier. Might be okay. However the phrase appears multiple times; we could keep it as is to avoid mismatch. Safer to keep the phrase unchanged. So keep "*how to set encoding*" unchanged. Similarly "*how to export math*". Keep them.
 
-Thus table cells containing those phrases keep them.
 
-Now translate.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

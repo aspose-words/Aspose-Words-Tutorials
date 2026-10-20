@@ -22,11 +22,8 @@ title: Tạo hình chữ nhật trong Word bằng Aspose.Words – Hướng dẫ
 url: /vi/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/
 ---
 
-Let's produce final translation.
 
-We'll keep the same structure.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -31,6 +31,9 @@ Günümüzün dijital ortamında, çeşitli belge biçimlerini etkili bir şekil
 ### [Aspose.Words API'sini Kullanarak Java'da VBA Proje Manipülasyonunda Ustalaşın](./master-vba-project-manipulation-aspose-java/)
 Aspose.Words for Java kullanarak Word belgeleri içerisinde VBA projelerini düzenleyerek belge işlemeyi otomatikleştirmeyi ve üretkenliği artırmayı öğrenin.
 
+### [C# ile Word belgesinde ActiveX denetimi oluşturma](./how-to-create-activex-control-in-a-word-document-using-c/)
+C# ile Word belgesine ActiveX denetimi ekleyerek belge etkileşimini artırmayı öğrenin.
+
 ## Ek Kaynaklar
 
 - [Java Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/)

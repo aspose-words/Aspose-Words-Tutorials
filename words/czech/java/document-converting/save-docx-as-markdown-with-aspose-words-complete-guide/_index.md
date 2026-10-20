@@ -23,13 +23,10 @@ title: Uložení docx jako markdown pomocí Aspose.Words – Kompletní průvodc
 url: /cs/java/document-converting/save-docx-as-markdown-with-aspose-words-complete-guide/
 ---
 
-of a Word file being transformed into markdown" -> "Ilustrace převodu souboru Word do markdownu".
 
-Now close shortcodes.
 
-Make sure to keep all shortcodes exactly.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

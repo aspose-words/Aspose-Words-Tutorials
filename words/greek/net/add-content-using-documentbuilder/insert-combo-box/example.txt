@@ -1,0 +1,24 @@
+//ExStart
+//ExSummary: Αυτό το σεμινάριο δείχνει πώς να δημιουργήσετε ένα έγγραφο Word, να προσθέσετε ένα πεδίο φόρμας combo box με προκαθορισμένα στοιχεία χρησιμοποιώντας το DocumentBuilder, και να αποθηκεύσετε το έγγραφο.
+//ExStepSummary:0: Ορίστε τη διαδρομή του φακέλου όπου θα αποθηκευτεί το παραγόμενο έγγραφο.
+//ExStepSummary:1: Δημιουργήστε έναν πίνακα συμβολοσειρών που θα γεμίσει τις επιλογές του combo box.
+//ExStepSummary:2: Δημιουργήστε ένα νέο αντικείμενο Document και ένα DocumentBuilder που είναι συνδεδεμένο με αυτό.
+//ExStepSummary:3: Καλέστε το `builder.InsertComboBox` για να τοποθετήσετε ένα combo box με όνομα "DropDown" και τα καθορισμένα στοιχεία στη τρέχουσα θέση του δρομέα.
+//ExStepSummary:4: Αποθηκεύστε το έγγραφο στον καθορισμένο φάκελο ως αρχείο .docx.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+string[] items = { "One", "Two", "Three" };
+
+//ExStep:2-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertComboBox("DropDown", items, 0);
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertComboBoxFormField.docx");
+//ExEnd

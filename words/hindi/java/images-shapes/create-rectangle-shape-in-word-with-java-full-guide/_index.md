@@ -24,11 +24,8 @@ title: जावा के साथ वर्ड में आयताका�
 url: /hi/java/images-shapes/create-rectangle-shape-in-word-with-java-full-guide/
 ---
 
-text**; keep them but translate inside.
 
-Also keep code snippets placeholders.
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
