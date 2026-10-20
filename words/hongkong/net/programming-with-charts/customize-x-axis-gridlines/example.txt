@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: 本教學示範如何建立 Word 文件、插入直條圖、取代其範例資料，然後啟用並設定主要 X 軸的格線樣式。
+//ExStepSummary:0: 建立一個新的 Word 文件，並使用 DocumentBuilder 進行編輯。
+//ExStepSummary:1: 在文件中插入一個 432×252 的直條圖，並取得其 Chart 物件。
+//ExStepSummary:2: 移除預設資料系列，並新增一個包含三個群組與數值的自訂系列。
+//ExStepSummary:3: 取得圖表主要水平（X）軸的參考。
+//ExStepSummary:4: 啟用主要 X 軸的格線顯示。
+//ExStepSummary:5: 將格線顏色設為藍色，粗細設定為 2 點。
+//ExStepSummary:6: 將文件儲存為 .docx 檔案。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document myDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+chart.Series.Add("Demo Series",
+    new[] { "Group One", "Group Two", "Group Three" },
+    new double[] { 10, 20, 30 });
+
+//ExStep:3-
+ChartAxis horizontalAxis = chart.AxisX;
+
+//ExStep:4-
+horizontalAxis.HasMajorGridlines = true;
+
+//ExStep:5-
+horizontalAxis.Format.Stroke.Color = Color.Blue;
+horizontalAxis.Format.Stroke.Weight = 2.0;
+
+//ExStep:6-
+myDoc.Save("PrimaryXGridlines.docx");
+//ExEnd

@@ -24,15 +24,10 @@ title: Guardar docx como markdown y extraer imágenes – Guía de C#
 url: /es/net/programming-with-markdownsaveoptions/save-docx-as-markdown-extract-images-c-guide/
 ---
 
-I need a license for Aspose.Words?*" and "The library works in". That second cell is incomplete; we keep as is. Should we translate the question? Yes, translate to Spanish but keep the asterisks? Probably "*¿Necesito una licencia para Aspose.Words?*". Keep the asterisks. Keep the answer maybe translate: "La biblioteca funciona en". But the answer is incomplete; we keep translation.
 
-We need to translate all other text.
 
-Also note "Pro tip:" etc. Keep colon.
 
-We need to keep code block placeholders unchanged.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

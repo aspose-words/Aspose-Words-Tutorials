@@ -273,6 +273,6 @@ A: Load the document with `new Document("file.doc")`, call `setPageColor`, and s
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/products-backtop-button >}}

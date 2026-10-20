@@ -23,23 +23,14 @@ title: Képek beágyazása base64-ként DOCX Markdown-re konvertálásakor Java-
 url: /hu/java/document-conversion-and-export/embed-images-as-base64-when-converting-docx-to-markdown-in-j/
 ---
 
-to **embed images as base64** while converting a Word DOCX file to Markdown? You’re not the only one. Many developers hit a wall when the generated Markdown references external image files, breaking portability for static‑site generators or documentation pipelines."
 
-Translate to Hungarian.
 
-Continue.
 
-Make sure to keep **bold** formatting.
 
-Proceed through all sections.
 
-Also blockquote with "Prerequisite:" translate.
 
-List items.
 
-All code block placeholders remain.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -22,6 +22,9 @@ Naučte se, jak povolit funkce OpenType ve vašich dokumentech Word pomocí Aspo
 | --- | --- |
 | [Funkce otevřeného typu](./open-type-features/) | Naučte se, jak povolit funkce OpenType v dokumentech Word pomocí Aspose.Words pro .NET v tomto podrobném návodu krok za krokem. |
 | [Vytvořit dokument Word pomocí Aspose.Words – krok za krokem](./create-word-document-with-aspose-words-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Words vytvořit dokument Word v podrobném návodu krok za krokem. |
+| [Vytvořit dokument Word s proměnným fontem – průvodce](./create-word-document-with-variable-font-guide/) | Naučte se, jak vytvořit dokument Word s proměnným fontem pomocí Aspose.Words pro .NET v tomto podrobném průvodci. |
+
+| [Použití proměnné váhy písma v C# – Kompletní programovací průvodce](./use-variable-weight-font-in-c-complete-programming-guide/) | Naučte se, jak v C# použít písmo s proměnnou vahou pomocí Aspose.Words pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -22,9 +22,8 @@ title: क्षतिग्रस्त Word दस्तावेज़ को
 url: /hi/net/programming-with-loadoptions/recover-damaged-word-document-complete-c-guide/
 ---
 
-formatting like blockquotes > etc.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

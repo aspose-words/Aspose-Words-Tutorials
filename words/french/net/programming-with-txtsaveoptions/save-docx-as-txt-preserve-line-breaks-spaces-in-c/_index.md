@@ -25,13 +25,10 @@ title: Enregistrer un docx en txt – Conserver les sauts de ligne et les espace
 url: /fr/net/programming-with-txtsaveoptions/save-docx-as-txt-preserve-line-breaks-spaces-in-c/
 ---
 
-your own projects. Happy coding!" => "N’hésitez pas à expérimenter, et faites‑nous savoir dans les commentaires si vous avez rencontré des particularités en **convertissant word en txt** dans vos propres projets. Bon codage !"
 
-Then closing shortcodes.
 
-Make sure to keep all shortcodes unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

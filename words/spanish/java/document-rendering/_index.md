@@ -41,6 +41,12 @@ Descubra cómo imprimir y renderizar documentos de forma eficiente con Aspose.Wo
 Aprenda a convertir documentos a HTML fácilmente con Aspose.Words para Java. Guía paso a paso para una conversión eficiente de documentos.
 ### [Cómo manejar fuentes en Java con Aspose.Words – Guía completa](./how-to-handle-fonts-in-java-with-aspose-words-complete-guide/)
 Aprenda a gestionar fuentes en Java con Aspose.Words. Guía paso a paso con ejemplos de código para un manejo eficaz de tipografías.
+### [Tutorial de callback de advertencia de Aspose – Detectar y rastrear fuentes faltantes](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
+Aprenda a detectar y rastrear fuentes faltantes usando callbacks de advertencia en Aspose.Words para Java. Guía paso a paso con ejemplos de código.
+### [Cómo capturar advertencias – Detectar fuentes faltantes en Aspose.Words](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
+Aprenda a capturar advertencias y detectar fuentes faltantes al procesar documentos con Aspose.Words para Java.
+### [Buscar fuentes faltantes en Java con Aspose.Words – Guía completa](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
+Aprenda a detectar y reemplazar fuentes faltantes en documentos Word usando Aspose.Words para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

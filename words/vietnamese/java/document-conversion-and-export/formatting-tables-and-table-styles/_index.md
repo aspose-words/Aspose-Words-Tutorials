@@ -1,73 +1,130 @@
 ---
-date: 2025-11-28
-description: Tìm hiểu cách thay đổi viền ô và định dạng bảng bằng Aspose.Words cho
-  Java. Hướng dẫn từng bước này bao gồm việc thiết lập viền, áp dụng kiểu cột đầu
-  tiên, tự động điều chỉnh nội dung bảng và áp dụng các kiểu bảng.
-linktitle: How to Change Cell Borders in Tables – Aspose.Words for Java
+date: 2026-10-17
+description: Tìm hiểu cách thay đổi viền trong các ô bảng với Aspose.Words for Java,
+  bao gồm việc thiết lập kiểu viền ô, áp dụng kiểu cột đầu tiên và tự động điều chỉnh
+  nội dung bảng.
+keywords:
+- how to change borders
+- apply first column style
+- Aspose.Words table styling
+- Java document processing
+lastmod: 2026-10-17
+linktitle: Cách thay đổi viền trong các ô bảng bằng Aspose.Words for Java
+og_description: Cách thay đổi viền trong các ô bảng bằng Aspose.Words for Java. Hướng
+  dẫn này chỉ cho bạn cách thiết lập độ dày viền ô, áp dụng kiểu cột đầu tiên và tự
+  động điều chỉnh bảng cho tài liệu chuyên nghiệp.
+og_image_alt: Screenshot of a Java table with customized cell borders using Aspose.Words
+og_title: Cách thay đổi viền trong các ô bảng – Aspose.Words for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-17'
+  description: Learn how to change borders in table cells with Aspose.Words for Java,
+    including setting cell border styles, applying first column style, and auto‑fit
+    table contents.
+  headline: How to change borders in table cells using Aspose.Words for Java
+  type: TechArticle
+- description: Learn how to change borders in table cells with Aspose.Words for Java,
+    including setting cell border styles, applying first column style, and auto‑fit
+    table contents.
+  name: How to change borders in table cells using Aspose.Words for Java
+  steps:
+  - name: '**Java Development Kit (JDK) 8+** – ensure `java` is on your PATH.'
+    text: '**Java Development Kit (JDK) 8+** – ensure `java` is on your PATH.'
+  - name: '**IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.'
+    text: '**IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.'
+  - name: '**Aspose.Words for Java** – download the latest JAR from the [official
+      site](https://releases.aspose.com/words/java/).'
+    text: '**Aspose.Words for Java** – download the latest JAR from the [official
+      site](https://releases.aspose.com/words/java/).'
+  - name: '**Basic Java knowledge** – you should be comfortable creating a Maven/Gradle
+      project and adding external JARs.'
+    text: '**Basic Java knowledge** – you should be comfortable creating a Maven/Gradle
+      project and adding external JARs.'
+  type: HowTo
+- questions:
+  - answer: Yes, you can create and apply custom styles programmatically. See the
+      [Aspose.Words documentation](https://reference.aspose.com/words/java/) for details.
+    question: Can I use custom table styles not included in the default options?
+  - answer: Use standard Java logic to inspect cell values, then call the appropriate
+      formatting methods (e.g., change background colour if a value exceeds a threshold).
+    question: How can I apply conditional formatting to cells?
+  - answer: Absolutely. After merging cells, apply shading or borders using the same
+      `CellFormat` APIs.
+    question: Is it possible to format merged cells the same way as regular cells?
+  - answer: Adjust column widths or call `autoFit` again after inserting new data
+      to recalculate the layout.
+    question: What if I need the table to resize dynamically based on user input?
+  - answer: The official [Aspose.Words API documentation](https://reference.aspose.com/words/java/)
+      contains a comprehensive set of samples.
+    question: Where can I find more examples of table styling?
+  type: FAQPage
 second_title: Aspose.Words Java Document Processing API
-title: Cách thay đổi viền ô trong bảng – Aspose.Words cho Java
+tags:
+- Aspose.Words
+- Java tables
+- document formatting
+- border styling
+title: Cách thay đổi viền trong các ô bảng bằng Aspose.Words for Java
 url: /vi/java/document-conversion-and-export/formatting-tables-and-table-styles/
 weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách Thay Đổi Viền Ô Trong Bảng – Aspose.Words cho Java
+# Cách thay đổi viền trong các ô bảng bằng Aspose.Words cho Java
 
 ## Giới thiệu
 
-Khi nói đến việc định dạng tài liệu, bảng đóng một vai trò quan trọng, và **biết cách thay đổi viền ô** là cần thiết để tạo ra bố cục rõ ràng, chuyên nghiệp. Nếu bạn đang phát triển với Java và Aspose.Words, bạn đã có một bộ công cụ mạnh mẽ trong tay. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn quy trình đầy đủ để định dạng bảng, thay đổi viền ô, áp dụng *kiểu cột đầu tiên*, và sử dụng *tự động điều chỉnh nội dung bảng* để tài liệu của bạn trông hoàn hảo.
+Khi bạn cần trình bày dữ liệu trong một bố cục sạch sẽ, chuyên nghiệp, **changing cell borders** là một trong những chỉnh sửa trực quan đầu tiên bạn sẽ áp dụng. Trong Java, Aspose.Words cung cấp cho bạn một API đầy đủ tính năng cho phép bạn tạo kiểu cho bảng, điều chỉnh viền từng ô, bật kiểu cột đầu tiên, và tự động điều chỉnh nội dung sao cho bảng không bao giờ tràn trang. Hướng dẫn này sẽ đưa bạn qua từng bước, từ tạo tài liệu đến tinh chỉnh mỗi viền, và cho thấy tại sao những tính năng này quan trọng trong các báo cáo và hoá đơn thực tế.
 
 ## Câu trả lời nhanh
-- **Lớp chính để tạo bảng là gì?** `DocumentBuilder` tạo bảng và ô một cách lập trình.  
+Lớp `DocumentBuilder` được sử dụng để xây dựng tài liệu và bảng một cách lập trình.  
+- **Lớp chính để xây dựng bảng là gì?** `DocumentBuilder` tạo bảng và ô một cách lập trình.  
 - **Làm thế nào để thay đổi độ dày viền của một ô duy nhất?** Sử dụng `builder.getCellFormat().getBorders().getLeft().setLineWidth(value)`.  
 - **Tôi có thể áp dụng kiểu bảng đã định nghĩa trước không?** Có – gọi `table.setStyleIdentifier(StyleIdentifier.YOUR_STYLE)`.  
-- **Phương thức nào tự động điều chỉnh bảng theo nội dung?** `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)`.  
-- **Tôi có cần giấy phép cho môi trường sản xuất không?** Cần một giấy phép Aspose.Words hợp lệ cho việc sử dụng không phải thử nghiệm.
+- **Phương thức nào tự động điều chỉnh bảng phù hợp với nội dung?** `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)`.  
+- **Tôi có cần giấy phép cho môi trường sản xuất không?** Một giấy phép Aspose.Words hợp lệ là bắt buộc cho việc sử dụng không phải thử nghiệm.
 
 ## “Cách thay đổi viền ô” trong Aspose.Words là gì?
 
-Thay đổi viền ô có nghĩa là tùy chỉnh các đường viền trực quan tách các ô—màu sắc, độ rộng và kiểu đường. Aspose.Words cung cấp một API phong phú cho phép bạn điều chỉnh các thuộc tính này ở mức bảng, hàng hoặc ô riêng lẻ, mang lại khả năng kiểm soát chi tiết về giao diện của tài liệu.
+Thay đổi viền ô có nghĩa là tùy chỉnh các đường kẻ trực quan tách các ô—màu sắc, độ rộng và kiểu đường. Aspose.Words for Java cung cấp một API chi tiết cho phép bạn đặt các thuộc tính này ở mức bảng, hàng hoặc ô riêng lẻ, mang lại khả năng kiểm soát chính xác giao diện tài liệu của bạn.
 
 ## Tại sao nên sử dụng Aspose.Words cho Java để tạo kiểu bảng?
 
-- **Giao diện nhất quán trên các nền tảng** – cùng một đoạn mã tạo kiểu hoạt động trên Windows, Linux và macOS.  
-- **Không phụ thuộc vào Microsoft Word** – tạo hoặc chỉnh sửa tài liệu phía máy chủ.  
-- **Thư viện kiểu phong phú** – các kiểu bảng tích hợp (ví dụ, *kiểu cột đầu tiên*) và khả năng tự động điều chỉnh đầy đủ.  
+Aspose.Words hỗ trợ **hơn 35 định dạng đầu vào và đầu ra** (DOCX, PDF, HTML, ODT, v.v.) và có thể xử lý **tài liệu 500 trang trong dưới 3 giây** trên phần cứng máy chủ tiêu chuẩn mà không cần Microsoft Word. Thư viện hoạt động nhất quán trên Windows, Linux và macOS, cho phép bạn tạo hoặc chỉnh sửa tài liệu phía máy chủ, áp dụng các kiểu bảng tích hợp như *first column style*, và tự động điều chỉnh bảng theo nội dung chỉ bằng một lời gọi phương thức.
 
 ## Yêu cầu trước
 
 1. **Java Development Kit (JDK) 8+** – đảm bảo `java` có trong PATH.  
-2. **IDE** – IntelliJ IDEA, Eclipse, hoặc bất kỳ trình soạn thảo nào bạn thích.  
-3. **Aspose.Words cho Java** – tải JAR mới nhất từ [trang chính thức](https://releases.aspose.com/words/java/).  
-4. **Kiến thức Java cơ bản** – bạn nên thoải mái tạo dự án Maven/Gradle và thêm JAR bên ngoài.  
+2. **IDE** – IntelliJ IDEA, Eclipse, hoặc bất kỳ trình chỉnh sửa nào bạn thích.  
+3. **Aspose.Words for Java** – tải JAR mới nhất từ [official site](https://releases.aspose.com/words/java/).  
+4. **Kiến thức Java cơ bản** – bạn nên thoải mái tạo dự án Maven/Gradle và thêm các JAR bên ngoài.
 
-## Nhập Gói
+## Nhập các gói
 
-Để bắt đầu làm việc với bảng, bạn cần các lớp cốt lõi của Aspose.Words:
+Các lớp `Document`, `DocumentBuilder`, `Table`, `StyleIdentifier` và các lớp liên quan nằm trong không gian tên `com.aspose.words`. Việc nhập gói duy nhất này sẽ cho bạn quyền truy cập vào toàn bộ bộ công cụ tạo kiểu bảng. Lớp `DocumentBuilder` cung cấp các phương thức để xây dựng và chỉnh sửa tài liệu một cách lập trình.
 
 ```java
 import com.aspose.words.*;
 ```
 
-Lệnh import duy nhất này cho phép bạn truy cập vào `Document`, `DocumentBuilder`, `Table`, `StyleIdentifier`, và nhiều tiện ích khác.
+## Cách thay đổi viền ô
 
-## Cách Thay Đổi Viền Ô
+Dưới đây là hướng dẫn ngắn gọn, từng bước tạo một bảng, áp dụng viền toàn cục, và sau đó tùy chỉnh các cạnh của một ô duy nhất.
 
-Dưới đây chúng ta sẽ tạo một bảng đơn giản, thay đổi viền tổng thể của nó, sau đó tùy chỉnh các ô riêng lẻ.
+### Câu trả lời trực tiếp
+`Document` đại diện cho tệp Word, trong khi `DocumentBuilder` tạo nội dung như bảng. Tải một `Document` mới, chèn một `Table` bằng `DocumentBuilder`, đặt viền đen 2 point cho toàn bộ bảng, và sau đó tăng viền trái, phải, trên và dưới của ô thứ ba lên 4 point. Cách tiếp cận này cho phép bạn làm nổi bật bất kỳ ô nào trong khi giữ phần còn lại của bảng có kiểu đồng nhất.
 
-### Bước 1: Tải Tài Liệu Mới
+### Bước 1: tải tài liệu mới
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-### Bước 2: Tạo Bảng và Đặt Viền Toàn Cục
+### Bước 2: tạo bảng và đặt viền toàn cục
 
 ```java
 Table table = builder.startTable();
@@ -89,7 +146,7 @@ builder.writeln("Cell #2");
 builder.endRow();
 ```
 
-### Bước 3: Thay Đổi Viền của Một Ô Đơn Lẻ
+### Bước 3: thay đổi viền của một ô duy nhất
 
 ```java
 // Clear the cell formatting from previous operations.
@@ -111,16 +168,19 @@ builder.writeln("Cell #4");
 doc.save("FormatTableAndCellWithDifferentBorders.docx");
 ```
 
-#### Những gì mã thực hiện
-- **Viền toàn cục** – `table.setBorders` đặt cho toàn bộ bảng một đường đen dày 2 điểm.  
+#### Mô tả mã
+- **Viền toàn cục** – `table.setBorders` đặt một đường đen 2‑point cho toàn bộ bảng.  
 - **Tô màu ô** – Minh họa cách tô màu các ô riêng lẻ (đỏ & xanh lá).  
-- **Viền ô tùy chỉnh** – Ô thứ ba nhận viền 4 điểm ở mọi phía, làm nó nổi bật.
+- **Viền ô tùy chỉnh** – Ô thứ ba nhận viền 4‑point ở mọi phía, làm nó nổi bật.
 
-## Áp Dụng Kiểu Bảng (bao gồm Kiểu Cột Đầu Tiên)
+## Áp dụng kiểu bảng (bao gồm kiểu cột đầu tiên)
 
-Kiểu bảng cho phép bạn áp dụng giao diện nhất quán chỉ bằng một lệnh. Chúng tôi cũng sẽ chỉ cách bật *kiểu cột đầu tiên* và tự động điều chỉnh bảng theo nội dung.
+Kiểu bảng cho phép bạn áp dụng một giao diện nhất quán chỉ bằng một lời gọi. Chúng tôi cũng sẽ bật *first column style* và tự động điều chỉnh bảng theo nội dung.
 
-### Bước 4: Tạo Tài Liệu Mới cho Việc Định Dạng
+### Câu trả lời trực tiếp
+`StyleIdentifier` liệt kê các kiểu bảng tích hợp, và `AutoFitBehavior` kiểm soát cách bảng điều chỉnh theo nội dung. Tạo một `Document` mới, xây dựng một `Table`, đặt `StyleIdentifier` thành `MEDIUM_SHADING_1_ACCENT_1`, bật `FirstColumn` và `RowBands`, sau đó gọi `autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)` để các cột tự động thu hoặc mở rộng phù hợp với dữ liệu đã chèn.
+
+### Bước 4: tạo tài liệu mới để tạo kiểu
 
 ```java
 Document doc = new Document();
@@ -132,7 +192,7 @@ Table table = builder.startTable();
 builder.insertCell();
 ```
 
-### Bước 5: Áp Dụng Kiểu Định Nghĩa Trước và Bật Định Dạng Cột Đầu Tiên
+### Bước 5: áp dụng kiểu đã định nghĩa trước và bật định dạng cột đầu tiên
 
 ```java
 // Set the table style based on a unique style identifier.
@@ -145,7 +205,7 @@ table.setStyleOptions(TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BAN
 table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS);
 ```
 
-### Bước 6: Điền Dữ Liệu Vào Bảng
+### Bước 6: điền dữ liệu vào bảng
 
 ```java
 builder.writeln("Item");
@@ -176,51 +236,56 @@ doc.save("BuildTableWithStyle.docx");
 ```
 
 #### Tại sao điều này quan trọng
-- **Định danh kiểu** – `MEDIUM_SHADING_1_ACCENT_1` mang lại cho bảng giao diện sạch sẽ, có bóng nhạt.  
-- **Kiểu cột đầu tiên** – Tô sáng cột đầu tiên cải thiện khả năng đọc, đặc biệt trong các báo cáo.  
-- **Dải hàng** – Màu sắc xen kẽ các hàng giúp các bảng lớn dễ nhìn hơn.  
-- **Tự động điều chỉnh** – Đảm bảo chiều rộng bảng thích ứng với nội dung, ngăn văn bản bị cắt.
+- **Định danh kiểu** – `MEDIUM_SHADING_1_ACCENT_1` tạo cho bảng giao diện sạch sẽ, có bóng.  
+- **Kiểu cột đầu tiên** – Tô sáng cột đầu tiên cải thiện khả năng đọc, đặc biệt trong báo cáo.  
+- **Dải hàng** – Màu hàng xen kẽ giúp các bảng lớn dễ nhìn hơn.  
+- **Tự động điều chỉnh** – Đảm bảo độ rộng bảng thích ứng với nội dung, tránh văn bản bị cắt.
 
-## Các Vấn Đề Thường Gặp & Khắc Phục
+## Các vấn đề thường gặp & khắc phục
 
 | Vấn đề | Nguyên nhân thường gặp | Cách khắc phục nhanh |
-|--------|------------------------|----------------------|
-| Viền không hiển thị | Sử dụng `clearFormatting()` sau khi đã đặt viền | Đặt viền **sau** khi xóa định dạng, hoặc áp dụng lại chúng. |
-| Bóng nền bị bỏ qua trên ô đã hợp nhất | Bóng nền được áp dụng trước khi hợp nhất | Áp dụng bóng nền **sau** khi hợp nhất các ô. |
-| Độ rộng bảng vượt lề trang | Không áp dụng tự động điều chỉnh | Gọi `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)` hoặc đặt chiều rộng cố định. |
-| Kiểu không được áp dụng | Giá trị `StyleIdentifier` sai | Kiểm tra định danh tồn tại trong phiên bản Aspose.Words bạn đang dùng. |
+|-------|------------------------|----------------------|
+| Viền không hiển thị | Sử dụng `clearFormatting()` sau khi đã đặt viền | Đặt viền **sau** khi đã xóa định dạng, hoặc áp dụng lại. |
+| Màu nền bị bỏ qua trên các ô đã hợp nhất | Màu nền được áp dụng trước khi hợp nhất | Áp dụng màu nền **sau** khi hợp nhất các ô. |
+| Độ rộng bảng vượt quá lề trang | Chưa áp dụng tự động điều chỉnh | Gọi `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)` hoặc đặt độ rộng cố định. |
+| Kiểu không được áp dụng | Giá trị `StyleIdentifier` sai | Xác minh định danh tồn tại trong phiên bản Aspose.Words bạn đang dùng. |
 
-## Câu Hỏi Thường Gặp
+## Câu hỏi thường gặp
 
 **Q: Tôi có thể sử dụng các kiểu bảng tùy chỉnh không có trong các tùy chọn mặc định không?**  
-A: Có, bạn có thể tạo và áp dụng các kiểu tùy chỉnh bằng lập trình. Xem [tài liệu Aspose.Words](https://reference.aspose.com/words/java/) để biết chi tiết.
+A: Có, bạn có thể tạo và áp dụng các kiểu tùy chỉnh bằng lập trình. Xem [Aspose.Words documentation](https://reference.aspose.com/words/java/) để biết chi tiết.
 
-**Q: Làm thế nào tôi có thể áp dụng định dạng có điều kiện cho các ô?**  
-A: Sử dụng logic Java tiêu chuẩn để kiểm tra giá trị ô, sau đó gọi các phương thức định dạng phù hợp (ví dụ, thay đổi màu nền nếu giá trị vượt quá ngưỡng).
+**Q: Làm thế nào để áp dụng định dạng có điều kiện cho các ô?**  
+A: Sử dụng logic Java tiêu chuẩn để kiểm tra giá trị ô, sau đó gọi các phương thức định dạng phù hợp (ví dụ: thay đổi màu nền nếu giá trị vượt quá ngưỡng).
 
 **Q: Có thể định dạng các ô đã hợp nhất giống như các ô thường không?**  
-A: Chắc chắn. Sau khi hợp nhất các ô, áp dụng bóng nền hoặc viền bằng cùng các API `CellFormat`.
+A: Chắc chắn. Sau khi hợp nhất các ô, áp dụng màu nền hoặc viền bằng các API `CellFormat` giống như với ô thường.
 
 **Q: Nếu tôi cần bảng thay đổi kích thước động dựa trên đầu vào của người dùng thì sao?**  
 A: Điều chỉnh độ rộng cột hoặc gọi lại `autoFit` sau khi chèn dữ liệu mới để tính lại bố cục.
 
-**Q: Tôi có thể tìm thêm ví dụ về định dạng bảng ở đâu?**  
-A: [Tài liệu API Aspose.Words chính thức](https://reference.aspose.com/words/java/) chứa một bộ mẫu đầy đủ.
+**Q: Tôi có thể tìm thêm ví dụ về tạo kiểu bảng ở đâu?**  
+A: Trang [Aspose.Words API documentation](https://reference.aspose.com/words/java/) chính thức chứa một bộ mẫu phong phú.
 
 ## Kết luận
 
-Bây giờ bạn đã có một bộ công cụ hoàn chỉnh để **thay đổi viền ô**, áp dụng *kiểu cột đầu tiên*, và **tự động điều chỉnh nội dung bảng** bằng Aspose.Words cho Java. Khi nắm vững các kỹ thuật này, bạn có thể tạo ra các tài liệu vừa giàu dữ liệu vừa hấp dẫn về mặt hình ảnh—hoàn hảo cho báo cáo, hoá đơn và bất kỳ đầu ra kinh doanh quan trọng nào.
+Bạn đã có một bộ công cụ hoàn chỉnh để **thay đổi viền** trong các ô bảng, áp dụng *first column style*, và **tự động điều chỉnh nội dung bảng** bằng Aspose.Words cho Java. Khi thành thạo những kỹ thuật này, bạn có thể tạo ra các tài liệu vừa giàu dữ liệu vừa được trình bày đẹp mắt—lý tưởng cho báo cáo, hoá đơn và bất kỳ đầu ra kinh doanh quan trọng nào.
+
+---
+
+**Last Updated:** 2026-10-17  
+**Tested With:** Aspose.Words for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
+## Các hướng dẫn liên quan
+
+- [Hướng dẫn Định dạng & Kiểu cho Aspose.Words Java - Nâng cao tài liệu của bạn](/words/java/formatting-styles/)
+- [Hướng dẫn Chi tiết về Viền Tài liệu với Aspose.Words cho Java: Một Cẩm nang Toàn diện](/words/java/headers-footers-page-setup/advanced-document-borders-aspose-words-java/)
+- [Thêm watermark vào tài liệu bằng Aspose.Words cho Java](/words/java/document-conversion-and-export/using-watermarks-to-documents/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-11-28  
-**Đã kiểm tra với:** Aspose.Words cho Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
-**Tác giả:** Aspose

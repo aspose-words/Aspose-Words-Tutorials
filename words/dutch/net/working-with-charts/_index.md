@@ -32,6 +32,8 @@ Duik dieper in onze geneste pagina's om specifieke functionaliteiten te verkenne
 
 {{< tutorial-card link="./insert-simple-column-chart/" title="Een eenvoudige kolomgrafiek in Word invoegen met Aspose.Words voor .NET" imgSrc="./insert-simple-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-edit-chart-in-word-change-label-position-font-more/" title="Hoe een grafiek in Word te bewerken: labelpositie, lettertype en meer wijzigen" imgSrc="./how-to-edit-chart-in-word-change-label-position-font-more/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

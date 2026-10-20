@@ -20,13 +20,9 @@ title: 如何从 DOCX 导出 LaTeX – 完整 Java 指南
 url: /zh/java/document-conversion-and-export/how-to-export-latex-from-docx-complete-java-guide/
 ---
 
->}}
 
-We keep them.
 
-Now produce final output with Chinese translations, preserving markdown.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

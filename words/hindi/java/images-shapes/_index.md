@@ -32,13 +32,75 @@ Aspose.Words for Java का उपयोग करके छवियों औ
 Aspose.Words Java के लिए एक कोड ट्यूटोरियल
 
 ### [Java के लिए Aspose.Words का उपयोग करके दस्तावेज़ पृष्ठों को थंबनेल के रूप में कैसे प्रस्तुत करें](./render-word-pages-thumbnails-aspose-java/)
-Java के लिए Aspose.Words के साथ Word दस्तावेज़ों के उच्च-गुणवत्ता वाले थंबनेल और कस्टम-आकार के बिटमैप बनाने का तरीका जानें। आज ही अपनी दस्तावेज़ प्रबंधन क्षमताओं को बढ़ाएँ।
+Java के लिए Aspose.Words के साथ Word दस्तावेज़ों के उच्च-गुणवत्ता वाले थंबनेल और कस्टम-आकार के बिटमैट बनाने का तरीका जानें। आज ही अपनी दस्तावेज़ प्रबंधन क्षमताओं को बढ़ाएँ।
 
 ### [जावा में Word दस्तावेज़ बनाएं – आयताकार आकार को छाया प्रभाव के साथ जोड़ें](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ में आयताकार आकार को छाया प्रभाव के साथ जोड़ने का तरीका सीखें।
 ### [जावा के साथ Word में आयताकार आकृति बनाएं – पूर्ण गाइड](./create-rectangle-shape-in-word-with-java-full-guide/)
 जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ में आयताकार आकृति जोड़ने और अनुकूलित करने की पूरी प्रक्रिया सीखें।
 
+### [Word में आकृति में छाया जोड़ें – पूर्ण Aspose.Words गाइड](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+Word दस्तावेज़ में आकृति पर छाया लागू करने के चरण-दर-चरण निर्देश, Aspose.Words Java के साथ पूर्ण गाइड।
+
+### [C# में आकृति पर शैडो इफ़ेक्ट लागू करें – चरण‑दर‑चरण गाइड](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
+C# में Aspose.Words का उपयोग करके आकृति पर शैडो इफ़ेक्ट जोड़ने के लिए विस्तृत चरण और कोड उदाहरण।
+### [Aspose.Words में आकृति पर छाया कैसे सेट करें – पूर्ण गाइड](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
+Aspose.Words में आकृति पर छाया लागू करने के चरण-दर-चरण निर्देश और कोड उदाहरण।
+
+### [C# में आकार पर छाया सेट करने का तरीका – आसानी से आकार की छाया जोड़ें](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+C# में Aspose.Words का उपयोग करके आकार पर छाया सेट करने की सरल विधि सीखें।
+
+### [जावा वर्ड दस्तावेज़ में आयताकार आकार बनाएं – पूर्ण चरण‑दर‑चरण मार्गदर्शिका](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Aspose.Words for Java का उपयोग करके वर्ड दस्तावेज़ में आयताकार आकार जोड़ने की पूरी चरण‑दर‑चरण प्रक्रिया सीखें।
+
+### [जावा में टेक्स्ट बॉक्स आकार बनाएं – छाया जोड़ने के लिए पूर्ण गाइड](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+जावा में Aspose.Words का उपयोग करके टेक्स्ट बॉक्स आकार में छाया प्रभाव जोड़ने का तरीका सीखें।
+
+### [जावा में Word दस्तावेज़ बनाएं – आकृति में छाया जोड़ने का गाइड](./create-word-document-java-add-shadow-to-shape-guide/)
+जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ में आकृति पर छाया प्रभाव जोड़ने का तरीका सीखें।
+### [आयताकार आकार के साथ PDF दस्तावेज़ बनाना – पूर्ण C# गाइड](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+C# में Aspose.PDF का उपयोग करके आयताकार आकार के साथ PDF दस्तावेज़ बनाने का पूर्ण मार्गदर्शन।
+
+### [जावा के साथ Word में समूह आकृतियाँ – पूर्ण चरण-दर-चरण मार्गदर्शिका](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ में समूह आकृतियों को बनाने और प्रबंधित करने की पूरी गाइड।
+
+### [जावा में Word दस्तावेज़ बनाएं – आकार को छाया प्रभाव के साथ जोड़ें](./create-word-document-java-add-shape-with-shadow-effect/)
+जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ में आकार को छाया प्रभाव के साथ जोड़ने का तरीका सीखें।
+
+### [जावा में Aspose.Words के साथ आयताकार आकार बनाएं – पूर्ण गाइड](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Aspose.Words for Java का उपयोग करके आयताकार आकार जोड़ने और अनुकूलित करने की पूरी प्रक्रिया सीखें।
+
+### [जावा में समूह आकृति कैसे डालें – पूर्ण गाइड](./how-to-insert-group-shape-in-java-complete-guide/)
+जावा में Aspose.Words का उपयोग करके समूह आकृति सम्मिलित करने की पूरी प्रक्रिया सीखें।
+
+### [समूहित आयताकार के साथ खाली Word दस्तावेज़ बनाएं – C# गाइड](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+C# में Aspose.Words का उपयोग करके समूहित आयताकार के साथ एक खाली Word दस्तावेज़ बनाने की प्रक्रिया सीखें।
+
+### [जावा में आयताकार आकार सम्मिलित करें – समूह बनाएं और आकारों को स्थित करें](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+जावा में Aspose.Words का उपयोग करके आयताकार आकार को समूहित करके उसकी स्थिति निर्धारित करने का तरीका सीखें।
+
+### [Word में छवि सम्मिलित करें – Aspose.Words चरण-दर-चरण गाइड](./insert-image-into-word-aspose-words-step-by-step-guide/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ में छवि कैसे जोड़ें, इस चरण-दर-चरण मार्गदर्शिका में सीखें।
+
+### [C# का उपयोग करके Word में आयताकार आकार सम्मिलित करें – पूर्ण मार्गदर्शिका](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+C# के साथ Aspose.Words का उपयोग करके Word में आयताकार आकार जोड़ने का पूर्ण गाइड।
+### [जावा में शैडो के साथ खाली वर्ड दस्तावेज़ बनाएं – पूर्ण गाइड](./create-blank-word-with-shadow-in-java-full-guide/)
+जावा में Aspose.Words का उपयोग करके शैडो प्रभाव के साथ एक खाली Word दस्तावेज़ बनाने की पूरी प्रक्रिया सीखें।
+
+### [Word में समूह आकृतियाँ – पूर्ण प्रोग्रामिंग गाइड](./group-shapes-in-word-complete-programming-guide/)
+Word में समूह आकृतियों को बनाने और प्रबंधित करने के लिए पूर्ण कोड गाइड।
+
+### [वर्ड में छवि को छिपाएँ – Aspose के साथ जावा चरण‑दर‑चरण गाइड](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Aspose.Words के साथ जावा में वर्ड दस्तावेज़ में छवि को छिपाने का चरण‑दर‑चरण मार्गदर्शन।
+
+### [Aspose.Words का उपयोग करके Word दस्तावेज़ में आकृतियों को समूहित करने का तरीका](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Aspose.Words Java के साथ Word दस्तावेज़ में कई आकृतियों को समूहित करने की प्रक्रिया सीखें।
+
+### [Aspose.Words for C# में आकृति की छिपी हुई प्रॉपर्टी कैसे सेट करें](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Aspose.Words C# में आकृति की छिपी हुई प्रॉपर्टी सेट करने की चरण-दर-चरण गाइड।
+
+### [खाली Word दस्तावेज़ बनाएं और जावा में आकार समूहित करें](./create-blank-word-document-and-group-shapes-in-java/)
+जावा में Aspose.Words का उपयोग करके खाली Word फ़ाइल बनाएं और कई आकारों को समूहित करने का तरीका सीखें।
 ### [C# में समूह आकृति docx बनाएं और इंटरैक्टिव नियंत्रण जोड़ें](./how-to-create-group-shape-docx-and-add-interactive-controls/)
 C# में Aspose.Words का उपयोग करके समूह आकृति बनाना और इंटरैक्टिव नियंत्रण जोड़ना सीखें।
 

@@ -80,6 +80,8 @@ Apprenez à utiliser les balises de document structurées (SDT) dans Aspose.Word
 Apprenez à améliorer la mise en forme de vos documents avec Aspose.Words pour Java. Explorez les styles, les thèmes et bien plus encore dans ce guide complet avec des exemples de code source.
 ### [Génération d'une table des matières dans Aspose.Words pour Java](./generating-table-of-contents/)
 Apprenez à générer et personnaliser une table des matières (TOC) avec Aspose.Words pour Java. Créez facilement des documents organisés et professionnels.
+### [Étiquetage d'accessibilité PDF en Java – Générer des PDF accessibles](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Apprenez à créer des PDF accessibles en ajoutant des balises d'accessibilité avec Aspose.Words pour Java.
 ### [Protection des documents dans Aspose.Words pour Java](./protecting-documents/)
 Apprenez à sécuriser vos documents Word Java avec Aspose.Words pour Java. Protégez vos données avec un mot de passe et bien plus encore.
 ### [Division de documents en pages dans Aspose.Words pour Java](./splitting-documents-into-pages/)
@@ -92,6 +94,8 @@ Apprenez à diviser des documents en pages HTML avec Aspose.Words pour Java. Sui
 Maîtrisez la création de documents avec Aspose.Words pour Java. Guide étape par étape pour ajouter du texte, des tableaux, des images et plus encore. Créez de superbes documents Word sans effort.
 ### [Clonage et combinaison de documents dans Aspose.Words pour Java](./cloning-and-combining-documents/)
 Apprenez à cloner et combiner des documents dans Aspose.Words pour Java. Guide étape par étape avec exemples de code source.
+### [Créer un document Word en Java avec Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Apprenez à créer un document Word en Java avec Aspose.Words grâce à un guide pas à pas et du code source.
 ### [Comparaison de documents dans Aspose.Words pour Java](./comparing-documents/)
 Apprenez à comparer des documents dans Aspose.Words pour Java, une puissante bibliothèque Java pour une analyse efficace des documents. 
 ### [Formatage de documents dans Aspose.Words pour Java](./formatting-documents/)
@@ -104,6 +108,8 @@ Exploitez la puissance d'Aspose.Words pour Java. Maîtrisez les options et param
 Optimisez la gestion de vos documents avec Aspose.Words pour Java. Apprenez à gérer les propriétés des documents, à ajouter des métadonnées personnalisées et bien plus encore dans ce tutoriel complet.
 ### [Utilisation des extensions Web dans Aspose.Words pour Java](./using-web-extensions/)
 Améliorez vos documents avec les extensions Web d'Aspose.Words pour Java. Apprenez à intégrer facilement du contenu Web. 
+### [Créer un bouton ActiveX docx en Java – guide complet de programmation](./create-docx-activex-button-in-java-complete-programming-guid/)
+Apprenez à créer un bouton ActiveX dans un document DOCX avec Java, étape par étape, avec exemples de code.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

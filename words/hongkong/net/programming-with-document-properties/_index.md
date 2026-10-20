@@ -32,7 +32,9 @@ Aspose.Words for .NET 教學中有關使用文件屬性進行文字處理的內�
 | [配置內容連結](./configuring-link-to-content/) |透過我們詳細的逐步教學，了解如何使用 Aspose.Words for .NET 設定 Word 文件中的內容連結。 |
 | [測量單位轉換](./convert-between-measurement-units/) |了解如何在 Aspose.Words for .NET 中轉換測量單位。請按照我們的逐步指南以英吋和點為單位設定文件邊距、頁首和頁尾。 |
 | [使用控製字符](./use-control-characters/) |了解如何使用 Aspose.Words for .NET 自動執行 Word 文件任務。本指南涵蓋設定、文字替換等內容，讓您的工作流程更有效率。 |
+| [如何在 Word 文件中計算頁數 – 恢復與計算](./how-to-count-pages-in-a-word-document-recover-count/) |了解如何使用 Aspose.Words for .NET 取得 Word 文件的頁數，並執行恢復與計算操作。 |
 
+| [檢查 Word 文件頁數 – 復原損壞檔案](./check-page-count-in-word-docs-recover-corrupted-files/) |了解如何使用 Aspose.Words for .NET 檢查 Word 文件的頁數並恢復受損的檔案。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

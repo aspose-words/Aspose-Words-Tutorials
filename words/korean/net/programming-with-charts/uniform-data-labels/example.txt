@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: 이 튜토리얼에서는 Word 문서를 생성하고, 열 차트를 삽입하며, 사용자 지정 데이터 시리즈를 추가하고, 차트의 모든 시리즈에 동일하게 적용되는 기본 데이터 레이블 글꼴 크기와 색상을 정의하는 방법을 보여줍니다.
+//ExStepSummary:0: 새 빈 Word 문서를 만들고 이를 편집하기 위한 DocumentBuilder를 생성합니다.
+//ExStepSummary:1: 문서에 500×300 크기의 열 차트를 삽입하고 해당 Chart 객체를 가져옵니다.
+//ExStepSummary:2: Aspose.Words가 새 차트에 추가하는 기본 샘플 시리즈를 제거합니다.
+//ExStepSummary:3: 카테고리 레이블을 정의하고 두 개의 데이터 시리즈(Item Alpha 및 Item Beta)와 해당 값을 차트에 추가합니다.
+//ExStepSummary:4: 모든 데이터 레이블에 적용될 기본 글꼴 크기와 색상을 설정합니다.
+//ExStepSummary:5: 각 시리즈에 데이터 레이블을 활성화하고, 숫자 값을 표시하며, 미리 정의된 글꼴 크기와 색상을 적용합니다.
+//ExStepSummary:6: 문서를 .docx 파일로 저장합니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document document = new Document();
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:1-
+Shape chartContainer = builder.InsertChart(ChartType.Column, 500, 300);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+
+//ExStep:3-
+string[] periods = { "Period 1", "Period 2", "Period 3", "Period 4" };
+chart.Series.Add("Item Alpha", periods, new double[] { 120, 150, 170, 130 });
+chart.Series.Add("Item Beta", periods, new double[] { 80, 110, 140, 100 });
+
+//ExStep:4-
+const float labelFontSize = 10f;
+Color labelFontColor = Color.White;
+
+//ExStep:5-
+foreach (ChartSeries series in chart.Series)
+{
+    series.HasDataLabels = true;
+    series.DataLabels.ShowValue = true;
+    series.DataLabels.Font.Size = labelFontSize;
+    series.DataLabels.Font.Color = labelFontColor;
+}
+
+//ExStep:6-
+document.Save("UniformLabelChart.docx");
+//ExEnd

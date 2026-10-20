@@ -43,13 +43,18 @@ Készen állsz, hogy elkezdjük? Látogass el ide: [Aspose.Words Java API dokume
 Ne feledd, a gyakorlat teszi a mestert, és az Aspose.Words for Java segítségével pillanatok alatt profi módon fogsz dokumentumokat létrehozni, módosítani és fejleszteni. Jó kódolást!
 
 ## Dokumentumelemek használata – Oktatóanyagok
+### [Forms2OleControl hozzáadása DOCX-hez – Teljes Aspose.Words útmutató](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Tanuld meg, hogyan adhatod hozzá a Forms2OleControl elemet a DOCX dokumentumokhoz az Aspose.Words for Java segítségével.
+
 ### [Megjegyzések használata az Aspose.Words Java-ban](./using-comments/)
 Tanuld meg, hogyan használhatsz megjegyzéseket az Aspose.Words for Java programban. Lépésről lépésre útmutató a dokumentumokban található megjegyzések hozzáadásához és testreszabásához.
 ### [Mezők használata az Aspose.Words fájlban Java-ban](./using-fields/)
 Tanuld meg az Aspose.Words hatékony használatát Java mezőkhöz ebben a lépésről lépésre bemutató oktatóanyagban. Hozz létre dinamikus Word dokumentumokat könnyedén.
 ### [Betűtípusok használata az Aspose.Words Java-ban](./using-fonts/)
 Fedezd fel a betűtípus formázását az Aspose.Words for Java programban: méret, stílus, szín és egyebek. Készíts könnyedén gyönyörűen formázott dokumentumokat.
-### [Lábjegyzetek és végjegyzetek használata az Aspose.Words for Java programban](./using-footnotes-and-endnotes/)
+### [Gombméret beállítása Word-ben Java-val – Teljes Aspose.Words útmutató](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Tanuld meg, hogyan állíthatod be a gombok méretét Word dokumentumokban Java segítségével az Aspose.Words használatával.
+### [Lábjegyzetek és végjegyzetek használata az Aspose.Words Java programban](./using-footnotes-and-endnotes/)
 Tanuld meg hatékonyan használni a lábjegyzeteket és végjegyzeteket az Aspose.Words for Java programban. Fejleszd dokumentumformázási készségeidet még ma!
 ### [Űrlapmezők használata az Aspose.Words Java-ban](./using-form-fields/)
 „Tanuld meg az Aspose.Words Java-beli használatát interaktív Word-dokumentumok létrehozásához űrlapmezőkkel. Kezdj hozzá most!”
@@ -61,16 +66,36 @@ Tanuld meg lépésről lépésre, hogyan használd a fejléceket és lábléceke
 Tanuld meg, hogyan használd hatékonyan a kötőjelezést az Aspose.Words for Java programban ezzel az átfogó oktatóanyaggal. Fokozd a dokumentumok olvashatóságát még ma!
 ### [Listák használata az Aspose.Words Java-ban](./using-lists/)
 Tanuld meg a listák használatát az Aspose.Words for Java programban ezzel a lépésről lépésre szóló oktatóanyaggal. Rendszerezd és formázd hatékonyan a dokumentumaidat.
+### [Word dokumentum létrehozása helyőrzőkkel és listákkal](./how-to-create-word-document-with-placeholders-and-lists/)
+Tanuld meg, hogyan hozhatsz létre Word dokumentumot helyőrzőkkel és listákkal az Aspose.Words for Java segítségével.
 ### [Markdown használata az Aspose.Words Java-ban](./using-markdown/)
 Tanuld meg használni a Markdownt az Aspose.Words for Java-ban ezzel a lépésről lépésre szóló oktatóanyaggal. Hozz létre, formázz és ments el Markdown dokumentumokat könnyedén.
 ### [Csomópontok használata az Aspose.Words-ben Java-ban](./using-nodes/)
 Tanuld meg a csomópontok manipulálását az Aspose.Words for Java programban ezzel a lépésről lépésre haladó oktatóanyaggal. Engedd szabadjára a dokumentumfeldolgozási teljesítményt.
 ### [OLE objektumok és ActiveX vezérlők használata az Aspose.Words for Java programban](./using-ole-objects-and-activex/)
 Tanuld meg az OLE objektumok és ActiveX vezérlők használatát az Aspose.Words for Java programban. Hozz létre interaktív dokumentumokat könnyedén. Kezdj hozzá most!
+### [ActiveX gomb beszúrása Word-ben – Gombfelirat beállítása](./how-to-insert-activex-button-in-word-set-button-caption/)
+Tanuld meg, hogyan szúrj be ActiveX gombot Word dokumentumba, és állítsd be a feliratát lépésről lépésre.
 ### [Revisions használata az Aspose.Words-ben Java-ban](./using-revisions/)
 Tanuld meg hatékonyan használni az Aspose.Words-öt a Java verziókezelési vezérlőihez. Lépésről lépésre útmutató fejlesztőknek. Optimalizáld a dokumentumkezelésedet.
 ### [Szakaszok használata az Aspose.Words Java-ban](./using-sections/)
 Fedezd fel az Aspose.Words Java-hoz készült változatát: Átfogó útmutató a szakaszok használatához. Szakaszok hozzáadása, törlése, hozzáfűzése és klónozása kódpéldákkal.
+### [Pitédiagram létrehozása Aspose.Words Java-val – Teljes lépésről‑lépésre útmutató](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Tanuld meg, hogyan hozhatsz létre pitédiagramot az Aspose.Words for Java segítségével, részletes kódpéldákkal.
+### [Kördiagram beszúrása Word-be az Aspose.Words segítségével – Teljes útmutató](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Tanuld meg, hogyan szúrj be kördiagramot Word dokumentumba az Aspose.Words Java API-val, lépésről lépésre útmutatóval.
+### [Üres Word dokumentum létrehozása parancsgombbal – lépésről‑lépésre útmutató](./create-blank-word-document-with-a-command-button-step-by-ste/)
+Tanuld meg, hogyan hozhatsz létre üres Word dokumentumot parancsgombbal.
+### [SDT hozzáadása C#-ban – teljes útmutató a Word helyőrzőkhöz](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Ismerd meg, hogyan lehet SDT (Struktúrált Dokumentum Típus) elemeket hozzáadni C#-ban a Word helyőrzők kezeléséhez.
+### [Elválasztó lekérése Word dokumentumokban Java-val](./how-to-get-separator-in-word-docs-with-java/)
+Tanuld meg, hogyan szerezheted meg az elválasztó karaktert a Word dokumentumokban Java segítségével.
+### [Kördiagram létrehozása Word-ben Java-val – lépésről lépésre útmutató](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Tanuld meg, hogyan hozhatsz létre kördiagramot Word dokumentumban Java segítségével, lépésről lépésre útmutatóval.
+### [Vezetővonalak hozzáadása kördiagramhoz Java-ban a Chart API-val](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Tanuld meg, hogyan jelenítsd meg a vezetővonalakat a kördiagramokban Java Chart API használatával.
+### [Parancsgomb beszúrása Word dokumentumba Java használatával](./how-to-insert-command-button-in-a-word-document-using-java/)
+Tanuld meg, hogyan szúrj be parancsgombot egy Word dokumentumba Java segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
