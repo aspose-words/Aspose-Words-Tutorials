@@ -43,6 +43,8 @@ Dowiedz się, jak wdrożyć bezpieczne podpisy cyfrowe w dokumentach za pomocą 
 Dowiedz się, jak zabezpieczyć dokumenty i redagować poufne dane za pomocą Aspose.Words for Java. Przewodnik krok po kroku z kodem źródłowym.
 ### [Podpisywanie dokumentu Word w Javie przy użyciu Aspose.Words – Kompletny przewodnik](./sign-word-document-in-java-with-aspose-words-complete-guide/)
 Dowiedz się, jak podpisać dokument Word w Javie przy użyciu Aspose.Words, krok po kroku, z przykładami kodu.
+### [Jak podpisać pliki DOCX w C# – kompletny przewodnik krok po kroku](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
+Dowiedz się, jak za pomocą Aspose.Words w C# dodać podpis cyfrowy do plików DOCX, zapewniając integralność i autentyczność dokumentów.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

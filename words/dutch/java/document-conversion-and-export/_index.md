@@ -175,6 +175,8 @@ Leer hoe je Word‑documenten omzet naar Markdown met Aspose.Words for Java in e
 Leer hoe je DOCX-bestanden converteert naar Markdown en afbeeldingen extraheren met Aspose.Words for Java in één volledige gids.
 ### [Word opslaan als Markdown – Tabellen exporteren naar HTML in Java](./save-word-as-markdown-export-tables-to-html-in-java/)
 Leer hoe je een Word-document opslaat als Markdown en tabellen exporteert naar HTML met Aspose.Words for Java.
+### [DOCX opslaan als Markdown – Complete Java-gids](./save-docx-as-markdown-complete-java-guide/)
+Leer hoe je een DOCX‑bestand opslaat als Markdown met Aspose.Words for Java in een volledige stap‑voor‑stap gids.
 
 ### [Hoe afbeeldingen inbedden in Markdown bij het converteren van DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Leer hoe je afbeeldingen in Markdown kunt inbedden tijdens het converteren van DOCX met Aspose.Words for Java.

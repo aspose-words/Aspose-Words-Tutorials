@@ -70,6 +70,12 @@ Aprenda a inserir e manipular formas de grupo em documentos Word usando Aspose.W
 ### [Criar documento Word em branco com retângulos agrupados – Guia C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
 Aprenda a criar um documento Word em branco e adicionar retângulos agrupados usando Aspose.Words para C#.
 
+### [Inserir forma retangular em Java – Agrupar e posicionar formas](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+Aprenda a agrupar e posicionar formas retangulares em documentos Word usando Aspose.Words para Java.
+
+### [Inserir imagem no Word – Guia passo a passo do Aspose.Words](./insert-image-into-word-aspose-words-step-by-step-guide/)
+Aprenda a inserir imagens em documentos Word com Aspose.Words para Java passo a passo.
+
 ## Recursos adicionais
 
 ## Recursos adicionais

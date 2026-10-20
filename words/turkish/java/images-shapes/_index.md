@@ -70,6 +70,12 @@ Java kullanarak Word belgelerine grup şekli eklemeyi ve özelleştirmeyi adım 
 ### [Gruplandırılmış Dikdörtgenlerle Boş Word Belgesi Oluşturma – C# Kılavuzu](./create-blank-word-document-with-grouped-rectangles-c-guide/)
 C# kullanarak gruplandırılmış dikdörtgenlerle boş bir Word belgesi oluşturmayı öğrenin.
 
+### [Java’da Dikdörtgen Şekil Ekle – Şekilleri Gruplama ve Konumlandırma](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+Java kullanarak Word belgesine dikdörtgen şekil ekleyin, şekilleri gruplayın ve konumlandırın.
+
+### [Word Belgesine Resim Ekle – Aspose.Words Adım Adım Kılavuzu](./insert-image-into-word-aspose-words-step-by-step-guide/)
+Aspose.Words for Java ile Word belgesine resim eklemeyi adım adım öğrenin.
+
 ## Ek Kaynaklar
 
 ## Ek Kaynaklar

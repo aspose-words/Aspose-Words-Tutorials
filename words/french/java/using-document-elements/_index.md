@@ -77,6 +77,10 @@ Découvrez Aspose.Words pour Java : un guide complet sur l'utilisation des sect
 Apprenez à définir la taille des boutons dans Word avec Aspose.Words pour Java grâce à ce guide complet.
 ### [Créer un diagramme circulaire avec Aspose.Words Java – Guide complet étape par étape](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
 Apprenez à créer un diagramme circulaire dans Aspose.Words pour Java grâce à ce guide complet étape par étape.
+### [Insérer un diagramme circulaire dans Word avec Aspose.Words – Guide complet](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Apprenez à insérer et personnaliser un diagramme circulaire dans un document Word à l'aide d'Aspose.Words pour Java.
+### [Comment insérer un bouton ActiveX dans Word – définir la légende du bouton](./how-to-insert-activex-button-in-word-set-button-caption/)
+Apprenez à insérer un bouton ActiveX dans un document Word et à définir sa légende via Aspose.Words pour Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

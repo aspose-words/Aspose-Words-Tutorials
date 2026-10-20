@@ -67,6 +67,8 @@ Bu adım adım eğitimle Java için Aspose.Words'de Markdown kullanmayı öğren
 Bu adım adım eğitimle Aspose.Words for Java'da düğümleri yönetmeyi öğrenin. Belge işleme gücünü açığa çıkarın.
 ### [Aspose.Words for Java'da OLE Nesneleri ve ActiveX Denetimlerini Kullanma](./using-ole-objects-and-activex/)
 Aspose.Words for Java'da OLE nesnelerini ve ActiveX denetimlerini kullanmayı öğrenin. Kolayca etkileşimli belgeler oluşturun. Hemen başlayın!
+### [Word'de ActiveX Düğmesi Ekleme – Düğme Başlığını Ayarlama](./how-to-insert-activex-button-in-word-set-button-caption/)
+ActiveX düğmesi eklemeyi ve düğme başlığını ayarlamayı adım adım öğrenin.
 ### [Java için Aspose.Words'de Revizyonları Kullanma](./using-revisions/)
 Aspose.Words for Java'nın revizyon kontrollerini etkili bir şekilde kullanmayı öğrenin. Geliştiriciler için adım adım kılavuz. Belge yönetiminizi optimize edin.
 ### [Java için Aspose.Words'de Bölümleri Kullanma](./using-sections/)
@@ -77,6 +79,8 @@ Java ile Aspose.Words kullanarak Word belgelerindeki düğme boyutlarını nası
 Aspose.Words for Java kullanarak Word belgesine adım adım pasta grafik eklemeyi öğrenin.
 ### [DOCX'e Forms2OleControl Ekleme – Tam Aspose.Words Kılavuzu](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
 Java için Aspose.Words'de Forms2OleControl ile DOCX dosyalarına form nesneleri eklemeyi adım adım öğrenin.
+### [Aspose.Words ile Word'e Pasta Grafiği Ekleme – Tam Kılavuz](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Aspose.Words kullanarak Word belgelerine dinamik pasta grafiği eklemeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

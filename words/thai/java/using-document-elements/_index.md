@@ -77,6 +77,10 @@
 เรียนรู้วิธีสร้างแผนภูมิวงกลมในเอกสาร Word ด้วย Aspose.Words for Java อย่างละเอียดตามขั้นตอน
 ### [เพิ่ม Forms2OleControl ไปยัง DOCX – คู่มือ Aspose.Words ฉบับสมบูรณ์](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
 เรียนรู้วิธีเพิ่ม Forms2OleControl ลงในไฟล์ DOCX ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
+### [วิธีแทรกปุ่ม ActiveX ใน Word – ตั้งค่าคำบรรยายของปุ่ม](./how-to-insert-activex-button-in-word-set-button-caption/)
+เรียนรู้วิธีแทรกปุ่ม ActiveX ลงในเอกสาร Word และตั้งค่าคำบรรยายของปุ่มอย่างละเอียด
+### [แทรกแผนภูมิวงกลมใน Word ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+เรียนรู้วิธีแทรกแผนภูมิวงกลมในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

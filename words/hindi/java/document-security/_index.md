@@ -44,6 +44,9 @@ Aspose.Words for Java का उपयोग करके दस्तावे�
 ### [Java में Aspose.Words के साथ Word दस्तावेज़ पर हस्ताक्षर – पूर्ण गाइड](./sign-word-document-in-java-with-aspose-words-complete-guide/)
 Aspose.Words for Java का उपयोग करके Word दस्तावेज़ को डिजिटल रूप से हस्ताक्षरित करने की पूरी प्रक्रिया सीखें। चरण-दर-चरण मार्गदर्शन और कोड उदाहरण।
 
+### [C# में DOCX फ़ाइलों पर हस्ताक्षर कैसे करें – पूर्ण चरण‑दर‑चरण गाइड](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
+C# के साथ Aspose.Words का उपयोग करके DOCX फ़ाइलों पर डिजिटल हस्ताक्षर लागू करने का विस्तृत मार्गदर्शन।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

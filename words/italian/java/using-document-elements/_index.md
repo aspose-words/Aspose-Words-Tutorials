@@ -67,6 +67,8 @@ Impara a usare Markdown in Aspose.Words per Java con questo tutorial passo passo
 Impara a manipolare i nodi in Aspose.Words per Java con questo tutorial passo passo. Sfrutta la potenza di elaborazione dei documenti.
 ### [Utilizzo di oggetti OLE e controlli ActiveX in Aspose.Words per Java](./using-ole-objects-and-activex/)
 Impara a usare oggetti OLE e controlli ActiveX in Aspose.Words per Java. Crea documenti interattivi con facilità. Inizia subito!
+### [Utilizzo di pulsanti ActiveX in Word – impostare la didascalia del pulsante](./how-to-insert-activex-button-in-word-set-button-caption/)
+Impara a inserire un pulsante ActiveX in Word e a impostarne la didascalia con Aspose.Words per Java.
 ### [Utilizzo delle revisioni in Aspose.Words per Java](./using-revisions/)
 Impara a usare in modo efficiente i controlli di revisione di Aspose.Words per Java. Guida passo passo per sviluppatori. Ottimizza la gestione dei tuoi documenti.
 ### [Utilizzo delle sezioni in Aspose.Words per Java](./using-sections/)
@@ -77,6 +79,8 @@ Scopri come impostare la dimensione dei pulsanti in Word con Java usando Aspose.
 Impara a generare un grafico a torta in Word usando Aspose.Words per Java con questa guida dettagliata passo passo.
 ### [Aggiungi Forms2OleControl a DOCX – Guida completa Aspose.Words](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
 Scopri come inserire il controllo Forms2Ole in un documento DOCX usando Aspose.Words con esempi passo passo.
+### [Inserire un grafico a torta in Word con Aspose.Words – Guida completa](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Scopri come inserire un grafico a torta in un documento Word usando Aspose.Words con questa guida passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

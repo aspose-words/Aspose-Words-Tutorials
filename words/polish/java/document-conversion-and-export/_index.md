@@ -141,6 +141,8 @@ Dowiedz się, jak zapisać plik DOCX jako Markdown w C# przy użyciu Aspose.Word
 Dowiedz się, jak wyeksportować zawartość dokumentu Word do formatu Markdown, zachowując formatowanie i obrazy, krok po kroku.
 ### [Osadzanie obrazów jako Base64 przy konwertowaniu DOCX do Markdown](./embed-images-as-base64-when-converting-docx-to-markdown/)
 Dowiedz się, jak osadzać obrazy jako Base64 przy konwertowaniu DOCX do Markdown przy użyciu Aspose.Words for Java.
+### [Zapisz DOCX jako Markdown – Kompletny przewodnik w Javie](./save-docx-as-markdown-complete-java-guide/)
+Dowiedz się, jak zapisać plik DOCX w formacie Markdown przy użyciu Aspose.Words for Java. Kompletny przewodnik krok po kroku.
 
 ### [Zapisz dokument jako TXT – szybki przewodnik po eksportowaniu równań Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Dowiedz się, jak wyeksportować dokumenty Word do formatu TXT, zachowując równania matematyczne przy użyciu Aspose.Words for Java.

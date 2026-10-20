@@ -121,6 +121,8 @@ DOCX को मार्कडाउन में बदलते समय छ�
 Aspose.Words for Java का उपयोग करके docx फ़ाइल को txt में बदलें और LaTeX फ़ॉर्मेट में गणितीय समीकरण निर्यात करें।
 ### [docx को markdown के रूप में सहेजें – इमेज एक्सट्रैक्शन के साथ पूर्ण जावा गाइड](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
 Aspose.Words for Java का उपयोग करके docx को markdown में बदलें और छवियों को निकालें। पूर्ण कोड उदाहरण।
+### [DOCX को मार्कडाउन के रूप में सहेजें – पूर्ण जावा गाइड](./save-docx-as-markdown-complete-java-guide/)
+Aspose.Words for Java का उपयोग करके DOCX फ़ाइल को मार्कडाउन में बदलने की पूरी प्रक्रिया, कोड उदाहरण और सेटिंग्स के साथ।
 
 ### [DOCX से एक्सेसिबल PDF बनाना – पूर्ण गाइड](./create-accessible-pdf-from-docx-complete-guide/)
 ### [Java में DOCX को Markdown में बदलते समय इमेजेज को Base64 के रूप में एम्बेड करना](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)

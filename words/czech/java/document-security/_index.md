@@ -43,6 +43,8 @@ Naučte se, jak implementovat zabezpečené digitální podpisy v dokumentech po
 Naučte se, jak podepsat Word dokument v Javě pomocí Aspose.Words. Kompletní průvodce s ukázkovým kódem.
 ### [Redakční úprava dokumentů a ochrana osobních údajů](./document-redaction-data-protection/)
 Naučte se, jak zabezpečit své dokumenty a redigovat citlivá data pomocí Aspose.Words pro Javu. Podrobný návod se zdrojovým kódem.
+### [Jak podepsat soubory DOCX v C# – Kompletní krok‑za‑krokem průvodce](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
+Naučte se, jak podepsat soubory DOCX v C# pomocí Aspose.Words. Kompletní průvodce s ukázkovým kódem a podrobnými instrukcemi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

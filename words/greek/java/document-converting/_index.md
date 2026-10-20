@@ -123,6 +123,9 @@ weight: 14
 ### [Μετατροπή docx σε markdown – Πλήρης οδηγός για προγραμματιστές Java](./convert-docx-to-markdown-complete-guide-for-java-developers/)
 Μάθετε πώς να μετατρέψετε αρχεία DOCX σε Markdown με Aspose.Words for Java σε πλήρη βήμα‑βήμα οδηγό.
 
+### [Java Μετατροπή Markdown σε Word – Markdown σε DOCX](./java-convert-markdown-to-word-markdown-to-docx-java/)
+Μάθετε πώς να μετατρέψετε αρχεία Markdown σε έγγραφα Word (DOCX) χρησιμοποιώντας Aspose.Words for Java.
+
 ## Συχνές Ερωτήσεις
 
 **Q:** *Μπορώ να μετατρέψω αρχεία Word με κωδικό πρόσβασης σε PDF;*  

@@ -89,6 +89,12 @@ Learn how to insert and manipulate group shapes in Word documents using Aspose.W
 ### [Create blank word document with grouped rectangles – C# guide](./create-blank-word-document-with-grouped-rectangles-c-guide/)
 Learn how to create a blank Word document and add grouped rectangle shapes using Aspose.Words for C#.
 
+### [Insert Rectangle Shape in Java – Group and Position Shapes](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+Learn how to group rectangle shapes and set their positions in a Word document using Aspose.Words for Java.
+
+### [Insert Image into Word – Aspose.Words Step-by-Step Guide](./insert-image-into-word-aspose-words-step-by-step-guide/)
+Step-by-step guide on inserting images into Word documents using Aspose.Words for Java.
+
 ## Additional Resources
 
 ## Additional Resources

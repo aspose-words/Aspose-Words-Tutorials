@@ -43,6 +43,8 @@
 Узнайте, как защитить ваши документы и отредактировать конфиденциальные данные с помощью Aspose.Words для Java. Пошаговое руководство с исходным кодом.
 ### [Подпись Word-документа в Java с Aspose.Words – Полное руководство](./sign-word-document-in-java-with-aspose-words-complete-guide/)
 Узнайте, как подписать Word-документ в Java с помощью Aspose.Words. Полное руководство с примерами кода.
+### [Как подписать файлы DOCX в C# – Полное пошаговое руководство](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
+Узнайте, как подписать файлы DOCX в C# с помощью Aspose.Words, следуя полному пошаговому руководству и примерам кода.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -70,6 +70,12 @@ Javaでグループシェイプを文書に挿入し、カスタマイズする�
 ### [C#で空白のWord文書を作成 – グループ化された長方形](./create-blank-word-document-with-grouped-rectangles-c-guide/)
 C# を使用して、グループ化された長方形を含む空白の Word 文書を作成する方法を学びます。
 
+### [Javaで長方形シェイプを挿入 – シェイプのグループ化と位置設定](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+Javaで長方形シェイプを挿入し、複数のシェイプをグループ化して位置を調整する方法を学びます。
+
+### [Word に画像を挿入 – Aspose.Words ステップバイステップ ガイド](./insert-image-into-word-aspose-words-step-by-step-guide/)
+Aspose.Words for Java を使用して、Word 文書に画像を挿入する方法をステップバイステップで学びます。
+
 ## 追加リソース
 
 ## 追加リソース

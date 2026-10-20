@@ -69,6 +69,8 @@ Aprende a usar Markdown en Aspose.Words para Java con este tutorial paso a paso.
 Aprenda a manipular nodos en Aspose.Words para Java con este tutorial paso a paso. Desbloquee el potencial del procesamiento de documentos.
 ### [Uso de objetos OLE y controles ActiveX en Aspose.Words para Java](./using-ole-objects-and-activex/)
 Aprenda a usar objetos OLE y controles ActiveX en Aspose.Words para Java. Cree documentos interactivos fácilmente. ¡Empiece ya!
+### [Cómo insertar un botón ActiveX en Word – Establecer el texto del botón](./how-to-insert-activex-button-in-word-set-button-caption/)
+Aprenda a insertar un botón ActiveX en Word y a establecer su texto mediante Aspose.Words para Java.
 ### [Uso de revisiones en Aspose.Words para Java](./using-revisions/)
 Aprenda a usar Aspose.Words para los controles de revisión de Java de forma eficiente. Guía paso a paso para desarrolladores. Optimice la gestión de documentos.
 ### [Uso de secciones en Aspose.Words para Java](./using-sections/)
@@ -77,6 +79,8 @@ Explora Aspose.Words para Java: Una guía completa sobre el uso de secciones. Ag
 Aprenda a establecer el tamaño de los botones en documentos Word mediante Java y Aspose.Words con este tutorial paso a paso.
 ### [Crear gráfico de pastel con Aspose.Words para Java – Guía completa paso a paso](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
 Aprenda a generar gráficos de pastel en documentos Word usando Aspose.Words para Java con esta guía paso a paso.
+### [Insertar gráfico circular en Word con Aspose.Words – Guía completa](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Aprenda a insertar un gráfico circular en Word usando Aspose.Words para Java. Guía paso a paso para crear diagramas profesionales.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

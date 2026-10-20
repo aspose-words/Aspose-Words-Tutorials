@@ -135,6 +135,8 @@ weight: 22
 تعلم كيفية تحويل ملفات DOCX إلى تنسيق Markdown باستخدام Aspose.Words for Java خطوة بخطوة.
 ### [حفظ ملف docx كـ markdown – دليل Java كامل مع استخراج الصور](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
 تعلم كيفية تحويل ملفات DOCX إلى تنسيق Markdown واستخراج الصور باستخدام Aspose.Words for Java خطوة بخطوة.
+### [حفظ DOCX كملف Markdown – دليل Java كامل](./save-docx-as-markdown-complete-java-guide/)
+دليل شامل خطوة بخطوة لحفظ ملفات DOCX كملفات Markdown باستخدام Aspose.Words for Java.
 
 ### [حفظ المستند كملف TXT – دليل سريع لتصدير معادلات Word Math](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 تعلم كيفية حفظ المستند كملف TXT وتصدير معادلات Word Math بسهولة باستخدام Aspose.Words for Java.

@@ -162,6 +162,8 @@ Convert DOCX to Markdown using Aspose.Words for Java. Step‑by‑step guide to 
 Learn how to convert DOCX to Markdown in Java while extracting embedded images using Aspose.Words.
 ### [Save Document as DOCX – Convert Markdown to Word with Java](./save-document-as-docx-convert-markdown-to-word-with-java/)
 Learn how to convert Markdown files to DOCX using Aspose.Words for Java and save the document as a Word file.
+### [Save DOCX as Markdown – Complete Java Guide](./save-docx-as-markdown-complete-java-guide/)
+Learn how to convert DOCX files to Markdown using Aspose.Words for Java with a complete step‑by‑step guide.
 
 ### [Save Document as TXT – Quick Guide to Exporting Word Math](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Learn how to export Word documents as plain text files while preserving Math equations using Aspose.Words for Java.

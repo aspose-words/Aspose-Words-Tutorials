@@ -40,9 +40,10 @@
 ### [التوقيعات الرقمية في المستندات](./digital-signatures-in-documents/)
 تعرّف على كيفية تطبيق التوقيعات الرقمية الآمنة في المستندات باستخدام Aspose.Words لجافا. اضمن سلامة المستندات من خلال إرشادات خطوة بخطوة وشيفرة المصدر.
 ### [تحرير المستندات وحماية البيانات](./document-redaction-data-protection/)
-تعرّف على كيفية تأمين مستنداتك وتحرير البيانات الحساسة باستخدام Aspode.Words لجافا. دليل خطوة بخطوة مع الكود المصدر.
 ### [توقيع مستند Word في Java باستخدام Aspose.Words – دليل شامل](./sign-word-document-in-java-with-aspose-words-complete-guide/)
 تعلم كيفية توقيع مستندات Word برمجياً في Java باستخدام Aspose.Words مع خطوات مفصلة وأمثلة كود.
+### [كيفية توقيع ملفات DOCX في C# – دليل خطوة بخطوة كامل](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
+تعلم كيفية توقيع ملفات DOCX باستخدام C# مع Aspose.Words خطوة بخطوة، مع أمثلة عملية وشيفرة المصدر.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -70,6 +70,12 @@
 ### [สร้างเอกสาร Word เปล่าพร้อมสี่เหลี่ยมกลุ่ม – คู่มือ C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
 เรียนรู้วิธีสร้างเอกสาร Word เปล่าและเพิ่มสี่เหลี่ยมที่จัดกลุ่มโดยใช้ Aspose.Words สำหรับ C#
 
+### [แทรกรูปสี่เหลี่ยมผืนผ้าใน Java – จัดกลุ่มและกำหนดตำแหน่งรูปร่าง](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+เรียนรู้วิธีแทรกรูปสี่เหลี่ยมผืนผ้าในเอกสาร Word ด้วย Aspose.Words สำหรับ Java พร้อมการจัดกลุ่มและกำหนดตำแหน่งของรูปร่าง
+
+### [แทรกรูปภาพลงใน Word – คู่มือขั้นตอนโดย Aspose.Words](./insert-image-into-word-aspose-words-step-by-step-guide/)
+เรียนรู้วิธีแทรกรูปภาพในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 ## แหล่งข้อมูลเพิ่มเติม

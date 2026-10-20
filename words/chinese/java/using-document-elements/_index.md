@@ -77,6 +77,10 @@
 学习如何在 Word 文档中使用 Aspose.Words for Java 设置按钮大小的完整步骤。
 ### [在 Aspose.Words for Java 中使用 Forms2OleControl 添加到 DOCX – 完整指南](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
 学习如何在 Java 中使用 Aspose.Words 将 Forms2OleControl 嵌入 DOCX 文档，提供完整步骤与示例代码。
+### [在 Word 中插入 ActiveX 按钮 – 设置按钮标题](./how-to-insert-activex-button-in-word-set-button-caption/)
+学习在 Aspose.Words for Java 中插入 ActiveX 按钮并设置其标题，实现交互式文档功能。
+### [在 Word 中使用 Aspose.Words 插入饼图 – 完整指南](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+学习如何使用 Aspose.Words 在 Word 文档中插入并自定义饼图，涵盖数据绑定、样式设置和导出。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

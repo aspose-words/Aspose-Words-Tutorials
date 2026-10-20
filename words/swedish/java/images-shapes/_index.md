@@ -70,6 +70,12 @@ Lär dig steg-för-steg hur du lägger till en gruppform i ett Word-dokument med
 ### [Skapa tomt Word-dokument med grupperade rektanglar – C#-guide](./create-blank-word-document-with-grouped-rectangles-c-guide/)
 Lär dig hur du skapar ett tomt Word-dokument och lägger till grupperade rektanglar med Aspose.Words för C#.
 
+### [Infoga rektangel i Java – Gruppera och positionera former](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+Lär dig hur du infogar en rektangel, grupperar den med andra former och justerar dess position i ett Word-dokument med Aspose.Words för Java.
+
+### [Infoga bild i Word – Aspose.Words steg-för-steg guide](./insert-image-into-word-aspose-words-step-by-step-guide/)
+Lär dig hur du infogar bilder i Word-dokument med Aspose.Words för Java i en detaljerad steg‑för‑steg‑guide.
+
 ## Ytterligare resurser
 
 ## Ytterligare resurser

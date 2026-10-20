@@ -76,6 +76,12 @@ Aspose.Words for Java का उपयोग करके आयताकार 
 ### [समूहित आयताकार के साथ खाली Word दस्तावेज़ बनाएं – C# गाइड](./create-blank-word-document-with-grouped-rectangles-c-guide/)
 C# में Aspose.Words का उपयोग करके समूहित आयताकार के साथ एक खाली Word दस्तावेज़ बनाने की प्रक्रिया सीखें।
 
+### [जावा में आयताकार आकार सम्मिलित करें – समूह बनाएं और आकारों को स्थित करें](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+जावा में Aspose.Words का उपयोग करके आयताकार आकार को समूहित करके उसकी स्थिति निर्धारित करने का तरीका सीखें।
+
+### [Word में छवि सम्मिलित करें – Aspose.Words चरण-दर-चरण गाइड](./insert-image-into-word-aspose-words-step-by-step-guide/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ में छवि कैसे जोड़ें, इस चरण-दर-चरण मार्गदर्शिका में सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)

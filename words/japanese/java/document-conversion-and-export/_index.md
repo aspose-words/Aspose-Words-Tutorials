@@ -58,7 +58,7 @@ Aspose.Words for Java の主要機能のひとつは、**convert docx to pdf** �
 2. `builder.insertWatermarkText("CONFIDENTIAL");` または `builder.insertWatermarkImage(imageStream);` を使用します。  
 3. 目的の形式（PDF、DOCX など）でドキュメントを保存します。
 
-これらのチュートリアルを終える頃には、Aspose.Words for Java を使用してドキュメント変換とエクスポートのタスクを自信を持って実行できる知識とスキルが身につきます。この強力な API でドキュメント処理を効率化し、生産性を向上させる準備を整えましょう。
+これらのチュートリアルを終える頃には、Aspose.Words for Java を使用してドキュメント変換とエクスポートのタスクを自信を持って実行できる知識とスキルが身につきます。この強力な APIでドキュメント処理を効率化し、生産性を向上させる準備を整えましょう。
 
 それでは、以下に掲載されたチュートリアルに取り組み、ドキュメント関連プロジェクトで Aspose.Words for Java の可能性を最大限に引き出してください。コーディングを楽しんで！
 
@@ -119,6 +119,9 @@ Aspose.Words for Java を使用して、Word 文書を Markdown 形式で保存�
 ### [Java で Word を Markdown に変換 – 完全ガイド](./convert-word-to-markdown-with-java-full-guide/)
 Aspose.Words for Java を使用して Word 文書を Markdown に変換する完全ガイドです。手順とコード例を紹介します。
 ### [Java docx を PDF に変換 – Aspose.Words でアクセシブル PDF を生成](./java-docx-to-pdf-generate-accessible-pdf-with-aspose-words/)
+
+### [DOCX を Markdown に保存 – 完全 Java ガイド](./save-docx-as-markdown-complete-java-guide/)
+Aspose.Words for Java を使用して DOCX ファイルを Markdown に変換し、完全な手順とコード例を示します。
 
 ### [DOCX を変換する際に Markdown に画像を埋め込む方法](./how-to-embed-images-in-markdown-when-converting-docx/)
 

@@ -60,13 +60,17 @@ Lär dig steg för steg hur du använder sidhuvuden och sidfot i Aspose.Words f�
 ### [Använda bindestreck i Aspose.Words för Java](./using-hyphenation/)
 Lär dig hur du använder bindestreck effektivt i Aspose.Words för Java med den här omfattande handledningen. Förbättra dokumentläsbarheten idag!
 ### [Använda listor i Aspose.Words för Java](./using-lists/)
-Lär dig använda listor i Aspose.Words för Java med den här steg-för-steg-handledningen. Organisera och formatera dina dokument effektivt.
+Lär dig använda lister i Aspose.Words för Java med den här steg-för-steg-handledningen. Organisera och formatera dina dokument effektivt.
 ### [Använda Markdown i Aspose.Words för Java](./using-markdown/)
 Lär dig använda Markdown i Aspose.Words för Java med den här steg-för-steg-handledningen. Skapa, formatera och spara Markdown-dokument utan ansträngning.
 ### [Använda noder i Aspose.Words för Java](./using-nodes/)
 Lär dig manipulera noder i Aspose.Words för Java med den här steg-för-steg-handledningen. Lås upp dokumentbehandlingskraften.
+### [Infoga cirkeldiagram i Word med Aspose.Words – Komplett guide](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Lär dig steg för steg hur du infogar och anpassar cirkeldiagram i Word-dokument med Aspose.Words.
 ### [Använda OLE-objekt och ActiveX-kontroller i Aspose.Words för Java](./using-ole-objects-and-activex/)
 Lär dig använda OLE-objekt och ActiveX-kontroller i Aspose.Words för Java. Skapa interaktiva dokument enkelt. Kom igång nu!
+### [Hur man infogar en ActiveX‑knapp i Word – Ställ in knappens rubrik](./how-to-insert-activex-button-in-word-set-button-caption/)
+Lär dig hur du infogar en ActiveX‑knapp i Word och anger knappens rubrik i denna steg‑för‑steg‑handledning.
 ### [Använda revisioner i Aspose.Words för Java](./using-revisions/)
 Lär dig att använda Aspose.Words för Javas revisionskontroller effektivt. Steg-för-steg-guide för utvecklare. Optimera din dokumenthantering.
 ### [Använda sektioner i Aspose.Words för Java](./using-sections/)

@@ -69,6 +69,12 @@ Ismerje meg, hogyan hozhat létre és kezelhet csoportos alakzatokat a Word doku
 ### [Üres Word dokumentum létrehozása csoportosított téglalapokkal – C# útmutató](./create-blank-word-document-with-grouped-rectangles-c-guide/)
 Tanulja meg, hogyan hozhat létre üres Word dokumentumot csoportosított téglalapokkal C#-ban az Aspose.Words segítségével.
 
+### [Téglalap alakzat beszúrása Java-ban – Alakzatok csoportosítása és pozicionálása](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+Tanulja meg, hogyan hozhat létre téglalap alakzatot, csoportosíthatja és pozicionálhatja más alakzatokkal Java-ban az Aspose.Words segítségével.
+
+### [Kép beszúrása Word-be – Aspose.Words lépésről lépésre útmutató](./insert-image-into-word-aspose-words-step-by-step-guide/)
+Tanulja meg, hogyan szúrhat be képeket Word dokumentumokba az Aspose.Words for Java segítségével, részletes példákkal.
+
 ## További források
 
 ## További források

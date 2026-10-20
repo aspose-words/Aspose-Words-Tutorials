@@ -24,11 +24,11 @@ Trước khi đi sâu vào hướng dẫn, điều cần thiết là phải nắ
 
 ## Truy cập và thao tác các phần tử tài liệu
 
-Một trong những kỹ năng cốt lõi mà bạn sẽ có được thông qua các hướng dẫn này là khả năng truy cập và thao tác các thành phần tài liệu. Aspose.Words for Java cung cấp một bộ API phong phú cho phép bạn điều hướng, sửa đổi và trích xuất thông tin theo chương trình từ các tài liệu của mình. Cho dù bạn cần tìm và thay thế văn bản, chèn bảng hoặc cập nhật tiêu đề và chân trang, các hướng dẫn này đều có thể đáp ứng nhu cầu của bạn.
+Một trong những kỹ năng cốt lõi mà bạn sẽ có được thông qua các hướng dẫn này là khả năng truy cập và thao tác các thành phần tài liệu. Aspose.Words cho Java cung cấp một bộ API phong phú cho phép bạn điều hướng, sửa đổi và trích xuất thông tin theo chương trình từ các tài liệu của mình. Cho dù bạn cần tìm và thay thế văn bản, chèn bảng hoặc cập nhật tiêu đề và chân trang, các hướng dẫn này đều có thể đáp ứng nhu cầu của bạn.
 
 ## Tạo tài liệu động
 
-Với Aspose.Words for Java, bạn có thể tạo tài liệu động ngay lập tức. Hãy tưởng tượng việc tạo hóa đơn, báo cáo hoặc hợp đồng trực tiếp từ ứng dụng Java của bạn. Các hướng dẫn này sẽ hướng dẫn bạn quy trình thêm nội dung, định dạng và lưu tài liệu động ở nhiều định dạng khác nhau như PDF, DOCX, v.v.
+Với Aspose.Words cho Java, bạn có thể tạo tài liệu động ngay lập tức. Hãy tưởng tượng việc tạo hóa đơn, báo cáo hoặc hợp đồng trực tiếp từ ứng dụng Java của bạn. Các hướng dẫn này sẽ hướng dẫn bạn quy trình thêm nội dung, định dạng và lưu tài liệu động ở nhiều định dạng khác nhau như PDF, DOCX, v.v.
 
 ## Nâng cao kỹ năng xử lý tài liệu của bạn
 
@@ -38,9 +38,9 @@ Bằng cách làm theo các hướng dẫn này, bạn không chỉ học đư�
 
 Sẵn sàng để bắt đầu? Hãy đến [Tài liệu API Aspose.Words cho Java](https://reference.aspose.com/words/java/) để truy cập tài liệu toàn diện. Bạn sẽ tìm thấy các giải thích chi tiết, mẫu mã và tham chiếu API sẽ hướng dẫn bạn qua mọi khía cạnh của thao tác phần tử tài liệu.
 
-Tóm lại, việc thành thạo thao tác phần tử tài liệu bằng Aspose.Words for Java là một kỹ năng có giá trị đối với bất kỳ nhà phát triển Java nào làm việc với tài liệu. Các hướng dẫn này cung cấp một lộ trình rõ ràng và có cấu trúc để giúp bạn trở nên thành thạo trong lĩnh vực này. Vì vậy, hãy xắn tay áo lên, tìm hiểu các hướng dẫn và mở khóa toàn bộ tiềm năng của Aspose.Words for Java trong các dự án xử lý tài liệu của bạn.
+Tóm lại, việc thành thạo thao tác phần tử tài liệu bằng Aspose.Words cho Java là một kỹ năng có giá trị đối với bất kỳ nhà phát triển Java nào làm việc với tài liệu. Các hướng dẫn này cung cấp một lộ trình rõ ràng và có cấu trúc để giúp bạn trở nên thành thạo trong lĩnh vực này. Vì vậy, hãy xắn tay áo lên, tìm hiểu các hướng dẫn và mở khóa toàn bộ tiềm năng của Aspose.Words cho Java trong các dự án xử lý tài liệu của bạn.
 
-Hãy nhớ rằng, thực hành sẽ tạo nên sự hoàn hảo và với Aspose.Words for Java, bạn sẽ có thể tạo, chỉnh sửa và cải thiện tài liệu như một chuyên gia chỉ trong thời gian ngắn. Chúc bạn viết mã vui vẻ!
+Hãy nhớ rằng, thực hành sẽ tạo nên sự hoàn hảo và với Aspose.Words cho Java, bạn sẽ có thể tạo, chỉnh sửa và cải thiện tài liệu như một chuyên gia chỉ trong thời gian ngắn. Chúc bạn viết mã vui vẻ!
 
 ## Hướng dẫn sử dụng Document Elements
 ### [Sử dụng chú thích trong Aspose.Words cho Java](./using-comments/)
@@ -77,6 +77,10 @@ Khám phá Aspose.Words for Java: Hướng dẫn toàn diện về cách sử d�
 Học cách đặt kích thước nút trong tài liệu Word bằng Java sử dụng Aspose.Words. Hướng dẫn chi tiết từng bước để tùy chỉnh nút trong Word.
 ### [Tạo biểu đồ tròn với Aspose.Words Java – Hướng dẫn chi tiết từng bước](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
 Học cách tạo biểu đồ tròn trong tài liệu Word bằng Aspose.Words cho Java qua hướng dẫn chi tiết từng bước.
+### [Chèn biểu đồ tròn trong Word bằng Aspose.Words – Hướng dẫn đầy đủ](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Hướng dẫn chi tiết cách chèn biểu đồ tròn vào tài liệu Word bằng Aspose.Words cho Java, bao gồm tạo dữ liệu và định dạng biểu đồ.
+### [Cách chèn nút ActiveX trong Word – Đặt chú thích nút](./how-to-insert-activex-button-in-word-set-button-caption/)
+Học cách chèn nút ActiveX vào tài liệu Word và thiết lập chú thích cho nút bằng Aspose.Words cho Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -81,6 +81,9 @@ weight: 14
 ### แปลง HTML เป็นเอกสาร Word
 ใช้ `Document doc = new Document(new ByteArrayInputStream(htmlBytes), new LoadOptions(LoadFormat.HTML));` แล้ว `doc.save("output.docx")`.
 
+### แปลง Markdown เป็น Word
+ใช้ `Document doc = new Document();` แล้ว `doc.getMailMerge().execute(new String[]{"Content"}, new Object[]{markdownText});` จากนั้นบันทึกเป็น DOCX.
+
 ## บทแนะนำการแปลงเอกสาร
 
 ### [การใช้คุณสมบัติการแปลงเอกสาร](./using-document-converting/)
@@ -117,6 +120,8 @@ weight: 14
 เรียนรู้วิธีแปลงไฟล์ Markdown เป็นเอกสาร DOCX ด้วย Aspose.Words for Java อย่างง่ายและรวดเร็ว.
 ### [แปลง docx เป็น markdown – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา Java](./convert-docx-to-markdown-complete-guide-for-java-developers/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown ด้วย Aspose.Words for Java พร้อมตัวอย่างโค้ดและเคล็ดลับการใช้งาน
+### [Java แปลง Markdown เป็น Word – Markdown เป็น DOCX](./java-convert-markdown-to-word-markdown-to-docx-java/)
+เรียนรู้วิธีแปลงไฟล์ Markdown เป็นเอกสาร Word (DOCX) ด้วย Aspose.Words for Java อย่างง่ายและรวดเร็ว.
 
 ## คำถามที่พบบ่อย
 

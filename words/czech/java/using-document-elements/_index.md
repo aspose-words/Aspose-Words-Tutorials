@@ -67,6 +67,8 @@ Naučte se používat Markdown v Aspose.Words pro Javu s tímto podrobným návo
 Naučte se manipulovat s uzly v Aspose.Words pro Javu s tímto podrobným návodem. Odemkněte výkon zpracování dokumentů.
 ### [Používání objektů OLE a ovládacích prvků ActiveX v Aspose.Words pro Javu](./using-ole-objects-and-activex/)
 Naučte se používat objekty OLE a ovládací prvky ActiveX v Aspose.Words pro Javu. Snadno vytvářejte interaktivní dokumenty. Začněte hned teď!
+### [Jak vložit tlačítko ActiveX do Wordu – nastavit popisek tlačítka](./how-to-insert-activex-button-in-word-set-button-caption/)
+Naučte se, jak vložit tlačítko ActiveX do dokumentu Word a nastavit jeho popisek pomocí Aspose.Words pro Javu.
 ### [Používání revizí v Aspose.Words pro Javu](./using-revisions/)
 Naučte se efektivně používat revizní prvky Aspose.Words pro Javu. Podrobný návod pro vývojáře. Optimalizujte správu dokumentů.
 ### [Používání sekcí v Aspose.Words pro Javu](./using-sections/)
@@ -77,6 +79,8 @@ Naučte se, jak pomocí Aspose.Words pro Javu nastavit velikost tlačítka v dok
 Naučte se, jak vytvořit koláčový graf v Aspose.Words pro Javu pomocí podrobného krok za krokem návodu.
 ### [Přidání Forms2OleControl do DOCX – Kompletní průvodce Aspose.Words](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
 Naučte se, jak pomocí Aspose.Words pro Javu přidat ovládací prvek Forms2OleControl do souboru DOCX. Kompletní krok za krokem návod.
+### [Vložení koláčového grafu do Wordu pomocí Aspose.Words – Kompletní průvodce](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Naučte se, jak pomocí Aspose.Words vytvořit a vložit koláčový graf do dokumentu Word. Kompletní krok za krokem návod.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -67,6 +67,8 @@ Naucz się używać Markdown w Aspose.Words for Java dzięki temu samouczkowi kr
 Naucz się manipulować węzłami w Aspose.Words for Java dzięki temu samouczkowi krok po kroku. Odblokuj moc przetwarzania dokumentów.
 ### [Korzystanie z obiektów OLE i kontrolek ActiveX w Aspose.Words dla Java](./using-ole-objects-and-activex/)
 Naucz się używać obiektów OLE i kontrolek ActiveX w Aspose.Words dla Java. Twórz interaktywne dokumenty z łatwością. Zacznij teraz!
+### [Jak wstawić przycisk ActiveX w Word – Ustaw podpis przycisku](./how-to-insert-activex-button-in-word-set-button-caption/)
+Dowiedz się, jak dodać przycisk ActiveX do dokumentu Word i ustawić jego etykietę przy pomocy Aspose.Words for Java.
 ### [Korzystanie z rewizji w Aspose.Words dla Java](./using-revisions/)
 Naucz się efektywnie używać kontroli wersji Aspose.Words for Java. Przewodnik krok po kroku dla programistów. Zoptymalizuj zarządzanie dokumentami.
 ### [Korzystanie z sekcji w Aspose.Words dla Java](./using-sections/)
@@ -77,6 +79,8 @@ Dowiedz się, jak ustawić rozmiar przycisku w dokumencie Word przy użyciu Aspo
 Naucz się tworzyć wykresy kołowe w dokumentach Word przy użyciu Aspose.Words for Java w tym szczegółowym przewodniku krok po kroku.
 ### [Dodaj Forms2OleControl do DOCX – Kompletny przewodnik Aspose.Words](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
 Dowiedz się, jak dodać kontrolkę Forms2OleControl do dokumentu DOCX przy użyciu Aspose.Words for Java w pełnym przewodniku krok po kroku.
+### [Wstaw wykres kołowy w Word przy użyciu Aspose.Words – kompletny przewodnik](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Dowiedz się, jak wstawić wykres kołowy do dokumentu Word przy użyciu Aspose.Words. Kompletny przewodnik krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

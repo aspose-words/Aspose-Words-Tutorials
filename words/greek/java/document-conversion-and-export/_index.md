@@ -82,6 +82,9 @@ weight: 22
 Αποκτήστε τη Δύναμη ...
 
 ### [Χρήση Υδατογραφημάτων σε Έγγραφα στο Aspose.Words for Java](./using-watermarks-to-documents/)
+Μάθετε πώς να προσθέτετε υδατογραφήματα σε έγγραφα στο Aspose.Words for Java. Προσαρμόστε υδ
+ατογραφήματα κειμένου και εικόνας για επαγγελματικά έγγραφα.
+
 ### [Μορφοποίηση Πινάκων και Στυλ Πινάκων στο Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Μάθετε πώς να μορφοποιείτε ...
 
@@ -318,6 +321,9 @@ weight: 22
 
 ### [Αποθήκευση docx ως markdown – Πλήρης οδηγός Java με εξαγωγή εικόνων](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
 Μάθετε πώς να μετατρέψετε αρχεία DOCX σε Markdown και να εξάγετε ενσωματωμένες εικόνες χρησιμοποιώντας το Aspose.Words for Java.
+
+### [Αποθήκευση DOCX ως Markdown – Πλήρης Οδηγός Java](./save-docx-as-markdown-complete-java-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε Markdown χρησιμοποιώντας Aspose.Words for Java με πλήρη βήμα‑βήμα οδηγίες.
 
 ## Συχνές Ερωτήσεις
 

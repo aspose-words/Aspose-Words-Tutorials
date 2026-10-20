@@ -70,6 +70,12 @@ Naučte se, jak vložit a spravovat skupinové tvary v dokumentech Word pomocí 
 ### [Vytvořit prázdný dokument Word se seskupenými obdélníky – průvodce pro C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
 Naučte se vytvořit prázdný dokument Word se seskupenými obdélníky pomocí Aspose.Words v C#.
 
+### [Vložit obdélníkový tvar v Javě – seskupit a umístit tvary](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+Naučte se, jak seskupit a přesně umístit obdélníkové tvary v dokumentu Word pomocí Aspose.Words pro Javu.
+
+### [Vložit obrázek do Wordu – Aspose.Words krok za krokem](./insert-image-into-word-aspose-words-step-by-step-guide/)
+Naučte se, jak vložit obrázek do dokumentu Word pomocí Aspose.Words pro Javu krok za krokem.
+
 ## Další zdroje
 
 ## Další zdroje

@@ -161,6 +161,9 @@ Aspose.Words for Java를 사용해 Word 문서를 Markdown 형식으로 변환�
 ### [DOCX를 Markdown으로 변환 – 완전 Java 튜토리얼](./convert-docx-to-markdown-complete-java-tutorial/)
 Aspose.Words for Java를 사용해 DOCX 파일을 Markdown 형식으로 변환하는 단계별 완전 가이드.
 
+### [DOCX를 Markdown으로 저장 – Java 완전 가이드](./save-docx-as-markdown-complete-java-guide/)
+Aspose.Words for Java를 사용해 DOCX 파일을 마크다운 형식으로 변환하고 저장하는 전체 단계별 가이드.
+
 ### [DOCX 변환 시 Markdown에 이미지 삽입하는 방법](./how-to-embed-images-in-markdown-when-converting-docx/)
 
 ### [Word에서 Markdown 내보내기 – 완전 가이드](./how-to-export-markdown-from-word-complete-guide/)

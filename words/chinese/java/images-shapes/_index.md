@@ -70,6 +70,12 @@ Aspose.Words Java 代码教程
 ### [使用 C# 创建空白 Word 文档并对矩形进行分组 – 指南](./create-blank-word-document-with-grouped-rectangles-c-guide/)
 演示如何使用 C# 在 Aspose.Words 中创建空白文档并将多个矩形形状分组。
 
+### [在 Java 中插入矩形形状 – 组合和定位形状](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+演示如何使用 Aspose.Words for Java 插入矩形形状，并对形状进行分组和定位，以实现复杂布局。
+
+### [在 Word 中插入图像 – Aspose.Words 分步指南](./insert-image-into-word-aspose-words-step-by-step-guide/)
+演示如何使用 Aspose.Words for Java 将图像插入 Word 文档的完整步骤。
+
 ## 其他资源
 
 ## 其他资源

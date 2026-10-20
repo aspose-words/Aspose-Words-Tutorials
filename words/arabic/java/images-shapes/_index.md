@@ -70,6 +70,12 @@
 ### [إنشاء مستند Word فارغ مع مجموعة من المستطيلات – دليل C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
 دليل لإنشاء مستند Word فارغ يحتوي على مجموعة من المستطيلات باستخدام Aspose.Words للغة C#.
 
+### [إدراج شكل مستطيل في Java – تجميع وتحديد موضع الأشكال](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+تعلم كيفية تجميع الأشكال وتحديد موضعها في مستند Word باستخدام Aspose.Words for Java
+
+### [إدراج صورة في Word – دليل Aspose.Words خطوة بخطوة](./insert-image-into-word-aspose-words-step-by-step-guide/)
+دليل خطوة بخطوة لإدراج صورة في مستند Word باستخدام Aspose.Words.
+
 ## موارد إضافية
 
 ## موارد إضافية

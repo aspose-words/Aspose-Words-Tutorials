@@ -70,6 +70,12 @@ Dowiedz się, jak dodać i zarządzać grupowymi kształtami w dokumentach Word 
 ### [Utwórz pusty dokument Word z grupowanymi prostokątami – przewodnik C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
 Dowiedz się, jak utworzyć pusty dokument Word i dodać grupowane prostokąty przy użyciu Aspose.Words w C#.
 
+### [Wstaw prostokątny kształt w Javie – grupowanie i pozycjonowanie kształtów](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+Dowiedz się, jak wstawiać prostokątne kształty, grupować je i ustawiać pozycję w dokumentach Word przy użyciu Aspose.Words dla Java.
+
+### [Wstaw obraz do Word – przewodnik krok po kroku Aspose.Words](./insert-image-into-word-aspose-words-step-by-step-guide/)
+Dowiedz się, jak wstawiać obrazy do dokumentów Word przy użyciu Aspose.Words dla Java.
+
 ## Dodatkowe zasoby
 
 ## Dodatkowe zasoby

@@ -43,6 +43,8 @@ Lär dig hur du implementerar säkra digitala signaturer i dokument med Aspose.W
 Lär dig hur du skyddar dina dokument och redigerar känsliga data med Aspose.Words för Java. Steg-för-steg-guide med källkod.
 ### [Signera Word-dokument i Java med Aspose.Words – Komplett guide](./sign-word-document-in-java-with-aspose-words-complete-guide/)
 Lär dig hur du signerar Word-dokument i Java med Aspose.Words, steg-för-steg med kodexempel och bästa praxis.
+### [Hur du signerar DOCX-filer i C# – Komplett steg‑för‑steg‑guide](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
+Lär dig hur du signerar DOCX-filer i C# med Aspose.Words. En komplett steg‑för‑steg‑guide med kodexempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

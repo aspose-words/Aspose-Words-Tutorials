@@ -70,6 +70,12 @@ Hướng dẫn chi tiết cách chèn và quản lý nhóm hình dạng trong t�
 ### [Tạo tài liệu Word trống với các hình chữ nhật nhóm – Hướng dẫn C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
 Hướng dẫn tạo tài liệu Word trống và chèn các hình chữ nhật được nhóm bằng Aspose.Words cho C#.
 
+### [Chèn hình chữ nhật trong Java – Nhóm và Định vị các hình dạng](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+Hướng dẫn cách nhóm và định vị các hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
+
+### [Chèn hình ảnh vào Word – Hướng dẫn từng bước Aspose.Words](./insert-image-into-word-aspose-words-step-by-step-guide/)
+Hướng dẫn chi tiết cách chèn hình ảnh vào tài liệu Word bằng Aspose.Words cho Java.
+
 ## Tài nguyên bổ sung
 
 ## Tài nguyên bổ sung
