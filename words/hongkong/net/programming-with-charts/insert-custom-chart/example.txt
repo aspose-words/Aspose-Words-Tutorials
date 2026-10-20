@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: 本教學示範如何建立 Word 文件、插入直條圖、清除其預設資料，並以二維陣列的自訂資料填入——將每一列對應為一個系列、每一欄對應為一個類別——然後加入標題並儲存檔案。
+//ExStepSummary:0: 建立一個新的 Document，並建立與之關聯的 DocumentBuilder。
+//ExStepSummary:1: 在文件中插入大小為 432×252 點的直條圖，並取得其 Chart 物件。
+//ExStepSummary:2: 從圖表中移除系統自動產生的範例系列。
+//ExStepSummary:3: 定義 X 軸的類別標籤以及每個系列的圖例項目。
+//ExStepSummary:4: 建立一個二維陣列，讓每一列儲存一個系列的數值。
+//ExStepSummary:5: 遍歷每個系列，從矩陣中取出該列的值，並以相對應的圖例項目與 X 軸標籤將系列加入圖表。
+//ExStepSummary:6: 將圖表標題文字設定為「Half‑Yearly Revenue」並顯示出來。
+//ExStepSummary:7: 將包含自訂圖表的文件儲存為 .docx 檔案。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:6:images/4.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chartObj = chartContainer.Chart;
+
+//ExStep:2-
+chartObj.Series.Clear();
+
+//ExStep:3-
+string[] xLabels = { "Jan", "Feb", "Mar", "Apr" };
+string[] legendEntries = { "Item Alpha", "Item Beta", "Item Gamma" };
+
+//ExStep:4-
+double[,] dataMatrix = {
+    { 120.5, 135.0, 150.2, 165.3 }, // Item Alpha
+    { 80.0,  95.5, 110.1, 130.0 }, // Item Beta
+    { 60.3,  70.4,  85.6,  95.2 }   // Item Gamma
+};
+
+//ExStep:5-
+for (int sIdx = 0; sIdx < legendEntries.Length; sIdx++)
+{
+    double[] rowValues = new double[xLabels.Length];
+    for (int cIdx = 0; cIdx < xLabels.Length; cIdx++)
+    {
+        rowValues[cIdx] = dataMatrix[sIdx, cIdx];
+    }
+
+    chartObj.Series.Add(legendEntries[sIdx], xLabels, rowValues);
+}
+
+//ExStep:6-
+chartObj.Title.Text = "Half‑Yearly Revenue";
+chartObj.Title.Show = true;
+
+//ExStep:7-
+myDocument.Save("CustomChart.docx");
+//ExEnd

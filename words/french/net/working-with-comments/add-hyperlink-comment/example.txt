@@ -1,0 +1,58 @@
+//ExStart
+//ExSummary: Ce tutoriel montre comment créer un document Word, ajouter un commentaire contenant un hyperlien cliquable vers un site Web externe, configurer le commentaire pour qu’il apparaisse comme une annotation PDF, exporter le document au format PDF et vérifier que le PDF a été généré correctement.
+//ExStepSummary:0: Créez un nouvel objet Document vide et un DocumentBuilder pour travailler avec celui‑ci.
+//ExStepSummary:1: Écrivez une ligne de texte visible qui accueillera le commentaire à venir.
+//ExStepSummary:2: Créez un Comment rédigé par Jane Doe et attachez‑le au premier paragraphe du document.
+//ExStepSummary:3: À l’intérieur du commentaire, ajoutez un paragraphe et insérez un hyperlien bleu souligné vers le site Web de la bibliothèque Aspose.Words.
+//ExStepSummary:4: Configurez le document pour rendre les commentaires sous forme d’annotations PDF et rafraîchissez la mise en page.
+//ExStepSummary:5: Créez un dossier "Output" dans le répertoire actuel pour stocker le PDF généré.
+//ExStepSummary:6: Enregistrez le document préparé en tant que fichier PDF en utilisant PdfSaveOptions.
+//ExStepSummary:7: Vérifiez que le fichier PDF existe et contient des données, puis affichez le résultat dans la console.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+docBuilder.Writeln("The following paragraph includes a comment with a link.");
+
+//ExStep:2-
+Comment note = new Comment(myDocument, "Jane Doe", "JD", DateTime.Now);
+Paragraph targetParagraph = myDocument.FirstSection.Body.FirstParagraph;
+targetParagraph.AppendChild(note);
+
+//ExStep:3-
+Paragraph noteParagraph = (Paragraph)note.AppendChild(new Paragraph(myDocument));
+DocumentBuilder noteBuilder = new DocumentBuilder(myDocument);
+noteBuilder.MoveTo(noteParagraph);
+noteBuilder.Font.Color = Color.Blue;
+noteBuilder.Font.Underline = Underline.Single;
+noteBuilder.InsertHyperlink("Aspose.Words Library", "https://www.aspose.com/words", false);
+noteBuilder.Font.ClearFormatting();
+
+//ExStep:4-
+myDocument.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInAnnotations;
+myDocument.UpdatePageLayout();
+
+//ExStep:5-
+string resultFolder = Path.Combine(Directory.GetCurrentDirectory(), "Output");
+Directory.CreateDirectory(resultFolder);
+
+//ExStep:6-
+string pdfFilePath = Path.Combine(resultFolder, "CommentWithLink.pdf");
+PdfSaveOptions saveOptions = new PdfSaveOptions();
+myDocument.Save(pdfFilePath, saveOptions);
+
+//ExStep:7-
+if (File.Exists(pdfFilePath) && new FileInfo(pdfFilePath).Length > 0)
+{
+    Console.WriteLine("PDF generated successfully with a linked comment.");
+}
+else
+{
+    Console.WriteLine("PDF creation failed.");
+}
+//ExEnd

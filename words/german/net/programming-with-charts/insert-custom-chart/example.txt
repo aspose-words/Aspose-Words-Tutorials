@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Dieses Tutorial zeigt, wie man ein Word‑Dokument erstellt, ein Säulendiagramm einfügt, dessen Standarddaten löscht und es mit benutzerdefinierten Daten aus einem zweidimensionalen Array füllt – wobei jede Zeile einer Serie und jede Spalte einer Kategorie zugeordnet wird – dann einen Titel hinzufügt und die Datei speichert.
+//ExStepSummary:0: Erstellen Sie ein neues Document und einen daran angehängten DocumentBuilder.
+//ExStepSummary:1: Fügen Sie ein Säulendiagramm mit der Größe 432 × 252 Punkte in das Dokument ein und erhalten Sie das zugehörige Chart‑Objekt.
+//ExStepSummary:2: Entfernen Sie die automatisch erzeugte Beispielserie aus dem Diagramm.
+//ExStepSummary:3: Definieren Sie die Kategorienbeschriftungen der X‑Achse und die Legendeinträge für jede Serie.
+//ExStepSummary:4: Erstellen Sie ein zweidimensionales Array, bei dem jede Zeile die Werte einer Serie enthält.
+//ExStepSummary:5: Iterieren Sie über jede Serie, extrahieren Sie die Zeilenwerte aus der Matrix und fügen Sie die Serie dem Diagramm mit dem entsprechenden Legendeintrag und den X‑Achsen‑Beschriftungen hinzu.
+//ExStepSummary:6: Setzen Sie den Diagrammtitel auf 'Half‑Yearly Revenue' und machen Sie ihn sichtbar.
+//ExStepSummary:7: Speichern Sie das Dokument, das das benutzerdefinierte Diagramm enthält, als .docx‑Datei.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:6:images/4.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chartObj = chartContainer.Chart;
+
+//ExStep:2-
+chartObj.Series.Clear();
+
+//ExStep:3-
+string[] xLabels = { "Jan", "Feb", "Mar", "Apr" };
+string[] legendEntries = { "Item Alpha", "Item Beta", "Item Gamma" };
+
+//ExStep:4-
+double[,] dataMatrix = {
+    { 120.5, 135.0, 150.2, 165.3 }, // Item Alpha
+    { 80.0,  95.5, 110.1, 130.0 }, // Item Beta
+    { 60.3,  70.4,  85.6,  95.2 }   // Item Gamma
+};
+
+//ExStep:5-
+for (int sIdx = 0; sIdx < legendEntries.Length; sIdx++)
+{
+    double[] rowValues = new double[xLabels.Length];
+    for (int cIdx = 0; cIdx < xLabels.Length; cIdx++)
+    {
+        rowValues[cIdx] = dataMatrix[sIdx, cIdx];
+    }
+
+    chartObj.Series.Add(legendEntries[sIdx], xLabels, rowValues);
+}
+
+//ExStep:6-
+chartObj.Title.Text = "Half‑Yearly Revenue";
+chartObj.Title.Show = true;
+
+//ExStep:7-
+myDocument.Save("CustomChart.docx");
+//ExEnd

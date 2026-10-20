@@ -27,7 +27,7 @@ En suivant ces tutoriels, vous apprendrez les meilleures pratiques pour enregist
 | [Crypter le document avec un mot de passe](./encrypt-document-with-password/) | Découvrez comment chiffrer un document avec un mot de passe grâce à Aspose.Words pour .NET grâce à ce guide détaillé, étape par étape. Sécurisez vos informations sensibles en toute simplicité. |
 | [Ne compressez pas les petits métafichiers](./do-not-compress-small-metafiles/) | Apprenez à utiliser Aspose.Words pour .NET pour garantir que les petits métafichiers des documents Word ne sont pas compressés, préservant ainsi leur qualité et leur intégrité. Guide étape par étape inclus. |
 | [Ne pas enregistrer la puce d'image](./do-not-save-picture-bullet/) Apprenez à gérer les puces d'images dans Aspose.Words pour .NET grâce à notre guide étape par étape. Simplifiez la gestion de vos documents et créez des documents Word professionnels en toute simplicité. |
-
+| [Comment enregistrer un document modifié en C# avec Aspose.Words – Guide étape par étape](./how-to-save-edited-document-in-c-with-aspose-words-step-by-s/) | Apprenez à enregistrer un document modifié en C# avec Aspose.Words grâce à ce guide détaillé, étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
