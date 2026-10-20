@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: 이 튜토리얼에서는 Word 문서를 생성하고, 컬럼 차트를 삽입한 뒤 샘플 데이터로 채우고, 차트의 플롯 영역 테두리를 숨기면서 축 라인은 보이도록 유지한 후, 최종적으로 문서를 저장하는 방법을 보여줍니다.
+//ExStepSummary:0: 새로운 빈 Word 문서를 만들고, 이를 편집하기 위한 DocumentBuilder를 생성합니다.
+//ExStepSummary:1: 문서에 432×252 크기의 컬럼 차트를 삽입하고 해당 차트의 Chart 객체를 가져옵니다.
+//ExStepSummary:2: 기존 시리즈를 모두 제거하고, 세 개의 카테고리 레이블을 정의한 뒤 샘플 값을 가진 시리즈를 차트에 추가합니다.
+//ExStepSummary:3: 플롯 영역의 Stroke 두께를 0으로 설정하여 테두리를 제거하고, 축 라인은 그대로 보이게 합니다.
+//ExStepSummary:4: 수정된 문서를 .docx 파일로 저장합니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+columnChart.Series.Clear();
+string[] labels = { "Group A", "Group B", "Group C" };
+columnChart.Series.Add("Demo Data", labels, new double[] { 10, 20, 30 });
+
+//ExStep:3-
+columnChart.Format.Stroke.Weight = 0;
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutPlotBorder.docx");
+//ExEnd

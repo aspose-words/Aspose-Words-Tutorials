@@ -49,6 +49,8 @@ Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words für Python effizient bear
 Erfahren Sie, wie Sie Dokumenteigenschaften und Metadaten mit Aspose.Words für Python verwalten. Schritt-für-Schritt-Anleitung mit Quellcode.
 ### [Erweitern der Dokumentfunktionalität mit Weberweiterungen](./document-functionality-web-extensions/)
 Erfahren Sie, wie Sie die Dokumentfunktionalität mit Web-Erweiterungen mithilfe von Aspose.Words für Python erweitern. Schritt-für-Schritt-Anleitung mit Quellcode für eine nahtlose Integration.
+### [PDF barrierefrei machen mit Aspose.Words – Vollständige Schritt‑für‑Schritt‑Anleitung](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
+Erfahren Sie, wie Sie PDFs mit Aspose.Words barrierefrei gestalten. Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
 ### [Aspose Font-Warnungs-Handler – Fehlende Schriftarten erkennen & Dokumentenladen anpassen](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
 Erfahren Sie, wie Sie mit dem Aspose Font Warning Handler fehlende Schriftarten erkennen und das Laden von Dokumenten individuell anpassen.
 

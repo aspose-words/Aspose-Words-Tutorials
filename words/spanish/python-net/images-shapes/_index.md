@@ -31,14 +31,21 @@ Aprenda a analizar tipos de medios, cifrar archivos y validar firmas digitales c
 ### [Cómo agregar sombra en C# – Guía completa de programación](./how-to-add-shadow-in-c-complete-programming-guide/)
 Aprenda a aplicar sombras a objetos en documentos con Aspose.Words y C# paso a paso.
 
+### [Agregar rectángulo a PDF con Aspose.Words – Guía paso a paso](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
+Aprenda a insertar un rectángulo en documentos PDF usando Aspose.Words con una guía detallada paso a paso.
+### [Crear forma rectangular en Python – Guía completa de Aspose.Words](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
+Aprenda a crear y personalizar una forma rectangular en documentos Word con Aspose.Words para Python.
+### [Cómo insertar una forma rectangular en Python – Guía completa de Aspose.Words](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
+Aprenda a insertar y personalizar una forma rectangular en documentos Word usando Aspose.Words para Python.
+
     ### [Optimize RTF Image Handling in Python using Aspose.Words API&#58; Save as WMF and Ensure Compatibility](./optimize-rtf-image-handling-aspose-words-python/)
 Aprenda a optimizar la gestión de imágenes en documentos RTF con Aspose.Words para Python. Guarde las imágenes en formato WMF y garantice la compatibilidad con lectores antiguos.
 
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Aprenda a optimizar la salida SVG con Aspose.Words para Python. Esta guía abarca funciones personalizadas como propiedades similares a imágenes, renderizado de texto y mejoras de seguridad.
 
-### [Cómo agregar sombra a una forma en Python – Guía completa de programación](./add-shadow-to-shape-in-python-complete-programming-guide/)
-Aprenda a aplicar sombras a formas en documentos con Aspose.Words y Python paso a paso.
+    ### [Crear forma de rectángulo en Python – Guía completa para agregar sombras y guardar como PDF](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
+Aprenda a crear una forma rectangular, aplicar sombras y exportar el documento como PDF usando Aspose.Words para Python.
 
 ## Recursos adicionales
 

@@ -60,8 +60,23 @@ Leer hoe u PDF's kunt bewerken met Aspose.Words voor Python. Converteer, bewerk 
     ### [Herstel beschadigd DOCX – Open & laad Word-document](./recover-corrupted-docx-open-load-word-document/)
     Leer hoe u beschadigde DOCX-bestanden kunt herstellen en openen met Aspose.Words voor Python-net.
 
-    ### [Herstel beschadigd Word-document met Aspose.Words – Complete gids](./recover-corrupted-word-document-with-aspose-words-complete-g/)
-    Leer hoe u beschadigde Word-documenten kunt herstellen met Aspose.Words voor Python-net.
+    ### [Herstel een beschadigd Word-document met Python – Complete gids](./recover-corrupted-word-document-using-python-complete-guide/)
+    Leer hoe u beschadigde Word-bestanden kunt herstellen en openen met behulp van Aspose.Words voor Python.
+
+    ### [Herstel beschadigde DOCX – Complete gids om herstelmodus in te schakelen & paginatelling te krijgen](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
+Leer hoe u beschadigde DOCX-bestanden kunt herstellen, herstelmodus inschakelt en het aantal pagina's bepaalt met Aspose.Words voor Python-net.
+
+    ### [Herstel beschadigd Word-document met Aspose.Words voor Python](./recover-corrupted-word-document-with-aspose-words-python/)
+Leer hoe u beschadigde Word-documenten kunt herstellen met Aspose.Words voor Python.
+
+    ### [Hoe DOCX te herstellen – Complete gids voor het herstellen van corrupte Word-documenten](./how-to-recover-docx-complete-guide-to-restoring-corrupted-wo/)
+Leer hoe u corrupte DOCX-bestanden volledig kunt herstellen met Aspose.Words voor Python-net.
+
+    ### [Hoe DOCX-bestanden te herstellen – Complete gids met Aspose.Words](./how-to-recover-docx-files-complete-guide-with-aspose-words/)
+    Leer hoe u beschadigde DOCX-bestanden kunt herstellen met Aspose.Words in een stapsgewijze, volledige gids.
+
+    ### [Herstel beschadigde DOCX-bestanden in Python – Complete gids](./recover-corrupted-docx-files-in-python-complete-guide/)
+Ontdek hoe u corrupte DOCX-bestanden kunt repareren en weer bruikbaar maken met Aspose.Words voor Python.
 
 ## Aanvullende bronnen
 

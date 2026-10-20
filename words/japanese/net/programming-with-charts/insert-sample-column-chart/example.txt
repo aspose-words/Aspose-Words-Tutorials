@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: このチュートリアルでは、新しい Word ドキュメントの作成、DocumentBuilder.InsertChart を使用したデフォルトの縦棒グラフの挿入、埋め込み Chart オブジェクトの取得、そしてドキュメントを .docx ファイルとして保存する方法を示します。
+//ExStepSummary:0: 空の Word ドキュメントと、それを編集するための DocumentBuilder を作成します。
+//ExStepSummary:1: サイズ 432 × 252 ポイントの縦棒グラフをドキュメントに挿入します。
+//ExStepSummary:2: 必要に応じて、挿入されたシェイプから Chart オブジェクトを取得し、さらにカスタマイズできます。
+//ExStepSummary:3: 挿入された縦棒グラフが含まれたドキュメントを .docx ファイルとして保存します。
+//ExStepImage:1:images/1.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+Chart embeddedChart = chartContainer.Chart;
+
+//ExStep:3-
+wordDoc.Save("column-demo.docx");
+//ExEnd
