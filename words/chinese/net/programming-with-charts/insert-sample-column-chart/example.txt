@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: 本教程演示如何创建一个新的 Word 文档，使用 DocumentBuilder.InsertChart 插入默认的柱形图，获取嵌入的 Chart 对象，并将文档保存为 .docx 文件。
+//ExStepSummary:0: 创建一个空的 Word 文档并实例化用于编辑的 DocumentBuilder。
+//ExStepSummary:1: 在文档中插入一个尺寸为 432 × 252 点的柱形图。
+//ExStepSummary:2: 从插入的 Shape 中获取 Chart 对象，以便在需要时进行进一步自定义。
+//ExStepSummary:3: 将已包含插入柱形图的文档保存为 .docx 文件。
+//ExStepImage:1:images/1.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+Chart embeddedChart = chartContainer.Chart;
+
+//ExStep:3-
+wordDoc.Save("column-demo.docx");
+//ExEnd

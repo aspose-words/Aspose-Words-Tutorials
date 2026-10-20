@@ -1,0 +1,58 @@
+//ExStart
+//ExSummary: 이 튜토리얼에서는 Word 문서를 생성하고, 외부 웹사이트로 연결되는 클릭 가능한 하이퍼링크가 포함된 주석을 추가한 다음, 해당 주석을 PDF 주석으로 표시하도록 구성하고, 문서를 PDF로 내보내며, PDF가 올바르게 생성되었는지 확인하는 방법을 보여줍니다.
+//ExStepSummary:0: 새로운 빈 Document 객체와 이를 작업할 DocumentBuilder를 생성합니다.
+//ExStepSummary:1: 다음에 추가될 주석이 들어갈 보이는 텍스트 한 줄을 작성합니다.
+//ExStepSummary:2: Jane Doe가 작성한 Comment를 생성하고 이를 문서의 첫 번째 단락에 첨부합니다.
+//ExStepSummary:3: 주석 안에 단락을 추가하고 Aspose.Words Library 웹사이트로 연결되는 파란색 밑줄 하이퍼링크를 삽입합니다.
+//ExStepSummary:4: 문서가 주석을 PDF 주석으로 렌더링하도록 구성하고 레이아웃을 새로 고칩니다.
+//ExStepSummary:5: 생성된 PDF를 저장하기 위해 현재 디렉터리에 "Output" 폴더를 만듭니다.
+//ExStepSummary:6: PdfSaveOptions를 사용하여 준비된 문서를 PDF 파일로 저장합니다.
+//ExStepSummary:7: PDF 파일이 존재하고 데이터가 포함되어 있는지 확인한 후, 결과를 콘솔에 출력합니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+docBuilder.Writeln("The following paragraph includes a comment with a link.");
+
+//ExStep:2-
+Comment note = new Comment(myDocument, "Jane Doe", "JD", DateTime.Now);
+Paragraph targetParagraph = myDocument.FirstSection.Body.FirstParagraph;
+targetParagraph.AppendChild(note);
+
+//ExStep:3-
+Paragraph noteParagraph = (Paragraph)note.AppendChild(new Paragraph(myDocument));
+DocumentBuilder noteBuilder = new DocumentBuilder(myDocument);
+noteBuilder.MoveTo(noteParagraph);
+noteBuilder.Font.Color = Color.Blue;
+noteBuilder.Font.Underline = Underline.Single;
+noteBuilder.InsertHyperlink("Aspose.Words Library", "https://www.aspose.com/words", false);
+noteBuilder.Font.ClearFormatting();
+
+//ExStep:4-
+myDocument.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInAnnotations;
+myDocument.UpdatePageLayout();
+
+//ExStep:5-
+string resultFolder = Path.Combine(Directory.GetCurrentDirectory(), "Output");
+Directory.CreateDirectory(resultFolder);
+
+//ExStep:6-
+string pdfFilePath = Path.Combine(resultFolder, "CommentWithLink.pdf");
+PdfSaveOptions saveOptions = new PdfSaveOptions();
+myDocument.Save(pdfFilePath, saveOptions);
+
+//ExStep:7-
+if (File.Exists(pdfFilePath) && new FileInfo(pdfFilePath).Length > 0)
+{
+    Console.WriteLine("PDF generated successfully with a linked comment.");
+}
+else
+{
+    Console.WriteLine("PDF creation failed.");
+}
+//ExEnd

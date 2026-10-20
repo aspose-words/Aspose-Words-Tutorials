@@ -1,0 +1,7 @@
+Title: Create new Word document with a hidden picture – step‑by‑step guide
+Slug: create-new-word-document-with-a-hidden-picture-step-by-step
+Category: images-shapes
+ProcessedDate: 2026-09-27T22:40:11.126479
+SourceRepo: AI Search API
+Keywords: create new word document, insert image shape, how to hide shape, how to insert image, add hidden picture
+PRNumber: 290

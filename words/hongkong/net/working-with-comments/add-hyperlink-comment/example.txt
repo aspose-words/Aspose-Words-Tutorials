@@ -1,0 +1,58 @@
+//ExStart
+//ExSummary: 本教學示範如何建立 Word 文件、加入包含可點擊超連結的註解（指向外部網站）、將該註解設定為 PDF 標註、將文件匯出為 PDF，並驗證 PDF 是否正確產生。
+//ExStepSummary:0: 建立一個新的空白 Document 物件，並使用 DocumentBuilder 進行操作。
+//ExStepSummary:1: 寫入一行可見文字，以作為即將加入的註解的承載位置。
+//ExStepSummary:2: 建立一個作者為 Jane Doe 的 Comment，並將其附加至文件的第一段落。
+//ExStepSummary:3: 在註解內部加入段落，並插入指向 Aspose.Words Library 網站的藍色底線超連結。
+//ExStepSummary:4: 設定文件將註解呈現為 PDF 標註，並重新整理版面配置。
+//ExStepSummary:5: 在目前目錄下建立名為「Output」的資料夾，以儲存產生的 PDF。
+//ExStepSummary:6: 使用 PdfSaveOptions 將已準備好的文件儲存為 PDF 檔案。
+//ExStepSummary:7: 檢查 PDF 檔案是否存在且有內容，然後將結果輸出至主控台。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+docBuilder.Writeln("The following paragraph includes a comment with a link.");
+
+//ExStep:2-
+Comment note = new Comment(myDocument, "Jane Doe", "JD", DateTime.Now);
+Paragraph targetParagraph = myDocument.FirstSection.Body.FirstParagraph;
+targetParagraph.AppendChild(note);
+
+//ExStep:3-
+Paragraph noteParagraph = (Paragraph)note.AppendChild(new Paragraph(myDocument));
+DocumentBuilder noteBuilder = new DocumentBuilder(myDocument);
+noteBuilder.MoveTo(noteParagraph);
+noteBuilder.Font.Color = Color.Blue;
+noteBuilder.Font.Underline = Underline.Single;
+noteBuilder.InsertHyperlink("Aspose.Words Library", "https://www.aspose.com/words", false);
+noteBuilder.Font.ClearFormatting();
+
+//ExStep:4-
+myDocument.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInAnnotations;
+myDocument.UpdatePageLayout();
+
+//ExStep:5-
+string resultFolder = Path.Combine(Directory.GetCurrentDirectory(), "Output");
+Directory.CreateDirectory(resultFolder);
+
+//ExStep:6-
+string pdfFilePath = Path.Combine(resultFolder, "CommentWithLink.pdf");
+PdfSaveOptions saveOptions = new PdfSaveOptions();
+myDocument.Save(pdfFilePath, saveOptions);
+
+//ExStep:7-
+if (File.Exists(pdfFilePath) && new FileInfo(pdfFilePath).Length > 0)
+{
+    Console.WriteLine("PDF generated successfully with a linked comment.");
+}
+else
+{
+    Console.WriteLine("PDF creation failed.");
+}
+//ExEnd

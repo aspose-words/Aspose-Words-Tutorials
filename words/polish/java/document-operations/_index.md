@@ -30,7 +30,7 @@ Zanurz się w świecie przetwarzania dokumentów z Aspose.Words for Java dzięki
 ## Dostępne samouczki
 
 ### [Aspose.Words Java: kompleksowy przewodnik po przetwarzaniu dokumentów Word](./aspose-words-java-master-word-processing/)
-Opanuj Aspose.Words for Java dzięki temu przewodnikowi dotyczącemu przetwarzania dokumentów Microsoft Word do postaci zwykłego tekstu, obsługi szyfrowania i zarządzania właściwościami dokumentu.
+Opanuj Aspose.Words for Java dzięki temu przewodnikowi dotyczcemu przetwarzania dokumentów Microsoft Word do postaci zwykłego tekstu, obsługi szyfrowania i zarządzania właściwościami dokumentu.
 
 ### [Aspose.Words Java: Konwersja dokumentów i bezpieczeństwo plików ODT](./aspose-words-java-document-conversion-security/)
 Dowiedz się, jak opanować konwersję dokumentów i bezpieczeństwo za pomocą Aspose.Words dla Java. Konwertuj do ODT, zapewnij zgodność ze schematem i szyfruj dokumenty z łatwością.
@@ -67,6 +67,9 @@ Samouczek dotyczący kodu dla Aspose.Words Java
 
 ### [Zapisywanie dokumentów Word jako PostScript z ustawieniami składania książki w Javie przy użyciu Aspose.Words](./aspose-words-java-postscript-book-fold-settings/)
 Dowiedz się, jak konwertować dokumenty Word na broszury o jakości profesjonalnej za pomocą Aspose.Words for Java. Ten przewodnik obejmuje zapisywanie jako PostScript i konfigurowanie ustawień składania książki.
+
+### [Iterowanie ostrzeżeń dokumentu: wykrywanie brakujących czcionek w Javie](./iterate-document-warnings-detect-missing-fonts-in-java/)
+Dowiedz się, jak iterować ostrzeżenia dokumentu i wykrywać brakujące czcionki przy użyciu Aspose.Words dla Java.
 
 ## Dodatkowe zasoby
 
