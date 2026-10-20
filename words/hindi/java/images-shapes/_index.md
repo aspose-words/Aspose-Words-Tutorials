@@ -93,6 +93,12 @@ Word में समूह आकृतियों को बनाने औ�
 ### [वर्ड में छवि को छिपाएँ – Aspose के साथ जावा चरण‑दर‑चरण गाइड](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
 Aspose.Words के साथ जावा में वर्ड दस्तावेज़ में छवि को छिपाने का चरण‑दर‑चरण मार्गदर्शन।
 
+### [Aspose.Words का उपयोग करके Word दस्तावेज़ में आकृतियों को समूहित करने का तरीका](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Aspose.Words Java के साथ Word दस्तावेज़ में कई आकृतियों को समूहित करने की प्रक्रिया सीखें।
+
+### [Aspose.Words for C# में आकृति की छिपी हुई प्रॉपर्टी कैसे सेट करें](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Aspose.Words C# में आकृति की छिपी हुई प्रॉपर्टी सेट करने की चरण-दर-चरण गाइड।
+
 ## अतिरिक्त संसाधन
 
 - [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)

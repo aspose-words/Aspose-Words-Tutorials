@@ -87,6 +87,11 @@ Aprenda a agrupar y manipular formas en documentos Word usando Aspose.Words para
 
 ### [Ocultar imagen en Word – guía paso a paso en Java con Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
 Aprenda a ocultar imágenes en documentos Word usando Aspose.Words para Java.
+### [Cómo agrupar formas en un documento Word usando Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Aprenda a agrupar varias formas en un documento Word mediante Aspose.Words para Java.
+
+### [Cómo establecer la propiedad Oculto de una forma en Aspose.Words para C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Aprenda a ocultar formas en documentos Word usando Aspose.Words para C#.
 
 ## Recursos adicionales
 

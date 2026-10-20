@@ -87,6 +87,11 @@ Panduan lengkap untuk mengelompokkan bentuk dalam dokumen Word menggunakan Aspos
 
 ### [Sembunyikan gambar di Word – panduan langkah‑demi‑langkah Java dengan Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
 Panduan lengkap untuk menyembunyikan gambar dalam dokumen Word menggunakan Aspose.Words untuk Java.
+### [Cara Mengelompokkan Bentuk dalam Dokumen Word menggunakan Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Pelajari cara mengelompokkan beberapa bentuk menjadi satu grup dalam dokumen Word dengan Aspose.Words untuk Java.
+
+### [Cara Mengatur Properti Tersembunyi Bentuk di Aspose.Words untuk C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Pelajari cara menyetel properti tersembunyi pada bentuk menggunakan Aspose.Words untuk C#.
 
 ## Sumber Daya Tambahan
 

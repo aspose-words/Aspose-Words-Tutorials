@@ -107,6 +107,11 @@ A comprehensive guide on grouping shapes in Word documents using Aspose.Words fo
 
 ### [Hide picture in Word – step‑by‑step Java guide with Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
 Step-by-step guide on hiding pictures in Word documents using Aspose.Words for Java.
+### [How to group shapes in a Word document using Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Learn how to group multiple shapes into a single shape in a Word document using Aspose.Words for Java.
+
+### [How to set shape hidden property in Aspose.Words for C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Learn how to set the hidden property of shapes in a Word document using Aspose.Words for C#.
 
 ## Additional Resources
 

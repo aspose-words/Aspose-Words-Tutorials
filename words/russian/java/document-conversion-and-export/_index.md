@@ -191,6 +191,7 @@ weight: 22
 Пошаговое руководство по сохранению DOCX в TXT с экспортом формул в LaTeX с помощью Aspose.Words for Java.
 ### [Сохранить docx как txt – экспортировать уравнения Word в LaTeX](./save-docx-as-txt-export-word-equations-to-latex/)
 Сохраните документ DOCX в формате TXT и экспортируйте формулы Word в LaTeX с помощью Aspose.Words for Java.
+### [Как выполнить конвертацию markdown в docx в Java](./how-to-perform-markdown-to-docx-conversion-in-java/)
 
 ### [Aspose.Words в PDF – Конвертировать DOCX в PDF в Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Пошаговое руководство по конвертации DOCX в PDF с помощью Aspose.Words for Java, включая настройку параметров сохранения.
@@ -359,6 +360,8 @@ weight: 22
 
 ### [Сохранить Word в Markdown – полное руководство с использованием Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
 Пошаговое руководство по сохранению документов Word в формате Markdown с помощью Aspose.Words.
+
+### [Как конвертировать docx в markdown с помощью Aspose.Words](./how-to-convert-docx-to-markdown-with-aspose-words/)
 
 ## Часто задаваемые вопросы
 

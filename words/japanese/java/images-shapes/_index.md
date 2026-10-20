@@ -87,6 +87,11 @@ Word 文書内で複数の図形をグループ化し、操作や書式設定を
 
 ### [Wordで画像を非表示にする – AsposeによるステップバイステップのJavaガイド](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
 Aspose.Words for Java を使用して、Word 文書内の画像を非表示にする方法を段階的に解説します。
+### [Aspose.Words を使用して Word 文書で図形をグループ化する方法](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Aspose.Words for Java を使って、Word 文書内の複数の図形をグループ化し、操作を簡素化する方法を学びます。
+
+### [Aspose.Words for C# でシェイプの非表示プロパティを設定する方法](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Aspose.Words for C# を使用して、シェイプを非表示にするプロパティの設定手順を解説します。
 
 ## 追加リソース
 

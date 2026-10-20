@@ -87,6 +87,11 @@ Leer hoe u vormen groepeert in Word-documenten met Aspose.Words voor Java.
 
 ### [Afbeelding verbergen in Word – stap‑voor‑stap Java‑handleiding met Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
 Leer hoe u een afbeelding in een Word‑document kunt verbergen met Aspose.Words voor Java.
+### [Hoe vormen groeperen in een Word-document met Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Leer hoe u meerdere vormen in een Word-document groepeert met Aspose.Words voor Java.
+
+### [Hoe de verborgen eigenschap van een vorm instellen in Aspose.Words voor C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Leer hoe u de verborgen eigenschap van een vorm instelt met Aspose.Words voor C#.
 
 ## Aanvullende bronnen
 

@@ -89,6 +89,10 @@ Học cách chèn nút ActiveX vào tài liệu Word và thiết lập chú thí
 Hướng dẫn cách lấy dấu phân cách trong tài liệu Word bằng Java để xử lý nội dung tài liệu.
 ### [Tạo biểu đồ tròn trong Word bằng Java – hướng dẫn từng bước](./create-pie-chart-in-word-with-java-step-by-step-guide/)
 Hướng dẫn chi tiết cách tạo biểu đồ tròn trong tài liệu Word bằng Java.
+### [Tạo tài liệu Word với các placeholder và danh sách trong Aspose.Words cho Java](./how-to-create-word-document-with-placeholders-and-lists/)
+Hướng dẫn tạo tài liệu Word có placeholder và danh sách bằng Aspose.Words cho Java.
+### [Cách thêm đường dẫn vào biểu đồ tròn trong Java với Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Hướng dẫn từng bước để thêm các đường dẫn vào biểu đồ tròn trong Java sử dụng Chart API của Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

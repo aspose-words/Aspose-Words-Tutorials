@@ -87,6 +87,11 @@ Aspose.Words Java 程式碼教程
 
 ### [在 Word 中隱藏圖片 – Aspose 的逐步 Java 指南](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
 了解如何使用 Aspose.Words for Java 隱藏 Word 文件中的圖片，提供完整範例與說明。
+### [如何使用 Aspose.Words 在 Word 文件中對形狀進行分組](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+示範如何在 Word 文件中使用 Aspose.Words 將多個形狀分組，以便一次性操作和管理。
+
+### [如何在 Aspose.Words for C# 中設定形狀的隱藏屬性](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+示範如何在 Aspose.Words for C# 中設定形狀的隱藏屬性。
 
 ## 其他資源
 

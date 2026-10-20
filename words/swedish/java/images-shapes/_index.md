@@ -87,6 +87,11 @@ Lär dig hur du grupperar former i ett Word-dokument med Aspose.Words för Java.
 
 ### [Dölj bild i Word – steg‑för‑steg Java‑guide med Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
 Lär dig hur du döljer bilder i ett Word-dokument med Aspose.Words för Java.
+### [Hur man grupperar former i ett Word-dokument med Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Lär dig hur du grupperar flera former i ett Word-dokument med Aspose.Words för Java.
+
+### [Hur man ställer in dold egenskap för form i Aspose.Words för C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Lär dig hur du markerar en form som dold i ett Word-dokument med Aspose.Words för C#.
 
 ## Ytterligare resurser
 

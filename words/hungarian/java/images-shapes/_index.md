@@ -86,6 +86,11 @@ Teljes körű útmutató a téglalap alakzat C#-os beszúrásához Word dokument
 Tanulja meg, hogyan hozhat létre üres Word dokumentumot árnyékhatással Java-ban az Aspose.Words segítségével.
 ### [Kép elrejtése Word-ben – lépésről lépésre Java útmutató az Aspose-szal](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
 Tanulja meg, hogyan rejthet el képeket a Word dokumentumokban Java és Aspose segítségével.
+### [Hogyan csoportosítsuk az alakzatokat egy Word dokumentumban az Aspose.Words használatával?](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Ismerje meg, hogyan csoportosíthatja az alakzatokat egy Word dokumentumban az Aspose.Words Java segítségével.
+
+### [Hogyan állítsuk be az alakzat rejtett tulajdonságát az Aspose.Words for C#-ban](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Ismerje meg, hogyan állíthatja be az alakzat rejtett tulajdonságát a C#-ban az Aspose.Words segítségével.
 
 ## További források
 

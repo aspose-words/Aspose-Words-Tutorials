@@ -90,6 +90,10 @@ Poznaj, jak wstawiać i konfigurować SDT w C# przy użyciu Aspose.Words, aby tw
 
 ### [Jak uzyskać separator w dokumentach Word przy użyciu Java](./how-to-get-separator-in-word-docs-with-java/)
 Dowiedz się, jak wstawiać i konfigurować separator w dokumentach Word przy pomocy Aspose.Words for Java.
+### [Tworzenie dokumentu Word z polami zastępczymi i listami](./how-to-create-word-document-with-placeholders-and-lists/)
+Dowiedz się, jak generować dokumenty Word z dynamicznymi polami zastępczymi i listami przy użyciu Aspose.Words dla Java.
+### [Jak dodać linie prowadzące do wykresu kołowego w Javie przy użyciu Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Dowiedz się, jak dodać linie prowadzące do wykresu kołowego w Javie przy użyciu Chart API.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

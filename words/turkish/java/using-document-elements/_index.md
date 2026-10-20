@@ -89,6 +89,10 @@ Komut düğmesi ekleyerek boş bir Word belgesi oluşturmayı adım adım öğre
 C# ile Word belgelerinde yer tutucu (SDT) eklemeyi adım adım öğrenin.
 ### [Java için Aspose.Words'de Ayırıcıyı Alma](./how-to-get-separator-in-word-docs-with-java/)
 Java ile Aspose.Words kullanarak Word belgelerindeki ayırıcıları nasıl alacağınızı öğrenin.
+### [Yer tutucular ve listelerle Word belgesi oluşturma](./how-to-create-word-document-with-placeholders-and-lists/)
+Yer tutucular ve listeler kullanarak dinamik Word belgeleri oluşturmayı öğrenin.
+### [Java için Chart API ile Pasta Grafiğine Lider Çizgileri Ekleme](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Java Chart API kullanarak pasta grafiğine lider çizgileri eklemeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

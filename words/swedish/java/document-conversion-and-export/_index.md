@@ -141,6 +141,9 @@ Lär dig hur du sparar DOCX-filer som Markdown med Aspose.Words for Java i en ko
 ### [Spara Word som Markdown – komplett guide med Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
 Lär dig hur du konverterar Word-dokument till Markdown med Aspose.Words i en komplett steg‑för‑steg‑guide.
 
+### [Hur man utför markdown‑till‑docx‑konvertering i Java](./how-to-perform-markdown-to-docx-conversion-in-java/)
+Lär dig hur du konverterar Markdown-filer till DOCX med Aspose.Words för Java.
+
 ### [Aspose Word till PDF – Konvertera DOCX till PDF i Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Lär dig hur du konverterar DOCX‑filer till PDF med Aspose.Words for Java i några enkla steg.
 
@@ -203,6 +206,9 @@ Lär dig hur du bäddar in bilder i Markdown när du konverterar DOCX‑filer me
 
 ### [Bädda in bilder som Base64 vid konvertering av DOCX till Markdown](./embed-images-as-base64-when-converting-docx-to-markdown/)
 Lär dig hur du bäddar in bilder som Base64 när du konverterar DOCX-filer till Markdown med Aspose.Words.
+
+### [Hur man konverterar docx till markdown med Aspose.Words](./how-to-convert-docx-to-markdown-with-aspose-words/)
+Lär dig hur du konverterar DOCX-filer till Markdown med Aspose.Words i några enkla steg.
 
 ### [Skapa tillgänglig PDF från DOCX – Komplett guide](./create-accessible-pdf-from-docx-complete-guide/)
 Lär dig hur du konverterar DOCX till en tillgänglig PDF med fullständig steg‑för‑steg‑guide och bästa praxis.

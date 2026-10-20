@@ -86,6 +86,11 @@
 
 ### [ซ่อนรูปภาพใน Word – คู่มือขั้นตอนโดยขั้นตอนสำหรับ Java ด้วย Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
 เรียนรู้วิธีซ่อนรูปภาพในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
+### [วิธีการจัดกลุ่มรูปร่างในเอกสาร Word ด้วย Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+เรียนรู้วิธีจัดกลุ่มรูปร่างหลายๆ รูปในเอกสาร Word อย่างง่ายดายด้วย Aspose.Words สำหรับ Java
+
+### [วิธีตั้งค่าคุณสมบัติ hidden ของรูปร่างใน Aspose.Words สำหรับ C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+เรียนรู้วิธีตั้งค่าคุณสมบัติ hidden ของรูปร่างใน Aspose.Words สำหรับ C#
 
 ## แหล่งข้อมูลเพิ่มเติม
 

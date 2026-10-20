@@ -87,6 +87,11 @@ Scopri come raggruppare forme in un documento Word usando Aspose.Words per Java.
 
 ### [Nascondi immagine in Word – guida passo‑passo Java con Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
 Scopri come nascondere un'immagine in un documento Word usando Aspose.Words per Java.
+### [Come raggruppare forme in un documento Word utilizzando Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Scopri come raggruppare più forme in un documento Word con Aspose.Words per Java.
+
+### [Come impostare la proprietà nascosta della forma in Aspose.Words per C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Scopri come impostare la proprietà Hidden di una forma nei documenti Word usando Aspose.Words per C#.
 
 ## Risorse aggiuntive
 

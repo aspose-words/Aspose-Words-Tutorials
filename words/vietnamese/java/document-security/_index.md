@@ -47,6 +47,8 @@ Hướng dẫn chi tiết cách ký tài liệu Word bằng Aspose.Words cho Jav
 Hướng dẫn chi tiết cách ký tài liệu DOCX bằng C# với Aspose.Words, bao gồm các bước và mã nguồn mẫu.
 ### [Cách ký file docx bằng chứng chỉ PFX – hướng dẫn từng bước](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
 Hướng dẫn chi tiết cách ký file docx bằng chứng chỉ PFX với Aspose.Words for Java, bao gồm các bước cấu hình và mã nguồn mẫu.
+### [Cách ký tài liệu Word trong C# bằng chứng chỉ X509](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
+Hướng dẫn ký tài liệu Word bằng C# sử dụng chứng chỉ X509, bảo vệ tính toàn vẹn và xác thực.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

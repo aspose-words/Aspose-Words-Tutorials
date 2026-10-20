@@ -187,6 +187,11 @@ Aprenda a definir a resolução ao exportar documentos Word para Markdown usando
 
 ### [Como Salvar Markdown do Word – Guia Completo Java](./how-to-save-markdown-from-word-complete-java-guide/)
 Aprenda a exportar documentos Word para arquivos Markdown usando Aspose.Words for Java, com exemplos de código e opções avançadas.
+### [Como realizar conversão de Markdown para DOCX em Java](./how-to-perform-markdown-to-docx-conversion-in-java/)
+Aprenda a converter arquivos Markdown em documentos DOCX usando Aspose.Words para Java com exemplos passo a passo.
+
+### [Como converter docx para markdown no Aspose.Words para Java](./how-to-convert-docx-to-markdown-with-aspose-words/)
+Aprenda a transformar arquivos DOCX em Markdown usando Aspose.Words for Java em poucos passos.
 
 ### [Criar PDF Acessível a partir de DOCX – Guia Completo](./create-accessible-pdf-from-docx-complete-guide/)
 ### [Incorporar imagens como base64 ao converter DOCX para Markdown em Java](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)

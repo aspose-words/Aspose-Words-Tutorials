@@ -89,6 +89,10 @@ Aprenda a obtener separadores en documentos Word usando Aspose.Words para Java c
 Aprenda a insertar controles de contenido (SDT) en documentos Word usando C# con esta guía paso a paso.
 ### [Crear gráfico de pastel en Word con Java – guía paso a paso](./create-pie-chart-in-word-with-java-step-by-step-guide/)
 Aprenda a crear un gráfico de pastel en documentos Word usando Aspose.Words para Java con esta guía paso a paso.
+### [Cómo crear un documento Word con marcadores de posición y listas](./how-to-create-word-document-with-placeholders-and-lists/)
+Aprenda a crear documentos Word con marcadores de posición y listas usando Aspose.Words para Java.
+### [Cómo agregar líneas guía a un gráfico circular en Java con la API de Chart](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Aprenda a añadir líneas guía a gráficos de pastel en Java usando la API de Chart de Aspose.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

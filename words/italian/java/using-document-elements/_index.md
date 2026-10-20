@@ -89,6 +89,10 @@ Impara a generare un grafico a torta in un documento Word usando Aspose.Words pe
 Scopri come inserire i controlli SDT in C# per gestire i segnaposto nei documenti Word con questa guida passo passo.
 ### [Come ottenere il separatore nei documenti Word con Java](./how-to-get-separator-in-word-docs-with-java/)
 Scopri come estrarre o inserire separatori nei documenti Word usando Aspose.Words per Java.
+### [Come aggiungere linee di collegamento al grafico a torta in Java con l'API Chart](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Scopri come aggiungere linee di collegamento ai grafici a torta in Java usando l'API Chart di Aspose.Words.
+### [Come creare un documento Word con segnaposti e elenchi in Aspose.Words per Java](./how-to-create-word-document-with-placeholders-and-lists/)
+Impara a generare documenti Word con segnaposti dinamici e elenchi strutturati usando Aspose.Words per Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

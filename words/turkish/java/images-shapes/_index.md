@@ -89,6 +89,12 @@ Word belgelerinde şekilleri gruplama ve yönetme konularında adım adım kod �
 ### [Word'de Resmi Gizleme – Aspose ile Adım Adım Java Rehberi](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
 Aspose.Words for Java kullanarak Word belgesindeki resmi nasıl gizleyeceğinizi öğrenin.
 
+### [Aspose.Words kullanarak bir Word belgesinde şekilleri gruplama](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Aspose.Words ile Word belgelerinde şekilleri nasıl gruplandıracağınızı öğrenin.
+
+### [Aspose.Words for C#'da Şeklin Gizli Özelliğini Ayarlama](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Aspose.Words for C# kullanarak bir şeklin gizli özelliğini nasıl ayarlayacağınızı öğrenin.
+
 ## Ek Kaynaklar
 
 ## Ek Kaynaklar

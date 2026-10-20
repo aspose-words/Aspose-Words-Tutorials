@@ -89,6 +89,10 @@ Aprenda a criar um gráfico de pizza no Word usando Aspose.Words para Java com e
 Aprenda a inserir SDT (conteúdo de controle) em C# para criar placeholders no Word de forma completa.
 ### [Como obter separador em documentos Word com Java](./how-to-get-separator-in-word-docs-with-java/)
 Obtenha separadores em documentos Word usando Aspose.Words para Java.
+### [Como criar documento Word com marcadores de posição e listas](./how-to-create-word-document-with-placeholders-and-lists/)
+Aprenda a gerar documentos Word contendo marcadores de posição e listas dinamicamente usando Aspose.Words para Java.
+### [Como adicionar linhas de ligação ao gráfico de pizza em Java com a API de Gráficos](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Aprenda a inserir linhas de ligação em gráficos de pizza usando a API de Gráficos do Aspose.Words para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

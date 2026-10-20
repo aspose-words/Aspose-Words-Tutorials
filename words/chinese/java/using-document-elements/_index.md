@@ -88,6 +88,10 @@
 学习如何在 C# 中使用 SDT（结构化文档标签）来实现 Word 占位符的完整指南。
 ### [使用 Java 在 Word 中创建饼图 – 分步指南](./create-pie-chart-in-word-with-java-step-by-step-guide/)
 学习如何使用 Aspose.Words for Java 在 Word 文档中创建饼图，完整的分步示例。
+### [在 Aspose.Words for Java 中使用占位符和列表创建 Word 文档](./how-to-create-word-document-with-placeholders-and-lists/)
+学习如何在 Aspose.Words for Java 中创建包含占位符和列表的 Word 文档，实现动态内容生成。
+### [在 Java 中使用 Chart API 为饼图添加引导线](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+学习如何在 Java 中使用 Chart API 为饼图添加引导线，实现更清晰的数据展示。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

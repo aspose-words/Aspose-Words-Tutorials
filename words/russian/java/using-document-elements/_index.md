@@ -88,6 +88,10 @@
 ### [Как добавить SDT в C# – полное руководство по заполнителям Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
 ### [Создание круговой диаграммы в Word с Java – пошаговое руководство](./create-pie-chart-in-word-with-java-step-by-step-guide/)
 Узнайте, как создать круговую диаграмму в документе Word с помощью Aspose.Words для Java.
+### [Создание Word‑документа с заполнителями и списками в Aspose.Words для Java](./how-to-create-word-document-with-placeholders-and-lists/)
+Узнайте, как создавать документы Word с заполнителями и списками, используя Aspose.Words для Java.
+### [Как добавить линии‑указатели к круговой диаграмме в Java с помощью Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Узнайте, как добавить линии‑указатели к круговой диаграмме в Java с использованием Chart API.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

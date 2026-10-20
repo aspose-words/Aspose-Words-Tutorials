@@ -87,6 +87,11 @@ Hướng dẫn chi tiết cách nhóm các hình dạng trong tài liệu Word b
 
 ### [Ẩn hình ảnh trong Word – hướng dẫn từng bước Java với Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
 Hướng dẫn chi tiết cách ẩn hình ảnh trong tài liệu Word bằng Aspose.Words cho Java.
+### [Cách nhóm các hình dạng trong tài liệu Word bằng Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Hướng dẫn chi tiết cách nhóm các hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
+
+### [Cách thiết lập thuộc tính ẩn cho hình dạng trong Aspose.Words cho C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Hướng dẫn cách ẩn một hình dạng trong tài liệu Word bằng Aspose.Words cho C#.
 
 ## Tài nguyên bổ sung
 

@@ -47,6 +47,8 @@
 เรียนรู้วิธีลงลายเซ็นไฟล์ DOCX ด้วย C# อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน
 ### [วิธีลงนามไฟล์ docx ด้วยใบรับรอง PFX – คู่มือขั้นตอนโดยละเอียด](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
 เรียนรู้วิธีลงนามไฟล์ docx ด้วยใบรับรอง PFX อย่างปลอดภัยโดยใช้ Aspose.Words สำหรับ Java พร้อมตัวอย่างโค้ด
+### [วิธีลงลายเซ็นเอกสาร Word ด้วย C# และใบรับรอง X509](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
+เรียนรู้วิธีใช้ Aspose.Words สำหรับ C# เพื่อเซ็นเอกสาร Word ด้วยใบรับรอง X509 อย่างปลอดภัย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

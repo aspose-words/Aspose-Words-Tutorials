@@ -87,6 +87,10 @@
 เรียนรู้วิธีดึงตัวคั่นจากเอกสาร Word ด้วย Aspose.Words for Java
 ### [วิธีเพิ่ม SDT ใน C# – คู่มือฉบับสมบูรณ์สำหรับตัวแทน Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
 ### [สร้างแผนภูมิวงกลมใน Word ด้วย Java – คู่มือทีละขั้นตอน](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+### [วิธีเพิ่มเส้นนำไปยังแผนภูมิวงกลมใน Java ด้วย Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+เรียนรู้วิธีเพิ่มเส้นนำในแผนภูมิวงกลมด้วย Chart API ของ Aspose.Words for Java
+### [วิธีสร้างเอกสาร Word ด้วยตัวแปรแทนที่และรายการ](./how-to-create-word-document-with-placeholders-and-lists/)
+เรียนรู้วิธีสร้างเอกสาร Word ที่มีตัวแปรแทนที่และรายการโดยใช้ Aspose.Words for Java
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

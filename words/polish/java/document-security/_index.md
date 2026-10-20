@@ -47,6 +47,8 @@ Dowiedz się, jak podpisać dokument Word w Javie przy użyciu Aspose.Words, kro
 Dowiedz się, jak za pomocą Aspose.Words w C# dodać podpis cyfrowy do plików DOCX, zapewniając integralność i autentyczność dokumentów.
 ### [Jak podpisać pliki docx certyfikatem PFX – przewodnik krok po kroku](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
 Dowiedz się, jak podpisać pliki docx przy użyciu certyfikatu PFX, krok po kroku, z przykładami kodu w Aspose.Words for Java.
+### [Jak podpisać dokument Word w C# przy użyciu certyfikatu X509](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
+Dowiedz się, jak podpisać dokument Word w C# przy użyciu certyfikatu X509, zapewniając integralność i autentyczność pliku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

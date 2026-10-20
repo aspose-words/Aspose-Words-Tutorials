@@ -87,6 +87,11 @@ Word 문서에서 도형을 그룹화하는 방법을 단계별로 안내합니�
 
 ### [Word에서 그림 숨기기 – Aspose와 함께하는 단계별 Java 가이드](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
 Aspose.Words for Java를 사용하여 Word 문서에서 그림을 숨기는 방법을 단계별로 안내합니다.
+### [Aspose.Words를 사용하여 Word 문서에서 도형 그룹화하는 방법](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Aspose.Words를 사용하여 Word 문서에서 도형을 그룹화하는 방법을 알아보세요.
+
+### [C#에서 Aspose.Words를 사용하여 도형 숨김 속성 설정하기](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Aspose.Words for C#에서 도형의 숨김 속성을 설정하는 방법을 알아보세요.
 
 ## 추가 자료
 

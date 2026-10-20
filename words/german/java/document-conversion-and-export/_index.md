@@ -189,6 +189,9 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java Word‑Dokumente direkt als Mar
 ### [Wie man die Auflösung beim Speichern von Word als Markdown festlegt](./how-to-set-resolution-when-saving-word-as-markdown/)
 Erfahren Sie, wie Sie beim Exportieren von Word-Dokumenten nach Markdown die Bildauflösung festlegen, um optimale Qualität zu erhalten.
 
+### [DOCX in Markdown konvertieren – mit Aspose.Words](./how-to-convert-docx-to-markdown-with-aspose-words/)
+Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in Markdown umwandeln.
+
 ### [Wie man Bilder in Markdown beim Konvertieren von DOCX einbettet](./how-to-embed-images-in-markdown-when-converting-docx/)
 
 ### [DOCX als Markdown speichern – Vollständige C#‑Anleitung](./save-docx-as-markdown-complete-c-guide/)
@@ -327,6 +330,9 @@ Erfahren Sie, wie Sie mit Aspose.Words for Java ein PDF/UA‑konformes Dokument 
 Erfahren Sie, wie Sie mit Aspose.Words for Java aus DOCX ein barrierefreies PDF erstellen, das PDF/UA‑Standards erfüllt.
 ### [Word als PDF speichern mit Aspose.Words – Vollständiger Java‑Leitfaden](./save-word-as-pdf-with-aspose-words-full-java-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words for Java ein Word‑Dokument vollständig in PDF konvertieren – Schritt‑für‑Schritt‑Anleitung.
+
+### [Wie man Markdown nach DOCX in Java konvertiert](./how-to-perform-markdown-to-docx-conversion-in-java/)
+Erfahren Sie, wie Sie mit Aspose.Words for Java Markdown‑Dateien in DOCX‑Dokumente umwandeln.
 
 ## Häufig gestellte Fragen
 

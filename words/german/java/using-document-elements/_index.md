@@ -61,6 +61,8 @@ Erfahren Sie Schritt für Schritt, wie Sie Kopf- und Fußzeilen in Aspose.Words 
 Erfahren Sie in diesem umfassenden Tutorial, wie Sie die Silbentrennung in Aspose.Words für Java effektiv einsetzen. Verbessern Sie noch heute die Lesbarkeit Ihrer Dokumente!
 ### [Verwenden von Listen in Aspose.Words für Java](./using-lists/)
 Lernen Sie mit diesem Schritt-für-Schritt-Tutorial, Listen in Aspose.Words für Java zu verwenden. Organisieren und formatieren Sie Ihre Dokumente effektiv.
+### [Erstellen eines Word-Dokuments mit Platzhaltern und Listen in Aspose.Words für Java](./how-to-create-word-document-with-placeholders-and-lists/)
+Erfahren Sie, wie Sie ein Word-Dokument mit Platzhaltern und Listen in Aspose.Words für Java erstellen und dynamisch befüllen.
 ### [Verwenden von Markdown in Aspose.Words für Java](./using-markdown/)
 Lernen Sie mit diesem Schritt-für-Schritt-Tutorial, Markdown in Aspose.Words für Java zu verwenden. Erstellen, formatieren und speichern Sie mühelos Markdown-Dokumente.
 ### [Verwenden von Knoten in Aspose.Words für Java](./using-nodes/)
@@ -89,6 +91,8 @@ Erfahren Sie, wie Sie ein leeres Word-Dokument mithilfe einer Schaltfläche prog
 Erfahren Sie, wie Sie Inhaltssteuerelemente (SDT) in C# hinzufügen und Word-Platzhalter effektiv nutzen.
 ### [Trennzeichen in Word-Dokumenten mit Java abrufen](./how-to-get-separator-in-word-docs-with-java/)
 Erfahren Sie, wie Sie Trennzeichen in Word-Dokumenten mit Aspose.Words für Java extrahieren und verarbeiten.
+### [Wie man Führungs­linien zu einem Kreisdiagramm in Java mit der Chart‑API hinzufügt](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Erfahren Sie, wie Sie mit der Chart‑API Führungs­linien zu Kreisdiagrammen in Java hinzufügen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

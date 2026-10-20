@@ -87,6 +87,10 @@
 ### [كيفية الحصول على الفاصل في مستندات Word باستخدام Java](./how-to-get-separator-in-word-docs-with-java/)
 تعلم كيفية استخراج الفواصل في مستندات Word باستخدام Aspose.Words لجافا.
 ### [إنشاء مخطط دائري في Word باستخدام Java – دليل خطوة بخطوة](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+### [كيفية إضافة خطوط القائد إلى مخطط الفطيرة في Java باستخدام Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+تعلم كيفية إضافة خطوط القائد إلى مخطط الفطيرة في Java باستخدام Chart API خطوة بخطوة.
+### [كيفية إنشاء مستند Word مع العناصر النائبة والقوائم](./how-to-create-word-document-with-placeholders-and-lists/)
+تعلم كيفية إنشاء مستند Word يحتوي على عناصر نائبة وقوائم بسهولة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

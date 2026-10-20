@@ -89,6 +89,8 @@ Java का उपयोग करके Word दस्तावेज़ मे
 ### [Java के साथ Word में पाई चार्ट बनाना – चरण-दर-चरण गाइड](./create-pie-chart-in-word-with-java-step-by-step-guide/)
 Java के साथ Word दस्तावेज़ में पाई चार्ट बनाने की प्रक्रिया सीखें। चरण-दर-चरण मार्गदर्शन।
 ### [C# में SDT जोड़ना – Word प्लेसहोल्डर्स के लिए पूर्ण गाइड](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+### [Java में Chart API के साथ पाई चार्ट में लीडर लाइन्स जोड़ना](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Java में Chart API का उपयोग करके पाई चार्ट में लीडर लाइन्स जोड़ने के चरण-दर-स्टेप ट्यूटोरियल।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

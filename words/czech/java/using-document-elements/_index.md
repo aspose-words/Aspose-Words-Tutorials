@@ -24,7 +24,7 @@ Než se ponoříme do tutoriálů, je nezbytné pochopit koncept prvků dokument
 
 ## Přístup k prvkům dokumentu a manipulace s nimi
 
-Jednou z klíčových dovedností, které si v těchto tutoriálech osvojíte, je schopnost přistupovat k prvkům dokumentů a manipulovat s nimi. Aspose.Words pro Javu nabízí bohatou sadu API, která vám umožňují programově procházet, upravovat a extrahovat informace z vašich dokumentů. Ať už potřebujete najít a nahradit text, vložit tabulky nebo aktualizovat záhlaví a zápatí, tyto tutoriály vám pomohou.
+Jednou z klíčových dovedností, které si v těchto tutoriálech osvojíte, je schopnost přistupovat k prvkům dokumentů a manipulovat s nimi. Aspose.Words pro Javu nabízí bohatou sadu API, která vám umožňuje programově procházet, upravovat a extrahovat informace z vašich dokumentů. Ať už potřebujete najít a nahradit text, vložit tabulky nebo aktualizovat záhlaví a zápatí, tyto tutoriály vám pomohou.
 
 ## Vytváření dynamických dokumentů
 
@@ -47,6 +47,10 @@ Pamatujte, že praxe dělá mistra, a s Aspose.Words pro Javu budete vytvářet,
 Naučte se, jak pomocí Aspose.Words pro C# vytvořit a spravovat SDT (Content Controls) jako zástupce v dokumentech Word.
 ### [Jak získat oddělovač ve Word dokumentech pomocí Javy](./how-to-get-separator-in-word-docs-with-java/)
 Naučte se, jak v Aspose.Words pro Javu získat a použít oddělovač v dokumentech Word.
+### [Jak přidat vodící čáry do koláčového grafu v Javě pomocí Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Naučte se, jak v Aspose.Words pro Javu přidat vodící čáry do koláčových grafů pomocí Chart API.
+### [Jak vytvořit dokument Word s místodržiteli a seznamy](./how-to-create-word-document-with-placeholders-and-lists/)
+Naučte se, jak v Aspose.Words pro Javu vytvořit dokument Word s placeholdery a seznamy.
 ### [Používání komentářů v Aspose.Words pro Javu](./using-comments/)
 Naučte se, jak používat komentáře v Aspose.Words pro Javu. Podrobný návod pro přidávání a úpravu komentářů v dokumentech.
 ### [Používání polí v Aspose.Words pro Javu](./using-fields/)

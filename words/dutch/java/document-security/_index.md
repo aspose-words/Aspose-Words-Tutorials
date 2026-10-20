@@ -41,6 +41,8 @@ Leer hoe u documenten kunt versleutelen en ontsleutelen met Aspose.Words voor Ja
 Leer hoe u veilige digitale handtekeningen in documenten implementeert met Aspose.Words voor Java. Zorg voor de integriteit van uw documenten met stapsgewijze instructies en broncode.
 ### [Hoe DOCX-bestanden te ondertekenen in C# – Complete stapsgewijze handleiding](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
 Leer hoe u DOCX-bestanden kunt ondertekenen met Aspose.Words voor C#. Volledige stap‑voor‑stap gids met voorbeeldcode.
+### [Hoe een Word-document ondertekenen in C# met een X509-certificaat](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
+Leer hoe u een Word-document ondertekent in C# met een X509-certificaat met Aspose.Words.
 ### [Documentredactie en gegevensbescherming](./document-redaction-data-protection/)
 Leer hoe u uw documenten kunt beveiligen en gevoelige gegevens kunt redigeren met Aspose.Words voor Java. Stapsgewijze handleiding met broncode.
 ### [Word-document ondertekenen in Java met Aspose.Words – Complete gids](./sign-word-document-in-java-with-aspose-words-complete-guide/)

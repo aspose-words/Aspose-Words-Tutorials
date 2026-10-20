@@ -91,6 +91,10 @@ Java を使用して Word 文書内のセパレーター（区切り文字）を
 Word のプレースホルダー（SDT）を C# で追加・設定する手順をステップバイステップで解説します。
 ### [Java で Word に円グラフを作成する – ステップバイステップ ガイド](./create-pie-chart-in-word-with-java-step-by-step-guide/)
 Java と Aspose.Words を使用して、Word 文書内に円グラフを挿入する方法を段階的に学びます。
+### [Aspose.Words for Java でプレースホルダーとリストを使用した Word 文書の作成](./how-to-create-word-document-with-placeholders-and-lists/)
+
+### [Java の Chart API で円グラフにリーダーラインを追加する方法](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Java の Chart API を使用して、円グラフにリーダーライン（データラベルの線）を追加する手順を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

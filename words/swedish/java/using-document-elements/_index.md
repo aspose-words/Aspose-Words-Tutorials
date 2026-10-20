@@ -89,6 +89,10 @@ Lär dig hur du extraherar separatorer i Word-dokument med Aspose.Words för Jav
 Lär dig hur du lägger till SDT i C# för att skapa dynamiska Word‑platshållare.
 ### [Skapa pajdiagram i Word med Java – steg-för-steg-guide](./create-pie-chart-in-word-with-java-step-by-step-guide/)
 Lär dig skapa ett pajdiagram i Word med Java i denna steg-för-steg-guide.
+### [Hur du lägger till ledarlinjer i pajdiagram i Java med Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Lär dig steg för steg hur du lägger till ledarlinjer i ett pajdiagram med Aspose.Words för Java Chart API.
+### [Skapa Word-dokument med platshållare och listor](./how-to-create-word-document-with-placeholders-and-lists/)
+Lär dig att skapa Word-dokument med platshållare och listor med Aspose.Words för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

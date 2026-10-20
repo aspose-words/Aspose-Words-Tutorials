@@ -88,6 +88,10 @@ Apprenez à créer un diagramme circulaire dans Word en utilisant Aspose.Words p
 ### [Comment ajouter un SDT en C# – guide complet pour les espaces réservés Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
 Apprenez à insérer des contrôles de contenu (SDT) avec Aspose.Words pour C# afin de gérer les espaces réservés dans vos documents Word.
 ### [Comment obtenir un séparateur dans les documents Word avec Java](./how-to-get-separator-in-word-docs-with-java/)
+### [Comment ajouter des lignes de repère à un diagramme circulaire en Java avec l'API Chart](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Apprenez à ajouter des lignes de repère aux graphiques circulaires en Java à l'aide de l'API Chart d'Aspose.
+### [Créer un document Word avec des espaces réservés et des listes](./how-to-create-word-document-with-placeholders-and-lists/)
+Apprenez à générer des documents Word contenant des espaces réservés et des listes dynamiques avec Aspose.Words pour Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

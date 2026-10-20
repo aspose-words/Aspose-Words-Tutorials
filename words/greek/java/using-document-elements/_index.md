@@ -89,6 +89,10 @@
 Μάθετε πώς να αποκτήσετε διαχωριστικό σε έγγραφα Word χρησιμοποιώντας Aspose.Words για Java.
 ### [Πώς να προσθέσετε SDT σε C# – πλήρης οδηγός για placeholders του Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
 Μάθετε πώς να προσθέσετε SDT (Structured Document Tags) σε έγγραφα Word χρησιμοποιώντας C#.
+### [Δημιουργία εγγράφου Word με σύμβολα κράτησης θέσης και λίστες](./how-to-create-word-document-with-placeholders-and-lists/)
+
+### [Πώς να προσθέσετε γραμμές οδηγού σε διάγραμμα πίτας σε Java με το Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Μάθετε πώς να προσθέσετε γραμμές οδηγού σε διάγραμμα πίτας χρησιμοποιώντας το Chart API της Java. Οδηγός βήμα‑βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

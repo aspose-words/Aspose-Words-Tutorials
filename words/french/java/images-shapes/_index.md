@@ -87,6 +87,11 @@ Guide complet pour regrouper des formes dans Word avec Aspose.Words pour Java.
 
 ### [Masquer une image dans Word – guide Java étape par étape avec Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
 Apprenez à masquer une image dans un document Word en Java avec Aspose.Words.
+### [Comment regrouper des formes dans un document Word à l'aide d'Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Apprenez à regrouper plusieurs formes dans un document Word avec Aspose.Words pour Java.
+
+### [Comment définir la propriété cachée d’une forme dans Aspose.Words pour C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Apprenez à masquer des formes en définissant leur propriété Hidden avec Aspose.Words pour C#.
 
 ## Ressources supplémentaires
 

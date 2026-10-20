@@ -89,6 +89,10 @@ Aspose.Words for Java를 사용해 Word 문서에 파이 차트를 삽입하고,
 Word 문서의 자리표시자를 관리하기 위해 SDT(구조화된 문서 태그)를 추가하는 방법을 단계별로 안내합니다.
 ### [Java로 Word에서 파이 차트 만들기 – 단계별 가이드](./create-pie-chart-in-word-with-java-step-by-step-guide/)
 Java를 사용해 Word 문서에 파이 차트를 삽입하는 방법을 단계별로 안내합니다.
+### [Java와 Chart API를 사용하여 파이 차트에 리더 라인 추가하기](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Java용 Aspose.Words Chart API를 활용해 파이 차트에 리더 라인을 추가하는 방법을 단계별로 안내합니다.
+### [플레이스홀더와 목록을 사용하여 워드 문서 만들기](./how-to-create-word-document-with-placeholders-and-lists/)
+플레이스홀더와 목록을 활용해 동적인 워드 문서를 생성하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

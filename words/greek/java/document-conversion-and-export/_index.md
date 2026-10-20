@@ -339,6 +339,12 @@ weight: 22
 ### [Πώς να αποθηκεύσετε Markdown από το Word – Πλήρης οδηγός Java](./how-to-save-markdown-from-word-complete-java-guide/)
 Μάθετε πώς να εξάγετε περιεχόμενο Word σε μορφή Markdown χρησιμοποιώντας Aspose.Words for Java, βήμα‑βήμα οδηγίες.
 
+### [Πώς να πραγματοποιήσετε μετατροπή markdown σε docx σε Java](./how-to-perform-markdown-to-docx-conversion-in-java/)
+Μάθετε πώς να μετατρέψετε αρχεία markdown σε docx χρησιμοποιώντας το Aspose.Words for Java.
+
+### [Πώς να μετατρέψετε docx σε markdown με το Aspose.Words](./how-to-convert-docx-to-markdown-with-aspose-words/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε μορφή Markdown χρησιμοποιώντας το Aspose.Words for Java.
+
 ## Συχνές Ερωτήσεις
 
 **Π: Πώς προσθέτω υδατογράφημα σε υπάρχον PDF χρησιμοποιώντας το Aspose.Words;**  

@@ -66,6 +66,8 @@ Tanuld meg lépésről lépésre, hogyan használd a fejléceket és lábléceke
 Tanuld meg, hogyan használd hatékonyan a kötőjelezést az Aspose.Words for Java programban ezzel az átfogó oktatóanyaggal. Fokozd a dokumentumok olvashatóságát még ma!
 ### [Listák használata az Aspose.Words Java-ban](./using-lists/)
 Tanuld meg a listák használatát az Aspose.Words for Java programban ezzel a lépésről lépésre szóló oktatóanyaggal. Rendszerezd és formázd hatékonyan a dokumentumaidat.
+### [Word dokumentum létrehozása helyőrzőkkel és listákkal](./how-to-create-word-document-with-placeholders-and-lists/)
+Tanuld meg, hogyan hozhatsz létre Word dokumentumot helyőrzőkkel és listákkal az Aspose.Words for Java segítségével.
 ### [Markdown használata az Aspose.Words Java-ban](./using-markdown/)
 Tanuld meg használni a Markdownt az Aspose.Words for Java-ban ezzel a lépésről lépésre szóló oktatóanyaggal. Hozz létre, formázz és ments el Markdown dokumentumokat könnyedén.
 ### [Csomópontok használata az Aspose.Words-ben Java-ban](./using-nodes/)
@@ -90,6 +92,8 @@ Ismerd meg, hogyan lehet SDT (Struktúrált Dokumentum Típus) elemeket hozzáad
 Tanuld meg, hogyan szerezheted meg az elválasztó karaktert a Word dokumentumokban Java segítségével.
 ### [Kördiagram létrehozása Word-ben Java-val – lépésről lépésre útmutató](./create-pie-chart-in-word-with-java-step-by-step-guide/)
 Tanuld meg, hogyan hozhatsz létre kördiagramot Word dokumentumban Java segítségével, lépésről lépésre útmutatóval.
+### [Vezetővonalak hozzáadása kördiagramhoz Java-ban a Chart API-val](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Tanuld meg, hogyan jelenítsd meg a vezetővonalakat a kördiagramokban Java Chart API használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

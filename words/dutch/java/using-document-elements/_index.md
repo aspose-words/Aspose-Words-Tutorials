@@ -88,6 +88,10 @@ Leer hoe u SDT-plaatsaanduidingen in C# toevoegt voor dynamische Word-documenten
 Leer hoe u scheidingstekens kunt ophalen in Word-documenten met Aspose.Words voor Java.
 ### [Cirkeldiagram maken in Word met Java – stapsgewijze handleiding](./create-pie-chart-in-word-with-java-step-by-step-guide/)
 Leer hoe u een cirkeldiagram in een Word-document maakt met Java, stap voor stap.
+### [Hoe een Word-document met tijdelijke aanduidingen en lijsten te maken](./how-to-create-word-document-with-placeholders-and-lists/)
+Leer hoe je een Word-document maakt met placeholders en lijsten in Aspose.Words voor Java.
+### [Leidlijnen toevoegen aan een taartdiagram in Java met de Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Leer hoe je leidlijnen toevoegt aan een taartdiagram met de Aspose.Words Chart API in Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

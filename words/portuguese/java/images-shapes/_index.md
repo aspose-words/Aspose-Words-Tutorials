@@ -86,6 +86,10 @@ Aprenda a criar um documento Word em branco com efeito de sombra usando Aspose.W
 
 ### [Ocultar imagem no Word – guia passo a passo Java com Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
 Aprenda a ocultar imagens em documentos Word usando Aspose.Words para Java de forma simples e eficaz.
+### [Como agrupar formas em um documento Word usando Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Aprenda a agrupar várias formas em um documento Word usando Aspose.Words para Java.
+
+### [Como definir a propriedade oculta de forma no Aspose.Words para C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 
 ## Recursos adicionais
 

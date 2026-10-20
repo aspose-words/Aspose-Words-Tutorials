@@ -86,6 +86,11 @@
 
 ### [Απόκρυψη εικόνας σε Word – βήμα‑βήμα οδηγός Java με Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
 Μάθετε πώς να κρύψετε εικόνα σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
+### [Πώς να ομαδοποιήσετε σχήματα σε έγγραφο Word χρησιμοποιώντας το Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Μάθετε πώς να ομαδοποιήσετε σχήματα σε έγγραφο Word με το Aspose.Words.
+
+### [Πώς να ορίσετε την ιδιότητα κρυφής μορφής σε σχήμα στο Aspose.Words για C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Μάθετε πώς να κάνετε το σχήμα αόρατο ορίζοντας την ιδιότητα Hidden με το Aspose.Words για C#.
 
 ## Πρόσθετοι Πόροι
 

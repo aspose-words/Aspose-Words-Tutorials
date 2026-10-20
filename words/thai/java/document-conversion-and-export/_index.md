@@ -92,6 +92,8 @@ For more information, check out the [Aspose.Words for Java API Documentation](ht
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown และส่งออกตารางเป็น HTML ด้วย Aspose.Words for Java
 ### [บันทึก Word เป็น Markdown – คู่มือเต็มด้วย Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างครบถ้วนด้วย Aspose.Words
+### [วิธีแปลง docx เป็น markdown ด้วย Aspose.Words](./how-to-convert-docx-to-markdown-with-aspose-words/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown อย่างง่ายด้วย Aspose.Words สำหรับ Java
 
 ### [Generating Custom Barcode Labels in Aspose.Words for Java](./generating-custom-barcode-labels/)
 Generate Custom Barcode Labels in Aspose.Words for Java. Learn how to create personalized barcode solutions using Aspose.Words for Java in this step‑by‑step guide.
@@ -340,6 +342,9 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 
 ### [วิธีบันทึก Markdown จาก Word – คู่มือฉบับสมบูรณ์สำหรับ Java](./how-to-save-markdown-from-word-complete-java-guide/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown ด้วย Aspose.Words for Java ในคู่มือฉบับสมบูรณ์
+
+### [วิธีแปลง markdown เป็น docx ด้วย Java](./how-to-perform-markdown-to-docx-conversion-in-java/)
+เรียนรู้วิธีแปลงไฟล์ Markdown เป็น DOCX ใน Java ด้วย Aspose.Words
 
 ## คำถามที่พบบ่อย
 

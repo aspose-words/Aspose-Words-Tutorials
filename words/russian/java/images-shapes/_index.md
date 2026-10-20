@@ -86,6 +86,11 @@
 
 ### [Скрыть изображение в Word – пошаговое руководство Java с Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
 Узнайте, как скрыть изображение в документе Word с помощью Aspose.Words для Java.
+### [Как группировать фигуры в документе Word с помощью Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Узнайте, как объединять несколько фигур в одну группу в документе Word с помощью Aspose.Words для Java.
+
+### [Как установить скрытое свойство фигуры в Aspose.Words для C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Узнайте, как задать свойство Hidden для фигур в документах Word с помощью Aspose.Words для C#.
 
 ## Дополнительные ресурсы
 

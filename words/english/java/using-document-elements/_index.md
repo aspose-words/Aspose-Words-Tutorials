@@ -49,6 +49,8 @@ Learn how to create a blank Word document and add a command button using Aspose.
 ### [Create pie chart in Word with Java – step-by-step guide](./create-pie-chart-in-word-with-java-step-by-step-guide/)
 Learn how to generate a pie chart in a Word document using Aspose.Words for Java with this step-by-step tutorial.
 
+### [How to create word document with placeholders and lists](./how-to-create-word-document-with-placeholders-and-lists/)
+Learn how to create Word documents with placeholders and lists using Aspose.Words for Java.
 ### [Using Comments in Aspose.Words for Java](./using-comments/)
 Learn how to use comments in Aspose.Words for Java. Step-by-step tutorial for adding and customizing comments in your documents.
 ### [Using Fields in Aspose.Words for Java](./using-fields/)
@@ -91,6 +93,8 @@ Learn how to generate pie charts in Word documents using Aspose.Words for Java i
 Learn how to get a separator in Word documents using Aspose.Words for Java. Follow the step-by-step tutorial.
 ### [How to add SDT in C# – complete guide for Word placeholders](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
 Learn how to add Structured Document Tags (SDT) in C# for Word placeholders with a complete step-by-step guide.
+### [How to add leader lines to pie chart in Java with the Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Learn how to add leader lines to pie charts using Aspose.Words for Java Chart API.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

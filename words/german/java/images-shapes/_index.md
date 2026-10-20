@@ -87,6 +87,9 @@ Ein umfassendes Codebeispiel, das zeigt, wie Sie Formen in Word gruppieren und v
 
 ### [Bild in Word ausblenden – Schritt‑für‑Schritt Java‑Leitfaden mit Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java Bilder in Word-Dokumenten ausblenden.
+### [Wie man Formen in einem Word-Dokument mit Aspose.Words gruppiert](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+
+### [Wie man die versteckte Eigenschaft einer Form in Aspose.Words für C# festlegt](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 
 ## Weitere Ressourcen
 

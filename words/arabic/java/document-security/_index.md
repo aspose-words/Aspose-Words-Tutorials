@@ -46,6 +46,8 @@
 تعلم كيفية توقيع ملفات DOCX باستخدام C# مع Aspose.Words خطوة بخطوة، مع أمثلة عملية وشيفرة المصدر.
 ### [كيفية توقيع ملفات docx باستخدام شهادة PFX – دليل خطوة بخطوة](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
 تعرّف على كيفية توقيع ملفات docx باستخدام شهادة PFX عبر Aspose.Words لجافا بخطوات واضحة ومفصلة.
+### [كيفية توقيع مستند Word في C# باستخدام شهادة X509](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
+تعرّف على كيفية توقيع مستند Word باستخدام Aspose.Words لـ C# وشهادة X509 لضمان سلامة المستند.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
