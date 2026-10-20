@@ -1,0 +1,21 @@
+//ExStart
+//ExSummary: Αυτό το σεμινάριο δείχνει πώς να δημιουργήσετε ένα έγγραφο Word, να προσθέσετε μια παράγραφο κειμένου και να εισάγετε ένα σχήμα οριζόντιας γραμμής χρησιμοποιώντας τις κλάσεις Document και DocumentBuilder.
+//ExStepSummary:0: Δημιουργήστε ένα νέο κενό έγγραφο Word δημιουργώντας μια παρουσία της κλάσης Document.
+//ExStepSummary:1: Δημιουργήστε ένα DocumentBuilder που συνδέεται με το έγγραφο για να ενεργοποιήσετε τις λειτουργίες επεξεργασίας.
+//ExStepSummary:2: Γράψτε μια παράγραφο κειμένου και, στη συνέχεια, εισάγετε ένα σχήμα οριζόντιας γραμμής στη θέση του δρομέα χρησιμοποιώντας το DocumentBuilder.
+//ExStepSummary:3: Ορίστε τη διαδρομή του φακέλου εξόδου και αποθηκεύστε το έγγραφο σε αρχείο .docx.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document doc = new Document();
+
+//ExStep:1-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

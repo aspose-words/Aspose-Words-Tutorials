@@ -25,9 +25,8 @@ title: Salva docx come markdown ed estrai immagini – Guida C#
 url: /it/net/programming-with-markdownsaveoptions/save-docx-as-markdown-extract-images-c-guide/
 ---
 
-to keep them unchanged.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,31 +22,19 @@ title: C#でDOCXファイルを復元する方法 – 完全ガイド
 url: /ja/net/programming-with-loadoptions/how-to-recover-docx-files-in-c-complete-guide/
 ---
 
-"
 
-Answer.
 
-Next heading: ## Conclusion
 
-Translate.
 
-Paragraph.
 
-Next: Next steps? ... translate.
 
-Then final line: Happy coding, and may your documents stay healthy!
 
-Translate.
 
-Then image description line: "*Image illustrating the recovery workflow (alt text: "how to recover docx – visual overview of loading, warning collection, and saving steps")*"
 
-Translate the surrounding text but keep alt text unchanged.
 
-Then closing shortcodes.
 
-Make sure to keep all shortcodes exactly.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

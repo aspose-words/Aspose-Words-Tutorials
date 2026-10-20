@@ -22,21 +22,14 @@ title: C#에서 문서를 TXT로 저장 – DOCX를 TXT로 변환
 url: /ko/net/programming-with-txtsaveoptions/save-document-as-txt-in-c-convert-docx-to-txt/
 ---
 
-below, and let’s troubleshoot together. Happy coding!"
 
-Translate.
 
-Then closing shortcodes.
 
-Make sure to keep all shortcodes at start and end.
 
-Now produce final Korean markdown.
 
-Let's craft translation.
 
-Be careful with punctuation.
 
-Proceed to final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

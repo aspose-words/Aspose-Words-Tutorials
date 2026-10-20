@@ -23,21 +23,13 @@ title: Πώς να εξάγετε LaTeX από DOCX – Μετατροπή DOCX 
 url: /el/net/programming-with-txtsaveoptions/how-to-export-latex-from-docx-convert-docx-to-txt-in-c/
 ---
 
-like `input.docx` unchanged.
 
-Also preserve markdown links.
 
-Let's translate.
 
-Start with shortcodes at top unchanged.
 
-Then heading "# How to Export LaTeX from DOCX – Convert DOCX to TXT in C#" translate to Greek: "# Πώς να Εξάγετε LaTeX από DOCX – Μετατροπή DOCX σε TXT σε C#"
 
-Proceed.
 
-Paragraphs.
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

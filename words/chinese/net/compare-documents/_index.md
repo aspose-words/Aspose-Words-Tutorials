@@ -25,7 +25,7 @@
 | [比较 Word 文档中的选项](./compare-options/) 学习如何使用 Aspose.Words for .NET 比较 Word 文档，并遵循我们的分步指南。轻松确保文档一致性。|
 | [Word 文档中的比较目标](./comparison-target/) 遵循这份详细的分步指南，轻松使用 Aspose.Words for .NET 比较 Word 文档。节省时间并提高文档比较的准确性。|
 | [Word 文档中的比较粒度](./comparison-granularity/) 了解 Aspose.Words for .NET 的 Word 文档功能中的比较粒度，该功能允许逐个字符地比较文档，并报告所做的更改。|
-
+| [使用 Aspose.Words 在 C# 中比较 Word 文档](./compare-word-documents-in-c-using-aspose-words/) 学习如何使用 Aspose.Words for .NET 在 C# 中比较 Word 文档，了解关键步骤和示例代码。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -21,7 +21,7 @@ Python-net kullanarak Biçimlendirme ve Stiller üzerine odaklanan 10 uzmanca ha
 - Yazı tipleri, renkler ve aralıklar dahil olmak üzere metin biçimlendirme tekniklerini öğrenin
 - Tutarlılık ve verimlilik için belge biçimlendirme süreçlerinin otomatikleştirilmesine ilişkin içgörüler edinin
 - Özel stil oluşturma ve şablon kullanımı gibi gelişmiş özellikleri keşfedin
-- Biçimlendirme geliştirmelerinin gerçek dünya senaryolarındaki pratik uygulamalarını keşfedin
+- Biçimlendirme geliştirmelerinin gerçek dünya senaryolarındaki pratik uygulamalarını keşedin
 
 ## Mevcut Eğitimler
 
@@ -53,7 +53,10 @@ Aspose.Words for Python ile tireleme sözlüklerinin nasıl kaydedileceğini ve 
 Aspose.Words for Python kullanarak paragraf kenarlıklarını nasıl etkili bir şekilde kaldıracağınızı ve özelleştireceğinizi öğrenin. Belge biçimlendirme sürecinizi kolaylaştırın.
 
     ### [Mastering Tab Stops in Python with Aspose.Words for Document Formatting](./master-tab-stops-python-aspose-words/)
-Aspose.Words kullanarak Python belgelerinizde sekme duraklarını etkili bir şekilde nasıl yöneteceğinizi öğrenin. Bu kılavuz, pratik örneklerle sekme duraklarını eklemeyi, özelleştirmeyi ve kaldırmayı kapsar.
+Aspose.Words kullanarak Python belgelerinizde sekme duraklarını etkili bir şekilde nasıl yöneteceğinizi öğrenin. Bu kılavuz, pratik örneklerle sekma duraklarını eklemeyi, özelleştirmeyi ve kaldırmayı kapsar.
+
+    ### [Python ile Word belgesinde grafik stilini nasıl ayarlarsınız](./how-to-style-chart-in-a-word-document-using-python/)
+    Python kullanarak Word belgelerindeki grafikleri stilize etmeyi ve özelleştirmeyi öğrenin.
 
 ## Ek Kaynaklar
 

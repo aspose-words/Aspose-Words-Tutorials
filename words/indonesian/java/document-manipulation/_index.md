@@ -56,6 +56,9 @@ Manipulasi dokumen menggunakan Aspose.Words untuk Java merupakan keterampilan ya
 Mulailah perjalanan belajar Anda hari ini dan buka kemungkinan tak terbatas dalam manipulasi dokumen dengan Aspose.Words untuk Java.
 
 ## Tutorial Manipulasi Dokumen
+### [Membuat dokumen kosong dengan tombol perintah interaktif di Word menggunakan Java](./create-blank-document-with-an-interactive-command-button-in/)
+Pelajari cara membuat dokumen Word kosong dan menambahkan tombol perintah interaktif menggunakan Aspose.Words untuk Java.
+
 ### [Menggunakan Opsi Pembersihan di Aspose.Words untuk Java](./using-cleanup-options/)
 Tingkatkan Kejelasan Dokumen dengan Opsi Pembersihan Aspose.Words untuk Java. Pelajari cara menghapus paragraf kosong, area yang tidak digunakan, dan banyak lagi.
 ### [Menggunakan Fields di Aspose.Words untuk Java](./using-fields/)
@@ -103,14 +106,20 @@ Manfaatkan Kekuatan Aspose.Words untuk Java. Kuasai Opsi dan Pengaturan Dokumen 
 ### [Menggunakan Properti Dokumen di Aspose.Words untuk Java](./using-document-properties/)
 Optimalkan manajemen dokumen dengan Aspose.Words untuk Java. Pelajari cara bekerja dengan properti dokumen, menambahkan metadata khusus, dan banyak lagi dalam tutorial lengkap ini.
 ### [Menggunakan Ekstensi Web di Aspose.Words untuk Java](./using-web-extensions/)
-Sempurnakan Dokumen dengan Ekstensi Web di Aspose.Words untuk Java. Pelajari cara mengintegrasikan konten berbasis web dengan lancar. 
+### [Penandaan Aksesibilitas PDF di Java – Menghasilkan PDF yang Dapat Diakses](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Pelajari cara menandai PDF untuk aksesibilitas menggunakan Aspose.Words untuk Java, menghasilkan PDF yang ramah pembaca layar.
+### [Buat tombol ActiveX docx di Java – panduan pemrograman lengkap](./create-docx-activex-button-in-java-complete-programming-guid/)
+Panduan lengkap untuk membuat tombol ActiveX dalam dokumen docx menggunakan Java.
+
+### [Cara membuat dokumen Word di Java dengan Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Panduan langkah demi langkah untuk membuat dokumen Word menggunakan Aspose.Words di Java. 
+### [Menambahkan Kontrol Konten dalam Dokumen Word dengan Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+Pelajari cara menambahkan kontrol konten ke dokumen Word menggunakan Aspose.Words untuk Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

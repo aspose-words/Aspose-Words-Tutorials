@@ -1,0 +1,64 @@
+//ExStart
+//ExSummary: Aspose.Words Document, DocumentBuilder, Comment, 및 Style 클래스를 사용하여 이 튜토리얼은 Word 파일에 주석을 만들고 각 주석 단락에 사용자 정의 단락 스타일을 적용하여 주석 텍스트가 기업 브랜드와 일치하도록 합니다.
+//ExStepSummary:0: 새 빈 Document를 만들고 이를 편집할 DocumentBuilder를 생성합니다.
+//ExStepSummary:1: 문서에 예시 문장 두 개를 삽입합니다.
+//ExStepSummary:2: Carol이 작성한 주석을 만들고 텍스트를 설정한 뒤, 문서 시작으로 이동하여 첫 번째 단락에 주석을 연결합니다.
+//ExStepSummary:3: Dave가 작성한 주석을 만들고 텍스트를 설정한 뒤, 문서 끝으로 이동하여 마지막 단락에 주석을 연결합니다.
+//ExStepSummary:4: \"BrandComment\"라는 사용자 정의 단락 스타일을 정의합니다. Arial 10 pt, 진한 파란색, 굵게 서식을 지정하여 기업 브랜드와 일치하도록 합니다.
+//ExStepSummary:5: 문서에 있는 모든 Comment 노드를 리스트에 수집합니다.
+//ExStepSummary:6: 각 주석을 순회하면서 주석 내부의 모든 단락에 BrandComment 스타일을 적용합니다.
+//ExStepSummary:7: 필요하면 Results 폴더를 만들고 수정된 문서를 StyledCommentsDocument.docx로 저장합니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:6:images/4.png
+//ExStep:0-
+Document document = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(document);
+
+//ExStep:1-
+docBuilder.Writeln("Introductory line for the file.");
+docBuilder.Writeln("Follow‑up line for the file.");
+
+//ExStep:2-
+Comment remarkOne = new Comment(document, "Carol", "C", DateTime.Now);
+remarkOne.SetText("Preliminary assessment note.");
+docBuilder.MoveToDocumentStart();
+docBuilder.CurrentParagraph.AppendChild(remarkOne);
+
+//ExStep:3-
+Comment remarkTwo = new Comment(document, "Dave", "D", DateTime.Now);
+remarkTwo.SetText("Further clarification required.");
+docBuilder.MoveToDocumentEnd();
+docBuilder.CurrentParagraph.AppendChild(remarkTwo);
+
+//ExStep:4-
+Style brandCommentStyle = document.Styles.Add(StyleType.Paragraph, "BrandComment");
+brandCommentStyle.Font.Name = "Arial";
+brandCommentStyle.Font.Size = 10;
+brandCommentStyle.Font.Color = Color.DarkBlue;
+brandCommentStyle.Font.Bold = true;
+
+//ExStep:5-
+var allComments = document.GetChildNodes(NodeType.Comment, true)
+                                 .OfType<Comment>()
+                                 .ToList();
+
+//ExStep:6-
+foreach (Comment commentNode in allComments)
+{
+    if (commentNode.Paragraphs.Count == 0)
+        commentNode.EnsureMinimum();
+
+    foreach (Paragraph para in commentNode.Paragraphs)
+    {
+        para.ParagraphFormat.Style = brandCommentStyle;
+    }
+}
+
+//ExStep:7-
+string resultFolder = Path.Combine(Directory.GetCurrentDirectory(), "Results");
+Directory.CreateDirectory(resultFolder);
+string resultFile = Path.Combine(resultFolder, "StyledCommentsDocument.docx");
+document.Save(resultFile);
+//ExEnd

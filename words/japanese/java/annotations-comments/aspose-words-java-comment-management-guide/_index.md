@@ -50,12 +50,12 @@ Java でコメントを追加することは、`Comment` ノードを作成し�
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 **Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 #### ライセンス取得
 Aspose.Words は商用製品です。30 日間の無料トライアルで開始するか、評価用に一時ライセンスをリクエストできます。詳細は [purchase page](https://purchase.aspose.com/buy) をご覧ください。
@@ -70,20 +70,20 @@ Aspose.Words は商用製品です。30 日間の無料トライアルで開始�
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
-```
+```  
 
 **Step 2:** コメントの作成と追加  
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **Step 3:** コメントへの返信の追加  
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
-```
+```  
 
 ### 機能 2: すべてのコメントを印刷
 **Overview** – すべてのトップレベルコメントとその返信を取得してレビューします。
@@ -92,7 +92,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
 **Step 1:** ドキュメントのロード  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
-```
+```  
 
 **Step 2:** コメントの取得と印刷  
 ```java
@@ -106,7 +106,7 @@ for (Comment comment : (Iterable<Comment>) comments) {
         }
     }
 }
-```
+```  
 
 ### 機能 3: Java でコメントの返信を削除する方法
 **Overview** – ドキュメントを整理するための **how to delete comment replies** を示します。
@@ -120,7 +120,7 @@ comment.setText("My comment.");
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
-```
+```  
 
 **Step 2:** 返信の削除  
 ```java
@@ -139,7 +139,7 @@ DocumentBuilder documentBuilder = new DocumentBuilder(document);
 documentBuilder.writeln("Hello world!");
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
-```
+```  
 
 **Step 2:** コメントを完了としてマーク  
 ```java
@@ -147,7 +147,7 @@ document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
 comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
-```
+```  
 
 ### 機能 5: コメントから UTC 日付と時刻を取得
 **Overview** – コメントが追加された正確な UTC タイムスタンプを取得し、監査ログに最適です。
@@ -161,7 +161,7 @@ Date dateTime = new Date();
 Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **Step 2:** 保存して UTC 日付を取得  
 ```java
@@ -169,7 +169,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
-```
+```  
 
 ## 実用的な応用例
 - **Collaborative Editing:** チームは生成されたレポートに直接コメントを追加し、返信できます。  

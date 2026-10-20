@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: 本教學示範如何建立 Word 文件、插入柱形圖、加入自訂資料系列，並定義預設的資料標籤字型大小與顏色，使其在圖表的所有系列中統一套用。
+//ExStepSummary:0: 建立一個新的空白 Word 文件，並使用 DocumentBuilder 進行編輯。
+//ExStepSummary:1: 在文件中插入一個 500×300 的柱形圖，並取得其 Chart 物件。
+//ExStepSummary:2: 移除 Aspose.Words 為新圖表自動加入的預設範例系列。
+//ExStepSummary:3: 定義類別標籤，並將兩個資料系列（Item Alpha 與 Item Beta）及其數值加入圖表。
+//ExStepSummary:4: 設定基礎字型大小與顏色，將套用於所有資料標籤。
+//ExStepSummary:5: 為每個系列啟用資料標籤、顯示數值，並套用預先定義的字型大小與顏色。
+//ExStepSummary:6: 將文件儲存為 .docx 檔案。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document document = new Document();
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:1-
+Shape chartContainer = builder.InsertChart(ChartType.Column, 500, 300);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+
+//ExStep:3-
+string[] periods = { "Period 1", "Period 2", "Period 3", "Period 4" };
+chart.Series.Add("Item Alpha", periods, new double[] { 120, 150, 170, 130 });
+chart.Series.Add("Item Beta", periods, new double[] { 80, 110, 140, 100 });
+
+//ExStep:4-
+const float labelFontSize = 10f;
+Color labelFontColor = Color.White;
+
+//ExStep:5-
+foreach (ChartSeries series in chart.Series)
+{
+    series.HasDataLabels = true;
+    series.DataLabels.ShowValue = true;
+    series.DataLabels.Font.Size = labelFontSize;
+    series.DataLabels.Font.Color = labelFontColor;
+}
+
+//ExStep:6-
+document.Save("UniformLabelChart.docx");
+//ExEnd

@@ -25,9 +25,7 @@ title: Téglalap alakzat létrehozása Wordben az Aspose.Words segítségével �
 url: /hu/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/
 ---
 
-quotes.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
