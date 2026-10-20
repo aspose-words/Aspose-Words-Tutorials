@@ -1,0 +1,7 @@
+Title: How to create a blank Word document and group shapes in Word using Aspose.Words
+Slug: how-to-create-a-blank-word-document-and-group-shapes-in-word
+Category: programming-with-shapes
+ProcessedDate: 2026-10-20T12:23:10.501437
+SourceRepo: AI Search API
+Keywords: create blank word document, group shapes in word, how to group shapes, set shape fill color, wrap type inline
+PRNumber: 331
