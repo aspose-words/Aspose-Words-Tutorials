@@ -74,6 +74,8 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Tekst samenvatten met AI in C# – Complete programmeergids](./summarize-text-with-ai-in-c-complete-programming-guide/) | Leer hoe u met Aspose.Words voor .NET en AI tekst in C# kunt samenvatten met een volledige programmeergids. |
 | [Document samenvatting maken met Aspose.Words & OpenAI](./create-document-summary-with-aspose-words-openai/) | Leer hoe u met Aspose.Words en OpenAI een beknopte samenvatting van documenten genereert. |
 | [Vertaal docx naar Frans met Aspose.Words en Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Leer hoe u docx-bestanden naar het Frans vertaalt met Aspose.Words en de Google Translate API. |
+| [Docx vertalen naar Frans met Aspose.Words.AI – Volledige gids](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Leer hoe u met Aspose.Words.AI docx-bestanden naar het Frans vertaalt voor nauwkeurige en snelle vertalingen. |
+| [Documentoverzicht maken in C# – Complete OpenAI-gids](./create-document-summary-in-c-complete-openai-guide/) | Leer hoe u met OpenAI en C# een samenvatting van een Word-document maakt met Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -74,6 +74,8 @@
 | [تلخيص النص باستخدام الذكاء الاصطناعي في C# – دليل برمجة كامل](./summarize-text-with-ai-in-c-complete-programming-guide/) | دليل شامل لتلخيص النصوص باستخدام الذكاء الاصطناعي في C# مع Aspose.Words، خطوات عملية لتطبيق النماذج بسهولة. |
 | [إنشاء ملخص مستند باستخدام Aspose.Words و OpenAI](./create-document-summary-with-aspose-words-openai/) | تعلم كيفية إنشاء ملخص مستند باستخدام Aspose.Words و OpenAI بفعالية وسهولة. |
 | [ترجمة ملف docx إلى الفرنسية باستخدام Aspose.Words و Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | تعلم كيفية ترجمة مستندات DOCX إلى الفرنسية باستخدام Aspose.Words وGoogle API بسهولة. |
+| [ترجمة ملف docx إلى الفرنسية باستخدام Aspose.Words.AI – دليل كامل](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | دليل شامل يوضح كيفية ترجمة مستندات DOCX إلى اللغة الفرنسية باستخدام Aspose.Words.AI خطوة بخطوة. |
+| [إنشاء ملخص مستند في C# – دليل OpenAI الكامل](./create-document-summary-in-c-complete-openai-guide/) | دليل شامل يوضح كيفية إنشاء ملخص مستند باستخدام OpenAI و Aspose.Words لـ .NET في C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

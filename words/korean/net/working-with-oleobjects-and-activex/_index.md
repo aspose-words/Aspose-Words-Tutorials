@@ -30,6 +30,7 @@ Aspose.Words for .NET 자습서에서는 OLE 및 ActiveX 개체를 사용한 워
 | [Word 파일에서 Active XControl 속성 읽기](./read-active-xcontrol-properties/) | Aspose.Words for .NET을 사용하여 Word 파일에서 ActiveX 컨트롤 속성을 읽는 방법을 단계별 가이드로 알아보세요. 문서 자동화 기술을 향상시키세요. |
 | [ActiveX 버튼으로 Word 문서 만들기 – C# 가이드](./create-word-document-with-activex-button-c-guide/) | Aspose.Words for .NET을 사용하여 ActiveX 버튼이 포함된 Word 문서를 C#으로 만드는 방법을 단계별 가이드로 알아보세요. |
 
+| [Aspose.Words를 사용한 워드 문서 만들기 버튼 – 전체 코드 예제](./create-word-document-button-with-aspose-words-full-code-exam/) | Aspose.Words를 이용해 워드 문서 생성 버튼을 구현하고 전체 코드를 확인하는 단계별 가이드 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

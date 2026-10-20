@@ -74,6 +74,8 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | [Překlad docx do francouzštiny pomocí Aspose.Words a Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Přeložte dokumenty DOCX do francouzštiny pomocí Aspose.Words a Google API. Jednoduchý návod pro rychlé a přesné překlady. |
 
 | [Shrnutí Word dokumentu v C# pomocí vlastního modelu GPT – Kompletní průvodce](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Naučte se, jak pomocí vlastního modelu GPT v C# automaticky shrnout Word dokumenty s Aspose.Words. |
+| [Překlad docx do francouzštiny s Aspose.Words.AI – Kompletní průvodce](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Naučte se, jak pomocí Aspose.Words.AI přeložit soubory DOCX do francouzštiny v několika krocích. |
+| [Vytvoření shrnutí dokumentu v C# – Kompletní průvodce OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Naučte se pomocí Aspose.Words a OpenAI vytvořit kompletní shrnutí dokumentu v C# během několika kroků. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

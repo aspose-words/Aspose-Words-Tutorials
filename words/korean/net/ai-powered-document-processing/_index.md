@@ -75,6 +75,8 @@
 | [Aspose.Words와 OpenAI로 문서 요약 만들기](./create-document-summary-with-aspose-words-openai/) | Aspose.Words for .NET과 OpenAI를 활용해 문서 요약을 구현하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words와 Google API로 DOCX를 프랑스어로 번역](./translate-docx-to-french-with-aspose-words-and-google-api/) | Aspose.Words와 Google 번역 API를 활용해 DOCX 파일을 프랑스어로 자동 변환하는 방법을 단계별로 안내합니다. |
 
+| [Aspose.Words.AI로 docx를 프랑스어로 번역하기 – 전체 가이드](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Aspose.Words for .NET을 활용해 docx 파일을 프랑스어로 번역하는 전체 가이드를 제공합니다. |
+| [C#로 문서 요약 만들기 – OpenAI 전체 가이드](./create-document-summary-in-c-complete-openai-guide/) | Aspose.Words for .NET과 OpenAI를 사용해 C#에서 문서 요약을 구현하는 전체 가이드입니다. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

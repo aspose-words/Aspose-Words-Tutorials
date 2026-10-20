@@ -30,6 +30,7 @@ Tyto tutoriály vám poskytnou praktický a podrobný přístup ke zpracování 
 | [Načíst vlastnosti ovládacího prvku Active XControl ze souboru aplikace Word](./read-active-xcontrol-properties/) | Naučte se, jak číst vlastnosti ovládacího prvku ActiveX ze souborů Wordu pomocí Aspose.Words pro .NET v podrobném návodu. Zlepšete si své dovednosti v automatizaci dokumentů. |
 | [Vytvořit dokument Word s tlačítkem ActiveX – průvodce C#](./create-word-document-with-activex-button-c-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET vytvořit dokument Word s tlačítkem ActiveX v C#. |
 
+| [Vytvořit tlačítko pro dokument Word s Aspose.Words – kompletní příklad kódu](./create-word-document-button-with-aspose-words-full-code-exam/) | Naučte se, jak pomocí Aspose.Words vytvořit tlačítko, které generuje dokument Word, s kompletním ukázkovým kódem. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

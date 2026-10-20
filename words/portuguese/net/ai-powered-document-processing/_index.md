@@ -74,6 +74,8 @@ Por fim, não se esqueça de conferir nosso [Trabalhando com opções de resumo]
 | [Resumir Texto com IA em C# – Guia de Programação Completo](./summarize-text-with-ai-in-c-complete-programming-guide/) | Aprenda a usar IA para resumir texto em C# com um guia passo a passo completo usando Aspose.Words. |
 | [Criar resumo de documento com Aspose.Words e OpenAI](./create-document-summary-with-aspose-words-openai/) | Aprenda a criar resumos de documentos usando Aspose.Words para .NET e os modelos da OpenAI. |
 | [Traduzir docx para francês com Aspose.Words e API do Google](./translate-docx-to-french-with-aspose-words-and-google-api/) | Aprenda a traduzir documentos DOCX para francês usando Aspose.Words para .NET e a API de tradução do Google. |
+| [Traduzir docx para francês com Aspose.Words.AI – Guia Completo](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Aprenda a traduzir documentos DOCX para francês usando Aspose.Words.AI com este guia passo a passo. |
+| [Criar Resumo de Documento em C# – Guia Completo da OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Aprenda a gerar resumos de documentos em C# usando a OpenAI e Aspose.Words com este guia passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

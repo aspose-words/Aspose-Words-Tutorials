@@ -74,6 +74,8 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Tóm tắt văn bản bằng AI trong C# – Hướng dẫn lập trình đầy đủ](./summarize-text-with-ai-in-c-complete-programming-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET và AI để tóm tắt văn bản trong C# một cách hiệu quả. |
 | [Tạo tóm tắt tài liệu với Aspose.Words & OpenAI](./create-document-summary-with-aspose-words-openai/) | Hướng dẫn tạo tóm tắt tài liệu Word bằng Aspose.Words và OpenAI, tích hợp AI để nhanh chóng nhận được nội dung cốt lõi. |
 | [Dịch tài liệu docx sang tiếng Pháp với Aspose.Words và Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Hướng dẫn dịch file Word sang tiếng Pháp bằng Aspose.Words và Google API, tích hợp AI nhanh chóng. |
+| [Dịch docx sang tiếng Pháp với Aspose.Words.AI – Hướng dẫn đầy đủ](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words.AI để dịch tài liệu Word (.docx) sang tiếng Pháp một cách nhanh chóng và chính xác. |
+| [Tạo bản tóm tắt tài liệu bằng C# – Hướng dẫn đầy đủ OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET và OpenAI để tạo bản tóm tắt tài liệu bằng C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

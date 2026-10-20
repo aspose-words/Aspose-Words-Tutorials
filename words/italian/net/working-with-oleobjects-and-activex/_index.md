@@ -29,6 +29,7 @@ Questi tutorial offrono un approccio pratico e passo dopo passo all'elaborazione
 | [Inserisci oggetto Ole come icona utilizzando Stream](./insert-ole-object-as-icon-using-stream/) | Scopri come inserire un oggetto OLE come icona utilizzando un flusso con Aspose.Words per .NET in questo tutorial dettagliato e passo dopo passo. |
 | [Leggi le proprietà di Active XControl dal file Word](./read-active-xcontrol-properties/) | Scopri come leggere le proprietà dei controlli ActiveX dai file Word utilizzando Aspose.Words per .NET in una guida passo passo. Migliora le tue competenze di automazione dei documenti. |
 | [Crea documento Word con pulsante ActiveX – Guida C#](./create-word-document-with-activex-button-c-guide/) | Scopri come creare un documento Word con un pulsante ActiveX usando C# e Aspose.Words per .NET in questa guida passo passo. |
+| [Crea pulsante documento Word con Aspose.Words – Esempio di codice completo](./create-word-document-button-with-aspose-words-full-code-exam/) | Scopri come creare un pulsante per generare documenti Word usando Aspose.Words con un esempio di codice completo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

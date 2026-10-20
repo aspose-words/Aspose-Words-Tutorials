@@ -62,6 +62,8 @@
 | [ตรวจสอบไวยากรณ์ Word ด้วย Aspose.Words AI – คู่มือฉบับสมบูรณ์](./check-word-grammar-with-aspose-words-ai-complete-guide/) | เรียนรู้วิธีใช้ Aspose.Words AI เพื่อตรวจสอบและแก้ไขไวยากรณ์ในเอกสาร Word อย่างแม่นยำและอัตโนมัติ |
 | [สร้างสรุปเอกสารด้วย Aspose.Words & OpenAI](./create-document-summary-with-aspose-words-openai/) | สร้างสรุปเอกสารอย่างมีประสิทธิภาพด้วย Aspose.Words สำหรับ .NET ร่วมกับโมเดล OpenAI เพื่อรับข้อมูลสำคัญอย่างรวดเร็ว -
 | [แปลไฟล์ docx เป็นภาษาฝรั่งเศสด้วย Aspose.Words และ Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | เรียนรู้วิธีใช้ Aspose.Words สำหรับ .NET ร่วมกับ Google API เพื่อแปลเอกสาร docx เป็นภาษาฝรั่งเศสอย่างแม่นยำ -
+| [แปลไฟล์ docx เป็นภาษาฝรั่งเศสด้วย Aspose.Words.AI – คู่มือเต็ม](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | เรียนรู้วิธีใช้ Aspose.Words.AI เพื่อแปลเอกสาร Word (.docx) เป็นภาษาฝรั่งเศสอย่างแม่นยำและรวดเร็วในขั้นตอนง่ายๆ -
+| [สร้างสรุปเอกสารใน C# – คู่มือ OpenAI ฉบับเต็ม](./create-document-summary-in-c-complete-openai-guide/) | เรียนรู้วิธีใช้ Aspose.Words สำหรับ .NET ร่วมกับ OpenAI เพื่อสร้างสรุปเอกสารใน C# อย่างครบถ้วน -
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

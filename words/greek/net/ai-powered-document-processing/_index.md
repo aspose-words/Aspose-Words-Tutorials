@@ -73,6 +73,8 @@
 | [Σύνοψη κειμένου με AI σε C# – Πλήρης οδηγός προγραμματισμού](./summarize-text-with-ai-in-c-complete-programming-guide/) | Μάθετε πώς να δημιουργείτε αυτόματες περιλήψεις κειμένου σε C# χρησιμοποιώντας AI με το Aspose.Words. |
 | [Δημιουργία σύνοψης εγγράφου με Aspose.Words & OpenAI](./create-document-summary-with-aspose-words-openai/) | Μάθετε πώς να δημιουργείτε σύνοψη εγγράφου χρησιμοποιώντας Aspose.Words για .NET σε συνδυασμό με τα μοντέλα του OpenAI. |
 | [Μετάφραση docx στα γαλλικά με Aspose.Words και Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Μάθετε πώς να μεταφράζετε αρχεία docx στα γαλλικά χρησιμοποιώντας Aspose.Words για .NET και το Google Translate API. |
+| [Μετάφραση docx στα γαλλικά με Aspose.Words.AI – Πλήρης Οδηγός](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Μάθετε πώς να μεταφράζετε αρχεία docx στα γαλλικά χρησιμοποιώντας το Aspose.Words.AI με βήμα-βήμα οδηγίες. |
+| [Δημιουργία σύνοψης εγγράφου σε C# – Πλήρης οδηγός OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Μάθετε πώς να δημιουργήσετε πλήρη σύνοψη εγγράφου σε C# χρησιμοποιώντας το OpenAI με το Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

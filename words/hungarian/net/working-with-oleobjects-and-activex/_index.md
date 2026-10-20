@@ -29,6 +29,8 @@ Ezek az oktatóanyagok gyakorlatias, lépésről lépésre bemutatják a szöveg
 | [Ole objektum beszúrása ikonként Stream használatával](./insert-ole-object-as-icon-using-stream/) | Tanuld meg, hogyan szúrhatsz be egy OLE objektumot ikonként egy adatfolyam használatával az Aspose.Words for .NET segítségével ebben a részletes, lépésről lépésre szóló útmutatóban. |
 | [Active XControl tulajdonságok beolvasása Word fájlból](./read-active-xcontrol-properties/) | Tanulja meg, hogyan olvashat ActiveX-vezérlők tulajdonságait Word-fájlokból az Aspose.Words for .NET segítségével egy lépésről szóló útmutatóban. Fejlessze dokumentumautomatizálási készségeit. |
 | [Word dokumentum létrehozása ActiveX gombbal – C# útmutató](./create-word-document-with-activex-button-c-guide/) | Tanulja meg, hogyan hozhat létre Word dokumentumot ActiveX gombbal az Aspose.Words for .NET C# használatával. |
+| [Word dokumentum gomb létrehozása Aspose.Words használatával – Teljes kódpélda](./create-word-document-button-with-aspose-words-full-code-exam/) | Ismerje meg, hogyan hozhat létre egy gombot, amely Word dokumentumot generál az Aspose.Words könyvtárral, teljes kódrészlettel. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

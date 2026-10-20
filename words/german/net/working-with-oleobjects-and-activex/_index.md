@@ -29,6 +29,7 @@ Diese Tutorials bieten Ihnen eine praktische Schritt-für-Schritt-Anleitung zur 
 | [OLE-Objekt als Symbol mithilfe von Stream einfügen](./insert-ole-object-as-icon-using-stream/) | Erfahren Sie in diesem ausführlichen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Words für .NET mithilfe eines Streams ein OLE-Objekt als Symbol einfügen. |
 | [Active XControl-Eigenschaften aus Word-Datei lesen](./read-active-xcontrol-properties/) | Erfahren Sie in einer Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET ActiveX-Steuerelementeigenschaften aus Word-Dateien lesen. Verbessern Sie Ihre Fähigkeiten zur Dokumentenautomatisierung. |
 | [Word-Dokument mit ActiveX-Button erstellen – C#-Leitfaden](./create-word-document-with-activex-button-c-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument mit einem ActiveX-Button in C# erstellen. |
+| [Word-Dokument-Schaltfläche mit Aspose.Words erstellen – Vollständiges Codebeispiel](./create-word-document-button-with-aspose-words-full-code-exam/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET eine Schaltfläche erstellen, die ein Word-Dokument generiert – vollständiges Codebeispiel. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -29,6 +29,7 @@
 | [Εισαγωγή αντικειμένου Ole ως εικονιδίου χρησιμοποιώντας τη ροή](./insert-ole-object-as-icon-using-stream/) | Μάθετε πώς να εισάγετε ένα αντικείμενο OLE ως εικονίδιο χρησιμοποιώντας μια ροή με το Aspose.Words για .NET σε αυτό το λεπτομερές, βήμα προς βήμα σεμινάριο. |
 | [Ανάγνωση ιδιοτήτων Active XControl από αρχείο Word](./read-active-xcontrol-properties/) | Μάθετε πώς να διαβάζετε ιδιότητες ελέγχου ActiveX από αρχεία Word χρησιμοποιώντας το Aspose.Words για .NET σε έναν αναλυτικό οδηγό. Βελτιώστε τις δεξιότητές σας στην αυτοματοποίηση εγγράφων. |
 | [Δημιουργία εγγράφου Word με κουμπί ActiveX – Οδηγός C#](./create-word-document-with-activex-button-c-guide/) | Μάθετε πώς να δημιουργήσετε έγγραφο Word με κουμπί ActiveX χρησιμοποιώντας C# και Aspose.Words για .NET. |
+| [Δημιουργία κουμπιού εγγράφου Word με Aspose.Words – Πλήρες Παράδειγμα Κώδικα](./create-word-document-button-with-aspose-words-full-code-exam/) | Μάθετε πώς να δημιουργήσετε ένα κουμπί που παράγει έγγραφο Word χρησιμοποιώντας το Aspose.Words, με πλήρες παράδειγμα κώδικα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
