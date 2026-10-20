@@ -88,6 +88,7 @@
 | [本機 LLM 教學 – 如何呼叫本機 LLM 並執行文法檢查](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) |學習如何在 Aspose.Words for .NET 中呼叫本機大型語言模型，執行文法檢查以提升文件品質。 |
 | [在 C# 中建立摘要報告 – 完整步驟指南](./create-summary-report-in-c-complete-step-by-step-guide/) |透過 Aspose.Words for .NET 在 C# 中一步步建立文件摘要報告，提升效率與精準度。 |
 | [建立自訂 AI 模型 – C# 文法檢查完整指南](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) |使用 Aspose.Words for .NET 與自訂 AI 模型在 C# 中實作文法檢查，提升文件品質的完整步驟指南。 |
+| [如何在 C# 中使用本地 LLM 重寫段落 – 完整指南](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) |使用 Aspose.Words for .NET 結合本地大型語言模型，在 C# 中重寫段落，提升內容品質與效率。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

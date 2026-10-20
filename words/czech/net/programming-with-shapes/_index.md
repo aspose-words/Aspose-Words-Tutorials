@@ -72,6 +72,7 @@ Používáním Aspose.Words pro .NET a podle těchto tutoriálů zvládnete mani
 | [Vytvořit obdélník ve Wordu – Přidat tvary do Wordu pomocí Aspose](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Naučte se, jak pomocí Aspose.Words přidat obdélníkový tvar do dokumentu Word. |
 | [Vytvořit prázdný dokument Word se skrytým eliptickým tvarem – kompletní průvodce C#](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Naučte se, jak vytvořit prázdný dokument Word a přidat do něj skrytý eliptický tvar pomocí Aspose.Words pro .NET v C#. |
 | [Jak přidat stín k tvarům ve Wordu – kompletní průvodce C#](./how-to-add-shadow-to-word-shapes-complete-c-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET v C# přidat stín k tvarům ve Wordu. |
+| [Jak nastavit stín na tvary v C# – Kompletní průvodce Aspose.Words](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) | Naučte se, jak nastavit stín pro tvary ve Wordu pomocí Aspose.Words pro .NET v C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

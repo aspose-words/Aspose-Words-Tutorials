@@ -84,6 +84,7 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | [Vytvořte souhrnnou zprávu v C# – Kompletní průvodce krok za krokem](./create-summary-report-in-c-complete-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET vytvořit souhrnnou zprávu v C# krok za krokem. |
 | [Lokální LLM tutoriál – Jak zavolat lokální LLM a spustit kontrolu gramatiky](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Naučte se, jak použít lokální LLM pro kontrolu gramatiky v dokumentech pomocí Aspose.Words. |
 | [Vytvořte vlastní AI model – Kompletní průvodce kontrolou gramatiky v C#](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | Naučte se, jak vytvořit a nasadit vlastní AI model pro kontrolu gramatiky v C# pomocí Aspose.Words. |
+| [Jak přepsat odstavec pomocí lokálního LLM v C# – Kompletní průvodce](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Naučte se, jak pomocí lokálního modelu LLM v C# přepsat odstavec a vylepšit text v Aspose.Words. |
 
 | [Shrnutí Word dokumentu v C# pomocí vlastního modelu GPT – Kompletní průvodce](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Naučte se, jak pomocí vlastního modelu GPT v C# automaticky shrnout Word dokumenty s Aspose.Words. |
 | [Překlad docx do francouzštiny s Aspose.Words.AI – Kompletní průvodce](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Naučte se, jak pomocí Aspose.Words.AI přeložit soubory DOCX do francouzštiny v několika krocích. |

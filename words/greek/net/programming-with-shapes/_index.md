@@ -73,6 +73,7 @@
 | [Εισαγωγή σχήματος ορθογωνίου σε C# με Aspose.Words – οδηγός βήμα‑βήμα](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | Μάθετε πώς να δημιουργήσετε σχήμα ορθογωνίου σε C# χρησιμοποιώντας Aspose.Words, βήμα προς βήμα. |
 | [Πώς να ομαδοποιήσετε σχήματα σε έγγραφο Word με C#](./how-to-group-shapes-in-a-word-document-with-c/) | Μάθετε πώς να ομαδοποιείτε σχήματα σε έγγραφο Word χρησιμοποιώντας C# και Aspose.Words. |
 | [Πώς να προσθέσετε σκιά σε σχήματα Word – Πλήρης οδηγός C#](./how-to-add-shadow-to-word-shapes-complete-c-guide/) | Μάθετε πώς να προσθέσετε σκιά σε σχήματα Word με C# και Aspose.Words σε αναλυτικό βήμα‑βήμα οδηγό. |
+| [Πώς να ορίσετε σκιά σε σχήματα σε C# – Πλήρης οδηγός Aspose.Words](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) | Μάθετε πώς να προσθέσετε σκιά σε σχήματα Word χρησιμοποιώντας το Aspose.Words για .NET με C# σε αυτόν τον πλήρη οδηγό. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

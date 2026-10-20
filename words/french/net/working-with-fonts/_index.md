@@ -88,6 +88,7 @@ Que vous souhaitiez formater du texte avec différentes polices, définir des r�
 | [Comment détecter les polices dans Aspose.Words – Guide complet](./how-to-detect-fonts-in-aspose-words-complete-guide/) | Apprenez à détecter les polices utilisées dans un document Word avec Aspose.Words pour .NET grâce à ce guide complet étape par étape. |
 | [Comment détecter la substitution dans Aspose.Words – Gérer les polices manquantes](./how-to-detect-substitution-in-aspose-words-handle-missing-fo/) | Apprenez à détecter la substitution de polices et à gérer les polices manquantes avec Aspose.Words pour .NET. |
 | [Comment utiliser IWarningCallback – Détecter les polices manquantes avec Aspose.Words](./how-to-use-iwarningcallback-detect-missing-fonts-with-aspose/) | Apprenez à implémenter IWarningCallback pour détecter les polices manquantes dans vos documents Word avec Aspose.Words pour .NET. |
+| [Enregistrer un DOCX en PDF et détecter les polices manquantes avec Aspose.Words](./save-docx-as-pdf-detect-missing-fonts-using-aspose-words/) | Apprenez à convertir un DOCX en PDF tout en détectant les polices manquantes avec Aspose.Words pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

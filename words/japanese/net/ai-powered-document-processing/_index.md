@@ -85,6 +85,7 @@
 | [ローカル LLM チュートリアル – ローカル LLM を呼び出して文法チェックを実行する方法](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) Aspose.Words for .NET とローカル LLM を組み合わせ、文書の文法チェックを自動化する手順を学びます。 |
 | [C#で要約レポートを作成 – 完全ステップバイステップガイド](./create-summary-report-in-c-complete-step-by-step-guide/) Aspose.Words for .NET を使用して、C#で文書要約レポートを作成する完全な手順を学びます。 |
 | [カスタム AI モデルの作成 – C# における文法チェックの完全ガイド](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) Aspose.Words for .NET とカスタム AI モデルを組み合わせ、C# で文法チェックを実装する手順を詳しく解説します。 |
+| [C# でローカル LLM を使用して段落を書き換える完全ガイド](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) Aspose.Words for .NET とローカル LLM を組み合わせ、C# で段落を書き換える手順をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

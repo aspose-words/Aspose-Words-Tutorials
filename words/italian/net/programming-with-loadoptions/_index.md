@@ -80,6 +80,7 @@ In questi tutorial imparerai come utilizzare LoadOptions per caricare documenti 
 | [Imposta callback di avviso Aspose – Guida completa per il caricamento di documenti Word](./set-warning-callback-aspose-complete-guide-for-word-document/) | Scopri come impostare e gestire i callback di avviso durante il caricamento di documenti Word con Aspose.Words per .NET, passo passo. |
 | [Come recuperare docx con Aspose.Words – Guida completa](./how-to-recover-docx-with-aspose-words-full-guide/) | Scopri come recuperare file DOCX corrotti usando Aspose.Words per .NET con una guida completa passo passo. |
 | [Recupera DOCX corrotto – Guida completa per riparare e caricare file Word danneggiati](./recover-corrupted-docx-complete-guide-to-fixing-and-loading/) | Scopri come riparare e caricare file DOCX corrotti con una guida completa passo passo. |
+| [Recupera documento Word corrotto usando Aspose.Words C#](./recover-corrupted-word-document-using-aspose-words-c/) | Scopri come recuperare documenti Word corrotti con Aspose.Words per .NET in C#, passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

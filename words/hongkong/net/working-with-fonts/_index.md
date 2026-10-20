@@ -85,6 +85,7 @@
 | [如何在 C# 中偵測字體 – 完整指南](./how-to-detect-fonts-in-c-complete-guide/) |透過本完整指南了解如何在 C# 中使用 Aspose.Words 偵測字體，適合開發人員。 |
 | [使用 FontSettings 處理缺失字體](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) |了解如何在 Aspose.Words for .NET 中使用 FontSettings 來偵測並處理缺少的字體。 |
 | [如何在 .NET 中載入字體 – 設定字體設定與警告](./how-to-load-fonts-in-net-set-font-settings-warnings/) |了解如何在 Aspose.Words for .NET 中載入字體、設定字體選項並處理相關警告。 |
+| [使用 Aspose.Words 將 docx 另存為 pdf 並偵測缺失字型](./save-docx-as-pdf-detect-missing-fonts-using-aspose-words/) |本教學示範如何使用 Aspose.Words for .NET 將 DOCX 轉換為 PDF，並在過程中偵測缺失的字型。 |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

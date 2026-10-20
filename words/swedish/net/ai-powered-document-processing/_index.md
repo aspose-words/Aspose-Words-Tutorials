@@ -87,6 +87,7 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Lokal LLM-handledning – Hur man anropar en lokal LLM och kör grammatikkontroll](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Lär dig att integrera en lokal LLM för att utföra grammatikkontroller i dina dokument med Aspose.Words. |
 | [Skapa sammanfattningsrapport i C# – Komplett steg‑för‑steg‑guide](./create-summary-report-in-c-complete-step-by-step-guide/) | Lär dig att skapa en sammanfattningsrapport i C# med Aspose.Words genom en komplett steg‑för‑steg‑guide. |
 | [Skapa anpassad AI-modell – Fullständig guide till grammatikkontroll i C#](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | Lär dig att bygga en egen AI-modell för grammatikkontroll i C# med Aspose.Words för .NET. |
+| [Hur man skriver om stycke med en lokal LLM i C# – Komplett guide](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Lär dig att omformulera stycken med en lokal LLM i C# med Aspose.Words för .NET i en steg-för-steg-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

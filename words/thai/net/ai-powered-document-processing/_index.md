@@ -42,6 +42,7 @@
 | [การทำงานกับโมเดล AI ของ Google](./working-with-google-ai-model/) ยกระดับการประมวลผลเอกสารของคุณด้วย Aspose.Words สำหรับ .NET และ Google AI เพื่อสร้างบทสรุปสั้นๆ ได้โดยไม่ต้องใช้ความพยายาม -
 | [การทำงานกับโมเดล AI แบบเปิด](./working-with-open-ai-model/) | ปลดล็อกการสรุปเอกสารอย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ .NET พร้อมด้วยโมเดลอันทรงพลังของ OpenAI เจาะลึกคู่มือฉบับสมบูรณ์นี้เลยตอนนี้ -
 | [การทำงานกับตัวเลือกการสรุป](./working-with-summarize-options/) | เรียนรู้การสรุปเอกสาร Word ได้อย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนในการบูรณาการโมเดล AI เพื่อรับข้อมูลเชิงลึกอย่างรวดเร็ว -
+- [วิธีตรวจสอบไวยากรณ์ด้วย LLM ภายในเครื่องใน C#](./how-to-check-grammar-with-a-local-llm-in-c/) | เรียนรู้วิธีใช้ LLM ภายในเครื่องกับ Aspose.Words สำหรับ .NET เพื่อตรวจสอบและแก้ไขไวยากรณ์ในเอกสาร C# อย่างมีประสิทธิภาพ -
 | [สรุปเอกสาร Word ด้วย C# – คู่มือเต็มรูปแบบที่ขับเคลื่อนด้วย AI](./summarize-word-document-in-c-complete-ai-powered-guide/) | เรียนรู้วิธีสรุปไฟล์ Word ด้วย C# โดยใช้ AI อย่างเต็มที่ในคู่มือขั้นตอนเดียว -
 | [วิธีตรวจสอบไวยากรณ์ใน Word ด้วย Aspose.Words AI – คู่มือฉบับสมบูรณ์](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | เรียนรู้วิธีใช้ Aspose.Words AI เพื่อตรวจสอบและแก้ไขไวยากรณ์ในเอกสาร Word อย่างแม่นยำและอัตโนมัติ -
 | [วิธีตรวจสอบไวยากรณ์ใน C# ด้วย LLM ภายในเครื่อง](./how-to-check-grammar-in-c-using-a-local-llm/) | เรียนรู้วิธีใช้ LLM ภายในเครื่องตรวจสอบไวยากรณ์โค้ด C# ของคุณอย่างแม่นยำด้วย Aspose.Words -
@@ -75,6 +76,7 @@
 | [สร้างรายงานสรุปใน C# – คู่มือเต็มขั้นตอน](./create-summary-report-in-c-complete-step-by-step-guide/) | เรียนรู้วิธีสร้างรายงานสรุปใน C# ด้วย Aspose.Words อย่างละเอียดและง่ายดาย |
 | [บทแนะนำ Local LLM – วิธีเรียกใช้ Local LLM และทำการตรวจสอบไวยากรณ์](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | เรียนรู้วิธีเชื่อมต่อและใช้ Local LLM กับ Aspose.Words เพื่อทำการตรวจสอบไวยากรณ์ของเอกสารอย่างมีประสิทธิภาพ |
 | [สร้างโมเดล AI กำหนดเอง – คู่มือเต็มสำหรับการตรวจสอบไวยากรณ์ใน C#](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | เรียนรู้วิธีสร้างโมเดล AI ของคุณเองใน C# เพื่อการตรวจสอบไวยากรณ์อัตโนมัติด้วย Aspose.Words |
+| [วิธีเขียนใหม่ย่อหน้าด้วย LLM ท้องถิ่นใน C# – คู่มือฉบับสมบูรณ์](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | เรียนรู้วิธีใช้ LLM ท้องถิ่นใน C# เพื่อเขียนใหม่ย่อหน้าอย่างมีประสิทธิภาพด้วย Aspose.Words - |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

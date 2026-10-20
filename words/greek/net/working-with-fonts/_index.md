@@ -95,6 +95,9 @@
 | [Πώς να φορτώσετε γραμματοσειρές σε .NET – Ορισμός ρυθμίσεων γραμματοσειράς & προειδοποιήσεων](./how-to-load-fonts-in-net-set-font-settings-warnings/) | Μάθετε πώς να φορτώνετε γραμματοσειρές σε .NET, να ορίζετε ρυθμίσεις γραμματοσειράς και να διαχειρίζεστε προειδοποιήσεις με το Aspose.Words για .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+| [Αποθήκευση docx ως pdf & ανίχνευση ελλιπών γραμματοσειρών χρησιμοποιώντας το Aspose.Words](./save-docx-as-pdf-detect-missing-fonts-using-aspose-words/) | Μάθετε πώς να αποθηκεύετε αρχεία docx ως pdf και να εντοπίζετε ελλιπείς γραμματοσειρές με το Aspose.Words για .NET. |
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

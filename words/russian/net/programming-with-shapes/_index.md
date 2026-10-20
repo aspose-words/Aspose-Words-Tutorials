@@ -72,6 +72,7 @@
 | [Как скрыть форму в Word с помощью C# – пошаговое руководство](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Узнайте, как скрыть фигуру в документе Word с помощью C# в этом пошаговом руководстве. |
 | [Как группировать фигуры в Word и добавлять фигуры в документ Word](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Узнайте, как группировать фигуры и добавлять их в документы Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 | [Как добавить тень к фигурам Word – Полное руководство C#](./how-to-add-shadow-to-word-shapes-complete-c-guide/) | Узнайте, как добавить тень к фигурам в Word с помощью Aspose.Words для .NET в полном руководстве на C#. |
+| [Как установить тень для фигур в C# – Полное руководство Aspose.Words](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) | Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

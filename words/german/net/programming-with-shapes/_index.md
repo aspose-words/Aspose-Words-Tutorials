@@ -73,6 +73,7 @@ Mit Aspose.Words für .NET und diesen Tutorials meistern Sie die Bearbeitung von
 | [Form in Word mit C# ausblenden – Schritt‑für‑Schritt‑Anleitung](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Formen in Word-Dokumenten programmgesteuert ausblenden. |
 | [Formen in einem Word-Dokument mit C# gruppieren](./how-to-group-shapes-in-a-word-document-with-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Formen in einem Word-Dokument gruppieren. |
 | [Schatten zu Word-Formen hinzufügen – Vollständige C#‑Anleitung](./how-to-add-shadow-to-word-shapes-complete-c-guide/) | Lernen Sie, wie Sie mit Aspose.Words für .NET in C# Schatten zu Word-Formen hinzufügen und visuelle Effekte erzeugen. |
+| [Wie man Schatten auf Formen in C# setzt – Vollständiger Aspose.Words Leitfaden](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) | Lernen Sie Schritt für Schritt, wie Sie mit Aspose.Words für .NET in C# Schatten zu Formen hinzufügen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

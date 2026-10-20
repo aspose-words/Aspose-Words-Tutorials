@@ -74,6 +74,7 @@ Egal, ob Sie Text mit unterschiedlichen Schriftarten formatieren, Regeln für di
 | [Wie man Schriftarten in .NET handhabt – fehlende Schriftarten erkennen](./how-to-handle-fonts-in-net-detect-missing-fonts/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET fehlende Schriftarten in Ihren Dokumenten erkennen und behandeln. |
 | [Schriftwarnungen in Aspose.Words aktivieren – Vollständige C#-Anleitung](./enable-font-warnings-in-aspose-words-complete-c-guide/) | Erfahren Sie, wie Sie Schriftwarnungen in Aspose.Words für .NET aktivieren und verwalten – vollständige C#-Anleitung. |
 | [Schriftarten in C# erkennen – Komplettanleitung](./how-to-detect-fonts-in-c-complete-guide/) | Erfahren Sie in einer Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.Words für .NET Schriftarten in C# erkennen und verwalten. |
+| [DOCX als PDF speichern & fehlende Schriftarten mit Aspose.Words erkennen](./save-docx-as-pdf-detect-missing-fonts-using-aspose-words/) | Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Words für .NET ein DOCX in PDF konvertieren und fehlende Schriftarten erkennen. |
 
 | [Umgang mit fehlenden Schriftarten in C# mit Aspose.Words – Komplettanleitung](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) | Erfahren Sie, wie Sie fehlende Schriftarten in C# mit Aspose.Words erkennen und behandeln. |
 | [Schriftartwarnungen in C# erfassen – Komplettanleitung](./capture-font-warnings-in-c-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Schriftartwarnungen in C# erfassen und verarbeiten. |

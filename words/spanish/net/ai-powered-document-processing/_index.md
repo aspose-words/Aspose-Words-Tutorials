@@ -88,6 +88,7 @@ Por último, no olvides visitar nuestra [Trabajar con opciones de resumen](./wor
 | [Tutorial LLM local – Cómo llamar a un LLM local y ejecutar una corrección gramatical](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Aprenda a integrar un LLM local con Aspose.Words para .NET y realizar correcciones gramaticales en sus documentos. |
 | [Crear informe de resumen en C# – Guía completa paso a paso](./create-summary-report-in-c-complete-step-by-step-guide/) | Aprenda a generar informes resumidos en C# con Aspose.Words, siguiendo una guía detallada paso a paso. |
 | [Crear modelo de IA personalizado – Guía completa para la corrección gramatical en C#](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | Aprenda a crear y entrenar su propio modelo de IA para corregir gramática en documentos Word usando Aspose.Words y C#. |
+| [Cómo reescribir un párrafo con un LLM local en C# – Guía completa](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Aprenda a usar un modelo de lenguaje local en C# para reescribir párrafos automáticamente con Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

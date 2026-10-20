@@ -86,6 +86,7 @@
 | [Подстановка шрифтов Aspose – Обнаружение отсутствующих шрифтов в документах Word](./aspose-font-substitution-detect-missing-fonts-in-word-docume/) | Узнайте, как обнаружить отсутствующие шрифты в документах Word с помощью Aspose Font Substitution. |
 | [Как использовать IWarningCallback – обнаружение отсутствующих шрифтов с Aspose.Words](./how-to-use-iwarningcallback-detect-missing-fonts-with-aspose/) | Узнайте, как использовать IWarningCallback для обнаружения отсутствующих шрифтов в Aspose.Words. |
 | [Как загрузить шрифты в .NET – Настройка параметров шрифта и предупреждений](./how-to-load-fonts-in-net-set-font-settings-warnings/) | Узнайте, как загружать шрифты в .NET, настраивать параметры шрифтов и получать предупреждения в Aspose.Words для .NET. |
+| [Сохранить DOCX как PDF и обнаружить отсутствующие шрифты с помощью Aspose.Words](./save-docx-as-pdf-detect-missing-fonts-using-aspose-words/) | Узнайте, как сохранить документ DOCX в PDF и обнаружить недостающие шрифты, используя Aspose.Words для .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

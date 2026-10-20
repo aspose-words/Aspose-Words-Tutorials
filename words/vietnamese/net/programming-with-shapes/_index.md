@@ -73,6 +73,7 @@ Bằng cách sử dụng Aspose.Words cho .NET và làm theo các hướng dẫn
 | [Lưu tệp docx với các hình dạng nhóm trong Word bằng C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Hướng dẫn lưu tài liệu Word chứa các hình dạng nhóm bằng C# và Aspose.Words. |
 | [cách ẩn hình dạng trong Word bằng C# – hướng dẫn từng bước](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Tìm hiểu cách ẩn một hình dạng trong tài liệu Word bằng Aspose.Words cho .NET và C# qua hướng dẫn chi tiết từng bước. |
 | [Cách nhóm các hình dạng trong Word và thêm hình dạng vào tài liệu Word](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Hướng dẫn cách nhóm và chèn hình dạng vào tài liệu Word bằng Aspose.Words cho .NET. |
+| [Cách thiết lập bóng đổ cho hình dạng trong C# – Hướng dẫn đầy đủ Aspose.Words](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) | Hướng dẫn chi tiết cách thêm bóng đổ cho hình dạng trong tài liệu Word bằng Aspose.Words cho .NET và C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

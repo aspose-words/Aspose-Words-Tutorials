@@ -43,6 +43,7 @@ Aspose.Words for .NET を使い、これらのチュートリアルに従うこ�
 | [Aspose.Words 図形の影チュートリアル – C# で Word 図形に影を追加](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) このチュートリアルでは、Aspose.Words for .NET を使用して C# で Word 図形に影効果を適用する方法をステップバイステップで解説します。 |
 | [C# で Word の図形に影を追加する方法 – 完全ガイド](./how-to-add-shadow-to-word-shapes-in-c-complete-guide/) Aspose.Words for .NET と C# を使用して、Word 図形に影効果を適用する手順をステップバイステップで解説します。 |
 | [C# を使用して Word で図形を非表示にする – ステップバイステップ ガイド](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) C# を使用して Word 文書内の図形を非表示にする方法をステップバイステップで解説します。 |
+| [C# で図形に影を設定する方法 – 完全な Aspose.Words ガイド](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) Aspose.Words for .NET と C# を使用して、Word 文書の図形に影効果を追加する手順をステップバイステップで解説します。 |
 | [影付き長方形シェイプで空白の Word 文書を作成 – ステップバイステップ ガイド](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) Aspose.Words for .NET を使用して、影付き長方形シェイプを持つ空白の Word 文書を作成する手順を解説します。 |
 | [C# で図形に影を追加 – 影効果を適用する完全ガイド](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) Aspose.Words for .NET を使用して、C# で図形に影効果を適用する方法をステップバイステップで解説します。 |
 | [C# で図形の影を編集する方法 – Aspose.Words ステップバイステップ ガイド](./how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/) Aspose.Words for .NET を使用して、C# で図形の影を編集する方法をステップバイステップで解説します。 |

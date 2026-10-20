@@ -85,6 +85,7 @@ Che tu voglia formattare il testo con diversi font, impostare regole di sostituz
 | [Come rilevare i font in C# – Guida completa](./how-to-detect-fonts-in-c-complete-guide/) | Scopri come rilevare i font presenti in un documento o nel sistema usando Aspose.Words per .NET con C# in questa guida completa. |
 | [Sostituzione dei Font Aspose – Rileva i Font Mancanti nei Documenti Word](./aspose-font-substitution-detect-missing-fonts-in-word-docume/) | Scopri come rilevare i font mancanti nei documenti Word usando la sostituzione dei font di Aspose. |
 | [Come utilizzare IWarningCallback – Rilevare i font mancanti con Aspose.Words](./how-to-use-iwarningcallback-detect-missing-fonts-with-aspose/) | Scopri come implementare IWarningCallback per individuare i font mancanti nei documenti Word con Aspose.Words per .NET. |
+| [Salva docx come pdf e rileva i font mancanti usando Aspose.Words](./save-docx-as-pdf-detect-missing-fonts-using-aspose-words/) | Scopri come convertire un documento DOCX in PDF e individuare i font mancanti con Aspose.Words per .NET in questa guida passo passo. |
 
 | [Come utilizzare FontSettings per gestire i font mancanti in Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | Scopri come gestire i font mancanti con FontSettings in Aspose.Words per .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}

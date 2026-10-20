@@ -87,6 +87,7 @@
 | [स्थानीय LLM ट्यूटोरियल – स्थानीय LLM को कॉल करना और व्याकरण जांच चलाना](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | स्थानीय LLM को कैसे कॉल करें और Aspose.Words के साथ व्याकरण जांच लागू करें। |
 | [C# में सारांश रिपोर्ट बनाना – पूर्ण चरण‑दर‑चरण गाइड](./create-summary-report-in-c-complete-step-by-step-guide/) | C# में Aspose.Words का उपयोग करके संपूर्ण सारांश रिपोर्ट बनाने की विस्तृत प्रक्रिया सीखें। |
 | [कस्टम AI मॉडल बनाएं – C# में व्याकरण जांच के लिए पूर्ण गाइड](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | C# में कस्टम AI मॉडल बनाकर व्याकरण जांच कैसे करें, इस पूर्ण गाइड में सीखें। |
+| [C# में स्थानीय LLM के साथ पैराग्राफ को पुनर्लेखन कैसे करें – पूर्ण गाइड](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | C# में स्थानीय बड़े भाषा मॉडल का उपयोग करके पैराग्राफ को पुनर्लेखित करने की पूरी प्रक्रिया सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

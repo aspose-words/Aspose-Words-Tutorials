@@ -88,6 +88,7 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Hướng dẫn LLM cục bộ – Cách gọi LLM cục bộ và chạy kiểm tra ngữ pháp](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Hướng dẫn cách gọi LLM cục bộ và thực hiện kiểm tra ngữ pháp bằng Aspose.Words. |
 | [Tạo báo cáo tóm tắt bằng C# – Hướng dẫn chi tiết từng bước](./create-summary-report-in-c-complete-step-by-step-guide/) | Hướng dẫn toàn diện tạo báo cáo tóm tắt tài liệu bằng C# với Aspose.Words, từng bước cụ thể và dễ hiểu. |
 | [Tạo mô hình AI tùy chỉnh – Hướng dẫn đầy đủ kiểm tra ngữ pháp trong C#](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | Hướng dẫn chi tiết cách tạo mô hình AI tùy chỉnh để kiểm tra ngữ pháp trong tài liệu Word bằng C# và Aspose.Words. |
+| [Cách viết lại đoạn văn bằng LLM cục bộ trong C# – Hướng dẫn đầy đủ](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET và LLM cục bộ để viết lại đoạn văn trong C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

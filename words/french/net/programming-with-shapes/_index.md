@@ -71,6 +71,7 @@ En utilisant Aspose.Words pour .NET et en suivant ces tutoriels, vous maîtriser
 | [Comment masquer une forme dans Word en C# – guide étape par étape](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Apprenez à masquer une forme dans un document Word avec Aspose.Words pour .NET en C# grâce à ce guide détaillé. |
 | [Insérer une forme rectangulaire en C# avec Aspose.Words – guide étape par étape](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | Apprenez à insérer et personnaliser une forme rectangulaire dans un document Word en C# avec Aspose.Words, guide complet pas à pas. |
 | [Comment ajouter une ombre aux formes Word – Guide complet C#](./how-to-add-shadow-to-word-shapes-complete-c-guide/) | Apprenez à ajouter une ombre aux formes Word avec Aspose.Words pour .NET en C# grâce à ce guide complet étape par étape. |
+| [Comment ajouter une ombre aux formes en C# – Guide complet Aspose.Words](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) | Apprenez à appliquer une ombre aux formes dans Word avec Aspose.Words pour .NET en C# grâce à ce guide complet étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

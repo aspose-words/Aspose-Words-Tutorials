@@ -88,6 +88,7 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [Lokales LLM-Tutorial – Aufruf eines lokalen LLM und Durchführung einer Grammatikprüfung](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Erfahren Sie, wie Sie ein lokales LLM einbinden und damit Grammatikprüfungen in Aspose.Words für .NET durchführen. |
 | [Erstellen Sie einen Zusammenfassungsbericht in C# – Komplett‑Anleitung Schritt für Schritt](./create-summary-report-in-c-complete-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET in C# vollständige Zusammenfassungsberichte Schritt für Schritt erstellen. |
 | [Erstellen eines benutzerdefinierten KI-Modells – Vollständige Anleitung zur Grammatikprüfung in C#](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein benutzerdefiniertes KI‑Modell zur Grammatikprüfung in C# erstellen und integrieren. |
+| [Wie man einen Absatz mit einem lokalen LLM in C# umschreibt – Komplettanleitung](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und einem lokalen LLM Absätze in C# umschreiben. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
