@@ -75,6 +75,7 @@ In deze tutorials leert u hoe u LoadOptions kunt gebruiken om Word-documenten me
 | [Hoe een DOCX te herstellen met Aspose.Words – Stapsgewijze handleiding](./how-to-recover-docx-with-aspose-words-step-by-step-guide/) | Leer hoe u beschadigde DOCX-bestanden kunt herstellen met Aspose.Words in een stapsgewijze handleiding. |
 | [Herstel beschadigd Word-bestand en toon herstelmodus in C#](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | Leer hoe u een beschadigd Word-bestand kunt herstellen en de herstelmodus in C# kunt weergeven met Aspose.Words voor .NET. |
 | [Waarschuwingen vastleggen in C# – Ontbrekende lettertypen detecteren en substitutie loggen](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) | Leer hoe u waarschuwingen voor ontbrekende lettertypen detecteert en vervangingsacties logt met Aspose.Words voor .NET in C#. |
+| [Herstel beschadigde DOCX – Complete C#-gids om bestanden te repareren en op te slaan](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) | Leer hoe u beschadigde DOCX-bestanden kunt herstellen en opslaan met een volledige C#-handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

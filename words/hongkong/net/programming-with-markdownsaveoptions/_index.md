@@ -115,6 +115,7 @@
 | [將 Word 儲存為 Markdown – 完整 C# 指南（匯出 Word 圖像）](./save-word-as-markdown-complete-c-guide-to-export-word-images/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 Word 文件匯出為 Markdown，並提取並匯出其中的圖像，提供完整步驟與範例程式碼。 |
 | [將 DOCX 轉換為 Markdown – 從 DOCX 中提取圖像 (使用 Aspose.Words)](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/) |示篯如何使用 Aspose.Words for .NET 將 DOCX 轉換為 Markdown，並提取圖像。 |
 | [將 Word 轉換為 Markdown – 完整指南，含 PDF/UA 匯出](./convert-word-to-markdown-full-guide-with-pdf-ua-export/) |示範如何使用 Aspose.Words for .NET 將 Word 文件轉換為 Markdown，並同時匯出符合 PDF/UA 標準的 PDF。 |
+| [將 Word 儲存為 Markdown 並自訂圖像資料夾 – 完整指南](./save-word-as-markdown-with-custom-image-folder-full-guide/) |示範如何使用 Aspose.Words for .NET 將 Word 文件匯出為 Markdown，並將圖像儲存至自訂資料夾的完整步驟與範例程式碼。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

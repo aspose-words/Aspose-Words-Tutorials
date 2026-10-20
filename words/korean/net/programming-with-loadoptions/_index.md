@@ -74,6 +74,7 @@ Aspose.Words for .NET 튜토리얼은 LoadOptions를 사용하여 워드 프로�
 | [C#에서 Aspose.Words를 사용한 글꼴 대체 경고 활성화](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Aspose.Words for .NET에서 C#을 사용해 글꼴 대체 경고를 활성화하는 방법을 단계별로 안내합니다. |
 | [DOCX 복구 방법 – 손상된 워드 파일을 단계별로 복구하는 가이드](./how-to-recover-docx-step-by-step-guide-to-fix-corrupted-word/) | Aspose.Words for .NET을 사용하여 손상된 DOCX 파일을 복구하는 단계별 절차를 안내합니다. |
 | [C#에서 손상된 Word 파일 복구 및 복구 모드 표시](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | Aspose.Words for .NET을 사용해 손상된 Word 파일을 복구하고 복구 모드를 표시하는 방법을 단계별로 안내합니다. |
+| [손상된 DOCX 복구 – 파일을 수정하고 저장하는 완전한 C# 가이드](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) | Aspose.Words for .NET을 활용해 손상된 DOCX 파일을 복구하고 저장하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

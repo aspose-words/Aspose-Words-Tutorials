@@ -280,6 +280,10 @@ Leer hoe u afbeeldingen uit een DOCX haalt en het document naar Markdown convert
 
 Leer hoe u Word-documenten naar Markdown converteert en tegelijkertijd PDF/UA exporteert met een uitgebreide C#‑handleiding.
 
+### [Word opslaan als Markdown met aangepaste afbeeldingsmap – Volledige gids](./save-word-as-markdown-with-custom-image-folder-full-guide/)
+
+Leer hoe u Word-documenten opslaat als Markdown en afbeeldingen in een aangepaste map plaatst met een volledige C#‑handleiding.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

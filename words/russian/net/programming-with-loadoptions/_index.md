@@ -75,6 +75,7 @@
 | [Как захватывать предупреждения – настроить параметры загрузки для отсутствующих шрифтов](./how-to-capture-warnings-configure-load-options-for-missing-f/) | Узнайте, как перехватывать предупреждения о недостающих шрифтах, используя LoadOptions в Aspose.Words для .NET. |
 | [Как восстановить DOCX с помощью Aspose.Words – пошаговое руководство](./how-to-recover-docx-with-aspose-words-step-by-step-guide/) | Узнайте, как восстановить DOCX с помощью Aspose.Words, следуя пошаговому руководству. |
 | [Восстановление повреждённого файла Word и отображение режима восстановления в C#](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | Узнайте, как восстановить повреждённый документ Word и включить режим восстановления с помощью C# и Aspose.Words. |
+| [Восстановление повреждённого DOCX – Полное руководство C# по исправлению и сохранению файлов](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) | Узнайте, как исправить и сохранить повреждённые файлы DOCX с помощью C# и Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

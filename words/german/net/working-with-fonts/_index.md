@@ -60,7 +60,6 @@ Egal, ob Sie Text mit unterschiedlichen Schriftarten formatieren, Regeln für di
 | [Wie man DOCX in C# lädt – Komplettanleitung](./how-to-load-docx-in-c-complete-guide/) | Erfahren Sie, wie Sie DOCX-Dateien in C# mit Aspose.Words für .NET laden und verarbeiten. |
 | [Schriftarten in Aspose.Words erkennen – Warnungen & Einstellungen handhaben](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Erfahren Sie, wie Sie in Aspose.Words Schriftarten erkennen, Warnungen verwalten und Einstellungen anpassen. |
 | [Wie man Schriftarten in Aspose.Words erfasst – Komplettanleitung](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Schriftarten erfassen und in Ihren Word-Dokumenten verwalten. |
-| [Wie man Schriftarten in Aspose.Words erkennt – Komplettanleitung](./how-to-detect-fonts-in-aspose-words-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Schriftarten erkennen und umfassend verwalten. |
 | [Wie man DOCX lädt und fehlende Schriftarten erkennt – Vollständige C#-Anleitung](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET DOCX-Dateien laden und fehlende Schriftarten erkennen. |
 | [Warnungen für Schriftartenersetzung in Aspose.Words aktivieren – Komplettanleitung](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | Erfahren Sie, wie Sie in Aspose.Words für .NET Warnungen bei der Schriftartenersetzung aktivieren und verwalten. |
 | [c# Word-Dokument laden – fehlende Schriftarten erkennen und behandeln](./c-load-word-document-detect-handle-missing-fonts/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET fehlende Schriftarten beim Laden eines Word-Dokuments erkennen und behandeln. |
@@ -82,6 +81,7 @@ Egal, ob Sie Text mit unterschiedlichen Schriftarten formatieren, Regeln für di
 | [Warnungs-Callback für das Laden von Word-Dokumenten erstellen – Komplettanleitung](./create-warning-callback-for-loading-word-documents-complete/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET einen Warnungs-Callback beim Laden von Word-Dokumenten implementieren. |
 | [Schriftartenersetzung in Aspose.Words – Vollständige Programmieranleitung](./handle-font-substitution-in-aspose-words-complete-programmin/) | Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie die Schriftartenersetzung in Aspose.Words für .NET verwalten. |
 | [Aspose-Schriftartenersetzung – Fehlende Schriftarten in Word-Dokumenten erkennen](./aspose-font-substitution-detect-missing-fonts-in-word-docume/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET fehlende Schriftarten in Word-Dokumenten erkennen und behandeln. |
+| [Wie man Schriftarten in Aspose.Words erkennt – Komplettanleitung](./how-to-detect-fonts-in-aspose-words-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Schriftarten in Word-Dokumenten erkennen und verwalten. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

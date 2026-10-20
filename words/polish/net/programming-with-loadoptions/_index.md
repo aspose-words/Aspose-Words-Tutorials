@@ -73,6 +73,7 @@ W tych samouczkach nauczysz się, jak używać LoadOptions do ładowania dokumen
 | [Jak odzyskać DOCX – przewodnik krok po kroku, aby naprawić uszkodzone pliki Word](./how-to-recover-docx-step-by-step-guide-to-fix-corrupted-word/) | Dowiedz się, jak naprawić uszkodzone pliki DOCX w kilku prostych krokach. |
 | [Odzyskaj uszkodzony plik Word i wyświetl tryb odzyskiwania w C#](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | Dowiedz się, jak przywrócić uszkodzony plik Word i pokazać tryb odzyskiwania przy użyciu Aspose.Words w C#. |
 | [Jak przechwycić ostrzeżenia w C# – wykrywać brakujące czcionki i rejestrować podstawienia](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) | Dowiedz się, jak w C# przechwytywać ostrzeżenia o brakujących czcionkach i zapisywać informacje o podstawieniach czcionek. |
+| [Odzyskaj uszkodzony DOCX – Kompletny przewodnik C# naprawy i zapisu plików](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) | Dowiedz się, jak naprawić uszkodzone pliki DOCX i zapisać je ponownie przy użyciu C# i Aspose.Words w kilku prostych krokach. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -73,6 +73,7 @@
 | [PDF aus Word in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-pdf-from-word-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument in ein PDF konvertieren – vollständige C#‑Anleitung. |
 | [Wie man LaTeX aus DOCX exportiert – in TXT konvertieren](./how-to-export-latex-from-docx-convert-to-txt/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET LaTeX aus DOCX exportieren und in TXT konvertieren – Schritt‑für‑Schritt‑Anleitung. |
 | [Erstellen Sie ein barrierefreies PDF aus DOCX – Schritt‑für‑Schritt C#‑Leitfaden](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein barrierefreies PDF aus DOCX erstellen – vollständige Schritt‑für‑Schritt‑Anleitung in C#. |
+| [DOCX in PDF in C# konvertieren – Vollständiger Programmierleitfaden](./convert-docx-to-pdf-in-c-complete-programming-guide/) | Erfahren Sie, wie Sie DOCX mit Aspose.Words für .NET in C# vollständig in PDF konvertieren – Schritt‑für‑Schritt‑Anleitung. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

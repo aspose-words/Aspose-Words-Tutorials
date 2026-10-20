@@ -235,6 +235,9 @@
 ### [แปลง Word เป็น Markdown – คู่มือเต็มพร้อมการส่งออก PDF/UA](./convert-word-to-markdown-full-guide-with-pdf-ua-export/)
 แปลงไฟล์ Word เป็น Markdown พร้อมการส่งออก PDF/UA อย่างละเอียด
 
+### [บันทึก Word เป็น Markdown พร้อมโฟลเดอร์รูปภาพแบบกำหนดเอง – คู่มือเต็ม](./save-word-as-markdown-with-custom-image-folder-full-guide/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown โดยกำหนดโฟลเดอร์รูปภาพของคุณเองอย่างละเอียดด้วย Aspose.Words สำหรับ .NET
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

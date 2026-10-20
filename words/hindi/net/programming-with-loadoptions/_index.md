@@ -76,6 +76,7 @@ Aspose.Words for .NET ट्यूटोरियल उन डेवलपर�
 | [Aspose.Words के साथ docx पुनर्प्राप्ति – चरण दर चरण](./how-to-recover-docx-with-aspose-words-step-by-step/) |
 | [भ्रष्ट Word फ़ाइल को पुनर्प्राप्त करें और C# में रिकवरी मोड प्रदर्शित करें](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | .NET के लिए Aspose.Words का उपयोग करके भ्रष्ट Word फ़ाइल को पुनर्प्राप्त करें और C# में रिकवरी मोड दिखाएँ। |
 | [C# में चेतावनियों को कैप्चर कैसे करें – गायब फ़ॉन्ट का पता लगाएँ और प्रतिस्थापन को लॉग करें](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) | C# में Aspose.Words का उपयोग करके चेतावनियों को पकड़ें, गायब फ़ॉन्ट की पहचान करें और प्रतिस्थापन को लॉग करें। |
+| [क्षतिग्रस्त DOCX पुनर्प्राप्ति – फ़ाइलों को ठीक करने और सहेजने के लिए पूर्ण C# गाइड](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) | Aspose.Words का उपयोग करके क्षतिग्रस्त DOCX फ़ाइलों को पुनर्स्थापित करने और सुरक्षित रूप से सहेजने की विस्तृत चरण-दर-चरण गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

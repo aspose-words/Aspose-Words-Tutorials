@@ -188,6 +188,8 @@
 
 ### [تحويل Word إلى Markdown – دليل كامل مع تصدير PDF/UA](./convert-word-to-markdown-full-guide-with-pdf-ua-export/)
 
+### [حفظ Word كـ Markdown مع مجلد صور مخصص – دليل كامل](./save-word-as-markdown-with-custom-image-folder-full-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

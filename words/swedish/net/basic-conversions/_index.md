@@ -74,6 +74,7 @@ Grundläggande konverteringar guidar dig genom grundläggande dokumentkonverteri
 | [Skapa PDF från Word i C# – Steg‑för‑steg‑guide](./create-pdf-from-word-in-c-step-by-step-guide/) | Lär dig hur du skapar PDF från ett Word-dokument i C# med Aspose.Words. Detaljerad steg‑för‑steg‑guide med kodexempel. |
 | [Hur man exporterar LaTeX från DOCX – konvertera till TXT](./how-to-export-latex-from-docx-convert-to-txt/) | Lär dig hur du exporterar LaTeX från DOCX och konverterar till TXT med Aspose.Words för .NET. |
 | [Skapa tillgänglig PDF från DOCX – Steg‑för‑steg C#‑guide](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | Lär dig hur du skapar en tillgänglig PDF från DOCX med Aspose.Words för .NET i en detaljerad C#‑guide. |
+| [Konvertera DOCX till PDF i C# – Komplett programmeringsguide](./convert-docx-to-pdf-in-c-complete-programming-guide/) | Lär dig steg‑för‑steg hur du konverterar DOCX till PDF i C# med Aspose.Words. Komplett guide med kodexempel. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

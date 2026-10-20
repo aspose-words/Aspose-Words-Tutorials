@@ -70,6 +70,7 @@ Conversiones Básicas te guía a través de las conversiones básicas de documen
 | [Cómo exportar LaTeX desde DOCX – Convertir a TXT](./how-to-export-latex-from-docx-convert-to-txt/) Aprenda a exportar contenido LaTeX desde un archivo DOCX y guardarlo como TXT usando Aspose.Words para .NET. Guía paso a paso. |
 | [Crear PDF accesible desde DOCX – Guía paso a paso en C#](./create-accessible-pdf-from-docx-step-by-step-c-guide/) Aprenda a generar PDFs accesibles a partir de DOCX usando Aspose.Words para .NET con C#. |
 | [Convertir Word a PDF en C# – Guía completa con Aspose.Words](./convert-word-to-pdf-in-c-full-guide-with-aspose-words/) Aprenda a convertir documentos Word a PDF en C# usando Aspose.Words con esta guía paso a paso y ejemplos de código. 
+| [Convertir DOCX a PDF en C# – Guía completa de programación](./convert-docx-to-pdf-in-c-complete-programming-guide/) Aprenda a convertir DOCX a PDF en C# con Aspose.Words. Guía paso a paso con ejemplos de código. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

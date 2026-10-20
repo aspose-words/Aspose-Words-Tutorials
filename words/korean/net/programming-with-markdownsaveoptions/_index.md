@@ -25,6 +25,7 @@
 | [이미지 폴더 설정](./set-images-folder/) | Aspose.Words for .NET을 사용하여 Word 문서를 적절한 표 정렬을 통해 Markdown으로 변환하세요. 완벽한 결과를 얻으려면 자세한 가이드를 따르세요. |
 | [Word를 Markdown으로 변환하기 위한 Assets 폴더 만들기](./create-assets-folder-for-convert-word-to-markdown/) | Aspose.Words for .NET을 사용하여 Word 문서를 Markdown으로 변환할 때 필요한 assets 폴더를 생성하고 구성하는 방법을 단계별로 안내합니다. |
 | [이미지 포함 마크다운 내보내기를 위한 사용자 정의 이미지 폴더 – 전체 가이드](./custom-image-folder-for-export-markdown-with-images-complete/) | Aspose.Words for .NET을 사용하여 이미지가 포함된 마크다운을 내보낼 때 사용자 정의 이미지 폴더를 설정하는 전체 가이드 |
+| [사용자 지정 이미지 폴더로 Word를 Markdown으로 저장 – 전체 가이드](./save-word-as-markdown-with-custom-image-folder-full-guide/) | Aspose.Words for .NET을 사용하여 사용자 지정 이미지 폴더를 설정하고 Word 문서를 Markdown으로 저장하는 전체 가이드 |
 | [Word를 PDF로 저장하고 손상된 Word 복구 – C#에서 Word를 Markdown으로 변환](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/) |  |
 | [접근성 PDF 만들기 및 Word를 Markdown으로 변환 – 전체 C# 가이드](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/) | Aspose.Words for .NET을 사용하여 접근성 PDF를 생성하고 Word를 Markdown으로 변환하는 전체 C# 가이드 |
 | [Markdown 사용 방법: LaTeX 수식이 포함된 DOCX를 Markdown으로 변환](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | Aspose.Words for .NET을 사용하여 LaTeX 수식이 포함된 DOCX 파일을 정확히 Markdown으로 변환하는 단계별 가이드 |

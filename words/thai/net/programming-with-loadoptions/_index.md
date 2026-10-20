@@ -73,6 +73,7 @@
 | [วิธีกู้คืนไฟล์ DOCX ด้วย Aspose.Words – คู่มือทีละขั้นตอน](./how-to-recover-docx-with-aspose-words-step-by-step-guide/) | เรียนรู้วิธีกู้คืนไฟล์ DOCX ที่เสียหายโดยใช้ Aspose.Words สำหรับ .NET ด้วยขั้นตอนง่ายๆ และตัวอย่างโค้ดที่ชัดเจน |
 | [กู้ไฟล์ Word ที่เสียหายและแสดงโหมดการกู้คืนใน C#](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | เรียนรู้วิธีกู้ไฟล์ Word ที่เสียหายและเปิดโหมดการกู้คืนโดยใช้ Aspose.Words สำหรับ .NET ด้วย C# |
 | [วิธีดักจับคำเตือนใน C# – ตรวจจับแบบอักษรที่หายไปและบันทึกการแทนที่](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) | เรียนรู้วิธีดักจับคำเตือนใน C# เพื่อตรวจจับแบบอักษรที่หายไปและบันทึกการแทนที่โดยใช้ Aspose.Words สำหรับ .NET |
+| [กู้คืนไฟล์ DOCX ที่เสีย – คู่มือ C# ฉบับสมบูรณ์เพื่อแก้ไขและบันทึกไฟล์](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) | เรียนรู้วิธีกู้คืนไฟล์ DOCX ที่เสียหายด้วย Aspose.Words สำหรับ .NET ด้วยคู่มือขั้นตอนเต็มที่ช่วยแก้ไขและบันทึกไฟล์ |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

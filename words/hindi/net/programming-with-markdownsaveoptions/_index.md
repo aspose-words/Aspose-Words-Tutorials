@@ -26,6 +26,7 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [DOCX से Markdown में छवियों को एम्बेड कैसे करें](./how-to-embed-images-in-markdown-from-docx/) | DOCX फ़ाइल से छवियों को निकालकर Markdown में एम्बेड करने की चरण‑दर‑स्टेप गाइड। |
 | [इमेज के साथ Word को Markdown के रूप में सहेजें – C# चरण‑दर‑चरण गाइड](./save-word-as-markdown-with-images-c-step-by-step-guide/) | C# में Aspose.Words का उपयोग करके इमेज सहित Word को Markdown में बदलने की चरण‑दर‑चरण मार्गदर्शिका। |
 | [Word को Markdown में बदलते समय छवियों को सहेजें – पूर्ण C# गाइड](./save-word-images-while-converting-word-to-markdown-complete/) | Word दस्तावेज़ को Markdown में परिवर्तित करते समय सभी छवियों को सुरक्षित रखने की पूरी C# गाइड |
+| [कस्टम इमेज फ़ोल्डर के साथ Word को Markdown में सहेजें – पूर्ण गाइड](./save-word-as-markdown-with-custom-image-folder-full-guide/) | .NET के लिए Aspose.Words का उपयोग करके कस्टम इमेज फ़ोल्डर के साथ Word को Markdown में बदलने की पूरी गाइड। |
 | [Word को PDF के रूप में सहेजें और भ्रष्ट Word को पुनर्प्राप्त करें – C# में Word को Markdown में परिवर्तित करें](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/) |  |
 | [Aspose.Words के साथ Word दस्तावेज़ पुनर्प्राप्त करें – पूर्ण गाइड](./recover-word-document-with-aspose-words-full-guide/) | Aspose.Words का उपयोग करके क्षतिग्रस्त Word दस्तावेज़ को पुनर्प्राप्त करने के लिए पूर्ण चरण‑दर‑स्टेप गाइड। |
 | [सुलभ PDF बनाएं और Word को Markdown में बदलें – पूर्ण C# गाइड](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/) | C# में सुलभ PDF बनाना और Word को Markdown में परिवर्तित करने की पूरी गाइड |

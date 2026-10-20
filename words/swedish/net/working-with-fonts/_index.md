@@ -74,7 +74,6 @@ Oavsett om du vill formatera text med olika teckensnitt, ange regler för tecken
 | [Hur du fångar varningsmeddelanden i Aspose.Words – Komplett guide](./how-to-capture-warnings-in-aspose-words-complete-guide/) | Lär dig hur du fångar varningsmeddelanden i Aspose.Words för .NET med en steg-för-steg-guide. |
 | [Hantera saknade teckensnitt i Aspose.Words – Komplett C#-guide](./handle-missing-fonts-in-aspose-words-complete-c-guide/) | Lär dig hur du hanterar saknade teckensnitt i Aspose.Words för .NET med en komplett steg-för-steg C#-guide. |
 | [Hur man upptäcker teckensnitt i C# – Komplett guide](./how-to-detect-fonts-in-c-complete-guide/) | Lär dig hur du identifierar vilka teckensnitt som används i ett Word-dokument med Aspose.Words för .NET i C#. |
-
 | [Anpassade teckensnittsinställningar i C# – Ladda Word och hantera saknade teckensnitt](./custom-font-settings-in-c-load-word-handle-missing-fonts/) | Lär dig hur du laddar Word-dokument och hanterar saknade teckensnitt med anpassade teckensnittsinställningar i C# med Aspose.Words för .NET. |
 | [Hur man använder FontSettings för att hantera saknade teckensnitt i Aspose.Words](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | Lär dig hur du använder FontSettings för att hantera saknade teckensnitt i Aspose.Words för .NET. |
 | [Hur du upptäcker teckensnitt i C# – Använd återuppringning med Aspose.Words](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | Lär dig hur du upptäcker teckensnitt i C# med en återuppringningsmetod i Aspose.Words. |

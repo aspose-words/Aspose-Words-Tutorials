@@ -280,6 +280,9 @@ Erfahren Sie, wie Sie Bilder aus DOCX‑Dateien extrahieren und das Dokument in 
 ### [Word in Markdown konvertieren – Vollständige Anleitung mit PDF/UA-Export](./convert-word-to-markdown-full-guide-with-pdf-ua-export/)
 Erfahren Sie, wie Sie Word‑Dokumente in Markdown konvertieren und gleichzeitig einen PDF/UA‑Export für barrierefreie PDFs erstellen.
 
+### [Word als Markdown speichern mit benutzerdefiniertem Bildordner – Vollständige Anleitung](./save-word-as-markdown-with-custom-image-folder-full-guide/)
+Erfahren Sie, wie Sie Word-Dokumente mit einem benutzerdefinierten Bildordner in Markdown speichern – vollständige Schritt‑für‑Schritt‑Anleitung.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

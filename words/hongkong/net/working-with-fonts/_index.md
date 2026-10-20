@@ -80,7 +80,6 @@
 | [Aspose 字體替換 – 如何在 C# 中配置字體設定](./aspose-font-substitution-how-to-configure-font-settings-in-c/) |了解如何在 C# 中使用 Aspose.Words for .NET 配置字體替換設定，確保文件正確呈現。 |
 | [如何捕獲 Aspose.Words 警告 – 完整 C# 指南](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) |了解如何在 Aspose.Words for .NET 中捕獲警告並使用 C# 進行處理。 |
 | [如何在 C# 中偵測字體 – 完整指南](./how-to-detect-fonts-in-c-complete-guide/) |透過本完整指南了解如何在 C# 中使用 Aspose.Words 偵測字體，適合開發人員。 |
-
 | [使用 FontSettings 處理缺失字體](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) |了解如何在 Aspose.Words for .NET 中使用 FontSettings 來偵測並處理缺少的字體。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
