@@ -46,6 +46,8 @@ Haal efficiënt inhoud uit Word-documenten met Aspose.Words voor Python. Leer st
 Leer geavanceerde zoek- en vervangtechnieken in Word-documenten met Aspose.Words voor Python. Vervang tekst, gebruik regex, opmaak en meer.
 ### [Inhoud in Word-documenten verwijderen en verfijnen](./remove-content-documents/)
 Leer hoe u efficiënt inhoud in Word-documenten verwijdert en verfijnt met Aspose.Words voor Python. Stapsgewijze handleiding met broncodevoorbeelden.
+### [Hoe een callback instellen voor het exporteren van afbeeldingen uit DOCX](./how-to-set-callback-for-exporting-images-from-docx/)
+Leer hoe u een callback configureert om afbeeldingen uit een DOCX-bestand te exporteren met Aspose.Words voor Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

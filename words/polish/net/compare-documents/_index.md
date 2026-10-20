@@ -23,6 +23,7 @@ Compare Documents to kompleksowy samouczek dotyczący porównywania dokumentów 
 | --- | --- |
 | [Porównaj dla równych w dokumencie Word](./compare-for-equal/) | Dowiedz się, jak porównać dwa dokumenty Word pod kątem równości za pomocą Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby upewnić się, że Twoje dokumenty są identyczne. |
 | [Porównaj opcje w dokumencie Word](./compare-options/) | Dowiedz się, jak porównywać dokumenty Word za pomocą Aspose.Words dla .NET dzięki naszemu przewodnikowi krok po kroku. Zapewnij spójność dokumentów bez wysiłku. |
+| [Porównaj dokumenty Word w C# przy użyciu Aspose.Words](./compare-word-documents-in-c-using-aspose-words/) | Dowiedz się, jak porównać dokumenty Word w C# przy użyciu biblioteki Aspose.Words. |
 | [Cel porównania w dokumencie Word](./comparison-target/) | Bez wysiłku porównuj dokumenty Worda za pomocą Aspose.Words dla .NET dzięki temu szczegółowemu przewodnikowi krok po kroku. Oszczędź czas i zwiększ dokładność porównywania dokumentów. |
 | [Porównanie granularności w dokumencie Word](./comparison-granularity/) | Poznaj funkcję porównywania szczegółowości w dokumentach Word w Aspose.Words for .NET, która umożliwia porównywanie dokumentów znak po znaku i raportowanie wprowadzonych zmian. |
 

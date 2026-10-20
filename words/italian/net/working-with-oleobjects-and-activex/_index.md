@@ -28,6 +28,11 @@ Questi tutorial offrono un approccio pratico e passo dopo passo all'elaborazione
 | [Inserisci oggetto Ole nel documento Word come icona](./insert-ole-object-as-icon/) | Scopri come inserire un oggetto OLE come icona nei documenti Word utilizzando Aspose.Words per .NET. Segui la nostra guida passo passo per migliorare i tuoi documenti. |
 | [Inserisci oggetto Ole come icona utilizzando Stream](./insert-ole-object-as-icon-using-stream/) | Scopri come inserire un oggetto OLE come icona utilizzando un flusso con Aspose.Words per .NET in questo tutorial dettagliato e passo dopo passo. |
 | [Leggi le proprietà di Active XControl dal file Word](./read-active-xcontrol-properties/) | Scopri come leggere le proprietà dei controlli ActiveX dai file Word utilizzando Aspose.Words per .NET in una guida passo passo. Migliora le tue competenze di automazione dei documenti. |
+| [Crea documento Word con pulsante ActiveX – Guida C#](./create-word-document-with-activex-button-c-guide/) | Scopri come creare un documento Word con un pulsante ActiveX usando C# e Aspose.Words per .NET in questa guida passo passo. |
+| [Crea pulsante documento Word con Aspose.Words – Esempio di codice completo](./create-word-document-button-with-aspose-words-full-code-exam/) | Scopri come creare un pulsante per generare documenti Word usando Aspose.Words con un esempio di codice completo. |
+| [Aggiungi pulsante di comando al documento Word con Aspose.Words – Guida completa](./add-command-button-to-word-document-with-aspose-words-comple/) | Scopri come aggiungere un pulsante di comando a un documento Word usando Aspose.Words per .NET, con esempi passo passo. |
+| [Come aggiungere un controllo ActiveX in Word con Aspose.Words – guida passo‑passo](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Scopri come inserire un controllo ActiveX nei documenti Word usando Aspose.Words per .NET, con istruzioni dettagliate passo dopo passo. |
+
 | [Crea documento Word programmaticamente e aggiungi pulsante ActiveX](./create-word-document-programmatically-and-add-activex-button/) | Scopri come creare un documento Word tramite codice e inserire un pulsante ActiveX usando Aspose.Words per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

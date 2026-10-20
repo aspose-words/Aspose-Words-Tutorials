@@ -1,0 +1,60 @@
+//ExStart
+//ExSummary: Ce tutoriel montre comment insérer un diagramme en colonnes dans un document Word, changer la taille de page du document en A4 et redimensionner automatiquement le diagramme afin qu'il reste proportionnel à la nouvelle largeur de page.
+//ExStepSummary:0: Créez un nouvel objet Document et un DocumentBuilder pour le modifier.
+//ExStepSummary:1: Insérez un diagramme en colonnes de taille 432×252 points et récupérez son objet Chart.
+//ExStepSummary:2: Définissez le texte du titre du diagramme sur "Quarterly Revenue" et rendez-le visible.
+//ExStepSummary:3: Enregistrez le document dans un fichier affichant la taille originale du diagramme.
+//ExStepSummary:4: Modifiez la taille du papier du document en A4 et rafraîchissez la mise en page.
+//ExStepSummary:5: Calculez une nouvelle largeur de diagramme égale à 80 % de la largeur de la page tout en préservant le ratio d'aspect original.
+//ExStepSummary:6: Si la forme contient un diagramme, appliquez la largeur et la hauteur calculées pour le redimensionner.
+//ExStepSummary:7: Enregistrez le document après que le diagramme ait été redimensionné pour refléter la nouvelle taille de page.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:6:images/4.png
+//ExStep:0-
+// Instantiate an empty document.
+Document myDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDoc);
+
+//ExStep:1-
+// Place a column chart with a starting size of 432×252 points.
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chartObj = chartContainer.Chart;
+
+//ExStep:2-
+// Provide a basic heading for the chart.
+chartObj.Title.Text = "Quarterly Revenue";
+chartObj.Title.Show = true;
+
+//ExStep:3-
+// Persist the file to illustrate the original dimensions.
+myDoc.Save("report_before.docx");
+
+//ExStep:4-
+// Switch the document's paper format to A4.
+docBuilder.PageSetup.PaperSize = PaperSize.A4;
+
+// Refresh layout after the page configuration change.
+myDoc.UpdatePageLayout();
+
+//ExStep:5-
+// Determine updated chart size so it stays proportional to the new page width.
+// Use 80 % of the page width while keeping the original width‑to‑height ratio.
+double pageWidth = docBuilder.PageSetup.PageWidth;
+double originalAspectRatio = chartContainer.Height / chartContainer.Width;
+double newChartWidth = pageWidth * 0.8;
+double newChartHeight = newChartWidth * originalAspectRatio;
+
+//ExStep:6-
+// Verify the shape actually hosts a chart before applying new dimensions.
+if (chartContainer.HasChart)
+{
+    chartContainer.Width = newChartWidth;
+    chartContainer.Height = newChartHeight;
+}
+
+//ExStep:7-
+// Save the final document with the adjusted chart.
+myDoc.Save("report_after.docx");
+//ExEnd

@@ -35,6 +35,10 @@ Akár konkrét szavakat kell lecserélnie, akár szövegsablonokat kell frissít
 | [Felismerés és helyettesítések a helyettesítési mintákon belül](./recognize-and-substitutions-within-replacement-patterns/) | Tanulja meg, hogyan ismerheti fel és helyettesítheti be a szöveget a csere mintákon belül az Aspose.Words for .NET használatával. Lépésről lépésre útmutató részletes példákkal. |
 | [Cserélje karakterlánccal](./replace-with-string/) | Tanulja meg, hogyan cserélhet le karakterláncokat Word-dokumentumokban az Aspose.Words for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Tökéletes azoknak a fejlesztőknek, akik automatizálni szeretnék a dokumentumszerkesztést. |
 | [Szöveg cseréje a táblázatban](./replace-text-in-table/) | Könnyedén cserélhet ki szöveget egy Word-táblázatban az Aspose.Words for .NET segítségével ezzel a részletes, lépésről lépésre szóló útmutatóval. |
+| [Szöveg cseréje DOCX-ben C#-val – Lépésről‑lépésre útmutató](./replace-text-in-docx-with-c-step-by-step-guide/) | Tanulja meg, hogyan cserélhet szöveget DOCX fájlokban C# használatával az Aspose.Words for .NET segítségével. Részletes, lépésről‑lépésre útmutató. |
+| [Szöveg cseréje docx-ben C#-val – Teljes lépésről‑lépésre útmutató](./replace-text-in-docx-with-c-full-step-by-step-guide/) | Ismerje meg, hogyan cserélhet szöveget egy docx fájlban C# használatával az Aspose.Words for .NET segítségével, részletes lépésekkel. |
+
+| [Hogyan írjunk át bekezdést AI-val C#-ban – Teljes útmutató](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Tanulja meg, hogyan használhatja az AI-t bekezdések átírásához C#-ban az Aspose.Words for .NET segítségével, lépésről lépésre útmutatóval. |
 | [Word dokumentum generálás automatizálása Aspose.Words használatával C#-ban](./automate-word-document-generation-with-aspose-words-in-c/) | Tanulja meg, hogyan automatizálhatja a Word dokumentumok létrehozását C#-ban az Aspose.Words segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

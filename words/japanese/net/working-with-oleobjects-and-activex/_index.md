@@ -28,8 +28,12 @@ Aspose.Words for .NET の OLE および ActiveX オブジェクトを使った W
 | [Word文書にOLEオブジェクトをアイコンとして挿入する](./insert-ole-object-as-icon/) Aspose.Words for .NET を使用して、Word 文書に OLE オブジェクトをアイコンとして挿入する方法を学びましょう。ステップバイステップのガイドに従って、文書をさらに魅力的に仕上げましょう。 |
 | [ストリームを使用してOLEオブジェクトをアイコンとして挿入](./insert-ole-object-as-icon-using-stream/) この詳細なステップバイステップのチュートリアルでは、Aspose.Words for .NET でストリームを使用して OLE オブジェクトをアイコンとして挿入する方法を学習します。 |
 | [Word ファイルから Active XControl プロパティを読み取る](./read-active-xcontrol-properties/) Aspose.Words for .NET を使用して Word ファイルから ActiveX コントロールのプロパティを読み取る方法をステップバイステップで学習します。ドキュメント自動化スキルを向上させましょう。 |
+| [ActiveX ボタンで Word 文書を作成する – C# ガイド](./create-word-document-with-activex-button-c-guide/) Aspose.Words for .NET を使用して、ActiveX ボタンを含む Word 文書を C# で作成する手順をステップバイステップで解説します。 |
+| [Aspose.Words で Word 文書作成ボタンを作成 – 完全コード例](./create-word-document-button-with-aspose-words-full-code-exam/) Aspose.Words for .NET を使用して、Word 文書作成ボタンを実装する完全なコード例をステップバイステップで解説します。 |
+| [Aspose.Words で Word に ActiveX コントロールを追加する – ステップバイステップ ガイド](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) Aspose.Words for .NET を使用して、Word 文書に ActiveX コントロールを追加する方法をステップバイステップで解説します。 |
 | [プログラムで Word 文書を作成し、ActiveX ボタンを追加する](./create-word-document-programmatically-and-add-activex-button/) |
 
+| [Aspose.Words を使用して Word 文書にコマンドボタンを追加する – 完全ガイド](./add-command-button-to-word-document-with-aspose-words-comple/) Aspose.Words for .NET で Word 文書にコマンドボタンを挿入し、設定やイベント処理を行う方法をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

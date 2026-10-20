@@ -32,6 +32,8 @@ Merüljön el mélyebben beágyazott oldalainkban, hogy felfedezhesse a speciál
 
 {{< tutorial-card link="./insert-simple-column-chart/" title="Egyszerű oszlopdiagram beszúrása Wordben az Aspose.Words for .NET használatával" imgSrc="./insert-simple-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-edit-chart-in-word-change-label-position-font-more/" title="Hogyan szerkeszthető a diagram a Wordben: címke pozíciójának, betűtípusának és egyebek módosítása" imgSrc="./how-to-edit-chart-in-word-change-label-position-font-more/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
