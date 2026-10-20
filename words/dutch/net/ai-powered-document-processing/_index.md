@@ -54,6 +54,20 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Hoe controleer je grammatica met een lokaal LLM in C#](./how-to-check-grammar-with-a-local-llm-in-c/) | Leer hoe u met een lokaal LLM grammatica controleert in C# met Aspose.Words voor .NET. |
 | [Hoe grammatica te controleren en Word-document samen te vatten met Aspose.Words AI](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Leer hoe u grammatica controleert en documenten samenvat met Aspose.Words AI in .NET. |
 | [Grammatica controleren in Word-document met C# – Complete programmeergids](./check-grammar-word-document-in-c-complete-programming-guide/) | Leer hoe u met Aspose.Words voor .NET grammatica in Word-documenten kunt controleren en corrigeren via C#. |
+| [Hoe Word in C# te laden en alinea te herschrijven met AI](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) | Leer hoe u met Aspose.Words en AI een Word-document laadt in C# en alinea's automatisch herschrijft. |
+| [Hoe grammatica te controleren in C# met Aspose.Words AI](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Leer hoe u met Aspose.Words AI grammaticale fouten in C#-code kunt detecteren en corrigeren. |
+| [Verbinden met lokale LLM in C# – Complete programmeergids](./connect-to-local-llm-in-c-complete-programming-guide/) | Leer hoe u in C# verbinding maakt met een lokale LLM en volledige programmeerinstructies volgt. |
+| [Samenvatten van Word-document in C# – Complete gids met Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Leer hoe u Word-documenten samenvat in C# met Anthropic Claude voor snelle inzichten. |
+| [Hoe LLM te gebruiken met Aspose.Words – Alinea's herschrijven in C#](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Leer hoe u met LLM's en Aspose.Words alinea's automatisch kunt herschrijven in C# voor efficiëntere documentbewerking. |
+| [Hoe grammatica te controleren in C# – Complete gids voor Word-documenten](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Leer hoe u grammatica controleert in C# voor Word-documenten met Aspose.Words, inclusief stapsgewijze voorbeelden. |
+| [Samenvatten van Word-document in C# met een aangepast GPT-model – Volledige gids](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Leer hoe u met Aspose.Words en een eigen GPT-model Word-documenten in C# automatisch samenvat. |
+| [Hoe tekst herschrijven in Word-documenten met Aspose.Words AI – Complete gids](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Leer hoe u met Aspose.Words AI tekst in Word-documenten kunt herschrijven voor nauwkeurige en efficiënte bewerkingen. |
+| [Hoe grammatica te controleren in C# met Aspose.Words – Gids](./how-to-check-grammar-in-c-with-aspose-words-guide/) | Leer hoe u met Aspose.Words voor .NET grammatica controleert in C#-toepassingen voor foutloze documenten. |
+| [Hoe Summarize te gebruiken in Aspose.Words – Complete gids](./how-to-use-summarize-in-aspose-words-complete-guide/) | Leer stap voor stap hoe u de Summarize-functie in Aspose.Words voor .NET toepast om documenten efficiënt samen te vatten. |
+| [Paragraaf herschrijven met AI in C# – Hoe een lokaal LLM te configureren](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) | Leer hoe u met Aspose.Words en een lokaal LLM paragrafen automatisch kunt herschrijven in C#. |
+| [Hoe grammatica te controleren met Aspose.Words AI – Complete gids](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | Leer hoe u grammatica kunt controleren in Word-documenten met Aspose.Words AI voor nauwkeurige en geautomatiseerde correcties. |
+| [Hoe controleer je grammatica in Word met C# – Complete gids](./how-to-check-grammar-in-word-with-c-complete-guide/) | Leer hoe u met C# grammatica-controle in Word kunt implementeren met een volledige stap-voor-stap gids. |
+| [Samenvatting maken met AI – C# Aspose Words-tutorial](./create-summary-with-ai-c-aspose-words-tutorial/) | Leer hoe u met C# en Aspose.Words AI gebruikt om automatisch samenvattingen van Word-documenten te genereren. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

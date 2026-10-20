@@ -24,6 +24,7 @@ Aprenda a habilitar las funciones OpenType en sus documentos de Word con Aspose.
 | [Crear documento Word con Aspose.Words – Guía paso a paso](./create-word-document-with-aspose-words-step-by-step-guide/) | Aprenda a crear documentos Word desde cero usando Aspose.Words con esta guía paso a paso. |
 | [Crear documento Word con fuente variable – Guía](./create-word-document-with-variable-font-guide/) | Aprenda a crear documentos Word con fuentes variables usando Aspose.Words para .NET en esta guía paso a paso. |
 
+| [Usar fuentes de peso variable en C# – Guía completa de programación](./use-variable-weight-font-in-c-complete-programming-guide/) | Aprenda a usar fuentes de peso variable en C# con esta guía completa de programación. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
