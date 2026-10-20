@@ -83,6 +83,7 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Hur du kontrollerar grammatik i C# med Aspose.Words AI – Komplett guide](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Lär dig att använda Aspose.Words AI för att automatiskt rätta grammatik i C#‑projekt med vår steg‑för‑steg‑guide. |
 | [Sammanfatta Word-dokument i C# – steg‑för‑steg guide med AI](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Lär dig att med AI skapa korta sammanfattningar av Word-dokument i C# med en tydlig steg‑för‑steg‑guide. |
 | [Hur man översätter DOCX till franska och automatiserar dokumentöversättning](./how-to-translate-docx-to-french-and-automate-document-transl/) | Lär dig att automatiskt översätta DOCX-filer till franska med Aspose.Words för .NET. |
+| [Hur man anropar CheckGrammar i C# – Komplett guide](./how-to-call-checkgrammar-in-c-complete-guide/) | Lär dig steg för steg hur du använder Aspose.Words för .NET för att anropa CheckGrammar-funktionen i C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

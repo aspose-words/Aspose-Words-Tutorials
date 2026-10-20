@@ -82,6 +82,7 @@ Basic Conversions проведет вас через базовые преобр
 | [Сохранить Word как PDF с Aspose.Words – Полное руководство](./save-word-as-pdf-with-aspose-words-complete-guide/) | Узнайте, как сохранить документ Word в PDF с помощью Aspose.Words. Подробное руководство с примерами кода. |
 | [Конвертировать Markdown в DOCX с Aspose.Words – Полное руководство C#](./convert-markdown-to-docx-with-aspose-words-complete-c-guide/) | Узнайте, как конвертировать файлы Markdown в DOCX с помощью Aspose.Words для .NET. Полное руководство на C# с примерами кода. |
 | [Конвертировать DOCX в PDF C# – Полное пошаговое руководство](./convert-docx-to-pdf-c-complete-step-by-step-guide/) | Подробное руководство по конвертации DOCX в PDF на C# с Aspose.Words, включающее полный набор примеров кода и объяснений. |
+| [Конвертировать docx в pdf в C# – Полное пошаговое руководство](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Узнайте, как конвертировать DOCX в PDF в C# с помощью Aspose.Words для .NET, следуя полному пошаговому руководству. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

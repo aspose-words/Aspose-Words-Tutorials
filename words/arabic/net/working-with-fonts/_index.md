@@ -83,6 +83,7 @@
 | [معالجة استبدال الخط في Aspose.Words – دليل برمجة كامل](./handle-font-substitution-in-aspose-words-complete-programmin/) |تعرف على كيفية التعامل مع استبدال الخطوط في Aspose.Words عبر دليل برمجة شامل خطوة بخطوة. |
 | [كيفية التقاط التحذيرات في Aspose.Words – دليل C# كامل](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) |تعلم كيفية التقاط إشعارات التحذير في Aspose.Words باستخدام C# خطوة بخطوة. |
 | [تمكين تحذيرات الخط في Aspose.Words – دليل كامل C#](./enable-font-warnings-in-aspose-words-complete-c-guide/) |تعرف على كيفية تمكين تحذيرات الخط في Aspose.Words باستخدام C# لضمان معالجة الخطوط بشكل صحيح. |
+| [كيفية تعيين FontSettings – معالجة الخطوط المفقودة](./how-to-set-fontsettings-handle-missing-fonts/) |تعلم كيفية تعيين FontSettings للتعامل مع الخطوط المفقودة في مستندات Word باستخدام Aspose.Words لـ .NET. |
 
 | [استبدال الخطوط في Aspose: اكتشاف الخطوط المفقودة في مستندات Word](./aspose-font-substitution-detect-missing-fonts-in-word-docs/) |تعرف على كيفية اكتشاف الخطوط المفقودة في مستندات Word باستخدام Aspose.Words لـ .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}

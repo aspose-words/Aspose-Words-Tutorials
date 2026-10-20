@@ -63,6 +63,8 @@ Aprenda a converter arquivos DOCX para Markdown preservando equações LaTeX com
 
 ### [Como Exportar Markdown de DOCX com Imagens – Guia Completo](./how-to-export-markdown-from-docx-with-images-complete-guide/)
 Aprenda a exportar documentos DOCX para Markdown com extração de imagens usando C# e Aspose.Words.
+### [Salvar docx como markdown – Guia completo com extração de imagens](./save-docx-as-markdown-complete-guide-with-image-extraction/)
+Aprenda a converter arquivos DOCX para Markdown e extrair imagens mantendo a formatação com Aspose.Words.
 
 ### [Salvar docx como markdown com Aspose.Words – Guia completo em C#](./save-docx-as-markdown-with-aspose-words-full-c-guide/)
 Aprenda a salvar arquivos DOCX como Markdown usando Aspose.Words, com um guia completo em C#.

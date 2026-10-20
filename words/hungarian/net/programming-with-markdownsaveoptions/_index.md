@@ -53,7 +53,6 @@ Ismerje meg, hogyan konvertálhat DOCX fájlokat Markdownba teljes C# útmutató
 Ismerje meg, hogyan exportálhat LaTeX‑et DOCX fájlokból és konvertálhatja őket Markdown formátumba az Aspose.Words for .NET segítségével.
 ### [DOCX mentése Markdownba LaTeX egyenletekkel – C# útmutató](./save-docx-as-markdown-with-latex-equations-c-guide/)
 ### [DOCX mentése Markdownba – Word matematikai képletek exportálása LaTeX-be az Aspose.Words segítségével](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/)
-### [DOCX mentése Markdownba – Teljes C# útmutató képek kinyerésével](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
 ### [Hogyan ágyazzunk be képeket a Markdownba DOCX-ből](./how-to-embed-images-in-markdown-from-docx/)
 Ismerje meg, hogyan ágyazhat be képeket a DOCX dokumentumból a Markdown formátumba az Aspose.Words for .NET segítségével.
 ### [Word konvertálása Markdownba – Teljes útmutató képek kinyerésével](./convert-word-to-markdown-complete-guide-with-image-extractio/)
@@ -63,6 +62,10 @@ Ismerje meg, hogyan ágyazhat be képeket a DOCX dokumentumból a Markdown form�
 ### [Képek mentése – DOCX konvertálása Markdownba Aspose-szal](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/)
 ### [DOCX mentése Markdownba – Teljes C# útmutató Aspose.Words használatával](./save-docx-as-markdown-with-aspose-words-full-c-guide/)
 ### [DOCX mentése Markdownba – Teljes Aspose.Words lépésről‑lépésre útmutató](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/)
+### [DOCX mentése Markdownba – Teljes C# útmutató képek kinyerésével](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
+
+### [DOCX mentése Markdownba – Teljes útmutató képek kinyerésével](./save-docx-as-markdown-complete-guide-with-image-extraction/)
+
 ### [Word konvertálása Markdownba C#‑ban – Teljes útmutató képek kinyerésével](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 ### [DOCX mentése Markdownba – Képek kinyerése – C# útmutató](./save-docx-as-markdown-extract-images-c-guide/)
 ### [DOCX mentése Markdownba – Word egyenletek exportálása LaTeX-be C#-ban](./save-docx-as-markdown-export-word-equations-to-latex-in-c/)

@@ -81,6 +81,7 @@
 | [Αποθήκευση Word ως PDF με Aspose.Words – Πλήρης Οδηγός](./save-word-as-pdf-with-aspose-words-complete-guide/) | Μάθετε πώς να αποθηκεύετε έγγραφα Word ως PDF χρησιμοποιώντας το Aspose.Words με πλήρη οδηγίες βήμα‑βήμα. |
 | [Μετατροπή Markdown σε DOCX με Aspose.Words – Πλήρης Οδηγός C#](./convert-markdown-to-docx-with-aspose-words-complete-c-guide/) | Μάθετε πώς να μετατρέπετε αρχεία Markdown σε DOCX χρησιμοποιώντας το Aspose.Words για .NET με πλήρη οδηγό C#. |
 | [Μετατροπή DOCX σε PDF C# – Πλήρης Οδηγός Βήμα‑βήμα](./convert-docx-to-pdf-c-complete-step-by-step-guide/) | Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF χρησιμοποιώντας C# και Aspose.Words με πλήρη οδηγό βήμα‑βήμα. |
+| [Μετατροπή docx σε pdf σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Μάθετε πώς να μετατρέπετε αρχεία docx σε PDF σε C# χρησιμοποιώντας το Aspose.Words με πλήρη οδηγό βήμα‑βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

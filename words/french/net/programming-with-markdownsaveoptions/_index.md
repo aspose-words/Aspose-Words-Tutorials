@@ -267,6 +267,7 @@ Apprenez à exporter des fichiers DOCX au format Markdown avec un guide complet 
 ### [Enregistrer le markdown en docx en C# – guide étape par étape](./save-markdown-as-docx-in-c-step-by-step-guide/)
 
 Apprenez à convertir un fichier Markdown en document Word (docx) en C# avec un guide détaillé étape par étape.
+### [Enregistrer docx en markdown – Guide complet avec extraction d'images](./save-docx-as-markdown-complete-guide-with-image-extraction/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

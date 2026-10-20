@@ -82,6 +82,7 @@ Basic Conversions hướng dẫn bạn cách chuyển đổi tài liệu cơ b�
 | [Cách xuất LaTeX từ Word – Hướng dẫn C# đầy đủ](./how-to-export-latex-from-word-complete-c-guide/) | Hướng dẫn chi tiết cách xuất LaTeX từ tài liệu Word bằng Aspose.Words cho .NET trong C#, kèm ví dụ mã nguồn đầy đủ. |
 | [Tạo PDF từ Word trong C# – Hướng dẫn nhanh Low‑Code](./create-pdf-from-word-in-c-fast-low-code-guide/) | Hướng dẫn nhanh tạo PDF từ tài liệu Word trong C# bằng Aspose.Words với ít mã, dễ thực hiện. |
 | [Chuyển đổi Markdown sang DOCX với Aspose.Words – Hướng dẫn C# đầy đủ](./convert-markdown-to-docx-with-aspose-words-complete-c-guide/) | Tìm hiểu cách chuyển đổi tệp Markdown sang DOCX bằng Aspose.Words cho .NET với hướng dẫn chi tiết và ví dụ mã C#. |
+| [Chuyển đổi docx sang pdf trong C# – Hướng dẫn chi tiết từng bước](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Hướng dẫn chi tiết cách chuyển đổi tệp docx sang pdf trong C# bằng Aspose.Words, kèm ví dụ mã nguồn và các tùy chọn nâng cao. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

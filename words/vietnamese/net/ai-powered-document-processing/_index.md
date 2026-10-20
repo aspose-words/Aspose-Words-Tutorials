@@ -84,6 +84,7 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Cách kiểm tra ngữ pháp trong C# với Aspose.Words AI – Hướng dẫn toàn diện](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Hướng dẫn chi tiết cách sử dụng AI của Aspose.Words trong C# để kiểm tra và cải thiện ngữ pháp tài liệu Word. |
 | [Tóm tắt tài liệu Word bằng C# – hướng dẫn từng bước sử dụng AI](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET và AI để tóm tắt tài liệu Word bằng C#. |
 | [Cách dịch DOCX sang tiếng Pháp và tự động hoá việc dịch tài liệu](./how-to-translate-docx-to-french-and-automate-document-transl/) | Hướng dẫn sử dụng Aspose.Words cho .NET để dịch tài liệu DOCX sang tiếng Pháp và tự động hoá quy trình dịch. |
+| [Cách gọi CheckGrammar trong C# – Hướng dẫn đầy đủ](./how-to-call-checkgrammar-in-c-complete-guide/) | Hướng dẫn chi tiết cách sử dụng phương thức CheckGrammar trong C# với Aspose.Words để kiểm tra ngữ pháp tài liệu. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

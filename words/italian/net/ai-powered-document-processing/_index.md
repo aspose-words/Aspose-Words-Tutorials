@@ -80,6 +80,7 @@ Infine, non dimenticare di dare un'occhiata al nostro [Lavorare con le opzioni d
 | [Come controllare la grammatica in C# con Aspose.Words AI – Guida completa](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Scopri come utilizzare l'AI di Aspose.Words per verificare la grammatica nei documenti Word con C# in modo semplice e accurato. |
 | [Riassumere documento Word in C# – guida passo‑passo con IA](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Scopri come riassumere documenti Word in C# usando l'intelligenza artificiale, con istruzioni dettagliate passo‑passo. |
 | [Come tradurre DOCX in francese e automatizzare la traduzione dei documenti](./how-to-translate-docx-to-french-and-automate-document-transl/) | Scopri come tradurre automaticamente file DOCX in francese usando Aspose.Words per .NET. |
+| [Come chiamare CheckGrammar in C# – Guida completa](./how-to-call-checkgrammar-in-c-complete-guide/) | Scopri come utilizzare il metodo CheckGrammar in C# con Aspose.Words per .NET per migliorare la correzione grammaticale dei documenti. |
 
 | [Come controllare la grammatica e riassumere un documento Word con Aspose.Words AI](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Scopri come verificare la grammatica e generare riassunti dei documenti Word usando l'AI di Aspose.Words. |
 | [Creare un riepilogo del documento con Aspose.Words e OpenAI](./create-document-summary-with-aspose-words-openai/) | Crea un riepilogo efficace dei documenti usando Aspose.Words per .NET e i modelli OpenAI. |

@@ -85,6 +85,7 @@ Cho dù bạn muốn chuyển đổi tài liệu Word sang PDF để phân phố
 | [Lưu tài liệu dưới dạng PDF trong C# – Hướng dẫn đầy đủ](./save-document-as-pdf-in-c-complete-guide/) | Hướng dẫn chi tiết cách lưu tài liệu Word thành PDF bằng C# với Aspose.Words, bao gồm các tùy chọn và mã mẫu. |
 | [Tạo PDF có thể truy cập – Chuyển đổi Word sang PDF bằng C#](./create-accessible-pdf-convert-word-to-pdf-with-c/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang PDF có khả năng truy cập bằng C# với Aspose.Words. |
 | [Lưu Word thành PDF – Hướng dẫn đầy đủ về khả năng truy cập](./save-word-as-pdf-complete-guide-with-accessibility/) | Hướng dẫn chi tiết cách lưu tài liệu Word thành PDF với tính năng truy cập, bao gồm thẻ, cấu trúc và nội dung cho người dùng khuyết tật. |
+| [Tạo PDF có thể truy cập từ Word – Hướng dẫn lập trình đầy đủ](./create-accessible-pdf-from-word-complete-programming-guide/) | Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập từ tài liệu Word bằng Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

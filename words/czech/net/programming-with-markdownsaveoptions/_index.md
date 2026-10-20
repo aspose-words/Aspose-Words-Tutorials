@@ -121,6 +121,7 @@ Zpracování textu pomocí MarkdownSaveOptions je podrobný návod, který vás 
 | [Uložte Word jako Markdown – Export tabulek do HTML pomocí Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/) | Naučte se exportovat tabulky z Wordu do HTML při ukládání jako Markdown pomocí Aspose.Words pro .NET. |
 | [Uložení markdownu jako docx v C# – krok za krokem průvodce](./save-markdown-as-docx-in-c-step-by-step-guide/) | Naučte se převést soubor Markdown na DOCX pomocí Aspose.Words v C# krok za krokem. |
 | [Uložení markdownu jako Word – krok za krokem průvodce pro vývojáře C#](./save-markdown-as-word-step-by-step-guide-for-c-developers/) |  |
+| [Uložení docx jako markdown – Kompletní průvodce s extrakcí obrázků](./save-docx-as-markdown-complete-guide-with-image-extraction/) | Naučte se převádět soubory DOCX do Markdownu a extrahovat obrázky pomocí Aspose.Words pro .NET. |
 
 | **[Uložení Wordu jako Markdown – Kompletní průvodce v C# s Aspose.Words](./save-word-as-markdown-complete-c-guide-with-aspose-words/)** | Naučte se kompletně exportovat dokumenty Word do Markdownu pomocí Aspose.Words v C#. |
 {{< /blocks/products/pf/tutorial-page-section >}}

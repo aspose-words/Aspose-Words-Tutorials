@@ -42,7 +42,6 @@ Pelajari cara mengonversi file DOCX menjadi Markdown dengan panduan lengkap term
 ### [Simpan docx sebagai markdown dengan persamaan LaTeX – Panduan C#](./save-docx-as-markdown-with-latex-equations-c-guide/)
 Pelajari cara menyimpan file DOCX sebagai Markdown dengan persamaan LaTeX menggunakan C#.
 ### [Simpan docx sebagai markdown – Panduan Lengkap C# dengan Ekstraksi Gambar](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
-Pelajari cara mengonversi file DOCX ke Markdown lengkap dengan ekstraksi gambar menggunakan C#.
 ### [Konversi Word ke Markdown – Panduan Lengkap dengan Ekstraksi Gambar](./convert-word-to-markdown-full-guide-with-image-extraction/)
 Pelajari cara mengonversi dokumen Word ke Markdown dengan ekstraksi gambar lengkap menggunakan C#.
 ### [Simpan docx sebagai markdown – Panduan Lengkap Langkah‑per‑Langkah](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/)
@@ -84,6 +83,8 @@ Pelajari cara mengekspor konten LaTeX dengan mengonversi file DOCX menjadi forma
 Pelajari cara mengganti nama gambar secara otomatis saat mengonversi file DOCX ke format Markdown menggunakan Aspose.Words untuk .NET.
 ### [Simpan docx sebagai markdown dengan Aspose.Words – Panduan Lengkap C#](./save-docx-as-markdown-with-aspose-words-full-c-guide/)
 Pelajari cara mengonversi file DOCX menjadi Markdown menggunakan Aspose.Words dengan panduan lengkap C#.
+### [Simpan docx sebagai markdown – Panduan Lengkap dengan Ekstraksi Gambar](./save-docx-as-markdown-complete-guide-with-image-extraction/)
+Pelajari cara mengonversi file DOCX menjadi Markdown lengkap dengan ekstraksi gambar menggunakan Aspose.Words.
 ### [Simpan Gambar Word – Konversi Word ke Markdown dengan Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
 Pelajari cara mengekspor gambar dari dokumen Word saat mengonversinya ke format Markdown menggunakan Aspose.Words.
 ### [Folder Gambar Khusus untuk Mengekspor Markdown dengan Gambar – Panduan Lengkap](./custom-image-folder-for-export-markdown-with-images-complete/)

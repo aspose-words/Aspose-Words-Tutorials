@@ -82,6 +82,7 @@ Terakhir, jangan lupa untuk memeriksa [Bekerja Dengan Opsi Ringkasan](./working-
 | [Cara Memeriksa Tata Bahasa di C# dengan Aspose.Words AI – Panduan Lengkap](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Pelajari cara menggunakan Aspose.Words AI di C# untuk memeriksa tata bahasa dokumen secara otomatis. |
 | [Meringkas dokumen Word dalam C# – panduan langkah demi langkah menggunakan AI](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Pelajari cara meringkas dokumen Word dengan C# menggunakan AI secara mudah dan efisien. |
 | [Cara Menerjemahkan DOCX ke Bahasa Prancis dan Mengotomatiskan Terjemahan Dokumen](./how-to-translate-docx-to-french-and-automate-document-transl/) | Pelajari cara mengonversi file DOCX ke bahasa Prancis secara otomatis menggunakan Aspose.Words untuk .NET. |
+| [Cara Memanggil CheckGrammar di C# – Panduan Lengkap](./how-to-call-checkgrammar-in-c-complete-guide/) | Pelajari cara menggunakan metode CheckGrammar di C# dengan Aspose.Words untuk memeriksa tata bahasa dokumen secara otomatis. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

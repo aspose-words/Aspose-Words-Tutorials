@@ -55,6 +55,7 @@
 ### [บันทึก docx เป็น markdown – คู่มือ C# สมบูรณ์พร้อมการสกัดรูปภาพ](./save-docx-as-markdown-complete-c-guide-with-image-extraction/)
 ### [แปลง Word เป็น Markdown – คู่มือเต็มพร้อมการสกัดรูปภาพ](./convert-word-to-markdown-full-guide-with-image-extraction/)
 ### [บันทึก docx เป็น markdown – คู่มือเต็มกับย่อหน้าว่าง](./save-docx-as-markdown-complete-guide-with-empty-paragraphs/)
+### [บันทึก docx เป็น markdown – คู่มือเต็มพร้อมการสกัดรูปภาพ](./save-docx-as-markdown-complete-guide-with-image-extraction/)
 
 ### [วิธีส่งออก Markdown จาก Word – คู่มือเต็ม C#](./how-to-export-markdown-from-word-complete-c-guide/)
 เรียนรู้ขั้นตอนการส่งออกไฟล์ Word เป็น Markdown อย่างครบถ้วนด้วย C+

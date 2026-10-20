@@ -86,6 +86,9 @@
 | [Πώς να ανιχνεύσετε την αντικατάσταση στο Aspose.Words – Διαχείριση ελλιπών γραμματοσειρών](./how-to-detect-substitution-in-aspose-words-handle-missing-fo/) | Μάθετε πώς να ανιχνεύετε την αντικατάσταση γραμματοσειρών και να διαχειρίζεστε ελλιπείς γραμματοσειρές στο Aspose.Words για .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+| [Πώς να ορίσετε FontSettings – Διαχείριση ελλιπών γραμματοσειρών](./how-to-set-fontsettings-handle-missing-fonts/) | Μάθετε πώς να ρυθμίσετε FontSettings για να αντιμετωπίζετε ελλιπείς γραμματοσειρές σε έγγραφα Word με Aspose.Words για .NET. |
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

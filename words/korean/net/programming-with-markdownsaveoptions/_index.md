@@ -124,6 +124,7 @@
 
 | [docx를 markdown으로 저장 – LaTeX 수식 포함 전체 가이드](./save-docx-as-markdown-complete-guide-with-latex-equations/) | Aspose.Words for .NET을 사용하여 LaTeX 수식이 포함된 docx를 Markdown으로 변환하는 전체 가이드 |
 | [C#에서 마크다운을 docx로 저장하는 단계별 가이드](./save-markdown-as-docx-in-c-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 C#에서 마크다운을 docx 파일로 저장하는 단계별 가이드 |
+| [docx를 markdown으로 저장 – 이미지 추출 포함 전체 가이드](./save-docx-as-markdown-complete-guide-with-image-extraction/) | Aspose.Words for .NET을 사용하여 이미지 추출과 함께 docx 파일을 markdown 형식으로 저장하는 전체 단계별 가이드 |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

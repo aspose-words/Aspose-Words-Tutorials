@@ -83,6 +83,7 @@
 | [C# में Aspose.Words AI के साथ व्याकरण जांच कैसे करें – पूर्ण गाइड](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | C# में Aspose.Words AI का उपयोग करके व्याकरण जांच करने का पूर्ण मार्गदर्शन। |
 | [C# में Word दस्तावेज़ का सारांश – AI के साथ चरण‑बद्ध गाइड](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | C# में Aspose.Words और AI का उपयोग करके Word दस्तावेज़ को चरण‑बद्ध तरीके से सारांशित करना सीखें। |
 | [DOCX को फ्रेंच में अनुवाद करना और दस्तावेज़ अनुवाद को स्वचालित करना](./how-to-translate-docx-to-french-and-automate-document-transl/) | Aspose.Words का उपयोग करके DOCX फ़ाइलों को फ्रेंच में अनुवादित करें और प्रक्रिया को स्वचालित करें। |
+| [C# में CheckGrammar को कॉल करने का तरीका – पूर्ण गाइड](./how-to-call-checkgrammar-in-c-complete-guide/) | C# में Aspose.Words के CheckGrammar फ़ंक्शन को उपयोग करने के चरण-दर-चरण मार्गदर्शन। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

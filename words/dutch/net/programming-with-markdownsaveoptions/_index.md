@@ -72,6 +72,7 @@ Leer hoe u docx-bestanden exporteert naar markdown met een volledige C#‑handle
 
 ### [Docx opslaan als markdown – Gids voor afbeeldingsextractie in C#](./save-docx-as-markdown-extract-images-c-guide/)
 
+### [Docx opslaan als markdown – Complete gids met afbeeldingsextractie](./save-docx-as-markdown-complete-guide-with-image-extraction/)
 Leer hoe u docx-bestanden opslaat als markdown en afbeeldingen extraheert met een volledige C#‑handleiding.
 
 ### [Word naar Markdown converteren – Afbeeldingen extraheren in C#](./convert-word-to-markdown-extract-images-in-c/)
@@ -136,8 +137,6 @@ Leer hoe u Word-documenten opslaat als Markdown met een volledige C#-handleiding
 Leer stap‑voor‑stap hoe u met Aspose.Words voor .NET Markdown genereert vanuit Word‑documenten.
 
 ### [Hoe LaTeX vanuit Word te exporteren: DOCX naar Markdown converteren met Aspose](./how-to-export-latex-from-word-convert-docx-to-markdown-with/)
-Leer hoe u LaTeX‑inhoud uit een Word‑document exporteert en converteert naar Markdown met Aspose.Words voor .NET.
-
 ### [Word naar Markdown – Afbeeldingen insluiten als Base64](./convert-word-to-markdown-embed-images-as-base64/)
 Leer hoe u Word-documenten naar Markdown converteert en afbeeldingen embed als Base64‑strings met Aspose.Words voor .NET.
 
@@ -155,8 +154,6 @@ Leer hoe u afbeeldingen een nieuwe naam geeft tijdens het converteren van DOCX n
 ### [Word opslaan als Markdown – Tabellen exporteren naar HTML met Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/)
 Leer hoe u Word-documenten opslaat als Markdown en tabellen exporteert naar HTML met Aspose.Words voor .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 ### [Export docx naar markdown in C# – Complete gids](./export-docx-to-markdown-in-c-complete-guide/)
 
 Leer hoe u docx-bestanden naar markdown converteert met een volledige C#-stappenplan.
@@ -165,8 +162,6 @@ Leer hoe u docx-bestanden naar markdown converteert met een volledige C#-stappen
 ### [Markdown opslaan als docx in C# – stapsgewijze gids](./save-markdown-as-docx-in-c-step-by-step-guide/)
 ### [Markdown opslaan als Word – stapsgewijze gids voor C#‑ontwikkelaars](./save-markdown-as-word-step-by-step-guide-for-c-developers/)
 Leer hoe u Markdown-bestanden omzet naar Word met een stapsgewijze C#‑handleiding.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
 
 Leer hoe u Markdown opslaat met een volledige C#‑gids.
 

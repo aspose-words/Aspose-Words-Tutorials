@@ -84,6 +84,7 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [C# ile Aspose.Words AI ile Dilbilgisi Kontrolü – Tam Kılavuz](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | C# ve Aspose.Words AI kullanarak belgelerinizde dilbilgisi hatalarını otomatik olarak tespit etmeyi öğrenin. |
 | [C# ile Word Belgesini Özetleme – AI Kullanarak Adım Adım Rehber](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | AI kullanarak C# ile Word belgesini adım adım özetlemeyi öğrenin. |
 | [DOCX'i Fransızcaya Çevirme ve Belge Çevirisini Otomatikleştirme](./how-to-translate-docx-to-french-and-automate-document-transl/) |  |
+| [C#'ta CheckGrammar Çağırma – Tam Kılavuz](./how-to-call-checkgrammar-in-c-complete-guide/) | C# ile Aspose.Words'te CheckGrammar metodunu nasıl kullanacağınızı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -80,6 +80,7 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
 | [Hogyan ellenőrizze a nyelvtant C#-ban az Aspose.Words AI segítségével – Teljes útmutató](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Tanulja meg, hogyan használhatja az Aspose.Words AI-t a C# nyelvtani ellenőrzéshez, részletes lépésekkel. |
 | [Word dokumentum összefoglalása C#‑ban – lépésről lépésre útmutató AI használatával](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Ismerje meg, hogyan használhatja az AI-t a Word dokumentumok C#‑os összefoglalásához lépésről lépésre. |
 | [Hogyan fordítsa le a DOCX-et franciára és automatizálja a dokumentumfordítást](./how-to-translate-docx-to-french-and-automate-document-transl/) | Az Aspose.Words for .NET segítségével automatikusan lefordíthatja a DOCX fájlokat franciára. |
+| [CheckGrammar meghívása C#-ban – Teljes útmutató](./how-to-call-checkgrammar-in-c-complete-guide/) | Ismerje meg, hogyan hívhatja meg a CheckGrammar funkciót C#-ban az Aspose.Words for .NET segítségével, lépésről lépésre útmutató. |
 
 | [Dokumentumösszefoglaló létrehozása Aspose.Words & OpenAI segítségével](./create-document-summary-with-aspose-words-openai/) | Ismerje meg, hogyan hozhat létre hatékony összefoglalókat a Word-dokumentumokból az Aspose.Words és az OpenAI modelljeivel. |
 | [docx fordítása franciára az Aspose.Words és a Google API segítségével](./translate-docx-to-french-with-aspose-words-and-google-api/) | Tanulja meg, hogyan fordíthatja a DOCX fájlokat franciára az Aspose.Words és a Google API használatával. |

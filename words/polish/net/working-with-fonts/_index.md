@@ -83,6 +83,7 @@ Niezależnie od tego, czy chcesz formatować tekst za pomocą różnych czfontek
 | [Jak wykrywać czcionki w C# – Kompletny przewodnik](./how-to-detect-fonts-in-c-complete-guide/) | Dowiedz się, jak wykrywać zainstalowane czcionki w aplikacjach C# przy użyciu Aspose.Words dla .NET. |
 | [Podstawianie czcionek Aspose – Wykrywanie brakujących czcionek w dokumentach Word](./aspose-font-substitution-detect-missing-fonts-in-word-docume/) | Dowiedz się, jak wykrywać brakujące czcionki w dokumentach Word przy użyciu Aspose.Words dla .NET. |
 | [Jak wykrywać czcionki w Aspose.Words – Kompletny przewodnik](./how-to-detect-fonts-in-aspose-words-complete-guide/) | Dowiedz się, jak wykrywać czcionki w dokumentach przy użyciu Aspose.Words dla .NET w tym kompletnym przewodniku. |
+| [Jak ustawić FontSettings – obsługa brakujących czcionek](./how-to-set-fontsettings-handle-missing-fonts/) | Dowiedz się, jak skonfigurować FontSettings, aby wykrywać i obsługiwać brakujące czcionki w dokumentach Word przy użyciu Aspose.Words dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

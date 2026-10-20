@@ -84,6 +84,7 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Hoe grammatica te controleren in C# met Aspose.Words AI – Complete gids](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Leer hoe u met Aspose.Words AI grammatica controleert in C# voor nauwkeurige documenten. |
 | [Samenvatten van Word-document in C# – stapsgewijze handleiding met AI](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Leer hoe u een Word-document in C# kunt samenvatten met AI, stap voor stap. |
 | [DOCX naar Frans vertalen en documentvertaling automatiseren](./how-to-translate-docx-to-french-and-automate-document-transl/) | Leer hoe u DOCX-bestanden automatisch naar het Frans vertaalt met Aspose.Words en AI-automatisering. |
+| [Hoe CheckGrammar aan te roepen in C# – Complete gids](./how-to-call-checkgrammar-in-c-complete-guide/) | Leer hoe u CheckGrammar in C# kunt aanroepen met Aspose.Words voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

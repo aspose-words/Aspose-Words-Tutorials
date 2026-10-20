@@ -84,6 +84,7 @@ Por fim, não se esqueça de conferir nosso [Trabalhando com opções de resumo]
 | [Como Verificar Gramática em C# com Aspose.Words AI – Guia Completo](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Aprenda a usar a IA do Aspose.Words para corrigir gramática em documentos Word via C#, passo a passo. |
 | [Resumir documento Word em C# – guia passo a passo usando IA](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Aprenda a resumir documentos Word em C# usando IA com um guia detalhado passo a passo. |
 | [Como traduzir DOCX para francês e automatizar a tradução de documentos](./how-to-translate-docx-to-french-and-automate-document-transl/) | Aprenda a usar Aspose.Words para .NET para traduzir arquivos DOCX para francês e automatizar o processo de tradução. |
+| [Como chamar CheckGrammar em C# – Guia completo](./how-to-call-checkgrammar-in-c-complete-guide/) | Aprenda a usar o método CheckGrammar do Aspose.Words em C# para melhorar a correção gramatical de documentos. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

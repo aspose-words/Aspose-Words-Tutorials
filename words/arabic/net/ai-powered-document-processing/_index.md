@@ -84,6 +84,7 @@
 | [كيفية فحص القواعد النحوية في C# باستخدام Aspose.Words AI – دليل كامل](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | تعلم كيفية استخدام Aspose.Words AI في C# للتحقق من القواعد النحوية في مستندات Word بدقة وسهولة. |
 | [تلخيص مستند Word باستخدام C# – دليل خطوة بخطوة باستخدام الذكاء الاصطناعي](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | دليل شامل لتلخيص مستندات Word في C# باستخدام نماذج الذكاء الاصطناعي خطوة بخطوة. |
 | [كيفية ترجمة ملف DOCX إلى الفرنسية وأتمتة ترجمة المستند](./how-to-translate-docx-to-french-and-automate-document-transl/) | تعلم كيفية ترجمة مستندات DOCX إلى الفرنسية تلقائيًا باستخدام Aspose.Words ودمج نماذج الذكاء الاصطناعي. |
+| [كيفية استدعاء CheckGrammar في C# – دليل شامل](./how-to-call-checkgrammar-in-c-complete-guide/) | تعلم كيفية استدعاء طريقة CheckGrammar في Aspose.Words لـ .NET باستخدام C# لتحسين التدقيق اللغوي. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

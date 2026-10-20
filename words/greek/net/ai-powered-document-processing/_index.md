@@ -83,6 +83,7 @@
 | [Πώς να ελέγξετε τη γραμματική σε C# με το Aspose.Words AI – Πλήρης Οδηγός](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words AI για αυτόματο έλεγχο γραμματικής σε έγγραφα Word μέσω C#. |
 | [Σύνοψη εγγράφου Word σε C# – βήμα‑βήμα οδηγός με AI](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Μάθετε πώς να συνοψίζετε έγγραφα Word σε C# με AI, βήμα‑βήμα. |
 | [Πώς να μεταφράσετε DOCX στα γαλλικά και να αυτοματοποιήσετε τη μετάφραση εγγράφων](./how-to-translate-docx-to-french-and-automate-document-transl/) | Μάθετε πώς να μεταφράζετε αρχεία DOCX στα γαλλικά και να αυτοματοποιήσετε τη διαδικασία με το Aspose.Words για .NET. |
+| [Πώς να καλέσετε το CheckGrammar σε C# – Πλήρης Οδηγός](./how-to-call-checkgrammar-in-c-complete-guide/) | Μάθετε πώς να χρησιμοποιήσετε τη μέθοδο CheckGrammar στο Aspose.Words για .NET με C# για έλεγχο γραμματικής εγγράφων. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

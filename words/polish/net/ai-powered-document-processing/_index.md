@@ -83,6 +83,7 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Jak sprawdzić gramatykę w C# przy użyciu Aspose.Words AI – Kompletny przewodnik](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Dowiedz się, jak wykorzystać AI Aspose.Words w C# do automatycznej korekty gramatycznej dokumentów Word. |
 | [Podsumuj dokument Word w C# – przewodnik krok po kroku z użyciem AI](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Dowiedz się, jak w C# podsumować dokument Word przy pomocy AI, korzystając z Aspose.Words – prosty przewodnik krok po kroku. |
 | [Jak przetłumaczyć DOCX na francuski i zautomatyzować tłumaczenie dokumentu](./how-to-translate-docx-to-french-and-automate-document-transl/) | Dowiedz się, jak automatycznie tłumaczyć pliki DOCX na język francuski przy użyciu Aspose.Words. |
+| [Jak wywołać CheckGrammar w C# – Kompletny przewodnik](./how-to-call-checkgrammar-in-c-complete-guide/) | Pełny przewodnik, jak używać metody CheckGrammar w C# z Aspose.Words, aby sprawdzić i poprawić gramatykę dokumentów. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
