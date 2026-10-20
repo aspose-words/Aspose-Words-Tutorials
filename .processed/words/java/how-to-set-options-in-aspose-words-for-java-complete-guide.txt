@@ -1,0 +1,7 @@
+Title: How to set options in Aspose.Words for Java – complete guide
+Slug: how-to-set-options-in-aspose-words-for-java-complete-guide
+Category: document-loading-and-saving
+ProcessedDate: 2026-08-08T04:20:03.125605
+SourceRepo: AI Search API
+Keywords: how to set options, save as docx, change document encoding, set document encoding, source encoding java
+PRNumber: 246

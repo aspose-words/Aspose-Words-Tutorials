@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Dengan menggunakan Aspose.Words, tutorial ini membuat dokumen Word, menyisipkan diagram kolom, memperbarui judul diagram dengan teks yang diberikan pengguna, dan mengubah visibilitas serta overlay legenda berdasarkan preferensi pengguna.
+//ExStepSummary:0: Tentukan judul diagram yang diberikan pengguna dan apakah legenda harus ditampilkan.
+//ExStepSummary:1: Buat dokumen Word baru dan DocumentBuilder untuk menambahkan konten.
+//ExStepSummary:2: Sisipkan diagram kolom berukuran 432 × 252 pt ke dalam dokumen dan verifikasi bahwa shape tersebut memang berisi diagram.
+//ExStepSummary:3: Ambil objek chart, atur teks judulnya ke nilai yang diberikan pengguna, dan pastikan judul ditampilkan.
+//ExStepSummary:4: Konfigurasikan legenda: tampilkan di sebelah kanan jika diminta, jika tidak sembunyikan, dan izinkan legenda menutupi area plot.
+//ExStepSummary:5: Simpan dokumen yang telah dimodifikasi ke disk dengan nama CustomChart.docx.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+string chartHeader = "Fiscal Q1 Performance Summary";
+bool displayLegend = false;
+
+//ExStep:1-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:2-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+if (!chartContainer.HasChart)
+    throw new InvalidOperationException("The inserted shape does not contain a chart.");
+
+//ExStep:3-
+Chart chartObj = chartContainer.Chart;
+ChartTitle chartTitle = chartObj.Title;
+chartTitle.Text = chartHeader;
+chartTitle.Show = true;
+
+//ExStep:4-
+ChartLegend chartLegend = chartObj.Legend;
+chartLegend.Position = displayLegend ? LegendPosition.Right : LegendPosition.None;
+chartLegend.Overlay = true;
+
+//ExStep:5-
+wordDoc.Save("CustomChart.docx");
+//ExEnd

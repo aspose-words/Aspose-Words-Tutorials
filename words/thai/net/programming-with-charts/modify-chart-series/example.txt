@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: บทแนะนำนี้แสดงวิธีสร้างเอกสาร Word พร้อมแผนภูมิคอลัมน์, เปิดเอกสารใหม่อีกครั้ง, ดึงข้อมูลซีรีส์ของแผนภูมิที่มีอยู่, แก้ไขจุดข้อมูลของมัน, และบันทึกไฟล์ที่อัปเดตเพื่อให้แผนภูมิแสดงค่าที่ใหม่
+//ExStepSummary:0: สร้าง Document ใหม่, แทรกแผนภูมิคอลัมน์ด้วย DocumentBuilder, แล้วบันทึกเป็นไฟล์เริ่มต้น
+//ExStepSummary:1: เปิดไฟล์ที่บันทึกไว้และค้นหา shape ของแผนภูมิเพื่อรับอ็อบเจ็กต์ Chart ที่มีอยู่
+//ExStepSummary:2: ล้างค่าของซีรีส์แรกและเพิ่มจุดใหม่, จากนั้นปรับซีรีส์ที่สองโดยลบจุดแรกออกและเพิ่มจุดใหม่หนึ่งจุด
+//ExStepSummary:3: บันทึกเอกสารที่แก้ไขเป็นไฟล์ใหม่ที่มีแผนภูมิอัปเดต
+//ExStepImage:0:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+Document document = new Document();
+DocumentBuilder builder = new DocumentBuilder(document);
+Shape chartContainer = builder.InsertChart(ChartType.Column, 432, 252);
+Chart chartObject = chartContainer.Chart;
+const string sourceFile = "initial_chart.docx";
+document.Save(sourceFile);
+
+//ExStep:1-
+Document openedDoc = new Document(sourceFile);
+Shape? chartShape = openedDoc.GetChildNodes(NodeType.Shape, true)
+                                    .OfType<Shape>()
+                                    .FirstOrDefault(s => s.HasChart);
+if (chartShape == null)
+    throw new InvalidOperationException("Unable to locate a chart shape inside the document.");
+Chart existingChart = chartShape.Chart;
+
+//ExStep:2-
+if (existingChart.Series.Count > 0)
+{
+    ChartSeries primarySeries = existingChart.Series[0];
+    primarySeries.ClearValues();
+
+    primarySeries.Add(ChartXValue.FromString("Group A"), ChartYValue.FromDouble(15));
+    primarySeries.Add(ChartXValue.FromString("Group B"), ChartYValue.FromDouble(30));
+    primarySeries.Add(ChartXValue.FromString("Group C"), ChartYValue.FromDouble(45));
+}
+
+if (existingChart.Series.Count > 1)
+{
+    ChartSeries secondarySeries = existingChart.Series[1];
+    if (secondarySeries.YValues.Count > 0)
+        secondarySeries.Remove(0);
+
+    secondarySeries.Add(ChartXValue.FromString("Group D"), ChartYValue.FromDouble(25));
+}
+
+//ExStep:3-
+const string resultFile = "updated_chart.docx";
+openedDoc.Save(resultFile);
+//ExEnd

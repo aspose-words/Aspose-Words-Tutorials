@@ -104,6 +104,8 @@ Java için Aspose.Words'ün Gücünü Açın. Kusursuz Belge Yönetimi için Ana
 Aspose.Words for Java ile belge yönetimini optimize edin. Bu kapsamlı eğitimde belge özellikleriyle çalışmayı, özel meta veri eklemeyi ve daha fazlasını öğrenin.
 ### [Java için Aspose.Words'de Web Uzantılarını Kullanma](./using-web-extensions/)
 Aspose.Words for Java'da Web Uzantılarıyla Belgeleri Geliştirin. Web tabanlı içeriği sorunsuz bir şekilde entegre etmeyi öğrenin. 
+### [Java için PDF erişilebilirlik etiketleme – Erişilebilir PDF'ler Oluşturma](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Aspose.Words for Java kullanarak PDF'leri erişilebilir hale getirmek için etiket eklemeyi ve yapılandırmayı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

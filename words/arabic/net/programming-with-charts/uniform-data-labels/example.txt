@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: يوضح هذا البرنامج التعليمي كيفية إنشاء مستند Word، وإدراج مخطط عمودي، وإضافة سلاسل بيانات مخصصة، وتحديد حجم الخط ولون التسمية الافتراضيين للبيانات بحيث يتم تطبيقهما بشكل موحد على جميع السلاسل في المخطط.
+//ExStepSummary:0: أنشئ مستند Word جديد فارغ وDocumentBuilder لتعديله.
+//ExStepSummary:1: أدرج مخططًا عموديًا بحجم 500×300 في المستند واحصل على كائن Chart الخاص به.
+//ExStepSummary:2: احذف سلسلة العينة الافتراضية التي يضيفها Aspose.Words إلى مخطط جديد.
+//ExStepSummary:3: حدد تسميات الفئات وأضف سلسلتين من البيانات (Item Alpha وItem Beta) مع قيمهما إلى المخطط.
+//ExStepSummary:4: حدد حجم الخط واللون الأساسيين اللذين سيُطبقان على جميع تسميات البيانات.
+//ExStepSummary:5: فعّل تسميات البيانات لكل سلسلة، اعرض القيمة الرقمية، وطبق حجم الخط واللون المحددين مسبقًا.
+//ExStepSummary:6: احفظ المستند كملف .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document document = new Document();
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:1-
+Shape chartContainer = builder.InsertChart(ChartType.Column, 500, 300);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+
+//ExStep:3-
+string[] periods = { "Period 1", "Period 2", "Period 3", "Period 4" };
+chart.Series.Add("Item Alpha", periods, new double[] { 120, 150, 170, 130 });
+chart.Series.Add("Item Beta", periods, new double[] { 80, 110, 140, 100 });
+
+//ExStep:4-
+const float labelFontSize = 10f;
+Color labelFontColor = Color.White;
+
+//ExStep:5-
+foreach (ChartSeries series in chart.Series)
+{
+    series.HasDataLabels = true;
+    series.DataLabels.ShowValue = true;
+    series.DataLabels.Font.Size = labelFontSize;
+    series.DataLabels.Font.Color = labelFontColor;
+}
+
+//ExStep:6-
+document.Save("UniformLabelChart.docx");
+//ExEnd

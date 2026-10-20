@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: Dieses Tutorial zeigt, wie man Seitenumbrüche in ein Word‑Dokument mit Aspose.Words Document und DocumentBuilder einfügt.
+//ExStepSummary:0: Erstellen Sie ein Document‑Objekt und einen DocumentBuilder, die zum Hinzufügen von Inhalten verwendet werden.
+//ExStepSummary:1: Schreiben Sie den Text der ersten Seite und fügen Sie einen Seitenumbruch ein, damit der nächste Inhalt auf einer neuen Seite beginnt.
+//ExStepSummary:2: Schreiben Sie den Text der zweiten Seite und fügen Sie einen weiteren Seitenumbruch ein, um die dritte Seite zu beginnen.
+//ExStepSummary:3: Schreiben Sie den Text der dritten Seite und vervollständigen Sie das dreiseitige Dokument.
+//ExStepSummary:4: Speichern Sie das zusammengefügte Dokument als .docx‑Datei im angegebenen Verzeichnis.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("This is page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:2-
+builder.Writeln("This is page 2.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+builder.Writeln("This is page 3.");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd
