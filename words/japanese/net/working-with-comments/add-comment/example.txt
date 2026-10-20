@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: このチュートリアルでは、Aspose.Words を使用して新しい Word ドキュメントを作成し、3 つの段落を追加し、特定の段落を検索し、著者情報付きのコメントを付けて、結果を DOCX ファイルとして保存する方法を示します。
+//ExStepSummary:0: 新しい Document と DocumentBuilder をインスタンス化して、Word ファイルの作成を開始します。
+//ExStepSummary:1: DocumentBuilder.Writeln を使用して、文書に 3 つの個別の段落テキストを追加します。
+//ExStepSummary:2: 文書に段落が 2 つ未満の場合は最初の段落にフォールバックし、2 番目の段落を安全に取得します。
+//ExStepSummary:3: 著者情報を含む Comment を作成し、テキストを設定して、選択した段落に添付します。
+//ExStepSummary:4: 変更されたドキュメントを現在のフォルダーにある 'sample.docx' という名前の DOCX ファイルとして保存します。
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder builderObj = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+builderObj.Writeln("Introductory line.");
+builderObj.Writeln("Middle line.");
+builderObj.Writeln("Concluding line.");
+
+//ExStep:2-
+Paragraph? chosenParagraph = null;
+ParagraphCollection? paraList = wordDoc.FirstSection?.Body?.Paragraphs;
+if (paraList != null && paraList.Count > 1)
+{
+    chosenParagraph = paraList[1];
+}
+else if (paraList != null && paraList.Count > 0)
+{
+    chosenParagraph = paraList[0];
+}
+
+//ExStep:3-
+if (chosenParagraph != null)
+{
+    Comment note = new Comment(wordDoc, "Jordan", "JH", DateTime.Now);
+    note.SetText("Please examine this section.");
+    chosenParagraph.AppendChild(note);
+}
+
+//ExStep:4-
+wordDoc.Save("sample.docx");
+//ExEnd

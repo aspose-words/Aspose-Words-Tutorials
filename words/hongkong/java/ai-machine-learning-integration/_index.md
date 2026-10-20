@@ -66,6 +66,11 @@ AI 文件處理將傳統的文件操作（合併、格式化、轉換）與機�
 ### [Master Text Processing in Java&#58; Using Aspose.Words & AI Models for Summarization and Translation](./java-aspose-words-text-processing/)
 了解如何使用 Aspose.Words for Java 搭配 OpenAI 的 GPT‑4 與 Google 的 Gemini，自動化文字摘要與翻譯，立即提升您的 Java 應用程式。
 
+### [如何設定 LLM – 使用 AI 替換 DOCX 中的文字](./how-to-configure-llm-replace-text-in-docx-with-ai/)
+學習如何設定大型語言模型，使用 AI 自動在 DOCX 文件中搜尋並替換指定文字。
+### [建立自訂 AI 模型 – 在 Java 中編輯 Word 段落](./create-custom-ai-model-edit-word-paragraphs-in-java/)
+學習如何建立自訂 AI 模型，並在 Java 中使用 Aspose.Words 編輯 Word 段落內容。
+
 ## 其他資源
 
 - [Aspose.Words for Java 文件說明](https://reference.aspose.com/words/java/)
@@ -92,6 +97,14 @@ A: 在插入前先驗證 AI 輸出。使用 Aspose.Words 的 `DocumentBuilder` �
 **Q: 是否需要為特定領域語言重新訓練模型？**  
 A: 大多數情況下，預訓練模型已足夠。若需更高精準度，可自行微調模型後透過相同 API 呼叫。
 
+---
+
+---
+
+**最後更新：** 2025-11-25  
+**測試環境：** Aspose.Words for Java 24.11  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -99,9 +112,3 @@ A: 大多數情況下，預訓練模型已足夠。若需更高精準度，可�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-11-25  
-**測試環境：** Aspose.Words for Java 24.11  
-**作者：** Aspose

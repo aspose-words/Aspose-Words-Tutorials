@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Met behulp van de Document- en DocumentBuilder-klassen laat deze tutorial zien hoe je een dynamisch DATE‑veld toevoegt aan de primaire koptekst van een Word‑document en vervolgens het bestand opslaat.
+//ExStepSummary:0: Maak een nieuw Document en een DocumentBuilder aan om het te bewerken.
+//ExStepSummary:1: Verplaats de cursor van de builder naar de primaire koptekst zodat volgende invoegingen de koptekst beïnvloeden.
+//ExStepSummary:2: Schrijf het statische label en voeg een DATE‑veld met de opmaak “MMMM d, yyyy” toe aan de koptekst, waarmee een dynamische datum wordt gecreëerd.
+//ExStepSummary:3: Keer terug naar de hoofdtekst en voeg een voorbeeldparagraaf toe, waarmee normale documentinhoud naast de koptekst wordt gedemonstreerd.
+//ExStepSummary:4: Sla het document op als een .docx‑bestand.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+builder.Write("Generated on: ");
+builder.InsertField("DATE \\@ \"MMMM d, yyyy\"");
+
+//ExStep:3-
+builder.MoveToDocumentEnd();
+builder.Writeln("This is the document body.");
+
+//ExStep:4-
+doc.Save("HeaderDate.docx");
+//ExEnd

@@ -1,20 +1,14 @@
 ---
-date: '2025-11-13'
-description: Aprenda a usar Aspose.Words para Java LayoutCollector y LayoutEnumerator
-  para analizar intervalos de página, recorrer entidades de diseño, implementar devoluciones
-  de llamada y reiniciar la numeración de páginas de manera eficiente.
+date: '2026-01-14'
+description: Aprende cómo reiniciar la numeración de páginas con Aspose.Words Java
+  y usar LayoutCollector para extraer datos de paginación, actualizar el diseño de
+  la página y renderizar las páginas como imágenes.
 keywords:
 - Aspose.Words Java LayoutCollector
 - Java document layout management
 - LayoutEnumerator traversal
-- page span analysis java
-- traverse layout entities java
-- page layout callbacks java
-- restart page numbering java
-- document pagination Java
-- Aspose.Words layout API
-- Java text processing
-title: 'Aspose.Words Java: Guía de LayoutCollector y LayoutEnumerator'
+title: Reiniciar la numeración de páginas con Aspose.Words Java – LayoutCollector
+  y LayoutEnumerator
 url: /es/java/advanced-text-processing/aspose-words-java-layoutcollector-enumerator-guide/
 weight: 1
 ---
@@ -25,26 +19,40 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Domina Aspose.Words Java: Guía Completa de LayoutCollector y LayoutEnumerator para el Procesamiento de Texto
+# Reiniciar la numeración de páginas con Aspose.Words Java – LayoutCollector y LayoutEnumerator
 
 ## Introducción
 
-¿Te enfrentas a desafíos al gestionar diseños de documentos complejos con tus aplicaciones Java? Ya sea determinar cuántas páginas abarca una sección o recorrer entidades de diseño de manera eficiente, estas tareas pueden resultar abrumadoras. Con **Aspose.Words for Java**, dispones de herramientas potentes como `LayoutCollector` y `LayoutEnumerator` que simplifican estos procesos, permitiéndote centrarte en ofrecer contenido excepcional. En esta guía exhaustiva, exploraremos cómo utilizar estas funciones para mejorar tus capacidades de procesamiento de documentos.
+¿Tienes problemas para **reiniciar la numeración de páginas** en documentos Java de gran tamaño y además necesitas analizar la paginación o renderizar páginas como imágenes? Con **Aspose.Words for Java**, puedes aprovechar `LayoutCollector` y `LayoutEnumerator` no solo para reiniciar la numeración de páginas sino también para **extraer datos de paginación**, **actualizar el diseño de página** y **renderizar páginas como imágenes** para vistas previas o PDFs. Esta guía te acompaña paso a paso, desde la configuración de la biblioteca hasta la implementación de callbacks que te brindan control total sobre la renderización del documento.
 
-**Lo que aprenderás:**
-- Utilizar `LayoutCollector` de Aspose.Words para un análisis preciso del rango de páginas.
-- Recorrer documentos de forma eficiente con `LayoutEnumerator`.
-- Implementar callbacks de diseño para renderizado y actualizaciones dinámicas.
-- Controlar la numeración de páginas en secciones continuas de manera efectiva.
+**Lo que aprenderás**
+- Cómo usar `LayoutCollector` para extraer datos de paginación y determinar rangos de páginas.
+- Recorrer el diseño del documento con `LayoutEnumerator`.
+- Implementar callbacks de diseño de página para **renderizar páginas como imágenes**.
+- **Reiniciar la numeración de páginas** en secciones continuas mediante opciones de diseño.
+- Consejos para **actualizar el diseño de página** de manera eficiente.
 
-Vamos a sumergirnos en cómo estas herramientas pueden transformar tus procesos de manejo de documentos. Antes de comenzar, asegúrate de estar listo revisando nuestra sección de requisitos previos a continuación.
+## Respuestas rápidas
+- **¿Cómo reinicio la numeración de páginas en un documento Java?** Usa `doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(...)` y llama a `doc.updatePageLayout()`.
+- **¿Qué clase extrae los datos de paginación?** `LayoutCollector` proporciona índices de página de inicio y fin para cualquier nodo.
+- **¿Puedo renderizar cada página como una imagen?** Sí—implementa `IPageLayoutCallback` y usa `ImageSaveOptions`.
+- **¿Necesito llamar a actualizar el diseño de página manualmente?** Después de cambiar las opciones de diseño, siempre llama a `doc.updatePageLayout()`.
+- **¿Qué versión de Aspose.Words se requiere?** Los ejemplos funcionan con Aspose.Words for Java 25.3 (o posterior).
 
-## Requisitos Previos
+## ¿Qué es reiniciar la numeración de páginas?
 
-Para seguir esta guía, asegúrate de contar con lo siguiente:
+Reiniciar la numeración de páginas permite comenzar una nueva secuencia de numeración en una sección específica del documento, lo cual es esencial para informes, libros o contratos que requieren numeración separada para capítulos o apéndices. Aspose.Words ofrece una opción de diseño que permite controlar este comportamiento sin trucos manuales de salto de página.
 
-### Bibliotecas y Versiones Requeridas
-Asegúrate de tener Aspose.Words for Java versión 25.3 instalado.
+## ¿Por qué usar LayoutCollector y LayoutEnumerator?
+
+- **LayoutCollector** te brinda acceso programático a los detalles de paginación, permitiéndote **extraer datos de paginación** como la primera y última página de cualquier nodo.
+- **LayoutEnumerator** te permite recorrer el árbol visual de diseño, facilitando la localización de páginas, párrafos o líneas para renderizado o análisis personalizado.
+- Juntos simplifican tareas complejas de diseño que de otro modo requerirían conversiones costosas a PDF o cálculos manuales.
+
+## Requisitos previos
+
+### Bibliotecas y versiones requeridas
+Asegúrate de tener Aspose.Words for Java versión 25.3 (o más reciente) instalado.
 
 **Maven:**
 ```xml
@@ -60,16 +68,16 @@ Asegúrate de tener Aspose.Words for Java versión 25.3 instalado.
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Requisitos de Configuración del Entorno
-Necesitarás:
-- Java Development Kit (JDK) instalado en tu máquina.
-- Un IDE como IntelliJ IDEA o Eclipse para ejecutar y probar el código.
+### Requisitos de configuración del entorno
+- JDK (Java Development Kit) instalado.
+- IntelliJ IDEA, Eclipse, o cualquier IDE de Java de tu elección.
+- Una licencia válida de Aspose.Words (la prueba gratuita funciona para evaluación).
 
-### Conocimientos Previos
-Se recomienda una comprensión básica de la programación en Java para seguir el tutorial de manera eficaz.
+### Conocimientos previos
+Conocimientos básicos de programación en Java son suficientes.
 
 ## Configuración de Aspose.Words
-Primero, verifica que hayas integrado la biblioteca Aspose.Words en tu proyecto. Puedes obtener una licencia de prueba gratuita [aquí](https://releases.aspose.com/words/java/) o optar por una licencia temporal si lo necesitas. Para comenzar a usar Aspose.Words en Java, inicialízalo de la siguiente manera:
+Primero, integra la biblioteca Aspose.Words en tu proyecto. Puedes obtener una licencia de prueba gratuita [aquí](https://releases.aspose.com/words/java/) o usar una licencia temporal para pruebas.
 
 ```java
 import com.aspose.words.*;
@@ -85,17 +93,17 @@ public class SetupAsposeWords {
 }
 ```
 
-Con la configuración completa, profundicemos en las funciones principales de `LayoutCollector` y `LayoutEnumerator`.
+Con la biblioteca lista, podemos profundizar en las funciones principales.
 
-## Guía de Implementación
+## Guía de implementación
 
-### Función 1: Uso de LayoutCollector para el Análisis del Rango de Páginas
-La función `LayoutCollector` te permite determinar cómo los nodos de un documento se extienden a través de las páginas, facilitando el análisis de paginación.
+### Función 1: Uso de LayoutCollector para el análisis de rango de páginas
+La característica `LayoutCollector` te permite determinar cómo los nodos se extienden a través de las páginas, lo que constituye la base para **extraer datos de paginación**.
 
-#### Visión General
-Al aprovechar `LayoutCollector`, podemos averiguar los índices de página de inicio y fin de cualquier nodo, así como el número total de páginas que abarca.
+#### Visión general
+Aprovechando `LayoutCollector`, puedes obtener los índices de página de inicio y fin de cualquier nodo y calcular el total de páginas que ocupa.
 
-#### Pasos de Implementación
+#### Pasos de implementación
 
 **1. Inicializar Document y LayoutCollector**
 ```java
@@ -103,8 +111,8 @@ Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 ```
 
-**2. Poblar el Documento**
-Aquí, añadiremos contenido que ocupe varias páginas:
+**2. Poblar el documento**
+Aquí, añadiremos contenido que abarque varias páginas:
 ```java
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.write("Section 1");
@@ -114,7 +122,7 @@ builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
 ```
 
-**3. Actualizar el Diseño y Obtener Métricas**
+**3. Actualizar el diseño y obtener métricas**
 ```java
 layoutCollector.clear();
 doc.updatePageLayout();
@@ -123,16 +131,16 @@ assert layoutCollector.getNumPagesSpanned(doc) == 5;
 ```
 
 #### Explicación
-- **`DocumentBuilder`:** Se usa para insertar contenido en el documento.
-- **`updatePageLayout()`:** Garantiza métricas de página precisas.
+- **`DocumentBuilder`** inserta texto y saltos de página/sección.
+- **`updatePageLayout()`** recalcula la información de diseño para que los datos de paginación sean precisos.
 
 ### Función 2: Recorrido con LayoutEnumerator
-`LayoutEnumerator` permite un recorrido eficiente de las entidades de diseño de un documento, proporcionando información detallada sobre las propiedades y la posición de cada elemento.
+`LayoutEnumerator` permite una navegación eficiente a través del árbol visual de diseño.
 
-#### Visión General
-Esta función ayuda a navegar visualmente por la estructura de diseño, útil para tareas de renderizado y edición.
+#### Visión general
+Puedes recorrer páginas, párrafos, líneas y otras entidades de diseño, lo que resulta útil para renderizado personalizado o diagnósticos.
 
-#### Pasos de Implementación
+#### Pasos de implementación
 
 **1. Inicializar Document y LayoutEnumerator**
 ```java
@@ -140,8 +148,7 @@ Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 ```
 
-**2. Recorrido hacia Adelante y Atrás**
-Para recorrer el diseño del documento:
+**2. Recorrido hacia adelante y atrás**
 ```java
 layoutEnumerator.moveParent(LayoutEntityType.PAGE);
 
@@ -153,24 +160,24 @@ traverseLayoutBackward(layoutEnumerator, 1);
 ```
 
 #### Explicación
-- **`moveParent()`:** Navega a entidades padre.
-- **Métodos de Recorrido:** Implementados de forma recursiva para una navegación completa.
+- **`moveParent()`** mueve el enumerador a la entidad padre (en este caso, el nivel de página).
+- Los métodos de recorrido recursivo te permiten explorar toda la jerarquía de diseño.
 
-### Función 3: Callbacks de Diseño de Página
-Esta función muestra cómo implementar callbacks para monitorizar eventos de diseño de página durante el procesamiento del documento.
+### Función 3: Callbacks de diseño de página
+Implementa callbacks para monitorizar eventos de diseño y **renderizar páginas como imágenes** cuando sea necesario.
 
-#### Visión General
-Utiliza la interfaz `IPageLayoutCallback` para reaccionar a cambios específicos del diseño, como cuando una sección se reorganiza o la conversión finaliza.
+#### Visión general
+La interfaz `IPageLayoutCallback` te notifica cuando una parte del documento termina de reflujo o cuando la conversión se completa.
 
-#### Pasos de Implementación
+#### Pasos de implementación
 
-**1. Establecer Callback**
+**1. Establecer el callback**
 ```java
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
 doc.updatePageLayout();
 ```
 
-**2. Implementar Métodos de Callback**
+**2. Implementar los métodos del callback**
 ```java
 private static class RenderPageLayoutCallback implements IPageLayoutCallback {
     public void notify(PageLayoutCallbackArgs a) throws Exception {
@@ -193,46 +200,76 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
 ```
 
 #### Explicación
-- **`notify()`:** Maneja eventos de diseño.
-- **`ImageSaveOptions`:** Configura opciones de renderizado.
+- **`notify()`** reacciona a los eventos de diseño.
+- **`ImageSaveOptions`** junto con `PageSet` te permite **renderizar páginas como imágenes** (PNG en este ejemplo).
 
-### Función 4: Reiniciar la Numeración de Páginas en Secciones Continuas
-Esta función muestra cómo controlar la numeración de páginas en secciones continuas, garantizando un flujo de documento sin interrupciones.
+### Función 4: Reiniciar la numeración de páginas en secciones continuas
+Controla la numeración de páginas cuando tienes múltiples secciones que fluyen de forma continua.
 
-#### Visión General
-Gestiona los números de página de manera eficaz al trabajar con documentos de múltiples secciones usando `ContinuousSectionRestart`.
+#### Visión general
+Al establecer la opción `ContinuousSectionRestart`, puedes decidir si los números de página se reinician en una nueva página o continúan sin interrupciones.
 
-#### Pasos de Implementación
+#### Pasos de implementación
 
-**1. Cargar el Documento**
+**1. Cargar el documento**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
 ```
 
-**2. Configurar Opciones de Numeración de Páginas**
+**2. Configurar las opciones de numeración de páginas**
 ```java
 doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
 doc.updatePageLayout();
 ```
 
 #### Explicación
-- **`setContinuousSectionPageNumberingRestart()`:** Configura cómo se reinicia la numeración en secciones continuas.
+- **`setContinuousSectionPageNumberingRestart()`** indica a Aspose.Words cómo manejar la numeración en secciones continuas.
+- Después de cambiar la opción, **actualiza el diseño de página** para aplicar los cambios.
 
-## Aplicaciones Prácticas
-A continuación, algunos escenarios del mundo real donde se pueden aplicar estas funciones:
-1. **Análisis de Paginación de Documentos:** Usa `LayoutCollector` para analizar y ajustar el diseño del contenido para una paginación óptima.
-2. **Renderizado de PDF:** Emplea `LayoutEnumerator` para navegar y renderizar PDFs con precisión, preservando la estructura visual.
-3. **Actualizaciones Dinámicas de Documentos:** Implementa callbacks para desencadenar acciones ante cambios específicos del diseño, mejorando el procesamiento en tiempo real.
-4. **Documentos de Múltiples Secciones:** Controla la numeración de páginas en informes o libros con secciones continuas para un formato profesional.
+## Aplicaciones prácticas
+1. **Análisis de paginación de documentos** – Usa `LayoutCollector` para auditar cómo el contenido se distribuye en las páginas y ajustar márgenes o saltos según corresponda.
+2. **Renderizado de PDF** – Combina `LayoutEnumerator` con el callback para generar imágenes de página de alta fidelidad antes de la conversión a PDF.
+3. **Actualizaciones dinámicas de documentos** – Reacciona a eventos de diseño (p. ej., después de que una tabla se expanda) y vuelve a renderizar automáticamente las páginas afectadas.
+4. **Informes multi‑sección** – Aplica **reiniciar la numeración de páginas** para que cada capítulo tenga su propio esquema de numeración manteniendo un flujo continuo.
 
-## Consideraciones de Rendimiento
-Para garantizar un rendimiento óptimo:
-- Minimiza el tamaño del documento eliminando elementos innecesarios antes del análisis de diseño.
-- Utiliza métodos de recorrido eficientes para reducir el tiempo de procesamiento.
-- Monitorea el uso de recursos, especialmente al manejar documentos de gran tamaño.
+## Consideraciones de rendimiento
+- Elimina secciones no usadas o contenido oculto antes de llamar a `updatePageLayout()` para mantener el procesamiento rápido.
+- Usa APIs de streaming para documentos grandes y evita cargar todo el archivo en memoria.
+- Limita la profundidad del recorrido recursivo en `LayoutEnumerator` si solo necesitas información a nivel de página.
+
+## Problemas comunes y soluciones
+
+| Problema | Causa | Solución |
+|----------|-------|----------|
+| `layoutCollector.getNumPagesSpanned()` returns 0 | Layout not updated | Call `doc.updatePageLayout()` before querying |
+| Images not generated in callback | Missing `ImageSaveOptions` configuration | Ensure `saveOptions.setPageSet(new PageSet(pageIndex))` is set |
+| Page numbers don’t restart | Wrong `ContinuousSectionRestart` value | Use `ContinuousSectionRestart.FROM_NEW_PAGE_ONLY` for true restart |
+
+## Preguntas frecuentes
+
+**P: ¿Puedo extraer el número de página exacto de un párrafo específico?**  
+R: Sí—usa `LayoutCollector` para obtener la página de inicio del nodo párrafo y luego llama a `doc.updatePageLayout()` para asegurarte de que los datos estén actualizados.
+
+**P: ¿`update page layout` afecta el contenido del documento?**  
+R: No. Solo recalcula la información de diseño; el texto y el formato permanecen sin cambios.
+
+**P: ¿Cómo renderizo todas las páginas de un documento grande como imágenes de forma eficiente?**  
+R: Implementa `IPageLayoutCallback` y procesa cada página secuencialmente, opcionalmente usando multihilos para la escritura de archivos.
+
+**P: ¿Es posible reiniciar la numeración solo para ciertas secciones?**  
+R: Sí—aplica `setContinuousSectionPageNumberingRestart` a las opciones de diseño de la sección específica antes de llamar a `updatePageLayout()`.
+
+**P: ¿Qué versión de Aspose.Words introdujo `LayoutCollector`?**  
+R: `LayoutCollector` está disponible desde las versiones de principios de 2020; los ejemplos usan la versión 25.3.
 
 ## Conclusión
-Al dominar `LayoutCollector` y `LayoutEnumerator`, has desbloqueado capacidades poderosas en Aspose.Words for Java. Estas herramientas no solo simplifican diseños de documentos complejos, sino que también mejoran tu capacidad para gestionar y procesar texto de manera eficaz. Con este conocimiento, estás bien preparado para enfrentar cualquier desafío avanzado de procesamiento de texto que se presente.
+Al dominar **reiniciar la numeración de páginas**, `LayoutCollector` y `LayoutEnumerator`, ahora dispones de un conjunto de herramientas potente para el procesamiento avanzado de texto en Aspose.Words for Java. Ya sea que necesites **extraer datos de paginación**, **renderizar páginas como imágenes** o simplemente controlar la numeración de páginas entre secciones, estas API te ofrecen control preciso y programático manteniendo un alto rendimiento.
+
+---
+
+**Last Updated:** 2026-01-14  
+**Tested With:** Aspose.Words for Java 25.3  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

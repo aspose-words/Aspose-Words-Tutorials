@@ -71,6 +71,10 @@ Naučte se používat objekty OLE a ovládací prvky ActiveX v Aspose.Words pro 
 Naučte se efektivně používat revizní prvky Aspose.Words pro Javu. Podrobný návod pro vývojáře. Optimalizujte správu dokumentů.
 ### [Používání sekcí v Aspose.Words pro Javu](./using-sections/)
 Prozkoumejte Aspose.Words pro Javu: Komplexní průvodce používáním sekcí. Přidávání, mazání, přidávání a klonování sekcí s příklady kódu.
+### [Nastavení velikosti tlačítka ve Wordu pomocí Javy – Kompletní průvodce Aspose.Words](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Naučte se, jak pomocí Aspose.Words pro Javu nastavit velikost tlačítka v dokumentu Word s podrobnými ukázkami kódu.
+### [Vytvoření koláčového grafu s Aspose.Words pro Javu – Kompletní průvodce krok za krokem](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Naučte se, jak vytvořit koláčový graf v Aspose.Words pro Javu pomocí podrobného krok za krokem návodu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

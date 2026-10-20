@@ -101,6 +101,21 @@ Konversi DOCX ke EPUB secara efisien menggunakan Aspose.Words untuk Java. Pelaja
 ### [Mengonversi Dokumen ke Gambar](./converting-documents-images/)
 Pelajari cara mengonversi dokumen Word ke gambar menggunakan Aspose.Words untuk Java. Panduan langkah‑per‑langkah, lengkap dengan contoh kode dan FAQ.
 
+### [Simpan docx sebagai markdown dengan Aspose.Words – Panduan Lengkap](./save-docx-as-markdown-with-aspose-words-complete-guide/)
+Panduan lengkap untuk menyimpan file DOCX menjadi format Markdown menggunakan Aspose.Words untuk Java.
+### [Mengonversi DOCX ke PDF di Java – Panduan Langkah‑per‑Langkah](./convert-docx-to-pdf-in-java-step-by-step-guide/)
+Panduan lengkap mengonversi file DOCX menjadi PDF menggunakan Aspose.Words untuk Java dengan contoh kode praktis.
+### [Simpan DOCX sebagai PDF dengan Aspose.Words – Panduan Lengkap Java](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+Panduan lengkap untuk menyimpan file DOCX menjadi PDF menggunakan Aspose.Words di Java, termasuk contoh kode dan opsi penyimpanan.
+### [Mengonversi docx ke txt di Java – Panduan Pemrograman Lengkap](./convert-docx-to-txt-in-java-complete-programming-guide/)
+Pelajari cara mengonversi file DOCX menjadi TXT di Java menggunakan Aspose.Words dengan contoh kode lengkap.
+### [Mengonversi DOCX ke Markdown dengan Aspose.Words Java – Panduan Lengkap](./convert-docx-to-markdown-with-aspose-words-java-full-guide/)
+Panduan lengkap mengonversi file DOCX menjadi Markdown menggunakan Aspose.Words untuk Java, termasuk contoh kode dan opsi penyesuaian.
+### [Konversi DOCX ke PDF di Java – Panduan Low‑Code Sederhana](./convert-docx-to-pdf-in-java-simple-low-code-guide/)
+Panduan singkat untuk mengonversi file DOCX menjadi PDF di Java dengan kode minimal menggunakan Aspose.Words, cocok untuk pengembang yang ingin solusi cepat.
+### [Simpan Markdown sebagai DOCX dengan Aspose.Words – Panduan Java](./save-markdown-as-docx-with-aspose-words-java-guide/)
+Pelajari cara mengonversi file Markdown menjadi DOCX menggunakan Aspose.Words untuk Java dalam beberapa langkah mudah.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q:** *Bisakah saya mengonversi file Word yang dilindungi kata sandi ke PDF?*  

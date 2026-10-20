@@ -71,6 +71,10 @@ Pelajari cara menggunakan objek OLE dan kontrol ActiveX di Aspose.Words untuk Ja
 Pelajari cara menggunakan kontrol revisi Aspose.Words untuk Java secara efisien. Panduan langkah demi langkah untuk pengembang. Optimalkan manajemen dokumen Anda.
 ### [Menggunakan Bagian di Aspose.Words untuk Java](./using-sections/)
 Jelajahi Aspose.Words untuk Java: Panduan lengkap tentang penggunaan bagian. Tambahkan, hapus, tambahkan, klon bagian dengan contoh kode.
+### [Mengatur Ukuran Tombol di Word dengan Java – Panduan Lengkap Aspose.Words](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Pelajari cara mengatur ukuran tombol di dokumen Word menggunakan Aspose.Words untuk Java dalam panduan lengkap ini.
+### [Membuat Diagram Lingkaran dengan Aspose.Words Java – Panduan Lengkap Langkah demi Langkah](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Pelajari cara membuat diagram lingkaran menggunakan Aspose.Words untuk Java dengan panduan langkah demi langkah yang lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

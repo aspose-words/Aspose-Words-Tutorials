@@ -36,7 +36,7 @@ Aspose.Words for .NET のチュートリアルでは、ライブラリの機能�
 | [カスタム XML パーツにマップされたテーブルの繰り返しセクションを作成する](./creating-table-repeating-section-mapped-to-custom-xml-part/) Aspose.Words for .NET を使用して、Word 文書内の CustomXmlPart にマップされた繰り返しセクションを含むテーブルを作成する方法について説明します。 |
 | [マルチセクション](./multi-section/) このステップバイステップのチュートリアルでは、Aspose.Words for .NET でマルチセクション構造化ドキュメントタグを操作する方法を学びます。動的なドキュメント操作に最適です。 |
 | [構造化ドキュメントのタグ範囲開始 XML マッピング](./structured-document-tag-range-start-xml-mapping/) Aspose.Words for .NET を使用して、XMLデータをWordの構造化ドキュメントタグに動的にバインドする方法を学びましょう。ステップバイステップのガイドに従ってください。 |
-
+| [Aspose.Wordsでプレースホルダー テキストを設定する – 完全なC#ガイド](./set-placeholder-text-in-aspose-words-complete-c-guide/) Aspose.Words for .NET を使用して、Word 文書のプレースホルダー テキストを設定および管理する方法をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

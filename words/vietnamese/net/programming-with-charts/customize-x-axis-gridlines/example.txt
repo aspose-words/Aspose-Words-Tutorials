@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Hướng dẫn này cho thấy cách tạo tài liệu Word, chèn biểu đồ cột, thay thế dữ liệu mẫu của nó, và sau đó bật và tạo kiểu cho các đường lưới chính trên trục X chính.
+//ExStepSummary:0: Tạo một tài liệu Word mới và một DocumentBuilder để chỉnh sửa nó.
+//ExStepSummary:1: Chèn một biểu đồ cột kích thước 432×252 vào tài liệu và lấy đối tượng Chart của nó.
+//ExStepSummary:2: Xóa series mặc định và thêm một series tùy chỉnh với ba nhóm và các giá trị.
+//ExStepSummary:3: Lấy tham chiếu tới trục ngang (X) chính của biểu đồ.
+//ExStepSummary:4: Bật hiển thị các đường lưới chính trên trục X chính.
+//ExStepSummary:5: Đặt màu của các đường lưới thành màu xanh da trời và độ dày của chúng là 2 điểm.
+//ExStepSummary:6: Lưu tài liệu dưới dạng tệp .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document myDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+chart.Series.Add("Demo Series",
+    new[] { "Group One", "Group Two", "Group Three" },
+    new double[] { 10, 20, 30 });
+
+//ExStep:3-
+ChartAxis horizontalAxis = chart.AxisX;
+
+//ExStep:4-
+horizontalAxis.HasMajorGridlines = true;
+
+//ExStep:5-
+horizontalAxis.Format.Stroke.Color = Color.Blue;
+horizontalAxis.Format.Stroke.Weight = 2.0;
+
+//ExStep:6-
+myDoc.Save("PrimaryXGridlines.docx");
+//ExEnd
