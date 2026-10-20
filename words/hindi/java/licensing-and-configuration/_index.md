@@ -49,6 +49,9 @@
 ### [जावा के लिए Aspose.Words पर लाइसेंसिंग लागू करना](./applying-licensing/)
 Aspose.Words for Java पर लाइसेंसिंग लागू करने का तरीका चरण दर चरण जानें। अभी एक्सेस पाएँ और इसकी पूरी क्षमता का लाभ उठाएँ।
 
+### [जावा में DocumentConfig बनाएं – Aspose.Words के साथ गायब फ़ॉन्ट ट्रैक करें](./create-documentconfig-in-java-track-missing-fonts-with-aspos/)
+Aspose.Words के DocumentConfig का उपयोग करके जावा में गायब फ़ॉन्ट की पहचान और ट्रैक करने का तरीका सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

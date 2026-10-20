@@ -67,10 +67,22 @@ Apprenez à utiliser Markdown dans Aspose.Words pour Java grâce à ce tutoriel 
 Apprenez à manipuler les nœuds dans Aspose.Words pour Java grâce à ce tutoriel pas à pas. Exploitez toute la puissance de traitement de vos documents.
 ### [Utilisation des objets OLE et des contrôles ActiveX dans Aspose.Words pour Java](./using-ole-objects-and-activex/)
 Apprenez à utiliser les objets OLE et les contrôles ActiveX dans Aspose.Words pour Java. Créez facilement des documents interactifs. Commencez dès maintenant !
+### [Ajouter Forms2OleControl à DOCX – Guide complet Aspose.Words](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Apprenez à insérer un contrôle Forms2Ole dans un fichier DOCX avec Aspose.Words. Guide complet étape par étape.
 ### [Utilisation des révisions dans Aspose.Words pour Java](./using-revisions/)
 Apprenez à utiliser efficacement les contrôles de révision d'Aspose.Words pour Java. Guide étape par étape pour les développeurs. Optimisez la gestion de vos documents.
 ### [Utilisation des sections dans Aspose.Words pour Java](./using-sections/)
 Découvrez Aspose.Words pour Java : un guide complet sur l'utilisation des sections. Ajoutez, supprimez, ajoutez et clonez des sections avec des exemples de code.
+### [Définir la taille du bouton dans Word avec Java – Guide complet Aspose.Words](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Apprenez à définir la taille des boutons dans Word avec Aspose.Words pour Java grâce à ce guide complet.
+### [Créer un diagramme circulaire avec Aspose.Words Java – Guide complet étape par étape](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Apprenez à créer un diagramme circulaire dans Aspose.Words pour Java grâce à ce guide complet étape par étape.
+### [Insérer un diagramme circulaire dans Word avec Aspose.Words – Guide complet](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Apprenez à insérer et personnaliser un diagramme circulaire dans un document Word à l'aide d'Aspose.Words pour Java.
+### [Comment insérer un bouton ActiveX dans Word – définir la légende du bouton](./how-to-insert-activex-button-in-word-set-button-caption/)
+Apprenez à insérer un bouton ActiveX dans un document Word et à définir sa légende via Aspose.Words pour Java.
+### [Créer un document Word vierge avec un bouton de commande – guide étape par étape](./create-blank-word-document-with-a-command-button-step-by-ste/)
+Apprenez à créer un document Word vierge avec un bouton de commande grâce à ce guide étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

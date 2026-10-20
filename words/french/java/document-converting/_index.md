@@ -76,7 +76,7 @@ Utilisez `PdfSaveOptions` pour définir la compression des images, incorporer to
 Chargez chaque document, appelez `mainDoc.appendDocument(otherDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING)`, puis enregistrez le document combiné en PDF.
 
 ### Convertir Word en HTML puis revenir en arrière
-D’abord, `document.save("temp.html", SaveFormat.HTML)`. Pour reconvertir le HTML en Word, chargez le fichier HTML avec `new Document("temp.html")` et enregistrez-le en DOCX.
+D’abord, `document.save("temp.html", SaveFormat.HTML)`. Pour reconvertir le HTML en Word, chargez le fichier HTML avec `new Document("temp.html")` et enregistrez‑le en DOCX.
 
 ### Convertir du HTML en documents Word
 Exploitez `Document doc = new Document(new ByteArrayInputStream(htmlBytes), new LoadOptions(LoadFormat.HTML));` puis `doc.save("output.docx")`.
@@ -100,6 +100,28 @@ Convertissez efficacement DOCX en EPUB avec Aspose.Words for Java. Apprenez à p
 
 ### [Convertir des documents en images](./converting-documents-images/)
 Apprenez à convertir des documents Word en images avec Aspose.Words for Java. Guide pas à pas, complet avec des exemples de code et des FAQ.
+
+### [Enregistrer un docx au format markdown avec Aspose.Words – Guide complet](./save-docx-as-markdown-with-aspose-words-complete-guide/)
+Apprenez à convertir des fichiers DOCX en Markdown avec Aspose.Words for Java grâce à ce guide complet.
+### [Convertir DOCX en PDF en Java – Guide étape par étape](./convert-docx-to-pdf-in-java-step-by-step-guide/)
+Suivez ce guide détaillé pour convertir facilement des fichiers DOCX en PDF avec Aspose.Words for Java.
+### [Enregistrer un DOCX en PDF avec Aspose.Words – Guide complet Java](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+Apprenez à convertir des fichiers DOCX en PDF avec Aspose.Words for Java grâce à un guide complet étape par étape.
+### [Convertir docx en txt en Java – Guide complet de programmation](./convert-docx-to-txt-in-java-complete-programming-guide/)
+Apprenez à convertir des fichiers DOCX en fichiers texte TXT avec Aspose.Words for Java grâce à un guide complet et des exemples de code.
+### [Convertir DOCX en Markdown avec Aspose.Words Java – Guide complet](./convert-docx-to-markdown-with-aspose-words-java-full-guide/)
+Apprenez à convertir des fichiers DOCX en Markdown en utilisant Aspose.Words for Java, avec un guide complet pas à pas.
+### [Convertir DOCX en PDF en Java – Guide simple low‑code](./convert-docx-to-pdf-in-java-simple-low-code-guide/)
+Apprenez à convertir rapidement des fichiers DOCX en PDF avec un guide pas à pas utilisant peu de code Java.
+### [Enregistrer Markdown en DOCX avec Aspose.Words – Guide Java](./save-markdown-as-docx-with-aspose-words-java-guide/)
+Apprenez à convertir des fichiers Markdown en documents DOCX en Java avec Aspose.Words.
+### [Convertir docx en markdown – Guide complet pour les développeurs Java](./convert-docx-to-markdown-complete-guide-for-java-developers/)
+Apprenez à transformer des fichiers DOCX en Markdown avec Aspose.Words for Java grâce à ce guide détaillé.
+### [Java Convertir Markdown en Word – Markdown vers DOCX Java](./java-convert-markdown-to-word-markdown-to-docx-java/)
+### [Convertir DOCX en PDF en Java – Guide PDF accessible](./convert-docx-to-pdf-in-java-accessible-pdf-guide/)
+
+### [Enregistrer Word au format Markdown – Guide Java complet (2026)](./save-word-as-markdown-complete-java-guide-2026/)
+Apprenez à convertir des documents Word en fichiers Markdown avec Aspose.Words for Java grâce à ce guide complet et à jour.
 
 ## FAQ
 

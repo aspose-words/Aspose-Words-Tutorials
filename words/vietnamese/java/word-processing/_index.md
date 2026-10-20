@@ -44,9 +44,12 @@ Tối ưu hóa việc tải tài liệu với Aspose.Words cho Java. Cải thi�
 ### [Lưu tài liệu hiệu quả với các tùy chọn DOC, HTML và hình ảnh](./efficient-document-saving-options/)
 Học cách lưu tài liệu hiệu quả với Aspose.Words for Java. Hướng dẫn từng bước này bao gồm các tùy chọn DOC, HTML và hình ảnh, nâng cao kỹ năng quản lý tài liệu của bạn
 ### [Làm chủ các thiết lập lưu nâng cao cho tài liệu](./mastering-advanced-save-settings/)
-Làm chủ các thiết lập lưu tài liệu nâng cao với Aspose.Words for Java. Học cách định dạng, bảo vệ, tối ưu hóa và tự động hóa việc tạo tài liệu một cách dễ dàng.
+Làm chủ các thiết lập lưu tài liệu nâng cao với Aspose.Words cho Java. Học cách định dạng, bảo vệ, tối ưu hóa và tự động hóa việc tạo tài liệu một cách dễ dàng.
 ### [Thao tác nội dung tài liệu với Cleanup, Fields và dữ liệu XML](./manipulating-document-content/)
-Tìm hiểu cách thao tác nội dung tài liệu bằng Aspose.Words for Java. Hướng dẫn từng bước này cung cấp các ví dụ về mã nguồn để quản lý tài liệu hiệu quả.
+Tìm hiểu cách thao tác nội dung tài liệu bằng Aspose.Words cho Java. Hướng dẫn từng bước này cung cấp các ví dụ về mã nguồn để quản lý tài liệu hiệu quả.
+### [Tạo tài liệu Word bằng lập trình – Hướng dẫn chi tiết từng bước](./create-word-document-programmatically-full-step-by-step-guid/)
+
+Hướng dẫn toàn diện tạo tài liệu Word bằng Java, từ khởi tạo đến lưu, kèm ví dụ mã nguồn chi tiết.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

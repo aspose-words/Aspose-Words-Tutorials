@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary: En utilisant Aspose.Words Document et DocumentBuilder, ce tutoriel insère du balisage HTML dans un document Word et enregistre le résultat.
+//ExStepSummary:0: Définissez le dossier de sortie, créez un nouveau Document et initialisez un DocumentBuilder pour ce document.
+//ExStepSummary:1: Appelez `builder.InsertHtml()` pour ajouter un paragraphe aligné à droite, du texte en gras, un div centré et un titre aligné à gauche dans le document.
+//ExStepSummary:2: Enregistrez le document modifié dans le dossier spécifié sous forme de fichier .docx.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd
