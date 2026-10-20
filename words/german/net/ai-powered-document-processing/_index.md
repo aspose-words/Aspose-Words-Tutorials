@@ -83,6 +83,7 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [OpenAI-API von C# aufrufen – Vollständige Anleitung zum Umschreiben von Word-Absätzen](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | Erfahren Sie, wie Sie die OpenAI-API in C# nutzen, um Word-Absätze automatisch umzuschreiben und Inhalte zu optimieren. |
 | [Wie man Grammatik in C# mit Aspose.Words KI prüft – Vollständige Anleitung](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Erfahren Sie, wie Sie mit Aspose.Words KI Grammatik in C#-Dokumenten automatisch prüfen und korrigieren. |
 | [Word-Dokument in C# zusammenfassen – Schritt‑für‑Schritt‑Anleitung mit KI](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und KI ein Word‑Dokument in C# automatisch zusammenfassen. |
+| [Wie man DOCX ins Französische übersetzt und die Dokumentübersetzung automatisiert](./how-to-translate-docx-to-french-and-automate-document-transl/) | Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für .NET ins Französische übersetzen und den Vorgang automatisieren. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

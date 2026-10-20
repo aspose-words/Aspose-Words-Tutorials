@@ -34,6 +34,7 @@ Questi tutorial offrono un approccio pratico e passo dopo passo all'elaborazione
 | [Come aggiungere un controllo ActiveX in Word con Aspose.Words – guida passo‑passo](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Scopri come inserire un controllo ActiveX nei documenti Word usando Aspose.Words per .NET, con istruzioni dettagliate passo dopo passo. |
 | [Come aggiungere un pulsante ActiveX in un documento Word con Aspose.Words](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Scopri come inserire un pulsante ActiveX in un documento Word usando Aspose.Words per .NET, passo dopo passo. |
 
+| [Inserisci esempio OleControlType.CommandButton in Word](./insert-olecontroltype-commandbutton-example-in-word/) | Scopri come inserire un controllo CommandButton OLE in un documento Word usando Aspose.Words per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

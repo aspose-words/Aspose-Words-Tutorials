@@ -79,6 +79,7 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | [Volání OpenAI API z C# – Kompletní průvodce přepisem odstavců ve Wordu](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | Naučte se, jak pomocí OpenAI API v C# přepsat odstavce v dokumentu Word a automatizovat úpravy textu. |
 | [Jak zkontrolovat gramatiku v C# pomocí Aspose.Words AI – Kompletní průvodce](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Naučte se, jak pomocí Aspose.Words AI v C# automaticky kontrolovat gramatiku v dokumentech Word. |
 | [Shrnutí dokumentu Word v C# – krok za krokem s AI](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Naučte se, jak pomocí AI shrnout dokument Word v C# krok za krokem. |
+| [Jak přeložit DOCX do francouzštiny a automatizovat překlad dokumentů](./how-to-translate-docx-to-french-and-automate-document-transl/) | Automatizujte překlad DOCX souborů do francouzštiny pomocí Aspose.Words pro .NET. |
 
 | [Shrnutí Word dokumentu v C# pomocí vlastního modelu GPT – Kompletní průvodce](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Naučte se, jak pomocí vlastního modelu GPT v C# automaticky shrnout Word dokumenty s Aspose.Words. |
 | [Překlad docx do francouzštiny s Aspose.Words.AI – Kompletní průvodce](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Naučte se, jak pomocí Aspose.Words.AI přeložit soubory DOCX do francouzštiny v několika krocích. |

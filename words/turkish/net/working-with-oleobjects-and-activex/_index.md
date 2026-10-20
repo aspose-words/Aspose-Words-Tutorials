@@ -34,6 +34,7 @@ Bu eğitimler size Aspose.Words for .NET'te OLE ve ActiveX nesneleriyle Word İ�
 | [Aspose.Words ile Word'e ActiveX denetimi ekleme – adım adım kılavuz](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Aspose.Words kullanarak Word belgesine ActiveX denetimi eklemenin adım adım rehberi. |
 
 | [Aspose.Words ile Word belgesine ActiveX düğmesi ekleme](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Aspose.Words for .NET kullanarak Word belgesine ActiveX düğmesi eklemeyi adım adım öğrenin. |
+| [Word'e OleControlType.CommandButton Örneği Ekle](./insert-olecontroltype-commandbutton-example-in-word/) | Aspose.Words for .NET kullanarak Word belgesine OleControlType.CommandButton örneği eklemeyi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

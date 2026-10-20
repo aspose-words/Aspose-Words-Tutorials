@@ -71,6 +71,7 @@
 | [เรียกใช้ OpenAI API จาก C# – คู่มือฉบับสมบูรณ์สำหรับการเขียนใหม่ย่อหน้าของ Word](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | เรียนรู้วิธีใช้ OpenAI API กับ C# เพื่อปรับปรุงและเขียนใหม่ย่อหน้าของเอกสาร Word อย่างมีประสิทธิภาพ |
 | [วิธีตรวจสอบไวยากรณ์ใน C# ด้วย Aspose.Words AI – คู่มือฉบับสมบูรณ์](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | เรียนรู้วิธีใช้ Aspose.Words AI เพื่อตรวจสอบและแก้ไขไวยากรณ์ในเอกสาร C# อย่างแม่นยำและอัตโนมัติ |
 | [สรุปเอกสาร Word ด้วย C# – คู่มือขั้นตอนโดยใช้ AI](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | เรียนรู้วิธีสรุปไฟล์ Word ด้วย C# โดยใช้ AI อย่างละเอียดและง่ายต่อการทำตาม |
+| [วิธีแปล DOCX เป็นภาษาฝรั่งเศสและทำการแปลเอกสารอัตโนมัติ](./how-to-translate-docx-to-french-and-automate-document-transl/) | เรียนรู้วิธีใช้ Aspose.Words สำหรับ .NET เพื่อแปลไฟล์ DOCX เป็นภาษาฝรั่งเศสและทำการแปลอัตโนมัติอย่างมีประสิทธิภาพ |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

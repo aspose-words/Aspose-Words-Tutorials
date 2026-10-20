@@ -33,6 +33,7 @@
 - [เพิ่มปุ่มคำสั่งลงในเอกสาร Word ด้วย Aspose.Words – คู่มือครบถ้วน](./add-command-button-to-word-document-with-aspose-words-comple/) | เรียนรู้วิธีเพิ่มปุ่มคำสั่งลงในเอกสาร Word ด้วย Aspose.Words ผ่านคู่มือขั้นตอนเต็มรูปแบบ
 - [วิธีเพิ่มคอนโทรล ActiveX ใน Word ด้วย Aspose.Words – คู่มือทีละขั้นตอน](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | เรียนรู้วิธีเพิ่มคอนโทรล ActiveX ในเอกสาร Word ด้วย Aspose.Words อย่างละเอียด |
 - [วิธีเพิ่มปุ่ม ActiveX ในเอกสาร Word ด้วย Aspose.Words](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | เพิ่มปุ่ม ActiveX ลงในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET อย่างละเอียด
+- [ตัวอย่างการแทรก OleControlType.CommandButton ใน Word](./insert-olecontroltype-commandbutton-example-in-word/) | เรียนรู้วิธีแทรก OleControlType.CommandButton ลงในเอกสาร Word ด้วย Aspose.Words for .NET ผ่านตัวอย่างขั้นตอน |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

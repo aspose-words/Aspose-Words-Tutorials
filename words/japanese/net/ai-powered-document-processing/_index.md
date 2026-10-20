@@ -80,6 +80,7 @@
 | [C# から OpenAI API を呼び出す – Word 段落を書き換える完全ガイド](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) C# で OpenAI API を利用し、Word の段落を書き換える方法を学びます。 |
 | [C# で文法チェック – Aspose.Words AI 完全ガイド](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) C# で Aspose.Words AI を活用し、文書の文法チェックを行う方法を詳しく解説します。 |
 | [C# で Word 文書を要約する – AI を活用したステップバイステップ ガイド](./summarize-word-document-in-c-step-by-step-guide-using-ai/) C# と AI を使用して Word 文書を要約する手順を段階的に学びます。 |
+| [DOCX をフランス語に翻訳し、文書翻訳を自動化する方法](./how-to-translate-docx-to-french-and-automate-document-transl/) Aspose.Words for .NET を使用して DOCX をフランス語に翻訳し、翻訳プロセスを自動化する方法を学びます。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -34,6 +34,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 
 | [Menambahkan Tombol Perintah ke Dokumen Word dengan Aspose.Words – Panduan Lengkap](./add-command-button-to-word-document-with-aspose-words-comple/) | Pelajari cara menambahkan tombol perintah ke dokumen Word menggunakan Aspose.Words dalam panduan langkah demi langkah yang lengkap. |
 | [Cara Menambahkan Tombol ActiveX dalam Dokumen Word dengan Aspose.Words](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Pelajari cara menambahkan tombol ActiveX ke dokumen Word menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah. |
+| [Contoh OleControlType.CommandButton dalam Word](./insert-olecontroltype-commandbutton-example-in-word/) | Pelajari cara menyisipkan kontrol CommandButton menggunakan OleControlType dalam dokumen Word dengan Aspose.Words untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

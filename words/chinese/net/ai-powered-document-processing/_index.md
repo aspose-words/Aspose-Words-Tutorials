@@ -81,6 +81,7 @@
 | [从 C# 调用 OpenAI API – 重写 Word 段落的完整指南](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) 使用 Aspose.Words for .NET 与 OpenAI API 重写 Word 段落，实现智能内容改写。|
 | [使用 Aspose.Words AI 在 C# 中检查语法 – 完整指南](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) 使用 Aspose.Words AI 在 C# 中进行语法检查，提升文档质量的完整步骤指南。|
 | [在 C# 中汇总 Word 文档 – 使用 AI 的分步指南](./summarize-word-document-in-c-step-by-step-guide-using-ai/) 通过 Aspose.Words for .NET 与 AI 集成，逐步教您在 C# 中实现 Word 文档的自动摘要。|
+| [如何将 DOCX 翻译成法语并自动化文档翻译](./how-to-translate-docx-to-french-and-automate-document-transl/) 使用 Aspose.Words for .NET 将 DOCX 文档翻译为法语，并实现自动化翻译流程。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

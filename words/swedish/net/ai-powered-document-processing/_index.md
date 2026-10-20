@@ -82,6 +82,7 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Anropa OpenAI API från C# – Komplett guide för att skriva om Word-paragrafer](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | Lär dig hur du använder OpenAI API i C# för att automatiskt omformulera Word-paragrafer med Aspose.Words. |
 | [Hur du kontrollerar grammatik i C# med Aspose.Words AI – Komplett guide](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Lär dig att använda Aspose.Words AI för att automatiskt rätta grammatik i C#‑projekt med vår steg‑för‑steg‑guide. |
 | [Sammanfatta Word-dokument i C# – steg‑för‑steg guide med AI](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Lär dig att med AI skapa korta sammanfattningar av Word-dokument i C# med en tydlig steg‑för‑steg‑guide. |
+| [Hur man översätter DOCX till franska och automatiserar dokumentöversättning](./how-to-translate-docx-to-french-and-automate-document-transl/) | Lär dig att automatiskt översätta DOCX-filer till franska med Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -83,6 +83,7 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [OpenAI API aanroepen vanuit C# – Complete gids voor het herschrijven van Word-paragrafen](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | Leer hoe u met C# de OpenAI API gebruikt om Word-paragrafen automatisch te herschrijven en te verbeteren. |
 | [Hoe grammatica te controleren in C# met Aspose.Words AI – Complete gids](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Leer hoe u met Aspose.Words AI grammatica controleert in C# voor nauwkeurige documenten. |
 | [Samenvatten van Word-document in C# – stapsgewijze handleiding met AI](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Leer hoe u een Word-document in C# kunt samenvatten met AI, stap voor stap. |
+| [DOCX naar Frans vertalen en documentvertaling automatiseren](./how-to-translate-docx-to-french-and-automate-document-transl/) | Leer hoe u DOCX-bestanden automatisch naar het Frans vertaalt met Aspose.Words en AI-automatisering. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

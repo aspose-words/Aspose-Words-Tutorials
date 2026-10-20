@@ -34,6 +34,7 @@ Tyto tutoriály vám poskytnou praktický a podrobný přístup ke zpracování 
 | [Přidání tlačítka Command do dokumentu Word s Aspose.Words – Kompletní průvodce](./add-command-button-to-word-document-with-aspose-words-comple/) | Naučte se, jak přidat tlačítko Command do dokumentu Word pomocí Aspose.Words v tomto podrobném návodu. |
 | [Jak přidat ovládací prvek ActiveX do Wordu pomocí Aspose.Words – krok za krokem](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Naučte se krok za krokem přidávat ovládací prvek ActiveX do dokumentu Word pomocí Aspose.Words. |
 | [Jak přidat tlačítko ActiveX do dokumentu Word pomocí Aspose.Words](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Naučte se, jak vložit tlačítko ActiveX do dokumentu Word pomocí Aspose.Words pro .NET. |
+| [Vložit příklad OleControlType.CommandButton do Wordu](./insert-olecontroltype-commandbutton-example-in-word/) | Ukázka, jak vložit ovládací prvek CommandButton typu OleControlType do dokumentu Word pomocí Aspose.Words pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -33,6 +33,7 @@ Ezek az oktatóanyagok gyakorlatias, lépésről lépésre bemutatják a szöveg
 | [ActiveX vezérlő hozzáadása Word-hez az Aspose.Words segítségével – lépésről lépésre útmutató](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Ismerje meg, hogyan adhat hozzá ActiveX vezérlőt Word dokumentumhoz az Aspose.Words for .NET használatával lépésről lépésre. |
 
 | [Parancsgomb hozzáadása Word dokumentumhoz az Aspose.Words segítségével – Teljes útmutató](./add-command-button-to-word-document-with-aspose-words-comple/) | Tanulja meg, hogyan adhat hozzá parancsgombot a Word dokumentumokhoz az Aspose.Words for .NET használatával ebben a részletes útmutatóban. |
+| [OleControlType.CommandButton példájának beszúrása Word dokumentumba](./insert-olecontroltype-commandbutton-example-in-word/) | Tanulja meg, hogyan szúrhat be egy OleControlType.CommandButton példát Word dokumentumba az Aspose.Words for .NET segítségével. |
 
 | [ActiveX gomb hozzáadása Word dokumentumba az Aspose.Words segítségével](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Tanulja meg, hogyan adhat hozzá ActiveX gombot egy Word dokumentumhoz az Aspose.Words for .NET használatával. |
 {{< /blocks/products/pf/tutorial-page-section >}}
