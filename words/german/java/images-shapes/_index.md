@@ -90,6 +90,8 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java Bilder in Word-Dokumenten ausbl
 ### [Wie man Formen in einem Word-Dokument mit Aspose.Words gruppiert](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
 
 ### [Wie man die versteckte Eigenschaft einer Form in Aspose.Words für C# festlegt](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+### [Leeres Word-Dokument erstellen und Formen gruppieren in Java](./create-blank-word-document-and-group-shapes-in-java/)
+Ein Codebeispiel, das zeigt, wie man ein leeres Word-Dokument erstellt und mehrere Formen zu einer Gruppe zusammenfasst.
 
 ## Weitere Ressourcen
 

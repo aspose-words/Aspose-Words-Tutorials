@@ -91,6 +91,8 @@
 
 ### [วิธีตั้งค่าคุณสมบัติ hidden ของรูปร่างใน Aspose.Words สำหรับ C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 เรียนรู้วิธีตั้งค่าคุณสมบัติ hidden ของรูปร่างใน Aspose.Words สำหรับ C#
+### [สร้างเอกสาร Word ว่างและจัดกลุ่มรูปร่างใน Java](./create-blank-word-document-and-group-shapes-in-java/)
+เรียนรู้วิธีสร้างเอกสาร Word ว่างและจัดกลุ่มรูปร่างด้วย Aspose.Words สำหรับ Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 

@@ -221,6 +221,8 @@ Aprenda a configurar la resolución de imágenes al exportar documentos Word a f
 
 ### [Guardar Markdown desde Word – Guía completa Java](./how-to-save-markdown-from-word-complete-java-guide/)
 Aprenda a exportar documentos Word a archivos Markdown usando Aspose.Words for Java en una guía paso a paso.
+### [Cómo guardar Word como markdown con tablas HTML en Java](./how-to-save-word-as-markdown-with-html-tables-in-java/)
+Aprenda a convertir documentos Word a markdown conservando tablas HTML usando Aspose.Words for Java.
 
 ### [Cómo exportar LaTeX desde Word: convertir DOCX a Markdown y guardar como PDF](./how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 Aprenda a convertir documentos Word a LaTeX mediante Markdown y generar un PDF final.

@@ -334,6 +334,9 @@ Erfahren Sie, wie Sie mit Aspose.Words for Java ein Word‑Dokument vollständig
 ### [Wie man Markdown nach DOCX in Java konvertiert](./how-to-perform-markdown-to-docx-conversion-in-java/)
 Erfahren Sie, wie Sie mit Aspose.Words for Java Markdown‑Dateien in DOCX‑Dokumente umwandeln.
 
+### [Wie man Word als Markdown mit HTML-Tabellen in Java speichert](./how-to-save-word-as-markdown-with-html-tables-in-java/)
+Speichern Sie ein Word-Dokument als Markdown, wobei HTML‑Tabellen erhalten bleiben, mit Aspose.Words für Java.
+
 ## Häufig gestellte Fragen
 
 **Q: Wie füge ich einem bestehenden PDF mit Aspose.Words ein Wasserzeichen hinzu?**  

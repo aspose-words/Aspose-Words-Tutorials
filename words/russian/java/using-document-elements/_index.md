@@ -92,6 +92,8 @@
 Узнайте, как создавать документы Word с заполнителями и списками, используя Aspose.Words для Java.
 ### [Как добавить линии‑указатели к круговой диаграмме в Java с помощью Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
 Узнайте, как добавить линии‑указатели к круговой диаграмме в Java с использованием Chart API.
+### [Использование кнопки команды в Aspose.Words для Java](./how-to-insert-command-button-in-a-word-document-using-java/)
+Узнайте, как вставить кнопку команды в документ Word с помощью Aspose.Words для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

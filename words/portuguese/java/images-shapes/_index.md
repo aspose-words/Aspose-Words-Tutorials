@@ -90,6 +90,8 @@ Aprenda a ocultar imagens em documentos Word usando Aspose.Words para Java de fo
 Aprenda a agrupar várias formas em um documento Word usando Aspose.Words para Java.
 
 ### [Como definir a propriedade oculta de forma no Aspose.Words para C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+### [Criar documento Word em branco e agrupar formas em Java](./create-blank-word-document-and-group-shapes-in-java/)
+Aprenda a criar um documento Word vazio e agrupar formas usando Aspose.Words para Java.
 
 ## Recursos adicionais
 

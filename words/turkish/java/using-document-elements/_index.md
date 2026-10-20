@@ -93,6 +93,8 @@ Java ile Aspose.Words kullanarak Word belgelerindeki ayırıcıları nasıl alac
 Yer tutucular ve listeler kullanarak dinamik Word belgeleri oluşturmayı öğrenin.
 ### [Java için Chart API ile Pasta Grafiğine Lider Çizgileri Ekleme](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
 Java Chart API kullanarak pasta grafiğine lider çizgileri eklemeyi adım adım öğrenin.
+### [Java için Aspose.Words'de Komut Düğmesi Ekleme](./how-to-insert-command-button-in-a-word-document-using-java/)
+Aspose.Words for Java ile Word belgesine komut düğmesi eklemeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

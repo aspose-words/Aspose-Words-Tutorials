@@ -57,7 +57,8 @@
 
 ### [在 Aspose.Words for Java 中使用表單字段](./using-form-fields/)
 學習使用 Aspose.Words for Java 建立帶有表單欄位的互動式 Word 文件。立即開始！
-
+### [在 Aspose.Words for Java 中插入命令按鈕](./how-to-insert-command-button-in-a-word-document-using-java/)
+了解如何在 Word 文件中使用 Java 程式碼插入可執行的命令按鈕，提升文件互動性。
 ### [在 Aspose.Words for Java 中使用 HarfBuzz](./using-harfbuzz/)
 學習使用 HarfBuzz 在 Aspose.Words for Java 中進行進階文字整形。請按照本逐步指南增強複雜腳本中的文字渲染。
 

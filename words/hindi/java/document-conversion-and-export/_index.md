@@ -155,6 +155,9 @@ Aspose.Words for Java का उपयोग करके Word से Markdown �
 
 ### [Word को Markdown के रूप में सहेजें – Aspose.Words के साथ पूर्ण गाइड](./save-word-as-markdown-complete-guide-using-aspose-words/)
 Word दस्तावेज़ को Markdown में बदलने की पूरी प्रक्रिया, कोड उदाहरण और निर्यात विकल्पों के साथ।
+### [Java में HTML तालिकाओं के साथ Word को markdown के रूप में सहेजना कैसे करें](./how-to-save-word-as-markdown-with-html-tables-in-java/)
+Java में Aspose.Words का उपयोग करके Word दस्तावेज़ को markdown में बदलें, जिसमें HTML तालिकाएँ संरक्षित रहें।
+
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

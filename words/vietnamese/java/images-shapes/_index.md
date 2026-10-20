@@ -92,6 +92,8 @@ Hướng dẫn chi tiết cách nhóm các hình dạng trong tài liệu Word b
 
 ### [Cách thiết lập thuộc tính ẩn cho hình dạng trong Aspose.Words cho C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 Hướng dẫn cách ẩn một hình dạng trong tài liệu Word bằng Aspose.Words cho C#.
+### [Tạo tài liệu Word trống và nhóm các hình dạng trong Java](./create-blank-word-document-and-group-shapes-in-java/)
+Hướng dẫn tạo tài liệu Word trống và nhóm các hình dạng bằng Aspose.Words cho Java.
 
 ## Tài nguyên bổ sung
 

@@ -92,6 +92,8 @@ Leer hoe u meerdere vormen in een Word-document groepeert met Aspose.Words voor 
 
 ### [Hoe de verborgen eigenschap van een vorm instellen in Aspose.Words voor C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 Leer hoe u de verborgen eigenschap van een vorm instelt met Aspose.Words voor C#.
+### [Leeg Word-document maken en vormen groeperen in Java](./create-blank-word-document-and-group-shapes-in-java/)
+Leer hoe u een leeg Word-document maakt en meerdere vormen groepeert met Aspose.Words voor Java.
 
 ## Aanvullende bronnen
 

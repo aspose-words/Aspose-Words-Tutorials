@@ -92,6 +92,8 @@ Lär dig hur du grupperar flera former i ett Word-dokument med Aspose.Words för
 
 ### [Hur man ställer in dold egenskap för form i Aspose.Words för C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 Lär dig hur du markerar en form som dold i ett Word-dokument med Aspose.Words för C#.
+### [Skapa tomt Word-dokument och gruppera former i Java](./create-blank-word-document-and-group-shapes-in-java/)
+Lär dig hur du skapar ett tomt Word-dokument och grupperar former med Aspose.Words för Java.
 
 ## Ytterligare resurser
 

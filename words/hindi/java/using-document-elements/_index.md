@@ -92,6 +92,9 @@ Java के साथ Word दस्तावेज़ में पाई च�
 ### [Java में Chart API के साथ पाई चार्ट में लीडर लाइन्स जोड़ना](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
 Java में Chart API का उपयोग करके पाई चार्ट में लीडर लाइन्स जोड़ने के चरण-दर-स्टेप ट्यूटोरियल।
 
+### [Java का उपयोग करके Word दस्तावेज़ में कमांड बटन कैसे डालें](./how-to-insert-command-button-in-a-word-document-using-java/)
+Java के साथ Word दस्तावेज़ में कमांड बटन डालने की प्रक्रिया सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -91,6 +91,8 @@ Ismerje meg, hogyan csoportosíthatja az alakzatokat egy Word dokumentumban az A
 
 ### [Hogyan állítsuk be az alakzat rejtett tulajdonságát az Aspose.Words for C#-ban](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 Ismerje meg, hogyan állíthatja be az alakzat rejtett tulajdonságát a C#-ban az Aspose.Words segítségével.
+### [Üres Word dokumentum létrehozása és alakzatok csoportosítása Java-ban](./create-blank-word-document-and-group-shapes-in-java/)
+Kód oktatóanyag az Aspose.Words Java-hoz
 
 ## További források
 

@@ -108,6 +108,8 @@ Aspose.Words for Java هي واجهة برمجة تطبيقات قوية ومت�
 حسّن مستنداتك باستخدام ملحقات الويب في Aspose.Words لجافا. تعلّم كيفية دمج محتوى الويب بسلاسة.
 ### [وسم إمكانية الوصول إلى PDF في Java – إنشاء ملفات PDF قابلة للوصول](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 تعلم كيفية إضافة وسوم الوصول إلى ملفات PDF باستخدام Aspose.Words لجافا لإنشاء مستندات PDF متوافقة مع معايير إمكانية الوصول.
+### [كيفية إنشاء مستند Word في Java باستخدام Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+تعلم خطوة بخطوة إنشاء مستند Word باستخدام Aspose.Words في Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

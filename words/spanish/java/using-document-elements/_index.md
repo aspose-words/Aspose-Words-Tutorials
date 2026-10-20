@@ -93,6 +93,8 @@ Aprenda a crear un gráfico de pastel en documentos Word usando Aspose.Words par
 Aprenda a crear documentos Word con marcadores de posición y listas usando Aspose.Words para Java.
 ### [Cómo agregar líneas guía a un gráfico circular en Java con la API de Chart](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
 Aprenda a añadir líneas guía a gráficos de pastel en Java usando la API de Chart de Aspose.
+### [Uso de botón de comando en un documento Word con Java](./how-to-insert-command-button-in-a-word-document-using-java/)
+Aprenda a insertar botones de comando en documentos Word mediante Aspose.Words para Java con este tutorial paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -109,6 +109,9 @@ Pelajari cara menandai PDF untuk aksesibilitas menggunakan Aspose.Words untuk Ja
 ### [Buat tombol ActiveX docx di Java – panduan pemrograman lengkap](./create-docx-activex-button-in-java-complete-programming-guid/)
 Panduan lengkap untuk membuat tombol ActiveX dalam dokumen docx menggunakan Java.
 
+### [Cara membuat dokumen Word di Java dengan Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Panduan langkah demi langkah untuk membuat dokumen Word menggunakan Aspose.Words di Java. 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -92,6 +92,8 @@
 学习如何在 Aspose.Words for Java 中创建包含占位符和列表的 Word 文档，实现动态内容生成。
 ### [在 Java 中使用 Chart API 为饼图添加引导线](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
 学习如何在 Java 中使用 Chart API 为饼图添加引导线，实现更清晰的数据展示。
+### [在 Aspose.Words for Java 中使用命令按钮](./how-to-insert-command-button-in-a-word-document-using-java/)
+学习如何在 Aspose.Words for Java 中向 Word 文档插入命令按钮，实现交互式文档功能。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

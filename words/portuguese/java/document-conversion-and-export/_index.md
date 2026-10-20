@@ -166,6 +166,8 @@ Aprenda a salvar arquivos DOCX como Markdown em Java, extraindo imagens e preser
 Aprenda a salvar documentos Word como Markdown e exportar tabelas para HTML usando Aspose.Words for Java.
 ### [Salvar DOCX como Markdown – Guia Completo em Java](./save-docx-as-markdown-complete-java-guide/)
 Aprenda a converter arquivos DOCX para Markdown com Aspose.Words for Java, incluindo exemplos detalhados e melhores práticas.
+### [Como salvar Word como markdown com tabelas HTML em Java](./how-to-save-word-as-markdown-with-html-tables-in-java/)
+Aprenda a converter documentos Word para markdown preservando tabelas HTML usando Aspose.Words for Java.
 
 ### [Aspose.Words para PDF – Converter DOCX para PDF em Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Aprenda a converter arquivos DOCX para PDF rapidamente usando Aspose.Words for Java.

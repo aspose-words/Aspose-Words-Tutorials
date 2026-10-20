@@ -346,6 +346,9 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 ### [วิธีแปลง markdown เป็น docx ด้วย Java](./how-to-perform-markdown-to-docx-conversion-in-java/)
 เรียนรู้วิธีแปลงไฟล์ Markdown เป็น DOCX ใน Java ด้วย Aspose.Words
 
+### [วิธีบันทึกไฟล์ Word เป็น markdown พร้อมตาราง HTML ใน Java](./how-to-save-word-as-markdown-with-html-tables-in-java/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น markdown พร้อมตาราง HTML ด้วย Aspose.Words for Java
+
 ## คำถามที่พบบ่อย
 
 **Q: ฉันจะเพิ่มลายน้ำให้กับ PDF ที่มีอยู่โดยใช้ Aspose.Words อย่างไร?**  

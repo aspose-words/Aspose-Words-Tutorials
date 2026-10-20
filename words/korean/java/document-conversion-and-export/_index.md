@@ -298,6 +298,9 @@ Aspose.Words for Java를 사용해 Word 문서를 Markdown 형식으로 변환�
 
 ### [Aspose.Words를 사용하여 docx를 markdown으로 변환하는 방법](./how-to-convert-docx-to-markdown-with-aspose-words/)
 
+### [Java에서 HTML 테이블이 포함된 Word를 마크다운으로 저장하는 방법](./how-to-save-word-as-markdown-with-html-tables-in-java/)
+Aspose.Words for Java를 사용해 Word 문서를 HTML 테이블을 유지한 채 마크다운 파일로 변환하는 단계별 가이드.
+
 ## 자주 묻는 질문
 
 **Q: Aspose.Words를 사용해 기존 PDF에 워터마크를 어떻게 추가하나요?**  

@@ -109,6 +109,8 @@ Aspose.Words for JavaのWeb拡張機能でドキュメントを強化しまし�
 Aspose.Words for Java を使用して、PDF にアクセシビリティタグを付与し、アクセシブルな PDF を生成する方法を学びます。
 ### [JavaでdocxのActiveXボタンを作成する – 完全プログラミングガイド](./create-docx-activex-button-in-java-complete-programming-guid/)
 JavaでdocxにActiveXボタンを追加する完全ガイドです。ステップバイステップで実装方法を学びましょう。
+### [Aspose.Words を使用して Java で Word 文書を作成する方法](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Aspose.Words for Java を使って新しい Word 文書を作成する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

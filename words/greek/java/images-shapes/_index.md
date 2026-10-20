@@ -91,6 +91,8 @@
 
 ### [Πώς να ορίσετε την ιδιότητα κρυφής μορφής σε σχήμα στο Aspose.Words για C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 Μάθετε πώς να κάνετε το σχήμα αόρατο ορίζοντας την ιδιότητα Hidden με το Aspose.Words για C#.
+### [Δημιουργία κενής εγγράφου Word και ομαδοποίηση σχημάτων σε Java](./create-blank-word-document-and-group-shapes-in-java/)
+Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να ομαδοποιήσετε σχήματα χρησιμοποιώντας το Aspose.Words για Java.
 
 ## Πρόσθετοι Πόροι
 

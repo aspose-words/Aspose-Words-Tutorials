@@ -109,6 +109,7 @@ Optimalizálja a dokumentumkezelést az Aspose.Words for Java segítségével. T
 ### [Webbővítmények használata az Aspose.Words Java-ban](./using-web-extensions/)
 Dokumentumok fejlesztése webbővítményekkel az Aspose.Words for Java programban. Tanulja meg, hogyan integrálja zökkenőmentesen a webes tartalmakat. 
 ### [Docx ActiveX gomb létrehozása Java-ban – teljes programozási útmutató](./create-docx-activex-button-in-java-complete-programming-guid/)
+### [Word dokumentum létrehozása Java-ban az Aspose.Words segítségével](./how-to-create-a-word-document-in-java-with-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

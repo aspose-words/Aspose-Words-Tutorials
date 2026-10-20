@@ -95,6 +95,9 @@ Aspose.Words ile Word belgelerinde şekilleri nasıl gruplandıracağınızı ö
 ### [Aspose.Words for C#'da Şeklin Gizli Özelliğini Ayarlama](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 Aspose.Words for C# kullanarak bir şeklin gizli özelliğini nasıl ayarlayacağınızı öğrenin.
 
+### [Java'da Boş Word Belgesi Oluşturma ve Şekilleri Gruplama](./create-blank-word-document-and-group-shapes-in-java/)
+Java kullanarak boş bir Word belgesi oluşturmayı ve içindeki şekilleri grup olarak yönetmeyi öğrenin.
+
 ## Ek Kaynaklar
 
 ## Ek Kaynaklar

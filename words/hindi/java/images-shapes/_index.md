@@ -99,6 +99,9 @@ Aspose.Words Java के साथ Word दस्तावेज़ में �
 ### [Aspose.Words for C# में आकृति की छिपी हुई प्रॉपर्टी कैसे सेट करें](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 Aspose.Words C# में आकृति की छिपी हुई प्रॉपर्टी सेट करने की चरण-दर-चरण गाइड।
 
+### [खाली Word दस्तावेज़ बनाएं और जावा में आकार समूहित करें](./create-blank-word-document-and-group-shapes-in-java/)
+जावा में Aspose.Words का उपयोग करके खाली Word फ़ाइल बनाएं और कई आकारों को समूहित करने का तरीका सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)

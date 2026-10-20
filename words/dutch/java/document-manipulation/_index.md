@@ -108,6 +108,8 @@ Optimaliseer documentbeheer met Aspose.Words voor Java. Leer werken met document
 Verbeter documenten met webextensies in Aspose.Words voor Java. Leer hoe u webgebaseerde content naadloos kunt integreren. 
 ### [PDF-toegankelijkheidsmarkering in Java – Toegankelijke PDF's genereren](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Leer hoe u toegankelijke PDF's genereert door tags toe te voegen met Aspose.Words voor Java.
+### [Hoe een Word-document maken in Java met Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Leer stap voor stap hoe u een Word-document maakt in Java met Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

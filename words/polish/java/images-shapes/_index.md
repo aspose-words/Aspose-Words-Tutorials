@@ -92,6 +92,8 @@ Dowiedz się, jak grupować wiele kształtów w dokumencie Word, aby ułatwić i
 
 ### [Jak ustawić ukrytą właściwość kształtu w Aspose.Words dla C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 Dowiedz się, jak ustawić właściwość ukrycia kształtu w dokumentach przy użyciu Aspose.Words dla C#.
+### [Utwórz pusty dokument Word i grupuj kształty w Javie](./create-blank-word-document-and-group-shapes-in-java/)
+Dowiedz się, jak utworzyć pusty dokument Word oraz grupować kształty przy użyciu Aspose.Words dla Java.
 
 ## Dodatkowe zasoby
 

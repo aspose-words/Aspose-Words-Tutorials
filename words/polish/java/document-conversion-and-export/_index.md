@@ -145,6 +145,8 @@ Dowiedz się, jak wyeksportować zawartość dokumentu Word do formatu Markdown,
 Dowiedz się, jak osadzać obrazy jako Base64 przy konwertowaniu DOCX do Markdown przy użyciu Aspose.Words for Java.
 ### [Zapisz DOCX jako Markdown – Kompletny przewodnik w Javie](./save-docx-as-markdown-complete-java-guide/)
 Dowiedz się, jak zapisać plik DOCX w formacie Markdown przy użyciu Aspose.Words for Java. Kompletny przewodnik krok po kroku.
+### [Jak zapisać Word jako markdown z tabelami HTML w Javie](./how-to-save-word-as-markdown-with-html-tables-in-java/)
+Dowiedz się, jak konwertować dokumenty Word do formatu markdown zachowując tabele HTML przy użyciu Aspose.Words for Java.
 
 ### [Zapisz dokument jako TXT – szybki przewodnik po eksportowaniu równań Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Dowiedz się, jak wyeksportować dokumenty Word do formatu TXT, zachowując równania matematyczne przy użyciu Aspose.Words for Java.

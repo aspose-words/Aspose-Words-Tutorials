@@ -344,6 +344,9 @@ Hướng dẫn chi tiết cách lưu tài liệu Word thành Markdown bằng Asp
 ### [Cách chuyển đổi docx sang markdown với Aspose.Words](./how-to-convert-docx-to-markdown-with-aspose-words/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang định dạng Markdown bằng Aspose.Words cho Java.
 
+### [Cách lưu Word thành markdown với bảng HTML trong Java](./how-to-save-word-as-markdown-with-html-tables-in-java/)
+Hướng dẫn lưu tài liệu Word dưới dạng markdown, giữ nguyên bảng HTML, sử dụng Aspose.Words for Java.
+
 ## Câu hỏi thường gặp
 
 **Q: Làm thế nào để thêm watermark vào PDF hiện có bằng Aspose.Words?**  

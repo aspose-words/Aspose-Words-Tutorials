@@ -92,6 +92,7 @@ Aspose.Words를 사용하여 Word 문서에서 도형을 그룹화하는 방법�
 
 ### [C#에서 Aspose.Words를 사용하여 도형 숨김 속성 설정하기](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 Aspose.Words for C#에서 도형의 숨김 속성을 설정하는 방법을 알아보세요.
+### [Java에서 빈 Word 문서를 만들고 도형을 그룹화하기](./create-blank-word-document-and-group-shapes-in-java/)
 
 ## 추가 자료
 

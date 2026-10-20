@@ -93,6 +93,8 @@
 
 ### [Πώς να προσθέσετε γραμμές οδηγού σε διάγραμμα πίτας σε Java με το Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
 Μάθετε πώς να προσθέσετε γραμμές οδηγού σε διάγραμμα πίτας χρησιμοποιώντας το Chart API της Java. Οδηγός βήμα‑βήμα.
+### [Πώς να εισάγετε κουμπί εντολής σε έγγραφο Word χρησιμοποιώντας Java](./how-to-insert-command-button-in-a-word-document-using-java/)
+Μάθετε πώς να προσθέσετε κουμπί εντολής σε έγγραφο Word με το Aspose.Words για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

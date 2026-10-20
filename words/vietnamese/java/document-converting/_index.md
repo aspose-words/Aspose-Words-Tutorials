@@ -127,6 +127,8 @@ Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF có kh
 Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định dạng Markdown trong Java bằng Aspose.Words.
 ### [Chuyển đổi markdown sang docx trong Java – hướng dẫn từng bước](./convert-markdown-to-docx-in-java-step-by-step-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tệp markdown sang định dạng docx bằng Aspose.Words cho Java.
+### [Chuyển đổi markdown sang docx với Java và Aspose.Words](./how-to-convert-markdown-to-docx-with-java-and-aspose-words/)
+Hướng dẫn chuyển đổi tệp markdown sang định dạng DOCX bằng Java và Aspose.Words.
 
 ## Câu hỏi thường gặp
 

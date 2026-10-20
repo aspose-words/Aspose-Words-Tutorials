@@ -363,6 +363,9 @@ weight: 22
 
 ### [Как конвертировать docx в markdown с помощью Aspose.Words](./how-to-convert-docx-to-markdown-with-aspose-words/)
 
+### [Как сохранить Word как markdown с HTML‑таблицами в Java](./how-to-save-word-as-markdown-with-html-tables-in-java/)
+Сохраните документ Word в markdown, сохранив HTML‑таблицы, используя Aspose.Words for Java.
+
 ## Часто задаваемые вопросы
 
 **Q: Как добавить водяной знак в существующий PDF с помощью Aspose.Words?**  

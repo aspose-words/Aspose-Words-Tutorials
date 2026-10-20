@@ -94,6 +94,8 @@ Dowiedz się, jak wstawiać i konfigurować separator w dokumentach Word przy po
 Dowiedz się, jak generować dokumenty Word z dynamicznymi polami zastępczymi i listami przy użyciu Aspose.Words dla Java.
 ### [Jak dodać linie prowadzące do wykresu kołowego w Javie przy użyciu Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
 Dowiedz się, jak dodać linie prowadzące do wykresu kołowego w Javie przy użyciu Chart API.
+### [Jak wstawić przycisk polecenia w dokumencie Word przy użyciu Java](./how-to-insert-command-button-in-a-word-document-using-java/)
+Dowiedz się, jak dodać przycisk polecenia do dokumentu Word przy użyciu Aspose.Words dla Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

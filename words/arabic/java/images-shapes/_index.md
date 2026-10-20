@@ -92,6 +92,8 @@
 
 ### [كيفية تعيين خاصية الإخفاء للشكل في Aspose.Words لـ C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 تعلم كيفية تعيين خاصية الإخفاء للشكل في Aspose.Words باستخدام C#.
+### [إنشاء مستند Word فارغ وتجميع الأشكال في Java](./create-blank-word-document-and-group-shapes-in-java/)
+تعلم كيفية إنشاء مستند Word فارغ وتجميع الأشكال باستخدام Aspose.Words لجافا
 
 ## موارد إضافية
 

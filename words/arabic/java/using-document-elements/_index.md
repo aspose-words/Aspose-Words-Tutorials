@@ -91,6 +91,8 @@
 تعلم كيفية إضافة خطوط القائد إلى مخطط الفطيرة في Java باستخدام Chart API خطوة بخطوة.
 ### [كيفية إنشاء مستند Word مع العناصر النائبة والقوائم](./how-to-create-word-document-with-placeholders-and-lists/)
 تعلم كيفية إنشاء مستند Word يحتوي على عناصر نائبة وقوائم بسهولة.
+### [كيفية إدراج زر أمر في مستند Word باستخدام جافا](./how-to-insert-command-button-in-a-word-document-using-java/)
+تعلم كيفية إضافة زر أمر تفاعلي إلى مستند Word باستخدام Aspose.Words لجافا.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

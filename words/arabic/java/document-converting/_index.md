@@ -122,6 +122,7 @@ weight: 14
 ### [حفظ Word كـ Markdown – دليل Java كامل (2026)](./save-word-as-markdown-complete-java-guide-2026/)
 ### [تحويل markdown إلى docx في Java – دليل خطوة بخطوة](./convert-markdown-to-docx-in-java-step-by-step-guide/)
 
+### [كيفية تحويل markdown إلى docx باستخدام Java و Aspose.Words](./how-to-convert-markdown-to-docx-with-java-and-aspose-words/)
 
 ## الأسئلة المتكررة
 

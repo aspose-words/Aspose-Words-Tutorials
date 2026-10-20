@@ -108,6 +108,8 @@ Otimize o gerenciamento de documentos com o Aspose.Words para Java. Aprenda a tr
 Aprimore documentos com extensões da Web no Aspose.Words para Java. Aprenda a integrar conteúdo da Web perfeitamente.
 ### [Criar botão ActiveX docx em Java – guia completo de programação](./create-docx-activex-button-in-java-complete-programming-guid/)
 Aprenda a inserir um botão ActiveX em documentos DOCX usando Aspose.Words para Java com exemplos passo a passo. 
+### [Como criar um documento Word em Java com Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Aprenda a criar documentos Word em Java usando Aspose.Words de forma simples e rápida.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

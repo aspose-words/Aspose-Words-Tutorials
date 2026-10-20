@@ -95,6 +95,8 @@ Learn how to get a separator in Word documents using Aspose.Words for Java. Foll
 Learn how to add Structured Document Tags (SDT) in C# for Word placeholders with a complete step-by-step guide.
 ### [How to add leader lines to pie chart in Java with the Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
 Learn how to add leader lines to pie charts using Aspose.Words for Java Chart API.
+### [How to insert command button in a Word document using Java](./how-to-insert-command-button-in-a-word-document-using-java/)
+Learn how to insert a command button into a Word document using Aspose.Words for Java. Step-by-step guide for developers.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -93,6 +93,8 @@ Lär dig skapa ett pajdiagram i Word med Java i denna steg-för-steg-guide.
 Lär dig steg för steg hur du lägger till ledarlinjer i ett pajdiagram med Aspose.Words för Java Chart API.
 ### [Skapa Word-dokument med platshållare och listor](./how-to-create-word-document-with-placeholders-and-lists/)
 Lär dig att skapa Word-dokument med platshållare och listor med Aspose.Words för Java.
+### [Infoga kommandoknapp i ett Word-dokument med Java](./how-to-insert-command-button-in-a-word-document-using-java/)
+Lär dig hur du infogar en kommandoknapp i ett Word-dokument med Java. Steg-för-steg-guide för att lägga till interaktiv funktionalitet.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -93,6 +93,8 @@ Erfahren Sie, wie Sie Inhaltssteuerelemente (SDT) in C# hinzufügen und Word-Pla
 Erfahren Sie, wie Sie Trennzeichen in Word-Dokumenten mit Aspose.Words für Java extrahieren und verarbeiten.
 ### [Wie man Führungs­linien zu einem Kreisdiagramm in Java mit der Chart‑API hinzufügt](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
 Erfahren Sie, wie Sie mit der Chart‑API Führungs­linien zu Kreisdiagrammen in Java hinzufügen.
+### [Einfügen einer Befehls‑Schaltfläche in ein Word‑Dokument mit Java](./how-to-insert-command-button-in-a-word-document-using-java/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java eine Befehls‑Schaltfläche in ein Word‑Dokument einfügen und konfigurieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

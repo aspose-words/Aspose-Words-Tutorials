@@ -91,6 +91,8 @@
 เรียนรู้วิธีเพิ่มเส้นนำในแผนภูมิวงกลมด้วย Chart API ของ Aspose.Words for Java
 ### [วิธีสร้างเอกสาร Word ด้วยตัวแปรแทนที่และรายการ](./how-to-create-word-document-with-placeholders-and-lists/)
 เรียนรู้วิธีสร้างเอกสาร Word ที่มีตัวแปรแทนที่และรายการโดยใช้ Aspose.Words for Java
+### [การใช้ปุ่มคำสั่งใน Aspose.Words สำหรับ Java](./how-to-insert-command-button-in-a-word-document-using-java/)
+เรียนรู้วิธีแทรกปุ่มคำสั่งลงในเอกสาร Word ด้วย Aspose.Words for Java อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

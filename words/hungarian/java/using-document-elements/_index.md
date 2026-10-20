@@ -94,6 +94,8 @@ Tanuld meg, hogyan szerezheted meg az elválasztó karaktert a Word dokumentumok
 Tanuld meg, hogyan hozhatsz létre kördiagramot Word dokumentumban Java segítségével, lépésről lépésre útmutatóval.
 ### [Vezetővonalak hozzáadása kördiagramhoz Java-ban a Chart API-val](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
 Tanuld meg, hogyan jelenítsd meg a vezetővonalakat a kördiagramokban Java Chart API használatával.
+### [Parancsgomb beszúrása Word dokumentumba Java használatával](./how-to-insert-command-button-in-a-word-document-using-java/)
+Tanuld meg, hogyan szúrj be parancsgombot egy Word dokumentumba Java segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

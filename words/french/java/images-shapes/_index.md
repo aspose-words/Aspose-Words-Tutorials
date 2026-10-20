@@ -92,6 +92,8 @@ Apprenez à regrouper plusieurs formes dans un document Word avec Aspose.Words p
 
 ### [Comment définir la propriété cachée d’une forme dans Aspose.Words pour C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 Apprenez à masquer des formes en définissant leur propriété Hidden avec Aspose.Words pour C#.
+### [Créer un document Word vierge et regrouper des formes en Java](./create-blank-word-document-and-group-shapes-in-java/)
+Apprenez à créer un document Word vierge et à regrouper des formes à l'aide d'Aspose.Words pour Java.
 
 ## Ressources supplémentaires
 

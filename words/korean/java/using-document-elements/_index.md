@@ -93,6 +93,8 @@ Java를 사용해 Word 문서에 파이 차트를 삽입하는 방법을 단계�
 Java용 Aspose.Words Chart API를 활용해 파이 차트에 리더 라인을 추가하는 방법을 단계별로 안내합니다.
 ### [플레이스홀더와 목록을 사용하여 워드 문서 만들기](./how-to-create-word-document-with-placeholders-and-lists/)
 플레이스홀더와 목록을 활용해 동적인 워드 문서를 생성하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 명령 버튼 삽입하기](./how-to-insert-command-button-in-a-word-document-using-java/)
+Aspose.Words for Java를 이용해 Word 문서에 명령 버튼을 추가하고 동작하도록 설정하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

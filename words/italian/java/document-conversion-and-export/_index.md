@@ -344,6 +344,9 @@ Scopri come convertire file markdown in DOCX usando Aspose.Words per Java.
 ### [Come convertire docx in markdown con Aspose.Words](./how-to-convert-docx-to-markdown-with-aspose-words/)
 Scopri come trasformare documenti DOCX in markdown usando Aspose.Words per Java.
 
+### [Come salvare Word come markdown con tabelle HTML in Java](./how-to-save-word-as-markdown-with-html-tables-in-java/)
+Scopri come salvare documenti Word in formato markdown mantenendo le tabelle HTML usando Aspose.Words per Java.
+
 ## Domande frequenti
 
 **Q: Come aggiungo una filigrana a un PDF esistente usando Aspose.Words?**  

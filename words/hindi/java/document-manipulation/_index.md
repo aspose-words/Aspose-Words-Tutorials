@@ -108,6 +108,8 @@ Java के लिए Aspose.Words में वेब एक्सटेंश�
 Java के लिए Aspose.Words के साथ PDF में एक्सेसिबिलिटी टैग जोड़ें और सुलभ PDFs जनरेट करें।
 ### [Java में docx ActiveX बटन बनाना – पूर्ण प्रोग्रामिंग गाइड](./create-docx-activex-button-in-java-complete-programming-guid/)
 Java में docx फ़ाइल में ActiveX बटन जोड़ने की पूरी मार्गदर्शिका।
+### [Java में Aspose.Words के साथ Word दस्तावेज़ बनाना](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Aspose.Words for Java का उपयोग करके नया Word दस्तावेज़ बनाने के चरण-दर-चरण मार्गदर्शक।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

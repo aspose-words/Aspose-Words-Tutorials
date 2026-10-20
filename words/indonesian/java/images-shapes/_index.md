@@ -92,6 +92,8 @@ Pelajari cara mengelompokkan beberapa bentuk menjadi satu grup dalam dokumen Wor
 
 ### [Cara Mengatur Properti Tersembunyi Bentuk di Aspose.Words untuk C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 Pelajari cara menyetel properti tersembunyi pada bentuk menggunakan Aspose.Words untuk C#.
+### [Buat dokumen Word kosong dan grupkan bentuk di Java](./create-blank-word-document-and-group-shapes-in-java/)
+Pelajari cara membuat dokumen Word kosong serta mengelompokkan bentuk-bentuk di dalamnya menggunakan Aspose.Words untuk Java.
 
 ## Sumber Daya Tambahan
 

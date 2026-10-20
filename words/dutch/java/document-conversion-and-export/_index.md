@@ -348,6 +348,9 @@ Leer hoe je met Aspose.Words for Java een Word‑document in één stap naar PDF
 ### [Word opslaan als Markdown – volledige gids met Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
 Leer hoe je Word-documenten converteert en opslaat als Markdown met Aspose.Words, inclusief wiskundige vergelijkingen en afbeeldingen.
 
+### [Hoe Word opslaan als markdown met HTML‑tabellen in Java](./how-to-save-word-as-markdown-with-html-tables-in-java/)
+Leer hoe je een Word‑document converteert naar markdown met behoud van HTML‑tabellen met Aspose.Words for Java.
+
 ## Veelgestelde Vragen
 
 **Q: Hoe voeg ik een watermark toe aan een bestaande PDF met Aspose.Words?**  

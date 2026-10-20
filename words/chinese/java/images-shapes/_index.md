@@ -92,6 +92,8 @@ Aspose.Words Java 代码教程
 
 ### [如何在 Aspose.Words for C# 中设置形状隐藏属性](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 演示如何在 C# 中使用 Aspose.Words 设置形状的隐藏属性。
+### [在 Java 中创建空白 Word 文档并对形状进行分组](./create-blank-word-document-and-group-shapes-in-java/)
+演示如何使用 Aspose.Words for Java 创建空白文档并将多个形状分组。
 
 ## 其他资源
 

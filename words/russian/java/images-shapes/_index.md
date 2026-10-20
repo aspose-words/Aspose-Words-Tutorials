@@ -91,6 +91,8 @@
 
 ### [Как установить скрытое свойство фигуры в Aspose.Words для C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 Узнайте, как задать свойство Hidden для фигур в документах Word с помощью Aspose.Words для C#.
+### [Создание пустого документа Word и группировка фигур в Java](./create-blank-word-document-and-group-shapes-in-java/)
+Узнайте, как создать пустой документ Word и объединить фигуры в одну группу с помощью Aspose.Words для Java.
 
 ## Дополнительные ресурсы
 

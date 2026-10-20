@@ -92,6 +92,8 @@ Naučte se, jak seskupit tvary v dokumentu Word pomocí Aspose.Words.
 
 ### [Jak nastavit skrytou vlastnost tvaru v Aspose.Words pro C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 Naučte se, jak nastavit vlastnost Hidden pro tvary v dokumentech Word pomocí Aspose.Words pro C#.
+### [Vytvořit prázdný Word dokument a seskupit tvary v Javě](./create-blank-word-document-and-group-shapes-in-java/)
+Naučte se, jak vytvořit prázdný dokument Word a seskupit tvary pomocí Aspose.Words pro Javu.
 
 ## Další zdroje
 

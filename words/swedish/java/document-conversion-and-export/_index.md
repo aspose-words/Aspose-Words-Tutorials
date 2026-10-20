@@ -46,7 +46,7 @@ En vattenstämpel är en svag bild eller text som placeras bakom huvudinnehålle
 Är du ny på Aspose.Words for Java? Inga problem! Denna handledning guidar dig genom den initiala installationen och ger dig en solid grund för att arbeta med detta API. Du kommer snabbt igång.
 
 ## Konvertera dokument till olika format
-En av huvudfunktionerna i Aspose.Words for Java är dess förmåga att **konvertera docx till pdf** och många andra format sömlöst. Oavsett om du behöver konvertera en DOCX‑fil till PDF eller tvärtom, kommer denna handledning att gå igenom processen steg för steg. Du får en djup förståelse för konverteringsalternativen och anpassningsmöjligheterna.
+En av huvudfunktionerna i Aspose.Words for Java är dess **konvertera docx till pdf** och många andra format sömlöst. Oavsett om du behöver konvertera en DOCX‑fil till PDF eller tvärtom, kommer denna handledning att gå igenom processen steg för steg. Du får en djup förståelse för konverteringsalternativen och anpassningsmöjligheterna.
 
 ### Så konverterar du DOCX till PDF
 1. Läs in DOCX‑filen med `Document doc = new Document("input.docx");`.  
@@ -143,6 +143,9 @@ Lär dig hur du konverterar Word-dokument till Markdown med Aspose.Words i en ko
 
 ### [Hur man utför markdown‑till‑docx‑konvertering i Java](./how-to-perform-markdown-to-docx-conversion-in-java/)
 Lär dig hur du konverterar Markdown-filer till DOCX med Aspose.Words för Java.
+
+### [Hur man sparar Word som markdown med HTML‑tabeller i Java](./how-to-save-word-as-markdown-with-html-tables-in-java/)
+Lär dig hur du sparar ett Word‑dokument som markdown med HTML‑tabeller i Java med Aspose.Words.
 
 ### [Aspose Word till PDF – Konvertera DOCX till PDF i Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Lär dig hur du konverterar DOCX‑filer till PDF med Aspose.Words for Java i några enkla steg.

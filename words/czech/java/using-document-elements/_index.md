@@ -93,6 +93,8 @@ Naučte se, jak pomocí Aspose.Words vytvořit a vložit koláčový graf do dok
 Naučte se, jak pomocí Aspose.Words pro Javu vytvořit prázdný dokument Word a přidat k němu tlačítko příkazu.
 ### [Vytvoření koláčového grafu ve Wordu pomocí Javy – krok za krokem](./create-pie-chart-in-word-with-java-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Words pro Javu vytvořit koláčový graf ve Word dokumentu krok za krokem.
+### [Jak vložit tlačítko příkazu do dokumentu Word pomocí Javy](./how-to-insert-command-button-in-a-word-document-using-java/)
+Naučte se, jak pomocí Aspose.Words pro Javu vložit tlačítko příkazu do dokumentu Word a přidat interaktivitu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

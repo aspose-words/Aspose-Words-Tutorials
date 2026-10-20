@@ -107,6 +107,8 @@ Optimice la gestión de documentos con Aspose.Words para Java. Aprenda a trabaja
 Aprenda a crear PDFs accesibles con etiquetas de accesibilidad usando Aspose.Words para Java.
 ### [Crear botón ActiveX docx en Java – guía completa de programación](./create-docx-activex-button-in-java-complete-programming-guid/)
 Aprenda a crear un botón ActiveX en documentos DOCX usando Java con esta guía completa.
+### [Cómo crear un documento Word en Java con Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Aprenda a generar documentos Word desde cero en Java usando Aspose.Words con ejemplos de código paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

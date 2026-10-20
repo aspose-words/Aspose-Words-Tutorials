@@ -92,6 +92,8 @@ Apprenez à insérer des contrôles de contenu (SDT) avec Aspose.Words pour C# a
 Apprenez à ajouter des lignes de repère aux graphiques circulaires en Java à l'aide de l'API Chart d'Aspose.
 ### [Créer un document Word avec des espaces réservés et des listes](./how-to-create-word-document-with-placeholders-and-lists/)
 Apprenez à générer des documents Word contenant des espaces réservés et des listes dynamiques avec Aspose.Words pour Java.
+### [Comment insérer un bouton de commande dans un document Word à l'aide de Java](./how-to-insert-command-button-in-a-word-document-using-java/)
+Apprenez à insérer un bouton de commande dans un document Word avec Aspose.Words pour Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

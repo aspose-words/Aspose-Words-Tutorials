@@ -187,6 +187,8 @@ Learn how to convert DOCX files to Markdown using Aspose.Words for Java with a c
 ### [How to convert docx to markdown with Aspose.Words](./how-to-convert-docx-to-markdown-with-aspose-words/)
 
 Learn how to convert DOCX files to Markdown format using Aspose.Words for Java in a few simple steps.
+### [How to save Word as markdown with HTML tables in Java](./how-to-save-word-as-markdown-with-html-tables-in-java/)
+Learn how to convert Word documents to Markdown while preserving HTML tables using Aspose.Words for Java.
 
 ### [Save Document as TXT – Quick Guide to Exporting Word Math](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 

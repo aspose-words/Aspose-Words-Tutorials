@@ -92,6 +92,8 @@ Aspose.Words for Java を使って、Word 文書内の複数の図形をグル�
 
 ### [Aspose.Words for C# でシェイプの非表示プロパティを設定する方法](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 Aspose.Words for C# を使用して、シェイプを非表示にするプロパティの設定手順を解説します。
+### [Javaで空白のWord文書を作成し、シェイプをグループ化する](./create-blank-word-document-and-group-shapes-in-java/)
+Javaで空白のWord文書を作成し、シェイプをグループ化する方法を学びます。
 
 ## 追加リソース
 

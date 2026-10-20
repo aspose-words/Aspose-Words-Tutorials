@@ -92,6 +92,8 @@ Scopri come raggruppare più forme in un documento Word con Aspose.Words per Jav
 
 ### [Come impostare la proprietà nascosta della forma in Aspose.Words per C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 Scopri come impostare la proprietà Hidden di una forma nei documenti Word usando Aspose.Words per C#.
+### [Crea documento Word vuoto e raggruppa forme in Java](./create-blank-word-document-and-group-shapes-in-java/)
+Impara a creare un documento Word vuoto e a raggruppare forme usando Aspose.Words per Java.
 
 ## Risorse aggiuntive
 

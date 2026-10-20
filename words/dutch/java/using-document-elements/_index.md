@@ -92,6 +92,8 @@ Leer hoe u een cirkeldiagram in een Word-document maakt met Java, stap voor stap
 Leer hoe je een Word-document maakt met placeholders en lijsten in Aspose.Words voor Java.
 ### [Leidlijnen toevoegen aan een taartdiagram in Java met de Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
 Leer hoe je leidlijnen toevoegt aan een taartdiagram met de Aspose.Words Chart API in Java.
+### [Hoe een opdrachtknop in een Word-document in te voegen met Java](./how-to-insert-command-button-in-a-word-document-using-java/)
+Leer hoe u een opdrachtknop toevoegt aan een Word-document met Aspose.Words voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

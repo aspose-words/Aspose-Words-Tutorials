@@ -95,6 +95,7 @@ Java と Aspose.Words を使用して、Word 文書内に円グラフを挿入�
 
 ### [Java の Chart API で円グラフにリーダーラインを追加する方法](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
 Java の Chart API を使用して、円グラフにリーダーライン（データラベルの線）を追加する手順を学びます。
+### [Java で Word 文書にコマンド ボタンを挿入する方法](./how-to-insert-command-button-in-a-word-document-using-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
