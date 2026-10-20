@@ -39,7 +39,7 @@ tags:
 - Java
 - Aspose.Words
 - Document Automation
-title: Create rectangle shape in Java – Complete Step‑by‑Step Guide
+title: Create rectangle shape in Java with Aspose.Words – Complete Step‑by‑Step Guide
 url: /java/images-shapes/create-rectangle-shape-in-java-complete-step-by-step-guide/
 ---
 
@@ -53,7 +53,7 @@ Ever wondered how to **create rectangle shape** in a Word document using Java? Y
 
 The code snippet below is a fully functional example that you can copy‑paste into your project. No external documentation required—just follow the steps, understand the “why,” and you’ll be generating shadowed rectangles in seconds.
 
-## What You’ll Learn
+## What you’ll learn
 
 - How to **create rectangle shape** programmatically with Aspose.Words for Java.
 - The exact calls needed to **add shadow to shape** and configure its visual properties.
@@ -170,7 +170,7 @@ Open the resulting `ShadowShape.docx` in Microsoft Word or LibreOffice, and you�
 
 *Image alt text:* **create rectangle shape with shadow** – visual representation of the final output.
 
-## Common Questions & Edge Cases
+## Common questions & edge cases
 
 ### What if I want a different shadow color?
 
@@ -209,7 +209,7 @@ rectangleShape.setHorizontalAlignment(HorizontalAlignment.CENTER);
 
 Floating shapes give you more layout freedom but require extra positioning logic.
 
-## Full Working Example
+## Full working example
 
 Below is the complete, copy‑paste‑ready program that incorporates all the steps we discussed. Run it as a regular Java application.
 
@@ -260,7 +260,7 @@ We’ve just **create rectangle shape** from scratch, **add shadow to shape**, *
 What’s next on your roadmap? Try swapping `ShapeType.RECTANGLE` for `ShapeType.OVAL` to generate shadowed circles, or experiment with gradient fills for
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
@@ -273,3 +273,4 @@ The following tutorials cover closely related topics that build on the technique
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}

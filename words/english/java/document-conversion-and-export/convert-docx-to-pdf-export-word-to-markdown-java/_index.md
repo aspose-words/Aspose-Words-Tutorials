@@ -27,7 +27,7 @@ tags:
 - Java
 - LowCode
 - File Conversion
-title: Convert DOCX to PDF – Export Word to Markdown (Java)
+title: Convert DOCX to PDF and Export Word to Markdown with LowCode.Converter (Java)
 url: /java/document-conversion-and-export/convert-docx-to-pdf-export-word-to-markdown-java/
 ---
 
@@ -41,7 +41,7 @@ Ever needed to **convert DOCX to PDF** but also wanted a clean Markdown version 
 
 We'll walk through every line of code, explain why each option matters, and even tweak image resolution for the Markdown output. By the end you’ll have a reusable method that turns any `.docx` into both a polished PDF and a tidy `.md` file—no manual copy‑pasting required.
 
-## What You’ll Need
+## What you’ll need
 
 - Java 17 or newer (the library we use targets Java 8+ but newer runtimes are fine)  
 - The `LowCode.Converter` JAR on your classpath (available from Maven Central)  
@@ -67,7 +67,7 @@ LowCode.Converter.convert(sourceDoc, pdfOutput);
 
 > **Pro tip:** Keep the source and destination on the same drive to avoid cross‑filesystem latency, especially when processing large documents.
 
-## Export Word Document to Markdown
+## Export word document to markdown
 
 Now that the PDF is ready, let’s get a Markdown version. This is handy for static site generators, README files, or any place you need lightweight formatting.
 
@@ -86,7 +86,7 @@ The `MarkdownSaveOptions` object lets you tweak how images are handled. By defau
 
 *How does this differ from a naïve copy?* The converter parses the document’s styles, converts headings to `#` syntax, translates tables into pipe‑delimited rows, and rewrites hyperlinks as `[text](url)`. You get clean, readable Markdown that mirrors the original Word layout.
 
-## Full Working Example
+## Full working example
 
 Below is a self‑contained Java class you can paste straight into a project. It demonstrates **how to convert Word to PDF** *and* **how to convert docx to markdown** in one go.
 
@@ -132,7 +132,7 @@ After running, you’ll find two files side by side: a printable PDF and a clean
 
 ![Conversion flow diagram](convert-docx-to-pdf.png){alt="Convert DOCX to PDF flow diagram"}
 
-## Common Pitfalls and How to Avoid Them
+## Common pitfalls and how to avoid them
 
 | Symptom | Likely Cause | Fix |
 |---------|--------------|-----|
@@ -158,9 +158,7 @@ If you only need PDFs, a dedicated PDF library like iText might give you finer c
 
 Feel free to tweak the paths, plug this into
 
-
-## What Should You Learn Next?
-
+## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
@@ -170,5 +168,5 @@ The following tutorials cover closely related topics that build on the technique
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

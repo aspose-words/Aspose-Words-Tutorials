@@ -70,7 +70,7 @@ tags:
 - Java
 - Aspose.Words
 - Word recovery
-title: Set Recovery Mode in Aspose.Words for Java – Full Guide
+title: Set Recovery Mode and Display Page Count in Aspose.Words for Java – Full Guide
 url: /java/document-loading-and-saving/set-recovery-mode-in-aspose-words-for-java-full-guide/
 ---
 
@@ -78,13 +78,13 @@ url: /java/document-loading-and-saving/set-recovery-mode-in-aspose-words-for-jav
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Set Recovery Mode in Aspose.Words for Java – Full Guide
+# Set Recovery Mode and Display Page Count in Aspose.Words for Java – Full Guide
 
 Ever wondered how to **set recovery mode** when loading a broken `.docx` file with Aspose.Words? You're not the only one scratching your head over corrupted Word documents that refuse to open. In this tutorial we’ll walk through exactly that—how to configure the library to **recover corrupted Word** files and then **display page count** of the successfully loaded content.
 
 We’ll cover everything from the tiny `LoadOptions` tweak to the final `System.out.println` that tells you how many pages survived the rescue mission. No fluff, just a practical, copy‑paste‑ready solution that works with the latest Aspose.Words 23.12 release.
 
-## What You’ll Learn
+## What you’ll learn
 
 - Why the recovery mode matters and which options Aspose.Words offers.  
 - How to **set recovery mode** programmatically using Java.  
@@ -137,7 +137,7 @@ In most real‑world scenarios, **PARSE** is the safer bet because it maximizes 
 
 ---
 
-## ## Display Page Count After Recovery
+## ## display page count after recovery
 
 Once the document is loaded, the next logical step is to verify the success of the operation. The simplest, yet most informative, metric is the page count. The `Document.getPageCount()` method does exactly that.
 
@@ -158,12 +158,12 @@ That tells you the library managed to reconstruct twelve pages from the corrupte
 
 ---
 
-## ## Edge Cases & Common Pitfalls
+## ## edge cases & common pitfalls
 
-### 1️⃣ Corrupted Header/Footer Sections
+### 1️⃣ corrupted header/Footer sections
 Sometimes only the main body parses while headers and footers are lost. If you rely on those for branding, you may need to re‑inject them after recovery.
 
-### 2️⃣ Images That Won’t Load
+### 2️⃣ images that won’t load
 Embedded images often get stripped out when the zip container (the underlying `.docx` format) is damaged. You can catch this by iterating over `doc.getSections()` and checking `Section.getBody().getParagraphs()` for `Shape` objects.
 
 ```java
@@ -179,10 +179,10 @@ for (Section sec : doc.getSections()) {
 
 If the loop prints nothing, the recovery mode likely skipped the images.
 
-### 3️⃣ Large Documents and Memory
+### 3️⃣ large documents and memory
 Recovering a 200‑page corrupted file can be memory‑intensive. Consider increasing the JVM heap size (`-Xmx2g`) when you anticipate huge documents.
 
-### 4️⃣ License Restrictions
+### 4️⃣ license restrictions
 The evaluation version caps certain features, but **recovery** is fully functional. However, the printed page count may be limited to a few pages in the trial. Always test with a licensed build for production.
 
 ---
@@ -257,7 +257,7 @@ You should see the page count printed to the console, confirming the recovery su
 
 ---
 
-## ## Frequently Asked Questions
+## ## frequently asked questions
 
 **Q: What if `RecoveryMode.PARSE` still throws an exception?**  
 A: That usually means the file is beyond salvage—perhaps the zip container is completely broken. In such cases, you might need a third‑party repair tool before handing it to Aspose.Words.
@@ -286,9 +286,7 @@ Next steps? Try swapping `RecoveryMode.SKIP` to see the difference, experiment w
 
 Happy coding, and may your documents stay intact!
 
-
-## What Should You Learn Next?
-
+## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
@@ -300,3 +298,4 @@ The following tutorials cover closely related topics that build on the technique
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}

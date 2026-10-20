@@ -46,7 +46,7 @@ tags:
 - Java
 - PDF
 - Aspose.Words
-title: Export Floating Shapes Inline – Complete Guide to PDF Conversion
+title: Convert Word to PDF with Aspose.Words – Export Floating Shapes Inline
 url: /java/document-conversion-and-export/export-floating-shapes-inline-complete-guide-to-pdf-conversi/
 ---
 
@@ -54,13 +54,13 @@ url: /java/document-conversion-and-export/export-floating-shapes-inline-complete
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Export Floating Shapes Inline – Complete Guide to PDF Conversion
+# Convert Word to PDF with Aspose.Words – Export Floating Shapes Inline
 
 Ever needed to **export floating shapes inline** when you convert a Word document to PDF? You’re not alone—many developers hit this snag when their diagrams or icons mysteriously shift to separate layers. The good news is that a single PDF option can keep those shapes snug inside `<span>` tags, preserving layout exactly as you see it in Word.
 
 In this tutorial we’ll walk through **how to set PDF options** in Java, show you the exact code to **save Word as PDF options**, and explain why you might want to **convert Word to PDF inline** instead of the default block‑level export. By the end, you’ll have a ready‑to‑run snippet that you can drop into any Maven or Gradle project.
 
-## What You’ll Learn
+## What you’ll learn
 
 - The difference between inline `<span>` and block `<div>` export for floating shapes.  
 - How to configure `PdfSaveOptions` to force inline rendering.  
@@ -72,7 +72,7 @@ In this tutorial we’ll walk through **how to set PDF options** in Java, show y
 
 ---
 
-## Step 1: Load the Source Word Document
+## Step 1: load the source word document
 
 The first thing you do is open the `.docx` you want to transform. This is straightforward, but make sure the path is absolute or correctly resolved from your classpath.
 
@@ -88,7 +88,7 @@ If the document isn’t loaded correctly, the subsequent PDF conversion will thr
 
 ---
 
-## Step 2: Create PDF Save Options and Set Floating Shapes to Inline
+## Step 2: create PDF save options and set floating shapes to inline
 
 Here’s where the magic happens. By default Aspose.Words exports floating shapes as block‑level `<div>` elements, which can break the flow in HTML‑based PDFs. Setting `setExportFloatingShapesAsInlineTag(true)` tells the engine to wrap each shape in an inline `<span>` instead.
 
@@ -123,7 +123,7 @@ The `save` method respects every flag you set on `pdfOptions`. Forgetting to pas
 
 ---
 
-## Full Working Example
+## Full working example
 
 Putting it all together, here’s a compact program you can compile and run right now. Replace `YOUR_DIRECTORY` with an actual path on your machine.
 
@@ -159,7 +159,7 @@ public class ExportFloatingShapesInlineDemo {
 
 ---
 
-## Common Questions & Edge Cases
+## Common questions & edge cases
 
 ### 1. “What if my document contains complex SmartArt?”
 
@@ -194,7 +194,7 @@ These settings pair nicely with **convert word to pdf inline** scenarios where y
 
 ---
 
-## Testing Your Conversion
+## Testing your conversion
 
 1. **Visual check** – Open the PDF in two viewers (Chrome and Adobe Reader) to ensure shapes line up.  
 2. **Automated diff** – Use a library like `pdfbox` to extract the XML and assert the presence of `<span>` tags.  
@@ -225,9 +225,7 @@ Ready for the next step? Try applying the same technique to **export floating ta
 
 Got more questions about **how to set pdf options** or need help with **save word as pdf options** for a different library? Drop a comment, and happy coding!
 
-
-## What Should You Learn Next?
-
+## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
@@ -237,5 +235,5 @@ The following tutorials cover closely related topics that build on the technique
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

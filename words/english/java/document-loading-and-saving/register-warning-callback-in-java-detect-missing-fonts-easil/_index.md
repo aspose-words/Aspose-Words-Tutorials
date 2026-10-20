@@ -56,7 +56,7 @@ tags:
 - Aspose.Words
 - Java
 - Fonts
-title: Register warning callback in Java – Detect missing fonts easily
+title: Register warning callback in Aspose.Words for Java – Detect missing fonts easily
 url: /java/document-loading-and-saving/register-warning-callback-in-java-detect-missing-fonts-easil/
 ---
 
@@ -297,7 +297,7 @@ From here you might explore:
 Give it a whirl—swap out the input document, try different missing‑font scenarios, and see how the callback behaves. If you run into quirks, drop a comment below; happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
@@ -307,6 +307,6 @@ The following tutorials cover closely related topics that build on the technique
 - [Aspose Words Java Callback Custom Savings](/words/hindi/java/images-shapes/aspose-words-java-callback-custom-savings/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

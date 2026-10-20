@@ -27,7 +27,7 @@ tags:
 - Markdown
 - Docx
 - Image extraction
-title: Convert docx to markdown with images – Complete Java Guide
+title: Convert docx to markdown with images using Aspose.Words – Complete Java Guide
 url: /java/document-conversion-and-export/convert-docx-to-markdown-with-images-complete-java-guide/
 ---
 
@@ -58,7 +58,7 @@ No extra image‑processing tools are required; the callback we’ll set up can 
 
 ---
 
-## Step 1: Set Up the Project and Import Dependencies
+## Step 1: set up the project and import dependencies
 
 First things first. Create a Maven (or Gradle) project and add the Aspose.Words dependency:
 
@@ -83,7 +83,7 @@ Once the dependency is resolved, create a new Java class, e.g., `DocxToMarkdown.
 
 ---
 
-## Step 2: Load the Source Document
+## Step 2: load the source document
 
 Loading the document is straightforward, but it’s worth mentioning why we do it this way. By using the `Document` constructor with a file path, Aspose.Words parses the whole DOCX package, exposing images, styles, and layout information—all of which we’ll need later when we **convert docx to markdown**.
 
@@ -130,7 +130,7 @@ When you **export word to markdown**, the library needs to know where to write t
 
 ---
 
-## Step 4: Save the Document as Markdown
+## Step 4: save the document as markdown
 
 Now we tell Aspose to write the markdown file using the options we just configured. The `save` method takes the output path and the `MarkdownSaveOptions` instance.
 
@@ -177,7 +177,7 @@ If the images appear broken, double‑check the relative path in the markdown. T
 
 ---
 
-## Step 6: Advanced Tweaks – Custom Filenames and Compression
+## Step 6: advanced tweaks – custom filenames and compression
 
 Sometimes you don’t want the original filenames because they contain spaces or special characters. You can adjust the callback to generate safe names:
 
@@ -197,7 +197,7 @@ If you also need to shrink file sizes (useful for web publishing), plug in an im
 
 ---
 
-## Step 7: Handling Edge Cases – Tables, Footnotes, and Embedded Objects
+## Step 7: handling edge cases – tables, footnotes, and embedded objects
 
 While the primary goal is to **convert docx to markdown**, you might run into content that Markdown doesn’t natively support, such as complex tables or footnotes. Aspose.Words does a decent job converting simple tables to markdown syntax, but for nested tables you may need to post‑process the markdown file.
 
@@ -211,7 +211,7 @@ if (args.getResourceType() == ResourceType.OBJECT) {
 
 ---
 
-## Full Working Example (All Code Together)
+## Full working example (All code together)
 
 Below is the complete, ready‑to‑run program. Copy‑paste it into `DocxToMarkdown.java`, replace `YOUR_DIRECTORY` with an absolute or relative path, and execute `mvn compile exec:java`.
 
@@ -255,16 +255,16 @@ Next steps? Try coupling this exporter with a static‑site build (e.g., Jekyll 
 Got questions about edge cases, or want to see a version that streams the markdown directly to a web service? Drop a comment below, and happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Embed Images in Markdown When Converting DOCX](/words/english/java/document-conversion-and-export/how-to-embed-images-in-markdown-when-converting-docx/)
-- [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
-- [aspose word to pdf – Convert DOCX to PDF in Java](/words/english/java/document-conversion-and-export/aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
+- [How to Embed Images in Markdown When Converting DOCX]({{< relref "how-to-embed-images-in-markdown-when-converting-docx/_index.md" >}})
+- [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words]({{< relref "convert-docx-to-markdown-export-math-equations-to-latex-with/_index.md" >}})
+- [aspose word to pdf – Convert DOCX to PDF in Java]({{< relref "aspose-word-to-pdf-convert-docx-to-pdf-in-java/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

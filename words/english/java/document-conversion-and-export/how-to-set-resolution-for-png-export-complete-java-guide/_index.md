@@ -13,7 +13,7 @@ keywords:
 language: en
 og_description: How to set resolution for PNG export in Java. This tutorial covers
   image export options, page count limits, and layout choices for multi‑page documents.
-og_title: How to Set Resolution for PNG Export – Java Step‑by‑Step
+og_title: How to Set Resolution for PNG Export with Aspose.Words – Java Step‑by‑Step
 schemas:
 - author: Aspose
   dateModified: '2026-07-03'
@@ -26,7 +26,7 @@ tags:
 - Java
 - PNG
 - ImageProcessing
-title: How to Set Resolution for PNG Export – Complete Java Guide
+title: How to Set Resolution for PNG Export with Aspose.Words – Complete Java Guide
 url: /java/document-conversion-and-export/how-to-set-resolution-for-png-export-complete-java-guide/
 ---
 
@@ -40,7 +40,7 @@ Ever wondered **how to set resolution for PNG export** when turning a multi‑pa
 
 In this tutorial we’ll walk through the exact steps to control the DPI, limit the pages, and pick the layout you want—no guesswork required. We'll also sprinkle in a few handy **image export options** so you can fine‑tune the output to your exact needs.
 
-## What You’ll Learn
+## What you’ll learn
 
 - How to create an `ImageSaveOptions` object and set a custom resolution.  
 - How to restrict the export to a specific number of pages (think “first 5 pages only”).  
@@ -51,7 +51,7 @@ In this tutorial we’ll walk through the exact steps to control the DPI, limit 
 
 ![how to set resolution for png export diagram](image.png "Diagram illustrating the resolution‑setting workflow for PNG export")
 
-## Step 1: Initialise Image Export Options and Set the Desired DPI  
+## Step 1: initialise image export options and set the desired DPI
 
 The first thing you need is an `ImageSaveOptions` instance configured for PNG. Setting the resolution is as simple as calling `setResolution`. Remember, the value is in dots‑per‑inch (DPI); 300 dpi is a common print‑quality target.
 
@@ -130,7 +130,7 @@ identify -format "%x DPI\n" YOUR_DIRECTORY/MultiPage.png
 
 The command should output `300 DPI`, confirming that our resolution setting took effect.
 
-## Common Pitfalls and How to Avoid Them  
+## Common pitfalls and how to avoid them
 
 | Symptom | Likely Cause | Fix |
 |---------|--------------|-----|
@@ -150,7 +150,7 @@ imgOptions.setLayout(ImageSaveOptions.Layout.VERTICAL);
 srcDoc.save("YOUR_DIRECTORY/MultiPage.png", imgOptions); // generates separate files
 ```
 
-## Full Working Sample (Copy‑Paste Ready)
+## Full working sample (Copy‑Paste ready)
 
 ```java
 import com.aspose.words.*;
@@ -188,16 +188,17 @@ Next steps? Try swapping `ImageSaveOptions.Layout.GRID` to see a thumbnail galle
 Got questions or a tricky edge case? Drop a comment below, and happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Add Watermark – Document Conversion and Export with Aspose.Words for Java](/words/english/java/document-conversion-and-export/)
-- [How to Export HTML with Aspose.Words Java - Advanced Options](/words/english/java/document-loading-and-saving/advance-html-documents-saving-options/)
-- [How to Export Markdown with Aspose.Words for Java](/words/english/java/document-loading-and-saving/saving-documents-as-markdown/)
+- [How to Add Watermark – Document Conversion and Export with Aspose.Words for Java]({{< relref "how-to-add-watermark.md" >}})
+- [How to Export HTML with Aspose.Words Java - Advanced Options]({{< relref "../document-loading-and-saving/advance-html-documents-saving-options/_index.md" >}})
+- [How to Export Markdown with Aspose.Words for Java]({{< relref "../document-loading-and-saving/saving-documents-as-markdown/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
