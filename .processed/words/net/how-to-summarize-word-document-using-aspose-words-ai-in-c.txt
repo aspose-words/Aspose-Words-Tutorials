@@ -1,0 +1,7 @@
+Title: How to summarize word document using Aspose.Words AI in C#
+Slug: how-to-summarize-word-document-using-aspose-words-ai-in-c
+Category: ai-powered-document-processing
+ProcessedDate: 2026-10-20T12:23:20.755532
+SourceRepo: AI Search API
+Keywords: summarize word document, summarize with google, how to summarize word, extract text summary
+PRNumber: 331
