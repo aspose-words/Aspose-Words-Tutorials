@@ -1,0 +1,7 @@
+Title: How to create mail merge template with Aspose.Words in C#
+Slug: how-to-create-mail-merge-template-with-aspose-words-in-c
+Category: working-with-fields
+ProcessedDate: 2026-10-20T12:23:25.080021
+SourceRepo: AI Search API
+Keywords: create mail merge template, load word template, merge data into word, automate document generation, populate word template
+PRNumber: 331
