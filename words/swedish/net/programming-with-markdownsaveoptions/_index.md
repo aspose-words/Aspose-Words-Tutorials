@@ -264,6 +264,11 @@ Lär dig spara Markdown-filer och extrahera bilder med en komplett guide i C#.
 Lär dig hur du tar bort tomma stycken när du konverterar Word-dokument till Markdown med Aspose.Words för .NET.
 ### [Skapa markdown från Word med Aspose.Words – Fullständig C#-guide](./create-markdown-from-word-with-aspose-words-full-c-guide/)
 Lär dig konvertera Word-dokument till Markdown med en komplett C#-guide som täcker alla steg.
+### [Hur man använder Aspose för att konvertera DOCX till Markdown med matematikexport](./how-to-use-aspose-to-convert-docx-to-markdown-with-math-expo/)
+Lär dig konvertera DOCX-filer till Markdown med matematikexport med Aspose.Words för .NET.
+
+### [Spara Word som Markdown – Fullständig C#-guide för att exportera Word‑bilder](./save-word-as-markdown-complete-c-guide-to-export-word-images/)
+Lär dig exportera Word‑bilder när du sparar dokument som Markdown med en komplett C#‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

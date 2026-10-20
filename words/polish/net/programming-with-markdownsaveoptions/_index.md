@@ -247,6 +247,11 @@ Dowiedz się, jak usunąć puste akapity podczas konwersji dokumentów Word do f
 Kompletny przewodnik C# konwertujący pliki DOCX do formatu Markdown, zawierający przykłady i najlepsze praktyki.
 ### [Utwórz markdown z Worda przy użyciu Aspose.Words – Pełny przewodnik C#](./create-markdown-from-word-with-aspose-words-full-c-guide/)
 Kompletny przewodnik C# pokazujący, jak konwertować dokumenty Word do formatu Markdown przy użyciu Aspose.Words.
+### [Jak używać Aspose do konwersji DOCX na Markdown z eksportem równań](./how-to-use-aspose-to-convert-docx-to-markdown-with-math-expo/)
+Dowiedz się, jak konwertować pliki DOCX do Markdown, zachowując równania matematyczne, przy użyciu Aspose.Words.
+
+### [Zapisz Word jako Markdown – Kompletny przewodnik C# eksportujący obrazy z Worda](./save-word-as-markdown-complete-c-guide-to-export-word-images/)
+Kompletny przewodnik C# pokazujący, jak zapisać dokument Word jako Markdown i wyodrębnić obrazy przy użyciu Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

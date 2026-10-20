@@ -73,6 +73,7 @@
 | [Aspose.Words를 사용한 Word를 PDF로 변환 – 완전 가이드](./convert-word-to-pdf-with-aspose-words-complete-guide/) | Aspose.Words와 C#을 활용해 Word 문서를 PDF로 변환하는 전체 단계별 가이드입니다. |
 | [C#에서 Word를 PDF로 만들기 – 단계별 가이드](./create-pdf-from-word-in-c-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 C#에서 Word 문서를 PDF로 변환하는 방법을 단계별로 안내합니다. |
 | [DOCX에서 접근성 PDF 만들기 – 단계별 C# 가이드](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 접근성 PDF로 변환하는 단계별 C# 가이드입니다. |
+| [Docx를 Txt로 저장하고 Word 수식을 LaTeX로 내보내기](./save-docx-as-txt-and-export-word-equations-to-latex/) | Aspose.Words for .NET을 사용하여 Docx를 Txt로 저장하고 Word 수식을 LaTeX 형식으로 내보내는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

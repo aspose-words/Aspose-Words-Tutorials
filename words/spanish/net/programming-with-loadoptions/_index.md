@@ -68,6 +68,7 @@ En estos tutoriales, aprenderá a usar LoadOptions para cargar documentos de Wor
 | [Habilitar advertencias de sustitución de fuentes en C# con Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) Aprenda a activar advertencias de sustitución de fuentes al cargar documentos con Aspose.Words en C# para mejorar la gestión tipográfica. |
 | [cómo capturar advertencias – configurar opciones de carga para fuentes faltantes](./how-to-capture-warnings-configure-load-options-for-missing-f/) Aprenda a capturar advertencias y configurar LoadOptions para manejar fuentes faltantes al cargar documentos con Aspose.Words para .NET. |
 | [Cómo recuperar DOCX – Guía paso a paso para reparar archivos Word dañados](./how-to-recover-docx-step-by-step-guide-to-fix-corrupted-word/) Aprenda a reparar archivos DOCX corruptos con Aspose.Words para .NET mediante una guía paso a paso. |
+| [Cómo recuperar DOCX con Aspose.Words – Guía paso a paso](./how-to-recover-docx-with-aspose-words-step-by-step-guide/) Aprenda a recuperar documentos DOCX dañados usando Aspose.Words para .NET con esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

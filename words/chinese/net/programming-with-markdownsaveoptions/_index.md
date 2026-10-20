@@ -78,6 +78,9 @@
 ### [如何保存 Markdown – 完整指南（含图像提取）](./how-to-save-markdown-full-guide-with-image-extraction/)
 
 使用 Aspose.Words for .NET 将文档保存为 Markdown，并提取嵌入的图像，提供完整的 C# 示例和步骤指南。
+### [将 Word 保存为 markdown – 完整 C# 指南（导出图像）](./save-word-as-markdown-complete-c-guide-to-export-word-images/)
+
+使用 Aspose.Words for .NET 将 Word 文档保存为 Markdown，并导出其中的图像，提供完整的 C# 示例和步骤指南。
 
 ### [如何从 Word 导出 Markdown – 完整 C# 指南](./how-to-export-markdown-from-word-complete-c-guide/)
 
@@ -285,6 +288,9 @@
 ### [使用 Aspose.Words 将 Word 转换为 Markdown – 完整 C# 指南](./create-markdown-from-word-with-aspose-words-full-c-guide/)
 
 使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown，提供完整的 C# 示例和详细步骤指南。
+### [如何使用 Aspose 将 DOCX 转换为带数学导出的 Markdown](./how-to-use-aspose-to-convert-docx-to-markdown-with-math-expo/)
+
+使用 Aspose.Words for .NET 将 DOCX 文档转换为包含数学公式的 Markdown，提供完整示例和步骤指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -111,6 +111,8 @@
 | [Как сохранить Markdown – Полное руководство с извлечением изображений](./how-to-save-markdown-full-guide-with-image-extraction/) | Полное руководство по сохранению Markdown с извлечением изображений с использованием Aspose.Words для .NET. |
 | [Удалить пустые абзацы – Конвертировать Word в Markdown на C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/) | Узнайте, как удалить пустые абзацы при конвертации документов Word в Markdown с помощью Aspose.Words для .NET на C#. |
 | [Создать markdown из Word с Aspose.Words – Полное руководство C#](./create-markdown-from-word-with-aspose-words-full-c-guide/) | Подробное руководство по созданию markdown из документов Word с использованием Aspose.Words и C#. |
+| [Как использовать Aspose для конвертации DOCX в Markdown с экспортом формул](./how-to-use-aspose-to-convert-docx-to-markdown-with-math-expo/) | Конвертируйте DOCX в Markdown, экспортируя математические формулы, используя Aspose.Words для .NET. |
+| [Сохранить Word как Markdown – Полное руководство C# по экспорту изображений Word](./save-word-as-markdown-complete-c-guide-to-export-word-images/) | Полное руководство по сохранению документов Word в формате Markdown с экспортом изображений, используя C# и Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

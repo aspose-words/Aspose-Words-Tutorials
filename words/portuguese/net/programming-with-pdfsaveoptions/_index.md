@@ -83,6 +83,7 @@ Quer você queira converter documentos do Word em PDF para distribuição online
 | [Converter Word para PDF acessível com Aspose.Words – Guia completo](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) | Aprenda a converter documentos Word em PDFs acessíveis usando Aspose.Words com este guia completo passo a passo. |
 | [Como salvar PDF a partir de DOCX com Aspose.Words – Guia passo a passo](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) | Aprenda a converter documentos DOCX em PDF usando Aspose.Words passo a passo. |
 | [Como salvar PDF a partir do Word em C# – Guia completo](./how-to-save-pdf-from-word-in-c-complete-guide/) | Aprenda passo a passo como converter documentos Word em PDF usando C# com Aspose.Words, cobrindo opções avançadas de salvamento. |
+| [Salvar documento como PDF em C# – Guia completo](./save-document-as-pdf-in-c-complete-guide/) | Aprenda a salvar documentos do Word como PDF usando C# com o Aspose.Words para .NET neste guia completo passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -73,6 +73,7 @@
 | [كيفية تصدير LaTeX من DOCX – التحويل إلى TXT](./how-to-export-latex-from-docx-convert-to-txt/) | تعلم كيفية استخراج LaTeX من ملفات DOCX وتحويله إلى TXT باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
 | [إنشاء PDF قابل للوصول من DOCX – دليل خطوة بخطوة C#](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | تعرّف على كيفية إنشاء ملفات PDF قابلة للوصول من مستندات DOCX باستخدام Aspose.Words لـ .NET مع دليل C# خطوة بخطوة. |
 | [كيفية تصدير LaTeX من Word – دليل C# كامل](./how-to-export-latex-from-word-complete-c-guide/) | تعلّم كيفية تصدير مستندات Word إلى LaTeX باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
+| [حفظ ملف docx كـ txt وتصدير معادلات Word إلى LaTeX](./save-docx-as-txt-and-export-word-equations-to-latex/) | تعرّف على كيفية حفظ ملفات docx كملفات txt وتصدير المعادلات إلى LaTeX باستخدام Aspose.Words لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

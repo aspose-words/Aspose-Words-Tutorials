@@ -82,6 +82,7 @@
 | [Конвертировать Word в доступный PDF с Aspose.Words – Полное руководство](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) | Узнайте, как полностью преобразовать документы Word в доступные PDF с помощью Aspose.Words для .NET. |
 | [Как сохранить PDF из DOCX с помощью Aspose.Words – пошаговое руководство](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) | Пошаговое руководство по сохранению PDF из DOCX с использованием Aspose.Words для .NET. |
 | [Как сохранить PDF из Word в C# – Полное руководство](./how-to-save-pdf-from-word-in-c-complete-guide/) | Узнайте, как сохранить документ Word в PDF с помощью C# и Aspose.Words, следуя пошаговому полному руководству. |
+| [Сохранить документ как PDF в C# – Полное руководство](./save-document-as-pdf-in-c-complete-guide/) | Подробное руководство по сохранению документов Word в PDF с помощью Aspose.Words for .NET на C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

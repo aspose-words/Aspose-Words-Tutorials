@@ -80,6 +80,7 @@ Niezależnie od tego, czy chcesz formatować tekst za pomocą różnych czfontek
 | [Obsługa podstawiania czcionek w Aspose.Words – Kompletny przewodnik programistyczny](./handle-font-substitution-in-aspose-words-complete-programmin/) | Dowiedz się, jak obsługiwać podstawianie czcionek w Aspose.Words, korzystając z pełnego przewodnika programistycznego krok po kroku. |
 | [Podstawianie czcionek Aspose – Jak skonfigurować ustawienia czcionek w C#](./aspose-font-substitution-how-to-configure-font-settings-in-c/) | Dowiedz się, jak skonfigurować ustawienia czcionek w Aspose.Words dla .NET przy użyciu C#. |
 | [Jak przechwytywać ostrzeżenia w Aspose.Words – Kompletny przewodnik C#](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) | Dowiedz się, jak przechwytywać ostrzeżenia w Aspose.Words przy użyciu C# w tym szczegółowym przewodniku krok po kroku. |
+| [Jak wykrywać czcionki w C# – Kompletny przewodnik](./how-to-detect-fonts-in-c-complete-guide/) | Dowiedz się, jak wykrywać zainstalowane czcionki w aplikacjach C# przy użyciu Aspose.Words dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

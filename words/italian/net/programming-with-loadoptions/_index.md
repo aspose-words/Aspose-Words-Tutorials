@@ -71,6 +71,7 @@ In questi tutorial imparerai come utilizzare LoadOptions per caricare documenti 
 | [Abilita avvisi di sostituzione dei font in C# con Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Scopri come abilitare gli avvisi di sostituzione dei font in C# usando Aspose.Words per .NET. |
 | [Registra il callback di avviso in Aspose.Words – Guida completa di programmazione](./register-warning-callback-in-aspose-words-complete-programmi/) | Scopri come registrare un callback per gli avvisi nei documenti Word usando Aspose.Words per .NET, con esempi passo passo. |
 | [come catturare gli avvisi – configurare le opzioni di caricamento per i font mancanti](./how-to-capture-warnings-configure-load-options-for-missing-f/) | Scopri come catturare gli avvisi di font mancanti configurando le LoadOptions in Aspose.Words per .NET. |
+| [Come recuperare un DOCX con Aspose.Words – Guida passo passo](./how-to-recover-docx-with-aspose-words-step-by-step-guide/) | Scopri come ripristinare documenti DOCX corrotti usando Aspose.Words per .NET con questa guida dettagliata passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

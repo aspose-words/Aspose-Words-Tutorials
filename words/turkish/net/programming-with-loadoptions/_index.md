@@ -72,6 +72,7 @@ Bu eğitimlerde, özel ayarlarla Word belgelerini yüklemek için LoadOptions'ı
 | [Aspose.Words ile C#'ta Yazı Tipi Değiştirme Uyarılarını Etkinleştirme](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Aspose.Words for .NET kullanarak C# uygulamanızda yazı tipi yerine koyma uyarılarını nasıl etkinleştireceğinizi öğrenin. |
 | [Uyarıları Yakalama – Eksik Yazı Tipleri İçin Yükleme Seçeneklerini Yapılandırma](./how-to-capture-warnings-configure-load-options-for-missing-f/) | Aspose.Words for .NET ile eksik yazı tipleri durumunda uyarıları yakalamak ve LoadOptions ayarlarını yapılandırmak için adım adım rehber. |
 | [DOCX Kurtarma – Bozuk Word Dosyalarını Adım Adım Düzeltme Kılavuzu](./how-to-recover-docx-step-by-step-guide-to-fix-corrupted-word/) | Aspose.Words for .NET ile bozuk DOCX dosyalarını adım adım nasıl onaracağınızı öğrenin. |
+| [Aspose.Words ile DOCX Dosyasını Kurtarma – Adım Adım Kılavuz](./how-to-recover-docx-with-aspose-words-step-by-step-guide/) | Aspose.Words ile bozuk bir DOCX dosyasını adım adım nasıl kurtaracağınızı öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

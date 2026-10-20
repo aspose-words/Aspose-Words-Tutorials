@@ -104,6 +104,9 @@ Leer hoe u docx opslaat als markdown met een volledige C#‑handleiding en Aspos
 ### [Hoe Markdown op te slaan – Volledige gids met afbeeldingsextractie](./how-to-save-markdown-full-guide-with-image-extraction/)
 
 Leer hoe u Markdown-bestanden opslaat en afbeeldingen extraheert met een volledige C#‑handleiding.
+### [Word opslaan als Markdown – Complete C#-gids voor het exporteren van Word-afbeeldingen](./save-word-as-markdown-complete-c-guide-to-export-word-images/)
+
+Leer hoe u Word-afbeeldingen exporteert bij het opslaan als Markdown met een volledige C#-handleiding.
 
 ### [Hoe Markdown te exporteren vanuit Word – Complete C#-gids](./how-to-export-markdown-from-word-complete-c-guide/)
 
@@ -230,7 +233,7 @@ Leer hoe u DOCX-bestanden opslaat als Markdown met Aspose.Words in een volledige
 ### [Docx opslaan als markdown – Complete C#-gids met lege alinea's](./save-docx-as-markdown-complete-guide-with-empty-paragraphs/)
 Leer hoe u lege alinea's behoudt bij het opslaan van een DOCX als Markdown met een volledige C#‑handleiding.
 ### [Maak markdown van Word met Aspose.Words – Volledige C#‑gids](./create-markdown-from-word-with-aspose-words-full-c-guide/)
-
+### [Hoe Aspose te gebruiken om DOCX naar Markdown te converteren met wiskunde‑export](./how-to-use-aspose-to-convert-docx-to-markdown-with-math-expo/)
 Leer hoe u met Aspose.Words markdown genereert vanuit Word met een volledige C#‑handleiding.
 
 ### [Hoe links exporteren: DOCX naar Markdown in C#](./how-to-export-links-convert-docx-to-markdown-in-c/)

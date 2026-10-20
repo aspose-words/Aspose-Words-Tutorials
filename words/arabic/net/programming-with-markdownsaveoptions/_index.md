@@ -179,6 +179,9 @@
 
 ### [تحويل docx إلى markdown – دليل C# كامل](./convert-docx-to-markdown-complete-c-guide/)
 ### [إنشاء markdown من Word باستخدام Aspose.Words – دليل C# كامل](./create-markdown-from-word-with-aspose-words-full-c-guide/)
+### [كيفية استخدام Aspose لتحويل DOCX إلى Markdown مع تصدير الرياضيات](./how-to-use-aspose-to-convert-docx-to-markdown-with-math-expo/)
+
+### [حفظ Word كـ Markdown – دليل C# كامل لتصدير صور Word](./save-word-as-markdown-complete-c-guide-to-export-word-images/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

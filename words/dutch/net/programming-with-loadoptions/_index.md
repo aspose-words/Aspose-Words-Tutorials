@@ -72,6 +72,7 @@ In deze tutorials leert u hoe u LoadOptions kunt gebruiken om Word-documenten me
 | [Waarschuwingscallback registreren in Aspose.Words – Complete programmeergids](./register-warning-callback-in-aspose-words-complete-programmi/) | Leer hoe u een waarschuwingscallback registreert in Aspose.Words met een volledige programmeergids. |
 | [Hoe waarschuwingen vast te leggen – laadopties configureren voor ontbrekende lettertypen](./how-to-capture-warnings-configure-load-options-for-missing-f/) | Leer hoe u waarschuwingen detecteert en verwerkt bij ontbrekende lettertypen door LoadOptions in te stellen. |
 | [DOCX herstellen – Stapsgewijze handleiding om beschadigde Word‑bestanden te repareren](./how-to-recover-docx-step-by-step-guide-to-fix-corrupted-word/) | Leer hoe u beschadigde DOCX‑bestanden kunt herstellen met Aspose.Words in een duidelijke stap‑voor‑stap handleiding. |
+| [Hoe een DOCX te herstellen met Aspose.Words – Stapsgewijze handleiding](./how-to-recover-docx-with-aspose-words-step-by-step-guide/) | Leer hoe u beschadigde DOCX-bestanden kunt herstellen met Aspose.Words in een stapsgewijze handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

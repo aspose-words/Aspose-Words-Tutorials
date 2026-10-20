@@ -82,6 +82,7 @@ Of u nu Word-documenten naar PDF wilt converteren voor online distributie, archi
 | [Document PDF opslaan met lettertypevervanging in C# – Complete gids](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Leer hoe u PDF's opslaat met lettertypevervanging in C# met Aspose.Words voor .NET via deze volledige stap‑voor‑stap gids. |
 | [Maak toegankelijke PDF vanuit DOCX – Complete programmeergids](./create-accessible-pdf-from-docx-complete-programming-guide/) | Leer hoe u met Aspose.Words voor .NET een toegankelijke PDF maakt vanuit een DOCX-bestand met een volledige programmeergids. |
 | [Hoe PDF opslaan vanuit Word in C# – Complete gids](./how-to-save-pdf-from-word-in-c-complete-guide/) | Leer stap voor stap hoe u een PDF vanuit een Word-document opslaat met C# en Aspose.Words voor .NET. |
+| [Document opslaan als PDF in C# – Complete gids](./save-document-as-pdf-in-c-complete-guide/) | Leer hoe u met Aspose.Words voor .NET een Word-document volledig naar PDF converteert in C# met alle beschikbare opties. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

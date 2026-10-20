@@ -240,6 +240,9 @@ Apprenez à supprimer les paragraphes vides lors de la conversion de documents W
 ### [Créer du markdown à partir de Word avec Aspose.Words – Guide complet C#](./create-markdown-from-word-with-aspose-words-full-c-guide/)
 
 Apprenez à générer du markdown à partir de documents Word en C# avec Aspose.Words, étape par étape.
+### [Comment utiliser Aspose pour convertir DOCX en Markdown avec exportation de formules](./how-to-use-aspose-to-convert-docx-to-markdown-with-math-expo/)
+
+### [Enregistrer Word en Markdown – Guide complet C# pour exporter les images Word](./save-word-as-markdown-complete-c-guide-to-export-word-images/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -195,6 +195,10 @@ Pelajari cara membuat file markdown dari dokumen Word dan mengekspor persamaan d
 Pelajari cara menghapus paragraf kosong saat mengonversi dokumen Word ke format Markdown menggunakan C#.
 ### [Buat markdown dari Word dengan Aspose.Words – Panduan Lengkap C#](./create-markdown-from-word-with-aspose-words-full-c-guide/)
 Pelajari cara membuat markdown dari dokumen Word menggunakan Aspose.Words dengan panduan lengkap C#.
+### [Cara Menggunakan Aspose untuk Mengonversi DOCX ke Markdown dengan Ekspor Matematika](./how-to-use-aspose-to-convert-docx-to-markdown-with-math-expo/)
+Pelajari cara menggunakan Aspose untuk mengonversi file DOCX ke Markdown dengan mengekspor persamaan matematika secara akurat.
+### [Simpan Word sebagai Markdown – Panduan Lengkap C# untuk Mengekspor Gambar Word](./save-word-as-markdown-complete-c-guide-to-export-word-images/)
+Pelajari cara mengekspor gambar dari dokumen Word ke format Markdown dengan panduan lengkap C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

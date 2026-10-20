@@ -83,6 +83,7 @@
 | [Πώς να αποθηκεύσετε PDF από DOCX με Aspose.Words – Οδηγός βήμα‑βήμα](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) | Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF χρησιμοποιώντας το Aspose.Words για .NET με αναλυτικές οδηγίες βήμα‑βήμα. |
 | [Πώς να αποθηκεύσετε PDF από Word σε C# – Πλήρης Οδηγός](./how-to-save-pdf-from-word-in-c-complete-guide/) | Μάθετε πώς να μετατρέψετε έγγραφα Word σε PDF χρησιμοποιώντας C# με πλήρη οδηγό βήμα προς βήμα. |
 
+| [Αποθήκευση εγγράφου ως PDF σε C# – Πλήρης Οδηγός](./save-document-as-pdf-in-c-complete-guide/) | Μάθετε πώς να αποθηκεύσετε έγγραφα Word ως PDF χρησιμοποιώντας C# και Aspose.Words με πλήρη βήμα-βήμα οδηγίες. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

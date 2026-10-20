@@ -72,6 +72,7 @@ V těchto tutoriálech se naučíte, jak používat LoadOptions k načítání d
 | [Registrace varovného zpětného volání v Aspose.Words – Kompletní programovací průvodce](./register-warning-callback-in-aspose-words-complete-programmi/) | Naučte se, jak registrovat varování zpětného volání v Aspose.Words s podrobným krok za krokem průvodcem. |
 | [Jak obnovit soubory DOCX v C# – krok za krokem](./how-to-recover-docx-files-in-c-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Words obnovit poškozené soubory DOCX v C# krok za krokem. |
 | [Jak zachytit varování – nakonfigurujte LoadOptions pro chybějící písma](./how-to-capture-warnings-configure-load-options-for-missing-f/) | Naučte se zachytit varování při načítání dokumentů a nastavit LoadOptions pro chybějící písma v Aspose.Words pro .NET. |
+| [Jak obnovit DOCX pomocí Aspose.Words – krok za krokem průvodce](./how-to-recover-docx-with-aspose-words-step-by-step-guide/) | Kompletní průvodce obnovou poškozených souborů DOCX pomocí Aspose.Words v .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

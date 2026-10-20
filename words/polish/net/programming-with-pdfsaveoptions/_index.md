@@ -79,6 +79,7 @@ Niezależnie od tego, czy chcesz przekonwertować dokumenty Word do PDF w celu d
 | [Konwertuj Word do dostępnego PDF za pomocą Aspose.Words – Kompletny przewodnik](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) | Pełny przewodnik, jak przekształcić dokumenty Word w dostępne pliki PDF przy użyciu Aspose.Words w C#. |
 | [Jak zapisać PDF z DOCX przy użyciu Aspose.Words – przewodnik krok po kroku](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) | Dowiedz się, jak konwertować pliki DOCX do PDF przy użyciu Aspose.Words, krok po kroku. |
 | [Jak zapisać PDF z Worda w C# – Kompletny przewodnik](./how-to-save-pdf-from-word-in-c-complete-guide/) | Dowiedz się, jak w pełni zapisać dokument Word jako PDF w C# przy użyciu Aspose.Words, krok po kroku, z przykładami kodu. |
+| [Zapisz dokument jako PDF w C# – kompletny przewodnik](./save-document-as-pdf-in-c-complete-guide/) | Dowiedz się, jak zapisać dokument jako PDF w C# przy użyciu Aspose.Words dla .NET, krok po kroku. |
 
 | [Jak zapisać PDF z Worda z eksportem kształtów wbudowanych – Kompletny przewodnik](./how-to-save-pdf-from-word-with-inline-shape-export-complete/) | Dowiedz się, jak wyeksportować kształty inline podczas zapisywania dokumentu Word jako PDF przy użyciu Aspose.Words dla .NET. |
 | [Utwórz dokument zgodny z PDF/UA-2 – Kompletny przewodnik C#](./create-pdf-ua-2-compliant-document-complete-c-guide/) | Dowiedz się, jak w C# utworzyć dokument PDF zgodny z normą PDF/UA‑2, spełniający wymogi dostępności, krok po kroku. |

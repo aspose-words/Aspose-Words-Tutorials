@@ -82,6 +82,7 @@
 - [แปลง Word เป็น PDF ที่เข้าถึงได้ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) | เรียนรู้วิธีแปลงไฟล์ Word เป็น PDF ที่เข้าถึงได้ตามมาตรฐาน WCAG ด้วย Aspose.Words อย่างละเอียด
 - [วิธีบันทึก PDF จาก DOCX ด้วย Aspose.Words – คู่มือทีละขั้นตอน](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) | เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF อย่างละเอียดด้วย Aspose.Words ผ่านขั้นตอนง่าย ๆ |
 - [วิธีบันทึก PDF จาก Word ด้วย C# – คู่มือฉบับสมบูรณ์](./how-to-save-pdf-from-word-in-c-complete-guide/) | เรียนรู้วิธีบันทึกไฟล์ PDF จากเอกสาร Word ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน
+- [บันทึกเอกสารเป็น PDF ด้วย C# – คู่มือฉบับสมบูรณ์](./save-document-as-pdf-in-c-complete-guide/) | เรียนรู้วิธีบันทึกเอกสาร Word เป็น PDF ด้วย C# อย่างละเอียดด้วย Aspose.Words สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
