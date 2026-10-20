@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: 本教程演示如何创建 Word 文档、插入柱形图、添加自定义数据系列，并定义默认的数据标签字体大小和颜色，使其在图表的所有系列中统一应用。
+//ExStepSummary:0: 创建一个新的空白 Word 文档，并创建一个 DocumentBuilder 用于编辑它。
+//ExStepSummary:1: 在文档中插入一个 500×300 的柱形图，并获取其 Chart 对象。
+//ExStepSummary:2: 删除 Aspose.Words 为新图表添加的默认示例系列。
+//ExStepSummary:3: 定义类别标签，并向图表添加两个数据系列（Item Alpha 和 Item Beta）及其数值。
+//ExStepSummary:4: 设置将应用于所有数据标签的基准字体大小和颜色。
+//ExStepSummary:5: 为每个系列启用数据标签，显示数值，并应用预定义的字体大小和颜色。
+//ExStepSummary:6: 将文档保存为 .docx 文件。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document document = new Document();
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:1-
+Shape chartContainer = builder.InsertChart(ChartType.Column, 500, 300);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+
+//ExStep:3-
+string[] periods = { "Period 1", "Period 2", "Period 3", "Period 4" };
+chart.Series.Add("Item Alpha", periods, new double[] { 120, 150, 170, 130 });
+chart.Series.Add("Item Beta", periods, new double[] { 80, 110, 140, 100 });
+
+//ExStep:4-
+const float labelFontSize = 10f;
+Color labelFontColor = Color.White;
+
+//ExStep:5-
+foreach (ChartSeries series in chart.Series)
+{
+    series.HasDataLabels = true;
+    series.DataLabels.ShowValue = true;
+    series.DataLabels.Font.Size = labelFontSize;
+    series.DataLabels.Font.Color = labelFontColor;
+}
+
+//ExStep:6-
+document.Save("UniformLabelChart.docx");
+//ExEnd

@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Dieses Tutorial zeigt, wie man ein Word‑Dokument erstellt, ein Säulendiagramm einfügt, dessen Beispieldaten ersetzt und anschließend die Hauptgitternetzlinien auf der primären X‑Achse aktiviert und gestaltet.
+//ExStepSummary:0: Erstellen Sie ein neues Word‑Dokument und einen DocumentBuilder, um es zu bearbeiten.
+//ExStepSummary:1: Fügen Sie ein 432 × 252‑Pixel‑Säulendiagramm in das Dokument ein und erhalten Sie das zugehörige Chart‑Objekt.
+//ExStepSummary:2: Entfernen Sie die Standard‑Series und fügen Sie eine benutzerdefinierte Series mit drei Gruppen und Werten hinzu.
+//ExStepSummary:3: Holen Sie sich eine Referenz zur primären horizontalen (X‑)Achse des Diagramms.
+//ExStepSummary:4: Aktivieren Sie die Anzeige der Hauptgitternetzlinien auf der primären X‑Achse.
+//ExStepSummary:5: Setzen Sie die Farbe der Gitternetzlinien auf Blau und deren Stärke auf 2 Punkte.
+//ExStepSummary:6: Speichern Sie das Dokument als .docx‑Datei.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document myDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+chart.Series.Add("Demo Series",
+    new[] { "Group One", "Group Two", "Group Three" },
+    new double[] { 10, 20, 30 });
+
+//ExStep:3-
+ChartAxis horizontalAxis = chart.AxisX;
+
+//ExStep:4-
+horizontalAxis.HasMajorGridlines = true;
+
+//ExStep:5-
+horizontalAxis.Format.Stroke.Color = Color.Blue;
+horizontalAxis.Format.Stroke.Weight = 2.0;
+
+//ExStep:6-
+myDoc.Save("PrimaryXGridlines.docx");
+//ExEnd

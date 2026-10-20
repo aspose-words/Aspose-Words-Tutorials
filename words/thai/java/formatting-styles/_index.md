@@ -50,6 +50,9 @@
 ### [เพิ่มประสิทธิภาพสไตล์ Word ใน Java โดยใช้ Aspose.Words: ลบสไตล์ที่ไม่ได้ใช้และซ้ำกัน](./optimize-word-styles-aspose-java/)
 เรียนรู้วิธีจัดการรูปแบบเอกสารอย่างมีประสิทธิภาพด้วย Aspose.Words สำหรับ Java ด้วยการลบรูปแบบที่ไม่ได้ใช้และซ้ำกัน เพิ่มประสิทธิภาพและความสามารถในการบำรุงรักษา
 
+### [วิธีเปลี่ยนรูปแบบเชิงอรรถในเอกสาร Word ด้วย Java](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
+เรียนรู้วิธีปรับแต่งรูปแบบเชิงอรรถในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสาร Aspose.Words สำหรับ Java](https://reference.aspose.com/words/java/)

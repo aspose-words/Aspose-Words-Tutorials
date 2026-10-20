@@ -27,6 +27,7 @@
 | [الكشف عن تنسيق ملف المستند](./detect-file-format/) |تعرف على كيفية اكتشاف تنسيقات ملفات المستندات باستخدام Aspose.Words لـ .NET باستخدام هذا الدليل الشامل خطوة بخطوة. |
 | [الكشف عن التوقيع الرقمي في مستند Word](./detect-document-signatures/) |تعرف على كيفية اكتشاف التوقيعات الرقمية في مستندات Word باستخدام Aspose.Words for .NET من خلال دليلنا خطوة بخطوة. |
 | [التحقق من مستند Word المشفر](./verify-encrypted-document/) |تعرف على كيفية التحقق من حالة تشفير مستند Word باستخدام Aspose.Words لـ .NET من خلال هذا الدليل خطوة بخطوة. |
+| [استعادة ملف DOCX – دليل خطوة بخطوة للملفات التالفة](./how-to-recover-docx-step-by-step-guide-for-corrupted-files/) |تعرف على كيفية استعادة ملفات DOCX التالفة خطوة بخطوة باستخدام Aspose.Words لـ .NET. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

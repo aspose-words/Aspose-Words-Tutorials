@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: باستخدام Aspose.Words for .NET، يُنشئ هذا البرنامج التعليمي مستندًا، يُدرج مخططًا عموديًا عبر DocumentBuilder، يزيل سلسلة بيانات محددة من المخطط باستخدام ChartSeriesCollection.RemoveAt، ويحفظ المستند المعدل.
+//ExStepSummary:0: أنشئ مستند Word جديدًا وDocumentBuilder مرتبطًا به.
+//ExStepSummary:1: أدرج مخططًا عموديًا بحجم 432×252 نقطة واحصل على كائن Chart لمزيد من المعالجة.
+//ExStepSummary:2: حدد الفهرس الصفري للسلسلة التي يجب إزالتها (السلسلة الثانية).
+//ExStepSummary:3: إذا كان الفهرس صالحًا، استدعِ RemoveAt على مجموعة Series الخاصة بالمخطط لحذف تلك السلسلة.
+//ExStepSummary:4: احفظ المستند المحدث إلى ملف .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+int targetSeriesIdx = 1;
+
+//ExStep:3-
+if (targetSeriesIdx >= 0 && targetSeriesIdx < columnChart.Series.Count)
+{
+    columnChart.Series.RemoveAt(targetSeriesIdx);
+}
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutSeries.docx");
+//ExEnd

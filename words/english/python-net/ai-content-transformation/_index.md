@@ -28,6 +28,9 @@ In the rapidly evolving field of artificial intelligence, transforming content e
 ### [AI Summarization & Translation in Python&#58; Aspose.Words and OpenAI Guide](./ai-summarization-translation-aspose-openai-python/)
 Learn how to automate AI summarization and translation using Aspose.Words for Python and OpenAI. This guide covers setup, implementation, and practical applications.
 
+### [Create Document Summary Python – Full Guide Using Aspose.Words AI](./create-document-summary-python-full-guide-using-aspose-words/)
+Learn how to generate concise document summaries using Aspose.Words AI with Python. This guide covers setup, implementation, and best practices.
+
 ## Additional Resources
 
 - [Aspose.Words for Python-net Documentation](https://docs.aspose.com/words/python-net/)
