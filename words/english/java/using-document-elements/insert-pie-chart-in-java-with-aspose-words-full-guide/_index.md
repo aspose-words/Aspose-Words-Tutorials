@@ -47,7 +47,7 @@ tags:
 - Chart
 - Document Generation
 - Word Automation
-title: Insert and Format Pie Chart in Java with Aspose.Words API – Full Guide
+title: Insert, Format, and Generate Pie Chart in Java with Aspose.Words API – Full Guide
 url: /java/using-document-elements/insert-pie-chart-in-java-with-aspose-words-full-guide/
 ---
 
@@ -218,7 +218,7 @@ The following tutorials cover closely related topics that build on the technique
 - [Number Format For Axis In A Chart](/words/english/net/programming-with-charts/number-format-for-axis/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

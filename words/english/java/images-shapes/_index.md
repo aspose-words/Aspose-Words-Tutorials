@@ -1,5 +1,5 @@
 ---
-title: "Learn to Insert Images & Shapes with Aspose.Words Java | Master Your Docs"
+title: "Learn to Insert Images & Shapes with Aspose.Words Java API | Master Your Docs"
 description: "Enhance your Java applications with Aspose.Words tutorials on images and shapes. Learn to seamlessly integrate visual elements into documents for professional-grade outputs."
 weight: 6
 url: "/java/images-shapes/"
@@ -19,7 +19,7 @@ Explore comprehensive step-by-step guides for images & shapes operations using A
 
 In the realm of document processing, integrating images and shapes is crucial for creating visually appealing and informative content. Our curated category of Aspose.Words tutorials focuses on empowering developers using Java to master these essential features. With just two comprehensive guides, you'll learn how to insert, manipulate, and customize images and shapes within your documents efficiently. These tutorials are designed to help you leverage the full potential of Aspose.Words for Java, ensuring that your applications can handle complex document layouts with ease. Whether you're aiming to enhance reports, presentations, or any document-centric application, these guides provide step-by-step instructions and practical examples. By following our tutorials, you'll gain the skills needed to produce professional-grade documents that stand out.
 
-### Sample Code: Insert an Image
+### Sample code: insert an image
 
 ```java
 // Load a document
@@ -40,19 +40,19 @@ doc.save("output.docx");
 
 ## Available Tutorials
 
-### [Custom page & image saving in java with Aspose.Words callbacks](./aspose-words-java-callback-custom-savings/)
+### [Custom page & image saving in java with Aspose.Words callbacks]({{< relref "aspose-words-java-callback-custom-savings/" >}})
 A code tutorial for Aspose.Words Java
 
-### [How to Render Document Pages as Thumbnails using Aspose.Words for Java](./render-word-pages-thumbnails-aspose-java/)
+### [How to Render Document Pages as Thumbnails using Aspose.Words for Java]({{< relref "render-word-pages-thumbnails-aspose-java/" >}})
 Learn how to generate high-quality thumbnails and custom-sized bitmaps of Word documents with Aspose.Words for Java. Enhance your document handling capabilities today.
 
-### [Create word document java – add rectangle shape with shadow effect](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+### [Create word document java – add rectangle shape with shadow effect]({{< relref "create-word-document-java-add-rectangle-shape-with-shadow-ef/" >}})
 Learn how to add a rectangle shape with a shadow effect to a Word document using Aspose.Words for Java.
 
-### [Create word document with shapes in java – complete Aspose.Words guide](./create-word-document-with-shapes-in-java-complete-aspose-wor/)
+### [Create word document with shapes in java – complete Aspose.Words guide]({{< relref "create-word-document-with-shapes-in-java-complete-aspose-wor/" >}})
 A comprehensive guide to creating Word documents with various shapes using Aspose.Words for Java.
 
-### [How to Hide Picture in Word with Java – Step‑by‑Step Guide](./how-to-hide-picture-in-word-with-java-step-by-step-guide/)
+### [How to Hide Picture in Word with Java – Step‑by‑Step Guide]({{< relref "how-to-hide-picture-in-word-with-java-step-by-step-guide/" >}})
 Step-by-step guide on hiding pictures in Word documents using Aspose.Words for Java.
 
 ## Additional Resources
@@ -69,5 +69,6 @@ Step-by-step guide on hiding pictures in Word documents using Aspose.Words for J
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

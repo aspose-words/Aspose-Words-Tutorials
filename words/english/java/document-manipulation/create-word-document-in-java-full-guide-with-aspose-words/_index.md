@@ -20,14 +20,14 @@ og_description: Create Word document in Java with Aspose.Words. Master inserting
   docx.
 og_image_alt: Screenshot showing a Java program that creates a Word document with
   a colored content control
-og_title: Generate DOCX Word Document in Java – Full Guide with Aspose.Words
+og_title: Create DOCX Word Document in Java with Aspose.Words – Full Guide
 schemas:
 - author: Aspose
   dateModified: '2026-07-29'
   description: Create Word document in Java using Aspose.Words. Learn to set placeholder
     text, insert content control word, apply color to control, and save document as
     docx.
-  headline: Generate DOCX Word Document in Java – Full Guide with Aspose.Words
+  headline: Create DOCX Word Document in Java with Aspose.Words – Full Guide
   type: TechArticle
 tags:
 - Aspose.Words
@@ -35,7 +35,7 @@ tags:
 - Word Automation
 - Content Control
 - Placeholder
-title: Generate DOCX Word Document in Java – Full Guide with Aspose.Words
+title: Create DOCX Word Document in Java with Aspose.Words – Full Guide
 url: /java/document-manipulation/create-word-document-in-java-full-guide-with-aspose-words/
 ---
 
@@ -231,7 +231,7 @@ The following tutorials cover closely related topics that build on the technique
 - [Create PDF from Word with Barcode Generation – Aspose.Words for Java](/words/english/java/document-conversion-and-export/using-barcode-generation/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

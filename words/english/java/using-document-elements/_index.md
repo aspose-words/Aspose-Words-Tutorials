@@ -1,6 +1,6 @@
 ---
-title: Using Document Elements with Aspose.Words for Java
-linktitle: Using Document Elements with Aspose.Words for Java
+title: Manipulating Document Elements with Aspose.Words for Java
+linktitle: Manipulating Document Elements with Aspose.Words for Java
 second_title: Aspose.Words Java Document Processing API
 description: Learn how to efficiently use document elements in Aspose.Words for Java with our comprehensive tutorials. Enhance your Java document processing skills today!
 weight: 24
@@ -92,11 +92,9 @@ Learn how to set button size in Java when inserting an ActiveX command button in
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}

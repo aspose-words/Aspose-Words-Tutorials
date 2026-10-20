@@ -51,7 +51,7 @@ tags:
 - Aspose.Words
 - Java
 - Word Automation
-title: Create Word Document with Shapes, Insert Rectangle Shape, and Group Shapes in Java – Complete Aspose.Words Guide
+title: Generate Word Document with Shapes Using Aspose.Words for Java – Insert Rectangle Shape and Group Shapes
 url: /java/images-shapes/create-word-document-with-shapes-in-java-complete-aspose-wor/
 ---
 
@@ -59,7 +59,7 @@ url: /java/images-shapes/create-word-document-with-shapes-in-java-complete-aspos
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create Word Document with Shapes, Insert Rectangle Shape, and Group Shapes in Java – Complete Aspose.Words Guide
+# Generate Word Document with Shapes Using Aspose.Words for Java – Insert Rectangle Shape and Group Shapes
 
 Ever wondered how to **create word document** programmatically and sprinkle it with custom graphics? You're not the only one. Whether you need to generate a report with highlighted sections or design a flyer on the fly, mastering shape handling in Word can save you hours of manual work.
 
@@ -239,4 +239,5 @@ The following tutorials cover closely related topics that build on the technique
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}

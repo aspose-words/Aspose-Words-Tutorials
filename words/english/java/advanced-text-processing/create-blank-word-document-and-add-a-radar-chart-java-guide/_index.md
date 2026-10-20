@@ -32,7 +32,7 @@ tags:
 - PDF conversion
 - Chart generation
 - Document automation
-title: Create Blank Word Document and Add a Radar Chart with Aspose.Words for Java – Guide
+title: Generate a Blank Word Document and Add a Radar Chart with Aspose.Words for Java – Guide
 url: /java/advanced-text-processing/create-blank-word-document-and-add-a-radar-chart-java-guide/
 ---
 
@@ -175,7 +175,7 @@ Now that you know how to **create blank word document**, **insert radar chart**,
 * **Can I style the chart?**  
   Yes—use `radarChart.getSeries().get(0).getLineFormat().setColor(Color.RED);` to change colors, or adjust `ChartTitle`, `AxisX`, and `AxisY` properties.
 
-* **Need Word output as well?**  
+* **Need Word output as also?**  
   Call `document.save("output/Report.docx");` in addition to the PDF line. This way you have both formats.
 
 * **Automation in a web service?**  
@@ -195,11 +195,12 @@ Got questions or want to see more advanced chart customizations? Drop a comment 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Create PDF Documents with Aspose.Words for Java | Document Processing API](/words/english/java/)
-- [Create PDF from Word with Barcode Generation – Aspose.Words for Java](/words/english/java/document-conversion-and-export/using-barcode-generation/)
-- [Create Word Document with Header and Footer Using Aspose.Words](/words/english/net/header-footer-formatting/create-header-footer/)
+- [How to Create PDF Documents with Aspose.Words for Java \| Document Processing API]({{< relref "../../_index.md" >}})
+- [Create PDF from Word with Barcode Generation – Aspose.Words for Java]({{< relref "../../document-conversion-and-export/using-barcode-generation/_index.md" >}})
+- [Create Word Document with Header and Footer Using Aspose.Words]({{< relref "../../../net/header-footer-formatting/create-header-footer/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/pf/products-backtop-button >}}
+{{< /blocks/products/pf/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}

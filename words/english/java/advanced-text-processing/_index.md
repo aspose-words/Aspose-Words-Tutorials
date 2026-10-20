@@ -1,5 +1,5 @@
 ---
-title: "Automate DOCX Document Generation – Advanced Text Processing with Aspose.Words for Java"
+title: "Generate DOCX Documents – Advanced Text Processing with Aspose.Words for Java"
 description: "Learn how to automate document generation with Aspose.Words for Java, covering insert control characters, search replace text, and manage document layout techniques."
 weight: 12
 url: "/java/advanced-text-processing/"
@@ -102,10 +102,10 @@ Learn how to generate a blank Word file and insert a radar chart using Aspose.Wo
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
 
 ## Frequently asked questions
 

@@ -45,7 +45,7 @@ tags:
 - Java
 - Word document
 - Image handling
-title: How to Hide Picture in Word with Aspose.Words for Java – Step‑by‑Step Guide
+title: How to Hide Picture in Word Using Aspose.Words API for Java – Step‑by‑Step Guide
 url: /java/images-shapes/how-to-hide-picture-in-word-with-java-step-by-step-guide/
 ---
 
@@ -261,12 +261,12 @@ Happy coding, and may your Word automation stay both **visible** and **invisible
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Convert Word to PDF Using Aspose.Words for Java](/words/english/java/document-converting/using-document-converting/)
-- [How to Render Document Pages as Thumbnails using Aspose.Words for Java](/words/english/java/images-shapes/render-word-pages-thumbnails-aspose-java/)
-- [Save Images from Word – Aspose.Words for Java Guide](/words/english/java/document-loading-and-saving/)
+- [How to Convert Word to PDF Using Aspose.Words for Java]({{< relref "words/english/java/document-converting/using-document-converting/_index.md" >}})
+- [How to Render Document Pages as Thumbnails using Aspose.Words for Java]({{< relref "words/english/java/images-shapes/render-word-pages-thumbnails-aspose-java/_index.md" >}})
+- [Save Images from Word – Aspose.Words for Java Guide]({{< relref "words/english/java/document-loading-and-saving/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
