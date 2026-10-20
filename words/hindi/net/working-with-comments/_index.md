@@ -19,6 +19,15 @@
 इन ट्यूटोरियल में, आप .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में टिप्पणियों के साथ वर्ड प्रोसेसिंग के विभिन्न पहलुओं को सीखेंगे। आप जानेंगे कि दस्तावेज़ों में टिप्पणियाँ कैसे जोड़ें, टिप्पणी उत्तरों को विशिष्ट पाठ में एंकर करें, टिप्पणी उत्तरों को जोड़ें और हटाएँ, और टिप्पणियों और उनके उत्तरों को हल करें। प्रत्येक ट्यूटोरियल पूर्ण स्रोत कोड के साथ एक चरण-दर-चरण मार्गदर्शिका प्रदान करता है, जिससे आप .NET के लिए Aspose.Words का उपयोग करके अपने Word दस्तावेज़ों में सहयोग और प्रतिक्रिया प्रबंधन को बढ़ा सकते हैं।
 
  ## ट्यूटोरियल
+
+{{< tutorial-card link="./add-hyperlink-comment/" title="Aspose.Words for .NET का उपयोग करके Hyperlink Comment जोड़ें और PDF Annotation के रूप में निर्यात करें।" imgSrc="./add-hyperlink-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-comment/" title="Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में एक विशिष्ट पैराग्राफ पर Comment डालें।" imgSrc="./add-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./style-comment-text/" title="Aspose.Words for .NET का उपयोग करके Word डॉक्यूमेंट्स में Comment टेक्स्ट पर कस्टम स्टाइल लागू करें" imgSrc="./style-comment-text/images/thumb.png" >}}
+
+
+
 | शीर्षक | विवरण |
 | --- | --- |
 | [टिप्पणी करें](./add-comments/) | हमारे गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके अपने Word दस्तावेज़ों में टिप्पणियाँ जोड़ना सीखें। अपने दस्तावेज़ सहयोग प्रक्रिया को सहजता से बढ़ाएँ। |

@@ -34,14 +34,38 @@ Kód oktatóanyag az Aspose.Words Java-hoz
 ### [Hogyan jelenítsünk meg dokumentumoldalakat bélyegképként az Aspose.Words for Java használatával?](./render-word-pages-thumbnails-aspose-java/)
 Tanulja meg, hogyan hozhat létre kiváló minőségű miniatűröket és egyedi méretű bitképeket Word-dokumentumokból az Aspose.Words for Java segítségével. Fejlessze dokumentumkezelési képességeit még ma!
 
-### [Word dokumentum létrehozása Java – Téglalap alakzat hozzáadása árnyékhatással](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-Ismerje meg, hogyan adhat hozzá árnyékhatású téglalap alakzatot a Word dokumentumhoz Java-ban az Aspose.Words segítségével.
+### [Árnyék hozzáadása alakzathoz Word-ben – Teljes Aspose.Words útmutató](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+Ismerje meg, hogyan adhat árnyékot alakzatokhoz Word dokumentumokban az Aspose.Words for Java segítségével, lépésről lépésre.
+### [Árnyékhatás alkalmazása alakzatra C#‑ban – Lépésről‑lépésre útmutató](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
+Ismerje meg, hogyan adhat árnyékot egy alakzathoz C#‑ban az Aspose.Words segítségével.
+### [Hogyan állítsunk be árnyékot egy alakzatra az Aspose.Words-ben – Teljes útmutató](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
+Ismerje meg, hogyan adhat árnyékot alakzatokhoz az Aspose.Words for Java segítségével, részletes példákkal és beállítási lehetőségekkel.
+
+### [Hogyan állítsunk be árnyékot egy alakzatra C#-ban – Alakzat árnyék egyszerűen hozzáadása](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+Tanulja meg, hogyan adhat hozzá árnyékot egy alakzathoz C#-ban az Aspose.Words segítségével.
+
+### [Téglalap alakzat létrehozása Java Word dokumentumban – Teljes lépésről‑lépésre útmutató](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Ismerje meg, hogyan hozhat létre téglalap alakzatot Word dokumentumban Java segítségével, részletes, lépésről‑lépésre útmutatóval.
+
+### [Szövegdoboz alakzat létrehozása Java-ban – Teljes útmutató az árnyékok hozzáadásához](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+Ismerje meg, hogyan adhat hozzá árnyékhatású szövegdoboz alakzatot a Word dokumentumhoz Java-ban az Aspose.Words segítségével.
+### [PDF dokumentum létrehozása téglalap alakzattal – Teljes C# útmutató](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+Tanulja meg, hogyan hozhat létre PDF dokumentumot téglalap alakzattal C#-ban, részletes útmutatóval.
+
+### [Word dokumentum létrehozása Java – Alakzat árnyék hozzáadása útmutató](./create-word-document-java-add-shadow-to-shape-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shape-with-shadow-effect/)
+Ismerje meg, hogyan adhat hozzá árnyékhatású alakzatot a Word dokumentumhoz Java-ban az Aspose.Words segítségével.
 
 ### [Téglalap alakzat létrehozása Java-ban az Aspose.Words segítségével – Teljes útmutató](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
 Részletes útmutató a téglalap alakzatok létrehozásához és testreszabásához Java-ban az Aspose.Words könyvtárral.
 
 ## További források
 
+## További források
 - [Aspose.Words Java dokumentációhoz](https://reference.aspose.com/words/java/)
 - [Aspose.Words Java API-referenciához](https://reference.aspose.com/words/java/)
 - [Aspose.Words letöltése Java-hoz](https://releases.aspose.com/words/java/)

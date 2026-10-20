@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Ez a bemutató azt mutatja be, hogyan hozhatunk létre Word dokumentumot, szúrhatunk be oszlopdiagramot, adhatunk hozzá egyéni adat sorozatokat, és definiálhatjuk az alapértelmezett adatcímke betűméretet és színt, amely egységesen alkalmazásra kerül a diagram minden sorozatára.
+//ExStepSummary:0: Hozzon létre egy új üres Word dokumentumot és egy DocumentBuilder objektumot a szerkesztéséhez.
+//ExStepSummary:1: Szúrjon be egy 500×300 méretű oszlopdiagramot a dokumentumba, és szerezze meg a hozzá tartozó Chart objektumot.
+//ExStepSummary:2: Távolítsa el az alapértelmezett minta sorozatot, amelyet az Aspose.Words egy új diagramhoz ad.
+//ExStepSummary:3: Határozza meg a kategória címkéket, és adjon hozzá két adat sorozatot (Item Alpha és Item Beta) a diagramhoz a megfelelő értékekkel.
+//ExStepSummary:4: Állítsa be az alap betűméretet és színt, amely az összes adatcímkére alkalmazásra kerül.
+//ExStepSummary:5: Engedélyezze az adatcímkéket minden sorozathoz, jelenítse meg a numerikus értéket, és alkalmazza az előre definiált betűméretet és színt.
+//ExStepSummary:6: Mentse a dokumentumot .docx fájlba.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document document = new Document();
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:1-
+Shape chartContainer = builder.InsertChart(ChartType.Column, 500, 300);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+
+//ExStep:3-
+string[] periods = { "Period 1", "Period 2", "Period 3", "Period 4" };
+chart.Series.Add("Item Alpha", periods, new double[] { 120, 150, 170, 130 });
+chart.Series.Add("Item Beta", periods, new double[] { 80, 110, 140, 100 });
+
+//ExStep:4-
+const float labelFontSize = 10f;
+Color labelFontColor = Color.White;
+
+//ExStep:5-
+foreach (ChartSeries series in chart.Series)
+{
+    series.HasDataLabels = true;
+    series.DataLabels.ShowValue = true;
+    series.DataLabels.Font.Size = labelFontSize;
+    series.DataLabels.Font.Color = labelFontColor;
+}
+
+//ExStep:6-
+document.Save("UniformLabelChart.docx");
+//ExEnd

@@ -1,0 +1,7 @@
+Title: How to save Word as PDF with Aspose.Words in Python
+Slug: how-to-save-word-as-pdf-with-aspose-words-in-python
+Category: document-conversion
+ProcessedDate: 2026-09-27T23:03:55.138452
+SourceRepo: AI Search API
+Keywords: save word as pdf, convert docx to pdf, how to export shapes, aspose convert word pdf, aspose convert docx pdf
+PRNumber: 291

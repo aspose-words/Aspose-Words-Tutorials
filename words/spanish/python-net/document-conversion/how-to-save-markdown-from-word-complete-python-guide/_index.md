@@ -273,11 +273,7 @@ Observa cómo la ecuación está envuelta en `$$`—perfecto para MathJax. La ta
 
 ---
 
-## Trucos comunes y consejos profesionales
-
-| Problema | Por qué ocurre | Solución |
-|----------|----------------|----------|
-| {{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

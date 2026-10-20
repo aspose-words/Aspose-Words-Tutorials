@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Hướng dẫn này cho thấy cách sử dụng Aspose.Words Document và DocumentBuilder để tạo tài liệu Word, chèn biểu đồ histogram, và thêm một chuỗi dữ liệu có nhãn bằng cách sử dụng phương thức overload ChartSeriesCollection.Add chấp nhận tên và giá trị.
+//ExStepSummary:0: Tạo một tài liệu Word mới trống và một DocumentBuilder để chỉnh sửa nó.
+//ExStepSummary:1: Chèn một hình dạng biểu đồ histogram có kích thước 500×300 vào tài liệu và lấy đối tượng Chart của nó.
+//ExStepSummary:2: Xóa chuỗi placeholder mặc định mà Aspose.Words thêm vào các biểu đồ mới.
+//ExStepSummary:3: Thêm một chuỗi có tên "Demo Series" với các điểm dữ liệu được chỉ định vào biểu đồ histogram.
+//ExStepSummary:4: Lưu tài liệu thành tệp .docx chứa chuỗi biểu đồ có nhãn.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape histogramShape = docBuilder.InsertChart(ChartType.Histogram, 500, 300);
+Chart histogramChart = histogramShape.Chart;
+
+//ExStep:2-
+histogramChart.Series.Clear();
+
+//ExStep:3-
+histogramChart.Series.Add("Demo Series", new double[] { 10, 20, 15, 30, 25 });
+
+//ExStep:4-
+myDocument.Save("LabeledSeriesDemo.docx");
+//ExEnd

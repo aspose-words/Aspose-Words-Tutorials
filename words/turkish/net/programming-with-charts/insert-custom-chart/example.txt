@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Bu öğreticide, bir Word belgesi oluşturma, bir sütun grafiği ekleme, varsayılan verileri temizleme ve iki boyutlu bir diziden özel verilerle doldurma—her satırı bir seriye, her sütunu bir kategoriye eşleştirerek—daha sonra bir başlık ekleyip dosyayı kaydetme gösterilmektedir.
+//ExStepSummary:0: Yeni bir Document ve ona bağlı bir DocumentBuilder oluşturun.
+//ExStepSummary:1: Belgeye 432x252 puan boyutunda bir column chart ekleyin ve Chart nesnesini elde edin.
+//ExStepSummary:2: Grafikten otomatik olarak oluşturulan örnek seriyi kaldırın.
+//ExStepSummary:3: Her seri için X‑eksen kategori etiketlerini ve lejand girişlerini tanımlayın.
+//ExStepSummary:4: Her satır bir serinin değerlerini tutan iki boyutlu bir dizi oluşturun.
+//ExStepSummary:5: Her seriyi döngüyle işleyin, matristen satır değerlerini çıkarın ve seriyi ilgili lejand girişi ve X‑eksen etiketleriyle grafiğe ekleyin.
+//ExStepSummary:6: Grafik başlığı metnini 'Half‑Yearly Revenue' olarak ayarlayın ve görünür yapın.
+//ExStepSummary:7: Özel grafiği içeren belgeyi bir .docx dosyasına kaydedin.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:6:images/4.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chartObj = chartContainer.Chart;
+
+//ExStep:2-
+chartObj.Series.Clear();
+
+//ExStep:3-
+string[] xLabels = { "Jan", "Feb", "Mar", "Apr" };
+string[] legendEntries = { "Item Alpha", "Item Beta", "Item Gamma" };
+
+//ExStep:4-
+double[,] dataMatrix = {
+    { 120.5, 135.0, 150.2, 165.3 }, // Item Alpha
+    { 80.0,  95.5, 110.1, 130.0 }, // Item Beta
+    { 60.3,  70.4,  85.6,  95.2 }   // Item Gamma
+};
+
+//ExStep:5-
+for (int sIdx = 0; sIdx < legendEntries.Length; sIdx++)
+{
+    double[] rowValues = new double[xLabels.Length];
+    for (int cIdx = 0; cIdx < xLabels.Length; cIdx++)
+    {
+        rowValues[cIdx] = dataMatrix[sIdx, cIdx];
+    }
+
+    chartObj.Series.Add(legendEntries[sIdx], xLabels, rowValues);
+}
+
+//ExStep:6-
+chartObj.Title.Text = "Half‑Yearly Revenue";
+chartObj.Title.Show = true;
+
+//ExStep:7-
+myDocument.Save("CustomChart.docx");
+//ExEnd

@@ -1,0 +1,7 @@
+Title: Edit chart label tutorial – modify Word chart labels in C#
+Slug: edit-chart-label-tutorial-modify-word-chart-labels-in-c
+Category: programming-with-charts
+ProcessedDate: 2026-09-12T02:56:35.463672
+SourceRepo: AI Search API
+Keywords: edit chart label tutorial, change chart label position, customize chart data label, hide chart category name, show chart label value
+PRNumber: 273
