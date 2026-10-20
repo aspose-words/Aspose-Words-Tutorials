@@ -1,6 +1,6 @@
 ---
-title: "Insert Images & Shapes into Word Documents with Aspose.Words for Java API | Master Your Docs"
-description: "Learn how to insert and manipulate images and shapes using Aspose.Words for Java, enabling seamless visual integration in your Java applications."
+title: "Insert and Manipulate Images & Shapes with Aspose.Words for Java API"
+description: "Learn how to integrate and customize images and shapes in Aspose.Words for Java, enabling professional‑grade document outputs in your Java applications."
 weight: 6
 url: "/java/images-shapes/"
 ---
@@ -18,7 +18,7 @@ Explore comprehensive step-by-step guides for images & shapes operations using A
 
 ## Overview
 
-In the realm of document processing, integrating images and shapes is crucial for creating visually appealing and informative content. Our curated category of Aspose.Words tutorials focuses on empowering developers using Java to master these essential features. With just two comprehensive guides, you'll learn how to insert, manipulate, and customize images and shapes within your documents efficiently. These tutorials are designed to help you leverage the full potential of Aspose.Words for Java, ensuring that your applications can handle complex document layouts with ease. Whether you're aiming to enhance reports, presentations, or any document-centric application, these guides provide step-by-step instructions and practical examples. By following our tutorials, you'll gain the skills needed to produce professional-grade documents that stand out.
+In the realm of document processing, integrating images and shapes is crucial for creating visually appealing and informative content. Our curated category of Aspose.Words tutorials focuses on empowering developers using Java to master these essential features. With just two comprehensive guides, you'll learn how to insert, manipulate, and customize images and shapes within your documents efficiently. These tutorials are designed to help you leverage the full potential of Aspose.Words for Java, ensuring that your applications can handle complex document layouts with ease. Whether you're aiming to enhance reports, presentations, or any document-centric application, these guides provide step-by-step instructions and practical examples. By following our tutorials, you'll gain the skills needed to produce professional‑grade documents that stand out.
 
 ## What you'll learn
 
@@ -29,28 +29,81 @@ In the realm of document processing, integrating images and shapes is crucial fo
 
 ```java
 // Insert an image into a Word document using Aspose.Words for Java
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.insertImage("C:/Images/sample.png");
-doc.save("Output.docx");
+import com.aspose.words.*;
+
+public class InsertImageExample {
+    public static void main(String[] args) throws Exception {
+        Document doc = new Document();
+        DocumentBuilder builder = new DocumentBuilder(doc);
+
+        // Insert an image at the current cursor position
+        builder.insertImage("C:/Images/sample.png");
+
+        // Save the document
+        doc.save("C:/Output/DocumentWithImage.docx");
+    }
+}
 ```
 
 ## Available Tutorials
 
-### {{< relref "aspose-words-java-callback-custom-savings/" >}}Custom page & image saving in java with Aspose.Words callbacks{{< /relref >}}
+### [Custom page & image saving in java with Aspose.Words callbacks]({{< relref "./aspose-words-java-callback-custom-savings/" >}})
 A code tutorial for Aspose.Words Java
 
-### {{< relref "render-word-pages-thumbnails-aspose-java/" >}}How to Render Document Pages as Thumbnails using Aspose.Words for Java{{< /relref >}}
+### [How to Render Document Pages as Thumbnails using Aspose.Words for Java]({{< relref "./render-word-pages-thumbnails-aspose-java/" >}})
 Learn how to generate high-quality thumbnails and custom-sized bitmaps of Word documents with Aspose.Words for Java. Enhance your document handling capabilities today.
 
-### {{< relref "create-word-document-java-add-rectangle-shape-with-shadow-ef/" >}}Create word document java – add rectangle shape with shadow effect{{< /relref >}}
+### [Create word document java – add rectangle shape with shadow effect](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Learn how to add a rectangle shape with a shadow effect to a Word document using Aspose.Words for Java.
 
-### {{< relref "create-blank-word-with-shadow-in-java-full-guide/" >}}Create blank word with shadow in Java – Full guide{{< /relref >}}
+### [Add shadow to shape in Word – Complete Aspose.Words Guide](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+Learn how to apply shadow effects to shapes in Word documents using Aspose.Words for Java, with step-by-step code examples.
+### [Apply Shadow Effect to a Shape in C# – Step‑by‑Step Guide](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
+Learn how to apply shadow effects to shapes in Aspose.Words using C#, with step-by-step code examples.
+### [How to Set Shadow on a Shape in Aspose.Words – Complete Guide](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
+Learn how to apply and customize shadow effects on shapes in Word documents using Aspose.Words for Java.
+
+### [How to Set Shadow on a Shape in C# – Add Shape Shadow Easily](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+Learn how to apply shadow effects to shapes in Aspose.Words for C# with simple code examples.
+
+### [Create Rectangle Shape in Java Word Document – Full Step‑by‑Step Guide](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Step-by-step guide to create and customize rectangle shapes in Word documents using Aspose.Words for Java.
+
+### [Create Text Box Shape in Java – Complete Guide to Adding Shadows](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+Learn how to create a text box shape with shadow effects in a Word document using Aspose.Words for Java.
+### [Create PDF Document with a Rectangle Shape – Full C# Guide]({{< relref "./create-pdf-document-with-a-rectangle-shape-full-c-guide/" >}})
+Step-by-step guide to create a PDF with a rectangle shape using Aspose.Words for C#.
+
+### [Create Word Document Java – Add Shadow to Shape Guide](./create-word-document-java-add-shadow-to-shape-guide/)
+Learn how to add a shadow to a shape in a Word document using Aspose.Words for Java.
+
+### [Group Shapes in Word with Java – Complete Step-by-Step Guide](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+Learn how to group shapes in Word documents using Aspose.Words for Java with a detailed step-by-step guide.
+
+### [Create Word Document Java – Add Shape with Shadow Effect](./create-word-document-java-add-shape-with-shadow-effect/)
+Learn how to add a shape with a shadow effect to a Word document using Aspose.Words for Java.
+
+### [Create rectangle shape in Java with Aspose.Words – Full Guide](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Comprehensive guide to creating and customizing rectangle shapes in Word documents using Aspose.Words for Java.
+
+### [how to insert group shape in Java – Complete Guide](./how-to-insert-group-shape-in-java-complete-guide/)
+Learn how to insert and manipulate group shapes in Word documents using Aspose.Words for Java.
+
+### [Create blank word document with grouped rectangles – C# guide](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Learn how to create a blank Word document and add grouped rectangle shapes using Aspose.Words for C#.
+
+### [Insert Rectangle Shape in Java – Group and Position Shapes](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+Learn how to group rectangle shapes and set their positions in a Word document using Aspose.Words for Java.
+
+### [Insert Image into Word – Aspose.Words Step-by-Step Guide](./insert-image-into-word-aspose-words-step-by-step-guide/)
+Step-by-step guide on inserting images into Word documents using Aspose.Words for Java.
+
+### [Create blank word with shadow in Java – Full guide](./create-blank-word-with-shadow-in-java-full-guide/)
 Learn how to create a blank Word document with a shadow effect using Aspose.Words for Java in this comprehensive guide.
 
 ## Additional Resources
 
+## Additional Resources
 - [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Java API Reference](https://reference.aspose.com/words/java/)
 - [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
@@ -60,9 +113,9 @@ Learn how to create a blank Word document with a shadow effect using Aspose.Word
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+
+{{< blocks/products/products-backtop-button >}}
