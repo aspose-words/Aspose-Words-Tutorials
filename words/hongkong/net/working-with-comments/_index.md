@@ -19,6 +19,15 @@
 在這些教學中，您將學習使用 Aspose.Words for .NET 在 Word 文件中使用註解進行文字處理的各個方面。您將了解如何在文件中新增評論、將評論回應錨定到特定文字、新增和刪除評論回覆以及解決評論及其回應。每個教學課程都提供了完整原始程式碼的逐步指南，可讓您使用 Aspose.Words for .NET 來增強 Word 文件中的協作和回饋管理。
 
  ## 教學
+
+{{< tutorial-card link="./add-hyperlink-comment/" title="使用 Aspose.Words for .NET 新增超連結註解並匯出為 PDF 標註" imgSrc="./add-hyperlink-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-comment/" title="使用 Aspose.Words for .NET 在 Word 文件的特定段落插入註解" imgSrc="./add-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./style-comment-text/" title="使用 Aspose.Words for .NET 為 Word 文件的批註文字套用自訂樣式" imgSrc="./style-comment-text/images/thumb.png" >}}
+
+
+
 |標題 |描述 |
 | --- | --- |
 | [新增評論](./add-comments/) |透過我們的指南了解如何使用 Aspose.Words for .NET 在您的 Word 文件中新增註解。輕鬆增強您的文件協作流程。 |

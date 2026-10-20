@@ -17,17 +17,45 @@
 
 tutorial di programmazione grafica di Aspose.Words per .NET offrono una risorsa completa per imparare a creare e manipolare elementi grafici nei documenti Word. I tutorial illustrano i passaggi per aggiungere grafici, personalizzarne l'aspetto, modificare i dati e altro ancora. Che siate principianti o sviluppatori esperti, questi tutorial vi aiuteranno a padroneggiare le funzionalità grafiche di Aspose.Words.
 
-In questi tutorial imparerai a creare diversi tipi di grafici, come grafici a barre, grafici a torta, grafici ad area, grafici a linee, ecc. Imparerai anche a personalizzare elementi del grafico come titoli, legende, etichette dati e assi. I tutorial ti mostreranno come manipolare i dati dei grafici aggiungendo, modificando o eliminando serie di dati.
+In questi tutorial imparerai a creare diversi tipi di grafici, come grafici a barre, grafici a torta, grafici ad area, grafici a linee, ecc. Imparerai anche a personalizzare elementi del grafico come titoli, leggende, etichette dati e assi. I tutorial ti mostreranno come manipolare i dati dei grafici aggiungendo, modificando o eliminando serie di dati.
 
 Con questi tutorial, potrai migliorare i tuoi documenti Word aggiungendo grafica accattivante e informativa. Imparerai a sfruttare le funzionalità grafiche avanzate di Aspose.Words per .NET e a integrarle efficacemente nelle tue applicazioni. Esplora questi tutorial per ampliare le tue competenze grafiche in Aspose.Words.
 
  ## Tutorial
+
+{{< tutorial-card link="./uniform-data-labels/" title="Imposta etichette dati uniformi in un grafico a colonne usando Aspose.Words per .NET" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="Ridimensiona il grafico proporzionalmente cambiando il formato della pagina in Word con Aspose.Words per .NET" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="Inserisci un grafico a colonne personalizzato in un documento Word usando Aspose.Words per .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./hide-plot-border/" title="Nascondi il bordo dell'area di tracciamento in un grafico a colonne con Aspose.Words per .NET" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Rimuovi una Chart Series da un Word Document utilizzando Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-sample-column-chart/" title="Inserisci un grafico a colonne di esempio in un documento Word utilizzando Aspose.Words per .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-named-series/" title="Aggiungi una Serie di Dati Nominata a un Grafico a Istogramma in Word usando Aspose.Words per .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Convalida le serie e i punti dati del grafico in un documento Word utilizzando Aspose.Words per .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Personalizza le linee della griglia dell'asse X in un grafico a colonne utilizzando Aspose.Words per .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Formatta l'asse X secondario e imposta le unità di visualizzazione su migliaia nei grafici a linee di Word utilizzando Aspose.Words per .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Aggiorna il titolo del grafico e attiva/disattiva la visibilità della legenda in Word usando Aspose.Words per .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
+
+
+
+
+
+
 | Titolo | Descrizione |
 | --- | --- |
 | [Formato numero etichetta dati in un grafico](./format-number-of-data-label/) | Scopri come formattare le etichette dati nei grafici utilizzando Aspose.Words per .NET con questa guida passo passo. Migliora i tuoi documenti Word senza sforzo. |
 | [Come aggiungere etichette dati a un grafico Word in C# – guida passo‑passo](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Scopri come aggiungere etichette dati a un grafico Word in C# con questa guida passo passo. |
 | [Crea e personalizza un grafico utilizzando la forma](./create-chart-using-shape/) | Scopri come creare e personalizzare grafici nei documenti Word utilizzando Aspose.Words per .NET con questa guida passo passo. Perfetto per la visualizzazione dei dati. |
-| [Inserisci un semplice grafico a colonne in un documento Word](./insert-simple-column-chart/) Scopri come inserire un semplice grafico a colonne in Word utilizzando Aspose.Words per .NET. Arricchisci i tuoi documenti con presentazioni dinamiche di dati visivi. |
+| [Inserisci un semplice grafico a colonne in un documento Word](./insert-simple-column-chart/) | Scopri come inserire un semplice grafico a colonne in Word utilizzando Aspose.Words per .NET. Arricchisci i tuoi documenti con presentazioni dinamiche di dati visivi. |
 | [Inserisci un grafico a colonne in un documento Word](./insert-column-chart/) | Scopri come inserire grafici a colonne nei documenti Word utilizzando Aspose.Words per .NET. Migliora la visualizzazione dei dati nei tuoi report e nelle tue presentazioni. |
 | [Inserire un grafico ad area in un documento Word](./insert-area-chart/) | Scopri come inserire un grafico ad area in un documento Word utilizzando Aspose.Words per .NET in questa guida completa passo dopo passo. |
 | [Inserisci grafico a bolle nel documento Word](./insert-bubble-chart/) | Scopri come inserire un grafico a bolle in un documento Word utilizzando Aspose.Words per .NET con questa guida passo passo. Migliora i tuoi documenti. |
@@ -44,7 +72,10 @@ Con questi tutorial, potrai migliorare i tuoi documenti Word aggiungendo grafica
 | [Imposta le opzioni predefinite per le etichette dati in un grafico](./default-options-for-data-labels/) | Scopri come impostare le opzioni predefinite per le etichette dati in un grafico utilizzando Aspose.Words per .NET. Segui la nostra guida passo passo per creare e personalizzare grafici senza sforzo. |
 | [Personalizza un singolo punto dati del grafico in un grafico](./single-chart-data-point/) | Scopri come personalizzare i singoli punti dati di un grafico utilizzando Aspose.Words per .NET in una guida dettagliata passo passo. Migliora i tuoi grafici con marcatori e dimensioni unici. |
 | [Personalizza una singola serie di grafici in un grafico](./single-chart-series/) | Scopri come personalizzare singole serie di grafici in un documento Word utilizzando Aspose.Words per .NET. Segui la nostra guida passo passo per un'esperienza impeccabile. |
-
+| [Mostra la legenda del grafico in Word con C# – Guida completa passo‑a‑passo](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Scopri come visualizzare la legenda del grafico in Word usando Aspose.Words per .NET con C# in questa guida dettagliata passo passo. |
+| [Esplodere una fetta di grafico a torta in C# con Aspose.Words – Guida completa](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Scopri come far esplodere una fetta di grafico a torta in Word usando Aspose.Words per .NET con questa guida completa passo passo. |
+| [Aggiungi etichette a un grafico a torta in C# usando Aspose.Words – Guida completa](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Scopri come aggiungere etichette a un grafico a torta in C# con Aspose.Words in questa guida completa passo passo. |
+| [Come visualizzare le percentuali in un grafico con Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Scopri come visualizzare le percentuali nei grafici di Word usando Aspose.Words per .NET in pochi semplici passaggi. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

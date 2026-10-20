@@ -22,6 +22,34 @@
 Με αυτά τα σεμινάρια, θα μπορείτε να βελτιώσετε τα έγγραφά σας στο Word προσθέτοντας οπτικά ελκυστικά και ενημερωτικά γραφικά. Θα μάθετε πώς να αξιοποιείτε τις προηγμένες λειτουργίες γραφικών στο Aspose.Words για .NET και να τις ενσωματώνετε αποτελεσματικά στις εφαρμογές σας. Εξερευνήστε αυτά τα σεμινάρια για να διευρύνετε τις δεξιότητές σας στα γραφικά στο Aspose.Words.
 
  ## Εκπαιδευτικά σεμινάρια
+
+{{< tutorial-card link="./uniform-data-labels/" title="Ορισμός ομοιόμορφων ετικετών δεδομένων σε γράφημα στήλης με χρήση του Aspose.Words for .NET" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="Αλλαγή μεγέθους Chart αναλογικά κατά την αλλαγή μεγέθους σελίδας στο Word χρησιμοποιώντας Aspose.Words for .NET" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="Εισαγωγή προσαρμοσμένου γραφήματος στήλης σε έγγραφο Word χρησιμοποιώντας το Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./hide-plot-border/" title="Απόκρυψη περιγράμματος περιοχής σχεδίασης σε γράφημα στήλης με Aspose.Words for .NET" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Αφαίρεση σειράς γραφήματος (Chart Series) από έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-sample-column-chart/" title="Εισαγωγή δείγματος ραβδογράμματος σε έγγραφο Word χρησιμοποιώντας το Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-named-series/" title="Προσθήκη ονομαστικής σειράς δεδομένων σε διάγραμμα ιστογράμματος στο Word χρησιμοποιώντας το Aspose.Words for .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Επικύρωση σειρών γραφήματος και σημείων δεδομένων σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Προσαρμόστε τις γραμμές πλέγματος του άξονα X σε γράφημα στήλης χρησιμοποιώντας το Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Μορφοποίηση Δευτερεύοντος Άξονα X και Ορισμός Μονάδων Εμφάνισης σε Χιλιάδες σε Γραφήματα Γραμμής Word χρησιμοποιώντας το Aspose.Words for .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Ενημέρωση του τίτλου του διαγράμματος και εναλλαγή της ορατότητας του υπομνήματος στο Word χρησιμοποιώντας το Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
+
+
+
+
+
+
 | Τίτλος | Περιγραφή |
 | --- | --- |
 | [Μορφοποίηση αριθμού ετικετών δεδομένων σε ένα γράφημα](./format-number-of-data-label/) | Μάθετε πώς να μορφοποιείτε ετικέτες δεδομένων σε γραφήματα χρησιμοποιώντας το Aspose.Words για .NET με αυτόν τον αναλυτικό οδηγό. Βελτιώστε τα έγγραφά σας στο Word χωρίς κόπο. |
@@ -43,6 +71,10 @@
 | [Ορισμός προεπιλεγμένων επιλογών για ετικέτες δεδομένων σε ένα γράφημα](./default-options-for-data-labels/) | Μάθετε πώς να ορίζετε προεπιλεγμένες επιλογές για ετικέτες δεδομένων σε ένα γράφημα χρησιμοποιώντας το Aspose.Words για .NET. Ακολουθήστε τον αναλυτικό οδηγό μας για να δημιουργήσετε και να προσαρμόσετε γραφήματα χωρίς κόπο. |
 | [Προσαρμογή ενός μεμονωμένου σημείου δεδομένων γραφήματος σε ένα γράφημα](./single-chart-data-point/) | Μάθετε πώς να προσαρμόζετε μεμονωμένα σημεία δεδομένων γραφήματος χρησιμοποιώντας το Aspose.Words για .NET σε έναν λεπτομερή οδηγό βήμα προς βήμα. Βελτιώστε τα γραφήματά σας με μοναδικούς δείκτες και μεγέθη. |
 | [Προσαρμόστε μια σειρά μεμονωμένων γραφημάτων σε ένα γράφημα](./single-chart-series/) | Μάθετε πώς να προσαρμόζετε σειρές μεμονωμένων γραφημάτων σε ένα έγγραφο του Word χρησιμοποιώντας το Aspose.Words για .NET. Ακολουθήστε τον αναλυτικό οδηγό μας για μια απρόσκοπτη εμπειρία. |
+| [Εμφάνιση υπομνήματος γραφήματος στο Word με C# – Πλήρης οδηγός βήμα προς βήμα](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Μάθετε πώς να εμφανίζετε το υπομνήμα ενός γραφήματος σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET με C# σε πλήρη βήμα‑βήμα οδηγό. |
+| [Ανασπάσιμο φέτας πίτας σε C# με Aspose.Words – Πλήρης Οδηγός](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Μάθετε πώς να ανασπάσετε μια φέτα γραφήματος πίτας σε C# χρησιμοποιώντας το Aspose.Words, βήμα προς βήμα. |
+| [Προσθήκη ετικετών πίτας σε C# χρησιμοποιώντας Aspose.Words – Πλήρης Οδηγός](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Μάθετε πώς να προσθέσετε ετικέτες σε γράφημα πίτας σε C# χρησιμοποιώντας το Aspose.Words, με αναλυτικό βήμα‑βήμα οδηγό. |
+| [Πώς να εμφανίσετε ποσοστά σε γράφημα με Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Μάθετε πώς να εμφανίζετε ποσοστά σε γραφήματα χρησιμοποιώντας το Aspose.Words για .NET με αυτόν τον οδηγό βήμα προς βήμα. |
 | [Πώς να προσθέσετε ετικέτες δεδομένων σε γράφημα Word σε C# – οδηγός βήμα‑βήμα](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Μάθετε πώς να προσθέτετε ετικέτες δεδομένων σε γραφήματα Word χρησιμοποιώντας C# με αυτόν τον αναλυτικό οδηγό βήμα‑βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

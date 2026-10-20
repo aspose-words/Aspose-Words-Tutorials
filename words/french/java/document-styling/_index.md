@@ -35,6 +35,8 @@ Dans ces tutoriels, nous nous concentrerons non seulement sur la création de do
 Apprenez à styliser et à traiter des documents avec Aspose.Words pour Java ! Créez des résultats visuellement époustouflants grâce à des exemples de code source. 
 ### [Application de styles et de polices dans les documents](./applying-styles-fonts/)
 Apprenez à appliquer des styles et des polices à vos documents avec Aspose.Words pour Java. Guide étape par étape avec code source. Exploitez tout le potentiel de la mise en forme de vos documents.
+### [Comment détecter les polices dans les documents Word Java – Guide complet](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
+Apprenez à détecter les polices utilisées dans les documents Word avec Aspose.Words pour Java. Guide complet avec exemples de code source.
 ### [Mise en forme des paragraphes et du texte dans les documents](./styling-paragraphs-text/)
 Apprenez à mettre en forme les paragraphes et le texte de vos documents avec Aspose.Words pour Java. Guide étape par étape avec code source pour une mise en forme efficace de vos documents.
 ### [Personnalisation des thèmes de documents](./customizing-document-themes/)
@@ -43,6 +45,8 @@ Apprenez à personnaliser les thèmes de vos documents avec Aspose.Words pour Ja
 Apprenez à appliquer des filigranes et à configurer des pages avec Aspose.Words pour Java. Un guide complet avec code source.
 ### [Style d'en-tête et de pied de page du document](./document-header-footer-styling/)
 Apprenez à styliser les en-têtes et pieds de page de vos documents avec Aspose.Words pour Java dans ce guide détaillé. Instructions étape par étape et code source inclus.
+### [Définir les paramètres de police par défaut dans Aspose.Words pour Java – Guide complet](./set-default-font-settings-in-aspose-words-for-java-complete/)
+Apprenez à configurer la police par défaut pour vos documents avec Aspose.Words pour Java. Guide complet avec exemples de code.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

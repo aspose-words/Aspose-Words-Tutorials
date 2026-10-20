@@ -35,6 +35,12 @@
 ### [वर्ड ऑटोमेशन को आसान बनाया गया](./word-automation-made-easy/)
 Python के लिए Aspose.Words का उपयोग करके आसानी से वर्ड प्रोसेसिंग को स्वचालित करें। प्रोग्रामेटिक रूप से दस्तावेज़ बनाएँ, फ़ॉर्मेट करें और उनमें बदलाव करें। उत्पादकता को अभी बढ़ाएँ!
 
+### [Python के साथ टेक्स्ट docx बदलें – पूर्ण चरण‑दर‑चरण गाइड](./replace-text-docx-with-python-full-step-by-step-guide/)
+Python का उपयोग करके docx फ़ाइलों में टेक्स्ट को आसानी से बदलने के लिए पूर्ण चरण‑दर‑चरण मार्गदर्शिका।
+
+### [Python में व्याकरण सुधार को स्वचालित करने के लिए Aspose का उपयोग कैसे करें](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
+Python के साथ Aspose का उपयोग करके व्याकरण सुधार को स्वचालित करें, टेक्स्ट को सही बनाएं और उत्पादकता बढ़ाएँ।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
