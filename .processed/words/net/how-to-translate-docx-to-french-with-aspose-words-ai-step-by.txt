@@ -1,0 +1,7 @@
+Title: How to translate docx to French with Aspose.Words.AI – step‑by‑step guide
+Slug: how-to-translate-docx-to-french-with-aspose-words-ai-step-by
+Category: ai-powered-document-processing
+ProcessedDate: 2026-10-20T12:23:22.878843
+SourceRepo: AI Search API
+Keywords: translate docx to french, extract text from docx, translate entire document, how to translate docx, google translation provider
+PRNumber: 331
