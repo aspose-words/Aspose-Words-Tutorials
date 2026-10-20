@@ -46,7 +46,7 @@ Aspose.Words for .NETライブラリを用いてWord文書内のフィールド�
 | [ドキュメント内のフィールドを変換](./convert-fields-in-document/) このガイドでは、Aspose.Words for .NET を使用して Word 文書内のフィールドを変換する方法を学びます。チュートリアルに従って、文書内のフィールドを効率的に管理および変換しましょう。 |
 | [本文のフィールドを変換](./convert-fields-in-body/) Aspose.Words for .NET を使用して、ページ フィールドを Word 文書の本文のテキストに変換する方法を学習します。 |
 | [ロケールの変更](./change-locale/) このガイドでは、Aspose.Words for .NET を使用して Word 文書のロケールを変更する方法を学びます。国際的なクライアントやプロジェクトへの対応に最適です。 |
-
+| [C# で Aspose.Words を使用してメールマージテンプレートを作成する方法](./how-to-create-mail-merge-template-with-aspose-words-in-c/)  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

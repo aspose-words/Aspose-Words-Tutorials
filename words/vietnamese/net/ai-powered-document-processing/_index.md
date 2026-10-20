@@ -75,9 +75,11 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Tạo tóm tắt tài liệu với Aspose.Words & OpenAI](./create-document-summary-with-aspose-words-openai/) | Hướng dẫn tạo tóm tắt tài liệu Word bằng Aspose.Words và OpenAI, tích hợp AI để nhanh chóng nhận được nội dung cốt lõi. |
 | [Dịch tài liệu docx sang tiếng Pháp với Aspose.Words và Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Hướng dẫn dịch file Word sang tiếng Pháp bằng Aspose.Words và Google API, tích hợp AI nhanh chóng. |
 | [Dịch docx sang tiếng Pháp với Aspose.Words.AI – Hướng dẫn đầy đủ](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words.AI để dịch tài liệu Word (.docx) sang tiếng Pháp một cách nhanh chóng và chính xác. |
+| [Dịch docx sang tiếng Pháp với Aspose.Words.AI – hướng dẫn chi tiết từng bước](./how-to-translate-docx-to-french-with-aspose-words-ai-step-by/) |  |
 | [Tạo bản tóm tắt tài liệu bằng C# – Hướng dẫn đầy đủ OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET và OpenAI để tạo bản tóm tắt tài liệu bằng C#. |
 | [Tóm tắt tài liệu Word bằng Aspose.Words AI – Hướng dẫn đầy đủ](./summarize-word-document-with-aspose-words-ai-full-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words AI để tóm tắt tài liệu Word một cách nhanh chóng và hiệu quả. |
 | [Tóm tắt tài liệu AI bằng C# – hướng dẫn toàn diện](./ai-document-summarization-in-c-complete-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET để tóm tắt tài liệu bằng AI trong C#. |
+| [Cách tóm tắt tài liệu Word bằng Aspose.Words AI trong C#](./how-to-summarize-word-document-using-aspose-words-ai-in-c/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words AI để tóm tắt tài liệu Word trong C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -85,6 +87,5 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

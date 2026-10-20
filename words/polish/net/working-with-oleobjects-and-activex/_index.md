@@ -29,8 +29,9 @@ Te samouczki przedstawiają praktyczne, krok po kroku podejście do przetwarzani
 | [Wstaw obiekt OLE jako ikonę za pomocą strumienia](./insert-ole-object-as-icon-using-stream/) | Dowiedz się, jak wstawić obiekt OLE jako ikonę za pomocą strumienia z Aspose.Words dla .NET w tym szczegółowym samouczku krok po kroku. |
 | [Odczyt właściwości Active XControl z pliku Word](./read-active-xcontrol-properties/) | Dowiedz się, jak czytać właściwości kontrolki ActiveX z plików Word za pomocą Aspose.Words dla .NET w przewodniku krok po kroku. Udoskonal swoje umiejętności automatyzacji dokumentów. |
 | [Utwórz dokument Word z przyciskiem ActiveX – przewodnik C#](./create-word-document-with-activex-button-c-guide/) | Dowiedz się, jak utworzyć dokument Word zawierający przycisk ActiveX przy użyciu C# i Aspose.Words dla .NET w tym przewodniku krok po kroku. |
+| [Utwórz dokument Word programowo z przyciskiem ActiveX](./create-word-document-programmatically-with-an-activex-button/) | Dowiedz się, jak programowo utworzyć dokument Word zawierający przycisk ActiveX przy użyciu Aspose.Words dla .NET. |
 | [Utwórz przycisk dokumentu Word przy użyciu Aspose.Words – Pełny przykład kodu](./create-word-document-button-with-aspose-words-full-code-exam/) | Dowiedz się, jak dodać przycisk tworzący dokument Word przy użyciu Aspose.Words w pełnym przykładzie kodu. |
-| [Dodaj przycisk polecenia do dokumentu Word przy użyciu Aspose.Words – kompletny przewodnik](./add-command-button-to-word-document-with-aspose-words-comple/) | Dowiedz się, jak dodać przycisk polecenia do dokumentu Word przy użyciu Aspose.Words w tym kompletnym przewodniku krok po kroku. |
+| [Dodaj przycisk polecenia do dokumentu Word przy użyciu Aspose.Words – kompletny przewodnik](./add-command-button-to-word-document-with-aspose-words-comple/) | Dowiedz się, jak dodać przycisk polecenia do dokumentu Word przy użyciem Aspose.Words w tym kompletnym przewodniku krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -37,7 +37,7 @@ Eğitimlerde sunulan kod örnekleri, SDT kontrollerinin kavramlarını anlamanı
 | [Çok Bölümlü](./multi-section/) Bu adım adım eğitimle Aspose.Words for .NET'te çok bölümlü yapılandırılmış belge etiketleriyle nasıl çalışacağınızı öğrenin. Dinamik belge düzenleme için idealdir. |
 | [Yapılandırılmış Belge Etiket Aralığı Başlat Xml Eşlemesi](./structured-document-tag-range-start-xml-mapping/) | Aspose.Words for .NET kullanarak Word'de XML verilerini yapılandırılmış belge etiketlerine dinamik olarak nasıl bağlayacağınızı öğrenin. Adım adım kılavuzumuzu izleyin. |
 | [Aspose.Words'te Yer Tutucu Metni Ayarlama – Tam C# Rehberi](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Aspose.Words for .NET kullanarak Word belgelerinde yer tutucu metni nasıl ayarlayacağınızı adım adım öğrenin. |
-
+| [C# ile Word belgesinde yer tutucu metni ayarlama](./set-placeholder-text-in-a-word-document-using-c/) | C# ile Word belgesine yer tutucu metin eklemeyi adım adım öğrenin. |
 | [Aspose ile İçerik Kontrolü Ekleyin ve Word Belgesi Oluşturun – Tam Kılavuz](./how-to-add-content-control-and-create-word-document-with-asp/) | Aspose.Words for .NET kullanarak içerik kontrolü ekleyip tam bir Word belgesi oluşturmayı adım adım öğrenin. |
 | [Programatik olarak Word belgesi oluştur – içerik kontrolü ve yer tutucu ekle](./create-word-document-programmatically-add-content-control-an/) | Aspose.Words for .NET kullanarak programlı bir şekilde Word belgesi oluşturup içerik kontrolü ve yer tutucu eklemeyi öğrenin. |
 

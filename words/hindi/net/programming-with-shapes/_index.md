@@ -30,7 +30,7 @@
 | [Word दस्तावेज़ C# – शैडो के साथ आकृति जोड़ें](./create-word-document-c-add-shape-with-shadow/) | Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में शैडो के साथ आकृति जोड़ने का चरण‑दर‑चरण मार्गदर्शन। |
 | [पहलू अनुपात लॉक किया गया](./aspect-ratio-locked/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में आकृतियों के पहलू अनुपात को लॉक करना सीखें। अपनी छवियों और आकृतियों को आनुपातिक बनाए रखने के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें। |
 | [सेल में लेआउट](./layout-in-cell/) | इस विस्तृत गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके सेल में लेआउट सेट करना सीखें। Word दस्तावेज़ों को कस्टमाइज़ करने की इच्छुक डेवलपर्स के लिए बिल्कुल सही। |
-| [कटे हुए कोने जोड़ें](./add-corners-snipped/) | जानें कि Aspose.Words for .NET का उपयोग करके अपने Word दस्तावेज़ों में कोनों को काटकर आकार कैसे जोड़ें। यह चरण-दर-चरण मार्गदर्शिका सुनिश्चित करती है कि आप अपने दस्तावेज़ों को आसानी से बेहतर बना सकते हैं। |
+| [कटे हुए कोने जोड़ें](./add-corners-snipped/) | जानें कि Aspose.Words for .NET का उपयोग करके अपने Word दस्तावेज़ों में कोनों को काटकर आकार कैसे जोड़ें। यह चरण‑दर‑चरण मार्गदर्शिका सुनिश्चित करती है कि आप अपने दस्तावेज़ों को आसानी से बेहतर बना सकते हैं। |
 | [वास्तविक आकार सीमा अंक प्राप्त करें](./get-actual-shape-bounds-points/) | जानें कि .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में वास्तविक आकार सीमा बिंदु कैसे प्राप्त करें। इस विस्तृत गाइड के साथ सटीक आकार हेरफेर सीखें। |
 | [वर्टिकल एंकर](./vertical-anchor/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में टेक्स्टबॉक्स के लिए वर्टिकल एंकर पोजिशन सेट करना सीखें। आसान चरण‑दर‑शरण मार्गदर्शिका शामिल है।|
 | [स्मार्ट आर्ट आकार का पता लगाएं](./detect-smart-art-shape/) | इस व्यापक गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में SmartArt आकृतियों का पता लगाना सीखें। आपके दस्तावेज़ वर्कफ़्लो को स्वचालित करने के लिए बिल्कुल सही। |
@@ -46,10 +46,10 @@
 | [स्मार्ट आर्ट ड्राइंग अपडेट करें](./update-smart-art-drawing/) | इस चरण‑दर‑श... |
 | [Aspose.Words आकृति शैडो ट्यूटोरियल – C# में Word आकृति में शैडो जोड़ें](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | C# में Aspose.Words का उपयोग करके Word आकृति में शैडो कैसे जोड़ें, इस चरण‑दर‑चरण ट्यूटोरियल के साथ सीखें। |
 | [C# में आकृति पर शैडो सेट करने का तरीका – चरण‑दर‑चरण गाइड](./how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/) | C# में Aspose.Words का उपयोग करके Word आकृति में शैडो जोड़ने की चरण‑दर‑चरण प्रक्रिया सीखें। |
-| [छाया वाले आयत आकार के साथ खाली Word दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Aspose.Words का उपयोग करके छाया वाले आयत आकार के साथ एक खाली Word दस्तावेज़ बनाने के चरण‑दर‑चरण निर्देश। |
+| [छाया वाले आयत आकार के साथ खाली Word दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-blank-word-document-with-shadowed-rectangle-ste/) | Aspose.Words का उपयोग करके छाया वाले आयत आकार के साथ एक खाली Word दस्तावेज़ बनाने के चरण‑दर‑चरण निर्देश। |
 | [C# में आकृति पर छाया जोड़ें – छाया प्रभाव लागू करने के लिए पूर्ण गाइड](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | .NET के लिए Aspose.Words का उपयोग करके C# में आकृति पर छाया प्रभाव कैसे लागू करें, इस चरण‑दर‑चरण गाइड के साथ सीखें। |
 | [C# में Aspose.Words के साथ आकृति छाया को संपादित करने का तरीका – चरण‑दर‑चरण गाइड](./how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/) | Aspose.Words का उपयोग करके C# में आकृति की छाया को कैसे बदलें, इस चरण‑दर‑चरण मार्गदर्शिका में सीखें। |
-| [आकार में छाया जोड़ें – C# डेवलपर्स के लिए चरण‑दर‑चरण गाइड](./add-shadow-to-shape-step-by-step-guide-for-c-developers/) | .NET के लिए Aspose.Words का उपयोग करके आकार में छाया कैसे जोड़ें, इस चरण‑दर‑चरण मार्गदर्शिका के साथ सीखें। |
+| [आकार में छाया जोड़ें – C# डेवलपर्स के लिए चरण‑दर‑चरण गाइड](./add-shadow-to-shape-step-by-step-guide-for-c-developers/) | .NET के लिए Aspose.Words का उपयोग करके आकार में छाया कैसे जोड़ें, इस चरण‑दर‑चरण गाइड के साथ सीखें। |
 | [Aspose.Words के साथ खाली वर्ड दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | Aspose.Words का उपयोग करके .NET में एक खाली Word दस्तावेज़ बनाने के चरण‑दर‑चरण निर्देश। |
 | [आयत आकार बनाएं, छाया जोड़ें और PDF सहेजें](./create-rectangle-shape-add-shadow-save-pdf/) | Aspose.Words for .NET का उपयोग करके आयत आकार बनाएं, छाया लागू करें और दस्तावेज़ को PDF के रूप में सहेजें। |
 | [Word में आयत आकार बनाएं – पूर्ण Aspose.Words गाइड](./create-rectangle-shape-in-word-full-aspose-words-guide/) | Aspose.Words के साथ Word दस्तावेज़ में आयत आकार बनाने और अनुकूलित करने के लिए पूर्ण चरण‑दर‑शरण मार्गदर्शन। |
@@ -72,13 +72,12 @@
 | [Word में आयत बनाएं – Aspose के साथ Word में आकृतियाँ जोड़ें](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में आयत आकार जोड़ने और अनुकूलित करने के चरण‑दर‑चरण निर्देश। |
 | [छिपी हुई दीर्घवृत्त आकृति के साथ खाली Word दस्तावेज़ बनाएं – पूर्ण C# गाइड](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | C# में Aspose.Words का उपयोग करके छिपी हुई दीर्घवृत्त आकृति के साथ एक खाली Word दस्तावेज़ बनाने की पूरी प्रक्रिया सीखें। |
 | [C# का उपयोग करके Word में समूहित आकृतियों के साथ docx फ़ाइल सहेजें](./save-docx-file-with-grouped-shapes-in-word-using-c/) | .NET के लिए Aspose.Words का उपयोग करके समूहित आकृतियों के साथ Word दस्तावेज़ को सहेजना सीखें। |
-
+| [Aspose.Words का उपयोग करके Word में एक खाली दस्तावेज़ बनाएं और आकृतियों को समूहित करें](./how-to-create-a-blank-word-document-and-group-shapes-in-word/) | Aspose.Words के साथ एक खाली Word दस्तावेज़ बनाकर समूहित आकृतियों को जोड़ने की चरण‑दर‑शिक्षा। |
+| [Aspose.Words for C# में नई `Hidden` प्रॉप के साथ आकृति को छुपाएँ/दिखाएँ](./hide-show-a-shape-with-the-new-hidden-prop-in-aspose-words-f/) | इस ट्यूटोरियल में नई `Hidden` प्रॉप का उपयोग करके आकृति को छुपाने और दिखाने का तरीका सीखें। |
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

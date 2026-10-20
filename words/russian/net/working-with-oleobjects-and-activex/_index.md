@@ -30,7 +30,7 @@
 | [Чтение свойств Active XControl из файла Word](./read-active-xcontrol-properties/) | Узнайте, как читать свойства элементов управления ActiveX из файлов Word с помощью Aspose.Words для .NET в пошаговом руководстве. Улучшите свои навыки автоматизации документов. |
 | [Создание документа Word с кнопкой ActiveX – руководство на C#](./create-word-document-with-activex-button-c-guide/) | Узнайте, как создать документ Word с кнопкой ActiveX, используя C# и Aspose.Words. |
 | [Создать кнопку документа Word с Aspose.Words – полный пример кода](./create-word-document-button-with-aspose-words-full-code-exam/) | Полный пример кода, показывающий, как создать кнопку в документе Word с помощью Aspose.Words для .NET. |
-
+| [Создать документ Word программно с кнопкой ActiveX](./create-word-document-programmatically-with-an-activex-button/) | Узнайте, как программно создавать документ Word с кнопкой ActiveX, используя Aspose.Words для .NET. |
 | [Добавить кнопку Command в документ Word с Aspose.Words – Полное руководство](./add-command-button-to-word-document-with-aspose-words-comple/) | Узнайте, как добавить кнопку Command в документ Word с помощью Aspose.Words, используя пошаговое руководство. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

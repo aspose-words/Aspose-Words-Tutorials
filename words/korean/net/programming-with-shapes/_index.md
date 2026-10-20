@@ -38,7 +38,7 @@ Aspose.Words for .NET을 사용하고 이 튜토리얼을 따라 하면 Word 문
 | [그림자 사각형이 있는 Word 문서 만들기 – 단계별 가이드](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Aspose.Words for .NET을 사용하여 그림자 효과가 있는 사각형을 Word 문서에 삽입하고 속성을 설정하는 단계별 가이드. |
 | [C#를 사용하여 Word에서 사각형 모양 만들기 – 단계별 가이드](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Aspose.Words for .NET을 사용해 C#로 Word 문서에 사각형 도형을 삽입하고 설정하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words 도형 그림자 튜토리얼 – C#에서 Word 도형에 그림자 추가](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Aspose.Words for .NET을 사용하여 C# 코드로 Word 도형에 그림자를 적용하는 방법을 단계별로 안내합니다. |
-| [그림자 사각형 모양이 있는 빈 Word 문서 만들기 – 단계별 가이드](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Aspose.Words for .NET을 사용하여 그림자 효과가 있는 사각형 모양을 포함한 빈 Word 문서를 만드는 방법을 단계별로 안내합니다. |
+| [그림자 사각형 모양이 있는 빈 Word 문서 만들기 – 단계별 가이드](./create-blank-word-document-with-shadowed-rectangle-ste/) | Aspose.Words for .NET을 사용하여 그림자 효과가 있는 사각형 모양을 포함한 빈 Word 문서를 만드는 방법을 단계별로 안내합니다. |
 | [C#에서 도형에 그림자 추가 – 그림자 효과 적용 완전 가이드](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Aspose.Words for .NET을 사용하여 Word 문서에서 도형에 그림자를 적용하는 방법을 단계별 가이드를 통해 알아보세요. |
 | [C#와 Aspose.Words를 사용하여 도형 그림자 편집하기 – 단계별 가이드](./how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/) | Aspose.Words for .NET을 사용하여 C#에서 도형 그림자를 편집하는 방법을 단계별로 안내합니다. |
 | [도형에 그림자 추가 – C# 개발자를 위한 단계별 가이드](./add-shadow-to-shape-step-by-step-guide-for-c-developers/) | Aspose.Words for .NET을 사용하여 Word 문서의 도형에 그림자를 추가하는 방법을 단계별로 안내합니다. |
@@ -68,7 +68,9 @@ Aspose.Words for .NET을 사용하고 이 튜토리얼을 따라 하면 Word 문
 | [Aspose를 사용하여 Word에 사각형 그리기 – 도형 추가](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Aspose.Words for .NET을 사용하여 Word 문서에 사각형을 그리고 도형을 추가하는 단계별 가이드. |
 | [숨겨진 타원형 모양이 있는 빈 Word 문서 만들기 – 전체 C# 가이드](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Aspose.Words for .NET을 사용하여 C#으로 숨겨진 타원형 모양이 포함된 빈 Word 문서를 만드는 단계별 가이드. |
 | [C#를 사용해 그룹화된 도형이 포함된 docx 파일 저장](./save-docx-file-with-grouped-shapes-in-word-using-c/) | C#와 Aspose.Words를 이용해 그룹화된 도형이 포함된 Word 문서를 docx 파일로 저장하는 방법을 단계별로 안내합니다. |
+| [Aspose.Words를 사용하여 빈 Word 문서를 만들고 그룹 모양을 추가하는 방법](./how-to-create-a-blank-word-document-and-group-shapes-in-word/) | Aspose.Words를 활용해 빈 Word 문서를 생성하고 그룹 모양을 추가하는 단계별 가이드. |
 | [C#를 사용하여 Word에서 도형 숨기기 – 단계별 가이드](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 C# 코드로 Word 문서에서 도형을 숨기는 방법을 단계별로 안내합니다. |
+| [Aspose.Words for C#의 새로운 `Hidden` 속성을 사용하여 도형 숨기기/보이기](./hide-show-a-shape-with-the-new-hidden-prop-in-aspose-words-f/) | Aspose.Words for C#에서 새 Hidden 속성을 활용해 도형을 숨기거나 표시하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -51,7 +51,7 @@
 | [如何使用 C# 修復 DOCX 檔案的文法 – 完整分步指南](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) |使用 Aspose.Words for .NET 與 C# 逐步修正 DOCX 文件中的語法錯誤，提高文件品質。 |
 | [使用本地 LLM 摘要 Word 文件 – C# 指南](./summarize-word-document-with-local-llm-c-guide/) |使用 Aspose.Words for .NET 結合本地大型語言模型，以 C# 實作文件摘要，提升離線處理效率。 |
 | [如何在 Word 文件中檢查文法 – 完整 C# 指南](./how-to-check-grammar-in-word-documents-complete-c-guide/) |使用 Aspose.Words for .NET 及 C# 完整指南，教您如何在 Word 文件中自動檢查並校正文法錯誤。 |
-| [如何在 C# 中使用本地 LLM 檢查文法](./how-to-check-grammar-with-a-local-llm-in-c/) |使用 Aspose.Words for .NET 結合本地大型語言模型，在 C# 中自動檢查並校正文檔文法。 |
+| [如何在 C# 中使用本地 LLM 檢查文法](./how-to-check-grammar-with-a-local-llm-in-c/) |使用 Aspose.Words for .NET 結合本地大型語言模型，在 C# 中自動檢查並校正文檔文法錯誤。 |
 | [使用 Aspose.Words AI 檢查文法並匯總 Word 文件](./how-to-check-grammar-and-summarize-word-document-with-aspose/) |使用 Aspose.Words AI 檢查文法並自動匯總 Word 文件，提升寫作與審閱效率。 |
 | [檢查 C# Word 文件語法 – 完整程式設計指南](./check-grammar-word-document-in-c-complete-programming-guide/) |了解如何使用 Aspose.Words for .NET 在 C# 中檢查 Word 文件的語法錯誤，提升文件品質與寫作效率。 |
 | [如何在 C# 中載入 Word 並使用 AI 重寫段落](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) |示範如何使用 Aspose.Words for .NET 在 C# 中載入 Word 文件，並結合 AI 重寫指定段落，提高內容品質。 |
@@ -75,9 +75,11 @@
 | [使用 Aspose.Words 與 OpenAI 建立文件摘要](./create-document-summary-with-aspose-words-openai/) |使用 Aspose.Words for .NET 與 OpenAI 模型，快速生成高品質文件摘要，提升文件處理效率。 |
 | [使用 Aspose.Words 與 Google API 將 docx 翻譯成法文](./translate-docx-to-french-with-aspose-words-and-google-api/) |使用 Aspose.Words for .NET 結合 Google 翻譯 API，將 docx 文件快速翻譯為法文，提高多語言文件處理效率。 |
 | [使用 Aspose.Words.AI 將 docx 轉譯成法文 – 完整指南](./translate-docx-to-french-with-aspose-words-ai-full-guide/) |了解如何使用 Aspose.Words.AI 將 DOCX 文件翻譯成法文，完整步驟指引。 |
+| [使用 Aspose.Words.AI 將 docx 轉譯成法文 – 步驟式指南](./how-to-translate-docx-to-french-with-aspose-words-ai-step-by/) |使用 Aspose.Words.AI 將 docx 轉譯成法文的逐步說明，簡明易懂的操作指南。 |
 | [使用 C# 建立文件摘要 – 完整 OpenAI 指南](./create-document-summary-in-c-complete-openai-guide/) |使用 Aspose.Words for .NET 與 OpenAI 在 C# 中快速生成文件摘要的完整指南。 |
 | [使用 Aspose.Words AI 摘要 Word 文件 – 完整指南](./summarize-word-document-with-aspose-words-ai-full-guide/) |透過 Aspose.Words AI 完整步驟，快速將 Word 文件摘要為關鍵要點，提高工作效率。 |
 | [C# AI 文件摘要完整指南](./ai-document-summarization-in-c-complete-guide/) |使用 Aspose.Words for .NET 與 AI 技術在 C# 中實現高效文件摘要的完整指南。 |
+| [使用 Aspose.Words AI 在 C# 中匯總 Word 文件](./how-to-summarize-word-document-using-aspose-words-ai-in-c/) | 使用 Aspose.Words AI 在 C# 中自動匯總 Word 文件，快速生成摘要。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -85,6 +87,5 @@
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

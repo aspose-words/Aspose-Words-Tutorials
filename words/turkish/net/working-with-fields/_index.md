@@ -42,11 +42,11 @@ Bu, Aspose.Words for .NET kitaplığını kullanarak Word belgelerindeki alanlar
 | [Alan Güncelleme Kültürü](./field-update-culture/) | Aspose.Words for .NET kullanarak Word belgelerinde alan güncelleme kültürünün nasıl yapılandırılacağını öğrenin. Doğru güncellemeler için kod örnekleri ve ipuçları içeren adım adım kılavuz. |
 | [Alan Görüntüleme Sonuçları](./field-display-results/) Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerindeki alan sonuçlarını nasıl güncelleyeceğinizi ve görüntüleyeceğinizi öğrenin. Belge görevlerini otomatikleştirmek için mükemmeldir. |
 | [IF Koşulunu Değerlendir](./evaluate-ifcondition/) | Aspose.Words for .NET kullanarak Word belgelerindeki IF koşullarının nasıl değerlendirileceğini öğrenin. Bu adım adım kılavuz, ekleme, değerlendirme ve sonuç görüntülemeyi kapsar. |
-| [Paragraftaki Alanları Dönüştür](./convert-fields-in-paragraph/) | Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerindeki IF alanlarını düz metne nasıl dönüştüreceğinizi öğrenin.
+| [Paragraftaki Alanları Dönüştür](./convert-fields-in-paragraph/) | Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerindeki IF alanlarını düz metne nasıl dönüştüreceğinizi öğrenin. |
 | [Belgedeki Alanları Dönüştür](./convert-fields-in-document/) | Bu kılavuzla Aspose.Words for .NET kullanarak Word belgelerindeki alanları nasıl dönüştüreceğinizi öğrenin. Belgelerinizdeki alanları verimli bir şekilde yönetmek ve dönüştürmek için eğitimimizi izleyin. |
 | [Gövdedeki Alanları Dönüştür](./convert-fields-in-body/) | Word belgesinin gövdesindeki Sayfa alanlarını metne dönüştürmek için Aspose.Words for .NET'in nasıl kullanılacağını öğrenin. |
 | [Yerel Ayarı Değiştir](./change-locale/) Bu kılavuzla Aspose.Words for .NET kullanarak Word belgelerindeki yerel ayarları nasıl değiştireceğinizi öğrenin. Uluslararası müşteriler ve projelerle başa çıkmak için mükemmeldir. |
-
+| [Aspose.Words ile C#'ta posta birleştirme şablonu oluşturma](./how-to-create-mail-merge-template-with-aspose-words-in-c/) | Aspose.Words for .NET kullanarak C# dilinde posta birleştirme şablonu oluşturmayı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

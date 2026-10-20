@@ -74,16 +74,15 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | [Překlad docx do francouzštiny pomocí Aspose.Words a Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Přeložte dokumenty DOCX do francouzštiny pomocí Aspose.Words a Google API. Jednoduchý návod pro rychlé a přesné překlady. |
 | [Shrňte Word dokument pomocí Aspose.Words AI – Kompletní průvodce](./summarize-word-document-with-aspose-words-ai-full-guide/) | Kompletní návod, jak pomocí Aspose.Words AI efektivně shrnout Word dokumenty a získat rychlé přehledy. |
 | [AI sumarizace dokumentů v C# – kompletní průvodce](./ai-document-summarization-in-c-complete-guide/) | Kompletní průvodce, jak pomocí Aspose.Words pro .NET a AI vytvořit shrnutí dokumentů v C#. |
-
+| [Jak shrnout Word dokument pomocí Aspose.Words AI v C#](./how-to-summarize-word-document-using-aspose-words-ai-in-c/) | Naučte se pomocí Aspose.Words AI automaticky shrnout Word dokument v C#. |
 | [Shrnutí Word dokumentu v C# pomocí vlastního modelu GPT – Kompletní průvodce](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Naučte se, jak pomocí vlastního modelu GPT v C# automaticky shrnout Word dokumenty s Aspose.Words. |
 | [Překlad docx do francouzštiny s Aspose.Words.AI – Kompletní průvodce](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Naučte se, jak pomocí Aspose.Words.AI přeložit soubory DOCX do francouzštiny v několika krocích. |
+| [Jak přeložit docx do francouzštiny pomocí Aspose.Words.AI – krok za krokem](./how-to-translate-docx-to-french-with-aspose-words-ai-step-by/) | Podrobný návod, jak pomocí Aspose.Words.AI přeložit DOCX soubory do francouzštiny krok po kroku. |
 | [Vytvoření shrnutí dokumentu v C# – Kompletní průvodce OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Naučte se pomocí Aspose.Words a OpenAI vytvořit kompletní shrnutí dokumentu v C# během několika kroků. |
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

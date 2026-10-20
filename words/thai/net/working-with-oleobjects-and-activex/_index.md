@@ -29,6 +29,7 @@
 - [แทรกวัตถุ Ole เป็นไอคอนโดยใช้สตรีม](./insert-ole-object-as-icon-using-stream/) | เรียนรู้วิธีการแทรกวัตถุ OLE เป็นไอคอนโดยใช้สตรีมด้วย Aspose.Words สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนโดยละเอียดนี้
 - [อ่านคุณสมบัติ Active XControl จากไฟล์ Word](./read-active-xcontrol-properties/) | เรียนรู้วิธีการอ่านคุณสมบัติของตัวควบคุม ActiveX จากไฟล์ Word โดยใช้ Aspose.Words สำหรับ .NET ในคู่มือทีละขั้นตอน พัฒนาทักษะการจัดการเอกสารอัตโนมัติของคุณ |
 - [สร้างเอกสาร Word ด้วยปุ่ม ActiveX – คู่มือ C#](./create-word-document-with-activex-button-c-guide/) | เรียนรู้วิธีสร้างเอกสาร Word พร้อมปุ่ม ActiveX ด้วย Aspose.Words สำหรับ .NET ด้วยภาษา C#
+- [สร้างเอกสาร Word อย่างเป็นโปรแกรมด้วยปุ่ม ActiveX](./create-word-document-programmatically-with-an-activex-button/) | เรียนรู้วิธีสร้างเอกสาร Word พร้อมปุ่ม ActiveX ผ่านการเขียนโค้ดอย่างเป็นขั้นตอน
 - [สร้างปุ่มเอกสาร Word ด้วย Aspose.Words – ตัวอย่างโค้ดเต็ม](./create-word-document-button-with-aspose-words-full-code-exam/) | เรียนรู้วิธีสร้างปุ่มในเอกสาร Word ที่สร้างไฟล์โดยใช้ Aspose.Words พร้อมตัวอย่างโค้ดเต็ม
 - [เพิ่มปุ่มคำสั่งลงในเอกสาร Word ด้วย Aspose.Words – คู่มือครบถ้วน](./add-command-button-to-word-document-with-aspose-words-comple/) | เรียนรู้วิธีเพิ่มปุ่มคำสั่งลงในเอกสาร Word ด้วย Aspose.Words ผ่านคู่มือขั้นตอนเต็มรูปแบบ
 

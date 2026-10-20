@@ -32,6 +32,7 @@ Aspose.Words for .NET 자습서에서는 OLE 및 ActiveX 개체를 사용한 워
 
 | [Aspose.Words를 사용한 워드 문서 만들기 버튼 – 전체 코드 예제](./create-word-document-button-with-aspose-words-full-code-exam/) | Aspose.Words를 이용해 워드 문서 생성 버튼을 구현하고 전체 코드를 확인하는 단계별 가이드 |
 | [Aspose.Words를 사용해 Word 문서에 명령 버튼 추가 – 완전 가이드](./add-command-button-to-word-document-with-aspose-words-comple/) | Aspose.Words for .NET을 사용하여 Word 문서에 명령 버튼을 삽입하고 구성하는 방법을 단계별로 안내합니다. |
+| [ActiveX 버튼으로 프로그래밍 방식 Word 문서 만들기](./create-word-document-programmatically-with-an-activex-button/) | Aspose.Words for .NET을 사용하여 ActiveX 버튼을 포함한 Word 문서를 프로그래밍 방식으로 생성하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

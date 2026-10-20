@@ -38,7 +38,7 @@
 | [Δημιουργία εγγράφου Word με σκιασμένο ορθογώνιο – Οδηγός βήμα‑βήμα](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Μάθετε πώς να δημιουργήσετε έγγραφο Word με σκιασμένο ορθογώνιο σχήμα, βήμα προς βήμα, χρησιμοποιώντας Aspose.Words για .NET. |
 | [Δημιουργία ορθογωνίου σχήματος στο Word με C# – Οδηγός βήμα‑βήμα](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε ένα ορθογώνιο σχήμα σε έγγραφο Word χρησιμοποιώντας C# με αυτόν τον αναλυτικό οδηγό. |
 | [Aspose.Words Tutorial Σκιά Σχήματος – Προσθήκη Σκιάς σε Σχήμα Word σε C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Μάθετε πώς να προσθέσετε σκιά σε σχήμα Word χρησιμοποιώντας το Aspose.Words για .NET με C#. |
-| [Δημιουργία κενής εγγράφου Word με σχήμα ορθογωνίου με σκιά – Οδηγός βήμα‑προς‑βήμα](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word με σχήμα ορθογωνίου με σκιά χρησιμοποιώντας το Aspose.Words για .NET, βήμα‑προς‑βήμα. |
+| [Δημιουργία κενής εγγράφου Word με σχήμα ορθογωνίου με σκιά – Οδηγός βήμα‑προς‑βήμα](./create-blank-word-document-with-shadowed-rectangle-ste/) | Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word με σχήμα ορθογωνίου με σκιά χρησιμοποιώντας το Aspose.Words για .NET, βήμα‑προς‑βήμα. |
 | [Προσθήκη σκιάς σε σχήμα σε C# – Πλήρης οδηγός για εφαρμογή εφέ σκιάς](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Μάθετε πώς να προσθέσετε σκιά σε σχήματα σε έγγραφα Word χρησιμοποιώντας Aspose.Words για .NET με C#. |
 | [Πώς να επεξεργαστείτε τη σκιά σχήματος σε C# με Aspose.Words – Οδηγός βήμα προς βήμα](./how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/) | Μάθετε πώς να επεξεργαστείτε τη σκιά ενός σχήματος σε έγγραφα Word χρησιμοποιώντας Aspose.Words για .NET με οδηγίες βήμα προς βήμα. |
 | [Προσθήκη σκιάς σε σχήμα – Οδηγός βήμα προς βήμα για προγραμματιστές C#](./add-shadow-to-shape-step-by-step-guide-for-c-developers/) | Μάθετε πώς να προσθέσετε σκιά σε σχήματα σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET. |
@@ -68,14 +68,13 @@
 | [Σχεδίαση ορθογωνίου στο Word – Προσθήκη Σχημάτων στο Word με Aspose](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Μάθετε πώς να σχεδιάσετε ένα ορθογώνιο σχήμα σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET. |
 | [Δημιουργία κενής εγγράφου Word με κρυφό σχήμα έλλειψης – Πλήρης οδηγός C#](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word με κρυφό σχήμα έλλειψης χρησιμοποιώντας το Aspose.Words για .NET σε C#. |
 | [Αποθήκευση αρχείου docx με ομαδοποιημένα σχήματα στο Word χρησιμοποιώντας C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Μάθετε πώς να αποθηκεύετε αρχεία docx με σχήματα ομάδας στο Word χρησιμοποιώντας Aspose.Words για .NET και C#. |
+| [Πώς να δημιουργήσετε ένα κενό έγγραφο Word και να ομαδοποιήσετε σχήματα στο Word χρησιμοποιώντας το Aspose.Words](./how-to-create-a-blank-word-document-and-group-shapes-in-word/) | Μάθετε πώς να δημιουργήσετε κενό έγγραφο Word και να ομαδοποιήσετε σχήματα με Aspose.Words για .NET. |
 | [Πώς να κρύψετε σχήμα σε Word χρησιμοποιώντας C# – οδηγός βήμα‑βήμα](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Μάθετε πώς να κρύψετε ένα σχήμα σε έγγραφο Word με C# χρησιμοποιώντας το Aspose.Words για .NET, βήμα‑βήμα. |
-
+| [Απόκρυψη/Εμφάνιση σχήματος με τη νέα ιδιότητα `Hidden` στο Aspose.Words για C#](./hide-show-a-shape-with-the-new-hidden-prop-in-aspose-words-f/) | Μάθετε πώς να κρύψετε ή να εμφανίσετε σχήματα χρησιμοποιώντας τη νέα ιδιότητα Hidden στο Aspose.Words για C#. |
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

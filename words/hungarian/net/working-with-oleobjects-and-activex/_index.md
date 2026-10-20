@@ -30,7 +30,7 @@ Ezek az oktatóanyagok gyakorlatias, lépésről lépésre bemutatják a szöveg
 | [Active XControl tulajdonságok beolvasása Word fájlból](./read-active-xcontrol-properties/) | Tanulja meg, hogyan olvashat ActiveX-vezérlők tulajdonságait Word-fájlokból az Aspose.Words for .NET segítségével egy lépésről szóló útmutatóban. Fejlessze dokumentumautomatizálási készségeit. |
 | [Word dokumentum létrehozása ActiveX gombbal – C# útmutató](./create-word-document-with-activex-button-c-guide/) | Tanulja meg, hogyan hozhat létre Word dokumentumot ActiveX gombbal az Aspose.Words for .NET C# használatával. |
 | [Word dokumentum gomb létrehozása Aspose.Words használatával – Teljes kódpélda](./create-word-document-button-with-aspose-words-full-code-exam/) | Ismerje meg, hogyan hozhat létre egy gombot, amely Word dokumentumot generál az Aspose.Words könyvtárral, teljes kódrészlettel. |
-
+| [Word dokumentum létrehozása programozott módon ActiveX gombbal](./create-word-document-programmatically-with-an-activex-button/) | Tanulja meg, hogyan hozhat létre Word dokumentumot programozott módon ActiveX gombbal az Aspose.Words for .NET segítségével. |
 | [Parancsgomb hozzáadása Word dokumentumhoz az Aspose.Words segítségével – Teljes útmutató](./add-command-button-to-word-document-with-aspose-words-comple/) | Tanulja meg, hogyan adhat hozzá parancsgombot a Word dokumentumokhoz az Aspose.Words for .NET használatával ebben a részletes útmutatóban. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -40,7 +40,7 @@ Usando o Aspose.Words para .NET e seguindo estes tutoriais, você dominará a ma
 | [Criar documento Word com retângulo sombreado – Guia passo a passo](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Aprenda a criar um documento Word com um retângulo sombreado usando o Aspose.Words para .NET neste guia passo a passo. |
 | [Criar forma retangular no Word usando C# – Guia passo a passo](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Aprenda a criar uma forma retangular em documentos do Word usando C# com este guia passo a passo. |
 | [Tutorial de Sombra de Forma do Aspose.Words – Adicionar Sombra a Forma do Word em C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Aprenda a adicionar sombra a formas em documentos do Word usando o Aspose.Words para .NET com este tutorial passo a passo. |
-| [Criar documento Word em branco com forma de retângulo sombreada – Guia passo a passo](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Aprenda a criar um documento Word em branco com uma forma de retângulo sombreada usando o Aspose.Words para .NET. |
+| [Criar documento Word em branco com forma de retângulo sombreada – Guia passo a passo](./create-blank-word-document-with-shadowed-rectangle-ste/) | Aprenda a criar um documento Word em branco com uma forma de retângulo sombreada usando o Aspose.Words para .NET. |
 | [Adicionar sombra a forma em C# – Guia completo para aplicar efeito de sombra](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Aprenda a aplicar sombras a formas em documentos Word usando Aspose.Words para .NET com este guia passo a passo. |
 | [Como editar sombra de forma em C# com Aspose.Words – Guia passo a passo](./how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/) | Aprenda a editar a sombra de formas em documentos do Word usando o Aspose.Words para .NET com este guia passo a passo. |
 | [Adicionar sombra à forma – Guia passo a passo para desenvolvedores C#](./add-shadow-to-shape-step-by-step-guide-for-c-developers/) | Aprenda a adicionar sombra a formas em documentos do Word usando Aspose.Words para .NET com este guia passo a passo. |
@@ -67,6 +67,8 @@ Usando o Aspose.Words para .NET e seguindo estes tutoriais, você dominará a ma
 | [Desenhar retângulo no Word – Adicionar formas no Word com Aspose](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Aprenda a desenhar um retângulo e adicionar formas em documentos do Word usando o Aspose.Words para .NET. |
 | [Criar um Documento Word em Branco com uma Forma Elipse Oculta – Guia Completo em C#](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Aprenda a criar um documento Word em branco com uma forma elipse oculta usando Aspose.Words para .NET em C#. |
 | [Como ocultar forma no Word usando C# – guia passo a passo](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Aprenda a ocultar formas em documentos do Word usando C# com este tutorial passo a passo. |
+| [Como criar um documento Word em branco e agrupar formas no Word usando Aspose.Words](./how-to-create-a-blank-word-document-and-group-shapes-in-word/) | Aprenda a criar um documento Word em branco e agrupar formas usando Aspose.Words para .NET. |
+| [Ocultar/Exibir uma forma com a nova propriedade `Hidden` no Aspose.Words para C#](./hide-show-a-shape-with-the-new-hidden-prop-in-aspose-words-f/) | Aprenda a usar a nova propriedade Hidden para ocultar ou exibir formas em documentos Word usando Aspose.Words para C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

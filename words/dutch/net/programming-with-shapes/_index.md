@@ -50,9 +50,9 @@ Door Aspose.Words voor .NET te gebruiken en deze tutorials te volgen, krijgt u d
 | [Word-document maken met een rechthoekige vorm en schaduw – Stapsgewijze handleiding](./create-word-document-with-a-rectangle-shape-and-shadow-step/) | Leer hoe u een rechthoekige vorm met schaduw toevoegt aan een Word‑document met Aspose.Words voor .NET. |
 | [Rechthoekvorm met schaduw maken in Word met Aspose.Words](./create-rectangle-shape-with-shadow-in-word-using-aspose-word/) | Leer hoe u een rechthoekige vorm met schaduw toevoegt en aanpast in een Word‑document met Aspose.Words voor .NET. |
 | [Schaduw toevoegen aan vorm in Word met Aspose.Words – Stapsgewijs](./add-shadow-to-shape-in-word-with-aspose-words-step-by-step/) | Leer hoe u een schaduw toevoegt aan een vorm in Word‑documenten met Aspose.Words voor .NET met deze stapsgewijze handleiding. |
-| [Schaduw toevoegen aan vorm in C# – Complete Aspose.Words-gids](./add-shadow-to-shape-in-c-complete-aspose-words-guide/) | Leer hoe u schaduw toevoegt aan vormen in Word-documenten met Aspose.Words voor .NET in C#. |
+| [Schaduw toevoegen aan vorm in C# – Complete Aspose.Words-gids](./add-shadow-to-shape-in-c-complete-aspose-words-guide/) | Leer hoe u schaduw toevoegt aan vormen in Word‑documenten met Aspose.Words voor .NET in C#. |
 | [Word-document maken – Hoe een rechthoekvorm en schaduw toe te voegen](./create-word-document-how-to-add-rectangle-shape-and-shadow/) | Leer hoe u een rechthoekvorm met schaduw toevoegt aan een Word‑document met Aspose.Words voor .NET. |
-| [Rechthoekvorm met schaduw maken in C# met Aspose.Words](./create-rectangle-shape-with-shadow-in-c-using-aspose-words/) | Leer hoe u een rechthoekvorm met schaduw toevoegt aan een Word-document met Aspose.Words voor .NET in C#. |
+| [Rechthoekvorm met schaduw maken in C# met Aspose.Words](./create-rectangle-shape-with-shadow-in-c-using-aspose-words/) | Leer hoe u een rechthoekvorm met schaduw toevoegt aan een Word‑document met Aspose.Words voor .NET in C#. |
 | [Word‑document met schaduwrechthoek maken – Complete gids](./create-word-document-with-shadowed-rectangle-complete-guide/) | Leer hoe u een Word‑document maakt met een schaduwrechthoek met Aspose.Words voor .NET. |
 | [Word-document maken – Rechthoekvorm en schaduw invoegen in C#](./create-word-document-insert-rectangle-shape-shadow-in-c/) | Leer hoe u een Word‑document maakt en een rechthoek met schaduw toevoegt met Aspose.Words voor .NET in C#. |
 | [Hoe schaduw toe te voegen aan Word‑vormen in C# – Complete gids](./how-to-add-shadow-to-word-shapes-in-c-complete-guide/) | Leer hoe u een schaduw toevoegt aan Word‑vormen in C# met Aspose.Words voor .NET. |
@@ -65,9 +65,12 @@ Door Aspose.Words voor .NET te gebruiken en deze tutorials te volgen, krijgt u d
 | [Rechthoekvorm maken en schaduw toevoegen in C#](./create-rectangle-shape-and-how-to-add-shadow-in-c/) | Leer hoe u een rechthoekvorm maakt en er een schaduw aan toevoegt in Word-documenten met Aspose.Words voor .NET. |
 | [Hoe schaduw te verplaatsen in Aspose.Words – Complete C#-gids](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | Leer hoe u de schaduw van vormen in Word-documenten verplaatst met Aspose.Words en C#. |
 | [Hoe vorm verbergen in Word met C# – Stapsgewijze handleiding](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Leer hoe u een vorm verbergt in een Word‑document met Aspose.Words voor .NET en C# met deze stapsgewijze handleiding. |
+| [Hoe vorm verbergen in Word met C# – stapsgewijze handleiding](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) |  |
+| [Een vorm verbergen/weergeven met de nieuwe `Hidden`‑eigenschap in Aspose.Words voor C#](./hide-show-a-shape-with-the-new-hidden-prop-in-aspose-words-f/) | Leer hoe u een vorm kunt verbergen of weergeven met de nieuwe Hidden‑eigenschap in Aspose.Words voor C#. |
 | [Rechthoek tekenen in Word – Voeg vormen toe in Word met Aspose](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Leer hoe u een rechthoek toevoegt en aanpast in een Word‑document met Aspose.Words voor .NET. |
 | [Maak een leeg Word‑document met een verborgen ellipsvorm – volledige C#‑handleiding](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Leer hoe u een leeg Word‑document maakt en een verborgen ellipsvorm toevoegt met Aspose.Words voor .NET in deze stapsgewijze handleiding. |
 | [DOCX-bestand opslaan met gegroepeerde vormen in Word met C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Leer hoe u een DOCX-bestand opslaat met gegroepeerde vormen in Word met C#. |
+| [Leeg Word‑document maken en vormen groeperen in Word met Aspose.Words](./how-to-create-a-blank-word-document-and-group-shapes-in-word/) | Leer hoe u een leeg Word‑document maakt en vormen groepeert met Aspose.Words voor .NET. |
 | [Hoe vorm verbergen in Word met C# – stapsgewijze handleiding](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

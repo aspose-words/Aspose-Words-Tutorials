@@ -37,6 +37,7 @@
 - [หลายส่วน](./multi-section/) เรียนรู้วิธีการทำงานกับแท็กเอกสารที่มีโครงสร้างหลายส่วนใน Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนแบบทีละขั้นตอนนี้ เหาะอย่างยิ่งสำหรับการจัดการเอกสารแบบไดนามิก -
 | [ช่วงแท็กเอกสารที่มีโครงสร้าง เริ่มต้นการแมป XML](./structured-document-tag-range-start-xml-mapping/) | เรียนรู้วิธีการผูกข้อมูล XML แบบไดนามิกกับแท็กเอกสารที่มีโครงสร้างใน Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเรา |
 - [ตั้งค่าข้อความตัวแทนใน Aspose.Words – คู่มือ C# ครบถ้วน](./set-placeholder-text-in-aspose-words-complete-c-guide/) | เรียนรู้วิธีตั้งค่าข้อความตัวแทนในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET ผ่านตัวอย่างโค้ด C# อย่างละเอียด
+- [ตั้งค่าข้อความตัวแทนในเอกสาร Word ด้วย C#](./set-placeholder-text-in-a-word-document-using-c/) | เรียนรู้วิธีตั้งค่าข้อความตัวแทนในเอกสาร Word ด้วย C# ผ่าน Aspose.Words
 - [วิธีเพิ่มการควบคุมเนื้อหาและสร้างเอกสาร Word ด้วย Aspose – คู่มือครบวงจร](./how-to-add-content-control-and-create-word-document-with-asp/) | เรียนรู้ขั้นตอนการเพิ่ม Content Control และสร้างไฟล์ Word ด้วย Aspose.Words สำหรับ .NET อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}

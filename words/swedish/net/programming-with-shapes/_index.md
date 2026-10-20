@@ -45,7 +45,6 @@ Genom att använda Aspose.Words för .NET och följa dessa handledningar kommer 
 | [Aspose.Words-formskugga handledning – Lägg till en skugga på Word-form i C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Lär dig hur du lägger till en skugga på former i Word-dokument med Aspose.Words för .NET i C# med denna steg-för-steg-guide. |
 | [Skapa Word-dokument – Infoga rektangelform och skugga i C#](./create-word-document-insert-rectangle-shape-shadow-in-c/) | Lär dig hur du skapar ett Word-dokument och lägger till en rektangelform med skugga i C# med Aspose.Words för .NET. |
 | [Hur du lägger till en skugga på Word-former i C# – Komplett guide](./how-to-add-shadow-to-word-shapes-in-c-complete-guide/) | Lär dig hur du lägger till en skugga på Word-former i C# med Aspose.Words för .NET i denna kompletta guide. |
-
 | [Skapa tomt Word-dokument med skuggad rektangelform – steg‑för‑steg‑guide](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Lär dig hur du skapar ett tomt Word-dokument och lägger till en rektangelform med skugga med Aspose.Words för .NET. |
 | [Lägg till skugga på form i C# – Komplett guide för att tillämpa skuggeffekt](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Lär dig hur du lägger till skuggeffekter på former i Word-dokument med Aspose.Words för .NET i denna steg‑för‑steg‑guide. |
 | [Redigera formskugga i C# med Aspose.Words – Steg‑för‑steg‑guide](./how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/) | Lär dig hur du redigerar skuggan för former i Word-dokument med Aspose.Words för .NET i denna steg‑för‑steg‑guide. |
@@ -65,17 +64,19 @@ Genom att använda Aspose.Words för .NET och följa dessa handledningar kommer 
 | [Skapa rektangelform och hur du lägger till skugga i C#](./create-rectangle-shape-and-how-to-add-shadow-in-c/) | Lär dig hur du skapar en rektangelform och lägger till skugga i Word-dokument med Aspose.Words för .NET i C#. |
 | [Hur du flyttar skugga i Aspose.Words – Komplett C#‑guide](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | Lär dig hur du flyttar skuggan på former i Word-dokument med Aspose.Words för .NET i en komplett C#‑guide. |
 | [Gruppformer i Word med Aspose.Words – Komplett C#-guide](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Lär dig hur du skapar och hanterar gruppformer i Word-dokument med Aspose.Words för .NET i C# i denna kompletta guide. |
-| [Hur man döljer form i Word med C# – Steg‑för‑steg‑guide](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Lär dig hur du döljer en form i ett Word‑dokument med Aspose.Words för .NET i C# med denna steg‑för‑steg‑guide. |
+| [Hur du döljer form i Word med C# – Steg‑för‑steg‑guide](./hide-shape-in-word-using-c-step-by-step-guide/) | Lär dig hur du döljer en form i ett Word‑dokument med Aspose.Words för .NET och C# i en tydlig steg‑för‑steg‑guide. |
+| [Hur du döljer form i Word med C# – Steg‑för‑steg‑guide](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Lär dig hur du döljer en form i ett Word‑dokument med Aspose.Words för .NET i C# med denna steg‑för‑steg‑guide. |
+| [Dölj/visa en form med den nya `Hidden`‑egenskapen i Aspose.Words för C#](./hide-show-a-shape-with-the-new-hidden-prop-in-aspose-words-f/) | Lär dig hur du döljer eller visar en form med den nya Hidden‑egenskapen i Aspose.Words för C#. |
+| [Hur man skapar ett tomt Word-dokument och grupperar former i Word med Aspose.Words](./how-to-create-a-blank-word-document-and-group-shapes-in-word/) | Lär dig hur du skapar ett tomt Word-dokument och grupperar former med Aspose.Words för .NET. |
 | [Rita rektangel i Word – Lägg till former i Word med Aspose](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Lär dig hur du ritar en rektangel i ett Word-dokument med Aspose.Words för .NET. |
 | [Skapa ett tomt Word-dokument med en dold ellipsform – Fullständig C#‑guide](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Lär dig hur du skapar ett tomt Word-dokument och lägger till en dold ellipsform med Aspose.Words för .NET i C#. |
-| [Dölj form i Word med C# – steg‑för‑steg‑guide](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Lär dig hur du döljer en form i ett Word‑dokument med Aspose.Words för .NET och C# i en tydlig steg‑för‑steg‑guide. |
-
+| [Dölj form i Word med C# – steg‑för‑steg‑guide](./hide-shape-in-word-using-c-step-by-step-guide/) | Lär dig hur du döljer en form i ett Word‑dokument med Aspose.Words för .NET och C# i en tydlig steg‑för‑steg‑guide. |
+| [Hur du döljer form i Word med C# – Steg‑för‑steg‑guide](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Lär dig hur du döljer en form i ett Word‑dokument med Aspose.Words för .NET i C# med denna steg‑för‑steg‑guide. |
+| [Hur du döljer form i Word med C# – Steg‑för‑steg‑guide](./hide-shape-in-word-using-c-step-by-step-guide/) | Lär dig hur du döljer en form i ett Word‑dokument med Aspose.Words för .NET och C# i en tydlig steg‑för‑steg‑guide. |
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

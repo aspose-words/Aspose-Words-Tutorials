@@ -35,6 +35,7 @@ En utilisant Aspose.Words pour .NET et en suivant ces tutoriels, vous maîtriser
 | [Détecter la forme d'une œuvre d'art intelligente](./detect-smart-art-shape/) | Découvrez comment détecter les formes SmartArt dans vos documents Word avec Aspose.Words pour .NET grâce à ce guide complet. Idéal pour automatiser votre flux de travail documentaire. |
 | [Mettre à jour Smart Art Drawing](./update-smart-art-drawing/) | Apprenez à mettre à jour vos dessins Smart Art dans des documents Word avec Aspose.Words pour .NET grâce à ce guide étape par étape. Assurez-vous que vos visuels sont toujours précis. |
 | [Créer un document Word vierge avec Aspose.Words – Guide étape par étape](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | Apprenez à créer un document Word vierge avec Aspose.Words grâce à ce guide détaillé étape par étape. |
+| [Créer un document Word vierge et regrouper des formes dans Word avec Aspose.Words](./how-to-create-a-blank-word-document-and-group-shapes-in-word/) | Apprenez à créer un document Word vierge et à regrouper des formes à l'aide d'Aspose.Words pour .NET. |
 | [Créer une forme rectangulaire dans Word avec Aspose.Words – Guide étape par étape](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Apprenez à créer une forme rectangulaire dans un document Word avec Aspose.Words grâce à ce guide détaillé étape par étape. |
 | [Ajouter un effet d'ombre aux formes Word – Guide complet C#](./add-shadow-effect-to-word-shapes-complete-c-guide/) | Apprenez à ajouter un effet d'ombre aux formes dans des documents Word avec Aspose.Words pour .NET grâce à ce guide complet étape par étape. |
 | [Créer un document Word avec un rectangle ombré – Guide étape par étape](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Apprenez à créer un document Word contenant un rectangle ombré avec Aspose.Words pour .NET grâce à ce guide détaillé étape par étape. |
@@ -67,6 +68,7 @@ En utilisant Aspose.Words pour .NET et en suivant ces tutoriels, vous maîtriser
 | [Dessiner un rectangle dans Word – Ajouter des formes dans Word avec Aspose](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Apprenez à dessiner un rectangle et ajouter des formes dans un document Word avec Aspose.Words pour .NET grâce à ce guide étape par étape. |
 | [Créer un document Word vierge avec une forme ellipse cachée – Guide complet C#](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Apprenez à créer un document Word vierge contenant une forme ellipse cachée avec Aspose.Words pour .NET en C#. |
 | [Comment masquer une forme dans Word en C# – guide étape par étape](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Apprenez à masquer une forme dans un document Word avec Aspose.Words pour .NET en C# grâce à ce guide détaillé. |
+| [Masquer/Afficher une forme avec la nouvelle propriété `Hidden` dans Aspose.Words pour C#](./hide-show-a-shape-with-the-new-hidden-prop-in-aspose-words-f/) | Apprenez à masquer ou afficher des formes en utilisant la nouvelle propriété Hidden d'Aspose.Words pour C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

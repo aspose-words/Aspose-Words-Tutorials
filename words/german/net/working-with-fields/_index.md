@@ -46,7 +46,7 @@ Dies ist eine umfassende Ressource zum Erlernen der Arbeit mit Feldern in Word-D
 | [Felder im Dokument konvertieren](./convert-fields-in-document/) | Erfahren Sie in dieser Anleitung, wie Sie Felder in Word-Dokumenten mit Aspose.Words für .NET konvertieren. Folgen Sie unserem Tutorial, um Felder in Ihren Dokumenten effizient zu verwalten und zu transformieren. |
 | [Felder im Textkörper konvertieren](./convert-fields-in-body/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Seitenfelder in Text im Hauptteil eines Word-Dokuments konvertieren. |
 | [Gebietsschema ändern](./change-locale/) Erfahren Sie in dieser Anleitung, wie Sie das Gebietsschema in Word-Dokumenten mit Aspose.Words für .NET ändern. Ideal für die Betreuung internationaler Kunden und Projekte. |
-
+| [Wie man eine Seriendruckvorlage mit Aspose.Words in C# erstellt](./how-to-create-mail-merge-template-with-aspose-words-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET eine Seriendruckvorlage in C# erstellen und anpassen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

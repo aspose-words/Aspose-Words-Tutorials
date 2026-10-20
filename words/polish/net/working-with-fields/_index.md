@@ -46,7 +46,7 @@ To kompleksowe źródło wiedzy na temat pracy z polami w dokumentach Worda przy
 | [Konwertuj pola w dokumencie](./convert-fields-in-document/) | Dowiedz się, jak konwertować pola w dokumentach Word za pomocą Aspose.Words dla .NET z tego przewodnika. Skorzystaj z naszego samouczka, aby skutecznie zarządzać polami w dokumentach i je przekształcać. |
 | [Konwertuj pola w treści](./convert-fields-in-body/) | Dowiedz się, jak używać Aspose.Words for .NET do konwersji pól strony na tekst w treści dokumentu Word. |
 | [Zmień ustawienia regionalne](./change-locale/) Dowiedz się, jak zmienić ustawienia regionalne w dokumentach Worda za pomocą Aspose.Words dla .NET z tego przewodnika. Idealne do obsługi międzynarodowych klientów i projektów. |
-
+| [Jak utworzyć szablon korespondencji seryjnej przy użyciu Aspose.Words w C#](./how-to-create-mail-merge-template-with-aspose-words-in-c/) | Krok po kroku pokażemy, jak stworzyć szablon korespondencji seryjnej w C# przy użyciu Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

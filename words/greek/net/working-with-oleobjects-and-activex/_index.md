@@ -31,6 +31,7 @@
 | [Δημιουργία εγγράφου Word με κουμπί ActiveX – Οδηγός C#](./create-word-document-with-activex-button-c-guide/) | Μάθετε πώς να δημιουργήσετε έγγραφο Word με κουμπί ActiveX χρησιμοποιώντας C# και Aspose.Words για .NET. |
 | [Δημιουργία κουμπιού εγγράφου Word με Aspose.Words – Πλήρες Παράδειγμα Κώδικα](./create-word-document-button-with-aspose-words-full-code-exam/) | Μάθετε πώς να δημιουργήσετε ένα κουμπί που παράγει έγγραφο Word χρησιμοποιώντας το Aspose.Words, με πλήρες παράδειγμα κώδικα. |
 | [Προσθήκη κουμπιού εντολής σε έγγραφο Word με το Aspose.Words – Πλήρης Οδηγός](./add-command-button-to-word-document-with-aspose-words-comple/) | Μάθετε πώς να προσθέσετε κουμπί εντολής σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET με αυτόν τον πλήρη οδηγό. |
+| [Δημιουργία εγγράφου Word προγραμματιστικά με κουμπί ActiveX](./create-word-document-programmatically-with-an-activex-button/) | Μάθετε πώς να δημιουργήσετε προγραμματιστικά ένα έγγραφο Word με κουμπί ActiveX χρησιμοποιώντας Aspose.Words για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

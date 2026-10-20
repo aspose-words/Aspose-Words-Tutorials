@@ -38,6 +38,7 @@ Toto je komplexní zdroj pro výuku práce s poli v dokumentech Word pomocí kni
 | [Vložit pole ASKField bez nástroje pro tvorbu dokumentů](./insert-askfield-with-out-document-builder/) | Naučte se, jak vložit pole ASK bez použití nástroje Document Builder v Aspose.Words pro .NET. Postupujte podle tohoto návodu a dynamicky vylepšete své dokumenty Word. |
 | [Vložit pole pro zálohování bez nástroje pro tvorbu dokumentů](./insert-advance-field-with-out-document-builder/) | Naučte se, jak vložit pole pro předběžné úpravy bez použití nástroje DocumentBuilder v Aspose.Words pro .NET. Postupujte podle tohoto návodu a zlepšete si své dovednosti v oblasti zpracování dokumentů. |
 | [Získání názvů polí hromadné korespondence](./get-mail-merge-field-names/) | Naučte se, jak extrahovat názvy polí hromadné korespondence z dokumentu Word pomocí Aspose.Words pro .NET s tímto podrobným návodem krok za krokem. |
+| [Jak vytvořit šablonu hromadné korespondence pomocí Aspose.Words v C#](./how-to-create-mail-merge-template-with-aspose-words-in-c/) | Naučte se, jak vytvořit šablonu hromadné korespondence v C# pomocí knihovny Aspose.Words. |
 | [Smazat pole](./delete-fields/) | Podrobný návod k odstranění slučovacích polí v dokumentech Word pomocí Aspose.Words pro .NET |
 | [Kultura aktualizace pole](./field-update-culture/) | Naučte se, jak konfigurovat kulturu aktualizace polí v dokumentech Word pomocí Aspose.Words pro .NET. Podrobný návod s příklady kódu a tipy pro přesné aktualizace. |
 | [Výsledky zobrazení pole](./field-display-results/) Naučte se, jak aktualizovat a zobrazovat výsledky polí v dokumentech Word pomocí Aspose.Words pro .NET s tímto podrobným návodem. Ideální pro automatizaci úloh s dokumenty. |
@@ -45,7 +46,7 @@ Toto je komplexní zdroj pro výuku práce s poli v dokumentech Word pomocí kni
 | [Převést pole v odstavci](./convert-fields-in-paragraph/) | Naučte se, jak převést pole IF na prostý text v dokumentech Word pomocí Aspose.Words pro .NET s tímto podrobným návodem krok za krokem. |
 | [Převést pole v dokumentu](./convert-fields-in-document/) | Naučte se, jak převádět pole v dokumentech Word pomocí Aspose.Words pro .NET v tomto průvodci. Postupujte podle našeho tutoriálu a efektivně spravujte a transformujte pole ve svých dokumentech. |
 | [Převést pole v těle](./convert-fields-in-body/) | Naučte se, jak pomocí Aspose.Words pro .NET převést pole Stránky na text v těle dokumentu Word. |
-| [Změnit národní prostředí](./change-locale/) Naučte se v tomto průvodci, jak změnit národní prostředí v dokumentech Word pomocí Aspose.Words pro .NET. Ideální pro práci s mezinárodními klienty a projekty. |
+| [Změnit národní prostředí](./change-locale/) Naučte se v tomto průvodci, jak změnit národní prostředí v dokumentech Word pomocí Aspose.Words pro .NET. Ideální pro práci s mezinárodními klienty a projektech. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

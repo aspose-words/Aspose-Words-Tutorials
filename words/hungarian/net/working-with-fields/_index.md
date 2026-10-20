@@ -46,7 +46,7 @@ Ez egy átfogó forrásanyag, amely segít elsajátítani a Word-dokumentumok me
 | [Mezők konvertálása a dokumentumban](./convert-fields-in-document/) | Tanulja meg, hogyan konvertálhat mezőket Word-dokumentumokban az Aspose.Words for .NET segítségével ebből az útmutatóból. Kövesse oktatóanyagunkat a dokumentumok mezőinek hatékony kezeléséhez és átalakításához. |
 | [Mezők konvertálása a törzsben](./convert-fields-in-body/) | Ismerje meg, hogyan használható az Aspose.Words for .NET az oldalmezők szöveggé alakításához egy Word-dokumentum törzsében. |
 | [Nyelv módosítása](./change-locale/) Tanulja meg, hogyan módosíthatja a területi beállításokat Word-dokumentumokban az Aspose.Words for .NET használatával ebből az útmutatóból. Tökéletes nemzetközi ügyfelek és projektek kezeléséhez. |
-
+| [Mail merge sablon létrehozása C#-ban](./how-to-create-mail-merge-template-with-aspose-words-in-c/) | Ismerje meg, hogyan hozhat létre mail merge sablont C#-ban az Aspose.Words segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

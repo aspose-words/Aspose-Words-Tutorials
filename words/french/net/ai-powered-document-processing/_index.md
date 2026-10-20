@@ -17,23 +17,23 @@
 
 ## Introduction
 
-En matière de traitement de documents, Aspose.Words pour .NET est une véritable mine d'or qui vous permettra de passer à la vitesse supérieure. Mais par où commencer ? Je vous rassure : parcourir ces tutoriels est un jeu d'enfant, même sans être un expert en informatique. Que vous souhaitiez résumer des documents, améliorer la mise en forme ou automatiser des tâches, nos tutoriels proposent des guides étape par étape, conçus sur mesure.
+En matière de traitement de documents, Aspose.Words pour .NET est une véritable mine d'or qui vous permettra de passer à la vitesse supérieure. Mais par où commencer ? Je vous rassure : parcourir ces tutoriels est un jeu d'enfant, même sans être un expert en informatique. Que vous souhaitiez résumer des documents, améliorer la mise en forme ou automatiser des tâches, nos tutoriels proposent des guides étape par étape, conçus sur mesure.
 
 ## Premiers pas avec les modèles d'IA
 
-Imaginez pouvoir résumer des documents en quelques clics ! Génial, non ? Commençons par le [Travailler avec un modèle d'IA](./working-with-ai-model/) Tutoriel : vous apprendrez à intégrer l'IA pour synthétiser efficacement vos documents grâce à Aspose.Words. C'est comme si un assistant personnel parcourait des montagnes de texte, identifiait l'essentiel et le condensait pour vous. Ce tutoriel propose une feuille de route simple pour mettre en œuvre efficacement des modèles d'IA. 
+Imaginez pouvoir résumer des documents en quelques clics ! Génial, non ? Commençons par le [Travailler avec un modèle d'IA](./working-with-ai-model/) Tutoriel : vous apprendrez à intégrer l'IA pour synthétiser efficacement vos documents grâce à Aspose.Words. C'est comme si un assistant personnel parcourait des montagnes de texte, identifiait l'essentiel et le condensait pour vous. Ce tutoriel propose une feuille de route simple pour mettre en œuvre efficacement des modèles d'IA. 
 
 ## Améliorez votre jeu avec Google AI
 
-Ensuite, nous avons le [Travailler avec le modèle d'IA de Google](./working-with-google-ai-model/) Tutoriel. Et voilà : l'IA de Google peut faire des merveilles en association avec Aspose.Words. Dans ce tutoriel, vous découvrirez comment exploiter la puissante IA de Google pour créer des résumés concis en toute simplicité. Imaginez : vous avez un long rapport à lire, mais avec un résumé généré en quelques secondes, vous pouvez vous concentrer sur vos décisions plutôt que de vous plonger dans d'innombrables pages. C'est l'efficacité à son paroxysme et une solution révolutionnaire pour les professionnels pressés !
+Ensuite, nous avons le [Travailler avec le modèle d'IA de Google](./working-with-google-ai-model/) Tutoriel. Et voilà : l'IA de Google peut faire des merveilles en association avec Aspose.Words. Dans ce tutoriel, vous découvrirez comment exploiter la puissante IA de Google pour créer des résumés concis en toute simplicité. Imaginez : vous avez un long rapport à lire, mais avec un résumé généré en quelques secondes, vous pouvez vous concentrer sur vos décisions plutôt que de vous plonger dans d'innombrables pages. C'est l'efficacité à son paroxysme et une solution révolutionnaire pour les professionnels pressés !
 
 ## OpenAI pour la synthèse de documents
 
-Avez-vous déjà rêvé de transformer vos longs documents en résumés courts et digestes ? [Travailler avec un modèle d'IA ouvert](./working-with-open-ai-model/) Ce tutoriel est la solution ! Il vous ouvre les portes de l'utilisation pratique des modèles OpenAI pour les tâches de synthèse. Considérez-le comme votre arme secrète dans le traitement de documents : il vous fera gagner du temps et vous évitera de manquer des informations cruciales.
+Avez-vous déjà rêvé de transformer vos longs documents en résumés courts et digestes ? [Travailler avec un modèle d'IA ouvert](./working-with-open-ai-model/) Ce tutoriel est la solution ! Il vous ouvre les portes de l'utilisation pratique des modèles OpenAI pour les tâches de synthèse. Considérez-le comme votre arme secrète dans le traitement de documents : il vous fera gagner du temps et vous évitera de manquer des informations cruciales.
 
 ## Maîtriser les techniques de résumé
 
-Enfin, n'oubliez pas de consulter notre [Travailler avec les options de résumé](./working-with-summarize-options/) Tutoriel : nous approfondissons les différentes techniques de synthèse d'Aspose.Words. Chaque méthode est soigneusement conçue pour vous aider à optimiser votre flux de travail et à transformer des documents complexes en informations exploitables en un rien de temps. 
+Enfin, n'oubliez pas de consulter notre [Travailler avec les options de résumé](./working-with-summarize-options/) Tutoriel : nous approfondissons les différentes techniques de synthèse d'Aspose.Words. Chaque méthode est soigneusement conçue pour vous aider à optimiser votre flux de travail et à transformer des documents complexes en informations exploitables en un rien de temps. 
 
  ## Tutoriels sur le traitement de documents alimenté par l'IA
 | Titre | Description |
@@ -74,9 +74,11 @@ Enfin, n'oubliez pas de consulter notre [Travailler avec les options de résumé
 | [Créer un résumé de document avec Aspose.Words & OpenAI](./create-document-summary-with-aspose-words-openai/) | Apprenez à générer des résumés de documents Word en utilisant Aspose.Words et l'API OpenAI en quelques étapes simples. |
 | [Traduire un docx en français avec Aspose.Words et l'API Google](./translate-docx-to-french-with-aspose-words-and-google-api/) | Apprenez à traduire des documents Word en français en utilisant Aspose.Words et l'API Google en quelques étapes simples. |
 | [Traduire un docx en français avec Aspose.Words.AI – Guide complet](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Apprenez à traduire automatiquement des fichiers DOCX en français à l'aide d'Aspose.Words.AI grâce à ce guide complet. |
+| [Comment traduire un docx en français avec Aspose.Words.AI – guide étape par étape](./how-to-translate-docx-to-french-with-aspose-words-ai-step-by/) | Apprenez à traduire un fichier DOCX en français avec Aspose.Words.AI grâce à un guide étape par étape. |
 | [Créer un résumé de document en C# – Guide complet OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Apprenez à générer des résumés de documents avec OpenAI en C# grâce à Aspose.Words, étape par étape. |
 | [Résumer un document Word avec Aspose.Words AI – Guide complet](./summarize-word-document-with-aspose-words-ai-full-guide/) | Apprenez à résumer automatiquement des documents Word en utilisant l'IA d'Aspose.Words grâce à ce guide complet. |
 | [Synthèse de documents IA en C# – guide complet](./ai-document-summarization-in-c-complete-guide/) | Guide complet pour résumer des documents avec l'IA en C# en utilisant Aspose.Words. |
+| [Comment résumer un document Word en C# avec Aspose.Words AI](./how-to-summarize-word-document-using-aspose-words-ai-in-c/) | Apprenez à résumer automatiquement des documents Word en C# en utilisant l'IA d'Aspose.Words, étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

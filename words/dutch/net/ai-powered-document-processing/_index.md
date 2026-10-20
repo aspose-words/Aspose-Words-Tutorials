@@ -70,7 +70,7 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Samenvatting maken met AI – C# Aspose Words-tutorial](./create-summary-with-ai-c-aspose-words-tutorial/) | Leer hoe u met C# en Aspose.Words AI gebruikt om automatisch samenvattingen van Word-documenten te genereren. |
 | [Hoe grammatica te controleren in C# met Aspose.Words – Stapsgewijze handleiding](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) | Leer hoe u grammatica controleert in C# met Aspose.Words via een eenvoudige stap‑voor‑stap gids. |
 | [Samenvatten van Word-document met een lokale LLM – Stapsgewijze C#-gids](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | Leer hoe u met een lokaal LLM Word-documenten automatisch samenvat met C# in een stapsgewijze handleiding. |
-| [Controleer Word-grammatica met Aspose.Words AI – Complete gids](./check-word-grammar-with-aspose-words-ai-complete-guide/) | Leer hoe u grammatica-controle in Word-documenten automatiseert met Aspose.Words AI in een volledige stapsgewijze handleiding. |
+| [Controleer Word-grammatica met Aspose.Words AI – Complete gids](./check-word-grammar-with-aspose-words-ai-complete-guide/) | Leer hoe u grammatica-controle in Word-documenten automatiseert met Aspose.Words AI in een volledige stap‑voor‑stap handleiding. |
 | [Tekst samenvatten met AI in C# – Complete programmeergids](./summarize-text-with-ai-in-c-complete-programming-guide/) | Leer hoe u met Aspose.Words voor .NET en AI tekst in C# kunt samenvatten met een volledige programmeergids. |
 | [Document samenvatting maken met Aspose.Words & OpenAI](./create-document-summary-with-aspose-words-openai/) | Leer hoe u met Aspose.Words en OpenAI een beknopte samenvatting van documenten genereert. |
 | [Vertaal docx naar Frans met Aspose.Words en Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Leer hoe u docx-bestanden naar het Frans vertaalt met Aspose.Words en de Google Translate API. |
@@ -78,6 +78,8 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Documentoverzicht maken in C# – Complete OpenAI-gids](./create-document-summary-in-c-complete-openai-guide/) | Leer hoe u met OpenAI en C# een samenvatting van een Word-document maakt met Aspose.Words. |
 | [Samenvatten van Word-document met Aspose.Words AI – Volledige gids](./summarize-word-document-with-aspose-words-ai-full-guide/) | Leer hoe u met Aspose.Words AI volledige Word-documenten efficiënt kunt samenvatten met deze stapsgewijze handleiding. |
 | [AI-documentensamenvatting in C# – volledige gids](./ai-document-summarization-in-c-complete-guide/) | Leer hoe u met Aspose.Words voor .NET en AI volledige documentensamenvattingen in C# maakt. |
+| [Hoe een Word-document samen te vatten met Aspose.Words AI in C#](./how-to-summarize-word-document-using-aspose-words-ai-in-c/) | Leer hoe u met Aspose.Words AI een Word-document in C# automatisch samenvat met een stapsgewijze handleiding. |
+| [Hoe docx naar Frans te vertalen met Aspose.Words.AI – stapsgewijze gids](./how-to-translate-docx-to-french-with-aspose-words-ai-step-by/) | Leer hoe u docx-bestanden naar het Frans vertaalt met Aspose.Words.AI in een stapsgewijze handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

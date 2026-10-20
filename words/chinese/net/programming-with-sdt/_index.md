@@ -37,6 +37,7 @@ Aspose.Words for .NET 教程将帮助您深入探索该库的功能，并学习�
 | [多节](./multi-section/) 通过本分步教程学习如何在 Aspose.Words for .NET 中使用多节结构化文档标签。非常适合动态文档操作。|
 | [结构化文档标签范围开始 XML 映射](./structured-document-tag-range-start-xml-mapping/) 了解如何使用 Aspose.Words for .NET 将 XML 数据动态绑定到 Word 中的结构化文档标签。请遵循我们的分步指南。|
 | [在 Aspose.Words 中设置占位符文本 - 完整 C# 指南](./set-placeholder-text-in-aspose-words-complete-c-guide/) 通过本完整的 C# 教程学习如何在 Aspose.Words 中为结构化文档标签设置占位符文本。|
+| [在 Word 文档中使用 C# 设置占位符文本](./set-placeholder-text-in-a-word-document-using-c/) 使用 C# 在 Word 文档中设置占位符文本的完整指南。|
 | [如何使用 Aspose 添加内容控件并创建 Word 文档 – 完整指南](./how-to-add-content-control-and-create-word-document-with-asp/) 通过本完整指南学习如何使用 Aspose 添加内容控件并创建 Word 文档。|
 | [以编程方式创建 Word 文档 – 添加内容控件和占位符](./create-word-document-programmatically-add-content-control-an/) 通过本教程了解如何以编程方式创建 Word 文档并添加内容控件和占位符。|
 

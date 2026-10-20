@@ -46,7 +46,7 @@ Detta är en omfattande resurs för att lära sig arbeta med fält i Word-dokume
 | [Konvertera fält i dokument](./convert-fields-in-document/) | Lär dig hur du konverterar fält i Word-dokument med Aspose.Words för .NET med den här guiden. Följ vår handledning för att effektivt hantera och transformera fält i dina dokument. |
 | [Konvertera fält i brödtexten](./convert-fields-in-body/) | Lär dig hur du använder Aspose.Words för .NET för att konvertera sidfält till text i brödtexten i ett Word-dokument. |
 | [Ändra språkinställning](./change-locale/) Lär dig hur du ändrar språkinställningen i Word-dokument med Aspose.Words för .NET med den här guiden. Perfekt för att hantera internationella kunder och projekt. |
-
+| [Hur du skapar mall för kopplad utskick med Aspose.Words i C#](./how-to-create-mail-merge-template-with-aspose-words-in-c/) | Lär dig hur du skapar en mail‑merge‑mall med Aspose.Words i C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

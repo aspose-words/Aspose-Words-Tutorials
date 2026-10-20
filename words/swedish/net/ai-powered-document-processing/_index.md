@@ -77,13 +77,13 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Översätt DOCX till franska med Aspose.Words.AI – Fullständig guide](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Lär dig steg-för-steg hur du översätter DOCX-filer till franska med Aspose.Words.AI för snabba och korrekta resultat. |
 | [Sammanfatta Word-dokument med Aspose.Words AI – Fullständig guide](./summarize-word-document-with-aspose-words-ai-full-guide/) | Lär dig att använda Aspose.Words AI för att sammanfatta Word-dokument i en komplett guide. |
 | [AI-dokumentsammanfattning i C# – komplett guide](./ai-document-summarization-in-c-complete-guide/) | Lär dig att med Aspose.Words för .NET och AI skapa effektiva dokumentsammanfattningar i C# med vår kompletta guide. |
+| [Hur man sammanfattar Word-dokument med Aspose.Words AI i C#](./how-to-summarize-word-document-using-aspose-words-ai-in-c/) | Lär dig att automatiskt sammanfatta Word-dokument med Aspose.Words AI i C# i en steg‑för‑steg‑guide. |
+| [Hur du översätter docx till franska med Aspose.Words.AI – steg‑för‑steg‑guide](./how-to-translate-docx-to-french-with-aspose-words-ai-step-by/) | Lär dig steg‑för‑steg hur du använder Aspose.Words.AI för att översätta DOCX‑filer till franska. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

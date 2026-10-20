@@ -38,6 +38,7 @@
 | [不使用文檔產生器插入 ASKField](./insert-askfield-with-out-document-builder/) |了解如何在 Aspose.Words for .NET 中不使用文件產生器插入 ASK 欄位。依照本指南可以動態增強您的 Word 文件。 |
 | [不使用文檔生成器插入高級字段](./insert-advance-field-with-out-document-builder/) |了解如何在 Aspose.Words for .NET 中不使用 DocumentBuilder 插入進階欄位。請按照本指南來提升您的文件處理技能。 |
 | [取得郵件合併欄位名稱](./get-mail-merge-field-names/) |透過本詳細的逐步指南了解如何使用 Aspose.Words for .NET 從 Word 文件中提取郵件合併欄位名稱。 |
+| [如何使用 Aspose.Words 在 C# 中建立郵件合併範本](./how-to-create-mail-merge-template-with-aspose-words-in-c/) |了解如何在 C# 中使用 Aspose.Words 建立郵件合併範本的步驟與範例。 |
 | [刪除字段](./delete-fields/) |使用 Aspose.Words for .NET 刪除 Word 文件中合併欄位的逐步指南 |
 | [現場更新文化](./field-update-culture/) |了解如何使用 Aspose.Words for .NET 在 Word 文件中設定欄位更新文化。包含程式碼範例和準確更新提示的逐步指南。 |
 | [現場顯示結果](./field-display-results/) |透過本逐步指南了解如何使用 Aspose.Words for .NET 更新和顯示 Word 文件中的欄位結果。非常適合自動化文件任務。 |

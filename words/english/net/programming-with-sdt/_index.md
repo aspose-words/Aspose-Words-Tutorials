@@ -38,8 +38,8 @@ The code samples provided in the tutorials will help you understand the concepts
 | [Multi Section](./multi-section/) | Learn how to work with multi-section structured document tags in Aspose.Words for .NET with this step-by-step tutorial. Ideal for dynamic document manipulation. |
 | [Structured Document Tag Range Start Xml Mapping](./structured-document-tag-range-start-xml-mapping/) | Learn how to dynamically bind XML data to structured document tags in Word using Aspose.Words for .NET. Follow our step-by-step guide. |
 | [Set Placeholder Text in Aspose.Words – Complete C# Guide](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Learn how to set placeholder text in Word documents using Aspose.Words for .NET with a complete C# guide. |
+| [Set placeholder text in a Word document using C#](./set-placeholder-text-in-a-word-document-using-c/) | Learn how to set placeholder text in a Word document using Aspose.Words for .NET with C# in this step-by-step guide. |
 | [How to Add Content Control and Create Word Document with Aspose – Complete Guide](./how-to-add-content-control-and-create-word-document-with-asp/) | Learn how to add a content control and create a Word document using Aspose.Words for .NET in this complete guide. |
-
 | [Create word document programmatically – add content control and placeholder](./create-word-document-programmatically-add-content-control-an/) | Learn how to create a Word document programmatically, add a content control and placeholder using Aspose.Words for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -75,9 +75,11 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [Aspose.Words & OpenAI ile belge özeti oluşturma](./create-document-summary-with-aspose-words-openai/) | Aspose.Words ve OpenAI kullanarak belgeleri otomatik özetleyin ve zaman kazanın. |
 | [Aspose.Words ve Google API ile docx'i Fransızcaya çevirme](./translate-docx-to-french-with-aspose-words-and-google-api/) | Aspose.Words ve Google Çeviri API'sini kullanarak docx belgelerinizi Fransızcaya otomatik olarak çevirin. |
 | [Aspose.Words.AI ile docx'i Fransızcaya Çevir – Tam Kılavuz](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Aspose.Words.AI kullanarak docx dosyalarını Fransızcaya nasıl çevireceğinizi adım adım öğrenin. |
+| [Aspose.Words.AI ile docx'i Fransızcaya Çevir – Adım‑Adım Kılavuz](./how-to-translate-docx-to-french-with-aspose-words-ai-step-by/) | Aspose.Words.AI kullanarak docx dosyalarını Fransızcaya otomatik çevirmek için adım adım rehber. |
 | [C#'ta Belge Özeti Oluşturma – Tam OpenAI Kılavuzu](./create-document-summary-in-c-complete-openai-guide/) | OpenAI modelleriyle C# kullanarak belge özetleme sürecini adım adım öğrenin. |
 | [Aspose.Words AI ile Word Belgesini Özetleme – Tam Kılavuz](./summarize-word-document-with-aspose-words-ai-full-guide/) | Aspose.Words AI kullanarak Word belgelerini etkili bir şekilde özetlemenin adım adım rehberi. |
 | [C#'ta AI belge özetleme – tam rehber](./ai-document-summarization-in-c-complete-guide/) | Aspose.Words for .NET ve AI modelleriyle C# kullanarak belge özetlemenin tüm adımlarını öğrenin. |
+| [C# ile Aspose.Words AI kullanarak Word belgesini özetleme](./how-to-summarize-word-document-using-aspose-words-ai-in-c/) | C# ve Aspose.Words AI ile Word belgelerini hızlı ve etkili bir şekilde özetlemeyi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

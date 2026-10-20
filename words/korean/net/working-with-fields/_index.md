@@ -38,6 +38,7 @@
 | [문서 작성기 없이 ASKField 삽입](./insert-askfield-with-out-document-builder/) | Aspose.Words for .NET에서 문서 작성기를 사용하지 않고 ASK 필드를 삽입하는 방법을 알아보세요. 이 가이드를 따라 Word 문서를 동적으로 개선해 보세요. |
 | [문서 작성기 없이 고급 필드 삽입](./insert-advance-field-with-out-document-builder/) | Aspose.Words for .NET에서 DocumentBuilder를 사용하지 않고 고급 필드를 삽입하는 방법을 알아보세요. 이 가이드를 따라 문서 처리 기술을 향상시키세요. |
 | [메일 병합 필드 이름 가져오기](./get-mail-merge-field-names/) | Aspose.Words for .NET을 사용하여 Word 문서에서 메일 병합 필드 이름을 추출하는 방법을 이 자세하고 단계별 가이드를 통해 알아보세요. |
+| [C#에서 Aspose.Words를 사용하여 메일 병합 템플릿 만들기](./how-to-create-mail-merge-template-with-aspose-words-in-c/) | Aspose.Words와 C#을 사용해 메일 병합 템플릿을 만드는 방법을 단계별로 안내합니다. |
 | [필드 삭제](./delete-fields/) | Aspose.Words for .NET을 사용하여 Word 문서에서 병합 필드를 삭제하기 위한 단계별 가이드 |
 | [현장 업데이트 문화](./field-update-culture/) | Aspose.Words for .NET을 사용하여 Word 문서에서 필드 업데이트 문화를 구성하는 방법을 알아보세요. 정확한 업데이트를 위한 코드 예제와 팁이 포함된 단계별 가이드입니다. |
 | [필드 디스플레이 결과](./field-display-results/) Aspose.Words for .NET을 사용하여 Word 문서에서 필드 결과를 업데이트하고 표시하는 방법을 단계별 가이드를 통해 알아보세요. 문서 작업 자동화에 매우 유용합니다. |

@@ -72,8 +72,7 @@
 | [Aspose.Words と OpenAI を使用した文書要約の作成](./create-document-summary-with-aspose-words-openai/) Aspose.Words と OpenAI の組み合わせで、文書を自動的に要約する方法をステップバイステップで学びます。 |
 | [Aspose.Words と Google API を使用して DOCX をフランス語に翻訳](./translate-docx-to-french-with-aspose-words-and-google-api/) Aspose.Words と Google API を組み合わせて、DOCX ファイルをフランス語に自動翻訳する方法をステップバイステップで解説します。 |
 | [Aspose.Words.AI を使用した DOCX のフランス語への翻訳 – 完全ガイド](./translate-docx-to-french-with-aspose-words-ai-full-guide/) Aspose.Words.AI を活用し、DOCX ファイルをフランス語に翻訳する手順を詳しく解説します。 |
-| [C# でドキュメント要約を作成 – 完全 OpenAI ガイド](./create-document-summary-in-c-complete-openai-guide/) Aspose.Words と OpenAI を組み合わせて、C# で高精度なドキュメント要約を作成する手順を詳しく解説します。 |
-| [Aspose.Words AI で Word 文書を要約する完全ガイド](./summarize-word-document-with-aspose-words-ai-full-guide/) Aspose.Words AI を活用し、Word 文書を自動的に要約する方法をステップバイステップで解説します。 |
+| [Aspose.Words.AI を使用して docx をフランス語に翻訳する方法 – ステップバイステップ ガイド](./how-to-translate-docx-to-french-with-aspose-words-ai-step-by/) Aspose.Words.AI と Google API を組み合わせ、docx ファイルをフランス語に自動翻訳する手順を詳しく解説します。 |
 | [C# における AI 文書要約 – 完全ガイド](./ai-document-summarization-in-c-complete-guide/) Aspose.Words for .NET と C# を使用して、AI を活用した文書要約を作成する完全ガイドです。ステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

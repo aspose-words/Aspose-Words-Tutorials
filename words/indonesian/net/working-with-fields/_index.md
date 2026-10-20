@@ -46,7 +46,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Konversi Bidang Dalam Dokumen](./convert-fields-in-document/) | Pelajari cara mengonversi kolom dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan ini. Ikuti tutorial kami untuk mengelola dan mengubah kolom dalam dokumen Anda secara efisien. Bahasa Indonesia:
 | [Konversi Bidang Dalam Tubuh](./convert-fields-in-body/) | Pelajari cara menggunakan Aspose.Words untuk .NET untuk mengubah bidang Halaman menjadi teks di badan dokumen Word. Bahasa Indonesia:
 | [Ubah Lokal](./change-locale/) Pelajari cara mengubah lokal dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan ini. Sempurna untuk menangani klien dan proyek internasional. |
-
+| [Cara membuat templat mail merge dengan Aspose.Words di C#](./how-to-create-mail-merge-template-with-aspose-words-in-c/) | Pelajari cara membuat templat mail merge menggunakan Aspose.Words untuk .NET dengan contoh kode C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

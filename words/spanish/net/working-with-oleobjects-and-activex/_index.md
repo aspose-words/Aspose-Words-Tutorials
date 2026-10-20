@@ -31,6 +31,7 @@ Estos tutoriales le ofrecen un enfoque práctico, paso a paso, para el procesami
 | [Crear documento Word con botón ActiveX – Guía C#](./create-word-document-with-activex-button-c-guide/) Aprenda a crear un documento Word con un botón ActiveX usando C# y Aspose.Words para .NET. |
 | [Crear botón de documento Word con Aspose.Words – Ejemplo de código completo](./create-word-document-button-with-aspose-words-full-code-exam/) Aprenda a crear un botón que genera un documento Word usando Aspose.Words, con el código completo paso a paso.
 | [Agregar botón de comando a documento Word con Aspose.Words – Guía completa](./add-command-button-to-word-document-with-aspose-words-comple/) Aprenda a agregar un botón de comando a un documento Word usando Aspose.Words con esta guía paso a paso.
+| [Crear documento Word programáticamente con un botón ActiveX](./create-word-document-programmatically-with-an-activex-button/) Aprenda a crear programáticamente un documento Word con un botón ActiveX usando Aspose.Words para .NET en esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

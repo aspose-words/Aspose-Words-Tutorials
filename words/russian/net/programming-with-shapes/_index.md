@@ -68,6 +68,8 @@
 | [Создать пустой документ Word со скрытой эллиптической фигурой – полное руководство C#](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Узнайте, как создать пустой документ Word с скрытой эллиптической фигурой с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 | [Сохранить файл docx с групповыми фигурами в Word с использованием C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Узнайте, как сохранить документ Word в формате docx с групповыми фигурами, используя C# и Aspose.Words для .NET. |
 | [Как скрыть форму в Word с помощью C# – пошаговое руководство](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Узнайте, как скрыть фигуру в документе Word с помощью C# в этом пошаговом руководстве. |
+| [Как создать пустой документ Word и сгруппировать фигуры в Word с помощью Aspose.Words](./how-to-create-a-blank-word-document-and-group-shapes-in-word/) | Узнайте, как создать пустой документ Word и объединить несколько фигур в одну группу с помощью Aspose.Words для .NET. |
+| [Скрыть/Показать фигуру с новым свойством `Hidden` в Aspose.Words для C#](./hide-show-a-shape-with-the-new-hidden-prop-in-aspose-words-f/) | Узнайте, как скрывать и показывать фигуры в документах Word, используя новое свойство Hidden в Aspose.Words для C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

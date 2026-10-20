@@ -42,6 +42,7 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
 | [Nyílt mesterséges intelligencia modellel való munka](./working-with-open-ai-model/) | Az Aspose.Words for .NET segítségével hatékony dokumentum-összefoglalókat készíthet az OpenAI hatékony modelljeivel. Merüljön el ebben az átfogó útmutatóban most. |
 | [Összefoglaló beállítások használata](./working-with-summarize-options/) | Tanulja meg, hogyan foglalhatja össze hatékonyan a Word-dokumentumokat az Aspose.Words for .NET segítségével lépésről lépésre bemutatott útmutatónkkal, amely bemutatja a mesterséges intelligencia modelljeinek integrálását a gyors elemzések érdekében. |
 | [Word dokumentum összefoglalása C#‑ban – Teljes AI‑alapú útmutató](./summarize-word-document-in-c-complete-ai-powered-guide/) | Ismerje meg, hogyan használhatja az Aspose.Words for .NET-et AI‑val a Word dokumentumok hatékony összefoglalásához C#‑ban. |
+| [Word dokumentum összefoglalása Aspose.Words AI-val C#‑ban](./how-to-summarize-word-document-using-aspose-words-ai-in-c/) | Ismerje meg, hogyan használhatja az Aspose.Words AI-t a Word dokumentumok C#‑ban történő összefoglalásához. |
 | [A Google AI modelljével való munka](./working-with-google-ai-model/) | Emeld magasabb szintre a dokumentumfeldolgozást az Aspose.Words for .NET és a Google AI segítségével, hogy könnyedén készíthess tömör összefoglalókat. |
 | [Hogyan ellenőrizze a nyelvtant DOCX-ben az Aspose.Words segítségével – gpt-4 turbo használatával](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Tanulja meg, hogyan használhatja a gpt-4 turbo modellt az Aspose.Words-nel a DOCX fájlok nyelvtani ellenőrzésére. |
 | [Hogyan ellenőrizze a nyelvtant a Wordben az Aspose.Words AI segítségével – Teljes útmutató](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Ismerje meg, hogyan használhatja az Aspose.Words AI-t a Word dokumentumok nyelvtani ellenőrzésére lépésről lépésre útmutatóval. |
@@ -72,17 +73,15 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
 | [Word nyelvtan ellenőrzése az Aspose.Words AI-val – Teljes útmutató](./check-word-grammar-with-aspose-words-ai-complete-guide/) | Ismerje meg, hogyan használhatja az Aspose.Words AI-t a Word dokumentumok nyelvtani hibáinak automatikus ellenőrzésére és javítására. |
 | [Szöveg összefoglalása AI-val C#-ban – Teljes programozási útmutató](./summarize-text-with-ai-in-c-complete-programming-guide/) | Ismerje meg, hogyan készíthet AI-alapú szövegösszefoglalókat C#-ban az Aspose.Words for .NET segítségével, lépésről lépésre. |
 | [docx fordítása franciára az Aspose.Words.AI segítségével – Teljes útmutató](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Ismerje meg, hogyan fordíthatja le a docx fájlokat franciára az Aspose.Words.AI segítségével lépésről lépésre útmutatóval. |
+| [docx fordítása franciára az Aspose.Words.AI segítségével – lépésről‑lépésre útmutató](./how-to-translate-docx-to-french-with-aspose-words-ai-step-by/) | Ismerje meg, hogyan használhatja az Aspose.Words.AI-t a DOCX fájlok franciára történő fordításához részletes lépésről‑lépésre útmutatóval. |
 | [Dokumentum összefoglaló létrehozása C#-ban – Teljes OpenAI útmutató](./create-document-summary-in-c-complete-openai-guide/) | Tanulja meg, hogyan hozhat létre dokumentum-összefoglalókat C#-ban az OpenAI segítségével lépésről lépésre útmutatóval. |
 | [AI dokumentum összefoglalás C#-ban – teljes útmutató](./ai-document-summarization-in-c-complete-guide/) | Ismerje meg, hogyan használhatja az Aspose.Words for .NET-et AI-alapú dokumentumösszefoglalásra C#-ban, lépésről lépésre útmutató. |
-
 | [Dokumentumösszefoglaló létrehozása Aspose.Words & OpenAI segítségével](./create-document-summary-with-aspose-words-openai/) | Ismerje meg, hogyan hozhat létre hatékony összefoglalókat a Word-dokumentumokból az Aspose.Words és az OpenAI modelljeivel. |
 | [docx fordítása franciára az Aspose.Words és a Google API segítségével](./translate-docx-to-french-with-aspose-words-and-google-api/) | Tanulja meg, hogyan fordíthatja a DOCX fájlokat franciára az Aspose.Words és a Google API használatával. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
