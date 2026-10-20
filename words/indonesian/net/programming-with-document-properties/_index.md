@@ -34,6 +34,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Gunakan Karakter Kontrol](./use-control-characters/) | Temukan cara mengotomatiskan tugas dokumen Word menggunakan Aspose.Words untuk .NET. Panduan ini mencakup pengaturan, penggantian teks, dan banyak lagi, yang membuat alur kerja Anda efisien. |
 | [Cara Menghitung Halaman dalam Dokumen Word – Recover & Count](./how-to-count-pages-in-a-word-document-recover-count/) | Pelajari cara menghitung jumlah halaman dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh praktis Recover & Count. |
 
+| [Periksa Jumlah Halaman dalam Dokumen Word – Pulihkan File Rusak](./check-page-count-in-word-docs-recover-corrupted-files/) | Pelajari cara memeriksa jumlah halaman dokumen Word dan memulihkan file yang rusak menggunakan Aspose.Words untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

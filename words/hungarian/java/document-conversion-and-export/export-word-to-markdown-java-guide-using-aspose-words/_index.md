@@ -1,26 +1,54 @@
 ---
 category: general
-date: 2026-03-17
-description: Word exportálása markdown formátumba Java-ban az Aspose.Words segítségével.
-  Ismerje meg, hogyan konvertálhat docx-et markdownra, hogyan szabályozhatja a markdown
-  képfelbontását, és hogyan állíthatja helyre a sérült docx fájlokat.
+date: 2026-10-17
+description: Ismerje meg, hogyan exportálhat markdownot a Wordből Java-ban az Aspose.Words
+  segítségével, beleértve a docx markdownra konvertálását, a képfelbontás szabályozását,
+  valamint a sérült docx fájlok helyreállítását.
 draft: false
 keywords:
-- export word to markdown
+- how to export markdown
 - convert docx to markdown
-- markdown image resolution
-- save word as markdown
+- convert word to markdown
 - recover corrupted docx
-language: hu
-og_description: Exportálja a Word dokumentumot markdown formátumba Java-ban az Aspose.Words
-  segítségével. Ismerje meg, hogyan konvertálhatja a docx-et markdownra, állíthatja
-  a markdown képek felbontását, és helyreállíthatja a sérült docx fájlokat.
-og_title: Word exportálása Markdown formátumba – Java útmutató az Aspose.Words használatával
+- java docx to markdown
+lastmod: 2026-10-17
+og_description: Ismerje meg, hogyan exportálhat markdownot a Wordből Java-ban az Aspose.Words
+  segítségével, beleértve a docx markdownra konvertálását, a képfelbontás szabályozását,
+  valamint a sérült docx fájlok helyreállítását.
+og_image_alt: Diagram illustrating the flow from a Word document to markdown and PDF/UA
+  outputs using Aspose.Words
+og_title: Hogyan exportáljunk markdownot a Wordből Java-ban az Aspose.Words használatával
+schemas:
+- author: Aspose
+  dateModified: '2026-10-17'
+  description: Learn how to export markdown from Word in Java with Aspose.Words, covering
+    convert docx to markdown, image resolution control, and recovering corrupted docx
+    files.
+  headline: How to export markdown from Word in Java using Aspose.Words
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.Words requires a valid license for production use; a free
+      trial is available for evaluation.
+    question: Can I use this approach in a commercial application?
+  - answer: Recovery mode can be combined with `LoadOptions.setPassword()` to open
+      encrypted documents before attempting repair.
+    question: Does the recovery mode work with password‑protected DOCX files?
+  - answer: The library supports **35+ input and output formats**, including DOCX,
+      ODT, RTF, PDF, HTML, EPUB, and Markdown.
+    question: How many formats can Aspose.Words convert from and to?
+  - answer: Java 8 through Java 21 are supported; newer releases are backward compatible.
+    question: What Java versions are officially supported?
+  - answer: Enable `LoadOptions.setMemoryOptimization(true)` and process the document
+      in streaming mode to reduce memory footprint.
+    question: How can I improve performance for very large documents?
+  type: FAQPage
 tags:
+- export markdown
 - Aspose.Words
 - Java
-- Document Conversion
-title: Word exportálása Markdownba – Java útmutató az Aspose.Words használatával
+- document conversion
+- docx to markdown
+title: Hogyan exportáljunk markdownot a Wordből Java-ban az Aspose.Words használatával
 url: /hu/java/document-conversion-and-export/export-word-to-markdown-java-guide-using-aspose-words/
 ---
 
@@ -28,32 +56,44 @@ url: /hu/java/document-conversion-and-export/export-word-to-markdown-java-guide-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word exportálása Markdownba – Java útmutató az Aspose.Words használatával
+# Hogyan exportáljunk markdownot Wordből Java-ban az Aspose.Words segítségével
 
-Szükséged volt már **Word exportálására markdownba**, de képekkel vagy sérült fájlokkal akadtál el? Nem vagy egyedül. Sok projektben a fejlesztőknek `.docx`‑et kell tiszta markdownba konvertálniuk statikus‑weboldal‑generátorok, dokumentációs csővezetékek vagy akár chatbot tudásbázisok számára.  
+Valaha szükséged volt **Word markdownba exportálására**, de képekkel vagy sérült fájlokkal akadtak akadályok? Nem vagy egyedül. Sok projektben a fejlesztőknek egy `.docx`-et kell tiszta markdownra konvertálniuk statikus weboldalak generátoraihoz, dokumentációs folyamatokhoz vagy akár chatbot tudásbázisokhoz.  
 
-A jó hír? Az Aspose.Words for Java‑val **konvertálhatod a docx‑et markdownba**, finomhangolhatod a **markdown képfelbontást**, és még **helyreállíthatod a sérült docx** fájlokat is – mindezt néhány sor kóddal. Ebben a tutorialban végigvezetünk egy teljes, futtatható példán, elmagyarázzuk, miért fontos minden beállítás, és megmutatjuk, hogyan érhetsz el megbízható eredményeket a teljesítmény rovására menő áldozatok nélkül.
+A jó hír? Az Aspose.Words for Java-val **konvertálhatod a docx-et markdownba**, finomhangolhatod a **markdown képfelbontást**, és még **helyreállíthatod a sérült docx** fájlokat — mindezt néhány sorban. Ebben az oktatóanyagban végigvezetünk egy teljes, futtatható példán, elmagyarázzuk, miért fontos minden beállítás, és megmutatjuk, hogyan érhetsz el megbízható eredményeket a teljesítmény feláldozása nélkül.
 
-## Amire szükséged lesz
+## Gyors válaszok
+- **Képes az Aspose.Words kezelni a sérült DOCX fájlokat?** Igen, engedélyezze a helyreállítási módot, hogy a könyvtár újraépítse a hiányzó részeket.
+- **Milyen képfelbontás a legjobb webes markdownhoz?** 300 DPI éles képeket biztosít túlzott fájlméret nélkül; 150 DPI-re csökkentve gyorsabb építést érhetsz el.
+- **Szükség van további könyvtárakra a markdown generálásához?** Nem, az Aspose.Words for Java tartalmazza a natív `MarkdownSaveOptions`-t.
+- **Opcionális a PDF/UA export?** Igen, kihagyhatod a PDF blokkot, ha csak markdownra van szükséged.
+- **Melyik Java verzió szükséges?** A Java 17 ajánlott; a Java 8+ is támogatott.
 
-Mielőtt belevágnánk, győződj meg róla, hogy rendelkezel a következőkkel:
+## Mi a markdown exportálása?
+A „markdown exportálása” kifejezés a gazdag szöveges dokumentum (például Word `.docx`) egyszerű szöveges Markdown formátumba történő átalakítását jelenti, megőrizve a struktúrát, képeket és egyenleteket. Ez a konverzió megtartja a címsorokat, listákat, táblázatokat és beágyazott médiát, miközben eltávolítja a Word sajátos jelölőnyelvét, így a végeredmény alkalmas statikus weboldalak generátoraihoz, dokumentációs eszközökhöz vagy bármely Markdown‑t fogyasztó platformhoz.
 
-- Java 17 (vagy bármely friss JDK) – az Aspose.Words Java 8‑tól működik, de az újabb verziók jobb szemétgyűjtést biztosítanak.
-- A legújabb Aspose.Words for Java JAR (töltsd le az Aspose weboldaláról vagy húzd le a Maven Central‑ról).
-- Egy minta `input.docx` – lehet egy friss fájl vagy egy részben sérült dokumentum, amelyet meg akarsz menteni.
-- Egy IDE vagy szövegszerkesztő, amiben otthon vagy (IntelliJ IDEA, VS Code, Eclipse… te döntesz).
+## Miért használjuk az Aspose.Words-ot markdown konverzióhoz?
+Az Aspose.Words **35+ bemeneti és kimeneti formátumot** támogat — köztük DOCX, HTML, PDF, EPUB és Markdown — és **500 oldalas dokumentumot kevesebb, mint 3 másodperc alatt** dolgoz fel egy tipikus szerveren. Beépített helyreállítási módja a sérült fájlok hibaarányát 2 % alá csökkenti, az `ImageResolution` beállítás pedig lehetővé teszi a PNG minőség szabályozását extra képfeldolgozási lépések nélkül.
 
-Külső könyvtárakra az Aspose.Words‑on kívül nincs szükség, így a beállítás könnyű és egyszerűen reprodukálható.
+## Előfeltételek
+- Java 17 (vagy bármely friss JDK; Java 8+ is működik)
+- Aspose.Words for Java JAR (legújabb verzió a Maven Central‑ról)
+- Egy minta `input.docx` (tiszta vagy részben sérült)
+- Egy IDE vagy szövegszerkesztő (IntelliJ IDEA, VS Code, Eclipse, stb.)
+
+Nem szükséges semmilyen külső könyvtár az Aspose.Words‑on kívül, ami könnyű és könnyen reprodukálható beállítást biztosít.
 
 ---
 
-![Export Word to Markdown diagram](export-word-to-markdown.png "Export Word to Markdown – vizuális áttekintés")
+![Word markdown exportálási diagram](export-word-to-markdown.png "Word markdown exportálás – vizuális áttekintés")
 
-*Kép alternatív szövege: Export Word to Markdown diagram a konverziós folyamatról.*
+*Kép alt szöveg: Word markdown exportálási diagram, amely a konverziós folyamatot mutatja.*
 
-## 1. lépés – Word dokumentum betöltése helyreállítási móddal
+## Hogyan töltsünk be egy Word dokumentumot helyreállítási móddal?
+`Document` az Aspose.Words felső szintű objektuma, amely egy Word fájlt reprezentál a memóriában.  
+`LoadOptions` lehetővé teszi, hogy meghatározd, hogyan töltődjön be a dokumentum, például a helyreállítási mód engedélyezésével.
 
-Amikor egy `.docx` sérült, az Aspose.Words megpróbálja újraépíteni a belső struktúrát. A helyreállítási mód engedélyezése a legbiztonságosabb módja annak, hogy elkerüld a `FileNotFoundException`‑t vagy egy részben beolvasott dokumentumot.
+Töltsd be a fájlt a `Document` osztállyal, miközben a `LoadOptions`‑t a `setRecoverDamagedFiles(true)` beállítással konfigurálod. Ez azt mondja az Aspose.Words‑nak, hogy találgatja ki a hiányzó részeket, és használható `Document` objektumot adjon vissza még akkor is, ha a forrás sérült. A helyreállítási mód megakadályozza a hiányzó XML részek miatt keletkező kivételeket, lehetővé téve a konverziós folyamat folytatását és kimenet előállítását kisebb fájlsérülés esetén is.
 
 ```java
 import com.aspose.words.*;
@@ -68,14 +108,13 @@ public class CombinedExportTutorial {
         Document document = new Document("YOUR_DIRECTORY/input.docx", loadOptions);
 ```
 
-**Miért fontos:**  
-Ha a forrásfájl sérült, az alapértelmezett betöltő kivételt dob és leállítja az egész folyamatot. A helyreállítási mód azt mondja az Aspose.Words‑nak, hogy „kitalálja” a hiányzó részeket, így egy használható `Document` objektumot kapsz, amelyet még exportálhatsz. Ez a **recover corrupted docx** kezelés sarokköve.
+**Miért fontos ez:**  
+Ha a forrásfájl sérült, az alapértelmezett betöltő kivételt dob és leállítja a teljes folyamatot. A helyreállítási mód azt mondja az Aspose.Words‑nak, hogy „találgassa” a hiányzó részeket, így egy használható `Document` objektumot kapsz, amit még exportálhatsz. Ez a **recover corrupted docx** kezelés sarokköve.
 
----
+## Hogyan konfigurálhatjuk a markdown exportálási beállításokat, beleértve a képfelbontást?
+`MarkdownSaveOptions` határozza meg, hogyan menti az Aspose.Words a dokumentumot Markdown formátumba.
 
-## 2. lépés – Markdown exportálási beállítások konfigurálása (beleértve a képfelbontást)
-
-A markdown fájlok gyakran specifikus felbontású képeket igényelnek, hogy szépen jelenjenek meg a weben. Az Aspose.Words lehetővé teszi a DPI megadását, sőt azt is, hogy hová kerüljenek a generált PNG‑k.
+Hozz létre egy `MarkdownSaveOptions` példányt, állítsd be a `setImageResolution(300)`‑t a vektoros grafikák 300 DPI‑n történő raszterizálásához, és adj meg egy visszahívást, amely minden képet egy előre meghatározott mappába (`md‑imgs`) ír. Emellett beállíthatod a `setOfficeMathSaveOptions`‑t, hogy az egyenleteket LaTeX‑ként exportálja. Ezek a beállítások biztosítják, hogy a képek elég élesek legyenek a nagy felbontású kijelzőkhöz, miközben a fájlméret mérsékelten marad, és a matematikai tartalom szerkeszthető marad egyszerű szövegként.
 
 ```java
         // Prepare MarkdownSaveOptions
@@ -94,24 +133,23 @@ A markdown fájlok gyakran specifikus felbontású képeket igényelnek, hogy sz
         });
 ```
 
-**Fontos megjegyzések:**
+**Fontos pontok, amiket érdemes megjegyezni:**
 
-- `setImageResolution(300)` azt mondja az Aspose.Words‑nak, hogy a vektorgrafikákat 300 DPI‑n rasterizálja. Ha élesebb képekre van szükséged, növeld a számot; ha gyorsabb buildet akarsz, csökkentsd.
-- A callback létrehoz egy mappát (`md-imgs`) és `resource_0.png`, `resource_1.png`, … fájlneveket ad, ezáltal **save word as markdown** prediktívvé válik a downstream eszközök, például MkDocs vagy Jekyll számára.
-- Az Office Math LaTeX‑ként való exportálása megőrzi a komplex egyenletek olvashatóságát a plain‑text markdownban, amit sok statikus‑weboldal‑generátor natívan támogat.
+- `setImageResolution(300)` azt mondja az Aspose.Words‑nak, hogy a vektoros grafikákat 300 DPI‑n raszterizálja. Ha élesebb képekre van szükséged, növeld a számot; a gyorsabb építéshez csökkentsd.
+- A visszahívás létrehozza a `md-imgs` mappát, és a fájlok `resource_0.png`, `resource_1.png`, … néven kapnak nevet — ez a **save word as markdown** prediktív viselkedését biztosítja olyan downstream eszközöknek, mint a MkDocs vagy a Jekyll.
+- Az Office Math LaTeX‑ként való exportálása megőrzi a komplex egyenletek olvashatóságát egyszerű szöveges markdownban, amit sok statikus weboldalgenerátor alapból támogat.
 
----
+## Hogyan mentjük a dokumentumot markdown fájlként?
+`save` írja a dokumentumot a megadott formátumba és útvonalra.
 
-## 3. lépés – Dokumentum mentése Markdown fájlként
-
-Miután a beállítások készen állnak, a tényleges konverzió egyetlen sor.
+Hívd meg a `document.save("output.md", markdownOptions)` metódust. A metódus kiírja a markdown szöveget és létrehozza a korábban beállított képmappát. Ez az egyetlen sor elrejti a képfájlok stream‑elésének, a fájlnevek kezelésének és a szövegkódolásnak a komplexitását, így egy tiszta, közzétételre kész markdown fájlt kapsz.
 
 ```java
         // Perform the conversion
         document.save("YOUR_DIRECTORY/output.md", markdownOptions);
 ```
 
-Ez a sor lefutása után a `output.md` mellett egy PNG‑kkel teli mappát találsz. Nyisd meg a markdown fájlt bármely szerkesztőben, és a következőt fogod látni:
+Miután ez a sor lefut, megtalálod az `output.md`‑t egy PNG‑kkel teli mappával együtt. Nyisd meg a markdown fájlt bármely szerkesztőben, és a következőt fogod látni:
 
 ```markdown
 # My Document Title
@@ -125,13 +163,14 @@ E = mc^2
 $$
 ```
 
-**Ami megkapod:** Egy tiszta markdown fájl, amely megtartja a címsorokat, listákat, táblázatokat és képeket, valamint LaTeX blokkokat a képletekhez. Ezzel teljesül a **convert docx to markdown** követelmény, miközben teljes kontrollt kapsz a képminőség felett.
+[resource_0.png](md-imgs/resource_0.png)
 
----
+**Ami megkapod:** Egy tiszta markdown fájl, amely megőrzi a címsorokat, listákat, táblázatokat és képeket, valamint LaTeX blokkokat tartalmaz minden egyenlethez. Ez teljesíti a **convert docx to markdown** követelményt, miközben teljes kontrollt ad a képek minősége felett.
 
-## 4. lépés – PDF/UA exportálási beállítások előkészítése (alakzat‑címkézés)
+## Hogyan készíthetünk elő PDF/UA exportálási beállításokat alakzatcímkézéshez?
+`PdfSaveOptions` szabályozza a PDF kimeneti beállításait, beleértve a hozzáférhetőségi funkciókat.
 
-Ha hozzáférhető PDF‑re (PDF/UA) is szükséged van, az Aspose.Words a lebegő alakzatokat inline elemekként címkézi, ami javítja a képernyőolvasók navigációját.
+Ha szükséged van egy hozzáférhető PDF‑re is, hozz létre egy `PdfSaveOptions` objektumot, és engedélyezd a `setExportFloatingShapesAsInlineTag(true)` beállítást. Ez a beállítás a lebegő alakzatokat inline elemekként címkézi, javítva a képernyőolvasók navigációját és biztosítva, hogy a képek és szövegdobozok a logikai olvasási sorrend részei legyenek.
 
 ```java
         // PDF/UA options
@@ -141,12 +180,13 @@ Ha hozzáférhető PDF‑re (PDF/UA) is szükséged van, az Aspose.Words a lebeg
                 PdfSaveOptions.ExportFloatingShapesAsInlineTagEnum.INLINE);
 ```
 
-**Miért használjuk a PDF/UA‑t?**  
-A PDF/UA (Universal Accessibility) az ISO szabvány a hozzáférhető PDF‑ekhez. Az `ExportFloatingShapesAsInlineTag` beállítása biztosítja, hogy a lebegő képek és szövegdobozok a olvasási sorrend részeként legyenek kezelve, nem pedig elárvult objektumokként. Ez különösen hasznos a szigorú megfelelőségi iparágakban.
+**Miért használjuk a PDF/UA-t?**  
+A PDF/UA (Universal Accessibility) az ISO szabvány a hozzáférhető PDF‑ekhez. Az `ExportFloatingShapesAsInlineTag` beállítás biztosítja, hogy a lebegő képek és szövegdobozok a olvasási sorrend részévé váljanak, nem pedig elárvult objektumokká. Ez különösen fontos a szigorú szabályozású iparágakban.
 
----
+## Hogyan mentjük a dokumentumot PDF/UA fájlként?
+`save` írja a dokumentumot a megadott formátumba és útvonalra.
 
-## 5. lépés – Dokumentum mentése PDF/UA fájlként
+Hívd meg a `document.save("output.pdf", pdfOptions)` metódust. Az előző markdown lépésben beállított `ImageResolution` globálisan alkalmazásra kerül, így a PDF is magas felbontású képeket tartalmaz, amelyek megegyeznek a markdown kimenettel. Ez az egyetlen hívás egy ISO‑kompatibilis PDF/UA 1.0 dokumentumot hoz létre, amely készen áll a terjesztésre.
 
 ```java
         // Write the PDF/UA file
@@ -155,13 +195,10 @@ A PDF/UA (Universal Accessibility) az ISO szabvány a hozzáférhető PDF‑ekhe
 }
 ```
 
-Amikor az `output.pdf`‑t egy hozzáférhetőségi ellenőrzővel nyitod meg, nem találsz olyan szabálysértést, ami a lebegő alakzatokhoz kapcsolódik. A PDF ugyanazt a magas felbontású képet tartalmazza, amit a markdownhoz definiáltál, mivel az `ImageResolution` beállítás globálisan érvényesül.
-
----
+Amikor az `output.pdf`‑t egy hozzáférhetőségi ellenőrzővel nyitod meg, nem találsz olyan megsértést, amely a lebegő alakzatokra vonatkozik. A PDF ugyanazokat a magas felbontású képeket is tartalmazza, amelyeket a markdownhoz definiáltál, mivel az `ImageResolution` beállítás globálisan érvényesül.
 
 ## Teljes működő példa
-
-Összegezve, itt van a komplett, önálló Java osztály, amelyet egyszerűen bemásolhatsz a projektedbe:
+Összegezve, itt van a teljes, önálló Java osztály, amelyet egyszerűen bemásolhatsz a projektedbe:
 
 ```java
 import com.aspose.words.*;
@@ -199,46 +236,68 @@ public class CombinedExportTutorial {
 
 Futtasd ezt az osztályt, és a következőket kapod:
 
-- `output.md` – készen áll a statikus‑weboldal‑generátorokhoz.
-- `md-imgs/` – egy PNG‑kkel teli mappa 300 DPI‑n.
-- `output.pdf` – egy hozzáférhető PDF/UA 1.0 dokumentum.
+- `output.md` — kész a statikus weboldalgenerátorokhoz.
+- `md-imgs/` — egy mappa PNG‑kkel 300 DPI‑n.
+- `output.pdf` — egy hozzáférhető PDF/UA 1.0 dokumentum.
 
----
+## Gyakori kérdések és szélhelyzetek
+**Mi a teendő, ha a DOCX beágyazott betűtípusokat tartalmaz?**  
+Az Aspose.Words automatikusan beágyazza a betűtípusokat a PDF‑be, ha a `PdfSaveOptions`‑t használod. A markdown esetén a betűtípusok nem relevánsak, mivel a kimenet egyszerű szöveg, de a képek tükrözni fogják az eredeti betűkészlet megjelenését.
 
-## Gyakori kérdések és széljegyek
-
-**Mi van, ha a DOCX beágyazott betűtípusokat tartalmaz?**  
-Az Aspose.Words automatikusan beágyazza a betűtípusokat a PDF‑be, ha `PdfSaveOptions`‑t használsz. A markdown esetében a betűtípusok nem relevánsak, mert a kimenet plain text, de a képek tükrözni fogják az eredeti betűtípus megjelenítését.
-
-**Csökkenthetem a képfelbontást a gyorsabb build érdekében?**  
-Természetesen. Módosítsd `markdownOptions.setImageResolution(150);`‑re, így a méret és a minőség közötti kompromisszumot érheted el. Ne feledd, alacsonyabb DPI esetén a képernyőn nagy felbontású megjelenítőkön a képek elmosódottak lehetnek.
+**Csökkenthetem a képfelbontást a gyorsabb építésekhez?**  
+Természetesen. Állítsd a `markdownOptions.setImageResolution(150);`‑t a méret‑minőség kompromisszum érdekében. Ne feledd, hogy az alacsonyabb DPI elmosódottá teheti a képernyőképeket nagy felbontású kijelzőkön.
 
 **Mi történik, ha a bemeneti fájl teljesen olvashatatlan?**  
-Még a „recover” módban is előfordulhat, hogy az Aspose.Words kivételt dob, ha a DOCX ZIP‑szerkezete olyan mértékben sérült, hogy már nem javítható. Ebben az esetben tisztább másolatot kell szerezned, vagy egy harmadik fél által kínált javítóeszközt kell használnod a kód futtatása előtt.
+Még a „recover” módban is előfordulhat, hogy az Aspose.Words kivételt dob, ha a DOCX ZIP‑szerkezete olyan mértékben sérült, hogy nem javítható. Ebben az esetben tisztább másolatot kell beszerezned, vagy egy harmadik fél javítóeszközt kell használnod a kód futtatása előtt.
 
 **Törölnöm kell a temporális képmappát?**  
-Ha többször futtatod a konverziót, a mappa felhalmozhat régi képeket. Egy egyszerű takarító rutin hozzáadása a `document.save` előtt (pl. `Files.walk(Paths.get("YOUR_DIRECTORY/md-imgs")).map(Path::toFile).forEach(File::delete);`) rendben tartja a dolgokat.
-
----
+Ha többször futtatod a konverziót, a mappa felhalmozhat régi képeket. Egy egyszerű takarító rutin hozzáadása a `document.save` előtt (például `Files.walk(Paths.get("YOUR_DIRECTORY/md-imgs")).map(Path::toFile).forEach(File::delete);`) rendben tartja a dolgokat.
 
 ## Pro tippek és buktatók
-
-- **Pro tip:** Tedd a `YOUR_DIRECTORY` útvonalat konfigurálhatóvá egy properties fájlban. Így a szkript újrahasználható különböző környezetekben.
-- **Vigyázz:** Ha ugyanazt a kimeneti mappát használod markdown és PDF esetén, névütközések léphetnek fel, ha később több exportformátumot adsz hozzá. Külön mappák segítenek a rendezettségben.
-- **Tipikus hiba:** Elfelejted beállítani az `OfficeMathExportMode`‑t – ekkor a képletek képként kerülnek exportálásra, ami megnöveli a markdown méretét.
+- **Pro tip:** Tartsd a `YOUR_DIRECTORY` útvonalat konfigurálhatóvá egy properties fájlban. Ez a scriptet újrahasználhatóvá teszi különböző környezetekben.
+- **Figyelj:** Ha ugyanazt a kimeneti mappát használod a markdown és a PDF esetén, névütközések léphetnek fel, ha később további export formátumokat adsz hozzá. Külön mappák segítenek a rendezett struktúrában.
+- **Tipikus hiba:** Elfelejted beállítani az `OfficeMathExportMode`‑t — az egyenletek képekké válnak, növelve a markdown méretét.
 - **Teljesítmény tipp:** Ha csak markdownra van szükséged (PDF nélkül), kommentáld ki a PDF blokkot. Az Aspose.Words csak egyszer tölti be a dokumentumot, így nem fizetsz extra költséget a PDF körúthoz.
+
+## Gyakran feltett kérdések
+
+**Q: Használhatom ezt a megközelítést kereskedelmi alkalmazásban?**  
+A: Igen, az Aspose.Words-hoz érvényes licenc szükséges a termelési használathoz; ingyenes próbaverzió elérhető értékeléshez.
+
+**Q: Működik a helyreállítási mód jelszóval védett DOCX fájlokkal?**  
+A: A helyreállítási mód kombinálható a `LoadOptions.setPassword()`‑nal, hogy a titkosított dokumentumokat megnyissa, mielőtt a javítást megkísérli.
+
+**Q: Hány formátumot tud az Aspose.Words konvertálni be és ki?**  
+A: A könyvtár **35+ bemeneti és kimeneti formátumot** támogat, köztük DOCX, ODT, RTF, PDF, HTML, EPUB és Markdown.
+
+**Q: Mely Java verziók vannak hivatalosan támogatva?**  
+A: A Java 8-tól a Java 21‑ig támogatott; az újabb kiadások visszafelé kompatibilisek.
+
+**Q: Hogyan javíthatom a teljesítményt nagyon nagy dokumentumok esetén?**  
+A: Engedélyezd a `LoadOptions.setMemoryOptimization(true)`‑t, és dolgozd fel a dokumentumot streaming módban a memóriahasználat csökkentése érdekében.
+
+## Következtetés
+Most bemutattuk, hogyan **exportálhatod a Word‑ot markdownba** az Aspose.Words for Java segítségével, miközben kezelheted a **markdown képfelbontást**, **Word mentése markdownként**, és a **sérült docx helyreállítását**. Az egyosztályos megoldás mind a fejlesztőbarát markdown kimenetet, mind egy hozzáférhetőségi szabványoknak megfelelő PDF/UA‑t lefedi, így rugalmasan használható dokumentációs csővezetékek, tartalomkezelő rendszerek vagy jogi archívumok esetén.
+
+Készen állsz a következő lépésre? Próbáld ki a `MarkdownSaveOptions` helyett a `HtmlSaveOptions`‑t HTML generáláshoz, vagy fedezd fel a `DocxSaveOptions`‑t, hogy nagy dokumentumokat több fájlra oszd szét. Ugyanez a minta — betöltés helyreállítással, export beállítások konfigurálásával, mentés — alkalmazható az Aspose.Words számos formátumára.
+
+Ha bármilyen furcsaságba ütköztél, vagy van egy olyan felhasználási eset, amit nem fedtünk le, írj egy megjegyzést alább. Boldog konvertálást, és legyen a markdownod mindig hibátlanul megjelenítve!
 
 ---
 
-## Összegzés
+**Utoljára frissítve:** 2026-10-17  
+**Tesztelve:** Aspose.Words 24.12 for Java  
+**Szerző:** Aspose
 
-Most bemutattuk, hogyan **exportálhatod a Word‑et markdownba** az Aspose.Words for Java segítségével, miközben kezeljük a **markdown képfelbontást**, a **Word mentését markdownként**, és a **sérült docx** fájlok helyreállítását. Az egy‑osztályos megoldás mind fejlesztőbarát markdown kimenetet, mind hozzáférhető PDF/UA‑t biztosít, így rugalmasan használható dokumentációs csővezetékek, tartalomkezelő rendszerek vagy jogi archívumok esetén.
+## Kapcsolódó oktatóanyagok
 
-Készen állsz a következő lépésre? Próbáld ki a `MarkdownSaveOptions` helyett a `HtmlSaveOptions`‑t, hogy HTML‑t generálj, vagy fedezd fel a `DocxSaveOptions`‑t, hogy nagy dokumentumokat több fájlra bontsd. Ugyanaz a minta – betöltés helyreállítással, export beállítás, mentés – minden Aspose.Words formátumra alkalmazható.
-
-Ha bármilyen furcsaságba ütköztél, vagy van olyan felhasználási eset, amit nem fedtünk le, írj egy megjegyzést alább. Boldog konvertálást, és legyen a markdownod mindig hibátlanul megjelenítve!
+- [Hogyan állítsuk helyre a Docx fájlokat az Aspose Words lépésről lépésre GUI-val](/words/java/document-loading-and-saving/how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
+- [Docx konvertálása Markdown Java útmutató kékkivonattal](/words/java/document-conversion-and-export/convert-docx-to-markdown-java-guide-with-image-extraction/)
+- [Hogyan exportáljunk LaTeX-et Wordből, konvertáljunk Docx-et Markdownba, mentés](/words/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

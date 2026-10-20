@@ -45,7 +45,7 @@ Salvar imagens do Word significa localizar programaticamente cada imagem incorpo
 A seguir, um resumo conciso do fluxo de trabalho típico. (O código real é mostrado nos tutoriais vinculados; aqui nos concentramos no raciocínio.)
 
 1. **Crie uma instância `Document`** – carregue o arquivo Word de origem (`.docx`, `.doc`, etc.).  
-2. **Itere pela `NodeCollection` do documento** para encontrar nós `Shape` que contêm imagens.  
+2. **Itere pela `NodeCollection` do documento`** para encontrar nós `Shape` que contêm imagens.  
 3. **Extraia cada imagem** via a API `Shape.getImageData()` e grave-a em um arquivo usando `ImageData.save()`.
 
 > *Dica profissional:* `Document.getChildNodes(NodeType.SHAPE, true)` para recuperar todas as formas, incluindo as que estão dentro de cabeçalhos, rodapés e notas de rodapé.
@@ -115,9 +115,10 @@ As configurações de documentos são a chave para entregar documentos adaptados
 ### [Como Recuperar DOCX – Carregar Arquivos Corrompidos com Opções de Recuperação](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
 ### [Recuperar docx corrompido – Guia completo para corrigir e processar documentos](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
-
 ### [Como Recuperar Arquivos DOCX – Guia Java Passo a Passo](./how-to-recover-docx-files-step-by-step-java-guide/)
 
+### [Abrir Documento Word Corrompido – Definir Modo de Recuperação em Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
+### [Recuperar docx corrompido com Aspose.Words – Guia Java completo](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
 ### [Capturar avisos de substituição de fontes em Java com Aspose.Words – Guia completo](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [Como recuperar docx – Guia completo para ler arquivos Word corrompidos](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 ### [Definir modo de recuperação para recuperar documento Word corrompido](./set-recovery-mode-to-recover-broken-word-document/)
@@ -130,6 +131,16 @@ As configurações de documentos são a chave para entregar documentos adaptados
 ### [Capturar Avisos de Substituição de Fonte – Detectar Fontes Ausentes](./capture-font-substitution-warnings-detect-missing-fonts/)
 
 ### [Salvar Documento Word – Definir Configurações de Fonte, Tratar Fontes Ausentes](./save-word-document-set-font-settings-handle-missing-fonts/)
+### [Recuperar Documento Word – Guia Completo para Definir o Modo de Recuperação em Java](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
+### [Recuperar docx corrompido usando Aspose.Words Java](./recover-corrupted-docx-using-aspose-words-java/)
+### [Registrar callback de aviso em Java – Rastrear fontes ausentes](./register-warning-callback-in-java-track-missing-fonts/)
+### [Detectar substituição de fonte ausente em Java – Guia completo Aspose.Words](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+### [Recuperar docx corrompido – Guia completo para corrigir e processar documentos](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc)
+### [Recuperar DOCX Corrompido em Java – Guia de Programação Completo](./recover-corrupted-docx-in-java-complete-programming-guide/)
+### [Registrar avisos de substituição de fontes em Java com Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
+### [Recuperar Documento Word Corrompido Usando Aspose.Words – Guia](./recover-corrupted-word-document-using-aspose-words-guide/)
+### [Tutorial de Callback de Aviso – Carregar Documento Word em Java](./warning-callback-tutorial-load-word-document-in-java/)
+### [Configurar LoadOptions para Avisos – Guia Java Completo](./configure-loadoptions-for-warnings-complete-java-guide/)
 
 ## Perguntas Frequentes
 

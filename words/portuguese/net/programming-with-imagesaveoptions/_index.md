@@ -35,6 +35,10 @@ Os tutoriais também abordam os conceitos básicos de manipulação de imagens, 
 | [Como Definir DPI ao Converter Word para PNG – Guia de Exportação em Alta Resolução](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) | Aprenda a exportar imagens PNG em alta resolução definindo o DPI ao converter documentos Word com Aspose.Words para .NET. |
 | [Criar Grade PNG a partir de Documento Word – Guia Completo](./create-png-grid-from-word-document-complete-guide/) | Aprenda a gerar uma grade de imagens PNG a partir de um documento Word usando Aspose.Words para .NET com este guia passo a passo. |
 | [Como definir resolução ao converter Word para PNG – Guia completo](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Aprenda a definir a resolução ao converter documentos Word para PNG usando Aspose.Words para .NET com este guia passo a passo. |
+| [Exportar Word como PNG – Converter DOCX em Uma Imagem](./export-word-as-png-convert-docx-to-one-image/) | Aprenda a exportar um documento Word inteiro como uma única imagem PNG usando Aspose.Words para .NET. |
+| [Converter docx para png – Guia completo passo a passo](./convert-docx-to-png-complete-step-by-step-guide/) | Aprenda a converter documentos docx em imagens PNG usando Aspose.Words para .NET com este guia passo a passo detalhado. |
+| [Converter DOCX para PNG – Guia Completo em C#](./convert-docx-to-png-complete-c-guide/) | Aprenda a converter documentos DOCX em imagens PNG usando Aspose.Words para .NET com este guia passo a passo. |
+| [Como definir DPI – Exportar Word para PNG em grade em C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Aprenda a definir o DPI ao exportar documentos Word para imagens PNG em grade usando Aspose.Words para .NET com C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

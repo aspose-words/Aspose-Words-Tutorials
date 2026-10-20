@@ -70,7 +70,7 @@ Aspose.Words for .NET グラフィックスプログラミングチュートリ�
 | [グラフのデータラベルのデフォルトオプションを設定する](./default-options-for-data-labels/) Aspose.Words for .NET を使用して、グラフのデータラベルのデフォルトオプションを設定する方法を学びましょう。ステップバイステップのガイドに従って、簡単にグラフを作成およびカスタマイズできます。 |
 | [グラフ内の単一のグラフデータポイントをカスタマイズする](./single-chart-data-point/) Aspose.Words for .NET を使用して、グラフの個々のデータポイントをカスタマイズする方法を、詳細なステップバイステップガイドで学びましょう。独自のマーカーとサイズでグラフの魅力を高めましょう。 |
 | [チャート内の単一のチャートシリーズをカスタマイズする](./single-chart-series/) Aspose.Words for .NET を使用して、Word 文書内の単一のグラフ系列をカスタマイズする方法を学びましょう。ステップバイステップのガイドに従って、シームレスに操作できます。 |
-
+| [C# を使用して Word にチャートの凡例を表示する – 完全ステップバイステップガイド](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) Aspose.Words for .NET を使用して、Word 文書にチャートの凡例を表示する方法をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

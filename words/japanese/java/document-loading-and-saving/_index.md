@@ -84,6 +84,9 @@ Aspose.Words for Java の多様性を探り、さまざまな形式でドキュ�
 
 ### [Aspose.Words for Java のロードオプションの使用](./using-load-options/)
 
+### [警告コールバック チュートリアル – JavaでWord文書を読み込む](./warning-callback-tutorial-load-word-document-in-java/)
+### [警告用 LoadOptions の構成 – 完全 Java ガイド](./configure-loadoptions-for-warnings-complete-java-guide/)
+
 ### [Aspose.Words for Java の RTF ロードオプションの設定](./configuring-rtf-load-options/)
 
 ### [Aspose.Words for Java でテキストファイルを読み込む](./loading-text-files/)
@@ -118,6 +121,11 @@ Aspose.Words for Java の多様性を探り、さまざまな形式でドキュ�
 
 ### [Aspose.Words for Java で破損した docx を復元 – 完全ガイド](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 
+### [破損した Word ドキュメントを開く – Java でリカバリーモードを設定](./open-corrupted-word-document-set-recovery-mode-in-java/)
+### [Aspose.Words for Java を使用した破損した docx の復元](./recover-corrupted-docx-using-aspose-words-java/)
+### [Aspose.Words で破損した docx を復元 – 完全 Java ガイド](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
+### [Java で破損した DOCX を復元 – 完全プログラミングガイド](./recover-corrupted-docx-in-java-complete-programming-guide/)
+
 ### [Java でフォント置換警告を取得する – Aspose.Words 完全ガイド](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [docx の復元方法 – 壊れた Word ファイルを読む完全ガイド](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 ### [破損した Word 文書を回復するためのリカバリーモードの設定](./set-recovery-mode-to-recover-broken-word-document/)
@@ -134,6 +142,15 @@ Aspose.Words for Java の多様性を探り、さまざまな形式でドキュ�
 ### [Word ドキュメントを保存 – フォント設定と欠落フォントの処理](./save-word-document-set-font-settings-handle-missing-fonts/)
 
 ### [DOCX ファイルの復元方法 – ステップバイステップ Java ガイド](./how-to-recover-docx-files-step-by-step-java-guide/)
+
+### [Word ドキュメントの復元 – Java でリカバリモードを設定する完全ガイド](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
+
+### [Java で警告コールバックを登録 – 欠落フォントの追跡](./register-warning-callback-in-java-track-missing-fonts/)
+
+### [Java でフォント置換の検出 – 完全 Aspose.Words ガイド](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+### [Aspose.Words を使用した破損した Word ドキュメントの復元 – ガイド](./recover-corrupted-word-document-using-aspose-words-guide/)
+
+### [Java でフォント置換警告をログに記録する – Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
 
 ## よくある質問
 

@@ -126,6 +126,10 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 ### [Recuperar docx corrupto – Guía completa para reparar y procesar documentos](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 
 ### [Cómo recuperar archivos DOCX – Guía paso a paso Java](./how-to-recover-docx-files-step-by-step-java-guide/)
+### [Abrir documento Word corrupto – Establecer modo de recuperación en Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
+### [Recuperar docx corrupto usando Aspose.Words Java](./recover-corrupted-docx-using-aspose-words-java/)
+### [Recuperar docx corrupto con Aspose.Words – Guía completa Java](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
+### [Recuperar DOCX corrupto en Java – Guía completa de programación](./recover-corrupted-docx-in-java-complete-programming-guide/)
 
 ### [Capturar advertencias de sustitución de fuentes en Java con Aspose.Words – Guía completa](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [Cómo recuperar docx – Guía completa para leer archivos Word corruptos](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
@@ -137,6 +141,19 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 ### [Recuperar documento de Word dañado – Guía completa de Java](./recover-broken-word-document-complete-java-guide/)
 
 ### [Capturar advertencias de sustitución de fuentes – Detectar fuentes faltantes](./capture-font-substitution-warnings-detect-missing-fonts/)
+
+### [Recuperar documento Word – Guía completa para establecer el modo de recuperación en Java](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
+
+### [Registrar devolución de llamada de advertencia en Java – Rastrear fuentes faltantes](./register-warning-callback-in-java-track-missing-fonts/)
+
+### [Detectar sustitución de fuentes faltantes en Java con Aspose.Words – Guía completa](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+### [Recuperar documento Word dañado usando Aspose.Words – Guía](./recover-corrupted-word-document-using-aspose-words-guide/)
+
+### [Tutorial de devolución de llamada de advertencia – Cargar documento Word en Java](./warning-callback-tutorial-load-word-document-in-java/)
+
+### [Registrar advertencias de sustitución de fuentes en Java con Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
+
+### [Configurar LoadOptions para advertencias – Guía completa Java](./configure-loadoptions-for-warnings-complete-java-guide/)
 
 ## Preguntas frecuentes
 

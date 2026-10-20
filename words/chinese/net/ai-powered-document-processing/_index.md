@@ -54,6 +54,21 @@
 | [在 C# 中检查 Word 文档语法 – 完整编程指南](./check-grammar-word-document-in-c-complete-programming-guide/) 使用 Aspose.Words for .NET 在 C# 中检查 Word 文档的语法错误，提供完整的编程指南。|
 | [如何在 C# 中加载 Word 并使用 AI 重写段落](./how-to-load-word-in-c-and-rewrite-paragraph-with-ai/) 了解如何使用 Aspose.Words for .NET 在 C# 中加载 Word 文档并利用 AI 重写段落，实现智能内容编辑。|
 | [如何在 C# 中使用 Aspose.Words AI 检查语法](./how-to-check-grammar-in-c-with-aspose-words-ai/) 使用 Aspose.Words AI 在 C# 中进行语法检查，帮助您快速发现并纠正文档中的错误，提高写作质量。|
+| [在 C# 中连接本地 LLM – 完整编程指南](./connect-to-local-llm-in-c-complete-programming-guide/) 学习如何在 C# 项目中集成本地大型语言模型，实现离线 AI 文档处理。|
+| [使用 LLM 与 Aspose.Words – 在 C# 中改写段落](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) 学习如何在 C# 中使用大型语言模型与 Aspose.Words 结合，实现段落改写，提高文档质量。|
+| [如何在 C# 中检查语法 – Word 文档完整指南](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) 学习如何在 C# 使用 Aspose.Words 检查 Word 文档的语法，提升文档质量。|
+| [使用 Anthropic Claude 汇总 Word 文档 – C# 完整指南](./summarize-word-document-in-c-complete-guide-using-anthropic/) 学习如何在 C# 中使用 Anthropic Claude 与 Aspose.Words 集成，实现高效的 Word 文档摘要。|
+| [使用自定义 GPT 模型在 C# 中汇总 Word 文档 – 完整指南](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) 使用 Aspose.Words for .NET 与自定义 GPT 模型在 C# 中实现文档摘要，提供完整的分步指南。|
+| [使用 Aspose.Words AI 重写 Word 文档中的文本 – 完整指南](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) 了解如何使用 Aspose.Words AI 在 Word 文档中重写文本，实现内容改写和优化的完整步骤指南。|
+| [如何使用 Aspose.Words 在 C# 中检查语法 – 指南](./how-to-check-grammar-in-c-with-aspose-words-guide/) 使用 Aspose.Words for .NET 在 C# 中实现语法检查，提升文档质量的实用指南。|
+| [如何在 Aspose.Words 中使用 Summarize – 完整指南](./how-to-use-summarize-in-aspose-words-complete-guide/) 使用 Aspose.Words for .NET 的 Summarize 功能，实现高效文档摘要的完整指南。|
+| [使用 AI 重写段落（C#）– 如何配置本地 LLM](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) 使用 Aspose.Words for .NET 与本地大语言模型结合，在 C# 中实现段落自动重写，提高文档编辑效率。|
+| [使用 Aspose.Words AI 检查语法 – 完整指南](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) 使用 Aspose.Words for .NET 的 AI 功能检查文档语法，提升写作质量的完整指南。|
+| [如何使用 C# 检查 Word 中的语法 – 完整指南](./how-to-check-grammar-in-word-with-c-complete-guide/) 使用 Aspose.Words for .NET 与 C# 实现 Word 文档语法检查的完整步骤指南。|
+| [使用 AI 创建摘要 – C# Aspose Words 教程](./create-summary-with-ai-c-aspose-words-tutorial/) 使用 Aspose.Words for .NET 与 C# 实现 AI 文档摘要的完整指南。|
+| [如何在 C# 中使用 Aspose.Words 检查语法 – 步骤指南](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) 了解如何使用 Aspose.Words for .NET 在 C# 中进行语法检查，提升文档质量的分步指南。|
+| [使用本地 LLM 汇总 Word 文档 – 步骤详解 C# 指南](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) 使用 Aspose.Words for .NET 与本地大型语言模型结合，提供 C# 步骤指南，实现高效的 Word 文档摘要。|
+| [使用 Aspose.Words AI 检查 Word 语法 – 完整指南](./check-word-grammar-with-aspose-words-ai-complete-guide/) 通过 Aspose.Words AI 检查 Word 文档的语法错误，提供完整的 C# 实现步骤和最佳实践。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

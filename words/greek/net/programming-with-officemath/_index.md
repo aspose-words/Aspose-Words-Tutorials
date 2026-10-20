@@ -28,9 +28,13 @@
 | [Πώς να μετατρέψετε εξισώσεις στο Word σε LaTeX – αποθήκευση ως TXT](./how-to-convert-equations-in-word-to-latex-save-as-txt/) | Μάθετε πώς να μετατρέψετε εξισώσεις Word σε LaTeX και να τις αποθηκεύσετε ως αρχείο TXT χρησιμοποιώντας Aspose.Words για .NET. |
 | [Μετατροπή Word σε LaTeX – Πλήρης Οδηγός C# για Εξαγωγή Office Math ως LaTeX](./convert-word-to-latex-complete-c-guide-to-export-office-math/) | Μάθετε πώς να μετατρέπετε έγγραφα Word σε LaTeX, εξάγοντας μαθηματικές εξισώσεις Office Math με C#. |
 | [Αποθήκευση Office Math LaTeX – Εξαγωγή εξισώσεων Word σε LaTeX με C#](./save-office-math-latex-export-word-equations-to-latex-in-c/) | Μάθετε πώς να εξάγετε εξισώσεις Office Math από έγγραφα Word σε μορφή LaTeX χρησιμοποιώντας C#. |
+| [Μετατροπή DOCX σε TXT – Εξαγωγή Εξισώσεων Word σε LaTeX με C#](./convert-docx-to-txt-export-word-equations-to-latex-in-c/) | Μάθετε πώς να μετατρέπετε αρχεία DOCX σε TXT και να εξάγετε τις εξισώσεις Word σε LaTeX χρησιμοποιώντας C#. |
+| [Πώς να Εξάγετε Μαθηματικά από το Word σε LaTeX – Πλήρης Οδηγός](./how-to-export-math-from-word-to-latex-complete-guide/) | Μάθετε πώς να εξάγετε μαθηματικές εξισώσεις από έγγραφα Word σε μορφή LaTeX με πλήρη οδηγό βήμα-βήμα. |
 
 | [Αποθήκευση docx ως txt – Πλήρης οδηγός C# για εξαγωγή μαθηματικών Word ως LaTeX](./save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/) | Μάθετε πώς να μετατρέψετε αρχεία docx σε txt και να εξάγετε μαθηματικά Word σε LaTeX με C#. |
 | [Αποθήκευση docx ως txt – Εξαγωγή Word Math σε LaTeX σε C#](./save-docx-as-txt-export-word-math-to-latex-in-c/) | Μάθετε πώς να αποθηκεύετε αρχεία docx ως txt και να εξάγετε μαθηματικά Word σε LaTeX με C#. |
+| [Πώς να Εξάγετε LaTeX από το Word – Πλήρης Οδηγός Προγραμματισμού](./how-to-export-latex-from-word-complete-programming-guide/) | Μάθετε πώς να εξάγετε LaTeX από έγγραφα Word χρησιμοποιώντας Aspose.Words για .NET σε πλήρη βήμα-βήμα οδηγό. |
+| [Μετατροπή εξισώσεων Word σε LaTeX – Πλήρης οδηγός C#](./convert-word-equations-to-latex-complete-c-guide/) | Μάθετε πώς να μετατρέπετε εξισώσεις Word σε LaTeX χρησιμοποιώντας C# με πλήρη οδηγό βήμα-βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
