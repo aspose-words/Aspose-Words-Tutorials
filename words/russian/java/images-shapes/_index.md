@@ -33,6 +33,8 @@
 
 ### [Как визуализировать страницы документа в виде миниатюр с помощью Aspose.Words для Java](./render-word-pages-thumbnails-aspose-java/)
 Узнайте, как создавать высококачественные миниатюры и растровые изображения документов Word с помощью Aspose.Words для Java. Расширьте свои возможности обработки документов сегодня.
+### [Создание документа Word в Java – Добавление прямоугольной фигуры с эффектом тени](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+Узнайте, как добавить прямоугольную форму с теневым эффектом в документ Word с помощью Aspose.Words для Java.
 
 ### [Добавление тени к фигуре в Word – Полное руководство Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для Java.
@@ -43,6 +45,47 @@
 
 ### [Как добавить тень к фигуре в C# – легко добавить тень](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
 Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для C#.
+
+### [Создание прямоугольной фигуры в документе Word на Java – Полное пошаговое руководство](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Узнайте, как создать прямоугольную фигуру в документе Word с помощью Aspose.Words для Java, следуя полному пошаговому руководству.
+
+### [Создание текстового поля в Java – Полное руководство по добавлению теней](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+Узнайте, как добавить текстовое поле с теневыми эффектами в документ Word с помощью Aspose.Words для Java.
+### [Создание PDF-документа с прямоугольной фигурой – Полное руководство C#](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+Подробный пример создания PDF с прямоугольной фигурой в Aspose.Words для C#.
+
+### [Создание документа Word в Java – Добавление тени к фигуре](./create-word-document-java-add-shadow-to-shape-guide/)
+Узнайте, как добавить тень к фигуре в документ Word с помощью Aspose.Words для Java.
+
+### [Группировка фигур в Word с помощью Java – Полное пошаговое руководство](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+Узнайте, как группировать фигуры в документах Word, используя Aspose.Words для Java, с подробными примерами кода.
+
+### [Создание документа Word в Java – Добавление фигуры с эффектом тени](./create-word-document-java-add-shape-with-shadow-effect/)
+Узнайте, как добавить фигуру с эффектом тени в документ Word с помощью Aspose.Words для Java.
+
+### [Создание прямоугольной фигуры в Java с Aspose.Words – Полное руководство](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Узнайте, как полностью создать и настроить прямоугольную фигуру в документе Word с помощью Aspose.Words для Java.
+
+### [Как вставить групповую фигуру в Java – Полное руководство](./how-to-insert-group-shape-in-java-complete-guide/)
+Узнайте, как добавить групповую фигуру в документ Word с помощью Aspose.Words для Java.
+
+### [Создание пустого документа Word с группированными прямоугольниками – руководство C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Узнайте, как создать пустой документ Word и добавить в него сгруппированные прямоугольники с помощью Aspose.Words для C#.
+
+### [Вставка прямоугольной фигуры в Java – Группировка и позиционирование фигур](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+Узнайте, как группировать и позиционировать прямоугольные фигуры в документах Word с помощью Aspose.Words для Java.
+
+### [Вставка изображения в Word – пошаговое руководство Aspose.Words](./insert-image-into-word-aspose-words-step-by-step-guide/)
+Узнайте, как вставлять изображения в документы Word с помощью Aspose.Words для Java.
+
+### [Вставка прямоугольной фигуры в Word с помощью C# – полное руководство](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+Полное руководство по вставке прямоугольной фигуры в документ Word с использованием C# и Aspose.Words.
+### [Создание пустого документа Word с теневым эффектом в Java – Полное руководство](./create-blank-word-with-shadow-in-java-full-guide/)
+Подробное руководство по созданию пустого документа Word с теневой фигурой в Java с использованием Aspose.Words.
+### [Группировка фигур в Word – полное руководство по программированию](./group-shapes-in-word-complete-programming-guide/)
+
+### [Скрыть изображение в Word – пошаговое руководство Java с Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Узнайте, как скрыть изображение в документе Word с помощью Aspose.Words для Java.
 
 ## Дополнительные ресурсы
 

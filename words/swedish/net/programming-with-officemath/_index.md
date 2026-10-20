@@ -32,6 +32,9 @@ Aspose.Words för .NET-handledningarna om ordbehandling med OfficeMath guidar di
 | [Hur man konverterar ekvationer i Word till LaTeX – Spara som TXT](./how-to-convert-equations-in-word-to-latex-save-as-txt/) | Lär dig hur du konverterar Word‑ekvationer till LaTeX och sparar dem som TXT‑filer med Aspose.Words för .NET. |
 | [Spara Office Math LaTeX – Exportera Word‑ekvationer till LaTeX i C#](./save-office-math-latex-export-word-equations-to-latex-in-c/) | Lär dig hur du sparar Office Math som LaTeX och exporterar Word‑ekvationer till LaTeX med C#. |
 | [Konvertera DOCX till TXT – Exportera Word-ekvationer till LaTeX i C#](./convert-docx-to-txt-export-word-equations-to-latex-in-c/) | Lär dig hur du konverterar ett DOCX till TXT och exporterar Word-ekvationer till LaTeX med C#. |
+| [Exportera matematik från Word till LaTeX – Komplett guide](./how-to-export-math-from-word-to-latex-complete-guide/) | Lär dig steg-för-steg hur du exporterar matematiska ekvationer från Word till LaTeX med Aspose.Words för .NET. |
+| [Exportera LaTeX från Word – Komplett programmeringsguide](./how-to-export-latex-from-word-complete-programming-guide/) | Lär dig hur du exporterar LaTeX från Word-dokument med en komplett guide för C#-programmering. |
+| [Konvertera Word-ekvationer till LaTeX – Komplett C#-guide](./convert-word-equations-to-latex-complete-c-guide/) | Lär dig hur du konverterar Word-ekvationer till LaTeX med en komplett C#-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

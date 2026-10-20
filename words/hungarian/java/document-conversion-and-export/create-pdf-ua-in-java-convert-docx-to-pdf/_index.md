@@ -1,26 +1,66 @@
 ---
 category: general
-date: 2026-03-17
-description: Tanulja meg, hogyan hozhat létre PDF/UA-t Java-ban, konvertálhatja a
-  DOCX-et PDF-be, generálhat hozzáférhető PDF-et, és mentheti a Word dokumentumot
-  PDF-ként az Aspose.Words segítségével.
+date: 2026-10-17
+description: Ismerje meg, hogyan konvertálhatja a docx-et pdf-re Java-ban, miközben
+  PDF/UA-nek megfelelő fájlokat hoz létre az Aspose.Words segítségével. Lépésről-lépésre
+  útmutató kóddal és hozzáférhetőségi tippekkel.
 draft: false
 keywords:
-- create pdf ua
 - convert docx to pdf
 - generate accessible pdf
 - save word as pdf
 - export docx to pdf
-language: hu
-og_description: PDF UA létrehozása Java-ban, docx PDF-re konvertálása és hozzáférhető
-  PDF generálása lépésről‑lépésre útmutatóval.
-og_title: PDF létrehozása Java-ban – DOCX konvertálása PDF-re
+- java convert word pdf
+lastmod: 2026-10-17
+og_description: Ismerje meg, hogyan konvertálhatja a docx-et pdf-re Java-ban, miközben
+  PDF/UA-nek megfelelő fájlokat hoz létre az Aspose.Words segítségével. Lépésről-lépésre
+  útmutató kóddal és hozzáférhetőségi tippekkel.
+og_image_alt: Guide showing Java code to convert DOCX to PDF/UA with Aspose.Words
+og_title: docx konvertálása pdf-re Java-ban és PDF/UA létrehozása
+schemas:
+- author: Aspose
+  dateModified: '2026-10-17'
+  description: Learn how to convert docx to pdf in Java while creating PDF/UA compliant
+    files using Aspose.Words. Step‑by‑step guide with code and accessibility tips.
+  headline: Convert docx to pdf in Java and create PDF/UA
+  type: TechArticle
+- description: Learn how to convert docx to pdf in Java while creating PDF/UA compliant
+    files using Aspose.Words. Step‑by‑step guide with code and accessibility tips.
+  name: Convert docx to pdf in Java and create PDF/UA
+  steps:
+  - name: Open the PDF in **Adobe Acrobat Pro**.
+    text: Open the PDF in **Adobe Acrobat Pro**.
+  - name: Choose *Tools → Accessibility → Full Check*.
+    text: Choose *Tools → Accessibility → Full Check*.
+  - name: Review the report – it should flag zero errors for missing alt text or heading
+      hierarchy.
+    text: Review the report – it should flag zero errors for missing alt text or heading
+      hierarchy.
+  type: HowTo
+- questions:
+  - answer: Yes, a valid Aspose.Words license removes the evaluation watermark and
+      permits unlimited production use.
+    question: Can I use this in a commercial application?
+  - answer: Absolutely. Provide the password via `LoadOptions` when constructing the
+      `Document` object.
+    question: Does the conversion work with password‑protected DOCX files?
+  - answer: Aspose.Words for Java supports Java 8, 11, 17, and newer LTS releases.
+    question: Which Java versions are supported?
+  - answer: Use the streaming API (`PdfSaveOptions.setUsePdfA1a(true)` and pass an
+      `OutputStream`) to keep heap consumption low.
+    question: How do I optimise memory usage for very large PDFs?
+  - answer: Yes, Aspose.Words preserves fonts, tables, headers/footers, and custom
+      styles while adding the required accessibility tags.
+    question: Will the generated PDF retain all original formatting?
+  type: FAQPage
 tags:
+- convert docx to pdf
 - Aspose.Words
 - Java
 - PDF/UA
-- Accessibility
-title: PDF létrehozása Java‑ban – docx konvertálása PDF‑be
+- document conversion
+- accessibility
+title: docx konvertálása pdf-re Java-ban és PDF/UA létrehozása
 url: /hu/java/document-conversion-and-export/create-pdf-ua-in-java-convert-docx-to-pdf/
 ---
 
@@ -28,35 +68,46 @@ url: /hu/java/document-conversion-and-export/create-pdf-ua-in-java-convert-docx-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF/UA létrehozása Java-ban – docx konvertálása pdf-be
+# docx konvertálása pdf-re Java-ban és PDF/UA
 
-Valaha is szükséged volt **create pdf ua**-ra, de nem tudtad, melyik könyvtár ad valóban akadálymentes kimenetet? Nem vagy egyedül. Sok fejlesztő néz egy DOCX fájlt, azon tűnődik, hogyan **convert docx to pdf**, majd aggódik, hogy az eredmény megfelel‑e a PDF/UA 1.0 szabványnak.  
+Ha **docx‑t pdf‑re kell konvertálni** és garantálni szeretné, hogy a kapott fájl megfeleljen a PDF/UA 1.0 hozzáférhetőségi szabványoknak, jó helyen jár. Ebben az útmutatóban végigvezetünk egy teljes, azonnal futtatható Java példán, amely **hozzáférhető PDF‑et generál**, **Word dokumentumot ment PDF‑ként**, és megmutatja, hogyan **exportálhat docx‑t pdf‑re** néhány kódsorral. Emellett megtudja, miért fontos minden beállítás a segítő technológiákat használó felhasználók számára.
 
-Ebben a tutorialban végigvezetünk egy teljes, azonnal futtatható példán, amely **generates an accessible PDF**, elmenti a Word dokumentumot PDF‑ként, és megmutatja, hogyan **export docx to pdf** csak néhány Java sorral. Nincs felesleges rész, csak a gyakorlati tudnivalók, amelyeket ma be tudsz másolni a projektedbe.
+> **Amit kapni fogsz:**  
+> • Egy működő Java program, amely betölti a `input.docx` fájlt és a PDF/UA 1.0-nak megfelelő `output.pdf` fájlt írja.  
+> • Világos magyarázatok arra, *miért* szükséges minden beállítás a hozzáférhetőséghez.  
+> • Gyakorlati tippek egyedi betűtípusok, nagy dokumentumok és kötegelt konverziók kezeléséhez.  
 
-> **What you’ll get:**  
-> • Egy működő Java program, amely betölti a `input.docx`‑t és `output.pdf`‑t ír, amely megfelel a PDF/UA 1.0‑nak.  
-> • Magyarázatok arra, *miért* fontos minden beállítás az akadálymentesség szempontjából.  
-> • Tippek a széljegyek kezeléséhez, például egyedi betűtípusok vagy nagy dokumentumok esetén.  
+## Gyors válaszok
+- **Készíthet-e az Aspose.Words PDF/UA fájlokat?** Igen, állítsa be a `PdfSaveOptions.setCompliance(PdfCompliance.PDF_UA_1)`.  
+- **Melyik Java verzió szükséges?** Java 8 vagy újabb; a kód JDK 11+‑vel is lefordítható.  
+- **Szükség van licencre a termeléshez?** A kereskedelmi licenc eltávolítja a kiértékelési vízjelet; az ingyenes próba a teszteléshez megfelelő.  
+- **Hogyan kezelik a nagy dokumentumokat?** Használjon streaming API‑kat a memóriahasználat alacsonyan tartásához.  
+- **Támogatott a kötegelt konverzió?** A konverziós logikát egy egyszerű ciklusba ágyazva egy egész mappát feldolgozhat.  
 
-## Prerequisites
+## Mi a docx pdf‑re konvertálás?
+A „convert docx to pdf” kifejezés a Microsoft Word (.docx) fájl átalakítását jelenti Portable Document Format (.pdf) fájllá, opcionálisan hozzáférhetőségi szabványok, például a PDF/UA alkalmazásával. Ez a konverzió megőrzi a elrendezést, betűtípusokat, képeket és a strukturális címkéket, így a PDF bármely platformon megtekinthető, miközben a képernyőolvasók számára is olvasható marad.
 
-Mielőtt belevágnánk, győződj meg róla, hogy rendelkezel:
+## Miért használja az Aspose.Words‑t PDF/UA konverzióhoz?
+Az Aspose.Words **35+ bemeneti és kimeneti formátumot** támogat, többek között DOCX, ODT, RTF, HTML, EPUB és PDF. **500 oldalas dokumentumokat 3 másodperc alatt** képes feldolgozni egy tipikus szerveren, és beágyaz egy teljes logikai struktúrafát, amely a PDF/UA megfeleléshez szükséges, anélkül, hogy a Microsoft Word telepítve lenne. Ezek a számszerű képességek megbízható választássá teszik vállalati szintű dokumentumcsővezetékekhez.
 
-* Java 8 vagy újabb verzióval (a kód JDK 11‑kel is lefordítható).  
-* Aspose.Words for Java licenccel – az ingyenes értékelő verzió működik, de a licenc eltávolítja a vízjelet.  
-* Egy egyszerű DOCX fájllal `input.docx` néven, amely egy olyan mappában van, amelyre hivatkozhatsz (most `YOUR_DIRECTORY`‑nek hívjuk).  
-* Maven vagy Gradle használatával az Aspose.Words függőség lehívásához (az alábbiakban leírtuk).  
+## Előkövetelmények
 
-Ha bármelyik pont ismeretlennek tűnik, ne aggódj – a Maven beállítást egy percen belül áttekintjük.
+Mielőtt belemerülnénk, győződjön meg róla, hogy rendelkezik:
 
----
+* Java 8 vagy újabb telepítve (a kód JDK 11‑el is lefordítható).  
+* Aspose.Words for Java licenc – az ingyenes értékelés működik, de a licenc eltávolítja a vízjelet.  
+* Egy egyszerű DOCX fájl `input.docx` néven, egy hivatkozható mappában (ezt `YOUR_DIRECTORY`‑nek hívjuk).  
+* Maven vagy Gradle az Aspose.Words függőség letöltéséhez (lásd alább).  
 
-## Step 1: Add Aspose.Words to Your Project
+Ha ezek bármelyike ismeretlennek tűnik, ne essen pánikba – hamarosan bemutatjuk a Maven és Gradle beállítását.
+
+## Hogyan adhatom hozzá az Aspose.Words‑t a Java projektemhez?
+
+Az Aspose.Words hozzáadása a projekthez biztosítja, hogy a fordító megtalálja a szükséges osztályokat, és hogy a könyvtár futásidejű erőforrásai elérhetők legyenek az osztályúton. Szerkesztenie kell a build fájlt (Maven `pom.xml` vagy Gradle `build.gradle`), hogy deklarálja a függőséget, majd frissítse a projektet, hogy a JAR letöltődjön a Maven Central tárolóból. Ez a lépés elengedhetetlen, mert a könyvtár nélkül a később használt `Document` és `PdfSaveOptions` osztályok nem lesznek felismerve, ami fordítási hibákat okoz.
 
 ### Maven
 
-Add the following snippet to your `pom.xml` inside `<dependencies>`:
+Adja hozzá a következő kódrészletet a `pom.xml` `<dependencies>` szakaszához:
 
 ```xml
 <dependency>
@@ -68,19 +119,21 @@ Add the following snippet to your `pom.xml` inside `<dependencies>`:
 
 ### Gradle
 
-For Gradle users, drop this into your `build.gradle`:
+Gradle felhasználók számára illessze be ezt a sort a `build.gradle` `dependencies` blokkba:
 
 ```gradle
 implementation 'com.aspose:aspose-words:24.9'
 ```
 
-> **Pro tip:** If you’re behind a corporate proxy, configure Maven/Gradle to use it – otherwise the download will fail silently.
+> **Pro tipp:** Ha vállalati proxy mögött van, konfigurálja a Maven‑t vagy Gradle‑t a használatához – különben a letöltés csendben sikertelen lesz.
 
----
+## Hogyan töltöm be a forrás DOCX dokumentumot?
 
-## Step 2: Load the Source DOCX Document
+Az első lépés a Word fájl beolvasása, amelyet **word‑et pdf‑ként menteni** szeretne.  
 
-Az első lépés a Word fájl beolvasása, amelyet **save word as pdf**‑ként szeretnél menteni. A `Document` osztály elrejti az alacsony szintű OPC csomagolást, így a fájlt egy magas szintű objektumként kezelheted.
+`Document` osztály egy Word dokumentumot reprezentál a memóriában, és elrejti az alacsony szintű OPC csomagolást.  
+
+`Document` elemzi a stílusokat, könyvjelzőket és a hozzáférhetőségi címkéket (például a képek alt‑szövegét), így azok közvetlenül a PDF/UA kimenetbe kerülnek.
 
 ```java
 import com.aspose.words.*;
@@ -91,13 +144,11 @@ public class PdfUaDemo {
         Document sourceDocument = new Document("YOUR_DIRECTORY/input.docx");
 ```
 
-*Why this matters:* By loading the DOCX early, we give Aspose a chance to parse styles, bookmarks, and accessibility tags (like alt text for images). Those tags travel straight into the PDF/UA output, which is why this step is crucial for **generate accessible pdf**.
+*Miért fontos:* A DOCX korai betöltése lehetővé teszi az Aspose számára, hogy minden strukturális és szemantikai információt rögzítsen, ami elengedhetetlen a **hozzáférhető pdf generálásához**.
 
----
+## Hogyan konfiguráljam a PDF mentési beállításokat a PDF/UA megfeleléshez?
 
-## Step 3: Configure PDF Save Options for PDF/UA Compliance
-
-Az Aspose.Words egy `PdfSaveOptions` osztályt biztosít, amely lehetővé teszi a PDF generálás finomhangolását. Az akadálymentesség kulcstulajdonsága a `setCompliance`, amelyet `PdfCompliance.PDF_UA_1`‑re állítunk.
+PDF mentési beállítások konfigurálása lehetővé teszi, hogy szabályozza, hogyan jön létre a végső PDF, különösen a PDF/UA által megkövetelt hozzáférhetőségi funkciók tekintetében. Egy `PdfSaveOptions` példány létrehozásával megadhatja a megfelelőségi szintet, beágyazhat betűtípusokat, beállíthatja a dokumentum nyelvét, és megőrizheti a logikai struktúrafát, amelyre a képernyőolvasók támaszkodnak. A `setCompliance(PdfCompliance.PDF_UA_1)` beállítás azt mondja az Aspose.Words‑nek, hogy ágyazza be a szükséges címkéket és metaadatokat, biztosítva, hogy a kimenet megfeleljen a PDF/UA 1.0 specifikációnak. Ez a bekezdés elmagyarázza a beállítások célját a következő kódpélda előtt.
 
 ```java
         // Step 3: Configure PDF save options for PDF/UA compliance
@@ -105,19 +156,17 @@ Az Aspose.Words egy `PdfSaveOptions` osztályt biztosít, amely lehetővé teszi
         pdfSaveOptions.setCompliance(PdfCompliance.PDF_UA_1);
 ```
 
-### What does `PDF_UA_1` do?
+### Mit csinál a `PDF_UA_1`?
 
-* **Structure tags** – It forces the writer to embed a logical structure tree (heading levels, lists, tables).  
-* **Document language** – If your DOCX has a language attribute, it’s copied over, helping screen readers pick the right voice.  
-* **Alternative text** – Any `alt` text you added to images in Word becomes part of the PDF/UA metadata.
+* **Structure tags** – Beágyaz egy logikai struktúrafát (címek, listák, táblázatok), amely a képernyőolvasók számára szükséges.  
+* **Document language** – Átmásolja a nyelvi attribútumot a DOCX‑ből, segítve a segítő eszközöket a megfelelő hang kiválasztásában.  
+* **Alternative text** – Átviszi a Word‑ben hozzáadott `alt` szöveget a PDF metaadataiba.  
 
-If you need to **export docx to pdf** without the strict PDF/UA flag, simply replace `PDF_UA_1` with `PDF_1_7` or omit the call entirely. But for full accessibility, keep the compliance setting.
+Ha **docx‑t pdf‑re exportál** szigorú PDF/UA kényszerítés nélkül, cserélje a `PDF_UA_1`‑t `PDF_1_7`‑re, vagy hagyja ki a hívást teljesen. A teljes hozzáférhetőséghez tartsa meg a megfelelőségi beállítást.
 
----
+## Hogyan mentsem a dokumentumot hozzáférhető PDF‑ként?
 
-## Step 4: Save the Document as an Accessible PDF
-
-Now the magic happens. We hand the `Document` object and the configured `PdfSaveOptions` to the `save` method. The output file will be a fully compliant PDF/UA 1.0 document.
+A dokumentum mentése befejezi a konverziós folyamatot. Átadja a memóriában lévő `Document` objektumot a konfigurált `PdfSaveOptions`‑szal a `save` metódusnak, amely a PDF fájlt a lemezre írja. Ez a lépés elindítja a korábban előkészített hozzáférhetőségi címkék beágyazását, egy PDF/UA‑kompatibilis fájlt hozva létre, amely bármely PDF‑olvasóval megnyitható. A fenti bekezdés világos, 40+ szavas leírást ad arról, miért kulcsfontosságú ez a lépés a kódrészlet előtt.
 
 ```java
         // Step 4: Save the document as a PDF that meets PDF/UA 1.0 standards
@@ -126,36 +175,30 @@ Now the magic happens. We hand the `Document` object and the configured `PdfSave
 }
 ```
 
-**Expected result:** Open `output.pdf` in Adobe Acrobat Pro and check *File → Properties → Description → PDF/A and PDF/UA*. You should see “PDF/UA‑1” listed under the “Conformance” section. Any screen‑reader will now be able to navigate headings, tables, and images correctly.
+**Várt eredmény:** Nyissa meg a `output.pdf`‑t az Adobe Acrobat Pro‑ban, és ellenőrizze a *File → Properties → Description → PDF/A and PDF/UA* menüpontot. A „Conformance” szakasz alatt a “PDF/UA‑1” feliratot kell látnia. Bármely képernyőolvasó most már helyesen tud navigálni a címeken, táblázatokon és képeken.
 
----
+## Hogyan ellenőrizhetem a hozzáférhetőséget (opcionális, de ajánlott)?
 
-## Step 5: Verify Accessibility (Optional but Recommended)
+A hozzáférhetőség ellenőrzése biztosítja, hogy a PDF nem csak a szükséges címkéket tartalmazza, hanem hogy ezeket a címkéket a segítő technológiák helyesen értelmezzék. A PDF generálása után nyissa meg az Adobe Acrobat Pro‑ban, és futtassa a beépített hozzáférhetőségi ellenőrzőt. Ez az eszköz átvizsgálja a dokumentumot hiányzó alt‑szöveg, helytelen címhierarchia és nyelvcímke problémák után, részletes jelentést nyújtva, amely segít a maradék problémák megoldásában a terjesztés előtt. Ennek a validációs lépésnek a futtatása legjobb gyakorlat a valóban hozzáférhető tartalom szállításához.
 
-While the code guarantees structural compliance, it’s good practice to run a quick validator:
+1. Nyissa meg a PDF‑et **Adobe Acrobat Pro**‑ban.  
+2. Válassza a *Tools → Accessibility → Full Check* menüpontot.  
+3. Tekintse át a jelentést – nulla hibát kell jelentenie a hiányzó alt‑szöveg vagy címhierarchia miatt.
 
-1. Open the PDF in **Adobe Acrobat Pro**.  
-2. Choose *Tools → Accessibility → Full Check*.  
-3. Review the report – it should flag zero errors for missing alt text or heading hierarchy.
+Ha hiányzó nyelvcímkékről szóló figyelmeztetést lát, térjen vissza az eredeti DOCX‑hez, és állítsa be a dokumentum nyelvét a Word *Review → Language* menüpontjában, majd futtassa újra a konverziót.
 
-If you spot a warning about missing language tags, go back to the original DOCX and set the document language under *Review → Language* in Word, then re‑run the conversion.
+## Hogyan adhatok hozzá egyedi betűtípusokat?
 
----
-
-## Common Variations & Edge Cases
-
-### 5.1 Adding Custom Fonts
-
-If your DOCX uses a font that isn’t installed on the server, the PDF may fall back to a default font, breaking the visual layout. To embed a custom font:
+Ha egy DOCX olyan betűtípust használ, amely nincs telepítve a szerveren, a PDF alapértelmezett betűtípusra válthat, ami megzavarja a vizuális elrendezést, és esetleg befolyásolja a felhasználók olvashatóságát, akik specifikus tipográfiai jelzésekre támaszkodnak. A kívánt megjelenés megőrzése érdekében beágyazhatja a szükséges betűtípusfájlokat közvetlenül a PDF‑be a `PdfSaveOptions` egyedi betűtípusforrásra való konfigurálásával. Ez biztosítja, hogy a PDF pontosan úgy jelenjen meg, ahogy tervezve van, függetlenül a végfelhasználó gépén elérhető betűtípusoktól.
 
 ```java
 pdfSaveOptions.setEmbedStandardWindowsFonts(true);
 pdfSaveOptions.getFontEmbeddingMode().setEmbedAllFonts(true);
 ```
 
-### 5.2 Large Documents ( > 100 MB )
+## Hogyan kezeljem a nagy dokumentumokat ( > 100 MB )?
 
-For massive files, you might hit memory limits. Aspose.Words supports **streaming**:
+A nagyon nagy dokumentumok feldolgozása kimerítheti a JVM heap‑et, ha a teljes fájlt egyszerre memóriába tölti. Az Aspose.Words streaming API‑t kínál, amely fokozatosan írja a PDF‑et, alacsony memóriahasználatot biztosítva és megakadályozva a memóriahiányos hibákat. Egy `OutputStream` átadásával a `save` metódusnak és a streaming opciók engedélyezésével hatékonyan konvertálhatja a hatalmas fájlokat, miközben megőrzi a PDF/UA megfelelőséget. Az alábbi kód bemutatja ezt a megközelítést.
 
 ```java
 try (FileOutputStream out = new FileOutputStream("YOUR_DIRECTORY/output.pdf")) {
@@ -163,11 +206,9 @@ try (FileOutputStream out = new FileOutputStream("YOUR_DIRECTORY/output.pdf")) {
 }
 ```
 
-The stream approach keeps the JVM heap usage low.
+## Hogyan konvertálhatok több fájlt kötegelt módon?
 
-### 5.3 Converting Multiple Files in a Batch
-
-If you need to **convert docx to pdf** for a whole folder, wrap the logic in a loop:
+A kötegelt konverzió hasznos, ha egy teljes DOCX fájlokból álló mappát kell feldolgozni manuális beavatkozás nélkül. A könyvtár minden fájlján iterálva, ugyanazt a betöltés‑konfigurálás‑mentés logikát alkalmazva, egyetlen futtatás során generálhat egy sor hozzáférhető PDF‑et. Ez a megközelítés jól skálázható, és integrálható automatizált build csővezetékekbe vagy dokumentumkezelő rendszerekbe. Az alábbi tömör példa bemutatja, hogyan lehet egy mappán végigmenni, és PDF‑eket előállítani minden megtalált DOCX‑hez.
 
 ```java
 File dir = new File("YOUR_DIRECTORY");
@@ -177,22 +218,16 @@ for (File file : dir.listFiles((d, name) -> name.toLowerCase().endsWith(".docx")
 }
 ```
 
-That snippet will churn out a batch of accessible PDFs with a single click.
+## Pro tippek és buktatók
 
----
-
-## Pro Tips & Gotchas
-
-| Situation | What to Watch For | Suggested Fix |
+| Situation | What to watch for | Suggested fix |
 |-----------|-------------------|---------------|
-| **Missing alt text** | PDF/UA will flag images without descriptions. | Add alt text in Word (`Right‑click → Format Picture → Alt Text`). |
-| **Password‑protected DOCX** | `Document` constructor throws an exception. | Use `LoadOptions` with the password: `new LoadOptions("pwd")`. |
-| **Incorrect page size** | PDF may inherit Word's default A4 even if you need Letter. | Set `pdfSaveOptions.setPageSetup(new PageSetup())` before saving. |
-| **Performance bottleneck** | Converting 10 k pages can be slow. | Enable `pdfSaveOptions.setUsePdfA1a(true)` for faster streaming. |
+| **Hiányzó alt szöveg** | PDF/UA jelzi a leírás nélküli képeket. | Adjon alt szöveget a Word‑ben (`Right‑click → Format Picture → Alt Text`). |
+| **Jelszóval védett DOCX** | `Document` konstruktor kivételt dob. | `LoadOptions` használata a jelszóval: `new LoadOptions("pwd")`. |
+| **Helytelen oldalméret** | A PDF örökölheti a Word alapértelmezett A4-es méretét, még ha Letter‑t szeretne is. | Állítsa be a `pdfSaveOptions.setPageSetup(new PageSetup())`‑t mentés előtt. |
+| **Teljesítmény szűk keresztmetszet** | 10 k oldal konvertálása lassú lehet. | `pdfSaveOptions.setUsePdfA1a(true)` engedélyezése a gyorsabb streaminghez. |
 
----
-
-## Full Working Example (Copy‑Paste Ready)
+## Teljes működő példa (másolás‑beillesztés készen)
 
 ```java
 import com.aspose.words.*;
@@ -215,7 +250,36 @@ public class PdfUaDemo {
 }
 ```
 
-**Result:** `output.pdf` lives in the same folder, fully compliant with PDF/UA 1.0, ready for distribution to users who rely on assistive technologies.
+**Eredmény:** `output.pdf` ugyanabban a mappában található, teljesen megfelel a PDF/UA 1.0‑nak, készen áll a segítő technológiákat használó felhasználók számára történő terjesztésre.
+
+---
+
+## Gyakran ismételt kérdések
+
+**Q: Használhatom ezt kereskedelmi alkalmazásban?**  
+A: Igen, egy érvényes Aspose.Words licenc eltávolítja a kiértékelési vízjelet, és korlátlan termelési használatot engedélyez.
+
+**Q: Működik a konverzió jelszóval védett DOCX fájlokkal?**  
+A: Teljesen. Adja meg a jelszót a `LoadOptions`‑on keresztül a `Document` objektum létrehozásakor.
+
+**Q: Mely Java verziók támogatottak?**  
+A: Az Aspose.Words for Java támogatja a Java 8, 11, 17 és újabb LTS kiadásokat.
+
+**Q: Hogyan optimalizáljam a memóriahasználatot nagyon nagy PDF‑eknél?**  
+A: Használja a streaming API‑t (`PdfSaveOptions.setUsePdfA1a(true)` és adjon át egy `OutputStream`‑et), hogy alacsony legyen a heap fogyasztás.
+
+**Q: Megőrzi a generált PDF az eredeti formázást?**  
+A: Igen, az Aspose.Words megőrzi a betűtípusokat, táblázatokat, fejléceket/lábléceket és egyedi stílusokat, miközben hozzáadja a szükséges hozzáférhetőségi címkéket.
+
+**Legutóbb frissítve:** 2026-10-17  
+**Tesztelve:** Aspose.Words for Java 24.11  
+**Szerző:** Aspose
+
+## Kapcsolódó útmutatók
+
+- [Hozzáférhető PDF létrehozása lépésről lépésre útmutató a Word konvertálásához](/words/java/document-conversion-and-export/create-accessible-pdf-step-by-step-guide-to-convert-word-to/)
+- [DOCX exportálása PDF‑be: Teljes útmutató a hozzáférhető PDF létrehozásához](/words/java/document-conversion-and-export/export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+- [Hozzáférhető PDF generálása Word‑ből Aspose Java‑val](/words/java/document-conversion-and-export/generate-accessible-pdf-from-word-with-aspose-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -49,6 +49,9 @@ Pamiętaj, że szczegółowe przykłady kodu i dalsze wskazówki znajdziesz w [A
 ### [Stosowanie licencjonowania do Aspose.Words dla Java](./applying-licensing/)
 Dowiedz się, jak krok po kroku zastosować licencję do Aspose.Words for Java. Uzyskaj dostęp już teraz i odblokuj jego pełny potencjał.
 
+### [Utwórz DocumentConfig w Javie – Śledź brakujące czcionki w Aspose.Words](./create-documentconfig-in-java-track-missing-fonts-with-aspos/)
+Dowiedz się, jak skonfigurować DocumentConfig w Javie, aby wykrywać brakujące czcionki podczas przetwarzania dokumentów w Aspose.Words.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

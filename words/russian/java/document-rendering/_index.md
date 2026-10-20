@@ -45,6 +45,8 @@ Aspose.Words для Java предоставляет множество учеб�
 Узнайте, как обрабатывать предупреждения о недостающих шрифтах и отслеживать их с помощью обратного вызова в Aspose.Words для Java.
 ### [Как захватывать предупреждения – обнаружение отсутствующих шрифтов в Aspose.Words](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
 Узнайте, как перехватывать предупреждения и находить недостающие шрифты при работе с Aspose.Words.
+### [Поиск недостающих шрифтов в Java с Aspose.Words – Полное руководство](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
+Узнайте, как обнаруживать и заменять отсутствующие шрифты в документах Word с помощью Aspose.Words для Java. Полное пошаговое руководство.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

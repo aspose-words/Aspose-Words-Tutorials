@@ -34,6 +34,7 @@ Oavsett om du är nybörjare eller en erfaren utvecklare, kommer Aspose.Words f�
 | [Använd kontrolltecken](./use-control-characters/) | Upptäck hur du automatiserar Word-dokumentuppgifter med Aspose.Words för .NET. Den här guiden täcker installation, textersättning och mer, vilket gör ditt arbetsflöde effektivt. |
 | [Hur du räknar sidor i ett Word-dokument – Återställ & räkna](./how-to-count-pages-in-a-word-document-recover-count/) | Lär dig hur du räknar antalet sidor i ett Word-dokument med Aspose.Words för .NET och återställer sidantalet. |
 
+| [Kontrollera sidantal i Word-dokument – Återställ korrupta filer](./check-page-count-in-word-docs-recover-corrupted-files/) | Lär dig hur du kontrollerar sidantal i Word-dokument och återställer korrupta filer med Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
