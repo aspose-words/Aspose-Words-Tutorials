@@ -1,25 +1,26 @@
 ---
 category: general
-date: 2026-04-07
-description: Aspose.Words kullanarak C#'de eksik yazı tiplerini işlerken yazı tiplerini
-  nasıl tespit edeceğinizi ve uyarıları nasıl yakalayacağınızı öğrenin. Adım adım
-  kod dahil.
+date: 2026-04-21
+description: Aspose.Words ile C#’ta yazı tiplerini nasıl tespit edeceğinizi, uyarıları
+  nasıl yakalayacağınızı, geri aramayı nasıl yapılandıracağınızı ve uyarıları nasıl
+  listeleyeceğinizi öğrenin. Güvenilir yazı tipi yönetimi için adım adım rehber.
 draft: false
 keywords:
 - how to detect fonts
 - how to capture warnings
-- handle missing fonts
-- Aspose.Words font substitution
-- C# document loading warnings
+- how to configure callback
+- how to enumerate warnings
+- Aspose.Words font handling
 language: tr
-og_description: Aspose.Words'ta yazı tiplerini nasıl tespit edersiniz? Uyarıları yakalamak
-  ve eksik yazı tiplerini zahmetsizce yönetmek için bu öğreticiyi izleyin.
-og_title: Aspose.Words'ta Yazı Tiplerini Nasıl Algılayabilirsiniz – Tam Kılavuz
+og_description: Aspose.Words'ta yazı tiplerini nasıl tespit edersiniz? Bu öğreticide,
+  uyarıları nasıl yakalayacağınızı, bir geri aramayı (callback) nasıl yapılandıracağınızı
+  ve C#'ta uyarıları nasıl listeleyeceğinizi gösteriyor.
+og_title: Aspose.Words'ta Fontları Nasıl Algılayabilirsiniz – Tam Rehber
 tags:
 - Aspose.Words
 - C#
-- Font handling
-title: Aspose.Words'ta Yazı Tiplerini Nasıl Algılayabilirsiniz – Tam Kılavuz
+- Document Processing
+title: Aspose.Words'ta Yazı Tiplerini Nasıl Algılayabilirsiniz – Tam Rehber
 url: /tr/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-complete-guide/
 ---
 
@@ -27,254 +28,221 @@ url: /tr/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-complete-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words'te Yazı Tiplerini Nasıl Algılayabilirsiniz – Tam Kılavuz
+# Aspose.Words’ta Yazı Tiplerini Nasıl Algılayabilirsiniz – Tam Kılavuz
 
-Bir Word belgesinde eksik **yazı tiplerini** üretime göndermeden önce tespit etmeyi hiç merak ettiniz mi? Tek başınıza değilsiniz. Birçok kurumsal senaryoda istenmeyen bir yazı tipi, PDF dönüşüm hattını bozabilir veya profesyonel olmayan bir görünüm oluşturan yerleşim hatalarına neden olabilir. İyi haber şu ki Aspose.Words, bu eksik tipografileri tespit etmenizi ve net uyarılar göstermenizi sağlayan yerleşik bir yöntem sunar.
+Bir Word belgesi yüklendiğinde eksik olan **yazı tiplerini nasıl algılayacağınızı** hiç merak ettiniz mi? Bu, özellikle eski dosyalarla veya çapraz‑platform dağıtımlarıyla çalışırken sıkça karşılaşılan bir durum. Bu öğreticide, **uyarıları yakalama**, **geri çağırma (callback) yapılandırma** ve **uyarıları sıralama** adımlarını içeren, çalıştırılabilir tam bir örnek üzerinden ilerleyeceğiz; böylece hangi yazı tiplerinin değiştirildiğini her zaman bileceksiniz.
 
-Bu öğreticide **yazı tiplerini nasıl algılayacağınızı**, **uyarıları nasıl yakalayacağınızı** ve **eksik yazı tiplerini nasıl ele alacağınızı** adım adım gösterecek, uygulamanızın dayanıklı kalmasını sağlayacağız. Harici araçlar, tahmin yürütme yok—şu anda projenize ekleyebileceğiniz saf C# kodu.
+Aspose.Words for .NET (yazım anında v24.9) ve sade C# kullanacağız. Harici hizmet yok, sihir yok—sadece API ve birkaç satır kod. Sonuna geldiğinizde, her yazı tipi değişimini görebilecek, kaydedebilecek ve kritik bir yazı tipi eksikse yüklemeyi iptal etmeyi bile seçebileceksiniz.  
 
-> **Hızlı ön izleme:** Sonunda, belge yükleme sırasında ortaya çıkan tüm yazı tipi değiştirme mesajlarını toplayan yeniden kullanılabilir bir `FontSubstitutionWarningCollector`'a sahip olacaksınız ve bir yazı tipi bulunamadığında nasıl tepki vereceğinizi öğreneceksiniz.
+### Gereksinimler
+- **Aspose.Words for .NET** (NuGet üzerinden kurun: `Install-Package Aspose.Words`)
+- .NET 6.0 veya üzeri (kod .NET Framework’te de çalışır)
+- Makinede bulunmayan bir yazı tipine referans veren örnek bir DOCX (ör. “MyCustomFont.ttf”)
+- Visual Studio, Rider veya tercih ettiğiniz herhangi bir C# editörü
 
----
-
-## Öğrenecekleriniz
-
-- `LoadOptions`'ı yazı tipi‑değiştirme uyarılarını dinleyecek şekilde nasıl yapılandıracağınız.  
-- Bu uyarıları özel bir toplayıcı sınıfında nasıl yakalayacağınız.  
-- Toplanan uyarıları işleyip, iptal edip, kaydedip ya da yazı tiplerini değiştirme kararını nasıl vereceğiniz.  
-- Uzaktan veya gömülü yazı tiplerine referans veren belgeler için kenar‑durum yönetimi.  
-
-**Önkoşullar:** .NET 6+ (veya .NET Framework 4.6+), Aspose.Words for .NET (en son sürüm) ve temel C# bilgisi. Aspose.Words ile hiç çalışmadıysanız endişelenmeyin—bu kılavuz sadece birkaç dakikalık kurulum süresi gerektirir.
+> **Pro ipucu:** Eksik yazı tipli bir belgeniz yoksa, sisteminizdeki bir yazı tipi dosyasının adını değiştirin ya da DOCX XML’ini düzenleyerek var olmayan bir yazı tipi ailesine referans verin.
 
 ---
 
-## Aspose.Words LoadOptions Kullanarak Yazı Tiplerini Algılamak
+## Aspose.Words ile Yazı Tiplerini Nasıl Algılayabilirsiniz
 
-Eksik yazı tiplerini algılamanın ilk adımı, Aspose.Words’a bunları raporlamasını söylemektir. Bu, `LoadOptions.WarningCallback` özelliği aracılığıyla yapılır; bu özellik `IWarningCallback` arayüzünü uygulayan herhangi bir sınıfı kabul eder. Aşağıda, her uyarıyı daha sonra incelemek üzere saklayan küçük bir toplayıcı oluşturuyoruz.
+Temel fikir, Aspose.Words’ün uyarı sistemine takılmak. Kütüphane istenen bir yazı tipini bulamadığında `WarningType.FontSubstitution` uyarısı üretir. Özel bir `IWarningCallback` uygulayarak **yazı tiplerini** yükleme sırasında değiştirilenleri **algılayabilirsiniz**.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Saving;
-using System.Collections.Generic;
+using Aspose.Words.Fonts;
 
-/// <summary>
-/// Collects all warnings emitted while loading a document.
-/// </summary>
-public class FontSubstitutionWarningCollector : IWarningCallback
+// 1️⃣ Create a collector that implements IWarningCallback
+public class FontWarningCollector : IWarningCallback
 {
-    // Thread‑safe static list so we can access warnings after loading.
-    public static List<WarningInfo> Warnings { get; } = new List<WarningInfo>();
+    public List<WarningInfo> Warnings { get; } = new();
 
-    // Called by Aspose.Words for each warning.
     public void Warning(WarningInfo info)
     {
-        // We only care about font‑related warnings.
-        if (info.Type == WarningType.FontSubstitution)
-        {
-            Warnings.Add(info);
-        }
+        // Store every warning – we’ll filter later
+        Warnings.Add(info);
     }
-
-    // Helper to clear previous run’s warnings.
-    public static void Clear() => Warnings.Clear();
 }
 ```
 
-**Neden önemli:** Uyarı geri araması olmadan Aspose.Words eksik yazı tiplerini sessizce varsayılan bir yazı tipiyle değiştirir ve sorunun varlığını asla öğrenemezsiniz. `WarningType.FontSubstitution` yakalayarak tam görünürlük elde edersiniz—ev sahibi makinede bulunmayan **yazı tiplerini algılamak** için tam olarak ihtiyacınız olan veri.
+> **Neden işe yarıyor:** Aspose.Words, kritik olmayan her sorun için `Warning` metodunu çağırır. `WarningInfo` nesnelerini saklayarak, tür, mesaj ve bağlam gibi tüm bilgilere tam erişim elde edersiniz; bu da **değiştirilen yazı tiplerini** algılamak için tam olarak ihtiyacınız olan şeydir.
 
-Şimdi toplayıcıyı `LoadOptions` içine takıp bir belge yüklüyoruz:
+---
+
+## Belge Yüklerken Uyarıları Nasıl Yakalarsınız
+
+Artık bir toplayıcıya (collector) sahibiz, `LoadOptions`’a bunu kullanmasını söylememiz gerekiyor. İşte **uyarıları yakalama** kısmı.
 
 ```csharp
-// Step 1: Prepare load options with our warning collector.
-LoadOptions loadOptions = new LoadOptions
+// 2️⃣ Prepare LoadOptions with our warning collector
+var warningCollector = new FontWarningCollector();
+var loadOptions = new LoadOptions
 {
-    WarningCallback = new FontSubstitutionWarningCollector()
+    // Assign the callback – this is where warnings are captured
+    WarningCallback = warningCollector
 };
 
-// Optional: clear any stale warnings from a previous run.
-FontSubstitutionWarningCollector.Clear();
-
-// Step 2: Load the document. Replace the path with your own file.
-Document doc = new Document(@"C:\Docs\MissingFonts.docx", loadOptions);
+// 3️⃣ Load the document (replace the path with your own file)
+Document doc = new Document("YOUR_DIRECTORY/DocumentWithMissingFont.docx", loadOptions);
 ```
 
-> **İpucu:** Bir toplu işlemde birden çok belgeyle çalışıyorsanız aynı `FontSubstitutionWarningCollector` örneğini yeniden kullanın, ancak farklı dosyalardan gelen uyarıların karışmasını önlemek için yüklemeler arasında `Clear()` çağırmayı unutmayın.
+> **Köşe durumu:** Belgeyi bir akıştan (`new Document(stream, loadOptions)`) yüklerseniz aynı geri çağırma (callback) çalışır—sadece dosya yolunu akışla değiştirin.
+
+Bu noktada belge tamamen yüklendi, ancak tüm yazı tipi değişim uyarıları `warningCollector.Warnings` içinde güvenli bir şekilde saklandı.
 
 ---
 
-## Belge Yüklenirken Uyarıları Yakalamak
+## Uyarıları Nasıl Sıralar ve Yazı Tipi Değişimlerini Raporlarsınız
 
-Belge yüklendikten sonra toplayıcı zaten her yazı tipiyle ilgili uyarıyı tutar. Bir sonraki mantıklı soru: *Uyarıları* kolayca kaydedebileceğim ya da görüntüleyebileceğim bir şekilde nasıl yakalarım?
-
-```csharp
-// Step 3: Iterate over collected warnings and output them.
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
-{
-    Console.WriteLine($"{warning.Type}: {warning.Message}");
-}
-```
-
-Tipik çıktı şu şekildedir:
-
-```
-FontSubstitution: Font 'Comic Sans MS' was not found. Substituted with 'Arial'.
-FontSubstitution: Font 'Garamond' missing. Using 'Times New Roman' instead.
-```
-
-**Bu ne anlatıyor:** Her satır, orijinal yazı tipi adını ve Aspose.Words’un seçtiği yedek yazı tipini gösterir. Bu bilgilerle, yedek yazı tipinin kabul edilebilir olup olmadığına ya da eksik yazı tipini manuel olarak gömmeniz gerekip gerekmediğine karar verebilirsiniz.
-
----
-
-## Eksik Yazı Tiplerini Zarifçe Ele Almak
-
-Uyarıları tespit edip yakalamak sadece işin yarısıdır. Gerçek değer, **eksik yazı tiplerini** üretime hazır bir şekilde **ele aldığınızda** ortaya çıkar. Aşağıda üç yaygın strateji yer alıyor:
-
-1. **Kaydet ve Devam Et** – Sadece bir denetim izi gerektiğinde toplu işleme için uygundur.  
-2. **Kritik Yazı Tiplerinde İptal Et** – Belirli bir yazı tipi (ör. marka‑özel bir tipografi) eksikse istisna fırlatın.  
-3. **Eksik Yazı Tiplerini Otomatik Olarak Göm** – Eksik yazı tipini bilinen bir klasörden yükleyin ve belgeyi yeniden yüklemeden önce Aspose.Words’a kaydedin.
-
-### Örnek: Kritik Bir Yazı Tipinde İptal Et
+Son olarak, toplanan uyarılar üzerinden geçip **yazı tipi değişimi** ile ilgili olanları **sıralarız**. Bu adım ham veriyi okunabilir bir rapora dönüştürür.
 
 ```csharp
-// Define a list of fonts that must be present.
-var requiredFonts = new HashSet<string> { "MyBrand-Regular", "MyBrand-Bold" };
-
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
+// 4️⃣ Iterate over the collected warnings
+foreach (var warning in warningCollector.Warnings)
 {
-    // Extract the original font name from the warning message.
-    string missingFont = ExtractFontName(warning.Message);
-    if (requiredFonts.Contains(missingFont))
+    // We're only interested in font substitution warnings
+    if (warning.Type == WarningType.FontSubstitution)
     {
-        throw new InvalidOperationException(
-            $"Critical font '{missingFont}' is missing. Document load aborted.");
-    }
-}
-
-// Helper method to parse font name from warning text.
-string ExtractFontName(string message)
-{
-    // Message pattern: "Font 'X' was not found..."
-    int start = message.IndexOf('\'') + 1;
-    int end = message.IndexOf('\'', start);
-    return (start > 0 && end > start) ? message[start..end] : string.Empty;
-}
-```
-
-### Örnek: Eksik Yazı Tiplerini Otomatik Göm
-
-```csharp
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
-{
-    string missingFont = ExtractFontName(warning.Message);
-    string fontPath = $@"C:\Fonts\{missingFont}.ttf";
-
-    if (File.Exists(fontPath))
-    {
-        // Register the font with Aspose.Words.
-        FontSettings fontSettings = new FontSettings();
-        fontSettings.SetFontsFolder(Path.GetDirectoryName(fontPath), false);
-        doc.FontSettings = fontSettings;
-
-        // Reload the document now that the font is available.
-        doc = new Document(@"C:\Docs\MissingFonts.docx", loadOptions);
-        break; // Re‑load once; subsequent warnings will be resolved.
+        Console.WriteLine($"Substituted font: {warning.Message}");
     }
 }
 ```
 
-**Bu kalıplar neden yardımcı:** Bir yazı tipi eksik olduğunda ne yapılacağını açıkça belirleyerek, marka bütünlüğünü veya okunabilirliği tehlikeye atabilecek sessiz yedeklemeleri ortadan kaldırırsınız. Bu, **eksik yazı tiplerini kontrol altında ele almanın** özüdür.
+**Beklenen çıktı** (örnek):
+
+```
+Substituted font: Font 'Calibri' not found. Substituted with 'Arial'.
+Substituted font: Font 'MyCustomFont' not found. Substituted with 'Times New Roman'.
+```
+
+Belge eksik bir yazı tipine sahip değilse, döngü hiçbir çıktı üretmez—endişelenecek bir şey yoktur.
 
 ---
 
-## Tam Çalışan Örnek
+## Tam Çalışan Örnek (Tüm Adımlar Tek Dosyada)
 
-Her şeyi bir araya getirdiğimizde, **yazı tiplerini nasıl algılayacağınızı**, **uyarıları nasıl yakalayacağınızı** ve eksik yazı tiplerini **loglayarak** ele alacak basit bir politikayı gösteren tek bir, çalıştırılabilir program aşağıdadır.
+Aşağıda, bir konsol projesine kopyalayıp yapıştırabileceğiniz tam program yer alıyor. **Yazı tiplerini nasıl algılayacağınızı**, **uyarıları nasıl yakalayacağınızı**, **geri çağırmayı nasıl yapılandıracağınızı** ve **uyarıları nasıl sıralayacağınızı** tek bir akışta birleştirir.
 
 ```csharp
-using Aspose.Words;
-using Aspose.Words.Saving;
 using System;
 using System.Collections.Generic;
-using System.IO;
+using Aspose.Words;
+using Aspose.Words.Fonts;
 
-public class FontSubstitutionWarningCollector : IWarningCallback
+namespace FontDetectionDemo
 {
-    public static List<WarningInfo> Warnings { get; } = new List<WarningInfo>();
-    public void Warning(WarningInfo info)
+    // Custom warning collector (captures all warnings)
+    public class FontWarningCollector : IWarningCallback
     {
-        if (info.Type == WarningType.FontSubstitution)
+        public List<WarningInfo> Warnings { get; } = new();
+
+        public void Warning(WarningInfo info)
+        {
             Warnings.Add(info);
-    }
-    public static void Clear() => Warnings.Clear();
-}
-
-class Program
-{
-    static void Main()
-    {
-        string docPath = @"C:\Docs\MissingFonts.docx";
-
-        // 1️⃣ Configure LoadOptions with the warning collector.
-        LoadOptions loadOptions = new LoadOptions
-        {
-            WarningCallback = new FontSubstitutionWarningCollector()
-        };
-        FontSubstitutionWarningCollector.Clear();
-
-        // 2️⃣ Load the document – this is where fonts are detected.
-        Document doc = new Document(docPath, loadOptions);
-
-        // 3️⃣ Process the collected warnings.
-        if (FontSubstitutionWarningCollector.Warnings.Count == 0)
-        {
-            Console.WriteLine("✅ No missing fonts detected.");
         }
-        else
-        {
-            Console.WriteLine("⚠️ Font substitution warnings:");
-            foreach (var w in FontSubstitutionWarningCollector.Warnings)
-                Console.WriteLine($"{w.Type}: {w.Message}");
+    }
 
-            // Example policy: abort if a brand‑critical font is missing.
-            var critical = new HashSet<string> { "MyBrand-Regular", "MyBrand-Bold" };
-            foreach (var w in FontSubstitutionWarningCollector.Warnings)
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // -------------------------------------------------
+            // Step 1: Set up the warning collector (how to configure callback)
+            var collector = new FontWarningCollector();
+            var loadOptions = new LoadOptions
             {
-                string missing = ExtractFontName(w.Message);
-                if (critical.Contains(missing))
+                WarningCallback = collector
+            };
+
+            // -------------------------------------------------
+            // Step 2: Load the document (how to detect fonts)
+            string filePath = "YOUR_DIRECTORY/DocumentWithMissingFont.docx";
+            Document doc;
+            try
+            {
+                doc = new Document(filePath, loadOptions);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Failed to load document: {ex.Message}");
+                return;
+            }
+
+            // -------------------------------------------------
+            // Step 3: Enumerate warnings (how to enumerate warnings)
+            bool anySubstitutions = false;
+            foreach (var warning in collector.Warnings)
+            {
+                if (warning.Type == WarningType.FontSubstitution)
                 {
-                    Console.WriteLine($"❌ Critical font '{missing}' missing. Stopping.");
-                    return;
+                    anySubstitutions = true;
+                    Console.WriteLine($"Substituted font: {warning.Message}");
                 }
             }
+
+            if (!anySubstitutions)
+            {
+                Console.WriteLine("No font substitutions detected – all fonts are available.");
+            }
+
+            // Optional: Continue processing the document...
         }
-
-        // 4️⃣ Continue with normal processing (e.g., save as PDF).
-        doc.Save(@"C:\Docs\Output.pdf", SaveFormat.Pdf);
-        Console.WriteLine("✅ Document saved as PDF.");
-    }
-
-    // Helper to pull the original font name out of the warning text.
-    static string ExtractFontName(string message)
-    {
-        int first = message.IndexOf('\'') + 1;
-        int last = message.IndexOf('\'', first);
-        return (first > 0 && last > first) ? message[first..last] : string.Empty;
     }
 }
 ```
 
-**Beklenen sonuç:** Programı, makinede bulunmayan bir yazı tipine referans veren bir belgeye karşı çalıştırdığınızda, konsol her değiştirme uyarısını listeleyecek. Eğer bir uyarı `critical` kümesindeki bir yazı tipini içeriyorsa, program erken çıkacak ve hatalı bir PDF'nin üretilmesini engelleyecektir.
+**Bu programı çalıştırdığınızda**, Aspose.Words’ün değiştirmek zorunda kaldığı her yazı tipini yazdırır. Çıktıyı bir log dosyasına yönlendirebilir, bir uyarı oluşturabilir ya da kritik bir yazı tipi eksikse yüklemeyi iptal edebilirsiniz.
 
 ---
 
-## Sıkça Sorulan Sorular (SSS)
+## Yaygın Sorular & Dikkat Edilmesi Gerekenler
 
-| Soru | Cevap |
-|------|-------|
-| *Bu kodu kullanmak için Aspose.Words lisansına ihtiyacım var mı?* | Evet, geçerli bir Aspose.Words lisansı değerlendirme filigranlarını kaldırır ve tam işlevselliği açar. |
-| *Bu yaklaşım gömülü yazı tiplerini tespit edebilir mi?* | Gömülü yazı tipleri zaten dosyanın bir parçasıdır, bu yüzden Aspose.Words bir değiştirme uyarısı üretmez. Gerekirse `Document.FontInfos` ile gömülü yazı tiplerini listeleyebilirsiniz. |
-| *Eksik yazı tipi Windows'ta bir sistem yazı tipi iken Linux'ta yoksa ne olur?* | Linux'ta aynı uyarı tetiklenir çünkü yazı tipi orada yüklü değildir. Gerekli `.ttf` dosyalarını uygulamanızla birlikte dağıtmak için “eksik yazı tiplerini ele al” stratejisini kullanın. |
-| *Uyarı toplayıcı iş parçacığı...* |
+### Gerekli bir yazı tipi eksik olduğunda yüklemeyi durdurmam gerekirse ne yapmalıyım?
+Geri çağırma (callback) içinde `WarningInfo` nesnelerini inceleyebilir ve belirli bir yazı tipi adı göründüğünde bir istisna fırlatabilirsiniz. İstisna, yüklemeyi durdurur ve tam kontrol sizde olur.
+
+```csharp
+public void Warning(WarningInfo info)
+{
+    if (info.Type == WarningType.FontSubstitution &&
+        info.Message.Contains("MyCriticalFont"))
+    {
+        throw new InvalidOperationException("Critical font missing – aborting load.");
+    }
+    Warnings.Add(info);
+}
+```
+
+### Bu PDF’ler veya diğer formatlarla da çalışır mı?
+Evet. Aspose.Words, PDF, RTF ve HTML için aynı uyarı altyapısını kullanır. Sadece dosya uzantısını değiştirin, kodun geri kalanı aynı kalır.
+
+### Uyarıları konsol yerine bir dosyaya nasıl kaydederim?
+`Console.WriteLine` ifadesini tercih ettiğiniz herhangi bir kayıt (logging) çerçevesiyle (`Serilog`, `NLog` vb.) değiştirin. `WarningInfo` sınıfı, ayrıntılı loglar için `Message`, `Source` ve `Exception` özelliklerini sunar.
+
+### Performansa etkisi olur mu?
+Ek yük ihmal edilebilir—Aspose.Words zaten uyarıları dahili olarak üretir. Bir geri çağırma eklemek sadece uyarıları bir listeye saklar, bu da uyarı sayısına göre O(n) zaman alır. Tipik belgeler için etkisi toplam yük süresinin %1’inden çok daha azdır.
+
+---
+
+## Görsel Özet
+
+![Aspose.Words’ta Yazı Tiplerini Nasıl Algılayabilirsiniz – uyarı akış diyagramı](https://example.com/images/font-detection-diagram.png "yazı tiplerini nasıl algılayabilirsiniz")
+
+*Alt metin:* **yazı tiplerini nasıl algılayabilirsiniz** – uyarı geri çağırması, toplama ve sıralama adımlarını gösteren diyagram.
+
+---
+
+## Sonuç
+
+Aspose.Words’te **yazı tiplerini nasıl algılayacağınızı**, **uyarıları yakalayarak**, **geri çağırma yapılandırarak** ve **uyarıları sıralayarak** ele aldık. Tam kod örneği, herhangi bir .NET uygulamasına ekleyebileceğiniz üretim‑hazır bir deseni gösteriyor.  
+
+İleriye dönük olarak şunları keşfedebilirsiniz:
+
+- **Diğer sorunlar** için uyarı yakalama (ör. görüntü dönüşüm problemleri)
+- **Özel kayıt çerçeveleri** için geri çağırma yapılandırma
+- **Toplu işlerde** birden çok belgeye uyarı sıralama
+- **Aspose.Words.Fonts.FontSettings** kullanarak yedek yazı tipi klasörleri sağlama; bu, başlangıçta değişim sayısını azaltabilir.
+
+Deneyin, toplayıcıyı log stilinize göre uyarlayın ve bir daha beklenmedik yazı tipi değişimiyle şaşırmayın. Herhangi bir sorunla karşılaşırsanız, aşağıya yorum bırakın—iyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

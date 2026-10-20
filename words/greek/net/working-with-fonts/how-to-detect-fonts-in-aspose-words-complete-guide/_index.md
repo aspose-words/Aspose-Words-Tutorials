@@ -1,26 +1,26 @@
 ---
 category: general
-date: 2026-04-07
-description: Μάθετε πώς να εντοπίζετε γραμματοσειρές και πώς να καταγράφετε προειδοποιήσεις
-  κατά τη διαχείριση ελλιπών γραμματοσειρών σε C# χρησιμοποιώντας το Aspose.Words.
-  Συμπεριλαμβάνεται κώδικας βήμα‑βήμα.
+date: 2026-04-21
+description: Μάθετε πώς να εντοπίζετε γραμματοσειρές, να καταγράφετε προειδοποιήσεις,
+  να ρυθμίζετε την κλήση επιστροφής και να απαριθμείτε τις προειδοποιήσεις με το Aspose.Words
+  σε C#. Οδηγός βήμα‑βήμα για αξιόπιστη διαχείριση γραμματοσειρών.
 draft: false
 keywords:
 - how to detect fonts
 - how to capture warnings
-- handle missing fonts
-- Aspose.Words font substitution
-- C# document loading warnings
+- how to configure callback
+- how to enumerate warnings
+- Aspose.Words font handling
 language: el
-og_description: Πώς να εντοπίσετε τις γραμματοσειρές στο Aspose.Words; Ακολουθήστε
-  αυτό το σεμινάριο για να καταγράψετε προειδοποιήσεις και να διαχειριστείτε τις ελλιπείς
-  γραμματοσειρές με ευκολία.
-og_title: Πώς να ανιχνεύσετε γραμματοσειρές στο Aspose.Words – Πλήρης οδηγός
+og_description: Πώς να εντοπίσετε τις γραμματοσειρές στο Aspose.Words; Αυτό το σεμινάριο
+  σας δείχνει πώς να συλλάβετε προειδοποιήσεις, να ρυθμίσετε μια κλήση επιστροφής
+  και να απαριθμήσετε τις προειδοποιήσεις σε C#.
+og_title: Πώς να εντοπίσετε γραμματοσειρές στο Aspose.Words – Πλήρης οδηγός
 tags:
 - Aspose.Words
 - C#
-- Font handling
-title: Πώς να ανιχνεύσετε γραμματοσειρές στο Aspose.Words – Πλήρης οδηγός
+- Document Processing
+title: Πώς να ανιχνεύσετε τις γραμματοσειρές στο Aspose.Words – Πλήρης οδηγός
 url: /el/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-complete-guide/
 ---
 
@@ -28,244 +28,221 @@ url: /el/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-complete-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Πώς να ανιχνεύσετε γραμματοσειρές στο Aspose.Words – Πλήρης Οδηγός
+# Πώς να Εντοπίσετε Γραμματοσειρές στο Aspose.Words – Πλήρης Οδηγός
 
-Έχετε αναρωτηθεί ποτέ **πώς να ανιχνεύσετε γραμματοσειρές** που λείπουν από ένα έγγραφο Word πριν το στείλετε στην παραγωγή; Δεν είστε μόνοι. Σε πολλές επιχειρησιακές περιπτώσεις, μια αχρείαστη γραμματοσειρά μπορεί να διακόψει τη διαδικασία μετατροπής PDF ή να προκαλέσει σφάλματα διάταξης που φαίνονται μη επαγγελματικά. Τα καλά νέα είναι ότι το Aspose.Words σας παρέχει έναν ενσωματωμένο τρόπο να εντοπίζετε αυτές τις απουσιάζουσες γραμματοσειρές και να εμφανίζει σαφείς προειδοποιήσεις.
+Έχετε αναρωτηθεί ποτέ **πώς να εντοπίσετε γραμματοσειρές** που λείπουν όταν φορτώνετε ένα έγγραφο Word; Είναι ένα σενάριο που εμφανίζεται πιο συχνά απ' ό,τι θα θέλατε, ειδικά όταν εργάζεστε με παλιά αρχεία ή διασυνοριακές αναπτύξεις. Σε αυτό το tutorial θα περάσουμε από ένα πλήρες, εκτελέσιμο παράδειγμα που **καταγράφει προειδοποιήσεις**, **ρυθμίζει μια callback**, και **απαριθμεί προειδοποιήσεις** ώστε να γνωρίζετε πάντα ποιες γραμματοσειρές αντικαταστάθηκαν.
 
-Σε αυτό το tutorial θα περάσουμε βήμα-βήμα από το **πώς να ανιχνεύσετε γραμματοσειρές**, **πώς να καταγράψετε προειδοποιήσεις**, και τις βέλτιστες πρακτικές για **τη διαχείριση ελλιπών γραμματοσειρών** ώστε η εφαρμογή σας να παραμένει ανθεκτική. Χωρίς εξωτερικά εργαλεία, χωρίς εικασίες—απλός κώδικας C# που μπορείτε να ενσωματώσετε στο έργο σας αμέσως.
+Θα χρησιμοποιήσουμε Aspose.Words for .NET (v24.9 τη στιγμή της συγγραφής) και απλό C#. Χωρίς εξωτερικές υπηρεσίες, χωρίς μαγεία—μόνο το API και μερικές γραμμές κώδικα. Στο τέλος θα μπορείτε να εντοπίζετε κάθε αντικατάσταση γραμματοσειράς, να την καταγράφετε και ακόμη να αποφασίζετε αν θα ακυρώσετε τη φόρτωση όταν λείπει μια κρίσιμη γραμματοσειρά.
 
-> **Γρήγορη προεπισκόπηση:** Στο τέλος θα έχετε έναν επαναχρησιμοποιήσιμο `FontSubstitutionWarningCollector` που συλλέγει κάθε μήνυμα αντικατάστασης γραμματοσειράς κατά τη φόρτωση του εγγράφου, και θα ξέρετε πώς να αντιδράτε όταν μια γραμματοσειρά δεν μπορεί να βρεθεί.
+### Τι Θα Χρειαστείτε
+- **Aspose.Words for .NET** (εγκατάσταση μέσω NuGet: `Install-Package Aspose.Words`)
+- .NET 6.0 ή νεότερο (ο κώδικας λειτουργεί και σε .NET Framework)
+- Ένα δείγμα DOCX που αναφέρει μια γραμματοσειρά που δεν υπάρχει στο μηχάνημα (π.χ., “MyCustomFont.ttf”)
+- Visual Studio, Rider ή οποιονδήποτε επεξεργαστή C# προτιμάτε
+
+> **Συμβουλή:** Αν δεν έχετε έγγραφο με ελλιπείς γραμματοσειρές, απλώς μετονομάστε ένα αρχείο γραμματοσειράς στο σύστημά σας ή επεξεργαστείτε το XML του DOCX ώστε να αναφέρει μια μη‑υπάρχουσα οικογένεια γραμματοσειρών.
 
 ---
 
-## Τι θα μάθετε
+## Πώς να Εντοπίσετε Γραμματοσειρές με το Aspose.Words
 
-- Πώς να διαμορφώσετε το `LoadOptions` ώστε να ακούει προειδοποιήσεις αντικατάστασης γραμματοσειρών.  
-- Πώς να καταγράψετε αυτές τις προειδοποιήσεις σε μια προσαρμοσμένη κλάση συλλογής.  
-- Πώς να επεξεργαστείτε τις συλλεγμένες προειδοποιήσεις και να αποφασίσετε αν θα ακυρώσετε, καταγράψετε ή αντικαταστήσετε τις γραμματοσειρές.  
-- Διαχείριση edge‑case για έγγραφα που αναφέρονται σε απομακρυσμένες ή ενσωματωμένες γραμματοσειρές.  
-
-**Προαπαιτούμενα:** .NET 6+ (ή .NET Framework 4.6+), Aspose.Words for .NET (τελευταία έκδοση), και βασική εξοικείωση με C#. Αν δεν έχετε χρησιμοποιήσει ποτέ το Aspose.Words, μην ανησυχείτε—αυτός ο οδηγός υποθέτει μόνο λίγα λεπτά εγκατάστασης.
-
-## Πώς να ανιχνεύσετε γραμματοσειρές χρησιμοποιώντας Aspose.Words LoadOptions
-
-Το πρώτο βήμα για την ανίχνευση ελλιπών γραμματοσειρών είναι να πείτε στο Aspose.Words να τις αναφέρει. Αυτό γίνεται μέσω της ιδιότητας `LoadOptions.WarningCallback`, η οποία δέχεται οποιαδήποτε κλάση που υλοποιεί το `IWarningCallback`. Παρακάτω δημιουργούμε έναν μικρό συλλέκτη που αποθηκεύει κάθε προειδοποίηση για μετέπειτα έλεγχο.
+Η βασική ιδέα είναι να συνδέσετε το σύστημα προειδοποιήσεων του Aspose.Words. Όταν η βιβλιοθήκη δεν μπορεί να βρει τη ζητούμενη γραμματοσειρά, εκδίδει μια προειδοποίηση `WarningType.FontSubstitution`. Παρέχοντας μια προσαρμοσμένη υλοποίηση του `IWarningCallback`, μπορείτε **να εντοπίσετε γραμματοσειρές** που αντικαταστάθηκαν κατά τη διαδικασία φόρτωσης.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Saving;
-using System.Collections.Generic;
+using Aspose.Words.Fonts;
 
-/// <summary>
-/// Collects all warnings emitted while loading a document.
-/// </summary>
-public class FontSubstitutionWarningCollector : IWarningCallback
+// 1️⃣ Create a collector that implements IWarningCallback
+public class FontWarningCollector : IWarningCallback
 {
-    // Thread‑safe static list so we can access warnings after loading.
-    public static List<WarningInfo> Warnings { get; } = new List<WarningInfo>();
+    public List<WarningInfo> Warnings { get; } = new();
 
-    // Called by Aspose.Words for each warning.
     public void Warning(WarningInfo info)
     {
-        // We only care about font‑related warnings.
-        if (info.Type == WarningType.FontSubstitution)
-        {
-            Warnings.Add(info);
-        }
+        // Store every warning – we’ll filter later
+        Warnings.Add(info);
     }
-
-    // Helper to clear previous run’s warnings.
-    public static void Clear() => Warnings.Clear();
 }
 ```
 
-**Γιατί είναι σημαντικό:** Χωρίς callback προειδοποίησης, το Aspose.Words αντικαθιστά σιωπηλά τις ελλιπείς γραμματοσειρές με μια προεπιλεγμένη, και δεν γνωρίζετε ποτέ ότι υπάρχει πρόβλημα. Καταγράφοντας το `WarningType.FontSubstitution` αποκτάτε πλήρη διαφάνεια—ακριβώς τα δεδομένα που χρειάζεστε για να **ανιχνεύσετε γραμματοσειρές** που δεν είναι διαθέσιμες στο σύστημα.
+> **Γιατί λειτουργεί:** Το Aspose.Words καλεί τη μέθοδο `Warning` για κάθε μη‑κριτική κατάσταση. Αποθηκεύοντας τα αντικείμενα `WarningInfo` έχετε πλήρη πρόσβαση στον τύπο, το μήνυμα και το πλαίσιο, κάτι που είναι ακριβώς αυτό που χρειάζεστε για να **εντοπίσετε γραμματοσειρές** που αντικαταστάθηκαν.
 
-Τώρα ενσωματώνουμε τον συλλέκτη στο `LoadOptions` και φορτώνουμε ένα έγγραφο:
+---
+
+## Πώς να Καταγράψετε Προειδοποιήσεις Κατά τη Φόρτωση ενός Εγγράφου
+
+Τώρα που έχουμε έναν συλλέκτη, πρέπει να πούμε στο `LoadOptions` να τον χρησιμοποιήσει. Αυτό είναι το τμήμα **πώς να καταγράψετε προειδοποιήσεις** του γρίφου.
 
 ```csharp
-// Step 1: Prepare load options with our warning collector.
-LoadOptions loadOptions = new LoadOptions
+// 2️⃣ Prepare LoadOptions with our warning collector
+var warningCollector = new FontWarningCollector();
+var loadOptions = new LoadOptions
 {
-    WarningCallback = new FontSubstitutionWarningCollector()
+    // Assign the callback – this is where warnings are captured
+    WarningCallback = warningCollector
 };
 
-// Optional: clear any stale warnings from a previous run.
-FontSubstitutionWarningCollector.Clear();
-
-// Step 2: Load the document. Replace the path with your own file.
-Document doc = new Document(@"C:\Docs\MissingFonts.docx", loadOptions);
+// 3️⃣ Load the document (replace the path with your own file)
+Document doc = new Document("YOUR_DIRECTORY/DocumentWithMissingFont.docx", loadOptions);
 ```
 
-> **Συμβουλή:** Αν εργάζεστε με πολλά έγγραφα σε παρτίδα, επαναχρησιμοποιήστε την ίδια παρουσία `FontSubstitutionWarningCollector`, αλλά θυμηθείτε να καλέσετε `Clear()` μεταξύ των φορτώσεων για να αποφύγετε το μίξιμο προειδοποιήσεων από διαφορετικά αρχεία.
+> **Ακραία περίπτωση:** Αν φορτώνετε ένα έγγραφο από ροή (`new Document(stream, loadOptions)`), η ίδια callback λειτουργεί—απλώς περάστε τη ροή αντί για διαδρομή αρχείου.
 
-## Καταγραφή προειδοποιήσεων κατά τη φόρτωση του εγγράφου
+Σε αυτό το σημείο το έγγραφο είναι πλήρως φορτωμένο, αλλά οι προειδοποιήσεις αντικατάστασης γραμματοσειρών αποθηκεύονται με ασφάλεια μέσα στο `warningCollector.Warnings`.
 
-Μετά τη φόρτωση του εγγράφου, ο συλλέκτης ήδη κρατά κάθε προειδοποίηση σχετική με γραμματοσειρές. Η επόμενη λογική ερώτηση είναι: *Πώς να καταγράψω τις προειδοποιήσεις* με τρόπο που να είναι εύκολο να τις καταγράψετε ή να τις εμφανίσετε;
+---
+
+## Πώς να Απαριθμήσετε Προειδοποιήσεις και να Αναφέρετε τις Αντικαταστάσεις Γραμματοσειρών
+
+Τέλος, φιλτράρουμε τις συλλεγμένες προειδοποιήσεις και **απαριθμούμε προειδοποιήσεις** που αφορούν ειδικά την αντικατάσταση γραμματοσειρών. Αυτό το βήμα μετατρέπει τα ακατέργαστα δεδομένα σε μια αναγνώσιμη αναφορά.
 
 ```csharp
-// Step 3: Iterate over collected warnings and output them.
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
+// 4️⃣ Iterate over the collected warnings
+foreach (var warning in warningCollector.Warnings)
 {
-    Console.WriteLine($"{warning.Type}: {warning.Message}");
-}
-```
-
-Η τυπική έξοδος μοιάζει με:
-
-```
-FontSubstitution: Font 'Comic Sans MS' was not found. Substituted with 'Arial'.
-FontSubstitution: Font 'Garamond' missing. Using 'Times New Roman' instead.
-```
-
-**Τι σας λέει αυτό:** Κάθε γραμμή αποκαλύπτει το αρχικό όνομα γραμματοσειράς και την εναλλακτική που επέλεξε το Aspose.Words. Εξοπλισμένοι με αυτές τις πληροφορίες, μπορείτε να αποφασίσετε αν η εναλλακτική είναι αποδεκτή ή αν χρειάζεται να ενσωματώσετε τη λείπουσα γραμματοσειρά χειροκίνητα.
-
-## Διαχείριση ελλιπών γραμματοσειρών με χάρη
-
-Η ανίχνευση και η καταγραφή προειδοποιήσεων είναι μόνο το ήμισυ του αγώνα. Η πραγματική αξία έρχεται όταν **διαχειρίζεστε ελλιπείς γραμματοσειρές** με τρόπο έτοιμο για παραγωγή. Παρακάτω τρεις κοινές στρατηγικές:
-
-1. **Καταγραφή και συνέχιση** – Κατάλληλο για επεξεργασία παρτίδας όπου χρειάζεστε μόνο ένα αποτύπωμα ελέγχου.  
-2. **Ακύρωση σε κρίσιμες γραμματοσειρές** – Ρίξτε εξαίρεση εάν λείπει μια συγκεκριμένη γραμματοσειρά (π.χ., μια γραμματοσειρά ειδική για το brand).  
-3. **Ενσωμάτωση της γραμματοσειράς εν κινήσει** – Φορτώστε τη λείπουσα γραμματοσειρά από έναν γνωστό φάκελο και καταχωρίστε την στο Aspose.Words πριν ξαναφορτώσετε το έγγραφο.
-
-### Παράδειγμα: Ακύρωση σε κρίσιμη γραμματοσειρά
-
-```csharp
-// Define a list of fonts that must be present.
-var requiredFonts = new HashSet<string> { "MyBrand-Regular", "MyBrand-Bold" };
-
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
-{
-    // Extract the original font name from the warning message.
-    string missingFont = ExtractFontName(warning.Message);
-    if (requiredFonts.Contains(missingFont))
+    // We're only interested in font substitution warnings
+    if (warning.Type == WarningType.FontSubstitution)
     {
-        throw new InvalidOperationException(
-            $"Critical font '{missingFont}' is missing. Document load aborted.");
-    }
-}
-
-// Helper method to parse font name from warning text.
-string ExtractFontName(string message)
-{
-    // Message pattern: "Font 'X' was not found..."
-    int start = message.IndexOf('\'') + 1;
-    int end = message.IndexOf('\'', start);
-    return (start > 0 && end > start) ? message[start..end] : string.Empty;
-}
-```
-
-### Παράδειγμα: Αυτόματη ενσωμάτωση ελλιπών γραμματοσειρών
-
-```csharp
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
-{
-    string missingFont = ExtractFontName(warning.Message);
-    string fontPath = $@"C:\Fonts\{missingFont}.ttf";
-
-    if (File.Exists(fontPath))
-    {
-        // Register the font with Aspose.Words.
-        FontSettings fontSettings = new FontSettings();
-        fontSettings.SetFontsFolder(Path.GetDirectoryName(fontPath), false);
-        doc.FontSettings = fontSettings;
-
-        // Reload the document now that the font is available.
-        doc = new Document(@"C:\Docs\MissingFonts.docx", loadOptions);
-        break; // Re‑load once; subsequent warnings will be resolved.
+        Console.WriteLine($"Substituted font: {warning.Message}");
     }
 }
 ```
 
-**Γιατί αυτά τα μοτίβα βοηθούν:** Αποφασίζοντας ρητά τι να κάνετε όταν λείπει μια γραμματοσειρά, εξαλείφετε τις σιωπηλές εναλλακτικές που θα μπορούσαν να επηρεάσουν το branding ή την αναγνωσιμότητα. Αυτό είναι η ουσία της **διαχείρισης ελλιπών γραμματοσειρών** με ελεγχόμενο τρόπο.
+**Αναμενόμενο αποτέλεσμα** (παράδειγμα):
 
-## Πλήρες λειτουργικό παράδειγμα
+```
+Substituted font: Font 'Calibri' not found. Substituted with 'Arial'.
+Substituted font: Font 'MyCustomFont' not found. Substituted with 'Times New Roman'.
+```
 
-Συνδυάζοντας όλα, εδώ είναι ένα ενιαίο, έτοιμο‑για‑εκτέλεση πρόγραμμα που δείχνει **πώς να ανιχνεύσετε γραμματοσειρές**, **πώς να καταγράψετε προειδοποιήσεις**, και μια απλή πολιτική για **τη διαχείριση ελλιπών γραμματοσειρών** μέσω καταγραφής.
+Αν το έγγραφο δεν περιέχει ελλιπείς γραμματοσειρές, η επανάληψη δεν παράγει έξοδο—δεν υπάρχει κάτι για ανησυχία.
+
+---
+
+## Πλήρες Παράδειγμα Λειτουργίας (Όλα τα Βήματα σε Ένα Αρχείο)
+
+Παρακάτω βρίσκεται το πλήρες πρόγραμμα που μπορείτε να αντιγράψετε‑και‑επικολλήσετε σε ένα έργο κονσόλας. Συνδέει **πώς να εντοπίσετε γραμματοσειρές**, **πώς να καταγράψετε προειδοποιήσεις**, **πώς να ρυθμίσετε μια callback**, και **πώς να απαριθμήσετε προειδοποιήσεις** σε μια ενιαία, συνεκτική ροή.
 
 ```csharp
-using Aspose.Words;
-using Aspose.Words.Saving;
 using System;
 using System.Collections.Generic;
-using System.IO;
+using Aspose.Words;
+using Aspose.Words.Fonts;
 
-public class FontSubstitutionWarningCollector : IWarningCallback
+namespace FontDetectionDemo
 {
-    public static List<WarningInfo> Warnings { get; } = new List<WarningInfo>();
-    public void Warning(WarningInfo info)
+    // Custom warning collector (captures all warnings)
+    public class FontWarningCollector : IWarningCallback
     {
-        if (info.Type == WarningType.FontSubstitution)
+        public List<WarningInfo> Warnings { get; } = new();
+
+        public void Warning(WarningInfo info)
+        {
             Warnings.Add(info);
-    }
-    public static void Clear() => Warnings.Clear();
-}
-
-class Program
-{
-    static void Main()
-    {
-        string docPath = @"C:\Docs\MissingFonts.docx";
-
-        // 1️⃣ Configure LoadOptions with the warning collector.
-        LoadOptions loadOptions = new LoadOptions
-        {
-            WarningCallback = new FontSubstitutionWarningCollector()
-        };
-        FontSubstitutionWarningCollector.Clear();
-
-        // 2️⃣ Load the document – this is where fonts are detected.
-        Document doc = new Document(docPath, loadOptions);
-
-        // 3️⃣ Process the collected warnings.
-        if (FontSubstitutionWarningCollector.Warnings.Count == 0)
-        {
-            Console.WriteLine("✅ No missing fonts detected.");
         }
-        else
-        {
-            Console.WriteLine("⚠️ Font substitution warnings:");
-            foreach (var w in FontSubstitutionWarningCollector.Warnings)
-                Console.WriteLine($"{w.Type}: {w.Message}");
+    }
 
-            // Example policy: abort if a brand‑critical font is missing.
-            var critical = new HashSet<string> { "MyBrand-Regular", "MyBrand-Bold" };
-            foreach (var w in FontSubstitutionWarningCollector.Warnings)
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // -------------------------------------------------
+            // Step 1: Set up the warning collector (how to configure callback)
+            var collector = new FontWarningCollector();
+            var loadOptions = new LoadOptions
             {
-                string missing = ExtractFontName(w.Message);
-                if (critical.Contains(missing))
+                WarningCallback = collector
+            };
+
+            // -------------------------------------------------
+            // Step 2: Load the document (how to detect fonts)
+            string filePath = "YOUR_DIRECTORY/DocumentWithMissingFont.docx";
+            Document doc;
+            try
+            {
+                doc = new Document(filePath, loadOptions);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Failed to load document: {ex.Message}");
+                return;
+            }
+
+            // -------------------------------------------------
+            // Step 3: Enumerate warnings (how to enumerate warnings)
+            bool anySubstitutions = false;
+            foreach (var warning in collector.Warnings)
+            {
+                if (warning.Type == WarningType.FontSubstitution)
                 {
-                    Console.WriteLine($"❌ Critical font '{missing}' missing. Stopping.");
-                    return;
+                    anySubstitutions = true;
+                    Console.WriteLine($"Substituted font: {warning.Message}");
                 }
             }
+
+            if (!anySubstitutions)
+            {
+                Console.WriteLine("No font substitutions detected – all fonts are available.");
+            }
+
+            // Optional: Continue processing the document...
         }
-
-        // 4️⃣ Continue with normal processing (e.g., save as PDF).
-        doc.Save(@"C:\Docs\Output.pdf", SaveFormat.Pdf);
-        Console.WriteLine("✅ Document saved as PDF.");
-    }
-
-    // Helper to pull the original font name out of the warning text.
-    static string ExtractFontName(string message)
-    {
-        int first = message.IndexOf('\'') + 1;
-        int last = message.IndexOf('\'', first);
-        return (first > 0 && last > first) ? message[first..last] : string.Empty;
     }
 }
 ```
 
-**Αναμενόμενο αποτέλεσμα:** Όταν εκτελείτε το πρόγραμμα εναντίον ενός εγγράφου που αναφέρει μια γραμματοσειρά που δεν υπάρχει στο σύστημα, η κονσόλα θα εμφανίσει κάθε προειδοποίηση αντικατάστασης. Εάν κάποια προειδοποίηση αφορά μια γραμματοσειρά από το σύνολο `critical`, το πρόγραμμα τερματίζει νωρίς, αποτρέποντας τη δημιουργία ελαττωματικού PDF.
+**Εκτελώντας αυτό το πρόγραμμα** θα εκτυπώσει κάθε γραμματοσειρά που το Aspose.Words έπρεπε να αντικαταστήσει. Μπορείτε να ανακατευθύνετε την έξοδο σε αρχείο καταγραφής, να ενεργοποιήσετε μια ειδοποίηση ή ακόμη να ακυρώσετε τη φόρτωση αν λείπει μια κρίσιμη γραμματοσειρά.
 
-## Συχνές Ερωτήσεις (FAQs)
+---
 
-| Ερώτηση | Απάντηση |
-|----------|--------|
-| *Χρειάζομαι άδεια για το Aspose.Words για να χρησιμοποιήσω αυτόν τον κώδικα;* | Ναι, μια έγκυρη άδεια Aspose.Words αφαιρεί τα υδατογράμματα αξιολόγησης και ξεκλειδώνει τη πλήρη λειτουργικότητα. |
-| *Μπορεί αυτή η προσέγγιση να εντοπίσει ενσωματωμένες γραμματοσειρές;* | Οι ενσωματωμένες γραμματοσειρές είναι ήδη μέρος του αρχείου, έτσι το Aspose.Words δεν θα εμφανίσει προειδοποίηση αντικατάστασης. Μπορείτε να ελέγξετε το `Document.FontInfos` για να απαριθμήσετε τις ενσωματωμένες γραμματοσειρές εάν χρειάζεται. |
-| *Τι γίνεται αν η λείπουσα γραμματοσειρά είναι συστημική στο Windows αλλά όχι στο Linux;* | Η ίδια προειδοποίηση θα ενεργοποιηθεί στο Linux επειδή η γραμματοσειρά δεν είναι εγκατεστημένη εκεί. Χρησιμοποιήστε τη στρατηγική “διαχείριση ελλιπών γραμματοσειρών” για να στείλετε τα απαιτούμενα αρχεία `.ttf` με την εφαρμογή σας. |
-| *Is the warning collector thread
+## Συχνές Ερωτήσεις & Παγίδες
+
+### Τι γίνεται αν χρειαστεί να σταματήσετε τη φόρτωση όταν λείπει μια απαιτούμενη γραμματοσειρά;
+Μπορείτε να ελέγξετε τα αντικείμενα `WarningInfo` μέσα στη callback και να ρίξετε μια εξαίρεση όταν εμφανιστεί ένα συγκεκριμένο όνομα γραμματοσειράς. Η εξαίρεση θα ακυρώσει τη φόρτωση, δίνοντάς σας πλήρη έλεγχο.
+
+```csharp
+public void Warning(WarningInfo info)
+{
+    if (info.Type == WarningType.FontSubstitution &&
+        info.Message.Contains("MyCriticalFont"))
+    {
+        throw new InvalidOperationException("Critical font missing – aborting load.");
+    }
+    Warnings.Add(info);
+}
+```
+
+### Λειτουργεί αυτό με PDF ή άλλες μορφές;
+Ναι. Το Aspose.Words χρησιμοποιεί την ίδια υποδομή προειδοποιήσεων για PDF, RTF και HTML. Απλώς αλλάξτε την επέκταση του αρχείου και ο υπόλοιπος κώδικας παραμένει αμετάβλητος.
+
+### Πώς μπορώ να καταγράψω τις προειδοποιήσεις σε αρχείο αντί για την κονσόλα;
+Αντικαταστήστε το `Console.WriteLine` με οποιοδήποτε πλαίσιο καταγραφής προτιμάτε (`Serilog`, `NLog`, κ.λπ.). Η κλάση `WarningInfo` εκθέτει τα πεδία `Message`, `Source` και `Exception` για λεπτομερείς καταγραφές.
+
+### Θα επηρεάσει αυτό την απόδοση;
+Το πρόσθετο κόστος είναι αμελητέο—το Aspose.Words ήδη δημιουργεί τις προειδοποιήσεις εσωτερικά. Η προσθήκη μιας callback απλώς αποθηκεύει τις προειδοποιήσεις σε μια λίστα, που είναι O(n) ως προς τον αριθμό των προειδοποιήσεων. Για τυπικά έγγραφα, η επίπτωση είναι πολύ κάτω από 1 % του συνολικού χρόνου φόρτωσης.
+
+---
+
+## Οπτική Σύνοψη
+
+![Πώς να Εντοπίσετε Γραμματοσειρές στο Aspose.Words – διάγραμμα ροής προειδοποιήσεων](https://example.com/images/font-detection-diagram.png "πώς να εντοπίσετε γραμματοσειρές")
+
+*Κείμενο alt:* **πώς να εντοπίσετε γραμματοσειρές** – διάγραμμα που δείχνει το callback προειδοποίησης, τη συλλογή και τα βήματα απαρίθμησης.
+
+---
+
+## Συμπεράσματα
+
+Καλύψαμε **πώς να εντοπίσετε γραμματοσειρές** στο Aspose.Words μέσω **καταγραφής προειδοποιήσεων**, **ρύθμισης μιας callback**, και **απαρίθμησης προειδοποιήσεων**. Το πλήρες δείγμα κώδικα παρουσιάζει ένα πρότυπο έτοιμο για παραγωγή που μπορείτε να ενσωματώσετε σε οποιαδήποτε εφαρμογή .NET.
+
+Στη συνέχεια, ίσως θελήσετε να εξερευνήσετε:
+
+- **Πώς να καταγράψετε προειδοποιήσεις** για άλλα ζητήματα (π.χ., προβλήματα μετατροπής εικόνων)
+- **Πώς να ρυθμίσετε μια callback** για προσαρμοσμένα πλαίσια καταγραφής
+- **Πώς να απαριθμήσετε προειδοποιήσεις** σε πολλαπλά έγγραφα σε μια παρτίδα εργασίας
+- Χρήση του **Aspose.Words.Fonts.FontSettings** για παροχή φακέλων εφεδρικών γραμματοσειρών, κάτι που μπορεί να μειώσει τον αριθμό των αντικαταστάσεων από την αρχή.
+
+Δοκιμάστε το, προσαρμόστε τον συλλέκτη ώστε να ταιριάζει στο στυλ καταγραφής σας, και δεν θα εκπλαγείτε ξανά από μια απρόσμενη αντικατάσταση γραμματοσειράς. Αν συναντήσετε οποιεσδήποτε ιδιαιτερότητες, αφήστε ένα σχόλιο παρακάτω—καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

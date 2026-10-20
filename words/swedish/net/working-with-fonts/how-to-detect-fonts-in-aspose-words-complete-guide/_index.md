@@ -1,24 +1,26 @@
 ---
 category: general
-date: 2026-04-07
-description: Lär dig hur du upptäcker typsnitt och hur du fångar varningar när du
-  hanterar saknade typsnitt i C# med Aspose.Words. Steg‑för‑steg‑kod inkluderad.
+date: 2026-04-21
+description: Lär dig hur du upptäcker teckensnitt, fångar varningar, konfigurerar
+  återanrop och enumererar varningar med Aspose.Words i C#. Steg‑för‑steg‑guide för
+  pålitlig teckensnittshantering.
 draft: false
 keywords:
 - how to detect fonts
 - how to capture warnings
-- handle missing fonts
-- Aspose.Words font substitution
-- C# document loading warnings
+- how to configure callback
+- how to enumerate warnings
+- Aspose.Words font handling
 language: sv
-og_description: Hur upptäcker du teckensnitt i Aspose.Words? Följ den här handledningen
-  för att fånga varningar och hantera saknade teckensnitt utan ansträngning.
-og_title: Hur man upptäcker teckensnitt i Aspose.Words – Komplett guide
+og_description: Hur upptäcker man teckensnitt i Aspose.Words? Den här handledningen
+  visar hur du fångar varningar, konfigurerar en återuppringning och enumererar varningar
+  i C#.
+og_title: Hur man upptäcker typsnitt i Aspose.Words – Komplett guide
 tags:
 - Aspose.Words
 - C#
-- Font handling
-title: Hur man upptäcker typsnitt i Aspose.Words – Komplett guide
+- Document Processing
+title: Hur man upptäcker teckensnitt i Aspose.Words – Komplett guide
 url: /sv/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-complete-guide/
 ---
 
@@ -26,244 +28,221 @@ url: /sv/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-complete-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hur man upptäcker teckensnitt i Aspose.Words – Komplett guide
+# Så upptäcker du teckensnitt i Aspose.Words – Komplett guide
 
-Har du någonsin undrat **hur man upptäcker teckensnitt** som saknas i ett Word-dokument innan du skickar det till produktion? Du är inte ensam. I många företagsmiljöer kan ett felaktigt teckensnitt bryta en PDF‑konverteringspipeline eller orsaka layout‑glitchar som ser oprofessionella ut. Den goda nyheten är att Aspose.Words ger dig ett inbyggt sätt att sniffa upp de frånvarande teckensnitten och visa tydliga varningar.
+Har du någonsin funderat **hur man upptäcker teckensnitt** som saknas när du laddar ett Word‑dokument? Det är ett scenario som dyker upp oftare än du kanske vill, särskilt när du arbetar med äldre filer eller tvär‑plattform‑distributioner. I den här handledningen går vi igenom ett komplett, körbart exempel som **fångar varningar**, **konfigurerar en callback** och **enumererar varningar** så att du alltid vet vilka teckensnitt som ersattes.
 
-I den här handledningen går vi igenom exakt **hur man upptäcker teckensnitt**, **hur man fångar varningar**, och bästa praxis för att **hantera saknade teckensnitt** så att din applikation förblir robust. Inga externa verktyg, ingen gissning—bara ren C#‑kod som du kan släppa in i ditt projekt just nu.
+Vi kommer att använda Aspose.Words for .NET (v24.9 vid skrivandet) och ren C#. Inga externa tjänster, ingen magi – bara API‑et och några rader kod. När du är klar kan du identifiera varje teckensnittssubstitution, logga den och till och med bestämma om du ska avbryta inläsningen om ett kritiskt teckensnitt saknas.  
 
-> **Snabb förhandsvisning:** Vid slutet kommer du att ha en återanvändbar `FontSubstitutionWarningCollector` som samlar varje teckensnitt‑substitutionsmeddelande under dokumentladdning, och du kommer att veta hur du ska reagera när ett teckensnitt inte kan hittas.
+### Vad du behöver
+- **Aspose.Words for .NET** (installera via NuGet: `Install-Package Aspose.Words`)
+- .NET 6.0 eller senare (koden fungerar även på .NET Framework)
+- Ett exempel‑DOCX som refererar till ett teckensnitt som inte finns på maskinen (t.ex. “MyCustomFont.ttf”)
+- Visual Studio, Rider eller någon annan C#‑editor du föredrar
+
+> **Pro tip:** Om du inte har ett dokument med saknade teckensnitt, byt helt enkelt namn på en teckensnittsfil på ditt system eller redigera DOCX‑XML‑filen så att den refererar till en icke‑existerande teckensnittsfamilj.
 
 ---
 
-## Vad du kommer att lära dig
+## Så upptäcker du teckensnitt med Aspose.Words
 
-- Hur du konfigurerar `LoadOptions` för att lyssna på varningar om teckensnitt‑substitution.  
-- Hur du fångar dessa varningar i en anpassad samlarklass.  
-- Hur du bearbetar de insamlade varningarna och beslutar om du ska avbryta, logga eller ersätta teckensnitt.  
-- Hantering av edge‑case för dokument som refererar till fjärr‑ eller inbäddade teckensnitt.  
-
-**Förutsättningar:** .NET 6+ (eller .NET Framework 4.6+), Aspose.Words för .NET (senaste versionen), och en grundläggande förtrogenhet med C#. Om du aldrig har använt Aspose.Words tidigare, oroa dig inte—denna guide förutsätter bara några minuters installationstid.
-
-## Så upptäcker du teckensnitt med Aspose.Words LoadOptions
-
-Det första steget för att upptäcka saknade teckensnitt är att tala om för Aspose.Words att rapportera dem. Detta görs via egenskapen `LoadOptions.WarningCallback`, som accepterar vilken klass som helst som implementerar `IWarningCallback`. Nedan skapar vi en liten samlare som lagrar varje varning för senare inspektion.
+Kärnidén är att knyta in dig i Aspose.Words varningssystem. När biblioteket inte kan hitta ett efterfrågat teckensnitt, skickar det en varning av typen `WarningType.FontSubstitution`. Genom att tillhandahålla en egen implementation av `IWarningCallback` kan du **upptäcka teckensnitt** som byttes ut under inläsningsprocessen.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Saving;
-using System.Collections.Generic;
+using Aspose.Words.Fonts;
 
-/// <summary>
-/// Collects all warnings emitted while loading a document.
-/// </summary>
-public class FontSubstitutionWarningCollector : IWarningCallback
+// 1️⃣ Create a collector that implements IWarningCallback
+public class FontWarningCollector : IWarningCallback
 {
-    // Thread‑safe static list so we can access warnings after loading.
-    public static List<WarningInfo> Warnings { get; } = new List<WarningInfo>();
+    public List<WarningInfo> Warnings { get; } = new();
 
-    // Called by Aspose.Words for each warning.
     public void Warning(WarningInfo info)
     {
-        // We only care about font‑related warnings.
-        if (info.Type == WarningType.FontSubstitution)
-        {
-            Warnings.Add(info);
-        }
+        // Store every warning – we’ll filter later
+        Warnings.Add(info);
     }
-
-    // Helper to clear previous run’s warnings.
-    public static void Clear() => Warnings.Clear();
 }
 ```
 
-**Varför detta är viktigt:** Utan en varningscallback ersätter Aspose.Words tyst saknade teckensnitt med ett standardteckensnitt, och du får aldrig veta att ett problem finns. Genom att fånga `WarningType.FontSubstitution` får vi full insyn—exakt den data du behöver för att **upptäcka teckensnitt** som inte finns på värddatorn.
+> **Why this works:** Aspose.Words calls the `Warning` method for every non‑critical issue. By storing the `WarningInfo` objects you get full access to the type, message, and context, which is exactly what you need to **detect fonts** that were substituted.
 
-Nu kopplar vi samlaren till `LoadOptions` och laddar ett dokument:
+---
+
+## Så fångar du varningar när du laddar ett dokument
+
+Nu när vi har en samlare måste vi tala om för `LoadOptions` att använda den. Detta är **hur man fångar varningar**‑delen av pusslet.
 
 ```csharp
-// Step 1: Prepare load options with our warning collector.
-LoadOptions loadOptions = new LoadOptions
+// 2️⃣ Prepare LoadOptions with our warning collector
+var warningCollector = new FontWarningCollector();
+var loadOptions = new LoadOptions
 {
-    WarningCallback = new FontSubstitutionWarningCollector()
+    // Assign the callback – this is where warnings are captured
+    WarningCallback = warningCollector
 };
 
-// Optional: clear any stale warnings from a previous run.
-FontSubstitutionWarningCollector.Clear();
-
-// Step 2: Load the document. Replace the path with your own file.
-Document doc = new Document(@"C:\Docs\MissingFonts.docx", loadOptions);
+// 3️⃣ Load the document (replace the path with your own file)
+Document doc = new Document("YOUR_DIRECTORY/DocumentWithMissingFont.docx", loadOptions);
 ```
 
-> **Proffstips:** Om du arbetar med många dokument i ett batch‑läge, återanvänd samma `FontSubstitutionWarningCollector`‑instans men kom ihåg att anropa `Clear()` mellan laddningar för att undvika att blanda varningar från olika filer.
+> **Edge case:** If you load a document from a stream (`new Document(stream, loadOptions)`), the same callback works—just pass the stream instead of a file path.
 
-## Fånga varningar under dokumentladdning
+I det här skedet är dokumentet helt inläst, men eventuella varningar om teckensnittssubstitution har säkert lagrats i `warningCollector.Warnings`.
 
-Efter att dokumentet har laddats har samlaren redan alla teckensnitt‑relaterade varningar. Den nästa logiska frågan är: *Hur fångar jag varningar* på ett sätt som är enkelt att logga eller visa?
+---
+
+## Så enumererar du varningar och rapporterar teckensnittssubstitutioner
+
+Till sist går vi igenom de insamlade varningarna och **enumererar varningar** som specifikt handlar om teckensnittssubstitution. Detta steg omvandlar rådata till en läsbar rapport.
 
 ```csharp
-// Step 3: Iterate over collected warnings and output them.
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
+// 4️⃣ Iterate over the collected warnings
+foreach (var warning in warningCollector.Warnings)
 {
-    Console.WriteLine($"{warning.Type}: {warning.Message}");
-}
-```
-
-Typisk output ser ut så här:
-
-```
-FontSubstitution: Font 'Comic Sans MS' was not found. Substituted with 'Arial'.
-FontSubstitution: Font 'Garamond' missing. Using 'Times New Roman' instead.
-```
-
-**Vad detta visar:** Varje rad avslöjar det ursprungliga teckensnittets namn och den reserv som Aspose.Words valde. Beväpnad med denna information kan du avgöra om reservteckensnittet är acceptabelt eller om du behöver bädda in det saknade teckensnittet manuellt.
-
-## Hantera saknade teckensnitt på ett smidigt sätt
-
-Att upptäcka och fånga varningar är bara halva striden. Det verkliga värdet kommer när du **hanterar saknade teckensnitt** på ett produktionsklart sätt. Nedan följer tre vanliga strategier:
-
-1. **Logga och fortsätt** – Lämplig för batch‑bearbetning där du bara behöver ett revisionsspår.  
-2. **Avbryt vid kritiska teckensnitt** – Kasta ett undantag om ett specifikt teckensnitt (t.ex. ett varumärkes‑specifikt typsnitt) saknas.  
-3. **Bädda in teckensnittet i farten** – Ladda det saknade teckensnittet från en känd mapp och registrera det i Aspose.Words innan du laddar om dokumentet.
-
-### Exempel: Avbryt vid ett kritiskt teckensnitt
-
-```csharp
-// Define a list of fonts that must be present.
-var requiredFonts = new HashSet<string> { "MyBrand-Regular", "MyBrand-Bold" };
-
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
-{
-    // Extract the original font name from the warning message.
-    string missingFont = ExtractFontName(warning.Message);
-    if (requiredFonts.Contains(missingFont))
+    // We're only interested in font substitution warnings
+    if (warning.Type == WarningType.FontSubstitution)
     {
-        throw new InvalidOperationException(
-            $"Critical font '{missingFont}' is missing. Document load aborted.");
-    }
-}
-
-// Helper method to parse font name from warning text.
-string ExtractFontName(string message)
-{
-    // Message pattern: "Font 'X' was not found..."
-    int start = message.IndexOf('\'') + 1;
-    int end = message.IndexOf('\'', start);
-    return (start > 0 && end > start) ? message[start..end] : string.Empty;
-}
-```
-
-### Exempel: Automatisk inbäddning av saknade teckensnitt
-
-```csharp
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
-{
-    string missingFont = ExtractFontName(warning.Message);
-    string fontPath = $@"C:\Fonts\{missingFont}.ttf";
-
-    if (File.Exists(fontPath))
-    {
-        // Register the font with Aspose.Words.
-        FontSettings fontSettings = new FontSettings();
-        fontSettings.SetFontsFolder(Path.GetDirectoryName(fontPath), false);
-        doc.FontSettings = fontSettings;
-
-        // Reload the document now that the font is available.
-        doc = new Document(@"C:\Docs\MissingFonts.docx", loadOptions);
-        break; // Re‑load once; subsequent warnings will be resolved.
+        Console.WriteLine($"Substituted font: {warning.Message}");
     }
 }
 ```
 
-**Varför dessa mönster hjälper:** Genom att explicit bestämma vad som ska göras när ett teckensnitt saknas, eliminerar du tysta reservval som kan äventyra varumärket eller läsbarheten. Detta är kärnan i **hantering av saknade teckensnitt** på ett kontrollerat sätt.
+**Förväntad utskrift** (exempel):
 
-## Komplett fungerande exempel
+```
+Substituted font: Font 'Calibri' not found. Substituted with 'Arial'.
+Substituted font: Font 'MyCustomFont' not found. Substituted with 'Times New Roman'.
+```
 
-När vi sätter ihop allt, här är ett enda, färdigt‑att‑köra‑program som demonstrerar **hur man upptäcker teckensnitt**, **hur man fångar varningar**, och en enkel policy för att **hantera saknade teckensnitt** genom att logga dem.
+Om dokumentet inte innehåller några saknade teckensnitt så producerar loopen helt enkelt ingen utskrift – inget att oroa sig för.
+
+---
+
+## Fullt fungerande exempel (Alla steg i en fil)
+
+Nedan finns det kompletta programmet som du kan kopiera‑klistra in i ett konsolprojekt. Det binder ihop **hur man upptäcker teckensnitt**, **hur man fångar varningar**, **hur man konfigurerar callback** och **hur man enumererar varningar** i ett enda, sammanhållet flöde.
 
 ```csharp
-using Aspose.Words;
-using Aspose.Words.Saving;
 using System;
 using System.Collections.Generic;
-using System.IO;
+using Aspose.Words;
+using Aspose.Words.Fonts;
 
-public class FontSubstitutionWarningCollector : IWarningCallback
+namespace FontDetectionDemo
 {
-    public static List<WarningInfo> Warnings { get; } = new List<WarningInfo>();
-    public void Warning(WarningInfo info)
+    // Custom warning collector (captures all warnings)
+    public class FontWarningCollector : IWarningCallback
     {
-        if (info.Type == WarningType.FontSubstitution)
+        public List<WarningInfo> Warnings { get; } = new();
+
+        public void Warning(WarningInfo info)
+        {
             Warnings.Add(info);
-    }
-    public static void Clear() => Warnings.Clear();
-}
-
-class Program
-{
-    static void Main()
-    {
-        string docPath = @"C:\Docs\MissingFonts.docx";
-
-        // 1️⃣ Configure LoadOptions with the warning collector.
-        LoadOptions loadOptions = new LoadOptions
-        {
-            WarningCallback = new FontSubstitutionWarningCollector()
-        };
-        FontSubstitutionWarningCollector.Clear();
-
-        // 2️⃣ Load the document – this is where fonts are detected.
-        Document doc = new Document(docPath, loadOptions);
-
-        // 3️⃣ Process the collected warnings.
-        if (FontSubstitutionWarningCollector.Warnings.Count == 0)
-        {
-            Console.WriteLine("✅ No missing fonts detected.");
         }
-        else
-        {
-            Console.WriteLine("⚠️ Font substitution warnings:");
-            foreach (var w in FontSubstitutionWarningCollector.Warnings)
-                Console.WriteLine($"{w.Type}: {w.Message}");
+    }
 
-            // Example policy: abort if a brand‑critical font is missing.
-            var critical = new HashSet<string> { "MyBrand-Regular", "MyBrand-Bold" };
-            foreach (var w in FontSubstitutionWarningCollector.Warnings)
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // -------------------------------------------------
+            // Step 1: Set up the warning collector (how to configure callback)
+            var collector = new FontWarningCollector();
+            var loadOptions = new LoadOptions
             {
-                string missing = ExtractFontName(w.Message);
-                if (critical.Contains(missing))
+                WarningCallback = collector
+            };
+
+            // -------------------------------------------------
+            // Step 2: Load the document (how to detect fonts)
+            string filePath = "YOUR_DIRECTORY/DocumentWithMissingFont.docx";
+            Document doc;
+            try
+            {
+                doc = new Document(filePath, loadOptions);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Failed to load document: {ex.Message}");
+                return;
+            }
+
+            // -------------------------------------------------
+            // Step 3: Enumerate warnings (how to enumerate warnings)
+            bool anySubstitutions = false;
+            foreach (var warning in collector.Warnings)
+            {
+                if (warning.Type == WarningType.FontSubstitution)
                 {
-                    Console.WriteLine($"❌ Critical font '{missing}' missing. Stopping.");
-                    return;
+                    anySubstitutions = true;
+                    Console.WriteLine($"Substituted font: {warning.Message}");
                 }
             }
+
+            if (!anySubstitutions)
+            {
+                Console.WriteLine("No font substitutions detected – all fonts are available.");
+            }
+
+            // Optional: Continue processing the document...
         }
-
-        // 4️⃣ Continue with normal processing (e.g., save as PDF).
-        doc.Save(@"C:\Docs\Output.pdf", SaveFormat.Pdf);
-        Console.WriteLine("✅ Document saved as PDF.");
-    }
-
-    // Helper to pull the original font name out of the warning text.
-    static string ExtractFontName(string message)
-    {
-        int first = message.IndexOf('\'') + 1;
-        int last = message.IndexOf('\'', first);
-        return (first > 0 && last > first) ? message[first..last] : string.Empty;
     }
 }
 ```
 
-**Förväntat resultat:** När du kör programmet mot ett dokument som refererar till ett teckensnitt som inte finns på maskinen, kommer konsolen att lista varje substitutionsvarning. Om någon varning involverar ett teckensnitt från `critical`‑uppsättningen, avslutas programmet tidigt, vilket förhindrar att en felaktig PDF genereras.
+**Kör detta program** så skrivs varje teckensnitt som Aspose.Words var tvungen att ersätta ut. Du kan omdirigera utskriften till en loggfil, skicka ett larm eller till och med avbryta inläsningen om ett kritiskt teckensnitt saknas.
 
-## Vanliga frågor (FAQ)
+---
 
-| Question | Answer |
-|----------|--------|
-| *Behöver jag en licens för Aspose.Words för att använda den här koden?* | Ja, en giltig Aspose.Words‑licens tar bort utvärderingsvattenstämplar och låser upp full funktionalitet. |
-| *Kan detta tillvägagångssätt upptäcka inbäddade teckensnitt?* | Inbäddade teckensnitt är redan en del av filen, så Aspose.Words kommer inte att ge en substitutionsvarning. Du kan kontrollera `Document.FontInfos` för att lista inbäddade teckensnitt om så behövs. |
-| *Vad händer om det saknade teckensnittet är ett systemteckensnitt på Windows men inte på Linux?* | Samma varning kommer att utlösas på Linux eftersom teckensnittet inte är installerat där. Använd strategin “hantera saknade teckensnitt” för att leverera de nödvändiga `.ttf`‑filerna med din app. |
-| *Är varningssamlaren trådad* |  |
+## Vanliga frågor & fallgropar
+
+### Vad händer om jag behöver stoppa laddningen när ett obligatoriskt teckensnitt saknas?
+Du kan inspektera `WarningInfo`‑objekten i callback‑metoden och kasta ett undantag när ett specifikt teckensnittsnamn dyker upp. Undantaget avbryter inläsningen och ger dig full kontroll.
+
+```csharp
+public void Warning(WarningInfo info)
+{
+    if (info.Type == WarningType.FontSubstitution &&
+        info.Message.Contains("MyCriticalFont"))
+    {
+        throw new InvalidOperationException("Critical font missing – aborting load.");
+    }
+    Warnings.Add(info);
+}
+```
+
+### Fungerar detta med PDF‑filer eller andra format?
+Ja. Aspose.Words använder samma varningsinfrastruktur för PDF, RTF och HTML. Byt bara filändelsen så är resten av koden identisk.
+
+### Hur kan jag logga varningar till en fil istället för konsolen?
+Byt ut `Console.WriteLine` mot vilket loggningsramverk du föredrar (`Serilog`, `NLog` osv.). Klassen `WarningInfo` exponerar `Message`, `Source` och `Exception` för detaljerade loggar.
+
+### Kommer detta att påverka prestanda?
+Överheaden är försumbar – Aspose.Words genererar redan varningarna internt. Att lägga till en callback lagrar dem bara i en lista, vilket är O(n) i antalet varningar. För vanliga dokument är påverkan långt under 1 % av total laddningstid.
+
+---
+
+## Visuell sammanfattning
+
+![Hur man upptäcker teckensnitt i Aspose.Words – varningsflödesdiagram](https://example.com/images/font-detection-diagram.png "hur man upptäcker teckensnitt")
+
+*Alt text:* **hur man upptäcker teckensnitt** – diagram som visar varnings‑callback, samling och enumereringssteg.
+
+---
+
+## Sammanfattning
+
+Vi har gått igenom **hur man upptäcker teckensnitt** i Aspose.Words genom att **fånga varningar**, **konfigurera en callback** och **enumerera varningar**. Det kompletta kodexemplet visar ett produktionsklart mönster som du kan använda i vilken .NET‑applikation som helst.  
+
+Nästa steg kan vara att utforska:
+
+- **Hur man fångar varningar** för andra problem (t.ex. bildkonverteringsfel)
+- **Hur man konfigurerar callback** för egna loggningsramverk
+- **Hur man enumererar varningar** över flera dokument i ett batch‑jobb
+- Att använda **Aspose.Words.Fonts.FontSettings** för att ange reserv‑teckensnittsmappar, vilket kan minska antalet substitutioner från början.
+
+Prova det, anpassa samlaren efter din loggningsstil, så blir du aldrig förvånad över en oväntad teckensnittssubstitution igen. Om du stöter på några knasigheter, lämna en kommentar nedan – happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

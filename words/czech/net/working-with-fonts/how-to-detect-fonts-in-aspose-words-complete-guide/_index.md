@@ -1,23 +1,24 @@
 ---
 category: general
-date: 2026-04-07
-description: Naučte se, jak detekovat písma a jak zachytit varování při zpracování
-  chybějících písem v C# pomocí Aspose.Words. Kód krok za krokem je zahrnut.
+date: 2026-04-21
+description: Naučte se, jak detekovat písma, zachytávat varování, nastavit callback
+  a vyjmenovávat varování pomocí Aspose.Words v C#. Krok za krokem průvodce spolehlivou
+  správou písem.
 draft: false
 keywords:
 - how to detect fonts
 - how to capture warnings
-- handle missing fonts
-- Aspose.Words font substitution
-- C# document loading warnings
+- how to configure callback
+- how to enumerate warnings
+- Aspose.Words font handling
 language: cs
-og_description: Jak detekovat písma v Aspose.Words? Postupujte podle tohoto tutoriálu,
-  abyste zachytili varování a snadno řešili chybějící písma.
+og_description: Jak detekovat fonty v Aspose.Words? Tento tutoriál vám ukáže, jak
+  zachytit varování, nastavit zpětné volání a vypsat varování v C#.
 og_title: Jak detekovat písma v Aspose.Words – kompletní průvodce
 tags:
 - Aspose.Words
 - C#
-- Font handling
+- Document Processing
 title: Jak detekovat písma v Aspose.Words – kompletní průvodce
 url: /cs/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-complete-guide/
 ---
@@ -28,252 +29,219 @@ url: /cs/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-complete-gui
 
 # Jak detekovat písma v Aspose.Words – Kompletní průvodce
 
-Už jste se někdy zamýšleli **jak detekovat písma**, která ve Word dokumentu chybí, ještě před tím, než jej nasadíte do produkce? Nejste v tom sami. V mnoha podnikových scénářích může chybějící písmo rozbít pipeline pro konverzi do PDF nebo způsobit rozložení, které vypadá neprofesionálně. Dobrou zprávou je, že Aspose.Words poskytuje vestavěný způsob, jak odhalit tyto chybějící typy písma a zobrazit jasná varování.
+Už jste se někdy zamysleli, **jak detekovat písma**, která chybí při načítání Word dokumentu? Jedná se o situaci, která se objevuje častěji, než byste si přáli, zejména při práci se staršími soubory nebo při nasazení napříč platformami. V tomto tutoriálu projdeme kompletním, spustitelným příkladem, který **zachytává varování**, **konfiguruje callback** a **vypisuje varování**, takže vždy budete vědět, která písma byla nahrazena.
 
-V tomto tutoriálu si projdeme **jak detekovat písma**, **jak zachytit varování** a nejlepší postupy **jak zacházet s chybějícími písmy**, aby vaše aplikace zůstala robustní. Žádné externí nástroje, žádné hádání — pouze čistý C# kód, který můžete hned vložit do svého projektu.
+Budeme používat Aspose.Words pro .NET (v24.9 v době psaní) a čistý C#. Žádné externí služby, žádná magie — pouze API a pár řádků kódu. Na konci budete schopni odhalit každou substituci písma, zaznamenat ji a dokonce se rozhodnout, zda načítání přerušit, pokud chybí kritické písmo.
 
-> **Rychlý náhled:** Na konci budete mít znovupoužitelný `FontSubstitutionWarningCollector`, který sbírá každou zprávu o substituci písma během načítání dokumentu, a budete vědět, jak reagovat, když písmo nelze najít.
+### Co budete potřebovat
+- **Aspose.Words pro .NET** (instalace přes NuGet: `Install-Package Aspose.Words`)
+- .NET 6.0 nebo novější (kód funguje i na .NET Framework)
+- Ukázkový DOCX, který odkazuje na písmo, jež není nainstalováno na počítači (např. „MyCustomFont.ttf“)
+- Visual Studio, Rider nebo jakýkoli C# editor, který preferujete
 
----
-
-## Co se naučíte
-
-- Jak nakonfigurovat `LoadOptions`, aby naslouchala varováním o substituci písma.  
-- Jak zachytit tato varování v vlastní třídě sběrače.  
-- Jak zpracovat nasbíraná varování a rozhodnout, zda ukončit, zalogovat nebo nahradit písma.  
-- Jak řešit okrajové případy u dokumentů, které odkazují na vzdálená nebo vložená písma.  
-
-**Požadavky:** .NET 6+ (nebo .NET Framework 4.6+), Aspose.Words pro .NET (nejnovější verze) a základní znalost C#. Pokud jste s Aspose.Words nikdy nepracovali, nebojte se — tento průvodce předpokládá jen pár minut nastavení.
+> **Tip:** Pokud nemáte dokument s chybějícími písmy, jednoduše přejmenujte soubor písma ve vašem systému nebo upravte XML v DOCX tak, aby odkazovalo na neexistující rodinu písma.
 
 ---
 
-## Jak detekovat písma pomocí Aspose.Words LoadOptions
+## Jak detekovat písma pomocí Aspose.Words
 
-Prvním krokem k detekci chybějících písem je říci Aspose.Words, aby je hlásila. To se provádí pomocí vlastnosti `LoadOptions.WarningCallback`, která přijímá libovolnou třídu implementující `IWarningCallback`. Níže vytvoříme malý sběrač, který ukládá každé varování pro pozdější kontrolu.
+Základní myšlenkou je napojit se na systém varování Aspose.Words. Když knihovna nenajde požadované písmo, vygeneruje varování typu `WarningType.FontSubstitution`. Poskytnutím vlastní implementace `IWarningCallback` můžete **detekovat písma**, která byla během načítání vyměněna.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Saving;
-using System.Collections.Generic;
+using Aspose.Words.Fonts;
 
-/// <summary>
-/// Collects all warnings emitted while loading a document.
-/// </summary>
-public class FontSubstitutionWarningCollector : IWarningCallback
+// 1️⃣ Create a collector that implements IWarningCallback
+public class FontWarningCollector : IWarningCallback
 {
-    // Thread‑safe static list so we can access warnings after loading.
-    public static List<WarningInfo> Warnings { get; } = new List<WarningInfo>();
+    public List<WarningInfo> Warnings { get; } = new();
 
-    // Called by Aspose.Words for each warning.
     public void Warning(WarningInfo info)
     {
-        // We only care about font‑related warnings.
-        if (info.Type == WarningType.FontSubstitution)
-        {
-            Warnings.Add(info);
-        }
+        // Store every warning – we’ll filter later
+        Warnings.Add(info);
     }
-
-    // Helper to clear previous run’s warnings.
-    public static void Clear() => Warnings.Clear();
 }
 ```
 
-**Proč je to důležité:** Bez callbacku pro varování Aspose.Words tiše nahrazuje chybějící písma výchozím, a nikdy se nedozvíte, že problém existuje. Zachycením `WarningType.FontSubstitution` získáte úplnou přehlednost — právě data, která potřebujete k **detekci písem**, která nejsou na hostitelském stroji dostupná.
+> **Proč to funguje:** Aspose.Words volá metodu `Warning` pro každou nekritickou událost. Ukládáním objektů `WarningInfo` získáte plný přístup k typu, zprávě i kontextu, což je přesně to, co potřebujete k **detekci písma**, které bylo substituováno.
 
-Nyní připojíme sběrač k `LoadOptions` a načteme dokument:
+---
+
+## Jak zachytit varování při načítání dokumentu
+
+Nyní, když máme sběrač, musíme `LoadOptions` nastavit tak, aby jej používal. Toto je část, kde **zachytáváme varování**.
 
 ```csharp
-// Step 1: Prepare load options with our warning collector.
-LoadOptions loadOptions = new LoadOptions
+// 2️⃣ Prepare LoadOptions with our warning collector
+var warningCollector = new FontWarningCollector();
+var loadOptions = new LoadOptions
 {
-    WarningCallback = new FontSubstitutionWarningCollector()
+    // Assign the callback – this is where warnings are captured
+    WarningCallback = warningCollector
 };
 
-// Optional: clear any stale warnings from a previous run.
-FontSubstitutionWarningCollector.Clear();
-
-// Step 2: Load the document. Replace the path with your own file.
-Document doc = new Document(@"C:\Docs\MissingFonts.docx", loadOptions);
+// 3️⃣ Load the document (replace the path with your own file)
+Document doc = new Document("YOUR_DIRECTORY/DocumentWithMissingFont.docx", loadOptions);
 ```
 
-> **Tip:** Pokud pracujete s mnoha dokumenty najednou, znovu použijte stejnou instanci `FontSubstitutionWarningCollector`, ale nezapomeňte mezi načteními zavolat `Clear()`, aby nedošlo ke smíchání varování z různých souborů.
+> **Hraniční případ:** Pokud načítáte dokument ze streamu (`new Document(stream, loadOptions)`), stejný callback funguje — stačí předat stream místo cesty k souboru.
+
+V tomto okamžiku je dokument plně načten, ale všechna varování o substituci písma jsou bezpečně uložena v `warningCollector.Warnings`.
 
 ---
 
-## Zachycení varování během načítání dokumentu
+## Jak procházet varování a reportovat substituce písma
 
-Po načtení dokumentu už sběrač obsahuje všechna varování související s písmy. Další logická otázka je: *Jak zachytit varování* tak, aby se dala snadno zalogovat nebo zobrazit?
-
-```csharp
-// Step 3: Iterate over collected warnings and output them.
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
-{
-    Console.WriteLine($"{warning.Type}: {warning.Message}");
-}
-```
-
-Typický výstup vypadá takto:
-
-```
-FontSubstitution: Font 'Comic Sans MS' was not found. Substituted with 'Arial'.
-FontSubstitution: Font 'Garamond' missing. Using 'Times New Roman' instead.
-```
-
-**Co vám to říká:** Každý řádek odhaluje původní název písma a náhradní, které Aspose.Words zvolilo. S těmito informacemi můžete rozhodnout, zda je náhrada přijatelna, nebo zda musíte chybějící písmo vložit ručně.
-
----
-
-## Elegantní zacházení s chybějícími písmy
-
-Detekce a zachycení varování je jen polovina boje. Skutečná hodnota přichází, když **zacházíte s chybějícími písmy** připraveným způsobem pro produkci. Níže jsou tři běžné strategie:
-
-1. **Logovat a pokračovat** – Vhodné pro dávkové zpracování, kde stačí auditní stopa.  
-2. **Ukončit při kritických písmenech** – Vyhodit výjimku, pokud chybí konkrétní písmo (např. firemní typ písma).  
-3. **Vložit písmo za běhu** – Načíst chybějící písmo ze známé složky a zaregistrovat jej v Aspose.Words před opětovným načtením dokumentu.
-
-### Příklad: Ukončit při kritickém písmu
+Nakonec projdeme shromážděná varování a **projdeme varování**, která se konkrétně týkají substituce písma. Tento krok převádí surová data na čitelnou zprávu.
 
 ```csharp
-// Define a list of fonts that must be present.
-var requiredFonts = new HashSet<string> { "MyBrand-Regular", "MyBrand-Bold" };
-
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
+// 4️⃣ Iterate over the collected warnings
+foreach (var warning in warningCollector.Warnings)
 {
-    // Extract the original font name from the warning message.
-    string missingFont = ExtractFontName(warning.Message);
-    if (requiredFonts.Contains(missingFont))
+    // We're only interested in font substitution warnings
+    if (warning.Type == WarningType.FontSubstitution)
     {
-        throw new InvalidOperationException(
-            $"Critical font '{missingFont}' is missing. Document load aborted.");
-    }
-}
-
-// Helper method to parse font name from warning text.
-string ExtractFontName(string message)
-{
-    // Message pattern: "Font 'X' was not found..."
-    int start = message.IndexOf('\'') + 1;
-    int end = message.IndexOf('\'', start);
-    return (start > 0 && end > start) ? message[start..end] : string.Empty;
-}
-```
-
-### Příklad: Automaticky vložit chybějící písma
-
-```csharp
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
-{
-    string missingFont = ExtractFontName(warning.Message);
-    string fontPath = $@"C:\Fonts\{missingFont}.ttf";
-
-    if (File.Exists(fontPath))
-    {
-        // Register the font with Aspose.Words.
-        FontSettings fontSettings = new FontSettings();
-        fontSettings.SetFontsFolder(Path.GetDirectoryName(fontPath), false);
-        doc.FontSettings = fontSettings;
-
-        // Reload the document now that the font is available.
-        doc = new Document(@"C:\Docs\MissingFonts.docx", loadOptions);
-        break; // Re‑load once; subsequent warnings will be resolved.
+        Console.WriteLine($"Substituted font: {warning.Message}");
     }
 }
 ```
 
-**Proč tyto vzory pomáhají:** Tím, že explicitně rozhodnete, co dělat, když písmo chybí, eliminujete tiché náhrady, které by mohly ohrozit značku nebo čitelnost. To je podstata **zacházení s chybějícími písmy** kontrolovaným způsobem.
+**Očekávaný výstup** (příklad):
+
+```
+Substituted font: Font 'Calibri' not found. Substituted with 'Arial'.
+Substituted font: Font 'MyCustomFont' not found. Substituted with 'Times New Roman'.
+```
+
+Pokud dokument neobsahuje žádná chybějící písma, smyčka jednoduše nevytiskne žádný výstup — není co řešit.
 
 ---
 
-## Kompletní funkční příklad
+## Kompletní funkční příklad (všechny kroky v jednom souboru)
 
-Spojením všeho dohromady získáte jeden připravený program, který demonstruje **jak detekovat písma**, **jak zachytit varování** a jednoduchou politiku **zacházení s chybějícími písmy** prostřednictvím jejich logování.
+Níže je kompletní program, který můžete zkopírovat a vložit do konzolového projektu. Spojuje **detekci písem**, **zachycení varování**, **konfiguraci callbacku** a **procházení varování** v jedné koherentní sekvenci.
 
 ```csharp
-using Aspose.Words;
-using Aspose.Words.Saving;
 using System;
 using System.Collections.Generic;
-using System.IO;
+using Aspose.Words;
+using Aspose.Words.Fonts;
 
-public class FontSubstitutionWarningCollector : IWarningCallback
+namespace FontDetectionDemo
 {
-    public static List<WarningInfo> Warnings { get; } = new List<WarningInfo>();
-    public void Warning(WarningInfo info)
+    // Custom warning collector (captures all warnings)
+    public class FontWarningCollector : IWarningCallback
     {
-        if (info.Type == WarningType.FontSubstitution)
+        public List<WarningInfo> Warnings { get; } = new();
+
+        public void Warning(WarningInfo info)
+        {
             Warnings.Add(info);
-    }
-    public static void Clear() => Warnings.Clear();
-}
-
-class Program
-{
-    static void Main()
-    {
-        string docPath = @"C:\Docs\MissingFonts.docx";
-
-        // 1️⃣ Configure LoadOptions with the warning collector.
-        LoadOptions loadOptions = new LoadOptions
-        {
-            WarningCallback = new FontSubstitutionWarningCollector()
-        };
-        FontSubstitutionWarningCollector.Clear();
-
-        // 2️⃣ Load the document – this is where fonts are detected.
-        Document doc = new Document(docPath, loadOptions);
-
-        // 3️⃣ Process the collected warnings.
-        if (FontSubstitutionWarningCollector.Warnings.Count == 0)
-        {
-            Console.WriteLine("✅ No missing fonts detected.");
         }
-        else
-        {
-            Console.WriteLine("⚠️ Font substitution warnings:");
-            foreach (var w in FontSubstitutionWarningCollector.Warnings)
-                Console.WriteLine($"{w.Type}: {w.Message}");
+    }
 
-            // Example policy: abort if a brand‑critical font is missing.
-            var critical = new HashSet<string> { "MyBrand-Regular", "MyBrand-Bold" };
-            foreach (var w in FontSubstitutionWarningCollector.Warnings)
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // -------------------------------------------------
+            // Step 1: Set up the warning collector (how to configure callback)
+            var collector = new FontWarningCollector();
+            var loadOptions = new LoadOptions
             {
-                string missing = ExtractFontName(w.Message);
-                if (critical.Contains(missing))
+                WarningCallback = collector
+            };
+
+            // -------------------------------------------------
+            // Step 2: Load the document (how to detect fonts)
+            string filePath = "YOUR_DIRECTORY/DocumentWithMissingFont.docx";
+            Document doc;
+            try
+            {
+                doc = new Document(filePath, loadOptions);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Failed to load document: {ex.Message}");
+                return;
+            }
+
+            // -------------------------------------------------
+            // Step 3: Enumerate warnings (how to enumerate warnings)
+            bool anySubstitutions = false;
+            foreach (var warning in collector.Warnings)
+            {
+                if (warning.Type == WarningType.FontSubstitution)
                 {
-                    Console.WriteLine($"❌ Critical font '{missing}' missing. Stopping.");
-                    return;
+                    anySubstitutions = true;
+                    Console.WriteLine($"Substituted font: {warning.Message}");
                 }
             }
+
+            if (!anySubstitutions)
+            {
+                Console.WriteLine("No font substitutions detected – all fonts are available.");
+            }
+
+            // Optional: Continue processing the document...
         }
-
-        // 4️⃣ Continue with normal processing (e.g., save as PDF).
-        doc.Save(@"C:\Docs\Output.pdf", SaveFormat.Pdf);
-        Console.WriteLine("✅ Document saved as PDF.");
-    }
-
-    // Helper to pull the original font name out of the warning text.
-    static string ExtractFontName(string message)
-    {
-        int first = message.IndexOf('\'') + 1;
-        int last = message.IndexOf('\'', first);
-        return (first > 0 && last > first) ? message[first..last] : string.Empty;
     }
 }
 ```
 
-**Očekávaný výsledek:** Když spustíte program proti dokumentu, který odkazuje na písmo, jež na stroji není, konzole vypíše každé varování o substituci. Pokud některé varování zahrnuje písmo ze sady `critical`, program se předčasně ukončí, čímž zabrání vytvoření poškozeného PDF.
+**Spuštěním tohoto programu** vytisknete každé písmo, které Aspose.Words muselo nahradit. Výstup můžete přesměrovat do souboru s logem, vyvolat upozornění nebo dokonce přerušit načítání, pokud chybí kritické písmo.
 
 ---
 
-## Často kladené otázky (FAQ)
+## Často kladené otázky a úskalí
 
-| Otázka | Odpověď |
-|----------|--------|
-| *Potřebuji licenci pro Aspose.Words, abych mohl použít tento kód?* | Ano, platná licence Aspose.Words odstraní evaluační vodoznaky a odemkne plnou funkcionalitu. |
-| *Dokáže tento přístup detekovat vložená písma?* | Vložená písma jsou již součástí souboru, takže Aspose.Words nevyvolá varování o substituci. Pro výčet vložených písem můžete použít `Document.FontInfos`. |
-| *Co když chybějící písmo existuje jako systémové na Windows, ale ne na Linuxu?* | Na Linuxu se spustí stejné varování, protože písmo není nainstalováno. Použijte strategii „zacházení s chybějícími písmy“ a přiložte potřebné soubory `.ttf` k aplikaci. |
-| *Je sběrač varování thread...* |  |
+### Co když potřebuji zastavit načítání, když chybí požadované písmo?
+Můžete v callbacku prozkoumat objekty `WarningInfo` a vyhodit výjimku, když se objeví konkrétní název písma. Výjimka přeruší načítání a získáte tak plnou kontrolu.
+
+```csharp
+public void Warning(WarningInfo info)
+{
+    if (info.Type == WarningType.FontSubstitution &&
+        info.Message.Contains("MyCriticalFont"))
+    {
+        throw new InvalidOperationException("Critical font missing – aborting load.");
+    }
+    Warnings.Add(info);
+}
+```
+
+### Funguje to i s PDF nebo jinými formáty?
+Ano. Aspose.Words používá stejnou infrastrukturu varování pro PDF, RTF i HTML. Stačí změnit příponu souboru a zbytek kódu zůstane stejný.
+
+### Jak mohu varování logovat do souboru místo na konzoli?
+Nahraďte `Console.WriteLine` libovolným logovacím frameworkem, který preferujete (`Serilog`, `NLog` atd.). Třída `WarningInfo` poskytuje `Message`, `Source` a `Exception` pro podrobné logy.
+
+### Ovlivní to výkon?
+Zátěž je zanedbatelná — Aspose.Words už interně generuje varování. Přidání callbacku jen ukládá varování do seznamu, což je O(n) vzhledem k počtu varování. Pro typické dokumenty je dopad výrazně pod 1 % celkové doby načítání.
+
+---
+
+## Vizualizace
+
+![Jak detekovat písma v Aspose.Words – diagram toku varování](https://example.com/images/font-detection-diagram.png "jak detekovat písma")
+
+*Alt text:* **jak detekovat písma** – diagram zobrazující kroky callbacku varování, sběru a procházení.
+
+---
+
+## Závěr
+
+Probrali jsme **jak detekovat písma** v Aspose.Words pomocí **zachycení varování**, **konfigurace callbacku** a **procházení varování**. Kompletní ukázkový kód představuje produkčně připravený vzor, který můžete vložit do libovolné .NET aplikace.  
+
+Dále můžete zkusit:
+
+- **Zachytit varování** pro jiné problémy (např. problémy s konverzí obrázků)
+- **Konfigurovat callback** pro vlastní logovací frameworky
+- **Procházet varování** napříč více dokumenty v dávkovém zpracování
+- Použít **Aspose.Words.Fonts.FontSettings** k nastavení složek s náhradními písmy, což může snížit počet substitucí již na začátku.
+
+Vyzkoušejte to, upravte sběrač podle svého stylu logování a už vás nikdy nepřekvapí nečekaná výměna písma. Pokud narazíte na nějaké problémy, zanechte komentář níže — šťastné kódování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

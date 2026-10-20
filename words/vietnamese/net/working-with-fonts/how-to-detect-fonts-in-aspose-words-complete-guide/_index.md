@@ -1,23 +1,24 @@
 ---
 category: general
-date: 2026-04-07
-description: Học cách phát hiện phông chữ và ghi lại cảnh báo khi xử lý phông chữ
-  thiếu trong C# bằng Aspose.Words. Bao gồm mã mẫu từng bước.
+date: 2026-04-21
+description: Tìm hiểu cách phát hiện phông chữ, ghi lại cảnh báo, cấu hình callback
+  và liệt kê các cảnh báo với Aspose.Words trong C#. Hướng dẫn từng bước để xử lý
+  phông chữ một cách đáng tin cậy.
 draft: false
 keywords:
 - how to detect fonts
 - how to capture warnings
-- handle missing fonts
-- Aspose.Words font substitution
-- C# document loading warnings
+- how to configure callback
+- how to enumerate warnings
+- Aspose.Words font handling
 language: vi
-og_description: Cách phát hiện phông chữ trong Aspose.Words? Hãy theo dõi hướng dẫn
-  này để ghi lại cảnh báo và xử lý các phông chữ thiếu một cách dễ dàng.
-og_title: Cách phát hiện phông chữ trong Aspose.Words – Hướng dẫn đầy đủ
+og_description: Cách phát hiện phông chữ trong Aspose.Words? Hướng dẫn này cho bạn
+  biết cách bắt các cảnh báo, cấu hình callback và liệt kê các cảnh báo trong C#.
+og_title: Cách phát hiện phông chữ trong Aspose.Words – Hướng dẫn toàn diện
 tags:
 - Aspose.Words
 - C#
-- Font handling
+- Document Processing
 title: Cách phát hiện phông chữ trong Aspose.Words – Hướng dẫn đầy đủ
 url: /vi/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-complete-guide/
 ---
@@ -26,244 +27,209 @@ url: /vi/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-complete-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách Phát Hiện Phông Chữ trong Aspose.Words – Hướng Dẫn Toàn Diện
+# Cách phát hiện phông chữ trong Aspose.Words – Hướng dẫn đầy đủ
 
-Bạn đã bao giờ tự hỏi **cách phát hiện phông chữ** bị thiếu trong tài liệu Word trước khi đưa vào sản xuất chưa? Bạn không phải là người duy nhất. Trong nhiều kịch bản doanh nghiệp, một phông chữ lạc lõng có thể làm hỏng quy trình chuyển đổi PDF hoặc gây ra các lỗi bố cục trông không chuyên nghiệp. Tin tốt là Aspose.Words cung cấp cho bạn một cách tích hợp để phát hiện những kiểu chữ thiếu và hiển thị cảnh báo rõ ràng.
+Bạn đã bao giờ tự hỏi **cách phát hiện phông chữ** bị thiếu khi tải một tài liệu Word chưa? Đó là một tình huống xuất hiện thường xuyên hơn bạn nghĩ, đặc biệt khi làm việc với các tệp cũ hoặc triển khai đa nền tảng. Trong hướng dẫn này, chúng tôi sẽ trình bày một ví dụ hoàn chỉnh, có thể chạy được mà **bắt các cảnh báo**, **cấu hình callback**, và **liệt kê các cảnh báo** để bạn luôn biết phông chữ nào đã được thay thế.
 
-Trong hướng dẫn này, chúng ta sẽ đi qua chi tiết **cách phát hiện phông chữ**, **cách thu thập cảnh báo**, và các thực tiễn tốt nhất để **xử lý phông chữ thiếu** nhằm giữ cho ứng dụng của bạn luôn ổn định. Không cần công cụ bên ngoài, không cần đoán mò—chỉ cần mã C# thuần túy mà bạn có thể chèn vào dự án ngay lập tức.
+Chúng tôi sẽ sử dụng Aspose.Words for .NET (v24.9 tại thời điểm viết) và C# thuần. Không có dịch vụ bên ngoài, không có phép màu—chỉ có API và một vài dòng mã. Khi kết thúc, bạn sẽ có thể phát hiện mọi sự thay thế phông chữ, ghi lại chúng, và thậm chí quyết định có hủy quá trình tải nếu một phông chữ quan trọng bị thiếu.  
 
-> **Xem nhanh:** Khi kết thúc, bạn sẽ có một `FontSubstitutionWarningCollector` có thể tái sử dụng, thu thập mọi thông báo thay thế phông chữ trong quá trình tải tài liệu, và bạn sẽ biết cách phản hồi khi không tìm thấy một phông chữ.
+### Những gì bạn cần
+- **Aspose.Words for .NET** (cài đặt qua NuGet: `Install-Package Aspose.Words`)
+- .NET 6.0 hoặc mới hơn (mã này cũng hoạt động trên .NET Framework)
+- Một tệp DOCX mẫu tham chiếu tới một phông chữ không có trên máy (ví dụ: “MyCustomFont.ttf”)
+- Visual Studio, Rider, hoặc bất kỳ trình chỉnh sửa C# nào bạn thích
+
+> **Mẹo chuyên nghiệp:** Nếu bạn không có tài liệu nào có phông chữ bị thiếu, chỉ cần đổi tên một tệp phông chữ trên hệ thống của bạn hoặc chỉnh sửa XML của DOCX để tham chiếu tới một họ phông chữ không tồn tại.
 
 ---
 
-## Những Điều Bạn Sẽ Học
+## Cách phát hiện phông chữ với Aspose.Words
 
-- Cách cấu hình `LoadOptions` để lắng nghe các cảnh báo thay thế phông chữ.  
-- Cách thu thập các cảnh báo đó trong một lớp collector tùy chỉnh.  
-- Cách xử lý các cảnh báo đã thu thập và quyết định có nên hủy, ghi log, hay thay thế phông chữ.  
-- Xử lý các trường hợp đặc biệt cho tài liệu tham chiếu phông chữ từ xa hoặc nhúng.  
-
-**Yêu cầu trước:** .NET 6+ (hoặc .NET Framework 4.6+), Aspose.Words cho .NET (phiên bản mới nhất), và kiến thức cơ bản về C#. Nếu bạn chưa từng sử dụng Aspose.Words, đừng lo—hướng dẫn này chỉ yêu cầu vài phút thiết lập.
-
-## Cách Phát Hiện Phông Chữ Sử Dụng Aspose.Words LoadOptions
-
-Bước đầu tiên để phát hiện phông chữ bị thiếu là yêu cầu Aspose.Words báo cáo chúng. Điều này được thực hiện qua thuộc tính `LoadOptions.WarningCallback`, cho phép bất kỳ lớp nào triển khai `IWarningCallback`. Dưới đây chúng ta tạo một collector nhỏ để lưu trữ mọi cảnh báo để kiểm tra sau.
+Ý tưởng cốt lõi là gắn vào hệ thống cảnh báo của Aspose.Words. Khi thư viện không thể tìm thấy một phông chữ được yêu cầu, nó sẽ phát ra cảnh báo `WarningType.FontSubstitution`. Bằng cách cung cấp một triển khai tùy chỉnh của `IWarningCallback`, bạn có thể **phát hiện phông chữ** đã được thay thế trong quá trình tải.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Saving;
-using System.Collections.Generic;
+using Aspose.Words.Fonts;
 
-/// <summary>
-/// Collects all warnings emitted while loading a document.
-/// </summary>
-public class FontSubstitutionWarningCollector : IWarningCallback
+// 1️⃣ Create a collector that implements IWarningCallback
+public class FontWarningCollector : IWarningCallback
 {
-    // Thread‑safe static list so we can access warnings after loading.
-    public static List<WarningInfo> Warnings { get; } = new List<WarningInfo>();
+    public List<WarningInfo> Warnings { get; } = new();
 
-    // Called by Aspose.Words for each warning.
     public void Warning(WarningInfo info)
     {
-        // We only care about font‑related warnings.
-        if (info.Type == WarningType.FontSubstitution)
-        {
-            Warnings.Add(info);
-        }
+        // Store every warning – we’ll filter later
+        Warnings.Add(info);
     }
-
-    // Helper to clear previous run’s warnings.
-    public static void Clear() => Warnings.Clear();
 }
 ```
 
-**Tại sao điều này quan trọng:** Nếu không có callback cảnh báo, Aspose.Words sẽ im lặng thay thế phông chữ thiếu bằng phông mặc định, và bạn sẽ không biết có vấn đề. Bằng cách bắt `WarningType.FontSubstitution` chúng ta có được toàn bộ thông tin—đúng là dữ liệu bạn cần để **phát hiện phông chữ** không có trên máy chủ.
+> **Tại sao cách này hoạt động:** Aspose.Words gọi phương thức `Warning` cho mọi vấn đề không quan trọng. Bằng cách lưu trữ các đối tượng `WarningInfo`, bạn có quyền truy cập đầy đủ vào loại, thông điệp và ngữ cảnh, chính là những gì bạn cần để **phát hiện phông chữ** đã được thay thế.
 
-Bây giờ chúng ta gắn collector vào `LoadOptions` và tải một tài liệu:
+## Cách bắt các cảnh báo khi tải tài liệu
+
+Bây giờ chúng ta đã có bộ thu thập, chúng ta cần chỉ định cho `LoadOptions` sử dụng nó. Đây là phần **cách bắt các cảnh báo** của câu đố.
 
 ```csharp
-// Step 1: Prepare load options with our warning collector.
-LoadOptions loadOptions = new LoadOptions
+// 2️⃣ Prepare LoadOptions with our warning collector
+var warningCollector = new FontWarningCollector();
+var loadOptions = new LoadOptions
 {
-    WarningCallback = new FontSubstitutionWarningCollector()
+    // Assign the callback – this is where warnings are captured
+    WarningCallback = warningCollector
 };
 
-// Optional: clear any stale warnings from a previous run.
-FontSubstitutionWarningCollector.Clear();
-
-// Step 2: Load the document. Replace the path with your own file.
-Document doc = new Document(@"C:\Docs\MissingFonts.docx", loadOptions);
+// 3️⃣ Load the document (replace the path with your own file)
+Document doc = new Document("YOUR_DIRECTORY/DocumentWithMissingFont.docx", loadOptions);
 ```
 
-> **Mẹo chuyên nghiệp:** Nếu bạn làm việc với nhiều tài liệu trong một batch, hãy tái sử dụng cùng một thể hiện `FontSubstitutionWarningCollector` nhưng nhớ gọi `Clear()` giữa các lần tải để tránh trộn lẫn các cảnh báo từ các tệp khác nhau.
+> **Trường hợp đặc biệt:** Nếu bạn tải tài liệu từ một luồng (`new Document(stream, loadOptions)`), callback vẫn hoạt động—chỉ cần truyền luồng thay vì đường dẫn tệp.
 
-## Thu Thập Cảnh Báo Khi Tải Tài Liệu
+Tại thời điểm này, tài liệu đã được tải đầy đủ, nhưng mọi cảnh báo thay thế phông chữ đều được lưu an toàn trong `warningCollector.Warnings`.
 
-Sau khi tài liệu được tải, collector đã chứa mọi cảnh báo liên quan đến phông chữ. Câu hỏi tiếp theo hợp lý là: *Làm sao tôi có thể thu thập các cảnh báo* một cách dễ dàng để ghi log hoặc hiển thị?
+## Cách liệt kê các cảnh báo và báo cáo việc thay thế phông chữ
+
+Cuối cùng, chúng ta sẽ lọc qua các cảnh báo đã thu thập và **liệt kê các cảnh báo** liên quan cụ thể tới việc thay thế phông chữ. Bước này biến dữ liệu thô thành một báo cáo dễ đọc.
 
 ```csharp
-// Step 3: Iterate over collected warnings and output them.
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
+// 4️⃣ Iterate over the collected warnings
+foreach (var warning in warningCollector.Warnings)
 {
-    Console.WriteLine($"{warning.Type}: {warning.Message}");
-}
-```
-
-Kết quả thường thấy như sau:
-
-```
-FontSubstitution: Font 'Comic Sans MS' was not found. Substituted with 'Arial'.
-FontSubstitution: Font 'Garamond' missing. Using 'Times New Roman' instead.
-```
-
-**Điều này cho bạn biết:** Mỗi dòng hiển thị tên phông chữ gốc và phông thay thế mà Aspose.Words đã chọn. Với thông tin này, bạn có thể quyết định liệu phông thay thế có chấp nhận được hay bạn cần nhúng phông chữ thiếu một cách thủ công.
-
-## Xử Lý Phông Chữ Thiếu Một Cách Trơn Truột
-
-Phát hiện và thu thập cảnh báo chỉ là một nửa cuộc chiến. Giá trị thực sự đến khi bạn **xử lý phông chữ thiếu** một cách sẵn sàng cho môi trường sản xuất. Dưới đây là ba chiến lược phổ biến:
-
-1. **Log và Tiếp Tục** – Thích hợp cho xử lý batch nơi bạn chỉ cần một bản ghi audit.  
-2. **Hủy Khi Phông Chữ Quan Trọng Thiếu** – Ném ngoại lệ nếu một phông chữ cụ thể (ví dụ: phông chữ thương hiệu) bị thiếu.  
-3. **Nhúng Phông Chữ Trực Tiếp** – Tải phông chữ thiếu từ thư mục đã biết và đăng ký nó với Aspose.Words trước khi tải lại tài liệu.
-
-### Ví dụ: Hủy Khi Phông Chữ Quan Trọng Thiếu
-
-```csharp
-// Define a list of fonts that must be present.
-var requiredFonts = new HashSet<string> { "MyBrand-Regular", "MyBrand-Bold" };
-
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
-{
-    // Extract the original font name from the warning message.
-    string missingFont = ExtractFontName(warning.Message);
-    if (requiredFonts.Contains(missingFont))
+    // We're only interested in font substitution warnings
+    if (warning.Type == WarningType.FontSubstitution)
     {
-        throw new InvalidOperationException(
-            $"Critical font '{missingFont}' is missing. Document load aborted.");
-    }
-}
-
-// Helper method to parse font name from warning text.
-string ExtractFontName(string message)
-{
-    // Message pattern: "Font 'X' was not found..."
-    int start = message.IndexOf('\'') + 1;
-    int end = message.IndexOf('\'', start);
-    return (start > 0 && end > start) ? message[start..end] : string.Empty;
-}
-```
-
-### Ví dụ: Tự Động Nhúng Phông Chữ Thiếu
-
-```csharp
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
-{
-    string missingFont = ExtractFontName(warning.Message);
-    string fontPath = $@"C:\Fonts\{missingFont}.ttf";
-
-    if (File.Exists(fontPath))
-    {
-        // Register the font with Aspose.Words.
-        FontSettings fontSettings = new FontSettings();
-        fontSettings.SetFontsFolder(Path.GetDirectoryName(fontPath), false);
-        doc.FontSettings = fontSettings;
-
-        // Reload the document now that the font is available.
-        doc = new Document(@"C:\Docs\MissingFonts.docx", loadOptions);
-        break; // Re‑load once; subsequent warnings will be resolved.
+        Console.WriteLine($"Substituted font: {warning.Message}");
     }
 }
 ```
 
-**Tại sao các mẫu này hữu ích:** Bằng cách quyết định rõ ràng hành động khi một phông chữ thiếu, bạn loại bỏ các fallback im lặng có thể ảnh hưởng đến thương hiệu hoặc khả năng đọc. Đây là bản chất của **việc xử lý phông chữ thiếu** một cách kiểm soát.
+**Kết quả mong đợi** (ví dụ):
 
-## Ví Dụ Hoàn Chỉnh Hoạt Động
+```
+Substituted font: Font 'Calibri' not found. Substituted with 'Arial'.
+Substituted font: Font 'MyCustomFont' not found. Substituted with 'Times New Roman'.
+```
 
-Kết hợp mọi thứ lại, đây là một chương trình duy nhất, sẵn sàng chạy, minh họa **cách phát hiện phông chữ**, **cách thu thập cảnh báo**, và một chính sách đơn giản để **xử lý phông chữ thiếu** bằng cách ghi log.
+Nếu tài liệu không chứa phông chữ nào bị thiếu, vòng lặp sẽ không tạo ra bất kỳ đầu ra nào—không có gì phải lo lắng.
+
+## Ví dụ hoàn chỉnh (Tất cả các bước trong một tệp)
+
+Dưới đây là chương trình đầy đủ mà bạn có thể sao chép‑dán vào một dự án console. Nó kết hợp **cách phát hiện phông chữ**, **cách bắt các cảnh báo**, **cách cấu hình callback**, và **cách liệt kê các cảnh báo** trong một luồng duy nhất, gắn kết.
 
 ```csharp
-using Aspose.Words;
-using Aspose.Words.Saving;
 using System;
 using System.Collections.Generic;
-using System.IO;
+using Aspose.Words;
+using Aspose.Words.Fonts;
 
-public class FontSubstitutionWarningCollector : IWarningCallback
+namespace FontDetectionDemo
 {
-    public static List<WarningInfo> Warnings { get; } = new List<WarningInfo>();
-    public void Warning(WarningInfo info)
+    // Custom warning collector (captures all warnings)
+    public class FontWarningCollector : IWarningCallback
     {
-        if (info.Type == WarningType.FontSubstitution)
+        public List<WarningInfo> Warnings { get; } = new();
+
+        public void Warning(WarningInfo info)
+        {
             Warnings.Add(info);
-    }
-    public static void Clear() => Warnings.Clear();
-}
-
-class Program
-{
-    static void Main()
-    {
-        string docPath = @"C:\Docs\MissingFonts.docx";
-
-        // 1️⃣ Configure LoadOptions with the warning collector.
-        LoadOptions loadOptions = new LoadOptions
-        {
-            WarningCallback = new FontSubstitutionWarningCollector()
-        };
-        FontSubstitutionWarningCollector.Clear();
-
-        // 2️⃣ Load the document – this is where fonts are detected.
-        Document doc = new Document(docPath, loadOptions);
-
-        // 3️⃣ Process the collected warnings.
-        if (FontSubstitutionWarningCollector.Warnings.Count == 0)
-        {
-            Console.WriteLine("✅ No missing fonts detected.");
         }
-        else
-        {
-            Console.WriteLine("⚠️ Font substitution warnings:");
-            foreach (var w in FontSubstitutionWarningCollector.Warnings)
-                Console.WriteLine($"{w.Type}: {w.Message}");
+    }
 
-            // Example policy: abort if a brand‑critical font is missing.
-            var critical = new HashSet<string> { "MyBrand-Regular", "MyBrand-Bold" };
-            foreach (var w in FontSubstitutionWarningCollector.Warnings)
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // -------------------------------------------------
+            // Step 1: Set up the warning collector (how to configure callback)
+            var collector = new FontWarningCollector();
+            var loadOptions = new LoadOptions
             {
-                string missing = ExtractFontName(w.Message);
-                if (critical.Contains(missing))
+                WarningCallback = collector
+            };
+
+            // -------------------------------------------------
+            // Step 2: Load the document (how to detect fonts)
+            string filePath = "YOUR_DIRECTORY/DocumentWithMissingFont.docx";
+            Document doc;
+            try
+            {
+                doc = new Document(filePath, loadOptions);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Failed to load document: {ex.Message}");
+                return;
+            }
+
+            // -------------------------------------------------
+            // Step 3: Enumerate warnings (how to enumerate warnings)
+            bool anySubstitutions = false;
+            foreach (var warning in collector.Warnings)
+            {
+                if (warning.Type == WarningType.FontSubstitution)
                 {
-                    Console.WriteLine($"❌ Critical font '{missing}' missing. Stopping.");
-                    return;
+                    anySubstitutions = true;
+                    Console.WriteLine($"Substituted font: {warning.Message}");
                 }
             }
+
+            if (!anySubstitutions)
+            {
+                Console.WriteLine("No font substitutions detected – all fonts are available.");
+            }
+
+            // Optional: Continue processing the document...
         }
-
-        // 4️⃣ Continue with normal processing (e.g., save as PDF).
-        doc.Save(@"C:\Docs\Output.pdf", SaveFormat.Pdf);
-        Console.WriteLine("✅ Document saved as PDF.");
-    }
-
-    // Helper to pull the original font name out of the warning text.
-    static string ExtractFontName(string message)
-    {
-        int first = message.IndexOf('\'') + 1;
-        int last = message.IndexOf('\'', first);
-        return (first > 0 && last > first) ? message[first..last] : string.Empty;
     }
 }
 ```
 
-**Kết quả mong đợi:** Khi bạn chạy chương trình với một tài liệu tham chiếu phông chữ không có trên máy, console sẽ liệt kê mỗi cảnh báo thay thế. Nếu bất kỳ cảnh báo nào liên quan đến phông chữ trong tập `critical`, chương trình sẽ kết thúc sớm, ngăn ngừa việc tạo PDF lỗi.
+**Chạy chương trình này** sẽ in ra mọi phông chữ mà Aspose.Words đã phải thay thế. Bạn có thể chuyển hướng đầu ra tới tệp log, phát cảnh báo, hoặc thậm chí hủy tải nếu một phông chữ quan trọng bị thiếu.
 
-## Câu Hỏi Thường Gặp (FAQs)
+## Các câu hỏi thường gặp & Lưu ý
 
-| Question | Answer |
-|----------|--------|
-| *Tôi có cần giấy phép cho Aspose.Words để sử dụng đoạn mã này không?* | Có, giấy phép Aspose.Words hợp lệ sẽ loại bỏ watermark đánh giá và mở khóa toàn bộ chức năng. |
-| *Phương pháp này có thể phát hiện phông chữ được nhúng không?* | Phông chữ được nhúng đã có trong tệp, vì vậy Aspose.Words sẽ không đưa ra cảnh báo thay thế. Bạn có thể kiểm tra `Document.FontInfos` để liệt kê các phông chữ nhúng nếu cần. |
-| *Nếu phông chữ thiếu là phông chữ hệ thống trên Windows nhưng không có trên Linux thì sao?* | Cảnh báo tương tự sẽ xuất hiện trên Linux vì phông chữ không được cài đặt ở đó. Hãy sử dụng chiến lược “xử lý phông chữ thiếu” để cung cấp các tệp `.ttf` cần thiết cùng với ứng dụng của bạn. |
-| *Bộ thu thập cảnh báo có phải là đa luồng không* |  |
+### Nếu tôi cần dừng việc tải khi một phông chữ bắt buộc bị thiếu thì sao?
+Bạn có thể kiểm tra các đối tượng `WarningInfo` trong callback và ném một ngoại lệ khi một tên phông chữ cụ thể xuất hiện. Ngoại lệ sẽ hủy quá trình tải, cho bạn quyền kiểm soát hoàn toàn.
+
+```csharp
+public void Warning(WarningInfo info)
+{
+    if (info.Type == WarningType.FontSubstitution &&
+        info.Message.Contains("MyCriticalFont"))
+    {
+        throw new InvalidOperationException("Critical font missing – aborting load.");
+    }
+    Warnings.Add(info);
+}
+```
+
+### Điều này có hoạt động với PDF hoặc các định dạng khác không?
+Có. Aspose.Words sử dụng cùng một cơ sở hạ tầng cảnh báo cho PDF, RTF và HTML. Chỉ cần thay đổi phần mở rộng tệp và phần còn lại của mã vẫn giống nhau.
+
+### Làm sao để ghi cảnh báo vào tệp thay vì console?
+Thay thế `Console.WriteLine` bằng bất kỳ khung ghi log nào bạn thích (`Serilog`, `NLog`, v.v.). Lớp `WarningInfo` cung cấp `Message`, `Source` và `Exception` để ghi log chi tiết.
+
+### Điều này có ảnh hưởng tới hiệu năng không?
+Chi phí bổ sung là không đáng kể—Aspose.Words đã tạo ra các cảnh báo nội bộ. Thêm một callback chỉ đơn giản là lưu chúng vào một danh sách, độ phức tạp O(n) theo số lượng cảnh báo. Đối với các tài liệu thông thường, ảnh hưởng thấp hơn 1 % tổng thời gian tải.
+
+## Tóm tắt trực quan
+
+![Cách phát hiện phông chữ trong Aspose.Words – sơ đồ luồng cảnh báo](https://example.com/images/font-detection-diagram.png "cách phát hiện phông chữ")
+
+*Văn bản thay thế:* **cách phát hiện phông chữ** – sơ đồ hiển thị callback cảnh báo, bộ thu thập và các bước liệt kê.
+
+## Tổng kết
+
+Chúng tôi đã đề cập **cách phát hiện phông chữ** trong Aspose.Words bằng cách **bắt các cảnh báo**, **cấu hình callback**, và **liệt kê các cảnh báo**. Mẫu mã đầy đủ cho thấy một mẫu sẵn sàng cho môi trường sản xuất mà bạn có thể đưa vào bất kỳ ứng dụng .NET nào.  
+
+Tiếp theo, bạn có thể muốn khám phá:
+
+- **Cách bắt các cảnh báo** cho các vấn đề khác (ví dụ: vấn đề chuyển đổi hình ảnh)
+- **Cách cấu hình callback** cho các khung ghi log tùy chỉnh
+- **Cách liệt kê các cảnh báo** trên nhiều tài liệu trong một công việc batch
+- Sử dụng **Aspose.Words.Fonts.FontSettings** để cung cấp các thư mục phông chữ dự phòng, có thể giảm số lần thay thế ngay từ đầu.
+
+Hãy thử nghiệm, điều chỉnh bộ thu thập để phù hợp với phong cách ghi log của bạn, và bạn sẽ không bao giờ bị bất ngờ bởi một sự thay thế phông chữ không mong muốn nữa. Nếu gặp bất kỳ vấn đề nào, hãy để lại bình luận bên dưới—chúc lập trình vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

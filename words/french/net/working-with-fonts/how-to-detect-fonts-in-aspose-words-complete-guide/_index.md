@@ -1,24 +1,25 @@
 ---
 category: general
-date: 2026-04-07
-description: Apprenez à détecter les polices et à capturer les avertissements lors
-  de la gestion des polices manquantes en C# avec Aspose.Words. Code étape par étape
-  inclus.
+date: 2026-04-21
+description: Apprenez à détecter les polices, capturer les avertissements, configurer
+  le rappel et énumérer les avertissements avec Aspose.Words en C#. Guide étape par
+  étape pour une gestion fiable des polices.
 draft: false
 keywords:
 - how to detect fonts
 - how to capture warnings
-- handle missing fonts
-- Aspose.Words font substitution
-- C# document loading warnings
+- how to configure callback
+- how to enumerate warnings
+- Aspose.Words font handling
 language: fr
-og_description: Comment détecter les polices dans Aspose.Words ? Suivez ce tutoriel
-  pour capturer les avertissements et gérer les polices manquantes sans effort.
+og_description: Comment détecter les polices dans Aspose.Words ? Ce tutoriel vous
+  montre comment capturer les avertissements, configurer un rappel et énumérer les
+  avertissements en C#.
 og_title: Comment détecter les polices dans Aspose.Words – Guide complet
 tags:
 - Aspose.Words
 - C#
-- Font handling
+- Document Processing
 title: Comment détecter les polices dans Aspose.Words – Guide complet
 url: /fr/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-complete-guide/
 ---
@@ -29,242 +30,223 @@ url: /fr/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-complete-gui
 
 # Comment détecter les polices dans Aspose.Words – Guide complet
 
-Vous vous êtes déjà demandé **comment détecter les polices** manquantes dans un document Word avant de le mettre en production ? Vous n'êtes pas seul. Dans de nombreux scénarios d'entreprise, une police errante peut interrompre une chaîne de conversion PDF ou provoquer des défauts de mise en page qui semblent peu professionnels. La bonne nouvelle, c’est qu’Aspose.Words vous offre un moyen intégré de repérer ces polices absentes et d’afficher des avertissements clairs.
+Vous êtes‑vous déjà demandé **comment détecter les polices** manquantes lors du chargement d'un document Word ? C’est un scénario qui apparaît plus souvent que vous ne le souhaiteriez, surtout lorsqu’on travaille avec des fichiers anciens ou des déploiements multiplateformes. Dans ce tutoriel, nous parcourrons un exemple complet et exécutable qui **capture les avertissements**, **configure un rappel**, et **énumère les avertissements** afin que vous sachiez toujours quelles polices ont été substituées.
 
-Dans ce tutoriel, nous allons parcourir exactement **comment détecter les polices**, **comment capturer les avertissements**, et les meilleures pratiques pour **gérer les polices manquantes** afin que votre application reste robuste. Aucun outil externe, aucune supposition — juste du code C# pur que vous pouvez intégrer immédiatement à votre projet.
+Nous utiliserons Aspose.Words for .NET (v24.9 au moment de la rédaction) et du C# pur. Aucun service externe, aucune magie—juste l’API et quelques lignes de code. À la fin, vous pourrez repérer chaque substitution de police, l’enregistrer, et même décider d’interrompre le chargement si une police critique est manquante.  
 
-> **Aperçu rapide :** À la fin, vous disposerez d’un `FontSubstitutionWarningCollector` réutilisable qui recueille chaque message de substitution de police lors du chargement du document, et vous saurez comment réagir lorsqu’une police est introuvable.
+### Ce dont vous avez besoin
+- **Aspose.Words for .NET** (installez via NuGet : `Install-Package Aspose.Words`)
+- .NET 6.0 ou ultérieur (le code fonctionne également sur .NET Framework)
+- Un fichier DOCX d’exemple qui référence une police non présente sur la machine (par ex., “MyCustomFont.ttf”)
+- Visual Studio, Rider ou tout éditeur C# de votre choix
+
+> **Conseil pro :** Si vous n’avez pas de document avec des polices manquantes, renommez simplement un fichier de police sur votre système ou modifiez le XML du DOCX pour référencer une famille de polices inexistante.
 
 ---
 
-## Ce que vous apprendrez
+## Comment détecter les polices avec Aspose.Words
 
-- Comment configurer `LoadOptions` pour écouter les avertissements de substitution de police.  
-- Comment capturer ces avertissements dans une classe collectrice personnalisée.  
-- Comment traiter les avertissements collectés et décider d’abandonner, de consigner ou de substituer les polices.  
-- Gestion des cas limites pour les documents qui référencent des polices distantes ou incorporées.  
-
-**Prérequis :** .NET 6+ (ou .NET Framework 4.6+), Aspose.Words pour .NET (dernière version), et une connaissance de base du C#. Si vous n’avez jamais utilisé Aspose.Words auparavant, ne vous inquiétez pas — ce guide suppose seulement quelques minutes de configuration.
-
-## Comment détecter les polices avec Aspose.Words LoadOptions
-
-La première étape pour détecter les polices manquantes consiste à indiquer à Aspose.Words de les signaler. Cela se fait via la propriété `LoadOptions.WarningCallback`, qui accepte toute classe implémentant `IWarningCallback`. Ci-dessous, nous créons un petit collecteur qui stocke chaque avertissement pour une inspection ultérieure.
+L’idée principale est d’intercepter le système d’avertissement d’Aspose.Words. Lorsque la bibliothèque ne trouve pas une police demandée, elle émet un avertissement `WarningType.FontSubstitution`. En fournissant une implémentation personnalisée de `IWarningCallback`, vous pouvez **détecter les polices** qui ont été remplacées pendant le processus de chargement.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Saving;
-using System.Collections.Generic;
+using Aspose.Words.Fonts;
 
-/// <summary>
-/// Collects all warnings emitted while loading a document.
-/// </summary>
-public class FontSubstitutionWarningCollector : IWarningCallback
+// 1️⃣ Create a collector that implements IWarningCallback
+public class FontWarningCollector : IWarningCallback
 {
-    // Thread‑safe static list so we can access warnings after loading.
-    public static List<WarningInfo> Warnings { get; } = new List<WarningInfo>();
+    public List<WarningInfo> Warnings { get; } = new();
 
-    // Called by Aspose.Words for each warning.
     public void Warning(WarningInfo info)
     {
-        // We only care about font‑related warnings.
-        if (info.Type == WarningType.FontSubstitution)
-        {
-            Warnings.Add(info);
-        }
+        // Store every warning – we’ll filter later
+        Warnings.Add(info);
     }
-
-    // Helper to clear previous run’s warnings.
-    public static void Clear() => Warnings.Clear();
 }
 ```
 
-**Pourquoi c’est important :** Sans rappel d’avertissement, Aspose.Words substitue silencieusement les polices manquantes par une police par défaut, et vous ne savez jamais qu’un problème existe. En capturant `WarningType.FontSubstitution`, vous obtenez une visibilité complète — exactement les données dont vous avez besoin pour **détecter les polices** qui ne sont pas disponibles sur la machine hôte.
+> **Pourquoi cela fonctionne :** Aspose.Words appelle la méthode `Warning` pour chaque problème non critique. En stockant les objets `WarningInfo`, vous avez un accès complet au type, au message et au contexte, ce qui est exactement ce dont vous avez besoin pour **détecter les polices** qui ont été substituées.
 
-Nous branchons maintenant le collecteur dans `LoadOptions` et chargeons un document :
+---
+
+## Comment capturer les avertissements lors du chargement d’un document
+
+Maintenant que nous disposons d’un collecteur, nous devons indiquer à `LoadOptions` de l’utiliser. C’est la partie **comment capturer les avertissements** du puzzle.
 
 ```csharp
-// Step 1: Prepare load options with our warning collector.
-LoadOptions loadOptions = new LoadOptions
+// 2️⃣ Prepare LoadOptions with our warning collector
+var warningCollector = new FontWarningCollector();
+var loadOptions = new LoadOptions
 {
-    WarningCallback = new FontSubstitutionWarningCollector()
+    // Assign the callback – this is where warnings are captured
+    WarningCallback = warningCollector
 };
 
-// Optional: clear any stale warnings from a previous run.
-FontSubstitutionWarningCollector.Clear();
-
-// Step 2: Load the document. Replace the path with your own file.
-Document doc = new Document(@"C:\Docs\MissingFonts.docx", loadOptions);
+// 3️⃣ Load the document (replace the path with your own file)
+Document doc = new Document("YOUR_DIRECTORY/DocumentWithMissingFont.docx", loadOptions);
 ```
 
-> **Astuce :** Si vous traitez de nombreux documents en lot, réutilisez la même instance de `FontSubstitutionWarningCollector` mais n’oubliez pas d’appeler `Clear()` entre les chargements pour éviter de mélanger les avertissements provenant de fichiers différents.
+> **Cas particulier :** Si vous chargez un document depuis un flux (`new Document(stream, loadOptions)`), le même rappel fonctionne—il suffit de passer le flux au lieu d’un chemin de fichier.
 
-## Capturer les avertissements lors du chargement du document
+À ce stade, le document est entièrement chargé, mais tous les avertissements de substitution de police sont stockés en toute sécurité dans `warningCollector.Warnings`.
 
-Après le chargement du document, le collecteur possède déjà chaque avertissement lié aux polices. La question logique suivante est : *Comment capturer les avertissements* de manière à les consigner ou les afficher facilement ?
+---
+
+## Comment énumérer les avertissements et signaler les substitutions de polices
+
+Enfin, nous parcourons les avertissements collectés et **énumérons les avertissements** qui concernent spécifiquement la substitution de police. Cette étape transforme les données brutes en un rapport lisible.
 
 ```csharp
-// Step 3: Iterate over collected warnings and output them.
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
+// 4️⃣ Iterate over the collected warnings
+foreach (var warning in warningCollector.Warnings)
 {
-    Console.WriteLine($"{warning.Type}: {warning.Message}");
-}
-```
-
-La sortie typique ressemble à :
-
-```
-FontSubstitution: Font 'Comic Sans MS' was not found. Substituted with 'Arial'.
-FontSubstitution: Font 'Garamond' missing. Using 'Times New Roman' instead.
-```
-
-**Ce que cela indique :** Chaque ligne révèle le nom de la police d’origine et la police de secours que Aspose.Words a choisie. Fort de cette information, vous pouvez décider si la substitution est acceptable ou si vous devez incorporer manuellement la police manquante.
-
-## Gérer les polices manquantes avec élégance
-
-Détecter et capturer les avertissements n’est que la moitié du combat. La vraie valeur réside dans la façon dont vous **gérez les polices manquantes** de manière prête pour la production. Voici trois stratégies courantes :
-
-1. **Consigner et continuer** – Convient au traitement par lots où vous avez simplement besoin d’une trace d’audit.  
-2. **Interrompre sur les polices critiques** – Lancer une exception si une police particulière (par ex., une police propre à la marque) est manquante.  
-3. **Incorporer la police à la volée** – Charger la police manquante depuis un dossier connu et l’enregistrer auprès d’Aspose.Words avant de recharger le document.
-
-### Exemple : Interrompre sur une police critique
-
-```csharp
-// Define a list of fonts that must be present.
-var requiredFonts = new HashSet<string> { "MyBrand-Regular", "MyBrand-Bold" };
-
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
-{
-    // Extract the original font name from the warning message.
-    string missingFont = ExtractFontName(warning.Message);
-    if (requiredFonts.Contains(missingFont))
+    // We're only interested in font substitution warnings
+    if (warning.Type == WarningType.FontSubstitution)
     {
-        throw new InvalidOperationException(
-            $"Critical font '{missingFont}' is missing. Document load aborted.");
-    }
-}
-
-// Helper method to parse font name from warning text.
-string ExtractFontName(string message)
-{
-    // Message pattern: "Font 'X' was not found..."
-    int start = message.IndexOf('\'') + 1;
-    int end = message.IndexOf('\'', start);
-    return (start > 0 && end > start) ? message[start..end] : string.Empty;
-}
-```
-
-### Exemple : Incorporation automatique des polices manquantes
-
-```csharp
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
-{
-    string missingFont = ExtractFontName(warning.Message);
-    string fontPath = $@"C:\Fonts\{missingFont}.ttf";
-
-    if (File.Exists(fontPath))
-    {
-        // Register the font with Aspose.Words.
-        FontSettings fontSettings = new FontSettings();
-        fontSettings.SetFontsFolder(Path.GetDirectoryName(fontPath), false);
-        doc.FontSettings = fontSettings;
-
-        // Reload the document now that the font is available.
-        doc = new Document(@"C:\Docs\MissingFonts.docx", loadOptions);
-        break; // Re‑load once; subsequent warnings will be resolved.
+        Console.WriteLine($"Substituted font: {warning.Message}");
     }
 }
 ```
 
-**Pourquoi ces modèles sont utiles :** En décidant explicitement quoi faire lorsqu’une police est manquante, vous éliminez les substitutions silencieuses qui pourraient compromettre l’image de marque ou la lisibilité. C’est l’essence de **la gestion des polices manquantes** de manière contrôlée.
+**Sortie attendue** (exemple) :
 
-## Exemple complet fonctionnel
+```
+Substituted font: Font 'Calibri' not found. Substituted with 'Arial'.
+Substituted font: Font 'MyCustomFont' not found. Substituted with 'Times New Roman'.
+```
 
-En réunissant tous les éléments, voici un programme unique, prêt à l’exécution, qui démontre **comment détecter les polices**, **comment capturer les avertissements**, et une politique simple pour **gérer les polices manquantes** en les consignant.
+Si le document ne contient aucune police manquante, la boucle ne produit simplement aucune sortie—rien à signaler.
+
+---
+
+## Exemple complet fonctionnel (Toutes les étapes dans un seul fichier)
+
+Ci-dessous se trouve le programme complet que vous pouvez copier‑coller dans un projet console. Il regroupe **comment détecter les polices**, **comment capturer les avertissements**, **comment configurer le rappel**, et **comment énumérer les avertissements** dans un flux unique et cohérent.
 
 ```csharp
-using Aspose.Words;
-using Aspose.Words.Saving;
 using System;
 using System.Collections.Generic;
-using System.IO;
+using Aspose.Words;
+using Aspose.Words.Fonts;
 
-public class FontSubstitutionWarningCollector : IWarningCallback
+namespace FontDetectionDemo
 {
-    public static List<WarningInfo> Warnings { get; } = new List<WarningInfo>();
-    public void Warning(WarningInfo info)
+    // Custom warning collector (captures all warnings)
+    public class FontWarningCollector : IWarningCallback
     {
-        if (info.Type == WarningType.FontSubstitution)
+        public List<WarningInfo> Warnings { get; } = new();
+
+        public void Warning(WarningInfo info)
+        {
             Warnings.Add(info);
-    }
-    public static void Clear() => Warnings.Clear();
-}
-
-class Program
-{
-    static void Main()
-    {
-        string docPath = @"C:\Docs\MissingFonts.docx";
-
-        // 1️⃣ Configure LoadOptions with the warning collector.
-        LoadOptions loadOptions = new LoadOptions
-        {
-            WarningCallback = new FontSubstitutionWarningCollector()
-        };
-        FontSubstitutionWarningCollector.Clear();
-
-        // 2️⃣ Load the document – this is where fonts are detected.
-        Document doc = new Document(docPath, loadOptions);
-
-        // 3️⃣ Process the collected warnings.
-        if (FontSubstitutionWarningCollector.Warnings.Count == 0)
-        {
-            Console.WriteLine("✅ No missing fonts detected.");
         }
-        else
-        {
-            Console.WriteLine("⚠️ Font substitution warnings:");
-            foreach (var w in FontSubstitutionWarningCollector.Warnings)
-                Console.WriteLine($"{w.Type}: {w.Message}");
+    }
 
-            // Example policy: abort if a brand‑critical font is missing.
-            var critical = new HashSet<string> { "MyBrand-Regular", "MyBrand-Bold" };
-            foreach (var w in FontSubstitutionWarningCollector.Warnings)
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // -------------------------------------------------
+            // Step 1: Set up the warning collector (how to configure callback)
+            var collector = new FontWarningCollector();
+            var loadOptions = new LoadOptions
             {
-                string missing = ExtractFontName(w.Message);
-                if (critical.Contains(missing))
+                WarningCallback = collector
+            };
+
+            // -------------------------------------------------
+            // Step 2: Load the document (how to detect fonts)
+            string filePath = "YOUR_DIRECTORY/DocumentWithMissingFont.docx";
+            Document doc;
+            try
+            {
+                doc = new Document(filePath, loadOptions);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Failed to load document: {ex.Message}");
+                return;
+            }
+
+            // -------------------------------------------------
+            // Step 3: Enumerate warnings (how to enumerate warnings)
+            bool anySubstitutions = false;
+            foreach (var warning in collector.Warnings)
+            {
+                if (warning.Type == WarningType.FontSubstitution)
                 {
-                    Console.WriteLine($"❌ Critical font '{missing}' missing. Stopping.");
-                    return;
+                    anySubstitutions = true;
+                    Console.WriteLine($"Substituted font: {warning.Message}");
                 }
             }
+
+            if (!anySubstitutions)
+            {
+                Console.WriteLine("No font substitutions detected – all fonts are available.");
+            }
+
+            // Optional: Continue processing the document...
         }
-
-        // 4️⃣ Continue with normal processing (e.g., save as PDF).
-        doc.Save(@"C:\Docs\Output.pdf", SaveFormat.Pdf);
-        Console.WriteLine("✅ Document saved as PDF.");
-    }
-
-    // Helper to pull the original font name out of the warning text.
-    static string ExtractFontName(string message)
-    {
-        int first = message.IndexOf('\'') + 1;
-        int last = message.IndexOf('\'', first);
-        return (first > 0 && last > first) ? message[first..last] : string.Empty;
     }
 }
 ```
 
-**Résultat attendu :** Lorsque vous exécutez le programme sur un document qui référence une police non présente sur la machine, la console affichera chaque avertissement de substitution. Si un avertissement concerne une police appartenant à l’ensemble `critical`, le programme se termine prématurément, empêchant la génération d’un PDF défectueux.
+**L’exécution de ce programme** affichera chaque police qu’Aspose.Words a dû remplacer. Vous pouvez rediriger la sortie vers un fichier de log, déclencher une alerte, ou même interrompre le chargement si une police critique est manquante.
 
-## Questions fréquemment posées (FAQ)
+---
 
-| Question | Réponse |
-|----------|--------|
-| *Ai-je besoin d’une licence pour Aspose.Words afin d’utiliser ce code ?* | Oui, une licence valide d’Aspose.Words supprime les filigranes d’évaluation et débloque toutes les fonctionnalités. |
-| *Cette approche peut‑elle détecter les polices incorporées ?* | Les polices incorporées font déjà partie du fichier, donc Aspose.Words ne déclenchera pas d’avertissement de substitution. Vous pouvez vérifier `Document.FontInfos` pour énumérer les polices incorporées si nécessaire. |
-| *Que faire si la police manquante est une police système sous Windows mais pas sous Linux ?* | Le même avertissement sera déclenché sous Linux parce que la police n’est pas installée. Utilisez la stratégie « gérer les polices manquantes » pour fournir les fichiers `.ttf` requis avec votre application. |
-| *Le collecteur d’avertissements est‑il thread* |  |
+## Questions fréquentes & pièges
+
+### Et si je dois arrêter le chargement lorsqu’une police requise est manquante ?
+
+Vous pouvez inspecter les objets `WarningInfo` dans le rappel et lever une exception lorsqu’un nom de police particulier apparaît. L’exception interrompra le chargement, vous donnant un contrôle total.
+
+```csharp
+public void Warning(WarningInfo info)
+{
+    if (info.Type == WarningType.FontSubstitution &&
+        info.Message.Contains("MyCriticalFont"))
+    {
+        throw new InvalidOperationException("Critical font missing – aborting load.");
+    }
+    Warnings.Add(info);
+}
+```
+
+### Cela fonctionne-t-il avec les PDF ou d’autres formats ?
+
+Oui. Aspose.Words utilise la même infrastructure d’avertissement pour les PDF, RTF et HTML. Il suffit de remplacer l’extension du fichier et le reste du code reste identique.
+
+### Comment puis‑je enregistrer les avertissements dans un fichier au lieu de la console ?
+
+Remplacez `Console.WriteLine` par n’importe quel framework de journalisation que vous préférez (`Serilog`, `NLog`, etc.). La classe `WarningInfo` expose `Message`, `Source` et `Exception` pour des journaux détaillés.
+
+### Cela aura-t-il un impact sur les performances ?
+
+La surcharge est négligeable—Aspose.Words génère déjà les avertissements en interne. Ajouter un rappel se contente de les stocker dans une liste, ce qui est O(n) en fonction du nombre d’avertissements. Pour des documents typiques, l’impact est bien inférieur à 1 % du temps total de chargement.
+
+---
+
+## Résumé visuel
+
+![Comment détecter les polices dans Aspose.Words – diagramme du flux d’avertissement](https://example.com/images/font-detection-diagram.png "comment détecter les polices")
+
+*Texte alternatif :* **comment détecter les polices** – diagramme montrant le rappel d’avertissement, la collecte et les étapes d’énumération.
+
+---
+
+## Conclusion
+
+Nous avons couvert **comment détecter les polices** dans Aspose.Words en **capturant les avertissements**, **configurant un rappel**, et **énumérant les avertissements**. L’exemple complet de code montre un modèle prêt pour la production que vous pouvez intégrer dans n’importe quelle application .NET.  
+
+Ensuite, vous pourriez explorer :
+
+- **Comment capturer les avertissements** pour d’autres problèmes (par ex., problèmes de conversion d’image)
+- **Comment configurer le rappel** pour des frameworks de journalisation personnalisés
+- **Comment énumérer les avertissements** sur plusieurs documents dans un travail par lots
+- Utiliser **Aspose.Words.Fonts.FontSettings** pour fournir des dossiers de polices de secours, ce qui peut réduire le nombre de substitutions dès le départ.
+
+Essayez, ajustez le collecteur pour qu’il corresponde à votre style de journalisation, et vous ne serez plus jamais surpris par un remplacement de police inattendu. Si vous rencontrez des particularités, laissez un commentaire ci‑dessous—bon codage !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

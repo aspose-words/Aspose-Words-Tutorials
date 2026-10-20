@@ -1,24 +1,24 @@
 ---
 category: general
-date: 2026-04-07
-description: تعلم كيفية اكتشاف الخطوط وكيفية التقاط التحذيرات أثناء التعامل مع الخطوط
-  المفقودة في C# باستخدام Aspose.Words. يتضمن كودًا خطوة بخطوة.
+date: 2026-04-21
+description: تعلم كيفية اكتشاف الخطوط، التقاط التحذيرات، تكوين رد النداء، وإحصاء التحذيرات
+  باستخدام Aspose.Words في C#. دليل خطوة بخطوة لمعالجة الخطوط بشكل موثوق.
 draft: false
 keywords:
 - how to detect fonts
 - how to capture warnings
-- handle missing fonts
-- Aspose.Words font substitution
-- C# document loading warnings
+- how to configure callback
+- how to enumerate warnings
+- Aspose.Words font handling
 language: ar
-og_description: كيف تكتشف الخطوط في Aspose.Words؟ اتبع هذا الدرس لالتقاط التحذيرات
-  ومعالجة الخطوط المفقودة بسهولة.
-og_title: كيفية اكتشاف الخطوط في Aspose.Words – الدليل الكامل
+og_description: كيف تكتشف الخطوط في Aspose.Words؟ يوضح لك هذا البرنامج التعليمي كيفية
+  التقاط التحذيرات، وتكوين رد النداء، وعدّ التحذيرات في C#.
+og_title: كيفية اكتشاف الخطوط في Aspose.Words – دليل كامل
 tags:
 - Aspose.Words
 - C#
-- Font handling
-title: كيفية اكتشاف الخطوط في Aspose.Words – الدليل الكامل
+- Document Processing
+title: كيفية اكتشاف الخطوط في Aspose.Words – دليل كامل
 url: /ar/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-complete-guide/
 ---
 
@@ -26,244 +26,221 @@ url: /ar/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-complete-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# كيفية اكتشاف الخطوط في Aspose.Words – دليل كامل
+# كيفية اكتشاف الخطوط في Aspose.Words – دليل شامل
 
-هل تساءلت يومًا **كيف يتم اكتشاف الخطوط** المفقودة من مستند Word قبل نشره في بيئة الإنتاج؟ لست وحدك. في العديد من سيناريوهات الشركات، يمكن أن يتسبب خط غير موجود في تعطل خط أنابيب تحويل PDF أو يسبب عيوبًا في التخطيط تبدو غير احترافية. الخبر السار هو أن Aspose.Words يوفر لك طريقة مدمجة لاكتشاف تلك الخطوط الغائبة وعرض تحذيرات واضحة.
+هل تساءلت يومًا **كيف تكتشف الخطوط** المفقودة عند تحميل مستند Word؟ هذا السيناريو يظهر كثيرًا أكثر مما ترغب، خاصةً عند التعامل مع ملفات قديمة أو نشر عبر منصات مختلفة. في هذا الدرس سنستعرض مثالًا كاملاً وقابلاً للتنفيذ يَـ​**يُلقِط التحذيرات**، **يُكوّن رد نداء (callback)**، و**يُعدد التحذيرات** حتى تعرف دائمًا أي الخطوط تم استبدالها.
 
-في هذا الدرس سنستعرض خطوة بخطوة **كيفية اكتشاف الخطوط**، **كيفية التقاط التحذيرات**، وأفضل الممارسات **للتعامل مع الخطوط المفقودة** بحيث يبقى تطبيقك قويًا. لا أدوات خارجية، لا تخمين—فقط كود C# نقي يمكنك إدراجه في مشروعك الآن.
+سنستخدم Aspose.Words for .NET (الإصدار 24.9 وقت كتابة هذا الدرس) وC# عادي. لا خدمات خارجية، لا سحر—فقط الـ API وبعض الأسطر من الشيفرة. في النهاية ستتمكن من رصد كل استبدال للخط، تسجيله، وحتى اتخاذ قرار بإلغاء التحميل إذا كان الخط حاسمًا مفقودًا.  
 
-> **معاينة سريعة:** في النهاية ستحصل على `FontSubstitutionWarningCollector` قابل لإعادة الاستخدام يجمع كل رسائل استبدال الخط أثناء تحميل المستند، وستعرف كيف تتعامل عندما لا يمكن العثور على خط.
+### ما الذي ستحتاجه
+- **Aspose.Words for .NET** (تثبيت عبر NuGet: `Install-Package Aspose.Words`)
+- .NET 6.0 أو أحدث (الشيفرة تعمل أيضًا على .NET Framework)
+- ملف DOCX تجريبي يحتوي على إشارة إلى خط غير موجود على الجهاز (مثال: “MyCustomFont.ttf”)
+- Visual Studio، Rider، أو أي محرر C# تفضله
+
+> **نصيحة احترافية:** إذا لم يكن لديك مستند يحتوي على خطوط مفقودة، ما عليك سوى إعادة تسمية ملف خط على نظامك أو تعديل XML داخل الـ DOCX للإشارة إلى عائلة خط غير موجودة.
 
 ---
 
-## ما ستتعلمه
+## كيفية اكتشاف الخطوط باستخدام Aspose.Words
 
-- كيفية تكوين `LoadOptions` للاستماع إلى تحذيرات استبدال الخط.  
-- كيفية التقاط تلك التحذيرات في فئة جامع مخصصة.  
-- كيفية معالجة التحذيرات المجمعة وتحديد ما إذا كان يجب إيقاف العملية، أو تسجيلها، أو استبدال الخطوط.  
-- معالجة الحالات الحدية للمستندات التي تشير إلى خطوط عن بُعد أو مضمنة.  
-
-**المتطلبات المسبقة:** .NET 6+ (أو .NET Framework 4.6+)، Aspose.Words for .NET (أحدث نسخة)، ومعرفة أساسية بـ C#. إذا لم تستخدم Aspose.Words من قبل، لا تقلق—هذا الدليل يفترض فقط بضع دقائق من إعداد البيئة.
-
-## كيفية اكتشاف الخطوط باستخدام Aspose.Words LoadOptions
-
-الخطوة الأولى لاكتشاف الخطوط المفقودة هي إخبار Aspose.Words بالإبلاغ عنها. يتم ذلك عبر خاصية `LoadOptions.WarningCallback` التي تقبل أي فئة تنفذ `IWarningCallback`. أدناه نقوم بإنشاء جامع صغير يخزن كل تحذير للمراجعة لاحقًا.
+الفكرة الأساسية هي ربط نظام التحذير في Aspose.Words. عندما لا يتمكن المكتبة من العثور على الخط المطلوب، تُصدر تحذيرًا من نوع `WarningType.FontSubstitution`. من خلال توفير تنفيذ مخصص لـ `IWarningCallback`، يمكنك **اكتشاف الخطوط** التي تم استبدالها أثناء عملية التحميل.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Saving;
-using System.Collections.Generic;
+using Aspose.Words.Fonts;
 
-/// <summary>
-/// Collects all warnings emitted while loading a document.
-/// </summary>
-public class FontSubstitutionWarningCollector : IWarningCallback
+// 1️⃣ Create a collector that implements IWarningCallback
+public class FontWarningCollector : IWarningCallback
 {
-    // Thread‑safe static list so we can access warnings after loading.
-    public static List<WarningInfo> Warnings { get; } = new List<WarningInfo>();
+    public List<WarningInfo> Warnings { get; } = new();
 
-    // Called by Aspose.Words for each warning.
     public void Warning(WarningInfo info)
     {
-        // We only care about font‑related warnings.
-        if (info.Type == WarningType.FontSubstitution)
-        {
-            Warnings.Add(info);
-        }
+        // Store every warning – we’ll filter later
+        Warnings.Add(info);
     }
-
-    // Helper to clear previous run’s warnings.
-    public static void Clear() => Warnings.Clear();
 }
 ```
 
-**لماذا هذا مهم:** بدون رد نداء التحذير، يقوم Aspose.Words باستبدال الخطوط المفقودة بصمت بخط افتراضي، ولن تعرف أن هناك مشكلة. من خلال التقاط `WarningType.FontSubstitution` نحصل على رؤية كاملة—وهي البيانات التي تحتاجها **لاكتشاف الخطوط** غير المتوفرة على الجهاز المضيف.
+> **لماذا يعمل هذا:** تستدعي Aspose.Words طريقة `Warning` لكل مشكلة غير حرجة. عبر تخزين كائنات `WarningInfo` تحصل على وصول كامل للنوع، الرسالة، والسياق—وهو بالضبط ما تحتاجه **لاكتشاف الخطوط** التي تم استبدالها.
 
-الآن نقوم بربط الجامع بـ `LoadOptions` ونحمّل مستندًا:
+---
+
+## كيفية التقاط التحذيرات عند تحميل المستند
+
+الآن بعد أن أصبح لدينا جامع للتحذيرات، نحتاج إلى إخبار `LoadOptions` باستخدامه. هذه هي خطوة **كيفية التقاط التحذيرات** في اللغز.
 
 ```csharp
-// Step 1: Prepare load options with our warning collector.
-LoadOptions loadOptions = new LoadOptions
+// 2️⃣ Prepare LoadOptions with our warning collector
+var warningCollector = new FontWarningCollector();
+var loadOptions = new LoadOptions
 {
-    WarningCallback = new FontSubstitutionWarningCollector()
+    // Assign the callback – this is where warnings are captured
+    WarningCallback = warningCollector
 };
 
-// Optional: clear any stale warnings from a previous run.
-FontSubstitutionWarningCollector.Clear();
-
-// Step 2: Load the document. Replace the path with your own file.
-Document doc = new Document(@"C:\Docs\MissingFonts.docx", loadOptions);
+// 3️⃣ Load the document (replace the path with your own file)
+Document doc = new Document("YOUR_DIRECTORY/DocumentWithMissingFont.docx", loadOptions);
 ```
 
-> **نصيحة احترافية:** إذا كنت تتعامل مع العديد من المستندات دفعة واحدة، أعد استخدام نفس مثيل `FontSubstitutionWarningCollector` لكن تذكر استدعاء `Clear()` بين عمليات التحميل لتجنب خلط التحذيرات من ملفات مختلفة.
+> **حالة حافة:** إذا قمت بتحميل مستند من تدفق (`new Document(stream, loadOptions)`)، يعمل نفس رد النداء—فقط مرّر الـ stream بدلاً من مسار الملف.
 
-## التقاط التحذيرات أثناء تحميل المستند
+في هذه المرحلة يصبح المستند محملاً بالكامل، لكن أي تحذيرات استبدال خطوط تُخزن بأمان داخل `warningCollector.Warnings`.
 
-بعد تحميل المستند، يحتفظ الجامع بالفعل بكل التحذيرات المتعلقة بالخطوط. السؤال المنطقي التالي هو: *كيف يمكنني التقاط التحذيرات* بطريقة سهلة للتسجيل أو العرض؟
+---
+
+## كيفية تعداد التحذيرات والإبلاغ عن استبدال الخطوط
+
+أخيرًا، نمرّ على التحذيرات المجمعة ون **نعد التحذيرات** التي تتعلق تحديدًا باستبدال الخطوط. هذه الخطوة تحوّل البيانات الخام إلى تقرير مقروء.
 
 ```csharp
-// Step 3: Iterate over collected warnings and output them.
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
+// 4️⃣ Iterate over the collected warnings
+foreach (var warning in warningCollector.Warnings)
 {
-    Console.WriteLine($"{warning.Type}: {warning.Message}");
-}
-```
-
-المخرجات النموذجية تبدو هكذا:
-
-```
-FontSubstitution: Font 'Comic Sans MS' was not found. Substituted with 'Arial'.
-FontSubstitution: Font 'Garamond' missing. Using 'Times New Roman' instead.
-```
-
-**ما الذي يخبرك به هذا:** كل سطر يكشف عن اسم الخط الأصلي والبديل الذي اختاره Aspose.Words. مع هذه المعلومات يمكنك اتخاذ قرار ما إذا كان البديل مقبولًا أو إذا كنت بحاجة إلى تضمين الخط المفقود يدويًا.
-
-## التعامل مع الخطوط المفقودة بشكل سلس
-
-اكتشاف التقاط التحذيرات هو نصف المعركة فقط. القيمة الحقيقية تظهر عندما **تتعامل مع الخطوط المفقودة** بطريقة جاهزة للإنتاج. فيما يلي ثلاث استراتيجيات شائعة:
-
-1. **سجل واستمر** – مناسب لمعالجة الدُفعات حيث تحتاج فقط إلى سجل تدقيق.  
-2. **إيقاف عند الخطوط الحرجة** – إلقاء استثناء إذا كان خط معين (مثل خط علامة تجارية) مفقودًا.  
-3. **تضمين الخط أثناء التشغيل** – تحميل الخط المفقود من مجلد معروف وتسجيله في Aspose.Words قبل إعادة تحميل المستند.  
-
-### مثال: إيقاف عند خط حرج
-
-```csharp
-// Define a list of fonts that must be present.
-var requiredFonts = new HashSet<string> { "MyBrand-Regular", "MyBrand-Bold" };
-
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
-{
-    // Extract the original font name from the warning message.
-    string missingFont = ExtractFontName(warning.Message);
-    if (requiredFonts.Contains(missingFont))
+    // We're only interested in font substitution warnings
+    if (warning.Type == WarningType.FontSubstitution)
     {
-        throw new InvalidOperationException(
-            $"Critical font '{missingFont}' is missing. Document load aborted.");
-    }
-}
-
-// Helper method to parse font name from warning text.
-string ExtractFontName(string message)
-{
-    // Message pattern: "Font 'X' was not found..."
-    int start = message.IndexOf('\'') + 1;
-    int end = message.IndexOf('\'', start);
-    return (start > 0 && end > start) ? message[start..end] : string.Empty;
-}
-```
-
-### مثال: تضمين الخطوط المفقودة تلقائيًا
-
-```csharp
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
-{
-    string missingFont = ExtractFontName(warning.Message);
-    string fontPath = $@"C:\Fonts\{missingFont}.ttf";
-
-    if (File.Exists(fontPath))
-    {
-        // Register the font with Aspose.Words.
-        FontSettings fontSettings = new FontSettings();
-        fontSettings.SetFontsFolder(Path.GetDirectoryName(fontPath), false);
-        doc.FontSettings = fontSettings;
-
-        // Reload the document now that the font is available.
-        doc = new Document(@"C:\Docs\MissingFonts.docx", loadOptions);
-        break; // Re‑load once; subsequent warnings will be resolved.
+        Console.WriteLine($"Substituted font: {warning.Message}");
     }
 }
 ```
 
-**لماذا تساعد هذه الأنماط:** من خلال اتخاذ قرار صريح حول ما يجب فعله عندما يكون الخط مفقودًا، تُزيل الاستبدالات الصامتة التي قد تضر بالعلامة التجارية أو القراءة. هذا هو جوهر **التعامل مع الخطوط المفقودة** بطريقة مُتحكم فيها.
+**الناتج المتوقع** (مثال):
 
-## مثال عملي كامل
+```
+Substituted font: Font 'Calibri' not found. Substituted with 'Arial'.
+Substituted font: Font 'MyCustomFont' not found. Substituted with 'Times New Roman'.
+```
 
-بجمع كل شيء معًا، إليك برنامج واحد جاهز للتنفيذ يوضح **كيفية اكتشاف الخطوط**، **كيفية التقاط التحذيرات**، وسياسة بسيطة **للتعامل مع الخطوط المفقودة** عن طريق تسجيلها.
+إذا لم يحتوي المستند على خطوط مفقودة، فإن الحلقة ببساطة لا تُنتج أي مخرجات—لا شيء يدعو للقلق.
+
+---
+
+## مثال كامل يعمل (جميع الخطوات في ملف واحد)
+
+فيما يلي البرنامج الكامل الذي يمكنك نسخه‑ولصقه في مشروع Console. يربط معًا **كيفية اكتشاف الخطوط**، **كيفية التقاط التحذيرات**، **كيفية تكوين رد النداء**، و**كيفية تعداد التحذيرات** في تدفق موحد.
 
 ```csharp
-using Aspose.Words;
-using Aspose.Words.Saving;
 using System;
 using System.Collections.Generic;
-using System.IO;
+using Aspose.Words;
+using Aspose.Words.Fonts;
 
-public class FontSubstitutionWarningCollector : IWarningCallback
+namespace FontDetectionDemo
 {
-    public static List<WarningInfo> Warnings { get; } = new List<WarningInfo>();
-    public void Warning(WarningInfo info)
+    // Custom warning collector (captures all warnings)
+    public class FontWarningCollector : IWarningCallback
     {
-        if (info.Type == WarningType.FontSubstitution)
+        public List<WarningInfo> Warnings { get; } = new();
+
+        public void Warning(WarningInfo info)
+        {
             Warnings.Add(info);
-    }
-    public static void Clear() => Warnings.Clear();
-}
-
-class Program
-{
-    static void Main()
-    {
-        string docPath = @"C:\Docs\MissingFonts.docx";
-
-        // 1️⃣ Configure LoadOptions with the warning collector.
-        LoadOptions loadOptions = new LoadOptions
-        {
-            WarningCallback = new FontSubstitutionWarningCollector()
-        };
-        FontSubstitutionWarningCollector.Clear();
-
-        // 2️⃣ Load the document – this is where fonts are detected.
-        Document doc = new Document(docPath, loadOptions);
-
-        // 3️⃣ Process the collected warnings.
-        if (FontSubstitutionWarningCollector.Warnings.Count == 0)
-        {
-            Console.WriteLine("✅ No missing fonts detected.");
         }
-        else
-        {
-            Console.WriteLine("⚠️ Font substitution warnings:");
-            foreach (var w in FontSubstitutionWarningCollector.Warnings)
-                Console.WriteLine($"{w.Type}: {w.Message}");
+    }
 
-            // Example policy: abort if a brand‑critical font is missing.
-            var critical = new HashSet<string> { "MyBrand-Regular", "MyBrand-Bold" };
-            foreach (var w in FontSubstitutionWarningCollector.Warnings)
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // -------------------------------------------------
+            // Step 1: Set up the warning collector (how to configure callback)
+            var collector = new FontWarningCollector();
+            var loadOptions = new LoadOptions
             {
-                string missing = ExtractFontName(w.Message);
-                if (critical.Contains(missing))
+                WarningCallback = collector
+            };
+
+            // -------------------------------------------------
+            // Step 2: Load the document (how to detect fonts)
+            string filePath = "YOUR_DIRECTORY/DocumentWithMissingFont.docx";
+            Document doc;
+            try
+            {
+                doc = new Document(filePath, loadOptions);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Failed to load document: {ex.Message}");
+                return;
+            }
+
+            // -------------------------------------------------
+            // Step 3: Enumerate warnings (how to enumerate warnings)
+            bool anySubstitutions = false;
+            foreach (var warning in collector.Warnings)
+            {
+                if (warning.Type == WarningType.FontSubstitution)
                 {
-                    Console.WriteLine($"❌ Critical font '{missing}' missing. Stopping.");
-                    return;
+                    anySubstitutions = true;
+                    Console.WriteLine($"Substituted font: {warning.Message}");
                 }
             }
+
+            if (!anySubstitutions)
+            {
+                Console.WriteLine("No font substitutions detected – all fonts are available.");
+            }
+
+            // Optional: Continue processing the document...
         }
-
-        // 4️⃣ Continue with normal processing (e.g., save as PDF).
-        doc.Save(@"C:\Docs\Output.pdf", SaveFormat.Pdf);
-        Console.WriteLine("✅ Document saved as PDF.");
-    }
-
-    // Helper to pull the original font name out of the warning text.
-    static string ExtractFontName(string message)
-    {
-        int first = message.IndexOf('\'') + 1;
-        int last = message.IndexOf('\'', first);
-        return (first > 0 && last > first) ? message[first..last] : string.Empty;
     }
 }
 ```
 
-**النتيجة المتوقعة:** عند تشغيل البرنامج على مستند يشير إلى خط غير موجود على الجهاز، ستعرض وحدة التحكم كل تحذير استبدال. إذا كان أي تحذير يتعلق بخط من مجموعة `critical`، سيخرج البرنامج مبكرًا، مما يمنع إنشاء PDF معيب.
+**تشغيل هذا البرنامج** سيطبع كل خط اضطر Aspose.Words لاستبداله. يمكنك توجيه المخرجات إلى ملف سجل، رفع تنبيه، أو حتى إلغاء التحميل إذا كان خط حاسم مفقودًا.
 
-## الأسئلة المتكررة (FAQs)
+---
 
-| السؤال | الجواب |
-|----------|--------|
-| *هل أحتاج إلى ترخيص لـ Aspose.Words لاستخدام هذا الكود؟* | نعم، الترخيص الصالح لـ Aspose.Words يزيل العلامات المائية للتقييم ويفتح كامل الوظائف. |
-| *هل يمكن لهذه الطريقة اكتشاف الخطوط المضمنة؟* | الخطوط المضمنة هي بالفعل جزء من الملف، لذا لا يطلق Aspose.Words تحذير استبدال. يمكنك فحص `Document.FontInfos` لتعداد الخطوط المضمنة إذا لزم الأمر. |
-| *ماذا لو كان الخط المفقود خط نظام على Windows لكنه غير موجود على Linux؟* | سيظهر نفس التحذير على Linux لأن الخط غير مثبت هناك. استخدم استراتيجية “التعامل مع الخطوط المفقودة” لتضمين ملفات `.ttf` المطلوبة مع تطبيقك. |
-| *هل جامع التحذيرات يعمل في خيط* |  |
+## أسئلة شائعة وملاحظات
+
+### ماذا لو أردت إيقاف التحميل عند فقدان خط مطلوب؟
+يمكنك فحص كائنات `WarningInfo` داخل رد النداء ورمي استثناء عندما يظهر اسم خط معين. سيؤدي الاستثناء إلى إلغاء التحميل، مما يمنحك السيطرة الكاملة.
+
+```csharp
+public void Warning(WarningInfo info)
+{
+    if (info.Type == WarningType.FontSubstitution &&
+        info.Message.Contains("MyCriticalFont"))
+    {
+        throw new InvalidOperationException("Critical font missing – aborting load.");
+    }
+    Warnings.Add(info);
+}
+```
+
+### هل يعمل هذا مع ملفات PDF أو صيغ أخرى؟
+نعم. يستخدم Aspose.Words نفس بنية التحذير للـ PDF، RTF، وHTML. فقط غيّر امتداد الملف ويبقى باقي الشيفرة كما هو.
+
+### كيف يمكنني تسجيل التحذيرات إلى ملف بدلاً من وحدة التحكم؟
+استبدل `Console.WriteLine` بأي إطار تسجيل تفضله (`Serilog`، `NLog`، إلخ). تُظهر فئة `WarningInfo` الخصائص `Message`، `Source` و`Exception` لتوفير سجلات مفصلة.
+
+### هل سيؤثر هذا على الأداء؟
+العبء إضافي ضئيل—فAspose.Words يولد التحذيرات داخليًا بالفعل. إضافة رد نداء مجرد يخزنها في قائمة، وهو O(n) بالنسبة لعدد التحذيرات. بالنسبة للمستندات المعتادة، يكون التأثير أقل من 1 % من إجمالي زمن التحميل.
+
+---
+
+## ملخص بصري
+
+![كيفية اكتشاف الخطوط في Aspose.Words – مخطط تدفق التحذير](https://example.com/images/font-detection-diagram.png "كيفية اكتشاف الخطوط")
+
+*النص البديل:* **كيفية اكتشاف الخطوط** – مخطط يُظهر رد النداء للتحذير، الجمع، وخطوات التعداد.
+
+---
+
+## الخاتمة
+
+لقد غطينا **كيفية اكتشاف الخطوط** في Aspose.Words عبر **التقاط التحذيرات**، **تكوين رد نداء**، و**تعداد التحذيرات**. يُظهر مثال الشيفرة الكامل نمطًا جاهزًا للإنتاج يمكنك إدراجه في أي تطبيق .NET.  
+
+بعد ذلك، قد ترغب في استكشاف:
+
+- **كيفية التقاط التحذيرات** لمشكلات أخرى (مثل مشاكل تحويل الصور)
+- **كيفية تكوين رد نداء** لأطر تسجيل مخصصة
+- **كيفية تعداد التحذيرات** عبر مستندات متعددة في مهمة دفعة
+- استخدام **Aspose.Words.Fonts.FontSettings** لتوفير مجلدات خطوط احتياطية، مما قد يقلل عدد الاستبدالات من الأساس.
+
+جرّبه، عدّل الجامع ليناسب أسلوب التسجيل لديك، ولن تُفاجئ مرة أخرى باستبدال خط غير متوقع. إذا واجهت أي صعوبات، اترك تعليقًا أدناه—برمجة سعيدة!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

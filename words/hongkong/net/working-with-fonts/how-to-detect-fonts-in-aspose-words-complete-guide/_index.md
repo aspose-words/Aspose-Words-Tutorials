@@ -1,21 +1,21 @@
 ---
 category: general
-date: 2026-04-07
-description: 學習如何偵測字型，以及在使用 Aspose.Words 於 C# 處理缺失字型時如何捕捉警告。內含逐步程式碼示例。
+date: 2026-04-21
+description: 學習如何在 C# 中使用 Aspose.Words 偵測字型、捕獲警告、設定回呼以及列舉警告。一步一步的指南，助您可靠地處理字型。
 draft: false
 keywords:
 - how to detect fonts
 - how to capture warnings
-- handle missing fonts
-- Aspose.Words font substitution
-- C# document loading warnings
+- how to configure callback
+- how to enumerate warnings
+- Aspose.Words font handling
 language: zh-hant
-og_description: 如何在 Aspose.Words 中偵測字型？跟隨本教學，即可輕鬆捕捉警示並處理缺少的字型。
-og_title: 如何在 Aspose.Words 中偵測字體 – 完整指南
+og_description: 如何在 Aspose.Words 中偵測字型？本教學示範如何擷取警告、設定回呼以及於 C# 中列舉警告。
+og_title: 如何在 Aspose.Words 中偵測字型 – 完整指南
 tags:
 - Aspose.Words
 - C#
-- Font handling
+- Document Processing
 title: 如何在 Aspose.Words 中偵測字型 – 完整指南
 url: /zh-hant/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-complete-guide/
 ---
@@ -26,252 +26,219 @@ url: /zh-hant/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-complet
 
 # 如何在 Aspose.Words 中偵測字型 – 完整指南
 
-有沒有想過 **如何偵測** 在將 Word 文件上線前缺少的字型？你並不孤單。在許多企業情境下，偶爾遺失的字型會導致 PDF 轉換流程失敗，或產生不專業的版面錯位。好消息是 Aspose.Words 提供內建機制，讓你找出那些缺失的字型並顯示明確警告。
+有沒有想過在載入 Word 文件時 **如何偵測字型** 缺失？這種情況比你想像的更常發生，特別是在處理舊版檔案或跨平台部署時。在本教學中，我們將逐步示範一個完整且可執行的範例，該範例 **捕獲警告**、**設定回呼**，以及 **列舉警告**，讓你隨時知道哪些字型被替換。
 
-在本教學中，我們將逐步說明 **如何偵測字型**、**如何捕捉警告**，以及 **處理缺失字型** 的最佳實踐，讓你的應用程式保持穩定。無需外部工具、無需猜測——只要純 C# 程式碼，現在即可直接放入專案使用。
+我們將使用 Aspose.Words for .NET（撰寫時的版本為 v24.9）以及純 C#。不需要外部服務，也不需要魔法——只要 API 加上幾行程式碼。完成後，你將能夠找出每一個字型替換、記錄它，甚至在關鍵字型缺失時決定是否中止載入。
 
-> **快速預覽：** 完成後，你將擁有可重複使用的 `FontSubstitutionWarningCollector`，在文件載入期間收集所有字型替換訊息，並了解當找不到字型時該如何回應。
+### 需要的環境
+- **Aspose.Words for .NET**（透過 NuGet 安裝：`Install-Package Aspose.Words`）
+- .NET 6.0 或更新版本（此程式碼亦可在 .NET Framework 上執行）
+- 一個引用了機器上不存在的字型（例如 “MyCustomFont.ttf”）的 DOCX 範例
+- Visual Studio、Rider，或任何你慣用的 C# 編輯器
 
----
-
-## 你將學會
-
-- 如何設定 `LoadOptions` 以監聽字型替換警告。  
-- 如何在自訂收集器類別中捕捉這些警告。  
-- 如何處理收集到的警告，決定是中止、記錄或替換字型。  
-- 針對引用遠端或內嵌字型的文件的特殊情況處理。  
-
-**先備條件：** .NET 6+（或 .NET Framework 4.6+）、Aspose.Words for .NET（最新版本），以及對 C# 的基本了解。若你從未使用過 Aspose.Words，也不必擔心——本指南只需要幾分鐘的設定時間。
+> **專業提示：** 若手邊沒有缺少字型的文件，只要將系統中的字型檔案重新命名，或是編輯 DOCX 的 XML 使其引用不存在的字型族，即可模擬此情況。
 
 ---
 
-## 使用 Aspose.Words LoadOptions 偵測字型
+## 如何使用 Aspose.Words 偵測字型
 
-偵測缺失字型的第一步是告訴 Aspose.Words 要回報它們。這透過 `LoadOptions.WarningCallback` 屬性完成，該屬性接受任何實作 `IWarningCallback` 的類別。以下我們建立一個小型收集器，將每個警告儲存起來以供稍後檢查。
+核心概念是掛勾 Aspose.Words 的警告機制。當程式庫找不到所請求的字型時，會拋出 `WarningType.FontSubstitution` 警告。透過自訂 `IWarningCallback` 實作，你可以 **偵測字型** 在載入過程中被替換的情況。
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Saving;
-using System.Collections.Generic;
+using Aspose.Words.Fonts;
 
-/// <summary>
-/// Collects all warnings emitted while loading a document.
-/// </summary>
-public class FontSubstitutionWarningCollector : IWarningCallback
+// 1️⃣ Create a collector that implements IWarningCallback
+public class FontWarningCollector : IWarningCallback
 {
-    // Thread‑safe static list so we can access warnings after loading.
-    public static List<WarningInfo> Warnings { get; } = new List<WarningInfo>();
+    public List<WarningInfo> Warnings { get; } = new();
 
-    // Called by Aspose.Words for each warning.
     public void Warning(WarningInfo info)
     {
-        // We only care about font‑related warnings.
-        if (info.Type == WarningType.FontSubstitution)
-        {
-            Warnings.Add(info);
-        }
+        // Store every warning – we’ll filter later
+        Warnings.Add(info);
     }
-
-    // Helper to clear previous run’s warnings.
-    public static void Clear() => Warnings.Clear();
 }
 ```
 
-**為什麼這很重要：** 若未設定警告回呼，Aspose.Words 會悄悄以預設字型替代缺失的字型，你根本不會知道問題的存在。透過捕捉 `WarningType.FontSubstitution`，即可完整掌握 **偵測字型** 所需的所有資訊。
+> **為什麼這樣可行：** Aspose.Words 會對每一個非關鍵問題呼叫 `Warning` 方法。將 `WarningInfo` 物件儲存起來後，你即可完整取得類型、訊息與上下文，正好能 **偵測字型** 替換的情形。
 
-接下來，我們把收集器掛到 `LoadOptions`，並載入文件：
+---
+
+## 載入文件時如何捕獲警告
+
+有了收集器之後，我們需要告訴 `LoadOptions` 使用它。這就是 **如何捕獲警告** 的關鍵步驟。
 
 ```csharp
-// Step 1: Prepare load options with our warning collector.
-LoadOptions loadOptions = new LoadOptions
+// 2️⃣ Prepare LoadOptions with our warning collector
+var warningCollector = new FontWarningCollector();
+var loadOptions = new LoadOptions
 {
-    WarningCallback = new FontSubstitutionWarningCollector()
+    // Assign the callback – this is where warnings are captured
+    WarningCallback = warningCollector
 };
 
-// Optional: clear any stale warnings from a previous run.
-FontSubstitutionWarningCollector.Clear();
-
-// Step 2: Load the document. Replace the path with your own file.
-Document doc = new Document(@"C:\Docs\MissingFonts.docx", loadOptions);
+// 3️⃣ Load the document (replace the path with your own file)
+Document doc = new Document("YOUR_DIRECTORY/DocumentWithMissingFont.docx", loadOptions);
 ```
 
-> **專業提示：** 若一次處理大量文件，請重複使用同一個 `FontSubstitutionWarningCollector` 實例，但務必在每次載入後呼叫 `Clear()`，避免不同檔案的警告混在一起。
+> **邊緣情況：** 若你是從串流載入文件（`new Document(stream, loadOptions)`），相同的回呼仍然適用——只要傳入串流而非檔案路徑即可。
+
+此時文件已完整載入，但所有字型替換警告都安全地存放在 `warningCollector.Warnings` 中。
 
 ---
 
-## 在文件載入期間捕捉警告
+## 列舉警告並報告字型替換
 
-文件載入完成後，收集器已經保存了所有與字型相關的警告。接下來的問題是：*如何以易於記錄或顯示的方式捕捉這些警告？*
-
-```csharp
-// Step 3: Iterate over collected warnings and output them.
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
-{
-    Console.WriteLine($"{warning.Type}: {warning.Message}");
-}
-```
-
-典型輸出範例如下：
-
-```
-FontSubstitution: Font 'Comic Sans MS' was not found. Substituted with 'Arial'.
-FontSubstitution: Font 'Garamond' missing. Using 'Times New Roman' instead.
-```
-
-**這告訴了你什麼：** 每一行都會顯示原始字型名稱以及 Aspose.Words 所選擇的備援字型。掌握這些資訊後，你可以判斷備援字型是否可接受，或是需要手動嵌入缺失的字型。
-
----
-
-## 優雅地處理缺失字型
-
-偵測與捕捉警告只是解決問題的一半。真正的價值在於 **以可投入生產的方式處理缺失字型**。以下列出三種常見策略：
-
-1. **記錄並繼續** – 適用於批次處理，只需要留下稽核紀錄。  
-2. **關鍵字型即中止** – 若缺少特定字型（例如品牌專屬字型），拋出例外終止流程。  
-3. **即時嵌入缺失字型** – 從已知資料夾載入缺失字型，並在重新載入文件前向 Aspose.Words 註冊。
-
-### 範例：關鍵字型即中止
+最後，我們會遍歷收集到的警告，**列舉警告** 中專屬於字型替換的項目。此步驟將原始資料轉換為可讀的報告。
 
 ```csharp
-// Define a list of fonts that must be present.
-var requiredFonts = new HashSet<string> { "MyBrand-Regular", "MyBrand-Bold" };
-
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
+// 4️⃣ Iterate over the collected warnings
+foreach (var warning in warningCollector.Warnings)
 {
-    // Extract the original font name from the warning message.
-    string missingFont = ExtractFontName(warning.Message);
-    if (requiredFonts.Contains(missingFont))
+    // We're only interested in font substitution warnings
+    if (warning.Type == WarningType.FontSubstitution)
     {
-        throw new InvalidOperationException(
-            $"Critical font '{missingFont}' is missing. Document load aborted.");
-    }
-}
-
-// Helper method to parse font name from warning text.
-string ExtractFontName(string message)
-{
-    // Message pattern: "Font 'X' was not found..."
-    int start = message.IndexOf('\'') + 1;
-    int end = message.IndexOf('\'', start);
-    return (start > 0 && end > start) ? message[start..end] : string.Empty;
-}
-```
-
-### 範例：自動嵌入缺失字型
-
-```csharp
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
-{
-    string missingFont = ExtractFontName(warning.Message);
-    string fontPath = $@"C:\Fonts\{missingFont}.ttf";
-
-    if (File.Exists(fontPath))
-    {
-        // Register the font with Aspose.Words.
-        FontSettings fontSettings = new FontSettings();
-        fontSettings.SetFontsFolder(Path.GetDirectoryName(fontPath), false);
-        doc.FontSettings = fontSettings;
-
-        // Reload the document now that the font is available.
-        doc = new Document(@"C:\Docs\MissingFonts.docx", loadOptions);
-        break; // Re‑load once; subsequent warnings will be resolved.
+        Console.WriteLine($"Substituted font: {warning.Message}");
     }
 }
 ```
 
-**為什麼這些模式有幫助：** 明確決定缺失字型時的處理方式，可避免靜默的替代行為，從而保護品牌形象與可讀性。這正是 **以受控方式處理缺失字型** 的核心。
+**預期輸出**（範例）：
+
+```
+Substituted font: Font 'Calibri' not found. Substituted with 'Arial'.
+Substituted font: Font 'MyCustomFont' not found. Substituted with 'Times New Roman'.
+```
+
+如果文件中沒有缺少的字型，迴圈將不會產生任何輸出——不必擔心。
 
 ---
 
-## 完整可執行範例
+## 完整可執行範例（所有步驟於單一檔案）
 
-將上述所有步驟整合，以下是一個可直接執行的程式，示範 **如何偵測字型**、**如何捕捉警告**，以及以記錄方式 **處理缺失字型** 的簡易政策。
+以下程式碼可直接貼到 Console 專案中。它將 **如何偵測字型**、**如何捕獲警告**、**如何設定回呼** 與 **如何列舉警告** 結合成一個完整流程。
 
 ```csharp
-using Aspose.Words;
-using Aspose.Words.Saving;
 using System;
 using System.Collections.Generic;
-using System.IO;
+using Aspose.Words;
+using Aspose.Words.Fonts;
 
-public class FontSubstitutionWarningCollector : IWarningCallback
+namespace FontDetectionDemo
 {
-    public static List<WarningInfo> Warnings { get; } = new List<WarningInfo>();
-    public void Warning(WarningInfo info)
+    // Custom warning collector (captures all warnings)
+    public class FontWarningCollector : IWarningCallback
     {
-        if (info.Type == WarningType.FontSubstitution)
+        public List<WarningInfo> Warnings { get; } = new();
+
+        public void Warning(WarningInfo info)
+        {
             Warnings.Add(info);
-    }
-    public static void Clear() => Warnings.Clear();
-}
-
-class Program
-{
-    static void Main()
-    {
-        string docPath = @"C:\Docs\MissingFonts.docx";
-
-        // 1️⃣ Configure LoadOptions with the warning collector.
-        LoadOptions loadOptions = new LoadOptions
-        {
-            WarningCallback = new FontSubstitutionWarningCollector()
-        };
-        FontSubstitutionWarningCollector.Clear();
-
-        // 2️⃣ Load the document – this is where fonts are detected.
-        Document doc = new Document(docPath, loadOptions);
-
-        // 3️⃣ Process the collected warnings.
-        if (FontSubstitutionWarningCollector.Warnings.Count == 0)
-        {
-            Console.WriteLine("✅ No missing fonts detected.");
         }
-        else
-        {
-            Console.WriteLine("⚠️ Font substitution warnings:");
-            foreach (var w in FontSubstitutionWarningCollector.Warnings)
-                Console.WriteLine($"{w.Type}: {w.Message}");
+    }
 
-            // Example policy: abort if a brand‑critical font is missing.
-            var critical = new HashSet<string> { "MyBrand-Regular", "MyBrand-Bold" };
-            foreach (var w in FontSubstitutionWarningCollector.Warnings)
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // -------------------------------------------------
+            // Step 1: Set up the warning collector (how to configure callback)
+            var collector = new FontWarningCollector();
+            var loadOptions = new LoadOptions
             {
-                string missing = ExtractFontName(w.Message);
-                if (critical.Contains(missing))
+                WarningCallback = collector
+            };
+
+            // -------------------------------------------------
+            // Step 2: Load the document (how to detect fonts)
+            string filePath = "YOUR_DIRECTORY/DocumentWithMissingFont.docx";
+            Document doc;
+            try
+            {
+                doc = new Document(filePath, loadOptions);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Failed to load document: {ex.Message}");
+                return;
+            }
+
+            // -------------------------------------------------
+            // Step 3: Enumerate warnings (how to enumerate warnings)
+            bool anySubstitutions = false;
+            foreach (var warning in collector.Warnings)
+            {
+                if (warning.Type == WarningType.FontSubstitution)
                 {
-                    Console.WriteLine($"❌ Critical font '{missing}' missing. Stopping.");
-                    return;
+                    anySubstitutions = true;
+                    Console.WriteLine($"Substituted font: {warning.Message}");
                 }
             }
+
+            if (!anySubstitutions)
+            {
+                Console.WriteLine("No font substitutions detected – all fonts are available.");
+            }
+
+            // Optional: Continue processing the document...
         }
-
-        // 4️⃣ Continue with normal processing (e.g., save as PDF).
-        doc.Save(@"C:\Docs\Output.pdf", SaveFormat.Pdf);
-        Console.WriteLine("✅ Document saved as PDF.");
-    }
-
-    // Helper to pull the original font name out of the warning text.
-    static string ExtractFontName(string message)
-    {
-        int first = message.IndexOf('\'') + 1;
-        int last = message.IndexOf('\'', first);
-        return (first > 0 && last > first) ? message[first..last] : string.Empty;
     }
 }
 ```
 
-**預期結果：** 當程式對一個引用了本機未安裝字型的文件執行時，主控台會列出每個替換警告。若任一警告涉及 `critical` 集合中的字型，程式會提前結束，防止產生有缺陷的 PDF。
+**執行此程式** 後會列印出 Aspose.Words 必須替換的每一個字型。你可以將輸出導向日誌檔、發出警報，或在關鍵字型缺失時中止載入。
 
 ---
 
-## 常見問題 (FAQs)
+## 常見問題與注意事項
 
-| 問題 | 解答 |
-|----------|--------|
-| *我需要 Aspose.Words 的授權才能使用這段程式碼嗎？* | 需要。有效的 Aspose.Words 授權會移除評估水印，並解鎖全部功能。 |
-| *此方法能偵測內嵌字型嗎？* | 內嵌字型已隨檔案一起存在，Aspose.Words 不會拋出替換警告。若需要列舉內嵌字型，可檢查 `Document.FontInfos`。 |
-| *如果缺失的字型在 Windows 上是系統字型，但在 Linux 上不存在，會怎樣？* | 在 Linux 上會觸發相同的警告，因為該字型未安裝。請使用「處理缺失字型」策略，將必要的 `.ttf` 檔案隨應用程式一起部署。 |
-| *Is the warning collector thread |
+### 若需要在缺少必要字型時停止載入該怎麼做？
+你可以在回呼內檢查 `WarningInfo` 物件，當出現特定字型名稱時拋出例外。例外會中止載入，讓你完全掌控。
+
+```csharp
+public void Warning(WarningInfo info)
+{
+    if (info.Type == WarningType.FontSubstitution &&
+        info.Message.Contains("MyCriticalFont"))
+    {
+        throw new InvalidOperationException("Critical font missing – aborting load.");
+    }
+    Warnings.Add(info);
+}
+```
+
+### 這個方法能用於 PDF 或其他格式嗎？
+可以。Aspose.Words 為 PDF、RTF、HTML 等格式使用相同的警告基礎建設。只要更換檔案副檔名，其他程式碼保持不變。
+
+### 如何將警告寫入檔案而非 Console？
+將 `Console.WriteLine` 換成你偏好的日誌框架（如 `Serilog`、`NLog` 等）。`WarningInfo` 類別提供 `Message`、`Source` 與 `Exception`，方便寫入詳細日誌。
+
+### 這會影響效能嗎？
+影響可以忽略不計——Aspose.Words 本身已在內部產生警告。加入回呼僅是把它們存入 List，時間複雜度為 O(n)（n 為警告數量）。對於一般文件而言，額外開銷遠低於總載入時間的 1 %。
+
+---
+
+## 視覺摘要
+
+![如何在 Aspose.Words 中偵測字型 – 警告流程圖](https://example.com/images/font-detection-diagram.png "如何偵測字型")
+
+*Alt text:* **如何偵測字型** – 圖示說明警告回呼、收集與列舉步驟。
+
+---
+
+## 結語
+
+我們已說明如何在 Aspose.Words 中 **偵測字型**，方法包括 **捕獲警告**、**設定回呼** 與 **列舉警告**。完整程式碼範例展示了一套可直接套用於任何 .NET 應用程式的生產等級模式。
+
+接下來，你可能想進一步探索：
+
+- **如何捕獲其他問題的警告**（例如影像轉換失敗）
+- **如何為自訂日誌框架設定回呼**
+- **如何在批次作業中列舉多個文件的警告**
+- 使用 **Aspose.Words.Fonts.FontSettings** 提供備援字型資料夾，從根本減少字型替換次數
+
+試著把收集器調整成符合你日誌風格的方式，從此不會再因意外的字型替換而感到驚訝。若遇到任何怪異情況，歡迎在下方留言——祝開發順利！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

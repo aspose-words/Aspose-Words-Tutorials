@@ -41,6 +41,23 @@ Aprenda a agregar sombras a formas en C# usando Aspose.Words, con ejemplos claro
 ### [Cómo establecer sombra en una forma en Aspose.Words – Guía completa](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Aprenda a aplicar sombras a formas en documentos Word usando Aspose.Words para Java.
 
+### [Cómo establecer sombra en una forma en C# – Añadir sombra a la forma fácilmente](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+Aprenda a aplicar sombras a formas en C# usando Aspose.Words para mejorar la apariencia de sus documentos.
+
+### [Crear forma de rectángulo en documento Word Java – Guía completa paso a paso](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Aprenda a crear y personalizar una forma rectangular en documentos Word usando Aspose.Words para Java, con instrucciones detalladas paso a paso.
+
+### [Crear forma de cuadro de texto en Java – Guía completa para añadir sombras](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+Aprenda a crear una caja de texto con sombra en documentos Word usando Aspose.Words para Java.
+### [Crear documento PDF con una forma de rectángulo – Guía completa en C#](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+Aprenda a generar un PDF y añadir una forma rectangular usando Aspose.Words en C# paso a paso.
+
+### [Crear documento Word en Java – Añadir sombra a forma](./create-word-document-java-add-shadow-to-shape-guide/)
+Aprenda a crear un documento Word en Java y agregar sombra a una forma usando Aspose.Words.
+
+### [Agrupar formas en Word con Java – Guía completa paso a paso](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+Aprenda a agrupar y manipular formas en documentos Word usando Aspose.Words para Java con una guía paso a paso.
+
 ## Recursos adicionales
 
 ## Recursos adicionales

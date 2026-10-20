@@ -30,6 +30,11 @@
 | [حفظ المستند كملف Txt – تصدير معادلات Word إلى LaTeX في C#](./save-document-as-txt-export-word-math-to-latex-in-c/) | تعلم كيفية حفظ مستند Word كملف نصي وتصدير المعادلات إلى LaTeX باستخدام C# و Aspose.Words. |
 | [كيفية تحويل المعادلات في Word إلى LaTeX – حفظ كملف TXT](./how-to-convert-equations-in-word-to-latex-save-as-txt/) | تعرّف على طريقة تحويل المعادلات في مستند Word إلى صيغة LaTeX وحفظها كملف TXT باستخدام Aspose.Words لـ .NET. |
 | [تحويل Word إلى LaTeX – دليل C# كامل لتصدير Office Math كـ LaTeX](./convert-word-to-latex-complete-c-guide-to-export-office-math/) | دليل شامل لتحويل مستندات Word إلى LaTeX وتصدير صيغ Office Math باستخدام C#. |
+| [حفظ Office Math LaTeX – تصدير معادلات Word إلى LaTeX في C#](./save-office-math-latex-export-word-equations-to-latex-in-c/) | تعلم كيفية تصدير معادلات Word إلى LaTeX باستخدام C# و Aspose.Words. |
+| [تحويل DOCX إلى TXT – تصدير معادلات Word إلى LaTeX في C#](./convert-docx-to-txt-export-word-equations-to-latex-in-c/) | تعلم كيفية تحويل ملفات DOCX إلى TXT وتصدير معادلات Word إلى LaTeX باستخدام C#. |
+| [كيفية تصدير الرياضيات من Word إلى LaTeX – دليل كامل](./how-to-export-math-from-word-to-latex-complete-guide/) | تعلم خطوة بخطوة كيفية تصدير المعادلات الرياضية من مستندات Word إلى تنسيق LaTeX باستخدام Aspose.Words و C#. |
+| [كيفية تصدير LaTeX من Word – دليل برمجة كامل](./how-to-export-latex-from-word-complete-programming-guide/) | تعلم كيفية تصدير معادلات LaTeX من مستندات Word باستخدام Aspose.Words و C# في دليل شامل خطوة بخطوة. |
+| [تحويل معادلات Word إلى LaTeX – دليل C# كامل](./convert-word-equations-to-latex-complete-c-guide/) | دليل شامل لتحويل معادلات Word إلى LaTeX باستخدام C# مع Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

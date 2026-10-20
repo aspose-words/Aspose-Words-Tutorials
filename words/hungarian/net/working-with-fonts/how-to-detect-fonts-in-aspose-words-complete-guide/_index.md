@@ -1,26 +1,26 @@
 ---
 category: general
-date: 2026-04-07
-description: Ismerje meg, hogyan lehet felismerni a betűtípusokat, és hogyan lehet
-  figyelmeztetéseket rögzíteni a hiányzó betűtípusok kezelése során C#‑ban az Aspose.Words
-  használatával. Lépésről‑lépésre kód is mellékelve.
+date: 2026-04-21
+description: Ismerje meg, hogyan lehet felismerni a betűtípusokat, elkapni a figyelmeztetéseket,
+  konfigurálni a visszahívást, és felsorolni a figyelmeztetéseket az Aspose.Words
+  C#-ban. Lépésről lépésre útmutató a megbízható betűtípus‑kezeléshez.
 draft: false
 keywords:
 - how to detect fonts
 - how to capture warnings
-- handle missing fonts
-- Aspose.Words font substitution
-- C# document loading warnings
+- how to configure callback
+- how to enumerate warnings
+- Aspose.Words font handling
 language: hu
-og_description: Hogyan lehet felismerni a betűtípusokat az Aspose.Words-ben? Kövesse
-  ezt az útmutatót a figyelmeztetések rögzítéséhez és a hiányzó betűtípusok könnyed
-  kezeléséhez.
+og_description: Hogyan lehet felismerni a betűtípusokat az Aspose.Words-ben? Ez az
+  útmutató megmutatja, hogyan lehet figyelmeztetéseket rögzíteni, visszahívási függvényt
+  konfigurálni, és figyelmeztetéseket felsorolni C#-ban.
 og_title: Hogyan lehet betűtípusokat felismerni az Aspose.Words-ben – Teljes útmutató
 tags:
 - Aspose.Words
 - C#
-- Font handling
-title: Hogyan lehet betűtípusokat felismerni az Aspose.Words-ben – Teljes útmutató
+- Document Processing
+title: Hogyan lehet felismerni a betűtípusokat az Aspose.Words-ben – Teljes útmutató
 url: /hu/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-complete-guide/
 ---
 
@@ -30,252 +30,219 @@ url: /hu/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-complete-gui
 
 # Hogyan észleljük a betűtípusokat az Aspose.Words‑ban – Teljes útmutató
 
-Gondolkodtál már azon, **hogyan lehet észlelni a betűtípusokat**, amelyek hiányoznak egy Word‑dokumentumból, mielőtt a termelésbe küldenéd? Nem vagy egyedül. Sok vállalati helyzetben egy eltévedt betűtípus tönkreteheti a PDF‑konverziós folyamatot, vagy elrendezési hibákat okozhat, amelyek nem professzionálisak. A jó hír, hogy az Aspose.Words beépített módot biztosít ezeknek a hiányzó betűtípusoknak a felderítésére és egyértelmű figyelmeztetések megjelenítésére.
+Gondolkodtál már azon, **hogyan lehet észlelni a hiányzó betűtípusokat**, amikor egy Word‑dokumentumot betöltesz? Ez a helyzet gyakrabban előfordul, mint szeretnéd, különösen régi fájlok vagy több platformon futó alkalmazások esetén. Ebben a bemutatóban egy teljes, futtatható példán keresztül megmutatjuk, hogyan **rögzítsünk figyelmeztetéseket**, **konfiguráljunk visszahívást**, és **listázzuk a figyelmeztetéseket**, hogy mindig tudd, mely betűtípusok lettek helyettesítve.
 
-Ebben az útmutatóban pontosan végigvezetünk a **betűtípusok észlelésének**, **figyelmeztetések rögzítésének**, és a **hiányzó betűtípusok kezelésének** legjobb gyakorlataiban, hogy alkalmazásod megbízható maradjon. Nincs szükség külső eszközökre, nincs találgatás – csak tiszta C# kód, amelyet azonnal beilleszthetsz a projektedbe.
+Az Aspose.Words for .NET‑et (v24.9 a cikk írásakor) és egyszerű C#‑t használunk. Nincs külső szolgáltatás, nincs varázslat – csak az API és néhány kódsor. A végére képes leszel minden betűtípus‑helyettesítést észlelni, naplózni, sőt akár megszakítani a betöltést, ha kritikus betűtípus hiányzik.  
 
-> **Gyors előzetes:** A végére egy újrahasználható `FontSubstitutionWarningCollector`-t kapsz, amely minden betűtípus‑helyettesítési üzenetet összegyűjt a dokumentum betöltése során, és tudni fogod, hogyan reagálj, ha egy betűtípus nem található.
+### Amire szükséged lesz
+- **Aspose.Words for .NET** (telepítsd NuGet‑en: `Install-Package Aspose.Words`)
+- .NET 6.0 vagy újabb (a kód .NET Framework‑ön is működik)
+- Egy minta DOCX, amely egy a gépen nem létező betűtípust hivatkozik (pl. “MyCustomFont.ttf”)
+- Visual Studio, Rider vagy bármelyik kedvenc C#‑szerkesztőd
 
----
-
-## Mit fogsz megtanulni
-
-- Hogyan konfiguráljuk a `LoadOptions`‑t, hogy figyelje a betűtípus‑helyettesítési figyelmeztetéseket.  
-- Hogyan rögzítsük ezeket a figyelmeztetéseket egy egyedi gyűjtőosztályban.  
-- Hogyan dolgozzuk fel a gyűjtött figyelmeztetéseket, és döntsünk arról, hogy megszakítsuk, naplózzuk vagy helyettesítsük a betűtípusokat.  
-- Szélsőséges esetek kezelése olyan dokumentumoknál, amelyek távoli vagy beágyazott betűtípusokra hivatkoznak.  
-
-**Előfeltételek:** .NET 6+ (vagy .NET Framework 4.6+), Aspose.Words for .NET (legújabb verzió), és alapvető C# ismeretek. Ha még soha nem használtad az Aspose.Words‑t, ne aggódj – ez az útmutató csak néhány perc beállítási időt igényel.
+> **Pro tipp:** Ha nincs hiányzó betűtípussal rendelkező dokumentumod, egyszerűen nevezd át egy betűtípus‑fájlt a rendszereden, vagy módosítsd a DOCX XML‑ét, hogy egy nem létező betűtípus‑családra hivatkozzon.
 
 ---
 
-## Betűtípusok észlelése az Aspose.Words LoadOptions használatával
+## Hogyan észleljük a betűtípusokat az Aspose.Words‑szal
 
-Az első lépés a hiányzó betűtípusok észleléséhez, hogy megmondjuk az Aspose.Words‑nek, jelentse őket. Ezt a `LoadOptions.WarningCallback` tulajdonságon keresztül tehetjük meg, amely bármely, `IWarningCallback`‑t megvalósító osztályt elfogad. Az alábbiakban létrehozunk egy apró gyűjtőt, amely minden figyelmeztetést tárol későbbi ellenőrzéshez.
+A lényeg, hogy bekapcsoljuk az Aspose.Words figyelmeztetési rendszerét. Amikor a könyvtár nem találja a kért betűtípust, egy `WarningType.FontSubstitution` figyelmeztetést küld. Egy saját `IWarningCallback` megvalósításával **észlelheted a betűtípus‑helyettesítéseket** a betöltés során.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Saving;
-using System.Collections.Generic;
+using Aspose.Words.Fonts;
 
-/// <summary>
-/// Collects all warnings emitted while loading a document.
-/// </summary>
-public class FontSubstitutionWarningCollector : IWarningCallback
+// 1️⃣ Create a collector that implements IWarningCallback
+public class FontWarningCollector : IWarningCallback
 {
-    // Thread‑safe static list so we can access warnings after loading.
-    public static List<WarningInfo> Warnings { get; } = new List<WarningInfo>();
+    public List<WarningInfo> Warnings { get; } = new();
 
-    // Called by Aspose.Words for each warning.
     public void Warning(WarningInfo info)
     {
-        // We only care about font‑related warnings.
-        if (info.Type == WarningType.FontSubstitution)
-        {
-            Warnings.Add(info);
-        }
+        // Store every warning – we’ll filter later
+        Warnings.Add(info);
     }
-
-    // Helper to clear previous run’s warnings.
-    public static void Clear() => Warnings.Clear();
 }
 ```
 
-**Miért fontos:** Figyelmeztető visszahívó nélkül az Aspose.Words csendben helyettesíti a hiányzó betűtípusokat egy alapértelmezettel, és sosem tudod, hogy probléma van. A `WarningType.FontSubstitution` rögzítésével teljes átláthatóságot kapunk – pontosan az adatokat, amelyekre szükséged van a **betűtípusok észleléséhez**, amelyek nem állnak rendelkezésre a gépen.
+> **Miért működik:** Az Aspose.Words minden nem kritikus problémához meghívja a `Warning` metódust. A `WarningInfo` objektumok tárolásával teljes hozzáférést kapsz a típushoz, az üzenethez és a kontextushoz, ami pontosan azt a lehetőséget adja, hogy **észleld a helyettesített betűtípusokat**.
 
-Most csatlakoztatjuk a gyűjtőt a `LoadOptions`‑ba, és betöltünk egy dokumentumot:
+---
+
+## Hogyan rögzítsük a figyelmeztetéseket a dokumentum betöltésekor
+
+Miután megvan a gyűjtő, el kell mondanunk a `LoadOptions`‑nak, hogy használja azt. Ez a **hogyan rögzítsük a figyelmeztetéseket** része a feladványnak.
 
 ```csharp
-// Step 1: Prepare load options with our warning collector.
-LoadOptions loadOptions = new LoadOptions
+// 2️⃣ Prepare LoadOptions with our warning collector
+var warningCollector = new FontWarningCollector();
+var loadOptions = new LoadOptions
 {
-    WarningCallback = new FontSubstitutionWarningCollector()
+    // Assign the callback – this is where warnings are captured
+    WarningCallback = warningCollector
 };
 
-// Optional: clear any stale warnings from a previous run.
-FontSubstitutionWarningCollector.Clear();
-
-// Step 2: Load the document. Replace the path with your own file.
-Document doc = new Document(@"C:\Docs\MissingFonts.docx", loadOptions);
+// 3️⃣ Load the document (replace the path with your own file)
+Document doc = new Document("YOUR_DIRECTORY/DocumentWithMissingFont.docx", loadOptions);
 ```
 
-> **Pro tipp:** Ha kötegelt módon sok dokumentummal dolgozol, használd újra ugyanazt a `FontSubstitutionWarningCollector` példányt, de ne felejtsd el a `Clear()` hívását a betöltések között, hogy elkerüld a figyelmeztetések keveredését különböző fájlokból.
+> **Széljegyzet:** Ha egy dokumentumot stream‑ből töltesz be (`new Document(stream, loadOptions)`), ugyanaz a visszahívás működik – csak a fájlútvonal helyett add át a stream‑et.
+
+Ekkor a dokumentum teljesen betöltődik, de minden betűtípus‑helyettesítési figyelmeztetés biztonságosan a `warningCollector.Warnings` gyűjteményben tárolódik.
 
 ---
 
-## Figyelmeztetések rögzítése a dokumentum betöltése során
+## Hogyan listázzuk a figyelmeztetéseket és jelentjük a betűtípus‑helyettesítéseket
 
-Miután a dokumentum betöltődött, a gyűjtő már tartalmazza minden betűtípus‑kapcsolatú figyelmeztetést. A következő logikus kérdés: *Hogyan rögzítsek figyelmeztetéseket* úgy, hogy könnyen naplózható vagy megjeleníthető legyen?
-
-```csharp
-// Step 3: Iterate over collected warnings and output them.
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
-{
-    Console.WriteLine($"{warning.Type}: {warning.Message}");
-}
-```
-
-A tipikus kimenet így néz ki:
-
-```
-FontSubstitution: Font 'Comic Sans MS' was not found. Substituted with 'Arial'.
-FontSubstitution: Font 'Garamond' missing. Using 'Times New Roman' instead.
-```
-
-**Mit jelent ez:** Minden sor feltárja az eredeti betűtípus nevét és azt a helyettesítést, amelyet az Aspose.Words választott. Ezzel az információval eldöntheted, hogy a helyettesítés elfogadható-e, vagy manuálisan be kell-e ágyazni a hiányzó betűtípust.
-
----
-
-## Hiányzó betűtípusok kezelése elegánsan
-
-A figyelmeztetések észlelése és rögzítése csak a harc felét jelenti. Az igazi érték akkor jön, amikor **hiányzó betűtípusokat kezelsz** egy termelésre kész módon. Az alábbiakban három gyakori stratégia található:
-
-1. **Naplózás és folytatás** – Alkalmas kötegelt feldolgozáshoz, ahol csak egy audit nyomra van szükség.  
-2. **Megszakítás kritikus betűtípusok esetén** – Kivételt dob, ha egy adott betűtípus (pl. egy márkaspecifikus tipográfia) hiányzik.  
-3. **Betűtípus beágyazása futás közben** – Betölti a hiányzó betűtípust egy ismert mappából, és regisztrálja az Aspose.Words‑nél a dokumentum újratöltése előtt.  
-
-### Példa: Megszakítás kritikus betűtípus esetén
+Végül átnézzük a gyűjtött figyelmeztetéseket, és **listázzuk a figyelmeztetéseket**, amelyek kifejezetten a betűtípus‑helyettesítésről szólnak. Ez a lépés alakítja a nyers adatot egy olvasható jelentéssé.
 
 ```csharp
-// Define a list of fonts that must be present.
-var requiredFonts = new HashSet<string> { "MyBrand-Regular", "MyBrand-Bold" };
-
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
+// 4️⃣ Iterate over the collected warnings
+foreach (var warning in warningCollector.Warnings)
 {
-    // Extract the original font name from the warning message.
-    string missingFont = ExtractFontName(warning.Message);
-    if (requiredFonts.Contains(missingFont))
+    // We're only interested in font substitution warnings
+    if (warning.Type == WarningType.FontSubstitution)
     {
-        throw new InvalidOperationException(
-            $"Critical font '{missingFont}' is missing. Document load aborted.");
-    }
-}
-
-// Helper method to parse font name from warning text.
-string ExtractFontName(string message)
-{
-    // Message pattern: "Font 'X' was not found..."
-    int start = message.IndexOf('\'') + 1;
-    int end = message.IndexOf('\'', start);
-    return (start > 0 && end > start) ? message[start..end] : string.Empty;
-}
-```
-
-### Példa: Hiányzó betűtípusok automatikus beágyazása
-
-```csharp
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
-{
-    string missingFont = ExtractFontName(warning.Message);
-    string fontPath = $@"C:\Fonts\{missingFont}.ttf";
-
-    if (File.Exists(fontPath))
-    {
-        // Register the font with Aspose.Words.
-        FontSettings fontSettings = new FontSettings();
-        fontSettings.SetFontsFolder(Path.GetDirectoryName(fontPath), false);
-        doc.FontSettings = fontSettings;
-
-        // Reload the document now that the font is available.
-        doc = new Document(@"C:\Docs\MissingFonts.docx", loadOptions);
-        break; // Re‑load once; subsequent warnings will be resolved.
+        Console.WriteLine($"Substituted font: {warning.Message}");
     }
 }
 ```
 
-**Miért hasznosak ezek a minták:** Ha egyértelműen meghatározod, mit tegyél hiányzó betűtípus esetén, megszünteted a csendes helyettesítéseket, amelyek veszélyeztethetik a márkát vagy az olvashatóságot. Ez a **hiányzó betűtípusok kezelése** lényegének tekinthető kontrollált módon.
+**Várható kimenet** (példa):
+
+```
+Substituted font: Font 'Calibri' not found. Substituted with 'Arial'.
+Substituted font: Font 'MyCustomFont' not found. Substituted with 'Times New Roman'.
+```
+
+Ha a dokumentumban nincs hiányzó betűtípus, a ciklus egyszerűen nem ad ki semmit – nincs mit aggódni.
 
 ---
 
-## Teljes működő példa
+## Teljes működő példa (minden lépés egy fájlban)
 
-Mindent összevonva, itt egy önálló, azonnal futtatható program, amely bemutatja a **betűtípusok észlelését**, a **figyelmeztetések rögzítését**, és egy egyszerű szabályt a **hiányzó betűtípusok naplózással történő kezelésére**.
+Az alábbiakban a komplett programot találod, amelyet egyszerűen beilleszthetsz egy konzol‑projektbe. Összekapcsolja a **hogyan észleljük a betűtípusokat**, **hogyan rögzítsük a figyelmeztetéseket**, **hogyan konfiguráljuk a visszahívást**, és **hogyan listázzuk a figyelmeztetéseket** egy koherens folyamatban.
 
 ```csharp
-using Aspose.Words;
-using Aspose.Words.Saving;
 using System;
 using System.Collections.Generic;
-using System.IO;
+using Aspose.Words;
+using Aspose.Words.Fonts;
 
-public class FontSubstitutionWarningCollector : IWarningCallback
+namespace FontDetectionDemo
 {
-    public static List<WarningInfo> Warnings { get; } = new List<WarningInfo>();
-    public void Warning(WarningInfo info)
+    // Custom warning collector (captures all warnings)
+    public class FontWarningCollector : IWarningCallback
     {
-        if (info.Type == WarningType.FontSubstitution)
+        public List<WarningInfo> Warnings { get; } = new();
+
+        public void Warning(WarningInfo info)
+        {
             Warnings.Add(info);
-    }
-    public static void Clear() => Warnings.Clear();
-}
-
-class Program
-{
-    static void Main()
-    {
-        string docPath = @"C:\Docs\MissingFonts.docx";
-
-        // 1️⃣ Configure LoadOptions with the warning collector.
-        LoadOptions loadOptions = new LoadOptions
-        {
-            WarningCallback = new FontSubstitutionWarningCollector()
-        };
-        FontSubstitutionWarningCollector.Clear();
-
-        // 2️⃣ Load the document – this is where fonts are detected.
-        Document doc = new Document(docPath, loadOptions);
-
-        // 3️⃣ Process the collected warnings.
-        if (FontSubstitutionWarningCollector.Warnings.Count == 0)
-        {
-            Console.WriteLine("✅ No missing fonts detected.");
         }
-        else
-        {
-            Console.WriteLine("⚠️ Font substitution warnings:");
-            foreach (var w in FontSubstitutionWarningCollector.Warnings)
-                Console.WriteLine($"{w.Type}: {w.Message}");
+    }
 
-            // Example policy: abort if a brand‑critical font is missing.
-            var critical = new HashSet<string> { "MyBrand-Regular", "MyBrand-Bold" };
-            foreach (var w in FontSubstitutionWarningCollector.Warnings)
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // -------------------------------------------------
+            // Step 1: Set up the warning collector (how to configure callback)
+            var collector = new FontWarningCollector();
+            var loadOptions = new LoadOptions
             {
-                string missing = ExtractFontName(w.Message);
-                if (critical.Contains(missing))
+                WarningCallback = collector
+            };
+
+            // -------------------------------------------------
+            // Step 2: Load the document (how to detect fonts)
+            string filePath = "YOUR_DIRECTORY/DocumentWithMissingFont.docx";
+            Document doc;
+            try
+            {
+                doc = new Document(filePath, loadOptions);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Failed to load document: {ex.Message}");
+                return;
+            }
+
+            // -------------------------------------------------
+            // Step 3: Enumerate warnings (how to enumerate warnings)
+            bool anySubstitutions = false;
+            foreach (var warning in collector.Warnings)
+            {
+                if (warning.Type == WarningType.FontSubstitution)
                 {
-                    Console.WriteLine($"❌ Critical font '{missing}' missing. Stopping.");
-                    return;
+                    anySubstitutions = true;
+                    Console.WriteLine($"Substituted font: {warning.Message}");
                 }
             }
+
+            if (!anySubstitutions)
+            {
+                Console.WriteLine("No font substitutions detected – all fonts are available.");
+            }
+
+            // Optional: Continue processing the document...
         }
-
-        // 4️⃣ Continue with normal processing (e.g., save as PDF).
-        doc.Save(@"C:\Docs\Output.pdf", SaveFormat.Pdf);
-        Console.WriteLine("✅ Document saved as PDF.");
-    }
-
-    // Helper to pull the original font name out of the warning text.
-    static string ExtractFontName(string message)
-    {
-        int first = message.IndexOf('\'') + 1;
-        int last = message.IndexOf('\'', first);
-        return (first > 0 && last > first) ? message[first..last] : string.Empty;
     }
 }
 ```
 
-**Várható eredmény:** Ha a programot egy olyan dokumentummal futtatod, amely egy a gépen nem létező betűtípusra hivatkozik, a konzol felsorolja minden helyettesítési figyelmeztetést. Ha bármely figyelmeztetés a `critical` halmazból származó betűtípust érinti, a program korán kilép, megakadályozva egy hibás PDF generálását.
+**A program futtatása** kiírja minden olyan betűtípust, amelyet az Aspose.Words‑nak helyettesítenie kellett. Átirányíthatod a kimenetet egy naplófájlba, riasztást generálhatsz, vagy akár megszakíthatod a betöltést, ha kritikus betűtípus hiányzik.
 
 ---
 
-## Gyakran Ismételt Kérdések (GYIK)
+## Gyakori kérdések és buktatók
 
-| Kérdés | Válasz |
-|----------|--------|
-| *Szükségem van licencre az Aspose.Words használatához ehhez a kódhoz?* | Igen, egy érvényes Aspose.Words licenc eltávolítja a kiértékelési vízjeleket és feloldja a teljes funkcionalitást. |
-| *Felismeri ez a megközelítés a beágyazott betűtípusokat?* | A beágyazott betűtípusok már a fájl részei, ezért az Aspose.Words nem generál helyettesítési figyelmeztetést. Szükség esetén a `Document.FontInfos` segítségével felsorolhatod a beágyazott betűtípusokat. |
-| *Mi van, ha a hiányzó betűtípus Windows rendszeren rendszerbetűtípus, de Linuxon nem?* | Ugyanaz a figyelmeztetés fog megjelenni Linuxon, mivel a betűtípus nincs telepítve. Használd a „hiányzó betűtípusok kezelése” stratégiát, hogy a szükséges `.ttf` fájlokat az alkalmazásoddal együtt szállítsd. |
-| *A figyelmeztető gyűjtő szál* |  |
+### Mi a teendő, ha a betöltést meg kell állítani, amikor egy kötelező betűtípus hiányzik?
+A `WarningInfo` objektumokat a visszahívásban ellenőrizheted, és kivételt dobhatod, ha egy adott betűtípus neve megjelenik. A kivétel megszakítja a betöltést, így teljes kontrollt kapsz.
+
+```csharp
+public void Warning(WarningInfo info)
+{
+    if (info.Type == WarningType.FontSubstitution &&
+        info.Message.Contains("MyCriticalFont"))
+    {
+        throw new InvalidOperationException("Critical font missing – aborting load.");
+    }
+    Warnings.Add(info);
+}
+```
+
+### Működik ez PDF‑ekkel vagy más formátumokkal is?
+Igen. Az Aspose.Words ugyanazt a figyelmeztetési infrastruktúrát használja PDF, RTF és HTML esetén is. Csak cseréld le a fájlkiterjesztést, a kód többi része változatlan marad.
+
+### Hogyan naplózhatom a figyelmeztetéseket fájlba a konzol helyett?
+Cseréld le a `Console.WriteLine`‑t a kedvenc naplókeretrendszeredre (`Serilog`, `NLog`, stb.). A `WarningInfo` osztály a `Message`, `Source` és `Exception` tulajdonságokkal részletes naplózást tesz lehetővé.
+
+### Befolyásolja ez a teljesítményt?
+Az overhead elhanyagolható – az Aspose.Words már belül generálja a figyelmeztetéseket. Egy visszahívás hozzáadása csak egy listába helyezi el őket, ami O(n) a figyelmeztetések számához képest. Átlagos dokumentumok esetén a hatás jóval 1 % alatti a teljes betöltési időből.
+
+---
+
+## Vizuális összefoglaló
+
+![How to Detect Fonts in Aspose.Words – warning flow diagram](https://example.com/images/font-detection-diagram.png "how to detect fonts")
+
+*Alt szöveg:* **how to detect fonts** – diagram a figyelmeztetési visszahívás, gyűjtés és listázás lépéseiről.
+
+---
+
+## Összegzés
+
+Áttekintettük, **hogyan észleljük a betűtípusokat** az Aspose.Words‑ban **figyelmeztetések rögzítésével**, **visszahívás konfigurálásával**, és **figyelmeztetések listázásával**. A teljes kódminta egy termelés‑kész mintát mutat, amelyet bármely .NET‑alkalmazásba be lehet illeszteni.  
+
+A következő lépések, amiket érdemes felfedezni:
+
+- **Hogyan rögzítsük a figyelmeztetéseket** más problémákra (pl. képek konvertálási hibái)
+- **Hogyan konfiguráljuk a visszahívást** egyedi naplózási keretrendszerekhez
+- **Hogyan listázzuk a figyelmeztetéseket** több dokumentum esetén egy kötegelt feladatban
+- Az **Aspose.Words.Fonts.FontSettings** használata tartalék betűtípus‑mappák megadásához, ami már a kezdetekkor csökkentheti a helyettesítések számát.
+
+Próbáld ki, igazítsd a gyűjtőt a saját naplózási stílusodhoz, és többé nem ér majd meglepetés egy váratlan betűtípus‑csere. Ha bármilyen furcsaságra bukkansz, írj egy megjegyzést alább – jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

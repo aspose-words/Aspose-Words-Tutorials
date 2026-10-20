@@ -1,23 +1,25 @@
 ---
 category: general
-date: 2026-04-07
-description: Aprende a detectar fuentes y a capturar advertencias al manejar fuentes
-  faltantes en C# usando Aspose.Words. Código paso a paso incluido.
+date: 2026-04-21
+description: Aprenda a detectar fuentes, capturar advertencias, configurar la devolución
+  de llamada y enumerar advertencias con Aspose.Words en C#. Guía paso a paso para
+  un manejo fiable de fuentes.
 draft: false
 keywords:
 - how to detect fonts
 - how to capture warnings
-- handle missing fonts
-- Aspose.Words font substitution
-- C# document loading warnings
+- how to configure callback
+- how to enumerate warnings
+- Aspose.Words font handling
 language: es
-og_description: ¿Cómo detectar fuentes en Aspose.Words? Sigue este tutorial para capturar
-  advertencias y manejar fuentes faltantes sin esfuerzo.
+og_description: ¿Cómo detectar fuentes en Aspose.Words? Este tutorial le muestra cómo
+  capturar advertencias, configurar una devolución de llamada y enumerar advertencias
+  en C#.
 og_title: Cómo detectar fuentes en Aspose.Words – Guía completa
 tags:
 - Aspose.Words
 - C#
-- Font handling
+- Document Processing
 title: Cómo detectar fuentes en Aspose.Words – Guía completa
 url: /es/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-complete-guide/
 ---
@@ -26,254 +28,221 @@ url: /es/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-complete-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cómo Detectar Fuentes en Aspose.Words – Guía Completa
+# Cómo detectar fuentes en Aspose.Words – Guía completa
 
-¿Alguna vez te has preguntado **cómo detectar fuentes** que faltan en un documento Word antes de enviarlo a producción? No estás solo. En muchos escenarios empresariales una fuente extraviada puede romper una canalización de conversión a PDF o causar fallos de maquetación que se ven poco profesionales. La buena noticia es que Aspose.Words te ofrece una forma integrada de identificar esas tipografías ausentes y mostrar advertencias claras.
+¿Alguna vez te has preguntado **cómo detectar fuentes** que faltan al cargar un documento de Word? Es una situación que aparece más a menudo de lo que te gustaría, sobre todo al trabajar con archivos heredados o despliegues multiplataforma. En este tutorial recorreremos un ejemplo completo y ejecutable que **captura advertencias**, **configura un callback** y **enumera advertencias** para que siempre sepas qué fuentes fueron sustituidas.
 
-En este tutorial recorreremos paso a paso **cómo detectar fuentes**, **cómo capturar advertencias**, y las mejores prácticas para **manejar fuentes faltantes** de modo que tu aplicación siga siendo robusta. Sin herramientas externas, sin conjeturas—solo código C# puro que puedes incorporar a tu proyecto ahora mismo.
+Usaremos Aspose.Words para .NET (v24.9 al momento de escribir) y C# puro. Sin servicios externos, sin trucos, solo la API y unas cuantas líneas de código. Al final podrás identificar cada sustitución de fuente, registrarla e incluso decidir abortar la carga si falta una fuente crítica.  
 
-> **Vista rápida:** Al final tendrás un `FontSubstitutionWarningCollector` reutilizable que recopila cada mensaje de sustitución de fuente durante la carga del documento, y sabrás cómo reaccionar cuando una fuente no se encuentre.
+### Lo que necesitarás
+- **Aspose.Words para .NET** (instalar vía NuGet: `Install-Package Aspose.Words`)
+- .NET 6.0 o superior (el código también funciona en .NET Framework)
+- Un archivo DOCX de ejemplo que haga referencia a una fuente que no esté presente en la máquina (p. ej., “MyCustomFont.ttf”)
+- Visual Studio, Rider o cualquier editor de C# que prefieras
 
----
-
-## Qué Aprenderás
-
-- Cómo configurar `LoadOptions` para escuchar advertencias de sustitución de fuentes.  
-- Cómo capturar esas advertencias en una clase colectora personalizada.  
-- Cómo procesar las advertencias recopiladas y decidir si abortar, registrar o sustituir fuentes.  
-- Manejo de casos límite para documentos que referencian fuentes remotas o incrustadas.  
-
-**Requisitos previos:** .NET 6+ (o .NET Framework 4.6+), Aspose.Words para .NET (última versión), y una familiaridad básica con C#. Si nunca has usado Aspose.Words, no te preocupes—esta guía asume solo unos minutos de configuración.
+> **Consejo profesional:** Si no tienes un documento con fuentes faltantes, simplemente cambia el nombre de un archivo de fuente en tu sistema o edita el XML del DOCX para que haga referencia a una familia de fuentes inexistente.
 
 ---
 
-## Cómo Detectar Fuentes Usando Aspose.Words LoadOptions
+## Cómo detectar fuentes con Aspose.Words
 
-El primer paso para detectar fuentes faltantes es indicarle a Aspose.Words que las informe. Esto se hace mediante la propiedad `LoadOptions.WarningCallback`, que acepta cualquier clase que implemente `IWarningCallback`. A continuación creamos un pequeño colector que almacena cada advertencia para inspección posterior.
+La idea principal es engancharse al sistema de advertencias de Aspose.Words. Cuando la biblioteca no puede encontrar una fuente solicitada, emite una advertencia `WarningType.FontSubstitution`. Al proporcionar una implementación personalizada de `IWarningCallback`, puedes **detectar fuentes** que fueron reemplazadas durante el proceso de carga.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Saving;
-using System.Collections.Generic;
+using Aspose.Words.Fonts;
 
-/// <summary>
-/// Collects all warnings emitted while loading a document.
-/// </summary>
-public class FontSubstitutionWarningCollector : IWarningCallback
+// 1️⃣ Create a collector that implements IWarningCallback
+public class FontWarningCollector : IWarningCallback
 {
-    // Thread‑safe static list so we can access warnings after loading.
-    public static List<WarningInfo> Warnings { get; } = new List<WarningInfo>();
+    public List<WarningInfo> Warnings { get; } = new();
 
-    // Called by Aspose.Words for each warning.
     public void Warning(WarningInfo info)
     {
-        // We only care about font‑related warnings.
-        if (info.Type == WarningType.FontSubstitution)
-        {
-            Warnings.Add(info);
-        }
+        // Store every warning – we’ll filter later
+        Warnings.Add(info);
     }
-
-    // Helper to clear previous run’s warnings.
-    public static void Clear() => Warnings.Clear();
 }
 ```
 
-**Por qué es importante:** Sin una devolución de llamada de advertencia, Aspose.Words sustituye silenciosamente las fuentes faltantes por una predeterminada, y nunca sabrás que existe un problema. Al capturar `WarningType.FontSubstitution` obtenemos visibilidad total—exactamente los datos que necesitas para **detectar fuentes** que no están disponibles en la máquina host.
+> **Por qué funciona:** Aspose.Words llama al método `Warning` para cada problema no crítico. Al almacenar los objetos `WarningInfo` obtienes acceso completo al tipo, mensaje y contexto, que es exactamente lo que necesitas para **detectar fuentes** que fueron sustituidas.
 
-Ahora enlazamos el colector a `LoadOptions` y cargamos un documento:
+---
+
+## Cómo capturar advertencias al cargar un documento
+
+Ahora que tenemos un colector, debemos indicarle a `LoadOptions` que lo use. Esta es la parte de **cómo capturar advertencias** del rompecabezas.
 
 ```csharp
-// Step 1: Prepare load options with our warning collector.
-LoadOptions loadOptions = new LoadOptions
+// 2️⃣ Prepare LoadOptions with our warning collector
+var warningCollector = new FontWarningCollector();
+var loadOptions = new LoadOptions
 {
-    WarningCallback = new FontSubstitutionWarningCollector()
+    // Assign the callback – this is where warnings are captured
+    WarningCallback = warningCollector
 };
 
-// Optional: clear any stale warnings from a previous run.
-FontSubstitutionWarningCollector.Clear();
-
-// Step 2: Load the document. Replace the path with your own file.
-Document doc = new Document(@"C:\Docs\MissingFonts.docx", loadOptions);
+// 3️⃣ Load the document (replace the path with your own file)
+Document doc = new Document("YOUR_DIRECTORY/DocumentWithMissingFont.docx", loadOptions);
 ```
 
-> **Consejo profesional:** Si trabajas con muchos documentos en lote, reutiliza la misma instancia de `FontSubstitutionWarningCollector` pero recuerda llamar a `Clear()` entre cargas para evitar mezclar advertencias de archivos diferentes.
+> **Caso límite:** Si cargas un documento desde un flujo (`new Document(stream, loadOptions)`), el mismo callback funciona—solo pasa el flujo en lugar de la ruta del archivo.
+
+En este punto el documento está completamente cargado, pero cualquier advertencia de sustitución de fuente está almacenada de forma segura dentro de `warningCollector.Warnings`.
 
 ---
 
-## Capturar Advertencias Durante la Carga del Documento
+## Cómo enumerar advertencias y reportar sustituciones de fuentes
 
-Una vez que el documento está cargado, el colector ya contiene cada advertencia relacionada con fuentes. La siguiente pregunta lógica es: *¿Cómo capturo las advertencias* de forma que sea fácil registrarlas o mostrarlas?
-
-```csharp
-// Step 3: Iterate over collected warnings and output them.
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
-{
-    Console.WriteLine($"{warning.Type}: {warning.Message}");
-}
-```
-
-Una salida típica se ve así:
-
-```
-FontSubstitution: Font 'Comic Sans MS' was not found. Substituted with 'Arial'.
-FontSubstitution: Font 'Garamond' missing. Using 'Times New Roman' instead.
-```
-
-**Qué te indica esto:** Cada línea revela el nombre original de la fuente y la alternativa que Aspose.Words eligió. Con esta información puedes decidir si la alternativa es aceptable o si necesitas incrustar manualmente la fuente faltante.
-
----
-
-## Manejar Fuentes Faltantes de Forma Elegante
-
-Detectar y capturar advertencias es solo la mitad de la batalla. El verdadero valor aparece cuando **manejas fuentes faltantes** de manera preparada para producción. A continuación, tres estrategias comunes:
-
-1. **Registrar y Continuar** – Adecuado para procesamiento por lotes donde solo necesitas un registro de auditoría.  
-2. **Abortar con Fuentes Críticas** – Lanzar una excepción si una fuente particular (p. ej., una tipografía de marca) falta.  
-3. **Incrustar la Fuente Sobre la Marcha** – Cargar la fuente faltante desde una carpeta conocida y registrarla en Aspose.Words antes de volver a cargar el documento.
-
-### Ejemplo: Abortando con una Fuente Crítica
+Finalmente, revisamos las advertencias recopiladas y **enumeramos advertencias** que son específicamente sobre sustitución de fuentes. Este paso convierte los datos crudos en un informe legible.
 
 ```csharp
-// Define a list of fonts that must be present.
-var requiredFonts = new HashSet<string> { "MyBrand-Regular", "MyBrand-Bold" };
-
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
+// 4️⃣ Iterate over the collected warnings
+foreach (var warning in warningCollector.Warnings)
 {
-    // Extract the original font name from the warning message.
-    string missingFont = ExtractFontName(warning.Message);
-    if (requiredFonts.Contains(missingFont))
+    // We're only interested in font substitution warnings
+    if (warning.Type == WarningType.FontSubstitution)
     {
-        throw new InvalidOperationException(
-            $"Critical font '{missingFont}' is missing. Document load aborted.");
-    }
-}
-
-// Helper method to parse font name from warning text.
-string ExtractFontName(string message)
-{
-    // Message pattern: "Font 'X' was not found..."
-    int start = message.IndexOf('\'') + 1;
-    int end = message.IndexOf('\'', start);
-    return (start > 0 && end > start) ? message[start..end] : string.Empty;
-}
-```
-
-### Ejemplo: Auto‑Incrustar Fuentes Faltantes
-
-```csharp
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
-{
-    string missingFont = ExtractFontName(warning.Message);
-    string fontPath = $@"C:\Fonts\{missingFont}.ttf";
-
-    if (File.Exists(fontPath))
-    {
-        // Register the font with Aspose.Words.
-        FontSettings fontSettings = new FontSettings();
-        fontSettings.SetFontsFolder(Path.GetDirectoryName(fontPath), false);
-        doc.FontSettings = fontSettings;
-
-        // Reload the document now that the font is available.
-        doc = new Document(@"C:\Docs\MissingFonts.docx", loadOptions);
-        break; // Re‑load once; subsequent warnings will be resolved.
+        Console.WriteLine($"Substituted font: {warning.Message}");
     }
 }
 ```
 
-**Por qué estos patrones ayudan:** Al decidir explícitamente qué hacer cuando una fuente falta, eliminas sustituciones silenciosas que podrían comprometer la identidad de marca o la legibilidad. Esta es la esencia de **manejar fuentes faltantes** de forma controlada.
+**Salida esperada** (ejemplo):
+
+```
+Substituted font: Font 'Calibri' not found. Substituted with 'Arial'.
+Substituted font: Font 'MyCustomFont' not found. Substituted with 'Times New Roman'.
+```
+
+Si el documento no contiene fuentes faltantes, el bucle simplemente no produce salida—no hay nada de qué preocuparse.
 
 ---
 
-## Ejemplo Completo Funcional
+## Ejemplo completo (todos los pasos en un solo archivo)
 
-Uniendo todo, aquí tienes un programa único, listo para ejecutarse, que demuestra **cómo detectar fuentes**, **cómo capturar advertencias**, y una política sencilla para **manejar fuentes faltantes** registrándolas.
+A continuación tienes el programa completo que puedes copiar‑pegar en un proyecto de consola. Une **cómo detectar fuentes**, **cómo capturar advertencias**, **cómo configurar el callback** y **cómo enumerar advertencias** en un flujo cohesivo.
 
 ```csharp
-using Aspose.Words;
-using Aspose.Words.Saving;
 using System;
 using System.Collections.Generic;
-using System.IO;
+using Aspose.Words;
+using Aspose.Words.Fonts;
 
-public class FontSubstitutionWarningCollector : IWarningCallback
+namespace FontDetectionDemo
 {
-    public static List<WarningInfo> Warnings { get; } = new List<WarningInfo>();
-    public void Warning(WarningInfo info)
+    // Custom warning collector (captures all warnings)
+    public class FontWarningCollector : IWarningCallback
     {
-        if (info.Type == WarningType.FontSubstitution)
+        public List<WarningInfo> Warnings { get; } = new();
+
+        public void Warning(WarningInfo info)
+        {
             Warnings.Add(info);
-    }
-    public static void Clear() => Warnings.Clear();
-}
-
-class Program
-{
-    static void Main()
-    {
-        string docPath = @"C:\Docs\MissingFonts.docx";
-
-        // 1️⃣ Configure LoadOptions with the warning collector.
-        LoadOptions loadOptions = new LoadOptions
-        {
-            WarningCallback = new FontSubstitutionWarningCollector()
-        };
-        FontSubstitutionWarningCollector.Clear();
-
-        // 2️⃣ Load the document – this is where fonts are detected.
-        Document doc = new Document(docPath, loadOptions);
-
-        // 3️⃣ Process the collected warnings.
-        if (FontSubstitutionWarningCollector.Warnings.Count == 0)
-        {
-            Console.WriteLine("✅ No missing fonts detected.");
         }
-        else
-        {
-            Console.WriteLine("⚠️ Font substitution warnings:");
-            foreach (var w in FontSubstitutionWarningCollector.Warnings)
-                Console.WriteLine($"{w.Type}: {w.Message}");
+    }
 
-            // Example policy: abort if a brand‑critical font is missing.
-            var critical = new HashSet<string> { "MyBrand-Regular", "MyBrand-Bold" };
-            foreach (var w in FontSubstitutionWarningCollector.Warnings)
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // -------------------------------------------------
+            // Step 1: Set up the warning collector (how to configure callback)
+            var collector = new FontWarningCollector();
+            var loadOptions = new LoadOptions
             {
-                string missing = ExtractFontName(w.Message);
-                if (critical.Contains(missing))
+                WarningCallback = collector
+            };
+
+            // -------------------------------------------------
+            // Step 2: Load the document (how to detect fonts)
+            string filePath = "YOUR_DIRECTORY/DocumentWithMissingFont.docx";
+            Document doc;
+            try
+            {
+                doc = new Document(filePath, loadOptions);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Failed to load document: {ex.Message}");
+                return;
+            }
+
+            // -------------------------------------------------
+            // Step 3: Enumerate warnings (how to enumerate warnings)
+            bool anySubstitutions = false;
+            foreach (var warning in collector.Warnings)
+            {
+                if (warning.Type == WarningType.FontSubstitution)
                 {
-                    Console.WriteLine($"❌ Critical font '{missing}' missing. Stopping.");
-                    return;
+                    anySubstitutions = true;
+                    Console.WriteLine($"Substituted font: {warning.Message}");
                 }
             }
+
+            if (!anySubstitutions)
+            {
+                Console.WriteLine("No font substitutions detected – all fonts are available.");
+            }
+
+            // Optional: Continue processing the document...
         }
-
-        // 4️⃣ Continue with normal processing (e.g., save as PDF).
-        doc.Save(@"C:\Docs\Output.pdf", SaveFormat.Pdf);
-        Console.WriteLine("✅ Document saved as PDF.");
-    }
-
-    // Helper to pull the original font name out of the warning text.
-    static string ExtractFontName(string message)
-    {
-        int first = message.IndexOf('\'') + 1;
-        int last = message.IndexOf('\'', first);
-        return (first > 0 && last > first) ? message[first..last] : string.Empty;
     }
 }
 ```
 
-**Resultado esperado:** Cuando ejecutes el programa contra un documento que haga referencia a una fuente no presente en la máquina, la consola listará cada advertencia de sustitución. Si alguna advertencia involucra una fuente del conjunto `critical`, el programa terminará anticipadamente, evitando generar un PDF defectuoso.
+**Ejecutar este programa** imprimirá cada fuente que Aspose.Words tuvo que reemplazar. Puedes redirigir la salida a un archivo de registro, generar una alerta o incluso abortar la carga si falta una fuente crítica.
 
 ---
 
-## Preguntas Frecuentes (FAQ)
+## Preguntas frecuentes y trampas comunes
 
-| Pregunta | Respuesta |
-|----------|-----------|
-| *¿Necesito una licencia para Aspose.Words para usar este código?* | Sí, una licencia válida de Aspose.Words elimina las marcas de agua de evaluación y desbloquea la funcionalidad completa. |
-| *¿Puede este enfoque detectar fuentes incrustadas?* | Las fuentes incrustadas ya forman parte del archivo, por lo que Aspose.Words no generará una advertencia de sustitución. Puedes consultar `Document.FontInfos` para enumerar fuentes incrustadas si lo necesitas. |
-| *¿Qué ocurre si la fuente faltante es una fuente del sistema en Windows pero no en Linux?* | La misma advertencia se disparará en Linux porque la fuente no está instalada allí. Usa la estrategia de “manejar fuentes faltantes” para distribuir los archivos `.ttf` necesarios con tu aplicación. |
-| *¿El recolector de advertencias es hilo?* |  |
+### ¿Qué pasa si necesito detener la carga cuando falta una fuente requerida?
+Puedes inspeccionar los objetos `WarningInfo` dentro del callback y lanzar una excepción cuando aparezca un nombre de fuente concreto. La excepción abortará la carga, dándote control total.
+
+```csharp
+public void Warning(WarningInfo info)
+{
+    if (info.Type == WarningType.FontSubstitution &&
+        info.Message.Contains("MyCriticalFont"))
+    {
+        throw new InvalidOperationException("Critical font missing – aborting load.");
+    }
+    Warnings.Add(info);
+}
+```
+
+### ¿Esto funciona con PDFs u otros formatos?
+Sí. Aspose.Words utiliza la misma infraestructura de advertencias para PDFs, RTF y HTML. Solo cambia la extensión del archivo y el resto del código permanece idéntico.
+
+### ¿Cómo puedo registrar las advertencias en un archivo en lugar de la consola?
+Reemplaza `Console.WriteLine` por cualquier framework de registro que prefieras (`Serilog`, `NLog`, etc.). La clase `WarningInfo` expone `Message`, `Source` y `Exception` para registros detallados.
+
+### ¿Esto afectará al rendimiento?
+La sobrecarga es insignificante—Aspose.Words ya genera las advertencias internamente. Añadir un callback simplemente las almacena en una lista, lo que es O(n) en el número de advertencias. Para documentos típicos, el impacto está muy por debajo del 1 % del tiempo total de carga.
+
+---
+
+## Resumen visual
+
+![Cómo detectar fuentes en Aspose.Words – diagrama de flujo de advertencias](https://example.com/images/font-detection-diagram.png "cómo detectar fuentes")
+
+*Texto alternativo:* **cómo detectar fuentes** – diagrama que muestra los pasos de callback de advertencia, colección y enumeración.
+
+---
+
+## Conclusión
+
+Hemos cubierto **cómo detectar fuentes** en Aspose.Words mediante **captura de advertencias**, **configuración de un callback** y **enumeración de advertencias**. El ejemplo completo muestra un patrón listo para producción que puedes incorporar en cualquier aplicación .NET.  
+
+A continuación, podrías explorar:
+
+- **Cómo capturar advertencias** para otros problemas (p. ej., problemas de conversión de imágenes)
+- **Cómo configurar callback** para frameworks de registro personalizados
+- **Cómo enumerar advertencias** en varios documentos dentro de un proceso por lotes
+- Usar **Aspose.Words.Fonts.FontSettings** para proporcionar carpetas de fuentes de respaldo, lo que puede reducir el número de sustituciones desde el principio.
+
+Pruébalo, adapta el colector a tu estilo de registro y nunca más te sorprenderá una sustitución de fuente inesperada. Si encuentras alguna peculiaridad, deja un comentario abajo—¡feliz codificación!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

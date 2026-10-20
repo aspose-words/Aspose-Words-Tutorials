@@ -1,23 +1,25 @@
 ---
 category: general
-date: 2026-04-07
-description: Aspose.Words का उपयोग करके C# में फ़ॉन्ट्स का पता लगाना और लापता फ़ॉन्ट्स
-  को संभालते समय चेतावनियों को कैप्चर करना सीखें। चरण‑दर‑चरण कोड शामिल है।
+date: 2026-04-21
+description: Aspose.Words in C# के साथ फ़ॉन्ट का पता लगाना, चेतावनियों को कैप्चर करना,
+  कॉलबैक कॉन्फ़िगर करना और चेतावनियों को सूचीबद्ध करना सीखें। विश्वसनीय फ़ॉन्ट हैंडलिंग
+  के लिए चरण‑दर‑चरण गाइड।
 draft: false
 keywords:
 - how to detect fonts
 - how to capture warnings
-- handle missing fonts
-- Aspose.Words font substitution
-- C# document loading warnings
+- how to configure callback
+- how to enumerate warnings
+- Aspose.Words font handling
 language: hi
-og_description: Aspose.Words में फ़ॉन्ट कैसे पता करें? चेतावनियों को पकड़ने और लापता
-  फ़ॉन्ट्स को आसानी से संभालने के लिए इस ट्यूटोरियल का पालन करें।
-og_title: Aspose.Words में फ़ॉन्ट कैसे पहचानें – पूर्ण मार्गदर्शिका
+og_description: Aspose.Words में फ़ॉन्ट्स का पता कैसे लगाएँ? यह ट्यूटोरियल आपको दिखाता
+  है कि चेतावनियों को कैसे कैप्चर करें, कॉलबैक को कैसे कॉन्फ़िगर करें, और C# में चेतावनियों
+  को कैसे सूचीबद्ध करें।
+og_title: Aspose.Words में फ़ॉन्ट कैसे पहचानें – पूर्ण गाइड
 tags:
 - Aspose.Words
 - C#
-- Font handling
+- Document Processing
 title: Aspose.Words में फ़ॉन्ट कैसे पहचानें – पूर्ण गाइड
 url: /hi/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-complete-guide/
 ---
@@ -28,242 +30,219 @@ url: /hi/net/working-with-fonts/how-to-detect-fonts-in-aspose-words-complete-gui
 
 # Aspose.Words में फ़ॉन्ट्स का पता कैसे लगाएँ – पूर्ण गाइड
 
-क्या आपने कभी सोचा है **how to detect fonts** जो Word दस्तावेज़ में अनुपलब्ध हैं, उसे प्रोडक्शन में भेजने से पहले? आप अकेले नहीं हैं। कई एंटरप्राइज़ परिदृश्यों में एक अनजाना फ़ॉन्ट PDF रूपांतरण पाइपलाइन को तोड़ सकता है या लेआउट गड़बड़ियां पैदा कर सकता है जो पेशेवर नहीं लगतीं। अच्छी बात यह है कि Aspose.Words आपको इन अनुपस्थित टाइपफ़ेस को पहचानने और स्पष्ट चेतावनियाँ दिखाने का अंतर्निहित तरीका प्रदान करता है।
+क्या आपने कभी सोचा है **फ़ॉन्ट्स का पता कैसे लगाएँ** जब आप एक Word दस्तावेज़ लोड करते हैं और कुछ फ़ॉन्ट्स गायब होते हैं? यह वह स्थिति है जो अक्सर सामने आती है, ख़ासकर जब आप लेगेसी फ़ाइलों या क्रॉस‑प्लेटफ़ॉर्म डिप्लॉयमेंट्स के साथ काम कर रहे हों। इस ट्यूटोरियल में हम एक पूर्ण, चलाने योग्य उदाहरण के माध्यम से दिखाएंगे कि **चेतावनियों को कैसे कैप्चर करें**, **कॉलबैक को कैसे कॉन्फ़िगर करें**, और **चेतावनियों को कैसे सूचीबद्ध करें** ताकि आपको हमेशा पता रहे कि कौन‑से फ़ॉन्ट्स बदल दिए गए थे।
 
-इस ट्यूटोरियल में हम बिल्कुल **how to detect fonts**, **how to capture warnings**, और **handle missing fonts** के सर्वोत्तम अभ्यासों को देखेंगे ताकि आपका एप्लिकेशन मजबूत बना रहे। कोई बाहरी टूल नहीं, कोई अनुमान नहीं—सिर्फ शुद्ध C# कोड जिसे आप अभी अपने प्रोजेक्ट में जोड़ सकते हैं।
+हम Aspose.Words for .NET (लेखन के समय v24.9) और साधारण C# का उपयोग करेंगे। कोई बाहरी सर्विस नहीं, कोई जादू नहीं—सिर्फ API और कुछ पंक्तियों का कोड। अंत तक आप हर फ़ॉन्ट प्रतिस्थापन को पहचान पाएँगे, उसे लॉग करेंगे, और यदि कोई महत्वपूर्ण फ़ॉन्ट गायब हो तो लोड को रोकने का विकल्प भी रखेंगे।  
 
-> **Quick preview:** अंत तक आपके पास एक पुन: उपयोग योग्य `FontSubstitutionWarningCollector` होगा जो दस्तावेज़ लोडिंग के दौरान प्रत्येक फ़ॉन्ट‑सब्स्टिट्यूशन संदेश एकत्र करता है, और आप जानेंगे कि जब कोई फ़ॉन्ट नहीं मिला तो कैसे प्रतिक्रिया दें।
+### आपको क्या चाहिए
+- **Aspose.Words for .NET** (NuGet से इंस्टॉल करें: `Install-Package Aspose.Words`)
+- .NET 6.0 या बाद का संस्करण (कोड .NET Framework पर भी चलता है)
+- एक नमूना DOCX जिसमें ऐसी फ़ॉन्ट का रेफ़रेंस हो जो मशीन पर मौजूद नहीं है (उदाहरण के लिए “MyCustomFont.ttf”)
+- Visual Studio, Rider, या कोई भी C# एडिटर जो आपको पसंद हो
+
+> **Pro tip:** यदि आपके पास गायब फ़ॉन्ट वाला दस्तावेज़ नहीं है, तो बस अपने सिस्टम में किसी फ़ॉन्ट फ़ाइल का नाम बदल दें या DOCX XML को संपादित करके एक गैर‑मौजूद फ़ॉन्ट फ़ैमिली का रेफ़रेंस जोड़ दें।
 
 ---
 
-## आप क्या सीखेंगे
+## Aspose.Words के साथ फ़ॉन्ट्स का पता कैसे लगाएँ
 
-- `LoadOptions` को इस तरह कॉन्फ़िगर करें कि वह फ़ॉन्ट‑सब्स्टिट्यूशन चेतावनियों को सुन सके।  
-- इन चेतावनियों को एक कस्टम कलेक्टर क्लास में कैप्चर करें।  
-- एकत्रित चेतावनियों को प्रोसेस करें और तय करें कि एबॉर्ट करना है, लॉग करना है, या फ़ॉन्ट्स को बदलना है।  
-- रिमोट या एम्बेडेड फ़ॉन्ट्स का संदर्भ देने वाले दस्तावेज़ों के लिए एज‑केस हैंडलिंग।  
-
-**Prerequisites:** .NET 6+ (या .NET Framework 4.6+), Aspose.Words for .NET (नवीनतम संस्करण), और C# की बुनियादी परिचितता। यदि आपने पहले कभी Aspose.Words का उपयोग नहीं किया है, तो चिंता न करें—यह गाइड केवल कुछ मिनटों की सेटअप समय मानता है।
-
-## Aspose.Words LoadOptions का उपयोग करके फ़ॉन्ट्स का पता कैसे लगाएँ
-
-गायब फ़ॉन्ट्स का पता लगाने की पहली कदम है Aspose.Words को उन्हें रिपोर्ट करने के लिए कहना। यह `LoadOptions.WarningCallback` प्रॉपर्टी के माध्यम से किया जाता है, जो किसी भी क्लास को स्वीकार करती है जो `IWarningCallback` को इम्प्लीमेंट करती है। नीचे हम एक छोटा कलेक्टर बनाते हैं जो प्रत्येक चेतावनी को बाद में निरीक्षण के लिए संग्रहीत करता है।
+मुख्य विचार यह है कि Aspose.Words की चेतावनी प्रणाली में हुक करें। जब लाइब्रेरी को अनुरोधित फ़ॉन्ट नहीं मिलता, तो वह `WarningType.FontSubstitution` चेतावनी उत्पन्न करती है। एक कस्टम `IWarningCallback` इम्प्लीमेंटेशन प्रदान करके आप **फ़ॉन्ट्स का पता लगा सकते हैं** जो लोड प्रक्रिया के दौरान बदल दिए गए थे।
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Saving;
-using System.Collections.Generic;
+using Aspose.Words.Fonts;
 
-/// <summary>
-/// Collects all warnings emitted while loading a document.
-/// </summary>
-public class FontSubstitutionWarningCollector : IWarningCallback
+// 1️⃣ Create a collector that implements IWarningCallback
+public class FontWarningCollector : IWarningCallback
 {
-    // Thread‑safe static list so we can access warnings after loading.
-    public static List<WarningInfo> Warnings { get; } = new List<WarningInfo>();
+    public List<WarningInfo> Warnings { get; } = new();
 
-    // Called by Aspose.Words for each warning.
     public void Warning(WarningInfo info)
     {
-        // We only care about font‑related warnings.
-        if (info.Type == WarningType.FontSubstitution)
-        {
-            Warnings.Add(info);
-        }
+        // Store every warning – we’ll filter later
+        Warnings.Add(info);
     }
-
-    // Helper to clear previous run’s warnings.
-    public static void Clear() => Warnings.Clear();
 }
 ```
 
-**Why this matters:** बिना वार्निंग कॉलबैक के, Aspose.Words चुपचाप गायब फ़ॉन्ट्स को डिफ़ॉल्ट फ़ॉन्ट से बदल देता है, और आपको कभी पता नहीं चलता कि समस्या मौजूद है। `WarningType.FontSubstitution` को कैप्चर करके हमें पूरी दृश्यता मिलती है—बिल्कुल वही डेटा जो आपको **detect fonts** करने के लिए चाहिए जो होस्ट मशीन पर उपलब्ध नहीं हैं।
+> **Why this works:** Aspose.Words हर गैर‑क्रिटिकल मुद्दे के लिए `Warning` मेथड को कॉल करता है। `WarningInfo` ऑब्जेक्ट्स को स्टोर करके आपको प्रकार, संदेश, और संदर्भ तक पूरी पहुँच मिलती है, जो ठीक वही है जिसकी आपको **फ़ॉन्ट्स का पता लगाने** के लिए आवश्यकता है।
 
-अब हम कलेक्टर को `LoadOptions` में जोड़ते हैं और एक दस्तावेज़ लोड करते हैं:
+---
+
+## दस्तावेज़ लोड करते समय चेतावनियों को कैसे कैप्चर करें
+
+अब जब हमारे पास एक कलेक्टर है, हमें `LoadOptions` को बताना होगा कि वह इसका उपयोग करे। यही **चेतावनियों को कैप्चर करने** का तरीका है।
 
 ```csharp
-// Step 1: Prepare load options with our warning collector.
-LoadOptions loadOptions = new LoadOptions
+// 2️⃣ Prepare LoadOptions with our warning collector
+var warningCollector = new FontWarningCollector();
+var loadOptions = new LoadOptions
 {
-    WarningCallback = new FontSubstitutionWarningCollector()
+    // Assign the callback – this is where warnings are captured
+    WarningCallback = warningCollector
 };
 
-// Optional: clear any stale warnings from a previous run.
-FontSubstitutionWarningCollector.Clear();
-
-// Step 2: Load the document. Replace the path with your own file.
-Document doc = new Document(@"C:\Docs\MissingFonts.docx", loadOptions);
+// 3️⃣ Load the document (replace the path with your own file)
+Document doc = new Document("YOUR_DIRECTORY/DocumentWithMissingFont.docx", loadOptions);
 ```
 
-> **Pro tip:** यदि आप बैच में कई दस्तावेज़ों के साथ काम करते हैं, तो वही `FontSubstitutionWarningCollector` इंस्टेंस पुन: उपयोग करें लेकिन लोड्स के बीच `Clear()` को कॉल करना याद रखें ताकि विभिन्न फ़ाइलों की चेतावनियों का मिश्रण न हो।
+> **Edge case:** यदि आप दस्तावेज़ को स्ट्रीम से लोड करते हैं (`new Document(stream, loadOptions)`), तो वही कॉलबैक काम करता है—सिर्फ फ़ाइल पाथ की जगह स्ट्रीम पास करें।
 
-## दस्तावेज़ लोड के दौरान चेतावनियों को कैप्चर करें
+इस चरण के बाद दस्तावेज़ पूरी तरह लोड हो जाता है, लेकिन सभी फ़ॉन्ट प्रतिस्थापन चेतावनियाँ `warningCollector.Warnings` में सुरक्षित रूप से संग्रहीत रहती हैं।
 
-दस्तावेज़ लोड होने के बाद, कलेक्टर में पहले से ही प्रत्येक फ़ॉन्ट‑संबंधित चेतावनी मौजूद होती है। अगला तर्कसंगत प्रश्न है: *मैं चेतावनियों को कैसे कैप्चर करूँ* ताकि उन्हें लॉग या प्रदर्शित करना आसान हो?
+---
+
+## चेतावनियों को सूचीबद्ध करें और फ़ॉन्ट प्रतिस्थापन की रिपोर्ट बनाएं
+
+अंत में, हम एकत्रित चेतावनियों को फ़िल्टर करके **चेतावनियों को सूचीबद्ध** करते हैं जो विशेष रूप से फ़ॉन्ट प्रतिस्थापन से संबंधित हैं। यह चरण कच्चे डेटा को एक पठनीय रिपोर्ट में बदल देता है।
 
 ```csharp
-// Step 3: Iterate over collected warnings and output them.
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
+// 4️⃣ Iterate over the collected warnings
+foreach (var warning in warningCollector.Warnings)
 {
-    Console.WriteLine($"{warning.Type}: {warning.Message}");
-}
-```
-
-सामान्य आउटपुट इस प्रकार दिखता है:
-
-```
-FontSubstitution: Font 'Comic Sans MS' was not found. Substituted with 'Arial'.
-FontSubstitution: Font 'Garamond' missing. Using 'Times New Roman' instead.
-```
-
-**What this tells you:** प्रत्येक पंक्ति मूल फ़ॉन्ट नाम और वह फॉलबैक दिखाती है जो Aspose.Words ने चुना। इस जानकारी के साथ आप तय कर सकते हैं कि फॉलबैक स्वीकार्य है या आपको गायब फ़ॉन्ट को मैन्युअल रूप से एम्बेड करना चाहिए।
-
-## गायब फ़ॉन्ट्स को सहजता से संभालें
-
-चेतावनियों का पता लगाना और उन्हें कैप्चर करना केवल आधा काम है। वास्तविक मूल्य तब आता है जब आप **handle missing fonts** को प्रोडक्शन‑रेडी तरीके से संभालते हैं। नीचे तीन सामान्य रणनीतियाँ दी गई हैं:
-
-1. **Log and Continue** – बैच प्रोसेसिंग के लिए उपयुक्त जहाँ आपको केवल ऑडिट ट्रेल चाहिए।  
-2. **Abort on Critical Fonts** – यदि कोई विशेष फ़ॉन्ट (जैसे, ब्रांड‑विशिष्ट टाइपफ़ेस) गायब है तो एक्सेप्शन फेंके।  
-3. **Embed the Font On‑The‑Fly** – ज्ञात फ़ोल्डर से गायब फ़ॉन्ट को लोड करें और दस्तावेज़ को पुनः‑लोड करने से पहले Aspose.Words के साथ रजिस्टर करें।  
-
-### उदाहरण: एक महत्वपूर्ण फ़ॉन्ट पर एबॉर्ट करें
-
-```csharp
-// Define a list of fonts that must be present.
-var requiredFonts = new HashSet<string> { "MyBrand-Regular", "MyBrand-Bold" };
-
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
-{
-    // Extract the original font name from the warning message.
-    string missingFont = ExtractFontName(warning.Message);
-    if (requiredFonts.Contains(missingFont))
+    // We're only interested in font substitution warnings
+    if (warning.Type == WarningType.FontSubstitution)
     {
-        throw new InvalidOperationException(
-            $"Critical font '{missingFont}' is missing. Document load aborted.");
-    }
-}
-
-// Helper method to parse font name from warning text.
-string ExtractFontName(string message)
-{
-    // Message pattern: "Font 'X' was not found..."
-    int start = message.IndexOf('\'') + 1;
-    int end = message.IndexOf('\'', start);
-    return (start > 0 && end > start) ? message[start..end] : string.Empty;
-}
-```
-
-### उदाहरण: गायब फ़ॉन्ट्स को ऑटो‑एम्बेड करें
-
-```csharp
-foreach (var warning in FontSubstitutionWarningCollector.Warnings)
-{
-    string missingFont = ExtractFontName(warning.Message);
-    string fontPath = $@"C:\Fonts\{missingFont}.ttf";
-
-    if (File.Exists(fontPath))
-    {
-        // Register the font with Aspose.Words.
-        FontSettings fontSettings = new FontSettings();
-        fontSettings.SetFontsFolder(Path.GetDirectoryName(fontPath), false);
-        doc.FontSettings = fontSettings;
-
-        // Reload the document now that the font is available.
-        doc = new Document(@"C:\Docs\MissingFonts.docx", loadOptions);
-        break; // Re‑load once; subsequent warnings will be resolved.
+        Console.WriteLine($"Substituted font: {warning.Message}");
     }
 }
 ```
 
-**Why these patterns help:** स्पष्ट रूप से तय करके कि फ़ॉन्ट गायब होने पर क्या करना है, आप चुपचाप होने वाले फॉलबैक्स को समाप्त कर देते हैं जो ब्रांडिंग या पठनीयता को नुकसान पहुँचा सकते हैं। यही **handling missing fonts** का सार है, एक नियंत्रित तरीके से।
+**अपेक्षित आउटपुट** (उदाहरण):
 
-## पूर्ण कार्यशील उदाहरण
+```
+Substituted font: Font 'Calibri' not found. Substituted with 'Arial'.
+Substituted font: Font 'MyCustomFont' not found. Substituted with 'Times New Roman'.
+```
 
-सब कुछ मिलाकर, यहाँ एक एकल, तैयार‑चलाने योग्य प्रोग्राम है जो **how to detect fonts**, **how to capture warnings**, और लॉगिंग द्वारा **handle missing fonts** करने की एक सरल नीति को दर्शाता है।
+यदि दस्तावेज़ में कोई गायब फ़ॉन्ट नहीं है, तो लूप कोई आउटपुट नहीं देगा—कोई चिंता नहीं।
+
+---
+
+## पूर्ण कार्यशील उदाहरण (सभी चरण एक फ़ाइल में)
+
+नीचे पूरा प्रोग्राम दिया गया है जिसे आप कॉन्सोल प्रोजेक्ट में कॉपी‑पेस्ट कर सकते हैं। यह **फ़ॉन्ट्स का पता कैसे लगाएँ**, **चेतावनियों को कैसे कैप्चर करें**, **कॉलबैक को कैसे कॉन्फ़िगर करें**, और **चेतावनियों को कैसे सूचीबद्ध करें** को एक ही प्रवाह में जोड़ता है।
 
 ```csharp
-using Aspose.Words;
-using Aspose.Words.Saving;
 using System;
 using System.Collections.Generic;
-using System.IO;
+using Aspose.Words;
+using Aspose.Words.Fonts;
 
-public class FontSubstitutionWarningCollector : IWarningCallback
+namespace FontDetectionDemo
 {
-    public static List<WarningInfo> Warnings { get; } = new List<WarningInfo>();
-    public void Warning(WarningInfo info)
+    // Custom warning collector (captures all warnings)
+    public class FontWarningCollector : IWarningCallback
     {
-        if (info.Type == WarningType.FontSubstitution)
+        public List<WarningInfo> Warnings { get; } = new();
+
+        public void Warning(WarningInfo info)
+        {
             Warnings.Add(info);
-    }
-    public static void Clear() => Warnings.Clear();
-}
-
-class Program
-{
-    static void Main()
-    {
-        string docPath = @"C:\Docs\MissingFonts.docx";
-
-        // 1️⃣ Configure LoadOptions with the warning collector.
-        LoadOptions loadOptions = new LoadOptions
-        {
-            WarningCallback = new FontSubstitutionWarningCollector()
-        };
-        FontSubstitutionWarningCollector.Clear();
-
-        // 2️⃣ Load the document – this is where fonts are detected.
-        Document doc = new Document(docPath, loadOptions);
-
-        // 3️⃣ Process the collected warnings.
-        if (FontSubstitutionWarningCollector.Warnings.Count == 0)
-        {
-            Console.WriteLine("✅ No missing fonts detected.");
         }
-        else
-        {
-            Console.WriteLine("⚠️ Font substitution warnings:");
-            foreach (var w in FontSubstitutionWarningCollector.Warnings)
-                Console.WriteLine($"{w.Type}: {w.Message}");
+    }
 
-            // Example policy: abort if a brand‑critical font is missing.
-            var critical = new HashSet<string> { "MyBrand-Regular", "MyBrand-Bold" };
-            foreach (var w in FontSubstitutionWarningCollector.Warnings)
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // -------------------------------------------------
+            // Step 1: Set up the warning collector (how to configure callback)
+            var collector = new FontWarningCollector();
+            var loadOptions = new LoadOptions
             {
-                string missing = ExtractFontName(w.Message);
-                if (critical.Contains(missing))
+                WarningCallback = collector
+            };
+
+            // -------------------------------------------------
+            // Step 2: Load the document (how to detect fonts)
+            string filePath = "YOUR_DIRECTORY/DocumentWithMissingFont.docx";
+            Document doc;
+            try
+            {
+                doc = new Document(filePath, loadOptions);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Failed to load document: {ex.Message}");
+                return;
+            }
+
+            // -------------------------------------------------
+            // Step 3: Enumerate warnings (how to enumerate warnings)
+            bool anySubstitutions = false;
+            foreach (var warning in collector.Warnings)
+            {
+                if (warning.Type == WarningType.FontSubstitution)
                 {
-                    Console.WriteLine($"❌ Critical font '{missing}' missing. Stopping.");
-                    return;
+                    anySubstitutions = true;
+                    Console.WriteLine($"Substituted font: {warning.Message}");
                 }
             }
+
+            if (!anySubstitutions)
+            {
+                Console.WriteLine("No font substitutions detected – all fonts are available.");
+            }
+
+            // Optional: Continue processing the document...
         }
-
-        // 4️⃣ Continue with normal processing (e.g., save as PDF).
-        doc.Save(@"C:\Docs\Output.pdf", SaveFormat.Pdf);
-        Console.WriteLine("✅ Document saved as PDF.");
-    }
-
-    // Helper to pull the original font name out of the warning text.
-    static string ExtractFontName(string message)
-    {
-        int first = message.IndexOf('\'') + 1;
-        int last = message.IndexOf('\'', first);
-        return (first > 0 && last > first) ? message[first..last] : string.Empty;
     }
 }
 ```
 
-**Expected result:** जब आप प्रोग्राम को ऐसे दस्तावेज़ के खिलाफ चलाते हैं जो मशीन पर मौजूद नहीं होने वाले फ़ॉन्ट का संदर्भ देता है, तो कंसोल प्रत्येक सब्स्टिट्यूशन चेतावनी सूचीबद्ध करेगा। यदि कोई चेतावनी `critical` सेट के फ़ॉन्ट से संबंधित है, तो प्रोग्राम जल्दी समाप्त हो जाएगा, जिससे एक दोषपूर्ण PDF उत्पन्न होने से बचा जा सके।
+**इस प्रोग्राम को चलाने** पर Aspose.Words द्वारा बदले गए प्रत्येक फ़ॉन्ट का नाम प्रिंट होगा। आप आउटपुट को लॉग फ़ाइल में रीडायरेक्ट कर सकते हैं, अलर्ट जेनरेट कर सकते हैं, या यदि कोई महत्वपूर्ण फ़ॉन्ट गायब हो तो लोड को रोक भी सकते हैं।
 
-## अक्सर पूछे जाने वाले प्रश्न (FAQs)
+---
 
-| Question | Answer |
-|----------|--------|
-| *क्या इस कोड को उपयोग करने के लिए मुझे Aspose.Words का लाइसेंस चाहिए?* | हाँ, एक वैध Aspose.Words लाइसेंस मूल्यांकन वॉटरमार्क को हटाता है और पूरी कार्यक्षमता अनलॉक करता है। |
-| *क्या यह तरीका एम्बेडेड फ़ॉन्ट्स का पता लगा सकता है?* | एम्बेडेड फ़ॉन्ट्स पहले से ही फ़ाइल का हिस्सा होते हैं, इसलिए Aspose.Words कोई सब्स्टिट्यूशन चेतावनी नहीं देगा। यदि आवश्यक हो तो आप `Document.FontInfos` की जाँच करके एम्बेडेड फ़ॉन्ट्स की सूची बना सकते हैं। |
-| *यदि गायब फ़ॉन्ट Windows पर सिस्टम फ़ॉन्ट है लेकिन Linux पर नहीं है तो क्या होगा?* | Linux पर भी वही चेतावनी आएगी क्योंकि फ़ॉन्ट वहाँ स्थापित नहीं है। आवश्यक `.ttf` फ़ाइलों को अपने ऐप के साथ शिप करने के लिए “handle missing fonts” रणनीति का उपयोग करें। |
-| *क्या वार्निंग कलेक्टर थ्रेड* |  |
+## सामान्य प्रश्न और संभावित समस्याएँ
+
+### यदि आवश्यक फ़ॉन्ट गायब हो तो लोडिंग को रोकना चाहूँ तो क्या करें?
+आप कॉलबैक के भीतर `WarningInfo` ऑब्जेक्ट्स की जाँच कर सकते हैं और जब कोई विशेष फ़ॉन्ट नाम मिले तो एक्सेप्शन थ्रो कर सकते हैं। एक्सेप्शन लोड को रोक देगा, जिससे आपको पूर्ण नियंत्रण मिलेगा।
+
+```csharp
+public void Warning(WarningInfo info)
+{
+    if (info.Type == WarningType.FontSubstitution &&
+        info.Message.Contains("MyCriticalFont"))
+    {
+        throw new InvalidOperationException("Critical font missing – aborting load.");
+    }
+    Warnings.Add(info);
+}
+```
+
+### क्या यह PDFs या अन्य फ़ॉर्मैट्स के साथ भी काम करता है?
+हां। Aspose.Words PDFs, RTF, और HTML के लिए भी वही चेतावनी इन्फ्रास्ट्रक्चर उपयोग करता है। फ़ाइल एक्सटेंशन बदलें और बाकी कोड समान रहेगा।
+
+### चेतावनियों को कंसोल के बजाय फ़ाइल में कैसे लॉग करें?
+`Console.WriteLine` को अपनी पसंद के किसी भी लॉगिंग फ्रेमवर्क (`Serilog`, `NLog`, आदि) से बदलें। `WarningInfo` क्लास `Message`, `Source` और `Exception` प्रदान करती है जिससे विस्तृत लॉग बन सके।
+
+### क्या इससे प्रदर्शन पर असर पड़ेगा?
+ओवरहेड नगण्य है—Aspose.Words पहले से ही चेतावनियों को जनरेट करता है। कॉलबैक जोड़ने से केवल उन्हें एक लिस्ट में स्टोर किया जाता है, जो चेतावनियों की संख्या के अनुसार O(n) है। सामान्य दस्तावेज़ों के लिए प्रभाव कुल लोड समय का 1 % से भी कम रहता है।
+
+---
+
+## दृश्य सारांश
+
+![How to Detect Fonts in Aspose.Words – warning flow diagram](https://example.com/images/font-detection-diagram.png "how to detect fonts")
+
+*Alt text:* **फ़ॉन्ट्स का पता कैसे लगाएँ** – डायग्राम जिसमें चेतावनी कॉलबैक, कलेक्शन, और एन्ह्यूमरेशन चरण दिखाए गए हैं।
+
+---
+
+## निष्कर्ष
+
+हमने **फ़ॉन्ट्स का पता कैसे लगाएँ** Aspose.Words में **चेतावनियों को कैप्चर करके**, **कॉलबैक को कॉन्फ़िगर करके**, और **चेतावनियों को सूचीबद्ध करके** समझा। पूरा कोड सैंपल एक प्रोडक्शन‑रेडी पैटर्न दिखाता है जिसे आप किसी भी .NET एप्लिकेशन में उपयोग कर सकते हैं।  
+
+आगे आप देख सकते हैं:
+
+- **चेतावनियों को कैप्चर** करने के लिए अन्य मुद्दों (जैसे इमेज कन्वर्ज़न समस्याएँ) के लिए
+- **कॉलबैक को कॉन्फ़िगर** करने के लिए कस्टम लॉगिंग फ्रेमवर्क
+- **चेतावनियों को सूचीबद्ध** करने के लिए बैच जॉब में कई दस्तावेज़ों पर
+- **Aspose.Words.Fonts.FontSettings** का उपयोग करके फ़ॉलबैक फ़ॉन्ट फ़ोल्डर सेट करना, जिससे प्रारम्भ में ही प्रतिस्थापनों की संख्या घटेगी
+
+इसे आज़माएँ, कलेक्टर को अपनी लॉगिंग शैली के अनुसार अनुकूलित करें, और अब आप अनपेक्षित फ़ॉन्ट स्वैप से कभी आश्चर्यचकित नहीं होंगे। यदि कोई अजीब बात मिले, तो नीचे टिप्पणी करें—हैप्पी कोडिंग!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

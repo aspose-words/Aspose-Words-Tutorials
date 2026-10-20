@@ -38,6 +38,7 @@ Aspose.Words for .NET チュートリアルは、LoadOptions を用いた Words 
 | [Aspose.WordsでDOCXファイルを復元する手順 – ステップバイステップガイド](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/) Aspose.Words for .NET を使用して、破損した DOCX ファイルを GUI で簡単に復元する手順をステップバイステップで解説します。 |
 | [DOCX ファイルの復元方法 – Aspose でリカバリーモードを設定する](./how-to-recover-docx-files-set-recovery-mode-with-aspose/) Aspose.Words for .NET を使用して、リカバリーモードを設定し、破損した DOCX ファイルを復元する手順をステップバイステップで解説します。 |
 | [Wordファイルの復元方法 – Aspose.Words 完全ガイド](./how-to-recover-word-files-complete-guide-with-aspose-words/) Aspose.Words for .NET を使用して、破損した Word ファイルを完全に復元する手順をステップバイステップで解説します。 |
+| [DOCX を復元する方法 – 破損した Word ファイルを修復するステップバイステップ ガイド](./how-to-recover-docx-step-by-step-guide-to-fix-corrupted-word/) Aspose.Words for .NET を使用して、破損した DOCX ファイルをステップバイステップで修復する方法を解説します。 |
 | [Aspose Load Options – カスタムフォント設定でDOCXを読み込む](./aspose-load-options-load-docx-with-custom-font-settings/) Aspose.Words for .NET の LoadOptions を使用し、カスタムフォント設定で DOCX を読み込む方法をステップバイステップで解説します。 |
 | [破損した Word 文書を復元する – 完全 C# ガイド](./recover-damaged-word-document-complete-c-guide/) Aspose.Words for .NET を使用して、破損した Word 文書を C# で復元する手順をステップバイステップで解説します。 |
 | [Aspose.Words で破損した docx を復元 – リカバリモードとロードオプションを設定](./recover-damaged-docx-with-aspose-words-set-recovery-mode-and/) Aspose.Words の LoadOptions とリカバリモードを使用して、破損した docx ファイルを復元する手順を解説します。 |
@@ -60,6 +61,18 @@ Aspose.Words for .NET チュートリアルは、LoadOptions を用いた Words 
 | [DOCX を復元する手順 – 破損ファイル向けステップバイステップガイド](./how-to-recover-docx-step-by-step-guide-for-corrupt-files/) Aspose.Words for .NET を使用して、破損した DOCX ファイルを復元する手順をステップバイステップで解説します。 |
 | [C# で破損した DOCX を読み込む – 完全 Aspose.Words ガイド](./load-corrupted-docx-in-c-complete-aspose-words-guide/) Aspose.Words for .NET を使用して、破損した DOCX ファイルを C# で読み込む方法をステップバイステップで解説します。 |
 | [破損したWordファイルを復元 – Asposeで壊れたdocxを開く](./recover-damaged-word-file-open-corrupted-docx-using-aspose/) Aspose.Words for .NET を使用して、破損した Word 文書（docx）を開き、復元する手順をステップバイステップで解説します。 |
+| [破損したWordファイルの復元 – 復元モード設定の完全ガイド](./recover-damaged-word-file-complete-guide-to-setting-recovery/) Aspose.Words for .NET の LoadOptions を使用し、破損した Word ファイルを復元モードで開き、完全に修復する手順をステップバイステップで解説します。 |
+| [C# でドキュメントのロードオプションを構成する – 完全ガイド](./configure-document-load-options-in-c-complete-guide/) Aspose.Words for .NET の LoadOptions を活用し、C# でドキュメントの読み込み設定を詳細に構成する方法をステップバイステップで解説します。 |
+| [C# で破損した Word ファイルを開く – 完全ガイド](./open-corrupted-word-file-in-c-complete-guide/) Aspose.Words for .NET を使用して、C# で破損した Word ファイルを開く方法をステップバイステップで解説します。完全なガイドです。 |
+| [LoadOptions を使用して欠損フォントを検出する方法](./how-to-use-loadoptions-to-detect-missing-fonts/) Aspose.Words for .NET の LoadOptions を活用し、文書内の欠損フォントを検出する手順をステップバイステップで解説します。 |
+| [Aspose.Words で破損した docx を修復する – 完全 C# ガイド](./repair-damaged-docx-with-aspose-words-complete-c-guide/) Aspose.Words for .NET を使用し、C# で破損した docx ファイルを完全に修復する手順をステップバイステップで解説します。 |
+| [Aspose.Words で破損した docx を復元する – 完全ステップバイステップガイド](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) Aspose.Words for .NET を使用して、破損した docx ファイルを完全に復元する手順をステップバイステップで解説します。 |
+| [C# でフォント置換警告を有効にする（Aspose.Words 使用）](./enable-font-substitution-warnings-in-c-with-aspose-words/) Aspose.Words for .NET を使用して、C# でフォント置換時の警告を有効にし、欠落フォントを検出する方法をステップバイステップで解説します。 |
+| [Aspose.Words で警告コールバックを登録する – 完全プログラミングガイド](./register-warning-callback-in-aspose-words-complete-programmi/) Aspose.Words for .NET を使用して、警告コールバックを登録し、文書処理中の警告をキャッチして処理する方法をステップバイステップで解説します。 |
+| [警告をキャプチャする方法 – 欠落フォント用に LoadOptions を設定する](./how-to-capture-warnings-configure-load-options-for-missing-f/) Aspose.Words for .NET を使用して、欠落フォントに対する警告をキャプチャし、LoadOptions を設定する手順をステップバイステップで解説します。 |
+| [Aspose.WordsでDOCXを復元する手順 – ステップバイステップガイド](./how-to-recover-docx-with-aspose-words-step-by-step-guide/) Aspose.Words for .NET を使用して、破損した DOCX ファイルをステップバイステップで復元する方法を解説します。 |
+| [破損したWordファイルを復元し、C#でリカバリモードを表示する](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) Aspose.Words for .NET を使用して、破損した Word ファイルを復元し、C# でリカバリモードを表示する方法をステップバイステップで解説します。 |
+| [C#で警告を取得する方法 – 欠落フォントの検出と置換のログ記録](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) Aspose.Words for .NET の警告コールバックを使用し、欠落フォントを検出し置換情報をログに記録する手順を解説します。 |
 | [破損したDOCXを復元する – 完全C#ガイド：修復と保存](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) Aspose.Words for .NET を使用して、破損した DOCX ファイルを修復し、正常に保存する手順をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

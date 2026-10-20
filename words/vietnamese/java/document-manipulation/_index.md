@@ -65,13 +65,13 @@ Mở khóa sức mạnh của Aspose.Words cho Java. Tìm hiểu cách xử lý 
 ### [Trích xuất nội dung từ tài liệu trong Aspose.Words cho Java](./extracting-content-from-documents/)
 Tìm hiểu cách trích xuất nội dung từ tài liệu dễ dàng bằng Aspose.Words for Java. Hướng dẫn từng bước và các mẫu mã của chúng tôi giúp đơn giản hóa quy trình.
 ### [Phương pháp trợ giúp để trích xuất nội dung trong Aspose.Words cho Java](./helper-methods-for-extracting-content/)
-Tìm hiểu cách trích xuất nội dung hiệu quả từ tài liệu Word bằng Aspose.Words for Java. Khám phá các phương pháp trợ giúp, định dạng tùy chỉnh và nhiều hơn nữa trong hướng dẫn toàn diện này.
+Tìm hiểu cách trích xuất nội dung hiệu quả từ tài liệu Word bằng Aspose.Words cho Java. Khám phá các phương pháp trợ giúp, định dạng tùy chỉnh và nhiều hơn nữa trong hướng dẫn toàn diện này.
 ### [Tìm và thay thế văn bản trong Aspose.Words cho Java](./finding-and-replacing-text/)
-Tìm hiểu cách tìm và thay thế văn bản trong tài liệu Word bằng Aspose.Words for Java. Hướng dẫn từng bước với các ví dụ về mã. Nâng cao kỹ năng thao tác tài liệu Java của bạn.
+Tìm hiểu cách tìm và thay thế văn bản trong tài liệu Word bằng Aspose.Words cho Java. Hướng dẫn từng bước với các ví dụ về mã. Nâng cao kỹ năng thao tác tài liệu Java của bạn.
 ### [Xóa nội dung khỏi tài liệu trong Aspose.Words cho Java](./removing-content-from-documents/)
-Tìm hiểu cách xóa nội dung khỏi tài liệu Word trong Java bằng Aspose.Words for Java. Xóa ngắt trang, ngắt phần và nhiều hơn nữa. Tối ưu hóa quá trình xử lý tài liệu của bạn.
+Tìm hiểu cách xóa nội dung khỏi tài liệu Word trong Java bằng Aspose.Words cho Java. Xóa ngắt trang, ngắt phần và nhiều hơn nữa. Tối ưu hóa quá trình xử lý tài liệu của bạn.
 ### [Sử dụng Bookmarks trong Aspose.Words cho Java](./using-bookmarks/)
-Tối ưu hóa quá trình xử lý tài liệu của bạn với Aspose.Words for Java. Tìm hiểu cách sử dụng dấu trang để điều hướng và thao tác nội dung hiệu quả trong hướng dẫn từng bước này.
+Tối ưu hóa quá trình xử lý tài liệu của bạn với Aspose.Words cho Java. Tìm hiểu cách sử dụng dấu trang để điều hướng và thao tác nội dung hiệu quả trong hướng dẫn từng bước này.
 ### [Sử dụng Document Ranges trong Aspose.Words cho Java](./using-document-ranges/)
 Làm chủ thao tác phạm vi tài liệu trong Aspose.Words cho Java. Tìm hiểu cách xóa, trích xuất và định dạng văn bản với hướng dẫn toàn diện này.
 ### [Sử dụng Thẻ Tài liệu có Cấu trúc (SDT) trong Aspose.Words cho Java](./using-structured-document-tags/)
@@ -81,13 +81,13 @@ Tìm hiểu cách cải thiện định dạng tài liệu bằng Aspose.Words f
 ### [Tạo Mục lục trong Aspose.Words cho Java](./generating-table-of-contents/)
 Tìm hiểu cách tạo và tùy chỉnh Mục lục (TOC) bằng Aspose.Words cho Java. Tạo tài liệu có tổ chức và chuyên nghiệp một cách dễ dàng.
 ### [Bảo vệ tài liệu trong Aspose.Words cho Java](./protecting-documents/)
-Tìm hiểu cách bảo mật tài liệu Java Word của bạn bằng Aspose.Words for Java. Bảo vệ dữ liệu của bạn bằng mật khẩu và nhiều hơn thế nữa.
+Tìm hiểu cách bảo mật tài liệu Java Word của bạn bằng Aspose.Words cho Java. Bảo vệ dữ liệu của bạn bằng mật khẩu và nhiều hơn thế nữa.
 ### [Chia tài liệu thành các trang trong Aspose.Words cho Java](./splitting-documents-into-pages/)
 Tìm hiểu cách chia tài liệu thành các trang bằng Aspose.Words cho Java. Hướng dẫn từng bước với mã nguồn để xử lý tài liệu hiệu quả.
 ### [Chia nhỏ tài liệu trong Aspose.Words cho Java](./splitting-documents/)
 Tìm hiểu cách chia tài liệu hiệu quả trong Aspose.Words for Java. Khám phá các kỹ thuật cho tiêu đề, phần và phạm vi trang.
 ### [Chia tài liệu thành các trang HTML trong Aspose.Words cho Java](./splitting-documents-into-html-pages/)
-Tìm hiểu cách chia tài liệu thành các trang HTML bằng Aspose.Words for Java. Làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi tài liệu liền mạch.
+Tìm hiểu cách chia tài liệu thành các trang HTML bằng Aspose.Words cho Java. Làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi tài liệu liền mạch.
 ### [Thêm Nội dung bằng DocumentBuilder trong Aspose.Words cho Java](./adding-content-using-documentbuilder/)
 Làm chủ việc tạo tài liệu với Aspose.Words cho Java. Hướng dẫn từng bước để thêm văn bản, bảng, hình ảnh và nhiều nội dung khác. Tạo tài liệu Word tuyệt đẹp một cách dễ dàng.
 ### [Sao chép và kết hợp tài liệu trong Aspose.Words cho Java](./cloning-and-combining-documents/)
@@ -97,13 +97,15 @@ Tìm hiểu cách so sánh các tài liệu trong Aspose.Words for Java, một t
 ### [Định dạng tài liệu trong Aspose.Words cho Java](./formatting-documents/)
 Tìm hiểu nghệ thuật định dạng tài liệu trong Aspose.Words for Java với hướng dẫn toàn diện của chúng tôi. Khám phá các tính năng mạnh mẽ và nâng cao kỹ năng xử lý tài liệu của bạn.
 ### [Nối và Thêm Tài liệu trong Aspose.Words cho Java](./joining-and-appending-documents/)
-Tìm hiểu cách nối và thêm tài liệu dễ dàng bằng Aspose.Words for Java. Giữ nguyên định dạng, quản lý tiêu đề, chân trang và nhiều hơn nữa.
+Tìm hiểu cách nối và thêm tài liệu dễ dàng bằng Aspose.Words cho Java. Giữ nguyên định dạng, quản lý tiêu đề, chân trang và nhiều hơn nữa.
 ### [Sử dụng Tùy chọn và Cài đặt Tài liệu trong Aspose.Words cho Java](./using-document-options-and-settings/)
 Mở khóa sức mạnh của Aspose.Words cho Java. Tùy chọn và cài đặt tài liệu chính để quản lý tài liệu liền mạch. Tối ưu hóa, tùy chỉnh và nhiều hơn nữa.
 ### [Sử dụng Thuộc tính Tài liệu trong Aspose.Words cho Java](./using-document-properties/)
 Tối ưu hóa quản lý tài liệu với Aspose.Words for Java. Tìm hiểu cách làm việc với các thuộc tính tài liệu, thêm siêu dữ liệu tùy chỉnh và nhiều hơn nữa trong hướng dẫn toàn diện này.
 ### [Sử dụng Web Extensions trong Aspose.Words cho Java](./using-web-extensions/)
 Cải thiện Tài liệu bằng Tiện ích mở rộng Web trong Aspose.Words cho Java. Học cách tích hợp nội dung dựa trên web một cách liền mạch. 
+### [Gắn thẻ khả năng truy cập PDF trong Java – Tạo PDF có thể truy cập](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Hướng dẫn tạo PDF có khả năng truy cập bằng cách gắn thẻ nội dung trong Aspose.Words cho Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

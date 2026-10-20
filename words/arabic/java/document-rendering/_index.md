@@ -45,6 +45,7 @@
 تعلم كيفية استخدام استدعاء التحذير في Aspose.Words لتحديد الخطوط المفقودة وتتبعها أثناء معالجة المستندات.
 ### [كيفية التقاط التحذيرات – اكتشاف الخطوط المفقودة في Aspose.Words](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
 تعلم كيفية التقاط التحذيرات واكتشاف الخطوط المفقودة أثناء معالجة المستندات باستخدام Aspose.Words لجافا.
+### [العثور على الخطوط المفقودة في Java باستخدام Aspose.Words – دليل كامل](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
