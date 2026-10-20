@@ -32,6 +32,7 @@
 | [Создать кнопку документа Word с Aspose.Words – полный пример кода](./create-word-document-button-with-aspose-words-full-code-exam/) | Полный пример кода, показывающий, как создать кнопку в документе Word с помощью Aspose.Words для .NET. |
 
 | [Добавить кнопку Command в документ Word с Aspose.Words – Полное руководство](./add-command-button-to-word-document-with-aspose-words-comple/) | Узнайте, как добавить кнопку Command в документ Word с помощью Aspose.Words, используя пошаговое руководство. |
+| [Как добавить элемент управления ActiveX в Word с помощью Aspose.Words – пошаговое руководство](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Узнайте, как вставлять и настраивать элементы управления ActiveX в документах Word с помощью Aspose.Words в пошаговом руководстве. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -17,7 +17,7 @@
 
 ## Introduktion
 
-När det gäller dokumenthantering är Aspose.Words för .NET ett kraftpaket som kan ta ditt arbete till nästa nivå. Men var börjar man? Låt mig försäkra dig om att det är superenkelt att navigera i dessa handledningar, även om du inte är en tekniker. Oavsett om du vill sammanfatta dokument, förbättra formatering eller automatisera uppgifter, erbjuder våra handledningslistor steg-för-steg-guider skräddarsydda just för dig.
+När det gäller dokumenthantering är Aspose.Words för .NET ett kraftpaket som kan ta ditt arbete till nästa nivå. Men var börjar man? Låt mig försäkra dig om att det är superenkelt att navigera i dessa handledningar, även om du inte är tekniker. Oavsett om du vill sammanfatta dokument, förbättra formatering eller automatisera uppgifter, erbjuder våra handledningslistor steg-för-steg-guider skräddarsydda just för dig.
 
 ## Komma igång med AI-modeller
 
@@ -77,6 +77,8 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Översätt DOCX till franska med Aspose.Words.AI – Fullständig guide](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Lär dig steg-för-steg hur du översätter DOCX-filer till franska med Aspose.Words.AI för snabba och korrekta resultat. |
 | [Sammanfatta Word-dokument med Aspose.Words AI – Fullständig guide](./summarize-word-document-with-aspose-words-ai-full-guide/) | Lär dig att använda Aspose.Words AI för att sammanfatta Word-dokument i en komplett guide. |
 | [AI-dokumentsammanfattning i C# – komplett guide](./ai-document-summarization-in-c-complete-guide/) | Lär dig att med Aspose.Words för .NET och AI skapa effektiva dokumentsammanfattningar i C# med vår kompletta guide. |
+| [Skapa AI‑sammanfattning i C# – steg‑för‑steg‑guide](./create-ai-summary-in-c-step-by-step-guide/) | Skapa AI‑sammanfattning i C# med en tydlig steg‑för‑steg‑guide. |
+| [Översätt docx till franska med AI i C#](./translate-docx-to-french-with-ai-in-c/) | Lär dig att översätta DOCX-filer till franska med AI i C# med Aspose.Words. |
 | [Anropa OpenAI API från C# – Komplett guide för att skriva om Word-paragrafer](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | Lär dig hur du använder OpenAI API i C# för att automatiskt omformulera Word-paragrafer med Aspose.Words. |
 | [Hur du kontrollerar grammatik i C# med Aspose.Words AI – Komplett guide](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Lär dig att använda Aspose.Words AI för att automatiskt rätta grammatik i C#‑projekt med vår steg‑för‑steg‑guide. |
 

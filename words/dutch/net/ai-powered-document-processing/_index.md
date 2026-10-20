@@ -78,6 +78,8 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Documentoverzicht maken in C# – Complete OpenAI-gids](./create-document-summary-in-c-complete-openai-guide/) | Leer hoe u met OpenAI en C# een samenvatting van een Word-document maakt met Aspose.Words. |
 | [Samenvatten van Word-document met Aspose.Words AI – Volledige gids](./summarize-word-document-with-aspose-words-ai-full-guide/) | Leer hoe u met Aspose.Words AI volledige Word-documenten efficiënt kunt samenvatten met deze stapsgewijze handleiding. |
 | [AI-documentensamenvatting in C# – volledige gids](./ai-document-summarization-in-c-complete-guide/) | Leer hoe u met Aspose.Words voor .NET en AI volledige documentensamenvattingen in C# maakt. |
+| [Maak AI-samenvatting in C# – stapsgewijze handleiding](./create-ai-summary-in-c-step-by-step-guide/) | Leer hoe u met Aspose.Words voor .NET en AI een samenvatting maakt in C# met een stapsgewijze gids. |
+| [Vertaal docx naar Frans met AI in C#](./translate-docx-to-french-with-ai-in-c/) | Leer hoe u met Aspose.Words voor .NET en AI een docx-bestand naar het Frans vertaalt in C#. |
 | [OpenAI API aanroepen vanuit C# – Complete gids voor het herschrijven van Word-paragrafen](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | Leer hoe u met C# de OpenAI API gebruikt om Word-paragrafen automatisch te herschrijven en te verbeteren. |
 | [Hoe grammatica te controleren in C# met Aspose.Words AI – Complete gids](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Leer hoe u met Aspose.Words AI grammatica controleert in C# voor nauwkeurige documenten. |
 

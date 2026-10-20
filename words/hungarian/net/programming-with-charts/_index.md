@@ -72,6 +72,7 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 | [Kördiagram címkék hozzáadása C#-ban az Aspose.Words segítségével – Teljes útmutató](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Tanulja meg, hogyan adhat hozzá címkéket a kördiagramokhoz C#-ban az Aspose.Words segítségével ebben a részletes útmutatóban. |
 | [Százalékok megjelenítése diagramon az Aspose.Words C#-val](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Tanulja meg, hogyan jelenítheti meg a százalékos értékeket diagramokban az Aspose.Words for .NET C# használatával. |
 | [Egyéni adatcímke elhelyezése diagramokban C#‑ban](./custom-data-label-placement-for-charts-in-c/) | Tanulja meg, hogyan helyezhet el egyéni adatcímkéket diagramokban C#‑ban az Aspose.Words for .NET használatával. |
+| [Pité diagram létrehozása Wordben C#‑ban – lépésről‑lépésre útmutató](./create-pie-chart-word-in-c-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre kördiagramot Word dokumentumban C#‑ban az Aspose.Words for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -293,6 +293,7 @@ Lär dig hur du automatiskt laddar upp bilder till molnlagring under konverterin
 ### [Spara Word som Markdown – Exportera tabeller till HTML med Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/)
 Lär dig exportera tabeller till HTML när du sparar Word-dokument som Markdown med Aspose.Words för .NET.
 ### [Spara markdown som docx i C# – steg‑för‑steg‑guide](./save-markdown-as-docx-in-c-step-by-step-guide/)
+### [Spara markdown som Word – steg‑för‑steg‑guide för C#‑utvecklare](./save-markdown-as-word-step-by-step-guide-for-c-developers/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

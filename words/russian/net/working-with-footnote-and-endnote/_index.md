@@ -25,6 +25,7 @@
 | [Установить параметры концевой сноски](./set-endnote-options/) | Узнайте, как настроить параметры концевых сносов в документах Word с помощью Aspose.Words для .NET с помощью этого подробного руководства. |
 | [Изменить разделитель сносок в C# с помощью Aspose.Words](./change-footnote-separator-in-c-using-aspose-words/) | Узнайте, как изменить разделитель сносок в документах Word с помощью Aspose.Words для .NET на C#. |
 
+| [Получить разделитель сноски в C# – полное руководство Aspose.Words](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) | Узнайте, как получить разделитель сноски в документах Word с помощью Aspose.Words для .NET на C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

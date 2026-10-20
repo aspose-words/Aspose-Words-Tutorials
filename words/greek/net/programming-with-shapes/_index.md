@@ -69,6 +69,8 @@
 | [Δημιουργία κενής εγγράφου Word με κρυφό σχήμα έλλειψης – Πλήρης οδηγός C#](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word με κρυφό σχήμα έλλειψης χρησιμοποιώντας το Aspose.Words για .NET σε C#. |
 | [Αποθήκευση αρχείου docx με ομαδοποιημένα σχήματα στο Word χρησιμοποιώντας C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Μάθετε πώς να αποθηκεύετε αρχεία docx με σχήματα ομάδας στο Word χρησιμοποιώντας Aspose.Words για .NET και C#. |
 | [Πώς να κρύψετε σχήμα σε Word χρησιμοποιώντας C# – οδηγός βήμα‑βήμα](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Μάθετε πώς να κρύψετε ένα σχήμα σε έγγραφο Word με C# χρησιμοποιώντας το Aspose.Words για .NET, βήμα‑βήμα. |
+| [Πώς να ομαδοποιήσετε σχήματα στο Word και να προσθέσετε σχήματα σε έγγραφο Word](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Μάθετε πώς να ομαδοποιείτε σχήματα και να τα προσθέτετε σε έγγραφα Word χρησιμοποιώντας Aspose.Words για .NET. |
+| [Εισαγωγή σχήματος ορθογωνίου σε C# με Aspose.Words – οδηγός βήμα‑βήμα](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | Μάθετε πώς να δημιουργήσετε σχήμα ορθογωνίου σε C# χρησιμοποιώντας Aspose.Words, βήμα προς βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

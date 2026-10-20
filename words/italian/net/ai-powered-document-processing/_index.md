@@ -74,6 +74,8 @@ Infine, non dimenticare di dare un'occhiata al nostro [Lavorare con le opzioni d
 | [Creare un riepilogo del documento in C# – Guida completa OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Scopri come generare riepiloghi di documenti in C# usando i modelli OpenAI con Aspose.Words per .NET. |
 | [Riassumere documento Word con Aspose.Words AI – Guida completa](./summarize-word-document-with-aspose-words-ai-full-guide/) | Scopri come riassumere documenti Word usando Aspose.Words AI in una guida completa passo passo. |
 | [Sintesi di documenti AI in C# – guida completa](./ai-document-summarization-in-c-complete-guide/) | Scopri come riassumere documenti con AI usando C# e Aspose.Words per .NET in questa guida completa. |
+| [Creare un riepilogo AI in C# – guida passo‑passo](./create-ai-summary-in-c-step-by-step-guide/) | Guida dettagliata per creare riepiloghi AI in C# usando Aspose.Words per .NET, passo dopo passo. |
+| [Traduci docx in francese con AI in C#](./translate-docx-to-french-with-ai-in-c/) | Guida passo‑passo per tradurre file DOCX in francese usando l'intelligenza artificiale con Aspose.Words per .NET in C#. |
 | [Chiamare l'API OpenAI da C# – Guida completa per riscrivere paragrafi Word](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | Scopri come utilizzare l'API OpenAI in C# per riscrivere automaticamente i paragrafi dei documenti Word con Aspose.Words. |
 | [Come controllare la grammatica in C# con Aspose.Words AI – Guida completa](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Scopri come utilizzare l'AI di Aspose.Words per verificare la grammatica nei documenti Word con C# in modo semplice e accurato. |
 

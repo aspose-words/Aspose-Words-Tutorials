@@ -31,6 +31,7 @@ Ces tutoriels vous proposent une approche pratique et étape par étape du trait
 | [Créer un document Word avec un bouton ActiveX – Guide C#](./create-word-document-with-activex-button-c-guide/) | Apprenez à créer un document Word contenant un bouton ActiveX en C# avec Aspose.Words pour .NET, étape par étape. |
 | [Créer un bouton de document Word avec Aspose.Words – Exemple complet de code](./create-word-document-button-with-aspose-words-full-code-exam/) | Découvrez comment créer un bouton qui génère un document Word avec Aspose.Words, incluant le code complet étape par étape. |
 | [Ajouter un bouton de commande à un document Word avec Aspose.Words – Guide complet](./add-command-button-to-word-document-with-aspose-words-comple/) | Apprenez à ajouter un bouton de commande dans un document Word à l'aide d'Aspose.Words, avec un guide complet étape par étape. |
+| [Comment ajouter un contrôle ActiveX dans Word avec Aspose.Words – guide étape par étape](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Apprenez à insérer un contrôle ActiveX dans un document Word à l'aide d'Aspose.Words, avec un guide détaillé étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

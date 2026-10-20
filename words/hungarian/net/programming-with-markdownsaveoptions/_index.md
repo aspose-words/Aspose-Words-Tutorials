@@ -192,6 +192,8 @@ Ismerje meg, hogyan exportálhat DOCX fájlokat Markdown formátumba egy teljes 
 Ismerje meg, hogyan exportálhatja a Word táblázatokat HTML-be a Markdown mentés során az Aspose.Words használatával.
 ### [Markdown mentése DOCX-be C#‑ban – lépésről‑lépésre útmutató](./save-markdown-as-docx-in-c-step-by-step-guide/)
 Ismerje meg, hogyan konvertálhat Markdown fájlokat DOCX formátumba C#‑ban az Aspose.Words for .NET segítségével.
+### [Markdown mentése Word-be – lépésről‑lépésre útmutató C# fejlesztőknek](./save-markdown-as-word-step-by-step-guide-for-c-developers/)
+Ismerje meg, hogyan menthet Markdown fájlokat Word formátumba C# fejlesztőknek szóló részletes útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

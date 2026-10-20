@@ -30,6 +30,7 @@ Các hướng dẫn này cung cấp cho bạn cách tiếp cận thực hành, t
 | [Đọc Thuộc Tính Active XControl Từ Tệp Word](./read-active-xcontrol-properties/) | Tìm hiểu cách đọc thuộc tính điều khiển ActiveX từ các tệp Word bằng Aspose.Words cho .NET theo hướng dẫn từng bước. Nâng cao kỹ năng tự động hóa tài liệu của bạn. |
 | [Tạo tài liệu Word với nút ActiveX – Hướng dẫn C#](./create-word-document-with-activex-button-c-guide/) | Tìm hiểu cách tạo tài liệu Word có nút ActiveX bằng C# với Aspose.Words cho .NET trong hướng dẫn chi tiết này. |
 | [Tạo nút tài liệu Word với Aspose.Words – Ví dụ mã đầy đủ](./create-word-document-button-with-aspose-words-full-code-exam/) | Tìm hiểu cách tạo nút để tạo tài liệu Word bằng Aspose.Words với ví dụ mã đầy đủ. |
+| [Cách thêm điều khiển ActiveX vào Word với Aspose.Words – hướng dẫn từng bước](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Hướng dẫn chi tiết cách chèn điều khiển ActiveX vào tài liệu Word bằng Aspose.Words. |
 
 | [Thêm Nút Lệnh vào Tài Liệu Word với Aspose.Words – Hướng Dẫn Đầy Đủ](./add-command-button-to-word-document-with-aspose-words-comple/) | Hướng dẫn chi tiết cách chèn và cấu hình nút lệnh trong tài liệu Word bằng Aspose.Words cho .NET. |
 

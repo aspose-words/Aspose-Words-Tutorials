@@ -26,6 +26,7 @@
 | --- | --- |
 | [إضافة شكل المجموعة](./add-group-shape/) |تعرف على كيفية إضافة أشكال المجموعة إلى مستندات Word باستخدام Aspose.Words for .NET من خلال هذا البرنامج التعليمي الشامل خطوة بخطوة. |
 | [إدراج الشكل](./insert-shape/) |تعرف على كيفية إدراج الأشكال ومعالجتها في مستندات Word باستخدام Aspose.Words for .NET من خلال دليلنا خطوة بخطوة. |
+| [كيفية تجميع الأشكال في Word وإضافة أشكال إلى مستند Word](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | تعلم كيفية تجميع الأشكال وإضافتها إلى مستندات Word باستخدام Aspose.Words for .NET خطوة بخطوة. |
 | [نسبة العرض إلى الارتفاع مقفلة](./aspect-ratio-locked/) | تعلّم كيفية تثبيت نسبة أبعاد الأشكال في مستندات Word باستخدام Aspose.Words لـ .NET. اتبع هذا الدليل خطوة بخطوة للحفاظ على تناسب صورك وأشكالك. |
 | [التخطيط في الخلية](./layout-in-cell/) تعرّف على كيفية ضبط تخطيط الخلية باستخدام Aspose.Words لـ .NET من خلال هذا الدليل الشامل. مثالي للمطورين الذين يرغبون في تخصيص مستندات Word. |
 | [التخطيط في الخلية](./layout-in-cell/) | تعرّف على كيفية ضبط تخطيط الخلية باستخدام Aspose.Words لـ .NET من خلال هذا الدليل الشامل. مثالي للمطورين الذين يرغبون في تخصيص مستندات Word. |
@@ -69,6 +70,7 @@
 | [إنشاء مستند Word فارغ مع شكل بيضاوي مخفي – دليل C# كامل](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | تعلم كيفية إنشاء مستند Word فارغ وإضافة شكل بيضاوي مخفي باستخدام Aspose.Words وC# خطوة بخطوة. |
 | [حفظ ملف docx بأشكال مجموعة في Word باستخدام C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | تعلم كيفية حفظ مستند Word يحتوي على أشكال مجموعة باستخدام C#. |
 | [كيفية إخفاء الشكل في Word باستخدام C# – دليل خطوة بخطوة](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | تعلم كيفية إخفاء الأشكال في مستندات Word باستخدام C# من خلال دليل خطوة بخطوة. |
+| [إدراج شكل مستطيل في C# باستخدام Aspose.Words – دليل خطوة بخطوة](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | تعلم كيفية إدراج شكل مستطيل في مستند Word باستخدام C# و Aspose.Words خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -27,6 +27,7 @@ Bằng cách sử dụng Aspose.Words cho .NET và làm theo các hướng dẫn
 | [Thêm hình dạng nhóm](./add-group-shape/) | Tìm hiểu cách thêm hình dạng nhóm vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này. |
 | [Nhóm hình dạng trong Word với Aspose.Words – Hướng dẫn C# đầy đủ](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Hướng dẫn chi tiết cách nhóm các hình dạng trong tài liệu Word bằng Aspose.Words cho .NET sử dụng C#. |
 | [Chèn hình dạng](./insert-shape/) | Tìm hiểu cách chèn và thao tác hình dạng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. |
+| [Chèn hình chữ nhật trong C# với Aspose.Words – hướng dẫn từng bước](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | Hướng dẫn chi tiết cách chèn hình chữ nhật vào tài liệu Word bằng C# và Aspose.Words. |
 | [Tỷ lệ khung hình đã khóa](./aspect-ratio-locked/) | Tìm hiểu cách khóa tỷ lệ khung hình của hình dạng trong tài liệu Word bằng Aspose.Words cho .NET. Thực hiện theo hướng dẫn từng bước này để giữ cho hình ảnh và hình dạng của bạn cân đối. |
 | [Bố trí trong ô](./layout-in-cell/) | Tìm hiểu cách thiết lập bố cục trong ô bằng Aspose.Words cho .NET với hướng dẫn toàn diện này. Hoàn hảo cho các nhà phát triển muốn tùy chỉnh tài liệu Word. |
 | [Thêm góc cắt](./add-corners-snipped/) | Tìm hiểu cách thêm hình dạng cắt góc vào tài liệu Word của bạn bằng Aspose.Words cho .NET. Hướng dẫn từng bước này đảm bảo bạn có thể cải thiện tài liệu của mình một cách dễ dàng. |
@@ -69,6 +70,7 @@ Bằng cách sử dụng Aspose.Words cho .NET và làm theo các hướng dẫn
 | [Tạo tài liệu Word trống với hình ellipse ẩn – Hướng dẫn đầy đủ C#](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Hướng dẫn chi tiết cách tạo tài liệu Word trống và chèn một hình ellipse ẩn bằng Aspose.Words cho .NET và C#. |
 | [Lưu tệp docx với các hình dạng nhóm trong Word bằng C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Hướng dẫn lưu tài liệu Word chứa các hình dạng nhóm bằng C# và Aspose.Words. |
 | [cách ẩn hình dạng trong Word bằng C# – hướng dẫn từng bước](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Tìm hiểu cách ẩn một hình dạng trong tài liệu Word bằng Aspose.Words cho .NET và C# qua hướng dẫn chi tiết từng bước. |
+| [Cách nhóm các hình dạng trong Word và thêm hình dạng vào tài liệu Word](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Hướng dẫn cách nhóm và chèn hình dạng vào tài liệu Word bằng Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -40,6 +40,7 @@ Kodexemplen i handledningarna hjälper dig att förstå koncepten och öva på S
 | [Hur du lägger till innehållskontroll och skapar Word-dokument med Aspose – Komplett guide](./how-to-add-content-control-and-create-word-document-with-asp/) | Steg-för-steg-guide för att lägga till innehållskontroller och skapa Word-dokument med Aspose.Words för .NET. |
 | [Skapa Word-dokument programatiskt – lägg till innehållskontroll och platshållare](./create-word-document-programmatically-add-content-control-an/) | Lär dig hur du skapar ett Word-dokument programatiskt och lägger till en innehållskontroll med en platshållare med Aspose.Words för .NET. |
 
+| [Hur man skapar innehållskontroll i C# med Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Lär dig steg för steg hur du skapar en innehållskontroll i C# med Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

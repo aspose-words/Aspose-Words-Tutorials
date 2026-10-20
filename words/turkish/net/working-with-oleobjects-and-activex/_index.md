@@ -31,6 +31,8 @@ Bu eğitimler size Aspose.Words for .NET'te OLE ve ActiveX nesneleriyle Word İ�
 | [ActiveX Düğmesiyle Word Belgesi Oluştur – C# Kılavuzu](./create-word-document-with-activex-button-c-guide/) | Aspose.Words for .NET kullanarak C# ile bir ActiveX düğmesi ekleyerek Word belgesi oluşturmayı adım adım öğrenin. |
 | [Aspose.Words ile Word Belgesi Düğmesi Oluştur – Tam Kod Örneği](./create-word-document-button-with-aspose-words-full-code-exam/) | Aspose.Words kullanarak bir Word belgesi oluşturma düğmesi eklemek için tam kod örneği. |
 | [Aspose.Words ile Word Belgesine Komut Düğmesi Ekle – Tam Kılavuz](./add-command-button-to-word-document-with-aspose-words-comple/) | Aspose.Words for .NET kullanarak Word belgesine komut düğmesi eklemeyi adım adım öğrenin. |
+| [Aspose.Words ile Word'e ActiveX denetimi ekleme – adım adım kılavuz](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Aspose.Words kullanarak Word belgesine ActiveX denetimi eklemenin adım adım rehberi. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

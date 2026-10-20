@@ -32,6 +32,7 @@ Deze tutorials bieden u een praktische, stapsgewijze aanpak voor tekstverwerking
 | [Word-documentknop maken met Aspose.Words – Volledig codevoorbeeld](./create-word-document-button-with-aspose-words-full-code-exam/) | Leer hoe u een knop maakt die een Word-document genereert met Aspose.Words, inclusief volledige code. |
 
 | [Opdrachtknop toevoegen aan Word-document met Aspose.Words – Complete gids](./add-command-button-to-word-document-with-aspose-words-comple/) | Leer hoe u een opdrachtknop aan een Word-document toevoegt met Aspose.Words voor .NET in deze volledige gids. |
+| [ActiveX-besturingselement toevoegen in Word met Aspose.Words – stapsgewijze handleiding](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Leer hoe u een ActiveX-besturingselement in een Word-document invoegt met Aspose.Words in deze stapsgewijze handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -31,6 +31,8 @@ Questi tutorial offrono un approccio pratico e passo dopo passo all'elaborazione
 | [Crea documento Word con pulsante ActiveX – Guida C#](./create-word-document-with-activex-button-c-guide/) | Scopri come creare un documento Word con un pulsante ActiveX usando C# e Aspose.Words per .NET in questa guida passo passo. |
 | [Crea pulsante documento Word con Aspose.Words – Esempio di codice completo](./create-word-document-button-with-aspose-words-full-code-exam/) | Scopri come creare un pulsante per generare documenti Word usando Aspose.Words con un esempio di codice completo. |
 | [Aggiungi pulsante di comando al documento Word con Aspose.Words – Guida completa](./add-command-button-to-word-document-with-aspose-words-comple/) | Scopri come aggiungere un pulsante di comando a un documento Word usando Aspose.Words per .NET, con esempi passo passo. |
+| [Come aggiungere un controllo ActiveX in Word con Aspose.Words – guida passo‑passo](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Scopri come inserire un controllo ActiveX nei documenti Word usando Aspose.Words per .NET, con istruzioni dettagliate passo dopo passo. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

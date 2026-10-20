@@ -31,6 +31,7 @@ Dessa handledningar ger dig en praktisk steg-för-steg-metod för ordbehandling 
 | [Skapa Word-dokument med ActiveX-knapp – C#-guide](./create-word-document-with-activex-button-c-guide/) | Lär dig hur du skapar ett Word-dokument med en ActiveX-knapp i C# med Aspose.Words för .NET. |
 | [Skapa Word-dokumentknapp med Aspose.Words – Fullständigt kodexempel](./create-word-document-button-with-aspose-words-full-code-exam/) | Lär dig hur du skapar en knapp som genererar ett Word-dokument med Aspose.Words, komplett kodexempel. |
 | [Lägg till kommandoknapp i Word-dokument med Aspose.Words – Komplett guide](./add-command-button-to-word-document-with-aspose-words-comple/) | Lär dig hur du lägger till en kommandoknapp i ett Word-dokument med Aspose.Words för .NET i en steg-för-steg-guide. |
+| [Infoga ActiveX-kontroll i Word med Aspose.Words - steg-för-steg-guide](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Lär dig hur du lägger till en ActiveX‑kontroll i ett Word‑dokument med Aspose.Words för .NET i en detaljerad steg‑för‑steg‑guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

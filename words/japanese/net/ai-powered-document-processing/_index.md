@@ -75,6 +75,8 @@
 | [C# でドキュメント要約を作成 – 完全 OpenAI ガイド](./create-document-summary-in-c-complete-openai-guide/) Aspose.Words と OpenAI を組み合わせて、C# で高精度なドキュメント要約を作成する手順を詳しく解説します。 |
 | [Aspose.Words AI で Word 文書を要約する完全ガイド](./summarize-word-document-with-aspose-words-ai-full-guide/) Aspose.Words AI を活用し、Word 文書を自動的に要約する方法をステップバイステップで解説します。 |
 | [C# における AI 文書要約 – 完全ガイド](./ai-document-summarization-in-c-complete-guide/) Aspose.Words for .NET と C# を使用して、AI を活用した文書要約を作成する完全ガイドです。ステップバイステップで解説します。 |
+| [C# で AI 要約を作成する – ステップバイステップ ガイド](./create-ai-summary-in-c-step-by-step-guide/) Aspose.Words for .NET と AI を組み合わせ、C# で文書要約を自動化する方法を段階的に解説します。 |
+| [C# で AI を使用して docx をフランス語に翻訳](./translate-docx-to-french-with-ai-in-c/) Aspose.Words for .NET と AI を組み合わせ、C# で docx 文書をフランス語に自動翻訳する方法を解説します。 |
 | [C# から OpenAI API を呼び出す – Word 段落を書き換える完全ガイド](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) C# で OpenAI API を利用し、Word の段落を書き換える方法を学びます。 |
 | [C# で文法チェック – Aspose.Words AI 完全ガイド](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) C# で Aspose.Words AI を活用し、文書の文法チェックを行う方法を詳しく解説します。 |
 

@@ -58,13 +58,13 @@ Aspose.Words มีชุดคงที่ `ControlChar` ที่หลาก�
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 หากคุณต้องการใช้ Gradle ให้ใช้โค้ดต่อไปนี้:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ## การรับไลเซนส์
 เพื่อใช้ประโยชน์จาก Aspose.Words อย่างเต็มที่ คุณจะต้องมีไฟล์ไลเซนส์:
@@ -76,7 +76,7 @@ implementation 'com.aspose:aspose-words:25.3'
 ```java
 License license = new License();
 license.setLicense("path/to/aspose.words.lic");
-```
+```  
 
 ## คู่มือการนำไปใช้
 เราจะแบ่งการนำไปใช้เป็นสองฟีเจอร์หลัก: การจัดการ carriage return และการแทรกอักขระควบคุม

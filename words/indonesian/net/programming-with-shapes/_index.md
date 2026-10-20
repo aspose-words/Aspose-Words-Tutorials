@@ -25,6 +25,7 @@ Dengan menggunakan Aspose.Words untuk .NET dan mengikuti tutorial ini, Anda akan
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Tambahkan Bentuk Grup](./add-group-shape/) | Pelajari cara menambahkan bentuk grup ke dokumen Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah yang komprehensif ini. Bahasa Indonesia:
+| [Cara mengelompokkan bentuk di Word dan menambahkan bentuk ke dokumen Word](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Pelajari cara mengelompokkan bentuk dan menambahkannya ke dokumen Word menggunakan Aspose.Words untuk .NET. Bahasa Indonesia:
 | [Sisipkan Bentuk](./insert-shape/) | Pelajari cara menyisipkan dan memanipulasi bentuk dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Bahasa Indonesia:
 | [Rasio Aspek Terkunci](./aspect-ratio-locked/) | Pelajari cara mengunci rasio aspek bentuk dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah ini untuk menjaga gambar dan bentuk Anda tetap proporsional. Bahasa Indonesia:
 | [Tata Letak Dalam Sel](./layout-in-cell/) | Pelajari cara mengatur tata letak dalam sel menggunakan Aspose.Words untuk .NET dengan panduan lengkap ini. Sempurna bagi pengembang yang ingin menyesuaikan dokumen Word. Bahasa Indonesia:
@@ -67,6 +68,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat Dokumen Word Kosong dengan Bentuk Elips Tersembunyi – Panduan Lengkap C#](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Pelajari cara membuat dokumen Word kosong dan menambahkan bentuk elips tersembunyi menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah. |
 | [Simpan file docx dengan bentuk grup di Word menggunakan C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Pelajari cara menyimpan file docx yang berisi bentuk grup di Word menggunakan C# dengan Aspose.Words. Bahasa Indonesia: |
 | [Cara menyembunyikan bentuk di Word menggunakan C# – panduan langkah demi langkah](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Pelajari cara menyembunyikan bentuk di dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. |
+| [Menyisipkan bentuk persegi panjang di C# dengan Aspose.Words – panduan langkah demi langkah](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | Pelajari cara menyisipkan bentuk persegi panjang di dokumen Word menggunakan C# dan Aspose.Words dengan panduan langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

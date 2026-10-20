@@ -24,6 +24,8 @@
 | [각주 및 미주 위치 설정](./set-footnote-and-end-note-position/) | Aspose.Words for .NET을 사용하여 Word 문서에서 각주와 미주 위치를 설정하는 방법을 이 자세한 단계별 가이드를 통해 알아보세요. |
 | [각주 옵션 설정](./set-endnote-options/) | 이 포괄적인 단계별 가이드를 통해 Aspose.Words for .NET을 사용하여 Word 문서에서 각주 옵션을 설정하는 방법을 알아보세요. |
 | [C#에서 Aspose.Words를 사용해 각주 구분자 변경](./change-footnote-separator-in-c-using-aspose-words/) | Aspose.Words for .NET을 사용하여 C#에서 Word 문서의 각주 구분자를 변경하는 방법을 단계별로 안내합니다. |
+| [C#에서 각주 구분자 가져오기 – 완전한 Aspose.Words 가이드](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) | Aspose.Words for .NET을 사용하여 C#에서 각주 구분자를 가져오는 방법을 단계별로 안내합니다. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
