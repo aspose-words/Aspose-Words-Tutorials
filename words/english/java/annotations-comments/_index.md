@@ -1,5 +1,5 @@
 ---
-title: "How to Manage Comments & Annotations with Aspose.Words for Java"
+title: "Add, Delete, and Mark Comments & Annotations with Aspose.Words for Java"
 description: "Learn how to manage comments, add annotation, insert comment, delete word comments, and mark comment done in Word documents using Aspose.Words for Java. Step‑by‑step guide with real‑world examples."
 weight: 11
 url: "/java/annotations-comments/"
@@ -102,14 +102,6 @@ Learn how to apply heading style footnotes using Aspose.Words for Java.
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}{{< /blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
 ## Frequently asked questions
 
 **Q: Can I programmatically update the author of an existing comment?**  
@@ -132,3 +124,11 @@ A: Process comments in batches, avoid loading the entire document repeatedly, an
 **Last Updated:** 2025-11-25  
 **Tested With:** Aspose.Words for Java 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}{{< /blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

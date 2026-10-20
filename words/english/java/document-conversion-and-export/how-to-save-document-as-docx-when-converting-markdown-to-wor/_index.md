@@ -52,7 +52,7 @@ tags:
 - docx
 - java
 - Aspose.Words
-title: How to use Aspose.Words to save a document as DOCX when converting Markdown to Word
+title: Convert Markdown to DOCX with Aspose.Words for Java – Save Document as Word
 url: /java/document-conversion-and-export/how-to-save-document-as-docx-when-converting-markdown-to-wor/
 ---
 
@@ -236,9 +236,7 @@ By mastering the **save document as docx** pattern, you can automate any documen
 
 *Happy coding! If you found this tutorial useful, consider sharing it with teammates or adding a star to the Aspose.Words GitHub repository.*
 
-
 ## What should you learn next?
-
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
@@ -249,4 +247,5 @@ The following tutorials cover closely related topics that build on the technique
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,5 +1,5 @@
 ---
-title: Add Watermark to DOCX – Document Conversion and Export with Aspose.Words for Java
+title: Add Watermark to DOCX using Aspose.Words for Java API – Document Conversion and Export
 linktitle: Add Watermark to DOCX – Document Conversion and Export
 second_title: Aspose.Words Java Document Processing API
 description: Learn how to add watermark, convert docx to pdf, and generate barcode labels using Aspose.Words for Java. Comprehensive guide for document conversion and export.
@@ -70,7 +70,7 @@ By the end of these tutorials, you'll be equipped with the knowledge and skills 
 
 So, dive into the tutorials listed below and unlock the full potential of Aspose.Words for Java in your document‑related projects. Happy coding!
 
-For more information, check out the [Aspose.Words for Java API Documentation](https://reference.aspose.com/words/java/), and to get started, download the Aspose.Words for Java library from [download the Aspose.Words for Java library](https://releases.aspose.com/words/java/). If you have any questions or need assistance, feel free to reach out to our [support forum](https://forum.aspose.com/).
+For more information, check out the [Aspose.Words for Java API Documentation](https://reference.aspose.com/words/java/), and to get started, download the Aspose.Words for Java library from [download the Aspose.Words for Java library](https://releases.aspose.com/words/java/). If you have any questions or need assistance, feel free to reach out to our [Aspose.Words for Java support forum](https://forum.aspose.com/).
 
 ## Document conversion and export tutorials
 ### [Generating Custom Barcode Labels in Aspose.Words for Java](./generating-custom-barcode-labels/)

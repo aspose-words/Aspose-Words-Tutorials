@@ -1,6 +1,6 @@
 ---
-title: Manipulate Documents with Aspose.Words for Java
-linktitle: Manipulate Documents with Aspose.Words for Java
+title: Manipulate Documents Using Aspose.Words for Java API
+linktitle: Manipulate Documents Using Aspose.Words for Java API
 second_title: Aspose.Words Java Document Processing API
 description: Learn how to efficiently manipulate documents using Aspose.Words for Java with our comprehensive tutorials. Boost your Java document processing skills today!
 weight: 21
@@ -124,5 +124,6 @@ Learn how to set button text and insert an ActiveX button programmatically using
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

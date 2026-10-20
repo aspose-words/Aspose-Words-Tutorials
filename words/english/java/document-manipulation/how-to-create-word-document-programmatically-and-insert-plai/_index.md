@@ -31,7 +31,7 @@ tags:
 - content control
 - Aspose.Words
 - C#
-title: How to create a Word document programmatically with Aspose.Words and insert a plain text content control
+title: How to create a Word .docx document programmatically with Aspose.Words and insert a plain text content control
 url: /java/document-manipulation/how-to-create-word-document-programmatically-and-insert-plai/
 ---
 
@@ -217,11 +217,11 @@ Experiment with different tag types and explore the Aspose.Words API to build so
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Add a Combo Box Form Field to a Word Document with Aspose.Words for .NET](words/english/net/add-content-using-documentbuilder/insert-combo-box/)
-- [Insert Text Input Form Field In Word Document](words/english/net/add-content-using-documentbuilder/insert-text-input-form-field/)
-- [Add a Check Box Form Field to a Word Document with Aspose.Words for .NET](words/english/net/add-content-using-documentbuilder/insert-check-box/)
+- [Add a Combo Box Form Field to a Word Document with Aspose.Words for .NET]({{< relref "words/english/net/add-content-using-documentbuilder/insert-combo-box" >}})
+- [Insert Text Input Form Field In Word Document]({{< relref "words/english/net/add-content-using-documentbuilder/insert-text-input-form-field" >}})
+- [Add a Check Box Form Field to a Word Document with Aspose.Words for .NET]({{< relref "words/english/net/add-content-using-documentbuilder/insert-check-box" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

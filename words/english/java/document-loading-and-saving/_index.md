@@ -1,6 +1,6 @@
 ---
-title: Save Images from Word Documents Using Aspose.Words for Java API
-linktitle: Save Images from Word Documents Using Aspose.Words for Java API
+title: Extract and Save Images from Word Documents Using Aspose.Words for Java API
+linktitle: Extract and Save Images from Word Documents Using Aspose.Words for Java API
 second_title: Aspose.Words Java Document Processing API
 description: Learn how to save images from Word documents and efficiently load and save files using Aspose.Words for Java. Includes save pdf java, convert word html java, and more.
 weight: 20
@@ -94,80 +94,80 @@ Explore the versatility of Aspose.Words for Java as we delve into saving documen
 Document settings are the key to delivering documents tailored to your exact requirements. Learn how to tweak settings such as page size, margins, and fonts to achieve the desired output.
 
 ## Related tutorials – load, save, and convert
-### [Loading and Saving HTML Documents with Aspose.Words for Java](./loading-and-saving-html-documents/)
+### [Loading and Saving HTML Documents with Aspose.Words for Java]({{< relref "loading-and-saving-html-documents/_index.md" >}})
 Learn how to load and save HTML documents in Java using Aspose.Words for Java. Step-by-step guide with code examples for seamless document integration.
 
-### [Working with Load Options in Aspose.Words for Java](./using-load-options/)
+### [Working with Load Options in Aspose.Words for Java]({{< relref "using-load-options/_index.md" >}})
 Mastering Load Options in Aspose.Words for Java. Customize document loading, handle encryption, convert shapes, set Word versions, and more for efficient Java document processing.
 
-### [Create load options in java – detect missing fonts & how to load dOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
+### [Create load options in java – detect missing fonts & how to load dOCX]({{< relref "create-load-options-in-java-detect-missing-fonts-how-to-load/_index.md" >}})
 
-### [Configuring RTF Load Options in Aspose.Words for Java](./configuring-rtf-load-options/)
+### [Configuring RTF Load Options in Aspose.Words for Java]({{< relref "configuring-rtf-load-options/_index.md" >}})
 Configuring RTF Load Options in Aspose.Words for Java. Learn how to recognize UTF-8 text in RTF documents. Step-by-step guide with code examples.
 
-### [Loading Text Files with Aspose.Words for Java](./loading-text-files/)
+### [Loading Text Files with Aspose.Words for Java]({{< relref "loading-text-files/_index.md" >}})
 Unlock the Power of Aspose.Words for Java. Learn to Load Text Documents, Manage Lists, Handle Spaces, and Control Text Direction.
 
-### [How to Recover DOCX Files with Aspose.Words – Step‑by‑Step Guide](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
+### [How to Recover DOCX Files with Aspose.Words – Step‑by‑Step Guide]({{< relref "how-to-recover-docx-files-with-aspose-words-step-by-step-gui/_index.md" >}})
 Step‑by‑step guide to recover corrupted DOCX files using Aspose.Words, covering detection, repair options, and saving restored documents.
-### [how to recover docx – save recovered document using Java](./how-to-recover-docx-save-recovered-document-using-java/)
+### [how to recover docx – save recovered document using Java]({{< relref "how-to-recover-docx-save-recovered-document-using-java/_index.md" >}})
 Learn how to recover a corrupted DOCX file and save the recovered document using Aspose.Words for Java.
-### [How to recover docx with Aspose.Words – Enable Recovery Mode](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
+### [How to recover docx with Aspose.Words – Enable Recovery Mode]({{< relref "how-to-recover-docx-with-aspose-words-enable-recovery-mode/_index.md" >}})
 Learn how to enable recovery mode in Aspose.Words for Java to repair corrupted DOCX files and extract content safely.
 
-### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
+### [Advance Saving Options with Aspose.Words for Java]({{< relref "advance-saving-options/_index.md" >}})
 Learn advanced document manipulation with Aspose.Words for Java. Encrypt, handle metafiles, and more. Your Word documents, your way.
 
-### [Saving HTML Documents with Fixed Layout in Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
+### [Saving HTML Documents with Fixed Layout in Aspose.Words for Java]({{< relref "saving-html-documents-with-fixed-layout/_index.md" >}})
 Learn how to save HTML documents with fixed layout in Aspose.Words for Java. Follow our step-by-step guide for seamless document formatting.
 
-### [Advance HTML documents saving options with Aspose.Words java](./advance-html-documents-saving-options/)
+### [Advance HTML documents saving options with Aspose.Words java]({{< relref "advance-html-documents-saving-options/_index.md" >}})
 In this tutorial, we have covered various advanced HTML document saving options with Aspose.Words for Java. These options empower you to create high-quality HTML.
 
-### [Saving Images from Documents in Aspose.Words for Java](./saving-images-from-documents/)
+### [Saving Images from Documents in Aspose.Words for Java]({{< relref "saving-images-from-documents/_index.md" >}})
 Learn how to save images from documents using Aspose.Words for Java with our comprehensive step-by-step guide. Customize formats, compression, and more.
 
-### [Saving Documents as Markdown in Aspose.Words for Java](./saving-documents-as-markdown/)
+### [Saving Documents as Markdown in Aspose.Words for Java]({{< relref "saving-documents-as-markdown/_index.md" >}})
 Learn how to convert Word documents to Markdown with Aspose.Words for Java. This step-by-step guide covers table alignment, image handling, and more.
 
-### [Saving Documents as ODT Format in Aspose.Words for Java](./saving-documents-as-odt-format/)
+### [Saving Documents as ODT Format in Aspose.Words for Java]({{< relref "saving-documents-as-odt-format/_index.md" >}})
 Learn how to save documents in ODT format using Aspose.Words for Java. Ensure compatibility with open-source office suites. 
 
-### [Saving Documents as OOXML Format in Aspose.Words for Java](./saving-documents-as-ooxml-format/)
+### [Saving Documents as OOXML Format in Aspose.Words for Java]({{< relref "saving-documents-as-ooxml-format/_index.md" >}})
 Learn how to save documents in OOXML format with Aspose.Words for Java. Secure, optimize, and customize your files effortlessly. 
 
-### [Saving Documents as PCL Format in Aspose.Words for Java](./saving-documents-as-pcl-format/)
+### [Saving Documents as PCL Format in Aspose.Words for Java]({{< relref "saving-documents-as-pcl-format/_index.md" >}})
 Learn how to save documents in PCL format using Aspose.Words for Java. Step-by-step guide and code examples for efficient document conversion.
 
-### [Saving Documents as PDF in Aspose.Words for Java](./saving-documents-as-pdf/)
+### [Saving Documents as PDF in Aspose.Words for Java]({{< relref "saving-documents-as-pdf/_index.md" >}})
 Learn how to save Word documents as PDF using Aspose.Words for Java. Customize fonts, properties, and image quality. A comprehensive guide for PDF conversion.
 
-### [Saving Documents as RTF Format in Aspose.Words for Java](./saving-documents-as-rtf-format/)
+### [Saving Documents as RTF Format in Aspose.Words for Java]({{< relref "saving-documents-as-rtf-format/_index.md" >}})
 Learn how to save documents as RTF format using Aspose.Words for Java. Step-by-step guide with source code for efficient document conversion.
 
-### [Saving Documents as Text Files in Aspose.Words for Java](./saving-documents-as-text-files/)
+### [Saving Documents as Text Files in Aspose.Words for Java]({{< relref "saving-documents-as-text-files/_index.md" >}})
 Learn how to save documents as text files in Aspose.Words for Java. Follow our step-by-step guide with Java code examples.
 
-### [Determining Document Format in Aspose.Words for Java](./determining-document-format/)
+### [Determining Document Format in Aspose.Words for Java]({{< relref "determining-document-format/_index.md" >}})
 Learn how to detect document formats in Java with Aspose.Words. Identify DOC, DOCX, and more. Organize files efficiently.
 
-### [How to Recover DOCX – Load Corrupted Files with Recovery Options](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
+### [How to Recover DOCX – Load Corrupted Files with Recovery Options]({{< relref "how-to-recover-docx-load-corrupted-files-with-recovery-optio/_index.md" >}})
 Learn how to load corrupted DOCX files and recover content using Aspose.Words for Java recovery options.
 
-### [How to recover docx – Complete Guide to Read Corrupted Word Files](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+### [How to recover docx – Complete Guide to Read Corrupted Word Files]({{< relref "how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/_index.md" >}})
 Learn how to recover and read corrupted DOCX files using Aspose.Words for Java with step‑by‑step instructions and code samples.
 
-### [Recover corrupted docx – Complete Guide to Fix and Process Documents](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+### [Recover corrupted docx – Complete Guide to Fix and Process Documents]({{< relref "recover-corrupted-docx-complete-guide-to-fix-and-process-doc/_index.md" >}})
 Learn how to repair corrupted DOCX files and process them using Aspose.Words for Java.
 
-### [Capture font substitution warnings in java with Aspose.Words – complete guide](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+### [Capture font substitution warnings in java with Aspose.Words – complete guide]({{< relref "capture-font-substitution-warnings-in-java-with-aspose-words/_index.md" >}})
 Learn how to capture and handle font substitution warnings in Java using Aspose.Words, ensuring accurate document rendering.
-### [set recovery mode to recover broken Word document](./set-recovery-mode-to-recover-broken-word-document/)
+### [set recovery mode to recover broken Word document]({{< relref "set-recovery-mode-to-recover-broken-word-document/_index.md" >}})
 
-### [How to Get Missing Fonts in Java – Aspose.Words Guide](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
+### [How to Get Missing Fonts in Java – Aspose.Words Guide]({{< relref "how-to-get-missing-fonts-in-java-aspose-words-guide/_index.md" >}})
 Learn how to identify and retrieve missing fonts in Java using Aspose.Words, ensuring proper document rendering.
 
-### [How to set Big5 encoding when loading a DOCX file in Java](./how-to-set-big5-encoding-when-loading-a-docx-file-in-java/)
+### [How to set Big5 encoding when loading a DOCX file in Java]({{< relref "how-to-set-big5-encoding-when-loading-a-docx-file-in-java/_index.md" >}})
 Learn how to set Big5 encoding for loading DOCX files with Aspose.Words for Java, ensuring correct handling of Traditional Chinese characters.
 
 ## Frequently asked questions

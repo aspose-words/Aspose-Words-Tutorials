@@ -1,5 +1,5 @@
 ---
-title: "Learn to Insert Images & Shapes with Aspose.Words for Java | Master Your Docs"
+title: "Learn to Insert Images & Shapes with Aspose.Words for Java API | Master Your Docs"
 description: "Enhance your Java applications with Aspose.Words tutorials on images and shapes. Learn to seamlessly integrate visual elements into documents for professional-grade outputs."
 weight: 6
 url: "/java/images-shapes/"
@@ -67,5 +67,6 @@ Learn how to apply shadow effects to shapes in Aspose.Words using C#, with step-
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -31,7 +31,7 @@ tags:
 - Java
 - Word processing
 - Document styling
-title: Apply heading style footnotes in Word documents with Aspose.Words for Java
+title: Apply heading style footnotes using Aspose.Words for Java
 url: /java/annotations-comments/apply-heading-style-footnotes-with-aspose-words-for-java/
 ---
 
@@ -219,4 +219,5 @@ The following tutorials cover closely related topics that build on the technique
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}

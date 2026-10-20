@@ -1,6 +1,6 @@
 ---
-title: Secure Documents with Aspose.Words for Java
-linktitle: Secure Documents with Aspose.Words for Java
+title: Implement Document Security with Aspose.Words for Java
+linktitle: Implement Document Security with Aspose.Words for Java
 second_title: Aspose.Words Java Document Processing API
 description: Enhance document security with Aspose.Words for Java! Implement protection, encryption, and digital signatures for robust data safeguarding. 
 weight: 17
@@ -56,5 +56,6 @@ Learn how to configure signature options and apply XAdES EPES signatures to Word
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

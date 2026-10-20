@@ -44,7 +44,7 @@ tags:
 - Java
 - Encoding
 - Document processing
-title: How to set Big5 encoding when loading a DOCX file in Java with Aspose.Words
+title: How to set Big5 encoding with Aspose.Words LoadOptions when loading a DOCX file in Java
 url: /java/document-loading-and-saving/how-to-set-big5-encoding-when-loading-a-docx-file-in-java/
 ---
 
@@ -227,11 +227,12 @@ Feel free to experiment with other encodings, adjust the save format, or combine
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- {{< relref "words/english/net/programming-with-loadoptions/load-with-encoding.md" >}}Load With Encoding In Word Document{{< /relref >}}
-- {{< relref "words/english/java/document-operations/load-rtf-with-utf8-java-asposewords.md" >}}How to Convert RTF Text with UTF-8 Encoding in Java Using Aspose.Words{{< /relref >}}
-- {{< relref "words/english/java/document-converting/using-document-converting.md" >}}Convert DOCX to PDF in Java with Aspose.Words – Using Document Converting{{< /relref >}}
+{{< relref "words/english/net/programming-with-loadoptions/load-with-encoding.md" >}}Load With Encoding In Word Document{{< /relref >}}
+{{< relref "words/english/java/document-operations/load-rtf-with-utf8-java-asposewords.md" >}}How to Convert RTF Text with UTF-8 Encoding in Java Using Aspose.Words{{< /relref >}}
+{{< relref "words/english/java/document-converting/using-document-converting.md" >}}Convert DOCX to PDF in Java with Aspose.Words – Using Document Converting{{< /relref >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
