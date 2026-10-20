@@ -73,6 +73,7 @@
 | [Εμφάνιση υπομνήματος γραφήματος στο Word με C# – Πλήρης οδηγός βήμα προς βήμα](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Μάθετε πώς να εμφανίζετε το υπομνήμα ενός γραφήματος σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET με C# σε πλήρη βήμα‑βήμα οδηγό. |
 | [Ανασπάσιμο φέτας πίτας σε C# με Aspose.Words – Πλήρης Οδηγός](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Μάθετε πώς να ανασπάσετε μια φέτα γραφήματος πίτας σε C# χρησιμοποιώντας το Aspose.Words, βήμα προς βήμα. |
 | [Προσθήκη ετικετών πίτας σε C# χρησιμοποιώντας Aspose.Words – Πλήρης Οδηγός](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Μάθετε πώς να προσθέσετε ετικέτες σε γράφημα πίτας σε C# χρησιμοποιώντας το Aspose.Words, με αναλυτικό βήμα‑βήμα οδηγό. |
+| [Πώς να εμφανίσετε ποσοστά σε γράφημα με Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Μάθετε πώς να εμφανίζετε ποσοστά σε γραφήματα χρησιμοποιώντας το Aspose.Words για .NET με αυτόν τον οδηγό βήμα προς βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

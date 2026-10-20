@@ -31,6 +31,7 @@ Các hướng dẫn này cung cấp cho bạn cách tiếp cận thực hành, t
 | [Tạo tài liệu Word với nút ActiveX – Hướng dẫn C#](./create-word-document-with-activex-button-c-guide/) | Tìm hiểu cách tạo tài liệu Word có nút ActiveX bằng C# với Aspose.Words cho .NET trong hướng dẫn chi tiết này. |
 | [Tạo nút tài liệu Word với Aspose.Words – Ví dụ mã đầy đủ](./create-word-document-button-with-aspose-words-full-code-exam/) | Tìm hiểu cách tạo nút để tạo tài liệu Word bằng Aspose.Words với ví dụ mã đầy đủ. |
 
+| [Thêm Nút Lệnh vào Tài Liệu Word với Aspose.Words – Hướng Dẫn Đầy Đủ](./add-command-button-to-word-document-with-aspose-words-comple/) | Hướng dẫn chi tiết cách chèn và cấu hình nút lệnh trong tài liệu Word bằng Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

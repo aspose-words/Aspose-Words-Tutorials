@@ -73,6 +73,7 @@
 | [إظهار وسيلة إيضاح المخطط في Word باستخدام C# – دليل شامل خطوة بخطوة](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | تعرّف على كيفية إظهار وسيلة إيضاح المخطط في مستند Word باستخدام Aspose.Words لـ .NET مع C# خطوة بخطوة. |
 | [تفجير شريحة مخطط دائري في C# باستخدام Aspose.Words – دليل كامل](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | تعرّف على كيفية تفجير شريحة مخطط دائري في C# باستخدام Aspose.Words خطوة بخطوة. |
 | [إضافة تسميات مخطط دائري في C# باستخدام Aspose.Words – دليل كامل](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | تعرّف على كيفية إضافة وتخصيص تسميات المخطط الدائري في C# باستخدام Aspose.Words خطوة بخطوة. |
+| [كيفية إظهار النسب المئوية في المخطط باستخدام Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | تعلم كيفية عرض القيم كنسب مئوية في المخططات باستخدام Aspose.Words لـ .NET مع C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

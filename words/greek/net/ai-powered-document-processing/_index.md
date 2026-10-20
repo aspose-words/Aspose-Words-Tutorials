@@ -75,6 +75,7 @@
 | [Μετάφραση docx στα γαλλικά με Aspose.Words και Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Μάθετε πώς να μεταφράζετε αρχεία docx στα γαλλικά χρησιμοποιώντας Aspose.Words για .NET και το Google Translate API. |
 | [Μετάφραση docx στα γαλλικά με Aspose.Words.AI – Πλήρης Οδηγός](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Μάθετε πώς να μεταφράζετε αρχεία docx στα γαλλικά χρησιμοποιώντας το Aspose.Words.AI με βήμα-βήμα οδηγίες. |
 | [Δημιουργία σύνοψης εγγράφου σε C# – Πλήρης οδηγός OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Μάθετε πώς να δημιουργήσετε πλήρη σύνοψη εγγράφου σε C# χρησιμοποιώντας το OpenAI με το Aspose.Words. |
+| [Σύνοψη εγγράφου Word με Aspose.Words AI – Πλήρης Οδηγός](./summarize-word-document-with-aspose-words-ai-full-guide/) | Μάθετε πώς να συνοψίζετε έγγραφα Word χρησιμοποιώντας το Aspose.Words AI με πλήρη οδηγό βήμα προς βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

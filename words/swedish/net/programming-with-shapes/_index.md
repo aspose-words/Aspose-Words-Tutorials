@@ -65,6 +65,8 @@ Genom att använda Aspose.Words för .NET och följa dessa handledningar kommer 
 | [Hur du flyttar skugga i Aspose.Words – Komplett C#‑guide](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | Lär dig hur du flyttar skuggan på former i Word-dokument med Aspose.Words för .NET i en komplett C#‑guide. |
 | [Gruppformer i Word med Aspose.Words – Komplett C#-guide](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Lär dig hur du skapar och hanterar gruppformer i Word-dokument med Aspose.Words för .NET i C# i denna kompletta guide. |
 | [Hur man döljer form i Word med C# – Steg‑för‑steg‑guide](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Lär dig hur du döljer en form i ett Word‑dokument med Aspose.Words för .NET i C# med denna steg‑för‑steg‑guide. |
+| [Rita rektangel i Word – Lägg till former i Word med Aspose](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Lär dig hur du ritar en rektangel i ett Word-dokument med Aspose.Words för .NET. |
+| [Skapa ett tomt Word-dokument med en dold ellipsform – Fullständig C#‑guide](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Lär dig hur du skapar ett tomt Word-dokument och lägger till en dold ellipsform med Aspose.Words för .NET i C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

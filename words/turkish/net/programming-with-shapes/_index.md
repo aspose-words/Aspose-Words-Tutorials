@@ -65,6 +65,8 @@ Aspose.Words for .NET'i kullanarak ve bu eğitimleri takip ederek, Word belgeler
 | [Word Şekline Gölge Ayarlama – C# Eğitimi](./how-to-set-shadow-on-a-word-shape-c-tutorial/) | Aspose.Words for .NET kullanarak Word belgelerindeki şekillere gölge eklemeyi adım adım öğrenin. |
 | [C#'ta Dikdörtgen Şekil Oluşturma ve Gölge Ekleme](./create-rectangle-shape-and-how-to-add-shadow-in-c/) | Aspose.Words for .NET kullanarak C# ile Word belgesine dikdörtgen şekil ekleyip gölge özelliğini nasıl ayarlayacağınızı öğrenin. |
 | [C# ile Word'de Şekli Gizleme – Adım Adım Kılavuz](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Aspose.Words for .NET ile C# kullanarak Word belgelerinde şekli nasıl gizleyeceğinizi adım adım öğrenin. |
+| [Word'de Dikdörtgen Çiz – Aspose ile Şekil Ekle](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Aspose.Words for .NET kullanarak Word belgesine dikdörtgen çizip şekil eklemeyi adım adım öğrenin. |
+| [Gizli Elips Şekilli Boş Word Belgesi Oluşturma – Tam C# Kılavuzu](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Aspose.Words for .NET ve C# kullanarak gizli bir elips şekli içeren boş bir Word belgesi oluşturmayı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

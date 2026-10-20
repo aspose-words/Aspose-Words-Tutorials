@@ -31,6 +31,7 @@ Tyto tutoriály vám poskytnou praktický a podrobný přístup ke zpracování 
 | [Vytvořit dokument Word s tlačítkem ActiveX – průvodce C#](./create-word-document-with-activex-button-c-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET vytvořit dokument Word s tlačítkem ActiveX v C#. |
 
 | [Vytvořit tlačítko pro dokument Word s Aspose.Words – kompletní příklad kódu](./create-word-document-button-with-aspose-words-full-code-exam/) | Naučte se, jak pomocí Aspose.Words vytvořit tlačítko, které generuje dokument Word, s kompletním ukázkovým kódem. |
+| [Přidání tlačítka Command do dokumentu Word s Aspose.Words – Kompletní průvodce](./add-command-button-to-word-document-with-aspose-words-comple/) | Naučte se, jak přidat tlačítko Command do dokumentu Word pomocí Aspose.Words v tomto podrobném návodu. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

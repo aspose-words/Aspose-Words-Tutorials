@@ -64,6 +64,8 @@
 | [Как переместить тень в Aspose.Words – Полное руководство на C#](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | Узнайте, как переместить тень фигуры в документах Word с помощью Aspose.Words для .NET в этом полном руководстве на C#. |
 | [Групповые фигуры в Word с Aspose.Words – Полное руководство на C#](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Узнайте, как работать с групповыми фигурами в документах Word, используя Aspose.Words и C# в полном пошаговом руководстве. |
 | [Как скрыть форму в Word с C# – пошаговое руководство](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Узнайте, как скрыть форму в документах Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
+| [Рисовать прямоугольник в Word – Добавление фигур в Word с Aspose](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Узнайте, как добавить прямоугольную форму в документ Word с помощью Aspose.Words для .NET. |
+| [Создать пустой документ Word со скрытой эллиптической фигурой – полное руководство C#](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Узнайте, как создать пустой документ Word с скрытой эллиптической фигурой с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -37,6 +37,7 @@
 | [Πολλαπλών Ενοτήτων](./multi-section/) Μάθετε πώς να εργάζεστε με ετικέτες δομημένων εγγράφων πολλαπλών ενοτήτων στο Aspose.Words για .NET με αυτό το βήμα προς βήμα σεμινάριο. Ιδανικό για δυναμικό χειρισμό εγγράφων. |
 | [Αρχικό Xml αντιστοίχισης εύρους ετικετών δομημένου εγγράφου](./structured-document-tag-range-start-xml-mapping/) | Μάθετε πώς να συνδέετε δυναμικά δεδομένα XML με ετικέτες δομημένων εγγράφων στο Word χρησιμοποιώντας το Aspose.Words για .NET. Ακολουθήστε τον αναλυτικό μας οδηγό. |
 | [Ορισμός κειμένου placeholder στο Aspose.Words – Πλήρης οδηγός C#](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Μάθετε πώς να ορίζετε κείμενο placeholder σε έγγραφα Word με το Aspose.Words χρησιμοποιώντας C#. |
+| [Πώς να προσθέσετε έλεγχο περιεχομένου και να δημιουργήσετε έγγραφο Word με το Aspose – Πλήρης οδηγός](./how-to-add-content-control-and-create-word-document-with-asp/) | Μάθετε πώς να προσθέσετε έλεγχο περιεχομένου και να δημιουργήσετε ένα έγγραφο Word με το Aspose.Words για .NET σε αυτόν τον πλήρη οδηγό. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

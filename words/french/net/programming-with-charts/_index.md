@@ -73,6 +73,7 @@ Grâce à ces tutoriels, vous pourrez enrichir vos documents Word en y ajoutant 
 | [Afficher la légende du graphique dans Word avec C# – Guide complet étape par étape](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Apprenez à afficher et personnaliser la légende d’un graphique dans Word avec Aspose.Words pour .NET grâce à ce guide complet étape par étape. |
 | [Exploser une tranche de graphique circulaire en C# avec Aspose.Words – Guide complet](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Apprenez à faire exploser une tranche d'un graphique en secteurs avec Aspose.Words pour .NET en C#, grâce à ce guide complet étape par étape. |
 | [Ajouter des étiquettes de graphique circulaire en C# avec Aspose.Words – Guide complet](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Apprenez à ajouter des étiquettes aux graphiques circulaires avec Aspose.Words pour .NET en C#, grâce à ce guide complet étape par étape. |
+| [Comment afficher les pourcentages dans un graphique avec Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Apprenez à afficher les pourcentages sur les graphiques dans Word avec Aspose.Words pour .NET grâce à ce guide étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

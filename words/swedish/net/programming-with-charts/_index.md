@@ -73,6 +73,7 @@ Med dessa handledningar kommer du att kunna förbättra dina Word-dokument genom
 | [Visa diagramförklaring i Word med C# – Komplett steg‑för‑steg‑guide](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Lär dig hur du visar diagramförklaringen i ett Word-dokument med Aspose.Words för .NET i en komplett steg‑för‑steg‑guide. |
 | [Explodera pajdiagramdel i C# med Aspose.Words – Fullständig guide](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Lär dig hur du exploderar en del av ett pajdiagram i C# med Aspose.Words i en steg-för-steg-guide. |
 | [Lägg till etiketter för pajdiagram i C# med Aspose.Words – Fullständig guide](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Lär dig hur du lägger till etiketter för pajdiagram i C# med Aspose.Words i en steg-för-steg-guide. |
+| [Visa procenttal i diagram med Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Lär dig hur du visar procentvärden i diagram i Word med Aspose.Words för .NET och C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -65,6 +65,8 @@ Korzystając z Aspose.Words dla .NET i postępując zgodnie z tymi samouczkami, 
 | [Jak ustawić cień na kształcie w Wordzie – samouczek C#](./how-to-set-shadow-on-a-word-shape-c-tutorial/) | Dowiedz się, jak dodać i konfigurować cień kształtu w dokumencie Word przy użyciu Aspose.Words dla .NET i C#. |
 | [Jak przenieść cień w Aspose.Words – kompletny przewodnik C#](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | Dowiedz się, jak przenieść cień kształtu w dokumencie Word przy użyciu Aspose.Words dla .NET i C#. |
 | [Jak ukryć kształt w Wordzie przy użyciu C# – przewodnik krok po kroku](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Dowiedz się, jak ukrywać kształty w dokumentach Word przy użyciu Aspose.Words dla .NET i C#. |
+| [Utwórz pusty dokument Word z ukrytym kształtem elipsy – pełny przewodnik C#](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Dowiedz się, jak utworzyć pusty dokument Word z ukrytym kształtem elipsy przy użyciu Aspose.Words dla .NET w C#, krok po kroku. |
+| [Rysowanie prostokąta w Word – Dodaj kształty w Word przy użyciu Aspose](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Dowiedz się, jak rysować prostokąt i dodawać kształty w dokumencie Word przy użyciu biblioteki Aspose.Words dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

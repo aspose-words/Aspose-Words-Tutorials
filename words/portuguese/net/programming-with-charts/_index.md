@@ -73,6 +73,7 @@ Com estes tutoriais, você poderá aprimorar seus documentos do Word adicionando
 | [Exibir legenda do gráfico no Word com C# – Guia completo passo a passo](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Aprenda a exibir a legenda de um gráfico em documentos do Word usando Aspose.Words para .NET com C# neste guia passo a passo. |
 | [Explodir fatia de gráfico de pizza em C# com Aspose.Words – Guia completo](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Aprenda a explodir uma fatia de gráfico de pizza usando Aspose.Words para .NET em C#. Guia completo passo a passo. |
 | [Adicionar rótulos de gráfico de pizza em C# usando Aspose.Words – Guia completo](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Aprenda a adicionar rótulos a gráficos de pizza no Word com Aspose.Words em C#. Guia passo a passo completo. |
+| [Como exibir porcentagens em um gráfico com Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Aprenda a exibir porcentagens em gráficos usando Aspose.Words para .NET com este guia passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

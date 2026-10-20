@@ -74,6 +74,7 @@
 | [使用 Aspose.Words 与 Google API 将 docx 翻译为法语](./translate-docx-to-french-with-aspose-words-and-google-api/) 使用 Aspose.Words for .NET 结合 Google 翻译 API，将 Word 文档快速翻译成法语，实现高效本地化。|
 | [使用 Aspose.Words.AI 将 docx 翻译为法语 – 完整指南](./translate-docx-to-french-with-aspose-words-ai-full-guide/) 使用 Aspose.Words for .NET 和 Aspose.Words.AI 将 docx 文档翻译为法语的完整指南，帮助您轻松实现多语言转换。|
 | [在 C# 中创建文档摘要 – 完整 OpenAI 指南](./create-document-summary-in-c-complete-openai-guide/) 使用 Aspose.Words for .NET 与 OpenAI 完整指南，在 C# 中创建高效的文档摘要。|
+| [使用 Aspose.Words AI 汇总 Word 文档 – 完整指南](./summarize-word-document-with-aspose-words-ai-full-guide/) 深入了解如何使用 Aspose.Words AI 完整地汇总 Word 文档，提升效率并获取关键洞察。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

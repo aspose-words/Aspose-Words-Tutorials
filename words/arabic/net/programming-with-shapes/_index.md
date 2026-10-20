@@ -31,7 +31,7 @@
 | [التخطيط في الخلية](./layout-in-cell/) | تعرّف على كيفية ضبط تخطيط الخلية باستخدام Aspose.Words لـ .NET من خلال هذا الدليل الشامل. مثالي للمطورين الذين يرغبون في تخصيص مستندات Word. |
 | [إضافة زوايا مقطوعة](./add-corners-snipped/) | تعرّف على كيفية إضافة شكل زوايا مقطوعة إلى مستندات Word باستخدام Aspose.Words لـ .NET. يضمن لك هذا الدليل التفصيلي تحسين مستنداتك بسهولة. |
 | [احصل على نقاط حدود الشكل الفعلية](./get-actual-shape-bounds-points/) | اكتشف كيفية الحصول على نقاط حدود الأشكال الفعلية في مستندات Word باستخدام Aspose.Words لـ .NET. تعلّم معالجة الأشكال بدقة مع هذا الدليل المفصل. |
-| [مرساة عمودية](./vertical-anchor/) | تعلّم كيفية ضبط مواضع الربط الرأسية لمربعات النص في مستندات Word باستخدام Aspose.Words لـ .NET. مرفق دليل سهل خطوة بخطوة. |
+| [مرساة عمودية](./vertical-anchor/) | تعلّم كيفية ضبط مواضع الربط الرأسية لمربعات النص في مستندات Word باستخدام Aspose.Words لـ .NET مرفق دليل سهل خطوة بخطوة. |
 | [اكتشاف شكل الفن الذكي](./detect-smart-art-shape/) | تعرّف على كيفية اكتشاف أشكال SmartArt في مستندات Word باستخدام Aspose.Words for .NET من خلال هذا الدليل الشامل. مثالي لأتمتة سير عمل مستنداتك. |
 | [تحديث رسم الفن الذكي](./update-smart-art-drawing/) | تعرّف على كيفية تحديث رسومات Smart Art في مستندات Word باستخدام Aspose.Words for .NET من خلال هذا الدليل المفصل. تأكد من دقة رسوماتك دائمًا. |
 | [إنشاء شكل مستطيل في Word باستخدام Aspose.Words – دليل خطوة بخطوة](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | تعلم كيفية إنشاء شكل مستطيل في مستند Word باستخدام Aspose.Words خطوة بخطوة. |
@@ -65,6 +65,8 @@
 | [كيفية نقل الظل في Aspose.Words – دليل كامل C#](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | تعلم كيفية تحريك الظل في شكل Word باستخدام Aspose.Words وC# خطوة بخطوة. |
 | [أشكال المجموعة في Word باستخدام Aspose.Words – دليل كامل C#](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | تعلم كيفية إنشاء وتعديل أشكال المجموعة في مستندات Word باستخدام Aspose.Words وC# خطوة بخطوة. |
 | [كيفية إخفاء الشكل في Word باستخدام C# – دليل خطوة بخطوة](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | تعرّف على طريقة إخفاء الأشكال في مستندات Word باستخدام Aspose.Words for .NET وC# من خلال دليل خطوة بخطوة. |
+| [رسم مستطيل في Word – إضافة أشكال في Word باستخدام Aspose](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | تعلم كيفية رسم مستطيل وإضافة أشكال إلى مستند Word باستخدام Aspose.Words for .NET خطوة بخطوة. |
+| [إنشاء مستند Word فارغ مع شكل بيضاوي مخفي – دليل C# كامل](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | تعلم كيفية إنشاء مستند Word فارغ وإضافة شكل بيضاوي مخفي باستخدام Aspose.Words وC# خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

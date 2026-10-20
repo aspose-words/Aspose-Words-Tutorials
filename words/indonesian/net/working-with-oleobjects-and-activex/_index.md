@@ -31,6 +31,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat Dokumen Word dengan Tombol ActiveX – Panduan C#](./create-word-document-with-activex-button-c-guide/) | Pelajari cara membuat dokumen Word dengan tombol ActiveX menggunakan Aspose.Words untuk .NET dalam panduan C# langkah demi langkah. |
 | [Buat tombol dokumen Word dengan Aspose.Words – Contoh Kode Lengkap](./create-word-document-button-with-aspose-words-full-code-exam/) | Pelajari cara membuat tombol untuk menghasilkan dokumen Word menggunakan Aspose.Words dengan contoh kode lengkap. |
 
+| [Menambahkan Tombol Perintah ke Dokumen Word dengan Aspose.Words – Panduan Lengkap](./add-command-button-to-word-document-with-aspose-words-comple/) | Pelajari cara menambahkan tombol perintah ke dokumen Word menggunakan Aspose.Words dalam panduan langkah demi langkah yang lengkap. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

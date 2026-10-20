@@ -74,6 +74,7 @@ Terakhir, jangan lupa untuk memeriksa [Bekerja Dengan Opsi Ringkasan](./working-
 | [Menerjemahkan docx ke Bahasa Prancis dengan Aspose.Words dan Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Pelajari cara menerjemahkan dokumen DOCX ke bahasa Prancis secara otomatis menggunakan Aspose.Words untuk .NET dan Google API. |
 | [Menerjemahkan docx ke bahasa Prancis dengan Aspose.Words.AI – Panduan Lengkap](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Pelajari cara menggunakan Aspose.Words.AI untuk menerjemahkan file docx ke bahasa Prancis secara otomatis dalam pandian lengkap. |
 | [Buat Ringkasan Dokumen dalam C# – Panduan Lengkap OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Pelajari cara membuat ringkasan dokumen secara otomatis menggunakan OpenAI dengan Aspose.Words untuk .NET dalam panduan langkah demi langkah. |
+| [Ringkas Dokumen Word dengan Aspose.Words AI – Panduan Lengkap](./summarize-word-document-with-aspose-words-ai-full-guide/) | Ringkas dokumen Word secara otomatis menggunakan AI Aspose.Words dengan panduan lengkap langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

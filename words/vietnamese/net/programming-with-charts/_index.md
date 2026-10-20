@@ -73,6 +73,7 @@ Với các hướng dẫn này, bạn sẽ có thể cải thiện tài liệu W
 | [Tùy chỉnh chuỗi biểu đồ đơn trong biểu đồ](./single-chart-series/) | Tìm hiểu cách tùy chỉnh chuỗi biểu đồ đơn trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm liền mạch. |
 | [Hiển thị chú giải biểu đồ trong Word bằng C# – Hướng dẫn chi tiết từng bước](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Tìm hiểu cách hiển thị chú giải biểu đồ trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước. |
 | [Tách miếng bánh biểu đồ tròn trong C# với Aspose.Words – Hướng dẫn đầy đủ](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Hướng dẫn chi tiết cách tách một miếng biểu đồ tròn trong Aspose.Words cho .NET bằng C#. |
+| [Cách hiển thị phần trăm trong biểu đồ với Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Tìm hiểu cách hiển thị phần trăm trong biểu đồ bằng Aspose.Words cho .NET với hướng dẫn từng bước này. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -73,6 +73,7 @@ těmito tutoriály budete moci vylepšit své dokumenty Word přidáním vizuál
 | [Zobrazit legendu grafu ve Wordu pomocí C# – Kompletní krok za krokem průvodce](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Naučte se, jak ve Wordu zobrazit legendu grafu pomocí C# pomocí podrobného průvodce krok za krokem. |
 | [Explodování výseče koláčového grafu v C# s Aspose.Words – Kompletní průvodce](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Naučte se, jak explodovat výseč koláčového grafu v C# pomocí Aspose.Words v tomto podrobném průvodci. |
 | [Přidání popisků koláčového grafu v C# pomocí Aspose.Words – Kompletní průvodce](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Naučte se, jak v C# pomocí Aspose.Words přidat a upravit popisky koláčových grafů v dokumentech Word. |
+| [Jak zobrazit procenta v grafu pomocí Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Naučte se, jak zobrazit procentuální hodnoty v grafech pomocí Aspose.Words pro .NET v C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

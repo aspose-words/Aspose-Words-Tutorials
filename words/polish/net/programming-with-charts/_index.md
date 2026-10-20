@@ -73,6 +73,7 @@ Dzięki tym samouczkom będziesz w stanie ulepszyć swoje dokumenty Word, dodaj�
 | [Pokaż legendę wykresu w Wordzie przy użyciu C# – kompletny przewodnik krok po kroku](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Dowiedz się, jak wyświetlić legendę wykresu w dokumencie Word przy użyciu Aspose.Words dla .NET i C# w prostym przewodniku krok po kroku. |
 | [Wyrzucanie wycinka wykresu kołowego w C# z Aspose.Words – Pełny przewodnik](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Dowiedz się, jak w C# wyodrębnić fragment wykresu kołowego przy użyciu Aspose.Words w pełnym przewodniku krok po kroku. |
 | [Dodaj etykiety wykresu kołowego w C# przy użyciu Aspose.Words – Pełny przewodnik](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Dowiedz się, jak dodać etykiety do wykresu kołowego w C# przy użyciu Aspose.Words w tym kompletnym przewodniku krok po kroku. |
+| [Jak wyświetlić procenty na wykresie przy użyciu Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Dowiedz się, jak wyświetlać wartości procentowe na wykresie w Aspose.Words przy użyciu C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

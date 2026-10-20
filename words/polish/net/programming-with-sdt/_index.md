@@ -37,6 +37,7 @@ Przykłady kodu zawarte w samouczkach pomogą Ci zrozumieć koncepcje i ćwiczy�
 | [Wiele sekcji](./multi-section/) Dowiedz się, jak pracować z wielosekcyjnymi strukturalnymi znacznikami dokumentów w Aspose.Words dla .NET dzięki temu samouczkowi krok po kroku. Idealne do dynamicznej manipulacji dokumentami. |
 | [Ustrukturyzowany zakres znaczników dokumentu początkowego mapowania XML](./structured-document-tag-range-start-xml-mapping/) | Dowiedz się, jak dynamicznie wiązać dane XML ze strukturalnymi znacznikami dokumentu w programie Word przy użyciu Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku. |
 | [Ustaw tekst zastępczy w Aspose.Words – Kompletny przewodnik C#](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Dowiedz się, jak ustawić tekst zastępczy w kontrolkach SDT przy użyciu Aspose.Words dla .NET w języku C#. |
+| [Jak dodać kontrolkę zawartości i utworzyć dokument Word przy użyciu Aspose – Kompletny przewodnik](./how-to-add-content-control-and-create-word-document-with-asp/) | Kompletny przewodnik krok po kroku, jak dodać kontrolkę zawartości i wygenerować dokument Word przy użyciu Aspose.Words dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

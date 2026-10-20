@@ -65,6 +65,8 @@ Bằng cách sử dụng Aspose.Words cho .NET và làm theo các hướng dẫn
 | [Tạo hình chữ nhật và cách thêm bóng trong C#](./create-rectangle-shape-and-how-to-add-shadow-in-c/) | Tìm hiểu cách tạo hình chữ nhật và thêm bóng trong C# bằng Aspose.Words cho .NET qua hướng dẫn chi tiết từng bước. |
 | [Cách di chuyển bóng đổ trong Aspose.Words – Hướng dẫn đầy đủ C#](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | Tìm hiểu cách di chuyển bóng đổ cho hình dạng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước. |
 | [Cách ẩn hình dạng trong Word bằng C# – Hướng dẫn từng bước](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Tìm hiểu cách ẩn một hình dạng trong tài liệu Word bằng Aspose.Words cho .NET và C# qua hướng dẫn chi tiết từng bước. |
+| [Vẽ hình chữ nhật trong Word – Thêm hình dạng trong Word bằng Aspose](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Hướng dẫn chi tiết cách vẽ hình chữ nhật trong tài liệu Word bằng Aspose.Words cho .NET. |
+| [Tạo tài liệu Word trống với hình ellipse ẩn – Hướng dẫn đầy đủ C#](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Hướng dẫn chi tiết cách tạo tài liệu Word trống và chèn một hình ellipse ẩn bằng Aspose.Words cho .NET và C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

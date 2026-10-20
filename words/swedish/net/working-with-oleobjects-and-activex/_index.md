@@ -30,6 +30,7 @@ Dessa handledningar ger dig en praktisk steg-för-steg-metod för ordbehandling 
 | [Läs Active XControl-egenskaper från Word-fil](./read-active-xcontrol-properties/) | Lär dig hur du läser ActiveX-kontrollegenskaper från Word-filer med Aspose.Words för .NET i en steg-för-steg-guide. Förbättra dina kunskaper inom dokumentautomation. |
 | [Skapa Word-dokument med ActiveX-knapp – C#-guide](./create-word-document-with-activex-button-c-guide/) | Lär dig hur du skapar ett Word-dokument med en ActiveX-knapp i C# med Aspose.Words för .NET. |
 | [Skapa Word-dokumentknapp med Aspose.Words – Fullständigt kodexempel](./create-word-document-button-with-aspose-words-full-code-exam/) | Lär dig hur du skapar en knapp som genererar ett Word-dokument med Aspose.Words, komplett kodexempel. |
+| [Lägg till kommandoknapp i Word-dokument med Aspose.Words – Komplett guide](./add-command-button-to-word-document-with-aspose-words-comple/) | Lär dig hur du lägger till en kommandoknapp i ett Word-dokument med Aspose.Words för .NET i en steg-för-steg-guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

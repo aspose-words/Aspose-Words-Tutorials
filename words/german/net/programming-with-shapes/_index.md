@@ -65,6 +65,8 @@ Mit Aspose.Words für .NET und diesen Tutorials meistern Sie die Bearbeitung von
 | [Wie man Schatten in Aspose.Words verschiebt – Vollständige C#‑Anleitung](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Schatten in Word-Formen per C# verschieben und anpassen. |
 | [Gruppenformen in Word mit Aspose.Words – Vollständiger C#‑Leitfaden](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Erfahren Sie in diesem umfassenden Schritt‑für‑Schritt‑Leitfaden, wie Sie mit Aspose.Words für .NET Gruppenformen in Word‑Dokumenten erstellen und verwalten. |
 | [Wie man eine Form in Word mit C# ausblendet – Schritt‑für‑Schritt‑Anleitung](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und C# Formen in Word-Dokumenten ausblenden. |
+| [Rechteck in Word zeichnen – Formen in Word mit Aspose hinzufügen](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Rechteck in ein Word-Dokument einfügen und anpassen. |
+| [Leeres Word-Dokument mit versteckter Ellipsenform erstellen – vollständige C#‑Anleitung](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Words für .NET ein leeres Word-Dokument erstellen und eine versteckte Ellipsenform hinzufügen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

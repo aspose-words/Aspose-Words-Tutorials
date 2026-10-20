@@ -73,6 +73,7 @@ Aspose.Words for .NET 圖形程式教學提供了全面的資源，用於學習�
 | [在 Word 中顯示圖表圖例（C# 完整步驟指南）](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) |透過本完整逐步指南，了解如何使用 C# 在 Word 中顯示圖表圖例。 |
 | [使用 Aspose.Words 在 C# 中爆炸式切割圓餅圖切片 – 完整指南](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) |透過本完整指南了解如何在 C# 使用 Aspose.Words 將圓餅圖切片設定為爆炸狀，以增強視覺效果。 |
 | [使用 Aspose.Words 在 C# 中添加圓餅圖標籤 – 完整指南](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) |透過本完整指南了解如何在 C# 使用 Aspose.Words 為圓餅圖添加資料標籤，提升圖表可讀性。 |
+| [使用 Aspose.Words C# 在圖表中顯示百分比](./how-to-show-percentages-in-chart-with-aspose-words-c/) |了解如何使用 Aspose.Words for .NET 在圖表中顯示百分比，提升資料可視化效果。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

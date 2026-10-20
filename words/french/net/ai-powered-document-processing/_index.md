@@ -75,6 +75,7 @@ Enfin, n'oubliez pas de consulter notre [Travailler avec les options de résumé
 | [Traduire un docx en français avec Aspose.Words et l'API Google](./translate-docx-to-french-with-aspose-words-and-google-api/) | Apprenez à traduire des documents Word en français en utilisant Aspose.Words et l'API Google en quelques étapes simples. |
 | [Traduire un docx en français avec Aspose.Words.AI – Guide complet](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Apprenez à traduire automatiquement des fichiers DOCX en français à l'aide d'Aspose.Words.AI grâce à ce guide complet. |
 | [Créer un résumé de document en C# – Guide complet OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Apprenez à générer des résumés de documents avec OpenAI en C# grâce à Aspose.Words, étape par étape. |
+| [Résumer un document Word avec Aspose.Words AI – Guide complet](./summarize-word-document-with-aspose-words-ai-full-guide/) | Apprenez à résumer automatiquement des documents Word en utilisant l'IA d'Aspose.Words grâce à ce guide complet. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

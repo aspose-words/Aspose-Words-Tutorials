@@ -17,7 +17,7 @@
 
 tutorial di programmazione grafica di Aspose.Words per .NET offrono una risorsa completa per imparare a creare e manipolare elementi grafici nei documenti Word. I tutorial illustrano i passaggi per aggiungere grafici, personalizzarne l'aspetto, modificare i dati e altro ancora. Che siate principianti o sviluppatori esperti, questi tutorial vi aiuteranno a padroneggiare le funzionalità grafiche di Aspose.Words.
 
-In questi tutorial imparerai a creare diversi tipi di grafici, come grafici a barre, grafici a torta, grafici ad area, grafici a linee, ecc. Imparerai anche a personalizzare elementi del grafico come titoli, legende, etichette dati e assi. I tutorial ti mostreranno come manipolare i dati dei grafici aggiungendo, modificando o eliminando serie di dati.
+In questi tutorial imparerai a creare diversi tipi di grafici, come grafici a barre, grafici a torta, grafici ad area, grafici a linee, ecc. Imparerai anche a personalizzare elementi del grafico come titoli, leggende, etichette dati e assi. I tutorial ti mostreranno come manipolare i dati dei grafici aggiungendo, modificando o eliminando serie di dati.
 
 Con questi tutorial, potrai migliorare i tuoi documenti Word aggiungendo grafica accattivante e informativa. Imparerai a sfruttare le funzionalità grafiche avanzate di Aspose.Words per .NET e a integrarle efficacemente nelle tue applicazioni. Esplora questi tutorial per ampliare le tue competenze grafiche in Aspose.Words.
 
@@ -73,6 +73,7 @@ Con questi tutorial, potrai migliorare i tuoi documenti Word aggiungendo grafica
 | [Mostra la legenda del grafico in Word con C# – Guida completa passo‑a‑passo](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Scopri come visualizzare la legenda del grafico in Word usando Aspose.Words per .NET con C# in questa guida dettagliata passo passo. |
 | [Esplodere una fetta di grafico a torta in C# con Aspose.Words – Guida completa](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Scopri come far esplodere una fetta di grafico a torta in Word usando Aspose.Words per .NET con questa guida completa passo passo. |
 | [Aggiungi etichette a un grafico a torta in C# usando Aspose.Words – Guida completa](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Scopri come aggiungere etichette a un grafico a torta in C# con Aspose.Words in questa guida completa passo passo. |
+| [Come visualizzare le percentuali in un grafico con Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Scopri come visualizzare le percentuali nei grafici di Word usando Aspose.Words per .NET in pochi semplici passaggi. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

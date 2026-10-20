@@ -75,6 +75,7 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Översätt docx till franska med Aspose.Words och Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Lär dig hur du använder Aspose.Words och Google API för att översätta DOCX-filer till franska. |
 | [Skapa dokumentsammanfattning i C# – Komplett OpenAI-guide](./create-document-summary-in-c-complete-openai-guide/) | Lär dig steg-för-steg hur du använder OpenAI för att skapa sammanfattningar av dokument i C# med Aspose.Words. |
 | [Översätt DOCX till franska med Aspose.Words.AI – Fullständig guide](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Lär dig steg-för-steg hur du översätter DOCX-filer till franska med Aspose.Words.AI för snabba och korrekta resultat. |
+| [Sammanfatta Word-dokument med Aspose.Words AI – Fullständig guide](./summarize-word-document-with-aspose-words-ai-full-guide/) | Lär dig att använda Aspose.Words AI för att sammanfatta Word-dokument i en komplett guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

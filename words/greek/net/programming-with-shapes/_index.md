@@ -65,6 +65,8 @@
 | [Πώς να μετακινήσετε τη σκιά στο Aspose.Words – Πλήρης οδηγός C#](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | Μάθετε πώς να μετακινήσετε τη σκιά ενός σχήματος σε έγγραφο Word χρησιμοποιώντας Aspose.Words με C#. |
 | [Ομαδικά σχήματα στο Word με Aspose.Words – Πλήρης οδηγός C#](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Μάθετε πώς να δημιουργείτε και να διαχειρίζεστε ομαδικά σχήματα σε έγγραφα Word με Aspose.Words και C#. |
 | [Πώς να κρύψετε σχήμα στο Word με C# – Οδηγός βήμα‑βήμα](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Μάθετε πώς να κρύψετε σχήμα σε έγγραφα Word με C# χρησιμοποιώντας το Aspose.Words για .NET σε αυτόν τον βήμα‑βήμα οδηγό. |
+| [Σχεδίαση ορθογωνίου στο Word – Προσθήκη Σχημάτων στο Word με Aspose](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Μάθετε πώς να σχεδιάσετε ένα ορθογώνιο σχήμα σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET. |
+| [Δημιουργία κενής εγγράφου Word με κρυφό σχήμα έλλειψης – Πλήρης οδηγός C#](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word με κρυφό σχήμα έλλειψης χρησιμοποιώντας το Aspose.Words για .NET σε C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
