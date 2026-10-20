@@ -1,25 +1,25 @@
 ---
 category: general
-date: 2026-04-10
-description: hoe schaduw op een vorm instellen in C# – leer hoe je een slagschaduw
-  toepast, transparantie wijzigt, vervaging aanpast en vormschaduw toevoegt met Aspose.Words.
+date: 2026-03-28
+description: Hoe een schaduw op een vorm instellen in C# met Aspose.Words – schaduw
+  aan vorm toevoegen, schaduw toepassen en het uiterlijk aanpassen.
 draft: false
 keywords:
 - how to set shadow
-- apply drop shadow
-- how to change transparency
-- how to adjust blur
-- add shape shadow
+- add shadow to shape
+- apply shadow to shape
+- how to add shadow
 language: nl
-og_description: hoe schaduw op een vorm in C# instellen – deze tutorial laat zien
-  hoe je een slagschaduw toepast, transparantie wijzigt, vervaging aanpast en vormschaduw
-  toevoegt met duidelijke codevoorbeelden.
-og_title: hoe je een schaduw op een vorm instelt in C# – Complete gids
+og_description: Hoe je snel een schaduw op een vorm in C# instelt. Leer hoe je een
+  schaduw aan een vorm toevoegt, de schaduw toepast en de vervaging, afstand en hoek
+  aanpast.
+og_title: Hoe je een schaduw op een vorm instelt in C# – Complete gids
 tags:
 - Aspose.Words
 - C#
 - Document Automation
-title: Hoe je een schaduw op een vorm in C# instelt – stapsgewijze handleiding
+- Graphics
+title: Hoe je een schaduw op een vorm instelt in C# – Stapsgewijze handleiding
 url: /nl/net/programming-with-shapes/how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/
 ---
 
@@ -27,231 +27,177 @@ url: /nl/net/programming-with-shapes/how-to-set-shadow-on-a-shape-in-c-step-by-s
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# hoe je een schaduw instelt op een vorm in C# – Complete gids
+# Hoe schaduw op een vorm instellen in C# – Complete programmeerhandleiding
 
-Heb je je ooit afgevraagd **hoe je een schaduw instelt** op een vorm wanneer je programmatisch een Word‑document bouwt? Je bent niet de enige. Veel ontwikkelaars lopen tegen een muur aan wanneer ze een subtiele slagschaduw nodig hebben voor een tekstvak, een logo of een call‑out‑vak, en de API‑documentatie is wat schaars.  
+Heb je je ooit afgevraagd **hoe je schaduw instelt** op een vorm wanneer je programmatically Word‑documenten bouwt? Je bent niet de enige. In veel rapporten, presentaties of flyers kan een subtiele slagschaduw een afbeelding laten opvallen zonder er kitscherig uit te zien. Het goede nieuws? Met Aspose.Words for .NET kun je schaduw aan een vorm toevoegen in slechts een paar regels code.
 
-In deze tutorial lopen we het volledige proces door: van het laden van een `.docx`, het ophalen van de eerste `Shape`, tot het toepassen van een slagschaduw, het aanpassen van de transparantie, het wijzigen van de vervagingsradius en uiteindelijk het precies positioneren ervan. Aan het einde heb je een herbruikbare code‑snippet die werkt met Aspose.Words .NET 2023 of later, en begrijp je *waarom* elke eigenschap belangrijk is.
+In deze tutorial lopen we het volledige proces door: een DOCX laden, de eerste vorm pakken, en vervolgens **schaduw op een vorm toepassen** — inclusief kleur, vervaging, afstand en hoek. Aan het einde heb je een kant‑klaar fragment dat je in elk C#‑project kunt plaatsen. Geen extra bibliotheken, geen verborgen magie.
 
 ## Wat je nodig hebt
 
-- **Aspose.Words for .NET** (NuGet‑pakket `Aspose.Words`) – de bibliotheek die ons de `Document`, `Shape` en `ShadowFormat`‑klassen geeft.  
-- **.NET 6+** (of .NET Framework 4.7.2) – elke recente runtime volstaat.  
-- Een simpel Word‑bestand (`input.docx`) dat al minstens één vorm bevat, zoals een tekstvak.  
-- Visual Studio, VS Code of je favoriete IDE.
+- **Aspose.Words for .NET** (versie 23.9 of nieuwer) – de bibliotheek die Word‑manipulatie moeiteloos maakt.  
+- Een .NET‑ontwikkelomgeving (Visual Studio 2022, Rider, of de CLI).  
+- Een voorbeeld‑DOCX die al minstens één vorm bevat (een rechthoek, afbeelding of SmartArt volstaat).  
 
-Dat is alles. Geen extra third‑party tools, geen COM‑interop, alleen pure C#.
+Als je een van deze mist, haal dan het NuGet‑pakket op met `Install-Package Aspose.Words` en maak een eenvoudig Word‑bestand met handmatig een vorm ingevoegd — alleen voor de demo.
 
-![how to set shadow example](image-placeholder.png){:alt="hoe je een schaduw instelt op een vorm in een Word‑document"}
+## Stap 1: Document laden (Voorbereiden op het toevoegen van schaduw)
 
-## Hoe je een schaduw instelt – Overzicht
-
-Het kernidee achter **hoe je een schaduw instelt** is het manipuleren van het `ShadowFormat`‑object dat op een `Shape` zit. Beschouw `ShadowFormat` als een mini‑“stylesheet” voor de schaduw zelf: het vertelt de renderer of de schaduw zichtbaar is, welke kleur hij moet hebben, hoe transparant hij is, hoe wazig, en waar hij zich bevindt ten opzichte van de vorm.  
-
-Hieronder staat het *complete* uitvoerbare programma. Kopieer‑en‑plak het gerust in een console‑app, druk op **F5**, en zie de schaduw verschijnen in het opgeslagen `output.docx`.
+Het eerste is het openen van het bronbestand. Hier begint de **schaduw aan een vorm toevoegen** operatie.
 
 ```csharp
 using System;
-using System.Drawing;               // For Color
-using Aspose.Words;                 // Core document classes
-using Aspose.Words.Drawing;         // Shape & ShadowFormat
+using Aspose.Words;
+using Aspose.Words.Drawing;
+using System.Drawing;
 
 class ShadowDemo
 {
     static void Main()
     {
-        // -------------------------------------------------
-        // Step 1: Load the Word document that contains the shape.
-        // -------------------------------------------------
-        Document doc = new Document("YOUR_DIRECTORY/input.docx");
+        // Load the DOCX that holds the shape you want to enhance
+        Document doc = new Document("input.docx");
+```
 
-        // -------------------------------------------------
-        // Step 2: Retrieve the first shape (e.g., a textbox) from the document.
-        // -------------------------------------------------
-        Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-        if (shape == null)
+> **Waarom dit belangrijk is:** Het laden van het document geeft je een `Document`‑object dat alle knooppunten bezit, inclusief vormen. Zonder dit is er niets om te wijzigen.
+
+## Stap 2: Doelvorm ophalen (Kies de juiste)
+
+Vervolgens zoeken we de vorm die we willen stijlen. In dit voorbeeld pakken we de eerste vorm in de eerste alinea, maar je kunt de query aanpassen aan elke knooppuntcollectie.
+
+```csharp
+        // Grab the first shape inside the first paragraph of the first section
+        Shape targetShape = doc.FirstSection.Body.FirstParagraph
+            .GetChildNodes(NodeType.Shape, true)[0] as Shape;
+
+        if (targetShape == null)
         {
-            Console.WriteLine("No shape found – make sure input.docx has a textbox.");
+            Console.WriteLine("No shape found – check your input file.");
             return;
         }
+```
 
-        // -------------------------------------------------
-        // Step 3: Make the shadow visible.
-        // -------------------------------------------------
-        shape.ShadowFormat.Visible = true;
+> **Pro tip:** `GetChildNodes(NodeType.Shape, true)` doorloopt de subboom recursief, zodat je geen geneste vormen zoals WordArt mist.
 
-        // -------------------------------------------------
-        // Step 4: Set the shadow colour to a dark gray.
-        // -------------------------------------------------
-        shape.ShadowFormat.Color = Color.DarkGray;
+## Stap 3: Toegang tot het Shadow‑formatteerobject (Waar de magie gebeurt)
 
-        // -------------------------------------------------
-        // Step 5: Define the shadow's transparency (30 % transparent).
-        // -------------------------------------------------
-        shape.ShadowFormat.Transparency = 0.3;   // 0 = opaque, 1 = fully transparent
+Elke `Shape` heeft een `ShadowFormat`‑eigenschap. Dit object regelt zichtbaarheid, kleur, vervaging, afstand en hoek — alle instellingen die je nodig hebt om **schaduw op een vorm toe te passen**.
 
-        // -------------------------------------------------
-        // Step 6: Configure the blur radius (size) of the shadow.
-        // -------------------------------------------------
-        shape.ShadowFormat.Size = 6;            // Larger value = softer edges
+```csharp
+        // The ShadowFormat object holds all shadow‑related settings
+        ShadowFormat shadow = targetShape.ShadowFormat;
+```
 
-        // -------------------------------------------------
-        // Step 7: Set the offset distance and direction (angle) of the shadow.
-        // -------------------------------------------------
-        shape.ShadowFormat.Distance = 2;        // How far the shadow is from the shape
-        shape.ShadowFormat.Angle = 45;          // Angle in degrees (0 = right, 90 = down)
+> **Waarom we `ShadowFormat` gebruiken:** Het abstraheert de onderliggende XML‑representatie, zodat je schaduwen kunt aanpassen zonder met ruwe OpenXML te werken.
 
-        // -------------------------------------------------
-        // Save the modified document.
-        // -------------------------------------------------
-        doc.Save("YOUR_DIRECTORY/output.docx");
-        Console.WriteLine("Shadow applied successfully! Check output.docx.");
+## Stap 4: De schaduw zichtbaar maken en een kleur kiezen (Schaduw aan vorm toevoegen)
+
+Een schaduw verschijnt niet totdat je `Visible` op `true` zet. Daarna kun je elke `System.Drawing.Color` kiezen. Hier gebruiken we een mediumgrijs, maar voel je vrij om te experimenteren.
+
+```csharp
+        // Turn the shadow on and give it a subtle gray tone
+        shadow.Visible = true;
+        shadow.Color = Color.FromArgb(80, 80, 80);   // dark gray
+```
+
+> **Veelgemaakte fout:** Vergeten `Visible` in te schakelen leidt tot stille fouten — je vorm blijft ongewijzigd, ook al stel je andere eigenschappen in.
+
+## Stap 5: Uiterlijk configureren – Vervaging, afstand en hoek (Fijn afstellen van het uiterlijk)
+
+Nu vormen we de visuele impact. `BlurRadius` verzacht de randen, `Distance` duwt de schaduw van de vorm af, en `Angle` bepaalt de richting van de lichtbron.
+
+```csharp
+        // Adjust how the shadow looks
+        shadow.BlurRadius = 5.0;   // in points – higher = softer
+        shadow.Distance   = 3.0;   // how far the shadow is offset
+        shadow.Angle      = 45.0;  // degrees clockwise from the horizontal
+```
+
+> **Randgeval:** Als je een negatieve afstand instelt, verschijnt de schaduw *binnen* de vorm, wat nuttig kan zijn voor reliëfeffecten.
+
+## Stap 6: Het bijgewerkte document opslaan (Resultaat bekijken)
+
+Tot slot schrijf je de wijzigingen terug naar de schijf. Je kunt het originele bestand overschrijven of een nieuw bestand aanmaken.
+
+```csharp
+        // Persist the changes – you’ll see the shadow in Word or any viewer
+        doc.Save("output-with-shadow.docx");
+        Console.WriteLine("Shadow applied successfully! Check output-with-shadow.docx");
     }
 }
 ```
 
-### Waarom deze instellingen belangrijk zijn
+Het uitvoeren van het programma levert `output-with-shadow.docx` op. Open het in Microsoft Word, en je zult merken dat de geselecteerde vorm nu een zachte grijze schaduw heeft, gekanteld op 45°, vervaagd met 5 pt en verschoven met 3 pt.
 
-- **Visible** – Zonder deze vlag aan te zetten, worden alle andere eigenschappen genegeerd.  
-- **Color** – Een donkergrijs bootst een typische UI‑slagschaduw na; je kunt elke `Color` gebruiken.  
-- **Transparency** – 0.3 geeft een *zachte* uitstraling terwijl de vorm nog leesbaar blijft.  
-- **Size** – Regelt de vervaging; een waarde van 6 is meestal voldoende voor een professioneel gevoel.  
-- **Distance & Angle** – Samen definiëren ze de *offset*; 2 pts op 45° levert een subtiele diagonale schaduw op.
+![Diagram dat schaduw op een vorm toont](https://example.com/images/shadow-diagram.png "Diagram dat schaduw op een vorm toont")
 
-Dat is de essentie van **hoe je een schaduw instelt**. Vervolgens splitsen we elk onderdeel zodat je **slagschaduw kunt toepassen**, **transparantie kunt wijzigen**, **vervaging kunt aanpassen**, en **vormschaduw kunt toevoegen** in isolatie.
+*Alt‑tekst: Diagram dat schaduw op een vorm toont* – deze afbeelding illustreert het voor‑/na‑effect.
 
----
+## Hoe schaduw toevoegen – Veelvoorkomende variaties en randgevallen
 
-## Slagschaduw toepassen op een vorm
+Hoewel de kernstappen eenvoudig zijn, vereisen real‑world scenario's vaak aanpassingen. Hieronder staan een paar “wat‑als” situaties die je kunt tegenkomen.
 
-Wanneer mensen vragen “hoe **pas ik slagschaduw toe** in C#?”, hebben ze vaak alleen de zichtbaarheid‑schakelaar en een kleur nodig. Het volgende fragment isoleert die twee regels:
+### 1. Meerdere vormen, verschillende schaduwen
+
+Als je document meerdere afbeeldingen bevat, loop dan door de vormcollectie en ken unieke schaduwinstellingen toe per vorm.
 
 ```csharp
-shape.ShadowFormat.Visible = true;          // Turns the shadow on
-shape.ShadowFormat.Color   = Color.Black;   // Classic black drop shadow
-```
-
-> **Pro tip:** Als je richt op oudere Word‑versies (2003‑2007), houd je dan aan standaardkleuren. Sommige exotische ARGB‑waarden kunnen door de legacy‑renderer worden genegeerd.
-
----
-
-## Hoe je de transparantie van de schaduw wijzigt
-
-Transparantie wordt uitgedrukt als een **float tussen 0 en 1**. Een waarde van **0** betekent een volledig ondoorzichtige schaduw; **1** maakt hem onzichtbaar. De meeste designers kiezen rond **0.2‑0.4** voor een natuurlijke look.
-
-```csharp
-shape.ShadowFormat.Transparency = 0.35; // 35 % transparent
-```
-
-### Randgevallen
-
-- **Negatieve waarden** – Aspose.Words zal ze naar 0 afkappen, maar het is beter om invoer te valideren.  
-- **Waarden > 1** – Afgekapt naar 1, waardoor de schaduw effectief verdwijnt.  
-
-Als je gebruikers een percentage wilt laten kiezen, converteer het dan eerst:
-
-```csharp
-float percent = 30;                     // User enters 30 %
-shape.ShadowFormat.Transparency = percent / 100f;
-```
-
----
-
-## Hoe je de vervaging (Size) van de schaduw aanpast
-
-De **Size**‑eigenschap regelt de vervagingsradius. Grotere getallen produceren een zachtere, meer gediffuseerde schaduw. Het wordt gemeten in punten (pt), niet in pixels.
-
-```csharp
-shape.ShadowFormat.Size = 10;  // A generous blur for a “soft” effect
-```
-
-#### Wanneer een kleine vs. grote vervaging te gebruiken
-
-- **Kleine vervaging (2‑4 pt)** – Goed voor UI‑style callouts waar je een scherpe rand wilt.  
-- **Grote vervaging (8‑12 pt)** – Werkt goed voor afgedrukte rapporten of wanneer de vorm ver van de achtergrond staat.
-
----
-
-## Vormschaduw toevoegen – Positionering en richting
-
-Het laatste onderdeel van **vormschaduw toevoegen** is de offset. Twee eigenschappen werken samen:
-
-| Eigenschap | Betekenis |
-|------------|-----------|
-| **Distance** | Hoe ver de schaduw van de vorm zit (in punten). |
-| **Angle**    | Richting van de offset (0° = rechts, 90° = omlaag, 180° = links, 270° = omhoog). |
-
-Voorbeeld dat een subtiele rechtsonder‑schaduw creëert:
-
-```csharp
-shape.ShadowFormat.Distance = 1.5; // Slight lift
-shape.ShadowFormat.Angle    = 135; // Down‑left direction (135°)
-```
-
-Je kunt experimenteren met hoeken om licht te simuleren dat vanuit verschillende bronnen komt. Een veelgebruikte truc is de gebruiker een “lichtbron” laten kiezen in een dropdown en die te vertalen naar een hoekwaarde.
-
----
-
-## Volledig werkend voorbeeld (Alle stappen gecombineerd)
-
-Hieronder staat hetzelfde programma als eerder, maar met **extra commentaar** dat de logica glashelder maakt. Kopieer dit naar `Program.cs` en voer het uit; het uitvoerbestand bevat een tekstvak met een perfect afgestemde schaduw.
-
-```csharp
-using System;
-using System.Drawing;
-using Aspose.Words;
-using Aspose.Words.Drawing;
-
-namespace ShapeShadowDemo
-{
-    class Program
-    {
-        static void Main()
+        NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
+        foreach (Shape shp in shapes)
         {
-            // Load the source document (must contain at least one shape)
-            Document doc = new Document("YOUR_DIRECTORY/input.docx");
-
-            // Grab the first shape we encounter – usually a textbox or picture
-            Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-            if (shape == null)
-            {
-                Console.WriteLine("No shape found in the document.");
-                return;
-            }
-
-            // ---------- Apply Drop Shadow ----------
-            shape.ShadowFormat.Visible = true;          // Turn it on
-            shape.ShadowFormat.Color   = Color.DarkGray; // Soft dark colour
-
-            // ---------- How to Change Transparency ----------
-            shape.ShadowFormat.Transparency = 0.3; // 30 % transparent – looks natural
-
-            // ---------- How to Adjust Blur ----------
-            shape.ShadowFormat.Size = 6; // Moderate blur for a professional feel
-
-            // ---------- Add Shape Shadow (position) ----------
-            shape.ShadowFormat.Distance = 2; // Slight offset
-            shape.ShadowFormat.Angle    = 45; // Diagonal down‑right
-
-            // Save the result
-            doc.Save("YOUR_DIRECTORY/output.docx");
-            Console.WriteLine("Document saved with shadow. Open output.docx to verify.");
+            ShadowFormat sf = shp.ShadowFormat;
+            sf.Visible = true;
+            sf.Color = Color.FromArgb(100, 100, 150); // bluish tint
+            sf.BlurRadius = 3.0;
+            sf.Distance = 2.0;
+            sf.Angle = 30.0;
         }
-    }
-}
 ```
 
-**Verwacht resultaat:** Open `output.docx`. Het eerste tekstvak toont een donkergrijze, 30 % transparante schaduw die licht vervaagd is (size = 6) en 2 pt offset heeft onder een hoek van 45°. Het effect is subtiel maar merkbaar—precies wat de meeste UI‑designers nastreven.
+### 2. Transparante schaduwen
+
+Aspose.Words laat je een alfakanaal instellen via `Color.FromArgb(alpha, r, g, b)`. Gebruik een lage alfa (bijv. 50) voor een subtiel, half‑transparant effect.
+
+```csharp
+        shadow.Color = Color.FromArgb(50, 0, 0, 0); // 20% opacity black
+```
+
+### 3. Een schaduw verwijderen
+
+Soms moet je een schaduw uitschakelen nadat deze is toegepast. Stel simpelweg `Visible` in op `false`.
+
+```csharp
+        shadow.Visible = false;
+```
+
+### 4. Compatibiliteitsproblemen
+
+De hier gebruikte schaduwfuncties worden ondersteund in Word 2007 + (het DOCX‑formaat). Als je richt op het oudere `.doc`‑binaire formaat, kan de schaduw worden genegeerd omdat het formaat de benodigde XML‑elementen mist. Overweeg in dat geval om als DOCX op te slaan of een alternatieve visuele aanwijzing te gebruiken.
+
+## Samenvatting: Wat we hebben bereikt
+
+- **Geladen** een DOCX met Aspose.Words.  
+- **Opgehaald** de eerste vorm uit het document.  
+- **Toegankelijk gemaakt** tot het `ShadowFormat`‑object.  
+- **Ingeschakeld** de schaduw, een kleur, vervagingsradius, afstand en hoek ingesteld.  
+- **Opgeslagen** een nieuw bestand dat het effect duidelijk laat zien.  
+
+Al deze stappen samen beantwoorden **hoe je schaduw instelt** op een vorm, terwijl ze je ook laten zien hoe je **schaduw aan een vorm toevoegt**, **schaduw op een vorm toepast**, en zelfs **hoe je schaduw toevoegt** in complexere scenario's.
+
+## Volgende stappen en gerelateerde onderwerpen
+
+Nu je schaduwstyling onder de knie hebt, wil je misschien verkennen:
+
+- **Gradientvullingen** voor vormen (`Shape.FillFormat.GradientFill`).  
+- **Teksteffecten** zoals gloed of reflectie (`TextEffect`).  
+- **Programmatic insertion of new shapes** (`doc.FirstSection.Body.AppendChild(new Shape(...))`).  
+- **Exporteren naar PDF** terwijl schaduwen behouden blijven (`doc.Save("output.pdf")`).  
+
+Elk van deze onderwerpen bouwt voort op dezelfde object‑modelprincipes die we hier hebben gebruikt, dus je voelt je meteen thuis.
 
 ---
 
-## Veelgestelde vragen & valkuilen
-
-- **“Werkt dit ook met afbeeldingen?”**  
-  Ja. Elke `Shape`—of het nu een tekstvak, afbeelding of auto‑shape is—heeft een `ShadowFormat`. Vervang simpelweg de logica voor het ophalen van de vorm door de juiste index of naam.
-
-- **“Wat als het document meerdere vormen bevat?”**  
-  Loop door `doc.GetChildNodes(NodeType.Shape, true)` en pas dezelfde instellingen op elke vorm toe. Je kunt ook filteren op `shape.Name` of `shape
+*Veel plezier met coderen! Als je tegen een probleem aanloopt, laat dan een reactie achter of raadpleeg de Aspose.Words API‑documentatie voor meer inzicht.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

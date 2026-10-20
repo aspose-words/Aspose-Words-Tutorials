@@ -1,26 +1,24 @@
 ---
 category: general
-date: 2026-04-10
-description: cara mengatur bayangan pada bentuk di C# – pelajari cara menerapkan bayangan
-  jatuh, mengubah transparansi, menyesuaikan blur, dan menambahkan bayangan bentuk
-  menggunakan Aspose.Words.
+date: 2026-03-28
+description: Cara menambahkan bayangan pada shape di C# dengan Aspose.Words – menambahkan
+  bayangan ke shape, menerapkan bayangan, dan menyesuaikan tampilannya.
 draft: false
 keywords:
 - how to set shadow
-- apply drop shadow
-- how to change transparency
-- how to adjust blur
-- add shape shadow
+- add shadow to shape
+- apply shadow to shape
+- how to add shadow
 language: id
-og_description: cara mengatur bayangan pada bentuk di C# – tutorial ini menunjukkan
-  cara menerapkan bayangan jatuh, mengubah transparansi, menyesuaikan blur, dan menambahkan
-  bayangan bentuk dengan contoh kode yang jelas.
-og_title: Cara mengatur bayangan pada bentuk di C# – Panduan Lengkap
+og_description: Cara cepat menambahkan bayangan pada bentuk di C#. Pelajari cara menambahkan
+  bayangan ke bentuk, menerapkan bayangan, serta mengatur blur, jarak, dan sudut.
+og_title: Cara Menambahkan Bayangan pada Bentuk di C# – Panduan Lengkap
 tags:
 - Aspose.Words
 - C#
 - Document Automation
-title: Cara menambahkan bayangan pada bentuk di C# – Panduan Langkah demi Langkah
+- Graphics
+title: Cara Menambahkan Bayangan pada Bentuk di C# – Panduan Langkah demi Langkah
 url: /id/net/programming-with-shapes/how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/
 ---
 
@@ -28,231 +26,177 @@ url: /id/net/programming-with-shapes/how-to-set-shadow-on-a-shape-in-c-step-by-s
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# cara menambahkan bayangan pada shape di C# – Panduan Lengkap
+# Cara Menetapkan Bayangan pada Bentuk di C# – Panduan Pemrograman Lengkap
 
-Pernah bertanya-tanya **cara menambahkan bayangan** pada sebuah shape ketika Anda secara program membangun dokumen Word? Anda tidak sendirian. Banyak pengembang menemui kesulitan ketika mereka membutuhkan drop shadow yang halus untuk textbox, logo, atau call‑out box, dan dokumentasi API terasa kurang.  
+Pernah bertanya-tanya **bagaimana cara menambahkan bayangan** pada sebuah bentuk saat Anda membuat dokumen Word secara programatik? Anda bukan satu-satunya. Dalam banyak laporan, presentasi, atau selebaran, bayangan drop‑shadow yang halus dapat membuat grafik menonjol tanpa terlihat norak. Kabar baiknya? Dengan Aspose.Words untuk .NET Anda dapat menambahkan bayangan ke bentuk hanya dengan beberapa baris kode.
 
-Dalam tutorial ini kami akan membahas seluruh proses: mulai dari memuat file `.docx`, mengambil `Shape` pertama, menerapkan drop shadow, menyesuaikan transparansinya, mengatur radius blur, dan akhirnya menempatkannya dengan tepat. Pada akhir tutorial Anda akan memiliki potongan kode yang dapat digunakan kembali dan bekerja dengan Aspose.Words .NET 2023 atau yang lebih baru, serta memahami *mengapa* setiap properti penting.
+Dalam tutorial ini kami akan membahas seluruh proses: memuat DOCX, mengambil bentuk pertama, dan kemudian **menerapkan bayangan pada bentuk** — termasuk warna, blur, jarak, dan sudut. Pada akhir tutorial Anda akan memiliki potongan kode siap‑jalankan yang dapat Anda sisipkan ke proyek C# mana pun. Tanpa pustaka tambahan, tanpa sihir tersembunyi.
 
 ## Apa yang Anda Butuhkan
 
-- **Aspose.Words for .NET** (paket NuGet `Aspose.Words`) – perpustakaan yang menyediakan kelas `Document`, `Shape`, dan `ShadowFormat`.  
-- **.NET 6+** (atau .NET Framework 4.7.2) – runtime terbaru apa pun dapat digunakan.  
-- Sebuah file Word sederhana (`input.docx`) yang sudah berisi setidaknya satu shape, seperti textbox.  
-- Visual Studio, VS Code, atau IDE favorit Anda.
+- **Aspose.Words for .NET** (versi 23.9 atau lebih baru) – pustaka yang membuat manipulasi Word menjadi mudah.  
+- Lingkungan pengembangan .NET (Visual Studio 2022, Rider, atau CLI).  
+- Contoh DOCX yang sudah berisi setidaknya satu bentuk (sebuah persegi panjang, gambar, atau SmartArt sudah cukup).  
 
-Itu saja. Tanpa alat pihak ketiga tambahan, tanpa COM interop, hanya C# biasa.
+Jika Anda kekurangan salah satu dari itu, dapatkan paket NuGet dengan `Install-Package Aspose.Words` dan buat file Word sederhana dengan bentuk yang dimasukkan secara manual—hanya untuk demo.
 
-![how to set shadow example](image-placeholder.png){:alt="cara menambahkan bayangan pada shape di dokumen Word"}
+## Langkah 1: Muat Dokumen (Siapkan untuk Menambahkan Bayangan)
 
-## Cara Menambahkan Bayangan – Gambaran Umum
-
-Ide utama di balik **cara menambahkan bayangan** adalah memanipulasi objek `ShadowFormat` yang berada pada sebuah `Shape`. Anggaplah `ShadowFormat` sebagai “lembar gaya” mini untuk bayangan itu sendiri: ia memberi tahu renderer apakah bayangan terlihat, warna apa yang harus dipakai, seberapa transparan, seberapa blur, dan di mana posisinya relatif terhadap shape.  
-
-Di bawah ini adalah program *lengkap* yang dapat dijalankan. Silakan salin‑tempel ke aplikasi console, tekan **F5**, dan saksikan bayangan muncul di file `output.docx` yang disimpan.
+Hal pertama yang harus dilakukan adalah membuka file sumber. Di sinilah operasi **menambahkan bayangan ke bentuk** akan dimulai.
 
 ```csharp
 using System;
-using System.Drawing;               // For Color
-using Aspose.Words;                 // Core document classes
-using Aspose.Words.Drawing;         // Shape & ShadowFormat
+using Aspose.Words;
+using Aspose.Words.Drawing;
+using System.Drawing;
 
 class ShadowDemo
 {
     static void Main()
     {
-        // -------------------------------------------------
-        // Step 1: Load the Word document that contains the shape.
-        // -------------------------------------------------
-        Document doc = new Document("YOUR_DIRECTORY/input.docx");
+        // Load the DOCX that holds the shape you want to enhance
+        Document doc = new Document("input.docx");
+```
 
-        // -------------------------------------------------
-        // Step 2: Retrieve the first shape (e.g., a textbox) from the document.
-        // -------------------------------------------------
-        Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-        if (shape == null)
+> **Mengapa ini penting:** Memuat dokumen memberi Anda objek `Document` yang memiliki semua node, termasuk bentuk. Tanpa itu, tidak ada yang dapat dimodifikasi.
+
+## Langkah 2: Ambil Bentuk Target (Pilih yang Tepat)
+
+Selanjutnya kami menemukan bentuk yang ingin kami gaya. Dalam contoh ini kami mengambil bentuk pertama di paragraf pertama, tetapi Anda dapat menyesuaikan kueri ke koleksi node mana pun.
+
+```csharp
+        // Grab the first shape inside the first paragraph of the first section
+        Shape targetShape = doc.FirstSection.Body.FirstParagraph
+            .GetChildNodes(NodeType.Shape, true)[0] as Shape;
+
+        if (targetShape == null)
         {
-            Console.WriteLine("No shape found – make sure input.docx has a textbox.");
+            Console.WriteLine("No shape found – check your input file.");
             return;
         }
+```
 
-        // -------------------------------------------------
-        // Step 3: Make the shadow visible.
-        // -------------------------------------------------
-        shape.ShadowFormat.Visible = true;
+> **Tips profesional:** `GetChildNodes(NodeType.Shape, true)` menelusuri subtree secara rekursif, memastikan Anda tidak melewatkan bentuk bersarang seperti WordArt.
 
-        // -------------------------------------------------
-        // Step 4: Set the shadow colour to a dark gray.
-        // -------------------------------------------------
-        shape.ShadowFormat.Color = Color.DarkGray;
+## Langkah 3: Akses Objek Pengaturan Bayangan (Tempat Keajaiban Berada)
 
-        // -------------------------------------------------
-        // Step 5: Define the shadow's transparency (30 % transparent).
-        // -------------------------------------------------
-        shape.ShadowFormat.Transparency = 0.3;   // 0 = opaque, 1 = fully transparent
+Setiap `Shape` memiliki properti `ShadowFormat`. Objek ini mengontrol visibilitas, warna, blur, jarak, dan sudut—semua pengaturan yang Anda perlukan untuk **menerapkan bayangan pada bentuk**.
 
-        // -------------------------------------------------
-        // Step 6: Configure the blur radius (size) of the shadow.
-        // -------------------------------------------------
-        shape.ShadowFormat.Size = 6;            // Larger value = softer edges
+```csharp
+        // The ShadowFormat object holds all shadow‑related settings
+        ShadowFormat shadow = targetShape.ShadowFormat;
+```
 
-        // -------------------------------------------------
-        // Step 7: Set the offset distance and direction (angle) of the shadow.
-        // -------------------------------------------------
-        shape.ShadowFormat.Distance = 2;        // How far the shadow is from the shape
-        shape.ShadowFormat.Angle = 45;          // Angle in degrees (0 = right, 90 = down)
+> **Mengapa kami menggunakan `ShadowFormat`:** Ini mengabstraksi representasi XML yang mendasarinya, sehingga Anda dapat mengatur bayangan tanpa harus berurusan dengan OpenXML mentah.
 
-        // -------------------------------------------------
-        // Save the modified document.
-        // -------------------------------------------------
-        doc.Save("YOUR_DIRECTORY/output.docx");
-        Console.WriteLine("Shadow applied successfully! Check output.docx.");
+## Langkah 4: Buat Bayangan Terlihat dan Pilih Warna (Tambahkan Bayangan ke Bentuk)
+
+Bayangan tidak akan muncul sampai Anda mengatur `Visible` ke `true`. Setelah itu, Anda dapat memilih warna `System.Drawing.Color` apa saja. Di sini kami menggunakan abu-abu sedang, tetapi silakan bereksperimen.
+
+```csharp
+        // Turn the shadow on and give it a subtle gray tone
+        shadow.Visible = true;
+        shadow.Color = Color.FromArgb(80, 80, 80);   // dark gray
+```
+
+> **Kesalahan umum:** Lupa mengaktifkan `Visible` menghasilkan kegagalan diam—bentuk Anda tampak tidak berubah meskipun Anda telah mengatur properti lain.
+
+## Langkah 5: Konfigurasi Penampilan – Blur, Jarak, dan Sudut (Sesuaikan Tampilan)
+
+Sekarang kami membentuk dampak visual. `BlurRadius` melunakkan tepi, `Distance` menggeser bayangan menjauh dari bentuk, dan `Angle` menentukan arah sumber cahaya.
+
+```csharp
+        // Adjust how the shadow looks
+        shadow.BlurRadius = 5.0;   // in points – higher = softer
+        shadow.Distance   = 3.0;   // how far the shadow is offset
+        shadow.Angle      = 45.0;  // degrees clockwise from the horizontal
+```
+
+> **Kasus khusus:** Jika Anda mengatur jarak negatif, bayangan akan muncul *di dalam* bentuk, yang dapat berguna untuk efek timbul.
+
+## Langkah 6: Simpan Dokumen yang Diperbarui (Lihat Hasilnya)
+
+Akhirnya, tulis perubahan kembali ke disk. Anda dapat menimpa file asli atau membuat file baru.
+
+```csharp
+        // Persist the changes – you’ll see the shadow in Word or any viewer
+        doc.Save("output-with-shadow.docx");
+        Console.WriteLine("Shadow applied successfully! Check output-with-shadow.docx");
     }
 }
 ```
 
-### Mengapa Pengaturan Ini Penting
+Menjalankan program menghasilkan `output-with-shadow.docx`. Buka di Microsoft Word, dan Anda akan melihat bentuk yang dipilih kini memiliki bayangan abu-abu lembut dengan sudut 45°, blur sebesar 5 pt dan offset sebesar 3 pt.
 
-- **Visible** – Tanpa mengaktifkan flag ini, semua properti lain diabaikan.  
-- **Color** – Abu-abu gelap meniru drop shadow UI tipikal; Anda dapat mengganti dengan `Color` apa saja.  
-- **Transparency** – 0.3 memberikan tampilan *lembut* sambil tetap membuat shape dapat dibaca.  
-- **Size** – Mengontrol blur; nilai 6 biasanya cukup untuk tampilan profesional.  
-- **Distance & Angle** – Bersama-sama mereka menentukan *offset*; 2 pt pada 45° menghasilkan bayangan diagonal yang halus.
+![Diagram yang menunjukkan bayangan diterapkan pada sebuah bentuk](https://example.com/images/shadow-diagram.png "Diagram yang menunjukkan bayangan diterapkan pada sebuah bentuk")
 
-Itulah inti dari **cara menambahkan bayangan**. Selanjutnya, kami akan membahas setiap bagian sehingga Anda dapat **menerapkan drop shadow**, **mengubah transparansi**, **menyesuaikan blur**, dan **menambahkan bayangan shape** secara terpisah.
+*Teks alternatif: Diagram yang menunjukkan bayangan diterapkan pada sebuah bentuk* – gambar ini mengilustrasikan efek sebelum/setelah.
 
----
+## Cara Menambahkan Bayangan – Variasi Umum dan Kasus Khusus
 
-## Terapkan Drop Shadow pada Shape
+Meskipun langkah inti sederhana, skenario dunia nyata sering memerlukan penyesuaian. Berikut beberapa situasi “bagaimana jika” yang mungkin Anda temui.
 
-Ketika orang bertanya “bagaimana cara **menerapkan drop shadow** di C#?”, mereka biasanya hanya membutuhkan toggle visibilitas dan sebuah warna. Potongan kode berikut mengisolasi dua baris tersebut:
+### 1. Beberapa Bentuk, Bayangan Berbeda
+
+Jika dokumen Anda berisi beberapa grafik, lakukan loop melalui koleksi bentuk dan tetapkan pengaturan bayangan unik untuk setiap bentuk.
 
 ```csharp
-shape.ShadowFormat.Visible = true;          // Turns the shadow on
-shape.ShadowFormat.Color   = Color.Black;   // Classic black drop shadow
-```
-
-> **Pro tip:** Jika Anda menargetkan versi Word lama (2003‑2007), gunakan warna standar. Beberapa nilai ARGB eksotis mungkin diabaikan oleh renderer lama.
-
----
-
-## Cara Mengubah Transparansi Bayangan
-
-Transparansi dinyatakan sebagai **float antara 0 dan 1**. Nilai **0** berarti bayangan sepenuhnya tidak tembus; **1** membuatnya tidak terlihat. Kebanyakan desainer memilih nilai sekitar **0.2‑0.4** untuk tampilan alami.
-
-```csharp
-shape.ShadowFormat.Transparency = 0.35; // 35 % transparent
-```
-
-### Kasus Tepi
-
-- **Negative values** – Aspose.Words akan memaksa menjadi 0, tetapi lebih baik memvalidasi input.  
-- **Values > 1** – Dipaksa menjadi 1, secara efektif menyembunyikan bayangan.  
-
-Jika Anda perlu membiarkan pengguna memilih persentase, konversikan terlebih dahulu:
-
-```csharp
-float percent = 30;                     // User enters 30 %
-shape.ShadowFormat.Transparency = percent / 100f;
-```
-
----
-
-## Cara Menyesuaikan Blur (Size) Bayangan
-
-Properti **Size** mengontrol radius blur. Angka yang lebih besar menghasilkan bayangan yang lebih lembut dan tersebar. Diukur dalam poin (pt), bukan piksel.
-
-```csharp
-shape.ShadowFormat.Size = 10;  // A generous blur for a “soft” effect
-```
-
-#### Kapan Menggunakan Blur Kecil vs. Besar
-
-- **Small blur (2‑4 pt)** – Baik untuk callout gaya UI yang menginginkan tepi tajam.  
-- **Large blur (8‑12 pt)** – Cocok untuk laporan cetak atau ketika shape berada jauh dari latar belakang.
-
----
-
-## Tambahkan Bayangan Shape – Penempatan dan Arah
-
-Bagian akhir dari **add shape shadow** adalah offset. Dua properti bekerja bersama:
-
-| Properti | Arti |
-|----------|------|
-| **Distance** | Seberapa jauh bayangan berada dari shape (dalam poin). |
-| **Angle**    | Arah offset (0° = kanan, 90° = bawah, 180° = kiri, 270° = atas). |
-
-Contoh yang membuat bayangan subtle di kanan‑bawah:
-
-```csharp
-shape.ShadowFormat.Distance = 1.5; // Slight lift
-shape.ShadowFormat.Angle    = 135; // Down‑left direction (135°)
-```
-
-Anda dapat bereksperimen dengan sudut untuk mensimulasikan cahaya yang datang dari sumber berbeda. Trik umum adalah membiarkan pengguna memilih “sumber cahaya” dari dropdown dan memetakan ke nilai sudut.
-
----
-
-## Contoh Lengkap yang Berfungsi (Semua Langkah Digabungkan)
-
-Berikut adalah program yang sama seperti sebelumnya, tetapi dengan **komentar tambahan** yang membuat logika menjadi sangat jelas. Salin ke `Program.cs` dan jalankan; file output akan berisi textbox dengan bayangan yang disetel sempurna.
-
-```csharp
-using System;
-using System.Drawing;
-using Aspose.Words;
-using Aspose.Words.Drawing;
-
-namespace ShapeShadowDemo
-{
-    class Program
-    {
-        static void Main()
+        NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
+        foreach (Shape shp in shapes)
         {
-            // Load the source document (must contain at least one shape)
-            Document doc = new Document("YOUR_DIRECTORY/input.docx");
-
-            // Grab the first shape we encounter – usually a textbox or picture
-            Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-            if (shape == null)
-            {
-                Console.WriteLine("No shape found in the document.");
-                return;
-            }
-
-            // ---------- Apply Drop Shadow ----------
-            shape.ShadowFormat.Visible = true;          // Turn it on
-            shape.ShadowFormat.Color   = Color.DarkGray; // Soft dark colour
-
-            // ---------- How to Change Transparency ----------
-            shape.ShadowFormat.Transparency = 0.3; // 30 % transparent – looks natural
-
-            // ---------- How to Adjust Blur ----------
-            shape.ShadowFormat.Size = 6; // Moderate blur for a professional feel
-
-            // ---------- Add Shape Shadow (position) ----------
-            shape.ShadowFormat.Distance = 2; // Slight offset
-            shape.ShadowFormat.Angle    = 45; // Diagonal down‑right
-
-            // Save the result
-            doc.Save("YOUR_DIRECTORY/output.docx");
-            Console.WriteLine("Document saved with shadow. Open output.docx to verify.");
+            ShadowFormat sf = shp.ShadowFormat;
+            sf.Visible = true;
+            sf.Color = Color.FromArgb(100, 100, 150); // bluish tint
+            sf.BlurRadius = 3.0;
+            sf.Distance = 2.0;
+            sf.Angle = 30.0;
         }
-    }
-}
 ```
 
-**Hasil yang diharapkan:** Buka `output.docx`. Textbox pertama akan menampilkan bayangan abu-abu gelap, 30 % transparan, sedikit blur (size = 6) dan offset 2 pt pada sudut 45°. Efeknya halus namun terlihat—tepat seperti yang diinginkan kebanyakan desainer UI.
+### 2. Bayangan Transparan
+
+Aspose.Words memungkinkan Anda mengatur saluran alfa melalui `Color.FromArgb(alpha, r, g, b)`. Gunakan alfa rendah (mis., 50) untuk efek halus, semi‑transparan.
+
+```csharp
+        shadow.Color = Color.FromArgb(50, 0, 0, 0); // 20% opacity black
+```
+
+### 3. Menghapus Bayangan
+
+Terkadang Anda perlu mematikan bayangan setelah diterapkan. Cukup atur `Visible` ke `false`.
+
+```csharp
+        shadow.Visible = false;
+```
+
+### 4. Kekhawatiran Kompatibilitas
+
+Fitur bayangan yang digunakan di sini didukung di Word 2007 + (format DOCX). Jika Anda menargetkan format biner `.doc` yang lebih lama, bayangan mungkin diabaikan karena format tersebut tidak memiliki elemen XML yang diperlukan. Dalam kasus seperti itu, pertimbangkan menyimpan sebagai DOCX atau menggunakan petunjuk visual alternatif.
+
+## Ringkasan: Apa yang Telah Kita Capai
+
+- **Memuat** sebuah DOCX dengan Aspose.Words.  
+- **Mengambil** bentuk pertama dari dokumen.  
+- **Mengakses** objek `ShadowFormat`‑nya.  
+- **Mengaktifkan** bayangan, mengatur warna, radius blur, jarak, dan sudut.  
+- **Menyimpan** file baru yang secara jelas menunjukkan efek tersebut.  
+
+Semua langkah tersebut bersama‑sama menjawab **bagaimana cara menambahkan bayangan** pada sebuah bentuk, sekaligus menunjukkan cara **menambahkan bayangan ke bentuk**, **menerapkan bayangan pada bentuk**, dan bahkan **bagaimana cara menambahkan bayangan** dalam skenario yang lebih kompleks.
+
+## Langkah Selanjutnya dan Topik Terkait
+
+Setelah Anda menguasai gaya bayangan, Anda mungkin ingin menjelajahi:
+
+- **Isian gradien** untuk bentuk (`Shape.FillFormat.GradientFill`).  
+- **Efek teks** seperti cahaya atau refleksi (`TextEffect`).  
+- **Penyisipan bentuk baru secara programatik** (`doc.FirstSection.Body.AppendChild(new Shape(...))`).  
+- **Ekspor ke PDF** sambil mempertahankan bayangan (`doc.Save("output.pdf")`).  
+
+Setiap topik tersebut dibangun di atas prinsip model‑objek yang sama yang kami gunakan di sini, sehingga Anda akan merasa nyaman.
 
 ---
 
-## Pertanyaan Umum & Hal-hal yang Perlu Diwaspadai
-
-- **“Apakah ini juga berfungsi dengan gambar?”**  
-  Ya. Setiap `Shape`—baik textbox, gambar, atau auto‑shape—menyediakan `ShadowFormat`. Cukup ganti logika pengambilan shape dengan indeks atau nama yang sesuai.
-
-- **“Bagaimana jika dokumen memiliki banyak shape?”**  
-  Loop melalui `doc.GetChildNodes(NodeType.Shape, true)` dan terapkan pengaturan yang sama ke masing‑masing. Anda juga dapat memfilter berdasarkan `shape.Name` atau `shape
+*Selamat coding! Jika Anda mengalami kendala, tinggalkan komentar di bawah atau periksa dokumentasi API Aspose.Words untuk wawasan lebih mendalam.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

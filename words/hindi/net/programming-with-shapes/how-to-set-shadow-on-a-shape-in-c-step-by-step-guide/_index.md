@@ -1,24 +1,23 @@
 ---
 category: general
-date: 2026-04-10
-description: how to set shadow on a shape in C# – learn how to apply drop shadow,
-  change transparency, adjust blur, and add shape shadow using Aspose.Words.
+date: 2026-03-28
+description: C# में Aspose.Words के साथ किसी आकार पर शैडो कैसे सेट करें – आकार में
+  शैडो जोड़ें, शैडो लागू करें, और रूप को अनुकूलित करें।
 draft: false
 keywords:
 - how to set shadow
-- apply drop shadow
-- how to change transparency
-- how to adjust blur
-- add shape shadow
+- add shadow to shape
+- apply shadow to shape
+- how to add shadow
 language: hi
-og_description: C# में किसी आकार पर शैडो कैसे सेट करें – यह ट्यूटोरियल दिखाता है कि
-  ड्रॉप शैडो कैसे लागू करें, पारदर्शिता कैसे बदलें, ब्लर कैसे समायोजित करें, और स्पष्ट
-  कोड उदाहरणों के साथ आकार शैडो कैसे जोड़ें।
-og_title: C# में किसी आकृति पर छाया कैसे सेट करें – पूर्ण गाइड
+og_description: C# में शीघ्रता से किसी आकार पर छाया कैसे सेट करें। आकार में छाया जोड़ना,
+  छाया लागू करना, और ब्लर, दूरी और कोण को समायोजित करना सीखें।
+og_title: C# में किसी आकृति पर शैडो कैसे सेट करें – पूर्ण गाइड
 tags:
 - Aspose.Words
 - C#
 - Document Automation
+- Graphics
 title: C# में किसी आकार पर शैडो कैसे सेट करें – चरण‑दर‑चरण गाइड
 url: /hi/net/programming-with-shapes/how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/
 ---
@@ -27,231 +26,177 @@ url: /hi/net/programming-with-shapes/how-to-set-shadow-on-a-shape-in-c-step-by-s
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# C# में आकार पर छाया सेट कैसे करें – पूर्ण गाइड
+# C# में किसी Shape पर Shadow कैसे सेट करें – पूर्ण प्रोग्रामिंग walkthrough
 
-क्या आपने कभी **छाया सेट करने** के बारे में सोचा है जब आप प्रोग्रामेटिकली एक Word दस्तावेज़ बना रहे हों? आप अकेले नहीं हैं। कई डेवलपर्स को तब रुकावट आती है जब उन्हें टेक्स्टबॉक्स, लोगो या कॉल‑आउट बॉक्स के लिए सूक्ष्म ड्रॉप शैडो चाहिए होती है, और API दस्तावेज़ थोड़ा कम लगते हैं।  
+क्या आपने कभी **shape पर shadow सेट करने** के बारे में सोचा है जब आप प्रोग्रामेटिकली Word दस्तावेज़ बना रहे हों? आप अकेले नहीं हैं। कई रिपोर्ट, प्रेज़ेंटेशन या फ़्लायर में, एक सूक्ष्म ड्रॉप‑शैडो ग्राफ़िक को बिना टैक्की दिखे उभारा सकता है। अच्छी खबर? Aspose.Words for .NET के साथ आप कुछ ही लाइनों के कोड में shape पर shadow जोड़ सकते हैं।
 
-इस ट्यूटोरियल में हम पूरी प्रक्रिया को चरण‑दर‑चरण देखेंगे: `.docx` फ़ाइल लोड करने से, पहले `Shape` को प्राप्त करने तक, ड्रॉप शैडो लागू करने, उसकी ट्रांसपेरेंसी समायोजित करने, ब्लर रेडियस बदलने, और अंत में सही पोज़िशनिंग करने तक। अंत तक आपके पास एक पुन: उपयोग योग्य स्निपेट होगा जो Aspose.Words .NET 2023 या बाद के संस्करणों के साथ काम करता है, और आप समझेंगे कि *हर प्रॉपर्टी* क्यों महत्वपूर्ण है।
+इस ट्यूटोरियल में हम पूरी प्रक्रिया को कवर करेंगे: एक DOCX लोड करना, पहली shape को प्राप्त करना, और फिर **shape पर shadow लागू करना** — जिसमें रंग, ब्लर, दूरी और कोण शामिल हैं। अंत तक आपके पास एक तैयार‑से‑चलाने वाला स्निपेट होगा जिसे आप किसी भी C# प्रोजेक्ट में डाल सकते हैं। कोई अतिरिक्त लाइब्रेरी नहीं, कोई छिपा जादू नहीं।
 
 ## आपको क्या चाहिए
 
-- **Aspose.Words for .NET** (NuGet पैकेज `Aspose.Words`) – वह लाइब्रेरी जो हमें `Document`, `Shape`, और `ShadowFormat` क्लासेज़ देती है।  
-- **.NET 6+** (या .NET Framework 4.7.2) – कोई भी नया रनटाइम चलेगा।  
-- एक साधारण Word फ़ाइल (`input.docx`) जिसमें पहले से कम से कम एक आकार हो, जैसे कि टेक्स्टबॉक्स।  
-- Visual Studio, VS Code, या आपका पसंदीदा IDE।
+- **Aspose.Words for .NET** (संस्करण 23.9 या नया) – वह लाइब्रेरी जो Word मैनिपुलेशन को आसान बनाती है।  
+- एक .NET विकास वातावरण (Visual Studio 2022, Rider, या CLI)।  
+- एक नमूना DOCX जिसमें कम से कम एक shape हो (एक आयत, चित्र, या SmartArt चलेगा)।  
 
-बस इतना ही। कोई अतिरिक्त थर्ड‑पार्टी टूल नहीं, कोई COM इंटरऑप नहीं, सिर्फ साधा C#।
+यदि इनमें से कोई भी आपके पास नहीं है, तो `Install-Package Aspose.Words` के साथ NuGet पैकेज प्राप्त करें और मैन्युअली एक shape डालकर एक साधारण Word फ़ाइल बनाएं—डेमो के लिए।
 
-![how to set shadow example](image-placeholder.png){:alt="Word दस्तावेज़ में एक आकार पर छाया सेट करना"}
+## चरण 1: दस्तावेज़ लोड करें (Shadow जोड़ने की तैयारी)
 
-## छाया सेट करने का अवलोकन
-
-**छाया सेट करने** का मूल विचार यह है कि हम `Shape` पर मौजूद `ShadowFormat` ऑब्जेक्ट को बदलें। `ShadowFormat` को छाया के लिए एक छोटा “स्टाइल शीट” समझें: यह रेंडरर को बताता है कि छाया दिखनी चाहिए या नहीं, उसका रंग क्या होगा, वह कितनी ट्रांसपेरेंट है, ब्लर कितना है, और आकार के सापेक्ष वह कहाँ स्थित है।  
-
-नीचे *पूरा* चलाने योग्य प्रोग्राम दिया गया है। इसे कॉपी‑पेस्ट करके एक कंसोल ऐप में रखें, **F5** दबाएँ, और देखें कि `output.docx` में छाया कैसे प्रकट होती है।
+सबसे पहले स्रोत फ़ाइल को खोलें। यही वह जगह है जहाँ **shape पर shadow जोड़ना** शुरू होगा।
 
 ```csharp
 using System;
-using System.Drawing;               // For Color
-using Aspose.Words;                 // Core document classes
-using Aspose.Words.Drawing;         // Shape & ShadowFormat
+using Aspose.Words;
+using Aspose.Words.Drawing;
+using System.Drawing;
 
 class ShadowDemo
 {
     static void Main()
     {
-        // -------------------------------------------------
-        // Step 1: Load the Word document that contains the shape.
-        // -------------------------------------------------
-        Document doc = new Document("YOUR_DIRECTORY/input.docx");
+        // Load the DOCX that holds the shape you want to enhance
+        Document doc = new Document("input.docx");
+```
 
-        // -------------------------------------------------
-        // Step 2: Retrieve the first shape (e.g., a textbox) from the document.
-        // -------------------------------------------------
-        Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-        if (shape == null)
+> **यह क्यों महत्वपूर्ण है:** दस्तावेज़ लोड करने से आपको एक `Document` ऑब्जेक्ट मिलता है जो सभी नोड्स, जिसमें shapes भी शामिल हैं, को धारण करता है। इसके बिना संशोधित करने के लिए कुछ नहीं रहेगा।
+
+## चरण 2: लक्ष्य Shape प्राप्त करें (सही Shape चुनें)
+
+अब हम उस shape को ढूंढते हैं जिसे हम स्टाइल करना चाहते हैं। इस उदाहरण में हम पहले पैराग्राफ की पहली shape लेते हैं, लेकिन आप क्वेरी को किसी भी नोड कलेक्शन के अनुसार अनुकूलित कर सकते हैं।
+
+```csharp
+        // Grab the first shape inside the first paragraph of the first section
+        Shape targetShape = doc.FirstSection.Body.FirstParagraph
+            .GetChildNodes(NodeType.Shape, true)[0] as Shape;
+
+        if (targetShape == null)
         {
-            Console.WriteLine("No shape found – make sure input.docx has a textbox.");
+            Console.WriteLine("No shape found – check your input file.");
             return;
         }
+```
 
-        // -------------------------------------------------
-        // Step 3: Make the shadow visible.
-        // -------------------------------------------------
-        shape.ShadowFormat.Visible = true;
+> **प्रो टिप:** `GetChildNodes(NodeType.Shape, true)` सबट्री को पुनरावर्ती रूप से चलाता है, जिससे आप नेस्टेड shapes (जैसे WordArt) को नहीं छोड़ते।
 
-        // -------------------------------------------------
-        // Step 4: Set the shadow colour to a dark gray.
-        // -------------------------------------------------
-        shape.ShadowFormat.Color = Color.DarkGray;
+## चरण 3: Shadow Formatting ऑब्जेक्ट तक पहुँचें (जहाँ जादू रहता है)
 
-        // -------------------------------------------------
-        // Step 5: Define the shadow's transparency (30 % transparent).
-        // -------------------------------------------------
-        shape.ShadowFormat.Transparency = 0.3;   // 0 = opaque, 1 = fully transparent
+हर `Shape` एक `ShadowFormat` प्रॉपर्टी एक्सपोज़ करता है। यह ऑब्जेक्ट visibility, color, blur, distance, और angle को नियंत्रित करता है—वे सभी knobs जो आपको **shape पर shadow लागू करने** के लिए चाहिए।
 
-        // -------------------------------------------------
-        // Step 6: Configure the blur radius (size) of the shadow.
-        // -------------------------------------------------
-        shape.ShadowFormat.Size = 6;            // Larger value = softer edges
+```csharp
+        // The ShadowFormat object holds all shadow‑related settings
+        ShadowFormat shadow = targetShape.ShadowFormat;
+```
 
-        // -------------------------------------------------
-        // Step 7: Set the offset distance and direction (angle) of the shadow.
-        // -------------------------------------------------
-        shape.ShadowFormat.Distance = 2;        // How far the shadow is from the shape
-        shape.ShadowFormat.Angle = 45;          // Angle in degrees (0 = right, 90 = down)
+> **हम `ShadowFormat` क्यों उपयोग करते हैं:** यह अंतर्निहित XML प्रतिनिधित्व को एब्स्ट्रैक्ट करता है, जिससे आप raw OpenXML से निपटे बिना shadows को ट्यून कर सकते हैं।
 
-        // -------------------------------------------------
-        // Save the modified document.
-        // -------------------------------------------------
-        doc.Save("YOUR_DIRECTORY/output.docx");
-        Console.WriteLine("Shadow applied successfully! Check output.docx.");
+## चरण 4: Shadow को Visible बनाएं और रंग चुनें (Shape में Shadow जोड़ें)
+
+जब तक आप `Visible` को `true` नहीं सेट करते, shadow दिखाई नहीं देगा। इसके बाद आप कोई भी `System.Drawing.Color` चुन सकते हैं। यहाँ हम एक मध्यम ग्रे का उपयोग करते हैं, लेकिन आप अपनी पसंद के अनुसार प्रयोग कर सकते हैं।
+
+```csharp
+        // Turn the shadow on and give it a subtle gray tone
+        shadow.Visible = true;
+        shadow.Color = Color.FromArgb(80, 80, 80);   // dark gray
+```
+
+> **सामान्य गलती:** `Visible` को सक्षम न करना साइलेंट फेल्योर का कारण बनता है—आपकी shape अपरिवर्तित दिखेगी जबकि आपने अन्य प्रॉपर्टीज़ सेट कर ली हों।
+
+## चरण 5: Appearance कॉन्फ़िगर करें – Blur, Distance, और Angle (लुक को फाइन‑ट्यून करें)
+
+अब हम दृश्य प्रभाव को आकार देते हैं। `BlurRadius` किनारों को नरम करता है, `Distance` shadow को shape से दूर धकेलता है, और `Angle` प्रकाश स्रोत की दिशा निर्धारित करता है।
+
+```csharp
+        // Adjust how the shadow looks
+        shadow.BlurRadius = 5.0;   // in points – higher = softer
+        shadow.Distance   = 3.0;   // how far the shadow is offset
+        shadow.Angle      = 45.0;  // degrees clockwise from the horizontal
+```
+
+> **एज केस:** यदि आप नकारात्मक दूरी सेट करते हैं, तो shadow shape के *भीतर* दिखाई देगा, जो embossed प्रभाव के लिए उपयोगी हो सकता है।
+
+## चरण 6: अपडेटेड दस्तावेज़ सहेजें (परिणाम देखें)
+
+अंत में, बदलावों को डिस्क पर लिखें। आप मूल फ़ाइल को ओवरराइट कर सकते हैं या नई फ़ाइल बना सकते हैं।
+
+```csharp
+        // Persist the changes – you’ll see the shadow in Word or any viewer
+        doc.Save("output-with-shadow.docx");
+        Console.WriteLine("Shadow applied successfully! Check output-with-shadow.docx");
     }
 }
 ```
 
-### ये सेटिंग्स क्यों महत्वपूर्ण हैं
+प्रोग्राम चलाने पर `output-with-shadow.docx` बनता है। इसे Microsoft Word में खोलें, और आप देखेंगे कि चयनित shape अब 45° कोण पर, 5 pts ब्लर और 3 pts ऑफसेट के साथ एक नरम ग्रे shadow रखती है।
 
-- **Visible** – इस फ़्लैग को ऑन किए बिना सभी अन्य प्रॉपर्टीज़ अनदेखी रह जाती हैं।  
-- **Color** – डार्क ग्रे सामान्य UI ड्रॉप शैडो की नकल करता है; आप किसी भी `Color` से बदल सकते हैं।  
-- **Transparency** – 0.3 एक *सॉफ्ट* लुक देता है जबकि आकार अभी भी पढ़ने योग्य रहता है।  
-- **Size** – ब्लर को नियंत्रित करता है; 6 का मान आमतौर पर प्रोफ़ेशनल फ़ील देता है।  
-- **Distance & Angle** – मिलकर *ऑफ़सेट* तय करते हैं; 2 pts पर 45° एक सूक्ष्म डायगोनल शैडो देता है।
+![shape पर shadow लागू करने का आरेख](https://example.com/images/shadow-diagram.png "shape पर shadow लागू करने का आरेख")
 
-यही है **छाया सेट करने** का सार। अब हम प्रत्येक भाग को अलग‑अलग समझेंगे ताकि आप **ड्रॉप शैडो लागू कर सकें**, **ट्रांसपेरेंसी बदल सकें**, **ब्लर समायोजित कर सकें**, और **आकार की छाया जोड़ सकें**।
+*Alt text: shape पर shadow लागू करने का आरेख* – यह चित्र before/after प्रभाव को दर्शाता है।
 
----
+## Shadow जोड़ने के सामान्य वैरिएशन और एज केस
 
-## आकार पर ड्रॉप शैडो लागू करें
+भले ही मूल चरण सरल हों, वास्तविक दुनिया के परिदृश्य अक्सर ट्यूनिंग की मांग करते हैं। नीचे कुछ “what‑if” स्थितियाँ दी गई हैं जिनका आप सामना कर सकते हैं।
 
-जब लोग पूछते हैं “C# में **ड्रॉप शैडो** कैसे **लागू करें**?”, तो आमतौर पर उन्हें केवल विज़िबिलिटी टॉगल और रंग चाहिए होता है। नीचे दिया गया स्निपेट उन दो लाइनों को अलग करता है:
+### 1. कई Shapes, अलग‑अलग Shadows
+
+यदि आपके दस्तावेज़ में कई ग्राफ़िक्स हैं, तो shape कलेक्शन पर लूप चलाएँ और प्रत्येक shape के लिए अद्वितीय shadow सेटिंग्स असाइन करें।
 
 ```csharp
-shape.ShadowFormat.Visible = true;          // Turns the shadow on
-shape.ShadowFormat.Color   = Color.Black;   // Classic black drop shadow
-```
-
-> **प्रो टिप:** यदि आप पुराने Word संस्करणों (2003‑2007) को टार्गेट कर रहे हैं, तो मानक रंगों का उपयोग करें। कुछ एक्सोटिक ARGB वैल्यूज़ को लेगेसी रेंडरर द्वारा अनदेखा किया जा सकता है।
-
----
-
-## शैडो की ट्रांसपेरेंसी बदलें
-
-ट्रांसपेरेंसी **0 और 1 के बीच के फ़्लोट** के रूप में व्यक्त की जाती है। **0** का मतलब पूरी तरह अपारदर्शी शैडो; **1** शैडो को अदृश्य बना देता है। अधिकांश डिज़ाइनर प्राकृतिक लुक के लिए **0.2‑0.4** के आसपास सेट करते हैं।
-
-```csharp
-shape.ShadowFormat.Transparency = 0.35; // 35 % transparent
-```
-
-### किनारे के मामलों
-
-- **निगेटिव वैल्यू** – Aspose.Words उन्हें 0 पर क्लैंप कर देगा, लेकिन इनपुट को वैलिडेट करना बेहतर है।  
-- **1 से बड़ी वैल्यू** – 1 पर क्लैंप हो जाती है, जिससे शैडो प्रभावी रूप से छिप जाता है।  
-
-यदि आप उपयोगकर्ताओं को प्रतिशत चुनने देना चाहते हैं, तो पहले उसे कन्वर्ट करें:
-
-```csharp
-float percent = 30;                     // User enters 30 %
-shape.ShadowFormat.Transparency = percent / 100f;
-```
-
----
-
-## शैडो का ब्लर (Size) समायोजित करें
-
-**Size** प्रॉपर्टी ब्लर रेडियस को नियंत्रित करती है। बड़े नंबर एक मुलायम, अधिक फैला हुआ शैडो बनाते हैं। यह पिक्सेल में नहीं, बल्कि पॉइंट्स (pt) में मापा जाता है।
-
-```csharp
-shape.ShadowFormat.Size = 10;  // A generous blur for a “soft” effect
-```
-
-#### कब छोटा बनाम बड़ा ब्लर उपयोग करें
-
-- **छोटा ब्लर (2‑4 pt)** – UI‑स्टाइल कॉल‑आउट्स के लिए उपयुक्त जहाँ आप एक तेज़ किनारा चाहते हैं।  
-- **बड़ा ब्लर (8‑12 pt)** – प्रिंटेड रिपोर्ट्स या जब आकार पृष्ठभूमि से दूर हो, तब अच्छा काम करता है।
-
----
-
-## आकार की छाया जोड़ें – पोज़िशनिंग और दिशा
-
-**आकार की छाया जोड़ने** का अंतिम भाग ऑफ़सेट है। दो प्रॉपर्टी मिलकर काम करती हैं:
-
-| प्रॉपर्टी | अर्थ |
-|----------|------|
-| **Distance** | शैडो आकार से कितनी दूरी पर बैठती है (पॉइंट्स में)। |
-| **Angle**    | ऑफ़सेट की दिशा (0° = दाएँ, 90° = नीचे, 180° = बाएँ, 270° = ऊपर)। |
-
-नीचे दिया गया उदाहरण एक सूक्ष्म बॉटम‑राइट शैडो बनाता है:
-
-```csharp
-shape.ShadowFormat.Distance = 1.5; // Slight lift
-shape.ShadowFormat.Angle    = 135; // Down‑left direction (135°)
-```
-
-आप विभिन्न लाइट सोर्सेज़ को सिम्युलेट करने के लिए एंगल बदल सकते हैं। एक आम ट्रिक यह है कि उपयोगकर्ता को ड्रॉपडाउन से “लाइट सोर्स” चुनने दें और उसे एंगल वैल्यू से मैप करें।
-
----
-
-## पूर्ण कार्यशील उदाहरण (सभी चरण एक साथ)
-
-नीचे वही प्रोग्राम है जैसा पहले दिखाया गया था, लेकिन **अतिरिक्त टिप्पणियों** के साथ जो लॉजिक को स्पष्ट बनाती हैं। इसे `Program.cs` में कॉपी करें और चलाएँ; आउटपुट फ़ाइल में एक टेक्स्टबॉक्स के साथ बिल्कुल सही ट्यून की गई शैडो होगी।
-
-```csharp
-using System;
-using System.Drawing;
-using Aspose.Words;
-using Aspose.Words.Drawing;
-
-namespace ShapeShadowDemo
-{
-    class Program
-    {
-        static void Main()
+        NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
+        foreach (Shape shp in shapes)
         {
-            // Load the source document (must contain at least one shape)
-            Document doc = new Document("YOUR_DIRECTORY/input.docx");
-
-            // Grab the first shape we encounter – usually a textbox or picture
-            Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-            if (shape == null)
-            {
-                Console.WriteLine("No shape found in the document.");
-                return;
-            }
-
-            // ---------- Apply Drop Shadow ----------
-            shape.ShadowFormat.Visible = true;          // Turn it on
-            shape.ShadowFormat.Color   = Color.DarkGray; // Soft dark colour
-
-            // ---------- How to Change Transparency ----------
-            shape.ShadowFormat.Transparency = 0.3; // 30 % transparent – looks natural
-
-            // ---------- How to Adjust Blur ----------
-            shape.ShadowFormat.Size = 6; // Moderate blur for a professional feel
-
-            // ---------- Add Shape Shadow (position) ----------
-            shape.ShadowFormat.Distance = 2; // Slight offset
-            shape.ShadowFormat.Angle    = 45; // Diagonal down‑right
-
-            // Save the result
-            doc.Save("YOUR_DIRECTORY/output.docx");
-            Console.WriteLine("Document saved with shadow. Open output.docx to verify.");
+            ShadowFormat sf = shp.ShadowFormat;
+            sf.Visible = true;
+            sf.Color = Color.FromArgb(100, 100, 150); // bluish tint
+            sf.BlurRadius = 3.0;
+            sf.Distance = 2.0;
+            sf.Angle = 30.0;
         }
-    }
-}
 ```
 
-**अपेक्षित परिणाम:** `output.docx` खोलें। पहला टेक्स्टबॉक्स डार्क ग्रे, 30 % ट्रांसपेरेंट शैडो दिखाएगा जो थोड़ा ब्लर (size = 6) और 2 pt पर 45° एंगल के साथ ऑफ़सेट होगा। प्रभाव सूक्ष्म लेकिन स्पष्ट है—बिल्कुल वही जो अधिकांश UI डिज़ाइनर चाहते हैं।
+### 2. Transparent Shadows
+
+Aspose.Words आपको `Color.FromArgb(alpha, r, g, b)` के माध्यम से अल्फा चैनल सेट करने देता है। सूक्ष्म, अर्ध‑पारदर्शी प्रभाव के लिए कम अल्फा (जैसे 50) उपयोग करें।
+
+```csharp
+        shadow.Color = Color.FromArgb(50, 0, 0, 0); // 20% opacity black
+```
+
+### 3. Shadow हटाना
+
+कभी‑कभी आपको लागू किए गए shadow को बंद करना पड़ता है। बस `Visible` को `false` सेट कर दें।
+
+```csharp
+        shadow.Visible = false;
+```
+
+### 4. Compatibility Concerns
+
+यहाँ उपयोग किए गए shadow फीचर Word 2007 + (DOCX फ़ॉर्मेट) में समर्थित हैं। यदि आप पुराने `.doc` बाइनरी फ़ॉर्मेट को टार्गेट कर रहे हैं, तो shadow को अनदेखा किया जा सकता है क्योंकि इस फ़ॉर्मेट में आवश्यक XML एलिमेंट्स नहीं होते। ऐसे मामलों में DOCX के रूप में सहेजने या वैकल्पिक विज़ुअल क्यू पर विचार करें।
+
+## सारांश: हमने क्या हासिल किया
+
+- **लोड किया** Aspose.Words के साथ एक DOCX।  
+- **प्राप्त किया** दस्तावेज़ से पहली shape।  
+- **एक्सेस किया** उसकी `ShadowFormat` ऑब्जेक्ट।  
+- **Enabled** किया shadow, रंग, blur radius, distance, और angle सेट किया।  
+- **सहेजा** एक नई फ़ाइल जिसने प्रभाव को स्पष्ट रूप से दिखाया।  
+
+इन सभी चरणों ने **shape पर shadow कैसे सेट करें** का उत्तर दिया, साथ ही **shape पर shadow जोड़ना**, **shape पर shadow लागू करना**, और अधिक जटिल परिदृश्यों में **shadow कैसे जोड़ें** को भी दर्शाया।
+
+## अगले कदम और संबंधित विषय
+
+अब जब आप shadow स्टाइलिंग में निपुण हो गए हैं, तो आप आगे खोज सकते हैं:
+
+- **Gradient fills** for shapes (`Shape.FillFormat.GradientFill`)।  
+- **Text effects** जैसे glow या reflection (`TextEffect`)।  
+- **Programmatic insertion of new shapes** (`doc.FirstSection.Body.AppendChild(new Shape(...))`)।  
+- **Exporting to PDF** while preserving shadows (`doc.Save("output.pdf")`)।  
+
+इनमें से प्रत्येक विषय वही ऑब्जेक्ट‑मॉडल सिद्धांतों पर आधारित है जिसका हमने यहाँ उपयोग किया, इसलिए आप सहज महसूस करेंगे।
 
 ---
 
-## सामान्य प्रश्न और ट्रिक्स
-
-- **“क्या यह इमेजेज़ पर भी काम करता है?”**  
-  हाँ। कोई भी `Shape`—चाहे वह टेक्स्टबॉक्स, पिक्चर, या ऑटो‑शेप हो—`ShadowFormat` को एक्सपोज़ करता है। बस शैडो प्राप्त करने की लॉजिक को उचित इंडेक्स या नाम से बदल दें।
-
-- **“अगर दस्तावेज़ में कई आकार हों तो क्या करें?”**  
-  `doc.GetChildNodes(NodeType.Shape, true)` पर लूप करें और प्रत्येक पर समान सेटिंग्स लागू करें। आप `shape.Name` या `shape` के अन्य एट्रिब्यूट्स के आधार पर फ़िल्टर भी कर सकते हैं।
+*कोडिंग का आनंद लें! यदि आप किसी समस्या में फँसते हैं, तो नीचे टिप्पणी छोड़ें या गहरी जानकारी के लिए Aspose.Words API डॉक्यूमेंटेशन देखें।*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

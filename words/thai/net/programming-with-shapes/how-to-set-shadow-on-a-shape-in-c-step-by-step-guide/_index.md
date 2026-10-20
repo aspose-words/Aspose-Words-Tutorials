@@ -1,24 +1,24 @@
 ---
 category: general
-date: 2026-04-10
-description: วิธีตั้งค่าเงาบนรูปร่างใน C# – เรียนรู้วิธีใช้เงาตก, ปรับความโปร่งใส,
-  ปรับเบลอ, และเพิ่มเงารูปร่างด้วย Aspose.Words.
+date: 2026-03-28
+description: วิธีตั้งเงาบนรูปร่างใน C# ด้วย Aspose.Words – เพิ่มเงาให้กับรูปร่าง,
+  ใช้เงา, และปรับแต่งลักษณะ.
 draft: false
 keywords:
 - how to set shadow
-- apply drop shadow
-- how to change transparency
-- how to adjust blur
-- add shape shadow
+- add shadow to shape
+- apply shadow to shape
+- how to add shadow
 language: th
-og_description: วิธีตั้งเงาบนรูปทรงใน C# – บทเรียนนี้แสดงวิธีการใช้เงาตก, ปรับความโปร่งใส,
-  ปรับเบลอ, และเพิ่มเงารูปทรงพร้อมตัวอย่างโค้ดที่ชัดเจน.
-og_title: วิธีตั้งเงาบนรูปร่างใน C# – คู่มือเต็ม
+og_description: วิธีตั้งเงาบนรูปร่างใน C# อย่างรวดเร็ว เรียนรู้การเพิ่มเงาให้กับรูปร่าง
+  ใช้เงา และปรับความเบลอ ระยะห่าง และมุม
+og_title: วิธีตั้งเงาบนรูปทรงใน C# – คู่มือฉบับสมบูรณ์
 tags:
 - Aspose.Words
 - C#
 - Document Automation
-title: วิธีตั้งเงาบนรูปทรงใน C# – คู่มือแบบขั้นตอนต่อขั้นตอน
+- Graphics
+title: วิธีตั้งเงาบนรูปร่างใน C# – คู่มือแบบทีละขั้นตอน
 url: /th/net/programming-with-shapes/how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/
 ---
 
@@ -26,231 +26,177 @@ url: /th/net/programming-with-shapes/how-to-set-shadow-on-a-shape-in-c-step-by-s
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# วิธีตั้งเงาบนรูปร่างใน C# – คู่มือฉบับสมบูรณ์
+# วิธีตั้งเงาบนรูปร่างใน C# – คู่มือการเขียนโปรแกรมอย่างครบถ้วน
 
-เคยสงสัย **วิธีตั้งเงา** บนรูปร่างเมื่อคุณสร้างเอกสาร Word ด้วยโค้ดหรือไม่? คุณไม่ได้อยู่คนเดียว นักพัฒนาหลายคนเจออุปสรรคเมื่อต้องการเงาลดระดับสำหรับกล่องข้อความ โลโก้ หรือกล่องอธิบาย และเอกสาร API ก็มักจะสั้นเกินไป  
+เคยสงสัย **วิธีตั้งเงา** บนรูปร่างเมื่อคุณสร้างเอกสาร Word ด้วยโปรแกรมหรือไม่? คุณไม่ได้เป็นคนเดียว ในหลาย ๆ รายงาน การนำเสนอ หรือโบรชัวร์ เงาที่เบาบางสามารถทำให้กราฟิกดูโดดเด่นโดยไม่ดูหยาบกร้าน ข่าวดีคือ? ด้วย Aspose.Words for .NET คุณสามารถเพิ่มเงาให้กับรูปร่างได้เพียงไม่กี่บรรทัดของโค้ด
 
-ในบทเรียนนี้เราจะเดินผ่านกระบวนการทั้งหมด: ตั้งแต่การโหลดไฟล์ `.docx` การดึง `Shape` ตัวแรก ไปจนถึงการใส่เงา ปรับความโปร่งใส ปรับรัศมีเบลอ และสุดท้ายกำหนดตำแหน่งให้พอดี เมื่อเสร็จคุณจะได้โค้ดสั้น ๆ ที่ใช้ได้กับ Aspose.Words .NET 2023 หรือใหม่กว่า และคุณจะเข้าใจ *ทำไม* แต่ละคุณสมบัติจึงสำคัญ
+ในบทเรียนนี้เราจะเดินผ่านกระบวนการทั้งหมด: โหลดไฟล์ DOCX, ดึงรูปร่างแรก, แล้ว **apply shadow to shape** — รวมถึงสี, ความเบลอ, ระยะทาง, และมุม เมื่อเสร็จคุณจะได้สคริปต์ที่พร้อมรันซึ่งสามารถนำไปใส่ในโปรเจกต์ C# ใดก็ได้ ไม่ต้องใช้ไลบรารีเพิ่มเติม ไม่ต้องมีเวทมนตร์ลับใด ๆ
 
-## สิ่งที่คุณต้องเตรียม
+## สิ่งที่คุณต้องมี
 
-- **Aspose.Words for .NET** (แพ็กเกจ NuGet `Aspose.Words`) – ไลบรารีที่ให้คลาส `Document`, `Shape` และ `ShadowFormat`  
-- **.NET 6+** (หรือ .NET Framework 4.7.2) – เวอร์ชันรันไทม์ใดก็ได้ที่ทันสมัย  
-- ไฟล์ Word ง่าย ๆ (`input.docx`) ที่มีรูปร่างอย่างน้อยหนึ่งรูป เช่น กล่องข้อความ  
-- Visual Studio, VS Code หรือ IDE ที่คุณชื่นชอบ  
+- **Aspose.Words for .NET** (เวอร์ชัน 23.9 หรือใหม่กว่า) – ไลบรารีที่ทำให้การจัดการ Word ง่ายดาย  
+- สภาพแวดล้อมการพัฒนา .NET (Visual Studio 2022, Rider, หรือ CLI)  
+- ตัวอย่างไฟล์ DOCX ที่มีรูปร่างอย่างน้อยหนึ่งรูป (เช่น สี่เหลี่ยม, รูปภาพ, หรือ SmartArt)  
 
-แค่นั้นเอง ไม่ต้องใช้เครื่องมือของบุคคลที่สามเพิ่มเติม ไม่ต้องใช้ COM interop เพียงแค่ C# ธรรมดา
+หากคุณขาดส่วนใดส่วนหนึ่ง ให้ติดตั้งแพคเกจ NuGet ด้วย `Install-Package Aspose.Words` และสร้างไฟล์ Word ง่าย ๆ ที่มีการแทรกรูปร่างด้วยตนเอง – เพียงเพื่อการสาธิต
 
-![how to set shadow example](image-placeholder.png){:alt="วิธีตั้งเงาบนรูปร่างในเอกสาร Word"}
+## ขั้นตอนที่ 1: โหลดเอกสาร (เตรียมเพิ่มเงา)
 
-## วิธีตั้งเงา – ภาพรวม
-
-แนวคิดหลักของ **วิธีตั้งเงา** คือการจัดการอ็อบเจกต์ `ShadowFormat` ที่อยู่บน `Shape` คิดว่า `ShadowFormat` เป็น “สไตล์ชีต” ขนาดเล็กสำหรับเงาเอง: มันบอกตัวเรนเดอร์ว่าเงาจะมองเห็นได้หรือไม่ สีของเงาเป็นอะไร ความโปร่งใสเท่าไหร่ เบลอแค่ไหน และตำแหน่งสัมพันธ์กับรูปร่างอย่างไร  
-
-ด้านล่างเป็นโปรแกรมที่ *สมบูรณ์* สามารถรันได้เลย คัดลอก‑วางลงในแอปคอนโซล กด **F5** แล้วดูเงาที่ปรากฏในไฟล์ `output.docx` ที่บันทึกไว้
+สิ่งแรกที่ต้องทำคือเปิดไฟล์ต้นฉบับ นี่คือจุดเริ่มต้นของการ **add shadow to shape**  
 
 ```csharp
 using System;
-using System.Drawing;               // For Color
-using Aspose.Words;                 // Core document classes
-using Aspose.Words.Drawing;         // Shape & ShadowFormat
+using Aspose.Words;
+using Aspose.Words.Drawing;
+using System.Drawing;
 
 class ShadowDemo
 {
     static void Main()
     {
-        // -------------------------------------------------
-        // Step 1: Load the Word document that contains the shape.
-        // -------------------------------------------------
-        Document doc = new Document("YOUR_DIRECTORY/input.docx");
+        // Load the DOCX that holds the shape you want to enhance
+        Document doc = new Document("input.docx");
+```
 
-        // -------------------------------------------------
-        // Step 2: Retrieve the first shape (e.g., a textbox) from the document.
-        // -------------------------------------------------
-        Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-        if (shape == null)
+> **ทำไมจึงสำคัญ:** การโหลดเอกสารทำให้คุณได้อ็อบเจ็กต์ `Document` ที่เป็นเจ้าของโหนดทั้งหมดรวมถึงรูปร่าง หากไม่มีมัน จะไม่มีอะไรให้แก้ไข
+
+## ขั้นตอนที่ 2: ดึงรูปร่างเป้าหมาย (เลือกรูปร่างที่ต้องการ)
+
+ต่อไปเราต้องหาตำแหน่งของรูปร่างที่ต้องการจัดรูปแบบ ในตัวอย่างนี้เราจะดึงรูปร่างแรกในย่อหน้าแรก แต่คุณสามารถปรับคิวรีให้เข้ากับคอลเลกชันโหนดใดก็ได้  
+
+```csharp
+        // Grab the first shape inside the first paragraph of the first section
+        Shape targetShape = doc.FirstSection.Body.FirstParagraph
+            .GetChildNodes(NodeType.Shape, true)[0] as Shape;
+
+        if (targetShape == null)
         {
-            Console.WriteLine("No shape found – make sure input.docx has a textbox.");
+            Console.WriteLine("No shape found – check your input file.");
             return;
         }
+```
 
-        // -------------------------------------------------
-        // Step 3: Make the shadow visible.
-        // -------------------------------------------------
-        shape.ShadowFormat.Visible = true;
+> **เคล็ดลับ:** `GetChildNodes(NodeType.Shape, true)` จะเดินสำรวจ subtree อย่างเป็นขั้นเป็นตอน ทำให้คุณไม่พลาดรูปร่างที่ซ้อนอยู่เช่น WordArt
 
-        // -------------------------------------------------
-        // Step 4: Set the shadow colour to a dark gray.
-        // -------------------------------------------------
-        shape.ShadowFormat.Color = Color.DarkGray;
+## ขั้นตอนที่ 3: เข้าถึงอ็อบเจ็กต์ Shadow Formatting (ที่ซึ่งเวทมนตร์อยู่)
 
-        // -------------------------------------------------
-        // Step 5: Define the shadow's transparency (30 % transparent).
-        // -------------------------------------------------
-        shape.ShadowFormat.Transparency = 0.3;   // 0 = opaque, 1 = fully transparent
+ทุก `Shape` จะเปิดเผยคุณสมบัติ `ShadowFormat` อ็อบเจ็กต์นี้ควบคุมการมองเห็น, สี, ความเบลอ, ระยะทาง, และมุม – ปุ่มทั้งหมดที่คุณต้องการเพื่อ **apply shadow to shape**  
 
-        // -------------------------------------------------
-        // Step 6: Configure the blur radius (size) of the shadow.
-        // -------------------------------------------------
-        shape.ShadowFormat.Size = 6;            // Larger value = softer edges
+```csharp
+        // The ShadowFormat object holds all shadow‑related settings
+        ShadowFormat shadow = targetShape.ShadowFormat;
+```
 
-        // -------------------------------------------------
-        // Step 7: Set the offset distance and direction (angle) of the shadow.
-        // -------------------------------------------------
-        shape.ShadowFormat.Distance = 2;        // How far the shadow is from the shape
-        shape.ShadowFormat.Angle = 45;          // Angle in degrees (0 = right, 90 = down)
+> **ทำไมต้องใช้ `ShadowFormat`:** มันเป็นชั้นนามธรรมของการแสดงผล XML ด้านล่าง ทำให้คุณปรับเงาได้โดยไม่ต้องจัดการกับ OpenXML ดิบ
 
-        // -------------------------------------------------
-        // Save the modified document.
-        // -------------------------------------------------
-        doc.Save("YOUR_DIRECTORY/output.docx");
-        Console.WriteLine("Shadow applied successfully! Check output.docx.");
+## ขั้นตอนที่ 4: ทำให้เงาแสดงและเลือกสี (Add Shadow to Shape)
+
+เงาจะไม่ปรากฏจนกว่าคุณจะตั้งค่า `Visible` เป็น `true` หลังจากนั้นคุณสามารถเลือก `System.Drawing.Color` ใดก็ได้ ที่นี่เราใช้สีเทากลาง แต่คุณสามารถทดลองสีอื่นได้ตามต้องการ  
+
+```csharp
+        // Turn the shadow on and give it a subtle gray tone
+        shadow.Visible = true;
+        shadow.Color = Color.FromArgb(80, 80, 80);   // dark gray
+```
+
+> **ข้อผิดพลาดทั่วไป:** ลืมเปิด `Visible` จะทำให้เกิดความล้มเหลวแบบเงียบ – รูปร่างของคุณจะดูเหมือนไม่เปลี่ยนแปลงแม้ว่าคุณจะตั้งค่าคุณสมบัติอื่นแล้วก็ตาม
+
+## ขั้นตอนที่ 5: ปรับลักษณะ – ความเบลอ, ระยะทาง, และมุม (Fine‑Tune the Look)
+
+ตอนนี้เราจะกำหนดผลกระทบทางสายตา `BlurRadius` ทำให้ขอบเงานุ่มขึ้น, `Distance` ผลักเงาออกจากรูปร่าง, และ `Angle` กำหนดทิศทางของแหล่งแสง  
+
+```csharp
+        // Adjust how the shadow looks
+        shadow.BlurRadius = 5.0;   // in points – higher = softer
+        shadow.Distance   = 3.0;   // how far the shadow is offset
+        shadow.Angle      = 45.0;  // degrees clockwise from the horizontal
+```
+
+> **กรณีขอบ:** หากคุณตั้งค่าระยะทางเป็นค่าลบ เงาจะปรากฏ *ภายใน* รูปร่าง ซึ่งอาจใช้เพื่อสร้างเอฟเฟกต์แบบอิมบอสได้
+
+## ขั้นตอนที่ 6: บันทึกเอกสารที่อัปเดต (ดูผลลัพธ์)
+
+สุดท้ายให้เขียนการเปลี่ยนแปลงกลับไปยังดิสก์ คุณสามารถเขียนทับไฟล์เดิมหรือสร้างไฟล์ใหม่ได้  
+
+```csharp
+        // Persist the changes – you’ll see the shadow in Word or any viewer
+        doc.Save("output-with-shadow.docx");
+        Console.WriteLine("Shadow applied successfully! Check output-with-shadow.docx");
     }
 }
 ```
 
-### ทำไมการตั้งค่าเหล่านี้ถึงสำคัญ
+เมื่อรันโปรแกรมจะได้ไฟล์ `output-with-shadow.docx` เปิดไฟล์นี้ใน Microsoft Word คุณจะเห็นรูปร่างที่เลือกตอนนี้มีเงาเทานุ่มที่มุม 45°, เบลอ 5 pts และเลื่อน 3 pts  
 
-- **Visible** – หากไม่เปิดฟลักนี้ คุณสมบัติอื่น ๆ ทั้งหมดจะถูกละเลย  
-- **Color** – สีเทาเข้มจำลองเงา UI แบบทั่วไป; คุณสามารถเปลี่ยนเป็น `Color` ใดก็ได้  
-- **Transparency** – ค่า 0.3 ให้ลุค *นุ่มนวล* แต่ยังทำให้รูปร่างอ่านได้ชัดเจน  
-- **Size** – ควบคุมความเบลอ; ค่า 6 มักเพียงพอสำหรับความรู้สึกมืออาชีพ  
-- **Distance & Angle** – ร่วมกันกำหนด *การเลื่อน*; 2 pts ที่ 45° ให้เงาแนวทแยงมุมอ่อน ๆ  
+![Diagram showing shadow applied to a shape](https://example.com/images/shadow-diagram.png "Diagram showing shadow applied to a shape")
 
-นี่คือสาระสำคัญของ **วิธีตั้งเงา** ต่อไปเราจะเจาะลึกแต่ละส่วนเพื่อให้คุณ **apply drop shadow**, **change transparency**, **adjust blur**, และ **add shape shadow** อย่างอิสระ
+*ข้อความแทนภาพ: แผนภาพแสดงการใช้เงาบนรูปร่าง* – ภาพนี้แสดงผลก่อน/หลังของเอฟเฟกต์
 
----
+## วิธีเพิ่มเงา – ตัวแปรทั่วไปและกรณีขอบ
 
-## Apply Drop Shadow to a Shape
+แม้ขั้นตอนหลักจะตรงไปตรงมา แต่สถานการณ์จริงมักต้องการการปรับแต่ง ด้านล่างเป็นสถานการณ์ “ถ้าอย่างไร” ที่คุณอาจเจอ
 
-เมื่อคนถามว่า “วิธี **apply drop shadow** ใน C# คืออะไร?” พวกเขามักต้องการแค่การเปิดการมองเห็นและสีเท่านั้น โค้ดสั้น ๆ ด้านล่างแยกสองบรรทัดนั้นออกมาให้คุณใช้ได้ทันที
+### 1. หลายรูปร่าง, เงาต่างกัน
+
+หากเอกสารของคุณมีกราฟิกหลายรายการ ให้วนลูปผ่านคอลเลกชันรูปร่างและกำหนดค่าการตั้งค่าเงาที่ไม่ซ้ำกันสำหรับแต่ละรูปร่าง  
 
 ```csharp
-shape.ShadowFormat.Visible = true;          // Turns the shadow on
-shape.ShadowFormat.Color   = Color.Black;   // Classic black drop shadow
-```
-
-> **เคล็ดลับ:** หากคุณกำหนดเป้าหมายเป็น Word รุ่นเก่า (2003‑2007) ควรใช้สีมาตรฐาน ค่าที่เป็น ARGB แปลก ๆ อาจถูกเรนเดอร์เวอร์ชันเก่าเพิกเฉย
-
----
-
-## วิธีเปลี่ยนความโปร่งใสของเงา
-
-ความโปร่งใสระบุเป็น **float ระหว่าง 0 ถึง 1** ค่า **0** หมายถึงเงาแน่นเต็มที่; **1** ทำให้เงาไม่มองเห็นได้ นักออกแบบส่วนใหญ่เลือกค่า **0.2‑0.4** เพื่อให้ดูเป็นธรรมชาติ
-
-```csharp
-shape.ShadowFormat.Transparency = 0.35; // 35 % transparent
-```
-
-### กรณีขอบ
-
-- **ค่าติดลบ** – Aspose.Words จะบังคับให้เป็น 0 แต่ควรตรวจสอบอินพุตก่อน  
-- **ค่ามากกว่า 1** – จะถูกบังคับให้เป็น 1 ทำให้เงาหายไป  
-
-หากต้องการให้ผู้ใช้เลือกเป็นเปอร์เซ็นต์ ให้แปลงค่าก่อน:
-
-```csharp
-float percent = 30;                     // User enters 30 %
-shape.ShadowFormat.Transparency = percent / 100f;
-```
-
----
-
-## วิธีปรับเบลอ (Size) ของเงา
-
-คุณสมบัติ **Size** ควบคุมรัศมีเบลอ ตัวเลขที่ใหญ่กว่าจะให้เงานุ่มและกระจายมากขึ้น วัดเป็นจุด (pt) ไม่ใช่พิกเซล
-
-```csharp
-shape.ShadowFormat.Size = 10;  // A generous blur for a “soft” effect
-```
-
-#### เมื่อใดควรใช้เบลอเล็ก vs. เบลอใหญ่
-
-- **เบลอเล็ก (2‑4 pt)** – เหมาะกับคอล์อัพสไตล์ UI ที่ต้องการขอบคมชัด  
-- **เบลอใหญ่ (8‑12 pt)** – เหมาะกับรายงานพิมพ์หรือเมื่อรูปร่างห่างจากพื้นหลังมาก
-
----
-
-## Add Shape Shadow – การกำหนดตำแหน่งและทิศทาง
-
-ส่วนสุดท้ายของ **add shape shadow** คือการเลื่อนตำแหน่ง มีสองคุณสมบัติทำงานร่วมกัน:
-
-| คุณสมบัติ | ความหมาย |
-|----------|-----------|
-| **Distance** | ระยะที่เงาอยู่ห่างจากรูปร่าง (หน่วยเป็นจุด) |
-| **Angle**    | ทิศทางของการเลื่อน (0° = ขวา, 90° = ลง, 180° = ซ้าย, 270° = ขึ้น) |
-
-ตัวอย่างที่สร้างเงาแนวล่าง‑ขวาอ่อน ๆ:
-
-```csharp
-shape.ShadowFormat.Distance = 1.5; // Slight lift
-shape.ShadowFormat.Angle    = 135; // Down‑left direction (135°)
-```
-
-คุณสามารถทดลองเปลี่ยนมุมเพื่อจำลองแสงจากแหล่งต่าง ๆ เทคนิคทั่วไปคือให้ผู้ใช้เลือก “แหล่งกำเนิดแสง” จากดรอปดาวน์แล้วแมปเป็นค่ามุม
-
----
-
-## ตัวอย่างทำงานเต็มรูปแบบ (รวมทุกขั้นตอน)
-
-ด้านล่างเป็นโปรแกรมเดียวกันกับก่อนหน้า แต่เพิ่ม **คอมเมนต์พิเศษ** เพื่อให้ตรรกะชัดเจน คัดลอกไปวางใน `Program.cs` แล้วรัน; ไฟล์ผลลัพธ์จะมีกล่องข้อความพร้อมเงาที่ปรับแต่งอย่างสมบูรณ์
-
-```csharp
-using System;
-using System.Drawing;
-using Aspose.Words;
-using Aspose.Words.Drawing;
-
-namespace ShapeShadowDemo
-{
-    class Program
-    {
-        static void Main()
+        NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
+        foreach (Shape shp in shapes)
         {
-            // Load the source document (must contain at least one shape)
-            Document doc = new Document("YOUR_DIRECTORY/input.docx");
-
-            // Grab the first shape we encounter – usually a textbox or picture
-            Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-            if (shape == null)
-            {
-                Console.WriteLine("No shape found in the document.");
-                return;
-            }
-
-            // ---------- Apply Drop Shadow ----------
-            shape.ShadowFormat.Visible = true;          // Turn it on
-            shape.ShadowFormat.Color   = Color.DarkGray; // Soft dark colour
-
-            // ---------- How to Change Transparency ----------
-            shape.ShadowFormat.Transparency = 0.3; // 30 % transparent – looks natural
-
-            // ---------- How to Adjust Blur ----------
-            shape.ShadowFormat.Size = 6; // Moderate blur for a professional feel
-
-            // ---------- Add Shape Shadow (position) ----------
-            shape.ShadowFormat.Distance = 2; // Slight offset
-            shape.ShadowFormat.Angle    = 45; // Diagonal down‑right
-
-            // Save the result
-            doc.Save("YOUR_DIRECTORY/output.docx");
-            Console.WriteLine("Document saved with shadow. Open output.docx to verify.");
+            ShadowFormat sf = shp.ShadowFormat;
+            sf.Visible = true;
+            sf.Color = Color.FromArgb(100, 100, 150); // bluish tint
+            sf.BlurRadius = 3.0;
+            sf.Distance = 2.0;
+            sf.Angle = 30.0;
         }
-    }
-}
 ```
 
-**ผลลัพธ์ที่คาดหวัง:** เปิด `output.docx` กล่องข้อความแรกจะแสดงเงาเทาเข้ม โปร่งใส 30 % เบลอเล็กน้อย (size = 6) และเลื่อน 2 pt ที่มุม 45° เงานี้อ่อนแต่เห็นได้ชัด — พอดีกับสิ่งที่นักออกแบบ UI ส่วนใหญ่ต้องการ
+### 2. เงาโปร่งแสง
+
+Aspose.Words ให้คุณตั้งค่าแชนแนลอัลฟาโดยใช้ `Color.FromArgb(alpha, r, g, b)` ใช้ค่าอัลฟาต่ำ (เช่น 50) เพื่อให้ได้เอฟเฟกต์โปร่งแสงแบบนุ่มนวล  
+
+```csharp
+        shadow.Color = Color.FromArgb(50, 0, 0, 0); // 20% opacity black
+```
+
+### 3. ลบเงา
+
+บางครั้งคุณอาจต้องปิดเงาหลังจากที่ได้ตั้งค่าไว้ เพียงตั้งค่า `Visible` เป็น `false`  
+
+```csharp
+        shadow.Visible = false;
+```
+
+### 4. ความกังวลเรื่องความเข้ากันได้
+
+คุณลักษณะเงาที่ใช้ในที่นี้รองรับใน Word 2007 + (รูปแบบ DOCX) หากคุณกำหนดเป้าหมายเป็นรูปแบบไบนารี `.doc` เก่า เงาอาจถูกละเว้นเนื่องจากรูปแบบนั้นไม่มีองค์ประกอบ XML ที่จำเป็น ในกรณีเช่นนี้ ควรบันทึกเป็น DOCX หรือใช้สัญญาณภาพสำรองอื่น  
+
+## สรุป: สิ่งที่เราทำสำเร็จ
+
+- **โหลด** DOCX ด้วย Aspose.Words  
+- **ดึง** รูปร่างแรกจากเอกสาร  
+- **เข้าถึง** อ็อบเจ็กต์ `ShadowFormat` ของมัน  
+- **เปิดใช้งาน** เงา, ตั้งสี, ความเบลอ, ระยะทาง, และมุม  
+- **บันทึก** ไฟล์ใหม่ที่แสดงผลเงาอย่างชัดเจน  
+
+ขั้นตอนทั้งหมดนี้ตอบ **how to set shadow** บนรูปร่าง พร้อมแสดงวิธี **add shadow to shape**, **apply shadow to shape**, และแม้กระทั่ง **how to add shadow** ในสถานการณ์ที่ซับซ้อนยิ่งขึ้น
+
+## ขั้นตอนต่อไปและหัวข้อที่เกี่ยวข้อง
+
+เมื่อคุณเชี่ยวชาญการจัดรูปแบบเงาแล้ว คุณอาจอยากสำรวจต่อ:
+
+- **การเติมสีไล่ระดับ** สำหรับรูปร่าง (`Shape.FillFormat.GradientFill`)  
+- **เอฟเฟกต์ข้อความ** เช่น แสงเรืองหรือการสะท้อน (`TextEffect`)  
+- **การแทรกรูปร่างใหม่โดยโปรแกรม** (`doc.FirstSection.Body.AppendChild(new Shape(...))`)  
+- **การส่งออกเป็น PDF** พร้อมรักษาเงา (`doc.Save("output.pdf")`)  
+
+หัวข้อเหล่านี้ทั้งหมดอิงตามหลักการของอ็อบเจ็กต์โมเดลเดียวกันที่เราใช้ในที่นี้ ทำให้คุณรู้สึกคุ้นเคยได้อย่างรวดเร็ว
 
 ---
 
-## คำถามที่พบบ่อย & จุดต้องระวัง
-
-- **“ทำงานกับรูปภาพได้หรือไม่?”**  
-  ใช่. `Shape` ใด ๆ — ไม่ว่าจะเป็นกล่องข้อความ ภาพ หรือ auto‑shape — มี `ShadowFormat` อยู่ เพียงเปลี่ยนตรรกะการดึงรูปร่างให้ตรงกับดัชนีหรือชื่อที่ต้องการ
-
-- **“ถ้าเอกสารมีหลายรูปร่างล่ะ?”**  
-  วนลูป `doc.GetChildNodes(NodeType.Shape, true)` แล้วใส่ค่าตั้งค่าเดียวกันให้ทุกอัน คุณยังสามารถกรองด้วย `shape.Name` หรือ `shape
+*ขอให้สนุกกับการเขียนโค้ด! หากพบปัญหาใด ๆ คอมเมนต์ด้านล่างหรือดูเอกสาร API ของ Aspose.Words เพื่อข้อมูลเชิงลึกเพิ่มเติม*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

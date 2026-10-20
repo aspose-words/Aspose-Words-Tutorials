@@ -67,6 +67,9 @@ Exportálja a gazdagított dokumentumot a szükséges formátumba—PDF, DOCX, H
 ### [Mesteri szövegfeldolgozás Java-ban&#58; Aspose.Words és AI modellek használata összefoglaláshoz és fordításhoz](./java-aspose-words-text-processing/)
 Tanulja meg, hogyan automatizálja a szövegösszefoglalást és fordítást az Aspose.Words for Java-val, az OpenAI GPT‑4 és a Google Gemini segítségével. Fejlessze Java alkalmazásait még ma.
 
+### [Egyedi AI modell létrehozása – Word bekezdések szerkesztése Java-ban](./create-custom-ai-model-edit-word-paragraphs-in-java/)
+Ismerje meg, hogyan hozhat létre egyedi AI modellt, és szerkesztheti a Word bekezdéseket Java segítségével.
+
 ## További források
 
 - [Aspose.Words for Java dokumentáció](https://reference.aspose.com/words/java/)
@@ -93,6 +96,14 @@ A: Ellenőrizze az AI kimenetét a beillesztés előtt. Használja az Aspose.Wor
 **Q: Szükséges újra‑tréningezni a modelleket domain‑specifikus nyelvhez?**  
 A: A legtöbb esetben a előre‑tréningezett modellek jól működnek. Ha nagyobb pontosságra van szükség, fontolja meg egy modell finomhangolását saját korpuszán, majd hívja meg ugyanazon API‑n keresztül.
 
+---
+
+---
+
+**Last Updated:** 2025-11-25  
+**Tested With:** Aspose.Words for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -100,9 +111,3 @@ A: A legtöbb esetben a előre‑tréningezett modellek jól működnek. Ha nagy
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-25  
-**Tested With:** Aspose.Words for Java 24.11  
-**Author:** Aspose

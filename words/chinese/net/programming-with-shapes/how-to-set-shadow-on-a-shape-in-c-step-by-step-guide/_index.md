@@ -1,21 +1,21 @@
 ---
 category: general
-date: 2026-04-10
-description: 如何在 C# 中为形状设置阴影——学习如何使用 Aspose.Words 应用投影阴影、更改透明度、调整模糊以及添加形状阴影。
+date: 2026-03-28
+description: 如何在 C# 中使用 Aspose.Words 为形状设置阴影——向形状添加阴影、应用阴影并自定义外观。
 draft: false
 keywords:
 - how to set shadow
-- apply drop shadow
-- how to change transparency
-- how to adjust blur
-- add shape shadow
+- add shadow to shape
+- apply shadow to shape
+- how to add shadow
 language: zh
-og_description: 如何在 C# 中为形状设置阴影——本教程展示了如何应用投影阴影、更改透明度、调整模糊以及添加形状阴影，并提供清晰的代码示例。
+og_description: 如何在 C# 中快速为形状设置阴影。学习为形状添加阴影、应用阴影，并微调模糊、距离和角度。
 og_title: 如何在 C# 中为形状设置阴影 – 完整指南
 tags:
 - Aspose.Words
 - C#
 - Document Automation
+- Graphics
 title: 如何在 C# 中为形状设置阴影 – 步骤指南
 url: /zh/net/programming-with-shapes/how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/
 ---
@@ -24,231 +24,177 @@ url: /zh/net/programming-with-shapes/how-to-set-shadow-on-a-shape-in-c-step-by-s
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 C# 中为形状设置阴影 – 完整指南
+# 如何在 C# 中为形状设置阴影 – 完整编程演练
 
-是否曾经想过在以编程方式构建 Word 文档时，**如何设置阴影**？你并不孤单。许多开发者在需要为文本框、徽标或标注框添加细腻的投影时会卡住，而 API 文档又显得有些薄弱。  
+是否曾好奇在以编程方式构建 Word 文档时，**如何为形状设置阴影**？你并不是唯一有此疑问的人。在许多报告、演示文稿或传单中，细腻的投影可以让图形脱颖而出而不显俗气。好消息是？使用 Aspose.Words for .NET，你只需几行代码即可为形状添加阴影。
 
-在本教程中，我们将完整演示整个过程：从加载 `.docx`、获取第一个 `Shape`，到应用投影、调整透明度、修改模糊半径，最后将其精准定位。完成后，你将拥有一个可复用的代码片段，适用于 Aspose.Words .NET 2023 或更高版本，并且能够理解每个属性为何重要。
+在本教程中，我们将完整演示整个过程：加载 DOCX、获取第一个形状，然后 **apply shadow to shape** — 包括颜色、模糊、距离和角度。完成后，你将拥有一个可直接运行的代码片段，能够放入任何 C# 项目中。无需额外库，也没有隐藏的魔法。
 
-## 所需条件
+## 您需要的条件
 
-- **Aspose.Words for .NET**（NuGet 包 `Aspose.Words`）——提供 `Document`、`Shape` 和 `ShadowFormat` 类的库。  
-- **.NET 6+**（或 .NET Framework 4.7.2）——任何近期的运行时都可以。  
-- 一个简单的 Word 文件（`input.docx`），其中已经包含至少一个形状，例如文本框。  
-- Visual Studio、VS Code 或你喜欢的 IDE。
+- **Aspose.Words for .NET**（版本 23.9 或更高）– 让 Word 操作变得轻松的库。  
+- .NET 开发环境（Visual Studio 2022、Rider 或 CLI）。  
+- 包含至少一个形状（矩形、图片或 SmartArt 均可）的示例 DOCX。  
 
-就是这样。无需额外的第三方工具，无需 COM 互操作，仅使用纯 C#。
+如果缺少上述任意项，请使用 `Install-Package Aspose.Words` 获取 NuGet 包，并手动在 Word 文件中插入一个形状，以便演示使用。
 
-![how to set shadow example](image-placeholder.png){:alt="在 Word 文档中为形状设置阴影示例"}
+## 步骤 1：加载文档（准备添加阴影）
 
-## 设置阴影概述
-
-**如何设置阴影** 的核心思路是操作附属于 `Shape` 的 `ShadowFormat` 对象。可以把 `ShadowFormat` 看作是阴影的微型“样式表”：它告诉渲染器阴影是否可见、颜色是什么、透明度是多少、模糊程度如何，以及相对于形状的定位位置。  
-
-下面是*完整*的可运行程序。可以随意复制粘贴到控制台应用中，按 **F5**，即可在生成的 `output.docx` 中看到阴影效果。
+首先打开源文件。这是 **add shadow to shape** 操作的起点。
 
 ```csharp
 using System;
-using System.Drawing;               // For Color
-using Aspose.Words;                 // Core document classes
-using Aspose.Words.Drawing;         // Shape & ShadowFormat
+using Aspose.Words;
+using Aspose.Words.Drawing;
+using System.Drawing;
 
 class ShadowDemo
 {
     static void Main()
     {
-        // -------------------------------------------------
-        // Step 1: Load the Word document that contains the shape.
-        // -------------------------------------------------
-        Document doc = new Document("YOUR_DIRECTORY/input.docx");
+        // Load the DOCX that holds the shape you want to enhance
+        Document doc = new Document("input.docx");
+```
 
-        // -------------------------------------------------
-        // Step 2: Retrieve the first shape (e.g., a textbox) from the document.
-        // -------------------------------------------------
-        Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-        if (shape == null)
+> **Why this matters:** 加载文档会为你提供一个 `Document` 对象，拥有所有节点，包括形状。没有它，就没有可修改的内容。
+
+## 步骤 2：检索目标形状（挑选正确的形状）
+
+接下来定位我们要设置样式的形状。在本例中，我们获取第一段中的第一个形状，但你可以将查询改为任何节点集合。
+
+```csharp
+        // Grab the first shape inside the first paragraph of the first section
+        Shape targetShape = doc.FirstSection.Body.FirstParagraph
+            .GetChildNodes(NodeType.Shape, true)[0] as Shape;
+
+        if (targetShape == null)
         {
-            Console.WriteLine("No shape found – make sure input.docx has a textbox.");
+            Console.WriteLine("No shape found – check your input file.");
             return;
         }
+```
 
-        // -------------------------------------------------
-        // Step 3: Make the shadow visible.
-        // -------------------------------------------------
-        shape.ShadowFormat.Visible = true;
+> **Pro tip:** `GetChildNodes(NodeType.Shape, true)` 递归遍历子树，确保不会遗漏像 WordArt 这样的嵌套形状。
 
-        // -------------------------------------------------
-        // Step 4: Set the shadow colour to a dark gray.
-        // -------------------------------------------------
-        shape.ShadowFormat.Color = Color.DarkGray;
+## 步骤 3：访问阴影格式对象（魔法所在）
 
-        // -------------------------------------------------
-        // Step 5: Define the shadow's transparency (30 % transparent).
-        // -------------------------------------------------
-        shape.ShadowFormat.Transparency = 0.3;   // 0 = opaque, 1 = fully transparent
+每个 `Shape` 都公开一个 `ShadowFormat` 属性。该对象控制可见性、颜色、模糊、距离和角度——所有你需要 **apply shadow to shape** 的调节项。
 
-        // -------------------------------------------------
-        // Step 6: Configure the blur radius (size) of the shadow.
-        // -------------------------------------------------
-        shape.ShadowFormat.Size = 6;            // Larger value = softer edges
+```csharp
+        // The ShadowFormat object holds all shadow‑related settings
+        ShadowFormat shadow = targetShape.ShadowFormat;
+```
 
-        // -------------------------------------------------
-        // Step 7: Set the offset distance and direction (angle) of the shadow.
-        // -------------------------------------------------
-        shape.ShadowFormat.Distance = 2;        // How far the shadow is from the shape
-        shape.ShadowFormat.Angle = 45;          // Angle in degrees (0 = right, 90 = down)
+> **Why we use `ShadowFormat`:** 它抽象了底层 XML 表示，使你无需直接处理原始 OpenXML 就能微调阴影。
 
-        // -------------------------------------------------
-        // Save the modified document.
-        // -------------------------------------------------
-        doc.Save("YOUR_DIRECTORY/output.docx");
-        Console.WriteLine("Shadow applied successfully! Check output.docx.");
+## 步骤 4：使阴影可见并选择颜色（Add Shadow to Shape）
+
+阴影在将 `Visible` 设置为 `true` 之前不会出现。之后，你可以选择任意 `System.Drawing.Color`。这里使用中等灰色，欢迎自行实验。
+
+```csharp
+        // Turn the shadow on and give it a subtle gray tone
+        shadow.Visible = true;
+        shadow.Color = Color.FromArgb(80, 80, 80);   // dark gray
+```
+
+> **Common mistake:** 忘记启用 `Visible` 会导致静默失败——即使设置了其他属性，形状看起来也没有变化。
+
+## 步骤 5：配置外观 – 模糊、距离和角度（Fine‑Tune the Look）
+
+现在我们塑造视觉效果。`BlurRadius` 软化边缘，`Distance` 将阴影从形状向外推，`Angle` 决定光源方向。
+
+```csharp
+        // Adjust how the shadow looks
+        shadow.BlurRadius = 5.0;   // in points – higher = softer
+        shadow.Distance   = 3.0;   // how far the shadow is offset
+        shadow.Angle      = 45.0;  // degrees clockwise from the horizontal
+```
+
+> **Edge case:** 若设置负值距离，阴影会出现在形状*内部*，这对浮雕效果很有用。
+
+## 步骤 6：保存更新后的文档（查看结果）
+
+最后，将更改写回磁盘。你可以覆盖原文件，也可以创建新文件。
+
+```csharp
+        // Persist the changes – you’ll see the shadow in Word or any viewer
+        doc.Save("output-with-shadow.docx");
+        Console.WriteLine("Shadow applied successfully! Check output-with-shadow.docx");
     }
 }
 ```
 
-### 为什么这些设置很重要
+运行程序后会生成 `output-with-shadow.docx`。在 Microsoft Word 中打开，你会看到选中的形状现在拥有一个软灰色阴影，角度为 45°，模糊半径为 5 pts，偏移为 3 pts。
 
-- **Visible** – 如果不打开此标志，其他所有属性都会被忽略。  
-- **Color** – 深灰色模拟典型的 UI 投影；你可以替换为任意 `Color`。  
-- **Transparency** – 0.3 能产生*柔和*的外观，同时保持形状可辨认。  
-- **Size** – 控制模糊程度；数值 6 通常足以获得专业感。  
-- **Distance & Angle** – 两者共同定义*偏移*；2 pt、45° 可产生细腻的对角阴影。
+![显示已对形状应用阴影的示意图](https://example.com/images/shadow-diagram.png "显示已对形状应用阴影的示意图")
 
-这就是 **如何设置阴影** 的要点。接下来，我们将逐一拆解每个环节，以便你能够单独 **应用投影**、**更改透明度**、**调整模糊**，以及 **为形状添加阴影**。
+*Alt 文本：显示已对形状应用阴影的示意图* – 该图展示了前后效果。
 
----
+## How to Add Shadow – 常见变体与边缘情况
 
-## 为形状应用投影
+即使核心步骤相当直接，实际场景常常需要微调。以下列出几种可能遇到的 “如果 …” 情形。
 
-当有人问“如何在 C# 中 **apply drop shadow**？”时，他们通常只需要打开可见性开关并设置颜色。下面的代码片段仅包含这两行：
+### 1. 多个形状，不同阴影
+
+如果文档包含多个图形，遍历形状集合并为每个形状分配独特的阴影设置。
 
 ```csharp
-shape.ShadowFormat.Visible = true;          // Turns the shadow on
-shape.ShadowFormat.Color   = Color.Black;   // Classic black drop shadow
-```
-
-> **专业提示：** 如果你的目标是较旧的 Word 版本（2003‑2007），请使用标准颜色。某些特殊的 ARGB 值可能会被旧版渲染器忽略。
-
----
-
-## 如何更改阴影的透明度
-
-透明度以 **0 到 1 之间的浮点数** 表示。**0** 表示完全不透明的阴影；**1** 则使其不可见。大多数设计师会在 **0.2‑0.4** 左右取值，以获得自然的效果。
-
-```csharp
-shape.ShadowFormat.Transparency = 0.35; // 35 % transparent
-```
-
-### 边缘情况
-
-- **Negative values** – Aspose.Words 会将其限制为 0，但最好先验证输入。  
-- **Values > 1** – 会被限制为 1，从而实际上隐藏阴影。  
-
-如果需要让用户选择百分比，请先进行转换：
-
-```csharp
-float percent = 30;                     // User enters 30 %
-shape.ShadowFormat.Transparency = percent / 100f;
-```
-
----
-
-## 如何调整阴影的模糊（Size）
-
-`**Size**` 属性控制模糊半径。数值越大，阴影越柔和、越散。它的单位是点（pt），而非像素。
-
-```csharp
-shape.ShadowFormat.Size = 10;  // A generous blur for a “soft” effect
-```
-
-#### 何时使用小模糊 vs. 大模糊
-
-- **Small blur (2‑4 pt)** – 适用于 UI 风格的标注，需要清晰边缘的情况。  
-- **Large blur (8‑12 pt)** – 适合打印报告或形状与背景距离较远的场景。
-
----
-
-## 为形状添加阴影 – 定位与方向
-
-**add shape shadow** 的最后一步是偏移。两个属性协同工作：
-
-| 属性 | 含义 |
-|----------|---------|
-| **Distance** | 阴影距离形状的距离（单位：点）。 |
-| **Angle**    | 偏移的方向（0° = 向右，90° = 向下，180° = 向左，270° = 向上）。 |
-
-下面的示例创建了一个细腻的右下角阴影：
-
-```csharp
-shape.ShadowFormat.Distance = 1.5; // Slight lift
-shape.ShadowFormat.Angle    = 135; // Down‑left direction (135°)
-```
-
-你可以尝试不同的角度来模拟光源的方向。常见的技巧是让用户从下拉框中选择“光源”，并将其映射为相应的角度值。
-
----
-
-## 完整工作示例（所有步骤合并）
-
-下面是与前面相同的程序，但添加了 **额外注释**，使逻辑一目了然。将其复制到 `Program.cs` 并运行；输出文件将包含一个阴影调校完美的文本框。
-
-```csharp
-using System;
-using System.Drawing;
-using Aspose.Words;
-using Aspose.Words.Drawing;
-
-namespace ShapeShadowDemo
-{
-    class Program
-    {
-        static void Main()
+        NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
+        foreach (Shape shp in shapes)
         {
-            // Load the source document (must contain at least one shape)
-            Document doc = new Document("YOUR_DIRECTORY/input.docx");
-
-            // Grab the first shape we encounter – usually a textbox or picture
-            Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-            if (shape == null)
-            {
-                Console.WriteLine("No shape found in the document.");
-                return;
-            }
-
-            // ---------- Apply Drop Shadow ----------
-            shape.ShadowFormat.Visible = true;          // Turn it on
-            shape.ShadowFormat.Color   = Color.DarkGray; // Soft dark colour
-
-            // ---------- How to Change Transparency ----------
-            shape.ShadowFormat.Transparency = 0.3; // 30 % transparent – looks natural
-
-            // ---------- How to Adjust Blur ----------
-            shape.ShadowFormat.Size = 6; // Moderate blur for a professional feel
-
-            // ---------- Add Shape Shadow (position) ----------
-            shape.ShadowFormat.Distance = 2; // Slight offset
-            shape.ShadowFormat.Angle    = 45; // Diagonal down‑right
-
-            // Save the result
-            doc.Save("YOUR_DIRECTORY/output.docx");
-            Console.WriteLine("Document saved with shadow. Open output.docx to verify.");
+            ShadowFormat sf = shp.ShadowFormat;
+            sf.Visible = true;
+            sf.Color = Color.FromArgb(100, 100, 150); // bluish tint
+            sf.BlurRadius = 3.0;
+            sf.Distance = 2.0;
+            sf.Angle = 30.0;
         }
-    }
-}
 ```
 
-**预期结果：** 打开 `output.docx`。第一个文本框将显示深灰色、30 % 透明度的阴影，略有模糊（size = 6），并在 45° 方向上偏移 2 pt。效果细腻而显著——正是大多数 UI 设计师所追求的。
+### 2. 透明阴影
+
+Aspose.Words 允许通过 `Color.FromArgb(alpha, r, g, b)` 设置 alpha 通道。使用较低的 alpha（例如 50）可实现细腻的半透明效果。
+
+```csharp
+        shadow.Color = Color.FromArgb(50, 0, 0, 0); // 20% opacity black
+```
+
+### 3. 移除阴影
+
+有时需要在已应用阴影后将其关闭。只需将 `Visible` 设置为 `false`。
+
+```csharp
+        shadow.Visible = false;
+```
+
+### 4. 兼容性问题
+
+此处使用的阴影功能在 Word 2007 +（DOCX 格式）中受支持。如果你的目标是旧的 `.doc` 二进制格式，阴影可能会被忽略，因为该格式缺少必要的 XML 元素。此时建议保存为 DOCX，或使用其他视觉提示作为备选方案。
+
+## 回顾：我们完成了什么
+
+- **Loaded** a DOCX with Aspose.Words.  
+- **Fetched** the first shape from the document.  
+- **Accessed** its `ShadowFormat` object.  
+- **Enabled** the shadow, set a color, blur radius, distance, and angle.  
+- **Saved** a new file that visibly demonstrates the effect.  
+
+所有这些步骤共同回答了 **how to set shadow** on a shape，同时也展示了如何 **add shadow to shape**、**apply shadow to shape**，以及在更复杂场景下 **how to add shadow**。
+
+## 接下来的步骤与相关主题
+
+既然你已经掌握了阴影样式，接下来可以探索：
+
+- **Gradient fills** for shapes (`Shape.FillFormat.GradientFill`).  
+- **Text effects** such as glow or reflection (`TextEffect`).  
+- **Programmatic insertion of new shapes** (`doc.FirstSection.Body.AppendChild(new Shape(...))`).  
+- **Exporting to PDF** while preserving shadows (`doc.Save("output.pdf")`).  
+
+这些主题都基于我们在本教程中使用的相同对象模型原理，你会感到得心应手。
 
 ---
 
-## 常见问题与注意事项
-
-- **“这也适用于图片吗？”**  
-  是的。Any `Shape`—whether a textbox, picture, or auto‑shape—exposes `ShadowFormat`. Just replace the shape retrieval logic with the appropriate index or name.
-
-- **“如果文档中有多个形状怎么办？”**  
-  Loop through `doc.GetChildNodes(NodeType.Shape, true)` and apply the same settings to each. You can also filter by `shape.Name` or `shape
+*Happy coding! If you hit a snag, drop a comment below or check the Aspose.Words API docs for deeper insights.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

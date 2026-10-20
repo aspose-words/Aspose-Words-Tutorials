@@ -1,25 +1,23 @@
 ---
 category: general
-date: 2026-04-10
-description: jak ustawić cień na kształcie w C# – dowiedz się, jak zastosować cień
-  rzucany, zmienić przezroczystość, dostosować rozmycie i dodać cień kształtu przy
-  użyciu Aspose.Words.
+date: 2026-03-28
+description: Jak ustawić cień na kształcie w C# przy użyciu Aspose.Words – dodać cień
+  do kształtu, zastosować cień i dostosować wygląd.
 draft: false
 keywords:
 - how to set shadow
-- apply drop shadow
-- how to change transparency
-- how to adjust blur
-- add shape shadow
+- add shadow to shape
+- apply shadow to shape
+- how to add shadow
 language: pl
-og_description: jak ustawić cień na kształcie w C# – ten tutorial pokazuje, jak zastosować
-  cień rzucany, zmienić przezroczystość, dostosować rozmycie i dodać cień kształtu,
-  z przejrzystymi przykładami kodu.
-og_title: Jak ustawić cień na kształcie w C# – kompletny przewodnik
+og_description: Jak szybko ustawić cień na kształcie w C#. Dowiedz się, jak dodać
+  cień do kształtu, zastosować go oraz dostosować rozmycie, odległość i kąt.
+og_title: Jak ustawić cień na kształcie w C# – Kompletny przewodnik
 tags:
 - Aspose.Words
 - C#
 - Document Automation
+- Graphics
 title: Jak ustawić cień na kształcie w C# – przewodnik krok po kroku
 url: /pl/net/programming-with-shapes/how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/
 ---
@@ -28,231 +26,177 @@ url: /pl/net/programming-with-shapes/how-to-set-shadow-on-a-shape-in-c-step-by-s
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak ustawić cień na kształcie w C# – Kompletny przewodnik
+# Jak ustawić cień na kształcie w C# – Kompletny przewodnik programistyczny
 
-Zastanawiałeś się kiedyś **jak ustawić cień** na kształcie podczas programowego tworzenia dokumentu Word? Nie jesteś sam. Wielu programistów napotyka trudności, gdy potrzebny jest subtelny cień padający dla pola tekstowego, logo lub ramki wyjaśniającej, a dokumentacja API wydaje się nieco uboga.  
+Zastanawiałeś się kiedyś **jak ustawić cień** na kształcie podczas programowego tworzenia dokumentów Word? Nie jesteś jedyny. W wielu raportach, prezentacjach czy ulotkach subtelny cień może sprawić, że grafika wyróżni się bez efektu tandetności. Dobra wiadomość? Dzięki Aspose.Words for .NET możesz dodać cień do kształtu w zaledwie kilku linijkach kodu.
 
-W tym samouczku przeprowadzimy Cię przez cały proces: od wczytania pliku `.docx`, pobrania pierwszego `Shape`, po zastosowanie cienia, dostosowanie jego przezroczystości, regulację promienia rozmycia i ostateczne prawidłowe pozycjonowanie. Po zakończeniu będziesz mieć wielokrotnego użytku fragment kodu, który działa z Aspose.Words .NET 2023 lub nowszym, oraz zrozumiesz *dlaczego* każda właściwość ma znaczenie.
+W tym tutorialu przejdziemy przez cały proces: wczytanie pliku DOCX, pobranie pierwszego kształtu, a następnie **zastosowanie cienia do kształtu** — w tym kolor, rozmycie, odległość i kąt. Na końcu otrzymasz gotowy fragment kodu, który możesz wkleić do dowolnego projektu C#. Bez dodatkowych bibliotek, bez ukrytej magii.
 
-## Czego będziesz potrzebować
+## Co będzie potrzebne
 
-- **Aspose.Words for .NET** (pakiet NuGet `Aspose.Words`) – biblioteka, która dostarcza klasy `Document`, `Shape` i `ShadowFormat`.  
-- **.NET 6+** (lub .NET Framework 4.7.2) – dowolny nowoczesny runtime wystarczy.  
-- Prosty plik Word (`input.docx`), który już zawiera co najmniej jeden kształt, np. pole tekstowe.  
-- Visual Studio, VS Code lub Twoje ulubione IDE.
+- **Aspose.Words for .NET** (wersja 23.9 lub nowsza) – biblioteka, która upraszcza manipulację dokumentami Word.  
+- Środowisko programistyczne .NET (Visual Studio 2022, Rider lub interfejs wiersza poleceń).  
+- Przykładowy plik DOCX, który już zawiera przynajmniej jeden kształt (prostokąt, obraz lub SmartArt będą odpowiednie).  
 
-To wszystko. Żadnych dodatkowych narzędzi firm trzecich, żadnego COM interop, po prostu czysty C#.
+Jeśli czegoś brakuje, pobierz pakiet NuGet poleceniem `Install-Package Aspose.Words` i utwórz prosty plik Word z ręcznie wstawionym kształtem – wystarczy do demonstracji.
 
-![przykład ustawiania cienia](image-placeholder.png){:alt="jak ustawić cień na kształcie w dokumencie Word"}
+## Krok 1: Wczytaj dokument (przygotowanie do dodania cienia)
 
-## Jak ustawić cień – przegląd
-
-Podstawowa idea **jak ustawić cień** polega na manipulacji obiektem `ShadowFormat`, który znajduje się w `Shape`. Traktuj `ShadowFormat` jako miniaturowy „arkusz stylów” dla samego cienia: informuje renderer, czy cień ma być widoczny, jaki ma mieć kolor, jaką ma mieć przezroczystość, jak bardzo jest rozmyty oraz gdzie znajduje się względem kształtu.  
-
-Poniżej znajduje się *kompletny* program do uruchomienia. Śmiało skopiuj‑wklej go do aplikacji konsolowej, naciśnij **F5** i obserwuj, jak cień pojawia się w zapisanym pliku `output.docx`.
+Pierwszym krokiem jest otwarcie pliku źródłowego. To tutaj rozpocznie się operacja **dodawania cienia do kształtu**.
 
 ```csharp
 using System;
-using System.Drawing;               // For Color
-using Aspose.Words;                 // Core document classes
-using Aspose.Words.Drawing;         // Shape & ShadowFormat
+using Aspose.Words;
+using Aspose.Words.Drawing;
+using System.Drawing;
 
 class ShadowDemo
 {
     static void Main()
     {
-        // -------------------------------------------------
-        // Step 1: Load the Word document that contains the shape.
-        // -------------------------------------------------
-        Document doc = new Document("YOUR_DIRECTORY/input.docx");
+        // Load the DOCX that holds the shape you want to enhance
+        Document doc = new Document("input.docx");
+```
 
-        // -------------------------------------------------
-        // Step 2: Retrieve the first shape (e.g., a textbox) from the document.
-        // -------------------------------------------------
-        Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-        if (shape == null)
+> **Dlaczego to ważne:** Wczytanie dokumentu daje Ci obiekt `Document`, który zawiera wszystkie węzły, w tym kształty. Bez tego nie ma nic do modyfikacji.
+
+## Krok 2: Pobierz docelowy kształt (wybierz właściwy)
+
+Następnie lokalizujemy kształt, który zamierzamy ostylować. W tym przykładzie pobieramy pierwszy kształt w pierwszym akapicie, ale możesz dostosować zapytanie do dowolnej kolekcji węzłów.
+
+```csharp
+        // Grab the first shape inside the first paragraph of the first section
+        Shape targetShape = doc.FirstSection.Body.FirstParagraph
+            .GetChildNodes(NodeType.Shape, true)[0] as Shape;
+
+        if (targetShape == null)
         {
-            Console.WriteLine("No shape found – make sure input.docx has a textbox.");
+            Console.WriteLine("No shape found – check your input file.");
             return;
         }
+```
 
-        // -------------------------------------------------
-        // Step 3: Make the shadow visible.
-        // -------------------------------------------------
-        shape.ShadowFormat.Visible = true;
+> **Porada:** `GetChildNodes(NodeType.Shape, true)` przeszukuje poddrzewo rekurencyjnie, zapewniając, że nie przegapisz zagnieżdżonych kształtów, takich jak WordArt.
 
-        // -------------------------------------------------
-        // Step 4: Set the shadow colour to a dark gray.
-        // -------------------------------------------------
-        shape.ShadowFormat.Color = Color.DarkGray;
+## Krok 3: Uzyskaj obiekt formatowania cienia (gdzie dzieje się magia)
 
-        // -------------------------------------------------
-        // Step 5: Define the shadow's transparency (30 % transparent).
-        // -------------------------------------------------
-        shape.ShadowFormat.Transparency = 0.3;   // 0 = opaque, 1 = fully transparent
+Każdy `Shape` udostępnia właściwość `ShadowFormat`. Ten obiekt kontroluje widoczność, kolor, rozmycie, odległość i kąt – wszystkie elementy potrzebne do **zastosowania cienia do kształtu**.
 
-        // -------------------------------------------------
-        // Step 6: Configure the blur radius (size) of the shadow.
-        // -------------------------------------------------
-        shape.ShadowFormat.Size = 6;            // Larger value = softer edges
+```csharp
+        // The ShadowFormat object holds all shadow‑related settings
+        ShadowFormat shadow = targetShape.ShadowFormat;
+```
 
-        // -------------------------------------------------
-        // Step 7: Set the offset distance and direction (angle) of the shadow.
-        // -------------------------------------------------
-        shape.ShadowFormat.Distance = 2;        // How far the shadow is from the shape
-        shape.ShadowFormat.Angle = 45;          // Angle in degrees (0 = right, 90 = down)
+> **Dlaczego używamy `ShadowFormat`:** Abstrahuje on podłożoną reprezentację XML, dzięki czemu możesz regulować cienie bez konieczności pracy z surowym OpenXML.
 
-        // -------------------------------------------------
-        // Save the modified document.
-        // -------------------------------------------------
-        doc.Save("YOUR_DIRECTORY/output.docx");
-        Console.WriteLine("Shadow applied successfully! Check output.docx.");
+## Krok 4: Ustaw widoczność cienia i wybierz kolor (dodaj cień do kształtu)
+
+Cień nie pojawi się, dopóki nie ustawisz `Visible` na `true`. Następnie możesz wybrać dowolny `System.Drawing.Color`. Tutaj używamy średniej szarości, ale eksperymentuj śmiało.
+
+```csharp
+        // Turn the shadow on and give it a subtle gray tone
+        shadow.Visible = true;
+        shadow.Color = Color.FromArgb(80, 80, 80);   // dark gray
+```
+
+> **Typowy błąd:** Zapomnienie o włączeniu `Visible` skutkuje cichymi niepowodzeniami – Twój kształt pozostaje niezmieniony, mimo że inne właściwości zostały ustawione.
+
+## Krok 5: Skonfiguruj wygląd – rozmycie, odległość i kąt (dopracowanie efektu)
+
+Teraz kształtujemy wizualny wpływ. `BlurRadius` zmiękcza krawędzie, `Distance` oddala cień od kształtu, a `Angle` określa kierunek źródła światła.
+
+```csharp
+        // Adjust how the shadow looks
+        shadow.BlurRadius = 5.0;   // in points – higher = softer
+        shadow.Distance   = 3.0;   // how far the shadow is offset
+        shadow.Angle      = 45.0;  // degrees clockwise from the horizontal
+```
+
+> **Szczególny przypadek:** Ustawienie ujemnej odległości spowoduje, że cień pojawi się *wewnątrz* kształtu, co może być przydatne przy efektach wytłoczenia.
+
+## Krok 6: Zapisz zaktualizowany dokument (zobacz rezultat)
+
+Na koniec zapisz zmiany na dysku. Możesz nadpisać oryginalny plik lub utworzyć nowy.
+
+```csharp
+        // Persist the changes – you’ll see the shadow in Word or any viewer
+        doc.Save("output-with-shadow.docx");
+        Console.WriteLine("Shadow applied successfully! Check output-with-shadow.docx");
     }
 }
 ```
 
-### Dlaczego te ustawienia mają znaczenie
+Uruchomienie programu tworzy plik `output-with-shadow.docx`. Otwórz go w Microsoft Word i zauważ, że wybrany kształt ma teraz miękki szary cień pod kątem 45°, rozmyty o 5 pt i odsunięty o 3 pt.
 
-- **Visible** – Bez włączenia tej flagi wszystkie pozostałe właściwości są ignorowane.  
-- **Color** – Ciemny szary imituje typowy cień UI; możesz podmienić na dowolny `Color`.  
-- **Transparency** – 0.3 daje *łagodny* wygląd, jednocześnie zachowując czytelność kształtu.  
-- **Size** – Kontroluje rozmycie; wartość 6 zazwyczaj wystarcza dla profesjonalnego efektu.  
-- **Distance & Angle** – Razem definiują *przesunięcie*; 2 pt przy 45° daje subtelny cień ukośny.
+![Diagram showing shadow applied to a shape](https://example.com/images/shadow-diagram.png "Diagram showing shadow applied to a shape")
 
-To jest istota **jak ustawić cień**. Następnie rozłożymy każdy element, abyś mógł **zastosować cień padający**, **zmienić przezroczystość**, **regulować rozmycie** i **dodać cień do kształtu** oddzielnie.
+*Alt text: Diagram showing shadow applied to a shape* – ten obraz ilustruje efekt przed/po.
 
----
+## Jak dodać cień – typowe wariacje i przypadki brzegowe
 
-## Zastosuj cień padający do kształtu
+Choć podstawowe kroki są proste, w rzeczywistych scenariuszach często potrzebne są drobne modyfikacje. Poniżej kilka sytuacji „co‑jeśli”, które możesz napotkać.
 
-Kiedy ludzie pytają „jak **zastosować cień padający** w C#?”, często potrzebują tylko przełącznika widoczności i koloru. Poniższy fragment izoluje te dwie linie:
+### 1. Wiele kształtów, różne cienie
+
+Jeśli dokument zawiera kilka grafik, przeiteruj kolekcję kształtów i przypisz unikalne ustawienia cienia dla każdego z nich.
 
 ```csharp
-shape.ShadowFormat.Visible = true;          // Turns the shadow on
-shape.ShadowFormat.Color   = Color.Black;   // Classic black drop shadow
-```
-
-> **Pro tip:** Jeśli celujesz w starsze wersje Worda (2003‑2007), trzymaj się standardowych kolorów. Niektóre egzotyczne wartości ARGB mogą być ignorowane przez starszy renderer.
-
----
-
-## Jak zmienić przezroczystość cienia
-
-Przezroczystość jest wyrażana jako **float między 0 a 1**. Wartość **0** oznacza całkowicie nieprzezroczysty cień; **1** sprawia, że jest niewidoczny. Większość projektantów ustawia wartość w okolicach **0.2‑0.4** dla naturalnego wyglądu.
-
-```csharp
-shape.ShadowFormat.Transparency = 0.35; // 35 % transparent
-```
-
-### Przypadki brzegowe
-
-- **Negative values** – Aspose.Words ograniczy je do 0, ale lepiej jest zwalidować wejście.  
-- **Values > 1** – Ograniczone do 1, skutecznie ukrywając cień.  
-
-Jeśli musisz pozwolić użytkownikom wybrać procent, najpierw przelicz go:
-
-```csharp
-float percent = 30;                     // User enters 30 %
-shape.ShadowFormat.Transparency = percent / 100f;
-```
-
----
-
-## Jak regulować rozmycie (Size) cienia
-
-Właściwość **Size** kontroluje promień rozmycia. Większe liczby dają bardziej miękki, rozproszony cień. Jest mierzona w punktach (pt), a nie w pikselach.
-
-```csharp
-shape.ShadowFormat.Size = 10;  // A generous blur for a “soft” effect
-```
-
-#### Kiedy używać małego vs. dużego rozmycia
-
-- **Small blur (2‑4 pt)** – Dobre dla wywołań w stylu UI, gdzie chcesz wyraźną krawędź.  
-- **Large blur (8‑12 pt)** – Dobrze sprawdza się w raportach drukowanych lub gdy kształt jest daleko od tła.
-
----
-
-## Dodaj cień do kształtu – pozycjonowanie i kierunek
-
-Ostatnim elementem **add shape shadow** jest offset. Dwie właściwości współpracują ze sobą:
-
-| Property | Meaning |
-|----------|---------|
-| **Distance** | Jak daleko cień znajduje się od kształtu (w punktach). |
-| **Angle**    | Kierunek offsetu (0° = w prawo, 90° = w dół, 180° = w lewo, 270° = w górę). |
-
-Przykład, który tworzy subtelny cień w prawym dolnym rogu:
-
-```csharp
-shape.ShadowFormat.Distance = 1.5; // Slight lift
-shape.ShadowFormat.Angle    = 135; // Down‑left direction (135°)
-```
-
-Możesz eksperymentować z kątami, aby symulować światło pochodzące z różnych źródeł. Popularnym trikiem jest pozwolenie użytkownikowi wybrać „źródło światła” z listy rozwijanej i przypisać mu wartość kąta.
-
----
-
-## Pełny działający przykład (wszystkie kroki połączone)
-
-Poniżej znajduje się ten sam program co wcześniej, ale z **dodatkowymi komentarzami**, które czynią logikę krystalicznie jasną. Skopiuj go do `Program.cs` i uruchom; plik wyjściowy będzie zawierał pole tekstowe z idealnie dopasowanym cieniem.
-
-```csharp
-using System;
-using System.Drawing;
-using Aspose.Words;
-using Aspose.Words.Drawing;
-
-namespace ShapeShadowDemo
-{
-    class Program
-    {
-        static void Main()
+        NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
+        foreach (Shape shp in shapes)
         {
-            // Load the source document (must contain at least one shape)
-            Document doc = new Document("YOUR_DIRECTORY/input.docx");
-
-            // Grab the first shape we encounter – usually a textbox or picture
-            Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-            if (shape == null)
-            {
-                Console.WriteLine("No shape found in the document.");
-                return;
-            }
-
-            // ---------- Apply Drop Shadow ----------
-            shape.ShadowFormat.Visible = true;          // Turn it on
-            shape.ShadowFormat.Color   = Color.DarkGray; // Soft dark colour
-
-            // ---------- How to Change Transparency ----------
-            shape.ShadowFormat.Transparency = 0.3; // 30 % transparent – looks natural
-
-            // ---------- How to Adjust Blur ----------
-            shape.ShadowFormat.Size = 6; // Moderate blur for a professional feel
-
-            // ---------- Add Shape Shadow (position) ----------
-            shape.ShadowFormat.Distance = 2; // Slight offset
-            shape.ShadowFormat.Angle    = 45; // Diagonal down‑right
-
-            // Save the result
-            doc.Save("YOUR_DIRECTORY/output.docx");
-            Console.WriteLine("Document saved with shadow. Open output.docx to verify.");
+            ShadowFormat sf = shp.ShadowFormat;
+            sf.Visible = true;
+            sf.Color = Color.FromArgb(100, 100, 150); // bluish tint
+            sf.BlurRadius = 3.0;
+            sf.Distance = 2.0;
+            sf.Angle = 30.0;
         }
-    }
-}
 ```
 
-**Oczekiwany rezultat:** Otwórz `output.docx`. Pierwsze pole tekstowe wyświetli ciemnoszary, 30 % przezroczysty cień, lekko rozmyty (size = 6) i przesunięty o 2 pt pod kątem 45°. Efekt jest subtelny, ale zauważalny — dokładnie to, do czego dąży większość projektantów UI.
+### 2. Przezroczyste cienie
+
+Aspose.Words pozwala ustawić kanał alfa za pomocą `Color.FromArgb(alpha, r, g, b)`. Użyj niskiego alfa (np. 50) dla subtelnego, półprzezroczystego efektu.
+
+```csharp
+        shadow.Color = Color.FromArgb(50, 0, 0, 0); // 20% opacity black
+```
+
+### 3. Usuwanie cienia
+
+Czasami trzeba wyłączyć cień po jego zastosowaniu. Po prostu ustaw `Visible` na `false`.
+
+```csharp
+        shadow.Visible = false;
+```
+
+### 4. Problemy z kompatybilnością
+
+Funkcje cienia użyte tutaj są obsługiwane w Word 2007 + (format DOCX). Jeśli celujesz w starszy format binarny `.doc`, cień może zostać zignorowany, ponieważ format nie zawiera niezbędnych elementów XML. W takich przypadkach rozważ zapis jako DOCX lub użycie alternatywnego wskaźnika wizualnego.
+
+## Podsumowanie: Co udało nam się osiągnąć
+
+- **Wczytaliśmy** plik DOCX przy użyciu Aspose.Words.  
+- **Pobraliśmy** pierwszy kształt z dokumentu.  
+- **Uzyskaliśmy** dostęp do jego obiektu `ShadowFormat`.  
+- **Włączyliśmy** cień, ustawiliśmy kolor, promień rozmycia, odległość i kąt.  
+- **Zapisaliśmy** nowy plik, który wyraźnie demonstruje efekt.  
+
+Wszystkie te kroki razem odpowiadają na pytanie **jak ustawić cień** na kształcie, a także pokazują, jak **dodać cień do kształtu**, **zastosować cień do kształtu** i nawet **jak dodać cień** w bardziej złożonych scenariuszach.
+
+## Kolejne kroki i tematy pokrewne
+
+Teraz, gdy opanowałeś stylizację cieni, możesz zgłębić:
+
+- **Wypełnienia gradientowe** dla kształtów (`Shape.FillFormat.GradientFill`).  
+- **Efekty tekstowe** takie jak poświata czy odbicie (`TextEffect`).  
+- **Programowe wstawianie nowych kształtów** (`doc.FirstSection.Body.AppendChild(new Shape(...))`).  
+- **Eksport do PDF** z zachowaniem cieni (`doc.Save("output.pdf")`).  
+
+Każdy z tych tematów opiera się na tych samych zasadach modelu obiektowego, które wykorzystaliśmy tutaj, więc poczujesz się jak w domu.
 
 ---
 
-## Częste pytania i pułapki
-
-- **„Czy to działa również z obrazami?”**  
-  Tak. Każdy `Shape` — niezależnie czy to pole tekstowe, obraz czy auto‑kształt — udostępnia `ShadowFormat`. Wystarczy zamienić logikę pobierania kształtu na odpowiedni indeks lub nazwę.
-
-- **„Co jeśli dokument zawiera wiele kształtów?”**  
-  Przejdź pętlą przez `doc.GetChildNodes(NodeType.Shape, true)` i zastosuj te same ustawienia do każdego. Możesz także filtrować po `shape.Name` lub `shape
+*Miłego kodowania! Jeśli napotkasz problem, zostaw komentarz poniżej lub zajrzyj do dokumentacji API Aspose.Words, aby uzyskać głębsze informacje.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

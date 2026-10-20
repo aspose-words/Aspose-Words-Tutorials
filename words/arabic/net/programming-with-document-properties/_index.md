@@ -34,6 +34,7 @@
 | [استخدم أحرف التحكم](./use-control-characters/) اكتشف كيفية أتمتة مهام مستندات Word باستخدام Aspose.Words لـ .NET. يغطي هذا الدليل الإعداد، واستبدال النصوص، والمزيد، مما يجعل سير عملك أكثر فعالية.
 | [كيفية عد الصفحات في مستند Word – الاسترداد والعد](./how-to-count-pages-in-a-word-document-recover-count/) | تعلم كيفية حساب عدد الصفحات في مستند Word باستخدام Aspose.Words لـ .NET واستعادة العد بدقة. |
 
+| [التحقق من عدد الصفحات في مستندات Word – استعادة الملفات التالفة](./check-page-count-in-word-docs-recover-corrupted-files/) | تعلم كيفية فحص عدد الصفحات في مستندات Word واستعادة الملفات التالفة باستخدام Aspose.Words لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

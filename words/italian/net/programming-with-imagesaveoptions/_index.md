@@ -34,6 +34,10 @@ tutorial trattano anche i concetti base della manipolazione delle immagini, tra 
 | [Crea una griglia PNG da documento Word – Guida passo‑passo](./create-png-grid-from-word-document-step-by-step-guide/) | Scopri come generare una griglia di immagini PNG da un documento Word usando Aspose.Words per .NET, passo dopo passo. |
 | [Come impostare DPI durante la conversione da Word a PNG – Guida all'esportazione ad alta risoluzione](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) | Scopri come esportare documenti Word in PNG ad alta risoluzione impostando il DPI con Aspose.Words per .NET, esempi passo passo. |
 | [Crea una griglia PNG da documento Word – Guida completa](./create-png-grid-from-word-document-complete-guide/) | Scopri come generare una griglia di immagini PNG da un documento Word con questa guida completa passo passo. |
+| [Come impostare la risoluzione durante la conversione da Word a PNG – Guida completa](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Scopri come impostare la risoluzione per la conversione di documenti Word in PNG usando Aspose.Words per .NET con esempi passo passo. |
+| [Esporta Word come PNG – Converti DOCX in un'Immagine](./export-word-as-png-convert-docx-to-one-image/) | Scopri come convertire un documento DOCX in un'unica immagine PNG usando Aspose.Words per .NET con esempi passo passo. |
+| [Converti docx in png – Guida completa passo‑per‑passo](./convert-docx-to-png-complete-step-by-step-guide/) | Scopri come convertire file DOCX in PNG con Aspose.Words per .NET, passo dopo passo, includendo impostazioni di qualità e DPI. |
+| [Converti DOCX in PNG – Guida completa C#](./convert-docx-to-png-complete-c-guide/) | Scopri come convertire documenti DOCX in PNG con Aspose.Words per .NET usando C# con esempi dettagliati passo passo. |
 | [come impostare DPI – Esporta Word in PNG Grid in C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Scopri come impostare il DPI durante l'esportazione di un documento Word in una griglia PNG usando C# con Aspose.Words per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

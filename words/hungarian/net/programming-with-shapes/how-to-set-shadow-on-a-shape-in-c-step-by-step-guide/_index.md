@@ -1,26 +1,25 @@
 ---
 category: general
-date: 2026-04-10
-description: hogyan állítsunk be árnyékot egy alakzatra C#-ban – tanulja meg, hogyan
-  alkalmazzunk vetett árnyékot, módosítsuk az átlátszóságot, állítsuk be a homályt,
-  és adjunk hozzá alakzati árnyékot az Aspose.Words segítségével.
+date: 2026-03-28
+description: Hogyan állítsunk be árnyékot egy alakzatra C#-ban az Aspose.Words használatával
+  – árnyék hozzáadása az alakzathoz, árnyék alkalmazása és a megjelenés testreszabása.
 draft: false
 keywords:
 - how to set shadow
-- apply drop shadow
-- how to change transparency
-- how to adjust blur
-- add shape shadow
+- add shadow to shape
+- apply shadow to shape
+- how to add shadow
 language: hu
-og_description: hogyan állítsunk be árnyékot egy alakzatra C#-ban – ez az útmutató
-  megmutatja, hogyan alkalmazzunk vetésárnyékot, módosítsuk az átlátszóságot, állítsuk
-  be az elmosódást, és adjunk hozzá alakzatarcát világos kódrészletekkel.
-og_title: Hogyan állítsunk be árnyékot egy alakzatra C#‑ban – Teljes útmutató
+og_description: Hogyan állíts be gyorsan árnyékot egy alakzatra C#-ban. Tanulj meg
+  árnyékot hozzáadni az alakzathoz, alkalmazni az árnyékot, és finomhangolni a elmosódást,
+  a távolságot és a szöget.
+og_title: Hogyan állítsunk be árnyékot egy alakzatra C#-ban – Teljes útmutató
 tags:
 - Aspose.Words
 - C#
 - Document Automation
-title: Hogyan állítsunk be árnyékot egy alakzatra C#‑ban – lépésről‑lépésre útmutató
+- Graphics
+title: Hogyan állítsunk be árnyékot egy alakzatra C#‑ban – Lépésről lépésre útmutató
 url: /hu/net/programming-with-shapes/how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/
 ---
 
@@ -28,231 +27,177 @@ url: /hu/net/programming-with-shapes/how-to-set-shadow-on-a-shape-in-c-step-by-s
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# hogyan állítsunk be árnyékot egy alakzatra C#‑ben – Teljes útmutató
+# Hogyan állítsunk be árnyékot egy alakzatra C#‑ban – Teljes programozási útmutató
 
-Gondolkodtál már azon, **hogyan állítsunk be árnyékot** egy alakzatra, amikor programozottan építesz egy Word dokumentumot? Nem vagy egyedül. Sok fejlesztő akad el, amikor egy finom drop shadow‑ra van szüksége egy szövegdobozhoz, logóhoz vagy kiemelő dobozhoz, és az API dokumentáció kissé hiányosnak tűnik.  
+Gondolkodtál már azon, **hogyan állítsunk be árnyékot** egy alakzatra, miközben programból építünk Word dokumentumokat? Nem vagy egyedül. Sok jelentésben, prezentációban vagy szórólapon egy finom vetett árnyék kiemelhet egy grafikát anélkül, hogy csúnya lenne. A jó hír? Az Aspose.Words for .NET‑tel néhány sor kóddal hozzáadhatod az árnyékot az alakzathoz.
 
-Ebben az oktatóanyagban végigvezetünk a teljes folyamaton: egy `.docx` betöltésétől, az első `Shape` lekérésén, a drop shadow alkalmazásáig, az átlátszóság finomhangolásáig, a blur‑rádiusz beállításáig, és végül a megfelelő pozicionálásig. A végére egy újrahasználható kódrészletet kapsz, amely az Aspose.Words .NET 2023 vagy újabb verzióval működik, és megérted, *miért* fontos minden egyes tulajdonság.
+Ebben a bemutatóban végigvezetünk a teljes folyamaton: DOCX betöltése, az első alakzat lekérése, majd **árnyék alkalmazása az alakzatra** — szín, elmosódás, távolság és szög beállításával. A végére egy kész, futtatható kódrészletet kapsz, amelyet bármely C# projektbe beilleszthetsz. Nincs extra könyvtár, nincs rejtett varázslat.
 
 ## Amire szükséged lesz
 
-- **Aspose.Words for .NET** (NuGet package `Aspose.Words`) – a könyvtár, amely biztosítja a `Document`, `Shape` és `ShadowFormat` osztályokat.  
-- **.NET 6+** (or .NET Framework 4.7.2) – bármelyik újabb futtatókörnyezet megfelel.  
-- Egy egyszerű Word fájl (`input.docx`), amely már tartalmaz legalább egy alakzatot, például egy szövegdobozt.  
-- Visual Studio, VS Code vagy a kedvenc IDE‑d.
+- **Aspose.Words for .NET** (23.9 vagy újabb verzió) – a könyvtár, amely gond nélkül teszi lehetővé a Word manipulációt.  
+- .NET fejlesztői környezet (Visual Studio 2022, Rider vagy a CLI).  
+- Egy minta DOCX, amely már tartalmaz legalább egy alakzatot (téglalap, kép vagy SmartArt is megfelel).  
 
-Ennyi. Nincs szükség extra harmadik féltől származó eszközre, COM interopra, csak tiszta C#.
+Ha valamelyik hiányzik, szerezd be a NuGet csomagot a `Install-Package Aspose.Words` paranccsal, és hozz létre egy egyszerű Word fájlt, amelyben manuálisan beillesztesz egy alakzatot – csak a bemutató kedvéért.
 
-![how to set shadow example](image-placeholder.png){:alt="árnyék beállítása egy alakzatra Word dokumentumban"}
+## 1. lépés: Dokumentum betöltése (Az árnyék hozzáadásának előkészítése)
 
-## Árnyék beállítása – Áttekintés
-
-A **hogyan állítsunk be árnyékot** alapgondolata, hogy a `Shape`-hez tartozó `ShadowFormat` objektumot manipuláljuk. Tekintsd a `ShadowFormat`-ot egy mini „stíluslapnak” az árnyék számára: megmondja a renderelőnek, hogy az árnyék látható‑e, milyen színű legyen, mennyire legyen átlátszó, mennyire legyen elmosódott, és hol helyezkedjen el az alakzathoz képest.  
-
-Az alábbi *teljes* futtatható programot láthatod. Nyugodtan másold be egy konzolos alkalmazásba, nyomd meg a **F5**‑öt, és nézd meg, ahogy az árnyék megjelenik a mentett `output.docx`‑ben.
+Az első teendő a forrásfájl megnyitása. Itt kezdődik a **árnyék hozzáadása az alakzatra** művelet.
 
 ```csharp
 using System;
-using System.Drawing;               // For Color
-using Aspose.Words;                 // Core document classes
-using Aspose.Words.Drawing;         // Shape & ShadowFormat
+using Aspose.Words;
+using Aspose.Words.Drawing;
+using System.Drawing;
 
 class ShadowDemo
 {
     static void Main()
     {
-        // -------------------------------------------------
-        // Step 1: Load the Word document that contains the shape.
-        // -------------------------------------------------
-        Document doc = new Document("YOUR_DIRECTORY/input.docx");
+        // Load the DOCX that holds the shape you want to enhance
+        Document doc = new Document("input.docx");
+```
 
-        // -------------------------------------------------
-        // Step 2: Retrieve the first shape (e.g., a textbox) from the document.
-        // -------------------------------------------------
-        Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-        if (shape == null)
+> **Miért fontos:** A dokumentum betöltése egy `Document` objektumot ad, amely az összes csomópontot, köztük az alakzatokat is birtokolja. Enélkül nincs mit módosítani.
+
+## 2. lépés: Célalakzat lekérése (A megfelelő kiválasztása)
+
+Ezután megkeressük azt az alakzatot, amelyet stílusozni szeretnénk. Ebben a példában az első bekezdés első alakzatát vesszük, de a lekérdezést bármely csomópontgyűjteményre testre szabhatod.
+
+```csharp
+        // Grab the first shape inside the first paragraph of the first section
+        Shape targetShape = doc.FirstSection.Body.FirstParagraph
+            .GetChildNodes(NodeType.Shape, true)[0] as Shape;
+
+        if (targetShape == null)
         {
-            Console.WriteLine("No shape found – make sure input.docx has a textbox.");
+            Console.WriteLine("No shape found – check your input file.");
             return;
         }
+```
 
-        // -------------------------------------------------
-        // Step 3: Make the shadow visible.
-        // -------------------------------------------------
-        shape.ShadowFormat.Visible = true;
+> **Pro tipp:** A `GetChildNodes(NodeType.Shape, true)` rekurzívan bejárja a részfát, így nem marad ki a beágyazott alakzat, például a WordArt sem.
 
-        // -------------------------------------------------
-        // Step 4: Set the shadow colour to a dark gray.
-        // -------------------------------------------------
-        shape.ShadowFormat.Color = Color.DarkGray;
+## 3. lépés: Az árnyékformázó objektum elérése (A varázslat itt történik)
 
-        // -------------------------------------------------
-        // Step 5: Define the shadow's transparency (30 % transparent).
-        // -------------------------------------------------
-        shape.ShadowFormat.Transparency = 0.3;   // 0 = opaque, 1 = fully transparent
+Minden `Shape` rendelkezik egy `ShadowFormat` tulajdonsággal. Ez az objektum szabályozza a láthatóságot, színt, elmosódást, távolságot és szöget – minden „gombot”, amire a **árnyék alkalmazása az alakzatra** szükséges.
 
-        // -------------------------------------------------
-        // Step 6: Configure the blur radius (size) of the shadow.
-        // -------------------------------------------------
-        shape.ShadowFormat.Size = 6;            // Larger value = softer edges
+```csharp
+        // The ShadowFormat object holds all shadow‑related settings
+        ShadowFormat shadow = targetShape.ShadowFormat;
+```
 
-        // -------------------------------------------------
-        // Step 7: Set the offset distance and direction (angle) of the shadow.
-        // -------------------------------------------------
-        shape.ShadowFormat.Distance = 2;        // How far the shadow is from the shape
-        shape.ShadowFormat.Angle = 45;          // Angle in degrees (0 = right, 90 = down)
+> **Miért használjuk a `ShadowFormat`‑ot:** Absztrahálja a mögöttes XML ábrázolást, így az árnyékot anélkül módosíthatod, hogy nyers OpenXML‑kel dolgoznál.
 
-        // -------------------------------------------------
-        // Save the modified document.
-        // -------------------------------------------------
-        doc.Save("YOUR_DIRECTORY/output.docx");
-        Console.WriteLine("Shadow applied successfully! Check output.docx.");
+## 4. lépés: Az árnyék láthatóvá tétele és szín kiválasztása (Árnyék hozzáadása az alakzathoz)
+
+Az árnyék csak akkor jelenik meg, ha a `Visible` értéke `true`. Ezután bármely `System.Drawing.Color`-t választhatsz. Itt egy közepes szürke színt használunk, de nyugodtan kísérletezz.
+
+```csharp
+        // Turn the shadow on and give it a subtle gray tone
+        shadow.Visible = true;
+        shadow.Color = Color.FromArgb(80, 80, 80);   // dark gray
+```
+
+> **Gyakori hiba:** Ha elfelejted bekapcsolni a `Visible`‑t, csendes hibát kapsz – az alakzat változatlan marad, bár a többi tulajdonságot beállítottad.
+
+## 5. lépés: Megjelenés beállítása – Elmosódás, távolság és szög (Finomhangolás)
+
+Most alakítjuk a vizuális hatást. A `BlurRadius` lágyítja a széleket, a `Distance` távolítja el az árnyékot az alakzattól, a `Angle` pedig meghatározza a fényforrás irányát.
+
+```csharp
+        // Adjust how the shadow looks
+        shadow.BlurRadius = 5.0;   // in points – higher = softer
+        shadow.Distance   = 3.0;   // how far the shadow is offset
+        shadow.Angle      = 45.0;  // degrees clockwise from the horizontal
+```
+
+> **Széljegyzet:** Ha negatív távolságot adsz meg, az árnyék az alakzat *belsejében* jelenik meg, ami kiemeléshez (emboss) hasznos lehet.
+
+## 6. lépés: A módosított dokumentum mentése (Az eredmény megtekintése)
+
+Végül írd vissza a változtatásokat a lemezre. Felülírhatod az eredeti fájlt, vagy létrehozhatsz egy újat.
+
+```csharp
+        // Persist the changes – you’ll see the shadow in Word or any viewer
+        doc.Save("output-with-shadow.docx");
+        Console.WriteLine("Shadow applied successfully! Check output-with-shadow.docx");
     }
 }
 ```
 
-### Miért fontosak ezek a beállítások
+A program futtatása `output-with-shadow.docx`‑et hoz létre. Nyisd meg a Microsoft Word‑ben, és észre fogod venni, hogy a kiválasztott alakzat most egy 45°‑os szögben, 5 pt elmosódással és 3 pt eltolással megjelenő, lágy szürke árnyékkal rendelkezik.
 
-- **Visible** – Ennek a jelzőnek a bekapcsolása nélkül a többi tulajdonság figyelmen kívül marad.  
-- **Color** – Egy sötétszürke tipikus UI drop shadow‑t utánoz; bármilyen `Color`‑t beállíthatsz.  
-- **Transparency** – A 0.3 *lágy* megjelenést kölcsönöz, miközben az alakzat olvasható marad.  
-- **Size** – A blur‑t szabályozza; a 6 érték általában elegendő egy professzionális hatáshoz.  
-- **Distance & Angle** – Együtt határozzák meg az *eltolást*; 2 pt 45°‑os szögben egy finom átlós árnyékot eredményez.
+![Diagram showing shadow applied to a shape](https://example.com/images/shadow-diagram.png "Diagram showing shadow applied to a shape")
 
-Ez a **hogyan állítsunk be árnyékot** lényege. Ezután minden részt részletezünk, hogy **drop shadow‑t alkalmazz**, **átlátszóságot változtass**, **blur‑t állíts**, és **alakzat árnyékot adj** izoláltan.
+*Alt text: Diagram showing shadow applied to a shape* – ez a kép a „előtte/utána” hatást illusztrálja.
 
----
+## Árnyék hozzáadása – Gyakori variációk és széljegyzetek
 
-## Drop Shadow alkalmazása egy alakzatra
+Bár az alaplépések egyszerűek, a valós helyzetek gyakran igényelnek finomhangolást. Íme néhány „mi lenne, ha” szituáció, amellyel találkozhatsz.
 
-Amikor valaki azt kérdezi, “hogyan **apply drop shadow** C#‑ban?”, gyakran csak a láthatóság kapcsolót és egy színt igényli. Az alábbi kódrészlet ezeket a két sort izolálja:
+### 1. Több alakzat, különböző árnyékok
+
+Ha a dokumentum több grafikát tartalmaz, iterálj a shape gyűjteményen, és minden alakzatra egyedi árnyékbeállításokat alkalmazz.
 
 ```csharp
-shape.ShadowFormat.Visible = true;          // Turns the shadow on
-shape.ShadowFormat.Color   = Color.Black;   // Classic black drop shadow
-```
-
-> **Pro tip:** Ha régebbi Word verziókat (2003‑2007) célozol, tartsd magad a szabványos színekhez. Néhány egzotikus ARGB értéket a régi renderelő figyelmen kívül hagyhat.
-
----
-
-## Az árnyék átlátszóságának módosítása
-
-Az átlátszóság **0 és 1 közötti float** értékkel van kifejezve. A **0** érték teljesen átlátszatlan árnyékot jelent; az **1** láthatatlanná teszi. A legtöbb tervező a **0.2‑0.4** körüli értéket választja a természetes megjelenésért.
-
-```csharp
-shape.ShadowFormat.Transparency = 0.35; // 35 % transparent
-```
-
-### Szélső esetek
-
-- **Negative values** – Az Aspose.Words 0‑ra korlátozza őket, de jobb, ha már a bemenetet validálod.  
-- **Values > 1** – 1‑re lesz korlátozva, ezzel hatékonyan elrejtve az árnyékot.  
-
-Ha a felhasználóknak százalékot kell választaniuk, előbb konvertáld át:
-
-```csharp
-float percent = 30;                     // User enters 30 %
-shape.ShadowFormat.Transparency = percent / 100f;
-```
-
----
-
-## Az árnyék elmosódásának (Size) beállítása
-
-A **Size** tulajdonság szabályozza a blur‑rádiust. A nagyobb számok puhább, szórtabb árnyékot eredményeznek. Pontban (pt) van mérve, nem pixelben.
-
-```csharp
-shape.ShadowFormat.Size = 10;  // A generous blur for a “soft” effect
-```
-
-#### Mikor használjunk kis vagy nagy elmosódást
-
-- **Small blur (2‑4 pt)** – Jó UI‑stílusú kiemelésekhez, ahol éles szegélyt szeretnél.  
-- **Large blur (8‑12 pt)** – Kiváló nyomtatott jelentésekhez vagy ha az alakzat messze van a háttértől.
-
----
-
-## Alakzat árnyék hozzáadása – Pozicionálás és irány
-
-A **add shape shadow** végső része az eltolás. Két tulajdonság működik együtt:
-
-| Property | Meaning |
-|----------|---------|
-| **Distance** | Milyen távolságra helyezkedik el az árnyék az alakzattól (pontban). |
-| **Angle**    | Az eltolás iránya (0° = jobbra, 90° = le, 180° = balra, 270° = fel). |
-
-Példa, amely egy finom jobb‑alsó árnyékot hoz létre:
-
-```csharp
-shape.ShadowFormat.Distance = 1.5; // Slight lift
-shape.ShadowFormat.Angle    = 135; // Down‑left direction (135°)
-```
-
-Kísérletezhetsz a szögekkel, hogy különböző fényforrások hatását szimuláld. Egy gyakori trükk, hogy a felhasználó egy legördülő menüből választhat “fényforrást”, amelyet egy szögértékre mapelünk.
-
----
-
-## Teljes működő példa (minden lépés kombinálva)
-
-Az alábbi program ugyanaz, mint korábban, de **extra kommentárokkal** van ellátva, amelyek kristálytiszta logikát adnak. Másold be a `Program.cs`‑be és futtasd; a kimeneti fájl egy szövegdobozt tartalmaz majd tökéletesen hangolt árnyékkal.
-
-```csharp
-using System;
-using System.Drawing;
-using Aspose.Words;
-using Aspose.Words.Drawing;
-
-namespace ShapeShadowDemo
-{
-    class Program
-    {
-        static void Main()
+        NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
+        foreach (Shape shp in shapes)
         {
-            // Load the source document (must contain at least one shape)
-            Document doc = new Document("YOUR_DIRECTORY/input.docx");
-
-            // Grab the first shape we encounter – usually a textbox or picture
-            Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-            if (shape == null)
-            {
-                Console.WriteLine("No shape found in the document.");
-                return;
-            }
-
-            // ---------- Apply Drop Shadow ----------
-            shape.ShadowFormat.Visible = true;          // Turn it on
-            shape.ShadowFormat.Color   = Color.DarkGray; // Soft dark colour
-
-            // ---------- How to Change Transparency ----------
-            shape.ShadowFormat.Transparency = 0.3; // 30 % transparent – looks natural
-
-            // ---------- How to Adjust Blur ----------
-            shape.ShadowFormat.Size = 6; // Moderate blur for a professional feel
-
-            // ---------- Add Shape Shadow (position) ----------
-            shape.ShadowFormat.Distance = 2; // Slight offset
-            shape.ShadowFormat.Angle    = 45; // Diagonal down‑right
-
-            // Save the result
-            doc.Save("YOUR_DIRECTORY/output.docx");
-            Console.WriteLine("Document saved with shadow. Open output.docx to verify.");
+            ShadowFormat sf = shp.ShadowFormat;
+            sf.Visible = true;
+            sf.Color = Color.FromArgb(100, 100, 150); // bluish tint
+            sf.BlurRadius = 3.0;
+            sf.Distance = 2.0;
+            sf.Angle = 30.0;
         }
-    }
-}
 ```
 
-**Várható eredmény:** Nyisd meg az `output.docx`‑t. Az első szövegdoboz egy sötétszürke, 30 % átlátszó árnyékot mutat, amely enyhén elmosódott (size = 6) és 2 pt‑rel 45°‑os szögben van eltolva. A hatás finom, de észrevehető – pontosan azt, amit a legtöbb UI‑tervező célul tűz ki.
+### 2. Áttetsző árnyékok
+
+Az Aspose.Words lehetővé teszi az alfa csatorna beállítását a `Color.FromArgb(alpha, r, g, b)`‑vel. Alacsony alfa (pl. 50) esetén finom, félig áttetsző hatást kapsz.
+
+```csharp
+        shadow.Color = Color.FromArgb(50, 0, 0, 0); // 20% opacity black
+```
+
+### 3. Árnyék eltávolítása
+
+Néha szükség van arra, hogy egy már alkalmazott árnyékot kikapcsold. Egyszerűen állítsd a `Visible`‑t `false`‑ra.
+
+```csharp
+        shadow.Visible = false;
+```
+
+### 4. Kompatibilitási aggályok
+
+Az itt használt árnyékfunkciók a Word 2007 + (DOCX) formátumban támogatottak. Ha a régebbi `.doc` bináris formátumra célozol, az árnyékot figyelmen kívül hagyhatja a formátum, mivel hiányoznak a szükséges XML elemek. Ilyen esetben fontold meg a DOCX‑ként való mentést vagy egy alternatív vizuális jelzés használatát.
+
+## Összefoglalás: Mit értünk el
+
+- **Betöltöttük** a DOCX‑et az Aspose.Words‑szel.  
+- **Lekértük** az első alakzatot a dokumentumból.  
+- **Elértük** a `ShadowFormat` objektumát.  
+- **Engedélyeztük** az árnyékot, beállítottuk a színt, elmosódási sugarat, távolságot és szöget.  
+- **Mentettük** az új fájlt, amely egyértelműen mutatja a hatást.  
+
+Ezek a lépések együtt válaszolnak arra, **hogyan állítsunk be árnyékot** egy alakzatra, miközben megmutatják, hogyan **adjunk hozzá árnyékot az alakzathoz**, **alkalmazzunk árnyékot az alakzatra**, és még **hogyan adjunk hozzá árnyékot** összetettebb szituációkban is.
+
+## Következő lépések és kapcsolódó témák
+
+Miután elsajátítottad az árnyékstílusozást, érdemes lehet tovább mélyedni:
+
+- **Gradient fill** alakzatokhoz (`Shape.FillFormat.GradientFill`).  
+- **Szövegeffektusok**, mint a glow vagy reflection (`TextEffect`).  
+- **Új alakzatok programozott beszúrása** (`doc.FirstSection.Body.AppendChild(new Shape(...))`).  
+- **PDF‑be exportálás** árnyékok megőrzésével (`doc.Save("output.pdf")`).  
+
+Ezek a témák mind ugyanazon objektummodell‑elveken alapulnak, mint amit itt használtunk, így otthonosan fogod tudni őket alkalmazni.
 
 ---
 
-## Gyakori kérdések és buktatók
-
-- **“Működik ez képekkel is?”**  
-  Igen. Bármely `Shape` – legyen az szövegdoboz, kép vagy auto‑shape – rendelkezik `ShadowFormat`‑tal. Csak cseréld le az alakzat lekérdezési logikát a megfelelő indexre vagy névre.
-
-- **“Mi van, ha a dokumentumnak több alakzata van?”**  
-  Iterálj a `doc.GetChildNodes(NodeType.Shape, true)`‑en, és alkalmazd ugyanazokat a beállításokat mindegyikre. Szűrhetsz `shape.Name` vagy `shape
+*Boldog kódolást! Ha elakadsz, hagyj egy megjegyzést alul, vagy nézd meg az Aspose.Words API dokumentációját a mélyebb betekintésért.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

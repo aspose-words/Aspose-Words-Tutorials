@@ -40,6 +40,12 @@ Dankzij deze tutorials kunt u de functionaliteiten van Aspose.Words voor .NET op
 | [Docx opslaan als txt – Vergelijkingen exporteren naar LaTeX](./save-docx-as-txt-export-equations-to-latex/) | Leer hoe u een DOCX-bestand opslaat als TXT en wiskundige vergelijkingen exporteert naar LaTeX met Aspose.Words voor .NET. |
 | [Docx opslaan als txt – Complete C#-gids](./save-docx-as-txt-complete-c-guide/) | Leer hoe u een DOCX-bestand naar TXT converteert met volledige C#-code en alle TxtSave-opties. |
 | [Hoe LaTeX exporteren vanuit Word – DOCX naar TXT met vergelijkingen](./how-to-export-latex-from-word-convert-docx-to-txt-with-equat/) | Leer hoe u LaTeX-code uit een Word-document exporteert en DOCX naar TXT converteert, inclusief formules, met Aspose.Words voor .NET. |
+| [docx opslaan als txt – Complete C#-gids met LaTeX‑vergelijkingen](./save-docx-as-txt-complete-c-guide-with-latex-equations/) | Leer hoe u een DOCX-bestand converteert naar TXT met behoud van LaTeX‑vergelijkingen in C# met Aspose.Words. |
+| [Maak txt van document in C# – Exporteer vergelijkingen naar LaTeX](./create-txt-from-document-in-c-export-equations-to-latex/) | Leer hoe u vergelijkingen uit een Word-document exporteert naar LaTeX bij het opslaan als txt met C# en Aspose.Words. |
+| [Hoe LaTeX exporteren vanuit Word – Complete gids voor het exporteren van LaTeX](./how-to-export-latex-from-word-complete-guide-to-export-latex/) | Leer hoe u LaTeX-bestanden vanuit een Word-document exporteert met Aspose.Words voor .NET, inclusief alle benodigde opties en voorbeeldcode. |
+| [Docx opslaan als txt – Complete gids voor het exporteren van Word‑vergelijkingen naar LaTeX](./save-docx-as-txt-complete-guide-to-exporting-word-equations/) | Leer hoe u een DOCX‑bestand als TXT exporteert en Word‑vergelijkingen omzet naar LaTeX met Aspose.Words voor .NET. |
+| [Docx opslaan als txt – Wiskunde exporteren naar LaTeX met Aspose.Words](./save-docx-as-txt-export-math-to-latex-with-aspose-words/) | Leer hoe u wiskundige formules uit een DOCX exporteert naar LaTeX bij het opslaan als TXT met Aspose.Words. |
+| [docx opslaan als txt – Exporteer Word‑vergelijkingen naar LaTeX met C#](./save-docx-as-txt-export-word-equations-to-latex-with-c/) | Leer hoe u een DOCX-bestand opslaat als TXT en Word‑vergelijkingen exporteert naar LaTeX met C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

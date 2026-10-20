@@ -50,7 +50,7 @@
 | [Αποθήκευση docx ως pdf με Aspose.Words – Πλήρης Οδηγός C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Μάθετε βήμα προς βήμα πώς να μετατρέψετε αρχεία docx σε pdf χρησιμοποιώντας Aspose.Words με C#. |
 | [Δημιουργία προσβάσιμου PDF από Word με C# – Οδηγός βήμα προς βήμα](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε προσβάσιμα PDF από έγγραφα Word χρησιμοποιώντας C# με αναλυτικές οδηγίες βήμα‑βήμα. |
 | [Δημιουργία προσβάσιμου PDF σε C# – Εγχειρίδιο προσβασιμότητας PDF](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Μάθετε πώς να δημιουργήσετε προσβάσιμα αρχεία PDF με το Aspose.Words για .NET, ακολουθώντας βήμα-βήμα οδηγίες. |
-| [Δημιουργία Προσβάσιμου PDF από Word – Πλήρης Οδηγός](./create-accessible-pdf-from-word-complete-guide/) | Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF από Word, ακολουθώντας τα πρότυπα προσβασιμότητας, με πλήρη βήμα-βήμα οδηγό. |
+| [Δημιουργία Προσβάσιμου PDF από Word – Πλήρης Οδηγός](./create-accessible-pdf-from-word-complete-guide/) | Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF από Word, ακολουθώντας τα πρότυπα προσβασιμότητας, με πλήρη βήμα‑βήμα οδηγό. |
 | [Δημιουργία προσβάσιμου PDF – Οδηγός βήμα‑προς‑βήμα για συμμόρφωση PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Μάθετε πώς να δημιουργήσετε PDF που πληρούν τα πρότυπα προσβασιμότητας PDF/UA με αναλυτικό βήμα‑βήμα οδηγό. |
 | [Δημιουργία προσβάσιμου PDF από Word – Πλήρης οδηγός C#](./create-accessible-pdf-from-word-complete-c-guide/) | Μάθετε πώς να δημιουργήσετε προσβάσιμα PDF από έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET με πλήρη οδηγό C#. |
 | [Δημιουργία προσβάσιμου PDF από Word σε C# – Πλήρης οδηγός](./create-accessible-pdf-from-word-in-c-complete-guide/) | Μάθετε πώς να δημιουργήσετε προσβάσιμα PDF από έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET σε C#. |
@@ -70,8 +70,21 @@
 | [Δημιουργία προσβάσιμου PDF από Word – Οδηγός βήμα‑βήμα](./create-accessible-pdf-from-word-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε PDF προσβάσιμο από έγγραφα Word με οδηγίες βήμα‑βήμα. |
 | [Αποθήκευση DOCX ως PDF σε C# – Πλήρης Οδηγός Aspose.Words](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) | Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF χρησιμοποιώντας C# και το Aspose.Words με πλήρη οδηγό βήμα-βήμα. |
 | [Πώς να ορίσετε επιλογές PDF σε C# – Μετατροπή Word σε PDF](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | Μάθετε πώς να ρυθμίσετε τις επιλογές PDF σε C# για τη μετατροπή εγγράφων Word σε PDF χρησιμοποιώντας το Aspose.Words. |
+| [Δημιουργία εγγράφου συμβατού με pdf/ua-2 – Πλήρης οδηγός C#](./create-pdf-ua-2-compliant-document-complete-c-guide/) | Μάθετε πώς να δημιουργήσετε έγγραφο PDF/UA‑2 συμβατό χρησιμοποιώντας C# με πλήρη βήμα‑προς‑βήμα οδηγό. |
+| [Πώς να αποθηκεύσετε PDF από Word με εξαγωγή ενσωματωμένου σχήματος – Πλήρης Οδηγός](./how-to-save-pdf-from-word-with-inline-shape-export-complete/) | Μάθετε πώς να αποθηκεύσετε έγγραφα PDF από Word εξάγοντας ενσωματωμένα σχήματα με πλήρη οδηγό βήμα‑βήμα. |
+| [Πώς να εξάγετε PDF από Word με Aspose – Πλήρης Οδηγός Βήμα‑βήμα](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) | Μάθετε πώς να εξάγετε PDF από έγγραφο Word χρησιμοποιώντας Aspose, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα. |
+| [Επισήμανση PDF για προσβασιμότητα σε C# – Πλήρης Οδηγός](./tag-pdf-for-accessibility-in-c-complete-guide/) | Μάθετε πώς να προσθέσετε ετικέτες προσβασιμότητας σε αρχεία PDF χρησιμοποιώντας C# με το Aspose.Words για .NET. |
+| [Αποθήκευση εγγράφου PDF με αντικατάσταση γραμματοσειράς σε C# – Πλήρης Οδηγός](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Μάθετε πώς να αποθηκεύετε έγγραφα PDF με αντικατάσταση γραμματοσειρών χρησιμοποιώντας Aspose.Words για .NET σε C#. |
+| [Δημιουργία προσβάσιμου PDF με Aspose.Words – Πλήρης Οδηγός](./create-accessible-pdf-with-aspose-words-complete-guide/) | Μάθετε πώς να δημιουργήσετε πλήρως προσβάσιμο PDF χρησιμοποιώντας Aspose.Words με αναλυτικές οδηγίες βήμα‑βήμα. |
+| [Δημιουργία προσβάσιμου PDF από Word χρησιμοποιώντας Aspose.Words](./create-accessible-pdf-from-word-using-aspose-words/) | Μάθετε πώς να δημιουργήσετε προσβάσιμα PDF από έγγραφα Word με το Aspose.Words για .NET, ακολουθώντας βήμα‑βήμα οδηγίες. |
+| [Μετατροπή DOCX σε PDF με Aspose.Words – Πλήρης Οδηγός Προγραμματισμού](./convert-docx-to-pdf-with-aspose-words-complete-programming-g/) | Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF με το Aspose.Words ακολουθώντας έναν πλήρη προγραμματιστικό οδηγό. |
+| [Δημιουργία προσβάσιμου PDF από DOCX – Πλήρης Οδηγός Προγραμματισμού](./create-accessible-pdf-from-docx-complete-programming-guide/) | Μάθετε πώς να μετατρέψετε αρχεία DOCX σε προσβάσιμα PDF με πλήρη προγραμματιστική καθοδήγηση σε C#. |
+| [Μετατροπή Word σε Προσβάσιμο PDF με Aspose.Words – Πλήρης Οδηγός](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) | Μάθετε πώς να μετατρέψετε έγγραφα Word σε προσβάσιμα PDF ακολουθώντας έναν πλήρη οδηγό με Aspose.Words. |
+| [Πώς να αποθηκεύσετε PDF από DOCX με Aspose.Words – Οδηγός βήμα‑βήμα](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) | Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF χρησιμοποιώντας το Aspose.Words για .NET με αναλυτικές οδηγίες βήμα‑βήμα. |
+| [Πώς να αποθηκεύσετε PDF από Word σε C# – Πλήρης Οδηγός](./how-to-save-pdf-from-word-in-c-complete-guide/) | Μάθετε πώς να μετατρέψετε έγγραφα Word σε PDF χρησιμοποιώντας C# με πλήρη οδηγό βήμα προς βήμα. |
 | [Δημιουργία προσβάσιμου PDF – Μετατροπή Word σε PDF με C#](./create-accessible-pdf-convert-word-to-pdf-with-c/) | Μάθετε πώς να δημιουργήσετε προσβάσιμα PDF από έγγραφα Word χρησιμοποιώντας C# και Aspose.Words, ακολουθώντας βήμα‑βήμα οδηγίες. |
 
+| [Αποθήκευση εγγράφου ως PDF σε C# – Πλήρης Οδηγός](./save-document-as-pdf-in-c-complete-guide/) | Μάθετε πώς να αποθηκεύσετε έγγραφα Word ως PDF χρησιμοποιώντας C# και Aspose.Words με πλήρη βήμα-βήμα οδηγίες. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

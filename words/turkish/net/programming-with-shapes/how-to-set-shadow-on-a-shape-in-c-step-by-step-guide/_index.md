@@ -1,25 +1,24 @@
 ---
 category: general
-date: 2026-04-10
-description: C#'ta bir şekle gölge ayarlama – gölge eklemeyi, şeffaflığı değiştirmeyi,
-  bulanıklığı ayarlamayı ve Aspose.Words kullanarak şekil gölgesi eklemeyi öğrenin.
+date: 2026-03-28
+description: C# ile Aspose.Words kullanarak bir şekle gölge ayarlama – şekle gölge
+  ekleme, gölge uygulama ve görünümü özelleştirme.
 draft: false
 keywords:
 - how to set shadow
-- apply drop shadow
-- how to change transparency
-- how to adjust blur
-- add shape shadow
+- add shadow to shape
+- apply shadow to shape
+- how to add shadow
 language: tr
-og_description: C#'ta bir şekle gölge ayarlama – bu öğretici, düşey gölge uygulamayı,
-  şeffaflığı değiştirmeyi, bulanıklığı ayarlamayı ve net kod örnekleriyle şekil gölgesi
-  eklemeyi gösterir.
-og_title: C#'ta bir şekle gölge ekleme – Tam Kılavuz
+og_description: C#'ta bir şekle hızlıca gölge ayarlama. Şekle gölge eklemeyi, gölgeyi
+  uygulamayı ve bulanıklık, mesafe ve açı ayarlarını düzenlemeyi öğrenin.
+og_title: C#'ta Bir Şekle Gölge Nasıl Eklenir – Tam Rehber
 tags:
 - Aspose.Words
 - C#
 - Document Automation
-title: C#'ta bir şekle gölge ayarlama – adım adım rehber
+- Graphics
+title: C#'ta Bir Şekle Gölge Nasıl Eklenir – Adım Adım Rehber
 url: /tr/net/programming-with-shapes/how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/
 ---
 
@@ -27,231 +26,177 @@ url: /tr/net/programming-with-shapes/how-to-set-shadow-on-a-shape-in-c-step-by-s
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# C#'ta bir şekle gölge nasıl eklenir – Tam Kılavuz
+# C#'ta Bir Şekle Gölge Nasıl Ayarlanır – Tam Programlama Rehberi
 
-Bir Word belgesini programlı olarak oluştururken bir şekle **gölge nasıl eklenir** diye merak ettiniz mi? Yalnız değilsiniz. Birçok geliştirici, bir metin kutusu, logo veya açıklama kutusu için ince bir gölgeye ihtiyaç duyduğunda zorlanıyor ve API belgeleri yetersiz kalıyor.  
+Programatik olarak Word belgeleri oluştururken bir şekle **gölge nasıl eklenir** diye hiç merak ettiniz mi? Tek başınıza değilsiniz. Birçok rapor, sunum ya da broşürde ince bir düşen gölge, grafiği göze çarpan hâle getirirken yapmacık görünmez. İyi haber? Aspose.Words for .NET ile sadece birkaç satır kodla şekle gölge ekleyebilirsiniz.
 
-Bu öğreticide tüm süreci adım adım inceleyeceğiz: bir `.docx` dosyasını yüklemek, ilk `Shape` nesnesini almak, gölge eklemek, şeffaflığını ayarlamak, bulanıklık yarıçapını düzenlemek ve sonunda konumunu tam olarak ayarlamak. Sonunda Aspose.Words .NET 2023 ve üzeriyle çalışan yeniden kullanılabilir bir kod parçacığına sahip olacaksınız ve *her bir özelliğin neden önemli* olduğunu anlayacaksınız.
+Bu öğreticide tüm süreci adım adım inceleyeceğiz: bir DOCX dosyasını yükleme, ilk şekli yakalama ve ardından **şekle gölge uygulama** — renk, bulanıklık, mesafe ve açı dahil. Sonunda, herhangi bir C# projesine ekleyebileceğiniz çalıştırmaya hazır bir kod parçacığı elde edeceksiniz. Ek kütüphane yok, gizli sihir yok.
 
-## İhtiyacınız Olanlar
+## Gereksinimler
 
-- **Aspose.Words for .NET** (NuGet paketi `Aspose.Words`) – `Document`, `Shape` ve `ShadowFormat` sınıflarını sağlayan kütüphane.  
-- **.NET 6+** (veya .NET Framework 4.7.2) – herhangi bir yeni çalışma zamanı yeterli.  
-- En az bir şekil (ör. metin kutusu) içeren basit bir Word dosyası (`input.docx`).  
-- Visual Studio, VS Code veya tercih ettiğiniz IDE.
+- **Aspose.Words for .NET** (sürüm 23.9 veya daha yeni) – Word manipülasyonunu zahmetsiz hâle getiren kütüphane.  
+- .NET geliştirme ortamı (Visual Studio 2022, Rider veya CLI).  
+- En az bir şekil (dikdörtgen, resim veya SmartArt) içeren bir örnek DOCX dosyası.  
 
-Hepsi bu. Ek üçüncü‑taraf araçları, COM interop yok, sadece saf C#.
+Eğer bunlardan birine sahip değilseniz, `Install-Package Aspose.Words` komutuyla NuGet paketini alın ve demo için manuel olarak bir şekil eklenmiş basit bir Word dosyası oluşturun.
 
-![how to set shadow example](image-placeholder.png){:alt="Word belgesinde bir şekle gölge nasıl eklenir"}
+## Adım 1: Belgeyi Yükleyin (Gölge Eklemeye Hazırlık)
 
-## Gölge Ayarlama – Genel Bakış
-
-**gölge nasıl eklenir** sorusunun temel fikri, bir `Shape` üzerinde bulunan `ShadowFormat` nesnesini manipüle etmektir. `ShadowFormat`ı gölgenin kendisi için mini bir “stil sayfası” gibi düşünün: renderlayıcıya gölgenin görünür olup olmadığını, hangi renkte olacağını, ne kadar şeffaf olacağını, ne kadar bulanık olacağını ve şekle göre nerede konumlanacağını söyler.  
-
-Aşağıda *tam* çalıştırılabilir bir program bulunuyor. Konsol uygulamasına kopyalayıp **F5** tuşuna basın, kaydedilen `output.docx` içinde gölgenin belirdiğini izleyin.
+İlk iş, kaynak dosyayı açmaktır. **Şekle gölge ekleme** işlemi burada başlar.
 
 ```csharp
 using System;
-using System.Drawing;               // For Color
-using Aspose.Words;                 // Core document classes
-using Aspose.Words.Drawing;         // Shape & ShadowFormat
+using Aspose.Words;
+using Aspose.Words.Drawing;
+using System.Drawing;
 
 class ShadowDemo
 {
     static void Main()
     {
-        // -------------------------------------------------
-        // Step 1: Load the Word document that contains the shape.
-        // -------------------------------------------------
-        Document doc = new Document("YOUR_DIRECTORY/input.docx");
+        // Load the DOCX that holds the shape you want to enhance
+        Document doc = new Document("input.docx");
+```
 
-        // -------------------------------------------------
-        // Step 2: Retrieve the first shape (e.g., a textbox) from the document.
-        // -------------------------------------------------
-        Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-        if (shape == null)
+> **Neden önemli:** Belgeyi yüklemek, tüm düğümleri, şekilleri de içeren bir `Document` nesnesi elde etmenizi sağlar. Olmadan değiştirilecek bir şey yoktur.
+
+## Adım 2: Hedef Şekli Bulun (Doğru Olanı Seçin)
+
+Şimdi stil vermek istediğimiz şekli konumlandırıyoruz. Bu örnekte ilk paragraftaki ilk şekli alıyoruz, ancak sorguyu istediğiniz herhangi bir düğüm koleksiyonuna uyarlayabilirsiniz.
+
+```csharp
+        // Grab the first shape inside the first paragraph of the first section
+        Shape targetShape = doc.FirstSection.Body.FirstParagraph
+            .GetChildNodes(NodeType.Shape, true)[0] as Shape;
+
+        if (targetShape == null)
         {
-            Console.WriteLine("No shape found – make sure input.docx has a textbox.");
+            Console.WriteLine("No shape found – check your input file.");
             return;
         }
+```
 
-        // -------------------------------------------------
-        // Step 3: Make the shadow visible.
-        // -------------------------------------------------
-        shape.ShadowFormat.Visible = true;
+> **İpucu:** `GetChildNodes(NodeType.Shape, true)` alt ağacı özyinelemeli olarak dolaşır, böylece WordArt gibi iç içe şekilleri kaçırmazsınız.
 
-        // -------------------------------------------------
-        // Step 4: Set the shadow colour to a dark gray.
-        // -------------------------------------------------
-        shape.ShadowFormat.Color = Color.DarkGray;
+## Adım 3: Gölge Biçimlendirme Nesnesine Erişin (Sihir Burada Yaşar)
 
-        // -------------------------------------------------
-        // Step 5: Define the shadow's transparency (30 % transparent).
-        // -------------------------------------------------
-        shape.ShadowFormat.Transparency = 0.3;   // 0 = opaque, 1 = fully transparent
+Her `Shape` bir `ShadowFormat` özelliği sunar. Bu nesne görünürlük, renk, bulanıklık, mesafe ve açı gibi **şekle gölge uygulama** için ihtiyaç duyduğunuz tüm ayarları kontrol eder.
 
-        // -------------------------------------------------
-        // Step 6: Configure the blur radius (size) of the shadow.
-        // -------------------------------------------------
-        shape.ShadowFormat.Size = 6;            // Larger value = softer edges
+```csharp
+        // The ShadowFormat object holds all shadow‑related settings
+        ShadowFormat shadow = targetShape.ShadowFormat;
+```
 
-        // -------------------------------------------------
-        // Step 7: Set the offset distance and direction (angle) of the shadow.
-        // -------------------------------------------------
-        shape.ShadowFormat.Distance = 2;        // How far the shadow is from the shape
-        shape.ShadowFormat.Angle = 45;          // Angle in degrees (0 = right, 90 = down)
+> **Neden `ShadowFormat` kullanıyoruz:** Altındaki XML temsili soyutlanır, böylece ham OpenXML ile uğraşmadan gölgeleri ayarlayabilirsiniz.
 
-        // -------------------------------------------------
-        // Save the modified document.
-        // -------------------------------------------------
-        doc.Save("YOUR_DIRECTORY/output.docx");
-        Console.WriteLine("Shadow applied successfully! Check output.docx.");
+## Adım 4: Gölgeyi Görünür Yapın ve Bir Renk Seçin (Şekle Gölge Ekle)
+
+`Visible` özelliğini `true` yapmadan gölge görünmez. Bundan sonra istediğiniz `System.Drawing.Color` değerini seçebilirsiniz. Burada orta gri bir renk kullanıyoruz, ancak denemekten çekinmeyin.
+
+```csharp
+        // Turn the shadow on and give it a subtle gray tone
+        shadow.Visible = true;
+        shadow.Color = Color.FromArgb(80, 80, 80);   // dark gray
+```
+
+> **Yaygın hata:** `Visible` özelliğini etkinleştirmeyi unutmak sessiz hatalara yol açar—diğer özellikleri ayarlamış olsanız bile şekliniz değişmemiş gibi görünür.
+
+## Adım 5: Görünümü Yapılandırın – Bulanıklık, Mesafe ve Açı (Görünümü İnce Ayar)
+
+Şimdi görsel etkiyi şekillendiriyoruz. `BlurRadius` kenarları yumuşatır, `Distance` gölgeyi şekilden uzaklaştırır ve `Angle` ışık kaynağının yönünü belirler.
+
+```csharp
+        // Adjust how the shadow looks
+        shadow.BlurRadius = 5.0;   // in points – higher = softer
+        shadow.Distance   = 3.0;   // how far the shadow is offset
+        shadow.Angle      = 45.0;  // degrees clockwise from the horizontal
+```
+
+> **Köşe durumu:** Negatif bir mesafe ayarlarsanız gölge şeklin *içinde* görünür, bu da kabartma etkileri için kullanılabilir.
+
+## Adım 6: Güncellenen Belgeyi Kaydedin (Sonucu Görün)
+
+Son olarak değişiklikleri diske yazın. Orijinal dosyanın üzerine yazabilir ya da yeni bir dosya oluşturabilirsiniz.
+
+```csharp
+        // Persist the changes – you’ll see the shadow in Word or any viewer
+        doc.Save("output-with-shadow.docx");
+        Console.WriteLine("Shadow applied successfully! Check output-with-shadow.docx");
     }
 }
 ```
 
-### Bu Ayarların Önemi
+Programı çalıştırdığınızda `output-with-shadow.docx` oluşur. Microsoft Word'de açtığınızda seçili şeklin artık 45° açıyla, 5 pt bulanıklık ve 3 pt offset ile yumuşak gri bir gölgeye sahip olduğunu fark edeceksiniz.
 
-- **Visible** – Bu bayrak açılmadan diğer tüm özellikler yok sayılır.  
-- **Color** – Koyu gri, tipik bir UI gölgesi taklit eder; istediğiniz herhangi bir `Color` ile değiştirebilirsiniz.  
-- **Transparency** – 0.3, şekli okunabilir tutarken *yumuşak* bir görünüm verir.  
-- **Size** – Bulanıklığı kontrol eder; 6 değeri genellikle profesyonel bir his için yeterlidir.  
-- **Distance & Angle** – Birlikte *offset*i tanımlar; 2 pt ve 45° hafif çapraz bir gölge oluşturur.
+![Şekle gölge uygulanmış diyagramı](https://example.com/images/shadow-diagram.png "Şekle gölge uygulanmış diyagramı")
 
-Bu, **gölge nasıl eklenir** konusunun özüdür. Şimdi her bir parçayı ayrıntılı inceleyecek, **drop shadow uygulama**, **şeffaflığı değiştirme**, **bulanıklığı ayarlama** ve **şekil gölgesi ekleme** işlemlerini tek tek yapabileceksiniz.
+*Alt metin: Şekle gölge uygulanmış diyagram* – bu görsel, öncesi/sonrası etkisini gösterir.
 
----
+## Gölge Ekleme – Yaygın Varyasyonlar ve Köşe Durumları
 
-## Bir Şekle Drop Shadow Uygulama
+Temel adımlar basit olsa da, gerçek dünya senaryoları genellikle ince ayarlar gerektirir. Aşağıda karşılaşabileceğiniz birkaç “ne olur” durumu yer alıyor.
 
-İnsanlar “C#’ta **drop shadow nasıl uygulanır**?” diye sorduğunda genellikle sadece görünürlük anahtarı ve bir renk gerekir. Aşağıdaki kod parçacığı bu iki satırı izole eder:
+### 1. Birden Çok Şekil, Farklı Gölge Ayarları
+
+Belgenizde birden fazla grafik varsa, şekil koleksiyonunu döngüye alıp her şekle özgün gölge ayarları atayabilirsiniz.
 
 ```csharp
-shape.ShadowFormat.Visible = true;          // Turns the shadow on
-shape.ShadowFormat.Color   = Color.Black;   // Classic black drop shadow
-```
-
-> **Pro tip:** Daha eski Word sürümlerini (2003‑2007) hedefliyorsanız standart renkleri kullanın. Bazı egzotik ARGB değerleri eski renderlayıcı tarafından göz ardı edilebilir.
-
----
-
-## Gölgenin Şeffaflığını Değiştirme
-
-Şeffaflık, **0 ile 1 arasında bir float** olarak ifade edilir. **0** değeri tamamen opak bir gölge, **1** değeri ise gölgenin görünmez olmasını sağlar. Çoğu tasarımcı doğal bir görünüm için **0.2‑0.4** arasında bir değer tercih eder.
-
-```csharp
-shape.ShadowFormat.Transparency = 0.35; // 35 % transparent
-```
-
-### Kenar Durumları
-
-- **Negatif değerler** – Aspose.Words bunları 0’a kısıtlar, ancak girdi doğrulaması yapmak daha iyidir.  
-- **1’den büyük değerler** – 1’e kısıtlanır, gölge etkili bir şekilde gizlenir.  
-
-Kullanıcıların yüzde seçebilmesi gerekiyorsa, önce dönüştürün:
-
-```csharp
-float percent = 30;                     // User enters 30 %
-shape.ShadowFormat.Transparency = percent / 100f;
-```
-
----
-
-## Gölgenin Bulanıklığını (Size) Ayarlama
-
-**Size** özelliği bulanıklık yarıçapını kontrol eder. Daha büyük sayılar daha yumuşak, daha dağınık bir gölge üretir. Ölçü birimi nokta (pt) olup piksel değildir.
-
-```csharp
-shape.ShadowFormat.Size = 10;  // A generous blur for a “soft” effect
-```
-
-#### Küçük vs. Büyük Bulanıklık Ne Zaman Kullanılır
-
-- **Small blur (2‑4 pt)** – Kenarı net istediğiniz UI‑stil çağrı kutuları için iyidir.  
-- **Large blur (8‑12 pt)** – Baskı raporları veya şekil arka plandan uzakta olduğunda iyi çalışır.
-
----
-
-## Şekil Gölgesi Ekleme – Konumlandırma ve Yön
-
-**add shape shadow** konusunun son parçası offsettir. İki özellik birlikte çalışır:
-
-| Özellik | Anlam |
-|----------|---------|
-| **Distance** | Gölgenin şekilden ne kadar uzakta durduğunu (puan cinsinden). |
-| **Angle**    | Ofsetin yönü (0° = sağ, 90° = aşağı, 180° = sol, 270° = yukarı). |
-
-Alt‑sağ köşeye hafif bir gölge oluşturan örnek:
-
-```csharp
-shape.ShadowFormat.Distance = 1.5; // Slight lift
-shape.ShadowFormat.Angle    = 135; // Down‑left direction (135°)
-```
-
-Farklı ışık kaynaklarını taklit etmek için açıları deneyebilirsiniz. Yaygın bir hile, kullanıcının bir “ışık kaynağı”nı açılır menüden seçmesine izin vermek ve bunu bir açı değerine eşlemek.
-
----
-
-## Tam Çalışan Örnek (Tüm Adımlar Birleşti)
-
-Aşağıda önceki program aynı, ancak mantığı kristal‑net yapan **ekstra yorumlar** eklenmiştir. Bunu `Program.cs` içine kopyalayın ve çalıştırın; çıktı dosyası mükemmel ayarlanmış bir gölgeye sahip bir metin kutusu içerecek.
-
-```csharp
-using System;
-using System.Drawing;
-using Aspose.Words;
-using Aspose.Words.Drawing;
-
-namespace ShapeShadowDemo
-{
-    class Program
-    {
-        static void Main()
+        NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
+        foreach (Shape shp in shapes)
         {
-            // Load the source document (must contain at least one shape)
-            Document doc = new Document("YOUR_DIRECTORY/input.docx");
-
-            // Grab the first shape we encounter – usually a textbox or picture
-            Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-            if (shape == null)
-            {
-                Console.WriteLine("No shape found in the document.");
-                return;
-            }
-
-            // ---------- Apply Drop Shadow ----------
-            shape.ShadowFormat.Visible = true;          // Turn it on
-            shape.ShadowFormat.Color   = Color.DarkGray; // Soft dark colour
-
-            // ---------- How to Change Transparency ----------
-            shape.ShadowFormat.Transparency = 0.3; // 30 % transparent – looks natural
-
-            // ---------- How to Adjust Blur ----------
-            shape.ShadowFormat.Size = 6; // Moderate blur for a professional feel
-
-            // ---------- Add Shape Shadow (position) ----------
-            shape.ShadowFormat.Distance = 2; // Slight offset
-            shape.ShadowFormat.Angle    = 45; // Diagonal down‑right
-
-            // Save the result
-            doc.Save("YOUR_DIRECTORY/output.docx");
-            Console.WriteLine("Document saved with shadow. Open output.docx to verify.");
+            ShadowFormat sf = shp.ShadowFormat;
+            sf.Visible = true;
+            sf.Color = Color.FromArgb(100, 100, 150); // bluish tint
+            sf.BlurRadius = 3.0;
+            sf.Distance = 2.0;
+            sf.Angle = 30.0;
         }
-    }
-}
 ```
 
-**Beklenen sonuç:** `output.docx` dosyasını açın. İlk metin kutusu, %30 şeffaf, koyu gri bir gölge gösterecek; hafif bulanık (size = 6) ve 2 pt, 45° açıyla offsetlenmiş olacaktır. Etki ince ama fark edilir—çoğu UI tasarımcısının hedeflediği tam o şey.
+### 2. Şeffaf Gölge
+
+Aspose.Words, `Color.FromArgb(alpha, r, g, b)` ile alfa kanalını ayarlamanıza izin verir. Hafif, yarı‑şeffaf bir etki için düşük bir alfa (ör. 50) kullanın.
+
+```csharp
+        shadow.Color = Color.FromArgb(50, 0, 0, 0); // 20% opacity black
+```
+
+### 3. Gölgeyi Kaldırma
+
+Bazen uygulanmış bir gölgeyi kapatmanız gerekir. Tek yapmanız gereken `Visible` özelliğini `false` olarak ayarlamak.
+
+```csharp
+        shadow.Visible = false;
+```
+
+### 4. Uyumluluk Endişeleri
+
+Burada kullanılan gölge özellikleri Word 2007 + (DOCX formatı) tarafından desteklenir. Daha eski `.doc` ikili formatını hedefliyorsanız, gölge göz ardı edilebilir çünkü format gerekli XML öğelerini içermez. Bu durumda DOCX olarak kaydetmeyi veya alternatif bir görsel ipucu kullanmayı düşünün.
+
+## Özet: Neler Başardık
+
+- **Yükledik** bir DOCX dosyasını Aspose.Words ile.  
+- **Çektik** belgedeki ilk şekli.  
+- **Eriştik** onun `ShadowFormat` nesnesine.  
+- **Etkinleştirdik** gölgeyi, renk, bulanıklık yarıçapı, mesafe ve açı ayarlarını yaptık.  
+- **Kaydettik** yeni bir dosyayı, gölgenin görünür olduğunu kanıtlayarak.  
+
+Tüm bu adımlar, **şekle gölge nasıl eklenir** sorusuna yanıt verirken aynı zamanda **şekle gölge ekleme**, **şekle gölge uygulama** ve daha karmaşık senaryolarda **gölge ekleme** konularını da gösterir.
+
+## Sonraki Adımlar ve İlgili Konular
+
+Gölge stilini öğrendikten sonra şunları keşfetmek isteyebilirsiniz:
+
+- Şekiller için **gradient doldurmalar** (`Shape.FillFormat.GradientFill`).  
+- **Metin efektleri** gibi parıltı veya yansıma (`TextEffect`).  
+- **Yeni şekillerin programatik eklenmesi** (`doc.FirstSection.Body.AppendChild(new Shape(...))`).  
+- **PDF’ye dışa aktarma** sırasında gölgelerin korunması (`doc.Save("output.pdf")`).  
+
+Bu konuların her biri burada kullandığımız aynı nesne‑modeli prensiplerine dayanır, bu yüzden rahatça ilerleyebilirsiniz.
 
 ---
 
-## Sık Sorulan Sorular & Dikkat Edilmesi Gerekenler
-
-- **“Bu, görseller için de çalışır mı?”**  
-  Evet. Herhangi bir `Shape`—metin kutusu, resim veya otomatik şekil olsun—`ShadowFormat` sunar. Sadece şekil alma mantığını uygun indeks veya isimle değiştirin.
-
-- **“Belgede birden fazla şekil olursa ne olur?”**  
-  `doc.GetChildNodes(NodeType.Shape, true)` üzerinden döngü kurarak aynı ayarları her birine uygulayın. Ayrıca `shape.Name` veya `shape
+*Kodlamanın tadını çıkarın! Bir sorunla karşılaşırsanız aşağıya yorum bırakın ya da daha derin bilgiler için Aspose.Words API belgelerine göz atın.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

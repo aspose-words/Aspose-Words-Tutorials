@@ -1,25 +1,24 @@
 ---
 category: general
-date: 2026-04-10
-description: cách đặt bóng cho hình dạng trong C# – tìm hiểu cách áp dụng bóng đổ,
-  thay đổi độ trong suốt, điều chỉnh độ mờ và thêm bóng cho hình dạng bằng Aspose.Words.
+date: 2026-03-28
+description: Cách thiết lập bóng cho một hình dạng trong C# với Aspose.Words – thêm
+  bóng vào hình, áp dụng bóng và tùy chỉnh giao diện.
 draft: false
 keywords:
 - how to set shadow
-- apply drop shadow
-- how to change transparency
-- how to adjust blur
-- add shape shadow
+- add shadow to shape
+- apply shadow to shape
+- how to add shadow
 language: vi
-og_description: cách đặt bóng cho hình dạng trong C# – hướng dẫn này chỉ cách áp dụng
-  bóng đổ, thay đổi độ trong suốt, điều chỉnh độ mờ và thêm bóng cho hình dạng với
-  các ví dụ mã rõ ràng.
-og_title: Cách đặt bóng cho một hình dạng trong C# – Hướng dẫn đầy đủ
+og_description: Cách đặt bóng cho một hình dạng trong C# nhanh chóng. Học cách thêm
+  bóng vào hình dạng, áp dụng bóng và điều chỉnh độ mờ, khoảng cách và góc.
+og_title: Cách Đặt Bóng Cho Hình Dạng Trong C# – Hướng Dẫn Toàn Diện
 tags:
 - Aspose.Words
 - C#
 - Document Automation
-title: Cách đặt bóng cho một hình dạng trong C# – hướng dẫn từng bước
+- Graphics
+title: Cách Thiết Lập Bóng Đổ cho Hình Dạng trong C# – Hướng Dẫn Từng Bước
 url: /vi/net/programming-with-shapes/how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/
 ---
 
@@ -27,231 +26,177 @@ url: /vi/net/programming-with-shapes/how-to-set-shadow-on-a-shape-in-c-step-by-s
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# cách đặt bóng cho một hình dạng trong C# – Hướng dẫn đầy đủ
+# Cách Đặt Bóng Đổ cho Hình Dạng trong C# – Hướng Dẫn Lập Trình Toàn Diện
 
-Bạn đã bao giờ tự hỏi **cách đặt bóng** cho một hình dạng khi bạn đang xây dựng tài liệu Word một cách lập trình không? Bạn không phải là người duy nhất. Nhiều nhà phát triển gặp khó khăn khi họ cần một bóng đổ nhẹ cho hộp văn bản, logo, hoặc hộp chú thích, và tài liệu API có vẻ hơi thiếu.  
+Bạn đã bao giờ tự hỏi **cách đặt bóng đổ** cho một hình dạng khi bạn đang tạo tài liệu Word một cách lập trình chưa? Bạn không phải là người duy nhất. Trong nhiều báo cáo, bản trình bày hoặc tờ rơi, một bóng đổ nhẹ nhàng có thể làm cho đồ họa nổi bật mà không trông rẻ tiền. Tin tốt? Với Aspose.Words for .NET, bạn có thể thêm bóng đổ vào hình dạng chỉ trong vài dòng mã.
 
-Trong tutorial này chúng ta sẽ đi qua toàn bộ quy trình: từ việc tải một tệp `.docx`, lấy `Shape` đầu tiên, đến việc áp dụng bóng đổ, điều chỉnh độ trong suốt, thay đổi bán kính mờ, và cuối cùng định vị nó một cách chính xác. Khi kết thúc, bạn sẽ có một đoạn mã có thể tái sử dụng, hoạt động với Aspose.Words .NET 2023 hoặc mới hơn, và bạn sẽ hiểu *tại sao* mỗi thuộc tính lại quan trọng.
+Trong hướng dẫn này, chúng ta sẽ đi qua toàn bộ quy trình: tải một DOCX, lấy hình dạng đầu tiên, và sau đó **áp dụng bóng đổ cho hình dạng** — bao gồm màu sắc, độ mờ, khoảng cách và góc. Khi kết thúc, bạn sẽ có một đoạn mã sẵn sàng chạy mà bạn có thể chèn vào bất kỳ dự án C# nào. Không cần thư viện bổ sung, không có phép thuật ẩn.
 
-## Những gì bạn cần
+## Những Gì Bạn Cần
 
-- **Aspose.Words for .NET** (gói NuGet `Aspose.Words`) – thư viện cung cấp các lớp `Document`, `Shape`, và `ShadowFormat`.  
-- **.NET 6+** (hoặc .NET Framework 4.7.2) – bất kỳ runtime hiện đại nào cũng được.  
-- Một tệp Word đơn giản (`input.docx`) đã chứa ít nhất một shape, chẳng hạn như một textbox.  
-- Visual Studio, VS Code, hoặc IDE yêu thích của bạn.
+- **Aspose.Words for .NET** (phiên bản 23.9 hoặc mới hơn) – thư viện giúp việc thao tác Word trở nên dễ dàng.  
+- Môi trường phát triển .NET (Visual Studio 2022, Rider, hoặc CLI).  
+- Một tệp DOCX mẫu đã chứa ít nhất một hình dạng (hình chữ nhật, ảnh, hoặc SmartArt đều được).  
 
-Đó là tất cả. Không cần công cụ bên thứ ba, không cần COM interop, chỉ cần C# thuần.
+Nếu bạn thiếu bất kỳ mục nào, hãy tải gói NuGet bằng `Install-Package Aspose.Words` và tạo một tệp Word đơn giản với một hình dạng được chèn thủ công—chỉ để minh họa.
 
-![ví dụ cách đặt bóng](image-placeholder.png){:alt="cách đặt bóng trên một hình dạng trong tài liệu Word"}
+## Bước 1: Tải Tài Liệu (Chuẩn Bị Thêm Bóng Đổ)
 
-## Cách đặt bóng – Tổng quan
-
-Ý tưởng cốt lõi đằng sau **cách đặt bóng** là thao tác với đối tượng `ShadowFormat` nằm trong một `Shape`. Hãy nghĩ về `ShadowFormat` như một “bảng kiểu” thu nhỏ cho chính bóng: nó cho trình vẽ biết bóng có hiển thị hay không, màu nào, độ trong suốt, mức độ mờ, và vị trí tương đối so với shape.  
-
-Dưới đây là chương trình *đầy đủ* có thể chạy được. Bạn có thể sao chép‑dán vào một ứng dụng console, nhấn **F5**, và xem bóng xuất hiện trong tệp `output.docx` đã lưu.
+Điều đầu tiên là mở tệp nguồn. Đây là nơi thao tác **thêm bóng đổ vào hình dạng** sẽ bắt đầu.
 
 ```csharp
 using System;
-using System.Drawing;               // For Color
-using Aspose.Words;                 // Core document classes
-using Aspose.Words.Drawing;         // Shape & ShadowFormat
+using Aspose.Words;
+using Aspose.Words.Drawing;
+using System.Drawing;
 
 class ShadowDemo
 {
     static void Main()
     {
-        // -------------------------------------------------
-        // Step 1: Load the Word document that contains the shape.
-        // -------------------------------------------------
-        Document doc = new Document("YOUR_DIRECTORY/input.docx");
+        // Load the DOCX that holds the shape you want to enhance
+        Document doc = new Document("input.docx");
+```
 
-        // -------------------------------------------------
-        // Step 2: Retrieve the first shape (e.g., a textbox) from the document.
-        // -------------------------------------------------
-        Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-        if (shape == null)
+> **Tại sao điều này quan trọng:** Việc tải tài liệu cung cấp cho bạn một đối tượng `Document` sở hữu tất cả các nút, bao gồm các hình dạng. Nếu không có nó, sẽ không có gì để chỉnh sửa.
+
+## Bước 2: Lấy Hình Dạng Mục Tiêu (Chọn Đúng Hình)
+
+Tiếp theo chúng ta xác định hình dạng mà chúng ta muốn định dạng. Trong ví dụ này, chúng ta lấy hình dạng đầu tiên trong đoạn đầu tiên, nhưng bạn có thể điều chỉnh truy vấn cho bất kỳ bộ sưu tập nút nào.
+
+```csharp
+        // Grab the first shape inside the first paragraph of the first section
+        Shape targetShape = doc.FirstSection.Body.FirstParagraph
+            .GetChildNodes(NodeType.Shape, true)[0] as Shape;
+
+        if (targetShape == null)
         {
-            Console.WriteLine("No shape found – make sure input.docx has a textbox.");
+            Console.WriteLine("No shape found – check your input file.");
             return;
         }
+```
 
-        // -------------------------------------------------
-        // Step 3: Make the shadow visible.
-        // -------------------------------------------------
-        shape.ShadowFormat.Visible = true;
+> **Mẹo chuyên nghiệp:** `GetChildNodes(NodeType.Shape, true)` duyệt cây con một cách đệ quy, đảm bảo bạn không bỏ lỡ các hình dạng lồng nhau như WordArt.
 
-        // -------------------------------------------------
-        // Step 4: Set the shadow colour to a dark gray.
-        // -------------------------------------------------
-        shape.ShadowFormat.Color = Color.DarkGray;
+## Bước 3: Truy Cập Đối Tượng Định Dạng Bóng Đổ (Nơi Phép Thuật Xảy Ra)
 
-        // -------------------------------------------------
-        // Step 5: Define the shadow's transparency (30 % transparent).
-        // -------------------------------------------------
-        shape.ShadowFormat.Transparency = 0.3;   // 0 = opaque, 1 = fully transparent
+Mỗi `Shape` đều cung cấp thuộc tính `ShadowFormat`. Đối tượng này điều khiển khả năng hiển thị, màu sắc, độ mờ, khoảng cách và góc—tất cả các tham số bạn cần để **áp dụng bóng đổ cho hình dạng**.
 
-        // -------------------------------------------------
-        // Step 6: Configure the blur radius (size) of the shadow.
-        // -------------------------------------------------
-        shape.ShadowFormat.Size = 6;            // Larger value = softer edges
+```csharp
+        // The ShadowFormat object holds all shadow‑related settings
+        ShadowFormat shadow = targetShape.ShadowFormat;
+```
 
-        // -------------------------------------------------
-        // Step 7: Set the offset distance and direction (angle) of the shadow.
-        // -------------------------------------------------
-        shape.ShadowFormat.Distance = 2;        // How far the shadow is from the shape
-        shape.ShadowFormat.Angle = 45;          // Angle in degrees (0 = right, 90 = down)
+> **Tại sao chúng ta dùng `ShadowFormat`:** Nó trừu tượng hoá đại diện XML bên dưới, cho phép bạn điều chỉnh bóng đổ mà không cần làm việc trực tiếp với OpenXML thô.
 
-        // -------------------------------------------------
-        // Save the modified document.
-        // -------------------------------------------------
-        doc.Save("YOUR_DIRECTORY/output.docx");
-        Console.WriteLine("Shadow applied successfully! Check output.docx.");
+## Bước 4: Đặt Bóng Đổ Thành Hiện Thị và Chọn Màu (Thêm Bóng Đổ vào Hình Dạng)
+
+Bóng đổ sẽ không xuất hiện cho đến khi bạn đặt `Visible` thành `true`. Sau đó, bạn có thể chọn bất kỳ `System.Drawing.Color` nào. Ở đây chúng tôi sử dụng màu xám trung bình, nhưng bạn có thể tự do thử nghiệm.
+
+```csharp
+        // Turn the shadow on and give it a subtle gray tone
+        shadow.Visible = true;
+        shadow.Color = Color.FromArgb(80, 80, 80);   // dark gray
+```
+
+> **Sai lầm phổ biến:** Quên bật `Visible` sẽ dẫn đến lỗi im lặng—hình dạng của bạn không thay đổi dù bạn đã thiết lập các thuộc tính khác.
+
+## Bước 5: Cấu Hình Ngoại Hình – Độ Mờ, Khoảng Cách và Góc (Tinh Chỉnh Hiệu Ứng)
+
+Bây giờ chúng ta định hình ảnh hưởng trực quan. `BlurRadius` làm mềm các cạnh, `Distance` đẩy bóng ra xa hình dạng, và `Angle` xác định hướng nguồn sáng.
+
+```csharp
+        // Adjust how the shadow looks
+        shadow.BlurRadius = 5.0;   // in points – higher = softer
+        shadow.Distance   = 3.0;   // how far the shadow is offset
+        shadow.Angle      = 45.0;  // degrees clockwise from the horizontal
+```
+
+> **Trường hợp đặc biệt:** Nếu bạn đặt khoảng cách âm, bóng sẽ xuất hiện *bên trong* hình dạng, điều này có thể hữu ích cho hiệu ứng nổi.
+
+## Bước 6: Lưu Tài Liệu Đã Cập Nhật (Xem Kết Quả)
+
+Cuối cùng, ghi các thay đổi trở lại đĩa. Bạn có thể ghi đè lên tệp gốc hoặc tạo một tệp mới.
+
+```csharp
+        // Persist the changes – you’ll see the shadow in Word or any viewer
+        doc.Save("output-with-shadow.docx");
+        Console.WriteLine("Shadow applied successfully! Check output-with-shadow.docx");
     }
 }
 ```
 
-### Tại sao các thiết lập này lại quan trọng
+Chạy chương trình sẽ tạo ra `output-with-shadow.docx`. Mở nó trong Microsoft Word, và bạn sẽ thấy hình dạng đã chọn hiện có một bóng đổ màu xám nhẹ, nghiêng 45°, mờ 5 pts và dịch chuyển 3 pts.
 
-- **Visible** – Nếu không bật cờ này, tất cả các thuộc tính khác sẽ bị bỏ qua.  
-- **Color** – Màu xám đậm mô phỏng bóng đổ UI tiêu chuẩn; bạn có thể thay bằng bất kỳ `Color` nào.  
-- **Transparency** – 0.3 tạo cảm giác *mềm mại* trong khi vẫn giữ shape dễ đọc.  
-- **Size** – Kiểm soát độ mờ; giá trị 6 thường đủ cho cảm giác chuyên nghiệp.  
-- **Distance & Angle** – Cùng nhau chúng định nghĩa *offset*; 2 pts ở 45° tạo ra bóng chéo nhẹ.
+![Sơ đồ hiển thị bóng đổ trên một hình dạng](https://example.com/images/shadow-diagram.png "Sơ đồ hiển thị bóng đổ trên một hình dạng")
 
-Đó là bản chất của **cách đặt bóng**. Tiếp theo, chúng ta sẽ phân tích từng phần để bạn có thể **áp dụng bóng đổ**, **thay đổi độ trong suốt**, **điều chỉnh độ mờ**, và **thêm bóng cho shape** một cách riêng lẻ.
+*Văn bản thay thế: Sơ đồ hiển thị bóng đổ trên một hình dạng* – hình ảnh này minh họa hiệu ứng trước và sau.
 
----
+## Cách Thêm Bóng Đổ – Các Biến Thể Thông Thường và Trường Hợp Đặc Biệt
 
-## Áp dụng bóng đổ cho một hình dạng
+Mặc dù các bước cơ bản khá đơn giản, các tình huống thực tế thường yêu cầu điều chỉnh. Dưới đây là một vài tình huống “nếu‑thì” bạn có thể gặp.
 
-Khi mọi người hỏi “làm sao tôi **áp dụng bóng đổ** trong C#?”, họ thường chỉ cần bật chế độ hiển thị và một màu. Đoạn mã sau tách riêng hai dòng này:
+### 1. Nhiều Hình Dạng, Bóng Đổ Khác Nhau
+
+Nếu tài liệu của bạn chứa nhiều đồ họa, hãy lặp qua bộ sưu tập hình dạng và gán các cài đặt bóng đổ độc đáo cho mỗi hình.
 
 ```csharp
-shape.ShadowFormat.Visible = true;          // Turns the shadow on
-shape.ShadowFormat.Color   = Color.Black;   // Classic black drop shadow
-```
-
-> **Pro tip:** Nếu bạn đang nhắm tới các phiên bản Word cũ hơn (2003‑2007), hãy dùng các màu chuẩn. Một số giá trị ARGB kỳ lạ có thể bị bộ render legacy bỏ qua.
-
----
-
-## Cách thay đổi độ trong suốt của bóng
-
-Độ trong suốt được biểu thị dưới dạng **float từ 0 đến 1**. Giá trị **0** nghĩa là bóng hoàn toàn đục; **1** làm bóng trở nên vô hình. Hầu hết các nhà thiết kế thường chọn khoảng **0.2‑0.4** để có vẻ tự nhiên.
-
-```csharp
-shape.ShadowFormat.Transparency = 0.35; // 35 % transparent
-```
-
-### Trường hợp đặc biệt
-
-- **Negative values** – Aspose.Words sẽ ép chúng về 0, nhưng tốt hơn nên kiểm tra đầu vào.  
-- **Values > 1** – Được ép về 1, thực chất ẩn bóng.
-
-Nếu bạn cần cho người dùng chọn phần trăm, hãy chuyển đổi trước:
-
-```csharp
-float percent = 30;                     // User enters 30 %
-shape.ShadowFormat.Transparency = percent / 100f;
-```
-
----
-
-## Cách điều chỉnh độ mờ (Kích thước) của bóng
-
-Thuộc tính **Size** kiểm soát bán kính mờ. Số lớn hơn tạo ra bóng mềm hơn, lan tỏa hơn. Đơn vị đo là điểm (pt), không phải pixel.
-
-```csharp
-shape.ShadowFormat.Size = 10;  // A generous blur for a “soft” effect
-```
-
-#### Khi nào nên dùng độ mờ nhỏ vs. lớn
-
-- **Small blur (2‑4 pt)** – Thích hợp cho các callout kiểu UI muốn cạnh sắc nét.  
-- **Large blur (8‑12 pt)** – Thích hợp cho báo cáo in hoặc khi shape cách nền xa.
-
----
-
-## Thêm bóng cho hình dạng – Vị trí và hướng
-
-Phần cuối cùng của **thêm bóng cho shape** là offset. Hai thuộc tính làm việc cùng nhau:
-
-| Thuộc tính | Ý nghĩa |
-|------------|----------|
-| **Distance** | Khoảng cách bóng cách hình dạng (đơn vị điểm). |
-| **Angle**    | Hướng của offset (0° = phải, 90° = xuống, 180° = trái, 270° = lên). |
-
-Ví dụ tạo một bóng nhẹ ở góc dưới‑phải:
-
-```csharp
-shape.ShadowFormat.Distance = 1.5; // Slight lift
-shape.ShadowFormat.Angle    = 135; // Down‑left direction (135°)
-```
-
-Bạn có thể thử nghiệm các góc để mô phỏng ánh sáng đến từ các nguồn khác nhau. Một mẹo phổ biến là cho người dùng chọn “nguồn sáng” từ dropdown và ánh xạ nó thành giá trị góc.
-
----
-
-## Ví dụ hoàn chỉnh (Tất cả các bước kết hợp)
-
-Dưới đây là cùng một chương trình như trên, nhưng có **bình luận bổ sung** giúp logic trở nên trong suốt. Sao chép vào `Program.cs` và chạy; tệp đầu ra sẽ chứa một textbox với bóng được tinh chỉnh hoàn hảo.
-
-```csharp
-using System;
-using System.Drawing;
-using Aspose.Words;
-using Aspose.Words.Drawing;
-
-namespace ShapeShadowDemo
-{
-    class Program
-    {
-        static void Main()
+        NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
+        foreach (Shape shp in shapes)
         {
-            // Load the source document (must contain at least one shape)
-            Document doc = new Document("YOUR_DIRECTORY/input.docx");
-
-            // Grab the first shape we encounter – usually a textbox or picture
-            Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-            if (shape == null)
-            {
-                Console.WriteLine("No shape found in the document.");
-                return;
-            }
-
-            // ---------- Apply Drop Shadow ----------
-            shape.ShadowFormat.Visible = true;          // Turn it on
-            shape.ShadowFormat.Color   = Color.DarkGray; // Soft dark colour
-
-            // ---------- How to Change Transparency ----------
-            shape.ShadowFormat.Transparency = 0.3; // 30 % transparent – looks natural
-
-            // ---------- How to Adjust Blur ----------
-            shape.ShadowFormat.Size = 6; // Moderate blur for a professional feel
-
-            // ---------- Add Shape Shadow (position) ----------
-            shape.ShadowFormat.Distance = 2; // Slight offset
-            shape.ShadowFormat.Angle    = 45; // Diagonal down‑right
-
-            // Save the result
-            doc.Save("YOUR_DIRECTORY/output.docx");
-            Console.WriteLine("Document saved with shadow. Open output.docx to verify.");
+            ShadowFormat sf = shp.ShadowFormat;
+            sf.Visible = true;
+            sf.Color = Color.FromArgb(100, 100, 150); // bluish tint
+            sf.BlurRadius = 3.0;
+            sf.Distance = 2.0;
+            sf.Angle = 30.0;
         }
-    }
-}
 ```
 
-**Kết quả mong đợi:** Mở `output.docx`. Textbox đầu tiên sẽ hiển thị bóng màu xám đậm, trong suốt 30 %, hơi mờ (size = 6) và offset 2 pt ở góc 45°. Hiệu ứng nhẹ nhàng nhưng đáng chú ý — chính xác những gì hầu hết các nhà thiết kế UI mong muốn.
+### 2. Bóng Đổ Trong Suốt
+
+Aspose.Words cho phép bạn đặt kênh alpha qua `Color.FromArgb(alpha, r, g, b)`. Sử dụng alpha thấp (ví dụ, 50) để tạo hiệu ứng nhẹ, bán trong suốt.
+
+```csharp
+        shadow.Color = Color.FromArgb(50, 0, 0, 0); // 20% opacity black
+```
+
+### 3. Xóa Bóng Đổ
+
+Đôi khi bạn cần tắt bóng đổ sau khi đã áp dụng. Chỉ cần đặt `Visible` thành `false`.
+
+```csharp
+        shadow.Visible = false;
+```
+
+### 4. Vấn Đề Tương Thích
+
+Các tính năng bóng đổ được sử dụng ở đây được hỗ trợ trong Word 2007 + (định dạng DOCX). Nếu bạn nhắm tới định dạng nhị phân `.doc` cũ hơn, bóng đổ có thể bị bỏ qua vì định dạng này thiếu các phần tử XML cần thiết. Trong những trường hợp đó, hãy cân nhắc lưu dưới dạng DOCX hoặc sử dụng một dấu hiệu trực quan thay thế.
+
+## Tóm Tắt: Những Gì Chúng Ta Đã Hoàn Thành
+
+- **Đã tải** một DOCX bằng Aspose.Words.  
+- **Đã lấy** hình dạng đầu tiên từ tài liệu.  
+- **Đã truy cập** đối tượng `ShadowFormat` của nó.  
+- **Đã bật** bóng đổ, đặt màu, bán kính mờ, khoảng cách và góc.  
+- **Đã lưu** một tệp mới hiển thị rõ ràng hiệu ứng.  
+
+Tất cả các bước này cùng nhau trả lời câu hỏi **cách đặt bóng đổ** trên một hình dạng, đồng thời cho bạn thấy cách **thêm bóng đổ vào hình dạng**, **áp dụng bóng đổ cho hình dạng**, và thậm chí **cách thêm bóng đổ** trong các kịch bản phức tạp hơn.
+
+## Các Bước Tiếp Theo và Chủ Đề Liên Quan
+
+Bây giờ khi bạn đã thành thạo việc tạo kiểu bóng đổ, bạn có thể muốn khám phá:
+
+- **Đổ màu gradient** cho hình dạng (`Shape.FillFormat.GradientFill`).  
+- **Hiệu ứng văn bản** như phát sáng hoặc phản chiếu (`TextEffect`).  
+- **Chèn hình dạng mới bằng lập trình** (`doc.FirstSection.Body.AppendChild(new Shape(...))`).  
+- **Xuất ra PDF** trong khi giữ nguyên bóng đổ (`doc.Save("output.pdf")`).  
+
+Mỗi chủ đề này dựa trên các nguyên tắc mô hình đối tượng mà chúng ta đã sử dụng, vì vậy bạn sẽ cảm thấy quen thuộc.
 
 ---
 
-## Câu hỏi thường gặp & Lưu ý
-
-- **“Điều này có hoạt động với hình ảnh không?”**  
-  Có. Bất kỳ `Shape` nào — dù là textbox, picture, hay auto‑shape — đều có `ShadowFormat`. Chỉ cần thay thế logic lấy shape bằng chỉ mục hoặc tên phù hợp.
-
-- **“Nếu tài liệu có nhiều shape thì sao?”**  
-  Duyệt qua `doc.GetChildNodes(NodeType.Shape, true)` và áp dụng cùng một cài đặt cho mỗi shape. Bạn cũng có thể lọc bằng `shape.Name` hoặc `shape
+*Chúc lập trình vui vẻ! Nếu gặp khó khăn, hãy để lại bình luận bên dưới hoặc xem tài liệu API của Aspose.Words để hiểu sâu hơn.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

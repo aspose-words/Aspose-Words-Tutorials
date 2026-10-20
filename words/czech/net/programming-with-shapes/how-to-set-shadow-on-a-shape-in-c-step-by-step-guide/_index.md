@@ -1,25 +1,24 @@
 ---
 category: general
-date: 2026-04-10
-description: jak nastavit stín na tvaru v C# – naučte se, jak aplikovat vržený stín,
-  změnit průhlednost, upravit rozostření a přidat stín tvaru pomocí Aspose.Words.
+date: 2026-03-28
+description: Jak nastavit stín na tvaru v C# s Aspose.Words – přidat stín k tvaru,
+  aplikovat stín a přizpůsobit vzhled.
 draft: false
 keywords:
 - how to set shadow
-- apply drop shadow
-- how to change transparency
-- how to adjust blur
-- add shape shadow
+- add shadow to shape
+- apply shadow to shape
+- how to add shadow
 language: cs
-og_description: jak nastavit stín na tvar v C# – tento tutoriál ukazuje, jak aplikovat
-  vržený stín, změnit průhlednost, upravit rozostření a přidat stín tvaru s jasnými
-  ukázkami kódu.
+og_description: Jak rychle nastavit stín na tvar v C#. Naučte se přidat stín k tvaru,
+  aplikovat stín a upravit rozostření, vzdálenost a úhel.
 og_title: Jak nastavit stín na tvar v C# – kompletní průvodce
 tags:
 - Aspose.Words
 - C#
 - Document Automation
-title: Jak nastavit stín na tvar v C# – průvodce krok za krokem
+- Graphics
+title: Jak nastavit stín na tvar v C# – krok za krokem
 url: /cs/net/programming-with-shapes/how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/
 ---
 
@@ -27,227 +26,177 @@ url: /cs/net/programming-with-shapes/how-to-set-shadow-on-a-shape-in-c-step-by-s
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# jak nastavit stín na tvar v C# – Kompletní průvodce
+# Jak nastavit stín na tvar v C# – Kompletní programovací průvodce
 
-Už jste se někdy zamysleli **jak nastavit stín** na tvar, když programově vytváříte Word dokument? Nejste sami. Mnoho vývojářů narazí na problém, když potřebují jemný vržený stín pro textové pole, logo nebo výzvu, a dokumentace API je poněkud skromná.  
+Už jste se někdy zamysleli **jak nastavit stín** na tvar při programovém vytváření dokumentů Word? Nejste v tom sami. V mnoha zprávách, prezentacích nebo letácích může jemný stín zvýraznit grafiku, aniž by působila nevkusně. Dobrá zpráva? S Aspose.Words pro .NET můžete přidat stín k tvaru během několika řádků kódu.
 
-V tomto tutoriálu projdeme celý proces: od načtení souboru `.docx`, získání prvního `Shape`, až po aplikaci vrženého stínu, úpravu jeho průhlednosti, nastavení poloměru rozostření a nakonec správné umístění. Na konci budete mít znovupoužitelný úryvek, který funguje s Aspose.Words .NET 2023 nebo novějším, a pochopíte *proč* je každá vlastnost důležitá.
+V tomto tutoriálu projdeme celý proces: načtení DOCX, získání prvního tvaru a následné **apply shadow to shape** — včetně barvy, rozostření, vzdálenosti a úhlu. Na konci budete mít připravený úryvek kódu, který můžete vložit do libovolného C# projektu. Žádné další knihovny, žádná skrytá magie.
 
 ## Co budete potřebovat
 
-- **Aspose.Words for .NET** (NuGet package `Aspose.Words`) – knihovna, která poskytuje třídy `Document`, `Shape` a `ShadowFormat`.  
-- **.NET 6+** (nebo .NET Framework 4.7.2) – jakékoli moderní runtime stačí.  
-- Jednoduchý Word soubor (`input.docx`), který již obsahuje alespoň jeden tvar, například textové pole.  
-- Visual Studio, VS Code nebo vaše oblíbené IDE.
+- **Aspose.Words for .NET** (verze 23.9 nebo novější) – knihovna, která usnadňuje manipulaci s Wordem.  
+- Vývojové prostředí .NET (Visual Studio 2022, Rider nebo CLI).  
+- Vzorek DOCX, který již obsahuje alespoň jeden tvar (obdélník, obrázek nebo SmartArt postačí).  
 
-To je vše. Žádné další nástroje třetích stran, žádné COM interop, jen čistý C#.
+Pokud vám něco chybí, stáhněte NuGet balíček pomocí `Install-Package Aspose.Words` a vytvořte jednoduchý Word soubor s ručně vloženým tvarem – jen pro demonstraci.
 
-![how to set shadow example](image-placeholder.png){:alt="jak nastavit stín na tvaru ve Word dokumentu"}
+## Krok 1: Načtení dokumentu (připravit přidání stínu)
 
-## Jak nastavit stín – Přehled
-
-Základní myšlenkou **jak nastavit stín** je manipulovat s objektem `ShadowFormat`, který patří k `Shape`. Představte si `ShadowFormat` jako miniaturu „stylového listu“ pro samotný stín: říká rendereru, zda je stín viditelný, jakou barvu má mít, jak je průhledný, jak je rozostřený a kde se nachází vzhledem k tvaru.  
-
-Níže je *kompletní* spustitelný program. Klidně jej zkopírujte a vložte do konzolové aplikace, stiskněte **F5** a sledujte, jak se stín objeví v uloženém souboru `output.docx`.
+Prvním krokem je otevřít zdrojový soubor. Zde začne operace **add shadow to shape**.
 
 ```csharp
 using System;
-using System.Drawing;               // For Color
-using Aspose.Words;                 // Core document classes
-using Aspose.Words.Drawing;         // Shape & ShadowFormat
+using Aspose.Words;
+using Aspose.Words.Drawing;
+using System.Drawing;
 
 class ShadowDemo
 {
     static void Main()
     {
-        // -------------------------------------------------
-        // Step 1: Load the Word document that contains the shape.
-        // -------------------------------------------------
-        Document doc = new Document("YOUR_DIRECTORY/input.docx");
+        // Load the DOCX that holds the shape you want to enhance
+        Document doc = new Document("input.docx");
+```
 
-        // -------------------------------------------------
-        // Step 2: Retrieve the first shape (e.g., a textbox) from the document.
-        // -------------------------------------------------
-        Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-        if (shape == null)
+> **Proč je to důležité:** Načtení dokumentu vám poskytne objekt `Document`, který vlastní všechny uzly, včetně tvarů. Bez něj není co upravovat.
+
+## Krok 2: Získání cílového tvaru (vyberte ten správný)
+
+Dále najdeme tvar, který chceme stylovat. V tomto příkladu získáme první tvar v prvním odstavci, ale můžete upravit dotaz pro libovolnou kolekci uzlů.
+
+```csharp
+        // Grab the first shape inside the first paragraph of the first section
+        Shape targetShape = doc.FirstSection.Body.FirstParagraph
+            .GetChildNodes(NodeType.Shape, true)[0] as Shape;
+
+        if (targetShape == null)
         {
-            Console.WriteLine("No shape found – make sure input.docx has a textbox.");
+            Console.WriteLine("No shape found – check your input file.");
             return;
         }
+```
 
-        // -------------------------------------------------
-        // Step 3: Make the shadow visible.
-        // -------------------------------------------------
-        shape.ShadowFormat.Visible = true;
+> **Tip:** `GetChildNodes(NodeType.Shape, true)` prochází podstrom rekurzivně, což zajišťuje, že nevynecháte vnořené tvary jako WordArt.
 
-        // -------------------------------------------------
-        // Step 4: Set the shadow colour to a dark gray.
-        // -------------------------------------------------
-        shape.ShadowFormat.Color = Color.DarkGray;
+## Krok 3: Přístup k objektu ShadowFormat (kde se děje magie)
 
-        // -------------------------------------------------
-        // Step 5: Define the shadow's transparency (30 % transparent).
-        // -------------------------------------------------
-        shape.ShadowFormat.Transparency = 0.3;   // 0 = opaque, 1 = fully transparent
+Každý `Shape` má vlastnost `ShadowFormat`. Tento objekt řídí viditelnost, barvu, rozostření, vzdálenost a úhel — všechny ovládací prvky, které potřebujete k **apply shadow to shape**.
 
-        // -------------------------------------------------
-        // Step 6: Configure the blur radius (size) of the shadow.
-        // -------------------------------------------------
-        shape.ShadowFormat.Size = 6;            // Larger value = softer edges
+```csharp
+        // The ShadowFormat object holds all shadow‑related settings
+        ShadowFormat shadow = targetShape.ShadowFormat;
+```
 
-        // -------------------------------------------------
-        // Step 7: Set the offset distance and direction (angle) of the shadow.
-        // -------------------------------------------------
-        shape.ShadowFormat.Distance = 2;        // How far the shadow is from the shape
-        shape.ShadowFormat.Angle = 45;          // Angle in degrees (0 = right, 90 = down)
+> **Proč používáme `ShadowFormat`:** Abstrahuje podkladovou XML reprezentaci, takže můžete ladit stíny, aniž byste museli pracovat s čistým OpenXML.
 
-        // -------------------------------------------------
-        // Save the modified document.
-        // -------------------------------------------------
-        doc.Save("YOUR_DIRECTORY/output.docx");
-        Console.WriteLine("Shadow applied successfully! Check output.docx.");
+## Krok 4: Zviditelnění stínu a výběr barvy (Add Shadow to Shape)
+
+Stín se neobjeví, dokud nenastavíte `Visible` na `true`. Poté můžete vybrat libovolnou `System.Drawing.Color`. Zde používáme středně šedou, ale klidně experimentujte.
+
+```csharp
+        // Turn the shadow on and give it a subtle gray tone
+        shadow.Visible = true;
+        shadow.Color = Color.FromArgb(80, 80, 80);   // dark gray
+```
+
+> **Častá chyba:** Zapomenutí povolit `Visible` vede k tichým selháním — váš tvar zůstane beze změny, i když jste nastavili ostatní vlastnosti.
+
+## Krok 5: Nastavení vzhledu – rozostření, vzdálenost a úhel (jemné doladění vzhledu)
+
+Nyní upravujeme vizuální dopad. `BlurRadius` změkčuje hrany, `Distance` posouvá stín od tvaru a `Angle` určuje směr světelného zdroje.
+
+```csharp
+        // Adjust how the shadow looks
+        shadow.BlurRadius = 5.0;   // in points – higher = softer
+        shadow.Distance   = 3.0;   // how far the shadow is offset
+        shadow.Angle      = 45.0;  // degrees clockwise from the horizontal
+```
+
+> **Hraniční případ:** Pokud nastavíte zápornou vzdálenost, stín se objeví *uvnitř* tvaru, což může být užitečné pro efekty reliéfu.
+
+## Krok 6: Uložení aktualizovaného dokumentu (zobrazit výsledek)
+
+Nakonec zapište změny zpět na disk. Můžete přepsat původní soubor nebo vytvořit nový.
+
+```csharp
+        // Persist the changes – you’ll see the shadow in Word or any viewer
+        doc.Save("output-with-shadow.docx");
+        Console.WriteLine("Shadow applied successfully! Check output-with-shadow.docx");
     }
 }
 ```
 
-### Proč jsou tato nastavení důležitá
+Spuštěním programu vznikne `output-with-shadow.docx`. Otevřete jej v Microsoft Word a všimnete si, že vybraný tvar nyní má jemný šedý stín nasměrovaný pod úhlem 45°, rozostřený na 5 pt a posunutý o 3 pt.
 
-- **Visible** – Bez zapnutí tohoto příznaku jsou všechny ostatní vlastnosti ignorovány.  
-- **Color** – Tmavě šedá napodobuje typický UI vržený stín; můžete použít libovolnou `Color`.  
-- **Transparency** – 0,3 poskytuje *jemný* vzhled a zároveň zachovává čitelnost tvaru.  
-- **Size** – Ovládá rozostření; hodnota 6 je obvykle dostatečná pro profesionální dojem.  
-- **Distance & Angle** – Společně definují *posun*; 2 pt při 45° vytváří jemný diagonální stín.
+![Diagram ukazující aplikovaný stín na tvar](https://example.com/images/shadow-diagram.png "Diagram ukazující aplikovaný stín na tvar")
 
-To je podstata **jak nastavit stín**. Dále rozložíme každý komponent, abyste mohli **aplikovat vržený stín**, **změnit průhlednost**, **upravit rozostření** a **přidat stín tvaru** samostatně.
+*Alt text: Diagram ukazující aplikovaný stín na tvar* – tento obrázek ilustruje efekt před/po.
 
----
+## Jak přidat stín – běžné varianty a hraniční případy
 
-## Apply Drop Shadow to a Shape
+I když jsou základní kroky jednoduché, reálné scénáře často vyžadují úpravy. Níže jsou uvedeny některé situace „co‑když“, se kterými se můžete setkat.
 
-Když se lidé ptají „jak **aplikovat vržený stín** v C#?“, často potřebují jen přepínač viditelnosti a barvu. Následující úryvek izoluje tyto dva řádky:
+### 1. Více tvarů, různé stíny
+
+Pokud váš dokument obsahuje několik grafických prvků, projděte kolekci tvarů a přiřaďte každému tvaru jedinečné nastavení stínu.
 
 ```csharp
-shape.ShadowFormat.Visible = true;          // Turns the shadow on
-shape.ShadowFormat.Color   = Color.Black;   // Classic black drop shadow
-```
-
-> **Tip:** Pokud cílíte na starší verze Wordu (2003‑2007), držte se standardních barev. Některé exotické hodnoty ARGB mohou být ignorovány starším renderérem.
-
----
-
-## Jak změnit průhlednost stínu
-
-Průhlednost je vyjádřena jako **float mezi 0 a 1**. Hodnota **0** znamená zcela neprůhledný stín; **1** ho učiní neviditelným. Většina designérů se drží hodnot **0,2‑0,4** pro přirozený vzhled.
-
-```csharp
-shape.ShadowFormat.Transparency = 0.35; // 35 % transparent
-```
-
-### Hraniční případy
-
-- **Negative values** – Aspose.Words je ořízne na 0, ale je lepší vstup validovat.  
-- **Values > 1** – Ořízne na 1, čímž efektivně skryje stín.  
-
-Pokud potřebujete, aby uživatelé vybírali procenta, nejprve je převeďte:
-
-```csharp
-float percent = 30;                     // User enters 30 %
-shape.ShadowFormat.Transparency = percent / 100f;
-```
-
----
-
-## Jak upravit rozostření (Size) stínu
-
-Vlastnost **Size** řídí poloměr rozostření. Větší čísla vytvářejí měkčí, rozptýlenější stín. Měří se v bodech (pt), ne v pixelech.
-
-```csharp
-shape.ShadowFormat.Size = 10;  // A generous blur for a “soft” effect
-```
-
-#### Kdy použít malé vs. velké rozostření
-
-- **Small blur (2‑4 pt)** – Vhodné pro UI‑stylové výzvy, kde chcete ostrý okraj.  
-- **Large blur (8‑12 pt)** – Vhodné pro tištěné zprávy nebo když je tvar daleko od pozadí.
-
----
-
-## Přidat stín tvaru – Umístění a směr
-
-Poslední část **add shape shadow** je posun. Dvě vlastnosti spolupracují:
-
-| Property | Meaning |
-|----------|---------|
-| **Distance** | Jak daleko je stín od tvaru (v bodech). |
-| **Angle**    | Směr posunu (0° = doprava, 90° = dolů, 180° = doleva, 270° = nahoru). |
-
-Příklad, který vytvoří jemný pravý dolní stín:
-
-```csharp
-shape.ShadowFormat.Distance = 1.5; // Slight lift
-shape.ShadowFormat.Angle    = 135; // Down‑left direction (135°)
-```
-
-Můžete experimentovat s úhly, abyste simulovali světlo přicházející z různých směrů. Běžný trik je nechat uživatele vybrat „zdroj světla“ z rozbalovacího seznamu a přiřadit mu hodnotu úhlu.
-
-## Kompletní funkční příklad (všechny kroky dohromady)
-
-Níže je stejný program jako dříve, ale s **dalšími komentáři**, které logiku učiní naprosto jasnou. Zkopírujte jej do `Program.cs` a spusťte; výstupní soubor bude obsahovat textové pole s dokonale nastaveným stínem.
-
-```csharp
-using System;
-using System.Drawing;
-using Aspose.Words;
-using Aspose.Words.Drawing;
-
-namespace ShapeShadowDemo
-{
-    class Program
-    {
-        static void Main()
+        NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
+        foreach (Shape shp in shapes)
         {
-            // Load the source document (must contain at least one shape)
-            Document doc = new Document("YOUR_DIRECTORY/input.docx");
-
-            // Grab the first shape we encounter – usually a textbox or picture
-            Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-            if (shape == null)
-            {
-                Console.WriteLine("No shape found in the document.");
-                return;
-            }
-
-            // ---------- Apply Drop Shadow ----------
-            shape.ShadowFormat.Visible = true;          // Turn it on
-            shape.ShadowFormat.Color   = Color.DarkGray; // Soft dark colour
-
-            // ---------- How to Change Transparency ----------
-            shape.ShadowFormat.Transparency = 0.3; // 30 % transparent – looks natural
-
-            // ---------- How to Adjust Blur ----------
-            shape.ShadowFormat.Size = 6; // Moderate blur for a professional feel
-
-            // ---------- Add Shape Shadow (position) ----------
-            shape.ShadowFormat.Distance = 2; // Slight offset
-            shape.ShadowFormat.Angle    = 45; // Diagonal down‑right
-
-            // Save the result
-            doc.Save("YOUR_DIRECTORY/output.docx");
-            Console.WriteLine("Document saved with shadow. Open output.docx to verify.");
+            ShadowFormat sf = shp.ShadowFormat;
+            sf.Visible = true;
+            sf.Color = Color.FromArgb(100, 100, 150); // bluish tint
+            sf.BlurRadius = 3.0;
+            sf.Distance = 2.0;
+            sf.Angle = 30.0;
         }
-    }
-}
 ```
 
-**Očekávaný výsledek:** Otevřete `output.docx`. První textové pole zobrazí tmavě šedý, 30 % průhledný stín, který je mírně rozostřený (size = 6) a posunutý o 2 pt pod úhlem 45°. Efekt je jemný, ale patrný — přesně to, co většina UI designérů usiluje.
+### 2. Průhledné stíny
 
-## Časté otázky a úskalí
+Aspose.Words vám umožňuje nastavit alfa kanál pomocí `Color.FromArgb(alpha, r, g, b)`. Použijte nízkou hodnotu alfy (např. 50) pro jemný, poloprůhledný efekt.
 
-- **„Funguje to i s obrázky?“**  
-  Ano. Jakýkoli `Shape` — ať už textové pole, obrázek nebo auto‑tvar — má `ShadowFormat`. Stačí nahradit logiku získávání tvaru odpovídajícím indexem nebo názvem.
+```csharp
+        shadow.Color = Color.FromArgb(50, 0, 0, 0); // 20% opacity black
+```
 
-- **„Co když dokument obsahuje více tvarů?“**  
-  Procházejte `doc.GetChildNodes(NodeType.Shape, true)` a aplikujte stejná nastavení na každý. Můžete také filtrovat podle `shape.Name` nebo `shape
+### 3. Odstranění stínu
+
+Někdy potřebujete po aplikaci stín vypnout. Jednoduše nastavte `Visible` na `false`.
+
+```csharp
+        shadow.Visible = false;
+```
+
+### 4. Problémy s kompatibilitou
+
+Funkce stínů použité zde jsou podporovány ve Wordu 2007 + (formát DOCX). Pokud cílíte na starší binární formát `.doc`, může být stín ignorován, protože formát postrádá potřebné XML elementy. V takových případech zvažte uložení jako DOCX nebo použití náhradního vizuálního prvku.
+
+## Shrnutí: Co jsme dosáhli
+
+- **Načten** DOCX pomocí Aspose.Words.  
+- **Získal** první tvar z dokumentu.  
+- **Přistoupil** k jeho objektu `ShadowFormat`.  
+- **Povolil** stín, nastavil barvu, poloměr rozostření, vzdálenost a úhel.  
+- **Uložil** nový soubor, který viditelně ukazuje efekt.  
+
+Všechny tyto kroky dohromady odpovídají na **how to set shadow** na tvar, a zároveň vám ukazují, jak **add shadow to shape**, **apply shadow to shape**, a dokonce **how to add shadow** v složitějších scénářích.
+
+## Další kroky a související témata
+
+Nyní, když ovládáte stylování stínů, můžete chtít prozkoumat:
+
+- **Gradientové výplně** pro tvary (`Shape.FillFormat.GradientFill`).  
+- **Textové efekty** jako záře nebo odraz (`TextEffect`).  
+- **Programové vkládání nových tvarů** (`doc.FirstSection.Body.AppendChild(new Shape(...))`).  
+- **Export do PDF** při zachování stínů (`doc.Save("output.pdf")`).  
+
+Každé z těchto témat staví na stejných principech objektového modelu, které jsme zde použili, takže se budete cítit jako doma.
+
+---
+
+*Šťastné programování! Pokud narazíte na problém, zanechte komentář níže nebo si prohlédněte dokumentaci Aspose.Words API pro podrobnější informace.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -69,6 +69,8 @@ Naučte se automatizovat shrnutí a překlad textu pomocí Aspose.Words pro Java
 
 ### [Jak nakonfigurovat LLM – Nahrazení textu v DOCX pomocí AI](./how-to-configure-llm-replace-text-in-docx-with-ai/)
 Naučte se nastavit LLM pro automatické nahrazování textu v DOCX souborech pomocí AI a Aspose.Words.
+### [Vytvořte vlastní AI model – úprava odstavců ve Wordu v Javě](./create-custom-ai-model-edit-word-paragraphs-in-java/)
+Naučte se, jak pomocí vlastního AI modelu automaticky upravovat a formátovat odstavce v dokumentech Word pomocí Aspose.Words pro Java.
 
 ## Další zdroje
 
@@ -98,14 +100,6 @@ A: Pro většinu případů použití fungují předtrénované modely dobře. P
 
 ---
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2025-11-25  
@@ -113,3 +107,11 @@ A: Pro většinu případů použití fungují předtrénované modely dobře. P
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

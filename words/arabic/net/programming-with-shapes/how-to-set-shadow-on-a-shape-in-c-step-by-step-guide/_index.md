@@ -1,24 +1,24 @@
 ---
 category: general
-date: 2026-04-10
-description: كيفية تعيين الظل على شكل في C# – تعلم كيفية تطبيق الظل الساقط، تغيير
-  الشفافية، ضبط الضبابية، وإضافة ظل للشكل باستخدام Aspose.Words.
+date: 2026-03-28
+description: كيفية تعيين الظل على شكل في C# باستخدام Aspose.Words – إضافة ظل إلى الشكل،
+  تطبيق الظل، وتخصيص المظهر.
 draft: false
 keywords:
 - how to set shadow
-- apply drop shadow
-- how to change transparency
-- how to adjust blur
-- add shape shadow
+- add shadow to shape
+- apply shadow to shape
+- how to add shadow
 language: ar
-og_description: كيفية تعيين الظل على شكل في C# – يوضح هذا الدرس كيفية تطبيق الظل المنسدل،
-  وتغيير الشفافية، وتعديل الضبابية، وإضافة ظل للشكل مع أمثلة شفرة واضحة.
+og_description: كيفية ضبط الظل على شكل في C# بسرعة. تعلم إضافة الظل إلى الشكل، تطبيق
+  الظل، وتعديل الضبابية والمسافة والزاوية.
 og_title: كيفية تعيين الظل على شكل في C# – دليل كامل
 tags:
 - Aspose.Words
 - C#
 - Document Automation
-title: كيفية ضبط الظل على شكل في C# – دليل خطوة بخطوة
+- Graphics
+title: كيفية تعيين الظل على شكل في C# – دليل خطوة بخطوة
 url: /ar/net/programming-with-shapes/how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/
 ---
 
@@ -26,231 +26,177 @@ url: /ar/net/programming-with-shapes/how-to-set-shadow-on-a-shape-in-c-step-by-s
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# كيفية إضافة ظل إلى شكل في C# – دليل شامل
+# كيفية تعيين الظل على شكل في C# – دليل برمجة كامل
 
-هل تساءلت يومًا **كيفية إضافة ظل** إلى شكل عندما تقوم بإنشاء مستند Word برمجيًا؟ لست وحدك. يواجه العديد من المطورين صعوبة عندما يحتاجون إلى ظل خفيف لصندوق نص، أو شعار، أو صندوق توضيحي، وتكون وثائق الـ API قليلة.
+هل تساءلت يومًا **كيف تُضيف ظلًا** إلى شكل أثناء بناء مستندات Word برمجيًا؟ لست وحدك. في العديد من التقارير والعروض التقديمية أو النشرات، يمكن للظل الخفيف أن يجعل الرسوميات تبرز دون أن تبدو مبتذلة. الخبر السار؟ باستخدام Aspose.Words for .NET يمكنك إضافة ظل إلى الشكل ببضع أسطر من الشيفرة فقط.
 
-في هذا الدرس سنستعرض العملية بالكامل: من تحميل ملف `.docx`، واستخراج أول `Shape`، إلى تطبيق ظل سفلي، وتعديل شفافيته، وضبط نصف قطر الضبابية، وأخيرًا وضعه في الموضع المناسب. في النهاية ستحصل على مقطع شفرة قابل لإعادة الاستخدام يعمل مع Aspose.Words .NET 2023 أو أحدث، وستفهم *لماذا* كل خاصية مهمة.
+في هذا الدرس سنستعرض العملية بالكامل: تحميل ملف DOCX، الحصول على أول شكل، ثم **تطبيق الظل على الشكل** — بما في ذلك اللون، والطمس، والمسافة، والزاوية. في النهاية ستحصل على مقتطف جاهز للتنفيذ يمكنك إدراجه في أي مشروع C#. لا مكتبات إضافية، ولا سحر مخفي.
 
 ## ما ستحتاجه
 
-- **Aspose.Words for .NET** (حزمة NuGet `Aspose.Words`) – المكتبة التي توفر لنا الفئات `Document` و `Shape` و `ShadowFormat`.  
-- **.NET 6+** (أو .NET Framework 4.7.2) – أي بيئة تشغيل حديثة تكفي.  
-- ملف Word بسيط (`input.docx`) يحتوي مسبقًا على شكل واحد على الأقل، مثل صندوق نص.  
-- Visual Studio أو VS Code أو أي بيئة تطوير مفضلة لديك.
+- **Aspose.Words for .NET** (الإصدار 23.9 أو أحدث) – المكتبة التي تجعل التعامل مع Word سهلًا.  
+- بيئة تطوير .NET (Visual Studio 2022، Rider، أو سطر الأوامر).  
+- ملف DOCX تجريبي يحتوي على شكل واحد على الأقل (مستطيل، صورة، أو SmartArt يكفي).  
 
-هذا كل شيء. لا أدوات طرف ثالث إضافية، ولا COM interop، فقط C# عادي.
+إذا كان أيٌ من هذه العناصر غير متوفر، احصل على حزمة NuGet عبر `Install-Package Aspose.Words` وأنشئ ملف Word بسيط مع إدراج شكل يدويًا – فقط للعرض.
 
-![مثال على كيفية إضافة ظل](image-placeholder.png){:alt="كيفية إضافة ظل إلى شكل في مستند Word"}
+## الخطوة 1: تحميل المستند (التحضير لإضافة الظل)
 
-## نظرة عامة على كيفية إضافة ظل
-
-الفكرة الأساسية وراء **كيفية إضافة ظل** هي تعديل كائن `ShadowFormat` الموجود داخل `Shape`. فكر في `ShadowFormat` كـ "ورقة أنماط" مصغرة للظل نفسه: تخبر المُعالج ما إذا كان الظل مرئيًا، وما لونه، ومدى شفافيته، ومدى ضبابيته، وأين يقع بالنسبة للشكل.
-
-فيما يلي البرنامج القابل للتنفيذ *الكامل*. يمكنك نسخه ولصقه في تطبيق Console، ثم الضغط على **F5**، ومشاهدة الظل يظهر في الملف `output.docx` المحفوظ.
+الخطوة الأولى هي فتح ملف المصدر. هنا يبدأ عملية **إضافة الظل إلى الشكل**.
 
 ```csharp
 using System;
-using System.Drawing;               // For Color
-using Aspose.Words;                 // Core document classes
-using Aspose.Words.Drawing;         // Shape & ShadowFormat
+using Aspose.Words;
+using Aspose.Words.Drawing;
+using System.Drawing;
 
 class ShadowDemo
 {
     static void Main()
     {
-        // -------------------------------------------------
-        // Step 1: Load the Word document that contains the shape.
-        // -------------------------------------------------
-        Document doc = new Document("YOUR_DIRECTORY/input.docx");
+        // Load the DOCX that holds the shape you want to enhance
+        Document doc = new Document("input.docx");
+```
 
-        // -------------------------------------------------
-        // Step 2: Retrieve the first shape (e.g., a textbox) from the document.
-        // -------------------------------------------------
-        Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-        if (shape == null)
+> **لماذا هذا مهم:** تحميل المستند يمنحك كائن `Document` يملك جميع العقد، بما فيها الأشكال. بدون ذلك لا شيء لتعديله.
+
+## الخطوة 2: استرجاع الشكل المستهدف (اختيار الشكل الصحيح)
+
+بعد ذلك نحدد الشكل الذي نريد تنسيقه. في هذا المثال نأخذ أول شكل في الفقرة الأولى، لكن يمكنك تعديل الاستعلام لأي مجموعة عقد.
+
+```csharp
+        // Grab the first shape inside the first paragraph of the first section
+        Shape targetShape = doc.FirstSection.Body.FirstParagraph
+            .GetChildNodes(NodeType.Shape, true)[0] as Shape;
+
+        if (targetShape == null)
         {
-            Console.WriteLine("No shape found – make sure input.docx has a textbox.");
+            Console.WriteLine("No shape found – check your input file.");
             return;
         }
+```
 
-        // -------------------------------------------------
-        // Step 3: Make the shadow visible.
-        // -------------------------------------------------
-        shape.ShadowFormat.Visible = true;
+> **نصيحة محترف:** `GetChildNodes(NodeType.Shape, true)` يستعرض الشجرة الفرعية بشكل متكرر، مما يضمن عدم تفويت الأشكال المتداخلة مثل WordArt.
 
-        // -------------------------------------------------
-        // Step 4: Set the shadow colour to a dark gray.
-        // -------------------------------------------------
-        shape.ShadowFormat.Color = Color.DarkGray;
+## الخطوة 3: الوصول إلى كائن تنسيق الظل (مكان السحر)
 
-        // -------------------------------------------------
-        // Step 5: Define the shadow's transparency (30 % transparent).
-        // -------------------------------------------------
-        shape.ShadowFormat.Transparency = 0.3;   // 0 = opaque, 1 = fully transparent
+كل `Shape` يحتوي على خاصية `ShadowFormat`. هذا الكائن يتحكم في الرؤية، اللون، الطمس، المسافة، والزاوية — كل ما تحتاجه **لتطبيق الظل على الشكل**.
 
-        // -------------------------------------------------
-        // Step 6: Configure the blur radius (size) of the shadow.
-        // -------------------------------------------------
-        shape.ShadowFormat.Size = 6;            // Larger value = softer edges
+```csharp
+        // The ShadowFormat object holds all shadow‑related settings
+        ShadowFormat shadow = targetShape.ShadowFormat;
+```
 
-        // -------------------------------------------------
-        // Step 7: Set the offset distance and direction (angle) of the shadow.
-        // -------------------------------------------------
-        shape.ShadowFormat.Distance = 2;        // How far the shadow is from the shape
-        shape.ShadowFormat.Angle = 45;          // Angle in degrees (0 = right, 90 = down)
+> **لماذا نستخدم `ShadowFormat`:** فهو يخفف عنك التعامل مع تمثيل XML الداخلي، بحيث يمكنك تعديل الظلال دون الحاجة إلى OpenXML الخام.
 
-        // -------------------------------------------------
-        // Save the modified document.
-        // -------------------------------------------------
-        doc.Save("YOUR_DIRECTORY/output.docx");
-        Console.WriteLine("Shadow applied successfully! Check output.docx.");
+## الخطوة 4: جعل الظل مرئيًا واختيار لون (إضافة ظل إلى الشكل)
+
+لن يظهر الظل إلا بعد ضبط `Visible` إلى `true`. بعد ذلك يمكنك اختيار أي `System.Drawing.Color`. هنا نستخدم رمادي متوسط، لكن حرية التجربة لك.
+
+```csharp
+        // Turn the shadow on and give it a subtle gray tone
+        shadow.Visible = true;
+        shadow.Color = Color.FromArgb(80, 80, 80);   // dark gray
+```
+
+> **خطأ شائع:** نسيان تمكين `Visible` يؤدي إلى فشل صامت — يظهر الشكل دون تغيير رغم ضبط الخصائص الأخرى.
+
+## الخطوة 5: ضبط المظهر – الطمس، المسافة، والزاوية (تحسين الشكل)
+
+الآن نضبط التأثير البصري. `BlurRadius` ينعّم الحواف، `Distance` يبعد الظل عن الشكل، و`Angle` يحدد اتجاه مصدر الضوء.
+
+```csharp
+        // Adjust how the shadow looks
+        shadow.BlurRadius = 5.0;   // in points – higher = softer
+        shadow.Distance   = 3.0;   // how far the shadow is offset
+        shadow.Angle      = 45.0;  // degrees clockwise from the horizontal
+```
+
+> **حالة خاصة:** إذا ضبطت مسافة سلبية، سيظهر الظل *داخل* الشكل، وهو ما يمكن أن يُستَخدم لتأثير النقش البارز.
+
+## الخطوة 6: حفظ المستند المحدث (شاهد النتيجة)
+
+أخيرًا، اكتب التغييرات إلى القرص. يمكنك استبدال الملف الأصلي أو إنشاء ملف جديد.
+
+```csharp
+        // Persist the changes – you’ll see the shadow in Word or any viewer
+        doc.Save("output-with-shadow.docx");
+        Console.WriteLine("Shadow applied successfully! Check output-with-shadow.docx");
     }
 }
 ```
 
-### لماذا هذه الإعدادات مهمة
+تشغيل البرنامج ينتج `output-with-shadow.docx`. افتحه في Microsoft Word وستلاحظ أن الشكل المحدد الآن يحمل ظلًا رماديًا ناعمًا بزاوية 45°، طمسه 5 نقطة وإزاحته 3 نقطة.
 
-- **Visible** – بدون تشغيل هذه العلامة، يتم تجاهل جميع الخصائص الأخرى.  
-- **Color** – اللون الرمادي الداكن يحاكي الظل الشائع في واجهات المستخدم؛ يمكنك استبداله بأي `Color`.  
-- **Transparency** – القيمة 0.3 تعطي مظهرًا *ناعمًا* مع الحفاظ على وضوح الشكل.  
-- **Size** – يتحكم في الضبابية؛ القيمة 6 عادةً ما تكون كافية لإحساس احترافي.  
-- **Distance & Angle** – معًا يحددان *الإزاحة*؛ 2 نقطة عند 45° ينتج ظلًا قطريًا خفيفًا.
+![Diagram showing shadow applied to a shape](https://example.com/images/shadow-diagram.png "Diagram showing shadow applied to a shape")
 
-هذه هي جوهر **كيفية إضافة ظل**. بعد ذلك، سنفصل كل جزء حتى تتمكن من **تطبيق الظل السفلي**، **تغيير الشفافية**، **ضبط الضبابية**، و**إضافة ظل للشكل** بشكل مستقل.
+*نص بديل: مخطط يوضح تطبيق الظل على شكل* – هذه الصورة توضح تأثير قبل/بعد.
 
----
+## كيفية إضافة الظل – تنوعات شائعة وحالات خاصة
 
-## تطبيق الظل السفلي على شكل
+على الرغم من أن الخطوات الأساسية بسيطة، فإن السيناريوهات الواقعية غالبًا ما تتطلب تعديلات. إليك بعض الحالات “ماذا لو” التي قد تواجهها.
 
-عندما يسأل الناس “كيف يمكنني **تطبيق الظل السفلي** في C#؟”، غالبًا ما يحتاجون فقط إلى تشغيل خاصية الرؤية وتحديد لون. المقتطف التالي يعزل هاتين السطرين:
+### 1. أشكال متعددة، ظلال مختلفة
+
+إذا كان المستند يحتوي على عدة رسومات، يمكنك حلقة عبر مجموعة الأشكال وتعيين إعدادات ظل فريدة لكل شكل.
 
 ```csharp
-shape.ShadowFormat.Visible = true;          // Turns the shadow on
-shape.ShadowFormat.Color   = Color.Black;   // Classic black drop shadow
-```
-
-> **نصيحة احترافية:** إذا كنت تستهدف إصدارات Word القديمة (2003‑2007)، التزم بالألوان القياسية. قد يتم تجاهل بعض قيم ARGB الغريبة من قبل المُعالج القديم.
-
----
-
-## كيفية تغيير شفافية الظل
-
-الشفافية تُعبّر عنها كـ **float بين 0 و 1**. القيمة **0** تعني ظلًا غير شفاف تمامًا؛ **1** تجعل الظل غير مرئي. معظم المصممين يختارون قيمة بين **0.2‑0.4** للحصول على مظهر طبيعي.
-
-```csharp
-shape.ShadowFormat.Transparency = 0.35; // 35 % transparent
-```
-
-### حالات الحافة
-
-- **القيم السالبة** – Aspose.Words سيقيدها إلى 0، لكن من الأفضل التحقق من صحة الإدخال.  
-- **القيم > 1** – تُقيد إلى 1، مما يخفي الظل فعليًا.  
-
-إذا كنت بحاجة للسماح للمستخدمين باختيار نسبة مئوية، حوّلها أولًا:
-
-```csharp
-float percent = 30;                     // User enters 30 %
-shape.ShadowFormat.Transparency = percent / 100f;
-```
-
----
-
-## كيفية ضبط الضبابية (الحجم) للظل
-
-خاصية **Size** تتحكم في نصف قطر الضبابية. الأرقام الأكبر تنتج ظلًا أكثر نعومة وانتشارًا. تُقاس بالنقاط (pt)، وليس بالبكسل.
-
-```csharp
-shape.ShadowFormat.Size = 10;  // A generous blur for a “soft” effect
-```
-
-#### متى تستخدم ضبابية صغيرة مقابل كبيرة
-
-- **ضبابية صغيرة (2‑4 pt)** – مناسبة للتعليقات التوضيحية بأسلوب UI حيث تريد حافة واضحة.  
-- **ضبابية كبيرة (8‑12 pt)** – تعمل جيدًا في التقارير المطبوعة أو عندما يكون الشكل بعيدًا عن الخلفية.
-
----
-
-## إضافة ظل للشكل – التموضع والاتجاه
-
-الجزء الأخير من **إضافة ظل للشكل** هو الإزاحة. خاصيتان تعملان معًا:
-
-| الخاصية | المعنى |
-|----------|---------|
-| **Distance** | المسافة التي يبعدها الظل عن الشكل (بالنقاط). |
-| **Angle**    | اتجاه الإزاحة (0° = يمين، 90° = أسفل، 180° = يسار، 270° = أعلى). |
-
-مثال ينشئ ظلًا خفيفًا أسفل‑يمين:
-
-```csharp
-shape.ShadowFormat.Distance = 1.5; // Slight lift
-shape.ShadowFormat.Angle    = 135; // Down‑left direction (135°)
-```
-
-يمكنك تجربة الزوايا لمحاكاة ضوء يأتي من مصادر مختلفة. حيلة شائعة هي السماح للمستخدم باختيار “مصدر الضوء” من قائمة منسدلة وربطه بقيمة الزاوية.
-
----
-
-## مثال كامل يعمل (جميع الخطوات مجتمعة)
-
-فيما يلي نفس البرنامج السابق، لكن مع **تعليقات إضافية** تجعل المنطق واضحًا تمامًا. انسخه إلى `Program.cs` وشغّله؛ سيحتوي ملف الإخراج على صندوق نص بظل مضبوط بدقة.
-
-```csharp
-using System;
-using System.Drawing;
-using Aspose.Words;
-using Aspose.Words.Drawing;
-
-namespace ShapeShadowDemo
-{
-    class Program
-    {
-        static void Main()
+        NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
+        foreach (Shape shp in shapes)
         {
-            // Load the source document (must contain at least one shape)
-            Document doc = new Document("YOUR_DIRECTORY/input.docx");
-
-            // Grab the first shape we encounter – usually a textbox or picture
-            Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-            if (shape == null)
-            {
-                Console.WriteLine("No shape found in the document.");
-                return;
-            }
-
-            // ---------- Apply Drop Shadow ----------
-            shape.ShadowFormat.Visible = true;          // Turn it on
-            shape.ShadowFormat.Color   = Color.DarkGray; // Soft dark colour
-
-            // ---------- How to Change Transparency ----------
-            shape.ShadowFormat.Transparency = 0.3; // 30 % transparent – looks natural
-
-            // ---------- How to Adjust Blur ----------
-            shape.ShadowFormat.Size = 6; // Moderate blur for a professional feel
-
-            // ---------- Add Shape Shadow (position) ----------
-            shape.ShadowFormat.Distance = 2; // Slight offset
-            shape.ShadowFormat.Angle    = 45; // Diagonal down‑right
-
-            // Save the result
-            doc.Save("YOUR_DIRECTORY/output.docx");
-            Console.WriteLine("Document saved with shadow. Open output.docx to verify.");
+            ShadowFormat sf = shp.ShadowFormat;
+            sf.Visible = true;
+            sf.Color = Color.FromArgb(100, 100, 150); // bluish tint
+            sf.BlurRadius = 3.0;
+            sf.Distance = 2.0;
+            sf.Angle = 30.0;
         }
-    }
-}
 ```
 
-**النتيجة المتوقعة:** افتح `output.docx`. سيظهر أول صندوق نص ظلًا رماديًا داكنًا، شفافًا بنسبة 30 %، مع ضبابية خفيفة (size = 6) وإزاحة 2 pt بزاوية 45°. التأثير خفيف لكنه واضح—تمامًا ما يهدف إليه معظم مصممي واجهات المستخدم.
+### 2. ظلال شفافة
+
+تتيح لك Aspose.Words ضبط قناة ألفا عبر `Color.FromArgb(alpha, r, g, b)`. استخدم قيمة ألفا منخفضة (مثلاً 50) للحصول على تأثير شبه شفاف خفيف.
+
+```csharp
+        shadow.Color = Color.FromArgb(50, 0, 0, 0); // 20% opacity black
+```
+
+### 3. إزالة الظل
+
+أحيانًا تحتاج إلى إيقاف الظل بعد تطبيقه. ما عليك سوى ضبط `Visible` إلى `false`.
+
+```csharp
+        shadow.Visible = false;
+```
+
+### 4. مخاوف التوافق
+
+الميزات الظلية المستخدمة هنا مدعومة في Word 2007 + (صيغة DOCX). إذا كنت تستهدف الصيغة الثنائية القديمة `.doc`، قد يتم تجاهل الظل لأن الصيغة تفتقر إلى العناصر XML اللازمة. في هذه الحالة، فكر في الحفظ كـ DOCX أو استخدم إشارة بصرية بديلة.
+
+## ملخص ما أنجزناه
+
+- **تم تحميل** ملف DOCX باستخدام Aspose.Words.  
+- **تم جلب** أول شكل من المستند.  
+- **تم الوصول** إلى كائن `ShadowFormat` الخاص به.  
+- **تم تمكين** الظل، وضبط اللون، نصف قطر الطمس، المسافة، والزاوية.  
+- **تم حفظ** ملف جديد يُظهر التأثير بوضوح.  
+
+كل هذه الخطوات تجيب على سؤال **كيف تُضيف ظلًا** إلى شكل، وتوضح أيضًا كيفية **إضافة الظل إلى الشكل**، **تطبيق الظل على الشكل**، وحتى **كيفية إضافة الظل** في سيناريوهات أكثر تعقيدًا.
+
+## الخطوات التالية والمواضيع ذات الصلة
+
+بعد إتقانك لتنسيق الظل، قد ترغب في استكشاف:
+
+- **تعبئات متدرجة** للأشكال (`Shape.FillFormat.GradientFill`).  
+- **تأثيرات النص** مثل التوهج أو الانعكاس (`TextEffect`).  
+- **إدراج أشكال جديدة برمجيًا** (`doc.FirstSection.Body.AppendChild(new Shape(...))`).  
+- **التصدير إلى PDF** مع الحفاظ على الظلال (`doc.Save("output.pdf")`).  
+
+كل موضوع من هذه المواضيع يبني على نفس مبادئ نموذج الكائنات الذي استخدمناه هنا، لذا ستشعر بالراحة فورًا.
 
 ---
 
-## أسئلة شائعة ومشكلات محتملة
-
-- **“هل يعمل هذا مع الصور أيضًا؟”**  
-  نعم. أي `Shape`—سواء كان صندوق نص، صورة، أو شكل تلقائي—يحتوي على `ShadowFormat`. فقط استبدل منطق استخراج الشكل بالفهرس أو الاسم المناسب.
-
-- **“ماذا لو كان المستند يحتوي على أشكال متعددة؟”**  
-  كرّر عبر `doc.GetChildNodes(NodeType.Shape, true)` وطبق نفس الإعدادات على كلٍ منها. يمكنك أيضًا التصفية حسب `shape.Name` أو `shape
+*برمجة سعيدة! إذا واجهت أي مشكلة، اترك تعليقًا أدناه أو راجع وثائق Aspose.Words API لمزيد من العمق.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

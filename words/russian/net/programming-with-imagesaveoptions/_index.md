@@ -36,6 +36,10 @@
 | [Как установить DPI – экспорт Word в PNG‑сетку на C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Узнайте, как задать DPI при экспорте документов Word в сетку PNG с помощью Aspose.Words for .NET в C#. |
 
 | [Создать сетку PNG из документа Word – Полное руководство](./create-png-grid-from-word-document-complete-guide/) | Узнайте, как создать сетку PNG из документа Word с помощью Aspose.Words for .NET в полном руководстве. |
+| [Как установить разрешение при конвертации Word в PNG – Полное руководство](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Узнайте, как задать разрешение при конвертации Word в PNG с помощью Aspose.Words for .NET в полном руководстве. |
+| [Экспорт Word в PNG – Преобразовать DOCX в одно изображение](./export-word-as-png-convert-docx-to-one-image/) | Узнайте, как экспортировать документ Word в один PNG‑файл, преобразовав DOCX в одно изображение с помощью Aspose.Words for .NET. |
+| [Конвертировать docx в png – Полное пошаговое руководство](./convert-docx-to-png-complete-step-by-step-guide/) | Узнайте, как преобразовать файлы DOCX в PNG с помощью Aspose.Words for .NET, следуя полному пошаговому руководству. |
+| [Конвертировать DOCX в PNG – Полное руководство C#](./convert-docx-to-png-complete-c-guide/) | Узнайте, как конвертировать DOCX в PNG с помощью Aspose.Words for .NET в полном руководстве на C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

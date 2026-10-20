@@ -45,6 +45,8 @@ Leer hoe u watermerken kunt toepassen en paginaconfiguraties kunt instellen met 
 Leer hoe je documentkopteksten en -voetteksten kunt stylen met Aspose.Words voor Java in deze gedetailleerde handleiding. Inclusief stapsgewijze instructies en broncode.
 ### [Hoe lettertypen detecteren in Java Word-documenten – Complete gids](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 Leer hoe u lettertypen in Word-documenten kunt detecteren met Aspose.Words voor Java, inclusief voorbeeldcode en stapsgewijze uitleg.
+### [Standaardlettertype-instellingen instellen in Aspose.Words voor Java – Complete gids](./set-default-font-settings-in-aspose-words-for-java-complete/)
+Leer hoe u standaardlettertype-instellingen configureert in Aspose.Words voor Java met voorbeeldcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

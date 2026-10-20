@@ -1,26 +1,24 @@
 ---
 category: general
-date: 2026-04-10
-description: cómo establecer sombra en una forma en C# – aprende a aplicar sombra
-  paralela, cambiar la transparencia, ajustar el desenfoque y agregar sombra a la
-  forma usando Aspose.Words.
+date: 2026-03-28
+description: Cómo establecer sombra en una forma en C# con Aspose.Words – agregar
+  sombra a la forma, aplicar sombra y personalizar la apariencia.
 draft: false
 keywords:
 - how to set shadow
-- apply drop shadow
-- how to change transparency
-- how to adjust blur
-- add shape shadow
+- add shadow to shape
+- apply shadow to shape
+- how to add shadow
 language: es
-og_description: cómo establecer sombra en una forma en C# – este tutorial muestra
-  cómo aplicar sombra paralela, cambiar la transparencia, ajustar el desenfoque y
-  añadir sombra a la forma con ejemplos de código claros.
-og_title: Cómo establecer sombra en una forma en C# – Guía completa
+og_description: Cómo establecer sombra en una forma en C# rápidamente. Aprende a agregar
+  sombra a la forma, aplicar sombra y ajustar el desenfoque, la distancia y el ángulo.
+og_title: Cómo aplicar sombra a una forma en C# – Guía completa
 tags:
 - Aspose.Words
 - C#
 - Document Automation
-title: Cómo establecer una sombra en una forma en C# – guía paso a paso
+- Graphics
+title: Cómo aplicar sombra a una forma en C# – Guía paso a paso
 url: /es/net/programming-with-shapes/how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/
 ---
 
@@ -28,231 +26,177 @@ url: /es/net/programming-with-shapes/how-to-set-shadow-on-a-shape-in-c-step-by-s
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# cómo establecer sombra en una forma en C# – Guía completa
+# Cómo establecer sombra en una forma en C# – Guía completa de programación
 
-¿Alguna vez te has preguntado **cómo establecer sombra** en una forma cuando estás creando programáticamente un documento Word? No estás solo. Muchos desarrolladores se topan con un obstáculo cuando necesitan una sombra sutil para un cuadro de texto, un logotipo o un recuadro de llamada, y la documentación de la API resulta un poco escasa.  
+¿Alguna vez te has preguntado **cómo establecer sombra** en una forma cuando estás creando documentos Word de forma programática? No eres el único. En muchos informes, presentaciones o folletos, una sombra sutil puede hacer que un gráfico destaque sin parecer de mala calidad. ¿La buena noticia? Con Aspose.Words for .NET puedes añadir sombra a una forma con solo unas pocas líneas de código.
 
-En este tutorial recorreremos todo el proceso: desde cargar un `.docx`, obtener la primera `Shape`, hasta aplicar una sombra, ajustar su transparencia, modificar el radio de desenfoque y, finalmente, posicionarla correctamente. Al final tendrás un fragmento reutilizable que funciona con Aspose.Words .NET 2023 o posterior, y comprenderás *por qué* cada propiedad es importante.
+En este tutorial recorreremos todo el proceso: cargar un DOCX, obtener la primera forma y luego **aplicar sombra a la forma** — incluyendo color, desenfoque, distancia y ángulo. Al final tendrás un fragmento listo para ejecutar que podrás insertar en cualquier proyecto C#. Sin bibliotecas adicionales, sin magia oculta.
 
 ## Lo que necesitarás
 
-- **Aspose.Words for .NET** (paquete NuGet `Aspose.Words`) – la biblioteca que nos proporciona las clases `Document`, `Shape` y `ShadowFormat`.  
-- **.NET 6+** (o .NET Framework 4.7.2) – cualquier runtime reciente servirá.  
-- Un archivo Word sencillo (`input.docx`) que ya contenga al menos una forma, como un cuadro de texto.  
-- Visual Studio, VS Code, o tu IDE favorito.
+- **Aspose.Words for .NET** (versión 23.9 o posterior) – la biblioteca que hace que la manipulación de Word sea sencilla.  
+- Un entorno de desarrollo .NET (Visual Studio 2022, Rider o la CLI).  
+- Un DOCX de ejemplo que ya contenga al menos una forma (un rectángulo, imagen o SmartArt sirve).  
 
-Eso es todo. Sin herramientas de terceros adicionales, sin interop COM, solo C# puro.
+Si te falta alguno de estos, obtén el paquete NuGet con `Install-Package Aspose.Words` y crea un archivo Word sencillo con una forma insertada manualmente—solo para la demostración.
 
-![how to set shadow example](image-placeholder.png){:alt="cómo establecer sombra en una forma en un documento Word"}
+## Paso 1: Cargar el documento (preparar para añadir sombra)
 
-## Cómo establecer sombra – Visión general
-
-La idea central detrás de **cómo establecer sombra** es manipular el objeto `ShadowFormat` que pertenece a una `Shape`. Piensa en `ShadowFormat` como una mini “hoja de estilo” para la propia sombra: le indica al renderizador si la sombra es visible, de qué color debe ser, cuán transparente es, cuán difusa, y dónde se sitúa en relación con la forma.  
-
-A continuación se muestra el programa *completo* ejecutable. Siéntete libre de copiar‑pegarlo en una aplicación de consola, pulsar **F5**, y observar cómo la sombra aparece en el `output.docx` guardado.
+Lo primero es abrir el archivo fuente. Aquí es donde comienza la operación de **añadir sombra a la forma**.
 
 ```csharp
 using System;
-using System.Drawing;               // For Color
-using Aspose.Words;                 // Core document classes
-using Aspose.Words.Drawing;         // Shape & ShadowFormat
+using Aspose.Words;
+using Aspose.Words.Drawing;
+using System.Drawing;
 
 class ShadowDemo
 {
     static void Main()
     {
-        // -------------------------------------------------
-        // Step 1: Load the Word document that contains the shape.
-        // -------------------------------------------------
-        Document doc = new Document("YOUR_DIRECTORY/input.docx");
+        // Load the DOCX that holds the shape you want to enhance
+        Document doc = new Document("input.docx");
+```
 
-        // -------------------------------------------------
-        // Step 2: Retrieve the first shape (e.g., a textbox) from the document.
-        // -------------------------------------------------
-        Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-        if (shape == null)
+> **Por qué es importante:** Cargar el documento te proporciona un objeto `Document` que posee todos los nodos, incluidas las formas. Sin él, no hay nada que modificar.
+
+## Paso 2: Recuperar la forma objetivo (elige la correcta)
+
+A continuación localizamos la forma que queremos estilizar. En este ejemplo obtenemos la primera forma del primer párrafo, pero puedes adaptar la consulta a cualquier colección de nodos.
+
+```csharp
+        // Grab the first shape inside the first paragraph of the first section
+        Shape targetShape = doc.FirstSection.Body.FirstParagraph
+            .GetChildNodes(NodeType.Shape, true)[0] as Shape;
+
+        if (targetShape == null)
         {
-            Console.WriteLine("No shape found – make sure input.docx has a textbox.");
+            Console.WriteLine("No shape found – check your input file.");
             return;
         }
+```
 
-        // -------------------------------------------------
-        // Step 3: Make the shadow visible.
-        // -------------------------------------------------
-        shape.ShadowFormat.Visible = true;
+> **Consejo profesional:** `GetChildNodes(NodeType.Shape, true)` recorre el subárbol de forma recursiva, asegurando que no te pierdas formas anidadas como WordArt.
 
-        // -------------------------------------------------
-        // Step 4: Set the shadow colour to a dark gray.
-        // -------------------------------------------------
-        shape.ShadowFormat.Color = Color.DarkGray;
+## Paso 3: Acceder al objeto de formato de sombra (donde vive la magia)
 
-        // -------------------------------------------------
-        // Step 5: Define the shadow's transparency (30 % transparent).
-        // -------------------------------------------------
-        shape.ShadowFormat.Transparency = 0.3;   // 0 = opaque, 1 = fully transparent
+Cada `Shape` expone una propiedad `ShadowFormat`. Este objeto controla la visibilidad, el color, el desenfoque, la distancia y el ángulo—todos los ajustes que necesitas para **aplicar sombra a la forma**.
 
-        // -------------------------------------------------
-        // Step 6: Configure the blur radius (size) of the shadow.
-        // -------------------------------------------------
-        shape.ShadowFormat.Size = 6;            // Larger value = softer edges
+```csharp
+        // The ShadowFormat object holds all shadow‑related settings
+        ShadowFormat shadow = targetShape.ShadowFormat;
+```
 
-        // -------------------------------------------------
-        // Step 7: Set the offset distance and direction (angle) of the shadow.
-        // -------------------------------------------------
-        shape.ShadowFormat.Distance = 2;        // How far the shadow is from the shape
-        shape.ShadowFormat.Angle = 45;          // Angle in degrees (0 = right, 90 = down)
+> **Por qué usamos `ShadowFormat`:** Abstrae la representación XML subyacente, de modo que puedes ajustar sombras sin tratar con OpenXML crudo.
 
-        // -------------------------------------------------
-        // Save the modified document.
-        // -------------------------------------------------
-        doc.Save("YOUR_DIRECTORY/output.docx");
-        Console.WriteLine("Shadow applied successfully! Check output.docx.");
+## Paso 4: Hacer visible la sombra y elegir un color (añadir sombra a la forma)
+
+Una sombra no aparecerá hasta que establezcas `Visible` en `true`. Después, puedes elegir cualquier `System.Drawing.Color`. Aquí usamos un gris medio, pero siéntete libre de experimentar.
+
+```csharp
+        // Turn the shadow on and give it a subtle gray tone
+        shadow.Visible = true;
+        shadow.Color = Color.FromArgb(80, 80, 80);   // dark gray
+```
+
+> **Error común:** Olvidar habilitar `Visible` produce fallos silenciosos—tu forma parece sin cambios aunque hayas configurado otras propiedades.
+
+## Paso 5: Configurar la apariencia – desenfoque, distancia y ángulo (ajuste fino del aspecto)
+
+Ahora modelamos el impacto visual. `BlurRadius` suaviza los bordes, `Distance` aleja la sombra de la forma, y `Angle` determina la dirección de la fuente de luz.
+
+```csharp
+        // Adjust how the shadow looks
+        shadow.BlurRadius = 5.0;   // in points – higher = softer
+        shadow.Distance   = 3.0;   // how far the shadow is offset
+        shadow.Angle      = 45.0;  // degrees clockwise from the horizontal
+```
+
+> **Caso límite:** Si estableces una distancia negativa, la sombra aparecerá *dentro* de la forma, lo que puede ser útil para efectos de relieve.
+
+## Paso 6: Guardar el documento actualizado (ver el resultado)
+
+Finalmente, escribe los cambios de nuevo en el disco. Puedes sobrescribir el archivo original o crear uno nuevo.
+
+```csharp
+        // Persist the changes – you’ll see the shadow in Word or any viewer
+        doc.Save("output-with-shadow.docx");
+        Console.WriteLine("Shadow applied successfully! Check output-with-shadow.docx");
     }
 }
 ```
 
-### Por qué estas configuraciones importan
+Ejecutar el programa produce `output-with-shadow.docx`. Ábrelo en Microsoft Word y notarás que la forma seleccionada ahora tiene una sombra gris suave con un ángulo de 45°, desenfocada a 5 pts y desplazada 3 pts.
 
-- **Visible** – Sin activar esta bandera, todas las demás propiedades se ignoran.  
-- **Color** – Un gris oscuro imita una sombra típica de UI; puedes cambiar a cualquier `Color`.  
-- **Transparency** – 0.3 brinda un aspecto *suave* manteniendo la forma legible.  
-- **Size** – Controla el desenfoque; un valor de 6 suele ser suficiente para una sensación profesional.  
-- **Distance & Angle** – Juntos definen el *offset*; 2 pts a 45° produce una sombra diagonal sutil.
+![Diagrama que muestra la sombra aplicada a una forma](https://example.com/images/shadow-diagram.png "Diagrama que muestra la sombra aplicada a una forma")
 
-Eso es la esencia de **cómo establecer sombra**. A continuación, desglosaremos cada parte para que puedas **aplicar sombra**, **cambiar la transparencia**, **ajustar el desenfoque**, y **agregar sombra a la forma** de forma aislada.
+*Texto alternativo: Diagrama que muestra la sombra aplicada a una forma* – esta imagen ilustra el efecto antes/después.
 
----
+## Cómo añadir sombra – Variaciones comunes y casos límite
 
-## Aplicar sombra a una forma
+Aunque los pasos principales son sencillos, los escenarios del mundo real a menudo requieren ajustes. A continuación se presentan algunas situaciones “qué‑pasaría‑si” que podrías encontrar.
 
-Cuando la gente pregunta “¿cómo **aplico drop shadow** en C#?”, a menudo solo necesitan el interruptor de visibilidad y un color. El siguiente fragmento aísla esas dos líneas:
+### 1. Múltiples formas, sombras diferentes
+
+Si tu documento contiene varios gráficos, recorre la colección de formas y asigna configuraciones de sombra únicas a cada forma.
 
 ```csharp
-shape.ShadowFormat.Visible = true;          // Turns the shadow on
-shape.ShadowFormat.Color   = Color.Black;   // Classic black drop shadow
-```
-
-> **Consejo profesional:** Si estás apuntando a versiones antiguas de Word (2003‑2007), utiliza colores estándar. Algunos valores ARGB exóticos pueden ser ignorados por el renderizador heredado.
-
----
-
-## Cómo cambiar la transparencia de la sombra
-
-La transparencia se expresa como un **float entre 0 y 1**. Un valor de **0** significa una sombra completamente opaca; **1** la hace invisible. La mayoría de los diseñadores se sitúan alrededor de **0.2‑0.4** para un aspecto natural.
-
-```csharp
-shape.ShadowFormat.Transparency = 0.35; // 35 % transparent
-```
-
-### Casos límite
-
-- **Negative values** – Aspose.Words los limitará a 0, pero es mejor validar la entrada.  
-- **Values > 1** – Se limitarán a 1, ocultando efectivamente la sombra.  
-
-Si necesitas que los usuarios elijan un porcentaje, conviértelo primero:
-
-```csharp
-float percent = 30;                     // User enters 30 %
-shape.ShadowFormat.Transparency = percent / 100f;
-```
-
----
-
-## Cómo ajustar el desenfoque (Size) de la sombra
-
-La propiedad **Size** controla el radio de desenfoque. Números mayores producen una sombra más suave y difusa. Se mide en puntos (pt), no en píxeles.
-
-```csharp
-shape.ShadowFormat.Size = 10;  // A generous blur for a “soft” effect
-```
-
-#### Cuándo usar un desenfoque pequeño vs. grande
-
-- **Small blur (2‑4 pt)** – Bueno para recuadros de estilo UI donde deseas un borde nítido.  
-- **Large blur (8‑12 pt)** – Funciona bien para informes impresos o cuando la forma está lejos del fondo.
-
----
-
-## Agregar sombra a la forma – Posicionamiento y dirección
-
-La pieza final de **add shape shadow** es el desplazamiento. Dos propiedades trabajan juntas:
-
-| Propiedad | Significado |
-|----------|-------------|
-| **Distance** | Qué tan lejos se sitúa la sombra de la forma (en puntos). |
-| **Angle**    | Dirección del desplazamiento (0° = derecha, 90° = abajo, 180° = izquierda, 270° = arriba). |
-
-Ejemplo que crea una sombra sutil inferior‑derecha:
-
-```csharp
-shape.ShadowFormat.Distance = 1.5; // Slight lift
-shape.ShadowFormat.Angle    = 135; // Down‑left direction (135°)
-```
-
-Puedes experimentar con ángulos para simular luz proveniente de diferentes fuentes. Un truco común es permitir que el usuario elija una “fuente de luz” de un menú desplegable y la asocie a un valor de ángulo.
-
----
-
-## Ejemplo completo (todos los pasos combinados)
-
-A continuación está el mismo programa que antes, pero con **comentarios extra** que hacen la lógica cristalina. Copia esto en `Program.cs` y ejecútalo; el archivo de salida contendrá un cuadro de texto con una sombra perfectamente ajustada.
-
-```csharp
-using System;
-using System.Drawing;
-using Aspose.Words;
-using Aspose.Words.Drawing;
-
-namespace ShapeShadowDemo
-{
-    class Program
-    {
-        static void Main()
+        NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
+        foreach (Shape shp in shapes)
         {
-            // Load the source document (must contain at least one shape)
-            Document doc = new Document("YOUR_DIRECTORY/input.docx");
-
-            // Grab the first shape we encounter – usually a textbox or picture
-            Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-            if (shape == null)
-            {
-                Console.WriteLine("No shape found in the document.");
-                return;
-            }
-
-            // ---------- Apply Drop Shadow ----------
-            shape.ShadowFormat.Visible = true;          // Turn it on
-            shape.ShadowFormat.Color   = Color.DarkGray; // Soft dark colour
-
-            // ---------- How to Change Transparency ----------
-            shape.ShadowFormat.Transparency = 0.3; // 30 % transparent – looks natural
-
-            // ---------- How to Adjust Blur ----------
-            shape.ShadowFormat.Size = 6; // Moderate blur for a professional feel
-
-            // ---------- Add Shape Shadow (position) ----------
-            shape.ShadowFormat.Distance = 2; // Slight offset
-            shape.ShadowFormat.Angle    = 45; // Diagonal down‑right
-
-            // Save the result
-            doc.Save("YOUR_DIRECTORY/output.docx");
-            Console.WriteLine("Document saved with shadow. Open output.docx to verify.");
+            ShadowFormat sf = shp.ShadowFormat;
+            sf.Visible = true;
+            sf.Color = Color.FromArgb(100, 100, 150); // bluish tint
+            sf.BlurRadius = 3.0;
+            sf.Distance = 2.0;
+            sf.Angle = 30.0;
         }
-    }
-}
 ```
 
-**Resultado esperado:** Abre `output.docx`. El primer cuadro de texto mostrará una sombra gris oscuro, 30 % transparente, ligeramente difusa (size = 6) y desplazada 2 pt a 45°. El efecto es sutil pero perceptible—exactamente lo que la mayoría de los diseñadores UI buscan.
+### 2. Sombras transparentes
+
+Aspose.Words te permite establecer un canal alfa mediante `Color.FromArgb(alpha, r, g, b)`. Usa un alfa bajo (p. ej., 50) para un efecto sutil y semitransparente.
+
+```csharp
+        shadow.Color = Color.FromArgb(50, 0, 0, 0); // 20% opacity black
+```
+
+### 3. Eliminar una sombra
+
+A veces necesitas desactivar una sombra después de haberla aplicado. Simplemente establece `Visible` en `false`.
+
+```csharp
+        shadow.Visible = false;
+```
+
+### 4. Problemas de compatibilidad
+
+Las funciones de sombra usadas aquí son compatibles con Word 2007 + (el formato DOCX). Si apuntas al formato binario más antiguo `.doc`, la sombra puede ser ignorada porque el formato carece de los elementos XML necesarios. En esos casos, considera guardar como DOCX o usar una pista visual alternativa.
+
+## Recapitulación: lo que hemos logrado
+
+- **Cargado** un DOCX con Aspose.Words.  
+- **Obtenido** la primera forma del documento.  
+- **Accedido** a su objeto `ShadowFormat`.  
+- **Activado** la sombra, establecido un color, radio de desenfoque, distancia y ángulo.  
+- **Guardado** un nuevo archivo que muestra visiblemente el efecto.  
+
+Todos esos pasos juntos responden a **cómo establecer sombra** en una forma, al mismo tiempo que te muestran cómo **añadir sombra a la forma**, **aplicar sombra a la forma**, e incluso **cómo añadir sombra** en escenarios más complejos.
+
+## Próximos pasos y temas relacionados
+
+Ahora que dominas el estilo de sombras, quizás quieras explorar:
+
+- **Rellenos degradados** para formas (`Shape.FillFormat.GradientFill`).  
+- **Efectos de texto** como resplandor o reflexión (`TextEffect`).  
+- **Inserción programática de nuevas formas** (`doc.FirstSection.Body.AppendChild(new Shape(...))`).  
+- **Exportación a PDF** manteniendo las sombras (`doc.Save("output.pdf")`).  
+
+Cada uno de esos temas se basa en los mismos principios del modelo de objetos que usamos aquí, por lo que te sentirás como en casa.
 
 ---
 
-## Preguntas comunes y trampas
-
-- **“¿Esto funciona también con imágenes?”**  
-  Sí. Cualquier `Shape`—ya sea un cuadro de texto, una imagen o una auto‑forma—expone `ShadowFormat`. Simplemente reemplaza la lógica de obtención de la forma por el índice o nombre apropiado.
-
-- **“¿Qué pasa si el documento tiene múltiples formas?”**  
-  Recorre `doc.GetChildNodes(NodeType.Shape, true)` y aplica la misma configuración a cada una. También puedes filtrar por `shape.Name` o `shape
+*¡Feliz codificación! Si encuentras algún problema, deja un comentario abajo o consulta la documentación de la API de Aspose.Words para obtener más información.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
