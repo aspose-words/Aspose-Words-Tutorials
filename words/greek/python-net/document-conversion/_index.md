@@ -137,6 +137,10 @@
 Μάθετε πώς να αποθηκεύετε αρχεία docx ως εικόνες PNG με το Aspose.Words για Python, ακολουθώντας βήμα‑βήμα οδηγίες.
 ### [Φόρτωση markdown σε Python με Aspose.Words – πλήρης οδηγός](./load-markdown-python-with-aspose-words-full-guide/)
 Μάθετε πώς να φορτώσετε αρχεία markdown σε Python χρησιμοποιώντας Aspose.Words.
+### [Δημιουργία προσβάσιμου PDF από DOCX με Aspose.Words](./create-accessible-pdf-from-docx-with-aspose-words/)
+Μάθετε πώς να δημιουργήσετε προσβάσιμα PDF από αρχεία DOCX χρησιμοποιώντας το Aspose.Words για Python.
+### [Πώς να αποθηκεύσετε PDF από DOCX χρησιμοποιώντας Aspose.Words (Python)](./how-to-save-pdf-from-docx-using-aspose-words-python/)
+Μάθετε πώς να αποθηκεύσετε αρχεία PDF από DOCX με το Aspose.Words για Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

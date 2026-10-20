@@ -63,6 +63,8 @@ Hướng dẫn chi tiết cách thiết lập hiệu ứng bóng cho đối tư�
 Hướng dẫn cách vẽ hình chữ nhật vào tệp PDF bằng Aspose.Words cho Python, bao gồm mã mẫu và giải thích chi tiết.
 ### [Cách Thêm Bóng Đổ vào Hình dạng trong Python – Hướng Dẫn Đầy Đủ Aspose.Words](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
 Hướng dẫn chi tiết cách thêm bóng đổ vào hình dạng trong tài liệu Word bằng Python và Aspose.Words.
+### [Cách thêm bóng đổ vào hình dạng Word bằng Python](./how-to-add-shadow-to-a-word-shape-using-python/)
+Hướng dẫn chi tiết cách áp dụng hiệu ứng bóng đổ cho hình dạng trong tài liệu Word bằng Python và Aspose.Words.
 
 ## Tài nguyên bổ sung
 

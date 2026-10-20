@@ -55,6 +55,10 @@ Tanulja meg, hogyan teheti PDF-jét hozzáférhetővé a WCAG szabványoknak meg
 Tanulja meg, hogyan állíthatja helyre a sérült DOCX fájlokat az Aspose.Words segítségével lépésről lépésre útmutatóval.
 ### [Sérült Word dokumentum helyreállítása az Aspose.Words segítségével – lépésről lépésre Python útmutató](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
 Tanulja meg, hogyan állíthatja helyre a sérült Word fájlokat az Aspose.Words Python API-val, részletes lépésekkel.
+### [Hogyan állítsunk helyre docx fájlokat Pythonban – lépésről lépésre útmutató](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Ismerje meg, hogyan állíthatja helyre a sérült docx fájlokat Python segítségével. Lépésről lépésre útmutató.
+### [MarkdownSaveOptions konfigurálása LaTeX-hez Pythonban – Aspose.Words útmutató](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Ismerje meg, hogyan állíthatja be a MarkdownSaveOptions beállításait a LaTeX exportáláshoz Pythonban az Aspose.Words segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

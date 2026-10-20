@@ -64,6 +64,7 @@
 ### [Рисование прямоугольника в PDF с помощью Aspose.Words для Python](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
 Узнайте, как с помощью Aspose.Words для Python нарисовать прямоугольник в PDF-документе.
 ### [Добавление тени к фигуре в Python – полное руководство Aspose.Words](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
+### [Как добавить тень к фигуре Word с помощью Python](./how-to-add-shadow-to-a-word-shape-using-python/)
 Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для Python.
 
 ## Дополнительные ресурсы

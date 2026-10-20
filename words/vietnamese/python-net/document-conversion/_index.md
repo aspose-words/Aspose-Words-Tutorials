@@ -178,6 +178,12 @@ Hướng dẫn chi tiết cách lưu tệp DOCX thành hình ảnh PNG bằng As
 ### [Tải markdown bằng Python với Aspose.Words – hướng dẫn đầy đủ](./load-markdown-python-with-aspose-words-full-guide/)
 Hướng dẫn chi tiết cách tải và chuyển đổi tệp Markdown trong Python bằng Aspose.Words.
 
+### [Tạo PDF có khả năng truy cập từ DOCX với Aspose.Words](./create-accessible-pdf-from-docx-with-aspose-words/)
+Hướng dẫn tạo PDF đáp ứng tiêu chuẩn truy cập từ tài liệu DOCX bằng Aspose.Words cho Python.
+
+### [Cách lưu PDF từ DOCX bằng Aspose.Words (Python)](./how-to-save-pdf-from-docx-using-aspose-words-python/)
+Hướng dẫn lưu tài liệu DOCX thành PDF bằng Aspose.Words cho Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

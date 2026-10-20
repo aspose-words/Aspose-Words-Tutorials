@@ -135,6 +135,10 @@ Ismerje meg, hogyan menthet Word dokumentumokat Markdown formátumba az Aspose.W
 Ismerje meg, hogyan tölthet be Markdown fájlokat Pythonban az Aspose.Words használatával.
 ### [DOCX mentése PNG‑ként – lépésről‑lépésre útmutató Python fejlesztőknek](./save-docx-as-png-step-by-step-guide-for-python-developers/)
 Ismerje meg, hogyan menthet DOCX fájlokat PNG képként a Python és az Aspose.Words segítségével.
+### [Akadálymentes PDF létrehozása DOCX-ből az Aspose.Words segítségével](./create-accessible-pdf-from-docx-with-aspose-words/)
+Tanulja meg, hogyan hozhat létre akadálymentes PDF fájlokat DOCX dokumentumokból az Aspose.Words for Python használatával.
+### [Hogyan mentsen PDF-et DOCX-ből az Aspose.Words (Python) segítségével](./how-to-save-pdf-from-docx-using-aspose-words-python/)
+Ismerje meg, hogyan menthet PDF-et DOCX fájlokból az Aspose.Words for Python használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

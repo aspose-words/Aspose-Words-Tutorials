@@ -55,6 +55,10 @@ Aspose.Words का उपयोग करके PDF को सुलभ बन�
 Aspose.Words का उपयोग करके क्षतिग्रस्त DOCX फ़ाइलों को पुनर्स्थापित करने के चरण-दर-चरण निर्देश और कोड उदाहरण।
 ### [Aspose.Words के साथ भ्रष्ट Word दस्तावेज़ को पुनर्प्राप्त करें – चरण‑दर‑चरण Python गाइड](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
 Aspose.Words का उपयोग करके भ्रष्ट Word फ़ाइल को पुनर्स्थापित करने की चरण‑दर‑चरण मार्गदर्शिका।
+### [Python में docx फ़ाइलों को पुनर्प्राप्त करने की चरण‑दर‑चरण गाइड](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Python में खोई हुई या क्षतिग्रस्त docx फ़ाइलों को पुनर्स्थापित करने के चरण‑दर‑चरण निर्देश।
+### [Python में LaTeX के लिए MarkdownSaveOptions कॉन्फ़िगर करें – Aspose.Words गाइड](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Python में LaTeX आउटपुट के लिए MarkdownSaveOptions सेट करने की चरण‑दर‑चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -173,6 +173,11 @@ Aprenda a convertir documentos DOCX a imágenes PNG usando Aspose.Words para Pyt
 
 ### [Cargar Markdown con Python y Aspose.Words – guía completa](./load-markdown-python-with-aspose-words-full-guide/)
 Aprenda a cargar archivos Markdown en Python usando Aspose.Words. Guía completa con ejemplos de código.
+### [Crear PDF accesible desde DOCX con Aspose.Words](./create-accessible-pdf-from-docx-with-aspose-words/)
+Aprenda a generar PDFs accesibles a partir de documentos DOCX usando Aspose.Words para Python.
+
+### [Cómo guardar PDF desde DOCX usando Aspose.Words (Python)](./how-to-save-pdf-from-docx-using-aspose-words-python/)
+Aprenda a convertir documentos DOCX a PDF con Aspose.Words para Python, paso a paso y con ejemplos de código.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

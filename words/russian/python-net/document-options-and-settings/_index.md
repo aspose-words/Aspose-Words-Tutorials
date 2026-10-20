@@ -55,6 +55,10 @@
 Узнайте, как восстановить повреждённые файлы DOCX с помощью Aspose.Words. Пошаговое руководство с примерами кода.
 ### [Восстановление повреждённого документа Word с помощью Aspose.Words – пошаговое руководство на Python](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
 Узнайте, как восстановить повреждённый файл Word с помощью Aspose.Words в Python. Пошаговое руководство с примерами кода.
+### [Как восстановить файлы docx в Python – пошаговое руководство](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Узнайте, как восстановить файлы DOCX в Python с помощью Aspose.Words. Пошаговое руководство с примерами кода.
+### [Настройка MarkdownSaveOptions для LaTeX в Python – руководство Aspose.Words](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Узнайте, как настроить MarkdownSaveOptions для экспорта в LaTeX с помощью Aspose.Words в Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

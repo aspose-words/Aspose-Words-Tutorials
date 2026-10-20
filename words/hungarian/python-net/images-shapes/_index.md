@@ -64,6 +64,8 @@ Tanuld meg, hogyan alkalmazhatsz árnyékhatást Pythonban az Aspose.Words segí
 ### [Téglalap rajzolása PDF-be az Aspose.Words for Python segítségével](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
 Tanuld meg, hogyan rajzolhatsz téglalapot PDF dokumentumokba az Aspose.Words for Python használatával.
 ### [Árnyék hozzáadása alakzathoz Pythonban – teljes Aspose.Words útmutató](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
+### [Hogyan adjunk árnyékot egy Word alakzathoz Python használatával](./how-to-add-shadow-to-a-word-shape-using-python/)
+Tanuld meg, hogyan adhatsz árnyékot egy Word alakzathoz Python és Aspose.Words segítségével.
 
 ## További források
 

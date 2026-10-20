@@ -170,6 +170,11 @@
 
 ### [使用 Aspose.Words 加载 Markdown（Python）完整指南](./load-markdown-python-with-aspose-words-full-guide/)
 学习如何使用 Aspose.Words for Python 将 Markdown 文件加载并处理，实现高效的文档转换。
+### [使用 Aspose.Words 将 DOCX 转换为可访问的 PDF](./create-accessible-pdf-from-docx-with-aspose-words/)
+学习如何使用 Aspose.Words for Python 将 DOCX 文档生成符合无障碍标准的 PDF，提升文档可访问性。
+
+### [如何将 DOCX 保存为 PDF – 完整 Python 指南](./how-to-save-pdf-from-docx-using-aspose-words-python/)
+学习使用 Aspose.Words for Python 将 DOCX 文档保存为 PDF，轻松实现高质量转换。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

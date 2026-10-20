@@ -54,6 +54,10 @@ Aspose.Words kullanarak PDF belgelerini erişilebilir kılmak için tam adım ad
 Aspose.Words kullanarak bozuk DOCX dosyalarını nasıl kurtaracağınızı adım adım öğrenin. Kaynak kodlu tam rehber.
 ### [Aspose.Words ile Bozuk Word Belgesini Kurtarma – adım adım Python rehberi](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
 Python için Aspose.Words kullanarak bozuk bir Word belgesini nasıl kurtaracağınızı öğrenin. Kaynak kodlu adım adım kılavuz.
+### [Python'da docx dosyalarını kurtarma – adım adım rehber](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Python kullanarak bozulmuş docx dosyalarını nasıl kurtaracağınızı adım adım öğrenin.
+### [Python'da LaTeX için MarkdownSaveOptions'ı Yapılandırma – Aspose.Words rehberi](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Python ile LaTeX çıktısı için MarkdownSaveOptions ayarlarını nasıl yapılandıracağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

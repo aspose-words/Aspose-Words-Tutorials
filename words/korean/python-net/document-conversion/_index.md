@@ -177,6 +177,12 @@ docx 파일을 PNG 이미지로 변환하는 방법을 단계별로 안내합니
 ### [Python에서 마크다운 로드 – Aspose.Words 전체 가이드](./load-markdown-python-with-aspose-words-full-guide/)
 Aspose.Words를 사용하여 Python에서 마크다운 파일을 로드하는 방법을 단계별로 안내합니다.
 
+### [Aspose.Words로 DOCX에서 접근 가능한 PDF 만들기](./create-accessible-pdf-from-docx-with-aspose-words/)
+DOCX 파일을 접근성 PDF로 변환하는 방법을 단계별로 안내합니다.
+
+### [Aspose.Words를 사용해 DOCX에서 PDF 저장하기 (Python)](./how-to-save-pdf-from-docx-using-aspose-words-python/)
+DOCX 파일을 PDF로 저장하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

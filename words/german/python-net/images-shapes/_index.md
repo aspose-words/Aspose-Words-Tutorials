@@ -60,6 +60,8 @@ Erfahren Sie, wie Sie in Aspose.Words für Python Schatten zu Elementen hinzufü
 Erfahren Sie, wie Sie mit Aspose.Words für Python ein Rechteck in ein PDF-Dokument einfügen.
 ### [Wie man Schatten zu Formen in Python hinzufügt – vollständiger Aspose.Words-Leitfaden](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für Python Schatten zu Formen hinzufügen und das Layout Ihrer Dokumente verbessern.
+### [Wie man einem Word-Shape Schatten hinzufügt – Vollständiger Leitfaden für Python](./how-to-add-shadow-to-a-word-shape-using-python/)
+Erfahren Sie, wie Sie mit Aspose.Words für Python Schatten zu Word-Formen hinzufügen und das Layout Ihrer Dokumente verbessern.
 
 ## Weitere Ressourcen
 

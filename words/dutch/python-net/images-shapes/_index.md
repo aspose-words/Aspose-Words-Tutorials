@@ -66,6 +66,8 @@ Leer hoe u schaduweffecten toevoegt aan afbeeldingen of vormen in Word-documente
 Leer hoe u een rechthoek in een PDF-document tekent met Aspose.Words voor Python.
 ### [Schaduw toevoegen aan vorm in Python – volledige Aspose.Words-gids](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
 Leer hoe u schaduweffecten aan vormen toevoegt met Aspose.Words voor Python.
+### [Hoe schaduw toe te voegen aan een Word-vorm met Python](./how-to-add-shadow-to-a-word-shape-using-python/)
+Leer hoe u schaduw toevoegt aan een Word-vorm met Python en Aspose.Words.
 
 ## Aanvullende bronnen
 

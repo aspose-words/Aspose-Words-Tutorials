@@ -168,6 +168,12 @@ Dowiedz się, jak przy użyciu Aspose.Words dla Pythona zapisać plik DOCX jako 
 ### [Załaduj markdown w Pythonie przy użyciu Aspose.Words – pełny przewodnik](./load-markdown-python-with-aspose-words-full-guide/)
 Dowiedz się, jak przy użyciu Aspose.Words dla Pythona załadować i przetworzyć plik Markdown.
 
+### [Utwórz dostępny PDF z DOCX przy użyciu Aspose.Words](./create-accessible-pdf-from-docx-with-aspose-words/)
+Dowiedz się, jak utworzyć dostępny PDF z pliku DOCX przy użyciu Aspose.Words.
+
+### [Jak zapisać PDF z DOCX przy użyciu Aspose.Words w Pythonie](./how-to-save-pdf-from-docx-using-aspose-words-python/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument DOCX jako plik PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

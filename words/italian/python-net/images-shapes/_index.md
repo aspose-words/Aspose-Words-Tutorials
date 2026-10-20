@@ -65,6 +65,8 @@ Scopri come impostare l'ombra su elementi in un documento Word usando Aspose.Wor
 Impara a disegnare rettangoli nei PDF usando Aspose.Words per Python, con esempi di codice e passaggi dettagliati.
 ### [Aggiungere l'ombra alla forma in Python – guida completa Aspose.Words](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
 Scopri come aggiungere ombre alle forme nei documenti Word usando Aspose.Words per Python, con esempi pratici e passaggi dettagliati.
+### [Come aggiungere l'ombra a una forma Word usando Python](./how-to-add-shadow-to-a-word-shape-using-python/)
+Scopri come aggiungere ombre alle forme Word con Aspose.Words per Python, con esempi pratici e passaggi dettagliati.
 
 ## Risorse aggiuntive
 

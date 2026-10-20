@@ -55,6 +55,10 @@ Naučte se, jak pomocí Aspose.Words vytvořit přístupné PDF soubory pomocí 
 Naučte se, jak obnovit poškozené soubory DOCX pomocí Aspose.Words. Kompletní návod s ukázkovým kódem.
 ### [Obnovení poškozeného dokumentu Word pomocí Aspose.Words – krok za krokem průvodce v Pythonu](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
 Naučte se, jak opravit poškozené soubory Word pomocí Aspose.Words v Pythonu s podrobným krokovým návodem.
+### [Jak obnovit soubory DOCX v Pythonu – krok za krokem](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Naučte se, jak obnovit poškozené soubory DOCX v Pythonu pomocí Aspose.Words.
+### [Konfigurace MarkdownSaveOptions pro LaTeX v Pythonu – průvodce Aspose.Words](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Naučte se nastavit MarkdownSaveOptions pro export do LaTeXu v Pythonu pomocí Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -170,6 +170,11 @@ docx फ़ाइलों को PNG इमेज में बदलने क
 
 ### [Aspose.Words के साथ पायथन में मार्कडाउन लोड – पूर्ण गाइड](./load-markdown-python-with-aspose-words-full-guide/)
 Aspose.Words का उपयोग करके पायथन में मार्कडाउन फ़ाइलों को लोड करने की पूरी प्रक्रिया सीखें।
+### [Aspose.Words के साथ DOCX से सुलभ PDF बनाएं](./create-accessible-pdf-from-docx-with-aspose-words/)
+DOCX फ़ाइलों को सुलभ PDF में बदलने के लिए Aspose.Words का उपयोग करके एक्सेसिबिलिटी सुनिश्चित करें।
+
+### [Aspose.Words (Python) का उपयोग करके DOCX से PDF कैसे सहेजें](./how-to-save-pdf-from-docx-using-aspose-words-python/)
+DOCX फ़ाइल को PDF में बदलने के लिए Aspose.Words Python कोड और चरण-दर-चरण मार्गदर्शन।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

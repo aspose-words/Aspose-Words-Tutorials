@@ -64,6 +64,8 @@
 ### [วาดสี่เหลี่ยมใน PDF ด้วย Aspose.Words สำหรับ Python](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
 เรียนรู้วิธีวาดสี่เหลี่ยมในไฟล์ PDF โดยใช้ Aspose.Words สำหรับ Python
 ### [เพิ่มเงาให้รูปร่างใน Python – คู่มือ Aspose.Words ฉบับสมบูรณ์](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
+### [วิธีเพิ่มเงาให้กับรูปร่าง Word ด้วย Python](./how-to-add-shadow-to-a-word-shape-using-python/)
+เรียนรู้วิธีการเพิ่มเงาให้กับรูปร่างในเอกสาร Word ด้วย Aspose.Words สำหรับ Python-net อย่างละเอียด
 
 ## แหล่งข้อมูลเพิ่มเติม
 

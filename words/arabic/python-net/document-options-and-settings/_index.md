@@ -55,6 +55,10 @@
 دليل خطوة بخطوة لاستعادة ملفات DOCX التالفة باستخدام Aspose.Words مع أمثلة برمجية.
 ### [استعادة مستند Word تالف باستخدام Aspose.Words – دليل خطوة بخطوة للبايثون](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
 تعرّف على كيفية استعادة مستند Word تالف باستخدام Aspose.Words في بايثون خطوة بخطوة.
+### [كيفية استعادة ملفات docx في بايثون – دليل خطوة بخطوة](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+دليل خطوة بخطوة لاستعادة ملفات docx باستخدام Aspose.Words للغة بايثون.
+### [تكوين MarkdownSaveOptions لـ LaTeX في بايثون – دليل Aspose.Words](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+تعلم كيفية تكوين خيارات حفظ Markdown لتوليد مستندات LaTeX باستخدام Aspose.Words في بايثون.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

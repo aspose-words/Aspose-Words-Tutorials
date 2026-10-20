@@ -55,6 +55,10 @@ Leer hoe u PDF-bestanden toegankelijk maakt met Aspose.Words via een volledige s
 Leer hoe u beschadigde DOCX-bestanden kunt herstellen met Aspose.Words. Stapsgewijze handleiding met voorbeeldcode.
 ### [Beschadigd Word-document herstellen met Aspose.Words – stapsgewijze Python-gids](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
 Leer hoe u beschadigde Word-documenten kunt herstellen met Aspose.Words in Python.
+### [Hoe docx-bestanden te herstellen in Python – stapsgewijze handleiding](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Leer hoe u beschadigde of verloren .docx-bestanden kunt herstellen met Aspose.Words voor Python. Stapsgewijze handleiding met codevoorbeelden.
+### [Configureer MarkdownSaveOptions voor LaTeX in Python – Aspose.Words-gids](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Leer hoe u MarkdownSaveOptions configureert voor LaTeX-export in Python met Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

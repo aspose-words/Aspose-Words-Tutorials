@@ -171,6 +171,11 @@ Leer hoe je docx-bestanden omzet naar PNG-afbeeldingen met Aspose.Words voor Pyt
 
 ### [Markdown laden met Python – volledige gids met Aspose.Words](./load-markdown-python-with-aspose-words-full-guide/)
 Leer hoe je met Aspose.Words voor Python Markdown-bestanden kunt laden en verwerken.
+### [Maak toegankelijke PDF vanuit DOCX met Aspose.Words](./create-accessible-pdf-from-docx-with-aspose-words/)
+Leer hoe je met Aspose.Words voor Python toegankelijke PDF's maakt vanuit DOCX-bestanden.
+
+### [Hoe PDF op te slaan vanuit DOCX met Aspose.Words (Python)](./how-to-save-pdf-from-docx-using-aspose-words-python/)
+Leer hoe je met Aspose.Words voor Python PDF-bestanden maakt vanuit DOCX-documenten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

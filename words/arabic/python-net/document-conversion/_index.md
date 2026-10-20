@@ -131,6 +131,10 @@
 تعلم كيفية تحويل ملفات docx إلى صور PNG باستخدام Aspose.Words لبايثون خطوة بخطوة.
 ### [تحميل Markdown باستخدام بايثون و Aspose.Words – دليل كامل](./load-markdown-python-with-aspose-words-full-guide/)
 تعلم كيفية تحميل ملفات Markdown في بايثون باستخدام Aspose.Words خطوة بخطوة.
+### [إنشاء PDF يمكن الوصول إليه من DOCX باستخدام Aspose.Words](./create-accessible-pdf-from-docx-with-aspose-words/)
+تعلم كيفية تحويل ملفات DOCX إلى PDF قابلة للوصول وفق معايير الوصول باستخدام Aspose.Words لبايثون.
+### [كيفية حفظ PDF من DOCX باستخدام Aspose.Words (Python)](./how-to-save-pdf-from-docx-using-aspose-words-python/)
+تعلم كيفية تحويل ملفات DOCX إلى PDF وحفظها باستخدام Aspose.Words لبايثون.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

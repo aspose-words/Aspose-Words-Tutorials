@@ -169,6 +169,11 @@ Aspose.Words for Python kullanarak DOCX dosyalarını erişilebilir PDF'lere dö
 
 ### [Python ile Aspose.Words kullanarak Markdown Yükleme – Tam Kılavuz](./load-markdown-python-with-aspose-words-full-guide/)
 Aspose.Words for Python kullanarak Markdown dosyalarını nasıl yükleyeceğinizi adım adım öğrenin.
+### [Aspose.Words ile DOCX'ten Erişilebilir PDF Oluşturma](./create-accessible-pdf-from-docx-with-aspose-words/)
+Aspose.Words kullanarak DOCX dosyalarından erişilebilir PDF dosyaları oluşturmayı öğrenin.
+
+### [DOCX'ten PDF Kaydetme – Aspose.Words (Python)](./how-to-save-pdf-from-docx-using-aspose-words-python/)
+Aspose.Words for Python kullanarak DOCX dosyalarından PDF oluşturmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

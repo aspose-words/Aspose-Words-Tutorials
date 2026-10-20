@@ -65,6 +65,8 @@ Lär dig hur du applicerar skugga på objekt i Word-dokument med Python och Aspo
 Lär dig hur du ritar en rektangel i en PDF-fil med Aspose.Words för Python.
 ### [Lägg till skugga på form i Python – komplett Aspose.Words-guide](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
 Lär dig steg för steg hur du lägger till skugga på former i Python med Aspose.Words.
+### [Hur man lägger till skugga på en Word-form med Python](./how-to-add-shadow-to-a-word-shape-using-python/)
+Lär dig steg för steg hur du applicerar skugga på en form i ett Word-dokument med Python och Aspose.Words.
 
 ## Ytterligare resurser
 

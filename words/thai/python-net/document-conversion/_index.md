@@ -181,6 +181,12 @@
 ### [โหลด Markdown ด้วย Python และ Aspose.Words – คู่มือฉบับสมบูรณ์](./load-markdown-python-with-aspose-words-full-guide/)
 เรียนรู้วิธีโหลดไฟล์ Markdown ใน Python ด้วย Aspose.Words อย่างละเอียดและครบถ้วน
 
+### [สร้าง PDF ที่เข้าถึงได้จาก DOCX ด้วย Aspose.Words](./create-accessible-pdf-from-docx-with-aspose-words/)
+เรียนรู้วิธีสร้างไฟล์ PDF ที่เข้าถึงได้จากเอกสาร DOCX ด้วย Aspose.Words for Python
+
+### [วิธีบันทึก PDF จาก DOCX ด้วย Aspose.Words (Python)](./how-to-save-pdf-from-docx-using-aspose-words-python/)
+เรียนรู้วิธีบันทึกไฟล์ PDF จาก DOCX ด้วย Aspose.Words for Python อย่างละเอียด
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -67,6 +67,9 @@ Python का उपयोग करके Word दस्तावेज़ म�
 
 ### [Python में आकृति में शैडो जोड़ें – पूर्ण Aspose.Words गाइड](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
 
+### [Python का उपयोग करके Word आकृति में शैडो कैसे जोड़ें](./how-to-add-shadow-to-a-word-shape-using-python/)
+Python का उपयोग करके Word आकृति में शैडो जोड़ने की प्रक्रिया सीखें।
+
 ## अतिरिक्त संसाधन
 
 {{< /blocks/products/pf/tutorial-page-section >}}

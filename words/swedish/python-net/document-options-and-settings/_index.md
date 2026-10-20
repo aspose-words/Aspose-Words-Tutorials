@@ -55,6 +55,10 @@ Lär dig hur du gör PDF-filer tillgängliga enligt standarder med Aspose.Words 
 Lär dig hur du återställer skadade DOCX-filer med Aspose.Words. Steg-för-steg-guide med kodexempel.
 ### [Återställ korrupt Word-dokument med Aspose.Words – steg‑för‑steg Python‑guide](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
 Lär dig hur du reparerar skadade Word-dokument med Aspose.Words i Python. En detaljerad steg‑för‑steg‑guide.
+### [Hur du återställer docx-filer i Python – steg‑för‑steg‑guide](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Lär dig återställa skadade docx-filer med Aspose.Words i Python. En steg‑för‑steg‑guide med kodexempel.
+### [Konfigurera MarkdownSaveOptions för LaTeX i Python – Aspose.Words-guide](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Lär dig hur du konfigurerar MarkdownSaveOptions för LaTeX-export i Python med Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

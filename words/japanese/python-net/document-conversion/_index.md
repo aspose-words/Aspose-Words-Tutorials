@@ -173,6 +173,11 @@ Aspose.Words for Python を使用して docx ファイルを PNG 画像に変換
 
 ### [Aspose.Words で Markdown をロードする Python - 完全ガイド](./load-markdown-python-with-aspose-words-full-guide/)
 Aspose.Words を使用して Markdown をロードし、Python で処理する方法を詳しく解説します。
+### [Aspose.WordsでDOCXからアクセシブルPDFを作成する](./create-accessible-pdf-from-docx-with-aspose-words/)
+DOCX をアクセシブルな PDF に変換し、PDF/UA 準拠の文書を生成する方法を解説します。
+
+### [Aspose.Words (Python) を使用して DOCX から PDF を保存する方法](./how-to-save-pdf-from-docx-using-aspose-words-python/)
+Aspose.Words for Python を使い、DOCX ファイルを PDF に変換して保存する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

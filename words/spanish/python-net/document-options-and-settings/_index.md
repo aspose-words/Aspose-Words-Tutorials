@@ -55,6 +55,10 @@ Aprenda a crear PDFs accesibles con Aspose.Words siguiendo una guía completa pa
 Aprenda a recuperar archivos DOCX dañados usando Aspose.Words. Guía paso a paso con ejemplos de código.
 ### [Recuperar documento de Word corrupto con Aspose.Words – guía paso a paso en Python](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
 Aprenda a reparar documentos de Word dañados usando Aspose.Words en Python. Guía paso a paso con ejemplos de código.
+### [Cómo recuperar archivos docx en Python – guía paso a paso](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Aprenda a recuperar archivos docx dañados en Python usando Aspose.Words. Guía paso a paso con código fuente.
+### [Configurar MarkdownSaveOptions para LaTeX en Python – Guía de Aspose.Words](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Aprenda a configurar MarkdownSaveOptions para exportar a LaTeX usando Aspose.Words en Python. Guía paso a paso con código fuente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
