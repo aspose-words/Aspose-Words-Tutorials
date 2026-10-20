@@ -1,195 +1,271 @@
 ---
 category: general
-date: 2026-06-30
-description: Tạo PDF có khả năng truy cập trong C# nhanh chóng. Học cách chuyển đổi
-  docx sang pdf, tạo PDF có khả năng truy cập và bật tuân thủ PDF/UA với các ví dụ
-  mã rõ ràng.
+date: 2026-02-18
+description: Tạo PDF có khả năng truy cập trong C# với Aspose.Pdf. Tìm hiểu cách xuất
+  PDF có khả năng truy cập, thêm thẻ truy cập và bảo tồn cấu trúc tài liệu PDF.
 draft: false
 keywords:
 - create accessible pdf
-- convert docx to pdf
-- generate accessible pdf
-- how to enable pdf/ua
+- export accessible pdf
+- export document structure pdf
+- add accessibility tags pdf
 language: vi
-og_description: Tạo PDF có khả năng truy cập trong C# với Aspose.Words. Tìm hiểu cách
-  chuyển đổi docx sang pdf, tạo PDF có khả năng truy cập và đảm bảo tuân thủ PDF/UA.
-og_title: Tạo PDF có thể truy cập trong C# – Hướng dẫn toàn diện
-schemas:
-- author: Aspose
-  dateModified: '2026-06-30'
-  description: Create accessible PDF in C# quickly. Learn how to convert docx to pdf,
-    generate accessible pdf, and enable PDF/UA compliance with clear code examples.
-  headline: Create Accessible PDF in C# – Step‑by‑Step Guide
-  type: TechArticle
-- description: Create accessible PDF in C# quickly. Learn how to convert docx to pdf,
-    generate accessible pdf, and enable PDF/UA compliance with clear code examples.
-  name: Create Accessible PDF in C# – Step‑by‑Step Guide
-  steps:
-  - name: Press **Ctrl + Shift + U** (or go to *File → Properties → Description*).
-      You should see “PDF/UA‑1” under the *Compliance* section.
-    text: Press **Ctrl + Shift + U** (or go to *File → Properties → Description*).
-      You should see “PDF/UA‑1” under the *Compliance* section.
-  - name: Turn on the **Read Out Loud** feature. The screen‑reader should announce
-      headings in the correct order.
-    text: Turn on the **Read Out Loud** feature. The screen‑reader should announce
-      headings in the correct order.
-  - name: Run the built‑in **Accessibility Checker** (`View → Tools → Accessibility
-      → Full Check`). You should get a green checkmark or only minor warnings.
-    text: Run the built‑in **Accessibility Checker** (`View → Tools → Accessibility
-      → Full Check`). You should get a green checkmark or only minor warnings.
-  type: HowTo
+og_description: Tạo PDF có khả năng truy cập trong C# nhanh chóng. Hướng dẫn này chỉ
+  cách xuất PDF có khả năng truy cập, thêm thẻ truy cập và giữ cấu trúc tài liệu PDF.
+og_title: Tạo PDF Truy cập được trong C# – Hướng dẫn toàn diện
 tags:
-- PDF
-- C#
-- Accessibility
-- Aspose.Words
-title: Tạo PDF có khả năng truy cập trong C# – Hướng dẫn từng bước
+- pdf
+- csharp
+- accessibility
+title: Tạo PDF Truy cập được trong C# – Hướng dẫn từng bước
 url: /vi/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-step-by-step-guide/
 ---
+
+
+
+
+
+
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo PDF Truy cập được trong C# – Hướng dẫn lập trình toàn diện
+# Tạo PDF có thể truy cập trong C# – Hướng dẫn Từng Bước
 
-Bạn đã bao giờ cần **tạo PDF truy cập được** từ một tài liệu Word nhưng không chắc bắt đầu từ đâu? Trong hướng dẫn này, chúng tôi sẽ chỉ cho bạn các bước chính xác để **chuyển đổi docx sang pdf** đồng thời đảm bảo kết quả đáp ứng tiêu chuẩn truy cập PDF/UA. Khi kết thúc, bạn sẽ biết cách tạo PDF truy cập được, cách bật PDF/UA, và lý do mỗi cài đặt quan trọng.
+Bạn đã bao giờ cần **tạo file PDF có thể truy cập** từ một ứng dụng C# nhưng không biết bắt đầu từ đâu? Theo kinh nghiệm của tôi, rào cản lớn nhất là đảm bảo PDF tuân thủ tiêu chuẩn PDF/UA đồng thời vẫn giữ nguyên giao diện như tài liệu gốc.  
 
-Chúng tôi sẽ bao phủ mọi thứ từ gói NuGet cần thiết đến việc xác minh cuối cùng rằng PDF của bạn thực sự truy cập được. Không có phần thừa—chỉ có một ví dụ sẵn sàng chạy mà bạn có thể đưa vào bất kỳ dự án .NET nào. Nếu bạn thắc mắc liệu điều này có hoạt động với .NET 6, .NET Framework 4.8, hoặc thậm chí .NET Core không, câu trả lời là một “có” đầy tự tin.
+Tin tốt: chỉ với vài dòng mã Aspose.Pdf, bạn có thể **xuất PDF có thể truy cập**, giữ nguyên bảng và tiêu đề, và thậm chí thêm các thẻ truy cập cần thiết mà không phải đào sâu vào nội bộ PDF.
 
-## Yêu cầu trước – Những gì bạn cần trước khi bắt đầu
+Trong tutorial này, bạn sẽ có một ví dụ hoàn chỉnh có thể chạy được, cho thấy cách **export document structure PDF**, cách **add accessibility tags PDF**, và lý do mỗi thiết lập quan trọng. Không cần công cụ bên ngoài—chỉ cần một dự án .NET và thư viện Aspose.Pdf.
 
-- **Visual Studio 2022** (hoặc bất kỳ IDE nào bạn thích). Mã là C# thuần, vì vậy VS Code cũng hoạt động.
-- **.NET 6 SDK** (hoặc phiên bản mới hơn). Các framework cũ cũng được, chỉ cần điều chỉnh tệp dự án cho phù hợp.
-- **Aspose.Words for .NET** gói NuGet – đây là thư viện xử lý chuyển đổi DOCX → PDF và tuân thủ PDF/UA.
-- Một tệp **input.docx** mẫu được đặt trong thư mục bạn kiểm soát (chúng tôi sẽ gọi là `YOUR_DIRECTORY`).
+## Yêu cầu trước
 
-Nếu bạn chưa thêm Aspose.Words, chạy:
+* .NET 6.0 hoặc mới hơn (mã cũng chạy trên .NET Framework 4.7+).  
+* Aspose.Pdf for .NET (bản dùng thử miễn phí hoặc bản có giấy phép).  
+* Kiến thức cơ bản về cú pháp C#.  
+
+Nếu bạn đã mở một solution Visual Studio, hãy cài đặt gói NuGet:
 
 ```bash
-dotnet add package Aspose.Words
+dotnet add package Aspose.Pdf
 ```
 
-![Sơ đồ cho thấy quá trình chuyển đổi từ DOCX sang PDF truy cập được](accessible-pdf-diagram.png "Quy trình tạo PDF truy cập được")
+> **Mẹo:** Đăng ký giấy phép Aspose ngay trong ứng dụng (`License license = new License(); license.SetLicense("Aspose.Pdf.lic");`) để tránh dấu nước bản đánh giá.
 
-*Văn bản thay thế: Sơ đồ minh họa cách tạo PDF truy cập được từ tệp DOCX bằng C#.*
+---
 
-## Tạo PDF Truy cập được – Hướng dẫn mã đầy đủ
+![Ví dụ tạo PDF có thể truy cập – tệp kết quả chứa các thẻ và cấu trúc đúng](create-accessible-pdf.png)
 
-Dưới đây là một **chương trình hoàn chỉnh, tự chứa** tải tệp DOCX, cấu hình tuân thủ PDF/UA, và lưu PDF truy cập được. Sao chép‑dán vào một ứng dụng console và nhấn F5.
+*Văn bản thay thế hình ảnh: “ví dụ tạo pdf có thể truy cập hiển thị đầu ra PDF có thẻ.”*
+
+## Bước 1: Tạo PDF Save Options để **Create Accessible PDF**
+
+Điều đầu tiên chúng ta cần là một thể hiện `PdfSaveOptions` cho biết Aspose chúng ta muốn đầu ra có khả năng truy cập. Đối tượng này là trung tâm điều khiển cho tất cả các công tắc liên quan đến truy cập.
 
 ```csharp
-using System;
-using Aspose.Words;
-using Aspose.Words.Saving;
+using Aspose.Pdf;
+using Aspose.Pdf.Saving;
 
-namespace AccessiblePdfDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        // Load or create a document first
+        Document doc = new Document();
+        // (Add pages/content here – see later steps)
+
+        // Step 1: Configure save options for accessibility
+        var accessiblePdfOptions = new PdfSaveOptions
         {
-            // -----------------------------------------------------------------
-            // Step 1: Load the source document (DOCX) – this is the file you want
-            // to convert docx to pdf. Adjust the path to point at your actual file.
-            // -----------------------------------------------------------------
-            string inputPath = @"YOUR_DIRECTORY\input.docx";
-            Document doc = new Document(inputPath);
+            // Enforce PDF/UA compliance – this is what makes the file "accessible"
+            Compliance = PdfCompliance.PdfUa,
 
-            // -----------------------------------------------------------------
-            // Step 2: Configure PDF save options and enable PDF/UA compliance.
-            // The Compliance property tells Aspose.Words to embed the required
-            // tags, structure elements, and metadata for accessibility.
-            // -----------------------------------------------------------------
-            PdfSaveOptions saveOptions = new PdfSaveOptions
-            {
-                // PDF/UA ensures the PDF meets accessibility standards.
-                // Use PdfUa2 for the newer PDF/UA‑2 level if your readers support it.
-                Compliance = PdfCompliance.PdfUa1
-            };
+            // Preserve the logical structure like headings, tables, lists
+            ExportDocumentStructure = true
+        };
+```
 
-            // -----------------------------------------------------------------
-            // Step 3: Save the document as an accessible PDF.
-            // The output will be fully tagged and ready for screen‑readers.
-            // -----------------------------------------------------------------
-            string outputPath = @"YOUR_DIRECTORY\Accessible.pdf";
-            doc.Save(outputPath, saveOptions);
+**Tại sao lại quan trọng:**  
+`PdfCompliance.PdfUa` thông báo cho trình đọc PDF rằng tệp tuân theo tiêu chuẩn Universal Accessibility (PDF/UA). Nếu không có, các trình đọc màn hình có thể bỏ qua toàn bộ tài liệu. `ExportDocumentStructure = true` đảm bảo cây thẻ nội bộ phản ánh bố cục trực quan, điều này thiết yếu cho yêu cầu **export document structure pdf**.
 
-            Console.WriteLine($"✅ Accessible PDF created at: {outputPath}");
+## Bước 2: Thực thi tuân thủ PDF/UA – **Export Accessible PDF**
+
+Mặc dù chúng ta đã đặt `Compliance` ở bước trước, cần nhấn mạnh rằng tuân thủ PDF/UA là *bắt buộc* đối với bất kỳ tổ chức nào cần đáp ứng tiêu chuẩn pháp lý về truy cập (ví dụ, Section 508 ở Mỹ).
+
+```csharp
+        // Step 2: (Optional) Double‑check the compliance flag
+        if (accessiblePdfOptions.Compliance != PdfCompliance.PdfUa)
+        {
+            // Edge case: developer accidentally changed the setting later
+            accessiblePdfOptions.Compliance = PdfCompliance.PdfUa;
         }
+```
+
+**Cạm bẫy phổ biến:** Một số nhà phát triển quên đặt `Compliance` và kết quả là PDF trông ổn nhưng không vượt qua kiểm tra truy cập. Bằng cách kiểm tra cờ này một cách rõ ràng, bạn ngăn ngừa việc bị ghi đè ngoài ý muốn sau này trong mã.
+
+## Bước 3: Bảo tồn cấu trúc logic – **Export Document Structure PDF**
+
+Khi bạn thêm nội dung vào tài liệu, hãy sử dụng các phần tử có thẻ (tagged) càng nhiều càng tốt. Ví dụ, dùng các đối tượng `Heading` cho tiêu đề và `Table` cho lưới dữ liệu. Aspose sẽ tự động ánh xạ chúng tới các thẻ PDF thích hợp vì chúng ta đã bật `ExportDocumentStructure`.
+
+```csharp
+        // Step 3: Add a heading and a simple table
+        Page page = doc.Pages.Add();
+
+        // Heading – becomes <H1> in the PDF tag tree
+        var title = new TextFragment("Quarterly Sales Report")
+        {
+            TextState = { FontSize = 20, FontStyle = FontStyles.Bold }
+        };
+        page.Paragraphs.Add(title);
+
+        // Table – gets proper <Table> tags
+        var table = new Table
+        {
+            ColumnWidths = "100 100 100"
+        };
+        // Header row
+        var header = new Row();
+        header.Cells.Add("Region");
+        header.Cells.Add("Q1");
+        header.Cells.Add("Q2");
+        table.Rows.Add(header);
+
+        // Data row
+        var row = new Row();
+        row.Cells.Add("North America");
+        row.Cells.Add("$120K");
+        row.Cells.Add("$135K");
+        table.Rows.Add(row);
+
+        page.Paragraphs.Add(table);
+```
+
+**Lý do hữu ích:** Khi dùng các đối tượng gốc của Aspose, thư viện có thể tạo ra các thẻ PDF đúng (`<H1>`, `<Table>`, `<TD>`, …). Đó là cốt lõi của **export document structure pdf**—bố cục trực quan được phản chiếu trong một cây thẻ truy cập.
+
+## Bước 4: Lưu file với **Add Accessibility Tags PDF**
+
+Cuối cùng, chúng ta ghi tài liệu ra đĩa bằng các tùy chọn đã chuẩn bị. Lệnh duy nhất này sẽ nhúng tất cả các thẻ, cờ tuân thủ và thông tin cấu trúc.
+
+```csharp
+        // Step 4: Save the document as an accessible PDF file
+        string outputPath = @"C:\Temp\AccessibleReport.pdf";
+        doc.Save(outputPath, accessiblePdfOptions);
+
+        Console.WriteLine($"Accessible PDF saved to {outputPath}");
     }
 }
 ```
 
-### Tại sao cách này hoạt động
+**Kết quả mong đợi:** Mở `AccessibleReport.pdf` trong Adobe Acrobat Pro và chạy *Accessibility > Full Check*. Bạn sẽ thấy **Không có lỗi** nào liên quan đến thẻ thiếu, tiêu đề thiếu, hoặc không tuân thủ PDF/UA. Trình đọc màn hình bây giờ sẽ thông báo tiêu đề và đọc các ô bảng theo đúng thứ tự.
 
-- **Loading the DOCX** cung cấp cho Aspose.Words quyền truy cập đầy đủ vào cấu trúc tài liệu (tiêu đề, bảng, alt‑text). Đó là lý do chuyển đổi từ docx sang pdf vẫn giữ thông tin ngữ nghĩa.
-- **Setting `PdfCompliance.PdfUa1`** là chìa khóa để *cách bật PDF/UA*. Nó chỉ cho thư viện chèn thứ tự đọc logic, thẻ phù hợp, và thông tin ngôn ngữ—chính xác những gì các kiểm toán viên truy cập tìm kiếm.
-- **Saving with the options** tạo ra tệp đáp ứng hầu hết các công cụ kiểm tra PDF/UA (ví dụ: PAC 3, công cụ kiểm tra truy cập của Adobe Acrobat).
+### Danh sách kiểm tra nhanh
 
-## Tạo PDF Truy cập được – Xác minh Kết quả
+| Kiểm tra | Cách xác minh |
+|----------|----------------|
+| Tuân thủ PDF/UA | Acrobat → File → Properties → tab Description → các hộp kiểm PDF/A, PDF/UA |
+| Cấu trúc logic | Acrobat → Tools → Accessibility → Reading Order |
+| Thẻ hiện diện | Acrobat → View → Show/Hide → Navigation Panes → Tags |
 
-Sau khi chạy chương trình, mở `Accessible.pdf` trong Adobe Acrobat Reader:
+Nếu bất kỳ mục nào còn thiếu, hãy kiểm tra lại rằng `Compliance` và `ExportDocumentStructure` đã được đặt trước khi gọi `Save`.
 
-1. Nhấn **Ctrl + Shift + U** (hoặc vào *File → Properties → Description*). Bạn sẽ thấy “PDF/UA‑1” trong mục *Compliance*.
-2. Bật tính năng **Read Out Loud**. Trình đọc màn hình sẽ thông báo tiêu đề theo đúng thứ tự.
-3. Chạy **Accessibility Checker** tích hợp (`View → Tools → Accessibility → Full Check`). Bạn sẽ nhận được dấu kiểm xanh hoặc chỉ có một vài cảnh báo nhẹ.
+## Các trường hợp đặc biệt & Biến thể
 
-Nếu bạn thấy thiếu alt‑text trên hình ảnh, hãy chắc chắn tệp DOCX nguồn có alt‑text cho mỗi ảnh—Aspose.Words sẽ sao chép chúng tự động.
+### 1. Phiên bản Aspose cũ
+Một số phiên bản legacy (< 20.10) sử dụng `PdfSaveOptions.Accessibility` thay vì `ExportDocumentStructure`. Nếu bạn đang dùng DLL cũ, hãy thay thế thuộc tính cho phù hợp:
 
-## Những Cạm Bẫy Thường Gặp & Mẹo Chuyên Nghiệp
+```csharp
+accessiblePdfOptions.Accessibility = true; // older APIs
+```
 
-| Cạm bẫy | Điều gì xảy ra | Cách khắc phục |
-|---------|----------------|----------------|
-| **Missing Alt‑Text** | Hình ảnh trở thành trang trí, làm mất tính truy cập. | Thêm alt‑text trong Word (`Right‑click → Edit Alt Text`). |
-| **Using older Aspose.Words version** | `PdfCompliance.PdfUa1` có thể không tồn tại. | Nâng cấp lên gói NuGet mới nhất (≥ 22.12). |
-| **Saving to a read‑only folder** | Gặp lỗi `UnauthorizedAccessException`. | Đảm bảo thư mục đầu ra có quyền ghi hoặc sử dụng `Path.GetTempPath()`. |
-| **Large DOCX files** | Quá trình chuyển đổi có thể chậm hoặc tốn nhiều bộ nhớ. | Đặt `SaveOptions.Compression = PdfCompressionLevel.Best;` để giảm kích thước. |
-| **PDF/UA‑2 needed** | Một số tổ chức yêu cầu tiêu chuẩn mới hơn. | Thay đổi `Compliance = PdfCompliance.PdfUa2;` (yêu cầu Aspose.Words 22.9+). |
+### 2. Thêm thẻ tùy chỉnh
+Đối với tài liệu đặc thù, bạn có thể cần chèn thẻ tùy chỉnh (ví dụ, `<Figure>`). Aspose cho phép bạn thao tác trực tiếp cây thẻ qua `doc.TaggedContent`. Đây là chủ đề nâng cao—hãy tham khảo tài liệu API nếu gặp yêu cầu đặc biệt.
 
-### Các Trường Hợp Cạnh Bạn Có Thể Gặp
+### 3. Tài liệu lớn
+Khi xử lý hàng trăm trang, cân nhắc stream đầu ra để tránh tiêu thụ bộ nhớ cao:
 
-- **Encrypted DOCX** – Tải nó bằng đối tượng `LoadOptions` cung cấp mật khẩu, sau đó tiếp tục như bình thường.
-- **Custom fonts** – Nếu nguồn sử dụng phông chữ chưa được cài trên máy chủ, nhúng chúng bằng cách đặt `saveOptions.FontEmbeddingMode = FontEmbeddingMode.Always;`.
-- **Complex tables** – Đảm bảo bạn sử dụng tiêu đề bảng đúng trong Word; nếu không, các thẻ được tạo có thể không truyền tải được cấu trúc phân cấp.
+```csharp
+using (FileStream outStream = new FileStream(outputPath, FileMode.Create))
+{
+    doc.Save(outStream, accessiblePdfOptions);
+}
+```
 
-## Cách bật PDF/UA trong các ngôn ngữ khác (Tham chiếu nhanh)
+### 4. Hỗ trợ đa ngôn ngữ
+Nếu PDF của bạn chứa các script từ phải sang trái (Arabic, Hebrew), đặt thuộc tính `PdfDocumentInfo.Language` của tài liệu thành mã ISO thích hợp. Điều này giúp trình đọc màn hình nhận diện ngôn ngữ đúng cho mỗi đoạn.
 
-Mặc dù hướng dẫn này tập trung vào C#, các khái niệm tương tự áp dụng cho Java, Python, hoặc Node.js:
+```csharp
+doc.Info.Language = "ar-SA"; // Arabic (Saudi Arabia)
+```
 
-| Ngôn ngữ | Cài đặt chính |
-|----------|---------------|
-| Java | `pdfOptions.setCompliance(PdfCompliance.PDF_UA_1);` |
-| Python | `pdf_options.compliance = aw.PdfCompliance.PDF_UA_1` |
-| Node.js | `pdfOptions.compliance = aw.PdfCompliance.PdfUa1;` |
+## Ví dụ hoàn chỉnh (Sẵn sàng sao chép)
 
-Nếu bạn cần **convert docx to pdf** trong một ngăn xếp khác, chỉ cần thay đổi cú pháp—*thuộc tính `Compliance` là công tắc chung*.
+```csharp
+using System;
+using Aspose.Pdf;
+using Aspose.Pdf.Saving;
 
-## Tóm tắt – Những gì chúng ta đã đạt được
+class AccessiblePdfDemo
+{
+    static void Main()
+    {
+        // License registration (optional but recommended)
+        // var license = new License();
+        // license.SetLicense("Aspose.Pdf.lic");
 
-- **Created accessible PDF** từ tệp DOCX bằng Aspose.Words.
-- Trình bày **cách bật PDF/UA** (`PdfCompliance.PdfUa1`).
-- Cho thấy cách **tạo PDF truy cập được**, xác minh tuân thủ, và tránh các cạm bẫy thường gặp.
-- Cung cấp một **ví dụ hoàn chỉnh, có thể chạy** mà bạn có thể điều chỉnh cho bất kỳ dự án .NET nào.
+        // 1️⃣ Create a new PDF document
+        Document doc = new Document();
 
-## Các bước tiếp theo & Chủ đề liên quan
+        // 2️⃣ Add content with proper tags
+        Page page = doc.Pages.Add();
 
-- **Add bookmarks**: Sử dụng các đối tượng `PdfBookmark` để tạo dàn mục có thể điều hướng.
-- **Inject custom tags**: Tìm hiểu sâu hơn `PdfSaveOptions.TagStructure` để kiểm soát chi tiết.
-- **Batch conversion**: Lặp qua một thư mục các tệp DOCX để tạo thư viện các PDF truy cập được.
-- **Explore PDF/A**: Kết hợp tính truy cập với lưu trữ lâu dài bằng cách đặt `PdfCompliance.PdfA1b`.
+        var title = new TextFragment("Quarterly Sales Report")
+        {
+            TextState = { FontSize = 20, FontStyle = FontStyles.Bold }
+        };
+        page.Paragraphs.Add(title);
 
-Bạn có thể thoải mái thử nghiệm—thay đổi tệp DOCX nguồn, thử PDF/UA‑2, hoặc tích hợp mã này vào một web API tạo PDF theo yêu cầu. Không giới hạn gì khi bạn biết *cách bật PDF/UA* và *tạo PDF truy cập được* một cách chính xác.
+        var table = new Table { ColumnWidths = "100 100 100" };
+        var header = new Row();
+        header.Cells.Add("Region");
+        header.Cells.Add("Q1");
+        header.Cells.Add("Q2");
+        table.Rows.Add(header);
 
-Có câu hỏi hoặc gặp trường hợp đặc biệt chưa được đề cập? Để lại bình luận, chúng tôi sẽ cùng giải quyết. Chúc lập trình vui vẻ!
+        var data = new Row();
+        data.Cells.Add("North America");
+        data.Cells.Add("$120K");
+        data.Cells.Add("$135K");
+        table.Rows.Add(data);
+        page.Paragraphs.Add(table);
 
-## Bạn nên học gì tiếp theo?
+        // 3️⃣ Configure accessibility options
+        var accessiblePdfOptions = new PdfSaveOptions
+        {
+            Compliance = PdfCompliance.PdfUa,
+            ExportDocumentStructure = true
+        };
 
-Các hướng dẫn sau đây bao phủ các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoạt động đầy đủ với giải thích từng bước để giúp bạn thành thạo các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
+        // 4️⃣ Save the accessible PDF
+        string outPath = @"C:\Temp\AccessibleReport.pdf";
+        doc.Save(outPath, accessiblePdfOptions);
 
-- [Tạo PDF Truy cập được – Hướng dẫn từng bước cho Tuân thủ PDF/UA](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
-- [Tạo PDF Truy cập được từ Word – Hướng dẫn đầy đủ](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
-- [Tạo PDF Truy cập được trong C# – Hướng dẫn Truy cập PDF](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
+        Console.WriteLine($"✅ Accessible PDF created at {outPath}");
+    }
+}
+```
+
+Chạy chương trình, mở file kết quả, và bạn sẽ thấy một tài liệu được gắn thẻ hoàn hảo, tuân thủ PDF/UA, sẵn sàng cho bất kỳ công nghệ hỗ trợ nào.
+
+## Kết luận
+
+Chúng ta vừa **tạo PDF có thể truy cập** trong C# từ đầu, học cách **export accessible PDF**, bảo tồn thứ tự logic (**export document structure PDF**), và nhúng các thiết lập **add accessibility tags PDF** cần thiết. Những điểm chính cần nhớ:
+
+* Sử dụng `PdfSaveOptions.Compliance = PdfCompliance.PdfUa` để báo hiệu tuân thủ PDF/UA.  
+* Bật `ExportDocumentStructure` để tiêu đề, bảng và danh sách trở thành các thẻ đúng.  
+* Xây dựng nội dung bằng các đối tượng cấp cao của Aspose (headings, tables) để thư viện tự động xử lý việc gắn thẻ.  
+
+Tiếp theo, bạn có thể khám phá cách thêm hình ảnh với văn bản thay thế, nhúng phông chữ tương thích PDF/UA, hoặc tự động xử lý hàng trăm báo cáo. Tất cả các kịch bản này đều theo cùng một mẫu chúng ta đã trình bày—chỉ cần điều chỉnh tùy chọn lưu hoặc cây thẻ cho phù hợp.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

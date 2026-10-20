@@ -1,48 +1,21 @@
 ---
 category: general
-date: 2026-06-30
-description: 快速在 C# 中建立可存取的 PDF。了解如何將 docx 轉換為 PDF、產生可存取的 PDF，並透過清晰的程式碼範例實現 PDF/UA
-  相容性。
+date: 2026-02-18
+description: 使用 C# 及 Aspose.Pdf 建立可存取的 PDF。學習如何匯出可存取的 PDF、加入可存取標籤，並保留文件結構。
 draft: false
 keywords:
 - create accessible pdf
-- convert docx to pdf
-- generate accessible pdf
-- how to enable pdf/ua
+- export accessible pdf
+- export document structure pdf
+- add accessibility tags pdf
 language: zh-hant
-og_description: 使用 Aspose.Words 在 C# 中建立可存取的 PDF。了解如何將 docx 轉換為 PDF、產生可存取的 PDF，並實現
-  PDF/UA 合規。
-og_title: 在 C# 中建立可存取的 PDF – 完整指南
-schemas:
-- author: Aspose
-  dateModified: '2026-06-30'
-  description: Create accessible PDF in C# quickly. Learn how to convert docx to pdf,
-    generate accessible pdf, and enable PDF/UA compliance with clear code examples.
-  headline: Create Accessible PDF in C# – Step‑by‑Step Guide
-  type: TechArticle
-- description: Create accessible PDF in C# quickly. Learn how to convert docx to pdf,
-    generate accessible pdf, and enable PDF/UA compliance with clear code examples.
-  name: Create Accessible PDF in C# – Step‑by‑Step Guide
-  steps:
-  - name: Press **Ctrl + Shift + U** (or go to *File → Properties → Description*).
-      You should see “PDF/UA‑1” under the *Compliance* section.
-    text: Press **Ctrl + Shift + U** (or go to *File → Properties → Description*).
-      You should see “PDF/UA‑1” under the *Compliance* section.
-  - name: Turn on the **Read Out Loud** feature. The screen‑reader should announce
-      headings in the correct order.
-    text: Turn on the **Read Out Loud** feature. The screen‑reader should announce
-      headings in the correct order.
-  - name: Run the built‑in **Accessibility Checker** (`View → Tools → Accessibility
-      → Full Check`). You should get a green checkmark or only minor warnings.
-    text: Run the built‑in **Accessibility Checker** (`View → Tools → Accessibility
-      → Full Check`). You should get a green checkmark or only minor warnings.
-  type: HowTo
+og_description: 快速在 C# 中建立無障礙 PDF。本指南說明如何匯出無障礙 PDF、加入無障礙標籤，並保留文件結構。
+og_title: 在 C# 中建立無障礙 PDF – 完整指南
 tags:
-- PDF
-- C#
-- Accessibility
-- Aspose.Words
-title: 在 C# 中建立可存取 PDF – 步驟指南
+- pdf
+- csharp
+- accessibility
+title: 在 C# 中建立可存取的 PDF – 步驟指南
 url: /zh-hant/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-step-by-step-guide/
 ---
 
@@ -50,147 +23,248 @@ url: /zh-hant/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-ste
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 C# 中建立可存取的 PDF – 完整程式教學
+# 在 C# 中建立可存取的 PDF – 步驟指南
 
-是否曾需要從 Word 文件 **建立可存取的 PDF**，卻不知從何開始？在本教學中，我們將一步步帶領您完成 **將 docx 轉換為 pdf** 的確切流程，同時確保最終結果符合 PDF/UA 可存取性標準。完成後，您將了解如何產生可存取的 PDF、如何啟用 PDF/UA，以及每個設定的原因。
+是否曾需要從 C# 應用程式 **create accessible PDF** 檔案，但不知從何開始？依我的經驗，最大障礙是確保 PDF 符合 PDF/UA 標準，同時外觀與原始文件完全相同。  
 
-我們將涵蓋從所需的 NuGet 套件到最終驗證 PDF 真正可存取的所有內容。沒有多餘的說明——只提供一個可直接執行的範例，您可以將其放入任何 .NET 專案中。如果您在想這是否適用於 .NET 6、.NET Framework 4.8，甚至 .NET Core，答案是肯定的「是」。
+好消息：只需幾行 Aspose.Pdf 程式碼，即可 **export accessible PDF**、保留表格與標題，甚至加入必要的可存取性標籤，而不必深入 PDF 內部結構。
 
-## 前置需求 – 開始前您需要的項目
+在本教學中，你將得到一個完整可執行的範例，示範如何 **export document structure PDF**、如何 **add accessibility tags PDF**，以及每個設定的原因。無需外部工具——只要一個 .NET 專案與 Aspose.Pdf 函式庫。
 
-- **Visual Studio 2022**（或您偏好的任何 IDE）。程式碼是純 C#，因此 VS Code 也可使用。
-- **.NET 6 SDK**（或更新版本）。舊版框架亦可，只需相應調整專案檔案。
-- **Aspose.Words for .NET** NuGet 套件 – 這是處理 DOCX → PDF 轉換與 PDF/UA 合規性的函式庫。
-- 一個範例 **input.docx** 檔案，放置於您自行管理的資料夾中（我們稱之為 `YOUR_DIRECTORY`）。
+## 前置條件
 
-如果您尚未加入 Aspose.Words，請執行以下指令：
+* .NET 6.0 或更新版本（此程式碼亦可於 .NET Framework 4.7+ 執行）。  
+* Aspose.Pdf for .NET（免費試用版或授權版）。  
+* 基本的 C# 語法概念。  
+
+如果你已開啟 Visual Studio 解決方案，請直接安裝 NuGet 套件：
 
 ```bash
-dotnet add package Aspose.Words
+dotnet add package Aspose.Pdf
 ```
 
-這行指令會一次安裝所有必要的套件，包含稍後會用到的 `PdfSaveOptions` 類別。
+> **Pro tip:** 在應用程式啟動時即註冊 Aspose 授權 (`License license = new License(); license.SetLicense("Aspose.Pdf.lic");`) 以避免出現評估浮水印。
 
-![說明從 DOCX 轉換為可存取 PDF 的流程圖](accessible-pdf-diagram.png "建立可存取 PDF 工作流程")
+---
 
-*Alt text: 圖示說明如何使用 C# 從 DOCX 檔案建立可存取的 PDF。*
+![建立可存取的 PDF 範例 – 產生的檔案包含正確的標籤與結構](create-accessible-pdf.png)
 
-## 建立可存取 PDF – 完整程式碼說明
+*圖片說明： “create accessible pdf example showing tagged PDF output.”*
 
-以下是一個 **完整、獨立的程式**，會載入 DOCX 檔案、設定 PDF/UA 合規性，並儲存為可存取的 PDF。將其複製貼上至主控台應用程式並按 F5 執行。
+## 第一步：建立 PDF 儲存選項以 **Create Accessible PDF**
+
+我們首先需要一個 `PdfSaveOptions` 實例，告訴 Aspose 我們要產生可存取的輸出。此物件是所有可存取性相關設定的控制中心。
 
 ```csharp
-using System;
-using Aspose.Words;
-using Aspose.Words.Saving;
+using Aspose.Pdf;
+using Aspose.Pdf.Saving;
 
-namespace AccessiblePdfDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        // Load or create a document first
+        Document doc = new Document();
+        // (Add pages/content here – see later steps)
+
+        // Step 1: Configure save options for accessibility
+        var accessiblePdfOptions = new PdfSaveOptions
         {
-            // -----------------------------------------------------------------
-            // Step 1: Load the source document (DOCX) – this is the file you want
-            // to convert docx to pdf. Adjust the path to point at your actual file.
-            // -----------------------------------------------------------------
-            string inputPath = @"YOUR_DIRECTORY\input.docx";
-            Document doc = new Document(inputPath);
+            // Enforce PDF/UA compliance – this is what makes the file "accessible"
+            Compliance = PdfCompliance.PdfUa,
 
-            // -----------------------------------------------------------------
-            // Step 2: Configure PDF save options and enable PDF/UA compliance.
-            // The Compliance property tells Aspose.Words to embed the required
-            // tags, structure elements, and metadata for accessibility.
-            // -----------------------------------------------------------------
-            PdfSaveOptions saveOptions = new PdfSaveOptions
-            {
-                // PDF/UA ensures the PDF meets accessibility standards.
-                // Use PdfUa2 for the newer PDF/UA‑2 level if your readers support it.
-                Compliance = PdfCompliance.PdfUa1
-            };
+            // Preserve the logical structure like headings, tables, lists
+            ExportDocumentStructure = true
+        };
+```
 
-            // -----------------------------------------------------------------
-            // Step 3: Save the document as an accessible PDF.
-            // The output will be fully tagged and ready for screen‑readers.
-            // -----------------------------------------------------------------
-            string outputPath = @"YOUR_DIRECTORY\Accessible.pdf";
-            doc.Save(outputPath, saveOptions);
+**為何這很重要：**  
+`PdfCompliance.PdfUa` 會向 PDF 閱讀器表明檔案遵循通用可存取性（PDF/UA）規範。若未設定，螢幕閱讀器可能會完全忽略文件。`ExportDocumentStructure = true` 確保內部標籤樹與視覺版面相符，這對 **export document structure pdf** 的需求至關重要。
 
-            Console.WriteLine($"✅ Accessible PDF created at: {outputPath}");
+## 第二步：強制 PDF/UA 合規 – **Export Accessible PDF**
+
+即使我們在前一步已設定 `Compliance`，仍須強調 PDF/UA 合規對任何需要符合法律可存取性標準（例如美國 Section 508）的組織而言都是 *必須* 的。
+
+```csharp
+        // Step 2: (Optional) Double‑check the compliance flag
+        if (accessiblePdfOptions.Compliance != PdfCompliance.PdfUa)
+        {
+            // Edge case: developer accidentally changed the setting later
+            accessiblePdfOptions.Compliance = PdfCompliance.PdfUa;
         }
+```
+
+**常見陷阱：**  
+有些開發者忘記設定 `Compliance`，結果產生的 PDF 看起來正常卻未通過可存取性稽核。透過明確檢查此旗標，可防止程式碼後續意外覆寫。
+
+## 第三步：保留邏輯結構 – **Export Document Structure PDF**
+
+在向文件加入內容時，應盡可能使用已標記的元素。例如，使用 `Heading` 物件作為標題，使用 `Table` 物件作為資料格。因為已啟用 `ExportDocumentStructure`，Aspose 會自動將它們映射為相應的 PDF 標籤。
+
+```csharp
+        // Step 3: Add a heading and a simple table
+        Page page = doc.Pages.Add();
+
+        // Heading – becomes <H1> in the PDF tag tree
+        var title = new TextFragment("Quarterly Sales Report")
+        {
+            TextState = { FontSize = 20, FontStyle = FontStyles.Bold }
+        };
+        page.Paragraphs.Add(title);
+
+        // Table – gets proper <Table> tags
+        var table = new Table
+        {
+            ColumnWidths = "100 100 100"
+        };
+        // Header row
+        var header = new Row();
+        header.Cells.Add("Region");
+        header.Cells.Add("Q1");
+        header.Cells.Add("Q2");
+        table.Rows.Add(header);
+
+        // Data row
+        var row = new Row();
+        row.Cells.Add("North America");
+        row.Cells.Add("$120K");
+        row.Cells.Add("$135K");
+        table.Rows.Add(row);
+
+        page.Paragraphs.Add(table);
+```
+
+**為何這有幫助：**  
+透過使用 Aspose 原生物件，函式庫能產生正確的 PDF 標籤（`<H1>`、`<Table>`、`<TD>` 等）。這正是 **export document structure pdf** 的核心——視覺版面會在可存取的標籤層級中被鏡像。
+
+## 第四步：使用 **Add Accessibility Tags PDF** 儲存檔案
+
+最後，我們使用先前設定的選項將文件寫入磁碟。這一次呼叫即會嵌入所有標籤、合規旗標與結構資訊。
+
+```csharp
+        // Step 4: Save the document as an accessible PDF file
+        string outputPath = @"C:\Temp\AccessibleReport.pdf";
+        doc.Save(outputPath, accessiblePdfOptions);
+
+        Console.WriteLine($"Accessible PDF saved to {outputPath}");
     }
 }
 ```
 
-### 為何這樣可行
+**預期結果：**  
+在 Adobe Acrobat Pro 中開啟 `AccessibleReport.pdf`，執行 *Accessibility > Full Check*。你應該會看到與缺少標籤、標題或 PDF/UA 合規相關的 **No errors**。螢幕閱讀器現在會朗讀標題，並按正確順序讀取表格儲存格。
 
-- **Loading the DOCX** 讓 Aspose.Words 完全取得文件的結構（標題、表格、alt‑text）。因此，從 docx 轉換為 pdf 時會保留語意資訊。
-- **Setting `PdfCompliance.PdfUa1`** 是 *如何啟用 PDF/UA* 的關鍵。它告訴函式庫嵌入邏輯閱讀順序、正確的標籤與語言資訊——正是可存取性稽核員所關注的內容。
-- **Saving with the options** 會產生一個能通過大多數 PDF/UA 驗證工具（例如 PAC 3、Adobe Acrobat 的可存取性檢查器）的檔案。
+### 快速驗證清單
 
-## 產生可存取 PDF – 驗證結果
+| 檢查項目 | 驗證方式 |
+|-------|---------------|
+| PDF/UA 合規 | Acrobat → File → Properties → Description 分頁 → PDF/A、PDF/UA 勾選框 |
+| 邏輯結構 | Acrobat → Tools → Accessibility → Reading Order |
+| 標籤存在 | Acrobat → View → Show/Hide → Navigation Panes → Tags |
 
-執行程式後，於 Adobe Acrobat Reader 開啟 `Accessible.pdf`：
+若上述任一項目缺失，請再次確認在呼叫 `Save` 前已設定 `Compliance` 與 `ExportDocumentStructure`。
 
-1. 按下 **Ctrl + Shift + U**（或前往 *File → Properties → Description*）。您應該在 *Compliance* 部分看到 “PDF/UA‑1”。  
-2. 開啟 **Read Out Loud** 功能。螢幕閱讀器應會依正確順序朗讀標題。  
-3. 執行內建的 **Accessibility Checker**（`View → Tools → Accessibility → Full Check`）。您應該會看到綠色勾勾，或僅有少量警告。
+## 邊緣案例與變體
 
-如果發現圖片缺少 alt‑text，請確保來源 DOCX 為每張圖片加入 alt‑text——Aspose.Words 會自動複製過去。
+### 1. 舊版 Aspose
 
-## 常見陷阱與專業提示
+某些舊版 (< 20.10) 使用 `PdfSaveOptions.Accessibility` 取代 `ExportDocumentStructure`。若你仍使用較舊的 DLL，請相應地更換屬性：
 
-| 陷阱 | 會發生什麼 | 解決方法 |
-|---------|--------------|-----|
-| **缺少 Alt‑Text** | 圖片變成裝飾性，破壞可存取性。 | 在 Word 中加入 alt‑text（`Right‑click → Edit Alt Text`）。 |
-| **使用較舊的 Aspose.Words 版本** | 可能不存在 `PdfCompliance.PdfUa1`。 | 升級至最新的 NuGet 套件（≥ 22.12）。 |
-| **儲存至唯讀資料夾** | 拋出 `UnauthorizedAccessException`。 | 確保輸出目錄可寫入，或使用 `Path.GetTempPath()`。 |
-| **大型 DOCX 檔案** | 轉換可能緩慢或佔用大量記憶體。 | 設定 `SaveOptions.Compression = PdfCompressionLevel.Best;` 以減少檔案大小。 |
-| **需要 PDF/UA‑2** | 某些組織需要較新的標準。 | 將 `Compliance = PdfCompliance.PdfUa2;`（需要 Aspose.Words 22.9+）。 |
+```csharp
+accessiblePdfOptions.Accessibility = true; // older APIs
+```
 
-### 可能遇到的邊緣案例
+### 2. 新增自訂標籤
 
-- **Encrypted DOCX** – 使用提供密碼的 `LoadOptions` 物件載入，然後照常進行。  
-- **Custom fonts** – 若來源使用伺服器未安裝的字型，可透過設定 `saveOptions.FontEmbeddingMode = FontEmbeddingMode.Always;` 來嵌入。  
-- **Complex tables** – 確保在 Word 中使用正確的表格標題；否則產生的標籤可能無法傳達層級結構。
+對於高度專業的文件，可能需要注入自訂標籤（例如 `<Figure>`）。Aspose 允許透過 `doc.TaggedContent` 直接操作標籤樹。這屬於進階主題——如遇特殊需求，請參考 API 文件自行探索。
 
-## 如何在其他語言中啟用 PDF/UA（快速參考）
+### 3. 大型文件
 
-雖然本指南以 C# 為主，但相同概念同樣適用於 Java、Python 或 Node.js：
+處理數百頁時，請考慮以串流方式輸出，以避免高記憶體使用量：
 
-| 語言 | 關鍵設定 |
-|----------|-------------|
-| Java | `pdfOptions.setCompliance(PdfCompliance.PDF_UA_1);` |
-| Python | `pdf_options.compliance = aw.PdfCompliance.PDF_UA_1` |
-| Node.js | `pdfOptions.compliance = aw.PdfCompliance.PdfUa1;` |
+```csharp
+using (FileStream outStream = new FileStream(outputPath, FileMode.Create))
+{
+    doc.Save(outStream, accessiblePdfOptions);
+}
+```
 
-如果您需要在其他平台 **將 docx 轉換為 pdf**，只要替換語法即可——*`Compliance` 屬性是通用的開關*。
+### 4. 多語言支援
 
-## 重點回顧 – 我們完成了什麼
+若 PDF 含有從右至左的文字（阿拉伯文、希伯來文），請將文件的 `PdfDocumentInfo.Language` 屬性設為相應的 ISO 代碼。這可確保螢幕閱讀器為每段文字選擇正確語言。
 
-- **建立可存取 PDF** 從 DOCX 檔案使用 Aspose.Words。  
-- 示範 **如何啟用 PDF/UA** (`PdfCompliance.PdfUa1`)。  
-- 展示 **如何產生可存取 PDF**、驗證合規性，並避免常見陷阱。  
-- 提供一個 **完整、可執行的範例**，您可以將其套用至任何 .NET 專案。
+```csharp
+doc.Info.Language = "ar-SA"; // Arabic (Saudi Arabia)
+```
 
-## 往後步驟與相關主題
+## 完整可執行範例（直接複製貼上）
 
-- **加入書籤**：使用 `PdfBookmark` 物件建立可導覽的大綱。  
-- **注入自訂標籤**：深入探討 `PdfSaveOptions.TagStructure` 以取得細緻的控制。  
-- **批次轉換**：遍歷資料夾中的 DOCX 檔案，產生一系列可存取的 PDF。  
-- **探索 PDF/A**：透過設定 `PdfCompliance.PdfA1b`，將可存取性與長期保存結合。
+```csharp
+using System;
+using Aspose.Pdf;
+using Aspose.Pdf.Saving;
 
-隨意嘗試——更換來源 DOCX、嘗試 PDF/UA‑2，或將此程式碼整合至即時產生 PDF 的 Web API。只要您了解 *如何啟用 PDF/UA* 與 *正確產生可存取 PDF*，就沒有任何限制。
+class AccessiblePdfDemo
+{
+    static void Main()
+    {
+        // License registration (optional but recommended)
+        // var license = new License();
+        // license.SetLicense("Aspose.Pdf.lic");
 
-有任何問題或遇到此處未提及的特殊情況？留下評論，我們一起解決。祝開發愉快！
+        // 1️⃣ Create a new PDF document
+        Document doc = new Document();
 
-## 接下來該學什麼？
+        // 2️⃣ Add content with proper tags
+        Page page = doc.Pages.Add();
 
-以下教學涵蓋與本指南密切相關的主題，並以此為基礎。每個資源皆提供完整可運作的程式碼範例與逐步說明，協助您精通其他 API 功能，並在自己的專案中探索替代實作方式。
+        var title = new TextFragment("Quarterly Sales Report")
+        {
+            TextState = { FontSize = 20, FontStyle = FontStyles.Bold }
+        };
+        page.Paragraphs.Add(title);
 
-- [建立可存取 PDF – PDF/UA 合規性逐步指南](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
-- [從 Word 建立可存取 PDF – 完整指南](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
-- [在 C# 中建立可存取 PDF – PDF 可存取性教學](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
+        var table = new Table { ColumnWidths = "100 100 100" };
+        var header = new Row();
+        header.Cells.Add("Region");
+        header.Cells.Add("Q1");
+        header.Cells.Add("Q2");
+        table.Rows.Add(header);
+
+        var data = new Row();
+        data.Cells.Add("North America");
+        data.Cells.Add("$120K");
+        data.Cells.Add("$135K");
+        table.Rows.Add(data);
+        page.Paragraphs.Add(table);
+
+        // 3️⃣ Configure accessibility options
+        var accessiblePdfOptions = new PdfSaveOptions
+        {
+            Compliance = PdfCompliance.PdfUa,
+            ExportDocumentStructure = true
+        };
+
+        // 4️⃣ Save the accessible PDF
+        string outPath = @"C:\Temp\AccessibleReport.pdf";
+        doc.Save(outPath, accessiblePdfOptions);
+
+        Console.WriteLine($"✅ Accessible PDF created at {outPath}");
+    }
+}
+```
+
+執行程式，開啟產生的檔案，即可看到一份標記完整、符合 PDF/UA 的文件，已可供任何輔助技術使用。
+
+## 結論
+
+我們剛剛在 C# 中從頭 **created accessible PDF**，學會了如何 **export accessible PDF**、保留邏輯層級（**export document structure PDF**），以及嵌入必要的 **add accessibility tags PDF** 設定。主要重點如下：
+
+* 使用 `PdfSaveOptions.Compliance = PdfCompliance.PdfUa` 以表明 PDF/UA 合規。  
+* 開啟 `ExportDocumentStructure`，讓標題、表格與清單轉為正確的標籤。  
+* 使用 Aspose 的高階物件（標題、表格）建立內容，讓函式庫自動處理標籤。  
+
+接下來，你可以探索為圖片加入替代文字、嵌入符合 PDF/UA 的字型，或自動批次處理數百份報告。所有情境皆遵循我們所說的模式——只需依需求調整儲存選項或標籤樹即可。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

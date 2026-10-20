@@ -1,48 +1,23 @@
 ---
 category: general
-date: 2026-06-30
-description: C#에서 접근성 있는 PDF를 빠르게 만들기. docx를 PDF로 변환하고, 접근성 PDF를 생성하며, 명확한 코드 예제로
-  PDF/UA 준수를 구현하는 방법을 배우세요.
+date: 2026-02-18
+description: Aspose.Pdf를 사용하여 C#에서 접근성 PDF를 만들기. 접근성 PDF를 내보내고, 접근성 태그를 추가하며, 문서 구조를
+  보존하는 방법을 배우세요.
 draft: false
 keywords:
 - create accessible pdf
-- convert docx to pdf
-- generate accessible pdf
-- how to enable pdf/ua
+- export accessible pdf
+- export document structure pdf
+- add accessibility tags pdf
 language: ko
-og_description: Aspose.Words를 사용하여 C#에서 접근성 PDF를 만들기. docx를 PDF로 변환하고, 접근성 PDF를 생성하며,
-  PDF/UA 준수를 활성화하는 방법을 배워보세요.
-og_title: C#로 접근성 PDF 만들기 – 완전 가이드
-schemas:
-- author: Aspose
-  dateModified: '2026-06-30'
-  description: Create accessible PDF in C# quickly. Learn how to convert docx to pdf,
-    generate accessible pdf, and enable PDF/UA compliance with clear code examples.
-  headline: Create Accessible PDF in C# – Step‑by‑Step Guide
-  type: TechArticle
-- description: Create accessible PDF in C# quickly. Learn how to convert docx to pdf,
-    generate accessible pdf, and enable PDF/UA compliance with clear code examples.
-  name: Create Accessible PDF in C# – Step‑by‑Step Guide
-  steps:
-  - name: Press **Ctrl + Shift + U** (or go to *File → Properties → Description*).
-      You should see “PDF/UA‑1” under the *Compliance* section.
-    text: Press **Ctrl + Shift + U** (or go to *File → Properties → Description*).
-      You should see “PDF/UA‑1” under the *Compliance* section.
-  - name: Turn on the **Read Out Loud** feature. The screen‑reader should announce
-      headings in the correct order.
-    text: Turn on the **Read Out Loud** feature. The screen‑reader should announce
-      headings in the correct order.
-  - name: Run the built‑in **Accessibility Checker** (`View → Tools → Accessibility
-      → Full Check`). You should get a green checkmark or only minor warnings.
-    text: Run the built‑in **Accessibility Checker** (`View → Tools → Accessibility
-      → Full Check`). You should get a green checkmark or only minor warnings.
-  type: HowTo
+og_description: C#에서 접근성 PDF를 빠르게 만들기. 이 가이드는 접근성 PDF를 내보내고, 접근성 태그를 추가하며, 문서 구조를
+  유지하는 방법을 보여줍니다.
+og_title: C#로 접근 가능한 PDF 만들기 – 완전 가이드
 tags:
-- PDF
-- C#
-- Accessibility
-- Aspose.Words
-title: C#에서 접근 가능한 PDF 만들기 – 단계별 가이드
+- pdf
+- csharp
+- accessibility
+title: C#로 접근 가능한 PDF 만들기 – 단계별 가이드
 url: /ko/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-step-by-step-guide/
 ---
 
@@ -50,147 +25,241 @@ url: /ko/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-step-by-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# C#에서 접근 가능한 PDF 만들기 – 전체 프로그래밍 워크스루
+# C#에서 접근 가능한 PDF 만들기 – 단계별 가이드
 
-Word 문서에서 **접근 가능한 PDF**를 만들어야 했지만 어디서 시작해야 할지 몰랐던 적이 있나요? 이 튜토리얼에서는 **docx를 pdf로 변환**하는 정확한 단계들을 안내하면서 결과가 PDF/UA 접근성 표준을 충족하도록 합니다. 끝까지 읽으면 접근 가능한 PDF를 생성하는 방법, PDF/UA를 활성화하는 방법, 각 설정이 왜 중요한지 알게 됩니다.
+C# 애플리케이션에서 **접근 가능한 PDF** 파일을 만들어야 했지만 어디서 시작해야 할지 몰랐던 적이 있나요? 제 경험상 가장 큰 장애물은 PDF가 PDF/UA 표준을 준수하면서도 원본 문서와 정확히 동일하게 보이도록 하는 것입니다.  
 
-필수 NuGet 패키지부터 PDF가 실제로 접근 가능한지 최종 검증까지 모든 내용을 다룹니다. 불필요한 내용 없이 바로 실행 가능한 예제를 제공하므로 .NET 프로젝트에 바로 넣어 사용할 수 있습니다. .NET 6, .NET Framework 4.8, 혹은 .NET Core에서도 동작하는지 궁금하다면, 답은 자신 있는 “예”입니다.
+좋은 소식: 몇 줄의 Aspose.Pdf 코드만으로 **접근 가능한 PDF 내보내기**, 표와 제목 보존, 그리고 필요한 접근성 태그를 추가할 수 있습니다. 저수준 PDF 내부 구조를 직접 다룰 필요가 없습니다.
 
-## 사전 준비 – 시작하기 전에 필요한 것
+이 튜토리얼을 마치면 **문서 구조 PDF 내보내기**, **접근성 태그 추가 PDF**, 그리고 각 설정이 왜 중요한지 보여주는 완전 실행 가능한 예제를 얻을 수 있습니다. 외부 도구는 필요 없으며 .NET 프로젝트와 Aspose.Pdf 라이브러리만 있으면 됩니다.
 
-- **Visual Studio 2022** (또는 선호하는 IDE). 코드는 순수 C#이므로 VS Code에서도 작동합니다.
-- **.NET 6 SDK** (또는 그 이후 버전). 이전 프레임워크도 괜찮으며, 프로젝트 파일을 적절히 조정하면 됩니다.
-- **Aspose.Words for .NET** NuGet 패키지 – DOCX → PDF 변환 및 PDF/UA 준수를 처리하는 라이브러리입니다.
-- 제어 가능한 폴더에 배치한 샘플 **input.docx** 파일 (`YOUR_DIRECTORY`라고 부릅니다).
+## 사전 요구 사항
 
-아직 Aspose.Words를 추가하지 않았다면, 다음을 실행하세요:
+* .NET 6.0 이상 (코드는 .NET Framework 4.7+에서도 작동합니다).  
+* Aspose.Pdf for .NET (무료 체험판 또는 정식 라이선스 버전).  
+* C# 구문에 대한 기본적인 이해.  
+
+이미 Visual Studio 솔루션을 열어두었다면, NuGet 패키지를 설치하세요:
 
 ```bash
-dotnet add package Aspose.Words
+dotnet add package Aspose.Pdf
 ```
 
-이 한 줄 명령은 나중에 사용되는 `PdfSaveOptions` 클래스를 포함해 필요한 모든 것을 가져옵니다.
+> **프로 팁:** 평가 워터마크를 피하려면 앱 초기에 Aspose 라이선스를 등록하세요 (`License license = new License(); license.SetLicense("Aspose.Pdf.lic");`).
 
-![DOCX에서 접근 가능한 PDF로 변환 과정을 보여주는 다이어그램](accessible-pdf-diagram.png "접근 가능한 PDF 워크플로 만들기")
+---
 
-*Alt text: C#를 사용하여 DOCX 파일에서 접근 가능한 PDF를 만드는 방법을 보여주는 다이어그램.*
+![접근 가능한 PDF 예시 – 태그가 적용된 PDF 출력이 포함된 파일](create-accessible-pdf.png)
 
-## 접근 가능한 PDF 만들기 – 전체 코드 워크스루
+*이미지 대체 텍스트: “접근 가능한 PDF 예시 – 태그가 적용된 PDF 출력 보여줌.”*
 
-아래는 DOCX 파일을 로드하고 PDF/UA 준수를 설정한 뒤 접근 가능한 PDF로 저장하는 **완전하고 독립적인 프로그램**입니다. 콘솔 앱에 복사‑붙여넣기하고 F5를 눌러 실행하세요.
+## 1단계: **접근 가능한 PDF 만들기**를 위한 PDF 저장 옵션 생성
+
+먼저 Aspose에 접근 가능한 출력이 필요함을 알려줄 `PdfSaveOptions` 인스턴스를 만들어야 합니다. 이 객체는 모든 접근성 관련 스위치를 제어하는 중심 역할을 합니다.
 
 ```csharp
-using System;
-using Aspose.Words;
-using Aspose.Words.Saving;
+using Aspose.Pdf;
+using Aspose.Pdf.Saving;
 
-namespace AccessiblePdfDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        // Load or create a document first
+        Document doc = new Document();
+        // (Add pages/content here – see later steps)
+
+        // Step 1: Configure save options for accessibility
+        var accessiblePdfOptions = new PdfSaveOptions
         {
-            // -----------------------------------------------------------------
-            // Step 1: Load the source document (DOCX) – this is the file you want
-            // to convert docx to pdf. Adjust the path to point at your actual file.
-            // -----------------------------------------------------------------
-            string inputPath = @"YOUR_DIRECTORY\input.docx";
-            Document doc = new Document(inputPath);
+            // Enforce PDF/UA compliance – this is what makes the file "accessible"
+            Compliance = PdfCompliance.PdfUa,
 
-            // -----------------------------------------------------------------
-            // Step 2: Configure PDF save options and enable PDF/UA compliance.
-            // The Compliance property tells Aspose.Words to embed the required
-            // tags, structure elements, and metadata for accessibility.
-            // -----------------------------------------------------------------
-            PdfSaveOptions saveOptions = new PdfSaveOptions
-            {
-                // PDF/UA ensures the PDF meets accessibility standards.
-                // Use PdfUa2 for the newer PDF/UA‑2 level if your readers support it.
-                Compliance = PdfCompliance.PdfUa1
-            };
+            // Preserve the logical structure like headings, tables, lists
+            ExportDocumentStructure = true
+        };
+```
 
-            // -----------------------------------------------------------------
-            // Step 3: Save the document as an accessible PDF.
-            // The output will be fully tagged and ready for screen‑readers.
-            // -----------------------------------------------------------------
-            string outputPath = @"YOUR_DIRECTORY\Accessible.pdf";
-            doc.Save(outputPath, saveOptions);
+**왜 중요한가:**  
+`PdfCompliance.PdfUa`는 PDF 리더에게 파일이 Universal Accessibility (PDF/UA) 사양을 따르고 있음을 알립니다. 이 설정이 없으면 스크린 리더가 문서를 완전히 무시할 수 있습니다. `ExportDocumentStructure = true`는 내부 태그 트리가 시각적 레이아웃을 그대로 반영하도록 보장하는데, 이는 **문서 구조 PDF 내보내기** 요구 사항에 필수적입니다.
 
-            Console.WriteLine($"✅ Accessible PDF created at: {outputPath}");
+## 2단계: PDF/UA 준수 적용 – **접근 가능한 PDF 내보내기**
+
+앞 단계에서 `Compliance`를 설정했지만, PDF/UA 준수는 법적 접근성 표준(예: 미국의 Section 508)을 충족해야 하는 모든 조직에 *필수*임을 강조하고 싶습니다.
+
+```csharp
+        // Step 2: (Optional) Double‑check the compliance flag
+        if (accessiblePdfOptions.Compliance != PdfCompliance.PdfUa)
+        {
+            // Edge case: developer accidentally changed the setting later
+            accessiblePdfOptions.Compliance = PdfCompliance.PdfUa;
         }
+```
+
+**흔한 실수:** 일부 개발자는 `Compliance` 설정을 누락해 시각적으로는 괜찮지만 접근성 감사에서 실패하는 PDF를 만들곤 합니다. 플래그를 명시적으로 확인하면 나중에 코드에서 우연히 덮어쓰는 상황을 방지할 수 있습니다.
+
+## 3단계: 논리 구조 보존 – **문서 구조 PDF 내보내기**
+
+문서를 구성할 때 가능한 한 태그가 지정된 요소를 사용해야 합니다. 예를 들어 제목에는 `Heading` 객체를, 데이터 그리드에는 `Table` 객체를 사용합니다. `ExportDocumentStructure`를 켜두었기 때문에 Aspose가 이를 적절한 PDF 태그로 자동 매핑합니다.
+
+```csharp
+        // Step 3: Add a heading and a simple table
+        Page page = doc.Pages.Add();
+
+        // Heading – becomes <H1> in the PDF tag tree
+        var title = new TextFragment("Quarterly Sales Report")
+        {
+            TextState = { FontSize = 20, FontStyle = FontStyles.Bold }
+        };
+        page.Paragraphs.Add(title);
+
+        // Table – gets proper <Table> tags
+        var table = new Table
+        {
+            ColumnWidths = "100 100 100"
+        };
+        // Header row
+        var header = new Row();
+        header.Cells.Add("Region");
+        header.Cells.Add("Q1");
+        header.Cells.Add("Q2");
+        table.Rows.Add(header);
+
+        // Data row
+        var row = new Row();
+        row.Cells.Add("North America");
+        row.Cells.Add("$120K");
+        row.Cells.Add("$135K");
+        table.Rows.Add(row);
+
+        page.Paragraphs.Add(table);
+```
+
+**왜 도움이 되는가:** 네이티브 Aspose 객체를 사용하면 라이브러리가 올바른 PDF 태그(`\<H1\>`, `\<Table\>`, `\<TD\>` 등)를 생성할 수 있습니다. 이것이 바로 **문서 구조 PDF 내보내기**의 핵심이며, 시각적 레이아웃이 접근 가능한 태그 계층으로 그대로 반영됩니다.
+
+## 4단계: **접근성 태그 추가 PDF**로 파일 저장
+
+마지막으로 준비한 옵션을 사용해 문서를 디스크에 저장합니다. 이 한 번의 호출로 모든 태그, 준수 플래그, 구조 정보가 파일에 삽입됩니다.
+
+```csharp
+        // Step 4: Save the document as an accessible PDF file
+        string outputPath = @"C:\Temp\AccessibleReport.pdf";
+        doc.Save(outputPath, accessiblePdfOptions);
+
+        Console.WriteLine($"Accessible PDF saved to {outputPath}");
     }
 }
 ```
 
-### 이것이 작동하는 이유
+**예상 결과:** `AccessibleReport.pdf`를 Adobe Acrobat Pro에서 열고 *Accessibility > Full Check*를 실행하세요. 태그 누락, 제목 부재, PDF/UA 준수와 관련된 **오류 없음**이 표시됩니다. 이제 스크린 리더가 제목을 올바르게 알리고 표 셀을 정확한 순서대로 읽어줍니다.
 
-- **Loading the DOCX**는 Aspose.Words에게 문서 구조(헤딩, 표, alt‑text)에 대한 전체 접근 권한을 부여합니다. 그래서 docx를 pdf로 변환할 때 의미론적 정보가 유지됩니다.
-- **Setting `PdfCompliance.PdfUa1`**은 *PDF/UA를 활성화하는 방법*의 핵심입니다. 라이브러리에게 논리적 읽기 순서, 적절한 태그, 언어 정보를 삽입하도록 지시하며, 이는 접근성 감사자가 찾는 바로 그 요소입니다.
-- **Saving with the options**는 대부분의 PDF/UA 검증 도구(PAC 3, Adobe Acrobat 접근성 검사기 등)를 통과하는 파일을 생성합니다.
+### 빠른 검증 체크리스트
 
-## 접근 가능한 PDF 생성 – 결과 검증
+| 검사 항목 | 검증 방법 |
+|-------|---------------|
+| PDF/UA compliance | Acrobat → File → Properties → Description 탭 → PDF/A, PDF/UA 체크박스 |
+| Logical structure | Acrobat → Tools → Accessibility → Reading Order |
+| Tags present | Acrobat → View → Show/Hide → Navigation Panes → Tags |
 
-프로그램을 실행한 후, Adobe Acrobat Reader에서 `Accessible.pdf`를 엽니다:
+이 항목 중 하나라도 누락되었다면 `Compliance`와 `ExportDocumentStructure`가 `Save` 호출 전에 설정되어 있는지 다시 확인하세요.
 
-1. **Ctrl + Shift + U**를 누르세요(또는 *File → Properties → Description* 로 이동). *Compliance* 섹션에 “PDF/UA‑1”이 표시되어야 합니다.
-2. **Read Out Loud** 기능을 켭니다. 화면 읽기 프로그램이 올바른 순서대로 헤딩을 읽어야 합니다.
-3. 내장 **Accessibility Checker**(`View → Tools → Accessibility → Full Check`)를 실행합니다. 녹색 체크 표시가 나오거나 경미한 경고만 표시되어야 합니다.
+## 엣지 케이스 및 변형
 
-이미지에 alt‑text가 누락된 것을 발견하면, 원본 DOCX에 각 그림에 대한 alt‑text가 포함되어 있는지 확인하세요—Aspose.Words가 이를 자동으로 복사합니다.
+### 1. 오래된 Aspose 버전
+일부 레거시 버전(< 20.10)에서는 `PdfSaveOptions.Accessibility`를 사용했으며 `ExportDocumentStructure` 대신 해당 속성을 사용해야 합니다. 오래된 DLL을 사용 중이라면 다음과 같이 교체하세요:
 
-## 흔히 발생하는 실수 및 전문가 팁
+```csharp
+accessiblePdfOptions.Accessibility = true; // older APIs
+```
 
-| 문제점 | 발생 현상 | 해결 방법 |
-|---------|--------------|-----|
-| **Alt‑Text 누락** | 이미지가 장식용으로 처리되어 접근성이 손상됩니다. | Word에서 alt‑text를 추가합니다(`오른쪽 클릭 → Edit Alt Text`). |
-| **구버전 Aspose.Words 사용** | `PdfCompliance.PdfUa1`이 존재하지 않을 수 있습니다. | 최신 NuGet 패키지(≥ 22.12)로 업그레이드합니다. |
-| **읽기 전용 폴더에 저장** | `UnauthorizedAccessException` 예외가 발생합니다. | 출력 디렉터리가 쓰기 가능한지 확인하거나 `Path.GetTempPath()`를 사용합니다. |
-| **대용량 DOCX 파일** | 변환이 느리거나 메모리를 많이 사용할 수 있습니다. | `SaveOptions.Compression = PdfCompressionLevel.Best;` 로 설정하여 크기를 줄입니다. |
-| **PDF/UA‑2 필요** | 일부 조직에서는 최신 표준을 요구합니다. | `Compliance = PdfCompliance.PdfUa2;` 로 변경합니다(Aspose.Words 22.9+ 필요). |
+### 2. 사용자 정의 태그 추가
+매우 특수한 문서의 경우 `<Figure>`와 같은 사용자 정의 태그를 삽입해야 할 수 있습니다. Aspose는 `doc.TaggedContent`를 통해 태그 트리를 직접 조작할 수 있게 해줍니다. 이는 고급 주제이므로 고유 요구 사항이 있을 때 API 문서를 참고하세요.
 
-### 마주칠 수 있는 엣지 케이스
+### 3. 대용량 문서
+수백 페이지를 처리할 때는 메모리 사용량을 줄이기 위해 스트리밍 출력을 고려하세요:
 
-- **Encrypted DOCX** – 비밀번호를 제공하는 `LoadOptions` 객체로 로드한 뒤 일반적으로 진행합니다.
-- **Custom fonts** – 서버에 설치되지 않은 폰트를 사용한 경우, `saveOptions.FontEmbeddingMode = FontEmbeddingMode.Always;` 로 설정하여 임베드합니다.
-- **Complex tables** – Word에서 적절한 표 헤딩을 사용했는지 확인하세요; 그렇지 않으면 생성된 태그가 계층 구조를 전달하지 못할 수 있습니다.
+```csharp
+using (FileStream outStream = new FileStream(outputPath, FileMode.Create))
+{
+    doc.Save(outStream, accessiblePdfOptions);
+}
+```
 
-## 다른 언어에서 PDF/UA 활성화 방법 (빠른 참고)
+### 4. 다국어 지원
+PDF에 오른쪽에서 왼쪽으로 쓰는 스크립트(아라비아어, 히브리어 등)가 포함된 경우, 문서의 `PdfDocumentInfo.Language` 속성을 해당 ISO 코드로 설정하세요. 이렇게 하면 스크린 리더가 각 구간에 맞는 언어를 올바르게 인식합니다.
 
-이 가이드는 C#에 초점을 맞추지만, 동일한 개념이 Java, Python, Node.js에도 적용됩니다:
+```csharp
+doc.Info.Language = "ar-SA"; // Arabic (Saudi Arabia)
+```
 
-| 언어 | 핵심 설정 |
-|----------|-------------|
-| Java | `pdfOptions.setCompliance(PdfCompliance.PDF_UA_1);` |
-| Python | `pdf_options.compliance = aw.PdfCompliance.PDF_UA_1` |
-| Node.js | `pdfOptions.compliance = aw.PdfCompliance.PdfUa1;` |
+## 전체 작업 예제 (복사‑붙여넣기 가능)
 
-다른 스택에서 **docx를 pdf로 변환**해야 할 경우, 구문만 교체하면 됩니다—*`Compliance` 속성이 범용 스위치*입니다.
+```csharp
+using System;
+using Aspose.Pdf;
+using Aspose.Pdf.Saving;
 
-## 요약 – 우리가 달성한 것
+class AccessiblePdfDemo
+{
+    static void Main()
+    {
+        // License registration (optional but recommended)
+        // var license = new License();
+        // license.SetLicense("Aspose.Pdf.lic");
 
-- **Aspose.Words**를 사용해 DOCX 파일에서 접근 가능한 PDF를 생성했습니다.
-- **PDF/UA를 활성화하는 방법**(`PdfCompliance.PdfUa1`)을 시연했습니다.
-- **접근 가능한 PDF를 생성하고**, 준수를 검증하며 흔히 발생하는 실수를 피하는 방법을 보여주었습니다.
-- **완전하고 실행 가능한 예제**를 제공했으며, 이를 any .NET 프로젝트에 적용할 수 있습니다.
+        // 1️⃣ Create a new PDF document
+        Document doc = new Document();
 
-## 다음 단계 및 관련 주제
+        // 2️⃣ Add content with proper tags
+        Page page = doc.Pages.Add();
 
-- **Add bookmarks**: 탐색 가능한 목차를 만들려면 `PdfBookmark` 객체를 사용합니다.
-- **Inject custom tags**: 세밀한 제어를 위해 `PdfSaveOptions.TagStructure`를 더 깊이 탐구합니다.
-- **Batch conversion**: DOCX 파일이 들어 있는 폴더를 순회하여 접근 가능한 PDF 라이브러리를 생성합니다.
-- **Explore PDF/A**: `PdfCompliance.PdfA1b`를 설정해 접근성을 장기 보존과 결합합니다.
+        var title = new TextFragment("Quarterly Sales Report")
+        {
+            TextState = { FontSize = 20, FontStyle = FontStyles.Bold }
+        };
+        page.Paragraphs.Add(title);
 
-자유롭게 실험해 보세요—소스 DOCX를 교체하거나 PDF/UA‑2를 시도하거나, 이 코드를 웹 API에 통합해 필요 시 PDF를 생성하도록 할 수 있습니다. *PDF/UA를 활성화하는 방법*과 *접근 가능한 PDF를 생성하는 방법*을 알면 가능성은 무한합니다.
+        var table = new Table { ColumnWidths = "100 100 100" };
+        var header = new Row();
+        header.Cells.Add("Region");
+        header.Cells.Add("Q1");
+        header.Cells.Add("Q2");
+        table.Rows.Add(header);
 
-질문이 있거나 여기서 다루지 않은 엣지 케이스에 부딪혔다면, 댓글을 남겨 주세요. 함께 해결해 보겠습니다. 즐거운 코딩 되세요!
+        var data = new Row();
+        data.Cells.Add("North America");
+        data.Cells.Add("$120K");
+        data.Cells.Add("$135K");
+        table.Rows.Add(data);
+        page.Paragraphs.Add(table);
 
-## 다음에 배워야 할 내용은?
+        // 3️⃣ Configure accessibility options
+        var accessiblePdfOptions = new PdfSaveOptions
+        {
+            Compliance = PdfCompliance.PdfUa,
+            ExportDocumentStructure = true
+        };
 
-다음 튜토리얼들은 이 가이드에서 시연한 기술을 기반으로 하는 밀접한 관련 주제를 다룹니다. 각 자료는 완전한 코드 예제와 단계별 설명을 포함하여 추가 API 기능을 마스터하고 프로젝트에서 대체 구현 방식을 탐색하는 데 도움을 줍니다.
+        // 4️⃣ Save the accessible PDF
+        string outPath = @"C:\Temp\AccessibleReport.pdf";
+        doc.Save(outPath, accessiblePdfOptions);
 
-- [접근 가능한 PDF 만들기 – PDF/UA 준수를 위한 단계별 가이드](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
-- [Word에서 접근 가능한 PDF 만들기 – 완전 가이드](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
-- [C#에서 접근 가능한 PDF 만들기 – PDF 접근성 튜토리얼](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
+        Console.WriteLine($"✅ Accessible PDF created at {outPath}");
+    }
+}
+```
+
+프로그램을 실행하고 결과 파일을 열면 완벽히 태그가 지정되고 PDF/UA‑준수된 문서를 확인할 수 있습니다.
+
+## 결론
+
+우리는 이제 **접근 가능한 PDF** 파일을 C#에서 처음부터 만들었으며, **접근 가능한 PDF 내보내기**, 논리적 계층 보존(**문서 구조 PDF 내보내기**), 그리고 필요한 **접근성 태그 추가 PDF** 설정을 학습했습니다. 주요 요점은 다음과 같습니다:
+
+* `PdfSaveOptions.Compliance = PdfCompliance.PdfUa`를 사용해 PDF/UA 준수를 명시합니다.  
+* `ExportDocumentStructure`를 켜서 제목, 표, 리스트가 적절한 태그로 변환되도록 합니다.  
+* Aspose의 고수준 객체(heading, table 등)로 콘텐츠를 구성하면 라이브러리가 자동으로 태깅을 처리합니다.  
+
+다음 단계로는 대체 텍스트가 포함된 이미지 추가, PDF/UA‑호환 폰트 삽입, 혹은 수백 개 보고서의 배치 처리 자동화 등을 탐색해볼 수 있습니다. 모든 시나리오는 여기서 제시한 저장 옵션이나 태그 트리를 조정하는 동일한 패턴을 따릅니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

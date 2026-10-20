@@ -1,50 +1,25 @@
 ---
 category: general
-date: 2026-06-30
-description: Schnell barrierefreie PDFs in C# erstellen. Erfahren Sie, wie Sie DOCX
-  in PDF konvertieren, barrierefreie PDFs generieren und die PDF/UA‑Konformität mit
-  klaren Codebeispielen aktivieren.
+date: 2026-02-18
+description: Erstellen Sie ein barrierefreies PDF in C# mit Aspose.Pdf. Erfahren Sie,
+  wie Sie ein barrierefreies PDF exportieren, Zugänglichkeits‑Tags hinzufügen und
+  die Dokumentenstruktur des PDFs erhalten.
 draft: false
 keywords:
 - create accessible pdf
-- convert docx to pdf
-- generate accessible pdf
-- how to enable pdf/ua
+- export accessible pdf
+- export document structure pdf
+- add accessibility tags pdf
 language: de
-og_description: Erstellen Sie barrierefreie PDFs in C# mit Aspose.Words. Erfahren
-  Sie, wie Sie DOCX in PDF konvertieren, barrierefreie PDFs erzeugen und die PDF/UA‑Konformität
-  aktivieren.
-og_title: Barrierefreies PDF in C# erstellen – Vollständige Anleitung
-schemas:
-- author: Aspose
-  dateModified: '2026-06-30'
-  description: Create accessible PDF in C# quickly. Learn how to convert docx to pdf,
-    generate accessible pdf, and enable PDF/UA compliance with clear code examples.
-  headline: Create Accessible PDF in C# – Step‑by‑Step Guide
-  type: TechArticle
-- description: Create accessible PDF in C# quickly. Learn how to convert docx to pdf,
-    generate accessible pdf, and enable PDF/UA compliance with clear code examples.
-  name: Create Accessible PDF in C# – Step‑by‑Step Guide
-  steps:
-  - name: Press **Ctrl + Shift + U** (or go to *File → Properties → Description*).
-      You should see “PDF/UA‑1” under the *Compliance* section.
-    text: Press **Ctrl + Shift + U** (or go to *File → Properties → Description*).
-      You should see “PDF/UA‑1” under the *Compliance* section.
-  - name: Turn on the **Read Out Loud** feature. The screen‑reader should announce
-      headings in the correct order.
-    text: Turn on the **Read Out Loud** feature. The screen‑reader should announce
-      headings in the correct order.
-  - name: Run the built‑in **Accessibility Checker** (`View → Tools → Accessibility
-      → Full Check`). You should get a green checkmark or only minor warnings.
-    text: Run the built‑in **Accessibility Checker** (`View → Tools → Accessibility
-      → Full Check`). You should get a green checkmark or only minor warnings.
-  type: HowTo
+og_description: Erstellen Sie schnell barrierefreie PDFs in C#. Dieser Leitfaden zeigt,
+  wie man barrierefreie PDFs exportiert, Zugänglichkeits‑Tags hinzufügt und die Dokumentenstruktur
+  beibehält.
+og_title: Barrierefreies PDF in C# erstellen – Komplettanleitung
 tags:
-- PDF
-- C#
-- Accessibility
-- Aspose.Words
-title: Erstelle ein barrierefreies PDF in C# – Schritt‑für‑Schritt‑Anleitung
+- pdf
+- csharp
+- accessibility
+title: Barrierefreies PDF in C# erstellen – Schritt‑für‑Schritt‑Anleitung
 url: /de/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-step-by-step-guide/
 ---
 
@@ -52,144 +27,241 @@ url: /de/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-step-by-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Erstellen eines barrierefreien PDFs in C# – Vollständiger Programmierleitfaden
+# Erstellen von barrierefreien PDFs in C# – Schritt‑für‑Schritt‑Anleitung
 
-Haben Sie jemals **ein barrierefreies PDF** aus einem Word-Dokument erstellen müssen, wussten aber nicht, wo Sie anfangen sollten? In diesem Tutorial führen wir Sie durch die genauen Schritte, um **docx in pdf** zu konvertieren und dabei sicherzustellen, dass das Ergebnis den PDF/UA‑Barrierefreiheitsstandards entspricht. Am Ende wissen Sie, wie man ein barrierefreies PDF erzeugt, wie man PDF/UA aktiviert und warum jede Einstellung wichtig ist.
+Haben Sie jemals **barrierefreie PDFs** aus einer C#‑Anwendung erstellen müssen, wussten aber nicht, wo Sie anfangen sollten? Nach meiner Erfahrung besteht die größte Hürde darin, sicherzustellen, dass das PDF dem PDF/UA‑Standard entspricht und gleichzeitig exakt wie das Originaldokument aussieht.  
 
-Wir behandeln alles vom erforderlichen NuGet‑Paket bis zur abschließenden Überprüfung, dass Ihr PDF wirklich barrierefrei ist. Kein Schnickschnack – nur ein sofort einsatzbereites Beispiel, das Sie in jedes .NET‑Projekt einbinden können. Wenn Sie sich fragen, ob das mit .NET 6, .NET Framework 4.8 oder sogar .NET Core funktioniert, lautet die Antwort ein klares „Ja“.
+Gute Neuigkeiten: Mit nur wenigen Zeilen Aspose.Pdf‑Code können Sie **barrierefreie PDFs exportieren**, Tabellen und Überschriften erhalten und sogar die notwendigen Barrierefreiheits‑Tags hinzufügen, ohne in die Low‑Level‑PDF‑Interna einzutauchen.
 
-## Voraussetzungen – Was Sie vor dem Start benötigen
+In diesem Tutorial erhalten Sie ein vollständig ausführbares Beispiel, das zeigt, wie man **PDF‑Dokumentstruktur exportiert**, wie man **Barrierefreiheits‑Tags hinzufügt** und warum jede Einstellung wichtig ist. Keine externen Werkzeuge erforderlich – nur ein .NET‑Projekt und die Aspose.Pdf‑Bibliothek.
 
-- **Visual Studio 2022** (oder jede IDE Ihrer Wahl). Der Code ist reines C#, daher funktioniert VS Code ebenfalls.
-- **.NET 6 SDK** (oder neuer). Ältere Frameworks sind in Ordnung, passen Sie einfach die Projektdatei entsprechend an.
-- **Aspose.Words for .NET** NuGet‑Paket – dies ist die Bibliothek, die die DOCX → PDF‑Konvertierung und PDF/UA‑Konformität übernimmt.
-- Eine Beispiel-**input.docx**‑Datei, die in einem von Ihnen kontrollierten Ordner liegt (wir nennen ihn `YOUR_DIRECTORY`).
+## Voraussetzungen
 
-Falls Sie Aspose.Words noch nicht hinzugefügt haben, führen Sie aus:
+* .NET 6.0 oder höher (der Code funktioniert auch unter .NET Framework 4.7+).  
+* Aspose.Pdf für .NET (Kostenlose Testversion oder lizenzierte Version).  
+* Grundlegende Kenntnisse der C#‑Syntax.  
+
+Wenn Sie bereits eine Visual Studio‑Lösung geöffnet haben, installieren Sie das NuGet‑Paket:
 
 ```bash
-dotnet add package Aspose.Words
+dotnet add package Aspose.Pdf
 ```
 
-![Diagramm, das die Konvertierung von DOCX zu einem barrierefreien PDF zeigt](accessible-pdf-diagram.png "Workflow zum Erstellen eines barrierefreien PDFs")
-*Alt-Text: Diagramm, das zeigt, wie man mit C# ein barrierefreies PDF aus einer DOCX‑Datei erstellt.*
+> **Profi‑Tipp:** Registrieren Sie Ihre Aspose‑Lizenz frühzeitig in der Anwendung (`License license = new License(); license.SetLicense("Aspose.Pdf.lic");`), um das Evaluations‑Wasserzeichen zu vermeiden.
 
-## Barrierefreies PDF erstellen – Vollständiger Code‑Durchlauf
+---
 
-Unten finden Sie ein **vollständiges, eigenständiges Programm**, das eine DOCX‑Datei lädt, die PDF/UA‑Konformität konfiguriert und ein barrierefreies PDF speichert. Kopieren Sie es in eine Konsolen‑App und drücken Sie F5.
+![Beispiel für ein barrierefreies PDF – die resultierende Datei enthält korrekte Tags und Struktur](create-accessible-pdf.png)
+
+*Bild‑Alt‑Text: “Beispiel für ein barrierefreies PDF, das getaggte PDF‑Ausgabe zeigt.”*
+
+## Schritt 1: PDF‑Speicheroptionen erstellen, um **barrierefreies PDF zu erstellen**
+
+Das Erste, was wir benötigen, ist eine `PdfSaveOptions`‑Instanz, die Aspose mitteilt, dass wir eine barrierefreie Ausgabe wollen. Dieses Objekt ist das Steuerzentrum für alle barrierefreiheitsbezogenen Schalter.
 
 ```csharp
-using System;
-using Aspose.Words;
-using Aspose.Words.Saving;
+using Aspose.Pdf;
+using Aspose.Pdf.Saving;
 
-namespace AccessiblePdfDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        // Load or create a document first
+        Document doc = new Document();
+        // (Add pages/content here – see later steps)
+
+        // Step 1: Configure save options for accessibility
+        var accessiblePdfOptions = new PdfSaveOptions
         {
-            // -----------------------------------------------------------------
-            // Step 1: Load the source document (DOCX) – this is the file you want
-            // to convert docx to pdf. Adjust the path to point at your actual file.
-            // -----------------------------------------------------------------
-            string inputPath = @"YOUR_DIRECTORY\input.docx";
-            Document doc = new Document(inputPath);
+            // Enforce PDF/UA compliance – this is what makes the file "accessible"
+            Compliance = PdfCompliance.PdfUa,
 
-            // -----------------------------------------------------------------
-            // Step 2: Configure PDF save options and enable PDF/UA compliance.
-            // The Compliance property tells Aspose.Words to embed the required
-            // tags, structure elements, and metadata for accessibility.
-            // -----------------------------------------------------------------
-            PdfSaveOptions saveOptions = new PdfSaveOptions
-            {
-                // PDF/UA ensures the PDF meets accessibility standards.
-                // Use PdfUa2 for the newer PDF/UA‑2 level if your readers support it.
-                Compliance = PdfCompliance.PdfUa1
-            };
+            // Preserve the logical structure like headings, tables, lists
+            ExportDocumentStructure = true
+        };
+```
 
-            // -----------------------------------------------------------------
-            // Step 3: Save the document as an accessible PDF.
-            // The output will be fully tagged and ready for screen‑readers.
-            // -----------------------------------------------------------------
-            string outputPath = @"YOUR_DIRECTORY\Accessible.pdf";
-            doc.Save(outputPath, saveOptions);
+**Warum das wichtig ist:**  
+`PdfCompliance.PdfUa` signalisiert PDF‑Readern, dass die Datei der Universal Accessibility (PDF/UA)‑Spezifikation entspricht. Ohne diese Einstellung könnten Screen‑Reader das Dokument vollständig ignorieren. `ExportDocumentStructure = true` stellt sicher, dass der interne Tag‑Baum das visuelle Layout widerspiegelt, was für die Anforderung **export document structure pdf** entscheidend ist.
 
-            Console.WriteLine($"✅ Accessible PDF created at: {outputPath}");
+## Schritt 2: PDF/UA‑Konformität erzwingen – **Barrierefreies PDF exportieren**
+
+Obwohl wir `Compliance` im vorherigen Schritt gesetzt haben, ist es wichtig zu betonen, dass PDF/UA‑Konformität ein *Muss* für jede Organisation ist, die gesetzliche Barrierefreiheitsstandards erfüllen muss (z. B. Section 508 in den USA).
+
+```csharp
+        // Step 2: (Optional) Double‑check the compliance flag
+        if (accessiblePdfOptions.Compliance != PdfCompliance.PdfUa)
+        {
+            // Edge case: developer accidentally changed the setting later
+            accessiblePdfOptions.Compliance = PdfCompliance.PdfUa;
         }
+```
+
+**Häufiges Stolpersteine:** Einige Entwickler vergessen, `Compliance` zu setzen, und erhalten ein PDF, das zwar gut aussieht, aber bei einer Barrierefreiheits‑Prüfung durchfällt. Durch das explizite Prüfen des Flags schützen Sie sich vor unbeabsichtigten Überschreibungen später im Code.
+
+## Schritt 3: Logische Struktur erhalten – **PDF‑Dokumentstruktur exportieren**
+
+Wenn Sie Inhalt zum Dokument hinzufügen, sollten Sie nach Möglichkeit getaggte Elemente verwenden. Verwenden Sie beispielsweise `Heading`‑Objekte für Titel und `Table`‑Objekte für Datenraster. Aspose mappt diese automatisch zu den entsprechenden PDF‑Tags, weil wir `ExportDocumentStructure` aktiviert haben.
+
+```csharp
+        // Step 3: Add a heading and a simple table
+        Page page = doc.Pages.Add();
+
+        // Heading – becomes <H1> in the PDF tag tree
+        var title = new TextFragment("Quarterly Sales Report")
+        {
+            TextState = { FontSize = 20, FontStyle = FontStyles.Bold }
+        };
+        page.Paragraphs.Add(title);
+
+        // Table – gets proper <Table> tags
+        var table = new Table
+        {
+            ColumnWidths = "100 100 100"
+        };
+        // Header row
+        var header = new Row();
+        header.Cells.Add("Region");
+        header.Cells.Add("Q1");
+        header.Cells.Add("Q2");
+        table.Rows.Add(header);
+
+        // Data row
+        var row = new Row();
+        row.Cells.Add("North America");
+        row.Cells.Add("$120K");
+        row.Cells.Add("$135K");
+        table.Rows.Add(row);
+
+        page.Paragraphs.Add(table);
+```
+
+**Warum das hilft:** Durch die Verwendung nativer Aspose‑Objekte kann die Bibliothek die korrekten PDF‑Tags (`<H1>`, `<Table>`, `<TD>` usw.) erzeugen. Das ist das Herzstück von **export document structure pdf** – das visuelle Layout wird in einer barrierefreien Tag‑Hierarchie widergespiegelt.
+
+## Schritt 4: Datei speichern mit **Barrierefreiheits‑Tags hinzufügen PDF**
+
+Abschließend schreiben wir das Dokument mit den vorbereiteten Optionen auf die Festplatte. Dieser einzelne Aufruf bettet alle Tags, Konformitäts‑Flags und strukturellen Informationen ein.
+
+```csharp
+        // Step 4: Save the document as an accessible PDF file
+        string outputPath = @"C:\Temp\AccessibleReport.pdf";
+        doc.Save(outputPath, accessiblePdfOptions);
+
+        Console.WriteLine($"Accessible PDF saved to {outputPath}");
     }
 }
 ```
 
-### Warum das funktioniert
+**Erwartetes Ergebnis:** Öffnen Sie `AccessibleReport.pdf` in Adobe Acrobat Pro und führen Sie *Accessibility > Full Check* aus. Sie sollten **Keine Fehler** bezüglich fehlender Tags, Überschriften oder PDF/UA‑Konformität sehen. Screen‑Reader werden nun die Überschrift ansagen und die Tabellenzellen in der richtigen Reihenfolge vorlesen.
 
-- **Loading the DOCX** gibt Aspose.Words vollen Zugriff auf die Dokumentstruktur (Überschriften, Tabellen, Alt‑Text). Deshalb behält die Konvertierung von docx zu pdf semantische Informationen bei.
-- **Setting `PdfCompliance.PdfUa1`** ist der Schlüssel zu *how to enable PDF/UA*. Es weist die Bibliothek an, eine logische Lesereihenfolge, korrekte Tags und Sprachinformationen einzubetten – genau das, was Prüfer für Barrierefreiheit suchen.
-- **Saving with the options** erzeugt eine Datei, die die meisten PDF/UA‑Validierungstools besteht (z. B. PAC 3, Adobe Acrobat‑Barrierefreiheitsprüfer).
+### Schnelle Prüfliste
 
-## Barrierefreies PDF erzeugen – Ergebnis verifizieren
+| Prüfung | Wie prüfen |
+|-------|---------------|
+| PDF/UA‑Konformität | Acrobat → Datei → Eigenschaften → Registerkarte Beschreibung → Kontrollkästchen PDF/A, PDF/UA |
+| Logische Struktur | Acrobat → Werkzeuge → Barrierefreiheit → Lesereihenfolge |
+| Tags vorhanden | Acrobat → Ansicht → Anzeigen/Verbergen → Navigationsbereiche → Tags |
 
-Nachdem Sie das Programm ausgeführt haben, öffnen Sie `Accessible.pdf` in Adobe Acrobat Reader:
+Falls einer dieser Punkte fehlt, überprüfen Sie erneut, dass `Compliance` und `ExportDocumentStructure` gesetzt sind, bevor Sie `Save` aufrufen.
 
-1. Drücken Sie **Strg + Shift + U** (oder gehen Sie zu *Datei → Eigenschaften → Beschreibung*). Sie sollten „PDF/UA‑1“ im Abschnitt *Compliance* sehen.
-2. Aktivieren Sie die **Read Out Loud**‑Funktion. Der Bildschirmleser sollte die Überschriften in der richtigen Reihenfolge ansagen.
-3. Führen Sie den integrierten **Accessibility Checker** aus (`View → Tools → Accessibility → Full Check`). Sie sollten ein grünes Häkchen erhalten oder nur geringfügige Warnungen.
+## Sonderfälle & Variationen
 
-Falls Sie fehlenden Alt‑Text bei Bildern bemerken, stellen Sie sicher, dass das Quell‑DOCX für jedes Bild Alt‑Text enthält – Aspose.Words kopiert diese automatisch.
+### 1. Ältere Aspose‑Versionen
+Einige ältere Versionen (< 20.10) verwendeten `PdfSaveOptions.Accessibility` anstelle von `ExportDocumentStructure`. Wenn Sie auf einer älteren DLL feststecken, ersetzen Sie die Eigenschaft entsprechend:
 
-## Häufige Fallstricke & Profi‑Tipps
+```csharp
+accessiblePdfOptions.Accessibility = true; // older APIs
+```
 
-| Problem | Was passiert | Lösung |
-|---------|--------------|--------|
-| **Missing Alt‑Text** | Bilder werden dekorativ und brechen die Barrierefreiheit. | Fügen Sie Alt‑Text in Word hinzu (`Rechts‑klick → Edit Alt Text`). |
-| **Using older Aspose.Words version** | `PdfCompliance.PdfUa1` existiert möglicherweise nicht. | Aktualisieren Sie auf das neueste NuGet‑Paket (≥ 22.12). |
-| **Saving to a read‑only folder** | `UnauthorizedAccessException` wird ausgelöst. | Stellen Sie sicher, dass das Ausgabeverzeichnis beschreibbar ist, oder verwenden Sie `Path.GetTempPath()`. |
-| **Large DOCX files** | Die Konvertierung kann langsam oder speicherintensiv sein. | Setzen Sie `SaveOptions.Compression = PdfCompressionLevel.Best;`, um die Größe zu reduzieren. |
-| **PDF/UA‑2 needed** | Einige Organisationen verlangen den neueren Standard. | Ändern Sie zu `Compliance = PdfCompliance.PdfUa2;` (erfordert Aspose.Words 22.9+). |
+### 2. Benutzerdefinierte Tags hinzufügen
+Für stark spezialisierte Dokumente müssen Sie möglicherweise benutzerdefinierte Tags einfügen (z. B. `<Figure>`). Aspose ermöglicht die direkte Manipulation des Tag‑Baums über `doc.TaggedContent`. Das ist ein fortgeschrittenes Thema – schauen Sie sich die API‑Dokumentation an, wenn Sie auf besondere Anforderungen stoßen.
 
-### Randfälle, denen Sie begegnen könnten
+### 3. Große Dokumente
+Beim Verarbeiten von Hunderten von Seiten sollten Sie das Ausgabe‑Streaming in Betracht ziehen, um hohen Speicherverbrauch zu vermeiden:
 
-- **Encrypted DOCX** – Laden Sie sie mit einem `LoadOptions`‑Objekt, das das Passwort bereitstellt, und fahren Sie wie gewohnt fort.
-- **Custom fonts** – Wenn die Quelle Schriftarten verwendet, die nicht auf dem Server installiert sind, betten Sie sie ein, indem Sie `saveOptions.FontEmbeddingMode = FontEmbeddingMode.Always;` setzen.
-- **Complex tables** – Stellen Sie sicher, dass Sie in Word korrekte Tabellenüberschriften verwenden; andernfalls vermitteln die erzeugten Tags möglicherweise nicht die Hierarchie.
+```csharp
+using (FileStream outStream = new FileStream(outputPath, FileMode.Create))
+{
+    doc.Save(outStream, accessiblePdfOptions);
+}
+```
 
-## PDF/UA in anderen Sprachen aktivieren (Kurzreferenz)
+### 4. Mehrsprachige Unterstützung
+Enthält Ihr PDF Rechts‑nach‑Links‑Schriften (Arabisch, Hebräisch), setzen Sie die Eigenschaft `PdfDocumentInfo.Language` des Dokuments auf den entsprechenden ISO‑Code. Dadurch wählen Screen‑Reader die richtige Sprache für jedes Segment.
 
-Obwohl dieser Leitfaden sich auf C# konzentriert, gelten die gleichen Konzepte für Java, Python oder Node.js:
+```csharp
+doc.Info.Language = "ar-SA"; // Arabic (Saudi Arabia)
+```
 
-| Sprache | Wichtige Einstellung |
-|----------|----------------------|
-| Java | `pdfOptions.setCompliance(PdfCompliance.PDF_UA_1);` |
-| Python | `pdf_options.compliance = aw.PdfCompliance.PDF_UA_1` |
-| Node.js | `pdfOptions.compliance = aw.PdfCompliance.PdfUa1;` |
+## Vollständiges funktionierendes Beispiel (Copy‑Paste‑bereit)
 
-Falls Sie jemals **docx in pdf** in einem anderen Stack konvertieren müssen, tauschen Sie einfach die Syntax aus – *die `Compliance`‑Eigenschaft ist der universelle Schalter*.
+```csharp
+using System;
+using Aspose.Pdf;
+using Aspose.Pdf.Saving;
 
-## Zusammenfassung – Was wir erreicht haben
+class AccessiblePdfDemo
+{
+    static void Main()
+    {
+        // License registration (optional but recommended)
+        // var license = new License();
+        // license.SetLicense("Aspose.Pdf.lic");
 
-- **Barrierefreies PDF erstellt** aus einer DOCX‑Datei mit Aspose.Words.
-- Demonstriert **wie man PDF/UA aktiviert** (`PdfCompliance.PdfUa1`).
-- Gezeigt, wie man **ein barrierefreies PDF erzeugt**, die Konformität prüft und häufige Fallstricke vermeidet.
-- Bereitgestellt ein **vollständiges, ausführbares Beispiel**, das Sie an jedes .NET‑Projekt anpassen können.
+        // 1️⃣ Create a new PDF document
+        Document doc = new Document();
 
-## Nächste Schritte & verwandte Themen
+        // 2️⃣ Add content with proper tags
+        Page page = doc.Pages.Add();
 
-- **Lesezeichen hinzufügen**: Verwenden Sie `PdfBookmark`‑Objekte, um ein navigierbares Inhaltsverzeichnis zu erstellen.
-- **Benutzerdefinierte Tags einfügen**: Tauchen Sie tiefer in `PdfSaveOptions.TagStructure` ein für eine feinkörnige Steuerung.
-- **Stapelkonvertierung**: Durchlaufen Sie einen Ordner mit DOCX‑Dateien, um eine Bibliothek barrierefreier PDFs zu erzeugen.
-- **PDF/A erkunden**: Kombinieren Sie Barrierefreiheit mit langfristiger Archivierung, indem Sie `PdfCompliance.PdfA1b` setzen.
+        var title = new TextFragment("Quarterly Sales Report")
+        {
+            TextState = { FontSize = 20, FontStyle = FontStyles.Bold }
+        };
+        page.Paragraphs.Add(title);
 
-Fühlen Sie sich frei zu experimentieren – tauschen Sie die Quell‑DOCX aus, probieren Sie PDF/UA‑2 oder integrieren Sie diesen Code in eine Web‑API, die PDFs auf Abruf erzeugt. Der Himmel ist die Grenze, wenn Sie *wie man PDF/UA aktiviert* und *barrierefreie PDFs erzeugt* korrekt kennen.
+        var table = new Table { ColumnWidths = "100 100 100" };
+        var header = new Row();
+        header.Cells.Add("Region");
+        header.Cells.Add("Q1");
+        header.Cells.Add("Q2");
+        table.Rows.Add(header);
 
-Haben Sie Fragen oder stoßen Sie auf einen Randfall, der hier nicht behandelt wird? Hinterlassen Sie einen Kommentar, und wir finden gemeinsam eine Lösung. Viel Spaß beim Coden!
+        var data = new Row();
+        data.Cells.Add("North America");
+        data.Cells.Add("$120K");
+        data.Cells.Add("$135K");
+        table.Rows.Add(data);
+        page.Paragraphs.Add(table);
 
-## Was sollten Sie als Nächstes lernen?
+        // 3️⃣ Configure accessibility options
+        var accessiblePdfOptions = new PdfSaveOptions
+        {
+            Compliance = PdfCompliance.PdfUa,
+            ExportDocumentStructure = true
+        };
 
-Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, zusätzliche API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
+        // 4️⃣ Save the accessible PDF
+        string outPath = @"C:\Temp\AccessibleReport.pdf";
+        doc.Save(outPath, accessiblePdfOptions);
 
-- [Barrierefreies PDF erstellen – Schritt‑für‑Schritt‑Leitfaden für PDF/UA‑Konformität](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
-- [Barrierefreies PDF aus Word erstellen – Komplett‑Leitfaden](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
-- [Barrierefreies PDF in C# – PDF‑Barrierefreiheits‑Tutorial](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
+        Console.WriteLine($"✅ Accessible PDF created at {outPath}");
+    }
+}
+```
+
+Führen Sie das Programm aus, öffnen Sie die resultierende Datei, und Sie sehen ein perfekt getaggtes, PDF/UA‑konformes Dokument, das für jede unterstützende Technologie bereit ist.
+
+## Fazit
+
+Wir haben gerade **barrierefreie PDFs** in C# von Grund auf **erstellt**, gelernt, wie man **barrierefreie PDFs exportiert**, die logische Hierarchie (**PDF‑Dokumentstruktur exportieren**) bewahrt und die notwendigen **Barrierefreiheits‑Tags hinzufügt**. Die wichtigsten Erkenntnisse sind:
+
+* Verwenden Sie `PdfSaveOptions.Compliance = PdfCompliance.PdfUa`, um PDF/UA‑Konformität zu signalisieren.  
+* Aktivieren Sie `ExportDocumentStructure`, damit Überschriften, Tabellen und Listen zu korrekten Tags werden.  
+* Erstellen Sie Ihren Inhalt mit Asposes High‑Level‑Objekten (Überschriften, Tabellen), damit die Bibliothek das Tagging automatisch übernimmt.  
+
+Als Nächstes könnten Sie das Hinzufügen von Bildern mit Alternativtext, das Einbetten von PDF/UA‑kompatiblen Schriften oder die Automatisierung der Stapelverarbeitung von Hunderten von Berichten erkunden. All diese Szenarien folgen dem von uns beschriebenen Muster – passen Sie einfach die Speicheroptionen oder den Tag‑Baum nach Bedarf an.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

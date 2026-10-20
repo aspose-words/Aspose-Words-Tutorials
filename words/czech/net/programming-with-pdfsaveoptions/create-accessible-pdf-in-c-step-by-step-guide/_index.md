@@ -1,47 +1,22 @@
 ---
 category: general
-date: 2026-06-30
-description: Rychle vytvořte přístupný PDF v C#. Naučte se, jak převést docx na PDF,
-  generovat přístupný PDF a zajistit shodu s PDF/UA pomocí jasných ukázek kódu.
+date: 2026-02-18
+description: Vytvořte přístupný PDF v C# pomocí Aspose.Pdf. Naučte se, jak exportovat
+  přístupný PDF, přidávat značky přístupnosti a zachovat strukturu dokumentu PDF.
 draft: false
 keywords:
 - create accessible pdf
-- convert docx to pdf
-- generate accessible pdf
-- how to enable pdf/ua
+- export accessible pdf
+- export document structure pdf
+- add accessibility tags pdf
 language: cs
-og_description: Vytvořte přístupný PDF v C# s Aspose.Words. Naučte se, jak převést
-  DOCX na PDF, generovat přístupný PDF a zajistit soulad s PDF/UA.
+og_description: Rychle vytvořte přístupný PDF v C#. Tento průvodce ukazuje, jak exportovat
+  přístupný PDF, přidat značky přístupnosti a zachovat strukturu dokumentu PDF.
 og_title: Vytvořte přístupný PDF v C# – kompletní průvodce
-schemas:
-- author: Aspose
-  dateModified: '2026-06-30'
-  description: Create accessible PDF in C# quickly. Learn how to convert docx to pdf,
-    generate accessible pdf, and enable PDF/UA compliance with clear code examples.
-  headline: Create Accessible PDF in C# – Step‑by‑Step Guide
-  type: TechArticle
-- description: Create accessible PDF in C# quickly. Learn how to convert docx to pdf,
-    generate accessible pdf, and enable PDF/UA compliance with clear code examples.
-  name: Create Accessible PDF in C# – Step‑by‑Step Guide
-  steps:
-  - name: Press **Ctrl + Shift + U** (or go to *File → Properties → Description*).
-      You should see “PDF/UA‑1” under the *Compliance* section.
-    text: Press **Ctrl + Shift + U** (or go to *File → Properties → Description*).
-      You should see “PDF/UA‑1” under the *Compliance* section.
-  - name: Turn on the **Read Out Loud** feature. The screen‑reader should announce
-      headings in the correct order.
-    text: Turn on the **Read Out Loud** feature. The screen‑reader should announce
-      headings in the correct order.
-  - name: Run the built‑in **Accessibility Checker** (`View → Tools → Accessibility
-      → Full Check`). You should get a green checkmark or only minor warnings.
-    text: Run the built‑in **Accessibility Checker** (`View → Tools → Accessibility
-      → Full Check`). You should get a green checkmark or only minor warnings.
-  type: HowTo
 tags:
-- PDF
-- C#
-- Accessibility
-- Aspose.Words
+- pdf
+- csharp
+- accessibility
 title: Vytvořte přístupný PDF v C# – krok za krokem
 url: /cs/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-step-by-step-guide/
 ---
@@ -50,147 +25,241 @@ url: /cs/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-step-by-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvoření přístupného PDF v C# – Kompletní programový průvodce
+# Vytvoření přístupného PDF v C# – krok za krokem průvodce
 
-Už jste někdy potřebovali **vytvořit přístupné PDF** z dokumentu Word, ale nevedeli jste, kde začít? V tomto tutoriálu vás provedeme přesné kroky k **převodu docx na pdf**, přičemž zajistíme, že výsledek splňuje standardy přístupnosti PDF/UA. Na konci budete vědět, jak generovat přístupné PDF, jak povolit PDF/UA a proč je každé nastavení důležité.
+Už jste někdy potřebovali **vytvořit přístupné PDF** soubory z aplikace v C#, ale nebyli jste si jisti, kde začít? Z mé zkušenosti je největší překážkou zajistit, aby PDF splňovalo standard PDF/UA a zároveň vypadalo přesně jako originální dokument.  
 
-Probereme vše od potřebného NuGet balíčku až po finální ověření, že vaše PDF je skutečně přístupné. Žádné zbytečnosti – jen připravený příklad, který můžete vložit do libovolného .NET projektu. Pokud se ptáte, zda to funguje s .NET 6, .NET Framework 4.8 nebo dokonce .NET Core, odpověď je sebejisté „ano“.
+Dobrá zpráva: s několika řádky kódu Aspose.Pdf můžete **exportovat přístupné PDF**, zachovat tabulky a nadpisy a dokonce přidat potřebné značky přístupnosti, aniž byste se museli ponořit do nízkoúrovňových interních struktur PDF.
 
-## Požadavky – Co budete potřebovat před zahájením
+V tomto tutoriálu získáte plně spustitelný příklad, který ukazuje, jak **exportovat strukturu dokumentu PDF**, jak **přidat značky přístupnosti PDF** a proč je každé nastavení důležité. Nepotřebujete žádné externí nástroje – jen .NET projekt a knihovnu Aspose.Pdf.
 
-- **Visual Studio 2022** (nebo jakékoli IDE, které preferujete). Kód je čistý C#, takže VS Code také funguje.
-- **.NET 6 SDK** (nebo novější). Starší frameworky jsou v pořádku, jen podle potřeby upravte soubor projektu.
-- **Aspose.Words for .NET** NuGet balíček – tato knihovna provádí převod DOCX → PDF a zajišťuje shodu s PDF/UA.
-- Vzorek souboru **input.docx** umístěný ve složce, kterou ovládáte (budeme ji nazývat `YOUR_DIRECTORY`).
+## Požadavky
 
-Pokud jste ještě nepřidali Aspose.Words, spusťte:
+* .NET 6.0 nebo novější (kód funguje také na .NET Framework 4.7+).  
+* Aspose.Pdf pro .NET (zdarma zkušební verze nebo licencovaná verze).  
+* Základní znalost syntaxe C#.  
+
+Pokud již máte otevřené řešení ve Visual Studiu, pokračujte a nainstalujte balíček NuGet:
 
 ```bash
-dotnet add package Aspose.Words
+dotnet add package Aspose.Pdf
 ```
 
-Ten jednorázový příkaz načte vše, co potřebujete, včetně třídy `PdfSaveOptions` použité později.
+> **Tip:** Zaregistrujte svou licenci Aspose brzy v aplikaci (`License license = new License(); license.SetLicense("Aspose.Pdf.lic");`) abyste se vyhnuli vodoznaku hodnocení.
 
-![Diagram ukazující převod z DOCX na přístupné PDF](accessible-pdf-diagram.png "Pracovní postup vytvoření přístupného PDF")
+---
 
-*Alt text: Diagram ilustrující, jak vytvořit přístupné PDF z DOCX souboru pomocí C#.*
+![Příklad vytvoření přístupného PDF – výsledný soubor obsahuje správné značky a strukturu](create-accessible-pdf.png)
 
-## Vytvoření přístupného PDF – Kompletní průchod kódem
+*Text alternativy obrázku: “příklad vytvoření přístupného pdf ukazující výstup s tagy PDF.”*
 
-Níže je **kompletní, samostatný program**, který načte soubor DOCX, nastaví shodu s PDF/UA a uloží přístupné PDF. Zkopírujte jej do konzolové aplikace a stiskněte F5.
+## Krok 1: Vytvoření možností uložení PDF pro **vytvoření přístupného PDF**
+
+Prvním, co potřebujeme, je instance `PdfSaveOptions`, která říká Aspose, že chceme přístupný výstup. Tento objekt je řídícím střediskem pro všechna nastavení související s přístupností.
 
 ```csharp
-using System;
-using Aspose.Words;
-using Aspose.Words.Saving;
+using Aspose.Pdf;
+using Aspose.Pdf.Saving;
 
-namespace AccessiblePdfDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        // Load or create a document first
+        Document doc = new Document();
+        // (Add pages/content here – see later steps)
+
+        // Step 1: Configure save options for accessibility
+        var accessiblePdfOptions = new PdfSaveOptions
         {
-            // -----------------------------------------------------------------
-            // Step 1: Load the source document (DOCX) – this is the file you want
-            // to convert docx to pdf. Adjust the path to point at your actual file.
-            // -----------------------------------------------------------------
-            string inputPath = @"YOUR_DIRECTORY\input.docx";
-            Document doc = new Document(inputPath);
+            // Enforce PDF/UA compliance – this is what makes the file "accessible"
+            Compliance = PdfCompliance.PdfUa,
 
-            // -----------------------------------------------------------------
-            // Step 2: Configure PDF save options and enable PDF/UA compliance.
-            // The Compliance property tells Aspose.Words to embed the required
-            // tags, structure elements, and metadata for accessibility.
-            // -----------------------------------------------------------------
-            PdfSaveOptions saveOptions = new PdfSaveOptions
-            {
-                // PDF/UA ensures the PDF meets accessibility standards.
-                // Use PdfUa2 for the newer PDF/UA‑2 level if your readers support it.
-                Compliance = PdfCompliance.PdfUa1
-            };
+            // Preserve the logical structure like headings, tables, lists
+            ExportDocumentStructure = true
+        };
+```
 
-            // -----------------------------------------------------------------
-            // Step 3: Save the document as an accessible PDF.
-            // The output will be fully tagged and ready for screen‑readers.
-            // -----------------------------------------------------------------
-            string outputPath = @"YOUR_DIRECTORY\Accessible.pdf";
-            doc.Save(outputPath, saveOptions);
+**Proč je to důležité:**  
+`PdfCompliance.PdfUa` signalizuje čtečkám PDF, že soubor splňuje specifikaci Universal Accessibility (PDF/UA). Bez toho mohou čtečky obrazovky dokument úplně ignorovat. `ExportDocumentStructure = true` zajišťuje, že interní strom značek odráží vizuální rozvržení, což je nezbytné pro požadavek **export document structure pdf**.
 
-            Console.WriteLine($"✅ Accessible PDF created at: {outputPath}");
+## Krok 2: Vynucení souladu s PDF/UA – **Exportovat přístupné PDF**
+
+I když jsme v předchozím kroku nastavili `Compliance`, stojí za to zdůraznit, že soulad s PDF/UA je *povinný* pro každou organizaci, která musí splňovat právní standardy přístupnosti (např. Section 508 v USA).
+
+```csharp
+        // Step 2: (Optional) Double‑check the compliance flag
+        if (accessiblePdfOptions.Compliance != PdfCompliance.PdfUa)
+        {
+            // Edge case: developer accidentally changed the setting later
+            accessiblePdfOptions.Compliance = PdfCompliance.PdfUa;
         }
+```
+
+**Častá chyba:** Někteří vývojáři zapomenou nastavit `Compliance` a skončí s PDF, které vypadá dobře, ale neprojde audit přístupnosti. Explicitním kontrolováním příznaku se chráníte před neúmyslnými přepsáními později v kódu.
+
+## Krok 3: Zachování logické struktury – **Exportovat strukturu dokumentu PDF**
+
+Když přidáváte obsah do dokumentu, měli byste používat označené prvky, kdykoli je to možné. Například použijte objekty `Heading` pro nadpisy a objekty `Table` pro datové mřížky. Aspose je automaticky přiřadí k odpovídajícím značkám PDF, protože jsme zapnuli `ExportDocumentStructure`.
+
+```csharp
+        // Step 3: Add a heading and a simple table
+        Page page = doc.Pages.Add();
+
+        // Heading – becomes <H1> in the PDF tag tree
+        var title = new TextFragment("Quarterly Sales Report")
+        {
+            TextState = { FontSize = 20, FontStyle = FontStyles.Bold }
+        };
+        page.Paragraphs.Add(title);
+
+        // Table – gets proper <Table> tags
+        var table = new Table
+        {
+            ColumnWidths = "100 100 100"
+        };
+        // Header row
+        var header = new Row();
+        header.Cells.Add("Region");
+        header.Cells.Add("Q1");
+        header.Cells.Add("Q2");
+        table.Rows.Add(header);
+
+        // Data row
+        var row = new Row();
+        row.Cells.Add("North America");
+        row.Cells.Add("$120K");
+        row.Cells.Add("$135K");
+        table.Rows.Add(row);
+
+        page.Paragraphs.Add(table);
+```
+
+**Proč to pomáhá:** Používáním nativních objektů Aspose může knihovna generovat správné PDF značky (`<H1>`, `<Table>`, `<TD>` atd.). To je jádro **export document structure pdf** – vizuální rozvržení je zrcadleno v přístupné hierarchii značek.
+
+## Krok 4: Uložení souboru s **přidáním značek přístupnosti PDF**
+
+Nakonec zapíšeme dokument na disk pomocí připravených možností. Toto jediné volání vloží všechny značky, příznaky souladu a strukturu.
+
+```csharp
+        // Step 4: Save the document as an accessible PDF file
+        string outputPath = @"C:\Temp\AccessibleReport.pdf";
+        doc.Save(outputPath, accessiblePdfOptions);
+
+        Console.WriteLine($"Accessible PDF saved to {outputPath}");
     }
 }
 ```
 
-### Proč to funguje
+**Očekávaný výsledek:** Otevřete `AccessibleReport.pdf` v Adobe Acrobat Pro a spusťte *Accessibility > Full Check*. Měli byste vidět **Žádné chyby** související s chybějícími značkami, nadpisy nebo souborem PDF/UA. Čtečky obrazovky nyní oznámí nadpis a přečtou buňky tabulky ve správném pořadí.
 
-- **Načtení DOCX** poskytuje Aspose.Words plný přístup ke struktuře dokumentu (nadpisy, tabulky, alt‑text). Proto převod z docx na pdf zachovává sémantické informace.
-- **Nastavení `PdfCompliance.PdfUa1`** je klíčem k *jak povolit PDF/UA*. Říká knihovně, aby vložila logické pořadí čtení, správné značky a informace o jazyce – přesně to, co kontrolují auditoři přístupnosti.
-- **Uložení s těmito možnostmi** vytvoří soubor, který projde většinou nástrojů pro validaci PDF/UA (např. PAC 3, kontrola přístupnosti v Adobe Acrobat).
+### Rychlý kontrolní seznam ověření
 
-## Generování přístupného PDF – Ověření výsledku
+| Kontrola | Jak ověřit |
+|----------|------------|
+| PDF/UA compliance | Acrobat → File → Properties → Description tab → PDF/A, PDF/UA checkboxes |
+| Logical structure | Acrobat → Tools → Accessibility → Reading Order |
+| Tags present | Acrobat → View → Show/Hide → Navigation Panes → Tags |
 
-Po spuštění programu otevřete `Accessible.pdf` v Adobe Acrobat Reader:
+Pokud některá z těchto položek chybí, zkontrolujte znovu, že jsou před voláním `Save` nastaveny `Compliance` a `ExportDocumentStructure`.
 
-1. Stiskněte **Ctrl + Shift + U** (nebo přejděte na *File → Properties → Description*). V sekci *Compliance* by se mělo zobrazit „PDF/UA‑1“.
-2. Zapněte funkci **Read Out Loud**. Čtečka obrazovky by měla oznamovat nadpisy ve správném pořadí.
-3. Spusťte vestavěný **Accessibility Checker** (`View → Tools → Accessibility → Full Check`). Měli byste získat zelenou fajfku nebo jen drobná varování.
+## Okrajové případy a varianty
 
-Pokud zjistíte chybějící alt‑text u obrázků, ujistěte se, že zdrojový DOCX obsahuje alt‑text pro každý obrázek – Aspose.Words jej automaticky zkopíruje.
+### 1. Starší verze Aspose
+Některé starší verze (< 20.10) používaly `PdfSaveOptions.Accessibility` místo `ExportDocumentStructure`. Pokud jste uvězněni na starší DLL, nahraďte vlastnost odpovídajícím způsobem:
 
-## Časté úskalí a tipy profesionálů
+```csharp
+accessiblePdfOptions.Accessibility = true; // older APIs
+```
 
-| Problém | Co se stane | Oprava |
-|---------|--------------|-----|
-| **Missing Alt‑Text** | Obrázky se stanou dekorativními, což naruší přístupnost. | Přidejte alt‑text ve Wordu (`Right‑click → Edit Alt Text`). |
-| **Using older Aspose.Words version** | `PdfCompliance.PdfUa1` nemusí existovat. | Aktualizujte na nejnovější NuGet balíček (≥ 22.12). |
-| **Saving to a read‑only folder** | Vyvolá se `UnauthorizedAccessException`. | Zajistěte, aby výstupní složka byla zapisovatelná, nebo použijte `Path.GetTempPath()`. |
-| **Large DOCX files** | Převod může být pomalý nebo náročný na paměť. | Nastavte `SaveOptions.Compression = PdfCompressionLevel.Best;` pro snížení velikosti. |
-| **PDF/UA‑2 needed** | Některé organizace vyžadují novější standard. | Změňte na `Compliance = PdfCompliance.PdfUa2;` (vyžaduje Aspose.Words 22.9+). |
+### 2. Přidávání vlastních značek
+U vysoce specializovaných dokumentů můžete potřebovat vložit vlastní značky (např. `<Figure>`). Aspose vám umožňuje manipulovat se stromem značek přímo přes `doc.TaggedContent`. Jedná se o pokročilé téma – neváhejte prozkoumat dokumentaci API, pokud narazíte na jedinečné požadavky.
 
-### Okrajové případy, na které můžete narazit
+### 3. Velké dokumenty
+Při zpracování stovek stránek zvažte streamování výstupu, aby nedošlo k vysoké spotřebě paměti:
 
-- **Šifrovaný DOCX** – Načtěte jej pomocí objektu `LoadOptions`, který poskytne heslo, a poté pokračujte běžně.
-- **Vlastní fonty** – Pokud zdroj používá fonty, které nejsou nainstalovány na serveru, vložte je nastavením `saveOptions.FontEmbeddingMode = FontEmbeddingMode.Always;`.
-- **Komplexní tabulky** – Ujistěte se, že ve Wordu používáte správné nadpisy tabulek; jinak vygenerované značky nemusí odrážet hierarchii.
+```csharp
+using (FileStream outStream = new FileStream(outputPath, FileMode.Create))
+{
+    doc.Save(outStream, accessiblePdfOptions);
+}
+```
 
-## Jak povolit PDF/UA v jiných jazycích (rychlý přehled)
+### 4. Podpora více jazyků
+Pokud PDF obsahuje skripty psané zprava doleva (arabština, hebrejština), nastavte vlastnost `PdfDocumentInfo.Language` dokumentu na odpovídající ISO kód. Tím zajistíte, že čtečky obrazovky vyberou správný jazyk pro každý segment.
 
-I když se tento průvodce zaměřuje na C#, stejné koncepty platí pro Java, Python nebo Node.js:
+```csharp
+doc.Info.Language = "ar-SA"; // Arabic (Saudi Arabia)
+```
 
-| Jazyk | Klíčové nastavení |
-|----------|-------------|
-| Java | `pdfOptions.setCompliance(PdfCompliance.PDF_UA_1);` |
-| Python | `pdf_options.compliance = aw.PdfCompliance.PDF_UA_1` |
-| Node.js | `pdfOptions.compliance = aw.PdfCompliance.PdfUa1;` |
+## Kompletní funkční příklad (připravený ke zkopírování)
 
-Pokud budete někdy potřebovat **převést docx na pdf** v jiném stacku, stačí vyměnit syntaxi – *vlastnost `Compliance` je univerzální přepínač*.
+```csharp
+using System;
+using Aspose.Pdf;
+using Aspose.Pdf.Saving;
 
-## Shrnutí – Co jsme dosáhli
+class AccessiblePdfDemo
+{
+    static void Main()
+    {
+        // License registration (optional but recommended)
+        // var license = new License();
+        // license.SetLicense("Aspose.Pdf.lic");
 
-- **Vytvořili přístupné PDF** z DOCX souboru pomocí Aspose.Words.
-- Ukázali **jak povolit PDF/UA** (`PdfCompliance.PdfUa1`).
-- Ukázali, jak **generovat přístupné PDF**, ověřit shodu a vyhnout se běžným úskalím.
-- Poskytli **kompletní, spustitelný příklad**, který můžete přizpůsobit libovolnému .NET projektu.
+        // 1️⃣ Create a new PDF document
+        Document doc = new Document();
 
-## Další kroky a související témata
+        // 2️⃣ Add content with proper tags
+        Page page = doc.Pages.Add();
 
-- **Přidat záložky**: Použijte objekty `PdfBookmark` k vytvoření navigačního obsahu.
-- **Vložit vlastní značky**: Prozkoumejte podrobněji `PdfSaveOptions.TagStructure` pro jemnější kontrolu.
-- **Dávkový převod**: Projděte složku s DOCX soubory a vytvořte knihovnu přístupných PDF.
-- **Prozkoumat PDF/A**: Kombinujte přístupnost s dlouhodobým archivováním nastavením `PdfCompliance.PdfA1b`.
+        var title = new TextFragment("Quarterly Sales Report")
+        {
+            TextState = { FontSize = 20, FontStyle = FontStyles.Bold }
+        };
+        page.Paragraphs.Add(title);
 
-Neváhejte experimentovat – vyměňte zdrojový DOCX, vyzkoušejte PDF/UA‑2 nebo integrujte tento kód do webového API, které generuje PDF na vyžádání. Možnosti jsou neomezené, když víte, *jak povolit PDF/UA* a *správně generovat přístupné PDF*.
+        var table = new Table { ColumnWidths = "100 100 100" };
+        var header = new Row();
+        header.Cells.Add("Region");
+        header.Cells.Add("Q1");
+        header.Cells.Add("Q2");
+        table.Rows.Add(header);
 
-Máte otázky nebo narazíte na okrajový případ, který zde není pokryt? Zanechte komentář a společně to vyřešíme. Šťastné programování!
+        var data = new Row();
+        data.Cells.Add("North America");
+        data.Cells.Add("$120K");
+        data.Cells.Add("$135K");
+        table.Rows.Add(data);
+        page.Paragraphs.Add(table);
 
-## Co byste se měli naučit dál?
+        // 3️⃣ Configure accessibility options
+        var accessiblePdfOptions = new PdfSaveOptions
+        {
+            Compliance = PdfCompliance.PdfUa,
+            ExportDocumentStructure = true
+        };
 
-Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
+        // 4️⃣ Save the accessible PDF
+        string outPath = @"C:\Temp\AccessibleReport.pdf";
+        doc.Save(outPath, accessiblePdfOptions);
 
-- [Vytvoření přístupného PDF – krok za krokem průvodce pro shodu s PDF/UA](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
-- [Vytvoření přístupného PDF z Wordu – kompletní průvodce](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
-- [Vytvoření přístupného PDF v C# – tutoriál o přístupnosti PDF](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
+        Console.WriteLine($"✅ Accessible PDF created at {outPath}");
+    }
+}
+```
+
+Spusťte program, otevřete výsledný soubor a uvidíte perfektně označený, PDF/UA‑kompatibilní dokument připravený pro jakoukoli asistenční technologii.
+
+## Závěr
+
+Právě jsme **vytvořili přístupné PDF** soubory v C# od nuly, naučili se, jak **exportovat přístupné PDF**, zachovat logickou hierarchii (**export document structure PDF**) a vložit potřebná nastavení **add accessibility tags PDF**. Hlavní poznatky jsou:
+
+* Použijte `PdfSaveOptions.Compliance = PdfCompliance.PdfUa` k signalizaci souladu s PDF/UA.  
+* Zapněte `ExportDocumentStructure`, aby nadpisy, tabulky a seznamy se staly správnými značkami.  
+* Vytvářejte obsah pomocí vysoké úrovně objektů Aspose (nadpisy, tabulky), aby knihovna automaticky zpracovala značkování.
+
+Dále můžete zkoumat přidávání obrázků s alternativním textem, vkládání fontů kompatibilních s PDF/UA nebo automatizaci hromadného zpracování stovek zpráv. Všechny tyto scénáře následují stejný vzor, který jsme popsali – stačí podle potřeby upravit možnosti uložení nebo strom značek.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

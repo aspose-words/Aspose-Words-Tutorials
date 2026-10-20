@@ -1,49 +1,24 @@
 ---
 category: general
-date: 2026-06-30
-description: C#'ta erişilebilir PDF'i hızlı bir şekilde oluşturun. docx'i PDF'ye nasıl
-  dönüştüreceğinizi, erişilebilir PDF üretmeyi ve PDF/UA uyumluluğunu net kod örnekleriyle
-  nasıl etkinleştireceğinizi öğrenin.
+date: 2026-02-18
+description: Aspose.Pdf ile C#'ta erişilebilir PDF oluşturun. Erişilebilir PDF'yi
+  nasıl dışa aktaracağınızı, erişilebilirlik etiketleri eklemeyi ve belge yapısını
+  korumayı öğrenin.
 draft: false
 keywords:
 - create accessible pdf
-- convert docx to pdf
-- generate accessible pdf
-- how to enable pdf/ua
+- export accessible pdf
+- export document structure pdf
+- add accessibility tags pdf
 language: tr
-og_description: Aspose.Words ile C#'ta erişilebilir PDF oluşturun. Docx'i PDF'ye nasıl
-  dönüştüreceğinizi, erişilebilir PDF oluşturmayı ve PDF/UA uyumluluğunu nasıl etkinleştireceğinizi
-  öğrenin.
-og_title: C#'ta Erişilebilir PDF Oluşturma – Tam Rehber
-schemas:
-- author: Aspose
-  dateModified: '2026-06-30'
-  description: Create accessible PDF in C# quickly. Learn how to convert docx to pdf,
-    generate accessible pdf, and enable PDF/UA compliance with clear code examples.
-  headline: Create Accessible PDF in C# – Step‑by‑Step Guide
-  type: TechArticle
-- description: Create accessible PDF in C# quickly. Learn how to convert docx to pdf,
-    generate accessible pdf, and enable PDF/UA compliance with clear code examples.
-  name: Create Accessible PDF in C# – Step‑by‑Step Guide
-  steps:
-  - name: Press **Ctrl + Shift + U** (or go to *File → Properties → Description*).
-      You should see “PDF/UA‑1” under the *Compliance* section.
-    text: Press **Ctrl + Shift + U** (or go to *File → Properties → Description*).
-      You should see “PDF/UA‑1” under the *Compliance* section.
-  - name: Turn on the **Read Out Loud** feature. The screen‑reader should announce
-      headings in the correct order.
-    text: Turn on the **Read Out Loud** feature. The screen‑reader should announce
-      headings in the correct order.
-  - name: Run the built‑in **Accessibility Checker** (`View → Tools → Accessibility
-      → Full Check`). You should get a green checkmark or only minor warnings.
-    text: Run the built‑in **Accessibility Checker** (`View → Tools → Accessibility
-      → Full Check`). You should get a green checkmark or only minor warnings.
-  type: HowTo
+og_description: C#'ta erişilebilir PDF'i hızlıca oluşturun. Bu kılavuz, erişilebilir
+  PDF dışa aktarmayı, erişilebilirlik etiketleri eklemeyi ve belge yapısını PDF olarak
+  korumayı gösterir.
+og_title: C#'ta Erişilebilir PDF Oluşturma – Tam Kılavuz
 tags:
-- PDF
-- C#
-- Accessibility
-- Aspose.Words
+- pdf
+- csharp
+- accessibility
 title: C#'ta Erişilebilir PDF Oluşturma – Adım Adım Rehber
 url: /tr/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-step-by-step-guide/
 ---
@@ -52,147 +27,241 @@ url: /tr/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-step-by-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# C# ile Erişilebilir PDF Oluşturma – Tam Programlama Rehberi
+# C#'ta Erişilebilir PDF Oluşturma – Adım Adım Kılavuz
 
-Word belgesinden **erişilebilir PDF** oluşturmanız gerektiğinde ama nereden başlayacağınızı bilemediğiniz oldu mu? Bu öğreticide **docx'ten pdf'ye dönüştürme** adımlarını, sonucun PDF/UA erişilebilirlik standartlarına uygun olmasını sağlayarak size göstereceğiz. Sonunda erişilebilir PDF nasıl oluşturulur, PDF/UA nasıl etkinleştirilir ve her ayarın neden önemli olduğunu öğreneceksiniz.
+C# uygulamasından **erişilebilir PDF** dosyaları oluşturmanız gerektiğinde, nereden başlayacağınızı bilemediğiniz oldu mu? Benim deneyimime göre en büyük engel, PDF'nin PDF/UA standardına uygun olmasını sağlarken aynı zamanda orijinal belgeye birebir benzeyebilmesidir.  
 
-Gerekli NuGet paketinden PDF'nizin gerçekten erişilebilir olduğunu son doğrulamaya kadar her şeyi ele alacağız. Gereksiz ayrıntı yok—herhangi bir .NET projesine ekleyebileceğiniz, çalıştırmaya hazır bir örnek. Bunun .NET 6, .NET Framework 4.8 veya hatta .NET Core ile çalışıp çalışmadığını merak ediyorsanız, cevap kesin bir “evet”.
+İyi haber: birkaç satır Aspose.Pdf kodu ile **erişilebilir PDF dışa aktarabilir**, tabloları ve başlıkları koruyabilir ve düşük seviyeli PDF iç detaylarına dalmadan gerekli erişilebilirlik etiketlerini ekleyebilirsiniz.
 
-## Ön Koşullar – Başlamadan Önce Neye İhtiyacınız Var
+Bu öğreticide, **export document structure PDF**, **add accessibility tags PDF** nasıl yapılır ve her ayarın neden önemli olduğu gösteren tamamen çalıştırılabilir bir örnek elde edeceksiniz. Harici araç gerekmez—sadece bir .NET projesi ve Aspose.Pdf kütüphanesi yeterli.
 
-- **Visual Studio 2022** (veya tercih ettiğiniz herhangi bir IDE). Kod düz C# olduğu için VS Code da çalışır.
-- **.NET 6 SDK** (veya daha yenisi). Eski framework'ler de uygundur, sadece proje dosyasını buna göre ayarlayın.
-- **Aspose.Words for .NET** NuGet paketi – DOCX → PDF dönüşümünü ve PDF/UA uyumluluğunu sağlayan kütüphane.
-- Kontrol ettiğiniz bir klasöre yerleştirilmiş örnek bir **input.docx** dosyası (biz ona `YOUR_DIRECTORY` diyeceğiz).
+## Gereksinimler
 
-Henüz Aspose.Words eklemediyseniz, şu komutu çalıştırın:
+* .NET 6.0 veya üzeri (kod .NET Framework 4.7+ üzerinde de çalışır).  
+* Aspose.Pdf for .NET (ücretsiz deneme veya lisanslı sürüm).  
+* C# sözdizimi hakkında temel bir anlayış.  
+
+Eğer zaten bir Visual Studio çözümü açıksa, NuGet paketini hemen kurun:
 
 ```bash
-dotnet add package Aspose.Words
+dotnet add package Aspose.Pdf
 ```
 
-Bu tek satır, daha sonra kullanılan `PdfSaveOptions` sınıfı da dahil olmak üzere ihtiyacınız olan her şeyi getirir.
+> **Pro ipucu:** Değerlendirme filigranını önlemek için lisansınızı uygulamanın başında kaydedin (`License license = new License(); license.SetLicense("Aspose.Pdf.lic");`).
 
-![DOCX'ten erişilebilir PDF'ye dönüşümü gösteren diyagram](accessible-pdf-diagram.png "Erişilebilir PDF oluşturma iş akışı")
+---
 
-*Alt metin: C# kullanarak bir DOCX dosyasından erişilebilir PDF oluşturmayı gösteren diyagram.*
+![Create accessible PDF example – the resulting file contains proper tags and structure](create-accessible-pdf.png)
 
-## Erişilebilir PDF Oluşturma – Tam Kod İncelemesi
+*Görsel alt metni: “etiketli PDF çıktısını gösteren erişilebilir pdf örneği.”*
 
-Aşağıda, bir DOCX dosyasını yükleyen, PDF/UA uyumluluğunu yapılandıran ve erişilebilir bir PDF kaydeden **tam, bağımsız bir program** yer alıyor. Bir konsol uygulamasına kopyalayıp F5 tuşuna basın.
+## Adım 1: **Create Accessible PDF** için PDF Kaydetme Seçeneklerini Oluşturun
+
+İlk olarak, Aspose'a erişilebilir bir çıktı istediğimizi söyleyen bir `PdfSaveOptions` örneğine ihtiyacımız var. Bu nesne, tüm erişilebilirlikle ilgili ayarların kontrol merkezidir.
 
 ```csharp
-using System;
-using Aspose.Words;
-using Aspose.Words.Saving;
+using Aspose.Pdf;
+using Aspose.Pdf.Saving;
 
-namespace AccessiblePdfDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        // Load or create a document first
+        Document doc = new Document();
+        // (Add pages/content here – see later steps)
+
+        // Step 1: Configure save options for accessibility
+        var accessiblePdfOptions = new PdfSaveOptions
         {
-            // -----------------------------------------------------------------
-            // Step 1: Load the source document (DOCX) – this is the file you want
-            // to convert docx to pdf. Adjust the path to point at your actual file.
-            // -----------------------------------------------------------------
-            string inputPath = @"YOUR_DIRECTORY\input.docx";
-            Document doc = new Document(inputPath);
+            // Enforce PDF/UA compliance – this is what makes the file "accessible"
+            Compliance = PdfCompliance.PdfUa,
 
-            // -----------------------------------------------------------------
-            // Step 2: Configure PDF save options and enable PDF/UA compliance.
-            // The Compliance property tells Aspose.Words to embed the required
-            // tags, structure elements, and metadata for accessibility.
-            // -----------------------------------------------------------------
-            PdfSaveOptions saveOptions = new PdfSaveOptions
-            {
-                // PDF/UA ensures the PDF meets accessibility standards.
-                // Use PdfUa2 for the newer PDF/UA‑2 level if your readers support it.
-                Compliance = PdfCompliance.PdfUa1
-            };
+            // Preserve the logical structure like headings, tables, lists
+            ExportDocumentStructure = true
+        };
+```
 
-            // -----------------------------------------------------------------
-            // Step 3: Save the document as an accessible PDF.
-            // The output will be fully tagged and ready for screen‑readers.
-            // -----------------------------------------------------------------
-            string outputPath = @"YOUR_DIRECTORY\Accessible.pdf";
-            doc.Save(outputPath, saveOptions);
+**Neden önemli:**  
+`PdfCompliance.PdfUa`, PDF okuyucularına dosyanın Evrensel Erişilebilirlik (PDF/UA) spesifikasyonuna uygun olduğunu bildirir. Bu ayar olmadan ekran okuyucular belgeyi tamamen görmezden gelebilir. `ExportDocumentStructure = true` ise iç etiket ağacının görsel düzenle aynı olmasını sağlar; bu, **export document structure pdf** gereksinimi için kritiktir.
 
-            Console.WriteLine($"✅ Accessible PDF created at: {outputPath}");
+## Adım 2: PDF/UA Uyumluluğunu Zorunlu Kılın – **Export Accessible PDF**
+
+Önceki adımda `Compliance` ayarlamış olsak da, PDF/UA uyumluluğunun yasal erişilebilirlik standartlarını (ör. ABD'de Section 508) karşılamak isteyen her kuruluş için *zorunlu* olduğunu vurgulamak gerekir.
+
+```csharp
+        // Step 2: (Optional) Double‑check the compliance flag
+        if (accessiblePdfOptions.Compliance != PdfCompliance.PdfUa)
+        {
+            // Edge case: developer accidentally changed the setting later
+            accessiblePdfOptions.Compliance = PdfCompliance.PdfUa;
         }
+```
+
+**Yaygın tuzak:** Bazı geliştiriciler `Compliance` ayarını atlayıp, görünüşte güzel ama erişilebilirlik denetiminde başarısız bir PDF üretirler. Bayrağı açıkça kontrol ederek, kodun ilerleyen bölümlerinde oluşabilecek istem dışı geçersiz kılmaları önlersiniz.
+
+## Adım 3: Mantıksal Yapıyı Koru – **Export Document Structure PDF**
+
+Belgeye içerik eklerken mümkün olduğunca etiketli öğeler kullanmalısınız. Örneğin, başlıklar için `Heading` nesnelerini, veri ızgaraları için `Table` nesnelerini tercih edin. Aspose, `ExportDocumentStructure` açık olduğu sürece bunları uygun PDF etiketlerine otomatik olarak eşler.
+
+```csharp
+        // Step 3: Add a heading and a simple table
+        Page page = doc.Pages.Add();
+
+        // Heading – becomes <H1> in the PDF tag tree
+        var title = new TextFragment("Quarterly Sales Report")
+        {
+            TextState = { FontSize = 20, FontStyle = FontStyles.Bold }
+        };
+        page.Paragraphs.Add(title);
+
+        // Table – gets proper <Table> tags
+        var table = new Table
+        {
+            ColumnWidths = "100 100 100"
+        };
+        // Header row
+        var header = new Row();
+        header.Cells.Add("Region");
+        header.Cells.Add("Q1");
+        header.Cells.Add("Q2");
+        table.Rows.Add(header);
+
+        // Data row
+        var row = new Row();
+        row.Cells.Add("North America");
+        row.Cells.Add("$120K");
+        row.Cells.Add("$135K");
+        table.Rows.Add(row);
+
+        page.Paragraphs.Add(table);
+```
+
+**Neden faydalı:** Yerel Aspose nesnelerini kullandığınızda kütüphane doğru PDF etiketlerini (`<H1>`, `<Table>`, `<TD>` vb.) oluşturabilir. Bu, **export document structure pdf**'nin kalbidir—görsel düzen, erişilebilir bir etiket hiyerarşesiyle aynıdır.
+
+## Adım 4: **Add Accessibility Tags PDF** ile Dosyayı Kaydedin
+
+Son olarak, hazırladığımız seçeneklerle belgeyi diske yazdırıyoruz. Bu tek çağrı, tüm etiketleri, uyumluluk bayraklarını ve yapısal bilgileri gömer.
+
+```csharp
+        // Step 4: Save the document as an accessible PDF file
+        string outputPath = @"C:\Temp\AccessibleReport.pdf";
+        doc.Save(outputPath, accessiblePdfOptions);
+
+        Console.WriteLine($"Accessible PDF saved to {outputPath}");
     }
 }
 ```
 
-### Neden Bu Çalışıyor
+**Beklenen sonuç:** `AccessibleReport.pdf` dosyasını Adobe Acrobat Pro’da açın ve *Accessibility > Full Check* çalıştırın. Eksik etiket, başlık veya PDF/UA uyumluluğu ile ilgili **hata yok** görmelisiniz. Ekran okuyucular artık başlığı duyuracak ve tablo hücrelerini doğru sırada okuyacaktır.
 
-- **DOCX'in yüklenmesi**, Aspose.Words'e belgenin yapısına (başlıklar, tablolar, alt‑metin) tam erişim sağlar. Bu yüzden docx'ten pdf'ye dönüşüm, anlamsal bilgileri korur.
-- **`PdfCompliance.PdfUa1` ayarlanması**, *PDF/UA nasıl etkinleştirilir* sorusunun anahtarıdır. Kütüphaneye mantıksal okuma sırası, doğru etiketler ve dil bilgisi eklemesini söyler—erişilebilirlik denetçileri tam olarak bunu arar.
-- **Seçeneklerle kaydetmek**, dosyanın çoğu PDF/UA doğrulama aracından (ör. PAC 3, Adobe Acrobat erişilebilirlik denetleyicisi) geçmesini sağlar.
+### Hızlı doğrulama kontrol listesi
 
-## Erişilebilir PDF Oluşturma – Sonucu Doğrulama
+| Kontrol | Nasıl doğrulanır |
+|-------|---------------|
+| PDF/UA uyumluluğu | Acrobat → File → Properties → Description sekmesi → PDF/A, PDF/UA onay kutuları |
+| Mantıksal yapı | Acrobat → Tools → Accessibility → Reading Order |
+| Etiketlerin varlığı | Acrobat → View → Show/Hide → Navigation Panes → Tags |
 
-Programı çalıştırdıktan sonra `Accessible.pdf` dosyasını Adobe Acrobat Reader'da açın:
+Bu öğelerden biri eksikse, `Save` çağrısından önce `Compliance` ve `ExportDocumentStructure` ayarlarının yapıldığını tekrar kontrol edin.
 
-1. **Ctrl + Shift + U** tuşlarına basın (veya *Dosya → Özellikler → Açıklama*'ya gidin). *Uyumluluk* bölümünde “PDF/UA‑1” görmelisiniz.
-2. **Read Out Loud** özelliğini açın. Ekran okuyucu başlıkları doğru sırada duyurmalıdır.
-3. Yerleşik **Accessibility Checker**'ı çalıştırın (`Görünüm → Araçlar → Erişilebilirlik → Tam Kontrol`). Yeşil bir onay işareti almalı veya sadece küçük uyarılar görmelisiniz.
+## Kenar Durumları ve Varyasyonlar
 
-Görsellerde eksik alt‑metin fark ederseniz, kaynak DOCX'in her resim için alt‑metin içerdiğinden emin olun—Aspose.Words bunları otomatik olarak kopyalar.
+### 1. Eski Aspose sürümleri
+Bazı eski sürümler (< 20.10) `ExportDocumentStructure` yerine `PdfSaveOptions.Accessibility` özelliğini kullanıyordu. Daha eski bir DLL ile çalışıyorsanız, özelliği buna göre değiştirin:
 
-## Yaygın Tuzaklar ve Profesyonel İpuçları
+```csharp
+accessiblePdfOptions.Accessibility = true; // older APIs
+```
 
-| Tuzak | Ne Olur | Çözüm |
-|---------|--------------|-----|
-| **Alt‑Metin Eksik** | Görseller dekoratif olur, erişilebilirliği bozar. | Word'de alt‑metin ekleyin (`Sağ‑tık → Alt Metni Düzenle`). |
-| **Eski Aspose.Words sürümü kullanmak** | `PdfCompliance.PdfUa1` bulunmayabilir. | En son NuGet paketine yükseltin (≥ 22.12). |
-| **Yazma korumalı bir klasöre kaydetmek** | `UnauthorizedAccessException` hatası alınır. | Çıktı dizininin yazılabilir olduğundan emin olun veya `Path.GetTempPath()` kullanın. |
-| **Büyük DOCX dosyaları** | Dönüşüm yavaş veya bellek yoğun olabilir. | Boyutu azaltmak için `SaveOptions.Compression = PdfCompressionLevel.Best;` ayarlayın. |
-| **PDF/UA‑2 gerekli** | Bazı kuruluşlar yeni standardı ister. | `Compliance = PdfCompliance.PdfUa2;` olarak değiştirin (Aspose.Words 22.9+ gerekir). |
+### 2. Özel etiketler ekleme
+Özellikle özel belgeler için (ör. `<Figure>`) kendi etiketlerinizi enjekte etmeniz gerekebilir. Aspose, `doc.TaggedContent` aracılığıyla etiket ağacını doğrudan manipüle etmenize izin verir. Bu ileri düzey bir konudur—benzersiz gereksinimlerle karşılaşırsanız API dokümantasyonuna göz atın.
 
-### Karşılaşabileceğiniz Kenar Durumları
+### 3. Büyük belgeler
+Yüzlerce sayfa işliyorsanız, yüksek bellek tüketimini önlemek için çıktıyı akış (stream) olarak üretmeyi düşünün:
 
-- **Şifreli DOCX** – Parolayı sağlayan bir `LoadOptions` nesnesiyle yükleyin, ardından normal şekilde devam edin.
-- **Özel yazı tipleri** – Kaynak sunucuda yüklü olmayan yazı tipleri kullanıyorsa, `saveOptions.FontEmbeddingMode = FontEmbeddingMode.Always;` ayarıyla gömün.
-- **Karmaşık tablolar** – Word'de uygun tablo başlıkları kullandığınızdan emin olun; aksi takdirde oluşturulan etiketler hiyerarşiyi yansıtmayabilir.
+```csharp
+using (FileStream outStream = new FileStream(outputPath, FileMode.Create))
+{
+    doc.Save(outStream, accessiblePdfOptions);
+}
+```
 
-## PDF/UA'yı Diğer Dillerde Nasıl Etkinleştirirsiniz (Hızlı Referans)
+### 4. Çok‑dilli destek
+PDF’niz sağ‑to‑sol betikler (Arapça, İbranice) içeriyorsa, belgenin `PdfDocumentInfo.Language` özelliğini uygun ISO koduna ayarlayın. Böylece ekran okuyucular her segment için doğru dili seçer.
 
-Bu rehber C#'a odaklansa da, aynı kavramlar Java, Python veya Node.js için de geçerlidir:
+```csharp
+doc.Info.Language = "ar-SA"; // Arabic (Saudi Arabia)
+```
 
-| Dil | Ana Ayar |
-|----------|-------------|
-| Java | `pdfOptions.setCompliance(PdfCompliance.PDF_UA_1);` |
-| Python | `pdf_options.compliance = aw.PdfCompliance.PDF_UA_1` |
-| Node.js | `pdfOptions.compliance = aw.PdfCompliance.PdfUa1;` |
+## Tam Çalışan Örnek (Kopyala‑Yapıştır Hazır)
 
-Farklı bir platformda **docx'ten pdf'ye dönüştürme** ihtiyacınız olursa, sadece sözdizimini değiştirin—*`Compliance` özelliği evrensel anahtardır*.
+```csharp
+using System;
+using Aspose.Pdf;
+using Aspose.Pdf.Saving;
 
-## Özet – Neler Başardık
+class AccessiblePdfDemo
+{
+    static void Main()
+    {
+        // License registration (optional but recommended)
+        // var license = new License();
+        // license.SetLicense("Aspose.Pdf.lic");
 
-- **Aspose.Words kullanarak** bir DOCX dosyasından erişilebilir PDF oluşturuldu.
-- **PDF/UA nasıl etkinleştirilir** gösterildi (`PdfCompliance.PdfUa1`).
-- **Erişilebilir PDF nasıl oluşturulur**, uyumluluk nasıl doğrulanır ve yaygın tuzaklardan nasıl kaçınılır** gösterildi.
-- **Tam, çalıştırılabilir bir örnek** sağlandı; herhangi bir .NET projesine uyarlanabilir.
+        // 1️⃣ Create a new PDF document
+        Document doc = new Document();
 
-## Sonraki Adımlar ve İlgili Konular
+        // 2️⃣ Add content with proper tags
+        Page page = doc.Pages.Add();
 
-- **Yer imleri ekleyin**: Gezilebilir bir taslak oluşturmak için `PdfBookmark` nesnelerini kullanın.
-- **Özel etiketler ekleyin**: Daha ince kontrol için `PdfSaveOptions.TagStructure`'a dalın.
-- **Toplu dönüşüm**: Bir klasördeki DOCX dosyalarını döngüye alarak erişilebilir PDF'ler kütüphanesi oluşturun.
-- **PDF/A'yı keşfedin**: `PdfCompliance.PdfA1b` ayarıyla erişilebilirliği uzun vadeli arşivleme ile birleştirin.
+        var title = new TextFragment("Quarterly Sales Report")
+        {
+            TextState = { FontSize = 20, FontStyle = FontStyles.Bold }
+        };
+        page.Paragraphs.Add(title);
 
-Denemekten çekinmeyin—kaynak DOCX'i değiştirin, PDF/UA‑2'yi deneyin veya bu kodu isteğe bağlı PDF üreten bir web API'sine entegre edin. *PDF/UA nasıl etkinleştirilir* ve *erişilebilir PDF nasıl oluşturulur* bildiğinizde sınır yoktur.
+        var table = new Table { ColumnWidths = "100 100 100" };
+        var header = new Row();
+        header.Cells.Add("Region");
+        header.Cells.Add("Q1");
+        header.Cells.Add("Q2");
+        table.Rows.Add(header);
 
-Burada ele alınmayan sorularınız veya karşılaştığınız kenar durumları varsa? Yorum bırakın, birlikte çözelim. Kodlamanın tadını çıkarın!
+        var data = new Row();
+        data.Cells.Add("North America");
+        data.Cells.Add("$120K");
+        data.Cells.Add("$135K");
+        table.Rows.Add(data);
+        page.Paragraphs.Add(table);
 
-## Sonra Ne Öğrenmelisiniz?
+        // 3️⃣ Configure accessibility options
+        var accessiblePdfOptions = new PdfSaveOptions
+        {
+            Compliance = PdfCompliance.PdfUa,
+            ExportDocumentStructure = true
+        };
 
-Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalı tam çalışan kod örnekleri içerir.
+        // 4️⃣ Save the accessible PDF
+        string outPath = @"C:\Temp\AccessibleReport.pdf";
+        doc.Save(outPath, accessiblePdfOptions);
 
-- [Erişilebilir PDF Oluşturma – PDF/UA Uyumluluğu için Adım Adım Kılavuz](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/)
-- [Word'den Erişilebilir PDF Oluşturma – Tam Kılavuz](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide/)
-- [C# ile Erişilebilir PDF Oluşturma – PDF Erişilebilirlik Öğreticisi](/words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-accessibility-tutorial/)
+        Console.WriteLine($"✅ Accessible PDF created at {outPath}");
+    }
+}
+```
+
+Programı çalıştırın, ortaya çıkan dosyayı açın; tamamen etiketlenmiş, PDF/UA‑uyumlu bir belge göreceksiniz; bu belge tüm yardımcı teknolojilerle uyumludur.
+
+## Sonuç
+
+C# ile **erişilebilir PDF** dosyalarını sıfırdan **export accessible PDF**, mantıksal hiyerarşiyi koruyarak (**export document structure PDF**) ve gerekli **add accessibility tags PDF** ayarlarını gömerek oluşturduk. Temel çıkarımlar şunlardır:
+
+* `PdfSaveOptions.Compliance = PdfCompliance.PdfUa` ile PDF/UA uyumluluğunu belirtin.  
+* `ExportDocumentStructure`'ı etkinleştirerek başlıkların, tabloların ve listelerin doğru etiketlere dönüşmesini sağlayın.  
+* İçeriğinizi Aspose’un yüksek‑seviye nesneleri (headings, tables) ile oluşturun; kütüphane etiketlemeyi otomatik yapar.  
+
+Sonraki adım olarak, alternatif metinli görseller eklemeyi, PDF/UA‑uyumlu yazı tipleri gömmeyi veya yüzlerce raporu toplu işleme otomatikleştirmeyi keşfedebilirsiniz. Tüm bu senaryolar, burada gösterdiğimiz desenin aynı kalıpla uygulanmasıyla gerçekleşir—sadece kaydetme seçeneklerini veya etiket ağacını ihtiyacınıza göre ayarlayın.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

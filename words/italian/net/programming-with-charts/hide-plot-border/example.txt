@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Questo tutorial dimostra come creare un documento Word, inserire un grafico a colonne, popolarlo con dati di esempio, nascondere il bordo dell'area di tracciamento del grafico mantenendo visibili le linee degli assi e, infine, salvare il documento.
+//ExStepSummary:0: Crea un nuovo documento Word vuoto e un DocumentBuilder per modificarlo.
+//ExStepSummary:1: Inserisci un grafico a colonne 432×252 nel documento e ottieni il relativo oggetto Chart.
+//ExStepSummary:2: Cancella eventuali serie esistenti, definisci tre etichette di categoria e aggiungi una serie con valori di esempio al grafico.
+//ExStepSummary:3: Imposta lo spessore del tratto dell'area di tracciamento a zero, rimuovendo il suo bordo ma lasciando visibili le linee degli assi.
+//ExStepSummary:4: Salva il documento modificato in un file .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+columnChart.Series.Clear();
+string[] labels = { "Group A", "Group B", "Group C" };
+columnChart.Series.Add("Demo Data", labels, new double[] { 10, 20, 30 });
+
+//ExStep:3-
+columnChart.Format.Stroke.Weight = 0;
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutPlotBorder.docx");
+//ExEnd
