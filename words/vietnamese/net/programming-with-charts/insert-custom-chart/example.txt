@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Hướng dẫn này cho thấy cách tạo một tài liệu Word, chèn biểu đồ cột, xóa dữ liệu mặc định của nó, và điền dữ liệu tùy chỉnh từ một mảng hai chiều—gán mỗi hàng cho một series và mỗi cột cho một danh mục—sau đó thêm tiêu đề và lưu tệp.
+//ExStepSummary:0: Tạo một Document mới và một DocumentBuilder gắn vào nó.
+//ExStepSummary:1: Chèn một biểu đồ cột có kích thước 432x252 điểm vào tài liệu và lấy đối tượng Chart của nó.
+//ExStepSummary:2: Xóa các series mẫu được tạo tự động khỏi biểu đồ.
+//ExStepSummary:3: Xác định nhãn danh mục trục X và các mục chú giải cho mỗi series.
+//ExStepSummary:4: Tạo một mảng hai chiều, trong đó mỗi hàng chứa các giá trị cho một series.
+//ExStepSummary:5: Lặp qua từng series, trích xuất các giá trị hàng tương ứng từ ma trận, và thêm series vào biểu đồ cùng với mục chú giải và nhãn trục X tương ứng.
+//ExStepSummary:6: Đặt văn bản tiêu đề biểu đồ thành 'Half‑Yearly Revenue' và hiển thị nó.
+//ExStepSummary:7: Lưu tài liệu chứa biểu đồ tùy chỉnh thành tệp .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:6:images/4.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chartObj = chartContainer.Chart;
+
+//ExStep:2-
+chartObj.Series.Clear();
+
+//ExStep:3-
+string[] xLabels = { "Jan", "Feb", "Mar", "Apr" };
+string[] legendEntries = { "Item Alpha", "Item Beta", "Item Gamma" };
+
+//ExStep:4-
+double[,] dataMatrix = {
+    { 120.5, 135.0, 150.2, 165.3 }, // Item Alpha
+    { 80.0,  95.5, 110.1, 130.0 }, // Item Beta
+    { 60.3,  70.4,  85.6,  95.2 }   // Item Gamma
+};
+
+//ExStep:5-
+for (int sIdx = 0; sIdx < legendEntries.Length; sIdx++)
+{
+    double[] rowValues = new double[xLabels.Length];
+    for (int cIdx = 0; cIdx < xLabels.Length; cIdx++)
+    {
+        rowValues[cIdx] = dataMatrix[sIdx, cIdx];
+    }
+
+    chartObj.Series.Add(legendEntries[sIdx], xLabels, rowValues);
+}
+
+//ExStep:6-
+chartObj.Title.Text = "Half‑Yearly Revenue";
+chartObj.Title.Show = true;
+
+//ExStep:7-
+myDocument.Save("CustomChart.docx");
+//ExEnd

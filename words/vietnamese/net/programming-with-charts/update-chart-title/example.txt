@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Sử dụng Aspose.Words, hướng dẫn này tạo một tài liệu Word, chèn biểu đồ cột, cập nhật tiêu đề biểu đồ bằng văn bản do người dùng cung cấp, và bật/tắt hiển thị và lớp phủ của chú giải dựa trên tùy chọn của người dùng.
+//ExStepSummary:0: Xác định tiêu đề biểu đồ do người dùng cung cấp và việc có hiển thị chú giải hay không.
+//ExStepSummary:1: Tạo một tài liệu Word mới và một DocumentBuilder để thêm nội dung.
+//ExStepSummary:2: Chèn một biểu đồ cột kích thước 432 × 252 pt vào tài liệu và xác minh shape thực sự chứa một chart.
+//ExStepSummary:3: Lấy đối tượng chart, đặt văn bản tiêu đề của nó thành giá trị do người dùng cung cấp, và đảm bảo tiêu đề được hiển thị.
+//ExStepSummary:4: Cấu hình legend: hiển thị ở phía bên phải nếu yêu cầu, nếu không thì ẩn, và cho phép nó overlay lên vùng vẽ.
+//ExStepSummary:5: Lưu tài liệu đã chỉnh sửa vào đĩa với tên CustomChart.docx.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+string chartHeader = "Fiscal Q1 Performance Summary";
+bool displayLegend = false;
+
+//ExStep:1-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:2-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+if (!chartContainer.HasChart)
+    throw new InvalidOperationException("The inserted shape does not contain a chart.");
+
+//ExStep:3-
+Chart chartObj = chartContainer.Chart;
+ChartTitle chartTitle = chartObj.Title;
+chartTitle.Text = chartHeader;
+chartTitle.Show = true;
+
+//ExStep:4-
+ChartLegend chartLegend = chartObj.Legend;
+chartLegend.Position = displayLegend ? LegendPosition.Right : LegendPosition.None;
+chartLegend.Overlay = true;
+
+//ExStep:5-
+wordDoc.Save("CustomChart.docx");
+//ExEnd

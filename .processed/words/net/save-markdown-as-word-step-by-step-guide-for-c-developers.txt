@@ -1,0 +1,7 @@
+Title: Save markdown as word – step‑by‑step guide for C# developers
+Slug: save-markdown-as-word-step-by-step-guide-for-c-developers
+Category: programming-with-markdownsaveoptions
+ProcessedDate: 2026-08-08T03:02:13.192036
+SourceRepo: AI Search API
+Keywords: save markdown as word, convert markdown to docx, convert .md to .docx, markdown to word document
+PRNumber: 245

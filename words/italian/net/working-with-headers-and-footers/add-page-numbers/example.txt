@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: Utilizzando Aspose.Words Document e DocumentBuilder, questo tutorial aggiunge numeri di pagina aggiornati automaticamente al piè di pagina primario di un documento Word.
+//ExStepSummary:0: Crea un nuovo oggetto Document e un DocumentBuilder collegato ad esso.
+//ExStepSummary:1: Sposta il cursore del builder al piè di pagina primario della prima sezione.
+//ExStepSummary:2: Imposta l'allineamento del paragrafo al centro in modo che il testo del piè di pagina sia centrato.
+//ExStepSummary:3: Scrivi l'etichetta "Page " e inserisci un campo PAGE che visualizza il numero di pagina corrente.
+//ExStepSummary:4: Scrivi " of " e inserisci un campo NUMPAGES che mostra il conteggio totale delle pagine.
+//ExStepSummary:5: Salva il documento in un file .docx.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+
+//ExStep:2-
+builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
+
+//ExStep:3-
+builder.Write("Page ");
+builder.InsertField("PAGE", null);
+
+//ExStep:4-
+builder.Write(" of ");
+builder.InsertField("NUMPAGES", null);
+
+//ExStep:5-
+doc.Save("PageNumbers.docx");
+//ExEnd
