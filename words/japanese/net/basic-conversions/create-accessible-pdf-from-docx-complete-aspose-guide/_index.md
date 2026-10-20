@@ -21,17 +21,11 @@ title: DOCXからアクセシブルPDFを作成する – 完全なAsposeガイ�
 url: /ja/net/basic-conversions/create-accessible-pdf-from-docx-complete-aspose-guide/
 ---
 
-We must keep code blocks placeholders unchanged.
 
-Let's produce final markdown with Japanese translation.
 
-Be careful with tables: translate column headers and content.
 
-Let's do translation.
 
-Start with shortcodes unchanged.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

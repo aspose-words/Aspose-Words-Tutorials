@@ -52,12 +52,12 @@ Java में टिप्पणी जोड़ना मतलब एक `Com
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 **Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 #### लाइसेंस प्राप्त करना
 Aspose.Words एक व्यावसायिक उत्पाद है। आप 30‑दिन का मुफ्त ट्रायल शुरू कर सकते हैं या मूल्यांकन के लिए अस्थायी लाइसेंस का अनुरोध कर सकते हैं। विवरण के लिए [purchase page](https://purchase.aspose.com/buy) देखें।
@@ -72,20 +72,20 @@ Aspose.Words एक व्यावसायिक उत्पाद है। 
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
-```
+```  
 
 **Step 2:** टिप्पणी बनाएं और जोड़ें  
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **Step 3:** टिप्पणी पर उत्तर जोड़ें  
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
-```
+```  
 
 ### फीचर 2: सभी टिप्पणियों को प्रिंट करें
 **Overview** – समीक्षा के लिए प्रत्येक टॉप‑लेवल टिप्पणी और उसके उत्तरों को प्राप्त करता है।
@@ -94,7 +94,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
 **Step 1:** दस्तावेज़ लोड करें  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
-```
+```  
 
 **Step 2:** टिप्पणियों को प्राप्त करें और प्रिंट करें  
 ```java
@@ -108,7 +108,7 @@ for (Comment comment : (Iterable<Comment>) comments) {
         }
     }
 }
-```
+```  
 
 ### फीचर 3: Java में टिप्पणी उत्तर कैसे हटाएँ
 **Overview** – दस्तावेज़ को साफ़ रखने के लिए **how to delete comment replies** दिखाता है।
@@ -122,7 +122,7 @@ comment.setText("My comment.");
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
-```
+```  
 
 **Step 2:** उत्तर हटाएँ  
 ```java
@@ -141,7 +141,7 @@ DocumentBuilder documentBuilder = new DocumentBuilder(document);
 documentBuilder.writeln("Hello world!");
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
-```
+```  
 
 **Step 2:** टिप्पणी को पूर्ण चिह्नित करें  
 ```java
@@ -149,7 +149,7 @@ document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
 comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
-```
+```  
 
 ### फीचर 5: टिप्पणी से UTC तिथि और समय प्राप्त करें
 **Overview** – टिप्पणी के जोड़ने के सटीक UTC टाइमस्टैम्प को प्राप्त करता है, जो ऑडिट लॉग के लिए आदर्श है।
@@ -163,7 +163,7 @@ Date dateTime = new Date();
 Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **Step 2:** सहेजें और UTC तिथि प्राप्त करें  
 ```java
@@ -171,7 +171,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
-```
+```  
 
 ## व्यावहारिक उपयोग
 - **सहयोगी संपादन:** टीमें उत्पन्न रिपोर्टों में सीधे टिप्पणी जोड़ और उत्तर दे सकती हैं।  

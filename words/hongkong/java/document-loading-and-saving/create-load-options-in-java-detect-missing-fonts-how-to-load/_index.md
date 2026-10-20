@@ -20,15 +20,11 @@ title: 在 Java 中建立載入選項 – 偵測缺失字型及如何載入 DOCX
 url: /zh-hant/java/document-loading-and-saving/create-load-options-in-java-detect-missing-fonts-how-to-load/
 ---
 
-** 檔案。只需三個簡潔步驟，即可得到可套用於任何 Aspose.Words 專案的可重用模式。"
 
-Next: "Got questions about other file formats or need help tweaking the callback for your specific environment? Drop a comment below, and happy coding!" -> "對其他檔案格式有疑問，或需要調整回呼以符合特定環境？歡迎在下方留言，祝編程愉快！"
 
-Then closing shortcodes.
 
-Now produce final content with all markdown unchanged. Ensure placeholders remain.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

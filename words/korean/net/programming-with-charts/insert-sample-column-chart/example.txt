@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: 이 튜토리얼은 새 Word 문서를 만들고, DocumentBuilder.InsertChart를 사용하여 기본 열 차트를 삽입하고, 포함된 Chart 객체를 얻은 다음, 문서를 .docx 파일로 저장하는 방법을 보여줍니다.
+//ExStepSummary:0: 빈 Word 문서를 만들고 이를 편집할 DocumentBuilder를 생성합니다.
+//ExStepSummary:1: 문서에 크기가 432 × 252 포인트인 열 차트를 삽입합니다.
+//ExStepSummary:2: 필요에 따라 추가 맞춤 설정을 위해 삽입된 Shape에서 Chart 객체를 가져옵니다.
+//ExStepSummary:3: 삽입된 열 차트가 포함된 문서를 .docx 파일로 저장합니다.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+Chart embeddedChart = chartContainer.Chart;
+
+//ExStep:3-
+wordDoc.Save("column-demo.docx");
+//ExEnd

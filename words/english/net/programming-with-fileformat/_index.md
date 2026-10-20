@@ -28,6 +28,7 @@ Whether you need to generate reports, create custom documents, automate Word doc
 | [Detect Document File Format](./detect-file-format/) | Learn how to detect document file formats using Aspose.Words for .NET with this comprehensive, step-by-step guide. |
 | [Detect Digital Signature on Word Document](./detect-document-signatures/) | Learn how to detect digital signatures in Word documents using Aspose.Words for .NET with our step-by-step guide. |
 | [Verify Encrypted Word Document](./verify-encrypted-document/) | Learn how to verify the encryption status of a Word document using Aspose.Words for .NET with this step-by-step guide. |
+| [How to Recover DOCX – Step‑by‑Step Guide for Corrupted Files](./how-to-recover-docx-step-by-step-guide-for-corrupted-files/) | Learn how to recover corrupted DOCX files using Aspose.Words for .NET with this step‑by‑step guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

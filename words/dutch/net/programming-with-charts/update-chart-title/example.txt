@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Met Aspose.Words maakt deze tutorial een Word‑document, voegt een kolomgrafiek in, werkt de titel van de grafiek bij met door de gebruiker opgegeven tekst, en schakelt de zichtbaarheid en overlay van de legenda in of uit op basis van de gebruikersvoorkeuren.
+//ExStepSummary:0: Definieer de door de gebruiker opgegeven grafiektitel en of de legenda moet worden weergegeven.
+//ExStepSummary:1: Maak een nieuw Word‑document en een DocumentBuilder aan om inhoud toe te voegen.
+//ExStepSummary:2: Voeg een kolomgrafiek van 432 × 252 pt in het document in en controleer of de shape daadwerkelijk een grafiek bevat.
+//ExStepSummary:3: Haal het grafiekobject op, stel de titeltekst in op de waarde van de gebruiker, en zorg ervoor dat de titel wordt weergegeven.
+//ExStepSummary:4: Configureer de legenda: toon deze rechts indien gevraagd, anders verberg hem, en sta toe dat hij de plot‑area overlapt.
+//ExStepSummary:5: Sla het gewijzigde document op schijf op als CustomChart.docx.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+string chartHeader = "Fiscal Q1 Performance Summary";
+bool displayLegend = false;
+
+//ExStep:1-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:2-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+if (!chartContainer.HasChart)
+    throw new InvalidOperationException("The inserted shape does not contain a chart.");
+
+//ExStep:3-
+Chart chartObj = chartContainer.Chart;
+ChartTitle chartTitle = chartObj.Title;
+chartTitle.Text = chartHeader;
+chartTitle.Show = true;
+
+//ExStep:4-
+ChartLegend chartLegend = chartObj.Legend;
+chartLegend.Position = displayLegend ? LegendPosition.Right : LegendPosition.None;
+chartLegend.Overlay = true;
+
+//ExStep:5-
+wordDoc.Save("CustomChart.docx");
+//ExEnd

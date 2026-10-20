@@ -67,10 +67,39 @@
 Изучите управление узлами в Aspose.Words для Java с помощью этого пошагового руководства. Раскройте возможности обработки документов.
 ### [Использование объектов OLE и элементов управления ActiveX в Aspose.Words для Java](./using-ole-objects-and-activex/)
 Изучите использование объектов OLE и элементов управления ActiveX в Aspose.Words для Java. Создавайте интерактивные документы с легкостью. Начните прямо сейчас!
+### [Как вставить кнопку ActiveX в Word – задать подпись кнопки](./how-to-insert-activex-button-in-word-set-button-caption/)
+Научитесь вставлять кнопку ActiveX в документ Word и задавать её подпись с помощью Aspose.Words для Java.
 ### [Использование ревизий в Aspose.Words для Java](./using-revisions/)
 Научитесь эффективно использовать контроль версий Aspose.Words for Java. Пошаговое руководство для разработчиков. Оптимизируйте управление документами.
 ### [Использование разделов в Aspose.Words для Java](./using-sections/)
 Исследуйте Aspose.Words для Java: полное руководство по использованию разделов. Добавляйте, удаляйте, присоединяйте, клонируйте разделы с примерами кода.
+### [Создание круговой диаграммы с Aspose.Words для Java – Полное пошаговое руководство](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Создайте круговую диаграмму в документах Word с помощью Aspose.Words для Java. Пошаговое руководство от начала до конца.
+### [Установка размера кнопки в Word с помощью Java – Полное руководство Aspose.Words](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Узнайте, как задать размер кнопки в документах Word с использованием Aspose.Words для Java.
+### [Добавление Forms2OleControl в DOCX – Полное руководство Aspose.Words](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Узнайте, как добавить элемент Forms2OleControl в документ DOCX с помощью Aspose.Words. Пошаговое полное руководство.
+### [Вставка круговой диаграммы в Word с Aspose.Words – Полное руководство](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Узнайте, как добавить круговую диаграмму в документ Word с помощью Aspose.Words, шаг за шагом.
+### [Создание пустого документа Word с кнопкой команды – пошаговое руководство](./create-blank-word-document-with-a-command-button-step-by-ste/)
+Пошаговое руководство по созданию пустого документа Word с кнопкой команды.
+### [Получение разделителя в документах Word с Java](./how-to-get-separator-in-word-docs-with-java/)
+Узнайте, как получить разделитель в документах Word с помощью Aspose.Words для Java.
+### [Как добавить SDT в C# – полное руководство по заполнителям Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+### [Создание круговой диаграммы в Word с Java – пошаговое руководство](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Узнайте, как создать круговую диаграмму в документе Word с помощью Aspose.Words для Java.
+### [Создание Word‑документа с заполнителями и списками в Aspose.Words для Java](./how-to-create-word-document-with-placeholders-and-lists/)
+Узнайте, как создавать документы Word с заполнителями и списками, используя Aspose.Words для Java.
+### [Как добавить линии‑указатели к круговой диаграмме в Java с помощью Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Узнайте, как добавить линии‑указатели к круговой диаграмме в Java с использованием Chart API.
+### [Использование кнопки команды в Aspose.Words для Java](./how-to-insert-command-button-in-a-word-document-using-java/)
+Узнайте, как вставить кнопку команды в документ Word с помощью Aspose.Words для Java.
+### [Как редактировать диаграмму в документе Word с помощью Java](./how-to-edit-chart-in-a-word-document-using-java/)
+Узнайте, как редактировать диаграммы в документах Word с помощью Aspose.Words для Java. Пошаговое руководство по изменению графиков.
+### [Как создать forms2olecontrol в коде с помощью Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Узнайте, как программно создать элемент forms2olecontrol в документах Word с помощью Aspose.Words.
+### [Сохранить документ Word после редактирования кольцевой диаграммы в Java](./save-word-document-after-editing-doughnut-chart-in-java/)
+Узнайте, как сохранить документ Word после изменения кольцевой диаграммы с помощью Aspose.Words для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

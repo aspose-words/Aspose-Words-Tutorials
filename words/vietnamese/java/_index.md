@@ -33,8 +33,6 @@ Dù bạn đang tạo báo cáo, tạo hợp đồng, hay xây dựng các hệ 
 - **Tích Hợp Dễ Dàng** – Nhúng các khả năng tài liệu mạnh mẽ vào ứng dụng Java của bạn với ít mã nhất.
 - **Độc Lập Nền Tảng** – Chạy trên bất kỳ môi trường nào hỗ trợ Java, bao gồm desktop, web và ứng dụng di động.
 
-## Các Danh Mục Hướng Dẫn Có Sẵn
-
 ### [Tích Hợp AI & Machine Learning](./ai-machine-learning-integration/)
 
 ### [Bắt Đầu](./getting-started/)

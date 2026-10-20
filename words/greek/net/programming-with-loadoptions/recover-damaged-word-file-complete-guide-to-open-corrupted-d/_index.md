@@ -220,7 +220,8 @@ class Program
 
 ---
 
-![Screenshot of a recovered Word document showing page numbers – recover damaged word file example](https://example.com/images/recover-damaged-word-file.png "Ανάκτηση κατεστραμμένου αρχείου Word"){{< /blocks/products/pf/tutorial-page-section >}}
+![Screenshot of a recovered Word document showing page numbers – recover damaged word file example](https://example.com/images/recover-damaged-word-file.png "Ανάκτηση κατεστραμμένου αρχείου Word")
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

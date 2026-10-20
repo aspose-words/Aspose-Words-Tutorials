@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: यह ट्यूटोरियल दिखाता है कि Aspose.Words Document और DocumentBuilder का उपयोग करके Word दस्तावेज़ कैसे बनाया जाए, एक हिस्टोग्राम चार्ट एम्बेड किया जाए, और ChartSeriesCollection.Add ओवरलोड का उपयोग करके नाम और मान स्वीकार करने वाले लेबल वाले डेटा सीरीज़ को कैसे जोड़ा जाए।
+//ExStepSummary:0: एक नया खाली Word दस्तावेज़ बनाएं और उसे संपादित करने के लिए DocumentBuilder बनाएं।
+//ExStepSummary:1: दस्तावेज़ में 500×300 आकार का हिस्टोग्राम चार्ट शेप डालें और उसका Chart ऑब्जेक्ट प्राप्त करें।
+//ExStepSummary:2: Aspose.Words द्वारा नए चार्ट्स में जोड़ी गई डिफ़ॉल्ट प्लेसहोल्डर सीरीज़ को हटाएँ।
+//ExStepSummary:3: "Demo Series" नाम की सीरीज़ को निर्दिष्ट डेटा पॉइंट्स के साथ हिस्टोग्राम चार्ट में जोड़ें।
+//ExStepSummary:4: दस्तावेज़ को .docx फ़ाइल में सहेजें जिसमें लेबल वाली चार्ट सीरीज़ शामिल हो।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape histogramShape = docBuilder.InsertChart(ChartType.Histogram, 500, 300);
+Chart histogramChart = histogramShape.Chart;
+
+//ExStep:2-
+histogramChart.Series.Clear();
+
+//ExStep:3-
+histogramChart.Series.Add("Demo Series", new double[] { 10, 20, 15, 30, 25 });
+
+//ExStep:4-
+myDocument.Save("LabeledSeriesDemo.docx");
+//ExEnd

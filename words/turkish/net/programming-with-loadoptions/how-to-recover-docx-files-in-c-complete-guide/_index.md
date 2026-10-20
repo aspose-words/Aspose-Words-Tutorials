@@ -24,13 +24,9 @@ title: C# ile DOCX Dosyalarını Kurtarma – Tam Rehber
 url: /tr/net/programming-with-loadoptions/how-to-recover-docx-files-in-c-complete-guide/
 ---
 
-.
 
-Finally closing shortcodes.
 
-Also need to keep the final back button shortcode unchanged.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

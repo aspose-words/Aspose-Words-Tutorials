@@ -45,32 +45,75 @@
 ## 使用文件元素教學
 ### [在 Aspose.Words for Java 中使用註釋](./using-comments/)
 了解如何在 Aspose.Words for Java 中使用註解。有關在文件中新增和自訂註解的逐步教學。
+
 ### [在 Aspose.Words for Java 中使用字段](./using-fields/)
 在本逐步教程中學習如何有效地使用 Aspose.Words 處理 Java 欄位。輕鬆建立動態 Word 文件。
+
 ### [在 Aspose.Words for Java 中使用字體](./using-fonts/)
 探索 Aspose.Words for Java 中的字體格式：大小、樣式、顏色等。輕鬆建立格式精美的文件。
+
 ### [在 Aspose.Words for Java 中使用腳註和尾註](./using-footnotes-and-endnotes/)
 學習在 Aspose.Words for Java 中有效地使用腳註和尾註。立即增強您的文件格式化技能！
+
 ### [在 Aspose.Words for Java 中使用表單字段](./using-form-fields/)
 學習使用 Aspose.Words for Java 建立帶有表單欄位的互動式 Word 文件。立即開始！
+### [在 Aspose.Words for Java 中插入命令按鈕](./how-to-insert-command-button-in-a-word-document-using-java/)
+了解如何在 Word 文件中使用 Java 程式碼插入可執行的命令按鈕，提升文件互動性。
 ### [在 Aspose.Words for Java 中使用 HarfBuzz](./using-harfbuzz/)
 學習使用 HarfBuzz 在 Aspose.Words for Java 中進行進階文字整形。請按照本逐步指南增強複雜腳本中的文字渲染。
+
 ### [在 Aspose.Words for Java 中使用頁首和頁尾](./using-headers-and-footers/)
 逐步了解如何在 Aspose.Words for Java 中使用頁首和頁尾。輕鬆建立專業文件。
+
 ### [在 Aspose.Words for Java 中使用連字符](./using-hyphenation/)
 透過本綜合教學學習如何在 Aspose.Words for Java 中有效地使用連字號。立即增強文件的可讀性！
+
 ### [在 Aspose.Words for Java 中使用列表](./using-lists/)
 透過本逐步教學學習如何在 Aspose.Words for Java 中使用清單。有效地組織和格式化您的文件。
+
+### [在 Aspose.Words for Java 中使用佔位符和清單建立 Word 文件](./how-to-create-word-document-with-placeholders-and-lists/)
+學習在 Aspose.Words for Java 中建立包含佔位符與清單的 Word 文件的步驟。
+
 ### [在 Aspose.Words for Java 中使用 Markdown](./using-markdown/)
 透過本逐步教程學習在 Aspose.Words for Java 中使用 Markdown。輕鬆建立、設計和儲存 Markdown 文件。
+
 ### [在 Aspose.Words for Java 中使用節點](./using-nodes/)
 透過本逐步教學學習如何在 Aspose.Words for Java 中操作節點。釋放文檔處理能力。
+
 ### [在 Aspose.Words for Java 中使用 OLE 物件和 ActiveX 控件](./using-ole-objects-and-activex/)
 學習在 Aspose.Words for Java 中使用 OLE 物件和 ActiveX 控制項。輕鬆建立互動式文件。立即開始！
+### [在 Word 中插入 ActiveX 按鈕 – 設定按鈕說明文字](./how-to-insert-activex-button-in-word-set-button-caption/)
+了解如何在 Word 中插入 ActiveX 按鈕並設定按鈕說明文字，提供逐步指導與程式碼範例。
+### [在程式碼中使用 Aspose.Words 建立 forms2olecontrol 控制項](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+了解如何在 Java 程式碼中使用 Aspose.Words 建立 forms2olecontrol，以嵌入 OLE 控制項。
 ### [在 Aspose.Words for Java 中使用修訂版本](./using-revisions/)
 學習有效地使用 Aspose.Words for Java 的修訂控制。為開發人員提供逐步指南。優化您的文件管理。
+
 ### [在 Aspose.Words for Java 中使用部分](./using-sections/)
 探索 Aspose.Words for Java：有關使用部分的綜合指南。使用程式碼範例新增、刪除、附加、克隆部分。
+### [在 Aspose.Words for Java 中設定按鈕大小 – 完整指南](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+學習如何在 Word 文檔中使用 Java 設定按鈕大小，完整掌握 Aspose.Words 的實作步驟。
+### [在 Aspose.Words for Java 中建立餅圖 – 完整步驟指南](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+學習使用 Aspose.Words for Java 在 Word 文件中動態建立餅圖的完整步驟。
+### [在 DOCX 中添加 Forms2OleControl – 完整 Aspose.Words 指南](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+學習如何在 Aspose.Words for Java 中使用 Forms2OleControl 將表單轉換為 OLE 控制項，並嵌入 DOCX 文件。
+### [在 Aspose.Words for Java 中插入餅圖 – 完整指南](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+了解如何使用 Aspose.Words for Java 在 Word 文件中插入並自訂餅圖，完整步驟與程式碼示例。
+### [在 Aspose.Words for Java 中使用指令按鈕建立空白 Word 文件 – 步驟指南](./create-blank-word-document-with-a-command-button-step-by-ste/)
+了解如何在 Aspose.Words for Java 中使用指令按鈕建立空白的 Word 文件，提供完整步驟說明。
+### [在 Aspose.Words for Java 中使用 Java 建立餅圖 – 步驟指南](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+學習如何使用 Aspose.Words for Java 透過 Java 程式碼在 Word 文件中建立餅圖。
+### [在 Aspose.Words for Java 中取得分隔符](./how-to-get-separator-in-word-docs-with-java/)
+了解如何在 Word 文檔中使用 Java 獲取分隔符。
+### [在 C# 中新增 SDT – Word 佔位符完整指南](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+了解如何在 C# 中使用 SDT（結構化文檔標記）為 Word 文件添加佔位符。
+
+### [在 Java 中使用 Chart API 為餅圖添加指示線](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+了解如何在 Java 中使用 Chart API 為餅圖添加指示線，提升圖表的可讀性與美觀。
+### [在 Aspose.Words for Java 中編輯 Word 文件的圖表](./how-to-edit-chart-in-a-word-document-using-java/)
+了解如何使用 Java 透過 Aspose.Words 編輯 Word 文件中的圖表。
+### [在 Java 中編輯甜甜圈圖表後儲存 Word 文件](./save-word-document-after-editing-doughnut-chart-in-java/)
+了解如何在 Java 使用 Aspose.Words 編輯甜甜圈圖表後保存 Word 文件。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

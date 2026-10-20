@@ -24,7 +24,6 @@ title: Aspose.Words Kullanarak Bozuk DOCX Dosyasını Kurtarın
 url: /tr/net/programming-with-loadoptions/recover-damaged-docx-file-using-aspose-words/
 ---
 
-produce final content with translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

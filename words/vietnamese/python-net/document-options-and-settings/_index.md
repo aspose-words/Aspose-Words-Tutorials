@@ -49,6 +49,18 @@ Tìm hiểu cách thao tác hiệu quả các tài liệu Word bằng Aspose.Wor
 Tìm hiểu cách quản lý thuộc tính tài liệu và siêu dữ liệu bằng Aspose.Words cho Python. Hướng dẫn từng bước có mã nguồn.
 ### [Mở rộng chức năng tài liệu bằng tiện ích mở rộng web](./document-functionality-web-extensions/)
 Tìm hiểu cách mở rộng chức năng tài liệu bằng tiện ích mở rộng web bằng Aspose.Words cho Python. Hướng dẫn từng bước với mã nguồn để tích hợp liền mạch.
+### [Làm cho PDF có khả năng truy cập với Aspose.Words – Hướng dẫn chi tiết từng bước](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
+Tìm hiểu cách làm cho PDF có khả năng truy cập bằng Aspose.Words trong Python. Hướng dẫn chi tiết từng bước với mã nguồn.
+### [Cách Khôi Phục DOCX – Hướng Dẫn Toàn Diện với Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
+Hướng dẫn chi tiết cách khôi phục tài liệu DOCX bị hỏng bằng Aspose.Words, bao gồm các bước và ví dụ mã nguồn.
+### [Khôi phục tài liệu Word bị hỏng với Aspose.Words – hướng dẫn từng bước Python](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+Hướng dẫn chi tiết cách khôi phục tài liệu Word bị hỏng bằng Aspose.Words trong Python.
+### [Cách khôi phục tệp docx trong Python – hướng dẫn từng bước](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Hướng dẫn chi tiết cách khôi phục các tệp docx trong Python bằng các bước cụ thể.
+### [Cấu hình MarkdownSaveOptions cho LaTeX trong Python – Hướng dẫn Aspose.Words](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Hướng dẫn cách cấu hình MarkdownSaveOptions để xuất tài liệu LaTeX bằng Python với Aspose.Words.
+### [Cách khôi phục tệp docx bằng Aspose.Words cho Python](./how-to-recover-docx-files-with-aspose-words-for-python/)
+Hướng dẫn khôi phục các tệp docx bị hỏng hoặc mất dữ liệu bằng Aspose.Words cho Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

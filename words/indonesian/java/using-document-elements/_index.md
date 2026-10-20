@@ -67,10 +67,38 @@ Pelajari cara menggunakan Markdown di Aspose.Words untuk Java dengan tutorial la
 Pelajari cara memanipulasi node di Aspose.Words untuk Java dengan tutorial langkah demi langkah ini. Dapatkan kekuatan pemrosesan dokumen.
 ### [Menggunakan Objek OLE dan Kontrol ActiveX di Aspose.Words untuk Java](./using-ole-objects-and-activex/)
 Pelajari cara menggunakan objek OLE dan kontrol ActiveX di Aspose.Words untuk Java. Buat dokumen interaktif dengan mudah. Mulailah sekarang!
+### [Cara Menyisipkan Tombol ActiveX di Word – Mengatur Caption Tombol](./how-to-insert-activex-button-in-word-set-button-caption/)
+Pelajari cara menyisipkan tombol ActiveX di dokumen Word dan mengatur caption tombolnya dengan Aspose.Words untuk Java.
 ### [Menggunakan Revisi di Aspose.Words untuk Java](./using-revisions/)
 Pelajari cara menggunakan kontrol revisi Aspose.Words untuk Java secara efisien. Panduan langkah demi langkah untuk pengembang. Optimalkan manajemen dokumen Anda.
 ### [Menggunakan Bagian di Aspose.Words untuk Java](./using-sections/)
 Jelajahi Aspose.Words untuk Java: Panduan lengkap tentang penggunaan bagian. Tambahkan, hapus, tambahkan, klon bagian dengan contoh kode.
+### [Mengatur Ukuran Tombol di Word dengan Java – Panduan Lengkap Aspose.Words](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Pelajari cara mengatur ukuran tombol di dokumen Word menggunakan Aspose.Words untuk Java dalam panduan lengkap ini.
+### [Membuat Diagram Lingkaran dengan Aspose.Words Java – Panduan Lengkap Langkah demi Langkah](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Pelajari cara membuat diagram lingkaran menggunakan Aspose.Words untuk Java dengan panduan langkah demi langkah yang lengkap.
+### [Menambahkan Forms2OleControl ke DOCX – Panduan Lengkap Aspose.Words](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Pelajari cara menambahkan kontrol Forms2OleControl ke file DOCX menggunakan Aspose.Words untuk Java dalam panduan langkah demi langkah ini.
+### [Menyisipkan Diagram Pai di Word dengan Aspose.Words – Panduan Lengkap](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Pelajari cara menyisipkan diagram pai di dokumen Word menggunakan Aspose.Words dengan panduan lengkap langkah demi langkah.
+### [Membuat dokumen Word kosong dengan tombol perintah – panduan langkah demi langkah](./create-blank-word-document-with-a-command-button-step-by-ste/)
+Panduan langkah demi langkah untuk membuat dokumen Word kosong dengan tombol perintah menggunakan Aspose.Words untuk Java.
+### [Cara Mendapatkan Separator di Dokumen Word dengan Java](./how-to-get-separator-in-word-docs-with-java/)
+Pelajari cara mendapatkan separator di dokumen Word menggunakan Java.
+### [Cara menambahkan SDT di C# – panduan lengkap untuk placeholder Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Pelajari cara menambahkan SDT di C# untuk placeholder Word dengan panduan lengkap langkah demi langkah.
+### [Membuat diagram pai di Word dengan Java – panduan langkah demi langkah](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Pelajari cara membuat diagram pai di dokumen Word menggunakan Aspose.Words untuk Java dengan panduan langkah demi langkah.
+### [Cara Membuat Dokumen Word dengan Placeholder dan Daftar](./how-to-create-word-document-with-placeholders-and-lists/)
+### [Cara menambahkan garis pemimpin ke diagram pai di Java dengan Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Pelajari cara menambahkan garis pemimpin pada diagram pai menggunakan Chart API di Java dengan contoh langkah demi langkah.
+### [Cara menyisipkan tombol perintah dalam dokumen Word menggunakan Java](./how-to-insert-command-button-in-a-word-document-using-java/)
+### [Cara Mengedit Diagram dalam Dokumen Word menggunakan Java](./how-to-edit-chart-in-a-word-document-using-java/)
+Pelajari cara mengedit diagram dalam dokumen Word menggunakan Java dengan contoh kode langkah demi langkah.
+### [Simpan dokumen Word setelah mengedit diagram donat di Java](./save-word-document-after-editing-doughnut-chart-in-java/)
+Pelajari cara menyimpan dokumen Word setelah memodifikasi diagram donat menggunakan Aspose.Words untuk Java.
+### [Cara Membuat forms2olecontrol dalam Kode dengan Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Pelajari cara membuat kontrol OLE forms2olecontrol secara programatik menggunakan Aspose.Words untuk Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -20,11 +20,9 @@ title: 使用 Aspose.Words 將文件另存為 PDF – 完整 C# 指南
 url: /zh-hant/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-words-complete-c-guide/
 ---
 
-quotes, code placeholders, lists, headings.
 
-Make sure to preserve markdown formatting exactly.
 
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

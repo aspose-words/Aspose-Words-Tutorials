@@ -23,19 +23,12 @@ title: วิธีกู้คืนไฟล์ docx – คู่มือเ
 url: /th/java/document-loading-and-saving/how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/
 ---
 
-alt attribute. So alt text becomes Thai.
 
-Also the image caption after alt? Actually alt is inside brackets, we translate that.
 
-Also the heading "How to recover docx – Complete Guide to Read Corrupted Word Files" translate.
 
-All shortcodes remain unchanged.
 
-Let's produce final content.
 
-We'll keep code block placeholders unchanged.
 
-Proceed to translate.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

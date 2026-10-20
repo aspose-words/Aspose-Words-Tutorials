@@ -21,9 +21,7 @@ title: Asposeの使い方 – DOCXをMarkdownに変換し、LaTeX数式を含め
 url: /ja/net/programming-with-markdownsaveoptions/how-to-use-aspose-convert-docx-to-markdown-with-latex-equati/
 ---
 
-.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

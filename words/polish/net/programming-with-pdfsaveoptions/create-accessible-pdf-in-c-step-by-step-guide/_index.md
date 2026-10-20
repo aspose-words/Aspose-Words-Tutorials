@@ -21,17 +21,11 @@ title: Tworzenie dostępnego PDF w C# – Przewodnik krok po kroku
 url: /pl/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-step-by-step-guide/
 ---
 
-is text. Should translate it. But must not translate URLs. So we translate alt text.
 
-Also there is a table with headers "Check" and "How to verify". Translate them.
 
-Also bullet lists.
 
-Let's produce final translation.
 
-Be careful with code block placeholders: they are not fenced, but we keep them as is.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -22,11 +22,9 @@ title: Docx opslaan als PDF met Java – Complete stap‑voor‑stap gids
 url: /nl/java/document-conversion-and-export/save-docx-as-pdf-with-java-complete-step-by-step-guide/
 ---
 
-we translated "*Uitleg*:" but maybe keep "*Explanation*:" as text. Should we translate? It's part of content. It's okay to translate. Keep consistent.
 
-Make sure we didn't translate code block placeholders.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

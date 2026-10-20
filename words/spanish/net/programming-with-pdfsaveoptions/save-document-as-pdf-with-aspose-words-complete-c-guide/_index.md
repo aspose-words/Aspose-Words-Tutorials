@@ -23,33 +23,19 @@ title: Guardar documento como PDF con Aspose.Words – Guía completa de C#
 url: /es/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-words-complete-c-guide/
 ---
 
-0}}; they are placeholders for code. Keep them unchanged.
 
-Also preserve the blockquote "What you’ll get:" etc.
 
-Translate the content inside blockquotes.
 
-Also the "Pro tip:" etc.
 
-Also "Sample console output" etc.
 
-Also the "Full Working Example" heading.
 
-Also the "Expected result:" etc.
 
-Also "Handling Edge Cases and Common Variations" etc.
 
-Also "Providing a Custom Font Folder", "Suppressing Warnings When You Don’t Need Them", "Converting Multiple Documents in a Batch".
 
-Also "Visual Overview" heading.
 
-Also the final conclusion.
 
-Make sure to keep markdown formatting.
 
-Also ensure we keep the shortcodes at top and bottom exactly.
 
-Let's produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

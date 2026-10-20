@@ -22,7 +22,6 @@ title: Aspose.Words के साथ Word में आयताकार आक
 url: /hi/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/
 ---
 
-Let's craft final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
