@@ -66,6 +66,9 @@
 ### [كيفية تطبيق تأثير الظل على شكل Word باستخدام Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
 تعلم كيفية إضافة تأثير الظل إلى الأشكال في مستندات Word باستخدام Aspose.Words للغة Python-net.
 
+### [كيفية إنشاء شكل مستطيل في مستند Word باستخدام Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+تعلم كيفية إنشاء شكل مستطيل داخل مستند Word باستخدام مكتبة Aspose.Words للغة Python.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Python-net](https://docs.aspose.com/words/python-net/)

@@ -74,6 +74,9 @@ Python でカラムチャートを作成し、Word 文書に統合する手順�
 ### [Aspose.Words で Word の図形に影効果を適用する方法](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
 Aspose.Words を使用して、Word 文書内の図形に影効果を追加する手順を解説します。
 
+### [Python で Word 文書に矩形シェイプを作成する方法](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Python を使って Word 文書に矩形シェイプを挿入し、位置やサイズを設定する手順を解説します。
+
 ## 追加リソース
 
 - [Aspose.Words for Python-net ドキュメント](https://docs.aspose.com/words/python-net/)

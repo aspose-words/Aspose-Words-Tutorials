@@ -60,6 +60,8 @@ Python kullanarak bozulmuş docx dosyalarını nasıl kurtaracağınızı adım 
 Python ile LaTeX çıktısı için MarkdownSaveOptions ayarlarını nasıl yapılandıracağınızı öğrenin.
 ### [Aspose.Words for Python ile docx dosyalarını nasıl kurtarılır](./how-to-recover-docx-files-with-aspose-words-for-python/)
 Aspose.Words for Python kullanarak bozuk veya kaybolmuş docx dosyalarını kurtarma yöntemlerini öğrenin.
+### [Bozuk bir Word belgesini açmak için kurtarma modunu etkinleştirme](./enable-recovery-mode-to-open-a-corrupted-word-document/)
+Python için Aspose.Words kullanarak bozuk bir Word belgesini kurtarma modunda açmayı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

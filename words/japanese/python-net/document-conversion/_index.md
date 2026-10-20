@@ -46,6 +46,12 @@ Word 文書から LaTeX をエクスポートし、DOCX を Markdown に変換�
 ### [Word から PDF を作成 – Aspose.Words 完全 Python ガイド](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Aspose.Words for Python を使用して、Word 文書から PDF を生成する手順を詳しく解説します。簡単に実装可能です。
 
+### [Python で Aspose.Words を使用して DOCX を PDF に変換する方法](./how-to-convert-docx-to-pdf-in-python-using-aspose-words/)
+Aspose.Words for Python を使って DOCX ファイルを PDF に変換する手順を詳しく解説します。
+
+### [Word から PDF にエクスポートし、アクセシブル PDF/UA を生成する方法 – 完全 Python ガイド](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
+Aspose.Words for Python を使用して、Word 文書を PDF に変換し、アクセシビリティ対応の PDF/UA を生成する手順を解説します。
+
 ### [Python で Word からアクセシブル PDF を作成 – ステップバイステップ ガイド](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Aspose.Words for Python を使用して、アクセシビリティ対応の PDF を Word から生成する手順を詳しく解説します。
 
@@ -217,6 +223,9 @@ Aspose.Words を使い、Python で docx ファイルをテキスト形式に変
 Word 文書をアクセシブルな PDF に変換し、PDF/UA 準拠を実現する手順を解説します。
 ### [docx を Markdown に変換し、PDF にエクスポートする方法（Aspose.Words 使用）](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
 docx を Markdown に変換し、さらに PDF にエクスポートする手順を Aspose.Words で解説します。
+
+### [Word を復元し、LaTeX で Markdown に変換する方法](./how-to-recover-word-and-convert-to-markdown-with-latex/)
+Word 文書を復元し、LaTeX 経由で Markdown に変換する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

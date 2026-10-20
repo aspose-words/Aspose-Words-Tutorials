@@ -76,6 +76,9 @@ Python ve Aspose.Words ile sütun grafik oluşturmayı adım adım öğrenin.
 ### [Aspose.Words ile Word şekline gölge efekti uygulama](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
 Aspose.Words ile Word şekline gölge efekti eklemeyi öğrenin.
 
+### [Python ile bir Word belgesine dikdörtgen şekil ekleme](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Python kullanarak Word belgesine dikdörtgen şekil eklemeyi adım adım öğrenin.
+
 ## Ek Kaynaklar
 
 - [Aspose.Words for Python-net Belgeleri](https://docs.aspose.com/words/python-net/)

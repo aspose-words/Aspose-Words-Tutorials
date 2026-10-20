@@ -61,6 +61,8 @@
 Μάθετε πώς να ρυθμίσετε τις επιλογές αποθήκευσης Markdown για εξαγωγή σε LaTeX χρησιμοποιώντας Aspose.Words σε Python.
 ### [Πώς να ανακτήσετε αρχεία docx με το Aspose.Words για Python](./how-to-recover-docx-files-with-aspose-words-for-python/)
 Μάθετε πώς να ανακτήσετε αρχεία docx που έχουν καταστραφεί ή χαθεί χρησιμοποιώντας το Aspose.Words για Python.
+### [Ενεργοποίηση λειτουργίας ανάκτησης για το άνοιγμα ενός κατεστραμμένου εγγράφου Word](./enable-recovery-mode-to-open-a-corrupted-word-document/)
+Μάθετε πώς να ανοίγετε κατεστραμμένα έγγραφα Word ενεργοποιώντας τη λειτουργία ανάκτησης.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

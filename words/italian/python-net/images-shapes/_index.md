@@ -75,6 +75,9 @@ Scopri come generare un grafico a colonne in un documento Word usando Aspose.Wor
 ### [Come applicare l'effetto ombra a una forma Word con Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
 Scopri come aggiungere un effetto ombra alle forme nei documenti Word usando Aspose.Words per Python-net.
 
+### [Come creare una forma rettangolare in un documento Word usando Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Scopri come inserire e formattare una forma rettangolare in un documento Word con Aspose.Words per Python.
+
 ## Risorse aggiuntive
 
 - [Aspose.Words per la documentazione di Python-net](https://docs.aspose.com/words/python-net/)

@@ -61,6 +61,8 @@ Python में खोई हुई या क्षतिग्रस्त do
 Python में LaTeX आउटपुट के लिए MarkdownSaveOptions सेट करने की चरण‑दर‑चरण मार्गदर्शिका।
 ### [Aspose.Words for Python के साथ docx फ़ाइलों को पुनर्प्राप्त करने की विधि](./how-to-recover-docx-files-with-aspose-words-for-python/)
 पायथन में Aspose.Words का उपयोग करके क्षतिग्रस्त या खोई हुई docx फ़ाइलों को पुनर्स्थापित करने के चरण।
+### [करप्टेड Word दस्तावेज़ खोलने के लिए रिकवरी मोड सक्षम करें](./enable-recovery-mode-to-open-a-corrupted-word-document/)
+पायथन में Aspose.Words का उपयोग करके करप्टेड Word दस्तावेज़ को खोलने के लिए रिकवरी मोड सक्षम करने की प्रक्रिया सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -54,6 +54,9 @@ Aspose.Words for Python kullanarak Word belgelerinden PDF dosyaları oluşturmay
 ### [Word'den Erişilebilir PDF Oluşturma – Python ile Adım Adım Kılavuz](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Aspose.Words for Python kullanarak Word belgelerinden erişilebilir PDF dosyaları oluşturmayı adım adım öğrenin.
 
+### [Word'ü PDF'ye dışa aktarma ve erişilebilir PDF/UA oluşturma](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
+Aspose.Words for Python kullanarak Word belgelerini PDF'ye dönüştürün ve erişilebilir PDF/UA dosyaları oluşturun.
+
 ### [Word'den Markdown Kaydet – PDF/A‑UA Dışa Aktarma ile Tam Kılavuz](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Aspose.Words for Python kullanarak Word belgelerini Markdown formatına kaydedin ve PDF/A‑UA uyumlu dosyalar oluşturun.
 ### [Word'den PDF/UA Oluşturma – Adım Adım Kılavuz](./create-pdf-ua-from-word-step-by-step-guide/)
@@ -213,6 +216,12 @@ Aspose.Words for Python ile docx dosyalarını txt formatına dönüştürmeyi a
 Aspose.Words for Python kullanarak Word belgelerinden erişilebilir PDF dosyaları oluşturmayı öğrenin.
 ### [DOCX'i Markdown'a Dönüştür ve PDF Olarak Dışa Aktar Aspose.Words ile](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
 Aspose.Words for Python ile DOCX dosyalarını Markdown'a dönüştürüp PDF olarak dışa aktarın.
+
+### [Python'da Aspose.Words ile DOCX'i PDF'ye Dönüştürme](./how-to-convert-docx-to-pdf-in-python-using-aspose-words/)
+Aspose.Words for Python kullanarak DOCX dosyalarını PDF formatına nasıl dönüştüreceğinizi adım adım öğrenin.
+
+### [Word'ü kurtarın ve LaTeX ile Markdown'a dönüştürün](./how-to-recover-word-and-convert-to-markdown-with-latex/)
+Aspose.Words for Python kullanarak bozuk Word belgelerini onarın ve LaTeX aracılığıyla Markdown'a dönüştürün.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

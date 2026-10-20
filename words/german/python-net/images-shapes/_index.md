@@ -70,6 +70,9 @@ Erfahren Sie, wie Sie mit Aspose.Words in Python ein Säulendiagramm erstellen u
 ### [Wie man Schatteneffekt auf eine Word-Form mit Aspose.Words anwendet](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
 Erfahren Sie, wie Sie Schatteneffekte auf Word-Formen mit Aspose.Words anwenden.
 
+### [Wie man ein Rechteck in einem Word-Dokument mit Python erstellt](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Erfahren Sie, wie Sie mit Aspose.Words für Python ein Rechteck in ein Word-Dokument einfügen und formatieren.
+
 ## Weitere Ressourcen
 
 - [Aspose.Words für die Python-Net-Dokumentation](https://docs.aspose.com/words/python-net/)

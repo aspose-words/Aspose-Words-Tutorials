@@ -74,6 +74,9 @@
 ### [Как применить эффект тени к фигуре Word с помощью Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
 Узнайте, как добавить эффект тени к фигурам в документах Word с помощью Aspose.Words для Python-net.
 
+### [Как создать прямоугольную фигуру в документе Word с помощью Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Узнайте, как создать прямоугольную фигуру в документе Word, используя Aspose.Words для Python.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words для Python-net](https://docs.aspose.com/words/python-net/)

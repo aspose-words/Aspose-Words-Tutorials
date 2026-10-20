@@ -75,6 +75,8 @@ Lär dig att skapa ett kolumndiagram i ett Word-dokument med Aspose.Words för P
 ### [Hur man applicerar skuggeffekt på en Word-form med Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
 Lär dig steg för steg hur du lägger till skuggeffekt på en form i Word-dokument med Aspose.Words.
 
+### [Hur man skapar rektangelform i ett Word-dokument med Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+
 ## Ytterligare resurser
 
 - [Aspose.Words för Python-net-dokumentation](https://docs.aspose.com/words/python-net/)

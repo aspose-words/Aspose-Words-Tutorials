@@ -73,6 +73,9 @@ Dowiedz się, jak generować wykresy kolumnowe w dokumentach Word przy użyciu A
 ### [Jak zastosować efekt cienia do kształtu Word przy użyciu Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
 Dowiedz się, jak dodać efekt cienia do kształtu w dokumencie Word przy użyciu Aspose.Words w Python-net.
 
+### [Jak utworzyć prostokątny kształt w dokumencie Word przy użyciu Pythona](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Dowiedz się, jak dodać prostokątny kształt do dokumentu Word przy użyciu Aspose.Words w Pythonie.
+
 ## Dodatkowe zasoby
 
 - [Aspose.Words dla dokumentacji Python-net](https://docs.aspose.com/words/python-net/)

@@ -61,6 +61,8 @@
 学习如何在 Python 使用 Aspose.Words 将文档保存为 LaTeX 格式的 MarkdownSaveOptions 配置方法。
 ### [使用 Aspose.Words for Python 恢复 docx 文件](./how-to-recover-docx-files-with-aspose-words-for-python/)
 学习如何使用 Aspose.Words for Python 恢复损坏的 docx 文件，提供完整代码示例。
+### [启用恢复模式以打开损坏的 Word 文档](./enable-recovery-mode-to-open-a-corrupted-word-document/)
+学习如何在 Aspose.Words for Python 中启用恢复模式以打开损坏的 Word 文档。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

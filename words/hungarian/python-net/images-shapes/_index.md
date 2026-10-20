@@ -73,6 +73,9 @@ Tanuld meg, hogyan mentheted el a PNG képet, és adhatsz árnyékot az alakzato
 ### [Hogyan alkalmazz árnyékhatást egy Word alakzatra az Aspose.Words segítségével](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
 Tanuld meg, hogyan adhatsz árnyékhatást Word alakzatokhoz az Aspose.Words használatával.
 
+### [Téglalap alakzat létrehozása Word dokumentumban Python használatával](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Tanuld meg, hogyan hozhatsz létre téglalap alakzatot Word dokumentumban a Python és az Aspose.Words segítségével.
+
 ## További források
 
 - [Aspose.Words Python-net dokumentációhoz](https://docs.aspose.com/words/python-net/)

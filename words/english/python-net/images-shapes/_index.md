@@ -71,6 +71,9 @@ Learn how to generate a column chart in a Word document using Aspose.Words for P
 ### [How to apply shadow effect to a Word shape with Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
 Learn how to add a shadow effect to Word shapes using Aspose.Words for Python-net with step-by-step examples.
 
+### [How to create rectangle shape in a Word document using Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Learn how to insert and customize a rectangle shape in a Word document using Aspose.Words for Python-net with clear code examples.
+
 ## Additional Resources
 
 - [Aspose.Words for Python-net Documentation](https://docs.aspose.com/words/python-net/)

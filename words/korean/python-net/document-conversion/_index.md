@@ -48,9 +48,17 @@ Word 문서의 수식들을 LaTeX 형식으로 변환하고 마크다운(.md) �
 
 ### [DOCX를 TXT로 변환하고 Word 방정식을 LaTeX로 내보내기 – 완전 가이드](./convert-docx-to-txt-and-export-equations-from-word-as-latex/)
 DOCX 파일을 텍스트 파일로 변환하고 Word 문서의 수식을 LaTeX 형식으로 내보내는 방법을 단계별로 안내합니다!
+### [Word 복구 및 LaTeX와 함께 Markdown으로 변환하는 방법](./how-to-recover-word-and-convert-to-markdown-with-latex/)
+Word 문서를 복구하고 LaTeX를 사용해 Markdown으로 변환하는 단계별 가이드.
+
+### [Word에서 LaTeX 내보내기 – DOCX를 Markdown으로 변환](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+Word 문서를 LaTeX 형식으로 내보내고, DOCX를 Markdown으로 변환하는 방법을 단계별로 안내합니다.
 
 ### [Word에서 PDF 만들기 – Aspose.Words와 함께하는 완전 Python 가이드](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Aspose.Words를 사용해 Word 문서를 PDF로 변환하는 방법을 단계별로 안내합니다.
+
+### [Python에서 Aspose.Words를 사용해 DOCX를 PDF로 변환하는 방법](./how-to-convert-docx-to-pdf-in-python-using-aspose-words/)
+Aspose.Words를 활용해 DOCX 파일을 PDF로 변환하는 방법을 단계별로 안내합니다!
 
 ### [Python으로 Word에서 접근성 PDF 만들기 – 단계별 가이드](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Aspose.Words를 활용해 Word 문서를 접근성 PDF로 변환하는 방법을 단계별로 안내합니다.
@@ -153,8 +161,6 @@ DOCX를 Markdown으로 변환하면서 이미지 파일명을 자동으로 변�
 ### [DOCX를 PDF로 변환 – Aspose.Words 가이드](./convert-docx-to-pdf-with-aspose-words-guide/)
 Aspose.Words를 사용해 DOCX 파일을 PDF로 변환하는 방법을 단계별로 안내합니다.
 
-### [Word에서 LaTeX 내보내기 – DOCX를 Markdown으로 변환](./how-to-export-latex-from-word-convert-docx-to-markdown/)
-Word 문서에서 LaTeX를 추출하고 DOCX를 Markdown으로 변환하는 방법을 단계별로 안내합니다.
 ### [Word를 Markdown으로 저장하고 LaTeX로 수식 내보내기 (Python)](./save-word-as-markdown-export-equations-to-latex-python/)
 Word 문서를 Markdown으로 변환하고, 수식을 LaTeX 형식으로 내보내는 방법을 Python으로 안내합니다.
 
@@ -223,6 +229,9 @@ Aspose.Words for Python을 이용해 docx 파일을 텍스트 파일로 변환�
 
 ### [Aspose.Words를 사용하여 docx를 markdown으로 변환하고 PDF로 내보내기](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
 docx 파일을 markdown으로 변환한 뒤 PDF로 내보내는 방법을 안내합니다.
+
+### [Word를 PDF로 내보내고 접근성 PDF/UA 만들기](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
+Aspose.Words를 사용해 Word 문서를 PDF로 변환하고 접근성 PDF/UA를 생성하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -72,6 +72,9 @@ Aprenda a salvar imagens PNG e aplicar sombra a formas em documentos Word usando
 ### [Como aplicar efeito de sombra a uma forma Word com Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
 Aprenda a aplicar efeito de sombra a formas em documentos Word usando Aspose.Words.
 
+### [Como criar forma de retângulo em um documento Word usando Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+Aprenda a inserir e configurar uma forma de retângulo em documentos Word usando Aspose.Words para Python.
+
 ## Recursos adicionais
 
 - [Aspose.Words para documentação do Python-net](https://docs.aspose.com/words/python-net/)

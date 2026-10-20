@@ -73,6 +73,8 @@
 ### [วิธีเพิ่มเงาให้กับรูปร่าง Word ด้วย Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
 เรียนรู้วิธีการเพิ่มเอฟเฟกต์เงาให้กับรูปร่างในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Python-net
 
+### [วิธีสร้างรูปสี่เหลี่ยมในเอกสาร Word ด้วย Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสาร Aspose.Words สำหรับ Python-net](https://docs.aspose.com/words/python-net/)

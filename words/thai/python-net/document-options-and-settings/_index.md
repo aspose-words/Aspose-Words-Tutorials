@@ -65,6 +65,8 @@
 เรียนรู้วิธีกำหนดค่า MarkdownSaveOptions เพื่อส่งออกเป็น LaTeX ใน Python ด้วย Aspose.Words พร้อมตัวอย่างโค้ด
 ### [วิธีกู้คืนไฟล์ docx ด้วย Aspose.Words สำหรับ Python](./how-to-recover-docx-files-with-aspose-words-for-python/)
 เรียนรู้วิธีกู้คืนไฟล์ docx ที่เสียหายโดยใช้ Aspose.Words สำหรับ Python พร้อมขั้นตอนและตัวอย่างโค้ด
+### [เปิดโหมดการกู้คืนเพื่อเปิดเอกสาร Word ที่เสียหาย](./enable-recovery-mode-to-open-a-corrupted-word-document/)
+เรียนรู้วิธีเปิดโหมดการกู้คืนเพื่อเปิดไฟล์ Word ที่เสียหายโดยใช้ Aspose.Words สำหรับ Python
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

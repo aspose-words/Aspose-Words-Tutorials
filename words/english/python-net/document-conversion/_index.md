@@ -40,12 +40,16 @@ Learn how to convert Word documents to Markdown using Aspose.Words for Python in
 Learn how to export Word documents to Markdown using Aspose.Words for Python in this step-by-step guide.
 ### [Recover Corrupted DOCX & Convert Word to Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Learn how to recover corrupted DOCX files and convert them to Markdown using Aspose.Words for Python.
+### [How to recover Word and convert to Markdown with LaTeX](./how-to-recover-word-and-convert-to-markdown-with-latex/)
+Learn how to recover Word files and convert them to Markdown with LaTeX using Aspose.Words for Python.
 ### [How to Export LaTeX from Word – Convert DOCX to Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Learn how to export LaTeX from Word and convert DOCX to Markdown using Aspose.Words for Python.
 ### [Create PDF from Word – Complete Python Guide with Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Learn how to create PDFs from Word documents using Aspose.Words for Python in this comprehensive guide.
 ### [Create Accessible PDF from Word with Python – Step‑by‑Step Guide](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Learn how to create accessible PDFs from Word documents using Aspose.Words for Python in this step‑by‑step guide.
+### [How to export Word to PDF and generate an accessible PDF/UA](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
+Learn how to export Word documents to PDF and create accessible PDF/UA files using Aspose.Words for Python.
 ### [save word as markdown – Complete Guide with PDF/A‑UA Export](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Learn how to save Word documents as Markdown and export PDF/A‑UA using Aspose.Words for Python in this comprehensive guide.
 ### [Create PDF UA from Word – Step‑by‑Step Guide](./create-pdf-ua-from-word-step-by-step-guide/)
@@ -170,6 +174,8 @@ Learn how to convert DOCX files to plain text (TXT) using Aspose.Words for Pytho
 Learn how to generate an accessible PDF from a Word document using Aspose.Words for Python, preserving accessibility features.
 ### [Convert docx to markdown and export to PDF with Aspose.Words](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
 Learn how to convert a DOCX file to Markdown and then export it as PDF using Aspose.Words for Python.
+### [How to convert DOCX to PDF in Python using Aspose.Words](./how-to-convert-docx-to-pdf-in-python-using-aspose-words/)
+Learn how to convert DOCX files to PDF using Aspose.Words for Python with step‑by‑step instructions.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

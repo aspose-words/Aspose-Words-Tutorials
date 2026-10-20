@@ -44,6 +44,8 @@ Aprenda a exportar documentos Word como arquivos LaTeX usando Aspose.Words para 
 Aprenda a gerar PDFs a partir de documentos Word usando Aspose.Words para Python. Guia passo a passo completo.
 ### [Criar PDF acessível a partir do Word – Guia passo a passo em Python](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Aprenda a gerar PDFs acessíveis a partir de documentos Word usando Aspose.Words para Python. Guia completo passo a passo.
+### [Como exportar Word para PDF e gerar um PDF/UA acessível](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
+Aprenda a exportar documentos Word como PDF e gerar PDFs acessíveis conforme PDF/UA usando Aspose.Words para Python.
 ### [Salvar Word como Markdown – Guia Completo com Exportação PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Aprenda a salvar documentos Word como arquivos Markdown e exportar para PDF/A‑UA usando Aspose.Words para Python. Guia passo a passo.
 ### [Salvar DOCX como Markdown – Guia Rápido em Python para Exportar Equações para LaTeX](./save-docx-as-markdown-quick-python-guide-to-export-equations/)
@@ -166,6 +168,10 @@ Aprenda a converter arquivos DOCX em arquivos TXT usando Aspose.Words para Pytho
 Aprenda a gerar PDFs acessíveis a partir de documentos Word com Aspose.Words para Python.
 ### [Converter docx para markdown e exportar para PDF com Aspose.Words](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
 Aprenda a converter arquivos DOCX em Markdown e gerar PDFs usando Aspose.Words para Python.
+### [Como converter DOCX para PDF em Python usando Aspose.Words](./how-to-convert-docx-to-pdf-in-python-using-aspose-words/)
+Aprenda a converter arquivos DOCX em PDFs usando Aspose.Words para Python com exemplos passo a passo.
+### [Como recuperar Word e converter para Markdown com LaTeX](./how-to-recover-word-and-convert-to-markdown-with-latex/)
+Aprenda a recuperar documentos Word corrompidos e convertê-los em Markdown usando LaTeX com Aspose.Words para Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
