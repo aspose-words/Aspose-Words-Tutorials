@@ -35,6 +35,12 @@ Word 自動化徹底改變了文件管理和 Word 文件處理領域。 Aspose.W
 ### [輕鬆將 Word 自動化](./word-automation-made-easy/)
 使用 Aspose.Words for Python 輕鬆實現文字處理的自動化。以程式設計方式建立、格式化和操作文件。立即提高生產力！
 
+### [使用 Python 替換 docx 文字 – 完整步驟指南](./replace-text-docx-with-python-full-step-by-step-guide/)
+使用 Aspose.Words for Python 完整步驟教您替換 docx 文件中的文字，提升文件編輯效率。
+
+### [如何使用 Aspose 於 Python 自動校正文法](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
+使用 Aspose.Words for Python 完整步驟教您自動校正文檔中的語法錯誤，提高文件品質。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

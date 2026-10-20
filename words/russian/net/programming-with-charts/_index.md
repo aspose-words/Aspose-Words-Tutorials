@@ -22,6 +22,34 @@
 С помощью этих руководств вы сможете улучшить свои документы Word, добавив визуально привлекательную и информативную графику. Вы узнаете, как использовать преимущества расширенных графических функций в Aspose.Words для .NET и эффективно интегрировать их в свои приложения. Изучите эти руководства, чтобы расширить свои графические навыки в Aspose.Words.
 
  ## Учебники
+
+{{< tutorial-card link="./uniform-data-labels/" title="Установите одинаковые подписи данных в столбчатой диаграмме с помощью Aspose.Words for .NET" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="Пропорциональное изменение размера диаграммы при изменении размера страницы в Word с использованием Aspose.Words for .NET" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="Вставка пользовательской столбчатой диаграммы в документ Word с помощью Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./hide-plot-border/" title="Скрыть границу области построения в столбчатой диаграмме с помощью Aspose.Words for .NET" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Удаление серии диаграммы из Word Document с помощью Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-sample-column-chart/" title="Вставьте пример диаграммы столбцов в документ Word с помощью Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-named-series/" title="Добавьте именованную серию данных в гистограмму в Word с помощью Aspose.Words for .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Проверка серий диаграммы и точек данных в документе Word с использованием Aspose.Words для .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Настройка линий сетки оси X в столбчатой диаграмме с помощью Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Форматирование вторичной оси X и установка единиц отображения в тысячи в линейных диаграммах Word с использованием Aspose.Words for .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Обновление заголовка диаграммы и переключение видимости легенды в Word с помощью Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
+
+
+
+
+
+
 | Название | Описание |
 | --- | --- |
 | [Форматировать число меток данных на диаграмме](./format-number-of-data-label/) | Узнайте, как форматировать метки данных в диаграммах с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Улучшайте свои документы Word без усилий. |
@@ -42,7 +70,10 @@
 | [Установить параметры по умолчанию для меток данных на диаграмме](./default-options-for-data-labels/) | Узнайте, как задать параметры по умолчанию для меток данных в диаграмме с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству, чтобы создавать и настраивать диаграммы без усилий. |
 | [Настройте отдельную точку данных диаграммы на диаграмме](./single-chart-data-point/) | Узнайте, как настраивать отдельные точки данных диаграммы с помощью Aspose.Words для .NET в подробном пошаговом руководстве. Улучшите свои диаграммы с помощью уникальных маркеров и размеров. |
 | [Настройте отдельные серии диаграмм в диаграмме](./single-chart-series/) | Узнайте, как настроить отдельные серии диаграмм в документе Word с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству для бесперебойной работы. |
+| [Показать легенду диаграммы в Word с C# – Полное пошаговое руководство](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Узнайте, как отобразить легенду диаграммы в документе Word с помощью Aspose.Words для .NET и C# в этом полном пошаговом руководстве. |
 
+| [Взрыв куска круговой диаграммы в C# с Aspose.Words – Полное руководство](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Узнайте, как взорвать (отделить) кусок круговой диаграммы в документе Word с помощью Aspose.Words для .NET в полном пошаговом руководстве. |
+| [Добавить метки к круговой диаграмме в C# с Aspose.Words – Полное руководство](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Узнайте, как добавить метки к круговой диаграмме в документе Word с помощью Aspose.Words для .NET в полном пошаговом руководстве. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

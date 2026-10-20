@@ -71,6 +71,10 @@
 เรียนรู้การใช้ Aspose.Words สำหรับการควบคุมการแก้ไขของ Java อย่างมีประสิทธิภาพ คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา เพิ่มประสิทธิภาพการจัดการเอกสารของคุณ
 ### [การใช้ Sections ใน Aspose.Words สำหรับ Java](./using-sections/)
 สำรวจ Aspose.Words สำหรับ Java: คู่มือที่ครอบคลุมเกี่ยวกับการใช้ส่วนต่างๆ เพิ่ม ลบ ผนวก โคลนส่วนต่างๆ ด้วยตัวอย่างโค้ด
+### [ตั้งขนาดปุ่มใน Word ด้วย Java – คู่มือ Aspose.Words ฉบับสมบูรณ์](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+เรียนรู้วิธีตั้งขนาดปุ่มในเอกสาร Word ด้วย Java โดยใช้ Aspose.Words อย่างละเอียดและครบถ้วน
+### [สร้างแผนภูมิวงกลมด้วย Aspose.Words Java – คู่มือเต็มขั้นตอน](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+เรียนรู้วิธีสร้างแผนภูมิวงกลมในเอกสาร Word ด้วย Aspose.Words for Java อย่างละเอียดตามขั้นตอน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

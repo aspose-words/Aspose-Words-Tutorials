@@ -71,6 +71,10 @@ Lär dig använda OLE-objekt och ActiveX-kontroller i Aspose.Words för Java. Sk
 Lär dig att använda Aspose.Words för Javas revisionskontroller effektivt. Steg-för-steg-guide för utvecklare. Optimera din dokumenthantering.
 ### [Använda sektioner i Aspose.Words för Java](./using-sections/)
 Utforska Aspose.Words för Java: En omfattande guide om hur man använder sektioner. Lägg till, ta bort, lägg till och klona sektioner med kodexempel.
+### [Skapa cirkeldiagram med Aspose.Words Java – Fullständig steg‑för‑steg‑guide](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Lär dig att skapa ett cirkeldiagram i ett Word-dokument med Aspose.Words för Java i en komplett steg‑för‑steg‑guide.
+### [Ställ in knappstorlek i Word med Java – Komplett Aspose.Words-guide](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Lär dig hur du ändrar knappstorlek i Word-dokument med Java i denna kompletta Aspose.Words-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

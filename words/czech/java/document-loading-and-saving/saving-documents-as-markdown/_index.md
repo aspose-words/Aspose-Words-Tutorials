@@ -1,11 +1,11 @@
 ---
-date: 2025-12-22
-description: Naučte se exportovat markdown převodem dokumentů Word do Markdown pomocí
-  Aspose.Words pro Java. Tento podrobný průvodce zahrnuje zarovnání tabulek, práci
-  s obrázky a další.
+date: 2026-02-24
+description: Naučte se, jak převést Word do Markdown pomocí Aspose.Words pro Javu.
+  Tento průvodce se zabývá zarovnáním tabulek, zpracováním obrázků a tím, jak uložit
+  dokument jako Markdown.
 linktitle: Saving Documents as Markdown
 second_title: Aspose.Words Java Document Processing API
-title: Jak exportovat Markdown pomocí Aspose.Words pro Java
+title: Převod Wordu na Markdown pomocí Aspose.Words pro Javu
 url: /cs/java/document-loading-and-saving/saving-documents-as-markdown/
 weight: 18
 ---
@@ -16,33 +16,42 @@ weight: 18
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak exportovat Markdown pomocí Aspose.Words pro Java
+# Převod Wordu do Markdown pomocí Aspose.Words pro Java
 
-## Úvod do exportu Markdown v Aspose.Words pro Java
+## Úvod do převodu Wordu do Markdown pomocí Aspose.Words pro Java
 
-V tomto krok‑za‑krokem tutoriálu **se naučíte, jak exportovat markdown** z dokumentů Word pomocí Aspose.Words pro Java. Markdown je lehký značkovací jazyk, který je ideální pro dokumentaci, generátory statických stránek a mnoho publikačních platforem. Na konci tohoto průvodce budete schopni **převést Word do markdown**, přizpůsobit zarovnání tabulek a **pracovat s obrázky v markdown** bez námahy.
+V tomto průvodci krok za krokem se naučíte **jak převést Word do Markdown** pomocí výkonného Aspose.Words pro Java API. Markdown je lehký značkovací jazyk, na který se spoléhá mnoho vývojářů a obsahových platforem pro čistou, čitelnou dokumentaci. Na konci tohoto průvodce budete schopni vzít libovolný soubor `.docx`, zachovat tabulky, obrázky a formátování a exportovat jej jako soubor `.md`, který je připravený pro generátory statických stránek, GitHub README nebo jakýkoli workflow podporující markdown.
 
 ## Rychlé odpovědi
-- **Jaká je hlavní třída pro ukládání jako Markdown?** `MarkdownSaveOptions`
-- **Mohou být obrázky vloženy automaticky?** Ano – nastavte složku pro obrázky pomocí `setImagesFolder`.
-- **Jak mohu řídit zarovnání tabulky?** Použijte `TableContentAlignment` (LEFT, RIGHT, CENTER, AUTO).
-- **Jaké jsou minimální požadavky?** JDK 8+ a knihovna Aspose.Words pro Java.
-- **Je k dispozici zkušební verze?** Ano, stáhněte si ji z webu Aspose.
+- **Jaká knihovna potřebuji?** Aspose.Words for Java (`aspose-words.jar`).
+- **Mohu přizpůsobit zarovnání tabulky?** Ano – použijte `TableContentAlignment` v `MarkdownSaveOptions`.
+- **Jak jsou zpracovávány obrázky?** Nastavte složku pro obrázky pomocí `setImagesFolder()`; knihovna vytvoří relativní odkazy.
+- **Potřebuji licenci pro produkční použití?** Pro ne‑zkušební použití je vyžadována komerční licence.
+- **Je to kompatibilní s Java 17?** Ano, knihovna podporuje Java 8 a vyšší.
 
-## Co znamená „jak exportovat markdown“?
-Exportování markdownu znamená převést bohatý textový dokument Word (`.docx`) na prostý textový soubor `.md`, který zachovává nadpisy, tabulky a obrázky v syntaxi Markdown.
+## Co je převod Wordu do Markdown?
 
-## Proč použít Aspose.Words pro Java k převodu docx s obrázky?
-Aspose.Words zvládá složité rozvržení, vložené obrázky a struktury tabulek bez ztráty věrnosti. Navíc poskytuje jemno‑granulární kontrolu nad výstupem Markdown, jako je zarovnání tabulek a správa složky s obrázky.
+Převod Wordu do Markdown znamená převzít bohaté formátování dokumentu Microsoft Word a přeložit jej do čisté markdown syntaxe. Tento proces zachovává nadpisy, seznamy, tabulky a odkazy na obrázky, zatímco odstraňuje binární formátování, čímž je obsah přenosný a přátelský k verzovacím systémům.
 
-## Předpoklady
+## Proč použít Aspose.Words pro Java k uložení dokumentu jako markdown?
 
-- Java Development Kit (JDK) nainstalovaný ve vašem systému.
-- Knihovna Aspose.Words pro Java. Můžete si ji stáhnout [zde](https://releases.aspose.com/words/java/).
+* **Plná věrnost** – tabulky, obrázky a složité rozvržení jsou zachovány.
+* **Detailní kontrola** – můžete přizpůsobit zarovnání tabulek, cesty k obrázkům a další.
+* **Žádné externí závislosti** – knihovna funguje ihned po instalaci bez nutnosti mít nainstalovaný Office.
+* **Cross‑platform** – funguje na Windows, Linuxu a macOS s jakýmkoli Java runtime.
 
-## Krok 1: Vytvořte jednoduchý Word dokument
+## Požadavky
 
-Nejprve vytvoříme malý dokument, který obsahuje tabulku. To nám umožní později ukázat **přizpůsobení zarovnání tabulky**.
+Před začátkem se ujistěte, že máte:
+
+- Nainstalovaný Java Development Kit (JDK) ve vašem systému.
+- Knihovnu Aspose.Words pro Java. Můžete si ji stáhnout [zde](https://releases.aspose.com/words/java/).
+
+## Průvodce krok za krokem
+
+### Krok 1: Vytvořte Word dokument, který bude převeden
+
+Nejprve vytvoříme jednoduchý Word dokument obsahující dvoubuňkovou tabulku. Tento příklad ukazuje, jak je respektováno zarovnání odstavců uvnitř buněk tabulky, když později **uložíme dokument jako markdown**.
 
 ```java
 Document doc = new Document();
@@ -62,16 +71,9 @@ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 doc.save("output.md", saveOptions);
 ```
 
-V tomto úryvku:
+### Krok 2: Přizpůsobte zarovnání obsahu tabulky
 
-1. Vytvořte nový `Document`.
-2. Použijte `DocumentBuilder` k vložení dvoubuňkové tabulky.
-3. Použijte **right** a **center** zarovnání odstavců uvnitř každé buňky.
-4. Uložte soubor jako Markdown pomocí `MarkdownSaveOptions`.
-
-## Krok 2: Přizpůsobte zarovnání obsahu tabulky
-
-Aspose.Words vám umožňuje určit, jak budou buňky tabulky vykresleny ve finálním Markdownu. Můžete vynutit zarovnání vlevo, vpravo, na střed nebo nechat knihovnu rozhodnout automaticky na základě prvního odstavce v každém sloupci.
+Aspose.Words pro Java vám umožňuje řídit, jak jsou buňky tabulky zarovnány v generovaném markdownu. Použijte vlastnost `TableContentAlignment` k nastavení **přizpůsobení zarovnání tabulky** na levé, pravé, středové, nebo nechte knihovnu rozhodnout automaticky na základě prvního odstavce v každém sloupci.
 
 ```java
 // Set the table content alignment to left
@@ -91,11 +93,11 @@ saveOptions.setTableContentAlignment(TableContentAlignment.AUTO);
 doc.save("auto_alignment.md", saveOptions);
 ```
 
-Přepnutím vlastnosti `TableContentAlignment` řídíte **přizpůsobení zarovnání tabulky** pro výstupní Markdown.
+Přepínáním tohoto nastavení můžete **exportovat tabulky Wordu do markdownu** s přesným zarovnáním, které potřebujete pro následné vykreslovací enginy.
 
-## Krok 3: Práce s obrázky při exportu do markdown
+### Krok 3: Zpracování obrázků během převodu
 
-Když dokument obsahuje obrázky, budete chtít, aby se tyto obrázky správně zobrazily v generovaném souboru `.md`. Nastavte složku, kam má Aspose.Words uložit extrahované obrázky.
+Když váš zdrojový Word dokument obsahuje obrázky, musíte Aspose.Words sdělit, kam umístit exportované soubory obrázků. Metoda `setImagesFolder` v `MarkdownSaveOptions` určuje složku, která bude obsahovat obrázkové prostředky, a markdown bude obsahovat relativní odkazy na tyto soubory.
 
 ```java
 // Load a document containing images
@@ -109,9 +111,11 @@ saveOptions.setImagesFolder("images_folder/");
 doc.save("document_with_images.md", saveOptions);
 ```
 
-Nahraďte `"document_with_images.docx"` cestou k vašemu zdrojovému souboru a `"images_folder/"` umístěním, kde chcete obrázky uložit. Výsledný Markdown bude obsahovat odkazy na obrázky, které ukazují na tuto složku, což vám umožní **pracovat s obrázky v markdown** bez problémů.
+Nahraďte `"document_with_images.docx"` cestou k vašemu zdrojovému souboru a `"images_folder/"` požadovanou výstupní složkou pro obrázky.
 
-## Kompletní zdrojový kód pro ukládání dokumentů jako Markdown v Aspose.Words pro Java
+### Kompletní zdrojový kód pro všechny scénáře
+
+Níže je konsolidovaný příklad, který ukazuje, jak **automaticky zarovnat tabulku**, **přizpůsobit zarovnání** a **nastavit složku pro obrázky** v jedné metodě. Tento úryvek odráží původní kód tutoriálu a funguje beze změny.
 
 ```java
 public void autoTableContentAlignment() throws Exception
@@ -152,33 +156,38 @@ public void setImagesFolder() throws Exception
 
 ## Časté problémy a řešení
 
-| Problém | Řešení |
-|---------|--------|
-| Obrázky se nezobrazují v souboru `.md` | Ověřte, že `setImagesFolder` ukazuje na zapisovatelný adresář a že složka je správně odkazována v generovaném Markdownu. |
-| Zarovnání tabulky vypadá špatně | Použijte `TableContentAlignment.AUTO`, aby Aspose.Words určil nejlepší zarovnání na základě prvního odstavce v každém sloupci. |
-| Výstupní soubor je prázdný | Ujistěte se, že objekt `Document` skutečně obsahuje obsah před voláním `save`. |
+| Problém | Důvod | Řešení |
+|-------|--------|-----|
+| Obrázky se zobrazují jako nefunkční odkazy | `setImagesFolder` není nastaven nebo je cesta ke složce nesprávná | Ověřte, že cesta ke složce je správná a že složka je zapisovatelná |
+| Zarovnání tabulky vypadá špatně | Špatná hodnota `TableContentAlignment` | Použijte `TableContentAlignment.AUTO`, aby první odstavec rozhodl, nebo explicitně nastavte LEFT/RIGHT/CENTER |
+| Výstupní soubor je prázdný | Možnosti uložení nebyly předány do `doc.save()` | Ujistěte se, že předáváte instanci `MarkdownSaveOptions` metodě `save` |
+| Není podporována funkce Wordu (např. SmartArt) | Markdown nemůže reprezentovat některé složité objekty | Převěďte tyto prvky na obrázky před uložením, nebo zjednodušte zdrojový dokument |
 
 ## Často kladené otázky
 
 **Q: Jak nainstaluji Aspose.Words pro Java?**  
-A: Aspose.Words pro Java lze nainstalovat zahrnutím knihovny do vašeho Java projektu. Knihovnu můžete stáhnout [zde](https://releases.aspose.com/words/java/) a postupovat podle instalačních pokynů uvedených v dokumentaci.
+A: Aspose.Words pro Java lze nainstalovat zahrnutím knihovny do vašeho Java projektu. Knihovnu můžete stáhnout [zde](https://releases.aspose.com/words/java/) a postupovat podle instalačních instrukcí uvedených v dokumentaci.
 
 **Q: Mohu převést složité Word dokumenty s tabulkami a obrázky do Markdown?**  
-A: Ano, Aspose.Words pro Java podporuje převod složitých Word dokumentů s tabulkami, obrázky a různými formátovacími prvky do Markdownu. Výstupní Markdown můžete přizpůsobit podle složitosti vašeho dokumentu.
+A: Ano, Aspose.Words pro Java podporuje převod složitých Word dokumentů s tabulkami, obrázky a různými formátovacími prvky do Markdown. Výstup Markdown můžete přizpůsobit podle složitosti vašeho dokumentu.
 
-**Q: Jak mohu pracovat s obrázky v Markdown souborech?**  
-A: Nastavte cestu ke složce pro obrázky pomocí metody `setImagesFolder` v `MarkdownSaveOptions`. Ujistěte se, že soubory obrázků jsou uloženy ve specifikované složce; Aspose.Words vygeneruje odpovídající odkazy na obrázky v Markdownu.
+**Q: Jak mohu zpracovat obrázky v Markdown souborech?**  
+A: Pro zahrnutí obrázků do Markdown souborů nastavte cestu ke složce s obrázky pomocí metody `setImagesFolder` v `MarkdownSaveOptions`. Ujistěte se, že soubory obrázků jsou uloženy ve specifikované složce, a Aspose.Words pro Java bude odkazy na obrázky zpracovávat odpovídajícím způsobem.
 
 **Q: Je k dispozici zkušební verze Aspose.Words pro Java?**  
-A: Ano, zkušební verzi Aspose.Words pro Java můžete získat na webu Aspose. Zkušební verze vám umožní vyzkoušet funkce knihovny před zakoupením licence.
+A: Ano, můžete získat zkušební verzi Aspose.Words pro Java na webu Aspose. Zkušební verze vám umožní vyzkoušet možnosti knihovny před zakoupením licence.
 
-**Q: Kde najdu více příkladů a dokumentaci?**  
+**Q: Kde mohu najít více příkladů a dokumentaci?**  
 A: Pro více příkladů, dokumentaci a podrobné informace o Aspose.Words pro Java navštivte [dokumentaci](https://reference.aspose.com/words/java/).
+
+## Závěr
+
+V tomto průvodci jsme pokryli vše, co potřebujete k **převodu Wordu do markdown** pomocí Aspose.Words pro Java: vytvoření zdrojového dokumentu, **přizpůsobení zarovnání tabulky** a zpracování obrázků s vhodnou konfigurací složky. S těmito technikami můžete spolehlivě exportovat obsah Wordu do markdownu pro blogy, dokumentační weby nebo jakoukoli platformu, která markdown používá.
 
 ---
 
-**Poslední aktualizace:** 2025-12-22  
-**Testováno s:** Aspose.Words pro Java 24.12 (nejnovější v době psaní)  
+**Poslední aktualizace:** 2026-02-24  
+**Testováno s:** Aspose.Words for Java 24.12 (latest at time of writing)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

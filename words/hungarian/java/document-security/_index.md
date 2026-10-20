@@ -41,6 +41,8 @@ Tanuld meg, hogyan titkosíthatod és dekódolhatod a dokumentumokat az Aspose.W
 Tanulja meg, hogyan valósíthat meg biztonságos digitális aláírásokat dokumentumokban az Aspose.Words for Java használatával. Biztosítsa a dokumentumok integritását lépésről lépésre szóló útmutatással és forráskóddal.
 ### [Dokumentumszerkesztés és adatvédelem](./document-redaction-data-protection/)
 Ismerje meg, hogyan teheti biztonságossá dokumentumait és hogyan takarhatja ki bizalmas adatait az Aspose.Words for Java segítségével. Lépésről lépésre útmutató forráskóddal.
+### [Word dokumentum aláírása Java-ban az Aspose.Words segítségével – Teljes útmutató](./sign-word-document-in-java-with-aspose-words-complete-guide/)
+Lépésről lépésre bemutatja, hogyan írhat alá Word dokumentumokat Java-ban az Aspose.Words használatával, beleértve a digitális aláírás beállítását.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -27,7 +27,7 @@ Siguiendo estos tutoriales, aprenderá las mejores prácticas para guardar sus d
 | [Cifrar documento con contraseña](./encrypt-document-with-password/) Aprenda a cifrar un documento con contraseña usando Aspose.Words para .NET con esta guía detallada paso a paso. Proteja su información confidencial fácilmente.
 | [No comprima metarchivos pequeños](./do-not-compress-small-metafiles/) Aprenda a usar Aspose.Words para .NET para garantizar que los metarchivos pequeños en documentos de Word no se compriman, preservando así su calidad e integridad. Incluye una guía paso a paso.
 | [No guardar viñetas de imágenes](./do-not-save-picture-bullet/) Aprenda a manejar viñetas de imágenes en Aspose.Words para .NET con nuestra guía paso a paso. Simplifique la gestión de documentos y cree documentos profesionales de Word sin esfuerzo.
-
+| [Cómo guardar un documento editado en C# con Aspose.Words – Guía paso a paso](./how-to-save-edited-document-in-c-with-aspose-words-step-by-s/) Aprenda a guardar documentos editados en C# usando Aspose.Words con esta guía paso a paso y mejore su flujo de trabajo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
