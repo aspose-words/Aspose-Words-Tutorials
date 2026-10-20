@@ -22,9 +22,8 @@ title: guardar docx como txt – Guía completa para exportar ecuaciones de Word
 url: /es/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/
 ---
 
-: none.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

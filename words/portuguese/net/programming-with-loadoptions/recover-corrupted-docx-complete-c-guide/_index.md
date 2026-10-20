@@ -24,11 +24,9 @@ title: recuperar docx corrompido – Guia completo de C#
 url: /pt/net/programming-with-loadoptions/recover-corrupted-docx-complete-c-guide/
 ---
 
->}}
 
-Make sure to keep them.
 
-Now produce final output with all translated content. Ensure no extra explanations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Ten samouczek pokazuje, jak utworzyć dokument Word, wstawić wykres słupkowy, dodać własne serie danych oraz zdefiniować domyślny rozmiar czcionki i kolor etykiet danych, które są stosowane jednolicie do wszystkich serii w wykresie.
+//ExStepSummary:0: Utwórz nowy pusty dokument Word oraz obiekt DocumentBuilder do jego edycji.
+//ExStepSummary:1: Wstaw wykres słupkowy o wymiarach 500×300 do dokumentu i pobierz jego obiekt Chart.
+//ExStepSummary:2: Usuń domyślną przykładową serię, którą Aspose.Words dodaje do nowego wykresu.
+//ExStepSummary:3: Zdefiniuj etykiety kategorii i dodaj dwie serie danych (Item Alpha i Item Beta) wraz z ich wartościami do wykresu.
+//ExStepSummary:4: Ustaw podstawowy rozmiar czcionki i kolor, które zostaną zastosowane do wszystkich etykiet danych.
+//ExStepSummary:5: Włącz etykiety danych dla każdej serii, wyświetl wartość liczbową i zastosuj wcześniej określony rozmiar czcionki oraz kolor.
+//ExStepSummary:6: Zapisz dokument jako plik .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document document = new Document();
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:1-
+Shape chartContainer = builder.InsertChart(ChartType.Column, 500, 300);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+
+//ExStep:3-
+string[] periods = { "Period 1", "Period 2", "Period 3", "Period 4" };
+chart.Series.Add("Item Alpha", periods, new double[] { 120, 150, 170, 130 });
+chart.Series.Add("Item Beta", periods, new double[] { 80, 110, 140, 100 });
+
+//ExStep:4-
+const float labelFontSize = 10f;
+Color labelFontColor = Color.White;
+
+//ExStep:5-
+foreach (ChartSeries series in chart.Series)
+{
+    series.HasDataLabels = true;
+    series.DataLabels.ShowValue = true;
+    series.DataLabels.Font.Size = labelFontSize;
+    series.DataLabels.Font.Color = labelFontColor;
+}
+
+//ExStep:6-
+document.Save("UniformLabelChart.docx");
+//ExEnd

@@ -20,6 +20,7 @@ Az Aspose.Words for .NET különféle űrlapmező-típusokat támogat, lehetőv�
 
 {{< tutorial-card link="./insert-form-fields/" title="Kombinált lista űrlapmező beszúrása Word dokumentumba" imgSrc="./insert-form-fields/images/thumb.png" >}}
 
+{{< tutorial-card link="./create-word-document-programmatically-step-by-step-guide/" title="Word dokumentum programozott létrehozása – lépésről‑lépésre útmutató" imgSrc="./create-word-document-programmatically-step-by-step-guide/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
