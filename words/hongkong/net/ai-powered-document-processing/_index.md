@@ -85,6 +85,8 @@
 | [使用 AI 的 C# Word 文件摘要 – 步驟指南](./summarize-word-document-in-c-step-by-step-guide-using-ai/) |透過 Aspose.Words for .NET 與 AI，使用 C# 逐步完成 Word 文件的自動摘要。 |
 | [如何將 DOCX 翻譯成法文並自動化文件翻譯](./how-to-translate-docx-to-french-and-automate-document-transl/) |使用 Aspose.Words for .NET 將 DOCX 文件自動翻譯為法文，實現批量翻譯流程。 |
 | [如何在 C# 中呼叫 CheckGrammar – 完整指南](./how-to-call-checkgrammar-in-c-complete-guide/) |了解如何在 C# 中使用 Aspose.Words 的 CheckGrammar 方法進行語法檢查，完整步驟說明。 |
+| [本機 LLM 教學 – 如何呼叫本機 LLM 並執行文法檢查](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) |學習如何在 Aspose.Words for .NET 中呼叫本機大型語言模型，執行文法檢查以提升文件品質。 |
+| [在 C# 中建立摘要報告 – 完整步驟指南](./create-summary-report-in-c-complete-step-by-step-guide/) |透過 Aspose.Words for .NET 在 C# 中一步步建立文件摘要報告，提升效率與精準度。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

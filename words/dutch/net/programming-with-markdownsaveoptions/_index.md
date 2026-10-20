@@ -299,6 +299,9 @@ Leer hoe u documenten opslaat als Markdown met C# in een volledige stap‑voor�
 
 ### [Afbeeldingen uploaden naar de cloud bij het converteren van Word naar Markdown](./upload-images-to-cloud-when-converting-word-to-markdown/)
 
+### [Afbeeldingen uploaden naar CDN in DOCX‑naar‑Markdown‑conversie – Volledige gids](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/)
+Leer hoe u afbeeldingen uploadt naar een CDN tijdens de conversie van DOCX naar Markdown met een volledige C#‑handleiding.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -56,6 +56,7 @@
 | [儲存 Word 文件 – 偵測缺少字體](./save-word-document-detect-missing-fonts-with-aspose-words/) |了解如何使用 Aspose.Words for .NET 在儲存 Word 文件時偵測缺少的字體。 |
 | [在 Aspose.Words 中處理字體替換 – 完整程式指南](./handle-font-substitution-in-aspose-words-complete-programmin/) |了解如何在 Aspose.Words for .NET 中完整處理字體替換，提供逐步程式碼示例與最佳實踐。 |
 | [在 Aspose.Words 中啟用字體警告 – 完整 C# 指南](./enable-font-warnings-in-aspose-words-complete-c-guide/) |了解如何在 Aspose.Words for .NET 中啟用字體警告，以便在字體問題發生時收到通知。 |
+| [如何使用 IWarningCallback – 偵測缺失字型](./how-to-use-iwarningcallback-detect-missing-fonts-with-aspose/) |了解如何在 Aspose.Words for .NET 中使用 IWarningCallback 以偵測文件中缺失的字型。 |
 | [資源 Steam 字體來源範例](./resource-steam-font-source-example/) |了解如何使用資源流字體來源將自訂字體載入到 Aspose.Words for .NET 中。 |
 | [取得不含後綴的替換](./get-substitution-without-suffixes/) |在本教學中，學習如何使用 Aspose.Words for .NET 在 Word 文件中取得無後綴覆蓋。 |
 | [如何在 C# 中載入 DOCX – 完整指南](./how-to-load-docx-in-c-complete-guide/) |透過本完整指南了解如何在 C# 中使用 Aspose.Words for .NET 載入 DOCX 文件。 |

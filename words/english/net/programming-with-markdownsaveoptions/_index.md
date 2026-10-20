@@ -153,6 +153,7 @@ class Program
 | [Save Document as Markdown with C# – Full Guide](./save-document-as-markdown-with-c-full-guide/) | Learn how to save documents as Markdown using Aspose.Words for .NET with a comprehensive C# guide. |
 | [Save Word as Markdown – Export Tables to HTML with Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/) | Learn how to export Word tables to HTML while saving the document as Markdown using Aspose.Words for .NET. |
 | [Save markdown as word – step‑by‑step guide for C# developers](./save-markdown-as-word-step-by-step-guide-for-c-developers/) |  |
+| [Upload Images to CDN in DOCX to Markdown Conversion – Complete Guide](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/) | Learn how to upload images to a CDN during DOCX to Markdown conversion using Aspose.Words for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

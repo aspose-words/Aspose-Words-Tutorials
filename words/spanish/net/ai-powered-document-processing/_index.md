@@ -85,6 +85,8 @@ Por último, no olvides visitar nuestra [Trabajar con opciones de resumen](./wor
 | [Resumen de documento Word en C# – guía paso a paso usando IA](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Aprenda a resumir documentos Word en C# utilizando IA con una guía detallada paso a paso. |
 | [Cómo traducir DOCX al francés y automatizar la traducción de documentos](./how-to-translate-docx-to-french-and-automate-document-transl/) | Aprenda a traducir archivos DOCX al francés y automatizar la traducción usando Aspose.Words para .NET. |
 | [Cómo llamar a CheckGrammar en C# – Guía completa](./how-to-call-checkgrammar-in-c-complete-guide/) | Aprenda a usar el método CheckGrammar en C# con Aspose.Words para .NET y mejore la corrección gramatical de sus documentos. |
+| [Tutorial LLM local – Cómo llamar a un LLM local y ejecutar una corrección gramatical](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Aprenda a integrar un LLM local con Aspose.Words para .NET y realizar correcciones gramaticales en sus documentos. |
+| [Crear informe de resumen en C# – Guía completa paso a paso](./create-summary-report-in-c-complete-step-by-step-guide/) | Aprenda a generar informes resumidos en C# con Aspose.Words, siguiendo una guía detallada paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

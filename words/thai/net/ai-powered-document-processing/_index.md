@@ -72,6 +72,8 @@
 | [วิธีตรวจสอบไวยากรณ์ใน C# ด้วย Aspose.Words AI – คู่มือฉบับสมบูรณ์](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | เรียนรู้วิธีใช้ Aspose.Words AI เพื่อตรวจสอบและแก้ไขไวยากรณ์ในเอกสาร C# อย่างแม่นยำและอัตโนมัติ |
 | [สรุปเอกสาร Word ด้วย C# – คู่มือขั้นตอนโดยใช้ AI](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | เรียนรู้วิธีสรุปไฟล์ Word ด้วย C# โดยใช้ AI อย่างละเอียดและง่ายต่อการทำตาม |
 | [วิธีแปล DOCX เป็นภาษาฝรั่งเศสและทำการแปลเอกสารอัตโนมัติ](./how-to-translate-docx-to-french-and-automate-document-transl/) | เรียนรู้วิธีใช้ Aspose.Words สำหรับ .NET เพื่อแปลไฟล์ DOCX เป็นภาษาฝรั่งเศสและทำการแปลอัตโนมัติอย่างมีประสิทธิภาพ |
+| [สร้างรายงานสรุปใน C# – คู่มือเต็มขั้นตอน](./create-summary-report-in-c-complete-step-by-step-guide/) | เรียนรู้วิธีสร้างรายงานสรุปใน C# ด้วย Aspose.Words อย่างละเอียดและง่ายดาย |
+| [บทแนะนำ Local LLM – วิธีเรียกใช้ Local LLM และทำการตรวจสอบไวยากรณ์](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | เรียนรู้วิธีเชื่อมต่อและใช้ Local LLM กับ Aspose.Words เพื่อทำการตรวจสอบไวยากรณ์ของเอกสารอย่างมีประสิทธิภาพ |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

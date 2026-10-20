@@ -84,6 +84,8 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Sammanfatta Word-dokument i C# – steg‑för‑steg guide med AI](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Lär dig att med AI skapa korta sammanfattningar av Word-dokument i C# med en tydlig steg‑för‑steg‑guide. |
 | [Hur man översätter DOCX till franska och automatiserar dokumentöversättning](./how-to-translate-docx-to-french-and-automate-document-transl/) | Lär dig att automatiskt översätta DOCX-filer till franska med Aspose.Words för .NET. |
 | [Hur man anropar CheckGrammar i C# – Komplett guide](./how-to-call-checkgrammar-in-c-complete-guide/) | Lär dig steg för steg hur du använder Aspose.Words för .NET för att anropa CheckGrammar-funktionen i C#. |
+| [Lokal LLM-handledning – Hur man anropar en lokal LLM och kör grammatikkontroll](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Lär dig att integrera en lokal LLM för att utföra grammatikkontroller i dina dokument med Aspose.Words. |
+| [Skapa sammanfattningsrapport i C# – Komplett steg‑för‑steg‑guide](./create-summary-report-in-c-complete-step-by-step-guide/) | Lär dig att skapa en sammanfattningsrapport i C# med Aspose.Words genom en komplett steg‑för‑steg‑guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

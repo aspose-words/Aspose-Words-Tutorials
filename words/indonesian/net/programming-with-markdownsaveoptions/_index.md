@@ -222,6 +222,8 @@ Pelajari cara mengekspor tabel dari dokumen Word ke HTML saat menyimpan sebagai 
 Pelajari cara mengonversi file markdown menjadi docx menggunakan C# dengan panduan langkah demi langkah.
 ### [Simpan markdown sebagai word – panduan langkah‑demi‑langkah untuk pengembang C#](./save-markdown-as-word-step-by-step-guide-for-c-developers/)
 Pelajari cara mengonversi file markdown menjadi dokumen Word menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah untuk pengembang C#.
+### [Unggah Gambar ke CDN dalam Konversi DOCX ke Markdown – Panduan Lengkap](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/)
+Pelajari cara mengunggah gambar ke CDN saat mengonversi DOCX ke Markdown dengan panduan lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

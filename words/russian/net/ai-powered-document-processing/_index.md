@@ -85,6 +85,8 @@
 | [Резюмирование документа Word на C# – пошаговое руководство с использованием ИИ](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Узнайте, как с помощью Aspose.Words и ИИ быстро резюмировать документы Word на C#. |
 | [Как переводить DOCX на французский и автоматизировать перевод документов](./how-to-translate-docx-to-french-and-automate-document-transl/) | Узнайте, как с помощью Aspose.Words для .NET переводить DOCX на французский и автоматизировать процесс перевода. |
 | [Как вызвать CheckGrammar в C# – Полное руководство](./how-to-call-checkgrammar-in-c-complete-guide/) | Узнайте, как использовать метод CheckGrammar в Aspose.Words для .NET с C# для проверки грамматики в документах. |
+| [Учебник по локальному LLM – Как вызвать локальный LLM и выполнить проверку грамматики](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Узнайте, как интегрировать локальную модель LLM в Aspose.Words для .NET и выполнять проверку грамматики документов. |
+| [Создать сводный отчет в C# – Полное пошаговое руководство](./create-summary-report-in-c-complete-step-by-step-guide/) | Узнайте, как с помощью Aspose.Words для .NET создать сводный отчет в C# шаг за шагом. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

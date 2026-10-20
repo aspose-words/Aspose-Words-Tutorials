@@ -81,6 +81,7 @@
 | [PDF aus Word in C# erstellen – Vollständige Anleitung](./create-pdf-from-word-in-c-full-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument in ein PDF konvertieren – Schritt‑für‑Schritt‑Anleitung in C#. |
 | [DOCX in PDF konvertieren C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-docx-to-pdf-c-complete-step-by-step-guide/) | Erfahren Sie, wie Sie DOCX mit Aspose.Words für .NET in C# einfach in PDF konvertieren – vollständige Schritt‑für‑Schritt‑Anleitung. |
 | [DOCX in PDF konvertieren in C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Erfahren Sie, wie Sie DOCX mit Aspose.Words für .NET in C# vollständig in PDF konvertieren – detaillierte Schritt‑für‑Schritt‑Anleitung. |
+| [PDF aus DOCX in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-pdf-from-docx-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein DOCX in ein PDF konvertieren – vollständige C#‑Anleitung. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

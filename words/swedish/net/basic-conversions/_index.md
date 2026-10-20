@@ -82,6 +82,7 @@ Grundläggande konverteringar guidar dig genom grundläggande dokumentkonverteri
 | [Konvertera Markdown till DOCX med Aspose.Words – Komplett C#‑guide](./convert-markdown-to-docx-with-aspose-words-complete-c-guide/) | Lär dig hur du konverterar Markdown till DOCX med Aspose.Words i C#. Fullständig steg‑för‑steg‑guide med kodexempel. |
 | [Konvertera DOCX till PDF C# – Komplett steg‑för‑steg‑guide](./convert-docx-to-pdf-c-complete-step-by-step-guide/) | Lär dig hur du konverterar DOCX till PDF i C# med Aspose.Words i en komplett steg‑för‑steg‑guide. |
 | [Konvertera docx till PDF i C# – Komplett steg‑för‑steg‑guide](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Lär dig hur du konverterar DOCX till PDF i C# med en komplett steg‑för‑steg‑guide och kodexempel. |
+| [Skapa PDF från DOCX i C# – Steg‑för‑steg‑guide](./create-pdf-from-docx-in-c-step-by-step-guide/) | Lär dig hur du skapar PDF från DOCX-filer i C# med Aspose.Words. En tydlig steg‑för‑steg‑guide med kodexempel. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

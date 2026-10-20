@@ -39,6 +39,7 @@ Die Tutorials behandeln außerdem die Grundlagen der Bildbearbeitung, darunter d
 | [DOCX in PNG konvertieren – Vollständige C#-Anleitung](./convert-docx-to-png-complete-c-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET DOCX-Dokumente in PNG-Bilder konvertieren – vollständige Schritt-für-Schritt-Anleitung in C#. |
 | [Wie man DPI beim Exportieren von Word zu PNG‑Gitter in C# festlegt](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET die DPI beim Exportieren von Word-Dokumenten in ein PNG‑Gitter festlegen. |
 | [Word als PNG speichern – Vollständige Aspose.Words-Anleitung](./save-word-as-png-complete-aspose-words-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument vollständig in PNG konvertieren. |
+| [Dokument als PNG in C# speichern – Vollständige Anleitung](./save-document-as-png-in-c-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument vollständig in PNG konvertieren, inklusive DPI- und Qualitätsoptionen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

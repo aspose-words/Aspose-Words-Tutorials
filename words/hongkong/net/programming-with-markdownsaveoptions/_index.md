@@ -124,6 +124,7 @@
 | [將 docx 匯出為 markdown – 完整 C# 指南](./export-docx-as-markdown-complete-c-guide/) |示範如何使用 Aspose.Words for .NET 在 C# 中完整將 docx 轉換為 markdown，提供完整步驟與範例程式碼。 |
 | [將 Markdown 儲存為 DOCX（C#） – 步驟說明指南](./save-markdown-as-docx-in-c-step-by-step-guide/) | |
 | [將 Markdown 儲存為 Word – C# 開發人員逐步指南](./save-markdown-as-word-step-by-step-guide-for-c-developers/) |  |
+| [在 DOCX 轉 Markdown 轉換中將圖像上傳至 CDN – 完整指南](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/) |示範如何在將 DOCX 轉換為 Markdown 時，將圖像上傳至 CDN，以優化資源管理與載入速度。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

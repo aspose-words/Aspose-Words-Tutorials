@@ -84,6 +84,8 @@
 | [Σύνοψη εγγράφου Word σε C# – βήμα‑βήμα οδηγός με AI](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Μάθετε πώς να συνοψίζετε έγγραφα Word σε C# με AI, βήμα‑βήμα. |
 | [Πώς να μεταφράσετε DOCX στα γαλλικά και να αυτοματοποιήσετε τη μετάφραση εγγράφων](./how-to-translate-docx-to-french-and-automate-document-transl/) | Μάθετε πώς να μεταφράζετε αρχεία DOCX στα γαλλικά και να αυτοματοποιήσετε τη διαδικασία με το Aspose.Words για .NET. |
 | [Πώς να καλέσετε το CheckGrammar σε C# – Πλήρης Οδηγός](./how-to-call-checkgrammar-in-c-complete-guide/) | Μάθετε πώς να χρησιμοποιήσετε τη μέθοδο CheckGrammar στο Aspose.Words για .NET με C# για έλεγχο γραμματικής εγγράφων. |
+| [Τοπικό LLM Σεμινάριο – Πώς να Καλέσετε ένα Τοπικό LLM και να Εκτελέσετε Έλεγχο Γραμματικής](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Μάθετε πώς να ενσωματώσετε ένα τοπικό μοντέλο LLM στο Aspose.Words για .NET και να εκτελέσετε αυτόματο έλεγχο γραμματικής στα έγγραφά σας. |
+| [Δημιουργία αναφοράς σύνοψης σε C# – Πλήρης οδηγός βήμα‑βήμα](./create-summary-report-in-c-complete-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε αναφορά σύνοψης σε C# με Aspose.Words, ακολουθώντας αναλυτικές οδηγίες βήμα‑βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

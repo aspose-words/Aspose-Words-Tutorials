@@ -84,6 +84,7 @@
 | [C#에서 글꼴 감지하는 방법 – 완전 가이드](./how-to-detect-fonts-in-c-complete-guide/) | Aspose.Words for .NET을 사용하여 C#에서 글꼴을 감지하는 방법을 단계별 가이드로 알아보세요. |
 | [Aspose 글꼴 대체 – Word 문서에서 누락된 글꼴 감지](./aspose-font-substitution-detect-missing-fonts-in-word-docume/) | Aspose.Words for .NET을 사용하여 Word 문서에서 누락된 글꼴을 감지하고 대체하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words에서 글꼴을 감지하는 방법 – 완전 가이드](./how-to-detect-fonts-in-aspose-words-complete-guide/) | Aspose.Words for .NET을 사용하여 문서에서 사용된 글꼴을 감지하고 확인하는 방법을 단계별로 안내합니다. |
+| [IWarningCallback 사용 방법 – Aspose.Words로 누락된 글꼴 감지](./how-to-use-iwarningcallback-detect-missing-fonts-with-aspose/) | Aspose.Words for .NET에서 IWarningCallback을 구현하여 누락된 글꼴을 감지하고 알림을 받는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

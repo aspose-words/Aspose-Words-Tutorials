@@ -40,6 +40,7 @@
 | [تحويل DOCX إلى PNG – دليل C# كامل](./convert-docx-to-png-complete-c-guide/) |تعلم كيفية تحويل ملفات DOCX إلى PNG باستخدام Aspose.Words for .NET مع دليل شامل بلغة C#. |
 | [كيفية ضبط DPI – تصدير Word إلى شبكة PNG في C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) |تعلم كيفية تعيين DPI عند تصدير مستند Word إلى شبكة من صور PNG باستخدام C# و Aspose.Words. |
 | [حفظ Word كـ PNG – دليل Aspose.Words الكامل](./save-word-as-png-complete-aspose-words-guide/) |تعلم كيفية حفظ مستندات Word كملفات PNG باستخدام Aspose.Words مع دليل شامل خطوة بخطوة. |
+| [حفظ المستند كـ PNG في C# – دليل كامل](./save-document-as-png-in-c-complete-guide/) |تعلم كيفية حفظ مستند Word كصورة PNG باستخدام Aspose.Words for .NET مع مثال كامل بلغة C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

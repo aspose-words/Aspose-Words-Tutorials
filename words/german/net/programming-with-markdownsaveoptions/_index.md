@@ -119,6 +119,8 @@ Erfahren Sie, wie Sie Word‑Dateien in Markdown konvertieren und dabei Bilder e
 Erfahren Sie, wie Sie einen benutzerdefinierten Bildordner festlegen, um Bilder beim Export nach Markdown zu verwalten.
 ### [DOCX zu Markdown konvertieren und Bilder aus DOCX speichern](./convert-docx-to-markdown-save-images-from-docx/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und dabei Bilder extrahieren und speichern.
+### [Bilder in CDN hochladen bei DOCX‑zu‑Markdown‑Konvertierung – Vollständige Anleitung](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/)
+Erfahren Sie, wie Sie Bilder während der DOCX‑zu‑Markdown‑Konvertierung automatisch in ein CDN hochladen.
 
 ### [Wie man Markdown aus Word speichert – Schritt‑für‑Schritt‑Anleitung](./how-to-save-markdown-from-word-step-by-step-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown speichern – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
@@ -130,8 +132,6 @@ Erfahren Sie, wie Sie DOCX-Dateien in Markdown konvertieren – vollständige Sc
 Erfahren Sie, wie Sie Markdown mit Aspose.Words für .NET in C# vollständig speichern – komplette Schritt‑für‑Schritt‑Anleitung.
 ### [Markdown als DOCX speichern in C# – Schritt‑für‑Schritt‑Anleitung](./save-markdown-as-docx-in-c-step-by-step-guide/)
 Erfahren Sie, wie Sie Markdown-Dateien in DOCX konvertieren – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
 
 ### [DOCX in Markdown konvertieren – Vollständige Anleitung mit Aspose.Words](./convert-docx-to-markdown-complete-guide-using-aspose-words/)
 Erfahren Sie, wie Sie DOCX‑Dateien vollständig in Markdown konvertieren – Schritt‑für‑Schritt‑Anleitung mit Aspose.Words.

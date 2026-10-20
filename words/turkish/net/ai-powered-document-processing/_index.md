@@ -85,6 +85,8 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [C# ile Word Belgesini Özetleme – AI Kullanarak Adım Adım Rehber](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | AI kullanarak C# ile Word belgesini adım adım özetlemeyi öğrenin. |
 | [DOCX'i Fransızcaya Çevirme ve Belge Çevirisini Otomatikleştirme](./how-to-translate-docx-to-french-and-automate-document-transl/) |  |
 | [C#'ta CheckGrammar Çağırma – Tam Kılavuz](./how-to-call-checkgrammar-in-c-complete-guide/) | C# ile Aspose.Words'te CheckGrammar metodunu nasıl kullanacağınızı adım adım öğrenin. |
+| [Yerel LLM Eğitimi – Yerel LLM'yi Çağırma ve Dilbilgisi Kontrolü Çalıştırma](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Yerel LLM'yi nasıl çağıracağınızı ve belge üzerindeki dilbilgisi denetimini nasıl yapacağınızı öğrenin. |
+| [C#'ta Özet Rapor Oluşturma – Tam Adım Adım Kılavuz](./create-summary-report-in-c-complete-step-by-step-guide/) | C# kullanarak Aspose.Words ile adım adım özet rapor oluşturmayı öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

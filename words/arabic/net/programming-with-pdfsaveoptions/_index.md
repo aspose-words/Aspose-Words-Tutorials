@@ -86,6 +86,7 @@
 | [إنشاء ملف PDF قابل للوصول – تحويل Word إلى PDF باستخدام C#](./create-accessible-pdf-convert-word-to-pdf-with-c/) | دليل خطوة بخطوة لإنشاء ملفات PDF قابلة للوصول من مستندات Word باستخدام C# و Aspose.Words. |
 | [حفظ المستند كملف PDF باستخدام Aspose.Words – دليل C# كامل](./save-document-as-pdf-with-aspose-words-complete-c-guide/) |دليل شامل خطوة بخطوة لحفظ المستندات كملفات PDF باستخدام Aspose.Words في بيئة C#. |
 | [حفظ Word كملف PDF – دليل كامل مع إمكانية الوصول](./save-word-as-pdf-complete-guide-with-accessibility/) |دليل شامل خطوة بخطوة لتحويل ملفات Word إلى PDF مع مراعاة إمكانية الوصول وفق معايير WCAG. |
+| [إنشاء ملف PDF/UA متوافق من Word – دليل تصدير كامل](./create-pdf-ua-compliant-file-from-word-full-export-guide/) |دليل شامل خطوة بخطوة لتصدير ملفات PDF/UA متوافقة من مستندات Word باستخدام Aspose.Words لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

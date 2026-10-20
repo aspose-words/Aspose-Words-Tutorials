@@ -86,6 +86,7 @@ Egal, ob Sie Word-Dokumente für die Online-Verteilung, Archivierung oder den Dr
 | [Dokument als PDF in C# speichern – Komplettanleitung](./save-document-as-pdf-in-c-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument vollständig in PDF konvertieren und dabei alle Optionen nutzen. |
 | [Barrierefreies PDF erstellen – Word in PDF mit C# konvertieren](./create-accessible-pdf-convert-word-to-pdf-with-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Word-Dokumente in barrierefreie PDFs mit C# konvertieren. |
 | [Word als PDF speichern – Vollständige Anleitung mit Barrierefreiheit](./save-word-as-pdf-complete-guide-with-accessibility/) | Erfahren Sie, wie Sie ein Word-Dokument mit Aspose.Words in ein barrierefreies PDF konvertieren – komplette Schritt‑für‑Schritt‑Anleitung. |
+| [PDF/UA-konforme Datei aus Word erstellen – Vollständige Exportanleitung](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein PDF/UA‑konformes Dokument aus Word exportieren – Schritt‑für‑Schritt‑Anleitung. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

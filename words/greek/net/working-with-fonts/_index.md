@@ -89,6 +89,9 @@
 | [Πώς να ορίσετε FontSettings – Διαχείριση ελλιπών γραμματοσειρών](./how-to-set-fontsettings-handle-missing-fonts/) | Μάθετε πώς να ρυθμίσετε FontSettings για να αντιμετωπίζετε ελλιπείς γραμματοσειρές σε έγγραφα Word με Aspose.Words για .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+| [Πώς να χρησιμοποιήσετε το IWarningCallback – Εντοπισμός ελλιπών γραμματοσειρών με το Aspose.Words](./how-to-use-iwarningcallback-detect-missing-fonts-with-aspose/) | Μάθετε πώς να χρησιμοποιείτε το IWarningCallback για να εντοπίζετε ελλείπουσες γραμματοσειρές σε έγγραφα Word με το Aspose.Words για .NET. |
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

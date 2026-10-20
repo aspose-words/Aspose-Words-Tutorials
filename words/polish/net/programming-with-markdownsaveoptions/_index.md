@@ -111,6 +111,8 @@ Dowiedz się, jak ustawić własny folder dla obrazów podczas eksportu dokument
 Konwertuj pliki DOCX do formatu Markdown, jednocześnie wyodrębniając i zapisując obrazy przy użyciu Aspose.Words dla .NET.
 ### [Zapisz Word jako Markdown – Eksportuj tabele do HTML przy użyciu Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/)
 Dowiedz się, jak zapisać dokument Word jako Markdown i wyeksportować tabele do HTML przy użyciu Aspose.Words.
+### [Prześlij obrazy do CDN w konwersji DOCX do Markdown – Kompletny przewodnik](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/)
+Dowiedz się, jak podczas konwersji DOCX do Markdown przesyłać obrazy do CDN, korzystając z Aspose.Words dla .NET.
 
 ### [Odzyskaj dokument Word przy użyciu Aspose.Words – Pełny przewodnik](./recover-word-document-with-aspose-words-full-guide/)
 Kompletny przewodnik C# pokazujący, jak odzyskać uszkodzony dokument Word przy użyciu Aspose.Words.

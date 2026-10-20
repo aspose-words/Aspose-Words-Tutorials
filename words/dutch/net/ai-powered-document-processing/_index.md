@@ -85,6 +85,8 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Samenvatten van Word-document in C# – stapsgewijze handleiding met AI](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Leer hoe u een Word-document in C# kunt samenvatten met AI, stap voor stap. |
 | [DOCX naar Frans vertalen en documentvertaling automatiseren](./how-to-translate-docx-to-french-and-automate-document-transl/) | Leer hoe u DOCX-bestanden automatisch naar het Frans vertaalt met Aspose.Words en AI-automatisering. |
 | [Hoe CheckGrammar aan te roepen in C# – Complete gids](./how-to-call-checkgrammar-in-c-complete-guide/) | Leer hoe u CheckGrammar in C# kunt aanroepen met Aspose.Words voor .NET. |
+| [Lokale LLM-tutorial – Hoe een lokale LLM aan te roepen en grammatica-controle uit te voeren](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Leer hoe u een lokale LLM kunt integreren met Aspose.Words voor .NET en automatisch grammatica-controle kunt uitvoeren. |
+| [Maak samenvattingsrapport in C# – Complete stapsgewijze gids](./create-summary-report-in-c-complete-step-by-step-guide/) | Leer hoe u met Aspose.Words voor .NET een samenvattingsrapport in C# maakt, stap voor stap. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

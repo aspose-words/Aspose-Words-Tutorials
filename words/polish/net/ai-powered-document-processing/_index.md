@@ -84,6 +84,8 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Podsumuj dokument Word w C# – przewodnik krok po kroku z użyciem AI](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Dowiedz się, jak w C# podsumować dokument Word przy pomocy AI, korzystając z Aspose.Words – prosty przewodnik krok po kroku. |
 | [Jak przetłumaczyć DOCX na francuski i zautomatyzować tłumaczenie dokumentu](./how-to-translate-docx-to-french-and-automate-document-transl/) | Dowiedz się, jak automatycznie tłumaczyć pliki DOCX na język francuski przy użyciu Aspose.Words. |
 | [Jak wywołać CheckGrammar w C# – Kompletny przewodnik](./how-to-call-checkgrammar-in-c-complete-guide/) | Pełny przewodnik, jak używać metody CheckGrammar w C# z Aspose.Words, aby sprawdzić i poprawić gramatykę dokumentów. |
+| [Samouczek lokalnego LLM – Jak wywołać lokalny LLM i uruchomić sprawdzanie gramatyki](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Dowiedz się, jak używać lokalnego modelu językowego do sprawdzania gramatyki w dokumentach przy pomocy Aspose.Words. |
+| [Utwórz raport podsumowujący w C# – Kompletny przewodnik krok po kroku](./create-summary-report-in-c-complete-step-by-step-guide/) | Dowiedz się, jak w C# stworzyć raport podsumowujący przy użyciu Aspose.Words, krok po kroku, od konfiguracji po generowanie wyników. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

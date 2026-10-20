@@ -297,6 +297,9 @@ Lär dig exportera tabeller till HTML när du sparar Word-dokument som Markdown 
 ### [Spara markdown som docx i C# – steg‑för‑steg‑guide](./save-markdown-as-docx-in-c-step-by-step-guide/)
 ### [Spara markdown som Word – steg‑för‑steg‑guide för C#‑utvecklare](./save-markdown-as-word-step-by-step-guide-for-c-developers/)
 
+### [Ladda upp bilder till CDN i DOCX till Markdown‑konvertering – Komplett guide](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/)
+Lär dig hur du laddar upp bilder till ett CDN under konvertering av DOCX till Markdown med Aspose.Words för .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

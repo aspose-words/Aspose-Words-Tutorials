@@ -82,6 +82,7 @@
 | [Μετατροπή Markdown σε DOCX με Aspose.Words – Πλήρης Οδηγός C#](./convert-markdown-to-docx-with-aspose-words-complete-c-guide/) | Μάθετε πώς να μετατρέπετε αρχεία Markdown σε DOCX χρησιμοποιώντας το Aspose.Words για .NET με πλήρη οδηγό C#. |
 | [Μετατροπή DOCX σε PDF C# – Πλήρης Οδηγός Βήμα‑βήμα](./convert-docx-to-pdf-c-complete-step-by-step-guide/) | Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF χρησιμοποιώντας C# και Aspose.Words με πλήρη οδηγό βήμα‑βήμα. |
 | [Μετατροπή docx σε pdf σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Μάθετε πώς να μετατρέπετε αρχεία docx σε PDF σε C# χρησιμοποιώντας το Aspose.Words με πλήρη οδηγό βήμα‑βήμα. |
+| [Δημιουργία PDF από DOCX σε C# – Οδηγός βήμα‑βήμα](./create-pdf-from-docx-in-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε PDF από DOCX σε C# με το Aspose.Words, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

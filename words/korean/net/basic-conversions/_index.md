@@ -83,6 +83,7 @@
 | [Aspose.Words로 Markdown을 DOCX로 변환 – 완전 C# 가이드](./convert-markdown-to-docx-with-aspose-words-complete-c-guide/) | Aspose.Words for .NET을 사용해 Markdown을 DOCX로 변환하는 전체 단계별 C# 가이드입니다. |
 | [DOCX를 PDF로 변환 C# – 완전한 단계별 가이드](./convert-docx-to-pdf-c-complete-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 C#에서 DOCX 파일을 PDF로 변환하는 전체 단계별 가이드입니다. |
 | [C#에서 Docx를 PDF로 변환 – 완전한 단계별 가이드](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Aspose.Words와 C#을 사용해 Docx 파일을 PDF로 변환하는 완전한 단계별 가이드입니다. |
+| [C#에서 DOCX를 PDF로 만들기 – 단계별 가이드](./create-pdf-from-docx-in-c-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 C#에서 DOCX 파일을 PDF로 변환하는 단계별 가이드입니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

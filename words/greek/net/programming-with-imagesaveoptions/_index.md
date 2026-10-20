@@ -40,6 +40,7 @@
 | [Μετατροπή DOCX σε PNG – Πλήρης οδηγός C#](./convert-docx-to-png-complete-c-guide/) | Μάθετε πώς να μετατρέψετε έγγραφα DOCX σε εικόνες PNG χρησιμοποιώντας το Aspose.Words για .NET σε έναν πλήρη οδηγό C#. |
 | [Πώς να ορίσετε DPI – Εξαγωγή Word σε πλέγμα PNG σε C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Μάθετε πώς να εξάγετε έγγραφα Word σε πλέγμα PNG με ρύθμιση DPI χρησιμοποιώντας Aspose.Words για .NET σε C#. |
 | [Αποθήκευση Word ως PNG – Πλήρης Οδηγός Aspose.Words](./save-word-as-png-complete-aspose-words-guide/) | Μάθετε πώς να μετατρέψετε έγγραφα Word σε PNG με πλήρη οδηγό και παραμετρικές ρυθμίσεις χρησιμοποιώντας Aspose.Words για .NET. |
+| [Αποθήκευση εγγράφου ως PNG σε C# – Πλήρης οδηγός](./save-document-as-png-in-c-complete-guide/) | Μάθετε πώς να αποθηκεύσετε ένα έγγραφο Word ως PNG χρησιμοποιώντας το Aspose.Words για .NET σε έναν πλήρη οδηγό C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

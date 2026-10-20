@@ -79,6 +79,7 @@
 | [Πώς να καταγράψετε προειδοποιήσεις σε C# – Εντοπισμός ελλιπών γραμματοσειρών & Καταγραφή αντικατάστασης](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) | Μάθετε πώς να εντοπίζετε προειδοποιήσεις για ελλιπείς γραμματοσειρές και να καταγράφετε τις αντικαταστάσεις κατά τη φόρτωση εγγράφων Word με Aspose.Words για .NET. |
 | [Ανάκτηση κατεστραμμένου docx – Πλήρης Οδηγός Φόρτωσης Κατεστραμμένων Αρχείων Word σε C#](./recover-corrupted-docx-full-guide-to-loading-damaged-word-fi/) | Μάθετε πώς να ανοίγετε και να επαναφέρετε κατεστραμμένα αρχεία docx σε C# χρησιμοποιώντας Aspose.Words, βήμα προς βήμα οδηγός. |
 | [Ορισμός προειδοποίησης callback στο Aspose – Πλήρης Οδηγός για Φόρτωση Εγγράφου Word](./set-warning-callback-aspose-complete-guide-for-word-document/) | Μάθετε πώς να ορίσετε callback προειδοποίησης κατά τη φόρτωση εγγράφων Word με το Aspose.Words για .NET. |
+| [Πώς να ανακτήσετε docx με Aspose.Words – Πλήρης Οδηγός](./how-to-recover-docx-with-aspose-words-full-guide/) | Μάθετε πώς να ανακτήσετε αρχεία docx με πλήρη οδηγό βήμα προς βήμα χρησιμοποιώντας Aspose.Words για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

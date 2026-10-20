@@ -84,6 +84,7 @@ Cho dù bạn muốn định dạng văn bản bằng các phông chữ khác nh
 | [Cách phát hiện phông chữ trong C# – Hướng dẫn đầy đủ](./how-to-detect-fonts-in-c-complete-guide/) | Tìm hiểu cách phát hiện các phông chữ trong tài liệu Word bằng C# và Aspose.Words cho .NET qua hướng dẫn chi tiết. |
 | [Cách phát hiện phông chữ trong Aspose.Words – Hướng dẫn toàn diện](./how-to-detect-fonts-in-aspose-words-complete-guide/) | Tìm hiểu cách phát hiện các phông chữ được sử dụng trong tài liệu Word bằng Aspose.Words cho .NET qua hướng dẫn chi tiết. |
 | [Cách thiết lập FontSettings – Xử lý phông chữ thiếu](./how-to-set-fontsettings-handle-missing-fonts/) | Tìm hiểu cách thiết lập FontSettings để xử lý các phông chữ bị thiếu trong Aspose.Words cho .NET với hướng dẫn chi tiết từng bước. |
+| [Cách sử dụng IWarningCallback – Phát hiện phông chữ thiếu với Aspose.Words](./how-to-use-iwarningcallback-detect-missing-fonts-with-aspose/) | Hướng dẫn cách triển khai IWarningCallback để phát hiện các phông chữ thiếu khi làm việc với Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -86,6 +86,7 @@
 | [Как сохранить PDF из Word в C# – Полное руководство](./how-to-save-pdf-from-word-in-c-complete-guide/) | Узнайте, как сохранить документ Word в PDF с помощью C# и Aspose.Words, следуя пошаговому полному руководству. |
 | [Сохранить документ как PDF в C# – Полное руководство](./save-document-as-pdf-in-c-complete-guide/) | Подробное руководство по сохранению документов Word в PDF с помощью Aspose.Words for .NET на C#. |
 | [Сохранить Word в PDF – Полное руководство с доступностью](./save-word-as-pdf-complete-guide-with-accessibility/) | Полное руководство по сохранению документов Word в PDF с поддержкой доступности, используя Aspose.Words для .NET. |
+| [Создать PDF/UA совместимый файл из Word – Полное руководство по экспорту](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | Узнайте, как создать PDF/UA совместимый файл из Word, следуя полному руководству по экспорту с помощью Aspose.Words для .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -87,6 +87,7 @@
 - [วิธีบันทึก PDF จาก Word ด้วย C# – คู่มือฉบับสมบูรณ์](./how-to-save-pdf-from-word-in-c-complete-guide/) | เรียนรู้วิธีบันทึกไฟล์ PDF จากเอกสาร Word ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน
 - [บันทึกเอกสารเป็น PDF ด้วย C# – คู่มือฉบับสมบูรณ์](./save-document-as-pdf-in-c-complete-guide/) | เรียนรู้วิธีบันทึกเอกสาร Word เป็น PDF ด้วย C# อย่างละเอียดด้วย Aspose.Words สำหรับ .NET
 - [บันทึก Word เป็น PDF – คู่มือฉบับสมบูรณ์พร้อมการเข้าถึง](./save-word-as-pdf-complete-guide-with-accessibility/) | เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF อย่างครบถ้วนพร้อมการทำให้เข้าถึงได้ตามมาตรฐาน WCAG ด้วย Aspose.Words สำหรับ .NET
+- [สร้างไฟล์ PDF/UA ที่สอดคล้องจาก Word – คู่มือการส่งออกเต็มรูปแบบ](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | เรียนรู้วิธีสร้างไฟล์ PDF/UA ที่สอดคล้องจากเอกสาร Word ด้วย Aspose.Words สำหรับ .NET อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -46,6 +46,7 @@ Basic Conversions จะแนะนำคุณเกี่ยวกับก�
 - [แปลง Word เป็น PDF ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์](./convert-word-to-pdf-with-aspose-words-complete-guide/) | เรียนรู้วิธีแปลงไฟล์ Word เป็น PDF อย่างละเอียดด้วย Aspose.Words สำหรับ .NET พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน -
 - [แปลง DOCX เป็น PDF ใน C# – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./convert-docx-to-pdf-in-c-complete-programming-guide/) | เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ด้วย C# อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน -
 - [บันทึก Word เป็น PDF ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์](./save-word-as-pdf-with-aspose-words-complete-guide/) | เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF ด้วย Aspose.Words อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน -
+- [สร้าง PDF จาก DOCX ด้วย C# – คู่มือขั้นตอนโดยขั้นตอน](./create-pdf-from-docx-in-c-step-by-step-guide/) | เรียนรู้วิธีสร้างไฟล์ PDF จาก DOCX ด้วย C# โดยใช้ Aspose.Words อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน -
 | [แปลง Docx เป็นไบต์](./docx-to-byte/) | เรียนรู้วิธีการแปลง Docx เป็นอาร์เรย์ไบต์ใน .NET โดยใช้ Aspose.Words เพื่อการประมวลผลเอกสารอย่างมีประสิทธิภาพ มีคู่มือทีละขั้นตอนรวมอยู่ด้วย -  
 | [แปลง Docx เป็น Epub](./docx-to-epub/) | แปลง DOCX เป็น EPUB ได้อย่างง่ายดายด้วย Aspose.Words สำหรับ .NET ทำตามบทช่วยสอนของเราเพื่อบูรณาการกับแอปพลิเคชัน .NET ของคุณได้อย่างราบรื่น -
 | [แปลง Docx เป็น Mhtml และส่งอีเมล](./docx-to-mhtml-and-sending-email/) | เรียนรู้วิธีแปลง DOCX เป็น MHTML และส่งอีเมลโดยใช้ Aspose.Words สำหรับ .NET ในคู่มือทีละขั้นตอนนี้ เพิ่มประสิทธิภาพการทำงานของคุณด้วยระบบอัตโนมัติที่ง่ายดาย -

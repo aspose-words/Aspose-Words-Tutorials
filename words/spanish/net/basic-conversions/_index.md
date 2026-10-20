@@ -78,6 +78,7 @@ Conversiones Básicas te guía a través de las conversiones básicas de documen
 | [Guardar Word como PDF con Aspose.Words – Guía completa](./save-word-as-pdf-with-aspose-words-complete-guide/) Aprenda a guardar documentos Word como PDF usando Aspose.Words. Guía completa paso a paso con ejemplos de código. |
 | [Convertir Markdown a DOCX con Aspose.Words – Guía completa en C#](./convert-markdown-to-docx-with-aspose-words-complete-c-guide/) Aprenda a convertir archivos Markdown a DOCX usando Aspose.Words para .NET con esta guía paso a paso en C#. Ideal para desarrolladores. |
 | [Convertir docx a PDF en C# – Guía completa paso a paso](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) Aprenda a convertir documentos DOCX a PDF en C# con Aspose.Words. Guía paso a paso con ejemplos de código y mejores prácticas. |
+| [Crear PDF a partir de DOCX en C# – Guía paso a paso](./create-pdf-from-docx-in-c-step-by-step-guide/) Aprenda a crear un PDF a partir de un archivo DOCX usando Aspose.Words para .NET con esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

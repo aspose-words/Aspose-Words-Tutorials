@@ -86,6 +86,7 @@
 | [كيفية تعيين FontSettings – معالجة الخطوط المفقودة](./how-to-set-fontsettings-handle-missing-fonts/) |تعلم كيفية تعيين FontSettings للتعامل مع الخطوط المفقودة في مستندات Word باستخدام Aspose.Words لـ .NET. |
 
 | [استبدال الخطوط في Aspose: اكتشاف الخطوط المفقودة في مستندات Word](./aspose-font-substitution-detect-missing-fonts-in-word-docs/) |تعرف على كيفية اكتشاف الخطوط المفقودة في مستندات Word باستخدام Aspose.Words لـ .NET. |
+| [كيفية استخدام IWarningCallback – اكتشاف الخطوط المفقودة باستخدام Aspose.Words](./how-to-use-iwarningcallback-detect-missing-fonts-with-aspose/) |تعلم كيفية استخدام IWarningCallback لاكتشاف الخطوط المفقودة في مستندات Word باستخدام Aspose.Words لـ .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
