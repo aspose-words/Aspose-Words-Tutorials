@@ -28,7 +28,7 @@ Cho dù bạn cần thao tác, tạo, chuyển đổi hay tạo tài liệu Word
 | [Xóa ngắt phần trong tài liệu Word](./remove-section-breaks/) | Tìm hiểu cách xóa ngắt phần trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn chi tiết, từng bước này đảm bảo quản lý và chỉnh sửa tài liệu trơn tru.|
 | [Xóa chân trang trong tài liệu Word](./remove-footers/) Tìm hiểu cách xóa chân trang khỏi tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này. |
 | [Xóa Mục Lục Trong Tài Liệu Word](./remove-table-of-contents/) | Tìm hiểu cách xóa mục lục trong tài liệu Word bằng Aspose.Words cho .NET. |
-
+| [Cách Gọi LLM trong C# – Hướng Dẫn Toàn Diện với Mô Hình Cục Bộ](./how-to-call-llm-in-c-complete-guide-with-local-model/) | Tìm hiểu cách gọi mô hình ngôn ngữ lớn (LLM) trong C# bằng mô hình cục bộ, với hướng dẫn chi tiết và ví dụ thực tế. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

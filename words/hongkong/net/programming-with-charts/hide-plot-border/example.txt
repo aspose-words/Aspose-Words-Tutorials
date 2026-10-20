@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: 本教學示範如何建立 Word 文件、插入直條圖、以範例資料填充、隱藏圖表的繪圖區邊框同時保留座標軸線可見，最後儲存文件。
+//ExStepSummary:0: 建立一個新的空白 Word 文件，並使用 DocumentBuilder 進行編輯。
+//ExStepSummary:1: 在文件中插入一個 432×252 的直條圖，並取得其 Chart 物件。
+//ExStepSummary:2: 清除任何現有的系列，定義三個類別標籤，並向圖表加入一個包含範例值的系列。
+//ExStepSummary:3: 將繪圖區的筆劃粗細設定為 0，移除其邊框，同時保留座標軸線可見。
+//ExStepSummary:4: 將修改後的文件儲存為 .docx 檔案。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+columnChart.Series.Clear();
+string[] labels = { "Group A", "Group B", "Group C" };
+columnChart.Series.Add("Demo Data", labels, new double[] { 10, 20, 30 });
+
+//ExStep:3-
+columnChart.Format.Stroke.Weight = 0;
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutPlotBorder.docx");
+//ExEnd

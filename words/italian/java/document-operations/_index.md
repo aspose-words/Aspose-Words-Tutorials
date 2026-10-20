@@ -68,6 +68,9 @@ Un tutorial sul codice per Aspose.Words Java
 ### [Salvare i documenti Word come PostScript con le impostazioni di piegatura del libro in Java utilizzando Aspose.Words](./aspose-words-java-postscript-book-fold-settings/)
 Scopri come convertire documenti Word in opuscoli con output di qualità professionale utilizzando Aspose.Words per Java. Questa guida illustra come salvare in formato PostScript e configurare le impostazioni di piegatura dei libri.
 
+### [Iterare gli avvisi del documento: rilevare i font mancanti in Java](./iterate-document-warnings-detect-missing-fonts-in-java/)
+Scopri come iterare gli avvisi del documento e individuare i font mancanti usando Aspose.Words per Java.
+
 ## Risorse aggiuntive
 
 - [Documentazione di Aspose.Words per Java](https://reference.aspose.com/words/java/)

@@ -23,6 +23,34 @@ Aspose.Words for .NET グラフィックスプログラミングチュートリ�
 
  ## チュートリアル
 タイトル | 説明 |
+
+{{< tutorial-card link="./uniform-data-labels/" title="Aspose.Words for .NET を使用して列チャートのデータ ラベルを均一に設定する" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="Aspose.Words for .NET を使用して Word のページサイズを変更する際に、チャートを比例的にリサイズする" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="Aspose.Words for .NET を使用して Word ドキュメントにカスタム column chart を挿入する" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./hide-plot-border/" title="Aspose.Words for .NET を使用した列グラフのプロット領域枠線を非表示にする" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Aspose.Words for .NET を使用して Word ドキュメントからチャート系列を削除する" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-sample-column-chart/" title="Aspose.Words for .NET を使用して Word ドキュメントにサンプル縦棒グラフを挿入する" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-named-series/" title="Aspose.Words for .NET を使用して Word のヒストグラム チャートに名前付きデータ系列を追加する" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Aspose.Words for .NET を使用して Word 文書内のチャート系列とデータポイントを検証する" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Aspose.Words for .NET を使用した列グラフの X 軸グリッドラインのカスタマイズ" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Aspose.Words for .NET を使用して Word の折れ線グラフでセカンダリ X 軸をフォーマットし、表示単位を千単位に設定する" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Aspose.Words for .NET を使用して Word でチャートタイトルを更新し、凡例の表示を切り替える" imgSrc="./update-chart-title/images/thumb.png" >}}
+
+
+
+
+
+
 | --- | --- |
 | [グラフのデータラベルの数値の書式設定](./format-number-of-data-label/) Aspose.Words for .NET を使用してグラフのデータラベルを書式設定する方法をステップバイステップで解説します。Word文書を簡単に魅力的に仕上げることができます。 |
 | [図形を使用してグラフを作成およびカスタマイズする](./create-chart-using-shape/) Aspose.Words for .NET を使用してWord文書にグラフを作成およびカスタマイズする方法を、ステップバイステップで解説するガイドです。データの視覚化に最適です。 |
@@ -42,6 +70,7 @@ Aspose.Words for .NET グラフィックスプログラミングチュートリ�
 | [グラフのデータラベルのデフォルトオプションを設定する](./default-options-for-data-labels/) Aspose.Words for .NET を使用して、グラフのデータラベルのデフォルトオプションを設定する方法を学びましょう。ステップバイステップのガイドに従って、簡単にグラフを作成およびカスタマイズできます。 |
 | [グラフ内の単一のグラフデータポイントをカスタマイズする](./single-chart-data-point/) Aspose.Words for .NET を使用して、グラフの個々のデータポイントをカスタマイズする方法を、詳細なステップバイステップガイドで学びましょう。独自のマーカーとサイズでグラフの魅力を高めましょう。 |
 | [チャート内の単一のチャートシリーズをカスタマイズする](./single-chart-series/) Aspose.Words for .NET を使用して、Word 文書内の単一のグラフ系列をカスタマイズする方法を学びましょう。ステップバイステップのガイドに従って、シームレスに操作できます。 |
+| [C# を使用して Word にチャートの凡例を表示する – 完全ステップバイステップガイド](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) Aspose.Words for .NET を使用して、Word 文書にチャートの凡例を表示する方法をステップバイステップで解説します。 |
 | [C# で Aspose.Words を使用して円グラフのスライスを分離する完全ガイド](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) Aspose.Words for .NET を使用して円グラフのスライスを分離（エクスプロード）する方法をステップバイステップで解説します。 |
 | [C# で Aspose.Words を使用して円グラフのラベルを追加する完全ガイド](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) Aspose.Words for .NET を使用して、C# で円グラフのデータラベルを追加・カスタマイズする方法をステップバイステップで解説します。 |
 
