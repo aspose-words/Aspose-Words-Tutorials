@@ -1,26 +1,23 @@
 ---
 category: general
-date: 2025-12-29
-description: Jak exportovat markdown z souboru DOCX pomocí Aspose.Words. Naučte se
-  převádět Word na markdown, přidávat markdown pro zalomení řádku a uložit DOCX jako
-  markdown.
+date: 2026-02-24
+description: Naučte se, jak exportovat markdown z Wordu pomocí Aspose.Words, převést
+  Word na markdown a nahrát obrázky do cloudu během několika kroků.
 draft: false
 keywords:
 - how to export markdown
 - convert word to markdown
-- how to convert docx
-- add line break markdown
-- save docx as markdown
+- upload images to cloud
+- export docx as markdown
 language: cs
-og_description: Jak exportovat markdown ze souboru DOCX pomocí Aspose.Words. Tento
-  tutoriál vám ukáže, jak převést Word na markdown, přidat markdown pro zalomení řádku
-  a uložit DOCX jako markdown.
-og_title: Jak exportovat Markdown z Wordu – Kompletní průvodce C#
+og_description: Jak exportovat markdown z Wordu? Tento průvodce ukazuje, jak exportovat
+  markdown, převést docx a nahrát obrázky do cloudu pomocí Aspose.Words.
+og_title: Jak exportovat markdown z Wordu – krok za krokem C# tutoriál
 tags:
 - Aspose.Words
 - C#
 - Markdown
-title: Jak exportovat Markdown z Wordu – Kompletní průvodce C#
+title: Jak exportovat markdown z Wordu – kompletní průvodce C#
 url: /cs/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-word-complete-c-guide/
 ---
 
@@ -28,185 +25,171 @@ url: /cs/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-wo
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak exportovat Markdown z Wordu – Kompletní průvodce v C#  
+# jak exportovat markdown z Wordu pomocí Aspose.Words
 
-Už jste se někdy zamýšleli **jak exportovat markdown** z dokumentu Word bez ztráty formátování? Nejste v tom sami. Mnoho vývojářů potřebuje spolehlivý způsob, jak **převést Word na markdown**, zejména při migraci dokumentace nebo při vkládání obsahu do generátorů statických stránek.  
+Už jste se někdy zamysleli nad **tím, jak exportovat markdown** z dokumentu Word, aniž byste přišli o své cenné obrázky? Nejste v tom sami — vývojáři se neustále ptají *„Mohu převést Word na markdown a přitom si ponechat obrázky uložené někde bezpečně?“* Krátká odpověď je **ano**, a dlouhá odpověď je úhledný úryvek C#, který za vás udělá těžkou práci.
 
-V tomto tutoriálu vás provedeme přesnými kroky, jak vzít soubor `.docx`, nakonfigurovat Aspose.Words tak, aby prázdné odstavce se staly zalomeními řádku, a nakonec **uložit docx jako markdown**. Na konci budete mít připravený spustitelný C# program, který udělá vše, plus tipy pro řešení okrajových případů, jako jsou tabulky, obrázky a vlastní styly.  
+> **Co budete potřebovat**  
+> - .NET 6+ (nebo jakékoli aktuální .NET runtime)  
+> - Aspose.Words pro .NET (bezplatná zkušební verze stačí pro experimentování)  
+> - Cloudový bucket nebo CDN endpoint, kam můžete POSTovat binární data (příklad používá zástupnou URL)  
 
-> **Pro tip:** Pokud již používáte Aspose.Words pro jiné úkoly s dokumenty, můžete znovu použít stejný objekt `Document` – nejsou potřeba žádné další závislosti.  
+![diagram exportu markdown](image.png "jak exportovat markdown")
 
-## Co budete potřebovat  
+## Krok 1 – Načtení DOCX (převod Wordu na markdown)
 
-- **.NET 6+** (kód funguje také na .NET Framework, ale .NET 6 je aktuální LTS)  
-- **Aspose.Words for .NET** – můžete jej získat z NuGet (`Install-Package Aspose.Words`)  
-- Vzorek souboru **input.docx** (jakýkoli Word soubor bude stačit; prázdné odstavce budeme zpracovávat speciálně)  
-- Visual Studio, VS Code nebo jakýkoli C# editor, který máte rádi  
-
-Žádné externí markdown knihovny nejsou potřeba; Aspose.Words provádí těžkou práci.  
-
-## Jak exportovat Markdown z Word dokumentu (krok za krokem)  
-
-Níže je kompletní spustitelný program. Uložte jej jako `Program.cs` a spusťte z příkazové řádky nebo z vašeho IDE.  
+Prvním krokem je načtení zdrojového dokumentu. Aspose.Words abstrahuje nepřehledné parsování OpenXML, takže stačí ukázat na cestu k souboru nebo na stream.
 
 ```csharp
-using System;
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-class Program
-{
-    static void Main()
-    {
-        // 1️⃣ Load the source Word document.
-        // Replace "YOUR_DIRECTORY" with the actual folder path.
-        string inputPath = @"YOUR_DIRECTORY\input.docx";
-        Document wordDocument = new Document(inputPath);
+// Load the source .docx that contains images, tables, etc.
+Document sourceDocument = new Document("YOUR_DIRECTORY/input.docx");
+```
 
-        // 2️⃣ Configure Markdown save options.
-        // We want empty paragraphs to become line breaks.
-        MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
+*Proč je to důležité*: načtení dokumentu nám poskytuje kompletní objektový model, který zachovává všechny vložené zdroje. Pokud tento krok přeskočíte a pokusíte se soubor načíst ručně, ztratíte vztah mezi obrázky a jejich zástupci — což často zaskočí nešikovné konvertory.
+
+## Krok 2 – Nastavení MarkdownSaveOptions (jak exportovat markdown)
+
+Nyní řekneme Aspose.Words, že chceme jako výstupní formát Markdown. Třída `MarkdownSaveOptions` vám umožní připojit callback, který se spustí pro **každý externí zdroj** (např. obrázek). Právě zde později **nahrajeme obrázky do cloudu**.
+
+```csharp
+// Prepare options for Markdown export and attach a callback
+MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
+{
+    // The callback will decide where each image lives on the web
+    ResourceSavingCallback = new MyResourceCallback()
+};
+```
+
+Všimněte si vlastnosti `ResourceSavingCallback`. Bez ní by Aspose uložil každý obrázek vedle souboru `.md` na disku — což je v pořádku pro lokální testování, ale není ideální, když potřebujete veřejnou URL. Poskytnutím vlastní implementace získáte plnou kontrolu nad konečnou URI.
+
+## Krok 3 – Implementace callbacku pro ukládání zdrojů (nahrání obrázků do cloudu)
+
+Níže je jádro řešení. Třída `MyResourceCallback` implementuje `IResourceSavingCallback`. Pro každý přijatý stream obrázku jej nahrajeme na CDN (nebo jakýkoli HTTP endpoint, který preferujete) a poté nahradíme lokální odkaz vrácenou veřejnou URL.
+
+```csharp
+public class MyResourceCallback : IResourceSavingCallback
+{
+    public void ResourceSaving(ResourceSavingArgs args)
+    {
+        // Upload the resource (image, SVG, etc.) and obtain its public URL
+        string cloudUrl = UploadToCloud(args.Stream, args.FileName);
+        args.Uri = cloudUrl;                     // URL that will appear in the Markdown
+        args.KeepOriginalDocumentUri = false;   // Skip writing a local copy
+    }
+
+    private string UploadToCloud(Stream data, string name)
+    {
+        // 👉 Insert your real cloud‑API logic here.
+        // For demo purposes we just pretend the upload succeeded.
+        // In production you would POST `data` to your storage service
+        // and return the resulting HTTPS URL.
+        return $"https://mycdn.example.com/{name}";
+    }
+}
+```
+
+### Proč vlastní callback?
+
+1. **Kontrola nad pojmenováním** — můžete předřadit GUID, časové razítko nebo jakýkoli konvenci, kterou CDN očekává.  
+2. **Bezpečnost** — můžete přidat autentizační hlavičky před HTTP voláním.  
+3. **Výkon** — můžete nahrávat ve skupinách nebo použít async I/O, pokud zpracováváte mnoho dokumentů.
+
+Pokud ještě nemáte cloudový bucket, mnoho poskytovatelů (Amazon S3, Azure Blob, Google Cloud Storage) nabízí jednoduché REST API, které tomuto vzoru vyhovuje.
+
+## Krok 4 – Uložení dokumentu jako Markdown
+
+S callbackem nastaveným, posledním krokem je jednorázový příkaz, který vytvoří soubor Markdown. Všechny obrázky odkazované v dokumentu nyní budou ukazovat na URL vrácené funkcí `UploadToCloud`.
+
+```csharp
+// Save the document as Markdown; the callback rewrites image URIs automatically
+sourceDocument.Save("YOUR_DIRECTORY/output.md", markdownOptions);
+```
+
+### Očekávaný výstup
+
+Otevřete `output.md` v libovolném editoru a uvidíte něco podobného:
+
+```markdown
+# Sample Heading
+
+Here is an image that was originally in the Word file:
+
+![Image1](https://mycdn.example.com/Image1.png)
+
+And a paragraph of text that came straight from the DOCX.
+```
+
+Pokud otevřete náhled Markdown (VS Code, GitHub atd.), obrázek by se měl zobrazit z umístění CDN — žádné lokální soubory nejsou potřeba.
+
+## Časté úskalí a okrajové případy
+
+| Situace | Na co si dát pozor | Rychlé řešení |
+|-----------|-------------------|-----------|
+| **Velké obrázky** | Nahrávání může vypršet časový limit nebo překročit kvótu | Zmenšete nebo komprimujte před nahráním; použijte `System.Drawing` ke zmenšení streamů |
+| **Formáty jiné než PNG** | Některé CDN odmítají určité MIME typy | Detekujte příponu `args.FileName`, převádějte na PNG za běhu |
+| **Chybějící cloudové přihlašovací údaje** | `UploadToCloud` vrhá 401 | Ukládejte přihlašovací údaje bezpečně (Azure Key Vault, AWS Secrets Manager) a injektujte je do callbacku |
+| **Relativní odkazy v původním DOCX** | Aspose může zachovat relativní cestu | Přepište `args.Uri` bez ohledu na původní hodnotu (jak děláme) |
+| **Více dokumentů paralelně** | Podmínka závodu u stejného názvu souboru | Přidejte GUID k `name` uvnitř `UploadToCloud` |
+
+Řešení těchto okrajových případů učiní vaše řešení dostatečně robustním pro produkční pipeline.
+
+## Bonus: Přeměna úryvku na znovupoužitelnou knihovnu
+
+Pokud se nacházíte v situaci, že denně převádíte desítky dokumentů, zvažte zabalení výše uvedené logiky do statického pomocníka:
+
+```csharp
+public static class WordToMarkdownConverter
+{
+    public static void Convert(string inputPath, string outputPath, Func<Stream, string, string> uploader)
+    {
+        Document doc = new Document(inputPath);
+        var options = new MarkdownSaveOptions
         {
-            EmptyParagraphExportMode = EmptyParagraphExportMode.AddLineBreak
+            ResourceSavingCallback = new LambdaResourceCallback(uploader)
         };
-
-        // 3️⃣ Save the document as a Markdown file.
-        string outputPath = @"YOUR_DIRECTORY\output.md";
-        wordDocument.Save(outputPath, markdownOptions);
-
-        Console.WriteLine($"✅ Success! Markdown saved to {outputPath}");
+        doc.Save(outputPath, options);
     }
-}
-```
 
-### Proč jsou tyto kroky důležité  
-
-1. **Načtení DOCX** – `new Document(path)` parsuje Word soubor do objektového modelu Aspose, odhaluje odstavce, tabulky, obrázky atd.  
-2. **Nastavení `EmptyParagraphExportMode`** – Ve výchozím nastavení může Aspose vynechat prázdné odstavce, což by zredukovalo zalomení řádků ve výsledném markdownu. `AddLineBreak` vynutí doslovný `\n` ve výstupu, což vám poskytne očekávané chování **add line break markdown**.  
-3. **Uložení jako Markdown** – Metoda `Save` zapíše soubor `.md` s použitím definovaných možností, efektivně **convert word to markdown** v jediném řádku kódu.  
-
-## Převod Wordu na Markdown pomocí Aspose.Words – Běžné varianty  
-
-Zatímco výše uvedený úryvek pokrývá základy, reálné scénáře často vyžadují trochu dalšího zpracování.  
-
-### H3: Zachování tabulek  
-
-Aspose automaticky převádí Word tabulky do markdown pipe syntaxe. Pokud zjistíte, že zarovnání není správné, můžete upravit `TableExportMode`:  
-
-```csharp
-markdownOptions.TableExportMode = TableExportMode.Markdown;
-```
-
-### H3: Export obrázků  
-
-Obrázky jsou ve výchozím nastavení ukládány jako samostatné soubory vedle markdownu. Pro vložení jako Base64 (užitečné pro jednosouborové dokumenty) nastavte:  
-
-```csharp
-markdownOptions.ImageSavingCallback = new ImageSavingCallback();
-```
-
-(Implementace `ImageSavingCallback` je mimo tento průvodce, ale dokumentace Aspose obsahuje stručný příklad.)  
-
-### H3: Řízení úrovní nadpisů  
-
-Pokud váš zdrojový dokument používá vlastní styly nadpisů, můžete je mapovat na markdown nadpisy pomocí `HeadingExportLevel`:  
-
-```csharp
-markdownOptions.HeadingExportLevel = 3; // forces ### for all headings
-```
-
-## Přidání zalomení řádku v Markdownu – Řízení prázdných odstavců  
-
-Jádrem **add line break markdown** je `EmptyParagraphExportMode`. Existují tři možnosti:  
-
-| Mode | Výsledek v Markdownu |
-|------|----------------------|
-| `AddLineBreak` | Vloží prázdnou řádku (`\n`) – ideální pro mezery mezi odstavci |
-| `Preserve` | Zachová prázdný odstavec jako prázdný HTML tag `<p>` (není typický pro markdown) |
-| `Ignore` | Úplně vynechá prázdný odstavec – užitečné pro kompaktní výstup |
-
-Volba `AddLineBreak` je obvykle to, co chcete, když potřebujete vizuální oddělení bez vytvoření nového nadpisu nebo položky seznamu.  
-
-## Uložení DOCX jako Markdown – Kompletní funkční příklad s ošetřením chyb  
-
-Produkční kód by měl předvídat chybějící soubory, problémy s oprávněními a nepodporované elementy. Zde je robustnější verze:  
-
-```csharp
-using System;
-using System.IO;
-using Aspose.Words;
-using Aspose.Words.Saving;
-
-class MarkdownExporter
-{
-    static void Main()
+    private class LambdaResourceCallback : IResourceSavingCallback
     {
-        string inputFile = @"YOUR_DIRECTORY\input.docx";
-        string outputFile = @"YOUR_DIRECTORY\output.md";
+        private readonly Func<Stream, string, string> _uploader;
+        public LambdaResourceCallback(Func<Stream, string, string> uploader) => _uploader = uploader;
 
-        try
+        public void ResourceSaving(ResourceSavingArgs args)
         {
-            // Verify the source file exists.
-            if (!File.Exists(inputFile))
-                throw new FileNotFoundException("Input DOCX not found.", inputFile);
-
-            // Load the document.
-            Document doc = new Document(inputFile);
-
-            // Set up markdown options.
-            MarkdownSaveOptions opts = new MarkdownSaveOptions
-            {
-                EmptyParagraphExportMode = EmptyParagraphExportMode.AddLineBreak,
-                // Optional: keep tables as markdown, preserve images as files.
-                TableExportMode = TableExportMode.Markdown
-            };
-
-            // Save as markdown.
-            doc.Save(outputFile, opts);
-
-            Console.WriteLine($"✅ {Path.GetFileName(outputFile)} created successfully.");
-        }
-        catch (Exception ex)
-        {
-            Console.Error.WriteLine($"❌ Error exporting markdown: {ex.Message}");
-            // In a real app you might log the stack trace or rethrow.
+            args.Uri = _uploader(args.Stream, args.FileName);
+            args.KeepOriginalDocumentUri = false;
         }
     }
 }
 ```
 
-**Očekávaný výstup:** Otevřete `output.md` v libovolném markdown prohlížeči (VS Code, GitHub, MkDocs) a uvidíte původní obsah Wordu, s prázdnými odstavci vykreslenými jako prázdné řádky — přesně efekt **add line break markdown**, který jsme chtěli.  
+Nyní můžete zavolat:
 
-## Ilustrace obrázku  
+```csharp
+WordToMarkdownConverter.Convert(
+    "input.docx",
+    "output.md",
+    (stream, name) => UploadToCloud(stream, name) // your real uploader
+);
+```
 
-Níže je rychlý snímek obrazovky vygenerovaného markdown souboru otevřeného ve VS Code.  
-*(Obrázek je ilustrativní; pokud publikujete, nahraďte jej svým vlastním.)*  
+Tento vzor odděluje zodpovědnosti, udržuje hlavní program přehledný a usnadňuje jednotkové testování uploaderu.
 
-![příklad exportu markdown](https://example.com/placeholder-image.png)
+## Závěr
 
-*Alt text:* příklad exportu markdown – ukazuje náhled markdownu převedeného DOCX  
+Probrali jsme **jak exportovat markdown** z Word souboru, ukázali vám **jak převést Word na markdown**, demonstrovali čistý způsob **nahrání obrázků do cloudu**, a nakonec vytvořili soubor **export docx jako markdown**, který je připravený pro GitHub, statické stránky nebo jakéhokoli downstream spotřebitele. Hlavní poznatky jsou:
 
-## Často kladené otázky  
+* Použijte `MarkdownSaveOptions` s vlastním `IResourceSavingCallback` pro kontrolu URI obrázků.  
+* Udržujte logiku nahrávání izolovanou — zlepšuje to testovatelnost a umožňuje vyměnit CDN bez úpravy konverzního kódu.  
+* Předvídejte okrajové případy (velké soubory, autentizace, kolize názvů) již na začátku, abyste se vyhnuli překvapením v produkci.
 
-- **Funguje to i s .doc soubory?**  
-  Ano. Aspose.Words podporuje jak `.doc`, tak `.docx`. Stačí změnit příponu souboru v `inputPath`.  
+Připravení na další krok? Zkuste nahradit zástupnou funkci `UploadToCloud` skutečným voláním Azure Blob, nebo experimentujte s asynchronním nahráváním pro masové dávky. Vzor zůstává stejný; mění se jen detaily úložiště.
 
-- **Co když můj dokument obsahuje poznámky pod čarou?**  
-  Poznámky pod čarou jsou ve výchozím nastavení exportovány jako inline markdown odkazy. Můžete je přizpůsobit pomocí `FootnoteExportMode`.  
-
-- **Mohu zpracovávat více souborů najednou?**  
-  Rozhodně. Zabalte hlavní logiku do smyčky `foreach` přes adresář a podle toho upravte název výstupního souboru.  
-
-- **Je knihovna zdarma?**  
-  Aspose.Words nabízí bezplatnou zkušební verzi s plnou funkčností. Pro produkci budete potřebovat licenci, ale používání API zůstává stejné.  
-
-## Závěr  
-
-Probrali jsme **jak exportovat markdown** z Word dokumentu pomocí Aspose.Words, ukázali workflow **convert word to markdown**, vysvětlili nastavení **add line break markdown** a představili kompletní program **save docx as markdown**, který můžete vložit do libovolného .NET projektu.  
-
-S těmito znalostmi můžete automatizovat pipeline dokumentace, migrovat staré dokumenty nebo jednoduše udržovat obsah v lehkém formátu přátelském k verzování. Dále zkuste přidat vlastní zpracování obrázků nebo integrovat exportér do CI/CD build kroku – vaše toolbox pro konverzi markdown je nyní plně vybaven.  
-
-Šťastné programování a ať se váš markdown vždy vykresluje tak, jak očekáváte!  
+Pokud narazíte na nějaké potíže, zanechte komentář níže — šťastné kódování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -27,7 +27,7 @@ Bu eğitimleri takip ederek, tercihlerinize göre kaydetme seçeneklerini özell
 | [Belgeyi Parola ile Şifrele](./encrypt-document-with-password/) | Bu ayrıntılı, adım adım kılavuzda Aspose.Words for .NET kullanarak bir belgeyi parola ile nasıl şifreleyeceğinizi öğrenin. Hassas bilgilerinizi zahmetsizce güvence altına alın. |
 | [Küçük Meta Dosyalarını Sıkıştırmayın](./do-not-compress-small-metafiles/) | Word belgelerindeki küçük meta dosyalarının sıkıştırılmamasını, kalitesinin ve bütünlüğünün korunmasını sağlamak için Aspose.Words for .NET'i nasıl kullanacağınızı öğrenin. Adım adım kılavuz dahildir. |
 | [Resim Madde İşaretini Kaydetmeyin](./do-not-save-picture-bullet/) Aspose.Words for .NET'te resim madde işaretlerini nasıl kullanacağınızı adım adım kılavuzumuzla öğrenin. Belge yönetimini basitleştirin ve profesyonel Word belgelerini zahmetsizce oluşturun. |
-
+| [Aspose.Words ile Düzenlenmiş Belgeyi C#'ta Kaydetme – Adım Adım Kılavuz](./how-to-save-edited-document-in-c-with-aspose-words-step-by-s/) | Aspose.Words kullanarak C# içinde düzenlenmiş bir Word belgesini nasıl kaydedeceğinizi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

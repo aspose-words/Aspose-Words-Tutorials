@@ -46,6 +46,8 @@
 学习使用 Aspose.Words for Python 在 Word 文档中进行高级查找和替换的技巧。包括替换文本、使用正则表达式、设置格式等等。
 ### [删除和优化Word文档中的内容](./remove-content-documents/)
 学习如何使用 Aspose.Words for Python 高效地删除和优化 Word 文档中的内容。包含源代码示例的分步指南。
+### [如何为从 DOCX 导出图像设置回调](./how-to-set-callback-for-exporting-images-from-docx/)
+学习如何使用 Aspose.Words for Python 设置回调函数，以在导出 DOCX 中的图像时进行自定义处理。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,64 @@
+//ExStart
+//ExSummary: โดยใช้คลาส Aspose.Words Document, DocumentBuilder, Comment และ Style บทเรียนนี้สร้างคอมเมนต์ในไฟล์ Word และใช้สไตล์ย่อหน้าที่กำหนดเองกับย่อหน้าคอมเมนต์ทุกอันเพื่อให้ข้อความคอมเมนต์ตรงกับแบรนด์ขององค์กร
+//ExStepSummary:0: สร้าง Document ใหม่ที่ว่างเปล่าและ DocumentBuilder เพื่อแก้ไขมัน
+//ExStepSummary:1: แทรกประโยคตัวอย่างสองประโยคลงในเอกสาร
+//ExStepSummary:2: สร้างคอมเมนต์โดย Carol ตั้งข้อความของคอมเมนต์ ย้ายไปที่จุดเริ่มต้นของเอกสาร และแนบคอมเมนต์ไปยังย่อหน้าแรก
+//ExStepSummary:3: สร้างคอมเมนต์โดย Dave ตั้งข้อความของคอมเมนต์ ย้ายไปที่จุดสิ้นสุดของเอกสาร และแนบคอมเมนต์ไปยังย่อหน้าสุดท้าย
+//ExStepSummary:4: กำหนดสไตล์ย่อหน้าที่กำหนดเองชื่อ "BrandComment" ด้วยฟอนต์ Arial ขนาด 10 pt สีฟ้าเข้ม และรูปแบบตัวหนา เพื่อให้สอดคล้องกับแบรนด์ขององค์กร
+//ExStepSummary:5: รวบรวมโหนด Comment ทั้งหมดในเอกสารไว้ในรายการ
+//ExStepSummary:6: วนซ้ำแต่ละคอมเมนต์และใช้สไตล์ BrandComment กับย่อหน้าทุกอันภายในคอมเมนต์
+//ExStepSummary:7: สร้างโฟลเดอร์ Results หากจำเป็นและบันทึกเอกสารที่แก้ไขแล้วเป็นไฟล์ StyledCommentsDocument.docx
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:6:images/4.png
+//ExStep:0-
+Document document = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(document);
+
+//ExStep:1-
+docBuilder.Writeln("Introductory line for the file.");
+docBuilder.Writeln("Follow‑up line for the file.");
+
+//ExStep:2-
+Comment remarkOne = new Comment(document, "Carol", "C", DateTime.Now);
+remarkOne.SetText("Preliminary assessment note.");
+docBuilder.MoveToDocumentStart();
+docBuilder.CurrentParagraph.AppendChild(remarkOne);
+
+//ExStep:3-
+Comment remarkTwo = new Comment(document, "Dave", "D", DateTime.Now);
+remarkTwo.SetText("Further clarification required.");
+docBuilder.MoveToDocumentEnd();
+docBuilder.CurrentParagraph.AppendChild(remarkTwo);
+
+//ExStep:4-
+Style brandCommentStyle = document.Styles.Add(StyleType.Paragraph, "BrandComment");
+brandCommentStyle.Font.Name = "Arial";
+brandCommentStyle.Font.Size = 10;
+brandCommentStyle.Font.Color = Color.DarkBlue;
+brandCommentStyle.Font.Bold = true;
+
+//ExStep:5-
+var allComments = document.GetChildNodes(NodeType.Comment, true)
+                                 .OfType<Comment>()
+                                 .ToList();
+
+//ExStep:6-
+foreach (Comment commentNode in allComments)
+{
+    if (commentNode.Paragraphs.Count == 0)
+        commentNode.EnsureMinimum();
+
+    foreach (Paragraph para in commentNode.Paragraphs)
+    {
+        para.ParagraphFormat.Style = brandCommentStyle;
+    }
+}
+
+//ExStep:7-
+string resultFolder = Path.Combine(Directory.GetCurrentDirectory(), "Results");
+Directory.CreateDirectory(resultFolder);
+string resultFile = Path.Combine(resultFolder, "StyledCommentsDocument.docx");
+document.Save(resultFile);
+//ExEnd

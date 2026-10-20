@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: 本教程展示了如何创建 Word 文档、插入柱形图、替换其示例数据，然后启用并设置主 X 轴的主要网格线样式。
+//ExStepSummary:0: 创建一个新的 Word 文档并使用 DocumentBuilder 对其进行编辑。
+//ExStepSummary:1: 在文档中插入一个 432×252 的柱形图，并获取其 Chart 对象。
+//ExStepSummary:2: 移除默认系列，并添加一个包含三个分组及其数值的自定义系列。
+//ExStepSummary:3: 获取图表的主水平（X）轴的引用。
+//ExStepSummary:4: 启用主 X 轴的主要网格线显示。
+//ExStepSummary:5: 将网格线颜色设置为蓝色，粗细设置为 2 磅。
+//ExStepSummary:6: 将文档保存为 .docx 文件。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document myDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+chart.Series.Add("Demo Series",
+    new[] { "Group One", "Group Two", "Group Three" },
+    new double[] { 10, 20, 30 });
+
+//ExStep:3-
+ChartAxis horizontalAxis = chart.AxisX;
+
+//ExStep:4-
+horizontalAxis.HasMajorGridlines = true;
+
+//ExStep:5-
+horizontalAxis.Format.Stroke.Color = Color.Blue;
+horizontalAxis.Format.Stroke.Weight = 2.0;
+
+//ExStep:6-
+myDoc.Save("PrimaryXGridlines.docx");
+//ExEnd

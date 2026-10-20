@@ -101,6 +101,23 @@ weight: 14
 ### [การแปลงเอกสารเป็นภาพ](./converting-documents-images/)
 เรียนรู้วิธีแปลงเอกสาร Word เป็นภาพด้วย Aspose.Words for Java. คู่มือขั้นตอนพร้อมตัวอย่างโค้ดและคำถามที่พบบ่อย.
 
+### [บันทึกไฟล์ docx เป็น markdown ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์](./save-docx-as-markdown-with-aspose-words-complete-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown อย่างละเอียดด้วย Aspose.Words สำหรับ Java พร้อมตัวอย่างโค้ดและเคล็ดลับ
+### [แปลง DOCX เป็น PDF ใน Java – คู่มือขั้นตอนโดยละเอียด](./convert-docx-to-pdf-in-java-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ด้วย Aspose.Words for Java อย่างละเอียดด้วยขั้นตอนที่ชัดเจนและตัวอย่างโค้ด.
+### [บันทึก docx เป็น pdf ด้วย Aspose.Words – คู่มือ Java ครบวงจร](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น PDF อย่างละเอียดด้วย Aspose.Words for Java พร้อมตัวอย่างโค้ดและเคล็ดลับการปรับแต่ง
+### [แปลง docx เป็น txt ใน Java – คู่มือการเขียนโปรแกรมครบวงจร](./convert-docx-to-txt-in-java-complete-programming-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็นไฟล์ข้อความ TXT ใน Java อย่างละเอียด ด้วยตัวอย่างโค้ดและเคล็ดลับการจัดการฟอร์แมต
+### [แปลง docx เป็น markdown ด้วย Aspose.Words Java – คู่มือเต็ม](./convert-docx-to-markdown-with-aspose-words-java-full-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown อย่างละเอียดด้วย Aspose.Words for Java
+### [แปลง DOCX เป็น PDF ใน Java – คู่มือ Low‑Code ง่าย](./convert-docx-to-pdf-in-java-simple-low-code-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ด้วยโค้ดเพียงไม่กี่บรรทัดโดยใช้ Aspose.Words for Java อย่างง่ายและรวดเร็ว.
+### [บันทึก Markdown เป็น DOCX ด้วย Aspose.Words – คู่มือ Java](./save-markdown-as-docx-with-aspose-words-java-guide/)
+เรียนรู้วิธีแปลงไฟล์ Markdown เป็นเอกสาร DOCX ด้วย Aspose.Words for Java อย่างง่ายและรวดเร็ว.
+### [แปลง docx เป็น markdown – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา Java](./convert-docx-to-markdown-complete-guide-for-java-developers/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown ด้วย Aspose.Words for Java พร้อมตัวอย่างโค้ดและเคล็ดลับการใช้งาน
+
 ## คำถามที่พบบ่อย
 
 **Q:** *ฉันสามารถแปลงไฟล์ Word ที่ป้องกันด้วยรหัสผ่านเป็น PDF ได้หรือไม่?*  

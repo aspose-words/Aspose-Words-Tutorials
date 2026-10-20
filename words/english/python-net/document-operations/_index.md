@@ -28,40 +28,55 @@ The 'Document Operations' category is tailored for developers aiming to deepen t
 Learn how to manipulate PDFs using Aspose.Words for Python. Convert, edit, and handle encrypted documents with ease.
 
     ### [Convert DOCX to Fixed-Form XAML in Python Using Aspose.Words&#58; A Comprehensive Guide](./python-docx-to-xaml-aspose-tutorial/)
-Learn how to convert Microsoft Word (DOCX) documents into fixed-form XAML using Aspose.Words for Python, ensuring efficient resource management and design integrity.
+    Learn how to convert Microsoft Word (DOCX) documents into fixed-form XAML using Aspose.Words for Python, ensuring efficient resource management and design integrity.
 
     ### [Efficient RTF Loading in Python&#58; Detect UTF-8 Encoding with Aspose.Words](./optimize-rtf-loading-aspose-python-utf8-detection/)
-Learn how to efficiently load RTF documents and detect UTF-8 encoding using Aspose.Words for Python. Enhance text handling accuracy in your projects.
+    Learn how to efficiently load RTF documents and detect UTF-8 encoding using Aspose.Words for Python. Enhance text handling accuracy in your projects.
 
     ### [How to Fix Broken Links in CHM Files Using Aspose.Words for Python](./fix-broken-links-chm-files-aspose-words-python/)
-Learn how to resolve broken links in .chm files using the powerful Aspose.Words library. Enhance your document reliability and user experience with this step-by-step guide.
+    Learn how to resolve broken links in .chm files using the powerful Aspose.Words library. Enhance your document reliability and user experience with this step-by-step guide.
 
     ### [Implementing Custom HTML Page Save Callbacks in Python with Aspose.Words](./aspose-words-python-html-page-callbacks/)
-Learn how to use Aspose.Words for Python to convert Word documents into separate HTML pages using custom callbacks. Perfect for document management and web publishing.
+    Learn how to use Aspose.Words for Python to convert Word documents into separate HTML pages using custom callbacks. Perfect for document management and web publishing.
 
     ### [Master Aspose.Words Markdown Load Options in Python for Enhanced Document Processing](./aspose-words-markdown-load-options-python/)
-Learn to efficiently manage and process markdown files using Aspose.Words' MarkdownLoadOptions feature in Python. Enhance your document workflows with precise control over formatting.
+    Learn to efficiently manage and process markdown files using Aspose.Words' MarkdownLoadOptions feature in Python. Enhance your document workflows with precise control over formatting.
 
     ### [Master Aspose.Words for Python&#58; Efficiently Manage and Automate Word Documents](./master-aspose-words-python-managing-word-docs/)
-Learn to load, manage, and automate Microsoft Word documents with Aspose.Words in Python. Streamline your document processing tasks effortlessly.
+    Learn to load, manage, and automate Microsoft Word documents with Aspose.Words in Python. Streamline your document processing tasks effortlessly.
 
     ### [Master Document Loading with Aspose.Words for Python](./mastering-aspose-words-document-loading-python/)
-A code tutorial for Aspose.Words Python-net
+    A code tutorial for Aspose.Words Python-net
 
     ### [Recover Corrupted DOCX – Open & Load Word Document](./recover-corrupted-docx-open-load-word-document/)
-Learn how to recover and open corrupted DOCX files using Aspose.Words for Python-net.
+    Learn how to recover and open corrupted DOCX files using Aspose.Words for Python-net.
+
+    ### [Recover corrupted Word document using Python – Complete Guide](./recover-corrupted-word-document-using-python-complete-guide/)
+Learn how to recover and open corrupted Word documents using Aspose.Words for Python-net with step-by-step instructions.
+
+    ### [Recover Corrupted DOCX – Complete Guide to Opening Word Files with Aspose](./recover-corrupted-docx-complete-guide-to-opening-word-files/)
+Learn how to recover and open corrupted DOCX files using Aspose.Words for Python-net with step-by-step instructions.
+
+    ### [Recover Corrupted DOCX Files in Python – Complete Guide](./recover-corrupted-docx-files-in-python-complete-guide/)
+Learn how to recover and open corrupted DOCX files using Aspose.Words for Python-net with step-by-step instructions.
 
     ### [How to Recover DOCX Files in Python – Complete Guide](./how-to-recover-docx-files-in-python-complete-guide/)
 Learn how to recover damaged DOCX files using Aspose.Words for Python-net with step-by-step instructions and code examples.
 
     ### [Master Document Management with Aspose.Words in Python&#58; Limit Headings & Sign XPS Documents](./aspose-words-python-document-management/)
-Learn how to limit heading levels and apply digital signatures in XPS documents using Aspose.Words for Python, enhancing document security and navigation.
+    Learn how to limit heading levels and apply digital signatures in XPS documents using Aspose.Words for Python, enhancing document security and navigation.
 
     ### [Mastering DocSaveOptions&#58; Password & Temp Folder in Aspose.Words](./mastering-docsaveoptions-password-temp-folder-aspose-words-python/)
-A code tutorial for Aspose.Words Python-net
+    A code tutorial for Aspose.Words Python-net
 
     ### [Save Word Documents as PostScript in Python Using Aspose.Words&#58; A Comprehensive Guide](./save-docs-as-postscript-using-aspose-words-python/)
-Learn how to convert Word documents to PostScript format using Aspose.Words for Python. This guide covers setup, conversion, and book fold printing options.
+    Learn how to convert Word documents to PostScript format using Aspose.Words for Python. This guide covers setup, conversion, and book fold printing options.
+
+    ### [Recover Corrupted DOCX – Complete Guide to Enable Recovery Mode & Get Page Count](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
+    Learn how to enable recovery mode to open corrupted DOCX files and retrieve the page count using Aspose.Words for Python-net.
+
+    ### [How to Recover DOCX – Complete Guide to Restoring Corrupted Word Documents](./how-to-recover-docx-complete-guide-to-restoring-corrupted-wo/)
+Learn how to recover and restore corrupted DOCX files using Aspose.Words for Python-net.
 
 ## Additional Resources
 

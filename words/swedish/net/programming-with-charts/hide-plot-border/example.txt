@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Den här handledningen visar hur man skapar ett Word‑dokument, infogar ett stapeldiagram, fyller det med exempeldata, döljer diagrammets plotområde‑ram medan axellinjerna förblir synliga, och slutligen sparar dokumentet.
+//ExStepSummary:0: Skapa ett nytt tomt Word‑dokument och en DocumentBuilder för att redigera det.
+//ExStepSummary:1: Infoga ett 432×252 stapeldiagram i dokumentet och hämta dess Chart‑objekt.
+//ExStepSummary:2: Rensa eventuella befintliga serier, definiera tre kategorietiketter och lägg till en serie med exempelvärden i diagrammet.
+//ExStepSummary:3: Ställ in plotområdets stroke‑tjocklek till noll, vilket tar bort dess ram men låter axellinjerna vara synliga.
+//ExStepSummary:4: Spara det modifierade dokumentet som en .docx‑fil.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+columnChart.Series.Clear();
+string[] labels = { "Group A", "Group B", "Group C" };
+columnChart.Series.Add("Demo Data", labels, new double[] { 10, 20, 30 });
+
+//ExStep:3-
+columnChart.Format.Stroke.Weight = 0;
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutPlotBorder.docx");
+//ExEnd

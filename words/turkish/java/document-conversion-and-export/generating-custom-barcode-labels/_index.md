@@ -15,7 +15,7 @@ weight: 10
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for Java'da Özel Barkod Etiketleri Oluşturma
+# Aspose Barcode Java ile Özel Barkod Etiketleri Oluşturma
 
 ## Aspose.Words for Java'da Özel Barkod Oluşturma Giriş
 
