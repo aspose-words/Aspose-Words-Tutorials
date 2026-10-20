@@ -59,13 +59,13 @@ Aspose.Words предоставляет богатый набор констан
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 Если вы предпочитаете Gradle, используйте следующий фрагмент:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ## Приобретение лицензии
 Чтобы полностью использовать возможности Aspose.Words, вам понадобится файл лицензии:
@@ -77,7 +77,7 @@ implementation 'com.aspose:aspose-words:25.3'
 ```java
 License license = new License();
 license.setLicense("path/to/aspose.words.lic");
-```
+```  
 
 ## Руководство по реализации
 Мы разобьём реализацию на две основные функции: обработка возвратов каретки и вставка управляющих символов.

@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Bu öğreticide, yeni bir Word belgesi oluşturma, DocumentBuilder.InsertChart ile varsayılan bir sütun grafiği ekleme, gömülü Chart nesnesini elde etme ve belgeyi .docx dosyasına kaydetme gösterilmektedir.
+//ExStepSummary:0: Boş bir Word belgesi ve onu düzenlemek için bir DocumentBuilder oluşturun.
+//ExStepSummary:1: Belgeye 432 × 252 nokta boyutunda bir sütun grafiği ekleyin.
+//ExStepSummary:2: Gerekirse daha fazla özelleştirme için eklenen şekilden Chart nesnesini alın.
+//ExStepSummary:3: Şimdi eklenmiş sütun grafiğini içeren belgeyi .docx dosyasına kaydedin.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+Chart embeddedChart = chartContainer.Chart;
+
+//ExStep:3-
+wordDoc.Save("column-demo.docx");
+//ExEnd

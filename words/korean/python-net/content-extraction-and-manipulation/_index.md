@@ -46,6 +46,8 @@ Aspose.Words for Python을 사용하여 Word 문서에서 콘텐츠를 효율적
 Aspose.Words for Python을 사용하여 Word 문서에서 고급 찾기 및 바꾸기 기술을 익혀보세요. 텍스트 바꾸기, 정규식 사용, 서식 지정 등 다양한 기능을 활용할 수 있습니다.
 ### [Word 문서에서 콘텐츠 제거 및 정제](./remove-content-documents/)
 Aspose.Words for Python을 사용하여 Word 문서의 콘텐츠를 효율적으로 제거하고 다듬는 방법을 알아보세요. 소스 코드 예제가 포함된 단계별 가이드입니다.
+### [DOCX에서 이미지 내보내기를 위한 콜백 설정 방법](./how-to-set-callback-for-exporting-images-from-docx/)
+Aspose.Words for Python을 사용하여 DOCX 파일에서 이미지를 내보낼 때 콜백을 설정하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

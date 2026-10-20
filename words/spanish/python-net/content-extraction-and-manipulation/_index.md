@@ -40,12 +40,18 @@ Al finalizar estos tutoriales, adquirirá los conocimientos necesarios para gest
 ## Tutoriales de extracción y manipulación de contenido
 ### [Cómo extraer y modificar contenido en documentos de Word](./extract-modify-document-content/)
 Aprende a extraer y modificar contenido en documentos de Word con Aspose.Words para Python. Guía paso a paso con código fuente.
+
 ### [Extracción eficiente de contenido en documentos de Word](./document-content-extraction/)
 Extrae contenido de documentos de Word de forma eficiente con Aspose.Words para Python. Aprende paso a paso con ejemplos de código.
+
 ### [Técnicas avanzadas de búsqueda y reemplazo en documentos de Word](./find-replace-documents/)
 Aprenda técnicas avanzadas de búsqueda y reemplazo en documentos de Word con Aspose.Words para Python. Reemplace texto, use expresiones regulares, formato y más.
+
 ### [Cómo eliminar y refinar contenido en documentos de Word](./remove-content-documents/)
 Aprenda a eliminar y refinar contenido de forma eficiente en documentos de Word con Aspose.Words para Python. Guía paso a paso con ejemplos de código fuente.
+
+### [Cómo establecer una devolución de llamada para exportar imágenes desde DOCX](./how-to-set-callback-for-exporting-images-from-docx/)
+Aprenda a configurar una devolución de llamada para exportar imágenes de documentos DOCX usando Aspose.Words para Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

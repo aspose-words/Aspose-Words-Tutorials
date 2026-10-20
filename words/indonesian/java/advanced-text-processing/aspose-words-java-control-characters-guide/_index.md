@@ -59,13 +59,13 @@ Tambahkan dependensi Maven ke `pom.xml` Anda (ini adalah **aspose word maven set
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 Jika Anda lebih suka Gradle, gunakan cuplikan berikut:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ## Akuisisi Lisensi
 Untuk memanfaatkan Aspose.Words secara penuh, Anda memerlukan file lisensi:
@@ -77,7 +77,12 @@ Setelah memperoleh lisensi, inisialisasi di aplikasi Java Anda sebagai berikut:
 ```java
 License license = new License();
 license.setLicense("path/to/aspose.words.lic");
-```
+```  
+
+## Cara menyisipkan karakter kontrol dalam Java?
+Kelas `DocumentBuilder` menyediakan metode untuk membangun dan memodifikasi konten dokumen secara programatik.  
+Muat dokumen Anda, buat `DocumentBuilder`, dan panggil metode `write` atau `insert` yang sesuai untuk menambahkan spasi, tab, pemisah baris, atau pemisah halaman. Pola satu baris ini—`builder.write(ControlChar.TAB)`—memenuhi sebagian besar kebutuhan tata letak, dan Anda dapat menautkan beberapa panggilan untuk struktur yang kompleks. Untuk dokumen besar, penyisipan batch mengurangi beban pemrosesan.  
+`ControlChar` adalah enumerasi karakter non‑printable yang digunakan untuk kontrol tata letak.
 
 ## Panduan Penerapan
 Kami akan membagi implementasi menjadi dua fitur utama: penanganan carriage return dan penyisipan karakter kontrol.

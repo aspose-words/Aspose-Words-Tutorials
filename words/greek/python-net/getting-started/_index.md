@@ -30,6 +30,9 @@
     ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 Ένα σεμινάριο κώδικα για το Aspose.Words Python-net
 
+### [Δημιουργία έργου CMake: Διαμόρφωση, Κατασκευή & Δοκιμή](./build-cmake-project-configure-build-test/)
+Μάθετε πώς να ρυθμίσετε, να δημιουργήσετε και να δοκιμάσετε ένα έργο CMake με Aspose.Words για Python-net.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.Words για τεκμηρίωση Python-net](https://docs.aspose.com/words/python-net/)

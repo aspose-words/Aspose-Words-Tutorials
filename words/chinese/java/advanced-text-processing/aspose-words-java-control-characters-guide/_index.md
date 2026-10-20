@@ -58,13 +58,13 @@ Aspose.Words 提供了一套丰富的 `ControlChar` 常量，让您无需处理�
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 如果您更喜欢 Gradle，请使用以下代码片段：
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ## 许可证获取
 要充分利用 Aspose.Words，您需要许可证文件：
@@ -76,7 +76,7 @@ implementation 'com.aspose:aspose-words:25.3'
 ```java
 License license = new License();
 license.setLicense("path/to/aspose.words.lic");
-```
+```  
 
 ## 实现指南
 我们将实现分为两个主要功能：处理回车符和插入控制字符。

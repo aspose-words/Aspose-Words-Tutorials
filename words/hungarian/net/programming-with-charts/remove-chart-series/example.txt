@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Az Aspose.Words for .NET használatával ez a bemutató létrehoz egy Document objektumot, a DocumentBuilder segítségével beszúr egy oszlopdiagramot, a ChartSeriesCollection.RemoveAt metódussal eltávolít egy adott adat sorozatot a diagramról, és elmenti a módosított dokumentumot.
+//ExStepSummary:0: Hozzon létre egy új Word Document-et és egy hozzá kapcsolódó DocumentBuilder-t.
+//ExStepSummary:1: Szúrjon be egy 432×252 pont méretű oszlopdiagramot, és szerezze meg a Chart objektumot a további módosításokhoz.
+//ExStepSummary:2: Adja meg a sorozat nulláról induló indexét, amelyet el kell távolítani (a második sorozat).
+//ExStepSummary:3: Ha az index érvényes, hívja meg a RemoveAt metódust a diagram Series gyűjteményén, hogy törölje azt a sorozatot.
+//ExStepSummary:4: Mentse a frissített dokumentumot egy .docx fájlba.
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+int targetSeriesIdx = 1;
+
+//ExStep:3-
+if (targetSeriesIdx >= 0 && targetSeriesIdx < columnChart.Series.Count)
+{
+    columnChart.Series.RemoveAt(targetSeriesIdx);
+}
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutSeries.docx");
+//ExEnd

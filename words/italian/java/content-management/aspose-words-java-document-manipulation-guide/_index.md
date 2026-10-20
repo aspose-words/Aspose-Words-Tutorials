@@ -99,6 +99,8 @@ Con la libreria pronta, passiamo alle funzionalità principali.
 #### Panoramica
 Creare un `GlossaryDocument` all’interno di un documento principale ti consente di gestire glossari, stili e parti personalizzate in un contenitore pulito e isolato.
 
+#### Come inizializzare un documento glossario?
+Crea un'istanza principale di `Document`, quindi allega un `GlossaryDocument` per gestire le voci del glossario in un unico file coerente. GlossaryDocument rappresenta la parte glossario di un documento Word, memorizzando voci come termini del glossario, note finali e parti personalizzate.
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.GlossaryDocument;
@@ -122,6 +124,8 @@ public class DocumentInitialization {
 #### Panoramica
 Puoi applicare una tinta uniforme a ogni pagina usando `Document.setPageColor`. Questo risponde direttamente alla keyword principale **set page background color**.
 
+#### Come impostare il colore di sfondo della pagina?
+Usa il metodo `setPageColor()` sull'oggetto `Document`, passando un valore `java.awt.Color` che rappresenta la tonalità desiderata.
 ```java
 import com.aspose.words.Document;
 import java.awt.Color;
@@ -148,6 +152,8 @@ public class SetPageBackgroundColor {
 #### Panoramica
 Quando devi combinare contenuti da più fonti, puoi importare un’intera sezione (o qualsiasi nodo) da un documento a un altro. Questo è il fulcro degli scenari **merge document sections** e **import section from document**.
 
+#### Come importare una sezione da un documento sorgente?
+Chiama `importNode()` sul `Document` di destinazione, fornendo il nodo da importare e un `ImportFormatMode` che determina la gestione degli stili.
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.Section;
@@ -182,6 +188,8 @@ public class ImportNode {
 #### Panoramica
 A volte la sorgente e la destinazione usano definizioni di stile diverse. `ImportFormatMode` ti permette di decidere se mantenere gli stili della sorgente o forzare quelli della destinazione.
 
+#### Come applicare una modalità di importazione personalizzata?
+Specifica il `ImportFormatMode` desiderato quando chiami `importNode()`. Questo ti consente di controllare se la formattazione di origine viene mantenuta o sovrascritta. ImportFormatMode è un enum che definisce come la formattazione è gestita durante l'importazione del nodo, ad esempio mantenendo gli stili di origine o usando gli stili di destinazione.
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.Style;
@@ -212,6 +220,8 @@ public class ImportNodeCustom {
 #### Panoramica
 Oltre ai colori solidi, puoi incorporare forme o immagini come sfondo della pagina. Questo esempio aggiunge una forma a stella rossa, ma puoi sostituirla con qualsiasi immagine per **create document background image**.
 
+#### Come inserire una forma di sfondo?
+Crea una `Shape` di tipo `ShapeType.IMAGE`, imposta il suo layout su `WRAP_NONE` e aggiungila all'intestazione o al piè di pagina del documento in modo che appaia dietro tutto il testo. Shape rappresenta un oggetto di disegno come un'immagine, una casella di testo o una figura geometrica che può essere posizionata ovunque in un documento.
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.Shape;
@@ -273,6 +283,6 @@ R: Carica il documento con `new Document("file.doc")`, chiama `setPageColor` e s
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/products-backtop-button >}}
