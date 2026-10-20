@@ -5,7 +5,9 @@
 "url": "/sv/python-net/tables-lists/aspose-words-python-list-detection-guide/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Guide till implementering av listdetektering i text med Aspose.Words för Python
 
 ## Introduktion
@@ -171,3 +173,7 @@ def test_detect_hyperlinks(self):
 2. **Verktyg för innehållsanalys**Extrahera strukturerad data från textfiler för vidare analys eller rapportering.
 3. **Datarensningsuppgifter**Standardisera textformatering genom att hantera blanksteg och identifiera listelement.
 4. **Länkverifiering**Validera länkar inom en grupp textdokument för att säkerställa att de är aktiva och korrekta.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

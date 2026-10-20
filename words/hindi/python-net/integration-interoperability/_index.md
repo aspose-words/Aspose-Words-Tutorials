@@ -4,7 +4,9 @@
 "url": "/hi/python-net/integration-interoperability/"
 "weight": 15
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words Python-net के लिए एकीकरण और अंतरसंचालनीयता ट्यूटोरियल
 
 Python-net के लिए Aspose.Words का उपयोग करके एकीकरण और अंतर-संचालन संचालन के लिए व्यापक चरण-दर-चरण मार्गदर्शिकाएँ देखें। इन ट्यूटोरियल में पूर्ण कोड उदाहरण और विस्तृत व्याख्याएँ शामिल हैं।
@@ -32,6 +34,9 @@ Aspose.Words Python-net के लिए एक कोड ट्यूटोर�
     ### [Master VBA Automation with Aspose.Words for Python&#58; A Complete Guide to Creating, Cloning, and Managing Projects](./master-vba-automation-aspose-words-python/)
 जानें कि पायथन का उपयोग करके Microsoft Word VBA प्रोजेक्ट को कैसे स्वचालित किया जाए। यह गाइड Aspose.Words के साथ VBA प्रोजेक्ट में संदर्भ बनाने, क्लोन करने, सुरक्षा स्थिति की जाँच करने और प्रबंधित करने के बारे में बताती है।
 
+    ### [cmake बिल्ड x64 – VS 2022 प्रोजेक्ट्स को जनरेट और बिल्ड करने की पूरी गाइड](./cmake-build-x64-complete-guide-to-generating-and-building-vs/)
+    cmake का उपयोग करके x64 के लिए VS 2022 प्रोजेक्ट्स को कैसे जनरेट और बिल्ड करें, इस पूर्ण गाइड में सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [पायथन-नेट दस्तावेज़ीकरण के लिए Aspose.Words](https://docs.aspose.com/words/python-net/)
@@ -40,3 +45,7 @@ Aspose.Words Python-net के लिए एक कोड ट्यूटोर�
 - [Aspose.Words फ़ोरम](https://forum.aspose.com/c/words/8)
 - [निःशुल्क सहायता](https://forum.aspose.com/)
 - [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

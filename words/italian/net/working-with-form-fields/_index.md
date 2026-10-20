@@ -19,7 +19,7 @@ Aspose.Words per .NET supporta vari tipi di campi modulo, consentendo di progett
 
 
 {{< tutorial-card link="./insert-form-fields/" title="Inserisci campo modulo casella combinata nel documento Word" imgSrc="./insert-form-fields/images/thumb.png" >}}
-
+{{< tutorial-card link="./create-word-document-programmatically-step-by-step-guide/" title="Crea documento Word programmaticamente – guida passo‑a‑passo" imgSrc="./create-word-document-programmatically-step-by-step-guide/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

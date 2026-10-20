@@ -5,7 +5,9 @@
 "url": "/id/python-net/formatting-styles/aspose-words-python-hyphenation-dictionary/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Menguasai Aspose.Words untuk Python: Mendaftarkan dan Membatalkan Pendaftaran Kamus Pemenggalan Kata
 
 ## Perkenalan
@@ -173,3 +175,7 @@ Untuk jawaban yang lebih sesuai, periksa [Forum Aspose](https://forum.aspose.com
 - **Pembelian:** [Beli Lisensi Aspose.Words](https://purchase.aspose.com/buy)
 - **Uji Coba Gratis:** [Mulailah dengan Uji Coba Gratis](https://releases.aspose.com/words/python/)
 - **Lisensi Sementara:** [Minta Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

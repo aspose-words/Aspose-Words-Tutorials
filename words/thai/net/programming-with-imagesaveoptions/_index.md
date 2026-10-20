@@ -25,9 +25,20 @@
 - [เปิดเผยการควบคุมเกณฑ์สำหรับการแปลงเป็นไบนารีแบบ Tiff](./expose-threshold-control-for-tiff-binarization/) | เรียนรู้วิธีเปิดเผยการควบคุมขีดจำกัดสำหรับการแปลงไฟล์ TIFF เป็นไบนารีในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้
 - [รับช่วงหน้า TIFF](./get-tiff-page-range/) | เรียนรู้วิธีการแปลงช่วงหน้าเฉพาะจากเอกสาร Word เป็นไฟล์ TIFF โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้
 - [รูปแบบ 1Bpp ดัชนี](./format-1bpp-indexed/) | เรียนรู้วิธีการแปลงเอกสาร Word เป็นรูปภาพที่มีดัชนี 1Bpp โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการแปลงที่ง่ายดาย -
-| [รับช่วงหน้า Jpeg](./get-jpeg-page-range/) | แปลงหน้าเฉพาะของเอกสาร Word เป็น JPEG ด้วยการตั้งค่าแบบกำหนดเองโดยใช้ Aspose.Words สำหรับ .NET เรียนรู้วิธีการปรับความสว่าง ความคมชัด และความละเอียดทีละขั้นตอน -
+| [รับช่วงหน้า Jpeg](./get-jpeg-page-range/) | แปลงหน้าเฉพาะของเอกสาร Word เป็น JPEG ด้วยการตั้งค่าแบบกำหนดเองโดยใช้ Asp Aspose.Words สำหรับ .NET เรียนรู้วิธีการปรับความสว่าง ความคมชัด และความละเอียดทีละขั้นตอน -
 | [การบันทึกหน้าการโทรกลับ](./page-saving-callback/) | เรียนรู้การบันทึกแต่ละหน้าของเอกสาร Word เป็นรูปภาพ PNG แยกกันโดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนโดยละเอียดของเรา
-
+- [วิธีตั้งค่า DPI เมื่อแปลง Word เป็น PNG – คู่มือ C# ฉบับสมบูรณ์](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | เรียนรู้วิธีตั้งค่า DPI ในการแปลงไฟล์ Word เป็น PNG ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน
+- [สร้างกริด PNG จากเอกสาร Word – คู่มือทีละขั้นตอน](./create-png-grid-from-word-document-step-by-step-guide/) | เรียนรู้วิธีสร้างกริดรูปภาพ PNG จากเอกสาร Word ด้วยขั้นตอนละเอียดใน Aspose.Words สำหรับ .NET
+- [บันทึก Word เป็นภาพด้วย C# – คู่มือทีละขั้นตอน](./save-word-as-images-with-c-step-by-step-guide/) | เรียนรู้วิธีบันทึกเอกสาร Word เป็นไฟล์ภาพหลายรูปแบบด้วย C# โดยใช้ Aspose.Words สำหรับ .NET อย่างละเอียด
+- [แปลง Word เป็น PNG – รวมหน้าต่อเป็นแถบแนวตั้ง](./convert-word-to-png-merge-pages-into-a-vertical-strip/) | เรียนรู้วิธีแปลงเอกสาร Word เป็น PNG พร้อมรวมหลายหน้าต่อเป็นแถบแนวตั้งเดียวในขั้นตอนเดียว
+- [แปลง Word เป็น PNG – คู่มือ C# ฉบับสมบูรณ์](./convert-word-to-png-complete-c-guide/) | เรียนรู้วิธีแปลงเอกสาร Word เป็นไฟล์ PNG อย่างละเอียดด้วย C# และ Aspose.Words สำหรับ .NET
+- [วิธีตั้งค่า DPI เมื่อแปลง Word เป็น PNG – คู่มือการส่งออกความละเอียดสูง](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) | เรียนรู้วิธีตั้งค่า DPI เพื่อส่งออกไฟล์ PNG จาก Word ด้วยความละเอียดสูงโดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน
+- [สร้างกริด PNG จากเอกสาร Word – คู่มือฉบับสมบูรณ์](./create-png-grid-from-word-document-complete-guide/) | เรียนรู้วิธีสร้างกริด PNG จากเอกสาร Word อย่างละเอียดด้วย Aspose.Words สำหรับ .NET ในคู่มือขั้นตอนที่ครบถ้วน
+- [วิธีตั้งค่าความละเอียดเมื่อแปลง Word เป็น PNG – คู่มือฉบับสมบูรณ์](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | เรียนรู้วิธีตั้งค่าความละเอียดเมื่อแปลงไฟล์ Word เป็น PNG ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน
+- [ส่งออก Word เป็น PNG – แปลง DOCX เป็นภาพเดียว](./export-word-as-png-convert-docx-to-one-image/) | เรียนรู้วิธีแปลงไฟล์ DOCX เป็นภาพ PNG เดียวโดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน
+- [แปลง docx เป็น png – คู่มือขั้นตอนเต็ม](./convert-docx-to-png-complete-step-by-step-guide/) | เรียนรู้วิธีแปลงไฟล์ docx เป็น PNG อย่างละเอียดด้วย Aspose.Words สำหรับ .NET
+- [แปลง DOCX เป็น PNG – คู่มือ C# ฉบับสมบูรณ์](./convert-docx-to-png-complete-c-guide/) | เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PNG ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน
+- [วิธีตั้งค่า DPI – ส่งออก Word เป็น PNG Grid ใน C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | เรียนรู้วิธีตั้งค่า DPI เมื่อส่งออกไฟล์ Word เป็น PNG Grid ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

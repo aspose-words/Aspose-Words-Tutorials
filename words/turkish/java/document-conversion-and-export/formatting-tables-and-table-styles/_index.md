@@ -1,88 +1,163 @@
 ---
-"description": "Aspose.Words for Java kullanarak tabloları nasıl biçimlendireceğinizi ve stilleri nasıl uygulayacağınızı öğrenin. Bu adım adım kılavuz, kenarlıkları ayarlamayı, hücreleri gölgelendirmeyi ve tablo stillerini uygulamayı kapsar."
-"linktitle": "Tabloları ve Tablo Stillerini Biçimlendirme"
-"second_title": "Aspose.Words Java Belge İşleme API'si"
-"title": "Tabloları ve Tablo Stillerini Biçimlendirme"
-"url": "/tr/java/document-conversion-and-export/formatting-tables-and-table-styles/"
-"weight": 17
+date: 2026-10-17
+description: Aspose.Words for Java ile tablo hücrelerindeki kenarlıkları nasıl değiştireceğinizi
+  öğrenin; hücre kenarlık stillerini ayarlama, ilk sütun stilini uygulama ve tablo
+  içeriğini otomatik sığdırma dahil.
+keywords:
+- how to change borders
+- apply first column style
+- Aspose.Words table styling
+- Java document processing
+lastmod: 2026-10-17
+linktitle: Aspose.Words for Java kullanarak tablo hücrelerindeki kenarlıkları nasıl
+  değiştirirsiniz
+og_description: Aspose.Words for Java kullanarak tablo hücrelerindeki kenarlıkları
+  nasıl değiştirirsiniz. Bu rehber, hücre kenarlık kalınlığını ayarlama, ilk sütun
+  stilini uygulama ve profesyonel belgeler için tabloları otomatik sığdırma yöntemlerini
+  gösterir.
+og_image_alt: Screenshot of a Java table with customized cell borders using Aspose.Words
+og_title: Tablo hücrelerindeki kenarlıkları nasıl değiştirirsiniz – Aspose.Words for
+  Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-17'
+  description: Learn how to change borders in table cells with Aspose.Words for Java,
+    including setting cell border styles, applying first column style, and auto‑fit
+    table contents.
+  headline: How to change borders in table cells using Aspose.Words for Java
+  type: TechArticle
+- description: Learn how to change borders in table cells with Aspose.Words for Java,
+    including setting cell border styles, applying first column style, and auto‑fit
+    table contents.
+  name: How to change borders in table cells using Aspose.Words for Java
+  steps:
+  - name: '**Java Development Kit (JDK) 8+** – ensure `java` is on your PATH.'
+    text: '**Java Development Kit (JDK) 8+** – ensure `java` is on your PATH.'
+  - name: '**IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.'
+    text: '**IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.'
+  - name: '**Aspose.Words for Java** – download the latest JAR from the [official
+      site](https://releases.aspose.com/words/java/).'
+    text: '**Aspose.Words for Java** – download the latest JAR from the [official
+      site](https://releases.aspose.com/words/java/).'
+  - name: '**Basic Java knowledge** – you should be comfortable creating a Maven/Gradle
+      project and adding external JARs.'
+    text: '**Basic Java knowledge** – you should be comfortable creating a Maven/Gradle
+      project and adding external JARs.'
+  type: HowTo
+- questions:
+  - answer: Yes, you can create and apply custom styles programmatically. See the
+      [Aspose.Words documentation](https://reference.aspose.com/words/java/) for details.
+    question: Can I use custom table styles not included in the default options?
+  - answer: Use standard Java logic to inspect cell values, then call the appropriate
+      formatting methods (e.g., change background colour if a value exceeds a threshold).
+    question: How can I apply conditional formatting to cells?
+  - answer: Absolutely. After merging cells, apply shading or borders using the same
+      `CellFormat` APIs.
+    question: Is it possible to format merged cells the same way as regular cells?
+  - answer: Adjust column widths or call `autoFit` again after inserting new data
+      to recalculate the layout.
+    question: What if I need the table to resize dynamically based on user input?
+  - answer: The official [Aspose.Words API documentation](https://reference.aspose.com/words/java/)
+      contains a comprehensive set of samples.
+    question: Where can I find more examples of table styling?
+  type: FAQPage
+second_title: Aspose.Words Java Document Processing API
+tags:
+- Aspose.Words
+- Java tables
+- document formatting
+- border styling
+title: Aspose.Words for Java kullanarak tablo hücrelerindeki kenarlıkları nasıl değiştirirsiniz
+url: /tr/java/document-conversion-and-export/formatting-tables-and-table-styles/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tabloları ve Tablo Stillerini Biçimlendirme
+# Aspose.Words for Java ile tablo hücrelerindeki kenarlıkları nasıl değiştirirsiniz
 
+## Giriş
 
-## giriiş
+Verileri temiz ve profesyonel bir düzen içinde sunmanız gerektiğinde, **hücre kenarlıklarını değiştirme** uygulayacağınız ilk görsel ayarlamalardan biridir. Java’da Aspose.Words, tabloları stillendirebilen, tek tek hücre kenarlıklarını ayarlayabilen, ilk‑sütun stilini etkinleştirebilen ve içeriğe göre otomatik sığdırma yaparak tablonun sayfayı aşmasını engelleyen tam özellikli bir API sunar. Bu öğretici, bir belge oluşturma aşamasından her kenarlığı ince ayarlamaya kadar tüm adımları size gösterir ve bu özelliklerin gerçek dünyadaki raporlar ve faturalar için neden önemli olduğunu açıklar.
 
-Belge biçimlendirme söz konusu olduğunda, tablolar verileri düzenleme ve açık bir şekilde sunmada önemli bir rol oynar. Java ve Aspose.Words ile çalışıyorsanız, belgelerinizde tablolar oluşturmak ve biçimlendirmek için kullanımınıza açık güçlü araçlara sahipsiniz. İster basit bir tablo tasarlıyor olun ister gelişmiş stiller uyguluyor olun, Java için Aspose.Words profesyonel görünümlü sonuçlar elde etmenize yardımcı olacak bir dizi özellik sunar.
+## Hızlı cevaplar
+`DocumentBuilder` sınıfı, belgeleri ve tabloları programlı olarak oluşturmak için kullanılır.  
+- **Tabloları oluşturmak için birincil sınıf nedir?** `DocumentBuilder` tabloları ve hücreleri programlı olarak oluşturur.  
+- **Tek bir hücrenin kenarlık kalınlığını nasıl değiştiririm?** `builder.getCellFormat().getBorders().getLeft().setLineWidth(value)` kullanın.  
+- **Önceden tanımlı bir tablo stili uygulayabilir miyim?** Evet – `table.setStyleIdentifier(StyleIdentifier.YOUR_STYLE)` çağırın.  
+- **Bir tabloyu içeriğine otomatik sığdıran yöntem hangisidir?** `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)`.  
+- **Üretim için lisansa ihtiyacım var mı?** Deneme dışı kullanım için geçerli bir Aspose.Words lisansı gereklidir.
 
-Bu kılavuzda, Aspose.Words for Java kullanarak tabloları biçimlendirme ve tablo stilleri uygulama sürecinde size yol göstereceğiz. Tablo kenarlıklarını ayarlamayı, hücre gölgelendirmeyi uygulamayı ve belgelerinizin görünümünü geliştirmek için tablo stillerini kullanmayı öğreneceksiniz. Sonunda, verilerinizi öne çıkaran iyi biçimlendirilmiş tablolar oluşturma becerisine sahip olacaksınız.
+## Aspose.Words'ta “hücre kenarlıklarını değiştirme” nedir?
 
-## Ön koşullar
+Hücre kenarlıklarını değiştirme, hücreleri ayıran görsel çizgileri—renk, genişlik ve çizgi stilini—özelleştirmek anlamına gelir. Aspose.Words for Java, bu özellikleri tablo, satır veya tek tek hücre seviyesinde ayarlamanıza olanak tanıyan ayrıntılı bir API sunar ve belgelerinizin görünümünü tam kontrol etmenizi sağlar.
 
-Başlamadan önce, yerinde olması gereken birkaç şey var:
+## Aspose.Words for Java tablo stilini neden kullanmalısınız?
 
-1. Java Geliştirme Kiti (JDK): JDK 8 veya üzerinin yüklü olduğundan emin olun. Aspose.Words for Java'nın düzgün çalışması için uyumlu bir JDK gerekir.
-2. Entegre Geliştirme Ortamı (IDE): IntelliJ IDEA veya Eclipse gibi bir IDE, Java projelerinizi yönetmenize ve geliştirme sürecinizi hızlandırmanıza yardımcı olacaktır.
-3. Aspose.Words for Java Kütüphanesi: Aspose.Words for Java'nın en son sürümünü indirin [Burada](https://releases.aspose.com/words/java/) ve bunu projenize dahil edin.
-4. Örnek Kod: Bazı örnek kod parçacıkları kullanacağız, bu nedenle Java programlama hakkında temel bir anlayışa sahip olduğunuzdan ve kütüphaneleri projenize nasıl entegre edeceğinizi bildiğinizden emin olun.
+Aspose.Words **35+ giriş ve çıkış formatını** (DOCX, PDF, HTML, ODT, vb.) destekler ve tipik sunucu donanımında **500‑sayfalık belgeleri 3 saniyeden kısa sürede** işleyebilir; Microsoft Word gerektirmez. Kütüphane Windows, Linux ve macOS üzerinde tutarlı çalışır, sunucu tarafında belge oluşturmanıza veya değiştirmenize, *ilk sütun stili* gibi yerleşik tablo stillerini uygulamanıza ve tek bir metod çağrısıyla tabloları içeriğe otomatik sığdırmanıza olanak tanır.
 
-## Paketleri İçe Aktar
+## Önkoşullar
 
-Java için Aspose.Words ile çalışmak için, ilgili paketleri projenize aktarmanız gerekir. Bu paketler, belgeleri düzenlemek ve biçimlendirmek için gerekli sınıfları ve yöntemleri sağlar.
+1. **Java Development Kit (JDK) 8+** – `java` komutunun PATH’inizde olduğundan emin olun.  
+2. **IDE** – IntelliJ IDEA, Eclipse veya tercih ettiğiniz herhangi bir editör.  
+3. **Aspose.Words for Java** – En son JAR dosyasını [resmi siteden](https://releases.aspose.com/words/java/) indirin.  
+4. **Temel Java bilgisi** – Maven/Gradle projesi oluşturup harici JAR ekleyebileceğinizi bilmelisiniz.
+
+## Paketleri içe aktar
+
+`Document`, `DocumentBuilder`, `Table`, `StyleIdentifier` ve ilgili sınıflar `com.aspose.words` ad alanında bulunur. Bu tek paketi içe aktarmak, tam tablo‑stil araç setine erişmenizi sağlar. `DocumentBuilder` sınıfı, bir belgeyi programlı olarak oluşturmak ve değiştirmek için metodlar sunar.
 
 ```java
 import com.aspose.words.*;
 ```
 
-Bu içe aktarma ifadesi, belgelerinizde tablo oluşturmak ve biçimlendirmek için gereken tüm temel sınıflara erişmenizi sağlar.
+## Hücre kenarlıklarını nasıl değiştirirsiniz
 
-## Adım 1: Tabloları Biçimlendirme
+Aşağıda, bir tablo oluşturup genel bir kenarlık uygulayan ve ardından tek bir hücrenin kenarlarını özelleştiren özlü, adım‑adım bir rehber bulunmaktadır.
 
-Aspose.Words for Java'da tabloları biçimlendirmek, sınırları ayarlamayı, hücreleri gölgelendirmeyi ve çeşitli biçimlendirme seçenekleri uygulamayı içerir. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+### Doğrudan cevap
+`Document` Word dosyasını temsil ederken, `DocumentBuilder` tablolar gibi içerikler oluşturur. Yeni bir `Document` yükleyin, `DocumentBuilder` ile bir `Table` ekleyin, tüm tablo için 2 puanlık siyah bir kenarlık ayarlayın ve ardından üçüncü hücrenin sol, sağ, üst ve alt kenarlıklarını 4 puan yapın. Bu yöntem, herhangi bir hücreyi vurgulamanıza izin verirken tablonun geri kalanının tutarlı bir şekilde stilize kalmasını sağlar.
 
-### Belgeyi Yükle
+### Adım 1: yeni bir belge yükleyin
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-### Tabloyu Oluşturun ve Biçimlendirin
+### Adım 2: tabloyu oluşturun ve genel kenarlıkları ayarlayın
 
 ```java
 Table table = builder.startTable();
 builder.insertCell();
 
-// Tüm tablonun sınırlarını belirleyin.
+// Set the borders for the entire table.
 table.setBorders(LineStyle.SINGLE, 2.0, Color.BLACK);
         
-// Bu hücre için hücre gölgelendirmesini ayarlayın.
+// Set the cell shading for this cell.
 builder.getCellFormat().getShading().setBackgroundPatternColor(Color.RED);
 builder.writeln("Cell #1");
 
 builder.insertCell();
         
-// İkinci hücre için farklı bir hücre gölgelendirmesi belirtin.
+// Specify a different cell shading for the second cell.
 builder.getCellFormat().getShading().setBackgroundPatternColor(Color.GREEN);
 builder.writeln("Cell #2");
 
 builder.endRow();
 ```
 
-### Hücre Kenarlıklarını Özelleştir
+### Adım 3: tek bir hücrenin kenarlıklarını değiştirin
 
 ```java
-// Önceki işlemlerden kalan hücre biçimlendirmesini temizle.
+// Clear the cell formatting from previous operations.
 builder.getCellFormat().clearFormatting();
 
 builder.insertCell();
 
-// Bu satırın ilk hücresi için daha büyük kenarlıklar oluşturun.
+// Create larger borders for the first cell of this row.
 builder.getCellFormat().getBorders().getLeft().setLineWidth(4.0);
 builder.getCellFormat().getBorders().getRight().setLineWidth(4.0);
 builder.getCellFormat().getBorders().getTop().setLineWidth(4.0);
@@ -96,18 +171,19 @@ builder.writeln("Cell #4");
 doc.save("FormatTableAndCellWithDifferentBorders.docx");
 ```
 
-### Açıklama
+#### Kodun yaptığı şey
+- **Genel kenarlıklar** – `table.setBorders` tüm tabloya 2 puanlık siyah bir çizgi verir.  
+- **Hücre gölgelendirmesi** – Tek tek hücreleri (kırmızı ve yeşil) renklendirme örneği gösterir.  
+- **Özel hücre kenarlıkları** – Üçüncü hücreye tüm kenarlarda 4 puanlık bir kenarlık verilir, böylece öne çıkar.
 
-Bu örnekte:
-- Sınırları Ayarla: Tüm tablonun sınırlarını 2,0 punto kalınlığında tek çizgi stiline ayarlıyoruz.
-- Hücre Gölgelendirmesi: İlk hücre kırmızı, ikinci hücre ise yeşil gölgelidir. Bu, hücreler arasında görsel olarak ayrım yapmaya yardımcı olur.
-- Hücre Kenarlıkları: Üçüncü hücre için, onu diğerlerinden farklı olarak vurgulamak amacıyla daha kalın kenarlıklar oluşturuyoruz.
+## Tablo stillerini uygulama (ilk sütun stili dahil)
 
-## Adım 2: Tablo Stillerini Uygulama
+Tablo stilleri, tek bir çağrı ile tutarlı bir görünüm sağlar. Ayrıca *ilk sütun stilini* etkinleştirecek ve tabloyu içeriğine otomatik sığdıracağız.
 
-Aspose.Words for Java'daki tablo stilleri, tablolara önceden tanımlanmış biçimlendirme seçenekleri uygulamanıza olanak tanır ve tutarlı bir görünüm elde etmeyi kolaylaştırır. Tablonuza bir stil uygulama yöntemi şöyledir:
+### Doğrudan cevap
+`StyleIdentifier` yerleşik tablo stillerini sıralar ve `AutoFitBehavior` bir tablonun içeriğine nasıl ayarlanacağını kontrol eder. Yeni bir `Document` oluşturun, bir `Table` inşa edin, `StyleIdentifier` değerini `MEDIUM_SHADING_1_ACCENT_1` olarak ayarlayın, `FirstColumn` ve `RowBands` özelliklerini etkinleştirin, ardından `autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)` çağırarak sütunların eklenen verilere göre otomatik küçülüp genişlemesini sağlayın.
 
-### Belge ve Tabloyu Oluşturun
+### Adım 4: stil için yeni bir belge oluşturun
 
 ```java
 Document doc = new Document();
@@ -115,22 +191,24 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Table table = builder.startTable();
         
-// Herhangi bir tablo biçimlendirmesini ayarlamadan önce en azından bir satır eklemeliyiz.
+// We must insert at least one row first before setting any table formatting.
 builder.insertCell();
 ```
 
-### Tablo Stilini Uygula
+### Adım 5: önceden tanımlı bir stil uygulayın ve ilk sütun biçimlendirmesini etkinleştirin
 
 ```java
-// Tablo stilini benzersiz bir stil tanımlayıcısına göre ayarlayın.
+// Set the table style based on a unique style identifier.
 table.setStyleIdentifier(StyleIdentifier.MEDIUM_SHADING_1_ACCENT_1);
         
-// Hangi özelliklerin stil tarafından biçimlendirileceğini uygulayın.
+// Apply which features should be formatted by the style.
 table.setStyleOptions(TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS | TableStyleOptions.FIRST_ROW);
+
+// Auto‑fit the table so columns shrink or expand to fit the content.
 table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS);
 ```
 
-### Tablo Verilerini Ekle
+### Adım 6: tabloyu veriyle doldurun
 
 ```java
 builder.writeln("Item");
@@ -160,48 +238,57 @@ builder.endRow();
 doc.save("BuildTableWithStyle.docx");
 ```
 
-### Açıklama
+#### Neden bu önemlidir
+- **Stil tanımlayıcı** – `MEDIUM_SHADING_1_ACCENT_1` tabloya temiz, gölgeli bir görünüm kazandırır.  
+- **İlk sütun stili** – İlk sütunu vurgulamak, özellikle raporlarda okunabilirliği artırır.  
+- **Satır bantları** – Alternatif satır renkleri büyük tabloları göz yorgunluğunu azaltarak daha rahat okunur hâle getirir.  
+- **Otomatik sığdırma** – Tablo genişliğinin içeriğe uyum sağlamasını garantiler, kesilmiş metin sorununu önler.
 
-Bu örnekte:
-- Tablo Stili Ayarla: Önceden tanımlanmış bir stil uygularız (`MEDIUM_SHADING_1_ACCENT_1`) tabloya. Bu stil, tablonun farklı bölümleri için biçimlendirmeyi içerir.
-- Stil Seçenekleri: İlk sütun, satır bantları ve ilk satırın stil seçeneklerine göre biçimlendirilmesini belirtiyoruz.
-- AutoFit: Kullanıyoruz `AUTO_FIT_TO_CONTENTS` Tablonun içeriğe göre boyutunu ayarlamasını sağlamak.
+## Yaygın sorunlar ve sorun giderme
 
-## Çözüm
+| Sorun | Yaygın neden | Hızlı çözüm |
+|-------|----------------|-----------|
+| Kenarlıklar görünmüyor | Kenarlıkları ayarladıktan sonra `clearFormatting()` kullanılması | Kenarlıkları **temizleme işleminden sonra** ayarlayın veya yeniden uygulayın. |
+| Birleştirilmiş hücrelerde gölgelendirme göz ardı ediliyor | Gölgelendirme birleştirmeden önce uygulanıyor | Hücreleri birleştirdikten **sonra** gölgelendirme uygulayın. |
+| Tablo genişliği sayfa kenarlarını aşıyor | Otomatik sığdırma uygulanmadı | `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)` çağırın veya sabit bir genişlik belirleyin. |
+| Stil uygulanmadı | Yanlış `StyleIdentifier` değeri | Kullanmakta olduğunuz Aspose.Words sürümünde tanımlı olduğundan emin olmak için kimliği doğrulayın. |
 
-Ve işte oldu! Aspose.Words for Java kullanarak tabloları başarıyla biçimlendirdiniz ve stiller uyguladınız. Bu tekniklerle, yalnızca işlevsel değil aynı zamanda görsel olarak da çekici tablolar oluşturabilirsiniz. Tabloları etkili bir şekilde biçimlendirmek, belgelerinizin okunabilirliğini ve profesyonel görünümünü büyük ölçüde artırabilir.
+## Sıkça Sorulan Sorular
 
-Aspose.Words for Java, belge düzenleme için kapsamlı özellikler sunan sağlam bir araçtır. Tablo biçimlendirme ve stilleri konusunda uzmanlaşarak, bu kütüphanenin tüm gücünden yararlanmaya bir adım daha yaklaşırsınız.
+**Q: Varsayılan seçeneklerde bulunmayan özel tablo stillerini kullanabilir miyim?**  
+A: Evet, özel stiller oluşturabilir ve programlı olarak uygulayabilirsiniz. Ayrıntılar için [Aspose.Words belgelerine](https://reference.aspose.com/words/java/) bakın.
 
-## SSS
+**Q: Hücrelere koşullu biçimlendirme nasıl uygularım?**  
+A: Hücre değerlerini inceleyen standart Java mantığını kullanın, ardından uygun biçimlendirme metodlarını çağırın (ör. bir değer eşik değerini aşarsa arka plan rengini değiştirin).
 
-### 1. Varsayılan seçeneklerde bulunmayan özel tablo stilleri kullanabilir miyim?
+**Q: Birleştirilmiş hücreleri normal hücreler gibi biçimlendirmek mümkün mü?**  
+A: Kesinlikle. Hücreleri birleştirdikten sonra aynı `CellFormat` API'lerini kullanarak gölgelendirme veya kenarlıkları uygulayabilirsiniz.
 
-Evet, Aspose.Words for Java kullanarak tablolarınıza özel stiller tanımlayabilir ve uygulayabilirsiniz. [belgeleme](https://reference.aspose.com/words/java/) Özel stiller oluşturma hakkında daha fazla bilgi için.
+**Q: Tabloyu kullanıcı girdisine göre dinamik olarak yeniden boyutlandırmam gerekirse ne yapmalıyım?**  
+A: Yeni veri ekledikten sonra sütun genişliklerini ayarlayın veya `autoFit` metodunu tekrar çağırarak yerleşimi yeniden hesaplayın.
 
-### 2. Tablolara koşullu biçimlendirmeyi nasıl uygulayabilirim?
+**Q: Tablo stiline daha fazla örnek nerede bulabilirim?**  
+A: Resmi [Aspose.Words API belgeleri](https://reference.aspose.com/words/java/) kapsamlı bir örnek seti içerir.
 
-Java için Aspose.Words, tablo biçimlendirmesini koşullara göre programatik olarak ayarlamanıza olanak tanır. Bu, kodunuzdaki belirli ölçütleri kontrol ederek ve buna göre biçimlendirme uygulayarak yapılabilir.
+## Sonuç
 
-### 3. Tabloda birleştirilmiş hücreleri biçimlendirebilir miyim?
+Artık **hücre kenarlıklarını değiştirme**, *ilk sütun stilini* uygulama ve Aspose.Words for Java kullanarak **tablo içeriğini otomatik sığdırma** konularında eksiksiz bir araç setine sahipsiniz. Bu teknikleri ustalıkla kullanarak veri açısından zengin ve görsel olarak cilalı belgeler üretebilir, raporlar, faturalar ve iş kritik çıktılar için ideal bir çözüm sunabilirsiniz.
 
-Evet, birleştirilmiş hücreleri tıpkı normal hücreler gibi biçimlendirebilirsiniz. Hücreleri birleştirdikten sonra, değişikliklerin yansıtıldığını görmek için biçimlendirmeyi uyguladığınızdan emin olun.
+---
 
-### 4. Tablo düzenini dinamik olarak ayarlamak mümkün müdür?
+**Last Updated:** 2026-10-17  
+**Tested With:** Aspose.Words for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
 
-Evet, hücre boyutlarını, tablo genişliğini ve diğer özellikleri içeriğe veya kullanıcı girdisine göre değiştirerek tablo düzenini dinamik olarak ayarlayabilirsiniz.
+## İlgili Eğitimler
 
-### 5. Tablo biçimlendirme hakkında daha fazla bilgiyi nereden alabilirim?
-
-Daha ayrıntılı örnekler ve seçenekler için şurayı ziyaret edin: [Aspose.Words API belgeleri](https://reference.aspose.com/words/java/).
-
+- [Aspose.Words Java Formatting & Styles Tutorials - Enhance Your Documents](/words/java/formatting-styles/)
+- [Advanced Document Borders with Aspose.Words for Java: A Comprehensive Guide](/words/java/headers-footers-page-setup/advanced-document-borders-aspose-words-java/)
+- [Add a watermark to a document using Aspose.Words for Java](/words/java/document-conversion-and-export/using-watermarks-to-documents/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

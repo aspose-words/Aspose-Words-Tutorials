@@ -4,7 +4,9 @@
 "url": "/id/python-net/getting-started/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Tutorial Memulai Aspose.Words Python-net
 
 Jelajahi panduan langkah demi langkah yang komprehensif untuk memulai operasi menggunakan Aspose.Words untuk Python-net. Tutorial ini mencakup contoh kode lengkap dan penjelasan terperinci.
@@ -26,7 +28,10 @@ Selami dunia otomatisasi dokumen dengan kategori 'Memulai' yang kami kurasi untu
 Pelajari cara menerapkan lisensi terukur dengan Aspose.Words untuk Python untuk melacak dan mengelola penggunaan dokumen secara efisien dalam aplikasi Anda.
 
     ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
-Tutorial kode untuk Aspose.Words Python-net
+    Tutorial kode untuk Aspose.Words Python-net
+
+    ### [Bangun Proyek CMake: Konfigurasi, Build & Uji](./build-cmake-project-configure-build-test/)
+    Panduan langkah demi langkah untuk mengkonfigurasi, membangun, dan menguji proyek CMake menggunakan Aspose.Words untuk Python-net.
 
 ## Sumber Daya Tambahan
 
@@ -36,3 +41,7 @@ Tutorial kode untuk Aspose.Words Python-net
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Dukungan Gratis](https://forum.aspose.com/)
 - [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

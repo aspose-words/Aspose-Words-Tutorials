@@ -4,7 +4,9 @@
 "url": "/de/python-net/getting-started/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Erste Schritte-Tutorials für Aspose.Words Python-net
 
 Entdecken Sie umfassende Schritt-für-Schritt-Anleitungen für den Einstieg in Aspose.Words für Python-net. Diese Tutorials enthalten vollständige Codebeispiele und detaillierte Erklärungen.
@@ -28,6 +30,9 @@ Erfahren Sie, wie Sie mit Aspose.Words für Python eine getaktete Lizenzierung i
     ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 Ein Code-Tutorial für Aspose.Words Python-net
 
+    ### [CMake-Projekt erstellen: Konfigurieren, Bauen & Testen](./build-cmake-project-configure-build-test/)
+Erfahren Sie, wie Sie ein CMake-Projekt einrichten, bauen und testen.
+
 ## Weitere Ressourcen
 
 - [Aspose.Words für die Python-Net-Dokumentation](https://docs.aspose.com/words/python-net/)
@@ -36,3 +41,7 @@ Ein Code-Tutorial für Aspose.Words Python-net
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Kostenloser Support](https://forum.aspose.com/)
 - [Temporäre Lizenz](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

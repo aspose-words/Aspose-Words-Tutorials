@@ -5,7 +5,9 @@
 "url": "/ja/python-net/tables-lists/aspose-words-python-list-detection-guide/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words for Python を使用してテキスト内のリスト検出を実装するためのガイド
 
 ## 導入
@@ -171,3 +173,7 @@ def test_detect_hyperlinks(self):
 2. **コンテンツ分析ツール**テキスト ファイルから構造化データを抽出し、さらに分析したりレポートを作成したりします。
 3. **データクリーンアップタスク**空白を管理し、リスト要素を識別することでテキストの書式設定を標準化します。
 4. **リンク検証**テキスト ドキュメントのバッチ内のリンクを検証し、リンクがアクティブで正しいことを確認します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

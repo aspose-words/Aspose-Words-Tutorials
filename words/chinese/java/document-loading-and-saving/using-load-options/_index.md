@@ -1,10 +1,12 @@
 ---
-"description": "掌握 Aspose.Words for Java 中的加载选项。自定义文档加载、处理加密、转换形状、设置 Word 版本等，以实现高效的 Java 文档处理。"
-"linktitle": "使用加载选项"
-"second_title": "Aspose.Words Java文档处理API"
-"title": "在 Aspose.Words for Java 中使用加载选项"
-"url": "/zh/java/document-loading-and-saving/using-load-options/"
-"weight": 11
+date: 2025-12-27
+description: 了解如何在 Aspose.Words for Java 中设置 LoadOptions，包括如何指定临时文件夹、设置 Word 版本、将元文件转换为
+  PNG，以及将形状转换为数学公式，以实现灵活的文档处理。
+linktitle: Using Load Options
+second_title: Aspose.Words Java Document Processing API
+title: 如何在 Aspose.Words for Java 中设置 LoadOptions
+url: /zh/java/document-loading-and-saving/using-load-options/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,14 +15,30 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Words for Java 中使用加载选项
+# 如何在 Aspose.Words for Java 中设置 LoadOptions
 
+在本教程中，我们将逐步演示 **如何为各种实际场景设置 LoadOptions**，以便在使用 Aspose.Words for Java 时使用。LoadOptions 让您能够细粒度地控制文档的打开方式——无论是需要更新脏字段、处理加密文件、将形状转换为 Office Math，还是指定库存放临时数据的位置。阅读完本教程后，您将能够根据应用程序的精确需求自定义加载行为。
 
-## Aspose.Words for Java 中加载选项的使用简介
+## 快速回答
+- **什么是 LoadOptions？** 用于影响 Aspose.Words 加载文档方式的配置对象。  
+- **可以在加载时更新字段吗？** 可以——设置 `setUpdateDirtyFields(true)`。  
+- **如何打开受密码保护的文件？** 将密码传递给 `LoadOptions` 构造函数。  
+- **可以更改临时文件夹吗？** 使用 `setTempFolder("path")`。  
+- **哪个方法可以将形状转换为 Office Math？** `setConvertShapeToOfficeMath(true)`。
 
-在本教程中，我们将探索如何使用 Aspose.Words for Java 中的“加载选项”。加载选项允许您自定义文档的加载和处理方式。我们将涵盖各种场景，包括更新脏字段、加载加密文档、将形状转换为 Office Math、设置 MS Word 版本、指定临时文件夹、处理警告以及将图元文件转换为 PNG。让我们一步一步深入了解。
+## 为什么要使用 LoadOptions？
+LoadOptions 可以帮助您避免加载后再进行处理的步骤，降低内存占用，并确保文档按照您的需求进行解释。例如，在加载时将元文件转换为 PNG 可以防止后续的光栅化问题，指定 MS Word 版本有助于在处理旧版文件时保持布局的忠实度。
 
-## 更新脏字段
+## 前置条件
+- Java 17 或更高版本  
+- Aspose.Words for Java（最新版本）  
+- 用于生产环境的有效 Aspose 许可证  
+
+## 步骤指南
+
+### 更新脏字段
+
+当文档中包含已编辑但未刷新（脏）的字段时，您可以让 Aspose.Words 在加载期间自动更新它们。
 
 ```java
 LoadOptions loadOptions = new LoadOptions();
@@ -30,9 +48,11 @@ Document doc = new Document("Your Directory Path" + "Dirty field.docx", loadOpti
 doc.save("Your Directory Path" + "WorkingWithLoadOptions.UpdateDirtyFields.docx");
 ```
 
-此代码片段演示了如何更新文档中的脏字段。 `setUpdateDirtyFields(true)` 方法用于确保在文档加载过程中更新脏字段。
+*调用 `setUpdateDirtyFields(true)` 可确保在文档打开时立即重新计算所有脏字段。*
 
-## 加载加密文档
+### 加载加密文档
+
+如果源文件受密码保护，请在创建 `LoadOptions` 实例时提供密码。保存为其他格式时也可以设置新密码。
 
 ```java
 @Test
@@ -42,9 +62,9 @@ public void loadEncryptedDocument() throws Exception {
 }
 ```
 
-在这里，我们使用密码加载加密文档。 `LoadOptions` 构造函数接受文档密码，您还可以在保存文档时使用 `OdtSaveOptions`。
+### 将形状转换为 Office Math
 
-## 将形状转换为 Office Math
+某些旧版文档将公式存储为绘图形状。启用此选项后，这些形状会被转换为原生 Office Math 对象，后续编辑更为方便。
 
 ```java
 LoadOptions loadOptions = new LoadOptions();
@@ -54,9 +74,9 @@ Document doc = new Document("Your Directory Path" + "Office math.docx", loadOpti
 doc.save("Your Directory Path" + "WorkingWithLoadOptions.ConvertShapeToOfficeMath.docx");
 ```
 
-此代码演示了如何在文档加载期间将形状转换为 Office Math 对象。 `setConvertShapeToOfficeMath(true)` 方法可以实现这种转换。
+### 设置 MS Word 版本
 
-## 设置 MS Word 版本
+指定目标 Word 版本可帮助库选择正确的渲染规则，尤其是在处理旧文件格式时。
 
 ```java
 @Test
@@ -69,9 +89,9 @@ public void setMsWordVersion() throws Exception {
 }
 ```
 
-您可以指定要加载文档的 MS Word 版本。在本例中，我们使用以下代码将版本设置为 Microsoft Word 2010： `setMswVersion`。
+### 使用临时文件夹
 
-## 使用临时文件夹
+大型文档在加载时可能会生成临时文件（例如提取图像时）。您可以将这些文件定向到自定义文件夹，这在受限的沙箱环境中尤为有用。
 
 ```java
 @Test
@@ -83,9 +103,9 @@ public void useTempFolder() throws Exception {
 }
 ```
 
-通过使用设置临时文件夹 `setTempFolder`，您可以控制在文档处理过程中存储临时文件的位置。
+### 警告回调
 
-## 警告回调
+加载过程中，Aspose.Words 可能会抛出警告（例如不受支持的特性）。实现回调可以让您记录或响应这些事件。
 
 ```java
 @Test
@@ -98,16 +118,16 @@ public void warningCallback() throws Exception {
 
 public static class DocumentLoadingWarningCallback implements IWarningCallback {
     public void warning(WarningInfo info) {
-        // 处理文档加载过程中出现的警告。
+        // Handle warnings as they arise during document loading.
         System.out.println(MessageFormat.format("WARNING: {0}, source: {1}", info.getWarningType(), info.getSource()));
         System.out.println(MessageFormat.format("\tDescription: {0}", info.getDescription()));
     }
 }
 ```
 
-此代码演示了如何设置警告回调来处理文档加载过程中出现的警告。您可以自定义应用在出现警告时的行为。
+### 将元文件转换为 PNG
 
-## 将图元文件转换为 PNG
+如 WMF 等元文件可以在加载时光栅化为 PNG，确保跨平台渲染的一致性。
 
 ```java
 @Test
@@ -119,9 +139,7 @@ public void convertMetafilesToPng() throws Exception {
 }
 ```
 
-要在文档加载期间将图元文件（例如 WMF）转换为 PNG 图像，您可以使用 `setConvertMetafilesToPng(true)` 方法。
-
-## 在 Aspose.Words for Java 中使用加载选项的完整源代码
+## 完整示例代码：在 Aspose.Words for Java 中使用 LoadOptions
 
 ```java
 public void updateDirtyFields() throws Exception {
@@ -148,8 +166,8 @@ public void convertShapeToOfficeMath() throws Exception {
 }
 @Test
 public void setMsWordVersion() throws Exception {
-	// 创建一个新的 LoadOptions 对象，该对象将默认按照 MS Word 2019 规范加载文档
-	// 并将加载版本更改为Microsoft Word 2010。
+	// Create a new LoadOptions object, which will load documents according to MS Word 2019 specification by default
+	// and change the loading version to Microsoft Word 2010.
 	LoadOptions loadOptions = new LoadOptions();
 	{
 		loadOptions.setMswVersion(MsWordVersion.WORD_2010);
@@ -175,7 +193,7 @@ public void warningCallback() throws Exception {
 }
 public static class DocumentLoadingWarningCallback implements IWarningCallback {
 	public void warning(WarningInfo info) {
-		// 打印文档加载过程中出现的警告及其详细信息。
+		// Prints warnings and their details as they arise during document loading.
 		System.out.println(MessageFormat.format("WARNING: {0}, source: {1}", info.getWarningType(), info.getSource()));
 		System.out.println(MessageFormat.format("\tDescription: {0}", info.getDescription()));
 	}
@@ -198,35 +216,43 @@ public void loadChm() throws Exception {
 }
 ```
 
+## 常见使用场景与技巧
+
+- **批量转换流水线** – 将 `setTempFolder` 与计划任务结合，处理数百个文件而不占满系统临时目录。  
+- **旧版文档迁移** – 使用 `setMswVersion` 配合 `setConvertShapeToOfficeMath` 将旧工程文档迁移到现代格式，同时保留公式。  
+- **安全文档处理** – 将 `loadEncryptedDocument` 与 `OdtSaveOptions` 配合，在不同格式下使用新密码重新加密文件。  
+
+## 常见问答
+
+**问：如何在文档加载期间处理警告？**  
+答：实现自定义的 `IWarningCallback`（如 *警告回调* 示例所示），并通过 `loadOptions.setWarningCallback(...)` 注册。这样您可以根据警告的严重程度记录、忽略或中止操作。
+
+**问：加载文档时能将形状转换为 Office Math 对象吗？**  
+答：可以——在构造 `Document` 之前调用 `loadOptions.setConvertShapeToOfficeMath(true)`。库会自动将兼容的形状替换为原生 Office Math 对象。
+
+**问：如何指定文档加载时使用的 MS Word 版本？**  
+答：使用 `loadOptions.setMswVersion(MsWordVersion.WORD_2010)`（或其他枚举值），告诉 Aspose.Words 应采用哪个 Word 版本的渲染规则。
+
+**问：LoadOptions 中的 `setTempFolder` 方法有什么作用？**  
+答：它将加载期间生成的所有临时文件（如提取的图像）定向到您指定的文件夹，这在系统临时目录受限的环境中尤为关键。
+
+**问：是否可以在加载时将 WMF 等元文件转换为 PNG？**  
+答：完全可以——通过 `loadOptions.setConvertMetafilesToPng(true)` 启用。这样光栅图像会以 PNG 形式保存，提高与现代查看器的兼容性。
+
 ## 结论
 
-在本教程中，我们深入探讨了 Aspose.Words for Java 中加载选项的各个方面。加载选项在自定义文档的加载和处理方式中起着至关重要的作用，它允许您根据特定需求定制文档处理方式。让我们回顾一下本指南中涵盖的要点：
+我们已经介绍了在 Aspose.Words for Java 中 **如何设置 LoadOptions** 的关键技术，从更新脏字段、处理加密文件、转换形状、指定 Word 版本、定向临时存储到更多高级选项。通过合理使用这些配置，您可以构建稳健、高性能的文档处理流水线，轻松应对各种输入场景。
 
-## 常见问题解答
+---
 
-### 如何处理文档加载期间的警告？
-
-您可以设置警告回调，如下所示 `warningCallback()` 方法。自定义 `DocumentLoadingWarningCallback` 根据应用程序的要求处理警告。
-
-### 加载文档时可以将形状转换为 Office Math 对象吗？
-
-是的，您可以使用以下方法将形状转换为 Office Math 对象 `loadOptions。setConvertShapeToOfficeMath(true)`.
-
-### 如何指定用于文档加载的 MS Word 版本？
-
-使用 `loadOptions.setMswVersion(MsWordVersion.WORD_2010)` 指定用于加载文档的 MS Word 版本。
-
-### 的目的是什么 `setTempFolder` 加载选项中的方法？
-
-这 `setTempFolder` 方法允许您指定在文档处理期间存储临时文件的文件夹。
-
+**最后更新：** 2025-12-27  
+**测试环境：** Aspose.Words for Java 24.11  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

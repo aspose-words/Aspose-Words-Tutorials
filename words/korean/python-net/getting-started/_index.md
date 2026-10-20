@@ -4,7 +4,9 @@
 "url": "/ko/python-net/getting-started/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words Python-net 시작하기 튜토리얼
 
 Aspose.Words for Python-net을 사용하여 작업을 시작하기 위한 포괄적인 단계별 가이드를 살펴보세요. 이 튜토리얼에는 완전한 코드 예제와 자세한 설명이 포함되어 있습니다.
@@ -28,6 +30,9 @@ Aspose.Words for Python을 사용하여 미터링 라이선싱을 구현하고 �
     ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 Aspose.Words Python-net에 대한 코드 튜토리얼
 
+### [CMake 프로젝트 빌드: 구성, 빌드 및 테스트](./build-cmake-project-configure-build-test/)
+CMake 프로젝트를 구성하고 빌드하며 테스트하는 방법을 안내합니다.
+
 ## 추가 자료
 
 - [Python-net 문서용 Aspose.Words](https://docs.aspose.com/words/python-net/)
@@ -36,3 +41,7 @@ Aspose.Words Python-net에 대한 코드 튜토리얼
 - [Aspose.Words 포럼](https://forum.aspose.com/c/words/8)
 - [무료 지원](https://forum.aspose.com/)
 - [임시 면허](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

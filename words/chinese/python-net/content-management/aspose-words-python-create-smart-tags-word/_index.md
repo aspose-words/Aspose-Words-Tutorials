@@ -5,7 +5,9 @@
 "url": "/zh/python-net/content-management/aspose-words-python-create-smart-tags-word/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # 使用 Aspose.Words for Python 掌握 Word 中的智能标签创建和管理
 
 ## 介绍
@@ -236,3 +238,7 @@ print(f'Properties count after clearing: {properties.count}')
 - **支持论坛**与社区互动 [Aspose 的支持论坛](https://forum.aspose.com/c/words/10)
 
 有了这份全面的指南，您现在就可以利用 Aspose.Words for Python 在 Word 文档中创建和管理智能标签了。祝您编程愉快！
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -4,7 +4,9 @@
 "url": "/ja/python-net/integration-interoperability/"
 "weight": 15
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words Python-net の統合と相互運用性に関するチュートリアル
 
 Aspose.Words for Python-net を使用した統合および相互運用性に関する包括的なステップバイステップガイドをご覧ください。これらのチュートリアルには、完全なコードサンプルと詳細な説明が含まれています。
@@ -32,6 +34,9 @@ Aspose.Words Python-netのコードチュートリアル
     ### [Master VBA Automation with Aspose.Words for Python&#58; A Complete Guide to Creating, Cloning, and Managing Projects](./master-vba-automation-aspose-words-python/)
 Pythonを使ってMicrosoft Word VBAプロジェクトを自動化する方法を学びましょう。このガイドでは、Aspose.Wordsを使ったVBAプロジェクトの作成、複製、保護ステータスの確認、参照管理について説明します。
 
+### [cmake ビルド x64 – VS 2022 プロジェクトの生成とビルド完全ガイド](./cmake-build-x64-complete-guide-to-generating-and-building-vs/)
+cmake を使用して x64 環境向けに VS 2022 プロジェクトを生成し、ビルドする手順をステップバイステップで解説します。
+
 ## 追加リソース
 
 - [Aspose.Words for Python-net ドキュメント](https://docs.aspose.com/words/python-net/)
@@ -40,3 +45,7 @@ Pythonを使ってMicrosoft Word VBAプロジェクトを自動化する方法�
 - [Aspose.Words フォーラム](https://forum.aspose.com/c/words/8)
 - [無料サポート](https://forum.aspose.com/)
 - [一時ライセンス](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

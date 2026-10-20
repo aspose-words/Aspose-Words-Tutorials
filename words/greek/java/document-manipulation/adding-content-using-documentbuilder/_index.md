@@ -1,10 +1,14 @@
 ---
-"description": "Δημιουργία εγγράφων Master με Aspose.Words για Java. Ένας οδηγός βήμα προς βήμα για την προσθήκη κειμένου, πινάκων, εικόνων και άλλων. Δημιουργήστε εκπληκτικά έγγραφα Word χωρίς κόπο."
-"linktitle": "Προσθήκη περιεχομένου χρησιμοποιώντας το DocumentBuilder"
-"second_title": "API επεξεργασίας εγγράφων Java Aspose.Words"
-"title": "Προσθήκη περιεχομένου χρησιμοποιώντας το DocumentBuilder στο Aspose.Words για Java"
-"url": "/el/java/document-manipulation/adding-content-using-documentbuilder/"
-"weight": 26
+date: 2026-01-01
+description: Μάθετε πώς να δημιουργείτε πεδία φόρμας και να προσθέτετε κείμενο, πίνακες,
+  εικόνες, υπερσυνδέσμους και άλλα χρησιμοποιώντας το Aspose.Words for Java DocumentBuilder.
+  Ένας οδηγός βήμα‑βήμα για προγραμματιστές.
+linktitle: Adding Content using DocumentBuilder
+second_title: Aspose.Words Java Document Processing API
+title: Πώς να δημιουργήσετε πεδία φόρμας και να προσθέσετε περιεχόμενο χρησιμοποιώντας
+  το DocumentBuilder στο Aspose.Words για Java
+url: /el/java/document-manipulation/adding-content-using-documentbuilder/
+weight: 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,195 +17,205 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Προσθήκη περιεχομένου χρησιμοποιώντας το DocumentBuilder στο Aspose.Words για Java
+# Προσθήκη Περιεχομένου χρησιμοποιώντας το DocumentBuilder στο Aspose.Words for Java
 
+## Εισαγωγή στην Προσθήκη Περιεχομένου χρησιμοποιώντας το DocumentBuilder στο Aspose.Words for Java
 
-## Εισαγωγή στην Προσθήκη Περιεχομένου χρησιμοποιώντας το DocumentBuilder στο Aspose.Words για Java
+Σε αυτόν τον οδηγό βήμα‑βήμα, θα **δημιουργήσετε πεδία φόρμας** και θα προσθέσετε μια ποικιλία περιεχομένου—κείμενο, πίνακες, οριζόντιες γραμμές, HTML, υπερσυνδέσμους, εικόνες και πολλά άλλα—σε ένα έγγραφο Word με το Aspose.Words for Java. Είτε δημιουργείτε μια αναφορά, ένα πρότυπο σύμβασης ή μια διαδραστική φόρμα, η κλάση `DocumentBuilder` σας παρέχει λεπτομερή έλεγχο σε κάθε στοιχείο. Ας ξεκινήσουμε!
 
-Σε αυτόν τον οδηγό βήμα προς βήμα, θα εξερευνήσουμε πώς να χρησιμοποιήσετε το Aspose.Words για το DocumentBuilder της Java για να προσθέσετε διάφορους τύπους περιεχομένου σε ένα έγγραφο του Word. Θα καλύψουμε την εισαγωγή κειμένου, πινάκων, οριζόντιων κανόνων, πεδίων φόρμας, HTML, υπερσυνδέσμων, πίνακα περιεχομένων, ενσωματωμένων και αιωρούμενων εικόνων, παραγράφων και άλλων. Ας ξεκινήσουμε!
+## Γρήγορες Απαντήσεις
+- **Πώς δημιουργώ πεδία φόρμας;** Χρησιμοποιήστε `insertTextInput`, `insertCheckBox` ή `insertComboBox` σε ένα `DocumentBuilder`.
+- **Ποια μέθοδος προσθέτει απλό κείμενο;** Καλέστε `builder.write("Your text")` ή `builder.writeln("Your text")`.
+- **Μπορώ να εισάγω οριζόντια γραμμή;** Ναι—`builder.insertHorizontalRule()` προσθέτει μια γραμμή διαχωρισμού.
+- **Πώς ενσωματώνω HTML;** Χρησιμοποιήστε `builder.insertHtml("<p>HTML content</p>")`.
+- **Πώς προσθέτω ενσωματωμένη εικόνα;** `builder.insertImage("path/to/image.png")` τοποθετεί την εικόνα μέσα στη ροή κειμένου.
+
+## Τι είναι το DocumentBuilder και γιατί να το χρησιμοποιήσετε για τη δημιουργία πεδίων φόρμας;
+
+`DocumentBuilder` είναι το ευέλικτο API του Aspose.Words για τη δημιουργία και επεξεργασία εγγράφων Word προγραμματιστικά. Απομονώνει τη χαμηλού επιπέδου δομή OpenXML, επιτρέποντάς σας να εστιάσετε στο *τι* θέλετε να προσθέσετε—όπως **πεδία φόρμας**—αντί στο *πώς* φαίνεται το XML. Αυτό το καθιστά ιδανικό για τη δημιουργία δυναμικών φορμών, συμβάσεων ή οποιουδήποτε εγγράφου που απαιτεί αλληλεπίδραση χρήστη.
 
 ## Προαπαιτούμενα
 
-Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε ρυθμίσει τη βιβλιοθήκη Aspose.Words για Java στο έργο σας. Μπορείτε να την κατεβάσετε από [εδώ](https://releases.aspose.com/words/java/).
+Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε εγκαταστήσει τη βιβλιοθήκη Aspose.Words for Java στο έργο σας. Μπορείτε να τη κατεβάσετε από [εδώ](https://releases.aspose.com/words/java/).
 
-## Προσθήκη κειμένου
+## Προσθήκη Κειμένου (πώς να προσθέσετε κείμενο)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Εισαγωγή μιας απλής παραγράφου κειμένου
+// Insert a simple text paragraph
 builder.write("This is a simple text paragraph.");
 
-// Αποθήκευση του εγγράφου
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## Προσθήκη πινάκων
+## Προσθήκη Πινάκων
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ξεκινήστε έναν πίνακα
+// Start a table
 Table table = builder.startTable();
 
-// Εισαγωγή κελιών και περιεχομένου
+// Insert cells and content
 builder.insertCell();
 builder.write("Cell 1");
 
 builder.insertCell();
 builder.write("Cell 2");
 
-// Τερματίστε το τραπέζι
+// End the table
 builder.endTable();
 
-// Αποθήκευση του εγγράφου
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## Προσθήκη οριζόντιου κανόνα
+## Προσθήκη Οριζόντιας Γραμμής (προσθήκη οριζόντιας γραμμής)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Εισαγωγή οριζόντιου κανόνα
+// Insert a horizontal rule
 builder.insertHorizontalRule();
 
-// Αποθήκευση του εγγράφου
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## Προσθήκη πεδίων φόρμας
+## Προσθήκη Πεδίων Φόρμας (δημιουργία πεδίων φόρμας)
 
-### Πεδίο φόρμας εισαγωγής κειμένου
+### Πεδίο Κειμενικής Εισόδου
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Εισαγωγή πεδίου φόρμας εισαγωγής κειμένου
+// Insert a text input form field
 builder.insertTextInput("TextInput", TextFormFieldType.REGULAR, "", "Default text", 0);
 
-// Αποθήκευση του εγγράφου
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-### Πεδίο φόρμας πλαισίου ελέγχου
+### Πεδίο Πλαισίου Ελέγχου
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Εισαγωγή πεδίου φόρμας πλαισίου ελέγχου
+// Insert a check box form field
 builder.insertCheckBox("CheckBox", true, true, 0);
 
-// Αποθήκευση του εγγράφου
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-### Πεδίο φόρμας συνδυαστικού πλαισίου
+### Πεδίο Συνδυαστικού Πλαισίου
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ορισμός στοιχείων για το σύνθετο πλαίσιο
+// Define items for the combo box
 String[] items = { "Option 1", "Option 2", "Option 3" };
 
-// Εισαγωγή πεδίου φόρμας συνδυαστικού πλαισίου
+// Insert a combo box form field
 builder.insertComboBox("DropDown", items, 0);
 
-// Αποθήκευση του εγγράφου
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## Προσθήκη HTML
+## Προσθήκη HTML (εισαγωγή html word)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Εισαγωγή περιεχομένου HTML
+// Insert HTML content
 builder.insertHtml("<p>This is an HTML paragraph.</p>");
 
-// Αποθήκευση του εγγράφου
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## Προσθήκη υπερσυνδέσμων
+## Προσθήκη Υπερσυνδέσμων (πώς να προσθέσετε υπερσύνδεσμο)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Εισαγωγή υπερσυνδέσμου
+// Insert a hyperlink
 builder.write("Visit ");
 builder.getFont().setColor(Color.BLUE);
 builder.getFont().setUnderline(Underline.SINGLE);
-builder.insertHyperlink("Aspose Website", "http://www.aspose.com", ψευδές);
+builder.insertHyperlink("Aspose Website", "http://www.aspose.com", false);
 builder.getFont().clearFormatting();
 builder.write(" for more information.");
 
-// Αποθήκευση του εγγράφου
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## Προσθήκη πίνακα περιεχομένων
+## Προσθήκη Πίνακα Περιεχομένων
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Εισαγωγή πίνακα περιεχομένων
+// Insert a table of contents
 builder.insertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
-// Προσθήκη περιεχομένου εγγράφου
+// Add document content
 // ...
 
-// Ενημέρωση του πίνακα περιεχομένων
+// Update the table of contents
 doc.updateFields();
 
-// Αποθήκευση του εγγράφου
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## Προσθήκη εικόνων
+## Προσθήκη Εικόνων
 
-### Ενσωματωμένη εικόνα
+### Ενσωματωμένη Εικόνα (εισαγωγή ενσωματωμένης εικόνας)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Εισαγωγή ενσωματωμένης εικόνας
+// Insert an inline image
 builder.insertImage("path/to/your/image.png");
 
-// Αποθήκευση του εγγράφου
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-### Πλωτή εικόνα
+### Αιωρούμενη Εικόνα
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Εισαγωγή αιωρούμενης εικόνας
+// Insert a floating image
 builder.insertImage("path/to/your/image.png", RelativeHorizontalPosition.MARGIN, 100.0, RelativeVerticalPosition.MARGIN, 100.0, 200.0, 100.0, WrapType.SQUARE);
 
-// Αποθήκευση του εγγράφου
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## Προσθήκη παραγράφων
+## Προσθήκη Παραγράφων
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ορισμός μορφοποίησης παραγράφου
+// Set paragraph formatting
 Font font = builder.getFont();
 font.setSize(16.0);
 font.setBold(true);
@@ -214,92 +228,91 @@ paragraphFormat.setFirstLineIndent(8.0);
 paragraphFormat.setAlignment(ParagraphAlignment.JUSTIFY);
 paragraphFormat.setKeepTogether(true);
 
-// Εισαγωγή παραγράφου
+// Insert a paragraph
 builder.writeln("This is a formatted paragraph.");
 
-// Αποθήκευση του εγγράφου
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## Βήμα 10: Μετακίνηση του δρομέα
+## Μετακίνηση του Δείκτη (Βήμα 10)
 
-Μπορείτε να ελέγξετε τη θέση του κέρσορα μέσα στο έγγραφο χρησιμοποιώντας διάφορες μεθόδους, όπως `moveToParagraph`, `moveToCell`και πολλά άλλα. Ακολουθεί ένα παράδειγμα:
+Μπορείτε να ελέγξετε τη θέση του δείκτη μέσα στο έγγραφο χρησιμοποιώντας μεθόδους όπως `moveToParagraph`, `moveToCell`, κ.λπ.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Μετακίνηση του κέρσορα σε μια συγκεκριμένη παράγραφο
+// Move the cursor to a specific paragraph
 builder.moveToParagraph(2, 0);
 
-// Προσθήκη περιεχομένου στη νέα θέση του κέρσορα
+// Add content at the new cursor position
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-Αυτές είναι μερικές συνήθεις λειτουργίες που μπορείτε να εκτελέσετε χρησιμοποιώντας το Aspose.Words για το DocumentBuilder της Java. Εξερευνήστε την τεκμηρίωση της βιβλιοθήκης για πιο προηγμένες λειτουργίες και επιλογές προσαρμογής. Καλή δημιουργία εγγράφων!
+Αυτές είναι μερικές κοινές λειτουργίες που μπορείτε να εκτελέσετε χρησιμοποιώντας το `DocumentBuilder` του Aspose.Words for Java. Εξερευνήστε την τεκμηρίωση της βιβλιοθήκης για πιο προχωρημένα χαρακτηριστικά και επιλογές προσαρμογής. Καλή δημιουργία εγγράφων!
 
+## Συμπέρασμα
 
-## Σύναψη
+Σε αυτόν τον ολοκληρωμένο οδηγό, δείξαμε πώς να **δημιουργήσετε πεδία φόρμας** και να προσθέσετε διάφορους τύπους περιεχομένου—κείμενο, πίνακες, οριζόντιες γραμμές, HTML, υπερσυνδέσμους, πίνακα περιεχομένων, εικόνες, μορφοποιημένες παραγράφους και πλοήγηση του δείκτη—χρησιμοποιώντας το `DocumentBuilder` του Aspose.Words for Java. Τώρα έχετε μια σταθερή βάση για τη δημιουργία δυναμικών, διαδραστικών εγγράφων Word προγραμματιστικά.
 
-Σε αυτόν τον ολοκληρωμένο οδηγό, εξερευνήσαμε τις δυνατότητες του Aspose.Words για το DocumentBuilder της Java για την προσθήκη διαφόρων τύπων περιεχομένου σε έγγραφα του Word. Καλύψαμε κείμενο, πίνακες, οριζόντιους κανόνες, πεδία φόρμας, HTML, υπερσυνδέσμους, πίνακα περιεχομένων, εικόνες, παραγράφους και κίνηση του κέρσορα.
+## Συχνές Ερωτήσεις
 
-## Συχνές ερωτήσεις
+### Ε: Τι είναι το Aspose.Words for Java;
 
-### Ε: Τι είναι το Aspose.Words για Java;
+Α: Το Aspose.Words for Java είναι μια βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να δημιουργούν, να τροποποιούν και να διαχειρίζονται έγγραφα Microsoft Word προγραμματιστικά. Παρέχει ένα ευρύ φάσμα λειτουργιών για δημιουργία εγγράφων, μορφοποίηση και εισαγωγή περιεχομένου.
 
-Α: Το Aspose.Words για Java είναι μια βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να δημιουργούν, να τροποποιούν και να χειρίζονται έγγραφα του Microsoft Word μέσω προγραμματισμού. Παρέχει ένα ευρύ φάσμα λειτουργιών για τη δημιουργία εγγράφων, τη μορφοποίηση και την εισαγωγή περιεχομένου.
+### Ε: Πώς μπορώ να προσθέσω πίνακα περιεχομένων στο έγγραφό μου;
 
-### Ε: Πώς μπορώ να προσθέσω έναν πίνακα περιεχομένων στο έγγραφό μου;
-
-Α: Για να προσθέσετε έναν πίνακα περιεχομένων, χρησιμοποιήστε το `DocumentBuilder` για να εισαγάγετε ένα πεδίο πίνακα περιεχομένων στο έγγραφό σας. Βεβαιωθείτε ότι έχετε ενημερώσει τα πεδία στο έγγραφο μετά την προσθήκη περιεχομένου για να συμπληρώσετε τον πίνακα περιεχομένων. Ακολουθεί ένα παράδειγμα:
+Α: Για να προσθέσετε πίνακα περιεχομένων, χρησιμοποιήστε το `DocumentBuilder` για να εισάγετε ένα πεδίο TOC και, στη συνέχεια, καλέστε `doc.updateFields()` μετά την προσθήκη του περιεχομένου σας.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Εισαγωγή πεδίου πίνακα περιεχομένων
+// Insert a table of contents field
 builder.insertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
-// Προσθήκη περιεχομένου εγγράφου
+// Add document content
 // ...
 
-// Ενημέρωση του πίνακα περιεχομένων
+// Update the table of contents
 doc.updateFields();
 ```
 
-### Ε: Πώς μπορώ να εισάγω εικόνες σε ένα έγγραφο χρησιμοποιώντας το Aspose.Words για Java;
+### Ε: Πώς εισάγω εικόνες σε ένα έγγραφο χρησιμοποιώντας το Aspose.Words for Java;
 
-Α: Μπορείτε να εισαγάγετε εικόνες, τόσο ενσωματωμένες όσο και αιωρούμενες, χρησιμοποιώντας το `DocumentBuilder`Ακολουθούν παραδείγματα και των δύο:
+Α: Μπορείτε να εισάγετε εικόνες, τόσο ενσωματωμένες όσο και αιωρούμενες, χρησιμοποιώντας το `DocumentBuilder`.
 
-#### Ενσωματωμένη εικόνα:
+#### Ενσωματωμένη Εικόνα:
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Εισαγωγή ενσωματωμένης εικόνας
+// Insert an inline image
 builder.insertImage("path/to/your/image.png");
 ```
 
-#### Πλωτή εικόνα:
+#### Αιωρούμενη Εικόνα:
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Εισαγωγή αιωρούμενης εικόνας
+// Insert a floating image
 builder.insertImage("path/to/your/image.png", RelativeHorizontalPosition.MARGIN, 100.0, RelativeVerticalPosition.MARGIN, 100.0, 200.0, 100.0, WrapType.SQUARE);
 ```
 
 ### Ε: Μπορώ να μορφοποιήσω κείμενο και παραγράφους κατά την προσθήκη περιεχομένου;
 
-Α: Ναι, μπορείτε να μορφοποιήσετε κείμενο και παραγράφους χρησιμοποιώντας το `DocumentBuilder`Μπορείτε να ορίσετε ιδιότητες γραμματοσειράς, στοίχιση παραγράφων, εσοχή και πολλά άλλα. Ακολουθεί ένα παράδειγμα:
+Α: Ναι, μπορείτε να μορφοποιήσετε κείμενο και παραγράφους χρησιμοποιώντας το `DocumentBuilder`. Ορίστε ιδιότητες γραμματοσειράς, στοίχιση παραγράφου, εσοχές και άλλα πριν γράψετε το περιεχόμενο.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ορισμός γραμματοσειράς και μορφοποίησης παραγράφου
+// Set font and paragraph formatting
 Font font = builder.getFont();
 font.setSize(16.0);
 font.setBold(true);
@@ -312,34 +325,37 @@ paragraphFormat.setFirstLineIndent(8.0);
 paragraphFormat.setAlignment(ParagraphAlignment.JUSTIFY);
 paragraphFormat.setKeepTogether(true);
 
-// Εισαγωγή μορφοποιημένης παραγράφου
+// Insert a formatted paragraph
 builder.writeln("This is a formatted paragraph.");
 ```
 
-### Ε: Πώς μπορώ να μετακινήσω τον κέρσορα σε μια συγκεκριμένη θέση μέσα στο έγγραφο;
+### Ε: Πώς μπορώ να μετακινήσω τον δείκτη σε συγκεκριμένη θέση μέσα στο έγγραφο;
 
-Α: Μπορείτε να ελέγξετε τη θέση του δρομέα χρησιμοποιώντας μεθόδους όπως `moveToParagraph`, `moveToCell`και πολλά άλλα. Ακολουθεί ένα παράδειγμα:
+Α: Χρησιμοποιήστε μεθόδους όπως `moveToParagraph`, `moveToCell`, κ.λπ., για να τοποθετήσετε τον δείκτη πριν την εισαγωγή νέου περιεχομένου.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Μετακίνηση του κέρσορα σε μια συγκεκριμένη παράγραφο
+// Move the cursor to a specific paragraph
 builder.moveToParagraph(2, 0);
 
-// Προσθήκη περιεχομένου στη νέα θέση του κέρσορα
+// Add content at the new cursor position
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-Αυτές είναι μερικές συνήθεις ερωτήσεις και απαντήσεις που θα σας βοηθήσουν να ξεκινήσετε με το Aspose.Words για το DocumentBuilder της Java. Εάν έχετε περισσότερες ερωτήσεις ή χρειάζεστε περαιτέρω βοήθεια, ανατρέξτε στο [τεκμηρίωση της βιβλιοθήκης](https://reference.aspose.com/words/java/) ή ζητήστε βοήθεια από την κοινότητα Aspose.Words και τους πόρους υποστήριξης.
+Αυτές οι απαντήσεις καλύπτουν τα πιο συνηθισμένα σενάρια κατά τη χρήση του `DocumentBuilder` του Aspose.Words for Java. Για πιο λεπτομερείς πληροφορίες, ανατρέξτε στην [τεκμηρίωση της βιβλιοθήκης](https://reference.aspose.com/words/java/) ή ενταχθείτε στην κοινότητα Aspose.Words για υποστήριξη.
 
+---
+
+**Τελευταία Ενημέρωση:** 2026-01-01  
+**Δοκιμασμένο Με:** Aspose.Words for Java 24.12  
+**Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

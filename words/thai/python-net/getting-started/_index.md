@@ -4,7 +4,9 @@
 "url": "/th/python-net/getting-started/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # บทช่วยสอนการเริ่มต้นใช้งาน Aspose.Words Python-net
 
 สำรวจคำแนะนำทีละขั้นตอนที่ครอบคลุมสำหรับการเริ่มต้นใช้งาน Aspose.Words สำหรับ Python-net บทช่วยสอนเหล่านี้ประกอบด้วยตัวอย่างโค้ดที่สมบูรณ์และคำอธิบายโดยละเอียด
@@ -28,6 +30,9 @@
     ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Python-net
 
+### [สร้างโครงการ CMake: กำหนดค่า, สร้างและทดสอบ](./build-cmake-project-configure-build-test/)
+เรียนรู้วิธีกำหนดค่า สร้าง และทดสอบโครงการ CMake ด้วยขั้นตอนที่ชัดเจน
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสาร Aspose.Words สำหรับ Python-net](https://docs.aspose.com/words/python-net/)
@@ -36,3 +41,7 @@
 - [ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8)
 - [การสนับสนุนฟรี](https://forum.aspose.com/)
 - [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

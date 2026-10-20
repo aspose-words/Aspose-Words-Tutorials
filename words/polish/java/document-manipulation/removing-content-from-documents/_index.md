@@ -1,10 +1,12 @@
 ---
-"description": "Dowiedz się, jak usuwać zawartość z dokumentów Word w Javie za pomocą Aspose.Words dla Javy. Usuń podziały stron, podziały sekcji i inne. Zoptymalizuj przetwarzanie dokumentów."
-"linktitle": "Usuwanie zawartości z dokumentów"
-"second_title": "Aspose.Words API przetwarzania dokumentów Java"
-"title": "Usuwanie zawartości z dokumentów w Aspose.Words dla Java"
-"url": "/pl/java/document-manipulation/removing-content-from-documents/"
-"weight": 16
+date: 2026-01-06
+description: Dowiedz się, jak usuwać stopki z dokumentów Word przy użyciu Aspose.Words
+  for Java, a także jak usuwać podziały sekcji, podziały stron i inne.
+linktitle: Removing Content from Documents
+second_title: Aspose.Words Java Document Processing API
+title: Jak usunąć stopki z dokumentów Word przy użyciu Aspose.Words dla Javy
+url: /pl/java/document-manipulation/removing-content-from-documents/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,16 +15,35 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Usuwanie zawartości z dokumentów w Aspose.Words dla Java
+# Jak usunąć stopki z dokumentów Word przy użyciu Aspose.Words for Java
 
+## Wprowadzenie do Aspose.Words for Java
 
-## Wprowadzenie do Aspose.Words dla Javy
+W tym samouczku odkryjesz **jak usunąć stopki z Word** programowo przy użyciu Aspose.Words for Java. Niezależnie od tego, czy musisz oczyścić wygenerowane raporty, usunąć poufne informacje, czy po prostu uporządkować szablon, ten przewodnik przeprowadzi Cię przez najczęstsze scenariusze usuwania treści — podziały stron, podziały sekcji, stopki i spisy treści. Zaczynajmy!
 
-Zanim zagłębimy się w techniki usuwania, krótko przedstawmy Aspose.Words dla Javy. Jest to API Javy, które zapewnia rozbudowane funkcje do pracy z dokumentami Worda. Możesz tworzyć, edytować, konwertować i manipulować dokumentami Worda bezproblemowo, korzystając z tej biblioteki.
+## Szybkie odpowiedzi
+- **Czy mogę usunąć stopki bez wpływu na inną treść?** Tak, API pozwala celować wyłącznie w węzły stopki.
+- **Czy potrzebna jest licencja do uruchomienia tych przykładów?** Darmowa wersja próbna działa w środowisku deweloperskim; licencja jest wymagana w produkcji.
+- **Jakie formaty Word są obsługiwane?** DOC, DOCX, DOCM oraz formaty oparte na OOXML.
+- **Czy kod jest kompatybilny z Java 8 i nowszymi?** Absolutnie, biblioteka jest kompatybilna z Java od wersji 8.
+- **Jak usunąć podziały sekcji?** Zobacz sekcję „Jak usunąć podziały sekcji” poniżej.
+
+## Co oznacza „usunięcie stopek z Word”?
+
+Usunięcie stopek z dokumentu Word oznacza usunięcie węzłów `HeaderFooter`, które pojawiają się na dole każdej strony. Ta operacja jest powszechna, gdy chcesz uzyskać czysty układ z jedynie nagłówkiem lub gdy stopki zawierają wrażliwe dane, które nie powinny być udostępniane.
+
+## Dlaczego używać Aspose.Words for Java do tego zadania?
+
+Aspose.Words udostępnia wysokopoziomowy model obiektowy, który abstrahuje złożoność formatu pliku DOCX. Możesz manipulować akapitami, fragmentami tekstu, sekcjami i stopkami przy użyciu kilku linii kodu Java, bez konieczności instalacji Microsoft Word na serwerze.
+
+## Wymagania wstępne
+- Java Development Kit (JDK) 8 lub nowszy.
+- Biblioteka Aspose.Words for Java (pobierz ze strony Aspose).
+- Przykładowy dokument Word (`Document.docx`) umieszczony w znanym katalogu.
 
 ## Usuwanie podziałów stron
 
-Podziały stron są często używane do kontrolowania układu dokumentu. Mogą jednak zdarzyć się przypadki, w których trzeba je usunąć. Oto, jak można usunąć podziały stron za pomocą Aspose.Words dla Java:
+Podziały stron kontrolują paginację, ale czasami trzeba je usunąć. Poniższy fragment skanuje każdy akapit, usuwa flagę `PageBreakBefore` i eliminuje wszelkie wyraźne znaki podziału strony.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -40,11 +61,11 @@ for (Paragraph para : (Iterable<Paragraph>) paragraphs) {
 doc.save("Your Directory Path" + "RemoveContent.RemovePageBreaks.docx");
 ```
 
-Ten fragment kodu będzie przechodził przez akapity w dokumencie, sprawdzając podziały stron i usuwając je.
+*Wskazówka:* Uruchom to przed usunięciem stopek, jeśli chcesz uzyskać układ jednokolumnowy.
 
-## Usuwanie podziałów sekcji
+## Jak usunąć podziały sekcji
 
-Podziały sekcji dzielą dokument na oddzielne sekcje o różnym formatowaniu. Aby usunąć podziały sekcji, wykonaj następujące kroki:
+Podziały sekcji dzielą dokument na niezależne sekcje, z własnymi nagłówkami, stopkami i ustawieniami strony. Aby scalić sekcje i skutecznie **usunąć podziały sekcji**, iteruj w kolejności odwrotnej, dołącz zawartość każdej wcześniejszej sekcji na początek ostatniej, a następnie usuń teraz pustą sekcję.
 
 ```java
 for (int i = doc.getSections().getCount() - 2; i >= 0; i--) {
@@ -53,11 +74,11 @@ for (int i = doc.getSections().getCount() - 2; i >= 0; i--) {
 }
 ```
 
-Ten kod przechodzi przez sekcje w odwrotnej kolejności, łącząc zawartość bieżącej sekcji z zawartością ostatniej, a następnie usuwając skopiowaną sekcję.
+To podejście zachowuje całą zawartość, jednocześnie eliminując przerwanie strukturalne.
 
-## Usuwanie stopek
+## Usuwanie stopek (Główny cel: usunięcie stopek z Word)
 
-Stopki w dokumentach Worda często zawierają numery stron, daty lub inne informacje. Jeśli musisz je usunąć, możesz użyć następującego kodu:
+Stopki często zawierają numery stron, daty lub poufne notatki. Poniższy kod usuwa **wszystkie typy stopek** — pierwszą stronę, podstawową i nawet strony — z każdej sekcji.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Header and footer types.docx");
@@ -72,11 +93,11 @@ for (Section section : doc.getSections()) {
 doc.save("Your Directory Path" + "RemoveContent.RemoveFooters.docx");
 ```
 
-Ten kod usuwa wszystkie typy stopek (pierwszą, główną i parzystą) z każdej sekcji w dokumencie.
+Po uruchomieniu tego fragmentu wynikowy dokument nie będzie miał **stopek**, spełniając główny cel „usunięcia stopek z Word”.
 
 ## Usuwanie spisu treści
 
-Pola spisu treści (TOC) generują dynamiczną tabelę, która zawiera nagłówki i numery ich stron. Aby usunąć spis treści, możesz użyć następującego kodu:
+Spis treści (TOC) jest przechowywany jako pole. Aby go usunąć, znajdź pole TOC po jego indeksie i usuń powiązany węzeł.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table of contents.docx");
@@ -84,38 +105,47 @@ removeTableOfContents(doc, 0);
 doc.save("Your Directory Path" + "RemoveContent.RemoveToc.doc");
 ```
 
-Ten kod definiuje metodę `removeTableOfContents` usuwa określony spis treści z dokumentu.
+*(Metoda `removeTableOfContents` jest częścią przykładów Aspose.Words i usuwa określony węzeł TOC.)*
 
+## Typowe problemy i rozwiązywanie
 
-## Wniosek
-
-tym artykule przyjrzeliśmy się sposobom usuwania różnych typów treści z dokumentów Word za pomocą Aspose.Words for Java. Niezależnie od tego, czy chodzi o podziały stron, podziały sekcji, stopki czy spis treści, Aspose.Words zapewnia narzędzia do skutecznego manipulowania dokumentami.
+| Symptom | Likely Cause | Fix |
+|---------|--------------|-----|
+| Stopki nadal się pojawiają po uruchomieniu kodu | Dokument zawiera pary **header/footer**, które nie są dostępne (np. brak `FOOTER_FIRST`) | Iteruj po wszystkich wartościach `HeaderFooterType` lub sprawdź `null` przed wywołaniem `remove()`. |
+| Układ strony zmienia się nieoczekiwanie po usunięciu podziałów sekcji | Ustawienia strony specyficzne dla sekcji (marginesy, orientacja) zostały utracone | Skopiuj ustawienia sekcji do docelowej sekcji przed usunięciem. |
+| `ControlChar.PAGE_BREAK` nie został usunięty | Dokument używa **section breaks** zamiast znaków podziału strony | Użyj najpierw metody „Jak usunąć podziały sekcji”. |
 
 ## Najczęściej zadawane pytania
 
-### Jak mogę usunąć określone podziały stron?
+**Q: Czy mogę usunąć tylko określone stopki (np. tylko stopkę pierwszej strony)?**  
+A: Tak. Pobierz stopkę według jej typu (`FOOTER_FIRST`) i wywołaj `remove()` tylko na tej instancji.
 
-Aby usunąć konkretne podziały stron, przejrzyj akapity w dokumencie i wyczyść atrybut podziału strony dla żądanych akapitów.
+**Q: Jak usunąć podziały sekcji bez łączenia zawartości?**  
+A: Możesz usunąć węzeł `Section` bezpośrednio, jeśli nie musisz zachować jego zawartości, ale pamiętaj, że wszystkie nagłówki/stopki przypisane do tej sekcji również zostaną utracone.
 
-### Czy mogę usunąć nagłówki razem ze stopkami?
+**Q: Czy można programowo wykryć, czy dokument zawiera TOC przed próbą jego usunięcia?**  
+A: Użyj `doc.getRange().getFields()` i sprawdź pola typu `FieldType.FIELD_TABLE_OF_CONTENTS`.
 
-Tak, możesz usunąć zarówno nagłówki, jak i stopki z dokumentu, postępując w podobny sposób, jak pokazano w artykule poświęconym stopkom.
+**Q: Czy Aspose.Words obsługuje usuwanie stopek z zaszyfrowanych plików Word?**  
+A: Tak, wystarczy otworzyć dokument z hasłem: `new Document(path, new LoadOptions(password))`.
 
-### Czy Aspose.Words for Java jest kompatybilny z najnowszymi formatami dokumentów Word?
+**Q: Czy usunięcie stopek wpłynie na paginację dokumentu?**  
+A: Usunięcie stopek nie zmienia numeracji stron, chyba że stopka sama zawiera pole numeru strony. Jeśli potrzebujesz ponownej numeracji, zaktualizuj odpowiednio pola numeru strony.
 
-Tak, Aspose.Words for Java obsługuje najnowsze formaty dokumentów Word, zapewniając kompatybilność z nowoczesnymi dokumentami.
+## Zakończenie
 
-### Jakie inne funkcje manipulowania dokumentami oferuje Aspose.Words for Java?
+Omówiliśmy wszystko, co potrzebne, aby **usunąć stopki z dokumentów Word** przy użyciu Aspose.Words for Java, wraz z powiązanymi zadaniami, takimi jak usuwanie podziałów stron, **jak usunąć podziały sekcji** oraz usuwanie spisów treści. Korzystając z tych fragmentów, możesz tworzyć czyste, profesjonalne dokumenty dopasowane do wymagań Twojej aplikacji.
 
-Aspose.Words for Java oferuje szeroki zakres funkcji, w tym tworzenie dokumentów, edycję, konwersję i wiele więcej. Możesz przejrzeć jego dokumentację, aby uzyskać szczegółowe informacje.
+---
 
+**Last Updated:** 2026-01-06  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

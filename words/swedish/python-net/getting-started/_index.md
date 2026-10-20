@@ -4,7 +4,9 @@
 "url": "/sv/python-net/getting-started/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Komma igång-handledningar för Aspose.Words Python-net
 
 Utforska omfattande steg-för-steg-guider för att komma igång med Aspose.Words för Python-net. Dessa handledningar innehåller kompletta kodexempel och detaljerade förklaringar.
@@ -28,6 +30,9 @@ Lär dig hur du implementerar mätad licensiering med Aspose.Words för Python f
     ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 En kodhandledning för Aspose.Words Python-net
 
+### [Bygg CMake-projekt: Konfigurera, Bygg & Testa](./build-cmake-project-configure-build-test/)
+Lär dig hur du konfigurerar, bygger och testar ett CMake-projekt med Aspose.Words för Python-net.
+
 ## Ytterligare resurser
 
 - [Aspose.Words för Python-net-dokumentation](https://docs.aspose.com/words/python-net/)
@@ -36,3 +41,7 @@ En kodhandledning för Aspose.Words Python-net
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Gratis support](https://forum.aspose.com/)
 - [Tillfällig licens](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

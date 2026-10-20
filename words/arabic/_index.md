@@ -1,303 +1,239 @@
----
-date: 2026-08-05
-description: تعلّم Aspose.Words من خلال دروس مرئية خطوة بخطوة لـ .NET و Java و C++
-  و Python وأكثر. احترف إنشاء المستندات، التحرير، التحويل، والأتمتة بسهولة.
-keywords:
-- aspose.words visual tutorials
-- aspose.words .net tutorials
-- word document automation
-- aspose.words java guide
-- aspose.words python examples
-lastmod: 2026-08-05
-limit: null
-og_description: استكشف دروس Aspose.Words المرئية لتعلم إنشاء المستندات، التحرير، التحويل،
-  والأتمتة بسرعة عبر منصات .NET و Java و C++ و Python.
-og_image_alt: Screenshot of Aspose.Words visual tutorial index page showing tutorial
-  cards
-og_title: دروس Aspose.Words المرئية – أدلة خطوة بخطوة لـ .NET و Java و C++ و Python
-schemas:
-- author: Aspose
-  dateModified: '2026-08-05'
-  description: Learn Aspose.Words with step‑by‑step visual tutorials for .NET, Java,
-    C++, Python and more. Master document creation, editing, conversion, and automation
-    easily.
-  headline: Aspose.Words visual tutorials
-  type: TechArticle
-tags:
-- Aspose.Words
-- visual tutorials
-- document processing
-- .NET
-- Java
-- Python
-title: دروس Aspose.Words المرئية
-url: /ar/
-weight: 10
----
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
-# دروس Aspose.Words المرئية
-
-Aspose.Words visual tutorials provide developers with clear, step‑by‑step guides for every major platform—.NET, Java, C++, Python and more. You can instantly see how to create, edit, convert, and format Word documents, which speeds up implementation and reduces trial‑and‑error time. By following these visual examples you’ll be able to integrate powerful document‑processing capabilities into your applications with confidence.
-
-## [دروس Aspose.Words للـ .NET المرئية](./net/)
-
-Aspose.Words for .NET offers a comprehensive set of visual tutorials to help developers master document manipulation in their applications. These step‑by‑step guides cover creating, editing, and converting Word documents, as well as inserting images, tables, and form fields. With clear instructions and visual demonstrations, the tutorials simplify complex tasks, making automation and integration seamless. Whether you're new to Aspose or enhancing your skills, these hands‑on tutorials provide practical experience to improve your document‑processing capabilities.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 ### [العمل مع المخططات في Aspose.Words](./net/working-with-charts/)
+تعلم **إدراج وتخصيص المخططات** — بما في ذلك مخططات الشريط، الخط، والنقاط المتناثرة — مباشرة داخل مستندات Word.
 
-Learn to insert and customize different types of charts, such as bar, line, and scatter charts, within Word documents.
+{{< tutorial-card link="./net/working-with-charts/bounds-of-axis/" title="إنشاء مستند مع مخططات " imgSrc="./net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/bounds-of-axis/" title="Create a Document with Charts " imgSrc="./net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-charts/create-chart-using-shape/" title="إنشاء مخطط خطي في Word " imgSrc="./net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/create-chart-using-shape/" title="Create a Line Chart in Word " imgSrc="./net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-charts/insert-area-chart/" title="إدراج مخطط مساحي في مستند Word" imgSrc="./net/working-with-charts/insert-area-chart/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/insert-area-chart/" title="Insert Area Chart in Word Document" imgSrc="./net/working-with-charts/insert-area-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-charts/insert-bubble-chart/" title="إدراج مخطط فقاعة في Word " imgSrc="./net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/insert-bubble-chart/" title="Insert a Bubble Chart in Word " imgSrc="./net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-charts/insert-column-chart/" title="إدراج مخطط عمودي في Word " imgSrc="./net/working-with-charts/insert-column-chart/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/insert-column-chart/" title="Insert Column Chart in Word " imgSrc="./net/working-with-charts/insert-column-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-charts/insert-scatter-chart/" title="إنشاء مخطط نقاط متناثرة في Word " imgSrc="./net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/insert-scatter-chart/" title="Create Word Scatter Chart " imgSrc="./net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-charts/insert-simple-column-chart/" title="Insert a Simple Column Chart in Word " imgSrc="./net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-### [العمل مع أنماط الجداول وتنسيقها في Aspose.Words للـ .NET](./net/working-with-table-styles-and-formatting/)
-
-Discover how to create, format, and customize tables in Word documents, including setting borders, styles, and cell padding.
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-outline-border/" title="Apply Outline Border to a Table in Word" imgSrc="./net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-row-formatting/" title="Apply Row Formatting in Word Documents" imgSrc="./net/working-with-table-styles-and-formatting/apply-row-formatting/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/build-table-with-border/" title="Modify Table Borders in Word " imgSrc="./net/working-with-table-styles-and-formatting/build-table-with-border/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/buildtable-with-style/" title="Create Styled Tables in Word with Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/buildtable-with-style/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/cell-padding/" title="Create Word Table Cell with Padding in Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/cell-padding/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/create-table-style/" title="Create Styled Table in Word Document " imgSrc="./net/working-with-table-styles-and-formatting/create-table-style/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/format-table-and-cell/" title="Create Word Document with Table Borders & Shading" imgSrc="./net/working-with-table-styles-and-formatting/format-table-and-cell/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/" title="Create and Format a Table in Word Document" imgSrc="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-row-formatting/" title="Create a Formatted Table in Word with Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/set-table-row-formatting/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/table-tittle-and-description/" title="Add Title & Description to Table in Word" imgSrc="./net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-charts/insert-simple-column-chart/" title="إدراج مخطط عمودي بسيط في Word " imgSrc="./net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [إضافة محتوى باستخدام Document Builder في Aspose.Words للـ .NET](./net/add-content-using-document-builder/)
+### [العمل مع أنماط وتنسيق الجداول في Aspose.Words for .NET](./net/working-with-table-styles-and-formatting/)
+اكتشف كيفية **إنشاء وتنسيق وتخصيص الجداول**، ضبط الحدود، تطبيق الأنماط، وتعديل حشو الخلايا.
 
-The **DocumentBuilder** class provides methods to programmatically construct and modify Word documents. Learn how to insert text, tables, images, and other elements into Word documents programmatically using the Document Builder class.
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-outline-border/" title="تطبيق حد خارجي لجدول في Word" imgSrc="./net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/build-table/" title="Create a Word Document with Table" imgSrc="./net/add-content-using-document-builder/build-table/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-row-formatting/" title="تطبيق تنسيق الصفوف في مستندات Word" imgSrc="./net/working-with-table-styles-and-formatting/apply-row-formatting/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-break/" title="Create a Multi-Page Word Document with Aspose.Words" imgSrc="./net/add-content-using-document-builder/insert-break/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/build-table-with-border/" title="تعديل حدود الجدول في Word " imgSrc="./net/working-with-table-styles-and-formatting/build-table-with-border/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-floating-image/" title="Create Word Document with Floating Image in .NET" imgSrc="./net/add-content-using-document-builder/insert-floating-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/buildtable-with-style/" title="إنشاء جداول منسقة في Word باستخدام Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/buildtable-with-style/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-horizontal-rule/" title="Create Word Document with Horizontal Rule in .NET" imgSrc="./net/add-content-using-document-builder/insert-horizontal-rule/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/cell-padding/" title="إنشاء خلية جدول Word مع حشو في Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/cell-padding/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-inline-image/" title="Insert Inline Image in Word Document" imgSrc="./net/add-content-using-document-builder/insert-inline-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/create-table-style/" title="إنشاء جدول منسق في مستند Word " imgSrc="./net/working-with-table-styles-and-formatting/create-table-style/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-paragraph/" title="Create Word Document with Aspose.Words " imgSrc="./net/add-content-using-document-builder/insert-paragraph/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/format-table-and-cell/" title="إنشاء مستند Word مع حدود الجدول وتظليل" imgSrc="./net/working-with-table-styles-and-formatting/format-table-and-cell/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title="Create a Word Document with Table of Contents in .NET" imgSrc="./net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/" title="إنشاء وتنسيق جدول في مستند Word" imgSrc="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/images/thumb.png" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-row-formatting/" title="إنشاء جدول منسق في Word باستخدام Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/set-table-row-formatting/images/thumb.png" >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [تنسيق المستند مع Aspose.Words للـ .NET](./net/document-styling/)
-
-Understand how to apply various formatting options to paragraphs, lists, and document elements to enhance the visual appeal of your Word files.
-
-{{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="Apply Borders & Shading to Paragraph in Aspose.Words " imgSrc="./net/document-styling/apply-border-and-shading/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/document-styling/apply-paragraph-style/" title="Create and Style a Word Document in Aspose.Words " imgSrc="./net/document-styling/apply-paragraph-style/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/document-styling/multilevel-list-formatting/" title="Create Multilevel Lists in Word with Aspose.Words" imgSrc="./net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="Format Paragraphs " imgSrc="./net/document-styling/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/table-tittle-and-description/" title="إضافة عنوان ووصف إلى جدول في Word" imgSrc="./net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [العمل مع الخطوط في Aspose.Words للـ .NET](./net/font-styling/)
+### [إضافة محتوى باستخدام Document Builder في Aspose.Words for .NET](./net/add-content-using-document-builder/)
+تعلم كيفية **إدراج النصوص والجداول والصور والعناصر الأخرى** برمجيًا باستخدام فئة Document Builder.
 
-Explore font‑related features such as font styles, line spacing, emphasis marks, and other typography settings in Word documents.
+{{< tutorial-card link="./net/add-content-using-document-builder/build-table/" title="إنشاء مستند Word مع جدول" imgSrc="./net/add-content-using-document-builder/build-table/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/font-styling/font-formatting/" title="Create Font Formatting in Word " imgSrc="./net/font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-break/" title="إنشاء مستند Word متعدد الصفحات باستخدام Aspose.Words" imgSrc="./net/add-content-using-document-builder/insert-break/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/font-styling/get-font-line-spacing/" title="Get Font Line Spacing in Word Document" imgSrc="./net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-floating-image/" title="إنشاء مستند Word مع صورة عائمة في .NET" imgSrc="./net/add-content-using-document-builder/insert-floating-image/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Set Emphasis Mark in Word Document " imgSrc="./net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-horizontal-rule/" title="إنشاء مستند Word مع خط أفقي في .NET" imgSrc="./net/add-content-using-document-builder/insert-horizontal-rule/images/thumb.png" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-inline-image/" title="إدراج صورة مدمجة في مستند Word" imgSrc="./net/add-content-using-document-builder/insert-inline-image/images/thumb.png" >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [العمل مع حقول النماذج في Aspose.Words للـ .NET](./net/working-with-form-fields/)
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-paragraph/" title="إنشاء مستند Word باستخدام Aspose.Words " imgSrc="./net/add-content-using-document-builder/insert-paragraph/images/thumb.png" >}}
 
-Find out how to insert and manage form fields like text input, drop‑down lists, and checkboxes within Word documents.
-
-{{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="Insert Combo Box Form Field in Word Document" imgSrc="./net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title="إنشاء مستند Word مع جدول محتويات في .NET" imgSrc="./net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [العمل مع رؤوس وتذييلات الصفحات في Aspose.Words للـ .NET](./net/header-footer-formatting/)
+### [تنسيق المستندات باستخدام Aspose.Words for .NET](./net/document-styling/)
+افهم كيفية **تطبيق خيارات التنسيق** على الفقرات والقوائم والعناصر الأخرى لتحسين مظهر المستند.
 
-Learn how to create and manipulate headers and footers, including adding images, page numbers, and text.
+{{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="تطبيق الحدود والتظليل على الفقرة في Aspose.Words " imgSrc="./net/document-styling/apply-border-and-shading/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="Create Word Document with Header and Footer" imgSrc="./net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-paragraph-style/" title="إنشاء وتنسيق مستند Word في Aspose.Words " imgSrc="./net/document-styling/apply-paragraph-style/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="Insert an Image into Word Document Header" imgSrc="./net/header-footer-formatting/insert-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/multilevel-list-formatting/" title="إنشاء قوائم متعددة المستويات في Word باستخدام Aspose.Words" imgSrc="./net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-### [العمل مع الأقسام في Aspose.Words للـ .NET](./net/document-sections/)
-
-Understand how to structure documents into sections, allowing different headers, footers, and formatting styles.
-
-{{< tutorial-card link="./net/document-sections/add-section/" title="Add a New Section to Word Document" imgSrc="./net/document-sections/add-section/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/document-sections/append-section-content/" title="Append and Prepend Content in Word Documents" imgSrc="./net/document-sections/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="تنسيق الفقرات " imgSrc="./net/document-styling/paragraph-formatting/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [العمل مع الأشكال في Aspose.Words للـ .NET](./net/working-with-shapes/)
+### [العمل مع الخطوط في Aspose.Words for .NET](./net/font-styling/)
+استكشف **ميزات الخطوط** مثل الأنماط، تباعد الأسطر، وعلامات التشديد.
 
-Discover how to insert and manipulate various shapes, including grouped shapes and predefined drawings, in Word documents.
+{{< tutorial-card link="./net/font-styling/font-formatting/" title="إنشاء تنسيق الخط في Word " imgSrc="./net/font-styling/font-formatting/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-shapes/add-group-shape/" title="Create Group Shape in Word Document " imgSrc="./net/working-with-shapes/add-group-shape/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/get-font-line-spacing/" title="الحصول على تباعد سطر الخط في مستند Word" imgSrc="./net/font-styling/get-font-line-spacing/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-shapes/insert-shape/" title="Insert Shapes in Word Documents " imgSrc="./net/working-with-shapes/insert-shape/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="تعيين علامة التشديد في مستند Word " imgSrc="./net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [العمل مع العلامة المائية في Aspose.Words للـ .NET](./net/working-with-watermark)
+### [العمل مع حقول النماذج في Aspose.Words for .NET](./net/working-with-form-fields/)
+اكتشف كيفية **إدراج وإدارة حقول النماذج** مثل مدخلات النص، القوائم المنسدلة، ومربعات الاختيار.
 
-Learn to add text and image watermarks to Word documents for branding or security purposes.
+{{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="إدراج حقل نموذج صندوق اختيار منسدلة في مستند Word" imgSrc="./net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-watermark/add-text-watermark/" title="Add Text Watermark in Word Document " imgSrc="./net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+### [العمل مع الرؤوس والتذييلات في Aspose.Words for .NET](./net/header-footer-formatting/)
+تعلم كيفية **إنشاء وتعديل الرؤوس والتذييلات**، بما في ذلك إضافة الصور، أرقام الصفحات، والنص المخصص.
+
+{{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="إنشاء مستند Word مع رأس وتذييل" imgSrc="./net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="إدراج صورة في رأس مستند Word" imgSrc="./net/header-footer-formatting/insert-image/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+### [العمل مع الأقسام في Aspose.Words for .NET](./net/document-sections/)
+افهم كيفية **تقسيم المستندات إلى أقسام**، مما يتيح رؤوسًا وتذييلات وأنماط تنسيق مختلفة.
+
+{{< tutorial-card link="./net/document-sections/add-section/" title="إضافة قسم جديد إلى مستند Word" imgSrc="./net/document-sections/add-section/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/document-sections/append-section-content/" title="إلحاق وإضافة محتوى في بداية مستندات Word" imgSrc="./net/document-sections/append-section-content/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+### [العمل مع الأشكال في Aspose.Words for .NET](./net/working-with-shapes/)
+اكتشف كيفية **إدراج وتعديل الأشكال**، بما في ذلك الأشكال المجمعة والرسومات المحددة مسبقًا.
+
+{{< tutorial-card link="./net/working-with-shapes/add-group-shape/" title="إنشاء شكل مجموعة في مستند Word " imgSrc="./net/working-with-shapes/add-group-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/working-with-shapes/insert-shape/" title="إدراج أشكال في مستندات Word " imgSrc="./net/working-with-shapes/insert-shape/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+### [العمل مع العلامة المائية في Aspose.Words for .NET](./net/working-with-watermark)
+تعلم كيفية **إضافة علامات مائية نصية وصورية** لأغراض العلامة التجارية أو الأمان.
+
+{{< tutorial-card link="./net/working-with-watermark/add-text-watermark/" title="إضافة علامة مائية نصية في مستند Word " imgSrc="./net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-These are links to some useful resources:
-- [AI Powered Document Processing](./net/ai-powered-document-processing/)
-- [Apply License](./net/apply-license/)
-- [Enable OpenType features](./net/enable-opentype-features/)
-- [Working with Comments](./net/working-with-comments/)
-- [Working with Fields](./net/working-with-fields/)
-- [Working with Footnote and Endnote](./net/working-with-footnote-and-endnote/)
-- [Working with FormFields](./net/working-with-formfields/)
-- [Working with Headers and Footers](./net/working-with-headers-and-footers/)
-- [Working with Hyphenation](./net/working-with-hyphenation/)
-- [Working with List](./net/working-with-list/)
-- [Working with Markdown](./net/working-with-markdown/)
-- [Working with Node](./net/working-with-node/)
-- [Working with Revisions](./net/working-with-revisions/)
-- [Working with Textboxes](./net/working-with-textboxes/)
-- [Split Document](./net/split-document/)
-- [Add Content Using Documentbuilder](./net/add-content-using-documentbuilder/)
-- [Clone And Combine Documents](./net/clone-and-combine-documents/)
-- [Compare Documents](./net/compare-documents/)
-- [Document Formatting](./net/document-formatting/)
-- [Programming With Watermark](./net/programming-with-watermark/)
-- [Programming With Markdownsaveoptions](./net/programming-with-markdownsaveoptions/)
-- [Basic Conversions](./net/basic-conversions/)
+هذه روابط لبعض الموارد المفيدة:
+- [معالجة المستندات المدعومة بالذكاء الاصطناعي](./net/ai-powered-document-processing/)
+- [تطبيق الترخيص](./net/apply-license/)   
+- [تمكين ميزات OpenType](./net/enable-opentype-features/)   
+- [العمل مع التعليقات](./net/working-with-comments/)   
+- [العمل مع الحقول](./net/working-with-fields/)   
+- [العمل مع الحواشي والهوامش](./net/working-with-footnote-and-endnote/)   
+- [العمل مع حقول النماذج](./net/working-with-formfields/)   
+- [العمل مع الرؤوس والتذييلات](./net/working-with-headers-and-footers/)   
+- [العمل مع التجزئة](./net/working-with-hyphenation/)   
+- [العمل مع القوائم](./net/working-with-list/)   
+- [العمل مع Markdown](./net/working-with-markdown/)   
+- [العمل مع Node](./net/working-with-node/)   
+- [العمل مع المراجعات](./net/working-with-revisions/)   
+- [العمل مع مربعات النص](./net/working-with-textboxes/)   
+- [تقسيم المستند](./net/split-document/)   
+- [إضافة محتوى باستخدام Documentbuilder](./net/add-content-using-documentbuilder/)
+- [استنساخ ودمج المستندات](./net/clone-and-combine-documents/) 
+- [مقارنة المستندات](./net/compare-documents/) 
+- [تنسيق المستند](./net/document-formatting/)      
+- [البرمجة مع العلامة المائية](./net/programming-with-watermark/)    
+- [البرمجة مع Markdownsaveoptions](./net/programming-with-markdownsaveoptions/)   
+- [التحويلات الأساسية](./net/basic-conversions/)   
 
-## دروس معالجة مستندات Aspose.Words للـ Java
+## دروس معالجة المستندات باستخدام Aspose.Words للغة Java
 
 {{% alert color="primary" %}}
-This comprehensive collection of tutorials provides step‑by‑step guidance on how to effectively work with Microsoft Word documents programmatically. From document creation and manipulation to advanced features such as mail merge, table formatting, and document encryption, these tutorials cover a wide range of functionalities. By following these tutorials, developers can seamlessly integrate Aspose.Words into their Java projects, enabling efficient document processing and enhancing their applications with professional‑grade document management capabilities. 
+توفر هذه المجموعة الشاملة من الدروس إرشادات خطوة بخطوة حول كيفية التعامل بفعالية مع مستندات Microsoft Word برمجيًا. من إنشاء المستندات ومعالجتها إلى الميزات المتقدمة مثل دمج البريد، تنسيق الجداول، وتشفير المستندات، تغطي هذه الدروس مجموعة واسعة من الوظائف. باتباع هذه الدروس، يمكن للمطورين دمج Aspose.Words بسلاسة في مشاريع Java الخاصة بهم، مما يتيح معالجة مستندات فعّالة ويعزز تطبيقاتهم بقدرات إدارة مستندات احترافية.
 {{% /alert %}}
 
-These are links to some useful resources:
-- [Word Processing](./java/word-processing/)  
-- [Table Processing](./java/table-processing/)
-- [Document Styling](./java/document-styling/)
-- [Document Merging](./java/document-merging/)
-- [Document Converting](./java/document-converting/)
-- [Document Printing](./java/document-printing/)
-- [Document Rendering](./java/document-rendering/)
-- [Document Security](./java/document-security/)
-- [Document Splitting](./java/document-splitting/)
-- [Document Revision](./java/document-revision/)
-- [Document Loading and Saving](./java/document-loading-and-saving/)
-- [Document Manipulation](./java/document-manipulation/)
-- [Document Conversion and Export](./java/document-conversion-and-export/)
-- [Licensing and Configuration](./java/licensing-and-configuration/)
-- [Using Document Elements](./java/using-document-elements/)
-- [Printing Documents](./java/printing-documents/)
-- [Rendering Documents](./java/rendering-documents/)
-- [Getting Started](./java/getting-started/)
-- [Document Operations](./java/document-operations/)
-- [Content Management](./java/content-management/)
-- [Headers, Footers & Page Setup](./java/headers-footers-page-setup/)
-- [Annotations & Comments](./java/annotations-comments/)
-- [Advanced Text Processing](./java/advanced-text-processing/)
-- [Document Comparison & Tracking](./java/document-comparison-tracking/)
-- [Performance Optimization](./java/performance-optimization/)
-- [Integration & Interoperability](./java/integration-interoperability/)
-- [Security & Protection](./java/security-protection/)
-- [Formatting & Styles](./java/formatting-styles/)
-- [Tables & Lists](./java/tables-lists/)
-- [Images & Shapes](./java/images-shapes/)
-- [Mail Merge & Reporting](./java/mail-merge-reporting/)
-- [AI & Machine Learning Integration](./java/ai-machine-learning-integration/)
+هذه روابط لبعض الموارد المفيدة:
+- [معالجة النصوص](./java/word-processing/)  
+- [معالجة الجداول](./java/table-processing/)
+- [تنسيق المستند](./java/document-styling/)
+- [دمج المستندات](./java/document-merging/)
+- [تحويل المستند](./java/document-converting/)
+- [طباعة المستند](./java/document-printing/)
+- [عرض المستند](./java/document-rendering/)
+- [أمان المستند](./java/document-security/)
+- [تقسيم المستند](./java/document-splitting/)
+- [مراجعة المستند](./java/document-revision/)
+- [تحميل وحفظ المستند](./java/document-loading-and-saving/)
+- [معالجة المستند](./java/document-manipulation/)
+- [تحويل وتصدير المستند](./java/document-conversion-and-export/)
+- [الترخيص والتكوين](./java/licensing-and-configuration/)
+- [استخدام عناصر المستند](./java/using-document-elements/)
+- [طباعة المستندات](./java/printing-documents/)
+- [عرض المستندات](./java/rendering-documents/)
+- [البدء](./java/getting-started/)
+- [عمليات المستند](./java/document-operations/)
+- [إدارة المحتوى](./java/content-management/)
+- [الرؤوس، التذييلات وإعداد الصفحة](./java/headers-footers-page-setup/)
+- [التعليقات والهوامش](./java/annotations-comments/)
+- [معالجة النص المتقدمة](./java/advanced-text-processing/)
+- [مقارنة المستند وتتبع التغييرات](./java/document-comparison-tracking/)
+- [تحسين الأداء](./java/performance-optimization/)
+- [التكامل والتشغيل البيني](./java/integration-interoperability/)
+- [الأمان والحماية](./java/security-protection/)
+- [التنسيق والأنماط](./java/formatting-styles/)
+- [الجداول والقوائم](./java/tables-lists/)
+- [الصور والأشكال](./java/images-shapes/)
+- [دمج البريد والتقارير](./java/mail-merge-reporting/)
+- [دمج الذكاء الاصطناعي وتعلم الآلة](./java/ai-machine-learning-integration/)
 
-## دروس إدارة مستندات Aspose.Words للـ Python
+## دروس إدارة المستندات باستخدام Aspose.Words للغة Python
 
 {{% alert color="primary" %}}
-These tutorials offer step‑by‑step guidance on how to work with Microsoft Word documents programmatically, including document creation, manipulation, and various security features like encryption and password protection. With the help of this resource, developers can efficiently implement document processing functionalities in their Python applications using Aspose.Words, enhancing productivity and ensuring document security. 
+توفر هذه الدروس إرشادات خطوة بخطوة حول كيفية التعامل مع مستندات Microsoft Word برمجيًا، بما في ذلك إنشاء المستندات، معالجتها، ومختلف ميزات الأمان مثل التشفير وحماية كلمة المرور. من خلال هذه الموارد، يمكن للمطورين تنفيذ وظائف معالجة المستندات بفعالية في تطبيقات Python باستخدام Aspose.Words، مما يعزز الإنتاجية ويضمن أمان المستندات.
 {{% /alert %}}
 
-These are links to some useful resources:
-- [Document Creation](./python-net/document-creation/)  
-- [Word Automation](./python-net/word-automation/)
-- [Document Intelligence](./python-net/document-intelligence/)
-- [Document Conversion](./python-net/document-conversion/)
-- [Document Protection](./python-net/document-protection/)
-- [Getting Started](./python-net/getting-started/)
-- [Document Operations](./python-net/document-operations/)
-- [Content Management](./python-net/content-management/)
-- [Formatting & Styles](./python-net/formatting-styles/)
-- [Tables & Lists](./python-net/tables-lists/)
-- [Images & Shapes](./python-net/images-shapes/)
-- [Mail Merge & Reporting](./python-net/mail-merge-reporting/)
-- [Headers, Footers & Page Setup](./python-net/headers-footers-page-setup/)
-- [Document Properties & Metadata](./python-net/document-properties-metadata/)
-- [Security & Protection](./python-net/security-protection/)
-- [Annotations & Comments](./python-net/annotations-comments/)
-- [Document Comparison & Tracking](./python-net/document-comparison-tracking/)
-- [Document Splitting and Formatting](./python-net/document-splitting-and-formatting/)
-- [Document Combining and Comparison](./python-net/document-combining-and-comparison/)
-- [Performance & Optimization](./python-net/performance-optimization/)
-- [Integration & Interoperability](./python-net/integration-interoperability/)
-- [AI Content Transformation](./python-net/ai-content-transformation/)
-- [Document Structure and Content Manipulation](./python-net/document-structure-and-content-manipulation/)
-- [Content Extraction and Manipulation](./python-net/content-extraction-and-manipulation/)
-- [Tables and Formatting](./python-net/tables-and-formatting/)
-- [Document Options and Settings](./python-net/document-options-and-settings/)
+هذه روابط لبعض الموارد المفيدة:
+- [إنشاء المستند](./python-net/document-creation/)  
+- [أتمتة Word](./python-net/word-automation/)
+- [ذكاء المستند](./python-net/document-intelligence/)
+- [تحويل المستند](./python-net/document-conversion/)
+- [حماية المستند](./python-net/document-protection/)
+- [البدء](./python-net/getting-started/)
+- [عمليات المستند](./python-net/document-operations/)
+- [إدارة المحتوى](./python-net/content-management/)
+- [التنسيق والأنماط](./python-net/formatting-styles/)
+- [الجداول والقوائم](./python-net/tables-lists/)
+- [الصور والأشكال](./python-net/images-shapes/)
+- [دمج البريد والتقارير](./python-net/mail-merge-reporting/)
+- [الرؤوس، التذييلات وإعداد الصفحة](./python-net/headers-footers-page-setup/)
+- [خصائص المستند والبيانات الوصفية](./python-net/document-properties-metadata/)
+- [الأمان والحماية](./python-net/security-protection/)
+- [التعليقات والهوامش](./python-net/annotations-comments/)
+- [مقارنة المستند وتتبع التغييرات](./python-net/document-comparison-tracking/)
+- [تقسيم وتنسيق المستند](./python-net/document-splitting-and-formatting/)
+- [دمج ومقارنة المستندات](./python-net/document-combining-and-comparison/)
+- [الأداء والتحسين](./python-net/performance-optimization/)
+- [التكامل والتشغيل البيني](./python-net/integration-interoperability/)
+- [تحويل محتوى الذكاء الاصطناعي](./python-net/ai-content-transformation/)
+- [هيكل المستند وتعديل المحتوى](./python-net/document-structure-and-content-manipulation/)
+- [استخراج وتعديل المحتوى](./python-net/content-extraction-and-manipulation/)
+- [الجداول والتنسيق](./python-net/tables-and-formatting/)
+- [خيارات وإعدادات المستند](./python-net/document-options-and-settings/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

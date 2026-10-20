@@ -4,7 +4,9 @@
 "url": "/de/python-net/images-shapes/"
 "weight": 6
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Bilder- und Formen-Tutorials für Aspose.Words Python-net
 
 Entdecken Sie umfassende Schritt-für-Schritt-Anleitungen für Bild- und Formoperationen mit Aspose.Words für Python-net. Diese Tutorials enthalten vollständige Codebeispiele und detaillierte Erklärungen.
@@ -32,6 +34,29 @@ Erfahren Sie, wie Sie die Bildverarbeitung in RTF-Dokumenten mit Aspose.Words f�
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Erfahren Sie, wie Sie die SVG-Ausgabe mit Aspose.Words für Python optimieren. Diese Anleitung behandelt benutzerdefinierte Funktionen wie bildähnliche Eigenschaften, Textdarstellung und Sicherheitsverbesserungen.
 
+    ### [Word-Dokument mit Python erstellen – Anleitung zum Hinzufügen von Schatten zu Formen](./create-word-document-python-add-shadow-to-shape-guide/)
+Erfahren Sie, wie Sie ein Word-Dokument mit Python erzeugen und einer Form einen Schatten hinzufügen.
+
+### [Wie man Schatten in C# hinzufügt – Vollständiger Programmierleitfaden](./how-to-add-shadow-in-c-complete-programming-guide/)
+Erfahren Sie, wie Sie Schatten zu C#-Grafiken hinzufügen und das Erscheinungsbild Ihrer Anwendungen verbessern.
+
+### [Rechteck zu PDF mit Aspose.Words hinzufügen – Schritt‑für‑Schritt‑Anleitung](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words ein Rechteck in ein PDF einfügen und formatieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Rechteckform in Python erstellen – Vollständiger Leitfaden zum Hinzufügen von Schatten & Speichern als PDF](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
+Erfahren Sie, wie Sie in Python ein Rechteck erstellen, Schatten hinzufügen und das Ergebnis als PDF speichern.
+### [Wie man ein Rechteck einfügt und Schatten in Word mit Aspose hinzufügt](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
+Erfahren Sie, wie Sie mit Aspose ein Rechteck in ein Word-Dokument einfügen und einen Schatten hinzufügen.
+### [Wie man Schatten zu einer Form in Python hinzufügt – Vollständiger Aspose.Words-Leitfaden](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
+Erfahren Sie, wie Sie mit Aspose.Words für Python Schatten zu Formen hinzufügen und das visuelle Erscheinungsbild Ihrer Dokumente verbessern.
+### [Wie man ein Dokument mit einem schattierten Rechteck speichert – Vollständiger Python-Leitfaden](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
+Erfahren Sie, wie Sie mit Aspose.Words für Python ein Dokument speichern, das ein schattiertes Rechteck enthält, inklusive Codebeispielen.
+### [Rechteckform in Python erstellen – Vollständiger Aspose.Words-Leitfaden](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Python ein Rechteck als Form einfügen und anpassen – Schritt‑für‑Schritt‑Anleitung.
+### [Wie man Schatten zu einer Form in Word mit Python hinzufügt – Vollständiger Leitfaden](./add-shadow-to-shape-in-word-with-python-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Python Schatten zu Formen in Word‑Dokumenten hinzufügen und das Layout verbessern.
+### [Wie man Schatten in Aspose.Words setzt – Python-Beispiel](./how-to-set-shadow-in-aspose-words-python-example/)
+Erfahren Sie, wie Sie in Aspose.Words für Python Schatten zu Elementen hinzufügen und das Layout Ihrer Dokumente verbessern.
+
 ## Weitere Ressourcen
 
 - [Aspose.Words für die Python-Net-Dokumentation](https://docs.aspose.com/words/python-net/)
@@ -40,3 +65,7 @@ Erfahren Sie, wie Sie die SVG-Ausgabe mit Aspose.Words für Python optimieren. D
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Kostenloser Support](https://forum.aspose.com/)
 - [Temporäre Lizenz](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -20,6 +20,12 @@ Ordbehandling med sidhuvuden och sidfot är en omfattande resurs för att lära 
 
 
  ## Handledningar
+
+{{< tutorial-card link="./insert-header-date/" title="Infoga dynamiskt datum i sidhuvud i Word-dokument med Aspose.Words för .NET" imgSrc="./insert-header-date/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-page-numbers/" title="Lägg till sidnummer i sidfoten på ett Word‑dokument med Aspose.Words för .NET" imgSrc="./add-page-numbers/images/thumb.png" >}}
+
+
 | Titel | Beskrivning |
 | --- | --- |
 | [Skapa sidhuvud/sidfot](./create-header-footer/) | Lär dig hur du skapar sidhuvuden och sidfot i dina Word-dokument med Aspose.Words för .NET. Anpassa sidhuvuden och sidfot för varje sida. |

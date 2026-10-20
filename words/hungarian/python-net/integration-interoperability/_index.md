@@ -4,7 +4,9 @@
 "url": "/hu/python-net/integration-interoperability/"
 "weight": 15
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Integrációs és interoperabilitási oktatóanyagok az Aspose.Words Python-nethez
 
 Fedezz fel átfogó, lépésről lépésre haladó útmutatókat az integrációs és interoperabilitási műveletekhez az Aspose.Words for Python-net használatával. Ezek az oktatóanyagok teljes kódpéldákat és részletes magyarázatokat tartalmaznak.
@@ -32,6 +34,9 @@ Kód oktatóanyag az Aspose.Words Python-nethez
     ### [Master VBA Automation with Aspose.Words for Python&#58; A Complete Guide to Creating, Cloning, and Managing Projects](./master-vba-automation-aspose-words-python/)
 Ismerje meg, hogyan automatizálhatja a Microsoft Word VBA-projekteket Python használatával. Ez az útmutató a VBA-projektekben az Aspose.Words segítségével történő létrehozást, klónozást, védelmi állapot ellenőrzését és hivatkozások kezelését ismerteti.
 
+### [cmake build x64 – Teljes útmutató a VS 2022 projektek generálásához és felépítéséhez](./cmake-build-x64-complete-guide-to-generating-and-building-vs/)
+Ismerje meg, hogyan generálhat és építhet VS 2022 x64 projekteket cmake segítségével.
+
 ## További források
 
 - [Aspose.Words Python-net dokumentációhoz](https://docs.aspose.com/words/python-net/)
@@ -40,3 +45,7 @@ Ismerje meg, hogyan automatizálhatja a Microsoft Word VBA-projekteket Python ha
 - [Aspose.Words Fórum](https://forum.aspose.com/c/words/8)
 - [Ingyenes támogatás](https://forum.aspose.com/)
 - [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

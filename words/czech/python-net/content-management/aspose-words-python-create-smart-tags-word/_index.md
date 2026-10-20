@@ -5,7 +5,9 @@
 "url": "/cs/python-net/content-management/aspose-words-python-create-smart-tags-word/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Zvládnutí tvorby a správy inteligentních tagů ve Wordu s Aspose.Words pro Python
 
 ## Zavedení
@@ -236,3 +238,7 @@ Pro další informace si prohlédněte tyto zdroje:
 - **Fórum podpory**Zapojte se do komunity na [Fórum podpory Aspose](https://forum.aspose.com/c/words/10)
 
 S tímto komplexním průvodcem jste nyní vybaveni k využití Aspose.Words pro Python k vytváření a správě inteligentních tagů ve vašich dokumentech Word. Přejeme vám příjemné programování!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

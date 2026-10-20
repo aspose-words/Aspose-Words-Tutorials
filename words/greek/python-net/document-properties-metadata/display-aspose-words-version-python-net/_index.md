@@ -5,7 +5,9 @@
 "url": "/el/python-net/document-properties-metadata/display-aspose-words-version-python-net/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Πώς να εμφανίσετε την έκδοση Aspose.Words σε Python και .NET
 
 ## Εισαγωγή
@@ -144,3 +146,7 @@ print(f'I am currently using {product_name}, version number {version_number}!')
 - [Φόρουμ Υποστήριξης Aspose](https://forum.aspose.com/c/words/10)
 
 Με αυτά τα εργαλεία, είστε άρτια εξοπλισμένοι για να διαχειριστείτε αποτελεσματικά τις εγκαταστάσεις Aspose.Words. Καλή κωδικοποίηση!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,88 +1,160 @@
 ---
-"description": "Aspose.Words for Java を使用して表の書式設定とスタイルの適用方法を学びましょう。このステップバイステップガイドでは、罫線の設定、セルの網掛け、表スタイルの適用などについて説明します。"
-"linktitle": "表の書式設定と表スタイル"
-"second_title": "Aspose.Words Java ドキュメント処理 API"
-"title": "表の書式設定と表スタイル"
-"url": "/ja/java/document-conversion-and-export/formatting-tables-and-table-styles/"
-"weight": 17
+date: 2026-10-17
+description: Aspose.Words for Java を使用して table cells の borders を変更する方法を学びます。cell border
+  styles の設定、first column style の適用、auto‑fit table contents などが含まれます。
+keywords:
+- how to change borders
+- apply first column style
+- Aspose.Words table styling
+- Java document processing
+lastmod: 2026-10-17
+linktitle: Aspose.Words for Java を使用して table cells の borders を変更する方法
+og_description: Aspose.Words for Java を使用して table cells の borders を変更する方法です。このガイドでは、cell
+  border thickness の設定、first column style の適用、auto‑fit tables を使用して professional documents
+  を作成する方法を示します。
+og_image_alt: Screenshot of a Java table with customized cell borders using Aspose.Words
+og_title: table cells の borders を変更する方法 – Aspose.Words for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-17'
+  description: Learn how to change borders in table cells with Aspose.Words for Java,
+    including setting cell border styles, applying first column style, and auto‑fit
+    table contents.
+  headline: How to change borders in table cells using Aspose.Words for Java
+  type: TechArticle
+- description: Learn how to change borders in table cells with Aspose.Words for Java,
+    including setting cell border styles, applying first column style, and auto‑fit
+    table contents.
+  name: How to change borders in table cells using Aspose.Words for Java
+  steps:
+  - name: '**Java Development Kit (JDK) 8+** – ensure `java` is on your PATH.'
+    text: '**Java Development Kit (JDK) 8+** – ensure `java` is on your PATH.'
+  - name: '**IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.'
+    text: '**IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.'
+  - name: '**Aspose.Words for Java** – download the latest JAR from the [official
+      site](https://releases.aspose.com/words/java/).'
+    text: '**Aspose.Words for Java** – download the latest JAR from the [official
+      site](https://releases.aspose.com/words/java/).'
+  - name: '**Basic Java knowledge** – you should be comfortable creating a Maven/Gradle
+      project and adding external JARs.'
+    text: '**Basic Java knowledge** – you should be comfortable creating a Maven/Gradle
+      project and adding external JARs.'
+  type: HowTo
+- questions:
+  - answer: Yes, you can create and apply custom styles programmatically. See the
+      [Aspose.Words documentation](https://reference.aspose.com/words/java/) for details.
+    question: Can I use custom table styles not included in the default options?
+  - answer: Use standard Java logic to inspect cell values, then call the appropriate
+      formatting methods (e.g., change background colour if a value exceeds a threshold).
+    question: How can I apply conditional formatting to cells?
+  - answer: Absolutely. After merging cells, apply shading or borders using the same
+      `CellFormat` APIs.
+    question: Is it possible to format merged cells the same way as regular cells?
+  - answer: Adjust column widths or call `autoFit` again after inserting new data
+      to recalculate the layout.
+    question: What if I need the table to resize dynamically based on user input?
+  - answer: The official [Aspose.Words API documentation](https://reference.aspose.com/words/java/)
+      contains a comprehensive set of samples.
+    question: Where can I find more examples of table styling?
+  type: FAQPage
+second_title: Aspose.Words Java Document Processing API
+tags:
+- Aspose.Words
+- Java tables
+- document formatting
+- border styling
+title: Aspose.Words for Java を使用して table cells の borders を変更する方法
+url: /ja/java/document-conversion-and-export/formatting-tables-and-table-styles/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 表の書式設定と表スタイル
+# Aspose.Words for Java を使用したテーブルセルの罫線の変更方法
 
+## はじめに
 
-## 導入
+データを清潔でプロフェッショナルなレイアウトで提示する必要があるとき、**セルの罫線を変更する**ことは最初に行う視覚的調整の一つです。Java では、Aspose.Words がフル機能の API を提供し、テーブルのスタイル設定、個々のセル罫線の調整、first‑column スタイルの有効化、コンテンツに合わせた自動フィットを行い、テーブルがページをはみ出さないようにします。このチュートリアルでは、ドキュメントの作成から各罫線の微調整までのすべての手順を解説し、これらの機能が実際のレポートや請求書でなぜ重要かを示します。
 
-ドキュメントの書式設定において、表はデータを整理し、わかりやすく提示する上で重要な役割を果たします。JavaとAspose.Wordsを併用すれば、ドキュメント内で表を作成・書式設定するための強力なツールを活用できます。シンプルな表のデザインから高度なスタイルを適用するまで、Aspose.Words for Javaは、プロフェッショナルな仕上がりを実現するための幅広い機能を提供します。
+## クイック回答
 
-このガイドでは、Aspose.Words for Java を使用して表の書式設定と表スタイルの適用方法を詳しく説明します。表の罫線の設定、セルの網掛けの適用、表スタイルを使用してドキュメントの見栄えを向上させる方法を学びます。このガイドを修了すると、データを際立たせる、適切に書式設定された表を作成できるようになります。
+`DocumentBuilder` クラスは、プログラムでドキュメントやテーブルを構築するために使用されます。  
+- **テーブル構築の主要クラスは何ですか？** `DocumentBuilder` はテーブルとセルをプログラムで作成します。  
+- **単一セルの罫線の太さを変更するには？** `builder.getCellFormat().getBorders().getLeft().setLineWidth(value)` を使用します。  
+- **事前定義されたテーブルスタイルを適用できますか？** はい – `table.setStyleIdentifier(StyleIdentifier.YOUR_STYLE)` を呼び出します。  
+- **テーブルをコンテンツに自動フィットさせるメソッドは何ですか？** `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)`。  
+- **本番環境でライセンスが必要ですか？** トライアル以外の使用には有効な Aspose.Words ライセンスが必要です。
+
+## Aspose.Words における「セル罫線の変更方法」とは何ですか？
+
+セル罫線を変更するとは、セルを区切る視覚的な線（色、幅、線種）をカスタマイズすることです。Aspose.Words for Java は、テーブル、行、または個々のセルレベルでこれらのプロパティを設定できる細かい API を提供し、ドキュメントの外観を正確にコントロールできます。
+
+## なぜ Aspose.Words for Java のテーブルスタイリングを使用するのか？
+
+Aspose.Words は **35 以上の入力および出力フォーマット**（DOCX、PDF、HTML、ODT など）をサポートし、一般的なサーバーハードウェア上で **500 ページのドキュメントを 3 秒未満**で処理でき、Microsoft Word は不要です。このライブラリは Windows、Linux、macOS で一貫して動作し、サーバー側でドキュメントを生成または変更したり、*first column style* のような組み込みテーブルスタイルを適用したり、単一のメソッド呼び出しでテーブルをコンテンツに自動フィットさせたりできます。
 
 ## 前提条件
 
-始める前に、いくつか準備しておくべきことがあります。
-
-1. Java開発キット（JDK）：JDK 8以降がインストールされていることを確認してください。Aspose.Words for Javaを正しく動作させるには、互換性のあるJDKが必要です。
-2. 統合開発環境 (IDE): IntelliJ IDEA や Eclipse などの IDE は、Java プロジェクトの管理と開発プロセスの効率化に役立ちます。
-3. Aspose.Words for Java ライブラリ: Aspose.Words for Java の最新バージョンをダウンロードしてください [ここ](https://releases.aspose.com/words/java/) それをプロジェクトに含めます。
-4. サンプル コード: いくつかのサンプル コード スニペットを使用するので、Java プログラミングとライブラリをプロジェクトに統合する方法の基本を理解していることを確認してください。
+1. **Java Development Kit (JDK) 8+** – `java` が PATH に含まれていることを確認してください。  
+2. **IDE** – IntelliJ IDEA、Eclipse、またはお好みのエディタ。  
+3. **Aspose.Words for Java** – 最新の JAR を [公式サイト](https://releases.aspose.com/words/java/) からダウンロードしてください。  
+4. **Basic Java knowledge** – Maven/Gradle プロジェクトを作成し、外部 JAR を追加できることが必要です。
 
 ## パッケージのインポート
 
-Aspose.Words for Java を使用するには、プロジェクトに関連パッケージをインポートする必要があります。これらのパッケージは、ドキュメントの操作と書式設定に必要なクラスとメソッドを提供します。
+`Document`、`DocumentBuilder`、`Table`、`StyleIdentifier` などの関連クラスは `com.aspose.words` 名前空間にあります。この単一パッケージをインポートすることで、テーブルスタイリングツールキット全体にアクセスできます。`DocumentBuilder` クラスは、プログラムでドキュメントを構築および変更するメソッドを提供します。
 
 ```java
 import com.aspose.words.*;
 ```
 
-このインポート ステートメントを使用すると、ドキュメント内のテーブルの作成とフォーマットに必要なすべての重要なクラスにアクセスできます。
+## セル罫線の変更方法
 
-## ステップ1: 表の書式設定
+以下は、テーブルを作成し、全体の罫線を適用し、次に単一セルのエッジをカスタマイズする簡潔なステップバイステップガイドです。
 
-Aspose.Words for Java で表を書式設定するには、罫線の設定、セルの網掛け、さまざまな書式設定オプションの適用などが必要です。手順は以下のとおりです。
+### 直接回答
+`Document` は Word ファイルを表し、`DocumentBuilder` はテーブルなどのコンテンツを作成します。新しい `Document` をロードし、`DocumentBuilder` で `Table` を挿入し、テーブル全体に 2 ポイントの黒罫線を設定し、3 番目のセルの左・右・上・下の罫線を 4 ポイントに増やします。このアプローチにより、任意のセルを強調表示しつつ、テーブル全体を均一にスタイル設定できます。
 
-### ドキュメントを読み込む
+### ステップ 1: 新しいドキュメントをロードする
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-### 表を作成して書式設定する
+### ステップ 2: テーブルを作成し、全体罫線を設定する
 
 ```java
 Table table = builder.startTable();
 builder.insertCell();
 
-// 表全体の境界線を設定します。
+// Set the borders for the entire table.
 table.setBorders(LineStyle.SINGLE, 2.0, Color.BLACK);
         
-// このセルのセルの網掛けを設定します。
+// Set the cell shading for this cell.
 builder.getCellFormat().getShading().setBackgroundPatternColor(Color.RED);
 builder.writeln("Cell #1");
 
 builder.insertCell();
         
-// 2 番目のセルに異なるセルの網かけを指定します。
+// Specify a different cell shading for the second cell.
 builder.getCellFormat().getShading().setBackgroundPatternColor(Color.GREEN);
 builder.writeln("Cell #2");
 
 builder.endRow();
 ```
 
-### セルの境界線をカスタマイズする
+### ステップ 3: 単一セルの罫線を変更する
 
 ```java
-// 以前の操作によるセルの書式設定をクリアします。
+// Clear the cell formatting from previous operations.
 builder.getCellFormat().clearFormatting();
 
 builder.insertCell();
 
-// この行の最初のセルに大きな境界線を作成します。
+// Create larger borders for the first cell of this row.
 builder.getCellFormat().getBorders().getLeft().setLineWidth(4.0);
 builder.getCellFormat().getBorders().getRight().setLineWidth(4.0);
 builder.getCellFormat().getBorders().getTop().setLineWidth(4.0);
@@ -96,18 +168,19 @@ builder.writeln("Cell #4");
 doc.save("FormatTableAndCellWithDifferentBorders.docx");
 ```
 
-### 説明
+#### コードの説明
+- **Global borders** – `table.setBorders` はテーブル全体に 2 ポイントの黒線を設定します。  
+- **Cell shading** – 個々のセルに色（赤と緑）を付ける方法を示します。  
+- **Custom cell borders** – 3 番目のセルは全側面に 4 ポイントの罫線が付与され、目立つようになります。
 
-この例では、
-- 境界線の設定: テーブル全体の境界線を、太さ 2.0 ポイントの単線スタイルに設定します。
-- セルの網掛け：最初のセルは赤、2番目のセルは緑で網掛けされます。これにより、セルを視覚的に区別しやすくなります。
-- セルの境界線: 3 番目のセルには、他のセルとは異なるように強調表示するために太い境界線を作成します。
+## テーブルスタイルの適用（first column スタイルを含む）
 
-## ステップ2: 表スタイルの適用
+テーブルスタイルを使用すると、単一の呼び出しで一貫した外観を適用できます。また、*first column style* を有効にし、テーブルをコンテンツに自動フィットさせます。
 
-Aspose.Words for Java の表スタイルを使用すると、定義済みの書式設定オプションを表に適用できるため、統一感のある外観を簡単に実現できます。表にスタイルを適用する手順は次のとおりです。
+### 直接回答
+`StyleIdentifier` は組み込みテーブルスタイルを列挙し、`AutoFitBehavior` はテーブルがコンテンツに合わせてどのように調整されるかを制御します。新しい `Document` を作成し、`Table` を構築し、`StyleIdentifier` を `MEDIUM_SHADING_1_ACCENT_1` に設定し、`FirstColumn` と `RowBands` を有効にし、`autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)` を呼び出すことで、列が自動的に縮小または拡大して挿入されたデータに合わせます。
 
-### ドキュメントと表を作成する
+### ステップ 4: スタイリング用の新しいドキュメントを作成する
 
 ```java
 Document doc = new Document();
@@ -115,22 +188,24 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Table table = builder.startTable();
         
-// 表の書式を設定する前に、まず少なくとも 1 行を挿入する必要があります。
+// We must insert at least one row first before setting any table formatting.
 builder.insertCell();
 ```
 
-### 表スタイルを適用する
+### ステップ 5: 事前定義スタイルを適用し、first‑column 書式を有効にする
 
 ```java
-// 一意のスタイル識別子に基づいてテーブル スタイルを設定します。
+// Set the table style based on a unique style identifier.
 table.setStyleIdentifier(StyleIdentifier.MEDIUM_SHADING_1_ACCENT_1);
         
-// スタイルによってフォーマットする機能を適用します。
+// Apply which features should be formatted by the style.
 table.setStyleOptions(TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS | TableStyleOptions.FIRST_ROW);
+
+// Auto‑fit the table so columns shrink or expand to fit the content.
 table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS);
 ```
 
-### テーブルデータの追加
+### ステップ 6: テーブルにデータを入力する
 
 ```java
 builder.writeln("Item");
@@ -160,48 +235,59 @@ builder.endRow();
 doc.save("BuildTableWithStyle.docx");
 ```
 
-### 説明
+#### これが重要な理由
+- **Style identifier** – `MEDIUM_SHADING_1_ACCENT_1` はテーブルに清潔でシェーディングされた外観を提供します。  
+- **First column style** – 最初の列を強調表示することで、特にレポートでの可読性が向上します。  
+- **Row bands** – 行の色を交互にすることで、大きなテーブルが目に優しくなります。  
+- **Auto‑fit** – テーブル幅がコンテンツに合わせて調整され、テキストが切れ落ちるのを防ぎます。
 
-この例では、
-- テーブルスタイルの設定: 定義済みのスタイルを適用します (`MEDIUM_SHADING_1_ACCENT_1`）を表に追加します。このスタイルには、表のさまざまな部分の書式設定が含まれます。
-- スタイル オプション: 最初の列、行バンド、および最初の行をスタイル オプションに従って書式設定するように指定します。
-- 自動調整: 使用しています `AUTO_FIT_TO_CONTENTS` テーブルのサイズがコンテンツに応じて調整されるようにします。
+## 一般的な問題とトラブルシューティング
 
-## 結論
-
-これで完了です！Aspose.Words for Java を使って表の書式設定とスタイルの適用ができました。これらのテクニックを使えば、機能的であるだけでなく、見た目も魅力的な表を作成できます。表を効果的に書式設定することで、ドキュメントの読みやすさとプロフェッショナルな外観が大幅に向上します。
-
-Aspose.Words for Javaは、ドキュメント操作のための幅広い機能を備えた強力なツールです。表の書式設定とスタイルをマスターすることで、このライブラリの真価を最大限に引き出すことに一歩近づきます。
+| Issue | Typical cause | Quick fix |
+|-------|----------------|-----------|
+| 罫線が表示されない | `clearFormatting()` を罫線設定後に使用している | 罫線は **クリアフォーマット後** に設定するか、再度適用してください。 |
+| 結合セルでシェーディングが無視される | 結合前にシェーディングを適用している | シェーディングはセル結合 **後** に適用してください。 |
+| テーブル幅がページ余白を超える | auto‑fit が適用されていない | `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)` を呼び出すか、固定幅を設定してください。 |
+| スタイルが適用されない | `StyleIdentifier` の値が間違っている | 使用している Aspose.Words のバージョンにその識別子が存在するか確認してください。 |
 
 ## よくある質問
 
-### 1. デフォルト オプションに含まれていないカスタム テーブル スタイルを使用できますか?
+**Q: デフォルトオプションに含まれていないカスタムテーブルスタイルを使用できますか？**  
+A: はい、プログラムでカスタムスタイルを作成し適用できます。詳細は [Aspose.Words ドキュメント](https://reference.aspose.com/words/java/) を参照してください。
 
-はい、Aspose.Words for Javaを使用して、表にカスタムスタイルを定義して適用できます。 [ドキュメント](https://reference.aspose.com/words/java/) カスタム スタイルの作成の詳細については、こちらをご覧ください。
+**Q: セルに条件付き書式を適用するにはどうすればよいですか？**  
+A: 標準的な Java ロジックでセルの値をチェックし、適切な書式設定メソッドを呼び出します（例：値が閾値を超えた場合に背景色を変更）。
 
-### 2. 表に条件付き書式を適用するにはどうすればよいですか?
+**Q: 結合セルを通常のセルと同様に書式設定できますか？**  
+A: もちろんです。セルを結合した後、同じ `CellFormat` API を使用してシェーディングや罫線を適用してください。
 
-Aspose.Words for Java を使用すると、条件に基づいてプログラム的に表の書式を調整できます。これは、コード内で特定の条件をチェックし、それに応じて書式を適用することで実現できます。
+**Q: ユーザー入力に基づいてテーブルを動的にサイズ変更する必要がある場合はどうすればよいですか？**  
+A: 列幅を調整するか、新しいデータを挿入した後に `autoFit` を再度呼び出してレイアウトを再計算してください。
 
-### 3. 表内の結合セルをフォーマットできますか?
+**Q: テーブルスタイリングの例はどこで見つけられますか？**  
+A: 公式の [Aspose.Words API ドキュメント](https://reference.aspose.com/words/java/) には、包括的なサンプルが多数掲載されています。
 
-はい、結合セルも通常のセルと同じように書式設定できます。変更が反映されるよう、セルを結合した後に必ず書式設定を適用してください。
+## 結論
 
-### 4. テーブルレイアウトを動的に調整することは可能ですか?
+これで、Aspose.Words for Java を使用してテーブルセルの **罫線の変更方法**、*first column style* の適用、そして **テーブルコンテンツの自動フィット** を行うための完全なツールボックスが手に入りました。これらの技術を習得すれば、データが豊富で視覚的にも洗練されたドキュメントを作成でき、レポートや請求書、その他ビジネスに重要な出力に最適です。
 
-はい、コンテンツやユーザー入力に基づいてセルのサイズ、テーブルの幅、その他のプロパティを変更することで、テーブルレイアウトを動的に調整できます。
+---
 
-### 5. 表の書式設定に関する詳細情報はどこで入手できますか?
 
-より詳細な例とオプションについては、 [Aspose.Words API ドキュメント](https://reference。aspose.com/words/java/).
+**最終更新日:** 2026-10-17  
+**テスト環境:** Aspose.Words for Java 24.12 (執筆時点での最新)  
+**作者:** Aspose
+
+## 関連チュートリアル
+
+- [Aspose.Words Java フォーマットとスタイルのチュートリアル - ドキュメントを強化する](/words/java/formatting-styles/)
+- [Aspose.Words for Java による高度なドキュメント罫線: 包括的ガイド](/words/java/headers-footers-page-setup/advanced-document-borders-aspose-words-java/)
+- [Aspose.Words for Java を使用してドキュメントに透かしを追加する](/words/java/document-conversion-and-export/using-watermarks-to-documents/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

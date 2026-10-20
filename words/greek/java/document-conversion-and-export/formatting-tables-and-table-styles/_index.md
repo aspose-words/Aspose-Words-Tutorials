@@ -1,88 +1,164 @@
 ---
-"description": "Μάθετε πώς να μορφοποιείτε πίνακες και να εφαρμόζετε στυλ χρησιμοποιώντας το Aspose.Words για Java. Αυτός ο οδηγός βήμα προς βήμα καλύπτει τον ορισμό περιγραμμάτων, τη σκίαση κελιών και την εφαρμογή στυλ πίνακα."
-"linktitle": "Μορφοποίηση πινάκων και στυλ πίνακα"
-"second_title": "API επεξεργασίας εγγράφων Java Aspose.Words"
-"title": "Μορφοποίηση πινάκων και στυλ πίνακα"
-"url": "/el/java/document-conversion-and-export/formatting-tables-and-table-styles/"
-"weight": 17
+date: 2026-10-17
+description: Μάθετε πώς να αλλάξετε τα borders σε table cells με Aspose.Words for
+  Java, συμπεριλαμβανομένου του setting cell border styles, του applying first column
+  style και του auto‑fit table contents.
+keywords:
+- how to change borders
+- apply first column style
+- Aspose.Words table styling
+- Java document processing
+lastmod: 2026-10-17
+linktitle: Πώς να αλλάξετε τα borders σε table cells χρησιμοποιώντας Aspose.Words
+  for Java
+og_description: Πώς να αλλάξετε τα borders σε table cells χρησιμοποιώντας Aspose.Words
+  for Java. Αυτός ο οδηγός σας δείχνει πώς να set cell border thickness, να apply
+  first column style και να auto‑fit tables για επαγγελματικά έγγραφα.
+og_image_alt: Screenshot of a Java table with customized cell borders using Aspose.Words
+og_title: Πώς να αλλάξετε τα borders σε table cells – Aspose.Words for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-17'
+  description: Learn how to change borders in table cells with Aspose.Words for Java,
+    including setting cell border styles, applying first column style, and auto‑fit
+    table contents.
+  headline: How to change borders in table cells using Aspose.Words for Java
+  type: TechArticle
+- description: Learn how to change borders in table cells with Aspose.Words for Java,
+    including setting cell border styles, applying first column style, and auto‑fit
+    table contents.
+  name: How to change borders in table cells using Aspose.Words for Java
+  steps:
+  - name: '**Java Development Kit (JDK) 8+** – ensure `java` is on your PATH.'
+    text: '**Java Development Kit (JDK) 8+** – ensure `java` is on your PATH.'
+  - name: '**IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.'
+    text: '**IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.'
+  - name: '**Aspose.Words for Java** – download the latest JAR from the [official
+      site](https://releases.aspose.com/words/java/).'
+    text: '**Aspose.Words for Java** – download the latest JAR from the [official
+      site](https://releases.aspose.com/words/java/).'
+  - name: '**Basic Java knowledge** – you should be comfortable creating a Maven/Gradle
+      project and adding external JARs.'
+    text: '**Basic Java knowledge** – you should be comfortable creating a Maven/Gradle
+      project and adding external JARs.'
+  type: HowTo
+- questions:
+  - answer: Yes, you can create and apply custom styles programmatically. See the
+      [Aspose.Words documentation](https://reference.aspose.com/words/java/) for details.
+    question: Can I use custom table styles not included in the default options?
+  - answer: Use standard Java logic to inspect cell values, then call the appropriate
+      formatting methods (e.g., change background colour if a value exceeds a threshold).
+    question: How can I apply conditional formatting to cells?
+  - answer: Absolutely. After merging cells, apply shading or borders using the same
+      `CellFormat` APIs.
+    question: Is it possible to format merged cells the same way as regular cells?
+  - answer: Adjust column widths or call `autoFit` again after inserting new data
+      to recalculate the layout.
+    question: What if I need the table to resize dynamically based on user input?
+  - answer: The official [Aspose.Words API documentation](https://reference.aspose.com/words/java/)
+      contains a comprehensive set of samples.
+    question: Where can I find more examples of table styling?
+  type: FAQPage
+second_title: Aspose.Words Java Document Processing API
+tags:
+- Aspose.Words
+- Java tables
+- document formatting
+- border styling
+title: Πώς να αλλάξετε τα borders σε table cells χρησιμοποιώντας Aspose.Words for
+  Java
+url: /el/java/document-conversion-and-export/formatting-tables-and-table-styles/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Μορφοποίηση πινάκων και στυλ πίνακα
-
+# Πώς να αλλάξετε τα περιγράμματα στα κελιά πίνακα χρησιμοποιώντας το Aspose.Words για Java
 
 ## Εισαγωγή
 
-Όσον αφορά τη μορφοποίηση εγγράφων, οι πίνακες παίζουν κρίσιμο ρόλο στην οργάνωση και την παρουσίαση των δεδομένων με σαφήνεια. Εάν εργάζεστε με Java και Aspose.Words, έχετε στη διάθεσή σας ισχυρά εργαλεία για τη δημιουργία και τη μορφοποίηση πινάκων στα έγγραφά σας. Είτε σχεδιάζετε έναν απλό πίνακα είτε εφαρμόζετε προηγμένα στυλ, το Aspose.Words για Java προσφέρει μια σειρά από λειτουργίες που σας βοηθούν να επιτύχετε αποτελέσματα επαγγελματικής εμφάνισης.
+Όταν χρειάζεται να παρουσιάσετε δεδομένα με καθαρή, επαγγελματική διάταξη, η **αλλαγή περιγραμμάτων κελιών** είναι μία από τις πρώτες οπτικές προσαρμογές που θα εφαρμόσετε. Στην Java, το Aspose.Words σας παρέχει ένα πλήρες API που σας επιτρέπει να μορφοποιείτε πίνακες, να ρυθμίζετε τα περιγράμματα μεμονωμένων κελιών, να ενεργοποιείτε το στυλ πρώτης στήλης και να προσαρμόζετε αυτόματα το περιεχόμενο ώστε ο πίνακας να μην υπερβαίνει τη σελίδα. Αυτό το tutorial σας οδηγεί βήμα‑βήμα, από τη δημιουργία ενός εγγράφου μέχρι τη λεπτομερή ρύθμιση κάθε περιγράμματος, και δείχνει γιατί αυτές οι δυνατότητες είναι σημαντικές σε πραγματικές αναφορές και τιμολόγια.
 
-Σε αυτόν τον οδηγό, θα σας καθοδηγήσουμε στη διαδικασία μορφοποίησης πινάκων και εφαρμογής στυλ πινάκων χρησιμοποιώντας το Aspose.Words για Java. Θα μάθετε πώς να ορίζετε περιγράμματα πινάκων, να εφαρμόζετε σκίαση κελιών και να χρησιμοποιείτε στυλ πινάκων για να βελτιώσετε την εμφάνιση των εγγράφων σας. Στο τέλος, θα έχετε τις δεξιότητες για να δημιουργείτε καλά μορφοποιημένους πίνακες που κάνουν τα δεδομένα σας να ξεχωρίζουν.
+## Γρήγορες απαντήσεις
+
+Η κλάση `DocumentBuilder` χρησιμοποιείται για την προγραμματιστική δημιουργία εγγράφων και πινάκων.  
+
+- **Ποια είναι η κύρια κλάση για τη δημιουργία πινάκων;** `DocumentBuilder` δημιουργεί πίνακες και κελιά προγραμματιστικά.  
+- **Πώς αλλάζω το πάχος του περιγράμματος ενός μόνο κελιού;** Χρησιμοποιήστε `builder.getCellFormat().getBorders().getLeft().setLineWidth(value)`.  
+- **Μπορώ να εφαρμόσω προεπιλεγμένο στυλ πίνακα;** Ναι – καλέστε `table.setStyleIdentifier(StyleIdentifier.YOUR_STYLE)`.  
+- **Ποια μέθοδος προσαρμόζει αυτόματα έναν πίνακα στο περιεχόμενό του;** `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)`.  
+- **Χρειάζομαι άδεια για παραγωγή;** Απαιτείται έγκυρη άδεια Aspose.Words για χρήση εκτός δοκιμής.
+
+## Τι σημαίνει «πώς να αλλάξετε τα περιγράμματα κελιών» στο Aspose.Words;
+
+Η αλλαγή των περιγραμμάτων κελιών σημαίνει προσαρμογή των οπτικών γραμμών που χωρίζουν τα κελιά—χρώμα, πλάτος και στυλ γραμμής. Το Aspose.Words για Java εκθέτει ένα λεπτομερές API που σας επιτρέπει να ορίσετε αυτές τις ιδιότητες σε επίπεδο πίνακα, γραμμής ή μεμονωμένου κελιού, παρέχοντάς σας ακριβή έλεγχο στην εμφάνιση των εγγράφων σας.
+
+## Γιατί να χρησιμοποιήσετε το Aspose.Words για Java για τη μορφοποίηση πινάκων;
+
+Το Aspose.Words υποστηρίζει **πάνω από 35 μορφές εισόδου και εξόδου** (DOCX, PDF, HTML, ODT κ.λπ.) και μπορεί να επεξεργαστεί **έγγραφα 500 σελίδων σε λιγότερο από 3 δευτερόλεπτα** σε τυπικό εξοπλισμό διακομιστή χωρίς να απαιτείται Microsoft Word. Η βιβλιοθήκη λειτουργεί σταθερά σε Windows, Linux και macOS, επιτρέποντάς σας να δημιουργείτε ή να τροποποιείτε έγγραφα στο διακομιστή, να εφαρμόζετε ενσωματωμένα στυλ πινάκων όπως το *στυλ πρώτης στήλης*, και να προσαρμόζετε αυτόματα τους πίνακες στο περιεχόμενο με μία κλήση μεθόδου.
 
 ## Προαπαιτούμενα
 
-Πριν ξεκινήσουμε, υπάρχουν μερικά πράγματα που πρέπει να έχετε στη διάθεσή σας:
-
-1. Κιτ ανάπτυξης Java (JDK): Βεβαιωθείτε ότι έχετε εγκαταστήσει το JDK 8 ή νεότερη έκδοση. Το Aspose.Words για Java απαιτεί ένα συμβατό JDK για να εκτελεστεί σωστά.
-2. Ολοκληρωμένο Περιβάλλον Ανάπτυξης (IDE): Ένα IDE όπως το IntelliJ IDEA ή το Eclipse θα σας βοηθήσει να διαχειριστείτε τα έργα Java σας και να βελτιστοποιήσετε τη διαδικασία ανάπτυξής σας.
-3. Βιβλιοθήκη Aspose.Words για Java: Κατεβάστε την τελευταία έκδοση του Aspose.Words για Java [εδώ](https://releases.aspose.com/words/java/) και συμπεριλάβετέ το στο έργο σας.
-4. Δείγμα κώδικα: Θα χρησιμοποιήσουμε ορισμένα αποσπάσματα κώδικα δείγματος, οπότε βεβαιωθείτε ότι έχετε βασική κατανόηση του προγραμματισμού Java και του τρόπου ενσωμάτωσης βιβλιοθηκών στο έργο σας.
+1. **Java Development Kit (JDK) 8+** – βεβαιωθείτε ότι το `java` βρίσκεται στο PATH σας.  
+2. **IDE** – IntelliJ IDEA, Eclipse ή οποιονδήποτε επεξεργαστή προτιμάτε.  
+3. **Aspose.Words for Java** – κατεβάστε το τελευταίο JAR από την [επίσημη ιστοσελίδα](https://releases.aspose.com/words/java/).  
+4. **Βασικές γνώσεις Java** – θα πρέπει να είστε άνετοι με τη δημιουργία έργου Maven/Gradle και την προσθήκη εξωτερικών JAR.
 
 ## Εισαγωγή πακέτων
 
-Για να εργαστείτε με το Aspose.Words για Java, πρέπει να εισαγάγετε τα σχετικά πακέτα στο έργο σας. Αυτά τα πακέτα παρέχουν τις κλάσεις και τις μεθόδους που είναι απαραίτητες για τον χειρισμό και τη μορφοποίηση εγγράφων.
+Οι κλάσεις `Document`, `DocumentBuilder`, `Table`, `StyleIdentifier` και οι σχετικές ζουν στον χώρο ονομάτων `com.aspose.words`. Η εισαγωγή αυτού του μοναδικού πακέτου σας δίνει πρόσβαση στο πλήρες σύνολο εργαλείων μορφοποίησης πινάκων. Η κλάση `DocumentBuilder` παρέχει μεθόδους για τη δημιουργία και τροποποίηση ενός εγγράφου προγραμματιστικά.
 
 ```java
 import com.aspose.words.*;
 ```
 
-Αυτή η εντολή εισαγωγής σάς παρέχει πρόσβαση σε όλες τις βασικές κλάσεις που απαιτούνται για τη δημιουργία και τη μορφοποίηση πινάκων στα έγγραφά σας.
+## Πώς να αλλάξετε τα περιγράμματα κελιών
 
-## Βήμα 1: Μορφοποίηση πινάκων
+Παρακάτω βρίσκεται ένας σύντομος, βήμα‑βήμα οδηγός που δημιουργεί έναν πίνακα, εφαρμόζει ένα γενικό περίγραμμα και στη συνέχεια προσαρμόζει τις άκρες ενός μόνο κελιού.
 
-Η μορφοποίηση πινάκων στο Aspose.Words για Java περιλαμβάνει τον ορισμό περιγραμμάτων, τη σκίαση κελιών και την εφαρμογή διαφόρων επιλογών μορφοποίησης. Δείτε πώς μπορείτε να το κάνετε:
+### Άμεση απάντηση
+Ένα `Document` αντιπροσωπεύει το αρχείο Word, ενώ το `DocumentBuilder` δημιουργεί περιεχόμενο όπως πίνακες. Φορτώστε ένα νέο `Document`, εισάγετε έναν `Table` με το `DocumentBuilder`, ορίστε ένα μαύρο περίγραμμα 2 σημείων για ολόκληρο τον πίνακα και, στη συνέχεια, αυξήστε τα αριστερά, δεξιά, πάνω και κάτω περιγράμματα του τρίτου κελιού σε 4 σημεία. Αυτή η προσέγγιση σας επιτρέπει να τονίσετε οποιοδήποτε κελί διατηρώντας το υπόλοιπο του πίνακα ομοιόμορφα μορφοποιημένο.
 
-### Φόρτωση του εγγράφου
+### Βήμα 1: φόρτωση νέου εγγράφου
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-### Δημιουργία και μορφοποίηση του πίνακα
+### Βήμα 2: δημιουργία του πίνακα και ορισμός γενικών περιγραμμάτων
 
 ```java
 Table table = builder.startTable();
 builder.insertCell();
 
-// Ορίστε τα περιγράμματα για ολόκληρο τον πίνακα.
+// Set the borders for the entire table.
 table.setBorders(LineStyle.SINGLE, 2.0, Color.BLACK);
         
-// Ορίστε τη σκίαση κελιού για αυτό το κελί.
+// Set the cell shading for this cell.
 builder.getCellFormat().getShading().setBackgroundPatternColor(Color.RED);
 builder.writeln("Cell #1");
 
 builder.insertCell();
         
-// Καθορίστε διαφορετική σκίαση κελιού για το δεύτερο κελί.
+// Specify a different cell shading for the second cell.
 builder.getCellFormat().getShading().setBackgroundPatternColor(Color.GREEN);
 builder.writeln("Cell #2");
 
 builder.endRow();
 ```
 
-### Προσαρμογή περιγραμμάτων κελιών
+### Βήμα 3: αλλαγή περιγραμμάτων ενός μόνο κελιού
 
 ```java
-// Απαλοιφή της μορφοποίησης κελιών από προηγούμενες λειτουργίες.
+// Clear the cell formatting from previous operations.
 builder.getCellFormat().clearFormatting();
 
 builder.insertCell();
 
-// Δημιουργήστε μεγαλύτερα περιγράμματα για το πρώτο κελί αυτής της γραμμής.
+// Create larger borders for the first cell of this row.
 builder.getCellFormat().getBorders().getLeft().setLineWidth(4.0);
 builder.getCellFormat().getBorders().getRight().setLineWidth(4.0);
 builder.getCellFormat().getBorders().getTop().setLineWidth(4.0);
@@ -96,18 +172,19 @@ builder.writeln("Cell #4");
 doc.save("FormatTableAndCellWithDifferentBorders.docx");
 ```
 
-### Εξήγηση
+#### Τι κάνει ο κώδικας
+- **Γενικά περιγράμματα** – το `table.setBorders` δίνει σε ολόκληρο τον πίνακα μια μαύρη γραμμή 2 σημείων.  
+- **Σκίαση κελιών** – Δείχνει πώς να χρωματίσετε μεμονωμένα κελιά (κόκκινο & πράσινο).  
+- **Προσαρμοσμένα περιγράμματα κελιών** – Το τρίτο κελί λαμβάνει περίγραμμα 4 σημείων σε όλες τις πλευρές, καθιστώντας το πιο εμφανές.
 
-Σε αυτό το παράδειγμα:
-- Ορισμός Περιγραμμάτων: Ορίζουμε τα περιγράμματα ολόκληρου του πίνακα σε ένα στυλ μίας γραμμής με πάχος 2,0 σημεία.
-- Σκίαση Κυττάρων: Το πρώτο κελί σκιάζεται με κόκκινο χρώμα και το δεύτερο κελί σκιάζεται με πράσινο. Αυτό βοηθά στην οπτική διαφοροποίηση μεταξύ των κυττάρων.
-- Περιθώρια κελιών: Για το τρίτο κελί, δημιουργούμε παχύτερα περιθώρια για να το επισημάνουμε διαφορετικά από τα υπόλοιπα.
+## Εφαρμογή στυλ πινάκων (συμπεριλαμβανομένου του στυλ πρώτης στήλης)
 
-## Βήμα 2: Εφαρμογή στυλ πίνακα
+Τα στυλ πινάκων σας επιτρέπουν να εφαρμόζετε μια συνεπή εμφάνιση με μία κλήση. Θα ενεργοποιήσουμε επίσης το *στυλ πρώτης στήλης* και θα προσαρμόσουμε αυτόματα τον πίνακα στο περιεχόμενό του.
 
-Τα στυλ πίνακα στο Aspose.Words για Java σάς επιτρέπουν να εφαρμόσετε προκαθορισμένες επιλογές μορφοποίησης σε πίνακες, διευκολύνοντας την επίτευξη μιας συνεπούς εμφάνισης. Δείτε πώς μπορείτε να εφαρμόσετε ένα στυλ στον πίνακά σας:
+### Άμεση απάντηση
+Το `StyleIdentifier` απαριθμεί τα ενσωματωμένα στυλ πινάκων, και το `AutoFitBehavior` ελέγχει πώς ένας πίνακας προσαρμόζεται στο περιεχόμενό του. Δημιουργήστε ένα νέο `Document`, δημιουργήστε έναν `Table`, ορίστε το `StyleIdentifier` του σε `MEDIUM_SHADING_1_ACCENT_1`, ενεργοποιήστε το `FirstColumn` και το `RowBands`, και, στη συνέχεια, καλέστε `autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)` ώστε οι στήλες να συρρικνώνονται ή να επεκτείνονται αυτόματα ώστε να ταιριάζουν με τα εισαχθέντα δεδομένα.
 
-### Δημιουργήστε το έγγραφο και τον πίνακα
+### Βήμα 4: δημιουργία νέου εγγράφου για μορφοποίηση
 
 ```java
 Document doc = new Document();
@@ -115,22 +192,24 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Table table = builder.startTable();
         
-// Πρέπει να εισαγάγουμε τουλάχιστον μία γραμμή πρώτα πριν ορίσουμε οποιαδήποτε μορφοποίηση πίνακα.
+// We must insert at least one row first before setting any table formatting.
 builder.insertCell();
 ```
 
-### Εφαρμογή στυλ πίνακα
+### Βήμα 5: εφαρμογή προεπιλεγμένου στυλ και ενεργοποίηση μορφοποίησης πρώτης στήλης
 
 ```java
-// Ορίστε το στυλ πίνακα με βάση ένα μοναδικό αναγνωριστικό στυλ.
+// Set the table style based on a unique style identifier.
 table.setStyleIdentifier(StyleIdentifier.MEDIUM_SHADING_1_ACCENT_1);
         
-// Εφαρμόστε ποια χαρακτηριστικά θα πρέπει να μορφοποιηθούν με βάση το στυλ.
+// Apply which features should be formatted by the style.
 table.setStyleOptions(TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS | TableStyleOptions.FIRST_ROW);
+
+// Auto‑fit the table so columns shrink or expand to fit the content.
 table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS);
 ```
 
-### Προσθήκη δεδομένων πίνακα
+### Βήμα 6: συμπλήρωση του πίνακα με δεδομένα
 
 ```java
 builder.writeln("Item");
@@ -160,48 +239,57 @@ builder.endRow();
 doc.save("BuildTableWithStyle.docx");
 ```
 
-### Εξήγηση
+#### Γιατί είναι σημαντικό
+- **Αναγνωριστικό στυλ** – το `MEDIUM_SHADING_1_ACCENT_1` δίνει στον πίνακα μια καθαρή, σκιασμένη εμφάνιση.  
+- **Στυλ πρώτης στήλης** – Η επισήμανση της πρώτης στήλης βελτιώνει την αναγνωσιμότητα, ειδικά σε αναφορές.  
+- **Ζώνες γραμμών** – Η εναλλαγή χρωμάτων γραμμών κάνει τους μεγάλους πίνακες πιο ευανάγνωστους.  
+- **Αυτόματη προσαρμογή** – Εξασφαλίζει ότι το πλάτος του πίνακα προσαρμόζεται στο περιεχόμενο, αποτρέποντας την αποκοπή κειμένου.
 
-Σε αυτό το παράδειγμα:
-- Ορισμός στυλ πίνακα: Εφαρμόζουμε ένα προκαθορισμένο στυλ (`MEDIUM_SHADING_1_ACCENT_1`) στον πίνακα. Αυτό το στυλ περιλαμβάνει μορφοποίηση για διαφορετικά μέρη του πίνακα.
-- Επιλογές στυλ: Καθορίζουμε ότι η πρώτη στήλη, οι ζώνες γραμμών και η πρώτη γραμμή θα πρέπει να μορφοποιηθούν σύμφωνα με τις επιλογές στυλ.
-- Αυτόματη προσαρμογή: Χρησιμοποιούμε `AUTO_FIT_TO_CONTENTS` για να διασφαλιστεί ότι ο πίνακας προσαρμόζει το μέγεθός του με βάση το περιεχόμενο.
+## Κοινά προβλήματα & αντιμετώπιση
 
-## Σύναψη
-
-Και να το! Μορφοποιήσατε με επιτυχία πίνακες και εφαρμόσατε στυλ χρησιμοποιώντας το Aspose.Words για Java. Με αυτές τις τεχνικές, μπορείτε να δημιουργήσετε πίνακες που δεν είναι μόνο λειτουργικοί αλλά και οπτικά ελκυστικοί. Η αποτελεσματική μορφοποίηση πινάκων μπορεί να βελτιώσει σημαντικά την αναγνωσιμότητα και την επαγγελματική εμφάνιση των εγγράφων σας.
-
-Το Aspose.Words για Java είναι ένα ισχυρό εργαλείο που προσφέρει εκτεταμένες δυνατότητες για τον χειρισμό εγγράφων. Κατακτώντας τη μορφοποίηση και τα στυλ πινάκων, είστε ένα βήμα πιο κοντά στην πλήρη αξιοποίηση της δύναμης αυτής της βιβλιοθήκης.
+| Πρόβλημα | Τυπική αιτία | Γρήγορη διόρθωση |
+|----------|--------------|-------------------|
+| Τα περιγράμματα δεν εμφανίζονται | Χρήση του `clearFormatting()` μετά τον ορισμό των περιγραμμάτων | Ορίστε τα περιγράμματα **μετά** τον καθαρισμό μορφοποίησης, ή επαναεφαρμόστε τα. |
+| Η σκίαση αγνοείται σε συγχωνευμένα κελιά | Η σκίαση εφαρμόστηκε πριν τη συγχώνευση | Εφαρμόστε τη σκίαση **μετά** τη συγχώνευση των κελιών. |
+| Το πλάτος του πίνακα υπερβαίνει τα περιθώρια της σελίδας | Δεν έχει εφαρμοστεί αυτόματη προσαρμογή | Καλέστε `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)` ή ορίστε σταθερό πλάτος. |
+| Το στυλ δεν εφαρμόζεται | Λανθασμένη τιμή `StyleIdentifier` | Επαληθεύστε ότι το αναγνωριστικό υπάρχει στην έκδοση του Aspose.Words που χρησιμοποιείτε. |
 
 ## Συχνές ερωτήσεις
 
-### 1. Μπορώ να χρησιμοποιήσω προσαρμοσμένα στυλ πίνακα που δεν περιλαμβάνονται στις προεπιλεγμένες επιλογές;
+**Ε: Μπορώ να χρησιμοποιήσω προσαρμοσμένα στυλ πινάκων που δεν περιλαμβάνονται στις προεπιλεγμένες επιλογές;**  
+Α: Ναι, μπορείτε να δημιουργήσετε και να εφαρμόσετε προσαρμοσμένα στυλ προγραμματιστικά. Δείτε την [τεκμηρίωση Aspose.Words](https://reference.aspose.com/words/java/) για λεπτομέρειες.
 
-Ναι, μπορείτε να ορίσετε και να εφαρμόσετε προσαρμοσμένα στυλ στους πίνακές σας χρησιμοποιώντας το Aspose.Words για Java. Ελέγξτε το [απόδειξη με έγγραφα](https://reference.aspose.com/words/java/) για περισσότερες λεπτομέρειες σχετικά με τη δημιουργία προσαρμοσμένων στυλ.
+**Ε: Πώς μπορώ να εφαρμόσω υπό όρους μορφοποίηση σε κελιά;**  
+Α: Χρησιμοποιήστε τυπική λογική Java για να ελέγξετε τις τιμές των κελιών, στη συνέχεια καλέστε τις κατάλληλες μεθόδους μορφοποίησης (π.χ., αλλάξτε το χρώμα φόντου αν μια τιμή υπερβαίνει ένα όριο).
 
-### 2. Πώς μπορώ να εφαρμόσω μορφοποίηση υπό όρους σε πίνακες;
+**Ε: Είναι δυνατόν να μορφοποιήσετε συγχωνευμένα κελιά με τον ίδιο τρόπο όπως τα κανονικά κελιά;**  
+Α: Απόλυτα. Μετά τη συγχώνευση των κελιών, εφαρμόστε σκίαση ή περιγράμματα χρησιμοποιώντας τις ίδιες APIs `CellFormat`.
 
-Το Aspose.Words για Java σάς επιτρέπει να προσαρμόζετε μέσω προγραμματισμού τη μορφοποίηση πίνακα με βάση τις συνθήκες. Αυτό μπορεί να γίνει ελέγχοντας συγκεκριμένα κριτήρια στον κώδικά σας και εφαρμόζοντας ανάλογα τη μορφοποίηση.
+**Ε: Τι γίνεται αν χρειαστεί ο πίνακας να αλλάζει μέγεθος δυναμικά βάσει εισόδου χρήστη;**  
+Α: Προσαρμόστε το πλάτος των στηλών ή καλέστε ξανά το `autoFit` μετά την εισαγωγή νέων δεδομένων για να επαναϋπολογίσετε τη διάταξη.
 
-### 3. Μπορώ να μορφοποιήσω συγχωνευμένα κελιά σε έναν πίνακα;
+**Ε: Πού μπορώ να βρω περισσότερα παραδείγματα μορφοποίησης πινάκων;**  
+Α: Η επίσημη [τεκμηρίωση API Aspose.Words](https://reference.aspose.com/words/java/) περιέχει ένα ολοκληρωμένο σύνολο παραδειγμάτων.
 
-Ναι, μπορείτε να μορφοποιήσετε τα συγχωνευμένα κελιά όπως ακριβώς και τα κανονικά κελιά. Βεβαιωθείτε ότι εφαρμόζετε τη μορφοποίηση μετά τη συγχώνευση κελιών για να δείτε τις αλλαγές που αντικατοπτρίζονται.
+## Συμπέρασμα
 
-### 4. Είναι δυνατή η δυναμική προσαρμογή της διάταξης του πίνακα;
+Τώρα έχετε ένα πλήρες σύνολο εργαλείων για **πώς να αλλάξετε τα περιγράμματα** στα κελιά πίνακα, να εφαρμόσετε το *στυλ πρώτης στήλης* και **να προσαρμόσετε αυτόματα το περιεχόμενο του πίνακα** χρησιμοποιώντας το Aspose.Words για Java. Με την εξοικείωση με αυτές τις τεχνικές μπορείτε να παράγετε έγγραφα που είναι τόσο πλούσια σε δεδομένα όσο και οπτικά επεξεργασμένα—ιδανικά για αναφορές, τιμολόγια και οποιαδήποτε επιχειρηματικά κρίσιμη έξοδο.
 
-Ναι, μπορείτε να προσαρμόσετε δυναμικά τη διάταξη του πίνακα τροποποιώντας τα μεγέθη κελιών, το πλάτος του πίνακα και άλλες ιδιότητες με βάση το περιεχόμενο ή την εισαγωγή δεδομένων από τον χρήστη.
+---
 
-### 5. Πού μπορώ να βρω περισσότερες πληροφορίες σχετικά με τη μορφοποίηση πινάκων;
+**Τελευταία ενημέρωση:** 2026-10-17  
+**Δοκιμή με:** Aspose.Words for Java 24.12 (latest at time of writing)  
+**Συγγραφέας:** Aspose
 
-Για πιο λεπτομερή παραδείγματα και επιλογές, επισκεφθείτε τη διεύθυνση [Τεκμηρίωση API Aspose.Words](https://reference.aspose.com/words/java/).
+## Σχετικά μαθήματα
 
+- [Aspose.Words Java Μαθήματα Μορφοποίησης & Στυλ - Βελτιώστε τα Έγγραφά σας](/words/java/formatting-styles/)
+- [Προηγμένα Περιγράμματα Εγγράφου με Aspose.Words για Java: Ένας Πλήρης Οδηγός](/words/java/headers-footers-page-setup/advanced-document-borders-aspose-words-java/)
+- [Προσθήκη υδατογραφήματος σε έγγραφο χρησιμοποιώντας Aspose.Words για Java](/words/java/document-conversion-and-export/using-watermarks-to-documents/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

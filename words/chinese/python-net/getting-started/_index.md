@@ -4,7 +4,9 @@
 "url": "/zh/python-net/getting-started/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words Python-net 入门教程
 
 探索全面的分步指南，了解如何使用 Aspose.Words for Python-net 进行操作。这些教程包含完整的代码示例和详细的解释。
@@ -28,6 +30,9 @@
     ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 Aspose.Words Python-net 代码教程
 
+### [构建 CMake 项目：配置、构建与测试](./build-cmake-project-configure-build-test/)
+学习如何使用 CMake 完整配置、构建并运行测试。
+
 ## 其他资源
 
 - [Aspose.Words for Python-net 文档](https://docs.aspose.com/words/python-net/)
@@ -36,3 +41,7 @@ Aspose.Words Python-net 代码教程
 - [Aspose.Words 论坛](https://forum.aspose.com/c/words/8)
 - [免费支持](https://forum.aspose.com/)
 - [临时执照](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

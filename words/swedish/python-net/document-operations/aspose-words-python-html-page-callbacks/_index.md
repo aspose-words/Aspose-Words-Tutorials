@@ -5,7 +5,9 @@
 "url": "/sv/python-net/document-operations/aspose-words-python-html-page-callbacks/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Implementera anpassade HTML-sidåteranrop i Python med Aspose.Words
 
 ## Introduktion
@@ -149,3 +151,7 @@ A5: Gå med i [Aspose-forumet](https://forum.aspose.com/c/words/10) att ställa 
 - **Stöd**Besök [Aspose-forumet](https://forum.aspose.com/c/words/10) för frågor och stöd från samhället.
 
 Dyk ner i Aspose.Words för Python idag och lås upp nya möjligheter inom dokumentbehandling!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

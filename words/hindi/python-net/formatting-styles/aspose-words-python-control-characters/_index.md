@@ -5,7 +5,9 @@
 "url": "/hi/python-net/formatting-styles/aspose-words-python-control-characters/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words के साथ पायथन दस्तावेज़ों में नियंत्रण वर्णों में महारत हासिल करना
 
 ## परिचय
@@ -187,3 +189,7 @@ Ready to take your document automation to the next level? Try implementing these
    - Line Feed (LF) moves to the next line, while Carriage Return (CR) returns to the beginning of the current line.
 4. **How do I acquire a license for Aspose.Words?**
    - Visit the Aspose website to purchase or obtain a trial license.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

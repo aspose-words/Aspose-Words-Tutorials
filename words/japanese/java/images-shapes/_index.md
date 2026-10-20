@@ -34,8 +34,54 @@ Aspose.Words Javaのコードチュートリアル
 ### [Aspose.Words for Java を使用してドキュメントページをサムネイルとしてレンダリングする方法](./render-word-pages-thumbnails-aspose-java/)
 Aspose.Words for Java を使って、Word 文書の高品質なサムネイルとカスタムサイズのビットマップを生成する方法を学びましょう。今すぐドキュメント処理能力を強化しましょう。
 
+### [Word の図形に影を追加する – 完全 Aspose.Words ガイド](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+Aspose.Words for Java を使用して、Word 文書内の図形に影効果を適用する方法をステップバイステップで解説します。
+### [C# で図形に影効果を適用する – ステップバイステップ ガイド](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
+C# で図形に影効果を適用する手順をステップバイステップで解説します。
+### [Aspose.Words で図形に影を設定する方法 – 完全ガイド](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
+Aspose.Words for Java で図形に影効果を適用する手順をステップバイステップで解説します。
+
+### [C# でシェイプに影を設定する方法 – 簡単にシェイプの影を追加](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+C# を使用して Word 文書内のシェイプに影効果を適用し、視覚的に魅力的なレイアウトを作成する手順を解説します。
+
+### [Java の Word 文書で長方形シェイプを作成する – 完全ステップバイステップガイド](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Java で Word 文書に長方形シェイプを挿入し、プロパティ設定や配置方法をステップバイステップで解説します。
+
+### [Javaでテキストボックスシェイプを作成 – 影を追加する完全ガイド](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+Javaでテキストボックスシェイプを作成し、影効果を適用する方法をステップバイステップで解説します。
+### [矩形シェイプを使用した PDF ドキュメント作成 – 完全 C# ガイド](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+C# を使用して矩形シェイプを含む PDF ドキュメントを作成する完全ガイドです。
+
+### [JavaでWord文書を作成 – シェイプに影を追加するガイド](./create-word-document-java-add-shadow-to-shape-guide/)
+JavaでWord文書にシェイプの影効果を追加し、視覚的に魅力的なレイアウトを作成する方法を学びます。
+
+### [JavaでWordのグループ シェイプ – 完全ステップバイステップガイド](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+Javaを使用してWord文書内で複数のシェイプをグループ化し、操作する方法をステップバイステップで解説します。
+
+### [JavaでWord文書を作成 – 影効果付きシェイプを追加](./create-word-document-java-add-shape-with-shadow-effect/)
+JavaでWord文書に影効果付きシェイプを追加し、視覚的に魅力的なレイアウトを作成する方法を学びます。
+
+### [JavaでAspose.Wordsを使用して長方形シェイプを作成する – 完全ガイド](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Aspose.Words for Java を活用し、長方形シェイプの作成とカスタマイズ手順を詳しく解説します。
+
+### [Javaでグループシェイプを挿入する方法 – 完全ガイド](./how-to-insert-group-shape-in-java-complete-guide/)
+Javaでグループシェイプを文書に挿入し、カスタマイズする手順を完全に解説します。
+
+### [C#で空白のWord文書を作成 – グループ化された長方形](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+C# を使用して、グループ化された長方形を含む空白の Word 文書を作成する方法を学びます。
+
+### [Javaで長方形シェイプを挿入 – シェイプのグループ化と位置設定](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+Javaで長方形シェイプを挿入し、複数のシェイプをグループ化して位置を調整する方法を学びます。
+
+### [Word に画像を挿入 – Aspose.Words ステップバイステップ ガイド](./insert-image-into-word-aspose-words-step-by-step-guide/)
+Aspose.Words for Java を使用して、Word 文書に画像を挿入する方法をステップバイステップで学びます。
+
+### [C# を使用して Word に長方形シェイプを挿入する – 完全ガイド](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+C# で Word 文書に長方形シェイプを追加し、カスタマイズする方法を学びます。
+
 ## 追加リソース
 
+## 追加リソース
 - [Aspose.Words for Java ドキュメント](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Java API リファレンス](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Javaをダウンロード](https://releases.aspose.com/words/java/)

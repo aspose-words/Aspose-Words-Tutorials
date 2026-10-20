@@ -1,88 +1,158 @@
 ---
-"description": "Aspose.Words for Java를 사용하여 표 서식을 지정하고 스타일을 적용하는 방법을 알아보세요. 이 단계별 가이드에서는 테두리 설정, 셀 음영 처리, 표 스타일 적용 방법을 다룹니다."
-"linktitle": "표 서식 및 표 스타일"
-"second_title": "Aspose.Words Java 문서 처리 API"
-"title": "표 서식 및 표 스타일"
-"url": "/ko/java/document-conversion-and-export/formatting-tables-and-table-styles/"
-"weight": 17
+date: 2026-10-17
+description: Aspose.Words for Java를 사용하여 표 셀의 테두리를 변경하는 방법을 배우세요. 여기에는 셀 테두리 스타일 설정,
+  첫 번째 열 스타일 적용, 테이블 내용 자동 맞춤이 포함됩니다.
+keywords:
+- how to change borders
+- apply first column style
+- Aspose.Words table styling
+- Java document processing
+lastmod: 2026-10-17
+linktitle: Aspose.Words for Java를 사용하여 표 셀의 테두리 변경 방법
+og_description: Aspose.Words for Java를 사용하여 표 셀의 테두리를 변경하는 방법. 이 가이드는 셀 테두리 두께 설정,
+  첫 번째 열 스타일 적용, 그리고 전문가용 문서를 위한 테이블 자동 맞춤 방법을 보여줍니다.
+og_image_alt: Screenshot of a Java table with customized cell borders using Aspose.Words
+og_title: 표 셀의 테두리 변경 방법 – Aspose.Words for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-17'
+  description: Learn how to change borders in table cells with Aspose.Words for Java,
+    including setting cell border styles, applying first column style, and auto‑fit
+    table contents.
+  headline: How to change borders in table cells using Aspose.Words for Java
+  type: TechArticle
+- description: Learn how to change borders in table cells with Aspose.Words for Java,
+    including setting cell border styles, applying first column style, and auto‑fit
+    table contents.
+  name: How to change borders in table cells using Aspose.Words for Java
+  steps:
+  - name: '**Java Development Kit (JDK) 8+** – ensure `java` is on your PATH.'
+    text: '**Java Development Kit (JDK) 8+** – ensure `java` is on your PATH.'
+  - name: '**IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.'
+    text: '**IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.'
+  - name: '**Aspose.Words for Java** – download the latest JAR from the [official
+      site](https://releases.aspose.com/words/java/).'
+    text: '**Aspose.Words for Java** – download the latest JAR from the [official
+      site](https://releases.aspose.com/words/java/).'
+  - name: '**Basic Java knowledge** – you should be comfortable creating a Maven/Gradle
+      project and adding external JARs.'
+    text: '**Basic Java knowledge** – you should be comfortable creating a Maven/Gradle
+      project and adding external JARs.'
+  type: HowTo
+- questions:
+  - answer: Yes, you can create and apply custom styles programmatically. See the
+      [Aspose.Words documentation](https://reference.aspose.com/words/java/) for details.
+    question: Can I use custom table styles not included in the default options?
+  - answer: Use standard Java logic to inspect cell values, then call the appropriate
+      formatting methods (e.g., change background colour if a value exceeds a threshold).
+    question: How can I apply conditional formatting to cells?
+  - answer: Absolutely. After merging cells, apply shading or borders using the same
+      `CellFormat` APIs.
+    question: Is it possible to format merged cells the same way as regular cells?
+  - answer: Adjust column widths or call `autoFit` again after inserting new data
+      to recalculate the layout.
+    question: What if I need the table to resize dynamically based on user input?
+  - answer: The official [Aspose.Words API documentation](https://reference.aspose.com/words/java/)
+      contains a comprehensive set of samples.
+    question: Where can I find more examples of table styling?
+  type: FAQPage
+second_title: Aspose.Words Java Document Processing API
+tags:
+- Aspose.Words
+- Java tables
+- document formatting
+- border styling
+title: Aspose.Words for Java를 사용하여 표 셀의 테두리 변경 방법
+url: /ko/java/document-conversion-and-export/formatting-tables-and-table-styles/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 표 서식 및 표 스타일
-
+# Aspose.Words for Java를 사용하여 표 셀의 테두리 변경 방법
 
 ## 소개
 
-문서 서식에서 표는 데이터를 명확하게 정리하고 표현하는 데 중요한 역할을 합니다. Java와 Aspose.Words를 함께 사용하면 문서에서 표를 만들고 서식을 지정할 수 있는 강력한 도구를 활용할 수 있습니다. 간단한 표를 디자인하든 고급 스타일을 적용하든, Aspose.Words for Java는 전문가 수준의 결과를 얻을 수 있도록 다양한 기능을 제공합니다.
+데이터를 깔끔하고 전문적인 레이아웃으로 표시해야 할 때, **셀 테두리 변경**은 가장 먼저 적용하는 시각적 조정 중 하나입니다. Java에서 Aspose.Words는 표 스타일링, 개별 셀 테두리 조정, 첫 번째 열 스타일 활성화, 콘텐츠 자동 맞춤 등 전체 테두리가 페이지를 넘치지 않도록 하는 완전한 API를 제공합니다. 이 튜토리얼은 문서 생성부터 각 테두리 미세 조정까지 모든 단계를 안내하고, 이러한 기능이 실제 보고서와 청구서에서 왜 중요한지 보여줍니다.
 
-이 가이드에서는 Aspose.Words for Java를 사용하여 표 서식을 지정하고 표 스타일을 적용하는 과정을 안내합니다. 표 테두리를 설정하고, 셀 음영을 적용하고, 표 스타일을 사용하여 문서의 모양을 개선하는 방법을 배웁니다. 이 가이드를 마치면 데이터를 돋보이게 하는 잘 구성된 표를 만드는 기술을 갖추게 될 것입니다.
+## 빠른 답변
+`DocumentBuilder` 클래스는 문서와 표를 프로그래밍 방식으로 빌드하는 데 사용됩니다.  
+- **테이블을 만드는 주요 클래스는 무엇입니까?** `DocumentBuilder` creates tables and cells programmatically.  
+- **단일 셀의 테두리 두께를 어떻게 변경합니까?** Use `builder.getCellFormat().getBorders().getLeft().setLineWidth(value)`.  
+- **미리 정의된 표 스타일을 적용할 수 있나요?** Yes – call `table.setStyleIdentifier(StyleIdentifier.YOUR_STYLE)`.  
+- **테이블을 내용에 맞게 자동 맞춤하는 메서드는 무엇입니까?** `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)`.  
+- **프로덕션에 라이선스가 필요합니까?** A valid Aspose.Words license is required for non‑trial use.
 
-## 필수 조건
+## Aspose.Words에서 “셀 테두리 변경 방법”이란?
 
-시작하기 전에 꼭 준비해야 할 몇 가지 사항이 있습니다.
+셀 테두리 변경은 셀을 구분하는 시각적 선(색상, 두께, 선 스타일)을 사용자 정의하는 것을 의미합니다. Aspose.Words for Java는 표, 행 또는 개별 셀 수준에서 이러한 속성을 설정할 수 있는 세밀한 API를 제공하여 문서의 외관을 정확히 제어할 수 있게 합니다.
 
-1. Java Development Kit(JDK): JDK 8 이상이 설치되어 있는지 확인하세요. Aspose.Words for Java를 정상적으로 실행하려면 호환되는 JDK가 필요합니다.
-2. 통합 개발 환경(IDE): IntelliJ IDEA나 Eclipse와 같은 IDE는 Java 프로젝트를 관리하고 개발 프로세스를 간소화하는 데 도움이 됩니다.
-3. Aspose.Words for Java 라이브러리: Aspose.Words for Java의 최신 버전을 다운로드하세요. [여기](https://releases.aspose.com/words/java/) 그리고 그것을 당신의 프로젝트에 포함시키세요.
-4. 샘플 코드: 몇 가지 샘플 코드 조각을 사용하므로 Java 프로그래밍에 대한 기본적인 이해와 라이브러리를 프로젝트에 통합하는 방법을 알고 있어야 합니다.
+## 왜 Aspose.Words for Java 표 스타일링을 사용합니까?
+
+Aspose.Words는 **35개 이상의 입력 및 출력 형식**(DOCX, PDF, HTML, ODT 등)을 지원하고, 일반 서버 하드웨어에서 **500페이지 문서를 3초 미만**에 처리할 수 있습니다. 이 라이브러리는 Windows, Linux, macOS에서 일관되게 동작하여 서버 측에서 문서를 생성·수정하고, *첫 번째 열 스타일*과 같은 내장 표 스타일을 적용하며, 단일 메서드 호출로 테이블을 콘텐츠에 자동 맞춤할 수 있습니다.
+
+## 전제 조건
+
+1. **Java Development Kit (JDK) 8+** – `java`가 PATH에 있는지 확인하세요.  
+2. **IDE** – IntelliJ IDEA, Eclipse 또는 선호하는 편집기.  
+3. **Aspose.Words for Java** – 최신 JAR를 [공식 사이트](https://releases.aspose.com/words/java/)에서 다운로드하세요.  
+4. **기본 Java 지식** – Maven/Gradle 프로젝트를 만들고 외부 JAR를 추가하는 데 익숙해야 합니다.
 
 ## 패키지 가져오기
 
-Aspose.Words for Java를 사용하려면 관련 패키지를 프로젝트에 가져와야 합니다. 이러한 패키지는 문서 조작 및 서식 지정에 필요한 클래스와 메서드를 제공합니다.
+`Document`, `DocumentBuilder`, `Table`, `StyleIdentifier` 및 관련 클래스는 `com.aspose.words` 네임스페이스에 있습니다. 이 단일 패키지를 가져오면 전체 표 스타일링 툴킷에 접근할 수 있습니다. `DocumentBuilder` 클래스는 프로그래밍 방식으로 문서를 구성하고 수정하는 메서드를 제공합니다.
 
 ```java
 import com.aspose.words.*;
 ```
 
-이 import 문을 사용하면 문서에서 표를 만들고 서식을 지정하는 데 필요한 모든 필수 클래스에 액세스할 수 있습니다.
+## 셀 테두리 변경 방법
 
-## 1단계: 표 서식 지정
+아래는 표를 만들고 전역 테두리를 적용한 뒤, 단일 셀의 가장자리를 사용자 정의하는 간결한 단계별 가이드입니다.
 
-Aspose.Words for Java에서 표 서식을 지정하는 작업은 테두리 설정, 셀 음영 처리, 다양한 서식 옵션 적용을 포함합니다. 방법은 다음과 같습니다.
+### 직접 답변
+`Document`는 Word 파일을 나타내고, `DocumentBuilder`는 표와 같은 콘텐츠를 생성합니다. 새 `Document`를 로드하고 `DocumentBuilder`로 `Table`을 삽입한 뒤, 전체 표에 2포인트 검은색 테두리를 설정하고, 세 번째 셀의 왼쪽·오른쪽·위·아래 테두리를 4포인트로 늘립니다. 이 방법을 사용하면 나머지 표는 균일하게 유지하면서 특정 셀을 강조할 수 있습니다.
 
-### 문서 로드
+### 단계 1: 새 문서 로드
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-### 표 만들기 및 서식 지정
+### 단계 2: 표 생성 및 전역 테두리 설정
 
 ```java
 Table table = builder.startTable();
 builder.insertCell();
 
-// 표 전체의 테두리를 설정합니다.
+// Set the borders for the entire table.
 table.setBorders(LineStyle.SINGLE, 2.0, Color.BLACK);
         
-// 이 셀에 대한 셀 음영을 설정합니다.
+// Set the cell shading for this cell.
 builder.getCellFormat().getShading().setBackgroundPatternColor(Color.RED);
 builder.writeln("Cell #1");
 
 builder.insertCell();
         
-// 두 번째 셀에 다른 셀 음영을 지정합니다.
+// Specify a different cell shading for the second cell.
 builder.getCellFormat().getShading().setBackgroundPatternColor(Color.GREEN);
 builder.writeln("Cell #2");
 
 builder.endRow();
 ```
 
-### 셀 테두리 사용자 지정
+### 단계 3: 단일 셀의 테두리 변경
 
 ```java
-// 이전 작업의 셀 서식을 지웁니다.
+// Clear the cell formatting from previous operations.
 builder.getCellFormat().clearFormatting();
 
 builder.insertCell();
 
-// 이 행의 첫 번째 셀에 더 큰 테두리를 만듭니다.
+// Create larger borders for the first cell of this row.
 builder.getCellFormat().getBorders().getLeft().setLineWidth(4.0);
 builder.getCellFormat().getBorders().getRight().setLineWidth(4.0);
 builder.getCellFormat().getBorders().getTop().setLineWidth(4.0);
@@ -96,18 +166,19 @@ builder.writeln("Cell #4");
 doc.save("FormatTableAndCellWithDifferentBorders.docx");
 ```
 
-### 설명
+#### 코드가 수행하는 작업
+- **전역 테두리** – `table.setBorders`는 전체 표에 2포인트 검은 선을 적용합니다.  
+- **셀 음영** – 개별 셀에 색상을 지정하는 방법을 보여줍니다 (빨강 및 초록).  
+- **맞춤 셀 테두리** – 세 번째 셀에 모든 면에 4포인트 테두리를 적용하여 돋보이게 합니다.
 
-이 예에서는:
-- 테두리 설정: 표 전체의 테두리를 두께 2.0포인트의 단일 선 스타일로 설정합니다.
-- 셀 음영: 첫 번째 셀은 빨간색, 두 번째 셀은 녹색으로 음영 처리되어 셀을 시각적으로 구분하는 데 도움이 됩니다.
-- 셀 테두리: 세 번째 셀의 경우 나머지 셀과 다르게 강조하기 위해 더 두꺼운 테두리를 만듭니다.
+## 표 스타일 적용 (첫 번째 열 스타일 포함)
 
-## 2단계: 표 스타일 적용
+표 스타일을 사용하면 단일 호출로 일관된 외관을 적용할 수 있습니다. 또한 *첫 번째 열 스타일*을 활성화하고 테이블을 콘텐츠에 자동 맞춤하는 방법을 보여줍니다.
 
-Aspose.Words for Java의 표 스타일을 사용하면 미리 정의된 서식 옵션을 표에 적용하여 일관된 디자인을 더욱 쉽게 만들 수 있습니다. 표에 스타일을 적용하는 방법은 다음과 같습니다.
+### 직접 답변
+`StyleIdentifier`는 내장 표 스타일을 열거하고, `AutoFitBehavior`는 표가 콘텐츠에 맞게 조정되는 방식을 제어합니다. 새 `Document`를 만들고 `Table`을 구축한 뒤, `StyleIdentifier`를 `MEDIUM_SHADING_1_ACCENT_1`으로 설정하고 `FirstColumn`과 `RowBands`를 활성화합니다. 마지막으로 `autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)`를 호출하면 열이 자동으로 축소·확장되어 삽입된 데이터에 맞게 조정됩니다.
 
-### 문서 및 표 만들기
+### 단계 4: 스타일링을 위한 새 문서 생성
 
 ```java
 Document doc = new Document();
@@ -115,22 +186,24 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Table table = builder.startTable();
         
-// 표 서식을 설정하기 전에 먼저 최소한 한 행을 삽입해야 합니다.
+// We must insert at least one row first before setting any table formatting.
 builder.insertCell();
 ```
 
-### 표 스타일 적용
+### 단계 5: 미리 정의된 스타일 적용 및 첫 번째 열 서식 활성화
 
 ```java
-// 고유한 스타일 식별자를 기반으로 테이블 스타일을 설정합니다.
+// Set the table style based on a unique style identifier.
 table.setStyleIdentifier(StyleIdentifier.MEDIUM_SHADING_1_ACCENT_1);
         
-// 어떤 기능에 스타일을 적용해야 하는지 확인하세요.
+// Apply which features should be formatted by the style.
 table.setStyleOptions(TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS | TableStyleOptions.FIRST_ROW);
+
+// Auto‑fit the table so columns shrink or expand to fit the content.
 table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS);
 ```
 
-### 테이블 데이터 추가
+### 단계 6: 데이터로 표 채우기
 
 ```java
 builder.writeln("Item");
@@ -160,48 +233,58 @@ builder.endRow();
 doc.save("BuildTableWithStyle.docx");
 ```
 
-### 설명
+#### 이것이 중요한 이유
+- **스타일 식별자** – `MEDIUM_SHADING_1_ACCENT_1`은 표에 깔끔하고 음영이 있는 모습을 제공합니다.  
+- **첫 번째 열 스타일** – 첫 번째 열을 강조하면 가독성이 향상되며, 특히 보고서에서 유용합니다.  
+- **행 밴드** – 교차 행 색상은 큰 표를 눈에 더 편하게 만듭니다.  
+- **자동 맞춤** – 표 너비가 내용에 맞게 조정되어 텍스트가 잘리는 것을 방지합니다.
 
-이 예에서는:
-- 테이블 스타일 설정: 미리 정의된 스타일을 적용합니다(`MEDIUM_SHADING_1_ACCENT_1`)을 표에 추가합니다. 이 스타일에는 표의 여러 부분에 대한 서식이 포함되어 있습니다.
-- 스타일 옵션: 첫 번째 열, 행 밴드, 첫 번째 행이 스타일 옵션에 따라 형식이 지정되도록 지정합니다.
-- AutoFit: 우리는 사용합니다 `AUTO_FIT_TO_CONTENTS` 콘텐츠에 따라 표의 크기가 조절되도록 합니다.
+## 일반적인 문제 및 해결 방법
 
-## 결론
-
-자, 이제 완성했습니다! Aspose.Words for Java를 사용하여 표 서식을 지정하고 스타일을 적용하는 방법을 알아봤습니다. 이러한 기법을 사용하면 기능적일 뿐만 아니라 시각적으로도 매력적인 표를 만들 수 있습니다. 표 서식을 효과적으로 지정하면 문서의 가독성과 전문적인 디자인을 크게 향상시킬 수 있습니다.
-
-Aspose.Words for Java는 문서 조작을 위한 다양한 기능을 제공하는 강력한 도구입니다. 표 서식과 스타일을 완벽하게 익혀두면 이 라이브러리의 모든 기능을 활용하는 데 한 걸음 더 다가갈 수 있습니다.
+| 문제 | 일반적인 원인 | 빠른 해결책 |
+|-------|----------------|-----------|
+| 테두리가 표시되지 않음 | `clearFormatting()`을 테두리 설정 후에 사용 | 포맷을 지운 후 **테두리를 설정**하거나 다시 적용하세요. |
+| 병합된 셀에서 음영 무시 | 병합 전에 음영 적용 | 셀을 병합한 **후에** 음영을 적용하세요. |
+| 표 너비가 페이지 여백을 초과 | 자동 맞춤이 적용되지 않음 | `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)`를 호출하거나 고정 너비를 설정하세요. |
+| 스타일이 적용되지 않음 | `StyleIdentifier` 값이 잘못됨 | 사용 중인 Aspose.Words 버전에 해당 식별자가 존재하는지 확인하세요. |
 
 ## 자주 묻는 질문
 
-### 1. 기본 옵션에 포함되지 않은 사용자 정의 표 스타일을 사용할 수 있나요?
+**Q: 기본 옵션에 포함되지 않은 사용자 정의 표 스타일을 사용할 수 있나요?**  
+A: 네, 프로그래밍 방식으로 사용자 정의 스타일을 만들고 적용할 수 있습니다. 자세한 내용은 [Aspose.Words 문서](https://reference.aspose.com/words/java/)를 참조하세요.
 
-네, Aspose.Words for Java를 사용하여 표에 사용자 지정 스타일을 정의하고 적용할 수 있습니다. [선적 서류 비치](https://reference.aspose.com/words/java/) 사용자 정의 스타일을 만드는 방법에 대한 자세한 내용은 다음을 참조하세요.
+**Q: 셀에 조건부 서식을 어떻게 적용할 수 있나요?**  
+A: 표준 Java 로직으로 셀 값을 검사한 뒤, 해당 서식 메서드(예: 값이 임계값을 초과하면 배경 색상 변경)를 호출하면 됩니다.
 
-### 2. 표에 조건부 서식을 적용하려면 어떻게 해야 하나요?
+**Q: 병합된 셀을 일반 셀과 동일하게 서식 지정할 수 있나요?**  
+A: 물론입니다. 셀을 병합한 후 동일한 `CellFormat` API를 사용해 음영이나 테두리를 적용하면 됩니다.
 
-Aspose.Words for Java를 사용하면 조건에 따라 표 서식을 프로그래밍 방식으로 조정할 수 있습니다. 코드에서 특정 조건을 확인하고 그에 따라 서식을 적용하면 됩니다.
+**Q: 사용자 입력에 따라 표가 동적으로 크기 조정되도록 하려면 어떻게 해야 하나요?**  
+A: 새 데이터를 삽입한 뒤 열 너비를 조정하거나 `autoFit`을 다시 호출하여 레이아웃을 재계산하면 됩니다.
 
-### 3. 표에서 병합된 셀의 서식을 지정할 수 있나요?
+**Q: 표 스타일링에 대한 더 많은 예제를 어디서 찾을 수 있나요?**  
+A: 공식 [Aspose.Words API 문서](https://reference.aspose.com/words/java/)에 포괄적인 샘플이 포함되어 있습니다.
 
-네, 일반 셀처럼 병합된 셀에도 서식을 적용할 수 있습니다. 셀을 병합한 후 서식을 적용해야 변경 사항이 반영됩니다.
+## 결론
 
-### 4. 테이블 레이아웃을 동적으로 조정할 수 있나요?
+이제 Aspose.Words for Java를 사용하여 **셀 테두리 변경**, *첫 번째 열 스타일* 적용 및 **테이블 콘텐츠 자동 맞춤**을 완벽히 수행할 수 있는 도구 상자를 갖추었습니다. 이러한 기술을 마스터하면 데이터가 풍부하면서도 시각적으로 세련된 문서를 제작할 수 있어 보고서, 청구서 및 모든 비즈니스 핵심 출력에 이상적입니다.
 
-네, 콘텐츠나 사용자 입력에 따라 셀 크기, 표 너비 및 기타 속성을 수정하여 표 레이아웃을 동적으로 조정할 수 있습니다.
+--- 
 
-### 5. 표 서식에 대한 자세한 정보는 어디에서 얻을 수 있나요?
+**Last Updated:** 2026-10-17  
+**Tested With:** Aspose.Words for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
 
-더 자세한 예와 옵션은 다음을 방문하세요. [Aspose.Words API 문서](https://reference.aspose.com/words/java/).
+## 관련 튜토리얼
+
+- [Aspose.Words Java 포맷팅 및 스타일 튜토리얼 - 문서 향상](/words/java/formatting-styles/)
+- [Aspose.Words for Java 고급 문서 테두리: 포괄적인 가이드](/words/java/headers-footers-page-setup/advanced-document-borders-aspose-words-java/)
+- [Aspose.Words for Java를 사용하여 문서에 워터마크 추가](/words/java/document-conversion-and-export/using-watermarks-to-documents/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

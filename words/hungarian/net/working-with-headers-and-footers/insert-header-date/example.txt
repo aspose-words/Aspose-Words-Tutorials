@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: A Document és a DocumentBuilder osztályok használatával ez az útmutató bemutatja, hogyan adhatunk dinamikus DATE mezőt a Word dokumentum elsődleges fejlécehez, majd menthetjük a fájlt.
+//ExStepSummary:0: Hozzon létre egy új Document objektumot és egy DocumentBuilder-t a szerkesztéséhez.
+//ExStepSummary:1: Móvegessze a builder kurzorát az elsődleges fejlécbe, hogy a későbbi beszúrások a fejlécet érintsék.
+//ExStepSummary:2: Írja ki a statikus címkét, és szúrjon be egy DATE mezőt “MMMM d, yyyy” formátummal a fejlécbe, így dinamikus dátumot hozva létre.
+//ExStepSummary:3: Térjen vissza a fő szöveghez, és adjon hozzá egy minta bekezdést, amely bemutatja a normál dokumentumtartalmat a fejléc mellett.
+//ExStepSummary:4: Mentse a dokumentumot .docx fájlba.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+builder.Write("Generated on: ");
+builder.InsertField("DATE \\@ \"MMMM d, yyyy\"");
+
+//ExStep:3-
+builder.MoveToDocumentEnd();
+builder.Writeln("This is the document body.");
+
+//ExStep:4-
+doc.Save("HeaderDate.docx");
+//ExEnd

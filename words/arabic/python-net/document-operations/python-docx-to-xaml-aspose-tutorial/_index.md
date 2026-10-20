@@ -5,7 +5,9 @@
 "url": "/ar/python-net/document-operations/python-docx-to-xaml-aspose-tutorial/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # تحويل DOCX إلى صيغة XAML ثابتة في Python باستخدام Aspose.Words: دليل شامل
 
 ## مقدمة
@@ -156,3 +158,7 @@ class ResourceUriPrinter(aw.saving.IResourceSavingCallback):
 - [الوصول إلى النسخة التجريبية المجانية](https://releases.aspose.com/words/python/)
 - [طلب ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)
 - [منتدى الدعم](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

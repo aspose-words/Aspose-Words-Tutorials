@@ -4,7 +4,9 @@
 "url": "/nl/python-net/getting-started/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aan de slag-tutorials voor Aspose.Words Python-net
 
 Ontdek uitgebreide stapsgewijze handleidingen om aan de slag te gaan met Aspose.Words voor Python-net. Deze tutorials bevatten complete codevoorbeelden en gedetailleerde uitleg.
@@ -25,8 +27,11 @@ Duik in de wereld van documentautomatisering met onze speciaal samengestelde cat
 ### [Handleiding voor gelicentieerde licenties voor Aspose.Words in Python: efficiënte documentgebruikregistratie](./aspose-words-python-metered-licensing-guide/)
 Leer hoe u gemeten licenties implementeert met Aspose.Words voor Python om het documentgebruik binnen uw applicaties efficiënt te volgen en beheren.
 
-    ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
+### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 Een codetutorial voor Aspose.Words Python-net
+
+### [CMake-project bouwen: configureren, bouwen en testen](./build-cmake-project-configure-build-test/)
+Leer hoe u een CMake-project configureert, bouwt en test met Aspose.Words voor Python-net.
 
 ## Aanvullende bronnen
 
@@ -36,3 +41,7 @@ Een codetutorial voor Aspose.Words Python-net
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Gratis ondersteuning](https://forum.aspose.com/)
 - [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

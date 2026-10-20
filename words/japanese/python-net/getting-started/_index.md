@@ -4,7 +4,9 @@
 "url": "/ja/python-net/getting-started/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words Python-net 入門チュートリアル
 
 Aspose.Words for Python-net を使い始めるための包括的なステップバイステップガイドをご覧ください。これらのチュートリアルには、完全なコードサンプルと詳細な説明が含まれています。
@@ -25,8 +27,11 @@ Python-net を使用した Aspose.Words の「Getting Started」カテゴリー�
 ### [Python の Aspose.Words の従量制ライセンスガイド: 効率的なドキュメント使用状況の追跡](./aspose-words-python-metered-licensing-guide/)
 Aspose.Words for Python を使用して従量制ライセンスを実装し、アプリケーション内でのドキュメントの使用状況を効率的に追跡および管理する方法を学びます。
 
-    ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
+### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 Aspose.Words Python-netのコードチュートリアル
+
+### [CMake プロジェクトの構築: 設定、ビルド、テスト](./build-cmake-project-configure-build-test/)
+CMake プロジェクトを設定し、ビルドとテストを実行する手順を示すチュートリアルです。
 
 ## 追加リソース
 
@@ -36,3 +41,7 @@ Aspose.Words Python-netのコードチュートリアル
 - [Aspose.Words フォーラム](https://forum.aspose.com/c/words/8)
 - [無料サポート](https://forum.aspose.com/)
 - [一時ライセンス](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

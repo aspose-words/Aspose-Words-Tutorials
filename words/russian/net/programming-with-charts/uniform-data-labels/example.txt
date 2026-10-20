@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: В этом руководстве демонстрируется, как создать документ Word, вставить столбчатую диаграмму, добавить пользовательские серии данных и определить размер шрифта и цвет подписи данных по умолчанию, которые применяются одинаково ко всем сериям на диаграмме.
+//ExStepSummary:0: Создайте новый пустой документ Word и объект DocumentBuilder для его редактирования.
+//ExStepSummary:1: Вставьте в документ столбчатую диаграмму размером 500×300 и получите её объект Chart.
+//ExStepSummary:2: Удалите стандартную образцовую серию, которую Aspose.Words добавляет в новую диаграмму.
+//ExStepSummary:3: Определите метки категорий и добавьте в диаграмму две серии данных (Item Alpha и Item Beta) с их значениями.
+//ExStepSummary:4: Установите базовый размер шрифта и цвет, которые будут применяться ко всем подписям данных.
+//ExStepSummary:5: Включите подписи данных для каждой серии, отобразите числовое значение и примените заранее определённый размер шрифта и цвет.
+//ExStepSummary:6: Сохраните документ в файл формата .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document document = new Document();
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:1-
+Shape chartContainer = builder.InsertChart(ChartType.Column, 500, 300);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+
+//ExStep:3-
+string[] periods = { "Period 1", "Period 2", "Period 3", "Period 4" };
+chart.Series.Add("Item Alpha", periods, new double[] { 120, 150, 170, 130 });
+chart.Series.Add("Item Beta", periods, new double[] { 80, 110, 140, 100 });
+
+//ExStep:4-
+const float labelFontSize = 10f;
+Color labelFontColor = Color.White;
+
+//ExStep:5-
+foreach (ChartSeries series in chart.Series)
+{
+    series.HasDataLabels = true;
+    series.DataLabels.ShowValue = true;
+    series.DataLabels.Font.Size = labelFontSize;
+    series.DataLabels.Font.Color = labelFontColor;
+}
+
+//ExStep:6-
+document.Save("UniformLabelChart.docx");
+//ExEnd

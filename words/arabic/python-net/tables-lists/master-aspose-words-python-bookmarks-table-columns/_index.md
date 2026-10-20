@@ -5,7 +5,9 @@
 "url": "/ar/python-net/tables-lists/master-aspose-words-python-bookmarks-table-columns/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # إتقان Aspose.Words في بايثون: إدراج وإزالة وإدارة الإشارات المرجعية وأعمدة الجدول بكفاءة
 ## مقدمة
 إن إدارة الإشارات المرجعية بفعالية والعمل مع أعمدة الجداول يُحسّن بشكل ملحوظ مهام معالجة مستنداتك باستخدام مكتبة Aspose.Words في بايثون. سيرشدك هذا البرنامج التعليمي خلال عملية إدراج الإشارات المرجعية وإزالتها بكفاءة، وفهم إشارات أعمدة الجداول، واستكشاف حالات الاستخدام العملية، ومراعاة جوانب الأداء.
@@ -140,3 +142,7 @@ doc = aw.Document()
    - نعم، يدعم Aspose.Words تنسيقات متعددة بما في ذلك DOCX وPDF.
 3. **ما هي حدود إشارات مرجعية عمود الجدول؟**
    - لا يمكن استخدامها إلا داخل الجداول التي تحتوي على صفوف وأعمدة محددة بوضوح.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -10,7 +10,9 @@ keywords:
 - plaintext document processing
 
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Guide to Implementing List Detection in Text Using Aspose.Words for Python
 
 ## Introduction
@@ -176,3 +178,7 @@ def test_detect_hyperlinks(self):
 2. **Content Analysis Tools**: Extract structured data from text files for further analysis or reporting.
 3. **Data Cleanup Tasks**: Standardize text formatting by managing whitespace and identifying list elements.
 4. **Link Verification**: Validate links within a batch of text documents to ensure they are active and correct.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

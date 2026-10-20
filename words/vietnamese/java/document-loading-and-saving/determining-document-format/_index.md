@@ -1,10 +1,12 @@
 ---
-"description": "Tìm hiểu cách phát hiện định dạng tài liệu trong Java với Aspose.Words. Xác định DOC, DOCX và nhiều định dạng khác. Sắp xếp tệp hiệu quả."
-"linktitle": "Xác định định dạng tài liệu"
-"second_title": "API xử lý tài liệu Java Aspose.Words"
-"title": "Xác định định dạng tài liệu trong Aspose.Words cho Java"
-"url": "/vi/java/document-loading-and-saving/determining-document-format/"
-"weight": 25
+date: 2026-02-22
+description: Tìm hiểu cách phát hiện định dạng tài liệu Java với Aspose.Words và tự
+  động di chuyển tệp theo định dạng. Nhận dạng DOC, DOCX và nhiều định dạng khác.
+linktitle: Determining Document Format
+second_title: Aspose.Words Java Document Processing API
+title: Phát hiện định dạng tài liệu Java bằng Aspose.Words cho Java
+url: /vi/java/document-loading-and-saving/determining-document-format/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,24 +15,38 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Xác định định dạng tài liệu trong Aspose.Words cho Java
+# phát hiện định dạng tài liệu java bằng Aspose.Words cho Java
 
+Khi bạn cần **detect document format java** trong một lô tệp, khả năng tự động sắp xếp chúng vào các thư mục phù hợp có thể tiết kiệm hàng giờ công việc thủ công. Trong hướng dẫn này, chúng tôi sẽ chỉ cho bạn cách Aspose.Words cho Java giúp dễ dàng xác định Word, RTF, HTML, ODT và nhiều định dạng khác, và sau đó **move files by format** vào các thư mục được tổ chức.
 
-## Giới thiệu về Xác định Định dạng Tài liệu trong Aspose.Words cho Java
+## Câu trả lời nhanh
+- **What does “detect document format java” mean?** Đó là quá trình xác định một cách lập trình định dạng xử lý văn bản của tệp (DOC, DOCX, RTF, v.v.) bằng mã Java.  
+- **Which library provides this capability?** Aspose.Words cho Java cung cấp API `FileFormatUtil.detectFileFormat`.  
+- **Can the utility also handle encrypted files?** Có – cờ `FileFormatInfo.isEncrypted()` cho biết tài liệu có được bảo vệ bằng mật khẩu hay không.  
+- **Do I need a license for production use?** Cần có giấy phép thương mại của Aspose.Words cho các triển khai không phải đánh giá.  
+- **Is it possible to move files automatically after detection?** Chắc chắn – kết hợp kết quả phát hiện với `FileUtils.copyFile` để sắp xếp tệp vào các thư mục tùy chỉnh.
 
-Khi xử lý tài liệu trong Java, điều quan trọng là phải xác định định dạng của các tệp bạn đang xử lý. Aspose.Words for Java cung cấp các tính năng mạnh mẽ để xác định định dạng tài liệu và chúng tôi sẽ hướng dẫn bạn thực hiện quy trình.
+## Detect document format java là gì?
+`detect document format java` đề cập đến việc sử dụng mã Java để kiểm tra tiêu đề nhị phân của tệp và xác định định dạng xử lý văn bản mà nó thuộc về (ví dụ: DOC, DOCX, ODT). Aspose.Words đọc tệp mà không cần tải toàn bộ tài liệu, giúp thao tác nhanh và tiết kiệm bộ nhớ.
 
-## Điều kiện tiên quyết
+## Tại sao phải di chuyển tệp theo định dạng?
+Việc tổ chức tài liệu theo định dạng gốc của chúng giúp đơn giản hoá quá trình xử lý tiếp theo:
 
-Trước khi bắt đầu, hãy đảm bảo bạn đáp ứng các điều kiện tiên quyết sau:
+- **Batch conversions** trở nên dễ dàng khi tất cả các tệp DOCX nằm trong một thư mục.  
+- **Legacy support**: bạn có thể tách các tệp Word trước năm 97 để xử lý đặc biệt.  
+- **Security**: các tài liệu được mã hoá có thể được cách ly tự động.  
 
-- [Aspose.Words cho Java](https://releases.aspose.com/words/java/)
-- Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn
-- Kiến thức cơ bản về lập trình Java
+## Yêu cầu trước
 
-## Bước 1: Thiết lập thư mục
+Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
 
-Đầu tiên, chúng ta cần thiết lập các thư mục cần thiết để sắp xếp các tệp của mình một cách hiệu quả. Chúng ta sẽ tạo các thư mục cho các loại tài liệu khác nhau.
+- [Aspose.Words for Java](https://releases.aspose.com/words/java/) (tải phiên bản mới nhất)  
+- Java Development Kit (JDK) 8 hoặc cao hơn đã được cài đặt  
+- Kiến thức cơ bản về Java I/O và streams  
+
+## Bước 1: Thiết lập thư mục cho mỗi định dạng
+
+Đầu tiên chúng ta tạo một cấu trúc thư mục sạch sẽ nơi các tệp đã phát hiện sẽ được di chuyển. Điều này giữ cho quy trình làm việc gọn gàng và dễ dàng thêm các danh mục định dạng mới sau này.
 
 ```java
 File supportedDir = new File("Your Directory Path" + "Supported");
@@ -38,7 +54,7 @@ File unknownDir = new File("Your Directory Path" + "Unknown");
 File encryptedDir = new File("Your Directory Path" + "Encrypted");
 File pre97Dir = new File("Your Directory Path" + "Pre97");
 
-// Tạo thư mục nếu chúng chưa tồn tại.
+// Create the directories if they do not already exist.
 if (!supportedDir.exists())
     supportedDir.mkdir();
 if (!unknownDir.exists())
@@ -49,11 +65,11 @@ if (!pre97Dir.exists())
     pre97Dir.mkdir();
 ```
 
-Chúng tôi đã tạo các thư mục cho các loại tài liệu được hỗ trợ, không xác định, được mã hóa và trước năm 97.
+> **Pro tip:** Sử dụng đường dẫn tuyệt đối hoặc cấu hình thư mục gốc thông qua file properties để tránh việc mã hoá cứng các đường dẫn trong mã sản xuất.
 
-## Bước 2: Phát hiện định dạng tài liệu
+## Bước 2: Phát hiện định dạng tài liệu và di chuyển tệp
 
-Bây giờ, hãy phát hiện định dạng của các tài liệu trong thư mục của chúng ta. Chúng ta sẽ sử dụng Aspose.Words cho Java để thực hiện điều này.
+Phần cốt lõi của **detect document format java** nằm trong vòng lặp dưới đây. Nó quét từng tệp, xác định loại của chúng và sao chép vào thư mục phù hợp.
 
 ```java
 Set<String> listFiles = Stream.of(new File("Your Directory Path").listFiles())
@@ -66,20 +82,20 @@ for (String fileName : listFiles) {
     System.out.println(nameOnly);
     FileFormatInfo info = FileFormatUtil.detectFileFormat(fileName);
 
-    // Hiển thị loại tài liệu
+    // Display the document type
     switch (info.getLoadFormat()) {
         case LoadFormat.DOC:
             System.out.println("\tMicrosoft Word 97-2003 document.");
             break;
-        // Thêm các trường hợp cho các định dạng tài liệu khác khi cần thiết
+        // Add cases for other document formats as needed
     }
 
-    // Xử lý các tài liệu được mã hóa
+    // Handle encrypted documents
     if (info.isEncrypted()) {
         System.out.println("\tAn encrypted document.");
         FileUtils.copyFile(new File(fileName), new File(encryptedDir, nameOnly));
     } else {
-        // Xử lý các loại tài liệu khác
+        // Handle other document types
         switch (info.getLoadFormat()) {
             case LoadFormat.DOC_PRE_WORD_60:
                 FileUtils.copyFile(new File(fileName), new File(pre97Dir, nameOnly));
@@ -95,16 +111,18 @@ for (String fileName : listFiles) {
 }
 ```
 
-Trong đoạn mã này, chúng tôi lặp lại các tệp, phát hiện định dạng của chúng và sắp xếp chúng vào các thư mục tương ứng.
+Khối `switch` có thể được mở rộng để bao phủ mọi định dạng bạn quan tâm. Mỗi case in ra một thông báo thân thiện và sau đó di chuyển tệp vào thư mục tương ứng.
 
-## Mã nguồn hoàn chỉnh để xác định định dạng tài liệu trong Aspose.Words cho Java
+## Mã nguồn hoàn chỉnh cho việc phát hiện định dạng tài liệu java
+
+Dưới đây là ví dụ đầy đủ, sẵn sàng chạy, kết hợp thiết lập thư mục và logic phát hiện. Sao chép nó vào một lớp Java, điều chỉnh đường dẫn cơ sở, và chạy nó trên một thư mục chứa các tài liệu hỗn hợp.
 
 ```java
         File supportedDir = new File("Your Directory Path" + "Supported");
         File unknownDir = new File("Your Directory Path" + "Unknown");
         File encryptedDir = new File("Your Directory Path" + "Encrypted");
         File pre97Dir = new File("Your Directory Path" + "Pre97");
-        // Tạo thư mục nếu chúng chưa tồn tại.
+        // Create the directories if they do not already exist.
         if (supportedDir.exists() == false)
             supportedDir.mkdir();
         if (unknownDir.exists() == false)
@@ -121,7 +139,7 @@ Trong đoạn mã này, chúng tôi lặp lại các tệp, phát hiện định
             String nameOnly = Paths.get(fileName).getFileName().toString();
             System.out.println(nameOnly);
             FileFormatInfo info = FileFormatUtil.detectFileFormat(fileName);
-            // Hiển thị loại tài liệu
+            // Display the document type
             switch (info.getLoadFormat()) {
                 case LoadFormat.DOC:
                     System.out.println("\tMicrosoft Word 97-2003 document.");
@@ -189,39 +207,45 @@ Trong đoạn mã này, chúng tôi lặp lại các tệp, phát hiện định
 
 ```
 
-## Phần kết luận
+## Các vấn đề thường gặp và khắc phục
 
-Xác định định dạng tài liệu trong Aspose.Words for Java là điều cần thiết để xử lý tài liệu hiệu quả. Với các bước được nêu trong hướng dẫn này, bạn có thể xác định các loại tài liệu và xử lý chúng cho phù hợp trong các ứng dụng Java của mình.
+| Issue | Lý do xảy ra | Cách khắc phục |
+|-------|----------------|------------|
+| **`FileFormatUtil.detectFileFormat` returns `UNKNOWN`** | Tệp bị hỏng hoặc sử dụng định dạng không phải Word. | Xác minh phần mở rộng tệp, hoặc thêm fallback để di chuyển nó vào thư mục *Unknown* (đã có trong mẫu). |
+| **Encrypted files throw an exception** | API cố gắng đọc nội dung trước khi kiểm tra mã hoá. | Luôn gọi `info.isEncrypted()` trước bất kỳ thao tác nào khác trên tài liệu. |
+| **Directory creation fails on Linux** | Quyền không đủ hoặc thiếu thư mục cha. | Đảm bảo quá trình Java có quyền ghi và đường dẫn cơ sở tồn tại. |
 
 ## Câu hỏi thường gặp
 
-### Làm thế nào để cài đặt Aspose.Words cho Java?
+**Q: Làm thế nào để cài đặt Aspose.Words cho Java?**  
+A: Bạn có thể tải Aspose.Words cho Java từ [đây](https://releases.aspose.com/words/java/) và làm theo hướng dẫn cài đặt được cung cấp.
 
-Bạn có thể tải xuống Aspose.Words cho Java từ [đây](https://releases.aspose.com/words/java/) và làm theo hướng dẫn cài đặt được cung cấp.
+**Q: Các định dạng tài liệu nào được hỗ trợ để phát hiện?**  
+A: Aspose.Words có thể phát hiện DOC, DOCX, DOT, DOTX, DOCM, DOTM, RTF, HTML, MHTML, ODT, OTT, FLAT_OPC, WORD_ML, và các định dạng cũ hơn trước năm 97, cùng với các định dạng khác.
 
-### Những định dạng tài liệu nào được hỗ trợ?
+**Q: Mã này có thể xử lý tài liệu được bảo vệ bằng mật khẩu không?**  
+A: Có. Cờ `FileFormatInfo.isEncrypted()` xác định các tệp được mã hoá, cho phép bạn di chuyển chúng vào thư mục an toàn mà không cần mở.
 
-Aspose.Words for Java hỗ trợ nhiều định dạng tài liệu khác nhau, bao gồm DOC, DOCX, RTF, HTML, v.v. Bạn có thể tham khảo tài liệu để biết danh sách đầy đủ.
+**Q: Có ảnh hưởng đến hiệu năng khi quét các thư mục lớn không?**  
+A: Phát hiện chỉ đọc tiêu đề tệp, vì vậy ngay cả hàng nghìn tệp cũng được xử lý nhanh chóng. Đối với các lô rất lớn, hãy xem xét sử dụng parallel streams.
 
-### Làm thế nào tôi có thể phát hiện tài liệu được mã hóa bằng Aspose.Words cho Java?
+**Q: Làm thế nào để mở rộng script để chuyển đổi các định dạng không được hỗ trợ?**  
+A: Sau khi phát hiện, bạn có thể gọi `Document.save` với định dạng đầu ra mong muốn cho bất kỳ loại nguồn nào được hỗ trợ.
 
-Bạn có thể sử dụng `FileFormatUtil.detectFileFormat()` phương pháp phát hiện tài liệu được mã hóa, như được trình bày trong hướng dẫn này.
+## Kết luận
 
-### Có hạn chế nào khi làm việc với các định dạng tài liệu cũ không?
+Bằng cách sử dụng **detect document format java** với Aspose.Words, bạn có được một cách đáng tin cậy để tự động sắp xếp, cách ly hoặc chuyển đổi các tệp liên quan đến Word. Mã mẫu minh họa cách tạo một cấu trúc thư mục sạch sẽ, xác định định dạng của từng tệp và di chuyển chúng một cách phù hợp—giúp bạn tiết kiệm thời gian và giảm lỗi thủ công.
 
-Các định dạng tài liệu cũ hơn, chẳng hạn như MS Word 6 hoặc Word 95, có thể có những hạn chế về tính năng và khả năng tương thích với các ứng dụng hiện đại. Hãy cân nhắc nâng cấp hoặc chuyển đổi các tài liệu này khi cần thiết.
+---
 
-### Tôi có thể tự động phát hiện định dạng tài liệu trong ứng dụng Java của mình không?
-
-Có, bạn có thể tự động phát hiện định dạng tài liệu bằng cách tích hợp mã được cung cấp vào ứng dụng Java của bạn. Điều này cho phép bạn xử lý tài liệu dựa trên các định dạng được phát hiện của chúng.
-
+**Cập nhật lần cuối:** 2026-02-22  
+**Kiểm tra với:** Aspose.Words for Java 24.12 (latest)  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

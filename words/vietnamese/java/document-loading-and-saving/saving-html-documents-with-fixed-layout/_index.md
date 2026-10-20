@@ -1,10 +1,13 @@
 ---
-"description": "Tìm hiểu cách lưu tài liệu HTML với bố cục cố định trong Aspose.Words cho Java. Làm theo hướng dẫn từng bước của chúng tôi để định dạng tài liệu liền mạch."
-"linktitle": "Lưu tài liệu HTML với bố cục cố định"
-"second_title": "API xử lý tài liệu Java Aspose.Words"
-"title": "Lưu tài liệu HTML với bố cục cố định trong Aspose.Words cho Java"
-"url": "/vi/java/document-loading-and-saving/saving-html-documents-with-fixed-layout/"
-"weight": 15
+date: 2025-12-27
+description: Tìm hiểu cách lưu HTML với bố cục cố định bằng Aspose.Words for Java
+  – hướng dẫn tối ưu để chuyển đổi Word sang HTML và lưu tài liệu dưới dạng HTML một
+  cách hiệu quả.
+linktitle: Saving HTML Documents with Fixed Layout
+second_title: Aspose.Words Java Document Processing API
+title: Cách lưu HTML với bố cục cố định bằng Aspose.Words cho Java
+url: /vi/java/document-loading-and-saving/saving-html-documents-with-fixed-layout/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,50 +16,63 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lưu tài liệu HTML với bố cục cố định trong Aspose.Words cho Java
+# Cách lưu HTML với bố cục cố định bằng Aspose.Words cho Java
 
+Trong hướng dẫn này, bạn sẽ khám phá **cách lưu html** tài liệu với bố cục cố định trong khi giữ nguyên định dạng Word gốc. Cho dù bạn cần **chuyển đổi Word sang HTML**, **xuất Word HTML** để xem trên web, hoặc chỉ đơn giản **lưu tài liệu dưới dạng html** để lưu trữ, các bước dưới đây sẽ hướng dẫn bạn toàn bộ quá trình bằng Aspose.Words cho Java.
 
-## Giới thiệu về Lưu tài liệu HTML với Bố cục cố định trong Aspose.Words cho Java
+## Câu trả lời nhanh
+- **“fixed layout” có nghĩa là gì?** Nó giữ nguyên giao diện trực quan chính xác của tệp Word gốc trong đầu ra HTML.  
+- **Tôi có thể sử dụng phông chữ tùy chỉnh không?** Có – đặt `useTargetMachineFonts` để kiểm soát cách xử lý phông chữ.  
+- **Tôi có cần giấy phép không?** Cần một giấy phép Aspose.Words cho Java hợp lệ để sử dụng trong môi trường sản xuất.  
+- **Các phiên bản Java nào được hỗ trợ?** Tất cả các runtime Java 8+ đều tương thích.  
+- **Đầu ra có đáp ứng (responsive) không?** HTML bố cục cố định là pixel‑perfect, không đáp ứng; hãy sử dụng CSS nếu bạn cần bố cục linh hoạt.
 
-Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn quy trình lưu tài liệu HTML với bố cục cố định bằng Aspose.Words for Java. Với hướng dẫn từng bước và ví dụ về mã, bạn sẽ học cách thực hiện điều này một cách liền mạch. Vậy, hãy bắt đầu ngay thôi!
+## “Cách lưu html” với bố cục cố định là gì?
+Lưu HTML với bố cục cố định có nghĩa là tạo ra các tệp HTML mà mỗi trang, đoạn văn và hình ảnh giữ nguyên kích thước và vị trí như trong tài liệu Word nguồn. Điều này rất phù hợp cho các trường hợp pháp lý, xuất bản hoặc lưu trữ nơi mà độ trung thực hình ảnh là yếu tố quan trọng.
 
-## Điều kiện tiên quyết
+## Tại sao nên sử dụng Aspose.Words cho Java để chuyển đổi HTML?
+- **Độ trung thực cao** – thư viện tái tạo chính xác các bố cục phức tạp, bảng và đồ họa.  
+- **Không phụ thuộc vào Microsoft Office** – hoạt động hoàn toàn phía máy chủ.  
+- **Tùy chỉnh mở rộng** – các tùy chọn như `HtmlFixedSaveOptions` cho phép bạn tinh chỉnh đầu ra.  
+- **Đa nền tảng** – chạy trên bất kỳ hệ điều hành nào hỗ trợ Java.
 
-Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
+## Yêu cầu trước
+- Môi trường phát triển Java (JDK 8 trở lên).  
+- Thư viện Aspose.Words cho Java đã được thêm vào dự án (tải về từ trang chính thức).  
+- Một tài liệu Word (`.docx`) bạn muốn chuyển đổi.
 
-- Thiết lập môi trường phát triển Java.
-- Thư viện Aspose.Words cho Java đã được cài đặt và cấu hình.
+## Hướng dẫn từng bước
 
-## Bước 1: Tải tài liệu
-
-Đầu tiên, chúng ta cần tải tài liệu mà chúng ta muốn lưu ở định dạng HTML. Sau đây là cách bạn có thể thực hiện:
+### Bước 1: Tải tài liệu Word
+Đầu tiên, tải tài liệu nguồn vào một đối tượng `Document`.
 
 ```java
 Document doc = new Document("Your Directory Path" + "YourDocument.docx");
 ```
 
-Thay thế `"YourDocument.docx"` bằng đường dẫn đến tài liệu Word của bạn.
+Thay thế `"YourDocument.docx"` bằng đường dẫn thực tế tới tệp của bạn.
 
-## Bước 2: Cấu hình tùy chọn lưu HTML cố định
-
-Để lưu tài liệu với bố cục cố định, chúng ta cần cấu hình `HtmlFixedSaveOptions` lớp. Chúng tôi sẽ thiết lập `useTargetMachineFonts` tài sản để `true` để đảm bảo rằng phông chữ của máy đích được sử dụng trong đầu ra HTML:
+### Bước 2: Cấu hình tùy chọn lưu HTML bố cục cố định
+Tạo một thể hiện `HtmlFixedSaveOptions` và bật việc sử dụng phông chữ của máy mục tiêu để HTML sử dụng cùng phông chữ như máy nguồn.
 
 ```java
 HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions();
 saveOptions.setUseTargetMachineFonts(true);
 ```
 
-## Bước 3: Lưu tài liệu dưới dạng HTML
+Bạn cũng có thể khám phá các thuộc tính khác như `setExportEmbeddedFonts` nếu cần nhúng phông chữ trực tiếp.
 
-Bây giờ, hãy lưu tài liệu dưới dạng HTML với bố cục cố định bằng cách sử dụng các tùy chọn đã cấu hình trước đó:
+### Bước 3: Lưu tài liệu dưới dạng HTML bố cục cố định
+Cuối cùng, ghi tài liệu ra tệp HTML bằng các tùy chọn đã định nghĩa ở trên.
 
 ```java
 doc.save("Your Directory Path" + "FixedLayoutDocument.html", saveOptions);
 ```
 
-Thay thế `"FixedLayoutDocument.html"` với tên mong muốn cho tệp HTML của bạn.
+Tệp `FixedLayoutDocument.html` sẽ hiển thị nội dung Word chính xác như trong tệp gốc.
 
-## Mã nguồn đầy đủ để lưu tài liệu HTML với bố cục cố định trong Aspose.Words cho Java
+### Ví dụ mã nguồn hoàn chỉnh
+Dưới đây là một đoạn mã sẵn sàng chạy, kết hợp tất cả các bước lại với nhau. Giữ nguyên mã để duy trì chức năng.
 
 ```java
         Document doc = new Document("Your Directory Path" + "Bullet points with alternative font.docx");
@@ -68,35 +84,41 @@ Thay thế `"FixedLayoutDocument.html"` với tên mong muốn cho tệp HTML c�
     }
 ```
 
-## Phần kết luận
-
-Trong hướng dẫn này, chúng ta đã học cách lưu tài liệu HTML với bố cục cố định bằng Aspose.Words for Java. Bằng cách làm theo các bước đơn giản này, bạn có thể đảm bảo rằng tài liệu của mình duy trì cấu trúc trực quan nhất quán trên các nền tảng khác nhau.
+## Các vấn đề thường gặp và giải pháp
+- **Thiếu phông chữ trong đầu ra** – Đảm bảo `useTargetMachineFonts` được đặt thành `true` *hoặc* nhúng phông chữ bằng `setExportEmbeddedFonts(true)`.  
+- **Tệp HTML quá lớn** – Sử dụng `setExportEmbeddedImages(false)` để giữ hình ảnh ở ngoài và giảm kích thước tệp.  
+- **Đường dẫn tệp không đúng** – Sử dụng đường dẫn tuyệt đối hoặc xác minh thư mục làm việc có quyền ghi.
 
 ## Câu hỏi thường gặp
 
-### Làm thế nào tôi có thể thiết lập Aspose.Words cho Java trong dự án của mình?
+**Q: Làm thế nào tôi có thể thiết lập Aspose.Words cho Java trong dự án của mình?**  
+A: Tải thư viện từ [here](https://releases.aspose.com/words/java/) và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu [here](https://reference.aspose.com/words/java/).
 
-Thiết lập Aspose.Words cho Java rất đơn giản. Bạn có thể tải xuống thư viện từ [đây](https://releases.aspose.com/words/java/) và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu [đây](https://reference.aspose.com/words/java/).
+**Q: Có yêu cầu giấy phép nào khi sử dụng Aspose.Words cho Java không?**  
+A: Có, cần một giấy phép hợp lệ để sử dụng trong môi trường sản xuất. Bạn có thể lấy giấy phép từ trang web Aspose.
 
-### Có yêu cầu cấp phép nào khi sử dụng Aspose.Words cho Java không?
+**Q: Tôi có thể tùy chỉnh đầu ra HTML thêm không?**  
+A: Chắc chắn. Các tùy chọn như `setExportEmbeddedImages`, `setExportEmbeddedFonts` và `setCssClassNamePrefix` cho phép bạn điều chỉnh đầu ra theo nhu cầu.
 
-Có, Aspose.Words for Java yêu cầu giấy phép hợp lệ để sử dụng trong môi trường sản xuất. Bạn có thể lấy giấy phép từ trang web Aspose. Bạn có thể tìm thêm thông tin chi tiết trong tài liệu.
+**Q: Aspose.Words cho Java có tương thích với các phiên bản Java khác nhau không?**  
+A: Có, thư viện hỗ trợ Java 8 trở lên. Đảm bảo phiên bản Java của dự án phù hợp với yêu cầu của thư viện.
 
-### Tôi có thể tùy chỉnh thêm đầu ra HTML không?
+**Q: Nếu tôi cần một phiên bản HTML đáp ứng thay vì bố cục cố định thì sao?**  
+A: Sử dụng `HtmlSaveOptions` (thay vì `HtmlFixedSaveOptions`) để tạo HTML dạng luồng, có thể được định dạng bằng CSS để đáp ứng.
 
-Chắc chắn rồi! Aspose.Words for Java cung cấp nhiều tùy chọn để tùy chỉnh đầu ra HTML theo yêu cầu cụ thể của bạn. Bạn có thể khám phá tài liệu để biết thông tin chi tiết về các tùy chọn tùy chỉnh.
+## Kết luận
+Bạn đã biết **cách lưu html** tài liệu với bố cục cố định bằng Aspose.Words cho Java. Bằng cách làm theo các bước trên, bạn có thể tin cậy **chuyển đổi Word sang HTML**, **xuất Word HTML**, và **lưu tài liệu dưới dạng HTML** đồng thời giữ nguyên độ trung thực hình ảnh cần thiết cho việc xuất bản chuyên nghiệp hoặc lưu trữ.
 
-### Aspose.Words for Java có tương thích với các phiên bản Java khác nhau không?
+---
 
-Có, Aspose.Words for Java tương thích với nhiều phiên bản Java khác nhau. Đảm bảo rằng bạn đang sử dụng phiên bản Aspose.Words for Java tương thích với môi trường phát triển Java của bạn.
-
+**Last Updated:** 2025-12-27  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,9 @@
 "url": "/ar/python-net/performance-optimization/optimize-pdf-bookmarks-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # العنوان: إتقان تحسين الإشارات المرجعية في ملفات PDF باستخدام Aspose.Words للغة بايثون
 
 ## مقدمة
@@ -180,3 +182,7 @@ outline_levels.clear()
 - **يدعم**:احصل على المساعدة من المجتمع على [منتدى أسبوزي](https://forum.aspose.com/c/words/10)
 
 هذا الدليل يزودك بالمعرفة اللازمة لتحسين إشارات مرجعية PDF باستخدام Aspose.Words لـ Python. برمجة ممتعة!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

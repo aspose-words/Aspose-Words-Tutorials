@@ -5,7 +5,9 @@
 "url": "/vi/python-net/formatting-styles/aspose-words-python-remove-customize-borders/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Làm chủ đường viền đoạn văn trong Python với Aspose.Words: Hướng dẫn đầy đủ
 
 ## Giới thiệu
@@ -179,3 +181,7 @@ Hướng dẫn này đề cập đến cách xóa và tùy chỉnh đường vi�
 - **Dùng thử miễn phí**: [Bắt đầu miễn phí](https://releases.aspose.com/words/python/)
 - **Giấy phép tạm thời**: [Xin giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 - **Ủng hộ**: [Diễn đàn Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

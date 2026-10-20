@@ -4,7 +4,9 @@
 "url": "/tr/python-net/getting-started/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words Python-net için Başlarken Eğitimleri
 
 Aspose.Words for Python-net kullanarak işlemleri başlatmak için kapsamlı adım adım kılavuzları keşfedin. Bu eğitimler eksiksiz kod örnekleri ve ayrıntılı açıklamalar içerir.
@@ -25,8 +27,11 @@ Python-net kullanarak Aspose.Words için küratörlüğünü yaptığımız 'Ba�
 ### [Python'da Aspose.Words için Ölçülü Lisanslama Kılavuzu: Verimli Belge Kullanım Takibi](./aspose-words-python-metered-licensing-guide/)
 Uygulamalarınızda belge kullanımını etkin bir şekilde izlemek ve yönetmek için Aspose.Words for Python ile ölçülü lisanslamayı nasıl uygulayacağınızı öğrenin.
 
-    ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
+### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 Aspose.Words Python-net için bir kod eğitimi
+
+### [CMake Projesi Oluşturma: Yapılandırma, Derleme ve Test](./build-cmake-project-configure-build-test/)
+CMake kullanarak projeyi yapılandırma, derleme ve test etme adımlarını öğrenin.
 
 ## Ek Kaynaklar
 
@@ -36,3 +41,7 @@ Aspose.Words Python-net için bir kod eğitimi
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Ücretsiz Destek](https://forum.aspose.com/)
 - [Geçici Lisans](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

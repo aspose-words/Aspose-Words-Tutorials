@@ -23,6 +23,7 @@
 | [Fußnotenspalten festlegen](./set-foot-note-columns/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Fußnotenspalten in Word-Dokumenten festlegen. Passen Sie Ihr Fußnotenlayout ganz einfach mit unserer Schritt-für-Schritt-Anleitung an. |
 | [Position von Fuß- und Endnoten festlegen](./set-footnote-and-end-note-position/) Erfahren Sie in dieser ausführlichen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET Fußnoten- und Endnotenpositionen in Word-Dokumenten festlegen. |
 | [Endnotenoptionen festlegen](./set-endnote-options/) | Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET Endnotenoptionen in Word-Dokumenten festlegen. |
+| [Fußtrenner in C# ändern](./change-footnote-separator-in-c-using-aspose-words/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET den Trennstrich von Fußnoten in C# anpassen. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

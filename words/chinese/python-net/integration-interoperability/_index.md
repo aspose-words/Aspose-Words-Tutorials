@@ -4,7 +4,9 @@
 "url": "/zh/python-net/integration-interoperability/"
 "weight": 15
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words Python-net 集成和互操作性教程
 
 探索使用 Aspose.Words for Python-net 进行集成和互操作的全面分步指南。这些教程包含完整的代码示例和详细的解释。
@@ -32,6 +34,9 @@ Aspose.Words Python-net 代码教程
     ### [Master VBA Automation with Aspose.Words for Python&#58; A Complete Guide to Creating, Cloning, and Managing Projects](./master-vba-automation-aspose-words-python/)
 学习如何使用 Python 自动化 Microsoft Word VBA 项目。本指南涵盖使用 Aspose.Words 创建、克隆、检查保护状态以及管理 VBA 项目中的引用。
 
+    ### [cmake 构建 x64 – 生成和构建 VS 2022 项目的完整指南](./cmake-build-x64-complete-guide-to-generating-and-building-vs/)
+本指南详细介绍如何使用 CMake 在 x64 环境下生成并构建 Visual Studio 2022 项目。
+
 ## 其他资源
 
 - [Aspose.Words for Python-net 文档](https://docs.aspose.com/words/python-net/)
@@ -40,3 +45,7 @@ Aspose.Words Python-net 代码教程
 - [Aspose.Words 论坛](https://forum.aspose.com/c/words/8)
 - [免费支持](https://forum.aspose.com/)
 - [临时执照](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

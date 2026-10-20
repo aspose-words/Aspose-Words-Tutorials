@@ -5,7 +5,9 @@
 "url": "/ar/python-net/mail-merge-reporting/mastering-aspose-words-document-merging-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # إتقان Aspose.Words لدمج المستندات في Python: الحفاظ على ترقيم المصدر وإدراجه في الإشارة المرجعية
 
 ## مقدمة
@@ -181,3 +183,7 @@ insert_document(bookmark.bookmark_start.parent_node, doc_to_insert)
 - [شراء ترخيص](https://purchase.aspose.com/buy)
 - [رخصة تجريبية مجانية](https://purchase.aspose.com/temporary-license/)
 - [منتدى دعم Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -4,7 +4,9 @@
 "url": "/hu/python-net/getting-started/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Első lépések oktatóanyagok az Aspose.Words Python-net használatához
 
 Fedezz fel átfogó, lépésről lépésre szóló útmutatókat az Aspose.Words Python-nethez való használatának megkezdéséhez. Ezek az oktatóanyagok teljes kódpéldákat és részletes magyarázatokat tartalmaznak.
@@ -28,6 +30,9 @@ Ismerje meg, hogyan valósíthat meg mért licencelést az Aspose.Words for Pyth
     ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 Kód oktatóanyag az Aspose.Words Python-nethez
 
+### [CMake projekt felépítése: konfigurálás, építés és tesztelés](./build-cmake-project-configure-build-test/)
+Ismerje meg, hogyan konfigurálja, építse és tesztelje a CMake projektet a Python-net környezetben.
+
 ## További források
 
 - [Aspose.Words Python-net dokumentációhoz](https://docs.aspose.com/words/python-net/)
@@ -36,3 +41,7 @@ Kód oktatóanyag az Aspose.Words Python-nethez
 - [Aspose.Words Fórum](https://forum.aspose.com/c/words/8)
 - [Ingyenes támogatás](https://forum.aspose.com/)
 - [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

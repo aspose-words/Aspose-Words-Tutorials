@@ -1,306 +1,239 @@
----
-date: 2026-08-05
-description: Impara Aspose.Words con tutorial visuali passo‑a‑passo per .NET, Java,
-  C++, Python e altro. Padroneggia la creazione, la modifica, la conversione e l’automazione
-  dei documenti con facilità.
-keywords:
-- aspose.words visual tutorials
-- aspose.words .net tutorials
-- word document automation
-- aspose.words java guide
-- aspose.words python examples
-lastmod: 2026-08-05
-limit: null
-og_description: Scopri i tutorial visuali Aspose.Words per apprendere rapidamente
-  la creazione, la modifica, la conversione e l’automazione dei documenti su piattaforme
-  .NET, Java, C++ e Python.
-og_image_alt: Screenshot of Aspose.Words visual tutorial index page showing tutorial
-  cards
-og_title: Tutorial visuali Aspose.Words – guide passo‑a‑passo per .NET, Java, C++
-  e Python
-schemas:
-- author: Aspose
-  dateModified: '2026-08-05'
-  description: Learn Aspose.Words with step‑by‑step visual tutorials for .NET, Java,
-    C++, Python and more. Master document creation, editing, conversion, and automation
-    easily.
-  headline: Aspose.Words visual tutorials
-  type: TechArticle
-tags:
-- Aspose.Words
-- visual tutorials
-- document processing
-- .NET
-- Java
-- Python
-title: Tutorial visuali Aspose.Words
-url: /it/
-weight: 10
----
+### [Lavorare con i Grafici in Aspose.Words](./net/working-with-charts/)
+Impara a **inserire e personalizzare i grafici**—inclusi grafici a barre, a linee e a dispersione—direttamente nei documenti Word.
 
-{{< blocks/products/pf/main-wrap-class >}}
+{{< tutorial-card link="./net/working-with-charts/bounds-of-axis/" title="Crea un Documento con Grafici " imgSrc="./net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
 
-{{< blocks/products/pf/main-container >}}
+{{< tutorial-card link="./net/working-with-charts/create-chart-using-shape/" title="Crea un Grafico a Linea in Word " imgSrc="./net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< tutorial-card link="./net/working-with-charts/insert-area-chart/" title="Inserisci un Grafico a Area in un Documento Word" imgSrc="./net/working-with-charts/insert-area-chart/images/thumb.png" >}}
 
-# Tutorial visivi di Aspose.Words
+{{< tutorial-card link="./net/working-with-charts/insert-bubble-chart/" title="Inserisci un Grafico a Bolle in Word " imgSrc="./net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
 
-Le tutorial visivi di Aspose.Words forniscono agli sviluppatori guide chiare, passo‑a‑passo per ogni piattaforma principale—.NET, Java, C++, Python e altro. È possibile vedere istantaneamente come creare, modificare, convertire e formattare documenti Word, il che accelera l'implementazione e riduce il tempo di prova‑e‑errore. Seguendo questi esempi visivi sarai in grado di integrare potenti capacità di elaborazione dei documenti nelle tue applicazioni con fiducia.
+{{< tutorial-card link="./net/working-with-charts/insert-column-chart/" title="Inserisci un Grafico a Colonna in Word " imgSrc="./net/working-with-charts/insert-column-chart/images/thumb.png" >}}
 
-## [Tutorial visivi di Aspose.Words per .NET](./net/)
+{{< tutorial-card link="./net/working-with-charts/insert-scatter-chart/" title="Crea un Grafico a Dispersione in Word " imgSrc="./net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
 
-Aspose.Words per .NET offre un set completo di tutorial visivi per aiutare gli sviluppatori a padroneggiare la manipolazione dei documenti nelle loro applicazioni. Queste guide passo‑a‑passo coprono la creazione, la modifica e la conversione di documenti Word, nonché l'inserimento di immagini, tabelle e campi modulo. Con istruzioni chiare e dimostrazioni visive, i tutorial semplificano compiti complessi, rendendo l'automazione e l'integrazione fluide. Che tu sia nuovo a Aspose o stia migliorando le tue competenze, questi tutorial pratici forniscono esperienza concreta per migliorare le tue capacità di elaborazione dei documenti.
+{{< tutorial-card link="./net/working-with-charts/insert-simple-column-chart/" title="Inserisci un Grafico a Colonna Semplice in Word " imgSrc="./net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Lavorare con i grafici in Aspose.Words](./net/working-with-charts/)
+### [Lavorare con Stili e Formattazione delle Tabelle in Aspose.Words per .NET](./net/working-with-table-styles-and-formatting/)
+Scopri come **creare, formattare e personalizzare le tabelle**, impostare i bordi, applicare gli stili e regolare il padding delle celle.
 
-Impara a inserire e personalizzare diversi tipi di grafici, come grafici a barre, a linee e a dispersione, all'interno dei documenti Word.
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-outline-border/" title="Applica Bordo Contorno a una Tabella in Word" imgSrc="./net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/bounds-of-axis/" title="Create a Document with Charts " imgSrc="./net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-row-formatting/" title="Applica Formattazione di Riga nei Documenti Word" imgSrc="./net/working-with-table-styles-and-formatting/apply-row-formatting/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/create-chart-using-shape/" title="Create a Line Chart in Word " imgSrc="./net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/build-table-with-border/" title="Modifica i Bordi della Tabella in Word " imgSrc="./net/working-with-table-styles-and-formatting/build-table-with-border/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/insert-area-chart/" title="Insert Area Chart in Word Document" imgSrc="./net/working-with-charts/insert-area-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/buildtable-with-style/" title="Crea Tabelle Stilizzate in Word con Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/buildtable-with-style/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/insert-bubble-chart/" title="Insert a Bubble Chart in Word " imgSrc="./net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/cell-padding/" title="Crea una Cella di Tabella Word con Padding in Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/cell-padding/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/insert-column-chart/" title="Insert Column Chart in Word " imgSrc="./net/working-with-charts/insert-column-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/create-table-style/" title="Crea una Tabella Stilizzata in un Documento Word " imgSrc="./net/working-with-table-styles-and-formatting/create-table-style/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/insert-scatter-chart/" title="Create Word Scatter Chart " imgSrc="./net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/format-table-and-cell/" title="Crea un Documento Word con Bordi e Ombreggiature della Tabella" imgSrc="./net/working-with-table-styles-and-formatting/format-table-and-cell/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/insert-simple-column-chart/" title="Insert a Simple Column Chart in Word " imgSrc="./net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/" title="Crea e Format una Tabella in un Documento Word" imgSrc="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/images/thumb.png" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-row-formatting/" title="Crea una Tabella Formattata in Word con Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/set-table-row-formatting/images/thumb.png" >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [Lavorare con gli stili e la formattazione delle tabelle in Aspose.Words per .NET](./net/working-with-table-styles-and-formatting/)
-
-Scopri come creare, formattare e personalizzare le tabelle nei documenti Word, inclusa l'impostazione di bordi, stili e spaziatura delle celle.
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-outline-border/" title="Apply Outline Border to a Table in Word" imgSrc="./net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-row-formatting/" title="Apply Row Formatting in Word Documents" imgSrc="./net/working-with-table-styles-and-formatting/apply-row-formatting/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/build-table-with-border/" title="Modify Table Borders in Word " imgSrc="./net/working-with-table-styles-and-formatting/build-table-with-border/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/buildtable-with-style/" title="Create Styled Tables in Word with Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/buildtable-with-style/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/cell-padding/" title="Create Word Table Cell with Padding in Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/cell-padding/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/create-table-style/" title="Create Styled Table in Word Document " imgSrc="./net/working-with-table-styles-and-formatting/create-table-style/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/format-table-and-cell/" title="Create Word Document with Table Borders & Shading" imgSrc="./net/working-with-table-styles-and-formatting/format-table-and-cell/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/" title="Create and Format a Table in Word Document" imgSrc="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-row-formatting/" title="Create a Formatted Table in Word with Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/set-table-row-formatting/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/table-tittle-and-description/" title="Add Title & Description to Table in Word" imgSrc="./net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/table-tittle-and-description/" title="Aggiungi Titolo e Descrizione alla Tabella in Word" imgSrc="./net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Aggiungere contenuti usando Document Builder in Aspose.Words per .NET](./net/add-content-using-document-builder/)
+### [Aggiungere Contenuti Usando Document Builder in Aspose.Words per .NET](./net/add-content-using-document-builder/)
+Scopri come **inserire testo, tabelle, immagini e altri elementi** programmaticamente con la classe Document Builder.
 
-La classe **DocumentBuilder** fornisce metodi per costruire e modificare programmaticamente documenti Word. Impara come inserire testo, tabelle, immagini e altri elementi nei documenti Word in modo programmatico usando la classe Document Builder.
+{{< tutorial-card link="./net/add-content-using-document-builder/build-table/" title="Crea un Documento Word con Tabella" imgSrc="./net/add-content-using-document-builder/build-table/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/build-table/" title="Create a Word Document with Table" imgSrc="./net/add-content-using-document-builder/build-table/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-break/" title="Crea un Documento Word Multi-Pagina con Aspose.Words" imgSrc="./net/add-content-using-document-builder/insert-break/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-break/" title="Create a Multi-Page Word Document with Aspose.Words" imgSrc="./net/add-content-using-document-builder/insert-break/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-floating-image/" title="Crea un Documento Word con Immagine Fluttuante in .NET" imgSrc="./net/add-content-using-document-builder/insert-floating-image/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-floating-image/" title="Create Word Document with Floating Image in .NET" imgSrc="./net/add-content-using-document-builder/insert-floating-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-horizontal-rule/" title="Crea un Documento Word con Linea Orizzontale in .NET" imgSrc="./net/add-content-using-document-builder/insert-horizontal-rule/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-horizontal-rule/" title="Create Word Document with Horizontal Rule in .NET" imgSrc="./net/add-content-using-document-builder/insert-horizontal-rule/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-inline-image/" title="Inserisci Immagine In-Line in un Documento Word" imgSrc="./net/add-content-using-document-builder/insert-inline-image/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-inline-image/" title="Insert Inline Image in Word Document" imgSrc="./net/add-content-using-document-builder/insert-inline-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-paragraph/" title="Crea un Documento Word con Aspose.Words " imgSrc="./net/add-content-using-document-builder/insert-paragraph/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-paragraph/" title="Create Word Document with Aspose.Words " imgSrc="./net/add-content-using-document-builder/insert-paragraph/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title="Create a Word Document with Table of Contents in .NET" imgSrc="./net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-### [Formattazione dei documenti con Aspose.Words per .NET](./net/document-styling/)
-
-Comprendi come applicare varie opzioni di formattazione a paragrafi, elenchi e elementi del documento per migliorare l'aspetto visivo dei tuoi file Word.
-
-{{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="Apply Borders & Shading to Paragraph in Aspose.Words " imgSrc="./net/document-styling/apply-border-and-shading/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/document-styling/apply-paragraph-style/" title="Create and Style a Word Document in Aspose.Words " imgSrc="./net/document-styling/apply-paragraph-style/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/document-styling/multilevel-list-formatting/" title="Create Multilevel Lists in Word with Aspose.Words" imgSrc="./net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="Format Paragraphs " imgSrc="./net/document-styling/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title="Crea un Documento Word con Indice in .NET" imgSrc="./net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Lavorare con i font in Aspose.Words per .NET](./net/font-styling/)
+### [Formattazione dei Documenti con Aspose.Words per .NET](./net/document-styling/)
+Comprendi come **applicare opzioni di formattazione** a paragrafi, elenchi e altri elementi per migliorare l'aspetto del documento.
 
-Esplora le funzionalità relative ai font come stili dei font, interlinea, segni di enfasi e altre impostazioni tipografiche nei documenti Word.
+{{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="Applica Bordi e Ombreggiature al Paragrafo in Aspose.Words " imgSrc="./net/document-styling/apply-border-and-shading/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/font-styling/font-formatting/" title="Create Font Formatting in Word " imgSrc="./net/font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-paragraph-style/" title="Crea e Stile un Documento Word in Aspose.Words " imgSrc="./net/document-styling/apply-paragraph-style/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/font-styling/get-font-line-spacing/" title="Get Font Line Spacing in Word Document" imgSrc="./net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/multilevel-list-formatting/" title="Crea Elenchi Multilivello in Word con Aspose.Words" imgSrc="./net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Set Emphasis Mark in Word Document " imgSrc="./net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-### [Lavorare con i campi modulo in Aspose.Words per .NET](./net/working-with-form-fields/)
-
-Scopri come inserire e gestire campi modulo come input di testo, elenchi a discesa e caselle di controllo nei documenti Word.
-
-{{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="Insert Combo Box Form Field in Word Document" imgSrc="./net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="Formatta i Paragrafi " imgSrc="./net/document-styling/paragraph-formatting/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Lavorare con intestazioni e piè di pagina in Aspose.Words per .NET](./net/header-footer-formatting/)
+### [Lavorare con i Font in Aspose.Words per .NET](./net/font-styling/)
+Esplora **funzionalità relative ai font** come stili, interlinea e segni di enfasi.
 
-Impara a creare e manipolare intestazioni e piè di pagina, inclusa l'aggiunta di immagini, numeri di pagina e testo.
+{{< tutorial-card link="./net/font-styling/font-formatting/" title="Crea Formattazione Font in Word " imgSrc="./net/font-styling/font-formatting/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="Create Word Document with Header and Footer" imgSrc="./net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/get-font-line-spacing/" title="Ottieni Interlinea del Font in un Documento Word" imgSrc="./net/font-styling/get-font-line-spacing/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="Insert an Image into Word Document Header" imgSrc="./net/header-footer-formatting/insert-image/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-### [Lavorare con le sezioni in Aspose.Words per .NET](./net/document-sections/)
-
-Comprendi come strutturare i documenti in sezioni, consentendo intestazioni, piè di pagina e stili di formattazione diversi.
-
-{{< tutorial-card link="./net/document-sections/add-section/" title="Add a New Section to Word Document" imgSrc="./net/document-sections/add-section/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/document-sections/append-section-content/" title="Append and Prepend Content in Word Documents" imgSrc="./net/document-sections/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Imposta Segno di Enfasi in un Documento Word " imgSrc="./net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Lavorare con le forme in Aspose.Words per .NET](./net/working-with-shapes/)
+### [Lavorare con i Campi Modulo in Aspose.Words per .NET](./net/working-with-form-fields/)
+Scopri come **inserire e gestire i campi modulo** come input di testo, liste a discesa e caselle di controllo.
 
-Scopri come inserire e manipolare varie forme, incluse forme raggruppate e disegni predefiniti, nei documenti Word.
-
-{{< tutorial-card link="./net/working-with-shapes/add-group-shape/" title="Create Group Shape in Word Document " imgSrc="./net/working-with-shapes/add-group-shape/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-shapes/insert-shape/" title="Insert Shapes in Word Documents " imgSrc="./net/working-with-shapes/insert-shape/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="Inserisci Campo Modulo Combo Box in un Documento Word" imgSrc="./net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Lavorare con le filigrane in Aspose.Words per .NET](./net/working-with-watermark)
+### [Lavorare con Intestazioni e Piè di Pagina in Aspose.Words per .NET](./net/header-footer-formatting/)
+Impara a **creare e manipolare intestazioni e piè di pagina**, inclusa l'aggiunta di immagini, numeri di pagina e testo personalizzato.
 
-Impara ad aggiungere filigrane di testo e immagine ai documenti Word per scopi di branding o sicurezza.
+{{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="Crea un Documento Word con Intestazione e Piè di Pagina" imgSrc="./net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-watermark/add-text-watermark/" title="Add Text Watermark in Word Document " imgSrc="./net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="Inserisci un'Immagine nell'Intestazione del Documento Word" imgSrc="./net/header-footer-formatting/insert-image/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+### [Lavorare con le Sezioni in Aspose.Words per .NET](./net/document-sections/)
+Comprendi come **strutturare i documenti in sezioni**, consentendo intestazioni, piè di pagina e stili di formattazione diversi.
+
+{{< tutorial-card link="./net/document-sections/add-section/" title="Aggiungi una Nuova Sezione a un Documento Word" imgSrc="./net/document-sections/add-section/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/document-sections/append-section-content/" title="Aggiungi e Prependi Contenuto nei Documenti Word" imgSrc="./net/document-sections/append-section-content/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+### [Lavorare con le Forme in Aspose.Words per .NET](./net/working-with-shapes/)
+Scopri come **inserire e manipolare le forme**, incluse forme raggruppate e disegni predefiniti.
+
+{{< tutorial-card link="./net/working-with-shapes/add-group-shape/" title="Crea Forma Raggruppata in un Documento Word " imgSrc="./net/working-with-shapes/add-group-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/working-with-shapes/insert-shape/" title="Inserisci Forme nei Documenti Word " imgSrc="./net/working-with-shapes/insert-shape/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+### [Lavorare con le Filigrane in Aspose.Words per .NET](./net/working-with-watermark)
+Impara a **aggiungere filigrane di testo e immagine** per scopi di branding o sicurezza.
+
+{{< tutorial-card link="./net/working-with-watermark/add-text-watermark/" title="Aggiungi Filigrana di Testo in un Documento Word " imgSrc="./net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
 Questi sono collegamenti a risorse utili:
-- [Elaborazione di documenti con AI](./net/ai-powered-document-processing/)
-- [Applicare licenza](./net/apply-license/)
-- [Abilitare le funzionalità OpenType](./net/enable-opentype-features/)
-- [Lavorare con i commenti](./net/working-with-comments/)
-- [Lavorare con i campi](./net/working-with-fields/)
-- [Lavorare con note a piè di pagina e note finali](./net/working-with-footnote-and-endnote/)
-- [Lavorare con i campi modulo](./net/working-with-formfields/)
-- [Lavorare con intestazioni e piè di pagina](./net/working-with-headers-and-footers/)
-- [Lavorare con la sillabazione](./net/working-with-hyphenation/)
-- [Lavorare con le liste](./net/working-with-list/)
-- [Lavorare con Markdown](./net/working-with-markdown/)
-- [Lavorare con Node](./net/working-with-node/)
-- [Lavorare con le revisioni](./net/working-with-revisions/)
-- [Lavorare con caselle di testo](./net/working-with-textboxes/)
-- [Dividere documento](./net/split-document/)
-- [Aggiungere contenuto usando Documentbuilder](./net/add-content-using-documentbuilder/)
-- [Clonare e combinare documenti](./net/clone-and-combine-documents/)
-- [Confrontare documenti](./net/compare-documents/)
-- [Formattazione dei documenti](./net/document-formatting/)
-- [Programmare con filigrana](./net/programming-with-watermark/)
-- [Programmare con Markdownsaveoptions](./net/programming-with-markdownsaveoptions/)
-- [Conversioni di base](./net/basic-conversions/)
+- [Elaborazione Documenti con AI](./net/ai-powered-document-processing/)
+- [Applicare Licenza](./net/apply-license/)   
+- [Abilitare le funzionalità OpenType](./net/enable-opentype-features/)   
+- [Lavorare con i Commenti](./net/working-with-comments/)   
+- [Lavorare con i Campi](./net/working-with-fields/)   
+- [Lavorare con Note a Piè di Pagina e Note Finali](./net/working-with-footnote-and-endnote/)   
+- [Lavorare con i Campi Modulo](./net/working-with-formfields/)   
+- [Lavorare con Intestazioni e Piè di Pagina](./net/working-with-headers-and-footers/)   
+- [Lavorare con la Sillabazione](./net/working-with-hyphenation/)   
+- [Lavorare con le Liste](./net/working-with-list/)   
+- [Lavorare con Markdown](./net/working-with-markdown/)   
+- [Lavorare con Node](./net/working-with-node/)   
+- [Lavorare con le Revisioni](./net/working-with-revisions/)   
+- [Lavorare con le Caselle di Testo](./net/working-with-textboxes/)   
+- [Dividere il Documento](./net/split-document/)   
+- [Aggiungere Contenuto Usando Documentbuilder](./net/add-content-using-documentbuilder/)
+- [Clonare e Unire Documenti](./net/clone-and-combine-documents/) 
+- [Confrontare Documenti](./net/compare-documents/) 
+- [Formattazione del Documento](./net/document-formatting/)      
+- [Programmare con Filigrana](./net/programming-with-watermark/)    
+- [Programmare con Markdownsaveoptions](./net/programming-with-markdownsaveoptions/)   
+- [Conversioni di Base](./net/basic-conversions/)   
 
-## Tutorial di elaborazione documenti Aspose.Words per Java
+## Tutorial di Elaborazione Documenti Aspose.Words per Java
 
 {{% alert color="primary" %}}
-Questa raccolta completa di tutorial fornisce indicazioni passo‑a‑passo su come lavorare efficacemente con i documenti Microsoft Word in modo programmatico. Dalla creazione e manipolazione dei documenti a funzionalità avanzate come stampa unione, formattazione delle tabelle e crittografia dei documenti, questi tutorial coprono un'ampia gamma di funzionalità. Seguendo questi tutorial, gli sviluppatori possono integrare senza problemi Aspose.Words nei loro progetti Java, consentendo un'elaborazione efficiente dei documenti e migliorando le loro applicazioni con capacità di gestione documentale di livello professionale.
+Questa raccolta completa di tutorial fornisce indicazioni passo‑passo su come lavorare efficacemente con i documenti Microsoft Word in modo programmatico. Dalla creazione e manipolazione dei documenti a funzionalità avanzate come mail merge, formattazione delle tabelle e crittografia dei documenti, questi tutorial coprono un'ampia gamma di funzionalità. Seguendo questi tutorial, gli sviluppatori possono integrare senza problemi Aspose.Words nei loro progetti Java, consentendo un'elaborazione efficiente dei documenti e migliorando le loro applicazioni con capacità di gestione documentale di livello professionale.
 {{% /alert %}}
 
 Questi sono collegamenti a risorse utili:
 - [Elaborazione di Word](./java/word-processing/)  
-- [Elaborazione di tabelle](./java/table-processing/)
-- [Stile dei documenti](./java/document-styling/)
-- [Unione di documenti](./java/document-merging/)
-- [Conversione di documenti](./java/document-converting/)
-- [Stampa di documenti](./java/document-printing/)
-- [Rendering di documenti](./java/document-rendering/)
-- [Sicurezza dei documenti](./java/document-security/)
-- [Divisione di documenti](./java/document-splitting/)
-- [Revisione di documenti](./java/document-revision/)
-- [Caricamento e salvataggio di documenti](./java/document-loading-and-saving/)
-- [Manipolazione di documenti](./java/document-manipulation/)
-- [Conversione ed esportazione di documenti](./java/document-conversion-and-export/)
-- [Licenze e configurazione](./java/licensing-and-configuration/)
-- [Utilizzo degli elementi del documento](./java/using-document-elements/)
-- [Stampa di documenti](./java/printing-documents/)
-- [Rendering di documenti](./java/rendering-documents/)
+- [Elaborazione di Tabelle](./java/table-processing/)
+- [Stile del Documento](./java/document-styling/)
+- [Unione di Documenti](./java/document-merging/)
+- [Conversione di Documenti](./java/document-converting/)
+- [Stampa di Documenti](./java/document-printing/)
+- [Rendering di Documenti](./java/document-rendering/)
+- [Sicurezza del Documento](./java/document-security/)
+- [Divisione del Documento](./java/document-splitting/)
+- [Revisione del Documento](./java/document-revision/)
+- [Caricamento e Salvataggio del Documento](./java/document-loading-and-saving/)
+- [Manipolazione del Documento](./java/document-manipulation/)
+- [Conversione ed Esportazione del Documento](./java/document-conversion-and-export/)
+- [Licenze e Configurazione](./java/licensing-and-configuration/)
+- [Utilizzo degli Elementi del Documento](./java/using-document-elements/)
+- [Stampa di Documenti](./java/printing-documents/)
+- [Rendering di Documenti](./java/rendering-documents/)
 - [Iniziare](./java/getting-started/)
-- [Operazioni sui documenti](./java/document-operations/)
-- [Gestione dei contenuti](./java/content-management/)
-- [Intestazioni, piè di pagina e impostazione pagina](./java/headers-footers-page-setup/)
-- [Annotazioni e commenti](./java/annotations-comments/)
-- [Elaborazione avanzata del testo](./java/advanced-text-processing/)
-- [Confronto e tracciamento dei documenti](./java/document-comparison-tracking/)
-- [Ottimizzazione delle prestazioni](./java/performance-optimization/)
-- [Integrazione e interoperabilità](./java/integration-interoperability/)
-- [Sicurezza e protezione](./java/security-protection/)
-- [Formattazione e stili](./java/formatting-styles/)
-- [Tabelle e liste](./java/tables-lists/)
-- [Immagini e forme](./java/images-shapes/)
-- [Stampa unione e reporting](./java/mail-merge-reporting/)
-- [Integrazione AI e machine learning](./java/ai-machine-learning-integration/)
+- [Operazioni sul Documento](./java/document-operations/)
+- [Gestione dei Contenuti](./java/content-management/)
+- [Intestazioni, Piè di Pagina e Impostazione Pagina](./java/headers-footers-page-setup/)
+- [Annotazioni e Commenti](./java/annotations-comments/)
+- [Elaborazione Avanzata del Testo](./java/advanced-text-processing/)
+- [Confronto e Tracciamento del Documento](./java/document-comparison-tracking/)
+- [Ottimizzazione delle Prestazioni](./java/performance-optimization/)
+- [Integrazione e Interoperabilità](./java/integration-interoperability/)
+- [Sicurezza e Protezione](./java/security-protection/)
+- [Formattazione e Stili](./java/formatting-styles/)
+- [Tabelle e Liste](./java/tables-lists/)
+- [Immagini e Forme](./java/images-shapes/)
+- [Mail Merge e Reporting](./java/mail-merge-reporting/)
+- [Integrazione AI e Machine Learning](./java/ai-machine-learning-integration/)
 
-## Tutorial di gestione documenti Aspose.Words per Python
+## Tutorial di Gestione Documenti Aspose.Words per Python
 
 {{% alert color="primary" %}}
-Questi tutorial offrono indicazioni passo‑a‑passo su come lavorare con i documenti Microsoft Word in modo programmatico, includendo creazione di documenti, manipolazione e varie funzionalità di sicurezza come crittografia e protezione con password. Con l'aiuto di questa risorsa, gli sviluppatori possono implementare in modo efficiente le funzionalità di elaborazione dei documenti nelle loro applicazioni Python usando Aspose.Words, migliorando la produttività e garantendo la sicurezza dei documenti.
+Questi tutorial offrono indicazioni passo‑passo su come lavorare con i documenti Microsoft Word in modo programmatico, includendo la creazione, la manipolazione e varie funzionalità di sicurezza come crittografia e protezione con password. Con l'aiuto di questa risorsa, gli sviluppatori possono implementare in modo efficiente le funzionalità di elaborazione dei documenti nelle loro applicazioni Python usando Aspose.Words, migliorando la produttività e garantendo la sicurezza dei documenti.
 {{% /alert %}}
 
 Questi sono collegamenti a risorse utili:
-- [Creazione di documenti](./python-net/document-creation/)  
-- [Automazione Word](./python-net/word-automation/)
-- [Intelligenza dei documenti](./python-net/document-intelligence/)
-- [Conversione di documenti](./python-net/document-conversion/)
-- [Protezione dei documenti](./python-net/document-protection/)
+- [Creazione di Documenti](./python-net/document-creation/)  
+- [Automazione di Word](./python-net/word-automation/)
+- [Intelligenza del Documento](./python-net/document-intelligence/)
+- [Conversione del Documento](./python-net/document-conversion/)
+- [Protezione del Documento](./python-net/document-protection/)
 - [Iniziare](./python-net/getting-started/)
-- [Operazioni sui documenti](./python-net/document-operations/)
-- [Gestione dei contenuti](./python-net/content-management/)
-- [Formattazione e stili](./python-net/formatting-styles/)
-- [Tabelle e liste](./python-net/tables-lists/)
-- [Immagini e forme](./python-net/images-shapes/)
-- [Stampa unione e reporting](./python-net/mail-merge-reporting/)
-- [Intestazioni, piè di pagina e impostazione pagina](./python-net/headers-footers-page-setup/)
-- [Proprietà e metadati del documento](./python-net/document-properties-metadata/)
-- [Sicurezza e protezione](./python-net/security-protection/)
-- [Annotazioni e commenti](./python-net/annotations-comments/)
-- [Confronto e tracciamento dei documenti](./python-net/document-comparison-tracking/)
-- [Divisione e formattazione dei documenti](./python-net/document-splitting-and-formatting/)
-- [Combinazione e confronto dei documenti](./python-net/document-combining-and-comparison/)
-- [Prestazioni e ottimizzazione](./python-net/performance-optimization/)
-- [Integrazione e interoperabilità](./python-net/integration-interoperability/)
-- [Trasformazione dei contenuti AI](./python-net/ai-content-transformation/)
-- [Struttura del documento e manipolazione dei contenuti](./python-net/document-structure-and-content-manipulation/)
-- [Estrazione e manipolazione dei contenuti](./python-net/content-extraction-and-manipulation/)
-- [Tabelle e formattazione](./python-net/tables-and-formatting/)
-- [Opzioni e impostazioni del documento](./python-net/document-options-and-settings/)
+- [Operazioni sul Documento](./python-net/document-operations/)
+- [Gestione dei Contenuti](./python-net/content-management/)
+- [Formattazione e Stili](./python-net/formatting-styles/)
+- [Tabelle e Liste](./python-net/tables-lists/)
+- [Immagini e Forme](./python-net/images-shapes/)
+- [Mail Merge e Reporting](./python-net/mail-merge-reporting/)
+- [Intestazioni, Piè di Pagina e Impostazione Pagina](./python-net/headers-footers-page-setup/)
+- [Proprietà e Metadati del Documento](./python-net/document-properties-metadata/)
+- [Sicurezza e Protezione](./python-net/security-protection/)
+- [Annotazioni e Commenti](./python-net/annotations-comments/)
+- [Confronto e Tracciamento del Documento](./python-net/document-comparison-tracking/)
+- [Divisione e Formattazione del Documento](./python-net/document-splitting-and-formatting/)
+- [Unione e Confronto del Documento](./python-net/document-combining-and-comparison/)
+- [Prestazioni e Ottimizzazione](./python-net/performance-optimization/)
+- [Integrazione e Interoperabilità](./python-net/integration-interoperability/)
+- [Trasformazione dei Contenuti AI](./python-net/ai-content-transformation/)
+- [Struttura del Documento e Manipolazione dei Contenuti](./python-net/document-structure-and-content-manipulation/)
+- [Estrazione e Manipolazione dei Contenuti](./python-net/content-extraction-and-manipulation/)
+- [Tabelle e Formattazione](./python-net/tables-and-formatting/)
+- [Opzioni e Impostazioni del Documento](./python-net/document-options-and-settings/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

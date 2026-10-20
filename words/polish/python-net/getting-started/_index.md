@@ -4,7 +4,9 @@
 "url": "/pl/python-net/getting-started/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Samouczki wprowadzające do Aspose.Words Python-net
 
 Poznaj kompleksowe przewodniki krok po kroku dotyczące rozpoczynania operacji przy użyciu Aspose.Words dla Python-net. Te samouczki zawierają kompletne przykłady kodu i szczegółowe wyjaśnienia.
@@ -28,6 +30,9 @@ Dowiedz się, jak wdrożyć licencjonowanie licznikowe za pomocą Aspose.Words f
     ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 Samouczek dotyczący kodu dla Aspose.Words Python-net
 
+### [Zbuduj projekt CMake: konfiguracja, kompilacja i testowanie](./build-cmake-project-configure-build-test/)
+Dowiedz się, jak skonfigurować, zbudować i przetestować projekt CMake przy użyciu Aspose.Words dla Python-net.
+
 ## Dodatkowe zasoby
 
 - [Aspose.Words dla dokumentacji Python-net](https://docs.aspose.com/words/python-net/)
@@ -36,3 +41,7 @@ Samouczek dotyczący kodu dla Aspose.Words Python-net
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Bezpłatne wsparcie](https://forum.aspose.com/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

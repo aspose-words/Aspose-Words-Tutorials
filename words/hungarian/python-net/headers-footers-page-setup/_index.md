@@ -4,7 +4,9 @@
 "url": "/hu/python-net/headers-footers-page-setup/"
 "weight": 8
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Fejlécek, láblécek és oldalbeállítási oktatóanyagok az Aspose.Words Python-nethez
 
 Fedezz fel átfogó, lépésről lépésre haladó útmutatókat a fejlécek, láblécek és oldalbeállítási műveletekhez az Aspose.Words for Python-net használatával. Ezek az oktatóanyagok teljes kódpéldákat és részletes magyarázatokat tartalmaznak.
@@ -36,3 +38,7 @@ Kód oktatóanyag az Aspose.Words Python-nethez
 - [Aspose.Words Fórum](https://forum.aspose.com/c/words/8)
 - [Ingyenes támogatás](https://forum.aspose.com/)
 - [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

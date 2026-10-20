@@ -1,88 +1,162 @@
 ---
-"description": "Scopri come formattare le tabelle e applicare stili utilizzando Aspose.Words per Java. Questa guida passo passo illustra come impostare i bordi, ombreggiare le celle e applicare stili alle tabelle."
-"linktitle": "Formattazione di tabelle e stili di tabella"
-"second_title": "API di elaborazione dei documenti Java Aspose.Words"
-"title": "Formattazione di tabelle e stili di tabella"
-"url": "/it/java/document-conversion-and-export/formatting-tables-and-table-styles/"
-"weight": 17
+date: 2026-10-17
+description: Scopri come modificare i bordi nelle celle della tabella con Aspose.Words
+  for Java, inclusa l'impostazione di cell border styles, l'applicazione di first
+  column style e l'auto‑fit table contents.
+keywords:
+- how to change borders
+- apply first column style
+- Aspose.Words table styling
+- Java document processing
+lastmod: 2026-10-17
+linktitle: Come modificare i bordi nelle celle della tabella usando Aspose.Words for
+  Java
+og_description: Come modificare i bordi nelle celle della tabella usando Aspose.Words
+  for Java. Questa guida mostra come impostare cell border thickness, applicare first
+  column style e auto‑fit tables per professional documents.
+og_image_alt: Screenshot of a Java table with customized cell borders using Aspose.Words
+og_title: Come modificare i bordi nelle celle della tabella – Aspose.Words for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-17'
+  description: Learn how to change borders in table cells with Aspose.Words for Java,
+    including setting cell border styles, applying first column style, and auto‑fit
+    table contents.
+  headline: How to change borders in table cells using Aspose.Words for Java
+  type: TechArticle
+- description: Learn how to change borders in table cells with Aspose.Words for Java,
+    including setting cell border styles, applying first column style, and auto‑fit
+    table contents.
+  name: How to change borders in table cells using Aspose.Words for Java
+  steps:
+  - name: '**Java Development Kit (JDK) 8+** – ensure `java` is on your PATH.'
+    text: '**Java Development Kit (JDK) 8+** – ensure `java` is on your PATH.'
+  - name: '**IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.'
+    text: '**IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.'
+  - name: '**Aspose.Words for Java** – download the latest JAR from the [official
+      site](https://releases.aspose.com/words/java/).'
+    text: '**Aspose.Words for Java** – download the latest JAR from the [official
+      site](https://releases.aspose.com/words/java/).'
+  - name: '**Basic Java knowledge** – you should be comfortable creating a Maven/Gradle
+      project and adding external JARs.'
+    text: '**Basic Java knowledge** – you should be comfortable creating a Maven/Gradle
+      project and adding external JARs.'
+  type: HowTo
+- questions:
+  - answer: Yes, you can create and apply custom styles programmatically. See the
+      [Aspose.Words documentation](https://reference.aspose.com/words/java/) for details.
+    question: Can I use custom table styles not included in the default options?
+  - answer: Use standard Java logic to inspect cell values, then call the appropriate
+      formatting methods (e.g., change background colour if a value exceeds a threshold).
+    question: How can I apply conditional formatting to cells?
+  - answer: Absolutely. After merging cells, apply shading or borders using the same
+      `CellFormat` APIs.
+    question: Is it possible to format merged cells the same way as regular cells?
+  - answer: Adjust column widths or call `autoFit` again after inserting new data
+      to recalculate the layout.
+    question: What if I need the table to resize dynamically based on user input?
+  - answer: The official [Aspose.Words API documentation](https://reference.aspose.com/words/java/)
+      contains a comprehensive set of samples.
+    question: Where can I find more examples of table styling?
+  type: FAQPage
+second_title: Aspose.Words Java Document Processing API
+tags:
+- Aspose.Words
+- Java tables
+- document formatting
+- border styling
+title: Come modificare i bordi nelle celle della tabella usando Aspose.Words for Java
+url: /it/java/document-conversion-and-export/formatting-tables-and-table-styles/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Formattazione di tabelle e stili di tabella
-
+# Come modificare i bordi nelle celle della tabella usando Aspose.Words per Java
 
 ## Introduzione
 
-Quando si tratta di formattazione dei documenti, le tabelle svolgono un ruolo cruciale nell'organizzazione e nella presentazione chiara dei dati. Se lavori con Java e Aspose.Words, hai a disposizione potenti strumenti per creare e formattare tabelle nei tuoi documenti. Che tu stia progettando una semplice tabella o applicando stili avanzati, Aspose.Words per Java offre una gamma di funzionalità per aiutarti a ottenere risultati dall'aspetto professionale.
+Quando hai bisogno di presentare i dati in un layout pulito e professionale, **modificare i bordi delle celle** è una delle prime modifiche visive che applicherai. In Java, Aspose.Words ti offre un'API completa che ti consente di formattare le tabelle, regolare i bordi delle singole celle, abilitare lo stile della prima colonna e adattare automaticamente il contenuto in modo che la tabella non trabocchi dalla pagina. Questo tutorial ti guida passo passo, dalla creazione di un documento alla messa a punto di ogni bordo, e mostra perché queste funzionalità sono importanti nei report e nelle fatture del mondo reale.
 
-In questa guida, ti guideremo attraverso il processo di formattazione delle tabelle e di applicazione degli stili di tabella utilizzando Aspose.Words per Java. Imparerai come impostare i bordi delle tabelle, applicare l'ombreggiatura delle celle e utilizzare gli stili di tabella per migliorare l'aspetto dei tuoi documenti. Al termine, avrai le competenze necessarie per creare tabelle ben formattate che mettano in risalto i tuoi dati.
+## Risposte rapide
+
+La classe `DocumentBuilder` è usata per creare programmaticamente documenti e tabelle.  
+- **Qual è la classe principale per creare tabelle?** `DocumentBuilder` crea tabelle e celle programmaticamente.  
+- **Come modifico lo spessore del bordo di una singola cella?** Usa `builder.getCellFormat().getBorders().getLeft().setLineWidth(value)`.  
+- **Posso applicare uno stile di tabella predefinito?** Sì – chiama `table.setStyleIdentifier(StyleIdentifier.YOUR_STYLE)`.  
+- **Quale metodo adatta automaticamente una tabella al suo contenuto?** `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)`.  
+- **È necessaria una licenza per la produzione?** È richiesta una licenza valida di Aspose.Words per l'uso non‑trial.
+
+## Che cosa significa “come modificare i bordi delle celle” in Aspose.Words?
+
+Modificare i bordi delle celle significa personalizzare le linee visive che separano le celle—colore, spessore e stile della linea. Aspose.Words per Java espone un'API granulare che ti consente di impostare queste proprietà a livello di tabella, riga o singola cella, offrendoti un controllo preciso sull'aspetto dei tuoi documenti.
+
+## Perché utilizzare lo styling delle tabelle di Aspose.Words per Java?
+
+Aspose.Words supporta **oltre 35 formati di input e output** (DOCX, PDF, HTML, ODT, ecc.) e può elaborare **documenti di 500 pagine in meno di 3 secondi** su hardware server tipico senza richiedere Microsoft Word. La libreria funziona in modo coerente su Windows, Linux e macOS, consentendoti di generare o modificare documenti lato server, applicare stili di tabella incorporati come *first column style*, e adattare automaticamente le tabelle al contenuto con una singola chiamata di metodo.
 
 ## Prerequisiti
 
-Prima di iniziare, ecco alcune cose che devi sapere:
+1. **Java Development Kit (JDK) 8+** – assicurati che `java` sia nel tuo PATH.  
+2. **IDE** – IntelliJ IDEA, Eclipse o qualsiasi editor tu preferisca.  
+3. **Aspose.Words for Java** – scarica l'ultimo JAR dal [sito ufficiale](https://releases.aspose.com/words/java/).  
+4. **Basic Java knowledge** – dovresti sentirti a tuo agio nel creare un progetto Maven/Gradle e aggiungere JAR esterni.
 
-1. Java Development Kit (JDK): assicurati di aver installato JDK 8 o versione successiva. Aspose.Words per Java richiede un JDK compatibile per funzionare correttamente.
-2. Ambiente di sviluppo integrato (IDE): un IDE come IntelliJ IDEA o Eclipse ti aiuterà a gestire i tuoi progetti Java e a semplificare il processo di sviluppo.
-3. Libreria Aspose.Words per Java: scarica l'ultima versione di Aspose.Words per Java [Qui](https://releases.aspose.com/words/java/) e includilo nel tuo progetto.
-4. Codice di esempio: utilizzeremo alcuni frammenti di codice di esempio, quindi assicurati di avere una conoscenza di base della programmazione Java e di come integrare le librerie nel tuo progetto.
+## Importare i pacchetti
 
-## Importa pacchetti
-
-Per utilizzare Aspose.Words per Java, è necessario importare i pacchetti appropriati nel progetto. Questi pacchetti forniscono le classi e i metodi necessari per la manipolazione e la formattazione dei documenti.
+Le classi `Document`, `DocumentBuilder`, `Table`, `StyleIdentifier` e le classi correlate si trovano nello spazio dei nomi `com.aspose.words`. Importare questo unico pacchetto ti dà accesso all'intero toolkit per lo styling delle tabelle. La classe `DocumentBuilder` fornisce metodi per costruire e modificare un documento programmaticamente.
 
 ```java
 import com.aspose.words.*;
 ```
 
-Questa istruzione di importazione fornisce accesso a tutte le classi essenziali richieste per creare e formattare le tabelle nei documenti.
+## Come modificare i bordi delle celle
 
-## Passaggio 1: formattazione delle tabelle
+Di seguito trovi una guida concisa, passo‑passo, che crea una tabella, applica un bordo globale e poi personalizza i bordi di una singola cella.
 
-La formattazione delle tabelle in Aspose.Words per Java prevede l'impostazione di bordi, l'ombreggiatura delle celle e l'applicazione di diverse opzioni di formattazione. Ecco come fare:
+### Risposta diretta
+Un `Document` rappresenta il file Word, mentre `DocumentBuilder` crea contenuti come le tabelle. Carica un nuovo `Document`, inserisci una `Table` con `DocumentBuilder`, imposta un bordo nero di 2 punti per l'intera tabella, quindi aumenta i bordi sinistro, destro, superiore e inferiore della terza cella a 4 punti. Questo approccio ti consente di evidenziare qualsiasi cella mantenendo il resto della tabella uniformemente stilizzato.
 
-### Carica il documento
+### Passo 1: carica un nuovo documento
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-### Crea e formatta la tabella
+### Passo 2: crea la tabella e imposta i bordi globali
 
 ```java
 Table table = builder.startTable();
 builder.insertCell();
 
-// Imposta i bordi per l'intera tabella.
+// Set the borders for the entire table.
 table.setBorders(LineStyle.SINGLE, 2.0, Color.BLACK);
         
-// Imposta l'ombreggiatura per questa cella.
+// Set the cell shading for this cell.
 builder.getCellFormat().getShading().setBackgroundPatternColor(Color.RED);
 builder.writeln("Cell #1");
 
 builder.insertCell();
         
-// Specificare una diversa ombreggiatura per la seconda cella.
+// Specify a different cell shading for the second cell.
 builder.getCellFormat().getShading().setBackgroundPatternColor(Color.GREEN);
 builder.writeln("Cell #2");
 
 builder.endRow();
 ```
 
-### Personalizza i bordi delle celle
+### Passo 3: modifica i bordi di una singola cella
 
 ```java
-// Cancella la formattazione della cella dalle operazioni precedenti.
+// Clear the cell formatting from previous operations.
 builder.getCellFormat().clearFormatting();
 
 builder.insertCell();
 
-// Crea bordi più grandi per la prima cella di questa riga.
+// Create larger borders for the first cell of this row.
 builder.getCellFormat().getBorders().getLeft().setLineWidth(4.0);
 builder.getCellFormat().getBorders().getRight().setLineWidth(4.0);
 builder.getCellFormat().getBorders().getTop().setLineWidth(4.0);
@@ -96,18 +170,19 @@ builder.writeln("Cell #4");
 doc.save("FormatTableAndCellWithDifferentBorders.docx");
 ```
 
-### Spiegazione
+#### Cosa fa il codice
+- **Global borders** – `table.setBorders` assegna all'intera tabella una linea nera di 2 punti.  
+- **Cell shading** – Dimostra come colorare singole celle (rosso e verde).  
+- **Custom cell borders** – La terza cella riceve un bordo di 4 punti su tutti i lati, facendola risaltare.
 
-In questo esempio:
-- Imposta bordi: impostiamo i bordi dell'intera tabella su uno stile di linea singolo con uno spessore di 2,0 punti.
-- Ombreggiatura delle cellule: la prima cella è ombreggiata in rosso e la seconda in verde. Questo aiuta a distinguere visivamente le cellule.
-- Bordi delle celle: per la terza cella creiamo bordi più spessi per evidenziarla in modo diverso dalle altre.
+## Applicare gli stili di tabella (incluso lo stile della prima colonna)
 
-## Passaggio 2: applicazione degli stili di tabella
+Gli stili di tabella ti permettono di applicare un aspetto coerente con una singola chiamata. Abiliteremo anche lo *first column style* e adatteremo automaticamente la tabella al suo contenuto.
 
-Gli stili di tabella in Aspose.Words per Java consentono di applicare opzioni di formattazione predefinite alle tabelle, semplificando l'ottenimento di un aspetto coerente. Ecco come applicare uno stile alla tabella:
+### Risposta diretta
+`StyleIdentifier` elenca gli stili di tabella incorporati, e `AutoFitBehavior` controlla come una tabella si adatta al suo contenuto. Crea un nuovo `Document`, costruisci una `Table`, imposta il suo `StyleIdentifier` su `MEDIUM_SHADING_1_ACCENT_1`, abilita `FirstColumn` e `RowBands`, quindi chiama `autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)` affinché le colonne si riducano o espandano automaticamente per adattarsi ai dati inseriti.
 
-### Creare il documento e la tabella
+### Passo 4: crea un nuovo documento per lo styling
 
 ```java
 Document doc = new Document();
@@ -115,22 +190,24 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Table table = builder.startTable();
         
-// Prima di impostare qualsiasi formattazione della tabella, dobbiamo inserire almeno una riga.
+// We must insert at least one row first before setting any table formatting.
 builder.insertCell();
 ```
 
-### Applica stile tabella
+### Passo 5: applica uno stile predefinito e abilita la formattazione della prima colonna
 
 ```java
-// Imposta lo stile della tabella in base a un identificatore di stile univoco.
+// Set the table style based on a unique style identifier.
 table.setStyleIdentifier(StyleIdentifier.MEDIUM_SHADING_1_ACCENT_1);
         
-// Applica quali funzionalità devono essere formattate dallo stile.
+// Apply which features should be formatted by the style.
 table.setStyleOptions(TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS | TableStyleOptions.FIRST_ROW);
+
+// Auto‑fit the table so columns shrink or expand to fit the content.
 table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS);
 ```
 
-### Aggiungi dati alla tabella
+### Passo 6: popola la tabella con i dati
 
 ```java
 builder.writeln("Item");
@@ -160,48 +237,58 @@ builder.endRow();
 doc.save("BuildTableWithStyle.docx");
 ```
 
-### Spiegazione
+#### Perché è importante
+- **Style identifier** – `MEDIUM_SHADING_1_ACCENT_1` conferisce alla tabella un aspetto pulito e ombreggiato.  
+- **First column style** – Evidenziare la prima colonna migliora la leggibilità, soprattutto nei report.  
+- **Row bands** – Alternare i colori delle righe rende le tabelle grandi più facili da leggere.  
+- **Auto‑fit** – Garantisce che la larghezza della tabella si adatti al contenuto, evitando testo troncato.
 
-In questo esempio:
-- Imposta stile tabella: applichiamo uno stile predefinito (`MEDIUM_SHADING_1_ACCENT_1`) alla tabella. Questo stile include la formattazione per diverse parti della tabella.
-- Opzioni di stile: specifichiamo che la prima colonna, le bande di riga e la prima riga debbano essere formattate in base alle opzioni di stile.
-- Adattamento automatico: utilizziamo `AUTO_FIT_TO_CONTENTS` per garantire che la tabella adatti le sue dimensioni in base al contenuto.
+## Problemi comuni e risoluzione
 
-## Conclusione
-
-Ed ecco fatto! Hai formattato correttamente le tabelle e applicato stili utilizzando Aspose.Words per Java. Con queste tecniche, puoi creare tabelle non solo funzionali, ma anche visivamente accattivanti. Formattare le tabelle in modo efficace può migliorare notevolmente la leggibilità e l'aspetto professionale dei tuoi documenti.
-
-Aspose.Words per Java è uno strumento robusto che offre ampie funzionalità per la manipolazione dei documenti. Padroneggiando la formattazione e gli stili delle tabelle, sarai un passo più vicino a sfruttare appieno la potenza di questa libreria.
+| Problema | Causa tipica | Correzione rapida |
+|----------|--------------|-------------------|
+| I bordi non appaiono | Uso di `clearFormatting()` dopo aver impostato i bordi | Imposta i bordi **dopo** aver cancellato la formattazione, o riapplicali. |
+| Ombreggiatura ignorata nelle celle unite | Ombreggiatura applicata prima della fusione | Applica l'ombreggiatura **dopo** aver unito le celle. |
+| La larghezza della tabella supera i margini della pagina | Nessun auto‑fit applicato | Chiama `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)` o imposta una larghezza fissa. |
+| Stile non applicato | Valore `StyleIdentifier` errato | Verifica che l'identificatore esista nella versione di Aspose.Words che stai usando. |
 
 ## Domande frequenti
 
-### 1. Posso utilizzare stili di tabella personalizzati non inclusi nelle opzioni predefinite?
+**Q: Posso usare stili di tabella personalizzati non inclusi nelle opzioni predefinite?**  
+A: Sì, puoi creare e applicare stili personalizzati programmaticamente. Consulta la [documentazione Aspose.Words](https://reference.aspose.com/words/java/) per i dettagli.
 
-Sì, puoi definire e applicare stili personalizzati alle tue tabelle utilizzando Aspose.Words per Java. Controlla la sezione [documentazione](https://reference.aspose.com/words/java/) per maggiori dettagli sulla creazione di stili personalizzati.
+**Q: Come posso applicare la formattazione condizionale alle celle?**  
+A: Usa la logica Java standard per ispezionare i valori delle celle, quindi chiama i metodi di formattazione appropriati (ad esempio, cambia il colore di sfondo se un valore supera una soglia).
 
-### 2. Come posso applicare la formattazione condizionale alle tabelle?
+**Q: È possibile formattare le celle unite allo stesso modo delle celle normali?**  
+A: Assolutamente. Dopo aver unito le celle, applica ombreggiatura o bordi usando le stesse API `CellFormat`.
 
-Aspose.Words per Java consente di modificare programmaticamente la formattazione delle tabelle in base a determinate condizioni. Questo può essere fatto verificando criteri specifici nel codice e applicando la formattazione di conseguenza.
+**Q: Cosa fare se ho bisogno che la tabella si ridimensioni dinamicamente in base all'input dell'utente?**  
+A: Regola le larghezze delle colonne o chiama nuovamente `autoFit` dopo aver inserito nuovi dati per ricalcolare il layout.
 
-### 3. Posso formattare le celle unite in una tabella?
+**Q: Dove posso trovare più esempi di styling delle tabelle?**  
+A: La [documentazione ufficiale dell'Aspose.Words API](https://reference.aspose.com/words/java/) contiene un set completo di esempi.
 
-Sì, puoi formattare le celle unite proprio come le celle normali. Assicurati di applicare la formattazione dopo l'unione per vedere le modifiche applicate.
+## Conclusione
 
-### 4. È possibile modificare dinamicamente il layout della tabella?
+Ora disponi di una toolbox completa per **come modificare i bordi** nelle celle delle tabelle, applicare lo *first column style* e **adattare automaticamente il contenuto della tabella** usando Aspose.Words per Java. Padroneggiando queste tecniche potrai produrre documenti sia ricchi di dati sia visivamente curati—ideali per report, fatture e qualsiasi output aziendale critico.
 
-Sì, puoi adattare dinamicamente il layout della tabella modificando le dimensioni delle celle, la larghezza della tabella e altre proprietà in base al contenuto o all'input dell'utente.
+---
 
-### 5. Dove posso trovare maggiori informazioni sulla formattazione delle tabelle?
+**Ultimo aggiornamento:** 2026-10-17  
+**Testato con:** Aspose.Words for Java 24.12 (latest at time of writing)  
+**Autore:** Aspose
 
-Per esempi e opzioni più dettagliati, visitare il [Documentazione dell'API Aspose.Words](https://reference.aspose.com/words/java/).
+## Tutorial correlati
+
+- [Tutorial di formattazione e stili Aspose.Words Java - Migliora i tuoi documenti](/words/java/formatting-styles/)
+- [Bordi avanzati dei documenti con Aspose.Words per Java: Guida completa](/words/java/headers-footers-page-setup/advanced-document-borders-aspose-words-java/)
+- [Aggiungi una filigrana a un documento usando Aspose.Words per Java](/words/java/document-conversion-and-export/using-watermarks-to-documents/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

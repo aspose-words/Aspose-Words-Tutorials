@@ -5,7 +5,9 @@
 "url": "/ar/python-net/document-operations/aspose-words-python-html-page-callbacks/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # تنفيذ استدعاءات حفظ صفحات HTML المخصصة في Python باستخدام Aspose.Words
 
 ## مقدمة
@@ -149,3 +151,7 @@ A4: تحويل Word وPDF وHTML والعديد من التنسيقات الأخ
 - **يدعم**: قم بزيارة [منتدى أسبوزي](https://forum.aspose.com/c/words/10) للاستفسارات ودعم المجتمع.
 
 انغمس في Aspose.Words for Python اليوم واكتشف إمكانيات جديدة في معالجة المستندات!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

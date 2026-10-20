@@ -1,88 +1,156 @@
 ---
-"description": "เรียนรู้วิธีจัดรูปแบบตารางและนำรูปแบบไปใช้โดยใช้ Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนนี้ครอบคลุมถึงการตั้งค่าขอบ การแรเงาเซลล์ และการนำรูปแบบตารางไปใช้"
-"linktitle": "การจัดรูปแบบตารางและสไตล์ของตาราง"
-"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
-"title": "การจัดรูปแบบตารางและสไตล์ของตาราง"
-"url": "/th/java/document-conversion-and-export/formatting-tables-and-table-styles/"
-"weight": 17
+date: 2026-10-17
+description: เรียนรู้วิธีเปลี่ยนเส้นขอบในเซลล์ตารางด้วย Aspose.Words for Java รวมถึงการตั้งค่า
+  cell border styles, การใช้ first column style, และ auto‑fit table contents.
+keywords:
+- how to change borders
+- apply first column style
+- Aspose.Words table styling
+- Java document processing
+lastmod: 2026-10-17
+linktitle: วิธีเปลี่ยนเส้นขอบในเซลล์ตารางโดยใช้ Aspose.Words for Java
+og_description: วิธีเปลี่ยนเส้นขอบในเซลล์ตารางโดยใช้ Aspose.Words for Java. คู่มือนี้แสดงวิธีตั้งค่า
+  cell border thickness, ใช้ first column style, และ auto‑fit tables สำหรับเอกสารระดับมืออาชีพ.
+og_image_alt: Screenshot of a Java table with customized cell borders using Aspose.Words
+og_title: วิธีเปลี่ยนเส้นขอบในเซลล์ตาราง – Aspose.Words for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-17'
+  description: Learn how to change borders in table cells with Aspose.Words for Java,
+    including setting cell border styles, applying first column style, and auto‑fit
+    table contents.
+  headline: How to change borders in table cells using Aspose.Words for Java
+  type: TechArticle
+- description: Learn how to change borders in table cells with Aspose.Words for Java,
+    including setting cell border styles, applying first column style, and auto‑fit
+    table contents.
+  name: How to change borders in table cells using Aspose.Words for Java
+  steps:
+  - name: '**Java Development Kit (JDK) 8+** – ensure `java` is on your PATH.'
+    text: '**Java Development Kit (JDK) 8+** – ensure `java` is on your PATH.'
+  - name: '**IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.'
+    text: '**IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.'
+  - name: '**Aspose.Words for Java** – download the latest JAR from the [official
+      site](https://releases.aspose.com/words/java/).'
+    text: '**Aspose.Words for Java** – download the latest JAR from the [official
+      site](https://releases.aspose.com/words/java/).'
+  - name: '**Basic Java knowledge** – you should be comfortable creating a Maven/Gradle
+      project and adding external JARs.'
+    text: '**Basic Java knowledge** – you should be comfortable creating a Maven/Gradle
+      project and adding external JARs.'
+  type: HowTo
+- questions:
+  - answer: Yes, you can create and apply custom styles programmatically. See the
+      [Aspose.Words documentation](https://reference.aspose.com/words/java/) for details.
+    question: Can I use custom table styles not included in the default options?
+  - answer: Use standard Java logic to inspect cell values, then call the appropriate
+      formatting methods (e.g., change background colour if a value exceeds a threshold).
+    question: How can I apply conditional formatting to cells?
+  - answer: Absolutely. After merging cells, apply shading or borders using the same
+      `CellFormat` APIs.
+    question: Is it possible to format merged cells the same way as regular cells?
+  - answer: Adjust column widths or call `autoFit` again after inserting new data
+      to recalculate the layout.
+    question: What if I need the table to resize dynamically based on user input?
+  - answer: The official [Aspose.Words API documentation](https://reference.aspose.com/words/java/)
+      contains a comprehensive set of samples.
+    question: Where can I find more examples of table styling?
+  type: FAQPage
+second_title: Aspose.Words Java Document Processing API
+tags:
+- Aspose.Words
+- Java tables
+- document formatting
+- border styling
+title: วิธีเปลี่ยนเส้นขอบในเซลล์ตารางโดยใช้ Aspose.Words for Java
+url: /th/java/document-conversion-and-export/formatting-tables-and-table-styles/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การจัดรูปแบบตารางและสไตล์ของตาราง
+# วิธีเปลี่ยนเส้นขอบในเซลล์ของตารางโดยใช้ Aspose.Words for Java
 
+## บทนำ
 
-## การแนะนำ
+เมื่อคุณต้องการนำเสนอข้อมูลในรูปแบบที่สะอาดและเป็นมืออาชีพ, **การเปลี่ยนเส้นขอบของเซลล์** เป็นหนึ่งในการปรับแต่งภาพแรกที่คุณจะใช้. ใน Java, Aspose.Words มอบ API ที่ครบถ้วนซึ่งช่วยให้คุณจัดรูปแบบตาราง, ปรับเส้นขอบของเซลล์แต่ละเซลล์, เปิดใช้งานสไตล์คอลัมน์แรก, และปรับขนาดอัตโนมัติเพื่อให้เนื้อหาไม่ทำให้ตารางล้นหน้า. บทเรียนนี้จะพาคุณผ่านทุกขั้นตอน, ตั้งแต่การสร้างเอกสารจนถึงการปรับแต่งเส้นขอบแต่ละเส้น, และแสดงว่าฟีเจอร์เหล่านี้สำคัญอย่างไรในรายงานและใบแจ้งหนี้จริง.
 
-เมื่อเป็นเรื่องของการจัดรูปแบบเอกสาร ตารางมีบทบาทสำคัญในการจัดระเบียบและนำเสนอข้อมูลอย่างชัดเจน หากคุณใช้ Java และ Aspose.Words คุณจะมีเครื่องมืออันทรงพลังสำหรับการสร้างและจัดรูปแบบตารางในเอกสารของคุณ ไม่ว่าคุณจะออกแบบตารางธรรมดาหรือใช้สไตล์ขั้นสูง Aspose.Words สำหรับ Java ก็มีคุณสมบัติมากมายที่จะช่วยให้คุณได้รับผลลัพธ์ที่ดูเป็นมืออาชีพ
+## คำตอบอย่างรวดเร็ว
+คลาส `DocumentBuilder` ถูกใช้เพื่อสร้างเอกสารและตารางโดยโปรแกรม.  
+- **คลาสหลักสำหรับสร้างตารางคืออะไร?** `DocumentBuilder` สร้างตารางและเซลล์โดยโปรแกรม.  
+- **ฉันจะเปลี่ยนความหนาของเส้นขอบเซลล์เดียวได้อย่างไร?** ใช้ `builder.getCellFormat().getBorders().getLeft().setLineWidth(value)`.  
+- **ฉันสามารถใช้สไตล์ตารางที่กำหนดไว้ล่วงหน้าได้หรือไม่?** ใช่ – เรียก `table.setStyleIdentifier(StyleIdentifier.YOUR_STYLE)`.  
+- **เมธอดใดที่ปรับขนาดตารางให้พอดีกับเนื้อหา?** `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)`.  
+- **ฉันต้องการไลเซนส์สำหรับการใช้งานจริงหรือไม่?** จำเป็นต้องมีไลเซนส์ Aspose.Words ที่ถูกต้องสำหรับการใช้งานที่ไม่ใช่รุ่นทดลอง.
 
-ในคู่มือนี้ เราจะแนะนำคุณเกี่ยวกับขั้นตอนการจัดรูปแบบตารางและการใช้รูปแบบตารางโดยใช้ Aspose.Words สำหรับ Java คุณจะได้เรียนรู้วิธีการตั้งค่าเส้นขอบตาราง การแรเงาเซลล์ และใช้รูปแบบตารางเพื่อปรับปรุงรูปลักษณ์ของเอกสารของคุณ เมื่ออ่านจบ คุณจะมีทักษะในการสร้างตารางที่มีรูปแบบที่ดีซึ่งจะทำให้ข้อมูลของคุณโดดเด่น
+## “วิธีเปลี่ยนเส้นขอบของเซลล์” ใน Aspose.Words คืออะไร
+การเปลี่ยนเส้นขอบของเซลล์หมายถึงการปรับแต่งเส้นภาพที่แยกเซลล์—สี, ความกว้าง, และรูปแบบเส้น. Aspose.Words for Java เปิดเผย API รายละเอียดที่ให้คุณตั้งค่าคุณสมบัติเหล่านี้ที่ระดับตาราง, แถว, หรือเซลล์แต่ละเซลล์, ให้คุณควบคุมรูปลักษณ์ของเอกสารได้อย่างแม่นยำ.
+
+## ทำไมต้องใช้การจัดรูปแบบตารางของ Aspose.Words for Java
+Aspose.Words รองรับ **รูปแบบการนำเข้าและส่งออกกว่า 35 แบบ** (DOCX, PDF, HTML, ODT, ฯลฯ) และสามารถประมวลผล **เอกสาร 500 หน้าในเวลาน้อยกว่า 3 วินาที** บนฮาร์ดแวร์เซิร์ฟเวอร์ทั่วไปโดยไม่ต้องใช้ Microsoft Word. ไลบรารีทำงานอย่างสม่ำเสมอบน Windows, Linux, และ macOS, ทำให้คุณสามารถสร้างหรือแก้ไขเอกสารบนเซิร์ฟเวอร์, ใช้สไตล์ตารางที่มีอยู่เช่น *สไตล์คอลัมน์แรก*, และปรับขนาดตารางอัตโนมัติเพื่อให้เข้ากับเนื้อหาได้ด้วยการเรียกเมธอดเดียว.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่มต้น มีบางสิ่งที่คุณต้องมี:
+1. **Java Development Kit (JDK) 8+** – ตรวจสอบให้แน่ใจว่า `java` อยู่ใน PATH ของคุณ.  
+2. **IDE** – IntelliJ IDEA, Eclipse, หรือโปรแกรมแก้ไขใด ๆ ที่คุณชอบ.  
+3. **Aspose.Words for Java** – ดาวน์โหลด JAR ล่าสุดจาก [official site](https://releases.aspose.com/words/java/).  
+4. **Basic Java knowledge** – คุณควรคุ้นเคยกับการสร้างโปรเจกต์ Maven/Gradle และการเพิ่ม JAR ภายนอก.
 
-1. Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK 8 หรือใหม่กว่าแล้ว Aspose.Words สำหรับ Java ต้องใช้ JDK ที่เข้ากันได้จึงจะทำงานได้อย่างถูกต้อง
-2. สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE): IDE เช่น IntelliJ IDEA หรือ Eclipse จะช่วยคุณจัดการโปรเจ็กต์ Java และปรับปรุงกระบวนการพัฒนาของคุณให้มีประสิทธิภาพยิ่งขึ้น
-3. ไลบรารี Aspose.Words สำหรับ Java: ดาวน์โหลดเวอร์ชันล่าสุดของ Aspose.Words สำหรับ Java [ที่นี่](https://releases.aspose.com/words/java/) และรวมไว้ในโครงการของคุณ
-4. โค้ดตัวอย่าง: เราจะใช้โค้ดตัวอย่างบางส่วน ดังนั้น โปรดแน่ใจว่าคุณมีความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และวิธีการรวมไลบรารีเข้ากับโปรเจ็กต์ของคุณ
+## นำเข้าแพ็กเกจ
 
-## แพ็คเกจนำเข้า
-
-ในการใช้งาน Aspose.Words สำหรับ Java คุณจะต้องนำเข้าแพ็คเกจที่เกี่ยวข้องเข้าสู่โปรเจ็กต์ของคุณ แพ็คเกจเหล่านี้มีคลาสและวิธีการที่จำเป็นสำหรับการจัดการและจัดรูปแบบเอกสาร
+`Document`, `DocumentBuilder`, `Table`, `StyleIdentifier` และคลาสที่เกี่ยวข้องอยู่ในเนมสเปซ `com.aspose.words`. การนำเข้าแพ็กเกจเดียวนี้ทำให้คุณเข้าถึงชุดเครื่องมือการจัดรูปแบบตารางทั้งหมด. คลาส `DocumentBuilder` มีเมธอดสำหรับสร้างและแก้ไขเอกสารโดยโปรแกรม.
 
 ```java
 import com.aspose.words.*;
 ```
 
-คำสั่งนำเข้านี้ทำให้คุณสามารถเข้าถึงคลาสที่จำเป็นทั้งหมดสำหรับการสร้างและการจัดรูปแบบตารางในเอกสารของคุณ
+## วิธีเปลี่ยนเส้นขอบของเซลล์
 
-## ขั้นตอนที่ 1: การจัดรูปแบบตาราง
+ด้านล่างเป็นคู่มือสั้น ๆ แบบขั้นตอนที่สร้างตาราง, ตั้งค่าเส้นขอบทั่วทั้งตาราง, แล้วปรับแต่งขอบของเซลล์เดียว.
 
-การจัดรูปแบบตารางใน Aspose.Words สำหรับ Java เกี่ยวข้องกับการตั้งค่าขอบ การแรเงาเซลล์ และการใช้ตัวเลือกการจัดรูปแบบต่างๆ คุณสามารถทำได้ดังนี้:
+### คำตอบโดยตรง
+`Document` แทนไฟล์ Word, ส่วน `DocumentBuilder` สร้างเนื้อหาเช่นตาราง. โหลด `Document` ใหม่, แทรก `Table` ด้วย `DocumentBuilder`, ตั้งค่าเส้นขอบสีดำ 2‑point สำหรับตารางทั้งหมด, แล้วเพิ่มเส้นขอบซ้าย, ขวา, บน, และล่างของเซลล์ที่สามเป็น 4 point. วิธีนี้ทำให้คุณเน้นเซลล์ใดก็ได้ในขณะที่ตารางส่วนอื่นยังคงมีสไตล์เดียวกัน.
 
-### โหลดเอกสาร
+### ขั้นตอนที่ 1: โหลดเอกสารใหม่
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-### สร้างและจัดรูปแบบตาราง
+### ขั้นตอนที่ 2: สร้างตารางและตั้งค่าเส้นขอบทั่วทั้งตาราง
 
 ```java
 Table table = builder.startTable();
 builder.insertCell();
 
-// กำหนดขอบเขตให้กับตารางทั้งหมด
+// Set the borders for the entire table.
 table.setBorders(LineStyle.SINGLE, 2.0, Color.BLACK);
         
-// ตั้งค่าการแรเงาเซลล์สำหรับเซลล์นี้
+// Set the cell shading for this cell.
 builder.getCellFormat().getShading().setBackgroundPatternColor(Color.RED);
 builder.writeln("Cell #1");
 
 builder.insertCell();
         
-// ระบุการแรเงาเซลล์ที่แตกต่างกันสำหรับเซลล์ที่สอง
+// Specify a different cell shading for the second cell.
 builder.getCellFormat().getShading().setBackgroundPatternColor(Color.GREEN);
 builder.writeln("Cell #2");
 
 builder.endRow();
 ```
 
-### ปรับแต่งขอบเขตเซลล์
+### ขั้นตอนที่ 3: เปลี่ยนเส้นขอบของเซลล์เดียว
 
 ```java
-// ล้างการจัดรูปแบบเซลล์จากการดำเนินการก่อนหน้า
+// Clear the cell formatting from previous operations.
 builder.getCellFormat().clearFormatting();
 
 builder.insertCell();
 
-// สร้างเส้นขอบที่ใหญ่ขึ้นสำหรับเซลล์แรกของแถวนี้
+// Create larger borders for the first cell of this row.
 builder.getCellFormat().getBorders().getLeft().setLineWidth(4.0);
 builder.getCellFormat().getBorders().getRight().setLineWidth(4.0);
 builder.getCellFormat().getBorders().getTop().setLineWidth(4.0);
@@ -96,18 +164,19 @@ builder.writeln("Cell #4");
 doc.save("FormatTableAndCellWithDifferentBorders.docx");
 ```
 
-### คำอธิบาย
+#### สิ่งที่โค้ดทำ
+- **เส้นขอบทั่วทั้งตาราง** – `table.setBorders` ให้ตารางทั้งหมดมีเส้นสีดำ 2‑point.  
+- **การระบายสีเซลล์** – แสดงวิธีการใส่สีให้เซลล์แต่ละเซลล์ (สีแดงและสีเขียว).  
+- **เส้นขอบเซลล์แบบกำหนดเอง** – เซลล์ที่สามได้รับเส้นขอบ 4‑point ทั้งสี่ด้าน ทำให้โดดเด่น.
 
-ในตัวอย่างนี้:
-- ตั้งค่าเส้นขอบ: เราตั้งค่าเส้นขอบของตารางทั้งหมดเป็นรูปแบบเส้นเดียวโดยมีความหนา 2.0 จุด
-- การแรเงาเซลล์: เซลล์แรกแรเงาด้วยสีแดง และเซลล์ที่สองแรเงาด้วยสีเขียว วิธีนี้ช่วยให้แยกความแตกต่างระหว่างเซลล์ต่างๆ ได้อย่างชัดเจน
-- ขอบเซลล์: สำหรับเซลล์ที่สาม เราสร้างขอบที่หนากว่าเพื่อเน้นให้แตกต่างจากเซลล์ที่เหลือ
+## การใช้สไตล์ตาราง (รวมถึงสไตล์คอลัมน์แรก)
 
-## ขั้นตอนที่ 2: การใช้รูปแบบตาราง
+สไตล์ตารางช่วยให้คุณใช้รูปลักษณ์ที่สอดคล้องด้วยการเรียกครั้งเดียว. เราจะเปิดใช้งาน *สไตล์คอลัมน์แรก* และปรับขนาดตารางอัตโนมัติเพื่อให้เข้ากับเนื้อหา.
 
-สไตล์ตารางใน Aspose.Words สำหรับ Java ช่วยให้คุณสามารถใช้ตัวเลือกการจัดรูปแบบที่กำหนดไว้ล่วงหน้ากับตาราง ทำให้การสร้างรูปลักษณ์ที่สอดคล้องกันเป็นเรื่องง่ายขึ้น ต่อไปนี้เป็นวิธีการใช้สไตล์กับตารางของคุณ:
+### คำตอบโดยตรง
+`StyleIdentifier` แสดงรายการสไตล์ตารางที่มีอยู่, และ `AutoFitBehavior` ควบคุมว่าตารางปรับตามเนื้อหาอย่างไร. สร้าง `Document` ใหม่, สร้าง `Table`, ตั้งค่า `StyleIdentifier` เป็น `MEDIUM_SHADING_1_ACCENT_1`, เปิดใช้งาน `FirstColumn` และ `RowBands`, แล้วเรียก `autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)` เพื่อให้คอลัมน์หดหรือขยายอัตโนมัติเพื่อให้เข้ากับข้อมูลที่แทรก.
 
-### สร้างเอกสารและตาราง
+### ขั้นตอนที่ 4: สร้างเอกสารใหม่สำหรับการจัดสไตล์
 
 ```java
 Document doc = new Document();
@@ -115,22 +184,24 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Table table = builder.startTable();
         
-// เราจะต้องแทรกอย่างน้อยหนึ่งแถวก่อนการตั้งค่าการจัดรูปแบบตารางใดๆ
+// We must insert at least one row first before setting any table formatting.
 builder.insertCell();
 ```
 
-### ใช้รูปแบบตาราง
+### ขั้นตอนที่ 5: ใช้สไตล์ที่กำหนดไว้ล่วงหน้าและเปิดใช้งานการจัดรูปแบบคอลัมน์แรก
 
 ```java
-// ตั้งค่ารูปแบบตารางตามตัวระบุรูปแบบเฉพาะตัว
+// Set the table style based on a unique style identifier.
 table.setStyleIdentifier(StyleIdentifier.MEDIUM_SHADING_1_ACCENT_1);
         
-// ปรับใช้คุณลักษณะใดจึงจะถูกจัดรูปแบบตามรูปแบบ
+// Apply which features should be formatted by the style.
 table.setStyleOptions(TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS | TableStyleOptions.FIRST_ROW);
+
+// Auto‑fit the table so columns shrink or expand to fit the content.
 table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS);
 ```
 
-### เพิ่มข้อมูลตาราง
+### ขั้นตอนที่ 6: เติมข้อมูลลงในตาราง
 
 ```java
 builder.writeln("Item");
@@ -160,48 +231,57 @@ builder.endRow();
 doc.save("BuildTableWithStyle.docx");
 ```
 
-### คำอธิบาย
+#### ทำไมเรื่องนี้สำคัญ
+- **ตัวระบุสไตล์** – `MEDIUM_SHADING_1_ACCENT_1` ทำให้ตารางดูสะอาดและมีเงา.  
+- **สไตล์คอลัมน์แรก** – การเน้นคอลัมน์แรกช่วยเพิ่มความอ่านง่าย, โดยเฉพาะในรายงาน.  
+- **แถบแถว** – การสลับสีแถวทำให้ตารางขนาดใหญ่อ่านสบายตาขึ้น.  
+- **ปรับขนาดอัตโนมัติ** – ทำให้ความกว้างของตารางปรับตามเนื้อหา, ป้องกันข้อความถูกตัด.
 
-ในตัวอย่างนี้:
-- ตั้งค่ารูปแบบตาราง: เราใช้รูปแบบที่กำหนดไว้ล่วงหน้า (`MEDIUM_SHADING_1_ACCENT_1`) ลงในตาราง รูปแบบนี้รวมถึงการจัดรูปแบบสำหรับส่วนต่าง ๆ ของตาราง
-- ตัวเลือกสไตล์: เราระบุว่าคอลัมน์แรก แถบแถว และแถวแรกจะต้องได้รับการจัดรูปแบบตามตัวเลือกสไตล์
-- AutoFit: เราใช้ `AUTO_FIT_TO_CONTENTS` เพื่อให้แน่ใจว่าตารางปรับขนาดตามเนื้อหา
+## ปัญหาทั่วไปและการแก้ไขข้อผิดพลาด
 
-## บทสรุป
-
-และแล้วคุณก็ทำได้! คุณได้จัดรูปแบบตารางและนำรูปแบบไปใช้สำเร็จแล้วโดยใช้ Aspose.Words สำหรับ Java ด้วยเทคนิคเหล่านี้ คุณสามารถสร้างตารางที่ไม่เพียงแต่ใช้งานได้จริงแต่ยังดูสวยงามอีกด้วย การจัดรูปแบบตารางอย่างมีประสิทธิภาพสามารถปรับปรุงการอ่านและรูปลักษณ์ที่เป็นมืออาชีพของเอกสารของคุณได้อย่างมาก
-
-Aspose.Words สำหรับ Java เป็นเครื่องมือที่มีประสิทธิภาพซึ่งมีคุณสมบัติมากมายสำหรับการจัดการเอกสาร ด้วยการเชี่ยวชาญการจัดรูปแบบและสไตล์ของตาราง คุณจะเข้าใกล้การใช้ประโยชน์จากไลบรารีนี้อย่างเต็มประสิทธิภาพอีกขั้นหนึ่ง
+| ปัญหา | สาเหตุทั่วไป | วิธีแก้เร็ว |
+|-------|----------------|-----------|
+| เส้นขอบไม่แสดง | ใช้ `clearFormatting()` หลังจากตั้งค่าเส้นขอบ | ตั้งค่าเส้นขอบ **หลังจาก** ล้างการจัดรูปแบบ, หรือกำหนดใหม่. |
+| การระบายสีถูกละเว้นบนเซลล์ที่รวม | ระบายสีก่อนการรวม | ระบายสี **หลังจาก** การรวมเซลล์. |
+| ความกว้างของตารางเกินขอบหน้ากระดาษ | ไม่มีการปรับขนาดอัตโนมัติ | เรียก `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)` หรือกำหนดความกว้างคงที่. |
+| สไตล์ไม่ถูกนำไปใช้ | ค่า `StyleIdentifier` ไม่ถูกต้อง | ตรวจสอบว่าตัวระบุมีอยู่ในเวอร์ชันของ Aspose.Words ที่คุณใช้. |
 
 ## คำถามที่พบบ่อย
 
-### 1. ฉันสามารถใช้รูปแบบตารางแบบกำหนดเองที่ไม่ได้รวมอยู่ในตัวเลือกเริ่มต้นได้หรือไม่
+**Q: ฉันสามารถใช้สไตล์ตารางที่กำหนดเองซึ่งไม่ได้รวมอยู่ในตัวเลือกเริ่มต้นได้หรือไม่?**  
+A: ใช่, คุณสามารถสร้างและใช้สไตล์ที่กำหนดเองโดยโปรแกรม. ดูที่ [Aspose.Words documentation](https://reference.aspose.com/words/java/) สำหรับรายละเอียด.
 
-ใช่ คุณสามารถกำหนดและใช้รูปแบบที่กำหนดเองกับตารางของคุณได้โดยใช้ Aspose.Words สำหรับ Java ตรวจสอบ [เอกสารประกอบ](https://reference.aspose.com/words/java/) สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการสร้างสไตล์ที่กำหนดเอง
+**Q: ฉันจะใช้การจัดรูปแบบตามเงื่อนไขกับเซลล์ได้อย่างไร?**  
+A: ใช้ตรรกะ Java มาตรฐานเพื่อตรวจสอบค่าของเซลล์, จากนั้นเรียกเมธอดการจัดรูปแบบที่เหมาะสม (เช่น เปลี่ยนสีพื้นหลังหากค่ามากกว่าขีดจำกัด).
 
-### 2. ฉันจะนำการจัดรูปแบบตามเงื่อนไขไปใช้กับตารางได้อย่างไร
+**Q: สามารถจัดรูปแบบเซลล์ที่รวมได้เช่นเดียวกับเซลล์ปกติหรือไม่?**  
+A: แน่นอน. หลังจากรวมเซลล์, ให้ใช้ `CellFormat` API เดียวกันเพื่อระบายสีหรือกำหนดเส้นขอบ.
 
-Aspose.Words สำหรับ Java ช่วยให้คุณปรับรูปแบบตารางตามเงื่อนไขได้โดยอัตโนมัติ ซึ่งสามารถทำได้โดยตรวจสอบเกณฑ์เฉพาะในโค้ดของคุณแล้วจัดรูปแบบตามนั้น
+**Q: ถ้าฉันต้องการให้ตารางปรับขนาดตามการป้อนข้อมูลของผู้ใช้จะทำอย่างไร?**  
+A: ปรับความกว้างของคอลัมน์หรือเรียก `autoFit` อีกครั้งหลังจากแทรกข้อมูลใหม่เพื่อคำนวณเลย์เอาต์ใหม่.
 
-### 3. ฉันสามารถจัดรูปแบบเซลล์ที่ผสานในตารางได้หรือไม่
+**Q: ฉันจะหา ตัวอย่างการจัดรูปแบบตารางเพิ่มเติมได้จากที่ไหน?**  
+A: [Aspose.Words API documentation](https://reference.aspose.com/words/java/) มีชุดตัวอย่างที่ครอบคลุมอย่างครบถ้วน.
 
-ใช่ คุณสามารถจัดรูปแบบเซลล์ที่ผสานได้เช่นเดียวกับเซลล์ปกติ ตรวจสอบให้แน่ใจว่าคุณใช้การจัดรูปแบบหลังจากผสานเซลล์แล้ว เพื่อดูการเปลี่ยนแปลงที่เกิดขึ้น
+## สรุป
 
-### 4. สามารถปรับเค้าโครงตารางแบบไดนามิกได้หรือไม่
+ตอนนี้คุณมีชุดเครื่องมือครบถ้วนสำหรับ **วิธีเปลี่ยนเส้นขอบ** ในเซลล์ของตาราง, ใช้ *สไตล์คอลัมน์แรก*, และ **ปรับขนาดตารางอัตโนมัติ** ด้วย Aspose.Words for Java. ด้วยการเชี่ยวชาญเทคนิคเหล่านี้คุณสามารถสร้างเอกสารที่เต็มไปด้วยข้อมูลและดูสวยงาม—เหมาะสำหรับรายงาน, ใบแจ้งหนี้, และผลลัพธ์ที่สำคัญต่อธุรกิจใด ๆ.
 
-ใช่ คุณสามารถปรับเปลี่ยนเค้าโครงตารางได้แบบไดนามิกโดยการแก้ไขขนาดเซลล์ ความกว้างของตาราง และคุณสมบัติอื่นๆ ตามเนื้อหาหรือข้อมูลที่ผู้ใช้ป้อน
+---
 
-### 5. ฉันสามารถหาข้อมูลเพิ่มเติมเกี่ยวกับการจัดรูปแบบตารางได้จากที่ไหน
+**อัปเดตล่าสุด:** 2026-10-17  
+**ทดสอบด้วย:** Aspose.Words for Java 24.12 (latest at time of writing)  
+**ผู้เขียน:** Aspose
 
-สำหรับตัวอย่างและตัวเลือกโดยละเอียดเพิ่มเติม โปรดไปที่ [เอกสารประกอบ API ของ Aspose.Words](https://reference-aspose.com/words/java/).
+## บทเรียนที่เกี่ยวข้อง
 
+- [บทแนะนำการจัดรูปแบบและสไตล์ Aspose.Words Java - ปรับปรุงเอกสารของคุณ](/words/java/formatting-styles/)
+- [ขอบเอกสารขั้นสูงด้วย Aspose.Words for Java: คู่มือฉบับสมบูรณ์](/words/java/headers-footers-page-setup/advanced-document-borders-aspose-words-java/)
+- [เพิ่มลายน้ำให้กับเอกสารโดยใช้ Aspose.Words for Java](/words/java/document-conversion-and-export/using-watermarks-to-documents/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

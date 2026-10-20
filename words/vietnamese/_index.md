@@ -1,306 +1,237 @@
----
-date: 2026-08-05
-description: Học Aspose.Words thông qua các hướng dẫn trực quan từng bước cho .NET,
-  Java, C++, Python và các ngôn ngữ khác. Nắm vững việc tạo tài liệu, chỉnh sửa, chuyển
-  đổi và tự động hoá một cách dễ dàng.
-keywords:
-- aspose.words visual tutorials
-- aspose.words .net tutorials
-- word document automation
-- aspose.words java guide
-- aspose.words python examples
-lastmod: 2026-08-05
-limit: null
-og_description: Khám phá các hướng dẫn trực quan Aspose.Words để nhanh chóng học cách
-  tạo tài liệu, chỉnh sửa, chuyển đổi và tự động hoá trên các nền tảng .NET, Java,
-  C++ và Python.
-og_image_alt: Screenshot of Aspose.Words visual tutorial index page showing tutorial
-  cards
-og_title: Hướng dẫn trực quan Aspose.Words – các hướng dẫn từng bước cho .NET, Java,
-  C++ & Python
-schemas:
-- author: Aspose
-  dateModified: '2026-08-05'
-  description: Learn Aspose.Words with step‑by‑step visual tutorials for .NET, Java,
-    C++, Python and more. Master document creation, editing, conversion, and automation
-    easily.
-  headline: Aspose.Words visual tutorials
-  type: TechArticle
-tags:
-- Aspose.Words
-- visual tutorials
-- document processing
-- .NET
-- Java
-- Python
-title: Hướng dẫn trực quan Aspose.Words
-url: /vi/
-weight: 10
----
+### [Làm việc với Biểu Đồ trong Aspose.Words](./net/working-with-charts/)
+Learn to **insert and customize charts**—including bar, line, and scatter charts—directly within Word documents.
 
-{{< blocks/products/pf/main-wrap-class >}}
+{{< tutorial-card link="./net/working-with-charts/bounds-of-axis/" title="Tạo tài liệu với biểu đồ " imgSrc="./net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
 
-{{< blocks/products/pf/main-container >}}
+{{< tutorial-card link="./net/working-with-charts/create-chart-using-shape/" title="Tạo biểu đồ đường trong Word " imgSrc="./net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< tutorial-card link="./net/working-with-charts/insert-area-chart/" title="Chèn biểu đồ khu vực trong tài liệu Word" imgSrc="./net/working-with-charts/insert-area-chart/images/thumb.png" >}}
 
-# Hướng dẫn trực quan Aspose.Words
+{{< tutorial-card link="./net/working-with-charts/insert-bubble-chart/" title="Chèn biểu đồ bong bóng trong Word " imgSrc="./net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
 
-Hướng dẫn trực quan Aspose.Words cung cấp cho các nhà phát triển các hướng dẫn rõ ràng, từng bước cho mọi nền tảng chính—.NET, Java, C++, Python và hơn nữa. Bạn có thể ngay lập tức thấy cách tạo, chỉnh sửa, chuyển đổi và định dạng tài liệu Word, giúp tăng tốc triển khai và giảm thời gian thử‑và‑sai. Bằng cách theo dõi các ví dụ trực quan này, bạn sẽ có thể tích hợp các khả năng xử lý tài liệu mạnh mẽ vào ứng dụng của mình một cách tự tin.
+{{< tutorial-card link="./net/working-with-charts/insert-column-chart/" title="Chèn biểu đồ cột trong Word " imgSrc="./net/working-with-charts/insert-column-chart/images/thumb.png" >}}
 
-## [Hướng dẫn trực quan Aspose.Words cho .NET](./net/)
+{{< tutorial-card link="./net/working-with-charts/insert-scatter-chart/" title="Tạo biểu đồ phân tán Word " imgSrc="./net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
 
-Aspose.Words cho .NET cung cấp một bộ hướng dẫn trực quan toàn diện để giúp các nhà phát triển làm chủ việc thao tác tài liệu trong ứng dụng của họ. Các hướng dẫn từng bước này bao gồm việc tạo, chỉnh sửa và chuyển đổi tài liệu Word, cũng như chèn hình ảnh, bảng và trường biểu mẫu. Với hướng dẫn rõ ràng và minh họa trực quan, các tutorial đơn giản hoá các nhiệm vụ phức tạp, làm cho việc tự động hoá và tích hợp trở nên liền mạch. Dù bạn mới bắt đầu với Aspose hay muốn nâng cao kỹ năng, những tutorial thực hành này cung cấp kinh nghiệm thực tế để cải thiện khả năng xử lý tài liệu của bạn.
+{{< tutorial-card link="./net/working-with-charts/insert-simple-column-chart/" title="Chèn biểu đồ cột đơn giản trong Word " imgSrc="./net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Làm việc với biểu đồ trong Aspose.Words](./net/working-with-charts/)
+### [Làm việc với Kiểu Bảng và Định Dạng trong Aspose.Words cho .NET](./net/working-with-table-styles-and-formatting/)
+Discover how to **create, format, and customize tables**, set borders, apply styles, and adjust cell padding.
 
-Học cách chèn và tùy chỉnh các loại biểu đồ khác nhau, như biểu đồ cột, đường và phân tán, trong tài liệu Word.
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-outline-border/" title="Áp dụng viền bao quanh cho bảng trong Word" imgSrc="./net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/bounds-of-axis/" title="Create a Document with Charts " imgSrc="./net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-row-formatting/" title="Áp dụng định dạng hàng trong tài liệu Word" imgSrc="./net/working-with-table-styles-and-formatting/apply-row-formatting/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/create-chart-using-shape/" title="Create a Line Chart in Word " imgSrc="./net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/build-table-with-border/" title="Sửa đổi viền bảng trong Word " imgSrc="./net/working-with-table-styles-and-formatting/build-table-with-border/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/insert-area-chart/" title="Insert Area Chart in Word Document" imgSrc="./net/working-with-charts/insert-area-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/buildtable-with-style/" title="Tạo bảng có kiểu trong Word với Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/buildtable-with-style/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/insert-bubble-chart/" title="Insert a Bubble Chart in Word " imgSrc="./net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/cell-padding/" title="Tạo ô bảng Word với khoảng đệm trong Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/cell-padding/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/insert-column-chart/" title="Insert Column Chart in Word " imgSrc="./net/working-with-charts/insert-column-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/create-table-style/" title="Tạo bảng có kiểu trong tài liệu Word " imgSrc="./net/working-with-table-styles-and-formatting/create-table-style/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/insert-scatter-chart/" title="Create Word Scatter Chart " imgSrc="./net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/format-table-and-cell/" title="Tạo tài liệu Word với viền và tô bóng bảng" imgSrc="./net/working-with-table-styles-and-formatting/format-table-and-cell/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/insert-simple-column-chart/" title="Insert a Simple Column Chart in Word " imgSrc="./net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/" title="Tạo và định dạng bảng trong tài liệu Word" imgSrc="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/images/thumb.png" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-row-formatting/" title="Tạo bảng đã định dạng trong Word với Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/set-table-row-formatting/images/thumb.png" >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [Làm việc với kiểu bảng và định dạng trong Aspose.Words cho .NET](./net/working-with-table-styles-and-formatting/)
-
-Khám phá cách tạo, định dạng và tùy chỉnh bảng trong tài liệu Word, bao gồm thiết lập viền, kiểu và khoảng đệm ô.
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-outline-border/" title="Apply Outline Border to a Table in Word" imgSrc="./net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-row-formatting/" title="Apply Row Formatting in Word Documents" imgSrc="./net/working-with-table-styles-and-formatting/apply-row-formatting/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/build-table-with-border/" title="Modify Table Borders in Word " imgSrc="./net/working-with-table-styles-and-formatting/build-table-with-border/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/buildtable-with-style/" title="Create Styled Tables in Word with Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/buildtable-with-style/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/cell-padding/" title="Create Word Table Cell with Padding in Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/cell-padding/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/create-table-style/" title="Create Styled Table in Word Document " imgSrc="./net/working-with-table-styles-and-formatting/create-table-style/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/format-table-and-cell/" title="Create Word Document with Table Borders & Shading" imgSrc="./net/working-with-table-styles-and-formatting/format-table-and-cell/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/" title="Create and Format a Table in Word Document" imgSrc="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-row-formatting/" title="Create a Formatted Table in Word with Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/set-table-row-formatting/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/table-tittle-and-description/" title="Add Title & Description to Table in Word" imgSrc="./net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/table-tittle-and-description/" title="Thêm tiêu đề & mô tả vào bảng trong Word" imgSrc="./net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Thêm nội dung bằng Document Builder trong Aspose.Words cho .NET](./net/add-content-using-document-builder/)
+### [Thêm Nội Dung bằng Document Builder trong Aspose.Words cho .NET](./net/add-content-using-document-builder/)
+Learn how to **insert text, tables, images, and other elements** programmatically with the Document Builder class.
 
-Lớp **DocumentBuilder** cung cấp các phương thức để lập trình tạo và sửa đổi tài liệu Word. Học cách chèn văn bản, bảng, hình ảnh và các yếu tố khác vào tài liệu Word một cách lập trình bằng lớp Document Builder.
+{{< tutorial-card link="./net/add-content-using-document-builder/build-table/" title="Tạo tài liệu Word với bảng" imgSrc="./net/add-content-using-document-builder/build-table/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/build-table/" title="Create a Word Document with Table" imgSrc="./net/add-content-using-document-builder/build-table/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-break/" title="Tạo tài liệu Word đa trang với Aspose.Words" imgSrc="./net/add-content-using-document-builder/insert-break/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-break/" title="Create a Multi-Page Word Document with Aspose.Words" imgSrc="./net/add-content-using-document-builder/insert-break/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-floating-image/" title="Tạo tài liệu Word với hình ảnh nổi trong .NET" imgSrc="./net/add-content-using-document-builder/insert-floating-image/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-floating-image/" title="Create Word Document with Floating Image in .NET" imgSrc="./net/add-content-using-document-builder/insert-floating-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-horizontal-rule/" title="Tạo tài liệu Word với đường ngang trong .NET" imgSrc="./net/add-content-using-document-builder/insert-horizontal-rule/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-horizontal-rule/" title="Create Word Document with Horizontal Rule in .NET" imgSrc="./net/add-content-using-document-builder/insert-horizontal-rule/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-inline-image/" title="Chèn hình ảnh nội dòng trong tài liệu Word" imgSrc="./net/add-content-using-document-builder/insert-inline-image/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-inline-image/" title="Insert Inline Image in Word Document" imgSrc="./net/add-content-using-document-builder/insert-inline-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-paragraph/" title="Tạo tài liệu Word với Aspose.Words " imgSrc="./net/add-content-using-document-builder/insert-paragraph/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-paragraph/" title="Create Word Document with Aspose.Words " imgSrc="./net/add-content-using-document-builder/insert-paragraph/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title="Create a Word Document with Table of Contents in .NET" imgSrc="./net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-### [Định dạng tài liệu với Aspose.Words cho .NET](./net/document-styling/)
-
-Hiểu cách áp dụng các tùy chọn định dạng khác nhau cho đoạn văn, danh sách và các yếu tố tài liệu để nâng cao tính thẩm mỹ của các tệp Word của bạn.
-
-{{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="Apply Borders & Shading to Paragraph in Aspose.Words " imgSrc="./net/document-styling/apply-border-and-shading/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/document-styling/apply-paragraph-style/" title="Create and Style a Word Document in Aspose.Words " imgSrc="./net/document-styling/apply-paragraph-style/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/document-styling/multilevel-list-formatting/" title="Create Multilevel Lists in Word with Aspose.Words" imgSrc="./net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="Format Paragraphs " imgSrc="./net/document-styling/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title="Tạo tài liệu Word với mục lục trong .NET" imgSrc="./net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Làm việc với phông chữ trong Aspose.Words cho .NET](./net/font-styling/)
+### [Định Dạng Tài Liệu với Aspose.Words cho .NET](./net/document-styling/)
+Understand how to **apply formatting options** to paragraphs, lists, and other elements to enhance document appearance.
 
-Khám phá các tính năng liên quan đến phông chữ như kiểu phông, khoảng cách dòng, dấu nhấn mạnh và các cài đặt kiểu chữ khác trong tài liệu Word.
+{{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="Áp dụng viền & tô bóng cho đoạn văn trong Aspose.Words " imgSrc="./net/document-styling/apply-border-and-shading/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/font-styling/font-formatting/" title="Create Font Formatting in Word " imgSrc="./net/font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-paragraph-style/" title="Tạo và tạo kiểu cho tài liệu Word trong Aspose.Words " imgSrc="./net/document-styling/apply-paragraph-style/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/font-styling/get-font-line-spacing/" title="Get Font Line Spacing in Word Document" imgSrc="./net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/multilevel-list-formatting/" title="Tạo danh sách đa cấp trong Word với Aspose.Words" imgSrc="./net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Set Emphasis Mark in Word Document " imgSrc="./net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-### [Làm việc với trường biểu mẫu trong Aspose.Words cho .NET](./net/working-with-form-fields/)
-
-Tìm hiểu cách chèn và quản lý các trường biểu mẫu như nhập liệu văn bản, danh sách thả xuống và hộp kiểm trong tài liệu Word.
-
-{{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="Insert Combo Box Form Field in Word Document" imgSrc="./net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="Định dạng đoạn văn " imgSrc="./net/document-styling/paragraph-formatting/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Làm việc với đầu trang và chân trang trong Aspose.Words cho .NET](./net/header-footer-formatting/)
+### [Làm việc với Phông Chữ trong Aspose.Words cho .NET](./net/font-styling/)
+Explore **font‑related features** such as styles, line spacing, and emphasis marks.
 
-Học cách tạo và thao tác đầu trang và chân trang, bao gồm việc thêm hình ảnh, số trang và văn bản.
+{{< tutorial-card link="./net/font-styling/font-formatting/" title="Tạo định dạng phông chữ trong Word " imgSrc="./net/font-styling/font-formatting/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="Create Word Document with Header and Footer" imgSrc="./net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/get-font-line-spacing/" title="Lấy khoảng cách dòng phông chữ trong tài liệu Word" imgSrc="./net/font-styling/get-font-line-spacing/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="Insert an Image into Word Document Header" imgSrc="./net/header-footer-formatting/insert-image/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-### [Làm việc với các phần trong Aspose.Words cho .NET](./net/document-sections/)
-
-Hiểu cách cấu trúc tài liệu thành các phần, cho phép sử dụng các đầu trang, chân trang và kiểu định dạng khác nhau.
-
-{{< tutorial-card link="./net/document-sections/add-section/" title="Add a New Section to Word Document" imgSrc="./net/document-sections/add-section/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/document-sections/append-section-content/" title="Append and Prepend Content in Word Documents" imgSrc="./net/document-sections/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Đặt dấu nhấn mạnh trong tài liệu Word " imgSrc="./net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Làm việc với hình dạng trong Aspose.Words cho .NET](./net/working-with-shapes/)
+### [Làm việc với Trường Biểu Mẫu trong Aspose.Words cho .NET](./net/working-with-form-fields/)
+Find out how to **insert and manage form fields** like text inputs, drop‑down lists, and checkboxes.
 
-Khám phá cách chèn và thao tác các hình dạng khác nhau, bao gồm các hình dạng nhóm và các bản vẽ được định sẵn, trong tài liệu Word.
-
-{{< tutorial-card link="./net/working-with-shapes/add-group-shape/" title="Create Group Shape in Word Document " imgSrc="./net/working-with-shapes/add-group-shape/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-shapes/insert-shape/" title="Insert Shapes in Word Documents " imgSrc="./net/working-with-shapes/insert-shape/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="Chèn trường biểu mẫu Combo Box trong tài liệu Word" imgSrc="./net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Làm việc với watermark trong Aspose.Words cho .NET](./net/working-with-watermark)
+### [Làm việc với Đầu Trang và Chân Trang trong Aspose.Words cho .NET](./net/header-footer-formatting/)
+Learn to **create and manipulate headers and footers**, including adding images, page numbers, and custom text.
 
-Học cách thêm watermark văn bản và hình ảnh vào tài liệu Word để mục đích thương hiệu hoặc bảo mật.
+{{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="Tạo tài liệu Word với đầu trang và chân trang" imgSrc="./net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-watermark/add-text-watermark/" title="Add Text Watermark in Word Document " imgSrc="./net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="Chèn hình ảnh vào đầu trang tài liệu Word" imgSrc="./net/header-footer-formatting/insert-image/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+### [Làm việc với Các Phần trong Aspose.Words cho .NET](./net/document-sections/)
+Understand how to **structure documents into sections**, enabling different headers, footers, and formatting styles.
+
+{{< tutorial-card link="./net/document-sections/add-section/" title="Thêm một phần mới vào tài liệu Word" imgSrc="./net/document-sections/add-section/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/document-sections/append-section-content/" title="Thêm vào cuối và đầu nội dung trong tài liệu Word" imgSrc="./net/document-sections/append-section-content/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+### [Làm việc với Hình Dạng trong Aspose.Words cho .NET](./net/working-with-shapes/)
+Discover how to **insert and manipulate shapes**, including grouped shapes and predefined drawings.
+
+{{< tutorial-card link="./net/working-with-shapes/add-group-shape/" title="Tạo hình dạng nhóm trong tài liệu Word " imgSrc="./net/working-with-shapes/add-group-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/working-with-shapes/insert-shape/" title="Chèn hình dạng trong tài liệu Word " imgSrc="./net/working-with-shapes/insert-shape/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+### [Làm việc với Watermark trong Aspose.Words cho .NET](./net/working-with-watermark)
+Learn to **add text and image watermarks** for branding or security purposes.
+
+{{< tutorial-card link="./net/working-with-watermark/add-text-watermark/" title="Thêm Watermark Văn Bản trong tài liệu Word " imgSrc="./net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-Đây là một số liên kết tới các tài nguyên hữu ích:
-- [Xử lý tài liệu bằng AI](./net/ai-powered-document-processing/)
-- [Áp dụng giấy phép](./net/apply-license/)
-- [Bật tính năng OpenType](./net/enable-opentype-features/)
-- [Làm việc với bình luận](./net/working-with-comments/)
-- [Làm việc với trường](./net/working-with-fields/)
-- [Làm việc với chú thích và chú giải cuối](./net/working-with-footnote-and-endnote/)
-- [Làm việc với FormFields](./net/working-with-formfields/)
-- [Làm việc với đầu trang và chân trang](./net/working-with-headers-and-footers/)
-- [Làm việc với gạch nối](./net/working-with-hyphenation/)
-- [Làm việc với danh sách](./net/working-with-list/)
-- [Làm việc với Markdown](./net/working-with-markdown/)
-- [Làm việc với Node](./net/working-with-node/)
-- [Làm việc với phiên bản](./net/working-with-revisions/)
-- [Làm việc với hộp văn bản](./net/working-with-textboxes/)
-- [Chia tách tài liệu](./net/split-document/)
-- [Thêm nội dung bằng Documentbuilder](./net/add-content-using-documentbuilder/)
-- [Sao chép và kết hợp tài liệu](./net/clone-and-combine-documents/)
-- [So sánh tài liệu](./net/compare-documents/)
-- [Định dạng tài liệu](./net/document-formatting/)
-- [Lập trình với Watermark](./net/programming-with-watermark/)
-- [Lập trình với Markdownsaveoptions](./net/programming-with-markdownsaveoptions/)
-- [Chuyển đổi cơ bản](./net/basic-conversions/)
+These are links to some useful resources:
+- [Xử Lý Tài Liệu AI](./net/ai-powered-document-processing/)
+- [Áp Dụng Giấy Phép](./net/apply-license/)   
+- [Bật tính năng OpenType](./net/enable-opentype-features/)   
+- [Làm việc với Bình luận](./net/working-with-comments/)   
+- [Làm việc với Trường](./net/working-with-fields/)   
+- [Làm việc với Chân Trang và Ghi Chú Cuối](./net/working-with-footnote-and-endnote/)   
+- [Làm việc với Trường Biểu Mẫu](./net/working-with-formfields/)   
+- [Làm việc với Đầu Trang và Chân Trang](./net/working-with-headers-and-footers/)   
+- [Làm việc với Gạch Nối](./net/working-with-hyphenation/)   
+- [Làm việc với Danh sách](./net/working-with-list/)   
+- [Làm việc với Markdown](./net/working-with-markdown/)   
+- [Làm việc với Node](./net/working-with-node/)   
+- [Làm việc với Phiên bản](./net/working-with-revisions/)   
+- [Làm việc với Hộp Văn Bản](./net/working-with-textboxes/)   
+- [Chia Tách Tài Liệu](./net/split-document/)   
+- [Thêm Nội Dung bằng Documentbuilder](./net/add-content-using-documentbuilder/)   
+- [Sao chép và Kết hợp Tài Liệu](./net/clone-and-combine-documents/) 
+- [So sánh Tài Liệu](./net/compare-documents/) 
+- [Định dạng Tài Liệu](./net/document-formatting/)      
+- [Lập trình với Watermark](./net/programming-with-watermark/)    
+- [Lập trình với Markdownsaveoptions](./net/programming-with-markdownsaveoptions/)   
+- [Chuyển đổi Cơ bản](./net/basic-conversions/)   
 
-## Hướng dẫn xử lý tài liệu Aspose.Words cho Java
+## Hướng Dẫn Xử Lý Tài Liệu Aspose.Words cho Java
 
 {{% alert color="primary" %}}
-Bộ sưu tập hướng dẫn toàn diện này cung cấp hướng dẫn từng bước về cách làm việc hiệu quả với tài liệu Microsoft Word một cách lập trình. Từ việc tạo và thao tác tài liệu đến các tính năng nâng cao như mail merge, định dạng bảng và mã hoá tài liệu, các tutorial này bao phủ một loạt các chức năng. Bằng cách theo dõi các tutorial này, các nhà phát triển có thể tích hợp liền mạch Aspose.Words vào dự án Java của mình, cho phép xử lý tài liệu hiệu quả và nâng cao ứng dụng với khả năng quản lý tài liệu cấp chuyên nghiệp. 
+Bộ sưu tập toàn diện các hướng dẫn này cung cấp hướng dẫn từng bước về cách làm việc hiệu quả với tài liệu Microsoft Word một cách lập trình. Từ việc tạo và thao tác tài liệu đến các tính năng nâng cao như mail merge, định dạng bảng và mã hoá tài liệu, các hướng dẫn này bao phủ một loạt các chức năng. Bằng cách theo dõi các hướng dẫn này, các nhà phát triển có thể tích hợp liền mạch Aspose.Words vào dự án Java của mình, cho phép xử lý tài liệu hiệu quả và nâng cao ứng dụng với khả năng quản lý tài liệu chuyên nghiệp.
 {{% /alert %}}
 
-Đây là một số liên kết tới các tài nguyên hữu ích:
-- [Xử lý Word](./java/word-processing/)  
-- [Xử lý bảng](./java/table-processing/)
-- [Định dạng tài liệu](./java/document-styling/)
-- [Kết hợp tài liệu](./java/document-merging/)
-- [Chuyển đổi tài liệu](./java/document-converting/)
-- [In tài liệu](./java/document-printing/)
-- [Kết xuất tài liệu](./java/document-rendering/)
-- [Bảo mật tài liệu](./java/document-security/)
-- [Chia tách tài liệu](./java/document-splitting/)
-- [Sửa đổi tài liệu](./java/document-revision/)
-- [Tải và lưu tài liệu](./java/document-loading-and-saving/)
-- [Thao tác tài liệu](./java/document-manipulation/)
-- [Chuyển đổi và xuất tài liệu](./java/document-conversion-and-export/)
-- [Cấp phép và cấu hình](./java/licensing-and-configuration/)
-- [Sử dụng các yếu tố tài liệu](./java/using-document-elements/)
-- [In tài liệu](./java/printing-documents/)
-- [Kết xuất tài liệu](./java/rendering-documents/)
-- [Bắt đầu](./java/getting-started/)
-- [Thao tác tài liệu](./java/document-operations/)
-- [Quản lý nội dung](./java/content-management/)
-- [Đầu trang, chân trang & Cài đặt trang](./java/headers-footers-page-setup/)
-- [Chú thích & Bình luận](./java/annotations-comments/)
-- [Xử lý văn bản nâng cao](./java/advanced-text-processing/)
-- [So sánh & Theo dõi tài liệu](./java/document-comparison-tracking/)
-- [Tối ưu hoá hiệu năng](./java/performance-optimization/)
-- [Tích hợp & Tương thích](./java/integration-interoperability/)
-- [Bảo mật & Bảo vệ](./java/security-protection/)
-- [Định dạng & Kiểu](./java/formatting-styles/)
-- [Bảng & Danh sách](./java/tables-lists/)
-- [Hình ảnh & Hình dạng](./java/images-shapes/)
-- [Mail Merge & Báo cáo](./java/mail-merge-reporting/)
-- [Tích hợp AI & Machine Learning](./java/ai-machine-learning-integration/)
+- [Xử Lý Word](./java/word-processing/)  
+- [Xử Lý Bảng](./java/table-processing/)
+- [Định Dạng Tài Liệu](./java/document-styling/)
+- [Kết Hợp Tài Liệu](./java/document-merging/)
+- [Chuyển Đổi Tài Liệu](./java/document-converting/)
+- [In Tài Liệu](./java/document-printing/)
+- [Kết Xuất Tài Liệu](./java/document-rendering/)
+- [Bảo Mật Tài Liệu](./java/document-security/)
+- [Chia Tách Tài Liệu](./java/document-splitting/)
+- [Phiên Bản Tài Liệu](./java/document-revision/)
+- [Tải và Lưu Tài Liệu](./java/document-loading-and-saving/)
+- [Thao Tác Tài Liệu](./java/document-manipulation/)
+- [Chuyển Đổi và Xuất Tài Liệu](./java/document-conversion-and-export/)
+- [Giấy Phép và Cấu Hình](./java/licensing-and-configuration/)
+- [Sử Dụng Các Thành Phần Tài Liệu](./java/using-document-elements/)
+- [In Tài Liệu](./java/printing-documents/)
+- [Kết Xuất Tài Liệu](./java/rendering-documents/)
+- [Bắt Đầu](./java/getting-started/)
+- [Các Thao Tác Tài Liệu](./java/document-operations/)
+- [Quản Lý Nội Dung](./java/content-management/)
+- [Đầu Trang, Chân Trang & Cài Đặt Trang](./java/headers-footers-page-setup/)
+- [Chú Thích & Bình Luận](./java/annotations-comments/)
+- [Xử Lý Văn Bản Nâng Cao](./java/advanced-text-processing/)
+- [So Sánh & Theo Dõi Tài Liệu](./java/document-comparison-tracking/)
+- [Tối Ưu Hóa Hiệu Suất](./java/performance-optimization/)
+- [Tích Hợp & Tương Thích](./java/integration-interoperability/)
+- [Bảo Mật & Bảo Vệ](./java/security-protection/)
+- [Định Dạng & Kiểu](./java/formatting-styles/)
+- [Bảng & Danh Sách](./java/tables-lists/)
+- [Hình Ảnh & Hình Dạng](./java/images-shapes/)
+- [Mail Merge & Báo Cáo](./java/mail-merge-reporting/)
+- [Tích Hợp AI & Học Máy](./java/ai-machine-learning-integration/)
 
-## Hướng dẫn quản lý tài liệu Aspose.Words cho Python
+## Hướng Dẫn Quản Lý Tài Liệu Aspose.Words cho Python
 
 {{% alert color="primary" %}}
-Những tutorial này cung cấp hướng dẫn từng bước về cách làm việc với tài liệu Microsoft Word một cách lập trình, bao gồm tạo tài liệu, thao tác và các tính năng bảo mật khác nhau như mã hoá và bảo vệ bằng mật khẩu. Với sự hỗ trợ của tài nguyên này, các nhà phát triển có thể triển khai hiệu quả các chức năng xử lý tài liệu trong ứng dụng Python của mình bằng Aspose.Words, nâng cao năng suất và đảm bảo an toàn cho tài liệu. 
+Các hướng dẫn này cung cấp hướng dẫn từng bước về cách làm việc với tài liệu Microsoft Word một cách lập trình, bao gồm tạo tài liệu, thao tác và các tính năng bảo mật như mã hoá và bảo vệ bằng mật khẩu. Với sự hỗ trợ của tài nguyên này, các nhà phát triển có thể triển khai hiệu quả các chức năng xử lý tài liệu trong ứng dụng Python của mình bằng Aspose.Words, nâng cao năng suất và đảm bảo an toàn cho tài liệu.
 {{% /alert %}}
 
-Đây là một số liên kết tới các tài nguyên hữu ích:
-- [Tạo tài liệu](./python-net/document-creation/)  
-- [Tự động Word](./python-net/word-automation/)
-- [Trí tuệ tài liệu](./python-net/document-intelligence/)
-- [Chuyển đổi tài liệu](./python-net/document-conversion/)
-- [Bảo vệ tài liệu](./python-net/document-protection/)
-- [Bắt đầu](./python-net/getting-started/)
-- [Thao tác tài liệu](./python-net/document-operations/)
-- [Quản lý nội dung](./python-net/content-management/)
-- [Định dạng & Kiểu](./python-net/formatting-styles/)
-- [Bảng & Danh sách](./python-net/tables-lists/)
-- [Hình ảnh & Hình dạng](./python-net/images-shapes/)
-- [Mail Merge & Báo cáo](./python-net/mail-merge-reporting/)
-- [Đầu trang, chân trang & Cài đặt trang](./python-net/headers-footers-page-setup/)
-- [Thuộc tính & Siêu dữ liệu tài liệu](./python-net/document-properties-metadata/)
-- [Bảo mật & Bảo vệ](./python-net/security-protection/)
-- [Chú thích & Bình luận](./python-net/annotations-comments/)
-- [So sánh & Theo dõi tài liệu](./python-net/document-comparison-tracking/)
-- [Chia tách và định dạng tài liệu](./python-net/document-splitting-and-formatting/)
-- [Kết hợp và so sánh tài liệu](./python-net/document-combining-and-comparison/)
-- [Hiệu năng & Tối ưu hoá](./python-net/performance-optimization/)
-- [Tích hợp & Tương thích](./python-net/integration-interoperability/)
-- [Biến đổi nội dung AI](./python-net/ai-content-transformation/)
-- [Cấu trúc và thao tác nội dung tài liệu](./python-net/document-structure-and-content-manipulation/)
-- [Trích xuất và thao tác nội dung](./python-net/content-extraction-and-manipulation/)
-- [Bảng và định dạng](./python-net/tables-and-formatting/)
-- [Tùy chọn và cài đặt tài liệu](./python-net/document-options-and-settings/)
+- [Tạo Tài Liệu](./python-net/document-creation/)  
+- [Tự Động Word](./python-net/word-automation/)  
+- [Trí Tuệ Tài Liệu](./python-net/document-intelligence/)  
+- [Chuyển Đổi Tài Liệu](./python-net/document-conversion/)  
+- [Bảo Vệ Tài Liệu](./python-net/document-protection/)  
+- [Bắt Đầu](./python-net/getting-started/)  
+- [Các Thao Tác Tài Liệu](./python-net/document-operations/)  
+- [Quản Lý Nội Dung](./python-net/content-management/)  
+- [Định Dạng & Kiểu](./python-net/formatting-styles/)  
+- [Bảng & Danh Sách](./python-net/tables-lists/)  
+- [Hình Ảnh & Hình Dạng](./python-net/images-shapes/)  
+- [Mail Merge & Báo Cáo](./python-net/mail-merge-reporting/)  
+- [Đầu Trang, Chân Trang & Cài Đặt Trang](./python-net/headers-footers-page-setup/)  
+- [Thuộc Tính & Siêu Dữ Liệu Tài Liệu](./python-net/document-properties-metadata/)  
+- [Bảo Mật & Bảo Vệ](./python-net/security-protection/)  
+- [Chú Thích & Bình Luận](./python-net/annotations-comments/)  
+- [So Sánh & Theo Dõi Tài Liệu](./python-net/document-comparison-tracking/)  
+- [Chia Tách và Định Dạng Tài Liệu](./python-net/document-splitting-and-formatting/)  
+- [Kết Hợp và So Sánh Tài Liệu](./python-net/document-combining-and-comparison/)  
+- [Hiệu Suất & Tối Ưu](./python-net/performance-optimization/)  
+- [Tích Hợp & Tương Thích](./python-net/integration-interoperability/)  
+- [Biến Đổi Nội Dung AI](./python-net/ai-content-transformation/)  
+- [Cấu Trúc và Thao Tác Nội Dung Tài Liệu](./python-net/document-structure-and-content-manipulation/)  
+- [Trích Xuất và Thao Tác Nội Dung](./python-net/content-extraction-and-manipulation/)  
+- [Bảng và Định Dạng](./python-net/tables-and-formatting/)  
+- [Tùy Chọn và Cài Đặt Tài Liệu](./python-net/document-options-and-settings/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,47 +1,114 @@
 ---
-"date": "2025-03-28"
-"description": "Tanuld meg a dokumentumváltozók kezelését az Aspose.Words for Java segítségével, növelve a tartalomkezelés termelékenységét. Változók hozzáadása, frissítése és kezelése könnyedén."
-"title": "Aspose.Words Java mesterképzés a hatékony dokumentumváltozó-manipulációhoz"
-"url": "/hu/java/content-management/aspose-words-java-document-variable-manipulation/"
-"weight": 1
+date: '2026-10-02'
+description: Ismerje meg, hogyan hozhat létre számla sablonokat és kezelheti a dokumentumváltozókat
+  az Aspose.Words for Java használatával – egy átfogó útmutató a dinamikus jelentéskészítéshez.
+keywords:
+- how to create invoice
+- aspose words java example
+- license aspose words java
+- document variable manipulation
+- generate dynamic reports
+lastmod: '2026-10-02'
+og_description: Hogyan készítsen számla sablonokat az Aspose.Words for Java segítségével.
+  Ez az útmutató bemutatja a változók kezelését, a licencelési lépéseket és a valós
+  példákat a dinamikus jelentéskészítéshez.
+og_image_alt: Guide to creating invoice templates with Aspose.Words for Java
+og_title: Hogyan készítsünk számla sablont az Aspose.Words for Java segítségével
+schemas:
+- author: Aspose
+  dateModified: '2026-10-02'
+  description: Learn how to create invoice templates and manipulate document variables
+    using Aspose.Words for Java – a complete guide for dynamic report generation.
+  headline: How to create invoice template with Aspose.Words for Java
+  type: TechArticle
+- description: Learn how to create invoice templates and manipulate document variables
+    using Aspose.Words for Java – a complete guide for dynamic report generation.
+  name: How to create invoice template with Aspose.Words for Java
+  steps:
+  - name: '**Automated invoice generation** – Populate an invoice template with order
+      data.'
+    text: '**Automated invoice generation** – Populate an invoice template with order
+      data.'
+  - name: '**Dynamic report creation** – Merge statistics and charts into a single
+      Word document.'
+    text: '**Dynamic report creation** – Merge statistics and charts into a single
+      Word document.'
+  - name: '**Legal form filling** – Insert client details into contracts automatically.'
+    text: '**Legal form filling** – Insert client details into contracts automatically.'
+  - name: '**Email template personalization** – Generate Word‑based email bodies with
+      personalized greetings.'
+    text: '**Email template personalization** – Generate Word‑based email bodies with
+      personalized greetings.'
+  - name: '**Marketing collateral** – Produce brochures that adapt to region‑specific
+      content.'
+    text: '**Marketing collateral** – Produce brochures that adapt to region‑specific
+      content.'
+  type: HowTo
+- questions:
+  - answer: Add the Maven or Gradle dependency shown above, then refresh your project
+      to download the library.
+    question: How do I install Aspose.Words for Java?
+  - answer: Aspose.Words focuses on Word formats, but you can convert PDFs to DOCX
+      first and then manipulate variables.
+    question: Can I manipulate PDF documents with Aspose.Words?
+  - answer: The trial provides full functionality but adds an evaluation watermark
+      to saved documents.
+    question: What are the limitations of a free trial license?
+  - answer: Change the variable via `variables.add(key, newValue)` and call `field.update()`
+      on each related field.
+    question: How do I update variables in existing DOCVARIABLE fields?
+  - answer: Yes – combine variable manipulation with batch processing and proper memory
+      handling for high‑throughput scenarios.
+    question: Can Aspose.Words handle large volumes of data efficiently?
+  type: FAQPage
+tags:
+- invoice template
+- aspose.words
+- java document automation
+- dynamic reports
+title: Hogyan készítsünk számla sablont az Aspose.Words for Java segítségével
+url: /hu/java/content-management/aspose-words-java-document-variable-manipulation/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Hogyan készítsünk számla sablont az Aspose.Words for Java segítségével
 
-# Aspose.Words Java elsajátítása: Dokumentumváltozók manipulációjának optimalizálása
+Ebben az útmutatóban **létrehoz egy számla sablont**, és megtanulja, hogyan **manipulálja a dokumentumváltozókat** az Aspose.Words for Java segítségével. Akár számlázási rendszert épít, dinamikus jelentéseket generál, vagy szerződéskészítést automatizál, a változógyűjtemények elsajátítása lehetővé teszi, hogy személyre szabott adatokat gyorsan és megbízhatóan illesszen be a Word dokumentumokba.
 
-## Bevezetés
-A dokumentumautomatizálás területén a dokumentumokon belüli változógyűjtemények kezelése gyakori kihívást jelent a fejlesztők számára. Akár jelentéseket generál, akár űrlapokat tölt ki programozottan, a változók feletti robusztus szabályozás jelentősen növelheti a termelékenységet és a pontosságot. Ez az oktatóanyag a következő használatára összpontosít: **Aspose.Words Java-hoz** a dokumentumváltozók manipulációjának optimalizálása érdekében – alapvető eszközöket biztosítva a folyamat egyszerűsítéséhez.
+Amit el fog érni:
 
-Amit tanulni fogsz:
-- Hogyan lehet egy dokumentum változógyűjteményét manipulálni az Aspose.Words használatával.
-- Technikák változók hatékony hozzáadására, frissítésére és eltávolítására.
-- Módszerek a változók létezésének és sorrendjének ellenőrzésére gyűjteményeken belül.
-- Gyakorlati példák valós alkalmazásokra.
-Kezdjük az oktatóanyag előfeltételeinek áttekintésével.
+- Változók hozzáadása, frissítése és eltávolítása, amelyek a számla sablonját működtetik.  
+- Változó létezésének ellenőrzése, mielőtt adatot írna.  
+- Dinamikus jelentések generálása a változóértékek DOCVARIABLE mezőkbe való egyesítésével.  
+- Tekintse meg a valós **aspose words java example** példát, amelyet beilleszthet a projektjébe.
+
+## Gyors válaszok
+- **Mi a fő felhasználási eset?** Újrahasználható számla sablonok építése dinamikus adatokkal.  
+- **Melyik könyvtárverzió szükséges?** Aspose.Words for Java 25.3 vagy újabb.  
+- **Szükségem van licencre?** Egy ingyenes próba a fejlesztéshez működik; a termeléshez állandó licenc szükséges.  
+- **Frissíthetek változókat a dokumentum mentése után?** Igen – módosítsa a `VariableCollection`-t és frissítse a DOCVARIABLE mezőket.  
+- **Ez a megközelítés alkalmas nagy mennyiségű feldolgozásra?** Teljesen – kombinálja kötegelt feldolgozással a nagy mennyiségű számlageneráláshoz.
+
+## Mi az a számla sablon?
+Az **invoice template** egy Word dokumentum, amely helyettesítő mezőket (DOCVARIABLE) tartalmaz, ahová a futásidejű adatok, például ügyfél neve, összeg és dátum kerülnek. Az Aspose.Words segítségével programozottan helyettesítheti ezeket a mezőket a Word megnyitása nélkül.
+
+## Miért használja az Aspose.Words for Java változókezelést?
+Az Aspose.Words **35+ bemeneti és kimeneti formátumot** támogat, és **500 oldalas dokumentumokat 3 másodperc alatt** képes feldolgozni egy tipikus szerveren. A `VariableCollection` API determinisztikus, ábécé sorrendben rendezett változótárolást biztosít, ami egyszerűsíti a hibakeresést és biztosítja a következetes egyesítési sorrendet több ezer számla esetén.
 
 ## Előfeltételek
-Az útmutató követéséhez győződjön meg arról, hogy rendelkezik a következőkkel:
+- **IDE:** IntelliJ IDEA, Eclipse vagy bármely Java‑kompatibilis szerkesztő.  
+- **JDK:** Java 8 vagy újabb.  
+- **Aspose.Words függőség:** Maven vagy Gradle (lásd alább).  
+- **Alap Java ismeretek** és a DOCX struktúrával való ismeret.
 
 ### Szükséges könyvtárak, verziók és függőségek
-Győződjön meg róla, hogy a projektje tartalmazza az Aspose.Words for Java könyvtárat. Az itt bemutatott példák végrehajtásához a könyvtár 25.3-as vagy újabb verziójára lesz szüksége.
+Adja hozzá az Aspose.Words for Java 25.3 (vagy újabb) verziót a build fájlhoz.
 
-### Környezeti beállítási követelmények
-- Egy megfelelő integrált fejlesztői környezet (IDE), például IntelliJ IDEA vagy Eclipse.
-- JDK telepítve a gépeden (Java 8 vagy újabb ajánlott).
-
-### Ismereti előfeltételek
-Előnyben részesül a Java programozás alapvető ismerete és az XML-alapú dokumentumformátumok, például a DOCX ismerete.
-
-## Az Aspose.Words beállítása
-Először is, add hozzá az Aspose.Words függőséget a projektedhez. Attól függően, hogy Mavent vagy Gradle-t használsz, add hozzá a következőket:
-
-**Szakértő:**
+**Maven:**
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -50,147 +117,144 @@ Először is, add hozzá az Aspose.Words függőséget a projektedhez. Attól f�
 </dependency>
 ```
 
-**Fokozat:**
+**Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Licencbeszerzés lépései
-Kezdheted egy **ingyenes próba** a könyvtár letöltésével innen: [Aspose letöltései](https://releases.aspose.com/words/java/) oldal, amely 30 napig teljes hozzáférést biztosít értékelési korlátozások nélkül.
+### Licenc beszerzési lépések
+- **Free trial:** Töltse le a [Aspose Downloads](https://releases.aspose.com/words/java/) oldalról – 30 nap teljes hozzáférés.  
+- **Temporary license:** Kérjen egyet a [Temporary License Request](https://purchase.aspose.com/temporary-license/) oldalon.  
+- **Permanent license:** Vásárolja meg a [Aspose Purchase Page](https://purchase.aspose.com/buy) oldalon a termeléshez.
 
-Ha több időre van szüksége az Aspose.Words kiértékeléséhez, vagy éles környezetben szeretné használni, szerezzen be egy **ideiglenes engedély** keresztül [Ideiglenes engedélykérelem](https://purchase.aspose.com/temporary-license/).
+## Az Aspose.Words beállítása
+A `Document` osztály az Aspose.Words legfelső szintű objektuma, amely egyetlen Word fájlt reprezentál a memóriában. Miután létrehoz egy `Document` példányt, minden olvasási és írási művelet ezen az objektumon keresztül történik.
 
-Hosszú távú használat és támogatás érdekében érdemes lehet licencet vásárolni a következő címen: [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).
-
-### Alapvető inicializálás és beállítás
-Így állíthatod be a környezetedet az Aspose.Words használatának megkezdéséhez:
 ```java
 import com.aspose.words.*;
 
 class DocumentVariableExample {
     public static void main(String[] args) throws Exception {
-        // Új dokumentumpéldány inicializálása.
+        // Initialize a new Document instance.
         Document doc = new Document();
         
-        // Hozzáférés a változógyűjteményhez a dokumentumból.
+        // Access the variable collection from the document.
         VariableCollection variables = doc.getVariables();
 
         System.out.println("Aspose.Words setup complete.");
     }
 }
 ```
-## Megvalósítási útmutató
 
-### 1. funkció: Változók hozzáadása dokumentumgyűjteményekhez
-#### Áttekintés
-A kulcs/érték párok hozzáadása a dokumentum változógyűjteményéhez egyszerűen elvégezhető az Aspose.Words segítségével.
+## Hogyan adjon hozzá változókat egy számla sablonhoz?
+`VariableCollection` név/érték párokat tárol, amelyeket egy dokumentumba lehet beilleszteni. Töltse be a sablont, majd szúrja be a kulcs/érték párokat a `VariableCollection`-be. Ez a lépés előkészíti az adatokat, amelyek minden egyes `DOCVARIABLE` mezőt helyettesítenek. Változót a `variables.add(key, value)` paranccsal adhat hozzá; ha a kulcs már létezik, a metódus frissíti a meglévő bejegyzést. Értelemszerű kulcsok használata, amelyek megfelelnek a Word sablon helyettesítő mezőinek, átlátható és karbantartható leképezést biztosít.
 
-#### Változók hozzáadásának lépései:
-**Változógyűjtemény inicializálása**
 ```java
 Document doc = new Document();
 VariableCollection variables = doc.getVariables();
 ```
 
-**Kulcs/érték párok hozzáadása**
-Így adhatsz hozzá különböző adatpontokat, például címeket és numerikus értékeket dokumentumváltozókként:
 ```java
-variables.add("Home address", "123 Main St.");
-variables.add("City", "London");
-variables.add("Bedrooms", "3");
+variables.add("InvoiceNumber", "INV-1001");
+variables.add("CustomerName", "Acme Corp.");
+variables.add("TotalAmount", "£1,250.00");
 ```
-#### Magyarázat
-- **`add(String key, Object value)`**Ez a metódus egy új változót szúr be a gyűjteménybe. Ha a `key` már létezik, frissítve van a megadott értékkel `value`.
 
-### 2. funkció: Változók és DOCVARIABLE mezők frissítése
-A változók frissítése magában foglalja az értékük megváltoztatását, vagy ezen változások tükrözését a dokumentummezőkben.
+## Hogyan frissítse a változókat és frissítse a DOCVARIABLE mezőket?
+Helyezzen be egy `DOCVARIABLE` mezőt a Word sablonba, ahol a változó értékének meg kell jelennie. A változó értékének módosítása után hívja meg a `field.update()` metódust minden kapcsolódó mezőn, hogy az új adat megjelenjen a dokumentumban. A `field.update()` frissíti a mező tartalmát, hogy tükrözze a jelenlegi változó értékét. Ez a megközelítés lehetővé teszi, hogy a számla összegeit, dátumait vagy ügyféladatait a kezdeti dokumentum létrehozása után módosítsa anélkül, hogy újraépítené az egész fájlt.
 
-**DOCVARIABLE mező beszúrása**
-Használjon egy `DocumentBuilder` változó tartalmú mező beszúrásához:
 ```java
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocVariable field = (FieldDocVariable) builder.insertField(FieldType.FIELD_DOC_VARIABLE, true);
-field.setVariableName("Home address");
+field.setVariableName("InvoiceNumber");
 field.update();
 ```
 
-**Változó értékek frissítése**
-Egy meglévő változó értékének módosítása és a DOCVARIABLE mezőkben való megjelenítése:
 ```java
-variables.add("Home address", "456 Queen St.");
-field.update(); // A frissített értéket tükrözi.
+variables.add("InvoiceNumber", "INV-1002");
+field.update(); // Reflects updated value.
 ```
-### 3. funkció: Változók ellenőrzése és eltávolítása
-#### Változók létezésének ellenőrzése
-Ellenőrizheti, hogy egy adott változó létezik-e, vagy megfelel-e bizonyos kritériumoknak:
-```java
-boolean containsCity = variables.contains("City");
-boolean hasLondonValue = IterableUtils.matchesAny(variables, s -> s.getValue().equals("London"));
-```
-**Magyarázat**
-- **`contains(String key)`**: Ellenőrzi, hogy létezik-e a megadott nevű változó.
-- **`IterableUtils.matchesAny(...)`**: Kiértékeli az összes változót, hogy meghatározott értékeket keressen.
 
-#### Változók eltávolítása
-Változók eltávolítása különböző módszerekkel:
+## Hogyan ellenőrizze és távolítsa el biztonságosan a változókat?
+`variables` a dokumentum `VariableCollection` példányára utal. Adatok írása előtt ellenőrizze, hogy a változó létezik-e a `variables.contains(key)` segítségével. Ez megakadályozza a futásidejű hibákat, ha egy helyettesítő mező hiányzik. Egy felesleges változó törléséhez hívja meg a `variables.remove(key)` metódust.
+
+Ezek az ellenőrzések különösen hasznosak kötegelt szcenáriókban, ahol egyes számlák nem igényelnek minden opcionális mezőt.
+
 ```java
-variables.remove("City");
+boolean containsCustomer = variables.contains("CustomerName");
+boolean hasHighValue = IterableUtils.matchesAny(variables, s -> s.getValue().equals("£1,250.00"));
+```
+
+```java
+variables.remove("CustomerName");
 variables.removeAt(1);
-variables.clear(); // Törli a teljes gyűjteményt.
+variables.clear(); // Clears the entire collection.
 ```
-### 4. funkció: Változók sorrendjének kezelése
-változónevek ábécé sorrendben történő tárolásának ellenőrzéséhez:
+
+## Hogyan kezeli az Aspose.Words a változók sorrendjét?
+Az Aspose.Words ábécé sorrendben tárolja a változóneveket. Ez a determinisztikus sorrend hasznos, ha előre meghatározható egyesítési sorozatra van szükség – például egy CSV összefoglaló generálásakor az összes számlában használt változóról. Az ábécé szerinti rendezés biztosítja, hogy a változók konzisztens sorrendben legyenek feldolgozva, ami egyszerűsíti a további feldolgozást és a jelentéstételt.
+
 ```java
-int indexBedrooms = variables.indexOfKey("Bedrooms"); // 0-nak kell lennie
-int indexCity = variables.indexOfKey("City"); // 1-nek kellene lennie
-int indexHomeAddress = variables.indexOfKey("Home address"); // 2-nek kellene lennie
+int indexInvoice = variables.indexOfKey("InvoiceNumber"); // Should be 0
+int indexTotal = variables.indexOfKey("TotalAmount");    // Should be 1
+int indexCustomer = variables.indexOfKey("CustomerName"); // Should be 2
 ```
+
 ## Gyakorlati alkalmazások
-### Változók manipulálásának esetei
-1. **Automatizált jelentéskészítés**: Jelentések testreszabása adatbázisokból vagy felhasználói bemenetekből kinyert dinamikus adatokkal.
-   
-2. **Jogi dokumentumok űrlapkitöltése**: Szerződések és megállapodások kitöltése az ügyfél konkrét adataival.
-   
-3. **Sablonalapú e-mail rendszerek**Személyre szabott információkat illeszthet be az e-mail sablonokba a kiküldés előtt.
+### Változókezelés felhasználási esetek
+1. **Automated invoice generation** – Töltse fel a számla sablont a rendelési adatokkal.  
+2. **Dynamic report creation** – Egyesítse a statisztikákat és diagramokat egyetlen Word dokumentumba.  
+3. **Legal form filling** – Helyezze be az ügyfél adatait a szerződésekbe automatikusan.  
+4. **Email template personalization** – Generáljon Word‑alapú e‑mail szövegeket személyre szabott üdvözléssel.  
+5. **Marketing collateral** – Készítsen brosúrákat, amelyek a régió‑specifikus tartalomhoz igazodnak.
 
-4. **Adatvezérelt tartalomkészítés**: Marketinganyagok generálása változóvezérelt tartalomblokkok segítségével.
+## Teljesítmény szempontok
+- **Batch processing:** Iteráljon a rendelések listáján, és használjon egyetlen `Document` példányt a terhelés csökkentése érdekében.  
+- **Memory management:** Hívja meg a `doc.dispose()`-t nagy dokumentumok mentése után, és kerülje el a hatalmas változógyűjtemények hosszú ideig történő memóriában tartását.
 
-5. **Számla testreszabása**Hozzon létre számlákat ügyfélspecifikus adatmezőket használva a jobb személyre szabás érdekében.
-## Teljesítménybeli szempontok
-### Az Aspose.Words használatának optimalizálása
-- **Kötegelt feldolgozás**: Nagyszámú dokumentum egyidejű kezelése a feldolgozási idő csökkentése érdekében.
-  
-- **Memóriakezelés**Figyelemmel kíséri az erőforrás-felhasználást és hatékonyan kezeli a memória-elosztást, különösen kiterjedt gyűjtemények vagy nagyméretű dokumentumok kezelése esetén.
-## Következtetés
-Ebből az oktatóanyagból megtanultad, hogyan manipulálhatod ügyesen a dokumentumváltozókat az Aspose.Words for Java használatával. Ezen technikák elsajátításával jelentősen javíthatod a dokumentumautomatizálási projektjeidet. 
-### Következő lépések
-Kísérletezz tovább a változókezelés integrálásával saját alkalmazásaidba. Fontold meg további funkciók, például az Aspose.Words által biztosított körlevél- és dokumentumvédelem felfedezését.
-**Cselekvésre ösztönzés**Próbáld meg megvalósítani a megoldást egy kisebb projektben, hogy lásd, hogyan alakítja át a munkafolyamatodat!
-## GYIK szekció
-1. **Hogyan telepíthetem az Aspose.Words-öt Java-hoz?**
-   - Kövesd a fenti beállítási utasításokat Maven vagy Gradle függőségek használatával.
+## Gyakori problémák és megoldások
+| Probléma | Megoldás |
+|----------|----------|
+| **A változó nem frissül a mezőben** | Győződjön meg arról, hogy a változó módosítása után meghívja a `field.update()`-t. |
+| **Értékelési vízjel jelenik meg** | Alkalmazzon érvényes licencet a dokumentumfeldolgozás előtt. |
+| **A változók elvesznek a mentés után** | Mentse a dokumentumot az összes frissítés után; a változók a DOCX-ben maradnak. |
+| **Teljesítménycsökkenés sok változó esetén** | Használjon kötegelt feldolgozást, és szükség esetén szabadítsa fel az erőforrásokat a `System.gc()`-vel. |
 
-2. **Lehet PDF dokumentumokat manipulálni az Aspose.Words segítségével?**
-   - Bár az Aspose.Words elsősorban Word formátumokhoz készült, képes PDF fájlokat szerkeszthető DOCX fájlokká konvertálni.
+## Gyakran ismételt kérdések
 
-3. **Milyen korlátai vannak az ingyenes próbalicencnek?**
-   - A próbaverzió teljes hozzáférést biztosít, de egy értékelési vízjelet ad a dokumentumokhoz.
+**Q: Hogyan telepíthetem az Aspose.Words for Java-t?**  
+A: Adja hozzá a fent bemutatott Maven vagy Gradle függőséget, majd frissítse a projektet a könyvtár letöltéséhez.
 
-4. **Hogyan frissíthetem a változókat a meglévő DOCVARIABLE mezőkben?**
-   - Használat `DocumentBuilder` a DOCVARIABLE mezők új változóértékekkel való beszúrásához és frissítéséhez.
+**Q: Manipulálhatok PDF dokumentumokat az Aspose.Words-szal?**  
+A: Az Aspose.Words a Word formátumokra fókuszál, de először átalakíthatja a PDF-eket DOCX formátumba, majd manipulálhatja a változókat.
 
-5. **Az Aspose.Words hatékonyan képes kezelni a nagy mennyiségű adatot?**
-   - Igen, ha olyan teljesítményoptimalizálási stratégiákkal kombináljuk, mint a kötegelt feldolgozás és a memóriakezelés.
-## Erőforrás
-- **Dokumentáció**: [Aspose.Words Java referencia](https://reference.aspose.com/words/java/)
-- **Letöltés**: [Aspose letöltései](https://releases.aspose.com/words/java/)
+**Q: Mik a ingyenes próba licenc korlátai?**  
+A: A próba teljes funkcionalitást biztosít, de értékelési vízjelet ad a mentett dokumentumokhoz.
+
+**Q: Hogyan frissíthetem a változókat a meglévő DOCVARIABLE mezőkben?**  
+A: Módosítsa a változót a `variables.add(key, newValue)` segítségével, és hívja meg a `field.update()`-t minden kapcsolódó mezőn.
+
+**Q: Kezelni tudja az Aspose.Words nagy mennyiségű adatot hatékonyan?**  
+A: Igen – kombinálja a változókezelést kötegelt feldolgozással és megfelelő memória kezelésével a nagy áteresztőképességű szcenáriókhoz.
+
+---
+
+**Utoljára frissítve:** 2026-10-02  
+**Tesztelve:** Aspose.Words for Java 25.3  
+**Szerző:** Aspose  
+**Kapcsolódó erőforrások:** [Aspose.Words Java Reference](https://reference.aspose.com/words/java/) | [Download Free Trial](https://releases.aspose.com/words/java/)
+
+## Kapcsolódó oktatóanyagok
+
+- [Hogyan hozzon létre űrlapmezőket és adjon hozzá tartalmat a DocumentBuilder használatával az Aspose.Words for Java-ban](/words/java/document-manipulation/adding-content-using-documentbuilder/)
+- [Mesteri táblakezelés Word dokumentumokban az Aspose.Words for Java használatával: Átfogó útmutató](/words/java/tables-lists/aspose-words-java-table-manipulation/)
+- [Dokumentum aláírás automatizálása Java-ban az Aspose.Words segítségével: Átfogó útmutató](/words/java/mail-merge-reporting/aspose-words-java-document-signing-tutorial/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

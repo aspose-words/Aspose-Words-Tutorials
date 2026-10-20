@@ -1,10 +1,12 @@
 ---
-"description": "Leer hoe je eenvoudig inhoud uit documenten kunt halen met Aspose.Words voor Java. Onze stapsgewijze handleiding en codevoorbeelden vereenvoudigen het proces."
-"linktitle": "Inhoud uit documenten extraheren"
-"second_title": "Aspose.Words Java Documentverwerking API"
-"title": "Inhoud uit documenten extraheren in Aspose.Words voor Java"
-"url": "/nl/java/document-manipulation/extracting-content-from-documents/"
-"weight": 13
+date: 2026-01-01
+description: Leer hoe u tekst kunt extraheren met Aspose.Words voor Java. Deze stapsgewijze
+  handleiding laat meerdere extractietechnieken zien met kant‑klaar code‑voorbeelden.
+linktitle: Extracting Content from Documents
+second_title: Aspose.Words Java Document Processing API
+title: Hoe tekst extraheren met Aspose.Words voor Java
+url: /nl/java/document-manipulation/extracting-content-from-documents/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,25 +15,28 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Inhoud uit documenten extraheren in Aspose.Words voor Java
+# Hoe tekst extraheren met Aspose.Words voor Java
 
+## Hoe tekst extraheren met Aspose.Words voor Java
 
-## Inleiding tot het extraheren van inhoud uit documenten in Aspose.Words voor Java
+In de wereld van documentverwerking is **how to extract text using Aspose.Words** een veelgestelde vraag voor Java‑ontwikkelaars. Of u nu platte tekst, tabellen, afbeeldingen of specifieke elementen zoals bladwijzers of opmerkingen wilt ophalen, Aspose.Words voor Java biedt een rijke API die het werk eenvoudig maakt. In deze gids lopen we door tientallen extractiescenario's, leggen we uit waarom elke aanpak belangrijk is, en bieden we kant‑klaar code‑voorbeelden die u in uw project kunt gebruiken.
 
-In de wereld van documentverwerking is het extraheren van inhoud uit documenten een veelvoorkomende vereiste. Of u nu tekst, tabellen, afbeeldingen of specifieke documentelementen wilt extraheren, Aspose.Words voor Java biedt krachtige tools om deze taak een fluitje van een cent te maken. In deze uitgebreide handleiding leiden we u door het proces van het extraheren van inhoud uit documenten met Aspose.Words voor Java. 
+## Quick Answers
+- **Welke bibliotheek heb ik nodig?** Aspose.Words voor Java (download van de officiële site).  
+- **Kan ik alleen platte tekst extraheren?** Ja – gebruik `Document.getText()` of `DocumentBuilder` met velden.  
+- **Is het mogelijk om tussen bladwijzers te extraheren?** Absoluut, gebruik `BookmarkStart`/`BookmarkEnd` met `ExtractContentHelper`.  
+- **Heb ik een licentie nodig voor productie?** Een commerciële licentie is vereist voor niet‑trial gebruik.  
+- **Welke Java‑versies worden ondersteund?** Java 8 en nieuwer zijn volledig compatibel.
 
-## Vereisten
+## Prerequisites
 
-Voordat we aan het extractieproces beginnen, moet u ervoor zorgen dat u aan de volgende voorwaarden voldoet:
+1. **Aspose.Words voor Java** – installeer de bibliotheek en voeg deze toe aan uw project. U kunt deze downloaden van [hier](https://releases.aspose.com/words/java/).  
+2. **Een voorbeeldbestand** – voor de voorbeelden gebruiken we een bestand met de naam `Extract content.docx`. Plaats het in een map die u vanuit uw code kunt refereren.
 
-1. Aspose.Words voor Java: Aspose.Words voor Java moet geïnstalleerd en ingesteld zijn in uw Java-ontwikkelomgeving. U kunt het downloaden van [hier](https://releases.aspose.com/words/java/).
-
-2. Een document om inhoud uit te halen: voor deze handleiding gebruiken we een voorbeelddocument met de naam 'Inhoud uitpakken.docx'. Zorg ervoor dat u een soortgelijk document klaar hebt staan om te extraheren.
-
-## Inhoud extraheren tussen knooppunten op blokniveau
+## Extracting Content Between Block‑Level Nodes
 
 ```java
-// Java-codevoorbeeld voor het extraheren van inhoud tussen knooppunten op blokniveau
+// Java code sample for extracting content between block-level nodes
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph startPara = (Paragraph) doc.getLastSection().getChild(NodeType.PARAGRAPH, 2, true);
 Table endTable = (Table) doc.getLastSection().getChild(NodeType.TABLE, 0, true);
@@ -44,10 +49,10 @@ while (extractedNodes.size() > 0) {
 doc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenBlockLevelNodes.docx");
 ```
 
-## Inhoud tussen bladwijzers extraheren
+## Inhoud extraheren tussen bladwijzers
 
 ```java
-// Java-codevoorbeeld voor het extraheren van inhoud tussen bladwijzers
+// Java code sample for extracting content between bookmarks
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Bookmark bookmark = doc.getRange().getBookmarks().get("Bookmark1");
 BookmarkStart bookmarkStart = bookmark.getBookmarkStart();
@@ -63,7 +68,7 @@ dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenBookmar
 ## Inhoud extraheren tussen commentaarbereiken
 
 ```java
-// Java-codevoorbeeld voor het extraheren van inhoud tussen commentaarbereiken
+// Java code sample for extracting content between comment ranges
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 CommentRangeStart commentStart = (CommentRangeStart) doc.getChild(NodeType.COMMENT_RANGE_START, 0, true);
 CommentRangeEnd commentEnd = (CommentRangeEnd) doc.getChild(NodeType.COMMENT_RANGE_END, 0, true);
@@ -75,10 +80,10 @@ dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodesExclusive);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenCommentRange.WithoutComment.docx");
 ```
 
-## Inhoud tussen alinea's extraheren
+## Inhoud extraheren tussen alinea's
 
 ```java
-// Java-codevoorbeeld voor het extraheren van inhoud tussen alinea's
+// Java code sample for extracting content between paragraphs
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph startPara = (Paragraph) doc.getFirstSection().getBody().getChild(NodeType.PARAGRAPH, 6, true);
 Paragraph endPara = (Paragraph) doc.getFirstSection().getBody().getChild(NodeType.PARAGRAPH, 10, true);
@@ -87,10 +92,10 @@ Document dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodes);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenParagraphs.docx");
 ```
 
-## Inhoud extraheren tussen alineastijlen
+## Inhoud extraheren tussen alinea‑stijlen
 
 ```java
-// Java-codevoorbeeld voor het extraheren van inhoud tussen alinea-stijlen
+// Java code sample for extracting content between paragraph styles
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 ArrayList<Paragraph> parasStyleHeading1 = ExtractContentHelper.paragraphsByStyleName(doc, "Heading 1");
 ArrayList<Paragraph> parasStyleHeading3 = ExtractContentHelper.paragraphsByStyleName(doc, "Heading 3");
@@ -104,7 +109,7 @@ dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenParagra
 ## Inhoud extraheren tussen runs
 
 ```java
-// Java-codevoorbeeld voor het extraheren van inhoud tussen uitvoeringen
+// Java code sample for extracting content between runs
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 7, true);
 Run startRun = para.getRuns().get(1);
@@ -117,17 +122,17 @@ System.out.println(node.toString());
 ## Inhoud extraheren met DocumentVisitor
 
 ```java
-// Java-codevoorbeeld voor het extraheren van inhoud met DocumentVisitor
+// Java code sample for extracting content using DocumentVisitor
 Document doc = new Document("Your Directory Path" + "Absolute position tab.docx");
 MyDocToTxtWriter myConverter = new MyDocToTxtWriter();
 doc.accept(myConverter);
 System.out.println(myConverter.getText());
 ```
 
-## Inhoud extraheren met behulp van veld
+## Inhoud extraheren met Field
 
 ```java
-// Java-codevoorbeeld voor het extraheren van inhoud met behulp van Field
+// Java code sample for extracting content using Field
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.moveToMergeField("Fullname", false, false);
@@ -141,7 +146,7 @@ dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentUsingField.doc
 ## Inhoudsopgave extraheren
 
 ```java
-// Java-codevoorbeeld voor het extraheren van de inhoudsopgave
+// Java code sample for extracting table of contents
 Document doc = new Document("Your Directory Path" + "Table of contents.docx");
 for (Field field : doc.getRange().getFields()) {
     if (field.getType() == FieldType.FIELD_HYPERLINK) {
@@ -161,7 +166,7 @@ for (Field field : doc.getRange().getFields()) {
 ## Alleen tekst extraheren
 
 ```java
-// Java-codevoorbeeld voor het extraheren van alleen tekst
+// Java code sample for extracting text only
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.insertField("MERGEFIELD Field");
@@ -172,7 +177,7 @@ System.out.println("ToString() Result: " + doc.toString());
 ## Inhoud extraheren op basis van stijlen
 
 ```java
-// Java-codevoorbeeld voor het extraheren van inhoud op basis van stijlen
+// Java code sample for extracting content based on styles
 Document doc = new Document("Your Directory Path" + "Styles.docx");
 final String PARA_STYLE = "Heading 1";
 final String RUN_STYLE = "Intense Emphasis";
@@ -210,7 +215,7 @@ public ArrayList<Run> runsByStyleName(Document doc, String styleName) {
 ## Tekst extraheren en afdrukken
 
 ```java
-// Java-codevoorbeeld voor het extraheren en afdrukken van tekst
+// Java code sample for extracting and printing text
 Document doc = new Document("Your Directory Path" + "Tables.docx");
 Table table = (Table) doc.getChild(NodeType.TABLE, 0, true);
 System.out.println("Contents of the table: ");
@@ -221,10 +226,10 @@ System.out.println("\nContents of the cell: ");
 System.out.println(table.getLastRow().getLastCell().getRange().getText());
 ```
 
-## Afbeeldingen naar bestanden extraheren
+## Afbeeldingen extraheren naar bestanden
 
 ```java
-// Java-codevoorbeeld voor het extraheren van afbeeldingen naar bestanden
+// Java code sample for extracting images to files
 Document doc = new Document("Your Directory Path" + "Images.docx");
 NodeCollection shapes = doc.getChildNodes(NodeType.SHAPE, true);
 int imageIndex = 0;
@@ -240,37 +245,35 @@ for (Shape shape : (Iterable<Shape>) shapes) {
 
 ## Conclusie
 
-Gefeliciteerd! Je hebt geleerd hoe je inhoud uit documenten kunt extraheren met Aspose.Words voor Java. Deze handleiding behandelde verschillende extractietechnieken, waaronder inhoud tussen knooppunten op blokniveau, bladwijzers, opmerkingenreeksen, alinea's en meer. Je bent nu in staat om de extractie van documentinhoud efficiënt uit te voeren in je Java-applicaties.
+Gefeliciteerd! U heeft nu een solide gereedschapskist voor **how to extract text using Aspose.Words** in Java. Van blok‑niveau knooppunten tot bladwijzers, opmerkingen, stijlen en zelfs afbeeldingen, de API geeft u fijnmazige controle over wat u uit een document haalt. Gebruik deze fragmenten als basis, pas ze aan uw eigen bestandsstructuren aan, en automatiseer het extractieproces over grote documentverzamelingen.
 
 ## Veelgestelde vragen
 
-### Hoe haal ik inhoud uit specifieke secties van het document?
+**Q: Hoe haal ik inhoud uit een met wachtwoord beveiligd document?**  
+A: Laad het document met de wachtwoord‑constructor: `new Document(path, new LoadOptions("password"))`, en voer vervolgens een van de bovenstaande extractiemethoden uit.
 
-Als u inhoud uit specifieke documentsecties wilt extraheren, kunt u de begin- en eindpunten van de secties identificeren en de juiste Aspose.Words voor Java-methoden gebruiken om inhoud ertussen te extraheren.
+**Q: Kan ik inhoud uit meerdere documenten in één uitvoering extraheren?**  
+A: Ja. Loop door een lijst met bestandspaden, maak voor elk een `Document` aan, en pas dezelfde extractielogica toe binnen de lus.
 
-### Kan ik inhoud uit wachtwoordbeveiligde documenten halen?
+**Q: Is er een manier om alleen zichtbare tekst te extraheren (verbergende of veldcodes negerend)?**  
+A: Gebruik `doc.getText()` voor platte zichtbare tekst. Voor meer controle, iterate door nodes en filter op `NodeType.RUN` en `Run.getFont().getHidden()`.
 
-Ja, Aspose.Words voor Java biedt functionaliteit om inhoud uit wachtwoordbeveiligde documenten te halen. U kunt het wachtwoord opgeven bij het openen van het document met behulp van de `Document` klasseconstructor.
+**Q: Naar welke formaten kan ik de geëxtraheerde inhoud opslaan?**  
+A: Na het extraheren kunt u een `Document` opslaan als DOCX, PDF, HTML, TXT, of elk formaat dat door Aspose.Words wordt ondersteund via `doc.save("output.pdf")`.
 
-### Hoe kan ik inhoud extraheren en opslaan in verschillende formaten, zoals platte tekst of HTML?
+**Q: Ondersteunt Aspose.Words het extraheren van inhoud uit grote (honderden MB) bestanden?**  
+A: Ja, maar overweeg het gebruik van `LoadOptions` met `LoadFormat` en `MemoryOptimization` om het geheugenverbruik te verminderen.
 
-Met Aspose.Words voor Java kunt u inhoud uit een document halen en in verschillende formaten opslaan. Nadat u de inhoud hebt uitgepakt, kunt u de `Document` klassemethoden om het op te slaan in formaten zoals platte tekst, HTML of andere.
+---
 
-### Is er een manier om inhoud uit specifieke documentelementen te halen, zoals tabellen of afbeeldingen?
-
-Ja, u kunt inhoud extraheren uit specifieke documentelementen, zoals tabellen of afbeeldingen, met Aspose.Words voor Java. Identificeer de elementen die u wilt extraheren en gebruik vervolgens de juiste methoden om de inhoud ervan te extraheren.
-
-### Hoe kan ik het proces van inhoudsextractie in mijn Java-applicatie automatiseren?
-
-Om het proces van contentextractie in uw Java-applicatie te automatiseren, kunt u aangepaste code maken op basis van de technieken die in deze handleiding worden beschreven. U kunt ook logica implementeren om door meerdere documenten te itereren en content naar behoefte te extraheren.
-
+**Laatst bijgewerkt:** 2026-01-01  
+**Getest met:** Aspose.Words for Java 24.12  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

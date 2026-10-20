@@ -4,7 +4,9 @@
 "url": "/ar/python-net/ai-content-transformation/"
 "weight": 18
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # دروس تحويل محتوى الذكاء الاصطناعي لـ Aspose.Words Python-net
 
 استكشف أدلةً شاملةً خطوة بخطوة لعمليات تحويل محتوى الذكاء الاصطناعي باستخدام Aspose.Words لـ Python-net. تتضمن هذه الدروس أمثلةً برمجيةً كاملةً وشروحاتٍ مفصلة.
@@ -26,6 +28,9 @@
 ### [تلخيص وترجمة الذكاء الاصطناعي في بايثون: دليل Aspose.Words وOpenAI](./ai-summarization-translation-aspose-openai-python/)
 تعرّف على كيفية أتمتة تلخيص وترجمة الذكاء الاصطناعي باستخدام Aspose.Words لـ Python وOpenAI. يغطي هذا الدليل الإعداد والتنفيذ والتطبيقات العملية.
 
+### [إنشاء ملخص المستند بايثون – دليل شامل باستخدام Aspose.Words للذكاء الاصطناعي](./create-document-summary-python-full-guide-using-aspose-words/)
+تعلم كيفية إنشاء ملخصات المستندات باستخدام Aspose.Words وذكاء اصطناعي في بايثون خطوة بخطوة.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Python-net](https://docs.aspose.com/words/python-net/)
@@ -34,3 +39,7 @@
 - [منتدى Aspose.Words](https://forum.aspose.com/c/words/8)
 - [دعم مجاني](https://forum.aspose.com/)
 - [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

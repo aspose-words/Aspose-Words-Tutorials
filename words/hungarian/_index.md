@@ -1,247 +1,181 @@
----
-date: 2026-08-05
-description: Tanulja meg az Aspose.Words-ot lépésről‑lépésre szóló vizuális oktatóanyagokkal
-  .NET, Java, C++, Python és más nyelvekhez. Könnyedén sajátíthatja el a document
-  creation, editing, conversion, és automation folyamatokat.
-keywords:
-- aspose.words visual tutorials
-- aspose.words .net tutorials
-- word document automation
-- aspose.words java guide
-- aspose.words python examples
-lastmod: 2026-08-05
-limit: null
-og_description: Fedezze fel az Aspose.Words vizuális oktatóanyagokat, hogy gyorsan
-  megtanulja a document creation, editing, conversion, és automation folyamatokat
-  a .NET, Java, C++ és Python platformokon.
-og_image_alt: Screenshot of Aspose.Words visual tutorial index page showing tutorial
-  cards
-og_title: Aspose.Words vizuális oktatóanyagok – lépésről‑lépésre útmutatók .NET, Java,
-  C++ és Python számára
-schemas:
-- author: Aspose
-  dateModified: '2026-08-05'
-  description: Learn Aspose.Words with step‑by‑step visual tutorials for .NET, Java,
-    C++, Python and more. Master document creation, editing, conversion, and automation
-    easily.
-  headline: Aspose.Words visual tutorials
-  type: TechArticle
-tags:
-- Aspose.Words
-- visual tutorials
-- document processing
-- .NET
-- Java
-- Python
-title: Aspose.Words vizuális oktatóanyagok
-url: /hu/
-weight: 10
----
+### [Diagramok kezelése az Aspose.Words-ben](./net/working-with-charts/)
+Tanulja meg, hogyan **szúrjon be és testreszabjon diagramokat** — beleértve az oszlop-, vonal- és szórásdiagramokat — közvetlenül a Word‑dokumentumokban.
 
-{{< blocks/products/pf/main-wrap-class >}}
+{{< tutorial-card link="./net/working-with-charts/bounds-of-axis/" title="Dokumentum létrehozása diagramokkal " imgSrc="./net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
 
-{{< blocks/products/pf/main-container >}}
+{{< tutorial-card link="./net/working-with-charts/create-chart-using-shape/" title="Vonaldiagram létrehozása Wordben " imgSrc="./net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< tutorial-card link="./net/working-with-charts/insert-area-chart/" title="Területdiagram beszúrása Word dokumentumba" imgSrc="./net/working-with-charts/insert-area-chart/images/thumb.png" >}}
 
-# Aspose.Words vizuális oktatóanyagok
+{{< tutorial-card link="./net/working-with-charts/insert-bubble-chart/" title="Buborékdiagram beszúrása Wordben " imgSrc="./net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
 
-Az Aspose.Words vizuális oktatóanyagok egyértelmű, lépésről‑lépésre útmutatókat nyújtanak a fejlesztőknek minden fő platformhoz—.NET, Java, C++, Python és egyebek. Azonnal láthatja, hogyan hozhat létre, szerkeszthet, konvertálhat és formázhat Word dokumentumokat, ami felgyorsítja a megvalósítást és csökkenti a próbálgatás‑hibakeresés időt. Ezeket a vizuális példákat követve magabiztosan integrálhatja a hatékony dokumentumfeldolgozó képességeket alkalmazásaiba.
+{{< tutorial-card link="./net/working-with-charts/insert-column-chart/" title="Oszlopdiagram beszúrása Wordben " imgSrc="./net/working-with-charts/insert-column-chart/images/thumb.png" >}}
 
-## [Aspose.Words .NET-hez vizuális oktatóanyagok](./net/)
+{{< tutorial-card link="./net/working-with-charts/insert-scatter-chart/" title="Szórásdiagram létrehozása Wordben " imgSrc="./net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
 
-Az Aspose.Words for .NET átfogó vizuális oktatóanyagok sorát kínálja, hogy a fejlesztők elsajátíthassák a dokumentumműveletek kezelését alkalmazásaikban. Ezek a lépésről‑lépésre útmutatók lefedik a Word dokumentumok létrehozását, szerkesztését és konvertálását, valamint képek, táblázatok és űrlapmezők beszúrását. Egyértelmű utasításokkal és vizuális bemutatókkal az oktatóanyagok leegyszerűsítik a bonyolult feladatokat, így az automatizálás és integráció zökkenőmentes. Akár új az Aspose-nál, akár fejleszteni szeretné tudását, ezek a gyakorlati oktatóanyagok gyakorlati tapasztalatot nyújtanak a dokumentumfeldolgozó képességek javításához.
+{{< tutorial-card link="./net/working-with-charts/insert-simple-column-chart/" title="Egyszerű oszlopdiagram beszúrása Wordben " imgSrc="./net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Diagramok használata az Aspose.Words-ben](./net/working-with-charts/)
+### [Táblastílusok és formázás kezelése az Aspose.Words for .NET-ben](./net/working-with-table-styles-and-formatting/)
+Fedezze fel, hogyan **hozzon létre, formázzon és testreszabjon táblázatokat**, állítson be szegélyeket, alkalmazzon stílusokat és módosítsa a cella kitöltést.
 
-Tanulja meg, hogyan szúrjon be és testre szabjon különböző típusú diagramokat, például oszlop-, vonal- és szórásdiagramokat a Word dokumentumokban.
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-outline-border/" title="Körvonal szegély alkalmazása táblázatra Wordben " imgSrc="./net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/bounds-of-axis/" title="Create a Document with Charts " imgSrc="./net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-row-formatting/" title="Sorformázás alkalmazása Word dokumentumokban" imgSrc="./net/working-with-table-styles-and-formatting/apply-row-formatting/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/create-chart-using-shape/" title="Create a Line Chart in Word " imgSrc="./net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/build-table-with-border/" title="Táblázat szegélyek módosítása Wordben " imgSrc="./net/working-with-table-styles-and-formatting/build-table-with-border/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/insert-area-chart/" title="Insert Area Chart in Word Document" imgSrc="./net/working-with-charts/insert-area-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/buildtable-with-style/" title="Stílusos táblázatok létrehozása Wordben az Aspose.Words segítségével " imgSrc="./net/working-with-table-styles-and-formatting/buildtable-with-style/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/insert-bubble-chart/" title="Insert a Bubble Chart in Word " imgSrc="./net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/cell-padding/" title="Word táblacella létrehozása kitöltéssel az Aspose.Words-ben " imgSrc="./net/working-with-table-styles-and-formatting/cell-padding/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/insert-column-chart/" title="Insert Column Chart in Word " imgSrc="./net/working-with-charts/insert-column-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/create-table-style/" title="Stílusos táblázat létrehozása Word dokumentumban " imgSrc="./net/working-with-table-styles-and-formatting/create-table-style/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/insert-scatter-chart/" title="Create Word Scatter Chart " imgSrc="./net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/format-table-and-cell/" title="Word dokumentum létrehozása táblázat szegélyekkel és árnyékolással" imgSrc="./net/working-with-table-styles-and-formatting/format-table-and-cell/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-charts/insert-simple-column-chart/" title="Insert a Simple Column Chart in Word " imgSrc="./net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/" title="Táblázat létrehozása és formázása Word dokumentumban" imgSrc="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/images/thumb.png" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-row-formatting/" title="Formázott táblázat létrehozása Wordben az Aspose.Words segítségével " imgSrc="./net/working-with-table-styles-and-formatting/set-table-row-formatting/images/thumb.png" >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [Táblastílusok és formázás használata az Aspose.Words for .NET-ben](./net/working-with-table-styles-and-formatting/)
-
-Fedezze fel, hogyan hozhat létre, formázhat és testre szabhat táblázatokat Word dokumentumokban, beleértve a szegélyek, stílusok és cella kitöltés beállítását.
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-outline-border/" title="Apply Outline Border to a Table in Word" imgSrc="./net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-row-formatting/" title="Apply Row Formatting in Word Documents" imgSrc="./net/working-with-table-styles-and-formatting/apply-row-formatting/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/build-table-with-border/" title="Modify Table Borders in Word " imgSrc="./net/working-with-table-styles-and-formatting/build-table-with-border/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/buildtable-with-style/" title="Create Styled Tables in Word with Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/buildtable-with-style/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/cell-padding/" title="Create Word Table Cell with Padding in Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/cell-padding/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/create-table-style/" title="Create Styled Table in Word Document " imgSrc="./net/working-with-table-styles-and-formatting/create-table-style/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/format-table-and-cell/" title="Create Word Document with Table Borders & Shading" imgSrc="./net/working-with-table-styles-and-formatting/format-table-and-cell/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/" title="Create and Format a Table in Word Document" imgSrc="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-row-formatting/" title="Create a Formatted Table in Word with Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/set-table-row-formatting/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/table-tittle-and-description/" title="Add Title & Description to Table in Word" imgSrc="./net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/table-tittle-and-description/" title="Cím és leírás hozzáadása táblázathoz Wordben" imgSrc="./net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Tartalom hozzáadása Document Builder-rel az Aspose.Words for .NET-ben](./net/add-content-using-document-builder/)
+### [Tartalom hozzáadása a Document Builder segítségével az Aspose.Words for .NET-ben](./net/add-content-using-document-builder/)
+Tanulja meg, hogyan **szúrjon be szöveget, táblázatokat, képeket és egyéb elemeket** programozottan a Document Builder osztállyal.
 
-A **DocumentBuilder** osztály módszereket biztosít a Word dokumentumok programozott létrehozásához és módosításához. Tanulja meg, hogyan szúrjon be szöveget, táblázatokat, képeket és egyéb elemeket Word dokumentumokba programozott módon a Document Builder osztály segítségével.
+{{< tutorial-card link="./net/add-content-using-document-builder/build-table/" title="Word dokumentum létrehozása táblázattal" imgSrc="./net/add-content-using-document-builder/build-table/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/build-table/" title="Create a Word Document with Table" imgSrc="./net/add-content-using-document-builder/build-table/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-break/" title="Többoldalas Word dokumentum létrehozása az Aspose.Words segítségével" imgSrc="./net/add-content-using-document-builder/insert-break/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-break/" title="Create a Multi-Page Word Document with Aspose.Words" imgSrc="./net/add-content-using-document-builder/insert-break/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-floating-image/" title="Word dokumentum létrehozása lebegő képpel .NET-ben" imgSrc="./net/add-content-using-document-builder/insert-floating-image/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-floating-image/" title="Create Word Document with Floating Image in .NET" imgSrc="./net/add-content-using-document-builder/insert-floating-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-horizontal-rule/" title="Word dokumentum létrehozása vízszintes vonallal .NET-ben" imgSrc="./net/add-content-using-document-builder/insert-horizontal-rule/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-horizontal-rule/" title="Create Word Document with Horizontal Rule in .NET" imgSrc="./net/add-content-using-document-builder/insert-horizontal-rule/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-inline-image/" title="Beágyazott kép beszúrása Word dokumentumba" imgSrc="./net/add-content-using-document-builder/insert-inline-image/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-inline-image/" title="Insert Inline Image in Word Document" imgSrc="./net/add-content-using-document-builder/insert-inline-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-paragraph/" title="Word dokumentum létrehozása az Aspose.Words segítségével " imgSrc="./net/add-content-using-document-builder/insert-paragraph/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-paragraph/" title="Create Word Document with Aspose.Words " imgSrc="./net/add-content-using-document-builder/insert-paragraph/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title="Create a Word Document with Table of Contents in .NET" imgSrc="./net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-### [Dokumentumformázás az Aspose.Words for .NET-ben](./net/document-styling/)
-
-Ismerje meg, hogyan alkalmazhat különféle formázási beállításokat bekezdésekre, listákra és dokumentumelemekre, hogy javítsa Word fájljai vizuális megjelenését.
-
-{{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="Apply Borders & Shading to Paragraph in Aspose.Words " imgSrc="./net/document-styling/apply-border-and-shading/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/document-styling/apply-paragraph-style/" title="Create and Style a Word Document in Aspose.Words " imgSrc="./net/document-styling/apply-paragraph-style/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/document-styling/multilevel-list-formatting/" title="Create Multilevel Lists in Word with Aspose.Words" imgSrc="./net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="Format Paragraphs " imgSrc="./net/document-styling/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title="Word dokumentum létrehozása tartalomjegyzékkel .NET-ben" imgSrc="./net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Betűtípusok használata az Aspose.Words for .NET-ben](./net/font-styling/)
+### [Dokumentum formázása az Aspose.Words for .NET-ben](./net/document-styling/)
+Értse meg, hogyan **alkalmazzon formázási beállításokat** bekezdésekre, listákra és egyéb elemekre a dokumentum megjelenésének javítása érdekében.
 
-Fedezze fel a betűtípusokkal kapcsolatos funkciókat, mint a betűstílusok, sorköz, hangsúlyjelek és egyéb tipográfiai beállítások a Word dokumentumokban.
+{{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="Szegélyek és árnyékolás alkalmazása bekezdésre az Aspose.Words-ben " imgSrc="./net/document-styling/apply-border-and-shading/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/font-styling/font-formatting/" title="Create Font Formatting in Word " imgSrc="./net/font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/apply-paragraph-style/" title="Word dokumentum létrehozása és stílusozása az Aspose.Words-ben " imgSrc="./net/document-styling/apply-paragraph-style/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/font-styling/get-font-line-spacing/" title="Get Font Line Spacing in Word Document" imgSrc="./net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/multilevel-list-formatting/" title="Többszintű listák létrehozása Wordben az Aspose.Words segítségével" imgSrc="./net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Set Emphasis Mark in Word Document " imgSrc="./net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-### [Űrlapmezők használata az Aspose.Words for .NET-ben](./net/working-with-form-fields/)
-
-Ismerje meg, hogyan szúrhat be és kezelhet űrlapmezőket, például szövegbevitelt, legördülő listákat és jelölőnégyzeteket a Word dokumentumokban.
-
-{{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="Insert Combo Box Form Field in Word Document" imgSrc="./net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
+{{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="Bekezdések formázása " imgSrc="./net/document-styling/paragraph-formatting/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Fejléc és lábléc használata az Aspose.Words for .NET-ben](./net/header-footer-formatting/)
+### [Betűtípusok kezelése az Aspose.Words for .NET-ben](./net/font-styling/)
+Fedezze fel a **betűtípus‑kapcsolódó funkciókat**, például a stílusokat, sortávolságot és kiemelés jeleket.
 
-Tanulja meg, hogyan hozhat létre és kezelhet fejlécet és láblécet, beleértve képek, oldalszámok és szöveg hozzáadását.
+{{< tutorial-card link="./net/font-styling/font-formatting/" title="Betűtípus formázás létrehozása Wordben " imgSrc="./net/font-styling/font-formatting/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="Create Word Document with Header and Footer" imgSrc="./net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/get-font-line-spacing/" title="Betűtípus sortávolság lekérése Word dokumentumban" imgSrc="./net/font-styling/get-font-line-spacing/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="Insert an Image into Word Document Header" imgSrc="./net/header-footer-formatting/insert-image/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-### [Szakaszok használata az Aspose.Words for .NET-ben](./net/document-sections/)
-
-Ismerje meg, hogyan strukturálhatja a dokumentumokat szakaszokra, lehetővé téve különböző fejléceket, lábléceket és formázási stílusokat.
-
-{{< tutorial-card link="./net/document-sections/add-section/" title="Add a New Section to Word Document" imgSrc="./net/document-sections/add-section/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/document-sections/append-section-content/" title="Append and Prepend Content in Word Documents" imgSrc="./net/document-sections/append-section-content/images/thumb.png" >}}
+{{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Kiemelés jel beállítása Word dokumentumban " imgSrc="./net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Alakzatok használata az Aspose.Words for .NET-ben](./net/working-with-shapes/)
+### [Űrlapmezők kezelése az Aspose.Words for .NET-ben](./net/working-with-form-fields/)
+Ismerje meg, hogyan **szúrjon be és kezeljen űrlapmezőket** például szövegbeviteli mezőket, legördülő listákat és jelölőnégyzeteket.
 
-Fedezze fel, hogyan szúrhat be és kezelhet különféle alakzatokat, beleértve a csoportosított alakzatokat és előre definiált rajzokat a Word dokumentumokban.
-
-{{< tutorial-card link="./net/working-with-shapes/add-group-shape/" title="Create Group Shape in Word Document " imgSrc="./net/working-with-shapes/add-group-shape/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-shapes/insert-shape/" title="Insert Shapes in Word Documents " imgSrc="./net/working-with-shapes/insert-shape/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="Combo Box űrlapmező beszúrása Word dokumentumba" imgSrc="./net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-### [Vízjel használata az Aspose.Words for .NET-ben](./net/working-with-watermark)
+### [Fejléc és lábléc kezelése az Aspose.Words for .NET-ben](./net/header-footer-formatting/)
+Tanulja meg, hogyan **hozzon létre és manipuláljon fejlécet és láblécet**, beleértve képek, oldalszámok és egyedi szöveg hozzáadását.
 
-Tanulja meg, hogyan adhat hozzá szöveges és képes vízjeleket Word dokumentumokhoz márkaépítés vagy biztonsági célok érdekében.
+{{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="Word dokumentum létrehozása fejléc és lábléccel" imgSrc="./net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-watermark/add-text-watermark/" title="Add Text Watermark in Word Document " imgSrc="./net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
+{{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="Kép beszúrása Word dokumentum fejlécébe" imgSrc="./net/header-footer-formatting/insert-image/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+### [Szakaszok kezelése az Aspose.Words for .NET-ben](./net/document-sections/)
+Értse meg, hogyan **szerkeztesse fel a dokumentumokat szakaszokra**, lehetővé téve különböző fejléceket, lábléceket és formázási stílusokat.
+
+{{< tutorial-card link="./net/document-sections/add-section/" title="Új szakasz hozzáadása Word dokumentumhoz" imgSrc="./net/document-sections/add-section/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/document-sections/append-section-content/" title="Tartalom hozzáfűzése és előtétbe helyezése Word dokumentumokban" imgSrc="./net/document-sections/append-section-content/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+### [Alakzatok kezelése az Aspose.Words for .NET-ben](./net/working-with-shapes/)
+Fedezze fel, hogyan **szúrjon be és manipuláljon alakzatokat**, beleértve a csoportos alakzatokat és előre definiált rajzokat.
+
+{{< tutorial-card link="./net/working-with-shapes/add-group-shape/" title="Csoportos alakzat létrehozása Word dokumentumban " imgSrc="./net/working-with-shapes/add-group-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/working-with-shapes/insert-shape/" title="Alakzatok beszúrása Word dokumentumokba " imgSrc="./net/working-with-shapes/insert-shape/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+### [Vízjel kezelése az Aspose.Words for .NET-ben](./net/working-with-watermark)
+Tanulja meg, hogyan **adj hozzá szöveges és képes vízjeleket** márkázás vagy biztonsági célok miatt.
+
+{{< tutorial-card link="./net/working-with-watermark/add-text-watermark/" title="Szöveges vízjel hozzáadása Word dokumentumhoz " imgSrc="./net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+These are links to some useful resources:
 - [AI által vezérelt dokumentumfeldolgozás](./net/ai-powered-document-processing/)
-- [Licenc alkalmazása](./net/apply-license/)
-- [OpenType funkciók engedélyezése](./net/enable-opentype-features/)
-- [Megjegyzések használata](./net/working-with-comments/)
-- [Mezők használata](./net/working-with-fields/)
-- [Lábjegyzetek és végjegyzetek használata](./net/working-with-footnote-and-endnote/)
-- [Űrlapmezők használata](./net/working-with-formfields/)
-- [Fejlécek és láblécek használata](./net/working-with-headers-and-footers/)
-- [Elválasztás használata](./net/working-with-hyphenation/)
-- [Listák használata](./net/working-with-list/)
-- [Markdown használata](./net/working-with-markdown/)
-- [Node használata](./net/working-with-node/)
-- [Változatok használata](./net/working-with-revisions/)
-- [Szövegdobozok használata](./net/working-with-textboxes/)
-- [Dokumentum felosztása](./net/split-document/)
-- [Tartalom hozzáadása DocumentBuilder-rel](./net/add-content-using-documentbuilder/)
-- [Dokumentumok klónozása és egyesítése](./net/clone-and-combine-documents/)
-- [Dokumentumok összehasonlítása](./net/compare-documents/)
-- [Dokumentumformázás](./net/document-formatting/)
-- [Programozás vízjellel](./net/programming-with-watermark/)
-- [Programozás MarkdownSaveOptions-szal](./net/programming-with-markdownsaveoptions/)
-- [Alapvető konverziók](./net/basic-conversions/)
+- [Licenc alkalmazása](./net/apply-license/)   
+- [OpenType funkciók engedélyezése](./net/enable-opentype-features/)   
+- [Megjegyzések kezelése](./net/working-with-comments/)   
+- [Mezők kezelése](./net/working-with-fields/)   
+- [Lábjegyzetek és végjegyzetek kezelése](./net/working-with-footnote-and-endnote/)   
+- [Űrlapmezők kezelése](./net/working-with-formfields/)   
+- [Fejlécek és láblécek kezelése](./net/working-with-headers-and-footers/)   
+- [Elválasztás kezelése](./net/working-with-hyphenation/)   
+- [Listák kezelése](./net/working-with-list/)   
+- [Markdown kezelése](./net/working-with-markdown/)   
+- [Node kezelése](./net/working-with-node/)   
+- [Változatok kezelése](./net/working-with-revisions/)   
+- [Szövegdobozok kezelése](./net/working-with-textboxes/)   
+- [Dokumentum felosztása](./net/split-document/)   
+- [Tartalom hozzáadása Documentbuilderrel](./net/add-content-using-documentbuilder/)
+- [Dokumentumok klónozása és egyesítése](./net/clone-and-combine-documents/) 
+- [Dokumentumok összehasonlítása](./net/compare-documents/) 
+- [Dokumentum formázása](./net/document-formatting/)      
+- [Programozás vízjellel](./net/programming-with-watermark/)    
+- [Programozás Markdownsaveoptions használatával](./net/programming-with-markdownsaveoptions/)   
+- [Alapvető konverziók](./net/basic-conversions/)   
 
-## Aspose.Words dokumentumfeldolgozó oktatóanyagok Java-hoz
+## Aspose.Words dokumentumfeldolgozási oktatóanyagok Java-hoz
 
 {{% alert color="primary" %}}
-Ez az átfogó oktatóanyag-gyűjtemény lépésről‑lépésre útmutatást nyújt arról, hogyan dolgozhat hatékonyan programozott módon a Microsoft Word dokumentumokkal. A dokumentum létrehozásától és módosításától a fejlett funkciókig, mint a levélösszevonás, táblázatformázás és dokumentum titkosítás, ezek az oktatóanyagok széles körű funkciókat fednek le. Az oktatóanyagok követésével a fejlesztők zökkenőmentesen integrálhatják az Aspose.Words-ot Java projektjeikbe, lehetővé téve a hatékony dokumentumfeldolgozást és alkalmazásaik professzionális szintű dokumentumkezelő képességekkel való bővítését.
+Ez az átfogó oktatóanyag‑gyűjtemény lépésről‑lépésre útmutatót nyújt arról, hogyan dolgozzunk hatékonyan programozott módon a Microsoft Word‑dokumentumokkal. A dokumentumlétrehozástól és -manipulációtól a fejlett funkciókig, mint a levélösszevonás, táblázatformázás és dokumentum titkosítás, ezek az oktatóanyagok széles körű funkcionalitást fednek le. Az oktatóanyagok követésével a fejlesztők zökkenőmentesen integrálhatják az Aspose.Words‑t Java‑projektjeikbe, lehetővé téve a hatékony dokumentumfeldolgozást és professzionális szintű dokumentumkezelési képességek hozzáadását az alkalmazásaikhoz. 
 {{% /alert %}}
 
-- [Szöveges feldolgozás](./java/word-processing/)  
-- [Táblázatfeldolgozás](./java/table-processing/)
+- [Szövegszerkesztés](./java/word-processing/)  
+- [Táblázatkezelés](./java/table-processing/)
 - [Dokumentum stílusozás](./java/document-styling/)
-- [Dokumentum egyesítés](./java/document-merging/)
+- [Dokumentumok egyesítése](./java/document-merging/)
 - [Dokumentum konvertálás](./java/document-converting/)
 - [Dokumentum nyomtatás](./java/document-printing/)
 - [Dokumentum renderelés](./java/document-rendering/)
 - [Dokumentum biztonság](./java/document-security/)
-- [Dokumentum felosztás](./java/document-splitting/)
+- [Dokumentum felosztása](./java/document-splitting/)
 - [Dokumentum revízió](./java/document-revision/)
 - [Dokumentum betöltés és mentés](./java/document-loading-and-saving/)
 - [Dokumentum manipuláció](./java/document-manipulation/)
@@ -254,7 +188,7 @@ Ez az átfogó oktatóanyag-gyűjtemény lépésről‑lépésre útmutatást ny
 - [Dokumentum műveletek](./java/document-operations/)
 - [Tartalomkezelés](./java/content-management/)
 - [Fejlécek, láblécek és oldalbeállítás](./java/headers-footers-page-setup/)
-- [Annotációk és megjegyzések](./java/annotations-comments/)
+- [Megjegyzések és annotációk](./java/annotations-comments/)
 - [Fejlett szövegfeldolgozás](./java/advanced-text-processing/)
 - [Dokumentum összehasonlítás és nyomon követés](./java/document-comparison-tracking/)
 - [Teljesítményoptimalizálás](./java/performance-optimization/)
@@ -263,13 +197,13 @@ Ez az átfogó oktatóanyag-gyűjtemény lépésről‑lépésre útmutatást ny
 - [Formázás és stílusok](./java/formatting-styles/)
 - [Táblázatok és listák](./java/tables-lists/)
 - [Képek és alakzatok](./java/images-shapes/)
-- [Levélösszevonás és jelentéskészítés](./java/mail-merge-reporting/)
+- [Levelezés és jelentéskészítés](./java/mail-merge-reporting/)
 - [AI és gépi tanulás integráció](./java/ai-machine-learning-integration/)
 
-## Aspose.Words dokumentumkezelő oktatóanyagok Python-hoz
+## Aspose.Words dokumentumkezelési oktatóanyagok Pythonhoz
 
 {{% alert color="primary" %}}
-Ezek az oktatóanyagok lépésről‑lépésre útmutatást nyújtanak arról, hogyan dolgozhat programozott módon a Microsoft Word dokumentumokkal, beleértve a dokumentum létrehozását, manipulálását és különféle biztonsági funkciókat, mint a titkosítás és jelszóvédelem. Ennek a forrásnak a segítségével a fejlesztők hatékonyan megvalósíthatják a dokumentumfeldolgozó funkciókat Python alkalmazásaikban az Aspose.Words használatával, növelve a termelékenységet és biztosítva a dokumentumok biztonságát.
+Ezek az oktatóanyagok lépésről‑lépésre útmutatót nyújtanak arról, hogyan dolgozzunk programozott módon a Microsoft Word‑dokumentumokkal, beleértve a dokumentumlétrehozást, manipulációt és különféle biztonsági funkciókat, mint a titkosítás és jelszóvédelem. Ennek a forrásnak a segítségével a fejlesztők hatékonyan megvalósíthatják a dokumentumfeldolgozási funkciókat Python‑alkalmazásaikban az Aspose.Words használatával, növelve a termelékenységet és biztosítva a dokumentumok biztonságát. 
 {{% /alert %}}
 
 - [Dokumentum létrehozása](./python-net/document-creation/)  
@@ -283,18 +217,18 @@ Ezek az oktatóanyagok lépésről‑lépésre útmutatást nyújtanak arról, h
 - [Formázás és stílusok](./python-net/formatting-styles/)
 - [Táblázatok és listák](./python-net/tables-lists/)
 - [Képek és alakzatok](./python-net/images-shapes/)
-- [Levélösszevonás és jelentéskészítés](./python-net/mail-merge-reporting/)
+- [Levelezés és jelentéskészítés](./python-net/mail-merge-reporting/)
 - [Fejlécek, láblécek és oldalbeállítás](./python-net/headers-footers-page-setup/)
 - [Dokumentum tulajdonságok és metaadatok](./python-net/document-properties-metadata/)
 - [Biztonság és védelem](./python-net/security-protection/)
-- [Annotációk és megjegyzések](./python-net/annotations-comments/)
+- [Megjegyzések és annotációk](./python-net/annotations-comments/)
 - [Dokumentum összehasonlítás és nyomon követés](./python-net/document-comparison-tracking/)
-- [Dokumentum felosztás és formázás](./python-net/document-splitting-and-formatting/)
-- [Dokumentum egyesítés és összehasonlítás](./python-net/document-combining-and-comparison/)
+- [Dokumentum felosztása és formázása](./python-net/document-splitting-and-formatting/)
+- [Dokumentum egyesítése és összehasonlítása](./python-net/document-combining-and-comparison/)
 - [Teljesítmény és optimalizálás](./python-net/performance-optimization/)
 - [Integráció és interoperabilitás](./python-net/integration-interoperability/)
 - [AI tartalomtranszformáció](./python-net/ai-content-transformation/)
-- [Dokumentum struktúra és tartalommanipuláció](./python-net/document-structure-and-content-manipulation/)
+- [Dokumentum struktúra és tartalom manipuláció](./python-net/document-structure-and-content-manipulation/)
 - [Tartalom kinyerés és manipuláció](./python-net/content-extraction-and-manipulation/)
 - [Táblázatok és formázás](./python-net/tables-and-formatting/)
 - [Dokumentum beállítások és opciók](./python-net/document-options-and-settings/)
