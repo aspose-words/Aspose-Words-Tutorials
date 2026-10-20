@@ -1,74 +1,130 @@
 ---
-date: 2025-11-28
-description: Naucz się zmieniać obramowania komórek i formatować tabele przy użyciu
-  Aspose.Words dla Javy. Ten przewodnik krok po kroku obejmuje ustawianie obramowań,
-  stosowanie stylu pierwszej kolumny, automatyczne dopasowywanie zawartości tabeli
-  oraz stosowanie stylów tabel.
-linktitle: How to Change Cell Borders in Tables – Aspose.Words for Java
+date: 2026-10-17
+description: Dowiedz się, jak zmienić borders w table cells przy użyciu Aspose.Words
+  for Java, w tym ustawianie cell border styles, stosowanie first column style oraz
+  auto‑fit table contents.
+keywords:
+- how to change borders
+- apply first column style
+- Aspose.Words table styling
+- Java document processing
+lastmod: 2026-10-17
+linktitle: Jak zmienić borders w table cells przy użyciu Aspose.Words for Java
+og_description: Jak zmienić borders w table cells przy użyciu Aspose.Words for Java.
+  Ten przewodnik pokazuje, jak ustawić cell border thickness, zastosować first column
+  style oraz auto‑fit tables dla profesjonalnych dokumentów.
+og_image_alt: Screenshot of a Java table with customized cell borders using Aspose.Words
+og_title: Jak zmienić borders w table cells – Aspose.Words for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-17'
+  description: Learn how to change borders in table cells with Aspose.Words for Java,
+    including setting cell border styles, applying first column style, and auto‑fit
+    table contents.
+  headline: How to change borders in table cells using Aspose.Words for Java
+  type: TechArticle
+- description: Learn how to change borders in table cells with Aspose.Words for Java,
+    including setting cell border styles, applying first column style, and auto‑fit
+    table contents.
+  name: How to change borders in table cells using Aspose.Words for Java
+  steps:
+  - name: '**Java Development Kit (JDK) 8+** – ensure `java` is on your PATH.'
+    text: '**Java Development Kit (JDK) 8+** – ensure `java` is on your PATH.'
+  - name: '**IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.'
+    text: '**IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.'
+  - name: '**Aspose.Words for Java** – download the latest JAR from the [official
+      site](https://releases.aspose.com/words/java/).'
+    text: '**Aspose.Words for Java** – download the latest JAR from the [official
+      site](https://releases.aspose.com/words/java/).'
+  - name: '**Basic Java knowledge** – you should be comfortable creating a Maven/Gradle
+      project and adding external JARs.'
+    text: '**Basic Java knowledge** – you should be comfortable creating a Maven/Gradle
+      project and adding external JARs.'
+  type: HowTo
+- questions:
+  - answer: Yes, you can create and apply custom styles programmatically. See the
+      [Aspose.Words documentation](https://reference.aspose.com/words/java/) for details.
+    question: Can I use custom table styles not included in the default options?
+  - answer: Use standard Java logic to inspect cell values, then call the appropriate
+      formatting methods (e.g., change background colour if a value exceeds a threshold).
+    question: How can I apply conditional formatting to cells?
+  - answer: Absolutely. After merging cells, apply shading or borders using the same
+      `CellFormat` APIs.
+    question: Is it possible to format merged cells the same way as regular cells?
+  - answer: Adjust column widths or call `autoFit` again after inserting new data
+      to recalculate the layout.
+    question: What if I need the table to resize dynamically based on user input?
+  - answer: The official [Aspose.Words API documentation](https://reference.aspose.com/words/java/)
+      contains a comprehensive set of samples.
+    question: Where can I find more examples of table styling?
+  type: FAQPage
 second_title: Aspose.Words Java Document Processing API
-title: Jak zmienić obramowanie komórek w tabelach – Aspose.Words for Java
+tags:
+- Aspose.Words
+- Java tables
+- document formatting
+- border styling
+title: Jak zmienić borders w table cells przy użyciu Aspose.Words for Java
 url: /pl/java/document-conversion-and-export/formatting-tables-and-table-styles/
 weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak zmienić obramowania komórek w tabelach – Aspose.Words for Java
+# Jak zmienić obramowania w komórkach tabeli przy użyciu Aspose.Words for Java
 
-## Wstęp
+## Wprowadzenie
 
-Jeśli chodzi o formatowanie dokumentów, tabele odgrywają kluczową rolę, a **znajomość sposobu zmiany obramowań komórek** jest niezbędna do tworzenia przejrzystych, profesjonalnych układów. Jeśli programujesz w Javie i używasz Aspose.Words, masz już potężny zestaw narzędzi pod ręką. W tym samouczku przeprowadzimy Cię krok po kroku przez cały proces formatowania tabel, zmiany obramowań komórek, zastosowania *stylu pierwszej kolumny* oraz użycia *automatycznego dopasowywania zawartości tabeli*, aby Twoje dokumenty wyglądały dopracowanie.
+Kiedy potrzebujesz przedstawić dane w czystym, profesjonalnym układzie, **zmiana obramowań komórek** jest jednym z pierwszych wizualnych poprawek, które zastosujesz. W Javie Aspose.Words zapewnia pełnoprawne API, które pozwala stylizować tabele, dostosowywać obramowania poszczególnych komórek, włączać styl pierwszej kolumny oraz automatycznie dopasowywać zawartość, tak aby tabela nigdy nie wychodziła poza stronę. Ten samouczek przeprowadzi Cię przez każdy krok, od tworzenia dokumentu po precyzyjne dostosowanie każdego obramowania, i pokaże, dlaczego te funkcje są istotne w rzeczywistych raportach i fakturach.
 
 ## Szybkie odpowiedzi
-- **Jaka jest podstawowa klasa do budowania tabel?** `DocumentBuilder` tworzy tabele i komórki programowo.  
-- **Jak zmienić grubość obramowania jednej komórki?** Użyj `builder.getCellFormat().getBorders().getLeft().setLineWidth(value)`.  
-- **Czy mogę zastosować predefiniowany styl tabeli?** Tak – wywołaj `table.setStyleIdentifier(StyleIdentifier.YOUR_STYLE)`.  
+Klasa `DocumentBuilder` jest używana do programowego budowania dokumentów i tabel.  
+- **Jaka jest główna klasa do budowania tabel?** `DocumentBuilder` tworzy tabele i komórki programowo.  
+- **Jak zmienić grubość obramowania pojedynczej komórki?** Użyj `builder.getCellFormat().getBorders().getLeft().setLineWidth(value)`.  
+- **Czy mogę zastosować wstępnie zdefiniowany styl tabeli?** Tak – wywołaj `table.setStyleIdentifier(StyleIdentifier.YOUR_STYLE)`.  
 - **Jaką metodą automatycznie dopasować tabelę do jej zawartości?** `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)`.  
-- **Czy potrzebna jest licencja do użytku produkcyjnego?** Ważna licencja Aspose.Words jest wymagana przy użyciu nie‑trial.
+- **Czy potrzebna jest licencja do produkcji?** Ważna licencja Aspose.Words jest wymagana do użytku nie‑testowego.
 
 ## Co oznacza „jak zmienić obramowania komórek” w Aspose.Words?
 
-Zmiana obramowań komórek oznacza dostosowanie widocznych linii oddzielających komórki – ich koloru, szerokości i stylu linii. Aspose.Words udostępnia bogate API, które pozwala regulować te właściwości na poziomie tabeli, wiersza lub pojedynczej komórki, dając precyzyjną kontrolę nad wyglądem dokumentów.
+Zmiana obramowań komórek oznacza dostosowanie wizualnych linii oddzielających komórki — koloru, szerokości i stylu linii. Aspose.Words for Java udostępnia szczegółowe API, które pozwala ustawiać te właściwości na poziomie tabeli, wiersza lub pojedynczej komórki, dając precyzyjną kontrolę nad wyglądem dokumentów.
 
-## Dlaczego warto używać Aspose.Words for Java do stylizacji tabel?
+## Dlaczego warto używać stylizacji tabel w Aspose.Words for Java?
 
-- **Spójny wygląd na wszystkich platformach** – ten sam kod stylizacji działa na Windows, Linux i macOS.  
-- **Brak zależności od Microsoft Word** – generuj lub modyfikuj dokumenty po stronie serwera.  
-- **Bogata biblioteka stylów** – wbudowane style tabel (np. *styl pierwszej kolumny*) oraz pełne możliwości auto‑fit.  
+Aspose.Words obsługuje **ponad 35 formatów wejściowych i wyjściowych** (DOCX, PDF, HTML, ODT itp.) i może przetworzyć **dokumenty o 500 stronach w mniej niż 3 sekundy** na typowym sprzęcie serwerowym, bez konieczności posiadania Microsoft Word. Biblioteka działa spójnie na Windows, Linux i macOS, umożliwiając generowanie lub modyfikowanie dokumentów po stronie serwera, stosowanie wbudowanych stylów tabel, takich jak *styl pierwszej kolumny*, oraz automatyczne dopasowywanie tabel do zawartości jednym wywołaniem metody.
 
 ## Wymagania wstępne
 
 1. **Java Development Kit (JDK) 8+** – upewnij się, że `java` znajduje się w zmiennej PATH.  
-2. **IDE** – IntelliJ IDEA, Eclipse lub dowolny edytor, którego używasz.  
-3. **Aspose.Words for Java** – pobierz najnowszy plik JAR ze [strony oficjalnej](https://releases.aspose.com/words/java/).  
-4. **Podstawowa znajomość Javy** – powinieneś umieć tworzyć projekt Maven/Gradle i dodawać zewnętrzne pliki JAR.
+2. **IDE** – IntelliJ IDEA, Eclipse lub dowolny edytor, którego preferujesz.  
+3. **Aspose.Words for Java** – pobierz najnowszy plik JAR ze [oficjalnej strony](https://releases.aspose.com/words/java/).  
+4. **Podstawowa znajomość Javy** – powinieneś swobodnie tworzyć projekt Maven/Gradle i dodawać zewnętrzne pliki JAR.
 
 ## Importowanie pakietów
 
-Aby rozpocząć pracę z tabelami, potrzebujesz podstawowych klas Aspose.Words:
+`Document`, `DocumentBuilder`, `Table`, `StyleIdentifier` i powiązane klasy znajdują się w przestrzeni nazw `com.aspose.words`. Importowanie tego jednego pakietu daje dostęp do pełnego zestawu narzędzi do stylizacji tabel. Klasa `DocumentBuilder` udostępnia metody do programowego tworzenia i modyfikowania dokumentu.
 
 ```java
 import com.aspose.words.*;
 ```
 
-Ten pojedynczy import daje dostęp do `Document`, `DocumentBuilder`, `Table`, `StyleIdentifier` i wielu innych narzędzi.
-
 ## Jak zmienić obramowania komórek
 
-Poniżej stworzymy prostą tabelę, zmienimy jej ogólne obramowania, a następnie dostosujemy poszczególne komórki.
+Poniżej znajduje się zwięzły przewodnik krok po kroku, który tworzy tabelę, nakłada globalne obramowanie, a następnie dostosowuje krawędzie pojedynczej komórki.
 
-### Krok 1: Załaduj nowy dokument
+### Bezpośrednia odpowiedź
+`Document` reprezentuje plik Word, natomiast `DocumentBuilder` tworzy zawartość, taką jak tabele. Załaduj nowy `Document`, wstaw `Table` przy użyciu `DocumentBuilder`, ustaw 2‑punktowe czarne obramowanie dla całej tabeli, a następnie zwiększ lewą, prawą, górną i dolną krawędź trzeciej komórki do 4 punktów. Takie podejście pozwala wyróżnić dowolną komórkę, zachowując jednolity styl pozostałej części tabeli.
+
+### Krok 1: załaduj nowy dokument
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-### Krok 2: Utwórz tabelę i ustaw globalne obramowania
+### Krok 2: utwórz tabelę i ustaw globalne obramowania
 
 ```java
 Table table = builder.startTable();
@@ -90,7 +146,7 @@ builder.writeln("Cell #2");
 builder.endRow();
 ```
 
-### Krok 3: Zmień obramowania jednej komórki
+### Krok 3: zmień obramowania pojedynczej komórki
 
 ```java
 // Clear the cell formatting from previous operations.
@@ -113,15 +169,18 @@ doc.save("FormatTableAndCellWithDifferentBorders.docx");
 ```
 
 #### Co robi kod
-- **Globalne obramowania** – `table.setBorders` nadaje całej tabeli czarną linię o grubości 2 punktów.  
-- **Cieniowanie komórek** – pokazuje, jak pokolorować poszczególne komórki (czerwoną i zieloną).  
-- **Niestandardowe obramowania komórki** – trzecia komórka otrzymuje obramowanie o grubości 4 punktów po wszystkich stronach, co wyróżnia ją wizualnie.
+- **Globalne obramowania** – `table.setBorders` nadaje całej tabeli 2‑punktową czarną linię.  
+- **Cieniowanie komórek** – Pokazuje, jak pokolorować poszczególne komórki (czerwony i zielony).  
+- **Niestandardowe obramowania komórek** – Trzecia komórka otrzymuje 4‑punktowe obramowanie ze wszystkich stron, co sprawia, że wyróżnia się.
 
-## Zastosowanie stylów tabel (w tym styl pierwszej kolumny)
+## Stosowanie stylów tabel (w tym stylu pierwszej kolumny)
 
-Style tabel pozwalają nadać spójny wygląd jednym wywołaniem. Pokażemy także, jak włączyć *styl pierwszej kolumny* i automatycznie dopasować tabelę do zawartości.
+Style tabel pozwalają zastosować spójny wygląd jednym wywołaniem. Włączymy także *styl pierwszej kolumny* i automatycznie dopasujemy tabelę do jej zawartości.
 
-### Krok 4: Utwórz nowy dokument do stylizacji
+### Bezpośrednia odpowiedź
+`StyleIdentifier` wymienia wbudowane style tabel, a `AutoFitBehavior` kontroluje, jak tabela dostosowuje się do zawartości. Utwórz nowy `Document`, zbuduj `Table`, ustaw jego `StyleIdentifier` na `MEDIUM_SHADING_1_ACCENT_1`, włącz `FirstColumn` i `RowBands`, a następnie wywołaj `autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)`, aby kolumny automatycznie kurczyły się lub rozszerzały, dopasowując się do wstawionych danych.
+
+### Krok 4: utwórz nowy dokument do stylizacji
 
 ```java
 Document doc = new Document();
@@ -133,7 +192,7 @@ Table table = builder.startTable();
 builder.insertCell();
 ```
 
-### Krok 5: Zastosuj predefiniowany styl i włącz formatowanie pierwszej kolumny
+### Krok 5: zastosuj wstępnie zdefiniowany styl i włącz formatowanie pierwszej kolumny
 
 ```java
 // Set the table style based on a unique style identifier.
@@ -146,7 +205,7 @@ table.setStyleOptions(TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BAN
 table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS);
 ```
 
-### Krok 6: Wypełnij tabelę danymi
+### Krok 6: wypełnij tabelę danymi
 
 ```java
 builder.writeln("Item");
@@ -176,52 +235,57 @@ builder.endRow();
 doc.save("BuildTableWithStyle.docx");
 ```
 
-#### Dlaczego to ważne
+#### Dlaczego to ma znaczenie
 - **Identyfikator stylu** – `MEDIUM_SHADING_1_ACCENT_1` nadaje tabeli czysty, cieniowany wygląd.  
-- **Styl pierwszej kolumny** – podkreślenie pierwszej kolumny zwiększa czytelność, szczególnie w raportach.  
+- **Styl pierwszej kolumny** – wyróżnienie pierwszej kolumny poprawia czytelność, szczególnie w raportach.  
 - **Paski wierszy** – naprzemienne kolory wierszy ułatwiają przegląd dużych tabel.  
-- **Auto‑fit** – zapewnia, że szerokość tabeli dostosowuje się do zawartości, zapobiegając obcięciu tekstu.
+- **Auto‑dopasowanie** – zapewnia, że szerokość tabeli dostosowuje się do zawartości, zapobiegając obciętemu tekstowi.
 
 ## Typowe problemy i rozwiązywanie
 
 | Problem | Typowa przyczyna | Szybka naprawa |
-|-------|----------------|-----------|
-| Obramowania nie są widoczne | Użycie `clearFormatting()` po ustawieniu obramowań | Ustaw obramowania **po** wyczyszczeniu formatowania lub zastosuj je ponownie. |
-| Cieniowanie ignorowane w scalonych komórkach | Cieniowanie zastosowane przed scaleniem | Zastosuj cieniowanie **po** scaleniu komórek. |
-| Szerokość tabeli przekracza marginesy strony | Brak auto‑fit | Wywołaj `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)` lub ustaw stałą szerokość. |
+|---------|-------------------|----------------|
+| Obramowania nie pojawiają się | Użycie `clearFormatting()` po ustawieniu obramowań | Ustaw obramowania **po** wyczyszczeniu formatowania lub ponownie je zastosuj. |
+| Cieniowanie ignorowane w scalonych komórkach | Cieniowanie zastosowano przed scaleniem | Zastosuj cieniowanie **po** scaleniu komórek. |
+| Szerokość tabeli przekracza marginesy strony | Nie zastosowano auto‑dopasowania | Wywołaj `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)` lub ustaw stałą szerokość. |
 | Styl nie został zastosowany | Nieprawidłowa wartość `StyleIdentifier` | Sprawdź, czy identyfikator istnieje w wersji Aspose.Words, której używasz. |
 
 ## Najczęściej zadawane pytania
 
-**P: Czy mogę używać własnych stylów tabel, które nie są w domyślnych opcjach?**  
-O: Tak, możesz tworzyć i stosować własne style programowo. Zobacz dokumentację [Aspose.Words](https://reference.aspose.com/words/java/) po szczegóły.
+**Q: Czy mogę używać własnych stylów tabel, które nie są zawarte w domyślnych opcjach?**  
+A: Tak, możesz tworzyć i stosować własne style programowo. Zobacz [dokumentację Aspose.Words](https://reference.aspose.com/words/java/) po szczegóły.
 
-**P: Jak zastosować formatowanie warunkowe do komórek?**  
-O: Użyj standardowej logiki Java do sprawdzania wartości komórek, a następnie wywołaj odpowiednie metody formatowania (np. zmień kolor tła, jeśli wartość przekracza określony próg).
+**Q: Jak mogę zastosować formatowanie warunkowe do komórek?**  
+A: Użyj standardowej logiki Javy do sprawdzania wartości komórek, a następnie wywołaj odpowiednie metody formatowania (np. zmień kolor tła, jeśli wartość przekracza określony próg).
 
-**P: Czy można formatować scalone komórki tak samo jak zwykłe?**  
-O: Oczywiście. Po scaleniu komórek zastosuj cieniowanie lub obramowania przy użyciu tych samych API `CellFormat`.
+**Q: Czy można formatować scalone komórki tak samo jak zwykłe?**  
+A: Oczywiście. Po scaleniu komórek zastosuj cieniowanie lub obramowanie przy użyciu tych samych interfejsów `CellFormat`.
 
-**P: Co zrobić, gdy tabela ma się dynamicznie zmieniać w zależności od danych wprowadzonych przez użytkownika?**  
-O: Dostosuj szerokości kolumn lub ponownie wywołaj `autoFit` po wstawieniu nowych danych, aby przeliczyć układ.
+**Q: Co zrobić, jeśli tabela ma dynamicznie zmieniać rozmiar w zależności od danych wprowadzonych przez użytkownika?**  
+A: Dostosuj szerokości kolumn lub ponownie wywołaj `autoFit` po wstawieniu nowych danych, aby przeliczyć układ.
 
-**P: Gdzie mogę znaleźć więcej przykładów stylizacji tabel?**  
-O: Oficjalna [dokumentacja API Aspose.Words](https://reference.aspose.com/words/java/) zawiera obszerne zestawy przykładów.
+**Q: Gdzie mogę znaleźć więcej przykładów stylizacji tabel?**  
+A: Oficjalna [dokumentacja API Aspose.Words](https://reference.aspose.com/words/java/) zawiera obszerny zestaw przykładów.
 
-## Zakończenie
+## Podsumowanie
 
-Masz teraz kompletny zestaw narzędzi do **zmiany obramowań komórek**, zastosowania *stylu pierwszej kolumny* oraz **automatycznego dopasowywania zawartości tabeli** przy użyciu Aspose.Words for Java. Opanowując te techniki, możesz tworzyć dokumenty, które są zarówno bogate w dane, jak i atrakcyjne wizualnie – idealne do raportów, faktur i wszelkich innych krytycznych dla biznesu wyjść.
+Masz teraz kompletny zestaw narzędzi do **zmiany obramowań** w komórkach tabeli, stosowania *stylu pierwszej kolumny* oraz **automatycznego dopasowywania zawartości tabeli** przy użyciu Aspose.Words for Java. Opanowując te techniki, możesz tworzyć dokumenty, które są zarówno bogate w dane, jak i wizualnie dopracowane — idealne do raportów, faktur i wszelkich krytycznych dla biznesu wyjść.
+
+---
+
+**Last Updated:** 2026-10-17  
+**Tested With:** Aspose.Words for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
+## Powiązane samouczki
+
+- [Samouczki formatowania i stylów Aspose.Words Java – Ulepsz swoje dokumenty](/words/java/formatting-styles/)
+- [Zaawansowane obramowania dokumentów w Aspose.Words for Java: Kompletny przewodnik](/words/java/headers-footers-page-setup/advanced-document-borders-aspose-words-java/)
+- [Dodaj znak wodny do dokumentu przy użyciu Aspose.Words for Java](/words/java/document-conversion-and-export/using-watermarks-to-documents/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-11-28  
-**Testowane z:** Aspose.Words for Java 24.12 (najnowsza w momencie pisania)  
-**Autor:** Aspose

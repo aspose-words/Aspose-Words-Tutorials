@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: यह ट्यूटोरियल दर्शाता है कि कैसे एक नया Word दस्तावेज़ बनाया जाए, DocumentBuilder के साथ एक चेक बॉक्स फ़ॉर्म फ़ील्ड डाला जाए, और परिणामी फ़ाइल को सहेजा जाए।
+//ExStepSummary:0: एक डेटा डायरेक्टरी वेरिएबल बनाएं, Document का एक इंस्टेंस बनाएं, और उस दस्तावेज़ के लिए DocumentBuilder बनाएं।
+//ExStepSummary:1: `builder.InsertCheckBox` को कॉल करके वर्तमान कर्सर पोजीशन पर "CheckBox" नाम का चेक किया हुआ, सक्षम चेक बॉक्स फ़ॉर्म फ़ील्ड जोड़ें।
+//ExStepSummary:2: `doc.Save` का उपयोग करके संशोधित दस्तावेज़ को निर्दिष्ट फ़ोल्डर में सहेजें।
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertCheckBox("CheckBox", true, true, 0);
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx");
+//ExEnd

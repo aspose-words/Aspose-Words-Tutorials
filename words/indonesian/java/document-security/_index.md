@@ -41,6 +41,10 @@ Pelajari cara mengenkripsi dan mendekripsi dokumen dengan Aspose.Words untuk Jav
 Pelajari cara menerapkan tanda tangan digital yang aman dalam dokumen menggunakan Aspose.Words untuk Java. Pastikan integritas dokumen dengan panduan langkah demi langkah dan kode sumber
 ### [Redaksi Dokumen dan Perlindungan Data](./document-redaction-data-protection/)
 Pelajari cara mengamankan dokumen dan menyunting data sensitif menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dengan kode sumber.
+### [Menandatangani Dokumen Word di Java dengan Aspose.Words – Panduan Lengkap](./sign-word-document-in-java-with-aspose-words-complete-guide/)
+Panduan lengkap untuk menandatangani dokumen Word menggunakan Aspose.Words di Java, termasuk contoh kode dan langkah-langkah praktis.
+### [Cara Menandatangani File DOCX di C# – Panduan Lengkap Langkah-demi-Langkah](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
+Pelajari cara menandatangani file DOCX menggunakan C# dengan Aspose.Words, panduan lengkap langkah demi langkah dan contoh kode sumber.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

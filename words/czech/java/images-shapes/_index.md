@@ -34,11 +34,54 @@ Výukový program pro Aspose.Words v Javě
 ### [Jak vykreslit stránky dokumentu jako miniatury pomocí Aspose.Words pro Javu](./render-word-pages-thumbnails-aspose-java/)
 Naučte se, jak generovat vysoce kvalitní miniatury a rastrové obrázky vlastní velikosti v dokumentech Word pomocí Aspose.Words pro Javu. Vylepšete si své schopnosti práce s dokumenty ještě dnes.
 
-### [Vytvořit Word dokument v Javě – Přidat obdélníkový tvar se stínovým efektem](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-Naučte se, jak přidat obdélníkový tvar se stínem do Word dokumentu pomocí Aspose.Words pro Javu.
+### [Přidání stínu k tvaru ve Wordu – kompletní průvodce Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+Naučte se, jak přidat stín k tvarům v dokumentech Word pomocí Aspose.Words pro Javu.
+### [Aplikace stínového efektu na tvar v C# – krok za krokem průvodce](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
+Naučte se, jak aplikovat stínový efekt na tvary v C# pomocí Aspose.Words – podrobný krok‑za‑krokem průvodce.
+### [Jak nastavit stín na tvar v Aspose.Words – kompletní průvodce](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
+Naučte se, jak přidat stín k tvarům v dokumentech Word pomocí Aspose.Words pro Javu.
+
+### [Jak nastavit stín na tvar v C# – Přidejte stín tvaru snadno](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+Naučte se, jak pomocí Aspose.Words pro C# přidat stín k tvarům ve Word dokumentu.
+
+### [Vytvořit obdélníkový tvar v dokumentu Word v Javě – Kompletní průvodce krok za krokem](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Kompletní návod, jak v Javě pomocí Aspose.Words vytvořit obdélníkový tvar v dokumentu Word.
+
+### [Vytvořit textové pole tvaru v Javě – Kompletní průvodce přidáváním stínů](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+Naučte se, jak vytvořit textové pole jako tvar a přidat mu stín v dokumentu Word pomocí Aspose.Words pro Javu.
+### [Vytvořte PDF dokument s obdélníkovým tvarem – Kompletní průvodce v C#](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+Naučte se, jak pomocí Aspose.Words v C# vytvořit PDF dokument s obdélníkovým tvarem.
+
+### [Vytvořit Word dokument v Javě – Přidat stín k tvaru](./create-word-document-java-add-shadow-to-shape-guide/)
+Naučte se, jak přidat stín k tvaru v dokumentu Word pomocí Aspose.Words pro Javu.
+
+### [Seskupování tvarů ve Wordu pomocí Javy – Kompletní průvodce krok za krokem](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+Naučte se, jak seskupovat tvary v dokumentech Word pomocí Aspose.Words pro Javu s podrobným krok za krokem návodem.
+
+### [Vytvořit Word dokument v Javě – Přidat tvar se stínovým efektem](./create-word-document-java-add-shape-with-shadow-effect/)
+Naučte se, jak přidat tvar se stínovým efektem do Word dokumentu pomocí Aspose.Words pro Javu.
+
+### [Vytvořit obdélníkový tvar v Javě pomocí Aspose.Words – Kompletní průvodce](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Kompletní návod, jak v Javě pomocí Aspose.Words vytvořit a nastavit obdélníkový tvar v dokumentu Word.
+
+### [Jak vložit skupinový tvar v Javě – Kompletní průvodce](./how-to-insert-group-shape-in-java-complete-guide/)
+Naučte se, jak vložit a spravovat skupinové tvary v dokumentech Word pomocí Aspose.Words pro Javu.
+
+### [Vytvořit prázdný dokument Word se seskupenými obdélníky – průvodce pro C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Naučte se vytvořit prázdný dokument Word se seskupenými obdélníky pomocí Aspose.Words v C#.
+
+### [Vložit obdélníkový tvar v Javě – seskupit a umístit tvary](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+Naučte se, jak seskupit a přesně umístit obdélníkové tvary v dokumentu Word pomocí Aspose.Words pro Javu.
+
+### [Vložit obrázek do Wordu – Aspose.Words krok za krokem](./insert-image-into-word-aspose-words-step-by-step-guide/)
+Naučte se, jak vložit obrázek do dokumentu Word pomocí Aspose.Words pro Javu krok za krokem.
+
+### [Vložit obdélníkový tvar do Wordu pomocí C# – kompletní průvodce](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+Kompletní průvodce, jak vložit obdélníkový tvar do dokumentu Word pomocí C# a Aspose.Words.
 
 ## Další zdroje
 
+## Další zdroje
 - [Dokumentace k Aspose.Words pro Javu](https://reference.aspose.com/words/java/)
 - [Referenční příručka k Aspose.Words pro Java API](https://reference.aspose.com/words/java/)
 - [Stáhněte si Aspose.Words pro Javu](https://releases.aspose.com/words/java/)

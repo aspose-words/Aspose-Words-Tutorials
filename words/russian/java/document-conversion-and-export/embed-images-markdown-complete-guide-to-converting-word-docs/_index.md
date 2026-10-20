@@ -1,26 +1,65 @@
 ---
 category: general
-date: 2025-12-28
-description: Встраивайте изображения в markdown при конвертации docx в markdown. Узнайте,
-  как конвертировать Word в markdown, сохранять документ в markdown и экспортировать
-  markdown из Word с изображениями в формате Base64.
+date: 2026-10-17
+description: Узнайте, как вставлять изображения markdown при конвертации Word в Markdown
+  с помощью Aspose.Words. Конвертируйте docx в markdown и эффективно экспортируйте
+  word markdown.
 draft: false
 keywords:
-- embed images markdown
+- how to embed images
 - convert docx to markdown
 - convert word to markdown
-- save document markdown
 - export word markdown
-language: ru
-og_description: встраивание изображений в markdown мгновенно. Этот учебник показывает,
-  как конвертировать docx в markdown, встраивать изображения в виде Base64 и экспортировать
-  markdown Word с помощью Aspose.Words.
-og_title: вставка изображений в markdown – пошаговое преобразование из Word
+- how to save markdown
+lastmod: 2026-10-17
+og_description: Как вставлять изображения markdown в ваши документы. Это руководство
+  показывает конвертацию Word в Markdown с помощью Aspose.Words, вставку изображений
+  в формате Base64 и быстрый экспорт word markdown.
+og_image_alt: Screenshot showing a Base64‑encoded image embedded in Markdown output
+og_title: Как вставлять изображения markdown – конвертация Word в Markdown
+schemas:
+- author: Aspose
+  dateModified: '2026-10-17'
+  description: Learn how to embed images markdown when converting Word to Markdown
+    with Aspose.Words. Convert docx to markdown and export word markdown efficiently.
+  headline: How to embed images markdown – complete guide to converting Word docs
+  type: TechArticle
+- description: Learn how to embed images markdown when converting Word to Markdown
+    with Aspose.Words. Convert docx to markdown and export word markdown efficiently.
+  name: How to embed images markdown – complete guide to converting Word docs
+  steps:
+  - name: Share the Markdown on platforms that strip external assets.
+    text: Share the Markdown on platforms that strip external assets.
+  - name: Store documentation in a Git repo where you want a single file per article.
+    text: Store documentation in a Git repo where you want a single file per article.
+  - name: Generate static sites that read Markdown without a separate image folder.
+    text: Generate static sites that read Markdown without a separate image folder.
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Words works in ASP.NET Core, Azure Functions, and other .NET
+      web hosts; just avoid writing large files to the server’s temp folder.
+    question: Can I use this approach in a web application?
+  - answer: Absolutely—pass the password to the `Document` constructor or `LoadOptions`
+      before conversion.
+    question: Does the library support password‑protected Word files?
+  - answer: Aspose.Words can handle multi‑hundred‑page documents; the only limit is
+      available memory. Using the callback keeps memory usage low because images are
+      streamed.
+    question: What is the maximum file size I can process?
+  - answer: By default tables become Markdown tables; enable `options.ExportTableStructure
+      = true` for more precise control.
+    question: Will tables be converted correctly?
+  - answer: Yes, a commercial license removes evaluation limits; a free trial is available
+      for development and testing.
+    question: Is a license required for production use?
+  type: FAQPage
 tags:
+- embed images markdown
 - Aspose.Words
 - C#
-- Markdown
-title: Встраивание изображений в markdown – Полное руководство по конвертации Word‑документов
+- Markdown conversion
+- docx to markdown
+title: Как вставлять изображения markdown – полное руководство по конвертации Word‑документов
 url: /ru/java/document-conversion-and-export/embed-images-markdown-complete-guide-to-converting-word-docs/
 ---
 
@@ -28,69 +67,78 @@ url: /ru/java/document-conversion-and-export/embed-images-markdown-complete-guid
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# embed images markdown – Полное руководство по конвертации Word‑документов
+# Как встраивать изображения в markdown – полное руководство по конвертации Word‑документов
 
-Ever wondered how to **embed images markdown** when you need to turn a Word file into a clean Markdown document? You're not alone. Many developers hit a wall when their images disappear or end up as broken links after a simple convert‑docx‑to‑markdown operation. The good news? With a few lines of C# and Aspose.Words you can embed every picture directly into the Markdown file as a Base64 string—no external assets required.
+Когда‑нибудь задумывались, как **встраивать изображения в markdown**, когда нужно превратить файл Word в чистый документ Markdown? Вы не одиноки. Многие разработчики сталкиваются с проблемой, когда их изображения исчезают или становятся битой ссылкой после простой операции конвертации docx в markdown. Хорошие новости? С несколькими строками C# и Aspose.Words вы можете встроить каждую картинку непосредственно в файл Markdown в виде строки Base64 — без внешних ресурсов. В этом руководстве вы узнаете **как встраивать изображения**, чтобы ваш Markdown оставался автономным и переносимым.
 
-In this tutorial we’ll walk through converting a `.docx` file to Markdown, embedding all images, and finally saving the result so you can **save document markdown** straight to disk. By the end you’ll also know how to **convert word to markdown**, **export word markdown**, and handle the usual edge cases that trip up newcomers.
+## Быстрые ответы
+- **Могу ли я встраивать изображения без внешних файлов?** Yes, use Base64 data URIs generated by Aspose.Words.  
+- **Какие версии .NET поддерживаются?** .NET 6+, .NET 5, .NET Core 3.1, and .NET Framework 4.6+.  
+- **Нужна ли лицензия для продакшн?** A commercial license is required; a free trial works for evaluation.  
+- **Увеличат ли большие изображения размер файла?** Base64 adds ~33 % size overhead; consider compressing images first.  
+- **Возможна ли пакетная конверсия?** Absolutely – wrap the same logic in a loop to process multiple files.
 
-## Что вы узнаете
+## Как встраивать изображения в Markdown?
 
-- Почему встраивание изображений в Markdown часто является самым надёжным способом  
-- Как **convert docx to markdown** с помощью Aspose.Words for .NET  
-- Точный код, необходимый для **embed images markdown** в виде Base64  
-- Советы по устранению распространённых проблем при **save document markdown**  
-- Следующие шаги для дальнейшей автоматизации, например пакетная обработка нескольких Word‑файлов  
+Загрузите ваш документ Word, настройте `MarkdownSaveOptions` с `ResourceSavingCallback` и сохраните результат. Обратный вызов заменяет каждую ссылку на файл изображения на URI `data:image/...;base64,`, гарантируя, что полученный файл `.md` содержит все визуальные ресурсы встроенными. Этот подход работает с любым количеством изображений и требует только библиотеку Aspose.Words — без дополнительных инструментов обработки изображений.
 
-> **Требования** – Вам понадобится .NET 6+ (или .NET Framework 4.6+), пакет Aspose.Words for .NET NuGet и базовая C# IDE, такая как Visual Studio. Другие библиотеки не требуются.
+## Почему встраивать изображения в markdown?
 
----
-
-## Почему встраивать изображения markdown?
-
-Embedding images directly into Markdown (`![alt text](data:image/png;base64,…)`) guarantees that the resulting file is self‑contained. This is especially handy when you:
+Встраивание изображений непосредственно в Markdown (`![alt text](data:image/png;base64,…)`) гарантирует, что полученный файл будет автономным. Это особенно удобно, когда вы:
 
 1. Делитесь Markdown на платформах, которые удаляют внешние ресурсы.  
 2. Храните документацию в репозитории Git, где нужен один файл на статью.  
-3. Генерируете статические сайты, которые читают Markdown без отдельной папки с изображениями.  
+3. Генерируете статические сайты, которые читают Markdown без отдельной папки с изображениями.
 
-If you skip embedding, you’ll end up with image links that point to paths that don’t exist in the target environment—​a classic source of broken documentation.
+Если вы пропустите встраивание, у вас останутся ссылки на изображения, указывающие на пути, которые не существуют в целевой среде — классический источник битой документации.
 
-![скриншот embed images markdown](/images/embed-images-markdown.png "Пример встроенного изображения Base64 в Markdown")
+![скриншот встраивания изображений в markdown](/images/embed-images-markdown.png "Пример встроенного изображения Base64 в Markdown")
 
-*Текст alt изображения: пример embed images markdown, показывающий изображение, закодированное в Base64.*
+*Текст alt изображения: пример встраивания изображений в markdown, показывающий изображение, закодированное в Base64.*
 
----
+## Что такое Aspose.Words?
 
-## Шаг 1: Загрузка исходного документа
+Aspose.Words — это .NET‑библиотека, позволяющая создавать, редактировать, конвертировать и рендерить документы Word без установленного Microsoft Word. Она поддерживает **35+ форматов ввода и вывода** — включая DOCX, PDF, HTML и Markdown — и может обрабатывать 500‑страничные документы менее чем за 3 секунды на типичном сервере.
 
-The first thing we need is a `Document` object that represents the Word file you want to convert. Aspose.Words makes this a one‑liner.
+## Как работает конверсия?
+
+Aspose.Words разбирает файл Word в дерево узлов в памяти. Данные изображений находятся в узлах `Shape`. Предоставив `ResourceSavingCallback`, вы перехватываете каждый поток изображения, конвертируете его в Base64 и инструктируете сохранитель встраивать URI данных непосредственно в сгенерированный Markdown. Остальная часть документа (текст, таблицы, заголовки) выводится в виде стандартного синтаксиса Markdown.
+
+## Предварительные требования
+- .NET 6+ (или .NET Framework 4.6+)
+- Пакет NuGet Aspose.Words для .NET
+- IDE C#, например Visual Studio или VS Code
+
+## Шаг 1: Загрузить исходный документ
+
+Класс `Document` — это объект верхнего уровня Aspose.Words, представляющий один файл Word в памяти. После создания все операции чтения и записи проходят через этот объект.
+
+Загрузите файл одной строкой кода (заполнитель указывает, где находится ваш оригинальный блок кода):
 
 ```csharp
 // Step 1: Load the source document
 Document doc = new Document("YOUR_DIRECTORY/input.docx");
 ```
 
-> **Почему это важно** – Loading the document gives you access to its internal node tree, including all `Shape` nodes that hold images. Without this step, there’s nothing to embed.
+> **Почему это важно** – Загрузка документа дает доступ к его внутреннему дереву узлов, включая все узлы `Shape`, содержащие изображения. Без этого шага нечего встраивать.
 
----
+## Шаг 2: Настроить параметры сохранения Markdown
 
-## Шаг 2: Настройка параметров сохранения Markdown
-
-Next, create a `MarkdownSaveOptions` instance. This object tells Aspose.Words how the conversion should behave.
+Создайте экземпляр `MarkdownSaveOptions`. Этот объект указывает Aspose.Words, как должна вести себя конверсия, включая необходимость встраивания изображений.
 
 ```csharp
 // Step 2: Create Markdown save options
 MarkdownSaveOptions markdownSaveOptions = new MarkdownSaveOptions();
 ```
 
-You could tweak properties here (e.g., `ExportImagesAsBase64 = true`), but we’ll use a callback for finer control, which also lets us log each image processed.
+Вы можете настроить свойства здесь (например, `ExportImagesAsBase64 = true`), но мы будем использовать обратный вызов для более точного контроля, который также позволяет вести журнал каждой обработанной картинки.
 
----
+## Шаг 3: Встраивание изображений как Base64
 
-## Шаг 3: Встраивание изображений в виде Base64
+`ResourceSavingCallback` — это делегат, позволяющий контролировать, как внешние ресурсы сохраняются во время конвертации.  
+`ResourceSavingResult.Embed` указывает сохранителю встраивать ресурс как data URI вместо записи отдельного файла.
 
-Here’s the heart of the solution. By assigning a `ResourceSavingCallback`, we intercept every image Aspose.Words wants to write out and replace it with an in‑memory Base64 stream.
+Вот ядро решения. Присвоив `ResourceSavingCallback`, мы перехватываем каждое изображение, которое Aspose.Words хочет записать, и заменяем его потоком Base64 в памяти.
 
 ```csharp
 // Step 3: Configure the callback to embed all images as Base64
@@ -104,33 +152,29 @@ markdownSaveOptions.ResourceSavingCallback = resourceInfo =>
 
 **Что происходит?**  
 - `resourceInfo.Stream` содержит необработанные байты изображения.  
-- `ResourceSavingResult.Embed` указывает сохраняющему модулю генерировать URI `data:` вместо ссылки на файл.  
-- Callback вызывается для *каждого* изображения, поэтому вам не нужно вручную перечислять фигуры.
+- `ResourceSavingResult.Embed` указывает сохранителю генерировать URI `data:` вместо ссылки на файл.  
+- Обратный вызов выполняется для *каждого* изображения, поэтому вам не нужно вручную перечислять формы.
 
----
+## Шаг 4: Сохранить документ как Markdown
 
-## Шаг 4: Сохранение документа в формате Markdown
-
-Finally, we write the Markdown file to disk. The callback from the previous step ensures every picture ends up as a Base64 string inside the Markdown.
+Наконец, мы записываем файл Markdown на диск. Обратный вызов из предыдущего шага гарантирует, что каждое изображение будет представлено в виде строки Base64 внутри Markdown.
 
 ```csharp
 // Step 4: Save the document as a Markdown file
 doc.Save("YOUR_DIRECTORY/output.md", markdownSaveOptions);
 ```
 
-When you open `output.md` you’ll see something like:
+Когда вы откроете `output.md`, вы увидите примерно следующее:
 
 ```markdown
 ![Image 0](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...)
 ```
 
-That line is a fully embedded picture—no external file needed.
-
----
+Эта строка — полностью встроенное изображение, без необходимости во внешнем файле.
 
 ## Полный рабочий пример
 
-Putting it all together, here’s a ready‑to‑run console app. Feel free to copy, paste, and tweak the paths.
+Собрав всё вместе, представляем готовое к запуску консольное приложение. Смело копируйте, вставляйте и меняйте пути.
 
 ```csharp
 using Aspose.Words;
@@ -162,25 +206,21 @@ class Program
 }
 ```
 
-Run the program, open `output.md` in any Markdown viewer, and you’ll see the original Word layout preserved, images and all.
-
----
+Запустите программу, откройте `output.md` в любом просмотрщике Markdown, и вы увидите оригинальное оформление Word, включая изображения.
 
 ## Распространённые подводные камни и крайние случаи
 
 | Проблема | Почему происходит | Решение |
 |----------|-------------------|---------|
-| **Большие изображения увеличивают размер Markdown** | Base64 добавляет примерно 33 % накладных расходов. | Измените размер или сожмите изображения перед встраиванием, либо используйте `ExportImagesAsBase64 = false` для внешних ресурсов. |
-| **Неподдерживаемые форматы изображений (например, WMF)** | Aspose.Words может не конвертировать векторные форматы в PNG автоматически. | Сначала преобразуйте WMF/EMF в PNG в Word, либо используйте `ImageSaveOptions` для растеризации. |
-| **Большое потребление памяти при огромных документах** | Callback загружает каждое изображение в память. | Обрабатывайте документы частями или увеличьте лимит памяти процесса. |
-| **Отсутствует alt‑текст** | По умолчанию Aspose.Words может генерировать общий alt‑текст. | Установите `Shape.AlternativeText` в Word перед конвертацией или после‑обработайте Markdown, чтобы добавить осмысленные описания. |
+| **Большие изображения увеличивают размер Markdown** | Base64 добавляет ~33 % накладных расходов. | Измените размер или сожмите изображения перед встраиванием, либо используйте `ExportImagesAsBase64 = false` для внешних ресурсов. |
+| **Неподдерживаемые форматы изображений (например, WMF)** | Aspose.Words может не конвертировать векторные форматы в PNG автоматически. | Сначала конвертируйте WMF/EMF в PNG в Word, либо используйте `ImageSaveOptions` для растеризации. |
+| **Нагрузка на память при больших документах** | Обратный вызов загружает каждое изображение в память. | Обрабатывайте документы частями или увеличьте лимит памяти процесса. |
+| **Отсутствует alt‑текст** | По умолчанию Aspose.Words может генерировать общий alt‑текст. | Установите `Shape.AlternativeText` в Word перед конвертацией или пост‑обработайте Markdown, добавив осмысленные описания. |
 | **Неправильные пути к файлам** | Жёстко закодированные пути вызывают `FileNotFoundException`. | Используйте `Path.Combine` и переменные окружения для надёжного формирования путей. |
 
----
+## Как **конвертировать docx в markdown** пакетно
 
-## Как **convert docx to markdown** пакетно
-
-If you have dozens of Word files, wrap the previous code in a loop:
+Загружайте каждый файл Word в цикле, переиспользуйте один и тот же `MarkdownSaveOptions` и вызывайте `Save` для каждого документа. Этот шаблон **сохраняет документ в markdown** для каждого исходного файла без ручного вмешательства. Перебирая коллекцию путей к файлам, вы можете вести журнал каждой конверсии, обрабатывать ошибки по отдельности и при желании сжимать изображения перед встраиванием, чтобы итоговый размер Markdown оставался управляемым.
 
 ```csharp
 string[] files = Directory.GetFiles("YOUR_DIRECTORY", "*.docx");
@@ -192,28 +232,51 @@ foreach (var file in files)
 }
 ```
 
-This approach **save document markdown** for each source file without manual intervention. Remember to reuse the same `options` instance to keep the callback active.
-
----
-
 ## Следующие шаги и связанные темы
 
-- **Export Word markdown** в генераторы статических сайтов, такие как Hugo или Jekyll — просто поместите файлы `.md` в папку контента.  
+- **Экспортировать Word markdown** в генераторы статических сайтов, такие как Hugo или Jekyll — просто поместите файлы `.md` в папку контента.  
 - Используйте **convert word to markdown** в CI‑конвейерах (GitHub Actions, Azure DevOps), чтобы поддерживать документацию в синхронизации с исходными файлами.  
-- Исследуйте другие форматы экспорта (HTML, PDF) с аналогичными callback‑ами для обработки изображений.  
-- Если нужно **convert docx to markdown** с сохранением таблиц, установите `options.ExportTableStructure = true`.  
+- Исследуйте другие форматы экспорта (HTML, PDF) с аналогичными обратными вызовами для обработки изображений.  
+- Если необходимо **конвертировать docx в markdown** с сохранением таблиц, установите `options.ExportTableStructure = true`.  
 
----
+## Часто задаваемые вопросы
 
-## Заключение
+**Q: Могу ли я использовать этот подход в веб‑приложении?**  
+A: Да, Aspose.Words работает в ASP.NET Core, Azure Functions и других .NET‑веб‑хостах; просто избегайте записи больших файлов во временную папку сервера.
 
-We’ve covered everything you need to **embed images markdown** when you **convert docx to markdown** using Aspose.Words for .NET. By loading the document, configuring `MarkdownSaveOptions`, hooking a `ResourceSavingCallback`, and saving the result, you end up with a single, portable Markdown file that contains every picture as a Base64 data URI. This technique not only solves the dreaded broken‑image problem but also makes it trivial to **save document markdown** and **export word markdown** in automated workflows.
+**Q: Поддерживает ли библиотека Word‑файлы, защищённые паролем?**  
+A: Абсолютно — передайте пароль в конструктор `Document` или в `LoadOptions` перед конвертацией.
 
-Give it a try on your next documentation project—whether you’re building a knowledge base, generating release notes, or simply archiving reports. And if you run into a snag, check the “Common Pitfalls” table above; most issues are just a quick tweak away.
+**Q: Какой максимальный размер файла я могу обработать?**  
+A: Aspose.Words может обрабатывать документы в несколько сотен страниц; единственное ограничение — доступная память. Использование обратного вызова снижает потребление памяти, поскольку изображения передаются потоково.
 
-*Счастливого кодинга и наслаждайтесь вашим новым встраиваемым Markdown!*
+**Q: Будут ли таблицы конвертированы корректно?**  
+A: По умолчанию таблицы превращаются в таблицы Markdown; включите `options.ExportTableStructure = true` для более точного контроля.
+
+**Q: Требуется ли лицензия для продакшн‑использования?**  
+A: Да, коммерческая лицензия снимает ограничения оценки; бесплатная пробная версия доступна для разработки и тестирования.
+
+## Ссылки
+
+[текст alt](data:image/png;base64,…)
+
+[скриншот встраивания изображений markdown](/images/embed-images-markdown.png "Пример встроенного изображения Base64 в Markdown")
+
+[Изображение 0](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...)
+
+**Последнее обновление:** 2026-10-17  
+**Тестировано с:** Aspose.Words 24.12 for .NET  
+**Автор:** Aspose
+
+## Связанные руководства
+
+- [Полное руководство по конвертации Docx в Markdown на Java с Aspose Words](/words/java/document-conversion-and-export/convert-docx-to-markdown-full-java-guide-with-aspose-words/)
+- [Встраивание изображений как Base64 при конвертации Docx в Markdown на Java](/words/java/document-conversion-and-export/embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
+- [Как сохранить страницу как JPEG и извлечь изображения из документов с Aspose.Words для Java](/words/java/document-loading-and-saving/saving-images-from-documents/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

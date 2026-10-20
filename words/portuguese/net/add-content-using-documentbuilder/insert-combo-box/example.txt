@@ -1,0 +1,24 @@
+//ExStart
+//ExSummary: Este tutorial mostra como criar um documento Word, adicionar um campo de formulário combo box com itens predefinidos usando DocumentBuilder e salvar o documento.
+//ExStepSummary:0: Defina o caminho da pasta onde o documento resultante será salvo.
+//ExStepSummary:1: Crie um array de strings que preencherá as opções do combo box.
+//ExStepSummary:2: Instancie um novo Document e um DocumentBuilder associado a ele.
+//ExStepSummary:3: Chame `builder.InsertComboBox` para inserir um combo box chamado "DropDown" com os itens definidos na posição atual do cursor.
+//ExStepSummary:4: Salve o documento no diretório especificado como um arquivo .docx.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+string[] items = { "One", "Two", "Three" };
+
+//ExStep:2-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertComboBox("DropDown", items, 0);
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertComboBoxFormField.docx");
+//ExEnd

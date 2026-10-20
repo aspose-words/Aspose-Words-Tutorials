@@ -1,0 +1,7 @@
+Title: Summarize word document in C# – step‑by‑step guide using AI
+Slug: summarize-word-document-in-c-step-by-step-guide-using-ai
+Category: ai-powered-document-processing
+ProcessedDate: 2026-08-14T10:21:34.451405
+SourceRepo: AI Search API
+Keywords: summarize word document, load docx file, ai feature summarize, use ai summarize, quick word summary
+PRNumber: 251
