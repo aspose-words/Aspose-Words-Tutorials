@@ -268,6 +268,8 @@ Aspose.Words for Java를 이용해 DOCX 문서의 LaTeX 수식을 추출하여 �
 ### [DOCX를 Markdown으로 내보내기 – 전체 C# 가이드](./export-docx-as-markdown-complete-c-guide/)
 ### [문서를 TXT로 저장 – Word 수식 내보내기 빠른 가이드](./save-document-as-txt-quick-guide-to-export-word-math/)
 Aspose.Words for Java를 사용하여 문서를 TXT 형식으로 저장하고 Word 수식을 내보내는 방법을 단계별로 안내합니다.
+### [Save docx as markdown – Full Java Guide with Image Extraction](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
+
 
 ### [Java용 Aspose.Words에서 Word를 Markdown으로 저장 – DOCX를 Markdown으로 변환하는 완전 가이드](./save-word-as-markdown-complete-guide-to-convert-docx-to-mark/)
 

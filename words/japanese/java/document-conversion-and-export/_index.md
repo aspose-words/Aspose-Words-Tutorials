@@ -205,6 +205,9 @@ Aspose.Words for Java を使用し、DOCX を Markdown に変換する際に画�
 ### [アクセシブル PDF の作成 – Word 文書変換のための Java ガイド](./create-accessible-pdf-java-guide-for-converting-word-documen/)
 ### [docx を markdown に保存 – 完全 C# ガイド](./save-docx-as-markdown-complete-c-guide/)
 ### [Word から Markdown をエクスポートする方法 – 完全ガイド](./how-to-export-markdown-from-word-complete-guide/)
+### [docx を markdown に保存 – 画像抽出付きの完全 Java ガイド](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
+Aspose.Words for Java を使用して、docx を markdown に変換し、画像を抽出して保存する手順をステップバイステップで解説します。
+
 ### [ドキュメントをTXTとして保存 – Word数式エクスポートのクイックガイド](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 ### [ドキュメントをTXTとして保存 – DOCXをLaTeXテキストに変換](./save-document-as-txt-convert-docx-to-text-with-latex/)
 ### [Aspose.Words for Java で文書を PDF に保存 – 完全ステップバイステップガイド](./save-document-as-pdf-with-java-complete-step-by-step-guide/)

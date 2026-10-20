@@ -176,6 +176,8 @@ Naučte se, jak při konverzi DOCX do Markdown vložit obrázky tak, aby byly sp
 
 ### [Vkládání obrázků jako Base64 při konverzi DOCX do Markdownu](./embed-images-as-base64-when-converting-docx-to-markdown/)
 Naučte se, jak při převodu DOCX na Markdown vložit obrázky jako Base64 kód, aby se zobrazily přímo v Markdown souboru.
+### [Uložit DOCX jako Markdown – Kompletní průvodce v Javě s extrakcí obrázků](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
+Naučte se, jak převést DOCX na Markdown v Javě pomocí Aspose.Words a extrahovat vložené obrázky do samostatných souborů.
 
 ### [Vytvořit přístupný PDF z DOCX – Kompletní průvodce](./create-accessible-pdf-from-docx-complete-guide/)
 Naučte se, jak pomocí Aspose.Words for Java převést DOCX na PDF s podporou přístupnosti a splnit standardy WCAG.

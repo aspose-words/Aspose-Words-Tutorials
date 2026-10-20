@@ -61,6 +61,9 @@ Lär dig hur du grupperar former i ett Word-dokument med Aspose.Words för Java.
 ### [Skapa Word-dokument Java – Lägg till form med skuggeffekt](./create-word-document-java-add-shape-with-shadow-effect/)
 Lär dig hur du lägger till en form med skuggeffekt i ett Word-dokument med Aspose.Words för Java.
 
+### [Skapa rektangel i Java med Aspose.Words – Fullständig guide](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Lär dig steg för steg hur du skapar och anpassar en rektangel i ett Word-dokument med Aspose.Words för Java.
+
 ## Ytterligare resurser
 
 ## Ytterligare resurser

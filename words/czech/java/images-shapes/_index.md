@@ -61,6 +61,9 @@ Naučte se, jak seskupovat tvary v dokumentech Word pomocí Aspose.Words pro Jav
 ### [Vytvořit Word dokument v Javě – Přidat tvar se stínovým efektem](./create-word-document-java-add-shape-with-shadow-effect/)
 Naučte se, jak přidat tvar se stínovým efektem do Word dokumentu pomocí Aspose.Words pro Javu.
 
+### [Vytvořit obdélníkový tvar v Javě pomocí Aspose.Words – Kompletní průvodce](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Kompletní návod, jak v Javě pomocí Aspose.Words vytvořit a nastavit obdélníkový tvar v dokumentu Word.
+
 ## Další zdroje
 
 ## Další zdroje

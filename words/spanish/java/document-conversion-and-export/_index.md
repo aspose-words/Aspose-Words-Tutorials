@@ -202,6 +202,8 @@ Aprenda a guardar documentos como PDF usando Aspose.Words for Java con una guía
 
 ### [Convertir Word a PDF – Generar PDF accesible](./convert-word-to-pdf-generate-accessible-pdf/)
 Aprende a convertir documentos Word a PDF accesible cumpliendo con PDF/UA usando Aspose.Words for Java.
+### [Guardar docx como markdown – Guía completa en Java con extracción de imágenes](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
+Aprenda a convertir archivos DOCX a Markdown en Java, extrayendo imágenes y conservando el formato.
 
 ### [Cómo exportar LaTeX desde Word: convertir DOCX a Markdown y guardar como PDF](./how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 Aprenda a convertir documentos Word a LaTeX mediante Markdown y generar un PDF final.

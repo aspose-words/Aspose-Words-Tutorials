@@ -124,6 +124,9 @@ Lär dig hur du konverterar DOCX‑filer till Markdown med Aspose.Words för Jav
 ### [Konvertera DOCX till Markdown – Komplett Java‑handledning](./convert-docx-to-markdown-complete-java-tutorial/)
 Lär dig hur du konverterar DOCX‑filer till Markdown med Aspose.Words för Java i en komplett steg‑för‑steg‑guide.
 
+### [Spara docx som markdown – Fullständig Java-guide med bildextraktion](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
+Lär dig hur du sparar DOCX som Markdown i Java och extraherar bilder i en komplett guide.
+
 ### [Aspose Word till PDF – Konvertera DOCX till PDF i Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Lär dig hur du konverterar DOCX‑filer till PDF med Aspose.Words for Java i några enkla steg.
 

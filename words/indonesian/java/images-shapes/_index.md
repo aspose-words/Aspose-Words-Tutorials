@@ -61,6 +61,9 @@ Pelajari cara mengelompokkan beberapa bentuk menjadi satu grup dalam dokumen Wor
 ### [Buat Dokumen Word Java – Tambahkan Bentuk dengan Efek Bayangan](./create-word-document-java-add-shape-with-shadow-effect/)
 Pelajari cara menambahkan bentuk dengan efek bayangan ke dokumen Word menggunakan Aspose.Words untuk Java.
 
+### [Buat Bentuk Persegi Panjang di Java dengan Aspose.Words – Panduan Lengkap](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Pelajari cara membuat bentuk persegi panjang di dokumen Word menggunakan Aspose.Words untuk Java dengan langkah-langkah lengkap.
+
 ## Sumber Daya Tambahan
 
 ## Sumber Daya Tambahan

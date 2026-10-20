@@ -119,6 +119,8 @@ DOCX को मार्कडाउन में बदलते समय छ�
 
 ### [docx को txt के रूप में सहेजें LaTeX गणित निर्यात के साथ – पूर्ण जावा गाइड](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
 Aspose.Words for Java का उपयोग करके docx फ़ाइल को txt में बदलें और LaTeX फ़ॉर्मेट में गणितीय समीकरण निर्यात करें।
+### [docx को markdown के रूप में सहेजें – इमेज एक्सट्रैक्शन के साथ पूर्ण जावा गाइड](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
+Aspose.Words for Java का उपयोग करके docx को markdown में बदलें और छवियों को निकालें। पूर्ण कोड उदाहरण।
 
 ### [DOCX से एक्सेसिबल PDF बनाना – पूर्ण गाइड](./create-accessible-pdf-from-docx-complete-guide/)
 ### [Java में DOCX को Markdown में बदलते समय इमेजेज को Base64 के रूप में एम्बेड करना](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
@@ -275,23 +277,6 @@ Aspose.Words for Java का उपयोग करके docx फ़ाइल �
 ### [Word को Markdown के रूप में सहेजें – DOCX को Markdown में बदलने की पूर्ण गाइड](./save-word-as-markdown-complete-guide-to-convert-docx-to-mark/)
 
 ### [DOCX को Markdown में बदलें – पूर्ण जावा ट्यूटोरियल](./convert-docx-to-markdown-complete-java-tutorial/)
-
-## अक्सर पूछे जाने वाले प्रश्न
-
-**Q: Aspose.Words का उपयोग करके मौजूदा PDF में वॉटरमार्क कैसे जोड़ूँ?**  
-A: दस्तावेज़ लोड करें, `DocumentBuilder.insertWatermarkText` या `insertWatermarkImage` का उपयोग करें, फिर PDF के रूप में सहेजें।
-
-**Q: क्या मैं DOCX फ़ाइल को PDF में बिना जटिल लेआउट खोए बदल सकता हूँ?**  
-A: हाँ। Aspose.Words रूपांतरण के दौरान लेआउट, फ़ॉन्ट और ग्राफ़िक्स को बरकरार रखता है।
-
-**Q: जावा में कस्टम बारकोड लेबल कैसे जेनरेट करूँ?**  
-A: Aspose.Words द्वारा प्रदान किए गए बारकोड API का उपयोग करें, बारकोड प्रकार निर्दिष्ट करें, और इसे इमेज या शेप के रूप में डालें।
-
-**Q: टेबल्स को लगातार फ़ॉर्मेट करने का सबसे अच्छा तरीका क्या है?**  
-A: `Table.setStyleIdentifier` मेथड के माध्यम से TableStyle लागू करें या बिल्ट‑इन स्टाइल गैलरी का उपयोग करें।
-
-**Q: क्या व्यावसायिक उपयोग के लिए लाइसेंस आवश्यक है?**  
-A: हाँ, उत्पादन डिप्लॉयमेंट के लिए एक व्यावसायिक लाइसेंस आवश्यक है; मूल्यांकन के लिए एक फ़्री ट्रायल उपलब्ध है।
 
 ---
 

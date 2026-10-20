@@ -61,6 +61,9 @@ Leer hoe u meerdere vormen groepeert in een Word-document met Aspose.Words voor 
 ### [Word-document maken in Java – Vorm met schaduweffect toevoegen](./create-word-document-java-add-shape-with-shadow-effect/)
 Leer hoe u een vorm met schaduweffect toevoegt aan een Word-document met Aspose.Words voor Java.
 
+### [Rechthoekvorm maken in Java met Aspose.Words – Volledige gids](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Leer stap voor stap hoe u een rechthoekige vorm toevoegt aan een Word-document met Aspose.Words voor Java.
+
 ## Aanvullende bronnen
 
 ## Aanvullende bronnen

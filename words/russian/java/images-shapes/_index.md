@@ -61,6 +61,9 @@
 ### [Создание документа Word в Java – Добавление фигуры с эффектом тени](./create-word-document-java-add-shape-with-shadow-effect/)
 Узнайте, как добавить фигуру с эффектом тени в документ Word с помощью Aspose.Words для Java.
 
+### [Создание прямоугольной фигуры в Java с Aspose.Words – Полное руководство](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Узнайте, как полностью создать и настроить прямоугольную фигуру в документе Word с помощью Aspose.Words для Java.
+
 ## Дополнительные ресурсы
 
 ## Дополнительные ресурсы

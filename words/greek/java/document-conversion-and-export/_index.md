@@ -311,6 +311,9 @@ weight: 22
 ### [Java docx σε PDF – Δημιουργία προσβάσιμου PDF με Aspose.Words](./java-docx-to-pdf-generate-accessible-pdf-with-aspose-words/)
 Μάθετε πώς να μετατρέψετε αρχεία DOCX σε προσβάσιμο PDF χρησιμοποιώντας το Aspose.Words for Java, με βήμα‑βήμα οδηγίες.
 
+### [Αποθήκευση docx ως markdown – Πλήρης οδηγός Java με εξαγωγή εικόνων](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε Markdown και να εξάγετε ενσωματωμένες εικόνες χρησιμοποιώντας το Aspose.Words for Java.
+
 ## Συχνές Ερωτήσεις
 
 **Π: Πώς προσθέτω υδατογράφημα σε υπάρχον PDF χρησιμοποιώντας το Aspose.Words;**  

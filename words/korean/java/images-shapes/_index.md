@@ -61,6 +61,9 @@ Java를 사용하여 Word 문서에서 그룹 도형을 삽입하고 관리하�
 ### [Java에서 Word 문서 만들기 – 그림자 효과가 있는 도형 추가](./create-word-document-java-add-shape-with-shadow-effect/)
 Java를 사용해 Word 문서에 그림자 효과가 적용된 도형을 삽입하고 사용자 지정하는 방법을 단계별로 안내합니다.
 
+### [Java에서 Aspose.Words를 사용하여 사각형 도형 만들기 – 전체 가이드](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Aspose.Words for Java를 활용해 사각형 도형을 삽입하고 사용자 지정하는 전체 단계별 가이드를 확인하세요.
+
 ## 추가 자료
 
 ## 추가 자료

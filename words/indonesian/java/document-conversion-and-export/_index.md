@@ -318,6 +318,9 @@ Pelajari cara membuat dokumen PDF/UA‑1 yang mematuhi standar aksesibilitas men
 ### [Java docx ke PDF – Membuat PDF Aksesibel dengan Aspose.Words](./java-docx-to-pdf-generate-accessible-pdf-with-aspose-words/)
 Pelajari cara mengonversi DOCX ke PDF yang memenuhi standar aksesibilitas menggunakan Aspose.Words for Java, termasuk tag, teks alternatif, dan struktur dokumen.
 
+### [Simpan docx sebagai markdown – Panduan Java Lengkap dengan Ekstraksi Gambar](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
+Pelajari cara menyimpan file DOCX menjadi markdown lengkap dengan ekstraksi gambar menggunakan Aspose.Words for Java.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bagaimana cara menambahkan watermark ke PDF yang sudah ada menggunakan Aspose.Words?**  

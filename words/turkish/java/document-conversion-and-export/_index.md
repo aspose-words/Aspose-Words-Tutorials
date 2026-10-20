@@ -125,6 +125,8 @@ Aspose.Words for Java kullanarak DOCX dosyasını markdown formatına dönüşt�
 Aspose.Words for Java kullanarak Word belgelerini markdown formatına dönüştürmeyi ve tüm içeriği dışa aktarmayı adım adım öğrenin.
 ### [Aspose.Words for Java'da Word'ü markdown olarak kaydet – Matematik denklemlerini LaTeX'e dışa aktar Java ile](./save-word-as-markdown-export-math-to-latex-with-java/)
 Aspose.Words for Java kullanarak Word belgelerini markdown formatına kaydedin ve matematik denklemlerini LaTeX koduna dışa aktarın.
+### [docx'i markdown olarak kaydet – Görüntü Çıkarma ile Tam Java Rehberi](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
+Aspose.Words for Java kullanarak docx dosyasını markdown’a dönüştürün, metni ve gömülü resimleri çıkarın ve kaydedin.
 
 ### [Belgeyi TXT Olarak Kaydet – Word Matematiğini Dışa Aktarma Hızlı Rehberi](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Aspose.Words for Java kullanarak belgeyi TXT formatına kaydedin ve Word matematik denklemlerini dışa aktarın.

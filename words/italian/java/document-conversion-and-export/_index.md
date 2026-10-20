@@ -315,6 +315,9 @@ Scopri come generare documenti PDF/UA‑1 conformi con Aspose.Words per Java, pa
 ### [Java docx in PDF – Genera PDF accessibile con Aspose.Words](./java-docx-to-pdf-generate-accessible-pdf-with-aspose-words/)
 Scopri come convertire documenti DOCX in PDF accessibili usando Aspose.Words per Java, mantenendo struttura e tag per l'accessibilità.
 
+### [Salva docx come markdown – Guida completa Java con estrazione immagini](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
+Scopri come convertire DOCX in markdown con Java, includendo l'estrazione delle immagini in questa guida completa.
+
 ## Domande frequenti
 
 **Q: Come aggiungo una filigrana a un PDF esistente usando Aspose.Words?**  

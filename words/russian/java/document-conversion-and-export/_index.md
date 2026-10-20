@@ -167,6 +167,8 @@ weight: 22
 
 ### [Встраивание изображений в формате Base64 при конвертации DOCX в Markdown](./embed-images-as-base64-when-converting-docx-to-markdown/)
 Узнайте, как встраивать изображения в виде Base64 при конвертации DOCX в Markdown с помощью Aspose.Words for Java.
+### [Сохранить docx как markdown – Полное руководство Java с извлечением изображений](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
+Пошаговое руководство по сохранению DOCX в markdown с извлечением изображений в Java с использованием Aspose.Words.
 
 ### [Сохранить документ как TXT – Быстрое руководство по экспорту математических формул Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Узнайте, как экспортировать математические уравнения из Word в формат TXT с помощью Aspose.Words for Java.

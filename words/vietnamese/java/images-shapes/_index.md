@@ -61,6 +61,9 @@ Hướng dẫn chi tiết cách nhóm các hình dạng trong tài liệu Word b
 ### [Tạo tài liệu Word bằng Java – Thêm hình dạng với hiệu ứng bóng](./create-word-document-java-add-shape-with-shadow-effect/)
 Hướng dẫn cách chèn hình dạng có bóng vào tài liệu Word bằng Aspose.Words cho Java.
 
+### [Tạo hình chữ nhật trong Java với Aspose.Words – Hướng dẫn đầy đủ](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Hướng dẫn chi tiết cách tạo và tùy chỉnh hình chữ nhật trong tài liệu Word bằng Aspose.Words cho Java.
+
 ## Tài nguyên bổ sung
 
 ## Tài nguyên bổ sung
