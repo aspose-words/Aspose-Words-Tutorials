@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Tento tutoriál ukazuje, jak použít Aspose.Words Document a DocumentBuilder k vytvoření Word dokumentu, vložení histogramového grafu a přidání pojmenované datové řady pomocí přetížení ChartSeriesCollection.Add, které přijímá název a hodnoty.
+//ExStepSummary:0: Vytvořte nový prázdný Word dokument a DocumentBuilder pro jeho úpravu.
+//ExStepSummary:1: Vložte do dokumentu tvar histogramového grafu o rozměrech 500×300 a získejte jeho objekt Chart.
+//ExStepSummary:2: Odeberte výchozí zástupnou řadu, kterou Aspose.Words přidává do nových grafů.
+//ExStepSummary:3: Přidejte pojmenovanou řadu nazvanou "Demo Series" s určenými datovými body do histogramového grafu.
+//ExStepSummary:4: Uložte dokument do souboru .docx, který obsahuje pojmenované řady grafu.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape histogramShape = docBuilder.InsertChart(ChartType.Histogram, 500, 300);
+Chart histogramChart = histogramShape.Chart;
+
+//ExStep:2-
+histogramChart.Series.Clear();
+
+//ExStep:3-
+histogramChart.Series.Add("Demo Series", new double[] { 10, 20, 15, 30, 25 });
+
+//ExStep:4-
+myDocument.Save("LabeledSeriesDemo.docx");
+//ExEnd

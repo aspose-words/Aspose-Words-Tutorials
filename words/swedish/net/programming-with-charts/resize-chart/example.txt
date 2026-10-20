@@ -1,0 +1,60 @@
+//ExStart
+//ExSummary: Denna handledning visar hur man infogar ett stapeldiagram i ett Word‑dokument, ändrar dokumentets sidstorlek till A4 och automatiskt ändrar diagrammets storlek så att det förblir proportionellt mot den nya sidbredden.
+//ExStepSummary:0: Skapa ett nytt Document‑objekt och en DocumentBuilder för att redigera det.
+//ExStepSummary:1: Infoga ett stapeldiagram med storleken 432×252 punkter och hämta dess Chart‑objekt.
+//ExStepSummary:2: Ställ in diagramtitelns text till "Quarterly Revenue" och gör den synlig.
+//ExStepSummary:3: Spara dokumentet till en fil som visar diagrammets ursprungliga storlek.
+//ExStepSummary:4: Ändra dokumentets pappersstorlek till A4 och uppdatera layouten.
+//ExStepSummary:5: Beräkna en ny diagrambredd som är 80 % av sidbredden samtidigt som det ursprungliga bildförhållandet bevaras.
+//ExStepSummary:6: Om formen innehåller ett diagram, tillämpa den beräknade bredden och höjden för att ändra dess storlek.
+//ExStepSummary:7: Spara dokumentet efter att diagrammet har ändrats i storlek för att återspegla den nya sidstorleken.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:6:images/4.png
+//ExStep:0-
+// Instantiate an empty document.
+Document myDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDoc);
+
+//ExStep:1-
+// Place a column chart with a starting size of 432×252 points.
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chartObj = chartContainer.Chart;
+
+//ExStep:2-
+// Provide a basic heading for the chart.
+chartObj.Title.Text = "Quarterly Revenue";
+chartObj.Title.Show = true;
+
+//ExStep:3-
+// Persist the file to illustrate the original dimensions.
+myDoc.Save("report_before.docx");
+
+//ExStep:4-
+// Switch the document's paper format to A4.
+docBuilder.PageSetup.PaperSize = PaperSize.A4;
+
+// Refresh layout after the page configuration change.
+myDoc.UpdatePageLayout();
+
+//ExStep:5-
+// Determine updated chart size so it stays proportional to the new page width.
+// Use 80 % of the page width while keeping the original width‑to‑height ratio.
+double pageWidth = docBuilder.PageSetup.PageWidth;
+double originalAspectRatio = chartContainer.Height / chartContainer.Width;
+double newChartWidth = pageWidth * 0.8;
+double newChartHeight = newChartWidth * originalAspectRatio;
+
+//ExStep:6-
+// Verify the shape actually hosts a chart before applying new dimensions.
+if (chartContainer.HasChart)
+{
+    chartContainer.Width = newChartWidth;
+    chartContainer.Height = newChartHeight;
+}
+
+//ExStep:7-
+// Save the final document with the adjusted chart.
+myDoc.Save("report_after.docx");
+//ExEnd

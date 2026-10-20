@@ -1,49 +1,23 @@
 ---
 category: general
-date: 2026-08-01
-description: Aspose.Words를 사용해 Word에서 LaTeX를 내보내는 방법. 몇 줄의 Python 코드만으로 DOCX를 LaTeX
-  수식이 포함된 Markdown으로 변환합니다.
+date: 2026-03-01
+description: Word 문서에서 LaTeX를 내보내는 방법, DOCX를 마크다운으로 변환하는 방법, 그리고 LaTeX 수식이 포함된 Word를
+  txt로 변환하는 방법.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - how to export latex
 - convert docx to markdown
+- convert word to txt
+- convert word equations
 - save word as markdown
-- markdown with latex equations
-- convert word equations latex
 language: ko
-lastmod: 2026-08-01
-og_description: Word에서 LaTeX를 즉시 내보내는 방법. Aspose.Words를 사용하여 Python에서 LaTeX 수식이 포함된
-  DOCX를 Markdown으로 변환하는 방법을 배워보세요.
-og_image_alt: Diagram showing how to export LaTeX from a Word document to Markdown
-og_title: Word에서 LaTeX 내보내는 방법 – 빠른 DOCX에서 Markdown 변환 가이드
-schemas:
-- author: Aspose
-  dateModified: '2026-08-01'
-  description: How to export LaTeX from Word using Aspose.Words. Convert DOCX to Markdown
-    with LaTeX equations in just a few Python lines.
-  headline: How to export LaTeX from Word – Convert DOCX to Markdown
-  type: TechArticle
-- description: How to export LaTeX from Word using Aspose.Words. Convert DOCX to Markdown
-    with LaTeX equations in just a few Python lines.
-  name: How to export LaTeX from Word – Convert DOCX to Markdown
-  steps:
-  - name: Plain text paragraphs rendered normally.
-    text: Plain text paragraphs rendered normally.
-  - name: Equations displayed as crisp LaTeX, not as images.
-    text: Equations displayed as crisp LaTeX, not as images.
-  - name: Any embedded images from the original Word file copied to a sub‑folder (Aspose
-      creates a `output_files` folder automatically).
-    text: Any embedded images from the original Word file copied to a sub‑folder (Aspose
-      creates a `output_files` folder automatically).
-  type: HowTo
+og_description: Word 문서에서 LaTeX를 내보내는 방법, DOCX를 마크다운으로 변환하고 LaTeX 수식이 포함된 워드를 txt로
+  변환하는 방법.
+og_title: Word에서 LaTeX 내보내는 방법 – DOCX를 Markdown으로 변환
 tags:
-- python
-- aspose-words
-- markdown
-- latex
-- docx
+- Aspose.Words
+- Python
+- Document Conversion
 title: Word에서 LaTeX 내보내는 방법 – DOCX를 Markdown으로 변환
 url: /ko/python/document-conversion/how-to-export-latex-from-word-convert-docx-to-markdown/
 ---
@@ -54,151 +28,170 @@ url: /ko/python/document-conversion/how-to-export-latex-from-word-convert-docx-t
 
 # Word에서 LaTeX 내보내기 – DOCX를 Markdown으로 변환
 
-Word 파일에서 수식을 일일이 복사하지 않고 **LaTeX 내보내기** 방법이 궁금하셨나요? 당신만 그런 것이 아닙니다. 많은 보고 파이프라인에서 수학을 보존하면서 *docx를 markdown으로 변환*해야 하는데, 수작업으로 하다 보면 금세 악몽이 됩니다.
+수식이 가득한 Word 파일에서 **LaTeX를 내보내는 방법**을 궁금해 본 적 있나요? 당신만 그런 것이 아닙니다. 많은 연구 파이프라인에서 소스는 `.docx`이지만, 하위 도구들은 LaTeX, Markdown, 혹은 일반 텍스트 파일을 기대합니다. 좋은 소식은? 몇 줄의 Python 코드만으로 Word 문서를 Markdown 파일, TXT 파일로 변환하고 모든 수학 수식을 깔끔한 LaTeX 형태로 유지할 수 있다는 것입니다.
 
-이 튜토리얼에서는 `.docx`를 로드하고 Aspose.Words에 모든 Office Math 객체를 LaTeX로 렌더링하도록 지시한 뒤, 최종적으로 전체 문서를 깔끔한 Markdown 파일로 저장하는 **완전하고 실행 가능한 Python 스크립트**를 단계별로 살펴보겠습니다. 마지막까지 하면 **Word를 markdown으로 저장**하면서 완벽하게 포맷된 LaTeX 수식을 얻을 수 있으며, 별도의 후처리가 필요 없습니다.
+이 가이드에서는 `Equations.docx`를 로드하고 `Equations.md`와 `Equations.txt`로 저장하는 전체 과정을 단계별로 살펴봅니다. 끝까지 읽으면 **docx를 markdown으로 변환**, **word를 txt로 변환**, 그리고 **word 수식을 LaTeX로 변환**하는 방법을 손쉽게 익히게 됩니다.
 
-![Word 문서에서 LaTeX를 Markdown으로 내보내는 방법](https://example.com/images/export-latex-diagram.png){.center width=600 alt="Word 문서에서 LaTeX를 Markdown으로 내보내는 방법을 보여주는 다이어그램"}
+## What You’ll Need
 
-## 사전 요구 사항 — 시작하기 전에 필요한 것들
+- Python 3.8+ (최근 버전이면 모두 가능)
+- `aspose-words` 패키지 – `pip install aspose-words` 로 설치
+- 수식(Office Math 객체)이 포함된 Word 문서
+- 라이브러리의 수학 내보내기 모드가 어떻게 동작하는지에 대한 약간의 호기심
 
-- **Python 3.8+** (스크립트는 최신 인터프리터에서 실행됩니다)
-- **Aspose.Words for Python via .NET** – `pip install aspose-words` 로 설치
-- 최소 하나의 Office Math 수식이 포함된 Word 파일(`.docx`)
-- Markdown 출력 파일을 저장하려는 폴더에 대한 쓰기 권한
+그게 전부입니다. 별도의 변환기나 복잡한 커맨드‑라인 옵션은 필요 없습니다. 바로 시작해 보겠습니다.
 
-이미 준비가 되었다면, 좋습니다—시작해봅시다.
+## Step 1: Load the Source Document (How to Export LaTeX – The First Move)
 
-## LaTeX 내보내기 – 단계 1: 환경 설정
-
-코드를 작성하기 전에 Aspose.Words 패키지가 설치되어 있는지 확인하세요. 이 라이브러리는 내부에서 많은 작업을 처리하므로 간단한 `pip install`만으로 충분합니다.
-
-```bash
-pip install aspose-words
-```
-
-> **Pro tip:** 다른 프로젝트와 의존성을 격리하기 위해 가상 환경(`python -m venv venv`)을 사용하세요.
-
-## 단계 2: 원본 문서 로드 (docx를 markdown으로 변환 시작)
-
-첫 번째 논리적 단계는 Word 파일을 `aw.Document` 객체로 읽어들이는 것입니다. 이 객체는 `.docx`의 전체 구조를 나타내며, 단락, 이미지, 그리고 우리에게 가장 중요한 Office Math 객체까지 포함합니다.
+먼저 수식이 들어 있는 `.docx` 파일을 읽어야 합니다. Aspose.Words는 Word 파일을 `Document` 객체로 취급하므로, 내용에 완전하게 접근할 수 있습니다.
 
 ```python
 import aspose.words as aw
-import os
 
-# Absolute or relative path to the input .docx
-input_path = os.path.join("YOUR_DIRECTORY", "input.docx")
-
-# Load the document; Aspose.Words parses the XML behind the scenes
-doc = aw.Document(input_path)
-print(f"Loaded document: {input_path}")
+# Load the Word file that contains the equations you want to export
+doc = aw.Document("YOUR_DIRECTORY/Equations.docx")
 ```
 
-**왜 중요한가:** 문서를 로드하면 내부 표현에 접근할 수 있어 이후 각 요소가 저장되는 방식을 조정할 수 있습니다. 파일을 찾을 수 없으면 Aspose가 명확한 `FileNotFoundError`를 발생시키며, 이는 무음 실패보다 디버깅이 쉽습니다.
+> **왜 중요한가:** 문서를 로드하는 것은 모든 변환 작업의 기반이 됩니다. 파일을 찾을 수 없으면 라이브러리가 명확한 예외를 발생시켜 경로가 잘못되었음을 즉시 알 수 있습니다.
 
-## 단계 3: Markdown 저장 옵션 구성 (latex 수식이 포함된 markdown)
+## Step 2: Set Up Markdown Export Options (Convert DOCX to Markdown)
 
-Aspose.Words는 변환 과정을 제어하는 `MarkdownSaveOptions` 클래스를 지원합니다. 우리의 목표에 중요한 속성은 `office_math_export_mode`이며, 이를 `LATEX`로 설정하면 엔진이 모든 Office Math 수식을 해당 LaTeX 형태로 변환합니다.
+Markdown은 가벼운 마크업 언어이지만, 기본 설정으로는 수식을 이미지로 내보냅니다. 우리는 대신 LaTeX를 원합니다. LaTeX는 사람도 읽기 쉽고 컴파일러도 친화적이기 때문입니다.
 
 ```python
-# Create a MarkdownSaveOptions instance
-markdown_options = aw.saving.MarkdownSaveOptions()
-
-# Export Office Math as LaTeX strings – this is the core of "markdown with latex equations"
-markdown_options.office_math_export_mode = aw.saving.OfficeMathExportMode.LATEX
-
-# Optional: keep the original line breaks for better readability
-markdown_options.save_format = aw.saving.SaveFormat.MARKDOWN
-print("Markdown save options configured to export LaTeX.")
+# Prepare options for Markdown export
+md_save_options = aw.saving.MarkdownSaveOptions()
+md_save_options.office_math_export_mode = aw.saving.OfficeMathExportMode.LATEX
+# Alternatives: PNG, MATHML – pick LATEX for clean math
 ```
 
-**예외 상황 주의:** 문서에 LaTeX 내보내기에서 아직 지원되지 않는 기능(예: 특정 Word 전용 구조)을 사용하는 수식이 포함되어 있으면 Aspose는 이미지 형태로 대체하고 경고를 기록합니다. 변환을 감사해야 할 경우 `aw.logging.ConsoleLogger`를 연결하여 이러한 경고를 캡처할 수 있습니다.
+> **프로 팁:** 웹 렌더링을 위해 MathML이 필요하면 `LATEX`를 `MATHML`로 바꾸기만 하면 됩니다. API는 의도적으로 유연하게 설계되었습니다.
 
-## 단계 4: 문서를 Markdown 파일로 저장 (Word를 markdown으로 저장)
+## Step 3: Save as Markdown (Save Word as Markdown)
 
-옵션을 설정했으니 이제 `doc.save`를 호출하면 됩니다. 라이브러리는 모든 수식이 인라인/블록 형태에 따라 `$…$` 또는 `$$…$$` 로 감싸진 인라인 LaTeX 조각으로 표시되는 `.md` 파일을 작성합니다.
+이제 실제로 파일을 씁니다. `save` 메서드는 방금 설정한 옵션을 그대로 적용하므로, 모든 수식이 `$…$` 혹은 `$$…$$` 로 감싼 LaTeX 조각으로 변환됩니다.
 
 ```python
-# Destination path for the Markdown output
-output_path = os.path.join("YOUR_DIRECTORY", "output.md")
-
-# Perform the conversion
-doc.save(output_path, markdown_options)
-print(f"Conversion complete! Markdown saved to: {output_path}")
+# Export the document to Markdown, preserving LaTeX equations
+doc.save("YOUR_DIRECTORY/Equations.md", md_save_options)
 ```
 
-**보게 될 내용:** 任意의 markdown 편집기(VS Code, Typora 등)에서 `output.md`를 열면 다음과 같은 줄을 볼 수 있습니다:
+`Equations.md`를 열면 다음과 같은 내용이 보일 것입니다:
 
 ```markdown
-Here is an inline equation $E = mc^2$ inside a paragraph.
+Here is an inline equation $E = mc^2$ and a displayed one:
 
 $$
 \int_{a}^{b} f(x)\,dx = F(b) - F(a)
 $$
 ```
 
-이러한 LaTeX 블록은 GitHub, Jupyter notebook, 혹은 MathJax를 지원하는 모든 뷰어에서 바로 렌더링됩니다.
+이것이 대부분의 정적 사이트 생성기가 사랑하는 **LaTeX 내보내기** 형식입니다.
 
-## 흔히 발생하는 문제와 회피 방법
+![Word 문서에서 LaTeX 내보내기 예시](/images/export-latex.png)
 
-| Issue | Why it happens | Fix |
-|-------|----------------|-----|
-| **LaTeX 출력 누락** | `office_math_export_mode`가 기본값(`IMAGE`)으로 남아 있었기 때문 | 명시적으로 `markdown_options.office_math_export_mode = aw.saving.OfficeMathExportMode.LATEX` 로 설정하세요 |
-| **파일 경로 오류** | 다른 작업 디렉터리에서 상대 경로를 사용했기 때문 | `os.path.abspath` 또는 `Pathlib`을 사용해 절대 경로를 생성하세요 |
-| **지원되지 않는 수식 기능** | 일부 복잡한 Word 수식 객체가 LaTeX로 매핑되지 않음 | 콘솔 경고를 확인하고, Word에서 수식을 단순화하거나 생성된 LaTeX를 수동으로 후처리하세요 |
-| **인코딩 문제** | 비 ASCII 문자들이 깨짐 | 소스 Word 파일이 UTF-8 인코딩으로 저장되었는지 확인하세요; Aspose는 기본적으로 Unicode를 처리하지만, 대상 편집기도 UTF-8을 읽어야 합니다 |
+*이미지 대체 텍스트: Aspose.Words를 사용하여 Word 문서에서 LaTeX를 내보내는 방법*
 
-## 보너스: 폴더 내 여러 DOCX 파일 변환 (“docx를 markdown으로 변환” 확장)
+## Step 4: Prepare TXT Export Options (Convert Word to TXT)
 
-Word 파일이 여러 개라면, 작은 루프 하나로 수시간의 수작업을 절약할 수 있습니다.
+일반 텍스트 파일은 기본적으로 수학을 지원하지 않지만, Aspose.Words는 여전히 LaTeX 코드를 삽입할 수 있습니다. 빠른 참조 파일이 필요하거나 나중에 LaTeX를 컴파일할 스크립트에 내용을 전달해야 할 때 유용합니다.
 
 ```python
-import glob
-
-source_folder = "YOUR_DIRECTORY"
-output_folder = "YOUR_DIRECTORY/markdown"
-
-os.makedirs(output_folder, exist_ok=True)
-
-for docx_path in glob.glob(os.path.join(source_folder, "*.docx")):
-    doc = aw.Document(docx_path)
-    markdown_options = aw.saving.MarkdownSaveOptions()
-    markdown_options.office_math_export_mode = aw.saving.OfficeMathExportMode.LATEX
-
-    base_name = os.path.splitext(os.path.basename(docx_path))[0]
-    md_path = os.path.join(output_folder, f"{base_name}.md")
-    doc.save(md_path, markdown_options)
-    print(f"✅ {docx_path} → {md_path}")
+# Set up options for plain‑text export
+txt_save_options = aw.saving.TxtSaveOptions()
+txt_save_options.office_math_export_mode = aw.saving.OfficeMathExportMode.LATEX
 ```
 
-이 스니펫은 전체 디렉터리의 **Word 수식을 LaTeX로 변환**하는 방법을 거의 추가 코드 없이 보여줍니다.
+> **왜 TXT를 선택하나요?** 여러 문서를 연결한 뒤 LaTeX 컴파일러에 전달하는 파이프라인을 구축할 때가 있습니다. LaTeX가 삽입된 `.txt`는 워크플로우를 단순하게 유지합니다.
 
-## 결과 확인
+## Step 5: Save as TXT (Convert Word Equations to LaTeX in a Text File)
 
-단일 파일 스크립트 또는 배치 버전을 실행한 뒤, LaTeX를 지원하는 markdown 뷰어(예: *Markdown+Math* 확장 기능이 있는 VS Code)에서 생성된 `.md` 파일을 열면 다음과 같이 보일 것입니다:
+```python
+# Export the same document to a .txt file, still using LaTeX for equations
+doc.save("YOUR_DIRECTORY/Equations.txt", txt_save_options)
+```
 
-1. 일반 텍스트 단락이 정상적으로 렌더링됩니다.
-2. 수식이 이미지가 아닌 선명한 LaTeX 형태로 표시됩니다.
-3. 원본 Word 파일에 포함된 이미지가 하위 폴더에 복사됩니다(Aspose가 자동으로 `output_files` 폴더를 생성).
+`Equations.txt`를 열면 동일한 LaTeX 조각이 보이지만 Markdown 형식은 없습니다. 라인‑바이‑라인으로 파싱하는 스크립트에 딱 맞습니다.
 
-모든 것이 정상적으로 맞다면, Word에서 **LaTeX 내보내기**를 성공적으로 마스터하고 `.docx`를 깔끔하고 휴대 가능한 markdown으로 변환한 것입니다.
+## Full Working Example (All Steps in One Script)
 
-## 결론
+전체 과정을 하나로 모은, 바로 복사‑붙여넣기 해서 실행할 수 있는 독립 스크립트는 다음과 같습니다:
 
-우리는 Word 문서에서 **LaTeX 내보내기**에 필요한 모든 내용을 다루었습니다. 소스 파일 로드부터 `MarkdownSaveOptions` 설정, 그리고 모든 수식을 원시 LaTeX 형태로 보존하는 markdown 파일 저장까지. 이 방법은 단일 문서든 전체 배치든 적용 가능하며, **Word를 markdown으로 저장**하고 완전한 **latex 수식이 포함된 markdown**을 얻는 신뢰할 수 있는 방법을 제공합니다.
+```python
+import aspose.words as aw
 
-다음 단계가 준비되셨나요? markdown에 맞춤 CSS 스타일시트를 추가하거나, 생성된 파일을 Hugo나 MkDocs와 같은 정적 사이트 생성기에 넣어보세요. Aspose.Words와 Python의 조합이 문서 파이프라인, 학술 출판, 혹은 **Word 수식을 LaTeX로 변환**하면서 품질을 유지해야 하는 모든 워크플로우에 얼마나 강력한지 금방 체감할 수 있을 것입니다.
+# -------------------------------------------------
+# 1️⃣ Load the source .docx containing equations
+# -------------------------------------------------
+doc = aw.Document("YOUR_DIRECTORY/Equations.docx")
 
-코딩을 즐기세요, 그리고 여러분의 수식이 언제나 완벽히 렌더링되길 바랍니다!
+# -------------------------------------------------
+# 2️⃣ Configure Markdown export (LaTeX for math)
+# -------------------------------------------------
+md_options = aw.saving.MarkdownSaveOptions()
+md_options.office_math_export_mode = aw.saving.OfficeMathExportMode.LATEX
 
-## 다음에 배워야 할 내용은?
+# 3️⃣ Save as .md – this is the “convert docx to markdown” step
+doc.save("YOUR_DIRECTORY/Equations.md", md_options)
 
-다음 튜토리얼들은 이 가이드에서 시연한 기술을 기반으로 하는 밀접한 주제를 다룹니다. 각 자료에는 완전한 코드 예제와 단계별 설명이 포함되어 있어 추가 API 기능을 마스터하고 자체 프로젝트에서 대체 구현 방식을 탐색하는 데 도움이 됩니다.
+# -------------------------------------------------
+# 4️⃣ Configure TXT export (still LaTeX)
+# -------------------------------------------------
+txt_options = aw.saving.TxtSaveOptions()
+txt_options.office_math_export_mode = aw.saving.OfficeMathExportMode.LATEX
 
-- [Word에서 LaTeX 내보내기 – DOCX를 Markdown으로 변환](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
-- [Word에서 LaTeX 내보내기: DOCX를 Markdown으로 변환 및 PDF 저장](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
-- [docx를 markdown으로 변환 – Aspose.Words로 수학 수식을 LaTeX로 내보내기](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
+# 5️⃣ Save as .txt – the “convert word to txt” step
+doc.save("YOUR_DIRECTORY/Equations.txt", txt_options)
+
+print("✅ Export complete! Check the Markdown and TXT files for LaTeX equations.")
+```
+
+실행하면 모든 수식을 LaTeX로 보존한 두 파일이 생성됩니다 – 과학 블로그, Jupyter 노트북, 자동화된 보고서 생성기에 딱 맞는 결과입니다.
+
+## Common Questions & Edge Cases
+
+### 문서에 이미지 *와* 수식이 모두 포함되어 있으면 어떻게 하나요?
+
+`MarkdownSaveOptions`는 기본적으로 이미지를 Base64‑인코딩된 PNG로 삽입합니다. 이미지를 별도 파일로 유지하고 싶다면 `md_options.export_images_as_base64 = False` 로 설정하고 `ImagesFolder` 경로를 지정하면 됩니다.
+
+### HTML로 내보내면서도 LaTeX를 유지할 수 있나요?
+
+네. `aw.saving.HtmlSaveOptions` 를 사용하고 `html_options.office_math_export_mode = aw.saving.OfficeMathExportMode.LATEX` 로 설정하세요. 결과 HTML에는 MathJax가 렌더링할 수 있는 `<script type="math/tex">` 블록이 포함됩니다.
+
+### Linux/macOS에서도 작동하나요?
+
+물론입니다. Aspose.Words는 플랫폼에 구애받지 않으며, `aspose-words` 휠이 현재 Python 버전과 맞는지만 확인하면 됩니다.
+
+### 암호로 보호된 Word 파일은 어떻게 처리하나요?
+
+`LoadOptions` 객체를 사용해 문서를 로드합니다:
+
+```python
+load_opts = aw.loading.LoadOptions()
+load_opts.password = "mySecret"
+doc = aw.Document("protected.docx", load_opts)
+```
+
+그 후 동일한 내보내기 단계를 진행하면 됩니다.
+
+## Pro Tips for a Smooth Conversion Pipeline
+
+- **Batch processing:** 스크립트를 `for` 루프로 감싸서 폴더 내 모든 `.docx` 파일을 순회하도록 하세요. 동일한 `MarkdownSaveOptions`와 `TxtSaveOptions` 객체를 재사용하면 메모리를 절약할 수 있습니다.
+- **Naming convention:** LaTeX‑풍부 버전과 이미지‑풍부 버전을 나란히 생성할 경우 출력 파일명에 `_latex` 를 붙이세요.
+- **Validate LaTeX:** 내보낸 후 작은 스니펫에 대해 빠르게 `pdflatex` 컴파일을 실행해 이상 문자 때문에 구문이 깨지지는 않았는지 확인하세요.
+- **Performance:** 수백 페이지에 달하는 대용량 문서의 경우, 필드 업데이트가 필요 없으면 `document.save` 의 `update_fields` 플래그를 비활성화하면 속도가 크게 향상됩니다.
+
+## Recap – How to Export LaTeX from Word in a Nutshell
+
+이제 Word 문서에서 **LaTeX를 내보내는 방법**, **docx를 markdown으로 변환**, **word를 txt로 변환**, 그리고 **word 수식을 깔끔한 LaTeX 코드로 변환**하는 방법을 알게 되었습니다. 라이브러리만 설치하면 Python 다섯 줄로 모든 작업을 마칠 수 있으며, 결과는 정적 사이트 생성기부터 과학 노트북까지 어디서든 활용할 수 있습니다.
+
+## What’s Next?
+
+- **Explore other export modes:** 웹용 MathML이 필요하면 `OfficeMathExportMode.MATHML` 을 시도해 보세요.
+- **Combine with Pandoc:** Markdown을 만든 뒤 Pandoc에 넘겨 PDF나 EPUB으로 변환할 수 있습니다.
+- **Automate documentation:** 이 스크립트를 CI 파이프라인에 연결하면 팀원이 `.docx` 사양을 업데이트할 때마다 LaTeX‑준비된 Markdown이 자동으로 저장소에 반영됩니다.
+
+Aspose.Words, LaTeX 렌더링, 문서 자동화에 대해 더 궁금한 점이 있으면 아래 댓글로 남겨 주세요. 즐거운 코딩 되세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

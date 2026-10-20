@@ -1,50 +1,24 @@
 ---
 category: general
-date: 2026-08-01
-description: Hoe LaTeX te exporteren vanuit Word met Aspose.Words. Converteer DOCX
-  naar Markdown met LaTeX‑vergelijkingen in slechts een paar Python‑regels.
+date: 2026-03-01
+description: Hoe LaTeX uit Word‑documenten te exporteren, DOCX naar markdown te converteren
+  en ook Word naar txt te converteren met LaTeX‑vergelijkingen.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - how to export latex
 - convert docx to markdown
+- convert word to txt
+- convert word equations
 - save word as markdown
-- markdown with latex equations
-- convert word equations latex
 language: nl
-lastmod: 2026-08-01
-og_description: Hoe je LaTeX direct vanuit Word exporteert. Leer hoe je DOCX naar
-  Markdown converteert met LaTeX‑vergelijkingen met behulp van Aspose.Words in Python.
-og_image_alt: Diagram showing how to export LaTeX from a Word document to Markdown
-og_title: Hoe LaTeX exporteren vanuit Word – Snelle DOCX‑naar‑Markdown gids
-schemas:
-- author: Aspose
-  dateModified: '2026-08-01'
-  description: How to export LaTeX from Word using Aspose.Words. Convert DOCX to Markdown
-    with LaTeX equations in just a few Python lines.
-  headline: How to export LaTeX from Word – Convert DOCX to Markdown
-  type: TechArticle
-- description: How to export LaTeX from Word using Aspose.Words. Convert DOCX to Markdown
-    with LaTeX equations in just a few Python lines.
-  name: How to export LaTeX from Word – Convert DOCX to Markdown
-  steps:
-  - name: Plain text paragraphs rendered normally.
-    text: Plain text paragraphs rendered normally.
-  - name: Equations displayed as crisp LaTeX, not as images.
-    text: Equations displayed as crisp LaTeX, not as images.
-  - name: Any embedded images from the original Word file copied to a sub‑folder (Aspose
-      creates a `output_files` folder automatically).
-    text: Any embedded images from the original Word file copied to a sub‑folder (Aspose
-      creates a `output_files` folder automatically).
-  type: HowTo
+og_description: Hoe LaTeX uit Word‑documenten te exporteren, DOCX naar markdown te
+  converteren en ook Word naar txt te converteren met LaTeX‑vergelijkingen.
+og_title: Hoe LaTeX vanuit Word exporteren – DOCX naar Markdown converteren
 tags:
-- python
-- aspose-words
-- markdown
-- latex
-- docx
-title: Hoe LaTeX exporteren vanuit Word – DOCX naar Markdown converteren
+- Aspose.Words
+- Python
+- Document Conversion
+title: Hoe LaTeX exporteren vanuit Word – DOCX converteren naar Markdown
 url: /nl/python/document-conversion/how-to-export-latex-from-word-convert-docx-to-markdown/
 ---
 
@@ -54,151 +28,170 @@ url: /nl/python/document-conversion/how-to-export-latex-from-word-convert-docx-t
 
 # Hoe LaTeX exporteren vanuit Word – DOCX naar Markdown converteren
 
-Heb je je ooit afgevraagd **hoe je LaTeX kunt exporteren** uit een Word‑bestand zonder elke vergelijking handmatig te kopiëren? Je bent niet de enige. In veel rapportage‑pipelines moet je *docx naar markdown converteren* terwijl je de wiskunde behoudt, en dit handmatig doen wordt al snel een nachtmerrie.
+Heb je je ooit afgevraagd **hoe je LaTeX kunt exporteren** uit een Word‑bestand dat vol staat met vergelijkingen? Je bent niet de enige. In veel onderzoekspijplijnen is de bron een `.docx`, maar de downstream‑tools verwachten LaTeX, Markdown of platte‑tekstbestanden. Het goede nieuws? Met een paar regels Python kun je een Word‑document omzetten naar een Markdown‑bestand, een TXT‑bestand, en elke wiskundige formule behouden als nette LaTeX.
 
-In deze tutorial lopen we een **volledig, uitvoerbaar Python‑script** door dat een `.docx` laadt, Aspose.Words instrueert om elk Office Math‑object als LaTeX te renderen, en uiteindelijk het hele document opslaat als een nette Markdown‑file. Aan het einde kun je **word opslaan als markdown** met perfect opgemaakte LaTeX‑vergelijkingen — zonder naverwerking.
+In deze gids lopen we het volledige proces door – van het laden van `Equations.docx` tot het opslaan van `Equations.md` en `Equations.txt`. Aan het einde kun je **docx naar markdown converteren**, **word naar txt converteren**, en zelfs **word‑vergelijkingen** omzetten naar LaTeX zonder enige moeite.
 
-![Hoe LaTeX exporteren vanuit een Word‑document naar Markdown](https://example.com/images/export-latex-diagram.png){.center width=600 alt="Diagram dat laat zien hoe LaTeX te exporteren vanuit een Word‑document naar Markdown"}
+## Wat je nodig hebt
 
-## Vereisten — Wat je nodig hebt voordat we beginnen
+- Python 3.8+ (elke recente versie werkt)
+- `aspose-words`‑pakket – installeren via `pip install aspose-words`
+- Een Word‑document dat Office Math‑objecten (vergelijkingen) bevat
+- Een beetje nieuwsgierigheid naar hoe de bibliotheek wiskundige exportmodi afhandelt
 
-- **Python 3.8+** (het script draait op elke recente interpreter)
-- **Aspose.Words for Python via .NET** – installeren met `pip install aspose-words`
-- Een Word‑bestand (`.docx`) dat minstens één Office Math‑vergelijking bevat
-- Schrijfrechten in de map waar je de Markdown‑output wilt plaatsen
+Dat is alles. Geen extra converters, geen ingewikkelde command‑line‑opties. Laten we beginnen.
 
-Als je deze onderdelen al klaar hebt, prima — laten we beginnen.
+## Stap 1: Laad het bron‑document (Hoe LaTeX exporteren – De eerste stap)
 
-## Hoe LaTeX exporteren – Stap 1: De omgeving instellen
-
-Voordat je code schrijft, zorg je dat het Aspose.Words‑pakket beschikbaar is. De bibliotheek doet veel zwaar werk onder de motorkap, dus een eenvoudige `pip install` is voldoende.
-
-```bash
-pip install aspose-words
-```
-
-> **Pro tip:** Gebruik een virtuele omgeving (`python -m venv venv`) om afhankelijkheden geïsoleerd te houden van andere projecten.
-
-## Stap 2: Het bron‑document laden (convert docx to markdown begint hier)
-
-De eerste logische stap is het Word‑bestand inlezen in een `aw.Document`‑object. Dit object vertegenwoordigt de volledige structuur van de `.docx`, inclusief alinea’s, afbeeldingen en — het belangrijkste voor ons — Office Math‑objecten.
+Om te beginnen moeten we de `.docx` lezen die de vergelijkingen bevat. Aspose.Words behandelt een Word‑bestand als een `Document`‑object, waardoor we volledige toegang tot de inhoud krijgen.
 
 ```python
 import aspose.words as aw
-import os
 
-# Absolute or relative path to the input .docx
-input_path = os.path.join("YOUR_DIRECTORY", "input.docx")
-
-# Load the document; Aspose.Words parses the XML behind the scenes
-doc = aw.Document(input_path)
-print(f"Loaded document: {input_path}")
+# Load the Word file that contains the equations you want to export
+doc = aw.Document("YOUR_DIRECTORY/Equations.docx")
 ```
 
-**Waarom dit belangrijk is:** Het laden van het document geeft ons toegang tot de interne representatie, waardoor we later kunnen aanpassen hoe elk element wordt opgeslagen. Als het bestand niet gevonden wordt, geeft Aspose een duidelijke `FileNotFoundError`, wat makkelijker te debuggen is dan een stille fout.
+> **Waarom dit belangrijk is:** Het laden van het document is de basis voor elke conversie. Als het bestand niet wordt gevonden, gooit de bibliotheek een duidelijke uitzondering, zodat je meteen weet dat het pad onjuist is.
 
-## Stap 3: Markdown‑opslaan‑opties configureren (markdown met latex‑vergelijkingen)
+## Stap 2: Stel Markdown‑exportopties in (DOCX naar Markdown converteren)
 
-Aspose.Words biedt een `MarkdownSaveOptions`‑klasse die het conversieproces regelt. De cruciale eigenschap voor ons doel is `office_math_export_mode`. Deze op `LATEX` zetten vertelt de engine om elke Office Math‑vergelijking naar het LaTeX‑equivalent te vertalen.
+Markdown is een lichtgewicht opmaaktaal, maar standaard zou het vergelijkingen als afbeeldingen exporteren. We willen in plaats daarvan LaTeX, omdat LaTeX zowel mens‑leesbaar als compiler‑vriendelijk is.
 
 ```python
-# Create a MarkdownSaveOptions instance
-markdown_options = aw.saving.MarkdownSaveOptions()
-
-# Export Office Math as LaTeX strings – this is the core of "markdown with latex equations"
-markdown_options.office_math_export_mode = aw.saving.OfficeMathExportMode.LATEX
-
-# Optional: keep the original line breaks for better readability
-markdown_options.save_format = aw.saving.SaveFormat.MARKDOWN
-print("Markdown save options configured to export LaTeX.")
+# Prepare options for Markdown export
+md_save_options = aw.saving.MarkdownSaveOptions()
+md_save_options.office_math_export_mode = aw.saving.OfficeMathExportMode.LATEX
+# Alternatives: PNG, MATHML – pick LATEX for clean math
 ```
 
-**Opmerking voor randgevallen:** Als je document vergelijkingen bevat die functies gebruiken die nog niet ondersteund worden door de LaTeX‑exporteur (bijv. bepaalde Word‑specifieke constructies), valt Aspose terug op een afbeeldingsweergave en logt een waarschuwing. Je kunt die waarschuwingen opvangen door een `aw.logging.ConsoleLogger` toe te voegen als je de conversie wilt auditen.
+> **Pro tip:** Als je ooit MathML nodig hebt voor weergave op het web, vervang dan gewoon `LATEX` door `MATHML`. De API is opzettelijk flexibel.
 
-## Stap 4: Het document opslaan als een Markdown‑bestand (save word as markdown)
+## Stap 3: Opslaan als Markdown (Word opslaan als Markdown)
 
-Nu de opties ingesteld zijn, roepen we simpelweg `doc.save` aan. De bibliotheek schrijft een `.md`‑bestand waarin elke vergelijking verschijnt als een inline LaTeX‑fragment omgeven door `$…$` of `$$…$$`, afhankelijk van of het inline of een blok is.
+Nu schrijven we het bestand daadwerkelijk. De `save`‑methode respecteert de opties die we zojuist hebben geconfigureerd, zodat elke vergelijking een LaTeX‑fragment wordt, omgeven door `$…$` of `$$…$$`.
 
 ```python
-# Destination path for the Markdown output
-output_path = os.path.join("YOUR_DIRECTORY", "output.md")
-
-# Perform the conversion
-doc.save(output_path, markdown_options)
-print(f"Conversion complete! Markdown saved to: {output_path}")
+# Export the document to Markdown, preserving LaTeX equations
+doc.save("YOUR_DIRECTORY/Equations.md", md_save_options)
 ```
 
-**Wat je zult zien:** Open `output.md` in een willekeurige markdown‑editor (VS Code, Typora, etc.) en je vindt regels zoals:
+Als je `Equations.md` opent, zie je iets als:
 
 ```markdown
-Here is an inline equation $E = mc^2$ inside a paragraph.
+Here is an inline equation $E = mc^2$ and a displayed one:
 
 $$
 \int_{a}^{b} f(x)\,dx = F(b) - F(a)
 $$
 ```
 
-Die LaTeX‑blokken kunnen direct worden gerenderd door GitHub, Jupyter‑notebooks, of elke MathJax‑ingeschakelde viewer.
+Dat is **hoe je LaTeX exporteert** in een formaat dat de meeste static‑site‑generators liefhebben.
 
-## Veelvoorkomende valkuilen en hoe ze te vermijden
+![voorbeeld van hoe LaTeX exporteren](/images/export-latex.png)
 
-| Probleem | Waarom het gebeurt | Oplossing |
-|----------|--------------------|-----------|
-| **Geen LaTeX‑output** | `office_math_export_mode` bleef op de standaardwaarde (`IMAGE`) staan | Stel expliciet `markdown_options.office_math_export_mode = aw.saving.OfficeMathExportMode.LATEX` in |
-| **Pad‑fouten** | Relatieve paden worden gebruikt vanuit een andere werkmap | Gebruik `os.path.abspath` of `Pathlib` om absolute paden te bouwen |
-| **Niet‑ondersteunde vergelijkingsfuncties** | Sommige complexe Word‑vergelijkingsobjecten hebben geen LaTeX‑equivalent | Controleer de console‑waarschuwingen; overweeg de vergelijking in Word te vereenvoudigen of de gegenereerde LaTeX handmatig na te bewerken |
-| **Coderingproblemen** | Niet‑ASCII‑tekens worden onleesbaar | Zorg dat het bron‑Word‑bestand is opgeslagen met UTF‑8‑codering; Aspose verwerkt Unicode standaard, maar de doel‑editor moet ook UTF‑8 lezen |
+*Afbeeldingsalt‑tekst: hoe LaTeX exporteren vanuit een Word‑document met Aspose.Words*
 
-## Bonus: Meerdere DOCX‑bestanden in een map converteren (extend “convert docx to markdown”)
+## Stap 4: Bereid TXT‑exportopties voor (Word naar TXT converteren)
 
-Als je een reeks Word‑bestanden hebt, bespaart een kleine lus je uren handmatig werk.
+Platte‑tekstbestanden hebben geen native wiskundige ondersteuning, maar Aspose.Words kan nog steeds LaTeX‑code insluiten. Dit is handig wanneer je een snel referentiebestand nodig hebt of de inhoud wilt doorgeven aan een script dat later de LaTeX compileert.
 
 ```python
-import glob
-
-source_folder = "YOUR_DIRECTORY"
-output_folder = "YOUR_DIRECTORY/markdown"
-
-os.makedirs(output_folder, exist_ok=True)
-
-for docx_path in glob.glob(os.path.join(source_folder, "*.docx")):
-    doc = aw.Document(docx_path)
-    markdown_options = aw.saving.MarkdownSaveOptions()
-    markdown_options.office_math_export_mode = aw.saving.OfficeMathExportMode.LATEX
-
-    base_name = os.path.splitext(os.path.basename(docx_path))[0]
-    md_path = os.path.join(output_folder, f"{base_name}.md")
-    doc.save(md_path, markdown_options)
-    print(f"✅ {docx_path} → {md_path}")
+# Set up options for plain‑text export
+txt_save_options = aw.saving.TxtSaveOptions()
+txt_save_options.office_math_export_mode = aw.saving.OfficeMathExportMode.LATEX
 ```
 
-Dit fragment laat zien hoe je **convert word equations latex** kunt toepassen op een volledige map met vrijwel geen extra code.
+> **Waarom kiezen voor TXT?** Soms bouw je een pijplijn die verschillende documenten samenvoegt voordat ze worden doorgegeven aan een LaTeX‑compiler. Een `.txt` met ingesloten LaTeX houdt de workflow eenvoudig.
 
-## Het resultaat verifiëren
+## Stap 5: Opslaan als TXT (Word‑vergelijkingen naar LaTeX in een tekstbestand converteren)
 
-Na het uitvoeren van het script voor één bestand of de batch‑versie, open je het gegenereerde `.md`‑bestand in een markdown‑viewer die LaTeX ondersteunt (bijv. VS Code met de *Markdown+Math* extensie). Je zou moeten zien:
+```python
+# Export the same document to a .txt file, still using LaTeX for equations
+doc.save("YOUR_DIRECTORY/Equations.txt", txt_save_options)
+```
 
-1. Platte‑tekst alinea’s die normaal worden weergegeven.  
-2. Vergelijkingen weergegeven als scherpe LaTeX, niet als afbeeldingen.  
-3. Eventuele ingesloten afbeeldingen uit het oorspronkelijke Word‑bestand gekopieerd naar een sub‑map (Aspose maakt automatisch een `output_files`‑map aan).
+Het openen van `Equations.txt` zal dezelfde LaTeX‑fragmenten tonen, maar zonder enige Markdown‑opmaak. Perfect voor scripts die regel‑voor‑regel parseren.
 
-Als alles klopt, heb je met succes **hoe LaTeX te exporteren** vanuit Word geleerd en een `.docx` omgezet naar nette, draagbare markdown.
+## Volledig werkend voorbeeld (Alle stappen in één script)
 
-## Conclusie
+Alles samenvoegend, hier is een zelfstandige script die je direct kunt kopiëren‑plakken en uitvoeren:
 
-We hebben alles behandeld wat je nodig hebt om **hoe LaTeX te exporteren** vanuit een Word‑document, van het laden van het bronbestand tot het configureren van `MarkdownSaveOptions` en uiteindelijk het opslaan van een markdown‑bestand dat elke vergelijking behoudt als native LaTeX. De aanpak werkt voor één document of een volledige batch, waardoor je op een betrouwbare manier **word opslaan als markdown** kunt realiseren met volledig functionele **markdown with latex equations**.
+```python
+import aspose.words as aw
 
-Klaar voor de volgende stap? Probeer een aangepast CSS‑stylesheet toe te voegen aan je markdown, of voer de gegenereerde bestanden in een static‑site generator zoals Hugo of MkDocs. Je zult snel zien hoe krachtig de combinatie van Aspose.Words en Python kan zijn voor documentatie‑pipelines, academische publicaties, of elke workflow die **convert word equations latex** vereist zonder verlies van kwaliteit.
+# -------------------------------------------------
+# 1️⃣ Load the source .docx containing equations
+# -------------------------------------------------
+doc = aw.Document("YOUR_DIRECTORY/Equations.docx")
 
-Happy coding, en moge je vergelijkingen altijd perfect renderen!
+# -------------------------------------------------
+# 2️⃣ Configure Markdown export (LaTeX for math)
+# -------------------------------------------------
+md_options = aw.saving.MarkdownSaveOptions()
+md_options.office_math_export_mode = aw.saving.OfficeMathExportMode.LATEX
 
-## Wat moet je hierna leren?
+# 3️⃣ Save as .md – this is the “convert docx to markdown” step
+doc.save("YOUR_DIRECTORY/Equations.md", md_options)
 
-De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden getoond. Elke bron bevat complete werkende code‑voorbeelden met stap‑voor‑stap uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
+# -------------------------------------------------
+# 4️⃣ Configure TXT export (still LaTeX)
+# -------------------------------------------------
+txt_options = aw.saving.TxtSaveOptions()
+txt_options.office_math_export_mode = aw.saving.OfficeMathExportMode.LATEX
 
-- [Hoe LaTeX exporteren vanuit Word – DOCX naar Markdown converteren](/words/english/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/)
-- [Hoe LaTeX exporteren vanuit Word: DOCX naar Markdown & opslaan als PDF](/words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/)
-- [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words](/words/english/java/document-conversion-and-export/convert-docx-to-markdown-export-math-equations-to-latex-with/)
+# 5️⃣ Save as .txt – the “convert word to txt” step
+doc.save("YOUR_DIRECTORY/Equations.txt", txt_options)
+
+print("✅ Export complete! Check the Markdown and TXT files for LaTeX equations.")
+```
+
+Voer het uit, en je krijgt twee bestanden die elke vergelijking behouden als LaTeX – precies wat je nodig hebt voor wetenschappelijke blogs, Jupyter‑notebooks of geautomatiseerde rapportgeneratoren.
+
+## Veelgestelde vragen & randgevallen
+
+### Wat als mijn document afbeeldingen *en* vergelijkingen bevat?
+
+De `MarkdownSaveOptions` zullen standaard afbeeldingen insluiten als Base64‑gecodeerde PNG’s. Als je liever afbeeldingen als losse bestanden houdt, stel dan `md_options.export_images_as_base64 = False` in en geef een pad op voor `ImagesFolder`.
+
+### Kan ik exporteren naar HTML en toch LaTeX behouden?
+
+Ja. Gebruik `aw.saving.HtmlSaveOptions` en stel `html_options.office_math_export_mode = aw.saving.OfficeMathExportMode.LATEX` in. De resulterende HTML zal `<script type="math/tex">`‑blokken bevatten die MathJax kan weergeven.
+
+### Werkt dit op Linux/macOS?
+
+Absoluut. Aspose.Words is platform‑onafhankelijk; zorg er alleen voor dat het `aspose-words`‑wheel overeenkomt met jouw Python‑versie.
+
+### Hoe zit het met met wachtwoord‑beveiligde Word‑bestanden?
+
+Laad het document met een `LoadOptions`‑object:
+
+```python
+load_opts = aw.loading.LoadOptions()
+load_opts.password = "mySecret"
+doc = aw.Document("protected.docx", load_opts)
+```
+
+Ga vervolgens verder met dezelfde exportstappen.
+
+## Pro‑tips voor een soepele conversiepijplijn
+
+- **Batchverwerking:** Plaats het script in een `for`‑lus die over alle `.docx`‑bestanden in een map itereren. Hergebruik dezelfde `MarkdownSaveOptions`‑ en `TxtSaveOptions`‑objecten om geheugen te besparen.
+- **Naamgevingsconventie:** Voeg `_latex` toe aan de uitvoerbestandsnamen als je zowel LaTeX‑rijke als afbeelding‑rijke versies naast elkaar wilt genereren.
+- **LaTeX valideren:** Na export, voer een snelle `pdflatex`‑compilatie uit op een klein fragment om te verzekeren dat geen vreemde tekens de syntax hebben verbroken.
+- **Prestaties:** Voor enorme documenten (honderden pagina’s) overweeg het uitschakelen van de `update_fields`‑vlag van `document.save` als je geen veldupdates nodig hebt – dit versnelt het proces.
+
+## Samenvatting – Hoe LaTeX exporteren vanuit Word in een notendop
+
+Je weet nu **hoe je LaTeX kunt exporteren** uit een Word‑document, hoe je **docx naar markdown kunt converteren**, hoe je **word naar txt kunt converteren**, en hoe je **word‑vergelijkingen** kunt omzetten naar nette LaTeX‑code. Het proces bestaat uit slechts vijf regels Python zodra de bibliotheek geïnstalleerd is, en het resultaat werkt overal – van static‑site‑generators tot wetenschappelijke notebooks.
+
+## Wat is het volgende?
+
+- **Verken andere exportmodi:** Probeer `OfficeMathExportMode.MATHML` als je web‑native MathML nodig hebt.
+- **Combineer met Pandoc:** Na het genereren van Markdown, voer het in bij Pandoc voor PDF‑ of EPUB‑output.
+- **Automatiseer documentatie:** Koppel dit script aan een CI‑pijplijn zodat elke keer dat een teamgenoot een `.docx`‑specificatie bijwerkt, de LaTeX‑klare Markdown automatisch in je repository terechtkomt.
+
+Heb je meer vragen over Aspose.Words, LaTeX‑rendering of documentautomatisering? Laat een reactie achter hieronder, en veel plezier met coderen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
