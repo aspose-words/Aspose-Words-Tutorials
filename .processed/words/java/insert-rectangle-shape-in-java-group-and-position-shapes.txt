@@ -1,0 +1,7 @@
+Title: Insert Rectangle Shape in Java – Group and Position Shapes
+Slug: insert-rectangle-shape-in-java-group-and-position-shapes
+Category: images-shapes
+ProcessedDate: 2026-07-26T10:44:48.330665
+SourceRepo: AI Search API
+Keywords: insert rectangle shape, set shape size, position shape, how to group shapes, how to add rectangle
+PRNumber: 235

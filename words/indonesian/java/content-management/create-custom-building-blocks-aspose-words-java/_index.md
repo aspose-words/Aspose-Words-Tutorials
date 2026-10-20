@@ -42,8 +42,6 @@ Mari kita selami prasyarat yang Anda perlukan sebelum kita mulai membuat blok ku
 
 ## Prasyarat
 
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
-
 ### Perpustakaan yang Diperlukan
 - Perpustakaan Aspose.Words untuk Java (versi 25.3 atau lebih baru).
 
@@ -95,6 +93,10 @@ public class Main {
     }
 }
 ```
+
+## Bagaimana cara mengelola word templates java dengan Aspose.Words?
+
+Muat dokumen templat Anda dengan `new Document("Template.docx")` dan panggil `doc.getGlossary()` untuk mengakses glosarium tempat blok bangunan berada. Dari sana Anda dapat membuat, mengedit, atau mengambil blok, memungkinkan satu sumber kebenaran untuk semua konten yang dapat digunakan kembali. Pendekatan ini menghilangkan duplikasi dan menjamin setiap dokumen yang dihasilkan menggunakan versi blok terbaru.
 
 ## Panduan Implementasi
 
