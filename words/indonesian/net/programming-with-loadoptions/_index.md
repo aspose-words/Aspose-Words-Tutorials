@@ -72,6 +72,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buka File Word Rusak di C# – Panduan Lengkap](./open-corrupted-word-file-in-c-complete-guide/) | Pelajari cara membuka file Word yang rusak menggunakan C# dengan Aspose.Words dalam panduan langkah demi langkah. |
 | [Pulihkan docx rusak dengan Aspose.Words – Panduan Lengkap Langkah‑per‑Langkah](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Panduan lengkap untuk memulihkan file DOCX yang rusak menggunakan Aspose.Words dengan contoh kode langkah demi langkah. |
 | [Aktifkan Peringatan Substitusi Font di C# dengan Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Pelajari cara mengaktifkan peringatan substitusi font di C# menggunakan Aspose.Words untuk .NET. |
+| [Pulihkan File Word Rusak dan Tampilkan Mode Pemulihan di C#](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | Pelajari cara memulihkan file Word yang rusak dan menampilkan mode pemulihan menggunakan Aspose.Words untuk .NET dengan contoh kode C#. |
+| [Cara Menangkap Peringatan di C# – Deteksi Font Hilang & Log Substitusi](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) | Pelajari cara menangkap peringatan font yang hilang dan mencatat substitusi font menggunakan Aspose.Words di C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

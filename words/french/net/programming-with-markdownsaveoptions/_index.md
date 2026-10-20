@@ -80,6 +80,9 @@ Apprenez à convertir des fichiers DOCX en Markdown avec un guide complet en C#.
 ### [Créer un fichier markdown depuis Word – Guide complet pour exporter les équations](./create-markdown-file-from-word-full-guide-to-export-equation/)
 
 Apprenez à créer un fichier markdown à partir d'un document Word en exportant correctement les équations grâce à Aspose.Words pour .NET.
+### [Enregistrer les images Word lors de la conversion en Markdown – Guide complet C#](./save-word-images-while-converting-to-markdown-complete-c-gui/)
+
+Apprenez à extraire et enregistrer les images d’un document Word lors de sa conversion en Markdown avec Aspose.Words pour .NET.
 
 ### [Comment exporter Markdown depuis Word – Guide complet C#](./how-to-export-markdown-from-word-complete-c-guide/)
 

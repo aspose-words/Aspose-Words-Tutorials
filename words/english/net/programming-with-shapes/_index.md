@@ -59,6 +59,7 @@ By using Aspose.Words for .NET and following these tutorials, you will be able t
 | [How to Set Shadow on a Shape in C# – Step‑by‑Step Guide](./how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/) | Learn how to set shadow on a shape in Word documents using Aspose.Words for .NET with this step‑by‑step guide. |
 | [How to Set Shadow on a Word Shape – C# Tutorial](./how-to-set-shadow-on-a-word-shape-c-tutorial/) | Learn how to set shadow effects on Word shapes using Aspose.Words for .NET with this step‑by‑step C# tutorial. |
 | [How to Set Shadow on a Shape in Aspose.Words (C#)](./how-to-set-shadow-on-a-shape-in-aspose-words-c/) | Learn how to set shadow on a shape in Word documents using Aspose.Words for .NET with this step‑by‑step guide. |
+| [Create rectangle shape and how to add shadow in C#](./create-rectangle-shape-and-how-to-add-shadow-in-c/) | Learn how to create rectangle shape and add shadow in Word documents using Aspose.Words for .NET with C# step‑by‑step guide. |
 
 | [Create rectangle shape, add shadow & save PDF](./create-rectangle-shape-add-shadow-save-pdf/) | Learn how to create a rectangle shape, add a shadow, and save the document as PDF using Aspose.Words for .NET. |
 | [Create Word Document – How to Add Rectangle Shape and Shadow](./create-word-document-how-to-add-rectangle-shape-and-shadow/) | Learn how to add a rectangle shape with shadow to a Word document using Aspose.Words for .NET. |

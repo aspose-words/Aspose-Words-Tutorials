@@ -113,6 +113,7 @@ Words Processing with MarkdownSaveOptions là một nguồn tài nguyên chuyên
 | [Xóa các đoạn trống – Chuyển Word sang Markdown trong C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/) | Hướng dẫn cách loại bỏ các đoạn trống khi chuyển đổi Word sang Markdown bằng C# và Aspose.Words. |
 | [Tạo markdown từ Word với Aspose.Words – Hướng dẫn đầy đủ C#](./create-markdown-from-word-with-aspose-words-full-c-guide/) | Hướng dẫn chi tiết cách tạo file markdown từ tài liệu Word bằng Aspose.Words trong C#, bao gồm các tùy chọn và ví dụ thực tế. |
 | [Cách sử dụng Aspose để chuyển DOCX sang Markdown với xuất công thức toán học](./how-to-use-aspose-to-convert-docx-to-markdown-with-math-expo/) | Hướng dẫn chi tiết cách chuyển tài liệu DOCX sang Markdown, bao gồm xuất công thức toán học, bằng Aspose.Words cho .NET. |
+| [Lưu hình ảnh Word khi chuyển đổi sang Markdown – Hướng dẫn đầy đủ C#](./save-word-images-while-converting-to-markdown-complete-c-gui/) | Hướng dẫn chi tiết cách lưu hình ảnh từ tài liệu Word khi chuyển đổi sang Markdown bằng C# và Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

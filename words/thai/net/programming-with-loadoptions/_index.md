@@ -71,6 +71,8 @@
 | [วิธีจับคำเตือน – กำหนดค่า LoadOptions สำหรับแบบอักษรที่หายไป](./how-to-capture-warnings-configure-load-options-for-missing-f/) | เรียนรู้วิธีจับคำเตือนและกำหนดค่า LoadOptions เพื่อจัดการแบบอักษรที่หายไปในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET |
 | [วิธีกู้คืน DOCX – คู่มือขั้นตอนต่อขั้นตอนเพื่อแก้ไขไฟล์ Word ที่เสียหาย](./how-to-recover-docx-step-by-step-guide-to-fix-corrupted-word/) | เรียนรู้วิธีกู้คืนไฟล์ DOCX ที่เสียหายด้วยขั้นตอนง่ายๆ โดยใช้ Aspose.Words สำหรับ .NET |
 | [วิธีกู้คืนไฟล์ DOCX ด้วย Aspose.Words – คู่มือทีละขั้นตอน](./how-to-recover-docx-with-aspose-words-step-by-step-guide/) | เรียนรู้วิธีกู้คืนไฟล์ DOCX ที่เสียหายโดยใช้ Aspose.Words สำหรับ .NET ด้วยขั้นตอนง่ายๆ และตัวอย่างโค้ดที่ชัดเจน |
+| [กู้ไฟล์ Word ที่เสียหายและแสดงโหมดการกู้คืนใน C#](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | เรียนรู้วิธีกู้ไฟล์ Word ที่เสียหายและเปิดโหมดการกู้คืนโดยใช้ Aspose.Words สำหรับ .NET ด้วย C# |
+| [วิธีดักจับคำเตือนใน C# – ตรวจจับแบบอักษรที่หายไปและบันทึกการแทนที่](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) | เรียนรู้วิธีดักจับคำเตือนใน C# เพื่อตรวจจับแบบอักษรที่หายไปและบันทึกการแทนที่โดยใช้ Aspose.Words สำหรับ .NET |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

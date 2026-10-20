@@ -72,6 +72,8 @@ I dessa handledningar lär du dig hur du använder LoadOptions för att läsa in
 | [Registrera varningsåteruppringning i Aspose.Words – Komplett programmeringsguide](./register-warning-callback-in-aspose-words-complete-programmi/) | Lär dig hur du registrerar en varningsåteruppringning i Aspose.Words med en komplett programmeringsguide. |
 | [så här fångar du varningar – konfigurera laddningsalternativ för saknade teckensnitt](./how-to-capture-warnings-configure-load-options-for-missing-f/) | Lär dig hur du fångar varningar för saknade teckensnitt genom att konfigurera LoadOptions i Aspose.Words för .NET. |
 | [Hur du återställer DOCX – steg‑för‑steg‑guide för att fixa korrupta Word‑filer](./how-to-recover-docx-step-by-step-guide-to-fix-corrupted-word/) | Lär dig hur du återställer skadade DOCX‑filer med Aspose.Words för .NET i en enkel steg‑för‑steg‑guide. |
+| [Återställ skadad Word-fil och visa återställningsläge i C#](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | Lär dig hur du återställer en korrupt Word-fil och visar återställningsläget med Aspose.Words i C#. |
+| [Hur man fångar varningar i C# – Upptäck saknade teckensnitt och logga ersättningar](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) | Lär dig hur du fångar varningar, upptäcker saknade teckensnitt och loggar teckensnittsersättningar i C# med Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

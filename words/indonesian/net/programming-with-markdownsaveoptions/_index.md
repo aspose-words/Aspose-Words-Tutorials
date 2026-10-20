@@ -199,6 +199,8 @@ Pelajari cara membuat markdown dari dokumen Word menggunakan Aspose.Words dengan
 Pelajari cara menggunakan Aspose untuk mengonversi file DOCX ke Markdown dengan mengekspor persamaan matematika secara akurat.
 ### [Simpan Word sebagai Markdown – Panduan Lengkap C# untuk Mengekspor Gambar Word](./save-word-as-markdown-complete-c-guide-to-export-word-images/)
 Pelajari cara mengekspor gambar dari dokumen Word ke format Markdown dengan panduan lengkap C#.
+### [Simpan Gambar Word Saat Mengonversi ke Markdown – Panduan Lengkap C#](./save-word-images-while-converting-to-markdown-complete-c-gui/)
+Pelajari cara menyimpan semua gambar dari dokumen Word saat mengonversinya ke format Markdown menggunakan Aspose.Words untuk .NET dalam panduan lengkap C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

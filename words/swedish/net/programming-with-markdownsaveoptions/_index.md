@@ -269,6 +269,8 @@ Lär dig konvertera DOCX-filer till Markdown med matematikexport med Aspose.Word
 
 ### [Spara Word som Markdown – Fullständig C#-guide för att exportera Word‑bilder](./save-word-as-markdown-complete-c-guide-to-export-word-images/)
 Lär dig exportera Word‑bilder när du sparar dokument som Markdown med en komplett C#‑guide.
+### [Spara Word‑bilder vid konvertering till Markdown – Fullständig C#‑guide](./save-word-images-while-converting-to-markdown-complete-c-gui/)
+Lär dig spara bilder från Word när du konverterar till Markdown med en komplett C#‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

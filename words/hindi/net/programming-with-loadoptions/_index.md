@@ -74,6 +74,8 @@ Aspose.Words for .NET ट्यूटोरियल उन डेवलपर�
 | [Aspose.Words के साथ भ्रष्ट docx पुनर्प्राप्त करें – पूर्ण चरण‑दर‑चरण गाइड](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Aspose.Words का उपयोग करके भ्रष्ट docx फ़ाइल को पुनर्स्थापित करने की पूरी चरण-दर-स्टेप प्रक्रिया सीखें। |
 | [C# में Aspose.Words के साथ फ़ॉन्ट प्रतिस्थापन चेतावनियाँ सक्षम करें](./enable-font-substitution-warnings-in-c-with-aspose-words/) | C# में Aspose.Words के साथ फ़ॉन्ट प्रतिस्थापन चेतावनियों को सक्षम करने का तरीका सीखें। |
 | [Aspose.Words के साथ docx पुनर्प्राप्ति – चरण दर चरण](./how-to-recover-docx-with-aspose-words-step-by-step/) |
+| [भ्रष्ट Word फ़ाइल को पुनर्प्राप्त करें और C# में रिकवरी मोड प्रदर्शित करें](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | .NET के लिए Aspose.Words का उपयोग करके भ्रष्ट Word फ़ाइल को पुनर्प्राप्त करें और C# में रिकवरी मोड दिखाएँ। |
+| [C# में चेतावनियों को कैप्चर कैसे करें – गायब फ़ॉन्ट का पता लगाएँ और प्रतिस्थापन को लॉग करें](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) | C# में Aspose.Words का उपयोग करके चेतावनियों को पकड़ें, गायब फ़ॉन्ट की पहचान करें और प्रतिस्थापन को लॉग करें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

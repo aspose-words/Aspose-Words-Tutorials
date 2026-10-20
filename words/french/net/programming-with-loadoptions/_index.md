@@ -73,6 +73,8 @@ Dans ces tutoriels, vous apprendrez à utiliser LoadOptions pour charger des doc
 | [Comment capturer les avertissements – configurer les options de chargement pour les polices manquantes](./how-to-capture-warnings-configure-load-options-for-missing-f/) | Apprenez à capturer les avertissements et à configurer les LoadOptions pour gérer les polices manquantes dans Aspose.Words pour .NET. |
 | [Comment récupérer un DOCX – Guide étape par étape pour réparer les fichiers Word corrompus](./how-to-recover-docx-step-by-step-guide-to-fix-corrupted-word/) | Apprenez à réparer un fichier DOCX corrompu grâce à ce guide complet étape par étape. |
 | [Comment récupérer un docx avec Aspose.Words – Guide étape par étape](./how-to-recover-docx-with-aspose-words-step-by-step-guide/) | Apprenez à récupérer un fichier DOCX endommagé avec Aspose.Words pour .NET grâce à ce guide complet étape par étape. |
+| [Récupérer un fichier Word corrompu et afficher le mode de récupération en C#](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | Apprenez à récupérer un fichier Word endommagé et à afficher le mode de récupération avec Aspose.Words pour .NET en C#. |
+| [Comment capturer les avertissements en C# – Détecter les polices manquantes et consigner les substitutions](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) | Apprenez à détecter les avertissements de polices manquantes et à enregistrer les substitutions lors du chargement de documents Word avec Aspose.Words pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

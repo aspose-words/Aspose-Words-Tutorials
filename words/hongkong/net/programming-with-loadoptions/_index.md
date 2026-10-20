@@ -74,6 +74,8 @@ Aspose.Words for .NET 教學課程為希望掌握使用 LoadOptions 進行文字
 | [在 C# 中使用 Aspose.Words 啟用字體替代警告](./enable-font-substitution-warnings-in-c-with-aspose-words/) |了解如何在 C# 使用 Aspose.Words 設定字體替代警告，以便在載入文件時偵測缺失字體。 |
 | [如何捕獲警告 – 為缺失字體配置載入選項](./how-to-capture-warnings-configure-load-options-for-missing-f/) |了解如何使用 Aspose.Words for .NET 捕獲警告，並透過載入選項處理缺失字體。 |
 | [如何復原 DOCX – 逐步修復損壞的 Word 檔案](./how-to-recover-docx-step-by-step-guide-to-fix-corrupted-word/) |了解如何一步步修復受損的 DOCX 文件，確保內容完整。 |
+| [在 C# 中復原損壞的 Word 檔案並顯示復原模式](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) |了解如何使用 Aspose.Words for .NET 在 C# 中復原受損的 Word 檔案，並顯示復原模式以檢視修復結果。 |
+| [如何在 C# 中捕獲警告 – 偵測缺失字體並記錄替代](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) |了解如何使用 Aspose.Words for .NET 在 C# 中捕獲警告，偵測缺少的字體並記錄字體替代情況。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

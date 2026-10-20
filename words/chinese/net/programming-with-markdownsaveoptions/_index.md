@@ -291,6 +291,9 @@
 ### [如何使用 Aspose 将 DOCX 转换为带数学导出的 Markdown](./how-to-use-aspose-to-convert-docx-to-markdown-with-math-expo/)
 
 使用 Aspose.Words for .NET 将 DOCX 文档转换为包含数学公式的 Markdown，提供完整示例和步骤指南。
+### [在转换为 Markdown 时保存 Word 图像 – 完整 C# 指南](./save-word-images-while-converting-to-markdown-complete-c-gui/)
+
+使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown，同时提取并保存嵌入的图像，提供完整的 C# 示例和步骤指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

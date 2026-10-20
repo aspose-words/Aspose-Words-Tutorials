@@ -182,6 +182,7 @@
 ### [كيفية استخدام Aspose لتحويل DOCX إلى Markdown مع تصدير الرياضيات](./how-to-use-aspose-to-convert-docx-to-markdown-with-math-expo/)
 
 ### [حفظ Word كـ Markdown – دليل C# كامل لتصدير صور Word](./save-word-as-markdown-complete-c-guide-to-export-word-images/)
+### [حفظ صور Word أثناء التحويل إلى Markdown – دليل C# كامل](./save-word-images-while-converting-to-markdown-complete-c-gui/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

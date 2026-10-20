@@ -229,6 +229,8 @@ Erfahren Sie, wie Sie Word-Dokumente in Markdown exportieren und dabei Gleichung
 Erfahren Sie, wie Sie mit Aspose.Words für .NET Word‑Dokumente in Markdown konvertieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
 ### [Wie man Aspose verwendet, um DOCX in Markdown mit mathematischem Export zu konvertieren](./how-to-use-aspose-to-convert-docx-to-markdown-with-math-expo/)
 Erfahren Sie, wie Sie mit Aspose DOCX‑Dateien in Markdown konvertieren und mathematische Formeln exportieren.
+### [Word‑Bilder beim Konvertieren in Markdown speichern – Vollständige C#‑Anleitung](./save-word-images-while-converting-to-markdown-complete-c-gui/)
+Erfahren Sie, wie Sie beim Konvertieren von Word nach Markdown Bilder extrahieren und speichern – komplette C#‑Anleitung.
 
 ### [Word als Markdown speichern – Vollständige C#‑Anleitung zum Exportieren von Word‑Bildern](./save-word-as-markdown-complete-c-guide-to-export-word-images/)
 Erfahren Sie, wie Sie Word‑Dokumente als Markdown speichern und dabei Bilder exportieren – komplette C#‑Anleitung.

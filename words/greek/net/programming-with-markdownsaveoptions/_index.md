@@ -112,6 +112,7 @@
 | [Δημιουργία markdown από Word με Aspose.Words – Πλήρης Οδηγός C#](./create-markdown-from-word-with-aspose-words-full-c-guide/) | Μάθετε πώς να δημιουργήσετε markdown από έγγραφα Word χρησιμοποιώντας Aspose.Words με πλήρη οδηγό C#. |
 | [Πώς να χρησιμοποιήσετε το Aspose για τη μετατροπή DOCX σε Markdown με εξαγωγή μαθηματικών](./how-to-use-aspose-to-convert-docx-to-markdown-with-math-expo/) | Μάθετε πώς να μετατρέψετε αρχεία DOCX σε Markdown με εξαγωγή μαθηματικών εξισώσεων χρησιμοποιώντας το Aspose.Words για .NET. |
 | [Αποθήκευση Word ως Markdown – Πλήρης Οδηγός C# για Εξαγωγή Εικόνων Word](./save-word-as-markdown-complete-c-guide-to-export-word-images/) | Μάθετε πώς να εξάγετε εικόνες από έγγραφα Word κατά τη μετατροπή σε Markdown με πλήρη οδηγό C#. |
+| [Αποθήκευση εικόνων Word κατά τη μετατροπή σε Markdown – Πλήρης οδηγός C#](./save-word-images-while-converting-to-markdown-complete-c-gui/) | Μάθετε πώς να αποθηκεύσετε τις εικόνες των εγγράφων Word κατά τη μετατροπή σε Markdown με πλήρη οδηγό C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

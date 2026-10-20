@@ -260,6 +260,8 @@ Aprenda a converter documentos DOCX para Markdown preservando equações matemá
 
 ### [Salvar Word como Markdown – Guia Completo em C# para Exportar Imagens do Word](./save-word-as-markdown-complete-c-guide-to-export-word-images/)
 Aprenda a exportar imagens ao salvar documentos Word como Markdown usando C# com Aspose.Words.
+### [Salvar imagens do Word ao converter para Markdown – Guia completo em C#](./save-word-images-while-converting-to-markdown-complete-c-gui/)
+Aprenda a extrair e salvar imagens ao converter documentos Word para Markdown usando C# e Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
