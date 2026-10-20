@@ -52,7 +52,7 @@ tags:
 - AI
 - Aspose.Words
 - Document Summarization
-title: Summarize Word Document with Aspose.Words for Java using Self‑Hosted AI – Full Guide
+title: Summarize Word Document with Aspose.Words for Java using Self‑Hosted AI API – Full Guide
 url: /java/ai-machine-learning-integration/summarize-word-document-in-java-with-self-hosted-ai-full-gui/
 ---
 
@@ -287,7 +287,7 @@ The following tutorials cover closely related topics that build on the technique
 - [How to Convert Word to PDF Using Aspose.Words for Java]({{< relref "words/english/java/document-converting/using-document-converting/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

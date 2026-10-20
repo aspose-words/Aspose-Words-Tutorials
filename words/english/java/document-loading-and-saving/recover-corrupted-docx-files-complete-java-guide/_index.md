@@ -25,7 +25,7 @@ tags:
 - Java
 - Aspose.Words
 - DocumentRecovery
-title: Recover Corrupted DOCX Files with Aspose.Words – Set Recovery Mode, Check Document Recovered, Detect Recovery – Complete Java Guide
+title: Recover Corrupted DOCX Files Using Aspose.Words Java API – Set Recovery Mode, Check Document Recovered, Detect Recovery – Complete Guide
 url: /java/document-loading-and-saving/recover-corrupted-docx-files-complete-java-guide/
 ---
 
@@ -245,7 +245,7 @@ The following tutorials cover closely related topics that build on the technique
 - [Aspose Words Java Document Signing Tutorial]({{< relref "/words/english/java/mail-merge-reporting/aspose-words-java-document-signing-tutorial/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

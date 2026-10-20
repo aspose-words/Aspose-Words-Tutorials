@@ -49,7 +49,7 @@ tags:
 - Aspose.Words
 - Java
 - Document Automation
-title: Configure Shape Blur Radius with Aspose.Words for Java using setBlurRadius – Complete Guide
+title: How to Configure Shape Blur Radius with Aspose.Words for Java using setBlurRadius – Complete Guide
 url: /java/images-shapes/configure-shape-blur-radius-in-java-complete-guide/
 ---
 

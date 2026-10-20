@@ -1,5 +1,5 @@
 ---
-title: "How to Integrate AI with Aspose.Words API for Java for Smart Document Processing"
+title: "How to Automate Smart Document Processing with AI using Aspose.Words API for Java"
 description: "Learn how to integrate AI for smart document processing using Aspose.Words for Java. Discover AI document automation, content generation, and translation."
 weight: 20
 url: "/java/ai-machine-learning-integration/"
@@ -115,8 +115,6 @@ A: For most use cases, pre‑trained models work well. If you need higher accura
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 ---
 
 **Last Updated:** 2025-11-25  
@@ -124,3 +122,5 @@ A: For most use cases, pre‑trained models work well. If you need higher accura
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/main-wrap-class >}}

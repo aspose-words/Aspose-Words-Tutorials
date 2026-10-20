@@ -40,7 +40,7 @@ tags:
 - PDF
 - Word
 - Accessibility
-title: Create Accessible PDF with Aspose.Words for Java – Complete Guide to Export Word to PDF
+title: Create Accessible PDF with Aspose.Words for Java – Convert DOCX to PDF and Export Word to PDF
 url: /java/document-conversion-and-export/create-accessible-pdf-from-word-complete-guide-to-export-wor/
 ---
 

@@ -41,7 +41,7 @@ tags:
 - Aspose.Words
 - Java
 - Document Conversion
-title: Capture Font Substitution Warnings in Java with Aspose.Words for Java – Complete Guide
+title: Capture Font Substitution Warnings in Java using Aspose.Words API – Complete Guide
 url: /java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/
 ---
 

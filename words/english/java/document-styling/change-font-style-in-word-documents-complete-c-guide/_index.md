@@ -48,7 +48,7 @@ tags:
 - C#
 - Aspose.Words
 - typography
-title: Set Font Weight and Adjust Font Width in Word Documents with Aspose.Words – Complete C# Guide
+title: Change Font Style – Set Font Weight and Adjust Font Width in Word Documents with Aspose.Words – Complete C# Guide
 url: /java/document-styling/change-font-style-in-word-documents-complete-c-guide/
 ---
 
@@ -56,7 +56,7 @@ url: /java/document-styling/change-font-style-in-word-documents-complete-c-guide
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Set Font Weight and Adjust Font Width in Word Documents with Aspose.Words – Complete C# Guide
+# Change Font Style – Set Font Weight and Adjust Font Width in Word Documents with Aspose.Words – Complete C# Guide
 
 Ever needed to **change font style** in a Word file but weren’t sure which API call actually does the trick? You’re not alone—most developers hit that wall when they first try to programmatically tweak typography.  
 
@@ -230,5 +230,6 @@ The following tutorials cover closely related topics that build on the technique
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

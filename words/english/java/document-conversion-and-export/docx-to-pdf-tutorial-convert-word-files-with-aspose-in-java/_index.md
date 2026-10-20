@@ -251,8 +251,8 @@ The following tutorials cover closely related topics that build on the technique
 - [How to Convert Word to PDF Using Aspose.Words for Java]({{< relref "words/english/java/document-converting/using-document-converting/_index.md" >}})
 - [Convert HTML to DOCX with Aspose.Words for Java]({{< relref "words/english/java/document-converting/converting-html-documents/_index.md" >}})
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

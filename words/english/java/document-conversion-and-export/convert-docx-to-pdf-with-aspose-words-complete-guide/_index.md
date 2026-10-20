@@ -13,17 +13,17 @@ keywords:
 language: en
 og_description: Convert DOCX to PDF with Aspose.Words. This tutorial shows how to
   save Word as PDF, adjust PDF save options, and export shapes as inline tags.
-og_title: Convert DOCX to PDF with Aspose.Words – Complete Guide
+og_title: How to Convert DOCX to PDF with Aspose.Words – Complete Guide
 schemas:
 - author: Aspose
   dateModified: '2026-06-27'
   description: Convert DOCX to PDF using Aspose.Words. Learn how to save Word as PDF,
     configure PDF save options, and export shapes inline for perfect results.
-  headline: Convert DOCX to PDF with Aspose.Words – Complete Guide
+  headline: How to Convert DOCX to PDF with Aspose.Words – Complete Guide
   type: TechArticle
 - description: Convert DOCX to PDF using Aspose.Words. Learn how to save Word as PDF,
     configure PDF save options, and export shapes inline for perfect results.
-  name: Convert DOCX to PDF with Aspose.Words – Complete Guide
+  name: How to Convert DOCX to PDF with Aspose.Words – Complete Guide
   steps:
   - name: What does `setExportFloatingShapesAsInlineTag` actually do?
     text: '- **`true`** – Shapes are rendered as **inline tags** (`<w:pict>` inside
@@ -47,7 +47,7 @@ tags:
 - Aspose.Words
 - PDF conversion
 - Java
-title: Convert DOCX to PDF with Aspose.Words – Complete Guide
+title: How to Convert DOCX to PDF with Aspose.Words – Complete Guide
 url: /java/document-conversion-and-export/convert-docx-to-pdf-with-aspose-words-complete-guide/
 ---
 
@@ -55,7 +55,7 @@ url: /java/document-conversion-and-export/convert-docx-to-pdf-with-aspose-words-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Convert DOCX to PDF with Aspose.Words – Complete Guide
+# How to Convert DOCX to PDF with Aspose.Words – Complete Guide
 
 Ever wondered how to **convert DOCX to PDF** without losing those tricky floating shapes? You’re not the only one. In many projects—think automated report generators or batch‑processing pipelines—getting a clean PDF out of a Word file is a daily headache.
 

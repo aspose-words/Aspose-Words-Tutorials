@@ -37,7 +37,7 @@ tags:
 - Java
 - Aspose.Words
 - Document Conversion
-title: Convert DOCX to Markdown with Embedded Images using Aspose.Words for Java API
+title: Convert DOCX to Markdown with Embedded Images using Aspose.Words for Java
 url: /java/document-conversion-and-export/convert-docx-to-markdown-with-embedded-images-java-guide/
 ---
 
