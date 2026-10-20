@@ -24,7 +24,6 @@ title: Odzyskaj uszkodzony dokument Word – Kompletny przewodnik C#
 url: /pl/net/programming-with-loadoptions/recover-corrupted-word-document-complete-c-guide/
 ---
 
-all translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

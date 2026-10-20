@@ -23,17 +23,12 @@ title: Cách xuất Markdown từ Word bằng Java – Hướng dẫn đầy đ�
 url: /vi/java/document-conversion-and-export/how-to-export-markdown-from-word-using-java-complete-guide/
 ---
 
-sure we keep them unchanged.
 
-Check for any remaining markdown links: none.
 
-Check for any code blocks: placeholders only.
 
-Check for any images: we translated alt and title.
 
-Check for any bold text: we kept.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

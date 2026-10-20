@@ -25,13 +25,10 @@ title: Barrierefreies PDF aus Word erstellen – Schritt‑für‑Schritt‑Anle
 url: /de/java/document-conversion-and-export/create-accessible-pdf-from-word-step-by-step-guide/
 ---
 
-Final paragraph: translate.
 
-Now closing shortcodes.
 
-Make sure to keep all shortcodes unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

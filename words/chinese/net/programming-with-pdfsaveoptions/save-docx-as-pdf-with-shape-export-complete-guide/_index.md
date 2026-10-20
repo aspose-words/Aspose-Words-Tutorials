@@ -20,7 +20,6 @@ title: 使用 Shape Export 将 docx 保存为 pdf – 完整指南
 url: /zh/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-shape-export-complete-guide/
 ---
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

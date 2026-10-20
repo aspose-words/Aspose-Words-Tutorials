@@ -24,9 +24,7 @@ title: DOCX'ten Markdown'a Dönüştürürken Dosya Uzantısını Belirleme – 
 url: /tr/net/programming-with-markdownsaveoptions/determine-file-extension-while-converting-docx-to-markdown-c/
 ---
 
-unchanged.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

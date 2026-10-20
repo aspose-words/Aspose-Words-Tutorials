@@ -22,11 +22,9 @@ title: كيفية الحصول على الخطوط المفقودة في جاف�
 url: /ar/java/document-loading-and-saving/how-to-get-missing-fonts-in-java-aspose-words-guide/
 ---
 
-_X}} which are not code fences; they are placeholders. Keep them.
 
-Make sure markdown formatting preserved.
 
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

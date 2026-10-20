@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: Αυτό το σεμινάριο δείχνει πώς να εισάγετε αλλαγές σελίδας σε ένα έγγραφο Word χρησιμοποιώντας το Aspose.Words Document και το DocumentBuilder.
+//ExStepSummary:0: Δημιουργήστε ένα αντικείμενο Document και ένα DocumentBuilder που θα χρησιμοποιηθούν για την προσθήκη περιεχομένου.
+//ExStepSummary:1: Γράψτε το κείμενο της πρώτης σελίδας και εισάγετε μια αλλαγή σελίδας ώστε το επόμενο περιεχόμενο να ξεκινά σε νέα σελίδα.
+//ExStepSummary:2: Γράψτε το κείμενο της δεύτερης σελίδας και εισάγετε άλλη μια αλλαγή σελίδας για να ξεκινήσει η τρίτη σελίδα.
+//ExStepSummary:3: Γράψτε το κείμενο της τρίτης σελίδας, ολοκληρώνοντας το τρισελιδικό έγγραφο.
+//ExStepSummary:4: Αποθηκεύστε το συναρμολογημένο έγγραφο σε αρχείο .docx στον καθορισμένο φάκελο.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("This is page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:2-
+builder.Writeln("This is page 2.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+builder.Writeln("This is page 3.");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

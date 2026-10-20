@@ -22,7 +22,7 @@ title: spara docx som txt – komplett guide för att exportera Word‑ekvatione
 url: /sv/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/
 ---
 
-. Ensure no extra explanations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

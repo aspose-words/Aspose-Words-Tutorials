@@ -76,6 +76,8 @@ implementation 'com.aspose:aspose-words:25.3'
 
 إليك برنامج Java بسيط ينشئ مستندًا فارغًا:
 
+### التهيئة الأساسية والإعداد
+الفئة `Document` هي الكائن الأساسي الذي يمثل ملف PDF أو Word أو أي ملف مدعوم في الذاكرة. بعد إضافة اعتماد Maven، يمكنك إنشاء مثيل لها كما يلي:
 ```java
 import com.aspose.words.Document;
 
@@ -98,6 +100,8 @@ public class DocumentSetup {
 #### نظرة عامة
 إنشاء `GlossaryDocument` داخل مستند رئيسي يتيح لك إدارة القواميس، الأنماط، والأجزاء المخصصة في حاوية معزولة ونظيفة.
 
+#### كيف تهيء مستند القاموس؟
+أنشئ مثيل `Document` رئيسي، ثم أرفق `GlossaryDocument` لإدارة مدخلات القاموس في ملف واحد متماسك. يمثل GlossaryDocument جزء القاموس في مستند Word، ويخزن مدخلات مثل عناصر القاموس، الحواشي الختامية، والأجزاء المخصصة.
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.GlossaryDocument;
@@ -116,11 +120,13 @@ public class DocumentInitialization {
 
 *لماذا يهم:* هذا النمط هو الأساس لـ **دمج أقسام المستند** لاحقًا، لأن كل قسم يمكنه الحفاظ على أنماطه الخاصة مع بقائه ضمن نفس الملف.
 
-### الميزة 2: تعيين لون خلفية الصفحة
+### الميزة 2: ضبط لون خلفية الصفحة
 
 #### نظرة عامة
 يمكنك تطبيق ظل موحد على كل صفحة باستخدام `Document.setPageColor`. هذا يلبي مباشرة الكلمة المفتاحية الأساسية **set page background color**.
 
+#### كيف تضبط لون خلفية الصفحة؟
+استخدم طريقة `setPageColor()` على كائن `Document`، مع تمرير قيمة `java.awt.Color` التي تمثل الظل المطلوب.
 ```java
 import com.aspose.words.Document;
 import java.awt.Color;
@@ -147,6 +153,8 @@ public class SetPageBackgroundColor {
 #### نظرة عامة
 عند الحاجة إلى دمج محتوى من مصادر متعددة، يمكنك استيراد قسم كامل (أو أي عقدة) من مستند إلى آخر. هذا هو جوهر سيناريوهات **merge document sections** و **import section from document**.
 
+#### كيف تستورد قسمًا من مستند المصدر؟
+استدعِ `importNode()` على `Document` الوجهة، مع توفير العقدة المراد استيرادها و`ImportFormatMode` الذي يحدد طريقة معالجة الأنماط.
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.Section;
@@ -181,6 +189,8 @@ public class ImportNode {
 #### نظرة عامة
 أحيانًا يستخدم المصدر والوجهة تعريفات أنماط مختلفة. `ImportFormatMode` يتيح لك اختيار ما إذا كنت تريد الحفاظ على أنماط المصدر أو فرض أنماط الوجهة.
 
+#### كيف تطبق وضع تنسيق استيراد مخصص؟
+حدد `ImportFormatMode` المطلوب عند استدعاء `importNode()`. يتيح لك ذلك التحكم فيما إذا كان سيتم الاحتفاظ بتنسيق المصدر أو استبداله. `ImportFormatMode` هو تعداد يحدد كيفية معالجة التنسيق أثناء استيراد العقدة، مثل الحفاظ على أنماط المصدر أو استخدام أنماط الوجهة.
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.Style;
@@ -211,6 +221,8 @@ public class ImportNodeCustom {
 #### نظرة عامة
 إلى جانب الألوان الصلبة، يمكنك تضمين أشكال أو صور كخلفيات للصفحات. يضيف هذا المثال شكل نجمة حمراء، لكن يمكنك استبداله بأي صورة لإنشاء **document background image**.
 
+#### كيف تُدرج شكل خلفية؟
+أنشئ `Shape` من النوع `ShapeType.IMAGE`، اضبط تخطيطه إلى `WRAP_NONE`، وأضفه إلى ترويسة أو تذييل المستند بحيث يظهر خلف جميع النصوص. يمثل Shape كائن رسم مثل صورة أو مربع نص أو شكل هندسي يمكن وضعه في أي مكان داخل المستند.
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.Shape;
@@ -272,6 +284,6 @@ public class SetBackgroundShape {
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/products-backtop-button >}}

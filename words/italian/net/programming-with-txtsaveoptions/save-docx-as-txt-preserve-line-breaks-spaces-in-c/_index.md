@@ -24,13 +24,10 @@ title: Salva docx come txt – Conserva interruzioni di riga e spazi in C#
 url: /it/net/programming-with-txtsaveoptions/save-docx-as-txt-preserve-line-breaks-spaces-in-c/
 ---
 
-Then closing shortcodes unchanged.
 
-Also the backtop button shortcode at end.
 
-Make sure to keep all placeholders exactly.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

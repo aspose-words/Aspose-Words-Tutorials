@@ -25,7 +25,7 @@
 | [Word文書のオプションを比較する](./compare-options/) Aspose.Words for .NET を使用して Word 文書を比較する方法を、ステップバイステップガイドで学習しましょう。文書の整合性を簡単に確保できます。 |
 | [Word文書の比較対象](./comparison-target/) Aspose.Words for .NET を使って、Word 文書を簡単に比較する方法を、この詳細なステップバイステップガイドでご紹介します。時間を節約し、文書比較の精度を高めます。 |
 | [Word文書の比較粒度](./comparison-granularity/) Aspose.Words for .NET の Word 文書の粒度比較機能について学習します。この機能を使用すると、文書を文字ごとに比較し、変更内容を報告できます。 |
-
+| [C# で Aspose.Words を使用して Word 文書を比較する](./compare-word-documents-in-c-using-aspose-words/) Aspose.Words for .NET を使用して C# で Word 文書を比較する方法を学びます。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

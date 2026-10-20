@@ -77,6 +77,7 @@ implementation 'com.aspose:aspose-words:25.3'
 
 Berikut program Java minimal yang membuat dokumen kosong:
 
+Kelas `Document` adalah objek inti yang mewakili PDF, Word, atau file dukungan lainnya dalam memori. Setelah menambahkan dependensi Maven, Anda dapat menginstansiasinya seperti berikut:
 ```java
 import com.aspose.words.Document;
 
@@ -92,9 +93,9 @@ public class DocumentSetup {
 
 Dengan pustaka siap, mari selami fitur inti.
 
-## Panduan Implementasi
+## Panduan implementasi
 
-### Fitur 1: Inisialisasi Dokumen
+### Fitur 1: inisialisasi dokumen
 
 #### Gambaran Umum
 Membuat `GlossaryDocument` di dalam dokumen utama memungkinkan Anda mengelola glosarium, gaya, dan bagian khusus dalam wadah yang bersih dan terisolasi.
@@ -117,7 +118,7 @@ public class DocumentInitialization {
 
 *Mengapa penting:* Pola ini menjadi dasar untuk **menggabungkan bagian dokumen** nanti, karena setiap bagian dapat mempertahankan gaya masing‑masing sambil tetap berada dalam satu file.
 
-### Fitur 2: Mengatur Warna Latar Belakang Halaman
+### Fitur 2: mengatur warna latar belakang halaman
 
 #### Gambaran Umum
 Anda dapat menerapkan nuansa seragam ke setiap halaman menggunakan `Document.setPageColor`. Ini secara langsung menjawab kata kunci utama **set page background color**.
@@ -273,6 +274,6 @@ J: Muat dokumen dengan `new Document("file.doc")`, panggil `setPageColor`, dan s
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -22,7 +22,7 @@ title: docx opslaan als txt – docx converteren naar markdown
 url: /nl/net/programming-with-markdownsaveoptions/save-docx-as-txt-convert-docx-to-markdown/
 ---
 
-final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

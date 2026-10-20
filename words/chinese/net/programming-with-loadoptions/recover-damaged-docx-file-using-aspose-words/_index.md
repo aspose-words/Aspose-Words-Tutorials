@@ -21,15 +21,10 @@ title: 使用 Aspose.Words 恢复损坏的 DOCX 文件
 url: /zh/net/programming-with-loadoptions/recover-damaged-docx-file-using-aspose-words/
 ---
 
-tables: translate "Prerequisite" and "Why it matters". Keep pipe separators.
 
-Also translate bullet points.
 
-Let's start.
 
-We need to keep shortcodes at top and bottom unchanged.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

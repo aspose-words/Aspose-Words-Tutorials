@@ -25,6 +25,7 @@
 | [Vergleichsoptionen im Word-Dokument](./compare-options/) | Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie Word-Dokumente mit Aspose.Words für .NET vergleichen. Stellen Sie mühelos die Dokumentkonsistenz sicher. |
 | [Vergleichsziel im Word-Dokument](./comparison-target/) | Vergleichen Sie Word-Dokumente mühelos mit Aspose.Words für .NET – mit dieser detaillierten Schritt-für-Schritt-Anleitung. Sparen Sie Zeit und verbessern Sie die Genauigkeit beim Dokumentenvergleich. |
 | [Vergleichsgranularität im Word-Dokument](./comparison-granularity/) | Erfahren Sie mehr über die Funktion „Granularität in Word-Dokumenten vergleichen“ von Aspose.Words für .NET, mit der Dokumente Zeichen für Zeichen verglichen und vorgenommene Änderungen gemeldet werden können. |
+| [Word-Dokumente in C# mit Aspose.Words vergleichen](./compare-word-documents-in-c-using-aspose-words/) | Vergleichen Sie Word-Dokumente in C# mithilfe von Aspose.Words. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

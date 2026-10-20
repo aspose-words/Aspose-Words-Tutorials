@@ -80,6 +80,8 @@ Aspose.Words for Java هي واجهة برمجة تطبيقات قوية ومت�
 تعرّف على كيفية تحسين تنسيق المستندات باستخدام Aspose.Words لجافا. استكشف الأنماط والسمات والمزيد في هذا الدليل الشامل مع أمثلة على أكواد المصدر.
 ### [إنشاء جدول المحتويات في Aspose.Words لـ Java](./generating-table-of-contents/)
 تعلّم كيفية إنشاء جدول المحتويات (TOC) وتخصيصه باستخدام Aspose.Words لجافا. أنشئ مستندات منظمة واحترافية بكل سهولة.
+### [إنشاء زر ActiveX في مستند docx باستخدام Java – دليل برمجة كامل](./create-docx-activex-button-in-java-complete-programming-guid/)
+دليل شامل لإنشاء زر ActiveX في ملفات docx باستخدام Aspose.Words لجافا مع أمثلة برمجية خطوة بخطوة.
 ### [حماية المستندات في Aspose.Words لـ Java](./protecting-documents/)
 تعرّف على كيفية تأمين مستندات جافا وورد باستخدام Aspose.Words لجافا. احمِ بياناتك بكلمة مرور، وغير ذلك الكثير.
 ### [تقسيم المستندات إلى صفحات في Aspose.Words لـ Java](./splitting-documents-into-pages/)
@@ -104,6 +106,10 @@ Aspose.Words for Java هي واجهة برمجة تطبيقات قوية ومت�
 حسّن إدارة المستندات باستخدام Aspose.Words لجافا. تعلّم كيفية التعامل مع خصائص المستندات، وإضافة بيانات تعريفية مخصصة، والمزيد في هذا البرنامج التعليمي الشامل.
 ### [استخدام ملحقات الويب في Aspose.Words للغة Java](./using-web-extensions/)
 حسّن مستنداتك باستخدام ملحقات الويب في Aspose.Words لجافا. تعلّم كيفية دمج محتوى الويب بسلاسة.
+### [وسم إمكانية الوصول إلى PDF في Java – إنشاء ملفات PDF قابلة للوصول](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+تعلم كيفية إضافة وسوم الوصول إلى ملفات PDF باستخدام Aspose.Words لجافا لإنشاء مستندات PDF متوافقة مع معايير إمكانية الوصول.
+### [كيفية إنشاء مستند Word في Java باستخدام Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+تعلم خطوة بخطوة إنشاء مستند Word باستخدام Aspose.Words في Java.
 ### [إضافة عنصر تحكم المحتوى في مستند Word باستخدام Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
 تعلم كيفية إضافة عناصر تحكم المحتوى إلى مستندات Word باستخدام Aspose.Words لجافا.
 

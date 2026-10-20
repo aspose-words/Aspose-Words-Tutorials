@@ -60,12 +60,12 @@ weight: 1
     <artifactId>aspose-words</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
 **Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ### Требования к настройке окружения
 - Установлен Java Development Kit (JDK).
@@ -90,6 +90,16 @@ public class SetupAsposeWords {
         System.out.println("Aspose.Words is ready to use!");
     }
 }
+```  
+
+С готовой библиотекой вы можете приступить к использованию основных функций.
+
+## Как анализировать страницы с помощью LayoutCollector?
+
+`LayoutCollector` — класс, который сопоставляет каждый узел в `Document` с его начальным и конечным номерами страниц, обеспечивая точный анализ пагинации. Загрузите документ, привяжите `LayoutCollector` и запросите информацию о страницах — вся операция занимает всего несколько строк кода и даёт надёжные результаты даже для больших файлов.
+
+```text
+Load the document → create LayoutCollector → call getStartPage(node) / getEndPage(node)
 ```
 
 С готовой библиотекой мы можем перейти к основным функциям.
@@ -108,7 +118,7 @@ public class SetupAsposeWords {
 ```java
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
-```
+```  
 
 **2. Заполнить документ**
 Здесь мы добавим содержимое, которое охватывает несколько страниц:
@@ -119,7 +129,7 @@ builder.insertBreak(BreakType.PAGE_BREAK);
 builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
 builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
-```
+```  
 
 **3. Обновить макет и получить метрики**
 ```java
@@ -127,6 +137,19 @@ layoutCollector.clear();
 doc.updatePageLayout();
 
 assert layoutCollector.getNumPagesSpanned(doc) == 5;
+```  
+
+**Пояснение:**  
+- `DocumentBuilder` вставляет контент.  
+- `updatePageLayout()` принудительно выполняет проход по макету, чтобы номера страниц были точными.  
+- `getStartPage` / `getEndPage` возвращают первый и последний номера страниц для любого узла.
+
+## Как перечислять элементы макета с помощью LayoutEnumerator?
+
+`LayoutEnumerator` — класс, который обходит визуальное дерево макета документа, раскрывая тип, позицию и размер каждого элемента — идеально подходит для пользовательского рендеринга или аналитики. `LayoutEnumerator` проходит по визуальному дереву макета, раскрывая тип, позицию и размер каждого элемента — идеально подходит для пользовательского рендеринга или аналитики.
+
+```text
+Initialize LayoutEnumerator → move to first child → iterate while moving next sibling
 ```
 
 #### Пояснение
@@ -145,7 +168,7 @@ assert layoutCollector.getNumPagesSpanned(doc) == 5;
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
-```
+```  
 
 **2. Обход вперёд и назад**
 ```java
@@ -156,6 +179,18 @@ traverseLayoutForward(layoutEnumerator, 1);
 
 // Traverse backward
 traverseLayoutBackward(layoutEnumerator, 1);
+```  
+
+**Пояснение:**  
+- `moveParent()` поднимается вверх по дереву.  
+- Рекурсивный обход даёт полный доступ к каждому узлу макета.
+
+## Как реализовать обратные вызовы макета страниц?
+
+`IPageLayoutCallback` — интерфейс для получения событий макета во время обработки документа, позволяющий реагировать на изменения макета, такие как перераспределение секций или завершение рендеринга. Реализация `IPageLayoutCallback` позволяет реагировать на события макета, такие как перераспределение секций или завершение рендеринга, предоставляя динамический контроль над конвейером генерации документа.
+
+```text
+Set callback on Document → implement notify(event) → handle specific layout events
 ```
 
 #### Пояснение
@@ -174,7 +209,7 @@ traverseLayoutBackward(layoutEnumerator, 1);
 ```java
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
 doc.updatePageLayout();
-```
+```  
 
 **2. Реализовать методы обратного вызова**
 ```java
@@ -196,6 +231,18 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
         }
     }
 }
+```  
+
+**Пояснение:**  
+- `notify()` получает идентификатор события.  
+- `ImageSaveOptions` можно настроить внутри обратного вызова для рендеринга изображений «на лету».
+
+## Как перезапустить нумерацию страниц в непрерывных секциях?
+
+`ContinuousSectionRestart` — перечисление, определяющее, будет ли нумерация страниц перезапускаться в непрерывных секциях, предоставляя тонкий контроль над схемами нумерации в документе. Когда документ содержит несколько секций, плавно переходящих друг в друга, вы можете управлять тем, будет ли нумерация страниц автоматически перезапускаться.
+
+```text
+Load document → set ContinuousSectionPageNumberingRestart option → save
 ```
 
 #### Пояснение
@@ -213,13 +260,13 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
 **1. Загрузить документ**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
-```
+```  
 
 **2. Настроить параметры нумерации страниц**
 ```java
 doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
 doc.updatePageLayout();
-```
+```  
 
 #### Пояснение
 - **`setContinuousSectionPageNumberingRestart()`** указывает Aspose.Words, как обрабатывать нумерацию в непрерывных секциях.

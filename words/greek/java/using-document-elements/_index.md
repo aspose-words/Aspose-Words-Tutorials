@@ -43,6 +43,10 @@
 Να θυμάστε ότι η εξάσκηση φέρνει την τελειότητα και με το Aspose.Words για Java, θα δημιουργείτε, θα τροποποιείτε και θα βελτιώνετε έγγραφα σαν επαγγελματίας σε χρόνο μηδέν. Καλή κωδικοποίηση!
 
 ## Χρήση Στοιχείων Εγγράφου - Εκπαιδευτικά Βίντεο
+### [Προσθήκη Forms2OleControl σε DOCX – Πλήρης Οδηγός Aspose.Words](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Μάθετε πώς να προσθέτετε Forms2OleControl σε αρχεία DOCX χρησιμοποιώντας το Aspose.Words.
+
+### [Δημιουργία κενού εγγράφου Word με κουμπί εντολής – οδηγός βήμα‑βήμα](./create-blank-word-document-with-a-command-button-step-by-ste/)
 ### [Χρήση σχολίων στο Aspose.Words για Java](./using-comments/)
 Μάθετε πώς να χρησιμοποιείτε σχόλια στο Aspose.Words για Java. Βήμα προς βήμα οδηγός για την προσθήκη και προσαρμογή σχολίων στα έγγραφά σας.
 ### [Χρήση πεδίων στο Aspose.Words για Java](./using-fields/)
@@ -67,10 +71,30 @@
 Μάθετε να χειρίζεστε κόμβους στο Aspose.Words για Java με αυτό το βήμα προς βήμα σεμινάριο. Ξεκλειδώστε την ισχύ επεξεργασίας εγγράφων.
 ### [Χρήση αντικειμένων OLE και στοιχείων ελέγχου ActiveX στο Aspose.Words για Java](./using-ole-objects-and-activex/)
 Μάθετε να χρησιμοποιείτε αντικείμενα OLE και στοιχεία ελέγχου ActiveX στο Aspose.Words για Java. Δημιουργήστε διαδραστικά έγγραφα με ευκολία. Ξεκινήστε τώρα!
+### [Πώς να εισαγάγετε κουμπί ActiveX στο Word – Ορισμός λεζάντας κουμπιού](./how-to-insert-activex-button-in-word-set-button-caption/)
+Μάθετε πώς να προσθέσετε κουμπί ActiveX σε έγγραφο Word και να ορίσετε τη λεζάντα του σε αυτό το βήμα‑προς‑βήμα σεμινάριο.
 ### [Χρήση αναθεωρήσεων στο Aspose.Words για Java](./using-revisions/)
 Μάθετε να χρησιμοποιείτε αποτελεσματικά το Aspose.Words για τα στοιχεία ελέγχου αναθεώρησης της Java. Οδηγός βήμα προς βήμα για προγραμματιστές. Βελτιστοποιήστε τη διαχείριση εγγράφων σας.
 ### [Χρήση Ενοτήτων στο Aspose.Words για Java](./using-sections/)
 Εξερευνήστε το Aspose.Words για Java: Ένας ολοκληρωμένος οδηγός για τη χρήση ενοτήτων. Προσθήκη, διαγραφή, προσθήκη, κλωνοποίηση ενοτήτων με παραδείγματα κώδικα.
+### [Ορισμός μεγέθους κουμπιού στο Word με Java – Πλήρης οδηγός Aspose.Words](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Μάθετε πώς να ορίσετε το μέγεθος των κουμπιών σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
+### [Δημιουργία διαγράμματος πίτας με Aspose.Words για Java – Πλήρης οδηγός βήμα‑βήμα](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Μάθετε πώς να δημιουργήσετε διαγράμματα πίτας σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java, με πλήρη βήμα‑βήμα οδηγίες.
+### [Εισαγωγή διαγράμματος πίτας στο Word με Aspose.Words – Πλήρης οδηγός](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Μάθετε πώς να δημιουργήσετε και να ενσωματώσετε διαγράμματα πίτας σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
+### [Δημιουργία διαγράμματος πίτας στο Word με Java – βήμα προς βήμα οδηγός](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε διάγραμμα πίτας σε έγγραφο Word χρησιμοποιώντας Aspose.Words για Java.
+### [Πώς να λάβετε διαχωριστικό σε έγγραφα Word με Java](./how-to-get-separator-in-word-docs-with-java/)
+Μάθετε πώς να αποκτήσετε διαχωριστικό σε έγγραφα Word χρησιμοποιώντας Aspose.Words για Java.
+### [Πώς να προσθέσετε SDT σε C# – πλήρης οδηγός για placeholders του Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Μάθετε πώς να προσθέσετε SDT (Structured Document Tags) σε έγγραφα Word χρησιμοποιώντας C#.
+### [Δημιουργία εγγράφου Word με σύμβολα κράτησης θέσης και λίστες](./how-to-create-word-document-with-placeholders-and-lists/)
+
+### [Πώς να προσθέσετε γραμμές οδηγού σε διάγραμμα πίτας σε Java με το Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Μάθετε πώς να προσθέσετε γραμμές οδηγού σε διάγραμμα πίτας χρησιμοποιώντας το Chart API της Java. Οδηγός βήμα‑βήμα.
+### [Πώς να εισάγετε κουμπί εντολής σε έγγραφο Word χρησιμοποιώντας Java](./how-to-insert-command-button-in-a-word-document-using-java/)
+Μάθετε πώς να προσθέσετε κουμπί εντολής σε έγγραφο Word με το Aspose.Words για Java.
 ### [Πώς να επεξεργαστείτε γράφημα σε έγγραφο Word χρησιμοποιώντας Java](./how-to-edit-chart-in-a-word-document-using-java/)
 Μάθετε πώς να επεξεργαστείτε γραφήματα σε έγγραφα Word με το Aspose.Words για Java.
 

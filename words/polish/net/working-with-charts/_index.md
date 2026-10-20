@@ -32,6 +32,8 @@ Zanurz się głębiej w nasze zagnieżdżone strony, aby odkryć konkretne funkc
 
 {{< tutorial-card link="./insert-simple-column-chart/" title="Wstawianie prostego wykresu kolumnowego w programie Word przy użyciu Aspose.Words dla platformy .NET" imgSrc="./insert-simple-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-edit-chart-in-word-change-label-position-font-more/" title="Jak edytować wykres w Wordzie: zmień położenie etykiet, czcionkę i więcej" imgSrc="./how-to-edit-chart-in-word-change-label-position-font-more/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

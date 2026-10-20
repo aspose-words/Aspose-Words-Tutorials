@@ -81,6 +81,8 @@ Learn how to use Structured Document Tags (SDT) in Aspose.Words for Java with th
 Learn how to enhance document formatting with Aspose.Words for Java. Explore styles, themes, and more in this comprehensive guide with source code examples.
 ### [Generating Table of Contents in Aspose.Words for Java](./generating-table-of-contents/)
 Learn how to generate and customize Table of Contents (TOC) using Aspose.Words for Java. Create organized and professional documents effortlessly.
+### [pdf accessibility tagging in Java – Generate Accessible PDFs](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Learn how to add accessibility tags to PDFs using Aspose.Words for Java, creating compliant and accessible PDF documents.
 ### [Protecting Documents in Aspose.Words for Java](./protecting-documents/)
 Learn how to secure your Java Word documents with Aspose.Words for Java. Protect your data with password and more.
 ### [Splitting Documents into Pages in Aspose.Words for Java](./splitting-documents-into-pages/)
@@ -106,7 +108,10 @@ Unlock the Power of Aspose.Words for Java. Master Document Options and Settings 
 ### [Using Document Properties in Aspose.Words for Java](./using-document-properties/)
 Optimize document management with Aspose.Words for Java. Learn to work with document properties, add custom metadata, and more in this comprehensive tutorial.
 ### [Using Web Extensions in Aspose.Words for Java](./using-web-extensions/)
-Enhance Documents with Web Extensions in Aspose.Words for Java. Learn to integrate web-based content seamlessly. 
+### [Create docx ActiveX button in Java – complete programming guide](./create-docx-activex-button-in-java-complete-programming-guid/)
+Learn how to add an ActiveX button to a DOCX file using Aspose.Words for Java with step-by-step code examples.
+### [How to create a Word document in Java with Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Learn to generate a Word document in Java using Aspose.Words with clear examples and best practices.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

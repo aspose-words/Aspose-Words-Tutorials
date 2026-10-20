@@ -43,6 +43,11 @@ Aprenda a personalizar temas de documentos con Aspose.Words para Java. Esta guí
 Aprenda a aplicar marcas de agua y configurar páginas con Aspose.Words para Java. Una guía completa con código fuente.
 ### [Estilo de encabezado y pie de página del documento](./document-header-footer-styling/)
 Aprenda a aplicar estilo a encabezados y pies de página de documentos con Aspose.Words para Java en esta guía detallada. Incluye instrucciones paso a paso y código fuente.
+### [Configuración predeterminada de fuentes en Aspose.Words para Java – Guía completa](./set-default-font-settings-in-aspose-words-for-java-complete/)
+Aprenda a establecer la fuente predeterminada en documentos con Aspose.Words para Java. Guía completa con ejemplos de código.
+
+### [Cómo detectar fuentes en documentos Word de Java – Guía completa](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
+Aprenda a identificar fuentes en documentos Word usando Aspose.Words para Java. Guía paso a paso con ejemplos de código. 
 ### [Cómo aplicar sombra a un gráfico de Word con Aspose.Words para Java](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
 Aprenda a añadir sombra a gráficos de Word usando Aspose.Words para Java con ejemplos de código paso a paso.
 
