@@ -29,6 +29,7 @@ Aspose.Words for .NET 教學課程為希望掌握使用 LoadOptions 進行文字
 | [在 Word 文件中使用臨時資料夾](./use-temp-folder/) |了解如何在使用 Aspose.Words 載入 Word 文件時使用臨時資料夾來提高 .NET 應用程式的效能。 |
 | [Word 文件中的警告回調](./warning-callback/) |透過我們的逐步指南了解如何使用 Aspose.Words for .NET 擷取和處理 Word 文件中的警告。確保穩健的文件處理。 |
 | [在 Aspose.Words 中註冊警告回調 – 完整程式設計指南](./register-warning-callback-in-aspose-words-complete-programmi/) |了解如何在 Aspose.Words for .NET 中註冊警告回調，以捕獲和處理文件警告的完整指南。 |
+| [設定 Aspose 警告回呼 – Word 文件載入完整指南](./set-warning-callback-aspose-complete-guide-for-word-document/) |了解如何在 Aspose.Words for .NET 中設定警告回呼，以在載入 Word 文件時捕獲並處理警告訊息。提供完整步驟與範例。 |
 | [在 Word 文件中載入編碼](./load-with-encoding/) |了解如何使用 Aspose.Words for .NET 載入具有特定編碼的 Word 文件。附有詳細解釋的分步指南。 |
 | [跳過 PDF 影像](./skip-pdf-images/) |了解如何在使用 Aspose.Words for .NET 載入 PDF 文件時跳過圖片。請按照本逐步指南進行無縫文字擷取。 |
 | [將圖元檔轉換為 Png](./convert-metafiles-to-png/) |依照本逐步教學，使用 Aspose.Words for .NET 輕鬆將 Word 文件中的元檔案轉換為 PNG。簡化您的文件管理。 |

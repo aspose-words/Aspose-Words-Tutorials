@@ -39,6 +39,7 @@ Eğitimler ayrıca, Aspose.Words for .NET kullanarak bir Word belgesine resim ek
 | [docx'yi png'ye Dönüştür – Tam Adım‑Adım Kılavuz](./convert-docx-to-png-complete-step-by-step-guide/) | Aspose.Words for .NET kullanarak bir docx belgesini PNG formatına dönüştürmek için tam adım adım rehber. |
 | [DOCX'i PNG'ye Dönüştür – Tam C# Rehberi](./convert-docx-to-png-complete-c-guide/) | Aspose.Words for .NET kullanarak DOCX dosyalarını PNG formatına dönüştürmek için adım adım tam C# rehberi. |
 | [DPI Nasıl Ayarlanır – Word'ü PNG Izgarasına Dönüştürme C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Aspose.Words for .NET ile Word belgelerini PNG ızgarasına dönüştürürken DPI ayarını adım adım öğrenin. |
+| [Word'ü PNG'ye Kaydet – Tam Aspose.Words Rehberi](./save-word-as-png-complete-aspose-words-guide/) | Aspose.Words for .NET kullanarak bir Word belgesini PNG formatına nasıl kaydedeceğinizi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

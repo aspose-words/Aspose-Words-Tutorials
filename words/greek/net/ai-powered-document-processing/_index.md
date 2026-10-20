@@ -79,6 +79,8 @@
 | [Σύνοψη εγγράφων AI σε C# – πλήρης οδηγός](./ai-document-summarization-in-c-complete-guide/) | Οδηγός βήμα-βήμα για τη σύνοψη εγγράφων με AI σε C# χρησιμοποιώντας Aspose.Words. |
 | [Δημιουργία σύνοψης AI σε C# – οδηγός βήμα‑βήμα](./create-ai-summary-in-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε αυτόματη σύνοψη εγγράφων με AI σε C# χρησιμοποιώντας το Aspose.Words. |
 | [Μετάφραση docx στα Γαλλικά με AI σε C#](./translate-docx-to-french-with-ai-in-c/) | Μάθετε πώς να μεταφράζετε έγγραφα docx στα Γαλλικά χρησιμοποιώντας AI σε C# με το Aspose.Words. |
+| [Κλήση του OpenAI API από C# – Πλήρης Οδηγός για την Επανάληψη Παραγράφων Word](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | Μάθετε πώς να καλέσετε το OpenAI API από C# για να επαναγράψετε παραγράφους σε έγγραφα Word. |
+| [Πώς να ελέγξετε τη γραμματική σε C# με το Aspose.Words AI – Πλήρης Οδηγός](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words AI για αυτόματο έλεγχο γραμματικής σε έγγραφα Word μέσω C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

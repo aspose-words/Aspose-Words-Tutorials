@@ -76,6 +76,7 @@ Aspose.Words for .NET 教程“使用 PdfSaveOptions 进行文字处理”将引
 | [如何在 C# 中将 Word 保存为 PDF – 完整指南](./how-to-save-pdf-from-word-in-c-complete-guide/) 通过本分步指南，学习使用 Aspose.Words for .NET 将 Word 文档转换为 PDF，并掌握完整的实现步骤。|
 | [在 C# 中将文档保存为 PDF – 完整指南](./save-document-as-pdf-in-c-complete-guide/) 通过本完整指南，学习如何使用 Aspose.Words for .NET 在 C# 中将 Word 文档保存为 PDF，并掌握所有关键设置。|
 | [创建可访问的 PDF – 使用 C# 将 Word 转换为 PDF](./create-accessible-pdf-convert-word-to-pdf-with-c/) 通过本分步指南，使用 Aspose.Words for .NET 和 C# 将 Word 文档转换为符合可访问性标准的 PDF。|
+| [将 Word 保存为 PDF – 完整的可访问性指南](./save-word-as-pdf-complete-guide-with-accessibility/) 通过本完整指南，使用 Aspose.Words for .NET 将 Word 文档转换为符合可访问性标准的 PDF，包括标签、替代文本和文档结构。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

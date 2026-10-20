@@ -79,6 +79,8 @@
 | [C# में AI दस्तावेज़ सारांश – पूर्ण गाइड](./ai-document-summarization-in-c-complete-guide/) | C# के लिए Aspose.Words के साथ AI मॉडल का उपयोग करके दस्तावेज़ सारांश बनाने की पूरी मार्गदर्शिका। |
 | [C# में AI सारांश बनाना – चरण‑दर‑चरण गाइड](./create-ai-summary-in-c-step-by-step-guide/) | C# का उपयोग करके AI‑संचालित दस्तावेज़ सारांश बनाने के लिए चरण‑दर‑चरण मार्गदर्शिका। |
 | [C# में AI के साथ docx को फ़्रेंच में अनुवाद करें](./translate-docx-to-french-with-ai-in-c/) | C# और Aspose.Words का उपयोग करके AI के माध्यम से docx फ़ाइलों को फ़्रेंच में अनुवाद करने की प्रक्रिया सीखें। |
+| [C# से OpenAI API को कॉल करें – Word पैराग्राफ को पुनर्लेखन के लिए पूर्ण गाइड](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | C# में OpenAI API का उपयोग करके Word पैराग्राफ को पुनर्लेखित करने की पूरी प्रक्रिया सीखें। |
+| [C# में Aspose.Words AI के साथ व्याकरण जांच कैसे करें – पूर्ण गाइड](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | C# में Aspose.Words AI का उपयोग करके व्याकरण जांच करने का पूर्ण मार्गदर्शन। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

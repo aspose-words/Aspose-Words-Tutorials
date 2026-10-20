@@ -39,6 +39,7 @@ Các hướng dẫn cũng đề cập đến các khái niệm cơ bản về th
 | [Chuyển đổi docx sang png – Hướng dẫn chi tiết từng bước](./convert-docx-to-png-complete-step-by-step-guide/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu docx sang ảnh PNG bằng Aspose.Words cho .NET, bao gồm các thiết lập và tùy chọn tối ưu. |
 | [Chuyển đổi DOCX sang PNG – Hướng dẫn C# đầy đủ](./convert-docx-to-png-complete-c-guide/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PNG bằng C# trong Aspose.Words cho .NET. |
 | [Cách đặt DPI – Xuất Word sang PNG dạng lưới trong C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Hướng dẫn chi tiết cách thiết lập DPI khi xuất tài liệu Word thành lưới các ảnh PNG bằng C# trong Aspose.Words cho .NET. |
+| [Lưu Word thành PNG – Hướng dẫn đầy đủ Aspose.Words](./save-word-as-png-complete-aspose-words-guide/) | Hướng dẫn chi tiết cách lưu tài liệu Word dưới dạng PNG bằng Aspose.Words cho .NET, bao gồm các tùy chọn và ví dụ thực tế. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

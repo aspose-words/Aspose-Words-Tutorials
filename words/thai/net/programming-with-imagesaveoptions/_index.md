@@ -39,6 +39,7 @@
 - [แปลง docx เป็น png – คู่มือขั้นตอนเต็ม](./convert-docx-to-png-complete-step-by-step-guide/) | เรียนรู้วิธีแปลงไฟล์ docx เป็น PNG อย่างละเอียดด้วย Aspose.Words สำหรับ .NET
 - [แปลง DOCX เป็น PNG – คู่มือ C# ฉบับสมบูรณ์](./convert-docx-to-png-complete-c-guide/) | เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PNG ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน
 - [วิธีตั้งค่า DPI – ส่งออก Word เป็น PNG Grid ใน C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | เรียนรู้วิธีตั้งค่า DPI เมื่อส่งออกไฟล์ Word เป็น PNG Grid ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET
+- [บันทึก Word เป็น PNG – คู่มือ Aspose.Words ฉบับสมบูรณ์](./save-word-as-png-complete-aspose-words-guide/) | เรียนรู้วิธีบันทึกไฟล์ Word เป็น PNG ด้วย Aspose.Words สำหรับ .NET พร้อมคำแนะนำขั้นตอนครบถ้วน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

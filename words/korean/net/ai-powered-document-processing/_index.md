@@ -78,6 +78,8 @@
 | [C#에서 AI 문서 요약 – 완전 가이드](./ai-document-summarization-in-c-complete-guide/) | Aspose.Words for .NET을 활용해 C#에서 AI 기반 문서 요약을 구현하는 전체 가이드입니다. |
 | [C#에서 AI 요약 만들기 – 단계별 가이드](./create-ai-summary-in-c-step-by-step-guide/) | C#과 Aspose.Words를 활용해 AI 기반 문서 요약을 구현하는 자세한 단계별 안내입니다. |
 | [C#에서 AI로 docx를 프랑스어로 번역하기](./translate-docx-to-french-with-ai-in-c/) | C#와 Aspose.Words를 사용해 AI 기반으로 docx 파일을 프랑스어로 번역하는 방법을 단계별로 안내합니다. |
+| [C#에서 OpenAI API 호출 – Word 단락 재작성 완전 가이드](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | C#을 사용해 OpenAI API를 호출하고 Word 문단을 자동으로 재작성하는 방법을 단계별로 안내합니다. |
+| [C#에서 Aspose.Words AI로 문법 검사하기 – 완전 가이드](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Aspose.Words AI를 활용해 C#에서 문법을 자동으로 검사하고 교정하는 방법을 단계별로 안내합니다. |
 
 | [Aspose.Words.AI로 docx를 프랑스어로 번역하기 – 전체 가이드](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Aspose.Words for .NET을 활용해 docx 파일을 프랑스어로 번역하는 전체 가이드를 제공합니다. |
 | [C#로 문서 요약 만들기 – OpenAI 전체 가이드](./create-document-summary-in-c-complete-openai-guide/) | Aspose.Words for .NET과 OpenAI를 사용해 C#에서 문서 요약을 구현하는 전체 가이드입니다. |

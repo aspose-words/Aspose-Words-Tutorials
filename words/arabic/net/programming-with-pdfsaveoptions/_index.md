@@ -84,6 +84,7 @@
 | [حفظ المستند كملف PDF في C# – دليل كامل](./save-document-as-pdf-in-c-complete-guide/) | تعلم كيفية حفظ مستندات Word كملفات PDF باستخدام Aspose.Words لـ .NET في C# مع شرح شامل للخيارات المتقدمة. |
 | [إنشاء ملف PDF قابل للوصول – تحويل Word إلى PDF باستخدام C#](./create-accessible-pdf-convert-word-to-pdf-with-c/) | دليل خطوة بخطوة لإنشاء ملفات PDF قابلة للوصول من مستندات Word باستخدام C# و Aspose.Words. |
 | [حفظ المستند كملف PDF باستخدام Aspose.Words – دليل C# كامل](./save-document-as-pdf-with-aspose-words-complete-c-guide/) |دليل شامل خطوة بخطوة لحفظ المستندات كملفات PDF باستخدام Aspose.Words في بيئة C#. |
+| [حفظ Word كملف PDF – دليل كامل مع إمكانية الوصول](./save-word-as-pdf-complete-guide-with-accessibility/) |دليل شامل خطوة بخطوة لتحويل ملفات Word إلى PDF مع مراعاة إمكانية الوصول وفق معايير WCAG. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -78,6 +78,8 @@ Terakhir, jangan lupa untuk memeriksa [Bekerja Dengan Opsi Ringkasan](./working-
 | [Ringkasan Dokumen AI dalam C# – Panduan Lengkap](./ai-document-summarization-in-c-complete-guide/) | Panduan lengkap untuk meringkas dokumen menggunakan AI dengan C# dan Aspose.Words. |
 | [Buat Ringkasan AI dalam C# – panduan langkah demi langkah](./create-ai-summary-in-c-step-by-step-guide/) | Pelajari cara membuat ringkasan AI menggunakan C# dengan Aspose.Words secara terperinci. |
 | [Menerjemahkan docx ke Bahasa Prancis dengan AI di C#](./translate-docx-to-french-with-ai-in-c/) | Pelajari cara menerjemahkan file docx ke bahasa Prancis menggunakan AI dengan C# dan Aspose.Words. |
+| [Panggil API OpenAI dari C# – Panduan Lengkap untuk Menulis Ulang Paragraf Word](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | Pelajari cara memanggil API OpenAI menggunakan C# untuk menulis ulang paragraf Word secara otomatis. |
+| [Cara Memeriksa Tata Bahasa di C# dengan Aspose.Words AI – Panduan Lengkap](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Pelajari cara menggunakan Aspose.Words AI di C# untuk memeriksa tata bahasa dokumen secara otomatis. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

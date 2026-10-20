@@ -30,6 +30,7 @@ Aspose.Words for .NET 教程为希望掌握使用 LoadOptions 进行文字处理
 | [Word 文档中的警告回调](./warning-callback/) 学习如何使用 Aspose.Words for .NET 捕获和处理 Word 文档中的警告，并遵循我们的分步指南。确保文档处理稳健。|
 | [如何捕获警告 – 为缺失字体配置加载选项](./how-to-capture-warnings-configure-load-options-for-missing-f/) 了解如何在加载文档时捕获缺失字体的警告，并使用 LoadOptions 进行相应配置。|
 | [如何在 C# 中捕获警告 – 检测缺失字体并记录替换](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) 了解如何使用 Aspose.Words for .NET 在 C# 中捕获文档警告，检测缺失字体并记录字体替换过程的分步指南。|
+| [设置警告回调 aspose – Word 文档加载完整指南](./set-warning-callback-aspose-complete-guide-for-word-document/) 了解如何在 Aspose.Words for .NET 中使用 LoadOptions 设置警告回调，以捕获并处理 Word 文档加载过程中的警告信息。|
 | [在 Word 文档中加载编码](./load-with-encoding/) 了解如何使用 Aspose.Words for .NET 加载具有特定编码的 Word 文档。分步指南，详细解释。|
 | [跳过 PDF 图像](./skip-pdf-images/) 了解如何使用 Aspose.Words for .NET 加载 PDF 文档时跳过图片。按照本分步指南操作，即可实现无缝文本提取。|
 | [将图元文件转换为 Png](./convert-metafiles-to-png/) | 按照本分步教程，使用 Aspose.Words for .NET 轻松将 Word 文档中的元文件转换为 PNG。简化您的文档管理。|

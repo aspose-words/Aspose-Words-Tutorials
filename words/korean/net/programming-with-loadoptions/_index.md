@@ -31,6 +31,7 @@ Aspose.Words for .NET 튜토리얼은 LoadOptions를 사용하여 워드 프로�
 | [Aspose.Words에서 경고 콜백 등록 – 완전 프로그래밍 가이드](./register-warning-callback-in-aspose-words-complete-programmi/) | Aspose.Words에서 경고 콜백을 등록하고 처리하는 전체 프로그래밍 가이드를 단계별로 안내합니다. |
 | [경고 포착 방법 – 누락된 글꼴에 대한 로드 옵션 구성](./how-to-capture-warnings-configure-load-options-for-missing-f/) | Aspose.Words for .NET에서 누락된 글꼴이 있을 때 경고를 포착하고 로드 옵션을 설정하는 방법을 단계별로 안내합니다. |
 | [C#에서 경고 캡처하기 – 누락된 글꼴 감지 및 대체 로그 기록](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) | Aspose.Words for .NET에서 누락된 글꼴을 감지하고 대체 로그를 기록하는 방법을 단계별로 안내합니다. |
+| [Aspose에서 경고 콜백 설정 – Word 문서 로딩 완전 가이드](./set-warning-callback-aspose-complete-guide-for-word-document/) | Aspose.Words for .NET을 사용해 Word 문서 로드 시 경고 콜백을 설정하고 처리하는 방법을 단계별로 안내합니다. |
 | [Word 문서에 인코딩을 사용하여 로드](./load-with-encoding/) | Aspose.Words for .NET을 사용하여 특정 인코딩으로 Word 문서를 로드하는 방법을 알아보세요. 자세한 설명이 포함된 단계별 가이드입니다. |
 | [PDF 이미지 건너뛰기](./skip-pdf-images/) | Aspose.Words for .NET을 사용하여 PDF 문서를 로드할 때 이미지를 건너뛰는 방법을 알아보세요. 원활한 텍스트 추출을 위한 단계별 가이드를 따라해 보세요. |
 | [메타파일을 PNG로 변환](./convert-metafiles-to-png/) | Aspose.Words for .NET을 사용하여 Word 문서의 메타파일을 PNG로 쉽게 변환하는 단계별 튜토리얼을 소개합니다. 문서 관리를 간소화하세요. |

@@ -81,6 +81,7 @@ Aspose.Words for .NET 튜토리얼에서는 PDFSaveOptions를 사용한 워드 �
 | [C#을 사용해 Word를 PDF로 저장하는 방법 – 완전 가이드](./how-to-save-pdf-from-word-in-c-complete-guide/) | Aspose.Words for .NET을 활용해 C#에서 Word 문서를 PDF로 변환하는 전체 과정을 단계별로 안내합니다. |
 | [C#으로 문서를 PDF로 저장하는 완전 가이드](./save-document-as-pdf-in-c-complete-guide/) | Aspose.Words for .NET을 사용해 C#에서 Word 문서를 PDF로 변환하는 전체 단계별 가이드. |
 | [C#를 사용하여 접근 가능한 PDF 만들기 – Word를 PDF로 변환](./create-accessible-pdf-convert-word-to-pdf-with-c/) | C#와 Aspose.Words를 활용해 Word 문서를 접근 가능한 PDF로 변환하는 단계별 가이드를 확인하세요. |
+| [접근성을 포함한 Word를 PDF로 저장 – 완전 가이드](./save-word-as-pdf-complete-guide-with-accessibility/) | Aspose.Words와 C#을 사용하여 접근성을 고려한 Word 문서를 PDF로 변환하는 전체 단계별 가이드 |
 
 | [인라인 도형 내보내기로 Word에서 PDF 저장 방법 – 완전 가이드](./how-to-save-pdf-from-word-with-inline-shape-export-complete/) | Aspose.Words for .NET을 사용하여 Word 문서의 인라인 도형을 포함한 PDF 저장 방법을 단계별로 안내합니다. |
 | [PDF/UA-2 준수 문서 만들기 – 완전 C# 가이드](./create-pdf-ua-2-compliant-document-complete-c-guide/) | Aspose.Words for .NET와 C#을 사용해 PDF/UA‑2 표준을 충족하는 문서를 단계별로 만드는 전체 가이드 |

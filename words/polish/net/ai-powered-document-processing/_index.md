@@ -79,6 +79,8 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Podsumowanie dokumentów AI w C# – kompletny przewodnik](./ai-document-summarization-in-c-complete-guide/) | Kompletny przewodnik, jak używać Aspose.Words w C# do podsumowywania dokumentów przy pomocy AI. |
 | [Utwórz podsumowanie AI w C# – przewodnik krok po kroku](./create-ai-summary-in-c-step-by-step-guide/) | Dowiedz się, jak w C# stworzyć podsumowanie dokumentu przy użyciu AI w Aspose.Words. |
 | [Przetłumacz docx na francuski przy użyciu AI w C#](./translate-docx-to-french-with-ai-in-c/) | Szybko przetłumacz dokumenty Word na francuski dzięki AI i Aspose.Words w C#. |
+| [Wywołaj API OpenAI z C# – Kompletny przewodnik po przepisaniu akapitów Word](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | Dowiedz się, jak używać API OpenAI w C# do automatycznego przekształcania i przepisywania akapitów w dokumentach Word. |
+| [Jak sprawdzić gramatykę w C# przy użyciu Aspose.Words AI – Kompletny przewodnik](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Dowiedz się, jak wykorzystać AI Aspose.Words w C# do automatycznej korekty gramatycznej dokumentów Word. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -85,6 +85,7 @@ Akár Word dokumentumokat szeretne PDF formátumba konvertálni online terjeszt�
 | [PDF mentése Wordből C#-ban – Teljes útmutató](./how-to-save-pdf-from-word-in-c-complete-guide/) | Lépésről lépésre bemutatja, hogyan menthet PDF-et Word dokumentumból C#-ban az Aspose.Words for .NET használatával. |
 | [Dokumentum mentése PDF-be C#-ban – Teljes útmutató](./save-document-as-pdf-in-c-complete-guide/) | Tanulja meg, hogyan menthet Word dokumentumot PDF formátumba C#-ban az Aspose.Words for .NET használatával, lépésről lépésre útmutató. |
 
+| [Word mentése PDF-be – Teljes útmutató hozzáférhetőséggel](./save-word-as-pdf-complete-guide-with-accessibility/) | Lépésről lépésre útmutató a Word dokumentumok PDF-be mentéséhez hozzáférhetőségi szempontok figyelembevételével. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

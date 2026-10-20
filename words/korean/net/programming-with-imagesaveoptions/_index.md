@@ -40,6 +40,7 @@ Aspose.Words for .NET 튜토리얼에서는 ImageSaveOptions를 사용한 워드
 | [Word를 PNG로 내보내기 – DOCX를 하나의 이미지로 변환](./export-word-as-png-convert-docx-to-one-image/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 단일 PNG 이미지로 변환하는 방법을 단계별로 안내합니다. |
 | [DOCX를 PNG로 변환 – 완전한 단계별 가이드](./convert-docx-to-png-complete-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 PNG 이미지로 변환하는 완전한 단계별 가이드를 확인하세요. |
 | [DOCX를 PNG로 변환 – 완전한 C# 가이드](./convert-docx-to-png-complete-c-guide/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 PNG 이미지로 변환하는 방법을 단계별로 안내합니다. |
+| [Word를 PNG로 저장 – 완전한 Aspose.Words 가이드](./save-word-as-png-complete-aspose-words-guide/) | Aspose.Words for .NET을 사용하여 Word 문서를 PNG 이미지로 변환하고 DPI 및 품질을 설정하는 전체 가이드. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
