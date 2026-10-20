@@ -1,0 +1,58 @@
+//ExStart
+//ExSummary: 本教程演示如何创建 Word 文档，添加包含指向外部网站的可点击超链接的批注，配置该批注在 PDF 中显示为注释，导出文档为 PDF，并验证 PDF 是否正确生成。
+//ExStepSummary:0: 创建一个新的空 Document 对象，并创建一个 DocumentBuilder 来对其进行操作。
+//ExStepSummary:1: 写入一行可见文本，以容纳即将添加的批注。
+//ExStepSummary:2: 创建一个作者为 Jane Doe 的 Comment，并将其附加到文档的第一段。
+//ExStepSummary:3: 在该 Comment 中，添加一个段落，并插入指向 Aspose.Words Library 网站的蓝色下划线超链接。
+//ExStepSummary:4: 配置文档将 Comment 渲染为 PDF 注释，并刷新布局。
+//ExStepSummary:5: 在当前目录下创建一个名为 "Output" 的文件夹，用于存放生成的 PDF。
+//ExStepSummary:6: 使用 PdfSaveOptions 将准备好的文档保存为 PDF 文件。
+//ExStepSummary:7: 检查 PDF 文件是否存在且包含数据，然后将结果输出到控制台。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+docBuilder.Writeln("The following paragraph includes a comment with a link.");
+
+//ExStep:2-
+Comment note = new Comment(myDocument, "Jane Doe", "JD", DateTime.Now);
+Paragraph targetParagraph = myDocument.FirstSection.Body.FirstParagraph;
+targetParagraph.AppendChild(note);
+
+//ExStep:3-
+Paragraph noteParagraph = (Paragraph)note.AppendChild(new Paragraph(myDocument));
+DocumentBuilder noteBuilder = new DocumentBuilder(myDocument);
+noteBuilder.MoveTo(noteParagraph);
+noteBuilder.Font.Color = Color.Blue;
+noteBuilder.Font.Underline = Underline.Single;
+noteBuilder.InsertHyperlink("Aspose.Words Library", "https://www.aspose.com/words", false);
+noteBuilder.Font.ClearFormatting();
+
+//ExStep:4-
+myDocument.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInAnnotations;
+myDocument.UpdatePageLayout();
+
+//ExStep:5-
+string resultFolder = Path.Combine(Directory.GetCurrentDirectory(), "Output");
+Directory.CreateDirectory(resultFolder);
+
+//ExStep:6-
+string pdfFilePath = Path.Combine(resultFolder, "CommentWithLink.pdf");
+PdfSaveOptions saveOptions = new PdfSaveOptions();
+myDocument.Save(pdfFilePath, saveOptions);
+
+//ExStep:7-
+if (File.Exists(pdfFilePath) && new FileInfo(pdfFilePath).Length > 0)
+{
+    Console.WriteLine("PDF generated successfully with a linked comment.");
+}
+else
+{
+    Console.WriteLine("PDF creation failed.");
+}
+//ExEnd

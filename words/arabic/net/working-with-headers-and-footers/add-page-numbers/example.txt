@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: باستخدام Aspose.Words Document و DocumentBuilder، يضيف هذا البرنامج التعليمي أرقام صفحات تُحدَّث تلقائيًا إلى التذييل الأساسي لمستند Word.
+//ExStepSummary:0: أنشئ كائن Document جديدًا و DocumentBuilder مرتبطًا به.
+//ExStepSummary:1: انقل مؤشر الـ builder إلى التذييل الأساسي للقسم الأول.
+//ExStepSummary:2: عيّن محاذاة الفقرة إلى الوسط حتى يُوسَّط نص التذييل.
+//ExStepSummary:3: اكتب العلامة "Page " وأدرج حقل PAGE الذي يعرض رقم الصفحة الحالي.
+//ExStepSummary:4: اكتب " of " وأدرج حقل NUMPAGES الذي يُظهر إجمالي عدد الصفحات.
+//ExStepSummary:5: احفظ المستند كملف .docx.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+
+//ExStep:2-
+builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
+
+//ExStep:3-
+builder.Write("Page ");
+builder.InsertField("PAGE", null);
+
+//ExStep:4-
+builder.Write(" of ");
+builder.InsertField("NUMPAGES", null);
+
+//ExStep:5-
+doc.Save("PageNumbers.docx");
+//ExEnd

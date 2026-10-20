@@ -19,6 +19,15 @@
 Trong các hướng dẫn này, bạn sẽ tìm hiểu nhiều khía cạnh khác nhau của Xử lý văn bản với các bình luận trong tài liệu Word bằng Aspose.Words for .NET. Bạn sẽ khám phá cách thêm bình luận vào tài liệu, neo các bình luận trả lời vào văn bản cụ thể, thêm và xóa các bình luận trả lời, và giải quyết các bình luận và các bình luận trả lời của họ. Mỗi hướng dẫn cung cấp hướng dẫn từng bước với mã nguồn đầy đủ, cho phép bạn nâng cao khả năng cộng tác và quản lý phản hồi trong tài liệu Word của mình bằng Aspose.Words for .NET.
 
  ## Hướng dẫn
+
+{{< tutorial-card link="./add-hyperlink-comment/" title="Thêm Hyperlink Comment và Xuất dưới dạng PDF Annotation bằng Aspose.Words for .NET" imgSrc="./add-hyperlink-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-comment/" title="Chèn một Comment vào Đoạn Văn Cụ Thể trong Tài liệu Word bằng Aspose.Words for .NET" imgSrc="./add-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./style-comment-text/" title="Áp dụng Kiểu Tùy chỉnh cho Văn bản Comment trong Tài liệu Word bằng Aspose.Words for .NET" imgSrc="./style-comment-text/images/thumb.png" >}}
+
+
+
 | Tiêu đề | Mô tả |
 | --- | --- |
 | [Thêm bình luận](./add-comments/) | Tìm hiểu cách thêm chú thích vào tài liệu Word của bạn bằng Aspose.Words cho .NET với hướng dẫn của chúng tôi. Nâng cao quy trình cộng tác tài liệu của bạn một cách dễ dàng. |

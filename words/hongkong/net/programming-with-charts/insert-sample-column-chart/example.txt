@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: 本教學示範如何建立新的 Word 文件、使用 DocumentBuilder.InsertChart 插入預設直條圖、取得嵌入的 Chart 物件，並將文件儲存為 .docx 檔案。
+//ExStepSummary:0: 建立一個空白的 Word 文件，並使用 DocumentBuilder 進行編輯。
+//ExStepSummary:1: 在文件中插入尺寸為 432 × 252 點的直條圖。
+//ExStepSummary:2: 從已插入的圖形中取得 Chart 物件，以便在需要時進一步自訂。
+//ExStepSummary:3: 將已包含插入直條圖的文件儲存為 .docx 檔案。
+//ExStepImage:1:images/1.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+Chart embeddedChart = chartContainer.Chart;
+
+//ExStep:3-
+wordDoc.Save("column-demo.docx");
+//ExEnd
