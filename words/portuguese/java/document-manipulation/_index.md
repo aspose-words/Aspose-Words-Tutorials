@@ -56,6 +56,8 @@ manipulação de documentos com o Aspose.Words para Java é uma habilidade valio
 Comece sua jornada de aprendizado hoje mesmo e descubra as infinitas possibilidades de manipulação de documentos com o Aspose.Words para Java.
 
 ## Tutoriais de Manipulação de Documentos
+### [Marcação de acessibilidade PDF em Java – Gerar PDFs acessíveis](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Aprenda a criar PDFs acessíveis com marcações de acessibilidade usando Aspose.Words para Java.
 ### [Usando opções de limpeza no Aspose.Words para Java](./using-cleanup-options/)
 Melhore a clareza do documento com as opções de limpeza do Aspose.Words para Java. Aprenda a remover parágrafos vazios, regiões não utilizadas e muito mais.
 ### [Usando campos em Aspose.Words para Java](./using-fields/)

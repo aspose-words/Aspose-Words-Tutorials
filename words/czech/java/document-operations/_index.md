@@ -68,6 +68,9 @@ Výukový program pro Aspose.Words v Javě
 ### [Ukládání dokumentů Word jako PostScript s nastavením knižního přeložení v Javě pomocí Aspose.Words](./aspose-words-java-postscript-book-fold-settings/)
 Naučte se, jak převést dokumenty Wordu do brožur s profesionální kvalitou výstupu pomocí Aspose.Words pro Javu. Tato příručka se zabývá ukládáním ve formátu PostScript a konfigurací nastavení přehybu knihy.
 
+### [Iterace varování dokumentu: Detekce chybějících fontů v Javě](./iterate-document-warnings-detect-missing-fonts-in-java/)
+Naučte se, jak procházet varování dokumentu a identifikovat chybějící fonty pomocí Aspose.Words pro Javu.
+
 ## Další zdroje
 
 - [Dokumentace k Aspose.Words pro Javu](https://reference.aspose.com/words/java/)

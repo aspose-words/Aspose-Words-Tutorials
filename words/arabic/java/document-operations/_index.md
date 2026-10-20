@@ -68,6 +68,9 @@
 ### [حفظ مستندات Word بتنسيق PostScript مع إعدادات طي الكتاب في Java باستخدام Aspose.Words](./aspose-words-java-postscript-book-fold-settings/)
 تعرّف على كيفية تحويل مستندات Word إلى كتيبات بجودة احترافية باستخدام Aspose.Words لجافا. يتناول هذا الدليل الحفظ بتنسيق PostScript وضبط إعدادات طيّ الكتب.
 
+### [تكرار تحذيرات المستند: اكتشاف الخطوط المفقودة في جافا](./iterate-document-warnings-detect-missing-fonts-in-java/)
+تعلم كيفية تكرار تحذيرات المستند لاكتشاف الخطوط المفقودة عند معالجة ملفات Word باستخدام Aspose.Words في جافا.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/)

@@ -43,6 +43,10 @@ Aspose.Words for Javaを使用してドキュメントテーマをカスタマ�
 Aspose.Words for Javaを使って透かしを適用し、ページ設定を行う方法を学びましょう。ソースコード付きの包括的なガイドです。
 ### [ドキュメントのヘッダーとフッターのスタイル](./document-header-footer-styling/)
 この詳細なガイドでは、Aspose.Words for Java を使用してドキュメントのヘッダーとフッターにスタイルを設定する方法を学びます。ステップバイステップの説明とソースコードが含まれています。
+### [Java Word 文書のフォント検出方法 – 完全ガイド](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
+Aspose.Words for Java を使用して、Word 文書内のフォント情報を検出し、取得する方法をステップバイステップで解説します。
+### [Aspose.Words for Javaでデフォルトフォント設定を行う – 完全ガイド](./set-default-font-settings-in-aspose-words-for-java-complete/)
+Aspose.Words for Java を使用して、ドキュメント全体のデフォルトフォントを設定する方法をステップバイステップで解説します。
 
 ### [JavaでAspose.Wordsを使用して脚注を編集する方法](./how-to-edit-footnote-in-java-with-aspose-words/)
 Aspose.Words for Java を使い、文書内の脚注を追加・編集・削除する手順を学びます。

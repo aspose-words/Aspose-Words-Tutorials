@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Korzystając z Aspose.Words, ten samouczek tworzy dokument Word, wstawia wykres kolumnowy, aktualizuje tytuł wykresu tekstem podanym przez użytkownika oraz przełącza widoczność i nakładanie legendy w zależności od preferencji użytkownika.
+//ExStepSummary:0: Zdefiniuj tytuł wykresu podany przez użytkownika oraz określ, czy legenda ma być wyświetlana.
+//ExStepSummary:1: Utwórz nowy dokument Word oraz obiekt DocumentBuilder do dodawania treści.
+//ExStepSummary:2: Wstaw wykres kolumnowy o wymiarach 432 × 252 pt do dokumentu i sprawdź, czy kształt rzeczywiście zawiera wykres.
+//ExStepSummary:3: Pobierz obiekt wykresu, ustaw jego tekst tytułu na wartość podaną przez użytkownika i upewnij się, że tytuł jest wyświetlany.
+//ExStepSummary:4: Skonfiguruj legendę: wyświetl ją po prawej stronie, jeśli jest to żądane, w przeciwnym razie ukryj ją oraz zezwól na nakładanie się legendy na obszar wykresu.
+//ExStepSummary:5: Zapisz zmodyfikowany dokument na dysku jako CustomChart.docx.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+string chartHeader = "Fiscal Q1 Performance Summary";
+bool displayLegend = false;
+
+//ExStep:1-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:2-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+if (!chartContainer.HasChart)
+    throw new InvalidOperationException("The inserted shape does not contain a chart.");
+
+//ExStep:3-
+Chart chartObj = chartContainer.Chart;
+ChartTitle chartTitle = chartObj.Title;
+chartTitle.Text = chartHeader;
+chartTitle.Show = true;
+
+//ExStep:4-
+ChartLegend chartLegend = chartObj.Legend;
+chartLegend.Position = displayLegend ? LegendPosition.Right : LegendPosition.None;
+chartLegend.Overlay = true;
+
+//ExStep:5-
+wordDoc.Save("CustomChart.docx");
+//ExEnd

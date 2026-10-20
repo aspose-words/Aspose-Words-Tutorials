@@ -43,6 +43,10 @@ Aspose.Words for Java를 사용하여 문서에 안전한 디지털 서명을 �
 Aspose.Words for Java를 사용해 docx 파일에 디지털 서명을 적용하는 방법을 단계별로 안내합니다.
 ### [문서 편집 및 데이터 보호](./document-redaction-data-protection/)
 Aspose.Words for Java를 사용하여 문서를 보호하고 민감한 데이터를 삭제하는 방법을 알아보세요. 소스 코드가 포함된 단계별 가이드입니다.
+### [Aspose.Words와 Java로 워드 문서 서명하기 – 완전 가이드](./sign-word-document-in-java-with-aspose-words-complete-guide/)
+Aspose.Words for Java를 활용해 워드 문서에 디지털 서명을 적용하는 방법을 단계별로 안내합니다. 안전한 서명 구현을 배우세요.
+### [C#에서 DOCX 파일에 서명하는 방법 – 완전 단계별 가이드](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
+Aspose.Words for Java를 사용해 C#에서 DOCX 파일에 디지털 서명을 적용하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

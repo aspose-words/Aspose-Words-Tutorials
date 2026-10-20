@@ -104,6 +104,8 @@ Aspose.Words for Javaのパワーを解き放ちましょう。ドキュメン�
 Aspose.Words for Javaでドキュメント管理を最適化しましょう。この包括的なチュートリアルでは、ドキュメントプロパティの操作、カスタムメタデータの追加など、様々な方法を学習できます。
 ### [Aspose.Words for Java の Web 拡張機能の使用](./using-web-extensions/)
 Aspose.Words for JavaのWeb拡張機能でドキュメントを強化しましょう。Webベースのコンテンツをシームレスに統合する方法を学びましょう。
+### [Java で PDF アクセシビリティ タグ付け – アクセシブルな PDF の生成](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Aspose.Words for Java を使用して、PDF にアクセシビリティタグを付与し、アクセシブルな PDF を生成する方法を学びます。
 ### [Aspose.Words for Java を使用して Java で空白の Word 文書を作成する](./create-blank-word-document-in-java-with-aspose-words/)
 Aspose.Words for Java を使って、空の Word 文書を作成する基本的な手順を学びます。
 

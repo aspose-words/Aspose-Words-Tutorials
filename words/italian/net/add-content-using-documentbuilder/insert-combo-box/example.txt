@@ -1,0 +1,24 @@
+//ExStart
+//ExSummary: Questo tutorial mostra come creare un documento Word, aggiungere un campo modulo a tendina con elementi predefiniti usando DocumentBuilder e salvare il documento.
+//ExStepSummary:0: Imposta il percorso della cartella in cui verrà salvato il documento risultante.
+//ExStepSummary:1: Crea un array di stringhe che popolerà le opzioni della casella combinata.
+//ExStepSummary:2: Istanzia un nuovo Document e un DocumentBuilder associato ad esso.
+//ExStepSummary:3: Chiama `builder.InsertComboBox` per inserire una casella combinata chiamata "DropDown" con gli elementi definiti nella posizione corrente del cursore.
+//ExStepSummary:4: Salva il documento nella directory specificata come file .docx.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+string[] items = { "One", "Two", "Three" };
+
+//ExStep:2-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertComboBox("DropDown", items, 0);
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertComboBoxFormField.docx");
+//ExEnd

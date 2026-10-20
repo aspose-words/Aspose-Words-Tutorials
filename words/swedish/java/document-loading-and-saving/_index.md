@@ -81,13 +81,14 @@ Utforska mångsidigheten i Aspose.Words för Java när vi går in på att spara 
 Dokumentinställningar är nyckeln till att leverera dokument som är anpassade efter dina exakta krav. Lär dig hur du justerar inställningar som sidstorlek, marginaler och teckensnitt för att uppnå önskat resultat.
 
 ## Relaterade handledningar – Ladda, spara och konvertera
-
 ### [Ladda och spara HTML-dokument med Aspose.Words för Java](./loading-and-saving-html-documents/)
 Lär dig hur du laddar och sparar HTML-dokument i Java med Aspose.Words för Java. Steg‑för‑steg‑guide med kodexempel för sömlös dokumentintegration.
 
 ### [Arbeta med laddningsalternativ i Aspose.Words för Java](./using-load-options/)
 Behärska laddningsalternativ i Aspose.Words för Java. Anpassa dokumentladdning, hantera kryptering, konvertera former, ange Word‑versioner och mer för effektiv Java‑dokumentbehandling.
 
+### [Skapa laddningsalternativ i Java – Upptäck saknade teckensnitt och hur du laddar DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
+Lär dig hur du skapar LoadOptions i Java för att upptäcka saknade teckensnitt och korrekt ladda DOCX‑filer.
 ### [Hur du ställer in alternativ i Aspose.Words för Java – komplett guide](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
 Lär dig hur du konfigurerar alla möjliga alternativ i Aspose.Words för Java för att anpassa dokumenthantering.
 
@@ -96,6 +97,9 @@ Konfigurera RTF‑laddningsalternativ i Aspose.Words för Java. Lär dig hur du 
 
 ### [Ladda textfiler med Aspose.Words för Java](./loading-text-files/)
 Utnyttja kraften i Aspose.Words för Java. Lär dig att ladda textdokument, hantera listor, hantera mellanslag och kontrollera textriktning.
+
+### [Varningsåteruppringning – Ladda Word-dokument i Java](./warning-callback-tutorial-load-word-document-in-java/)
+Lär dig hur du hanterar varningsåteruppringningar när du laddar Word-dokument i Java med Aspose.Words.
 
 ### [Avancerade sparalternativ med Aspose.Words för Java](./advance-saving-options/)
 Lär dig avancerad dokumentmanipulation med Aspose.Words för Java. Kryptera, hantera metafiler och mer. Dina Word‑dokument, på ditt sätt.
@@ -112,11 +116,17 @@ Lär dig hur du sparar bilder från dokument med Aspose.Words för Java med vår
 ### [Spara dokument som Markdown i Aspose.Words för Java](./saving-documents-as-markdown/)
 Lär dig hur du konverterar Word‑dokument till Markdown med Aspose.Words för Java. Denna steg‑för‑steg‑guide täcker tabelljustering, bildhantering och mer.
 
+### [Ladda markdown‑understrykning i Java – komplett programmeringsguide](./load-markdown-underline-in-java-complete-programming-guide/)
+Lär dig hur du laddar markdown‑understrykningar i Java med Aspose.Words, steg‑för‑steg‑exempel och kod.
+
 ### [Spara dokument som ODT-format i Aspose.Words för Java](./saving-documents-as-odt-format/)
 Lär dig hur du sparar dokument i ODT‑format med Aspose.Words för Java. Säkerställ kompatibilitet med öppen källkods‑kontorssviter.
 
 ### [Spara dokument som OOXML-format i Aspose.Words för Java](./saving-documents-as-ooxml-format/)
 Lär dig hur du sparar dokument i OOXML‑format med Aspose.Words för Java. Säkerställ, optimera och anpassa dina filer utan ansträngning.
+
+### [Spara DOCX-fil med Java – Guide för infogning av innehållskontroller](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+Lär dig hur du sparar en DOCX-fil i Java och infogar innehållskontroller med Aspose.Words för Java.
 
 ### [Spara dokument som PCL-format i Aspose.Words för Java](./saving-documents-as-pcl-format/)
 Lär dig hur du sparar dokument i PCL‑format med Aspose.Words för Java. Steg‑för‑steg‑guide och kodexempel för effektiv dokumentkonvertering.
@@ -125,7 +135,7 @@ Lär dig hur du sparar dokument i PCL‑format med Aspose.Words för Java. Steg�
 Lär dig hur du sparar Word‑dokument som PDF med Aspose.Words för Java. Anpassa teckensnitt, egenskaper och bildkvalitet. En omfattande guide för PDF‑konvertering.
 
 ### [Spara dokument som RTF-format i Aspose.Words för Java](./saving-documents-as-rtf-format/)
-Lär dig hur du sparar dokument som RTF‑format i Aspose.Words för Java. Steg‑för‑steg‑guide med källkod för effektiv dokumentkonvertering.
+Lär dig hur du sparar dokument som RTF‑format med Aspose.Words för Java. Steg‑för‑steg‑guide med källkod för effektiv dokumentkonvertering.
 
 ### [Spara dokument som textfiler i Aspose.Words för Java](./saving-documents-as-text-files/)
 Lär dig hur du sparar dokument som textfiler med Aspose.Words för Java. Följ vår steg‑för‑steg‑guide med Java‑kodexempel.
@@ -133,10 +143,62 @@ Lär dig hur du sparar dokument som textfiler med Aspose.Words för Java. Följ 
 ### [Bestämma dokumentformat i Aspose.Words för Java](./determining-document-format/)
 Lär dig hur du upptäcker dokumentformat i Java med Aspose.Words. Identifiera DOC, DOCX och mer. Organisera filer effektivt.
 
-### [Återställ korrupt docx – Komplett guide för att reparera och bearbeta dokument](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
-Lär dig hur du reparerar skadade DOCX‑filer och bearbetar dem med Aspose.Words för Java.
+### [Hur du återställer DOCX – Ladda korrupta filer med återställningsalternativ](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
+Lär dig hur du återställer korrupta DOCX‑filer med Aspose.Words för Java genom att använda återställningsalternativ för att rädda innehåll.
 
-### [Fånga varningar om tecken­substitution i Java med Aspose.Words – Komplett guide](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+### [Återställ korrupt docx – Komplett guide för att reparera och bearbeta dokument](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+### [Hur du återställer DOCX‑filer – Steg‑för‑steg Java‑guide](./how-to-recover-docx-files-step-by-step-java-guide/)
+Lär dig att reparera skadade DOCX‑filer med Aspose.Words för Java i en detaljerad steg‑för‑steg‑guide.
+
+### [Öppna korrupt Word-dokument – Ställ in återställningsläge i Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
+Lär dig hur du öppnar skadade Word‑dokument och aktiverar återställningsläge med Aspose.Words för Java för att reparera filer.
+
+### [Återställ korrupt docx med Aspose.Words för Java](./recover-corrupted-docx-using-aspose-words-java/)
+Lär dig hur du reparerar skadade DOCX‑filer med Aspose.Words för Java i en steg‑för‑steg‑guide.
+
+### [Återställ korrupt DOCX i Java – Komplett programmeringsguide](./recover-corrupted-docx-in-java-complete-programming-guide/)
+Lär dig hur du reparerar skadade DOCX‑filer i Java med Aspose.Words, inklusive steg‑för‑steg‑kodexempel och bästa praxis.
+
+### [Fånga varningar om teckensnittssubstitution i Java med Aspose.Words – Komplett guide](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+### [Hur du återställer docx – Komplett guide för att läsa korrupta Word‑filer](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+Lär dig hur du reparerar och läser korrupta .docx‑filer med Aspose.Words för Java i denna steg‑för‑steg‑guide.
+### [Ställ in återhämtningsläge för att återställa trasigt Word‑dokument i Aspose.Words för Java](./set-recovery-mode-to-recover-broken-word-document/)
+Lär dig hur du aktiverar återhämtningsläget i Aspose.Words för Java för att reparera skadade Word‑dokument automatiskt.
+
+### [Hur du får saknade teckensnitt i Java – Aspose.Words‑guide](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
+Lär dig hur du identifierar och ersätter saknade teckensnitt i Java‑applikationer med Aspose.Words.
+### [Återställ DOCX‑filer med Aspose.Words – Steg‑för‑steg‑guide](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
+Lär dig hur du återställer skadade DOCX‑filer med Aspose.Words i Java. Steg‑för‑steg‑guide med kodexempel.
+### [Återställ docx – spara återställt dokument med Java](./how-to-recover-docx-save-recovered-document-using-java/)
+Lär dig hur du återställer en skadad DOCX-fil och sparar det återställda dokumentet med Java och Aspose.Words.
+### [Hur du återställer DOCX – Ställ in återställningsläge och visa varningar](./how-to-recover-docx-set-recovery-mode-display-warnings/)
+Lär dig hur du aktiverar återställningsläge i Aspose.Words för Java för att återställa skadade DOCX‑filer och visa varningsmeddelanden.
+### [Hur man återställer docx med Aspose.Words – Aktivera återställningsläge](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
+Lär dig hur du återställer skadade DOCX‑filer med Aspose.Words genom att aktivera återställningsläget för att rädda innehåll.
+### [Hur du återställer docx – Aktivera återställningsläge & Läs varningar](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
+Lär dig hur du aktiverar återställningsläge i Aspose.Words för Java för att återställa skadade DOCX-filer och läsa varningsmeddelanden.
+### [Återställ skadat Word‑dokument – Komplett Java‑guide](./recover-broken-word-document-complete-java-guide/)
+Lär dig hur du reparerar korrupta Word‑filer med Aspose.Words för Java, steg‑för‑steg‑instruktioner och kodexempel.
+
+### [Fånga varningar för teckensnittssubstitution – Upptäck saknade teckensnitt](./capture-font-substitution-warnings-detect-missing-fonts/)
+Lär dig hur du fångar varningar för teckensnittssubstitution och identifierar saknade teckensnitt i dina dokument med Aspose.Words för Java.
+
+### [Spara Word-dokument – Ställ in teckensnittinställningar, hantera saknade teckensnitt](./save-word-document-set-font-settings-handle-missing-fonts/)
+
+### [Återställ Word-dokument – Komplett guide för att ställa in återställningsläge i Java](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
+
+### [Registrera varningsåteruppringning i Java – Spåra saknade teckensnitt](./register-warning-callback-in-java-track-missing-fonts/)
+
+### [Upptäck saknad teckensnittssubstitution i Java – Komplett Aspose.Words‑guide](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+### [Återställ korrupt docx med Aspose.Words – Komplett Java‑guide](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
+Lär dig hur du reparerar skadade DOCX‑filer med Aspose.Words i Java – en komplett guide.
+
+### [Återställ korrupt Word-dokument med Aspose.Words – Guide](./recover-corrupted-word-document-using-aspose-words-guide/)
+
+### [Logga varningar om teckensnittssubstitution i Java med Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
+
+### [Konfigurera LoadOptions för varningar – Komplett Java‑guide](./configure-loadoptions-for-warnings-complete-java-guide/)
+### [Skapa tomt Word-dokument med Java – Fullständig Aspose.Words‑guide](./create-blank-word-document-with-java-full-aspose-words-guide/)
 
 ## Vanliga frågor
 

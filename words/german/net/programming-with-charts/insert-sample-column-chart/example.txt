@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Dieses Tutorial demonstriert, wie man ein neues Word‑Dokument erstellt, ein Standard‑Säulendiagramm mit DocumentBuilder.InsertChart einfügt, das eingebettete Chart‑Objekt abruft und das Dokument als .docx‑Datei speichert.
+//ExStepSummary:0: Erstellen Sie ein leeres Word‑Dokument und einen DocumentBuilder, um es zu bearbeiten.
+//ExStepSummary:1: Fügen Sie ein Säulendiagramm mit der Größe 432 × 252 Punkte in das Dokument ein.
+//ExStepSummary:2: Rufen Sie das Chart‑Objekt aus der eingefügten Shape ab, um es bei Bedarf weiter anzupassen.
+//ExStepSummary:3: Speichern Sie das Dokument, das nun das eingefügte Säulendiagramm enthält, als .docx‑Datei.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+Chart embeddedChart = chartContainer.Chart;
+
+//ExStep:3-
+wordDoc.Save("column-demo.docx");
+//ExEnd

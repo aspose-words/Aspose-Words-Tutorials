@@ -43,6 +43,10 @@ Aspose.Words for Java 提供了强大的文档样式工具，帮助开发人员�
 学习如何使用 Aspose.Words for Java 添加水印并设置页面配置。包含源代码的全面指南。
 ### [文档页眉和页脚样式](./document-header-footer-styling/)
 在本详细指南中学习如何使用 Aspose.Words for Java 设置文档页眉和页脚的样式。指南包含分步说明和源代码。
+### [在 Java Word 文档中检测字体 – 完整指南](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
+学习如何使用 Aspose.Words for Java 检测文档中的字体。包含源代码示例的完整指南。 
+### [在 Aspose.Words for Java 中设置默认字体 – 完整指南](./set-default-font-settings-in-aspose-words-for-java-complete/)
+学习如何在 Aspose.Words for Java 中设置默认字体，包括字体名称、大小和样式的完整示例，帮助统一文档外观。
 ### [如何在 Java 中使用 Aspose.Words 编辑脚注](./how-to-edit-footnote-in-java-with-aspose-words/)
 学习如何使用 Aspose.Words for Java 编辑文档中的脚注，包含示例代码。
 

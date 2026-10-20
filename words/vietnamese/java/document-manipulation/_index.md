@@ -103,7 +103,8 @@ Mở khóa sức mạnh của Aspose.Words cho Java. Tùy chọn và cài đặt
 ### [Sử dụng Thuộc tính Tài liệu trong Aspose.Words cho Java](./using-document-properties/)
 Tối ưu hóa quản lý tài liệu với Aspose.Words for Java. Tìm hiểu cách làm việc với các thuộc tính tài liệu, thêm siêu dữ liệu tùy chỉnh và nhiều hơn nữa trong hướng dẫn toàn diện này.
 ### [Sử dụng Web Extensions trong Aspose.Words cho Java](./using-web-extensions/)
-Cải thiện Tài liệu bằng Tiện ích mở rộng Web trong Aspose.Words cho Java. Học cách tích hợp nội dung dựa trên web một cách liền mạch.
+### [Gắn thẻ khả năng truy cập PDF trong Java – Tạo PDF có thể truy cập](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Hướng dẫn tạo PDF có khả năng truy cập bằng cách gắn thẻ nội dung trong Aspose.Words cho Java.
 ### [Tạo tài liệu Word trống trong Java với Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
 Hướng dẫn tạo một tài liệu Word trống bằng Aspose.Words cho Java.
 

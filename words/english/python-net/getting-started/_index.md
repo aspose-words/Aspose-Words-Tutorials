@@ -30,6 +30,9 @@ Learn how to implement metered licensing with Aspose.Words for Python to efficie
     ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 A code tutorial for Aspose.Words Python-net
 
+### [Build CMake Project: Configure, Build & Test](./build-cmake-project-configure-build-test/)
+Step-by-step guide to configure, build, and test a CMake project using Aspose.Words for Python-net.
+
 ## Additional Resources
 
 - [Aspose.Words for Python-net Documentation](https://docs.aspose.com/words/python-net/)

@@ -84,23 +84,36 @@ Word दस्तावेज़ (DOC, DOCX, RTF, आदि) को PDF फ़�
 ## दस्तावेज़ रूपांतरण ट्यूटोरियल
 
 ### [Using Document Converting Feature](./using-document-converting/)
-Aspose.Words for Java के साथ कुशल दस्तावेज़ रूपांतरण सीखें। फ़ाइलों को बदलें, मिलाएँ और त्रुटिरहित प्रोसेस करें। एक ही शक्तिशाली लाइब्रेरी में अपना वर्कफ़्लो सरल बनाएँ।
 
 ### [Exporting Documents to PDF](./exporting-documents-to-pdf/)
-Aspose.Words for Java का उपयोग करके दस्तावेज़ों को PDF में निर्यात करना सीखें। यह चरण‑दर‑चरण गाइड सहज दस्तावेज़ रूपांतरण के लिए प्रक्रिया को सरल बनाता है।
 
 ### [Converting Documents to Different Formats](./converting-documents-different-formats/)
-Aspose.Words for Java के साथ विभिन्न फ़ॉर्मैट में दस्तावेज़ बदलना सीखें। कुशल दस्तावेज़ रूपांतरण के लिए चरण‑दर‑चरण गाइड।
 
 ### [Converting HTML to Documents](./converting-html-documents/)
-Aspose.Words for Java के साथ HTML को Word दस्तावेज़ों में आसानी से बदलें। हमारी व्यापक गाइड के साथ कुछ ही चरणों में यह रूपांतरण करें।
 
 ### [Document Conversion with SaveOptions](./document-conversion-saveoptions/)
-Aspose.Words for Java का उपयोग करके DOCX को EPUB में कुशलता से बदलें। इस चरण‑दर‑चरण गाइड में सहेजने के विकल्प को अनुकूलित करना, सामग्री को विभाजित करना और दस्तावेज़ गुणों को निर्यात करना सीखें।
+
+### [Aspose.Words के साथ docx को markdown के रूप में सहेजें – पूर्ण गाइड](./save-docx-as-markdown-with-aspose-words-complete-guide/)
+Aspose.Words for Java का उपयोग करके DOCX फ़ाइलों को Markdown फ़ॉर्मेट में बदलने की पूरी प्रक्रिया सीखें।
 
 ### [Converting Documents to Images](./converting-documents-images/)
 Aspose.Words for Java के साथ Word दस्तावेज़ों को इमेज में बदलना सीखें। कोड उदाहरण और अक्सर पूछे जाने वाले प्रश्नों के साथ चरण‑दर‑चरण गाइड।
 
+### [Java में DOCX को PDF में बदलें – चरण‑दर‑चरण गाइड](./convert-docx-to-pdf-in-java-step-by-step-guide/)
+Java में Aspose.Words का उपयोग करके DOCX फ़ाइल को PDF में बदलने के चरण‑दर‑चरण मार्गदर्शन।
+### [Aspose.Words के साथ docx को pdf में सहेजें – पूर्ण Java गाइड](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+Aspose.Words for Java का उपयोग करके DOCX फ़ाइल को PDF में बदलने के चरण‑दर‑चरण पूर्ण गाइड।
+### [Java में docx को txt में बदलें – पूर्ण प्रोग्रामिंग गाइड](./convert-docx-to-txt-in-java-complete-programming-guide/)
+Java में Aspose.Words का उपयोग करके DOCX फ़ाइलों को साधारण टेक्स्ट (TXT) में बदलने की पूरी प्रक्रिया सीखें।
+### [Aspose.Words Java के साथ DOCX को मार्कडाउन में बदलें – पूर्ण गाइड](./convert-docx-to-markdown-with-aspose-words-java-full-guide/)
+Aspose.Words for Java का उपयोग करके DOCX फ़ाइलों को मार्कडाउन फ़ॉर्मेट में बदलने की पूरी प्रक्रिया सीखें।
+### [Java में DOCX को PDF में बदलें – सरल लो‑कोड गाइड](./convert-docx-to-pdf-in-java-simple-low-code-guide/)
+### [Aspose.Words के साथ मार्कडाउन को DOCX के रूप में सहेजें – जावा गाइड](./save-markdown-as-docx-with-aspose-words-java-guide/)
+Aspose.Words for Java का उपयोग करके मार्कडाउन फ़ाइल को DOCX में बदलने की प्रक्रिया सीखें। सरल कोड उदाहरण और विकल्प।
+### [docx को markdown में बदलें – जावा डेवलपर्स के लिए पूर्ण गाइड](./convert-docx-to-markdown-complete-guide-for-java-developers/)
+Java में Aspose.Words का उपयोग करके DOCX फ़ाइलों को Markdown फ़ॉर्मेट में बदलने की पूरी प्रक्रिया सीखें।
+### [Java में Markdown को Word में बदलें – Markdown से DOCX](./java-convert-markdown-to-word-markdown-to-docx-java/)
+Java का उपयोग करके Markdown फ़ाइलों को DOCX में बदलें, Aspose.Words के साथ तेज़ और सटीक रूपांतरण।
 ### [Aspose.Words for Java के साथ मार्कडाउन को DOCX में बदलें – चरण‑दर‑चरण गाइड](./convert-markdown-to-docx-with-aspose-words-for-java-step-by/)
 Aspose.Words for Java का उपयोग करके मार्कडाउन फ़ाइलों को DOCX में बदलना सीखें। सरल चरण‑दर‑चरण गाइड।
 

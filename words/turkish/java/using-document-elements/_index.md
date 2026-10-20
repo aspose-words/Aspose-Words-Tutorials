@@ -67,10 +67,22 @@ Bu adım adım eğitimle Java için Aspose.Words'de Markdown kullanmayı öğren
 Bu adım adım eğitimle Aspose.Words for Java'da düğümleri yönetmeyi öğrenin. Belge işleme gücünü açığa çıkarın.
 ### [Aspose.Words for Java'da OLE Nesneleri ve ActiveX Denetimlerini Kullanma](./using-ole-objects-and-activex/)
 Aspose.Words for Java'da OLE nesnelerini ve ActiveX denetimlerini kullanmayı öğrenin. Kolayca etkileşimli belgeler oluşturun. Hemen başlayın!
+### [Word'de ActiveX Düğmesi Ekleme – Düğme Başlığını Ayarlama](./how-to-insert-activex-button-in-word-set-button-caption/)
+ActiveX düğmesi eklemeyi ve düğme başlığını ayarlamayı adım adım öğrenin.
 ### [Java için Aspose.Words'de Revizyonları Kullanma](./using-revisions/)
 Aspose.Words for Java'nın revizyon kontrollerini etkili bir şekilde kullanmayı öğrenin. Geliştiriciler için adım adım kılavuz. Belge yönetiminizi optimize edin.
 ### [Java için Aspose.Words'de Bölümleri Kullanma](./using-sections/)
 Java için Aspose.Words'ü keşfedin: Bölümleri kullanma hakkında kapsamlı bir kılavuz. Kod örnekleriyle bölümleri ekleyin, silin, ekleyin, klonlayın.
+### [Java için Aspose.Words'de Düğme Boyutunu Ayarlama – Tam Kılavuz](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Java ile Aspose.Words kullanarak Word belgelerindeki düğme boyutlarını nasıl ayarlayacağınızı öğrenin.
+### [Aspose.Words Java ile Pasta Grafik Oluşturma – Tam Adım‑Adım Kılavuz](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Aspose.Words for Java kullanarak Word belgesine adım adım pasta grafik eklemeyi öğrenin.
+### [DOCX'e Forms2OleControl Ekleme – Tam Aspose.Words Kılavuzu](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Java için Aspose.Words'de Forms2OleControl ile DOCX dosyalarına form nesneleri eklemeyi adım adım öğrenin.
+### [Aspose.Words ile Word'e Pasta Grafiği Ekleme – Tam Kılavuz](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Aspose.Words kullanarak Word belgelerine dinamik pasta grafiği eklemeyi adım adım öğrenin.
+### [Java için Aspose.Words'de Komut Düğmesiyle Boş Word Belgesi Oluşturma – Adım Adım Kılavuz](./create-blank-word-document-with-a-command-button-step-by-ste/)
+Komut düğmesi ekleyerek boş bir Word belgesi oluşturmayı adım adım öğrenin.
 ### [Java için Aspose.Words'de Pasta Dilimini Patlatma](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
