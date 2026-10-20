@@ -38,6 +38,7 @@ Dowiedz się, jak dodać prostokątny kształt z efektem cienia do dokumentu Wor
 
 ### [Dodaj cień do kształtu w Word – Kompletny przewodnik Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Dowiedz się, jak dodać cień do kształtu w dokumencie Word przy użyciu Aspose.Words dla Java.
+
 ### [Zastosowanie efektu cienia do kształtu w C# – przewodnik krok po kroku](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Dowiedz się, jak dodać efekt cienia do kształtu w C# przy użyciu Aspose.Words, krok po kroku.
 ### [Jak ustawić cień na kształcie w Aspose.Words – kompletny przewodnik](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
@@ -109,6 +110,9 @@ Dowiedz się, jak utworzyć pusty dokument Word i grupować kształty przy użyc
 
 ### [Utwórz nowy dokument Word z ukrytym obrazem – przewodnik krok po kroku](./create-new-word-document-with-a-hidden-picture-step-by-step/)
 Dowiedz się, jak utworzyć dokument Word zawierający ukryty obraz, korzystając z Aspose.Words dla Java.
+
+### [Jak utworzyć pusty dokument i dodać kształty przy użyciu Aspose.Words w C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+Dowiedz się, jak utworzyć pusty dokument i dodać do niego kształty przy użyciu Aspose.Words w C#.
 
 ## Dodatkowe zasoby
 

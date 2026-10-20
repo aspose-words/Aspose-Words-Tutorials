@@ -132,6 +132,9 @@ C# के साथ Aspose.Words का उपयोग करके खाल�
 ### [छिपी हुई छवि के साथ नया Word दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-new-word-document-with-a-hidden-picture-step-by-step/)
 छिपी हुई छवि के साथ Word दस्तावेज़ बनाने की प्रक्रिया को चरण‑दर‑चरण समझें।
 
+### [Aspose.Words के साथ C# में खाली दस्तावेज़ बनाएं और आकृतियाँ जोड़ें](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+C# में Aspose.Words का उपयोग करके खाली दस्तावेज़ बनाकर आकृतियाँ जोड़ने की प्रक्रिया सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)

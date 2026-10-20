@@ -114,6 +114,9 @@ Java kullanarak boş bir Word belgesi oluşturmayı ve şekilleri bir grup için
 ### [Gizli bir resimle yeni Word belgesi oluşturma – adım adım kılavuz](./create-new-word-document-with-a-hidden-picture-step-by-step/)
 Gizli bir resim ekleyerek yeni bir Word belgesi oluşturmayı adım adım öğrenin.
 
+### [Aspose.Words ile C#'ta Boş Belge Oluşturma ve Şekil Ekleme](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+Aspose.Words kullanarak C# ile boş bir Word belgesi oluşturup şekil eklemeyi öğrenin.
+
 ## Ek Kaynaklar
 
 ### [Gizli elips şekliyle boş bir Word belgesi oluşturma](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

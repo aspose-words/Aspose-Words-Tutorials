@@ -112,6 +112,9 @@ Javaで空白のWord文書を作成し、図形をグループ化する方法を
 ### [非表示画像付きの新しいWord文書を作成する – ステップバイステップ ガイド](./create-new-word-document-with-a-hidden-picture-step-by-step/)
 非表示画像を使用してWord文書を作成する方法をステップバイステップで解説します。
 
+### [空白のドキュメントを作成し、Aspose.Words で図形を追加する方法（C#）](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+Aspose.Words for C# を使用して、空白のドキュメントを作成し、図形を追加する手順を解説します。
+
 ## 追加リソース
 
 ### [隠し楕円形を持つ空白のWord文書を作成する](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

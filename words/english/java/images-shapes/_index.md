@@ -128,6 +128,8 @@ Learn how to hide shapes in Word documents using Aspose.Words for C#.
 Learn how to create a blank Word document and group multiple shapes using Aspose.Words for Java.
 
 ### [Create new Word document with a hidden picture – step‑by‑step guide](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+### [How to create blank document and add shapes with Aspose.Words in C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+Learn how to create a blank Word document and insert various shapes using Aspose.Words for C# with step-by-step code examples.
 
 ## Additional Resources
 

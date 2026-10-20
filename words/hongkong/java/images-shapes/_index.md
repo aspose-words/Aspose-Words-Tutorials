@@ -111,6 +111,9 @@ Aspose.Words Java 程式碼教程
 ### [建立帶有隱藏圖片的新 Word 文件 – 步驟說明指南](./create-new-word-document-with-a-hidden-picture-step-by-step/)
 了解如何在 Word 文件中加入隱藏圖片的步驟與程式碼示例。
 
+### [如何使用 Aspose.Words 在 C# 中建立空白文件並添加形狀](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+了解如何在 C# 使用 Aspose.Words 建立空白 Word 文件並插入各種形狀。
+
 ## 其他資源
 
 ### [建立帶隱藏橢圓形的空白 Word 文件](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

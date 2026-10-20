@@ -111,6 +111,9 @@
 ### [Создание нового документа Word с скрытой картинкой – пошаговое руководство](./create-new-word-document-with-a-hidden-picture-step-by-step/)
 Узнайте, как добавить скрытую картинку в новый документ Word с помощью Aspose.Words для Java.
 
+### [Как создать пустой документ и добавить фигуры с помощью Aspose.Words в C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+Узнайте, как создать пустой документ и добавить в него фигуры с помощью Aspose.Words для C#.
+
 ## Дополнительные ресурсы
 
 ### [Создание пустого документа Word со скрытой эллипсой](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

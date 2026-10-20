@@ -111,6 +111,9 @@
 ### [Δημιουργία νέου εγγράφου Word με κρυφή εικόνα – οδηγός βήμα‑βήμα](./create-new-word-document-with-a-hidden-picture-step-by-step/)
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο Word που περιέχει κρυφή εικόνα, βήμα‑βήμα, χρησιμοποιώντας το Aspose.Words για Java.
 
+### [Πώς να δημιουργήσετε κενό έγγραφο και να προσθέσετε σχήματα με το Aspose.Words σε C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο και να προσθέσετε σχήματα χρησιμοποιώντας το Aspose.Words σε C#.
+
 ## Πρόσθετοι Πόροι
 
 ### [Δημιουργία κενής εγγράφου Word με κρυφό σχήμα έλλειψης](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

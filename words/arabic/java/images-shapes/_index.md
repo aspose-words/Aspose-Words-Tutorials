@@ -113,6 +113,9 @@
 ### [إنشاء مستند Word جديد بصورة مخفية – دليل خطوة بخطوة](./create-new-word-document-with-a-hidden-picture-step-by-step/)
 تعلم كيفية إنشاء مستند Word وإدراج صورة مخفية به خطوة بخطوة باستخدام Aspose.Words لجافا.
 
+### [كيفية إنشاء مستند فارغ وإضافة أشكال باستخدام Aspose.Words في C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+تعلم كيفية إنشاء مستند Word فارغ وإضافة أشكال مختلفة باستخدام Aspose.Words في لغة C# خطوة بخطوة.
+
 ## موارد إضافية
 
 ### [إنشاء مستند Word فارغ مع شكل إهليلجي مخفي](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

@@ -111,6 +111,8 @@ Hướng dẫn tạo tài liệu Word trống và nhóm các hình dạng bằng
 ### [Tạo tài liệu Word mới với hình ảnh ẩn – hướng dẫn từng bước](./create-new-word-document-with-a-hidden-picture-step-by-step/)
 Hướng dẫn chi tiết cách tạo tài liệu Word mới và chèn hình ảnh ẩn bằng Aspose.Words cho Java.
 
+### [Cách tạo tài liệu trống và thêm hình dạng với Aspose.Words trong C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+
 ## Tài nguyên bổ sung
 
 ### [Tạo tài liệu Word trống có hình ellipse ẩn](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

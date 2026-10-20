@@ -111,6 +111,9 @@ Panduan membuat dokumen Word kosong dan mengelompokkan bentuk menggunakan Aspose
 ### [Buat dokumen Word baru dengan gambar tersembunyi – panduan langkah demi langkah](./create-new-word-document-with-a-hidden-picture-step-by-step/)
 Panduan langkah demi langkah untuk membuat dokumen Word dengan gambar tersembunyi.
 
+### [Cara Membuat Dokumen Kosong dan Menambahkan Bentuk dengan Aspose.Words di C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+Panduan membuat dokumen kosong dan menambahkan bentuk menggunakan Aspose.Words untuk C#.
+
 ## Sumber Daya Tambahan
 
 ### [Buat dokumen Word kosong dengan bentuk elips tersembunyi](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

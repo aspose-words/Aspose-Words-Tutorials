@@ -112,6 +112,9 @@ Leer hoe u een leeg Word-document maakt en vormen groepeert met Aspose.Words voo
 ### [Nieuw Word-document maken met een verborgen afbeelding – stapsgewijze handleiding](./create-new-word-document-with-a-hidden-picture-step-by-step/)
 Leer hoe u een nieuw Word-document maakt en een verborgen afbeelding toevoegt met Aspose.Words voor Java.
 
+### [Leeg document maken en vormen toevoegen met Aspose.Words in C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+Leer hoe u een leeg Word‑document maakt en vormen toevoegt met Aspose.Words in C#.
+
 ## Aanvullende bronnen
 
 ### [Maak een leeg Word-document met een verborgen ellipsvorm](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

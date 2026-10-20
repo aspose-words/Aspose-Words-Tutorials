@@ -108,6 +108,9 @@
 ### [สร้างเอกสาร Word ใหม่พร้อมรูปภาพที่ซ่อนอยู่ – คู่มือขั้นตอนโดยละเอียด](./create-new-word-document-with-a-hidden-picture-step-by-step/)
 เรียนรู้วิธีสร้างเอกสาร Word พร้อมรูปภาพที่ซ่อนอยู่ในขั้นตอนง่ายๆ
 
+### [วิธีสร้างเอกสารเปล่าและเพิ่มรูปร่างด้วย Aspose.Words ใน C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+เรียนรู้วิธีสร้างเอกสารเปล่าและเพิ่มรูปร่างใน C# ด้วย Aspose.Words
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 ### [สร้างเอกสาร Word ว่างพร้อมรูปร่างวงรีที่ซ่อนอยู่](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

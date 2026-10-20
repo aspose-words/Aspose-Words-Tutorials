@@ -111,6 +111,9 @@ Java를 사용해 빈 Word 문서를 생성하고 도형을 그룹화하는 단�
 ### [숨겨진 그림이 포함된 새 Word 문서 만들기 – 단계별 가이드](./create-new-word-document-with-a-hidden-picture-step-by-step/)
 숨겨진 이미지를 포함한 Word 문서를 생성하고 저장하는 방법을 단계별로 안내합니다.
 
+### [Aspose.Words를 사용하여 C#에서 빈 문서를 만들고 도형을 추가하는 방법](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+Aspose.Words for C#를 이용해 빈 Word 문서를 생성하고 다양한 도형을 삽입하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 ### [숨겨진 타원형 모양이 있는 빈 Word 문서 만들기](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

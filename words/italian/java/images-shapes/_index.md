@@ -38,6 +38,7 @@ Impara a inserire una forma rettangolare con ombra in un documento Word usando A
 
 ### [Aggiungi ombra alla forma in Word – Guida completa Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Scopri come applicare ombre alle forme nei documenti Word usando Aspose.Words per Java.
+
 ### [Applicare l'effetto ombra a una forma in C# – Guida passo‑passo](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Scopri come aggiungere un effetto ombra a una forma usando Aspose.Words per C# con esempi pratici passo‑passo.
 ### [Come impostare l'ombra su una forma in Aspose.Words – Guida completa](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
@@ -111,6 +112,9 @@ Scopri come creare un documento Word vuoto e raggruppare forme usando Aspose.Wor
 
 ### [Crea un nuovo documento Word con un'immagine nascosta – guida passo‑a‑passo](./create-new-word-document-with-a-hidden-picture-step-by-step/)
 Scopri come inserire un'immagine nascosta in un documento Word usando Aspose.Words per Java.
+
+### [Come creare un documento vuoto e aggiungere forme con Aspose.Words in C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+Scopri come creare un documento vuoto e inserire forme usando Aspose.Words per C#.
 
 ## Risorse aggiuntive
 

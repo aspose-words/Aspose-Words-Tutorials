@@ -108,6 +108,9 @@ Naučte se, jak vytvořit prázdný dokument Word a seskupit tvary pomocí Aspos
 ### [Vytvořte nový dokument Word se skrytým obrázkem – krok‑za‑krokem průvodce](./create-new-word-document-with-a-hidden-picture-step-by-step/)
 Naučte se, jak vytvořit dokument Word s ukrytým obrázkem pomocí Aspose.Words pro Javu.
 
+### [Jak vytvořit prázdný dokument a přidat tvary pomocí Aspose.Words v C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
+Naučte se, jak vytvořit prázdný dokument a přidat do něj tvary pomocí Aspose.Words v C#.
+
 ## Další zdroje
 
 ### [Vytvořte prázdný dokument Word se skrytým eliptickým tvarem](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
