@@ -217,6 +217,9 @@
 ### [將 docx 轉換為 txt 並將 Word 方程式匯出為 LaTeX](./convert-docx-to-txt-and-export-word-equations-to-latex/)
 學習使用 Aspose.Words for Python 將 docx 轉換為 txt，並將 Word 方程式匯出為 LaTeX。
 
+### [如何將 Word 儲存為 Markdown 並保留方程式（使用 Aspose.Words for Python）](./how-to-save-word-as-markdown-and-preserve-equations-with-asp/)
+學習使用 Aspose.Words for Python 將 Word 文件轉換為 Markdown，同時保留其中的數學方程式。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

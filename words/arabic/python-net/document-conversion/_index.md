@@ -151,6 +151,8 @@
 تعلم كيفية حفظ مستندات Word كملفات PDF باستخدام Aspose Words خطوة بخطوة.
 ### [تحويل docx إلى txt وتصدير معادلات Word إلى LaTeX](./convert-docx-to-txt-and-export-word-equations-to-latex/)
 تعلم كيفية تحويل ملفات docx إلى txt وتصدير معادلات Word إلى صيغة LaTeX باستخدام Aspose.Words لبايثون.
+### [كيفية حفظ مستند Word كـ Markdown مع الحفاظ على المعادلات باستخدام Aspose.Words لبايثون](./how-to-save-word-as-markdown-and-preserve-equations-with-asp/)
+تعلم كيفية حفظ مستندات Word بصيغة Markdown مع الحفاظ على المعادلات باستخدام Aspose.Words لبايثون.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

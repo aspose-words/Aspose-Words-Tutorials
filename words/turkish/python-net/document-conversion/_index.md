@@ -196,6 +196,8 @@ Aspose.Words for Python kullanarak Word belgelerini PDF olarak kaydetmeyi adım 
 
 ### [Docx'i Txt'ye Dönüştür ve Word Denklemlerini LaTeX'e Aktar](./convert-docx-to-txt-and-export-word-equations-to-latex/)
 Aspose.Words for Python kullanarak docx dosyalarını txt'ye dönüştürün ve Word denklemlerini LaTeX formatına aktarın.
+### [Aspose.Words for Python ile Word'ü Markdown Olarak Kaydetme ve Denklemleri Korumak](./how-to-save-word-as-markdown-and-preserve-equations-with-asp/)
+Aspose.Words for Python kullanarak Word belgelerini markdown formatına kaydederken denklemleri korumayı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

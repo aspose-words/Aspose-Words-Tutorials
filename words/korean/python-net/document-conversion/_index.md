@@ -205,6 +205,7 @@ Aspose Words를 사용하여 Word 문서를 PDF로 저장하는 방법을 단�
 
 ### [DOCX를 TXT로 변환하고 Word 수식을 LaTeX로 내보내기](./convert-docx-to-txt-and-export-word-equations-to-latex/)
 DOCX 파일을 텍스트로 변환하고 Word 수식을 LaTeX 형식으로 내보내는 방법을 단계별로 안내합니다.
+### [Aspose.Words for Python을 사용하여 Word를 마크다운으로 저장하고 수식 보존하기](./how-to-save-word-as-markdown-and-preserve-equations-with-asp/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

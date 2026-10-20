@@ -151,6 +151,8 @@
 Узнайте, как с помощью Aspose.Words для Python сохранять документы Word в формате PDF шаг за шагом.
 ### [Конвертация docx в txt и экспорт уравнений Word в LaTeX](./convert-docx-to-txt-and-export-word-equations-to-latex/)
 Узнайте, как преобразовать файлы docx в txt и экспортировать уравнения Word в формат LaTeX с помощью Aspose.Words для Python.
+### [Как сохранить Word в markdown и сохранить уравнения с Aspose.Words для Python](./how-to-save-word-as-markdown-and-preserve-equations-with-asp/)
+Узнайте, как сохранять документы Word в markdown, сохраняя при этом уравнения, используя Aspose.Words для Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

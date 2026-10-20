@@ -196,6 +196,8 @@
 
 ### [将 docx 转换为 txt 并导出 Word 方程为 LaTeX](./convert-docx-to-txt-and-export-word-equations-to-latex/)
 使用 Aspose.Words for Python 将 docx 文件转换为 txt，并将 Word 中的公式导出为 LaTeX，轻松实现文本和数学内容的提取。
+### [如何使用 Aspose.Words for Python 将 Word 保存为 Markdown 并保留公式](./how-to-save-word-as-markdown-and-preserve-equations-with-asp/)
+学习使用 Aspose.Words for Python 将 Word 文档保存为 Markdown，同时完整保留文档中的公式。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

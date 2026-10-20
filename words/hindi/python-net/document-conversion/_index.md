@@ -195,6 +195,8 @@ Aspose Words का उपयोग करके Word फ़ाइल को P
 
 ### [docx को txt में बदलें और Word समीकरणों को LaTeX में निर्यात करें](./convert-docx-to-txt-and-export-word-equations-to-latex/)
 docx फ़ाइल को साधारण txt में परिवर्तित करें और Word समीकरणों को LaTeX कोड में निर्यात करें।
+### [Aspose.Words for Python के साथ Word को markdown में सहेजें और समीकरण संरक्षित रखें](./how-to-save-word-as-markdown-and-preserve-equations-with-asp/)
+Aspose.Words for Python का उपयोग करके Word दस्तावेज़ को markdown में बदलें और समीकरणों को बनाए रखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

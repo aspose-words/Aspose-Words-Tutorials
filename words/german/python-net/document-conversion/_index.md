@@ -155,6 +155,8 @@ Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für Python in PNG-Bilder ko
 Erfahren Sie, wie Sie mit Aspose Words für Python Word-Dokumente problemlos als PDF speichern.
 ### [DOCX in TXT konvertieren und Word‑Gleichungen nach LaTeX exportieren](./convert-docx-to-txt-and-export-word-equations-to-latex/)
 Erfahren Sie, wie Sie DOCX-Dateien in Text umwandeln und Word‑Gleichungen in LaTeX exportieren.
+### [Wie man Word als Markdown speichert und Gleichungen beibehält mit Aspose.Words für Python](./how-to-save-word-as-markdown-and-preserve-equations-with-asp/)
+Erfahren Sie, wie Sie Word-Dokumente in Markdown konvertieren und dabei Formeln erhalten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

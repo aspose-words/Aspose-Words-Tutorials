@@ -200,6 +200,8 @@ Aspose.Words を使用して Word 文書を PDF に変換する手順をステ�
 
 ### [docx を txt に変換し、Word の数式を LaTeX にエクスポート](./convert-docx-to-txt-and-export-word-equations-to-latex/)
 docx ファイルをテキストに変換し、埋め込まれた数式を LaTeX 形式でエクスポートする方法を解説します。
+### [Aspose.Words for Python を使用して、Word を Markdown に保存し、数式を保持する方法](./how-to-save-word-as-markdown-and-preserve-equations-with-asp/)
+Word 文書を Markdown に変換し、数式を正しく保持する手順を Python で解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

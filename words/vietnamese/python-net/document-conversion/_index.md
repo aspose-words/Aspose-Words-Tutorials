@@ -207,6 +207,9 @@ Hướng dẫn chi tiết cách lưu tài liệu Word dưới dạng PDF bằng 
 ### [Chuyển đổi docx sang txt và xuất phương trình Word sang LaTeX](./convert-docx-to-txt-and-export-word-equations-to-latex/)
 Hướng dẫn chuyển đổi tệp docx thành txt và xuất các phương trình Word sang định dạng LaTeX bằng Aspose.Words cho Python.
 
+### [Cách lưu Word dưới dạng markdown và bảo tồn công thức với Aspose.Words cho Python](./how-to-save-word-as-markdown-and-preserve-equations-with-asp/)
+Hướng dẫn chi tiết cách lưu tài liệu Word thành markdown đồng thời giữ nguyên các công thức toán học bằng Aspose.Words cho Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

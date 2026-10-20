@@ -209,6 +209,9 @@
 
 ### [แปลง docx เป็น txt และส่งออกสมการ Word ไปยัง LaTeX](./convert-docx-to-txt-and-export-word-equations-to-latex/)
 
+### [วิธีบันทึก Word เป็น markdown และรักษาสมการไว้ด้วย Aspose.Words for Python](./how-to-save-word-as-markdown-and-preserve-equations-with-asp/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น markdown พร้อมคงสมการไว้โดยใช้ Aspose.Words for Python
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
