@@ -25,15 +25,8 @@ Aspose.Words for Java tillhandahåller ett kraftfullt, omfattande API för dokum
 
 Oavsett om du skapar rapporter, genererar kontrakt eller bygger avancerade dokumentarbetsflödesystem, ger Aspose.Words dig företagsklassade verktyg för att hantera Microsoft Word‑dokument och andra populära format med precision och effektivitet.
 
-### Varför välja Aspose.Words för Java?
-
-- **Complete Document Lifecycle Management** – Skapa, ändra, konvertera och rendera dokument programatiskt.
-- **Format Fidelity** – Behåll perfekt dokumentformatering under konverteringar mellan populära format.
-- **Performance Optimized** – Bearbeta stora dokument effektivt med låg minnesanvändning.
-- **Easy Integration** – Integrera kraftfulla dokumentfunktioner i dina Java‑applikationer med minimal kod.
-- **Platform Independence** – Kör i vilken miljö som helst som stödjer Java, inklusive skrivbord, webb och mobila applikationer.
-
-## Tillgängliga handledningskategorier
+## Varför använda Aspose.Words för Java?
+Aspose.Words stödjer **35+** in‑ och utdataformat och kan bearbeta **500‑sidiga** dokument på **under 3 sekunder** på en typisk 2‑CPU‑server, helt utan att kräva Microsoft Word. Biblioteket erbjuder också **inbyggd PDF/A-, PDF/X- och PDF/UA‑kompatibilitet**, vilket gör det idealiskt för reglerade branscher.
 
 ### [AI & Machine Learning Integration](./ai-machine-learning-integration/)
 Utforska banbrytande dokumentfunktioner med AI‑integrationshandledningar. Lär dig implementera textsammanfattning, översättning och andra intelligenta dokumentbehandlingsfunktioner.
