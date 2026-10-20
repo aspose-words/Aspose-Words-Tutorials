@@ -117,6 +117,9 @@
 ### [建立空白 Word 文件並插入純文字控制項](./create-blank-word-document-and-insert-a-plain-text-control/)
 ### [在 Aspose.Words for Java 中使用 Java 建立徑向圖表](./how-to-create-radial-chart-in-a-word-document-with-java/)
 了解如何在 Word 文件中使用 Java 生成徑向圖表並嵌入文檔。
+### [如何在 C# 中建立空白 Word 文件並加入雷達圖](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+### [在 Aspose.Words for Java 中以程式方式建立 Word 文件並插入按鈕](./create-word-document-programmatically-and-insert-a-button/)
+了解如何使用 Aspose.Words for Java 程式化建立 Word 文件，並在文件中加入可點擊的按鈕。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

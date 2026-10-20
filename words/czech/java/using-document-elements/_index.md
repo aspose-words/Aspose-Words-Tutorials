@@ -105,6 +105,10 @@ Naučte se, jak uložit dokument Word po úpravě prstencového grafu pomocí As
 Naučte se, jak programově vytvořit ovládací prvek Forms2OLE pomocí Aspose.Words v Javě.
 ### [Jak vytvořit radiální graf v dokumentu Word pomocí Javy](./how-to-create-radial-chart-in-a-word-document-with-java/)
 Naučte se, jak pomocí Aspose.Words pro Javu vytvořit radiální graf v dokumentu Word.
+### [Vytvoření dokumentu Word programově a vložení tlačítka](./create-word-document-programmatically-and-insert-a-button/)
+Naučte se, jak programově vytvořit dokument Word a vložit do něj tlačítko pomocí Aspose.Words pro Javu.
+### [Jak vytvořit prázdný dokument Word a přidat radarový graf v C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+Naučte se vytvořit prázdný dokument Word a vložit do něj radarový graf pomocí C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

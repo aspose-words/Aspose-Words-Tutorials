@@ -134,6 +134,7 @@ Naučte se, jak pomocí Aspose.Words pro Javu označovat PDF pro přístupnost a
 Kompletní průvodce vytvořením ActiveX tlačítka v souboru DOCX pomocí Aspose.Words pro Javu.
 ### [Vytvoření prázdného dokumentu s interaktivním tlačítkem v aplikaci Word pomocí Javy](./create-blank-document-with-an-interactive-command-button-in/)
 Naučte se, jak v Javě vytvořit prázdný dokument Word a přidat do něj interaktivní tlačítko příkazu.
+### [Jak vytvořit prázdný dokument Word s textovým ovládacím prvkem](./how-to-create-a-blank-word-document-with-a-text-control/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

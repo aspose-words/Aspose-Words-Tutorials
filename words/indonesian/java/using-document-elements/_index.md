@@ -103,6 +103,9 @@ Pelajari cara menyimpan dokumen Word setelah memodifikasi diagram donat mengguna
 Pelajari cara membuat kontrol OLE forms2olecontrol secara programatik menggunakan Aspose.Words untuk Java.
 ### [Cara membuat diagram radial dalam dokumen Word dengan Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
 Pelajari cara membuat diagram radial di dokumen Word menggunakan Aspose.Words untuk Java.
+### [Membuat dokumen Word secara programatis dan menyisipkan tombol di Aspose.Words untuk Java](./create-word-document-programmatically-and-insert-a-button/)
+Pelajari cara membuat dokumen Word secara programatis dan menambahkan tombol interaktif menggunakan Aspose.Words untuk Java.
+### [Cara membuat dokumen Word kosong dan menambahkan diagram radar di C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

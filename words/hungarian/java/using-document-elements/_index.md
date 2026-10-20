@@ -46,6 +46,8 @@ Ne feledd, a gyakorlat teszi a mestert, és az Aspose.Words for Java segítség�
 ### [Forms2OleControl hozzáadása DOCX-hez – Teljes Aspose.Words útmutató](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
 Tanuld meg, hogyan adhatod hozzá a Forms2OleControl elemet a DOCX dokumentumokhoz az Aspose.Words for Java segítségével.
 
+### [Word dokumentum létrehozása programozottan és gomb beszúrása](./create-word-document-programmatically-and-insert-a-button/)
+Tanuld meg, hogyan hozhatsz létre Word dokumentumot programból, és szúrj be gombot interaktív funkciókkal.
 ### [Megjegyzések használata az Aspose.Words Java-ban](./using-comments/)
 Tanuld meg, hogyan használhatsz megjegyzéseket az Aspose.Words for Java programban. Lépésről lépésre útmutató a dokumentumokban található megjegyzések hozzáadásához és testreszabásához.
 ### [Mezők használata az Aspose.Words fájlban Java-ban](./using-fields/)
@@ -106,6 +108,8 @@ Tanuld meg, hogyan mentheted el a Word dokumentumot a gyűrűdiagram módosítá
 Tanuld meg, hogyan készíts radiális diagramot Word dokumentumban Java segítségével.
 ### [Üres Word dokumentum létrehozása és egyszerű szövegvezérlő beszúrása](./create-blank-word-document-and-insert-a-plain-text-control/)
 Tanuld meg, hogyan hozz létre üres Word dokumentumot és szúrj be egyszerű szövegvezérlőt.
+### [Üres Word dokumentum létrehozása és radar diagram hozzáadása C#-ban](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+Tanuld meg, hogyan hozhatsz létre üres Word dokumentumot, és adj hozzá radar diagramot C#-ban az Aspose.Words segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -117,6 +117,14 @@ C# और Aspose.Words का उपयोग करके Word में आक
 
 ### [Java में पाई चार्ट के साथ Word दस्तावेज़ बनाएं](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
 Java में Aspose.Words का उपयोग करके पाई चार्ट के साथ Word दस्तावेज़ बनाने की चरण-दर-चरण गाइड।
+### [जावा में प्रोग्रामेटिक रूप से Word दस्तावेज़ बनाएं, समूह आकृतियों को जोड़ें](./create-word-document-programmatically-group-shapes-in-java/)
+जावा में Aspose.Words का उपयोग करके समूहित आकृतियों के साथ Word दस्तावेज़ बनाने की प्रक्रिया सीखें।
+
+### [C# में खाली Word दस्तावेज़ बनाकर छिपा हुआ अंडाकार आकार जोड़ें](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+C# के साथ Aspose.Words का उपयोग करके खाली Word फ़ाइल बनाकर छिपा हुआ अंडाकार आकार जोड़ने का तरीका।
+
+### [जावा के साथ Word दस्तावेज़ में डोनट चार्ट कैसे बनाएं](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+जावा का उपयोग करके Word दस्तावेज़ में डोनट चार्ट सम्मिलित करने की चरण-दर-चरण प्रक्रिया।
 
 ## अतिरिक्त संसाधन
 

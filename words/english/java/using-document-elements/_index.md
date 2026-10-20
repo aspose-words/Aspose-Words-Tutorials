@@ -107,6 +107,10 @@ Learn how to add Structured Document Tags (SDT) in C# for Word placeholders with
 Learn how to add leader lines to pie charts using Aspose.Words for Java Chart API.
 ### [How to insert command button in a Word document using Java](./how-to-insert-command-button-in-a-word-document-using-java/)
 Learn how to insert a command button into a Word document using Aspose.Words for Java. Step-by-step guide for developers.
+### [Create word document programmatically and insert a button](./create-word-document-programmatically-and-insert-a-button/)
+Learn how to programmatically create a Word document and insert a button using Aspose.Words for Java.
+### [How to create a blank Word document and add a radar chart in C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+Learn how to generate a blank Word file and insert a radar chart programmatically with Aspose.Words for C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

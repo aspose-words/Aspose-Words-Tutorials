@@ -104,6 +104,10 @@ Apprenez à enregistrer un document Word après avoir modifié un graphique en a
 Apprenez à créer un diagramme radial dans un document Word en utilisant Aspose.Words pour Java.
 ### [Créer un document Word vierge et insérer un contrôle de texte brut dans Aspose.Words pour Java](./create-blank-word-document-and-insert-a-plain-text-control/)
 Apprenez à créer un document Word vierge et à insérer un contrôle de texte brut avec Aspose.Words pour Java.
+### [Comment créer un document Word vierge et ajouter un graphique radar en C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+
+### [Créer un document Word programmatique et insérer un bouton](./create-word-document-programmatically-and-insert-a-button/)
+Apprenez à créer un document Word via code Java et à y ajouter un bouton interactif.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

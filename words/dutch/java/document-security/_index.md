@@ -49,6 +49,8 @@ Leer hoe u uw documenten kunt beveiligen en gevoelige gegevens kunt redigeren me
 Leer hoe u Word-documenten digitaal ondertekent in Java met Aspose.Words, inclusief voorbeeldcode en stapsgewijze instructies.
 ### [Hoe docx‑bestanden te ondertekenen met een PFX‑certificaat – stapsgewijze handleiding](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
 Leer hoe u docx‑bestanden ondertekent met een PFX‑certificaat met Aspose.Words voor Java, inclusief voorbeeldcode en stapsgewijze instructies.
+### [Hoe u een digitale handtekening toevoegt aan een Word-document met Aspose.Words](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
+Leer hoe u met Aspose.Words digitale handtekeningen aan Word-documenten kunt toevoegen voor authenticatie en integriteit.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

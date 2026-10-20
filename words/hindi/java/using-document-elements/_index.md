@@ -106,6 +106,10 @@ Java में डोनट चार्ट को बदलने के बा
 खाली Word फ़ाइल बनाकर उसमें साधारण‑पाठ नियंत्रण जोड़ने की प्रक्रिया सीखें।
 ### [Java के साथ Word दस्तावेज़ में रेडियल चार्ट बनाना](./how-to-create-radial-chart-in-a-word-document-with-java/)
 Java का उपयोग करके Word दस्तावेज़ में रेडियल चार्ट बनाने की प्रक्रिया सीखें।
+### [प्रोग्रामेटिक रूप से वर्ड दस्तावेज़ बनाना और बटन सम्मिलित करना](./create-word-document-programmatically-and-insert-a-button/)
+प्रोग्रामेटिक रूप से वर्ड दस्तावेज़ बनाना और बटन जोड़ना सीखें।
+### [C# में एक खाली Word दस्तावेज़ बनाना और रडार चार्ट जोड़ना](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+C# में एक खाली Word दस्तावेज़ बनाना और उसमें रडार चार्ट जोड़ना सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

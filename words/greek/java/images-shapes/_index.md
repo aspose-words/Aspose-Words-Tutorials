@@ -115,6 +115,15 @@
 ### [Πώς να δημιουργήσετε ένα έγγραφο Word με διάγραμμα πίτας σε Java](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
 Μάθετε πώς να προσθέσετε διάγραμμα πίτας σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
 
+### [Δημιουργία εγγράφου Word προγραμματιστικά, ομαδοποίηση σχημάτων σε Java](./create-word-document-programmatically-group-shapes-in-java/)
+Μάθετε πώς να δημιουργήσετε έγγραφο Word και να ομαδοποιήσετε σχήματα προγραμματιστικά με το Aspose.Words για Java.
+
+### [Πώς να δημιουργήσετε κενό έγγραφο Word και να προσθέσετε ένα κρυφό σχήμα έλλειψης σε C#](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να ενσωματώσετε ένα κρυφό έλλειψο σχήμα χρησιμοποιώντας C#.
+
+### [Πώς να δημιουργήσετε διάγραμμα ντόνατ σε έγγραφο Word με Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+Μάθετε πώς να δημιουργήσετε διάγραμμα ντόνατ σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
+
 ## Πρόσθετοι Πόροι
 - [Aspose.Words για τεκμηρίωση Java](https://reference.aspose.com/words/java/)
 - [Aspose.Words για αναφορά API Java](https://reference.aspose.com/words/java/)

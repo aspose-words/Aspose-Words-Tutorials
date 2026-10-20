@@ -49,6 +49,8 @@ C# ile Aspose.Words kullanarak DOCX dosyalarını güvenli bir şekilde nasıl i
 Aspose.Words for Java ile PFX sertifikası kullanarak docx dosyalarını güvenli bir şekilde imzalayın. Adım adım örnek ve kod açıklamaları.
 ### [X509 Sertifikasıyla C# Kullanarak Word Belgesini İmzalama](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
 C# ve X509 sertifikasıyla Word belgesini nasıl imzalayacağınızı adım adım öğrenin.
+### [Aspose.Words ile bir Word belgesine dijital imza ekleme](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
+Aspose.Words for Java kullanarak Word belgesine dijital imza eklemeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

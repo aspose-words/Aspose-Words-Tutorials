@@ -49,6 +49,8 @@ Lär dig hur du signerar DOCX-filer i C# med Aspose.Words. En komplett steg‑f�
 Lär dig signera docx-filer med ett PFX‑certifikat med Aspose.Words för Java i en detaljerad steg‑för‑steg‑guide.
 ### [Hur du signerar Word-dokument i C# med ett X509‑certifikat](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
 Steg‑för‑steg‑guide för att signera Word‑dokument i C# med ett X509‑certifikat med Aspose.Words.
+### [Hur du lägger till en digital signatur i ett Word-dokument med Aspose.Words](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
+Lär dig steg-för-steg hur du signerar Word-dokument digitalt med Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

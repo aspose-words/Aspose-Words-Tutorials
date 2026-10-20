@@ -103,6 +103,9 @@ Leer hoe u een Word-document opslaat nadat u een doughnut-diagram hebt bewerkt m
 Leer hoe je een radiale grafiek in een Word-document kunt maken met Aspose.Words voor Java. Volg de stapsgewijze tutorial.
 ### [Leeg Word-document maken en een platte‑tekst besturingselement invoegen](./create-blank-word-document-and-insert-a-plain-text-control/)
 Maak een leeg Word-document en voeg een platte‑tekst besturingselement toe.
+### [Word-document programmatisch maken en een knop invoegen in Aspose.Words voor Java](./create-word-document-programmatically-and-insert-a-button/)
+Leer hoe u een Word-document programmatically maakt en een knop toevoegt met Aspose.Words voor Java.
+### [Een leeg Word-document maken en een radardiagram toevoegen in C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

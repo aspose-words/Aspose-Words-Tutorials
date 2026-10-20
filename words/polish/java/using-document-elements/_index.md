@@ -106,6 +106,10 @@ Dowiedz się, jak programowo tworzyć kontrolki Forms2OLE w dokumentach przy pom
 Dowiedz się, jak po edycji wykresu pierścieniowego zapisać dokument Word przy użyciu Aspose.Words dla Java.
 ### [Jak utworzyć wykres radialny w dokumencie Word przy użyciu Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
 Dowiedz się, jak w Aspose.Words for Java stworzyć wykres radialny w dokumencie Word krok po kroku.
+### [Jak utworzyć pusty dokument Word i dodać wykres radarowy w C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+Dowiedz się, jak w C# stworzyć pusty dokument Word i wstawić wykres radarowy krok po kroku.
+### [Utwórz dokument Word programowo i wstaw przycisk](./create-word-document-programmatically-and-insert-a-button/)
+Dowiedz się, jak programowo utworzyć dokument Word i dodać przycisk przy użyciu Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

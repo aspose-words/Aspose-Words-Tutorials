@@ -116,6 +116,15 @@ Apprenez à générer un diagramme circulaire dans un document Word à l'aide d'
 ### [Comment créer un document vierge et ajouter des formes à Word](./how-to-create-blank-document-and-add-shapes-to-word/)
 Apprenez à créer un document Word vierge et y insérer des formes à l'aide d'Aspose.Words pour Java.
 
+### [Créer un document Word programmatique, regrouper des formes en Java](./create-word-document-programmatically-group-shapes-in-java/)
+Apprenez à créer un document Word et à regrouper des formes programmatique en Java avec Aspose.Words.
+
+### [Comment créer un document Word vierge et ajouter une forme ellipse cachée en C#](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+Apprenez à créer un document Word vierge et y insérer une ellipse cachée en C# avec Aspose.Words.
+
+### [Comment créer un graphique en anneau dans un document Word avec Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+Apprenez à générer un graphique en anneau dans un document Word à l'aide d'Aspose.Words pour Java.
+
 ## Ressources supplémentaires
 - [Documentation Aspose.Words pour Java](https://reference.aspose.com/words/java/)
 - [Référence de l'API Aspose.Words pour Java](https://reference.aspose.com/words/java/)

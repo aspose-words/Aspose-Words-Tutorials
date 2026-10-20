@@ -104,6 +104,10 @@
 本教程演示如何使用 Aspose.Words for Java 在 Word 文档中编辑图表，包括修改数据、样式并保存。
 ### [在 Java 中编辑环形图后保存 Word 文档](./save-word-document-after-editing-doughnut-chart-in-java/)
 本教程演示如何使用 Aspose.Words for Java 编辑环形图并保存更新后的 Word 文档。
+### [在 C# 中创建空白 Word 文档并添加雷达图](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+学习如何在 C# 中使用 Aspose.Words 创建空白 Word 文档并插入雷达图。
+### [在 Aspose.Words for Java 中以编程方式创建 Word 文档并插入按钮](./create-word-document-programmatically-and-insert-a-button/)
+使用 Aspose.Words for Java 通过代码创建 Word 文档并添加交互式按钮。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -83,6 +83,8 @@ Learn how to enhance document formatting with Aspose.Words for Java. Explore sty
 Learn how to generate and customize Table of Contents (TOC) using Aspose.Words for Java. Create organized and professional documents effortlessly.
 ### [pdf accessibility tagging in Java – Generate Accessible PDFs](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Learn how to add accessibility tags to PDFs using Aspose.Words for Java, creating compliant and accessible PDF documents.
+### [How to create a blank Word document with a text control](./how-to-create-a-blank-word-document-with-a-text-control/)
+Learn how to generate a blank Word document and add a text control using Aspose.Words for Java.
 ### [Protecting Documents in Aspose.Words for Java](./protecting-documents/)
 Learn how to secure your Java Word documents with Aspose.Words for Java. Protect your data with password and more.
 ### [Splitting Documents into Pages in Aspose.Words for Java](./splitting-documents-into-pages/)

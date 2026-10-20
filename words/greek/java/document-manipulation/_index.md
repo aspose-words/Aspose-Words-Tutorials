@@ -115,6 +115,8 @@
 
 ### [Επισήμανση προσβασιμότητας PDF σε Java – Δημιουργία προσβάσιμων PDF](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Μάθετε πώς να δημιουργείτε προσβάσιμα PDF με ετικέτες προσβασιμότητας χρησιμοποιώντας το Aspose.Words για Java.
+### [Πώς να δημιουργήσετε ένα κενό έγγραφο Word με έλεγχο κειμένου](./how-to-create-a-blank-word-document-with-a-text-control/)
+Δημιουργήστε ένα κενό έγγραφο Word και προσθέστε έλεγχο κειμένου.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

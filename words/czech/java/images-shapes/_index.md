@@ -37,7 +37,6 @@ Naučte se, jak generovat vysoce kvalitní miniatury a rastrové obrázky vlastn
 Naučte se, jak přidat obdélníkový tvar se stínem do Word dokumentu pomocí Aspose.Words pro Javu.
 
 ### [Přidání stínu k tvaru ve Wordu – kompletní průvodce Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
-Naučte se, jak přidat stín k tvarům v dokumentech Word pomocí Aspose.Words pro Javu.
 ### [Aplikace stínového efektu na tvar v C# – krok za krokem průvodce](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Naučte se, jak aplikovat stínový efekt na tvary v C# pomocí Aspose.Words – podrobný krok‑za‑krokem průvodce.
 ### [Jak nastavit stín na tvar v Aspose.Words – kompletní průvodce](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
@@ -111,6 +110,14 @@ Naučte se seskupovat tvary a přidávat obdélníkový tvar ve Word dokumentu p
 
 ### [Jak vytvořit dokument Word s koláčovým grafem v Javě](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
 Naučte se, jak vygenerovat koláčový graf v dokumentu Word pomocí Aspose.Words pro Javu.
+### [Vytvořit dokument Word programově, seskupit tvary v Javě](./create-word-document-programmatically-group-shapes-in-java/)
+Naučte se, jak programově vytvořit dokument Word a seskupit tvary pomocí Aspose.Words pro Javu.
+
+### [Jak vytvořit prázdný dokument Word a přidat skrytý eliptický tvar v C#](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+Naučte se, jak programově vytvořit prázdný dokument Word a vložit do něj skrytý elipsovitý tvar pomocí C#.
+
+### [Jak vytvořit prstencový graf v dokumentu Word pomocí Javy](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+Naučte se, jak programově vytvořit prstencový graf v dokumentu Word pomocí Aspose.Words pro Javu.
 
 ## Další zdroje
 - [Dokumentace k Aspose.Words pro Javu](https://reference.aspose.com/words/java/)

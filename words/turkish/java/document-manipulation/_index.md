@@ -113,6 +113,7 @@ Java ve Aspose.Words ile sıfırdan Word belgesi oluşturmayı adım adım öğr
 Aspose.Words kullanarak Word belgelerinde içerik denetimlerini nasıl ekleyeceğinizi ve yapılandıracağınızı öğrenin.
 ### [Java ile Word'de etkileşimli komut düğmesiyle boş belge oluşturma](./create-blank-document-with-an-interactive-command-button-in/)
 Java kullanarak Word'de etkileşimli bir komut düğmesi ekleyerek boş bir belge oluşturmayı öğrenin.
+### [Metin Kontrolü Kullanarak Boş Word Belgesi Oluşturma](./how-to-create-a-blank-word-document-with-a-text-control/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -105,6 +105,10 @@ Hướng dẫn chi tiết cách chỉnh sửa biểu đồ trong tài liệu Wor
 Hướng dẫn lưu tài liệu Word sau khi chỉnh sửa biểu đồ donut bằng Aspose.Words for Java.
 ### [Tạo tài liệu Word trống và chèn điều khiển văn bản thuần trong Aspose.Words cho Java](./create-blank-word-document-and-insert-a-plain-text-control/)
 Hướng dẫn tạo tài liệu Word trống và chèn một điều khiển văn bản thuần bằng Aspose.Words cho Java.
+### [Tạo tài liệu Word bằng cách lập trình và chèn nút](./create-word-document-programmatically-and-insert-a-button/)
+Hướng dẫn tạo tài liệu Word và chèn nút tương tác bằng Aspose.Words cho Java.
+### [Cách tạo tài liệu Word trống và thêm biểu đồ radar trong C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+Hướng dẫn tạo tài liệu Word trống và chèn biểu đồ radar bằng C# sử dụng Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

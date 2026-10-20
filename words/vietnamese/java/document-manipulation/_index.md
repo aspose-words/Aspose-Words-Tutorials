@@ -113,6 +113,7 @@ Hướng dẫn chi tiết cách tạo nút ActiveX trong tài liệu docx bằng
 Hướng dẫn tạo tài liệu Word trong Java bằng Aspose.Words.
 ### [Tạo tài liệu trống với nút lệnh tương tác trong Word bằng Java](./create-blank-document-with-an-interactive-command-button-in/)
 Hướng dẫn tạo tài liệu Word trống và chèn nút lệnh tương tác bằng Aspose.Words cho Java.
+### [Cách tạo tài liệu Word trống với điều khiển văn bản](./how-to-create-a-blank-word-document-with-a-text-control/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

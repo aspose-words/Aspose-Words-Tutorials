@@ -102,6 +102,10 @@
 เรียนรู้วิธีสร้างเอกสาร Word เปล่าและเพิ่มคอนโทรลข้อความธรรมดาโดยใช้ Aspose.Words for Java
 ### [วิธีสร้างแผนภูมิรัศมีในเอกสาร Word ด้วย Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
 เรียนรู้วิธีสร้างแผนภูมิรัศมีในเอกสาร Word ด้วย Java อย่างละเอียดด้วยบทช่วยสอนขั้นตอนต่อขั้นตอน
+### [สร้างเอกสาร Word อย่างโปรแกรมเมติกและแทรกปุ่ม](./create-word-document-programmatically-and-insert-a-button/)
+เรียนรู้วิธีสร้างเอกสาร Word ด้วยโค้ด Java และแทรกปุ่มโต้ตอบในเอกสาร
+### [วิธีสร้างเอกสาร Word ว่างและเพิ่มแผนภูมิเรดาร์ใน C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+เรียนรู้วิธีสร้างเอกสาร Word ว่างและใส่แผนภูมิเรดาร์โดยใช้ Aspose.Words for C#
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

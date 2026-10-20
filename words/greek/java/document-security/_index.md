@@ -49,6 +49,8 @@
 Μάθετε πώς να υπογράψετε αρχεία docx με πιστοποιητικό PFX, βήμα‑βήμα, χρησιμοποιώντας το Aspose.Words για Java.
 ### [Πώς να υπογράψετε έγγραφο Word σε C# χρησιμοποιώντας πιστοποιητικό X509](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
 Μάθετε πώς να υπογράψετε έγγραφα Word σε C# με πιστοποιητικό X509, εξασφαλίζοντας την ακεραιότητα και την αυθεντικότητα.
+### [Πώς να προσθέσετε ψηφιακή υπογραφή σε έγγραφο Word με το Aspose.Words](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
+Μάθετε πώς να προσθέσετε ψηφιακή υπογραφή σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -116,6 +116,15 @@ Leer hoe u een Word-document maakt met een cirkeldiagram met behulp van Aspose.W
 ### [Leeg document maken en vormen toevoegen aan Word](./how-to-create-blank-document-and-add-shapes-to-word/)
 Leer hoe u een leeg Word-document maakt en er vormen aan toevoegt met Aspose.Words voor Java.
 
+### [Word-document programmatisch maken, vormen groeperen in Java](./create-word-document-programmatically-group-shapes-in-java/)
+Leer hoe u een Word-document maakt en vormen groepeert via code in Java.
+
+### [Hoe een leeg Word-document te maken en een verborgen ellipsvorm toe te voegen in C#](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+Leer hoe u een leeg Word-document maakt en een verborgen ellipsvorm toevoegt met Aspose.Words in C#.
+
+### [Hoe een donutgrafiek in een Word-document te maken met Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+Leer hoe u een donutgrafiek toevoegt aan een Word-document met Java.
+
 ## Aanvullende bronnen
 - [Aspose.Words voor Java-documentatie](https://reference.aspose.com/words/java/)
 - [Aspose.Words voor Java API-referentie](https://reference.aspose.com/words/java/)

@@ -118,6 +118,15 @@ Java ve Aspose.Words kullanarak bir Word belgesine pasta grafiği eklemeyi öğr
 ### [Boş bir belge oluşturma ve Word'e şekil ekleme](./how-to-create-blank-document-and-add-shapes-to-word/)
 Aspose.Words for Java kullanarak boş bir Word belgesi oluşturup şekiller eklemeyi öğrenin.
 
+### [Java'da programlı olarak Word belgesi oluşturma, şekilleri gruplama](./create-word-document-programmatically-group-shapes-in-java/)
+Java kullanarak Word belgesi oluşturmayı ve şekilleri programlı olarak gruplamayı öğrenin.
+
+### [C# ile boş Word belgesi oluşturma ve gizli elips şekli ekleme](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+C# kullanarak boş bir Word belgesi oluşturup gizli bir elips şekli eklemeyi öğrenin.
+
+### [Java ile Word belgesinde halka grafik oluşturma](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+Java kullanarak Word belgesine halka grafik eklemeyi öğrenin.
+
 ## Ek Kaynaklar
 - [Java Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Java API Referansı](https://reference.aspose.com/words/java/)

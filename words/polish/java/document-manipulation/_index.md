@@ -113,6 +113,7 @@ Dowiedz się, jak w kilku krokach stworzyć dokument Word w Javie przy użyciu A
 ### [Dodawanie kontrolki zawartości w dokumencie Word przy użyciu Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
 ### [Utwórz pusty dokument z interaktywnym przyciskiem polecenia w Word przy użyciu Javy](./create-blank-document-with-an-interactive-command-button-in/)
 Tworzy pusty dokument Word i dodaje interaktywny przycisk polecenia przy użyciu Aspose.Words for Java. 
+### [Jak utworzyć pusty dokument Word z kontrolką tekstową](./how-to-create-a-blank-word-document-with-a-text-control/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

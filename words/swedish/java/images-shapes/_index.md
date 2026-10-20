@@ -115,6 +115,15 @@ Lär dig hur du skapar ett tomt Word-dokument och lägger till former med Aspose
 ### [Hur man skapar ett Word-dokument med ett cirkeldiagram i Java](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
 Lär dig skapa ett Word-dokument med ett cirkeldiagram i Java.
 
+### [Skapa Word-dokument programatiskt, gruppera former i Java](./create-word-document-programmatically-group-shapes-in-java/)
+Lär dig hur du programatiskt skapar ett Word-dokument och grupperar former med Aspose.Words för Java.
+
+### [Hur man skapar ett tomt Word-dokument och lägger till en dold ellipsform i C#](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+Lär dig hur du skapar ett tomt Word-dokument och infogar en dold ellipsform med Aspose.Words för C#.
+
+### [Hur man skapar ett doughnut-diagram i ett Word-dokument med Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+Lär dig hur du skapar ett doughnut-diagram i ett Word-dokument med Aspose.Words för Java.
+
 ## Ytterligare resurser
 - [Aspose.Words för Java-dokumentation](https://reference.aspose.com/words/java/)
 - [Aspose.Words för Java API-referens](https://reference.aspose.com/words/java/)

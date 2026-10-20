@@ -116,6 +116,15 @@ Hướng dẫn tạo tài liệu Word có biểu đồ tròn bằng Aspose.Words
 ### [Cách tạo tài liệu trống và thêm hình dạng vào Word](./how-to-create-blank-document-and-add-shapes-to-word/)
 Hướng dẫn tạo tài liệu Word trống và chèn các hình dạng như ellipse, hình chữ nhật, v.v.
 
+### [Tạo tài liệu Word bằng cách lập trình, nhóm các hình dạng trong Java](./create-word-document-programmatically-group-shapes-in-java/)
+Hướng dẫn chi tiết về cách tạo tài liệu Word và nhóm các hình dạng bằng Aspose.Words cho Java.
+
+### [Cách tạo tài liệu Word trống và thêm hình ellipse ẩn trong C#](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+Hướng dẫn tạo tài liệu Word trống và chèn hình ellipse ẩn bằng C# với Aspose.Words.
+
+### [Cách tạo biểu đồ donut trong tài liệu Word bằng Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+Hướng dẫn tạo biểu đồ donut trong tài liệu Word bằng Aspose.Words cho Java.
+
 ## Tài nguyên bổ sung
 - [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/)
 - [Tài liệu tham khảo API Aspose.Words cho Java](https://reference.aspose.com/words/java/)

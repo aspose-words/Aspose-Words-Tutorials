@@ -94,6 +94,8 @@ Aspose.Words для Java — это мощный и универсальный A
 Мастер создания документов с Aspose.Words для Java. Пошаговое руководство по добавлению текста, таблиц, изображений и многого другого. Создавайте потрясающие документы Word без усилий.
 ### [Как создать документ Word в Java с помощью Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
 Узнайте, как быстро создать документ Word в Java с использованием Aspose.Words. Пошаговое руководство с примерами кода.
+### [Как создать пустой документ Word с текстовым контролом](./how-to-create-a-blank-word-document-with-a-text-control/)
+Создайте пустой документ Word и добавьте в него текстовый контрол с помощью Aspose.Words для Java.
 ### [Клонирование и объединение документов в Aspose.Words для Java](./cloning-and-combining-documents/)
 Узнайте, как клонировать и объединять документы в Aspose.Words для Java. Пошаговое руководство с примерами исходного кода.
 ### [Сравнение документов в Aspose.Words для Java](./comparing-documents/)

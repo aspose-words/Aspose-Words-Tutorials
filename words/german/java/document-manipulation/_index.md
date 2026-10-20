@@ -115,6 +115,8 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java PDFs barrierefrei taggen und zu
 
 ### [Hinzufügen von Inhaltssteuerelementen in Word-Dokumenten mit Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
 Erfahren Sie, wie Sie Inhaltssteuerelemente in Word-Dokumenten programmgesteuert hinzufügen und konfigurieren.
+### [Erstellen eines leeren Word-Dokuments mit einem Textsteuerelement in Aspose.Words für Java](./how-to-create-a-blank-word-document-with-a-text-control/)
+Erfahren Sie, wie Sie ein leeres Word-Dokument mit einem Textsteuerelement programmgesteuert erstellen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

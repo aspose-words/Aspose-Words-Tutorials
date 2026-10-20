@@ -104,6 +104,8 @@ Aspose.Words kullanarak kod içinde forms2olecontrol nesnesi oluşturmayı öğr
 ### [Java için Aspose.Words'de Boş Word Belgesi Oluşturma ve Düz Metin Denetimi Ekleme](./create-blank-word-document-and-insert-a-plain-text-control/)
 Aspose.Words for Java kullanarak boş bir Word belgesi oluşturun ve içine düz metin denetimi ekleyin. Adım adım rehber.
 ### [Java ile Word belgesinde radyal grafik oluşturma](./how-to-create-radial-chart-in-a-word-document-with-java/)
+### [Programlı olarak Word belgesi oluşturma ve bir düğme ekleme](./create-word-document-programmatically-and-insert-a-button/)
+### [C# ile boş bir Word belgesi oluşturma ve radar grafiği ekleme](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

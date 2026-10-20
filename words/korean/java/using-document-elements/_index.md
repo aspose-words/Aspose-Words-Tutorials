@@ -101,6 +101,10 @@ Aspose.Words for Java를 이용해 Word 문서에 명령 버튼을 추가하고 
 Aspose.Words for Java를 사용해 도넛 차트를 수정하고 편집된 문서를 저장하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 빈 Word 문서 만들고 일반 텍스트 컨트롤 삽입하기](./create-blank-word-document-and-insert-a-plain-text-control/)
 ### [Java용 Aspose.Words에서 방사형 차트 만들기](./how-to-create-radial-chart-in-a-word-document-with-java/)
+### [프로그래밍으로 워드 문서를 만들고 버튼 삽입하기](./create-word-document-programmatically-and-insert-a-button/)
+Aspose.Words for Java를 사용해 프로그래밍 방식으로 워드 문서를 생성하고, 문서에 버튼을 삽입하는 방법을 단계별로 안내합니다.
+### [C#로 빈 Word 문서를 만들고 레이더 차트를 추가하는 방법](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+C#를 사용하여 빈 Word 문서를 생성하고 레이더 차트를 삽입하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

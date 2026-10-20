@@ -106,7 +106,6 @@ Aspose.Words for Javaのパワーを解き放ちましょう。ドキュメン�
 Aspose.Words for Javaでドキュメント管理を最適化しましょう。この包括的なチュートリアルでは、ドキュメントプロパティの操作、カスタムメタデータの追加など、様々な方法を学習できます。
 ### [Aspose.Words for Java の Web 拡張機能の使用](./using-web-extensions/)
 Aspose.Words for JavaのWeb拡張機能でドキュメントを強化しましょう。Webベースのコンテンツをシームレスに統合する方法を学びましょう。
-
 ### [Java で PDF アクセシビリティ タグ付け – アクセシブルな PDF の生成](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Aspose.Words for Java を使用して、PDF にアクセシビリティタグを付与し、アクセシブルな PDF を生成する方法を学びます。
 ### [JavaでdocxのActiveXボタンを作成する – 完全プログラミングガイド](./create-docx-activex-button-in-java-complete-programming-guid/)
@@ -115,6 +114,7 @@ JavaでdocxにActiveXボタンを追加する完全ガイドです。ステッ�
 Aspose.Words for Java を使って新しい Word 文書を作成する手順を解説します。
 ### [Javaでインタラクティブなコマンドボタン付きの空白文書をWordで作成する](./create-blank-document-with-an-interactive-command-button-in/)
 Java と Aspose.Words を使って、インタラクティブなコマンドボタンを含む空白の Word 文書を作成する方法を解説します。
+### [テキスト コントロールで空白の Word 文書を作成する方法](./how-to-create-a-blank-word-document-with-a-text-control/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

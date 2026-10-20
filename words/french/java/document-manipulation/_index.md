@@ -56,6 +56,8 @@ La manipulation de documents avec Aspose.Words pour Java est une compétence pr�
 Commencez votre parcours d'apprentissage dès aujourd'hui et débloquez les possibilités infinies de manipulation de documents avec Aspose.Words pour Java.
 
 ## Tutoriels de manipulation de documents
+### [Comment créer un document Word vierge avec un contrôle de texte](./how-to-create-a-blank-word-document-with-a-text-control/)
+Créez un document Word vierge contenant un contrôle de texte avec Aspose.Words pour Java.
 ### [Utilisation des options de nettoyage dans Aspose.Words pour Java](./using-cleanup-options/)
 Améliorez la clarté de vos documents grâce aux options de nettoyage d'Aspose.Words pour Java. Apprenez à supprimer les paragraphes vides, les zones inutilisées, etc.
 ### [Utilisation des champs dans Aspose.Words pour Java](./using-fields/)

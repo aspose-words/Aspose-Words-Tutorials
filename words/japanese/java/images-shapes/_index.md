@@ -116,6 +116,15 @@ Aspose.Words for Java を使用して、円グラフを挿入したWord文書を
 ### [空白のWord文書を作成し、図形を追加する方法](./how-to-create-blank-document-and-add-shapes-to-word/)
 Aspose.Words for Java を使用して、空白のWord文書に図形を追加する手順を解説します。
 
+### [Javaでプログラム的にWord文書を作成し、図形をグループ化](./create-word-document-programmatically-group-shapes-in-java/)
+Aspose.Words for Java を使用して、プログラムからWord文書を作成し、図形をグループ化する方法を解説します。
+
+### [C#で空白のWord文書を作成し、非表示の楕円形を追加する方法](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+C#で空白のWord文書を作成し、非表示の楕円形を追加する方法
+
+### [Java を使用して Word 文書にドーナツチャートを作成する方法](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+JavaでWord文書にドーナツ形状のチャートを挿入する手順を解説します。
+
 ## 追加リソース
 - [Aspose.Words for Java ドキュメント](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Java API リファレンス](https://reference.aspose.com/words/java/)

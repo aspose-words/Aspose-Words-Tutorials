@@ -116,6 +116,14 @@ Pelajari cara menambahkan diagram lingkaran ke dokumen Word menggunakan Aspose.W
 ### [Cara Membuat Dokumen Kosong dan Menambahkan Bentuk ke Word](./how-to-create-blank-document-and-add-shapes-to-word/)
 Pelajari cara membuat dokumen Word kosong dan menambahkan berbagai bentuk menggunakan Aspose.Words untuk Java.
 
+### [Buat dokumen Word secara programatik, kelompokkan bentuk di Java](./create-word-document-programmatically-group-shapes-in-java/)
+Pelajari cara membuat dokumen Word secara programatik dan mengelompokkan bentuk menggunakan Aspose.Words untuk Java.
+
+### [Cara membuat dokumen Word kosong dan menambahkan bentuk elips tersembunyi di C#](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+
+### [Cara membuat diagram donat dalam dokumen Word dengan Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+Pelajari cara membuat diagram donat di dokumen Word menggunakan Aspose.Words untuk Java.
+
 ## Sumber Daya Tambahan
 - [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/)
 - [Referensi API Aspose.Words untuk Java](https://reference.aspose.com/words/java/)

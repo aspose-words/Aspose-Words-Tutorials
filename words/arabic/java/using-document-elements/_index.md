@@ -102,6 +102,8 @@
 تعلم كيفية إنشاء مستند Word فارغ وإضافة عنصر تحكم نص عادي باستخدام Aspose.Words لجافا.
 ### [كيفية إنشاء مخطط شعاعي في مستند Word باستخدام Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
 تعرف على طريقة إنشاء مخطط شعاعي داخل مستند Word باستخدام مكتبة Aspose.Words لجافا.
+### [إنشاء مستند Word برمجيًا وإدراج زر](./create-word-document-programmatically-and-insert-a-button/)
+### [كيفية إنشاء مستند Word فارغ وإضافة مخطط راداري في C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

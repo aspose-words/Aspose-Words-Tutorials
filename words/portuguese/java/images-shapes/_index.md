@@ -114,6 +114,15 @@ Aprenda a gerar um documento Word contendo um gráfico de pizza usando Aspose.Wo
 ### [Como criar documento em branco e adicionar formas ao Word](./how-to-create-blank-document-and-add-shapes-to-word/)
 Aprenda a criar um documento Word em branco e inserir formas usando Aspose.Words para Java.
 
+### [Criar documento Word programaticamente, agrupar formas em Java](./create-word-document-programmatically-group-shapes-in-java/)
+Aprenda a criar documentos Word programaticamente e agrupar formas usando Aspose.Words para Java.
+
+### [Como criar um documento Word em branco e adicionar uma forma elipse oculta em C#](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+Aprenda a gerar um documento Word vazio e inserir uma elipse oculta usando Aspose.Words para C#.
+
+### [Como criar um gráfico de rosca em um documento Word com Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+Aprenda a gerar gráficos de rosca em documentos Word usando Aspose.Words para Java.
+
 ## Recursos adicionais
 - [Aspose.Words para documentação Java](https://reference.aspose.com/words/java/)
 - [Referência da API Aspose.Words para Java](https://reference.aspose.com/words/java/)

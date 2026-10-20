@@ -113,6 +113,8 @@ Aspose.Words for Java를 사용해 새 Word 문서를 생성하고 기본 콘텐
 Aspose.Words for Java를 사용하여 Word 문서에 콘텐츠 컨트롤을 추가하는 방법을 알아보세요.
 ### [Java용 Aspose.Words에서 대화형 명령 버튼이 있는 빈 문서 만들기](./create-blank-document-with-an-interactive-command-button-in/)
 Aspose.Words for Java를 사용해 Word 문서에 대화형 명령 버튼을 포함한 빈 문서를 생성하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 텍스트 컨트롤을 사용하여 빈 Word 문서 만들기](./how-to-create-a-blank-word-document-with-a-text-control/)
+텍스트 컨트롤을 활용해 빈 Word 문서를 생성하고 기본 설정을 적용하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

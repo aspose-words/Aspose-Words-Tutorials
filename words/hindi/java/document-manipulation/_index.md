@@ -114,6 +114,8 @@ Java में docx फ़ाइल में ActiveX बटन जोड़न�
 Aspose.Words for Java का उपयोग करके नया Word दस्तावेज़ बनाने के चरण-दर-चरण मार्गदर्शक।
 ### [Java का उपयोग करके Word में एक इंटरैक्टिव कमांड बटन के साथ खाली दस्तावेज़ बनाएं](./create-blank-document-with-an-interactive-command-button-in/)
 Java का उपयोग करके Word में इंटरैक्टिव कमांड बटन के साथ खाली दस्तावेज़ बनाना सीखें। 
+### [Java के लिए Aspose.Words में टेक्स्ट कंट्रोल के साथ एक खाली Word दस्तावेज़ बनाना](./how-to-create-a-blank-word-document-with-a-text-control/)
+Java के लिए Aspose.Words के साथ टेक्स्ट कंट्रोल वाले खाली Word दस्तावेज़ बनाने की प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

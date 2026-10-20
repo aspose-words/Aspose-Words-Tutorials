@@ -108,6 +108,12 @@ Erfahren Sie, wie Sie ein leeres Word-Dokument erstellen und ein Nur-Text-Steuer
 ### [Erstellen eines radialen Diagramms in einem Word-Dokument mit Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
 Erfahren Sie, wie Sie ein radiales Diagramm in einem Word-Dokument mit Java erstellen.
 
+### [Word-Dokument programmgesteuert erstellen und einen Button einfügen](./create-word-document-programmatically-and-insert-a-button/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Word-Dokument programmgesteuert erstellen und einen interaktiven Button hinzufügen.
+
+### [Erstellen eines leeren Word-Dokuments und Hinzufügen eines Radar-Diagramms in C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+Erfahren Sie, wie Sie mit Aspose.Words für C# ein leeres Word-Dokument erstellen und ein Radar-Diagramm einfügen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

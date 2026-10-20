@@ -117,6 +117,15 @@ Aprenda a crear un documento Word vacío y agregarle formas mediante Aspose.Word
 ### [Cómo crear un documento Word con un gráfico circular en Java](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
 Aprenda a generar un documento Word que incluya un gráfico de pastel usando Aspose.Words para Java.
 
+### [Crear documento Word programáticamente, agrupar formas en Java](./create-word-document-programmatically-group-shapes-in-java/)
+Aprenda a crear documentos Word y agrupar formas mediante código Java con Aspose.Words.
+
+### [Cómo crear un documento Word en blanco y agregar una forma elíptica oculta en C#](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+Aprenda a generar un documento Word vacío y añadir una forma elíptica oculta mediante C# con Aspose.Words.
+
+### [Cómo crear un gráfico de dona en un documento Word con Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+Aprenda a generar un gráfico de dona en un documento Word usando Aspose.Words para Java.
+
 ## Recursos adicionales
 - [Documentación de Aspose.Words para Java](https://reference.aspose.com/words/java/)
 - [Referencia de la API de Aspose.Words para Java](https://reference.aspose.com/words/java/)

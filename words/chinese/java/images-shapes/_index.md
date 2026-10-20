@@ -115,6 +115,15 @@ Aspose.Words Java 代码教程
 ### [如何在 Java 中创建带有饼图的 Word 文档](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
 学习使用 Aspose.Words for Java 在 Word 文档中插入并自定义饼图的完整步骤。
 
+### [在 Java 中以编程方式创建 Word 文档并分组形状](./create-word-document-programmatically-group-shapes-in-java/)
+演示如何使用 Aspose.Words for Java 创建文档并对形状进行分组。
+
+### [如何在 C# 中创建空白 Word 文档并添加隐藏的椭圆形](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+演示如何使用 Aspose.Words for C# 创建空白文档并插入隐藏的椭圆形。
+
+### [如何在 Word 文档中使用 Java 创建环形图](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+使用 Aspose.Words for Java 在 Word 文档中创建环形图。
+
 ## 其他资源
 - [Aspose.Words for Java 文档](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Java API参考](https://reference.aspose.com/words/java/)

@@ -105,6 +105,10 @@ Lär dig steg-för-steg hur du sparar ett Word-dokument efter att ha redigerat e
 Lär dig hur du skapar ett radardiagram i ett Word-dokument med Java. Steg-för-steg-guide för att visualisera data.
 ### [Skapa ett tomt Word-dokument och infoga en vanlig textkontroll](./create-blank-word-document-and-insert-a-plain-text-control/)
 Lär dig skapa ett tomt Word-dokument och infoga en vanlig textkontroll med Aspose.Words för Java. Steg-för-steg-guide för enkla dokument.
+### [Skapa Word-dokument programatiskt och infoga en knapp](./create-word-document-programmatically-and-insert-a-button/)
+Lär dig hur du skapar ett Word-dokument programatiskt och lägger till en knapp med Aspose.Words för Java.
+### [Skapa ett tomt Word-dokument och lägg till ett radardiagram i C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+Lär dig hur du skapar ett tomt Word-dokument och infogar ett radardiagram med C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

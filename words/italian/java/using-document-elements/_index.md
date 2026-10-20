@@ -105,6 +105,9 @@ Salva il documento Word dopo aver modificato un grafico a ciambella con Aspose.W
 Crea un documento Word vuoto e aggiungi un controllo di testo semplice per la modifica dinamica.
 ### [Come creare un grafico radiale in un documento Word con Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
 Impara a generare un grafico radiale in un documento Word usando Aspose.Words per Java.
+### [Creare un documento Word programmaticamente e inserire un pulsante](./create-word-document-programmatically-and-insert-a-button/)
+Impara a generare un documento Word e aggiungere un pulsante tramite Aspose.Words per Java.
+### [Come creare un documento Word vuoto e aggiungere un grafico radar in C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

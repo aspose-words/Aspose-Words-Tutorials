@@ -103,6 +103,9 @@ Java の Chart API を使用して、円グラフにリーダーライン（デ�
 空白のWord文書を作成し、プレーンテキストコントロールを挿入する手順を学びます。
 ### [JavaでWord文書にラジアルチャートを作成する方法](./how-to-create-radial-chart-in-a-word-document-with-java/)
 JavaコードでWord文書にラジアルチャートを挿入し、カスタマイズする手順を学びます。
+### [C# で空白の Word 文書を作成し、レーダーチャートを追加する方法](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+C# を使用して空の Word 文書を作成し、レーダーチャートを挿入する手順を学びます。
+### [Aspose.Words for Java で Word 文書をプログラム的に作成し、ボタンを挿入する](./create-word-document-programmatically-and-insert-a-button/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

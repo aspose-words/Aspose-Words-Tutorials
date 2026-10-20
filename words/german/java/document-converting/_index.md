@@ -129,6 +129,9 @@ Erfahren Sie, wie Sie Markdown‑Dateien mit Aspose.Words für Java in DOCX konv
 ### [Wie man Markdown mit Java und Aspose.Words in DOCX konvertiert](./how-to-convert-markdown-to-docx-with-java-and-aspose-words/)
 Konvertieren Sie Markdown-Dateien in DOCX mit Java und Aspose.Words.
 
+### [Wie man Markdown mit Java als DOCX speichert – vollständiger Leitfaden](./how-to-save-markdown-as-docx-using-java-complete-guide/)
+Erfahren Sie, wie Sie Markdown‑Dateien mit Aspose.Words für Java in DOCX konvertieren – komplette Schritt‑für‑Schritt‑Anleitung.
+
 ## Häufig gestellte Fragen
 
 **Q:** *Kann ich passwortgeschützte Word‑Dateien in PDF konvertieren?*  

@@ -104,6 +104,10 @@
 Узнайте, как создавать радиальные диаграммы в документах Word с помощью Aspose.Words для Java.
 ### [Создание пустого документа Word и вставка простого текстового контрола](./create-blank-word-document-and-insert-a-plain-text-control/)
 Узнайте, как создать пустой документ Word и добавить в него элемент управления простым текстом.
+### [Как создать пустой документ Word и добавить радиальную диаграмму в C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+Узнайте, как создать пустой документ Word и добавить радиальную диаграмму с помощью Aspose.Words для C#.
+### [Создание Word документа программно и вставка кнопки](./create-word-document-programmatically-and-insert-a-button/)
+Узнайте, как программно создать документ Word и добавить в него кнопку с помощью Aspose.Words для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

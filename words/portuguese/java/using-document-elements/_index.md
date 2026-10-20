@@ -105,6 +105,10 @@ Aprenda a editar gráficos em documentos Word com Aspose.Words para Java. Guia p
 Aprenda a criar controles Forms2OleControl programaticamente usando Aspose.Words para Java.
 ### [Como criar um gráfico radial em um documento Word com Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
 Aprenda a gerar um gráfico radial em documentos Word usando Aspose.Words para Java.
+### [Criar documento Word programaticamente e inserir um botão](./create-word-document-programmatically-and-insert-a-button/)
+Aprenda a criar um documento Word programaticamente e inserir um botão usando Aspose.Words para Java.
+### [Como criar um documento Word em branco e adicionar um gráfico de radar em C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+Aprenda a criar um documento Word vazio e inserir um gráfico de radar usando Aspose.Words para C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

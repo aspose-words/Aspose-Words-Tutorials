@@ -49,6 +49,8 @@ Aspose.Words for Java를 활용해 워드 문서에 디지털 서명을 적용�
 Aspose.Words for Java를 사용해 C#에서 DOCX 파일에 디지털 서명을 적용하는 방법을 단계별로 안내합니다.
 ### [C#에서 X509 인증서를 사용하여 워드 문서에 서명하는 방법](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
 Aspose.Words를 사용하여 X509 인증서로 C# 워드 문서에 디지털 서명을 적용하는 방법을 단계별로 안내합니다.
+### [Aspose.Words를 사용하여 Word 문서에 디지털 서명을 추가하는 방법](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
+Aspose.Words for Java를 활용해 Word 문서에 디지털 서명을 적용하는 단계별 가이드입니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
