@@ -59,13 +59,13 @@ Adicione a dependência Maven ao seu `pom.xml` (esta é a **aspose words maven s
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 Se preferir Gradle, use o trecho a seguir:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ## Aquisição de Licença
 Para aproveitar ao máximo o Aspose.Words, você precisará de um arquivo de licença:
@@ -77,7 +77,7 @@ Após adquirir a licença, inicialize‑a em sua aplicação Java da seguinte fo
 ```java
 License license = new License();
 license.setLicense("path/to/aspose.words.lic");
-```
+```  
 
 ## Guia de Implementação
 Dividiremos nossa implementação em duas funcionalidades principais: manipulação de retornos de carro e inserção de caracteres de controle.

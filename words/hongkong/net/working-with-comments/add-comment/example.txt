@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: 本教學示範如何使用 Aspose.Words 建立新的 Word 文件、加入三個段落、定位特定段落、為其附加包含作者資訊的註解，並將結果儲存為 DOCX 檔案。
+//ExStepSummary:0: 建立一個新的 Document 以及 DocumentBuilder，以開始建構 Word 檔案。
+//ExStepSummary:1: 使用 DocumentBuilder.Writeln 向文件新增三個獨立的文字段落。
+//ExStepSummary:2: 安全地取得第二個段落；若文件少於兩個段落，則回退使用第一個段落。
+//ExStepSummary:3: 建立帶有作者資訊的 Comment，設定其文字，並將其附加至選取的段落。
+//ExStepSummary:4: 將修改後的文件儲存為目前資料夾下名為 'sample.docx' 的 DOCX 檔案。
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder builderObj = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+builderObj.Writeln("Introductory line.");
+builderObj.Writeln("Middle line.");
+builderObj.Writeln("Concluding line.");
+
+//ExStep:2-
+Paragraph? chosenParagraph = null;
+ParagraphCollection? paraList = wordDoc.FirstSection?.Body?.Paragraphs;
+if (paraList != null && paraList.Count > 1)
+{
+    chosenParagraph = paraList[1];
+}
+else if (paraList != null && paraList.Count > 0)
+{
+    chosenParagraph = paraList[0];
+}
+
+//ExStep:3-
+if (chosenParagraph != null)
+{
+    Comment note = new Comment(wordDoc, "Jordan", "JH", DateTime.Now);
+    note.SetText("Please examine this section.");
+    chosenParagraph.AppendChild(note);
+}
+
+//ExStep:4-
+wordDoc.Save("sample.docx");
+//ExEnd

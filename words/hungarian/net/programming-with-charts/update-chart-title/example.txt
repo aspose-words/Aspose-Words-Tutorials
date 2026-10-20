@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Az Aspose.Words használatával ez az útmutató létrehoz egy Word dokumentumot, beszúr egy oszlopdiagramot, frissíti a diagram címét a felhasználó által megadott szöveggel, és a felhasználói beállítások alapján be- vagy kikapcsolja a jelmagyarázat láthatóságát és átfedését.
+//ExStepSummary:0: Határozd meg a felhasználó által megadott diagramcímkét és azt, hogy a jelmagyarázat megjelenjen‑e.
+//ExStepSummary:1: Hozz létre egy új Word dokumentumot és egy DocumentBuilder‑t a tartalom hozzáadásához.
+//ExStepSummary:2: Szúrj be egy 432 × 252 pt méretű oszlopdiagramot a dokumentumba, és ellenőrizd, hogy a shape valóban tartalmaz diagramot.
+//ExStepSummary:3: Szerezd meg a diagram objektumot, állítsd be a cím szövegét a felhasználó által megadott értékre, és biztosítsd, hogy a cím megjelenjen.
+//ExStepSummary:4: Állítsd be a jelmagyarázatot: ha kérik, jelenítsd meg jobbra, egyébként rejtse el, és engedélyezd, hogy átfedje a diagramterületet.
+//ExStepSummary:5: Mentsd a módosított dokumentumot a lemezre CustomChart.docx néven.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+string chartHeader = "Fiscal Q1 Performance Summary";
+bool displayLegend = false;
+
+//ExStep:1-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:2-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+if (!chartContainer.HasChart)
+    throw new InvalidOperationException("The inserted shape does not contain a chart.");
+
+//ExStep:3-
+Chart chartObj = chartContainer.Chart;
+ChartTitle chartTitle = chartObj.Title;
+chartTitle.Text = chartHeader;
+chartTitle.Show = true;
+
+//ExStep:4-
+ChartLegend chartLegend = chartObj.Legend;
+chartLegend.Position = displayLegend ? LegendPosition.Right : LegendPosition.None;
+chartLegend.Overlay = true;
+
+//ExStep:5-
+wordDoc.Save("CustomChart.docx");
+//ExEnd

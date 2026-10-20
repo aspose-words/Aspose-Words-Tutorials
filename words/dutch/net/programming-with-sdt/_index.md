@@ -36,7 +36,10 @@ De codevoorbeelden in de tutorials helpen je de concepten te begrijpen en de fun
 | [Een herhalende tabelsectie maken die is toegewezen aan een aangepast XML-onderdeel](./creating-table-repeating-section-mapped-to-custom-xml-part/) | Leer hoe u een tabel met een herhalende sectie kunt maken die is toegewezen aan een CustomXmlPart in een Word-document met behulp van Aspose.Words voor .NET. |
 | [Meerdere secties](./multi-section/) Leer hoe u met gestructureerde documenttags met meerdere secties in Aspose.Words voor .NET kunt werken met deze stapsgewijze tutorial. Ideaal voor dynamische documentbewerking. |
 | [Gestructureerd document tagbereik start XML-toewijzing](./structured-document-tag-range-start-xml-mapping/) | Leer hoe u XML-gegevens dynamisch kunt koppelen aan gestructureerde documenttags in Word met Aspose.Words voor .NET. Volg onze stapsgewijze handleiding. |
-
+| [Placeholder-tekst instellen in Aspose.Words – Complete C#-gids](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Leer hoe u placeholder-tekst instelt in een Word-document met Aspose.Words voor .NET in C#. |
+| [Hoe u een inhoudsbesturingselement toevoegt en een Word-document maakt met Aspose – Complete gids](./how-to-add-content-control-and-create-word-document-with-asp/) | Leer stap voor stap hoe u een inhoudsbesturingselement toevoegt en een Word-document genereert met Aspose.Words voor .NET. |
+| [Word-document programmatisch maken – inhoudsbesturingselement en placeholder toevoegen](./create-word-document-programmatically-add-content-control-an/) | Leer hoe u met Aspose.Words voor .NET een Word-document maakt, een inhoudsbesturingselement en een placeholder toevoegt via code. |
+| [Hoe maak je een inhoudsbesturingselement in C# met Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Leer hoe u met Aspose.Words in C# een inhoudsbesturingselement maakt en configureert. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

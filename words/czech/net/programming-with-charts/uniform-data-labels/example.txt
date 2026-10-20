@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Tento tutoriál ukazuje, jak vytvořit dokument Word, vložit sloupcový graf, přidat vlastní datové řady a definovat výchozí velikost písma a barvu popisků dat, které jsou aplikovány jednotně na všechny řady v grafu.
+//ExStepSummary:0: Vytvořte nový prázdný dokument Word a DocumentBuilder pro jeho úpravu.
+//ExStepSummary:1: Vložte do dokumentu sloupcový graf o rozměrech 500×300 a získejte jeho objekt Chart.
+//ExStepSummary:2: Odstraňte výchozí ukázkovou řadu, kterou Aspose.Words přidává do nového grafu.
+//ExStepSummary:3: Definujte štítky kategorií a přidejte do grafu dvě datové řady (Item Alpha a Item Beta) s jejich hodnotami.
+//ExStepSummary:4: Nastavte základní velikost písma a barvu, které budou použity pro všechny popisky dat.
+//ExStepSummary:5: Povolte popisky dat pro každou řadu, zobrazte číselnou hodnotu a použijte předdefinovanou velikost písma a barvu.
+//ExStepSummary:6: Uložte dokument do souboru .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document document = new Document();
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:1-
+Shape chartContainer = builder.InsertChart(ChartType.Column, 500, 300);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+
+//ExStep:3-
+string[] periods = { "Period 1", "Period 2", "Period 3", "Period 4" };
+chart.Series.Add("Item Alpha", periods, new double[] { 120, 150, 170, 130 });
+chart.Series.Add("Item Beta", periods, new double[] { 80, 110, 140, 100 });
+
+//ExStep:4-
+const float labelFontSize = 10f;
+Color labelFontColor = Color.White;
+
+//ExStep:5-
+foreach (ChartSeries series in chart.Series)
+{
+    series.HasDataLabels = true;
+    series.DataLabels.ShowValue = true;
+    series.DataLabels.Font.Size = labelFontSize;
+    series.DataLabels.Font.Color = labelFontColor;
+}
+
+//ExStep:6-
+document.Save("UniformLabelChart.docx");
+//ExEnd

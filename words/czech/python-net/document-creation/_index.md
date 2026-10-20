@@ -34,6 +34,9 @@ Zvládnutím tvorby dokumentů pomocí Aspose.Words pro Python mohou vývojáři
 ### [Komplexní průvodce: Vytváření dokumentů Word pomocí Pythonu](./creating-word-documents-using-python/)
 Vytvářejte dynamické dokumenty Wordu pomocí Pythonu s Aspose.Words. Automatizujte obsah, formátování a další. Zefektivněte generování dokumentů.
 
+### [Vytvořte PDF/UA kompatibilní dokumenty s Aspose.Words pro Python – Kompletní průvodce](./create-pdfua-compliant-documents-with-aspose-words-python-fu/)
+Naučte se, jak pomocí Aspose.Words pro Python generovat PDF/UA kompatibilní dokumenty a splnit požadavky přístupnosti.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
