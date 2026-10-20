@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Mit Aspose.Words für .NET erstellt dieses Tutorial ein Document, fügt über DocumentBuilder ein Säulendiagramm ein, entfernt eine bestimmte Datenreihe aus dem Diagramm mit ChartSeriesCollection.RemoveAt und speichert das modifizierte Dokument.
+//ExStepSummary:0: Erstellen Sie ein neues Word Document und einen damit verknüpften DocumentBuilder.
+//ExStepSummary:1: Fügen Sie ein Säulendiagramm mit der Größe 432 × 252 Punkte ein und erhalten Sie das Chart-Objekt für weitere Manipulationen.
+//ExStepSummary:2: Definieren Sie den nullbasierten Index der zu entfernenden Serie (die zweite Serie).
+//ExStepSummary:3: Ist der Index gültig, rufen Sie RemoveAt auf der Series-Collection des Diagramms auf, um diese Serie zu löschen.
+//ExStepSummary:4: Speichern Sie das aktualisierte Dokument als .docx-Datei.
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+int targetSeriesIdx = 1;
+
+//ExStep:3-
+if (targetSeriesIdx >= 0 && targetSeriesIdx < columnChart.Series.Count)
+{
+    columnChart.Series.RemoveAt(targetSeriesIdx);
+}
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutSeries.docx");
+//ExEnd

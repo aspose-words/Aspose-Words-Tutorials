@@ -10,7 +10,7 @@ url: /el/java/document-converting/using-document-converting/
 weight: 10
 ---
 
-Will produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

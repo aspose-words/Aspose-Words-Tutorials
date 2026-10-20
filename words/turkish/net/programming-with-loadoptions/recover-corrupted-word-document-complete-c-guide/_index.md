@@ -24,17 +24,12 @@ title: Bozuk Word Belgesini Kurtarın – Tam C# Rehberi
 url: /tr/net/programming-with-loadoptions/recover-corrupted-word-document-complete-c-guide/
 ---
 
-/products/products-backtop-button >}}
 
-All preserved.
 
-Now produce final output with all translated text and unchanged placeholders.
 
-Check that we didn't translate any code block placeholders.
 
-Make sure headings have correct number of #.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

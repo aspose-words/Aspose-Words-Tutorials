@@ -24,11 +24,9 @@ title: встраивание изображений в base64 при конве
 url: /ru/java/document-conversion-and-export/embed-images-as-base64-when-converting-docx-to-markdown-in-j/
 ---
 
-So we keep them.
 
-Also preserve markdown formatting like blockquote >.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

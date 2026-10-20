@@ -22,11 +22,9 @@ title: Khôi phục tệp DOCX bị hỏng bằng Aspose.Words
 url: /vi/net/programming-with-loadoptions/recover-damaged-docx-file-using-aspose-words/
 ---
 
-`LoadOptions.RecoveryMode = RecoveryMode.Lenient` to **recover damaged DOCX file** automatically." Translate: "Sử dụng `LoadOptions.RecoveryMode = RecoveryMode.Lenient` để **khôi phục tệp DOCX bị hỏng** một cách tự động."
 
-Make sure to keep code placeholders unchanged.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

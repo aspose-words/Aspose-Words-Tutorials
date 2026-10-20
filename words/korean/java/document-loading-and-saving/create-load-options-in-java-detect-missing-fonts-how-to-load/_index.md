@@ -20,9 +20,7 @@ title: Java에서 로드 옵션 만들기 – 누락된 폰트 감지 및 DOCX �
 url: /ko/java/document-loading-and-saving/create-load-options-in-java-detect-missing-fonts-how-to-load/
 ---
 
-Proceed to translate.
 
-Let's produce final Korean markdown.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

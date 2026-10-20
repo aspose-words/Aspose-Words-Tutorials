@@ -43,6 +43,9 @@ Aspose.Words for Java के साथ, आप तुरंत गतिशी�
 याद रखें, अभ्यास से निपुणता आती है, और Aspose.Words for Java के साथ, आप कुछ ही समय में एक प्रो की तरह दस्तावेज़ बना, संशोधित और संवर्धित कर सकेंगे। हैप्पी कोडिंग!
 
 ## दस्तावेज़ तत्वों का उपयोग ट्यूटोरियल
+### [कमांड बटन के साथ खाली Word दस्तावेज़ बनाना – चरण‑दर‑चरण मार्गदर्शिका](./create-blank-word-document-with-a-command-button-step-by-ste/)
+कमांड बटन का उपयोग करके खाली Word दस्तावेज़ बनाने की प्रक्रिया सीखें।
+
 ### [Java के लिए Aspose.Words में टिप्पणियों का उपयोग करना](./using-comments/)
 Java के लिए Aspose.Words में टिप्पणियों का उपयोग करना सीखें। अपने दस्तावेज़ों में टिप्पणियाँ जोड़ने और उन्हें अनुकूलित करने के लिए चरण-दर-स्टेप ट्यूटोरियल।
 ### [जावा के लिए Aspose.Words में फ़ील्ड का उपयोग करना](./using-fields/)
@@ -67,10 +70,42 @@ Aspose.Words for Java में हेडर और फ़ुटर का उ�
 इस चरण-दर-स्टेप ट्यूटोरियल के साथ Aspose.Words for Java में नोड्स में हेरफेर करना सीखें। दस्तावेज़ प्रसंस्करण शक्ति अनलॉक करें।
 ### [जावा के लिए Aspose.Words में OLE ऑब्जेक्ट्स और ActiveX नियंत्रणों का उपयोग करना](./using-ole-objects-and-activex/)
 Aspose.Words for Java में OLE ऑब्जेक्ट और ActiveX नियंत्रण का उपयोग करना सीखें। आसानी से इंटरैक्टिव दस्तावेज़ बनाएँ। अभी शुरू करें!
+### [Word में ActiveX बटन डालना – बटन कैप्शन सेट करना](./how-to-insert-activex-button-in-word-set-button-caption/)
+Word दस्तावेज़ में ActiveX बटन जोड़ने और उसके कैप्शन को सेट करने की चरण-दर-चरण प्रक्रिया सीखें।
+### [Aspose.Words के साथ कोड में forms2olecontrol बनाना](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Aspose.Words का उपयोग करके कोड में forms2olecontrol बनाने की प्रक्रिया सीखें।
 ### [जावा के लिए Aspose.Words में संशोधन का उपयोग करना](./using-revisions/)
 जावा के संशोधन नियंत्रणों के लिए Aspose.Words का कुशलतापूर्वक उपयोग करना सीखें। डेवलपर्स के लिए चरण-दर-स्टेप मार्गदर्शिका। अपने दस्तावेज़ प्रबंधन को अनुकूलित करें।
 ### [जावा के लिए Aspose.Words में अनुभागों का उपयोग करना](./using-sections/)
 जावा के लिए Aspose.Words का अन्वेषण करें: अनुभागों का उपयोग करने पर एक व्यापक गाइड। कोड उदाहरणों के साथ अनुभागों को जोड़ें, हटाएं, जोड़ें, क्लोन करें।
+### [DOCX में Forms2OleControl जोड़ें – पूर्ण Aspose.Words गाइड](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+DOCX दस्तावेज़ में Forms2OleControl जोड़ने के लिए चरण-दर-चरण Aspose.Words गाइड।
+
+### [Java के साथ Word में बटन का आकार सेट करना – पूर्ण Aspose.Words गाइड](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Java के साथ Aspose.Words का उपयोग करके Word दस्तावेज़ में बटन का आकार कैसे सेट करें, सीखें।
+
+### [Aspose.Words Java के साथ पाई चार्ट बनाना – पूर्ण चरण‑दर‑चरण गाइड](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Aspose.Words for Java का उपयोग करके पाई चार्ट बनाने की पूरी प्रक्रिया सीखें। चरण‑दर‑चरण कोड उदाहरणों के साथ।
+### [Java के साथ Word दस्तावेज़ में विभाजक प्राप्त करना](./how-to-get-separator-in-word-docs-with-java/)
+Java का उपयोग करके Word दस्तावेज़ में विभाजक कैसे प्राप्त करें, इस चरण-दर-चरण ट्यूटोरियल में सीखें।
+### [Java के साथ Word में पाई चार्ट बनाना – चरण-दर-चरण गाइड](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Java के साथ Word दस्तावेज़ में पाई चार्ट बनाने की प्रक्रिया सीखें। चरण-दर-चरण मार्गदर्शन।
+### [C# में SDT जोड़ना – Word प्लेसहोल्डर्स के लिए पूर्ण गाइड](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+### [Java में Chart API के साथ पाई चार्ट में लीडर लाइन्स जोड़ना](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Java में Chart API का उपयोग करके पाई चार्ट में लीडर लाइन्स जोड़ने के चरण-दर-स्टेप ट्यूटोरियल।
+
+### [Java का उपयोग करके Word दस्तावेज़ में कमांड बटन कैसे डालें](./how-to-insert-command-button-in-a-word-document-using-java/)
+Java के साथ Word दस्तावेज़ में कमांड बटन डालने की प्रक्रिया सीखें।
+
+### [Java का उपयोग करके Word दस्तावेज़ में चार्ट को संपादित करना](./how-to-edit-chart-in-a-word-document-using-java/)
+Java के साथ Word दस्तावेज़ में चार्ट को संपादित करने के चरण-दर-चरण ट्यूटोरियल।
+
+### [Java के लिए Aspose.Words में डोनट चार्ट संपादित करने के बाद Word दस्तावेज़ सहेजना](./save-word-document-after-editing-doughnut-chart-in-java/)
+Java में डोनट चार्ट को बदलने के बाद Word फ़ाइल को सुरक्षित करने की प्रक्रिया सीखें।
+### [खाली Word दस्तावेज़ बनाएं और एक साधारण‑पाठ नियंत्रण सम्मिलित करें](./create-blank-word-document-and-insert-a-plain-text-control/)
+खाली Word फ़ाइल बनाकर उसमें साधारण‑पाठ नियंत्रण जोड़ने की प्रक्रिया सीखें।
+### [Java के साथ Word दस्तावेज़ में रेडियल चार्ट बनाना](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Java का उपयोग करके Word दस्तावेज़ में रेडियल चार्ट बनाने की प्रक्रिया सीखें।
 ### [प्रोग्रामेटिक रूप से वर्ड दस्तावेज़ बनाना और बटन सम्मिलित करना](./create-word-document-programmatically-and-insert-a-button/)
 प्रोग्रामेटिक रूप से वर्ड दस्तावेज़ बनाना और बटन जोड़ना सीखें।
 ### [C# में एक खाली Word दस्तावेज़ बनाना और रडार चार्ट जोड़ना](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
@@ -78,10 +113,8 @@ C# में एक खाली Word दस्तावेज़ बनान�
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

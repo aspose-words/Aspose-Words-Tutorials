@@ -26,7 +26,6 @@ title: intégrer des images en base64 lors de la conversion de DOCX en Markdown 
 url: /fr/java/document-conversion-and-export/embed-images-as-base64-when-converting-docx-to-markdown-in-j/
 ---
 
-produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

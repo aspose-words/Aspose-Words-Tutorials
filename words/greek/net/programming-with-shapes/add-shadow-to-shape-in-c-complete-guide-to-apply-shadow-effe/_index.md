@@ -24,31 +24,18 @@ title: Προσθήκη σκιάς σε σχήμα σε C# – Πλήρης οδ
 url: /el/net/programming-with-shapes/add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/
 ---
 
-Make sure code block placeholders remain unchanged.
 
-Also preserve markdown links: there are none besides maybe none. There's a link in the image? No.
 
-Also preserve URLs: none.
 
-Now produce final Greek content.
 
-Let's translate.
 
-Start with shortcodes unchanged.
 
-Now translate "# Add shadow to shape in C# – Complete Guide" => "# Προσθήκη σκιάς σε σχήμα σε C# – Πλήρης Οδηγός"
 
-Paragraph: "Ever wondered how to **add shadow to shape** in a Word document using C#? You’re not the only one. Many developers hit a wall when they need that subtle drop‑shadow..." Translate.
 
-Proceed stepwise.
 
-Will produce Greek translation.
 
-Need to keep bold formatting **text**.
 
-Also keep code block placeholders unchanged.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -39,8 +39,16 @@ Apprenez à gérer efficacement les autorisations de vos documents avec Aspose.W
 Apprenez à chiffrer et déchiffrer des documents avec Aspose.Words pour Java. Sécurisez efficacement vos données grâce à des instructions étape par étape et des exemples de code source.
 ### [Signatures numériques dans les documents](./digital-signatures-in-documents/)
 Apprenez à implémenter des signatures numériques sécurisées dans vos documents avec Aspose.Words pour Java. Assurez l'intégrité de vos documents grâce à des instructions détaillées et au code source.
+### [Comment signer des fichiers docx avec un certificat PFX – guide étape par étape](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
+Apprenez à signer des fichiers docx à l'aide d'un certificat PFX grâce à un guide détaillé pas à pas avec Aspose.Words pour Java.
 ### [Rédaction de documents et protection des données](./document-redaction-data-protection/)
 Apprenez à sécuriser vos documents et à supprimer les données sensibles avec Aspose.Words pour Java. Guide étape par étape avec code source.
+### [Signer un document Word en Java avec Aspose.Words – Guide complet](./sign-word-document-in-java-with-aspose-words-complete-guide/)
+Apprenez à signer numériquement des documents Word en Java avec Aspose.Words grâce à un guide complet, incluant du code source et des exemples pratiques.
+### [Comment signer des fichiers DOCX en C# – Guide complet étape par étape](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
+Apprenez à signer numériquement des fichiers DOCX en C# avec Aspose.Words, grâce à un guide détaillé et du code source.
+### [Comment signer un document Word en C# avec un certificat X509](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
+Apprenez à signer un document Word en C# à l'aide d'un certificat X509 avec Aspose.Words. Guide pas à pas avec code source.
 ### [Comment ajouter une signature numérique à un document Word avec Aspose.Words](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
 Apprenez à ajouter une signature numérique à un document Word en utilisant Aspose.Words pour Java, avec exemples de code détaillés.
 

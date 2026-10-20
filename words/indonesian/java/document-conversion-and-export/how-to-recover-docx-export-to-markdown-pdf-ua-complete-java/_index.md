@@ -23,7 +23,7 @@ title: Cara Memulihkan DOCX, Mengekspor ke Markdown & PDF/UA – Panduan Java Le
 url: /id/java/document-conversion-and-export/how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/
 ---
 
-craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

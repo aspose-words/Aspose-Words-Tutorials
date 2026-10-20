@@ -23,7 +23,7 @@ title: टूटे हुए वर्ड दस्तावेज़ को �
 url: /hi/java/document-loading-and-saving/set-recovery-mode-to-recover-broken-word-document/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

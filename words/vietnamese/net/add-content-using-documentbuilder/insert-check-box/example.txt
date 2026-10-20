@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: Hướng dẫn này trình bày cách tạo một tài liệu Word mới, chèn một trường biểu mẫu hộp kiểm bằng DocumentBuilder, và lưu tệp kết quả.
+//ExStepSummary:0: Tạo một biến thư mục dữ liệu, khởi tạo một Document, và tạo một DocumentBuilder cho tài liệu đó.
+//ExStepSummary:1: Gọi `builder.InsertCheckBox` để thêm một trường biểu mẫu hộp kiểm đã được chọn, đang bật, có tên "CheckBox" tại vị trí con trỏ hiện tại.
+//ExStepSummary:2: Lưu tài liệu đã chỉnh sửa vào thư mục đã chỉ định bằng cách sử dụng `doc.Save`.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertCheckBox("CheckBox", true, true, 0);
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx");
+//ExEnd

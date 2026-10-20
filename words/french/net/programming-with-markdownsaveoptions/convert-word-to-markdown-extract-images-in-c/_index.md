@@ -24,15 +24,10 @@ title: Convertir Word en Markdown – Extraire les images en C#
 url: /fr/net/programming-with-markdownsaveoptions/convert-word-to-markdown-extract-images-in-c/
 ---
 
-de Word**.
 
-"Happy coding, and may your markdown always be clean and your images always found!" translate.
 
-Then closing shortcodes.
 
-Make sure to keep all shortcodes unchanged.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

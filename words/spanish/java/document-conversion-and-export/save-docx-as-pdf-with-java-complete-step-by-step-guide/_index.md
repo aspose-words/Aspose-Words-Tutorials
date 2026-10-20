@@ -22,9 +22,8 @@ title: Guardar docx como pdf con Java – Guía completa paso a paso
 url: /es/java/document-conversion-and-export/save-docx-as-pdf-with-java-complete-step-by-step-guide/
 ---
 
-codes unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

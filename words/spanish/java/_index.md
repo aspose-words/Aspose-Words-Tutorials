@@ -26,7 +26,8 @@ Aspose.Words para Java ofrece una API potente y completa para la automatización
 
 Ya sea que estés creando informes, generando contratos o construyendo sistemas avanzados de flujo de trabajo de documentos, Aspose.Words te equipa con herramientas de nivel empresarial para manejar documentos Microsoft Word y otros formatos populares con precisión y eficiencia.
 
-### ¿Por qué elegir Aspose.Words para Java?
+## ¿Por qué usar Aspose.Words for Java?
+Aspose.Words admite **35+** formatos de entrada y salida y puede procesar documentos de **500‑páginas** en **menos de 3 segundos** en un servidor típico de 2 CPU, todo sin requerir Microsoft Word. La biblioteca también ofrece **cumplimiento incorporado de PDF/A, PDF/X y PDF/UA**, lo que la hace ideal para industrias reguladas.
 
 - **Gestión completa del ciclo de vida del documento** – Crea, modifica, convierte y renderiza documentos de forma programática.  
 - **Fidelidad de formato** – Mantén el formato perfecto del documento durante las conversiones entre formatos populares.  
@@ -37,8 +38,6 @@ Ya sea que estés creando informes, generando contratos o construyendo sistemas 
 ## Categorías de tutoriales disponibles
 
 ### [Integración de IA y Aprendizaje Automático](./ai-machine-learning-integration/)
-Explora capacidades de documentos de vanguardia con tutoriales de integración de IA. Aprende a implementar resumido de texto, traducción y otras funciones inteligentes de procesamiento de documentos.
-
 ### [Comenzando](./getting-started/)
 Inicia tu camino con Aspose.Words mediante tutoriales de configuración fundamental. Aprende a configurar licencias, gestionar versiones y conceptos esenciales para comenzar a crear aplicaciones centradas en documentos rápidamente.
 
@@ -67,8 +66,6 @@ Domina la conversión de documentos entre varios formatos, incluidos PDF, HTML, 
 Aprende a implementar la impresión programática de documentos con configuraciones de impresión personalizadas, selección de páginas y control de salida para aplicaciones de escritorio y servidor.
 
 ### [Renderizado de documentos](./document-rendering/)
-Aprende técnicas para renderizar documentos a diferentes formatos con control preciso sobre la calidad de salida, paginación y presentación visual.
-
 ### [Seguridad de documentos](./document-security/)
 Implementa una protección robusta de documentos con tutoriales sobre cifrado, protección con contraseña, firmas digitales y gestión de permisos para salvaguardar contenido sensible.
 

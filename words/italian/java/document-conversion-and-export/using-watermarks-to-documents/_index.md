@@ -9,7 +9,7 @@ url: /it/java/document-conversion-and-export/using-watermarks-to-documents/
 weight: 15
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

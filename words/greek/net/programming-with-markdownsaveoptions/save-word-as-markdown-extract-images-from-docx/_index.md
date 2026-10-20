@@ -23,17 +23,12 @@ title: αποθήκευση Word ως markdown – εξαγωγή εικόνων
 url: /el/net/programming-with-markdownsaveoptions/save-word-as-markdown-extract-images-from-docx/
 ---
 
-κευση word ως markdown – εξαγωγή εικόνων από docx". Keep case? Keep original style: "save word as markdown – extract images from docx". We'll translate to Greek: "αποθήκευση word ως markdown – εξαγωγή εικόνων από docx". Use lower case? Keep same capitalisation? Title case maybe: "Αποθήκευση Word ως Markdown – Εξαγωγή Εικόνων από DOCX". We'll translate.
 
-Proceed.
 
-Paragraphs.
 
-Let's craft translation.
 
-Will keep code block placeholders.
 
-Let's write final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

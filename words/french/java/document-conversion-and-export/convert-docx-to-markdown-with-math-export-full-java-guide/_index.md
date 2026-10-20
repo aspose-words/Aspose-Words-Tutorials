@@ -23,9 +23,8 @@ title: Convertir DOCX en Markdown avec exportation des formules – Guide comple
 url: /fr/java/document-conversion-and-export/convert-docx-to-markdown-with-math-export-full-java-guide/
 ---
 
-.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

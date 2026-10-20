@@ -39,8 +39,16 @@ Aprenda a gerenciar permissões de documentos de forma eficaz usando o Aspose.Wo
 Aprenda a criptografar e descriptografar documentos com o Aspose.Words para Java. Proteja seus dados com eficiência com orientações passo a passo e exemplos de código-fonte.
 ### [Assinaturas digitais em documentos](./digital-signatures-in-documents/)
 Aprenda a implementar assinaturas digitais seguras em documentos usando o Aspose.Words para Java. Garanta a integridade dos documentos com orientações passo a passo e código-fonte.
+### [Como assinar documento Word em C# usando um certificado X509](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
+Aprenda a assinar documentos Word em C# com um certificado X509 usando Aspose.Words.
 ### [Redação de documentos e proteção de dados](./document-redaction-data-protection/)
 Aprenda a proteger seus documentos e redigir dados confidenciais usando o Aspose.Words para Java. Guia passo a passo com código-fonte.
+### [Assinar documento Word em Java com Aspose.Words – Guia completo](./sign-word-document-in-java-with-aspose-words-complete-guide/)
+Aprenda a assinar documentos Word programaticamente em Java usando Aspose.Words com um guia passo a passo e exemplos de código.
+### [Como assinar arquivos DOCX em C# – Guia completo passo a passo](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
+Aprenda a assinar arquivos DOCX usando C# com o Aspose.Words. Guia passo a passo com código-fonte para garantir a integridade dos documentos.
+### [Como assinar arquivos docx com um certificado PFX – guia passo a passo](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
+Aprenda a assinar arquivos docx usando um certificado PFX com instruções detalhadas e código de exemplo.
 ### [Como adicionar uma assinatura digital a um documento Word com Aspose.Words](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
 Aprenda a inserir assinaturas digitais em documentos Word usando Aspose.Words, garantindo autenticidade e integridade.
 

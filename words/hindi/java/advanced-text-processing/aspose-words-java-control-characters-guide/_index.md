@@ -64,13 +64,13 @@ Aspose.Words एक समृद्ध `ControlChar` कॉन्स्टें
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 यदि आप Gradle पसंद करते हैं, तो नीचे दिया गया स्निपेट उपयोग करें:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ## लाइसेंस अधिग्रहण
 Aspose.Words का पूर्ण उपयोग करने के लिए आपको एक लाइसेंस फ़ाइल चाहिए:
@@ -82,7 +82,7 @@ Aspose.Words का पूर्ण उपयोग करने के लि�
 ```java
 License license = new License();
 license.setLicense("path/to/aspose.words.lic");
-```
+```  
 
 ## इम्प्लीमेंटेशन गाइड
 हम अपनी इम्प्लीमेंटेशन को दो मुख्य फीचर्स में विभाजित करेंगे: कैरिज रिटर्न को संभालना और कंट्रोल कैरेक्टर्स डालना।
