@@ -23,11 +23,8 @@ title: تحويل Word إلى Markdown – استخراج الصور في C#
 url: /ar/net/programming-with-markdownsaveoptions/convert-word-to-markdown-extract-images-in-c/
 ---
 
-turning into a Markdown file with images." Should be Arabic.
 
-Also list items.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

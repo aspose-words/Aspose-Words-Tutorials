@@ -21,25 +21,15 @@ title: 將 docx 另存為 txt – 在 C# 中保留換行與空格
 url: /zh-hant/net/programming-with-txtsaveoptions/save-docx-as-txt-preserve-line-breaks-spaces-in-c/
 ---
 
-markdown, should be translated? The instruction says translate all text content, but keep technical terms in English. Alt text is descriptive, can translate. We'll translate alt text.
 
-Also need to keep headings.
 
-Proceed section by section.
 
-Start with shortcodes unchanged.
 
-Then heading "# Save docx as txt – Complete C# Guide" translate: "將 docx 儲存為 txt – 完整 C# 指南". Keep "docx" and "txt". Keep "C#" unchanged.
 
-Paragraphs translate.
 
-Need to keep code block placeholders unchanged.
 
-Also tables: translate column headers and content.
 
-Proceed.
 
-Let's craft final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

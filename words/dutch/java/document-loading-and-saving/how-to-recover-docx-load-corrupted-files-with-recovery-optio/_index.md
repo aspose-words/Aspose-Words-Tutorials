@@ -23,7 +23,6 @@ title: Hoe DOCX te herstellen – Corruptte bestanden laden met herstelopties
 url: /nl/java/document-loading-and-saving/how-to-recover-docx-load-corrupted-files-with-recovery-optio/
 ---
 
-content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

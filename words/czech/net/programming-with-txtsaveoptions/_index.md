@@ -36,6 +36,17 @@ Díky těmto tutoriálům budete schopni plně využít funkce Aspose.Words pro 
 | [Jak exportovat LaTeX z DOCX – krok za krokem](./how-to-export-latex-from-docx-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET převést dokument DOCX do formátu LaTeX s podrobným krokovým návodem. |
 | [Uložit DOCX jako TXT – Exportovat rovnice Word do LaTeXu](./save-docx-as-txt-export-word-equations-to-latex/) | Naučte se, jak převést soubor DOCX na TXT a exportovat rovnice Word do LaTeXu pomocí Aspose.Words pro .NET. |
 | [Jak exportovat LaTeX z Wordu – převod Wordu na TXT](./how-to-export-latex-from-word-convert-word-to-txt/) | Naučte se, jak exportovat dokument Word do formátu LaTeX a převést jej na TXT pomocí Aspose.Words pro .NET. |
+| [Uložit dokument jako TXT – Exportovat rovnice Word do LaTeXu](./save-document-as-txt-export-word-equations-to-latex/) | Naučte se, jak uložit dokument jako TXT a exportovat rovnice Word do formátu LaTeX pomocí Aspose.Words pro .NET. |
+| [Uložit docx jako txt – Exportovat rovnice do LaTeXu](./save-docx-as-txt-export-equations-to-latex/) | Naučte se, jak převést soubor DOCX na TXT a exportovat rovnice do formátu LaTeX pomocí Aspose.Words pro .NET. |
+| [Uložení docx jako txt – Kompletní průvodce C#](./save-docx-as-txt-complete-c-guide/) | Naučte se, jak převést soubory DOCX na TXT pomocí Aspose.Words pro .NET v kompletním průvodci s ukázkovým kódem v C#. |
+
+| [Jak exportovat LaTeX z Wordu – převést DOCX na TXT s rovnicemi](./how-to-export-latex-from-word-convert-docx-to-txt-with-equat/) | Naučte se, jak převést dokument DOCX do formátu TXT s rovnicemi ve formátu LaTeX pomocí Aspose.Words pro .NET. |
+| [Uložení docx jako txt – Kompletní průvodce C# s rovnicemi LaTeX](./save-docx-as-txt-complete-c-guide-with-latex-equations/) | Naučte se, jak převést soubory DOCX na TXT v C#, včetně zachování rovnic LaTeX a dalších formátovacích možností. |
+| [Vytvořit txt z dokumentu v C# – Export rovnic do LaTeXu](./create-txt-from-document-in-c-export-equations-to-latex/) | Naučte se, jak pomocí Aspose.Words pro .NET exportovat rovnice z dokumentu do formátu LaTeX při ukládání jako txt. |
+| [Jak exportovat LaTeX z Wordu – Kompletní průvodce exportem LaTeXu](./how-to-export-latex-from-word-complete-guide-to-export-latex/) | Naučte se, jak pomocí Aspose.Words pro .NET exportovat dokumenty Word do formátu LaTeX pomocí podrobného průvodce. |
+| [Uložení docx jako txt – Kompletní průvodce exportem rovnic Word do LaTeXu](./save-docx-as-txt-complete-guide-to-exporting-word-equations/) | Naučte se, jak převést soubory DOCX na TXT a exportovat rovnice Word do formátu LaTeX pomocí Aspose.Words pro .NET. |
+| [Uložení docx jako txt – Export matematiky do LaTeXu s Aspose.Words](./save-docx-as-txt-export-math-to-latex-with-aspose-words/) | Naučte se, jak uložit soubor DOCX jako TXT a exportovat rovnice do LaTeXu pomocí Aspose.Words pro .NET. |
+| [Uložení docx jako txt – Export rovnic Word do LaTeXu pomocí C#](./save-docx-as-txt-export-word-equations-to-latex-with-c/) | Naučte se, jak převést rovnice z dokumentu Word do formátu LaTeX při ukládání jako TXT pomocí C# a Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

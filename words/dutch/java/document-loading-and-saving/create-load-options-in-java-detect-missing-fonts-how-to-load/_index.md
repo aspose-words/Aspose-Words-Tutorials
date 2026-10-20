@@ -23,9 +23,8 @@ title: Maak laadopties in Java – Detecteer ontbrekende lettertypen & hoe DOCX 
 url: /nl/java/document-loading-and-saving/create-load-options-in-java-detect-missing-fonts-how-to-load/
 ---
 
-alt attribute is part of HTML attribute; it's text, okay.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

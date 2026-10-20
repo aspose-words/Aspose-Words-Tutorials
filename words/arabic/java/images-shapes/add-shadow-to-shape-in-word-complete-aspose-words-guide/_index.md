@@ -19,7 +19,7 @@ title: إضافة ظل إلى الشكل في Word – دليل Aspose.Words ا�
 url: /ar/java/images-shapes/add-shadow-to-shape-in-word-complete-aspose-words-guide/
 ---
 
-produce final output with same structure.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

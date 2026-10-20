@@ -10,15 +10,11 @@ url: /it/java/document-converting/document-conversion-saveoptions/
 weight: 13
 ---
 
- to keep markdown formatting.
 
-Let's craft Italian translation.
 
-Be careful with bold parts: keep **...** but translate inside.
 
-Also keep code placeholders unchanged.
 
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

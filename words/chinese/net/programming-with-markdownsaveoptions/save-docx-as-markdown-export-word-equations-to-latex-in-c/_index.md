@@ -22,7 +22,6 @@ title: 将 docx 保存为 markdown – 在 C# 中将 Word 方程导出为 LaTeX
 url: /zh/net/programming-with-markdownsaveoptions/save-docx-as-markdown-export-word-equations-to-latex-in-c/
 ---
 
-craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

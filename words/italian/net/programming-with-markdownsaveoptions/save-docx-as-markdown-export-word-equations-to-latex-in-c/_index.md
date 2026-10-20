@@ -24,13 +24,9 @@ title: Salva docx come markdown – Esporta le equazioni di Word in LaTeX in C#
 url: /it/net/programming-with-markdownsaveoptions/save-docx-as-markdown-export-word-equations-to-latex-in-c/
 ---
 
-to keep bold **...**.
 
-Also preserve blockquote >.
 
-Also tables.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

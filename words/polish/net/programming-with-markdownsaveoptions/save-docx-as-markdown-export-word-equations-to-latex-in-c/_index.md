@@ -25,15 +25,11 @@ title: Zapisz docx jako markdown – Eksportuj równania Worda do LaTeX w C#
 url: /pl/net/programming-with-markdownsaveoptions/save-docx-as-markdown-export-word-equations-to-latex-in-c/
 ---
 
-URLs. The image URL is incomplete but we keep.
 
-Now produce final content with all translations.
 
-Check for any missed items: The table header translation we changed; ensure markdown syntax correct.
 
-Also need to keep any inline code formatting like `doc.GetChildNodes(NodeType.OfficeMath, true).Count` unchanged.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

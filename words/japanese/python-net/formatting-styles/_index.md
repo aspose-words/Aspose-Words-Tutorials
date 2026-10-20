@@ -55,6 +55,9 @@ Aspose.Words for Python を使用して、段落の境界線を効率的に削�
     ### [Mastering Tab Stops in Python with Aspose.Words for Document Formatting](./master-tab-stops-python-aspose-words/)
 Aspose.Wordsを使用してPythonドキュメント内のタブストップを効果的に管理する方法を学びましょう。このガイドでは、タブストップの追加、カスタマイズ、削除について、実用的な例を交えて解説します。
 
+    ### [Python を使用して Word 文書でチャートのスタイルを設定する方法](./how-to-style-chart-in-a-word-document-using-python/)
+Python を使用して Word 文書内のチャートの外観をカスタマイズする方法を学びます。
+
 ## 追加リソース
 
 - [Aspose.Words for Python-net ドキュメント](https://docs.aspose.com/words/python-net/)

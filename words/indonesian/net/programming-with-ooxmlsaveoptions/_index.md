@@ -29,7 +29,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Perbarui Properti Waktu Terakhir yang Disimpan](./update-last-saved-time-property/) | Pelajari cara memperbarui properti waktu terakhir yang disimpan dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami, langkah demi langkah. Bahasa Indonesia:
 | [Pertahankan Karakter Kontrol Legacy](./keep-legacy-control-chars/) | Pelajari cara mempertahankan karakter kontrol lama dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Bahasa Indonesia:
 | [Atur Tingkat Kompresi](./set-compression-level/) | Pelajari cara mengatur tingkat kompresi dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk mengoptimalkan penyimpanan dan kinerja dokumen Anda. |
-
+| [Cara mengubah enkoding dokumen Word dengan Aspose.Words di C#](./how-to-change-word-document-encoding-with-aspose-words-in-c/) | Pelajari cara mengubah enkoding dokumen Word menggunakan Aspose.Words di C# dengan contoh kode langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -23,9 +23,7 @@ title: Konwertuj PNG na Base64 w C# – Kompletny przewodnik
 url: /pl/net/basic-conversions/convert-png-to-base64-in-c-complete-guide/
 ---
 
-with translation.
 
-Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -34,17 +34,53 @@ Aspose.Words for Python के साथ मीडिया प्रकार�
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 जानें कि Python के लिए Aspose.Words का उपयोग करके SVG आउटपुट को कैसे अनुकूलित किया जाए। यह गाइड इमेज-जैसी प्रॉपर्टी, टेक्स्ट रेंडरिंग और सुरक्षा संवर्द्धन जैसी कस्टम सुविधाओं को कवर करती है।
 
+    ### [Python में आकृति में शैडो जोड़ें – पूर्ण Aspose.Words ट्यूटोरियल](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
+Python के लिए Aspose.Words का उपयोग करके आकृतियों में शैडो जोड़ने की पूरी प्रक्रिया सीखें।
+
 ### [C# में शैडो कैसे जोड़ें – पूर्ण प्रोग्रामिंग गाइड](./how-to-add-shadow-in-c-complete-programming-guide/)
-C# में शैडो जोड़ने की पूरी प्रक्रिया सीखें और अपने दस्तावेज़ों को आकर्षक बनाएं।
+
+### [Aspose का उपयोग करके Word में आयत सम्मिलित करना और शैडो जोड़ना](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
+Aspose.Words के साथ Word दस्तावेज़ में आयत जोड़ें और शैडो प्रभाव लागू करने की चरण-दर-चरण गाइड।
+
+### [Aspose.Words के साथ PDF में आयत जोड़ें – चरण‑दर‑चरण गाइड](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
+Aspose.Words का उपयोग करके PDF में आयत कैसे जोड़ें, कोड उदाहरण और विस्तृत चरणों के साथ सीखें।
+### [Python में आयताकार आकृति बनाना – शैडो जोड़ना और PDF के रूप में सहेजना पूर्ण गाइड](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
+Python में आयताकार शैडो वाली आकृति बनाना, उसे PDF में सहेजना सीखें।
+### [Word दस्तावेज़ बनाना Python – आकार में शैडो जोड़ने की गाइड](./create-word-document-python-add-shadow-to-shape-guide/)
+Python के साथ Aspose.Words का उपयोग करके Word दस्तावेज़ में आकार पर शैडो जोड़ने की पूरी प्रक्रिया सीखें।
+
+### [छाया वाले आयत के साथ दस्तावेज़ को सहेजना – पूर्ण पायथन गाइड](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
+Python के साथ Aspose.Words का उपयोग करके छाया वाले आयत के साथ दस्तावेज़ को सहेजने की पूरी प्रक्रिया सीखें।
+
+### [Python में आयताकार आकार बनाना – पूर्ण Aspose.Words गाइड](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
+Python के लिए Aspose.Words का उपयोग करके आयताकार आकार कैसे बनाएं और अनुकूलित करें, इस पूर्ण गाइड में सीखें।
+
+### [Python में आयताकार आकार कैसे सम्मिलित करें – पूर्ण Aspose.Words गाइड](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
+Python के लिए Aspose.Words का उपयोग करके दस्तावेज़ में आयताकार आकार सम्मिलित करने की पूरी प्रक्रिया सीखें।
+
+### [Python में Shape में शैडो जोड़ना – Aspose.Words के साथ पूर्ण गाइड](./add-shadow-to-shape-in-python-with-aspose-words-full-guide/)
+Python में Aspose.Words का उपयोग करके Shape में शैडो जोड़ने की पूरी प्रक्रिया सीखें।
+
+### [Python के साथ Word में आकृति में शैडो जोड़ें – पूर्ण गाइड](./add-shadow-to-shape-in-word-with-python-complete-guide/)
+Python का उपयोग करके Word दस्तावेज़ में आकृति पर शैडो लागू करने की पूरी प्रक्रिया सीखें।
+### [Python में Aspose.Words में शैडो सेट करना – उदाहरण](./how-to-set-shadow-in-aspose-words-python-example/)
+
+### [Python में आकृति में शैडो जोड़ें – पूर्ण Aspose.Words गाइड](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
+
+### [Python का उपयोग करके Word आकृति में शैडो कैसे जोड़ें](./how-to-add-shadow-to-a-word-shape-using-python/)
+Python का उपयोग करके Word आकृति में शैडो जोड़ने की प्रक्रिया सीखें।
+
+### [Aspose.Words के साथ PNG सहेजें और शैप में छाया जोड़ें](./how-to-save-png-and-add-shadow-to-shape-with-aspose-words/)
+Aspose.Words का उपयोग करके PNG फ़ाइल सहेजें और शैप में छाया प्रभाव जोड़ें।
+
+### [Aspose.Words के साथ पायथन में कॉलम चार्ट बनाना](./how-to-create-column-chart-python-with-aspose-words/)
+Aspose.Words का उपयोग करके पायथन में कॉलम चार्ट कैसे बनाएं, सीखें।
+
+### [Aspose.Words के साथ Word आकृति पर शैडो प्रभाव कैसे लागू करें](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Word आकृति में शैडो इफ़ेक्ट जोड़ने की प्रक्रिया सीखें और अपने दस्तावेज़ों को आकर्षक बनाएं।
 
 ## अतिरिक्त संसाधन
 
-- [पायथन-नेट दस्तावेज़ीकरण के लिए Aspose.Words](https://docs.aspose.com/words/python-net/)
-- [पायथन-नेट API संदर्भ के लिए Aspose.Words](https://reference.aspose.com/words/python-net/)
-- [Python-net के लिए Aspose.Words डाउनलोड करें](https://releases.aspose.com/words/python-net/)
-- [Aspose.Words फ़ोरम](https://forum.aspose.com/c/words/8)
-- [निःशुल्क सहायता](https://forum.aspose.com/)
-- [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

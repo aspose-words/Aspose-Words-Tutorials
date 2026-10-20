@@ -21,9 +21,8 @@ title: 恢复损坏的 Word 文档 – 完整 C# 指南
 url: /zh/net/programming-with-loadoptions/recover-corrupted-word-document-complete-c-guide/
 ---
 
-preserved.
 
-Now produce final output with everything.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

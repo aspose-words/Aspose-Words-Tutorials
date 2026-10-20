@@ -61,12 +61,12 @@ weight: 1
     <artifactId>aspose-words</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
 **Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ### ข้อกำหนดการตั้งค่าสภาพแวดล้อม
 
@@ -94,6 +94,16 @@ public class SetupAsposeWords {
         System.out.println("Aspose.Words is ready to use!");
     }
 }
+```  
+
+เมื่อไลบรารีพร้อม, คุณสามารถเริ่มใช้คุณลักษณะหลักได้.
+
+## วิธีวิเคราะห์หน้าโดยใช้ LayoutCollector?
+
+`LayoutCollector` เป็นคลาสที่แมพแต่ละโหนดใน `Document` ไปยังหมายเลขหน้าเริ่มต้นและหน้าสิ้นสุด, ทำให้การวิเคราะห์การแบ่งหน้าแม่นยำ โหลดเอกสารของคุณ, แนบ `LayoutCollector`, และสอบถามข้อมูลหน้า – การดำเนินการทั้งหมดใช้เพียงไม่กี่บรรทัดของโค้ดและให้ผลลัพธ์ที่เชื่อถือได้แม้กับไฟล์ขนาดใหญ่.
+
+```text
+Load the document → create LayoutCollector → call getStartPage(node) / getEndPage(node)
 ```
 
 เมื่อไลบรารีพร้อม เราสามารถดำดิ่งสู่คุณลักษณะหลักได้
@@ -114,7 +124,7 @@ public class SetupAsposeWords {
 ```java
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
-```
+```  
 
 **2. เติมเนื้อหาใน Document**
 ที่นี่ เราจะเพิ่มเนื้อหาที่ครอบคลุมหลายหน้า:
@@ -125,7 +135,7 @@ builder.insertBreak(BreakType.PAGE_BREAK);
 builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
 builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
-```
+```  
 
 **3. อัปเดตเลย์เอาต์และดึงเมตริก**
 ```java
@@ -133,6 +143,19 @@ layoutCollector.clear();
 doc.updatePageLayout();
 
 assert layoutCollector.getNumPagesSpanned(doc) == 5;
+```  
+
+**คำอธิบาย:**  
+- `DocumentBuilder` แทรกเนื้อหา.  
+- `updatePageLayout()` บังคับให้ทำการวางเลเอตต์เพื่อให้หมายเลขหน้าถูกต้อง.  
+- `getStartPage` / `getEndPage` คืนค่าดัชนีหน้าแรกและหน้าสุดท้ายสำหรับโหนดใด ๆ.
+
+## วิธีแสดงรายการองค์ประกอบของเลเอตต์ด้วย LayoutEnumerator?
+
+`LayoutEnumerator` เป็นคลาสที่สำรวจต้นไม้ของเลเอตต์ภาพของเอกสาร, เปิดเผยประเภท, ตำแหน่ง, และขนาดของแต่ละองค์ประกอบ—เหมาะสำหรับการเรนเดอร์แบบกำหนดเองหรือการวิเคราะห์. `LayoutEnumerator` เดินผ่านต้นไม้ของเลเอตต์ภาพ, เปิดเผยประเภท, ตำแหน่ง, และขนาดของแต่ละองค์ประกอบ—เหมาะสำหรับการเรนเดอร์แบบกำหนดเองหรือการวิเคราะห์.
+
+```text
+Initialize LayoutEnumerator → move to first child → iterate while moving next sibling
 ```
 
 #### คำอธิบาย
@@ -154,7 +177,7 @@ assert layoutCollector.getNumPagesSpanned(doc) == 5;
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
-```
+```  
 
 **2. การเดินหน้าและถอยหลัง**
 ```java
@@ -165,6 +188,18 @@ traverseLayoutForward(layoutEnumerator, 1);
 
 // Traverse backward
 traverseLayoutBackward(layoutEnumerator, 1);
+```  
+
+**คำอธิบาย:**  
+- `moveParent()` ขึ้นไปยังโหนดพาเรนต์ในต้นไม้.  
+- การสำรวจแบบเรียกซ้ำทำให้คุณเข้าถึงโหนดเลเอตต์ทั้งหมดได้อย่างสมบูรณ์.
+
+## วิธีทำคอลแบ็กการจัดหน้า (page layout callbacks)?
+
+`IPageLayoutCallback` เป็นอินเทอร์เฟซสำหรับรับเหตุการณ์การจัดหน้าในระหว่างการประมวลผลเอกสาร, ให้คุณตอบสนองต่อการเปลี่ยนแปลงเลเอตต์เช่นการรีฟลว์ของส่วนหรือการเสร็จสิ้นการเรนเดอร์ การทำ Implement `IPageLayoutCallback` ทำให้คุณตอบสนองต่อเหตุการณ์การจัดหน้าเช่นการรีฟลว์ของส่วนหรือการเสร็จสิ้นการเรนเดอร์, ให้คุณควบคุมแบบไดนามิกต่อ pipeline การสร้างเอกสาร.
+
+```text
+Set callback on Document → implement notify(event) → handle specific layout events
 ```
 
 #### คำอธิบาย
@@ -186,7 +221,7 @@ traverseLayoutBackward(layoutEnumerator, 1);
 ```java
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
 doc.updatePageLayout();
-```
+```  
 
 **2. Implement Callback Methods**
 ```java
@@ -208,6 +243,18 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
         }
     }
 }
+```  
+
+**คำอธิบาย:**  
+- `notify()` รับตัวระบุเหตุการณ์.  
+- `ImageSaveOptions` สามารถปรับแต่งได้ภายในคอลแบ็กสำหรับการเรนเดอร์ภาพแบบ on‑the‑fly.
+
+## วิธีรีสตาร์ทการนับหน้าต่อในส่วนต่อเนื่อง?
+
+`ContinuousSectionRestart` เป็น enumeration ที่ระบุว่าการนับหน้าจะรีสตาร์ทในส่วนต่อเนื่องหรือไม่, ให้คุณควบคุมแบบละเอียดต่อโครงสร้างการนับหน้าในเอกสารทั้งหมด. เมื่อเอกสารมีหลายส่วนที่ไหลต่อเนื่อง, คุณสามารถควบคุมว่าหน้าจะรีสตาร์ทโดยอัตโนมัติหรือไม่.
+
+```text
+Load document → set ContinuousSectionPageNumberingRestart option → save
 ```
 
 #### คำอธิบาย
@@ -228,13 +275,13 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
 **1. โหลด Document**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
-```
+```  
 
 **2. ตั้งค่าตัวเลือกการนับหน้า**
 ```java
 doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
 doc.updatePageLayout();
-```
+```  
 
 #### คำอธิบาย
 

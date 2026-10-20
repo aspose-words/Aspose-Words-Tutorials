@@ -24,11 +24,8 @@ title: 'Satır Sonlarını Koru: DOCX''i Markdown''a Dönüştür'
 url: /tr/net/programming-with-markdownsaveoptions/preserve-line-breaks-convert-docx-to-markdown/
 ---
 
-.
 
-We'll translate.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -10,19 +10,13 @@ url: /pt/java/document-conversion-and-export/using-watermarks-to-documents/
 weight: 15
 ---
 
- With:** Aspose.Words for Java 24.12 (latest) -> "**Testado com:** Aspose.Words for Java 24.12 (latest)"
 
-**Author:** Aspose -> "**Autor:** Aspose"
 
-Make sure markdown bold formatting preserved.
 
-Now produce final content with all sections.
 
-Check we didn't translate any code blocks placeholders.
 
-Make sure we keep shortcodes at start and end.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
