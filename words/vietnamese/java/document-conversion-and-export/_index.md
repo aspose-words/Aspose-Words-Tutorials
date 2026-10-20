@@ -88,6 +88,9 @@ Sử dụng Watermark cho tài liệu trong Aspose.Words cho Java. Tìm hiểu c
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Định dạng bảng và kiểu bảng trong Aspose.Words cho Java. Tìm hiểu cách định dạng bảng và áp dụng kiểu bảng trong Aspose.Words cho Java. Khám phá các hướng dẫn chi tiết kèm mã nguồn để định dạng bảng hiệu quả. Nâng cao bố cục tài liệu của bạn với Aspose.Words.
 
+### [Cách tạo Markdown từ DOCX bằng Java – hướng dẫn từng bước](./how-to-create-markdown-from-docx-with-java-step-by-step-guid/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang định dạng Markdown bằng Java sử dụng Aspose.Words.
+
 ### [Chuyển đổi docx sang markdown – Hướng dẫn Java đầy đủ với Aspose.Words](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang định dạng Markdown bằng Aspose.Words cho Java.
 
@@ -122,7 +125,7 @@ Hướng dẫn cách chuyển đổi tệp DOCX sang định dạng Markdown b�
 Hướng dẫn cách chuyển đổi tài liệu sang markdown và lưu các hình ảnh được nhúng trong quá trình xuất.
 
 ### [cách xuất LaTeX từ DOCX – Hướng dẫn chuyển Word sang TXT](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
-Hướng dẫn chi tiết cách chuyển đổi tài liệu Word (DOCX) sang định dạng LaTeX và TXT bằng Aspose.Words for Java.
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Word (DOCX) sang định dạng LaTeX và TXT bằng Aspose.Words cho Java.
 
 ### [Chuyển DOCX sang PDF với Xuất Hình Dạng Nội Tuyến – Hướng Dẫn Từng Bước](./convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF đồng thời xuất các hình dạng nội tuyến một cách chính xác.
@@ -141,6 +144,7 @@ Hướng dẫn chi tiết cách chuyển tài liệu DOCX sang PDF bằng Aspose
 
 ### [Lưu Word thành PDF với Aspose.Words – Hướng Dẫn Java Toàn Diện](./save-word-as-pdf-with-aspose-words-complete-java-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang PDF bằng Aspose.Words for Java trong một dự án thực tế.
+
 ### [Lưu Word thành PDF với Aspose.Words – Hướng Dẫn Java Đầy Đủ](./save-word-as-pdf-with-aspose-words-full-java-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang PDF bằng Aspose.Words trong Java, bao gồm các tùy chọn lưu và tối ưu chất lượng.
 
@@ -152,19 +156,25 @@ Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang Markdown b
 
 ### [Lưu docx dưới dạng markdown với Java – Hướng dẫn chi tiết từng bước](./save-docx-as-markdown-with-java-complete-step-by-step-guide/)
 Hướng dẫn toàn diện cách chuyển đổi tài liệu DOCX sang Markdown bằng Java, bao gồm các tùy chọn và ví dụ mã nguồn.
+
 ### [Lưu docx thành markdown – Hướng dẫn đầy đủ C#](./save-docx-as-markdown-complete-c-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang Markdown bằng C#, bao gồm các tùy chọn và ví dụ mã nguồn.
+
 ### [Lưu Word dưới dạng Markdown – Xuất công thức toán sang LaTeX với Java](./save-word-as-markdown-export-math-to-latex-with-java/)
 Lưu tài liệu Word thành Markdown và xuất các công thức toán học dưới dạng LaTeX bằng Aspose.Words cho Java.
+
 ### [Xuất Word sang Markdown – Hướng Dẫn Java Toàn Diện](./export-word-to-markdown-complete-java-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang Markdown bằng Aspose.Words for Java, bao gồm các tùy chọn và ví dụ mã nguồn.
 
 ### [Xuất DOCX thành Markdown – Hướng Dẫn Java Toàn Diện](./export-docx-as-markdown-complete-java-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang Markdown bằng Aspose.Words for Java, kèm ví dụ mã nguồn.
+
 ### [Xuất Word sang Markdown trong Java – Lưu Tài Liệu dưới dạng Markdown](./export-word-to-markdown-in-java-save-document-as-markdown/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định dạng Markdown bằng Aspose.Words for Java.
+
 ### [Chuyển Word sang Markdown với Java – Hướng Dẫn Toàn Diện](./convert-word-to-markdown-with-java-full-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định dạng Markdown bằng Aspose.Words for Java, bao gồm ví dụ mã nguồn và tùy chỉnh.
+
 ### [Chuyển DOCX sang Markdown – Hướng Dẫn Java Toàn Diện](./convert-docx-to-markdown-complete-java-tutorial/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang định dạng Markdown bằng Aspose.Words for Java, bao gồm các tùy chọn và ví dụ mã nguồn.
 
@@ -172,14 +182,16 @@ Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang định d�
 Chuyển đổi tài liệu DOCX sang Markdown và xuất các công thức toán học dưới dạng LaTeX bằng Aspose.Words.
 
 ### [Lưu Word dưới dạng Markdown – Hướng Dẫn Toàn Diện để Chuyển DOCX sang Markdown](./save-word-as-markdown-complete-guide-to-convert-docx-to-mark/)
-Hướng dẫn chi tiết cách lưu tài liệu Word thành tệp Markdown bằng Aspose.Words for Java.
+Hướng dẫn chi tiết cách lưu tài liệu Word thành tệp Markdown bằng Aspose.Words cho Java.
+
 ### [Lưu docx dưới dạng markdown – Hướng dẫn Java đầy đủ với trích xuất hình ảnh](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
-Hướng dẫn chi tiết cách chuyển đổi DOCX sang Markdown, bao gồm trích xuất và nhúng hình ảnh bằng Aspose.Words for Java.
+Hướng dẫn chi tiết cách chuyển đổi DOCX sang Markdown, bao gồm trích xuất và nhúng hình ảnh bằng Aspose.Words cho Java.
+
 ### [Lưu Word dưới dạng Markdown – Xuất Bảng sang HTML trong Java](./save-word-as-markdown-export-tables-to-html-in-java/)
-Hướng dẫn lưu tài liệu Word thành Markdown và xuất các bảng dưới dạng HTML bằng Aspose.Words for Java.
+Hướng dẫn lưu tài liệu Word thành Markdown và xuất các bảng dưới dạng HTML bằng Aspose.Words cho Java.
 
 ### [Lưu DOCX dưới dạng Markdown – Hướng Dẫn Java Toàn Diện](./save-docx-as-markdown-complete-java-guide/)
-Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang định dạng Markdown bằng Aspose.Words for Java, bao gồm các tùy chọn và ví dụ mã nguồn.
+Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang định dạng Markdown bằng Aspose.Words cho Java, bao gồm các tùy chọn và ví dụ mã nguồn.
 
 ### [Lưu Tài Liệu dưới dạng TXT – Hướng Dẫn Nhanh về Xuất Công Thức Toán Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 ### [Lưu Tài Liệu dưới dạng TXT – Chuyển DOCX sang Văn bản với LaTeX](./save-document-as-txt-convert-docx-to-text-with-latex/)
@@ -208,7 +220,9 @@ Hướng dẫn chi tiết cách tải ảnh lên CDN trong quá trình chuyển 
 ### [Cách Xuất Markdown từ Word – Hướng Dẫn Toàn Diện](./how-to-export-markdown-from-word-complete-guide/)
 Hướng dẫn chi tiết cách xuất nội dung Word sang định dạng Markdown bằng Aspose.Words for Java.
 ### [Lưu Tài Liệu dưới dạng DOCX – Chuyển Đổi Markdown sang Word bằng Java](./save-document-as-docx-convert-markdown-to-word-with-java/)
-Hướng dẫn chuyển đổi nội dung Markdown thành tài liệu Word (DOCX) bằng Aspose.Words for Java trong vài bước đơn giản.
+Hướng dẫn chuyển đổi nội dung Markdown thành tài liệu Word (DOCX) bằng Aspose.Words cho Java trong vài bước đơn giản.
+### [Lưu tài liệu dưới dạng DOCX từ Markdown trong Java](./save-document-as-docx-from-markdown-in-java/)
+Hướng dẫn chi tiết cách chuyển đổi nội dung Markdown thành tài liệu DOCX bằng Aspose.Words cho Java.
 ### [Cách Đặt Độ Phân Giải Khi Lưu Word Thành Markdown](./how-to-set-resolution-when-saving-word-as-markdown/)
 Hướng dẫn cách cấu hình độ phân giải khi xuất tài liệu Word sang định dạng Markdown bằng Aspose.Words for Java.
 
@@ -233,7 +247,7 @@ Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF bằng
 Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định dạng Markdown bằng Aspose.Words for Java.
 
 ### [Tạo PDF có khả năng truy cập từ Word bằng Aspose – Java](./generate-accessible-pdf-from-word-with-aspose-java/)
-Hướng dẫn tạo PDF đáp ứng tiêu chuẩn truy cập WCAG từ tài liệu Word bằng Aspose.Words cho Java.
+Hướng dẫn tạo PDF đáp ứng tiêu chuẩn truy cập WCAG từ tài liệu Word bằng Aspose.Words for Java.
 ### [Tùy chọn lưu PDF – Chuyển DOCX sang PDF trong Java với Kiểm soát Đầy đủ](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 Khám phá cách sử dụng PdfSaveOptions để kiểm soát chi tiết quá trình chuyển DOCX sang PDF, bao gồm nén, bảo mật và tùy chỉnh chất lượng.
 
@@ -275,7 +289,7 @@ Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập, tuân th�
 Hướng dẫn tạo PDF đáp ứng tiêu chuẩn truy cập WCAG từ tài liệu DOCX bằng Aspose.Words cho Java.
 
 ### [Tạo PDF Truy cập được – Hướng Dẫn Từng Bước Chuyển Word sang PDF](./create-accessible-pdf-step-by-step-guide-to-convert-word-to/)
-Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang PDF đáp ứng tiêu chuẩn truy cập WCAG, bao gồm các tùy chọn và ví dụ mã nguồn.
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang PDF đáp ứng tiêu chuẩn WCAG, bao gồm các tùy chọn và ví dụ mã nguồn.
 
 ### [Tạo PDF Truy cập được – Hướng Dẫn Java cho Chuyển Đổi Tài Liệu Word](./create-accessible-pdf-java-guide-for-converting-word-documen/)
 Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập từ tài liệu Word bằng Aspose.Words for Java, đáp ứng tiêu chuẩn WCAG.
@@ -293,15 +307,15 @@ Hướng dẫn chi tiết cách lưu tài liệu Word thành PDF có khả năng
 Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập, thêm thẻ đầy đủ bằng Aspose.Words for Java.
 
 ### [Tạo Tài Liệu Tuân Thủ PDF/UA-2 – Hướng Dẫn Java Toàn Diện](./create-pdf-ua-2-compliant-document-complete-java-guide/)
-Hướng dẫn chi tiết cách tạo tài liệu đáp ứng chuẩn PDF/UA‑2 bằng Aspose.Words for Java, bao gồm các tùy chọn truy cập và lưu trữ.
+Hướng dẫn chi tiết cách tạo tài liệu đáp ứng chuẩn PDF/UA‑2 bằng Aspose.Words cho Java, bao gồm các tùy chọn truy cập và lưu trữ.
 
-### [Cách Xuất LaTeX từ DOCX sang TXT với Aspose.Words](./how-to-export-latex-from-docx-to-txt-with-aspose-words/)
-Hướng dẫn chi tiết cách xuất công thức LaTeX từ tài liệu DOCX thành tệp TXT bằng Aspose.Words cho Java.
+### [Cách Xuất LaTeX từ DOCX – Hướng Dẫn Java Đầy Đủ](./how-to-export-latex-from-docx-complete-java-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang định dạng LaTeX bằng Aspose.Words cho Java, bao gồm các tùy chọn và ví dụ thực tế.
 
 ### [Cách Lưu PDF Từ Word Với Các Hình Inline – Hướng Dẫn Toàn Diễn](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
 Hướng dẫn chi tiết cách lưu tài liệu Word dưới dạng PDF đồng thời giữ nguyên các hình Inline trong tài liệu.
 
-### [Tạo Tệp PDF/UA Tuân Thủ với Java – Hướng Dẫn Toàn Diện Aspose.Words](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
+### [Tạo PDF/UA Tuân Thủ với Java – Hướng Dẫn Toàn Diện Aspose.Words](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
 Hướng dẫn chi tiết cách tạo tài liệu PDF/UA đáp ứng tiêu chuẩn truy cập bằng Aspose.Words for Java trong một dự án thực tế.
 
 ### [Lưu Tài Liệu dưới dạng DOCX với Aspose.Words – Hướng Dẫn Java Toàn Diện](./save-document-as-docx-with-aspose-words-complete-java-guide/)
@@ -327,10 +341,10 @@ Hướng dẫn chi tiết cách trích xuất hình ảnh PNG từ tài liệu W
 ### [Chuyển đổi Word sang PDF – Tạo PDF có thể truy cập](./convert-word-to-pdf-generate-accessible-pdf/)
 Hướng dẫn chuyển đổi tài liệu Word sang PDF với khả năng truy cập, đáp ứng tiêu chuẩn WCAG và bảo đảm nội dung có thể đọc được.
 
-### [Tạo Tệp PDF/UA‑1 Tuân Thủ với Java – Hướng Dẫn Toàn Diện](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
-Hướng dẫn chi tiết cách tạo tệp PDF/UA‑1 đáp ứng tiêu chuẩn truy cập bằng Aspose.Words for Java.
+### [Tạo PDF/UA‑1 Tuân Thủ với Java – Hướng Dẫn Toàn Diện](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
+Hướng dẫn chi tiết cách tạo PDF/UA‑1 đáp ứng tiêu chuẩn truy cập bằng Aspose.Words for Java.
 
-### [Tạo tài liệu PDF/UA‑1 tuân thủ – Hướng dẫn Java toàn diện](./create-pdf-ua-compliant-document-complete-java-guide/)
+### [Tạo PDF/UA‑1 Tuân Thủ – Hướng dẫn Java toàn diện](./create-pdf-ua-compliant-document-complete-java-guide/)
 Hướng dẫn chi tiết cách tạo tài liệu PDF/UA‑1 tuân thủ tiêu chuẩn truy cập bằng Aspose.Words for Java.
 
 ### [Java docx sang PDF – Tạo PDF Truy cập được với Aspose.Words](./java-docx-to-pdf-generate-accessible-pdf-with-aspose-words/)

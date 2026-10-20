@@ -106,6 +106,10 @@ Aspose.Words สำหรับ Java เป็น API ที่มีประ�
 ปรับปรุงเอกสารด้วยส่วนขยายเว็บใน Aspose.Words สำหรับ Java เรียนรู้การผสานรวมเนื้อหาบนเว็บอย่างราบรื่น 
 ### [การทำแท็กการเข้าถึง PDF ใน Java – สร้าง PDF ที่เข้าถึงได้](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 เรียนรู้วิธีเพิ่มแท็กการเข้าถึงให้กับ PDF ด้วย Aspose.Words สำหรับ Java เพื่อสร้างไฟล์ PDF ที่เป็นมิตรต่อผู้ใช้ที่ต้องการการช่วยเหลือ
+### [สร้างเอกสาร Word เปล่าและเพิ่ม Content Control ใน C#](./create-blank-word-document-and-add-content-control-in-c/)
+เรียนรู้วิธีสร้างเอกสาร Word เปล่าและเพิ่ม Content Control ด้วย Aspose.Words สำหรับ C#
+### [สร้างไฟล์ DOCX เปล่าโดยโปรแกรมและเพิ่มปุ่มคำสั่ง](./create-a-blank-docx-programmatically-and-add-a-command-butto/)
+เรียนรู้วิธีสร้างไฟล์ DOCX เปล่าและเพิ่มปุ่มคำสั่งโดยใช้ Aspose.Words สำหรับ Java
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

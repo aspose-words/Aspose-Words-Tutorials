@@ -43,6 +43,8 @@ Aprenda a implementar firmas digitales seguras en documentos con Aspose.Words pa
 Aprenda a proteger sus documentos y a redactar información confidencial con Aspose.Words para Java. Guía paso a paso con código fuente.
 ### [Firmar documento Word en Java con Aspose.Words – Guía completa](./sign-word-document-in-java-with-aspose-words-complete-guide/)
 Aprenda a firmar documentos Word en Java usando Aspose.Words con ejemplos paso a paso y código fuente.
+### [Cómo firmar un documento con certificado en Java usando Aspose.Words](./how-to-sign-document-with-certificate-in-java-using-aspose-w/)
+Aprenda a firmar documentos con certificado digital en Java usando Aspose.Words, con ejemplos paso a paso y código fuente.
 ### [Cómo firmar archivos DOCX en C# – Guía completa paso a paso](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
 Aprenda a firmar archivos DOCX en C# con Aspose.Words mediante una guía paso a paso con ejemplos de código.
 

@@ -110,6 +110,9 @@ Learn how to configure LoadOptions to capture and handle warnings in Aspose.Word
 ### [Configuring RTF Load Options in Aspose.Words for Java]({{< relref "configuring-rtf-load-options/_index.md" >}})
 Configuring RTF Load Options in Aspose.Words for Java. Learn how to recognize UTF-8 text in RTF documents. Step-by-step guide with code examples.
 
+### [How to configure LoadOptions encoding in Java](./how-to-configure-loadoptions-encoding-in-java/)
+### [How to configure LoadOptions encoding in Java]({{< relref "how-to-configure-loadoptions-encoding-in-java/_index.md" >}})
+
 ### [Loading Text Files with Aspose.Words for Java]({{< relref "loading-text-files/_index.md" >}})
 Unlock the Power of Aspose.Words for Java. Learn to Load Text Documents, Manage Lists, Handle Spaces, and Control Text Direction.
 
@@ -199,7 +202,7 @@ Learn how to recover corrupted DOCX files by enabling recovery mode and reading 
 Learn how to capture font substitution warnings and detect missing fonts using Aspose.Words for Java.
 
 ### [Recover Word Document – Complete Guide to Set Recovery Mode in Java](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
-Learn how to enable and use recovery mode in Aspose.Words for Java to repair corrupted Word documents and ensure successful processing.
+Learn how to enable and use recovery mode in Aspose.Words for Java to repair corrupted DOCX files and ensure successful processing.
 
 ### [Open Corrupted Word Document – Set Recovery Mode in Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
 
@@ -209,7 +212,7 @@ Learn how to register a warning callback in Aspose.Words for Java to track missi
 ### [Recover corrupted docx using Aspose.Words Java](./recover-corrupted-docx-using-aspose-words-java/)
 Learn how to recover corrupted DOCX files using Aspose.Words for Java.
 
-### [Detect Missing Font Substitution in Java – Complete Aspose.Words Guide](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+### [Detect Missing Font Substitution in Java – Complete Aspose.Wor](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
 ### [Recover Corrupted DOCX in Java – Complete Programming Guide](./recover-corrupted-docx-in-java-complete-programming-guide/)
 
 ### [Log Font Substitution Warnings in Java with Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)

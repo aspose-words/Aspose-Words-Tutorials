@@ -60,6 +60,9 @@ Pelajari cara menambahkan bayangan pada bentuk di dokumen Word menggunakan Aspos
 ### [Kelompokkan Bentuk di Word dengan Java – Panduan Lengkap Langkah-demi-Langkah](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Pelajari cara mengelompokkan beberapa bentuk menjadi satu grup dalam dokumen Word menggunakan Aspose.Words untuk Java.
 
+### [Cara Mengelompokkan Bentuk di Aspose.Words untuk Java](./how-to-group-shapes-in-aspose-words-for-java/)
+Panduan langkah demi langkah untuk mengelompokkan beberapa bentuk menjadi satu grup dalam dokumen Word menggunakan Aspose.Words untuk Java.
+
 ### [Buat Dokumen Word Java – Tambahkan Bentuk dengan Efek Bayangan](./create-word-document-java-add-shape-with-shadow-effect/)
 Pelajari cara menambahkan bentuk dengan efek bayangan ke dokumen Word menggunakan Aspose.Words untuk Java.
 
@@ -82,6 +85,12 @@ Pelajari cara menyisipkan gambar ke dokumen Word menggunakan Aspose.Words untuk 
 Panduan lengkap untuk menambahkan bentuk persegi panjang ke dokumen Word menggunakan C# dengan Aspose.Words.
 ### [Buat Dokumen Word Kosong dengan Bayangan di Java – Panduan Lengkap](./create-blank-word-with-shadow-in-java-full-guide/)
 Pelajari cara membuat dokumen Word kosong dengan efek bayangan menggunakan Aspose.Words untuk Java.
+
+### [Buat Dokumen Word Kosong dan Sembunyikan Gambar yang Disisipkan](./create-a-blank-word-document-and-hide-an-inserted-image/)
+Panduan membuat dokumen Word kosong dan menyembunyikan gambar yang disisipkan menggunakan Aspose.Words untuk Java.
+
+### [Cara Membuat Diagram Lingkaran dalam Dokumen Word dengan Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/)
+Panduan langkah demi langkah membuat diagram lingkaran di dokumen Word menggunakan Aspose.Words untuk Java.
 
 ## Sumber Daya Tambahan
 

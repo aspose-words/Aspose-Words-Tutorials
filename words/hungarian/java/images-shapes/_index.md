@@ -59,6 +59,9 @@ Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentu
 
 ### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 
+### [Alakzatok csoportosítása az Aspose.Words for Java-ban](./how-to-group-shapes-in-aspose-words-for-java/)
+Ismerje meg, hogyan csoportosíthatja az alakzatokat egy Word dokumentumban az Aspose.Words for Java segítségével.
+
 ### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shape-with-shadow-effect/)
 Ismerje meg, hogyan adhat hozzá árnyékhatású alakzatot a Word dokumentumhoz Java-ban az Aspose.Words segítségével.
 
@@ -81,6 +84,11 @@ Tanulja meg, hogyan szúrhat be képeket Word dokumentumokba az Aspose.Words for
 Teljes körű útmutató a téglalap alakzat C#-os beszúrásához Word dokumentumokba.
 ### [Üres Word dokumentum létrehozása Java-ban árnyékkal – Teljes útmutató](./create-blank-word-with-shadow-in-java-full-guide/)
 Tanulja meg, hogyan hozhat létre üres Word dokumentumot árnyékhatással Java-ban az Aspose.Words segítségével.
+
+### [Üres Word dokumentum létrehozása és a beszúrt kép elrejtése](./create-a-blank-word-document-and-hide-an-inserted-image/)
+
+### [Hogyan hozzunk létre kördiagramot egy Word dokumentumban az Aspose.Words segítségével](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/)
+Tanulja meg, hogyan készíthet kördiagramot Word dokumentumban az Aspose.Words Java könyvtár segítségével.
 
 ## További források
 

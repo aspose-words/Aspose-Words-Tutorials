@@ -73,13 +73,13 @@ Dowiedz się, jak usuwać zawartość z dokumentów Word w Javie za pomocą Aspo
 ### [Korzystanie z zakładek w Aspose.Words dla Java](./using-bookmarks/)
 Zoptymalizuj przetwarzanie dokumentów za pomocą Aspose.Words for Java. Naucz się używać zakładek do wydajnej nawigacji i manipulacji treścią w tym przewodniku krok po kroku.
 ### [Korzystanie z zakresów dokumentów w Aspose.Words dla Java](./using-document-ranges/)
-Opanuj manipulację zakresem dokumentu w Aspose.Words dla Java. Naucz się usuwać, wyodrębniać i formatować tekst dzięki temu kompleksowemu przewodnikowi.
+Opanuj manipulację zakresem dokumentu w Aspose.Words for Java. Naucz się usuwać, wyodrębniać i formatować tekst dzięki temu kompleksowemu przewodnikowi.
 ### [Korzystanie ze strukturalnych znaczników dokumentu (SDT) w Aspose.Words dla języka Java](./using-structured-document-tags/)
 Dowiedz się, jak używać Structured Document Tags (SDT) w Aspose.Words for Java dzięki temu kompleksowemu przewodnikowi. Twórz, modyfikuj i wiąż SDT z niestandardowymi danymi XML.
 ### [Używanie stylów i motywów w Aspose.Words dla Java](./using-styles-and-themes/)
 Dowiedz się, jak ulepszyć formatowanie dokumentów za pomocą Aspose.Words for Java. Poznaj style, motywy i wiele więcej w tym kompleksowym przewodniku z przykładami kodu źródłowego.
 ### [Generowanie spisu treści w Aspose.Words dla Java](./generating-table-of-contents/)
-Dowiedz się, jak generować i dostosowywać spis treści (TOC) za pomocą Aspose.Words dla Java. Twórz uporządkowane i profesjonalne dokumenty bez wysiłku.
+Dowiedz się, jak generować i dostosowywać spis treści (TOC) za pomocą Aspose.Words for Java. Twórz uporządkowane i profesjonalne dokumenty bez wysiłku.
 ### [Ochrona dokumentów w Aspose.Words dla Java](./protecting-documents/)
 Dowiedz się, jak zabezpieczyć dokumenty Java Word za pomocą Aspose.Words for Java. Chroń swoje dane hasłem i nie tylko.
 ### [Dzielenie dokumentów na strony w Aspose.Words dla Java](./splitting-documents-into-pages/)
@@ -90,6 +90,8 @@ Dowiedz się, jak efektywnie dzielić dokumenty w Aspose.Words dla Java. Poznaj 
 Dowiedz się, jak dzielić dokumenty na strony HTML za pomocą Aspose.Words for Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezproblemową konwersję dokumentów.
 ### [Dodawanie zawartości za pomocą DocumentBuilder w Aspose.Words dla Java](./adding-content-using-documentbuilder/)
 Tworzenie dokumentów głównych z Aspose.Words dla Java. Przewodnik krok po kroku po dodawaniu tekstu, tabel, obrazów i innych. Twórz oszałamiające dokumenty Word bez wysiłku.
+### [Utwórz pusty dokument DOCX programowo i dodaj przycisk polecenia](./create-a-blank-docx-programmatically-and-add-a-command-butto/)
+Dowiedz się, jak programowo utworzyć pusty plik DOCX i dodać do niego przycisk polecenia przy użyciu Aspose.Words for Java.
 ### [Klonowanie i łączenie dokumentów w Aspose.Words dla Java](./cloning-and-combining-documents/)
 Dowiedz się, jak klonować i łączyć dokumenty w Aspose.Words dla Java. Przewodnik krok po kroku z przykładami kodu źródłowego.
 ### [Porównywanie dokumentów w Aspose.Words dla Java](./comparing-documents/)
@@ -106,6 +108,7 @@ Zoptymalizuj zarządzanie dokumentami za pomocą Aspose.Words dla Java. Naucz si
 Ulepsz dokumenty za pomocą rozszerzeń internetowych w Aspose.Words dla Java. Naucz się bezproblemowo integrować treści internetowe. 
 ### [Tagowanie dostępności PDF w Javie – generowanie dostępnych PDF](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Dowiedz się, jak tworzyć PDF z pełną dostępnością, dodając znaczniki ułatwiające nawigację i spełniające standardy WCAG.
+### [Utwórz pusty dokument Word i dodaj kontrolkę treści w C#](./create-blank-word-document-and-add-content-control-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

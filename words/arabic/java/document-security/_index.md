@@ -42,6 +42,8 @@
 ### [تحرير المستندات وحماية البيانات](./document-redaction-data-protection/)
 ### [توقيع مستند Word في Java باستخدام Aspose.Words – دليل شامل](./sign-word-document-in-java-with-aspose-words-complete-guide/)
 تعلم كيفية توقيع مستندات Word برمجياً في Java باستخدام Aspose.Words مع خطوات مفصلة وأمثلة كود.
+### [كيفية توقيع مستند بشهادة في Java باستخدام Aspose.Words](./how-to-sign-document-with-certificate-in-java-using-aspose-w/)
+تعلم كيفية توقيع المستندات باستخدام شهادة رقمية في Java عبر Aspose.Words خطوة بخطوة.
 ### [كيفية توقيع ملفات DOCX في C# – دليل خطوة بخطوة كامل](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
 تعلم كيفية توقيع ملفات DOCX باستخدام C# مع Aspose.Words خطوة بخطوة، مع أمثلة عملية وشيفرة المصدر.
 

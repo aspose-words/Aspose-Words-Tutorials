@@ -93,6 +93,9 @@ Apprenez à créer des LoadOptions pour détecter les polices manquantes et char
 ### [Configuration des options de chargement RTF dans Aspose.Words for Java](./configuring-rtf-load-options/)
 Configuration des options de chargement RTF dans Aspose.Words for Java. Apprenez à reconnaître le texte UTF‑8 dans les documents RTF. Guide étape par étape avec des exemples de code.
 
+### [Comment configurer l'encodage LoadOptions en Java](./how-to-configure-loadoptions-encoding-in-java/)
+Apprenez à définir l'encodage lors du chargement de documents avec LoadOptions en Java.
+
 ### [Chargement de fichiers texte avec Aspose.Words for Java](./loading-text-files/)
 Débloquez la puissance d'Aspose.Words for Java. Apprenez à charger des documents texte, gérer les listes, les espaces et la direction du texte.
 

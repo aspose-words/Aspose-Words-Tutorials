@@ -106,6 +106,9 @@ Optimaliseer documentbeheer met Aspose.Words voor Java. Leer werken met document
 Verbeter documenten met webextensies in Aspose.Words voor Java. Leer hoe u webgebaseerde content naadloos kunt integreren. 
 ### [PDF-toegankelijkheidsmarkering in Java – Toegankelijke PDF's genereren](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Leer hoe u toegankelijke PDF's genereert door tags toe te voegen met Aspose.Words voor Java.
+### [Maak een leeg Word-document en voeg een inhoudsbesturingselement toe in C#](./create-blank-word-document-and-add-content-control-in-c/)
+Leer hoe u een leeg Word-document maakt en een content control toevoegt met Aspose.Words voor C#.
+### [Maak een leeg DOCX-programma en voeg een opdrachtknop toe](./create-a-blank-docx-programmatically-and-add-a-command-butto/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

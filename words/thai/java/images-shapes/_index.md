@@ -60,6 +60,9 @@
 ### [การจัดกลุ่มรูปร่างใน Word ด้วย Java – คู่มือเต็มขั้นตอน](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 เรียนรู้วิธีจัดกลุ่มรูปร่างหลายรูปในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
 
+### [วิธีการจัดกลุ่มรูปร่างใน Aspose.Words สำหรับ Java](./how-to-group-shapes-in-aspose-words-for-java/)
+เรียนรู้วิธีจัดกลุ่มรูปร่างหลายรูปในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
+
 ### [สร้างเอกสาร Word ด้วย Java – เพิ่มรูปทรงพร้อมเงา](./create-word-document-java-add-shape-with-shadow-effect/)
 เรียนรู้วิธีเพิ่มรูปทรงพร้อมเงาในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
 
@@ -81,6 +84,11 @@
 ### [แทรกรูปสี่เหลี่ยมผืนผ้าใน Word ด้วย C# – คู่มือครบถ้วน](./insert-rectangle-shape-in-word-using-c-complete-guide/)
 ### [สร้างไฟล์ Word เปล่าพร้อมเงาใน Java – คู่มือเต็ม](./create-blank-word-with-shadow-in-java-full-guide/)
 เรียนรู้วิธีสร้างเอกสาร Word เปล่าพร้อมเงาใน Java ด้วย Aspose.Words อย่างละเอียด
+
+### [สร้างเอกสาร Word เปล่าและซ่อนรูปภาพที่แทรก](./create-a-blank-word-document-and-hide-an-inserted-image/)
+
+### [วิธีสร้างแผนภูมิวงกลมในเอกสาร Word ด้วย Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/)
+เรียนรู้วิธีสร้างแผนภูมิวงกลมในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 

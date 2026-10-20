@@ -83,6 +83,15 @@ Scopri come aggiungere una forma rettangolare in un documento Word con C# usando
 ### [Crea documento Word vuoto con ombra in Java – Guida completa](./create-blank-word-with-shadow-in-java-full-guide/)
 Impara a creare un documento Word vuoto con effetto ombra in Java usando Aspose.Words.
 
+### [Crea un documento Word vuoto e nascondi un'immagine inserita](./create-a-blank-word-document-and-hide-an-inserted-image/)
+Impara a creare un documento Word vuoto e a nascondere un'immagine inserita con Aspose.Words per Java.
+
+### [Come raggruppare forme in Aspose.Words per Java](./how-to-group-shapes-in-aspose-words-for-java/)
+Scopri come raggruppare più forme in un documento Word usando Aspose.Words per Java, con esempi pratici passo‑passo.
+
+### [Come creare un grafico a torta in un documento Word con Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/)
+Guida passo‑passo per inserire un grafico a torta in Word usando Aspose.Words.
+
 ## Risorse aggiuntive
 
 ## Risorse aggiuntive

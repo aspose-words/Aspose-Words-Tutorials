@@ -57,6 +57,9 @@ Erfahren Sie, wie Sie mit Aspose.Words für C# ein PDF-Dokument erstellen und ei
 ### [Word-Dokument in Java erstellen – Schatten zu Form hinzufügen](./create-word-document-java-add-shadow-to-shape-guide/)
 Ein Codebeispiel, das zeigt, wie man in Aspose.Words für Java einer Form einen Schatteneffekt hinzufügt.
 
+### [Gruppieren von Formen in Aspose.Words für Java](./how-to-group-shapes-in-aspose-words-for-java/)
+Ein vollständiges Tutorial, das zeigt, wie Sie mehrere Formen in einem Word-Dokument mit Aspose.Words für Java gruppieren.
+
 ### [Gruppieren von Formen in Word mit Java – Vollständige Schritt-für-Schritt-Anleitung](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Ein umfassendes Tutorial, das zeigt, wie man mehrere Formen in einem Word-Dokument mit Aspose.Words für Java gruppiert und verwaltet.
 
@@ -82,6 +85,12 @@ Ein praktisches Beispiel, das zeigt, wie Sie mit Aspose.Words für Java Bilder i
 Ein umfassendes Codebeispiel, das zeigt, wie man mit Aspose.Words für C# ein Rechteck in ein Word-Dokument einfügt.
 ### [Leeres Word-Dokument mit Schatten in Java erstellen – Vollständige Anleitung](./create-blank-word-with-shadow-in-java-full-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java ein leeres Word-Dokument erstellen und einen Schatteneffekt hinzufügen.
+
+### [Leeres Word-Dokument erstellen und eingefügtes Bild ausblenden](./create-a-blank-word-document-and-hide-an-inserted-image/)
+Ein Beispiel, das zeigt, wie man ein leeres Word-Dokument erstellt und ein eingefügtes Bild ausblendet.
+
+### [Wie man ein Kreisdiagramm in einem Word-Dokument mit Aspose.Words erstellt](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/)
+Ein Beispiel, das zeigt, wie man ein Kreisdiagramm in ein Word-Dokument einfügt.
 
 ## Weitere Ressourcen
 

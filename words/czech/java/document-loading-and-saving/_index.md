@@ -127,9 +127,6 @@ Naučte se, jak otevřít poškozený soubor Word a nastavit režim obnovy pomoc
 ### [Aspose.Words LoadOptions – Obnovení poškozených Word dokumentů v Javě](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 
 ### [Zachycení varování o nahrazení fontů v Javě pomocí Aspose.Words – Kompletní průvodce](./capture-font-substitution-warnings-in-java-with-aspose-words/)
-### [Jak obnovit docx – Kompletní průvodce čtením poškozených souborů Word](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
-### [Nastavit režim obnovy pro opravu poškozeného dokumentu Word](./set-recovery-mode-to-recover-broken-word-document/)
-
 ### [Jak získat chybějící fonty v Javě – Průvodce Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 ### [Jak obnovit soubory DOCX pomocí Aspose.Words – krok‑za‑krokem průvodce](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 ### [Jak obnovit DOCX – Nastavit režim obnovy a zobrazit varování](./how-to-recover-docx-set-recovery-mode-display-warnings/)
@@ -161,6 +158,9 @@ Naučte se, jak opravit a zpracovat poškozené soubory DOCX v Javě pomocí Asp
 
 ### [Konfigurace LoadOptions pro varování – Kompletní průvodce v Javě](./configure-loadoptions-for-warnings-complete-java-guide/)
 Naučte se, jak nastavit LoadOptions pro zachycení varování při načítání dokumentů v Aspose.Words for Java.
+
+### [Jak nakonfigurovat kódování LoadOptions v Javě](./how-to-configure-loadoptions-encoding-in-java/)
+
 ### [Vytvoření prázdného dokumentu Word v Javě – Kompletní průvodce Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
 Naučte se vytvořit prázdný dokument Word v Javě pomocí Aspose.Words s podrobným krok‑za‑krokem průvodcem.
 

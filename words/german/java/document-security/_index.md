@@ -45,6 +45,8 @@ Erfahren Sie, wie Sie Ihre Dokumente mit Aspose.Words für Java sichern und vert
 Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words für Java digital signieren. Schritt-für-Schritt-Anleitung mit Codebeispielen.
 ### [Wie man DOCX-Dateien in C# signiert – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für C# signieren. Eine vollständige Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
+### [Wie man ein Dokument mit Zertifikat in Java mit Aspose.Words signiert](./how-to-sign-document-with-certificate-in-java-using-aspose-w/)
+Erfahren Sie, wie Sie ein Dokument in Java mit einem Zertifikat und Aspose.Words digital signieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

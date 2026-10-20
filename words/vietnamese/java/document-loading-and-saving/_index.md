@@ -85,7 +85,7 @@ Các cài đặt tài liệu là chìa khóa để cung cấp tài liệu phù h
 ### [Working with Load Options in Aspose.Words for Java](./using-load-options/)
 ### [Tạo Load Options trong Java – Phát hiện Phông chữ Thiếu & Cách Tải DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
 Học cách tạo Load Options trong Java để phát hiện phông chữ thiếu và tải tài liệu DOCX một cách hiệu quả.
-
+### [Cách cấu hình mã hoá LoadOptions trong Java](./how-to-configure-loadoptions-encoding-in-java/)
 ### [Cách Khôi Phục DOCX – Tải Tệp Bị Hỏng với Tùy Chọn Khôi Phục](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 Học cách khôi phục các tệp DOCX bị hỏng bằng các tùy chọn tải khôi phục trong Aspose.Words for Java.
 
@@ -93,7 +93,7 @@ Học cách khôi phục các tệp DOCX bị hỏng bằng các tùy chọn t�
 Hướng dẫn chi tiết cách khôi phục các tệp DOCX bị hỏng bằng Aspose.Words, bao gồm các bước thiết lập và mã mẫu Java.
 
 ### [Khôi phục tài liệu Word bị hỏng – Hướng dẫn Java toàn diện](./recover-broken-word-document-complete-java-guide/)
-### [Ghi lại Cảnh báo Thay thế Phông chữ – Phát hiện Phông chữ thiếu](./capture-font-substitution-warnings-detect-missing-fonts/)
+### [Ghi lại Cảnh báo Thay thế Phông chữ – Phát hiện Phông chữ Thiếu](./capture-font-substitution-warnings-detect-missing-fonts/)
 
 ### [Ghi lại Cảnh báo Thay thế Phông chữ trong Java với Aspose.Words – Hướng dẫn đầy đủ](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 
@@ -145,7 +145,7 @@ Học cách bật chế độ khôi phục để phục hồi tài liệu docx b
 ### [Cách khôi phục docx – Bật chế độ khôi phục & Đọc cảnh báo](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
 Hướng dẫn bật chế độ khôi phục khi mở file docx và cách đọc các cảnh báo để khôi phục tài liệu bị hỏng.
 
-### [Cách Khôi phục Tệp DOCX – Hướng dẫn Java Từng Bước](./how-to-recover-docx-files-step-by-step-java-guide/)
+### [Cách Khôi Phục Tệp DOCX – Hướng dẫn Java Từng Bước](./how-to-recover-docx-files-step-by-step-java-guide/)
 Học cách khôi phục các tệp DOCX bị hỏng bằng Aspose.Words for Java qua các bước chi tiết và ví dụ mã nguồn thực tế.
 
 ### [Khôi phục tài liệu Word – Hướng dẫn toàn diện để thiết lập chế độ khôi phục trong Java](./recover-word-document-complete-guide-to-set-recovery-mode-in/)

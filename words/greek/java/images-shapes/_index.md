@@ -28,6 +28,9 @@
 
 ## Διαθέσιμα εκπαιδευτικά βίντεο
 
+### [Create a blank Word document and hide an inserted image](./create-a-blank-word-document-and-hide-an-inserted-image/)
+
+
 ### [Προσαρμοσμένη αποθήκευση σελίδων και εικόνων σε Java με Aspose.Words Callbacks](./aspose-words-java-callback-custom-savings/)
 Ένα σεμινάριο κώδικα για το Aspose.Words Java
 
@@ -46,7 +49,7 @@
 ### [Πώς να ορίσετε σκιά σε σχήμα σε C# – Προσθήκη σκιάς σχήματος εύκολα](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
 Μάθετε πώς να προσθέσετε σκιά σε σχήμα χρησιμοποιώντας το Aspose.Words για C#.
 
-### [Δημιουργία σχήματος ορθογωνίου σε έγγραφο Word Java – Πλήρης οδηγός βήμα‑βήμα](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+### [Δημιουργία σχήματος ορθογωνίου σε έγγραφο Word Java – Πλήρης οδηγός βήμα‑βήμα](./create-rectangle-shape-in-java-word-document-full-step-st/)
 Μάθετε πώς να δημιουργήσετε σχήμα ορθογωνίου σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java, ακολουθώντας πλήρη βήμα‑βήμα οδηγίες.
 
 ### [Δημιουργία σχήματος πλαισίου κειμένου σε Java – Πλήρης οδηγός προσθήκης σκιών](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
@@ -59,6 +62,9 @@
 
 ### [Ομαδοποίηση σχημάτων σε Word με Java – Πλήρης οδηγός βήμα προς βήμα](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Μάθετε πώς να ομαδοποιήσετε σχήματα σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java, με πλήρη βήματα και παραδείγματα.
+
+### [Πώς να ομαδοποιήσετε σχήματα στο Aspose.Words για Java](./how-to-group-shapes-in-aspose-words-for-java/)
+Μάθετε πώς να ομαδοποιήσετε σχήματα σε έγγραφα Word με το Aspose.Words για Java.
 
 ### [Δημιουργία εγγράφου Word Java – Προσθήκη σχήματος με εφέ σκιάς](./create-word-document-java-add-shape-with-shadow-effect/)
 Μάθετε πώς να προσθέσετε σχήμα με εφέ σκιάς σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
@@ -81,6 +87,9 @@
 ### [Εισαγωγή σχήματος ορθογωνίου σε Word χρησιμοποιώντας C# – πλήρης οδηγός](./insert-rectangle-shape-in-word-using-c-complete-guide/)
 ### [Δημιουργία κενής εγγραφής Word με σκιά σε Java – Πλήρης οδηγός](./create-blank-word-with-shadow-in-java-full-guide/)
 Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word με εφέ σκιά χρησιμοποιώντας το Aspose.Words για Java.
+
+### [Πώς να δημιουργήσετε διάγραμμα πίτας σε έγγραφο Word με το Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/)
+Μάθετε πώς να δημιουργήσετε διάγραμμα πίτας σε έγγραφο Word χρησιμοποιώντας το Aspose.Words.
 
 ## Πρόσθετοι Πόροι
 

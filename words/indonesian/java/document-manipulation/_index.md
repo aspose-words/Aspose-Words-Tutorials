@@ -56,6 +56,7 @@ Manipulasi dokumen menggunakan Aspose.Words untuk Java merupakan keterampilan ya
 Mulailah perjalanan belajar Anda hari ini dan buka kemungkinan tak terbatas dalam manipulasi dokumen dengan Aspose.Words untuk Java.
 
 ## Tutorial Manipulasi Dokumen
+### [Buat dokumen Word kosong dan tambahkan kontrol konten di C#](./create-blank-word-document-and-add-content-control-in-c/)
 ### [Menggunakan Opsi Pembersihan di Aspose.Words untuk Java](./using-cleanup-options/)
 Tingkatkan Kejelasan Dokumen dengan Opsi Pembersihan Aspose.Words untuk Java. Pelajari cara menghapus paragraf kosong, area yang tidak digunakan, dan banyak lagi.
 ### [Menggunakan Fields di Aspose.Words untuk Java](./using-fields/)
@@ -106,6 +107,8 @@ Optimalkan manajemen dokumen dengan Aspose.Words untuk Java. Pelajari cara beker
 Sempurnakan Dokumen dengan Ekstensi Web di Aspose.Words untuk Java. Pelajari cara mengintegrasikan konten berbasis web dengan lancar. 
 ### [Penandaan Aksesibilitas PDF di Java – Menghasilkan PDF yang Dapat Diakses](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Pelajari cara menandai PDF untuk aksesibilitas menggunakan Aspose.Words untuk Java, menghasilkan PDF yang ramah pembaca layar.
+### [Buat DOCX kosong secara programatis dan tambahkan tombol perintah](./create-a-blank-docx-programmatically-and-add-a-command-butto/)
+Pelajari cara membuat file DOCX kosong secara programatis dan menambahkan tombol perintah menggunakan Aspose.Words untuk Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

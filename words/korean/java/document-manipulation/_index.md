@@ -106,6 +106,9 @@ Aspose.Words for Java를 사용하여 문서 관리를 최적화하세요. 이 �
 Aspose.Words for Java의 웹 확장 기능으로 문서를 더욱 풍부하게 만들고, 웹 기반 콘텐츠를 원활하게 통합하는 방법을 알아보세요. 
 ### [Java에서 PDF 접근성 태깅 – 접근 가능한 PDF 생성](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Aspose.Words for Java를 사용하여 PDF에 접근성 태그를 추가하고, 접근 가능한 PDF 문서를 생성하는 방법을 알아보세요.
+### [C#용 Aspose.Words에서 빈 Word 문서 만들기 및 콘텐츠 컨트롤 추가](./create-blank-word-document-and-add-content-control-in-c/)
+### [Java용 Aspose.Words에서 빈 DOCX를 프로그래밍 방식으로 생성하고 명령 버튼 추가](./create-a-blank-docx-programmatically-and-add-a-command-butto/)
+Aspose.Words for Java를 사용해 빈 DOCX 파일을 만들고 명령 버튼을 삽입하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

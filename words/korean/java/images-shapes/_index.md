@@ -83,6 +83,15 @@ C#를 활용해 Word 문서에 사각형 도형을 삽입하고 속성을 설정
 ### [Java에서 그림자와 함께 빈 Word 문서 만들기 – 전체 가이드](./create-blank-word-with-shadow-in-java-full-guide/)
 Java를 사용해 그림자 효과가 적용된 빈 Word 문서를 만드는 전체 단계별 가이드를 제공합니다.
 
+### [빈 Word 문서를 만들고 삽입된 이미지를 숨기기](./create-a-blank-word-document-and-hide-an-inserted-image/)
+빈 Word 문서를 생성하고 삽입된 이미지를 숨기는 방법을 단계별로 안내합니다.
+
+### [Aspose.Words for Java에서 도형 그룹화하는 방법](./how-to-group-shapes-in-aspose-words-for-java/)
+Aspose.Words for Java를 사용해 도형을 그룹화하는 방법을 단계별로 안내합니다.
+
+### [Aspose.Words를 사용하여 Word 문서에 파이 차트 만들기](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/)
+Aspose.Words를 사용해 Word 문서에 파이 차트를 삽입하고 사용자 지정하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 ## 추가 자료

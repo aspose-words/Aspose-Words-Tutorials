@@ -45,6 +45,8 @@
 เรียนรู้วิธีลงลายเซ็นดิจิทัลในไฟล์ Word ด้วย Aspose.Words สำหรับ Java ด้วยขั้นตอนและตัวอย่างโค้ดที่ครบถ้วน
 ### [วิธีลงลายเซ็นไฟล์ DOCX ด้วย C# – คู่มือขั้นตอนเต็ม](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
 เรียนรู้วิธีลงลายเซ็นไฟล์ DOCX ด้วย C# อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน
+### [วิธีลงลายเซ็นเอกสารด้วยใบรับรองใน Java โดยใช้ Aspose.Words](./how-to-sign-document-with-certificate-in-java-using-aspose-w/)
+เรียนรู้วิธีลงลายเซ็นเอกสารด้วยใบรับรองดิจิทัลใน Java ด้วย Aspose.Words อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

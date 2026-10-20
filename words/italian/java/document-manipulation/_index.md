@@ -94,6 +94,7 @@ Creazione di documenti di successo con Aspose.Words per Java. Una guida passo pa
 Scopri come clonare e combinare documenti in Aspose.Words per Java. Guida passo passo con esempi di codice sorgente.
 ### [Confronto di documenti in Aspose.Words per Java](./comparing-documents/)
 Scopri come confrontare documenti in Aspose.Words per Java, una potente libreria Java per un'analisi efficiente dei documenti. 
+### [Crea documento Word vuoto e aggiungi controllo di contenuto in C#](./create-blank-word-document-and-add-content-control-in-c/)
 ### [Formattazione dei documenti in Aspose.Words per Java](./formatting-documents/)
 Impara l'arte di formattare i documenti in Aspose.Words per Java con la nostra guida completa. Esplora potenti funzionalità e migliora le tue competenze di elaborazione dei documenti.
 ### [Unire e aggiungere documenti in Aspose.Words per Java](./joining-and-appending-documents/)
@@ -106,6 +107,7 @@ Ottimizza la gestione dei documenti con Aspose.Words per Java. Impara a gestire 
 Migliora i documenti con le estensioni web in Aspose.Words per Java. Impara a integrare perfettamente i contenuti web. 
 ### [Tagging di accessibilità PDF in Java – Genera PDF accessibili](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Impara a creare PDF accessibili aggiungendo tag di struttura con Aspose.Words per Java, garantendo conformità alle linee guida di accessibilità.
+### [Creare un DOCX vuoto programmaticamente e aggiungere un pulsante di comando](./create-a-blank-docx-programmatically-and-add-a-command-butto/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

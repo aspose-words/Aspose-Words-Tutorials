@@ -45,6 +45,8 @@
 Μάθετε πώς να υπογράψετε έγγραφα Word σε Java χρησιμοποιώντας το Aspose.Words, με βήμα-βήμα οδηγίες και παραδείγματα κώδικα.
 ### [Πώς να Υπογράψετε Αρχεία DOCX σε C# – Πλήρης Οδηγός Βήμα‑Βήμα](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
 Μάθετε πώς να υπογράψετε ψηφιακά αρχεία DOCX με το Aspose.Words για C# μέσω αναλυτικού οδηγού βήμα‑βήμα και παραδειγμάτων κώδικα.
+### [Πώς να υπογράψετε έγγραφο με πιστοποιητικό σε Java χρησιμοποιώντας το Aspose.Words](./how-to-sign-document-with-certificate-in-java-using-aspose-w/)
+Υπογράψτε έγγραφα με πιστοποιητικό σε Java χρησιμοποιώντας το Aspose.Words για ασφαλή ψηφιακή υπογραφή.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

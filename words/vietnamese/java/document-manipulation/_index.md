@@ -80,6 +80,8 @@ Tìm hiểu cách sử dụng Thẻ tài liệu có cấu trúc (SDT) trong Aspo
 Tìm hiểu cách cải thiện định dạng tài liệu bằng Aspose.Words for Java. Khám phá các kiểu, chủ đề và nhiều hơn nữa trong hướng dẫn toàn diện này với các ví dụ về mã nguồn.
 ### [Tạo Mục lục trong Aspose.Words cho Java](./generating-table-of-contents/)
 Tìm hiểu cách tạo và tùy chỉnh Mục lục (TOC) bằng Aspose.Words cho Java. Tạo tài liệu có tổ chức và chuyên nghiệp một cách dễ dàng.
+### [Tạo một tài liệu DOCX trống bằng cách lập trình và thêm nút lệnh](./create-a-blank-docx-programmatically-and-add-a-command-butto/)
+Hướng dẫn tạo tài liệu DOCX trống và chèn nút lệnh bằng Aspose.Words cho Java.
 ### [Bảo vệ tài liệu trong Aspose.Words cho Java](./protecting-documents/)
 Tìm hiểu cách bảo mật tài liệu Java Word của bạn bằng Aspose.Words cho Java. Bảo vệ dữ liệu của bạn bằng mật khẩu và nhiều hơn thế nữa.
 ### [Chia tài liệu thành các trang trong Aspose.Words cho Java](./splitting-documents-into-pages/)
@@ -106,6 +108,8 @@ Tối ưu hóa quản lý tài liệu với Aspose.Words for Java. Tìm hiểu c
 Cải thiện Tài liệu bằng Tiện ích mở rộng Web trong Aspose.Words cho Java. Học cách tích hợp nội dung dựa trên web một cách liền mạch. 
 ### [Gắn thẻ khả năng truy cập PDF trong Java – Tạo PDF có thể truy cập](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Hướng dẫn tạo PDF có khả năng truy cập bằng cách gắn thẻ nội dung trong Aspose.Words cho Java.
+### [Tạo tài liệu Word trống và thêm điều khiển nội dung trong C#](./create-blank-word-document-and-add-content-control-in-c/)
+Hướng dẫn tạo tài liệu Word trống và chèn điều khiển nội dung bằng C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

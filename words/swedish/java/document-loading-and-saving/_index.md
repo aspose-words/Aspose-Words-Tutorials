@@ -90,6 +90,9 @@ Behärska laddningsalternativ i Aspose.Words för Java. Anpassa dokumentladdning
 ### [Skapa laddningsalternativ i Java – Upptäck saknade teckensnitt och hur du laddar DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
 Lär dig hur du skapar LoadOptions i Java för att upptäcka saknade teckensnitt och korrekt ladda DOCX‑filer.
 
+### [Konfigurera kodning för LoadOptions i Java](./how-to-configure-loadoptions-encoding-in-java/)
+Lär dig hur du ställer in teckenkodning i LoadOptions när du laddar dokument med Aspose.Words för Java.
+
 ### [Konfigurera RTF‑laddningsalternativ i Aspose.Words för Java](./configuring-rtf-load-options/)
 Konfigurera RTF‑laddningsalternativ i Aspose.Words för Java. Lär dig hur du känner igen UTF‑8‑text i RTF‑dokument. Steg‑för‑steg‑guide med kodexempel.
 
@@ -147,8 +150,10 @@ Lär dig hur du upptäcker dokumentformat i Java med Aspose.Words. Identifiera D
 Lär dig hur du återställer korrupta DOCX‑filer med Aspose.Words för Java genom att använda återställningsalternativ för att rädda innehåll.
 
 ### [Återställ korrupt docx – Komplett guide för att reparera och bearbeta dokument](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
-### [Hur du återställer DOCX‑filer – Steg‑för‑steg Java‑guide](./how-to-recover-docx-files-step-by-step-java-guide/)
 Lär dig att reparera skadade DOCX‑filer med Aspose.Words för Java i en detaljerad steg‑för‑steg‑guide.
+
+### [Hur du återställer DOCX‑filer – Steg‑för‑steg Java‑guide](./how-to-recover-docx-files-step-by-step-java-guide/)
+Lär dig att reparera skadade DOCX‑filer med Aspose.Words för Java i en steg‑för‑steg‑guide.
 
 ### [Öppna korrupt Word-dokument – Ställ in återställningsläge i Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
 Lär dig hur du öppnar skadade Word‑dokument och aktiverar återställningsläge med Aspose.Words för Java för att reparera filer.
@@ -160,11 +165,6 @@ Lär dig hur du reparerar skadade DOCX‑filer med Aspose.Words för Java i en s
 Lär dig hur du reparerar skadade DOCX‑filer i Java med Aspose.Words, inklusive steg‑för‑steg‑kodexempel och bästa praxis.
 
 ### [Fånga varningar om teckensnittssubstitution i Java med Aspose.Words – Komplett guide](./capture-font-substitution-warnings-in-java-with-aspose-words/)
-### [Hur du återställer docx – Komplett guide för att läsa korrupta Word‑filer](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
-Lär dig hur du reparerar och läser korrupta .docx‑filer med Aspose.Words för Java i denna steg‑för‑steg‑guide.
-### [Ställ in återhämtningsläge för att återställa trasigt Word‑dokument i Aspose.Words för Java](./set-recovery-mode-to-recover-broken-word-document/)
-Lär dig hur du aktiverar återhämtningsläget i Aspose.Words för Java för att reparera skadade Word‑dokument automatiskt.
-
 ### [Hur du får saknade teckensnitt i Java – Aspose.Words‑guide](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 Lär dig hur du identifierar och ersätter saknade teckensnitt i Java‑applikationer med Aspose.Words.
 ### [Återställ DOCX‑filer med Aspose.Words – Steg‑för‑steg‑guide](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
@@ -176,7 +176,7 @@ Lär dig hur du aktiverar återställningsläge i Aspose.Words för Java för at
 ### [Hur man återställer docx med Aspose.Words – Aktivera återställningsläge](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
 Lär dig hur du återställer skadade DOCX‑filer med Aspose.Words genom att aktivera återställningsläget för att rädda innehåll.
 ### [Hur du återställer docx – Aktivera återställningsläge & Läs varningar](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
-Lär dig hur du aktiverar återställningsläge i Aspose.Words för Java för att återställa skadade DOCX-filer och läsa varningsmeddelanden.
+Lär dig hur du aktiverar återställningsläge i Aspose.Words för Java för att återställa skadade DOCX‑filer och läsa varningsmeddelanden.
 ### [Återställ skadat Word‑dokument – Komplett Java‑guide](./recover-broken-word-document-complete-java-guide/)
 Lär dig hur du reparerar korrupta Word‑filer med Aspose.Words för Java, steg‑för‑steg‑instruktioner och kodexempel.
 

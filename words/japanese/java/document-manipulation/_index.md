@@ -105,6 +105,12 @@ Aspose.Words for Javaでドキュメント管理を最適化しましょう。�
 ### [Aspose.Words for Java の Web 拡張機能の使用](./using-web-extensions/)
 Aspose.Words for JavaのWeb拡張機能でドキュメントを強化しましょう。Webベースのコンテンツをシームレスに統合する方法を学びましょう。
 
+### [C# で空白の Word 文書を作成し、コンテンツ コントロールを追加](./create-blank-word-document-and-add-content-control-in-c/)
+C# を使用して空の Word 文書を作成し、コンテンツ コントロールを追加する方法を学びます。
+
+### [Java で空白の DOCX をプログラムで作成し、コマンド ボタンを追加する](./create-a-blank-docx-programmatically-and-add-a-command-butto/)
+Aspose.Words for Java を使用して、空の DOCX を作成し、コマンド ボタンを追加する方法を学びます。
+
 ### [Java で PDF アクセシビリティ タグ付け – アクセシブルな PDF の生成](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Aspose.Words for Java を使用して、PDF にアクセシビリティタグを付与し、アクセシブルな PDF を生成する方法を学びます。
 

@@ -96,6 +96,8 @@ Domine a criação de documentos com o Aspose.Words para Java. Um guia passo a p
 Aprenda a clonar e combinar documentos no Aspose.Words para Java. Guia passo a passo com exemplos de código-fonte.
 ### [Comparando documentos no Aspose.Words para Java](./comparing-documents/)
 Aprenda a comparar documentos no Aspose.Words para Java, uma poderosa biblioteca Java para análise eficiente de documentos. 
+### [Criar documento Word em branco e adicionar controle de conteúdo em C#](./create-blank-word-document-and-add-content-control-in-c/)
+Aprenda a criar um documento Word vazio e inserir controles de conteúdo usando Aspose.Words para C#.
 ### [Formatando documentos no Aspose.Words para Java](./formatting-documents/)
 Aprenda a arte de formatar documentos no Aspose.Words para Java com nosso guia completo. Explore recursos poderosos e aprimore suas habilidades de processamento de documentos.
 ### [Unindo e anexando documentos no Aspose.Words para Java](./joining-and-appending-documents/)
@@ -105,7 +107,9 @@ Desbloqueie o poder do Aspose.Words para Java. Domine as opções e configuraç�
 ### [Usando propriedades de documento no Aspose.Words para Java](./using-document-properties/)
 Otimize o gerenciamento de documentos com o Aspose.Words para Java. Aprenda a trabalhar com propriedades de documentos, adicionar metadados personalizados e muito mais neste tutorial abrangente.
 ### [Usando extensões da Web no Aspose.Words para Java](./using-web-extensions/)
-Aprimore documentos com extensões da Web no Aspose.Words para Java. Aprenda a integrar conteúdo da Web perfeitamente. 
+Aprimore documentos com extensões da Web no Aspose.Words para Java. Aprenda a integrar conteúdo da Web perfeitamente.
+### [Criar um DOCX em branco programaticamente e adicionar um botão de comando](./create-a-blank-docx-programmatically-and-add-a-command-butto/)
+Aprenda a criar um documento DOCX vazio via código Java e inserir um botão de comando.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

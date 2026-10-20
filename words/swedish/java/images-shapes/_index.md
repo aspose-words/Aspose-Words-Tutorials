@@ -60,6 +60,9 @@ Lär dig hur du lägger till en skuggeffekt på en form i ett Word-dokument med 
 ### [Gruppera former i Word med Java – Komplett steg-för-steg-guide](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Lär dig hur du grupperar former i ett Word-dokument med Aspose.Words för Java.
 
+### [Hur man grupperar former i Aspose.Words för Java](./how-to-group-shapes-in-aspose-words-for-java/)
+Lär dig hur du grupperar former i ett Word-dokument med Aspose.Words för Java.
+
 ### [Skapa Word-dokument Java – Lägg till form med skuggeffekt](./create-word-document-java-add-shape-with-shadow-effect/)
 Lär dig hur du lägger till en form med skuggeffekt i ett Word-dokument med Aspose.Words för Java.
 
@@ -82,6 +85,12 @@ Lär dig hur du infogar bilder i Word-dokument med Aspose.Words för Java i en d
 Lär dig steg för steg hur du lägger till en rektangel i ett Word-dokument med C# och Aspose.Words.
 ### [Skapa tomt Word-dokument med skugga i Java – Fullständig guide](./create-blank-word-with-shadow-in-java-full-guide/)
 Lär dig hur du skapar ett tomt Word-dokument med skuggeffekt i Java med Aspose.Words.
+
+### [Skapa ett tomt Word-dokument och dölj en infogad bild](./create-a-blank-word-document-and-hide-an-inserted-image/)
+Lär dig hur du skapar ett tomt Word-dokument och döljer en infogad bild med Aspose.Words för Java.
+
+### [Hur man skapar ett cirkeldiagram i ett Word-dokument med Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/)
+Lär dig hur du skapar ett cirkeldiagram i ett Word-dokument med Aspose.Words för Java.
 
 ## Ytterligare resurser
 

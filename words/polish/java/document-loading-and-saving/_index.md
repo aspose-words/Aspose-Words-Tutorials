@@ -134,6 +134,7 @@ Dowiedz się, jak używać LoadOptions w Aspose.Words for Java do naprawy i odzy
 ### [Rejestrowanie ostrzeżeń o podstawianiu czcionek w Javie przy użyciu Aspose.Words – Kompletny przewodnik](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [Jak odzyskać docx – Kompletny przewodnik odczytu uszkodzonych plików Word](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 Dowiedz się, jak odczytać i naprawić uszkodzone pliki DOCX przy użyciu Aspose.Words for Java.
+
 ### [Ustaw tryb odzyskiwania, aby przywrócić uszkodzony dokument Word](./set-recovery-mode-to-recover-broken-word-document/)
 Dowiedz się, jak włączyć tryb odzyskiwania, aby przywrócić uszkodzone dokumenty Word przy użyciu Aspose.Words for Java.
 
@@ -165,11 +166,8 @@ Dowiedz się, jak wykrywać ostrzeżenia o brakującej podstawie czcionek w doku
 ### [Tutorial ostrzeżenia zwrotnego – ładowanie dokumentu Word w Javie](./warning-callback-tutorial-load-word-document-in-java/)
 ### [Konfiguracja LoadOptions dla ostrzeżeń – Kompletny przewodnik Java](./configure-loadoptions-for-warnings-complete-java-guide/)
 
-### [Jak zapisać plik DOCX w Javie – przewodnik wstawiania kontrolki treści](./how-to-save-docx-file-with-java-insert-content-control-guide/)
-Dowiedz się, jak zapisać plik DOCX w Javie, wstawiając kontrolki treści przy użyciu Aspose.Words for Java.
-
-### [Samouczek podstawiania czcionek Aspose – Obsługa brakujących czcionek](./aspose-font-substitution-tutorial-handle-missing-fonts/)
-Dowiedz się, jak obsługiwać brakujące czcionki i przechwytywać ostrzeżenia o podstawianiu czcionek w Aspose.Words for Java.
+### [Jak skonfigurować kodowanie LoadOptions w Javie](./how-to-configure-loadoptions-encoding-in-java/)
+Dowiedz się, jak ustawić kodowanie przy ładowaniu dokumentów w Aspose.Words for Java.
 
 ## Najczęściej zadawane pytania
 

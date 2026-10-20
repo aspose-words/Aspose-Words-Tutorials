@@ -93,11 +93,13 @@ Java में लोड विकल्प बनाकर गायब फ़�
 ### [चेतावनियों के लिए LoadOptions कॉन्फ़िगर करें – पूर्ण जावा गाइड](./configure-loadoptions-for-warnings-complete-java-guide/)
 Aspose.Words for Java में चेतावनियों को संभालने के लिए LoadOptions को कैसे सेट करें, इस पूर्ण गाइड में जानें।
 
+### [Java में LoadOptions एन्कोडिंग को कॉन्फ़िगर कैसे करें](./how-to-configure-loadoptions-encoding-in-java/)
+
 ### [Aspose.Words for Java में RTF लोड विकल्पों को कॉन्फ़िगर करना](./configuring-rtf-load-options/)
 Aspose.Words for Java में RTF लोड विकल्पों को कॉन्फ़िगर करें। RTF दस्तावेज़ में UTF-8 टेक्स्ट को पहचानना सीखें। कोड उदाहरणों के साथ चरण‑दर‑चरण गाइड।
 
-### [Aspose.Words for Java की शक्ति को अनलॉक करें। टेक्स्ट दस्तावेज़ लोड करना](./loading-text-files/)
-Aspose.Words for Java की शक्ति को अनलॉक करें। टेक्स्ट दस्तावेज़ लोड करना, लिस्ट मैनेज करना, स्पेसेस हैंडल करना और टेक्स्ट डायरेक्शन कंट्रोल करना सीखें।
+### [Aspose.Words की शक्ति को अनलॉक करें। टेक्स्ट दस्तावेज़ लोड करना](./loading-text-files/)
+Aspose.Words की शक्ति को अनलॉक करें। टेक्स्ट दस्तावेज़ लोड करना, लिस्ट मैनेज करना, स्पेसेस हैंडल करना और टेक्स्ट डायरेक्शन कंट्रोल करना सीखें।
 
 ### [Aspose.Words के साथ उन्नत सेविंग विकल्प](./advance-saving-options/)
 Aspose.Words के साथ उन्नत दस्तावेज़ मैनिपुलेशन सीखें। एन्क्रिप्ट करें, मेटा फ़ाइलें हैंडल करें और अधिक। आपका Word दस्तावेज़, आपका तरीका।

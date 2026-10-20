@@ -83,6 +83,15 @@ Leer hoe u een rechthoekige vorm in een Word-document toevoegt met C# en Aspose.
 ### [Leeg Word-document met schaduw maken in Java – Volledige gids](./create-blank-word-with-shadow-in-java-full-guide/)
 Leer hoe u een leeg Word-document met schaduweffect maakt in Java met Aspose.Words.
 
+### [Hoe vormen groeperen in Aspose.Words voor Java](./how-to-group-shapes-in-aspose-words-for-java/)
+Leer hoe u meerdere vormen groepeert in een Word-document met Aspose.Words voor Java.
+
+### [Maak een leeg Word-document en verberg een ingevoegde afbeelding](./create-a-blank-word-document-and-hide-an-inserted-image/)
+Leer hoe u een leeg Word-document maakt en een ingevoegde afbeelding verbergt met Aspose.Words voor Java.
+
+### [Hoe maak je een taartdiagram in een Word-document met Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/)
+Leer hoe u een taartdiagram toevoegt aan een Word-document met Aspose.Words voor Java.
+
 ## Aanvullende bronnen
 
 ## Aanvullende bronnen

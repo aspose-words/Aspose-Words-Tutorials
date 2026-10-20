@@ -142,6 +142,8 @@ Aspose.Words for Java ทำให้การ **บันทึกภาพจ�
 ### [Aspose.Words LoadOptions – กู้ไฟล์ Word ที่เสียใน Java](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 ### [การแทนที่ฟอนต์ Aspose – จัดการฟอนต์ที่หายไป](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 
+### [วิธีกำหนดค่า LoadOptions การเข้ารหัสใน Java](./how-to-configure-loadoptions-encoding-in-java/)
+
 ## คำถามที่พบบ่อย
 
 **Q:** ฉันจะ **บันทึกภาพจาก Word** เอกสารโดยโปรแกรมได้อย่างไร?  

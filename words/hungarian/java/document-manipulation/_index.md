@@ -80,10 +80,8 @@ Tanuld meg, hogyan használd a strukturált dokumentumcímkéket (SDT) az Aspose
 Ismerd meg, hogyan javíthatod a dokumentumok formázását az Aspose.Words for Java segítségével. Fedezz fel stílusokat, témákat és sok mást ebben az átfogó útmutatóban forráskódpéldákkal.
 ### [Tartalomjegyzék generálása az Aspose.Words programban Java-hoz](./generating-table-of-contents/)
 Tanuld meg, hogyan hozhatsz létre és szabhatsz testre tartalomjegyzéket (TOC) az Aspose.Words for Java segítségével. Készíts könnyedén szervezett és professzionális dokumentumokat.
-
 ### [PDF hozzáférhetőségi címkézés Java-ban – Hozzon létre hozzáférhető PDF-eket](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Ismerje meg, hogyan lehet PDF-eket hozzáférhetővé tenni Java-ban az Aspose.Words segítségével, címkézéssel és szabványos megoldásokkal.
-
 ### [Dokumentumok védelme az Aspose.Words for Java programban](./protecting-documents/)
 Ismerje meg, hogyan teheti biztonságossá Java Word-dokumentumait az Aspose.Words for Java segítségével. Védje adatait jelszóval és egyebekkel.
 ### [Dokumentumok oldalakra osztása az Aspose.Words for Java programban](./splitting-documents-into-pages/)
@@ -108,6 +106,11 @@ Engedd szabadjára az Aspose.Words erejét Java-ban. Fődokumentum-beállításo
 Optimalizálja a dokumentumkezelést az Aspose.Words for Java segítségével. Tanulja meg, hogyan kell dolgozni a dokumentumok tulajdonságaival, hogyan adhat hozzá egyéni metaadatokat és sok mást ebben az átfogó oktatóanyagban.
 ### [Webbővítmények használata az Aspose.Words Java-ban](./using-web-extensions/)
 Dokumentumok fejlesztése webbővítményekkel az Aspose.Words for Java programban. Tanulja meg, hogyan integrálja zökkenőmentesen a webes tartalmakat. 
+### [Üres DOCX létrehozása programozottan és parancsgomb hozzáadása](./create-a-blank-docx-programmatically-and-add-a-command-butto/)
+Üres DOCX dokumentum létrehozása és parancsgomb beillesztése Java-ban.
+
+### [Üres Word-dokumentum létrehozása és tartalomvezérlő hozzáadása C#-ban](./create-blank-word-document-and-add-content-control-in-c/)
+Ismerje meg, hogyan hozhat létre üres Word-dokumentumot és adhat hozzá tartalomvezérlőt C#-ban az Aspose.Words segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

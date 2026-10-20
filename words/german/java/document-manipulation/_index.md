@@ -106,6 +106,9 @@ Optimieren Sie Ihr Dokumentenmanagement mit Aspose.Words für Java. Lernen Sie i
 Optimieren Sie Dokumente mit Web-Erweiterungen in Aspose.Words für Java. Lernen Sie, webbasierte Inhalte nahtlos zu integrieren. 
 ### [PDF-Zugänglichkeits-Tagging in Java – Barrierefreie PDFs generieren](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java PDFs barrierefrei taggen und zugängliche Dokumente erstellen.
+### [Leeres Word-Dokument erstellen und Inhaltssteuerelement hinzufügen in C#](./create-blank-word-document-and-add-content-control-in-c/)
+Erstellen Sie ein leeres Word-Dokument und fügen Sie ein Inhaltssteuerelement mit C# hinzu.
+### [Leeres DOCX programmgesteuert erstellen und einen Befehlsbutton hinzufügen](./create-a-blank-docx-programmatically-and-add-a-command-butto/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

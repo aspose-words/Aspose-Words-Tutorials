@@ -60,6 +60,9 @@ Dowiedz się, jak dodać cień do kształtu w dokumencie Word przy użyciu Aspos
 ### [Grupowanie kształtów w Wordzie przy użyciu Javy – Kompletny przewodnik krok po kroku](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Dowiedz się, jak grupować kształty w dokumentach Word przy użyciu Aspose.Words dla Java.
 
+### [Jak grupować kształty w Aspose.Words dla Javy](./how-to-group-shapes-in-aspose-words-for-java/)
+Dowiedz się, jak grupować kształty w dokumentach Word przy użyciu Aspose.Words dla Javy.
+
 ### [Utwórz dokument Word w Javie – Dodaj kształt z efektem cienia](./create-word-document-java-add-shape-with-shadow-effect/)
 Dowiedz się, jak dodać kształt z efektem cienia do dokumentu Word przy użyciu Aspose.Words dla Java.
 
@@ -67,7 +70,7 @@ Dowiedz się, jak dodać kształt z efektem cienia do dokumentu Word przy użyci
 Kompletny przewodnik pokazujący, jak w Javie utworzyć prostokątny kształt przy użyciu Aspose.Words.
 
 ### [Jak wstawić grupowy kształt w Javie – kompletny przewodnik](./how-to-insert-group-shape-in-java-complete-guide/)
-Dowiedz się, jak dodać i zarządzać grupowymi kształtami w dokumentach Word przy użyciu Aspose.Words dla Java.
+Dowiedz się, jak dodać i zarządzać grupowymi kształtami w dokumentach Word przy użyciem Aspose.Words dla Java.
 
 ### [Utwórz pusty dokument Word z grupowanymi prostokątami – przewodnik C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
 Dowiedz się, jak utworzyć pusty dokument Word i dodać grupowane prostokąty przy użyciu Aspose.Words w C#.
@@ -82,6 +85,12 @@ Dowiedz się, jak wstawiać obrazy do dokumentów Word przy użyciu Aspose.Words
 Kompletny przewodnik, jak dodać prostokątny kształt do dokumentu Word przy użyciu C# i Aspose.Words.
 ### [Utwórz pusty dokument Word w Javie – Pełny przewodnik z efektem cienia](./create-blank-word-with-shadow-in-java-full-guide/)
 Dowiedz się, jak w Javie utworzyć pusty dokument Word i dodać do niego cień, korzystając z Aspose.Words.
+
+### [Utwórz pusty dokument Word i ukryj wstawiony obraz](./create-a-blank-word-document-and-hide-an-inserted-image/)
+Dowiedz się, jak w Javie utworzyć pusty dokument Word i ukryć wstawiony obraz przy użyciu Aspose.Words.
+
+### [Jak utworzyć wykres kołowy w dokumencie Word przy użyciu Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/)
+Dowiedz się, jak wstawić wykres kołowy do dokumentu Word przy użyciu Aspose.Words dla Java.
 
 ## Dodatkowe zasoby
 

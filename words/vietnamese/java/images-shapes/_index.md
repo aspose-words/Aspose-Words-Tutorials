@@ -60,6 +60,9 @@ Hướng dẫn cách chèn và áp dụng hiệu ứng bóng cho các hình dạ
 ### [Nhóm các hình dạng trong Word với Java – Hướng dẫn chi tiết từng bước](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Hướng dẫn chi tiết cách nhóm các hình dạng trong tài liệu Word bằng Java.
 
+### [Cách nhóm các hình dạng trong Aspose.Words cho Java](./how-to-group-shapes-in-aspose-words-for-java/)
+Hướng dẫn chi tiết cách nhóm các hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
+
 ### [Tạo tài liệu Word bằng Java – Thêm hình dạng với hiệu ứng bóng](./create-word-document-java-add-shape-with-shadow-effect/)
 Hướng dẫn cách chèn hình dạng có bóng vào tài liệu Word bằng Aspose.Words cho Java.
 
@@ -82,6 +85,12 @@ Hướng dẫn chi tiết cách chèn hình ảnh vào tài liệu Word bằng A
 Hướng dẫn chi tiết cách chèn hình chữ nhật vào tài liệu Word bằng C# sử dụng Aspose.Words.
 ### [Tạo tài liệu Word trống với bóng trong Java – Hướng dẫn đầy đủ](./create-blank-word-with-shadow-in-java-full-guide/)
 Hướng dẫn chi tiết cách tạo tài liệu Word trống có hiệu ứng bóng bằng Aspose.Words cho Java.
+
+### [Tạo tài liệu Word trống và ẩn hình ảnh đã chèn](./create-a-blank-word-document-and-hide-an-inserted-image/)
+Hướng dẫn chi tiết cách tạo tài liệu Word trống và ẩn hình ảnh đã chèn bằng Aspose.Words cho Java.
+
+### [Cách tạo biểu đồ tròn trong tài liệu Word bằng Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/)
+Hướng dẫn chi tiết cách tạo biểu đồ tròn trong tài liệu Word bằng Aspose.Words.
 
 ## Tài nguyên bổ sung
 

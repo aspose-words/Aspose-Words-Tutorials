@@ -33,13 +33,16 @@ Aspose.Words Java 代码教程
 
 ### [如何使用 Aspose.Words for Java 将文档页面渲染为缩略图](./render-word-pages-thumbnails-aspose-java/)
 了解如何使用 Aspose.Words for Java 生成高质量的 Word 文档缩略图和自定义大小的位图。立即提升您的文档处理能力。
+
 ### [使用 Aspose.Words for Java 创建 Word 文档 – 添加带阴影效果的矩形形状](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 演示如何在 Word 文档中使用 Aspose.Words for Java 添加带阴影效果的矩形形状。
 
 ### [在 Word 中为形状添加阴影 – 完整 Aspose.Words 指南](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 学习如何在 Word 文档中为形状添加阴影效果，完整演示 Aspose.Words 的使用方法。
+
 ### [在 C# 中为形状应用阴影效果 – 步骤指南](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 学习如何在 C# 中使用 Aspose.Words 为形状添加阴影效果的详细步骤。
+
 ### [如何在 Aspose.Words 中为形状设置阴影 – 完整指南](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 了解在 Aspose.Words for Java 中为形状添加阴影并自定义阴影属性，以实现更具视觉冲击力的文档。
 
@@ -51,6 +54,7 @@ Aspose.Words Java 代码教程
 
 ### [使用 Aspose.Words for Java 创建文本框形状 – 添加阴影的完整指南](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
 演示如何在 Word 文档中使用 Aspose.Words for Java 创建文本框形状并添加阴影效果。
+
 ### [使用 C# 完整指南创建带矩形形状的 PDF 文档](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
 了解如何使用 Aspose.Words for C# 在 PDF 文档中插入矩形形状并进行自定义设置。
 
@@ -59,6 +63,9 @@ Aspose.Words Java 代码教程
 
 ### [在 Java 中使用 Aspose.Words 对 Word 进行组合形状 – 完整分步指南](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 演示如何在 Word 文档中使用 Java 将多个形状组合在一起。
+
+### [如何在 Aspose.Words for Java 中对形状进行分组](./how-to-group-shapes-in-aspose-words-for-java/)
+学习在 Aspose.Words for Java 中将多个形状组合为组的步骤和代码示例。
 
 ### [使用 Aspose.Words for Java 创建 Word 文档 – 添加带阴影效果的形状](./create-word-document-java-add-shape-with-shadow-effect/)
 演示如何在 Word 文档中使用 Aspose.Words for Java 添加带阴影效果的形状。
@@ -80,8 +87,15 @@ Aspose.Words Java 代码教程
 
 ### [在 Word 中使用 C# 插入矩形形状 – 完整指南](./insert-rectangle-shape-in-word-using-c-complete-guide/)
 完整的 C# 示例，演示如何在 Word 文档中插入矩形形状。
+
 ### [在 Java 中创建带阴影的空白 Word 文档 – 完整指南](./create-blank-word-with-shadow-in-java-full-guide/)
 本指南详细演示如何使用 Aspose.Words for Java 创建一个带阴影效果的空白 Word 文档。
+
+### [创建空白 Word 文档并隐藏插入的图像](./create-a-blank-word-document-and-hide-an-inserted-image/)
+演示如何在 Word 文档中创建空白文档并隐藏已插入的图像。
+
+### [使用 Aspose.Words 在 Word 文档中创建饼图](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/)
+演示如何在 Word 文档中使用 Aspose.Words 创建饼图。
 
 ## 其他资源
 

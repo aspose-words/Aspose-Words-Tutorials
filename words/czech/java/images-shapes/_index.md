@@ -69,19 +69,17 @@ Kompletní návod, jak v Javě pomocí Aspose.Words vytvořit a nastavit obdéln
 ### [Jak vložit skupinový tvar v Javě – Kompletní průvodce](./how-to-insert-group-shape-in-java-complete-guide/)
 Naučte se, jak vložit a spravovat skupinové tvary v dokumentech Word pomocí Aspose.Words pro Javu.
 
-### [Vytvořit prázdný dokument Word se seskupenými obdélníky – průvodce pro C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
-Naučte se vytvořit prázdný dokument Word se seskupenými obdélníky pomocí Aspose.Words v C#.
+### [Vytvořit prázdný dokument Word a skrýt vložený obrázek](./create-a-blank-word-document-and-hide-an-inserted-image/)
+Naučte se, jak vytvořit prázdný dokument Word a skrýt do něj vložený obrázek pomocí Aspose.Words pro Javu.
 
-### [Vložit obdélníkový tvar v Javě – seskupit a umístit tvary](./insert-rectangle-shape-in-java-group-and-position-shapes/)
-Naučte se, jak seskupit a přesně umístit obdélníkové tvary v dokumentu Word pomocí Aspose.Words pro Javu.
-
-### [Vložit obrázek do Wordu – Aspose.Words krok za krokem](./insert-image-into-word-aspose-words-step-by-step-guide/)
-Naučte se, jak vložit obrázek do dokumentu Word pomocí Aspose.Words pro Javu krok za krokem.
-
-### [Vložit obdélníkový tvar do Wordu pomocí C# – kompletní průvodce](./insert-rectangle-shape-in-word-using-c-complete-guide/)
-Kompletní průvodce, jak vložit obdélníkový tvar do dokumentu Word pomocí C# a Aspose.Words.
 ### [Vytvořit prázdný Word s stínem v Javě – Kompletní průvodce](./create-blank-word-with-shadow-in-java-full-guide/)
 Naučte se, jak vytvořit prázdný dokument Word s stínovým efektem v Javě pomocí Aspose.Words.
+
+### [Jak seskupit tvary v Aspose.Words pro Javu](./how-to-group-shapes-in-aspose-words-for-java/)
+Naučte se, jak seskupit tvary v dokumentech Word pomocí Aspose.Words pro Javu.
+
+### [Jak vytvořit koláčový graf v dokumentu Word pomocí Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/)
+Naučte se, jak vytvořit koláčový graf v dokumentu Word pomocí Aspose.Words.
 
 ## Další zdroje
 

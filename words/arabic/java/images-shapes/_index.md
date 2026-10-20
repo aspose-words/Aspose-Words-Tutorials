@@ -60,6 +60,9 @@
 ### [تجميع الأشكال في Word باستخدام Java – دليل شامل خطوة بخطوة](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 دليل كامل خطوة بخطوة لتجميع الأشكال في مستندات Word باستخدام Aspose.Words for Java
 
+### [كيفية تجميع الأشكال في Aspose.Words للـ Java](./how-to-group-shapes-in-aspose-words-for-java/)
+تعلم خطوة بخطوة كيفية تجميع الأشكال في مستندات Word باستخدام Aspose.Words للـ Java
+
 ### [إنشاء مستند Word في Java – إضافة شكل مع تأثير الظل](./create-word-document-java-add-shape-with-shadow-effect/)
 تعلم كيفية إضافة شكل مع تأثير الظل إلى مستند Word باستخدام Aspose.Words لجافا
 
@@ -82,6 +85,12 @@
 تعلم كيفية إضافة شكل مستطيل إلى مستند Word باستخدام C# مع شرح شامل لجميع الخصائص
 ### [إنشاء مستند Word فارغ بظل في Java – دليل كامل](./create-blank-word-with-shadow-in-java-full-guide/)
 دليل شامل لإنشاء مستند Word فارغ مع تأثير الظل باستخدام Aspose.Words لجافا
+
+### [إنشاء مستند Word فارغ وإخفاء صورة مُدرَجة](./create-a-blank-word-document-and-hide-an-inserted-image/)
+دليل خطوة بخطوة لإنشاء مستند Word فارغ وإخفاء صورة مُدرَجة باستخدام Aspose.Words لجافا
+
+### [كيفية إنشاء مخطط دائري في مستند Word باستخدام Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/)
+تعلم كيفية إنشاء مخطط دائري داخل مستند Word باستخدام Aspose.Words
 
 ## موارد إضافية
 

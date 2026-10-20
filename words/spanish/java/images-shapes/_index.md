@@ -32,7 +32,7 @@ En el ámbito del procesamiento de documentos, la integración de imágenes y fo
 Un tutorial de código para Aspose.Words Java
 
 ### [Cómo representar páginas de documentos como miniaturas usando Aspose.Words para Java](./render-word-pages-thumbnails-aspose-java/)
-Aprenda a generar miniaturas de alta calidad y mapas de bits de tamaño personalizado de documentos de Word con Aspose.Words para Java. Mejore sus capacidades de gestión de documentos hoy mismo.
+Aprende a generar miniaturas de alta calidad y mapas de bits de tamaño personalizado de documentos de Word con Aspose.Words para Java. Mejore sus capacidades de gestión de documentos hoy mismo.
 ### [Crear documento Word en Java – Añadir forma de rectángulo con efecto de sombra](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Aprenda a crear un documento Word en Java y agregar una forma rectangular con sombra usando Aspose.Words.
 
@@ -60,6 +60,9 @@ Aprenda a crear un documento Word en Java y agregar sombra a una forma usando As
 ### [Agrupar formas en Word con Java – Guía completa paso a paso](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Aprenda a agrupar y manipular formas en documentos Word usando Aspose.Words para Java con una guía paso a paso.
 
+### [Cómo agrupar formas en Aspose.Words para Java](./how-to-group-shapes-in-aspose-words-for-java/)
+Aprenda a agrupar múltiples formas en documentos Word usando Aspose.Words para Java.
+
 ### [Crear documento Word en Java – Añadir forma con efecto de sombra](./create-word-document-java-add-shape-with-shadow-effect/)
 Aprenda a crear un documento Word en Java y agregar una forma con efecto de sombra usando Aspose.Words.
 
@@ -82,6 +85,12 @@ Aprenda a insertar imágenes en documentos Word usando Aspose.Words con esta gu�
 Aprenda a insertar y personalizar una forma rectangular en documentos Word mediante C# con Aspose.Words.
 ### [Crear documento Word en blanco con sombra en Java – Guía completa](./create-blank-word-with-shadow-in-java-full-guide/)
 Aprenda a crear un documento Word vacío con efecto de sombra en Java usando Aspose.Words.
+
+### [Crear un documento Word en blanco y ocultar una imagen insertada](./create-a-blank-word-document-and-hide-an-inserted-image/)
+Aprenda a crear un documento Word vacío y ocultar una imagen insertada usando Aspose.Words para Java.
+
+### [Cómo crear un gráfico circular en un documento Word con Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/)
+Aprenda a generar un gráfico de pastel en documentos Word usando Aspose.Words para Java.
 
 ## Recursos adicionales
 

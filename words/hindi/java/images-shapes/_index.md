@@ -36,6 +36,7 @@ Java के लिए Aspose.Words के साथ Word दस्तावे�
 
 ### [जावा में Word दस्तावेज़ बनाएं – आयताकार आकार को छाया प्रभाव के साथ जोड़ें](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ में आयताकार आकार को छाया प्रभाव के साथ जोड़ने का तरीका सीखें।
+
 ### [जावा के साथ Word में आयताकार आकृति बनाएं – पूर्ण गाइड](./create-rectangle-shape-in-word-with-java-full-guide/)
 जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ में आयताकार आकृति जोड़ने और अनुकूलित करने की पूरी प्रक्रिया सीखें।
 
@@ -44,6 +45,7 @@ Word दस्तावेज़ में आकृति पर छाया �
 
 ### [C# में आकृति पर शैडो इफ़ेक्ट लागू करें – चरण‑दर‑चरण गाइड](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 C# में Aspose.Words का उपयोग करके आकृति पर शैडो इफ़ेक्ट जोड़ने के लिए विस्तृत चरण और कोड उदाहरण।
+
 ### [Aspose.Words में आकृति पर छाया कैसे सेट करें – पूर्ण गाइड](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Aspose.Words में आकृति पर छाया लागू करने के चरण-दर-चरण निर्देश और कोड उदाहरण।
 
@@ -58,6 +60,7 @@ Aspose.Words for Java का उपयोग करके वर्ड दस्
 
 ### [जावा में Word दस्तावेज़ बनाएं – आकृति में छाया जोड़ने का गाइड](./create-word-document-java-add-shadow-to-shape-guide/)
 जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ में आकृति पर छाया प्रभाव जोड़ने का तरीका सीखें।
+
 ### [आयताकार आकार के साथ PDF दस्तावेज़ बनाना – पूर्ण C# गाइड](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
 C# में Aspose.PDF का उपयोग करके आयताकार आकार के साथ PDF दस्तावेज़ बनाने का पूर्ण मार्गदर्शन।
 
@@ -84,8 +87,17 @@ Aspose.Words for Java का उपयोग करके Word दस्ता�
 
 ### [C# का उपयोग करके Word में आयताकार आकार सम्मिलित करें – पूर्ण मार्गदर्शिका](./insert-rectangle-shape-in-word-using-c-complete-guide/)
 C# के साथ Aspose.Words का उपयोग करके Word में आयताकार आकार जोड़ने का पूर्ण गाइड।
+
 ### [जावा में शैडो के साथ खाली वर्ड दस्तावेज़ बनाएं – पूर्ण गाइड](./create-blank-word-with-shadow-in-java-full-guide/)
 जावा में Aspose.Words का उपयोग करके शैडो प्रभाव के साथ एक खाली Word दस्तावेज़ बनाने की पूरी प्रक्रिया सीखें।
+
+### [Aspose.Words for Java में आकृतियों को समूहित करने का तरीका](./how-to-group-shapes-in-aspose-words-for-java/)
+Aspose.Words for Java का उपयोग करके कई आकृतियों को समूहित करने की चरण‑दर‑शरण प्रक्रिया सीखें।
+
+### [एक खाली Word दस्तावेज़ बनाएं और सम्मिलित छवि को छुपाएँ](./create-a-blank-word-document-and-hide-an-inserted-image/)
+Aspose.Words for Java का उपयोग करके एक खाली Word फ़ाइल बनाएं और उसमें डाली गई छवि को छुपाने का तरीका सीखें।
+
+### [Aspose.Words के साथ Word दस्तावेज़ में पाई चार्ट कैसे बनाएं](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/)
 
 ## अतिरिक्त संसाधन
 

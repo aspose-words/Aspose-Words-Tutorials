@@ -105,7 +105,11 @@ Lås upp kraften i Aspose.Words för Java. Behärska dokumentalternativ och inst
 ### [Använda dokumentegenskaper i Aspose.Words för Java](./using-document-properties/)
 Optimera dokumenthanteringen med Aspose.Words för Java. Lär dig arbeta med dokumentegenskaper, lägga till anpassade metadata och mer i den här omfattande handledningen.
 ### [Använda webbtillägg i Aspose.Words för Java](./using-web-extensions/)
-Förbättra dokument med webbtillägg i Aspose.Words för Java. Lär dig att integrera webbaserat innehåll sömlöst. 
+Förbättra dokument med webbtillägg i Aspose.Words för Java. Lär dig att integrera webbaserat innehåll sömlöst.
+### [Skapa tomt Word-dokument och lägg till innehållskontroll i C#](./create-blank-word-document-and-add-content-control-in-c/)
+Skapa ett tomt Word-dokument och infoga en innehållskontroll med Aspose.Words för C#.
+### [Skapa ett tomt DOCX-programmatiskt och lägg till en kommandoknapp](./create-a-blank-docx-programmatically-and-add-a-command-butto/)
+Lär dig hur du skapar ett tomt DOCX-dokument via kod och lägger till en kommandoknapp med Aspose.Words för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

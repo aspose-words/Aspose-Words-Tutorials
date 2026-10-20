@@ -88,6 +88,7 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 了解如何在 Java 中创建加载选项以检测缺失字体并正确加载 DOCX 文档。
 
 ### [Configuring RTF Load Options in Aspose.Words for Java](./configuring-rtf-load-options/)
+### [如何在 Java 中配置 LoadOptions 编码](./how-to-configure-loadoptions-encoding-in-java/)
 ### [Loading Text Files with Aspose.Words for Java](./loading-text-files/)
 释放 Aspose.Words for Java 的强大功能。学习加载文本文档、管理列表、处理空格以及控制文本方向。
 

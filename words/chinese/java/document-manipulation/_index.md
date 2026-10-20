@@ -106,6 +106,9 @@ Aspose.Words for Java 是一款功能强大且用途广泛的 API，允许开发
 使用 Aspose.Words for Java 中的 Web 扩展功能增强文档。学习如何无缝集成基于 Web 的内容。 
 ### [在 Java 中进行 PDF 可访问性标记 – 生成可访问的 PDF](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 学习如何使用 Aspose.Words for Java 为 PDF 文档添加可访问性标签，生成符合标准的可访问 PDF。
+### [在 C# 中创建空白 Word 文档并添加内容控件](./create-blank-word-document-and-add-content-control-in-c/)
+### [以编程方式创建空白 DOCX 并添加命令按钮](./create-a-blank-docx-programmatically-and-add-a-command-butto/)
+演示如何使用 Aspose.Words for Java 创建空白 DOCX 并在其中插入命令按钮。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -131,6 +131,11 @@ Vylepšete dokumenty pomocí webových rozšíření v Aspose.Words pro Javu. Na
 ### [PDF označování přístupnosti v Javě – Generování přístupných PDF](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Naučte se, jak pomocí Aspose.Words pro Javu označovat PDF pro přístupnost a generovat přístupné PDF dokumenty.
 
+### [Vytvoření prázdného dokumentu Word a přidání ovládacího prvku v C#](./create-blank-word-document-and-add-content-control-in-c/)
+
+### [Vytvoření prázdného DOCX programově a přidání tlačítka příkazu](./create-a-blank-docx-programmatically-and-add-a-command-butto/)
+Naučte se programově vytvořit prázdný dokument DOCX a přidat do něj tlačítko příkazu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

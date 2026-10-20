@@ -77,8 +77,11 @@ Step-by-step guide to create a PDF with a rectangle shape using Aspose.Words for
 ### [Create Word Document Java – Add Shadow to Shape Guide](./create-word-document-java-add-shadow-to-shape-guide/)
 Learn how to add a shadow to a shape in a Word document using Aspose.Words for Java.
 
-### [Group Shapes in Word with Java – Complete Step-by-Step Guide](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+### [Group Shapes in Word with Java – Complete Step‑by‑Step Guide](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Learn how to group shapes in Word documents using Aspose.Words for Java with a detailed step-by-step guide.
+
+### [How to group shapes in Aspose.Words for Java](./how-to-group-shapes-in-aspose-words-for-java/)
+Learn how to group shapes in Word documents using Aspose.Words for Java.
 
 ### [Create Word Document Java – Add Shape with Shadow Effect](./create-word-document-java-add-shape-with-shadow-effect/)
 Learn how to add a shape with a shadow effect to a Word document using Aspose.Words for Java.
@@ -102,6 +105,12 @@ Step-by-step guide on inserting images into Word documents using Aspose.Words fo
 Learn how to insert a rectangle shape into a Word document using Aspose.Words for C# with a step-by-step guide.
 ### [Create blank word with shadow in Java – Full guide](./create-blank-word-with-shadow-in-java-full-guide/)
 Learn how to create a blank Word document with a shadow effect using Aspose.Words for Java in this comprehensive guide.
+
+### [Create a blank Word document and hide an inserted image](./create-a-blank-word-document-and-hide-an-inserted-image/)
+Learn how to create a blank Word document and hide an inserted image using Aspose.Words for Java.
+
+### [How to create pie chart in a Word document with Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/)
+Learn how to generate a pie chart inside a Word document using Aspose.Words for Java.
 
 ## Additional Resources
 

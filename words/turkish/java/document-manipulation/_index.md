@@ -90,6 +90,8 @@ Aspose.Words for Java'da belgeleri etkili bir şekilde nasıl böleceğinizi ö�
 Aspose.Words for Java ile belgeleri HTML sayfalarına nasıl böleceğinizi öğrenin. Sorunsuz belge dönüşümü için adım adım kılavuzumuzu izleyin.
 ### [Aspose.Words for Java'da DocumentBuilder Kullanarak İçerik Ekleme](./adding-content-using-documentbuilder/)
 Java için Aspose.Words ile Ana Belge Oluşturma. Metin, Tablo, Resim ve Daha Fazlasını Eklemek İçin Adım Adım Kılavuz. Zahmetsizce Çarpıcı Word Belgeleri Oluşturun.
+### [Java için Aspose.Words'de Boş bir DOCX Oluşturma ve Komut Düğmesi Ekleme](./create-a-blank-docx-programmatically-and-add-a-command-butto/)
+Aspose.Words for Java kullanarak programlı bir şekilde boş DOCX dosyası oluşturun ve içine komut düğmesi ekleyin.
 ### [Java için Aspose.Words'de Belgeleri Klonlama ve Birleştirme](./cloning-and-combining-documents/)
 Aspose.Words for Java'da belgeleri nasıl klonlayacağınızı ve birleştireceğinizi öğrenin. Kaynak kod örnekleriyle adım adım kılavuz.
 ### [Java için Aspose.Words'de Belgeleri Karşılaştırma](./comparing-documents/)
@@ -106,6 +108,7 @@ Aspose.Words for Java ile belge yönetimini optimize edin. Bu kapsamlı eğitimd
 Aspose.Words for Java'da Web Uzantılarıyla Belgeleri Geliştirin. Web tabanlı içeriği sorunsuz bir şekilde entegre etmeyi öğrenin. 
 ### [Java için PDF erişilebilirlik etiketleme – Erişilebilir PDF'ler Oluşturma](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Aspose.Words for Java kullanarak PDF'leri erişilebilir hale getirmek için etiket eklemeyi ve yapılandırmayı öğrenin.
+### [C# ile Boş Word Belgesi Oluşturma ve İçerik Kontrolü Ekleme](./create-blank-word-document-and-add-content-control-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
