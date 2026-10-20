@@ -58,6 +58,8 @@ Erfahren Sie, wie Sie mit Aspose.Words für Python Schatten zu Formen in Word‑
 Erfahren Sie, wie Sie in Aspose.Words für Python Schatten zu Elementen hinzufügen und das Layout Ihrer Dokumente verbessern.
 ### [Rechteck in PDF mit Aspose.Words für Python zeichnen](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
 Erfahren Sie, wie Sie mit Aspose.Words für Python ein Rechteck in ein PDF-Dokument einfügen.
+### [Wie man Schatten zu Formen in Python hinzufügt – vollständiger Aspose.Words-Leitfaden](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Python Schatten zu Formen hinzufügen und das Layout Ihrer Dokumente verbessern.
 
 ## Weitere Ressourcen
 

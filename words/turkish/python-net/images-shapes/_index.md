@@ -64,6 +64,8 @@ Python ve Aspose.Words kullanarak Word belgelerindeki şekillere gölge eklemeyi
 Python kullanarak Aspose.Words'ta gölge ayarlamayı adım adım öğrenin.
 ### [Aspose.Words for Python ile PDF'de Dikdörtgen Çizme](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
 Aspose.Words for Python kullanarak PDF belgelerine dikdörtgen şekli eklemeyi ve konumlandırmayı öğrenin.
+### [Python'da Şekle Gölge Ekleme – Tam Aspose.Words Kılavuzu](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
+Python kullanarak Word belgelerindeki şekillere gölge eklemeyi adım adım öğrenin.
 
 ## Ek Kaynaklar
 

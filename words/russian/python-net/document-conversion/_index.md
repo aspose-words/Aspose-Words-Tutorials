@@ -121,6 +121,16 @@
 ### [Экспорт уравнений Word в LaTeX с Aspose.Words – пошаговое руководство](./export-word-equations-latex-with-aspose-words-step-by-step-g/)
 Узнайте, как экспортировать уравнения из Word в LaTeX с помощью Aspose.Words шаг за шагом.
 ### [Экспорт DOCX в PDF – создание доступного PDF](./export-docx-to-pdf-generate-accessible-pdf/)
+### [Конвертация docx в txt в Python — полное руководство](./convert-docx-to-txt-in-python-full-guide/)
+Узнайте, как с помощью Aspose.Words для Python преобразовать файлы docx в txt.
+### [Сохранить Word как PDF с Aspose.Words — руководство для Python](./save-word-as-pdf-with-aspose-words-python-guide/)
+Узнайте, как с помощью Aspose.Words для Python сохранять документы Word в формате PDF.
+### [Сохранить Word как Markdown с Aspose.Words для Python — пошаговое руководство](./save-word-as-markdown-with-aspose-words-for-python-step-by-s/)
+Узнайте, как с помощью Aspose.Words для Python сохранять документы Word в формате Markdown шаг за шагом.
+### [Сохранить docx как PNG — пошаговое руководство для разработчиков Python](./save-docx-as-png-step-by-step-guide-for-python-developers/)
+Узнайте, как с помощью Aspose.Words для Python преобразовать файлы docx в изображения PNG шаг за шагом.
+### [Загрузка markdown в Python с Aspose.Words — полное руководство](./load-markdown-python-with-aspose-words-full-guide/)
+Узнайте, как загружать markdown в Python с помощью Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

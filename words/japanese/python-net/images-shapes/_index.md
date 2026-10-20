@@ -62,6 +62,8 @@ Python を使用して Word 文書内の図形に影効果を適用する方法�
 Python で Aspose.Words を使用してテキストや図形に影効果を適用する手順を解説します。
 ### [Aspose.Words for Python で PDF に矩形を描画する](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
 Aspose.Words for Python を使用して PDF に矩形を描画し、カスタム図形をドキュメントに追加する方法を学びます。
+### [Python で図形に影を追加する – 完全 Aspose.Words ガイド](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
+Python を使用して図形に影効果を適用する手順を詳しく解説します。
 
 ## 追加リソース
 

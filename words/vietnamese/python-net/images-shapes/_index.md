@@ -61,6 +61,8 @@ Tìm hiểu cách chèn hình chữ nhật vào tài liệu Word bằng Python v
 Hướng dẫn chi tiết cách thiết lập hiệu ứng bóng cho đối tượng trong tài liệu Word bằng Python và Aspose.Words.
 ### [Vẽ hình chữ nhật trong PDF bằng Aspose.Words cho Python](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
 Hướng dẫn cách vẽ hình chữ nhật vào tệp PDF bằng Aspose.Words cho Python, bao gồm mã mẫu và giải thích chi tiết.
+### [Cách Thêm Bóng Đổ vào Hình dạng trong Python – Hướng Dẫn Đầy Đủ Aspose.Words](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
+Hướng dẫn chi tiết cách thêm bóng đổ vào hình dạng trong tài liệu Word bằng Python và Aspose.Words.
 
 ## Tài nguyên bổ sung
 
