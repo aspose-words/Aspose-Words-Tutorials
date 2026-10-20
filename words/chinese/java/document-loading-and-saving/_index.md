@@ -182,6 +182,8 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 ### [Log Font Substitution Warnings in Java with Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
 学习在 Java 中使用 Aspose.Words 捕获并记录字体替换警告的完整步骤，帮助您监控文档渲染问题。
 
+### [为警告配置 LoadOptions – 完整 Java 指南](./configure-loadoptions-for-warnings-complete-java-guide/)
+
 ## 常见问题
 ### [捕获字体替换警告 – 检测缺失字体](./capture-font-substitution-warnings-detect-missing-fonts/)
 学习如何捕获字体替换警告并检测文档中缺失的字体，以确保文档渲染一致性。

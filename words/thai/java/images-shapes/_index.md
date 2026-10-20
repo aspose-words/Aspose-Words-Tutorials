@@ -58,6 +58,9 @@
 ### [การจัดกลุ่มรูปร่างใน Word ด้วย Java – คู่มือเต็มขั้นตอน](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 เรียนรู้วิธีจัดกลุ่มรูปร่างหลายรูปในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
 
+### [สร้างเอกสาร Word ด้วย Java – เพิ่มรูปทรงพร้อมเงา](./create-word-document-java-add-shape-with-shadow-effect/)
+เรียนรู้วิธีเพิ่มรูปทรงพร้อมเงาในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 ## แหล่งข้อมูลเพิ่มเติม

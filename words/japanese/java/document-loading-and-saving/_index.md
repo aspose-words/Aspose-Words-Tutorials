@@ -85,6 +85,7 @@ Aspose.Words for Java の多様性を探り、さまざまな形式でドキュ�
 ### [Aspose.Words for Java のロードオプションの使用](./using-load-options/)
 
 ### [警告コールバック チュートリアル – JavaでWord文書を読み込む](./warning-callback-tutorial-load-word-document-in-java/)
+### [警告用 LoadOptions の構成 – 完全 Java ガイド](./configure-loadoptions-for-warnings-complete-java-guide/)
 
 ### [Aspose.Words for Java の RTF ロードオプションの設定](./configuring-rtf-load-options/)
 

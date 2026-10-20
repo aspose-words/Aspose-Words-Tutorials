@@ -58,6 +58,9 @@ Aprenda a crear un documento Word en Java y agregar sombra a una forma usando As
 ### [Agrupar formas en Word con Java – Guía completa paso a paso](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Aprenda a agrupar y manipular formas en documentos Word usando Aspose.Words para Java con una guía paso a paso.
 
+### [Crear documento Word en Java – Añadir forma con efecto de sombra](./create-word-document-java-add-shape-with-shadow-effect/)
+Aprenda a crear un documento Word en Java y agregar una forma con efecto de sombra usando Aspose.Words.
+
 ## Recursos adicionales
 
 ## Recursos adicionales

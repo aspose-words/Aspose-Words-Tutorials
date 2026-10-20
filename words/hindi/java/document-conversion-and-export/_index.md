@@ -121,7 +121,6 @@ DOCX को मार्कडाउन में बदलते समय छ�
 Aspose.Words for Java का उपयोग करके docx फ़ाइल को txt में बदलें और LaTeX फ़ॉर्मेट में गणितीय समीकरण निर्यात करें।
 
 ### [DOCX से एक्सेसिबल PDF बनाना – पूर्ण गाइड](./create-accessible-pdf-from-docx-complete-guide/)
-DOCX फ़ाइल को एक्सेसिबल PDF में बदलने की पूरी प्रक्रिया, टैग, संरचना और अनुपालन सेटिंग्स के साथ।
 ### [Java में DOCX को Markdown में बदलते समय इमेजेज को Base64 के रूप में एम्बेड करना](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
 Java में Aspose.Words का उपयोग करके DOCX को Markdown में परिवर्तित करते समय इमेजेज को Base64 एन्कोडेड रूप में एम्बेड करने का चरण‑दर‑स्टेप गाइड।
 
@@ -270,6 +269,12 @@ Java में Aspose.Words का उपयोग करके PDF/UA‑1 म�
 
 ### [PDF/UA‑संगत दस्तावेज़ बनाना – पूर्ण जावा गाइड](./create-pdf-ua-compliant-document-complete-java-guide/)
 Aspose.Words for Java का उपयोग करके PDF/UA‑1 मानकों के अनुरूप दस्तावेज़ बनाने की पूरी प्रक्रिया। चरण‑दर‑स्टेप कोड उदाहरण।
+### [Java docx को PDF में बदलें – Aspose.Words के साथ एक्सेसिबल PDF जेनरेट करें](./java-docx-to-pdf-generate-accessible-pdf-with-aspose-words/)
+Aspose.Words for Java का उपयोग करके docx फ़ाइल को एक्सेसिबल PDF में बदलने की चरण‑दर‑स्टेप प्रक्रिया।
+
+### [Word को Markdown के रूप में सहेजें – DOCX को Markdown में बदलने की पूर्ण गाइड](./save-word-as-markdown-complete-guide-to-convert-docx-to-mark/)
+
+### [DOCX को Markdown में बदलें – पूर्ण जावा ट्यूटोरियल](./convert-docx-to-markdown-complete-java-tutorial/)
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

@@ -140,6 +140,7 @@ As configurações de documentos são a chave para entregar documentos adaptados
 ### [Registrar avisos de substituição de fontes em Java com Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
 ### [Recuperar Documento Word Corrompido Usando Aspose.Words – Guia](./recover-corrupted-word-document-using-aspose-words-guide/)
 ### [Tutorial de Callback de Aviso – Carregar Documento Word em Java](./warning-callback-tutorial-load-word-document-in-java/)
+### [Configurar LoadOptions para Avisos – Guia Java Completo](./configure-loadoptions-for-warnings-complete-java-guide/)
 
 ## Perguntas Frequentes
 

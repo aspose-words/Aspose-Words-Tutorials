@@ -316,6 +316,15 @@ Naučte se, jak pomocí Aspose.Words for Java vytvořit PDF/UA‑1 soubor splňu
 ### [Vytvořit PDF/UA‑kompatibilní dokument – Kompletní průvodce v Javě](./create-pdf-ua-compliant-document-complete-java-guide/)
 Naučte se, jak pomocí Aspose.Words for Java vytvořit PDF/UA‑kompatibilní dokument splňující standardy přístupnosti.
 
+### [Java docx do PDF – Generování přístupného PDF pomocí Aspose.Words](./java-docx-to-pdf-generate-accessible-pdf-with-aspose-words/)
+Naučte se převést DOCX na PDF s podporou přístupnosti a splnit WCAG standardy pomocí Aspose.Words for Java.
+
+### [Uložit Word jako Markdown – Kompletní průvodce konverzí DOCX do Markdownu](./save-word-as-markdown-complete-guide-to-convert-docx-to-mark/)
+Naučte se, jak převést soubory DOCX do formátu Markdown pomocí Aspose.Words pro Java.
+
+### [Převod DOCX do Markdown – Kompletní Java tutoriál](./convert-docx-to-markdown-complete-java-tutorial/)
+Naučte se kompletně převést DOCX do Markdown v Javě pomocí Aspose.Words s podrobnými ukázkami kódu.
+
 ## Často kladené otázky
 
 **Q: Jak přidám vodoznak do existujícího PDF pomocí Aspose.Words?**  

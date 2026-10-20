@@ -134,6 +134,7 @@ Aspose.Words for Java يجعل من السهل **حفظ الصور من Word** �
 ### [تسجيل تحذيرات استبدال الخطوط في Java باستخدام Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
 
 ### [استعادة ملف DOCX تالف في Java – دليل برمجة شامل](./recover-corrupted-docx-in-java-complete-programming-guide/)
+### [تكوين خيارات التحميل للتحذيرات – دليل Java كامل](./configure-loadoptions-for-warnings-complete-java-guide/)
 
 #### الحفظ بصيغ مختلفة
 

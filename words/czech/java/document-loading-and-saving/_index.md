@@ -149,6 +149,9 @@ Naučte se, jak opravit a zpracovat poškozené soubory DOCX v Javě pomocí Asp
 
 ### [Zaznamenání varování o nahrazení fontů v Javě s Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
 
+### [Konfigurace LoadOptions pro varování – Kompletní průvodce v Javě](./configure-loadoptions-for-warnings-complete-java-guide/)
+Naučte se, jak nastavit LoadOptions pro zachycení varování při načítání dokumentů v Aspose.Words for Java.
+
 ## Často kladené otázky
 
 **Q:** Jak mohu programově **uložit obrázky z Wordu** dokumentů?  

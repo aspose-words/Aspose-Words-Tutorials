@@ -145,6 +145,11 @@ Pelajari cara mengekspor dokumen Word ke format Markdown dengan Aspose.Words for
 Pelajari cara mengekspor file DOCX menjadi format Markdown secara lengkap menggunakan Aspose.Words for Java.
 ### [Export Word to Markdown in Java – Save Document as Markdown](./export-word-to-markdown-in-java-save-document-as-markdown/)
 Pelajari cara mengekspor dokumen Word menjadi file Markdown menggunakan Aspose.Words for Java dalam panduan langkah demi langkah.
+### [Simpan Word sebagai Markdown – Panduan Lengkap Mengonversi DOCX ke Markdown](./save-word-as-markdown-complete-guide-to-convert-docx-to-mark/)
+Pelajari cara menyimpan dokumen Word sebagai file Markdown dengan Aspose.Words for Java dalam panduan langkah demi langkah lengkap.
+
+### [Mengonversi DOCX ke Markdown – Tutorial Java Lengkap](./convert-docx-to-markdown-complete-java-tutorial/)
+Pelajari cara mengonversi file DOCX menjadi Markdown secara lengkap menggunakan Aspose.Words for Java dalam panduan langkah demi langkah.
 
 ### [Cara Menyisipkan Gambar dalam Markdown Saat Mengonversi DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Pelajari cara menyisipkan gambar ke dalam file Markdown selama proses konversi DOCX menggunakan Aspose.Words for Java.
@@ -309,6 +314,9 @@ Panduan lengkap untuk menghasilkan file PDF/UA‑1 yang sesuai standar aksesibil
 
 ### [Buat Dokumen PDF/UA yang Mematuhi Standar – Panduan Lengkap Java](./create-pdf-ua-compliant-document-complete-java-guide/)
 Pelajari cara membuat dokumen PDF/UA‑1 yang mematuhi standar aksesibilitas menggunakan Aspose.Words for Java dalam panduan langkah demi langkah.
+
+### [Java docx ke PDF – Membuat PDF Aksesibel dengan Aspose.Words](./java-docx-to-pdf-generate-accessible-pdf-with-aspose-words/)
+Pelajari cara mengonversi DOCX ke PDF yang memenuhi standar aksesibilitas menggunakan Aspose.Words for Java, termasuk tag, teks alternatif, dan struktur dokumen.
 
 ## Pertanyaan yang Sering Diajukan
 

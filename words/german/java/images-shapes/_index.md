@@ -58,6 +58,9 @@ Ein Codebeispiel, das zeigt, wie man in Aspose.Words für Java einer Form einen 
 ### [Gruppieren von Formen in Word mit Java – Vollständige Schritt-für-Schritt-Anleitung](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Ein umfassendes Tutorial, das zeigt, wie man mehrere Formen in einem Word-Dokument mit Aspose.Words für Java gruppiert und verwaltet.
 
+### [Word-Dokument in Java erstellen – Form mit Schatteneffekt hinzufügen](./create-word-document-java-add-shape-with-shadow-effect/)
+Ein Codebeispiel, das zeigt, wie man in Aspose.Words für Java eine Form mit Schatten in ein Word-Dokument einfügt.
+
 ## Weitere Ressourcen
 
 ## Weitere Ressourcen

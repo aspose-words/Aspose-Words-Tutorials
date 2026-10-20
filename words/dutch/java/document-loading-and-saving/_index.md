@@ -189,6 +189,8 @@ Leer hoe je beschadigde docx‑bestanden kunt repareren en verwerken met Aspose.
 ### [Herstel beschadigde DOCX in Java – Complete programmeergids](./recover-corrupted-docx-in-java-complete-programming-guide/)
 Leer hoe je beschadigde DOCX‑bestanden kunt herstellen met Aspose.Words for Java via een volledige programmeergids met voorbeeldcode.
 
+### [LoadOptions configureren voor waarschuwingen – Complete Java-gids](./configure-loadoptions-for-warnings-complete-java-guide/)
+
 ## Veelgestelde vragen
 
 **Q:** Hoe kan ik programmatisch **save images from word** documenten opslaan?  

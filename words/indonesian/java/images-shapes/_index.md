@@ -58,6 +58,9 @@ Pelajari cara menambahkan bayangan pada bentuk di dokumen Word menggunakan Aspos
 ### [Kelompokkan Bentuk di Word dengan Java – Panduan Lengkap Langkah-demi-Langkah](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Pelajari cara mengelompokkan beberapa bentuk menjadi satu grup dalam dokumen Word menggunakan Aspose.Words untuk Java.
 
+### [Buat Dokumen Word Java – Tambahkan Bentuk dengan Efek Bayangan](./create-word-document-java-add-shape-with-shadow-effect/)
+Pelajari cara menambahkan bentuk dengan efek bayangan ke dokumen Word menggunakan Aspose.Words untuk Java.
+
 ## Sumber Daya Tambahan
 
 ## Sumber Daya Tambahan

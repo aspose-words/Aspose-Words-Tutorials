@@ -90,6 +90,9 @@ Aspose.Words में लोड विकल्पों को मास्ट
 ### [Java में लोड विकल्प बनाएं – गायब फ़ॉन्ट का पता लगाएँ और DOCX कैसे लोड करें](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
 Java में लोड विकल्प बनाकर गायब फ़ॉन्ट पहचानें और DOCX फ़ाइल लोड करने का तरीका सीखें।
 
+### [चेतावनियों के लिए LoadOptions कॉन्फ़िगर करें – पूर्ण जावा गाइड](./configure-loadoptions-for-warnings-complete-java-guide/)
+Aspose.Words for Java में चेतावनियों को संभालने के लिए LoadOptions को कैसे सेट करें, इस पूर्ण गाइड में जानें।
+
 ### [Aspose.Words for Java में RTF लोड विकल्पों को कॉन्फ़िगर करना](./configuring-rtf-load-options/)
 Aspose.Words for Java में RTF लोड विकल्पों को कॉन्फ़िगर करें। RTF दस्तावेज़ में UTF-8 टेक्स्ट को पहचानना सीखें। कोड उदाहरणों के साथ चरण‑दर‑चरण गाइड।
 

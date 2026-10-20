@@ -58,6 +58,9 @@ Java kullanarak Word belgesine şekil ekleyip gölge uygulamayı öğrenin.
 ### [Java ile Word'de Şekilleri Gruplama – Tam Adım Adım Kılavuz](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Java kullanarak Word belgelerinde şekilleri gruplamayı ve yönetmeyi öğrenin.
 
+### [Java ile Word Belgesi Oluştur – Gölge Efektiyle Şekil Ekle](./create-word-document-java-add-shape-with-shadow-effect/)
+Java kullanarak Word belgesine gölge efektiyle şekil eklemeyi öğrenin.
+
 ## Ek Kaynaklar
 
 ## Ek Kaynaklar

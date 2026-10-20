@@ -58,6 +58,9 @@
 ### [تجميع الأشكال في Word باستخدام Java – دليل شامل خطوة بخطوة](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 دليل كامل خطوة بخطوة لتجميع الأشكال في مستندات Word باستخدام Aspose.Words for Java
 
+### [إنشاء مستند Word في Java – إضافة شكل مع تأثير الظل](./create-word-document-java-add-shape-with-shadow-effect/)
+تعلم كيفية إضافة شكل مع تأثير الظل إلى مستند Word باستخدام Aspose.Words لجافا
+
 ## موارد إضافية
 
 ## موارد إضافية

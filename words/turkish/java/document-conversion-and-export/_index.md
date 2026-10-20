@@ -156,6 +156,8 @@ Java ve Aspose.Words for Java kullanarak PDF/UA‑1 standartlarına uygun erişi
 
 ### [PDF/UA uyumlu belge oluşturma – Tam Java Rehberi](./create-pdf-ua-compliant-document-complete-java-guide/)
 Java ve Aspose.Words for Java ile PDF/UA uyumlu belge oluşturmayı adım adım öğrenin.
+### [Java docx'ten PDF’e – Aspose.Words ile Erişilebilir PDF Oluşturma](./java-docx-to-pdf-generate-accessible-pdf-with-aspose-words/)
+Aspose.Words for Java kullanarak docx dosyasını tam erişilebilir PDF’e dönüştürün, etiket ekleyin ve erişilebilirlik ayarlarını yapılandırın.
 
 ### [DOCX Dönüştürürken Markdown'a Görüntü Gömme](./how-to-embed-images-in-markdown-when-converting-docx/)
 DOCX dosyalarından Markdown'a dönüştürürken resimleri nasıl gömeceğinizi adım adım öğrenin.
@@ -304,6 +306,12 @@ Java’da Aspose.Words kullanarak bir belgeyi PDF formatına dönüştürmeyi ad
 
 ### [Word'den PNG Oluşturma – Tam Adım‑Adım Kılavuz](./create-png-from-word-complete-step-by-step-guide/)
 Aspose.Words for Java kullanarak bir Word belgesinden PNG görüntüsü oluşturmayı adım adım öğrenin.
+
+### [Word'ü Markdown Olarak Kaydet – DOCX'i Markdown'a Dönüştürme Tam Kılavuzu](./save-word-as-markdown-complete-guide-to-convert-docx-to-mark/)
+Aspose.Words for Java kullanarak DOCX dosyalarını Markdown formatına dönüştürün ve Word belgelerini .md olarak kaydedin.
+
+### [DOCX'i Markdown'a Dönüştürme – Tam Java Öğreticisi](./convert-docx-to-markdown-complete-java-tutorial/)
+DOCX dosyasını Markdown formatına dönüştürmeyi adım adım öğrenin ve Java kod örnekleriyle uygulayın.
 
 ## Sık Sorulan Sorular
 

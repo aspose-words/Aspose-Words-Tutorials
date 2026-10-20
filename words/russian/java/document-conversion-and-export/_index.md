@@ -159,6 +159,8 @@ weight: 22
 Узнайте, как экспортировать документы Word в формат Markdown с помощью Aspose.Words for Java.
 ### [Конвертировать Word в Markdown с Java – Полное руководство](./convert-word-to-markdown-with-java-full-guide/)
 Пошаговое руководство по конвертации документов Word в формат Markdown с использованием Aspose.Words for Java.
+### [Конвертировать DOCX в Markdown – Полное руководство на Java](./convert-docx-to-markdown-complete-java-tutorial/)
+Пошаговое руководство по конвертации DOCX в Markdown с использованием Aspose.Words for Java, включая экспорт формул и изображений.
 
 ### [Как встраивать изображения в Markdown при конвертации DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Узнайте, как сохранять изображения из DOCX при экспорте в Markdown с помощью Aspose.Words for Java.
@@ -329,6 +331,12 @@ weight: 22
 
 ### [Сохранить изображения Word – Преобразовать DOCX в Markdown с Java](./save-word-images-convert-docx-to-markdown-with-java/)
 Сохраните изображения из Word и конвертируйте DOCX в Markdown с помощью Java. Пошаговое руководство.
+
+### [Java docx в PDF – Создание доступного PDF с Aspose.Words](./java-docx-to-pdf-generate-accessible-pdf-with-aspose-words/)
+Пошаговое руководство по конвертации DOCX в доступный PDF с помощью Aspose.Words for Java.
+
+### [Сохранить Word как Markdown – Полное руководство по конвертации DOCX в Markdown](./save-word-as-markdown-complete-guide-to-convert-docx-to-mark/)
+Пошаговое руководство по сохранению документов Word в формате Markdown с использованием Aspose.Words for Java.
 
 ## Часто задаваемые вопросы
 

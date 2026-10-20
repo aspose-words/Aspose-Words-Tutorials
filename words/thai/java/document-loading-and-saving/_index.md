@@ -134,6 +134,7 @@ Aspose.Words for Java ทำให้การ **บันทึกภาพจ�
 ### [บันทึกคำเตือนการแทนที่ฟอนต์ใน Java ด้วย Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
 
 ### [กู้ไฟล์ DOCX ที่เสียใน Java – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./recover-corrupted-docx-in-java-complete-programming-guide/)
+### [กำหนดค่า LoadOptions สำหรับคำเตือน – คู่มือฉบับสมบูรณ์สำหรับ Java](./configure-loadoptions-for-warnings-complete-java-guide/)
 
 ## คำถามที่พบบ่อย
 

@@ -151,6 +151,9 @@ Erfahren Sie, wie Sie Font‑Substitutions‑Warnungen in Java mit Aspose.Words 
 ### [Beschädigtes Word‑Dokument mit Aspose.Words wiederherstellen – Leitfaden](./recover-corrupted-word-document-using-aspose-words-guide/)
 Erfahren Sie, wie Sie beschädigte Word‑Dateien mit Aspose.Words für Java reparieren und wiederherstellen – Schritt‑für‑Schritt‑Anleitung.
 
+### [LoadOptions für Warnungen konfigurieren – Vollständiger Java‑Leitfaden](./configure-loadoptions-for-warnings-complete-java-guide/)
+Erfahren Sie, wie Sie LoadOptions einstellen, um Warnungen beim Laden von Dokumenten in Aspose.Words für Java zu erfassen und zu verwalten.
+
 ## Häufig gestellte Fragen
 
 **Q:** Wie speichere ich programmgesteuert **Bilder aus Word**‑Dokumenten?  

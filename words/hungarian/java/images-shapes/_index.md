@@ -57,6 +57,9 @@ Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentu
 
 ### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shape-with-shadow-effect/)
+Ismerje meg, hogyan adhat hozzá árnyékhatású alakzatot a Word dokumentumhoz Java-ban az Aspose.Words segítségével.
+
 ## További források
 
 ## További források

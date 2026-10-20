@@ -146,6 +146,12 @@ Tanulja meg, hogyan menthet Word dokumentumot markdown formátumba, miközben a 
 Tanulja meg, hogyan konvertálja a DOCX fájlokat Markdown formátumba Java‑val az Aspose.Words segítségével, lépésről‑lépésre.
 ### [Word konvertálása Markdownra Java-val – Teljes útmutató](./convert-word-to-markdown-with-java-full-guide/)
 Tanulja meg, hogyan konvertálja a Word dokumentumokat Markdown formátumba Java és Aspose.Words segítségével, lépésről‑lépésre.
+### [Word mentése Markdown formátumba – Teljes útmutató a DOCX Markdownra konvertálásához](./save-word-as-markdown-complete-guide-to-convert-docx-to-mark/)
+Tanulja meg, hogyan menthet Word dokumentumot Markdown formátumba, és konvertálhatja a DOCX fájlokat markdownra lépésről‑lépésre.
+
+### [DOCX konvertálása Markdownra – Teljes Java útmutató](./convert-docx-to-markdown-complete-java-tutorial/)
+Tanulja meg, hogyan konvertálja a DOCX fájlokat Markdown formátumba Java‑val az Aspose.Words segítségével, lépésről‑lépésre útmutatóval.
+
 
 ### [Aspose Word to PDF – DOCX konvertálása PDF‑be Java‑ban](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Tanulja meg, hogyan konvertálja a DOCX fájlokat PDF‑be Java‑val az Aspose.Words segítségével.
@@ -291,6 +297,9 @@ Tanuld meg, hogyan konvertálj Word dokumentumot PNG képpé Aspose.Words for Ja
 
 ### [Word konvertálása PDF‑be – Hozzáférhető PDF létrehozása](./convert-word-to-pdf-generate-accessible-pdf/)
 Tanuld meg, hogyan konvertálj Word dokumentumot PDF‑be úgy, hogy a kimenet megfeleljen a hozzáférhetőségi szabványoknak.
+
+### [Java docx PDF‑re – Hozzon létre akadálymentes PDF-et az Aspose.Words‑szal](./java-docx-to-pdf-generate-accessible-pdf-with-aspose-words/)
+Tanulja meg, hogyan konvertálja a DOCX fájlokat PDF‑be Java‑val, miközben hozzáférhetőségi szabványoknak megfelelő PDF‑et hoz létre.
 
 ## Gyakran Ismételt Kérdések
 

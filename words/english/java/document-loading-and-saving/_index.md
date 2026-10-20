@@ -103,6 +103,8 @@ Learn how to load and save HTML documents in Java using Aspose.Words for Java. S
 Mastering Load Options in Aspose.Words for Java. Customize document loading, handle encryption, convert shapes, set Word versions, and more for efficient Java document processing.
 
 ### [Create Load Options in Java – Detect Missing Fonts & How to Load DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
+### [Configure LoadOptions for Warnings – Complete Java Guide](./configure-loadoptions-for-warnings-complete-java-guide/)
+Learn how to configure LoadOptions to capture and handle warnings in Aspose.Words for Java, with full code examples.
 
 ### [Configuring RTF Load Options in Aspose.Words for Java](./configuring-rtf-load-options/)
 ### [Configuring RTF Load Options in Aspose.Words for Java]({{< relref "configuring-rtf-load-options/_index.md" >}})

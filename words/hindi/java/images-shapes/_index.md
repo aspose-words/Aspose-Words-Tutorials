@@ -64,6 +64,9 @@ C# में Aspose.PDF का उपयोग करके आयताका�
 ### [जावा के साथ Word में समूह आकृतियाँ – पूर्ण चरण-दर-चरण मार्गदर्शिका](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ में समूह आकृतियों को बनाने और प्रबंधित करने की पूरी गाइड।
 
+### [जावा में Word दस्तावेज़ बनाएं – आकार को छाया प्रभाव के साथ जोड़ें](./create-word-document-java-add-shape-with-shadow-effect/)
+जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ में आकार को छाया प्रभाव के साथ जोड़ने का तरीका सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)

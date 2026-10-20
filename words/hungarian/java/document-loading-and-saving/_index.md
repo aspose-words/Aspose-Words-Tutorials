@@ -83,10 +83,9 @@ A dokumentumbeállítások kulcsfontosságúak a pontos igényekhez igazított k
 ## Kapcsolódó oktatóanyagok – Betöltés, mentés és konvertálás
 ### [HTML dokumentumok betöltése és mentése Aspose.Words for Java‑val](./loading-and-saving-html-documents/)
 ### [Load Options használata Aspose.Words for Java‑ban](./using-load-options/)
-Load Options mesterfogásai az Aspose.Words for Java‑ban. Testreszabott dokumentumbetöltés, titkosítás kezelése, alakzatok konvertálása, Word verziók beállítása és még sok más a hatékony Java dokumentumfeldolgozáshoz.
-
 ### [Load Options létrehozása Java-ban – Hiányzó betűtípusok észlelése és DOCX betöltése](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
 
+### [LoadOptions konfigurálása figyelmeztetésekhez – Teljes Java útmutató](./configure-loadoptions-for-warnings-complete-java-guide/)
 ### [RTF Load Options konfigurálása Aspose.Words for Java‑ban](./configuring-rtf-load-options/)
 RTF Load Options konfigurálása az Aspose.Words for Java‑ban. Tanulja meg, hogyan ismerje fel az UTF‑8 szöveget RTF dokumentumokban. Lépésről‑lépésre útmutató kódrészletekkel.
 

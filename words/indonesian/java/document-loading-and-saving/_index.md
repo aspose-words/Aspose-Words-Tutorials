@@ -194,6 +194,9 @@ Pelajari cara memulihkan file Word yang rusak dengan Aspose.Words melalui pandua
 ### [Tutorial Callback Peringatan – Memuat Dokumen Word di Java](./warning-callback-tutorial-load-word-document-in-java/)
 Pelajari cara menggunakan callback peringatan saat memuat dokumen Word di Java dengan Aspose.Words, termasuk penanganan pesan dan log.
 
+### [Mengonfigurasi LoadOptions untuk Peringatan – Panduan Lengkap Java](./configure-loadoptions-for-warnings-complete-java-guide/)
+Pelajari cara mengonfigurasi LoadOptions untuk menangkap peringatan saat memuat dokumen dengan Aspose.Words untuk Java.
+
 ## Pertanyaan yang Sering Diajukan
 
 **T:** Bagaimana cara saya secara programatis **menyimpan gambar dari word** dokumen?  

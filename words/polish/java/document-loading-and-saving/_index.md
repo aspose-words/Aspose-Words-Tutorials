@@ -151,6 +151,7 @@ Dowiedz się, jak wykrywać ostrzeżenia o brakującej podstawie czcionek w doku
 ### [Odzyskiwanie uszkodzonego dokumentu Word przy użyciu Aspose.Words – Przewodnik](./recover-corrupted-word-document-using-aspose-words-guide/)
 
 ### [Tutorial ostrzeżenia zwrotnego – ładowanie dokumentu Word w Javie](./warning-callback-tutorial-load-word-document-in-java/)
+### [Konfiguracja LoadOptions dla ostrzeżeń – Kompletny przewodnik Java](./configure-loadoptions-for-warnings-complete-java-guide/)
 
 ## Najczęściej zadawane pytania
 

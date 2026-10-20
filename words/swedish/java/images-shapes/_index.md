@@ -58,6 +58,9 @@ Lär dig hur du lägger till en skuggeffekt på en form i ett Word-dokument med 
 ### [Gruppera former i Word med Java – Komplett steg-för-steg-guide](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Lär dig hur du grupperar former i ett Word-dokument med Aspose.Words för Java.
 
+### [Skapa Word-dokument Java – Lägg till form med skuggeffekt](./create-word-document-java-add-shape-with-shadow-effect/)
+Lär dig hur du lägger till en form med skuggeffekt i ett Word-dokument med Aspose.Words för Java.
+
 ## Ytterligare resurser
 
 ## Ytterligare resurser

@@ -58,6 +58,9 @@ Hướng dẫn cách chèn và áp dụng hiệu ứng bóng cho các hình dạ
 ### [Nhóm các hình dạng trong Word với Java – Hướng dẫn chi tiết từng bước](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Hướng dẫn chi tiết cách nhóm các hình dạng trong tài liệu Word bằng Java.
 
+### [Tạo tài liệu Word bằng Java – Thêm hình dạng với hiệu ứng bóng](./create-word-document-java-add-shape-with-shadow-effect/)
+Hướng dẫn cách chèn hình dạng có bóng vào tài liệu Word bằng Aspose.Words cho Java.
+
 ## Tài nguyên bổ sung
 
 ## Tài nguyên bổ sung

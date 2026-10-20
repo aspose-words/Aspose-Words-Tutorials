@@ -58,6 +58,9 @@ Dowiedz się, jak dodać cień do kształtu w dokumencie Word przy użyciu Aspos
 ### [Grupowanie kształtów w Wordzie przy użyciu Javy – Kompletny przewodnik krok po kroku](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Dowiedz się, jak grupować kształty w dokumentach Word przy użyciu Aspose.Words dla Java.
 
+### [Utwórz dokument Word w Javie – Dodaj kształt z efektem cienia](./create-word-document-java-add-shape-with-shadow-effect/)
+Dowiedz się, jak dodać kształt z efektem cienia do dokumentu Word przy użyciu Aspose.Words dla Java.
+
 ## Dodatkowe zasoby
 
 ## Dodatkowe zasoby

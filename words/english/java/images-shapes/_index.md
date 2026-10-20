@@ -77,6 +77,9 @@ Learn how to add a shadow to a shape in a Word document using Aspose.Words for J
 ### [Group Shapes in Word with Java – Complete Step-by-Step Guide](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Learn how to group shapes in Word documents using Aspose.Words for Java with a detailed step-by-step guide.
 
+### [Create Word Document Java – Add Shape with Shadow Effect](./create-word-document-java-add-shape-with-shadow-effect/)
+Learn how to add a shape with a shadow effect to a Word document using Aspose.Words for Java.
+
 ## Additional Resources
 
 ## Additional Resources

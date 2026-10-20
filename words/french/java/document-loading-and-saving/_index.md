@@ -193,6 +193,8 @@ Apprenez à gérer les avertissements lors du chargement d’un document Word en
 ### [Enregistrer les avertissements de substitution de police en Java avec Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
 Apprenez à consigner les avertissements de substitution de police lors du chargement de documents Word en Java avec Aspose.Words.
 
+### [Configurer LoadOptions pour les avertissements – Guide complet Java](./configure-loadoptions-for-warnings-complete-java-guide/)
+
 ## Foire aux questions
 
 **Q:** Comment puis‑je **save images from word** programmatically ?  

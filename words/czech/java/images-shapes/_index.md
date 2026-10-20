@@ -58,6 +58,9 @@ Naučte se, jak přidat stín k tvaru v dokumentu Word pomocí Aspose.Words pro 
 ### [Seskupování tvarů ve Wordu pomocí Javy – Kompletní průvodce krok za krokem](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Naučte se, jak seskupovat tvary v dokumentech Word pomocí Aspose.Words pro Javu s podrobným krok za krokem návodem.
 
+### [Vytvořit Word dokument v Javě – Přidat tvar se stínovým efektem](./create-word-document-java-add-shape-with-shadow-effect/)
+Naučte se, jak přidat tvar se stínovým efektem do Word dokumentu pomocí Aspose.Words pro Javu.
+
 ## Další zdroje
 
 ## Další zdroje

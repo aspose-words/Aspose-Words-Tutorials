@@ -198,6 +198,9 @@ Scopri come individuare le sostituzioni di font mancanti durante l'elaborazione 
 ### [Recupera Documenti Word Corrotti con Aspose.Words – Guida](./recover-corrupted-word-document-using-aspose-words-guide/)
 Impara a ripristinare documenti Word danneggiati usando Aspose.Words per Java in pochi passaggi.
 
+### [Configurare LoadOptions per gli avvisi – Guida completa Java](./configure-loadoptions-for-warnings-complete-java-guide/)
+Impara a configurare le LoadOptions per catturare gli avvisi di sostituzione dei font in Java con Aspose.Words.
+
 ## Domande Frequenti
 
 **D:** Come posso **salvare immagini da word** programmaticamente nei documenti?  

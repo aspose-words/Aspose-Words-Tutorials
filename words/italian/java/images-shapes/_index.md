@@ -58,6 +58,9 @@ Impara a aggiungere un'ombra a una forma in un documento Word usando Aspose.Word
 ### [Raggruppare forme in Word con Java – Guida completa passo passo](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Scopri come raggruppare più forme in un documento Word usando Aspose.Words per Java, con esempi dettagliati.
 
+### [Crea documento Word Java – Aggiungi forma con effetto ombra](./create-word-document-java-add-shape-with-shadow-effect/)
+Impara a inserire una forma con effetto ombra in un documento Word usando Aspose.Words per Java.
+
 ## Risorse aggiuntive
 
 ## Risorse aggiuntive

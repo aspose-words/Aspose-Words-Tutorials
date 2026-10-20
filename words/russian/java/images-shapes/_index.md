@@ -58,6 +58,9 @@
 ### [Группировка фигур в Word с помощью Java – Полное пошаговое руководство](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Узнайте, как группировать фигуры в документах Word, используя Aspose.Words для Java, с подробными примерами кода.
 
+### [Создание документа Word в Java – Добавление фигуры с эффектом тени](./create-word-document-java-add-shape-with-shadow-effect/)
+Узнайте, как добавить фигуру с эффектом тени в документ Word с помощью Aspose.Words для Java.
+
 ## Дополнительные ресурсы
 
 ## Дополнительные ресурсы
