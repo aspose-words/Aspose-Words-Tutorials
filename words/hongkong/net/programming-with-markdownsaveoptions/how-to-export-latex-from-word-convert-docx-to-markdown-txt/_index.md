@@ -24,9 +24,8 @@ title: 如何從 Word 匯出 LaTeX – 將 DOCX 轉換為 Markdown 與 TXT
 url: /zh-hant/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-txt/
 ---
 
-.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

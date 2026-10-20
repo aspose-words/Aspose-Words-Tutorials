@@ -1,0 +1,60 @@
+//ExStart
+//ExSummary: Hướng dẫn này minh họa cách chèn biểu đồ cột vào tài liệu Word, thay đổi kích thước trang của tài liệu thành A4 và tự động thay đổi kích thước biểu đồ để nó duy trì tỷ lệ với chiều rộng trang mới.
+//ExStepSummary:0: Tạo một đối tượng Document mới và một DocumentBuilder để chỉnh sửa nó.
+//ExStepSummary:1: Chèn một biểu đồ cột có kích thước 432×252 điểm và lấy đối tượng Chart của nó.
+//ExStepSummary:2: Đặt văn bản tiêu đề biểu đồ thành \"Quarterly Revenue\" và làm cho nó hiển thị.
+//ExStepSummary:3: Lưu tài liệu vào tệp, hiển thị kích thước biểu đồ gốc.
+//ExStepSummary:4: Thay đổi kích thước giấy của tài liệu thành A4 và làm mới bố cục.
+//ExStepSummary:5: Tính toán chiều rộng biểu đồ mới bằng 80 % chiều rộng trang đồng thời giữ nguyên tỷ lệ khung hình gốc.
+//ExStepSummary:6: Nếu shape chứa biểu đồ, áp dụng chiều rộng và chiều cao đã tính để thay đổi kích thước nó.
+//ExStepSummary:7: Lưu tài liệu sau khi biểu đồ đã được thay đổi kích thước để phản ánh kích thước trang mới.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:6:images/4.png
+//ExStep:0-
+// Instantiate an empty document.
+Document myDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDoc);
+
+//ExStep:1-
+// Place a column chart with a starting size of 432×252 points.
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chartObj = chartContainer.Chart;
+
+//ExStep:2-
+// Provide a basic heading for the chart.
+chartObj.Title.Text = "Quarterly Revenue";
+chartObj.Title.Show = true;
+
+//ExStep:3-
+// Persist the file to illustrate the original dimensions.
+myDoc.Save("report_before.docx");
+
+//ExStep:4-
+// Switch the document's paper format to A4.
+docBuilder.PageSetup.PaperSize = PaperSize.A4;
+
+// Refresh layout after the page configuration change.
+myDoc.UpdatePageLayout();
+
+//ExStep:5-
+// Determine updated chart size so it stays proportional to the new page width.
+// Use 80 % of the page width while keeping the original width‑to‑height ratio.
+double pageWidth = docBuilder.PageSetup.PageWidth;
+double originalAspectRatio = chartContainer.Height / chartContainer.Width;
+double newChartWidth = pageWidth * 0.8;
+double newChartHeight = newChartWidth * originalAspectRatio;
+
+//ExStep:6-
+// Verify the shape actually hosts a chart before applying new dimensions.
+if (chartContainer.HasChart)
+{
+    chartContainer.Width = newChartWidth;
+    chartContainer.Height = newChartHeight;
+}
+
+//ExStep:7-
+// Save the final document with the adjusted chart.
+myDoc.Save("report_after.docx");
+//ExEnd

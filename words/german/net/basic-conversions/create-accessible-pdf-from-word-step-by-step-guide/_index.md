@@ -24,15 +24,10 @@ title: Barrierefreies PDF aus Word erstellen – Schritt‑für‑Schritt‑Anle
 url: /de/net/basic-conversions/create-accessible-pdf-from-word-step-by-step-guide/
 ---
 
-there is a blockquote with > **Pro tip:** ... Keep "Pro tip" maybe translate "Pro-Tipp". But it's inside blockquote, we translate text.
 
-Similarly other blockquotes.
 
-Also tables: translate column headers and content.
 
-Let's translate.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

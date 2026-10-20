@@ -20,13 +20,9 @@ title: 如何儲存 Markdown – 完整 C# 指南
 url: /zh-hant/net/programming-with-markdownsaveoptions/how-to-save-markdown-complete-c-guide/
 ---
 
-markdown 範例](/images/how-to-save-markdown.png "示範如何從 C# 儲存 markdown")
 
-Then closing shortcodes.
 
-Now ensure we didn't miss any markdown links. There are none.
 
-Now produce final content with all shortcodes and placeholders.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

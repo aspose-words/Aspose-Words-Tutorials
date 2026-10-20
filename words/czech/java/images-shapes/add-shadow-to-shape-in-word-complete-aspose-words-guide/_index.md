@@ -20,11 +20,8 @@ title: Přidání stínu k tvaru ve Wordu – kompletní průvodce Aspose.Words
 url: /cs/java/images-shapes/add-shadow-to-shape-in-word-complete-aspose-words-guide/
 ---
 
-code but placeholders. They should stay unchanged.
 
-We need to translate bullet points, paragraphs, etc.
 
-Let's produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

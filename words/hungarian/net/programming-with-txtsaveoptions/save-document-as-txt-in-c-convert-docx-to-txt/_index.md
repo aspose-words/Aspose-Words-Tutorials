@@ -24,15 +24,11 @@ title: Dokumentum mentése TXT-ként C#-ban – DOCX konvertálása TXT-be
 url: /hu/net/programming-with-txtsaveoptions/save-document-as-txt-in-c-convert-docx-to-txt/
 ---
 
-formatting, headings, lists, table, blockquote, code placeholders.
 
-Check for any URLs: none.
 
-Check for any images: none.
 
-All good.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

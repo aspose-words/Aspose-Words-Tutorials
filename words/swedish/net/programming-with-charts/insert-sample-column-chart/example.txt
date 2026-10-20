@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Den här handledningen visar hur man skapar ett nytt Word-dokument, infogar ett standardkolumndiagram med DocumentBuilder.InsertChart, hämtar det inbäddade Chart-objektet och sparar dokumentet som en .docx-fil.
+//ExStepSummary:0: Skapa ett tomt Word-dokument och en DocumentBuilder för att redigera det.
+//ExStepSummary:1: Infoga ett kolumndiagram med storleken 432 × 252 punkter i dokumentet.
+//ExStepSummary:2: Hämta Chart-objektet från den infogade formen för ytterligare anpassning om så behövs.
+//ExStepSummary:3: Spara dokumentet, som nu innehåller det infogade kolumndiagrammet, som en .docx-fil.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+Chart embeddedChart = chartContainer.Chart;
+
+//ExStep:3-
+wordDoc.Save("column-demo.docx");
+//ExEnd

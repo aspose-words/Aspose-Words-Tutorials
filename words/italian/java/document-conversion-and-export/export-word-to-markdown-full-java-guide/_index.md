@@ -24,9 +24,8 @@ title: Esporta Word in Markdown – Guida completa Java
 url: /it/java/document-conversion-and-export/export-word-to-markdown-full-java-guide/
 ---
 
-Now ensure we keep all code block placeholders unchanged.
 
-Now produce final content with same markdown.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

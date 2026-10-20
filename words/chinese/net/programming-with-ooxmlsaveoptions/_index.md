@@ -29,7 +29,7 @@ Aspose.Words for .NET 教程“使用 OOXMLSaveOptions 进行文字处理”提�
 | [更新上次保存时间属性](./update-last-saved-time-property/) 了解如何使用 Aspose.Words for .NET 更新 Word 文档中的“上次保存时间”属性。请遵循我们详细的分步指南。|
 | [保留旧版控制字符](./keep-legacy-control-chars/) 通过本分步指南了解如何使用 Aspose.Words for .NET 在 Word 文档中保留旧式控制字符。|
 | [设置压缩级别](./set-compression-level/) 了解如何使用 Aspose.Words for .NET 设置 Word 文档的压缩级别。按照我们的分步指南优化您的文档存储和性能。|
-
+| [使用 Aspose.Words 在 C# 中更改 Word 文档编码](./how-to-change-word-document-encoding-with-aspose-words-in-c/) | 使用 Aspose.Words for .NET 在 C# 中更改 Word 文档的字符编码，确保文档兼容不同语言环境。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

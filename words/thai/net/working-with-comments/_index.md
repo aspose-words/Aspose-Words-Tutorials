@@ -21,6 +21,15 @@
  ## บทช่วยสอน
 | ชื่อเรื่อง | คำอธิบาย |
 -
+
+{{< tutorial-card link="./add-hyperlink-comment/" title="เพิ่ม Hyperlink Comment และส่งออกเป็น PDF Annotation ด้วย Aspose.Words for .NET" imgSrc="./add-hyperlink-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-comment/" title="แทรก Comment บนย่อหน้าที่กำหนดในเอกสาร Word โดยใช้ Aspose.Words for .NET" imgSrc="./add-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./style-comment-text/" title="ใช้สไตล์กำหนดเองกับข้อความคอมเมนต์ในเอกสาร Word ด้วย Aspose.Words for .NET" imgSrc="./style-comment-text/images/thumb.png" >}}
+
+
+
 - [เพิ่มความคิดเห็น](./add-comments/) | เรียนรู้วิธีเพิ่มความคิดเห็นในเอกสาร Word ของคุณโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือของเรา ปรับปรุงกระบวนการทำงานร่วมกันในเอกสารของคุณได้อย่างง่ายดาย -
 | [ความคิดเห็นเกี่ยวกับสมอ](./anchor-comment/) | เรียนรู้วิธีเพิ่มคำอธิบายประกอบในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการทำงานร่วมกันในเอกสารอย่างมีประสิทธิภาพ -
 | [เพิ่ม ลบ ความคิดเห็น ตอบกลับ](./add-remove-comment-reply/) เรียนรู้วิธีเพิ่มและลบคำตอบความคิดเห็นในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปรับปรุงการทำงานร่วมกันในเอกสารของคุณด้วยคู่มือทีละขั้นตอนนี้ -

@@ -22,15 +22,10 @@ title: C# में फ़ॉन्ट चेतावनियों को क
 url: /hi/net/working-with-fonts/capture-font-warnings-in-c-complete-programming-guide/
 ---
 
-inner text.
 
-We must keep markdown formatting.
 
-Let's produce final content.
 
-Check for any URLs: none.
 
-Now produce final translated content with same shortcodes.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

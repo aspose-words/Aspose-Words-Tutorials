@@ -76,6 +76,8 @@ Aspose.Words for Java के साथ अपने दस्तावेज़ 
 Aspose.Words for Java में दस्तावेज़ श्रेणी में हेरफेर करना सीखें। इस व्यापक गाइड के साथ टेक्स्ट को हटाना, निकालना और फ़ॉर्मेट करना सीखें।
 ### [Java के लिए Aspose.Words में संरचित दस्तावेज़ टैग (SDT) का उपयोग करना](./using-structured-document-tags/)
 इस व्यापक गाइड के साथ Aspose.Words for Java में संरचित दस्तावेज़ टैग (SDT) का उपयोग करना सीखें। कस्टम XML डेटा के लिए SDTs बनाएँ, संशोधित करें और बाँधें।
+### [Aspose.Words के साथ Word दस्तावेज़ में कंटेंट कंट्रोल जोड़ना](./add-content-control-in-word-document-with-aspose-words/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ में कंटेंट कंट्रोल जोड़ने की प्रक्रिया सीखें।
 ### [Java के लिए Aspose.Words में स्टाइल्स और थीम्स का उपयोग करना](./using-styles-and-themes/)
 Aspose.Words for Java के साथ दस्तावेज़ स्वरूपण को बेहतर बनाने का तरीका जानें। स्रोत कोड उदाहरणों के साथ इस व्यापक गाइड में शैलियों, थीम और बहुत कुछ का अन्वेषण करें।
 ### [Java के लिए Aspose.Words में विषय-सूची तैयार करना](./generating-table-of-contents/)
@@ -104,6 +106,16 @@ Java के लिए Aspose.Words की शक्ति अनलॉक कर
 Aspose.Words for Java के साथ दस्तावेज़ प्रबंधन को अनुकूलित करें। इस व्यापक ट्यूटोरियल में दस्तावेज़ गुणों के साथ काम करना, कस्टम मेटाडेटा जोड़ना और बहुत कुछ सीखें।
 ### [जावा के लिए Aspose.Words में वेब एक्सटेंशन का उपयोग करना](./using-web-extensions/)
 Java के लिए Aspose.Words में वेब एक्सटेंशन के साथ दस्तावेज़ों को बेहतर बनाएँ। वेब-आधारित सामग्री को सहजता से एकीकृत करना सीखें। 
+### [Java में PDF एक्सेसिबिलिटी टैगिंग – सुलभ PDFs बनाना](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Java के लिए Aspose.Words के साथ PDF में एक्सेसिबिलिटी टैग जोड़ें और सुलभ PDFs जनरेट करें।
+### [Java में docx ActiveX बटन बनाना – पूर्ण प्रोग्रामिंग गाइड](./create-docx-activex-button-in-java-complete-programming-guid/)
+Java में docx फ़ाइल में ActiveX बटन जोड़ने की पूरी मार्गदर्शिका।
+### [Java में Aspose.Words के साथ Word दस्तावेज़ बनाना](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Aspose.Words for Java का उपयोग करके नया Word दस्तावेज़ बनाने के चरण-दर-चरण मार्गदर्शक।
+### [Java का उपयोग करके Word में एक इंटरैक्टिव कमांड बटन के साथ खाली दस्तावेज़ बनाएं](./create-blank-document-with-an-interactive-command-button-in/)
+Java का उपयोग करके Word में इंटरैक्टिव कमांड बटन के साथ खाली दस्तावेज़ बनाना सीखें। 
+### [Java के लिए Aspose.Words में टेक्स्ट कंट्रोल के साथ एक खाली Word दस्तावेज़ बनाना](./how-to-create-a-blank-word-document-with-a-text-control/)
+Java के लिए Aspose.Words के साथ टेक्स्ट कंट्रोल वाले खाली Word दस्तावेज़ बनाने की प्रक्रिया सीखें।
 ### [Aspose.Words के साथ प्रोग्रामेटिक रूप से वर्ड दस्तावेज़ बनाना](./how-to-create-word-document-programmatically-with-aspose-wor/)
 Aspose.Words for Java का उपयोग करके प्रोग्रामेटिकली वर्ड दस्तावेज़ बनाने की विधि सीखें।
 

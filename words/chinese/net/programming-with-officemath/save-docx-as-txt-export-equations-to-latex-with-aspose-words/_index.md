@@ -20,11 +20,9 @@ title: 将 docx 保存为 txt – 使用 Aspose.Words 将公式导出为 LaTeX
 url: /zh/net/programming-with-officemath/save-docx-as-txt-export-equations-to-latex-with-aspose-words/
 ---
 
-Let's craft translation.
 
-Will keep code block placeholders as separate lines.
 
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

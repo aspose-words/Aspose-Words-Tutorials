@@ -46,6 +46,10 @@ Learn how to apply watermarks and set up page configurations with Aspose.Words f
 Learn how to style document headers and footers using Aspose.Words for Java in this detailed guide. Step-by-step instructions and source code included.
 ### [How to Detect Fonts in Java Word Documents – Complete Guide](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 Learn how to detect fonts in Java Word documents using Aspose.Words for Java. Step-by-step guide with source code.
+### [Set Default Font Settings in Aspose.Words for Java – Complete Guide](./set-default-font-settings-in-aspose-words-for-java-complete/)
+Learn how to configure default font settings globally in Aspose.Words for Java with code examples and step-by-step instructions.
+### [How to set shadow on a Word chart with Aspose.Words for Java](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Learn how to add shadow effects to Word charts using Aspose.Words for Java with code examples. 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

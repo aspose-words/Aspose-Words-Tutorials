@@ -22,9 +22,7 @@ title: docx を txt に保存 – C# で改行とスペースを保持
 url: /ja/net/programming-with-txtsaveoptions/save-docx-as-txt-preserve-line-breaks-spaces-in-c/
 ---
 
-Be careful with bullet points, etc.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

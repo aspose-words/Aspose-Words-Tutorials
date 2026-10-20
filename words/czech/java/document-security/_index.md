@@ -39,8 +39,18 @@ Naučte se, jak efektivně spravovat oprávnění k dokumentům pomocí Aspose.W
 Naučte se, jak šifrovat a dešifrovat dokumenty pomocí Aspose.Words pro Javu. Zabezpečte svá data efektivně pomocí podrobných pokynů a příkladů zdrojového kódu.
 ### [Digitální podpisy v dokumentech](./digital-signatures-in-documents/)
 Naučte se, jak implementovat zabezpečené digitální podpisy v dokumentech pomocí Aspose.Words pro Javu. Zajistěte integritu dokumentu pomocí podrobných pokynů a zdrojového kódu.
+### [Podepsání Word dokumentu v Javě pomocí Aspose.Words – Kompletní průvodce](./sign-word-document-in-java-with-aspose-words-complete-guide/)
+Naučte se, jak podepsat Word dokument v Javě pomocí Aspose.Words. Kompletní průvodce s ukázkovým kódem.
 ### [Redakční úprava dokumentů a ochrana osobních údajů](./document-redaction-data-protection/)
 Naučte se, jak zabezpečit své dokumenty a redigovat citlivá data pomocí Aspose.Words pro Javu. Podrobný návod se zdrojovým kódem.
+### [Jak podepsat soubory DOCX v C# – Kompletní krok‑za‑krokem průvodce](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
+Naučte se, jak podepsat soubory DOCX v C# pomocí Aspose.Words. Kompletní průvodce s ukázkovým kódem a podrobnými instrukcemi.
+### [Jak podepsat soubory DOCX pomocí certifikátu PFX – krok za krokem](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
+Naučte se, jak podepsat soubory DOCX pomocí certifikátu PFX pomocí Aspose.Words pro Javu. Podrobný průvodce krok za krokem.
+### [Jak podepsat dokument Word v C# pomocí certifikátu X509](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
+Naučte se, jak podepsat dokument Word v C# pomocí certifikátu X509 s Aspose.Words.
+### [Jak přidat digitální podpis do dokumentu Word pomocí Aspose.Words](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
+Naučte se, jak přidat digitální podpis do dokumentu Word pomocí Aspose.Words. Praktické ukázky a podrobný kód.
 ### [Jak digitálně podepsat dokument Word pomocí Javy](./how-to-digitally-sign-word-document-using-java/)
 Naučte se, jak pomocí Aspose.Words pro Javu přidat digitální podpis do dokumentu Word a zajistit jeho integritu.
 

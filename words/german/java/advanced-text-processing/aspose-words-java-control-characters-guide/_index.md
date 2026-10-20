@@ -59,13 +59,13 @@ Fügen Sie die Maven‑Abhängigkeit zu Ihrer `pom.xml` hinzu (dies ist das **As
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 Falls Sie Gradle bevorzugen, verwenden Sie das folgende Snippet:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ## Lizenzbeschaffung
 Um Aspose.Words vollständig nutzen zu können, benötigen Sie eine Lizenzdatei:
@@ -77,7 +77,7 @@ Nach dem Erwerb einer Lizenz initialisieren Sie sie in Ihrer Java‑Anwendung wi
 ```java
 License license = new License();
 license.setLicense("path/to/aspose.words.lic");
-```
+```  
 
 ## Implementierungs‑Leitfaden
 Wir werden unsere Implementierung in zwei Hauptfunktionen aufteilen: Umgang mit Wagenrückläufen und Einfügen von Steuerzeichen.

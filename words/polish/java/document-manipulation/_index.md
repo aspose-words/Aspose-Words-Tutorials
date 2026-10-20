@@ -75,14 +75,12 @@ Dowiedz się, jak wydajnie wyodrębniać zawartość z dokumentów Word za pomoc
 Dowiedz się, jak znajdować i zamieniać tekst w dokumentach Word za pomocą Aspose.Words for Java. Przewodnik krok po kroku z przykładami kodu. Udoskonal swoje umiejętności manipulowania dokumentami Java.
 
 ### [Usuwanie zawartości z dokumentów w Aspose.Words dla Java](./removing-content-from-documents/)
-Dowiedz się, jak usuwać zawartość z dokumentów Word w Javie za pomocą Aspose.Words for Javy. Usuń podziały stron, podziały sekcji i inne. Zoptymalizuj przetwarzanie dokumentów.
-
+Dowiedz się, jak usuwać zawartość z dokumentów Word w Javie za pomocą Aspose.Words for Java. Usuń podziały stron, podziały sekcji i inne. Zoptymalizuj przetwarzanie dokumentów.
 ### [Korzystanie z zakładek w Aspose.Words dla Java](./using-bookmarks/)
 Zoptymalizuj przetwarzanie dokumentów za pomocą Aspose.Words for Java. Naucz się używać zakładek do wydajnej nawigacji i manipulacji treścią w tym przewodniku krok po kroku.
 
 ### [Korzystanie z zakresów dokumentów w Aspose.Words dla Java](./using-document-ranges/)
-Opanuj manipulację zakresem dokumentu w Aspose.Words dla Java. Naucz się usuwać, wyodrębniać i formatować tekst dzięki temu kompleksowemu przewodnikowi.
-
+Opanuj manipulację zakresem dokumentu w Aspose.Words for Java. Naucz się usuwać, wyodrębniać i formatować tekst dzięki temu kompleksowemu przewodnikowi.
 ### [Korzystanie ze strukturalnych znaczników dokumentu (SDT) w Aspose.Words dla języka Java](./using-structured-document-tags/)
 Dowiedz się, jak używać Structured Document Tags (SDT) w Aspose.Words for Java dzięki temu kompleksowemu przewodnikowi. Twórz, modyfikuj i wiąż SDT z niestandardowymi danymi XML.
 
@@ -99,8 +97,7 @@ Dowiedz się, jak zabezpieczyć dokumenty Java Word za pomocą Aspose.Words for 
 Dowiedz się, jak dzielić dokumenty na strony za pomocą Aspose.Words for Java. Przewodnik krok po kroku z kodem źródłowym do wydajnego przetwarzania dokumentów.
 
 ### [Dzielenie dokumentów w Aspose.Words dla Java](./splitting-documents/)
-Dowiedz się, jak efektywnie dzielić dokumenty w Aspose.Words for Java. Poznaj techniki dotyczące nagłówków, sekcji i zakresów stron.
-
+Dowiedz się, jak efektywnie dzielić dokumenty w Aspose.Words dla Java. Poznaj techniki dotyczące nagłówków, sekcji i zakresów stron.
 ### [Dzielenie dokumentów na strony HTML w Aspose.Words dla Java](./splitting-documents-into-html-pages/)
 Dowiedz się, jak dzielić dokumenty na strony HTML za pomocą Aspose.Words for Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezproblemową konwersję dokumentów.
 
@@ -127,6 +124,16 @@ Zoptymalizuj zarządzanie dokumentami za pomocą Aspose.Words dla Java. Naucz si
 
 ### [Korzystanie z rozszerzeń internetowych w Aspose.Words dla Java](./using-web-extensions/)
 Ulepsz dokumenty za pomocą rozszerzeń internetowych w Aspose.Words dla Java. Naucz się bezproblemowo integrować treści internetowe. 
+### [Tagowanie dostępności PDF w Javie – generowanie dostępnych PDF](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Dowiedz się, jak tworzyć PDF z pełną dostępnością, dodając znaczniki ułatwiające nawigację i spełniające standardy WCAG.
+### [Utworzenie przycisku ActiveX w pliku docx w Javie – kompletny przewodnik programistyczny](./create-docx-activex-button-in-java-complete-programming-guid/)
+Krok po kroku pokażemy, jak dodać przycisk ActiveX do dokumentu DOCX w Javie, wraz z pełnym kodem i wyjaśnieniami.
+### [Jak utworzyć dokument Word w Javie przy użyciu Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Dowiedz się, jak w kilku krokach stworzyć dokument Word w Javie przy użyciu Aspose.Words.
+### [Dodawanie kontrolki zawartości w dokumencie Word przy użyciu Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+### [Utwórz pusty dokument z interaktywnym przyciskiem polecenia w Word przy użyciu Javy](./create-blank-document-with-an-interactive-command-button-in/)
+Tworzy pusty dokument Word i dodaje interaktywny przycisk polecenia przy użyciu Aspose.Words for Java. 
+### [Jak utworzyć pusty dokument Word z kontrolką tekstową](./how-to-create-a-blank-word-document-with-a-text-control/)
 
 ### [Jak programowo tworzyć dokument Word przy użyciu Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
 Dowiedz się, jak programowo tworzyć dokumenty Word przy użyciu Aspose.Words w Javie.

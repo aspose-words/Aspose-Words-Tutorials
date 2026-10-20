@@ -24,7 +24,7 @@ title: Comment récupérer les polices manquantes en Java – Guide Aspose.Words
 url: /fr/java/document-loading-and-saving/how-to-get-missing-fonts-in-java-aspose-words-guide/
 ---
 
-final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

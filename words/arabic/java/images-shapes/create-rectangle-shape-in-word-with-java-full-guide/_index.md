@@ -22,11 +22,9 @@ title: إنشاء شكل مستطيل في Word باستخدام Java – دلي
 url: /ar/java/images-shapes/create-rectangle-shape-in-word-with-java-full-guide/
 ---
 
-produce final content with all translations.
 
-Be careful to preserve markdown formatting exactly.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

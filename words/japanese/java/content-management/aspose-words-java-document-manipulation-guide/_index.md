@@ -75,6 +75,7 @@ implementation 'com.aspose:aspose-words:25.3'
 
 空の文書を作成する最小限の Java プログラムは次のとおりです。
 
+`Document` クラスは、PDF、Word、またはサポートされている任意のファイルをメモリ上で表すコアオブジェクトです。Maven 依存関係を追加した後、以下のようにインスタンス化できます。
 ```java
 import com.aspose.words.Document;
 
@@ -97,6 +98,8 @@ public class DocumentSetup {
 #### 概要
 メイン文書内に `GlossaryDocument` を作成すると、用語集、スタイル、カスタムパーツをクリーンで分離されたコンテナで管理できます。
 
+#### 用語集ドキュメントを初期化する方法は？
+メインの `Document` インスタンスを作成し、`GlossaryDocument` を添付して単一の統合ファイル内で用語集エントリを管理します。GlossaryDocument は Word ドキュメントの用語集部分を表し、用語集項目、エンドノート、カスタムパーツなどのエントリを格納します。
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.GlossaryDocument;
@@ -120,6 +123,8 @@ public class DocumentInitialization {
 #### 概要
 `Document.setPageColor` を使用すると、すべてのページに均一な色調を適用できます。これは主要キーワード **set page background color** に直接対応します。
 
+#### ページ背景色を設定する方法は？
+`Document` オブジェクトの `setPageColor()` メソッドを使用し、目的の色を表す `java.awt.Color` 値を渡します。
 ```java
 import com.aspose.words.Document;
 import java.awt.Color;
@@ -146,6 +151,8 @@ public class SetPageBackgroundColor {
 #### 概要
 複数のソースからコンテンツを結合したいときは、ある文書から別の文書へセクション（または任意のノード）全体をインポートできます。これは **merge document sections** と **import section from document** シナリオの中心です。
 
+#### ソースドキュメントからセクションをインポートする方法は？
+宛先の `Document` で `importNode()` を呼び出し、インポートするノードとスタイル処理を決定する `ImportFormatMode` を指定します。
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.Section;
@@ -180,6 +187,8 @@ public class ImportNode {
 #### 概要
 ソースと宛先でスタイル定義が異なる場合があります。`ImportFormatMode` を使うと、ソースのスタイルを保持するか、宛先のスタイルに強制するかを選択できます。
 
+#### カスタムインポートフォーマットモードを適用する方法は？
+`importNode()` を呼び出す際に目的の `ImportFormatMode` を指定します。これにより、ソースの書式設定を保持するか上書きするかを制御できます。ImportFormatMode は列挙型で、ノードインポート時の書式処理方法（ソーススタイルを保持、または宛先スタイルを使用）を定義します。
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.Style;
@@ -210,6 +219,8 @@ public class ImportNodeCustom {
 #### 概要
 単色以外にも、シェイプや画像をページ背景として埋め込めます。この例では赤い星形シェイプを追加していますが、任意の画像に置き換えて **create document background image** が可能です。
 
+#### 背景シェイプを挿入する方法は？
+`ShapeType.IMAGE` タイプの `Shape` を作成し、レイアウトを `WRAP_NONE` に設定し、ドキュメントのヘッダーまたはフッターに追加してすべてのテキストの背後に表示させます。Shape は画像、テキストボックス、幾何学的図形など、ドキュメント内の任意の場所に配置できる描画オブジェクトを表します。
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.Shape;
@@ -271,6 +282,6 @@ A: `new Document("file.doc")` で文書をロードし、`setPageColor` を呼�
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/products-backtop-button >}}

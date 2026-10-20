@@ -19,9 +19,7 @@ title: 在 C# 中创建可访问的 PDF – 步骤指南
 url: /zh/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-step-by-step-guide/
 ---
 
-keep shortcodes exactly.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
