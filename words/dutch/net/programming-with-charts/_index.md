@@ -74,6 +74,8 @@ Met deze tutorials kunt u uw Word-documenten verbeteren door visueel aantrekkeli
 | [Grafieklegenda weergeven in Word met C# – Complete stapsgewijze handleiding](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Leer hoe u de legenda van een grafiek in een Word-document weergeeft met Aspose.Words voor .NET en C# in deze volledige stapsgewijze handleiding. |
 | [Exploderen van taartdiagramsegment in C# met Aspose.Words – volledige gids](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Leer hoe u een taartdiagramsegment explodeert in C# met Aspose.Words in deze volledige stap‑voor‑stap handleiding. |
 | [Taartdiagramlabels toevoegen in C# met Aspose.Words – volledige gids](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Leer hoe u taartdiagramlabels toevoegt in C# met Aspose.Words in deze volledige stap‑voor‑stap handleiding. |
+| [Aangepaste plaatsing van gegevenslabels voor grafieken in C#](./custom-data-label-placement-for-charts-in-c/) | Leer hoe u aangepaste plaatsing van gegevenslabels in grafieken instelt met Aspose.Words voor .NET in C#. |
+| [Hoe u gegevenslabels aan een Word-grafiek toevoegt in C# – stapsgewijze handleiding](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Leer hoe u gegevenslabels aan een Word-grafiek toevoegt met Aspose.Words voor .NET in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -200,6 +200,8 @@ Aspose.Words for Java упрощает **save images from Word** докумен�
 ### [Создание пустого документа Word с Java – полное руководство Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
 Узнайте, как программно создать пустой документ Word в Java с помощью Aspose.Words, включая настройку параметров и сохранение.
 
+### [Загрузка подчёркиваний markdown в Java – полное руководство](./load-markdown-underline-in-java-complete-programming-guide/)
+Узнайте, как загружать и обрабатывать подчёркнутый markdown в Java с помощью Aspose.Words.
 ### [Учебник по замене шрифтов Aspose – Обработка отсутствующих шрифтов](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 Узнайте, как управлять заменой шрифтов и обрабатывать отсутствующие шрифты при работе с документами в Java.
 

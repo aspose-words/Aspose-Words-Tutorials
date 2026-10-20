@@ -114,6 +114,8 @@ Leer hoe u Word-afbeeldingen exporteert bij het opslaan als Markdown met een vol
 ### [Word-afbeeldingen opslaan tijdens conversie naar Markdown – Complete C#-gids](./save-word-images-while-converting-to-markdown-complete-c-gui/)
 
 Leer hoe u afbeeldingen uit Word-documenten behoudt bij het exporteren naar Markdown met een volledige C#-handleiding.
+### [Word naar Markdown converteren in C# – Volledige gids met afbeeldingsextractie](./convert-word-to-markdown-in-c-full-guide-with-image-extraction/)
+Leer hoe u Word-documenten naar Markdown converteert en afbeeldingen extraheert met een volledige C#-handleiding.
 
 ### [Hoe Markdown te exporteren vanuit Word – Complete C#-gids](./how-to-export-markdown-from-word-complete-c-guide/)
 
@@ -160,6 +162,9 @@ Leer hoe u Word-documenten opslaat als Markdown en tabellen exporteert naar HTML
 Leer hoe u docx-bestanden naar markdown converteert met een volledige C#-stappenplan.
 
 ### [Hoe Markdown op te slaan – Complete C#-gids](./how-to-save-markdown-complete-c-guide/)
+### [Markdown opslaan als docx in C# – stapsgewijze gids](./save-markdown-as-docx-in-c-step-by-step-guide/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 Leer hoe u Markdown opslaat met een volledige C#‑gids.
 

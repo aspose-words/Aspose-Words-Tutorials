@@ -82,6 +82,8 @@ C# में Aspose.Words का उपयोग करके समूहित
 ### [Word में छवि सम्मिलित करें – Aspose.Words चरण-दर-चरण गाइड](./insert-image-into-word-aspose-words-step-by-step-guide/)
 Aspose.Words for Java का उपयोग करके Word दस्तावेज़ में छवि कैसे जोड़ें, इस चरण-दर-चरण मार्गदर्शिका में सीखें।
 
+### [C# का उपयोग करके Word में आयताकार आकार सम्मिलित करें – पूर्ण मार्गदर्शिका](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+C# के साथ Aspose.Words का उपयोग करके Word में आयताकार आकार जोड़ने का पूर्ण गाइड।
 ### [जावा में शैडो के साथ खाली वर्ड दस्तावेज़ बनाएं – पूर्ण गाइड](./create-blank-word-with-shadow-in-java-full-guide/)
 जावा में Aspose.Words का उपयोग करके शैडो प्रभाव के साथ एक खाली Word दस्तावेज़ बनाने की पूरी प्रक्रिया सीखें।
 

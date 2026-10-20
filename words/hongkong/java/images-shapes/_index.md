@@ -78,6 +78,8 @@ Aspose.Words Java 程式碼教程
 ### [在 Word 中插入圖像 – Aspose.Words 步驟指南](./insert-image-into-word-aspose-words-step-by-step-guide/)
 了解如何使用 Aspose.Words for Java 將圖像插入 Word 文件，涵蓋插入、定位與屬性設定的完整步驟。
 
+### [使用 C# 在 Word 中插入矩形形狀 – 完整指南](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+展示如何使用 C# 在 Word 文檔中插入矩形形狀並自訂其屬性。
 ### [在 Java 中建立空白 Word 並添加陰影 – 完整指南](./create-blank-word-with-shadow-in-java-full-guide/)
 說明如何在 Java 中使用 Aspose.Words 建立空白 Word 文件並套用陰影效果的完整步驟。
 

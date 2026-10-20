@@ -77,6 +77,7 @@
 | [Перевод docx на французский с Aspose.Words.AI – Полное руководство](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Узнайте, как с помощью Aspose.Words.AI автоматически переводить файлы DOCX на французский язык. |
 | [Создание резюме документа в C# – Полное руководство по OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Подробное руководство по использованию OpenAI в C# для создания резюме документов с Aspose.Words. |
 | [Резюмирование документа Word с помощью Aspose.Words AI – Полное руководство](./summarize-word-document-with-aspose-words-ai-full-guide/) | Полное руководство по использованию Aspose.Words AI для создания резюме Word‑документов. |
+| [AI‑резюмирование документов в C# – полное руководство](./ai-document-summarization-in-c-complete-guide/) | Полное руководство по использованию Aspose.Words для .NET и AI‑моделей для резюмирования документов в C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

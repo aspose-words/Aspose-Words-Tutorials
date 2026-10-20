@@ -124,6 +124,10 @@ Erfahren Sie, wie Sie DOCX-Dateien in Markdown konvertieren – vollständige Sc
 
 ### [Wie man Markdown speichert – Vollständige C#‑Anleitung](./how-to-save-markdown-complete-c-guide/)
 Erfahren Sie, wie Sie Markdown mit Aspose.Words für .NET in C# vollständig speichern – komplette Schritt‑für‑Schritt‑Anleitung.
+### [Markdown als DOCX speichern in C# – Schritt‑für‑Schritt‑Anleitung](./save-markdown-as-docx-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie Markdown-Dateien in DOCX konvertieren – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 ### [DOCX in Markdown konvertieren – Vollständige Anleitung mit Aspose.Words](./convert-docx-to-markdown-complete-guide-using-aspose-words/)
 Erfahren Sie, wie Sie DOCX‑Dateien vollständig in Markdown konvertieren – Schritt‑für‑Schritt‑Anleitung mit Aspose.Words.

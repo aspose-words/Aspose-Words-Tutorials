@@ -122,6 +122,7 @@
 | [Word를 Markdown으로 저장 – Aspose.Words로 표를 HTML로 내보내기](./save-word-as-markdown-export-tables-to-html-with-aspose-word/) | Aspose.Words를 사용하여 Word 문서의 표를 HTML로 내보내면서 Markdown으로 저장하는 방법을 단계별로 안내합니다. |
 
 | [docx를 markdown으로 저장 – LaTeX 수식 포함 전체 가이드](./save-docx-as-markdown-complete-guide-with-latex-equations/) | Aspose.Words for .NET을 사용하여 LaTeX 수식이 포함된 docx를 Markdown으로 변환하는 전체 가이드 |
+| [C#에서 마크다운을 docx로 저장하는 단계별 가이드](./save-markdown-as-docx-in-c-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 C#에서 마크다운을 docx 파일로 저장하는 단계별 가이드 |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

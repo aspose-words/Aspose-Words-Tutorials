@@ -58,6 +58,8 @@ Aprenda a criar e formatar formas retangulares em documentos Word usando Aspose.
 Aprenda a inserir e formatar formas retangulares em documentos Word usando Aspose.Words para Python.
 ### [Adicionar sombra a forma no Word com Python – Guia completo](./add-shadow-to-shape-in-word-with-python-complete-guide/)
 Aprenda a aplicar sombras a formas em documentos Word usando Aspose.Words para Python, com exemplos passo a passo.
+### [Como definir sombra no Aspose.Words – Exemplo em Python](./how-to-set-shadow-in-aspose-words-python-example/)
+Aprenda a aplicar sombra a objetos em documentos Word usando Aspose.Words com Python.
 
 ## Recursos adicionais
 

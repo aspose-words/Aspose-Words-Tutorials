@@ -78,6 +78,7 @@
 ### [Εισαγωγή εικόνας σε Word – Οδηγός βήμα προς βήμα Aspose.Words](./insert-image-into-word-aspose-words-step-by-step-guide/)
 Μάθετε πώς να εισάγετε εικόνες σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java, με παραδείγματα κώδικα και λεπτομερείς οδηγίες.
 
+### [Εισαγωγή σχήματος ορθογωνίου σε Word χρησιμοποιώντας C# – πλήρης οδηγός](./insert-rectangle-shape-in-word-using-c-complete-guide/)
 ### [Δημιουργία κενής εγγραφής Word με σκιά σε Java – Πλήρης οδηγός](./create-blank-word-with-shadow-in-java-full-guide/)
 Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word με εφέ σκιά χρησιμοποιώντας το Aspose.Words για Java.
 

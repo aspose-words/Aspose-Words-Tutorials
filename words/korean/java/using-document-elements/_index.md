@@ -82,6 +82,7 @@ Aspose.Words for Java를 활용해 파이 차트를 생성하고 문서에 삽�
 Aspose.Words for Java를 활용해 Word 문서의 버튼 크기를 조정하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 파이 차트 삽입 – 완전 가이드](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
 Aspose.Words for Java를 사용해 Word 문서에 파이 차트를 삽입하고, 데이터 바인딩 및 서식 지정 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 명령 버튼으로 빈 워드 문서 만들기](./create-blank-word-document-with-a-command-button-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

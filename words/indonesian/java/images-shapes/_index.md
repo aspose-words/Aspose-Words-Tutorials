@@ -78,6 +78,8 @@ Pelajari cara menambahkan bentuk persegi panjang, mengelompokkan, dan mengatur p
 ### [Menyisipkan Gambar ke Word – Panduan Langkah demi Langkah Aspose.Words](./insert-image-into-word-aspose-words-step-by-step-guide/)
 Pelajari cara menyisipkan gambar ke dokumen Word menggunakan Aspose.Words untuk Java dengan panduan langkah demi langkah.
 
+### [Menyisipkan bentuk persegi panjang di Word menggunakan C# – panduan lengkap](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+Panduan lengkap untuk menambahkan bentuk persegi panjang ke dokumen Word menggunakan C# dengan Aspose.Words.
 ### [Buat Dokumen Word Kosong dengan Bayangan di Java – Panduan Lengkap](./create-blank-word-with-shadow-in-java-full-guide/)
 Pelajari cara membuat dokumen Word kosong dengan efek bayangan menggunakan Aspose.Words untuk Java.
 

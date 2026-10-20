@@ -74,6 +74,8 @@ Aspose.Words for .NET Graphics Programming ट्यूटोरियल आप
 | [C# में Aspose.Words के साथ पाई चार्ट स्लाइस को विस्फोटित करें – पूर्ण गाइड](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | C# में Aspose.Words का उपयोग करके पाई चार्ट के स्लाइस को अलग‑अलग करने की पूरी प्रक्रिया सीखें। |
 | [C# में Aspose.Words का उपयोग करके पाई चार्ट लेबल जोड़ें – पूर्ण गाइड](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | C# में Aspose.Words के साथ पाई चार्ट के लेबल जोड़ने की पूरी प्रक्रिया सीखें। अपने Word दस्तावेज़ को बेहतर बनाएं। |
 | [Aspose.Words C# के साथ चार्ट में प्रतिशत कैसे दिखाएँ](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Aspose.Words C# का उपयोग करके चार्ट में प्रतिशत मान प्रदर्शित करने की चरण-दर-चरण प्रक्रिया सीखें। |
+| [C# में Word चार्ट में डेटा लेबल कैसे जोड़ें – चरण‑दर‑चरण मार्गदर्शिका](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | इस चरण‑दर‑चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके Word चार्ट में डेटा लेबल जोड़ना सीखें। |
+| [C# में चार्ट के लिए कस्टम डेटा‑लेबल प्लेसमेंट](./custom-data-label-placement-for-charts-in-c/) | C# में Aspose.Words का उपयोग करके चार्ट डेटा‑लेबल को कस्टम स्थान पर रखने की चरण‑दर‑चरण गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

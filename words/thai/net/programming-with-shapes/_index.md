@@ -49,6 +49,8 @@
 - [เพิ่มเงาให้รูปทรงใน C# – คู่มือ Aspose.Words ฉบับสมบูรณ์](./add-shadow-to-shape-in-c-complete-aspose-words-guide/) | เรียนรู้วิธีเพิ่มเงาให้รูปทรงในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอน
 - [วิธีเพิ่มเงาให้รูปทรงใน Word ด้วย C# – คู่มือฉบับสมบูรณ์](./how-to-add-shadow-to-word-shapes-in-c-complete-guide/) | เรียนรู้วิธีเพิ่มเงาให้รูปทรงใน Word ด้วย C# อย่างละเอียดผ่านขั้นตอนและโค้ดตัวอย่าง
 - [วิธีเพิ่มเงาใน Word – คู่มือฉบับสมบูรณ์สำหรับรูปทรง](./how-to-add-shadow-word-complete-guide-for-shapes/) | เรียนรู้วิธีเพิ่มเงาให้รูปทรงใน Word ด้วย Aspose.Words for .NET ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
+- [บันทึกไฟล์ docx พร้อมรูปกลุ่มใน Word ด้วย C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | เรียนรู้วิธีบันทึกไฟล์ docx ที่มีรูปกลุ่มใน Word ด้วย C#
+- [วิธีซ่อนรูปร่างใน Word ด้วย C# – คู่มือทีละขั้นตอน](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | เรียนรู้วิธีซ่อนรูปร่างในเอกสาร Word ด้วย C# ผ่านขั้นตอนง่ายๆ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

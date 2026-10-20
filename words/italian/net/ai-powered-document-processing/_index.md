@@ -73,6 +73,7 @@ Infine, non dimenticare di dare un'occhiata al nostro [Lavorare con le opzioni d
 | [Tradurre docx in francese con Aspose.Words.AI – Guida completa](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Scopri come tradurre documenti DOCX in francese usando Aspose.Words.AI con esempi passo‑passo. |
 | [Creare un riepilogo del documento in C# – Guida completa OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Scopri come generare riepiloghi di documenti in C# usando i modelli OpenAI con Aspose.Words per .NET. |
 | [Riassumere documento Word con Aspose.Words AI – Guida completa](./summarize-word-document-with-aspose-words-ai-full-guide/) | Scopri come riassumere documenti Word usando Aspose.Words AI in una guida completa passo passo. |
+| [Sintesi di documenti AI in C# – guida completa](./ai-document-summarization-in-c-complete-guide/) | Scopri come riassumere documenti con AI usando C# e Aspose.Words per .NET in questa guida completa. |
 
 | [Come controllare la grammatica e riassumere un documento Word con Aspose.Words AI](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Scopri come verificare la grammatica e generare riassunti dei documenti Word usando l'AI di Aspose.Words. |
 | [Creare un riepilogo del documento con Aspose.Words e OpenAI](./create-document-summary-with-aspose-words-openai/) | Crea un riepilogo efficace dei documenti usando Aspose.Words per .NET e i modelli OpenAI. |

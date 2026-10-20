@@ -87,6 +87,9 @@ Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlokat Python és Asp
 ### [DOCX fájlok helyreállítása Pythonban – Teljes útmutató](./how-to-recover-docx-files-in-python-complete-guide/)
 Tanuld meg, hogyan állíthatsz helyre sérült DOCX fájlokat Pythonban az Aspose.Words segítségével.
 
+### [Korrupt DOCX helyreállítása Pythonban – Teljes lépésről‑lépésre útmutató](./recover-corrupted-docx-in-python-full-step-by-step-guide/)
+A korrupt DOCX fájlok helyreállítása Pythonban részletes, lépésről‑lépésre útmutatóval.
+
 ## További források
 
 - [Aspose.Words Python-net dokumentációhoz](https://docs.aspose.com/words/python-net/)

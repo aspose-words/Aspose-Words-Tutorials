@@ -81,6 +81,8 @@ Aprenda a establecer el tamaño de los botones en documentos Word mediante Java 
 Aprenda a generar gráficos de pastel en documentos Word usando Aspose.Words para Java con esta guía paso a paso.
 ### [Insertar gráfico circular en Word con Aspose.Words – Guía completa](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
 Aprenda a insertar un gráfico circular en Word usando Aspose.Words para Java. Guía paso a paso para crear diagramas profesionales.
+### [Crear documento Word en blanco con un botón de comando – guía paso a paso](./create-blank-word-document-with-a-command-button-step-by-ste/)
+Aprenda a crear un documento Word vacío y agregar un botón de comando mediante Aspose.Words para Java paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

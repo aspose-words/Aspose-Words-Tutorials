@@ -38,6 +38,7 @@
 | [نطاق علامات المستند المنظم - بدء تعيين XML](./structured-document-tag-range-start-xml-mapping/) | تعرّف على كيفية ربط بيانات XML ديناميكيًا بعلامات المستندات المنظمة في Word باستخدام Aspose.Words لـ .NET. اتبع دليلنا خطوة بخطوة. |
 | [تعيين نص العنصر النائب في Aspose.Words – دليل كامل C#](./set-placeholder-text-in-aspose-words-complete-c-guide/) | تعلم كيفية تعيين نص العنصر النائب في عناصر التحكم بالمستندات باستخدام Aspose.Words for .NET مع مثال كامل بلغة C#. |
 | [كيفية إضافة عنصر تحكم المحتوى وإنشاء مستند Word باستخدام Aspose – دليل كامل](./how-to-add-content-control-and-create-word-document-with-asp/) |تعلم خطوة بخطوة كيفية إضافة عناصر تحكم المحتوى وإنشاء مستندات Word باستخدام مكتبة Aspose.Words للـ .NET. |
+| [إنشاء مستند Word برمجيًا – إضافة عنصر تحكم محتوى وعلامة نائبة](./create-word-document-programmatically-add-content-control-an/) | تعلم كيفية إنشاء مستند Word برمجيًا وإضافة عنصر تحكم محتوى وعلامة نائبة باستخدام Aspose.Words لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

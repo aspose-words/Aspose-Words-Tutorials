@@ -81,6 +81,8 @@ Lär dig att skapa ett cirkeldiagram i ett Word-dokument med Aspose.Words för J
 Lär dig hur du ändrar knappstorlek i Word-dokument med Java i denna kompletta Aspose.Words-guide.
 ### [Lägg till Forms2OleControl i DOCX – Komplett Aspose.Words-guide](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
 Lär dig hur du lägger till Forms2OleControl i DOCX-filer med en komplett Aspose.Words-guide.
+### [Skapa tomt Word-dokument med en kommandoknapp – steg‑för‑steg‑guide](./create-blank-word-document-with-a-command-button-step-by-ste/)
+Lär dig hur du skapar ett tomt Word-dokument och lägger till en kommandoknapp med denna steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

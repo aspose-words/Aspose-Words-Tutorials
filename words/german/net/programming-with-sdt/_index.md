@@ -38,6 +38,7 @@ Die Codebeispiele in den Tutorials helfen Ihnen, die Konzepte zu verstehen und d
 | [Strukturiertes Dokument Tag-Bereich Start XML-Mapping](./structured-document-tag-range-start-xml-mapping/) | Erfahren Sie, wie Sie XML-Daten mit Aspose.Words für .NET dynamisch an strukturierte Dokument-Tags in Word binden. Folgen Sie unserer Schritt-für-Schritt-Anleitung. |
 | [Platzhaltertext festlegen in Aspose.Words – Vollständige C#‑Anleitung](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Erfahren Sie, wie Sie in Aspose.Words für .NET Platzhaltertext in Inhaltssteuerelementen festlegen und anpassen – vollständige C#‑Anleitung. |
 | [Wie man ein Inhaltssteuerelement hinzufügt und ein Word-Dokument mit Aspose erstellt – Komplettanleitung](./how-to-add-content-control-and-create-word-document-with-asp/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Inhaltssteuerelement hinzufügen und ein vollständiges Word-Dokument erstellen. |
+| [Word-Dokument programmgesteuert erstellen – Inhaltssteuerelement und Platzhalter hinzufügen](./create-word-document-programmatically-add-content-control-an/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument programmgesteuert erstellen und ein Inhaltssteuerelement mit Platzhalter hinzufügen. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -90,6 +90,11 @@ Nastavení dokumentu jsou klíčem k dodání dokumentů přizpůsobených vaši
 ### [Pokročilé možnosti ukládání HTML dokumentů s Aspose.Words Java](./advance-html-documents-saving-options/)
 ### [Ukládání obrázků z dokumentů v Aspose.Words for Java](./saving-images-from-documents/)
 ### [Ukládání dokumentů jako Markdown v Aspose.Words for Java](./saving-documents-as-markdown/)
+Naučte se převádět Word dokumenty do Markdown pomocí Aspose.Words for Java. Tento průvodce krok za krokem pokrývá zarovnání tabulek, zpracování obrázků a další.
+
+### [Načtení podtržení markdown v Javě – kompletní programovací průvodce](./load-markdown-underline-in-java-complete-programming-guide/)
+Naučte se načíst podtržený text v markdownu pomocí Aspose.Words for Java a zpracovat jej v aplikaci.
+
 ### [Ukládání dokumentů ve formátu ODT v Aspose.Words for Java](./saving-documents-as-odt-format/)
 ### [Ukládání dokumentů ve formátu OOXML v Aspose.Words for Java](./saving-documents-as-ooxml-format/)
 ### [Ukládání dokumentů ve formátu PCL v Aspose.Words for Java](./saving-documents-as-pcl-format/)

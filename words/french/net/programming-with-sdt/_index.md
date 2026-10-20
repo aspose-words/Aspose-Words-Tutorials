@@ -38,6 +38,8 @@ Les exemples de code fournis dans les tutoriels vous aideront à comprendre les 
 | [Mappage XML de démarrage de plage de balises de document structuré](./structured-document-tag-range-start-xml-mapping/) | Découvrez comment lier dynamiquement des données XML à des balises de documents structurés dans Word avec Aspose.Words pour .NET. Suivez notre guide étape par étape. |
 | [Définir le texte de l'espace réservé dans Aspose.Words – Guide complet C#](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Apprenez à définir le texte d'espace réservé dans les contrôles de contenu Aspose.Words avec un guide complet en C#. |
 | [Comment ajouter un contrôle de contenu et créer un document Word avec Aspose – Guide complet](./how-to-add-content-control-and-create-word-document-with-asp/) | Apprenez à ajouter un contrôle de contenu et à créer un document Word avec Aspose.Words pour .NET grâce à ce guide complet étape par étape. |
+| [Créer un document Word par programmation – ajouter un contrôle de contenu et un espace réservé](./create-word-document-programmatically-add-content-control-an/) | Apprenez à créer un document Word via code, ajouter un contrôle de contenu et un espace réservé avec Aspose.Words pour .NET. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

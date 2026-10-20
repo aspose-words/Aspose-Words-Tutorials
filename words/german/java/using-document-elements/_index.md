@@ -81,6 +81,8 @@ Erfahren Sie, wie Sie in Aspose.Words für Java die Größe von Schaltflächen i
 Erfahren Sie, wie Sie Forms2OleControl zu DOCX hinzufügen und OLE‑Steuerelemente einbetten. Detaillierte Schritt‑für‑Schritt‑Anleitung.
 ### [Einfügen von Kreisdiagrammen in Word mit Aspose.Words – Komplettanleitung](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java ein Kreisdiagramm in ein Word-Dokument einfügen und formatieren – Schritt für Schritt.
+### [Erstellen eines leeren Word-Dokuments mit einer Schaltfläche – Schritt‑für‑Schritt‑Anleitung](./create-blank-word-document-with-a-command-button-step-by-ste/)
+Erfahren Sie, wie Sie ein leeres Word-Dokument mithilfe einer Schaltfläche programmgesteuert erstellen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

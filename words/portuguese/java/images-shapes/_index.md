@@ -78,6 +78,8 @@ Aprenda a agrupar e posicionar formas retangulares em documentos Word usando Asp
 ### [Inserir imagem no Word – Guia passo a passo do Aspose.Words](./insert-image-into-word-aspose-words-step-by-step-guide/)
 Aprenda a inserir imagens em documentos Word com Aspose.Words para Java passo a passo.
 
+### [Inserir forma retangular no Word usando C# – guia completo](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+Aprenda a inserir uma forma retangular em documentos Word usando C# com o Aspose.Words.
 ### [Criar documento Word em branco com sombra em Java – Guia completo](./create-blank-word-with-shadow-in-java-full-guide/)
 Aprenda a criar um documento Word em branco com efeito de sombra usando Aspose.Words para Java.
 

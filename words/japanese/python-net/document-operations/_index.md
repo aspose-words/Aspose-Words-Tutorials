@@ -81,6 +81,8 @@ Aspose.Words for Python を使用して、破損した DOCX ファイルを開�
 Python と Aspose.Words を使用して、破損した DOCX ファイルを検出し、修復する手順をステップバイステップで解説します。
 ### [Python で DOCX ファイルを復元する方法 – 完全ガイド](./how-to-recover-docx-files-in-python-complete-guide/)
 Python を使用して破損した DOCX ファイルを検出し、復元する手順をステップバイステップで解説します。
+### [Python で破損した DOCX を復元 – 完全ステップバイステップガイド](./recover-corrupted-docx-in-python-full-step-by-step-guide/)
+Python を使用して破損した DOCX ファイルを完全に復元する手順を詳しく解説します。
 
 ## 追加リソース
 

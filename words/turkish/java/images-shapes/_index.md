@@ -80,6 +80,9 @@ Aspose.Words for Java ile Word belgesine resim eklemeyi adım adım öğrenin.
 ### [Java'da Gölge ile Boş Word Belgesi Oluşturma – Tam Kılavuz](./create-blank-word-with-shadow-in-java-full-guide/)
 Java kullanarak gölge efektiyle boş bir Word belgesi oluşturmayı adım adım öğrenin.
 
+### [C# kullanarak Word belgesine dikdörtgen şekil ekleme – tam rehber](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+C# ile Word belgesine dikdörtgen şekil eklemeyi öğrenin.
+
 ## Ek Kaynaklar
 
 ## Ek Kaynaklar

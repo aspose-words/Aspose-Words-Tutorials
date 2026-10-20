@@ -160,6 +160,7 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 
 ### [Crear documento Word en blanco con Java – Guía completa de Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
 
+### [Cargar subrayado Markdown en Java – guía completa de programación](./load-markdown-underline-in-java-complete-programming-guide/)
 ### [Tutorial de sustitución de fuentes Aspose – Manejar fuentes faltantes](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 
 ## Preguntas frecuentes

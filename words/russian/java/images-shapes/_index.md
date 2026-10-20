@@ -78,6 +78,8 @@
 ### [Вставка изображения в Word – пошаговое руководство Aspose.Words](./insert-image-into-word-aspose-words-step-by-step-guide/)
 Узнайте, как вставлять изображения в документы Word с помощью Aspose.Words для Java.
 
+### [Вставка прямоугольной фигуры в Word с помощью C# – полное руководство](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+Полное руководство по вставке прямоугольной фигуры в документ Word с использованием C# и Aspose.Words.
 ### [Создание пустого документа Word с теневым эффектом в Java – Полное руководство](./create-blank-word-with-shadow-in-java-full-guide/)
 Подробное руководство по созданию пустого документа Word с теневой фигурой в Java с использованием Aspose.Words.
 

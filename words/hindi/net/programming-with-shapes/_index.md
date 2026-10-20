@@ -40,6 +40,7 @@
 | [शैडो वाले आयत के साथ Word दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | .NET के लिए Aspose.Words का उपयोग करके शैडो वाले आयत आकार के साथ Word दस्तावेज़ बनाना सीखें। |
 | [स्मार्ट आर्ट ड्राइंग अपडेट करें](./update-smart-art-drawing/) | इस चरण‑दर‑शरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में स्मार्ट आर्ट ड्रॉइंग को अपडेट करना सीखें। सुनिश्चित करें कि आपके दृश्य हमेशा सटीक हों। |
 | [C# का उपयोग करके Word में आयत आकार बनाएं – चरण‑दर‑चरण गाइड](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | C# के साथ Aspose.Words का उपयोग करके Word दस्तावेज़ में आयत आकृति जोड़ना और अनुकूलित करना सीखें। |
+| [C# का उपयोग करके Word में आकृति को छिपाने का तरीका – चरण‑दर‑चरण गाइड](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | C# के साथ Aspose.Words का उपयोग करके Word दस्तावेज़ में आकृति को छिपाने के चरण‑दर‑चरण निर्देश। |
 | [वर्टिकल एंकर](./vertical-anchor/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में टेक्स्टबॉक्स के लिए वर्टिकल एंकर पोजिशन सेट करना सीखें। आसान चरण‑दर‑श...|
 | [स्मार्ट आर्ट आकार का पता लगाएं](./detect-smart-art-shape/) | इस व्यापक गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में SmartArt आकृतियों का पता लगाना सीखें। आपके दस्तावेज़ वर्कफ़्लो को स्वचालित करने के लिए बिल्कुल सही। |
 | [स्मार्ट आर्ट ड्राइंग अपडेट करें](./update-smart-art-drawing/) | इस चरण‑दर‑श... |
@@ -70,6 +71,7 @@
 | [C# के साथ Word में आकृति को छुपाने का तरीका – चरण‑दर‑चरण गाइड](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ में आकृति को छुपाने के चरण‑दर‑चरण निर्देश। |
 | [Word में आयत बनाएं – Aspose के साथ Word में आकृतियाँ जोड़ें](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में आयत आकार जोड़ने और अनुकूलित करने के चरण‑दर‑चरण निर्देश। |
 | [छिपी हुई दीर्घवृत्त आकृति के साथ खाली Word दस्तावेज़ बनाएं – पूर्ण C# गाइड](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | C# में Aspose.Words का उपयोग करके छिपी हुई दीर्घवृत्त आकृति के साथ एक खाली Word दस्तावेज़ बनाने की पूरी प्रक्रिया सीखें। |
+| [C# का उपयोग करके Word में समूहित आकृतियों के साथ docx फ़ाइल सहेजें](./save-docx-file-with-grouped-shapes-in-word-using-c/) | .NET के लिए Aspose.Words का उपयोग करके समूहित आकृतियों के साथ Word दस्तावेज़ को सहेजना सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

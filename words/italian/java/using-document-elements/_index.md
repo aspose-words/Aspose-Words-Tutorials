@@ -81,6 +81,8 @@ Impara a generare un grafico a torta in Word usando Aspose.Words per Java con qu
 Scopri come inserire il controllo Forms2Ole in un documento DOCX usando Aspose.Words con esempi passo passo.
 ### [Inserire un grafico a torta in Word con Aspose.Words – Guida completa](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
 Scopri come inserire un grafico a torta in un documento Word usando Aspose.Words con questa guida passo passo.
+### [Creare un documento Word vuoto con un pulsante di comando – guida passo‑passo](./create-blank-word-document-with-a-command-button-step-by-ste/)
+Crea un documento Word vuoto tramite un pulsante di comando con istruzioni dettagliate passo‑passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

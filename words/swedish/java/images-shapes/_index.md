@@ -78,6 +78,8 @@ Lär dig hur du infogar en rektangel, grupperar den med andra former och justera
 ### [Infoga bild i Word – Aspose.Words steg-för-steg guide](./insert-image-into-word-aspose-words-step-by-step-guide/)
 Lär dig hur du infogar bilder i Word-dokument med Aspose.Words för Java i en detaljerad steg‑för‑steg‑guide.
 
+### [Infoga rektangel i Word med C# – komplett guide](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+Lär dig steg för steg hur du lägger till en rektangel i ett Word-dokument med C# och Aspose.Words.
 ### [Skapa tomt Word-dokument med skugga i Java – Fullständig guide](./create-blank-word-with-shadow-in-java-full-guide/)
 Lär dig hur du skapar ett tomt Word-dokument med skuggeffekt i Java med Aspose.Words.
 

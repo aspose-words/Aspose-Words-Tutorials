@@ -167,6 +167,9 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 ### [Aspose 字体替换教程 – 处理缺失字体](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 ### [Aspose.Words LoadOptions – 在 Java 中恢复损坏的 Word 文档](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 
+### [在 Java 中加载 Markdown 下划线 – 完整编程指南](./load-markdown-underline-in-java-complete-programming-guide/)
+了解如何在 Java 中使用 Aspose.Words 加载并处理 Markdown 文本的下划线，实现完整的编程指南。
+
 ## 常见问题
 ### [捕获字体替换警告 – 检测缺失字体](./capture-font-substitution-warnings-detect-missing-fonts/)
 学习如何捕获字体替换警告并检测文档中缺失的字体，以确保文档渲染一致性。

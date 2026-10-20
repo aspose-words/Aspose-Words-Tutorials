@@ -23,7 +23,7 @@
 | [设置脚注列](./set-foot-note-columns/) 了解如何使用 Aspose.Words for .NET 在 Word 文档中设置脚注列。按照我们的分步指南轻松自定义脚注布局。|
 | [设置脚注和尾注位置](./set-footnote-and-end-note-position/) 通过本详细的分步指南了解如何使用 Aspose.Words for .NET 在 Word 文档中设置脚注和尾注的位置。|
 | [设置尾注选项](./set-endnote-options/) 通过本全面的分步指南了解如何使用 Aspose.Words for .NET 在 Word 文档中设置尾注选项。|
-
+| [在 C# 中使用 Aspose.Words 更改脚注分隔符](./change-footnote-separator-in-c-using-aspose-words/) 了解如何使用 Aspose.Words for .NET 在 C# 中更改脚注分隔符。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

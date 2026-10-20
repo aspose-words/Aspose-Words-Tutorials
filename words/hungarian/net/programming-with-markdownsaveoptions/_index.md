@@ -190,6 +190,8 @@ Ismerje meg, hogyan exportálhat DOCX fájlokat Markdown formátumba egy teljes 
 ### [Képek feltöltése a felhőbe a Word Markdownba konvertálásakor](./upload-images-to-cloud-when-converting-word-to-markdown/)
 ### [Word mentése Markdownba – Táblázatok exportálása HTML-be az Aspose.Words segítségével](./save-word-as-markdown-export-tables-to-html-with-aspose-word/)
 Ismerje meg, hogyan exportálhatja a Word táblázatokat HTML-be a Markdown mentés során az Aspose.Words használatával.
+### [Markdown mentése DOCX-be C#‑ban – lépésről‑lépésre útmutató](./save-markdown-as-docx-in-c-step-by-step-guide/)
+Ismerje meg, hogyan konvertálhat Markdown fájlokat DOCX formátumba C#‑ban az Aspose.Words for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

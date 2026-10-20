@@ -66,6 +66,8 @@
 | [Как скрыть форму в Word с C# – пошаговое руководство](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Узнайте, как скрыть форму в документах Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 | [Рисовать прямоугольник в Word – Добавление фигур в Word с Aspose](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Узнайте, как добавить прямоугольную форму в документ Word с помощью Aspose.Words для .NET. |
 | [Создать пустой документ Word со скрытой эллиптической фигурой – полное руководство C#](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Узнайте, как создать пустой документ Word с скрытой эллиптической фигурой с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
+| [Сохранить файл docx с групповыми фигурами в Word с использованием C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Узнайте, как сохранить документ Word в формате docx с групповыми фигурами, используя C# и Aspose.Words для .NET. |
+| [Как скрыть форму в Word с помощью C# – пошаговое руководство](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Узнайте, как скрыть фигуру в документе Word с помощью C# в этом пошаговом руководстве. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

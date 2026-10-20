@@ -81,6 +81,8 @@
 Узнайте, как добавить элемент Forms2OleControl в документ DOCX с помощью Aspose.Words. Пошаговое полное руководство.
 ### [Вставка круговой диаграммы в Word с Aspose.Words – Полное руководство](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
 Узнайте, как добавить круговую диаграмму в документ Word с помощью Aspose.Words, шаг за шагом.
+### [Создание пустого документа Word с кнопкой команды – пошаговое руководство](./create-blank-word-document-with-a-command-button-step-by-ste/)
+Пошаговое руководство по созданию пустого документа Word с кнопкой команды.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

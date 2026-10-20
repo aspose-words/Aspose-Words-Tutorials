@@ -67,6 +67,8 @@
 | [كيفية إخفاء الشكل في Word باستخدام C# – دليل خطوة بخطوة](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | تعرّف على طريقة إخفاء الأشكال في مستندات Word باستخدام Aspose.Words for .NET وC# من خلال دليل خطوة بخطوة. |
 | [رسم مستطيل في Word – إضافة أشكال في Word باستخدام Aspose](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | تعلم كيفية رسم مستطيل وإضافة أشكال إلى مستند Word باستخدام Aspose.Words for .NET خطوة بخطوة. |
 | [إنشاء مستند Word فارغ مع شكل بيضاوي مخفي – دليل C# كامل](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | تعلم كيفية إنشاء مستند Word فارغ وإضافة شكل بيضاوي مخفي باستخدام Aspose.Words وC# خطوة بخطوة. |
+| [حفظ ملف docx بأشكال مجموعة في Word باستخدام C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | تعلم كيفية حفظ مستند Word يحتوي على أشكال مجموعة باستخدام C#. |
+| [كيفية إخفاء الشكل في Word باستخدام C# – دليل خطوة بخطوة](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | تعلم كيفية إخفاء الأشكال في مستندات Word باستخدام C# من خلال دليل خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

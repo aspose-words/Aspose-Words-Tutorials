@@ -39,6 +39,7 @@ Eğitimlerde sunulan kod örnekleri, SDT kontrollerinin kavramlarını anlamanı
 | [Aspose.Words'te Yer Tutucu Metni Ayarlama – Tam C# Rehberi](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Aspose.Words for .NET kullanarak Word belgelerinde yer tutucu metni nasıl ayarlayacağınızı adım adım öğrenin. |
 
 | [Aspose ile İçerik Kontrolü Ekleyin ve Word Belgesi Oluşturun – Tam Kılavuz](./how-to-add-content-control-and-create-word-document-with-asp/) | Aspose.Words for .NET kullanarak içerik kontrolü ekleyip tam bir Word belgesi oluşturmayı adım adım öğrenin. |
+| [Programatik olarak Word belgesi oluştur – içerik kontrolü ve yer tutucu ekle](./create-word-document-programmatically-add-content-control-an/) | Aspose.Words for .NET kullanarak programlı bir şekilde Word belgesi oluşturup içerik kontrolü ve yer tutucu eklemeyi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

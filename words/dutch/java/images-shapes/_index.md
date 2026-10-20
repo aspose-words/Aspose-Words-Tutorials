@@ -78,6 +78,8 @@ Leer hoe u een rechthoekige vorm groepeert en positioneert in een Word-document 
 ### [Afbeelding invoegen in Word – Aspose.Words stapsgewijze handleiding](./insert-image-into-word-aspose-words-step-by-step-guide/)
 Leer hoe u een afbeelding in een Word-document invoegt met Aspose.Words voor Java.
 
+### [Rechthoekvorm invoegen in Word met C# – volledige gids](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+Leer hoe u een rechthoekige vorm in een Word-document toevoegt met C# en Aspose.Words.
 ### [Leeg Word-document met schaduw maken in Java – Volledige gids](./create-blank-word-with-shadow-in-java-full-guide/)
 Leer hoe u een leeg Word-document met schaduweffect maakt in Java met Aspose.Words.
 

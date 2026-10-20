@@ -199,6 +199,8 @@ Leer hoe je beschadigde DOCX‑bestanden kunt herstellen met Aspose.Words for Ja
 ### [Leeg Word‑document maken met Java – Volledige Aspose.Words‑gids](./create-blank-word-document-with-java-full-aspose-words-guide/)
 Leer hoe je een leeg Word‑document maakt in Java met Aspose.Words, inclusief stap‑voor‑stap code‑voorbeelden.
 
+### [Markdown-onderstreping laden in Java – volledige programmeergids](./load-markdown-underline-in-java-complete-programming-guide/)
+Leer hoe je onderstrepingen in Markdown kunt laden en verwerken met Aspose.Words for Java.
 ### [Aspose Lettertypevervanging Tutorial – Ontbrekende Lettertypen Afhandelen](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 Leer hoe je ontbrekende lettertypen kunt afhandelen en vervangingswaarschuwingen vastlegt met Aspose.Words for Java.
 

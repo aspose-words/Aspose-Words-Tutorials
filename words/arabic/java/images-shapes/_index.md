@@ -78,6 +78,8 @@
 ### [إدراج صورة في Word – دليل Aspose.Words خطوة بخطوة](./insert-image-into-word-aspose-words-step-by-step-guide/)
 دليل خطوة بخطوة لإدراج صورة في مستند Word باستخدام Aspose.Words.
 
+### [إدراج شكل مستطيل في Word باستخدام C# – دليل كامل](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+تعلم كيفية إضافة شكل مستطيل إلى مستند Word باستخدام C# مع شرح شامل لجميع الخصائص
 ### [إنشاء مستند Word فارغ بظل في Java – دليل كامل](./create-blank-word-with-shadow-in-java-full-guide/)
 دليل شامل لإنشاء مستند Word فارغ مع تأثير الظل باستخدام Aspose.Words لجافا
 

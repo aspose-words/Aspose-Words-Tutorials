@@ -84,6 +84,7 @@ Aspose.Words for Java を使用して、Word 文書内のボタンサイズを�
 ### [Aspose.Words for Java で円グラフを作成する – 完全ステップバイステップガイド](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
 ### [DOCX に Forms2OleControl を追加 – 完全 Aspose.Words ガイド](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
 Aspose.Words for Java を使用して、Forms2OleControl を DOCX に追加する方法をステップバイステップで解説します。
+### [コマンドボタンで空白の Word 文書を作成する – ステップバイステップ ガイド](./create-blank-word-document-with-a-command-button-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

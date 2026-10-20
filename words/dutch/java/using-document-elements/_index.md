@@ -80,6 +80,8 @@ Ontdek Aspose.Words voor Java: een uitgebreide handleiding voor het gebruik van 
 Leer hoe u met Aspose.Words voor Java een cirkeldiagram maakt en in uw document invoegt, stap voor stap uitgelegd.
 ### [Cirkeldiagram invoegen in Word met Aspose.Words – volledige gids](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
 Leer stap voor stap hoe u een cirkeldiagram in een Word-document invoegt met Aspose.Words voor Java.
+### [Leeg Word-document maken met een opdrachtknop – stapsgewijze handleiding](./create-blank-word-document-with-a-command-button-step-by-ste/)
+Leer hoe u een leeg Word-document maakt en een opdrachtknop toevoegt met deze stapsgewijze tutorial.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

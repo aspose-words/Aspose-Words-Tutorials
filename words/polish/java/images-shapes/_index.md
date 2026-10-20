@@ -78,6 +78,8 @@ Dowiedz się, jak wstawiać prostokątne kształty, grupować je i ustawiać poz
 ### [Wstaw obraz do Word – przewodnik krok po kroku Aspose.Words](./insert-image-into-word-aspose-words-step-by-step-guide/)
 Dowiedz się, jak wstawiać obrazy do dokumentów Word przy użyciu Aspose.Words dla Java.
 
+### [Wstaw prostokątny kształt w Wordzie przy użyciu C# – kompletny przewodnik](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+Kompletny przewodnik, jak dodać prostokątny kształt do dokumentu Word przy użyciu C# i Aspose.Words.
 ### [Utwórz pusty dokument Word w Javie – Pełny przewodnik z efektem cienia](./create-blank-word-with-shadow-in-java-full-guide/)
 Dowiedz się, jak w Javie utworzyć pusty dokument Word i dodać do niego cień, korzystając z Aspose.Words.
 

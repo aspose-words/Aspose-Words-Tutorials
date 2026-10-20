@@ -163,6 +163,8 @@ Erfahren Sie, wie Sie mit Aspose.Words for Java eine DOCX‑Datei speichern und 
 ### [Leeres Word‑Dokument mit Java erstellen – Vollständiger Aspose.Words‑Leitfaden](./create-blank-word-document-with-java-full-aspose-words-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java ein leeres Word‑Dokument erstellen und speichern – vollständige Schritt‑für‑Schritt‑Anleitung.
 
+### [Markdown‑Unterstreichung in Java laden – vollständiger Programmierleitfaden](./load-markdown-underline-in-java-complete-programming-guide/)
+Erfahren Sie, wie Sie Markdown‑Unterstreichungen in Java verarbeiten und rendern – Schritt‑für‑Schritt‑Anleitung mit Code‑Beispielen.
 ### [Aspose Font‑Substitution‑Tutorial – Fehlende Schriften behandeln](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 Erfahren Sie, wie Sie fehlende Schriftarten in Aspose.Words für Java handhaben und die Font‑Substitution konfigurieren.
 

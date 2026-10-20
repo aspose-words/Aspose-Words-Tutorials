@@ -78,6 +78,8 @@ Ein Codebeispiel, das zeigt, wie man in Aspose.Words für Java ein Rechteck einf
 ### [Bild in Word einfügen – Aspose.Words Schritt-für-Schritt-Anleitung](./insert-image-into-word-aspose-words-step-by-step-guide/)
 Ein praktisches Beispiel, das zeigt, wie Sie mit Aspose.Words für Java Bilder in ein Word-Dokument einfügen.
 
+### [Rechteckform in Word mit C# einfügen – vollständige Anleitung](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+Ein umfassendes Codebeispiel, das zeigt, wie man mit Aspose.Words für C# ein Rechteck in ein Word-Dokument einfügt.
 ### [Leeres Word-Dokument mit Schatten in Java erstellen – Vollständige Anleitung](./create-blank-word-with-shadow-in-java-full-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java ein leeres Word-Dokument erstellen und einen Schatteneffekt hinzufügen.
 
