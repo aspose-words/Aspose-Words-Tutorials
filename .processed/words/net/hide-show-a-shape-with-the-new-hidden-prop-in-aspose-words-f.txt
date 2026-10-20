@@ -1,0 +1,7 @@
+Title: Hide/Show a Shape with the new `Hidden` prop in Aspose.Words for C#
+Slug: hide-show-a-shape-with-the-new-hidden-prop-in-aspose-words-f
+Category: programming-with-shapes
+ProcessedDate: 2026-10-20T12:23:18.674292
+SourceRepo: AI Search API
+Keywords: ## 4. Hide/Show a Shape with the new `Hidden` prop
+PRNumber: 331
