@@ -51,6 +51,14 @@ Aspose.Words for Python을 사용하여 문서 속성 및 메타데이터를 관
 Aspose.Words for Python을 사용하여 웹 확장 기능으로 문서 기능을 확장하는 방법을 알아보세요. 원활한 통합을 위한 소스 코드가 포함된 단계별 가이드입니다.
 ### [Aspose.Words로 PDF 접근성 향상 – 완전한 단계별 가이드](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
 Aspose.Words를 사용해 PDF를 접근 가능하게 만드는 방법을 단계별 예제와 함께 자세히 안내합니다.
+### [DOCX 복구 방법 – Aspose.Words 완전 가이드](./how-to-recover-docx-complete-guide-with-aspose-words/)
+Aspose.Words를 사용하여 손상된 DOCX 파일을 복구하는 방법을 단계별로 안내합니다.
+### [Aspose.Words를 사용한 손상된 워드 문서 복구 – 단계별 Python 가이드](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+Aspose.Words for Python을 활용하여 손상된 Word 문서를 복구하는 방법을 단계별로 안내합니다.
+### [Python에서 docx 파일 복구하기 – 단계별 가이드](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Python에서 손상된 docx 파일을 복구하는 방법을 단계별로 안내합니다.
+### [Python에서 LaTeX용 MarkdownSaveOptions 구성 – Aspose.Words 가이드](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Python에서 LaTeX 문서 생성을 위해 MarkdownSaveOptions를 설정하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

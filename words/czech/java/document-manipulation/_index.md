@@ -130,6 +130,8 @@ Vylepšete dokumenty pomocí webových rozšíření v Aspose.Words pro Javu. Na
 
 ### [PDF označování přístupnosti v Javě – Generování přístupných PDF](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Naučte se, jak pomocí Aspose.Words pro Javu označovat PDF pro přístupnost a generovat přístupné PDF dokumenty.
+### [Vytvoření ActiveX tlačítka v DOCX v Javě – kompletní programovací průvodce](./create-docx-activex-button-in-java-complete-programming-guid/)
+Kompletní průvodce vytvořením ActiveX tlačítka v souboru DOCX pomocí Aspose.Words pro Javu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -85,6 +85,56 @@
 تعلم كيفية تحويل ملفات docx إلى pdf باستخدام بايثون مع Aspose.Words خطوة بخطوة.
 ### [تحويل DOCX إلى PDF في بايثون – دليل كامل خطوة بخطوة](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
 اكتشف كيفية تحويل مستندات DOCX إلى PDF باستخدام بايثون مع Aspose.Words باتباع دليل شامل خطوة بخطوة.
+### [حفظ Word كـ Markdown – دليل كامل باستخدام Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+تعلم كيفية حفظ مستندات Word بصيغة Markdown بسهولة باستخدام Aspose.Words في بايثون.
+### [حفظ ملف docx كـ pdf باستخدام Aspose.Words – دليل خطوة بخطوة](./save-docx-as-pdf-with-aspose-words-step-by-step-guide/)
+تعلم كيفية تحويل ملفات docx إلى PDF بسهولة باستخدام Aspose.Words في بايثون خطوة بخطوة.
+### [تصدير Word إلى Markdown – دليل كامل مع استخراج الصور في بايثون](./export-word-to-markdown-full-guide-with-image-extraction-in/)
+تعلم كيفية تصدير مستندات Word إلى صيغة Markdown مع استخراج الصور باستخدام Aspose.Words لبايثون.
+### [حفظ DOCX كـ TXT – دليل كامل لتصدير معادلات Word](./save-docx-as-txt-complete-guide-to-export-word-equations/)
+تعلم كيفية حفظ مستندات DOCX كملفات TXT وتصدير معادلات Word باستخدام Aspose.Words لبايثون.
+### [استعادة DOCX التالف وتحويله إلى PDF باستخدام Aspose.Words (Python)](./recover-corrupted-docx-and-convert-to-pdf-with-aspose-words/)
+تعلم كيفية إصلاح ملفات DOCX التالفة وتحويلها إلى PDF باستخدام Aspose.Words لبايثون.
+### [تحويل docx إلى markdown باستخدام بايثون – دليل شامل خطوة بخطوة](./convert-docx-to-markdown-with-python-full-step-by-step-guide/)
+تعلم كيفية تحويل ملفات docx إلى صيغة markdown باستخدام Aspose.Words لبايثون خطوة بخطوة.
+### [كيفية حفظ Word كملف PDF – دليل Aspose.Words الكامل](./how-to-save-word-as-pdf-complete-aspose-words-guide/)
+تعلم خطوة بخطوة كيفية حفظ مستندات Word بصيغة PDF باستخدام Aspose.Words لبايثون.
+### [تحويل docx إلى markdown – دليل بايثون كامل مع استخراج الصور](./convert-docx-to-markdown-complete-python-guide-with-image-ex/)
+تعلم كيفية تحويل ملفات docx إلى markdown باستخدام Aspose.Words لبايثون واستخراج الصور بسهولة خطوة بخطوة.
+### [تحويل docx إلى markdown – دليل Aspose.Words الكامل](./convert-docx-to-markdown-complete-aspose-words-guide/)
+تعلم خطوة بخطوة كيفية تحويل ملفات docx إلى صيغة markdown باستخدام Aspose.Words.
+### [تحويل docx إلى markdown – دليل كامل مع معادلات LaTeX](./convert-docx-to-markdown-complete-guide-with-latex-equations/)
+تعلم كيفية تحويل ملفات docx إلى صيغة markdown مع دعم معادلات LaTeX باستخدام Aspose.Words لبايثون.
+### [حفظ ملف docx كـ PDF باستخدام بايثون – تحويل docx إلى PDF وتصدير الأشكال](./save-docx-as-pdf-with-python-convert-docx-to-pdf-and-export/)
+تعلم كيفية تحويل ملفات docx إلى PDF مع حفظ الأشكال باستخدام Aspose.Words لبايثون.
+### [إنشاء PDF قابل للوصول – تحويل Word إلى PDF باستخدام بايثون](./create-accessible-pdf-convert-word-to-pdf-with-python/)
+تعلم كيفية إنشاء ملفات PDF قابلة للوصول من مستندات Word باستخدام Aspose.Words لبايثون.
+### [كيفية إعادة تسمية الصور عند تحويل DOCX إلى Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)
+تعلم كيفية إعادة تسمية الصور تلقائيًا أثناء تحويل ملفات DOCX إلى صيغة Markdown باستخدام Aspose.Words لبايثون.
+### [حفظ كملف PDF باستخدام Aspose.Words – دليل برمجة كامل](./save-as-pdf-with-aspose-words-complete-programming-guide/)
+تعلم كيفية حفظ المستندات كملفات PDF باستخدام Aspose.Words لبايثون مع شرح شامل للبرمجة.
+### [تحويل DOCX إلى PDF باستخدام Aspose.Words – دليل](./convert-docx-to-pdf-with-aspose-words-guide/)
+تعلم كيفية تحويل ملفات DOCX إلى PDF بسهولة باستخدام Aspose.Words لبايثون.
+### [حفظ Word كـ Markdown، وتصدير المعادلات إلى LaTeX (Python)](./save-word-as-markdown-export-equations-to-latex-python/)
+تعلم كيفية حفظ مستندات Word كملفات Markdown وتصدير المعادلات إلى LaTeX باستخدام Aspose.Words لبايثون.
+### [تصدير معادلات Word إلى LaTeX باستخدام Aspose.Words – دليل خطوة بخطوة](./export-word-equations-latex-with-aspose-words-step-by-step-g/)
+تعلم كيفية تصدير معادلات Word إلى LaTeX خطوة بخطوة باستخدام Aspose.Words لبايثون.
+### [تصدير DOCX إلى PDF – إنشاء PDF قابل للوصول](./export-docx-to-pdf-generate-accessible-pdf/)
+تعلم كيفية تحويل ملفات DOCX إلى PDF مع تحسين إمكانية الوصول باستخدام Aspose.Words لبايثون.
+### [تحويل docx إلى txt في بايثون – الدليل الكامل](./convert-docx-to-txt-in-python-full-guide/)
+تعلم كيفية تحويل ملفات docx إلى txt باستخدام Aspose.Words لبايثون خطوة بخطوة.
+### [حفظ مستند Word كملف PDF باستخدام Aspose.Words – دليل بايثون](./save-word-as-pdf-with-aspose-words-python-guide/)
+تعلم كيفية حفظ مستندات Word كملفات PDF باستخدام Aspose.Words لبايثون بسهولة.
+### [حفظ مستند Word كملف Markdown باستخدام Aspose.Words للبايثون – دليل خطوة بخطوة](./save-word-as-markdown-with-aspose-words-for-python-step-by-s/)
+تعلم كيفية تحويل مستندات Word إلى صيغة Markdown باستخدام Aspose.Words للبايثون خطوة بخطوة.
+### [حفظ docx كصورة PNG – دليل خطوة بخطوة لمطوري بايثون](./save-docx-as-png-step-by-step-guide-for-python-developers/)
+تعلم كيفية تحويل ملفات docx إلى صور PNG باستخدام Aspose.Words لبايثون خطوة بخطوة.
+### [تحميل Markdown باستخدام بايثون و Aspose.Words – دليل كامل](./load-markdown-python-with-aspose-words-full-guide/)
+تعلم كيفية تحميل ملفات Markdown في بايثون باستخدام Aspose.Words خطوة بخطوة.
+### [إنشاء PDF يمكن الوصول إليه من DOCX باستخدام Aspose.Words](./create-accessible-pdf-from-docx-with-aspose-words/)
+تعلم كيفية تحويل ملفات DOCX إلى PDF قابلة للوصول وفق معايير الوصول باستخدام Aspose.Words لبايثون.
+### [كيفية حفظ PDF من DOCX باستخدام Aspose.Words (Python)](./how-to-save-pdf-from-docx-using-aspose-words-python/)
+تعلم كيفية تحويل ملفات DOCX إلى PDF وحفظها باستخدام Aspose.Words لبايثون.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -34,6 +34,7 @@
 | [تحويل DOCX إلى TXT – تصدير معادلات Word إلى LaTeX في C#](./convert-docx-to-txt-export-word-equations-to-latex-in-c/) | تعلم كيفية تحويل ملفات DOCX إلى TXT وتصدير معادلات Word إلى LaTeX باستخدام C#. |
 | [كيفية تصدير الرياضيات من Word إلى LaTeX – دليل كامل](./how-to-export-math-from-word-to-latex-complete-guide/) | تعلم خطوة بخطوة كيفية تصدير المعادلات الرياضية من مستندات Word إلى تنسيق LaTeX باستخدام Aspose.Words و C#. |
 | [كيفية تصدير LaTeX من Word – دليل برمجة كامل](./how-to-export-latex-from-word-complete-programming-guide/) | تعلم كيفية تصدير معادلات LaTeX من مستندات Word باستخدام Aspose.Words و C# في دليل شامل خطوة بخطوة. |
+| [تحويل معادلات Word إلى LaTeX – دليل C# كامل](./convert-word-equations-to-latex-complete-c-guide/) | دليل شامل لتحويل معادلات Word إلى LaTeX باستخدام C# مع Aspose.Words. |
 | [حفظ ملف docx كملف txt – تصدير معادلات Word إلى MathML](./save-docx-as-txt-export-word-equations-to-mathml/) | تعلم كيفية حفظ مستندات docx كملفات txt وتصدير معادلات Word إلى MathML باستخدام C# و Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

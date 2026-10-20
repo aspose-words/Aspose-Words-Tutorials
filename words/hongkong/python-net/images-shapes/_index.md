@@ -52,6 +52,27 @@ Aspose.Words Python-net 教程中的「圖像和形狀」類別旨在幫助開�
     ### [如何使用帶陰影的矩形儲存文件 – 完整 Python 指南](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
 學習如何在 Python 中使用 Aspose.Words 為文件添加帶陰影的矩形並保存，提升文檔的視覺效果。
 
+    ### [在 Python 中建立矩形形狀 – Aspose.Words 教程](./create-rectangle-shape-in-python-aspose-words-tutorial/)
+    了解如何使用 Aspose.Words for Python 在 Word 文件中插入矩形形狀的步驟與程式碼示例。
+
+    ### [在 Python 中建立矩形形狀 – 完整 Aspose.Words 指南](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
+了解如何使用 Aspose.Words for Python 在 Word 文檔中插入和自訂矩形形狀的完整步驟。
+
+    ### [在 Word 中使用 Python 為形狀添加陰影 – 完整指南](./add-shadow-to-shape-in-word-with-python-complete-guide/)
+了解如何使用 Aspose.Words for Python 在 Word 文件中為形狀添加陰影效果，提升文件的視覺吸引力。
+
+    ### [如何在 Aspose.Words 中設定陰影 – Python 範例](./how-to-set-shadow-in-aspose-words-python-example/)
+    了解如何在 Python 中使用 Aspose.Words 為文檔元素添加陰影效果，提升視覺效果。
+
+    ### [使用 Aspose.Words for Python 在 PDF 中繪製矩形](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
+了解如何使用 Aspose.Words for Python 在 PDF 文件中繪製矩形以增強視覺效果。
+
+    ### [在 Python 中為形狀添加陰影 – 完整 Aspose.Words 指南](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
+了解如何使用 Aspose.Words for Python 為形狀添加陰影，以提升文件的視覺效果。
+
+    ### [如何使用 Python 為 Word 形狀添加陰影](./how-to-add-shadow-to-a-word-shape-using-python/)
+了解如何在 Word 文件中使用 Aspose.Words for Python 為形狀添加陰影效果，提升文件視覺吸引力。
+
 ## 其他資源
 
 - [Aspose.Words for Python-net 文檔](https://docs.aspose.com/words/python-net/)

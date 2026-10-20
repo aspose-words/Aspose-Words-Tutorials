@@ -74,6 +74,8 @@ Aspose.Words for Java를 사용하여 Java에서 Word 문서의 콘텐츠를 제
 Aspose.Words for Java를 사용하여 문서 처리를 최적화하세요. 이 단계별 가이드를 통해 북마크를 사용하여 효율적인 콘텐츠 탐색 및 조작 방법을 알아보세요.
 ### [Java용 Aspose.Words에서 문서 범위 사용](./using-document-ranges/)
 Aspose.Words for Java에서 문서 범위 조작을 마스터하세요. 이 종합 가이드를 통해 텍스트를 삭제, 추출, 서식 지정하는 방법을 알아보세요.
+### [Java용 Aspose.Words에서 docx ActiveX 버튼 만들기 – 완전 프로그래밍 가이드](./create-docx-activex-button-in-java-complete-programming-guid/)
+Java와 Aspose.Words를 사용해 docx 파일에 ActiveX 버튼을 삽입하고 동작하도록 구현하는 전체 가이드입니다.
 ### [Java용 Aspose.Words에서 구조화된 문서 태그(SDT) 사용](./using-structured-document-tags/)
 이 포괄적인 가이드를 통해 Aspose.Words for Java에서 구조화된 문서 태그(SDT)를 사용하는 방법을 알아보세요. SDT를 생성, 수정하고 사용자 지정 XML 데이터에 바인딩하는 방법을 알아보세요.
 ### [Aspose.Words for Java에서 스타일 및 테마 사용](./using-styles-and-themes/)

@@ -32,6 +32,8 @@ Pelajari lebih lanjut dengan halaman bersarang kami untuk menjelajahi fungsi-fun
 
 {{< tutorial-card link="./insert-simple-column-chart/" title="Menyisipkan Bagan Kolom Sederhana di Word Menggunakan Aspose.Words untuk .NET" imgSrc="./insert-simple-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-edit-chart-in-word-change-label-position-font-more/" title="Cara Mengedit Grafik di Word: Mengubah Posisi Label, Font, dan Lainnya" imgSrc="./how-to-edit-chart-in-word-change-label-position-font-more/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

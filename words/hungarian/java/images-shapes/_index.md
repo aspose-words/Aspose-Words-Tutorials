@@ -31,8 +31,13 @@ dokumentumfeldolgozás területén a képek és alakzatok integrálása kulcsfon
 ### [Egyéni oldal és kép mentése Java-ban Aspose.Words visszahívásokkal](./aspose-words-java-callback-custom-savings/)
 Kód oktatóanyag az Aspose.Words Java-hoz
 
+### [Csoportos alakzatok Word-ben – teljes programozási útmutató](./group-shapes-in-word-complete-programming-guide/)
+Ismerje meg, hogyan csoportosíthatja az alakzatokat Word dokumentumokban Java-val.
+
 ### [Hogyan jelenítsünk meg dokumentumoldalakat bélyegképként az Aspose.Words for Java használatával?](./render-word-pages-thumbnails-aspose-java/)
 Tanulja meg, hogyan hozhat létre kiváló minőségű miniatűröket és egyedi méretű bitképeket Word-dokumentumokból az Aspose.Words for Java segítségével. Fejlessze dokumentumkezelési képességeit még ma!
+### [Word dokumentum létrehozása Java – Téglalap alakzat hozzáadása árnyékhatással](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+Ismerje meg, hogyan adhat hozzá árnyékhatású téglalap alakzatot a Word dokumentumhoz Java-ban az Aspose.Words segítségével.
 
 ### [Árnyék hozzáadása alakzathoz Word-ben – Teljes Aspose.Words útmutató](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Ismerje meg, hogyan adhat árnyékot alakzatokhoz Word dokumentumokban az Aspose.Words for Java segítségével, lépésről lépésre.
@@ -49,9 +54,38 @@ Ismerje meg, hogyan hozhat létre téglalap alakzatot Word dokumentumban Java se
 
 ### [Szövegdoboz alakzat létrehozása Java-ban – Teljes útmutató az árnyékok hozzáadásához](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
 Ismerje meg, hogyan adhat hozzá árnyékhatású szövegdoboz alakzatot a Word dokumentumhoz Java-ban az Aspose.Words segítségével.
+### [PDF dokumentum létrehozása téglalap alakzattal – Teljes C# útmutató](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+Tanulja meg, hogyan hozhat létre PDF dokumentumot téglalap alakzattal C#-ban, részletes útmutatóval.
 
 ### [Word dokumentum létrehozása Java – Alakzat árnyék hozzáadása útmutató](./create-word-document-java-add-shadow-to-shape-guide/)
 Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
+
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
+### [Word dokumentum létrehozása Java – Alakzat hozzáadása árnyékhatással](./create-word-document-java-add-shape-with-shadow-effect/)
+Ismerje meg, hogyan adhat hozzá árnyékhatású alakzatot a Word dokumentumhoz Java-ban az Aspose.Words segítségével.
+
+### [Téglalap alakzat létrehozása Java-ban az Aspose.Words segítségével – Teljes útmutató](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Részletes útmutató a téglalap alakzatok létrehozásához és testreszabásához Java-ban az Aspose.Words könyvtárral.
+
+### [Hogyan szúrjunk be csoport alakzatot Java-ban – Teljes útmutató](./how-to-insert-group-shape-in-java-complete-guide/)
+Ismerje meg, hogyan hozhat létre és kezelhet csoportos alakzatokat a Word dokumentumokban Java és Aspose.Words segítségével.
+
+### [Üres Word dokumentum létrehozása csoportosított téglalapokkal – C# útmutató](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Tanulja meg, hogyan hozhat létre üres Word dokumentumot csoportosított téglalapokkal C#-ban az Aspose.Words segítségével.
+
+### [Téglalap alakzat beszúrása Java-ban – Alakzatok csoportosítása és pozicionálása](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+Tanulja meg, hogyan hozhat létre téglalap alakzatot, csoportosíthatja és pozicionálhatja más alakzatokkal Java-ban az Aspose.Words segítségével.
+
+### [Kép beszúrása Word-be – Aspose.Words lépésről lépésre útmutató](./insert-image-into-word-aspose-words-step-by-step-guide/)
+Tanulja meg, hogyan szúrhat be képeket Word dokumentumokba az Aspose.Words for Java segítségével, részletes példákkal.
+
+### [Téglalap alakzat beszúrása Word dokumentumba C#-ban – teljes útmutató](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+Teljes körű útmutató a téglalap alakzat C#-os beszúrásához Word dokumentumokba.
+### [Üres Word dokumentum létrehozása Java-ban árnyékkal – Teljes útmutató](./create-blank-word-with-shadow-in-java-full-guide/)
+Tanulja meg, hogyan hozhat létre üres Word dokumentumot árnyékhatással Java-ban az Aspose.Words segítségével.
+### [Kép elrejtése Word-ben – lépésről lépésre Java útmutató az Aspose-szal](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Tanulja meg, hogyan rejthet el képeket a Word dokumentumokban Java és Aspose segítségével.
 
 ## További források
 

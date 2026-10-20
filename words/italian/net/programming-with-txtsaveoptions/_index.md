@@ -25,6 +25,7 @@ Grazie a questi tutorial, potrai sfruttare appieno le funzionalità di Aspose.Wo
 | Titolo | Descrizione |
 | --- | --- |
 | [Aggiungere segni Bidi nel documento Word](./add-bidi-marks/) | Scopri come aggiungere marcatori bidirezionali (Bidi) nei documenti Word utilizzando Aspose.Words per .NET con questa guida. Garantisci il corretto orientamento del testo per i contenuti multilingue. |
+| [Salva docx come txt – Guida completa per esportare le equazioni Word in LaTeX](./save-docx-as-txt-complete-guide-to-exporting-word-equations/) | Scopri come convertire documenti DOCX in file TXT mantenendo le equazioni Word e esportandole in formato LaTeX con Aspose.Words per .NET. |
 | [Usa il carattere di tabulazione per livello per l'indentazione dell'elenco](./use-tab-character-per-level-for-list-indentation/) | Scopri come creare elenchi multilivello con rientro a tabulazione utilizzando Aspose.Words per .NET. Segui questa guida per formattare gli elenchi in modo preciso nei tuoi documenti. |
 | [Usa il carattere spazio per livello per l'indentazione dell'elenco](./use-space-character-per-level-for-list-indentation/) | Scopri come creare elenchi multilivello con rientro tramite spazi in Aspose.Words per .NET. Guida passo passo per una formattazione precisa dei documenti. |
 | [Come esportare LaTeX da DOCX – Convertire DOCX in TXT in C#](./how-to-export-latex-from-docx-convert-docx-to-txt-in-c/) | Scopri come esportare contenuti LaTeX da un documento DOCX e convertirli in file TXT usando Aspose.Words per .NET con C#. |
@@ -43,6 +44,9 @@ Grazie a questi tutorial, potrai sfruttare appieno le funzionalità di Aspose.Wo
 | [Come esportare LaTeX da Word – Convertire DOCX in TXT con equazioni](./how-to-export-latex-from-word-convert-docx-to-txt-with-equat/) | Scopri come esportare contenuti LaTeX da documenti Word, convertendo DOCX in file TXT con equazioni preservate. |
 | [Salva docx come txt – Guida completa C# con equazioni LaTeX](./save-docx-as-txt-complete-c-guide-with-latex-equations/) | Impara a convertire documenti DOCX in file TXT includendo equazioni LaTeX usando Aspose.Words per .NET con C#. |
 | [Crea txt da documento in C# – Esporta equazioni in LaTeX](./create-txt-from-document-in-c-export-equations-to-latex/) | Scopri come creare file txt da documenti Word esportando le equazioni in LaTeX usando Aspose.Words per .NET con esempi C#. |
+| [Come esportare LaTeX da Word – Guida completa all'esportazione di LaTeX](./how-to-export-latex-from-word-complete-guide-to-export-latex/) | Scopri come esportare contenuti LaTeX da documenti Word usando Aspose.Words per .NET con esempi di codice C#. |
+| [Salva docx come txt – Esporta Math in LaTeX con Aspose.Words](./save-docx-as-txt-export-math-to-latex-with-aspose-words/) | Scopri come esportare le equazioni Math da un file DOCX a LaTeX durante la conversione in TXT con Aspose.Words per .NET. |
+| [Salva docx come txt – Esporta le equazioni Word in LaTeX con C#](./save-docx-as-txt-export-word-equations-to-latex-with-c/) | Scopri come convertire le equazioni di Word in LaTeX durante il salvataggio di documenti DOCX in file TXT usando C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

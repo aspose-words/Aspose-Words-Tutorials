@@ -34,6 +34,7 @@ Aspose.Words för .NET-handledningarna om ordbehandling med OfficeMath guidar di
 | [Konvertera DOCX till TXT – Exportera Word-ekvationer till LaTeX i C#](./convert-docx-to-txt-export-word-equations-to-latex-in-c/) | Lär dig hur du konverterar ett DOCX till TXT och exporterar Word-ekvationer till LaTeX med C#. |
 | [Exportera matematik från Word till LaTeX – Komplett guide](./how-to-export-math-from-word-to-latex-complete-guide/) | Lär dig steg-för-steg hur du exporterar matematiska ekvationer från Word till LaTeX med Aspose.Words för .NET. |
 | [Exportera LaTeX från Word – Komplett programmeringsguide](./how-to-export-latex-from-word-complete-programming-guide/) | Lär dig hur du exporterar LaTeX från Word-dokument med en komplett guide för C#-programmering. |
+| [Konvertera Word-ekvationer till LaTeX – Komplett C#-guide](./convert-word-equations-to-latex-complete-c-guide/) | Lär dig hur du konverterar Word-ekvationer till LaTeX med en komplett C#-guide. |
 | [Spara docx som txt – Exportera Word-ekvationer till MathML](./save-docx-as-txt-export-word-equations-to-mathml/) | Lär dig hur du sparar ett docx som txt och exporterar Word-ekvationer till MathML med C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

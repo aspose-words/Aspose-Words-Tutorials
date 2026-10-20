@@ -50,6 +50,14 @@
 تعلم كيفية إنشاء مستند Word وإضافة ظل إلى الأشكال باستخدام Aspose.Words لبايثون.
 ### [إضافة ظل إلى الشكل في Python – دليل Aspose.Words الكامل](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
 تعلم كيفية إضافة تأثير الظل إلى الأشكال في مستندات Word باستخدام Aspose.Words لـ Python خطوة بخطوة.
+### [كيفية تعيين الظل في Aspose.Words – مثال Python](./how-to-set-shadow-in-aspose-words-python-example/)
+تعلم كيفية إضافة تأثير الظل إلى المستندات باستخدام Aspose.Words في Python.
+### [رسم مستطيل في PDF باستخدام Aspose.Words للبايثون](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
+تعلم كيفية رسم مستطيل داخل ملفات PDF باستخدام Aspose.Words للبايثون خطوة بخطوة.
+### [إضافة الظل إلى الشكل في Python – دليل كامل Aspose.Words](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
+تعلم كيفية إضافة تأثير الظل إلى الأشكال في مستندات Word باستخدام Aspose.Words للغة Python.
+### [كيفية إضافة الظل إلى شكل Word باستخدام Python](./how-to-add-shadow-to-a-word-shape-using-python/)
+تعلم كيفية إضافة تأثير الظل إلى الأشكال في مستندات Word باستخدام Aspose.Words مع Python.
 
 ## موارد إضافية
 
@@ -59,6 +67,8 @@
 - [منتدى Aspose.Words](https://forum.aspose.com/c/words/8)
 - [دعم مجاني](https://forum.aspose.com/)
 - [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
+### [إضافة الظل إلى الشكل في Word باستخدام Python – دليل شامل](./add-shadow-to-shape-in-word-with-python-complete-guide/)
+تعلم كيفية إضافة تأثير الظل إلى الأشكال في مستندات Word باستخدام مكتبة Aspose.Words للغة Python خطوة بخطوة.
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

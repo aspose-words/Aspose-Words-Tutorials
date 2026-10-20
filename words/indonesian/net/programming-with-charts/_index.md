@@ -71,6 +71,12 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Menyesuaikan Titik Data Bagan Tunggal Dalam Bagan](./single-chart-data-point/) | Pelajari cara menyesuaikan titik data grafik tunggal menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah yang terperinci. Sempurnakan grafik Anda dengan penanda dan ukuran yang unik. Bahasa Indonesia:
 | [Kustomisasi Seri Bagan Tunggal Dalam Bagan](./single-chart-series/) | Pelajari cara menyesuaikan rangkaian bagan tunggal dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk pengalaman yang lancar. |
 | [Menampilkan Legenda Bagan di Word dengan C# – Panduan Langkah demi Langkah Lengkap](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Pelajari cara menampilkan legenda bagan di dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh kode C# lengkap. |
+| [Mengekspansi Irisan Bagan Pai di C# dengan Aspose.Words – Panduan Lengkap](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Pelajari cara mengekspansi irisan bagan pai menggunakan Aspose.Words untuk .NET dengan contoh kode C# lengkap. |
+| [Menambahkan label bagan pai di C# menggunakan Aspose.Words – Panduan Lengkap](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Pelajari cara menambahkan label pada bagan pai di C# dengan Aspose.Words melalui panduan lengkap dan contoh kode. |
+| [Cara Menampilkan Persentase dalam Bagan dengan Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Pelajari cara menampilkan nilai persentase pada bagan di Word menggunakan Aspose.Words dengan C# dalam panduan langkah demi langkah ini. Bahasa Indonesia:
+| [Cara menambahkan label data ke bagan Word dalam C# – panduan langkah demi langkah](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Pelajari cara menambahkan label data pada bagan Word menggunakan C# dengan panduan langkah demi langkah ini. Bahasa Indonesia: |
+| [Penempatan Label Data Kustom untuk Bagan di C#](./custom-data-label-placement-for-charts-in-c/) | Pelajari cara menempatkan label data secara kustom pada bagan di Word menggunakan C# dengan Aspose.Words. Bahasa Indonesia: |
+| [Membuat Bagan Pai di Word dengan C# – Panduan Langkah demi Langkah](./create-pie-chart-word-in-c-step-by-step-guide/) | Pelajari cara membuat bagan pai di dokumen Word menggunakan C# dengan panduan langkah demi langkah ini. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

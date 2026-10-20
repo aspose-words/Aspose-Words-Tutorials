@@ -58,12 +58,12 @@ weight: 1
     <artifactId>aspose-words</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
 **Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ### 環境設定需求
 - 已安裝 Java Development Kit (JDK)。
@@ -88,6 +88,16 @@ public class SetupAsposeWords {
         System.out.println("Aspose.Words is ready to use!");
     }
 }
+```  
+
+函式庫就緒後，您即可開始使用核心功能。
+
+## 如何使用 LayoutCollector 分析頁面？
+
+`LayoutCollector` 是一個將 `Document` 中每個節點映射到其起始與結束頁碼的類別，能實現精確的分頁分析。載入文件、附加 `LayoutCollector`，並查詢頁面資訊——整個操作只需幾行程式碼，即使是大型檔案也能提供可靠結果。
+
+```text
+Load the document → create LayoutCollector → call getStartPage(node) / getEndPage(node)
 ```
 
 函式庫就緒後，我們即可深入核心功能。
@@ -106,7 +116,7 @@ public class SetupAsposeWords {
 ```java
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
-```
+```  
 
 **2. Populate the Document**
 此處將加入跨多頁的內容：
@@ -117,7 +127,7 @@ builder.insertBreak(BreakType.PAGE_BREAK);
 builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
 builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
-```
+```  
 
 **3. Update Layout and Retrieve Metrics**
 ```java
@@ -125,6 +135,19 @@ layoutCollector.clear();
 doc.updatePageLayout();
 
 assert layoutCollector.getNumPagesSpanned(doc) == 5;
+```  
+
+**說明：**  
+- `DocumentBuilder` 插入內容。  
+- `updatePageLayout()` 強制執行版面更新，使頁碼正確。  
+- `getStartPage` / `getEndPage` 回傳任意節點的起始與結束頁索引。
+
+## 如何使用 LayoutEnumerator 列舉版面元素？
+
+`LayoutEnumerator` 是一個遍歷文件視覺版面樹的類別，會公開每個元素的類型、位置與大小——非常適合自訂渲染或分析。`LayoutEnumerator` 會走訪視覺版面樹，公開每個元素的類型、位置與大小——適用於自訂渲染或分析。
+
+```text
+Initialize LayoutEnumerator → move to first child → iterate while moving next sibling
 ```
 
 #### 說明
@@ -143,7 +166,7 @@ assert layoutCollector.getNumPagesSpanned(doc) == 5;
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
-```
+```  
 
 **2. Traversing Forward and Backward**
 ```java
@@ -154,7 +177,7 @@ traverseLayoutForward(layoutEnumerator, 1);
 
 // Traverse backward
 traverseLayoutBackward(layoutEnumerator, 1);
-```
+```  
 
 #### 說明
 - **`moveParent()`** 將列舉器移至父層實體（此例為頁面層級）。
@@ -172,7 +195,7 @@ traverseLayoutBackward(layoutEnumerator, 1);
 ```java
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
 doc.updatePageLayout();
-```
+```  
 
 **2. Implement Callback Methods**
 ```java
@@ -194,7 +217,7 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
         }
     }
 }
-```
+```  
 
 #### 說明
 - **`notify()`** 回應佈局事件。
@@ -211,13 +234,13 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
 **1. Load Document**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
-```
+```  
 
 **2. Configure Page Numbering Options**
 ```java
 doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
 doc.updatePageLayout();
-```
+```  
 
 #### 說明
 - **`setContinuousSectionPageNumberingRestart()`** 告訴 Aspose.Words 如何處理連續區段的編號。

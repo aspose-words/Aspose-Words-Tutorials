@@ -70,6 +70,8 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java effizient Inhalte aus Word-Doku
 Erfahren Sie, wie Sie mit Aspose.Words für Java Text in Word-Dokumenten suchen und ersetzen. Schritt-für-Schritt-Anleitung mit Codebeispielen. Verbessern Sie Ihre Java-Dokumentbearbeitungsfähigkeiten.
 ### [Entfernen von Inhalten aus Dokumenten in Aspose.Words für Java](./removing-content-from-documents/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java Inhalte aus Word-Dokumenten in Java entfernen. Entfernen Sie Seitenumbrüche, Abschnittsumbrüche und mehr. Optimieren Sie Ihre Dokumentverarbeitung.
+### [Erstellen einer docx ActiveX-Schaltfläche in Java – vollständiger Programmierleitfaden](./create-docx-activex-button-in-java-complete-programming-guid/)
+Erfahren Sie, wie Sie in Java eine docx-Datei mit einer ActiveX-Schaltfläche erstellen und programmieren.
 ### [Verwenden von Lesezeichen in Aspose.Words für Java](./using-bookmarks/)
 Optimieren Sie Ihre Dokumentenverarbeitung mit Aspose.Words für Java. Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Lesezeichen für eine effiziente Inhaltsnavigation und -bearbeitung verwenden.
 ### [Verwenden von Dokumentbereichen in Aspose.Words für Java](./using-document-ranges/)

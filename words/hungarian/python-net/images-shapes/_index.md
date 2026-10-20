@@ -49,6 +49,23 @@ Tanuld meg, hogyan adhatsz árnyékot alakzatokhoz a Word dokumentumokban Python
 Tanuld meg, hogyan adhatsz árnyékot alakzatokhoz Pythonban az Aspose.Words segítségével, részletes, lépésről lépésre útmutató.
 ### [Hogyan mentse el a dokumentumot árnyékolt téglalappal – Teljes Python útmutató](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
 Tanulja meg, hogyan menthet el egy Word dokumentumot árnyékolt téglalappal a Python‑net és az Aspose.Words segítségével.
+### [Téglalap alakzat létrehozása Pythonban – Aspose.Words oktatóanyag](./create-rectangle-shape-in-python-aspose-words-tutorial/)
+Tanulja meg, hogyan hozhat létre téglalap alakzatot a Word dokumentumokban a Python és az Aspose.Words segítségével.
+### [Téglalap alakzat létrehozása Pythonban – Teljes Aspose.Words útmutató](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
+Tanuld meg, hogyan hozhatsz létre téglalap alakzatot a Word dokumentumokban Python és Aspose.Words használatával.
+### [Hogyan illesszünk be téglalap alakzatot Pythonban – Teljes Aspose.Words útmutató](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
+Tanuld meg, hogyan hozhatsz létre és helyezhetsz el téglalap alakzatot Word dokumentumokban a Python és az Aspose.Words segítségével.
+### [Árnyék hozzáadása alakzathoz Pythonban az Aspose.Words segítségével – Teljes útmutató](./add-shadow-to-shape-in-python-with-aspose-words-full-guide/)
+Tanuld meg, hogyan adhatsz árnyékot alakzatokhoz Pythonban az Aspose.Words használatával, lépésről lépésre útmutató.
+### [Árnyék hozzáadása alakzathoz a Word dokumentumban Python segítségével – Teljes útmutató](./add-shadow-to-shape-in-word-with-python-complete-guide/)
+Tanuld meg, hogyan adhatsz árnyékot alakzatoknak a Word dokumentumokban Python használatával, részletes, lépésről‑lépésre útmutató.
+### [Hogyan állítsunk be árnyékot az Aspose.Words-ben – Python példa](./how-to-set-shadow-in-aspose-words-python-example/)
+Tanuld meg, hogyan alkalmazhatsz árnyékhatást Pythonban az Aspose.Words segítségével, lépésről lépésre útmutató.
+### [Téglalap rajzolása PDF-be az Aspose.Words for Python segítségével](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
+Tanuld meg, hogyan rajzolhatsz téglalapot PDF dokumentumokba az Aspose.Words for Python használatával.
+### [Árnyék hozzáadása alakzathoz Pythonban – teljes Aspose.Words útmutató](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
+### [Hogyan adjunk árnyékot egy Word alakzathoz Python használatával](./how-to-add-shadow-to-a-word-shape-using-python/)
+Tanuld meg, hogyan adhatsz árnyékot egy Word alakzathoz Python és Aspose.Words segítségével.
 
 ## További források
 

@@ -58,13 +58,13 @@ Aspose.Words는 `ControlChar` 상수 집합을 제공하여 저수준 바이트 
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 Gradle을 선호한다면 다음 스니펫을 사용하십시오:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ## 라이선스 획득
 Aspose.Words를 완전히 활용하려면 라이선스 파일이 필요합니다:
@@ -77,7 +77,12 @@ Aspose.Words를 완전히 활용하려면 라이선스 파일이 필요합니다
 ```java
 License license = new License();
 license.setLicense("path/to/aspose.words.lic");
-```
+```  
+
+## Java에서 제어 문자를 삽입하는 방법은?
+`DocumentBuilder` 클래스는 프로그래밍 방식으로 문서 내용을 구성하고 수정하는 메서드를 제공합니다.  
+문서를 로드하고, `DocumentBuilder`를 생성한 다음, 적절한 `write` 또는 `insert` 메서드를 호출하여 공백, 탭, 줄 바꿈 또는 페이지 나누기를 추가합니다. 이 단일 라인 패턴—`builder.write(ControlChar.TAB)`—은 대부분의 레이아웃 요구를 충족하며, 복잡한 구조를 위해 여러 호출을 체인할 수 있습니다. 대용량 문서의 경우, 배치 삽입으로 처리 오버헤드를 줄일 수 있습니다.  
+`ControlChar`는 레이아웃 제어에 사용되는 비인쇄 문자들의 열거형입니다.
 
 ## 구현 가이드
 구현을 두 가지 주요 기능으로 나눕니다: 캐리지 리턴 처리와 제어 문자 삽입.

@@ -1,8 +1,8 @@
 ---
 date: 2025-11-25
 description: Apprenez comment intégrer l'IA pour le traitement intelligent de documents
-  avec Aspose.Words pour Java. Découvrez l'automatisation de documents par l'IA, la
-  génération de contenu et la traduction.
+  avec Aspose.Words pour Java. Découvrez l'automatisation de documents par l'IA,
+  la génération de contenu et la traduction.
 title: Comment intégrer l'IA avec Aspose.Words pour Java – IA & ML
 url: /fr/java/ai-machine-learning-integration/
 weight: 20
@@ -70,6 +70,10 @@ Apprenez à automatiser la synthèse et la traduction de texte en utilisant Aspo
 
 ### [Comment configurer un LLM – Remplacer le texte dans un DOCX avec l'IA](./how-to-configure-llm-replace-text-in-docx-with-ai/)
 Apprenez à configurer un modèle de langage pour remplacer automatiquement du texte dans des fichiers DOCX à l'aide d'Aspose.Words et d'une IA.
+### [Créer un modèle IA personnalisé – Modifier les paragraphes Word en Java](./create-custom-ai-model-edit-word-paragraphs-in-java/)
+Apprenez à créer votre propre modèle d'IA et à l'utiliser pour modifier automatiquement les paragraphes des documents Word avec Aspose.Words en Java.
+### [Créer un document Word en Java avec vérification grammaticale LLM personnalisée](./create-word-document-java-with-custom-llm-grammar-check/)
+Apprenez à générer des documents Word en Java et à intégrer un LLM personnalisé pour corriger automatiquement la grammaire.
 
 ## Ressources supplémentaires
 
@@ -99,14 +103,6 @@ R : Pour la plupart des cas d'usage, les modèles pré‑entraînés fonctionn
 
 ---
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Dernière mise à jour :** 2025-11-25  
@@ -114,3 +110,11 @@ R : Pour la plupart des cas d'usage, les modèles pré‑entraînés fonctionn
 **Auteur :** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

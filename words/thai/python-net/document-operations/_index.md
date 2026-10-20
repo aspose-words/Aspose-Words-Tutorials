@@ -75,6 +75,16 @@
 
 ### [กู้ไฟล์ DOCX ที่เสียหาย – คู่มือฉบับสมบูรณ์โดยใช้ Aspose.Words สำหรับ Python](./recover-corrupted-docx-complete-guide-using-aspose-words-for/)
 เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายและกู้คืนเนื้อหาอย่างเต็มที่ด้วย Aspose.Words สำหรับ Python
+### [กู้ไฟล์ DOCX ที่เสียหาย – คู่มือฉบับสมบูรณ์ในการเปิดไฟล์ Word ด้วย Aspose](./recover-corrupted-docx-complete-guide-to-opening-word-files/)
+เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายและเปิดไฟล์ Word ด้วย Aspose.Words สำหรับ Python‑net อย่างครบถ้วน
+### [กู้ไฟล์ DOCX ที่เสียหายใน Python – คู่มือฉบับสมบูรณ์](./recover-corrupted-docx-files-in-python-complete-guide/)
+เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายด้วย Python โดยใช้ Aspose.Words เพื่อกู้ข้อมูลและฟื้นฟูเอกสารของคุณ
+### [วิธีกู้ไฟล์ DOCX ใน Python – คู่มือครบถ้วน](./how-to-recover-docx-files-in-python-complete-guide/)
+เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายด้วย Python และ Aspose.Words อย่างละเอียดเพื่อกู้ข้อมูลสำคัญได้อย่างรวดเร็ว
+### [กู้ไฟล์ DOCX ที่เสียหายใน Python – คู่มือเต็มขั้นตอน](./recover-corrupted-docx-in-python-full-step-by-step-guide/)
+บทช่วยสอนขั้นตอนเต็มสำหรับการกู้ไฟล์ DOCX ที่เสียหายใน Python ด้วย Aspose.Words
+### [วิธีกู้คืน DOCX ใน Python ด้วย Aspose.Words](./how-to-recover-docx-in-python-using-aspose-words/)
+เรียนรู้วิธีกู้คืนไฟล์ DOCX ที่เสียหายใน Python โดยใช้ Aspose.Words
 
 ## แหล่งข้อมูลเพิ่มเติม
 

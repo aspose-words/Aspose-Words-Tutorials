@@ -42,6 +42,11 @@ Bu eğitimler sayesinde, Aspose.Words for .NET'in işlevselliklerinden tam olara
 | [Word'den LaTeX'e Dışa Aktarma – Denklemlerle DOCX'i TXT'ye Dönüştürme](./how-to-export-latex-from-word-convert-docx-to-txt-with-equat/) | Bu kılavuz, Aspose.Words for .NET kullanarak Word belgelerindeki denklemleri koruyarak LaTeX formatına ve TXT dosyasına nasıl dönüştüreceğinizi gösterir. |
 | [docx'i txt olarak kaydet – LaTeX Denklemleriyle Tam C# Rehberi](./save-docx-as-txt-complete-c-guide-with-latex-equations/) | Aspose.Words for .NET kullanarak docx dosyalarını txt'e dönüştürürken LaTeX denklemlerini koruyan eksiksiz C# örnekleri. |
 | [C# ile belgeden txt oluşturma – Denklemleri LaTeX'e dışa aktar](./create-txt-from-document-in-c-export-equations-to-latex/) | Aspose.Words for .NET kullanarak C# ile belgelerden txt dosyası oluşturup denklemleri LaTeX formatına dışa aktarmayı öğrenin. |
+| [Word'den LaTeX'e Aktarma – LaTeX Aktarımı İçin Tam Kılavuz](./how-to-export-latex-from-word-complete-guide-to-export-latex/) | Aspose.Words for .NET kullanarak Word belgelerinden LaTeX formatına nasıl dönüştüreceğinizi adım adım gösteren kapsamlı rehber. |
+| [docx'i txt olarak kaydet – Word denklemlerini LaTeX'e dışa aktarma tam rehberi](./save-docx-as-txt-complete-guide-to-exporting-word-equations/) | Bu kılavuz, Aspose.Words for .NET kullanarak docx dosyalarını txt'ye dönüştürürken Word denklemlerini LaTeX formatına nasıl dışa aktaracağınızı gösterir. |
+| [docx'i txt olarak kaydet – Aspose.Words ile Matematiği LaTeX'e Dışa Aktar](./save-docx-as-txt-export-math-to-latex-with-aspose-words/) | Aspose.Words kullanarak docx dosyasını txt formatına kaydederken matematik denklemlerini LaTeX koduna dönüştürmeyi öğrenin. |
+| [DOCX'i TXT Olarak Kaydet – Word Denklemlerini LaTeX'e C# ile Dışa Aktarma](./save-docx-as-txt-export-word-equations-to-latex-with-c/) | Bu eğitimde, Aspose.Words for .NET kullanarak DOCX dosyasını TXT olarak kaydederken Word denklemlerini LaTeX formatına nasıl dışa aktaracağınızı öğrenin. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

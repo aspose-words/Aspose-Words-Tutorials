@@ -54,6 +54,18 @@ Learn how to manipulate PDFs using Aspose.Words for Python. Convert, edit, and h
     ### [Recover corrupted Word document using Python – Complete Guide](./recover-corrupted-word-document-using-python-complete-guide/)
 Learn how to recover and open corrupted Word documents using Aspose.Words for Python-net with step-by-step instructions.
 
+    ### [Recover Corrupted DOCX – Complete Guide to Opening Word Files with Aspose](./recover-corrupted-docx-complete-guide-to-opening-word-files/)
+Learn how to recover and open corrupted DOCX files using Aspose.Words for Python-net with step-by-step instructions.
+
+    ### [Recover Corrupted DOCX Files in Python – Complete Guide](./recover-corrupted-docx-files-in-python-complete-guide/)
+Learn how to recover and open corrupted DOCX files using Aspose.Words for Python-net with step-by-step instructions.
+
+    ### [How to Recover DOCX Files in Python – Complete Guide](./how-to-recover-docx-files-in-python-complete-guide/)
+Learn how to recover damaged DOCX files using Aspose.Words for Python-net with step-by-step instructions and code examples.
+
+    ### [Recover Corrupted DOCX in Python – Full Step‑by‑Step Guide](./recover-corrupted-docx-in-python-full-step-by-step-guide/)
+Step-by-step guide to recover corrupted DOCX files using Aspose.Words for Python-net.
+
     ### [Master Document Management with Aspose.Words in Python&#58; Limit Headings & Sign XPS Documents](./aspose-words-python-document-management/)
     Learn how to limit heading levels and apply digital signatures in XPS documents using Aspose.Words for Python, enhancing document security and navigation.
 
@@ -68,6 +80,8 @@ Learn how to recover and open corrupted Word documents using Aspose.Words for Py
 
     ### [How to Recover DOCX – Complete Guide to Restoring Corrupted Word Documents](./how-to-recover-docx-complete-guide-to-restoring-corrupted-wo/)
 Learn how to recover and restore corrupted DOCX files using Aspose.Words for Python-net.
+
+    ### [How to recover docx in Python using Aspose.Words](./how-to-recover-docx-in-python-using-aspose-words/)
 
 ## Additional Resources
 

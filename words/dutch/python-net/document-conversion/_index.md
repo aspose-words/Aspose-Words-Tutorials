@@ -106,6 +106,76 @@ Leer hoe je docx-bestanden naar PDF converteert met Aspose.Words voor Python in 
 
 ### [DOCX naar PDF converteren in Python – Complete stap‑voor‑stap gids](./convert-docx-to-pdf-in-python-complete-step-by-step-guide/)
 Leer hoe je DOCX-bestanden naar PDF converteert met Aspose.Words voor Python in een volledige stap‑voor‑stap gids.
+### [Word opslaan als Markdown – Complete gids met Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Leer hoe je met Aspose.Words voor Python Word-documenten kunt opslaan als Markdown-bestanden.
+
+### [DOCX opslaan als PDF met Aspose.Words – Stapsgewijze gids](./save-docx-as-pdf-with-aspose-words-step-by-step-guide/)
+Leer hoe je met Aspose.Words voor Python DOCX-bestanden kunt converteren naar PDF.
+
+### [Export Word naar Markdown – Volledige gids met afbeeldingsextractie in Python](./export-word-to-markdown-full-guide-with-image-extraction-in/)
+Leer hoe je met Aspose.Words voor Python Word-documenten exporteert naar Markdown en afbeeldingen extraheert.
+### [Herstel beschadigde DOCX en converteer naar PDF met Aspose.Words (Python)](./recover-corrupted-docx-and-convert-to-pdf-with-aspose-words/)
+Leer hoe je met Aspose.Words voor Python beschadigde DOCX-bestanden kunt herstellen en naar PDF kunt converteren.
+
+### [docx opslaan als txt – Complete gids voor het exporteren van Word‑vergelijkingen](./save-docx-as-txt-complete-guide-to-export-word-equations/)
+Leer hoe je met Aspose.Words voor Python docx-bestanden kunt opslaan als txt en Word‑vergelijkingen kunt exporteren.
+
+### [Word opslaan als PDF – Genereer toegankelijke PDF/A‑2U met Aspose.Words](./save-word-as-pdf-generate-accessible-pdf-a-2u-with-aspose-wo/)
+Leer hoe je met Aspose.Words Word-documenten naar PDF converteert en toegankelijke PDF/A‑2U-bestanden genereert.
+### [Docx naar markdown converteren met Python – Volledige stapsgewijze gids](./convert-docx-to-markdown-with-python-full-step-by-step-guide/)
+Leer hoe je docx-bestanden naar markdown converteert met Aspose.Words voor Python, stap voor stap.
+
+### [Docx naar markdown converteren – Complete Python-gids met afbeeldingsextractie](./convert-docx-to-markdown-complete-python-guide-with-image-ex/)
+Leer hoe je docx-bestanden naar markdown converteert met Aspose.Words voor Python en afbeeldingen uit het document haalt.
+
+### [Hoe Word opslaan als PDF – Complete Aspose.Words-gids](./how-to-save-word-as-pdf-complete-aspose-words-guide/)
+Leer hoe je met Aspose.Words voor Python Word-documenten naar PDF kunt opslaan, stap voor stap.
+
+### [Docx naar markdown converteren – Complete Aspose.Words-gids](./convert-docx-to-markdown-complete-aspose-words-guide/)
+Leer hoe je docx-bestanden naar markdown converteert met Aspose.Words voor Python, stap voor stap.
+### [DOCX naar Markdown converteren – Complete gids met LaTeX‑vergelijkingen](./convert-docx-to-markdown-complete-guide-with-latex-equations/)
+Leer hoe je DOCX-bestanden naar Markdown converteert, inclusief LaTeX‑vergelijkingen, met Aspose.Words voor Python.
+
+### [docx opslaan als pdf met Python – docx naar pdf converteren en vormen exporteren](./save-docx-as-pdf-with-python-convert-docx-to-pdf-and-export/)
+Leer hoe je met Aspose.Words voor Python een DOCX-bestand naar PDF converteert en grafische elementen exporteert.
+
+### [Toegankelijke PDF maken – Word naar PDF converteren met Python](./create-accessible-pdf-convert-word-to-pdf-with-python/)
+Leer hoe je met Aspose.Words voor Python toegankelijke PDF's maakt door Word-documenten te converteren, met behoud van toegankelijkheidskenmerken.
+
+### [Hoe afbeeldingen te hernoemen bij het converteren van DOCX naar Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)
+Leer hoe je met Aspose.Words voor Python afbeeldingen hernoemt tijdens het converteren van DOCX naar Markdown.
+
+### [Opslaan als PDF met Aspose.Words – Complete programmeergids](./save-as-pdf-with-aspose-words-complete-programming-guide/)
+Leer hoe je met Aspose.Words voor Python documenten als PDF opslaat met een volledige programmeergids.
+### [DOCX naar PDF converteren met Aspose.Words – Gids](./convert-docx-to-pdf-with-aspose-words-guide/)
+Leer hoe je met Aspose.Words voor Python DOCX-bestanden naar PDF kunt converteren.
+### [Word opslaan als Markdown, vergelijkingen exporteren naar LaTeX (Python)](./save-word-as-markdown-export-equations-to-latex-python/)
+Leer hoe je Word-documenten opslaat als Markdown en formules exporteert naar LaTeX met Aspose.Words voor Python.
+
+### [Exporteren van Word-vergelijkingen naar LaTeX met Aspose.Words – stapsgewijze gids](./export-word-equations-latex-with-aspose-words-step-by-step-g/)
+Leer hoe je met Aspose.Words vergelijkingen uit Word-documenten exporteert naar LaTeX, stap voor stap.
+
+### [docx exporteren naar pdf – genereer toegankelijke PDF](./export-docx-to-pdf-generate-accessible-pdf/)
+Leer hoe je met Aspose.Words voor Python DOCX-bestanden naar toegankelijke PDF's exporteert.
+### [Convert docx naar txt in Python – volledige gids](./convert-docx-to-txt-in-python-full-guide/)
+Leer hoe je docx-bestanden naar txt converteert met Aspose.Words voor Python, stap voor stap.
+
+### [Word opslaan als PDF met Aspose.Words – Python-gids](./save-word-as-pdf-with-aspose-words-python-guide/)
+Leer hoe je Word-documenten als PDF opslaat met Aspose.Words voor Python.
+
+### [Word opslaan als Markdown met Aspose.Words – Python-gids](./save-word-as-markdown-with-aspose-words-for-python-step-by-s/)
+Leer hoe je met Aspose.Words voor Python Word-documenten als Markdown opslaat, stap voor stap.
+
+### [Docx opslaan als png – stapsgewijze gids voor Python‑ontwikkelaars](./save-docx-as-png-step-by-step-guide-for-python-developers/)
+Leer hoe je docx-bestanden omzet naar PNG-afbeeldingen met Aspose.Words voor Python, stap voor stap.
+
+### [Markdown laden met Python – volledige gids met Aspose.Words](./load-markdown-python-with-aspose-words-full-guide/)
+Leer hoe je met Aspose.Words voor Python Markdown-bestanden kunt laden en verwerken.
+### [Maak toegankelijke PDF vanuit DOCX met Aspose.Words](./create-accessible-pdf-from-docx-with-aspose-words/)
+Leer hoe je met Aspose.Words voor Python toegankelijke PDF's maakt vanuit DOCX-bestanden.
+
+### [Hoe PDF op te slaan vanuit DOCX met Aspose.Words (Python)](./how-to-save-pdf-from-docx-using-aspose-words-python/)
+Leer hoe je met Aspose.Words voor Python PDF-bestanden maakt vanuit DOCX-documenten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
