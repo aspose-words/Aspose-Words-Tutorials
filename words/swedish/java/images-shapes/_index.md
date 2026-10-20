@@ -33,6 +33,8 @@ En kodhandledning för Aspose.Words Java
 
 ### [Hur man renderar dokumentsidor som miniatyrer med Aspose.Words för Java](./render-word-pages-thumbnails-aspose-java/)
 Lär dig hur du genererar högkvalitativa miniatyrbilder och bitmappar i anpassad storlek av Word-dokument med Aspose.Words för Java. Förbättra dina dokumenthanteringsfunktioner idag.
+### [Skapa Word-dokument Java – Lägg till rektangel med skuggeffekt](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+Lär dig hur du lägger till en rektangel med skuggeffekt i ett Word-dokument med Aspose.Words för Java.
 
 ### [Lägg till skugga på form i Word – Komplett Aspose.Words-guide](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Lär dig hur du applicerar skuggeffekter på former i Word-dokument med Aspose.Words för Java.
@@ -78,6 +80,8 @@ Lär dig hur du infogar bilder i Word-dokument med Aspose.Words för Java i en d
 
 ### [Infoga rektangel i Word med C# – komplett guide](./insert-rectangle-shape-in-word-using-c-complete-guide/)
 Lär dig steg för steg hur du lägger till en rektangel i ett Word-dokument med C# och Aspose.Words.
+### [Skapa tomt Word-dokument med skugga i Java – Fullständig guide](./create-blank-word-with-shadow-in-java-full-guide/)
+Lär dig hur du skapar ett tomt Word-dokument med skuggeffekt i Java med Aspose.Words.
 
 ## Ytterligare resurser
 

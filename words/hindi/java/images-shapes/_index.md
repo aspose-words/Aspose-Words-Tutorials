@@ -84,6 +84,8 @@ Aspose.Words for Java का उपयोग करके Word दस्ता�
 
 ### [C# का उपयोग करके Word में आयताकार आकार सम्मिलित करें – पूर्ण मार्गदर्शिका](./insert-rectangle-shape-in-word-using-c-complete-guide/)
 C# के साथ Aspose.Words का उपयोग करके Word में आयताकार आकार जोड़ने का पूर्ण गाइड।
+### [जावा में शैडो के साथ खाली वर्ड दस्तावेज़ बनाएं – पूर्ण गाइड](./create-blank-word-with-shadow-in-java-full-guide/)
+जावा में Aspose.Words का उपयोग करके शैडो प्रभाव के साथ एक खाली Word दस्तावेज़ बनाने की पूरी प्रक्रिया सीखें।
 
 ## अतिरिक्त संसाधन
 

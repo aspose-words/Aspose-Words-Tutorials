@@ -33,6 +33,8 @@ Výukový program pro Aspose.Words v Javě
 
 ### [Jak vykreslit stránky dokumentu jako miniatury pomocí Aspose.Words pro Javu](./render-word-pages-thumbnails-aspose-java/)
 Naučte se, jak generovat vysoce kvalitní miniatury a rastrové obrázky vlastní velikosti v dokumentech Word pomocí Aspose.Words pro Javu. Vylepšete si své schopnosti práce s dokumenty ještě dnes.
+### [Vytvořit Word dokument v Javě – Přidat obdélníkový tvar se stínovým efektem](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+Naučte se, jak přidat obdélníkový tvar se stínem do Word dokumentu pomocí Aspose.Words pro Javu.
 
 ### [Přidání stínu k tvaru ve Wordu – kompletní průvodce Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Naučte se, jak přidat stín k tvarům v dokumentech Word pomocí Aspose.Words pro Javu.
@@ -78,6 +80,8 @@ Naučte se, jak vložit obrázek do dokumentu Word pomocí Aspose.Words pro Javu
 
 ### [Vložit obdélníkový tvar do Wordu pomocí C# – kompletní průvodce](./insert-rectangle-shape-in-word-using-c-complete-guide/)
 Kompletní průvodce, jak vložit obdélníkový tvar do dokumentu Word pomocí C# a Aspose.Words.
+### [Vytvořit prázdný Word s stínem v Javě – Kompletní průvodce](./create-blank-word-with-shadow-in-java-full-guide/)
+Naučte se, jak vytvořit prázdný dokument Word s stínovým efektem v Javě pomocí Aspose.Words.
 
 ## Další zdroje
 

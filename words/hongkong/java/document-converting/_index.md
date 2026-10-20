@@ -117,6 +117,11 @@ Learn how to convert Word documents to images using Aspose.Words for Java. Step-
 了解如何使用 Aspose.Words for Java 將 DOCX 轉換為 Markdown，提供完整步驟與範例說明。
 ### [Java 轉換 Markdown 為 Word – Markdown 轉 DOCX（Java）](./java-convert-markdown-to-word-markdown-to-docx-java/)
 了解如何使用 Aspose.Words for Java 將 Markdown 檔案轉換為 DOCX，簡單快速。
+### [在 Java 中將 DOCX 轉換為 PDF – 可存取 PDF 指南](./convert-docx-to-pdf-in-java-accessible-pdf-guide/)
+了解如何使用 Aspose.Words for Java 產生符合可存取性標準的 PDF，確保文字、結構與標記正確。
+
+### [將 Word 儲存為 Markdown – 完整 Java 指南 (2026)](./save-word-as-markdown-complete-java-guide-2026/)
+了解如何使用 Aspose.Words for Java 將 Word 文件轉換為 Markdown 格式，提供逐步指南。
 
 ## Frequently Asked Questions
 

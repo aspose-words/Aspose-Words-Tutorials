@@ -114,6 +114,7 @@ Mở khóa sức mạnh của Aspose.Words cho Java. Học cách tải tài li�
 ### [Tải gạch chân markdown trong Java – hướng dẫn lập trình toàn diện](./load-markdown-underline-in-java-complete-programming-guide/)
 Hướng dẫn chi tiết cách tải và xử lý gạch chân markdown trong Java bằng Aspose.Words.
 
+### [Hướng Dẫn Thay Thế Phông Chữ Aspose – Xử Lý Phông Chữ Thiếu](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 ### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
 ### [Saving HTML Documents with Fixed Layout in Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
 ### [Advance HTML Documents Saving Options with Aspose.Words Java](./advance-html-documents-saving-options/)
@@ -160,6 +161,7 @@ Học cách khôi phục các tệp DOCX bị hỏng bằng Aspose.Words cho Jav
 ### [Khôi phục DOCX bị hỏng trong Java – Hướng dẫn lập trình toàn diện](./recover-corrupted-docx-in-java-complete-programming-guide/)
 
 ### [Tạo Tài Liệu Word Trống bằng Java – Hướng Dẫn Đầy Đủ Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
+### [Aspose.Words LoadOptions – Khôi phục tài liệu Word bị hỏng trong Java](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 
 ## Câu Hỏi Thường Gặp
 

@@ -33,6 +33,8 @@ Kód oktatóanyag az Aspose.Words Java-hoz
 
 ### [Hogyan jelenítsünk meg dokumentumoldalakat bélyegképként az Aspose.Words for Java használatával?](./render-word-pages-thumbnails-aspose-java/)
 Tanulja meg, hogyan hozhat létre kiváló minőségű miniatűröket és egyedi méretű bitképeket Word-dokumentumokból az Aspose.Words for Java segítségével. Fejlessze dokumentumkezelési képességeit még ma!
+### [Word dokumentum létrehozása Java – Téglalap alakzat hozzáadása árnyékhatással](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+Ismerje meg, hogyan adhat hozzá árnyékhatású téglalap alakzatot a Word dokumentumhoz Java-ban az Aspose.Words segítségével.
 
 ### [Árnyék hozzáadása alakzathoz Word-ben – Teljes Aspose.Words útmutató](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Ismerje meg, hogyan adhat árnyékot alakzatokhoz Word dokumentumokban az Aspose.Words for Java segítségével, lépésről lépésre.
@@ -77,6 +79,8 @@ Tanulja meg, hogyan szúrhat be képeket Word dokumentumokba az Aspose.Words for
 
 ### [Téglalap alakzat beszúrása Word dokumentumba C#-ban – teljes útmutató](./insert-rectangle-shape-in-word-using-c-complete-guide/)
 Teljes körű útmutató a téglalap alakzat C#-os beszúrásához Word dokumentumokba.
+### [Üres Word dokumentum létrehozása Java-ban árnyékkal – Teljes útmutató](./create-blank-word-with-shadow-in-java-full-guide/)
+Tanulja meg, hogyan hozhat létre üres Word dokumentumot árnyékhatással Java-ban az Aspose.Words segítségével.
 
 ## További források
 

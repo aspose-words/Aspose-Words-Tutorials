@@ -96,6 +96,9 @@ Word 文書内のインラインシェイプを保持したまま PDF に保存�
 ### [DOCX として文書を保存 – Java で Markdown を Word に変換](./save-document-as-docx-convert-markdown-to-word-with-java/)
 Markdown ファイルを Aspose.Words for Java で読み込み、DOCX 形式で保存する手順をステップバイステップで解説します。
 
+### [Aspose.Words で Word を PDF に保存 – 完全 Java ガイド](./save-word-as-pdf-with-aspose-words-full-java-guide/)
+Aspose.Words for Java を使用して Word 文書を PDF に変換する手順をステップバイステップで解説します。
+
 
 ### [Aspose.Words for Java でテーブルとテーブルスタイルの書式設定](./formatting-tables-and-table-styles/)
 
@@ -122,6 +125,8 @@ Aspose.Words for Java を使用して Word 文書を Markdown に変換する完
 
 ### [DOCX を Markdown に保存 – 完全 Java ガイド](./save-docx-as-markdown-complete-java-guide/)
 Aspose.Words for Java を使用して DOCX ファイルを Markdown に変換し、完全な手順とコード例を示します。
+### [docx を markdown に変換 – Aspose.Words で数式を LaTeX にエクスポート](./convert-docx-to-markdown-export-math-equations-to/)
+Aspose.Words を使用して DOCX 文書を Markdown に変換し、数式を LaTeX 形式でエクスポートする方法をステップバイステップで解説します。
 
 ### [DOCX を変換する際に Markdown に画像を埋め込む方法](./how-to-embed-images-in-markdown-when-converting-docx/)
 
@@ -217,6 +222,12 @@ Aspose.Words for Java を使用して、docx を markdown に変換し、画像�
 ### [Java で Word を Markdown に保存 – テーブルを HTML にエクスポート](./save-word-as-markdown-export-tables-to-html-in-java/)
 Aspose.Words for Java を使用して、Word 文書を Markdown に変換し、テーブルを HTML 形式でエクスポートする手順を解説します。
 
+### [Word を Markdown に保存する際の解像度設定方法](./how-to-set-resolution-when-saving-word-as-markdown/)
+Word 文書を Markdown に変換する際、画像や図の解像度を指定する手順をステップバイステップで解説します。
+
+### [Word を Markdown に保存する方法 – 完全 Java ガイド](./how-to-save-markdown-from-word-complete-java-guide/)
+Aspose.Words for Java を使用して Word 文書を Markdown に変換し、保存する手順をステップバイステップで解説します。
+
 ### [ドキュメントをTXTとして保存 – Word数式エクスポートのクイックガイド](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 ### [ドキュメントをTXTとして保存 – DOCXをLaTeXテキストに変換](./save-document-as-txt-convert-docx-to-text-with-latex/)
 ### [Aspose.Words for Java で文書を PDF に保存 – 完全ステップバイステップガイド](./save-document-as-pdf-with-java-complete-step-by-step-guide/)
@@ -249,6 +260,7 @@ Aspose.Words for Java を使い、PDF/UA 準拠の PDF ファイルを作成す�
 ### [Aspose.Words for Java で Word を Markdown に保存 – DOCX を Markdown に変換する完全ガイド](./save-word-as-markdown-complete-guide-to-convert-docx-to-mark/)
 
 ### [DOCX を Markdown に変換 – 完全 Java チュートリアル](./convert-docx-to-markdown-complete-java-tutorial/)
+### [docx を txt として保存 – Word の数式を LaTeX にエクスポート](./save-docx-as-txt-export-word-equations-to-latex/)
 
 ---
 

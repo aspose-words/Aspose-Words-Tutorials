@@ -124,6 +124,7 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 ### [Establecer modo de recuperación para recuperar documentos Word dañados](./set-recovery-mode-to-recover-broken-word-document/)
 
 ### [Recuperar docx corrupto – Guía completa para reparar y procesar documentos](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+### [aspose words loadoptions – Recuperar documentos Word corruptos en Java](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 
 ### [Cómo recuperar archivos DOCX – Guía paso a paso Java](./how-to-recover-docx-files-step-by-step-java-guide/)
 ### [Abrir documento Word corrupto – Establecer modo de recuperación en Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
@@ -160,6 +161,7 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 ### [Crear documento Word en blanco con Java – Guía completa de Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
 
 ### [Cargar subrayado Markdown en Java – guía completa de programación](./load-markdown-underline-in-java-complete-programming-guide/)
+### [Tutorial de sustitución de fuentes Aspose – Manejar fuentes faltantes](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 
 ## Preguntas frecuentes
 

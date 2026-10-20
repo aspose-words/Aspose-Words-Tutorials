@@ -75,6 +75,10 @@ Java kullanarak Word belgesine dikdörtgen şekil ekleyin, şekilleri gruplayın
 
 ### [Word Belgesine Resim Ekle – Aspose.Words Adım Adım Kılavuzu](./insert-image-into-word-aspose-words-step-by-step-guide/)
 Aspose.Words for Java ile Word belgesine resim eklemeyi adım adım öğrenin.
+### [Java ile Word Belgesi Oluştur – Gölge Efektiyle Dikdörtgen Şekil Ekle](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+
+### [Java'da Gölge ile Boş Word Belgesi Oluşturma – Tam Kılavuz](./create-blank-word-with-shadow-in-java-full-guide/)
+Java kullanarak gölge efektiyle boş bir Word belgesi oluşturmayı adım adım öğrenin.
 
 ### [C# kullanarak Word belgesine dikdörtgen şekil ekleme – tam rehber](./insert-rectangle-shape-in-word-using-c-complete-guide/)
 C# ile Word belgesine dikdörtgen şekil eklemeyi öğrenin.

@@ -126,6 +126,12 @@ weight: 14
 ### [Java Μετατροπή Markdown σε Word – Markdown σε DOCX](./java-convert-markdown-to-word-markdown-to-docx-java/)
 Μάθετε πώς να μετατρέψετε αρχεία Markdown σε έγγραφα Word (DOCX) χρησιμοποιώντας Aspose.Words for Java.
 
+### [Μετατροπή DOCX σε PDF σε Java – Οδηγός Προσβάσιμου PDF](./convert-docx-to-pdf-in-java-accessible-pdf-guide/)
+Μάθετε πώς να μετατρέψετε DOCX σε προσβάσιμο PDF με Aspose.Words for Java, εξασφαλίζοντας συμμόρφωση με πρότυπα προσβασιμότητας.
+
+### [Αποθήκευση Word ως Markdown – Πλήρης Οδηγός Java (2026)](./save-word-as-markdown-complete-java-guide-2026/)
+Μάθετε πώς να μετατρέψετε έγγραφα Word σε Markdown χρησιμοποιώντας Aspose.Words for Java σε πλήρη βήμα‑βήμα οδηγό.
+
 ## Συχνές Ερωτήσεις
 
 **Q:** *Μπορώ να μετατρέψω αρχεία Word με κωδικό πρόσβασης σε PDF;*  

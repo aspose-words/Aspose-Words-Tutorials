@@ -97,6 +97,8 @@ Word ドキュメント（DOC、DOCX、RTF など）を PDF ファイルに変�
 - [Aspose.Words を使用して Markdown を DOCX に保存 – Java ガイド](./save-markdown-as-docx-with-aspose-words-java-guide/)
 - [docx を markdown に変換 – Java 開発者のための完全ガイド](./convert-docx-to-markdown-complete-guide-for-java-developers/)
 - [JavaでMarkdownをWordに変換 – MarkdownからDOCXへ](./java-convert-markdown-to-word-markdown-to-docx-java/)
+- [Java で DOCX を PDF に変換 – アクセシブル PDF ガイド](./convert-docx-to-pdf-in-java-accessible-pdf-guide/)
+- [Word を Markdown に保存 – 完全 Java ガイド (2026)](./save-word-as-markdown-complete-java-guide-2026/)
 
 ## よくある質問
 

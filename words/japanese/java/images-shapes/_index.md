@@ -33,6 +33,8 @@ Aspose.Words Javaのコードチュートリアル
 
 ### [Aspose.Words for Java を使用してドキュメントページをサムネイルとしてレンダリングする方法](./render-word-pages-thumbnails-aspose-java/)
 Aspose.Words for Java を使って、Word 文書の高品質なサムネイルとカスタムサイズのビットマップを生成する方法を学びましょう。今すぐドキュメント処理能力を強化しましょう。
+### [JavaでWord文書を作成 – 影付き長方形シェイプを追加](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+JavaでWord文書に影効果付きの長方形シェイプを追加し、視覚的に魅力的なレイアウトを作成する方法を学びます。
 
 ### [Word の図形に影を追加する – 完全 Aspose.Words ガイド](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Aspose.Words for Java を使用して、Word 文書内の図形に影効果を適用する方法をステップバイステップで解説します。
@@ -78,6 +80,8 @@ Aspose.Words for Java を使用して、Word 文書に画像を挿入する方�
 
 ### [C# を使用して Word に長方形シェイプを挿入する – 完全ガイド](./insert-rectangle-shape-in-word-using-c-complete-guide/)
 C# で Word 文書に長方形シェイプを追加し、カスタマイズする方法を学びます。
+### [Javaで影付きの空白Word文書を作成 – 完全ガイド](./create-blank-word-with-shadow-in-java-full-guide/)
+Javaを使用して、影効果付きの空白のWord文書を作成する手順を詳細に解説します。
 
 ## 追加リソース
 

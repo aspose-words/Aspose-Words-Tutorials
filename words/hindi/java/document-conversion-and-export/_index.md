@@ -112,9 +112,15 @@ Aspose.Words for Java का उपयोग करके Word दस्ता�
 ### [DOCX को मार्कडाउन के रूप में निर्यात – पूर्ण जावा गाइड](./export-docx-as-markdown-complete-java-guide/)
 Aspose.Words for Java का उपयोग करके DOCX फ़ाइल को मार्कडाउन में बदलने की पूरी प्रक्रिया, कोड उदाहरण सहित।
 
+### [Word को Markdown के रूप में सहेजते समय रिज़ॉल्यूशन कैसे सेट करें](./how-to-set-resolution-when-saving-word-as-markdown/)
+Word दस्तावेज़ को Markdown में बदलते समय इमेज रिज़ॉल्यूशन सेट करने की प्रक्रिया सीखें।
+
 ### [दस्तावेज़ को TXT के रूप में सहेजें – Word गणित निर्यात के लिए त्वरित गाइड](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 ### [DOCX को TXT के रूप में सहेजें – पूर्ण गाइड](./how-to-save-docx-as-txt-complete-guide/)
 ### [docx को markdown में बदलते समय छवियों को एम्बेड कैसे करें](./how-to-embed-images-in-markdown-when-converting-docx/)
+### [docx को txt के रूप में सहेजें – Word समीकरणों को LaTeX में निर्यात करें](./save-docx-as-txt-export-word-equations-to-latex/)
+Aspose.Words for Java का उपयोग करके docx फ़ाइल को txt में बदलें और Word गणितीय समीकरणों को LaTeX स्वरूप में निर्यात करें।
+
 DOCX को मार्कडाउन में बदलते समय छवियों को सही तरीके से एम्बेड करने की चरण‑दर‑स्टेप गाइड।
 
 ### [docx को txt के रूप में सहेजें LaTeX गणित निर्यात के साथ – पूर्ण जावा गाइड](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
@@ -135,6 +141,12 @@ Aspose.Words for Java का उपयोग करके Word दस्ता�
 
 ### [दस्तावेज़ को DOCX के रूप में सहेजें – जावा के साथ मार्कडाउन को वर्ड में बदलें](./save-document-as-docx-convert-markdown-to-word-with-java/)
 Aspose.Words for Java का उपयोग करके मार्कडाउन फ़ाइल को DOCX में बदलें और सहेजें। चरण‑दर‑स्टेप कोड उदाहरण।
+
+### [Word को PDF के रूप में सहेजें – Aspose.Words के साथ पूर्ण जावा गाइड](./save-word-as-pdf-with-aspose-words-full-java-guide/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ को PDF में बदलने की पूरी प्रक्रिया, कोड उदाहरण और सेटिंग्स।
+
+### [Word को Markdown के रूप में सहेजें – Aspose.Words के साथ पूर्ण जावा गाइड](./how-to-save-markdown-from-word-complete-java-guide/)
+Aspose.Words for Java का उपयोग करके Word से Markdown फ़ाइल को सहेजने की पूरी प्रक्रिया सीखें। कोड उदाहरण सहित।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

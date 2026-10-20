@@ -33,6 +33,8 @@
 
 ### [Πώς να αποδώσετε σελίδες εγγράφων ως μικρογραφίες χρησιμοποιώντας το Aspose.Words για Java](./render-word-pages-thumbnails-aspose-java/)
 Μάθετε πώς να δημιουργείτε μικρογραφίες υψηλής ποιότητας και bitmap προσαρμοσμένου μεγέθους για έγγραφα Word με το Aspose.Words για Java. Βελτιώστε τις δυνατότητες χειρισμού εγγράφων σας σήμερα.
+### [Δημιουργία εγγράφου Word Java – Προσθήκη σχήματος ορθογωνίου με εφέ σκιάς](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+Μάθετε πώς να προσθέσετε σχήμα ορθογωνίου με εφέ σκιάς σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
 
 ### [Προσθήκη σκιάς σε σχήμα στο Word – Πλήρης οδηγός Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Μάθετε πώς να προσθέσετε σκιά σε σχήματα σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
@@ -77,6 +79,8 @@
 Μάθετε πώς να εισάγετε εικόνες σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java, με παραδείγματα κώδικα και λεπτομερείς οδηγίες.
 
 ### [Εισαγωγή σχήματος ορθογωνίου σε Word χρησιμοποιώντας C# – πλήρης οδηγός](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+### [Δημιουργία κενής εγγραφής Word με σκιά σε Java – Πλήρης οδηγός](./create-blank-word-with-shadow-in-java-full-guide/)
+Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word με εφέ σκιά χρησιμοποιώντας το Aspose.Words για Java.
 
 ## Πρόσθετοι Πόροι
 

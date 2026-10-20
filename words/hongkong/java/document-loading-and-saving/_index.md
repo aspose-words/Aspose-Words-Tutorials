@@ -161,6 +161,10 @@ Aspose.Words for Java 讓您輕鬆 **從 Word 儲存圖像**，同時提供強�
 
 ### [使用 Aspose.Words for Java 建立空白 Word 文件 – 完整指南](./create-blank-word-document-with-java-full-aspose-words-guide/)
 
+### [使用 Aspose.Words for Java 字體替換教學 – 處理缺少字體](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+
+### [使用 Aspose.Words for Java LoadOptions 復原損壞的 Word 文件](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+
 ## 常見問題
 
 **Q:** 如何以程式方式 **從 Word 儲存圖像** 文件？  

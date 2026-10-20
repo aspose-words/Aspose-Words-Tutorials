@@ -121,6 +121,12 @@ Dowiedz się, jak konwertować pliki Markdown do formatu DOCX w Javie przy użyc
 ### [Java – konwersja Markdown do Word – Markdown do DOCX](./java-convert-markdown-to-word-markdown-to-docx-java/)
 Dowiedz się, jak konwertować pliki Markdown do DOCX przy użyciu Aspose.Words dla Javy.
 
+### [Konwertuj DOCX do PDF w Javie – Przewodnik po dostępnych PDF](./convert-docx-to-pdf-in-java-accessible-pdf-guide/)
+Dowiedz się, jak tworzyć dostępne pliki PDF z DOCX w Javie, zachowując strukturę i czytelność dla osób niepełnosprawnych.
+
+### [Zapisz Word jako Markdown – Kompletny przewodnik Java (2026)](./save-word-as-markdown-complete-java-guide-2026/)
+Dowiedz się, jak konwertować dokumenty Word do formatu Markdown w Javie przy użyciu Aspose.Words, krok po kroku.
+
 ## Najczęściej zadawane pytania
 
 **Q:** *Czy mogę konwertować chronione hasłem pliki Word do PDF?*  

@@ -33,6 +33,8 @@ Samouczek dotyczący kodu dla Aspose.Words Java
 
 ### [Jak renderować strony dokumentu jako miniatury za pomocą Aspose.Words dla Java](./render-word-pages-thumbnails-aspose-java/)
 Dowiedz się, jak generować wysokiej jakości miniatury i mapy bitowe o niestandardowych rozmiarach dokumentów Word za pomocą Aspose.Words for Java. Zwiększ możliwości obsługi dokumentów już dziś.
+### [Utwórz dokument Word w Javie – Dodaj prostokątny kształt z efektem cienia](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+Dowiedz się, jak dodać prostokątny kształt z efektem cienia do dokumentu Word przy użyciu Aspose.Words dla Java.
 
 ### [Dodaj cień do kształtu w Word – Kompletny przewodnik Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Dowiedz się, jak dodać cień do kształtu w dokumencie Word przy użyciu Aspose.Words dla Java.
@@ -78,6 +80,8 @@ Dowiedz się, jak wstawiać obrazy do dokumentów Word przy użyciu Aspose.Words
 
 ### [Wstaw prostokątny kształt w Wordzie przy użyciu C# – kompletny przewodnik](./insert-rectangle-shape-in-word-using-c-complete-guide/)
 Kompletny przewodnik, jak dodać prostokątny kształt do dokumentu Word przy użyciu C# i Aspose.Words.
+### [Utwórz pusty dokument Word w Javie – Pełny przewodnik z efektem cienia](./create-blank-word-with-shadow-in-java-full-guide/)
+Dowiedz się, jak w Javie utworzyć pusty dokument Word i dodać do niego cień, korzystając z Aspose.Words.
 
 ## Dodatkowe zasoby
 

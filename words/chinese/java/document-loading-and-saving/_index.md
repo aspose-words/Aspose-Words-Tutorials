@@ -81,8 +81,6 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 
 ## 相关教程 – 加载、保存与转换
 ### [Loading and Saving HTML Documents with Aspose.Words for Java](./loading-and-saving-html-documents/)
-了解如何在 Java 中使用 Aspose.Words for Java 加载和保存 HTML 文档。分步指南配有代码示例，帮助实现无缝文档集成。
-
 ### [Working with Load Options in Aspose.Words for Java](./using-load-options/)
 掌握 Aspose.Words for Java 中的加载选项。自定义文档加载、处理加密、转换形状、设置 Word 版本等，提升 Java 文档处理效率。
 
@@ -90,8 +88,6 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 了解如何在 Java 中创建加载选项以检测缺失字体并正确加载 DOCX 文档。
 
 ### [Configuring RTF Load Options in Aspose.Words for Java](./configuring-rtf-load-options/)
-配置 Aspose.Words for Java 的 RTF 加载选项。学习在 RTF 文档中识别 UTF-8 文本。分步指南配有代码示例。
-
 ### [Loading Text Files with Aspose.Words for Java](./loading-text-files/)
 释放 Aspose.Words for Java 的强大功能。学习加载文本文档、管理列表、处理空格以及控制文本方向。
 
@@ -99,40 +95,20 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 学习如何使用 Aspose.Words for Java 从头创建空白 Word 文档，并保存为 DOCX 等格式的完整分步指南。
 
 ### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
-学习 Aspose.Words for Java 的高级文档操作。加密、处理元文件等，让您的 Word 文档随心所欲。
-
 ### [Saving HTML Documents with Fixed Layout in Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
-了解如何在 Aspose.Words for Java 中以固定布局保存 HTML 文档。遵循我们的分步指南，实现无缝文档格式化。
-
 ### [Advance HTML Documents Saving Options with Aspose.Words Java](./advance-html-documents-saving-options/)
-本教程涵盖 Aspose.Words for Java 的多种高级 HTML 文档保存选项，帮助您创建高质量的 HTML。
-
 ### [Saving Images from Documents in Aspose.Words for Java](./saving-images-from-documents/)
-学习使用 Aspose.Words for Java 保存文档中的图像的完整分步指南。自定义格式、压缩等。
-
 ### [Saving Documents as Markdown in Aspose.Words for Java](./saving-documents-as-markdown/)
-了解如何使用 Aspose.Words for Java 将 Word 文档转换为 Markdown。分步指南覆盖表格对齐、图像处理等。
-
 ### [Saving Documents as ODT Format in Aspose.Words for Java](./saving-documents-as-odt-format/)
-学习使用 Aspose.Words for Java 将文档保存为 ODT 格式，确保与开源办公套件的兼容性。
-
 ### [Saving Documents as OOXML Format in Aspose.Words for Java](./saving-documents-as-ooxml-format/)
-学习使用 Aspose.Words for Java 将文档保存为 OOXML 格式。安全、优化并轻松自定义文件。
-
 ### [Saving Documents as PCL Format in Aspose.Words for Java](./saving-documents-as-pcl-format/)
-学习使用 Aspose.Words for Java 将文档保存为 PCL 格式。分步指南和代码示例助您高效完成文档转换。
-
 ### [Saving Documents as PDF in Aspose.Words for Java](./saving-documents-as-pdf/)
 学习使用 Aspose.Words for Java 将 Word 文档保存为 PDF。自定义字体、属性和图像质量的完整指南。
 
 ### [Save Word Document – Set Font Settings, Handle Missing Fonts](./save-word-document-set-font-settings-handle-missing-fonts/)
 
 ### [Saving Documents as RTF Format in Aspose.Words for Java](./saving-documents-as-rtf-format/)
-学习使用 Aspose.Words for Java 将文档保存为 RTF 格式。配有源码的分步指南，帮助高效完成文档转换。
-
 ### [Saving Documents as Text Files in Aspose.Words for Java](./saving-documents-as-text-files/)
-学习使用 Aspose.Words for Java 将文档保存为文本文件。遵循我们的分步指南并查看 Java 代码示例。
-
 ### [如何使用 Aspose.Words 恢复 DOCX – 启用恢复模式](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
 学习使用 Aspose.Words for Java 启用恢复模式修复受损的 DOCX 文件并成功加载。
 
@@ -188,6 +164,8 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 ### [为警告配置 LoadOptions – 完整 Java 指南](./configure-loadoptions-for-warnings-complete-java-guide/)
 
 ### [如何使用 Java 保存 DOCX 文件 – 插入内容控件指南](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+### [Aspose 字体替换教程 – 处理缺失字体](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+### [Aspose.Words LoadOptions – 在 Java 中恢复损坏的 Word 文档](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 
 ### [在 Java 中加载 Markdown 下划线 – 完整编程指南](./load-markdown-underline-in-java-complete-programming-guide/)
 了解如何在 Java 中使用 Aspose.Words 加载并处理 Markdown 文本的下划线，实现完整的编程指南。

@@ -154,6 +154,8 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 เรียนรู้วิธีส่งออก LaTeX จากไฟล์ DOCX ไปเป็น TXT ด้วย Aspose.Words
 ### [บันทึก docx เป็น txt พร้อมส่งออกคณิตศาสตร์ LaTeX – คู่มือ Java ฉบับสมบูรณ์](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
 บันทึกไฟล์ DOCX เป็น TXT พร้อมส่งออกสมการ LaTeX อย่างครบถ้วนด้วย Aspose.Words for Java
+### [บันทึก docx เป็น txt – ส่งออกสมการ Word เป็น LaTeX](./save-docx-as-txt-export-word-equations-to-latex/)
+เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น TXT พร้อมแปลงสมการ Word ไปเป็นรูปแบบ LaTeX ด้วย Aspose.Words for Java
 
 ### [Aspose.Words to PDF – แปลง DOCX เป็น PDF ด้วย Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF อย่างง่ายด้วย Aspose.Words for Java
@@ -162,6 +164,8 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 เรียนรู้วิธีบันทึกเอกสารเป็น PDF ด้วย Java โดยใช้ Aspose.Words ผ่านคู่มือขั้นตอนเต็มรูปแบบ
 ### [บันทึก Word เป็น PDF ด้วย Aspose.Words – คู่มือ Java ฉบับสมบูรณ์](./save-word-as-pdf-with-aspose-words-complete-java-guide/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF อย่างครบถ้วนด้วย Aspose.Words for Java พร้อมตัวอย่างโค้ดและเคล็ดลับการปรับแต่ง
+### [บันทึก Word เป็น PDF ด้วย Aspose.Words – คู่มือเต็ม Java](./save-word-as-pdf-with-aspose-words-full-java-guide/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF อย่างเต็มรูปแบบด้วย Aspose.Words สำหรับ Java
 
 ### [สร้าง PDF ที่เข้าถึงได้จาก DOCX – คู่มือฉบับสมบูรณ์](./create-accessible-pdf-from-docx-complete-guide/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ที่รองรับการเข้าถึงสำหรับผู้ใช้ทุกคนด้วย Aspose.Words
@@ -328,6 +332,12 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 เรียนรู้วิธีแปลงไฟล์ Markdown เป็นเอกสาร Word (DOCX) ด้วย Aspose.Words for Java อย่างง่ายและรวดเร็ว
 
 ### [บันทึก DOCX เป็น Markdown – คู่มือ Java ฉบับสมบูรณ์](./save-docx-as-markdown-complete-java-guide/)
+
+### [วิธีตั้งความละเอียดเมื่อบันทึก Word เป็น Markdown](./how-to-set-resolution-when-saving-word-as-markdown/)
+เรียนรู้วิธีกำหนดความละเอียดของภาพเมื่อบันทึกไฟล์ Word เป็น Markdown ด้วย Aspose.Words
+
+### [วิธีบันทึก Markdown จาก Word – คู่มือฉบับสมบูรณ์สำหรับ Java](./how-to-save-markdown-from-word-complete-java-guide/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown ด้วย Aspose.Words for Java ในคู่มือฉบับสมบูรณ์
 
 ## คำถามที่พบบ่อย
 

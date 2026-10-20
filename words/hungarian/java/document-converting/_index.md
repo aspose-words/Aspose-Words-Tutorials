@@ -97,6 +97,8 @@ Használja a `Document doc = new Document(new ByteArrayInputStream(htmlBytes), n
 ### [DOCX konvertálása PDF-re Java‑ban – Egyszerű alacsony kódkörű útmutató](./convert-docx-to-pdf-in-java-simple-low-code-guide/)
 ### [Markdown mentése DOCX-be az Aspose.Words segítségével – Java útmutató](./save-markdown-as-docx-with-aspose-words-java-guide/)
 ### [Java konvertálás Markdown-ból Word-be – Markdown to DOCX Java](./java-convert-markdown-to-word-markdown-to-docx-java/)
+### [DOCX konvertálása PDF-re Java‑ban – Hozzáférhető PDF útmutató](./convert-docx-to-pdf-in-java-accessible-pdf-guide/)
+### [Word mentése Markdown formátumba – Teljes Java útmutató (2026)](./save-word-as-markdown-complete-java-guide-2026/)
 
 ## Gyakran Ismételt Kérdések
 

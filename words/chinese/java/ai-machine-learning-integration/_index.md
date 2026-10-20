@@ -72,6 +72,8 @@ AI 文档处理将传统的文档操作（合并、格式化、转换）与机�
 学习如何配置大型语言模型（LLM），在 DOCX 文档中自动识别并使用 AI 替换指定文本。
 ### [创建自定义 AI 模型 – 在 Java 中编辑 Word 段落](./create-custom-ai-model-edit-word-paragraphs-in-java/)
 使用 Aspose.Words for Java 与自定义 AI 模型编辑和优化 Word 段落，实现智能内容生成和修改。
+### [使用自定义 LLM 进行语法检查的 Java Word 文档创建](./create-word-document-java-with-custom-llm-grammar-check/)
+学习如何在 Java 中使用 Aspose.Words 创建 Word 文档，并集成自定义大语言模型进行实时语法检查。
 
 ## 其他资源
 

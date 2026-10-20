@@ -160,6 +160,8 @@ Leer hoe je lettertypevervangingswaarschuwingen kunt vastleggen en verwerken tij
 
 ### [Herstelmodus instellen om een beschadigd Word‑document te herstellen met Aspose.Words for Java](./set-recovery-mode-to-recover-broken-word-document/)
 Leer hoe je de herstelmodus configureert om beschadigde Word‑documenten automatisch te repareren met Aspose.Words for Java.
+### [Aspose Words LoadOptions – Herstel corrupte Word‑documenten in Java](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+Leer hoe je met LoadOptions corrupte Word‑documenten kunt herstellen in Java met Aspose.Words.
 
 ### [Beschadigde docx herstellen – Complete gids voor reparatie en verwerking van documenten](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 ### [Hoe docx te herstellen – Complete gids om corrupte Word‑bestanden te lezen](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
@@ -199,6 +201,8 @@ Leer hoe je een leeg Word‑document maakt in Java met Aspose.Words, inclusief s
 
 ### [Markdown-onderstreping laden in Java – volledige programmeergids](./load-markdown-underline-in-java-complete-programming-guide/)
 Leer hoe je onderstrepingen in Markdown kunt laden en verwerken met Aspose.Words for Java.
+### [Aspose Lettertypevervanging Tutorial – Ontbrekende Lettertypen Afhandelen](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+Leer hoe je ontbrekende lettertypen kunt afhandelen en vervangingswaarschuwingen vastlegt met Aspose.Words for Java.
 
 ## Veelgestelde vragen
 

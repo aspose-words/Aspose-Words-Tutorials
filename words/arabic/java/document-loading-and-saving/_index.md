@@ -140,6 +140,10 @@ Aspose.Words for Java يجعل من السهل **حفظ الصور من Word** �
 
 ### [إنشاء مستند Word فارغ باستخدام Java – دليل كامل Aspose.Words لـ Java](./create-blank-word-document-with-java-full-aspose-words-guide/)
 تعلم كيفية إنشاء مستند Word فارغ في Java باستخدام Aspose.Words، مع خطوات مفصلة وإعدادات متقدمة للتهيئة والحفظ.
+### [aspose words loadoptions – استعادة مستندات Word التالفة في Java](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+تعرّف على كيفية استعادة ملفات Word التالفة باستخدام LoadOptions في Aspose.Words for Java.
+
+### [دليل استبدال الخطوط في Aspose.Words لـ Java – معالجة الخطوط المفقودة](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 
 ### [تحميل تسطير markdown في Java – دليل برمجة كامل](./load-markdown-underline-in-java-complete-programming-guide/)
 تعلم كيفية تحميل ملفات markdown مع تسطيرها في Java باستخدام Aspose.Words. دليل شامل خطوة بخطوة.

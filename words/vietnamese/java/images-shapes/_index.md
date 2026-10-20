@@ -33,6 +33,8 @@ Hướng dẫn mã cho Aspose.Words Java
 
 ### [Cách kết xuất các trang tài liệu dưới dạng hình thu nhỏ bằng Aspose.Words cho Java](./render-word-pages-thumbnails-aspose-java/)
 Tìm hiểu cách tạo hình thu nhỏ chất lượng cao và bitmap tùy chỉnh kích thước của tài liệu Word bằng Aspose.Words for Java. Nâng cao khả năng xử lý tài liệu của bạn ngay hôm nay.
+### [Tạo tài liệu Word bằng Java – Thêm hình chữ nhật với hiệu ứng bóng](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+Hướng dẫn cách chèn hình chữ nhật có bóng vào tài liệu Word bằng Aspose.Words cho Java.
 
 ### [Thêm bóng cho hình dạng trong Word – Hướng dẫn đầy đủ Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Hướng dẫn chi tiết cách áp dụng hiệu ứng bóng cho hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
@@ -78,6 +80,8 @@ Hướng dẫn chi tiết cách chèn hình ảnh vào tài liệu Word bằng A
 
 ### [Chèn hình chữ nhật vào Word bằng C# – hướng dẫn đầy đủ](./insert-rectangle-shape-in-word-using-c-complete-guide/)
 Hướng dẫn chi tiết cách chèn hình chữ nhật vào tài liệu Word bằng C# sử dụng Aspose.Words.
+### [Tạo tài liệu Word trống với bóng trong Java – Hướng dẫn đầy đủ](./create-blank-word-with-shadow-in-java-full-guide/)
+Hướng dẫn chi tiết cách tạo tài liệu Word trống có hiệu ứng bóng bằng Aspose.Words cho Java.
 
 ## Tài nguyên bổ sung
 

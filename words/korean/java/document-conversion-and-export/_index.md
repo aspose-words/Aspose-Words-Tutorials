@@ -120,6 +120,9 @@ Aspose.Words for Java를 사용해 DOCX 파일에서 이미지를 추출하고 M
 ### [Word에서 인라인 도형으로 PDF 저장 방법 – 완전 가이드](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
 Aspose.Words for Java를 사용해 Word 문서의 인라인 도형을 포함한 PDF를 저장하는 전체 단계별 가이드.
 
+### [Aspose.Words로 워드 파일을 PDF로 저장 – 전체 Java 가이드](./save-word-as-pdf-with-aspose-words-full-java-guide/)
+Aspose.Words를 사용해 Word 문서를 PDF로 변환하는 전체 단계별 Java 가이드.
+
 ### [DOCX에서 접근성 PDF 만들기 – 완전 가이드](./create-accessible-pdf-from-docx-complete-guide/)
 ### [Aspose Words를 사용하여 DOCX에서 접근성 PDF 만들기](./create-accessible-pdf-from-docx-using-aspose-words/)
 
@@ -278,6 +281,15 @@ Aspose.Words for Java를 사용하여 문서를 TXT 형식으로 저장하고 Wo
 ### [Word를 Markdown으로 저장 – Java에서 표를 HTML로 내보내기](./save-word-as-markdown-export-tables-to-html-in-java/)
 
 ### [Java용 Aspose.Words에서 DOCX로 문서 저장 – Markdown을 Word로 변환](./save-document-as-docx-convert-markdown-to-word-with-java/)
+
+### [DOCX를 TXT로 저장 – Word 수식을 LaTeX로 내보내기](./save-docx-as-txt-export-word-equations-to-latex/)
+Aspose.Words for Java를 사용해 DOCX 파일을 TXT 형식으로 저장하고, Word 수식을 LaTeX 코드로 변환하는 방법을 안내합니다.
+
+### [Word를 Markdown으로 저장할 때 해상도 설정 방법](./how-to-set-resolution-when-saving-word-as-markdown/)
+Aspose.Words for Java를 사용해 Word 문서를 Markdown으로 저장하면서 이미지 해상도를 지정하는 방법을 단계별로 안내합니다.
+
+### [Word에서 Markdown 저장 방법 – 전체 Java 가이드](./how-to-save-markdown-from-word-complete-java-guide/)
+Aspose.Words for Java를 사용해 Word 문서를 Markdown 형식으로 저장하는 단계별 전체 가이드.
 
 ## 자주 묻는 질문
 

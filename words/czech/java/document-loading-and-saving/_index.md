@@ -124,6 +124,7 @@ Naučte se nastavit LoadOptions v Aspose.Words for Java, detekovat chybějící 
 Naučte se, jak pomocí Aspose.Words for Java opravit poškozené soubory DOCX a obnovit jejich obsah krok po kroku.
 ### [Otevření poškozeného dokumentu Word – nastavení režimu obnovy v Javě](./open-corrupted-word-document-set-recovery-mode-in-java/)
 Naučte se, jak otevřít poškozený soubor Word a nastavit režim obnovy pomocí Aspose.Words for Java.
+### [Aspose.Words LoadOptions – Obnovení poškozených Word dokumentů v Javě](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 
 ### [Zachycení varování o nahrazení fontů v Javě pomocí Aspose.Words – Kompletní průvodce](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [Jak obnovit docx – Kompletní průvodce čtením poškozených souborů Word](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
@@ -162,6 +163,9 @@ Naučte se, jak opravit a zpracovat poškozené soubory DOCX v Javě pomocí Asp
 Naučte se, jak nastavit LoadOptions pro zachycení varování při načítání dokumentů v Aspose.Words for Java.
 ### [Vytvoření prázdného dokumentu Word v Javě – Kompletní průvodce Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
 Naučte se vytvořit prázdný dokument Word v Javě pomocí Aspose.Words s podrobným krok‑za‑krokem průvodcem.
+
+### [Aspose – Průvodce nahrazením fontů – Řešení chybějících fontů](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+Naučte se, jak detekovat a nahradit chybějící fonty při práci s dokumenty v Aspose.Words.
 
 ## Často kladené otázky
 

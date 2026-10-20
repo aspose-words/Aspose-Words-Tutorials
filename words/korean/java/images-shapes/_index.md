@@ -33,6 +33,8 @@ Aspose.Words Java에 대한 코드 튜얼리얼
 
 ### [Aspose.Words for Java를 사용하여 문서 페이지를 썸네일로 렌더링하는 방법](./render-word-pages-thumbnails-aspose-java/)
 Aspose.Words for Java를 사용하여 Word 문서의 고품질 썸네일...
+### [Java에서 Word 문서 만들기 – 그림자 효과가 있는 사각형 도형 추가](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+Java를 사용해 Word 문서에 그림자 효과가 적용된 사각형 도형을 삽입하는 방법을 단계별로 안내합니다.
 
 ### [Word에서 도형에 그림자 추가 – 완전한 Aspose.Words 가이드](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Aspose.Words for Java를 사용하여 Word 문서의 도형에 그림자를 적용하는 방법을 단계별로 안내합니다.
@@ -78,6 +80,8 @@ Aspose.Words for Java를 사용하여 Word 문서에 이미지를 삽입하는 �
 
 ### [C#를 사용해 Word에 사각형 도형 삽입 – 완전 가이드](./insert-rectangle-shape-in-word-using-c-complete-guide/)
 C#를 활용해 Word 문서에 사각형 도형을 삽입하고 속성을 설정하는 방법을 단계별로 안내합니다.
+### [Java에서 그림자와 함께 빈 Word 문서 만들기 – 전체 가이드](./create-blank-word-with-shadow-in-java-full-guide/)
+Java를 사용해 그림자 효과가 적용된 빈 Word 문서를 만드는 전체 단계별 가이드를 제공합니다.
 
 ## 추가 자료
 

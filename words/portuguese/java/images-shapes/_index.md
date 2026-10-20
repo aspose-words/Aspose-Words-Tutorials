@@ -33,6 +33,8 @@ Um tutorial de código para Aspose.Words Java
 
 ### [Como renderizar páginas de documentos como miniaturas usando Aspose.Words para Java](./render-word-pages-thumbnails-aspose-java/)
 Aprenda a gerar miniaturas de alta qualidade e bitmaps de tamanho personalizado de documentos do Word com o Aspose.Words para Java. Aprimore suas capacidades de processamento de documentos hoje mesmo.
+### [Criar documento Word Java – Adicionar forma retangular com efeito de sombra](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+Aprenda a inserir uma forma retangular com sombra em documentos Word usando Aspose.Words para Java.
 
 ### [Adicionar sombra a forma no Word – Guia completo do Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Aprenda a aplicar sombras a formas em documentos Word usando Aspose.Words para Java, com exemplos de código detalhados.
@@ -78,6 +80,8 @@ Aprenda a inserir imagens em documentos Word com Aspose.Words para Java passo a 
 
 ### [Inserir forma retangular no Word usando C# – guia completo](./insert-rectangle-shape-in-word-using-c-complete-guide/)
 Aprenda a inserir uma forma retangular em documentos Word usando C# com o Aspose.Words.
+### [Criar documento Word em branco com sombra em Java – Guia completo](./create-blank-word-with-shadow-in-java-full-guide/)
+Aprenda a criar um documento Word em branco com efeito de sombra usando Aspose.Words para Java.
 
 ## Recursos adicionais
 

@@ -185,6 +185,11 @@ Leer hoe je afbeeldingen in Markdown kunt inbedden tijdens het converteren van D
 Leer hoe je afbeeldingen tijdens DOCX‑naar‑Markdown conversie naar een CDN uploadt met Aspose.Words for Java.
 ### [Afbeeldingen insluiten als Base64 bij het converteren van DOCX naar Markdown](./embed-images-as-base64-when-converting-docx-to-markdown/)
 Leer hoe je afbeeldingen omzet naar Base64 en insluit in Markdown tijdens DOCX-conversie met Aspose.Words for Java.
+### [Hoe de resolutie instellen bij het opslaan van Word als Markdown](./how-to-set-resolution-when-saving-word-as-markdown/)
+Leer hoe je de resolutie kunt instellen bij het exporteren van een Word‑document naar Markdown met Aspose.Words for Java.
+
+### [Hoe Markdown vanuit Word opslaan – Complete Java-gids](./how-to-save-markdown-from-word-complete-java-guide/)
+Leer hoe je een Word‑document omzet en opslaat als Markdown met Aspose.Words for Java in deze volledige gids.
 
 ### [Document opslaan als TXT – Snelle gids voor het exporteren van Word-wiskunde](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Leer hoe je een Word‑document als TXT opslaat en wiskundige vergelijkingen exporteert met Aspose.Words for Java.
@@ -329,6 +334,12 @@ Leer hoe je DOCX-bestanden volledig naar Markdown converteert met Aspose.Words f
 
 ### [Document opslaan als DOCX – Markdown naar Word converteren met Java](./save-document-as-docx-convert-markdown-to-word-with-java/)
 Sla een document op als DOCX en converteer Markdown naar Word met behulp van Aspose.Words for Java.
+
+### [DOCX opslaan als TXT – Exporteer Word‑vergelijkingen naar LaTeX](./save-docx-as-txt-export-word-equations-to-latex/)
+Leer hoe je een DOCX‑bestand opslaat als TXT en Word‑vergelijkingen exporteert naar LaTeX met Aspose.Words for Java.
+
+### [Word opslaan als PDF met Aspose.Words – volledige Java‑gids](./save-word-as-pdf-with-aspose-words-full-java-guide/)
+Leer hoe je met Aspose.Words for Java een Word‑document in één stap naar PDF converteert, inclusief opties voor kwaliteit en beveiliging.
 
 ## Veelgestelde Vragen
 
