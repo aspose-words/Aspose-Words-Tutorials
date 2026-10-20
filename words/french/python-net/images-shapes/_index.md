@@ -71,6 +71,8 @@ Apprenez à enregistrer une image PNG et à ajouter une ombre à une forme dans 
 
 ### [Comment créer un diagramme à colonnes en Python avec Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
 Apprenez à générer un diagramme à colonnes dans un document Word en utilisant Aspose.Words pour Python-net.
+### [Comment appliquer un effet d'ombre à une forme Word avec Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Apprenez à ajouter un effet d'ombre aux formes Word avec Aspose.Words.
 
 ## Ressources supplémentaires
 

@@ -71,6 +71,8 @@
 
 ### [Как создать столбчатую диаграмму в Python с помощью Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
 Узнайте, как создавать столбчатые диаграммы в Python с помощью Aspose.Words.
+### [Как применить эффект тени к фигуре Word с помощью Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Узнайте, как добавить эффект тени к фигурам в документах Word с помощью Aspose.Words для Python-net.
 
 ## Дополнительные ресурсы
 

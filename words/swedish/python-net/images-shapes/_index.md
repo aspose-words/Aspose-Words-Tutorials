@@ -72,6 +72,8 @@ Lär dig hur du sparar en bild som PNG och applicerar skugga på en form i ett W
 
 ### [Hur man skapar kolumndiagram i Python med Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
 Lär dig att skapa ett kolumndiagram i ett Word-dokument med Aspose.Words för Python.
+### [Hur man applicerar skuggeffekt på en Word-form med Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Lär dig steg för steg hur du lägger till skuggeffekt på en form i Word-dokument med Aspose.Words.
 
 ## Ytterligare resurser
 

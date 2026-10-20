@@ -70,6 +70,8 @@ Hướng dẫn cách lưu hình ảnh PNG và áp dụng hiệu ứng bóng đ�
 
 ### [Cách tạo biểu đồ cột bằng Python với Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
 Hướng dẫn chi tiết cách tạo biểu đồ cột trong tài liệu Word bằng Python và Aspose.Words.
+### [Cách áp dụng hiệu ứng bóng cho hình dạng Word bằng Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Hướng dẫn chi tiết cách thêm hiệu ứng bóng cho hình dạng trong tài liệu Word bằng Aspose.Words.
 
 ## Tài nguyên bổ sung
 

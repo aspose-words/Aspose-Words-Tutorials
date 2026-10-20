@@ -73,6 +73,8 @@ Aspose.Words kullanarak PNG olarak kaydedip şekle gölge eklemeyi öğrenin.
 
 ### [Python ile Aspose.Words kullanarak Sütun Grafik Oluşturma](./how-to-create-column-chart-python-with-aspose-words/)
 Python ve Aspose.Words ile sütun grafik oluşturmayı adım adım öğrenin.
+### [Aspose.Words ile Word şekline gölge efekti uygulama](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Aspose.Words ile Word şekline gölge efekti eklemeyi öğrenin.
 
 ## Ek Kaynaklar
 

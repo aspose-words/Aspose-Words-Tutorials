@@ -70,6 +70,8 @@
 เรียนรู้วิธีบันทึกรูป PNG และเพิ่มเงาให้กับรูปร่างในเอกสาร Word ด้วย Aspose.Words สำหรับ Python-net
 
 ### [วิธีสร้างแผนภูมิคอลัมน์ใน Python ด้วย Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
+### [วิธีเพิ่มเงาให้กับรูปร่าง Word ด้วย Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+เรียนรู้วิธีการเพิ่มเอฟเฟกต์เงาให้กับรูปร่างในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Python-net
 
 ## แหล่งข้อมูลเพิ่มเติม
 

@@ -72,6 +72,8 @@ Leer hoe u schaduw toevoegt aan een Word-vorm met Python en Aspose.Words.
 Leer hoe u een PNG-afbeelding opslaat en een schaduw toevoegt aan een vorm met Aspose.Words voor Python-net.
 
 ### [Hoe een kolomgrafiek te maken met Python en Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
+### [Hoe schaduweffect toe te passen op een Word-vorm met Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Leer hoe u een schaduweffect op een Word-vorm toepast met Aspose.Words voor Python-net.
 
 ## Aanvullende bronnen
 

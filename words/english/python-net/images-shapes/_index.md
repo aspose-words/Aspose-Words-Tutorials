@@ -68,6 +68,8 @@ Learn how to save a shape as PNG and apply a shadow effect using Aspose.Words fo
 
 ### [How to create column chart python with Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
 Learn how to generate a column chart in a Word document using Aspose.Words for Python-net.
+### [How to apply shadow effect to a Word shape with Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Learn how to add a shadow effect to Word shapes using Aspose.Words for Python-net with step-by-step examples.
 
 ## Additional Resources
 

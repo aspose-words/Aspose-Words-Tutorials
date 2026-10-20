@@ -76,6 +76,9 @@ Aspose.Words का उपयोग करके PNG फ़ाइल सहे�
 ### [Aspose.Words के साथ पायथन में कॉलम चार्ट बनाना](./how-to-create-column-chart-python-with-aspose-words/)
 Aspose.Words का उपयोग करके पायथन में कॉलम चार्ट कैसे बनाएं, सीखें।
 
+### [Aspose.Words के साथ Word आकृति पर शैडो प्रभाव कैसे लागू करें](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Word आकृति में शैडो इफ़ेक्ट जोड़ने की प्रक्रिया सीखें और अपने दस्तावेज़ों को आकर्षक बनाएं।
+
 ## अतिरिक्त संसाधन
 
 {{< /blocks/products/pf/tutorial-page-section >}}

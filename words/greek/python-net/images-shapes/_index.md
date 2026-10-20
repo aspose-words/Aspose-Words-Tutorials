@@ -71,6 +71,8 @@
 
 ### [Πώς να δημιουργήσετε γράφημα στήλης με Python και Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
 Μάθετε πώς να δημιουργήσετε και να προσαρμόσετε γράφημα στήλης σε έγγραφα Word χρησιμοποιώντας Aspose.Words για Python.
+### [Πώς να εφαρμόσετε εφέ σκιά σε σχήμα Word με Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Μάθετε πώς να προσθέσετε εφέ σκιά σε σχήματα Word χρησιμοποιώντας το Aspose.Words για Python-net.
 
 ## Πρόσθετοι Πόροι
 

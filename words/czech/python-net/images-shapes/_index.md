@@ -72,6 +72,7 @@ Naučte se ukládat obrázky PNG a přidávat stíny k tvarům v dokumentech pom
 
 ### [Jak vytvořit sloupcový graf v Pythonu pomocí Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
 Naučte se, jak pomocí Aspose.Words v Pythonu vytvořit sloupcový graf.
+### [Jak použít efekt stínu na tvar ve Wordu pomocí Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
 
 ## Další zdroje
 

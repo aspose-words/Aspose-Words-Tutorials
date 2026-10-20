@@ -70,6 +70,8 @@ Tanuld meg, hogyan adhatsz árnyékot egy Word alakzathoz Python és Aspose.Word
 Tanuld meg, hogyan mentheted el a PNG képet, és adhatsz árnyékot az alakzatokhoz az Aspose.Words használatával.
 
 ### [Hogyan hozzunk létre oszlopdiagramot Pythonban az Aspose.Words segítségével](./how-to-create-column-chart-python-with-aspose-words/)
+### [Hogyan alkalmazz árnyékhatást egy Word alakzatra az Aspose.Words segítségével](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Tanuld meg, hogyan adhatsz árnyékhatást Word alakzatokhoz az Aspose.Words használatával.
 
 ## További források
 

@@ -155,6 +155,14 @@
 Узнайте, как сохранять документы Word в markdown, сохраняя при этом уравнения, используя Aspose.Words для Python.
 ### [Как восстановить файлы docx и конвертировать их в markdown, PDF или txt с помощью Aspose.Words для Python](./how-to-recover-docx-files-and-convert-them-to-markdown-pdf-o/)
 Узнайте, как восстановить повреждённые файлы DOCX и преобразовать их в форматы Markdown, PDF или TXT с помощью Aspose.Words для Python.
+### [Как сохранить docx как markdown с LaTeX с помощью Aspose.Words](./how-to-save-docx-as-markdown-with-latex-using-aspose-words/)
+Узнайте, как конвертировать файлы docx в markdown с поддержкой LaTeX, используя Aspose.Words для Python.
+### [Как сохранить docx в pdf с Aspose.Words в Python](./how-to-save-docx-as-pdf-with-aspose-words-in-python/)
+Узнайте, как с помощью Aspose.Words для Python преобразовать файлы docx в формат PDF.
+### [Как сохранить docx как txt с Aspose.Words для Python](./how-to-save-docx-as-txt-with-aspose-words-for-python/)
+Узнайте, как с помощью Aspose.Words для Python преобразовать файлы docx в текстовый формат txt.
+### [Как создать доступный PDF из документа Word с помощью Python](./how-to-create-an-accessible-pdf-from-a-word-document-using-p/)
+Узнайте, как с помощью Aspose.Words для Python создать PDF с поддержкой доступности из документа Word.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

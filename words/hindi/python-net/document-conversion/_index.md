@@ -199,6 +199,17 @@ docx फ़ाइल को साधारण txt में परिवर्�
 Aspose.Words for Python का उपयोग करके Word दस्तावेज़ को markdown में बदलें और समीकरणों को बनाए रखें।
 ### [डॉक्‍स फाइलों को पुनर्प्राप्त करें और उन्हें मार्कडाउन, PDF या txt में बदलें Aspose.Words for Python के साथ](./how-to-recover-docx-files-and-convert-them-to-markdown-pdf-o/)
 Aspose.Words का उपयोग करके क्षतिग्रस्त DOCX को ठीक करें और उन्हें मार्कडाउन, PDF या टेक्स्ट में बदलें।
+### [docx को LaTeX के साथ मार्कडाउन में कैसे सहेजें – Aspose.Words गाइड](./how-to-save-docx-as-markdown-with-latex-using-aspose-words/)
+Aspose.Words का उपयोग करके docx फ़ाइल को LaTeX समर्थन के साथ मार्कडाउन में बदलने के चरण।
+
+### [docx को pdf के रूप में सहेजें – Aspose.Words पायथन गाइड](./how-to-save-docx-as-pdf-with-aspose-words-in-python/)
+Aspose.Words का उपयोग करके पायथन में docx फ़ाइल को PDF में बदलने के चरण-दर-चरण मार्गदर्शन।
+
+### [docx को txt के रूप में सहेजें – Aspose.Words पायथन गाइड](./how-to-save-docx-as-txt-with-aspose-words-for-python/)
+Aspose.Words का उपयोग करके पायथन में docx फ़ाइल को txt फ़ॉर्मेट में बदलने के चरण-दर-चरण मार्गदर्शन।
+
+### [Python का उपयोग करके Word दस्तावेज़ से एक सुलभ PDF कैसे बनाएं](./how-to-create-an-accessible-pdf-from-a-word-document-using-p/)
+Python और Aspose.Words का उपयोग करके Word फ़ाइल से सुलभ PDF बनाने के चरण।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

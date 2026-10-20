@@ -69,6 +69,8 @@ Aprenda a gerar gráficos de colunas em documentos Word usando Aspose.Words para
 
 ### [Como salvar PNG e adicionar sombra a forma com Aspose.Words](./how-to-save-png-and-add-shadow-to-shape-with-aspose-words/)
 Aprenda a salvar imagens PNG e aplicar sombra a formas em documentos Word usando Aspose.Words para Python-net.
+### [Como aplicar efeito de sombra a uma forma Word com Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Aprenda a aplicar efeito de sombra a formas em documentos Word usando Aspose.Words.
 
 ## Recursos adicionais
 

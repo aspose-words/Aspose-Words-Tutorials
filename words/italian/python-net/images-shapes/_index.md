@@ -72,6 +72,8 @@ Scopri come salvare un'immagine PNG e aggiungere un'ombra a una forma usando Asp
 
 ### [Come creare un grafico a colonne in Python con Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
 Scopri come generare un grafico a colonne in un documento Word usando Aspose.Words per Python-net.
+### [Come applicare l'effetto ombra a una forma Word con Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Scopri come aggiungere un effetto ombra alle forme nei documenti Word usando Aspose.Words per Python-net.
 
 ## Risorse aggiuntive
 

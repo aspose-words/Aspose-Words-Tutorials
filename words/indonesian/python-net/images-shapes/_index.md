@@ -73,6 +73,8 @@ Pelajari cara menambahkan efek bayangan pada bentuk di dokumen Word menggunakan 
 
 ### [Cara Membuat Diagram Kolom dengan Python menggunakan Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
 Pelajari cara membuat diagram kolom di Python dengan Aspose.Words.
+### [Cara Menerapkan Efek Bayangan pada Bentuk Word dengan Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Pelajari cara menambahkan efek bayangan pada bentuk Word menggunakan Aspose.Words.
 
 ## Sumber Daya Tambahan
 

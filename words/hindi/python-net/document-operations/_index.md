@@ -95,6 +95,9 @@ Aspose.Words का उपयोग करके Python में क्षत�
     ### [Aspose.Words के साथ भ्रष्ट Word दस्तावेज़ को पुनर्प्राप्त करें और पुनर्प्राप्त फ़ाइल सहेजें](./how-to-recover-corrupted-word-document-and-save-recovered-wo/)
     Aspose.Words का उपयोग करके भ्रष्ट Word फ़ाइल को ठीक करें और पुनर्प्राप्त दस्तावेज़ को सुरक्षित रूप से सहेजें।
 
+    ### [Aspose.Words के साथ भ्रष्ट DOCX को पुनर्प्राप्त करें – चरण‑दर‑चरण मार्गदर्शिका](./recover-corrupted-docx-with-aspose-words-step-by-step-guide/)
+    Aspose.Words का उपयोग करके भ्रष्ट DOCX फ़ाइलों को पुनर्स्थापित करने की प्रक्रिया सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [पायथन-नेट दस्तावेज़ीकरण के लिए Aspose.Words](https://docs.aspose.com/words/python-net/)

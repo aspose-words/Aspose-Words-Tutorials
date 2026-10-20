@@ -71,6 +71,8 @@ Aspose.Words を使用して PNG 画像を保存し、Word 文書内の図形に
 
 ### [Aspose.Words を使用した Python のカラムチャート作成方法](./how-to-create-column-chart-python-with-aspose-words/)
 Python でカラムチャートを作成し、Word 文書に統合する手順を解説します。
+### [Aspose.Words で Word の図形に影効果を適用する方法](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Aspose.Words を使用して、Word 文書内の図形に影効果を追加する手順を解説します。
 
 ## 追加リソース
 

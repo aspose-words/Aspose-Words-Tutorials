@@ -63,6 +63,8 @@
 
 ### [كيفية إنشاء مخطط عمودي باستخدام Python مع Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
 تعلم كيفية إنشاء مخطط عمودي في مستندات Word باستخدام Aspose.Words وPython.
+### [كيفية تطبيق تأثير الظل على شكل Word باستخدام Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+تعلم كيفية إضافة تأثير الظل إلى الأشكال في مستندات Word باستخدام Aspose.Words للغة Python-net.
 
 ## موارد إضافية
 

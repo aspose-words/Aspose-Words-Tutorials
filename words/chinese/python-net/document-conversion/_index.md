@@ -200,6 +200,17 @@
 学习使用 Aspose.Words for Python 将 Word 文档保存为 Markdown，同时完整保留文档中的公式。
 ### [如何恢复 docx 文件并将其转换为 markdown、PDF 或 txt，使用 Aspose.Words for Python](./how-to-recover-docx-files-and-convert-them-to-markdown-pdf-o/)
 使用 Aspose.Words for Python 恢复损坏的 docx 并转换为 markdown、PDF 或 txt。
+### [如何使用 Aspose.Words 将 docx 保存为带 LaTeX 的 Markdown](./how-to-save-docx-as-markdown-with-latex-using-aspose-words/)
+学习使用 Aspose.Words 将 docx 文档转换为包含 LaTeX 公式的 Markdown 文件，实现高质量文档导出。
+
+### [如何使用 Aspose.Words 在 Python 中将 docx 保存为 PDF](./how-to-save-docx-as-pdf-with-aspose-words-in-python/)
+学习使用 Aspose.Words for Python 将 docx 文档转换并保存为 PDF，轻松实现高质量文档输出。
+
+### [如何使用 Aspose.Words for Python 将 docx 保存为 txt](./how-to-save-docx-as-txt-with-aspose-words-for-python/)
+学习使用 Aspose.Words for Python 将 docx 文档转换并保存为 txt 文本文件，实现轻量级内容提取。
+
+### [如何使用 Aspose.Words for Python 将 Word 文档转换为可访问的 PDF](./how-to-create-an-accessible-pdf-from-a-word-document-using-p/)
+学习使用 Aspose.Words for Python 将 Word 文档转换为可访问的 PDF，满足无障碍需求。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -67,6 +67,8 @@ Erfahren Sie, wie Sie PNG-Bilder speichern und Schatten zu Formen hinzufügen, u
 
 ### [Wie man ein Säulendiagramm in Python mit Aspose.Words erstellt](./how-to-create-column-chart-python-with-aspose-words/)
 Erfahren Sie, wie Sie mit Aspose.Words in Python ein Säulendiagramm erstellen und in Ihr Word-Dokument einbetten.
+### [Wie man Schatteneffekt auf eine Word-Form mit Aspose.Words anwendet](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Erfahren Sie, wie Sie Schatteneffekte auf Word-Formen mit Aspose.Words anwenden.
 
 ## Weitere Ressourcen
 
