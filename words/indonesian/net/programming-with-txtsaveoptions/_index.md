@@ -45,6 +45,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara Mengekspor LaTeX dari Word – Panduan Lengkap Mengekspor LaTeX](./how-to-export-latex-from-word-complete-guide-to-export-latex/) | Pelajari cara mengekspor dokumen Word menjadi LaTeX dengan panduan lengkap dan contoh kode C# menggunakan Aspose.Words untuk .NET. |
 | [Simpan docx sebagai txt – Panduan Lengkap Mengekspor Persamaan Word ke LaTeX](./save-docx-as-txt-complete-guide-to-exporting-word-equations/) | Pelajari cara menyimpan file docx sebagai txt dan mengekspor persamaan Word ke format LaTeX dengan panduan lengkap ini. |
 | [Simpan docx sebagai txt – Ekspor Matematika ke LaTeX dengan Aspose.Words](./save-docx-as-txt-export-math-to-latex-with-aspose-words/) | Pelajari cara menyimpan file docx sebagai txt dan mengekspor persamaan matematika ke format LaTeX menggunakan Aspose.Words. |
+| [Simpan docx sebagai txt – Ekspor Persamaan Word ke LaTeX dengan C#](./save-docx-as-txt-export-word-equations-to-latex-with-c/) | Pelajari cara mengekspor persamaan Word ke format LaTeX saat menyimpan dokumen DOCX sebagai file TXT menggunakan C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

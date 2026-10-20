@@ -81,6 +81,7 @@ Egal, ob Sie Text mit unterschiedlichen Schriftarten formatieren, Regeln für di
 | [Erkennen von Schriftarten in C# – Callback verwenden mit Aspose.Words](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET einen Callback implementieren, um Schriftarten in einem Word-Dokument zu erkennen. |
 | [Warnungs-Callback für das Laden von Word-Dokumenten erstellen – Komplettanleitung](./create-warning-callback-for-loading-word-documents-complete/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET einen Warnungs-Callback beim Laden von Word-Dokumenten implementieren. |
 | [Schriftartenersetzung in Aspose.Words – Vollständige Programmieranleitung](./handle-font-substitution-in-aspose-words-complete-programmin/) | Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie die Schriftartenersetzung in Aspose.Words für .NET verwalten. |
+| [Aspose-Schriftartenersetzung – Fehlende Schriftarten in Word-Dokumenten erkennen](./aspose-font-substitution-detect-missing-fonts-in-word-docume/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET fehlende Schriftarten in Word-Dokumenten erkennen und behandeln. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

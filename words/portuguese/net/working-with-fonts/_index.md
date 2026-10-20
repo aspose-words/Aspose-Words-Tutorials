@@ -81,6 +81,7 @@ Quer você queira formatar texto com fontes diferentes, definir regras de substi
 | [Como Capturar Avisos no Aspose.Words – Guia Completo em C#](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) | Aprenda a capturar avisos emitidos pelo Aspose.Words em C# com este guia passo a passo completo. |
 | [Habilitar avisos de fontes no Aspose.Words – Guia completo em C#](./enable-font-warnings-in-aspose-words-complete-c-guide/) | Aprenda a habilitar avisos de fontes ausentes ou substituídas no Aspose.Words para .NET usando C# passo a passo. |
 | [Como Detectar Fontes em C# – Guia Completo](./how-to-detect-fonts-in-c-complete-guide/) | Aprenda a detectar fontes em documentos Word usando Aspose.Words para .NET com este guia completo passo a passo. |
+| [Substituição de Fonte Aspose – Detectar Fontes Ausentes em Documentos Word](./aspose-font-substitution-detect-missing-fonts-in-word-docume/) | Aprenda a detectar fontes ausentes em documentos Word usando Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

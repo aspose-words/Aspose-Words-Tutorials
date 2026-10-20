@@ -115,6 +115,8 @@
 | [Crea file markdown da Word – Guida completa per esportare le equazioni](./create-markdown-file-from-word-full-guide-to-export-equation/) | Impara a generare file Markdown da documenti Word includendo le equazioni, con una guida completa passo‑passo per .NET. |
 | [Come salvare Markdown – Guida completa con estrazione immagini](./how-to-save-markdown-full-guide-with-image-extraction/) | Impara a salvare documenti Markdown estraendo le immagini con una guida completa passo‑passo per Aspose.Words .NET. |
 | [Rimuovi paragrafi vuoti – Converti Word in Markdown in C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/) | Scopri come rimuovere i paragrafi vuoti durante la conversione da Word a Markdown con Aspose.Words per .NET in C#. |
+| [Converti DOCX in Markdown – Estrai immagini da DOCX con Aspose.Words](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/) | Scopri come convertire DOCX in Markdown estraendo le immagini con Aspose.Words per .NET. |
+| [Converti Word in Markdown – Guida completa con esportazione PDF/UA](./convert-word-to-markdown-full-guide-with-pdf-ua-export/) | Scopri come convertire documenti Word in Markdown e generarne PDF/UA con una guida completa in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

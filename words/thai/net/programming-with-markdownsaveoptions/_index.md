@@ -230,6 +230,11 @@
 
 ### [บันทึกรูปภาพ Word ขณะแปลงเป็น Markdown – คู่มือเต็ม C#](./save-word-images-while-converting-to-markdown-complete-c-gui/)
 
+### [แปลง DOCX เป็น Markdown – สกัดรูปภาพจาก DOCX ด้วย Aspose.Words](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/)
+
+### [แปลง Word เป็น Markdown – คู่มือเต็มพร้อมการส่งออก PDF/UA](./convert-word-to-markdown-full-guide-with-pdf-ua-export/)
+แปลงไฟล์ Word เป็น Markdown พร้อมการส่งออก PDF/UA อย่างละเอียด
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

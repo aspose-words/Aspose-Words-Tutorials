@@ -25,6 +25,7 @@ Metni farklı yazı tipleriyle biçimlendirmek, yazı tipi değiştirme kurallar
  ## Eğitimler
 | Başlık | Açıklama |
 | --- | --- |
+| [Aspose Yazı Tipi İkamesi – Word Belgelerinde Eksik Yazı Tiplerini Algıla](./aspose-font-substitution-detect-missing-fonts-in-word-docume/) | Aspose.Words for .NET kullanarak Word belgelerindeki eksik yazı tiplerini nasıl tespit edeceğinizi öğrenin. |
 | [Yazı Tipi Biçimlendirme](./font-formatting/) | Aspose.Words for .NET kullanarak Word belgelerindeki yazı tiplerini nasıl biçimlendireceğinizi ayrıntılı, adım adım bir kılavuzla öğrenin. |
 | [Yazı Tipi Satır Aralığını Al](./get-font-line-spacing/) | Bu adım adım eğitimle Aspose.Words for .NET kullanarak yazı tipi satır aralığını nasıl elde edeceğinizi öğrenin. Geliştiriciler için mükemmel. |
 | [DrawingML Metin Efektini Kontrol Et](./check-drawingml-text-effect/) Ayrıntılı, adım adım kılavuzumuzla Aspose.Words for .NET kullanarak Word belgelerindeki DrawingML metin efektlerini nasıl kontrol edeceğinizi öğrenin. Belgelerinizi kolaylıkla geliştirin. |

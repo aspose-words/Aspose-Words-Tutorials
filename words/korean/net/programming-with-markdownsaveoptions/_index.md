@@ -112,6 +112,8 @@
 | [Aspose.Words로 Word에서 마크다운 만들기 – 전체 C# 가이드](./create-markdown-from-word-with-aspose-words-full-c-guide/) | Aspose.Words for .NET을 사용해 Word 문서를 마크다운으로 변환하는 전체 C# 가이드 |
 | [Aspose를 사용하여 DOCX를 수학 내보내기와 함께 Markdown으로 변환하는 방법](./how-to-use-aspose-to-convert-docx-to-markdown-with-math-expo/) | Aspose.Words for .NET을 활용해 DOCX 파일의 수학 수식까지 포함하여 Markdown으로 변환하는 단계별 가이드 |
 | [Word를 Markdown으로 저장 – 이미지 내보내기를 위한 전체 C# 가이드](./save-word-as-markdown-complete-c-guide-to-export-word-images/) | Aspose.Words for .NET을 사용하여 Word 문서를 Markdown으로 저장하면서 이미지 내보내는 방법을 단계별로 안내합니다. |
+| [docx를 markdown으로 변환 – 이미지 추출 포함 전체 C# 가이드](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 Markdown으로 변환하면서 이미지 추출하는 방법을 단계별로 안내합니다. |
+| [Word를 Markdown으로 변환 – PDF/UA 내보내기 전체 가이드](./convert-word-to-markdown-full-guide-with-pdf-ua-export/) | Aspose.Words for .NET을 사용하여 Word 문서를 Markdown으로 변환하고 PDF/UA 형식으로 내보내는 전체 단계별 가이드 |
 
 | [docx를 markdown으로 저장 – LaTeX 수식 포함 전체 가이드](./save-docx-as-markdown-complete-guide-with-latex-equations/) | Aspose.Words for .NET을 사용하여 LaTeX 수식이 포함된 docx를 Markdown으로 변환하는 전체 가이드 |
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -73,6 +73,7 @@ Az Alapvető konverziók című útmutató végigvezeti Önt az Aspose.Words for
 | [Hogyan exportáljunk LaTeX-et DOCX-ből – konvertálás TXT-be](./how-to-export-latex-from-docx-convert-to-txt/) | Tanulja meg, hogyan exportálhat LaTeX-et DOCX fájlból, majd konvertálhatja TXT formátumba az Aspose.Words for .NET segítségével. |
 | [Hozzon létre akadálymentes PDF-et DOCX-ből – Lépésről‑lépésre C# útmutató](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | Tanulja meg, hogyan hozhat létre akadálymentes PDF-et DOCX fájlokból C#-ban az Aspose.Words segítségével. |
 | [Docx mentése txt-ként és Word egyenletek exportálása LaTeX-be](./save-docx-as-txt-and-export-word-equations-to-latex/) | Tanulja meg, hogyan menthet docx fájlokat txt-be, és exportálhatja a Word egyenleteket LaTeX-be az Aspose.Words for .NET segítségével. |
+| [Word konvertálása PDF-be C#-ban – Teljes útmutató az Aspose.Words használatával](./convert-word-to-pdf-in-c-full-guide-with-aspose-words/) | Tanulja meg, hogyan konvertálhat Word dokumentumokat PDF-be C#-ban az Aspose.Words teljes útmutatójával. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

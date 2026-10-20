@@ -45,6 +45,7 @@ Aspose.Words for .NET 튜토리얼은 Word 문서 조작과 관련하여 라이�
 | [Word에서 LaTeX 내보내기 – LaTeX 내보내기 완전 가이드](./how-to-export-latex-from-word-complete-guide-to-export-latex/) | Aspose.Words for .NET을 사용하여 Word 문서에서 LaTeX 형식으로 내보내는 방법을 단계별로 안내합니다. |
 | [docx를 txt로 저장 – Word 방정식을 LaTeX로 내보내는 완전 가이드](./save-docx-as-txt-complete-guide-to-exporting-word-equations/) | Aspose.Words for .NET을 사용해 docx 파일을 txt로 변환하고, Word 방정식을 LaTeX 형식으로 내보내는 방법을 단계별로 안내합니다. |
 | [docx를 txt로 저장 – Aspose.Words를 사용하여 수학을 LaTeX로 내보내기](./save-docx-as-txt-export-math-to-latex-with-aspose-words/) | Aspose.Words for .NET을 사용해 docx 파일을 txt로 변환하고 수학 수식을 LaTeX 형식으로 내보내는 방법을 알아보세요. |
+| [docx를 txt로 저장 – C#로 Word 방정식을 LaTeX로 내보내기](./save-docx-as-txt-export-word-equations-to-latex-with-c/) | C#를 사용하여 Word 문서의 방정식을 LaTeX 형식으로 변환하고 txt 파일로 저장하는 방법을 배웁니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

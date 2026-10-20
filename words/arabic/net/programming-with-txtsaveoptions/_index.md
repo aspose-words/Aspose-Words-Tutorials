@@ -45,6 +45,7 @@
 | [كيفية تصدير LaTeX من Word – دليل كامل لتصدير LaTeX](./how-to-export-latex-from-word-complete-guide-to-export-latex/) | تعلم كيفية تصدير مستندات Word إلى صيغة LaTeX باستخدام Aspose.Words لـ .NET مع مثال كامل بلغة C#. |
 | [حفظ ملف docx كـ txt – دليل كامل لتصدير معادلات Word إلى LaTeX](./save-docx-as-txt-complete-guide-to-exporting-word-equations/) | تعلم كيفية حفظ مستندات docx كملفات txt وتصدير المعادلات إلى تنسيق LaTeX باستخدام Aspose.Words لـ .NET. |
 | [حفظ ملف docx كـ txt – تصدير الرياضيات إلى LaTeX باستخدام Aspose.Words](./save-docx-as-txt-export-math-to-latex-with-aspose-words/) | تعلم كيفية حفظ مستندات docx كملفات txt وتصدير المعادلات الرياضية إلى صيغة LaTeX باستخدام Aspose.Words. |
+| [حفظ docx كملف txt – تصدير معادلات Word إلى LaTeX باستخدام C#](./save-docx-as-txt-export-word-equations-to-latex-with-c/) | تعلم كيفية حفظ مستندات docx كملفات نصية وتصدير المعادلات إلى LaTeX باستخدام C# و Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

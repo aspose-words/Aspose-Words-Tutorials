@@ -113,6 +113,8 @@
 | [使用 Aspose.Words 從 Word 建立 Markdown – 完整 C# 指南](./create-markdown-from-word-with-aspose-words-full-c-guide/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 Word 文件轉換為 Markdown，提供完整步驟與範例程式碼。 |
 | [如何使用 Aspose 轉換 DOCX 為包含數學公式的 Markdown](./how-to-use-aspose-to-convert-docx-to-markdown-with-math-expo/) |示範如何使用 Aspose.Words for .NET 將 DOCX 轉換為含數學公式的 Markdown，提供完整步驟與範例程式碼。 |
 | [將 Word 儲存為 Markdown – 完整 C# 指南（匯出 Word 圖像）](./save-word-as-markdown-complete-c-guide-to-export-word-images/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 Word 文件匯出為 Markdown，並提取並匯出其中的圖像，提供完整步驟與範例程式碼。 |
+| [將 DOCX 轉換為 Markdown – 從 DOCX 中提取圖像 (使用 Aspose.Words)](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/) |示篯如何使用 Aspose.Words for .NET 將 DOCX 轉換為 Markdown，並提取圖像。 |
+| [將 Word 轉換為 Markdown – 完整指南，含 PDF/UA 匯出](./convert-word-to-markdown-full-guide-with-pdf-ua-export/) |示範如何使用 Aspose.Words for .NET 將 Word 文件轉換為 Markdown，並同時匯出符合 PDF/UA 標準的 PDF。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
