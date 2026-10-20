@@ -81,6 +81,10 @@ Poznaj wszechstronność Aspose.Words for Java, zagłębiając się w zapisywani
 Ustawienia dokumentu są kluczem do dostarczania dokumentów dopasowanych do Twoich dokładnych wymagań. Dowiedz się, jak dostosować ustawienia takie jak rozmiar strony, marginesy i czcionki, aby uzyskać pożądany rezultat.
 
 ## Powiązane tutoriale – ładowanie, zapisywanie i konwersja
+
+### [Utwórz pusty dokument Word w Javie – Pełny przewodnik Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
+Dowiedz się, jak utworzyć pusty dokument Word w Javie przy użyciu Aspose.Words, krok po kroku z przykładami kodu.
+
 ### [Loading and Saving HTML Documents with Aspose.Words for Java](./loading-and-saving-html-documents/)
 ### [Working with Load Options in Aspose.Words for Java](./using-load-options/)
 Opanowanie opcji ładowania w Aspose.Words for Java. Dostosuj ładowanie dokumentów, obsługuj szyfrowanie, konwertuj kształty, ustaw wersje Word i wiele więcej dla efektywnego przetwarzania dokumentów w Javie.
@@ -152,6 +156,9 @@ Dowiedz się, jak wykrywać ostrzeżenia o brakującej podstawie czcionek w doku
 
 ### [Tutorial ostrzeżenia zwrotnego – ładowanie dokumentu Word w Javie](./warning-callback-tutorial-load-word-document-in-java/)
 ### [Konfiguracja LoadOptions dla ostrzeżeń – Kompletny przewodnik Java](./configure-loadoptions-for-warnings-complete-java-guide/)
+
+### [Jak zapisać plik DOCX w Javie – przewodnik wstawiania kontrolki treści](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+Dowiedz się, jak zapisać plik DOCX w Javie, wstawiając kontrolki treści przy użyciu Aspose.Words for Java.
 
 ## Najczęściej zadawane pytania
 

@@ -120,6 +120,9 @@ Lär dig hur du sparar dokument i ODT‑format med Aspose.Words för Java. Säke
 ### [Spara dokument som OOXML-format i Aspose.Words för Java](./saving-documents-as-ooxml-format/)
 Lär dig hur du sparar dokument i OOXML‑format med Aspose.Words för Java. Säkerställ, optimera och anpassa dina filer utan ansträngning.
 
+### [Spara DOCX-fil med Java – Guide för infogning av innehållskontroller](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+Lär dig hur du sparar en DOCX-fil i Java och infogar innehållskontroller med Aspose.Words för Java.
+
 ### [Spara dokument som PCL-format i Aspose.Words för Java](./saving-documents-as-pcl-format/)
 Lär dig hur du sparar dokument i PCL‑format med Aspose.Words för Java. Steg‑för‑steg‑guide och kodexempel för effektiv dokumentkonvertering.
 
@@ -139,7 +142,6 @@ Lär dig hur du upptäcker dokumentformat i Java med Aspose.Words. Identifiera D
 Lär dig hur du återställer korrupta DOCX‑filer med Aspose.Words för Java genom att använda återställningsalternativ för att rädda innehåll.
 
 ### [Återställ korrupt docx – Komplett guide för att reparera och bearbeta dokument](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
-
 ### [Hur du återställer DOCX‑filer – Steg‑för‑steg Java‑guide](./how-to-recover-docx-files-step-by-step-java-guide/)
 Lär dig att reparera skadade DOCX‑filer med Aspose.Words för Java i en detaljerad steg‑för‑steg‑guide.
 
@@ -191,6 +193,7 @@ Lär dig hur du reparerar skadade DOCX‑filer med Aspose.Words i Java – en ko
 ### [Logga varningar om teckensnittssubstitution i Java med Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
 
 ### [Konfigurera LoadOptions för varningar – Komplett Java‑guide](./configure-loadoptions-for-warnings-complete-java-guide/)
+### [Skapa tomt Word-dokument med Java – Fullständig Aspose.Words‑guide](./create-blank-word-document-with-java-full-aspose-words-guide/)
 
 ## Vanliga frågor
 

@@ -64,6 +64,9 @@ Pelajari cara menambahkan bentuk dengan efek bayangan ke dokumen Word menggunaka
 ### [Buat Bentuk Persegi Panjang di Java dengan Aspose.Words – Panduan Lengkap](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
 Pelajari cara membuat bentuk persegi panjang di dokumen Word menggunakan Aspose.Words untuk Java dengan langkah-langkah lengkap.
 
+### [Cara Menyisipkan Bentuk Grup di Java – Panduan Lengkap](./how-to-insert-group-shape-in-java-complete-guide/)
+Panduan langkah demi langkah untuk menambahkan bentuk grup ke dokumen Word menggunakan Aspose.Words untuk Java.
+
 ## Sumber Daya Tambahan
 
 ## Sumber Daya Tambahan

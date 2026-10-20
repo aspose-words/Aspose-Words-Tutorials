@@ -340,6 +340,9 @@ weight: 22
 ### [Сохранить Word как Markdown – Полное руководство по конвертации DOCX в Markdown](./save-word-as-markdown-complete-guide-to-convert-docx-to-mark/)
 Пошаговое руководство по сохранению документов Word в формате Markdown с использованием Aspose.Words for Java.
 
+### [Сохранить Word в Markdown – экспортировать таблицы в HTML в Java](./save-word-as-markdown-export-tables-to-html-in-java/)
+Пошаговое руководство по сохранению документов Word в формате Markdown и экспорту таблиц в HTML с помощью Aspose.Words for Java.
+
 ## Часто задаваемые вопросы
 
 **Q: Как добавить водяной знак в существующий PDF с помощью Aspose.Words?**  

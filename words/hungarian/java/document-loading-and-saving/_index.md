@@ -164,6 +164,8 @@ Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlt, és mentheti a h
 Ismerje meg, hogyan állíthatja helyre a sérült Word dokumentumokat az Aspose.Words segítségével, részletes lépésről‑lépésre útmutatóval.
 
 ### [Figyelmeztető visszahívás oktatóanyag – Word dokumentum betöltése Java‑ban](./warning-callback-tutorial-load-word-document-in-java/)
+### [Hogyan mentse el a DOCX fájlt Java‑val – Tartalomvezérlő beszúrása útmutató](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+### [Üres Word dokumentum létrehozása Java‑val – Teljes Aspose.Words útmutató](./create-blank-word-document-with-java-full-aspose-words-guide/)
 
 ## Gyakran Ismételt Kérdések
 

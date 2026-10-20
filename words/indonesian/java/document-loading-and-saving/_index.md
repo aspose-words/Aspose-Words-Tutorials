@@ -197,6 +197,12 @@ Pelajari cara menggunakan callback peringatan saat memuat dokumen Word di Java d
 ### [Mengonfigurasi LoadOptions untuk Peringatan – Panduan Lengkap Java](./configure-loadoptions-for-warnings-complete-java-guide/)
 Pelajari cara mengonfigurasi LoadOptions untuk menangkap peringatan saat memuat dokumen dengan Aspose.Words untuk Java.
 
+### [Cara Menyimpan File DOCX dengan Java – Panduan Penyisipan Kontrol Konten](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+Pelajari cara menyimpan file DOCX dengan Java menggunakan kontrol konten, termasuk menambah, mengedit, dan menghapusnya secara programatis.
+
+### [Buat Dokumen Word Kosong dengan Java – Panduan Lengkap Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
+Pelajari cara membuat dokumen Word kosong menggunakan Aspose.Words untuk Java dengan contoh kode lengkap.
+
 ## Pertanyaan yang Sering Diajukan
 
 **T:** Bagaimana cara saya secara programatis **menyimpan gambar dari word** dokumen?  

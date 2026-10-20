@@ -154,6 +154,12 @@ Erfahren Sie, wie Sie beschädigte Word‑Dateien mit Aspose.Words für Java rep
 ### [LoadOptions für Warnungen konfigurieren – Vollständiger Java‑Leitfaden](./configure-loadoptions-for-warnings-complete-java-guide/)
 Erfahren Sie, wie Sie LoadOptions einstellen, um Warnungen beim Laden von Dokumenten in Aspose.Words für Java zu erfassen und zu verwalten.
 
+### [DOCX‑Datei mit Java speichern – Leitfaden zum Einfügen von Inhaltssteuerelementen](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words for Java eine DOCX‑Datei speichern und Inhaltssteuerelemente programmgesteuert einfügen.
+
+### [Leeres Word‑Dokument mit Java erstellen – Vollständiger Aspose.Words‑Leitfaden](./create-blank-word-document-with-java-full-aspose-words-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein leeres Word‑Dokument erstellen und speichern – vollständige Schritt‑für‑Schritt‑Anleitung.
+
 ## Häufig gestellte Fragen
 
 **Q:** Wie speichere ich programmgesteuert **Bilder aus Word**‑Dokumenten?  

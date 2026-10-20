@@ -64,6 +64,9 @@ Ein Codebeispiel, das zeigt, wie man in Aspose.Words für Java eine Form mit Sch
 ### [Rechteckform in Java mit Aspose.Words – Vollständige Anleitung](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
 Ein umfassendes Tutorial, das zeigt, wie man in Aspose.Words für Java ein Rechteck formatiert und einfügt.
 
+### [Wie man eine Gruppenform in Java einfügt – Komplettanleitung](./how-to-insert-group-shape-in-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java Gruppenformen hinzufügen und anpassen, um komplexe Dokumentlayouts zu erstellen.
+
 ## Weitere Ressourcen
 
 ## Weitere Ressourcen

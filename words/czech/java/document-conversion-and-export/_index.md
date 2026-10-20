@@ -327,6 +327,9 @@ Naučte se, jak převést soubory DOCX do formátu Markdown pomocí Aspose.Words
 ### [Převod DOCX do Markdown – Kompletní Java tutoriál](./convert-docx-to-markdown-complete-java-tutorial/)
 Naučte se kompletně převést DOCX do Markdown v Javě pomocí Aspose.Words s podrobnými ukázkami kódu.
 
+### [Uložení Wordu jako Markdown – Export tabulek do HTML v Javě](./save-word-as-markdown-export-tables-to-html-in-java/)
+Naučte se, jak převést dokument Word do formátu Markdown a exportovat tabulky jako HTML pomocí Aspose.Words for Java.
+
 ## Často kladené otázky
 
 **Q: Jak přidám vodoznak do existujícího PDF pomocí Aspose.Words?**  

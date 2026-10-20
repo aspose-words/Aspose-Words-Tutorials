@@ -64,6 +64,9 @@
 ### [Создание прямоугольной фигуры в Java с Aspose.Words – Полное руководство](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
 Узнайте, как полностью создать и настроить прямоугольную фигуру в документе Word с помощью Aspose.Words для Java.
 
+### [Как вставить групповую фигуру в Java – Полное руководство](./how-to-insert-group-shape-in-java-complete-guide/)
+Узнайте, как добавить групповую фигуру в документ Word с помощью Aspose.Words для Java.
+
 ## Дополнительные ресурсы
 
 ## Дополнительные ресурсы

@@ -64,6 +64,9 @@
 ### [สร้างรูปสี่เหลี่ยมผืนผ้าใน Java ด้วย Aspose.Words – คู่มือเต็ม](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
 เรียนรู้วิธีสร้างรูปสี่เหลี่ยมผืนผ้าใน Java ด้วย Aspose.Words อย่างละเอียดครบถ้วน
 
+### [วิธีการแทรกกลุ่มรูปร่างใน Java – คู่มือฉบับสมบูรณ์](./how-to-insert-group-shape-in-java-complete-guide/)
+เรียนรู้ขั้นตอนการแทรกและจัดการกลุ่มรูปร่างในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 ## แหล่งข้อมูลเพิ่มเติม

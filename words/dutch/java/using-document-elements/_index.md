@@ -71,6 +71,9 @@ Leer OLE-objecten en ActiveX-besturingselementen gebruiken in Aspose.Words voor 
 Leer hoe u Aspose.Words voor Java's revisiebeheer efficiënt kunt gebruiken. Stapsgewijze handleiding voor ontwikkelaars. Optimaliseer uw documentbeheer.
 ### [Secties gebruiken in Aspose.Words voor Java](./using-sections/)
 Ontdek Aspose.Words voor Java: een uitgebreide handleiding voor het gebruik van secties. Secties toevoegen, verwijderen, toevoegen en klonen met codevoorbeelden.
+### [Knopgrootte instellen in Word met Java – Complete Aspose.Words-gids](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+### [Cirkeldiagram maken met Aspose.Words voor Java – Volledige stapsgewijze gids](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Leer hoe u met Aspose.Words voor Java een cirkeldiagram maakt en in uw document invoegt, stap voor stap uitgelegd.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

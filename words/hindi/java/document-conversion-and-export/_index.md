@@ -128,6 +128,10 @@ Java में Aspose.Words का उपयोग करके DOCX को Mark
 
 ### [जावा का उपयोग करके वर्ड से मार्कडाउन निर्यात कैसे करें – पूर्ण गाइड](./how-to-export-markdown-from-word-using-java-complete-guide/)
 जावा में Aspose.Words का उपयोग करके वर्ड दस्तावेज़ को मार्कडाउन में बदलने की पूरी प्रक्रिया सीखें।
+### [Word को Markdown के रूप में सहेजें – Java में टेबल्स को HTML में निर्यात करें](./save-word-as-markdown-export-tables-to-html-in-java/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ को Markdown में सहेजें और टेबल्स को HTML में निर्यात करें। चरण‑दर‑स्टेप कोड उदाहरण।
+
+## अक्सर पूछे जाने वाले प्रश्न
 
 ### [Aspose.Words for Java में DOCX से LaTeX निर्यात कैसे करें – पूर्ण जावा गाइड](./how-to-export-latex-from-docx-complete-java-guide/)
 Aspose.Words for Java का उपयोग करके DOCX फ़ाइल को LaTeX फ़ॉर्मेट में निर्यात करने की चरण‑दर‑स्टेप गाइड।

@@ -64,6 +64,9 @@ Aprenda a inserir uma forma com efeito de sombra em documentos Word usando Aspos
 ### [Criar forma retangular em Java com Aspose.Words – Guia completo](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
 Aprenda passo a passo como criar e personalizar formas retangulares em documentos Word usando Aspose.Words para Java.
 
+### [Como inserir forma de grupo em Java – Guia completo](./how-to-insert-group-shape-in-java-complete-guide/)
+Aprenda a inserir e manipular formas de grupo em documentos Word usando Aspose.Words para Java, com exemplos passo a passo.
+
 ## Recursos adicionais
 
 ## Recursos adicionais

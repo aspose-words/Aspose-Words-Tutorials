@@ -64,6 +64,9 @@
 ### [إنشاء شكل مستطيل في Java باستخدام Aspose.Words – دليل كامل](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
 دليل شامل لإنشاء شكل مستطيل في مستند Word باستخدام Aspose.Words for Java
 
+### [كيفية إدراج مجموعة أشكال في جافا – دليل كامل](./how-to-insert-group-shape-in-java-complete-guide/)
+تعلم خطوة بخطوة كيفية إضافة مجموعة أشكال إلى مستند Word باستخدام Aspose.Words لجافا
+
 ## موارد إضافية
 
 ## موارد إضافية

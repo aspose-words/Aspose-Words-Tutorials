@@ -150,6 +150,8 @@ Pelajari cara menyimpan dokumen Word sebagai file Markdown dengan Aspose.Words f
 
 ### [Mengonversi DOCX ke Markdown – Tutorial Java Lengkap](./convert-docx-to-markdown-complete-java-tutorial/)
 Pelajari cara mengonversi file DOCX menjadi Markdown secara lengkap menggunakan Aspose.Words for Java dalam panduan langkah demi langkah.
+### [Simpan Word sebagai Markdown – Ekspor Tabel ke HTML di Java](./save-word-as-markdown-export-tables-to-html-in-java/)
+Simpan dokumen Word sebagai file Markdown dan ekspor tabel ke HTML menggunakan Aspose.Words for Java.
 
 ### [Cara Menyisipkan Gambar dalam Markdown Saat Mengonversi DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Pelajari cara menyisipkan gambar ke dalam file Markdown selama proses konversi DOCX menggunakan Aspose.Words for Java.

@@ -71,6 +71,10 @@ Học cách sử dụng các đối tượng OLE và điều khiển ActiveX tro
 Học cách sử dụng Aspose.Words cho các điều khiển sửa đổi của Java một cách hiệu quả. Hướng dẫn từng bước cho các nhà phát triển. Tối ưu hóa việc quản lý tài liệu của bạn.
 ### [Sử dụng Sections trong Aspose.Words cho Java](./using-sections/)
 Khám phá Aspose.Words for Java: Hướng dẫn toàn diện về cách sử dụng các phần. Thêm, xóa, thêm, sao chép các phần với các ví dụ mã.
+### [Đặt kích thước nút trong Word bằng Java – Hướng dẫn đầy đủ Aspose.Words](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Học cách đặt kích thước nút trong tài liệu Word bằng Java sử dụng Aspose.Words. Hướng dẫn chi tiết từng bước để tùy chỉnh nút trong Word.
+### [Tạo biểu đồ tròn với Aspose.Words Java – Hướng dẫn chi tiết từng bước](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Học cách tạo biểu đồ tròn trong tài liệu Word bằng Aspose.Words cho Java qua hướng dẫn chi tiết từng bước.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

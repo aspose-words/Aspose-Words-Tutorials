@@ -180,6 +180,11 @@ Aspose.Words Java का उपयोग करके भ्रष्ट या 
 
 ### [warning callback ट्यूटोरियल – Java में Word दस्तावेज़ लोड करना](./warning-callback-tutorial-load-word-document-in-java/)
 
+### [Java के साथ DOCX फ़ाइल सहेजें – कंटेंट कंट्रोल इन्सर्ट गाइड](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+
+### [Java के साथ खाली Word दस्तावेज़ बनाएं – पूर्ण Aspose.Words गाइड](./create-blank-word-document-with-java-full-aspose-words-guide/)
+Aspose.Words for Java के साथ खाली Word फ़ाइल बनाना सीखें। पूर्ण गाइड और कोड उदाहरण।
+
 ## अक्सर पूछे जाने वाले प्रश्न
 ### [फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैप्चर करें – लापता फ़ॉन्ट्स का पता लगाएँ](./capture-font-substitution-warnings-detect-missing-fonts/)
 Aspose.Words for Java में फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैप्चर करके लापता फ़ॉन्ट्स की पहचान करें।

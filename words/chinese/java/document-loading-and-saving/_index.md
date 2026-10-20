@@ -95,6 +95,9 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 ### [Loading Text Files with Aspose.Words for Java](./loading-text-files/)
 释放 Aspose.Words for Java 的强大功能。学习加载文本文档、管理列表、处理空格以及控制文本方向。
 
+### [使用 Java 创建空白 Word 文档 – 完整 Aspose.Words 指南](./create-blank-word-document-with-java-full-aspose-words-guide/)
+学习如何使用 Aspose.Words for Java 从头创建空白 Word 文档，并保存为 DOCX 等格式的完整分步指南。
+
 ### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
 学习 Aspose.Words for Java 的高级文档操作。加密、处理元文件等，让您的 Word 文档随心所欲。
 
@@ -183,6 +186,8 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 学习在 Java 中使用 Aspose.Words 捕获并记录字体替换警告的完整步骤，帮助您监控文档渲染问题。
 
 ### [为警告配置 LoadOptions – 完整 Java 指南](./configure-loadoptions-for-warnings-complete-java-guide/)
+
+### [如何使用 Java 保存 DOCX 文件 – 插入内容控件指南](./how-to-save-docx-file-with-java-insert-content-control-guide/)
 
 ## 常见问题
 ### [捕获字体替换警告 – 检测缺失字体](./capture-font-substitution-warnings-detect-missing-fonts/)

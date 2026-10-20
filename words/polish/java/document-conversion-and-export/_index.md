@@ -126,6 +126,8 @@ Pełny przewodnik, jak konwertować dokumenty Word do formatu Markdown w Javie p
 Pełny przewodnik, jak w Javie konwertować pliki DOCX do formatu Markdown przy użyciu Aspose.Words, z przykładami kodu.
 ### [Zapisz docx jako markdown – Pełny przewodnik Java z wyodrębnianiem obrazów](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
 Dowiedz się, jak konwertować pliki DOCX do formatu Markdown w Javie, zachowując obrazy i ich wyodrębnianie.
+### [Zapisz Word jako Markdown – Eksportuj tabele do HTML w Javie](./save-word-as-markdown-export-tables-to-html-in-java/)
+Dowiedz się, jak zapisać dokumenty Word jako Markdown i wyeksportować tabele do HTML przy użyciu Aspose.Words for Java.
 
 ### [Jak osadzić obrazy w Markdown podczas konwersji DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Dowiedz się, jak zachować obrazy przy konwersji DOCX do Markdown, aby były poprawnie wstawione w wynikowy plik.

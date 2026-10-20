@@ -172,6 +172,8 @@ Erfahren Sie, wie Sie mit Aspose.Words for Java DOCX‑Dateien vollständig in M
 ### [DOCX als Markdown speichern – Vollständige Java‑Anleitung mit Bildextraktion](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und dabei Bilder extrahieren, mit einer umfassenden Java‑Implementierung.
 
+### [Word als Markdown speichern – Tabellen nach HTML exportieren in Java](./save-word-as-markdown-export-tables-to-html-in-java/)
+
 ### [Wie man Bilder in Markdown beim Konvertieren von DOCX einbettet](./how-to-embed-images-in-markdown-when-converting-docx/)
 
 ### [DOCX als Markdown speichern – Vollständige C#‑Anleitung](./save-docx-as-markdown-complete-c-guide/)

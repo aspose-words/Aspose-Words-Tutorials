@@ -64,6 +64,9 @@
 ### [Δημιουργία σχήματος ορθογωνίου σε Java με Aspose.Words – Πλήρης Οδηγός](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
 Μάθετε πώς να δημιουργήσετε σχήμα ορθογωνίου σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java, βήμα-βήμα.
 
+### [Πώς να εισάγετε σχήμα ομάδας σε Java – Πλήρης Οδηγός](./how-to-insert-group-shape-in-java-complete-guide/)
+Μάθετε πώς να προσθέσετε σχήμα ομάδας σε έγγραφα Word με το Aspose.Words για Java, με πλήρη παραδείγματα και οδηγίες.
+
 ## Πρόσθετοι Πόροι
 
 ## Πρόσθετοι Πόροι

@@ -114,6 +114,8 @@ Hướng dẫn chi tiết cách lưu tệp DOCX thành PDF bằng Aspose.Words t
 Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang TXT trong Java bằng Aspose.Words, bao gồm ví dụ mã và các tùy chọn nâng cao.
 ### [Chuyển đổi docx sang markdown với Aspose.Words Java – Hướng dẫn đầy đủ](./convert-docx-to-markdown-with-aspose-words-java-full-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang Markdown bằng Aspose.Words cho Java.
+### [Lưu Markdown thành DOCX với Aspose.Words – Hướng dẫn Java](./save-markdown-as-docx-with-aspose-words-java-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp Markdown sang DOCX bằng Aspose.Words cho Java.
 
 ## Câu hỏi thường gặp
 

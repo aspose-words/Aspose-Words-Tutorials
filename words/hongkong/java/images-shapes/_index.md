@@ -64,6 +64,9 @@ Aspose.Words Java 程式碼教程
 ### [在 Java 中使用 Aspose.Words 建立矩形形狀 – 完整指南](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
 完整步驟說明如何在 Java 應用程式中使用 Aspose.Words 插入並自訂矩形形狀，包括大小、位置與樣式設定。
 
+### [如何在 Java 中插入群組形狀 – 完整指南](./how-to-insert-group-shape-in-java-complete-guide/)
+本指南說明如何使用 Aspose.Words for Java 在文件中插入和管理群組形狀，涵蓋完整程式碼示例與設定說明。
+
 ## 其他資源
 
 ## 其他資源

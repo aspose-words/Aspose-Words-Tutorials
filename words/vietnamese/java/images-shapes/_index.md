@@ -64,6 +64,9 @@ Hướng dẫn cách chèn hình dạng có bóng vào tài liệu Word bằng A
 ### [Tạo hình chữ nhật trong Java với Aspose.Words – Hướng dẫn đầy đủ](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
 Hướng dẫn chi tiết cách tạo và tùy chỉnh hình chữ nhật trong tài liệu Word bằng Aspose.Words cho Java.
 
+### [Cách chèn nhóm hình dạng trong Java – Hướng dẫn toàn diện](./how-to-insert-group-shape-in-java-complete-guide/)
+Hướng dẫn chi tiết cách chèn và quản lý nhóm hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
+
 ## Tài nguyên bổ sung
 
 ## Tài nguyên bổ sung

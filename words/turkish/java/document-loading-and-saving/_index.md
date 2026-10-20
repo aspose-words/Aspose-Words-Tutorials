@@ -120,6 +120,11 @@ Aspose.Words for Java kullanarak belgeleri PCL formatında nasıl kaydedeceğini
 ### [Aspose.Words for Java’da Belgeleri PDF Olarak Kaydetme](./saving-documents-as-pdf/)
 Aspose.Words for Java ile Word belgelerini PDF olarak nasıl kaydedeceğinizi öğrenin. Yazı tiplerini, özellikleri ve görüntü kalitesini özelleştirin. PDF dönüşümü için kapsamlı bir rehber.
 
+### [Java ile Boş Word Belgesi Oluşturma – Tam Aspose.Words Kılavuzu](./create-blank-word-document-with-java-full-aspose-words-guide/)
+Java’da Aspose.Words kullanarak sıfırdan bir Word belgesi oluşturmayı ve kaydetmeyi adım adım öğrenin.
+
+### [Java ile DOCX Dosyasını Kaydetme – İçerik Kontrolü Ekleme Kılavuzu](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+
 ### [Aspose.Words for Java’da Belgeleri RTF Formatında Kaydetme](./saving-documents-as-rtf-format/)
 Aspose.Words for Java ile belgeleri RTF formatında nasıl kaydedeceğinizi öğrenin. Verimli belge dönüşümü için kaynak kodlu adım adım rehber.
 

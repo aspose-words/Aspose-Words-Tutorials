@@ -142,6 +142,10 @@ As configurações de documentos são a chave para entregar documentos adaptados
 ### [Tutorial de Callback de Aviso – Carregar Documento Word em Java](./warning-callback-tutorial-load-word-document-in-java/)
 ### [Configurar LoadOptions para Avisos – Guia Java Completo](./configure-loadoptions-for-warnings-complete-java-guide/)
 
+### [Como salvar arquivo DOCX com Java – Guia de Inserção de Controle de Conteúdo](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+
+### [Criar Documento Word em Branco com Java – Guia Completo Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
+
 ## Perguntas Frequentes
 
 **Q:** Como eu programaticamente **save images from word** documentos?  

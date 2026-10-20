@@ -195,6 +195,12 @@ Apprenez à consigner les avertissements de substitution de police lors du charg
 
 ### [Configurer LoadOptions pour les avertissements – Guide complet Java](./configure-loadoptions-for-warnings-complete-java-guide/)
 
+### [Comment enregistrer un fichier DOCX avec Java – Guide d’insertion de contrôles de contenu](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+Apprenez à enregistrer un document DOCX en Java tout en insérant des contrôles de contenu pour une personnalisation dynamique.
+
+### [Créer un document Word vierge avec Java – Guide complet Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
+Apprenez à créer un document Word vierge en Java avec Aspose.Words, incluant les options de mise en forme et d’enregistrement.
+
 ## Foire aux questions
 
 **Q:** Comment puis‑je **save images from word** programmatically ?  

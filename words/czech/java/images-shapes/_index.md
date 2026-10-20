@@ -64,6 +64,9 @@ Naučte se, jak přidat tvar se stínovým efektem do Word dokumentu pomocí Asp
 ### [Vytvořit obdélníkový tvar v Javě pomocí Aspose.Words – Kompletní průvodce](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
 Kompletní návod, jak v Javě pomocí Aspose.Words vytvořit a nastavit obdélníkový tvar v dokumentu Word.
 
+### [Jak vložit skupinový tvar v Javě – Kompletní průvodce](./how-to-insert-group-shape-in-java-complete-guide/)
+Naučte se, jak vložit a spravovat skupinové tvary v dokumentech Word pomocí Aspose.Words pro Javu.
+
 ## Další zdroje
 
 ## Další zdroje

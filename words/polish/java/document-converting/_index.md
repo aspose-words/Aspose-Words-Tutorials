@@ -112,6 +112,8 @@ Pełny przewodnik, jak w Javie konwertować pliki DOCX na format TXT przy użyci
 Dowiedz się, jak przekształcić pliki DOCX na format Markdown przy użyciu Aspose.Words dla Javy, z szczegółowymi krokami i przykładami kodu.
 ### [Konwertuj DOCX do PDF w Javie – Prosty przewodnik niskokodowy](./convert-docx-to-pdf-in-java-simple-low-code-guide/)
 Szybki przewodnik pokazujący, jak przy minimalnym kodzie konwertować pliki DOCX do PDF w Javie przy użyciu Aspose.Words.
+### [Zapisz Markdown jako DOCX z Aspose.Words – przewodnik Java](./save-markdown-as-docx-with-aspose-words-java-guide/)
+Dowiedz się, jak konwertować pliki Markdown do formatu DOCX w Javie przy użyciu biblioteki Aspose.Words.
 
 ## Najczęściej zadawane pytania
 

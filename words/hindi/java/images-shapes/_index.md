@@ -70,6 +70,9 @@ C# में Aspose.PDF का उपयोग करके आयताका�
 ### [जावा में Aspose.Words के साथ आयताकार आकार बनाएं – पूर्ण गाइड](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
 Aspose.Words for Java का उपयोग करके आयताकार आकार जोड़ने और अनुकूलित करने की पूरी प्रक्रिया सीखें।
 
+### [जावा में समूह आकृति कैसे डालें – पूर्ण गाइड](./how-to-insert-group-shape-in-java-complete-guide/)
+जावा में Aspose.Words का उपयोग करके समूह आकृति सम्मिलित करने की पूरी प्रक्रिया सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)

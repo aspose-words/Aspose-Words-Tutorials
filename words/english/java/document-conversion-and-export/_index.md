@@ -322,6 +322,9 @@ Learn how to generate PDF/UA‑1 compliant documents using Aspose.Words for Java
 ### [Java docx to PDF – Generate Accessible PDF with Aspose.Words](./java-docx-to-pdf-generate-accessible-pdf-with-aspose-words/)
 Learn how to convert DOCX to an accessible PDF in Java using Aspose.Words, ensuring compliance with accessibility standards.
 
+### [Save Word as Markdown – Export Tables to HTML in Java](./save-word-as-markdown-export-tables-to-html-in-java/)
+Learn how to convert Word documents to Markdown and export tables as HTML using Aspose.Words for Java.
+
 ## Frequently Asked Questions
 ### [Using Document Shapes in Aspose.Words for Java]({{< relref "using-document-shapes/_index.md" >}})
 Unlock the Power of Document Shapes in Aspose.Words for Java. Learn Create Visually Engaging Documents with Step‑by‑Step Examples.

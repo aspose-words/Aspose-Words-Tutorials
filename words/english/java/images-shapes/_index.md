@@ -83,6 +83,9 @@ Learn how to add a shape with a shadow effect to a Word document using Aspose.Wo
 ### [Create rectangle shape in Java with Aspose.Words – Full Guide](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
 Comprehensive guide to creating and customizing rectangle shapes in Word documents using Aspose.Words for Java.
 
+### [how to insert group shape in Java – Complete Guide](./how-to-insert-group-shape-in-java-complete-guide/)
+Learn how to insert and manipulate group shapes in Word documents using Aspose.Words for Java.
+
 ## Additional Resources
 
 ## Additional Resources
