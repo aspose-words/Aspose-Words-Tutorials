@@ -36,7 +36,7 @@ Aspose.Words for .NET 자습서를 통해 라이브러리의 기능을 심층적
 | [사용자 정의 XML 부분에 매핑된 테이블 반복 섹션 만들기](./creating-table-repeating-section-mapped-to-custom-xml-part/) | Aspose.Words for .NET을 사용하여 Word 문서에서 CustomXmlPart에 매핑된 반복 섹션이 있는 표를 만드는 방법을 알아보세요. |
 | [다중 섹션](./multi-section/) 이 단계별 튜토리얼을 통해 Aspose.Words for .NET에서 여러 섹션으로 구성된 구조화된 문서 태그를 사용하는 방법을 알아보세요. 동적 문서 조작에 이상적입니다. |
 | [구조화된 문서 태그 범위 시작 XML 매핑](./structured-document-tag-range-start-xml-mapping/) | Aspose.Words for .NET을 사용하여 Word에서 XML 데이터를 구조화된 문서 태그에 동적으로 바인딩하는 방법을 알아보세요. 단계별 가이드를 따라 해 보세요. |
-
+| [Aspose.Words에서 자리 표시자 텍스트 설정 – 완전한 C# 가이드](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Aspose.Words for .NET을 사용하여 Word 문서에 자리 표시자 텍스트를 설정하고 관리하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

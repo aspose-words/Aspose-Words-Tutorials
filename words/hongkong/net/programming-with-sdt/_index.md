@@ -36,7 +36,7 @@ Aspose.Words for .NET 教學讓您深入探索程式庫的功能，並學習如�
 | [建立對應到自訂 XML 部分的表重複部分](./creating-table-repeating-section-mapped-to-custom-xml-part/) |了解如何使用 Aspose.Words for .NET 在 Word 文件中建立一個具有對應到 CustomXmlPart 的重複部分的表格。 |
 | [多節](./multi-section/) |透過本逐步教學了解如何在 Aspose.Words for .NET 中使用多部分結構化文件標籤。非常適合動態文檔操作。 |
 | [結構化文檔標籤範圍開始 XML 映射](./structured-document-tag-range-start-xml-mapping/) |了解如何使用 Aspose.Words for .NET 將 XML 資料動態綁定到 Word 中的結構化文件標籤。請按照我們的逐步指南進行操作。 |
-
+| [在 Aspose.Words 中設定佔位文字 – 完整 C# 教學](./set-placeholder-text-in-aspose-words-complete-c-guide/) |本完整 C# 教學說明如何在 Aspose.Words 中設定佔位文字，幫助您在文件中顯示預設提示內容。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

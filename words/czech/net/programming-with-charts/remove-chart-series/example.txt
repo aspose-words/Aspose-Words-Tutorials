@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Pomocí Aspose.Words pro .NET tento tutoriál vytvoří Document, vloží sloupcový graf pomocí DocumentBuilder, odstraní konkrétní datovou řadu z grafu pomocí ChartSeriesCollection.RemoveAt a uloží upravený dokument.
+//ExStepSummary:0: Vytvořte nový Word Document a DocumentBuilder, který je s ním propojen.
+//ExStepSummary:1: Vložte sloupcový graf o velikosti 432 × 252 bodů a získejte objekt Chart pro další úpravy.
+//ExStepSummary:2: Definujte nulově‑založený index řady, která má být odstraněna (druhá řada).
+//ExStepSummary:3: Pokud je index platný, zavolejte RemoveAt na kolekci Series grafu, aby se řada smazala.
+//ExStepSummary:4: Uložte aktualizovaný dokument do souboru .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+int targetSeriesIdx = 1;
+
+//ExStep:3-
+if (targetSeriesIdx >= 0 && targetSeriesIdx < columnChart.Series.Count)
+{
+    columnChart.Series.RemoveAt(targetSeriesIdx);
+}
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutSeries.docx");
+//ExEnd

@@ -61,6 +61,8 @@
 通过本教程，学习如何在 Aspose.Words for Java 中有效使用连字符。立即提升文档可读性！
 ### [在 Aspose.Words for Java 中使用列表](./using-lists/)
 通过本分步教程学习如何在 Aspose.Words for Java 中使用列表。有效地组织和格式化您的文档。
+### [在 Aspose.Words for Java 中创建饼图 – 完整分步指南](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+学习如何在 Aspose.Words for Java 中创建饼图并将其嵌入文档，完整的分步指南。
 ### [在 Aspose.Words for Java 中使用 Markdown](./using-markdown/)
 通过本分步教程学习如何在 Aspose.Words for Java 中使用 Markdown。轻松创建、设置样式并保存 Markdown 文档。
 ### [在 Aspose.Words for Java 中使用节点](./using-nodes/)
@@ -71,6 +73,10 @@
 学习如何高效使用 Aspose.Words for Java 的版本控制功能。面向开发人员的分步指南。优化您的文档管理。
 ### [在 Aspose.Words for Java 中使用部分](./using-sections/)
 探索 Aspose.Words for Java：关于如何使用 Section 的全面指南。通过代码示例添加、删除、追加和克隆 Section。
+### [在 Aspose.Words for Java 中设置按钮大小 – 完整指南](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+学习如何在 Word 文档中使用 Aspose.Words for Java 设置按钮大小的完整步骤。
+### [在 Aspose.Words for Java 中使用 Forms2OleControl 添加到 DOCX – 完整指南](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+学习如何在 Java 中使用 Aspose.Words 将 Forms2OleControl 嵌入 DOCX 文档，提供完整步骤与示例代码。
 ### [在 Word 中插入 ActiveX 按钮 – 设置按钮标题](./how-to-insert-activex-button-in-word-set-button-caption/)
 学习在 Aspose.Words for Java 中插入 ActiveX 按钮并设置其标题，实现交互式文档功能。
 ### [在 Word 中使用 Aspose.Words 插入饼图 – 完整指南](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)

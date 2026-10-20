@@ -73,6 +73,12 @@ Pelajari cara menyisipkan tombol ActiveX di dokumen Word dan mengatur caption to
 Pelajari cara menggunakan kontrol revisi Aspose.Words untuk Java secara efisien. Panduan langkah demi langkah untuk pengembang. Optimalkan manajemen dokumen Anda.
 ### [Menggunakan Bagian di Aspose.Words untuk Java](./using-sections/)
 Jelajahi Aspose.Words untuk Java: Panduan lengkap tentang penggunaan bagian. Tambahkan, hapus, tambahkan, klon bagian dengan contoh kode.
+### [Mengatur Ukuran Tombol di Word dengan Java – Panduan Lengkap Aspose.Words](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Pelajari cara mengatur ukuran tombol di dokumen Word menggunakan Aspose.Words untuk Java dalam panduan lengkap ini.
+### [Membuat Diagram Lingkaran dengan Aspose.Words Java – Panduan Lengkap Langkah demi Langkah](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Pelajari cara membuat diagram lingkaran menggunakan Aspose.Words untuk Java dengan panduan langkah demi langkah yang lengkap.
+### [Menambahkan Forms2OleControl ke DOCX – Panduan Lengkap Aspose.Words](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Pelajari cara menambahkan kontrol Forms2OleControl ke file DOCX menggunakan Aspose.Words untuk Java dalam panduan langkah demi langkah ini.
 ### [Menyisipkan Diagram Pai di Word dengan Aspose.Words – Panduan Lengkap](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
 Pelajari cara menyisipkan diagram pai di dokumen Word menggunakan Aspose.Words dengan panduan lengkap langkah demi langkah.
 

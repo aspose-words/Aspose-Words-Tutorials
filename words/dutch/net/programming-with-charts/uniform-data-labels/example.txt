@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Deze tutorial laat zien hoe je een Word‑document maakt, een kolomgrafiek invoegt, aangepaste data‑series toevoegt en de standaard data‑label lettergrootte en -kleur definieert die uniform op alle series in de grafiek worden toegepast.
+//ExStepSummary:0: Maak een nieuw leeg Word‑document en een DocumentBuilder om het te bewerken.
+//ExStepSummary:1: Voeg een kolomgrafiek van 500×300 toe aan het document en verkrijg het bijbehorende Chart‑object.
+//ExStepSummary:2: Verwijder de standaard voorbeeld‑series die Aspose.Words aan een nieuwe grafiek toevoegt.
+//ExStepSummary:3: Definieer categorielabels en voeg twee data‑series (Item Alpha en Item Beta) met hun waarden toe aan de grafiek.
+//ExStepSummary:4: Stel de basislettergrootte en -kleur in die op alle data‑labels wordt toegepast.
+//ExStepSummary:5: Schakel data‑labels in voor elke series, toon de numerieke waarde en pas de vooraf gedefinieerde lettergrootte en -kleur toe.
+//ExStepSummary:6: Sla het document op als een .docx‑bestand.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document document = new Document();
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:1-
+Shape chartContainer = builder.InsertChart(ChartType.Column, 500, 300);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+
+//ExStep:3-
+string[] periods = { "Period 1", "Period 2", "Period 3", "Period 4" };
+chart.Series.Add("Item Alpha", periods, new double[] { 120, 150, 170, 130 });
+chart.Series.Add("Item Beta", periods, new double[] { 80, 110, 140, 100 });
+
+//ExStep:4-
+const float labelFontSize = 10f;
+Color labelFontColor = Color.White;
+
+//ExStep:5-
+foreach (ChartSeries series in chart.Series)
+{
+    series.HasDataLabels = true;
+    series.DataLabels.ShowValue = true;
+    series.DataLabels.Font.Size = labelFontSize;
+    series.DataLabels.Font.Color = labelFontColor;
+}
+
+//ExStep:6-
+document.Save("UniformLabelChart.docx");
+//ExEnd

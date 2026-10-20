@@ -67,6 +67,8 @@ Aprenda a usar Markdown no Aspose.Words para Java com este tutorial passo a pass
 Aprenda a manipular nós no Aspose.Words para Java com este tutorial passo a passo. Libere o poder de processamento de documentos.
 ### [Usando objetos OLE e controles ActiveX no Aspose.Words para Java](./using-ole-objects-and-activex/)
 Aprenda a usar objetos OLE e controles ActiveX no Aspose.Words para Java. Crie documentos interativos com facilidade. Comece agora!
+### [Usando Forms2OleControl no DOCX – Guia Completo do Aspose.Words](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Aprenda a usar Forms2OleControl para converter documentos DOCX com o Aspose.Words. Guia passo a passo completo.
 ### [Como inserir um botão ActiveX no Word – Definir legenda do botão](./how-to-insert-activex-button-in-word-set-button-caption/)
 Aprenda a inserir um botão ActiveX no Word e definir sua legenda de forma simples.
 ### [Inserir Gráfico de Pizza no Word com Aspose.Words – Guia Completo](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
@@ -75,6 +77,10 @@ Aprenda a inserir e personalizar gráficos de pizza em documentos Word usando As
 Aprenda a usar os controles de revisão do Aspose.Words para Java com eficiência. Guia passo a passo para desenvolvedores. Otimize seu gerenciamento de documentos.
 ### [Usando seções em Aspose.Words para Java](./using-sections/)
 Explore o Aspose.Words para Java: um guia completo sobre o uso de seções. Adicione, exclua, anexe e clone seções com exemplos de código.
+### [Definir tamanho do botão no Word com Java – Guia completo do Aspose.Words](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Aprenda a definir o tamanho de botões em documentos Word usando Java e Aspose.Words neste guia passo a passo.
+### [Criar Gráfico de Pizza com Aspose.Words Java – Guia Completo Passo a Passo](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Aprenda a criar gráficos de pizza no Word usando Aspose.Words para Java com este guia passo a passo completo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -73,6 +73,12 @@
 Научитесь эффективно использовать контроль версий Aspose.Words for Java. Пошаговое руководство для разработчиков. Оптимизируйте управление документами.
 ### [Использование разделов в Aspose.Words для Java](./using-sections/)
 Исследуйте Aspose.Words для Java: полное руководство по использованию разделов. Добавляйте, удаляйте, присоединяйте, клонируйте разделы с примерами кода.
+### [Создание круговой диаграммы с Aspose.Words для Java – Полное пошаговое руководство](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Создайте круговую диаграмму в документах Word с помощью Aspose.Words для Java. Пошаговое руководство от начала до конца.
+### [Установка размера кнопки в Word с помощью Java – Полное руководство Aspose.Words](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Узнайте, как задать размер кнопки в документах Word с использованием Aspose.Words для Java.
+### [Добавление Forms2OleControl в DOCX – Полное руководство Aspose.Words](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Узнайте, как добавить элемент Forms2OleControl в документ DOCX с помощью Aspose.Words. Пошаговое полное руководство.
 ### [Вставка круговой диаграммы в Word с Aspose.Words – Полное руководство](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
 Узнайте, как добавить круговую диаграмму в документ Word с помощью Aspose.Words, шаг за шагом.
 
