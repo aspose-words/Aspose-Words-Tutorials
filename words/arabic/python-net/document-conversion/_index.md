@@ -113,6 +113,8 @@
 تعلم كيفية إعادة تسمية الصور تلقائيًا أثناء تحويل ملفات DOCX إلى صيغة Markdown باستخدام Aspose.Words لبايثون.
 ### [حفظ كملف PDF باستخدام Aspose.Words – دليل برمجة كامل](./save-as-pdf-with-aspose-words-complete-programming-guide/)
 تعلم كيفية حفظ المستندات كملفات PDF باستخدام Aspose.Words لبايثون مع شرح شامل للبرمجة.
+### [تحويل DOCX إلى PDF باستخدام Aspose.Words – دليل](./convert-docx-to-pdf-with-aspose-words-guide/)
+تعلم كيفية تحويل ملفات DOCX إلى PDF بسهولة باستخدام Aspose.Words لبايثون.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

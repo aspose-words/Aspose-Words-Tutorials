@@ -149,6 +149,8 @@ Aspose.Words for Python kullanarak DOCX dosyalarını Markdown'a dönüştürür
 
 ### [Aspose.Words ile PDF Olarak Kaydet – Tam Programlama Kılavuzu](./save-as-pdf-with-aspose-words-complete-programming-guide/)
 Aspose.Words for Python kullanarak belgeleri PDF olarak kaydetmeyi ve PDF ayarlarını özelleştirmeyi öğrenin.
+### [DOCX'i PDF'ye Aspose.Words ile Dönüştürme – Kılavuz](./convert-docx-to-pdf-with-aspose-words-guide/)
+Aspose.Words for Python kullanarak DOCX dosyalarını PDF'ye nasıl dönüştüreceğinizi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

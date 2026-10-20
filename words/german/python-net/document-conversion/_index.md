@@ -117,6 +117,8 @@ Erfahren Sie, wie Sie mit Aspose.Words für Python barrierefreie PDFs aus Word-D
 Erfahren Sie, wie Sie mit Aspose.Words für Python Bilddateien beim DOCX‑zu‑Markdown‑Export automatisch umbenennen.
 ### [PDF speichern mit Aspose.Words – Vollständiger Programmierleitfaden](./save-as-pdf-with-aspose-words-complete-programming-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für Python Dokumente vollständig als PDF speichern und dabei erweiterte Optionen nutzen.
+### [DOCX in PDF konvertieren mit Aspose.Words – Anleitung](./convert-docx-to-pdf-with-aspose-words-guide/)
+Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für Python schnell und zuverlässig in PDF konvertieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -120,6 +120,8 @@
 ### [Δημιουργία προσβάσιμου PDF – Μετατροπή Word σε PDF με Python](./create-accessible-pdf-convert-word-to-pdf-with-python/)
 ### [Αποθήκευση ως PDF με Aspose.Words – Πλήρης Προγραμματιστικός Οδηγός](./save-as-pdf-with-aspose-words-complete-programming-guide/)
 Μάθετε πώς να αποθηκεύετε έγγραφα Word ως PDF χρησιμοποιώντας Aspose.Words για Python με πλήρη βήμα-βήμα οδηγίες.
+### [Μετατροπή DOCX σε PDF με Aspose.Words – Οδηγός](./convert-docx-to-pdf-with-aspose-words-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF χρησιμοποιώντας το Aspose.Words για Python. Ο πλήρης οδηγός.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

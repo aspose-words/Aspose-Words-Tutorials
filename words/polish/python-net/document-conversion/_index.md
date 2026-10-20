@@ -144,6 +144,8 @@ Dowiedz się, jak automatycznie zmieniać nazwy obrazów przy konwersji plików 
 
 ### [Zapisz jako PDF przy użyciu Aspose.Words – Kompletny przewodnik programistyczny](./save-as-pdf-with-aspose-words-complete-programming-guide/)
 Dowiedz się, jak przy użyciu Aspose.Words zapisać dokumenty jako PDF, korzystając z pełnego przewodnika programistycznego.
+### [Konwersja DOCX do PDF z Aspose.Words – przewodnik](./convert-docx-to-pdf-with-aspose-words-guide/)
+Naucz się konwertować pliki DOCX do PDF przy użyciu Aspose.Words for Python w prostych krokach.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

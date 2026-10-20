@@ -57,6 +57,8 @@ Tanuld meg, hogyan hozhatsz létre téglalap alakzatot a Word dokumentumokban Py
 Tanuld meg, hogyan hozhatsz létre és helyezhetsz el téglalap alakzatot Word dokumentumokban a Python és az Aspose.Words segítségével.
 ### [Árnyék hozzáadása alakzathoz Pythonban az Aspose.Words segítségével – Teljes útmutató](./add-shadow-to-shape-in-python-with-aspose-words-full-guide/)
 Tanuld meg, hogyan adhatsz árnyékot alakzatokhoz Pythonban az Aspose.Words használatával, lépésről lépésre útmutató.
+### [Árnyék hozzáadása alakzathoz a Word dokumentumban Python segítségével – Teljes útmutató](./add-shadow-to-shape-in-word-with-python-complete-guide/)
+Tanuld meg, hogyan adhatsz árnyékot alakzatoknak a Word dokumentumokban Python használatával, részletes, lépésről‑lépésre útmutató.
 
 ## További források
 

@@ -117,6 +117,8 @@ Naučte se, jak pomocí Aspose.Words pro Python vytvořit přístupné PDF z dok
 Naučte se přejmenovat obrázky při převodu DOCX na Markdown pomocí Aspose.Words pro Python.
 ### [Uložení jako PDF s Aspose.Words – Kompletní programovací průvodce](./save-as-pdf-with-aspose-words-complete-programming-guide/)
 Naučte se uložit dokumenty jako PDF pomocí Aspose.Words v Pythonu s kompletním průvodcem.
+### [Převod DOCX na PDF s Aspose.Words – průvodce](./convert-docx-to-pdf-with-aspose-words-guide/)
+Naučte se převést soubory DOCX do PDF pomocí Aspose.Words v Pythonu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

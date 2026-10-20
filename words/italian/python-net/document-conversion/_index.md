@@ -149,6 +149,8 @@ Scopri come rinominare automaticamente le immagini durante la conversione da DOC
 
 ### [Salva come PDF con Aspose.Words – Guida completa di programmazione](./save-as-pdf-with-aspose-words-complete-programming-guide/)
 Impara a salvare documenti Word come PDF usando Aspose.Words per Python, con esempi di codice e consigli pratici.
+### [Converti DOCX in PDF con Aspose.Words – Guida](./convert-docx-to-pdf-with-aspose-words-guide/)
+Scopri come trasformare file DOCX in PDF rapidamente con Aspose.Words per Python. Guida passo passo per una conversione senza problemi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

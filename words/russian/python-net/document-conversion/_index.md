@@ -114,6 +114,8 @@
 Узнайте, как автоматически переименовывать изображения при конвертации DOCX в Markdown с помощью Aspose.Words для Python.
 ### [Сохранить как PDF с Aspose.Words – Полное руководство по программированию](./save-as-pdf-with-aspose-words-complete-programming-guide/)
 Узнайте, как с помощью Aspose.Words сохранять документы в PDF, используя полное руководство по программированию.
+### [Конвертация DOCX в PDF с Aspose.Words – Руководство](./convert-docx-to-pdf-with-aspose-words-guide/)
+Узнайте, как быстро преобразовать файлы DOCX в PDF с помощью Aspose.Words для Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

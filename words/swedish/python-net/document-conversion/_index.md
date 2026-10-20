@@ -116,6 +116,8 @@ Lär dig hur du sparar dokument som PDF med Aspose.Words i Python, med steg-för
 Lär dig skapa tillgängliga PDF-filer från Word-dokument med Aspose.Words för Python, inklusive taggning och strukturell förbättring.
 ### [Hur du byter namn på bilder när du konverterar DOCX till Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)
 Lär dig hur du automatiskt byter namn på bilder under konvertering av DOCX-filer till Markdown med Aspose.Words för Python.
+### [Konvertera DOCX till PDF med Aspose.Words – Guide](./convert-docx-to-pdf-with-aspose-words-guide/)
+Lär dig hur du enkelt konverterar DOCX-filer till PDF med Aspose.Words för Python. Steg-för-steg-instruktioner och kodexempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

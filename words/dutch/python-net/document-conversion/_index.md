@@ -147,6 +147,8 @@ Leer hoe je met Aspose.Words voor Python afbeeldingen hernoemt tijdens het conve
 
 ### [Opslaan als PDF met Aspose.Words – Complete programmeergids](./save-as-pdf-with-aspose-words-complete-programming-guide/)
 Leer hoe je met Aspose.Words voor Python documenten als PDF opslaat met een volledige programmeergids.
+### [DOCX naar PDF converteren met Aspose.Words – Gids](./convert-docx-to-pdf-with-aspose-words-guide/)
+Leer hoe je met Aspose.Words voor Python DOCX-bestanden naar PDF kunt converteren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

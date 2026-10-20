@@ -57,6 +57,7 @@ Dowiedz się, jak w Pythonie przy użyciu Aspose.Words dodać i skonfigurować p
 ### [Jak wstawić kształt prostokąta w Python – Kompletny przewodnik Aspose.Words](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
 Dowiedz się, jak wstawić prostokątny kształt do dokumentu Word przy użyciu Aspose.Words dla Pythona.
 ### [Jak dodać cień do kształtu w Pythonie – Pełny przewodnik](./add-shadow-to-shape-in-python-with-aspose-words-full-guide/)
+### [Dodaj cień do kształtu w Wordzie przy użyciu Pythona – Kompletny przewodnik](./add-shadow-to-shape-in-word-with-python-complete-guide/)
 Dowiedz się, jak dodać cień do kształtów w dokumentach Word przy użyciu Aspose.Words dla Pythona, krok po kroku.
 
 ## Dodatkowe zasoby

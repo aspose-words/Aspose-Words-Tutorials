@@ -79,6 +79,8 @@
 دليل كامل لاستعادة ملفات DOCX التالفة وفتحها باستخدام Aspose.Words للغة بايثون.
 ### [استعادة ملفات DOCX التالفة في بايثون – دليل شامل](./recover-corrupted-docx-files-in-python-complete-guide/)
 تعلم كيفية استعادة ملفات DOCX التالفة باستخدام بايثون و Aspose.Words خطوة بخطوة.
+### [كيفية استعادة ملفات DOCX في بايثون – دليل شامل](./how-to-recover-docx-files-in-python-complete-guide/)
+دليل شامل لاستعادة ملفات DOCX التالفة في بايثون باستخدام Aspose.Words.
 
 ## موارد إضافية
 

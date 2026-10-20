@@ -149,6 +149,8 @@ DOCX から Markdown へ変換する際に画像ファイル名を自動的に�
 
 ### [Aspose.Words で PDF として保存 – 完全プログラミングガイド](./save-as-pdf-with-aspose-words-complete-programming-guide/)
 Aspose.Words を使って Word 文書を PDF に変換し、完全なプログラミング手順を紹介します。
+### [Aspose.Words で DOCX を PDF に変換 – ガイド](./convert-docx-to-pdf-with-aspose-words-guide/)
+Aspose.Words を使用して DOCX ファイルを PDF に変換する手順を詳しく解説します。簡単に実装できます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

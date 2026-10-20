@@ -114,6 +114,8 @@ Aprenda a gerar PDFs acessíveis a partir de documentos Word usando Aspose.Words
 Aprenda a renomear imagens automaticamente durante a conversão de arquivos DOCX para Markdown usando Aspose.Words para Python.
 ### [Salvar como PDF com Aspose.Words – Guia Completo de Programação](./save-as-pdf-with-aspose-words-complete-programming-guide/)
 Aprenda a salvar documentos como PDF usando Aspose.Words para Python, com exemplos completos de programação.
+### [Converter DOCX para PDF com Aspose.Words – Guia](./convert-docx-to-pdf-with-aspose-words-guide/)
+Aprenda a converter arquivos DOCX em PDF usando Aspose.Words para Python. Guia passo a passo para conversão eficiente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

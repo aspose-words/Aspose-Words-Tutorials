@@ -56,6 +56,7 @@ Apprenez à créer et personnaliser une forme rectangulaire dans vos documents W
 ### [Comment insérer une forme rectangle en Python – Guide complet Aspose.Words](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
 Apprenez à ajouter et configurer une forme rectangle dans vos documents Word avec Aspose.Words pour Python.
 ### [Comment ajouter une ombre à une forme en Python avec Aspose.Words – Guide complet](./add-shadow-to-shape-in-python-with-aspose-words-full-guide/)
+### [Ajouter une ombre à une forme dans Word avec Python – Guide complet](./add-shadow-to-shape-in-word-with-python-complete-guide/)
 Apprenez à appliquer des ombres aux formes dans vos documents Word en utilisant Aspose.Words pour Python.
 
 ## Ressources supplémentaires

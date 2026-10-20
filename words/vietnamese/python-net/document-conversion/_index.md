@@ -152,6 +152,9 @@ Hướng dẫn chi tiết cách đổi tên các hình ảnh trong quá trình c
 ### [Lưu dưới dạng PDF với Aspose.Words – Hướng dẫn lập trình đầy đủ](./save-as-pdf-with-aspose-words-complete-programming-guide/)
 Hướng dẫn chi tiết cách lưu tài liệu dưới dạng PDF bằng Aspose.Words cho Python, bao gồm các tùy chọn và kỹ thuật nâng cao.
 
+### [Chuyển đổi DOCX sang PDF với Aspose.Words – Hướng dẫn](./convert-docx-to-pdf-with-aspose-words-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang PDF nhanh chóng và chính xác bằng Aspose.Words for Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

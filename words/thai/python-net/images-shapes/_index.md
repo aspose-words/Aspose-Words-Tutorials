@@ -57,6 +57,8 @@
 เรียนรู้วิธีแทรกรูปสี่เหลี่ยมผืนผ้าในเอกสาร Word ด้วย Python‑net และ Aspose.Words อย่างละเอียดเพื่อเพิ่มความสวยงามให้ไฟล์ของคุณ
 ### [เพิ่มเงาให้กับรูปร่างใน Python ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์](./add-shadow-to-shape-in-python-with-aspose-words-full-guide/)
 เรียนรู้วิธีเพิ่มเงาให้กับรูปร่างในเอกสาร Word ด้วย Aspose.Words สำหรับ Python อย่างละเอียด
+### [เพิ่มเงาให้กับรูปร่างใน Word ด้วย Python – คู่มือฉบับสมบูรณ์](./add-shadow-to-shape-in-word-with-python-complete-guide/)
+เรียนรู้วิธีเพิ่มเงาให้กับรูปร่างในเอกสาร Word ด้วย Python โดยใช้ Aspose.Words อย่างละเอียด
 
 ## แหล่งข้อมูลเพิ่มเติม
 

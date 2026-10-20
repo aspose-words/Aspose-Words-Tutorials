@@ -146,6 +146,8 @@ DOCX को मार्कडाउन में बदलते समय छ�
 
 ### [Aspose.Words के साथ PDF के रूप में सहेजें – पूर्ण प्रोग्रामिंग गाइड](./save-as-pdf-with-aspose-words-complete-programming-guide/)
 Aspose.Words का उपयोग करके दस्तावेज़ को PDF में सहेजें, विस्तृत कोड उदाहरण और चरण-दर-चरण मार्गदर्शन।
+### [Aspose.Words के साथ DOCX को PDF में परिवर्तित करें – गाइड](./convert-docx-to-pdf-with-aspose-words-guide/)
+Aspose.Words का उपयोग करके DOCX फ़ाइलों को PDF में आसानी से बदलें। चरण-दर-चरण कोड उदाहरण देखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -117,6 +117,8 @@ Ismerje meg, hogyan hozhat létre akadálymentes PDF fájlokat a Word dokumentum
 Ismerje meg, hogyan nevezheti át a képeket a DOCX fájlok Markdownba konvertálása során Python segítségével.
 ### [Mentés PDF-ként az Aspose.Words segítségével – Teljes programozási útmutató](./save-as-pdf-with-aspose-words-complete-programming-guide/)
 Ismerje meg, hogyan menthet PDF-et az Aspose.Words használatával részletes példákkal és lépésről-lépésre útmutatóval.
+### [DOCX konvertálása PDF-re az Aspose.Words segítségével – Útmutató](./convert-docx-to-pdf-with-aspose-words-guide/)
+Tanulja meg, hogyan konvertálhat DOCX fájlokat PDF formátumba az Aspose.Words for Python használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

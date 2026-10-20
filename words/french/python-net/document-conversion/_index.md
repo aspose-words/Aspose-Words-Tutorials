@@ -124,6 +124,8 @@ Apprenez à générer des PDF accessibles à partir de documents Word en utilisa
 
 ### [Comment renommer les images lors de la conversion de DOCX en Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)
 Apprenez à renommer automatiquement les images lors de la conversion de fichiers DOCX en Markdown avec Aspose.Words pour Python.
+### [Convertir DOCX en PDF avec Aspose.Words – Guide](./convert-docx-to-pdf-with-aspose-words-guide/)
+Apprenez à convertir rapidement des fichiers DOCX en PDF avec Aspose.Words pour Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

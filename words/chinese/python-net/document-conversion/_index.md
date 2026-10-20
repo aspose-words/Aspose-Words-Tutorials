@@ -146,6 +146,8 @@
 
 ### [在将 DOCX 转换为 Markdown 时重命名图像](./how-to-rename-images-when-converting-docx-to-markdown/)
 学习使用 Aspose.Words for Python 在将 DOCX 转换为 Markdown 时重命名图像，确保文件名一致且易于管理。
+### [使用 Aspose.Words 将 DOCX 转换为 PDF – 完整指南](./convert-docx-to-pdf-with-aspose-words-guide/)
+学习使用 Aspose.Words for Python 将 DOCX 文件转换为 PDF，实现高质量文档输出。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

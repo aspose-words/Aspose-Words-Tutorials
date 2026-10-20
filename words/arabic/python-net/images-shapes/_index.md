@@ -59,6 +59,8 @@
 - [منتدى Aspose.Words](https://forum.aspose.com/c/words/8)
 - [دعم مجاني](https://forum.aspose.com/)
 - [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
+### [إضافة الظل إلى الشكل في Word باستخدام Python – دليل شامل](./add-shadow-to-shape-in-word-with-python-complete-guide/)
+تعلم كيفية إضافة تأثير الظل إلى الأشكال في مستندات Word باستخدام مكتبة Aspose.Words للغة Python خطوة بخطوة.
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

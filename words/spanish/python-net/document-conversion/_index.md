@@ -150,6 +150,9 @@ Aprenda a renombrar imágenes automáticamente al convertir archivos DOCX a Mark
 ### [Guardar como PDF con Aspose.Words – Guía completa de programación](./save-as-pdf-with-aspose-words-complete-programming-guide/)
 Aprenda a guardar documentos como PDF usando Aspose.Words para Python. Guía paso a paso y ejemplos de código.
 
+### [Convertir DOCX a PDF con Aspose.Words – Guía](./convert-docx-to-pdf-with-aspose-words-guide/)
+Aprenda a convertir archivos DOCX a PDF de forma sencilla con Aspose.Words para Python. Guía paso a paso y ejemplos de código.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

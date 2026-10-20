@@ -154,6 +154,9 @@
 ### [บันทึกเป็น PDF ด้วย Aspose.Words – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./save-as-pdf-with-aspose-words-complete-programming-guide/)
 เรียนรู้วิธีบันทึกไฟล์เป็น PDF อย่างครบถ้วนด้วย Aspose.Words for Python เพื่อสร้าง PDF คุณภาพสูงจากเอกสาร Word
 
+### [แปลง DOCX เป็น PDF ด้วย Aspose.Words – คู่มือ](./convert-docx-to-pdf-with-aspose-words-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX ไปเป็น PDF อย่างง่ายดายด้วย Aspose.Words for Python
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

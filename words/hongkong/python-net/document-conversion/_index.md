@@ -160,6 +160,9 @@
 ### [使用 Aspose.Words 儲存為 PDF – 完整程式設計指南](./save-as-pdf-with-aspose-words-complete-programming-guide/)
 學習使用 Aspose.Words for Python 將文件儲存為 PDF，掌握完整程式設計步驟，提高開發效率。
 
+### [使用 Aspose.Words 將 DOCX 轉換為 PDF – 完整指南](./convert-docx-to-pdf-with-aspose-words-guide/)
+學習使用 Aspose.Words for Python 將 DOCX 檔案轉換為 PDF 的完整步驟。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

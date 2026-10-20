@@ -117,6 +117,8 @@ Pelajari cara membuat PDF yang dapat diakses dengan mengonversi dokumen Word ke 
 Pelajari cara mengganti nama gambar saat mengonversi file DOCX ke Markdown menggunakan Aspose.Words untuk Python.
 ### [Simpan sebagai PDF dengan Aspose.Words – Panduan Pemrograman Lengkap](./save-as-pdf-with-aspose-words-complete-programming-guide/)
 Pelajari cara menyimpan dokumen sebagai PDF menggunakan Aspose.Words dengan panduan pemrograman lengkap.
+### [Mengonversi DOCX ke PDF dengan Aspose.Words – Panduan](./convert-docx-to-pdf-with-aspose-words-guide/)
+Pelajari cara mengonversi file DOCX menjadi PDF menggunakan Aspose.Words untuk Python secara mudah dan cepat.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
