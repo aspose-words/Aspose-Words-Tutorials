@@ -66,6 +66,7 @@ Infine, non dimenticare di dare un'occhiata al nostro [Lavorare con le opzioni d
 | [Come controllare la grammatica con Aspose.Words AI – Guida completa](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | Scopri come utilizzare l'AI di Aspose.Words per verificare e correggere la grammatica nei documenti Word in modo semplice ed efficace. |
 | [Come controllare la grammatica in Word con C# – Guida completa](./how-to-check-grammar-in-word-with-c-complete-guide/) | Scopri come utilizzare Aspose.Words per .NET per verificare la grammatica nei documenti Word con C# in modo semplice ed efficace. |
 | [Creare un riepilogo con AI – Tutorial C# Aspose Words](./create-summary-with-ai-c-aspose-words-tutorial/) | Scopri come generare riepiloghi automatici con AI usando Aspose.Words per .NET in C#. |
+| [Come controllare la grammatica in C# con Aspose.Words – Guida passo‑passo](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) | Scopri come utilizzare Aspose.Words per .NET per verificare la grammatica dei documenti C# passo dopo passo. |
 
 | [Come controllare la grammatica e riassumere un documento Word con Aspose.Words AI](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Scopri come verificare la grammatica e generare riassunti dei documenti Word usando l'AI di Aspose.Words. |
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -74,6 +74,8 @@ Basic Conversions przeprowadzi Cię przez podstawowe konwersje dokumentów przy 
 | [Jak wyeksportować LaTeX z DOCX – konwersja do TXT](./how-to-export-latex-from-docx-convert-to-txt/) | Dowiedz się, jak wyeksportować LaTeX z pliku DOCX i zapisać go jako TXT przy użyciu Aspose.Words dla .NET. |
 | [Utwórz dostępny PDF z DOCX – przewodnik krok po kroku w C#](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | Dowiedz się, jak przy użyciu Aspose.Words dla .NET wygenerować PDF spełniający standardy dostępności z pliku DOCX w C#. |
 | [Zapisz docx jako txt i wyeksportuj równania Word do LaTeX](./save-docx-as-txt-and-export-word-equations-to-latex/) | Dowiedz się, jak zapisać plik DOCX jako TXT i wyeksportować równania Word do formatu LaTeX przy użyciu Aspose.Words dla .NET. |
+| [Konwertuj docx do txt – Kompletny przewodnik dla matematyki Word do LaTeX](./convert-docx-to-txt-complete-guide-for-word-math-to-latex/) | Dowiedz się, jak konwertować pliki DOCX do TXT, zachowując formuły matematyczne Word i przekształcając je do LaTeX. |
+| [Utwórz PDF z Worda w C# – Kompletny przewodnik](./create-pdf-from-word-in-c-full-guide/) | Dowiedz się, jak w prosty sposób utworzyć plik PDF z dokumentu Word przy użyciu Aspose.Words w C#. Szczegółowy przewodnik krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -282,6 +282,8 @@ Erfahren Sie, wie Sie Word‑Dokumente in Markdown konvertieren und gleichzeitig
 
 ### [Word als Markdown speichern mit benutzerdefiniertem Bildordner – Vollständige Anleitung](./save-word-as-markdown-with-custom-image-folder-full-guide/)
 Erfahren Sie, wie Sie Word-Dokumente mit einem benutzerdefinierten Bildordner in Markdown speichern – vollständige Schritt‑für‑Schritt‑Anleitung.
+### [Dokument als Markdown speichern mit C# – Vollständige Anleitung](./save-document-as-markdown-with-c-full-guide/)
+Erfahren Sie, wie Sie ein Dokument mit Aspose.Words für .NET vollständig in Markdown konvertieren – komplette C#‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

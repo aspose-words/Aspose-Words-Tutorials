@@ -68,6 +68,7 @@
 | [كيفية التحقق من القواعد النحوية باستخدام Aspose.Words AI – دليل كامل](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | تعلم كيفية استخدام Aspose.Words AI للتحقق من القواعد النحوية في مستندات Word بدقة وسهولة. |
 | [إنشاء ملخص باستخدام الذكاء الاصطناعي – دليل Aspose Words لـ C#](./create-summary-with-ai-c-aspose-words-tutorial/) | تعلم كيفية إنشاء ملخصات مستندات Word باستخدام الذكاء الاصطناعي وAspose.Words لـ .NET مع C# بسهولة. |
 | [كيفية فحص القواعد في Word باستخدام C# – دليل شامل](./how-to-check-grammar-in-word-with-c-complete-guide/) | تعلم كيفية التحقق من القواعد النحوية في مستندات Word باستخدام C# مع دليل خطوة بخطوة. |
+| [كيفية فحص القواعد النحوية في C# باستخدام Aspose.Words – دليل خطوة بخطوة](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) | تعلم كيفية فحص وتصحيح الأخطاء النحوية في مستندات C# باستخدام Aspose.Words خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

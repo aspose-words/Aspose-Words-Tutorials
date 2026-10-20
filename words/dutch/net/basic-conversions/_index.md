@@ -76,6 +76,8 @@ Basisconversies begeleidt u door basisdocumentconversies met behulp van de Aspos
 | [Maak een toegankelijke PDF van DOCX – Stapsgewijze C#‑gids](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | Leer hoe u met Aspose.Words voor .NET een toegankelijke PDF maakt van een DOCX-bestand in C#. |
 | [Docx opslaan als txt en Word‑vergelijkingen exporteren naar LaTeX](./save-docx-as-txt-and-export-word-equations-to-latex/) | Leer hoe u een DOCX-bestand opslaat als TXT en Word‑vergelijkingen exporteert naar LaTeX met Aspose.Words voor .NET. |
 | [Word naar PDF converteren in C# – Volledige gids met Aspose.Words](./convert-word-to-pdf-in-c-full-guide-with-aspose-words/) | Leer hoe u Word naar PDF converteert in C# met Aspose.Words. Volledige stap‑voor‑stap gids met voorbeeldcode. |
+| [Docx naar txt converteren – Complete gids voor Word-wiskunde naar LaTeX](./convert-docx-to-txt-complete-guide-for-word-math-to-latex/) | Leer hoe u DOCX-bestanden naar TXT converteert en wiskundige formules omzet naar LaTeX met Aspose.Words voor .NET. |
+| [PDF maken vanuit Word in C# – Volledige gids](./create-pdf-from-word-in-c-full-guide/) | Leer hoe u Word-documenten naar PDF converteert met C# en Aspose.Words in een stap‑voor‑stap volledige gids. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

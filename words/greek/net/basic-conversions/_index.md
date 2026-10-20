@@ -75,6 +75,8 @@
 | [Πώς να εξάγετε LaTeX από το Word – Πλήρης οδηγός C#](./how-to-export-latex-from-word-complete-c-guide/) | Μάθετε πώς να εξάγετε έγγραφα Word σε LaTeX χρησιμοποιώντας Aspose.Words για .NET με πλήρη οδηγό C#. |
 | [Μετατροπή Word σε PDF σε C# – Πλήρης Οδηγός με Aspose.Words](./convert-word-to-pdf-in-c-full-guide-with-aspose-words/) | Μάθετε πώς να μετατρέπετε αρχεία Word σε PDF χρησιμοποιώντας το Aspose.Words για .NET σε C# με πλήρη οδηγό βήμα‑βήμα. |
 | [Μετατροπή DOCX σε PDF σε C# – Πλήρης Οδηγός Προγραμματισμού](./convert-docx-to-pdf-in-c-complete-programming-guide/) | Μάθετε πώς να μετατρέπετε DOCX σε PDF με C# και Aspose.Words, ακολουθώντας πλήρη βήμα‑βήμα οδηγίες. |
+| [Δημιουργία PDF από Word σε C# – Πλήρης Οδηγός](./create-pdf-from-word-in-c-full-guide/) | Μάθετε πώς να δημιουργήσετε PDF από έγγραφα Word σε C# χρησιμοποιώντας το Aspose.Words με πλήρη οδηγίες βήμα‑βήμα. |
+| [Μετατροπή docx σε txt – Πλήρης Οδηγός για Μαθηματικά Word σε LaTeX](./convert-docx-to-txt-complete-guide-for-word-math-to-latex/) | Μάθετε πώς να μετατρέψετε αρχεία docx σε txt, εξάγοντας μαθηματικά σε LaTeX με το Aspose.Words για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -66,6 +66,7 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | [Jak zkontrolovat gramatiku pomocí Aspose.Words AI – Kompletní průvodce](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | Naučte se, jak pomocí Aspose.Words AI automaticky kontrolovat gramatiku v dokumentech Word a zlepšit tak kvalitu textu. |
 | [Vytvoření shrnutí pomocí AI – C# Aspose Words tutoriál](./create-summary-with-ai-c-aspose-words-tutorial/) | Naučte se, jak pomocí Aspose.Words pro .NET a C# vytvořit automatické shrnutí dokumentů s využitím AI. |
 | [Jak zkontrolovat gramatiku ve Wordu pomocí C# – Kompletní průvodce](./how-to-check-grammar-in-word-with-c-complete-guide/) | Naučte se pomocí Aspose.Words pro .NET kontrolovat gramatiku v dokumentech Word pomocí C#. |
+| [Jak zkontrolovat gramatiku v C# pomocí Aspose.Words – krok za krokem průvodce](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) | Naučte se, jak pomocí Aspose.Words pro .NET kontrolovat gramatiku v C# krok za krokem. |
 
 | [Shrnutí Word dokumentu v C# pomocí vlastního modelu GPT – Kompletní průvodce](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Naučte se, jak pomocí vlastního modelu GPT v C# automaticky shrnout Word dokumenty s Aspose.Words. |
 {{< /blocks/products/pf/tutorial-page-section >}}

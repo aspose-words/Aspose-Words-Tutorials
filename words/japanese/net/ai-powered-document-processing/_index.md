@@ -65,6 +65,7 @@
 | [Aspose.Words AI で文法チェックを行う方法 – 完全ガイド](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) Aspose.Words AI を活用して文書の文法を自動的にチェックし、修正提案を得る手順をステップバイステップで解説します。 |
 | [C# で Word の文法をチェックする方法 – 完全ガイド](./how-to-check-grammar-in-word-with-c-complete-guide/) C# を使用して Word 文書の文法チェックを自動化し、正確な文章作成を実現する完全ガイドです。 |
 | [AI で要約を作成する – C# Aspose Words チュートリアル](./create-summary-with-ai-c-aspose-words-tutorial/) C# と Aspose.Words を使用して、AI を活用した文書要約の作成方法をステップバイステップで学びます。 |
+| [C# で Aspose.Words を使用した文法チェック – ステップバイステップガイド](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) Aspose.Words for .NET を利用し、C# で文書の文法エラーを検出・修正する方法を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

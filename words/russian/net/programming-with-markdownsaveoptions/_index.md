@@ -117,6 +117,7 @@
 | [Сохранить изображения Word при конвертации в Markdown – Полное руководство C#](./save-word-images-while-converting-to-markdown-complete-c-gui/) | Подробное руководство по сохранению изображений из Word при конвертации в Markdown с использованием C# и Aspose.Words. |
 | [Конвертировать DOCX в Markdown – извлечение изображений из DOCX с Aspose.Words](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/) | Конвертируйте DOCX в Markdown, извлекая изображения, используя Aspose.Words для .NET. |
 | [Конвертировать Word в Markdown – Полное руководство с экспортом PDF/UA](./convert-word-to-markdown-full-guide-with-pdf-ua-export/) | Полное руководство по конвертации Word в Markdown с последующим экспортом в PDF/UA, используя Aspose.Words для .NET. |
+| [Сохранить документ как Markdown с C# – Полное руководство](./save-document-as-markdown-with-c-full-guide/) | Полное руководство по сохранению документов в формате Markdown с использованием C# и Aspose.Words для .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

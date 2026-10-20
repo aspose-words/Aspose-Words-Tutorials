@@ -301,6 +301,10 @@
 
 使用 Aspose.Words for .NET 将 Word 文档保存为 Markdown，并自定义图像文件夹，提供完整示例和步骤指南。
 
+### [使用 C# 将文档保存为 Markdown – 完整指南](./save-document-as-markdown-with-c-full-guide/)
+
+使用 Aspose.Words for .NET 在 C# 中将文档导出为 Markdown，提供完整示例和分步指南。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

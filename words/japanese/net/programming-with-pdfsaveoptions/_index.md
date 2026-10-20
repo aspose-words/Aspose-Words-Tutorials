@@ -78,6 +78,7 @@ Word文書をPDFに変換してオンライン配信、アーカイブ、印刷�
 | [C# で PDF オプションを設定する方法 – Word を PDF に変換](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) Aspose.Words for .NET を使用して、C# で PDF オプションを設定し、Word 文書を PDF に変換する手順を解説します。 |
 | [Aspose.Words を使用して DOCX から PDF を保存する方法 – ステップバイステップ ガイド](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) Aspose.Words for .NET を使い、DOCX ファイルを PDF に変換して保存する手順を詳しく解説します。 |
 | [C#でドキュメントをPDFとして保存する – 完全ガイド](./save-document-as-pdf-in-c-complete-guide/) Aspose.Words for .NET を使用して、C# でドキュメントを PDF に変換する完全な手順を学びます。 |
+| [C#でアクセシブルPDFを作成 – Word を PDF に変換](./create-accessible-pdf-convert-word-to-pdf-with-c/) Aspose.Words for .NET を使用して、C# で Word 文書をアクセシブルな PDF に変換する手順をステップバイステップで解説します。 |
 
 | [Word からアクセシブルな PDF を作成 – 完全 C# ガイド](./create-accessible-pdf-from-word-complete-c-guide/) Aspose.Words for .NET を使用して、Word 文書からアクセシブルな PDF を C# で作成する手順を詳しく解説します。 |
 | [C#でPDFにアクセシビリティタグを付ける – 完全ガイド](./tag-pdf-for-accessibility-in-c-complete-guide/) Aspose.Words for .NET を使用し、C#でPDFにアクセシビリティタグを付与する完全な手順を解説します。 |

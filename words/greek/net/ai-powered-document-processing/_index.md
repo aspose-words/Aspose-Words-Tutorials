@@ -67,6 +67,7 @@
 | [Πώς να ελέγξετε τη γραμματική με το Aspose.Words AI – Πλήρης οδηγός](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words AI για αυτόματο έλεγχο γραμματικής στα έγγραφά σας, βελτιώνοντας την ποιότητα του κειμένου. |
 | [Πώς να ελέγξετε τη γραμματική στο Word με C# – Πλήρης Οδηγός](./how-to-check-grammar-in-word-with-c-complete-guide/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words για .NET ώστε να ελέγχετε τη γραμματική εγγράφων Word με C# σε πλήρη οδηγό. |
 | [Δημιουργία περίληψης με AI – C# Aspose Words Tutorial](./create-summary-with-ai-c-aspose-words-tutorial/) | Μάθετε πώς να δημιουργήσετε αυτόματες περιλήψεις εγγράφων Word χρησιμοποιώντας AI με C# και Aspose.Words. |
+| [Πώς να ελέγξετε τη γραμματική σε C# με το Aspose.Words – Οδηγός βήμα‑βήμα](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) | Μάθετε πώς να ενσωματώσετε τον έλεγχο γραμματικής στο C# χρησιμοποιώντας το Aspose.Words σε απλούς βήματα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -67,6 +67,7 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Jak sprawdzić gramatykę za pomocą Aspose.Words AI – kompletny przewodnik](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | Dowiedz się, jak używać Aspose.Words AI do automatycznego sprawdzania gramatyki w dokumentach Word. |
 | [Jak sprawdzić gramatykę w Wordzie przy użyciu C# – Kompletny przewodnik](./how-to-check-grammar-in-word-with-c-complete-guide/) | Dowiedz się, jak wykorzystać Aspose.Words dla .NET i C# do automatycznego sprawdzania gram... |
 | [Utwórz podsumowanie przy użyciu AI – samouczek C# Aspose Words](./create-summary-with-ai-c-aspose-words-tutorial/) | Dowiedz się, jak w C# wykorzystać Aspose.Words do automatycznego generowania podsumowań dokumentów przy pomocy AI. |
+| [Jak sprawdzić gramatykę w C# przy użyciu Aspose.Words – przewodnik krok po kroku](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) | Dowiedz się, jak używać Aspose.Words w C# do automatycznej korekty gramatycznej dokumentów Word w kilku prostych krokach. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

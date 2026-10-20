@@ -68,6 +68,7 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [Wie man Grammatik mit Aspose.Words KI prüft – Komplettanleitung](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.Words KI Grammatikprüfungen in .NET automatisieren und Fehler in Dokumenten schnell korrigieren. |
 | [Wie man die Grammatik in Word mit C# prüft – Komplettanleitung](./how-to-check-grammar-in-word-with-c-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und C# die Grammatik in Word-Dokumenten automatisch prüfen. |
 | [Erstellen einer Zusammenfassung mit KI – C# Aspose Words Tutorial](./create-summary-with-ai-c-aspose-words-tutorial/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und C# KI nutzen, um Dokumente automatisch zusammenzufassen. |
+| [Wie man Grammatik in C# mit Aspose.Words prüft – Schritt‑für‑Schritt‑Anleitung](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Grammatikprüfungen in C# automatisieren und Texte fehlerfrei machen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

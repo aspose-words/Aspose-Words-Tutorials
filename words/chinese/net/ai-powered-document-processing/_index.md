@@ -66,6 +66,7 @@
 | [使用 Aspose.Words AI 检查语法 – 完整指南](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) 使用 Aspose.Words for .NET 的 AI 功能检查文档语法，提升写作质量的完整指南。|
 | [如何使用 C# 检查 Word 中的语法 – 完整指南](./how-to-check-grammar-in-word-with-c-complete-guide/) 使用 Aspose.Words for .NET 与 C# 实现 Word 文档语法检查的完整步骤指南。|
 | [使用 AI 创建摘要 – C# Aspose Words 教程](./create-summary-with-ai-c-aspose-words-tutorial/) 使用 Aspose.Words for .NET 与 C# 实现 AI 文档摘要的完整指南。|
+| [如何在 C# 中使用 Aspose.Words 检查语法 – 步骤指南](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) 了解如何使用 Aspose.Words for .NET 在 C# 中进行语法检查，提升文档质量的分步指南。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

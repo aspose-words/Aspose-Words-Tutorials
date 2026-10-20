@@ -38,6 +38,7 @@ Aspose.Words for .NET の ImageSaveOptions を使った Words Processing チュ�
 | [Word を PNG にエクスポート – DOCX を 1 つの画像に変換](./export-word-as-png-convert-docx-to-one-image/) Aspose.Words for .NET を使用して、Word 文書全体を単一の PNG 画像に変換する方法をステップバイステップで解説します。 |
 | [docx を PNG に変換 – 完全ステップバイステップガイド](./convert-docx-to-png-complete-step-by-step-guide/) Aspose.Words for .NET を使用して、docx ファイルを PNG 画像に変換する完全なステップバイステップガイドです。 |
 | [DOCX を PNG に変換 – 完全 C# ガイド](./convert-docx-to-png-complete-c-guide/) Aspose.Words for .NET を使用して、DOCX ファイルを PNG 画像に変換する完全な C# ガイドです。 |
+| [DPI を設定 – C# で Word を PNG グリッドにエクスポート](./how-to-set-dpi-export-word-to-png-grid-in-c/) Aspose.Words for .NET を使用して、Word 文書を PNG グリッド形式でエクスポートする際の DPI 設定方法を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -68,6 +68,7 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [Aspose.Words AI ile Dilbilgisi Kontrolü – Tam Kılavuz](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | Aspose.Words AI kullanarak belgelerinizde dilbilgisi hatalarını otomatik olarak tespit edip düzeltmeyi öğrenin. |
 | [C# ile Word'de Dilbilgisi Kontrolü Nasıl Yapılır – Tam Kılavuz](./how-to-check-grammar-in-word-with-c-complete-guide/) | C# kullanarak Aspose.Words ile Word belgelerinizde dilbilgisi kontrolü yapmayı öğrenin. |
 | [AI ile Özet Oluşturma – C# Aspose Words Eğitimi](./create-summary-with-ai-c-aspose-words-tutorial/) | AI kullanarak C# ile Aspose.Words ile belge özetleme adımlarını öğrenin. |
+| [C#'ta Dilbilgisi Kontrolü Nasıl Yapılır – Aspose.Words ile Adım Adım Rehber](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) | Aspose.Words for .NET kullanarak C# dilinde metinlerin dilbilgisini kontrol etmeyi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

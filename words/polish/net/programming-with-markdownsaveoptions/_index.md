@@ -261,6 +261,8 @@ Dowiedz się, jak wyodrębnić obrazy z plików DOCX podczas konwersji do format
 Kompletny przewodnik C# pokazujący, jak konwertować dokumenty Word do Markdown oraz eksportować je jako PDF/UA przy użyciu Aspose.Words.
 ### [Zapisz Word jako Markdown z własnym folderem obrazów – Pełny przewodnik](./save-word-as-markdown-with-custom-image-folder-full-guide/)
 Kompletny przewodnik C# pokazujący, jak zapisywać dokumenty Word jako Markdown z własnym folderem obrazów przy użyciu Aspose.Words.
+### [Zapisz dokument jako Markdown w C# – Pełny przewodnik](./save-document-as-markdown-with-c-full-guide/)
+Kompletny przewodnik C# pokazujący, jak zapisać dokument w formacie Markdown przy użyciu Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

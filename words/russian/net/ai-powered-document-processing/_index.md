@@ -68,6 +68,7 @@
 | [Как проверить грамматику с помощью Aspose.Words AI – Полное руководство](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | Узнайте, как использовать AI Aspose.Words для автоматической проверки грамматики в документах Word. |
 | [Создание резюме с ИИ – учебник C# Aspose Words](./create-summary-with-ai-c-aspose-words-tutorial/) | Узнайте, как с помощью C# и Aspose.Words создать резюме документа, используя модели ИИ. |
 | [Как проверить грамматику в Word с помощью C# – Полное руководство](./how-to-check-grammar-in-word-with-c-complete-guide/) | Узнайте, как с помощью C# проверять грамматику в документах Word, используя Aspose.Words, шаг за шагом. |
+| [Как проверить грамматику в C# с помощью Aspose.Words – пошаговое руководство](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) | Узнайте, как использовать Aspose.Words для .NET, чтобы автоматически проверять и исправлять грамматику в приложениях C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

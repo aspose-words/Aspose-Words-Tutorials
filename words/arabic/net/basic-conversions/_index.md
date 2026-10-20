@@ -53,6 +53,7 @@
 | [حفظ ملف docx كـ txt – دليل كامل لتحويل ملفات Word إلى نص عادي](./save-docx-as-txt-complete-guide-to-converting-word-files-to/) | تعرّف على طريقة حفظ ملفات DOCX كملفات نصية TXT باستخدام Aspose.Words لـ .NET خطوة بخطوة مع أمثلة عملية. |
 | [تحويل docx إلى txt – تصدير معادلات Word إلى LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/) | تعرّف على تحويل DOCX إلى TXT مع تصدير المعادلات إلى LaTeX باستخدام Aspose.Words لـ .NET. |
 | [تحويل DOCX إلى TXT – دليل C# كامل للمعادلات LaTeX](./convert-docx-to-txt-complete-c-guide-for-latex-equations/) | تعلّم كيفية تحويل ملفات DOCX إلى TXT مع الحفاظ على معادلات LaTeX باستخدام Aspose.Words في دليل C# شامل. |
+| [تحويل docx إلى txt – دليل كامل لتحويل معادلات Word إلى LaTeX](./convert-docx-to-txt-complete-guide-for-word-math-to-latex/) | تعلم كيفية تحويل ملفات DOCX إلى TXT مع دعم تحويل معادلات Word إلى LaTeX خطوة بخطوة. |
 | [تحويل ملف نصي إلى مستند Word](./txt-to-docx/) | تعلّم كيفية تحويل ملفات النصوص إلى مستندات وورد باستخدام Aspose.Words لـ .NET. أدر تحويلات المستندات بكفاءة من خلال دليلنا الشامل. | 
 | [حفظ ملف PDF بصيغة Jpeg](./pdf-to-jpeg/) حوّل ملفات PDF إلى JPEG بسهولة باستخدام Aspose.Words لـ .NET. اتبع دليلنا المفصل مع الأمثلة والأسئلة الشائعة. مثالي للمطورين والهواة.
 | [حفظ ملف PDF إلى صيغة Word (Docx)](./pdf-to-docx/) تعرّف على كيفية تحويل ملف PDF إلى مستند Word (Docx) باستخدام Aspose.Words for .NET في هذا الدليل المفصل خطوة بخطوة. مثالي للمطورين. |
@@ -76,6 +77,7 @@
 | [إنشاء PDF قابل للوصول من DOCX – دليل خطوة بخطوة C#](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | تعرّف على كيفية إنشاء ملفات PDF قابلة للوصول من مستندات DOCX باستخدام Aspose.Words لـ .NET مع دليل C# خطوة بخطوة. |
 | [كيفية تصدير LaTeX من Word – دليل C# كامل](./how-to-export-latex-from-word-complete-c-guide/) | تعلّم كيفية تصدير مستندات Word إلى LaTeX باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
 | [حفظ ملف docx كـ txt وتصدير معادلات Word إلى LaTeX](./save-docx-as-txt-and-export-word-equations-to-latex/) | تعرّف على كيفية حفظ ملفات docx كملفات txt وتصدير المعادلات إلى LaTeX باستخدام Aspose.Words لـ .NET. |
+| [إنشاء PDF من Word باستخدام C# – دليل كامل](./create-pdf-from-word-in-c-full-guide/) | تعرّف على كيفية إنشاء ملفات PDF من مستندات Word باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

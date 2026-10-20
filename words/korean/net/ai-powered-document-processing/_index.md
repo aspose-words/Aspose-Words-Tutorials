@@ -68,6 +68,7 @@
 | [Aspose.Words AI로 문법 검사하기 – 완전 가이드](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | Aspose.Words AI를 활용해 문서의 문법을 자동으로 검사하고 교정하는 방법을 단계별로 안내합니다. |
 | [C#를 사용하여 Word에서 문법 검사하기 – 완전 가이드](./how-to-check-grammar-in-word-with-c-complete-guide/) | C#와 Aspose.Words를 활용해 Word 문서의 문법을 자동으로 검사하고 교정하는 방법을 단계별로 안내합니다. |
 | [AI로 요약 만들기 – C# Aspose Words 튜토리얼](./create-summary-with-ai-c-aspose-words-tutorial/) | C#와 Aspose.Words를 사용해 AI 기반 문서 요약을 구현하는 단계별 가이드. |
+| [C#에서 Aspose.Words로 문법 검사하는 방법 – 단계별 가이드](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) | Aspose.Words for .NET을 활용해 C#에서 문법 검사를 자동화하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
