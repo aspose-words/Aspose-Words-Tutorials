@@ -200,6 +200,8 @@ Leer hoe je met Aspose.Words voor Python Word-documenten naar PDF kunt converter
 Leer hoe je docx-bestanden naar txt converteert en Word‑vergelijkingen exporteert naar LaTeX met Aspose.Words voor Python.
 ### [Hoe Word opslaan als markdown en formules behouden met Aspose.Words voor Python](./how-to-save-word-as-markdown-and-preserve-equations-with-asp/)
 Leer hoe je Word-documenten opslaat als markdown en formules behoudt met Aspose.Words voor Python.
+### [Hoe docx-bestanden te herstellen en te converteren naar markdown, PDF of txt met Aspose.Words voor Python](./how-to-recover-docx-files-and-convert-them-to-markdown-pdf-o/)
+Leer hoe je beschadigde DOCX-bestanden kunt herstellen en ze kunt omzetten naar markdown, PDF of txt met Aspose.Words voor Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

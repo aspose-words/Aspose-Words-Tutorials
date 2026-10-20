@@ -157,6 +157,8 @@ Pelajari cara menyimpan dokumen Word menjadi PDF menggunakan Aspose.Words dengan
 Pelajari cara mengonversi file docx menjadi txt dan mengekspor persamaan Word ke format LaTeX menggunakan Aspose.Words untuk Python.
 ### [Cara menyimpan Word sebagai markdown dan mempertahankan persamaan dengan Aspose.Words untuk Python](./how-to-save-word-as-markdown-and-preserve-equations-with-asp/)
 Pelajari cara menyimpan dokumen Word menjadi markdown sambil mempertahankan persamaan matematika menggunakan Aspose.Words untuk Python.
+### [Cara Memulihkan File DOCX dan Mengonversinya ke Markdown, PDF, atau TXT dengan Aspose.Words untuk Python](./how-to-recover-docx-files-and-convert-them-to-markdown-pdf-o/)
+Pelajari cara memulihkan file DOCX yang rusak dan mengonversinya ke format Markdown, PDF, atau TXT menggunakan Aspose.Words untuk Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

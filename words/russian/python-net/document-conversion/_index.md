@@ -153,6 +153,8 @@
 Узнайте, как преобразовать файлы docx в txt и экспортировать уравнения Word в формат LaTeX с помощью Aspose.Words для Python.
 ### [Как сохранить Word в markdown и сохранить уравнения с Aspose.Words для Python](./how-to-save-word-as-markdown-and-preserve-equations-with-asp/)
 Узнайте, как сохранять документы Word в markdown, сохраняя при этом уравнения, используя Aspose.Words для Python.
+### [Как восстановить файлы docx и конвертировать их в markdown, PDF или txt с помощью Aspose.Words для Python](./how-to-recover-docx-files-and-convert-them-to-markdown-pdf-o/)
+Узнайте, как восстановить повреждённые файлы DOCX и преобразовать их в форматы Markdown, PDF или TXT с помощью Aspose.Words для Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

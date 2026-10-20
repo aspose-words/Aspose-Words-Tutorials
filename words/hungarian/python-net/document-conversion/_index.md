@@ -156,6 +156,8 @@ Ismerje meg, hogyan menthet Word dokumentumot PDF formátumba az Aspose Words 
 Tanulja meg, hogyan konvertálja a DOCX fájlokat TXT formátumba, és exportálja a Word egyenleteket LaTeX kódra.
 ### [Hogyan mentse a Word dokumentumot markdown formátumba, és őrizze meg az egyenleteket az Aspose.Words for Python segítségével](./how-to-save-word-as-markdown-and-preserve-equations-with-asp/)
 Ismerje meg, hogyan menthet Word dokumentumokat markdown formátumba, miközben megőrzik az egyenleteket az Aspose.Words for Python használatával.
+### [Hogyan állítsuk helyre a docx fájlokat és konvertáljuk őket markdown, PDF vagy txt formátumba az Aspose.Words for Python segítségével](./how-to-recover-docx-files-and-convert-them-to-markdown-pdf-o/)
+Ismerje meg, hogyan állíthatja helyre a docx fájlokat, és konvertálhatja őket markdown, PDF vagy txt formátumba Python segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

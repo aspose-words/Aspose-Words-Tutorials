@@ -198,6 +198,8 @@ Aspose.Words for Python kullanarak Word belgelerini PDF olarak kaydetmeyi adım 
 Aspose.Words for Python kullanarak docx dosyalarını txt'ye dönüştürün ve Word denklemlerini LaTeX formatına aktarın.
 ### [Aspose.Words for Python ile Word'ü Markdown Olarak Kaydetme ve Denklemleri Korumak](./how-to-save-word-as-markdown-and-preserve-equations-with-asp/)
 Aspose.Words for Python kullanarak Word belgelerini markdown formatına kaydederken denklemleri korumayı öğrenin.
+### [docx dosyalarını kurtarın ve Aspose.Words for Python ile markdown, PDF veya txt'ye dönüştürün](./how-to-recover-docx-files-and-convert-them-to-markdown-pdf-o/)
+Aspose.Words for Python kullanarak bozuk docx dosyalarını kurtarın ve markdown, PDF veya txt formatlarına dönüştürün.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

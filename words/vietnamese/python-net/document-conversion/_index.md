@@ -210,6 +210,9 @@ Hướng dẫn chuyển đổi tệp docx thành txt và xuất các phương tr
 ### [Cách lưu Word dưới dạng markdown và bảo tồn công thức với Aspose.Words cho Python](./how-to-save-word-as-markdown-and-preserve-equations-with-asp/)
 Hướng dẫn chi tiết cách lưu tài liệu Word thành markdown đồng thời giữ nguyên các công thức toán học bằng Aspose.Words cho Python.
 
+### [Khôi phục DOCX và chuyển đổi sang markdown, PDF hoặc txt với Aspose.Words for Python](./how-to-recover-docx-files-and-convert-them-to-markdown-pdf-o/)
+Hướng dẫn chi tiết cách khôi phục tệp DOCX và chuyển đổi sang Markdown, PDF hoặc TXT bằng Aspose.Words for Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -153,6 +153,7 @@
 تعلم كيفية تحويل ملفات docx إلى txt وتصدير معادلات Word إلى صيغة LaTeX باستخدام Aspose.Words لبايثون.
 ### [كيفية حفظ مستند Word كـ Markdown مع الحفاظ على المعادلات باستخدام Aspose.Words لبايثون](./how-to-save-word-as-markdown-and-preserve-equations-with-asp/)
 تعلم كيفية حفظ مستندات Word بصيغة Markdown مع الحفاظ على المعادلات باستخدام Aspose.Words لبايثون.
+### [كيفية استعادة ملفات docx وتحويلها إلى markdown أو PDF أو txt باستخدام Aspose.Words لبايثون](./how-to-recover-docx-files-and-convert-them-to-markdown-pdf-o/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

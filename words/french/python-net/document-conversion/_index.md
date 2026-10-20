@@ -159,6 +159,7 @@ Apprenez à enregistrer vos documents Word au format PDF avec Aspose Words gr�
 Apprenez à convertir des fichiers DOCX en texte brut et à exporter les équations Word au format LaTeX avec Aspose.Words pour Python.
 ### [Comment enregistrer un document Word au format markdown tout en préservant les équations avec Aspose.Words pour Python](./how-to-save-word-as-markdown-and-preserve-equations-with-asp/)
 Apprenez à convertir des fichiers Word en Markdown tout en conservant les équations grâce à Aspose.Words pour Python.
+### [Comment récupérer des fichiers docx et les convertir en markdown, PDF ou txt avec Aspose.Words pour Python](./how-to-recover-docx-files-and-convert-them-to-markdown-pdf-o/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

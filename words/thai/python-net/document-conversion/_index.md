@@ -212,6 +212,9 @@
 ### [วิธีบันทึก Word เป็น markdown และรักษาสมการไว้ด้วย Aspose.Words for Python](./how-to-save-word-as-markdown-and-preserve-equations-with-asp/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น markdown พร้อมคงสมการไว้โดยใช้ Aspose.Words for Python
 
+### [วิธีกู้ไฟล์ DOCX และแปลงเป็น Markdown, PDF หรือ TXT ด้วย Aspose.Words for Python](./how-to-recover-docx-files-and-convert-them-to-markdown-pdf-o/)
+คำแนะนำการกู้ไฟล์ DOCX ที่เสียหายและแปลงเป็น Markdown, PDF หรือ TXT ด้วย Aspose.Words for Python
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
