@@ -29,6 +29,7 @@ By using Aspose.Words for .NET and following these tutorials, you will be able t
 | [How to group shapes in Word and add shapes to Word document](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Learn how to group shapes and add new shapes to Word documents using Aspose.Words for .NET. |
 | [How to group shapes in a Word document with C#](./how-to-group-shapes-in-a-word-document-with-c/) | Learn how to group multiple shapes in a Word document using Aspose.Words for .NET with C# in this step‑by‑step guide. |
 | [How to group shapes in Word with Aspose.Words for C#](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | Learn how to group multiple shapes in a Word document using Aspose.Words for .NET with C# in this step‑by‑step guide. |
+| [How to group shapes in Word using C# and Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | Learn how to group multiple shapes in a Word document using C# and Aspose.Words with this step‑by‑step guide. |
 | [Insert Shape](./insert-shape/) | Learn how to insert and manipulate shapes in Word documents using Aspose.Words for .NET with our step-by-step guide. |
 | [Aspect Ratio Locked](./aspect-ratio-locked/) | Learn how to lock the aspect ratio of shapes in Word documents using Aspose.Words for .NET. Follow this step-by-step guide to keep your images and shapes proportionate. |
 | [Layout In Cell](./layout-in-cell/) | Learn how to set the layout in cell using Aspose.Words for .NET with this comprehensive, guide. Perfect for developers looking to customize Word documents. |

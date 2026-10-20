@@ -78,6 +78,7 @@
 | [إنشاء شكل مستطيل وتجميع أشكال متعددة في C#](./create-rectangle-shape-and-group-multiple-shapes-in-c/) | تعلم كيفية إنشاء شكل مستطيل وتجميع عدة أشكال في مستند Word باستخدام C# و Aspose.Words. |
 | [كيفية إنشاء شكل مخفي في ملف docx باستخدام Aspose.Words في C#](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | تعلم كيفية إنشاء شكل مخفي في مستند Word باستخدام Aspose.Words وC#. |
 | [كيفية تجميع الأشكال في Word باستخدام Aspose.Words لـ C#](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | تعلم كيفية تجميع الأشكال في مستندات Word باستخدام Aspose.Words وC#. |
+| [كيفية تجميع الأشكال في Word باستخدام C# و Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | تعلم كيفية تجميع الأشكال في مستندات Word باستخدام C# و Aspose.Words خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

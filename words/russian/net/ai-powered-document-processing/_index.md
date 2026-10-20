@@ -91,6 +91,8 @@
 | [Как переписать абзац с помощью локальной LLM на C# – Полное руководство](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Узнайте, как использовать локальную LLM в C# для переписывания абзацев, улучшая содержание и стиль текста. |
 | [Как использовать AI‑сумматор документов в C#](./how-to-use-an-ai-document-summarizer-in-c/) | Полное руководство по использованию AI‑сумматора документов в C# с Aspose.Words. |
 | [Как перевести docx на французский с помощью Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Полное руководство по автоматическому переводу документов DOCX на французский язык с использованием AI Aspose.Words. |
+| [Как перевести docx на французский с помощью Aspose.Words AI в C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Полное руководство по переводу DOCX‑файлов на французский язык с использованием Aspose.Words и ИИ в C#. |
+| [Как резюмировать файлы docx с помощью Aspose.Words AI на C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Подробное руководство по созданию резюме docx‑файлов с помощью Aspose.Words AI на C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

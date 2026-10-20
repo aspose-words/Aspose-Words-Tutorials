@@ -91,6 +91,8 @@ Por último, no olvides visitar nuestra [Trabajar con opciones de resumen](./wor
 | [Cómo reescribir un párrafo con un LLM local en C# – Guía completa](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Aprenda a usar un modelo de lenguaje local en C# para reescribir párrafos automáticamente con Aspose.Words. |
 | [Cómo usar un resumidor de documentos IA en C#](./how-to-use-an-ai-document-summarizer-in-c/) | Aprenda a integrar un resumidor de documentos impulsado por IA en C# usando Aspose.Words paso a paso. |
 | [Cómo traducir docx a francés usando Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Aprenda a traducir documentos DOCX al francés automáticamente con Aspose.Words y IA paso a paso. |
+| [Cómo traducir docx a francés con Aspose.Words AI en C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Aprenda a traducir documentos DOCX al francés usando la IA de Aspose.Words en C# de forma sencilla y eficaz. |
+| [Cómo resumir archivos docx con Aspose.Words AI en C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Aprenda a generar resúmenes automáticos de archivos DOCX usando IA de Aspose.Words en C# paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

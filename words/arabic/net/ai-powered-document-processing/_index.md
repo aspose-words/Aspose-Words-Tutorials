@@ -91,6 +91,8 @@
 | [كيفية إعادة كتابة فقرة باستخدام نموذج لغة محلي في C# – دليل كامل](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | تعرّف على كيفية إعادة كتابة الفقرات باستخدام نموذج لغة محلي في C# مع Aspose.Words خطوة بخطوة. |
 | [كيفية استخدام ملخص المستندات الذكي في C#](./how-to-use-an-ai-document-summarizer-in-c/) | دليل خطوة بخطوة لاستخدام ملخص المستندات المدعوم بالذكاء الاصطناعي في C# مع Aspose.Words. |
 | [كيفية ترجمة ملف docx إلى الفرنسية باستخدام Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | دليل خطوة بخطوة لترجمة مستندات DOCX إلى الفرنسية باستخدام Aspose.Words AI. |
+| [كيفية ترجمة ملف docx إلى الفرنسية باستخدام Aspose.Words AI في C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | دليل خطوة بخطوة لترجمة مستندات DOCX إلى الفرنسية باستخدام Aspose.Words AI مع C#. |
+| [كيف تلخص ملفات docx باستخدام Aspose.Words AI في C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | دليل خطوة بخطوة لتلخيص ملفات docx باستخدام Aspose.Words AI في C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -36,6 +36,7 @@ Ces tutoriels vous proposent une approche pratique et étape par étape du trait
 | [Insérer un exemple OleControlType.CommandButton dans Word](./insert-olecontroltype-commandbutton-example-in-word/) | Apprenez à insérer un contrôle CommandButton Ole dans un document Word avec Aspose.Words pour .NET. |
 | [Créer un bouton de commande ActiveX dans Word avec C#](./how-to-create-activex-command-button-in-word-using-c/) | Apprenez à créer un bouton de commande ActiveX dans un document Word en C# avec Aspose.Words pour .NET. |
 
+| [Comment ajouter un contrôle ActiveX dans Word avec C#](./how-to-add-an-activex-control-word-in-word-with-c/) | Apprenez à insérer un contrôle ActiveX dans un document Word à l'aide de C# et Aspose.Words pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

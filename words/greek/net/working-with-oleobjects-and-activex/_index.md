@@ -35,6 +35,7 @@
 | [Πώς να προσθέσετε κουμπί ActiveX σε έγγραφο Word με το Aspose.Words](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Μάθετε πώς να ενσωματώσετε κουμπί ActiveX σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET. |
 | [Εισαγωγή OleControlType.CommandButton σε Word](./insert-olecontroltype-commandbutton-example-in-word/) | Μάθετε πώς να προσθέσετε ένα κουμπί CommandButton μέσω OleControlType σε έγγραφα Word με Aspose.Words για .NET. |
 | [Πώς να δημιουργήσετε κουμπί εντολών ActiveX στο Word χρησιμοποιώντας C#](./how-to-create-activex-command-button-in-word-using-c/) | Μάθετε πώς να προσθέσετε και να διαμορφώσετε ένα κουμπί εντολών ActiveX σε έγγραφο Word με C# χρησιμοποιώντας το Aspose.Words. |
+| [Πώς να προσθέσετε έναν έλεγχο ActiveX σε Word με C#](./how-to-add-an-activex-control-word-in-word-with-c/) | Μάθετε πώς να προσθέσετε έναν έλεγχο ActiveX σε έγγραφα Word χρησιμοποιώντας C# και Aspose.Words. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

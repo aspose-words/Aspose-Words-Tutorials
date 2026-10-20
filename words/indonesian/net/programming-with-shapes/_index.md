@@ -76,6 +76,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat bentuk persegi panjang dan grupkan beberapa bentuk dalam C#](./create-rectangle-shape-and-group-multiple-shapes-in-c/) | Pelajari cara membuat bentuk persegi panjang dan mengelompokkan beberapa bentuk dalam C# menggunakan Aspose.Words untuk .NET. |
 | [Buat dokumen Word kosong dan tambahkan bentuk berwarna dengan Aspose.Words](./create-a-blank-word-document-and-add-colored-shapes-with-asp/) | Pelajari cara membuat dokumen Word kosong dan menambahkan bentuk berwarna menggunakan Aspose.Words untuk .NET. |
 | [Cara membuat shape tersembunyi docx dengan Aspose.Words di C#](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | Pelajari cara membuat shape tersembunyi dalam file docx menggunakan Aspose.Words untuk .NET dengan contoh kode C#. |
+| [Cara Mengelompokkan Bentuk di Word menggunakan C# dan Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | Pelajari cara mengelompokkan bentuk di Word dengan C# dan Aspose.Words dalam panduan langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

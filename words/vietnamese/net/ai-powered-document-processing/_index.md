@@ -91,6 +91,8 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Cách viết lại đoạn văn bằng LLM cục bộ trong C# – Hướng dẫn đầy đủ](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET và LLM cục bộ để viết lại đoạn văn trong C#. |
 | [Cách sử dụng công cụ tóm tắt tài liệu AI trong C#](./how-to-use-an-ai-document-summarizer-in-c/) | Hướng dẫn chi tiết cách tích hợp bộ tóm tắt tài liệu AI vào ứng dụng C# bằng Aspose.Words. |
 | [Cách dịch docx sang tiếng Pháp bằng Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Hướng dẫn chi tiết sử dụng Aspose.Words AI để dịch tài liệu DOCX sang tiếng Pháp. |
+| [Cách dịch docx sang tiếng Pháp bằng Aspose.Words AI trong C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Hướng dẫn sử dụng Aspose.Words AI trong C# để dịch tài liệu DOCX sang tiếng Pháp một cách nhanh chóng. |
+| [Cách tóm tắt tệp docx với Aspose.Words AI trong C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Hướng dẫn chi tiết sử dụng Aspose.Words AI trong C# để tóm tắt các tệp docx nhanh chóng và hiệu quả. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

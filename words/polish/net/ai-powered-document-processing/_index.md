@@ -90,6 +90,8 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Jak przekształcić akapit przy użyciu lokalnego LLM w C# – Kompletny przewodnik](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Dowiedz się, jak używać lokalnego modelu językowego w C# do automatycznej modyfikacji akapitów w dokumentach Word. |
 | [Jak używać podsumowywacza dokumentów AI w C#](./how-to-use-an-ai-document-summarizer-in-c/) | Jak wykorzystać Aspose.Words i AI do podsumowywania dokumentów w C# – krok po kroku. |
 | [Jak przetłumaczyć docx na francuski przy użyciu Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Dowiedz się, jak używać Aspose.Words AI do tłumaczenia plików DOCX na język francuski. |
+| [Jak przetłumaczyć docx na francuski przy użyciu Aspose.Words AI w C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Kompletny przewodnik, jak używać Aspose.Words AI w C# do tłumaczenia dokumentów DOCX na język francuski. |
+| [Jak podsumować pliki docx przy użyciu Aspose.Words AI w C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Kompletny przewodnik, jak używać Aspose.Words AI w C# do podsumowywania plików docx. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -45,6 +45,7 @@ Por fim, não se esqueça de conferir nosso [Trabalhando com opções de resumo]
 | [Como corrigir gramática em arquivos DOCX com C# – Guia completo passo a passo](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Aprenda a identificar e corrigir erros gramaticais em documentos DOCX usando C# e Aspose.Words, com instruções detalhadas passo a passo. |
 | [Resumir documento Word com LLM local – Guia C#](./summarize-word-document-with-local-llm-c-guide/) | Aprenda a usar um modelo de linguagem local em C# para resumir documentos Word rapidamente com Aspose.Words. |
 | [Resumir documento Word em C# – Guia completo com IA](./summarize-word-document-in-c-complete-ai-powered-guide/) | Aprenda a resumir documentos Word usando C# e IA com um guia passo a passo completo. |
+| [Como resumir arquivos docx com Aspose.Words AI em C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Aprenda a resumir arquivos docx usando Aspose.Words AI em C# com um guia passo a passo. |
 | [Como verificar gramática em DOCX com Aspose.Words – usar gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Aprenda a usar o Aspose.Words para .NET com o modelo gpt-4 turbo para corrigir gramática em arquivos DOCX de forma automática. |
 | [Como Verificar Gramática no Word com Aspose.Words AI – Guia Completo](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Aprenda a usar a IA do Aspose.Words para analisar e corrigir a gramática em documentos Word de forma automática. |
 | [Como Verificar Gramática em C# Usando um LLM Local](./how-to-check-grammar-in-c-using-a-local-llm/) | Aprenda a usar um LLM local em C# para corrigir gramática em documentos Word com Aspose.Words. |
@@ -91,6 +92,7 @@ Por fim, não se esqueça de conferir nosso [Trabalhando com opções de resumo]
 | [Como Reescrever Parágrafos com um LLM Local em C# – Guia Completo](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Aprenda a usar um LLM local em C# para reescrever parágrafos com Aspose.Words, passo a passo. |
 | [Como usar um resumidor de documentos IA em C#](./how-to-use-an-ai-document-summarizer-in-c/) | Aprenda a usar o Aspose.Words para .NET com IA para resumir documentos Word em C# passo a passo. |
 | [Como traduzir docx para francês usando Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Aprenda a traduzir documentos DOCX para francês usando a IA do Aspose.Words em poucos passos. |
+| [Como traduzir docx para francês com Aspose.Words AI em C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Aprenda a usar Aspose.Words AI em C# para traduzir documentos DOCX para francês de forma automática. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

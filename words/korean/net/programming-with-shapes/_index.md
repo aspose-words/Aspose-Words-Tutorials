@@ -78,6 +78,7 @@ Aspose.Words for .NET을 사용하고 이 튜토리얼을 따라 하면 Word 문
 | [C#를 사용하여 Word에서 도형 숨기기 – 단계별 가이드](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 C# 코드로 Word 문서에서 도형을 숨기는 방법을 단계별로 안내합니다. |
 | [C#에서 도형에 그림자 설정하기 – 완전한 Aspose.Words 가이드](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) | C#와 Aspose.Words를 활용해 Word 도형에 그림자를 설정하는 전체 가이드를 제공합니다. |
 | [C#에서 Aspose.Words를 사용해 숨겨진 도형 docx 만들기](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | Aspose.Words와 C#를 이용해 숨겨진 도형이 포함된 docx 파일을 생성하는 방법을 단계별로 안내합니다. |
+| [C#와 Aspose.Words를 사용하여 Word에서 도형 그룹화하기](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | C#와 Aspose.Words를 활용해 Word 문서에서 도형을 그룹화하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

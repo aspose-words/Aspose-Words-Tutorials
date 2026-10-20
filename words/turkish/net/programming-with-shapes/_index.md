@@ -30,6 +30,7 @@ Aspose.Words for .NET'i kullanarak ve bu eğitimleri takip ederek, Word belgeler
 | [Word'de Şekilleri Gruplama ve Şekil Ekleme](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Word belgelerinde şekilleri gruplama ve yeni şekiller ekleme adımlarını öğrenin. |
 | [C# ile Word belgesinde şekilleri gruplama](./how-to-group-shapes-in-a-word-document-with-c/) | Aspose.Words for .NET kullanarak C# ile Word belgesinde şekilleri nasıl gruplandıracağınızı adım adım öğrenin. |
 | [C#'ta Dikdörtgen Şekil Oluşturma ve Birden Çok Şekli Gruplama](./create-rectangle-shape-and-group-multiple-shapes-in-c/) | C# kullanarak bir dikdörtgen şekil oluşturmayı ve birden fazla şekli gruplamayı adım adım öğrenin. |
+| [C# ve Aspose.Words ile Word'de Şekilleri Gruplama](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | C# ve Aspose.Words kullanarak Word belgelerinde şekilleri nasıl gruplayacağınızı öğrenin. |
 | [Şekil Ekle](./insert-shape/) | Aspose.Words for .NET'i kullanarak Word belgelerine şekillerin nasıl ekleneceğini ve düzenleneceğini adım adım kılavuzumuzla öğrenin. |
 | [Aspose.Words ile Word'de Şekle Gölge Ekle – Adım Adım](./add-shadow-to-shape-in-word-with-aspose-words-step-by-step/) | Aspose.Words for .NET kullanarak Word belgelerinde şekillere gölge eklemeyi adım adım öğrenin. |
 | [En Boy Oranı Kilitli](./aspect-ratio-locked/) | Aspose.Words for .NET kullanarak Word belgelerindeki şekillerin en boy oranını nasıl kilitleyeceğinizi öğrenin. Görüntülerinizin ve şekillerinizin orantılı kalmasını sağlamak için bu adım adım kılavuzu izleyin. |

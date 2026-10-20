@@ -36,6 +36,7 @@ Deze tutorials bieden u een praktische, stapsgewijze aanpak voor tekstverwerking
 | [ActiveX-knop toevoegen in een Word-document met Aspose.Words](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Leer hoe u een ActiveX-knop in een Word-document invoegt met Aspose.Words voor .NET in deze stapsgewijze handleiding. |
 | [OleControlType.CommandButton-voorbeeld invoegen in Word](./insert-olecontroltype-commandbutton-example-in-word/) | Leer hoe u een OleControlType.CommandButton-voorbeeld in een Word-document invoegt met Aspose.Words voor .NET. |
 | [ActiveX-opdrachtknop maken in Word met C#](./how-to-create-activex-command-button-in-word-using-c/) | Leer hoe u een ActiveX-opdrachtknop in een Word-document toevoegt met C# via Aspose.Words voor .NET. |
+| [Hoe een ActiveX-besturingselement in Word toevoegen met C#](./how-to-add-an-activex-control-word-in-word-with-c/) | Leer hoe u een ActiveX-besturingselement in een Word-document kunt invoegen met C# en Aspose.Words voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

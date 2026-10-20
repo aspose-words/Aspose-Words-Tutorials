@@ -90,6 +90,8 @@
 | [Πώς να Ξαναγράψετε Παράγραφο με Τοπικό LLM σε C# – Πλήρης Οδηγός](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Μάθετε πώς να χρησιμοποιήσετε τοπικό μοντέλο γλώσσας για να ξαναγράψετε παραγράφους σε C# με το Aspose.Words. |
 | [Πώς να χρησιμοποιήσετε AI σύνοψη εγγράφου σε C#](./how-to-use-an-ai-document-summarizer-in-c/) | Μάθετε πώς να δημιουργήσετε σύνοψη εγγράφων με AI σε C# χρησιμοποιώντας Aspose.Words. |
 | [Πώς να μεταφράσετε docx στα γαλλικά χρησιμοποιώντας το Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Μάθετε πώς να μεταφράζετε αρχεία docx στα γαλλικά με τη βοήθεια του Aspose.Words AI σε απλά βήματα. |
+| [Πώς να μεταφράσετε docx στα γαλλικά με το Aspose.Words AI σε C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words AI σε C# για να μεταφράσετε αρχεία docx στα γαλλικά. |
+| [Πώς να συνοψίσετε αρχεία docx με το Aspose.Words AI σε C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Μάθετε πώς να συνοψίσετε αρχεία docx χρησιμοποιώντας το Aspose.Words AI σε C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

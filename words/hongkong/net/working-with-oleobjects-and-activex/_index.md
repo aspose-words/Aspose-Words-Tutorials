@@ -34,6 +34,7 @@ Aspose.Words for .NET 教學中關於使用 OLE 和 ActiveX 物件進行文字�
 | [如何在 Word 文件中使用 Aspose.Words 添加 ActiveX 按鈕](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) |透過本逐步指南了解如何在 Word 文件中使用 Aspose.Words 添加 ActiveX 按鈕。 |
 | [在 Word 中插入 OleControlType.CommandButton 範例](./insert-olecontroltype-commandbutton-example-in-word/) |透過本教學了解如何在 Word 文件中使用 Aspose.Words for .NET 插入 OleControlType.CommandButton 控制項。 |
 | [在 Word 中使用 C# 建立 ActiveX 命令按鈕](./how-to-create-activex-command-button-in-word-using-c/) |了解如何使用 C# 透過 Aspose.Words for .NET 在 Word 中建立 ActiveX 命令按鈕。 |
+| [在 Word 中使用 C# 新增 ActiveX 控制項](./how-to-add-an-activex-control-word-in-word-with-c/) |了解如何使用 C# 在 Word 文件中加入 ActiveX 控制項。 |
 
 | [使用 Aspose.Words 建立 Word 文件按鈕 – 完整程式碼範例](./create-word-document-button-with-aspose-words-full-code-exam/) |透過完整範例了解如何使用 Aspose.Words 在 Word 文件中新增按鈕並設定其功能。 |
 

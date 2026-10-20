@@ -29,6 +29,7 @@
 - [วิธีจัดกลุ่มรูปร่างใน Word และเพิ่มรูปร่างลงในเอกสาร Word](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | เรียนรู้วิธีจัดกลุ่มรูปร่างและเพิ่มรูปร่างใหม่ในเอกสาร Word ด้วย Aspose.Words for .NET -
 - [กลุ่มรูปร่างใน Word ด้วย C#](./how-to-group-shapes-in-a-word-document-with-c/) | เรียนรู้วิธีการจัดกลุ่มรูปร่างในเอกสาร Word ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET
 - [วิธีจัดกลุ่มรูปร่างใน Word ด้วย Aspose.Words สำหรับ C#](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | เรียนรู้วิธีจัดกลุ่มรูปร่างหลายๆ รูปในเอกสาร Word ด้วย Aspose.Words for .NET และ C#
+- [วิธีจัดกลุ่มรูปร่างใน Word ด้วย C# และ Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | เรียนรู้วิธีจัดกลุ่มรูปร่างในเอกสาร Word ด้วย C# และ Aspose.Words ผ่านขั้นตอนที่ชัดเจน
 | [แทรกรูปร่าง](./insert-shape/) | เรียนรู้วิธีการแทรกและจัดการรูปร่างในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET พร้อมคู่มือทีละขั้นตอนของเรา
 - [อัตราส่วนภาพถูกล็อค](./aspect-ratio-locked/) | เรียนรู้วิธีล็อกอัตราส่วนภาพของรูปร่างในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อรักษาสัดส่วนของรูปภาพและรูปร่างของคุณ -
 | [เค้าโครงในเซลล์](./layout-in-cell/) | เรียนรู้วิธีการตั้งค่าเค้าโครงในเซลล์โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือฉบับสมบูรณ์นี้ เหมาะสำหรับนักพัฒนาที่ต้องการปรับแต่งเอกสาร Word -

@@ -30,6 +30,7 @@ Používáním Aspose.Words pro .NET a podle těchto tutoriálů zvládnete mani
 | [Jak seskupit tvary ve Wordu a přidat je do dokumentu Word](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Naučte se, jak seskupit tvary a přidávat je do dokumentu Word pomocí Aspose.Words pro .NET. |
 | [Jak seskupit tvary v dokumentu Word pomocí C#](./how-to-group-shapes-in-a-word-document-with-c/) | Naučte se, jak seskupit tvary v dokumentu Word pomocí C# s Aspose.Words. |
 | [Vytvořit obdélníkový tvar a seskupit více tvarů v C#](./create-rectangle-shape-and-group-multiple-shapes-in-c/) | Naučte se, jak vytvořit obdélníkový tvar a seskupit více tvarů v dokumentech Word pomocí Aspose.Words pro .NET v C#. |
+| [Jak seskupit tvary ve Wordu pomocí C# a Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | Naučte se, jak seskupit tvary ve Wordu pomocí C# a Aspose.Words v tomto podrobném návodu. |
 | [Vložit tvar](./insert-shape/) | Naučte se, jak vkládat a manipulovat s tvary v dokumentech Wordu pomocí Aspose.Words pro .NET s naším podrobným návodem. |
 | [Poměr stran uzamčen](./aspect-ratio-locked/) | Naučte se, jak uzamknout poměr stran tvarů v dokumentech Wordu pomocí Aspose.Words pro .NET. Postupujte podle tohoto podrobného návodu, abyste zachovali proporce obrázků a tvarů. |
 | [Rozložení v buňce](./layout-in-cell/) | Naučte se, jak nastavit rozvržení v buňce pomocí Aspose.Words pro .NET v tomto komplexním průvodci. Ideální pro vývojáře, kteří chtějí přizpůsobit dokumenty Wordu. |

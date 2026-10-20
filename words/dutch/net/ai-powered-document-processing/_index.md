@@ -91,6 +91,8 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Hoe een alinea herschrijven met een lokale LLM in C# – Complete gids](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Leer hoe u met een lokale LLM in C# alinea's herschrijft voor betere tekstkwaliteit met Aspose.Words. |
 | [Hoe een AI-documentsamenvatter te gebruiken in C#](./how-to-use-an-ai-document-summarizer-in-c/) | Leer hoe u een AI-documentensamenvatter in C# kunt inzetten voor automatische samenvatting van Word-bestanden. |
 | [Hoe docx naar het Frans vertalen met Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Leer hoe u docx-bestanden automatisch naar het Frans vertaalt met behulp van Aspose.Words AI. |
+| [Hoe docx-bestanden samen te vatten met Aspose.Words AI in C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Leer hoe u docx-bestanden automatisch kunt samenvatten met Aspose.Words AI in C#. |
+| [Hoe docx naar Frans te vertalen met Aspose.Words AI in C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

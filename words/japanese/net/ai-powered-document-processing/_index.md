@@ -88,6 +88,8 @@
 | [C# でローカル LLM を使用して段落を書き換える完全ガイド](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) Aspose.Words for .NET とローカル LLM を組み合わせ、C# で段落を書き換える手順をステップバイステップで解説します。 |
 | [C# で AI ドキュメント要約ツールの使用方法](./how-to-use-an-ai-document-summarizer-in-c/) Aspose.Words for .NET と AI を組み合わせ、C# でドキュメント要約機能を実装する手順を解説します。 |
 | [Aspose.Words AI を使用して docx をフランス語に翻訳する方法](./how-to-translate-docx-to-french-using-aspose-words-ai/) Aspose.Words AI を活用し、docx ファイルをフランス語に自動翻訳する手順を解説します。 |
+| [C# で Aspose.Words AI を使用して docx をフランス語に翻訳する方法](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) Aspose.Words AI を活用し、C# で docx ファイルをフランス語に自動翻訳する手順を解説します。 |
+| [C# で Aspose.Words AI を使用して docx ファイルを要約する方法](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) Aspose.Words AI を活用し、C# で docx ファイルを自動的に要約する手順を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
