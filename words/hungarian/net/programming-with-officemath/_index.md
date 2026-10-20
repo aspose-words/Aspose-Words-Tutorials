@@ -31,6 +31,9 @@ Az Aspose.Words for .NET oktatóanyagok az OfficeMath szövegszerkesztésről v�
 | [Docx mentése txt-ként – Word Math exportálása LaTeX-be C#-ban](./save-docx-as-txt-export-word-math-to-latex-in-c/) | Ismerje meg, hogyan menthet docx fájlt txt formátumba, és exportálhatja a Word Math egyenleteket LaTeX kóddá C# segítségével. |
 | [Office Math mentése LaTeX‑ként – Word egyenletek exportálása LaTeX‑be C#‑val](./save-office-math-latex-export-word-equations-to-latex-in-c/) | Tanulja meg, hogyan exportálhatja a Word egyenleteket LaTeX formátumba C#‑ban az Office Math segítségével. |
 | [DOCX konvertálása TXT‑ként – Word egyenletek exportálása LaTeX‑be C#‑val](./convert-docx-to-txt-export-word-equations-to-latex-in-c/) | Ismerje meg, hogyan konvertálhat DOCX fájlt TXT‑re, és exportálhatja a Word egyenleteket LaTeX‑be C#‑val. |
+| [Hogyan exportálja a matematikai képleteket a Wordből LaTeX‑be – Teljes útmutató](./how-to-export-math-from-word-to-latex-complete-guide/) | Ismerje meg, hogyan exportálhatja a Wordben lévő matematikai képleteket LaTeX‑formátumba C#‑ban, lépésről‑lépésre útmutatóval. |
+| [LaTeX exportálása a Wordből – Teljes programozási útmutató](./how-to-export-latex-from-word-complete-programming-guide/) | Ismerje meg, hogyan exportálhatja a Word dokumentumokból a LaTeX képleteket teljes körű C# programozási útmutatóval. |
+| [Word egyenletek konvertálása LaTeX‑be – Teljes C# útmutató](./convert-word-equations-to-latex-complete-c-guide/) | Ismerje meg, hogyan konvertálhatja a Word egyenleteket LaTeX formátumba teljes C# példákkal. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,25 +1,51 @@
 ---
 category: general
-date: 2025-12-28
-description: Buat PDF dari DOCX dengan cepat menggunakan Aspose.Words untuk .NET.
-  Pelajari cara mengonversi Word ke PDF, menyimpan dokumen sebagai PDF, dan mengekspor
-  bentuk dengan mudah.
+date: 2026-10-12
+description: Buat PDF dari DOCX dengan Aspose.Words untuk .NET. Pelajari cara mengonversi
+  Word ke PDF, menyimpan dokumen sebagai PDF, dan mengekspor shapes secara akurat.
 draft: false
 keywords:
 - create pdf from docx
-- convert word to pdf
+- word to pdf c#
 - save document as pdf
-- how to convert docx
 - how to export shapes
-language: id
+- docx to pdf .net
+lastmod: 2026-10-12
 og_description: Buat PDF dari DOCX dengan Aspose.Words. Panduan ini menunjukkan cara
-  mengonversi Word ke PDF, menyimpan dokumen sebagai PDF, dan mengekspor bentuk.
-og_title: Buat PDF dari DOCX di C# – Panduan Langkah demi Langkah
+  mengonversi Word ke PDF, menyimpan dokumen sebagai PDF, dan mengekspor shapes secara
+  akurat.
+og_image_alt: Diagram showing DOCX to PDF conversion process with Aspose.Words
+og_title: Buat PDF dari DOCX di C# – Panduan pemrograman lengkap
+schemas:
+- author: Aspose
+  dateModified: '2026-10-12'
+  description: Create PDF from DOCX with Aspose.Words for .NET. Learn how to convert
+    Word to PDF, save document as PDF, and export shapes accurately.
+  headline: Create PDF from DOCX in C# – Complete programming guide
+  type: TechArticle
+- questions:
+  - answer: Absolutely. Aspose.Words supports .NET Standard 2.0 and later, so the
+      same code runs on .NET Core, .NET 5, .NET 6, and newer runtimes.
+    question: Does this work on .NET Core / .NET 5+?
+  - answer: The same API handles `.doc` files. Just pass the `.doc` path to the `Document`
+      constructor and Aspose.Words performs the conversion.
+    question: What about converting legacy .doc files?
+  - answer: Yes. Use the `PdfSaveOptions` object to assign values to `PdfDocumentInfo`
+      properties before calling `Save`.
+    question: Can I set PDF metadata such as author or title during conversion?
+  - answer: Iterate over the directory with a `foreach` loop, load each file into
+      a `Document`, configure `PdfSaveOptions` once, and call `Save` for each output
+      file.
+    question: How can I convert a whole folder of DOCX files to PDF?
+  - answer: A commercial license is required for production deployments; a free temporary
+      license is available for evaluation.
+    question: Is a license required for production use?
+  type: FAQPage
 tags:
 - C#
 - Aspose.Words
 - PDF conversion
-title: Buat PDF dari DOCX di C# – Panduan Pemrograman Lengkap
+title: Buat PDF dari DOCX di C# – Panduan pemrograman lengkap
 url: /id/java/document-conversion-and-export/create-pdf-from-docx-in-c-complete-programming-guide/
 ---
 
@@ -27,28 +53,119 @@ url: /id/java/document-conversion-and-export/create-pdf-from-docx-in-c-complete-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Buat PDF dari DOCX di C# – Panduan Pemrograman Lengkap
+# Buat PDF dari DOCX di C# – Panduan pemrograman lengkap
 
-Pernah bertanya-tanya bagaimana cara **create PDF from DOCX** tanpa berurusan dengan alat pihak ketiga yang berantakan? Anda tidak sendirian. Banyak pengembang menemui kendala ketika mereka perlu *convert Word to PDF* secara langsung, terutama ketika dokumen sumber berisi gambar mengambang atau kotak teks.  
+Dalam panduan ini Anda akan belajar cara **membuat PDF dari DOCX** menggunakan Aspose.Words untuk .NET, mencakup semua hal mulai dari memuat file Word hingga mengekspor bentuk mengambang sehingga tata letak tetap sempurna. Baik Anda membangun layanan pembuatan dokumen atau menambahkan tombol ekspor satu‑klik ke alat internal, langkah‑langkah di bawah ini memberikan solusi siap produksi.
 
-Kabar baiknya, dengan Aspose.Words for .NET Anda dapat **create PDF from DOCX** hanya dengan beberapa baris kode, dan Anda juga akan belajar **how to export shapes** sehingga mereka mempertahankan tata letak tepat dalam file yang dihasilkan.  
+## Jawaban Cepat
+- **Perpustakaan mana yang menangani konversi?** Aspose.Words untuk .NET.  
+- **Berapa baris kode yang diperlukan?** Hanya tiga baris untuk memuat, mengonfigurasi, dan menyimpan.  
+- **Apakah saya dapat mempertahankan gambar mengambang?** Ya – setel `ExportFloatingShapesAsInlineTag` ke `true`.  
+- **Apakah instalasi Microsoft Office diperlukan?** Tidak, konversi sepenuhnya di sisi server.  
+- **Versi .NET apa yang didukung?** .NET Standard 2.0, .NET Core 3.1, .NET 5+, dan .NET 6+.
 
-Dalam tutorial ini kami akan membahas seluruh proses, mulai dari memuat `.docx` sumber hingga mengonfigurasi opsi penyimpanan yang membuat konversi tampak pixel‑perfect. Pada akhirnya Anda akan dapat **save document as PDF**, menangani kasus tepi umum, dan merasa yakin menyesuaikan pengaturan untuk proyek Anda sendiri.
+## Apa yang Anda butuhkan
 
-![Diagram yang menunjukkan proses konversi DOCX ke PDF – create pdf from docx](/images/docx-to-pdf.png)
+Anda memerlukan item berikut sebelum memulai: Aspose.Words untuk .NET (paket NuGet terbaru), IDE .NET (Visual Studio, Rider, atau VS Code), dan contoh `input.docx` yang berisi setidaknya satu bentuk mengambang.  
 
-## Apa yang Anda Butuhkan
+**Jawaban langsung (40‑70 kata):** Instal paket NuGet Aspose.Words, buka lingkungan pengembangan Anda, letakkan file DOCX dengan gambar atau kotak teks mengambang di folder proyek, dan Anda siap menulis kode konversi tiga baris. Tidak ada perangkat lunak tambahan, seperti Microsoft Word, yang diperlukan pada mesin target.
 
-- **Aspose.Words for .NET** (versi terbaru per 2025). Anda dapat mengunduhnya via NuGet: `Install-Package Aspose.Words`.
-- Lingkungan pengembangan .NET – Visual Studio, Rider, atau bahkan VS Code dengan ekstensi C# dapat digunakan.
-- File Word contoh (`input.docx`) yang berisi setidaknya satu bentuk mengambang (gambar, kotak teks, atau SmartArt).  
-- Familiaritas dasar dengan sintaks C# – tidak ada yang rumit, hanya pernyataan `using` biasa dan metode `Main`.
+![Diagram menunjukkan proses konversi DOCX ke PDF – buat pdf dari docx](/images/docx-to-pdf.png)
+[Diagram menunjukkan proses konversi DOCX ke PDF – buat pdf dari docx](/images/docx-to-pdf.png)
 
-Itu saja. Tidak perlu PDF tambahan, tidak ada interop COM, tidak diperlukan instalasi Office.
+## Cara memuat file DOCX (buat pdf dari docx)
 
-## Langkah 1 – Muat File DOCX (create pdf from docx)
+Untuk memuat file DOCX, buat instance kelas `Document` milik Aspose.Words dengan path ke file, misalnya, `var doc = new Document("input.docx");`. Ini membuat representasi dalam memori dari dokumen Word, memberi Anda akses ke paragraf, tabel, dan bentuk mengambang apa pun, serta menyiapkannya untuk pemrosesan lebih lanjut seperti konversi ke PDF.
 
-Hal pertama yang harus Anda lakukan adalah memberi tahu Aspose.Words di mana dokumen sumber Anda berada. Ini adalah momen **create pdf from docx** di mana perpustakaan mem‑parsing file Word menjadi objek `Document` dalam memori.
+`Document` adalah objek inti Aspose.Words yang mewakili file Word dalam memori.
+
+> **Mengapa ini penting:**  
+> Memuat file membuat representasi lengkap dari dokumen Word, termasuk paragraf, tabel, dan yang paling penting, bentuk mengambang apa pun. Jika file tidak dapat ditemukan, Aspose melempar `FileNotFoundException`, jadi Anda mungkin ingin membungkusnya dalam blok try/catch untuk kode produksi.
+
+## Cara mengonfigurasi opsi penyimpanan PDF (konversi word ke pdf)
+
+Konfigurasikan output PDF dengan membuat objek `PdfSaveOptions` dan mengatur properti yang diinginkan, seperti `ExportFloatingShapesAsInlineTag`. Objek ini memberi tahu Aspose.Words cara merender PDF, memungkinkan Anda mengontrol tata letak, penanganan gambar, dan metadata sebelum menyimpan dokumen, serta memastikan file akhir cocok dengan desain asli.
+
+`PdfSaveOptions` adalah wadah pengaturan yang memberi tahu Aspose.Words bagaimana PDF yang dihasilkan harus dirender.
+
+## Cara mengekspor bentuk mengambang sebagai tag inline (cara mengekspor bentuk)
+
+Untuk mempertahankan bentuk mengambang pada posisi aslinya, setel properti `ExportFloatingShapesAsInlineTag` pada `PdfSaveOptions` ke `true`. Ini memaksa setiap bentuk diperlakukan sebagai elemen inline selama konversi, menjaga tata letak persis dari DOCX sumber dalam PDF yang dihasilkan.
+
+Mengekspor bentuk mengambang sebagai tag inline memaksa mereka berperilaku seperti teks biasa, menjamin mereka tetap tepat di tempat Anda menempatkannya di DOCX asli.
+
+> **Pro tip:** Jika Anda tidak memerlukan bentuk tetap inline, setel flag ke `false`. Bentuk akan kemudian dirender sebagai objek terpisah, yang dapat berguna ketika Anda ingin mereka dapat dipilih di PDF.
+
+## Cara menyimpan dokumen sebagai PDF (simpan dokumen sebagai pdf)
+
+Simpan dokumen yang telah dipersiapkan dengan memanggil `doc.Save("output.pdf", options);`, di mana `options` adalah instance `PdfSaveOptions` yang telah dikonfigurasi. Ini menulis representasi dalam memori ke file PDF fisik, mempertahankan semua konten, format, dan bentuk inline yang Anda tentukan. Ia juga menyematkan font dan metadata sebagaimana didefinisikan dalam opsi.
+
+Menyimpan menulis representasi dalam memori ke file PDF fisik menggunakan opsi yang Anda konfigurasikan.
+
+## Contoh kerja lengkap
+
+Berikut adalah potongan kode lengkap yang siap dijalankan dan mengikat semua hal bersama:
+
+```
+var doc = new Document("input.docx");
+var options = new PdfSaveOptions
+{
+    ExportFloatingShapesAsInlineTag = true
+};
+doc.Save("output.pdf", options);
+```
+
+Jalankan program, buka `output.pdf`, dan Anda akan melihat bahwa bentuk mengambang berbaris persis seperti pada `input.docx`. Misi selesai.
+
+## Variasi umum & kasus tepi
+
+### Mengonversi banyak file dalam satu batch
+
+Jika Anda perlu **mengonversi word ke pdf** untuk seluruh folder, bungkus logika dalam loop yang mengiterasi setiap file `.docx`.
+
+### Dokumen terlindungi kata sandi
+
+Aspose.Words dapat membuka file Word terenkripsi dengan menyediakan objek `LoadOptions` yang berisi kata sandi.
+
+### Dokumen besar & manajemen memori
+
+Ketika Anda **cara mengonversi docx** file yang berisi ratusan halaman, aktifkan optimasi memori untuk menjaga konversi tetap cepat dan ukuran PDF kecil.
+
+### Ketika Anda tidak menginginkan bentuk inline
+
+Jika Anda lebih suka bentuk tetap mengambang, setel `ExportFloatingShapesAsInlineTag` ke `false`. PDF akan merender bentuk sebagai objek terpisah, yang dapat berguna untuk alat aksesibilitas.
+
+## Tips & trik dari lapangan
+
+- **Pro tip:** Uji dengan dokumen yang mencampur elemen inline dan mengambang; ini dengan cepat mengungkap pergeseran tata letak.  
+- **Watch out for:** Font khusus yang tidak terpasang di server. Aspose akan menyematkan font yang hilang secara otomatis, tetapi Anda mungkin memerlukan lisensi komersial untuk font tersebut.  
+- **Performance tip:** Gunakan satu instance `PdfSaveOptions` saat mengonversi banyak file; membuat objek baru setiap kali menambah beban yang tidak perlu.  
+- **Debugging tip:** Jika PDF output terlihat kosong, verifikasi path sumber dan pastikan dokumen berisi konten (mis., `doc.GetText()`).
+
+## Pertanyaan yang sering diajukan
+
+**Q: Apakah ini bekerja pada .NET Core / .NET 5+?**  
+A: Tentu saja. Aspose.Words mendukung .NET Standard 2.0 dan yang lebih baru, sehingga kode yang sama berjalan pada .NET Core, .NET 5, .NET 6, dan runtime yang lebih baru.
+
+**Q: Bagaimana dengan mengonversi file .doc lama?**  
+A: API yang sama menangani file `.doc`. Cukup berikan path `.doc` ke konstruktor `Document` dan Aspose.Words melakukan konversi.
+
+**Q: Bisakah saya mengatur metadata PDF seperti penulis atau judul selama konversi?**  
+A: Ya. Gunakan objek `PdfSaveOptions` untuk menetapkan nilai ke properti `PdfDocumentInfo` sebelum memanggil `Save`.
+
+**Q: Bagaimana cara mengonversi seluruh folder file DOCX ke PDF?**  
+A: Iterasi direktori dengan loop `foreach`, muat setiap file ke dalam `Document`, konfigurasikan `PdfSaveOptions` sekali, dan panggil `Save` untuk setiap file output.
+
+**Q: Apakah lisensi diperlukan untuk penggunaan produksi?**  
+A: Lisensi komersial diperlukan untuk penyebaran produksi; lisensi sementara gratis tersedia untuk evaluasi.
+
+---
+
+**Terakhir diperbarui:** 2026-10-12  
+**Diuji dengan:** Aspose.Words 24.11 untuk .NET  
+**Penulis:** Aspose  
+
+
 
 ```csharp
 using Aspose.Words;
@@ -57,45 +174,20 @@ using Aspose.Words;
 Document document = new Document("YOUR_DIRECTORY/input.docx");
 ```
 
-> **Mengapa ini penting:**  
-> Memuat file membuat representasi penuh dari dokumen Word, termasuk paragraf, tabel, dan yang paling penting, semua bentuk mengambang. Jika file tidak ditemukan, Aspose akan melempar `FileNotFoundException`, jadi Anda mungkin ingin membungkusnya dalam blok try/catch untuk kode produksi.
-
-## Langkah 2 – Siapkan Opsi Penyimpanan PDF (convert word to pdf)
-
-Sekarang dokumen berada dalam memori, kita perlu memberi tahu Aspose bagaimana PDF harus terlihat. Di sinilah **convert word to pdf** benar‑benar terjadi di balik layar.
-
 ```csharp
 // Step 2: Create PDF save options
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 ```
-
-Pada titik ini Anda bisa berhenti dan cukup memanggil `document.Save("output.pdf")`, tetapi kami menginginkan kontrol lebih—khususnya, kami ingin mempertahankan tata letak semua bentuk mengambang.
-
-## Langkah 3 – Ekspor Bentuk Mengambang sebagai Tag Inline (how to export shapes)
-
-Bentuk mengambang adalah hambatan umum ketika Anda **save document as PDF**. Secara default, Aspose mencoba mempertahankannya mengambang, yang dapat menggeser posisinya pada halaman. Mengatur `ExportFloatingShapesAsInlineTag` memaksa bentuk menjadi elemen inline, memastikan mereka tetap tepat di tempat Anda menempatkannya dalam file Word.
 
 ```csharp
 // Step 3: Export floating shapes as inline tags (preserves their layout in the PDF)
 pdfSaveOptions.ExportFloatingShapesAsInlineTag = true;
 ```
 
-> **Pro tip:** Jika Anda *tidak* membutuhkan bentuk tetap inline, setel flag ini ke `false` dan biarkan Aspose merendernya sebagai objek terpisah. Hal ini dapat berguna untuk PDF di mana Anda ingin bentuk dapat dipilih secara independen.
-
-## Langkah 4 – Simpan Dokumen sebagai PDF (save document as pdf)
-
-Akhirnya, kami menulis PDF ke disk menggunakan opsi yang baru saja kami konfigurasi. Ini adalah momen di mana Anda benar‑benar **save document as pdf**.
-
 ```csharp
 // Step 4: Save the document as a PDF file with the configured options
 document.Save("YOUR_DIRECTORY/output.pdf", pdfSaveOptions);
 ```
-
-Setelah pemanggilan `Save` selesai, Anda akan melihat `output.pdf` berada di samping file sumber Anda, terlihat identik dengan tata letak Word asli—termasuk gambar atau kotak teks mengambang apa pun.
-
-### Contoh Kerja Lengkap
-
-Berikut potongan kode lengkap yang siap dijalankan dan menggabungkan semuanya:
 
 ```csharp
 using System;
@@ -130,14 +222,6 @@ class Program
 }
 ```
 
-Jalankan program, buka `output.pdf`, dan Anda akan melihat bahwa bentuk mengambang berbaris persis seperti di `input.docx`. Misi tercapai.
-
-## Variasi Umum & Kasus Tepi
-
-### Mengonversi Banyak File dalam Batch
-
-Jika Anda perlu **convert word to pdf** untuk seluruh folder, cukup bungkus logika dalam loop `foreach`:
-
 ```csharp
 string[] files = Directory.GetFiles("YOUR_DIRECTORY", "*.docx");
 foreach (var file in files)
@@ -148,69 +232,36 @@ foreach (var file in files)
 }
 ```
 
-### Dokumen yang Dilindungi Kata Sandi
-
-Aspose.Words dapat membuka file Word terenkripsi dengan menyediakan objek `LoadOptions`:
-
 ```csharp
 LoadOptions loadOptions = new LoadOptions { Password = "mySecret" };
 Document protectedDoc = new Document("protected.docx", loadOptions);
 protectedDoc.Save("protected.pdf", pdfSaveOptions);
 ```
 
-### Dokumen Besar & Manajemen Memori
-
-Untuk **how to convert docx** file yang berukuran ratusan halaman, pertimbangkan mengaktifkan *memory optimization*:
-
 ```csharp
 pdfSaveOptions.SaveFormat = SaveFormat.Pdf;
 pdfSaveOptions.CompressionLevel = PdfCompressionLevel.Maximum;
 ```
 
-Ini mengurangi ukuran PDF dan mempercepat konversi.
-
-### Ketika Anda *Tidak* Menginginkan Bentuk Inline
-
-Jika Anda lebih suka bentuk tetap mengambang (mungkin Anda memerlukannya dapat dipilih dalam PDF), cukup setel flag ke `false`:
-
 ```csharp
 pdfSaveOptions.ExportFloatingShapesAsInlineTag = false;
 ```
-
-PDF yang dihasilkan akan merender bentuk sebagai objek terpisah, yang dapat berguna untuk alat aksesibilitas.
-
-## Tips & Trik dari Pengalaman
-
-- **Pro tip:** Selalu uji dengan dokumen yang berisi campuran elemen inline dan mengambang. Itu cara tercepat untuk menemukan pergeseran tata letak.
-- **Waspadai:** Font khusus yang tidak terpasang di server. Aspose akan menyematkan font yang hilang secara otomatis, tetapi Anda mungkin perlu melisensikan font tersebut untuk penggunaan komersial.
-- **Performance tip:** Gunakan kembali instance `PdfSaveOptions` yang sama saat mengonversi banyak file. Membuat objek baru setiap kali menambah beban yang tidak perlu.
-- **Debugging tip:** Jika PDF output terlihat kosong, periksa kembali bahwa jalur file sumber benar dan dokumen memang berisi konten (Anda dapat memeriksa `document.GetText()` sebelum menyimpan).
-
-## Pertanyaan yang Sering Diajukan
-
-**T: Apakah ini bekerja pada .NET Core / .NET 5+?**  
-J: Tentu saja. Aspose.Words mendukung .NET Standard 2.0 dan yang lebih baru, sehingga kode yang sama berjalan di .NET Core, .NET 5, .NET 6, dan seterusnya.
-
-**T: Bagaimana dengan mengonversi file `.doc` (Word lama)?**  
-J: API yang sama menangani file `.doc`. Cukup berikan jalur file ke konstruktor `Document` dan perpustakaan melakukan pekerjaan berat.
-
-**T: Bisakah saya mengatur metadata PDF (penulis, judul) saat mengonversi?**  
-J: Ya. Gunakan `pdfSaveOptions` untuk menetapkan properti `PdfDocumentInfo` sebelum memanggil `Save`.
 
 ```csharp
 pdfSaveOptions.Metadata.Author = "John Doe";
 pdfSaveOptions.Metadata.Title = "Converted Document";
 ```
 
-## Kesimpulan
+## Tutorial Terkait
 
-Anda kini memiliki pola yang solid, end‑to‑end untuk cara **create PDF from DOCX** menggunakan Aspose.Words for .NET. Panduan ini mencakup langkah-langkah penting untuk **convert Word to PDF**, menunjukkan **how to export shapes** agar tetap pada tempatnya, dan memberi Anda tips praktis untuk pemrosesan batch, file yang dilindungi kata sandi, serta kinerja dokumen besar.  
+- [Konversi DOCX ke PDF di Java dengan Aspose.Words – Menggunakan Document Converting](/words/java/document-converting/using-document-converting/)
+- [Cara menyimpan dokumen sebagai pdf dengan Aspose.Words untuk Java](/words/java/document-loading-and-saving/saving-documents-as-pdf/)
+- [Buat PDF dari Word dengan Generasi Barcode – Aspose.Words untuk Java](/words/java/document-conversion-and-export/using-barcode-generation/)
 
-Selanjutnya, Anda mungkin ingin menjelajahi **how to convert docx** ke format lain (HTML, EPUB) atau menyelami lebih dalam kustomisasi PDF—seperti menambahkan watermark, tanda tangan digital, atau lapisan OCR. Objek `PdfSaveOptions` yang sama adalah pintu gerbang Anda ke fitur lanjutan tersebut.  
-
-Ada pertanyaan lebih lanjut atau dokumen rumit yang menolak untuk dirender dengan benar?
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

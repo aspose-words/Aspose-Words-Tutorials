@@ -33,6 +33,8 @@
 
 ### [วิธีการเรนเดอร์หน้าเอกสารเป็นภาพขนาดย่อโดยใช้ Aspose.Words สำหรับ Java](./render-word-pages-thumbnails-aspose-java/)
 เรียนรู้วิธีสร้างภาพขนาดย่อคุณภาพสูงและบิตแมปขนาดกำหนดเองของเอกสาร Word ด้วย Aspose.Words สำหรับ Java ปรับปรุงความสามารถในการจัดการเอกสารของคุณวันนี้
+### [สร้างเอกสาร Word ด้วย Java – เพิ่มรูปสี่เหลี่ยมผืนผ้าพร้อมเงา](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+เรียนรู้วิธีเพิ่มรูปสี่เหลี่ยมผืนผ้าพร้อมเงาในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
 
 ### [เพิ่มเงาให้กับรูปร่างใน Word – คู่มือ Aspose.Words ฉบับสมบูรณ์](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 เรียนรู้วิธีเพิ่มเงาให้กับรูปร่างในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
@@ -43,6 +45,42 @@
 
 ### [วิธีตั้งเงาบนรูปร่างใน C# – เพิ่มเงารูปร่างได้อย่างง่ายดาย](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
 เรียนรู้วิธีเพิ่มเงาให้กับรูปร่างใน C# ด้วย Aspose.Words อย่างง่ายและรวดเร็ว
+
+### [สร้างรูปสี่เหลี่ยมผืนผ้าในเอกสาร Word ด้วย Java – คู่มือเต็มขั้นตอน](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+เรียนรู้วิธีสร้างรูปสี่เหลี่ยมผืนผ้าในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียดขั้นตอนต่อขั้นตอน
+
+### [สร้างกล่องข้อความใน Java – คู่มือฉบับสมบูรณ์ในการเพิ่มเงา](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+เรียนรู้วิธีสร้างกล่องข้อความในเอกสาร Word ด้วย Java และเพิ่มเงาเพื่อทำให้เนื้อหาดูโดดเด่น
+### [สร้างเอกสาร PDF ด้วยรูปสี่เหลี่ยม – คู่มือเต็ม C#](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+เรียนรู้วิธีสร้าง PDF พร้อมรูปสี่เหลี่ยมโดยใช้ Aspose.Words สำหรับ C# อย่างละเอียด
+
+### [สร้างเอกสาร Word ด้วย Java – เพิ่มเงาให้รูปทรง](./create-word-document-java-add-shadow-to-shape-guide/)
+เรียนรู้วิธีเพิ่มเงาให้รูปทรงในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
+
+### [การจัดกลุ่มรูปร่างใน Word ด้วย Java – คู่มือเต็มขั้นตอน](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+เรียนรู้วิธีจัดกลุ่มรูปร่างหลายรูปในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
+
+### [สร้างเอกสาร Word ด้วย Java – เพิ่มรูปทรงพร้อมเงา](./create-word-document-java-add-shape-with-shadow-effect/)
+เรียนรู้วิธีเพิ่มรูปทรงพร้อมเงาในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
+
+### [สร้างรูปสี่เหลี่ยมผืนผ้าใน Java ด้วย Aspose.Words – คู่มือเต็ม](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+เรียนรู้วิธีสร้างรูปสี่เหลี่ยมผืนผ้าใน Java ด้วย Aspose.Words อย่างละเอียดครบถ้วน
+
+### [วิธีการแทรกกลุ่มรูปร่างใน Java – คู่มือฉบับสมบูรณ์](./how-to-insert-group-shape-in-java-complete-guide/)
+เรียนรู้ขั้นตอนการแทรกและจัดการกลุ่มรูปร่างในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
+
+### [สร้างเอกสาร Word เปล่าพร้อมสี่เหลี่ยมกลุ่ม – คู่มือ C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+เรียนรู้วิธีสร้างเอกสาร Word เปล่าและเพิ่มสี่เหลี่ยมที่จัดกลุ่มโดยใช้ Aspose.Words สำหรับ C#
+
+### [แทรกรูปสี่เหลี่ยมผืนผ้าใน Java – จัดกลุ่มและกำหนดตำแหน่งรูปร่าง](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+เรียนรู้วิธีแทรกรูปสี่เหลี่ยมผืนผ้าในเอกสาร Word ด้วย Aspose.Words สำหรับ Java พร้อมการจัดกลุ่มและกำหนดตำแหน่งของรูปร่าง
+
+### [แทรกรูปภาพลงใน Word – คู่มือขั้นตอนโดย Aspose.Words](./insert-image-into-word-aspose-words-step-by-step-guide/)
+เรียนรู้วิธีแทรกรูปภาพในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
+
+### [แทรกรูปสี่เหลี่ยมผืนผ้าใน Word ด้วย C# – คู่มือครบถ้วน](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+### [สร้างไฟล์ Word เปล่าพร้อมเงาใน Java – คู่มือเต็ม](./create-blank-word-with-shadow-in-java-full-guide/)
+เรียนรู้วิธีสร้างเอกสาร Word เปล่าพร้อมเงาใน Java ด้วย Aspose.Words อย่างละเอียด
 
 ## แหล่งข้อมูลเพิ่มเติม
 

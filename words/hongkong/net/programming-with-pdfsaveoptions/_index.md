@@ -49,8 +49,11 @@ Aspose.Words for .NET 教學中有關使用 PdfSaveOptions 進行文字處理的
 | [使用 Aspose Words 將 Word 儲存為 PDF – 完整 C# 指南](./save-word-as-pdf-with-aspose-words-complete-c-guide/) |一步步教學，使用 Aspose.Words 於 C# 中將 Word 文件完整轉換為 PDF。 |
 | [使用 Aspose.Words 將 docx 另存為 PDF – 完整 C# 指南](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) |透過本完整 C# 教學，了解如何使用 Aspose.Words 將 docx 檔案轉換為高品質 PDF。 |
 | [使用 C# 從 Word 建立可存取的 PDF – 步驟指南](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) |了解如何使用 Aspose.Words for .NET 以 C# 從 Word 文件生成符合可存取性標準的 PDF。 |
+| [建立可存取的 PDF – 使用 C# 將 Word 轉換為 PDF](./create-accessible-pdf-convert-word-to-pdf-with-c/) |使用 Aspose.Words for .NET 以 C# 將 Word 文件轉換為符合可存取性標準的 PDF，完整步驟指南。 |
 | [在 C# 中建立可存取的 PDF – PDF 可存取性教學](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) |使用 Aspose.Words for .NET 在 C# 中建立符合可存取性標準的 PDF 文件。 |
+| [在 C# 中為 PDF 加上可存取性標記 – 完整指南](./tag-pdf-for-accessibility-in-c-complete-guide/) |透過本完整指南了解如何使用 Aspose.Words for .NET 在 C# 中為 PDF 添加可存取性標記。 |
 | [從 Word 建立可存取的 PDF – 完整指南](./create-accessible-pdf-from-word-complete-guide/) |了解如何使用 Aspose.Words for .NET 從 Word 文件建立符合無障礙標準的 PDF，完整步驟指南。 |
+| [使用 Aspose.Words 建立可存取 PDF – 完整指南](./create-accessible-pdf-with-aspose-words-complete-guide/) |透過本完整指南，使用 Aspose.Words for .NET 從 Word 建立符合可存取性標準的 PDF。 |
 | [建立可存取的 PDF – PDF/UA 合規逐步指南](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) |本指南說明如何使用 Aspose.Words for .NET 建立符合 PDF/UA 標準的可存取 PDF，確保所有使用者皆能閱讀。 |
 | [從 Word 建立可存取的 PDF – 完整 C# 指南](./create-accessible-pdf-from-word-complete-c-guide/) |透過本完整 C# 教學，了解如何使用 Aspose.Words for .NET 從 Word 文件生成符合可存取性標準的 PDF。 |
 | [使用 C# 從 Word 建立可存取的 PDF – 完整指南](./create-accessible-pdf-from-word-in-c-complete-guide/) |了解如何使用 Aspose.Words for .NET 在 C# 中將 Word 文件轉換為符合可存取性標準的 PDF，完整步驟說明。 |
@@ -70,6 +73,17 @@ Aspose.Words for .NET 教學中有關使用 PdfSaveOptions 進行文字處理的
 | [從 Word 建立可存取的 PDF – 步驟說明指南](./create-accessible-pdf-from-word-step-by-step-guide/) |透過本逐步指南了解如何使用 Aspose.Words for .NET 從 Word 建立符合可存取性標準的 PDF。 |
 | [在 C# 中將 DOCX 儲存為 PDF – 完整 Aspose.Words 指南](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) |完整指南說明如何在 C# 中使用 Aspose.Words 將 DOCX 檔案儲存為 PDF。 |
 | [如何在 C# 中設定 PDF 選項 – 將 Word 轉換為 PDF](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) |本指南說明如何在 C# 使用 Aspose.Words 設定 PDF 儲存選項，將 Word 文件轉換為 PDF。 |
+| [使用內嵌圖形匯出將 Word 儲存為 PDF – 完整指南](./how-to-save-pdf-from-word-with-inline-shape-export-complete/) |透過本完整指南了解如何使用 Aspose.Words for .NET 將 Word 文件的內嵌圖形匯出為 PDF。 |
+| [建立符合 PDF/UA-2 標準的文件 – 完整 C# 指南](./create-pdf-ua-2-compliant-document-complete-c-guide/) |透過本完整 C# 教學，了解如何使用 Aspose.Words for .NET 建立符合 PDF/UA-2 可存取性標準的 PDF 文件。 |
+| [如何使用 Aspose 從 Word 匯出 PDF – 完整逐步指南](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) |本完整指南說明如何使用 Aspose.Words for .NET 將 Word 文件匯出為 PDF，提供逐步操作說明。 |
+| [使用 C# 以字體替換方式儲存 PDF 文件 – 完整指南](./save-document-pdf-with-font-substitution-in-c-complete-guide/) |透過本完整指南了解如何在 C# 中使用 Aspose.Words 以字體替換方式將 Word 文件儲存為 PDF。 |
+| [使用 Aspose.Words 從 Word 建立可存取的 PDF](./create-accessible-pdf-from-word-using-aspose-words/) |透過本逐步指南了解如何使用 Aspose.Words for .NET 從 Word 文件生成符合可存取性標準的 PDF。 |
+| [從 DOCX 建立可存取的 PDF – 完整程式設計指南](./create-accessible-pdf-from-docx-complete-programming-guide/) |透過本完整程式設計指南，了解如何使用 Aspose.Words for .NET 從 DOCX 檔案建立符合可存取性標準的 PDF。 |
+| [使用 Aspose.Words 將 DOCX 轉換為 PDF – 完整程式設計指南](./convert-docx-to-pdf-with-aspose-words-complete-programming-g/) |透過本完整程式設計指南，了解如何使用 Aspose.Words 將 DOCX 檔案轉換為高品質 PDF。 |
+| [使用 Aspose.Words 將 Word 轉換為可存取 PDF – 完整指南](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) |透過本完整指南，了解如何使用 Aspose.Words 將 Word 文件轉換為符合可存取性標準的 PDF。 |
+| [如何使用 Aspose.Words 從 DOCX 儲存 PDF – 步驟指南](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) |透過本逐步指南了解如何使用 Aspose.Words for .NET 將 DOCX 檔案儲存為 PDF。 |
+| [如何在 C# 中將 Word 儲存為 PDF – 完整指南](./how-to-save-pdf-from-word-in-c-complete-guide/) |本完整指南說明如何使用 Aspose.Words for .NET 在 C# 中將 Word 文件儲存為 PDF。 |
+| [在 C# 中將文件另存為 PDF – 完整指南](./save-document-as-pdf-in-c-complete-guide/) |透過本完整指南了解如何使用 Aspose.Words for .NET 在 C# 中將 Word 文件儲存為 PDF。 |
 | [使用 Aspose.Words 將 Word 另存為 PDF – 完整可存取性指南](./save-word-as-pdf-complete-guide-with-accessibility/) |透過本完整指南，了解如何使用 Aspose.Words 將 Word 文件轉換為符合可存取性標準的 PDF。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

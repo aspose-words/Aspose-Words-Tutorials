@@ -67,10 +67,15 @@ Aspose.Words for .NET 圖形程式教學提供了全面的資源，用於學習�
 | [在Word文檔中隱藏圖表軸](./hide-chart-axis/) |透過我們詳細的逐步教學，了解如何使用 Aspose.Words for .NET 隱藏 Word 文件中的圖表軸。 |
 | [圖表中勾選多線標籤對齊](./tick-multi-line-label-alignment/) |透過我們詳細的逐步指南，了解如何使用 Aspose.Words for .NET 在圖表中勾選多行標籤對齊。適合各個層級的開發人員。 |
 | [自訂圖表資料標籤](./chart-data-label/) |透過逐步指南了解如何使用 Aspose.Words for .NET 自訂圖表資料標籤。非常適合 .NET 開發人員。 |
+| [在 C# 中自訂圖表資料標籤位置](./custom-data-label-placement-for-charts-in-c/) |說明如何在 C# 使用 Aspose.Words 為圖表設定自訂資料標籤位置。 |
 | [設定圖表中資料標籤的預設選項](./default-options-for-data-labels/) |了解如何使用 Aspose.Words for .NET 設定圖表中資料標籤的預設選項。按照我們的逐步指南輕鬆建立和自訂圖表。 |
 | [自訂圖表中的單一圖表資料點](./single-chart-data-point/) |透過詳細的逐步指南了解如何使用 Aspose.Words for .NET 自訂單一圖表資料點。使用獨特的標記和尺寸來增強您的圖表。 |
 | [自訂圖表中的單一圖表系列](./single-chart-series/) |了解如何使用 Aspose.Words for .NET 自訂 Word 文件中的單一圖表系列。按照我們的逐步指南，獲得無縫體驗。 |
-
+| [在 Word 中顯示圖表圖例（C# 完整步驟指南）](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) |透過本完整逐步指南，了解如何使用 C# 在 Word 中顯示圖表圖例。 |
+| [使用 Aspose.Words 在 C# 中爆炸式切割圓餅圖切片 – 完整指南](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) |透過本完整指南了解如何在 C# 使用 Aspose.Words 將圓餅圖切片設定為爆炸狀，以增強視覺效果。 |
+| [使用 Aspose.Words 在 C# 中添加圓餅圖標籤 – 完整指南](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) |透過本完整指南了解如何在 C# 使用 Aspose.Words 為圓餅圖添加資料標籤，提升圖表可讀性。 |
+| [使用 Aspose.Words C# 在圖表中顯示百分比](./how-to-show-percentages-in-chart-with-aspose-words-c/) |了解如何使用 Aspose.Words for .NET 在圖表中顯示百分比，提升資料可視化效果。 |
+| [在 C# 中向 Word 圖表添加資料標籤 – 步驟指南](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) |本逐步指南說明如何使用 Aspose.Words for .NET 在 C# 中為 Word 圖表新增資料標籤，提升圖表可讀性。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

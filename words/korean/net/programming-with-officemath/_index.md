@@ -32,6 +32,9 @@ Aspose.Words for .NET 튜토리얼에서는 OfficeMath를 활용한 단어 처�
 | [문서를 Txt로 저장 – C#에서 Word 수학을 LaTeX로 내보내기](./save-document-as-txt-export-word-math-to-latex-in-c/) | C#을 사용하여 Word 문서의 수학 방정식을 LaTeX 형식의 텍스트 파일로 저장하는 방법을 단계별로 안내합니다. |
 | [Office Math LaTeX 저장 – C#로 Word 방정식 내보내기](./save-office-math-latex-export-word-equations-to-latex-in-c/) | C#를 사용하여 Word 문서의 Office Math 방정식을 LaTeX 형식으로 내보내는 방법을 단계별로 안내합니다. |
 | [DOCX를 TXT로 변환 – C#에서 Word 방정식을 LaTeX로 내보내기](./convert-docx-to-txt-export-word-equations-to-latex-in-c/) | C#를 사용해 DOCX 파일을 TXT로 변환하고, Word 방정식을 LaTeX 형식으로 내보내는 방법을 안내합니다. |
+| [Word에서 수학을 LaTeX로 내보내는 완전 가이드](./how-to-export-math-from-word-to-latex-complete-guide/) | C#로 Word 문서의 수학 방정식을 LaTeX 형식으로 내보내는 전체 단계별 가이드를 제공합니다. |
+| [Word에서 LaTeX 내보내기 – 완전 프로그래밍 가이드](./how-to-export-latex-from-word-complete-programming-guide/) | C#를 사용해 Word 문서의 수학 방정식을 LaTeX 형식으로 내보내는 전체 단계별 가이드입니다. |
+| [Word 방정식을 LaTeX로 변환 – C# 완전 가이드](./convert-word-equations-to-latex-complete-c-guide/) | C#를 사용해 Word 문서의 방정식을 LaTeX 형식으로 변환하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
