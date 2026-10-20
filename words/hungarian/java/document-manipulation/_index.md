@@ -82,6 +82,10 @@ Ismerje meg, hogyan hozhat létre új Word dokumentumot és adhat hozzá struktu
 Ismerd meg, hogyan javíthatod a dokumentumok formázását az Aspose.Words for Java segítségével. Fedezz fel stílusokat, témákat és sok mást ebben az átfogó útmutatóban forráskódpéldákkal.
 ### [Tartalomjegyzék generálása az Aspose.Words programban Java-hoz](./generating-table-of-contents/)
 Tanuld meg, hogyan hozhatsz létre és szabhatsz testre tartalomjegyzéket (TOC) az Aspose.Words for Java segítségével. Készíts könnyedén szervezett és professzionális dokumentumokat.
+
+### [PDF hozzáférhetőségi címkézés Java-ban – Hozzon létre hozzáférhető PDF-eket](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Ismerje meg, hogyan lehet PDF-eket hozzáférhetővé tenni Java-ban az Aspose.Words segítségével, címkézéssel és szabványos megoldásokkal.
+
 ### [Dokumentumok védelme az Aspose.Words for Java programban](./protecting-documents/)
 Ismerje meg, hogyan teheti biztonságossá Java Word-dokumentumait az Aspose.Words for Java segítségével. Védje adatait jelszóval és egyebekkel.
 ### [Dokumentumok oldalakra osztása az Aspose.Words for Java programban](./splitting-documents-into-pages/)

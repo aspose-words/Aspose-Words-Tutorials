@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: 이 튜토리얼에서는 Aspose.Words Document와 DocumentBuilder를 사용하여 Word 문서를 만들고, 히스토그램 차트를 삽입하며, 이름과 값을 받는 ChartSeriesCollection.Add 오버로드를 이용해 라벨이 지정된 데이터 시리즈를 추가하는 방법을 보여줍니다.
+//ExStepSummary:0: 새로운 빈 Word 문서를 만들고 이를 편집할 DocumentBuilder를 생성합니다.
+//ExStepSummary:1: 문서에 크기 500×300인 히스토그램 차트 도형을 삽입하고 해당 차트 객체를 가져옵니다.
+//ExStepSummary:2: Aspose.Words가 새 차트에 추가하는 기본 플레이스홀더 시리즈를 제거합니다.
+//ExStepSummary:3: \"Demo Series\"라는 이름의 시리즈를 지정된 데이터 포인트와 함께 히스토그램 차트에 추가합니다.
+//ExStepSummary:4: 라벨이 지정된 차트 시리즈가 포함된 .docx 파일로 문서를 저장합니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape histogramShape = docBuilder.InsertChart(ChartType.Histogram, 500, 300);
+Chart histogramChart = histogramShape.Chart;
+
+//ExStep:2-
+histogramChart.Series.Clear();
+
+//ExStep:3-
+histogramChart.Series.Add("Demo Series", new double[] { 10, 20, 15, 30, 25 });
+
+//ExStep:4-
+myDocument.Save("LabeledSeriesDemo.docx");
+//ExEnd

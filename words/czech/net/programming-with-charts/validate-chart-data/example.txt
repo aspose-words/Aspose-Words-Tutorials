@@ -1,0 +1,58 @@
+//ExStart
+//ExSummary: Tento tutoriál ukazuje, jak vytvořit dokument Word s sloupcovým grafem, naplnit jej konkrétními datovými řadami, ověřit, že graf obsahuje očekávaný počet řad a datových bodů, a poté dokument uložit.
+//ExStepSummary:0: Definujte požadovaný počet řad a datových bodů, které musí graf obsahovat.
+//ExStepSummary:1: Vytvořte nový dokument Word a DocumentBuilder pro přidání obsahu.
+//ExStepSummary:2: Vložte do dokumentu sloupcový graf o rozměrech 400×300 a získejte jeho objekt Chart.
+//ExStepSummary:3: Odeberte zástupnou datovou řadu, kterou Aspose.Words přidává ve výchozím nastavení.
+//ExStepSummary:4: Definujte popisky osy X a přidejte do grafu dvě datové řady (Alpha a Beta) s třemi body každá.
+//ExStepSummary:5: Zkontrolujte, že graf obsahuje přesně požadovaný počet řad, a v případě nesouladu vyhoďte výjimku.
+//ExStepSummary:6: Projděte každou řadu a ověřte, že má očekávaný počet datových bodů; při nesouladu vyvolejte výjimku.
+//ExStepSummary:7: Uložte ověřený dokument do souboru .docx.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Desired numbers for checks.
+const int requiredSeriesCount = 2;
+const int requiredPointsPerSeries = 3;
+
+//ExStep:1-
+// Initialise a fresh document and its builder.
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:2-
+// Place a column‑type chart into the document.
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 400, 300);
+Chart chartObj = chartContainer.Chart;
+
+//ExStep:3-
+// Discard the sample data automatically added by Aspose.Words.
+chartObj.Series.Clear();
+
+//ExStep:4-
+// Set up X‑axis labels and add two data series with matching values.
+string[] xLabels = { "Group A", "Group B", "Group C" };
+chartObj.Series.Add("Data Set Alpha", xLabels, new double[] { 10, 20, 30 });
+chartObj.Series.Add("Data Set Beta", xLabels, new double[] { 15, 25, 35 });
+
+//ExStep:5-
+// ----- Validation -----
+// Confirm the chart holds the expected number of series.
+if (chartObj.Series.Count != requiredSeriesCount)
+    throw new InvalidOperationException(
+        $"Chart should contain {requiredSeriesCount} series, but actually has {chartObj.Series.Count}.");
+
+//ExStep:6-
+// Confirm each series has the required amount of data points.
+foreach (ChartSeries seriesItem in chartObj.Series)
+{
+    if (seriesItem.DataPoints.Count != requiredPointsPerSeries)
+        throw new InvalidOperationException(
+            $"Series '{seriesItem.Name}' should have {requiredPointsPerSeries} points, but contains {seriesItem.DataPoints.Count}.");
+}
+
+//ExStep:7-
+// Persist the verified document.
+myDocument.Save("checked-graph.docx");
+//ExEnd

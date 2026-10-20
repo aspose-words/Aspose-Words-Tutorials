@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Этот учебный материал демонстрирует, как создать новый документ Word, вставить диаграмму столбцов по умолчанию с помощью DocumentBuilder.InsertChart, получить встроенный объект Chart и сохранить документ в файл .docx.
+//ExStepSummary:0: Создайте пустой документ Word и DocumentBuilder для его редактирования.
+//ExStepSummary:1: Вставьте диаграмму столбцов размером 432 × 252 пункта в документ.
+//ExStepSummary:2: Получите объект Chart из вставленной фигуры для дальнейшей настройки при необходимости.
+//ExStepSummary:3: Сохраните документ, который теперь содержит вставленную диаграмму столбцов, в файл .docx.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+Chart embeddedChart = chartContainer.Chart;
+
+//ExStep:3-
+wordDoc.Save("column-demo.docx");
+//ExEnd

@@ -34,8 +34,35 @@ Aspose.Words Java 代码教程
 ### [如何使用 Aspose.Words for Java 将文档页面渲染为缩略图](./render-word-pages-thumbnails-aspose-java/)
 了解如何使用 Aspose.Words for Java 生成高质量的 Word 文档缩略图和自定义大小的位图。立即提升您的文档处理能力。
 
-### [使用 Aspose.Words for Java 创建 Word 文档 – 添加带阴影效果的矩形形状](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-演示如何在 Word 文档中使用 Aspose.Words for Java 添加带阴影效果的矩形形状。
+### [在 Word 中为形状添加阴影 – 完整 Aspose.Words 指南](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+学习如何在 Word 文档中为形状添加阴影效果，完整演示 Aspose.Words 的使用方法。
+### [在 C# 中为形状应用阴影效果 – 步骤指南](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
+学习如何在 C# 中使用 Aspose.Words 为形状添加阴影效果的详细步骤。
+### [如何在 Aspose.Words 中为形状设置阴影 – 完整指南](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
+了解在 Aspose.Words for Java 中为形状添加阴影并自定义阴影属性，以实现更具视觉冲击力的文档。
+
+### [如何在 C# 中为形状设置阴影 – 轻松添加形状阴影](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+演示如何在 C# 使用 Aspose.Words 为形状添加阴影效果，轻松自定义外观。
+
+### [使用 Aspose.Words for Java 在 Word 文档中创建矩形形状 – 完整分步指南](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+本教程提供在 Java 环境下使用 Aspose.Words 为 Word 文档创建矩形形状的完整步骤和代码示例。
+
+### [使用 Aspose.Words for Java 创建文本框形状 – 添加阴影的完整指南](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+演示如何在 Word 文档中使用 Aspose.Words for Java 创建文本框形状并添加阴影效果。
+### [使用 C# 完整指南创建带矩形形状的 PDF 文档](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+了解如何使用 Aspose.Words for C# 在 PDF 文档中插入矩形形状并进行自定义设置。
+
+### [使用 Aspose.Words for Java 创建 Word 文档 – 添加形状阴影指南](./create-word-document-java-add-shadow-to-shape-guide/)
+演示如何在 Word 文档中使用 Aspose.Words for Java 为形状添加阴影效果。
+
+### [在 Java 中使用 Aspose.Words 对 Word 进行组合形状 – 完整分步指南](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+演示如何在 Word 文档中使用 Java 将多个形状组合在一起。
+
+### [使用 Aspose.Words for Java 创建 Word 文档 – 添加带阴影效果的形状](./create-word-document-java-add-shape-with-shadow-effect/)
+演示如何在 Word 文档中使用 Aspose.Words for Java 添加带阴影效果的形状。
+
+### [使用 Aspose.Words 在 Java 中创建矩形形状 – 完整指南](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+详细演示如何使用 Aspose.Words for Java 在文档中创建并自定义矩形形状的完整步骤。
 
 ### [使用 Aspose.Words for Java 创建空白 Word 文档并添加组合形状](./create-blank-word-document-with-grouped-shape-java-guide/)
 演示如何使用 Aspose.Words for Java 创建空白文档并在其中插入组合形状，实现复杂布局。
@@ -48,6 +75,7 @@ Aspose.Words Java 代码教程
 
 ## 其他资源
 
+## 其他资源
 - [Aspose.Words for Java 文档](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Java API参考](https://reference.aspose.com/words/java/)
 - [下载 Aspose.Words for Java](https://releases.aspose.com/words/java/)

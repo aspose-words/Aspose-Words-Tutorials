@@ -64,6 +64,9 @@ Ismerje meg, hogyan kezelheti és szúrhat be **vezérlőkaraktereket** a dokume
 ### [Az Aspose.Words Java mestersége: Teljes útmutató a LayoutCollector és LayoutEnumerator használatához a szövegfeldolgozásban](./aspose-words-java-layoutcollector-enumerator-guide/)
 Fedezze fel az Aspose.Words Java **LayoutCollector** és **LayoutEnumerator** erejét a fejlett szövegfeldolgozáshoz. Tanulja meg, hogyan kezelje hatékonyan a dokumentumelrendezéseket, elemezze a lapozást, és szabályozza az oldalszámozást.
 
+### [Téglalap alakzat létrehozása Word-ben C#‑val – Lépésről‑lépésre útmutató](./create-rectangle-shape-in-word-with-c-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre téglalap alakzatot Word dokumentumban C#‑ban, részletes lépésekkel és kódrészletekkel.
+
 ## Gyakori felhasználási esetek
 
 | Szenárió | Hogyan segít |

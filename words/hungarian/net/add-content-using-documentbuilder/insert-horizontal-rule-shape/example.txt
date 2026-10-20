@@ -1,0 +1,21 @@
+//ExStart
+//ExSummary: Ez a bemutató megmutatja, hogyan hozhatunk létre Word-dokumentumot, adhatunk hozzá egy szövegbekezdést, és szúrhatunk be egy vízszintes vonal alakzatot a Document és a DocumentBuilder használatával.
+//ExStepSummary:0: Hozzon létre egy új, üres Word-dokumentumot a Document osztály példányosításával.
+//ExStepSummary:1: Hozzon létre egy a dokumentumhoz kapcsolt DocumentBuilder-t, hogy szerkesztési műveleteket végezzen.
+//ExStepSummary:2: Írjon egy szövegbekezdést, majd szúrjon be egy vízszintes vonal alakzatot a kurzor pozíciójába a DocumentBuilder használatával.
+//ExStepSummary:3: Adja meg a kimeneti mappa útvonalát, és mentse a dokumentumot .docx fájlba.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document doc = new Document();
+
+//ExStep:1-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd
