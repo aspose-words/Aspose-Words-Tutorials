@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: Hướng dẫn này trình bày cách tạo tài liệu Word có biểu đồ đường, thêm trục X phụ, đặt đơn vị hiển thị của nó thành hàng nghìn, và áp dụng định dạng số tùy chỉnh cho nhãn trục bằng Aspose.Words.
+//ExStepSummary:0: Tạo một Document mới và một DocumentBuilder để bắt đầu xây dựng tệp Word.
+//ExStepSummary:1: Chèn một biểu đồ đường có kích thước 500×300 vào tài liệu và lấy đối tượng Chart.
+//ExStepSummary:2: Xóa series demo mặc định mà Aspose.Words tự động thêm.
+//ExStepSummary:3: Xác định một mảng các nhãn danh mục sẽ được sử dụng cho trục X.
+//ExStepSummary:4: Thêm series dữ liệu chính có tên "Main Data" bằng cách sử dụng các nhãn và giá trị.
+//ExStepSummary:5: Tạo một nhóm series phụ loại Line và gán nó cho nhóm trục phụ.
+//ExStepSummary:6: Đặt đơn vị hiển thị của trục X phụ thành hàng nghìn để các giá trị hiển thị dưới dạng K.
+//ExStepSummary:7: Áp dụng định dạng số tùy chỉnh "#,##0.0" cho các nhãn tick của trục X phụ.
+//ExStepSummary:8: Tùy chọn, thêm một series dữ liệu phụ trợ vào nhóm phụ.
+//ExStepSummary:9: Lưu tài liệu thành tệp .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+//ExStepImage:8:images/7.png
+//ExStep:0-
+        Document document = new Document();
+        DocumentBuilder docBuilder = new DocumentBuilder(document);
+
+//ExStep:1-
+        Shape chartContainer = docBuilder.InsertChart(ChartType.Line, 500, 300);
+        Chart lineChart = chartContainer.Chart;
+
+//ExStep:2-
+        lineChart.Series.Clear();
+
+//ExStep:3-
+        string[] labels = { "Group A", "Group B", "Group C" };
+
+//ExStep:4-
+        lineChart.Series.Add("Main Data", labels, new double[] { 10, 20, 30 });
+
+//ExStep:5-
+        ChartSeriesGroup secondaryGroup = lineChart.SeriesGroups.Add(ChartSeriesType.Line);
+        secondaryGroup.AxisGroup = AxisGroup.Secondary;
+
+//ExStep:6-
+        secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Thousands;
+
+//ExStep:7-
+        secondaryGroup.AxisX.NumberFormat.FormatCode = "#,##0.0";
+
+//ExStep:8-
+        secondaryGroup.Series.Add("Auxiliary Data", labels, new double[] { 15, 25, 35 });
+
+//ExStep:9-
+        document.Save("ChartWithSecondaryAxis.docx");
+//ExEnd

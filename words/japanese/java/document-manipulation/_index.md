@@ -102,8 +102,13 @@ Aspose.Words for Java を使って、ドキュメントを簡単に結合・追�
 Aspose.Words for Javaのパワーを解き放ちましょう。ドキュメントのオプションと設定をマスターして、シームレスなドキュメント管理を実現します。最適化、カスタマイズなど、様々な機能をご利用いただけます。
 ### [Aspose.Words for Java でのドキュメント プロパティの使用](./using-document-properties/)
 Aspose.Words for Javaでドキュメント管理を最適化しましょう。この包括的なチュートリアルでは、ドキュメントプロパティの操作、カスタムメタデータの追加など、様々な方法を学習できます。
-### [Aspose.Words for Java での Web 拡張機能の使用](./using-web-extensions/)
-Aspose.Words for JavaのWeb拡張機能でドキュメントを強化しましょう。Webベースのコンテンツをシームレスに統合する方法を学びましょう。 
+### [Aspose.Words for Java の Web 拡張機能の使用](./using-web-extensions/)
+Aspose.Words for JavaのWeb拡張機能でドキュメントを強化しましょう。Webベースのコンテンツをシームレスに統合する方法を学びましょう。
+
+### [Java で PDF アクセシビリティ タグ付け – アクセシブルな PDF の生成](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Aspose.Words for Java を使用して、PDF にアクセシビリティタグを付与し、アクセシブルな PDF を生成する方法を学びます。
+### [JavaでdocxのActiveXボタンを作成する – 完全プログラミングガイド](./create-docx-activex-button-in-java-complete-programming-guid/)
+JavaでdocxにActiveXボタンを追加する完全ガイドです。ステップバイステップで実装方法を学びましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -66,13 +66,13 @@ Maven bağımlılığını `pom.xml` dosyanıza ekleyin (bu, ihtiyacınız olan 
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 Eğer Gradle'ı tercih ediyorsanız, aşağıdaki kod parçasını kullanın:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ## Lisans Edinimi
 Aspose.Words'ü tam olarak kullanabilmek için bir lisans dosyasına ihtiyacınız olacak:
@@ -84,7 +84,7 @@ Lisansı edindikten sonra, Java uygulamanızda aşağıdaki gibi başlatın:
 ```java
 License license = new License();
 license.setLicense("path/to/aspose.words.lic");
-```
+```  
 
 ## Uygulama Kılavuzu
 Uygulamamızı iki ana özelliğe ayıracağız: satır başı karakterlerinin işlenmesi ve kontrol karakterlerinin eklenmesi.
@@ -199,7 +199,15 @@ builder.write("Text at end of column 1." + ControlChar.COLUMN_BREAK + "Text at b
 
 5. **Otomatik Belge Oluşturma** – Yapılandırılmış öğeleri programatik olarak ekleyerek belge şablonlarını geliştirin.
 
-## Performans Hususları
+## Pratik uygulamalar
+**Gerçek dünya kullanım örnekleri**:
+1. **Fatura oluşturma** – satır öğelerini biçimlendirin ve çok sayfalı faturalar için kontrol karakterleri kullanarak sayfa sonlarını sağlayın.  
+2. **Rapor oluşturma** – yapılandırılmış raporlarda veri alanlarını sekme ve boşluk kontrolleriyle hizalayın.  
+3. **Çok sütunlu düzenler** – yan yana içerik bölümleri oluşturmak için sütun sonları kullanarak bülten veya broşürler hazırlayın.  
+4. **İçerik yönetim sistemleri (CMS)** – kullanıcı girdisine göre dinamik olarak metin biçimlendirmesini kontrol karakterleriyle yönetin.  
+5. **Otomatik belge oluşturma** – belge şablonlarını programlı olarak yapılandırılmış öğeler ekleyerek geliştirin.  
+
+## Performans değerlendirmeleri
 Büyük belgelerle çalışırken performansı optimize etmek için:
 - Sık sık yeniden düzenleme gibi ağır işlemleri en aza indirin.
 

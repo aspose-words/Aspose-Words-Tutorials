@@ -32,7 +32,7 @@ Door het creëren van documenten met Aspose.Words voor Python onder de knie te k
 
 ## Aspose.Words voor Python-documentcreatie-tutorials
 ### [Uitgebreide handleiding: Word-documenten maken met Python](./creating-word-documents-using-python/)
-Maak dynamische Word-documenten met Python en Aspose.Words. Automatiseer inhoud, opmaak en meer. Stroomlijn de documentgeneratie efficiënt.
+### [PDF/UA-conforme documenten maken met Aspose.Words voor Python – Volledige gids](./create-pdfua-compliant-documents-with-aspose-words-python-fu/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

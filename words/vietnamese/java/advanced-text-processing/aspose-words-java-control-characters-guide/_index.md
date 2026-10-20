@@ -59,13 +59,13 @@ Thêm phụ thuộc Maven vào `pom.xml` của bạn (đây là **aspose words m
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 Nếu bạn thích Gradle, sử dụng đoạn mã sau:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ## Nhận giấy phép
 Để tận dụng tối đa Aspose.Words, bạn sẽ cần một tệp giấy phép:
@@ -77,7 +77,7 @@ Sau khi có giấy phép, khởi tạo nó trong ứng dụng Java của bạn n
 ```java
 License license = new License();
 license.setLicense("path/to/aspose.words.lic");
-```
+```  
 
 ## Hướng dẫn triển khai
 Chúng tôi sẽ chia triển khai thành hai tính năng chính: xử lý ký tự xuống dòng và chèn các ký tự điều khiển.

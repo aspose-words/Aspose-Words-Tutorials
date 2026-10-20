@@ -60,17 +60,35 @@ Lär dig steg för steg hur du använder sidhuvuden och sidfot i Aspose.Words f�
 ### [Använda bindestreck i Aspose.Words för Java](./using-hyphenation/)
 Lär dig hur du använder bindestreck effektivt i Aspose.Words för Java med den här omfattande handledningen. Förbättra dokumentläsbarheten idag!
 ### [Använda listor i Aspose.Words för Java](./using-lists/)
-Lär dig använda listor i Aspose.Words för Java med den här steg-för-steg-handledningen. Organisera och formatera dina dokument effektivt.
+Lär dig använda lister i Aspose.Words för Java med den här steg-för-steg-handledningen. Organisera och formatera dina dokument effektivt.
 ### [Använda Markdown i Aspose.Words för Java](./using-markdown/)
 Lär dig använda Markdown i Aspose.Words för Java med den här steg-för-steg-handledningen. Skapa, formatera och spara Markdown-dokument utan ansträngning.
 ### [Använda noder i Aspose.Words för Java](./using-nodes/)
 Lär dig manipulera noder i Aspose.Words för Java med den här steg-för-steg-handledningen. Lås upp dokumentbehandlingskraften.
+### [Infoga cirkeldiagram i Word med Aspose.Words – Komplett guide](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Lär dig steg för steg hur du infogar och anpassar cirkeldiagram i Word-dokument med Aspose.Words.
 ### [Använda OLE-objekt och ActiveX-kontroller i Aspose.Words för Java](./using-ole-objects-and-activex/)
 Lär dig använda OLE-objekt och ActiveX-kontroller i Aspose.Words för Java. Skapa interaktiva dokument enkelt. Kom igång nu!
+### [Hur man infogar en ActiveX‑knapp i Word – Ställ in knappens rubrik](./how-to-insert-activex-button-in-word-set-button-caption/)
+Lär dig hur du infogar en ActiveX‑knapp i Word och anger knappens rubrik i denna steg‑för‑steg‑handledning.
 ### [Använda revisioner i Aspose.Words för Java](./using-revisions/)
 Lär dig att använda Aspose.Words för Javas revisionskontroller effektivt. Steg-för-steg-guide för utvecklare. Optimera din dokumenthantering.
 ### [Använda sektioner i Aspose.Words för Java](./using-sections/)
 Utforska Aspose.Words för Java: En omfattande guide om hur man använder sektioner. Lägg till, ta bort, lägg till och klona sektioner med kodexempel.
+### [Skapa cirkeldiagram med Aspose.Words Java – Fullständig steg‑för‑steg‑guide](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Lär dig att skapa ett cirkeldiagram i ett Word-dokument med Aspose.Words för Java i en komplett steg‑för‑steg‑guide.
+### [Ställ in knappstorlek i Word med Java – Komplett Aspose.Words-guide](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Lär dig hur du ändrar knappstorlek i Word-dokument med Java i denna kompletta Aspose.Words-guide.
+### [Lägg till Forms2OleControl i DOCX – Komplett Aspose.Words-guide](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Lär dig hur du lägger till Forms2OleControl i DOCX-filer med en komplett Aspose.Words-guide.
+### [Skapa tomt Word-dokument med en kommandoknapp – steg‑för‑steg‑guide](./create-blank-word-document-with-a-command-button-step-by-ste/)
+Lär dig hur du skapar ett tomt Word-dokument och lägger till en kommandoknapp med denna steg‑för‑steg‑guide.
+### [Hur du får separator i Aspose.Words för Java](./how-to-get-separator-in-word-docs-with-java/)
+Lär dig hur du extraherar separatorer i Word-dokument med Aspose.Words för Java i denna steg-för-steg-handledning.
+### [Hur man lägger till SDT i C# – komplett guide för Word‑platshållare](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Lär dig hur du lägger till SDT i C# för att skapa dynamiska Word‑platshållare.
+### [Skapa pajdiagram i Word med Java – steg-för-steg-guide](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Lär dig skapa ett pajdiagram i Word med Java i denna steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -19,7 +19,7 @@ Aspose.Words pour .NET prend en charge différents types de champs de formulaire
 
 
 {{< tutorial-card link="./insert-form-fields/" title="Insérer un champ de formulaire de zone de liste déroulante dans un document Word" imgSrc="./insert-form-fields/images/thumb.png" >}}
-
+{{< tutorial-card link="./create-word-document-programmatically-step-by-step-guide/" title="Créer un document Word par programme – guide étape par étape" imgSrc="./create-word-document-programmatically-step-by-step-guide/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

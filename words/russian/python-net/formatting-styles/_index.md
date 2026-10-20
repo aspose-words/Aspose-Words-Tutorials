@@ -32,7 +32,7 @@
 Научитесь создавать пользовательские, SEO-дружественные стили документов с помощью Aspose.Words для Python. Улучшайте читаемость и согласованность без усилий.
 
     ### [Dynamic Document Borders with Aspose.Words for Python&#58; A Comprehensive Guide](./aspose-words-python-dynamic-borders/)
-Узнайте, как создавать динамические границы документов с помощью Aspose.Words для Python. Освойте методы стилизации границ текста и таблиц.
+Узнайте, как создавать динамические границы документов с помощью Aspose.Words for Python. Освойте методы стилизации границ текста и таблиц.
 
     ### [Master Theme Customization in Aspose.Words for Python&#58; A Comprehensive Guide to Formatting & Styles](./aspose-words-python-theme-customization/)
 Узнайте, как настраивать темы в Aspose.Words с помощью Python. В этом руководстве рассматривается настройка цветов и шрифтов, что обеспечивает единообразие бренда во всех ваших документах.
@@ -54,6 +54,9 @@
 
     ### [Mastering Tab Stops in Python with Aspose.Words for Document Formatting](./master-tab-stops-python-aspose-words/)
 Узнайте, как эффективно управлять табуляциями в документах Python с помощью Aspose.Words. В этом руководстве рассматривается добавление, настройка и удаление табуляции с практическими примерами.
+
+    ### [Как стилизовать диаграмму в документе Word с помощью Python](./how-to-style-chart-in-a-word-document-using-python/)
+Узнайте, как применять стили к диаграммам в Word, используя Aspose.Words для Python.
 
 ## Дополнительные ресурсы
 

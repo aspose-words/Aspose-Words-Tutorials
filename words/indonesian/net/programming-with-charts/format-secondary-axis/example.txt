@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: Tutorial ini menunjukkan cara membuat dokumen Word dengan diagram garis, menambahkan sumbu X sekunder, mengatur unit tampilan menjadi ribuan, dan menerapkan format numerik khusus pada label sumbu menggunakan Aspose.Words.
+//ExStepSummary:0: Buat Document baru dan DocumentBuilder untuk mulai membangun file Word.
+//ExStepSummary:1: Sisipkan diagram garis berukuran 500×300 ke dalam dokumen dan dapatkan objek Chart.
+//ExStepSummary:2: Hapus seri demo default yang ditambahkan secara otomatis oleh Aspose.Words.
+//ExStepSummary:3: Definisikan array label kategori yang akan digunakan untuk sumbu X.
+//ExStepSummary:4: Tambahkan seri data utama bernama "Main Data" menggunakan label dan nilai.
+//ExStepSummary:5: Buat grup seri sekunder bertipe Line dan tetapkan ke grup sumbu sekunder.
+//ExStepSummary:6: Atur unit tampilan sumbu X sekunder menjadi ribuan sehingga nilai ditampilkan dalam K.
+//ExStepSummary:7: Terapkan format numerik khusus "#,##0.0" pada label tick sumbu X sekunder.
+//ExStepSummary:8: Opsional, tambahkan seri data tambahan ke grup sekunder.
+//ExStepSummary:9: Simpan dokumen ke file .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+//ExStepImage:8:images/7.png
+//ExStep:0-
+        Document document = new Document();
+        DocumentBuilder docBuilder = new DocumentBuilder(document);
+
+//ExStep:1-
+        Shape chartContainer = docBuilder.InsertChart(ChartType.Line, 500, 300);
+        Chart lineChart = chartContainer.Chart;
+
+//ExStep:2-
+        lineChart.Series.Clear();
+
+//ExStep:3-
+        string[] labels = { "Group A", "Group B", "Group C" };
+
+//ExStep:4-
+        lineChart.Series.Add("Main Data", labels, new double[] { 10, 20, 30 });
+
+//ExStep:5-
+        ChartSeriesGroup secondaryGroup = lineChart.SeriesGroups.Add(ChartSeriesType.Line);
+        secondaryGroup.AxisGroup = AxisGroup.Secondary;
+
+//ExStep:6-
+        secondaryGroup.AxisX.DisplayUnit.Unit = AxisBuiltInUnit.Thousands;
+
+//ExStep:7-
+        secondaryGroup.AxisX.NumberFormat.FormatCode = "#,##0.0";
+
+//ExStep:8-
+        secondaryGroup.Series.Add("Auxiliary Data", labels, new double[] { 15, 25, 35 });
+
+//ExStep:9-
+        document.Save("ChartWithSecondaryAxis.docx");
+//ExEnd

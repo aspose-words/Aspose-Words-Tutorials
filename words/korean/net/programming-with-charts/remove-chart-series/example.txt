@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Aspose.Words for .NET을 사용하여 이 튜토리얼은 Document를 생성하고 DocumentBuilder를 통해 열 차트를 삽입한 다음 ChartSeriesCollection.RemoveAt으로 차트에서 특정 데이터 시리즈를 제거하고 수정된 문서를 저장합니다.
+//ExStepSummary:0: 새 Word Document를 만들고 해당 Document에 연결된 DocumentBuilder를 생성합니다.
+//ExStepSummary:1: 크기 432×252 포인트인 열 차트를 삽입하고 추가 조작을 위해 Chart 객체를 가져옵니다.
+//ExStepSummary:2: 제거할 시리즈의 0부터 시작하는 인덱스를 정의합니다(두 번째 시리즈).
+//ExStepSummary:3: 인덱스가 유효하면 차트의 Series 컬렉션에서 RemoveAt을 호출하여 해당 시리즈를 삭제합니다.
+//ExStepSummary:4: 업데이트된 문서를 .docx 파일로 저장합니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+int targetSeriesIdx = 1;
+
+//ExStep:3-
+if (targetSeriesIdx >= 0 && targetSeriesIdx < columnChart.Series.Count)
+{
+    columnChart.Series.RemoveAt(targetSeriesIdx);
+}
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutSeries.docx");
+//ExEnd
