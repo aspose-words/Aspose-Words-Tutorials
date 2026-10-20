@@ -55,9 +55,6 @@ Hướng dẫn chi tiết cách nhúng hình ảnh trong quá trình chuyển DO
 ### [Cách chèn hình ảnh vào Markdown từ DOCX – Hướng dẫn đầy đủ](./how-to-embed-images-in-markdown-from-docx-full-guide/)
 Hướng dẫn chi tiết cách nhúng hình ảnh khi chuyển đổi tài liệu DOCX sang Markdown bằng Aspose.Words cho Python.
 
-### [Cách xuất LaTeX từ Word – Chuyển DOCX sang Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
-Hướng dẫn chi tiết cách xuất LaTeX từ tài liệu Word và chuyển đổi DOCX sang định dạng Markdown bằng Aspose.Words cho Python.
-
 ### [Tạo PDF từ Word – Hướng dẫn Python đầy đủ](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang PDF bằng Aspose.Words cho Python, bao gồm các tùy chọn và ví dụ thực tế.
 
@@ -154,6 +151,9 @@ Hướng dẫn chi tiết cách lưu tài liệu dưới dạng PDF bằng Aspos
 
 ### [Chuyển đổi DOCX sang PDF với Aspose.Words – Hướng dẫn](./convert-docx-to-pdf-with-aspose-words-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang PDF nhanh chóng và chính xác bằng Aspose.Words for Python.
+
+### [Cách xuất LaTeX từ Word – Chuyển DOCX sang Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+Hướng dẫn chi tiết cách xuất LaTeX từ tài liệu Word và chuyển đổi DOCX sang Markdown bằng Aspose.Words for Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

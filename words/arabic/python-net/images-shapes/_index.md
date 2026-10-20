@@ -50,6 +50,8 @@
 تعلم كيفية إنشاء مستند Word وإضافة ظل إلى الأشكال باستخدام Aspose.Words لبايثون.
 ### [إضافة ظل إلى الشكل في Python – دليل Aspose.Words الكامل](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
 تعلم كيفية إضافة تأثير الظل إلى الأشكال في مستندات Word باستخدام Aspose.Words لـ Python خطوة بخطوة.
+### [كيفية تعيين الظل في Aspose.Words – مثال Python](./how-to-set-shadow-in-aspose-words-python-example/)
+تعلم كيفية إضافة تأثير الظل إلى المستندات باستخدام Aspose.Words في Python.
 
 ## موارد إضافية
 

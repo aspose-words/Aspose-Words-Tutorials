@@ -59,6 +59,8 @@ Lär dig hur du skapar och anpassar en rektangel i Word-dokument med Aspose.Word
 Lär dig steg för steg hur du infogar en rektangelform i ett Word-dokument med Python och Aspose.Words.
 ### [Lägg till skugga på form i Word med Python – Komplett guide](./add-shadow-to-shape-in-word-with-python-complete-guide/)
 Lär dig steg för steg hur du applicerar skugga på former i Word-dokument med Python och Aspose.Words.
+### [Hur man ställer in skugga i Aspose.Words – Python-exempel](./how-to-set-shadow-in-aspose-words-python-example/)
+Lär dig hur du applicerar skugga på objekt i Word-dokument med Python och Aspose.Words.
 
 ## Ytterligare resurser
 

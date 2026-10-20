@@ -60,6 +60,8 @@ Python을 사용해 Word 문서에 사각형 모양을 삽입하고 속성을 �
 Python용 Aspose.Words를 사용해 Word 문서에 사각형 모양을 삽입하고 속성을 설정하는 방법을 단계별로 안내합니다.
 ### [Python을 사용하여 Word에서 도형에 그림자 추가 – 완전 가이드](./add-shadow-to-shape-in-word-with-python-complete-guide/)
 Python을 사용해 Word 문서의 도형에 그림자를 적용하는 방법을 단계별로 안내합니다.
+### [Aspose.Words에서 그림자 설정하기 – Python 예제](./how-to-set-shadow-in-aspose-words-python-example/)
+Aspose.Words를 사용해 Python에서 문서에 그림자를 적용하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 
