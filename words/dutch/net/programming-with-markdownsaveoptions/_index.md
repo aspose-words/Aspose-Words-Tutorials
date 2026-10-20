@@ -234,9 +234,6 @@ Leer hoe u DOCX-bestanden opslaat als Markdown met Aspose.Words in een volledige
 Leer hoe u lege alinea's behoudt bij het opslaan van een DOCX als Markdown met een volledige C#‑handleiding.
 ### [Maak markdown van Word met Aspose.Words – Volledige C#‑gids](./create-markdown-from-word-with-aspose-words-full-c-guide/)
 ### [Hoe Aspose te gebruiken om DOCX naar Markdown te converteren met wiskunde‑export](./how-to-use-aspose-to-convert-docx-to-markdown-with-math-expo/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 Leer hoe u met Aspose.Words markdown genereert vanuit Word met een volledige C#‑handleiding.
 
 ### [Hoe links exporteren: DOCX naar Markdown in C#](./how-to-export-links-convert-docx-to-markdown-in-c/)
