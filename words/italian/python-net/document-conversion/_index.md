@@ -214,6 +214,8 @@ Scopri come convertire file DOCX in TXT usando Aspose.Words per Python in pochi 
 
 ### [Come creare un PDF accessibile da un documento Word usando Python](./how-to-create-an-accessible-pdf-from-a-word-document-using-p/)
 Scopri come generare PDF accessibili da documenti Word con Aspose.Words per Python in pochi passaggi.
+### [Converti docx in markdown ed esporta in PDF con Aspose.Words](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
+Scopri come trasformare file DOCX in Markdown e generarne il PDF usando Aspose.Words per Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

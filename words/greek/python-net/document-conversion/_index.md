@@ -168,6 +168,8 @@
 Μάθετε πώς να αποθηκεύσετε αρχεία docx ως txt χρησιμοποιώντας Aspose.Words για Python.
 ### [Πώς να δημιουργήσετε προσβάσιμο PDF από έγγραφο Word χρησιμοποιώντας Python](./how-to-create-an-accessible-pdf-from-a-word-document-using-p/)
 Μάθετε πώς να μετατρέψετε ένα έγγραφο Word σε προσβάσιμο PDF με το Aspose.Words για Python.
+### [Μετατροπή docx σε markdown και εξαγωγή σε PDF με το Aspose.Words](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
+Μάθετε πώς να μετατρέψετε αρχεία docx σε markdown και να τα εξάγετε ως PDF χρησιμοποιώντας το Aspose.Words για Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

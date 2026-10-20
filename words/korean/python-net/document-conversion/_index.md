@@ -221,6 +221,9 @@ Aspose.Words for Python을 이용해 docx 파일을 텍스트 파일로 변환�
 
 ### [Python으로 Word 문서에서 접근성 PDF 만들기](./how-to-create-an-accessible-pdf-from-a-word-document-using-p/)
 
+### [Aspose.Words를 사용하여 docx를 markdown으로 변환하고 PDF로 내보내기](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
+docx 파일을 markdown으로 변환한 뒤 PDF로 내보내는 방법을 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

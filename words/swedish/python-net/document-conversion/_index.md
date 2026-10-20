@@ -165,6 +165,8 @@ Lär dig hur du konverterar DOCX-filer till PDF med Aspose.Words för Python. St
 Lär dig hur du konverterar DOCX-filer till ren text (TXT) med Aspose.Words för Python. Steg‑för‑steg‑instruktioner och kodexempel.
 ### [Hur man skapar en tillgänglig PDF från ett Word-dokument med Python](./how-to-create-an-accessible-pdf-from-a-word-document-using-p/)
 Lär dig hur du konverterar ett Word-dokument till en tillgänglig PDF med Aspose.Words för Python, med stöd för taggar och läsbarhet.
+### [Konvertera docx till markdown och exportera till PDF med Aspose.Words](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
+Lär dig konvertera docx-filer till markdown och sedan exportera dem som PDF med Aspose.Words för Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

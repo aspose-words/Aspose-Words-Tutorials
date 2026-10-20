@@ -215,6 +215,8 @@ Aspose.Words を使い、Python で docx ファイルをテキスト形式に変
 
 ### [Python を使用して Word 文書からアクセシブルな PDF を作成する方法](./how-to-create-an-accessible-pdf-from-a-word-document-using-p/)
 Word 文書をアクセシブルな PDF に変換し、PDF/UA 準拠を実現する手順を解説します。
+### [docx を Markdown に変換し、PDF にエクスポートする方法（Aspose.Words 使用）](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
+docx を Markdown に変換し、さらに PDF にエクスポートする手順を Aspose.Words で解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

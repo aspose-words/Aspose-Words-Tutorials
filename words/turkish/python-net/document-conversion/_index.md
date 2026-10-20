@@ -211,6 +211,8 @@ Aspose.Words for Python ile docx dosyalarını txt formatına dönüştürmeyi a
 
 ### [Python ile bir Word belgesinden erişilebilir PDF oluşturma](./how-to-create-an-accessible-pdf-from-a-word-document-using-p/)
 Aspose.Words for Python kullanarak Word belgelerinden erişilebilir PDF dosyaları oluşturmayı öğrenin.
+### [DOCX'i Markdown'a Dönüştür ve PDF Olarak Dışa Aktar Aspose.Words ile](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
+Aspose.Words for Python ile DOCX dosyalarını Markdown'a dönüştürüp PDF olarak dışa aktarın.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

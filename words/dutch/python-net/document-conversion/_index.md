@@ -213,6 +213,8 @@ Leer hoe je met Aspose.Words voor Python een toegankelijke PDF genereert vanuit 
 
 ### [Hoe docx op te slaan als txt met Aspose.Words in Python](./how-to-save-docx-as-txt-with-aspose-words-for-python/)
 Leer hoe je docx-bestanden opslaat als txt-bestanden met Aspose.Words voor Python.
+### [Docx converteren naar markdown en exporteren naar PDF met Aspose.Words](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
+Leer hoe je docx-bestanden naar markdown converteert en vervolgens als PDF exporteert met Aspose.Words voor Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -210,6 +210,8 @@ Aspose.Words का उपयोग करके पायथन में docx 
 
 ### [Python का उपयोग करके Word दस्तावेज़ से एक सुलभ PDF कैसे बनाएं](./how-to-create-an-accessible-pdf-from-a-word-document-using-p/)
 Python और Aspose.Words का उपयोग करके Word फ़ाइल से सुलभ PDF बनाने के चरण।
+### [Aspose.Words के साथ docx को markdown में बदलें और PDF निर्यात करें](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
+Aspose.Words के साथ docx को markdown में बदलें और PDF के रूप में निर्यात करें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

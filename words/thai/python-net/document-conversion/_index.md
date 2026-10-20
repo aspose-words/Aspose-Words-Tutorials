@@ -227,6 +227,9 @@
 ### [วิธีสร้าง PDF ที่เข้าถึงได้จากเอกสาร Word ด้วย Python](./how-to-create-an-accessible-pdf-from-a-word-document-using-p/)
 เรียนรู้วิธีสร้างไฟล์ PDF ที่เป็นมิตรกับผู้ใช้ที่ต้องการการเข้าถึงจากเอกสาร Word ด้วย Aspose.Words for Python
 
+### [แปลง docx เป็น markdown และส่งออกเป็น PDF ด้วย Aspose.Words](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
+เรียนรู้วิธีแปลงไฟล์ docx ไปเป็น markdown แล้วส่งออกเป็น PDF อย่างง่ายดายด้วย Aspose.Words for Python
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

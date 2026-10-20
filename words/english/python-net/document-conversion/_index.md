@@ -168,6 +168,8 @@ Learn how to save DOCX files as PDF using Aspose.Words for Python in this step-b
 Learn how to convert DOCX files to plain text (TXT) using Aspose.Words for Python in this step-by-step guide.
 ### [How to create an accessible PDF from a Word document using Python](./how-to-create-an-accessible-pdf-from-a-word-document-using-p/)
 Learn how to generate an accessible PDF from a Word document using Aspose.Words for Python, preserving accessibility features.
+### [Convert docx to markdown and export to PDF with Aspose.Words](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
+Learn how to convert a DOCX file to Markdown and then export it as PDF using Aspose.Words for Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

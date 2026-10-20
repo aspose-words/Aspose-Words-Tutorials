@@ -162,6 +162,8 @@
 تعلم كيفية تحويل ملفات docx إلى نص عادي (txt) بسهولة باستخدام Aspose.Words لبايثون.
 ### [كيفية إنشاء PDF يمكن الوصول إليه من مستند Word باستخدام بايثون](./how-to-create-an-accessible-pdf-from-a-word-document-using-p/)
 تعلم كيفية تحويل مستند Word إلى PDF مع تحسين إمكانية الوصول باستخدام Aspose.Words لبايثون.
+### [تحويل docx إلى markdown وتصديره إلى PDF باستخدام Aspose.Words](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
+تعلم تحويل ملفات docx إلى markdown ثم تصديرها كملف PDF باستخدام Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

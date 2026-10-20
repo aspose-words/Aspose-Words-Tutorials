@@ -216,6 +216,8 @@ Aprenda a convertir archivos DOCX a texto plano (TXT) usando Aspose.Words para P
 
 ### [Cómo crear un PDF accesible a partir de un documento Word usando Python](./how-to-create-an-accessible-pdf-from-a-word-document-using-p/)
 Aprenda a generar PDFs accesibles desde documentos Word con Aspose.Words para Python, cumpliendo normas de accesibilidad.
+### [Convertir docx a markdown y exportar a PDF con Aspose.Words](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
+Aprenda a convertir archivos DOCX a Markdown y luego exportarlos a PDF usando Aspose.Words para Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

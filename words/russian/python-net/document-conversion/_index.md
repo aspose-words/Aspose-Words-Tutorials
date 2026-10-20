@@ -163,6 +163,8 @@
 Узнайте, как с помощью Aspose.Words для Python преобразовать файлы docx в текстовый формат txt.
 ### [Как создать доступный PDF из документа Word с помощью Python](./how-to-create-an-accessible-pdf-from-a-word-document-using-p/)
 Узнайте, как с помощью Aspose.Words для Python создать PDF с поддержкой доступности из документа Word.
+### [Конвертировать DOCX в Markdown и экспортировать в PDF с Aspose.Words](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
+Узнайте, как конвертировать DOCX в Markdown и затем экспортировать в PDF с помощью Aspose.Words для Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

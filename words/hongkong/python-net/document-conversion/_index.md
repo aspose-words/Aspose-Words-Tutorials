@@ -235,6 +235,9 @@
 ### [如何使用 Python 從 Word 文件建立可存取的 PDF](./how-to-create-an-accessible-pdf-from-a-word-document-using-p/)
 學習使用 Aspose.Words for Python 將 Word 文件轉換為符合可存取標準的 PDF，提升文件可讀性與合規性。
 
+### [將 docx 轉換為 markdown 並匯出為 PDF（使用 Aspose.Words）](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
+學習使用 Aspose.Words for Python 將 docx 轉換為 markdown，並匯出為 PDF 的完整步驟。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

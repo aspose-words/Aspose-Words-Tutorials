@@ -167,6 +167,8 @@ Pelajari cara mengonversi file DOCX menjadi PDF menggunakan Aspose.Words untuk P
 Pelajari cara mengonversi file DOCX menjadi file TXT menggunakan Aspose.Words untuk Python dengan mudah.
 ### [Cara Membuat PDF Aksesibel dari Dokumen Word menggunakan Python](./how-to-create-an-accessible-pdf-from-a-word-document-using-p/)
 Pelajari cara mengonversi dokumen Word menjadi PDF yang memenuhi standar aksesibilitas menggunakan Aspose.Words untuk Python.
+### [Konversi docx ke markdown dan ekspor ke PDF dengan Aspose.Words](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
+Pelajari cara mengonversi file docx menjadi markdown dan mengekspornya ke PDF menggunakan Aspose.Words untuk Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -211,6 +211,8 @@
 
 ### [如何使用 Aspose.Words for Python 将 Word 文档转换为可访问的 PDF](./how-to-create-an-accessible-pdf-from-a-word-document-using-p/)
 学习使用 Aspose.Words for Python 将 Word 文档转换为可访问的 PDF，满足无障碍需求。
+### [将 docx 转换为 markdown 并导出为 PDF（使用 Aspose.Words）](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
+学习使用 Aspose.Words for Python 将 docx 文件转换为 markdown 并导出为 PDF，实现文档多格式转换。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

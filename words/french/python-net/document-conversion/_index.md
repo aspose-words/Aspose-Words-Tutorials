@@ -168,6 +168,8 @@ Apprenez à convertir et enregistrer des fichiers DOCX au format PDF en utilisan
 Apprenez à convertir et enregistrer des fichiers DOCX au format TXT en utilisant Aspose.Words pour Python.
 ### [Comment créer un PDF accessible à partir d'un document Word avec Python](./how-to-create-an-accessible-pdf-from-a-word-document-using-p/)
 Apprenez à générer un PDF accessible depuis un document Word en utilisant Aspose.Words pour Python.
+### [Convertir un docx en markdown et exporter en PDF avec Aspose.Words](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
+Apprenez à convertir un fichier DOCX en Markdown puis à l'exporter en PDF avec Aspose.Words pour Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

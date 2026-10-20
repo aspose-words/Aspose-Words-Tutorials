@@ -208,6 +208,8 @@ Dowiedz się, jak przy użyciu Aspose.Words dla Pythona zapisać plik docx jako 
 
 ### [Jak utworzyć dostępny PDF z dokumentu Word przy użyciu Pythona](./how-to-create-an-accessible-pdf-from-a-word-document-using-p/)
 Dowiedz się, jak przy pomocy Aspose.Words for Python wygenerować PDF spełniający standardy dostępności z dokumentu Word.
+### [Konwertuj docx do markdown i wyeksportuj do PDF przy użyciu Aspose.Words](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
+Dowiedz się, jak przekształcić plik DOCX na Markdown, a następnie wygenerować PDF przy pomocy Aspose.Words w Pythonie.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

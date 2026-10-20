@@ -225,6 +225,9 @@ Hướng dẫn chi tiết cách lưu tệp DOCX thành định dạng TXT bằng
 ### [Cách tạo PDF có khả năng truy cập từ tài liệu Word bằng Python](./how-to-create-an-accessible-pdf-from-a-word-document-using-p/)
 Hướng dẫn chi tiết cách tạo PDF đáp ứng tiêu chuẩn truy cập từ tài liệu Word bằng Aspose.Words cho Python.
 
+### [Chuyển đổi docx sang markdown và xuất ra PDF với Aspose.Words](./convert-docx-to-markdown-and-export-to-pdf-with-aspose-words/)
+Hướng dẫn chi tiết cách chuyển đổi tệp docx sang markdown và xuất thành PDF bằng Aspose.Words cho Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
