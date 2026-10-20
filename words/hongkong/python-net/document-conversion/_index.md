@@ -211,6 +211,12 @@
 ### [如何使用 Aspose.Words 在 Python 中將 Markdown 轉換為 DOCX](./how-to-convert-markdown-to-docx-with-aspose-words-in-python/)
 學習使用 Aspose.Words for Python 將 Markdown 文件轉換為 DOCX 的完整步驟。
 
+### [如何使用 Aspose Words 將 Word 保存為 PDF – 完整步驟指南](./how-to-save-word-as-pdf-with-aspose-words-step-by-step-guide/)
+學習使用 Aspose.Words for Python 將 Word 文件保存為 PDF 的完整步驟指南。
+
+### [將 docx 轉換為 txt 並將 Word 方程式匯出為 LaTeX](./convert-docx-to-txt-and-export-word-equations-to-latex/)
+學習使用 Aspose.Words for Python 將 docx 轉換為 txt，並將 Word 方程式匯出為 LaTeX。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

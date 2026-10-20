@@ -147,6 +147,10 @@
 Узнайте, как сохранять документы Word в формате markdown с поддержкой таблиц, используя Aspose.Words для Python.
 ### [Как конвертировать markdown в docx с помощью Aspose.Words в Python](./how-to-convert-markdown-to-docx-with-aspose-words-in-python/)
 Узнайте, как преобразовать файлы markdown в документы Word (docx) с помощью Aspose.Words для Python.
+### [Как сохранить Word как PDF с Aspose Words – пошаговое руководство](./how-to-save-word-as-pdf-with-aspose-words-step-by-step-guide/)
+Узнайте, как с помощью Aspose.Words для Python сохранять документы Word в формате PDF шаг за шагом.
+### [Конвертация docx в txt и экспорт уравнений Word в LaTeX](./convert-docx-to-txt-and-export-word-equations-to-latex/)
+Узнайте, как преобразовать файлы docx в txt и экспортировать уравнения Word в формат LaTeX с помощью Aspose.Words для Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

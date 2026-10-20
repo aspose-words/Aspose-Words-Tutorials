@@ -147,6 +147,10 @@
 تعلم كيفية تحويل ملفات Markdown إلى مستندات DOCX باستخدام Aspose.Words في بايثون بسهولة.
 ### [حفظ المستند كصورة: تحويل DOCX إلى PNG في بايثون](./save-document-as-image-convert-docx-to-png-in-python/)
 تعلم كيفية تحويل ملفات DOCX إلى صور PNG باستخدام Aspose.Words لبايثون بسهولة.
+### [كيفية حفظ مستند Word كملف PDF باستخدام Aspose Words – دليل خطوة بخطوة](./how-to-save-word-as-pdf-with-aspose-words-step-by-step-guide/)
+تعلم كيفية حفظ مستندات Word كملفات PDF باستخدام Aspose Words خطوة بخطوة.
+### [تحويل docx إلى txt وتصدير معادلات Word إلى LaTeX](./convert-docx-to-txt-and-export-word-equations-to-latex/)
+تعلم كيفية تحويل ملفات docx إلى txt وتصدير معادلات Word إلى صيغة LaTeX باستخدام Aspose.Words لبايثون.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -205,6 +205,10 @@
 ### [วิธีแปลง Markdown เป็น DOCX ด้วย Aspose.Words ใน Python](./how-to-convert-markdown-to-docx-with-aspose-words-in-python/)
 เรียนรู้วิธีแปลงไฟล์ Markdown ไปเป็น DOCX อย่างง่ายดายด้วย Aspose.Words for Python
 
+### [วิธีบันทึก Word เป็น PDF ด้วย Aspose Words – คู่มือขั้นตอนโดยละเอียด](./how-to-save-word-as-pdf-with-aspose-words-step-by-step-guide/)
+
+### [แปลง docx เป็น txt และส่งออกสมการ Word ไปยัง LaTeX](./convert-docx-to-txt-and-export-word-equations-to-latex/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -150,6 +150,10 @@ Naučte se převést soubory Markdown do formátu DOCX pomocí Aspose.Words pro 
 Naučte se převést soubory DOCX na obrázky PNG pomocí Aspose.Words pro Python.
 ### [Jak uložit Word jako markdown s podporou tabulek pomocí Aspose.Words](./how-to-save-word-as-markdown-with-table-support-using-aspose/)
 Naučte se uložit dokument Word jako Markdown se zachováním tabulek pomocí Aspose.Words pro Python.
+### [Jak uložit Word jako PDF pomocí Aspose Words – krok za krokem](./how-to-save-word-as-pdf-with-aspose-words-step-by-step-guide/)
+Naučte se uložit dokument Word jako PDF pomocí Aspose Words v Pythonu.
+### [Převod docx na txt a export rovnic Word do LaTeXu](./convert-docx-to-txt-and-export-word-equations-to-latex/)
+Naučte se převádět soubory DOCX na TXT a exportovat rovnice Word do LaTeXu pomocí Aspose.Words pro Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

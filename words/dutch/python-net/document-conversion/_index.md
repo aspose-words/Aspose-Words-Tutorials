@@ -193,6 +193,11 @@ Leer hoe je Word-documenten als markdown met tabelondersteuning kunt opslaan met
 
 ### [Hoe markdown te converteren naar docx met Aspose.Words in Python](./how-to-convert-markdown-to-docx-with-aspose-words-in-python/)
 Leer hoe je met Aspose.Words voor Python markdown-bestanden kunt omzetten naar docx.
+### [Hoe Word als PDF op te slaan met Aspose Words – stap‑voor‑stap gids](./how-to-save-word-as-pdf-with-aspose-words-step-by-step-guide/)
+Leer hoe je met Aspose.Words voor Python Word-documenten naar PDF kunt converteren in een eenvoudige stap‑voor‑stap handleiding.
+
+### [Docx naar txt converteren en Word‑vergelijkingen exporteren naar LaTeX](./convert-docx-to-txt-and-export-word-equations-to-latex/)
+Leer hoe je docx-bestanden naar txt converteert en Word‑vergelijkingen exporteert naar LaTeX met Aspose.Words voor Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

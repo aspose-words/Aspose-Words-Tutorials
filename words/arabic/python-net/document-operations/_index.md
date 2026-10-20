@@ -85,6 +85,8 @@
 تعلم كيفية استعادة ملفات DOCX التالفة باستخدام Aspose.Words للغة بايثون خطوة بخطوة.
 ### [كيفية استعادة ملف DOCX في بايثون باستخدام Aspose.Words](./how-to-recover-docx-in-python-using-aspose-words/)
 تعلم كيفية استعادة ملفات DOCX التالفة باستخدام Aspose.Words في بايثون.
+### [كيفية استعادة مستند Word تالف وحفظ ملف Word المستعاد باستخدام Aspose.Words](./how-to-recover-corrupted-word-document-and-save-recovered-wo/)
+تعلم كيفية استعادة مستند Word تالف وحفظ النسخة المستعادة باستخدام Aspose.Words للغة بايثون.
 
 ## موارد إضافية
 

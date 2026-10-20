@@ -152,6 +152,10 @@
 Μάθετε πώς να μετατρέψετε αρχεία DOCX σε εικόνες PNG χρησιμοποιώντας το Aspose.Words για Python.
 ### [Πώς να μετατρέψετε markdown σε docx με το Aspose.Words σε Python](./how-to-convert-markdown-to-docx-with-aspose-words-in-python/)
 Μάθετε πώς να μετατρέψετε αρχεία markdown σε docx χρησιμοποιώντας το Aspose.Words για Python.
+### [Πώς να αποθηκεύσετε το Word ως PDF με το Aspose Words – οδηγός βήμα‑βήμα](./how-to-save-word-as-pdf-with-aspose-words-step-by-step-guide/)
+Μάθετε πώς να αποθηκεύσετε έγγραφα Word ως PDF χρησιμοποιώντας το Aspose.Words για Python, με αναλυτικές οδηγίες βήμα‑βήμα.
+### [Μετατροπή docx σε txt και εξαγωγή εξισώσεων Word σε LaTeX](./convert-docx-to-txt-and-export-word-equations-to-latex/)
+Μάθετε πώς να μετατρέψετε αρχεία docx σε txt και να εξάγετε εξισώσεις Word σε LaTeX με το Aspose.Words για Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

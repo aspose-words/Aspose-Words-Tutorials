@@ -85,6 +85,8 @@ Aprenda a restaurar archivos DOCX dañados o corruptos usando Aspose.Words para 
 Aprenda a recuperar archivos DOCX dañados en Python usando Aspose.Words paso a paso.
 ### [Cómo recuperar docx en Python usando Aspose.Words](./how-to-recover-docx-in-python-using-aspose-words/)
 Aprenda a recuperar archivos DOCX dañados con Aspose.Words en Python.
+### [Cómo recuperar un documento de Word corrupto y guardar el archivo recuperado con Aspose.Words](./how-to-recover-corrupted-word-document-and-save-recovered-wo/)
+Aprenda a abrir, reparar y guardar documentos de Word dañados usando Aspose.Words para Python-net.
 
 ## Recursos adicionales
 

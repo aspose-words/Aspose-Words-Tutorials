@@ -190,6 +190,11 @@ Python में Aspose.Words का उपयोग करके DOCX फ़ा
 
 ### [मार्कडाउन को docx में Aspose.Words के साथ पायथन में कैसे बदलें](./how-to-convert-markdown-to-docx-with-aspose-words-in-python/)
 मार्कडाउन फ़ाइल को docx में बदलने के लिए पायथन कोड और चरण-दर-चरण मार्गदर्शन।
+### [Aspose Words के साथ Word को PDF के रूप में सहेजें – चरण‑दर‑चरण गाइड](./how-to-save-word-as-pdf-with-aspose-words-step-by-step-guide/)
+Aspose Words का उपयोग करके Word फ़ाइल को PDF में बदलने के चरण‑दर‑चरण मार्गदर्शन।
+
+### [docx को txt में बदलें और Word समीकरणों को LaTeX में निर्यात करें](./convert-docx-to-txt-and-export-word-equations-to-latex/)
+docx फ़ाइल को साधारण txt में परिवर्तित करें और Word समीकरणों को LaTeX कोड में निर्यात करें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

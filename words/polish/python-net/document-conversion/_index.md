@@ -190,6 +190,9 @@ Dowiedz się, jak przy użyciu Aspose.Words dla Pythona zapisać dokument DOCX j
 
 ### [Jak zapisać dokument Word jako markdown z obsługą tabel przy użyciu Aspose.Words](./how-to-save-word-as-markdown-with-table-support-using-aspose/)
 Dowiedz się, jak przy użyciu Aspose.Words zapisać dokument Word jako plik markdown, zachowując formatowanie tabel.
+### [Jak zapisać dokument Word jako PDF przy użyciu Aspose Words – przewodnik krok po kroku](./how-to-save-word-as-pdf-with-aspose-words-step-by-step-guide/)
+
+### [Konwertuj docx na txt i eksportuj równania Word do LaTeX](./convert-docx-to-txt-and-export-word-equations-to-latex/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -150,6 +150,10 @@ Tanulja meg, hogyan konvertálhatja a DOCX fájlokat PDF formátumba Pythonban a
 Tanulja meg, hogyan menthet dokumentumot képként, a DOCX fájlokat PNG formátumba konvertálva Pythonban.
 ### [Hogyan konvertálja a markdownot docx-be az Aspose.Words segítségével Pythonban](./how-to-convert-markdown-to-docx-with-aspose-words-in-python/)
 Ismerje meg, hogyan konvertálhat markdown fájlokat docx formátumba Pythonban az Aspose.Words használatával.
+### [Hogyan mentse a Word dokumentumot PDF-be az Aspose Words segítségével – lépésről‑lépésre útmutató](./how-to-save-word-as-pdf-with-aspose-words-step-by-step-guide/)
+Ismerje meg, hogyan menthet Word dokumentumot PDF formátumba az Aspose Words használatával.
+### [DOCX konvertálása TXT-be és a Word egyenletek exportálása LaTeX-be](./convert-docx-to-txt-and-export-word-equations-to-latex/)
+Tanulja meg, hogyan konvertálja a DOCX fájlokat TXT formátumba, és exportálja a Word egyenleteket LaTeX kódra.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

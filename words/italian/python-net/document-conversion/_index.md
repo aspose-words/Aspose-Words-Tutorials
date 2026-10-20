@@ -194,6 +194,11 @@ Scopri come convertire file DOCX in immagini PNG con Aspose.Words per Python.
 
 ### [Come convertire markdown in docx con Aspose.Words in Python](./how-to-convert-markdown-to-docx-with-aspose-words-in-python/)
 Scopri come trasformare file Markdown in documenti DOCX usando Aspose.Words per Python.
+### [Come salvare Word come PDF con Aspose Words – guida passo‑passo](./how-to-save-word-as-pdf-with-aspose-words-step-by-step-guide/)
+Scopri come esportare documenti Word in PDF usando Aspose.Words per Python con istruzioni dettagliate passo‑step.
+
+### [Converti docx in txt ed esporta le equazioni Word in LaTeX](./convert-docx-to-txt-and-export-word-equations-to-latex/)
+Impara a convertire file DOCX in TXT ed esportare le equazioni Word in LaTeX con Aspose.Words per Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

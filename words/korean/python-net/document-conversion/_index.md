@@ -200,6 +200,12 @@ Aspose.Words를 활용해 표가 포함된 Word 문서를 Markdown 형식으로 
 ### [Aspose.Words를 사용하여 Python에서 마크다운을 DOCX로 변환하는 방법](./how-to-convert-markdown-to-docx-with-aspose-words-in-python/)
 Aspose.Words를 활용해 마크다운 파일을 DOCX 형식으로 변환하는 단계별 가이드를 제공합니다!
 
+### [Aspose Words로 Word를 PDF로 저장하기 – 단계별 가이드](./how-to-save-word-as-pdf-with-aspose-words-step-by-step-guide/)
+Aspose Words를 사용하여 Word 문서를 PDF로 저장하는 방법을 단계별로 안내합니다.
+
+### [DOCX를 TXT로 변환하고 Word 수식을 LaTeX로 내보내기](./convert-docx-to-txt-and-export-word-equations-to-latex/)
+DOCX 파일을 텍스트로 변환하고 Word 수식을 LaTeX 형식으로 내보내는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

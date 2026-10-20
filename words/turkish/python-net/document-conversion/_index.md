@@ -191,6 +191,11 @@ Aspose.Words kullanarak Word belgelerini tablo desteğiyle markdown dosyasına n
 
 ### [Markdown'ı docx'e Aspose.Words ile Python'da Dönüştürme](./how-to-convert-markdown-to-docx-with-aspose-words-in-python/)
 Aspose.Words for Python kullanarak Markdown dosyalarını DOCX formatına nasıl dönüştüreceğinizi öğrenin.
+### [Word'ü PDF Olarak Kaydetme – Aspose Words ile Adım Adım Kılavuz](./how-to-save-word-as-pdf-with-aspose-words-step-by-step-guide/)
+Aspose.Words for Python kullanarak Word belgelerini PDF olarak kaydetmeyi adım adım öğrenin.
+
+### [Docx'i Txt'ye Dönüştür ve Word Denklemlerini LaTeX'e Aktar](./convert-docx-to-txt-and-export-word-equations-to-latex/)
+Aspose.Words for Python kullanarak docx dosyalarını txt'ye dönüştürün ve Word denklemlerini LaTeX formatına aktarın.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

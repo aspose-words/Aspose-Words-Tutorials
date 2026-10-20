@@ -194,6 +194,11 @@ Aprenda a exportar contenido Markdown desde documentos Word con Aspose.Words par
 
 ### [Cómo guardar Word como markdown con soporte de tablas usando Aspose.Words](./how-to-save-word-as-markdown-with-table-support-using-aspose/)
 Aprenda a guardar documentos Word como archivos Markdown con soporte de tablas usando Aspose.Words para Python.
+### [Cómo guardar Word como PDF con Aspose Words – guía paso a paso](./how-to-save-word-as-pdf-with-aspose-words-step-by-step-guide/)
+Aprenda a guardar documentos de Word como PDF usando Aspose.Words para Python. Guía paso a paso con ejemplos de código.
+
+### [Convertir docx a txt y exportar ecuaciones de Word a LaTeX](./convert-docx-to-txt-and-export-word-equations-to-latex/)
+Aprenda a convertir archivos DOCX a TXT y exportar ecuaciones de Word a LaTeX usando Aspose.Words para Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
