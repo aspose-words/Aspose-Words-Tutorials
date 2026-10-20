@@ -67,6 +67,9 @@ Ein umfassendes Tutorial, das zeigt, wie man in Aspose.Words für Java ein Recht
 ### [Wie man eine Gruppenform in Java einfügt – Komplettanleitung](./how-to-insert-group-shape-in-java-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java Gruppenformen hinzufügen und anpassen, um komplexe Dokumentlayouts zu erstellen.
 
+### [Leeres Word-Dokument mit gruppierten Rechtecken – C#-Leitfaden](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Ein Codebeispiel, das zeigt, wie man in Aspose.Words für C# ein leeres Word-Dokument erstellt und gruppierte Rechtecke hinzufügt.
+
 ## Weitere Ressourcen
 
 ## Weitere Ressourcen

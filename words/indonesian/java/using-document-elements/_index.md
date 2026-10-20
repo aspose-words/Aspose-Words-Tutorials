@@ -75,6 +75,8 @@ Jelajahi Aspose.Words untuk Java: Panduan lengkap tentang penggunaan bagian. Tam
 Pelajari cara mengatur ukuran tombol di dokumen Word menggunakan Aspose.Words untuk Java dalam panduan lengkap ini.
 ### [Membuat Diagram Lingkaran dengan Aspose.Words Java – Panduan Lengkap Langkah demi Langkah](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
 Pelajari cara membuat diagram lingkaran menggunakan Aspose.Words untuk Java dengan panduan langkah demi langkah yang lengkap.
+### [Menambahkan Forms2OleControl ke DOCX – Panduan Lengkap Aspose.Words](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Pelajari cara menambahkan kontrol Forms2OleControl ke file DOCX menggunakan Aspose.Words untuk Java dalam panduan langkah demi langkah ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

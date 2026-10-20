@@ -73,6 +73,9 @@ Aspose.Words for Java का उपयोग करके आयताकार 
 ### [जावा में समूह आकृति कैसे डालें – पूर्ण गाइड](./how-to-insert-group-shape-in-java-complete-guide/)
 जावा में Aspose.Words का उपयोग करके समूह आकृति सम्मिलित करने की पूरी प्रक्रिया सीखें।
 
+### [समूहित आयताकार के साथ खाली Word दस्तावेज़ बनाएं – C# गाइड](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+C# में Aspose.Words का उपयोग करके समूहित आयताकार के साथ एक खाली Word दस्तावेज़ बनाने की प्रक्रिया सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)

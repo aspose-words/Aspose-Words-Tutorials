@@ -93,6 +93,9 @@ Aspose.Words for Java を使用して PDF/UA-2 準拠の文書を作成する手
 ### [インラインシェイプ付きWordからPDFを保存する方法 – 完全ガイド](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
 Word 文書内のインラインシェイプを保持したまま PDF に保存する手順をステップバイステップで解説します。
 
+### [DOCX として文書を保存 – Java で Markdown を Word に変換](./save-document-as-docx-convert-markdown-to-word-with-java/)
+Markdown ファイルを Aspose.Words for Java で読み込み、DOCX 形式で保存する手順をステップバイステップで解説します。
+
 
 ### [Aspose.Words for Java でテーブルとテーブルスタイルの書式設定](./formatting-tables-and-table-styles/)
 

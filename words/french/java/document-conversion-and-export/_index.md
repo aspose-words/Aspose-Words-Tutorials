@@ -332,6 +332,8 @@ Apprenez à convertir et enregistrer des documents Word en PDF en une seule lign
 
 ### [Convertir Word en PDF – Générer un PDF accessible](./convert-word-to-pdf-generate-accessible-pdf/)
 Apprenez à convertir des documents Word en PDF tout en respectant les normes d’accessibilité, incluant les balises et le texte alternatif.
+### [Enregistrer le document au format DOCX – Convertir Markdown en Word avec Java](./save-document-as-docx-convert-markdown-to-word-with-java/)
+Apprenez à convertir du texte Markdown en fichier DOCX en Java avec Aspose.Words, en enregistrant le résultat au format Word.
 
 ## Questions fréquentes
 

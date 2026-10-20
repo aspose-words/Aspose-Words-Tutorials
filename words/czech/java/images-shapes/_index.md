@@ -67,6 +67,9 @@ Kompletní návod, jak v Javě pomocí Aspose.Words vytvořit a nastavit obdéln
 ### [Jak vložit skupinový tvar v Javě – Kompletní průvodce](./how-to-insert-group-shape-in-java-complete-guide/)
 Naučte se, jak vložit a spravovat skupinové tvary v dokumentech Word pomocí Aspose.Words pro Javu.
 
+### [Vytvořit prázdný dokument Word se seskupenými obdélníky – průvodce pro C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Naučte se vytvořit prázdný dokument Word se seskupenými obdélníky pomocí Aspose.Words v C#.
+
 ## Další zdroje
 
 ## Další zdroje

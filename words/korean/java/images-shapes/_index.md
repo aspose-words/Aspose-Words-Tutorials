@@ -67,6 +67,9 @@ Aspose.Words for Java를 활용해 사각형 도형을 삽입하고 사용자 �
 ### [Java에서 그룹 도형 삽입하기 – 완전 가이드](./how-to-insert-group-shape-in-java-complete-guide/)
 Java를 사용해 Word 문서에 그룹 도형을 삽입하고 관리하는 방법을 단계별로 안내합니다.
 
+### [그룹화된 사각형이 포함된 빈 Word 문서 만들기 – C# 가이드](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+C#을 사용해 그룹화된 사각형이 포함된 빈 Word 문서를 생성하고 저장하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 ## 추가 자료

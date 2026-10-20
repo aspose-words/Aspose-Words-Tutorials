@@ -75,6 +75,8 @@ Prozkoumejte Aspose.Words pro Javu: Komplexní průvodce používáním sekcí. 
 Naučte se, jak pomocí Aspose.Words pro Javu nastavit velikost tlačítka v dokumentu Word s podrobnými ukázkami kódu.
 ### [Vytvoření koláčového grafu s Aspose.Words pro Javu – Kompletní průvodce krok za krokem](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
 Naučte se, jak vytvořit koláčový graf v Aspose.Words pro Javu pomocí podrobného krok za krokem návodu.
+### [Přidání Forms2OleControl do DOCX – Kompletní průvodce Aspose.Words](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Naučte se, jak pomocí Aspose.Words pro Javu přidat ovládací prvek Forms2OleControl do souboru DOCX. Kompletní krok za krokem návod.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

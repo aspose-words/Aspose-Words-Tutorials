@@ -120,6 +120,9 @@ weight: 14
 ### [Μετατροπή DOCX σε PDF σε Java – Απλός Οδηγός Χαμηλού Κώδικα](./convert-docx-to-pdf-in-java-simple-low-code-guide/)
 Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF με λίγες γραμμές κώδικα χρησιμοποιώντας Aspose.Words for Java.
 
+### [Μετατροπή docx σε markdown – Πλήρης οδηγός για προγραμματιστές Java](./convert-docx-to-markdown-complete-guide-for-java-developers/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε Markdown με Aspose.Words for Java σε πλήρη βήμα‑βήμα οδηγό.
+
 ## Συχνές Ερωτήσεις
 
 **Q:** *Μπορώ να μετατρέψω αρχεία Word με κωδικό πρόσβασης σε PDF;*  

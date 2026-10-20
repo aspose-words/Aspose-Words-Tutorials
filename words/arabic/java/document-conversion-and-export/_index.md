@@ -329,6 +329,9 @@ weight: 22
 ### [حفظ مستند Word كـ Markdown – دليل شامل لتحويل DOCX إلى Markdown](./save-word-as-markdown-complete-guide-to-convert-docx-to-mark/)
 تعلم كيفية حفظ ملفات Word بصيفة Markdown خطوة بخطوة باستخدام Aspose.Words for Java.
 
+### [حفظ المستند كملف DOCX – تحويل Markdown إلى Word باستخدام Java](./save-document-as-docx-convert-markdown-to-word-with-java/)
+تعلم كيفية تحويل ملفات Markdown إلى مستندات Word بصيغة DOCX باستخدام Aspose.Words للـ Java.
+
 ## الأسئلة المتكررة
 
 **س: كيف يمكنني إضافة علامة مائية إلى ملف PDF موجود باستخدام Aspose.Words؟**  

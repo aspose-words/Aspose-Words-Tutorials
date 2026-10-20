@@ -86,6 +86,9 @@ Comprehensive guide to creating and customizing rectangle shapes in Word documen
 ### [how to insert group shape in Java – Complete Guide](./how-to-insert-group-shape-in-java-complete-guide/)
 Learn how to insert and manipulate group shapes in Word documents using Aspose.Words for Java.
 
+### [Create blank word document with grouped rectangles – C# guide](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Learn how to create a blank Word document and add grouped rectangle shapes using Aspose.Words for C#.
+
 ## Additional Resources
 
 ## Additional Resources

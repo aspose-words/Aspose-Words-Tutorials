@@ -113,6 +113,7 @@ weight: 14
 ### [تحويل DOCX إلى PDF في Java – دليل منخفض الكود بسيط](./convert-docx-to-pdf-in-java-simple-low-code-guide/)
 ### [حفظ Markdown كملف DOCX باستخدام Aspose.Words – دليل Java](./save-markdown-as-docx-with-aspose-words-java-guide/)
 تعلم كيفية تحويل ملفات Markdown إلى مستندات DOCX باستخدام Aspose.Words for Java خطوة بخطوة.
+### [تحويل docx إلى markdown – دليل كامل لمطوري Java](./convert-docx-to-markdown-complete-guide-for-java-developers/)
 
 ## الأسئلة المتكررة
 

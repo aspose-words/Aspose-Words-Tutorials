@@ -67,6 +67,9 @@ Java ve Aspose.Words kullanarak Word belgesine tam kontrol ile dikdörtgen şeki
 ### [Java'da Grup Şekli Nasıl Eklenir – Tam Kılavuz](./how-to-insert-group-shape-in-java-complete-guide/)
 Java kullanarak Word belgelerine grup şekli eklemeyi ve özelleştirmeyi adım adım öğrenin.
 
+### [Gruplandırılmış Dikdörtgenlerle Boş Word Belgesi Oluşturma – C# Kılavuzu](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+C# kullanarak gruplandırılmış dikdörtgenlerle boş bir Word belgesi oluşturmayı öğrenin.
+
 ## Ek Kaynaklar
 
 ## Ek Kaynaklar

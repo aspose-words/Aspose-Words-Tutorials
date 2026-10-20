@@ -307,6 +307,9 @@ Tanulja meg, hogyan konvertálja a DOCX fájlokat PDF‑be Java‑val, miközben
 ### [DOCX mentése markdownként – Teljes Java útmutató képek kinyerésével](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
 Tanuld meg, hogyan konvertálj DOCX fájlokat markdownra Java‑val, és hogyan extraháld a beágyazott képeket.
 
+### [Dokumentum mentése DOCX‑ként – Markdown konvertálása Word‑be Java‑val](./save-document-as-docx-convert-markdown-to-word-with-java/)
+Tanulja meg, hogyan konvertáljon Markdown fájlokat DOCX formátumba Java és Aspose.Words segítségével.
+
 ## Gyakran Ismételt Kérdések
 
 **K:** Hogyan adhatok hozzá vízjelet egy meglévő PDF-hez az Aspose.Words használatával?  

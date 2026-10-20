@@ -67,6 +67,9 @@ Kompletny przewodnik pokazujący, jak w Javie utworzyć prostokątny kształt pr
 ### [Jak wstawić grupowy kształt w Javie – kompletny przewodnik](./how-to-insert-group-shape-in-java-complete-guide/)
 Dowiedz się, jak dodać i zarządzać grupowymi kształtami w dokumentach Word przy użyciu Aspose.Words dla Java.
 
+### [Utwórz pusty dokument Word z grupowanymi prostokątami – przewodnik C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Dowiedz się, jak utworzyć pusty dokument Word i dodać grupowane prostokąty przy użyciu Aspose.Words w C#.
+
 ## Dodatkowe zasoby
 
 ## Dodatkowe zasoby

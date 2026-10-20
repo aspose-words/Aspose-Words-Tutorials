@@ -71,6 +71,8 @@ Aspose.Words for Java में OLE ऑब्जेक्ट और ActiveX न�
 जावा के संशोधन नियंत्रणों के लिए Aspose.Words का कुशलतापूर्वक उपयोग करना सीखें। डेवलपर्स के लिए चरण-दर-स्टेप मार्गदर्शिका। अपने दस्तावेज़ प्रबंधन को अनुकूलित करें।
 ### [जावा के लिए Aspose.Words में अनुभागों का उपयोग करना](./using-sections/)
 जावा के लिए Aspose.Words का अन्वेषण करें: अनुभागों का उपयोग करने पर एक व्यापक गाइड। कोड उदाहरणों के साथ अनुभागों को जोड़ें, हटाएं, जोड़ें, क्लोन करें।
+### [DOCX में Forms2OleControl जोड़ें – पूर्ण Aspose.Words गाइड](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+DOCX दस्तावेज़ में Forms2OleControl जोड़ने के लिए चरण-दर-चरण Aspose.Words गाइड।
 
 ### [Java के साथ Word में बटन का आकार सेट करना – पूर्ण Aspose.Words गाइड](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
 Java के साथ Aspose.Words का उपयोग करके Word दस्तावेज़ में बटन का आकार कैसे सेट करें, सीखें।

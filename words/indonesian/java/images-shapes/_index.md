@@ -67,6 +67,9 @@ Pelajari cara membuat bentuk persegi panjang di dokumen Word menggunakan Aspose.
 ### [Cara Menyisipkan Bentuk Grup di Java – Panduan Lengkap](./how-to-insert-group-shape-in-java-complete-guide/)
 Panduan langkah demi langkah untuk menambahkan bentuk grup ke dokumen Word menggunakan Aspose.Words untuk Java.
 
+### [Buat dokumen Word kosong dengan persegi panjang yang dikelompokkan – Panduan C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Pelajari cara membuat dokumen Word kosong dan menambahkan grup persegi panjang menggunakan Aspose.Words untuk C#.
+
 ## Sumber Daya Tambahan
 
 ## Sumber Daya Tambahan

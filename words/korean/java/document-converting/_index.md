@@ -115,6 +115,8 @@ Aspose.Words for Java를 활용해 DOCX 파일을 마크다운 형식으로 변�
 몇 줄의 코드만으로 Java에서 DOCX 파일을 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [Aspose.Words로 Markdown을 DOCX로 저장 – Java 가이드](./save-markdown-as-docx-with-aspose-words-java-guide/)
 Aspose.Words for Java를 사용하여 Markdown 파일을 DOCX 형식으로 저장하는 방법을 배웁니다.
+### [docx를 markdown으로 변환 – Java 개발자를 위한 완전 가이드](./convert-docx-to-markdown-complete-guide-for-java-developers/)
+Java에서 docx 파일을 markdown 형식으로 변환하는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

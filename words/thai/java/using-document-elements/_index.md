@@ -75,6 +75,8 @@
 เรียนรู้วิธีตั้งขนาดปุ่มในเอกสาร Word ด้วย Java โดยใช้ Aspose.Words อย่างละเอียดและครบถ้วน
 ### [สร้างแผนภูมิวงกลมด้วย Aspose.Words Java – คู่มือเต็มขั้นตอน](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
 เรียนรู้วิธีสร้างแผนภูมิวงกลมในเอกสาร Word ด้วย Aspose.Words for Java อย่างละเอียดตามขั้นตอน
+### [เพิ่ม Forms2OleControl ไปยัง DOCX – คู่มือ Aspose.Words ฉบับสมบูรณ์](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+เรียนรู้วิธีเพิ่ม Forms2OleControl ลงในไฟล์ DOCX ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

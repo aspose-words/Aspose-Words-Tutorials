@@ -326,6 +326,9 @@ Dowiedz się, jak zapisać pliki DOCX jako TXT, eksportując równania matematyc
 ### [Java docx do PDF – Generowanie dostępnego PDF przy użyciu Aspose.Words](./java-docx-to-pdf-generate-accessible-pdf-with-aspose-words/)
 Dowiedz się, jak konwertować pliki DOCX do PDF spełniających standardy dostępności, w tym tagowanie i strukturę, przy użyciu Aspose.Words dla Javy.
 
+### [Zapisz dokument jako DOCX – konwertuj Markdown do Worda w Javie](./save-document-as-docx-convert-markdown-to-word-with-java/)
+Dowiedz się, jak konwertować pliki Markdown do DOCX przy użyciu Aspose.Words for Java. Przewodnik krok po kroku z przykładowym kodem.
+
 ## Najczęściej zadawane pytania
 
 **Q: Jak dodać znak wodny do istniejącego PDF przy użyciu Aspose.Words?**  

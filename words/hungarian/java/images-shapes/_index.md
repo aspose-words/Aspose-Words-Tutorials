@@ -66,6 +66,9 @@ Részletes útmutató a téglalap alakzatok létrehozásához és testreszabás�
 ### [Hogyan szúrjunk be csoport alakzatot Java-ban – Teljes útmutató](./how-to-insert-group-shape-in-java-complete-guide/)
 Ismerje meg, hogyan hozhat létre és kezelhet csoportos alakzatokat a Word dokumentumokban Java és Aspose.Words segítségével.
 
+### [Üres Word dokumentum létrehozása csoportosított téglalapokkal – C# útmutató](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Tanulja meg, hogyan hozhat létre üres Word dokumentumot csoportosított téglalapokkal C#-ban az Aspose.Words segítségével.
+
 ## További források
 
 ## További források

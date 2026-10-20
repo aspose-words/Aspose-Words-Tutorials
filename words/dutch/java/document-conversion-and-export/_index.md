@@ -325,6 +325,9 @@ Leer hoe je met Aspose.Words for Java Word‑documenten omzet naar Markdown, inc
 ### [DOCX naar Markdown converteren – Complete Java‑tutorial](./convert-docx-to-markdown-complete-java-tutorial/)
 Leer hoe je DOCX-bestanden volledig naar Markdown converteert met Aspose.Words for Java in een stap‑voor‑stap Java‑tutorial.
 
+### [Document opslaan als DOCX – Markdown naar Word converteren met Java](./save-document-as-docx-convert-markdown-to-word-with-java/)
+Sla een document op als DOCX en converteer Markdown naar Word met behulp van Aspose.Words for Java.
+
 ## Veelgestelde Vragen
 
 **Q: Hoe voeg ik een watermark toe aan een bestaande PDF met Aspose.Words?**  

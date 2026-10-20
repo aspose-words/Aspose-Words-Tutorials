@@ -67,6 +67,9 @@
 ### [كيفية إدراج مجموعة أشكال في جافا – دليل كامل](./how-to-insert-group-shape-in-java-complete-guide/)
 تعلم خطوة بخطوة كيفية إضافة مجموعة أشكال إلى مستند Word باستخدام Aspose.Words لجافا
 
+### [إنشاء مستند Word فارغ مع مجموعة من المستطيلات – دليل C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+دليل لإنشاء مستند Word فارغ يحتوي على مجموعة من المستطيلات باستخدام Aspose.Words للغة C#.
+
 ## موارد إضافية
 
 ## موارد إضافية

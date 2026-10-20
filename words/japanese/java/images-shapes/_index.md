@@ -67,6 +67,9 @@ Aspose.Words for Java を活用し、長方形シェイプの作成とカスタ�
 ### [Javaでグループシェイプを挿入する方法 – 完全ガイド](./how-to-insert-group-shape-in-java-complete-guide/)
 Javaでグループシェイプを文書に挿入し、カスタマイズする手順を完全に解説します。
 
+### [C#で空白のWord文書を作成 – グループ化された長方形](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+C# を使用して、グループ化された長方形を含む空白の Word 文書を作成する方法を学びます。
+
 ## 追加リソース
 
 ## 追加リソース

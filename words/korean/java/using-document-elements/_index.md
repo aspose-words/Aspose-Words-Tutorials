@@ -67,6 +67,8 @@ Aspose.Words for Java에서 머리글과 바닥글을 사용하는 방법을 단
 이 단계별 튜토리얼을 통해 Aspose.Words for Java에서 노드를 조작하는 방법을 배워보세요. 문서 처리 능력을 최대한 활용하세요.
 ### [Aspose.Words for Java에서 OLE 개체 및 ActiveX 컨트롤 사용](./using-ole-objects-and-activex/)
 Aspose.Words for Java에서 OLE 개체와 ActiveX 컨트롤을 사용하는 방법을 배워보세요. 인터랙티브 문서를 손쉽게 제작할 수 있습니다. 지금 바로 시작하세요!
+### [DOCX에 Forms2OleControl 추가 – 완전한 Aspose.Words 가이드](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Aspose.Words for Java를 사용하여 DOCX 파일에 Forms2OleControl을 추가하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 수정 사항 사용](./using-revisions/)
 Aspose.Words for Java의 버전 관리 기능을 효율적으로 사용하는 방법을 알아보세요. 개발자를 위한 단계별 가이드를 통해 문서 관리를 최적화하세요.
 ### [Java용 Aspose.Words에서 섹션 사용](./using-sections/)

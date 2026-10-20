@@ -75,6 +75,8 @@ Java için Aspose.Words'ü keşfedin: Bölümleri kullanma hakkında kapsamlı b
 Java ile Aspose.Words kullanarak Word belgelerindeki düğme boyutlarını nasıl ayarlayacağınızı öğrenin.
 ### [Aspose.Words Java ile Pasta Grafik Oluşturma – Tam Adım‑Adım Kılavuz](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
 Aspose.Words for Java kullanarak Word belgesine adım adım pasta grafik eklemeyi öğrenin.
+### [DOCX'e Forms2OleControl Ekleme – Tam Aspose.Words Kılavuzu](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Java için Aspose.Words'de Forms2OleControl ile DOCX dosyalarına form nesneleri eklemeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

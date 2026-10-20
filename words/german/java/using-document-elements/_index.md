@@ -75,6 +75,8 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java ein Kreisdiagramm erstellen und
 Entdecken Sie Aspose.Words für Java: Eine umfassende Anleitung zur Verwendung von Abschnitten. Hinzufügen, Löschen, Anhängen und Klonen von Abschnitten mit Codebeispielen.
 ### [Schaltflächengröße in Word mit Java festlegen – Vollständige Aspose.Words-Anleitung](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
 Erfahren Sie, wie Sie in Aspose.Words für Java die Größe von Schaltflächen in Word-Dokumenten programmatisch festlegen.
+### [Forms2OleControl zu DOCX hinzufügen – Vollständige Aspose.Words-Anleitung](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Erfahren Sie, wie Sie Forms2OleControl zu DOCX hinzufügen und OLE‑Steuerelemente einbetten. Detaillierte Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

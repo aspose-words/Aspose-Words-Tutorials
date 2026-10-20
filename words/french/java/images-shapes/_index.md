@@ -67,6 +67,9 @@ Apprenez à créer et personnaliser une forme rectangle dans un document Word en
 ### [Comment insérer une forme groupée en Java – Guide complet](./how-to-insert-group-shape-in-java-complete-guide/)
 Apprenez à insérer et gérer des formes groupées dans vos documents Word avec Aspose.Words pour Java.
 
+### [Créer un document Word vierge avec des rectangles groupés – Guide C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Apprenez à créer un document Word vierge contenant des rectangles groupés en utilisant Aspose.Words pour C#.
+
 ## Ressources supplémentaires
 
 ## Ressources supplémentaires

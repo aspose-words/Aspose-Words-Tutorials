@@ -67,6 +67,9 @@ Leer stap voor stap hoe u een rechthoekige vorm toevoegt aan een Word-document m
 ### [Groepsvorm invoegen in Java – Complete gids](./how-to-insert-group-shape-in-java-complete-guide/)
 Leer hoe u een groepsvorm toevoegt en bewerkt in Word-documenten met Aspose.Words voor Java.
 
+### [Leeg Word-document maken met gegroepeerde rechthoeken – C#-handleiding](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Leer hoe u een leeg Word-document maakt en meerdere rechthoeken groepeert met Aspose.Words voor C#.
+
 ## Aanvullende bronnen
 
 ## Aanvullende bronnen

@@ -75,6 +75,8 @@
 探索 Aspose.Words for Java：关于如何使用 Section 的全面指南。通过代码示例添加、删除、追加和克隆 Section。
 ### [在 Aspose.Words for Java 中设置按钮大小 – 完整指南](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
 学习如何在 Word 文档中使用 Aspose.Words for Java 设置按钮大小的完整步骤。
+### [在 Aspose.Words for Java 中使用 Forms2OleControl 添加到 DOCX – 完整指南](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+学习如何在 Java 中使用 Aspose.Words 将 Forms2OleControl 嵌入 DOCX 文档，提供完整步骤与示例代码。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

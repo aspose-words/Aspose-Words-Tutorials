@@ -43,6 +43,9 @@ Készen állsz, hogy elkezdjük? Látogass el ide: [Aspose.Words Java API dokume
 Ne feledd, a gyakorlat teszi a mestert, és az Aspose.Words for Java segítségével pillanatok alatt profi módon fogsz dokumentumokat létrehozni, módosítani és fejleszteni. Jó kódolást!
 
 ## Dokumentumelemek használata – Oktatóanyagok
+### [Forms2OleControl hozzáadása DOCX-hez – Teljes Aspose.Words útmutató](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Tanuld meg, hogyan adhatod hozzá a Forms2OleControl elemet a DOCX dokumentumokhoz az Aspose.Words for Java segítségével.
+
 ### [Megjegyzések használata az Aspose.Words Java-ban](./using-comments/)
 Tanuld meg, hogyan használhatsz megjegyzéseket az Aspose.Words for Java programban. Lépésről lépésre útmutató a dokumentumokban található megjegyzések hozzáadásához és testreszabásához.
 ### [Mezők használata az Aspose.Words fájlban Java-ban](./using-fields/)

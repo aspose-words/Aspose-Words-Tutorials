@@ -178,6 +178,8 @@ Aprenda a exportar documentos DOCX a archivos TXT usando Aspose.Words for Java c
 Aprenda a guardar documentos Word como texto plano y exportar sus ecuaciones manteniendo la precisión.
 ### [Guardar DOCX como TXT con exportación de matemáticas LaTeX – Guía completa en Java](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
 Aprenda a guardar documentos DOCX como archivos TXT exportando ecuaciones en LaTeX con Aspose.Words for Java.
+### [Guardar documento como DOCX – Convertir Markdown a Word con Java](./save-document-as-docx-convert-markdown-to-word-with-java/)
+Aprenda a convertir archivos Markdown a documentos Word (DOCX) usando Aspose.Words for Java en unos simples pasos.
 
 ### [Aspose.Words a PDF – Convertir DOCX a PDF en Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Aprenda a convertir archivos DOCX a PDF usando Aspose.Words for Java en unos simples pasos.

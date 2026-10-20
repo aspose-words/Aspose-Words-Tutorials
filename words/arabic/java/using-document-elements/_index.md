@@ -75,6 +75,8 @@
 تعلم كيفية ضبط حجم الأزرار في مستندات Word باستخدام Aspose.Words for Java من خلال دليل شامل خطوة بخطوة.
 ### [إنشاء مخطط دائري باستخدام Aspose.Words Java – دليل كامل خطوة بخطوة](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
 تعلم كيفية إنشاء مخطط دائري في مستندات Word باستخدام Aspose.Words for Java من خلال دليل خطوة بخطوة شامل.
+### [إضافة Forms2OleControl إلى DOCX – دليل Aspose.Words الكامل](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+تعلم خطوة بخطوة كيفية إضافة Forms2OleControl إلى مستند DOCX باستخدام Aspose.Words لجافا.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
