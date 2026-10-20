@@ -19,6 +19,15 @@
 dessa handledningar lär du dig olika aspekter av ordbehandling med kommentarer i Word-dokument med hjälp av Aspose.Words för .NET. Du kommer att upptäcka hur du lägger till kommentarer i dokument, förankrar kommentarsvar i specifik text, lägger till och tar bort kommentarsvar samt löser kommentarer och deras svar. Varje handledning innehåller en steg-för-steg-guide med fullständig källkod, vilket gör att du kan förbättra samarbete och feedbackhantering i dina Word-dokument med hjälp av Aspose.Words för .NET.
 
  ## Handledningar
+
+{{< tutorial-card link="./add-hyperlink-comment/" title="Lägg till Hyperlink‑kommentar och exportera som PDF‑annotation med Aspose.Words för .NET" imgSrc="./add-hyperlink-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-comment/" title="Infoga en Comment på ett specifikt stycke i ett Word-dokument med Aspose.Words för .NET" imgSrc="./add-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./style-comment-text/" title="Tillämpa anpassad stil på kommentarstext i Word‑dokument med Aspose.Words för .NET" imgSrc="./style-comment-text/images/thumb.png" >}}
+
+
+
 | Titel | Beskrivning |
 | --- | --- |
 | [Lägg till kommentarer](./add-comments/) | Lär dig hur du lägger till kommentarer i dina Word-dokument med Aspose.Words för .NET med vår guide. Förbättra din dokumentsamarbetsprocess utan ansträngning. |

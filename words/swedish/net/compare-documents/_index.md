@@ -25,6 +25,8 @@ Jämför dokument är en omfattande handledning om hur du jämför dokument med 
 | [Jämför alternativ i Word-dokument](./compare-options/) | Lär dig hur du jämför Word-dokument med Aspose.Words för .NET med vår steg-för-steg-guide. Säkerställ dokumentkonsekvens utan problem. |
 | [Jämförelsemål i Word-dokument](./comparison-target/) | Jämför enkelt Word-dokument med Aspose.Words för .NET med den här detaljerade steg-för-steg-guiden. Spara tid och förbättra noggrannheten vid dokumentjämförelse. |
 | [Jämförelsegranularitet i Word-dokument](./comparison-granularity/) | Lär dig jämföra granularitet i Word-dokumentfunktionen i Aspose.Words för .NET som gör det möjligt att jämföra dokument tecken för tecken och rapportera gjorda ändringar. |
+| [Jämför Word-dokument i C# med Aspose.Words](./compare-word-documents-in-c-using-aspose-words/) | Lär dig hur du jämför Word-dokument i C# med Aspose.Words för .NET i en steg-för-steg-guide. |
+| [Hur man jämför två Word-dokument och upptäcker ändringar](./how-to-compare-two-word-documents-and-detect-changes/) | Lär dig hur du jämför två Word-dokument och identifierar förändringar med Aspose.Words för .NET. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

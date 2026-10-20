@@ -34,6 +34,7 @@ Seja você um desenvolvedor iniciante ou experiente, os tutoriais do Aspose.Word
 | [Use caracteres de controle](./use-control-characters/) | Descubra como automatizar tarefas em documentos do Word usando o Aspose.Words para .NET. Este guia aborda configuração, substituição de texto e muito mais, tornando seu fluxo de trabalho eficiente. |
 | [Como contar páginas em um documento Word – Recuperar e contar](./how-to-count-pages-in-a-word-document-recover-count/) | Aprenda a contar páginas em documentos Word usando Aspose.Words para .NET com este tutorial passo a passo. |
 
+| [Verificar contagem de páginas em documentos Word – Recuperar arquivos corrompidos](./check-page-count-in-word-docs-recover-corrupted-files/) | Aprenda a verificar a contagem de páginas e recuperar arquivos Word corrompidos usando Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

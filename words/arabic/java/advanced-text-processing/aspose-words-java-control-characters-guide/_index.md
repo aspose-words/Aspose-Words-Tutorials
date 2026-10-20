@@ -59,13 +59,13 @@ weight: 1
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 إذا كنت تفضّل Gradle، استخدم المقتطف التالي:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ## License Acquisition
 للاستفادة الكاملة من Aspose.Words، ستحتاج إلى ملف ترخيص:
@@ -77,7 +77,12 @@ implementation 'com.aspose:aspose-words:25.3'
 ```java
 License license = new License();
 license.setLicense("path/to/aspose.words.lic");
-```
+```  
+
+## كيفية إدراج الأحرف التحكمية في Java؟
+الفئة `DocumentBuilder` توفر طرقًا لإنشاء وتعديل محتوى المستند برمجيًا.  
+حمّل مستندك، أنشئ كائنًا من `DocumentBuilder`، واستدعِ طرق `write` أو `insert` المناسبة لإضافة مسافات، تابات، فواصل أسطر، أو فواصل صفحات. هذا النمط ذو السطر الواحد — `builder.write(ControlChar.TAB)` — يغطي معظم احتياجات التخطيط، ويمكنك ربط عدة استدعاءات لإنشاء هياكل معقدة. بالنسبة للمستندات الكبيرة، يقلل الإدراج الدفعي من عبء المعالجة.  
+`ControlChar` هو تعداد للأحرف غير القابلة للطباعة المستخدمة في التحكم بالتخطيط.
 
 ## Implementation Guide
 سنقسم التنفيذ إلى ميزتين رئيسيتين: معالجة عودة السطر وإدراج أحرف التحكم.

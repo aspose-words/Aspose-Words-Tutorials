@@ -24,12 +24,12 @@ Ya sea que desee crear documentos compatibles con versiones anteriores de Word, 
  ## Tutoriales
 | Título | Descripción |
 | --- | --- |
-| [Cifrar Docx con contraseña](./encrypt-docx-with-password/) Proteja sus documentos de Word cifrándolos con una contraseña con Aspose.Words para .NET. Siga nuestra guía paso a paso para proteger su información confidencial.
+| [Cifrar Docx con contraseña](./encrypt-docx-with-password/) Proteja sus documentos de Word cifrándolos con una contraseña con Aspose.Words para .NET. Siga nuestra guía paso a paso para proteger su información confidencial. |
 | [Cumplimiento de Ooxml ISO 29500_2008_Estricto](./ooxml-compliance-iso-29500_2008_strict/) | Aprenda cómo garantizar la conformidad de OOXML con la norma ISO 29500_2008_Strict utilizando Aspose.Words para .NET con esta guía paso a paso. |
-| [Actualizar la última propiedad guardada](./update-last-saved-time-property/) Aprenda a actualizar la propiedad "Última hora guardada" en documentos de Word con Aspose.Words para .NET. Siga nuestra guía detallada paso a paso.
+| [Actualizar la última propiedad guardada](./update-last-saved-time-property/) Aprenda a actualizar la propiedad "Última hora guardada" en documentos de Word con Aspose.Words para .NET. Siga nuestra guía detallada paso a paso. |
 | [Mantener los personajes de control heredados](./keep-legacy-control-chars/) | Aprenda a conservar caracteres de control heredados en documentos de Word usando Aspose.Words para .NET con esta guía paso a paso. |
-| [Establecer el nivel de compresión](./set-compression-level/) Aprenda a configurar el nivel de compresión en documentos de Word con Aspose.Words para .NET. Siga nuestra guía paso a paso para optimizar el almacenamiento y el rendimiento de sus documentos.
-
+| [Establecer el nivel de compresión](./set-compression-level/) Aprenda a configurar el nivel de compresión en documentos de Word con Aspose.Words para .NET. Siga nuestra guía paso a paso para optimizar el almacenamiento y el rendimiento de sus documentos. |
+| [Cómo cambiar la codificación de documentos Word](./how-to-change-word-document-encoding-with-aspose-words-in-c/) | Aprenda a cambiar la codificación de documentos Word usando Aspose.Words para .NET en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

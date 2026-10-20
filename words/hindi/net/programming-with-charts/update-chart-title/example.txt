@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Aspose.Words का उपयोग करके, यह ट्यूटोरियल एक Word दस्तावेज़ बनाता है, एक कॉलम चार्ट सम्मिलित करता है, उपयोगकर्ता द्वारा प्रदान किए गए टेक्स्ट से चार्ट शीर्षक को अपडेट करता है, और उपयोगकर्ता की प्राथमिकताओं के आधार पर लेजेंड की दृश्यता और ओवरले को टॉगल करता है।
+//ExStepSummary:0: उपयोगकर्ता‑द्वारा प्रदान किया गया चार्ट शीर्षक और यह निर्धारित करें कि लेजेंड दिखाया जाना चाहिए या नहीं।
+//ExStepSummary:1: एक नया Word दस्तावेज़ और सामग्री जोड़ने के लिए DocumentBuilder बनाएं।
+//ExStepSummary:2: दस्तावेज़ में 432 × 252 pt आकार का कॉलम चार्ट सम्मिलित करें और सत्यापित करें कि शेप में वास्तव में एक चार्ट मौजूद है।
+//ExStepSummary:3: चार्ट ऑब्जेक्ट प्राप्त करें, उसका शीर्षक टेक्स्ट उपयोगकर्ता के मान पर सेट करें, और सुनिश्चित करें कि शीर्षक प्रदर्शित हो।
+//ExStepSummary:4: लेजेंड को कॉन्फ़िगर करें: यदि अनुरोध किया गया हो तो इसे दाएँ दिखाएँ, अन्यथा छिपाएँ, और इसे प्लॉट एरिया के ऊपर ओवरले करने की अनुमति दें।
+//ExStepSummary:5: संशोधित दस्तावेज़ को डिस्क पर CustomChart.docx के रूप में सहेजें।
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+string chartHeader = "Fiscal Q1 Performance Summary";
+bool displayLegend = false;
+
+//ExStep:1-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:2-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+if (!chartContainer.HasChart)
+    throw new InvalidOperationException("The inserted shape does not contain a chart.");
+
+//ExStep:3-
+Chart chartObj = chartContainer.Chart;
+ChartTitle chartTitle = chartObj.Title;
+chartTitle.Text = chartHeader;
+chartTitle.Show = true;
+
+//ExStep:4-
+ChartLegend chartLegend = chartObj.Legend;
+chartLegend.Position = displayLegend ? LegendPosition.Right : LegendPosition.None;
+chartLegend.Overlay = true;
+
+//ExStep:5-
+wordDoc.Save("CustomChart.docx");
+//ExEnd

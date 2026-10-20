@@ -34,6 +34,10 @@
 ## บทช่วยสอนเกี่ยวกับการใช้ Word Automation ใน Python
 ### [การทำงานอัตโนมัติของคำศัพท์ทำได้ง่าย](./word-automation-made-easy/)
 ทำให้การประมวลผลคำเป็นอัตโนมัติได้อย่างง่ายดายด้วย Aspose.Words สำหรับ Python สร้าง จัดรูปแบบ และจัดการเอกสารด้วยโปรแกรม เพิ่มประสิทธิภาพการทำงานทันที!
+### [แทนที่ข้อความในไฟล์ docx ด้วย Python – คู่มือเต็มขั้นตอน](./replace-text-docx-with-python-full-step-by-step-guide/)
+เรียนรู้วิธีการแทนที่ข้อความในไฟล์ DOCX ด้วย Python อย่างละเอียดและเป็นขั้นตอน
+### [วิธีใช้ Aspose เพื่อทำการแก้ไขไวยากรณ์อัตโนมัติใน Python](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
+เรียนรู้วิธีใช้ Aspose เพื่อทำการตรวจสอบและแก้ไขไวยากรณ์ในเอกสาร Word ด้วย Python อย่างอัตโนมัติ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

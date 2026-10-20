@@ -55,6 +55,9 @@ Erfahren Sie, wie Sie Absatzränder mit Aspose.Words für Python effizient entfe
     ### [Mastering Tab Stops in Python with Aspose.Words for Document Formatting](./master-tab-stops-python-aspose-words/)
 Erfahren Sie, wie Sie Tabstopps in Ihren Python-Dokumenten mit Aspose.Words effektiv verwalten. Diese Anleitung behandelt das Hinzufügen, Anpassen und Entfernen von Tabstopps anhand praktischer Beispiele.
 
+### [Wie man Diagramme in einem Word-Dokument mit Python gestaltet](./how-to-style-chart-in-a-word-document-using-python/)
+Erfahren Sie, wie Sie Diagramme in Word-Dokumenten mit Aspose.Words für Python stilvoll formatieren und anpassen.
+
 ## Weitere Ressourcen
 
 - [Aspose.Words für die Python-Net-Dokumentation](https://docs.aspose.com/words/python-net/)
