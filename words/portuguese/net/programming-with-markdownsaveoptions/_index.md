@@ -144,8 +144,6 @@ Aprenda a converter arquivos DOCX para Markdown preservando equações LaTeX usa
 ### [Salvar docx como markdown – Exportar matemática do Word para LaTeX com Aspose.Words](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/)
 Aprenda a exportar equações matemáticas de documentos Word para LaTeX ao salvar como Markdown usando Aspose.Words.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 ### [Exportar docx como markdown – Guia completo em C#](./export-docx-as-markdown-complete-c-guide/)
 Aprenda a exportar arquivos DOCX para Markdown usando C# com Aspose.Words, passo a passo com exemplos de código.
 
