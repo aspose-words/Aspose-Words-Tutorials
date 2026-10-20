@@ -103,6 +103,8 @@ doc.Save("Output.docx");
 | [How to Detect Substitution in Aspose.Words – Handle Missing Fonts](./how-to-detect-substitution-in-aspose-words-handle-missing-fo/) | Learn how to detect font substitution and handle missing fonts in Aspose.Words for .NET with a step-by-step guide. |
 
 | [How to Capture Warnings in Aspose.Words – Complete Guide](./how-to-capture-warnings-in-aspose-words-complete-guide/) | Learn how to capture warnings in Aspose.Words for .NET with this comprehensive step-by-step guide. |
+| [How to Load Fonts in .NET – Set Font Settings & Warnings](./how-to-load-fonts-in-net-set-font-settings-warnings/) | Learn how to load fonts in .NET, configure font settings, and handle warnings using Aspose.Words for .NET. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -87,6 +87,7 @@ Por fim, não se esqueça de conferir nosso [Trabalhando com opções de resumo]
 | [Como chamar CheckGrammar em C# – Guia completo](./how-to-call-checkgrammar-in-c-complete-guide/) | Aprenda a usar o método CheckGrammar do Aspose.Words em C# para melhorar a correção gramatical de documentos. |
 | [Tutorial LLM Local – Como chamar um LLM local e executar verificação gramatical](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Aprenda a integrar um modelo LLM local ao Aspose.Words para .NET e realizar verificações gramaticais em documentos. |
 | [Criar relatório resumido em C# – Guia completo passo a passo](./create-summary-report-in-c-complete-step-by-step-guide/) | Aprenda a gerar relatórios resumidos em C# usando Aspose.Words, com instruções detalhadas passo a passo. |
+| [Criar Modelo de IA Personalizado – Guia Completo de Verificação Gramatical em C#](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | Aprenda a criar um modelo de IA personalizado para correção gramatical em C# usando Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

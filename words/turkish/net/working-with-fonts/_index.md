@@ -86,6 +86,7 @@ Metni farklı yazı tipleriyle biçimlendirmek, yazı tipi değiştirme kurallar
 | [C#'ta Yazı Tiplerini Algılamak – Tam Kılavuz](./how-to-detect-fonts-in-c-complete-guide/) | Aspose.Words for .NET kullanarak C# içinde yazı tiplerini nasıl tespit edeceğinizi adım adım öğrenin. |
 | [IWarningCallback Kullanımı – Eksik Yazı Tiplerini Aspose.Words ile Algılamak](./how-to-use-iwarningcallback-detect-missing-fonts-with-aspose/) | Aspose.Words for .NET kullanarak IWarningCallback aracılığıyla eksik yazı tiplerini nasıl tespit edeceğinizi adım adım öğrenin. |
 
+| [.NET'te Yazı Tiplerini Yükleme – Yazı Tipi Ayarları ve Uyarılar](./how-to-load-fonts-in-net-set-font-settings-warnings/) | Aspose.Words for .NET kullanarak yazı tipi ayarlarını yapılandırmayı ve uyarıları yönetmeyi öğrenin. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

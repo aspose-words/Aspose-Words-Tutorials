@@ -80,6 +80,7 @@ Trong các hướng dẫn này, bạn sẽ học cách sử dụng LoadOptions �
 | [Cách bắt cảnh báo trong C# – Phát hiện phông chữ thiếu và ghi lại việc thay thế](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) | Hướng dẫn cách bắt các cảnh báo khi tải tài liệu, phát hiện phông chữ thiếu và ghi lại các thay thế trong Aspose.Words cho .NET. |
 | [Khôi phục DOCX bị hỏng – Hướng dẫn C# đầy đủ để sửa và lưu tệp](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) | Hướng dẫn chi tiết cách khôi phục và sửa các tệp DOCX bị hỏng bằng Aspose.Words trong C#, bao gồm các bước sửa lỗi và lưu lại tài liệu. |
 | [Khôi phục tệp docx bị hỏng – Hướng dẫn đầy đủ để tải các tệp Word bị hỏng trong C#](./recover-corrupted-docx-full-guide-to-loading-damaged-word-fi/) | Hướng dẫn chi tiết cách mở và khôi phục các tệp Word (.docx) bị hỏng bằng Aspose.Words trong C#, bao gồm các bước thiết lập và xử lý lỗi. |
+| [Khôi phục DOCX bị hỏng – Hướng dẫn toàn diện để sửa và tải tệp Word bị hỏng](./recover-corrupted-docx-complete-guide-to-fixing-and-loading/) | Hướng dẫn chi tiết cách khôi phục và mở các tệp DOCX bị hỏng bằng Aspose.Words cho .NET, bao gồm các bước sửa lỗi và tải tài liệu. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

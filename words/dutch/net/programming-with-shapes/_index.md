@@ -72,6 +72,7 @@ Door Aspose.Words voor .NET te gebruiken en deze tutorials te volgen, krijgt u d
 | [Hoe vorm verbergen in Word met C# – stapsgewijze handleiding](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) |  |
 | [Hoe vormen groeperen in Word en vormen toevoegen aan een Word‑document](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Leer hoe u vormen groepeert en toevoegt aan een Word‑document met Aspose.Words voor .NET. |
 | [Rechthoekvorm invoegen in C# met Aspose.Words – stapsgewijze handleiding](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | Leer hoe u een rechthoekvorm invoegt in een Word‑document met C# en Aspose.Words in deze stapsgewijze handleiding. |
+| [Voeg schaduw toe aan Word-vormen – Complete C#-gids](./how-to-add-shadow-to-word-shapes-complete-c-guide/) | Leer hoe u met Aspose.Words voor .NET en C# schaduwen toevoegt aan vormen in Word-documenten. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -150,6 +150,13 @@ Aprenda a exportar tabelas de documentos Word para HTML ao salvar como Markdown 
 
 ### [Exportar docx como markdown – Guia completo em C#](./export-docx-as-markdown-complete-c-guide/)
 Aprenda a exportar arquivos DOCX para Markdown usando C# com Aspose.Words, passo a passo com exemplos de código.
+### [Converter docx para markdown – Guia completo com exportação de equações](./convert-docx-to-markdown-complete-guide-with-equation-export/)
+Aprenda a converter arquivos DOCX para Markdown exportando equações usando Aspose.Words para .NET.
+
+### [Aspose docx para markdown – Guia completo para converter e extrair imagens](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/)
+
+### [Converter DOCX para Markdown – Guia Completo com Sombra de Forma e Recuperação](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/)
+Aprenda a converter arquivos DOCX para Markdown, incluindo sombras de formas e técnicas de recuperação, usando Aspose.Words para .NET.
 
 ### [Converter Docx para Markdown com C# – Guia de Programação Completo](./convert-docx-to-markdown-with-c-complete-programming-guide/)
 Aprenda a converter arquivos DOCX para Markdown usando C# com um guia completo de programação usando Aspose.Words.

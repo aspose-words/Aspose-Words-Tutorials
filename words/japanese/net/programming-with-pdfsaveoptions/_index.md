@@ -70,6 +70,7 @@ Word文書をPDFに変換してオンライン配信、アーカイブ、印刷�
 | [Aspose.Words を使用して Word をアクセシブル PDF に変換する – 完全ガイド](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) Aspose.Words for .NET を使用し、Word 文書をアクセシブル PDF に変換する手順を詳細に解説します。 |
 | [Word を PDF に保存 – アクセシビリティ対応 完全ガイド](./save-word-as-pdf-complete-guide-with-accessibility/) Aspose.Words for .NET を使用し、Word 文書をアクセシブルな PDF に変換する完全な手順をステップバイステップで解説します。 |
 | [Word から PDF/UA 準拠ファイルを作成 – 完全エクスポートガイド](./create-pdf-ua-compliant-file-from-word-full-export-guide/) Aspose.Words for .NET を使用して、Word 文書から PDF/UA 準拠のファイルを完全にエクスポートする方法をステップバイステップで解説します。 |
+| [C#でドキュメントをPDFとして保存 – インラインシェイプをエクスポート](./save-document-as-pdf-in-c-export-inline-shapes/) Aspose.Words for .NET を使用して、インラインシェイプを含む Word 文書を PDF にエクスポートする方法を学びます。 |
 
 | [C# で Word からアクセシブルな PDF を作成する – ステップバイステップ ガイド](./create-accessible-pdf-from-word-in-c-step-by-step-guide/) Aspose.Words for .NET を使用して、C# で Word 文書からアクセシブルな PDF を生成する手順を詳しく解説します。 |
 | [Aspose を使用して Word からアクセシブル PDF を作成する – ステップバイステップ ガイド](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) Aspose.Words for .NET を使い、Word 文書からアクセシブルな PDF を作成する手順を詳しく解説します。 |

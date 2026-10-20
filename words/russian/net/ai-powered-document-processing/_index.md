@@ -87,6 +87,7 @@
 | [Как вызвать CheckGrammar в C# – Полное руководство](./how-to-call-checkgrammar-in-c-complete-guide/) | Узнайте, как использовать метод CheckGrammar в Aspose.Words для .NET с C# для проверки грамматики в документах. |
 | [Учебник по локальному LLM – Как вызвать локальный LLM и выполнить проверку грамматики](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Узнайте, как интегрировать локальную модель LLM в Aspose.Words для .NET и выполнять проверку грамматики документов. |
 | [Создать сводный отчет в C# – Полное пошаговое руководство](./create-summary-report-in-c-complete-step-by-step-guide/) | Узнайте, как с помощью Aspose.Words для .NET создать сводный отчет в C# шаг за шагом. |
+| [Создание пользовательской модели ИИ – Полное руководство по проверке грамматики в C#](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | Полное руководство по созданию пользовательской модели ИИ для проверки грамматики в C# с использованием Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

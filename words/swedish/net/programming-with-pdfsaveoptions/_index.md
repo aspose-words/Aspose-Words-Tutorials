@@ -45,12 +45,12 @@ Oavsett om du vill konvertera Word-dokument till PDF för onlinedistribution, ar
 | [Uppdatera senast utskrivna egenskap i PDF-dokument](./update-last-printed-property/) | Lär dig hur du uppdaterar den senast utskrivna egenskapen i ett PDF-dokument med Aspose.Words för .NET med vår steg-för-steg-guide. |
 | [Rendera 3D DML 3DEffects i ett PDF-dokument](./dml-3deffects-rendering/) | Lär dig hur du renderar fantastiska 3D DML-effekter i PDF-dokument med Aspose.Words för .NET med den här omfattande steg-för-steg-guiden. |
 | [Interpolera bilder i ett PDF-dokument](./interpolate-images/) | Lär dig hur du interpolerar bilder i ett PDF-dokument med Aspose.Words för .NET med vår steg-för-steg-guide. Förbättra enkelt bildkvaliteten på din PDF. |
-| [Skapa tillgänglig PDF i C# – Steg‑för‑steg‑guide](./create-accessible-pdf-in-c-step-by-step-guide/) | Lär dig steg för steg hur du skapar en tillgänglig PDF i C# med Aspose.Words. |
 | [Spara Word som PDF med Aspose Words – Komplett C#‑guide](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Lär dig hur du sparar ett Word-dokument som PDF med Aspose.Words i en komplett C#‑guide. |
 | [Spara docx som pdf med Aspose.Words – Komplett C#-guide](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Lär dig hur du sparar DOCX som PDF med Aspose.Words i en komplett C#-guide. |
 | [Skapa tillgänglig PDF från Word med C# – Steg‑för‑steg‑guide](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | Lär dig hur du skapar en tillgänglig PDF från ett Word-dokument med C# i en detaljerad steg‑för‑steg‑guide. |
 | [Skapa tillgänglig PDF från Word med Aspose.Words](./create-accessible-pdf-from-word-using-aspose-words/) | Lär dig hur du skapar en tillgänglig PDF från ett Word-dokument med Aspose.Words i en steg‑för‑steg‑guide. |
 | [Skapa tillgänglig PDF i C# – PDF-tillgänglighetstutorial](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Lär dig skapa tillgängliga PDF-filer i C# med Aspose.Words och följa WCAG-riktlinjer. |
+| [Skapa tillgänglig PDF i C# – Steg‑för‑steg‑guide](./create-accessible-pdf-in-c-step-by-step-guide/) | Lär dig hur du skapar en tillgänglig PDF i C# med Aspose.Words genom en detaljerad steg‑för‑steg‑guide. |
 | [Skapa tillgänglig PDF från Word – Komplett guide](./create-accessible-pdf-from-word-complete-guide/) | Lär dig hur du skapar tillgängliga PDF-filer från Word-dokument med Aspose.Words för .NET i en komplett steg-för-steg-guide. |
 | [Skapa tillgänglig PDF med Aspose.Words – Komplett guide](./create-accessible-pdf-with-aspose-words-complete-guide/) | Lär dig steg för steg hur du skapar tillgängliga PDF-filer från Word med Aspose.Words i en komplett guide. |
 | [Skapa tillgänglig PDF från Word – Komplett programmeringsguide](./create-accessible-pdf-from-word-complete-programming-guide/) | Lär dig skapa tillgängliga PDF-filer från Word med en komplett programmeringsguide i C#. |
@@ -87,6 +87,7 @@ Oavsett om du vill konvertera Word-dokument till PDF för onlinedistribution, ar
 | [Skapa tillgänglig PDF – Konvertera Word till PDF med C#](./create-accessible-pdf-convert-word-to-pdf-with-c/) | Lär dig hur du konverterar Word-dokument till tillgängliga PDF-filer med C# och Aspose.Words för .NET i en steg‑för‑steg‑guide. |
 | [Spara Word som PDF – Komplett guide med tillgänglighet](./save-word-as-pdf-complete-guide-with-accessibility/) | Lär dig hur du sparar Word-dokument som PDF med full tillgänglighet i en komplett guide. |
 | [Skapa PDF/UA‑kompatibel fil från Word – Fullständig exportguide](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | Lär dig hur du exporterar ett Word-dokument till en PDF/UA‑kompatibel fil med en komplett guide. |
+| [Spara dokument som PDF i C# – Exportera inline‑former](./save-document-as-pdf-in-c-export-inline-shapes/) | Lär dig hur du sparar ett Word‑dokument som PDF i C# och exporterar inbäddade inline‑former med Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

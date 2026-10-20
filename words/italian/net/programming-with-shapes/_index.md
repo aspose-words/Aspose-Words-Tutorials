@@ -70,6 +70,7 @@ Utilizzando Aspose.Words per .NET e seguendo questi tutorial, imparerai a manipo
 | [Come nascondere una forma in Word usando C# – guida passo‑passo](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Scopri come nascondere una forma nei documenti Word con Aspose.Words per .NET usando C# in questa guida dettagliata. |
 | [Come raggruppare forme in Word e aggiungere forme al documento Word](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Scopri come raggruppare più forme e aggiungerle a un documento Word con Aspose.Words per .NET in questa guida passo passo. |
 | [Inserisci forma rettangolare in C# con Aspose.Words – guida passo‑passo](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | Scopri come inserire una forma rettangolare in C# usando Aspose.Words con questa guida passo‑passo. |
+| [Come aggiungere un'ombra alle forme Word – Guida completa C#](./how-to-add-shadow-to-word-shapes-complete-c-guide/) | Scopri come aggiungere un'ombra alle forme Word usando Aspose.Words per .NET con questa guida completa in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

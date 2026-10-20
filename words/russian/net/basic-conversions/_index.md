@@ -84,6 +84,7 @@ Basic Conversions проведет вас через базовые преобр
 | [Конвертировать Markdown в DOCX с Aspose.Words – Полное руководство C#](./convert-markdown-to-docx-with-aspose-words-complete-c-guide/) | Узнайте, как конвертировать файлы Markdown в DOCX с помощью Aspose.Words для .NET. Полное руководство на C# с примерами кода. |
 | [Конвертировать DOCX в PDF C# – Полное пошаговое руководство](./convert-docx-to-pdf-c-complete-step-by-step-guide/) | Подробное руководство по конвертации DOCX в PDF на C# с Aspose.Words, включающее полный набор примеров кода и объяснений. |
 | [Конвертировать docx в pdf в C# – Полное пошаговое руководство](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Узнайте, как конвертировать DOCX в PDF в C# с помощью Aspose.Words для .NET, следуя полному пошаговому руководству. |
+| [Конвертировать docx в txt с C# – Полное руководство по программированию](./convert-docx-to-txt-with-c-complete-programming-guide/) | Подробное руководство по конвертации DOCX в TXT с использованием C# и Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

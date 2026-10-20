@@ -72,6 +72,7 @@
 | [كيفية إخفاء الشكل في Word باستخدام C# – دليل خطوة بخطوة](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | تعلم كيفية إخفاء الأشكال في مستندات Word باستخدام C# من خلال دليل خطوة بخطوة. |
 | [إدراج شكل مستطيل في C# باستخدام Aspose.Words – دليل خطوة بخطوة](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | تعلم كيفية إدراج شكل مستطيل في مستند Word باستخدام C# و Aspose.Words خطوة بخطوة. |
 | [كيفية تجميع الأشكال في مستند Word باستخدام C#](./how-to-group-shapes-in-a-word-document-with-c/) | تعلم كيفية تجميع الأشكال في مستند Word باستخدام C# خطوة بخطوة. |
+| [كيفية إضافة ظل إلى أشكال Word – دليل كامل C#](./how-to-add-shadow-to-word-shapes-complete-c-guide/) | تعلم كيفية إضافة تأثير الظل إلى الأشكال في مستندات Word باستخدام Aspose.Words وC# خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

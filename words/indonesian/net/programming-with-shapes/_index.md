@@ -70,6 +70,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Simpan file docx dengan bentuk grup di Word menggunakan C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Pelajari cara menyimpan file docx yang berisi bentuk grup di Word menggunakan C# dengan Aspose.Words. Bahasa Indonesia: |
 | [Cara menyembunyikan bentuk di Word menggunakan C# – panduan langkah demi langkah](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Pelajari cara menyembunyikan bentuk di dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. |
 | [Menyisipkan bentuk persegi panjang di C# dengan Aspose.Words – panduan langkah demi langkah](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | Pelajari cara menyisipkan bentuk persegi panjang di dokumen Word menggunakan C# dan Aspose.Words dengan panduan langkah demi langkah. |
+| [Cara Menambahkan Bayangan pada Bentuk Word – Panduan Lengkap C#](./how-to-add-shadow-to-word-shapes-complete-c-guide/) | Pelajari cara menambahkan bayangan pada bentuk Word menggunakan Aspose.Words untuk .NET dengan panduan lengkap C#. Bahasa Indonesia: |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -85,6 +85,7 @@
 | [C#에서 CheckGrammar 호출하기 – 완전 가이드](./how-to-call-checkgrammar-in-c-complete-guide/) | Aspose.Words for .NET에서 C#을 사용해 CheckGrammar 메서드를 호출하고 문법 검사를 수행하는 방법을 단계별로 안내합니다. |
 | [Local LLM 튜토리얼 – 로컬 LLM 호출 및 문법 검사 실행](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | 로컬 LLM을 호출하고 문법 검사를 수행하는 방법을 단계별로 안내합니다. |
 | [C#으로 요약 보고서 만들기 – 완전 단계별 가이드](./create-summary-report-in-c-complete-step-by-step-guide/) | Aspose.Words for .NET을 사용해 C#에서 문서 요약 보고서를 단계별로 생성하는 방법을 안내합니다. |
+| [맞춤형 AI 모델 만들기 – C# 문법 검사 전체 가이드](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | Aspose.Words for .NET을 사용하여 C#에서 맞춤형 AI 모델을 만들고 문법 검사를 수행하는 방법을 단계별로 안내합니다. |
 
 | [Aspose.Words.AI로 docx를 프랑스어로 번역하기 – 전체 가이드](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Aspose.Words for .NET을 활용해 docx 파일을 프랑스어로 번역하는 전체 가이드를 제공합니다. |
 | [C#로 문서 요약 만들기 – OpenAI 전체 가이드](./create-document-summary-in-c-complete-openai-guide/) | Aspose.Words for .NET과 OpenAI를 사용해 C#에서 문서 요약을 구현하는 전체 가이드입니다. |

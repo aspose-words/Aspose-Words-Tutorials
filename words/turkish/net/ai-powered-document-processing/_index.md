@@ -87,6 +87,7 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [C#'ta CheckGrammar Çağırma – Tam Kılavuz](./how-to-call-checkgrammar-in-c-complete-guide/) | C# ile Aspose.Words'te CheckGrammar metodunu nasıl kullanacağınızı adım adım öğrenin. |
 | [Yerel LLM Eğitimi – Yerel LLM'yi Çağırma ve Dilbilgisi Kontrolü Çalıştırma](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Yerel LLM'yi nasıl çağıracağınızı ve belge üzerindeki dilbilgisi denetimini nasıl yapacağınızı öğrenin. |
 | [C#'ta Özet Rapor Oluşturma – Tam Adım Adım Kılavuz](./create-summary-report-in-c-complete-step-by-step-guide/) | C# kullanarak Aspose.Words ile adım adım özet rapor oluşturmayı öğrenin. |
+| [Özel AI Modeli Oluşturma – C#'ta Dilbilgisi Kontrolü İçin Tam Kılavuz](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | C# ile özel AI modeli oluşturarak dilbilgisi kontrolü yapmayı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

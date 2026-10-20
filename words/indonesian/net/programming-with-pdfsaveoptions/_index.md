@@ -87,6 +87,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat File PDF/UA yang Mematuhi Standar dari Word – Panduan Ekspor Lengkap](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | Panduan lengkap langkah demi langkah untuk membuat file PDF/UA yang mematuhi standar dari dokumen Word menggunakan Aspose.Words untuk .NET. |
 
 | [Buat PDF Aksesibel dari Word menggunakan Aspose.Words](./create-accessible-pdf-from-word-using-aspose-words/) | Panduan langkah demi langkah untuk membuat PDF yang dapat diakses dari dokumen Word menggunakan Aspose.Words untuk .NET. |
+| [Simpan Dokumen sebagai PDF di C# – Ekspor Bentuk Inline](./save-document-as-pdf-in-c-export-inline-shapes/) | Pelajari cara mengekspor bentuk inline ke PDF menggunakan Aspose.Words untuk .NET dengan C# dalam panduan langkah demi langkah ini. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

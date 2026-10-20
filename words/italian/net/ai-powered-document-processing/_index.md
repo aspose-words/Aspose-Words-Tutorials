@@ -83,6 +83,7 @@ Infine, non dimenticare di dare un'occhiata al nostro [Lavorare con le opzioni d
 | [Come chiamare CheckGrammar in C# – Guida completa](./how-to-call-checkgrammar-in-c-complete-guide/) | Scopri come utilizzare il metodo CheckGrammar in C# con Aspose.Words per .NET per migliorare la correzione grammaticale dei documenti. |
 | [Tutorial LLM locale – Come chiamare un LLM locale ed eseguire il controllo grammaticale](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Scopri come integrare un modello LLM locale in Aspose.Words per .NET e utilizzare il controllo grammaticale. |
 | [Creare un report di riepilogo in C# – Guida completa passo‑passo](./create-summary-report-in-c-complete-step-by-step-guide/) | Scopri come generare un report di riepilogo in C# con Aspose.Words, seguendo una guida dettagliata passo‑passo. |
+| [Creare modello AI personalizzato – Guida completa al controllo grammaticale in C#](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | Scopri come creare un modello AI personalizzato per il controllo grammaticale in C# con Aspose.Words per .NET. |
 
 | [Come controllare la grammatica e riassumere un documento Word con Aspose.Words AI](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Scopri come verificare la grammatica e generare riassunti dei documenti Word usando l'AI di Aspose.Words. |
 | [Creare un riepilogo del documento con Aspose.Words e OpenAI](./create-document-summary-with-aspose-words-openai/) | Crea un riepilogo efficace dei documenti usando Aspose.Words per .NET e i modelli OpenAI. |

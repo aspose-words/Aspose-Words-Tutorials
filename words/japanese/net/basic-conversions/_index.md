@@ -36,6 +36,7 @@
 | [Docx を txt に保存 – Word ファイルをプレーンテキストに変換する完全ガイド](./save-docx-as-txt-complete-guide-to-converting-word-files-to/) Aspose.Words for .NET を使用して、Docx ファイルをテキスト形式に変換し、保存する手順を詳しく解説します。コード例付き。 |
 | [docx を txt に変換 – Word の数式を LaTeX としてエクスポート](./convert-docx-to-txt-export-word-equations-as-latex/) Aspose.Words for .NET を使用して、docx を txt に変換し、Word の数式を LaTeX 形式でエクスポートする方法をステップバイステップで解説します。 |
 | [DOCX を TXT に変換 – LaTeX 方程式の完全 C# ガイド](./convert-docx-to-txt-complete-c-guide-for-latex-equations/) Aspose.Words for .NET を使用し、DOCX を TXT に変換し、LaTeX 方程式を保持する完全な C# ガイドです。コード例付きでステップバイステップ。 |
+| [C# で docx を txt に変換する – 完全プログラミングガイド](./convert-docx-to-txt-with-c-complete-programming-guide/) Aspose.Words for .NET を使用して C# で DOCX を TXT に変換する方法を、ステップバイステップで解説します。コード例付きで開発者に最適です。 |
 | [テキストファイルをWord文書に変換する](./txt-to-docx/) Aspose.Words for .NET を使用してテキストファイルをWord文書に変換する方法を学びましょう。包括的なガイドで、ドキュメント変換を効率的に管理できます。 | 
 | [PDFをJPEGとして保存](./pdf-to-jpeg/) Aspose.Words for .NET を使えば、PDF を簡単に JPEG に変換できます。サンプルや FAQ をまとめた詳細なガイドをご覧ください。開発者や熱心な方に最適です。 |
 | [PDF を Word 形式 (Docx) に保存する](./pdf-to-docx/) Aspose.Words for .NET を使用してPDFをWord文書（Docx）に変換する方法を、この詳細なステップバイステップガイドで学びましょう。開発者に最適です。 |

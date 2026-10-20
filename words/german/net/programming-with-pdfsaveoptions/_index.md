@@ -45,7 +45,6 @@ Egal, ob Sie Word-Dokumente für die Online-Verteilung, Archivierung oder den Dr
 | [Zuletzt gedruckte Eigenschaft im PDF-Dokument aktualisieren](./update-last-printed-property/) | Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie die zuletzt gedruckte Eigenschaft in einem PDF-Dokument mit Aspose.Words für .NET aktualisieren. |
 | [Rendern Sie 3D-DML-3DEffects in einem PDF-Dokument](./dml-3deffects-rendering/) | Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET beeindruckende 3D-DML-Effekte in PDF-Dokumenten rendern. |
 | [Interpolieren von Bildern in einem PDF-Dokument](./interpolate-images/) | Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET Bilder in einem PDF-Dokument interpolieren. Verbessern Sie ganz einfach die Bildqualität Ihres PDFs. |
-| [Barrierefreies PDF in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-accessible-pdf-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein barrierefreies PDF in C# Schritt für Schritt erstellen. |
 | [Word als PDF speichern mit Aspose Words – Vollständige C#‑Anleitung](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Word-Dokumente in PDF konvertieren – vollständige C#‑Anleitung. |
 | [DOCX als PDF mit Aspose.Words speichern – Vollständige C#‑Anleitung](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Erfahren Sie, wie Sie ein DOCX-Dokument mit Aspose.Words in ein PDF konvertieren – Schritt‑für‑Schritt‑C#‑Beispiel. |
 | [PDF aus Word mit Aspose exportieren – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein PDF aus einem Word-Dokument exportieren – komplette Schritt‑für‑Schritt‑Anleitung. |
@@ -87,6 +86,8 @@ Egal, ob Sie Word-Dokumente für die Online-Verteilung, Archivierung oder den Dr
 | [Barrierefreies PDF erstellen – Word in PDF mit C# konvertieren](./create-accessible-pdf-convert-word-to-pdf-with-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Word-Dokumente in barrierefreie PDFs mit C# konvertieren. |
 | [Word als PDF speichern – Vollständige Anleitung mit Barrierefreiheit](./save-word-as-pdf-complete-guide-with-accessibility/) | Erfahren Sie, wie Sie ein Word-Dokument mit Aspose.Words in ein barrierefreies PDF konvertieren – komplette Schritt‑für‑Schritt‑Anleitung. |
 | [PDF/UA-konforme Datei aus Word erstellen – Vollständige Exportanleitung](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein PDF/UA‑konformes Dokument aus Word exportieren – Schritt‑für‑Schritt‑Anleitung. |
+| [Barrierefreies PDF in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-accessible-pdf-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein barrierefreies PDF in C# Schritt für Schritt erstellen. |
+| [Dokument als PDF in C# speichern – Inline-Shapes exportieren](./save-document-as-pdf-in-c-export-inline-shapes/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Inline-Shapes beim Export in PDF aus C#-Code exportieren. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

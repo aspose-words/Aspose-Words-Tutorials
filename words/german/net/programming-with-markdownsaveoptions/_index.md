@@ -121,6 +121,14 @@ Erfahren Sie, wie Sie einen benutzerdefinierten Bildordner festlegen, um Bilder 
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und dabei Bilder extrahieren und speichern.
 ### [Bilder in CDN hochladen bei DOCX‑zu‑Markdown‑Konvertierung – Vollständige Anleitung](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/)
 Erfahren Sie, wie Sie Bilder während der DOCX‑zu‑Markdown‑Konvertierung automatisch in ein CDN hochladen.
+### [DOCX zu Markdown konvertieren – Vollständige Anleitung mit Gleichungs‑Export](./convert-docx-to-markdown-complete-guide-with-equation-export/)
+Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und dabei Gleichungen exportieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
+
+### [Aspose docx zu Markdown – Vollständige Anleitung zum Konvertieren und Extrahieren von Bildern](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/)
+Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose in Markdown konvertieren und dabei alle Bilder extrahieren.
+
+### [DOCX zu Markdown konvertieren – Vollständige Anleitung mit Formschatten und Wiederherstellung](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/)
+Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren, Formschatten beibehalten und beschädigte Dokumente wiederherstellen.
 
 ### [Wie man Markdown aus Word speichert – Schritt‑für‑Schritt‑Anleitung](./how-to-save-markdown-from-word-step-by-step-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown speichern – vollständige Schritt‑für‑Schritt‑Anleitung in C#.

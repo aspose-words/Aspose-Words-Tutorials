@@ -86,6 +86,7 @@
 | [C# में CheckGrammar को कॉल करने का तरीका – पूर्ण गाइड](./how-to-call-checkgrammar-in-c-complete-guide/) | C# में Aspose.Words के CheckGrammar फ़ंक्शन को उपयोग करने के चरण-दर-चरण मार्गदर्शन। |
 | [स्थानीय LLM ट्यूटोरियल – स्थानीय LLM को कॉल करना और व्याकरण जांच चलाना](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | स्थानीय LLM को कैसे कॉल करें और Aspose.Words के साथ व्याकरण जांच लागू करें। |
 | [C# में सारांश रिपोर्ट बनाना – पूर्ण चरण‑दर‑चरण गाइड](./create-summary-report-in-c-complete-step-by-step-guide/) | C# में Aspose.Words का उपयोग करके संपूर्ण सारांश रिपोर्ट बनाने की विस्तृत प्रक्रिया सीखें। |
+| [कस्टम AI मॉडल बनाएं – C# में व्याकरण जांच के लिए पूर्ण गाइड](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | C# में कस्टम AI मॉडल बनाकर व्याकरण जांच कैसे करें, इस पूर्ण गाइड में सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

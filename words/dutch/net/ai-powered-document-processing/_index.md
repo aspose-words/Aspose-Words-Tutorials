@@ -87,6 +87,7 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Hoe CheckGrammar aan te roepen in C# – Complete gids](./how-to-call-checkgrammar-in-c-complete-guide/) | Leer hoe u CheckGrammar in C# kunt aanroepen met Aspose.Words voor .NET. |
 | [Lokale LLM-tutorial – Hoe een lokale LLM aan te roepen en grammatica-controle uit te voeren](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Leer hoe u een lokale LLM kunt integreren met Aspose.Words voor .NET en automatisch grammatica-controle kunt uitvoeren. |
 | [Maak samenvattingsrapport in C# – Complete stapsgewijze gids](./create-summary-report-in-c-complete-step-by-step-guide/) | Leer hoe u met Aspose.Words voor .NET een samenvattingsrapport in C# maakt, stap voor stap. |
+| [Maak een aangepast AI-model – Volledige gids voor grammaticacontrole in C#](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | Leer hoe u een aangepast AI-model bouwt voor grammaticacontrole in C# met Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

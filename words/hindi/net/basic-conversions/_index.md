@@ -84,6 +84,7 @@
 | [DOCX को PDF में बदलें C# – पूर्ण चरण‑दर‑चरण गाइड](./convert-docx-to-pdf-c-complete-step-by-step-guide/) | .NET के लिए Aspose.Words का उपयोग करके DOCX को PDF में बदलने की पूरी C# गाइड। चरण‑दर‑चरण निर्देश और कोड उदाहरण। |
 | [C# में docx को pdf में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | .NET के लिए Aspose.Words का उपयोग करके C# में docx को PDF में बदलने की पूरी गाइड। चरण‑दर‑चरण निर्देश और कोड उदाहरण। |
 | [C# में DOCX से PDF बनाएं – चरण‑दर‑चरण गाइड](./create-pdf-from-docx-in-c-step-by-step-guide/) | .NET के लिए Aspose.Words का उपयोग करके C# में DOCX को PDF में बदलने की विस्तृत चरण‑दर‑चरण गाइड। |
+| [C# के साथ docx को txt में बदलें – पूर्ण प्रोग्रामिंग गाइड](./convert-docx-to-txt-with-c-complete-programming-guide/) | C# में Aspose.Words का उपयोग करके DOCX फ़ाइल को TXT में बदलने की पूरी मार्गदर्शिका। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

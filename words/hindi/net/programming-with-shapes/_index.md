@@ -75,6 +75,7 @@
 | [छिपी हुई दीर्घवृत्त आकृति के साथ खाली Word दस्तावेज़ बनाएं – पूर्ण C# गाइड](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | C# में Aspose.Words का उपयोग करके छिपी हुई दीर्घवृत्त आकृति के साथ एक खाली Word दस्तावेज़ बनाने की पूरी प्रक्रिया सीखें। |
 | [C# का उपयोग करके Word में समूहित आकृतियों के साथ docx फ़ाइल सहेजें](./save-docx-file-with-grouped-shapes-in-word-using-c/) | .NET के लिए Aspose.Words का उपयोग करके समूहित आकृतियों के साथ Word दस्तावेज़ को सहेजना सीखें। |
 | [C# के साथ आयत आकार डालें – चरण‑दर‑श Aspose.Words गाइड](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | .NET के लिए Aspose.Words का उपयोग करके C# में आयत आकार कैसे डालें, इस चरण‑दर‑श मार्गदर्शिका में सीखें। |
+| [Word आकृतियों में शैडो कैसे जोड़ें – पूर्ण C# गाइड](./how-to-add-shadow-to-word-shapes-complete-c-guide/) | C# में Aspose.Words का उपयोग करके Word आकृतियों में शैडो जोड़ने के चरण‑दर‑चरण निर्देश। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -121,6 +121,9 @@ MarkdownSaveOptions を使用した Words Processing は、Aspose.Words for .NET
 | [Markdown を Word に保存 – C# 開発者向けステップバイステップガイド](./save-markdown-as-word-step-by-step-guide-for-c-developers/) Aspose.Words for .NET を使用して、Markdown を Word 文書に変換し保存する手順を詳しく解説します。 |
 | [docx を Markdown に保存 – 画像抽出付き完全ガイド](./save-docx-as-markdown-complete-guide-with-image-extraction/) Aspose.Words for .NET を使用して、docx ファイルを 画像抽出機能付きで Markdown に変換し保存する完全なガイドです。 |
 | [DOCX から Markdown 変換時に画像を CDN にアップロード – 完全ガイド](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/) Aspose.Words for .NET を使用して、DOCX から Markdown へ変換する際に画像を CDN にアップロードする方法をステップバイステップで解説します。 |
+| [docx を Markdown に変換 – 完全ガイド（数式エクスポート付き）](./convert-docx-to-markdown-complete-guide-with-equation-export/) Aspose.Words for .NET を使用して、docx ファイルを数式エクスポート付きで Markdown に変換する完全な C# ガイドです。 |
+| [Aspose docx を Markdown に変換 – 画像抽出付き完全ガイド](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/) Aspose.Words for .NET を使用して、docx ファイルを Markdown に変換し、画像を抽出して保存する完全な手順を解説します。 |
+| [DOCX を Markdown に変換 – シェイプの影と復元を含む完全ガイド](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/) Aspose.Words for .NET を使用して、DOCX を Markdown に変換し、シェイプの影を保持しながら破損した文書を復元する完全ガイドです。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

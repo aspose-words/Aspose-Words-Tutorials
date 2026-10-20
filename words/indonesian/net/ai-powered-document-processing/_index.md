@@ -85,6 +85,7 @@ Terakhir, jangan lupa untuk memeriksa [Bekerja Dengan Opsi Ringkasan](./working-
 | [Cara Memanggil CheckGrammar di C# – Panduan Lengkap](./how-to-call-checkgrammar-in-c-complete-guide/) | Pelajari cara menggunakan metode CheckGrammar di C# dengan Aspose.Words untuk memeriksa tata bahasa dokumen secara otomatis. |
 | [Buat laporan ringkasan dalam C# – Panduan Langkah‑per‑Langkah Lengkap](./create-summary-report-in-c-complete-step-by-step-guide/) | Pelajari cara membuat laporan ringkasan menggunakan Aspose.Words untuk .NET dengan contoh kode C# lengkap. |
 | [Tutorial LLM Lokal – Cara Memanggil LLM Lokal dan Menjalankan Pemeriksaan Tata Bahasa](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Pelajari cara mengintegrasikan LLM lokal dengan Aspose.Words untuk .NET dan melakukan pemeriksaan tata bahasa secara otomatis. |
+| [Buat Model AI Kustom – Panduan Lengkap Pemeriksaan Tata Bahasa di C#](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | Pelajari cara membuat model AI kustom untuk memeriksa tata bahasa dalam kode C# menggunakan Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

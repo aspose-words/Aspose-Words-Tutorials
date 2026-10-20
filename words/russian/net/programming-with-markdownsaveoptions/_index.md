@@ -127,6 +127,9 @@
 | [Сохранить markdown как docx в C# – пошаговое руководство](./save-markdown-as-docx-in-c-step-by-step-guide/) | Подробное руководство по сохранению markdown в формате docx с использованием C# и Aspose.Words. |
 | [Сохранить markdown как Word – пошаговое руководство для разработчиков C#](./save-markdown-as-word-step-by-step-guide-for-c-developers/) | Подробное пошаговое руководство по сохранению markdown в документ Word для разработчиков C#. |
 | [Загрузка изображений в CDN при конвертации DOCX в Markdown – Полное руководство](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/) | Узнайте, как загружать изображения в CDN при конвертации DOCX в Markdown с помощью Aspose.Words для .NET. |
+| [Конвертировать docx в markdown – Полное руководство с экспортом уравнений](./convert-docx-to-markdown-complete-guide-with-equation-export/) | Полное руководство по конвертации DOCX в Markdown с экспортом уравнений LaTeX, используя Aspose.Words для .NET. |
+| [Aspose docx в markdown – Полное руководство по конвертации и извлечению изображений](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/) | Подробное руководство по конвертации DOCX в Markdown с извлечением изображений с помощью Aspose.Words для .NET. |
+| [Конвертировать DOCX в Markdown – Полное руководство с тенями фигур и восстановлением](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/) | Полное руководство по конвертации DOCX в Markdown с сохранением теней фигур и восстановлением повреждённых файлов. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

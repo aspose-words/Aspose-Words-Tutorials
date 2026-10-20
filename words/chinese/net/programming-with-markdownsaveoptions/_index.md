@@ -326,6 +326,15 @@
 
 使用 Aspose.Words for .NET 将 Markdown 文档转换并保存为 docx，提供完整的 C# 示例和分步指南。
 ### [在 DOCX 转 Markdown 转换中将图像上传到 CDN – 完整指南](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/)
+### [将 docx 转换为 markdown – 完整指南（含方程导出）](./convert-docx-to-markdown-complete-guide-with-equation-export/)
+
+使用 Aspose.Words for .NET 将 docx 文档转换为 Markdown，并导出其中的方程，提供完整示例和分步指南。
+
+### [Convert DOCX to Markdown – Complete Guide with Shape Shadow & Recovery](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/)
+
+使用 Aspose.Words for .NET 将 DOCX 转换为 Markdown，展示形状阴影处理及文档恢复技巧。
+
+### [Aspose docx 转 markdown – 完整指南：转换并提取图像](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

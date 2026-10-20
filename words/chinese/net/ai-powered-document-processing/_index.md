@@ -85,6 +85,7 @@
 | [如何在 C# 中调用 CheckGrammar – 完整指南](./how-to-call-checkgrammar-in-c-complete-guide/) 使用 Aspose.Words for .NET 在 C# 中调用 CheckGrammar 方法，提升文档语法检查的准确性和自动化。|
 | [本地 LLM 教程 – 调用本地 LLM 并进行语法检查](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) 使用 Aspose.Words for .NET 调用本地大语言模型进行文档语法检查的完整指南。|
 | [在 C# 中创建摘要报告 – 完整分步指南](./create-summary-report-in-c-complete-step-by-step-guide/) 使用 Aspose.Words for .NET 在 C# 中创建完整的摘要报告，提供详细的分步指南。|
+| [创建自定义 AI 模型 – C# 语法检查完整指南](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) 了解如何使用 Aspose.Words for .NET 创建自定义 AI 模型，实现 C# 语法检查，提升文档质量。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

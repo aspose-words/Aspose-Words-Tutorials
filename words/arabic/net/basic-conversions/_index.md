@@ -84,6 +84,7 @@
 | [إنشاء PDF من Word باستخدام C# – دليل كامل](./create-pdf-from-word-in-c-full-guide/) | تعرّف على كيفية إنشاء ملفات PDF من مستندات Word باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
 | [إنشاء PDF من Word في C# – دليل سريع منخفض الكود](./create-pdf-from-word-in-c-fast-low-code-guide/) | دليل سريع لإنشاء ملفات PDF من مستندات Word باستخدام C# مع القليل من الكود. |
 | [تحويل Markdown إلى DOCX باستخدام Aspose.Words – دليل C# كامل](./convert-markdown-to-docx-with-aspose-words-complete-c-guide/) | تعرّف على كيفية تحويل ملفات Markdown إلى DOCX باستخدام Aspose.Words في C# خطوة بخطوة مع أمثلة عملية. |
+| [تحويل Docx إلى Txt باستخدام C# – دليل برمجة كامل](./convert-docx-to-txt-with-c-complete-programming-guide/) | تعلّم كيفية تحويل ملفات DOCX إلى TXT باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

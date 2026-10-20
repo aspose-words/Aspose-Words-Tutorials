@@ -86,6 +86,7 @@
 | [Πώς να καλέσετε το CheckGrammar σε C# – Πλήρης Οδηγός](./how-to-call-checkgrammar-in-c-complete-guide/) | Μάθετε πώς να χρησιμοποιήσετε τη μέθοδο CheckGrammar στο Aspose.Words για .NET με C# για έλεγχο γραμματικής εγγράφων. |
 | [Τοπικό LLM Σεμινάριο – Πώς να Καλέσετε ένα Τοπικό LLM και να Εκτελέσετε Έλεγχο Γραμματικής](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Μάθετε πώς να ενσωματώσετε ένα τοπικό μοντέλο LLM στο Aspose.Words για .NET και να εκτελέσετε αυτόματο έλεγχο γραμματικής στα έγγραφά σας. |
 | [Δημιουργία αναφοράς σύνοψης σε C# – Πλήρης οδηγός βήμα‑βήμα](./create-summary-report-in-c-complete-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε αναφορά σύνοψης σε C# με Aspose.Words, ακολουθώντας αναλυτικές οδηγίες βήμα‑βήμα. |
+| [Δημιουργία προσαρμοσμένου μοντέλου AI – Πλήρης οδηγός ελέγχου γραμματικής σε C#](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | Μάθετε πώς να δημιουργήσετε προσαρμοσμένο μοντέλο AI για έλεγχο γραμματικής σε C# χρησιμοποιώντας Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

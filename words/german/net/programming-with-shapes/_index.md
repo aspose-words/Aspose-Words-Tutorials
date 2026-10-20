@@ -72,6 +72,7 @@ Mit Aspose.Words für .NET und diesen Tutorials meistern Sie die Bearbeitung von
 | [Leeres Word-Dokument mit versteckter Ellipsenform erstellen – vollständige C#‑Anleitung](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Words für .NET ein leeres Word-Dokument erstellen und eine versteckte Ellipsenform hinzufügen. |
 | [Form in Word mit C# ausblenden – Schritt‑für‑Schritt‑Anleitung](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Formen in Word-Dokumenten programmgesteuert ausblenden. |
 | [Formen in einem Word-Dokument mit C# gruppieren](./how-to-group-shapes-in-a-word-document-with-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Formen in einem Word-Dokument gruppieren. |
+| [Schatten zu Word-Formen hinzufügen – Vollständige C#‑Anleitung](./how-to-add-shadow-to-word-shapes-complete-c-guide/) | Lernen Sie, wie Sie mit Aspose.Words für .NET in C# Schatten zu Word-Formen hinzufügen und visuelle Effekte erzeugen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -108,6 +108,7 @@ class Program
 | [Register Warning Callback in Aspose.Words – Complete Programming Guide](./register-warning-callback-in-aspose-words-complete-programmi/) | Learn how to register a warning callback in Aspose.Words for .NET with this complete programming guide. Step-by-step instructions included. |
 | [How to Use LoadOptions in Aspose.Words – Complete C# Guide](./how-to-use-loadoptions-in-aspose-words-complete-c-guide/) | A step-by-step C# guide on using LoadOptions in Aspose.Words for .NET, covering all settings and best practices. |
 | [Recover corrupted docx – Full Guide to Loading Damaged Word Files in C#](./recover-corrupted-docx-full-guide-to-loading-damaged-word-fi/) | Learn how to load and recover damaged DOCX files in C# using Aspose.Words, with step-by-step instructions and code examples. |
+| [Recover Corrupted DOCX – Complete Guide to Fixing and Loading Broken Word Files](./recover-corrupted-docx-complete-guide-to-fixing-and-loading/) | Learn how to fix and load corrupted DOCX files using Aspose.Words for .NET with step-by-step instructions. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

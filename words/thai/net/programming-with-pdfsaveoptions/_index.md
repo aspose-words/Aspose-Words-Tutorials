@@ -88,6 +88,8 @@
 - [บันทึกเอกสารเป็น PDF ด้วย C# – คู่มือฉบับสมบูรณ์](./save-document-as-pdf-in-c-complete-guide/) | เรียนรู้วิธีบันทึกเอกสาร Word เป็น PDF ด้วย C# อย่างละเอียดด้วย Aspose.Words สำหรับ .NET
 - [บันทึก Word เป็น PDF – คู่มือฉบับสมบูรณ์พร้อมการเข้าถึง](./save-word-as-pdf-complete-guide-with-accessibility/) | เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF อย่างครบถ้วนพร้อมการทำให้เข้าถึงได้ตามมาตรฐาน WCAG ด้วย Aspose.Words สำหรับ .NET
 - [สร้างไฟล์ PDF/UA ที่สอดคล้องจาก Word – คู่มือการส่งออกเต็มรูปแบบ](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | เรียนรู้วิธีสร้างไฟล์ PDF/UA ที่สอดคล้องจากเอกสาร Word ด้วย Aspose.Words สำหรับ .NET อย่างละเอียด
+- [บันทึกเอกสารเป็น PDF ใน C# – ส่งออก Inline Shapes](./save-document-as-pdf-in-c-export-inline-shapes/) | เรียนรู้วิธีส่งออก Inline Shapes ไปยัง PDF ด้วย Aspose.Words สำหรับ .NET ผ่านขั้นตอนแบบละเอียด
+- [สร้าง PDF ที่เข้าถึงได้ใน C# – คู่มือขั้นตอนโดยขั้นตอน](./create-accessible-pdf-in-c-step-by-step-guide/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้ตามมาตรฐาน PDF/UA ด้วย C# ผ่านขั้นตอนละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

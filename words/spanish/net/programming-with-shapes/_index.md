@@ -72,6 +72,7 @@ Al usar Aspose.Words para .NET y seguir estos tutoriales, dominará la manipulac
 | [Dibujar rectángulo en Word – Agregar formas en Word con Aspose](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Aprenda a dibujar un rectángulo y agregar formas en Word usando Aspose.Words para .NET con esta guía paso a paso. |
 | [Guardar archivo docx con formas agrupadas en Word usando C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Aprenda a guardar documentos DOCX con formas agrupadas en Word usando Aspose.Words para .NET y C#. |
 | [Cómo ocultar una forma en Word usando C# – guía paso a paso](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Aprenda a ocultar formas en documentos de Word con Aspose.Words para .NET usando C# paso a paso. |
+| [Cómo agregar sombra a formas de Word – Guía completa en C#](./how-to-add-shadow-to-word-shapes-complete-c-guide/) | Aprenda a agregar sombras a formas en documentos de Word con Aspose.Words para .NET mediante esta guía paso a paso en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
