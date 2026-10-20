@@ -50,12 +50,12 @@ weight: 1
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 **Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 #### 许可证获取
 Aspose.Words 是商业产品。你可以先使用免费 30 天试用，或申请临时评估许可证。详情请访问 [purchase page](https://purchase.aspose.com/buy)。
@@ -70,20 +70,20 @@ Aspose.Words 是商业产品。你可以先使用免费 30 天试用，或申请
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
-```
+```  
 
 **步骤 2：** 创建并添加批注  
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **步骤 3：** 为批注添加回复  
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
-```
+```  
 
 ### 功能 2：打印所有批注
 **概述** – 检索每个顶层批注及其回复以供审阅。
@@ -92,7 +92,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
 **步骤 1：** 加载文档  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
-```
+```  
 
 **步骤 2：** 检索并打印批注  
 ```java
@@ -106,7 +106,7 @@ for (Comment comment : (Iterable<Comment>) comments) {
         }
     }
 }
-```
+```  
 
 ### 功能 3：在 Java 中删除批注回复
 **概述** – 展示 **how to delete comment replies**，保持文档整洁。
@@ -120,7 +120,7 @@ comment.setText("My comment.");
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
-```
+```  
 
 **步骤 2：** 删除回复  
 ```java
@@ -139,7 +139,7 @@ DocumentBuilder documentBuilder = new DocumentBuilder(document);
 documentBuilder.writeln("Hello world!");
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
-```
+```  
 
 **步骤 2：** 将批注标记为完成  
 ```java
@@ -147,7 +147,7 @@ document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
 comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
-```
+```  
 
 ### 功能 5：从批注获取 UTC 日期和时间
 **概述** – 获取批注添加时的精确 UTC 时间戳，适用于审计日志。
@@ -161,7 +161,7 @@ Date dateTime = new Date();
 Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **步骤 2：** 保存并检索 UTC 日期  
 ```java
@@ -169,7 +169,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
-```
+```  
 
 ## 实际应用场景
 - **协同编辑：** 团队可以在生成的报告中直接添加和回复批注。  

@@ -1,25 +1,25 @@
 ---
 category: general
-date: 2025-12-29
-description: Crea una forma rectangular en un documento de Word usando Aspose.Words
-  C#. Aprende a establecer la transparencia de la forma, definir el color de la sombra
-  y guardar el documento de Word sin esfuerzo.
+date: 2026-02-18
+description: Crea una forma rectangular usando Aspose.Words y aprende cómo agregar
+  sombra, establecer el tamaño de la forma y guardar el documento de Word en unos
+  minutos.
 draft: false
 keywords:
 - create rectangle shape
-- set shape transparency
-- set shadow color
+- how to add shadow
 - save word document
-- create word document
+- set shape size
+- how to create document
 language: es
-og_description: Crea una forma rectangular en un documento de Word con Aspose.Words
-  C#. Esta guía muestra cómo establecer la transparencia de la forma, definir el color
-  de la sombra y guardar el documento de Word.
+og_description: Crea una forma rectangular en un archivo de Word, aprende cómo agregar
+  sombra, establecer el tamaño de la forma y guardar el documento con Aspose.Words
+  en C#.
 og_title: Crear forma de rectángulo en Word – Tutorial completo de Aspose.Words
 tags:
 - Aspose.Words
 - C#
-- Word Automation
+- Word automation
 title: Crear forma rectangular en Word con Aspose.Words – Guía paso a paso
 url: /es/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/
 ---
@@ -28,180 +28,187 @@ url: /es/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crear forma rectangular en Word – Tutorial completo de Aspose.Words
+# Crear forma rectangular en Word con Aspose.Words – Guía paso a paso
 
-¿Alguna vez necesitaste **crear una forma rectangular** en un documento Word pero no sabías por dónde empezar? No estás solo; muchos desarrolladores se topan con este obstáculo al automatizar informes o facturas. En esta guía recorreremos paso a paso los pasos exactos para crear una forma rectangular, establecer la transparencia de la forma, definir el color de la sombra y, finalmente, **guardar el documento Word** usando Aspose.Words para .NET.
+¿Alguna vez necesitaste **crear una forma rectangular** en un archivo Word pero no sabías por dónde empezar? No eres el único—los desarrolladores a menudo preguntan: “¿cómo agrego una sombra a una forma y sigo manteniendo el documento editable?” En este tutorial responderemos eso y también te mostraremos **cómo agregar sombra**, **establecer el tamaño de la forma** y **guardar el documento Word** todo en un flujo continuo.
 
-Cubriremos todo, desde el objeto de documento inicial hasta el archivo final `.docx` en disco, de modo que al terminar podrás **crear documentos Word** programáticamente sin adivinar. Sin referencias externas, solo una solución autocontenida que puedes copiar‑pegar en tu proyecto.
+Recorreremos todo lo que necesitas, desde inicializar un nuevo documento (sí, ese es el primer paso para **cómo crear documento**) hasta persistir el *.docx* final en disco. Sin referencias externas, solo un ejemplo autocontenido que puedes copiar‑pegar en Visual Studio y ejecutar hoy.
 
-## Requisitos previos
+---
 
-- .NET 6.0 o superior (el código también funciona con .NET Framework 4.7+)
-- Paquete NuGet Aspose.Words for .NET (`Install-Package Aspose.Words`)
-- Familiaridad básica con la sintaxis de C#
-- Un IDE de tu elección (Visual Studio, Rider, VS Code, etc.)
+## Prerrequisitos
 
-> **Consejo profesional:** Si estás usando una versión de prueba gratuita de Aspose.Words, la biblioteca añadirá una marca de agua al archivo de salida. Para producción necesitarás una licencia válida.
+- .NET 6+ (o .NET Framework 4.7+). Aspose.Words funciona con cualquier runtime .NET reciente.
+- Una licencia válida de Aspose.Words (o la clave de evaluación gratuita) – de lo contrario verás una marca de agua.
+- Visual Studio, Rider o cualquier editor de C# que prefieras.
+- Conocimientos básicos de C#—nada sofisticado, solo la capacidad de ejecutar una aplicación de consola.
 
-## Paso 1: Inicializar el Document y el Builder
+> **Consejo profesional:** Si estás en Mac, el mismo código se ejecuta bajo .NET 6 con VS Code—solo asegúrate de referenciar el paquete NuGet `Aspose.Words`.
 
-Lo primero que hacemos es crear un documento Word nuevo y vacío y un `DocumentBuilder` que nos permite insertar contenido. Piensa en el builder como un lápiz virtual que dibuja en la página.
+---
+
+## Paso 1: Inicializar el documento – la base de **cómo crear documento**
+
+Antes de poder dibujar cualquier cosa, necesitamos un lienzo en blanco. Aspose.Words llama a esto un `Document`.  
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using System.Drawing;
 
-// Create a new blank document
+// Step 1: Create a new blank document
 Document document = new Document();
-
-// The builder provides methods to add text, tables, shapes, etc.
-DocumentBuilder builder = new DocumentBuilder(document);
 ```
 
-> **Por qué es importante:** Sin un `DocumentBuilder` tendrías que manipular el árbol de nodos de bajo nivel directamente, lo que es propenso a errores y más difícil de leer.
+> **Por qué importa:** El objeto `Document` representa todo el archivo *.docx*. Todas las formas, párrafos y secciones que agregues se convierten en hijos de este objeto. Comenzar con un documento limpio garantiza que no haya estilos ocultos que interfieran con tu rectángulo.
 
-## Paso 2: Crear forma rectangular
+---
 
-Ahora realmente **creamos la forma rectangular**. El método `InsertShape` recibe un enum `ShapeType`, ancho y alto (en puntos). El objeto `Shape` devuelto nos permite ajustar propiedades visuales más adelante.
+## Paso 2: Definir el rectángulo y **establecer el tamaño de la forma**
+
+Un rectángulo es simplemente un `Shape` con `ShapeType.Rectangle`. Le daremos dimensiones explícitas para que se vea exactamente como se pretende.
 
 ```csharp
-// Insert a rectangle 150 pts wide and 80 pts tall
-Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 80);
+// Step 2: Create a rectangular shape and define its size
+Shape rectangleShape = new Shape(document, ShapeType.Rectangle);
+rectangleShape.Width  = 200; // width in points (≈2.78 inches)
+rectangleShape.Height = 100; // height in points (≈1.39 inches)
 ```
 
-En este punto el rectángulo es una caja negra sólida anclada al párrafo actual. Puedes moverlo, cambiar su tamaño o incluso rotarlo más tarde si lo necesitas.
+> **Qué significan los números:** Aspose.Words usa puntos (1 pt = 1/72 in). Ajusta los valores para que encajen en tu diseño; para una página A4 típica, 200 pt es un ancho cómodo.
 
-![create rectangle shape with shadow](/images/rectangle-shadow.png "A Word document showing a rectangle shape with a gray shadow")
+---
 
-*Texto alternativo de la imagen: crear forma rectangular con sombra en un documento Word*
+## Paso 3: **Cómo agregar sombra** – haciendo que la forma destaque
 
-## Paso 3: Establecer la transparencia de la forma
-
-La transparencia es el nivel de “ver a través” del relleno de la forma. Aspose.Words usa una propiedad `Transparency` que varía de `0.0` (opaco) a `1.0` (totalmente transparente). Aquí **establecemos la transparencia de la forma** al 40 % para que el texto subyacente siga siendo legible.
+Las sombras dan una pista visual de que la forma está “levemente elevada” de la página. La propiedad `Shadow` te permite ajustar color, distancia, transparencia y desenfoque.
 
 ```csharp
-// Make the rectangle 40 % transparent
-rectangleShape.Fill.Transparency = 0.4; // 0.0 = opaque, 1.0 = invisible
+// Step 3: Apply a shadow to the shape
+rectangleShape.Shadow.Color        = Color.Black; // Shadow color
+rectangleShape.Shadow.Distance    = 5;           // Offset distance in points
+rectangleShape.Shadow.Transparency = 0.4;        // 40 % transparent
+rectangleShape.Shadow.BlurRadius  = 8;           // Soft edge radius
 ```
 
-> **Caso límite:** Si necesitas una forma completamente invisible pero que la sombra siga apareciendo, establece `Transparency` a `1.0` y asigna a la forma un ancho de contorno distinto de cero.
+> **¿Por qué usar transparencia?** Una sombra totalmente opaca puede resultar dura. Configurarla a 0.4 hace que el efecto sea sutil y profesional.
 
-## Paso 4: Configurar la sombra
+---
 
-Una sombra sutil agrega profundidad. **Estableceremos el color de la sombra** a un gris medio, ajustaremos su radio de desenfoque y la desplazaremos unos puntos tanto horizontal como verticalmente.
+## Paso 4: Posicionar el rectángulo – flujo en línea con el texto circundante
+
+Si deseas que la forma se comporte como un carácter dentro de un párrafo, establece su `WrapType` a `Inline`. Esto mantiene el diseño predecible, especialmente cuando el documento se edita más tarde.
 
 ```csharp
-// Enable the shadow effect
-rectangleShape.Shadow.Enabled = true;
-
-// Shadow color – a neutral gray
-rectangleShape.Shadow.Color = System.Drawing.Color.Gray;
-
-// 40 % transparent shadow (same as shape's fill)
-rectangleShape.Shadow.Transparency = 0.4;
-
-// Blur radius makes the edge softer
-rectangleShape.Shadow.Blur = 6;
-
-// Horizontal and vertical offsets (in points)
-rectangleShape.Shadow.OffsetX = 5;
-rectangleShape.Shadow.OffsetY = 5;
+// Step 4: Set the shape to flow inline with the surrounding text
+rectangleShape.WrapType = WrapType.Inline;
 ```
 
-> **Por qué es importante:** Una sombra demasiado nítida o demasiado oscura puede parecer un artefacto de impresión. Ajusta `Blur` y `Transparency` hasta que se vea natural.
+> **Caso extremo:** Si necesitas que el rectángulo flote sobre el texto (p. ej., una marca de agua), cambia `WrapType` a `Square` o `BehindText`.
 
-## Paso 5: Guardar el documento Word
+---
 
-Finalmente **guardamos el documento Word** en disco. El método `Save` determina automáticamente el formato del archivo a partir de la extensión; `.docx` es el formato OpenXML moderno.
+## Paso 5: Insertar la forma en el cuerpo del documento
+
+Ahora realmente colocamos el rectángulo en el primer párrafo. Si el documento aún no tiene contenido, `FirstParagraph` se crea automáticamente.
 
 ```csharp
-// Save the document to the desired folder
-document.Save(@"C:\Temp\ShadowRectangle.docx");
+// Step 5: Insert the shape into the first paragraph of the document
+document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
 ```
 
-Si la carpeta no existe, Aspose.Words lanzará una `ArgumentException`. Asegúrate de que la ruta sea válida o crea el directorio con antelación.
+> **Consejo:** También puedes crear un nuevo párrafo primero y luego anexar la forma—útil cuando necesitas texto alrededor.
 
-## Ejemplo completo funcional
+---
 
-A continuación tienes el programa completo, listo para ejecutar, que combina todos los pasos. Copia esto en un nuevo proyecto de consola y pulsa **F5**.
+## Paso 6: **Guardar documento Word** – el paso final
+
+Con todo en su lugar, persistir el archivo es una sola línea. Elige cualquier ruta que desees; el ejemplo usa un marcador de posición que deberías reemplazar con tu propio directorio.
 
 ```csharp
-using System;
+// Step 6: Save the document with the shadowed shape
+document.Save(@"C:\Temp\ShadowShape.docx");
+```
+
+> **Resultado:** Abre el *.docx* generado en Microsoft Word. Verás un rectángulo con sombra negra, 200 pt de ancho y 100 pt de alto, alineado en línea con el primer párrafo.
+
+---
+
+## Salida esperada
+
+Al abrir **ShadowShape.docx**, el documento muestra:
+
+- Un solo párrafo que contiene una forma rectangular.
+- El rectángulo tiene una sombra negra sutil desplazada 5 pt.
+- El tamaño de la forma coincide con las dimensiones establecidas en el Paso 2.
+- No aparece texto extra a menos que lo añadas manualmente.
+
+Si la forma no aparece, verifica que hayas referenciado la versión correcta de Aspose.Words y que tu licencia (o prueba) esté activa.
+
+---
+
+## Preguntas frecuentes y variaciones
+
+| Pregunta | Respuesta |
+|----------|-----------|
+| *¿Puedo cambiar el color de la sombra a algo distinto del negro?* | Por supuesto—establece `rectangleShape.Shadow.Color = Color.Blue;` o cualquier `System.Drawing.Color`. |
+| *¿Qué pasa si necesito un rectángulo más grande?* | Ajusta los valores de `Width` y `Height`. Recuerda que están en puntos; 72 pt = 1 in. |
+| *¿Es posible colocar la forma en una posición absoluta?* | Sí—usa `WrapType = WrapType.Absolute` y establece las propiedades `Top`/`Left`. |
+| *¿Esto funciona con .NET Core?* | Funciona. Aspose.Words es multiplataforma; solo instala el paquete NuGet para .NET Standard. |
+| *¿Puedo agregar texto dentro del rectángulo?* | No directamente; tendrías que insertar una forma `TextBox` en lugar de un rectángulo simple. |
+
+---
+
+## Ejemplo completo (listo para copiar‑pegar)
+
+```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using System.Drawing;
 
-namespace AsposeRectangleDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main()
-        {
-            // 1️⃣ Initialize document and builder
-            Document document = new Document();
-            DocumentBuilder builder = new DocumentBuilder(document);
+        // 1️⃣ Initialize a new document
+        Document document = new Document();
 
-            // 2️⃣ Insert rectangle shape
-            Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 80);
+        // 2️⃣ Create rectangle and set its size
+        Shape rectangleShape = new Shape(document, ShapeType.Rectangle);
+        rectangleShape.Width  = 200;
+        rectangleShape.Height = 100;
 
-            // 3️⃣ Set shape transparency (40 % transparent)
-            rectangleShape.Fill.Transparency = 0.4;
+        // 3️⃣ Add a subtle black shadow
+        rectangleShape.Shadow.Color         = Color.Black;
+        rectangleShape.Shadow.Distance     = 5;
+        rectangleShape.Shadow.Transparency = 0.4;
+        rectangleShape.Shadow.BlurRadius   = 8;
 
-            // 4️⃣ Configure shadow (color, blur, offset, transparency)
-            rectangleShape.Shadow.Enabled = true;
-            rectangleShape.Shadow.Color = System.Drawing.Color.Gray;
-            rectangleShape.Shadow.Transparency = 0.4;
-            rectangleShape.Shadow.Blur = 6;
-            rectangleShape.Shadow.OffsetX = 5;
-            rectangleShape.Shadow.OffsetY = 5;
+        // 4️⃣ Make the shape flow inline with text
+        rectangleShape.WrapType = WrapType.Inline;
 
-            // 5️⃣ Save the document
-            string outputPath = @"C:\Temp\ShadowRectangle.docx";
-            document.Save(outputPath);
+        // 5️⃣ Insert the shape into the first paragraph
+        document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
 
-            Console.WriteLine($"Document saved to {outputPath}");
-        }
+        // 6️⃣ Persist the file
+        document.Save(@"C:\Temp\ShadowShape.docx");
+
+        System.Console.WriteLine("Document saved successfully!");
     }
 }
 ```
 
-### Resultado esperado
-
-Abre `ShadowRectangle.docx` en Microsoft Word. Deberías ver un rectángulo gris claro con una sombra suave y ligeramente desplazada, ambos renderizados al 40 % de transparencia. La forma se sitúa en una página en blanco, lista para contenido adicional.
-
-## Preguntas frecuentes y variaciones
-
-**¿Qué pasa si necesito una forma diferente?**  
-Reemplaza `ShapeType.Rectangle` por cualquier otro valor del enum (`Ellipse`, `Triangle`, `Star`, etc.). El resto del código permanece igual.
-
-**¿Puedo cambiar el color del contorno?**  
-Sí—usa `rectangleShape.StrokeColor = System.Drawing.Color.Blue;` y opcionalmente establece `rectangleShape.StrokeWeight = 1.5;`.
-
-**¿Cómo coloco la forma en una ubicación específica de la página?**  
-Configura `rectangleShape.WrapType = WrapType.None;` y luego ajusta las propiedades `rectangleShape.Left` y `rectangleShape.Top` (los valores están en puntos).
-
-**¿Es posible añadir texto dentro del rectángulo?**  
-Absolutamente. Después de crear la forma, puedes llamar a `rectangleShape.AppendChild(new Paragraph(document))` y luego añadir un `Run` con tu texto. Recuerda establecer las propiedades `rectangleShape.TextBox` si deseas un formato más rico.
-
-## Consejos profesionales y trampas comunes
-
-- **Licencia temprana:** Si olvidas aplicar una licencia, Aspose.Words insertará una marca de agua en la primera página, lo que puede resultar confuso durante las pruebas.
-- **Consejo de rendimiento:** Al generar muchos documentos en un bucle, reutiliza una única instancia de `Document` y llama a `document.RemoveAllChildren();` después de cada guardado para evitar una presión excesiva del GC.
-- **Visibilidad de la sombra:** En pantallas de baja resolución una sombra sutil puede parecer invisible. Incrementa `Blur` o `OffsetX/Y` para depurar, luego vuelve a reducirlo para producción.
-
-## Próximos pasos
-
-Ahora que sabes cómo **crear una forma rectangular**, **establecer la transparencia de la forma**, **definir el color de la sombra** y **guardar el documento Word**, considera ampliar el tutorial:
-
-- Añadir múltiples formas y agruparlas.
-- Insertar el rectángulo dentro de una celda de tabla para un diseño de informe.
-- Combinar la forma con `DocumentBuilder.InsertHtml` para superponer contenido con estilo HTML.
-- Explorar otros efectos visuales como `Glow` o `Reflection` para documentos más ricos visualmente.
-
-Experimenta, rompe cosas y luego refina—la generación programática de documentos es un patio de juegos donde el diseño visual se encuentra con el código.
+Ejecuta el programa, navega a `C:\Temp\ShadowShape.docx` y verás el rectángulo con sombra exactamente como se describió.
 
 ---
 
-*¡Feliz codificación! Si te encontraste con algún problema, deja un comentario abajo y lo solucionaremos juntos.*
+## Conclusión
+
+Ahora sabes cómo **crear una forma rectangular** en un archivo Word usando Aspose.Words, cómo **establecer el tamaño de la forma**, **agregar sombra**, y finalmente **guardar el documento Word** con los cambios. Todo el proceso—desde **cómo crear documento** hasta persistir el resultado—cabe en unas cuantas líneas de C# y puede ampliarse para diseños más complejos.
+
+¿Listo para el próximo desafío? Prueba a sustituir el rectángulo por una forma con esquinas redondeadas, experimenta con diferentes colores de sombra, o incrusta la forma dentro de una celda de tabla. Cada ajuste refuerza los mismos conceptos básicos que cubrimos aquí.
+
+Si encontraste útil esta guía, compártela, deja un comentario con tus propias variaciones, o explora nuestros otros tutoriales sobre automatización de Word, como insertar imágenes o generar tablas con Aspose.Words. ¡Feliz codificación!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -59,13 +59,13 @@ Aspose.Words 提供豐富的 `ControlChar` 常數，讓您在不需處理低階�
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 如果您偏好 Gradle，請使用以下片段：
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ## 許可證獲取
 若要完整使用 Aspose.Words，您需要授權檔案：
@@ -77,7 +77,7 @@ implementation 'com.aspose:aspose-words:25.3'
 ```java
 License license = new License();
 license.setLicense("path/to/aspose.words.lic");
-```
+```  
 
 ## 實作指南
 我們將實作分為兩個主要功能：處理換行字元與插入控制字元。

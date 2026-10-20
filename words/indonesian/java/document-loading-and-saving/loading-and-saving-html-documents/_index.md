@@ -1,12 +1,10 @@
 ---
-date: 2025-12-20
-description: Pelajari cara memuat HTML dan mengonversi HTML ke DOCX dengan Aspose.Words
-  untuk Java. Panduan langkah demi langkah menunjukkan cara menyimpan file DOCX dan
-  menggunakan tag dokumen terstruktur.
+date: 2026-02-24
+description: Pelajari cara memuat HTML dan cara menyimpan DOCX menggunakan Aspose.Words
+  untuk Java – panduan langkah demi langkah untuk konversi HTML ke DOCX.
 linktitle: Loading and Saving HTML Documents
 second_title: Aspose.Words Java Document Processing API
-title: Cara Memuat HTML dan Menyimpan sebagai DOCX menggunakan Aspose.Words untuk
-  Java
+title: Cara Memuat HTML dan Menyimpan sebagai DOCX dengan Aspose.Words untuk Java
 url: /id/java/document-loading-and-saving/loading-and-saving-html-documents/
 weight: 10
 ---
@@ -17,39 +15,32 @@ weight: 10
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Memuat HTML dan Menyimpan sebagai DOCX menggunakan Aspose.Words untuk Java
+# Cara Memuat HTML dan Menyimpan sebagai DOCX dengan Aspose.Words untuk Java
 
-## Pendahuluan tentang Memuat dan Menyimpan Dokumen HTML dengan Aspose.Words untuk Java
-
-Dalam artikel ini, kita akan menjelajahi **cara memuat html** dan menyimpannya sebagai file DOCX menggunakan pustaka Aspose.Words untuk Java. Aspose.Words adalah API yang kuat yang memungkinkan Anda memanipulasi dokumen Word secara programatis, dan mencakup dukungan yang kuat untuk impor/ekspor HTML. Kami akan memandu seluruh proses, mulai dari menyiapkan opsi pemuatan hingga menyimpan hasilnya sebagai dokumen Word.
+Dalam tutorial ini Anda akan menemukan **cara memuat html** file ke dalam objek `Document` dan kemudian **cara menyimpan docx**—semua dengan pustaka **Aspose.Words for Java** yang kuat. Baik Anda mengonversi potongan sederhana maupun halaman web lengkap, langkah‑langkah di bawah ini memberikan pendekatan yang andal dan siap produksi untuk konversi HTML‑ke‑DOCX.
 
 ## Jawaban Cepat
-- **Apa kelas utama untuk memuat HTML?** `Document` bersama dengan `HtmlLoadOptions`.
-- **Opsi mana yang mengaktifkan Structured Document Tags?** `HtmlLoadOptions.setPreferredControlType(HtmlControlType.STRUCTURED_DOCUMENT_TAG)`.
-- **Bisakah saya mengonversi HTML ke DOCX dalam satu langkah?** Ya – muat HTML dan panggil `doc.save(...".docx")`.
-- **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi komersial diperlukan untuk produksi.
-- **Versi Java apa yang dibutuhkan?** Java 8 atau yang lebih tinggi didukung.
+- **Apa yang dilakukan kode ini?** Kode memuat string HTML, memperlakukannya sebagai tag dokumen terstruktur, dan menyimpannya sebagai file DOCX.  
+- **Perpustakaan apa yang diperlukan?** Aspose.Words for Java (SDK “aspose words java”).  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi komersial diperlukan untuk produksi.  
+- **Bisakah saya menyesuaikan opsi pemuatan HTML?** Ya – Anda dapat mengatur `PreferredControlType` menjadi `STRUCTURED_DOCUMENT_TAG`.  
+- **Apakah ini cocok untuk proyek perusahaan?** Tentu saja; API dirancang untuk pemrosesan dokumen tingkat perusahaan dengan volume tinggi.
 
-## Apa itu “cara memuat html” dalam konteks Aspose.Words?
+## Apa itu **cara memuat html** dengan Aspose.Words untuk Java?
+Memuat HTML berarti memberikan string atau file HTML ke konstruktor `Document` sehingga Aspose.Words mem‑parsing markup dan membuat model dokumen Word internal. Model ini kemudian dapat dimanipulasi atau disimpan dalam format apa pun yang didukung, seperti DOCX.
 
-Memuat HTML berarti membaca string atau file HTML dan mengubahnya menjadi objek `Document` Aspose.Words. Objek ini kemudian dapat diedit, diformat, atau disimpan ke format apa pun yang didukung oleh API, seperti DOCX, PDF, atau RTF.
-
-## Mengapa menggunakan Aspose.Words untuk konversi HTML‑ke‑DOCX?
-
-- **Mempertahankan tata letak** – tabel, daftar, dan gambar tetap utuh.
-- **Mendukung Structured Document Tags** – ideal untuk membuat kontrol konten di Word.
-- **Tidak memerlukan Microsoft Office** – bekerja di server atau lingkungan cloud apa pun.
-- **Kinerja tinggi** – memproses file HTML besar dengan cepat.
+## Mengapa menggunakan **Aspose.Words untuk Java** untuk konversi HTML‑ke‑DOCX?
+- **Dukungan format yang komprehensif** – dari HTML sederhana hingga halaman kompleks dengan CSS, gambar, dan kontrol formulir.  
+- **Structured Document Tag** – mempertahankan kontrol formulir sebagai tag yang dapat digunakan kembali, ideal untuk penyuntingan selanjutnya.  
+- **Tanpa ketergantungan Microsoft Office** – berfungsi pada platform apa pun yang menjalankan Java.  
+- **Kinerja tingkat perusahaan** – menangani dokumen besar secara efisien.
 
 ## Prasyarat
-
-1. **Pustaka Aspose.Words untuk Java** – unduh dari [here](https://releases.aspose.com/words/java/).
-2. **Lingkungan Pengembangan Java** – JDK 8+ terpasang dan dikonfigurasi.
-3. **Familiaritas dasar dengan Java I/O** – kami akan menggunakan `ByteArrayInputStream` untuk memasukkan string HTML.
+1. **Pustaka Aspose.Words untuk Java** – unduh dari [here](https://releases.aspose.com/words/java/).  
+2. **Lingkungan Pengembangan Java** – JDK 8 atau lebih tinggi terpasang dan terkonfigurasi.  
 
 ## Cara Memuat Dokumen HTML
-
-Berikut adalah contoh singkat yang menunjukkan cara memuat potongan HTML sambil mengaktifkan fitur **structured document tag**.
+Berikut adalah cuplikan inti yang menunjukkan **cara memuat html** ke dalam `Document`. Kami membuat fragmen HTML kecil, mengonfigurasi `HtmlLoadOptions` untuk menggunakan **structured document tag**, dan kemudian menginstansiasi `Document`.
 
 ```java
 final String HTML = "\r\n
@@ -68,25 +59,19 @@ HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 Document doc = new Document(new ByteArrayInputStream(HTML.getBytes(StandardCharsets.UTF_8)), loadOptions);
 ```
 
-**Penjelasan**
+*Tip pro:* Opsi `STRUCTURED_DOCUMENT_TAG` menjaga kontrol formulir (seperti elemen `<select>`) sebagai tag yang dapat diedit dalam dokumen Word yang dihasilkan, yang berguna untuk entri data selanjutnya.
 
-- Kami membuat string `HTML` yang berisi kontrol `<select>` sederhana.
-- `HtmlLoadOptions` memungkinkan kami menentukan cara HTML harus diinterpretasikan. Menetapkan tipe kontrol yang diinginkan ke `STRUCTURED_DOCUMENT_TAG` memberi tahu Aspose.Words untuk mengonversi kontrol formulir HTML menjadi kontrol konten Word.
-- Konstruktor `Document` membaca HTML dari `ByteArrayInputStream` menggunakan enkoding UTF‑8.
-
-## Cara Menyimpan sebagai DOCX (Mengonversi HTML ke DOCX)
-
-Setelah HTML dimuat ke dalam `Document`, menyimpannya sebagai file DOCX menjadi sederhana:
+## Cara Menyimpan DOCX dari HTML
+Setelah HTML dimuat, menyimpannya sebagai file DOCX menjadi mudah. Ini menunjukkan **cara menyimpan docx** menggunakan instance `Document` yang sama.
 
 ```java
 doc.save("Your Directory Path" + "WorkingWithHtmlLoadOptions.PreferredControlType.docx");
 ```
 
-Ganti `"Your Directory Path"` dengan folder sebenarnya tempat Anda ingin file output muncul.
+Ganti `"Your Directory Path"` dengan folder tempat Anda ingin file output muncul. DOCX yang dihasilkan dapat dibuka di Microsoft Word, LibreOffice, atau penampil DOCX lain yang kompatibel.
 
 ## Kode Sumber Lengkap untuk Memuat dan Menyimpan Dokumen HTML
-
-Berikut adalah contoh lengkap yang siap dijalankan yang menggabungkan langkah memuat dan menyimpan. Silakan salin‑tempel ke IDE Anda.
+Untuk kenyamanan, berikut contoh lengkap yang dapat dijalankan yang menggabungkan langkah memuat dan menyimpan. Anda dapat menyalin‑tempel ini ke IDE Anda dan menjalankannya apa adanya.
 
 ```java
 final String HTML = "\r\n
@@ -104,40 +89,38 @@ Document doc = new Document(new ByteArrayInputStream(HTML.getBytes(StandardChars
 doc.save("Your Directory Path" + "WorkingWithHtmlLoadOptions.PreferredControlType.docx");
 ```
 
-## Kesalahan Umum & Tips
+Menjalankan kode akan menghasilkan dokumen Word bernama `WorkingWithHtmlLoadOptions.PreferredControlType.docx` yang berisi dropdown HTML sebagai structured document tag.
 
-| Masalah | Mengapa Terjadi | Cara Memperbaiki |
-|---------|----------------|------------------|
-| **Font hilang** | HTML merujuk pada font yang tidak terpasang di server. | Sematkan font dalam DOCX menggunakan `FontSettings` atau pastikan font yang diperlukan tersedia. |
-| **Gambar tidak ditampilkan** | Path gambar relatif tidak dapat diselesaikan. | Gunakan URL absolut atau muat gambar ke dalam `MemoryStream` dan atur `HtmlLoadOptions.setImageSavingCallback`. |
-| **Tipe kontrol tidak dikonversi** | `setPreferredControlType` tidak disetel atau disetel ke enum yang salah. | Pastikan Anda menggunakan `HtmlControlType.STRUCTURED_DOCUMENT_TAG`. |
-| **Masalah enkoding** | String HTML dienkode dengan charset yang berbeda. | Selalu gunakan `StandardCharsets.UTF_8` saat mengonversi string menjadi byte. |
+## Masalah Umum & Pemecahan Masalah
+| Gejala | Penyebab Kemungkinan | Solusi |
+|---|---|---|
+| Dropdown menghilang setelah disimpan | `PreferredControlType` not set | Pastikan `loadOptions.setPreferredControlType(HtmlControlType.STRUCTURED_DOCUMENT_TAG);` dipanggil sebelum memuat. |
+| Gambar tidak ditampilkan | Image URLs are relative or inaccessible | Gunakan URL absolut atau sematkan gambar sebagai Base64 dalam string HTML. |
+| Pemformatan tidak terduga | CSS not fully supported | Sederhanakan CSS atau gunakan gaya inline; Aspose.Words mendukung sebagian subset CSS. |
 
 ## Pertanyaan yang Sering Diajukan
 
-### Bagaimana cara menginstal Aspose.Words untuk Java?
+**Q: Bagaimana cara menginstal Aspose.Words untuk Java?**  
+A: Unduh pustaka dari [here](https://releases.aspose.com/words/java/) dan tambahkan file JAR ke classpath proyek Anda.
 
-Aspose.Words untuk Java dapat diunduh dari [here](https://releases.aspose.com/words/java/). Ikuti panduan instalasi di halaman unduhan untuk menambahkan file JAR ke classpath proyek Anda.
+**Q: Bisakah saya memuat dokumen HTML kompleks (dengan CSS, skrip, gambar)?**  
+A: Ya. Aspose.Words dapat menangani HTML kompleks. Untuk hasil terbaik, berikan markup yang terstruktur dengan baik dan gunakan `HtmlLoadOptions` untuk menyesuaikan konversi.
 
-### Bisakah saya memuat dokumen HTML kompleks menggunakan Aspose.Words?
+**Q: Format lain apa yang dapat saya konversi ke/dari?**  
+A: API mendukung DOC, DOCX, RTF, PDF, HTML, EPUB, ODT, dan banyak lagi.
 
-Ya, Aspose.Words untuk Java dapat menangani HTML kompleks, termasuk tabel bersarang, styling CSS, dan elemen interaktif tanpa JavaScript. Sesuaikan `HtmlLoadOptions` (mis., `setLoadImages` atau `setCssStyleSheetFileName`) untuk menyempurnakan proses impor.
+**Q: Apakah Aspose.Words cocok untuk penyebaran skala besar, perusahaan?**  
+A: Tentu saja. Ini digunakan oleh perusahaan di seluruh dunia untuk generasi dokumen volume tinggi, pelaporan, dan proyek migrasi.
 
-### Format dokumen lain apa yang didukung oleh Aspose.Words?
+**Q: Di mana saya dapat menemukan contoh lebih banyak dan referensi API?**  
+A: Kunjungi dokumentasi resmi di [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
 
-Aspose.Words mendukung DOC, DOCX, RTF, HTML, PDF, EPUB, XPS, dan banyak lagi. API menyediakan penyimpanan satu baris ke semua format tersebut.
-
-### Apakah Aspose.Words cocok untuk otomasi dokumen tingkat perusahaan?
-
-Tentu saja. Ini digunakan oleh perusahaan besar untuk pembuatan laporan otomatis, konversi dokumen massal, dan pemrosesan dokumen sisi server tanpa ketergantungan Microsoft Office.
-
-### Di mana saya dapat menemukan dokumentasi dan contoh lebih lanjut untuk Aspose.Words untuk Java?
-
-Anda dapat menjelajahi referensi API lengkap dan tutorial tambahan di situs dokumentasi Aspose.Words untuk Java: [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
+## Kesimpulan
+Anda kini memiliki panduan lengkap, ujung‑ke‑ujung tentang **cara memuat html** ke dalam `Document` dan **cara menyimpan docx** menggunakan Aspose.Words untuk Java. Teknik **konversi html ke docx** ini dapat diandalkan untuk potongan sederhana maupun halaman web lengkap, dan penggunaan **structured document tag** memastikan kontrol formulir tetap dapat diedit dalam file Word yang dihasilkan.
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-20  
+**Terakhir Diperbarui:** 2026-02-24  
 **Diuji Dengan:** Aspose.Words for Java 24.12 (latest at time of writing)  
 **Penulis:** Aspose  
 

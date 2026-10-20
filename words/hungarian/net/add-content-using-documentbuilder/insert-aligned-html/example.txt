@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary: Az Aspose.Words Document és DocumentBuilder használatával ez a bemutató HTML jelölőnyelvet szúr be egy Word dokumentumba, majd elmenti az eredményt.
+//ExStepSummary:0: Határozza meg a kimeneti mappát, hozzon létre egy új Document objektumot, és inicializáljon egy DocumentBuilder‑t ehhez a dokumentumhoz.
+//ExStepSummary:1: Hívja meg a `builder.InsertHtml()` metódust, hogy jobbra igazított bekezdést, félkövér szöveget, középre igazított div‑et és balra igazított címsort szúrjon be a dokumentumba.
+//ExStepSummary:2: Mentse a módosított dokumentumot a megadott mappába .docx fájlként.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

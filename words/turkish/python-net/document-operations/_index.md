@@ -13,7 +13,7 @@ Python-net için Aspose.Words kullanarak belge işlemleri işlemleri için kapsa
 
 ## Genel bakış
 
-'Belge İşlemleri' kategorisi, özellikle Python-net'ten yararlanarak Aspose.Words kütüphanesi aracılığıyla Word belgelerini düzenleme konusunda uzmanlıklarını derinleştirmeyi hedefleyen geliştiriciler için tasarlanmıştır. 11 titizlikle hazırlanmış öğreticiden oluşan bu koleksiyon, Word belgelerini programatik olarak oluşturma, değiştirme, birleştirme ve dönüştürme gibi çeşitli belge işleme görevleri hakkında sağlam bir anlayış sunar. Belge oluşturmayı otomatikleştirmek veya uygulamalarınızda karmaşık metin düzenlemeleri gerçekleştirmek istiyorsanız, bu öğreticiler pratik örneklerle adım adım rehberlik sağlar. Geliştiriciler, bu derslerde gösterilen tekniklerde ustalaşarak üretkenliklerini önemli ölçüde artırabilir ve belge yönetimi iş akışlarını düzene sokabilirler. Her öğretici, önceki bilgileri temel alarak, gerçek dünyadaki zorluklarla güvenle başa çıkmanızı sağlayan kusursuz bir öğrenme deneyimi sağlamak üzere tasarlanmıştır.
+'Belge İşlemleri' kategorisi, özellikle Python-net'ten yararlanarak Aspose.Words kütüphanesi aracılığıyla Word belgelerini düzenleme konusunda uzmanlıklarını derinleştirmeyi hedefleyen geliştiriciler için tasarlanmıştır. 11 titizlikle hazırlanmış öğreticiden oluşan bu koleksiyon, Word belgelerini programatik olarak oluşturma, değiştirme, birleştirme ve dönüştürme gibi çeşitli belge işleme görevleri hakkında sağlam bir anlayış sunar. Belge oluşturmayı otomatikleştirmek veya uygulamalarınızda karmaşık metin düzenlemeleri gerçekleştirmek istiyorsanız, bu öğreticiler pratik örneklerle adım adım rehberlik sağlar. Geliştiriciler, bu derslerde gösterilen tekniklerde ustalaşarak üretkenliklerini önemli ölçüde artırabilir ve belge yönetimi iş akışlarını düzene sokabilirler. Her öğretici, önceki bilgileri temel alarak, gerçek dünyadaki zorluklarla güvenle başa çıkmanızı sağlayan kusursuz bir öğrenme deneyimi sağlamak üzere tasarlanılmıştır.
 
 ## Ne Öğreneceksiniz
 
@@ -57,8 +57,32 @@ Aspose.Words Python-net için bir kod eğitimi
     ### [Save Word Documents as PostScript in Python Using Aspose.Words&#58; A Comprehensive Guide](./save-docs-as-postscript-using-aspose-words-python/)
 Word belgelerini Python için Aspose.Words kullanarak PostScript formatına nasıl dönüştüreceğinizi öğrenin. Bu kılavuz kurulum, dönüştürme ve kitap katlama yazdırma seçeneklerini kapsar.
 
-### [Bozuk DOCX Dosyasını Kurtar – Word Belgesini Aç ve Yükle](./recover-corrupted-docx-open-load-word-document/)
+    ### [Bozuk DOCX Dosyasını Kurtar – Word Belgesini Aç ve Yükle](./recover-corrupted-docx-open-load-word-document/)
 Aspose.Words for Python-net ile bozuk DOCX dosyalarını açma ve yükleme yöntemlerini öğrenin.
+
+### [Bozuk DOCX Dosyasını Kurtar – Kurtarma Modunu Etkinleştirme ve Sayfa Sayısını Öğrenme Rehberi](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
+Aspose.Words for Python-net kullanarak bozuk DOCX dosyalarını kurtarma modunu etkinleştirip sayfa sayısını nasıl alacağınızı öğrenin.
+### [Bozuk Word Belgesini Python ile Kurtar – Tam Kılavuz](./recover-corrupted-word-document-using-python-complete-guide/)
+Aspose.Words for Python-net kullanarak bozuk Word belgelerini nasıl açıp onarabileceğinizi adım adım öğrenin.
+### [Aspose.Words Python ile Bozuk Word Belgesini Kurtarın](./recover-corrupted-word-document-with-aspose-words-python/)
+Aspose.Words for Python kullanarak bozuk Word belgelerini nasıl açıp onaracağınızı öğrenin.
+### [DOCX Nasıl Kurtarılır – Bozuk Word Belgelerini Geri Yükleme İçin Kapsamlı Kılavuz](./how-to-recover-docx-complete-guide-to-restoring-corrupted-wo/)
+Aspose.Words for Python-net kullanarak bozuk DOCX dosyalarını nasıl kurtaracağınızı ve içeriğini geri yükleyeceğinizi öğrenin.
+### [DOCX Dosyalarını Python'da Kurtarma – Aspose.Words Kullanarak Geri Yükleme ile Belge Açma](./how-to-recover-docx-files-in-python-load-document-with-recov/)
+Aspose.Words for Python ile bozuk DOCX dosyalarını kurtarmak ve geri yükleme seçenekleriyle belge açmayı öğrenin.
+
+### [Bozuk DOCX Kurtarma – Aspose.Words for Python Kullanarak Kapsamlı Rehber](./recover-corrupted-docx-complete-guide-using-aspose-words-for/)
+Aspose.Words for Python kullanarak bozuk DOCX dosyalarını nasıl tam olarak kurtaracağınızı öğrenin.
+### [Bozuk DOCX Dosyasını Kurtar – Aspose ile Word Dosyalarını Açma Tam Kılavuzu](./recover-corrupted-docx-complete-guide-to-opening-word-files/)
+Aspose.Words for Python-net kullanarak bozuk DOCX dosyalarını nasıl açıp kurtaracağınızı adım adım öğrenin.
+### [Python'da Bozuk DOCX Dosyalarını Kurtarın – Tam Kılavuz](./recover-corrupted-docx-files-in-python-complete-guide/)
+Python ve Aspose.Words kullanarak bozuk DOCX dosyalarını nasıl açıp onaracağınızı adım adım öğrenin.
+### [Python ile DOCX Dosyalarını Kurtarma – Tam Rehber](./how-to-recover-docx-files-in-python-complete-guide/)
+Aspose.Words for Python kullanarak bozuk DOCX dosyalarını nasıl açıp kurtaracağınızı adım adım öğrenin.
+### [Python'da Bozuk DOCX Dosyasını Kurtarın – Tam Adım Adım Kılavuz](./recover-corrupted-docx-in-python-full-step-by-step-guide/)
+Python kullanarak bozuk DOCX dosyalarını adım adım nasıl kurtaracağınızı öğrenin.
+### [Python'da Aspose.Words ile docx dosyasını kurtarma](./how-to-recover-docx-in-python-using-aspose-words/)
+Python'da Aspose.Words kullanarak bozuk docx dosyalarını nasıl kurtaracağınızı öğrenin.
 
 ## Ek Kaynaklar
 

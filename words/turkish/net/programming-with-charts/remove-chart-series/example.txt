@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Aspose.Words for .NET kullanarak bu öğreticide bir Document oluşturulur, DocumentBuilder aracılığıyla bir sütun grafik eklenir, ChartSeriesCollection.RemoveAt ile grafikten belirli bir veri serisi kaldırılır ve değiştirilmiş belge kaydedilir.
+//ExStepSummary:0: Yeni bir Word Document oluşturun ve ona bağlı bir DocumentBuilder oluşturun.
+//ExStepSummary:1: 432×252 puan boyutunda bir sütun grafik ekleyin ve daha sonraki işlemler için Chart nesnesini alın.
+//ExStepSummary:2: Kaldırılması gereken serinin sıfır‑tabanlı indeksini tanımlayın (ikinci seri).
+//ExStepSummary:3: İndeks geçerli ise, grafiğin Series koleksiyonunda RemoveAt metodunu çağırarak o seriyi silin.
+//ExStepSummary:4: Güncellenen belgeyi bir .docx dosyasına kaydedin.
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+int targetSeriesIdx = 1;
+
+//ExStep:3-
+if (targetSeriesIdx >= 0 && targetSeriesIdx < columnChart.Series.Count)
+{
+    columnChart.Series.RemoveAt(targetSeriesIdx);
+}
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutSeries.docx");
+//ExEnd
