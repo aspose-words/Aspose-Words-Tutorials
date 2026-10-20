@@ -1,0 +1,7 @@
+Title: Set placeholder text in a Word document using C#
+Slug: set-placeholder-text-in-a-word-document-using-c
+Category: programming-with-sdt
+ProcessedDate: 2026-10-20T12:23:14.537285
+SourceRepo: AI Search API
+Keywords: set placeholder text, how to add control, how to set placeholder, generate word c#
+PRNumber: 331
