@@ -55,6 +55,9 @@ Pełny przewodnik w języku C# pokazujący, jak utworzyć dokument PDF i dodać 
 ### [Utwórz dokument Word w Javie – Dodaj cień do kształtu](./create-word-document-java-add-shadow-to-shape-guide/)
 Dowiedz się, jak dodać cień do kształtu w dokumencie Word przy użyciu Aspose.Words dla Java.
 
+### [Grupowanie kształtów w Wordzie przy użyciu Javy – Kompletny przewodnik krok po kroku](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+Dowiedz się, jak grupować kształty w dokumentach Word przy użyciu Aspose.Words dla Java.
+
 ## Dodatkowe zasoby
 
 ## Dodatkowe zasoby

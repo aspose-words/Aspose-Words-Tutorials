@@ -55,6 +55,9 @@ Apprenez à générer un PDF contenant une forme rectangle en utilisant Aspose.P
 ### [Créer un document Word Java – Ajouter une ombre à une forme](./create-word-document-java-add-shadow-to-shape-guide/)
 Apprenez à ajouter une ombre à une forme dans un document Word en Java avec Aspose.Words.
 
+### [Regrouper des formes dans Word avec Java – Guide complet étape par étape](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+Apprenez à regrouper et gérer des formes dans un document Word en Java avec Aspose.Words.
+
 ## Ressources supplémentaires
 
 ## Ressources supplémentaires

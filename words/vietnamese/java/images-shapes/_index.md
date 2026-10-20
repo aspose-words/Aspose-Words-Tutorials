@@ -55,6 +55,9 @@ Hướng dẫn chi tiết cách tạo tài liệu PDF và chèn hình chữ nh�
 ### [Tạo tài liệu Word bằng Java – Thêm bóng vào hình dạng](./create-word-document-java-add-shadow-to-shape-guide/)
 Hướng dẫn cách chèn và áp dụng hiệu ứng bóng cho các hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
 
+### [Nhóm các hình dạng trong Word với Java – Hướng dẫn chi tiết từng bước](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách nhóm các hình dạng trong tài liệu Word bằng Java.
+
 ## Tài nguyên bổ sung
 
 ## Tài nguyên bổ sung

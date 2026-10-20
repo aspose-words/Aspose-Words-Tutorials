@@ -55,6 +55,9 @@ Leer hoe u met Aspose.Words een PDF maakt en een rechthoekvorm toevoegt met C#.
 ### [Word-document maken in Java – Schaduw aan vorm toevoegen](./create-word-document-java-add-shadow-to-shape-guide/)
 Leer hoe u een vorm met schaduweffect toevoegt aan een Word-document met Aspose.Words voor Java.
 
+### [Groep vormen in Word met Java – Complete stapsgewijze handleiding](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+Leer hoe u meerdere vormen groepeert in een Word-document met Aspose.Words voor Java.
+
 ## Aanvullende bronnen
 
 ## Aanvullende bronnen

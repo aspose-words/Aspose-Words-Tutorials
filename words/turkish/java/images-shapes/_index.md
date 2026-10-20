@@ -55,6 +55,9 @@ C# kullanarak bir PDF belgesine dikdörtgen şekil ekleyip özelleştirmeyi adı
 ### [Java ile Word Belgesi Oluştur – Şekle Gölge Ekleme Kılavuzu](./create-word-document-java-add-shadow-to-shape-guide/)
 Java kullanarak Word belgesine şekil ekleyip gölge uygulamayı öğrenin.
 
+### [Java ile Word'de Şekilleri Gruplama – Tam Adım Adım Kılavuz](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+Java kullanarak Word belgelerinde şekilleri gruplamayı ve yönetmeyi öğrenin.
+
 ## Ek Kaynaklar
 
 ## Ek Kaynaklar

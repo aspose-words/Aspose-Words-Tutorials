@@ -74,6 +74,9 @@ Step-by-step guide to create a PDF with a rectangle shape using Aspose.Words for
 ### [Create Word Document Java – Add Shadow to Shape Guide](./create-word-document-java-add-shadow-to-shape-guide/)
 Learn how to add a shadow to a shape in a Word document using Aspose.Words for Java.
 
+### [Group Shapes in Word with Java – Complete Step-by-Step Guide](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+Learn how to group shapes in Word documents using Aspose.Words for Java with a detailed step-by-step guide.
+
 ## Additional Resources
 
 ## Additional Resources

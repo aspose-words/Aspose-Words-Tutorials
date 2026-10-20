@@ -55,6 +55,9 @@
 ### [สร้างเอกสาร Word ด้วย Java – เพิ่มเงาให้รูปทรง](./create-word-document-java-add-shadow-to-shape-guide/)
 เรียนรู้วิธีเพิ่มเงาให้รูปทรงในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
 
+### [การจัดกลุ่มรูปร่างใน Word ด้วย Java – คู่มือเต็มขั้นตอน](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+เรียนรู้วิธีจัดกลุ่มรูปร่างหลายรูปในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 ## แหล่งข้อมูลเพิ่มเติม

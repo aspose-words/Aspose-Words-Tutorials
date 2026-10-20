@@ -55,6 +55,9 @@ Naučte se, jak pomocí Aspose.Words v C# vytvořit PDF dokument s obdélníkov�
 ### [Vytvořit Word dokument v Javě – Přidat stín k tvaru](./create-word-document-java-add-shadow-to-shape-guide/)
 Naučte se, jak přidat stín k tvaru v dokumentu Word pomocí Aspose.Words pro Javu.
 
+### [Seskupování tvarů ve Wordu pomocí Javy – Kompletní průvodce krok za krokem](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+Naučte se, jak seskupovat tvary v dokumentech Word pomocí Aspose.Words pro Javu s podrobným krok za krokem návodem.
+
 ## Další zdroje
 
 ## Další zdroje

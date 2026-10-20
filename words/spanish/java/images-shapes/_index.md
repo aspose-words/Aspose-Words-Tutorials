@@ -55,6 +55,9 @@ Aprenda a generar un PDF y añadir una forma rectangular usando Aspose.Words en 
 ### [Crear documento Word en Java – Añadir sombra a forma](./create-word-document-java-add-shadow-to-shape-guide/)
 Aprenda a crear un documento Word en Java y agregar sombra a una forma usando Aspose.Words.
 
+### [Agrupar formas en Word con Java – Guía completa paso a paso](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+Aprenda a agrupar y manipular formas en documentos Word usando Aspose.Words para Java con una guía paso a paso.
+
 ## Recursos adicionales
 
 ## Recursos adicionales

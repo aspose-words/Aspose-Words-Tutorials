@@ -55,6 +55,9 @@ C# を使用して矩形シェイプを含む PDF ドキュメントを作成す
 ### [JavaでWord文書を作成 – シェイプに影を追加するガイド](./create-word-document-java-add-shadow-to-shape-guide/)
 JavaでWord文書にシェイプの影効果を追加し、視覚的に魅力的なレイアウトを作成する方法を学びます。
 
+### [JavaでWordのグループ シェイプ – 完全ステップバイステップガイド](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+Javaを使用してWord文書内で複数のシェイプをグループ化し、操作する方法をステップバイステップで解説します。
+
 ## 追加リソース
 
 ## 追加リソース

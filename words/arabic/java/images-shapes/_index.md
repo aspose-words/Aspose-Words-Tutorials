@@ -55,6 +55,9 @@
 ### [إنشاء مستند Word في Java – إضافة الظل إلى الشكل](./create-word-document-java-add-shadow-to-shape-guide/)
 تعلم كيفية إضافة الظل إلى الأشكال في مستند Word باستخدام Aspose.Words for Java
 
+### [تجميع الأشكال في Word باستخدام Java – دليل شامل خطوة بخطوة](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+دليل كامل خطوة بخطوة لتجميع الأشكال في مستندات Word باستخدام Aspose.Words for Java
+
 ## موارد إضافية
 
 ## موارد إضافية

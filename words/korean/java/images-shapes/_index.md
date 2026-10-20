@@ -55,6 +55,9 @@ C#을 사용하여 사각형 모양이 포함된 PDF 문서를 생성하고 사�
 ### [Java에서 Word 문서 만들기 – 도형에 그림자 추가 가이드](./create-word-document-java-add-shadow-to-shape-guide/)
 Java를 사용해 Word 문서에 도형에 그림자를 추가하는 방법을 단계별로 안내합니다.
 
+### [Java를 사용한 Word 그룹 도형 – 완전 단계별 가이드](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+Java를 사용하여 Word 문서에서 그룹 도형을 삽입하고 관리하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 ## 추가 자료

@@ -55,6 +55,9 @@ Lär dig hur du skapar ett PDF-dokument och lägger till en rektangelform med As
 ### [Skapa Word-dokument Java – Lägg till skugga på form](./create-word-document-java-add-shadow-to-shape-guide/)
 Lär dig hur du lägger till en skuggeffekt på en form i ett Word-dokument med Aspose.Words för Java.
 
+### [Gruppera former i Word med Java – Komplett steg-för-steg-guide](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+Lär dig hur du grupperar former i ett Word-dokument med Aspose.Words för Java.
+
 ## Ytterligare resurser
 
 ## Ytterligare resurser

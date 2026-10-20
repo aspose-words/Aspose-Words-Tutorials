@@ -61,6 +61,9 @@ Aspose.Words for Java का उपयोग करके वर्ड दस्
 ### [आयताकार आकार के साथ PDF दस्तावेज़ बनाना – पूर्ण C# गाइड](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
 C# में Aspose.PDF का उपयोग करके आयताकार आकार के साथ PDF दस्तावेज़ बनाने का पूर्ण मार्गदर्शन।
 
+### [जावा के साथ Word में समूह आकृतियाँ – पूर्ण चरण-दर-चरण मार्गदर्शिका](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ में समूह आकृतियों को बनाने और प्रबंधित करने की पूरी गाइड।
+
 ## अतिरिक्त संसाधन
 
 - [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)

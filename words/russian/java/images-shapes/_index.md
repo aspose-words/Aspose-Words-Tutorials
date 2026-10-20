@@ -55,6 +55,9 @@
 ### [Создание документа Word в Java – Добавление тени к фигуре](./create-word-document-java-add-shadow-to-shape-guide/)
 Узнайте, как добавить тень к фигуре в документ Word с помощью Aspose.Words для Java.
 
+### [Группировка фигур в Word с помощью Java – Полное пошаговое руководство](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+Узнайте, как группировать фигуры в документах Word, используя Aspose.Words для Java, с подробными примерами кода.
+
 ## Дополнительные ресурсы
 
 ## Дополнительные ресурсы

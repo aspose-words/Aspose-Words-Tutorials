@@ -55,6 +55,8 @@ Tanulja meg, hogyan hozhat létre PDF dokumentumot téglalap alakzattal C#-ban, 
 ### [Word dokumentum létrehozása Java – Alakzat árnyék hozzáadása útmutató](./create-word-document-java-add-shadow-to-shape-guide/)
 Ismerje meg, hogyan adhat hozzá árnyékot bármely alakzathoz a Word dokumentumban Java-ban az Aspose.Words segítségével.
 
+### [Alakzatok csoportosítása Word-ben Java-val – Teljes lépésről lépésre útmutató](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+
 ## További források
 
 ## További források
