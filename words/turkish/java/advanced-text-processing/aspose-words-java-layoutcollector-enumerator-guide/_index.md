@@ -61,12 +61,12 @@ Aspose.Words for Java sürüm 25.3 (veya daha yenisi) yüklü olduğundan emin
     <artifactId>aspose-words</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ### Ortam Kurulum Gereksinimleri
 - Java Development Kit (JDK) yüklü.
@@ -91,6 +91,16 @@ public class SetupAsposeWords {
         System.out.println("Aspose.Words is ready to use!");
     }
 }
+```  
+
+Kütüphane hazır olduğunda, temel özellikleri kullanmaya başlayabilirsiniz.
+
+## LayoutCollector Kullanarak Sayfaları Nasıl Analiz Edebilirsiniz?
+
+`LayoutCollector`, bir `Document` içindeki her düğümü başlangıç ve bitiş sayfa numaralarına eşleyen bir sınıftır ve kesin sayfalama analizi sağlar. Belgenizi yükleyin, bir `LayoutCollector` ekleyin ve sayfa bilgilerini sorgulayın – tüm işlem sadece birkaç kod satırı gerektirir ve büyük dosyalar için bile güvenilir sonuçlar verir.
+
+```text
+Load the document → create LayoutCollector → call getStartPage(node) / getEndPage(node)
 ```
 
 Kütüphane hazır olduğunda, temel özelliklere dalabiliriz.
@@ -109,7 +119,7 @@ Kütüphane hazır olduğunda, temel özelliklere dalabiliriz.
 ```java
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
-```
+```  
 
 **2. Belgeyi Doldurma**
 Burada, birden fazla sayfaya yayılan içerik ekleyeceğiz:
@@ -120,7 +130,7 @@ builder.insertBreak(BreakType.PAGE_BREAK);
 builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
 builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
-```
+```  
 
 **3. Düzeni Güncelleme ve Metriği Almak**
 ```java
@@ -128,6 +138,19 @@ layoutCollector.clear();
 doc.updatePageLayout();
 
 assert layoutCollector.getNumPagesSpanned(doc) == 5;
+```  
+
+**Açıklama:**  
+- `DocumentBuilder` içerik ekler.  
+- `updatePageLayout()` sayfa numaralarının doğru olması için bir düzen geçişi zorlar.  
+- `getStartPage` / `getEndPage` herhangi bir düğüm için ilk ve son sayfa indekslerini döndürür.
+
+## LayoutEnumerator ile Düzen Öğelerini Nasıl Sıralarsınız?
+
+`LayoutEnumerator`, bir belgenin görsel düzen ağacını dolaşan ve her öğenin tipini, konumunu ve boyutunu ortaya çıkaran bir sınıftır—özel renderleme veya analiz için mükemmeldir. `LayoutEnumerator` görsel düzen ağacını yürütür ve her öğenin tipini, konumunu ve boyutunu ortaya çıkarır—özel renderleme veya analiz için idealdir.
+
+```text
+Initialize LayoutEnumerator → move to first child → iterate while moving next sibling
 ```
 
 #### Açıklama
@@ -146,7 +169,7 @@ Sayfalar, paragraflar, satırlar ve diğer düzen varlıkları arasında dolaşa
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
-```
+```  
 
 **2. İleri ve Geri Yönlü Gezinme**
 ```java
@@ -157,7 +180,7 @@ traverseLayoutForward(layoutEnumerator, 1);
 
 // Traverse backward
 traverseLayoutBackward(layoutEnumerator, 1);
-```
+```  
 
 #### Açıklama
 - **`moveParent()`** enumerator'ı üst varlığa (bu örnekte sayfa seviyesine) taşır.
@@ -169,13 +192,15 @@ Düzen olaylarını izlemek ve gerektiğinde **sayfaları resim olarak render** 
 #### Genel Bakış
 `IPageLayoutCallback` arayüzü, belgenin bir kısmı yeniden akışa (reflow) girdiğinde ya da dönüşüm tamamlandığında sizi bilgilendirir.
 
-#### Uygulama Adımları
+```text
+Set callback on Document → implement notify(event) → handle specific layout events
+```  
 
 **1. Geri Aramayı Ayarlama**
 ```java
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
 doc.updatePageLayout();
-```
+```  
 
 **2. Geri Arama Metodlarını Uygulama**
 ```java
@@ -197,6 +222,18 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
         }
     }
 }
+```  
+
+**Açıklama:**  
+- `notify()` bir olay tanımlayıcısı alır.  
+- `ImageSaveOptions`, geri çağrı içinde anlık görüntü renderleme için özelleştirilebilir.
+
+## Sürekli Bölümlerde Sayfa Numaralandırmasını Nasıl Yeniden Başlatabilirsiniz?
+
+`ContinuousSectionRestart`, sürekli bölümlerde sayfa numaralandırmasının yeniden başlayıp başlamayacağını belirten bir enumdur ve belge boyunca numaralandırma şemaları üzerinde ayrıntılı kontrol sağlar. Bir belge birden fazla bölüm içerdiğinde ve bu bölümler sürekli akışta olduğunda, sayfa numaralarının otomatik olarak yeniden başlayıp başlamayacağını kontrol edebilirsiniz.
+
+```text
+Load document → set ContinuousSectionPageNumberingRestart option → save
 ```
 
 #### Açıklama
@@ -214,13 +251,13 @@ Birden fazla bölümün sürekli akış içinde olduğu durumlarda sayfa numaral
 **1. Belgeyi Yükleme**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
-```
+```  
 
 **2. Sayfa Numaralandırma Seçeneklerini Yapılandırma**
 ```java
 doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
 doc.updatePageLayout();
-```
+```  
 
 #### Açıklama
 - **`setContinuousSectionPageNumberingRestart()`** Aspose.Words'a sürekli bölümlerde numaralandırmanın nasıl ele alınacağını söyler.

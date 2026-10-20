@@ -255,7 +255,8 @@ A: मूल रूप से नहीं; PDFs LaTeX को समझते �
 
 यदि यह गाइड आपके काम आया, तो GitHub पर स्टार दें, टीम के साथ शेयर करें, या नीचे कमेंट में अपने खुद के ट्वीक साझा करें। Happy coding, और आपका LaTeX हमेशा बगैर किसी समस्या के रेंडर हो! 
 
-![DOCX → Markdown (with LaTeX) → PDF रूपांतरण पाइपलाइन दिखाने वाला आरेख, वैकल्पिक पाठ: "DOCX को markdown में बदलते हुए और PDF के रूप में सहेजते हुए LaTeX निर्यात कैसे करें"]{{< /blocks/products/pf/tutorial-page-section >}}
+![DOCX → Markdown (with LaTeX) → PDF रूपांतरण पाइपलाइन दिखाने वाला आरेख, वैकल्पिक पाठ: "DOCX को markdown में बदलते हुए और PDF के रूप में सहेजते हुए LaTeX निर्यात कैसे करें"]
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

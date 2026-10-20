@@ -21,6 +21,13 @@
  ## บทช่วยสอน
 | ชื่อเรื่อง | คำอธิบาย |
 -
+
+{{< tutorial-card link="./insert-horizontal-rule-shape/" title="แทรกรูปร่างเส้นกั้นแนวนอนในเอกสาร Word ด้วย Aspose.Words for .NET" imgSrc="./insert-horizontal-rule-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-aligned-html/" title="แทรก HTML ที่จัดแนวลงในเอกสาร Word ด้วย Aspose.Words for .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
+
+
+
 - [สร้างเอกสาร Word ใหม่](./create-new-document/) เรียนรู้วิธีสร้างเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการ ทำให้การสร้างเอกสารอัตโนมัติเป็นเรื่องง่าย -
 | [เครื่องมือสร้างเอกสาร เพิ่มบุ๊กมาร์กในเอกสาร Word](./document-builder-insert-bookmark/) | เรียนรู้วิธีแทรกบุ๊กมาร์กในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้ เหมาะอย่างยิ่งสำหรับการจัดการเอกสารอัตโนมัติ -
 | [สร้างตารางในเอกสาร Word](./build-table/) | เรียนรู้วิธีสร้างตารางในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนแบบทีละขั้นตอนโดยละเอียดนี้ เหมาะสำหรับทั้งผู้เริ่มต้นและมืออาชีพ -

@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Aspose.Words를 사용하여 이 튜토리얼은 Word 문서를 생성하고, 열 차트를 삽입하며, 차트 제목을 사용자가 제공한 텍스트로 업데이트하고, 사용자 선호도에 따라 범례의 표시 여부와 오버레이를 전환합니다.
+//ExStepSummary:0: 사용자가 제공한 차트 제목과 범례를 표시할지 여부를 정의합니다.
+//ExStepSummary:1: 새 Word 문서를 만들고, 내용을 추가하기 위해 DocumentBuilder를 생성합니다.
+//ExStepSummary:2: 문서에 432 × 252 pt 크기의 열 차트를 삽입하고, 해당 Shape에 실제로 차트가 포함되어 있는지 확인합니다.
+//ExStepSummary:3: 차트 객체를 가져와서 제목 텍스트를 사용자 값으로 설정하고, 제목이 표시되도록 합니다.
+//ExStepSummary:4: 범례를 구성합니다: 요청 시 오른쪽에 표시하고, 그렇지 않으면 숨기며, 플롯 영역 위에 겹치도록 허용합니다.
+//ExStepSummary:5: 수정된 문서를 CustomChart.docx 파일명으로 디스크에 저장합니다.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+string chartHeader = "Fiscal Q1 Performance Summary";
+bool displayLegend = false;
+
+//ExStep:1-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:2-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+if (!chartContainer.HasChart)
+    throw new InvalidOperationException("The inserted shape does not contain a chart.");
+
+//ExStep:3-
+Chart chartObj = chartContainer.Chart;
+ChartTitle chartTitle = chartObj.Title;
+chartTitle.Text = chartHeader;
+chartTitle.Show = true;
+
+//ExStep:4-
+ChartLegend chartLegend = chartObj.Legend;
+chartLegend.Position = displayLegend ? LegendPosition.Right : LegendPosition.None;
+chartLegend.Overlay = true;
+
+//ExStep:5-
+wordDoc.Save("CustomChart.docx");
+//ExEnd

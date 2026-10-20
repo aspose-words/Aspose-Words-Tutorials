@@ -63,14 +63,34 @@ Aspose.Words for Javaでヘッダーとフッターの使い方をステップ�
 このステップバイステップのチュートリアルで、Aspose.Words for Java のリストの使い方を学びましょう。ドキュメントを効果的に整理し、フォーマットしましょう。
 ### [Aspose.Words for Java で Markdown を使用する](./using-markdown/)
 このステップバイステップのチュートリアルで、Aspose.Words for Java で Markdown の使い方を学びましょう。Markdown ドキュメントを簡単に作成、スタイル設定、保存できます。
-### [Aspose.Words for Java でのノードの使用](./using-nodes/)
+### [Aspose.Words for Java のノードの使用](./using-nodes/)
 このステップバイステップのチュートリアルで、Aspose.Words for Java のノード操作方法を学びましょう。ドキュメント処理能力を解き放ちましょう。
-### [Aspose.Words for Java での OLE オブジェクトと ActiveX コントロールの使用](./using-ole-objects-and-activex/)
+
+### [Aspose.Words for Java で Word に円グラフを挿入する – 完全ガイド](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Aspose.Words for Java を使用して、Word 文書に円グラフを作成・挿入する手順をステップバイステップで解説します。
+
+### [Aspose.Words for Java で OLE オブジェクトと ActiveX コントロールの使用](./using-ole-objects-and-activex/)
 Aspose.Words for JavaでOLEオブジェクトとActiveXコントロールの使い方を学びましょう。インタラクティブなドキュメントを簡単に作成できます。今すぐ始めましょう！
+
+### [Word に ActiveX ボタンを挿入する – ボタンのキャプションを設定する](./how-to-insert-activex-button-in-word-set-button-caption/)
+Aspose.Words for JavaでWord文書にActiveXボタンを挿入し、ボタンのキャプションを設定する手順を学びます。
+
 ### [Aspose.Words for Java でリビジョンを使用する](./using-revisions/)
 Aspose.Words for Java のリビジョン管理を効率的に活用する方法を学びましょう。開発者向けのステップバイステップガイド。ドキュメント管理を最適化しましょう。
-### [Aspose.Words for Java でのセクションの使用](./using-sections/)
+### [Aspose.Words for Java のセクションの使用](./using-sections/)
 Aspose.Words for Java を詳しく見る：セクションの使い方に関する包括的なガイド。コード例を使って、セクションの追加、削除、追加、複製の方法を学びます。
+### [JavaでWordのボタンサイズを設定する – 完全なAspose.Wordsガイド](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Aspose.Words for Java を使用して、Word 文書内のボタンサイズをプログラムで設定する方法をステップバイステップで解説します。
+### [Aspose.Words for Java で円グラフを作成する – 完全ステップバイステップガイド](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+### [DOCX に Forms2OleControl を追加 – 完全 Aspose.Words ガイド](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Aspose.Words for Java を使用して、Forms2OleControl を DOCX に追加する方法をステップバイステップで解説します。
+### [コマンドボタンで空白の Word 文書を作成する – ステップバイステップ ガイド](./create-blank-word-document-with-a-command-button-step-by-ste/)
+### [Java で Word のセパレーターを取得する方法](./how-to-get-separator-in-word-docs-with-java/)
+Java を使用して Word 文書内のセパレーター（区切り文字）を取得する手順をステップバイステップで解説します。
+### [C# で SDT を追加する方法 – Word プレースホルダーの完全ガイド](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Word のプレースホルダー（SDT）を C# で追加・設定する手順をステップバイステップで解説します。
+### [Java で Word に円グラフを作成する – ステップバイステップ ガイド](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Java と Aspose.Words を使用して、Word 文書内に円グラフを挿入する方法を段階的に学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

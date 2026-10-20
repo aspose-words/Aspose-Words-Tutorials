@@ -33,12 +33,64 @@
 
 ### [كيفية عرض صفحات المستندات كصور مصغرة باستخدام Aspose.Words لـ Java](./render-word-pages-thumbnails-aspose-java/)
 تعلّم كيفية إنشاء صور مصغرة عالية الجودة وخرائط نقطية بأحجام مخصصة لمستندات Word باستخدام Aspose.Words لجافا. حسّن قدراتك على التعامل مع المستندات اليوم.
-
 ### [إنشاء مستند Word في Java – إضافة شكل مستطيل مع تأثير الظل](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 تعلم كيفية إضافة شكل مستطيل بظل إلى مستند Word باستخدام Aspose.Words for Java
 
+### [إضافة ظل إلى الشكل في Word – دليل Aspose.Words الكامل](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+تعلم كيفية إضافة ظل إلى الأشكال في مستندات Word باستخدام Aspose.Words لجافا خطوة بخطوة.
+### [تطبيق تأثير الظل على شكل في C# – دليل خطوة بخطوة](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
+تعلم كيفية إضافة تأثير الظل إلى الأشكال في C# باستخدام Aspose.Words خطوةً بخطوة.
+### [كيفية تعيين الظل على شكل في Aspose.Words – دليل كامل](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
+تعلم خطوة بخطوة كيفية إضافة ظل إلى الأشكال في مستندات Word باستخدام Aspose.Words لجافا.
+
+### [كيفية تعيين الظل على شكل في C# – إضافة ظل الشكل بسهولة](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+تعلم كيفية إضافة ظل إلى الأشكال في C# باستخدام Aspose.Words بسهولة
+
+### [إنشاء شكل مستطيل في مستند Word باستخدام Java – دليل كامل خطوة بخطوة](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+دليل شامل يوضح كيفية إنشاء شكل مستطيل في مستند Word باستخدام Aspose.Words for Java خطوة بخطوة
+
+### [إنشاء شكل صندوق نص في Java – دليل كامل لإضافة الظلال](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+تعلم كيفية إنشاء شكل صندوق نص وإضافة تأثير الظل في مستندات Word باستخدام Aspose.Words for Java
+### [إنشاء مستند PDF مع شكل مستطيل – دليل كامل C#](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+تعلم كيفية إنشاء مستند PDF وإضافة شكل مستطيل باستخدام Aspose.Words للـ C#.
+
+### [إنشاء مستند Word في Java – إضافة الظل إلى الشكل](./create-word-document-java-add-shadow-to-shape-guide/)
+تعلم كيفية إضافة الظل إلى الأشكال في مستند Word باستخدام Aspose.Words for Java
+
+### [تجميع الأشكال في Word باستخدام Java – دليل شامل خطوة بخطوة](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+دليل كامل خطوة بخطوة لتجميع الأشكال في مستندات Word باستخدام Aspose.Words for Java
+
+### [إنشاء مستند Word في Java – إضافة شكل مع تأثير الظل](./create-word-document-java-add-shape-with-shadow-effect/)
+تعلم كيفية إضافة شكل مع تأثير الظل إلى مستند Word باستخدام Aspose.Words لجافا
+
+### [إنشاء شكل مستطيل في Java باستخدام Aspose.Words – دليل كامل](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+دليل شامل لإنشاء شكل مستطيل في مستند Word باستخدام Aspose.Words for Java
+
+### [كيفية إدراج مجموعة أشكال في جافا – دليل كامل](./how-to-insert-group-shape-in-java-complete-guide/)
+تعلم خطوة بخطوة كيفية إضافة مجموعة أشكال إلى مستند Word باستخدام Aspose.Words لجافا
+
+### [إنشاء مستند Word فارغ مع مجموعة من المستطيلات – دليل C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+دليل لإنشاء مستند Word فارغ يحتوي على مجموعة من المستطيلات باستخدام Aspose.Words للغة C#.
+
+### [إدراج شكل مستطيل في Java – تجميع وتحديد موضع الأشكال](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+تعلم كيفية تجميع الأشكال وتحديد موضعها في مستند Word باستخدام Aspose.Words for Java
+
+### [إدراج صورة في Word – دليل Aspose.Words خطوة بخطوة](./insert-image-into-word-aspose-words-step-by-step-guide/)
+دليل خطوة بخطوة لإدراج صورة في مستند Word باستخدام Aspose.Words.
+
+### [إدراج شكل مستطيل في Word باستخدام C# – دليل كامل](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+تعلم كيفية إضافة شكل مستطيل إلى مستند Word باستخدام C# مع شرح شامل لجميع الخصائص
+### [إنشاء مستند Word فارغ بظل في Java – دليل كامل](./create-blank-word-with-shadow-in-java-full-guide/)
+دليل شامل لإنشاء مستند Word فارغ مع تأثير الظل باستخدام Aspose.Words لجافا
+### [تجميع الأشكال في Word – دليل برمجة كامل](./group-shapes-in-word-complete-programming-guide/)
+دليل شامل يوضح كيفية تجميع الأشكال في مستندات Word باستخدام Aspose.Words for Java
+
+### [إخفاء الصورة في Word – دليل خطوة بخطوة لجافا باستخدام Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+تعلم كيفية إخفاء الصور في مستندات Word باستخدام Aspose.Words for Java
+
 ## موارد إضافية
 
+## موارد إضافية
 - [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/)
 - [مرجع Aspose.Words لواجهة برمجة تطبيقات Java](https://reference.aspose.com/words/java/)
 - [تنزيل Aspose.Words لـ Java](https://releases.aspose.com/words/java/)

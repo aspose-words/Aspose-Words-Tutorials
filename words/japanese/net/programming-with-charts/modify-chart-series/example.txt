@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: このチュートリアルでは、列グラフを含む Word ドキュメントの作成方法、ドキュメントの再オープン、既存のチャートシリーズの取得、データポイントの変更、そして更新されたファイルを保存してチャートに新しい値が反映される手順を示します。
+//ExStepSummary:0: 新しい Document を作成し、DocumentBuilder で列グラフを挿入し、初期ファイルとして保存します。
+//ExStepSummary:1: 保存したファイルを開き、チャート シェイプを見つけて既存の Chart オブジェクトを取得します。
+//ExStepSummary:2: 最初のシリーズの値をクリアして新しいポイントを追加し、次に2番目のシリーズの最初のポイントを削除して新しいポイントを追加して調整します。
+//ExStepSummary:3: 変更されたドキュメントを新しいファイルに保存し、更新されたチャートを含めます。
+//ExStepImage:0:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+Document document = new Document();
+DocumentBuilder builder = new DocumentBuilder(document);
+Shape chartContainer = builder.InsertChart(ChartType.Column, 432, 252);
+Chart chartObject = chartContainer.Chart;
+const string sourceFile = "initial_chart.docx";
+document.Save(sourceFile);
+
+//ExStep:1-
+Document openedDoc = new Document(sourceFile);
+Shape? chartShape = openedDoc.GetChildNodes(NodeType.Shape, true)
+                                    .OfType<Shape>()
+                                    .FirstOrDefault(s => s.HasChart);
+if (chartShape == null)
+    throw new InvalidOperationException("Unable to locate a chart shape inside the document.");
+Chart existingChart = chartShape.Chart;
+
+//ExStep:2-
+if (existingChart.Series.Count > 0)
+{
+    ChartSeries primarySeries = existingChart.Series[0];
+    primarySeries.ClearValues();
+
+    primarySeries.Add(ChartXValue.FromString("Group A"), ChartYValue.FromDouble(15));
+    primarySeries.Add(ChartXValue.FromString("Group B"), ChartYValue.FromDouble(30));
+    primarySeries.Add(ChartXValue.FromString("Group C"), ChartYValue.FromDouble(45));
+}
+
+if (existingChart.Series.Count > 1)
+{
+    ChartSeries secondarySeries = existingChart.Series[1];
+    if (secondarySeries.YValues.Count > 0)
+        secondarySeries.Remove(0);
+
+    secondarySeries.Add(ChartXValue.FromString("Group D"), ChartYValue.FromDouble(25));
+}
+
+//ExStep:3-
+const string resultFile = "updated_chart.docx";
+openedDoc.Save(resultFile);
+//ExEnd
