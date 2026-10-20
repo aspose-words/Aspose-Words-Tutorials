@@ -39,7 +39,7 @@ tags:
 - Java
 - Aspose.Words
 - Document Automation
-title: Create rectangle shape in Java with Aspose.Words – Complete Step‑by‑Step Guide
+title: Create rectangle shape in Java using Aspose.Words for Java – Complete Step‑by‑Step Guide
 url: /java/images-shapes/create-rectangle-shape-in-java-complete-step-by-step-guide/
 ---
 
@@ -259,18 +259,16 @@ We’ve just **create rectangle shape** from scratch, **add shadow to shape**, *
 
 What’s next on your roadmap? Try swapping `ShapeType.RECTANGLE` for `ShapeType.OVAL` to generate shadowed circles, or experiment with gradient fills for
 
-
 ## What should you learn next?
 
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [Create Word Document Java – Add Rectangle Shape with Shadow Effect](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Create Blank Word Document with Shadowed Rectangle Shape – Step‑by‑Step Guide](/words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste/)
-- [Aspose.Words Shape Shadow Tutorial – Add a Shadow to Word Shape in C#](/words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/)
+- [Create Word Document Java – Add Rectangle Shape with Shadow Effect]({{< relref "words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef" >}})
+- [Create Blank Word Document with Shadowed Rectangle Shape – Step‑by‑Step Guide]({{< relref "words/english/net/programming-with-shapes/create-blank-word-document-with-shadowed-rectangle-shape-ste" >}})
+- [Aspose.Words Shape Shadow Tutorial – Add a Shadow to Word Shape in C#]({{< relref "words/english/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

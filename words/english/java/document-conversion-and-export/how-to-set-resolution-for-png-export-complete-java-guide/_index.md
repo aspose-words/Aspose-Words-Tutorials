@@ -187,18 +187,16 @@ Next steps? Try swapping `ImageSaveOptions.Layout.GRID` to see a thumbnail galle
 
 Got questions or a tricky edge case? Drop a comment below, and happy coding!
 
-
 ## What should you learn next?
 
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
 - [How to Add Watermark – Document Conversion and Export with Aspose.Words for Java]({{< relref "how-to-add-watermark.md" >}})
 - [How to Export HTML with Aspose.Words Java - Advanced Options]({{< relref "../document-loading-and-saving/advance-html-documents-saving-options/_index.md" >}})
 - [How to Export Markdown with Aspose.Words for Java]({{< relref "../document-loading-and-saving/saving-documents-as-markdown/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

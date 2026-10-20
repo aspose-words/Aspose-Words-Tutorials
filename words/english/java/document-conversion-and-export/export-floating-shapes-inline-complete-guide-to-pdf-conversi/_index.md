@@ -46,7 +46,7 @@ tags:
 - Java
 - PDF
 - Aspose.Words
-title: Convert Word to PDF with Aspose.Words – Export Floating Shapes Inline
+title: Convert Word to PDF with Aspose.Words – Export Floating Shapes Inline using PdfSaveOptions
 url: /java/document-conversion-and-export/export-floating-shapes-inline-complete-guide-to-pdf-conversi/
 ---
 
@@ -236,4 +236,5 @@ The following tutorials cover closely related topics that build on the technique
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -43,7 +43,7 @@ tags:
 - Aspose.Words
 - LLM
 - AI Integration
-title: Summarize Word Document in Java with Aspose.Words AI and Self‑Hosted LLM – Full Guide
+title: Generate Document Summary in Java with Aspose.Words AI and Self‑Hosted LLM – Full Guide
 url: /java/ai-machine-learning-integration/summarize-word-document-in-java-with-self-hosted-llm-full-gu/
 ---
 
@@ -51,7 +51,7 @@ url: /java/ai-machine-learning-integration/summarize-word-document-in-java-with-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Summarize Word Document in Java with Self‑Hosted LLM – Full Guide
+# Generate Document Summary in Java with Aspose.Words AI and Self‑Hosted LLM – Full Guide
 
 Ever wondered how to **summarize word document** contents without sending anything to the cloud? You’re not alone. In many enterprises the data‑privacy rules say “no external calls,” yet developers still want the magic of large language models. The good news? With Aspose.Words AI you can point an `AiClient` at a locally hosted LLM endpoint, **run AI prompt** against a DOCX file, and **generate document summary** in a matter of seconds.
 
@@ -236,4 +236,5 @@ The following tutorials cover closely related topics that build on the technique
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}

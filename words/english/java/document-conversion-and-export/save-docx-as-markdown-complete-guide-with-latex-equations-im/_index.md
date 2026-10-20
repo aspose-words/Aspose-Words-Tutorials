@@ -14,7 +14,7 @@ language: en
 og_description: Save docx as markdown with Aspose.Words. This guide shows how to convert
   word to markdown, set markdown image resolution, and export word equations as
   LaTeX.
-og_title: How to Save docx as markdown with Aspose.Words Java using MarkdownSaveOptions
+og_title: How to Convert docx to markdown with Aspose.Words Java using MarkdownSaveOptions
 schemas:
 - author: Aspose
   dateModified: '2026-07-03'
@@ -46,7 +46,7 @@ tags:
 - Markdown
 - Java
 - Document Conversion
-title: How to Save docx as markdown with Aspose.Words Java using MarkdownSaveOptions
+title: How to Convert docx to markdown with Aspose.Words Java using MarkdownSaveOptions
 url: /java/document-conversion-and-export/save-docx-as-markdown-complete-guide-with-latex-equations-im/
 ---
 
@@ -252,6 +252,6 @@ The following tutorials cover closely related topics that build on the technique
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
