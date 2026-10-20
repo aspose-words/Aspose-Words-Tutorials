@@ -96,7 +96,7 @@ Aspose.Words สำหรับ Java เป็น API ที่มีประ�
 เรียนรู้วิธีเปรียบเทียบเอกสารใน Aspose.Words สำหรับ Java ซึ่งเป็นไลบรารี Java ที่ทรงพลังสำหรับการวิเคราะห์เอกสารอย่างมีประสิทธิภาพ 
 ### [การจัดรูปแบบเอกสารใน Aspose.Words สำหรับ Java](./formatting-documents/)
 เรียนรู้ศิลปะแห่งการจัดรูปแบบเอกสารใน Aspose.Words สำหรับ Java ด้วยคู่มือที่ครอบคลุมของเรา สำรวจฟีเจอร์อันทรงพลังและปรับปรุงทักษะการประมวลผลเอกสารของคุณ
-### [การเข้าร่วมและการผนวกเอกสารใน Aspose.Words สำหรับ Java](./joining-and-appending-documents/)
+### [การเข้าร่วมและการผนวกเอกสารใน Aspose.Wordsสำหรับ Java](./joining-and-appending-documents/)
 เรียนรู้วิธีรวมและผนวกเอกสารอย่างง่ายดายโดยใช้ Aspose.Words สำหรับ Java รักษาการจัดรูปแบบ จัดการส่วนหัว ส่วนท้าย และอื่นๆ
 ### [การใช้ตัวเลือกและการตั้งค่าเอกสารใน Aspose.Words สำหรับ Java](./using-document-options-and-settings/)
 ปลดล็อกพลังของ Aspose.Words สำหรับ Java เลือกและตั้งค่าเอกสารอย่างชาญฉลาดเพื่อการจัดการเอกสารที่ราบรื่น ปรับแต่ง และอื่นๆ อีกมากมาย
@@ -104,6 +104,17 @@ Aspose.Words สำหรับ Java เป็น API ที่มีประ�
 เพิ่มประสิทธิภาพการจัดการเอกสารด้วย Aspose.Words สำหรับ Java เรียนรู้การใช้งานคุณสมบัติของเอกสาร เพิ่มข้อมูลเมตาแบบกำหนดเอง และอื่นๆ อีกมากมายในบทช่วยสอนที่ครอบคลุมนี้
 ### [การใช้ส่วนขยายเว็บใน Aspose.Words สำหรับ Java](./using-web-extensions/)
 ปรับปรุงเอกสารด้วยส่วนขยายเว็บใน Aspose.Words สำหรับ Java เรียนรู้การผสานรวมเนื้อหาบนเว็บอย่างราบรื่น 
+### [การทำแท็กการเข้าถึง PDF ใน Java – สร้าง PDF ที่เข้าถึงได้](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+เรียนรู้วิธีเพิ่มแท็กการเข้าถึงให้กับ PDF ด้วย Aspose.Words สำหรับ Java เพื่อสร้างไฟล์ PDF ที่เป็นมิตรต่อผู้ใช้ที่ต้องการการช่วยเหลือ
+### [สร้างปุ่ม ActiveX ใน docx ด้วย Java – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./create-docx-activex-button-in-java-complete-programming-guid/)
+เรียนรู้วิธีสร้างปุ่ม ActiveX ในไฟล์ docx ด้วย Java พร้อมตัวอย่างโค้ดเต็มขั้น
+### [วิธีสร้างเอกสาร Word ใน Java ด้วย Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+เรียนรู้ขั้นตอนการสร้างไฟล์ Word ด้วย Aspose.Words สำหรับ Java อย่างง่ายดาย
+### [การเพิ่ม Content Control ในเอกสาร Word ด้วย Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+เรียนรู้วิธีเพิ่ม Content Control ในเอกสาร Word ด้วย Aspose.Words สำหรับ Java เพื่อจัดการข้อมูลอย่างยืดหยุ่น
+### [สร้างเอกสารเปล่าพร้อมปุ่มคำสั่งโต้ตอบใน Word ด้วย Java](./create-blank-document-with-an-interactive-command-button-in/)
+### [วิธีสร้างเอกสาร Word ว่างพร้อมตัวควบคุมข้อความใน Aspose.Words สำหรับ Java](./how-to-create-a-blank-word-document-with-a-text-control/)
+เรียนรู้วิธีสร้างเอกสาร Word ว่างและเพิ่มตัวควบคุมข้อความด้วย Aspose.Words สำหรับ Java
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

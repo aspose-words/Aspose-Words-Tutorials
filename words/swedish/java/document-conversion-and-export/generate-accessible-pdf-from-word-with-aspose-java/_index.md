@@ -24,11 +24,9 @@ title: generera tillgänglig PDF från Word med Aspose – Java
 url: /sv/java/document-conversion-and-export/generate-accessible-pdf-from-word-with-aspose-java/
 ---
 
-markdown links: none.
 
-Check for code blocks placeholders: keep.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

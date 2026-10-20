@@ -1,0 +1,58 @@
+//ExStart
+//ExSummary: This tutorial shows how to create a Word document with a column chart, populate it with specific data series, validate that the chart contains the expected number of series and data points, and then save the document.
+//ExStepSummary:0: Define the required number of series and data points that the chart must contain.
+//ExStepSummary:1: Create a new Word Document and a DocumentBuilder to add content to it.
+//ExStepSummary:2: Insert a 400×300 column chart into the document and obtain its Chart object.
+//ExStepSummary:3: Remove the placeholder data series that Aspose.Words adds by default.
+//ExStepSummary:4: Define X‑axis labels and add two data series (Alpha and Beta) with three points each to the chart.
+//ExStepSummary:5: Check that the chart contains exactly the required number of series and throw an exception if it does not.
+//ExStepSummary:6: Iterate through each series and verify it has the expected number of data points, raising an exception on mismatch.
+//ExStepSummary:7: Save the validated document to a .docx file.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Desired numbers for checks.
+const int requiredSeriesCount = 2;
+const int requiredPointsPerSeries = 3;
+
+//ExStep:1-
+// Initialise a fresh document and its builder.
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:2-
+// Place a column‑type chart into the document.
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 400, 300);
+Chart chartObj = chartContainer.Chart;
+
+//ExStep:3-
+// Discard the sample data automatically added by Aspose.Words.
+chartObj.Series.Clear();
+
+//ExStep:4-
+// Set up X‑axis labels and add two data series with matching values.
+string[] xLabels = { "Group A", "Group B", "Group C" };
+chartObj.Series.Add("Data Set Alpha", xLabels, new double[] { 10, 20, 30 });
+chartObj.Series.Add("Data Set Beta", xLabels, new double[] { 15, 25, 35 });
+
+//ExStep:5-
+// ----- Validation -----
+// Confirm the chart holds the expected number of series.
+if (chartObj.Series.Count != requiredSeriesCount)
+    throw new InvalidOperationException(
+        $"Chart should contain {requiredSeriesCount} series, but actually has {chartObj.Series.Count}.");
+
+//ExStep:6-
+// Confirm each series has the required amount of data points.
+foreach (ChartSeries seriesItem in chartObj.Series)
+{
+    if (seriesItem.DataPoints.Count != requiredPointsPerSeries)
+        throw new InvalidOperationException(
+            $"Series '{seriesItem.Name}' should have {requiredPointsPerSeries} points, but contains {seriesItem.DataPoints.Count}.");
+}
+
+//ExStep:7-
+// Persist the verified document.
+myDocument.Save("checked-graph.docx");
+//ExEnd

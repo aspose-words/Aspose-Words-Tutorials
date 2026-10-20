@@ -23,9 +23,8 @@ title: Hogyan ellenőrizhetjük a nyelvtant a Wordben az Aspose.Words AI segíts
 url: /hu/net/ai-powered-document-processing/how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/
 ---
 
-preserving all placeholders and code blocks.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

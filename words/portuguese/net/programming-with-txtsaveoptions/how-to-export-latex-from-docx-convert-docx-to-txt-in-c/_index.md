@@ -23,13 +23,9 @@ title: Como Exportar LaTeX de DOCX – Converter DOCX para TXT em C#
 url: /pt/net/programming-with-txtsaveoptions/how-to-export-latex-from-docx-convert-docx-to-txt-in-c/
 ---
 
-maybe keep same but translate "Practical Tips" to "Dicas Práticas". Keep (E‑E‑A‑T) unchanged.
 
-Also "## Conclusion" -> "## Conclusão".
 
-Also the final image alt text and title.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

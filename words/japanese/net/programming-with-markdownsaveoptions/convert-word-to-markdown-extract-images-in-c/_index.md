@@ -23,9 +23,7 @@ title: Word を Markdown に変換 – C# で画像を抽出する
 url: /ja/net/programming-with-markdownsaveoptions/convert-word-to-markdown-extract-images-in-c/
 ---
 
-unchanged.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

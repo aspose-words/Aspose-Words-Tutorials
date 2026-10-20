@@ -33,13 +33,96 @@ Samouczek dotyczący kodu dla Aspose.Words Java
 
 ### [Jak renderować strony dokumentu jako miniatury za pomocą Aspose.Words dla Java](./render-word-pages-thumbnails-aspose-java/)
 Dowiedz się, jak generować wysokiej jakości miniatury i mapy bitowe o niestandardowych rozmiarach dokumentów Word za pomocą Aspose.Words for Java. Zwiększ możliwości obsługi dokumentów już dziś.
+### [Utwórz dokument Word w Javie – Dodaj prostokątny kształt z efektem cienia](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+Dowiedz się, jak dodać prostokątny kształt z efektem cienia do dokumentu Word przy użyciu Aspose.Words dla Java.
 
 ### [Dodaj cień do kształtu w Word – Kompletny przewodnik Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Dowiedz się, jak dodać cień do kształtu w dokumencie Word przy użyciu Aspose.Words dla Java.
 ### [Zastosowanie efektu cienia do kształtu w C# – przewodnik krok po kroku](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Dowiedz się, jak dodać efekt cienia do kształtu w C# przy użyciu Aspose.Words, krok po kroku.
+### [Jak ustawić cień na kształcie w Aspose.Words – kompletny przewodnik](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
+Dowiedz się, jak dodać cień do kształtu w dokumencie przy użyciu Aspose.Words for Java, krok po kroku.
+
+### [Jak ustawić cień na kształcie w C# – łatwe dodawanie cienia do kształtu](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+Dowiedz się, jak dodać cień do kształtu w C# przy użyciu Aspose.Words, aby poprawić wygląd dokumentów.
+
+### [Utwórz prostokątny kształt w dokumencie Word w Javie – Pełny przewodnik krok po kroku](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Dowiedz się, jak w pełni krok po kroku dodać prostokątny kształt do dokumentu Word przy użyciu Aspose.Words dla Java.
+
+### [Utwórz pole tekstowe w Javie – Kompletny przewodnik po dodawaniu cieni](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+Dowiedz się, jak dodać pole tekstowe z efektem cienia do dokumentu Word przy użyciu Aspose.Words dla Java.
+### [Utwórz dokument PDF z kształtem prostokąta – pełny przewodnik C#](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+Pełny przewodnik w języku C# pokazujący, jak utworzyć dokument PDF i dodać do niego prostokątny kształt przy użyciu Aspose.Words.
+
+### [Utwórz dokument Word w Javie – Dodaj cień do kształtu](./create-word-document-java-add-shadow-to-shape-guide/)
+Dowiedz się, jak dodać cień do kształtu w dokumencie Word przy użyciu Aspose.Words dla Java.
+
+### [Grupowanie kształtów w Wordzie przy użyciu Javy – Kompletny przewodnik krok po kroku](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+Dowiedz się, jak grupować kształty w dokumentach Word przy użyciu Aspose.Words dla Java.
+
+### [Utwórz dokument Word w Javie – Dodaj kształt z efektem cienia](./create-word-document-java-add-shape-with-shadow-effect/)
+Dowiedz się, jak dodać kształt z efektem cienia do dokumentu Word przy użyciu Aspose.Words dla Java.
+
+### [Utwórz prostokątny kształt w Javie z Aspose.Words – Pełny przewodnik](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Kompletny przewodnik pokazujący, jak w Javie utworzyć prostokątny kształt przy użyciu Aspose.Words.
+
+### [Jak wstawić grupowy kształt w Javie – kompletny przewodnik](./how-to-insert-group-shape-in-java-complete-guide/)
+Dowiedz się, jak dodać i zarządzać grupowymi kształtami w dokumentach Word przy użyciu Aspose.Words dla Java.
+
+### [Utwórz pusty dokument Word z grupowanymi prostokątami – przewodnik C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Dowiedz się, jak utworzyć pusty dokument Word i dodać grupowane prostokąty przy użyciu Aspose.Words w C#.
+
+### [Wstaw prostokątny kształt w Javie – grupowanie i pozycjonowanie kształtów](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+Dowiedz się, jak wstawiać prostokątne kształty, grupować je i ustawiać pozycję w dokumentach Word przy użyciu Aspose.Words dla Java.
+
+### [Wstaw obraz do Word – przewodnik krok po kroku Aspose.Words](./insert-image-into-word-aspose-words-step-by-step-guide/)
+Dowiedz się, jak wstawiać obrazy do dokumentów Word przy użyciu Aspose.Words dla Java.
+
+### [Wstaw prostokątny kształt w Wordzie przy użyciu C# – kompletny przewodnik](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+Kompletny przewodnik, jak dodać prostokątny kształt do dokumentu Word przy użyciu C# i Aspose.Words.
+### [Utwórz pusty dokument Word w Javie – Pełny przewodnik z efektem cienia](./create-blank-word-with-shadow-in-java-full-guide/)
+Dowiedz się, jak w Javie utworzyć pusty dokument Word i dodać do niego cień, korzystając z Aspose.Words.
+### [Grupowanie kształtów w Word – kompletny przewodnik programistyczny](./group-shapes-in-word-complete-programming-guide/)
+Pełny przewodnik, jak grupować kształty w dokumentach Word przy użyciu Aspose.Words dla Java.
+
+### [Ukryj obraz w Word – przewodnik krok po kroku w Javie z Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Dowiedz się, jak ukrywać obrazy w dokumentach Word przy użyciu Aspose.Words dla Java.
+### [Jak grupować kształty w dokumencie Word przy użyciu Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Dowiedz się, jak grupować wiele kształtów w dokumencie Word, aby ułatwić ich zarządzanie i formatowanie przy pomocy Aspose.Words.
+
+### [Jak ustawić ukrytą właściwość kształtu w Aspose.Words dla C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Dowiedz się, jak ustawić właściwość ukrycia kształtu w dokumentach przy użyciu Aspose.Words dla C#.
+### [Utwórz pusty dokument Word i grupuj kształty w Javie](./create-blank-word-document-and-group-shapes-in-java/)
+Dowiedz się, jak utworzyć pusty dokument Word oraz grupować kształty przy użyciu Aspose.Words dla Java.
+
+### [Jak utworzyć grupowy kształt docx i dodać interaktywne kontrolki w C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+Dowiedz się, jak tworzyć grupowe kształty w plikach docx i dodawać interaktywne kontrolki przy użyciu C# i Aspose.Words.
+
+### [Grupowanie kształtów w Wordzie i dodawanie prostokąta za pomocą Aspose.Words](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
+Dowiedz się, jak grupować kształty i dodawać prostokąt w dokumencie Word przy użyciu Aspose.Words dla Java.
+
+### [Jak ukryć kształt w Wordzie przy użyciu C# i Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
+Dowiedz się, jak ukryć kształt w dokumencie Word przy użyciu C# i Aspose.Words.
 
 ## Dodatkowe zasoby
+
+### [Utwórz pusty dokument Word z ukrytym kształtem elipsy](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
+Dowiedz się, jak utworzyć pusty dokument Word i dodać do niego ukryty kształt elipsy przy użyciu Aspose.Words dla Java.
+
+### [Jak utworzyć dokument Word z wykresem kołowym w Javie](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
+Dowiedz się, jak wstawiać wykres kołowy do dokumentu Word przy użyciu Aspose.Words dla Java.
+
+### [Jak utworzyć pusty dokument i dodać kształty do Word](./how-to-create-blank-document-and-add-shapes-to-word/)
+Dowiedz się, jak w Javie utworzyć pusty dokument Word i dodać do niego różne kształty przy użyciu Aspose.Words.
+
+### [Tworzenie dokumentu Word programowo, grupowanie kształtów w Javie](./create-word-document-programmatically-group-shapes-in-java/)
+Dowiedz się, jak programowo tworzyć dokumenty Word i grupować kształty przy użyciu Aspose.Words dla Java.
+
+### [Jak utworzyć pusty dokument Word i dodać ukryty kształt elipsy w C#](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+Dowiedz się, jak utworzyć pusty dokument Word i dodać ukryty kształt elipsy przy użyciu Aspose.Words w C#.
+
+### [Jak utworzyć wykres pierścieniowy w dokumencie Word w Javie](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+Dowiedz się, jak generować wykresy pierścieniowe w dokumentach Word przy użyciu Aspose.Words dla Java.
 
 ## Dodatkowe zasoby
 - [Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/)

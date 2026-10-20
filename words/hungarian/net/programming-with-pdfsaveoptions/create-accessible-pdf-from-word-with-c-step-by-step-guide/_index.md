@@ -212,7 +212,8 @@ Most már tudja, hogyan **hozzon létre hozzáférhető PDF‑et** egy Word‑do
 
 Most próbáljon ki további beállításokat: vízjelek hozzáadása, PDF‑biztonság beállítása, vagy PDF‑ek generálása felhőalapú mikroszolgáltatásban. Ugyanaz a minta alkalmazandó, és az Aspose.Words API-val ez egy könnyed feladat.  
 
-Van kérdése vagy szeretné megosztani a saját trükkjeit? Hagyjon megjegyzést alább, és jó kódást{{< /blocks/products/pf/tutorial-page-section >}}
+Van kérdése vagy szeretné megosztani a saját trükkjeit? Hagyjon megjegyzést alább, és jó kódást
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

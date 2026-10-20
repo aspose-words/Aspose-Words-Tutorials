@@ -31,6 +31,9 @@ In het huidige digitale landschap zijn naadloze integratie en interoperabiliteit
 ### [Beheers VBA-projectmanipulatie in Java met behulp van de Aspose.Words API](./master-vba-project-manipulation-aspose-java/)
 Leer hoe u documentverwerking kunt automatiseren en de productiviteit kunt verbeteren door VBA-projecten in Word-documenten te bewerken met Aspose.Words voor Java.
 
+### [Hoe maak je een ActiveX-besturingselement in een Word-document met C#](./how-to-create-activex-control-in-a-word-document-using-c/)
+Leer hoe u een ActiveX-besturingselement toevoegt aan een Word-document met C# en Aspose.Words.
+
 ## Aanvullende bronnen
 
 - [Aspose.Words voor Java-documentatie](https://reference.aspose.com/words/java/)

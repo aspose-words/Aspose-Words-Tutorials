@@ -20,6 +20,7 @@ Aspose.Words для .NET поддерживает различные типы п
 
 {{< tutorial-card link="./insert-form-fields/" title="Вставить поле формы «Комбинированный список» в документ Word" imgSrc="./insert-form-fields/images/thumb.png" >}}
 
+{{< tutorial-card link="./create-word-document-programmatically-step-by-step-guide/" title="Создать документ Word программно – пошаговое руководство" imgSrc="./create-word-document-programmatically-step-by-step-guide/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

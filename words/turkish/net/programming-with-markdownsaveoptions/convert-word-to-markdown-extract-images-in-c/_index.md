@@ -23,13 +23,9 @@ title: Word'ü Markdown'a Dönüştür – C#'ta Görselleri Çıkar
 url: /tr/net/programming-with-markdownsaveoptions/convert-word-to-markdown-extract-images-in-c/
 ---
 
-links: there are none besides image.
 
-There are markdown links? Not in this content.
 
-Proceed.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

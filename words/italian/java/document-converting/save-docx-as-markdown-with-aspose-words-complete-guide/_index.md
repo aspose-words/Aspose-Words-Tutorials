@@ -23,11 +23,9 @@ title: Salva docx come markdown con Aspose.Words – Guida completa
 url: /it/java/document-converting/save-docx-as-markdown-with-aspose-words-complete-guide/
 ---
 
-. But these placeholders are not fenced; they are just placeholders. Keep them as is.
 
-Make sure we keep the shortcodes at top and bottom.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

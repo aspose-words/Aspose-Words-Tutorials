@@ -21,13 +21,10 @@ title: Word'de şekle gölge ekleyin – Tam Aspose.Words Rehberi
 url: /tr/java/images-shapes/add-shadow-to-shape-in-word-complete-aspose-words-guide/
 ---
 
-.
 
-Then closing shortcodes as given.
 
-Make sure to keep all placeholders unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

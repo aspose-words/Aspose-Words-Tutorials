@@ -22,21 +22,13 @@ title: Recuperar documento de Word dañado – Guía completa de C#
 url: /es/net/programming-with-loadoptions/recover-damaged-word-document-complete-c-guide/
 ---
 
-dealing with severely damaged files, consider also setting `LoadOptions.Password` if the document is password‑protected; otherwise the loader will stop before reaching the recovery logic.
 
-### Step 2: Load the Corrupted DOCX Using the Configured Options
 
-Now we actually **...** (continue)
 
-We need to translate all.
 
-Let's produce final Spanish version.
 
-Be careful with code placeholders: keep them.
 
-Also keep markdown formatting.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

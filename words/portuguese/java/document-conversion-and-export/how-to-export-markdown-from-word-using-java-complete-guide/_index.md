@@ -23,13 +23,9 @@ title: Como Exportar Markdown do Word usando Java – Guia Completo
 url: /pt/java/document-conversion-and-export/how-to-export-markdown-from-word-using-java-complete-guide/
 ---
 
-Expected Output" heading and code block placeholder.
 
-Also "Common Variations & Edge Cases" heading etc.
 
-We need to translate everything else.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

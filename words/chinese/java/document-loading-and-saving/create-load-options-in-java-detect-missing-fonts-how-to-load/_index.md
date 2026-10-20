@@ -20,7 +20,6 @@ title: 在 Java 中创建加载选项 – 检测缺失字体及如何加载 DOCX
 url: /zh/java/document-loading-and-saving/create-load-options-in-java-detect-missing-fonts-how-to-load/
 ---
 
-produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -11,7 +11,7 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Integrations- und Interoperabilitätstutorials für Aspose.Words Java
+# Integrations- und Interoperitätstutorials für Aspose.Words Java
 
 Entdecken Sie umfassende Schritt-für-Schritt-Anleitungen für Integrations- und Interoperabilitätsvorgänge mit Aspose.Words für Java. Diese Tutorials enthalten vollständige Codebeispiele und detaillierte Erklärungen.
 
@@ -30,6 +30,9 @@ In der heutigen digitalen Landschaft sind nahtlose Integration und Interoperabil
 
 ### [Meistern Sie die VBA-Projektmanipulation in Java mit der Aspose.Words-API](./master-vba-project-manipulation-aspose-java/)
 Erfahren Sie, wie Sie die Dokumentverarbeitung automatisieren und die Produktivität steigern, indem Sie VBA-Projekte in Word-Dokumenten mit Aspose.Words für Java bearbeiten.
+
+### [Wie man ein ActiveX-Steuerelement in einem Word-Dokument mit C# erstellt](./how-to-create-activex-control-in-a-word-document-using-c/)
+Erfahren Sie, wie Sie mit C# ein ActiveX-Steuerelement in ein Word-Dokument einbetten und steuern.
 
 ## Weitere Ressourcen
 

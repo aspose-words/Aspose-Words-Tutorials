@@ -26,27 +26,17 @@ title: Dokumentum mentése PDF‑ként C#‑ban – Teljes útmutató a Docx exp
 url: /hu/net/programming-with-pdfsaveoptions/save-document-as-pdf-in-c-complete-guide-to-export-docx-and/
 ---
 
-.
 
-Check earlier: "Pro tip:" translation done.
 
-Check "Step 1:" etc.
 
-Check "Step 2:", "Step 3:", "Step 4:", "Step 5:".
 
-Check "Handling Common Edge Cases" translation.
 
-Check "Full Working Example".
 
-Check "Run the program with `dotnet run`." translation done.
 
-Check "FAQ" table translation.
 
-Check "Conclusion".
 
-All good.
 
-Now produce final content with same markdown structure.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

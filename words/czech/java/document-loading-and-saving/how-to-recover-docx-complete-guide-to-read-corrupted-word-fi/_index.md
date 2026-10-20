@@ -23,17 +23,11 @@ title: Jak obnovit docx – Kompletní průvodce čtením poškozených souborů
 url: /cs/java/document-loading-and-saving/how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/
 ---
 
-ý soubor Word** maybe.
 
-**recover corrupted docx** => **obnovit poškozený docx**.
 
-Make sure to keep bold formatting.
 
-Now translate.
 
-Proceed step by step.
 
-I'll write final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

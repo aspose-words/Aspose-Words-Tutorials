@@ -53,19 +53,19 @@ Att starta om sidnumrering innebär att du börjar en ny numreringssekvens i en 
 ### Nödvändiga bibliotek och versioner
 Se till att du har Aspose.Words for Java version 25.3 (eller nyare) installerad.
 
-**Maven:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-words</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ### Miljöinställningskrav
 - Java Development Kit (JDK) installerat.
@@ -90,6 +90,16 @@ public class SetupAsposeWords {
         System.out.println("Aspose.Words is ready to use!");
     }
 }
+```  
+
+När biblioteket är klart kan du börja använda kärnfunktionerna.
+
+## Hur man analyserar sidor med LayoutCollector?
+
+`LayoutCollector` är en klass som mappar varje nod i ett `Document` till dess start‑ och slut‑sidnummer, vilket möjliggör exakt pagineringsanalys. Ladda ditt dokument, fäst en `LayoutCollector` och fråga efter sidinformation – hela operationen kräver bara några rader kod och ger pålitliga resultat även för stora filer.
+
+```text
+Load the document → create LayoutCollector → call getStartPage(node) / getEndPage(node)
 ```
 
 Med biblioteket klart kan vi dyka ner i kärnfunktionerna.
@@ -108,7 +118,7 @@ Genom att utnyttja `LayoutCollector` kan du hämta start‑ och slut‑sidindex 
 ```java
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
-```
+```  
 
 **2. Fyll på dokumentet**
 Här lägger vi till innehåll som sträcker sig över flera sidor:
@@ -119,7 +129,7 @@ builder.insertBreak(BreakType.PAGE_BREAK);
 builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
 builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
-```
+```  
 
 **3. Uppdatera layout och hämta mått**
 ```java
@@ -127,6 +137,19 @@ layoutCollector.clear();
 doc.updatePageLayout();
 
 assert layoutCollector.getNumPagesSpanned(doc) == 5;
+```  
+
+**Förklaring:**  
+- `DocumentBuilder` infogar innehåll.  
+- `updatePageLayout()` tvingar ett layoutpass så sidnumren blir korrekta.  
+- `getStartPage` / `getEndPage` returnerar den första och sista sidindexen för vilken nod som helst.
+
+## Hur man enumererar layout‑element med LayoutEnumerator?
+
+`LayoutEnumerator` är en klass som traverserar dokumentets visuella layout‑träd och exponerar varje elements typ, position och storlek—perfekt för anpassad rendering eller analys. `LayoutEnumerator` går igenom det visuella layout‑trädet och exponerar varje elements typ, position och storlek—perfekt för anpassad rendering eller analys.
+
+```text
+Initialize LayoutEnumerator → move to first child → iterate while moving next sibling
 ```
 
 #### Förklaring
@@ -145,7 +168,7 @@ Du kan gå igenom sidor, stycken, rader och andra layout‑entiteter, vilket är
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
-```
+```  
 
 **2. Traversera framåt och bakåt**
 ```java
@@ -156,7 +179,7 @@ traverseLayoutForward(layoutEnumerator, 1);
 
 // Traverse backward
 traverseLayoutBackward(layoutEnumerator, 1);
-```
+```  
 
 #### Förklaring
 - `moveParent()` flyttar uppräknaren till föräldraenheten (i detta fall sidnivån).
@@ -168,15 +191,17 @@ Implementera återanrop för att övervaka layout‑händelser och **rendera sid
 #### Översikt
 `IPageLayoutCallback`‑gränssnittet meddelar dig när en del av dokumentet har slutfört omflödet eller när konverteringen är klar.
 
-#### Implementeringssteg
+```text
+Set callback on Document → implement notify(event) → handle specific layout events
+```  
 
 **1. Ställ in återanrop**
 ```java
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
 doc.updatePageLayout();
-```
+```  
 
-**2. Implementera återanropsmetoder**
+### Steg 2: implementera callback‑metoder
 ```java
 private static class RenderPageLayoutCallback implements IPageLayoutCallback {
     public void notify(PageLayoutCallbackArgs a) throws Exception {
@@ -196,7 +221,7 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
         }
     }
 }
-```
+```  
 
 #### Förklaring
 - `notify()` reagerar på layout‑händelser.
@@ -208,18 +233,20 @@ Kontrollera sidnumrering när du har flera sektioner som flödar kontinuerligt.
 #### Översikt
 Genom att sätta `ContinuousSectionRestart`‑alternativet kan du bestämma om sidnummer ska startas om på en ny sida eller fortsätta sömlöst.
 
-#### Implementeringssteg
+```text
+Load document → set ContinuousSectionPageNumberingRestart option → save
+```  
 
 **1. Läs in dokumentet**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
-```
+```  
 
 **2. Konfigurera sidnumreringsalternativ**
 ```java
 doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
 doc.updatePageLayout();
-```
+```  
 
 #### Förklaring
 - `setContinuousSectionPageNumberingRestart()` talar om för Aspose.Words hur numrering i kontinuerliga sektioner ska hanteras.
