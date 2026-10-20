@@ -60,12 +60,12 @@ Aspose.Words for Java バージョン 25.3（以降）がインストールさ
     <artifactId>aspose-words</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
 **Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ### 環境設定要件
 
@@ -93,6 +93,16 @@ public class SetupAsposeWords {
         System.out.println("Aspose.Words is ready to use!");
     }
 }
+```  
+
+ライブラリの準備ができたら、コア機能の使用を開始できます。
+
+## LayoutCollector を使用してページを分析する方法
+
+`LayoutCollector` は、`Document` 内の各ノードを開始ページ番号と終了ページ番号にマッピングするクラスで、正確なページ付け分析を可能にします。ドキュメントをロードし、`LayoutCollector` を添付してページ情報を照会します――この操作は数行のコードで完了し、大きなファイルでも信頼できる結果を提供します。
+
+```text
+Load the document → create LayoutCollector → call getStartPage(node) / getEndPage(node)
 ```
 
 ライブラリの準備ができたら、コア機能に進みます。
@@ -113,7 +123,7 @@ public class SetupAsposeWords {
 ```java
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
-```
+```  
 
 **2. Populate the Document**
 Here, we'll add content that spans multiple pages:
@@ -124,7 +134,7 @@ builder.insertBreak(BreakType.PAGE_BREAK);
 builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
 builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
-```
+```  
 
 **3. Update Layout and Retrieve Metrics**
 ```java
@@ -132,6 +142,19 @@ layoutCollector.clear();
 doc.updatePageLayout();
 
 assert layoutCollector.getNumPagesSpanned(doc) == 5;
+```  
+
+**説明:**  
+- `DocumentBuilder` がコンテンツを挿入します。  
+- `updatePageLayout()` はレイアウトパスを強制し、ページ番号を正確にします。  
+- `getStartPage` / `getEndPage` は任意のノードの最初と最後のページインデックスを返します。  
+
+## LayoutEnumerator を使用してレイアウト要素を列挙する方法
+
+`LayoutEnumerator` は、ドキュメントのビジュアルレイアウトツリーを走査し、各要素のタイプ、位置、サイズを公開するクラスです――カスタムレンダリングや分析に最適です。`LayoutEnumerator` はビジュアルレイアウトツリーを歩き、各要素のタイプ、位置、サイズを公開します――カスタムレンダリングや分析に最適です。
+
+```text
+Initialize LayoutEnumerator → move to first child → iterate while moving next sibling
 ```
 
 #### 解説
@@ -153,7 +176,7 @@ assert layoutCollector.getNumPagesSpanned(doc) == 5;
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
-```
+```  
 
 **2. Traversing Forward and Backward**
 ```java
@@ -164,6 +187,18 @@ traverseLayoutForward(layoutEnumerator, 1);
 
 // Traverse backward
 traverseLayoutBackward(layoutEnumerator, 1);
+```  
+
+**説明:**  
+- `moveParent()` はツリーを上に移動します。  
+- 再帰的な走査により、すべてのレイアウトノードに完全にアクセスできます。  
+
+## ページレイアウトコールバックを実装する方法
+
+`IPageLayoutCallback` は、ドキュメント処理中にレイアウトイベントを受け取るためのインターフェイスで、セクションの再フローやレンダリング完了などのレイアウト変更に対応できます。`IPageLayoutCallback` を実装すると、セクションの再フローやレンダリング完了といったレイアウトイベントに反応でき、ドキュメント生成パイプラインを動的に制御できます。
+
+```text
+Set callback on Document → implement notify(event) → handle specific layout events
 ```
 
 #### 解説
@@ -185,7 +220,7 @@ traverseLayoutBackward(layoutEnumerator, 1);
 ```java
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
 doc.updatePageLayout();
-```
+```  
 
 **2. Implement Callback Methods**
 ```java
@@ -207,6 +242,18 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
         }
     }
 }
+```  
+
+**説明:**  
+- `notify()` はイベント識別子を受け取ります。  
+- `ImageSaveOptions` はコールバック内でカスタマイズでき、オンザフライの画像レンダリングが可能です。  
+
+## 連続セクションでページ番号をリスタートする方法
+
+`ContinuousSectionRestart` は、連続セクションでページ番号をリスタートするかどうかを指定する列挙型で、文書全体の番号付けスキームを細かく制御できます。文書に連続して流れる複数のセクションがある場合、ページ番号を自動的にリスタートするかどうかを制御できます。
+
+```text
+Load document → set ContinuousSectionPageNumberingRestart option → save
 ```
 
 #### 解説
@@ -227,13 +274,13 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
 **1. Load Document**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
-```
+```  
 
 **2. Configure Page Numbering Options**
 ```java
 doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
 doc.updatePageLayout();
-```
+```  
 
 #### 解説
 

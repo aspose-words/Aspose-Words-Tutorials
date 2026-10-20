@@ -37,6 +37,9 @@ Výukové programy se také zabývají základními koncepty manipulace s obráz
 | [Exportovat Word jako PNG – Převést DOCX na jeden obrázek](./export-word-as-png-convert-docx-to-one-image/) | Naučte se, jak exportovat dokument Word do jednoho souboru PNG pomocí Aspose.Words pro .NET. |
 | [Převod docx na png – Kompletní průvodce krok za krokem](./convert-docx-to-png-complete-step-by-step-guide/) | Naučte se převést soubory DOCX na PNG pomocí Aspose.Words pro .NET s podrobným krok za krokem návodem. |
 | [Převod DOCX na PNG – Kompletní průvodce v C#](./convert-docx-to-png-complete-c-guide/) | Naučte se převést dokument DOCX na obrázek PNG pomocí Aspose.Words pro .NET v C#. |
+| [Jak nastavit DPI – Export Wordu do PNG mřížky v C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Naučte se exportovat dokument Word do PNG mřížky s nastavením DPI pomocí Aspose.Words pro .NET v C#. |
+| [Uložení Wordu jako PNG – Kompletní průvodce Aspose.Words](./save-word-as-png-complete-aspose-words-guide/) | Naučte se, jak uložit dokument Word jako PNG pomocí Aspose.Words pro .NET s podrobným návodem. |
+| [Uložení dokumentu jako PNG v C# – Kompletní průvodce](./save-document-as-png-in-c-complete-guide/) | Naučte se, jak uložit dokument Word jako PNG pomocí Aspose.Words pro .NET v C# s podrobným návodem. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

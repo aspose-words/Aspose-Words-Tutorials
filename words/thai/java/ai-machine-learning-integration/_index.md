@@ -71,6 +71,8 @@ AI document processing ผสานการจัดการเอกสาร
 เรียนรู้วิธีใช้ LLM เพื่อค้นหาและแทนที่ข้อความในไฟล์ DOCX โดยอัตโนมัติด้วย Aspose.Words for Java
 ### [สร้างโมเดล AI กำหนดเอง – แก้ไขย่อหน้า Word ใน Java](./create-custom-ai-model-edit-word-paragraphs-in-java/)
 เรียนรู้วิธีสร้างโมเดล AI ของคุณเองและใช้เพื่อแก้ไขย่อหน้าของเอกสาร Word ด้วย Aspose.Words for Java
+### [สร้างเอกสาร Word ด้วย Java และการตรวจสอบไวยากรณ์ LLM แบบกำหนดเอง](./create-word-document-java-with-custom-llm-grammar-check/)
+เรียนรู้วิธีสร้างเอกสาร Word ใน Java พร้อมตรวจสอบไวยากรณ์โดยใช้โมเดลภาษา LLM ที่กำหนดเอง
 
 ## Additional Resources
 

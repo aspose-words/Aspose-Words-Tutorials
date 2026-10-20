@@ -78,6 +78,14 @@ Leer hoe u corrupte DOCX-bestanden volledig kunt herstellen met Aspose.Words voo
     ### [Herstel beschadigde DOCX-bestanden in Python – Complete gids](./recover-corrupted-docx-files-in-python-complete-guide/)
 Ontdek hoe u corrupte DOCX-bestanden kunt repareren en weer bruikbaar maken met Aspose.Words voor Python.
 
+    ### [Hoe DOCX-bestanden te herstellen in Python – Complete gids](./how-to-recover-docx-files-in-python-complete-guide/)
+Leer hoe u beschadigde DOCX-bestanden kunt herstellen met Python en Aspose.Words.
+
+    ### [Herstel beschadigd DOCX in Python – volledige stapsgewijze handleiding](./recover-corrupted-docx-in-python-full-step-by-step-guide/)
+Leer hoe u een beschadigd DOCX-bestand volledig kunt herstellen met een stap‑voor‑stap‑gids in Python.
+
+### [Hoe docx te herstellen in Python met Aspose.Words](./how-to-recover-docx-in-python-using-aspose-words/)
+
 ## Aanvullende bronnen
 
 - [Aspose.Words voor Python-net-documentatie](https://docs.aspose.com/words/python-net/)

@@ -38,6 +38,9 @@ tutorial trattano anche i concetti base della manipolazione delle immagini, tra 
 | [Esporta Word come PNG – Converti DOCX in un'Immagine](./export-word-as-png-convert-docx-to-one-image/) | Scopri come convertire un documento DOCX in un'unica immagine PNG usando Aspose.Words per .NET con esempi passo passo. |
 | [Converti docx in png – Guida completa passo‑per‑passo](./convert-docx-to-png-complete-step-by-step-guide/) | Scopri come convertire file DOCX in PNG con Aspose.Words per .NET, passo dopo passo, includendo impostazioni di qualità e DPI. |
 | [Converti DOCX in PNG – Guida completa C#](./convert-docx-to-png-complete-c-guide/) | Scopri come convertire documenti DOCX in PNG con Aspose.Words per .NET usando C# con esempi dettagliati passo passo. |
+| [come impostare DPI – Esporta Word in PNG Grid in C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Scopri come impostare il DPI durante l'esportazione di un documento Word in una griglia PNG usando C# con Aspose.Words per .NET. |
+| [Salva Word come PNG – Guida completa Aspose.Words](./save-word-as-png-complete-aspose-words-guide/) | Scopri come salvare documenti Word come immagini PNG con una guida completa passo passo usando Aspose.Words per .NET. |
+| [Salva documento come PNG in C# – Guida completa](./save-document-as-png-in-c-complete-guide/) | Scopri come salvare un documento Word come immagine PNG usando Aspose.Words per .NET con esempi C# passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -29,6 +29,7 @@ In deze tutorials leert u hoe u LoadOptions kunt gebruiken om Word-documenten me
 | [Gebruik tijdelijke map in Word-document](./use-temp-folder/) | Leer hoe u de prestaties van uw .NET-toepassingen kunt verbeteren door een tijdelijke map te gebruiken tijdens het laden van Word-documenten met Aspose.Words. |
 | [Waarschuwingscallback in Word-document](./warning-callback/) Leer hoe u waarschuwingen in Word-documenten kunt detecteren en verwerken met Aspose.Words voor .NET met onze stapsgewijze handleiding. Zorg voor een robuuste documentverwerking. |
 | [Laden met codering in Word-document](./load-with-encoding/) | Leer hoe u een Word-document met specifieke codering laadt met AspNet.Words voor .NET. Stapsgewijze handleiding met gedetailleerde uitleg. |
+| [Waarschuwingscallback instellen Aspose – Complete gids voor het laden van Word-documenten](./set-warning-callback-aspose-complete-guide-for-word-document/) | Leer hoe u een waarschuwingscallback instelt bij het laden van Word-documenten met Aspose.Words voor .NET in deze volledige gids. |
 | [PDF-afbeeldingen overslaan](./skip-pdf-images/) | Leer hoe u afbeeldingen kunt overslaan bij het laden van PDF-documenten met Aspose.Words voor .NET. Volg deze stapsgewijze handleiding voor naadloze tekstextractie. |
 | [Metabestanden naar PNG converteren](./convert-metafiles-to-png/) | Converteer metabestanden eenvoudig naar PNG in Word-documenten met Aspose.Words voor .NET met deze stapsgewijze tutorial. Vereenvoudig uw documentbeheer. |
 | [Chm-bestanden laden in Word-document](./load-chm/) | Laad CHM-bestanden eenvoudig in Word-documenten met Aspose.Words voor .NET met deze stapsgewijze tutorial. Perfect voor het consolideren van uw technische documentatie. |
@@ -77,6 +78,9 @@ In deze tutorials leert u hoe u LoadOptions kunt gebruiken om Word-documenten me
 | [Herstel beschadigd Word-bestand en toon herstelmodus in C#](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | Leer hoe u een beschadigd Word-bestand kunt herstellen en de herstelmodus in C# kunt weergeven met Aspose.Words voor .NET. |
 | [Waarschuwingen vastleggen in C# – Ontbrekende lettertypen detecteren en substitutie loggen](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) | Leer hoe u waarschuwingen voor ontbrekende lettertypen detecteert en vervangingsacties logt met Aspose.Words voor .NET in C#. |
 | [Herstel beschadigde DOCX – Complete C#-gids om bestanden te repareren en op te slaan](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) | Leer hoe u beschadigde DOCX-bestanden kunt herstellen en opslaan met een volledige C#-handleiding. |
+| [Hoe LoadOptions te gebruiken in Aspose.Words – Complete C#‑gids](./how-to-use-loadoptions-in-aspose-words-complete-c-guide/) | Leer stap voor stap hoe u LoadOptions gebruikt in Aspose.Words voor .NET met deze volledige C#‑gids. |
+| [Beschadigd docx herstellen – Volledige gids voor het laden van beschadigde Word-bestanden in C#](./recover-corrupted-docx-full-guide-to-loading-damaged-word-fi/) | Leer hoe u beschadigde docx-bestanden kunt laden en herstellen in C# met Aspose.Words. |
+| [Hoe een DOCX te herstellen met Aspose.Words – volledige gids](./how-to-recover-docx-with-aspose-words-full-guide/) | Leer stap voor stap hoe u een beschadigd DOCX-bestand kunt herstellen met Aspose.Words – een volledige gids. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

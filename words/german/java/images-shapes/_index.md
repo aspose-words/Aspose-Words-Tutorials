@@ -33,6 +33,8 @@ Ein Code-Tutorial für Aspose.Words Java
 
 ### [So rendern Sie Dokumentseiten als Miniaturansichten mit Aspose.Words für Java](./render-word-pages-thumbnails-aspose-java/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java hochwertige Miniaturansichten und Bitmaps in benutzerdefinierter Größe von Word-Dokumenten erstellen. Verbessern Sie noch heute Ihre Dokumentenverwaltung.
+### [Word-Dokument in Java erstellen – Rechteckform mit Schatteneffekt hinzufügen](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+Ein Codebeispiel, das zeigt, wie man in Aspose.Words für Java ein Rechteck mit Schatten in ein Word-Dokument einfügt.
 
 ### [Schatten zu Form in Word hinzufügen – Vollständige Aspose.Words-Anleitung](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Lernen Sie, wie Sie mit Aspose.Words für Java Schatten zu Formen in Word-Dokumenten hinzufügen.
@@ -57,6 +59,37 @@ Ein Codebeispiel, das zeigt, wie man in Aspose.Words für Java einer Form einen 
 
 ### [Gruppieren von Formen in Word mit Java – Vollständige Schritt-für-Schritt-Anleitung](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Ein umfassendes Tutorial, das zeigt, wie man mehrere Formen in einem Word-Dokument mit Aspose.Words für Java gruppiert und verwaltet.
+
+### [Word-Dokument in Java erstellen – Form mit Schatteneffekt hinzufügen](./create-word-document-java-add-shape-with-shadow-effect/)
+Ein Codebeispiel, das zeigt, wie man in Aspose.Words für Java eine Form mit Schatten in ein Word-Dokument einfügt.
+
+### [Rechteckform in Java mit Aspose.Words – Vollständige Anleitung](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Ein umfassendes Tutorial, das zeigt, wie man in Aspose.Words für Java ein Rechteck formatiert und einfügt.
+
+### [Wie man eine Gruppenform in Java einfügt – Komplettanleitung](./how-to-insert-group-shape-in-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java Gruppenformen hinzufügen und anpassen, um komplexe Dokumentlayouts zu erstellen.
+
+### [Leeres Word-Dokument mit gruppierten Rechtecken – C#-Leitfaden](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Ein Codebeispiel, das zeigt, wie man in Aspose.Words für C# ein leeres Word-Dokument erstellt und gruppierte Rechtecke hinzufügt.
+
+### [Rechteckform in Java einfügen – Formen gruppieren und positionieren](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+Ein Codebeispiel, das zeigt, wie man in Aspose.Words für Java ein Rechteck einfügt, mehrere Formen gruppiert und deren Position festlegt.
+
+### [Bild in Word einfügen – Aspose.Words Schritt-für-Schritt-Anleitung](./insert-image-into-word-aspose-words-step-by-step-guide/)
+Ein praktisches Beispiel, das zeigt, wie Sie mit Aspose.Words für Java Bilder in ein Word-Dokument einfügen.
+
+### [Rechteckform in Word mit C# einfügen – vollständige Anleitung](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+Ein umfassendes Codebeispiel, das zeigt, wie man mit Aspose.Words für C# ein Rechteck in ein Word-Dokument einfügt.
+### [Leeres Word-Dokument mit Schatten in Java erstellen – Vollständige Anleitung](./create-blank-word-with-shadow-in-java-full-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein leeres Word-Dokument erstellen und einen Schatteneffekt hinzufügen.
+### [Gruppieren von Formen in Word – vollständiger Programmierleitfaden](./group-shapes-in-word-complete-programming-guide/)
+Ein umfassendes Codebeispiel, das zeigt, wie Sie Formen in Word gruppieren und verwalten.
+
+### [Bild in Word ausblenden – Schritt‑für‑Schritt Java‑Leitfaden mit Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java Bilder in Word-Dokumenten ausblenden.
+### [Wie man Formen in einem Word-Dokument mit Aspose.Words gruppiert](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+
+### [Wie man die versteckte Eigenschaft einer Form in Aspose.Words für C# festlegt](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 
 ## Weitere Ressourcen
 

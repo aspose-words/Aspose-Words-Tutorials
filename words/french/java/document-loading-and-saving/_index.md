@@ -111,6 +111,9 @@ Apprenez à réparer les fichiers DOCX corrompus en Java avec Aspose.Words grâc
 ### [Récupérer un DOCX corrompu en Java – Guide complet de programmation](./recover-corrupted-docx-in-java-complete-programming-guide/)
 Apprenez à réparer les fichiers DOCX endommagés, extraire le contenu et le traiter avec Aspose.Words for Java grâce à un guide pas‑à‑pas.
 
+### [Aspose.Words LoadOptions – Récupérer les documents Word corrompus en Java](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+Apprenez à utiliser LoadOptions pour récupérer des documents Word corrompus et les convertir avec Aspose.Words for Java.
+
 ### [Options avancées d'enregistrement avec Aspose.Words for Java](./advance-saving-options/)
 Apprenez la manipulation avancée de documents avec Aspose.Words for Java. Chiffrez, gérez les métafichiers, et plus encore. Vos documents Word, à votre façon.
 
@@ -192,6 +195,19 @@ Apprenez à gérer les avertissements lors du chargement d’un document Word en
 
 ### [Enregistrer les avertissements de substitution de police en Java avec Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
 Apprenez à consigner les avertissements de substitution de police lors du chargement de documents Word en Java avec Aspose.Words.
+
+### [Configurer LoadOptions pour les avertissements – Guide complet Java](./configure-loadoptions-for-warnings-complete-java-guide/)
+
+### [Comment enregistrer un fichier DOCX avec Java – Guide d’insertion de contrôles de contenu](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+Apprenez à enregistrer un document DOCX en Java tout en insérant des contrôles de contenu pour une personnalisation dynamique.
+
+### [Créer un document Word vierge avec Java – Guide complet Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
+Apprenez à créer un document Word vierge en Java avec Aspose.Words, incluant les options de mise en forme et d’enregistrement.
+
+### [Charger le soulignement Markdown en Java – guide complet de programmation](./load-markdown-underline-in-java-complete-programming-guide/)
+Apprenez à charger et gérer le soulignement Markdown dans des applications Java avec Aspose.Words. Guide complet avec exemples de code.
+### [Tutoriel de substitution de polices Aspose – Gérer les polices manquantes](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+Apprenez à capturer et gérer les avertissements de substitution de polices lors du chargement de documents Word avec des polices manquantes grâce à Aspose.Words for Java.
 
 ## Foire aux questions
 

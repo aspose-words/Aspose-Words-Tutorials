@@ -64,6 +64,41 @@ C# में Aspose.PDF का उपयोग करके आयताका�
 ### [जावा के साथ Word में समूह आकृतियाँ – पूर्ण चरण-दर-चरण मार्गदर्शिका](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ में समूह आकृतियों को बनाने और प्रबंधित करने की पूरी गाइड।
 
+### [जावा में Word दस्तावेज़ बनाएं – आकार को छाया प्रभाव के साथ जोड़ें](./create-word-document-java-add-shape-with-shadow-effect/)
+जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ में आकार को छाया प्रभाव के साथ जोड़ने का तरीका सीखें।
+
+### [जावा में Aspose.Words के साथ आयताकार आकार बनाएं – पूर्ण गाइड](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Aspose.Words for Java का उपयोग करके आयताकार आकार जोड़ने और अनुकूलित करने की पूरी प्रक्रिया सीखें।
+
+### [जावा में समूह आकृति कैसे डालें – पूर्ण गाइड](./how-to-insert-group-shape-in-java-complete-guide/)
+जावा में Aspose.Words का उपयोग करके समूह आकृति सम्मिलित करने की पूरी प्रक्रिया सीखें।
+
+### [समूहित आयताकार के साथ खाली Word दस्तावेज़ बनाएं – C# गाइड](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+C# में Aspose.Words का उपयोग करके समूहित आयताकार के साथ एक खाली Word दस्तावेज़ बनाने की प्रक्रिया सीखें।
+
+### [जावा में आयताकार आकार सम्मिलित करें – समूह बनाएं और आकारों को स्थित करें](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+जावा में Aspose.Words का उपयोग करके आयताकार आकार को समूहित करके उसकी स्थिति निर्धारित करने का तरीका सीखें।
+
+### [Word में छवि सम्मिलित करें – Aspose.Words चरण-दर-चरण गाइड](./insert-image-into-word-aspose-words-step-by-step-guide/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ में छवि कैसे जोड़ें, इस चरण-दर-चरण मार्गदर्शिका में सीखें।
+
+### [C# का उपयोग करके Word में आयताकार आकार सम्मिलित करें – पूर्ण मार्गदर्शिका](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+C# के साथ Aspose.Words का उपयोग करके Word में आयताकार आकार जोड़ने का पूर्ण गाइड।
+### [जावा में शैडो के साथ खाली वर्ड दस्तावेज़ बनाएं – पूर्ण गाइड](./create-blank-word-with-shadow-in-java-full-guide/)
+जावा में Aspose.Words का उपयोग करके शैडो प्रभाव के साथ एक खाली Word दस्तावेज़ बनाने की पूरी प्रक्रिया सीखें।
+
+### [Word में समूह आकृतियाँ – पूर्ण प्रोग्रामिंग गाइड](./group-shapes-in-word-complete-programming-guide/)
+Word में समूह आकृतियों को बनाने और प्रबंधित करने के लिए पूर्ण कोड गाइड।
+
+### [वर्ड में छवि को छिपाएँ – Aspose के साथ जावा चरण‑दर‑चरण गाइड](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Aspose.Words के साथ जावा में वर्ड दस्तावेज़ में छवि को छिपाने का चरण‑दर‑चरण मार्गदर्शन।
+
+### [Aspose.Words का उपयोग करके Word दस्तावेज़ में आकृतियों को समूहित करने का तरीका](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Aspose.Words Java के साथ Word दस्तावेज़ में कई आकृतियों को समूहित करने की प्रक्रिया सीखें।
+
+### [Aspose.Words for C# में आकृति की छिपी हुई प्रॉपर्टी कैसे सेट करें](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Aspose.Words C# में आकृति की छिपी हुई प्रॉपर्टी सेट करने की चरण-दर-चरण गाइड।
+
 ## अतिरिक्त संसाधन
 
 - [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)

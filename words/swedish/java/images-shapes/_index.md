@@ -33,6 +33,8 @@ En kodhandledning för Aspose.Words Java
 
 ### [Hur man renderar dokumentsidor som miniatyrer med Aspose.Words för Java](./render-word-pages-thumbnails-aspose-java/)
 Lär dig hur du genererar högkvalitativa miniatyrbilder och bitmappar i anpassad storlek av Word-dokument med Aspose.Words för Java. Förbättra dina dokumenthanteringsfunktioner idag.
+### [Skapa Word-dokument Java – Lägg till rektangel med skuggeffekt](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+Lär dig hur du lägger till en rektangel med skuggeffekt i ett Word-dokument med Aspose.Words för Java.
 
 ### [Lägg till skugga på form i Word – Komplett Aspose.Words-guide](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Lär dig hur du applicerar skuggeffekter på former i Word-dokument med Aspose.Words för Java.
@@ -57,6 +59,39 @@ Lär dig hur du lägger till en skuggeffekt på en form i ett Word-dokument med 
 
 ### [Gruppera former i Word med Java – Komplett steg-för-steg-guide](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Lär dig hur du grupperar former i ett Word-dokument med Aspose.Words för Java.
+
+### [Skapa Word-dokument Java – Lägg till form med skuggeffekt](./create-word-document-java-add-shape-with-shadow-effect/)
+Lär dig hur du lägger till en form med skuggeffekt i ett Word-dokument med Aspose.Words för Java.
+
+### [Skapa rektangel i Java med Aspose.Words – Fullständig guide](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Lär dig steg för steg hur du skapar och anpassar en rektangel i ett Word-dokument med Aspose.Words för Java.
+
+### [Hur man infogar gruppform i Java – Komplett guide](./how-to-insert-group-shape-in-java-complete-guide/)
+Lär dig steg-för-steg hur du lägger till en gruppform i ett Word-dokument med Aspose.Words för Java.
+
+### [Skapa tomt Word-dokument med grupperade rektanglar – C#-guide](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Lär dig hur du skapar ett tomt Word-dokument och lägger till grupperade rektanglar med Aspose.Words för C#.
+
+### [Infoga rektangel i Java – Gruppera och positionera former](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+Lär dig hur du infogar en rektangel, grupperar den med andra former och justerar dess position i ett Word-dokument med Aspose.Words för Java.
+
+### [Infoga bild i Word – Aspose.Words steg-för-steg guide](./insert-image-into-word-aspose-words-step-by-step-guide/)
+Lär dig hur du infogar bilder i Word-dokument med Aspose.Words för Java i en detaljerad steg‑för‑steg‑guide.
+
+### [Infoga rektangel i Word med C# – komplett guide](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+Lär dig steg för steg hur du lägger till en rektangel i ett Word-dokument med C# och Aspose.Words.
+### [Skapa tomt Word-dokument med skugga i Java – Fullständig guide](./create-blank-word-with-shadow-in-java-full-guide/)
+Lär dig hur du skapar ett tomt Word-dokument med skuggeffekt i Java med Aspose.Words.
+### [Gruppera former i Word – komplett programmeringsguide](./group-shapes-in-word-complete-programming-guide/)
+Lär dig hur du grupperar former i ett Word-dokument med Aspose.Words för Java.
+
+### [Dölj bild i Word – steg‑för‑steg Java‑guide med Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Lär dig hur du döljer bilder i ett Word-dokument med Aspose.Words för Java.
+### [Hur man grupperar former i ett Word-dokument med Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Lär dig hur du grupperar flera former i ett Word-dokument med Aspose.Words för Java.
+
+### [Hur man ställer in dold egenskap för form i Aspose.Words för C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Lär dig hur du markerar en form som dold i ett Word-dokument med Aspose.Words för C#.
 
 ## Ytterligare resurser
 

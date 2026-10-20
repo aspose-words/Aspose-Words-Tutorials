@@ -33,6 +33,8 @@ Hướng dẫn mã cho Aspose.Words Java
 
 ### [Cách kết xuất các trang tài liệu dưới dạng hình thu nhỏ bằng Aspose.Words cho Java](./render-word-pages-thumbnails-aspose-java/)
 Tìm hiểu cách tạo hình thu nhỏ chất lượng cao và bitmap tùy chỉnh kích thước của tài liệu Word bằng Aspose.Words for Java. Nâng cao khả năng xử lý tài liệu của bạn ngay hôm nay.
+### [Tạo tài liệu Word bằng Java – Thêm hình chữ nhật với hiệu ứng bóng](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+Hướng dẫn cách chèn hình chữ nhật có bóng vào tài liệu Word bằng Aspose.Words cho Java.
 
 ### [Thêm bóng cho hình dạng trong Word – Hướng dẫn đầy đủ Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Hướng dẫn chi tiết cách áp dụng hiệu ứng bóng cho hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
@@ -57,6 +59,39 @@ Hướng dẫn cách chèn và áp dụng hiệu ứng bóng cho các hình dạ
 
 ### [Nhóm các hình dạng trong Word với Java – Hướng dẫn chi tiết từng bước](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Hướng dẫn chi tiết cách nhóm các hình dạng trong tài liệu Word bằng Java.
+
+### [Tạo tài liệu Word bằng Java – Thêm hình dạng với hiệu ứng bóng](./create-word-document-java-add-shape-with-shadow-effect/)
+Hướng dẫn cách chèn hình dạng có bóng vào tài liệu Word bằng Aspose.Words cho Java.
+
+### [Tạo hình chữ nhật trong Java với Aspose.Words – Hướng dẫn đầy đủ](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Hướng dẫn chi tiết cách tạo và tùy chỉnh hình chữ nhật trong tài liệu Word bằng Aspose.Words cho Java.
+
+### [Cách chèn nhóm hình dạng trong Java – Hướng dẫn toàn diện](./how-to-insert-group-shape-in-java-complete-guide/)
+Hướng dẫn chi tiết cách chèn và quản lý nhóm hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
+
+### [Tạo tài liệu Word trống với các hình chữ nhật nhóm – Hướng dẫn C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Hướng dẫn tạo tài liệu Word trống và chèn các hình chữ nhật được nhóm bằng Aspose.Words cho C#.
+
+### [Chèn hình chữ nhật trong Java – Nhóm và Định vị các hình dạng](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+Hướng dẫn cách nhóm và định vị các hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
+
+### [Chèn hình ảnh vào Word – Hướng dẫn từng bước Aspose.Words](./insert-image-into-word-aspose-words-step-by-step-guide/)
+Hướng dẫn chi tiết cách chèn hình ảnh vào tài liệu Word bằng Aspose.Words cho Java.
+
+### [Chèn hình chữ nhật vào Word bằng C# – hướng dẫn đầy đủ](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+Hướng dẫn chi tiết cách chèn hình chữ nhật vào tài liệu Word bằng C# sử dụng Aspose.Words.
+### [Tạo tài liệu Word trống với bóng trong Java – Hướng dẫn đầy đủ](./create-blank-word-with-shadow-in-java-full-guide/)
+Hướng dẫn chi tiết cách tạo tài liệu Word trống có hiệu ứng bóng bằng Aspose.Words cho Java.
+### [Nhóm các hình dạng trong Word – hướng dẫn lập trình đầy đủ](./group-shapes-in-word-complete-programming-guide/)
+Hướng dẫn chi tiết cách nhóm các hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
+
+### [Ẩn hình ảnh trong Word – hướng dẫn từng bước Java với Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Hướng dẫn chi tiết cách ẩn hình ảnh trong tài liệu Word bằng Aspose.Words cho Java.
+### [Cách nhóm các hình dạng trong tài liệu Word bằng Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Hướng dẫn chi tiết cách nhóm các hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
+
+### [Cách thiết lập thuộc tính ẩn cho hình dạng trong Aspose.Words cho C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Hướng dẫn cách ẩn một hình dạng trong tài liệu Word bằng Aspose.Words cho C#.
 
 ## Tài nguyên bổ sung
 

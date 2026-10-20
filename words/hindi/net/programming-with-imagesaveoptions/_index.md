@@ -32,12 +32,15 @@
 | [Word दस्तावेज़ से PNG ग्रिड बनाएं – चरण‑दर‑चरण गाइड](./create-png-grid-from-word-document-step-by-step-guide/) | Word दस्तावेज़ को PNG ग्रिड में बदलने की प्रक्रिया को चरण‑दर‑चरण सीखें। |
 | [C# के साथ Word को इमेज के रूप में सहेजें – चरण‑दर‑चरण गाइड](./save-word-as-images-with-c-step-by-step-guide/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ को इमेज में बदलने की प्रक्रिया को चरण‑दर‑चरण सीखें। |
 | [docx को PNG में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-docx-to-png-complete-step-by-step-guide/) | .NET के लिए Aspose.Words का उपयोग करके docx फ़ाइल को PNG छवि में बदलने की पूरी चरण‑दर‑चरण गाइड। |
+| [DPI सेट कैसे करें – C# में Word को PNG ग्रिड में निर्यात](./how-to-set-dpi-export-word-to-png-grid-in-c/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ को PNG ग्रिड में निर्यात करते समय DPI कैसे सेट करें, इस गाइड में सीखें। |
 
 | [Word को PNG में बदलते समय DPI सेट करना – हाई‑रेज़ोल्यूशन एक्सपोर्ट गाइड](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ को PNG में हाई‑रेज़ोल्यूशन के साथ बदलते समय DPI कैसे सेट करें, इस गाइड में सीखें। |
 | [Word दस्तावेज़ से PNG ग्रिड बनाना – पूर्ण गाइड](./create-png-grid-from-word-document-complete-guide/) | Aspose.Words का उपयोग करके Word फ़ाइल से कई PNG छवियों की ग्रिड बनाना सीखें, चरण-दर-चरण पूर्ण गाइड। |
 | [Word को PNG में बदलते समय रिज़ॉल्यूशन सेट करना – पूर्ण गाइड](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ को PNG में बदलते समय रिज़ॉल्यूशन कैसे सेट करें, इस पूर्ण गाइड में सीखें। |
 | [Word को PNG के रूप में निर्यात करें – DOCX को एक छवि में बदलें](./export-word-as-png-convert-docx-to-one-image/) | DOCX फ़ाइल को एकल PNG छवि में बदलने की प्रक्रिया सीखें। |
 | [DOCX को PNG में बदलें – पूर्ण C# गाइड](./convert-docx-to-png-complete-c-guide/) | C# में Aspose.Words का उपयोग करके DOCX फ़ाइल को PNG छवि में बदलने की पूरी प्रक्रिया सीखें। |
+| [Word को PNG में सहेजें – पूर्ण Aspose.Words गाइड](./save-word-as-png-complete-aspose-words-guide/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ को PNG में बदलने की पूरी प्रक्रिया सीखें। |
+| [C# में दस्तावेज़ को PNG में सहेजें – पूर्ण गाइड](./save-document-as-png-in-c-complete-guide/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ को PNG में बदलने की पूरी प्रक्रिया सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

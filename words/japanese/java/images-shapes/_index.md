@@ -33,6 +33,8 @@ Aspose.Words Javaのコードチュートリアル
 
 ### [Aspose.Words for Java を使用してドキュメントページをサムネイルとしてレンダリングする方法](./render-word-pages-thumbnails-aspose-java/)
 Aspose.Words for Java を使って、Word 文書の高品質なサムネイルとカスタムサイズのビットマップを生成する方法を学びましょう。今すぐドキュメント処理能力を強化しましょう。
+### [JavaでWord文書を作成 – 影付き長方形シェイプを追加](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+JavaでWord文書に影効果付きの長方形シェイプを追加し、視覚的に魅力的なレイアウトを作成する方法を学びます。
 
 ### [Word の図形に影を追加する – 完全 Aspose.Words ガイド](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Aspose.Words for Java を使用して、Word 文書内の図形に影効果を適用する方法をステップバイステップで解説します。
@@ -57,6 +59,39 @@ JavaでWord文書にシェイプの影効果を追加し、視覚的に魅力的
 
 ### [JavaでWordのグループ シェイプ – 完全ステップバイステップガイド](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Javaを使用してWord文書内で複数のシェイプをグループ化し、操作する方法をステップバイステップで解説します。
+
+### [JavaでWord文書を作成 – 影効果付きシェイプを追加](./create-word-document-java-add-shape-with-shadow-effect/)
+JavaでWord文書に影効果付きシェイプを追加し、視覚的に魅力的なレイアウトを作成する方法を学びます。
+
+### [JavaでAspose.Wordsを使用して長方形シェイプを作成する – 完全ガイド](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Aspose.Words for Java を活用し、長方形シェイプの作成とカスタマイズ手順を詳しく解説します。
+
+### [Javaでグループシェイプを挿入する方法 – 完全ガイド](./how-to-insert-group-shape-in-java-complete-guide/)
+Javaでグループシェイプを文書に挿入し、カスタマイズする手順を完全に解説します。
+
+### [C#で空白のWord文書を作成 – グループ化された長方形](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+C# を使用して、グループ化された長方形を含む空白の Word 文書を作成する方法を学びます。
+
+### [Javaで長方形シェイプを挿入 – シェイプのグループ化と位置設定](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+Javaで長方形シェイプを挿入し、複数のシェイプをグループ化して位置を調整する方法を学びます。
+
+### [Word に画像を挿入 – Aspose.Words ステップバイステップ ガイド](./insert-image-into-word-aspose-words-step-by-step-guide/)
+Aspose.Words for Java を使用して、Word 文書に画像を挿入する方法をステップバイステップで学びます。
+
+### [C# を使用して Word に長方形シェイプを挿入する – 完全ガイド](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+C# で Word 文書に長方形シェイプを追加し、カスタマイズする方法を学びます。
+### [Javaで影付きの空白Word文書を作成 – 完全ガイド](./create-blank-word-with-shadow-in-java-full-guide/)
+Javaを使用して、影効果付きの空白のWord文書を作成する手順を詳細に解説します。
+### [Word で図形をグループ化する – 完全プログラミングガイド](./group-shapes-in-word-complete-programming-guide/)
+Word 文書内で複数の図形をグループ化し、操作や書式設定を一括で行う方法をステップバイステップで解説します。
+
+### [Wordで画像を非表示にする – AsposeによるステップバイステップのJavaガイド](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Aspose.Words for Java を使用して、Word 文書内の画像を非表示にする方法を段階的に解説します。
+### [Aspose.Words を使用して Word 文書で図形をグループ化する方法](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Aspose.Words for Java を使って、Word 文書内の複数の図形をグループ化し、操作を簡素化する方法を学びます。
+
+### [Aspose.Words for C# でシェイプの非表示プロパティを設定する方法](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Aspose.Words for C# を使用して、シェイプを非表示にするプロパティの設定手順を解説します。
 
 ## 追加リソース
 

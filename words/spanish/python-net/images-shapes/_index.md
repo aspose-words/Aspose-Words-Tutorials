@@ -35,6 +35,12 @@ Aprenda a aplicar sombras a objetos en documentos con Aspose.Words y C# paso a p
 Aprenda a insertar un rectángulo en documentos PDF usando Aspose.Words con una guía detallada paso a paso.
 ### [Crear forma rectangular en Python – Guía completa de Aspose.Words](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
 Aprenda a crear y personalizar una forma rectangular en documentos Word con Aspose.Words para Python.
+### [Cómo insertar una forma rectangular en Python – Guía completa de Aspose.Words](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
+Aprenda a insertar y personalizar una forma rectangular en documentos Word usando Aspose.Words para Python.
+### [Cómo agregar sombra a una forma en Word con Python – Guía completa](./add-shadow-to-shape-in-word-with-python-complete-guide/)
+Aprenda a aplicar sombras a formas en documentos Word usando Aspose.Words y Python paso a paso.
+### [Cómo establecer sombra en Aspose.Words – Ejemplo en Python](./how-to-set-shadow-in-aspose-words-python-example/)
+Aprenda a aplicar sombras a objetos en documentos Word usando Aspose.Words con Python.
 
     ### [Optimize RTF Image Handling in Python using Aspose.Words API&#58; Save as WMF and Ensure Compatibility](./optimize-rtf-image-handling-aspose-words-python/)
 Aprenda a optimizar la gestión de imágenes en documentos RTF con Aspose.Words para Python. Guarde las imágenes en formato WMF y garantice la compatibilidad con lectores antiguos.

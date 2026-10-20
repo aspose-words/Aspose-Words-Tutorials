@@ -42,13 +42,15 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [Word को Markdown में बदलें – इमेज एक्सट्रैक्शन के साथ पूर्ण गाइड](./convert-word-to-markdown-complete-guide-with-image-extractio/) | Word दस्तावेज़ को इमेज एक्सट्रैक्शन के साथ Markdown में बदलने की पूरी गाइड। C# में चरण‑दर‑चरण प्रक्रिया। |
 | [Word को Markdown में बदलें – इमेज एक्सट्रैक्शन के साथ पूर्ण C# गाइड](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/) | इमेज एक्सट्रैक्शन के साथ Word को Markdown में बदलने की पूरी गाइड। C# में चरण‑दर‑चरण प्रक्रिया। |
 | [DOCX को मार्कडाउन के रूप में सहेजें और छवियों को निकालें – C# गाइड](./save-docx-as-markdown-extract-images-c-guide/) | DOCX फ़ाइल को मार्कडाउन में बदलें और छवियों को निकालें, C# में चरण‑दर‑चरण गाइड। |
+| [DOCX को Markdown के रूप में सहेजें – LaTeX समीकरणों के साथ पूर्ण C# गाइड](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) | C# में LaTeX समीकरणों के साथ DOCX को Markdown में बदलने की पूरी गाइड। |
 | [C# में docx को markdown में निर्यात – पूर्ण गाइड](./export-docx-to-markdown-in-c-complete-guide/) | C# में docx फ़ाइल को Markdown में निर्यात करने की पूरी गाइड |
 | [Word से LaTeX निर्यात कैसे करें: Aspose के साथ DOCX को Markdown में बदलें](./how-to-export-latex-from-word-convert-docx-to-markdown-with/) | Aspose.Words का उपयोग करके Word दस्तावेज़ से LaTeX निर्यात करके DOCX को Markdown में परिवर्तित करने की चरण‑दर‑चरण गाइड। |
 | [Word को Markdown में बदलें – छवियों को Base64 के रूप में एम्बेड करें](./convert-word-to-markdown-embed-images-as-base64/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों को Markdown में बदलें और छवियों को Base64 एन्कोडेड रूप में एम्बेड करें। |
+| [DOCX को मार्कडाउन में सहेजें – इमेज एक्सट्रैक्शन के साथ पूर्ण गाइड](./save-docx-as-markdown-complete-guide-with-image-extraction/) | C# में इमेज एक्सट्रैक्शन के साथ DOCX को Markdown में बदलने की पूरी गाइड। |
 | [DOCX को मार्कडाउन में बदलें – चरण‑दर‑चरण C# गाइड](./convert-docx-to-markdown-step-by-step-c-guide/) | DOCX फ़ाइलों को C# में चरण‑दर‑चरण मार्कडाउन में बदलने की गाइड। |
 | [Word से Markdown कैसे सहेजें – पूर्ण C# गाइड](./how-to-save-markdown-from-word-complete-c-guide/) | .NET के लिए Aspose.Words का उपयोग करके Word को Markdown में सहेजने की पूरी गाइड |
 | [Word से Markdown कैसे सहेजें – पूर्ण गाइड](./how-to-save-markdown-from-word-complete-guide/) | .NET के लिए Aspose.Words का उपयोग करके Word को Markdown में सहेजने की पूरी गाइड |
-| [LaTeX निर्यात कैसे करें: DOCX को Markdown और TXT में बदलें](./how-to-export-latex-convert-docx-to-markdown-txt/) | DOCX फ़ाइल को LaTeX के साथ Markdown और TXT फ़ॉर्मेट में निर्यात करने की चरण‑दर‑चरण गाइड। |
+| [LaTeX निर्यात कैसे करें: DOCX को Markdown और TXT में बदलें](./how-to-export-latex-convert-docx-to-markdown-txt/) | DOCX फ़ाइल को LaTeX के साथ Markdown और TXT फ़ॉर्मेट में निर्यात करने की चरण‑दर‑दर गाइड। |
 | [DOCX को Markdown में बदलते समय छवियों का नाम कैसे बदलें](./how-to-rename-images-when-converting-docx-to-markdown/) | DOCX को Markdown में बदलते समय छवियों के नाम बदलने की प्रक्रिया और कोड उदाहरण। |
 | [Aspose.Words के साथ docx को markdown में सहेजें – पूर्ण C# गाइड](./save-docx-as-markdown-with-aspose-words-full-c-guide/) | Aspose.Words का उपयोग करके C# में docx को markdown में बदलने की पूरी गाइड |
 | [Markdown को सहेजें – पूर्ण C# गाइड](./how-to-save-markdown-complete-c-guide/) | C# में Markdown को सहेजने की पूरी गाइड |
@@ -60,7 +62,6 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [लाइन ब्रेक संरक्षित रखें: DOCX को मार्कडाउन में बदलें](./preserve-line-breaks-convert-docx-to-markdown/) | DOCX फ़ाइल में लाइन ब्रेक को संरक्षित रखते हुए उसे मार्कडाउन में बदलने की चरण‑दर‑चरण गाइड। |
 | [Word से LaTeX निर्यात कैसे करें – DOCX को Markdown और TXT में बदलें](./how-to-export-latex-from-word-convert-docx-to-markdown-txt/) | Word दस्तावेज़ से LaTeX निकालें और उसे Markdown तथा TXT फ़ॉर्मेट में बदलें। चरण‑दर‑चरण मार्गदर्शिका। |
 | [DOCX को Markdown में बदलते समय फ़ाइल एक्सटेंशन निर्धारित करें – पूर्ण गाइड](./determine-file-extension-while-converting-docx-to-markdown-c/) | DOCX को Markdown में परिवर्तित करते समय फ़ाइल एक्सटेंशन कैसे निर्धारित करें, इस पूर्ण गाइड में सीखें। |
-| [DOCX को मार्कडाउन में सहेजें – LaTeX समीकरणों के साथ पूर्ण C# गाइड](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) | C# में LaTeX समीकरणों के साथ DOCX को मार्कडाउन में बदलने की पूरी गाइड। |
 | [Word से Markdown निर्यात कैसे करें – पूर्ण C# गाइड](./how-to-export-markdown-from-word-complete-c-guide/) | Word दस्तावेज़ को Markdown में निर्यात करने की पूरी C# गाइड |
 | [DOCX को C# में मार्कडाउन में बदलें – चरण‑दर‑चरण गाइड](./convert-docx-to-markdown-in-c-step-by-step-guide/) | C# में DOCX फ़ाइल को चरण‑दर‑चरण मार्कडाउन में बदलने की विस्तृत गाइड |
 | [DOCX से मार्कडाउन निर्यात कैसे करें – पूर्ण चरण‑दर‑चरण गाइड](./how-to-export-markdown-from-docx-complete-step-by-step-guide/) | DOCX फ़ाइल को मार्कडाउन में निर्यात करने की पूर्ण चरण‑दर‑चरण गाइड। |
@@ -112,6 +113,14 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [Word छवियों को सहेजें जबकि Markdown में परिवर्तित कर रहे हैं – पूर्ण C# गाइड](./save-word-images-while-converting-to-markdown-complete-c-gui/) | Word दस्तावेज़ की छवियों को Markdown में बदलते समय सुरक्षित रखने की पूरी C# गाइड |
 | [DOCX को Markdown में बदलें – Aspose.Words के साथ DOCX से छवियों को निकालें](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/) | .NET के लिए Aspose.Words का उपयोग करके DOCX फ़ाइल से छवियों को निकालते हुए उसे Markdown में बदलना सीखें। |
 | [Word को Markdown में बदलें – PDF/UA निर्यात के साथ पूर्ण गाइड](./convert-word-to-markdown-full-guide-with-pdf-ua-export/) | Word फ़ाइलों को PDF/UA के साथ निर्यात करते हुए Markdown में बदलने की पूरी गाइड। |
+| [C# के साथ दस्तावेज़ को मार्कडाउन में सहेजें – पूर्ण गाइड](./save-document-as-markdown-with-c-full-guide/) | C# में Aspose.Words का उपयोग करके दस्तावेज़ को मार्कडाउन फ़ॉर्मेट में सहेजने की पूरी गाइड |
+| [LaTeX समीकरणों के साथ docx को markdown में सहेजें – C# गाइड](./save-docx-as-markdown-with-latex-equations-c-guide/) | .NET के लिए Aspose.Words का उपयोग करके LaTeX समीकरणों के साथ docx फ़ाइल को markdown में बदलने की पूरी C# गाइड। |
+| [DOCX को मार्कडाउन में निर्यात करें – पूर्ण C# गाइड](./export-docx-as-markdown-complete-c-guide/) | .NET के लिए Aspose.Words का उपयोग करके DOCX फ़ाइल को मार्कडाउन में निर्यात करने का पूर्ण C# गाइड। |
+| [DOCX को मार्कडाउन में सहेजें – Aspose.Words के साथ Word गणित को LaTeX में निर्यात करें](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/) | Aspose.Words का उपयोग करके Word दस्तावेज़ में गणितीय समीकरणों को LaTeX में निर्यात करके DOCX को Markdown में बदलें। |
+| [Word को Markdown में बदलते समय छवियों को क्लाउड पर अपलोड करें](./upload-images-to-cloud-when-converting-word-to-markdown/) | Word दस्तावेज़ को Markdown में बदलते समय छवियों को क्लाउड स्टोरेज में अपलोड करने की प्रक्रिया। |
+| [Word को Markdown के रूप में सहेजें – Aspose.Words के साथ तालिकाओं को HTML में निर्यात करें](./save-word-as-markdown-export-tables-to-html-with-aspose-word/) | Aspose.Words का उपयोग करके Word को Markdown में सहेजते हुए तालिकाओं को HTML में निर्यात करने का तरीका सीखें। |
+| [मार्कडाउन को वर्ड के रूप में सहेजें – C# डेवलपर्स के लिए चरण‑दर‑चरण गाइड](./save-markdown-as-word-step-by-step-guide-for-c-developers/) |  |
+| [DOCX से Markdown रूपांतरण में CDN पर छवियों को अपलोड करें – पूर्ण गाइड](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/) | DOCX को Markdown में बदलते समय छवियों को CDN पर अपलोड करने की पूरी गाइड। |
 | [DOCX को मार्कडाउन में बदलें – समीकरण निर्यात के साथ पूर्ण गाइड](./convert-docx-to-markdown-complete-guide-with-equation-export/) | DOCX को मार्कडाउन में बदलते समय समीकरण निर्यात को शामिल करने की पूरी गाइड। |
 | [Aspose docx को markdown में बदलें – रूपांतरण और छवियों को निकालने की पूरी गाइड](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/) | Aspose.Words का उपयोग करके docx को markdown में बदलें और छवियों को निकालें। चरण‑दर‑दर कोड उदाहरण और सर्वोत्तम अभ्यास। |
 | [DOCX को Markdown में बदलें – आकार छाया और पुनर्प्राप्ति के साथ पूर्ण गाइड](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/) | .NET के लिए Aspose.Words का उपयोग करके आकार छाया और पुनर्प्राप्ति के साथ DOCX को Markdown में बदलने की पूरी गाइड। |
@@ -122,6 +131,7 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [markdown इमेज रिलेटिव पाथ – वर्ड को मार्कडाउन में बदलें](./markdown-image-relative-path-convert-word-to-markdown/) | Word दस्तावेज़ को Markdown में बदलते समय इमेज के रिलेटिव पाथ को सेट करने का तरीका सीखें। |
 | [Aspose.Words के साथ DOCX को Markdown में सहेजें – पूर्ण चरण‑दर‑चरण गाइड](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/) | Aspose.Words का उपयोग करके C# में DOCX को Markdown में बदलने की विस्तृत चरण‑दर‑चरण गाइड। |
 | [C# के साथ Docx को Markdown में बदलें – पूर्ण प्रोग्रामिंग गाइड](./convert-docx-to-markdown-with-c-complete-programming-guide/) | C# में Docx फ़ाइल को Markdown में बदलने के लिए पूर्ण चरण‑दर‑चरण गाइड। |
+| [C# में markdown को docx के रूप में सहेजें – चरण‑दर‑चरण गाइड](./save-markdown-as-docx-in-c-step-by-step-guide/) | C# में markdown को docx फ़ाइल में बदलने की चरण‑दर‑चरण प्रक्रिया। |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

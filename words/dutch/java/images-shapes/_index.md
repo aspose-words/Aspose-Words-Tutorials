@@ -33,6 +33,8 @@ Een codetutorial voor Aspose.Words Java
 
 ### [Documentpagina's als miniaturen weergeven met Aspose.Words voor Java](./render-word-pages-thumbnails-aspose-java/)
 Leer hoe u hoogwaardige miniaturen en bitmaps op maat van Word-documenten kunt genereren met Aspose.Words voor Java. Verbeter vandaag nog uw documentverwerkingsmogelijkheden.
+### [Word-document maken in Java – Rechthoekvorm toevoegen met schaduweffect](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+Leer hoe u een rechthoekige vorm met schaduweffect toevoegt aan een Word-document met Aspose.Words voor Java.
 
 ### [Schaduw toevoegen aan vorm in Word – Complete Aspose.Words-gids](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Leer hoe u een schaduw aan vormen toevoegt in Word met Aspose.Words voor Java.
@@ -57,6 +59,39 @@ Leer hoe u een vorm met schaduweffect toevoegt aan een Word-document met Aspose.
 
 ### [Groep vormen in Word met Java – Complete stapsgewijze handleiding](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Leer hoe u meerdere vormen groepeert in een Word-document met Aspose.Words voor Java.
+
+### [Word-document maken in Java – Vorm met schaduweffect toevoegen](./create-word-document-java-add-shape-with-shadow-effect/)
+Leer hoe u een vorm met schaduweffect toevoegt aan een Word-document met Aspose.Words voor Java.
+
+### [Rechthoekvorm maken in Java met Aspose.Words – Volledige gids](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Leer stap voor stap hoe u een rechthoekige vorm toevoegt aan een Word-document met Aspose.Words voor Java.
+
+### [Groepsvorm invoegen in Java – Complete gids](./how-to-insert-group-shape-in-java-complete-guide/)
+Leer hoe u een groepsvorm toevoegt en bewerkt in Word-documenten met Aspose.Words voor Java.
+
+### [Leeg Word-document maken met gegroepeerde rechthoeken – C#-handleiding](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Leer hoe u een leeg Word-document maakt en meerdere rechthoeken groepeert met Aspose.Words voor C#.
+
+### [Rechthoekvorm invoegen in Java – Groeperen en positioneren van vormen](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+Leer hoe u een rechthoekige vorm groepeert en positioneert in een Word-document met Aspose.Words voor Java.
+
+### [Afbeelding invoegen in Word – Aspose.Words stapsgewijze handleiding](./insert-image-into-word-aspose-words-step-by-step-guide/)
+Leer hoe u een afbeelding in een Word-document invoegt met Aspose.Words voor Java.
+
+### [Rechthoekvorm invoegen in Word met C# – volledige gids](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+Leer hoe u een rechthoekige vorm in een Word-document toevoegt met C# en Aspose.Words.
+### [Leeg Word-document met schaduw maken in Java – Volledige gids](./create-blank-word-with-shadow-in-java-full-guide/)
+Leer hoe u een leeg Word-document met schaduweffect maakt in Java met Aspose.Words.
+### [Groep vormen in Word – volledige programmeergids](./group-shapes-in-word-complete-programming-guide/)
+Leer hoe u vormen groepeert in Word-documenten met Aspose.Words voor Java.
+
+### [Afbeelding verbergen in Word – stap‑voor‑stap Java‑handleiding met Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Leer hoe u een afbeelding in een Word‑document kunt verbergen met Aspose.Words voor Java.
+### [Hoe vormen groeperen in een Word-document met Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Leer hoe u meerdere vormen in een Word-document groepeert met Aspose.Words voor Java.
+
+### [Hoe de verborgen eigenschap van een vorm instellen in Aspose.Words voor C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Leer hoe u de verborgen eigenschap van een vorm instelt met Aspose.Words voor C#.
 
 ## Aanvullende bronnen
 

@@ -55,6 +55,23 @@ Lär dig steg för steg hur du sparar ett Word-dokument med en skuggad rektangel
 Lär dig hur du skapar och anpassar en rektangelform i ett Word-dokument med Aspose.Words för Python.
 ### [Skapa rektangelform i Python – Komplett Aspose.Words-guide](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
 Lär dig hur du skapar och anpassar en rektangel i Word-dokument med Aspose.Words för Python.
+### [Hur man infogar rektangelform i Python – Komplett Aspose.Words-guide](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
+Lär dig steg för steg hur du infogar en rektangelform i ett Word-dokument med Python och Aspose.Words.
+### [Lägg till skugga på form i Word med Python – Komplett guide](./add-shadow-to-shape-in-word-with-python-complete-guide/)
+Lär dig steg för steg hur du applicerar skugga på former i Word-dokument med Python och Aspose.Words.
+### [Hur man ställer in skugga i Aspose.Words – Python-exempel](./how-to-set-shadow-in-aspose-words-python-example/)
+Lär dig hur du applicerar skugga på objekt i Word-dokument med Python och Aspose.Words.
+### [Rita rektangel i PDF med Aspose.Words för Python](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
+Lär dig hur du ritar en rektangel i en PDF-fil med Aspose.Words för Python.
+### [Lägg till skugga på form i Python – komplett Aspose.Words-guide](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
+Lär dig steg för steg hur du lägger till skugga på former i Python med Aspose.Words.
+### [Hur man lägger till skugga på en Word-form med Python](./how-to-add-shadow-to-a-word-shape-using-python/)
+Lär dig steg för steg hur du applicerar skugga på en form i ett Word-dokument med Python och Aspose.Words.
+### [Hur man sparar PNG och lägger till skugga på form med Aspose.Words](./how-to-save-png-and-add-shadow-to-shape-with-aspose-words/)
+Lär dig hur du sparar en bild som PNG och applicerar skugga på en form i ett Word-dokument med Aspose.Words för Python-net.
+
+### [Hur man skapar kolumndiagram i Python med Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
+Lär dig att skapa ett kolumndiagram i ett Word-dokument med Aspose.Words för Python.
 
 ## Ytterligare resurser
 

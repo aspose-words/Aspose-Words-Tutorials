@@ -62,6 +62,16 @@
 | [Πώς να ορίσετε σκιά σε σχήμα σε C# – Οδηγός βήμα προς βήμα](./how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/) | Μάθετε πώς να προσθέσετε σκιά σε σχήματα σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET με C#. |
 | [Πώς να ορίσετε σκιά σε σχήμα Word – C# Εκπαιδευτικό](./how-to-set-shadow-on-a-word-shape-c-tutorial/) | Μάθετε πώς να προσθέσετε σκιά σε σχήματα Word χρησιμοποιώντας το Aspose.Words για .NET με C#. |
 | [Δημιουργία σχήματος ορθογωνίου και πώς να προσθέσετε σκιά σε C#](./create-rectangle-shape-and-how-to-add-shadow-in-c/) | Μάθετε πώς να δημιουργήσετε σχήμα ορθογωνίου και να προσθέσετε σκιά σε κώδικα C# με Aspose.Words για .NET. |
+| [Πώς να μετακινήσετε τη σκιά στο Aspose.Words – Πλήρης οδηγός C#](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | Μάθετε πώς να μετακινήσετε τη σκιά ενός σχήματος σε έγγραφο Word χρησιμοποιώντας Aspose.Words με C#. |
+| [Ομαδικά σχήματα στο Word με Aspose.Words – Πλήρης οδηγός C#](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Μάθετε πώς να δημιουργείτε και να διαχειρίζεστε ομαδικά σχήματα σε έγγραφα Word με Aspose.Words και C#. |
+| [Πώς να κρύψετε σχήμα στο Word με C# – Οδηγός βήμα‑βήμα](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Μάθετε πώς να κρύψετε σχήμα σε έγγραφα Word με C# χρησιμοποιώντας το Aspose.Words για .NET σε αυτόν τον βήμα‑βήμα οδηγό. |
+| [Σχεδίαση ορθογωνίου στο Word – Προσθήκη Σχημάτων στο Word με Aspose](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Μάθετε πώς να σχεδιάσετε ένα ορθογώνιο σχήμα σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET. |
+| [Δημιουργία κενής εγγράφου Word με κρυφό σχήμα έλλειψης – Πλήρης οδηγός C#](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word με κρυφό σχήμα έλλειψης χρησιμοποιώντας το Aspose.Words για .NET σε C#. |
+| [Αποθήκευση αρχείου docx με ομαδοποιημένα σχήματα στο Word χρησιμοποιώντας C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Μάθετε πώς να αποθηκεύετε αρχεία docx με σχήματα ομάδας στο Word χρησιμοποιώντας Aspose.Words για .NET και C#. |
+| [Πώς να κρύψετε σχήμα σε Word χρησιμοποιώντας C# – οδηγός βήμα‑βήμα](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Μάθετε πώς να κρύψετε ένα σχήμα σε έγγραφο Word με C# χρησιμοποιώντας το Aspose.Words για .NET, βήμα‑βήμα. |
+| [Πώς να ομαδοποιήσετε σχήματα στο Word και να προσθέσετε σχήματα σε έγγραφο Word](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Μάθετε πώς να ομαδοποιείτε σχήματα και να τα προσθέτετε σε έγγραφα Word χρησιμοποιώντας Aspose.Words για .NET. |
+| [Εισαγωγή σχήματος ορθογωνίου σε C# με Aspose.Words – οδηγός βήμα‑βήμα](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | Μάθετε πώς να δημιουργήσετε σχήμα ορθογωνίου σε C# χρησιμοποιώντας Aspose.Words, βήμα προς βήμα. |
+| [Πώς να ομαδοποιήσετε σχήματα σε έγγραφο Word με C#](./how-to-group-shapes-in-a-word-document-with-c/) | Μάθετε πώς να ομαδοποιείτε σχήματα σε έγγραφο Word χρησιμοποιώντας C# και Aspose.Words. |
 | [Πώς να προσθέσετε σκιά σε σχήματα Word – Πλήρης οδηγός C#](./how-to-add-shadow-to-word-shapes-complete-c-guide/) | Μάθετε πώς να προσθέσετε σκιά σε σχήματα Word με C# και Aspose.Words σε αναλυτικό βήμα‑βήμα οδηγό. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

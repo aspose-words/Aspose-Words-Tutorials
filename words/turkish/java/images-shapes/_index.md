@@ -58,6 +58,43 @@ Java kullanarak Word belgesine şekil ekleyip gölge uygulamayı öğrenin.
 ### [Java ile Word'de Şekilleri Gruplama – Tam Adım Adım Kılavuz](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
 Java kullanarak Word belgelerinde şekilleri gruplamayı ve yönetmeyi öğrenin.
 
+### [Java ile Word Belgesi Oluştur – Gölge Efektiyle Şekil Ekle](./create-word-document-java-add-shape-with-shadow-effect/)
+Java kullanarak Word belgesine gölge efektiyle şekil eklemeyi öğrenin.
+
+### [Java ile Aspose.Words kullanarak Dikdörtgen Şekil Oluştur – Tam Kılavuz](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Java ve Aspose.Words kullanarak Word belgesine tam kontrol ile dikdörtgen şekil eklemeyi öğrenin.
+
+### [Java'da Grup Şekli Nasıl Eklenir – Tam Kılavuz](./how-to-insert-group-shape-in-java-complete-guide/)
+Java kullanarak Word belgelerine grup şekli eklemeyi ve özelleştirmeyi adım adım öğrenin.
+
+### [Gruplandırılmış Dikdörtgenlerle Boş Word Belgesi Oluşturma – C# Kılavuzu](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+C# kullanarak gruplandırılmış dikdörtgenlerle boş bir Word belgesi oluşturmayı öğrenin.
+
+### [Java’da Dikdörtgen Şekil Ekle – Şekilleri Gruplama ve Konumlandırma](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+Java kullanarak Word belgesine dikdörtgen şekil ekleyin, şekilleri gruplayın ve konumlandırın.
+
+### [Word Belgesine Resim Ekle – Aspose.Words Adım Adım Kılavuzu](./insert-image-into-word-aspose-words-step-by-step-guide/)
+Aspose.Words for Java ile Word belgesine resim eklemeyi adım adım öğrenin.
+### [Java ile Word Belgesi Oluştur – Gölge Efektiyle Dikdörtgen Şekil Ekle](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+
+### [Java'da Gölge ile Boş Word Belgesi Oluşturma – Tam Kılavuz](./create-blank-word-with-shadow-in-java-full-guide/)
+Java kullanarak gölge efektiyle boş bir Word belgesi oluşturmayı adım adım öğrenin.
+
+### [C# kullanarak Word belgesine dikdörtgen şekil ekleme – tam rehber](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+C# ile Word belgesine dikdörtgen şekil eklemeyi öğrenin.
+
+### [Word'de Şekilleri Gruplama – Tam Programlama Rehberi](./group-shapes-in-word-complete-programming-guide/)
+Word belgelerinde şekilleri gruplama ve yönetme konularında adım adım kod örnekleriyle tam bir rehber.
+
+### [Word'de Resmi Gizleme – Aspose ile Adım Adım Java Rehberi](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Aspose.Words for Java kullanarak Word belgesindeki resmi nasıl gizleyeceğinizi öğrenin.
+
+### [Aspose.Words kullanarak bir Word belgesinde şekilleri gruplama](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Aspose.Words ile Word belgelerinde şekilleri nasıl gruplandıracağınızı öğrenin.
+
+### [Aspose.Words for C#'da Şeklin Gizli Özelliğini Ayarlama](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Aspose.Words for C# kullanarak bir şeklin gizli özelliğini nasıl ayarlayacağınızı öğrenin.
+
 ## Ek Kaynaklar
 
 ## Ek Kaynaklar

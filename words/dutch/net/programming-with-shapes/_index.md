@@ -25,6 +25,8 @@ Door Aspose.Words voor .NET te gebruiken en deze tutorials te volgen, krijgt u d
 | Titel | Beschrijving |
 | --- | --- |
 | [Groepsvorm toevoegen](./add-group-shape/) | Leer hoe u groepsvormen toevoegt aan Word-documenten met Aspose.Words voor .NET met deze uitgebreide, stapsgewijze zelfstudie. |
+| [Groepsvormen in Word met Aspose.Words – Complete C#‑handleiding](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Leer hoe u groepsvormen in Word-documenten beheert met Aspose.Words en C# in deze volledige gids. |
+| [Hoe vormen groeperen in een Word‑document met C#](./how-to-group-shapes-in-a-word-document-with-c/) | Leer hoe u vormen groepeert in een Word‑document met C#. |
 | [Vorm invoegen](./insert-shape/) | Leer hoe u vormen in Word-documenten kunt invoegen en bewerken met Aspose.Words voor .NET met onze stapsgewijze handleiding. |
 | [Rechthoekvorm maken in Word met C# – Stapsgewijze handleiding](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Leer hoe u een rechthoekvorm toevoegt en configureert in een Word‑document met C#. |
 | [Beeldverhouding vergrendeld](./aspect-ratio-locked/) | Leer hoe u de beeldverhouding van vormen in Word-documenten kunt vergrendelen met Aspose.Words voor .NET. Volg deze stapsgewijze handleiding om uw afbeeldingen en vormen proportioneel te houden. |
@@ -62,6 +64,14 @@ Door Aspose.Words voor .NET te gebruiken en deze tutorials te volgen, krijgt u d
 | [Schaduw instellen op een vorm in C# – Stapsgewijze handleiding](./how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/) | Leer hoe u schaduweffecten aan vormen toevoegt in Word-documenten met Aspose.Words voor .NET via een duidelijke, stapsgewijze C#‑handleiding. |
 | [Hoe schaduw instellen op een Word-vorm – C#-tutorial](./how-to-set-shadow-on-a-word-shape-c-tutorial/) | Leer hoe u schaduw toevoegt aan vormen in Word-documenten met Aspose.Words voor .NET in C#. |
 | [Rechthoekvorm maken en schaduw toevoegen in C#](./create-rectangle-shape-and-how-to-add-shadow-in-c/) | Leer hoe u een rechthoekvorm maakt en er een schaduw aan toevoegt in Word-documenten met Aspose.Words voor .NET. |
+| [Hoe schaduw te verplaatsen in Aspose.Words – Complete C#-gids](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | Leer hoe u de schaduw van vormen in Word-documenten verplaatst met Aspose.Words en C#. |
+| [Hoe vorm verbergen in Word met C# – Stapsgewijze handleiding](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Leer hoe u een vorm verbergt in een Word‑document met Aspose.Words voor .NET en C# met deze stapsgewijze handleiding. |
+| [Rechthoek tekenen in Word – Voeg vormen toe in Word met Aspose](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Leer hoe u een rechthoek toevoegt en aanpast in een Word‑document met Aspose.Words voor .NET. |
+| [Maak een leeg Word‑document met een verborgen ellipsvorm – volledige C#‑handleiding](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Leer hoe u een leeg Word‑document maakt en een verborgen ellipsvorm toevoegt met Aspose.Words voor .NET in deze stapsgewijze handleiding. |
+| [DOCX-bestand opslaan met gegroepeerde vormen in Word met C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Leer hoe u een DOCX-bestand opslaat met gegroepeerde vormen in Word met C#. |
+| [Hoe vorm verbergen in Word met C# – stapsgewijze handleiding](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) |  |
+| [Hoe vormen groeperen in Word en vormen toevoegen aan een Word‑document](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Leer hoe u vormen groepeert en toevoegt aan een Word‑document met Aspose.Words voor .NET. |
+| [Rechthoekvorm invoegen in C# met Aspose.Words – stapsgewijze handleiding](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | Leer hoe u een rechthoekvorm invoegt in een Word‑document met C# en Aspose.Words in deze stapsgewijze handleiding. |
 | [Voeg schaduw toe aan Word-vormen – Complete C#-gids](./how-to-add-shadow-to-word-shapes-complete-c-guide/) | Leer hoe u met Aspose.Words voor .NET en C# schaduwen toevoegt aan vormen in Word-documenten. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

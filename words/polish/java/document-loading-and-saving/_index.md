@@ -81,6 +81,10 @@ Poznaj wszechstronność Aspose.Words for Java, zagłębiając się w zapisywani
 Ustawienia dokumentu są kluczem do dostarczania dokumentów dopasowanych do Twoich dokładnych wymagań. Dowiedz się, jak dostosować ustawienia takie jak rozmiar strony, marginesy i czcionki, aby uzyskać pożądany rezultat.
 
 ## Powiązane tutoriale – ładowanie, zapisywanie i konwersja
+
+### [Utwórz pusty dokument Word w Javie – Pełny przewodnik Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
+Dowiedz się, jak utworzyć pusty dokument Word w Javie przy użyciu Aspose.Words, krok po kroku z przykładami kodu.
+
 ### [Loading and Saving HTML Documents with Aspose.Words for Java](./loading-and-saving-html-documents/)
 ### [Working with Load Options in Aspose.Words for Java](./using-load-options/)
 Opanowanie opcji ładowania w Aspose.Words for Java. Dostosuj ładowanie dokumentów, obsługuj szyfrowanie, konwertuj kształty, ustaw wersje Word i wiele więcej dla efektywnego przetwarzania dokumentów w Javie.
@@ -90,6 +94,11 @@ Dowiedz się, jak tworzyć opcje ładowania w Javie, wykrywać brakujące czcion
 
 ### [Configuring RTF Load Options in Aspose.Words for Java](./configuring-rtf-load-options/)
 ### [Loading Text Files with Aspose.Words for Java](./loading-text-files/)
+Ładowanie plików tekstowych przy użyciu Aspose.Words for Java. Odkryj moc Aspose.Words for Java. Naucz się ładować dokumenty tekstowe, zarządzać listami, obsługiwać spacje i kontrolować kierunek tekstu.
+
+### [Ładowanie podkreśleń Markdown w Javie – kompletny przewodnik programistyczny](./load-markdown-underline-in-java-complete-programming-guide/)
+Dowiedz się, jak wczytywać i obsługiwać podkreślenia w plikach Markdown przy użyciu Aspose.Words for Java.
+
 ### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
 ### [Saving HTML Documents with Fixed Layout in Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
 ### [Advance HTML Documents Saving Options with Aspose.Words Java](./advance-html-documents-saving-options/)
@@ -118,6 +127,9 @@ Dowiedz się, jak przywrócić uszkodzone pliki DOCX przy użyciu Aspose.Words f
 
 ### [Odzyskaj uszkodzony docx – Kompletny przewodnik Java z Aspose.Words](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
 Poznaj, jak naprawić uszkodzone pliki DOCX w Javie przy użyciu Aspose.Words. Kompletny przewodnik z przykładami kodu i praktycznymi wskazówkami.
+
+### [Aspose.Words LoadOptions – odzyskiwanie uszkodzonych dokumentów Word w Javie](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+Dowiedz się, jak używać LoadOptions w Aspose.Words for Java do naprawy i odzyskiwania uszkodzonych plików DOC/DOCX.
 
 ### [Rejestrowanie ostrzeżeń o podstawianiu czcionek w Javie przy użyciu Aspose.Words – Kompletny przewodnik](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [Jak odzyskać docx – Kompletny przewodnik odczytu uszkodzonych plików Word](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
@@ -151,6 +163,13 @@ Dowiedz się, jak wykrywać ostrzeżenia o brakującej podstawie czcionek w doku
 ### [Odzyskiwanie uszkodzonego dokumentu Word przy użyciu Aspose.Words – Przewodnik](./recover-corrupted-word-document-using-aspose-words-guide/)
 
 ### [Tutorial ostrzeżenia zwrotnego – ładowanie dokumentu Word w Javie](./warning-callback-tutorial-load-word-document-in-java/)
+### [Konfiguracja LoadOptions dla ostrzeżeń – Kompletny przewodnik Java](./configure-loadoptions-for-warnings-complete-java-guide/)
+
+### [Jak zapisać plik DOCX w Javie – przewodnik wstawiania kontrolki treści](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+Dowiedz się, jak zapisać plik DOCX w Javie, wstawiając kontrolki treści przy użyciu Aspose.Words for Java.
+
+### [Samouczek podstawiania czcionek Aspose – Obsługa brakujących czcionek](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+Dowiedz się, jak obsługiwać brakujące czcionki i przechwytywać ostrzeżenia o podstawianiu czcionek w Aspose.Words for Java.
 
 ## Najczęściej zadawane pytania
 

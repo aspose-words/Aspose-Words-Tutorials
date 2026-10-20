@@ -76,6 +76,14 @@ Basisconversies begeleidt u door basisdocumentconversies met behulp van de Aspos
 | [Maak een toegankelijke PDF van DOCX – Stapsgewijze C#‑gids](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | Leer hoe u met Aspose.Words voor .NET een toegankelijke PDF maakt van een DOCX-bestand in C#. |
 | [Docx opslaan als txt en Word‑vergelijkingen exporteren naar LaTeX](./save-docx-as-txt-and-export-word-equations-to-latex/) | Leer hoe u een DOCX-bestand opslaat als TXT en Word‑vergelijkingen exporteert naar LaTeX met Aspose.Words voor .NET. |
 | [Word naar PDF converteren in C# – Volledige gids met Aspose.Words](./convert-word-to-pdf-in-c-full-guide-with-aspose-words/) | Leer hoe u Word naar PDF converteert in C# met Aspose.Words. Volledige stap‑voor‑stap gids met voorbeeldcode. |
+| [Docx naar txt converteren – Complete gids voor Word-wiskunde naar LaTeX](./convert-docx-to-txt-complete-guide-for-word-math-to-latex/) | Leer hoe u DOCX-bestanden naar TXT converteert en wiskundige formules omzet naar LaTeX met Aspose.Words voor .NET. |
+| [PDF maken vanuit Word in C# – Volledige gids](./create-pdf-from-word-in-c-full-guide/) | Leer hoe u Word-documenten naar PDF converteert met C# en Aspose.Words in een stap‑voor‑stap volledige gids. |
+| [PDF maken vanuit Word in C# – Snelle Low‑Code Gids](./create-pdf-from-word-in-c-fast-low-code-guide/) | Maak PDF's vanuit Word met een snelle low‑code aanpak in C# met Aspose.Words. Ideaal voor snelle implementaties. |
+| [Word opslaan als PDF met Aspose.Words – Complete gids](./save-word-as-pdf-with-aspose-words-complete-guide/) | Leer hoe u Word-documenten naar PDF converteert met Aspose.Words in een volledige stap‑voor‑stap gids. |
+| [Markdown naar DOCX converteren met Aspose.Words – Complete C#-gids](./convert-markdown-to-docx-with-aspose-words-complete-c-guide/) | Leer hoe u Markdown-bestanden naar DOCX converteert met Aspose.Words in C# met een volledige stap‑voor‑stap gids. |
+| [DOCX naar PDF converteren C# – Complete stap‑voor‑stap gids](./convert-docx-to-pdf-c-complete-step-by-step-guide/) | Leer hoe u DOCX-bestanden naar PDF converteert in C# met Aspose.Words via een volledige stap‑voor‑stap gids. |
+| [Converteer Docx naar PDF in C# – Complete stap‑voor‑stap gids](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Leer hoe u docx naar pdf converteert in C# met Aspose.Words, stap‑voor‑stap met voorbeeldcode. |
+| [PDF maken van DOCX in C# – Stapsgewijze gids](./create-pdf-from-docx-in-c-step-by-step-guide/) | Leer hoe u een DOCX-bestand naar PDF converteert in C# met Aspose.Words, met voorbeeldcode en stapsgewijze uitleg. |
 | [DOCX naar TXT converteren met C# – Complete programmeergids](./convert-docx-to-txt-with-c-complete-programming-guide/) | Leer hoe u DOCX-bestanden naar TXT converteert met C# en Aspose.Words voor .NET in een volledige stap‑voor‑stap gids. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

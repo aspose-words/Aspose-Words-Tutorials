@@ -75,6 +75,8 @@ Aspose.Words for Java ทำให้การ **บันทึกภาพจ�
 การตั้งค่าเอกสารเป็นกุญแจสำคัญในการส่งมอบเอกสารที่ตรงตามความต้องการของคุณ เรียนรู้วิธีปรับแต่งการตั้งค่าเช่น ขนาดหน้า, ระยะขอบ, และแบบอักษร เพื่อให้ได้ผลลัพธ์ที่ต้องการ  
 
 ## บทแนะนำที่เกี่ยวข้อง – โหลด, บันทึก, และแปลง
+
+### [โหลดการขีดเส้นใต้ Markdown ใน Java – คู่มือการเขียนโปรแกรมเต็ม](./load-markdown-underline-in-java-complete-programming-guide/)
 ### [การโหลดและบันทึกเอกสาร HTML ด้วย Aspose.Words for Java](./loading-and-saving-html-documents/)
 
 ### [การทำงานกับ Load Options ใน Aspose.Words for Java](./using-load-options/)
@@ -134,6 +136,11 @@ Aspose.Words for Java ทำให้การ **บันทึกภาพจ�
 ### [บันทึกคำเตือนการแทนที่ฟอนต์ใน Java ด้วย Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
 
 ### [กู้ไฟล์ DOCX ที่เสียใน Java – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./recover-corrupted-docx-in-java-complete-programming-guide/)
+### [กำหนดค่า LoadOptions สำหรับคำเตือน – คู่มือฉบับสมบูรณ์สำหรับ Java](./configure-loadoptions-for-warnings-complete-java-guide/)
+### [วิธีบันทึกไฟล์ DOCX ด้วย Java – คู่มือแทรก Content Control](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+### [สร้างเอกสาร Word ว่างด้วย Java – คู่มือ Aspose.Words ฉบับเต็ม](./create-blank-word-document-with-java-full-aspose-words-guide/)
+### [Aspose.Words LoadOptions – กู้ไฟล์ Word ที่เสียใน Java](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+### [การแทนที่ฟอนต์ Aspose – จัดการฟอนต์ที่หายไป](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 
 ## คำถามที่พบบ่อย
 

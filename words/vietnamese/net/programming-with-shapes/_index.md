@@ -25,7 +25,10 @@ Bằng cách sử dụng Aspose.Words cho .NET và làm theo các hướng dẫn
 | Tiêu đề | Mô tả |
 | --- | --- |
 | [Thêm hình dạng nhóm](./add-group-shape/) | Tìm hiểu cách thêm hình dạng nhóm vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này. |
+| [Nhóm hình dạng trong Word với Aspose.Words – Hướng dẫn C# đầy đủ](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Hướng dẫn chi tiết cách nhóm các hình dạng trong tài liệu Word bằng Aspose.Words cho .NET sử dụng C#. |
+| [Cách nhóm các hình dạng trong tài liệu Word bằng C#](./how-to-group-shapes-in-a-word-document-with-c/) | Hướng dẫn cách nhóm các hình dạng trong tài liệu Word bằng C#. |
 | [Chèn hình dạng](./insert-shape/) | Tìm hiểu cách chèn và thao tác hình dạng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. |
+| [Chèn hình chữ nhật trong C# với Aspose.Words – hướng dẫn từng bước](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | Hướng dẫn chi tiết cách chèn hình chữ nhật vào tài liệu Word bằng C# và Aspose.Words. |
 | [Tỷ lệ khung hình đã khóa](./aspect-ratio-locked/) | Tìm hiểu cách khóa tỷ lệ khung hình của hình dạng trong tài liệu Word bằng Aspose.Words cho .NET. Thực hiện theo hướng dẫn từng bước này để giữ cho hình ảnh và hình dạng của bạn cân đối. |
 | [Bố trí trong ô](./layout-in-cell/) | Tìm hiểu cách thiết lập bố cục trong ô bằng Aspose.Words cho .NET với hướng dẫn toàn diện này. Hoàn hảo cho các nhà phát triển muốn tùy chỉnh tài liệu Word. |
 | [Thêm góc cắt](./add-corners-snipped/) | Tìm hiểu cách thêm hình dạng cắt góc vào tài liệu Word của bạn bằng Aspose.Words cho .NET. Hướng dẫn từng bước này đảm bảo bạn có thể cải thiện tài liệu của mình một cách dễ dàng. |
@@ -63,6 +66,13 @@ Bằng cách sử dụng Aspose.Words cho .NET và làm theo các hướng dẫn
 | [Cách đặt bóng cho hình dạng Word – Hướng dẫn C#](./how-to-set-shadow-on-a-word-shape-c-tutorial/) | Tìm hiểu cách thêm hiệu ứng bóng cho hình dạng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết. |
 | [Cách đặt bóng cho hình dạng trong Aspose.Words (C#)](./how-to-set-shadow-on-a-shape-in-aspose-words-c/) | Hướng dẫn cách thêm và tùy chỉnh bóng cho hình dạng trong tài liệu Word bằng Aspose.Words cho .NET. |
 | [Tạo hình chữ nhật và cách thêm bóng trong C#](./create-rectangle-shape-and-how-to-add-shadow-in-c/) | Tìm hiểu cách tạo hình chữ nhật và thêm bóng trong C# bằng Aspose.Words cho .NET qua hướng dẫn chi tiết từng bước. |
+| [Cách di chuyển bóng đổ trong Aspose.Words – Hướng dẫn đầy đủ C#](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | Tìm hiểu cách di chuyển bóng đổ cho hình dạng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước. |
+| [Cách ẩn hình dạng trong Word bằng C# – Hướng dẫn từng bước](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Tìm hiểu cách ẩn một hình dạng trong tài liệu Word bằng Aspose.Words cho .NET và C# qua hướng dẫn chi tiết từng bước. |
+| [Vẽ hình chữ nhật trong Word – Thêm hình dạng trong Word bằng Aspose](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Hướng dẫn chi tiết cách vẽ hình chữ nhật trong tài liệu Word bằng Aspose.Words cho .NET. |
+| [Tạo tài liệu Word trống với hình ellipse ẩn – Hướng dẫn đầy đủ C#](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Hướng dẫn chi tiết cách tạo tài liệu Word trống và chèn một hình ellipse ẩn bằng Aspose.Words cho .NET và C#. |
+| [Lưu tệp docx với các hình dạng nhóm trong Word bằng C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Hướng dẫn lưu tài liệu Word chứa các hình dạng nhóm bằng C# và Aspose.Words. |
+| [cách ẩn hình dạng trong Word bằng C# – hướng dẫn từng bước](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Tìm hiểu cách ẩn một hình dạng trong tài liệu Word bằng Aspose.Words cho .NET và C# qua hướng dẫn chi tiết từng bước. |
+| [Cách nhóm các hình dạng trong Word và thêm hình dạng vào tài liệu Word](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Hướng dẫn cách nhóm và chèn hình dạng vào tài liệu Word bằng Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
