@@ -36,7 +36,7 @@ schemas:
       forcing an encoding, you may want to detect the file’s current charset. Libraries
       such as **juniversalchardet** can help:'
   - name: Large documents
-    text: When processing files larger than 100 MB, consider streaming the input with
+    text: When processing files larger than 100 MB, consider streaming the input with
       `LoadOptions.setLoadFormat(LoadFormat.DOCX)` to reduce memory pressure. The
       library will read pages lazily instead of loading the entire document into RAM.
   type: HowTo
@@ -44,7 +44,7 @@ tags:
 - Java
 - Encoding
 - Document processing
-title: How to set Big5 encoding when loading a DOCX file in Java
+title: How to set Big5 encoding when loading a DOCX file in Java with Aspose.Words
 url: /java/document-loading-and-saving/how-to-set-big5-encoding-when-loading-a-docx-file-in-java/
 ---
 
@@ -52,7 +52,7 @@ url: /java/document-loading-and-saving/how-to-set-big5-encoding-when-loading-a-d
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to set Big5 encoding when loading a DOCX file in Java
+# How to set Big5 encoding when loading a DOCX file in Java with Aspose.Words
 
 If you need to **set Big5 encoding** while loading a DOCX file in Java, this guide walks you through the entire process. You will also see how to **change document encoding** and **convert docx encoding** for files that use legacy East‑Asian character sets.
 
@@ -223,17 +223,15 @@ Next steps you might explore include:
 
 Feel free to experiment with other encodings, adjust the save format, or combine this approach with OCR libraries for scanned documents. Happy coding!
 
+## What should you learn next?
 
-## What Should You Learn Next?
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [Load With Encoding In Word Document](/words/english/net/programming-with-loadoptions/load-with-encoding/)
-- [How to Convert RTF Text with UTF-8 Encoding in Java Using Aspose.Words](/words/english/java/document-operations/load-rtf-with-utf8-java-asposewords/)
-- [Convert DOCX to PDF in Java with Aspose.Words – Using Document Converting](/words/english/java/document-converting/using-document-converting/)
+- {{< relref "words/english/net/programming-with-loadoptions/load-with-encoding.md" >}}Load With Encoding In Word Document{{< /relref >}}
+- {{< relref "words/english/java/document-operations/load-rtf-with-utf8-java-asposewords.md" >}}How to Convert RTF Text with UTF-8 Encoding in Java Using Aspose.Words{{< /relref >}}
+- {{< relref "words/english/java/document-converting/using-document-converting.md" >}}Convert DOCX to PDF in Java with Aspose.Words – Using Document Converting{{< /relref >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

@@ -31,8 +31,7 @@ tags:
 - content control
 - Aspose.Words
 - C#
-title: How to create word document programmatically and insert plain text content
-  control
+title: How to create a Word document programmatically with Aspose.Words and insert a plain text content control
 url: /java/document-manipulation/how-to-create-word-document-programmatically-and-insert-plai/
 ---
 
@@ -214,15 +213,13 @@ From here you can:
 
 Experiment with different tag types and explore the Aspose.Words API to build sophisticated, fillable Word templates that integrate seamlessly into your .NET applications. Happy coding!
 
+## What should you learn next?
 
-## What Should You Learn Next?
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [Add a Combo Box Form Field to a Word Document with Aspose.Words for .NET](/words/english/net/add-content-using-documentbuilder/insert-combo-box/)
-- [Insert Text Input Form Field In Word Document](/words/english/net/add-content-using-documentbuilder/insert-text-input-form-field/)
-- [Add a Check Box Form Field to a Word Document with Aspose.Words for .NET](/words/english/net/add-content-using-documentbuilder/insert-check-box/)
+- [Add a Combo Box Form Field to a Word Document with Aspose.Words for .NET](words/english/net/add-content-using-documentbuilder/insert-combo-box/)
+- [Insert Text Input Form Field In Word Document](words/english/net/add-content-using-documentbuilder/insert-text-input-form-field/)
+- [Add a Check Box Form Field to a Word Document with Aspose.Words for .NET](words/english/net/add-content-using-documentbuilder/insert-check-box/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

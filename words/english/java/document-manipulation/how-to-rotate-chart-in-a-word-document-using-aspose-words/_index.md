@@ -30,7 +30,7 @@ tags:
 - Aspose.Words
 - Java
 - Word automation
-title: How to rotate chart in a Word document using Aspose.Words
+title: Rotate doughnut chart in a Word document using Aspose.Words for Java
 url: /java/document-manipulation/how-to-rotate-chart-in-a-word-document-using-aspose-words/
 ---
 
@@ -38,7 +38,7 @@ url: /java/document-manipulation/how-to-rotate-chart-in-a-word-document-using-as
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to rotate chart in a Word document using Aspose.Words
+# Rotate doughnut chart in a Word document using Aspose.Words for Java
 
 If you need to **how to rotate chart** inside a Microsoft Word file, this guide shows you the exact steps. You’ll also learn how to **modify chart in Word** to **change doughnut chart size** without leaving your Java code.
 
@@ -226,17 +226,15 @@ Each of these extensions follows the same pattern: obtain the `Chart` object, ca
 
 **You’ve just mastered rotating and resizing doughnut charts in Word using Java.** Feel free to adapt the code for other chart types, integrate it into a larger document‑generation pipeline, or combine it with Aspose.Slides for PowerPoint automation. Happy coding!
 
+## What should you learn next?
 
-## What Should You Learn Next?
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [How to create column chart using Aspose.Words for Java](/words/english/java/document-conversion-and-export/using-charts/)
-- [Hide Chart Axis In A Word Document](/words/english/net/programming-with-charts/hide-chart-axis/)
-- [Insert Bubble Chart In Word Document](/words/english/net/programming-with-charts/insert-bubble-chart/)
+- [How to create column chart using Aspose.Words for Java]({{< relref "/words/english/java/document-conversion-and-export/using-charts/" >}})
+- [Hide Chart Axis In A Word Document]({{< relref "/words/english/net/programming-with-charts/hide-chart-axis/" >}})
+- [Insert Bubble Chart In Word Document]({{< relref "/words/english/net/programming-with-charts/insert-bubble-chart/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

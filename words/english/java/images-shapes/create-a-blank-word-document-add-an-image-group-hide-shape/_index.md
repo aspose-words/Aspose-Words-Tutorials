@@ -29,7 +29,7 @@ tags:
 - Aspose.Words
 - C#
 - Document processing
-title: Create a blank Word document, add an image group, hide shape
+title: Create a blank Word document, add an image group, and hide shape using Aspose.Words for .NET
 url: /java/images-shapes/create-a-blank-word-document-add-an-image-group-hide-shape/
 ---
 
@@ -181,17 +181,15 @@ Next, you might explore:
 
 Feel free to experiment with different shapes, sizes, and visibility rules to fit your automation scenario. Happy coding!
 
+## What should you learn next?
 
-## What Should You Learn Next?
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [Create Group Shape in Word Document Using Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Create Word Document with Floating Image in .NET](/words/english/net/add-content-using-documentbuilder/insert-floating-image/)
-- [Insert Inline Image in Word Document using Aspose.Words](/words/english/net/add-content-using-document-builder/insert-inline-image/)
+- [Create Group Shape in Word Document Using Aspose.Words for .NET]({{< relref "words/english/net/working-with-shapes/add-group-shape" >}})
+- [Create Word Document with Floating Image in .NET]({{< relref "words/english/net/add-content-using-documentbuilder/insert-floating-image" >}})
+- [Insert Inline Image in Word Document using Aspose.Words]({{< relref "words/english/net/add-content-using-document-builder/insert-inline-image" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

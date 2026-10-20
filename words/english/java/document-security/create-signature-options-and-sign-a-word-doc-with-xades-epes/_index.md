@@ -50,7 +50,7 @@ tags:
 - digital signature
 - Java
 - XAdES
-title: Create signature options and sign a Word doc with XAdES EPES
+title: Create signature options and sign a Word doc with XAdES EPES using GroupDocs.Signature for Java
 url: /java/document-security/create-signature-options-and-sign-a-word-doc-with-xades-epes/
 ---
 
@@ -275,17 +275,16 @@ If anything goes wrong, the console will display a clear error message, helping 
 
 In this tutorial you learned how to **create signature options** and **sign a Word doc** with the XAdES‑EPES level using Java. The complete example covers certificate loading, option configuration, the signing call, and optional verification, giving you a ready‑to‑use solution for **how to sign docx** files in production.
 
+## What should you learn next?
 
-## What Should You Learn Next?
-
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
 - [Create Load Options in Java – Detect Missing Fonts & How to Load DOCX](/words/english/java/document-loading-and-saving/create-load-options-in-java-detect-missing-fonts-how-to-load/)
 - [Using Document Options and Settings in Aspose.Words for Java](/words/english/java/document-manipulation/using-document-options-and-settings/)
-- [How to Create Editable Ranges in Read-Only Documents Using Aspose.Words for Java](/words/english/java/security-protection/editable-ranges-aspose-words-java/)
+- [How to Create Editable Ranges in Read‑Only Documents Using Aspose.Words for Java](/words/english/java/security-protection/editable-ranges-aspose-words-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}

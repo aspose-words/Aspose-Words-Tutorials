@@ -26,7 +26,7 @@ In modern document‑centric applications, **how to manage comments** is a frequ
 ## What is Comment Management in Aspose.Words?
 Comment management refers to the set of APIs that let you **add**, **modify**, **remove**, and **track** comments and annotations inside a Word document. These features enable collaborative editing, automated review workflows, and precise document auditing.
 
-## Why Use Aspose.Words for Java to Manage Comments?
+## Why use Aspose.Words for java to manage comments?
 - **Full control** over comment metadata (author, date, status).  
 - **Cross‑platform** support – works on any Java runtime.  
 - **No Microsoft Office dependency** – process documents on servers or cloud services.  
@@ -43,6 +43,16 @@ Comment management refers to the set of APIs that let you **add**, **modify**, *
 Annotations are visual cues that can be attached to any document node. To **how to add annotation**, create an `Annotation` object, set its properties, and link it to the target node.
 
 > *The code example below is unchanged from the original tutorial – it demonstrates the exact API calls you need.*
+
+```java
+Document doc = new Document("input.docx");
+Annotation annotation = new Annotation(doc);
+annotation.setAuthor("John Doe");
+annotation.setText("Review this paragraph");
+Paragraph para = (Paragraph)doc.getChild(NodeType.PARAGRAPH, 0, true);
+para.appendChild(annotation);
+doc.save("output.docx");
+```
 
 ### How to Insert Comment
 Inserting a comment is straightforward with the `DocumentBuilder`. This section shows **how to insert comment** and set its initial text.
@@ -68,7 +78,7 @@ Marking a comment as resolved helps teams track progress. Set the comment’s `D
 
 In today's digital age, efficiently managing document annotations and comments is crucial for developers working with rich text formats. Our category page dedicated to Annotations & Comments provides an invaluable resource for Java developers utilizing the powerful Aspose.Words library. Whether you're aiming to streamline collaborative reviews or automate feedback processes in your applications, this tutorial offers a deep dive into handling annotations and comments seamlessly within your documents. By following our step‑by‑step guidance, you'll gain insights into integrating these features with precision and flexibility, leveraging the full potential of Aspose.Words for Java. This ensures that your document processing tasks are not only efficient but also maintain high standards of accuracy and professionalism.
 
-## What You'll Learn
+## What you'll learn
 
 - Understand how to programmatically add and manage annotations in documents using Aspose.Words for Java.  
 - Learn techniques for inserting, modifying, and removing comments within documents efficiently.  
@@ -77,10 +87,10 @@ In today's digital age, efficiently managing document annotations and comments i
 
 ## Available Tutorials
 
-### [Aspose.Words Java&#58; Mastering Comment Management in Word Documents](./aspose-words-java-comment-management-guide/)
+### [Aspose.Words java&#58; mastering comment management in word documents]({{< relref "aspose-words-java-comment-management-guide/_index.md" >}})
 Learn how to manage comments and replies in Word documents using Aspose.Words for Java. Add, print, remove, mark as done, and track comment timestamps effortlessly.
 
-### [Apply heading style footnotes with Aspose.Words for Java](./apply-heading-style-footnotes-with-aspose-words-for-java/)
+### [Apply heading style footnotes with Aspose.Words for Java]({{< relref "apply-heading-style-footnotes-with-aspose-words-for-java/_index.md" >}})
 Learn how to apply heading style footnotes using Aspose.Words for Java.
 
 ## Additional Resources
@@ -94,13 +104,13 @@ Learn how to apply heading style footnotes using Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
-
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I programmatically update the author of an existing comment?**  
 A: Yes. Retrieve the `Comment` object, modify its `Author` property, and save the document.
