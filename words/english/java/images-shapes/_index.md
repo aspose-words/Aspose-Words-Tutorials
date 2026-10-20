@@ -95,6 +95,9 @@ Learn how to group rectangle shapes and set their positions in a Word document u
 ### [Insert Image into Word – Aspose.Words Step-by-Step Guide](./insert-image-into-word-aspose-words-step-by-step-guide/)
 Step-by-step guide on inserting images into Word documents using Aspose.Words for Java.
 
+### [Insert rectangle shape in Word using C# – complete guide](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+Learn how to insert a rectangle shape into a Word document using Aspose.Words for C# with a step-by-step guide.
+
 ## Additional Resources
 
 ## Additional Resources

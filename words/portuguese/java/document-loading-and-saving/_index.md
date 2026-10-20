@@ -145,6 +145,7 @@ As configurações de documentos são a chave para entregar documentos adaptados
 ### [Como salvar arquivo DOCX com Java – Guia de Inserção de Controle de Conteúdo](./how-to-save-docx-file-with-java-insert-content-control-guide/)
 
 ### [Criar Documento Word em Branco com Java – Guia Completo Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
+### [Carregar sublinhado markdown em Java – guia completo de programação](./load-markdown-underline-in-java-complete-programming-guide/)
 
 ## Perguntas Frequentes
 

@@ -76,6 +76,9 @@ Hướng dẫn cách nhóm và định vị các hình dạng trong tài liệu 
 ### [Chèn hình ảnh vào Word – Hướng dẫn từng bước Aspose.Words](./insert-image-into-word-aspose-words-step-by-step-guide/)
 Hướng dẫn chi tiết cách chèn hình ảnh vào tài liệu Word bằng Aspose.Words cho Java.
 
+### [Chèn hình chữ nhật vào Word bằng C# – hướng dẫn đầy đủ](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+Hướng dẫn chi tiết cách chèn hình chữ nhật vào tài liệu Word bằng C# sử dụng Aspose.Words.
+
 ## Tài nguyên bổ sung
 
 ## Tài nguyên bổ sung

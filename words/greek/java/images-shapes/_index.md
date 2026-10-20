@@ -76,6 +76,8 @@
 ### [Εισαγωγή εικόνας σε Word – Οδηγός βήμα προς βήμα Aspose.Words](./insert-image-into-word-aspose-words-step-by-step-guide/)
 Μάθετε πώς να εισάγετε εικόνες σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java, με παραδείγματα κώδικα και λεπτομερείς οδηγίες.
 
+### [Εισαγωγή σχήματος ορθογωνίου σε Word χρησιμοποιώντας C# – πλήρης οδηγός](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+
 ## Πρόσθετοι Πόροι
 
 ## Πρόσθετοι Πόροι

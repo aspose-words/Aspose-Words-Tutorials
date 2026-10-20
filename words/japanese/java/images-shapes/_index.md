@@ -76,6 +76,9 @@ Javaで長方形シェイプを挿入し、複数のシェイプをグループ�
 ### [Word に画像を挿入 – Aspose.Words ステップバイステップ ガイド](./insert-image-into-word-aspose-words-step-by-step-guide/)
 Aspose.Words for Java を使用して、Word 文書に画像を挿入する方法をステップバイステップで学びます。
 
+### [C# を使用して Word に長方形シェイプを挿入する – 完全ガイド](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+C# で Word 文書に長方形シェイプを追加し、カスタマイズする方法を学びます。
+
 ## 追加リソース
 
 ## 追加リソース

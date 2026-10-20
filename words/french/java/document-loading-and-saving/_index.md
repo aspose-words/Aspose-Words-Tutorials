@@ -201,6 +201,9 @@ Apprenez à enregistrer un document DOCX en Java tout en insérant des contrôle
 ### [Créer un document Word vierge avec Java – Guide complet Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
 Apprenez à créer un document Word vierge en Java avec Aspose.Words, incluant les options de mise en forme et d’enregistrement.
 
+### [Charger le soulignement Markdown en Java – guide complet de programmation](./load-markdown-underline-in-java-complete-programming-guide/)
+Apprenez à charger et gérer le soulignement Markdown dans des applications Java avec Aspose.Words. Guide complet avec exemples de code.
+
 ## Foire aux questions
 
 **Q:** Comment puis‑je **save images from word** programmatically ?  

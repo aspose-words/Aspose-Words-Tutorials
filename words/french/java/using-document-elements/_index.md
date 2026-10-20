@@ -81,6 +81,8 @@ Apprenez à créer un diagramme circulaire dans Aspose.Words pour Java grâce à
 Apprenez à insérer et personnaliser un diagramme circulaire dans un document Word à l'aide d'Aspose.Words pour Java.
 ### [Comment insérer un bouton ActiveX dans Word – définir la légende du bouton](./how-to-insert-activex-button-in-word-set-button-caption/)
 Apprenez à insérer un bouton ActiveX dans un document Word et à définir sa légende via Aspose.Words pour Java.
+### [Créer un document Word vierge avec un bouton de commande – guide étape par étape](./create-blank-word-document-with-a-command-button-step-by-ste/)
+Apprenez à créer un document Word vierge avec un bouton de commande grâce à ce guide étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

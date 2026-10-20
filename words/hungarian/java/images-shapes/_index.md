@@ -75,6 +75,9 @@ Tanulja meg, hogyan hozhat létre téglalap alakzatot, csoportosíthatja és poz
 ### [Kép beszúrása Word-be – Aspose.Words lépésről lépésre útmutató](./insert-image-into-word-aspose-words-step-by-step-guide/)
 Tanulja meg, hogyan szúrhat be képeket Word dokumentumokba az Aspose.Words for Java segítségével, részletes példákkal.
 
+### [Téglalap alakzat beszúrása Word dokumentumba C#-ban – teljes útmutató](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+Teljes körű útmutató a téglalap alakzat C#-os beszúrásához Word dokumentumokba.
+
 ## További források
 
 ## További források

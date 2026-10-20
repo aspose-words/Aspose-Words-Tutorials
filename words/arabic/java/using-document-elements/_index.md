@@ -81,6 +81,7 @@
 تعلم خطوة بخطوة كيفية إضافة Forms2OleControl إلى مستند DOCX باستخدام Aspose.Words لجافا.
 ### [إدراج مخطط دائري في Word باستخدام Aspose.Words – دليل شامل](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
 تعلم خطوة بخطوة كيفية إدراج مخطط دائري في مستندات Word باستخدام Aspose.Words لجافا وتخصيصه بسهولة.
+### [إنشاء مستند Word فارغ مع زر أمر – دليل خطوة بخطوة](./create-blank-word-document-with-a-command-button-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

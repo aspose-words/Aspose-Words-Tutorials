@@ -81,6 +81,8 @@ Naucz się tworzyć wykresy kołowe w dokumentach Word przy użyciu Aspose.Words
 Dowiedz się, jak dodać kontrolkę Forms2OleControl do dokumentu DOCX przy użyciu Aspose.Words for Java w pełnym przewodniku krok po kroku.
 ### [Wstaw wykres kołowy w Word przy użyciu Aspose.Words – kompletny przewodnik](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
 Dowiedz się, jak wstawić wykres kołowy do dokumentu Word przy użyciu Aspose.Words. Kompletny przewodnik krok po kroku.
+### [Utwórz pusty dokument Word z przyciskiem polecenia – przewodnik krok po kroku](./create-blank-word-document-with-a-command-button-step-by-ste/)
+Dowiedz się, jak stworzyć pusty dokument Word i dodać przycisk polecenia w kilku prostych krokach.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

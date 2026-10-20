@@ -82,6 +82,8 @@ Fedezd fel az Aspose.Words Java-hoz készült változatát: Átfogó útmutató 
 Tanuld meg, hogyan hozhatsz létre pitédiagramot az Aspose.Words for Java segítségével, részletes kódpéldákkal.
 ### [Kördiagram beszúrása Word-be az Aspose.Words segítségével – Teljes útmutató](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
 Tanuld meg, hogyan szúrj be kördiagramot Word dokumentumba az Aspose.Words Java API-val, lépésről lépésre útmutatóval.
+### [Üres Word dokumentum létrehozása parancsgombbal – lépésről‑lépésre útmutató](./create-blank-word-document-with-a-command-button-step-by-ste/)
+Tanuld meg, hogyan hozhatsz létre üres Word dokumentumot parancsgombbal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

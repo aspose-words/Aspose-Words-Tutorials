@@ -205,6 +205,9 @@ Impara a configurare le LoadOptions per catturare gli avvisi di sostituzione dei
 ### [Come salvare un file DOCX con Java – Guida all'inserimento di Content Control](./how-to-save-docx-file-with-java-insert-content-control/)
 Scopri come salvare un documento DOCX in Java aggiungendo Content Controls per gestire contenuti dinamici.
 
+### [Carica sottolineatura Markdown in Java – guida completa di programmazione](./load-markdown-underline-in-java-complete-programming-guide/)
+Scopri come caricare e gestire le sottolineature nei file Markdown usando Aspose.Words per Java, con esempi di codice dettagliati.
+
 ## Domande Frequenti
 
 **D:** Come posso **salvare immagini da word** programmaticamente nei documenti?  

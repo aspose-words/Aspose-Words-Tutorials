@@ -46,6 +46,7 @@
 ### [Προσθήκη Forms2OleControl σε DOCX – Πλήρης Οδηγός Aspose.Words](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
 Μάθετε πώς να προσθέτετε Forms2OleControl σε αρχεία DOCX χρησιμοποιώντας το Aspose.Words.
 
+### [Δημιουργία κενού εγγράφου Word με κουμπί εντολής – οδηγός βήμα‑βήμα](./create-blank-word-document-with-a-command-button-step-by-ste/)
 ### [Χρήση σχολίων στο Aspose.Words για Java](./using-comments/)
 Μάθετε πώς να χρησιμοποιείτε σχόλια στο Aspose.Words για Java. Βήμα προς βήμα οδηγός για την προσθήκη και προσαρμογή σχολίων στα έγγραφά σας.
 ### [Χρήση πεδίων στο Aspose.Words για Java](./using-fields/)

@@ -76,6 +76,9 @@
 ### [Вставка изображения в Word – пошаговое руководство Aspose.Words](./insert-image-into-word-aspose-words-step-by-step-guide/)
 Узнайте, как вставлять изображения в документы Word с помощью Aspose.Words для Java.
 
+### [Вставка прямоугольной фигуры в Word с помощью C# – полное руководство](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+Полное руководство по вставке прямоугольной фигуры в документ Word с использованием C# и Aspose.Words.
+
 ## Дополнительные ресурсы
 
 ## Дополнительные ресурсы

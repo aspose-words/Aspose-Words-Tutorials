@@ -76,6 +76,9 @@ Impara a raggruppare e posizionare forme rettangolari in un documento Word usand
 ### [Inserisci immagine in Word – Guida passo-passo Aspose.Words](./insert-image-into-word-aspose-words-step-by-step-guide/)
 Scopri come inserire immagini in un documento Word passo dopo passo con Aspose.Words per Java.
 
+### [Inserisci forma rettangolare in Word usando C# – guida completa](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+Scopri come aggiungere una forma rettangolare in un documento Word con C# usando Aspose.Words.
+
 ## Risorse aggiuntive
 
 ## Risorse aggiuntive

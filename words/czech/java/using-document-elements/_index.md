@@ -81,6 +81,8 @@ Naučte se, jak vytvořit koláčový graf v Aspose.Words pro Javu pomocí podro
 Naučte se, jak pomocí Aspose.Words pro Javu přidat ovládací prvek Forms2OleControl do souboru DOCX. Kompletní krok za krokem návod.
 ### [Vložení koláčového grafu do Wordu pomocí Aspose.Words – Kompletní průvodce](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
 Naučte se, jak pomocí Aspose.Words vytvořit a vložit koláčový graf do dokumentu Word. Kompletní krok za krokem návod.
+### [Vytvoření prázdného dokumentu Word s tlačítkem příkazu – krok za krokem](./create-blank-word-document-with-a-command-button-step-by-ste/)
+Naučte se, jak pomocí Aspose.Words pro Javu vytvořit prázdný dokument Word a přidat k němu tlačítko příkazu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

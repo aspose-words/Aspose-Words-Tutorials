@@ -81,6 +81,7 @@
 学习在 Aspose.Words for Java 中插入 ActiveX 按钮并设置其标题，实现交互式文档功能。
 ### [在 Word 中使用 Aspose.Words 插入饼图 – 完整指南](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
 学习如何使用 Aspose.Words 在 Word 文档中插入并自定义饼图，涵盖数据绑定、样式设置和导出。
+### [使用命令按钮创建空白 Word 文档 – 步骤指南](./create-blank-word-document-with-a-command-button-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

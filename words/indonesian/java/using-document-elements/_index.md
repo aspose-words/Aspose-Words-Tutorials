@@ -81,6 +81,8 @@ Pelajari cara membuat diagram lingkaran menggunakan Aspose.Words untuk Java deng
 Pelajari cara menambahkan kontrol Forms2OleControl ke file DOCX menggunakan Aspose.Words untuk Java dalam panduan langkah demi langkah ini.
 ### [Menyisipkan Diagram Pai di Word dengan Aspose.Words – Panduan Lengkap](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
 Pelajari cara menyisipkan diagram pai di dokumen Word menggunakan Aspose.Words dengan panduan lengkap langkah demi langkah.
+### [Membuat dokumen Word kosong dengan tombol perintah – panduan langkah demi langkah](./create-blank-word-document-with-a-command-button-step-by-ste/)
+Panduan langkah demi langkah untuk membuat dokumen Word kosong dengan tombol perintah menggunakan Aspose.Words untuk Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -81,6 +81,8 @@
 學習如何在 Aspose.Words for Java 中使用 Forms2OleControl 將表單轉換為 OLE 控制項，並嵌入 DOCX 文件。
 ### [在 Aspose.Words for Java 中插入餅圖 – 完整指南](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
 了解如何使用 Aspose.Words for Java 在 Word 文件中插入並自訂餅圖，完整步驟與程式碼示例。
+### [在 Aspose.Words for Java 中使用指令按鈕建立空白 Word 文件 – 步驟指南](./create-blank-word-document-with-a-command-button-step-by-ste/)
+了解如何在 Aspose.Words for Java 中使用指令按鈕建立空白的 Word 文件，提供完整步驟說明。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
