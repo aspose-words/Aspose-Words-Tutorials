@@ -10,17 +10,11 @@ url: /it/java/document-merging/using-document-merging/
 weight: 10
 ---
 
-ords, Java, API, etc.
 
-Also keep code snippets like `ImportFormatMode` unchanged.
 
-Also keep URLs unchanged.
 
-Also keep markdown links.
 
-Let's go through.
 
-I'll produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

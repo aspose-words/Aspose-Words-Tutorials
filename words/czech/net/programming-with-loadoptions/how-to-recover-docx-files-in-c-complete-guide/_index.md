@@ -22,13 +22,10 @@ title: Jak obnovit soubory DOCX v C# – Kompletní průvodce
 url: /cs/net/programming-with-loadoptions/how-to-recover-docx-files-in-c-complete-guide/
 ---
 
-codes.
 
-Also final backtop button shortcode.
 
-Make sure to keep markdown formatting.
 
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

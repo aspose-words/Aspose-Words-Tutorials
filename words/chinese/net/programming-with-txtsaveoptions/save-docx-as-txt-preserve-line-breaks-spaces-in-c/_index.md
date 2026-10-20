@@ -21,9 +21,8 @@ title: 将 docx 保存为 txt – 在 C# 中保留换行和空格
 url: /zh/net/programming-with-txtsaveoptions/save-docx-as-txt-preserve-line-breaks-spaces-in-c/
 ---
 
-sure we didn't translate any code placeholders or URLs.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

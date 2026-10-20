@@ -22,13 +22,10 @@ title: Zachycení varování o fontu v C# – Kompletní programovací průvodce
 url: /cs/net/working-with-fonts/capture-font-warnings-in-c-complete-programming-guide/
 ---
 
-– ať už"
 
-Then close shortcodes as given.
 
-Now ensure we keep all shortcodes at bottom unchanged.
 
-Let's assemble final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

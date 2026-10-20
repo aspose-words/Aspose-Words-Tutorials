@@ -60,6 +60,8 @@ Börja din inlärningsresa idag och lås upp de oändliga möjligheterna för do
 Förbättra dokumenttydligheten med Aspose.Words för Java-rensningsalternativ. Lär dig hur du tar bort tomma stycken, oanvända regioner och mer.
 ### [Använda fält i Aspose.Words för Java](./using-fields/)
 Lås upp dokumentautomation med Aspose.Words för Java. Lär dig hur du sammanfogar, formaterar och infogar bilder i Java-dokument. Omfattande guide och kodexempel för effektiv dokumenthantering.
+### [Hur man skapar ett Word-dokument i Java med Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Lär dig att skapa ett Word-dokument i Java med Aspose.Words, steg-för-steg med kodexempel.
 ### [Använda XML-data i Aspose.Words för Java](./using-xml-data/)
 Lås upp kraften i Aspose.Words för Java. Lär dig XML-datahantering, dokumentkoppling och mustaschsyntax med steg-för-steg-handledningar.
 ### [Extrahera innehåll från dokument i Aspose.Words för Java](./extracting-content-from-documents/)
@@ -82,6 +84,8 @@ Lär dig hur du förbättrar dokumentformatering med Aspose.Words för Java. Utf
 Lär dig hur du genererar och anpassar innehållsförteckningar (TOC) med Aspose.Words för Java. Skapa enkelt organiserade och professionella dokument.
 ### [Skydda dokument i Aspose.Words för Java](./protecting-documents/)
 Lär dig hur du säkrar dina Java Word-dokument med Aspose.Words för Java. Skydda dina data med lösenord och mer.
+### [PDF-tillgänglighetstaggar i Java – Generera tillgängliga PDF-filer](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Lär dig hur du taggar PDF-dokument för tillgänglighet i Java och skapar tillgängliga PDF-filer med Aspose.Words.
 ### [Dela upp dokument i sidor i Aspose.Words för Java](./splitting-documents-into-pages/)
 Lär dig hur du delar upp dokument i sidor med Aspose.Words för Java. Steg-för-steg-guide med källkod för effektiv dokumenthantering.
 ### [Dela dokument i Aspose.Words för Java](./splitting-documents/)
@@ -90,6 +94,8 @@ Lär dig hur du delar upp dokument effektivt i Aspose.Words för Java. Utforska 
 Lär dig hur du delar upp dokument till HTML-sidor med Aspose.Words för Java. Följ vår steg-för-steg-guide för sömlös dokumentkonvertering.
 ### [Lägga till innehåll med DocumentBuilder i Aspose.Words för Java](./adding-content-using-documentbuilder/)
 Bemästra dokumentskapande med Aspose.Words för Java. En steg-för-steg-guide för att lägga till text, tabeller, bilder och mer. Skapa fantastiska Word-dokument utan ansträngning.
+### [Lägg till innehållskontroll i Word-dokument med Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+Lär dig hur du lägger till och hanterar innehållskontroller i Word-dokument med Aspose.Words för Java.
 ### [Kloning och kombination av dokument i Aspose.Words för Java](./cloning-and-combining-documents/)
 Lär dig hur du klonar och kombinerar dokument i Aspose.Words för Java. Steg-för-steg-guide med exempel på källkod.
 ### [Jämföra dokument i Aspose.Words för Java](./comparing-documents/)
@@ -104,6 +110,8 @@ Lås upp kraften i Aspose.Words för Java. Behärska dokumentalternativ och inst
 Optimera dokumenthanteringen med Aspose.Words för Java. Lär dig arbeta med dokumentegenskaper, lägga till anpassade metadata och mer i den här omfattande handledningen.
 ### [Använda webbtillägg i Aspose.Words för Java](./using-web-extensions/)
 Förbättra dokument med webbtillägg i Aspose.Words för Java. Lär dig att integrera webbaserat innehåll sömlöst. 
+### [Skapa docx ActiveX-knapp i Java – komplett programmeringsguide](./create-docx-activex-button-in-java-complete-programming-guid/)
+Lär dig hur du skapar en ActiveX-knapp i ett DOCX-dokument med Java, steg-för-steg med kodexempel.
 ### [Skapa ett tomt dokument med en interaktiv kommandoknapp i Word med Java](./create-blank-document-with-an-interactive-command-button-in/)
 Lär dig hur du skapar ett tomt Word-dokument och lägger till en interaktiv kommandoknapp med Aspose.Words för Java.
 

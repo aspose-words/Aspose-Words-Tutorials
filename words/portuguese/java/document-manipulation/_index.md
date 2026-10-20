@@ -56,6 +56,8 @@ manipulação de documentos com o Aspose.Words para Java é uma habilidade valio
 Comece sua jornada de aprendizado hoje mesmo e descubra as infinitas possibilidades de manipulação de documentos com o Aspose.Words para Java.
 
 ## Tutoriais de Manipulação de Documentos
+### [Marcação de acessibilidade PDF em Java – Gerar PDFs acessíveis](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Aprenda a criar PDFs acessíveis com marcações de acessibilidade usando Aspose.Words para Java.
 ### [Usando opções de limpeza no Aspose.Words para Java](./using-cleanup-options/)
 Melhore a clareza do documento com as opções de limpeza do Aspose.Words para Java. Aprenda a remover parágrafos vazios, regiões não utilizadas e muito mais.
 ### [Usando campos em Aspose.Words para Java](./using-fields/)
@@ -104,6 +106,12 @@ Desbloqueie o poder do Aspose.Words para Java. Domine as opções e configuraç�
 Otimize o gerenciamento de documentos com o Aspose.Words para Java. Aprenda a trabalhar com propriedades de documentos, adicionar metadados personalizados e muito mais neste tutorial abrangente.
 ### [Usando extensões da Web no Aspose.Words para Java](./using-web-extensions/)
 Aprimore documentos com extensões da Web no Aspose.Words para Java. Aprenda a integrar conteúdo da Web perfeitamente.
+### [Criar botão ActiveX docx em Java – guia completo de programação](./create-docx-activex-button-in-java-complete-programming-guid/)
+Aprenda a inserir um botão ActiveX em documentos DOCX usando Aspose.Words para Java com exemplos passo a passo. 
+### [Como criar um documento Word em Java com Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Aprenda a criar documentos Word em Java usando Aspose.Words de forma simples e rápida.
+### [Adicionando controle de conteúdo em documento Word com Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+Aprenda a inserir e gerenciar controles de conteúdo em documentos Word usando Aspose.Words para Java.
 ### [Criar documento em branco com um botão de comando interativo no Word usando Java](./create-blank-document-with-an-interactive-command-button-in/)
 Aprenda a criar um documento Word em branco com um botão de comando interativo usando Aspose.Words para Java.
 

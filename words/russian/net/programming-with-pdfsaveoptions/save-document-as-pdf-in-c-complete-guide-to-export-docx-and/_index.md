@@ -26,11 +26,8 @@ title: Сохранить документ в PDF на C# — Полное ру�
 url: /ru/net/programming-with-pdfsaveoptions/save-document-as-pdf-in-c-complete-guide-to-export-docx-and/
 ---
 
-markdown formatting like code fences. The placeholders are not code fences, but they are placeholders. The original had no actual code fences besides placeholders. So we keep them.
 
-Now produce final output with all translated content, preserving shortcodes and placeholders.
 
-Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

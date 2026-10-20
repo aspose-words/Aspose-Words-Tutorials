@@ -80,6 +80,10 @@
 Μάθετε πώς να βελτιώσετε τη μορφοποίηση εγγράφων με το Aspose.Words για Java. Εξερευνήστε στυλ, θέματα και πολλά άλλα σε αυτόν τον ολοκληρωμένο οδηγό με παραδείγματα πηγαίου κώδικα.
 ### [Δημιουργία Πίνακα Περιεχομένων στο Aspose.Words για Java](./generating-table-of-contents/)
 Μάθετε πώς να δημιουργείτε και να προσαρμόζετε Πίνακα Περιεχομένων (TOC) χρησιμοποιώντας το Aspose.Words για Java. Δημιουργήστε οργανωμένα και επαγγελματικά έγγραφα χωρίς κόπο.
+### [Δημιουργία κουμπιού ActiveX σε docx με Java – πλήρης προγραμματιστικός οδηγός](./create-docx-activex-button-in-java-complete-programming-guid/)
+Μάθετε πώς να ενσωματώσετε κουμπί ActiveX σε έγγραφα docx χρησιμοποιώντας Java.
+### [Προσθήκη ελέγχου περιεχομένου σε έγγραφο Word με Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+Μάθετε πώς να προσθέτετε ελέγχους περιεχομένου σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
 ### [Δημιουργία κενής εγγράφου με διαδραστικό κουμπί εντολής στο Word με Java](./create-blank-document-with-an-interactive-command-button-in/)
 Δημιουργήστε ένα κενό έγγραφο Word με διαδραστικό κουμπί εντολής χρησιμοποιώντας το Aspose.Words για Java.
 ### [Προστασία εγγράφων στο Aspose.Words για Java](./protecting-documents/)
@@ -106,6 +110,11 @@
 Βελτιστοποιήστε τη διαχείριση εγγράφων με το Aspose.Words για Java. Μάθετε να εργάζεστε με ιδιότητες εγγράφων, να προσθέτετε προσαρμοσμένα μεταδεδομένα και πολλά άλλα σε αυτό το ολοκληρωμένο σεμινάριο.
 ### [Χρήση επεκτάσεων ιστού στο Aspose.Words για Java](./using-web-extensions/)
 Βελτιώστε τα έγγραφα με επεκτάσεις ιστού στο Aspose.Words για Java. Μάθετε να ενσωματώνετε απρόσκοπτα περιεχόμενο ιστού. 
+### [Πώς να δημιουργήσετε ένα έγγραφο Word σε Java με το Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Μάθετε πώς να δημιουργήσετε ένα έγγραφο Word από το μηδέν χρησιμοποιώντας το Aspose.Words για Java.
+
+### [Επισήμανση προσβασιμότητας PDF σε Java – Δημιουργία προσβάσιμων PDF](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Μάθετε πώς να δημιουργείτε προσβάσιμα PDF με ετικέτες προσβασιμότητας χρησιμοποιώντας το Aspose.Words για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -24,17 +24,11 @@ title: Δημιουργία Προσβάσιμου PDF από το Word – Οδ
 url: /el/net/basic-conversions/create-accessible-pdf-from-word-step-by-step-guide/
 ---
 
-many corporate environments, accessibility isn’t a nice‑to‑have—it’s a must, especially when you have to meet PDF/UA‑2 standards." Translate.
 
-We'll translate accordingly.
 
-Continue.
 
-Make sure to keep bold formatting.
 
-Proceed through entire content.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

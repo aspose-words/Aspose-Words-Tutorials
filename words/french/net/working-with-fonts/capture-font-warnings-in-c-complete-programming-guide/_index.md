@@ -23,23 +23,14 @@ title: Capturer les avertissements de police en C# – Guide complet de programm
 url: /fr/net/working-with-fonts/capture-font-warnings-in-c-complete-programming-guide/
 ---
 
-showing capture font warnings flow". That should be translated to French, but the alt attribute after {alt="..."} also contains English; we need to translate that too. However the alt attribute is a Hugo attribute; we should translate the string inside alt="...". Keep the syntax.
 
-Also translate the table content.
 
-We must not translate URLs, file paths, variable names, function names. So code blocks placeholders remain unchanged.
 
-We need to translate bullet points, paragraphs, etc.
 
-Let's produce final content.
 
-Be careful with markdown links: there are none except maybe none.
 
-Let's translate.
 
-Start with shortcodes unchanged.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

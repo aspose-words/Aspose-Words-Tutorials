@@ -21,11 +21,9 @@ title: Wie man Grammatik in Word mit Aspose.Words KI prüft – Vollständige An
 url: /de/net/ai-powered-document-processing/how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/
 ---
 
-English text: code block placeholders remain.
 
-Make sure to keep markdown formatting.
 
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

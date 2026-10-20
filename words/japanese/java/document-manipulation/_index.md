@@ -90,6 +90,8 @@ Aspose.Words for Javaでドキュメントを効率的に分割する方法を�
 Aspose.Words for Javaを使ってドキュメントをHTMLページに分割する方法を学びましょう。ステップバイステップのガイドに従って、シームレスなドキュメント変換を実現しましょう。
 ### [Aspose.Words for Java の DocumentBuilder を使用してコンテンツを追加する](./adding-content-using-documentbuilder/)
 Aspose.Words for Javaでドキュメント作成をマスター。テキスト、表、画像などを追加するステップバイステップガイド。魅力的なWord文書を簡単に作成できます。
+### [Aspose.Words で Word 文書にコンテンツ コントロールを追加する](./add-content-control-in-word-document-with-aspose-words/)
+Aspose.Words を使用して、Word 文書にコンテンツ コントロール（構造化ドキュメントタグ）を追加し、データ バインディングや編集を簡単に行う方法を学びます。
 ### [Aspose.Words for Java でのドキュメントの複製と結合](./cloning-and-combining-documents/)
 Aspose.Words for Javaでドキュメントを複製および結合する方法を学びましょう。ソースコード例付きのステップバイステップガイドです。
 ### [Aspose.Words for Java でドキュメントを比較する](./comparing-documents/)
@@ -102,8 +104,15 @@ Aspose.Words for Java を使って、ドキュメントを簡単に結合・追�
 Aspose.Words for Javaのパワーを解き放ちましょう。ドキュメントのオプションと設定をマスターして、シームレスなドキュメント管理を実現します。最適化、カスタマイズなど、様々な機能をご利用いただけます。
 ### [Aspose.Words for Java でのドキュメント プロパティの使用](./using-document-properties/)
 Aspose.Words for Javaでドキュメント管理を最適化しましょう。この包括的なチュートリアルでは、ドキュメントプロパティの操作、カスタムメタデータの追加など、様々な方法を学習できます。
-### [Aspose.Words for Java での Web 拡張機能の使用](./using-web-extensions/)
-Aspose.Words for JavaのWeb拡張機能でドキュメントを強化しましょう。Webベースのコンテンツをシームレスに統合する方法を学びましょう。 
+### [Aspose.Words for Java の Web 拡張機能の使用](./using-web-extensions/)
+Aspose.Words for JavaのWeb拡張機能でドキュメントを強化しましょう。Webベースのコンテンツをシームレスに統合する方法を学びましょう。
+
+### [Java で PDF アクセシビリティ タグ付け – アクセシブルな PDF の生成](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Aspose.Words for Java を使用して、PDF にアクセシビリティタグを付与し、アクセシブルな PDF を生成する方法を学びます。
+### [JavaでdocxのActiveXボタンを作成する – 完全プログラミングガイド](./create-docx-activex-button-in-java-complete-programming-guid/)
+JavaでdocxにActiveXボタンを追加する完全ガイドです。ステップバイステップで実装方法を学びましょう。
+### [Aspose.Words を使用して Java で Word 文書を作成する方法](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Aspose.Words for Java を使って新しい Word 文書を作成する手順を解説します。
 ### [Javaでインタラクティブなコマンドボタン付きの空白文書をWordで作成する](./create-blank-document-with-an-interactive-command-button-in/)
 Java と Aspose.Words を使って、インタラクティブなコマンドボタンを含む空白の Word 文書を作成する方法を解説します。
 

@@ -24,13 +24,9 @@ title: Salva docx come markdown in Java – Guida completa passo passo
 url: /it/java/document-conversion-and-export/save-docx-as-markdown-in-java-complete-step-by-step-guide/
 ---
 
-.
 
-Make sure not to translate URLs or file paths like `input.docx`, `output.md`, `mdOptions.setExportImagesAsBase64(true)`, etc.
 
-Also keep markdown formatting.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

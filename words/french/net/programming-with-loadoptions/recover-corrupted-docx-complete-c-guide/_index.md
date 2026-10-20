@@ -24,9 +24,8 @@ title: Récupérer un docx corrompu – Guide complet C#
 url: /fr/net/programming-with-loadoptions/recover-corrupted-docx-complete-c-guide/
 ---
 
-markdown formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

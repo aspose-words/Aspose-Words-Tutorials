@@ -26,9 +26,8 @@ title: Dokument in C# als PDF speichern – Vollständige Anleitung zum Exportie
 url: /de/net/programming-with-pdfsaveoptions/save-document-as-pdf-in-c-complete-guide-to-export-docx-and/
 ---
 
-markdown formatting.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

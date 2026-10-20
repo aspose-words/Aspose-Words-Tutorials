@@ -22,11 +22,9 @@ title: Aspose.Words를 사용하여 문서를 PDF로 저장하기 – 완전한 
 url: /ko/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-words-complete-c-guide/
 ---
 
-**What happens under the hood?**, **Sample console output**, **Expected result:**, **Expected result** etc. Keep bold markers.
 
-Make sure we keep them.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,7 +22,7 @@ title: 使用 Java 在 Word 中建立矩形形狀 – 完整指南
 url: /zh-hant/java/images-shapes/create-rectangle-shape-in-word-with-java-full-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

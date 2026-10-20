@@ -65,12 +65,40 @@ Leer lijsten gebruiken in Aspose.Words voor Java met deze stapsgewijze tutorial.
 Leer Markdown gebruiken in Aspose.Words voor Java met deze stapsgewijze tutorial. Maak, style en sla moeiteloos Markdown-documenten op.
 ### [Nodes gebruiken in Aspose.Words voor Java](./using-nodes/)
 Leer hoe je knooppunten in Aspose.Words voor Java kunt bewerken met deze stapsgewijze tutorial. Ontgrendel de kracht van documentverwerking.
+### [Grafiek bewerken in een Word-document met Java](./how-to-edit-chart-in-a-word-document-using-java/)
+Leer hoe u grafieken in Word-documenten kunt bewerken met Aspose.Words voor Java.
 ### [OLE-objecten en ActiveX-besturingselementen gebruiken in Aspose.Words voor Java](./using-ole-objects-and-activex/)
 Leer OLE-objecten en ActiveX-besturingselementen gebruiken in Aspose.Words voor Java. Maak eenvoudig interactieve documenten. Ga nu aan de slag!
+### [Forms2OleControl toevoegen aan DOCX – Complete Aspose.Words-gids](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Leer hoe u Forms2OleControl gebruikt om OLE-besturingselementen toe te voegen aan DOCX-bestanden met Aspose.Words voor Java.
+### [Hoe een ActiveX-knop in Word in te voegen – knopbijschrift instellen](./how-to-insert-activex-button-in-word-set-button-caption/)
+Leer hoe u een ActiveX-knop toevoegt aan een Word-document en het bijschrift aanpast met Aspose.Words voor Java.
+### [Hoe forms2olecontrol in code maken met Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
 ### [Revisies gebruiken in Aspose.Words voor Java](./using-revisions/)
 Leer hoe u Aspose.Words voor Java's revisiebeheer efficiënt kunt gebruiken. Stapsgewijze handleiding voor ontwikkelaars. Optimaliseer uw documentbeheer.
 ### [Secties gebruiken in Aspose.Words voor Java](./using-sections/)
 Ontdek Aspose.Words voor Java: een uitgebreide handleiding voor het gebruik van secties. Secties toevoegen, verwijderen, toevoegen en klonen met codevoorbeelden.
+### [Knopgrootte instellen in Word met Java – Complete Aspose.Words-gids](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+### [Cirkeldiagram maken met Aspose.Words voor Java – Volledige stapsgewijze gids](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Leer hoe u met Aspose.Words voor Java een cirkeldiagram maakt en in uw document invoegt, stap voor stap uitgelegd.
+### [Cirkeldiagram invoegen in Word met Aspose.Words – volledige gids](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Leer stap voor stap hoe u een cirkeldiagram in een Word-document invoegt met Aspose.Words voor Java.
+### [Leeg Word-document maken met een opdrachtknop – stapsgewijze handleiding](./create-blank-word-document-with-a-command-button-step-by-ste/)
+Leer hoe u een leeg Word-document maakt en een opdrachtknop toevoegt met deze stapsgewijze tutorial.
+### [Hoe SDT toe te voegen in C# – volledige gids voor Word-plaatsaanduidingen](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Leer hoe u SDT-plaatsaanduidingen in C# toevoegt voor dynamische Word-documenten.
+### [Scheidingsteken krijgen in Word-documenten met Java](./how-to-get-separator-in-word-docs-with-java/)
+Leer hoe u scheidingstekens kunt ophalen in Word-documenten met Aspose.Words voor Java.
+### [Cirkeldiagram maken in Word met Java – stapsgewijze handleiding](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Leer hoe u een cirkeldiagram in een Word-document maakt met Java, stap voor stap.
+### [Hoe een Word-document met tijdelijke aanduidingen en lijsten te maken](./how-to-create-word-document-with-placeholders-and-lists/)
+Leer hoe je een Word-document maakt met placeholders en lijsten in Aspose.Words voor Java.
+### [Leidlijnen toevoegen aan een taartdiagram in Java met de Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Leer hoe je leidlijnen toevoegt aan een taartdiagram met de Aspose.Words Chart API in Java.
+### [Hoe een opdrachtknop in een Word-document in te voegen met Java](./how-to-insert-command-button-in-a-word-document-using-java/)
+Leer hoe u een opdrachtknop toevoegt aan een Word-document met Aspose.Words voor Java.
+### [Word-document opslaan na het bewerken van een donutgrafiek in Java](./save-word-document-after-editing-doughnut-chart-in-java/)
+Leer hoe u een Word-document opslaat nadat u een doughnut-diagram hebt bewerkt met Aspose.Words voor Java.
 ### [Radiale grafiek maken in een Word-document met Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
 Leer hoe je een radiale grafiek in een Word-document kunt maken met Aspose.Words voor Java. Volg de stapsgewijze tutorial.
 ### [Leeg Word-document maken en een platte‑tekst besturingselement invoegen](./create-blank-word-document-and-insert-a-plain-text-control/)

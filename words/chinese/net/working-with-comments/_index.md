@@ -20,6 +20,15 @@
 
  ## 教程
 标题 | 描述 |
+
+{{< tutorial-card link="./add-hyperlink-comment/" title="使用 Aspose.Words for .NET 添加超链接批注并导出为 PDF 注释" imgSrc="./add-hyperlink-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-comment/" title="使用 Aspose.Words for .NET 在 Word 文档的特定段落中插入 Comment。" imgSrc="./add-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./style-comment-text/" title="使用 Aspose.Words for .NET 为 Word 文档中的批注文本应用自定义样式" imgSrc="./style-comment-text/images/thumb.png" >}}
+
+
+
 | --- | --- |
 | [添加评论](./add-comments/) 学习如何使用 Aspose.Words for .NET 为 Word 文档添加注释。轻松增强您的文档协作流程。|
 | [锚评论](./anchor-comment/) 了解如何使用 Aspose.Words for .NET 在 Word 文档中添加锚点注释。按照我们的分步指南，实现高效的文档协作。|

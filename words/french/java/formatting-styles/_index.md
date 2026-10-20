@@ -50,6 +50,9 @@ Apprenez à gérer efficacement les taquets de tabulation dans vos documents Wor
 ### [Optimiser les styles de mots en Java avec Aspose.Words : supprimer les styles inutilisés et en double](./optimize-word-styles-aspose-java/)
 Apprenez à gérer efficacement les styles de documents avec Aspose.Words pour Java en supprimant les styles inutilisés et en double, améliorant ainsi les performances et la maintenabilité.
 
+### [Comment modifier le format des notes de bas de page dans un document Word avec Java](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
+Apprenez à modifier le format des notes de bas de page dans un document Word à l'aide d'Aspose.Words pour Java.
+
 ## Ressources supplémentaires
 
 - [Documentation Aspose.Words pour Java](https://reference.aspose.com/words/java/)

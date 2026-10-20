@@ -1,23 +1,22 @@
 ---
 category: general
-date: 2025-12-29
-description: Aspose.Words를 사용하여 Word에서 LaTeX를 내보내는 방법 – Word를 LaTeX로 변환하고, docx를 txt로
-  저장하며, 일반 텍스트에서 수식을 처리하는 방법을 배워보세요.
+date: 2026-05-01
+description: Aspose.Words를 사용하여 C#에서 Word 파일을 LaTeX로 내보내고, Word를 txt로 변환하며, 표를 보존하는
+  방법을 배우세요.
 draft: false
 keywords:
 - how to export latex
-- convert word to latex
-- how to save txt
+- convert word to txt
+- convert word to plain text
 - save docx as txt
-- convert word equations latex
+- how to preserve tables
 language: ko
-og_description: Aspose.Words를 사용하여 Word에서 LaTeX를 내보내는 방법. 이 가이드는 Word를 LaTeX로 변환하고,
-  docx를 txt로 저장하며, 수식을 그대로 유지하는 방법을 보여줍니다.
-og_title: Word에서 LaTeX 내보내는 방법 – 빠른 C# 튜토리얼
+og_description: Aspose.Words를 사용하여 Word에서 LaTeX를 내보내고, Word를 일반 텍스트로 변환하며, 표 레이아웃을
+  그대로 유지하는 방법을 알아보세요.
+og_title: Word에서 LaTeX 내보내는 방법 – 완전한 C# 튜토리얼
 tags:
 - Aspose.Words
 - C#
-- LaTeX
 - Document Conversion
 title: Word에서 LaTeX 내보내는 방법 – 단계별 가이드
 url: /ko/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/
@@ -27,183 +26,217 @@ url: /ko/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word에서 LaTeX 내보내기 – 단계별 가이드
+# Word에서 LaTeX 내보내기 – 완전 C# 튜토리얼
 
-Ever wondered **Word에서 LaTeX를 내보내는 방법** without losing any of those tricky Office Math equations? You're not the only one. Many developers hit a wall when they try to *Word를 LaTeX로 변환* for academic papers, scientific reports, or automated publishing pipelines.  
+Word 문서에서 수식이 손실되지 않게 **LaTeX 내보내는 방법**을 궁금해 본 적 있나요? 혼자가 아닙니다. 많은 개발자들이 Office Math가 포함된 .docx 파일을 깔끔한 LaTeX으로 변환하면서 동시에 **Word를 txt로 변환**해야 합니다. 이 가이드에서는 **테이블 보존**을 포함한 실용적이고 바로 실행 가능한 솔루션을 단계별로 안내하고, 텍스트 파일을 제공하며 LaTeX 마크업을 필요한 위치에 그대로 유지합니다.
 
-In this tutorial we’ll walk through a complete, ready‑to‑run C# example that shows **LaTeX 내보내는 방법** using Aspose.Words, explains **txt 파일 저장 방법** with LaTeX markup, and even covers the nuances of **Word 수식을 LaTeX로 변환** so nothing gets lost in translation.
-
-> **팁:** The same approach works for any .docx you have—just point the code at a different file path.
-
----
+우리는 파일 로드부터 `TxtSaveOptions` 조정까지 모든 과정을 다룰 것이며, 최종적으로 **docx를 txt로 저장**, **Word를 일반 텍스트로 변환**, 그리고 **테이블 보존 방법**을 알 수 있게 됩니다. 외부 스크립트 없이, 수동 복사‑붙여넣기 없이—그냥 순수 C# 코드만 있으면 .NET 프로젝트 어디에든 바로 넣어 사용할 수 있습니다.
 
 ## 필요 사항
 
-Before we dive in, make sure you have the following prerequisites:
+- **Aspose.Words for .NET** (최신 버전, 2024.x 이상). NuGet 패키지는 `Aspose.Words`입니다.
+- .NET 개발 환경 (Visual Studio, VS Code, Rider—어느 것이든 상관없음).
+- Office Math 수식과 최소 하나의 테이블을 포함한 Word 파일(`.docx`) (테이블 보존 마법을 확인하기 위해).
 
-| Prerequisite | Why it matters |
-|--------------|----------------|
-| **.NET 6.0+** (or .NET Framework 4.6+) | Aspose.Words는 최신 .NET 런타임을 대상으로 합니다. |
-| **Aspose.Words for .NET** NuGet package (`Aspose.Words`) | 이 라이브러리는 Word를 파싱하고 LaTeX를 생성하는 복잡한 작업을 수행합니다. |
-| **A sample .docx** containing at least one Office Math equation | LaTeX 변환이 실제로 어떻게 이루어지는지 확인할 수 있습니다. |
-| **Visual Studio 2022** (or any IDE you like) | 샘플을 디버깅하고 실행하는 것이 간단해집니다. |
-
-If you haven’t installed the NuGet package yet, run:
-
-```bash
-dotnet add package Aspose.Words
-```
-
-That’s it—no extra DLLs, no COM interop, just a clean managed library.
+그게 전부입니다. 이미 준비되어 있다면 계속 읽으세요; 그렇지 않다면 NuGet 패키지를 가져오고 샘플 DOCX 파일을 준비한 뒤 아래로 진행하세요.
 
 ---
 
-## Word에서 LaTeX 내보내기 – 개요
+## Word 문서에서 LaTeX 내보내기
 
-Below is the big picture of what we’ll accomplish:
+아래는 튜토리얼의 핵심—세 가지 간결한 단계로 **LaTeX 내보내는 방법**을 답변하고, 동시에 **Word를 txt로 변환**, **Word를 일반 텍스트로 변환**, **docx를 txt로 저장**, 그리고 **테이블 보존 방법**을 처리합니다.
 
-1. **로드** the source Word document (`.docx`).  
-2. **구성** `TxtSaveOptions` so that any Office Math objects are emitted as LaTeX code.  
-3. **저장** the document as a plain‑text (`.txt`) file that you can feed directly into any LaTeX compiler.
+### 단계 1: DOCX 파일 로드
 
-![Word에서 LaTeX 내보내기 예시](image.png "Word에서 LaTeX 내보내기")
-
----
-
-## 단계 1: Word 문서 로드
-
-First things first—open the .docx you want to convert. The `Document` class abstracts away all the underlying XML, giving you a friendly object model.
+먼저 Word 문서를 `Aspose.Words.Document` 객체로 읽어야 합니다. 이 단계는 나중에 **Word를 txt로 변환**하거나 **docx를 txt로 저장**할 때도 동일합니다.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-// Replace with the actual path to your .docx file
-string inputPath = @"C:\MyProjects\WordSamples\input.docx";
+// Replace with the path to your source file
+string inputPath = @"C:\Samples\input.docx";
 
-// Load the document into memory
 Document doc = new Document(inputPath);
 ```
 
-**왜 중요한가:**  
-Loading the file early lets us inspect its contents (e.g., count equations) before we decide how to serialize it. If the file is corrupted, `Document` will throw a clear exception, saving you from mysterious output later.
+> **왜 중요한가:** 파일을 로드하면 모든 Word 요소—단락, 테이블, Office Math 객체—가 메모리 내에 표현됩니다. 이 객체 없이는 내보내기 옵션을 조작할 수 없습니다.
 
----
+### 단계 2: LaTeX 및 테이블 레이아웃을 위한 `TxtSaveOptions` 구성
 
-## 단계 2: LaTeX 내보내기를 위한 TxtSaveOptions 구성
+`TxtSaveOptions` 클래스는 일반 텍스트 파일이 어떻게 생성될지를 정확히 제어할 수 있게 해줍니다. 우리 시나리오에 핵심이 되는 두 속성은 다음과 같습니다.
 
-The magic happens in `TxtSaveOptions`. By setting `OfficeMathExportMode` to `LaTeX`, every Office Math object is transformed into its corresponding LaTeX representation.
+| Property | What it does | Why you need it |
+|----------|--------------|-----------------|
+| `OfficeMathExportMode` | Office Math가 어떻게 렌더링되는지를 결정합니다. `LaTeX`로 설정하면 수식이 LaTeX 구문으로 변환됩니다. | 이것이 **LaTeX 내보내는 방법**의 핵심입니다. |
+| `PreserveTableLayout` | `true`이면 Aspose가 공백을 추가해 테이블이 격자 형태로 보이게 합니다. | **테이블 보존 방법**을 만족하면서 **Word를 txt로 변환**할 때 유용합니다. |
 
 ```csharp
-// Prepare save options – this is where we tell Aspose to emit LaTeX for equations
-TxtSaveOptions txtOptions = new TxtSaveOptions
+TxtSaveOptions saveOptions = new TxtSaveOptions
 {
-    // Export Office Math equations as LaTeX strings
+    // Export all Office Math as LaTeX code
     OfficeMathExportMode = OfficeMathExportMode.LaTeX,
-    
-    // Optional: preserve line breaks exactly as they appear in Word
-    PreserveTableLayout = true,
-    
-    // Optional: specify UTF‑8 encoding (important for special symbols)
-    Encoding = System.Text.Encoding.UTF8
+
+    // Keep tables readable in the plain‑text output
+    PreserveTableLayout = true
 };
 ```
 
-**왜 이러한 설정을 선택했는가:**  
+> **Pro tip:** 테이블 형식 없이 순수 LaTeX만 필요하면 `PreserveTableLayout`을 `false`로 설정하세요. 파일 크기는 작아지지만 시각적인 테이블 표시가 사라집니다.
 
-- `OfficeMathExportMode.LaTeX`는 정확한 수학적 변환을 보장하는 유일한 모드입니다.  
-- `PreserveTableLayout`은 테이블을 Word와 동일하게 유지해, 나중에 LaTeX `tabular` 환경에 삽입할 때 유용합니다.  
-- UTF‑8은 “α”, “β”, “∑”와 같은 문자가 라운드‑트립을 통해 손실되지 않도록 합니다.
+### 단계 3: 문서를 일반 텍스트로 저장
 
-If you ever need to **Word를 LaTeX로 변환** without the plain‑text wrapper, you could switch to `SaveFormat.LaTeX` instead—just a quick tip for advanced scenarios.
-
----
-
-## 단계 3: 문서를 텍스트 파일로 저장
-
-Now we write the LaTeX‑rich text to disk. The resulting `.txt` can be renamed to `.tex` later, or piped directly into a LaTeX compiler.
+이제 정의한 옵션을 사용해 문서를 `.txt` 파일로 저장합니다. 이 한 줄로 **Word를 일반 텍스트로 변환**, **docx를 txt로 저장**, 그리고 물론 **LaTeX 내보내는 방법**을 한 번에 수행합니다.
 
 ```csharp
-// Destination file – you can change the extension to .tex if you prefer
-string outputPath = @"C:\MyProjects\WordSamples\output.txt";
+// Output path – change as needed
+string outputPath = @"C:\Samples\output.txt";
 
-// Save using the configured options
-doc.Save(outputPath, txtOptions);
-
-Console.WriteLine($"✅ LaTeX export complete! File saved to: {outputPath}");
+doc.Save(outputPath, saveOptions);
 ```
 
-**`output.txt`에 표시되는 내용:**  
+호출이 끝난 후 `output.txt`를 열어 보면:
 
-```
-\begin{equation}
-E = mc^{2}
-\end{equation}
-```
+- 모든 Office Math 수식에 대해 `\frac{a}{b}`와 같은 LaTeX 스니펫이 표시됩니다.
+- `|`와 `-` 문자로 렌더링된 테이블이 열 정렬을 유지합니다.
+- 일반 단락은 순수 텍스트로, downstream 파서에서 바로 사용할 수 있습니다.
 
-All other paragraphs appear as plain text, while any Office Math equation is wrapped in a LaTeX `equation` environment (or `inline` if it was inline in Word). This satisfies the **Word 수식을 LaTeX로 변환** requirement perfectly.
+### 전체 작업 예제
 
----
-
-## 엣지 케이스 및 흔히 묻는 질문
-
-| Situation | What to do |
-|-----------|------------|
-| **소스에 수식이 없음** | 변환은 여전히 작동합니다; 단순히 일반 텍스트만 얻습니다. 추가 LaTeX 코드는 삽입되지 않습니다. |
-| **매우 큰 문서 (>100 MB)** | `MemoryStream`을 사용해 출력을 스트리밍하면 메모리 사용량을 줄일 수 있습니다. |
-| **지원되지 않는 수학 구성** | Aspose.Words는 Office Math의 99 %를 지원합니다. 드문 경우에는 LaTeX를 수동으로 후처리해야 할 수 있습니다. |
-| **.txt 대신 .tex 파일이 필요** | `outputPath`를 `.tex`로 끝나게 변경하고, 필요에 따라 `txtOptions.Encoding`을 `Encoding.UTF8`로 설정합니다. |
-| **Linux/macOS에서 실행** | 동일한 코드가 작동합니다—파일 경로에 슬래시를 사용하거나 `Path.Combine`을 사용하세요. |
-
----
-
-## LaTeX 수식이 포함된 TXT 저장 방법 – 빠른 요약
-
-1. **로드** the .docx (`Document`).  
-2. **설정** `TxtSaveOptions`에서 `OfficeMathExportMode = LaTeX`.  
-3. **저장** the file (`doc.Save`) with those options.
-
-That’s the entire workflow to **txt 파일 저장 방법** files that contain LaTeX‑formatted equations.
-
----
-
-## 보너스: 여러 파일에 대한 변환 자동화
-
-If you have a folder full of Word docs, wrap the above logic in a simple loop:
+모두 합치면 오늘 바로 컴파일하고 실행할 수 있는 독립형 프로그램은 다음과 같습니다:
 
 ```csharp
-string sourceFolder = @"C:\MyProjects\WordSamples\Batch";
-string destFolder   = @"C:\MyProjects\WordSamples\BatchOutput";
+using System;
+using Aspose.Words;
+using Aspose.Words.Saving;
 
-foreach (var file in Directory.GetFiles(sourceFolder, "*.docx"))
+class ExportLatexDemo
 {
-    Document batchDoc = new Document(file);
-    string fileName = Path.GetFileNameWithoutExtension(file);
-    string outPath  = Path.Combine(destFolder, $"{fileName}.txt");
+    static void Main()
+    {
+        // 1️⃣ Load the source DOCX
+        string inputPath = @"C:\Samples\input.docx";
+        Document doc = new Document(inputPath);
 
-    batchDoc.Save(outPath, txtOptions);
-    Console.WriteLine($"Converted {fileName}.docx → {fileName}.txt");
+        // 2️⃣ Configure export options for LaTeX and tables
+        TxtSaveOptions options = new TxtSaveOptions
+        {
+            OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+            PreserveTableLayout = true
+        };
+
+        // 3️⃣ Save as plain‑text (this is the step that does the conversion)
+        string outputPath = @"C:\Samples\output.txt";
+        doc.Save(outputPath, options);
+
+        Console.WriteLine($"✅ Done! LaTeX exported and tables preserved at: {outputPath}");
+    }
 }
 ```
 
-Now you can **Word를 LaTeX로 대량 변환** in bulk—perfect for research groups that receive dozens of manuscripts daily.
+**예상 출력** (발췌):
+
+```
+This is a sample paragraph.
+
+| Column A | Column B |
+|----------|----------|
+| 1        | 2        |
+| 3        | 4        |
+
+Here is an equation in LaTeX:
+\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+```
+
+테이블이 격자를 유지하고 수식이 깔끔한 LaTeX으로 나타나는 것을 확인하세요. 이것이 **Word를 txt로 변환**하면서 구조와 수학을 모두 충실히 표현할 수 있는 최적점입니다.
+
+---
+
+## Word를 TXT로 변환하고 테이블을 보존하기 위한 팁
+
+세 단계 접근법이 대부분의 경우에 잘 작동하지만, 실제 프로젝트에서는 다양한 예외 상황이 발생합니다. 아래는 **Word를 일반 텍스트로 변환** 파이프라인을 견고하게 만드는 실용적인 제안들입니다.
+
+### 일관된 인코딩 사용
+
+`TxtSaveOptions`는 기본값이 UTF‑8이며 대부분의 문자를 처리합니다. 다른 코드 페이지가 필요하면(예: 레거시 시스템이 Windows‑1252를 기대하는 경우) `Encoding` 속성을 설정하세요:
+
+```csharp
+options.Encoding = System.Text.Encoding.GetEncoding(1252);
+```
+
+### 불필요한 공백 제거
+
+열이 많은 테이블은 긴 라인을 생성할 수 있습니다. 저장 후 파일을 후처리해 여러 개의 공백을 하나의 탭으로 축소하면 좋습니다:
+
+```csharp
+string content = System.IO.File.ReadAllText(outputPath);
+content = System.Text.RegularExpressions.Regex.Replace(content, @" {2,}", "\t");
+System.IO.File.WriteAllText(outputPath, content);
+```
+
+### 중첩 테이블 처리
+
+DOCX에 테이블 안에 테이블이 들어 있는 경우, `PreserveTableLayout`은 시각적 계층을 유지하지만 들여쓰기가 어색해 보일 수 있습니다. 빠른 해결책은 선행 공백을 사용자 정의 마커(예: `>>`)로 교체해 downstream 파서가 중첩 수준을 감지하도록 하는 것입니다.
+
+### 다수 파일 일괄 처리
+
+수십 개의 문서에 대해 **Word를 txt로 변환**해야 할 때는 로직을 루프로 감싸세요:
+
+```csharp
+foreach (var file in Directory.GetFiles(@"C:\Samples", "*.docx"))
+{
+    Document d = new Document(file);
+    string outFile = Path.ChangeExtension(file, ".txt");
+    d.Save(outFile, options);
+}
+```
+
+이렇게 하면 수동 개입 없이 **docx를 txt로 저장**을 대량으로 수행할 수 있습니다.
+
+---
+
+## 흔히 발생하는 실수와 회피 방법
+
+1. **Missing LaTeX Export Mode** – `OfficeMathExportMode = OfficeMathExportMode.LaTeX` 설정을 잊으면 수식이 일반 텍스트(예: “Equation 1”)로 돌아갑니다. 옵션 블록을 항상 재확인하세요.  
+2. **Table Layout Gets Lost** – `PreserveTableLayout`을 `false`로 두는 것이 기본값입니다. 출력이 텍스트 벽처럼 보이면 플래그를 토글하지 않은 것이 원인일 수 있습니다.  
+3. **File Paths with Spaces** – 원시 문자열(`@"C:\My Folder\input.docx"`)을 사용하면 이스케이프 문제를 피할 수 있습니다. 그렇지 않으면 `FileNotFoundException`이 발생합니다.  
+4. **Version Mismatch** – 오래된 Aspose.Words 버전(< 21.9)에서는 `OfficeMathExportMode`를 지원하지 않습니다. 최신 패키지로 업그레이드해 **LaTeX 내보내는 방법**이 정상 작동하도록 하세요.  
+5. **Encoding Errors for Non‑ASCII Characters** – `�` 기호가 보이면 `options.Encoding`을 UTF‑8 또는 적절한 코드 페이지로 명시적으로 설정하세요.
+
+---
+
+## 솔루션 확장: TXT에서 Markdown 또는 HTML로
+
+때로는 일반 텍스트보다 더 필요할 수 있습니다—예를 들어 LaTeX 블록을 포함한 Markdown 파일이 필요할 때. 동일한 `TxtSaveOptions`를 `HtmlSaveOptions` 또는 `MarkdownSaveOptions`로 교체하면 됩니다:
+
+```csharp
+var mdOptions = new MarkdownSaveOptions
+{
+    ExportDocumentStructure = true,
+    OfficeMathExportMode = OfficeMathExportMode.LaTeX
+};
+doc.Save("output.md", mdOptions);
+```
+
+이 작은 변경만으로 **Word를 txt 스타일 출력**을 유지하면서도 원하는 Markdown 구문을 사용할 수 있습니다.
 
 ---
 
 ## 결론
 
-We’ve covered **Word에서 LaTeX를 내보내는 방법** step‑by‑step, demonstrated **txt 파일 저장 방법** that preserve every Office Math equation, and even showed you how to **Word 수식을 LaTeX로 변환** without losing fidelity.  
+우리는 Word 문서에서 **LaTeX 내보내는 방법**에 대한 완전하고 프로덕션 수준의 답변을 살펴보았으며, 동시에 **Word를 txt로 변환**, **Word를 일반 텍스트로 변환**, **docx를 txt로 저장**, 그리고 **테이블 보존 방법**을 보여주었습니다. 핵심 요점은 다음과 같습니다.
 
-With just a few lines of C# and the powerful Aspose.Words library, you can turn any .docx into LaTeX‑ready text, ready for inclusion in scientific papers, textbooks, or automated publishing pipelines.  
+- `Aspose.Words.Document`로 DOCX를 로드합니다.  
+- `TxtSaveOptions.OfficeMathExportMode = LaTeX`와 `PreserveTableLayout = true`를 설정합니다.  
+- `doc.Save(outputPath, options)`를 호출해 LaTeX가 풍부한 깔끔한 일반 텍스트 파일을 얻습니다.
 
-**다음 단계?** Try feeding the generated `.txt` (or rename it to `.tex`) into `pdflatex` or `xelatex` to produce a PDF, or explore the `SaveFormat.LaTeX` option for a direct `.tex` file. If you need to **docx를 txt로 저장** while preserving formatting, experiment with `PreserveTableLayout` and custom line‑break handling.
+직접 파일에 적용해 보고, 인코딩 조정을 실험해 보며, 폴더 전체를 일괄 처리해 보세요. 중첩 테이블, 특수 문자, 오래된 Aspose 버전 등 예외 상황이 발생하면 “팁”과 “실수 회피” 섹션을 다시 참고하면 빠르게 해결할 수 있습니다.
 
-Got questions about edge cases, licensing, or performance tweaks? Drop a comment below—happy
+다음 단계가 준비됐나요? 동일한 DOCX를 Markdown으로 변환하거나, 생성된 `.txt`를 LaTeX를 웹에서 렌더링하는 정적 사이트 생성기에 연결해 보세요. 가능성은 무한하며, 이제 **Word를 txt로 변환** 워크플로우를 위한 탄탄한 기반을 갖추었습니다.
+
+행복한 코딩 되시길, 그리고 LaTeX가 첫 시도부터 항상 컴파일되길 바랍니다!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

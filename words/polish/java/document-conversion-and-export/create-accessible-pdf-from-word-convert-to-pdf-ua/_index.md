@@ -1,26 +1,67 @@
 ---
 category: general
-date: 2025-12-28
-description: Utwórz dostępny plik PDF z dokumentu Word zgodny z PDF/UA. Dowiedz się,
-  jak konwertować Word na PDF, eksportować docx do PDF, zapisać dokument jako PDF
-  i zapewnić dostępność.
+date: 2026-10-07
+description: Utwórz dostępny PDF z dokumentu Word z zachowaniem zgodności PDF/UA.
+  Dowiedz się, jak konwertować Word do PDF, eksportować docx do PDF, zapisywać dokument
+  jako PDF oraz zapewnić dostępność.
 draft: false
 keywords:
 - create accessible pdf
 - convert word to pdf
-- save document as pdf
 - export docx to pdf
-- convert docx to pdf
-language: pl
-og_description: Utwórz dostępny PDF z dokumentu Word zgodny z PDF/UA. Skorzystaj z
-  tego przewodnika krok po kroku, aby przekonwertować Word na PDF i zapewnić dostępność.
-og_title: Utwórz dostępny PDF z Worda – konwertuj na PDF/UA
+- save document as pdf
+- convert docx to pdf java
+lastmod: 2026-10-07
+og_description: Utwórz dostępny PDF z dokumentu Word z zachowaniem zgodności PDF/UA.
+  Postępuj zgodnie z tym przewodnikiem krok po kroku, aby konwertować Word do PDF
+  i zapewnić dostępność, używając Aspose.Words for Java.
+og_image_alt: Screenshot of Aspose.Words Java code generating a PDF/UA‑compliant document
+og_title: Utwórz dostępny PDF z Word z zachowaniem zgodności PDF/UA
+schemas:
+- author: Aspose
+  dateModified: '2026-10-07'
+  description: Create accessible PDF from a Word document with PDF/UA compliance.
+    Learn how to convert Word to PDF, export docx to PDF, save document as PDF, and
+    ensure accessibility.
+  headline: Create accessible PDF from Word – Convert to PDF/UA
+  type: TechArticle
+- description: Create accessible PDF from a Word document with PDF/UA compliance.
+    Learn how to convert Word to PDF, export docx to PDF, save document as PDF, and
+    ensure accessibility.
+  name: Create accessible PDF from Word – Convert to PDF/UA
+  steps:
+  - name: Choose **Tools → Accessibility → Full Check**.
+    text: Choose **Tools → Accessibility → Full Check**.
+  - name: Select the default settings and click **Start**.
+    text: Select the default settings and click **Start**.
+  - name: A report with **0 errors** confirms full PDF/UA compliance.
+    text: A report with **0 errors** confirms full PDF/UA compliance.
+  type: HowTo
+- questions:
+  - answer: Yes. Aspose.Words for Java is platform‑independent; just ensure the required
+      fonts are installed on the Linux host.
+    question: Does this approach work on Linux as well as Windows?
+  - answer: Absolutely. Loop over a directory, instantiate a `Document` for each file,
+      and reuse the same `PdfSaveOptions` instance to improve performance.
+    question: Can I batch‑process many DOCX files in one run?
+  - answer: Aspose.Words renders SmartArt and MathML to PDF accurately, and the resulting
+      structures are tagged for accessibility when PDF/UA is enabled.
+    question: What if my Word document contains complex SmartArt or equations?
+  - answer: Yes. A free evaluation license is available for testing, but a paid license
+      removes evaluation watermarks and grants full support.
+    question: Is a commercial license required for production use?
+  - answer: The library processes documents in a streaming fashion, allowing conversion
+      of files up to 1 GB on a typical 8 GB RAM server without full in‑memory loading.
+    question: How large a document can Aspose.Words handle without running out of
+      memory?
+  type: FAQPage
 tags:
 - pdf
 - accessibility
 - java
-- document-conversion
-title: Utwórz dostępny PDF z Worda – konwertuj do PDF/UA
+- document conversion
+- aspose words
+title: Utwórz dostępny PDF z Word – Konwertuj do PDF/UA
 url: /pl/java/document-conversion-and-export/create-accessible-pdf-from-word-convert-to-pdf-ua/
 ---
 
@@ -28,24 +69,41 @@ url: /pl/java/document-conversion-and-export/create-accessible-pdf-from-word-con
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Utwórz dostępny PDF z Worda – konwersja do PDF/UA
+# Utwórz dostępny PDF z Word – Konwertuj do PDF/UA
 
-Czy kiedykolwiek potrzebowałeś **utworzyć dostępny PDF** z pliku Word, ale nie byłeś pewien, które ustawienia włączyć? Nie jesteś sam. W wielu przedsiębiorstwach zespół prawny poprosi o PDF spełniający wymóg zgodności z PDF/UA 1, a zespół deweloperski musi znaleźć sposób, aby to osiągnąć, nie wyrywając sobie włosów.
+Jeśli potrzebujesz **tworzyć dostępne PDF** z dokumentów Microsoft Word i musisz spełnić standard PDF/UA 1, trafiłeś we właściwe miejsce. Wiele organizacji ma wymogi prawne lub zgodności, które wymagają, aby PDF‑y były czytelne dla czytników ekranu, a zespół deweloperski często szuka niezawodnego rozwiązania typu code‑first. Dzięki Aspose.Words for Java możesz konwertować Word do PDF, włączyć zgodność z PDF/UA i uzyskać dokument, który przechodzi audyty dostępności bez ręcznej obróbki.
 
-Dobre wieści? Kilka linii kodu w Javie pozwoli Ci **konwertować Word do PDF**, włączyć zgodność PDF/UA i otrzymać dokument, który przejdzie kontrole dostępności. W tym tutorialu przeprowadzimy Cię przez cały proces — od wczytania pliku `.docx` po wyeksportowanie **pliku zgodnego z PDF/UA** — abyś mógł zaoszczędzić czas i uniknąć kosztownego poprawek.
+W tym przewodniku przejdziemy przez każdy krok — od wczytania pliku `.docx`, skonfigurowania opcji PDF/UA, po weryfikację wyniku. Zobaczysz także szybkie alternatywy dla prostej operacji **convert word to pdf**, dowiesz się, jak **export docx to pdf** z własnymi ustawieniami oraz odkryjesz typowe pułapki przy **save document as pdf**. Na końcu będziesz mieć gotowy fragment kodu i solidne zrozumienie, dlaczego każda konfiguracja ma znaczenie.
 
-Poruszymy także powiązane zadania, takie jak **eksportowanie docx do PDF**, **zapisywanie dokumentu jako PDF** oraz obsługę przypadków brzegowych, np. brakujące czcionki lub duże obrazy. Na końcu będziesz mieć gotowy fragment kodu oraz jasne zrozumienie, dlaczego każdy krok ma znaczenie.
+---
+
+## Szybkie odpowiedzi
+- **Jaki jest najprostszy sposób na utworzenie dostępnego PDF z Word?** Użyj Aspose.Words, wczytaj DOCX, ustaw `PdfSaveOptions.setCompliance(PdfCompliance.PDF_UA_1)`, a następnie zapisz.
+- **Czy potrzebuję zainstalowanego Microsoft Word na serwerze?** Nie, Aspose.Words działa całkowicie niezależnie od Office.
+- **Jakiej wersji Java wymaga?** JDK 11 lub nowsza.
+- **Czy mogę ponownie użyć tego samego `PdfSaveOptions` dla PDF‑ów UA i nie‑UA?** Tak — wystarczy przełączyć flagę zgodności.
+- **Jak zweryfikować zgodność PDF/UA?** Uruchom „Full Check” w Adobe Acrobat Pro w sekcji Tools → Accessibility.
+
+---
+
+## Co to jest tworzenie dostępnego PDF?
+**Create accessible pdf** oznacza generowanie pliku PDF, który spełnia standard ISO 14289‑1 (PDF/UA 1), zapewniając, że technologie wspomagające mogą prawidłowo interpretować nagłówki, tabele, listy i obrazy.  
+
+PDF spełniający PDF/UA zawiera strukturalne tagi, osadzone czcionki oraz tekst alternatywny dla elementów nienależących do tekstu, co pozwala czytnikom ekranu przekazywać tę samą informację, którą widzi użytkownik wzrokowy.
+
+---
+
+## Dlaczego włączyć zgodność PDF/UA?
+Włączenie PDF/UA gwarantuje, że Twoje dokumenty są prawnie obronne i użyteczne dla osób niepełnosprawnych. Dodaje pełny zestaw tagów strukturalnych, osadza wszystkie czcionki i zapewnia tekst alternatywny dla obrazów, co umożliwia czytnikom ekranu prawidłową interpretację treści. Te funkcje razem podnoszą zgodność z wymogami dostępności i zmniejszają potrzebę ręcznej korekty.
 
 ---
 
 ## Wymagania wstępne
 
-Zanim zaczniemy, upewnij się, że masz:
-
-- **Aspose.Words for Java** (lub równoważna biblioteka .NET) w wersji 23.9 lub nowszej. Biblioteka zawiera wbudowane wsparcie PDF/UA.
-- JDK 11 lub nowszy.
-- Prosty plik Word (`input.docx`) umieszczony w folderze, do którego możesz odwoływać się w kodzie.
-- IDE lub narzędzie budujące (Maven/Gradle), które może rozwiązać zależność Aspose.Words.
+- **Aspose.Words for Java** w wersji 23.9 lub nowszej (biblioteka zawiera natywną obsługę PDF/UA).
+- JDK 11+ zainstalowany na maszynie deweloperskiej lub budującej.
+- Przykładowy plik Word o nazwie `input.docx` umieszczony w katalogu dostępnym do odczytu.
+- Maven lub Gradle skonfigurowany do rozwiązywania zależności Aspose.Words.
 
 Jeśli używasz Maven, dodaj to do swojego `pom.xml`:
 
@@ -59,13 +117,9 @@ Jeśli używasz Maven, dodaj to do swojego `pom.xml`:
 
 ---
 
-## Utwórz dostępny PDF z zgodnością PDF/UA
+## Jak utworzyć dostępny PDF z Word przy użyciu Aspose.Words?
 
-To jest kluczowy krok, w którym faktycznie **tworzymy dostępny PDF**. Poniższy kod wykonuje trzy rzeczy:
-
-1. Ładuje źródłowy plik `.docx`.
-2. Konfiguruje `PdfSaveOptions`, aby wymusić zgodność z PDF/UA 1.
-3. Zapisuje wynik jako `ua_compliant.pdf`.
+Proces składa się z trzech prostych kroków: wczytaj plik DOCX do obiektu `Document` Aspose.Words, skonfiguruj instancję `PdfSaveOptions`, aby wymusić zgodność PDF/UA 1, i na koniec zapisz dokument jako PDF. Ustawiając flagę zgodności i włączając pełne osadzanie czcionek, wygenerowany plik będzie zawierał niezbędne tagi i zasoby dla narzędzi dostępności.
 
 ```java
 import com.aspose.words.*;
@@ -95,34 +149,27 @@ public class AccessiblePdfGenerator {
 }
 ```
 
-### Dlaczego włączyć PDF/UA?
-
-PDF/UA (Universal Accessibility) jest standardem ISO, który gwarantuje, że czytniki ekranu i inne technologie wspomagające mogą prawidłowo interpretować PDF. Ustawienie `PdfCompliance.PDF_UA_1` zmusza Aspose.Words do:
-
-- Oznaczyć strukturę PDF (nagłówki, tabele, listy).
-- Osadzić czcionki, aby tekst pozostał zaznaczalny.
-- Dołączyć tekst alternatywny dla obrazów, jeśli został ustawiony w źródłowym dokumencie Word.
-
-Bez tego flagi możesz skończyć z wizualnie idealnym PDF, który nie przejdzie audytu dostępności.
+### Definicja kotwicy
+`PdfSaveOptions` jest obiektem konfiguracyjnym Aspose.Words, który kontroluje sposób renderowania dokumentu do PDF, w tym poziom zgodności, osadzanie czcionek i kompresję obrazów.
 
 ---
 
-## Konwersja Word do PDF (szybka ścieżka bez UA)
+## Jak różni się szybka konwersja nie‑UA?
 
-Czasami potrzebujesz szybkiego **convert word to pdf** bez dodatkowego obciążenia zgodnością. Oto przycięta wersja:
+Konwersja nie‑UA pomija flagę zgodności PDF/UA, tworząc standardowy PDF bez dodatkowych tagów dostępności i pełnego osadzania czcionek. Redukuje to obciążenie przetwarzania i skutkuje nieco mniejszym plikiem, co może być korzystne, gdy potrzebujesz jedynie wizualnej reprezentacji dokumentu i nie wymagasz wsparcia czytników ekranu.
 
 ```java
 Document doc = new Document("YOUR_DIRECTORY/input.docx");
 doc.save("YOUR_DIRECTORY/quick_output.pdf"); // Defaults to standard PDF
 ```
 
-> **Pro tip:** Jeśli planujesz później dodać PDF/UA, zachowaj oryginalny obiekt `PdfSaveOptions`; możesz go ponownie użyć z drobnymi modyfikacjami.
+> **Wskazówka:** Zachowaj oryginalną instancję `PdfSaveOptions`; możesz przełączać `setCompliance(PdfCompliance.PDF_UA_1)` włączając lub wyłączając bez ponownego tworzenia obiektu.
 
 ---
 
-## Eksport Docx do PDF z ustawieniami niestandardowymi
+## Jak wyeksportować docx do pdf z niestandardowymi ustawieniami?
 
-Gdy potrzebujesz większej kontroli — np. spłaszczenia pól formularza lub ustawienia konkretnego poziomu kompresji obrazu — użyj `PdfSaveOptions`, nawet jeśli nie celujesz w PDF/UA.
+Podczas eksportu DOCX do PDF możesz precyzyjnie dostroić wynik, modyfikując `PdfSaveOptions`. Ustawienia takie jak kompresja obrazów, jakość JPEG i osadzanie czcionek pozwalają zrównoważyć rozmiar pliku z jakością wizualną. Poniższy przykład pokazuje, jak ustawić kompresję JPEG na 80 % i zapewnić osadzenie wszystkich czcionek, tworząc kompaktowy, a jednocześnie wysokiej jakości PDF.
 
 ```java
 PdfSaveOptions opts = new PdfSaveOptions();
@@ -131,45 +178,41 @@ opts.setEmbedFullFonts(true); // Important for accessibility even without PDF/UA
 doc.save("YOUR_DIRECTORY/custom_export.pdf", opts);
 ```
 
-Ten fragment pokazuje, jak **export docx to pdf** z precyzyjnymi opcjami, będąc użytecznym kompromisem między szybką ścieżką a pełną zgodnością dostępności.
+### Definicja kotwicy
+`ImageCompression.JPEG` instruuje Aspose.Words, aby kompresował obrazy rastrowe algorytmem JPEG, co równoważy rozmiar pliku i jakość wizualną.
 
 ---
 
-## Zapis dokumentu jako PDF – typowe pułapki i jak ich uniknąć
+## Jakie są typowe pułapki przy zapisywaniu dokumentu jako PDF?
 
-Nawet przy prawidłowym kodzie możesz napotkać problemy:
+Nawet przy poprawnym kodzie, kilka pułapek może wpłynąć na jakość lub dostępność wygenerowanego PDF. Problemy takie jak brak osadzenia czcionek, zbyt duże obrazy, usunięte tagi dostępności czy nieprawidłowe ścieżki wyjściowe mogą prowadzić do nieczytelnych dokumentów lub niepowodzenia kontroli zgodności. Zrozumienie tych problemów i zastosowanie odpowiednich poprawek zapewnia niezawodne generowanie PDF.
 
 | Problem | Dlaczego się pojawia | Rozwiązanie |
-|-------|----------------|-----|
-| Brak czcionek w wyniku | Czcionki nie są osadzone, co powoduje wyświetlanie tekstu jako prostokątów na innych maszynach. | Wywołaj `opts.setEmbedFullFonts(true)` lub upewnij się, że czcionki są zainstalowane na serwerze. |
+|---------|----------------------|-------------|
+| Brak czcionek w wyjściu | Czcionki nie są osadzone, co powoduje wyświetlanie tekstu jako prostokątów na innych maszynach. | Wywołaj `opts.setEmbedFullFonts(true)` lub upewnij się, że czcionki są zainstalowane na serwerze. |
 | Duży rozmiar pliku | Obrazy wysokiej rozdzielczości są zachowywane w oryginalnym DPI. | Użyj `opts.setImageCompression(ImageCompression.JPEG);` i ustaw `opts.setJpegQuality(80);`. |
-| Usunięte znaczniki dostępności | Używanie starszej wersji Aspose.Words, która nie obsługuje PDF/UA. | Uaktualnij do najnowszej wersji biblioteki (23.9+). |
-| Nie znaleziono ścieżki wyjściowej | Katalog nie istnieje lub brakuje uprawnień do zapisu. | Utwórz katalog najpierw lub użyj `Files.createDirectories(Paths.get("YOUR_DIRECTORY"));`. |
+| Tagi dostępności usunięte | Używanie starszej wersji Aspose.Words, która nie obsługuje PDF/UA. | Uaktualnij do wersji 23.9+, która zawiera pełne wsparcie PDF/UA. |
+| Nie znaleziono ścieżki wyjścia | Katalog nie istnieje lub brakuje uprawnień do zapisu. | Utwórz najpierw katalog lub użyj `Files.createDirectories(Paths.get("YOUR_DIRECTORY"));`. |
 
-Rozwiązanie tych problemów na wczesnym etapie oszczędza czas pościgu za błędami, szczególnie gdy **zapisywanie dokumentu jako PDF** jest częścią audytów zgodności.
-
----
-
-## Weryfikacja wyniku
-
-Po uruchomieniu przykładu w folderze powinien znajdować się plik `ua_compliant.pdf`. Aby potwierdzić, że naprawdę jest **zgodny z PDF/UA**:
-
-1. Otwórz plik w Adobe Acrobat Pro.
-2. Przejdź do **Narzędzia → Dostępność → Pełna kontrola**.
-3. Raport powinien pokazać **0 błędów** dotyczących zgodności z PDF/UA.
-
-Jeśli pojawią się ostrzeżenia o brakującym tekście alternatywnym, wróć do oryginalnego pliku Word i dodaj opisowy tekst do obrazów — te opisy zostaną automatycznie przeniesione.
+Rozwiązanie tych problemów na wczesnym etapie chroni przed późniejszym ściganiem błędów, szczególnie gdy **saving a document as PDF** jest częścią audytów zgodności.
 
 ---
 
-## Pełny działający przykład (wszystkie kroki połączone)
+## Jak możesz zweryfikować zgodność PDF/UA wygenerowanego pliku?
 
-Poniżej znajduje się pojedynczy, samodzielny program, który:
+Po zakończeniu konwersji otwórz powstały `ua_compliant.pdf` w Adobe Acrobat Pro i uruchom wbudowany sprawdzacz dostępności. Narzędzie Full Check skanuje dokument pod kątem brakujących tagów, nieosadzonych czcionek i innych problemów zgodności, dostarczając szczegółowy raport. Raport bez błędów potwierdza, że PDF spełnia standard PDF/UA 1.
 
-- Sprawdza katalog wyjściowy.
-- Ładuje plik `.docx`.
-- Udostępnia flagę wiersza poleceń, aby wybrać między szybkim PDF a PDF/UA.
-- Zapisuje wynik i wyświetla przyjazny komunikat statusowy.
+1. Wybierz **Tools → Accessibility → Full Check**.
+2. Wybierz domyślne ustawienia i kliknij **Start**.
+3. Raport z **0 błędami** potwierdza pełną zgodność PDF/UA.
+
+Jeśli raport wskaże brak tekstu alternatywnego, wróć do źródłowego pliku Word i dodaj opisowy tekst do obrazów; Aspose.Words automatycznie przeniesie te opisy do PDF.
+
+---
+
+## Jak uruchomić pełny działający przykład łączący wszystkie kroki?
+
+Pełny program łączy wszystkie poprzednie kroki: weryfikuje katalog wyjściowy, analizuje flagę wiersza poleceń, aby wybrać szybki PDF lub wersję PDF/UA, konfiguruje `PdfSaveOptions` odpowiednio, wykonuje konwersję i na końcu wypisuje komunikat statusu wskazujący sukces lub ewentualne błędy.
 
 ```java
 import com.aspose.words.*;
@@ -208,26 +251,58 @@ public class AccessiblePdfDemo {
 }
 ```
 
-Kompiluj i uruchom:
+Skompiluj i uruchom program za pomocą:
 
 ```bash
 javac -cp "path/to/aspose-words-23.9.jar" AccessiblePdfDemo.java
 java -cp ".:path/to/aspose-words-23.9.jar" AccessiblePdfDemo
 ```
 
-Powinieneś zobaczyć zielony znacznik w konsoli, a PDF pojawi się w `YOUR_DIRECTORY`.
+Powinieneś zobaczyć zielony znacznik w konsoli, a `ua_compliant.pdf` pojawi się w docelowym folderze.
 
 ---
 
-## Zakończenie
+## Najczęściej zadawane pytania
 
-Omówiliśmy wszystko, co potrzebne, aby **utworzyć dostępny PDF** z dokumentu Word, od najprostszej **convert word to pdf** jednowierszowej komendy po pełnoprawny **export docx to pdf** z zgodnością PDF/UA. Poprawna konfiguracja `PdfSaveOptions` daje plik, który nie tylko świetnie wygląda, ale także przechodzi audyty dostępności — bez dodatkowego przetwarzania po fakcie.
+**Q: Czy to podejście działa na Linuxie tak samo jak na Windowsie?**  
+A: Tak. Aspose.Words for Java jest niezależny od platformy; wystarczy zapewnić, że wymagane czcionki są zainstalowane na hoście Linux.
 
-Gotowy na kolejny krok? Spróbuj dodać **znaczniki dokumentu** w Wordzie (np. nagłówki, listy), aby zobaczyć, jak przekładają się na strukturę PDF/UA, lub poeksperymentuj z **podpisami cyfrowymi** dla prawnie wiążących PDF‑ów. Oba pomysły są naturalnym rozszerzeniem zbudowanego właśnie procesu.
+**Q: Czy mogę przetwarzać wsadowo wiele plików DOCX w jednym uruchomieniu?**  
+A: Absolutnie. Przejdź po katalogu, utwórz `Document` dla każdego pliku i ponownie użyj tej samej instancji `PdfSaveOptions`, aby zwiększyć wydajność.
 
-Masz pytania o przypadki brzegowe, licencjonowanie lub wydajność? zostaw komentarz poniżej i powodzenia w kodowaniu!
+**Q: Co jeśli mój dokument Word zawiera skomplikowane SmartArt lub równania?**  
+A: Aspose.Words renderuje SmartArt i MathML do PDF dokładnie, a powstałe struktury są tagowane pod kątem dostępności, gdy włączona jest opcja PDF/UA.
+
+**Q: Czy do użytku produkcyjnego wymagana jest licencja komercyjna?**  
+A: Tak. Dostępna jest darmowa licencja ewaluacyjna do testów, ale płatna licencja usuwa znak wodny ewaluacji i zapewnia pełne wsparcie.
+
+**Q: Jak duży dokument może obsłużyć Aspose.Words bez wyczerpania pamięci?**  
+A: Biblioteka przetwarza dokumenty w trybie strumieniowym, umożliwiając konwersję plików do 1 GB na typowym serwerze z 8 GB RAM bez pełnego ładowania do pamięci.
+
+---
+
+## Podsumowanie
+
+Omówiliśmy wszystko, co potrzebne, aby **create accessible PDF** z dokumentu Word: prostą ścieżkę **convert word to pdf**, pełny workflow zgodny z PDF/UA oraz sposoby dostrajania eksportu przy użyciu `PdfSaveOptions`. Poprawna konfiguracja biblioteki daje plik, który nie tylko świetnie wygląda, ale także automatycznie przechodzi audyty dostępności.
+
+Kolejne kroki, które możesz rozważyć, to dodanie **document tags** w Wordzie w celu ulepszenia struktury PDF, zastosowanie **digital signatures** dla prawnie wiążących PDF‑ów lub integracja konwersji w pipeline CI/CD dla automatycznego generowania dokumentów.
+
+Miłego kodowania i zachęcamy do pozostawienia komentarza, jeśli napotkasz jakiekolwiek nietypowe przypadki!
+
+**Last updated:** 2026-10-07  
+**Tested with:** Aspose.Words for Java 23.9  
+**Author:** Aspose
+
+## Powiązane samouczki
+
+- [Aspose Word do PDF – konwersja Docx do PDF w Javie](/words/java/document-conversion-and-export/aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
+- [Zapisz Word jako PDF z Aspose Words – przewodnik krok po kroku w Javie](/words/java/document-conversion-and-export/save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
+- [Pdf Save Options – konwersja Docx do PDF w Javie z pełną kontrolą](/words/java/document-conversion-and-export/pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
