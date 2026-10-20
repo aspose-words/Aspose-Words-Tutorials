@@ -106,6 +106,10 @@
 เรียนรู้วิธีสร้างเอกสาร Word ด้วยโค้ด Java และแทรกปุ่มโต้ตอบในเอกสาร
 ### [วิธีสร้างเอกสาร Word ว่างและเพิ่มแผนภูมิเรดาร์ใน C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
 เรียนรู้วิธีสร้างเอกสาร Word ว่างและใส่แผนภูมิเรดาร์โดยใช้ Aspose.Words for C#
+### [วิธีสร้างไฟล์ docx ที่มี ActiveX ด้วย Java และ Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+เรียนรู้วิธีสร้างไฟล์ DOCX ที่ฝัง ActiveX ด้วย Java และ Aspose.Words อย่างละเอียด
+### [วิธีแทรกแผนภูมิวงกลมลงในเอกสาร Word ด้วย Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+เรียนรู้วิธีแทรกแผนภูมิวงกลมลงในเอกสาร Word ด้วย Aspose.Words for Java อย่างง่ายดาย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

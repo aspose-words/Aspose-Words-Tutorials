@@ -36,6 +36,7 @@ Aspose.Words for Java ile Word belgelerinin yüksek kaliteli küçük resimlerin
 
 ### [Word'de Şekle Gölge Ekle – Tam Aspose.Words Kılavuzu](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Word belgelerinde şekillere gölge ekleyerek görsel çekiciliği artırmayı öğrenin.
+
 ### [C#'ta Bir Şekle Gölge Efekti Uygulama – Adım Adım Kılavuz](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 C# kullanarak bir şekle gölge efekti eklemeyi adım adım öğrenin ve belgelerinizde görsel çekiciliği artırın.
 ### [Aspose.Words'te Şekle Gölge Nasıl Eklenir – Tam Kılavuz](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
@@ -106,6 +107,12 @@ Aspose.Words kullanarak Word belgelerinde şekilleri gruplama ve dikdörtgen ekl
 
 ### [C# ve Aspose.Words ile Word'de Şekli Gizleme](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
 C# ve Aspose.Words kullanarak Word belgesindeki şekli nasıl gizleyeceğinizi öğrenin.
+
+### [Java'da Boş Word Belgesi Oluşturma ve Şekilleri Gruplama](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Java kullanarak boş bir Word belgesi oluşturmayı ve şekilleri bir grup içinde yönetmeyi öğrenin.
+
+### [Gizli bir resimle yeni Word belgesi oluşturma – adım adım kılavuz](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+Gizli bir resim ekleyerek yeni bir Word belgesi oluşturmayı adım adım öğrenin.
 
 ## Ek Kaynaklar
 

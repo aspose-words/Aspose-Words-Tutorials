@@ -51,6 +51,8 @@ Hướng dẫn chi tiết cách ký file docx bằng chứng chỉ PFX với Asp
 Hướng dẫn ký tài liệu Word bằng C# sử dụng chứng chỉ X509, bảo vệ tính toàn vẹn và xác thực.
 ### [Cách thêm chữ ký số vào tài liệu Word bằng Aspose.Words](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
 Hướng dẫn chi tiết cách chèn chữ ký số vào tài liệu Word bằng Aspose.Words, bảo vệ tính toàn vẹn và xác thực.
+### [Ký số tài liệu Word bằng Java](./how-to-digitally-sign-word-document-using-java/)
+Hướng dẫn chi tiết cách ký số tài liệu Word bằng Java với Aspose.Words, bao gồm mã nguồn và các bước thực hiện.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -117,6 +117,8 @@
 Μάθετε πώς να δημιουργείτε προσβάσιμα PDF με ετικέτες προσβασιμότητας χρησιμοποιώντας το Aspose.Words για Java.
 ### [Πώς να δημιουργήσετε ένα κενό έγγραφο Word με έλεγχο κειμένου](./how-to-create-a-blank-word-document-with-a-text-control/)
 Δημιουργήστε ένα κενό έγγραφο Word και προσθέστε έλεγχο κειμένου.
+### [Πώς να δημιουργήσετε έγγραφο Word προγραμματιστικά με το Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+Μάθετε πώς να δημιουργήσετε προγραμματιστικά ένα έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

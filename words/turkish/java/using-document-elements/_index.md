@@ -71,6 +71,8 @@ Java ve Aspose.Words kullanarak Word belgelerinde pasta grafik oluşturmayı ad�
 Aspose.Words for Java'da OLE nesnelerini ve ActiveX denetimlerini kullanmayı öğrenin. Kolayca etkileşimli belgeler oluşturun. Hemen başlayın!
 ### [Word'de ActiveX Düğmesi Ekleme – Düğme Başlığını Ayarlama](./how-to-insert-activex-button-in-word-set-button-caption/)
 ActiveX düğmesi eklemeyi ve düğme başlığını ayarlamayı adım adım öğrenin.
+### [Java ve Aspose.Words ile ActiveX içeren docx oluşturma](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Java ve Aspose.Words kullanarak ActiveX içeren docx dosyaları oluşturmayı adım adım öğrenin.
 ### [Java için Aspose.Words'de Revizyonları Kullanma](./using-revisions/)
 Aspose.Words for Java'nın revizyon kontrollerini etkili bir şekilde kullanmayı öğrenin. Geliştiriciler için adım adım kılavuz. Belge yönetiminizi optimize edin.
 ### [Java için Aspose.Words'de Bölümleri Kullanma](./using-sections/)
@@ -106,6 +108,8 @@ Aspose.Words for Java kullanarak boş bir Word belgesi oluşturun ve içine düz
 ### [Java ile Word belgesinde radyal grafik oluşturma](./how-to-create-radial-chart-in-a-word-document-with-java/)
 ### [Programlı olarak Word belgesi oluşturma ve bir düğme ekleme](./create-word-document-programmatically-and-insert-a-button/)
 ### [C# ile boş bir Word belgesi oluşturma ve radar grafiği ekleme](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+### [Java ile Word belgesine pasta grafiği ekleme](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Java ve Aspose.Words kullanarak Word belgesine pasta grafiği eklemeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

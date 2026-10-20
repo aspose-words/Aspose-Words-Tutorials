@@ -108,6 +108,10 @@ Apprenez à créer un document Word vierge et à insérer un contrôle de texte 
 
 ### [Créer un document Word programmatique et insérer un bouton](./create-word-document-programmatically-and-insert-a-button/)
 Apprenez à créer un document Word via code Java et à y ajouter un bouton interactif.
+### [Comment insérer un diagramme circulaire dans un document Word avec Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Apprenez à insérer un graphique en secteurs dans un document Word en utilisant Aspose.Words pour Java.
+### [Comment créer un fichier docx contenant ActiveX avec Java et Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Apprenez à créer un document docx contenant des contrôles ActiveX avec Java et Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

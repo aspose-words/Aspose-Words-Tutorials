@@ -103,6 +103,12 @@ Aprenda a agrupar formas e inserir um retângulo em documentos Word usando Aspos
 ### [Como ocultar forma no Word com C# e Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
 Aprenda a ocultar formas em documentos Word usando C# e Aspose.Words.
 
+### [Como criar documento Word em branco e agrupar formas em Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Aprenda a criar um documento Word vazio e agrupar formas usando Aspose.Words para Java.
+
+### [Criar novo documento Word com uma imagem oculta – guia passo a passo](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+Aprenda a criar um documento Word e inserir uma imagem oculta usando Aspose.Words para Java.
+
 ## Recursos adicionais
 
 ### [Criar um documento Word em branco com uma forma elipse oculta](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

@@ -109,7 +109,6 @@ Aspose.Words для Java — это мощный и универсальный A
 ### [Использование свойств документа в Aspose.Words для Java](./using-document-properties/)
 Оптимизируйте управление документами с помощью Aspose.Words для Java. Научитесь работать со свойствами документа, добавлять пользовательские метаданные и многое другое в этом всеобъемлющем руководстве.
 ### [Использование веб-расширений в Aspose.Words для Java](./using-web-extensions/)
-Улучшайте документы с помощью веб-расширений в Aspose.Words для Java. Научитесь бесшовно интегрировать веб-контент. 
 ### [Тегирование PDF для доступности в Java – Генерация доступных PDF](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Узнайте, как добавить теги доступности в PDF с помощью Aspose.Words for Java, чтобы создавать документы, соответствующие стандартам доступности.
 ### [Создание кнопки ActiveX в docx на Java – полное руководство по программированию](./create-docx-activex-button-in-java-complete-programming-guid/)
@@ -117,6 +116,8 @@ Aspose.Words для Java — это мощный и универсальный A
 
 ### [Добавление элемента управления содержимым в документ Word с Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
 Узнайте, как добавить элемент управления содержимым в документ Word с помощью Aspose.Words для Java.
+### [Как программно создать документ Word с помощью Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+Узнайте, как автоматически генерировать документы Word с помощью Aspose.Words для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

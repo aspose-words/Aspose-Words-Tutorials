@@ -115,6 +115,8 @@ Aspose.Words for Java 是一個功能強大且用途廣泛的 API，可讓開發
 了解如何使用 Aspose.Words for Java 從頭建立 Word 文件的步驟與程式碼範例。
 ### [在 Aspose.Words for Java 中使用文字控制項建立空白 Word 文件](./how-to-create-a-blank-word-document-with-a-text-control/)
 了解如何使用文字控制項在 Aspose.Words for Java 中建立空白的 Word 文件，並插入可編輯的文字區域。
+### [使用 Aspose.Words 程式化建立 Word 文件](./how-to-create-word-document-programmatically-with-aspose-wor/)
+示範如何使用 Aspose.Words 程式化建立 Word 文件，提供完整程式碼範例與操作說明。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

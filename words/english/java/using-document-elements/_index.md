@@ -91,6 +91,10 @@ Learn to add Forms2OleControl to DOCX with Aspose.Words for Java in this compreh
 Learn how to insert an ActiveX button in Word and set its caption using Aspose.Words for Java.
 ### [Insert Pie Chart in Word with Aspose.Words – Complete Guide](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
 Learn how to insert and customize pie charts in Word documents using Aspose.Words for Java in this comprehensive step-by-step guide.
+### [How to create docx containing ActiveX with Java and Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Learn how to generate a DOCX with embedded ActiveX controls using Java and Aspose.Words in this step-by-step tutorial.
+### [How to insert a pie chart into a Word document using Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Learn how to insert a pie chart into a Word document using Aspose.Words for Java in this step-by-step tutorial.
 ### [Using Revisions in Aspose.Words for Java](./using-revisions/)
 Learn to use Aspose.Words for Java's revision controls efficiently. Step-by-step guide for developers. Optimize your document management.
 ### [Using Sections in Aspose.Words for Java](./using-sections/)

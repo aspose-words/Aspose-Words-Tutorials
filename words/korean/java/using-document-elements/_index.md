@@ -73,6 +73,8 @@ Aspose.Words for Java에서 OLE 개체와 ActiveX 컨트롤을 사용하는 방�
 Aspose.Words for Java를 사용하여 DOCX 파일에 Forms2OleControl을 추가하는 방법을 단계별로 안내합니다.
 ### [Word에서 ActiveX 버튼 삽입 – 버튼 캡션 설정](./how-to-insert-activex-button-in-word-set-button-caption/)
 Word 문서에 ActiveX 버튼을 삽입하고 캡션을 설정하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 ActiveX가 포함된 DOCX 만들기](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Java와 Aspose.Words를 활용해 ActiveX 컨트롤이 포함된 DOCX 파일을 생성하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 수정 사항 사용](./using-revisions/)
 Aspose.Words for Java의 버전 관리 기능을 효율적으로 사용하는 방법을 알아보세요. 개발자를 위한 단계별 가이드를 통해 문서 관리를 최적화하세요.
 ### [Java용 Aspose.Words에서 섹션 사용](./using-sections/)
@@ -105,6 +107,8 @@ Aspose.Words for Java를 사용해 도넛 차트를 수정하고 편집된 문�
 Aspose.Words for Java를 사용해 프로그래밍 방식으로 워드 문서를 생성하고, 문서에 버튼을 삽입하는 방법을 단계별로 안내합니다.
 ### [C#로 빈 Word 문서를 만들고 레이더 차트를 추가하는 방법](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
 C#를 사용하여 빈 Word 문서를 생성하고 레이더 차트를 삽입하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 파이 차트 삽입하기](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Java와 Aspose.Words를 사용해 Word 문서에 파이 차트를 삽입하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

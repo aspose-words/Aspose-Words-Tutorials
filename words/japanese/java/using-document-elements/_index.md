@@ -106,6 +106,10 @@ JavaコードでWord文書にラジアルチャートを挿入し、カスタマ
 ### [C# で空白の Word 文書を作成し、レーダーチャートを追加する方法](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
 C# を使用して空の Word 文書を作成し、レーダーチャートを挿入する手順を学びます。
 ### [Aspose.Words for Java で Word 文書をプログラム的に作成し、ボタンを挿入する](./create-word-document-programmatically-and-insert-a-button/)
+### [Aspose.Words for Java で ActiveX を含む DOCX の作成方法](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Java と Aspose.Words を使用して、ActiveX コントロールを含む DOCX を作成する手順を解説します。
+### [Aspose.Words for Java で円グラフを挿入する方法](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Aspose.Words for Java を使って、Word 文書に円グラフを作成・挿入する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

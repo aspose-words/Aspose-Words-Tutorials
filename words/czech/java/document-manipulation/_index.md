@@ -92,7 +92,8 @@ Naučte se, jak vylepšit formátování dokumentů pomocí Aspose.Words pro Jav
 Naučte se, jak vložit a konfigurovat ovládací prvky obsahu v dokumentu Word pomocí Aspose.Words pro Javu.
 ### [Generování obsahu v Aspose.Words pro Javu](./generating-table-of-contents/)
 Naučte se, jak generovat a upravovat obsah (TOC) pomocí Aspose.Words pro Javu. Vytvářejte bez námahy organizované a profesionální dokumenty.
-
+### [Jak vytvořit Word dokument programově pomocí Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+Vytvořte Word dokument programově s Aspose.Words v Javě.
 ### [Ochrana dokumentů v Aspose.Words pro Javu](./protecting-documents/)
 Naučte se, jak zabezpečit dokumenty Java Word pomocí Aspose.Words pro Javu. Chraňte svá data heslem a dalšími funkcemi.
 

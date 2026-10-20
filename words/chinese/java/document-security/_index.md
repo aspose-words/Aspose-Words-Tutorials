@@ -51,6 +51,8 @@
 使用 PFX 证书对 docx 文件进行签名的分步指南，确保文档完整性和安全性。
 ### [如何在 C# 中使用 X509 证书签署 Word 文档](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
 使用 X509 证书在 C# 中对 Word 文档进行数字签名，确保文档完整性和真实性。
+### [如何使用 Java 对 Word 文档进行数字签名](./how-to-digitally-sign-word-document-using-java/)
+使用 Aspose.Words for Java 为 Word 文档添加数字签名，确保文件完整性和真实性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

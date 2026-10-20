@@ -110,6 +110,10 @@
 Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να ενσωματώσετε διάγραμμα ραντάρ χρησιμοποιώντας C#.
 ### [Δημιουργία εγγράφου Word προγραμματιστικά και εισαγωγή κουμπιού](./create-word-document-programmatically-and-insert-a-button/)
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο Word μέσω κώδικα Java και να προσθέσετε ένα διαδραστικό κουμπί.
+### [Πώς να δημιουργήσετε docx που περιέχει ActiveX με Java και Aspose.Words](./how-to-create-docx-containing-activex-with-java/)
+Μάθετε πώς να δημιουργήσετε αρχεία docx που περιέχουν στοιχεία ActiveX χρησιμοποιώντας Java και Aspose.Words.
+### [Πώς να εισάγετε ένα γράφημα πίτας σε έγγραφο Word χρησιμοποιώντας Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Μάθετε πώς να προσθέσετε γράφημα πίτας σε έγγραφο Word με Aspose.Words για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

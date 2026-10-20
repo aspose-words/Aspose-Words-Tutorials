@@ -52,6 +52,9 @@ Scopri come firmare file DOCX in C# con Aspose.Words, includendo codice di esemp
 ### [Come firmare un documento Word in C# usando un certificato X509](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
 Impara a firmare documenti Word in C# con un certificato X509 usando Aspose.Words.
 
+### [Come firmare digitalmente un documento Word usando Java](./how-to-digitally-sign-word-document-using-java/)
+Impara a firmare digitalmente documenti Word con Aspose.Words per Java, garantendo autenticità e integrità dei file.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

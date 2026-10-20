@@ -106,6 +106,12 @@ Scopri come raggruppare forme e aggiungere un rettangolo in un documento Word us
 ### [Come nascondere una forma in Word con C# e Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
 Scopri come nascondere una forma in un documento Word usando C# e Aspose.Words.
 
+### [Come creare un documento Word vuoto e raggruppare forme in Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Scopri come creare un documento Word vuoto e raggruppare forme usando Aspose.Words per Java.
+
+### [Crea un nuovo documento Word con un'immagine nascosta – guida passo‑a‑passo](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+Scopri come inserire un'immagine nascosta in un documento Word usando Aspose.Words per Java.
+
 ## Risorse aggiuntive
 
 ### [Crea un documento Word vuoto con una forma ellittica nascosta](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

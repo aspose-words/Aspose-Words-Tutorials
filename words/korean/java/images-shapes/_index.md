@@ -105,6 +105,12 @@ Aspose.Words를 사용해 Word 문서에서 도형을 그룹화하고 사각형�
 ### [C#와 Aspose.Words를 사용하여 Word에서 도형 숨기기](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
 C# 코드를 사용해 Word 문서에서 특정 도형을 숨기는 방법을 단계별로 안내합니다.
 
+### [Java에서 빈 워드 문서를 만들고 도형을 그룹화하는 방법](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Java를 사용해 빈 Word 문서를 생성하고 도형을 그룹화하는 단계별 가이드
+
+### [숨겨진 그림이 포함된 새 Word 문서 만들기 – 단계별 가이드](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+숨겨진 이미지를 포함한 Word 문서를 생성하고 저장하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 ### [숨겨진 타원형 모양이 있는 빈 Word 문서 만들기](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

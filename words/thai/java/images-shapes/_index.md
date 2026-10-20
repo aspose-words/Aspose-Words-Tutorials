@@ -102,6 +102,12 @@
 ### [วิธีซ่อนรูปร่างใน Word ด้วย C# และ Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
 เรียนรู้วิธีซ่อนรูปร่างในเอกสาร Word ด้วย C# และ Aspose.Words
 
+### [วิธีสร้างเอกสาร Word เปล่าและจัดกลุ่มรูปร่างใน Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+เรียนรู้วิธีสร้างเอกสาร Word ว่างและจัดกลุ่มรูปร่างโดยใช้ Aspose.Words สำหรับ Java
+
+### [สร้างเอกสาร Word ใหม่พร้อมรูปภาพที่ซ่อนอยู่ – คู่มือขั้นตอนโดยละเอียด](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+เรียนรู้วิธีสร้างเอกสาร Word พร้อมรูปภาพที่ซ่อนอยู่ในขั้นตอนง่ายๆ
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 ### [สร้างเอกสาร Word ว่างพร้อมรูปร่างวงรีที่ซ่อนอยู่](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

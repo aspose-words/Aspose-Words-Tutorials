@@ -106,6 +106,10 @@ Pelajari cara membuat diagram radial di dokumen Word menggunakan Aspose.Words un
 ### [Membuat dokumen Word secara programatis dan menyisipkan tombol di Aspose.Words untuk Java](./create-word-document-programmatically-and-insert-a-button/)
 Pelajari cara membuat dokumen Word secara programatis dan menambahkan tombol interaktif menggunakan Aspose.Words untuk Java.
 ### [Cara membuat dokumen Word kosong dan menambahkan diagram radar di C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+### [Cara Menyisipkan Diagram Pai ke Dokumen Word menggunakan Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Pelajari cara menambahkan diagram pai ke dokumen Word dengan Aspose.Words untuk Java dalam tutorial langkah demi langkah ini.
+### [Cara Membuat DOCX Berisi ActiveX dengan Java dan Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Pelajari cara membuat file DOCX yang berisi kontrol ActiveX menggunakan Java dan Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

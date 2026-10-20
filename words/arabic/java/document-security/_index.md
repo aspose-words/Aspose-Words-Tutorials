@@ -50,6 +50,8 @@
 تعرّف على كيفية توقيع مستند Word باستخدام Aspose.Words لـ C# وشهادة X509 لضمان سلامة المستند.
 ### [كيفية إضافة توقيع رقمي إلى مستند Word باستخدام Aspose.Words](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
 تعلم كيفية إضافة توقيع رقمي إلى مستندات Word باستخدام Aspose.Words خطوة بخطوة مع أمثلة الكود.
+### [كيفية توقيع مستند Word رقمياً باستخدام Java](./how-to-digitally-sign-word-document-using-java/)
+تعلم كيفية إضافة توقيع رقمي إلى مستندات Word باستخدام Aspose.Words لجافا خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

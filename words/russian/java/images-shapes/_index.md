@@ -105,6 +105,12 @@
 ### [Как скрыть фигуру в Word с помощью C# и Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
 Узнайте, как скрыть фигуру в документе Word, используя C# и библиотеку Aspose.Words.
 
+### [Как создать пустой документ Word и сгруппировать фигуры в Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Узнайте, как создать пустой документ Word и объединить фигуры в один объект с помощью Aspose.Words для Java.
+
+### [Создание нового документа Word с скрытой картинкой – пошаговое руководство](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+Узнайте, как добавить скрытую картинку в новый документ Word с помощью Aspose.Words для Java.
+
 ## Дополнительные ресурсы
 
 ### [Создание пустого документа Word со скрытой эллипсой](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

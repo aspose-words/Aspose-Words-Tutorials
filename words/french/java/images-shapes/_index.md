@@ -105,6 +105,10 @@ Apprenez à regrouper des formes et à insérer un rectangle dans un document Wo
 ### [Comment masquer une forme dans Word avec C# et Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
 Apprenez à masquer une forme dans un document Word à l'aide de C# et Aspose.Words.
 
+### [Comment créer un document Word vierge et regrouper des formes en Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+
+### [Créer un nouveau document Word avec une image cachée – guide étape par étape](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+
 ## Ressources supplémentaires
 
 ### [Créer un document Word vierge avec une forme ellipse cachée](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

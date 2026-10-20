@@ -104,6 +104,12 @@ Aspose.Words Java 代码教程
 ### [如何在 Word 中使用 C# 和 Aspose.Words 隐藏形状](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
 演示如何使用 C# 和 Aspose.Words 在 Word 文档中隐藏特定形状。
 
+### [如何在 Java 中创建空白 Word 文档并对形状进行分组](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+演示如何创建空白文档并对形状进行分组
+
+### [创建带隐藏图片的 Word 文档 – 步骤指南](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+演示如何在 Word 文档中创建隐藏图片的步骤指南
+
 ## 其他资源
 
 ### [创建一个带有隐藏椭圆形状的空白 Word 文档](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

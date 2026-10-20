@@ -102,6 +102,12 @@ Naučte se seskupovat tvary a přidávat obdélníkový tvar ve Word dokumentu p
 
 ### [Jak skrýt tvar ve Wordu pomocí C# a Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
 
+### [Jak vytvořit prázdný dokument Word a seskupit tvary v Javě](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Naučte se, jak vytvořit prázdný dokument Word a seskupit tvary pomocí Aspose.Words pro Javu.
+
+### [Vytvořte nový dokument Word se skrytým obrázkem – krok‑za‑krokem průvodce](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+Naučte se, jak vytvořit dokument Word s ukrytým obrázkem pomocí Aspose.Words pro Javu.
+
 ## Další zdroje
 
 ### [Vytvořte prázdný dokument Word se skrytým eliptickým tvarem](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

@@ -76,7 +76,7 @@ Aspose.Words for Java でドキュメント処理を最適化しましょう。�
 Aspose.Words for Javaでドキュメントの範囲操作をマスターしましょう。この包括的なガイドで、テキストの削除、抽出、書式設定の方法を学びましょう。
 ### [Aspose.Words for Java で構造化ドキュメントタグ (SDT) を使用する](./using-structured-document-tags/)
 この包括的なガイドでは、Aspose.Words for Javaで構造化ドキュメントタグ（SDT）を使用する方法を学びます。SDTを作成、変更し、カスタムXMLデータにバインドする方法を学びます。
-### [Aspose.Words for Java でのスタイルとテーマの使用](./using-styles-and-themes/)
+### [Aspose.Words for Java のスタイルとテーマの使用](./using-styles-and-themes/)
 Aspose.Words for Java を使ってドキュメントの書式設定を強化する方法を学びましょう。この包括的なガイドでは、ソースコード例とともに、スタイルやテーマなどについて詳しく解説します。
 ### [Aspose.Words for Java で目次を生成する](./generating-table-of-contents/)
 Aspose.Words for Java を使用して目次（TOC）を生成およびカスタマイズする方法を学びましょう。整理されたプロフェッショナルなドキュメントを簡単に作成できます。
@@ -115,6 +115,8 @@ Aspose.Words for Java を使って新しい Word 文書を作成する手順を�
 ### [Javaでインタラクティブなコマンドボタン付きの空白文書をWordで作成する](./create-blank-document-with-an-interactive-command-button-in/)
 Java と Aspose.Words を使って、インタラクティブなコマンドボタンを含む空白の Word 文書を作成する方法を解説します。
 ### [テキスト コントロールで空白の Word 文書を作成する方法](./how-to-create-a-blank-word-document-with-a-text-control/)
+### [Aspose.Words を使用したプログラムによる Word 文書の作成方法](./how-to-create-word-document-programmatically-with-aspose-wor/)
+Aspose.Words を使って Java で Word 文書をプログラム的に作成する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

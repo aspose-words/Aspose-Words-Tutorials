@@ -49,6 +49,8 @@ Aprenda a insertar controles Forms2Ole en documentos DOCX usando Aspose.Words pa
 Aprenda a modificar gráficos en documentos Word con Aspose.Words para Java paso a paso.
 ### [Guardar documento Word después de editar un gráfico de rosquilla en Java](./save-word-document-after-editing-doughnut-chart-in-java/)
 Aprenda a guardar el documento Word tras modificar un gráfico de rosquilla usando Aspose.Words para Java.
+### [Cómo crear un docx que contenga ActiveX con Java y Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Aprenda a crear documentos DOCX con controles ActiveX usando Java y Aspose.Words.
 ### [Uso de comentarios en Aspose.Words para Java](./using-comments/)
 Aprenda a usar comentarios en Aspose.Words para Java. Tutorial paso a paso para agregar y personalizar comentarios en sus documentos.
 ### [Uso de campos en Aspose.Words para Java](./using-fields/)
@@ -109,6 +111,8 @@ Aprenda a generar gráficos radiales en documentos Word usando Aspose.Words para
 Aprenda a crear documentos Word mediante código Java y añadir botones interactivos paso a paso.
 ### [Cómo crear un documento Word en blanco y agregar un gráfico de radar en C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
 Aprenda a crear un documento Word vacío y añadir un gráfico de radar en C# con Aspose.Words.
+### [Cómo insertar un gráfico circular en un documento Word usando Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Aprenda a agregar un gráfico circular a un documento Word con Aspose.Words para Java paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -104,6 +104,12 @@ Dowiedz się, jak grupować kształty i dodawać prostokąt w dokumencie Word pr
 ### [Jak ukryć kształt w Wordzie przy użyciu C# i Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
 Dowiedz się, jak ukryć kształt w dokumencie Word przy użyciu C# i Aspose.Words.
 
+### [Jak utworzyć pusty dokument Word i grupować kształty w Javie](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Dowiedz się, jak utworzyć pusty dokument Word i grupować kształty przy użyciu Aspose.Words dla Java.
+
+### [Utwórz nowy dokument Word z ukrytym obrazem – przewodnik krok po kroku](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+Dowiedz się, jak utworzyć dokument Word zawierający ukryty obraz, korzystając z Aspose.Words dla Java.
+
 ## Dodatkowe zasoby
 
 ### [Utwórz pusty dokument Word z ukrytym kształtem elipsy](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

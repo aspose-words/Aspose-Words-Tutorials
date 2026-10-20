@@ -109,6 +109,10 @@ Aprenda a gerar um gráfico radial em documentos Word usando Aspose.Words para J
 Aprenda a criar um documento Word programaticamente e inserir um botão usando Aspose.Words para Java.
 ### [Como criar um documento Word em branco e adicionar um gráfico de radar em C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
 Aprenda a criar um documento Word vazio e inserir um gráfico de radar usando Aspose.Words para C#.
+### [Como criar docx contendo ActiveX com Java e Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Aprenda a criar documentos DOCX que incorporam controles ActiveX usando Java e Aspose.Words.
+### [Como inserir um gráfico de pizza em um documento Word usando Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Aprenda a inserir gráficos de pizza em documentos Word com Aspose.Words para Java neste tutorial passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

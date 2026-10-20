@@ -105,6 +105,12 @@ Hướng dẫn cách nhóm các hình dạng và thêm hình chữ nhật trong 
 ### [Cách ẩn hình dạng trong Word bằng C# và Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
 Hướng dẫn ẩn một hình dạng trong tài liệu Word bằng C# và Aspose.Words.
 
+### [Cách tạo tài liệu Word trống và nhóm các hình dạng trong Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Hướng dẫn tạo tài liệu Word trống và nhóm các hình dạng bằng Aspose.Words cho Java.
+
+### [Tạo tài liệu Word mới với hình ảnh ẩn – hướng dẫn từng bước](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+Hướng dẫn chi tiết cách tạo tài liệu Word mới và chèn hình ảnh ẩn bằng Aspose.Words cho Java.
+
 ## Tài nguyên bổ sung
 
 ### [Tạo tài liệu Word trống có hình ellipse ẩn](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

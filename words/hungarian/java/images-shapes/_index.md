@@ -41,6 +41,7 @@ Ismerje meg, hogyan adhat hozzá árnyékhatású téglalap alakzatot a Word dok
 
 ### [Árnyék hozzáadása alakzathoz Word-ben – Teljes Aspose.Words útmutató](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Ismerje meg, hogyan adhat árnyékot alakzatokhoz Word dokumentumokban az Aspose.Words for Java segítségével, lépésről lépésre.
+
 ### [Árnyékhatás alkalmazása alakzatra C#‑ban – Lépésről‑lépésre útmutató](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Ismerje meg, hogyan adhat árnyékot egy alakzathoz C#‑ban az Aspose.Words segítségével.
 ### [Hogyan állítsunk be árnyékot egy alakzatra az Aspose.Words-ben – Teljes útmutató](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
@@ -103,6 +104,12 @@ Ismerje meg, hogyan rejthet el alakzatot a Word dokumentumban C# és az Aspose.W
 
 ### [Csoportos alakzat létrehozása DOCX-ben és interaktív vezérlők hozzáadása C#-ban](./how-to-create-group-shape-docx-and-add-interactive-controls/)
 Ismerje meg, hogyan hozhat létre csoportos alakzatot DOCX fájlban, és adhat hozzá interaktív vezérlőket C#-ban az Aspose.Words segítségével.
+
+### [Üres Word dokumentum és alakzatcsoport létrehozása Java-ban](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Ismerje meg, hogyan hozhat létre üres Word dokumentumot, és csoportosíthatja az alakzatokat Java-ban.
+
+### [Új Word dokumentum létrehozása rejtett képpel – lépésről‑lépésre útmutató](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+Ismerje meg, hogyan hozhat létre új Word dokumentumot, amely rejtett képet tartalmaz, részletes lépésekkel.
 
 ## További források
 

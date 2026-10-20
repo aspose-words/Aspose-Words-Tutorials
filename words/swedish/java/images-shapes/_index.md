@@ -104,6 +104,12 @@ Lär dig hur du grupperar former och lägger till en rektangel i ett Word-dokume
 
 ### [Hur man döljer en form i Word med C# och Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
 
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Lär dig hur du skapar ett tomt Word-dokument och grupperar former med Aspose.Words för Java.
+
+### [Skapa ett nytt Word-dokument med en dold bild – steg‑för‑steg‑guide](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+Lär dig hur du skapar ett Word-dokument och gömmer en bild i det med Aspose.Words för Java.
+
 ## Ytterligare resurser
 
 ### [Skapa ett tomt Word-dokument med en dold ellipsform](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

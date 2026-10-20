@@ -115,6 +115,8 @@ Aspose.Words สำหรับ Java เป็น API ที่มีประ�
 ### [สร้างเอกสารเปล่าพร้อมปุ่มคำสั่งโต้ตอบใน Word ด้วย Java](./create-blank-document-with-an-interactive-command-button-in/)
 ### [วิธีสร้างเอกสาร Word ว่างพร้อมตัวควบคุมข้อความใน Aspose.Words สำหรับ Java](./how-to-create-a-blank-word-document-with-a-text-control/)
 เรียนรู้วิธีสร้างเอกสาร Word ว่างและเพิ่มตัวควบคุมข้อความด้วย Aspose.Words สำหรับ Java
+### [วิธีสร้างเอกสาร Word ด้วยโปรแกรมโดยใช้ Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+เรียนรู้วิธีสร้างไฟล์ Word อย่างอัตโนมัติด้วย Aspose.Words สำหรับ Java
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

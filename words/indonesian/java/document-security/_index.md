@@ -51,6 +51,8 @@ Pelajari cara menandatangani file docx menggunakan sertifikat PFX dengan panduan
 Panduan langkah demi langkah menandatangani dokumen Word dengan C# menggunakan sertifikat X509 untuk keamanan digital.
 ### [Cara Menambahkan Tanda Tangan Digital ke Dokumen Word dengan Aspose.Words](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
 Pelajari cara menambahkan tanda tangan digital ke dokumen Word menggunakan Aspose.Words dengan contoh kode lengkap.
+### [Cara Menandatangani Dokumen Word secara Digital menggunakan Java](./how-to-digitally-sign-word-document-using-java/)
+Panduan langkah demi langkah untuk menandatangani dokumen Word secara digital dengan Java menggunakan Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

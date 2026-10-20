@@ -124,6 +124,11 @@ Learn how to group shapes and add a rectangle in Word documents using Aspose.Wor
 ### [How to hide shape in Word with C# and Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
 Learn how to hide shapes in Word documents using Aspose.Words for C#.
 
+### [How to create blank word document and group shapes in Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Learn how to create a blank Word document and group multiple shapes using Aspose.Words for Java.
+
+### [Create new Word document with a hidden picture – step‑by‑step guide](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+
 ## Additional Resources
 
 ### [Create a blank Word document with a hidden ellipse shape](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

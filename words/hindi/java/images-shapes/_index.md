@@ -43,7 +43,7 @@ Java के लिए Aspose.Words के साथ Word दस्तावे�
 ### [Word में आकृति में छाया जोड़ें – पूर्ण Aspose.Words गाइड](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Word दस्तावेज़ में आकृति पर छाया लागू करने के चरण-दर-चरण निर्देश, Aspose.Words Java के साथ पूर्ण गाइड।
 
-### [C# में आकृति पर शैडो इफ़ेक्ट लागू करें – चरण‑दर‑चरण गाइड](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
+### [C# में आकृति पर शैडो इफ़ेक्ट लागू करें – चरण‑दर‑शैडो‑गाइड](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 C# में Aspose.Words का उपयोग करके आकृति पर शैडो इफ़ेक्ट जोड़ने के लिए विस्तृत चरण और कोड उदाहरण।
 ### [Aspose.Words में आकृति पर छाया कैसे सेट करें – पूर्ण गाइड](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
 Aspose.Words में आकृति पर छाया लागू करने के चरण-दर-चरण निर्देश और कोड उदाहरण।
@@ -125,6 +125,12 @@ C# के साथ Aspose.Words का उपयोग करके खाल�
 
 ### [जावा के साथ Word दस्तावेज़ में डोनट चार्ट कैसे बनाएं](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
 जावा का उपयोग करके Word दस्तावेज़ में डोनट चार्ट सम्मिलित करने की चरण-दर-चरण प्रक्रिया।
+
+### [जावा में खाली वर्ड दस्तावेज़ बनाना और आकृतियों को समूहित करना](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+जावा में Aspose.Words का उपयोग करके खाली वर्ड फ़ाइल बनाना और कई आकृतियों को समूहित करने का तरीका सीखें।
+
+### [छिपी हुई छवि के साथ नया Word दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+छिपी हुई छवि के साथ Word दस्तावेज़ बनाने की प्रक्रिया को चरण‑दर‑चरण समझें।
 
 ## अतिरिक्त संसाधन
 

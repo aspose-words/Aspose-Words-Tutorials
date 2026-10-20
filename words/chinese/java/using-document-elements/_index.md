@@ -108,6 +108,10 @@
 学习如何在 C# 中使用 Aspose.Words 创建空白 Word 文档并插入雷达图。
 ### [在 Aspose.Words for Java 中以编程方式创建 Word 文档并插入按钮](./create-word-document-programmatically-and-insert-a-button/)
 使用 Aspose.Words for Java 通过代码创建 Word 文档并添加交互式按钮。
+### [使用 Java 和 Aspose.Words 创建包含 ActiveX 的 docx](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+学习如何使用 Java 和 Aspose.Words 创建包含 ActiveX 控件的 docx 文档。
+### [在 Aspose.Words for Java 中使用饼图](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+学习如何使用 Aspose.Words for Java 在 Word 文档中插入饼图并自定义其外观。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

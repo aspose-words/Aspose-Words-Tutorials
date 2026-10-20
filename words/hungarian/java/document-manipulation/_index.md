@@ -117,6 +117,8 @@ Tanulja meg, hogyan adhat hozzá tartalomvezérlőket Word dokumentumokhoz az As
 Ismerje meg, hogyan hozhat létre üres Word-dokumentumot, amely interaktív parancsgombot tartalmaz Java-val.
 ### [Üres Word dokumentum létrehozása szövegvezérlővel](./how-to-create-a-blank-word-document-with-a-text-control/)
 Ismerd meg, hogyan hozhatsz létre üres Word dokumentumot szövegvezérlő hozzáadásával az Aspose.Words for Java segítségével.
+### [Word dokumentum létrehozása programozott módon az Aspose.Words segítségével](./how-to-create-word-document-programmatically-with-aspose-wor/)
+Tanuld meg, hogyan hozhatsz létre Word dokumentumot kóddal az Aspose.Words használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

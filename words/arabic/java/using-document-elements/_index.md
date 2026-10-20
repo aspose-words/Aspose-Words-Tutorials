@@ -104,6 +104,9 @@
 تعرف على طريقة إنشاء مخطط شعاعي داخل مستند Word باستخدام مكتبة Aspose.Words لجافا.
 ### [إنشاء مستند Word برمجيًا وإدراج زر](./create-word-document-programmatically-and-insert-a-button/)
 ### [كيفية إنشاء مستند Word فارغ وإضافة مخطط راداري في C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+### [كيفية إنشاء ملف docx يحتوي على ActiveX باستخدام Java و Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+### [كيفية إدراج مخطط دائري في مستند Word باستخدام Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+تعلم خطوة بخطوة كيفية إضافة مخطط دائري إلى مستند Word باستخدام Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

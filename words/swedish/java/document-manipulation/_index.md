@@ -116,6 +116,8 @@ Förbättra dokument med webbtillägg i Aspose.Words för Java. Lär dig att int
 Lär dig hur du skapar en ActiveX-knapp i ett DOCX-dokument med Java, steg-för-steg med kodexempel.
 ### [Skapa ett tomt dokument med en interaktiv kommandoknapp i Word med Java](./create-blank-document-with-an-interactive-command-button-in/)
 Lär dig hur du skapar ett tomt Word-dokument och lägger till en interaktiv kommandoknapp med Aspose.Words för Java.
+### [Skapa Word-dokument programatiskt med Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+Lär dig skapa ett Word-dokument programatiskt med Aspose.Words i Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -51,6 +51,10 @@ Lär dig hur du manipulerar dokumentinnehåll med Aspose.Words för Java. Den h�
 
 Lär dig att programmera ett Word-dokument från början med Aspose.Words för Java i en detaljerad steg‑för‑steg‑guide.
 
+### [Skapa radialdiagram och infoga diagram i Word med Java](./create-radial-chart-and-insert-chart-into-word-with-java/)
+
+Lär dig att skapa ett radialdiagram i Java och infoga det i ett Word-dokument med Aspose.Words.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

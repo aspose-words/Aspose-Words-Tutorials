@@ -105,6 +105,12 @@ Pelajari cara mengelompokkan beberapa bentuk dan menambahkan bentuk persegi panj
 ### [Cara menyembunyikan bentuk di Word dengan C# dan Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
 Pelajari cara menyembunyikan bentuk di dokumen Word menggunakan C# dan Aspose.Words.
 
+### [Cara Membuat Dokumen Word Kosong dan Mengelompokkan Bentuk di Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Panduan membuat dokumen Word kosong dan mengelompokkan bentuk menggunakan Aspose.Words untuk Java.
+
+### [Buat dokumen Word baru dengan gambar tersembunyi – panduan langkah demi langkah](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+Panduan langkah demi langkah untuk membuat dokumen Word dengan gambar tersembunyi.
+
 ## Sumber Daya Tambahan
 
 ### [Buat dokumen Word kosong dengan bentuk elips tersembunyi](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

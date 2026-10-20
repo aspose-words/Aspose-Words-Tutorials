@@ -71,6 +71,8 @@ Lernen Sie mit diesem Schritt-für-Schritt-Tutorial, Listen in Aspose.Words für
 Erfahren Sie, wie Sie ein Word-Dokument mit Platzhaltern und Listen in Aspose.Words für Java erstellen und dynamisch befüllen.
 ### [Verwenden von Markdown in Aspose.Words für Java](./using-markdown/)
 Lernen Sie mit diesem Schritt-für-Schritt-Tutorial, Markdown in Aspose.Words für Java zu verwenden. Erstellen, formatieren und speichern Sie mühelos Markdown-Dokumente.
+### [Einfügen eines Kreisdiagramms in ein Word-Dokument mit Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Kreisdiagramm in ein Word-Dokument einfügen und formatieren.
 ### [Verwenden von Knoten in Aspose.Words für Java](./using-nodes/)
 Lernen Sie mit diesem Schritt-für-Schritt-Tutorial, Knoten in Aspose.Words für Java zu manipulieren. Entfesseln Sie die Leistung der Dokumentverarbeitung.
 ### [Erstellen eines Kreisdiagramms in Word mit Java – Schritt-für-Schritt-Anleitung](./create-pie-chart-in-word-with-java-step-by-step-guide/)
@@ -113,6 +115,8 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java ein Word-Dokument programmgeste
 
 ### [Erstellen eines leeren Word-Dokuments und Hinzufügen eines Radar-Diagramms in C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
 Erfahren Sie, wie Sie mit Aspose.Words für C# ein leeres Word-Dokument erstellen und ein Radar-Diagramm einfügen.
+### [DOCX mit ActiveX in Java und Aspose.Words erstellen](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java DOCX-Dateien erstellen, die ActiveX-Steuerelemente enthalten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

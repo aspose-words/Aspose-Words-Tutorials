@@ -115,6 +115,7 @@ Aspose.Words for Java هي واجهة برمجة تطبيقات قوية ومت�
 تعلم كيفية إضافة عناصر تحكم المحتوى إلى مستندات Word باستخدام Aspose.Words لجافا.
 ### [كيفية إنشاء مستند Word فارغ مع عنصر تحكم نص](./how-to-create-a-blank-word-document-with-a-text-control/)
 تعلم كيفية إنشاء مستند Word فارغ وإضافة عنصر تحكم نصي باستخدام Aspose.Words لجافا.
+### [كيفية إنشاء مستند Word برمجيًا باستخدام Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

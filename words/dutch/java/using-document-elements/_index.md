@@ -74,6 +74,8 @@ Leer hoe u Forms2OleControl gebruikt om OLE-besturingselementen toe te voegen aa
 ### [Hoe een ActiveX-knop in Word in te voegen – knopbijschrift instellen](./how-to-insert-activex-button-in-word-set-button-caption/)
 Leer hoe u een ActiveX-knop toevoegt aan een Word-document en het bijschrift aanpast met Aspose.Words voor Java.
 ### [Hoe forms2olecontrol in code maken met Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+### [Hoe een docx met ActiveX te maken met Java en Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Leer hoe u een DOCX-bestand met ActiveX-inhoud maakt met Java en Aspose.Words.
 ### [Revisies gebruiken in Aspose.Words voor Java](./using-revisions/)
 Leer hoe u Aspose.Words voor Java's revisiebeheer efficiënt kunt gebruiken. Stapsgewijze handleiding voor ontwikkelaars. Optimaliseer uw documentbeheer.
 ### [Secties gebruiken in Aspose.Words voor Java](./using-sections/)
@@ -106,6 +108,8 @@ Maak een leeg Word-document en voeg een platte‑tekst besturingselement toe.
 ### [Word-document programmatisch maken en een knop invoegen in Aspose.Words voor Java](./create-word-document-programmatically-and-insert-a-button/)
 Leer hoe u een Word-document programmatically maakt en een knop toevoegt met Aspose.Words voor Java.
 ### [Een leeg Word-document maken en een radardiagram toevoegen in C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+### [Hoe een cirkeldiagram in een Word-document met Java in te voegen](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Leer stap voor stap hoe je een cirkeldiagram toevoegt aan een Word-document met Aspose.Words voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

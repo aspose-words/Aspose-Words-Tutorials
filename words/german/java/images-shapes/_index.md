@@ -104,6 +104,12 @@ Ein Codebeispiel, das zeigt, wie man Formen gruppiert und ein Rechteck in ein Wo
 ### [Wie man Formen in Word mit C# und Aspose.Words ausblendet](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
 Ein Codebeispiel, das zeigt, wie man mit Aspose.Words für C# Formen in einem Word‑Dokument ausblendet.
 
+### [Leeres Word-Dokument erstellen und Formen gruppieren in Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein leeres Dokument erzeugen und mehrere Formen zu einer Gruppe zusammenfassen.
+
+### [Neues Word-Dokument mit verstecktem Bild erstellen – Schritt‑für‑Schritt‑Anleitung](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Word‑Dokument erzeugen und ein Bild verstecken.
+
 ## Weitere Ressourcen
 
 ### [Erstellen Sie ein leeres Word-Dokument mit einer versteckten Ellipsenform](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

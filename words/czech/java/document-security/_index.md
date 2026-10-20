@@ -51,6 +51,8 @@ Naučte se, jak podepsat soubory DOCX pomocí certifikátu PFX pomocí Aspose.Wo
 Naučte se, jak podepsat dokument Word v C# pomocí certifikátu X509 s Aspose.Words.
 ### [Jak přidat digitální podpis do dokumentu Word pomocí Aspose.Words](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
 Naučte se, jak přidat digitální podpis do dokumentu Word pomocí Aspose.Words. Praktické ukázky a podrobný kód.
+### [Jak digitálně podepsat dokument Word pomocí Javy](./how-to-digitally-sign-word-document-using-java/)
+Naučte se, jak pomocí Aspose.Words pro Javu přidat digitální podpis do dokumentu Word a zajistit jeho integritu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

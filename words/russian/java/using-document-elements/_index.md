@@ -69,6 +69,8 @@
 Изучите использование объектов OLE и элементов управления ActiveX в Aspose.Words для Java. Создавайте интерактивные документы с легкостью. Начните прямо сейчас!
 ### [Как вставить кнопку ActiveX в Word – задать подпись кнопки](./how-to-insert-activex-button-in-word-set-button-caption/)
 Научитесь вставлять кнопку ActiveX в документ Word и задавать её подпись с помощью Aspose.Words для Java.
+### [Создание docx, содержащего ActiveX, с Java и Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Узнайте, как создавать документы docx с элементами ActiveX, используя Java и Aspose.Words.
 ### [Использование ревизий в Aspose.Words для Java](./using-revisions/)
 Научитесь эффективно использовать контроль версий Aspose.Words for Java. Пошаговое руководство для разработчиков. Оптимизируйте управление документами.
 ### [Использование разделов в Aspose.Words для Java](./using-sections/)
@@ -108,6 +110,8 @@
 Узнайте, как создать пустой документ Word и добавить радиальную диаграмму с помощью Aspose.Words для C#.
 ### [Создание Word документа программно и вставка кнопки](./create-word-document-programmatically-and-insert-a-button/)
 Узнайте, как программно создать документ Word и добавить в него кнопку с помощью Aspose.Words для Java.
+### [Как вставить круговую диаграмму в документ Word с помощью Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Узнайте, как добавить круговую диаграмму в документ Word с помощью Aspose.Words для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -48,7 +48,7 @@ Dowiedz się, jak w Aspose.Words for Java wygenerować wykres kołowy w dokumenc
 ### [Korzystanie z komentarzy w Aspose.Words dla Java](./using-comments/)
 Dowiedz się, jak używać komentarzy w Aspose.Words dla Java. Samouczek krok po kroku dotyczący dodawania i dostosowywania komentarzy w dokumentach.
 ### [Korzystanie z pól w Aspose.Words dla Java](./using-fields/)
-Naucz się efektywnie używać Aspose.Words dla pól Java w tym samouczku krok po kroku. Twórz dynamiczne dokumenty Word z łatwością.
+Naucz się efektywnie używać Aspose.Words for pól Java w tym samouczku krok po kroku. Twórz dynamiczne dokumenty Word z łatwością.
 ### [Korzystanie z czcionek w Aspose.Words dla Java](./using-fonts/)
 Poznaj formatowanie czcionek w Aspose.Words dla Java: rozmiar, styl, kolor i więcej. Twórz pięknie sformatowane dokumenty z łatwością.
 ### [Korzystanie z przypisów dolnych i końcowych w Aspose.Words dla Java](./using-footnotes-and-endnotes/)
@@ -73,6 +73,10 @@ Naucz się manipulować węzłami w Aspose.Words for Java dzięki temu samouczko
 Naucz się używać obiektów OLE i kontrolek ActiveX w Aspose.Words dla Java. Twórz interaktywne dokumenty z łatwością. Zacznij teraz!
 ### [Jak wstawić przycisk ActiveX w Word – Ustaw podpis przycisku](./how-to-insert-activex-button-in-word-set-button-caption/)
 Dowiedz się, jak dodać przycisk ActiveX do dokumentu Word i ustawić jego etykietę przy pomocy Aspose.Words for Java.
+### [Jak utworzyć plik docx zawierający ActiveX przy użyciu Java i Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Dowiedz się, jak generować dokumenty DOCX z osadzonymi kontrolkami ActiveX przy użyciu Java i Aspose.Words.
+### [Jak wstawić wykres kołowy do dokumentu Word przy użyciu Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Dowiedz się, jak przy pomocy Aspose.Words for Java dodać wykres kołowy do dokumentu Word w kilku prostych krokach.
 ### [Korzystanie z rewizji w Aspose.Words dla Java](./using-revisions/)
 Naucz się efektywnie używać kontroli wersji Aspose.Words for Java. Przewodnik krok po kroku dla programistów. Zoptymalizuj zarządzanie dokumentami.
 ### [Korzystanie z sekcji w Aspose.Words dla Java](./using-sections/)

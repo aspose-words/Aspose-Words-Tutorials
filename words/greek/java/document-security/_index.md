@@ -51,6 +51,8 @@
 Μάθετε πώς να υπογράψετε έγγραφα Word σε C# με πιστοποιητικό X509, εξασφαλίζοντας την ακεραιότητα και την αυθεντικότητα.
 ### [Πώς να προσθέσετε ψηφιακή υπογραφή σε έγγραφο Word με το Aspose.Words](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
 Μάθετε πώς να προσθέσετε ψηφιακή υπογραφή σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
+### [Πώς να υπογράψετε ψηφιακά ένα έγγραφο Word χρησιμοποιώντας Java](./how-to-digitally-sign-word-document-using-java/)
+Μάθετε πώς να προσθέσετε ψηφιακές υπογραφές σε έγγραφα Word με το Aspose.Words για Java, βήμα-βήμα με παραδείγματα κώδικα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

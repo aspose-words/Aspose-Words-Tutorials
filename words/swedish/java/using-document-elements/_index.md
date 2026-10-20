@@ -71,6 +71,8 @@ Lär dig steg för steg hur du infogar och anpassar cirkeldiagram i Word-dokumen
 Lär dig använda OLE-objekt och ActiveX-kontroller i Aspose.Words för Java. Skapa interaktiva dokument enkelt. Kom igång nu!
 ### [Hur man infogar en ActiveX‑knapp i Word – Ställ in knappens rubrik](./how-to-insert-activex-button-in-word-set-button-caption/)
 Lär dig hur du infogar en ActiveX‑knapp i Word och anger knappens rubrik i denna steg‑för‑steg‑handledning.
+### [Hur man skapar docx som innehåller ActiveX med Java och Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Lär dig skapa DOCX-filer som innehåller ActiveX-kontroller med Java och Aspose.Words.
 ### [Använda revisioner i Aspose.Words för Java](./using-revisions/)
 Lär dig att använda Aspose.Words för Javas revisionskontroller effektivt. Steg-för-steg-guide för utvecklare. Optimera din dokumenthantering.
 ### [Använda sektioner i Aspose.Words för Java](./using-sections/)
@@ -109,6 +111,8 @@ Lär dig skapa ett tomt Word-dokument och infoga en vanlig textkontroll med Aspo
 Lär dig hur du skapar ett Word-dokument programatiskt och lägger till en knapp med Aspose.Words för Java.
 ### [Skapa ett tomt Word-dokument och lägg till ett radardiagram i C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
 Lär dig hur du skapar ett tomt Word-dokument och infogar ett radardiagram med C#.
+### [Hur man infogar ett cirkeldiagram i ett Word-dokument med Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Lär dig hur du infogar ett cirkeldiagram i ett Word-dokument med Aspose.Words för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

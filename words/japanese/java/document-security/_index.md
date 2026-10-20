@@ -51,6 +51,8 @@ Aspose.Words for Javaを使用して、PFX証明書でdocxファイルにデジ�
 C# と X509 証明書を使い、Aspose.Words for .NET で Word 文書にデジタル署名を付与する手順をステップバイステップで紹介します。
 ### [Word文書にデジタル署名を追加する方法（Aspose.Words）](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
 Aspose.Words を使用して Word 文書にデジタル署名を追加する手順を解説します。
+### [Java を使用して Word 文書にデジタル署名する方法](./how-to-digitally-sign-word-document-using-java/)
+Aspose.Words for Java を使用して、Word 文書に安全なデジタル署名を追加する方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

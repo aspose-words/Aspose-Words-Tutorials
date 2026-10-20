@@ -51,6 +51,8 @@ Aprenda a assinar arquivos DOCX usando C# com o Aspose.Words. Guia passo a passo
 Aprenda a assinar arquivos docx usando um certificado PFX com instruções detalhadas e código de exemplo.
 ### [Como adicionar uma assinatura digital a um documento Word com Aspose.Words](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
 Aprenda a inserir assinaturas digitais em documentos Word usando Aspose.Words, garantindo autenticidade e integridade.
+### [Como assinar digitalmente um documento Word usando Java](./how-to-digitally-sign-word-document-using-java/)
+Aprenda a assinar digitalmente documentos Word com Java usando Aspose.Words, garantindo integridade e autenticidade.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

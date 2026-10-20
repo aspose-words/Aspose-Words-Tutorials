@@ -50,6 +50,9 @@ Leer hoe u documentinhoud kunt bewerken met Aspose.Words voor Java. Deze stapsge
 ### [Word-document programmatically maken – volledige stap‑voor‑stap handleiding](./create-word-document-programmatically-full-step-by-step-guid/)
 
 Leer hoe u met Aspose.Words voor Java een Word-document volledig programmatically kunt maken, stap voor stap met voorbeeldcode.
+### [Radiale grafiek maken en invoegen in Word met Java](./create-radial-chart-and-insert-chart-into-word-with-java/)
+
+Leer hoe u een radiale grafiek maakt en deze in een Word-document invoegt met Aspose.Words voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

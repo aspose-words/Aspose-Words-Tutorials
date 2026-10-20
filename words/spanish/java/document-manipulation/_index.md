@@ -115,6 +115,8 @@ Aprenda a crear un botón ActiveX en documentos DOCX usando Java con esta guía 
 Aprenda a generar documentos Word desde cero en Java usando Aspose.Words con ejemplos de código paso a paso.
 ### [Crear documento en blanco con un botón de comando interactivo en Word usando Java](./create-blank-document-with-an-interactive-command-button-in/)
 Cree un documento en blanco con un botón de comando interactivo en Word mediante Java.
+### [Cómo crear un documento Word programáticamente con Aspose.Words](./how-to-create-word-document-programmatically-with-aspose-wor/)
+Aprenda a generar documentos Word de forma programática usando Aspose.Words en Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
