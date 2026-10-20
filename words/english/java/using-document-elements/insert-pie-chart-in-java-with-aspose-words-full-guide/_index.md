@@ -47,7 +47,7 @@ tags:
 - Chart
 - Document Generation
 - Word Automation
-title: Insert, Format, and Generate Pie Chart in Java with Aspose.Words API – Full Guide
+title: Insert, Format, and Generate Pie Chart in Java with Aspose.Words for Java – Complete Guide
 url: /java/using-document-elements/insert-pie-chart-in-java-with-aspose-words-full-guide/
 ---
 

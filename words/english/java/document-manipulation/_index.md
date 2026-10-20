@@ -1,5 +1,5 @@
 ---
-title: Manipulate Documents with Aspose.Words for Java API
+title: Create, Edit, Convert Documents with Aspose.Words for Java API
 linktitle: Document Manipulation
 second_title: Aspose.Words Java Document Processing API
 description: Learn how to efficiently manipulate documents using Aspose.Words for Java with our comprehensive tutorials. Boost your Java document processing skills today!
@@ -59,7 +59,7 @@ Delve into advanced topics like working with headers and footers, inserting tabl
 
 ## Where to Find Aspose.Words for Java Tutorials
 
-Ready to embark on your document manipulation journey? You can access our tutorials and resources at the [Aspose.Words API Documentation]({{< relref "https://reference.aspose.com/words/java/" >}}). Whether you're a beginner or an experienced developer, our step-by-step tutorials cater to all skill levels.
+Ready to embark on your document manipulation journey? You can access our tutorials and resources at the [Aspose.Words for Java API Documentation](https://reference.aspose.com/words/java/). Whether you're a beginner or an experienced developer, our step-by-step tutorials cater to all skill levels.
 
 Document manipulation using Aspose.Words for Java is a valuable skill for developers and businesses. With our tutorials and the power of Aspose.Words, you can streamline your document-related tasks, boost productivity, and create stunning documents effortlessly.
 
@@ -102,7 +102,9 @@ Learn how to split documents into HTML pages with Aspose.Words for Java. Follow 
 Master Document Creation with Aspose.Words for Java. A Step-by-Step Guide to Adding Text, Tables, Images, and More. Create Stunning Word Documents Effortlessly.
 ### [Cloning and Combining Documents in Aspose.Words for Java]({{< relref "cloning-and-combining-documents/_index.md" >}})
 Learn how to clone and combine documents in Aspose.Words for Java. Step-by-step guide with source code examples.
-### [Comparing Documents in Aspose.Words for Java]({{< relref "comparing-documents/_index.md" >}})
+### [Comparing Documents in Aspose.Words for Java]({{< relref "compar
+
+ing-documents/_index.md" >}})
 Learn how to compare documents in Aspose.Words for Java, a powerful Java library for efficient document analysis. 
 ### [Create Word Document in Java – Full Guide with Aspose.Words]({{< relref "create-word-document-in-java-full-guide-with-aspose-words/_index.md" >}})
 Comprehensive guide to creating Word documents in Java using Aspose.Words, with step-by-step code examples.

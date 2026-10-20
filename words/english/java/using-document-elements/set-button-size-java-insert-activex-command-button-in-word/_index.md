@@ -72,7 +72,7 @@ tags:
 - Aspose.Words
 - ActiveX
 - Word Automation
-title: How to set button size with Aspose.Words for Java – Insert ActiveX Command Button in Word
+title: Add ActiveX Command Button and Set Button Size with Aspose.Words for Java
 url: /java/using-document-elements/set-button-size-java-insert-activex-command-button-in-word/
 ---
 
@@ -80,7 +80,7 @@ url: /java/using-document-elements/set-button-size-java-insert-activex-command-b
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to set button size with Aspose.Words for Java – Insert ActiveX Command Button in Word
+# Add ActiveX Command Button and Set Button Size with Aspose.Words for Java
 
 Ever wondered **how to set button size java** when you’re automating Word documents? Maybe you’re building a reporting tool that needs a clickable “Submit” button right inside the .docx file. In this tutorial we’ll walk through the entire process—creating a blank Word document, inserting an ActiveX command button, and explicitly setting its width and height—all with Java and Aspose.Words.
 

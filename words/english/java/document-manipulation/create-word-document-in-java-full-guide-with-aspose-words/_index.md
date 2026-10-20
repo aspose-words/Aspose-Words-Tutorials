@@ -20,14 +20,14 @@ og_description: Create Word document in Java with Aspose.Words. Master inserting
   docx.
 og_image_alt: Screenshot showing a Java program that creates a Word document with
   a colored content control
-og_title: Create DOCX Word Document in Java with Aspose.Words – Full Guide
+og_title: Create DOCX Word Document in Java with Aspose.Words for Java – Full Guide
 schemas:
 - author: Aspose
   dateModified: '2026-07-29'
   description: Create Word document in Java using Aspose.Words. Learn to set placeholder
     text, insert content control word, apply color to control, and save document as
     docx.
-  headline: Create DOCX Word Document in Java with Aspose.Words – Full Guide
+  headline: Create DOCX Word Document in Java with Aspose.Words for Java – Full Guide
   type: TechArticle
 tags:
 - Aspose.Words
@@ -35,7 +35,7 @@ tags:
 - Word Automation
 - Content Control
 - Placeholder
-title: Create DOCX Word Document in Java with Aspose.Words – Full Guide
+title: Create DOCX Word Document in Java with Aspose.Words for Java – Full Guide
 url: /java/document-manipulation/create-word-document-in-java-full-guide-with-aspose-words/
 ---
 
@@ -220,15 +220,13 @@ What’s next? Try chaining multiple controls together, populate them from a dat
 
 If you hit any snags, drop a comment below or check the Aspose.Words Java API reference for deeper dives into styling, event handling, and custom XML parts. Happy coding, and enjoy the power of programmatic Word generation!
 
-
 ## What should you learn next?
 
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [Create Word Document Java – Add Rectangle Shape with Shadow Effect](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Track Changes in Word Documents Using Aspose.Words Java: A Complete Guide to Document Revisions](/words/english/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/)
-- [Create PDF from Word with Barcode Generation – Aspose.Words for Java](/words/english/java/document-conversion-and-export/using-barcode-generation/)
+- [Create Word Document Java – Add Rectangle Shape with Shadow Effect]({{< relref "/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/" >}})
+- [Track Changes in Word Documents Using Aspose.Words Java: A Complete Guide to Document Revisions]({{< relref "/words/english/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/" >}})
+- [Create PDF from Word with Barcode Generation – Aspose.Words for Java]({{< relref "/words/english/java/document-conversion-and-export/using-barcode-generation/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/products-backtop-button >}}

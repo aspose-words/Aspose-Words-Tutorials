@@ -51,7 +51,7 @@ tags:
 - Aspose.Words
 - Java
 - Word Automation
-title: Generate Word Document with Shapes Using Aspose.Words for Java – Insert Rectangle Shape and Group Shapes
+title: Create Word Document with Shapes Using Aspose.Words for Java – Insert Rectangle Shape and Group Shapes
 url: /java/images-shapes/create-word-document-with-shapes-in-java-complete-aspose-wor/
 ---
 
@@ -237,7 +237,7 @@ The following tutorials cover closely related topics that build on the technique
 - [Create rectangle shape in Word with Aspose.Words – Step‑by‑step guide]({{< relref "words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

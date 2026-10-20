@@ -1,5 +1,5 @@
 ---
-title: "Generate DOCX Documents – Advanced Text Processing with Aspose.Words for Java"
+title: "Generate DOCX Documents with Aspose.Words for Java API – Advanced Text Processing"
 description: "Learn how to automate document generation with Aspose.Words for Java, covering insert control characters, search replace text, and manage document layout techniques."
 weight: 12
 url: "/java/advanced-text-processing/"

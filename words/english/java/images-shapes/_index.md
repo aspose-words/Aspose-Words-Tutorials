@@ -1,5 +1,5 @@
 ---
-title: "Learn to Insert Images & Shapes with Aspose.Words Java API | Master Your Docs"
+title: "Insert Images & Shapes into DOCX with Aspose.Words Java API | Master Your Docs"
 description: "Enhance your Java applications with Aspose.Words tutorials on images and shapes. Learn to seamlessly integrate visual elements into documents for professional-grade outputs."
 weight: 6
 url: "/java/images-shapes/"

@@ -1,12 +1,11 @@
 ---
-title: Manipulating Document Elements with Aspose.Words for Java
-linktitle: Manipulating Document Elements with Aspose.Words for Java
+title: Manipulating Document Elements using Aspose.Words for Java API
+linktitle: Manipulating Document Elements using Aspose.Words for Java API
 second_title: Aspose.Words Java Document Processing API
 description: Learn how to efficiently use document elements in Aspose.Words for Java with our comprehensive tutorials. Enhance your Java document processing skills today!
 weight: 24
 url: /java/using-document-elements/
 ---
-
 
 {{< blocks/products/pf/main-wrap-class >}}
 

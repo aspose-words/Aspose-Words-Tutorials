@@ -56,7 +56,7 @@ tags:
 - Java
 - Big5
 - FontMapping
-title: How to Configure LoadOptions for Big5 in Java with Aspose.Words – Full Guide
+title: How to Configure LoadOptions for Big5 in Java with Aspose.Words – Full Document Conversion Guide
 url: /java/document-loading-and-saving/configure-loadoptions-for-big5-full-java-guide-with-aspose-w/
 ---
 
@@ -270,9 +270,9 @@ Got more questions about Big5 handling, font mapping, or Aspose.Words in general
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Aspose Words Java Document To Text Conversion](/words/chinese/java/performance-optimization/aspose-words-java-document-to-text-conversion/)
-- [Aspose Words Java Document Conversion Security](/words/chinese/java/document-operations/aspose-words-java-document-conversion-security/)
-- [How to Add Watermark – Document Conversion and Export with Aspose.Words for Java](/words/english/java/document-conversion-and-export/)
+- [Aspose Words Java Document To Text Conversion]({{< relref "/words/chinese/java/performance-optimization/aspose-words-java-document-to-text-conversion/" >}})
+- [Aspose Words Java Document Conversion Security]({{< relref "/words/chinese/java/document-operations/aspose-words-java-document-conversion-security/" >}})
+- [How to Add Watermark – Document Conversion and Export with Aspose.Words for Java]({{< relref "/words/english/java/document-conversion-and-export/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/products-backtop-button >}}

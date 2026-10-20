@@ -45,7 +45,7 @@ tags:
 - Java
 - Word document
 - Image handling
-title: How to Hide Picture in Word Using Aspose.Words API for Java – Step‑by‑Step Guide
+title: Hide Picture in Word with Aspose.Words for Java – Step‑by‑Step Guide
 url: /java/images-shapes/how-to-hide-picture-in-word-with-java-step-by-step-guide/
 ---
 
