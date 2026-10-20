@@ -98,6 +98,14 @@ Lär dig hur du återställer korrupta DOCX-filer och konverterar dem till PDF m
 ### [Spara DOCX som TXT – Komplett guide för att exportera Word‑ekvationer](./save-docx-as-txt-complete-guide-to-export-word-equations/)
 Lär dig hur du sparar DOCX-filer som TXT och exporterar Word‑ekvationer med Aspose.Words för Python. Steg‑för‑steg‑instruktioner och kodexempel.
 ### [Spara Word som PDF – Generera tillgänglig PDF/A‑2U med Aspose.Words](./save-word-as-pdf-generate-accessible-pdf-a-2u-with-aspose-wo/)
+### [Konvertera docx till markdown med Python – Fullständig steg-för-steg-guide](./convert-docx-to-markdown-with-python-full-step-by-step-guide/)
+Lär dig hur du konverterar docx-filer till markdown med Aspose.Words för Python. Följ en komplett steg‑för‑steg‑guide.
+### [Hur man sparar Word som PDF – Komplett Aspose.Words-guide](./how-to-save-word-as-pdf-complete-aspose-words-guide/)
+Lär dig hur du sparar Word-dokument som PDF med Aspose.Words för Python. Steg‑för‑steg‑instruktioner och kodexempel.
+### [Konvertera docx till markdown – Komplett Python-guide med bildextraktion](./convert-docx-to-markdown-complete-python-guide-with-image-ex/)
+Lär dig hur du konverterar docx-filer till markdown med bildextraktion i Python med Aspose.Words. Steg‑för‑steg‑instruktioner och kodexempel.
+### [Konvertera docx till markdown – Komplett Aspose.Words-guide](./convert-docx-to-markdown-complete-aspose-words-guide/)
+Lär dig hur du konverterar docx-filer till markdown med Aspose.Words. En komplett steg‑för‑steg‑guide med kodexempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

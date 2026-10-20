@@ -127,6 +127,18 @@ DOCX 파일을 텍스트 파일로 변환하고 Word 수식을 추출하는 방�
 ### [Word를 PDF로 저장 – Aspose.Words로 접근성 있는 PDF/A‑2U 생성](./save-word-as-pdf-generate-accessible-pdf-a-2u-with-aspose-wo/)
 Aspose.Words를 사용해 Word 문서를 PDF/A‑2U 형식으로 변환하여 접근성을 보장하는 방법을 단계별로 안내합니다.
 
+### [Python으로 docx를 Markdown으로 변환 – 완전 단계별 가이드](./convert-docx-to-markdown-with-python-full-step-by-step-guide/)
+Python을 사용해 손상되지 않은 docx 파일을 Markdown 형식으로 변환하는 방법을 단계별로 안내합니다.
+
+### [Word를 PDF로 저장하는 방법 – 완전 Aspose.Words 가이드](./how-to-save-word-as-pdf-complete-aspose-words-guide/)
+Aspose.Words를 사용해 Word 문서를 PDF로 저장하는 방법을 단계별로 안내합니다.
+
+### [docx를 markdown으로 변환 – 이미지 추출 포함 완전 Python 가이드](./convert-docx-to-markdown-complete-python-guide-with-image-ex/)
+docx 파일을 markdown으로 변환하고 이미지 추출까지 자동으로 수행하는 방법을 단계별로 안내합니다.
+
+### [docx를 markdown으로 변환 – 완전 Aspose.Words 가이드](./convert-docx-to-markdown-complete-aspose-words-guide/)
+Aspose.Words를 사용해 docx 파일을 markdown으로 변환하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

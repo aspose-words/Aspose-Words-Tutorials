@@ -53,6 +53,8 @@
 เรียนรู้วิธีสร้างและกำหนดรูปสี่เหลี่ยมในเอกสาร Word ด้วย Aspose.Words สำหรับ Python
 ### [สร้างรูปสี่เหลี่ยมใน Python – คู่มือ Aspose.Words ฉบับสมบูรณ์](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
 เรียนรู้วิธีสร้างรูปสี่เหลี่ยมในเอกสาร Word ด้วย Python และ Aspose.Words อย่างละเอียด
+### [วิธีแทรกรูปสี่เหลี่ยมผืนผ้าใน Python – คู่มือ Aspose.Words ฉบับสมบูรณ์](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
+เรียนรู้วิธีแทรกรูปสี่เหลี่ยมผืนผ้าในเอกสาร Word ด้วย Python‑net และ Aspose.Words อย่างละเอียดเพื่อเพิ่มความสวยงามให้ไฟล์ของคุณ
 
 ## แหล่งข้อมูลเพิ่มเติม
 

@@ -133,6 +133,18 @@
 ### [將 Word 儲存為 PDF – 使用 Aspose.Words 產生可存取的 PDF/A‑2U](./save-word-as-pdf-generate-accessible-pdf-a-2u-with-aspose-wo/)
 學習使用 Aspose.Words for Python 將 Word 文件轉換為符合 PDF/A‑2U 標準的可存取 PDF，提升文件可讀性與合規性。
 
+### [使用 Python 將 docx 轉換為 Markdown – 完整逐步指南](./convert-docx-to-markdown-with-python-full-step-by-step-guide/)
+學習使用 Aspose.Words for Python 將 docx 文件轉換為 Markdown 的完整步驟。
+
+### [如何將 Word 儲存為 PDF – 完整 Aspose.Words 指南](./how-to-save-word-as-pdf-complete-aspose-words-guide/)
+學習使用 Aspose.Words for Python 將 Word 文件保存為 PDF 的完整步驟，提升文件轉換效率。
+
+### [將 docx 轉換為 markdown – 完整 Python 指南（含圖片提取）](./convert-docx-to-markdown-complete-python-guide-with-image-ex/)
+學習使用 Aspose.Words for Python 將 docx 轉換為 Markdown，並提取其中的圖片，完整步驟指南。
+
+### [將 docx 轉換為 markdown – 完整 Aspose.Words 指南](./convert-docx-to-markdown-complete-aspose-words-guide/)
+學習使用 Aspose.Words for Python 將 docx 文件完整轉換為 Markdown 的步驟與技巧。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

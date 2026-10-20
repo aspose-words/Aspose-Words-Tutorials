@@ -99,6 +99,14 @@ Naučte se exportovat rovnice z dokumentu Word do formátu TXT pomocí Aspose.Wo
 Naučte se uložit dokument Word jako PDF/A‑2U s přístupností pomocí Aspose.Words pro Python.
 ### [Obnova poškozeného DOCX a převod do PDF pomocí Aspose.Words (Python)](./recover-corrupted-docx-and-convert-to-pdf-with-aspose-words/)
 Naučte se opravit poškozené soubory DOCX a převést je do PDF pomocí Aspose.Words pro Python.
+### [Převod DOCX na Markdown s Pythonem – Kompletní průvodce krok za krokem](./convert-docx-to-markdown-with-python-full-step-by-step-guide/)
+Kompletní průvodce převodem DOCX do Markdownu pomocí Aspose.Words pro Python.
+### [Jak uložit Word jako PDF – Kompletní průvodce Aspose.Words](./how-to-save-word-as-pdf-complete-aspose-words-guide/)
+Naučte se uložit dokument Word jako PDF pomocí Aspose.Words pro Python a zjednodušte konverzi.
+### [Převod DOCX na Markdown – Kompletní průvodce v Pythonu s extrakcí obrázků](./convert-docx-to-markdown-complete-python-guide-with-image-ex/)
+Naučte se převádět soubory DOCX do Markdownu v Pythonu a extrahovat obrázky pomocí Aspose.Words.
+### [Převod DOCX na Markdown – Kompletní průvodce Aspose.Words](./convert-docx-to-markdown-complete-aspose-words-guide/)
+Kompletní průvodce převodem souborů DOCX do Markdownu pomocí Aspose.Words pro Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

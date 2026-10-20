@@ -53,6 +53,8 @@ Apprenez à sauvegarder un document Word avec un rectangle ombré en utilisant A
 Apprenez à créer et personnaliser une forme rectangulaire dans un document Word à l'aide d'Aspose.Words pour Python.
 ### [Créer une forme rectangulaire en Python – Guide complet Aspose.Words](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
 Apprenez à créer et personnaliser une forme rectangulaire dans vos documents Word à l'aide d'Aspose.Words pour Python.
+### [Comment insérer une forme rectangle en Python – Guide complet Aspose.Words](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
+Apprenez à ajouter et configurer une forme rectangle dans vos documents Word avec Aspose.Words pour Python.
 
 ## Ressources supplémentaires
 

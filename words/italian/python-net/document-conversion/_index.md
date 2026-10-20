@@ -124,6 +124,17 @@ Impara a salvare documenti Word in PDF/A‑2U accessibile usando Aspose.Words pe
 
 ### [Recupera DOCX corrotti e converti in PDF con Aspose.Words (Python)](./recover-corrupted-docx-and-convert-to-pdf-with-aspose-words/)
 Ripara file DOCX danneggiati e trasformali in PDF usando Aspose.Words per Python.
+### [Converti docx in markdown con Python – Guida completa passo‑passo](./convert-docx-to-markdown-with-python-full-step-by-step-guide/)
+Impara a convertire file DOCX in Markdown usando Aspose.Words per Python con una guida dettagliata passo‑passo.
+
+### [Come salvare Word come PDF – Guida completa Aspose.Words](./how-to-save-word-as-pdf-complete-aspose-words-guide/)
+Scopri come salvare documenti Word in PDF con Aspose.Words per Python. Guida completa passo‑passo per una conversione senza sforzi.
+
+### [Converti docx in markdown – Guida completa Python con estrazione immagini](./convert-docx-to-markdown-complete-python-guide-with-image-ex/)
+Impara a convertire file DOCX in Markdown con Aspose.Words per Python, includendo l'estrazione delle immagini.
+
+### [Converti docx in markdown – Guida completa Aspose.Words](./convert-docx-to-markdown-complete-aspose-words-guide/)
+Scopri come convertire file DOCX in Markdown con Aspose.Words, con istruzioni passo‑passo e consigli pratici per risultati perfetti.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

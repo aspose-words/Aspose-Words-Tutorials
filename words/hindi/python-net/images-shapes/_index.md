@@ -55,6 +55,9 @@ Python के साथ Aspose.Words का उपयोग करके छा�
 ### [Python में आयताकार आकार बनाना – पूर्ण Aspose.Words गाइड](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
 Python के लिए Aspose.Words का उपयोग करके आयताकार आकार कैसे बनाएं और अनुकूलित करें, इस पूर्ण गाइड में सीखें।
 
+### [Python में आयताकार आकार कैसे सम्मिलित करें – पूर्ण Aspose.Words गाइड](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
+Python के लिए Aspose.Words का उपयोग करके दस्तावेज़ में आयताकार आकार सम्मिलित करने की पूरी प्रक्रिया सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [पायथन-नेट दस्तावेज़ीकरण के लिए Aspose.Words](https://docs.aspose.com/words/python-net/)

@@ -54,6 +54,8 @@ Leer hoe u een document opslaat met een rechthoek met schaduw met Aspose.Words v
 Leer hoe u een rechthoekige vorm toevoegt aan een Word-document met Aspose.Words voor Python.
 ### [Rechthoekvorm maken in Python – Complete Aspose.Words-gids](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
 Leer hoe u een rechthoekvorm toevoegt en aanpast in een Word-document met Aspose.Words voor Python.
+### [Hoe een rechthoekvorm in Python in te voegen – Complete Aspose.Words-gids](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
+Leer hoe u een rechthoekvorm toevoegt aan Word-documenten met Aspose.Words voor Python.
 
 ## Aanvullende bronnen
 

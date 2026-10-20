@@ -121,6 +121,17 @@ DOCX फ़ाइलों को TXT में बदलें और वर्
 
 ### [दोषग्रस्त DOCX को पुनर्प्राप्त करें और Aspose.Words (Python) के साथ PDF में परिवर्तित करें](./recover-corrupted-docx-and-convert-to-pdf-with-aspose-words/)
 दोषग्रस्त DOCX फ़ाइलों को ठीक करें और उन्हें Aspose.Words for Python का उपयोग करके PDF में बदलें। चरण-दर-चरण मार्गदर्शन।
+### [DOCX को Markdown में परिवर्तित करें – पूर्ण पायथन चरण‑दर‑चरण गाइड](./convert-docx-to-markdown-with-python-full-step-by-step-guide/)
+Python के साथ DOCX को Markdown में परिवर्तित करने के लिए पूर्ण चरण‑दर‑चरण मार्गदर्शन।
+
+### [वर्ड को PDF के रूप में सहेजें – पूर्ण Aspose.Words गाइड](./how-to-save-word-as-pdf-complete-aspose-words-guide/)
+Aspose.Words का उपयोग करके वर्ड दस्तावेज़ को PDF में बदलने के चरण‑दर‑चरण मार्गदर्शन।
+
+### [DOCX को Markdown में परिवर्तित करें – इमेज एक्सट्रैक्शन के साथ पूर्ण पायथन गाइड](./convert-docx-to-markdown-complete-python-guide-with-image-ex/)
+DOCX फ़ाइलों को Markdown में बदलें और साथ में छवियों को निकालें, पायथन कोड और चरण‑दर‑चरण मार्गदर्शन।
+
+### [DOCX को Markdown में परिवर्तित करें – पूर्ण Aspose.Words गाइड](./convert-docx-to-markdown-complete-aspose-words-guide/)
+Aspose.Words के साथ DOCX को Markdown में बदलने के लिए चरण‑दर‑चरण मार्गदर्शन।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

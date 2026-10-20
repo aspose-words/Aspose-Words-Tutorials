@@ -125,6 +125,18 @@ Hướng dẫn chi tiết cách khôi phục tệp DOCX hỏng và chuyển đ�
 ### [Lưu docx thành txt – Hướng dẫn đầy đủ xuất công thức Word](./save-docx-as-txt-complete-guide-to-export-word-equations/)
 Hướng dẫn chi tiết cách lưu tài liệu Word (docx) thành tệp txt, bao gồm việc xuất các công thức Word một cách chính xác.
 
+### [Chuyển đổi docx sang markdown với Python – Hướng dẫn đầy đủ từng bước](./convert-docx-to-markdown-with-python-full-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang Markdown bằng Aspose.Words for Python.
+
+### [Cách lưu Word thành PDF – Hướng dẫn đầy đủ Aspose.Words](./how-to-save-word-as-pdf-complete-aspose-words-guide/)
+Hướng dẫn chi tiết cách lưu tài liệu Word thành PDF bằng Aspose.Words for Python.
+
+### [Chuyển đổi docx sang markdown – Hướng dẫn Python đầy đủ với trích xuất hình ảnh](./convert-docx-to-markdown-complete-python-guide-with-image-ex/)
+Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang Markdown bằng Python, đồng thời trích xuất và lưu hình ảnh từ tài liệu.
+
+### [Chuyển đổi docx sang markdown – Hướng dẫn đầy đủ Aspose.Words](./convert-docx-to-markdown-complete-aspose-words-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang Markdown bằng Aspose.Words, bao gồm các bước thực hiện và mẹo tối ưu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -53,6 +53,8 @@ Scopri come salvare un documento Word includendo un rettangolo con ombra usando 
 ### [Creare una forma rettangolare in Python – tutorial Aspose.Words](./create-rectangle-shape-in-python-aspose-words-tutorial/)
 ### [Crea forma rettangolare in Python – Guida completa Aspose.Words](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
 Scopri come creare e personalizzare una forma rettangolare nei documenti Word usando Aspose.Words per Python.
+### [Come inserire una forma rettangolare in Python – Guida completa Aspose.Words](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
+Scopri come aggiungere e configurare una forma rettangolare nei documenti Word usando Aspose.Words per Python.
 
 ## Risorse aggiuntive
 

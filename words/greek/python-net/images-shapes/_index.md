@@ -53,6 +53,8 @@
 Μάθετε πώς να δημιουργήσετε και να προσαρμόσετε σχήμα ορθογωνίου σε έγγραφα Word χρησιμοποιώντας Aspose.Words για Python.
 ### [Δημιουργία Σχήματος Ορθογωνίου σε Python – Πλήρης Οδηγός Aspose.Words](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
 Μάθετε πώς να δημιουργήσετε σχήμα ορθογωνίου σε έγγραφα Word χρησιμοποιώντας Aspose.Words για Python.
+### [Πώς να Εισάγετε Σχήμα Ορθογωνίου σε Python – Πλήρης Οδηγός Aspose.Words](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
+Μάθετε πώς να εισάγετε σχήμα ορθογωνίου σε έγγραφα Word με Aspose.Words για Python.
 
 ## Πρόσθετοι Πόροι
 

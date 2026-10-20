@@ -124,6 +124,17 @@ Aspose.Words を使用して Word 文書を PDF/A‑2U 形式で保存し、ア�
 
 ### [破損した DOCX の復元と PDF への変換 – Aspose.Words (Python)](./recover-corrupted-docx-and-convert-to-pdf-with-aspose-words/)
 破損した DOCX ファイルを復元し、Aspose.Words を使用して PDF に変換する手順を Python で解説します。
+### [PythonでdocxをMarkdownに変換する – 完全ステップバイステップガイド](./convert-docx-to-markdown-with-python-full-step-by-step-guide/)
+Python を使用して docx ファイルを Markdown に変換する手順を詳しく解説します。簡単に実装できます。
+
+### [Word を PDF に保存する方法 – 完全 Aspose.Words ガイド](./how-to-save-word-as-pdf-complete-aspose-words-guide/)
+Aspose.Words を使用して Word 文書を PDF に変換し、保存する手順を詳しく解説します。簡単に実装できます。
+
+### [docx を markdown に変換 – 画像抽出付き 完全 Python ガイド](./convert-docx-to-markdown-complete-python-guide-with-image-ex/)
+Python で docx を markdown に変換し、画像を抽出して保存する手順を詳しく解説します。
+
+### [docx を markdown に変換 – 完全 Aspose.Words ガイド](./convert-docx-to-markdown-complete-aspose-words-guide/)
+Aspose.Words を使用して docx ファイルを markdown に変換する手順を詳しく解説します。簡単に実装できます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

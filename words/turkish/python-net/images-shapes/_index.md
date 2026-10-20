@@ -53,6 +53,8 @@ Python kullanarak gölgelendirilmiş bir dikdörtgen ekleyerek Word belgesini ka
 Python ve Aspose.Words kullanarak Word belgesine dikdörtgen şekli eklemeyi adım adım öğrenin.
 ### [Python'da Dikdörtgen Şekil Oluşturma – Tam Aspose.Words Kılavuzu](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
 Python ve Aspose.Words kullanarak Word belgelerinde dikdörtgen şekil eklemeyi ve özelleştirmeyi adım adım öğrenin.
+### [Python'da Dikdörtgen Şekil Ekleme – Tam Aspose.Words Kılavuzu](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
+Python ve Aspose.Words kullanarak Word belgelerine dikdörtgen şekil eklemeyi adım adım öğrenin.
 
 ## Ek Kaynaklar
 

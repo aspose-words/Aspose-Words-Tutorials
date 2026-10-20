@@ -52,6 +52,8 @@
 ### [Создание прямоугольной фигуры в Python – руководство Aspose.Words](./create-rectangle-shape-in-python-aspose-words-tutorial/)
 ### [Создание прямоугольной фигуры в Python – Полное руководство Aspose.Words](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
 Узнайте, как создать прямоугольную фигуру в документе Word с помощью Aspose.Words для Python.
+### [Как вставить прямоугольную фигуру в Python – Полное руководство Aspose.Words](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
+Узнайте, как вставить прямоугольную форму в документы Word с помощью Aspose.Words для Python.
 
 ## Дополнительные ресурсы
 

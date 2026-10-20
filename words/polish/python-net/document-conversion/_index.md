@@ -119,6 +119,17 @@ Dowiedz się, jak przy użyciu Aspose.Words for Python wyeksportować równania 
 
 ### [Zapisz Word jako PDF – Generuj dostępny PDF/A‑2U przy użyciu Aspose.Words](./save-word-as-pdf-generate-accessible-pdf-a-2u-with-aspose-wo/)
 Dowiedz się, jak przy pomocy Aspose.Words zapisać dokument Word jako PDF oraz wygenerować dostępny plik PDF/A‑2U.
+### [Konwertuj docx do markdown w Pythonie – Pełny przewodnik krok po kroku](./convert-docx-to-markdown-with-python-full-step-by-step-guide/)
+Pełny przewodnik krok po kroku, jak konwertować pliki DOCX do Markdown przy użycia Aspose.Words for Python.
+
+### [Jak zapisać Word jako PDF – Kompletny przewodnik Aspose.Words](./how-to-save-word-as-pdf-complete-aspose-words-guide/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument Word w formacie PDF w kilku prostych krokach.
+
+### [Konwertuj docx do markdown – Kompletny przewodnik w Pythonie z wyodrębnianiem obrazów](./convert-docx-to-markdown-complete-python-guide-with-image-ex/)
+Dowiedz się, jak konwertować pliki DOCX do Markdown w Pythonie, jednocześnie wyodrębniając obrazy.
+
+### [Konwertuj docx do markdown – Kompletny przewodnik Aspose.Words](./convert-docx-to-markdown-complete-aspose-words-guide/)
+Poznaj kompletny przewodnik, jak przy użyciu Aspose.Words konwertować pliki DOCX do formatu Markdown.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

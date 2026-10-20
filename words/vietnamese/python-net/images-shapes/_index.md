@@ -52,6 +52,8 @@ Hướng dẫn chi tiết cách lưu tài liệu Word với hình chữ nhật c
 ### [Tạo hình chữ nhật trong Python – Hướng dẫn Aspose.Words](./create-rectangle-shape-in-python-aspose-words-tutorial/)
 ### [Tạo Hình chữ nhật trong Python – Hướng dẫn đầy đủ Aspose.Words](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
 Hướng dẫn chi tiết cách tạo hình chữ nhật trong tài liệu Word bằng Python và Aspose.Words.
+### [Cách chèn hình chữ nhật trong Python – Hướng dẫn đầy đủ Aspose.Words](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
+Tìm hiểu cách chèn hình chữ nhật vào tài liệu Word bằng Python và Aspose.Words, bao gồm các bước chi tiết và mã mẫu.
 
 ## Tài nguyên bổ sung
 

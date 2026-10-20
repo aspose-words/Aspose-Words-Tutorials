@@ -54,6 +54,8 @@ Aprenda a salvar um documento Word contendo um retângulo com sombra usando Aspo
 Aprenda a criar uma forma retangular em documentos Word usando Aspose.Words para Python.
 ### [Criar Forma Retangular em Python – Guia Completo do Aspose.Words](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
 Aprenda a criar e formatar formas retangulares em documentos Word usando Aspose.Words para Python.
+### [Como inserir forma retangular em Python – Guia completo do Aspose.Words](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
+Aprenda a inserir e formatar formas retangulares em documentos Word usando Aspose.Words para Python.
 
 ## Recursos adicionais
 
