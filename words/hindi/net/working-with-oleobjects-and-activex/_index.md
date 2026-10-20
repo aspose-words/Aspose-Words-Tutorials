@@ -31,6 +31,7 @@ OLE और ActiveX ऑब्जेक्ट के साथ वर्ड प्
 | [ActiveX बटन के साथ Word दस्तावेज़ बनाएं – C# गाइड](./create-word-document-with-activex-button-c-guide/) | C# में Aspose.Words का उपयोग करके ActiveX बटन के साथ Word दस्तावेज़ बनाने की चरण-दर-चरण मार्गदर्शिका। |
 | [Aspose.Words के साथ वर्ड दस्तावेज़ बटन बनाएं – पूर्ण कोड उदाहरण](./create-word-document-button-with-aspose-words-full-code-exam/) | Aspose.Words का उपयोग करके बटन के माध्यम से वर्ड दस्तावेज़ बनाने का पूर्ण कोड उदाहरण। |
 | [Aspose.Words के साथ Word दस्तावेज़ में कमांड बटन जोड़ें – पूर्ण गाइड](./add-command-button-to-word-document-with-aspose-words-comple/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में कमांड बटन कैसे जोड़ें, सीखें। |
+| [Aspose.Words के साथ Word में ActiveX नियंत्रण कैसे जोड़ें – चरण‑दर‑चरण मार्गदर्शिका](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Aspose.Words के साथ Word दस्तावेज़ में ActiveX नियंत्रण जोड़ने की चरण‑दर‑चरण प्रक्रिया सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -39,6 +39,7 @@ Los ejemplos de código de los tutoriales te ayudarán a comprender los concepto
 | [Establecer texto de marcador de posición en Aspose.Words – Guía completa en C#](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Aprenda a establecer texto de marcador de posición en controles de contenido de Aspose.Words con C# paso a paso. |
 | [Cómo agregar un control de contenido y crear un documento Word con Aspose – Guía completa](./how-to-add-content-control-and-create-word-document-with-asp/) | Aprenda paso a paso a añadir controles de contenido y generar documentos Word con Aspose.Words para .NET en esta guía completa. |
 | [Crear documento Word programáticamente – agregar control de contenido y marcador de posición](./create-word-document-programmatically-add-content-control-an/) | Aprenda a crear un documento Word mediante código, añadiendo un control de contenido y un marcador de posición. |
+| [Cómo crear un control de contenido en C# con Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Aprenda a crear un control de contenido en C# usando Aspose.Words paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

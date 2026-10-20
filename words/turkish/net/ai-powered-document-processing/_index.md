@@ -78,6 +78,8 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [C#'ta Belge Özeti Oluşturma – Tam OpenAI Kılavuzu](./create-document-summary-in-c-complete-openai-guide/) | OpenAI modelleriyle C# kullanarak belge özetleme sürecini adım adım öğrenin. |
 | [Aspose.Words AI ile Word Belgesini Özetleme – Tam Kılavuz](./summarize-word-document-with-aspose-words-ai-full-guide/) | Aspose.Words AI kullanarak Word belgelerini etkili bir şekilde özetlemenin adım adım rehberi. |
 | [C#'ta AI belge özetleme – tam rehber](./ai-document-summarization-in-c-complete-guide/) | Aspose.Words for .NET ve AI modelleriyle C# kullanarak belge özetlemenin tüm adımlarını öğrenin. |
+| [C# ile AI özeti oluşturma – adım adım kılavuz](./create-ai-summary-in-c-step-by-step-guide/) | C# kullanarak AI destekli belge özetleri oluşturmayı adım adım öğrenin. |
+| [C# ile AI kullanarak docx'i Fransızcaya çevir](./translate-docx-to-french-with-ai-in-c/) | C# ve AI ile docx belgelerini Fransızcaya otomatik çevirin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

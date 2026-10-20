@@ -76,6 +76,7 @@ Aspose.Words for .NET 图形编程教程提供了全面的资源，帮助您学�
 | [在 C# 中使用 Aspose.Words 添加饼图标签 – 完整指南](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) 学习如何在 C# 使用 Aspose.Words 为饼图添加标签，完整分步指南。|
 | [使用 Aspose.Words C# 在图表中显示百分比](./how-to-show-percentages-in-chart-with-aspose-words-c/) 学习如何使用 Aspose.Words for .NET C# 在图表中显示百分比，轻松实现数据可视化。|
 | [如何在 C# 中向 Word 图表添加数据标签 – 分步指南](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) 学习使用 Aspose.Words for .NET 在 Word 图表中添加数据标签的完整步骤，提升文档可视化效果。|
+| [在 C# 中创建 Word 饼图 – 分步指南](./create-pie-chart-word-in-c-step-by-step-guide/) 学习如何使用 Aspose.Words for .NET 在 Word 文档中通过 C# 创建饼图，提供详细的分步指南。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

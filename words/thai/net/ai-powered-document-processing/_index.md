@@ -66,6 +66,8 @@
 | [สร้างสรุปเอกสารใน C# – คู่มือ OpenAI ฉบับเต็ม](./create-document-summary-in-c-complete-openai-guide/) | เรียนรู้วิธีใช้ Aspose.Words สำหรับ .NET ร่วมกับ OpenAI เพื่อสร้างสรุปเอกสารใน C# อย่างครบถ้วน -
 | [สรุปเอกสาร Word ด้วย Aspose.Words AI – คู่มือเต็ม](./summarize-word-document-with-aspose-words-ai-full-guide/) | เรียนรู้วิธีใช้ Aspose.Words AI เพื่อสรุปเอกสาร Word อย่างละเอียดและง่ายดายในขั้นตอนเดียว - 
 | [สรุปเอกสารด้วย AI ใน C# – คู่มือฉบับสมบูรณ์](./ai-document-summarization-in-c-complete-guide/) | เรียนรู้วิธีสรุปเอกสารด้วย AI ใน C# อย่างละเอียดด้วย Aspose.Words สำหรับ .NET |
+| [สร้างสรุป AI ด้วย C# – คู่มือขั้นตอนต่อขั้นตอน](./create-ai-summary-in-c-step-by-step-guide/) | เรียนรู้วิธีสร้างสรุป AI ด้วย Aspose.Words สำหรับ .NET ใน C# อย่างละเอียดและเป็นขั้นตอน |
+| [แปลไฟล์ docx เป็นภาษาฝรั่งเศสด้วย AI ใน C#](./translate-docx-to-french-with-ai-in-c/) | เรียนรู้วิธีใช้ Aspose.Words สำหรับ .NET เพื่อแปลเอกสาร docx เป็นภาษาฝรั่งเศสด้วย AI ใน C# |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

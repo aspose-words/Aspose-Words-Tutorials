@@ -68,6 +68,8 @@ Aspose.Words for .NET を使い、これらのチュートリアルに従うこ�
 | [C# で Word の図形を非表示にする方法 – ステップバイステップ ガイド](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) Aspose.Words for .NET を使用して、C# で Word 文書内の図形を非表示にする手順を詳しく解説します。 |
 | [矩形を描く – AsposeでWordに図形を追加](./draw-rectangle-word-add-shapes-in-word-with-aspose/) Aspose.Words for .NET を使用して、Word 文書に矩形の図形を追加し、属性を設定する方法をステップバイステップで解説します。 |
 | [隠し楕円形シェイプで空白の Word 文書を作成 – 完全 C# ガイド](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) Aspose.Words for .NET と C# を使用して、隠し楕円形シェイプを含む空白の Word 文書を作成する手順をステップバイステップで解説します。 |
+| [Word で図形をグループ化し、文書に図形を追加する方法](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) Aspose.Words for .NET を使用して、Word 文書で図形をグループ化し、追加する手順をステップバイステップで解説します。 |
+| [Aspose.Words を使用して C# で長方形の図形を挿入するステップバイステップ ガイド](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) Aspose.Words for .NET を使用して、C# で長方形の図形を挿入する方法を段階的に解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

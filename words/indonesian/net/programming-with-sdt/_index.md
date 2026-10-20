@@ -39,6 +39,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Mengatur Teks Placeholder di Aspose.Words – Panduan Lengkap C#](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Pelajari cara mengatur teks placeholder pada kontrol konten di dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan lengkap C#. |
 | [Cara Menambahkan Kontrol Konten dan Membuat Dokumen Word dengan Aspose – Panduan Lengkap](./how-to-add-content-control-and-create-word-document-with-asp/) | Pelajari cara menambahkan kontrol konten dan membuat dokumen Word secara lengkap menggunakan Aspose.Words untuk .NET. |
 | [Buat dokumen Word secara programatis – tambahkan kontrol konten dan placeholder](./create-word-document-programmatically-add-content-control-an/) | Pelajari cara membuat dokumen Word secara programatis, menambahkan kontrol konten dan placeholder menggunakan Aspose.Words untuk .NET. |
+| [Cara membuat kontrol konten dalam C# dengan Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Panduan langkah demi langkah untuk membuat kontrol konten di Word menggunakan C# dan Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

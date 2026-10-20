@@ -40,6 +40,7 @@ Aspose.Words for .NET 教學讓您深入探索程式庫的功能，並學習如�
 | [如何使用 Aspose 新增內容控制項並建立 Word 文件 – 完整指南](./how-to-add-content-control-and-create-word-document-with-asp/) |本完整指南說明如何使用 Aspose 在 Word 中新增內容控制項並建立文件，提供步驟與範例程式碼。 |
 
 | [程式化建立 Word 文件 – 新增內容控制項與佔位符](./create-word-document-programmatically-add-content-control-an/) |  |
+| [如何在 C# 中使用 Aspose.Words 建立內容控制項](./how-to-create-content-control-in-c-with-aspose-words/) |本教學說明如何使用 Aspose.Words for .NET 在 C# 中建立並設定內容控制項。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

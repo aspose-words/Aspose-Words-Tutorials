@@ -40,6 +40,7 @@ Die Codebeispiele in den Tutorials helfen Ihnen, die Konzepte zu verstehen und d
 | [Wie man ein Inhaltssteuerelement hinzufügt und ein Word-Dokument mit Aspose erstellt – Komplettanleitung](./how-to-add-content-control-and-create-word-document-with-asp/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Inhaltssteuerelement hinzufügen und ein vollständiges Word-Dokument erstellen. |
 | [Word-Dokument programmgesteuert erstellen – Inhaltssteuerelement und Platzhalter hinzufügen](./create-word-document-programmatically-add-content-control-an/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument programmgesteuert erstellen und ein Inhaltssteuerelement mit Platzhalter hinzufügen. |
 
+| [Wie man ein Inhaltssteuerelement in C# mit Aspose.Words erstellt](./how-to-create-content-control-in-c-with-aspose-words/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Inhaltssteuerelement in C# erstellen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

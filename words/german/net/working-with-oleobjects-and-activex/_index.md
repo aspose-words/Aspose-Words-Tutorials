@@ -31,6 +31,7 @@ Diese Tutorials bieten Ihnen eine praktische Schritt-für-Schritt-Anleitung zur 
 | [Word-Dokument mit ActiveX-Button erstellen – C#-Leitfaden](./create-word-document-with-activex-button-c-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument mit einem ActiveX-Button in C# erstellen. |
 | [Word-Dokument-Schaltfläche mit Aspose.Words erstellen – Vollständiges Codebeispiel](./create-word-document-button-with-aspose-words-full-code-exam/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET eine Schaltfläche erstellen, die ein Word-Dokument generiert – vollständiges Codebeispiel. |
 | [Schaltfläche zum Word-Dokument mit Aspose.Words hinzufügen – Komplettanleitung](./add-command-button-to-word-document-with-aspose-words-comple/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET eine Schaltfläche in ein Word-Dokument einfügen. |
+| [ActiveX-Steuerelement in Word mit Aspose.Words hinzufügen – Schritt‑für‑Schritt‑Anleitung](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein ActiveX-Steuerelement in ein Word-Dokument einfügen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

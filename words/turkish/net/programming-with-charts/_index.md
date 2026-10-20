@@ -76,6 +76,7 @@ Bu eğitimlerle, Word belgelerinizi görsel olarak çekici ve bilgilendirici gra
 | [C# ile Aspose.Words kullanarak Pasta Grafik Etiketleri Ekleme – Tam Kılavuz](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | C# ve Aspose.Words ile Word belgesine pasta grafik etiketleri eklemeyi adım adım öğrenin. |
 | [Aspose.Words C# ile Grafikte Yüzdeleri Gösterme](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Aspose.Words for .NET ile grafiklerde yüzde değerlerini nasıl göstereceğinizi adım adım öğrenin. |
 | [C# ile Word grafiğine veri etiketleri ekleme – adım adım kılavuz](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Bu adım adım rehberde C# kullanarak Word grafiğine veri etiketleri eklemeyi öğrenin. |
+| [C# ile Word'de Pasta Grafiği Oluşturma – adım adım kılavuz](./create-pie-chart-word-in-c-step-by-step-guide/) | Aspose.Words for .NET kullanarak C# ile Word belgesine pasta grafiği eklemeyi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

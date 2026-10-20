@@ -32,6 +32,7 @@ Tyto tutoriály vám poskytnou praktický a podrobný přístup ke zpracování 
 
 | [Vytvořit tlačítko pro dokument Word s Aspose.Words – kompletní příklad kódu](./create-word-document-button-with-aspose-words-full-code-exam/) | Naučte se, jak pomocí Aspose.Words vytvořit tlačítko, které generuje dokument Word, s kompletním ukázkovým kódem. |
 | [Přidání tlačítka Command do dokumentu Word s Aspose.Words – Kompletní průvodce](./add-command-button-to-word-document-with-aspose-words-comple/) | Naučte se, jak přidat tlačítko Command do dokumentu Word pomocí Aspose.Words v tomto podrobném návodu. |
+| [Jak přidat ovládací prvek ActiveX do Wordu pomocí Aspose.Words – krok za krokem](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Naučte se krok za krokem přidávat ovládací prvek ActiveX do dokumentu Word pomocí Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

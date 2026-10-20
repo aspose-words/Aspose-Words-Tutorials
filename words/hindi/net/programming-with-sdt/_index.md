@@ -39,6 +39,7 @@ Aspose.Words for .NET ट्यूटोरियल आपको लाइब�
 | [Aspose.Words में प्लेसहोल्डर टेक्स्ट सेट करें – पूर्ण C# गाइड](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Aspose.Words के साथ प्लेसहोल्डर टेक्स्ट सेट करने के लिए चरण-दर-चरण C# गाइड। |
 | [Aspose के साथ कंटेंट कंट्रोल जोड़ें और वर्ड दस्तावेज़ बनाएं – पूर्ण गाइड](./how-to-add-content-control-and-create-word-document-with-asp/) | Aspose.Words का उपयोग करके कंटेंट कंट्रोल जोड़ने और वर्ड दस्तावेज़ बनाने की पूरी प्रक्रिया सीखें। |
 | [प्रोग्रामेटिक रूप से वर्ड दस्तावेज़ बनाएं – सामग्री नियंत्रण और प्लेसहोल्डर जोड़ें](./create-word-document-programmatically-add-content-control-an/) |  |
+| [C# में Aspose.Words के साथ कंटेंट कंट्रोल कैसे बनाएं](./how-to-create-content-control-in-c-with-aspose-words/) | Aspose.Words का उपयोग करके C# में कंटेंट कंट्रोल बनाने की चरण-दर-चरण मार्गदर्शिका। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -30,6 +30,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Membaca Properti XControl Aktif Dari File Word](./read-active-xcontrol-properties/) | Pelajari cara membaca properti kontrol ActiveX dari file Word menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah. Tingkatkan keterampilan otomatisasi dokumen Anda. |
 | [Buat Dokumen Word dengan Tombol ActiveX – Panduan C#](./create-word-document-with-activex-button-c-guide/) | Pelajari cara membuat dokumen Word dengan tombol ActiveX menggunakan Aspose.Words untuk .NET dalam panduan C# langkah demi langkah. |
 | [Buat tombol dokumen Word dengan Aspose.Words – Contoh Kode Lengkap](./create-word-document-button-with-aspose-words-full-code-exam/) | Pelajari cara membuat tombol untuk menghasilkan dokumen Word menggunakan Aspose.Words dengan contoh kode lengkap. |
+| [Cara Menambahkan Kontrol ActiveX di Word dengan Aspose.Words – Panduan Langkah demi Langkah](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Pelajari cara menambahkan kontrol ActiveX ke dokumen Word menggunakan Aspose.Words dengan panduan langkah demi langkah. |
 
 | [Menambahkan Tombol Perintah ke Dokumen Word dengan Aspose.Words – Panduan Lengkap](./add-command-button-to-word-document-with-aspose-words-comple/) | Pelajari cara menambahkan tombol perintah ke dokumen Word menggunakan Aspose.Words dalam panduan langkah demi langkah yang lengkap. |
 

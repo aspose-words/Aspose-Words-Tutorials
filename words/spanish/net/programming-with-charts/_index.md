@@ -76,6 +76,7 @@ Con estos tutoriales, podrá mejorar sus documentos de Word añadiendo gráficos
 | [Explotar una porción de gráfico circular en C# con Aspose.Words – Guía completa](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) Aprenda a separar una porción de un gráfico circular en Word usando Aspose.Words para .NET con este tutorial paso a paso.
 | [Agregar etiquetas de gráfico circular en C# usando Aspose.Words – Guía completa](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) Aprenda a agregar etiquetas a un gráfico circular en Word con Aspose.Words para .NET con esta guía paso a paso.
 | [Cómo mostrar porcentajes en un gráfico con Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Aprenda a mostrar porcentajes en los gráficos de Word con Aspose.Words para .NET mediante este tutorial paso a paso. |
+| [Crear gráfico de pastel en Word en C# – guía paso a paso](./create-pie-chart-word-in-c-step-by-step-guide/) Aprenda a crear un gráfico de pastel en documentos Word con Aspose.Words para .NET mediante C# en esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

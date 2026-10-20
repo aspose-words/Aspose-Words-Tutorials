@@ -39,6 +39,7 @@
 | [Ορισμός κειμένου placeholder στο Aspose.Words – Πλήρης οδηγός C#](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Μάθετε πώς να ορίζετε κείμενο placeholder σε έγγραφα Word με το Aspose.Words χρησιμοποιώντας C#. |
 | [Πώς να προσθέσετε έλεγχο περιεχομένου και να δημιουργήσετε έγγραφο Word με το Aspose – Πλήρης οδηγός](./how-to-add-content-control-and-create-word-document-with-asp/) | Μάθετε πώς να προσθέσετε έλεγχο περιεχομένου και να δημιουργήσετε ένα έγγραφο Word με το Aspose.Words για .NET σε αυτόν τον πλήρη οδηγό. |
 | [Δημιουργία εγγράφου Word προγραμματιστικά – προσθήκη ελέγχου περιεχομένου και κράτησης θέσης](./create-word-document-programmatically-add-content-control-an/) | Μάθετε πώς να δημιουργήσετε ένα έγγραφο Word μέσω κώδικα, προσθέτοντας ελέγχους περιεχομένου και placeholders. |
+| [Πώς να δημιουργήσετε στοιχείο ελέγχου περιεχομένου σε C# με το Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Μάθετε πώς να δημιουργήσετε ένα στοιχείο ελέγχου περιεχομένου σε C# χρησιμοποιώντας το Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

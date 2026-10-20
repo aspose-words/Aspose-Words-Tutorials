@@ -106,7 +106,7 @@ class Program
 | [How to Set Resolution When Converting DOCX to Markdown](./how-to-set-resolution-when-converting-docx-to-markdown/) | Learn how to set image resolution when converting DOCX files to Markdown using Aspose.Words for .NET. |
 | [How to Export LaTeX from Word – Convert DOCX to Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/) | Learn how to export LaTeX from Word by converting DOCX to Markdown using Aspose.Words for .NET. |
 | [Export docx to markdown in C# – Complete Guide](./export-docx-to-markdown-in-c-complete-guide/) | Learn how to export docx to markdown in C# with a complete guide using Aspose.Words for .NET. |
-| [How to Export LaTeX from Word: Convert DOCX to Markdown with Aspose](./how-to-export-latex-from-word-convert-docx-to-markdown-with/) | Learn how to export LaTeX from Word by converting DOCX to Markdown using Aspose.Words for .NET. |
+| [How to Export LaTeX from Word – Convert DOCX to Markdown with Aspose](./how-to-export-latex-from-word-convert-docx-to-markdown-with/) | Learn how to export LaTeX from Word by converting DOCX to Markdown using Aspose.Words for .NET. |
 | [Convert Word to Markdown – Embed Images as Base64](./convert-word-to-markdown-embed-images-as-base64/) | Learn how to embed images as Base64 when converting Word documents to Markdown using Aspose.Words for .NET. |
 | [How to Save Markdown from Word – Complete C# Guide](./how-to-save-markdown-from-word-complete-c-guide/) | Learn how to save Word documents as Markdown using Aspose.Words in C# with a comprehensive step-by-step guide. |
 | [How to Save Markdown from Word – Complete Guide](./how-to-save-markdown-from-word-complete-guide/) | Learn how to save Word documents as Markdown using Aspose.Words with a comprehensive step-by-step guide. |
@@ -151,6 +151,7 @@ class Program
 | [Save Word as Markdown with Custom Image Folder – Full Guide](./save-word-as-markdown-with-custom-image-folder-full-guide/) | Learn how to save Word documents as Markdown while storing images in a custom folder using Aspose.Words for .NET. |
 | [Save Document as Markdown with C# – Full Guide](./save-document-as-markdown-with-c-full-guide/) | Learn how to save documents as Markdown using Aspose.Words for .NET with a comprehensive C# guide. |
 | [Save Word as Markdown – Export Tables to HTML with Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/) | Learn how to export Word tables to HTML while saving the document as Markdown using Aspose.Words for .NET. |
+| [Save markdown as word – step‑by‑step guide for C# developers](./save-markdown-as-word-step-by-step-guide-for-c-developers/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

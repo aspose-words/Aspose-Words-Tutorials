@@ -78,6 +78,8 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [Dokumentenzusammenfassung in C# erstellen – Vollständiger OpenAI-Leitfaden](./create-document-summary-in-c-complete-openai-guide/) | Erfahren Sie, wie Sie mit Aspose.Words und OpenAI in C# komplette Dokumentenzusammenfassungen erstellen – Schritt‑für‑Schritt‑Anleitung. |
 | [Word-Dokument mit Aspose.Words KI zusammenfassen – Vollständige Anleitung](./summarize-word-document-with-aspose-words-ai-full-guide/) | Erfahren Sie, wie Sie Word-Dokumente mithilfe von Aspose.Words KI vollständig zusammenfassen – Schritt für Schritt Anleitung. |
 | [KI-Dokumentenzusammenfassung in C# – vollständiger Leitfaden](./ai-document-summarization-in-c-complete-guide/) | Erfahren Sie, wie Sie KI-gestützte Dokumentenzusammenfassungen in C# mit Aspose.Words implementieren – Schritt‑für‑Schritt‑Anleitung. |
+| [KI-Zusammenfassung in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-ai-summary-in-c-step-by-step-guide/) |  |
+| [DOCX ins Französische übersetzen mit KI in C#](./translate-docx-to-french-with-ai-in-c/) | Verwenden Sie Aspose.Words für .NET und KI, um DOCX-Dateien automatisch ins Französische zu übersetzen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

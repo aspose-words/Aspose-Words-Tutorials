@@ -39,6 +39,7 @@ Os exemplos de código fornecidos nos tutoriais ajudarão você a entender os co
 | [Definir texto de placeholder no Aspose.Words – Guia completo em C#](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Aprenda a definir texto de placeholder em documentos do Word usando Aspose.Words para .NET com este guia passo a passo em C#. |
 | [Como adicionar controle de conteúdo e criar documento Word com Aspose – Guia completo](./how-to-add-content-control-and-create-word-document-with-asp/) | Aprenda passo a passo como adicionar controles de conteúdo e criar documentos Word usando Aspose.Words para .NET. |
 | [Criar documento Word programaticamente – adicionar controle de conteúdo e placeholder](./create-word-document-programmatically-add-content-control-an/) | Aprenda a criar um documento Word programaticamente, adicionando um controle de conteúdo e um placeholder usando Aspose.Words para .NET. |
+| [Como criar controle de conteúdo em C# com Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Aprenda a criar um controle de conteúdo em C# usando Aspose.Words com este tutorial passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

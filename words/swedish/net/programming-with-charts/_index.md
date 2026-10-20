@@ -76,6 +76,7 @@ Med dessa handledningar kommer du att kunna förbättra dina Word-dokument genom
 | [Lägg till etiketter för pajdiagram i C# med Aspose.Words – Fullständig guide](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Lär dig hur du lägger till etiketter för pajdiagram i C# med Aspose.Words i en steg-för-steg-guide. |
 | [Visa procenttal i diagram med Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Lär dig hur du visar procentvärden i diagram i Word med Aspose.Words för .NET och C#. |
 | [Anpassad placering av dataetiketter för diagram i C#](./custom-data-label-placement-for-charts-in-c/) | Lär dig hur du placerar dataetiketter manuellt i diagram med Aspose.Words för .NET i C#. |
+| [Skapa pajdiagram i Word i C# – steg‑för‑steg‑guide](./create-pie-chart-word-in-c-step-by-step-guide/) | Lär dig hur du skapar ett pajdiagram i ett Word‑dokument med Aspose.Words för .NET i C# med vår detaljerade steg‑för‑steg‑guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

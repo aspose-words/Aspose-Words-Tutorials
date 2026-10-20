@@ -77,6 +77,8 @@
 | [C# में दस्तावेज़ सारांश बनाना – पूर्ण OpenAI गाइड](./create-document-summary-in-c-complete-openai-guide/) | .NET के लिए Aspose.Words और OpenAI का उपयोग करके C# में दस्तावेज़ सारांश बनाना सीखें। |
 | [Aspose.Words AI के साथ Word दस्तावेज़ को सारांशित करें – पूर्ण गाइड](./summarize-word-document-with-aspose-words-ai-full-guide/) | .NET के लिए Aspose.Words AI का उपयोग करके Word दस्तावेज़ को प्रभावी रूप से सारांशित करने की पूरी गाइड। |
 | [C# में AI दस्तावेज़ सारांश – पूर्ण गाइड](./ai-document-summarization-in-c-complete-guide/) | C# के लिए Aspose.Words के साथ AI मॉडल का उपयोग करके दस्तावेज़ सारांश बनाने की पूरी मार्गदर्शिका। |
+| [C# में AI सारांश बनाना – चरण‑दर‑चरण गाइड](./create-ai-summary-in-c-step-by-step-guide/) | C# का उपयोग करके AI‑संचालित दस्तावेज़ सारांश बनाने के लिए चरण‑दर‑चरण मार्गदर्शिका। |
+| [C# में AI के साथ docx को फ़्रेंच में अनुवाद करें](./translate-docx-to-french-with-ai-in-c/) | C# और Aspose.Words का उपयोग करके AI के माध्यम से docx फ़ाइलों को फ़्रेंच में अनुवाद करने की प्रक्रिया सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

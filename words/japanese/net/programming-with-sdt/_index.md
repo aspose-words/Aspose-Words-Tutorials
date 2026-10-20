@@ -40,6 +40,8 @@ Aspose.Words for .NET のチュートリアルでは、ライブラリの機能�
 | [Asposeでコンテンツコントロールを追加し、Word文書を作成する方法 – 完全ガイド](./how-to-add-content-control-and-create-word-document-with-asp/) Aspose.Words for .NET を使用して、コンテンツコントロールを追加し、Word 文書を作成する手順を詳しく解説します。 |
 
 | [Word文書をプログラムで作成 – コンテンツコントロールとプレースホルダーを追加](./create-word-document-programmatically-add-content-control-an/) |
+| [Aspose.Words を使用した C# でのコンテンツ コントロールの作成方法](./how-to-create-content-control-in-c-with-aspose-words/) Aspose.Words for .NET を使って C# でコンテンツ コントロールを作成する手順をステップバイステップで解説します。 |
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

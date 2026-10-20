@@ -76,6 +76,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara Menampilkan Persentase dalam Bagan dengan Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Pelajari cara menampilkan nilai persentase pada bagan di Word menggunakan Aspose.Words dengan C# dalam panduan langkah demi langkah ini. Bahasa Indonesia:
 | [Cara menambahkan label data ke bagan Word dalam C# – panduan langkah demi langkah](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Pelajari cara menambahkan label data pada bagan Word menggunakan C# dengan panduan langkah demi langkah ini. Bahasa Indonesia: |
 | [Penempatan Label Data Kustom untuk Bagan di C#](./custom-data-label-placement-for-charts-in-c/) | Pelajari cara menempatkan label data secara kustom pada bagan di Word menggunakan C# dengan Aspose.Words. Bahasa Indonesia: |
+| [Membuat Bagan Pai di Word dengan C# – Panduan Langkah demi Langkah](./create-pie-chart-word-in-c-step-by-step-guide/) | Pelajari cara membuat bagan pai di dokumen Word menggunakan C# dengan panduan langkah demi langkah ini. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

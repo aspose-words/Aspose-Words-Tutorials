@@ -40,6 +40,7 @@
 | [Как добавить элемент управления содержимым и создать документ Word с Aspose – Полное руководство](./how-to-add-content-control-and-create-word-document-with-asp/) | Полное руководство по добавлению элемента управления содержимым и созданию документа Word с помощью Aspose. |
 
 | [Создать документ Word программно – добавить элемент управления содержимым и заполнитель](./create-word-document-programmatically-add-content-control-an/) | Узнайте, как программно создать документ Word, добавить элемент управления содержимым и установить заполнитель. |
+| [Как создать элемент управления содержимым в C# с Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Узнайте, как программно создать элемент управления содержимым в C# с помощью Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

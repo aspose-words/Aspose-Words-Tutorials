@@ -76,6 +76,7 @@ Mit diesen Tutorials können Sie Ihre Word-Dokumente mit ansprechenden und infor
 | [Kuchenstück in einem Kreisdiagramm explodieren in C# mit Aspose.Words – Vollständige Anleitung](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Erfahren Sie, wie Sie ein einzelnes Kuchenstück in einem Kreisdiagramm mit Aspose.Words für .NET hervorheben und anpassen. |
 | [Kuchenbeschriftungen zu einem Kreisdiagramm in C# mit Aspose.Words hinzufügen – Vollständige Anleitung](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Erfahren Sie, wie Sie in C# mit Aspose.Words Beschriftungen zu Kreisdiagrammen hinzufügen und anpassen. |
 | [Prozentsätze in Diagrammen mit Aspose.Words C# anzeigen](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Prozentsätze in Diagrammen mit Aspose.Words für .NET anzeigen. |
+| [Erstellen eines Kreisdiagramms in Word mit C# – Schritt‑für‑Schritt‑Anleitung](./create-pie-chart-word-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Kreisdiagramm in ein Word-Dokument einfügen und anpassen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

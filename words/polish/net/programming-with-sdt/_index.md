@@ -25,6 +25,7 @@ Przykłady kodu zawarte w samouczkach pomogą Ci zrozumieć koncepcje i ćwiczy�
 | Tytuł | Opis |
 | --- | --- |
 | [Kontrola zawartości typu pola wyboru](./check-box-type-content-control/) | Dowiedz się, jak dodać kontrolkę zawartości pola wyboru w dokumentach programu Word za pomocą pakietu Aspose.Words dla platformy .NET, korzystając ze szczegółowego samouczka krok po kroku. |
+| [Jak utworzyć kontrolkę zawartości w C# przy użyciu Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Dowiedz się, jak programowo utworzyć kontrolkę zawartości w C# przy użyciu biblioteki Aspose.Words. |
 | [Aktualny stan pola wyboru](./current-state-of-check-box/) | Dowiedz się, jak zarządzać polami wyboru w dokumentach Word za pomocą Aspose.Words dla .NET. Ten przewodnik obejmuje programowe konfigurowanie, aktualizowanie i zapisywanie pól wyboru. |
 | [Modyfikuj kontrolki zawartości](./modify-content-controls/) | Dowiedz się, jak modyfikować strukturalne znaczniki dokumentu w programie Word za pomocą Aspose.Words dla .NET. Aktualizuj tekst, listy rozwijane i obrazy krok po kroku. |
 | [Kontrola zawartości pola kombi](./combo-box-content-control/) | Utwórz kontrolkę zawartości pola kombi w dokumentach Worda za pomocą Aspose.Words dla .NET z naszym szczegółowym samouczkiem. Idealne do zwiększenia interaktywności dokumentu. |

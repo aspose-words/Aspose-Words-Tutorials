@@ -76,6 +76,8 @@ Terakhir, jangan lupa untuk memeriksa [Bekerja Dengan Opsi Ringkasan](./working-
 | [Buat Ringkasan Dokumen dalam C# – Panduan Lengkap OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Pelajari cara membuat ringkasan dokumen secara otomatis menggunakan OpenAI dengan Aspose.Words untuk .NET dalam panduan langkah demi langkah. |
 | [Ringkas Dokumen Word dengan Aspose.Words AI – Panduan Lengkap](./summarize-word-document-with-aspose-words-ai-full-guide/) | Ringkas dokumen Word secara otomatis menggunakan AI Aspose.Words dengan panduan lengkap langkah demi langkah. |
 | [Ringkasan Dokumen AI dalam C# – Panduan Lengkap](./ai-document-summarization-in-c-complete-guide/) | Panduan lengkap untuk meringkas dokumen menggunakan AI dengan C# dan Aspose.Words. |
+| [Buat Ringkasan AI dalam C# – panduan langkah demi langkah](./create-ai-summary-in-c-step-by-step-guide/) | Pelajari cara membuat ringkasan AI menggunakan C# dengan Aspose.Words secara terperinci. |
+| [Menerjemahkan docx ke Bahasa Prancis dengan AI di C#](./translate-docx-to-french-with-ai-in-c/) | Pelajari cara menerjemahkan file docx ke bahasa Prancis menggunakan AI dengan C# dan Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

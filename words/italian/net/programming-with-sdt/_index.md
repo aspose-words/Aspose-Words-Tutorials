@@ -39,6 +39,7 @@ Gli esempi di codice forniti nei tutorial ti aiuteranno a comprendere i concetti
 | [Imposta testo segnaposto in Aspose.Words – Guida completa C#](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Scopri come impostare il testo segnaposto nei controlli di contenuto strutturato con Aspose.Words per .NET usando C# in questa guida completa. |
 | [Come aggiungere un controllo del contenuto e creare un documento Word con Aspose – Guida completa](./how-to-add-content-control-and-create-word-document-with-asp/) | Scopri come aggiungere controlli del contenuto e generare documenti Word con Aspose in una guida completa passo passo. |
 | [Crea un documento Word programmaticamente – aggiungi un controllo di contenuto e un segnaposto](./create-word-document-programmatically-add-content-control-an/) | Scopri come generare un documento Word con controlli di contenuto e segnaposto usando Aspose.Words per .NET. |
+| [Come creare un controllo di contenuto in C# con Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Scopri come creare un controllo di contenuto in C# utilizzando Aspose.Words per .NET con questa guida passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

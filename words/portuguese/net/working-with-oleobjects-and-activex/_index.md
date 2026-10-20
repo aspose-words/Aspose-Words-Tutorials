@@ -32,6 +32,7 @@ Estes tutoriais oferecem uma abordagem prática e passo a passo para o processam
 | [Criar botão de documento Word com Aspose.Words – Exemplo de código completo](./create-word-document-button-with-aspose-words-full-code-exam/) | Aprenda a criar um botão que gera um documento Word usando Aspose.Words com um exemplo de código completo. |
 
 | [Adicionar botão de comando a documento Word com Aspose.Words – Guia completo](./add-command-button-to-word-document-with-aspose-words-comple/) | Aprenda a inserir um botão de comando em documentos do Word usando o Aspose.Words para .NET neste guia completo passo a passo. |
+| [Como adicionar controle ActiveX no Word com Aspose.Words – guia passo a passo](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Aprenda a inserir controles ActiveX em documentos do Word usando Aspose.Words para .NET com este guia detalhado passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -39,6 +39,7 @@ Az oktatóanyagokban található kódminták segítenek megérteni az SDT vezér
 | [Helyőrző szöveg beállítása az Aspose.Words-ben – Teljes C# útmutató](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Tanulja meg, hogyan állíthat be helyőrző szöveget az Aspose.Words C# könyvtárban lépésről lépésre útmutatóval. |
 | [Hogyan adjon hozzá tartalomvezérlőt és hozzon létre Word-dokumentumot az Aspose segítségével – Teljes útmutató](./how-to-add-content-control-and-create-word-document-with-asp/) | Ismerje meg, hogyan hozhat létre tartalomvezérlőket és Word-dokumentumot az Aspose.Words for .NET segítségével. |
 | [Word dokumentum létrehozása programozottan – tartalomvezérlő és helyőrző hozzáadása](./create-word-document-programmatically-add-content-control-an/) | Ismerje meg, hogyan hozhat létre Word dokumentumot programozottan, és adhat hozzá tartalomvezérlőt és helyőrzőt az Aspose.Words for .NET segítségével. |
+| [Hogyan hozzunk létre tartalomvezérlőt C#-ban az Aspose.Words segítségével](./how-to-create-content-control-in-c-with-aspose-words/) | Ismerje meg, hogyan hozhat létre tartalomvezérlőt C#-ban az Aspose.Words használatával. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
