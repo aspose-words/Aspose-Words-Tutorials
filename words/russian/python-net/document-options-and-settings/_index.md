@@ -53,6 +53,8 @@
 Узнайте, как сделать PDF доступным с помощью Aspose.Words. Полное пошаговое руководство с примерами кода.
 ### [Как восстановить DOCX – Полное руководство с Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
 Узнайте, как восстановить повреждённые файлы DOCX с помощью Aspose.Words. Пошаговое руководство с примерами кода.
+### [Восстановление повреждённого документа Word с помощью Aspose.Words – пошаговое руководство на Python](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+Узнайте, как восстановить повреждённый файл Word с помощью Aspose.Words в Python. Пошаговое руководство с примерами кода.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

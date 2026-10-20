@@ -53,6 +53,8 @@ Erfahren Sie, wie Sie die Dokumentfunktionalität mit Web-Erweiterungen mithilfe
 Erfahren Sie, wie Sie PDFs mit Aspose.Words barrierefrei gestalten. Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
 ### [Wie man DOCX wiederherstellt – Komplettanleitung mit Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
 Erfahren Sie, wie Sie beschädigte DOCX-Dateien mit Aspose.Words wiederherstellen können. Schritt-für-Schritt-Anleitung mit Beispielcode.
+### [Beschädigtes Word-Dokument mit Aspose.Words wiederherstellen – Schritt‑für‑Schritt‑Python‑Anleitung](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+Erfahren Sie, wie Sie beschädigte Word‑Dateien mit Aspose.Words in Python reparieren. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

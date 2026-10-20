@@ -149,6 +149,14 @@ Leer hoe je met Aspose.Words voor Python afbeeldingen hernoemt tijdens het conve
 Leer hoe je met Aspose.Words voor Python documenten als PDF opslaat met een volledige programmeergids.
 ### [DOCX naar PDF converteren met Aspose.Words – Gids](./convert-docx-to-pdf-with-aspose-words-guide/)
 Leer hoe je met Aspose.Words voor Python DOCX-bestanden naar PDF kunt converteren.
+### [Word opslaan als Markdown, vergelijkingen exporteren naar LaTeX (Python)](./save-word-as-markdown-export-equations-to-latex-python/)
+Leer hoe je Word-documenten opslaat als Markdown en formules exporteert naar LaTeX met Aspose.Words voor Python.
+
+### [Exporteren van Word-vergelijkingen naar LaTeX met Aspose.Words – stapsgewijze gids](./export-word-equations-latex-with-aspose-words-step-by-step-g/)
+Leer hoe je met Aspose.Words vergelijkingen uit Word-documenten exporteert naar LaTeX, stap voor stap.
+
+### [docx exporteren naar pdf – genereer toegankelijke PDF](./export-docx-to-pdf-generate-accessible-pdf/)
+Leer hoe je met Aspose.Words voor Python DOCX-bestanden naar toegankelijke PDF's exporteert.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

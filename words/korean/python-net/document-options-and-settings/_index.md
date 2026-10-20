@@ -53,6 +53,8 @@ Aspose.Words for Python을 사용하여 웹 확장 기능으로 문서 기능을
 Aspose.Words를 사용해 PDF를 접근 가능하게 만드는 방법을 단계별 예제와 함께 자세히 안내합니다.
 ### [DOCX 복구 방법 – Aspose.Words 완전 가이드](./how-to-recover-docx-complete-guide-with-aspose-words/)
 Aspose.Words를 사용하여 손상된 DOCX 파일을 복구하는 방법을 단계별로 안내합니다.
+### [Aspose.Words를 사용한 손상된 워드 문서 복구 – 단계별 Python 가이드](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+Aspose.Words for Python을 활용하여 손상된 Word 문서를 복구하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

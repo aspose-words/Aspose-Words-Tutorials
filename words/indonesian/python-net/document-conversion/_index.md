@@ -119,6 +119,12 @@ Pelajari cara mengganti nama gambar saat mengonversi file DOCX ke Markdown mengg
 Pelajari cara menyimpan dokumen sebagai PDF menggunakan Aspose.Words dengan panduan pemrograman lengkap.
 ### [Mengonversi DOCX ke PDF dengan Aspose.Words – Panduan](./convert-docx-to-pdf-with-aspose-words-guide/)
 Pelajari cara mengonversi file DOCX menjadi PDF menggunakan Aspose.Words untuk Python secara mudah dan cepat.
+### [Simpan Word sebagai Markdown, ekspor persamaan ke LaTeX (Python)](./save-word-as-markdown-export-equations-to-latex-python/)
+Pelajari cara menyimpan dokumen Word menjadi file Markdown dan mengekspor persamaan ke LaTeX menggunakan Aspose.Words untuk Python.
+### [Ekspor persamaan Word ke LaTeX dengan Aspose.Words – panduan langkah demi langkah](./export-word-equations-latex-with-aspose-words-step-by-step-g/)
+Pelajari cara mengekspor persamaan Word ke format LaTeX menggunakan Aspose.Words dengan panduan langkah demi langkah.
+### [Ekspor DOCX ke PDF – Hasilkan PDF yang Aksesibel](./export-docx-to-pdf-generate-accessible-pdf/)
+Pelajari cara mengekspor file DOCX ke PDF yang dapat diakses dengan Aspose.Words untuk Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

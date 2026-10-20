@@ -148,6 +148,14 @@
 学习使用 Aspose.Words for Python 在将 DOCX 转换为 Markdown 时重命名图像，确保文件名一致且易于管理。
 ### [使用 Aspose.Words 将 DOCX 转换为 PDF – 完整指南](./convert-docx-to-pdf-with-aspose-words-guide/)
 学习使用 Aspose.Words for Python 将 DOCX 文件转换为 PDF，实现高质量文档输出。
+### [将 Word 保存为 Markdown，导出公式为 LaTeX（Python）](./save-word-as-markdown-export-equations-to-latex-python/)
+学习如何使用 Aspose.Words for Python 将 Word 文档保存为 Markdown，并将其中的公式导出为 LaTeX 格式。
+
+### [使用 Aspose.Words 导出 Word 公式为 LaTeX – 步骤指南](./export-word-equations-latex-with-aspose-words-step-by-step-g/)
+学习如何使用 Aspose.Words for Python 将 Word 文档中的公式导出为 LaTeX 格式，提供详细的分步操作指南。
+
+### [导出 docx 为 pdf – 生成可访问的 PDF](./export-docx-to-pdf-generate-accessible-pdf/)
+使用 Aspose.Words for Python 将 docx 导出为符合可访问性标准的 PDF，提升文档可读性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

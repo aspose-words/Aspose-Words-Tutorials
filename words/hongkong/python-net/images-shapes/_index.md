@@ -64,6 +64,9 @@ Aspose.Words Python-net 教程中的「圖像和形狀」類別旨在幫助開�
     ### [如何在 Aspose.Words 中設定陰影 – Python 範例](./how-to-set-shadow-in-aspose-words-python-example/)
     了解如何在 Python 中使用 Aspose.Words 為文檔元素添加陰影效果，提升視覺效果。
 
+    ### [使用 Aspose.Words for Python 在 PDF 中繪製矩形](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
+了解如何使用 Aspose.Words for Python 在 PDF 文件中繪製矩形以增強視覺效果。
+
 ## 其他資源
 
 - [Aspose.Words for Python-net 文檔](https://docs.aspose.com/words/python-net/)

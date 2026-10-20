@@ -53,6 +53,8 @@ Dowiedz się, jak rozszerzyć funkcjonalność dokumentu za pomocą rozszerzeń 
 Dowiedz się, jak uczynić plik PDF dostępnym, wykorzystując Aspose.Words. Kompletny przewodnik krok po kroku z przykładami kodu.
 ### [Jak odzyskać DOCX – Kompletny przewodnik z Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
 Dowiedz się, jak przywrócić uszkodzone pliki DOCX przy użyciu Aspose.Words. Szczegółowy przewodnik krok po kroku.
+### [Odzyskiwanie uszkodzonego dokumentu Word przy użyciu Aspose.Words – przewodnik krok po kroku w Pythonie](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+Dowiedz się, jak naprawić uszkodzony dokument Word przy pomocy Aspose.Words w Pythonie. Praktyczny przewodnik krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

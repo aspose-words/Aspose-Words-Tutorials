@@ -53,6 +53,8 @@ Scopri come estendere le funzionalità dei documenti con estensioni web utilizza
 Scopri come rendere i PDF accessibili aggiungendo tag e struttura con Aspose.Words. Guida dettagliata passo passo con esempi di codice.
 ### [Come recuperare DOCX – Guida completa con Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
 Scopri come recuperare file DOCX danneggiati con Aspose.Words. Guida completa passo passo con esempi di codice.
+### [Recupera documento Word corrotto con Aspose.Words – guida passo‑passo Python](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+Scopri come riparare documenti Word danneggiati usando Aspose.Words in Python, con esempi pratici passo‑passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -53,6 +53,8 @@
 Μάθετε πώς να κάνετε τα PDF προσβάσιμα χρησιμοποιώντας το Aspose.Words με έναν πλήρη οδηγό βήμα‑βήμα και παραδείγματα κώδικα.
 ### [Πώς να ανακτήσετε DOCX – Πλήρης οδηγός με Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
 Μάθετε πώς να επαναφέρετε αρχεία DOCX που είναι κατεστραμμένα ή ακατάλληλα, χρησιμοποιώντας το Aspose.Words. Οδηγός βήμα προς βήμα με κώδικα.
+### [Ανάκτηση κατεστραμμένου εγγράφου Word με το Aspose.Words – βήμα‑βήμα οδηγός Python](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+Μάθετε πώς να επαναφέρετε κατεστραμμένα έγγραφα Word χρησιμοποιώντας το Aspose.Words με Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -62,6 +62,8 @@ Leer hoe u schaduweffecten aan vormen toevoegt in Word-documenten met Aspose.Wor
 Leer hoe u schaduweffecten aan vormen in Word-documenten kunt toevoegen met Aspose.Words voor Python.
 ### [Hoe schaduw instellen in Aspose.Words – Python-voorbeeld](./how-to-set-shadow-in-aspose-words-python-example/)
 Leer hoe u schaduweffecten toevoegt aan afbeeldingen of vormen in Word-documenten met Aspose.Words voor Python.
+### [Rechthoek tekenen in PDF met Aspose.Words voor Python](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
+Leer hoe u een rechthoek in een PDF-document tekent met Aspose.Words voor Python.
 
 ## Aanvullende bronnen
 

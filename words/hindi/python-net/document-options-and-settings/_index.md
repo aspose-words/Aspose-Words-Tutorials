@@ -53,6 +53,8 @@ Aspose.Words ट्यूटोरियल की दुनिया में 
 Aspose.Words का उपयोग करके PDF को सुलभ बनाने की तकनीकें सीखें। कोड उदाहरणों के साथ पूर्ण चरण‑दर‑चरण मार्गदर्शिका।
 ### [Aspose.Words के साथ DOCX को पुनर्प्राप्त करने की पूर्ण गाइड](./how-to-recover-docx-complete-guide-with-aspose-words/)
 Aspose.Words का उपयोग करके क्षतिग्रस्त DOCX फ़ाइलों को पुनर्स्थापित करने के चरण-दर-चरण निर्देश और कोड उदाहरण।
+### [Aspose.Words के साथ भ्रष्ट Word दस्तावेज़ को पुनर्प्राप्त करें – चरण‑दर‑चरण Python गाइड](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+Aspose.Words का उपयोग करके भ्रष्ट Word फ़ाइल को पुनर्स्थापित करने की चरण‑दर‑चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

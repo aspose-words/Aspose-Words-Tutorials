@@ -146,6 +146,13 @@ Dowiedz się, jak automatycznie zmieniać nazwy obrazów przy konwersji plików 
 Dowiedz się, jak przy użyciu Aspose.Words zapisać dokumenty jako PDF, korzystając z pełnego przewodnika programistycznego.
 ### [Konwersja DOCX do PDF z Aspose.Words – przewodnik](./convert-docx-to-pdf-with-aspose-words-guide/)
 Naucz się konwertować pliki DOCX do PDF przy użyciu Aspose.Words for Python w prostych krokach.
+### [Zapisz Word jako Markdown, eksportuj równania do LaTeX (Python)](./save-word-as-markdown-export-equations-to-latex-python/)
+Dowiedz się, jak zapisać dokument Word jako Markdown i wyeksportować równania do LaTeX przy użyciu Aspose.Words for Python.
+
+### [Eksportuj równania Word do LaTeX przy użyciu Aspose.Words – przewodnik krok po kroku](./export-word-equations-latex-with-aspose-words-step-by-step-g/)
+Dowiedz się, jak wyeksportować równania z dokumentu Word do LaTeX przy użyciu Aspose.Words w kilku prostych krokach.
+
+### [Eksportuj DOCX do PDF – generuj dostępny PDF](./export-docx-to-pdf-generate-accessible-pdf/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

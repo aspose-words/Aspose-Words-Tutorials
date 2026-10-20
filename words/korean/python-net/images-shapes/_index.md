@@ -62,6 +62,8 @@ Python용 Aspose.Words를 사용해 Word 문서에 사각형 모양을 삽입하
 Python을 사용해 Word 문서의 도형에 그림자를 적용하는 방법을 단계별로 안내합니다.
 ### [Aspose.Words에서 그림자 설정하기 – Python 예제](./how-to-set-shadow-in-aspose-words-python-example/)
 Aspose.Words를 사용해 Python에서 문서에 그림자를 적용하는 방법을 단계별로 안내합니다.
+### [Aspose.Words for Python을 사용하여 PDF에 사각형 그리기](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
+Aspose.Words for Python을 활용해 PDF 문서에 사각형을 삽입하고 스타일을 지정하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

@@ -53,6 +53,8 @@ Leer hoe u de functionaliteit van documenten kunt uitbreiden met webextensies me
 Leer hoe u PDF-bestanden toegankelijk maakt met Aspose.Words via een volledige stapsgewijze handleiding.
 ### [Hoe DOCX te herstellen – Complete gids met Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
 Leer hoe u beschadigde DOCX-bestanden kunt herstellen met Aspose.Words. Stapsgewijze handleiding met voorbeeldcode.
+### [Beschadigd Word-document herstellen met Aspose.Words – stapsgewijze Python-gids](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+Leer hoe u beschadigde Word-documenten kunt herstellen met Aspose.Words in Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -155,6 +155,14 @@ Aspose.Words를 사용해 DOCX 파일을 PDF로 변환하는 방법을 단계별
 
 ### [Word에서 LaTeX 내보내기 – DOCX를 Markdown으로 변환](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Word 문서에서 LaTeX를 추출하고 DOCX를 Markdown으로 변환하는 방법을 단계별로 안내합니다.
+### [Word를 Markdown으로 저장하고 LaTeX로 수식 내보내기 (Python)](./save-word-as-markdown-export-equations-to-latex-python/)
+Word 문서를 Markdown으로 변환하고, 수식을 LaTeX 형식으로 내보내는 방법을 Python으로 안내합니다.
+
+### [Aspose.Words를 사용한 워드 수식 LaTeX 내보내기 – 단계별 가이드](./export-word-equations-latex-with-aspose-words-step-by-step-g/)
+Aspose.Words를 활용해 워드 문서의 수식을 LaTeX 형식으로 내보내는 방법을 단계별로 안내합니다.
+
+### [DOCX를 PDF로 내보내기 – 접근성 있는 PDF 생성](./export-docx-to-pdf-generate-accessible-pdf/)
+DOCX 파일을 접근성 표준을 충족하는 PDF로 변환하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

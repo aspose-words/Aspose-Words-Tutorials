@@ -53,6 +53,8 @@
 了解如何使用 Aspose.Words for Python 使 PDF 符合可存取標準，提供完整的程式碼範例與逐步說明。
 ### [如何恢復 DOCX – 使用 Aspose.Words 的完整指南](./how-to-recover-docx-complete-guide-with-aspose-words/)
 了解如何使用 Aspose.Words for Python 復原受損或無法開啟的 DOCX 文件。帶有原始程式碼的分步指南。
+### [使用 Aspose.Words 復原損毀的 Word 文件 – Python 步驟指南](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+學習如何使用 Aspose.Words for Python 復原受損的 Word 文件，提供完整程式碼範例的分步指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

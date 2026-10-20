@@ -53,6 +53,8 @@ Aprenda a ampliar la funcionalidad de sus documentos con extensiones web usando 
 Aprenda a crear PDFs accesibles con Aspose.Words siguiendo una guía completa paso a paso con ejemplos de código.
 ### [Cómo recuperar DOCX – Guía completa con Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
 Aprenda a recuperar archivos DOCX dañados usando Aspose.Words. Guía paso a paso con ejemplos de código.
+### [Recuperar documento de Word corrupto con Aspose.Words – guía paso a paso en Python](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+Aprenda a reparar documentos de Word dañados usando Aspose.Words en Python. Guía paso a paso con ejemplos de código.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

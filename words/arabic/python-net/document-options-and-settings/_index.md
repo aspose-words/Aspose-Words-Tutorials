@@ -53,6 +53,8 @@
 تعلم كيفية تحسين إمكانية الوصول لملفات PDF باستخدام Aspose.Words من خلال دليل خطوة بخطوة مع أمثلة عملية.
 ### [كيفية استعادة DOCX – دليل كامل باستخدام Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
 دليل خطوة بخطوة لاستعادة ملفات DOCX التالفة باستخدام Aspose.Words مع أمثلة برمجية.
+### [استعادة مستند Word تالف باستخدام Aspose.Words – دليل خطوة بخطوة للبايثون](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+تعرّف على كيفية استعادة مستند Word تالف باستخدام Aspose.Words في بايثون خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

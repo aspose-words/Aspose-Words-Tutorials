@@ -61,6 +61,7 @@
 Μάθετε πώς να προσθέσετε σκιά σε σχήματα σε έγγραφα Word χρησιμοποιώντας Aspose.Words για Python.
 ### [Πώς να ορίσετε σκιά στο Aspose.Words – Παράδειγμα Python](./how-to-set-shadow-in-aspose-words-python-example/)
 Μάθετε πώς να προσθέσετε σκιά σε αντικείμενα χρησιμοποιώντας Aspose.Words με Python.
+### [Σχεδίαση ορθογωνίου σε PDF με Aspose.Words για Python](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
 
 ## Πρόσθετοι Πόροι
 

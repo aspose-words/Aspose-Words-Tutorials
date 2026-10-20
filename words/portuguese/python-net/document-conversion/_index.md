@@ -116,6 +116,12 @@ Aprenda a renomear imagens automaticamente durante a conversão de arquivos DOCX
 Aprenda a salvar documentos como PDF usando Aspose.Words para Python, com exemplos completos de programação.
 ### [Converter DOCX para PDF com Aspose.Words – Guia](./convert-docx-to-pdf-with-aspose-words-guide/)
 Aprenda a converter arquivos DOCX em PDF usando Aspose.Words para Python. Guia passo a passo para conversão eficiente.
+### [Salvar Word como Markdown, exportar equações para LaTeX (Python)](./save-word-as-markdown-export-equations-to-latex-python/)
+Aprenda a salvar documentos Word como Markdown e exportar equações para LaTeX usando Aspose.Words para Python.
+### [Exportar equações do Word para LaTeX com Aspose.Words – guia passo a passo](./export-word-equations-latex-with-aspose-words-step-by-step-g/)
+Aprenda a exportar equações do Word para LaTeX usando Aspose.Words em um guia passo a passo.
+### [Exportar DOCX para PDF – gerar PDF acessível](./export-docx-to-pdf-generate-accessible-pdf/)
+Aprenda a converter arquivos DOCX em PDFs acessíveis usando Aspose.Words para Python, garantindo conformidade e legibilidade.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

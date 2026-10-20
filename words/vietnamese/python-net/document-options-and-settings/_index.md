@@ -53,6 +53,8 @@ Tìm hiểu cách mở rộng chức năng tài liệu bằng tiện ích mở r
 Tìm hiểu cách làm cho PDF có khả năng truy cập bằng Aspose.Words trong Python. Hướng dẫn chi tiết từng bước với mã nguồn.
 ### [Cách Khôi Phục DOCX – Hướng Dẫn Toàn Diện với Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
 Hướng dẫn chi tiết cách khôi phục tài liệu DOCX bị hỏng bằng Aspose.Words, bao gồm các bước và ví dụ mã nguồn.
+### [Khôi phục tài liệu Word bị hỏng với Aspose.Words – hướng dẫn từng bước Python](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+Hướng dẫn chi tiết cách khôi phục tài liệu Word bị hỏng bằng Aspose.Words trong Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

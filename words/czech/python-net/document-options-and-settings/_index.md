@@ -53,6 +53,8 @@ Naučte se, jak rozšířit funkcionalitu dokumentů pomocí webových rozšíř
 Naučte se, jak pomocí Aspose.Words vytvořit přístupné PDF soubory pomocí podrobného krok‑za‑krokem návodu.
 ### [Jak obnovit DOCX – Kompletní průvodce s Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
 Naučte se, jak obnovit poškozené soubory DOCX pomocí Aspose.Words. Kompletní návod s ukázkovým kódem.
+### [Obnovení poškozeného dokumentu Word pomocí Aspose.Words – krok za krokem průvodce v Pythonu](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+Naučte se, jak opravit poškozené soubory Word pomocí Aspose.Words v Pythonu s podrobným krokovým návodem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

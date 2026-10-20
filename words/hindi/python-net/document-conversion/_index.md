@@ -148,6 +148,14 @@ DOCX को मार्कडाउन में बदलते समय छ�
 Aspose.Words का उपयोग करके दस्तावेज़ को PDF में सहेजें, विस्तृत कोड उदाहरण और चरण-दर-चरण मार्गदर्शन।
 ### [Aspose.Words के साथ DOCX को PDF में परिवर्तित करें – गाइड](./convert-docx-to-pdf-with-aspose-words-guide/)
 Aspose.Words का उपयोग करके DOCX फ़ाइलों को PDF में आसानी से बदलें। चरण-दर-चरण कोड उदाहरण देखें।
+### [Word को Markdown के रूप में सहेजें, समीकरणों को LaTeX में निर्यात करें (Python)](./save-word-as-markdown-export-equations-to-latex-python/)
+Word दस्तावेज़ को Markdown में बदलें और समीकरणों को LaTeX फ़ॉर्मेट में निर्यात करने के लिए पायथन कोड।
+
+### [Aspose.Words के साथ वर्ड समीकरणों को LaTeX में निर्यात करें – चरण‑दर‑चरण गाइड](./export-word-equations-latex-with-aspose-words-step-by-step-g/)
+Aspose.Words का उपयोग करके वर्ड दस्तावेज़ में मौजूद समीकरणों को LaTeX फ़ॉर्मेट में निर्यात करने के चरण‑दर‑चरण निर्देश।
+
+### [DOCX को PDF में निर्यात करें – सुलभ PDF बनाएं](./export-docx-to-pdf-generate-accessible-pdf/)
+DOCX फ़ाइल को PDF में बदलें और सुलभ PDF उत्पन्न करने के लिए चरण‑दर‑चरण मार्गदर्शन।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

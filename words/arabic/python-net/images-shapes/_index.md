@@ -52,6 +52,8 @@
 تعلم كيفية إضافة تأثير الظل إلى الأشكال في مستندات Word باستخدام Aspose.Words لـ Python خطوة بخطوة.
 ### [كيفية تعيين الظل في Aspose.Words – مثال Python](./how-to-set-shadow-in-aspose-words-python-example/)
 تعلم كيفية إضافة تأثير الظل إلى المستندات باستخدام Aspose.Words في Python.
+### [رسم مستطيل في PDF باستخدام Aspose.Words للبايثون](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
+تعلم كيفية رسم مستطيل داخل ملفات PDF باستخدام Aspose.Words للبايثون خطوة بخطوة.
 
 ## موارد إضافية
 

@@ -61,6 +61,8 @@
 เรียนรู้วิธีเพิ่มเงาให้กับรูปร่างในเอกสาร Word ด้วย Python โดยใช้ Aspose.Words อย่างละเอียด
 ### [วิธีตั้งเงาใน Aspose.Words – ตัวอย่าง Python](./how-to-set-shadow-in-aspose-words-python-example/)
 เรียนรู้วิธีเพิ่มเงาให้กับวัตถุในเอกสาร Word ด้วย Aspose.Words สำหรับ Python
+### [วาดสี่เหลี่ยมใน PDF ด้วย Aspose.Words สำหรับ Python](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
+เรียนรู้วิธีวาดสี่เหลี่ยมในไฟล์ PDF โดยใช้ Aspose.Words สำหรับ Python
 
 ## แหล่งข้อมูลเพิ่มเติม
 

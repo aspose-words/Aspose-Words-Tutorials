@@ -57,6 +57,8 @@
 
 ### [ทำให้ PDF เข้าถึงได้ด้วย Aspose.Words – คู่มือครบขั้นตอน](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
 เรียนรู้วิธีทำให้ไฟล์ PDF เข้าถึงได้โดยใช้ Aspose.Words พร้อมคำแนะนำทีละขั้นตอนและโค้ดต้นฉบับ
+### [กู้คืนเอกสาร Word ที่เสียหายด้วย Aspose.Words – คู่มือ Python ทีละขั้นตอน](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+เรียนรู้วิธีกู้คืนไฟล์ Word ที่เสียหายโดยใช้ Aspose.Words ใน Python ด้วยขั้นตอนละเอียดและโค้ดตัวอย่าง
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -115,6 +115,12 @@
 تعلم كيفية حفظ المستندات كملفات PDF باستخدام Aspose.Words لبايثون مع شرح شامل للبرمجة.
 ### [تحويل DOCX إلى PDF باستخدام Aspose.Words – دليل](./convert-docx-to-pdf-with-aspose-words-guide/)
 تعلم كيفية تحويل ملفات DOCX إلى PDF بسهولة باستخدام Aspose.Words لبايثون.
+### [حفظ Word كـ Markdown، وتصدير المعادلات إلى LaTeX (Python)](./save-word-as-markdown-export-equations-to-latex-python/)
+تعلم كيفية حفظ مستندات Word كملفات Markdown وتصدير المعادلات إلى LaTeX باستخدام Aspose.Words لبايثون.
+### [تصدير معادلات Word إلى LaTeX باستخدام Aspose.Words – دليل خطوة بخطوة](./export-word-equations-latex-with-aspose-words-step-by-step-g/)
+تعلم كيفية تصدير معادلات Word إلى LaTeX خطوة بخطوة باستخدام Aspose.Words لبايثون.
+### [تصدير DOCX إلى PDF – إنشاء PDF قابل للوصول](./export-docx-to-pdf-generate-accessible-pdf/)
+تعلم كيفية تحويل ملفات DOCX إلى PDF مع تحسين إمكانية الوصول باستخدام Aspose.Words لبايثون.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -53,6 +53,8 @@ Aspose.Words for Python を使って、Web 拡張機能でドキュメント機�
 Aspose.Words を使用して PDF のアクセシビリティを向上させる方法を、コード例とともに段階的に解説します。
 ### [DOCX の復元方法 – Aspose.Words 完全ガイド](./how-to-recover-docx-complete-guide-with-aspose-words/)
 Aspose.Words を使用して破損した DOCX ファイルを復元する方法を学びます。コード例付きのステップバイステップガイドです。
+### [Aspose.Wordsで破損したWord文書を復元する – ステップバイステップ Python ガイド](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+Aspose.Wordsを使用して破損したWord文書を復元する方法を、Pythonのコード例とともにステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

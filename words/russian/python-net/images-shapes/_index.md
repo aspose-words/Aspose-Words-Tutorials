@@ -61,6 +61,8 @@
 Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для Python.
 ### [Как установить тень в Aspose.Words – пример на Python](./how-to-set-shadow-in-aspose-words-python-example/)
 Узнайте, как установить тень в документе Word с помощью Aspose.Words и Python.
+### [Рисование прямоугольника в PDF с помощью Aspose.Words для Python](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
+Узнайте, как с помощью Aspose.Words для Python нарисовать прямоугольник в PDF-документе.
 
 ## Дополнительные ресурсы
 

@@ -155,6 +155,15 @@ Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang PDF nhanh chóng
 ### [Cách xuất LaTeX từ Word – Chuyển DOCX sang Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Hướng dẫn chi tiết cách xuất LaTeX từ tài liệu Word và chuyển đổi DOCX sang Markdown bằng Aspose.Words for Python.
 
+### [Lưu Word dưới dạng Markdown, xuất công thức sang LaTeX (Python)](./save-word-as-markdown-export-equations-to-latex-python/)
+Hướng dẫn lưu tài liệu Word thành Markdown và chuyển công thức sang LaTeX bằng Aspose.Words for Python.
+
+### [Xuất công thức Word sang LaTeX với Aspose.Words – hướng dẫn từng bước](./export-word-equations-latex-with-aspose-words-step-by-step-g/)
+Hướng dẫn chi tiết cách xuất công thức Word sang LaTeX bằng Aspose.Words.
+
+### [Xuất docx sang PDF – Tạo PDF có khả năng truy cập](./export-docx-to-pdf-generate-accessible-pdf/)
+Hướng dẫn chi tiết cách xuất tài liệu DOCX thành PDF có khả năng truy cập, đáp ứng tiêu chuẩn WCAG bằng Aspose.Words for Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

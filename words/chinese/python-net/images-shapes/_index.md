@@ -54,6 +54,8 @@ Aspose.Words Python-net 教程中的“图像和形状”类别旨在帮助开�
 学习如何使用 Aspose.Words for Python 在 Word 文档中插入和自定义矩形形状的完整步骤。
 ### [在 Word 中使用 Python 为形状添加阴影 – 完整指南](./add-shadow-to-shape-in-word-with-python-complete-guide/)
 学习如何使用 Aspose.Words for Python 在 Word 文档中为形状添加阴影的完整步骤和示例代码。
+### [使用 Aspose.Words for Python 在 PDF 中绘制矩形](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
+学习如何使用 Aspose.Words for Python 在 PDF 文档中绘制矩形形状，实现自定义图形绘制。
 
 ## 其他资源
 

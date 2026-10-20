@@ -126,6 +126,12 @@ Apprenez à générer des PDF accessibles à partir de documents Word en utilisa
 Apprenez à renommer automatiquement les images lors de la conversion de fichiers DOCX en Markdown avec Aspose.Words pour Python.
 ### [Convertir DOCX en PDF avec Aspose.Words – Guide](./convert-docx-to-pdf-with-aspose-words-guide/)
 Apprenez à convertir rapidement des fichiers DOCX en PDF avec Aspose.Words pour Python.
+### [Enregistrer Word en Markdown, exporter les équations en LaTeX (Python)](./save-word-as-markdown-export-equations-to-latex-python/)
+Apprenez à enregistrer des documents Word au format Markdown et à exporter les équations en LaTeX avec Aspose.Words pour Python.
+### [Exporter les équations Word en LaTeX avec Aspose.Words – guide étape par étape](./export-word-equations-latex-with-aspose-words-step-by-step-g/)
+Apprenez à exporter les équations Word au format LaTeX avec Aspose.Words, étape par étape.
+### [Exporter DOCX en PDF – générer un PDF accessible](./export-docx-to-pdf-generate-accessible-pdf/)
+Apprenez à convertir des fichiers DOCX en PDF accessible avec Aspose.Words pour Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
