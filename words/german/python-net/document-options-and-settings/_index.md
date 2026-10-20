@@ -64,6 +64,8 @@ Erfahren Sie, wie Sie beschädigte docx-Dateien mit Aspose.Words für Python wie
 
 ### [MarkdownSaveOptions für LaTeX in Python konfigurieren – Aspose.Words‑Leitfaden](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
 Erfahren Sie, wie Sie mit Aspose.Words für Python die MarkdownSaveOptions für LaTeX konfigurieren.
+### [Wie man docx-Dateien mit Aspose.Words für Python wiederherstellt](./how-to-recover-docx-files-with-aspose-words-for-python/)
+Erfahren Sie, wie Sie beschädigte docx-Dateien mit Aspose.Words für Python wiederherstellen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

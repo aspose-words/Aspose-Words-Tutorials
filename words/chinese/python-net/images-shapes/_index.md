@@ -59,6 +59,11 @@ Aspose.Words Python-net 教程中的“图像和形状”类别旨在帮助开�
 ### [在 Python 中为形状添加阴影 – 完整 Aspose.Words 指南](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
 学习如何在 Python 中使用 Aspose.Words 为文档中的形状添加阴影效果的完整步骤。
 ### [如何在 Word 形状中使用 Python 添加阴影](./how-to-add-shadow-to-a-word-shape-using-python/)
+### [如何保存 PNG 并为形状添加阴影（使用 Aspose.Words）](./how-to-save-png-and-add-shadow-to-shape-with-aspose-words/)
+学习使用 Aspose.Words 将 PNG 保存并为形状添加阴影的完整步骤。
+
+### [如何使用 Aspose.Words 在 Python 中创建柱形图](./how-to-create-column-chart-python-with-aspose-words/)
+学习使用 Aspose.Words for Python 创建柱形图并将其插入 Word 文档的完整步骤。
 
 ## 其他资源
 

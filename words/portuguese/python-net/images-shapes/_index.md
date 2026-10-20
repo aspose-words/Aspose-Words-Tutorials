@@ -64,6 +64,11 @@ Aprenda a aplicar sombra a objetos em documentos Word usando Aspose.Words com Py
 Aprenda a desenhar retângulos em documentos PDF usando Aspose.Words para Python.
 ### [Adicionar sombra a forma em Python – guia completo Aspose.Words](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
 Aprenda a aplicar sombra a formas em documentos Word usando Aspose.Words para Python.
+### [Como criar gráfico de colunas em Python com Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
+Aprenda a gerar gráficos de colunas em documentos Word usando Aspose.Words para Python.
+
+### [Como salvar PNG e adicionar sombra a forma com Aspose.Words](./how-to-save-png-and-add-shadow-to-shape-with-aspose-words/)
+Aprenda a salvar imagens PNG e aplicar sombra a formas em documentos Word usando Aspose.Words para Python-net.
 
 ## Recursos adicionais
 

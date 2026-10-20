@@ -59,6 +59,8 @@ Hướng dẫn chi tiết cách khôi phục tài liệu Word bị hỏng bằng
 Hướng dẫn chi tiết cách khôi phục các tệp docx trong Python bằng các bước cụ thể.
 ### [Cấu hình MarkdownSaveOptions cho LaTeX trong Python – Hướng dẫn Aspose.Words](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
 Hướng dẫn cách cấu hình MarkdownSaveOptions để xuất tài liệu LaTeX bằng Python với Aspose.Words.
+### [Cách khôi phục tệp docx bằng Aspose.Words cho Python](./how-to-recover-docx-files-with-aspose-words-for-python/)
+Hướng dẫn khôi phục các tệp docx bị hỏng hoặc mất dữ liệu bằng Aspose.Words cho Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

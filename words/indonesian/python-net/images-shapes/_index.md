@@ -69,6 +69,10 @@ Pelajari cara menggambar persegi panjang pada file PDF menggunakan Aspose.Words 
 Pelajari cara menambahkan bayangan pada bentuk di Python menggunakan Aspose.Words.
 ### [Cara Menambahkan Bayangan pada Bentuk Word menggunakan Python](./how-to-add-shadow-to-a-word-shape-using-python/)
 Pelajari cara menambahkan efek bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk Python.
+### [Cara menyimpan PNG dan menambahkan bayangan pada bentuk dengan Aspose.Words](./how-to-save-png-and-add-shadow-to-shape-with-aspose-words/)
+
+### [Cara Membuat Diagram Kolom dengan Python menggunakan Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
+Pelajari cara membuat diagram kolom di Python dengan Aspose.Words.
 
 ## Sumber Daya Tambahan
 

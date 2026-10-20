@@ -59,6 +59,8 @@
 دليل خطوة بخطوة لاستعادة ملفات docx باستخدام Aspose.Words للغة بايثون.
 ### [تكوين MarkdownSaveOptions لـ LaTeX في بايثون – دليل Aspose.Words](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
 تعلم كيفية تكوين خيارات حفظ Markdown لتوليد مستندات LaTeX باستخدام Aspose.Words في بايثون.
+### [كيفية استعادة ملفات docx باستخدام Aspose.Words للبايثون](./how-to-recover-docx-files-with-aspose-words-for-python/)
+تعلم طريقة استعادة ملفات docx التالفة باستخدام Aspose.Words للغة بايثون. دليل خطوة بخطوة مع مثال عملي.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

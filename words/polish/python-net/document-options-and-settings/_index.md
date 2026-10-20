@@ -59,6 +59,8 @@ Dowiedz się, jak naprawić uszkodzony dokument Word przy pomocy Aspose.Words w 
 Dowiedz się, jak przywrócić uszkodzone pliki docx w Pythonie, korzystając z Aspose.Words. Praktyczny przewodnik krok po kroku.
 ### [Konfiguracja MarkdownSaveOptions dla LaTeX w Pythonie – przewodnik Aspose.Words](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
 Skonfiguruj opcje MarkdownSaveOptions dla LaTeX w Pythonie przy użyciu Aspose.Words.
+### [Jak odzyskać pliki docx za pomocą Aspose.Words dla Pythona](./how-to-recover-docx-files-with-aspose-words-for-python/)
+Dowiedz się, jak przywrócić uszkodzone pliki docx przy użyciu Aspose.Words dla Pythona. Praktyczny przewodnik krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

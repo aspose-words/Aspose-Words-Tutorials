@@ -59,6 +59,8 @@ Aprenda a restaurar documentos Word corrompidos usando Aspose.Words em Python. G
 Aprenda a restaurar arquivos DOCX corrompidos usando Aspose.Words para Python. Guia passo a passo com exemplos de código.
 ### [Configurar MarkdownSaveOptions para LaTeX em Python – guia Aspose.Words](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
 Aprenda a configurar MarkdownSaveOptions para exportar documentos como LaTeX usando Aspose.Words para Python. Guia passo a passo com exemplos.
+### [Como recuperar arquivos docx com Aspose.Words para Python](./how-to-recover-docx-files-with-aspose-words-for-python/)
+Aprenda a restaurar arquivos DOCX corrompidos usando Aspose.Words para Python. Guia passo a passo com exemplos de código.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

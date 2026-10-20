@@ -59,6 +59,8 @@ Leer hoe u beschadigde Word-documenten kunt herstellen met Aspose.Words in Pytho
 Leer hoe u beschadigde of verloren .docx-bestanden kunt herstellen met Aspose.Words voor Python. Stapsgewijze handleiding met codevoorbeelden.
 ### [Configureer MarkdownSaveOptions voor LaTeX in Python – Aspose.Words-gids](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
 Leer hoe u MarkdownSaveOptions configureert voor LaTeX-export in Python met Aspose.Words.
+### [Hoe docx-bestanden te herstellen met Aspose.Words voor Python](./how-to-recover-docx-files-with-aspose-words-for-python/)
+Leer hoe u beschadigde docx-bestanden kunt herstellen met Aspose.Words voor Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

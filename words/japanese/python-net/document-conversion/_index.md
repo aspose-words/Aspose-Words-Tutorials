@@ -178,6 +178,23 @@ DOCX をアクセシブルな PDF に変換し、PDF/UA 準拠の文書を生成
 
 ### [Aspose.Words (Python) を使用して DOCX から PDF を保存する方法](./how-to-save-pdf-from-docx-using-aspose-words-python/)
 Aspose.Words for Python を使い、DOCX ファイルを PDF に変換して保存する手順を解説します。
+### [Aspose.Words for Python で Word から LaTeX へ方程式をエクスポート](./export-equations-to-latex-from-word-using-aspose-words-for-p/)
+Word 文書内の数式を LaTeX 形式に変換し、エクスポートする方法を解説します。
+
+### [Aspose.Words を使用して Python で docx を pdf に変換する方法](./how-to-convert-docx-to-pdf-with-aspose-words-in-python/)
+Aspose.Words for Python を使い、docx ファイルを PDF に変換する手順を解説します。
+
+### [Aspose.Words を使用して Word 文書から Markdown をエクスポートする方法](./how-to-export-markdown-from-a-word-document-with-aspose-word/)
+Aspose.Words を使い、Word 文書を Markdown に変換してエクスポートする手順を解説します。
+
+### [PythonでDOCXをPNG画像に変換して保存する方法](./save-document-as-image-convert-docx-to-png-in-python/)
+Aspose.Words for Pythonを使用して、DOCXファイルをPNG画像に変換し、保存する方法を解説します。
+
+### [Aspose.Words を使用して表サポート付きで Word を Markdown に保存する方法](./how-to-save-word-as-markdown-with-table-support-using-aspose/)
+Aspose.Words を使い、表を保持したまま Word 文書を Markdown に変換して保存する手順を解説します。
+
+### [Aspose.Words を使用して Python で Markdown を DOCX に変換する方法](./how-to-convert-markdown-to-docx-with-aspose-words-in-python/)
+Aspose.Words for Python を使い、Markdown ファイルを DOCX に変換する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

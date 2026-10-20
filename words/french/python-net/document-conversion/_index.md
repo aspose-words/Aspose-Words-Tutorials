@@ -145,6 +145,14 @@ Apprenez à charger du contenu Markdown dans vos applications Python à l'aide d
 Apprenez à générer des PDF accessibles à partir de fichiers DOCX en utilisant Aspose.Words pour Python.
 ### [Comment enregistrer un PDF à partir de DOCX avec Aspose.Words (Python)](./how-to-save-pdf-from-docx-using-aspose-words-python/)
 Apprenez à convertir un fichier DOCX en PDF en utilisant Aspose.Words pour Python.
+### [Exporter des équations en LaTeX depuis Word avec Aspose.Words pour Python](./export-equations-to-latex-from-word-using-aspose-words-for-p/)
+### [Comment convertir un docx en pdf avec Aspose.Words en Python](./how-to-convert-docx-to-pdf-with-aspose-words-in-python/)
+Apprenez à convertir des fichiers DOCX en PDF en utilisant Aspose.Words pour Python, étape par étape.
+### [Comment exporter du markdown depuis un document Word avec Aspose.Words](./how-to-export-markdown-from-a-word-document-with-aspose-word/)
+### [Enregistrer le document en image : convertir DOCX en PNG avec Python](./save-document-as-image-convert-docx-to-png-in-python/)
+### [Comment enregistrer un document Word en markdown avec prise en charge des tableaux à l'aide d'Aspose.Words](./how-to-save-word-as-markdown-with-table-support-using-aspose/)
+### [Comment convertir le markdown en docx avec Aspose.Words en Python](./how-to-convert-markdown-to-docx-with-aspose-words-in-python/)
+Apprenez à transformer des fichiers Markdown en documents DOCX en utilisant Aspose.Words pour Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

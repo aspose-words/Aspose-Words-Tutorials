@@ -59,6 +59,8 @@ Aspose.Words का उपयोग करके भ्रष्ट Word फ़�
 Python में खोई हुई या क्षतिग्रस्त docx फ़ाइलों को पुनर्स्थापित करने के चरण‑दर‑चरण निर्देश।
 ### [Python में LaTeX के लिए MarkdownSaveOptions कॉन्फ़िगर करें – Aspose.Words गाइड](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
 Python में LaTeX आउटपुट के लिए MarkdownSaveOptions सेट करने की चरण‑दर‑चरण मार्गदर्शिका।
+### [Aspose.Words for Python के साथ docx फ़ाइलों को पुनर्प्राप्त करने की विधि](./how-to-recover-docx-files-with-aspose-words-for-python/)
+पायथन में Aspose.Words का उपयोग करके क्षतिग्रस्त या खोई हुई docx फ़ाइलों को पुनर्स्थापित करने के चरण।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

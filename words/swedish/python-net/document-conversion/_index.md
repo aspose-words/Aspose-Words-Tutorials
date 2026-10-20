@@ -138,6 +138,18 @@ Lär dig hur du laddar markdown i Python med Aspose.Words i en fullständig guid
 Lär dig hur du skapar tillgängliga PDF-filer från DOCX-dokument med Aspose.Words för Python.
 ### [Hur man sparar PDF från DOCX med Aspose.Words (Python)](./how-to-save-pdf-from-docx-using-aspose-words-python/)
 Lär dig hur du sparar PDF från ett DOCX-dokument med Aspose.Words för Python. Steg-för-steg-instruktioner och kodexempel.
+### [Hur man konverterar docx till pdf med Aspose.Words i Python](./how-to-convert-docx-to-pdf-with-aspose-words-in-python/)
+Lär dig hur du konverterar DOCX-filer till PDF med Aspose.Words för Python.
+### [Hur du sparar Word som markdown med tabellstöd med Aspose.Words](./how-to-save-word-as-markdown-with-table-support-using-aspose/)
+Lär dig spara Word-dokument som markdown med stöd för tabeller med Aspose.Words för Python.
+### [Exportera ekvationer till LaTeX från Word med Aspose.Words för Python](./export-equations-to-latex-from-word-using-aspose-words-for-p/)
+Lär dig hur du exporterar ekvationer från Word-dokument till LaTeX med Aspose.Words för Python.
+### [Hur man exporterar markdown från ett Word-dokument med Aspose.Words](./how-to-export-markdown-from-a-word-document-with-aspose-word/)
+Lär dig hur du exporterar markdown från ett Word-dokument med Aspose.Words för Python.
+### [Spara dokument som bild: konvertera DOCX till PNG i Python](./save-document-as-image-convert-docx-to-png-in-python/)
+Lär dig hur du konverterar DOCX-filer till PNG-bilder med Aspose.Words för Python.
+### [Hur man konverterar markdown till docx med Aspose.Words i Python](./how-to-convert-markdown-to-docx-with-aspose-words-in-python/)
+Lär dig hur du konverterar Markdown-filer till DOCX med Aspose.Words för Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

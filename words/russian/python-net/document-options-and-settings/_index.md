@@ -59,6 +59,8 @@
 Узнайте, как восстановить файлы DOCX в Python с помощью Aspose.Words. Пошаговое руководство с примерами кода.
 ### [Настройка MarkdownSaveOptions для LaTeX в Python – руководство Aspose.Words](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
 Узнайте, как настроить MarkdownSaveOptions для экспорта в LaTeX с помощью Aspose.Words в Python.
+### [Как восстановить файлы docx с помощью Aspose.Words для Python](./how-to-recover-docx-files-with-aspose-words-for-python/)
+Узнайте, как восстановить файлы docx с помощью Aspose.Words для Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

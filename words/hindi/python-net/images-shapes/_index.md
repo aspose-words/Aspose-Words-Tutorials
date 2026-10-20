@@ -70,6 +70,12 @@ Python का उपयोग करके Word दस्तावेज़ म�
 ### [Python का उपयोग करके Word आकृति में शैडो कैसे जोड़ें](./how-to-add-shadow-to-a-word-shape-using-python/)
 Python का उपयोग करके Word आकृति में शैडो जोड़ने की प्रक्रिया सीखें।
 
+### [Aspose.Words के साथ PNG सहेजें और शैप में छाया जोड़ें](./how-to-save-png-and-add-shadow-to-shape-with-aspose-words/)
+Aspose.Words का उपयोग करके PNG फ़ाइल सहेजें और शैप में छाया प्रभाव जोड़ें।
+
+### [Aspose.Words के साथ पायथन में कॉलम चार्ट बनाना](./how-to-create-column-chart-python-with-aspose-words/)
+Aspose.Words का उपयोग करके पायथन में कॉलम चार्ट कैसे बनाएं, सीखें।
+
 ## अतिरिक्त संसाधन
 
 {{< /blocks/products/pf/tutorial-page-section >}}

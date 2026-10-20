@@ -68,6 +68,11 @@ Aspose.Words를 사용해 Python에서 문서에 그림자를 적용하는 방�
 Aspose.Words for Python을 활용해 PDF 문서에 사각형을 삽입하고 스타일을 지정하는 방법을 단계별로 안내합니다.
 ### [Python에서 도형에 그림자 추가 – 완전한 Aspose.Words 가이드](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
 Python을 사용해 Word 문서의 도형에 그림자를 적용하는 방법을 단계별로 안내합니다.
+### [Aspose.Words로 PNG 저장 및 도형에 그림자 추가하기](./how-to-save-png-and-add-shadow-to-shape-with-aspose-words/)
+Aspose.Words를 사용하여 PNG 형식으로 저장하고 도형에 그림자를 적용하는 방법을 단계별로 안내합니다.
+
+### [Python과 Aspose.Words로 컬럼 차트 만들기](./how-to-create-column-chart-python-with-aspose-words/)
+Aspose.Words를 사용하여 Python에서 컬럼 차트를 생성하고 문서에 삽입하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

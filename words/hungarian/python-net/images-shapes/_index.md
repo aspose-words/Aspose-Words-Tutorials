@@ -66,6 +66,10 @@ Tanuld meg, hogyan rajzolhatsz téglalapot PDF dokumentumokba az Aspose.Words fo
 ### [Árnyék hozzáadása alakzathoz Pythonban – teljes Aspose.Words útmutató](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
 ### [Hogyan adjunk árnyékot egy Word alakzathoz Python használatával](./how-to-add-shadow-to-a-word-shape-using-python/)
 Tanuld meg, hogyan adhatsz árnyékot egy Word alakzathoz Python és Aspose.Words segítségével.
+### [Hogyan mentse el a PNG-t és adjon árnyékot az alakzathoz az Aspose.Words segítségével](./how-to-save-png-and-add-shadow-to-shape-with-aspose-words/)
+Tanuld meg, hogyan mentheted el a PNG képet, és adhatsz árnyékot az alakzatokhoz az Aspose.Words használatával.
+
+### [Hogyan hozzunk létre oszlopdiagramot Pythonban az Aspose.Words segítségével](./how-to-create-column-chart-python-with-aspose-words/)
 
 ## További források
 

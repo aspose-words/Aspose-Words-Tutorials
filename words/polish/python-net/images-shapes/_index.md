@@ -65,6 +65,11 @@ Dowiedz się, jak dodać cień do obiektów w dokumentach przy użyciu Aspose.Wo
 Dowiedz się, jak rysować prostokąty w plikach PDF przy użyciu Aspose.Words dla Pythona.
 ### [Jak dodać cień do kształtu Word przy użyciu Pythona](./how-to-add-shadow-to-a-word-shape-using-python/)
 Dowiedz się, jak dodać cień do kształtu w dokumencie Word przy użyciu Aspose.Words dla Pythona.
+### [Jak zapisać PNG i dodać cień do kształtu przy użyciu Aspose.Words](./how-to-save-png-and-add-shadow-to-shape-with-aspose-words/)
+Dowiedz się, jak zapisać obraz PNG i dodać cień do kształtu przy użyciu Aspose.Words.
+
+### [Jak utworzyć wykres kolumnowy w Pythonie przy użyciu Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
+Dowiedz się, jak generować wykresy kolumnowe w dokumentach Word przy użyciu Aspose.Words dla Pythona.
 
 ## Dodatkowe zasoby
 

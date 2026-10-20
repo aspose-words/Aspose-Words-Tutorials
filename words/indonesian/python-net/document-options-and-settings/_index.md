@@ -59,6 +59,8 @@ Pelajari cara memulihkan dokumen Word yang rusak menggunakan Aspose.Words dalam 
 Pelajari cara memulihkan file docx yang rusak menggunakan Aspose.Words untuk Python dengan panduan langkah demi langkah.
 ### [Konfigurasi MarkdownSaveOptions untuk LaTeX di Python – Panduan Aspose.Words](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
 Pelajari cara mengonfigurasi MarkdownSaveOptions agar dapat mengekspor dokumen ke format LaTeX menggunakan Aspose.Words untuk Python.
+### [Cara Memulihkan File docx dengan Aspose.Words untuk Python](./how-to-recover-docx-files-with-aspose-words-for-python/)
+Pelajari cara memulihkan file docx yang rusak menggunakan Aspose.Words untuk Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
