@@ -45,6 +45,10 @@ Aspose.Words for Java ile filigranların nasıl uygulanacağını ve sayfa yapı
 Bu ayrıntılı kılavuzda Aspose.Words for Java kullanarak belge başlıklarını ve altbilgilerini nasıl biçimlendireceğinizi öğrenin. Adım adım talimatlar ve kaynak kod dahildir.
 ### [Java Word Belgelerinde Yazı Tiplerini Algılamak – Tam Kılavuz](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 Aspose.Words for Java kullanarak Word belgelerindeki yazı tiplerini nasıl tespit edeceğinizi öğrenin. Adım adım örnekler.
+### [Aspose.Words for Java’da Varsayılan Yazı Tipi Ayarlarını Belirleme – Tam Kılavuz](./set-default-font-settings-in-aspose-words-for-java-complete/)
+Aspose.Words for Java’da varsayılan yazı tipi ayarlarını nasıl belirleyeceğinizi ve belge oluştururken otomatik olarak uygulayacağınızı öğrenin. 
+### [Aspose.Words for Java ile Word grafiğine gölge ekleme](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Aspose.Words for Java kullanarak Word grafiğine gölge eklemeyi öğrenin. Adım adım örneklerle açıklanmıştır.
 ### [Java'da Aspose.Words ile dipnot ayırıcıyı düzenleme](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
 Aspose.Words for Java kullanarak dipnot ayırıcılarını nasıl değiştireceğinizi öğrenin. Adım adım örnekler ve kod parçacıkları.
 ### [Word grafiğinde dilimi patlatma ve görünümünü özelleştirme](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)

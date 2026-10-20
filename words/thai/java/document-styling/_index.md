@@ -50,6 +50,10 @@ Aspose.Words for Java มอบเครื่องมืออันทรง�
 
 ### [วิธีตรวจจับแบบอักษรในเอกสาร Word ด้วย Java – คู่มือฉบับสมบูรณ์](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 เรียนรู้วิธีตรวจสอบและดึงข้อมูลแบบอักษรจากเอกสาร Word ด้วย Aspose.Words for Java พร้อมตัวอย่างโค้ดเต็ม
+### [ตั้งค่าฟอนต์เริ่มต้นใน Aspose.Words สำหรับ Java – คู่มือเต็ม](./set-default-font-settings-in-aspose-words-for-java-complete/)
+เรียนรู้วิธีตั้งค่าฟอนต์เริ่มต้นสำหรับเอกสารด้วย Aspose.Words สำหรับ Java พร้อมตัวอย่างโค้ดต้นฉบับ
+### [การตั้งเงาบนแผนภูมิ Word ด้วย Aspose.Words for Java](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+เรียนรู้วิธีเพิ่มเงาให้กับแผนภูมิในเอกสาร Word ด้วย Aspose.Words for Java พร้อมตัวอย่างโค้ด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

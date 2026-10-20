@@ -45,6 +45,10 @@ Apprenez à personnaliser les thèmes de vos documents avec Aspose.Words pour Ja
 Apprenez à appliquer des filigranes et à configurer des pages avec Aspose.Words pour Java. Un guide complet avec code source.
 ### [Style d'en-tête et de pied de page du document](./document-header-footer-styling/)
 Apprenez à styliser les en-têtes et pieds de page de vos documents avec Aspose.Words pour Java dans ce guide détaillé. Instructions étape par étape et code source inclus.
+### [Définir les paramètres de police par défaut dans Aspose.Words pour Java – Guide complet](./set-default-font-settings-in-aspose-words-for-java-complete/)
+Apprenez à configurer la police par défaut pour vos documents avec Aspose.Words pour Java. Guide complet avec exemples de code.
+### [Comment appliquer une ombre à un graphique Word avec Aspose.Words pour Java](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Apprenez à ajouter une ombre à un graphique Word en utilisant Aspose.Words pour Java. Exemple de code détaillé.
 ### [Comment modifier le séparateur de notes de bas de page en Java avec Aspose.Words](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
 Apprenez à modifier le séparateur des notes de bas de page dans les documents Word avec Aspose.Words pour Java. Guide pratique avec exemples de code.
 ### [Comment exploser une tranche dans un graphique Word et personnaliser son apparence](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)

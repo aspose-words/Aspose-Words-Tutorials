@@ -45,7 +45,9 @@ Hatékonyan kinyerhet tartalmat Word dokumentumokból az Aspose.Words for Python
 ### [Speciális keresési és csere technikák Word dokumentumokban](./find-replace-documents/)
 Sajátítson el haladó keresési és csere technikákat Word dokumentumokban az Aspose.Words for Python segítségével. Cseréljen le szöveget, használjon reguláris kifejezéseket, formázást és sok mást.
 ### [Tartalom eltávolítása és finomítása Word-dokumentumokban](./remove-content-documents/)
-Tanuld meg, hogyan távolíthatsz el és finomíthatsz hatékonyan tartalmat a Word dokumentumokban az Aspose.Words for Python segítségével. Lépésről lépésre útmutató forráskód példákkal.
+Tanuld meg, hogyan távolíthatsz el és finomíthassz hatékonyan tartalmat a Word dokumentumokban az Aspose.Words for Python segítségével. Lépésről lépésre útmutató forráskód példákkal.
+### [Hogyan állíts be visszahívást a DOCX-ből történő képek exportálásához](./how-to-set-callback-for-exporting-images-from-docx/)
+Tanulja meg, hogyan használhat visszahívást a DOCX dokumentumok képeinek exportálásához az Aspose.Words for Python segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

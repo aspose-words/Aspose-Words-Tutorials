@@ -46,6 +46,8 @@ Aspose.Words for Python を使用して、Word 文書からコンテンツを効
 Aspose.Words for Python を使って、Word 文書内での高度な検索と置換テクニックを学びましょう。テキストの置換、正規表現の使用、書式設定など、様々な機能を活用します。
 ### [Word文書のコンテンツの削除と調整](./remove-content-documents/)
 Aspose.Words for Python を使用して、Word 文書内のコンテンツを効率的に削除および調整する方法を学びます。ソースコード例付きのステップバイステップガイドです。
+### [DOCX から画像をエクスポートするコールバックの設定方法](./how-to-set-callback-for-exporting-images-from-docx/)
+Aspose.Words for Python を使用して、DOCX から画像をエクスポートする際にコールバックを設定する方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

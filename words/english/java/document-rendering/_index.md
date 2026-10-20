@@ -42,6 +42,12 @@ Discover efficient document printing and rendering using Aspose.Words for Java. 
 Learn how to render documents to HTML effortlessly with Aspose.Words for Java. Step-by-step guide for efficient document conversion.
 ### [How to Handle Fonts in Java with Aspose.Words – Complete Guide](./how-to-handle-fonts-in-java-with-aspose-words-complete-guide/)
 Learn how to manage fonts in Java using Aspose.Words. Step-by-step guide with code examples for font substitution, embedding, and licensing.
+### [aspose warning callback tutorial – Detect and Track Missing Fonts](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
+Learn how to detect and track missing fonts using Aspose.Words warning callback in Java. Step-by-step guide with code examples.
+### [How to Capture Warnings – Detect Missing Fonts in Aspose.Words](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
+Learn to capture warnings and detect missing fonts with Aspose.Words for Java. Step-by-step guide with code examples.
+### [Find Missing Fonts in Java with Aspose.Words – Complete Guide](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
+Learn how to detect and resolve missing fonts in Java using Aspose.Words. Step-by-step guide with code samples for reliable document rendering.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

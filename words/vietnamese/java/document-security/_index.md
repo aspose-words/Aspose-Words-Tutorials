@@ -41,6 +41,18 @@ Tìm hiểu cách mã hóa và giải mã tài liệu bằng Aspose.Words for Ja
 Tìm hiểu cách triển khai chữ ký số an toàn trong tài liệu bằng Aspose.Words cho Java. Đảm bảo tính toàn vẹn của tài liệu với hướng dẫn từng bước và mã nguồn
 ### [Biên tập tài liệu và bảo vệ dữ liệu](./document-redaction-data-protection/)
 Tìm hiểu cách bảo mật tài liệu và biên tập dữ liệu nhạy cảm bằng Aspose.Words cho Java. Hướng dẫn từng bước có mã nguồn.
+### [Ký tài liệu Word trong Java với Aspose.Words – Hướng dẫn toàn diện](./sign-word-document-in-java-with-aspose-words-complete-guide/)
+Hướng dẫn chi tiết cách ký tài liệu Word bằng Aspose.Words cho Java, bao gồm mã nguồn mẫu và các bước thực hiện.
+### [Cách ký tệp DOCX trong C# – Hướng dẫn chi tiết từng bước](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách ký tài liệu DOCX bằng C# với Aspose.Words, bao gồm các bước và mã nguồn mẫu.
+### [Cách ký file docx bằng chứng chỉ PFX – hướng dẫn từng bước](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
+Hướng dẫn chi tiết cách ký file docx bằng chứng chỉ PFX với Aspose.Words for Java, bao gồm các bước cấu hình và mã nguồn mẫu.
+### [Cách ký tài liệu Word trong C# bằng chứng chỉ X509](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
+Hướng dẫn ký tài liệu Word bằng C# sử dụng chứng chỉ X509, bảo vệ tính toàn vẹn và xác thực.
+### [Cách thêm chữ ký số vào tài liệu Word bằng Aspose.Words](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
+Hướng dẫn chi tiết cách chèn chữ ký số vào tài liệu Word bằng Aspose.Words, bảo vệ tính toàn vẹn và xác thực.
+### [Ký số tài liệu Word bằng Java](./how-to-digitally-sign-word-document-using-java/)
+Hướng dẫn chi tiết cách ký số tài liệu Word bằng Java với Aspose.Words, bao gồm mã nguồn và các bước thực hiện.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

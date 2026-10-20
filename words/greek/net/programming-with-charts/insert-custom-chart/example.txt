@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Αυτό το σεμινάριο δείχνει πώς να δημιουργήσετε ένα έγγραφο Word, να εισάγετε ένα γράφημα στήλης, να διαγράψετε τα προεπιλεγμένα δεδομένα του και να το γεμίσετε με προσαρμοσμένα δεδομένα από έναν δισδιάστατο πίνακα—αντιστοιχίζοντας κάθε γραμμή σε μια σειρά και κάθε στήλη σε μια κατηγορία—στη συνέχεια να προσθέσετε έναν τίτλο και να αποθηκεύσετε το αρχείο.
+//ExStepSummary:0: Δημιουργήστε ένα νέο Document και ένα DocumentBuilder που είναι συνδεδεμένο σε αυτό.
+//ExStepSummary:1: Εισάγετε ένα γράφημα στήλης μεγέθους 432x252 points στο έγγραφο και αποκτήστε το αντικείμενο Chart του.
+//ExStepSummary:2: Αφαιρέστε τις αυτόματα δημιουργημένες δείγματες σειρές από το γράφημα.
+//ExStepSummary:3: Ορίστε τις ετικέτες κατηγοριών του άξονα X και τις καταχωρήσεις του υπομνήματος για κάθε σειρά.
+//ExStepSummary:4: Δημιουργήστε έναν δισδιάστατο πίνακα όπου κάθε γραμμή περιέχει τις τιμές για μία σειρά.
+//ExStepSummary:5: Επαναλάβετε για κάθε σειρά, εξάγετε τις τιμές της γραμμής από τον πίνακα και προσθέστε τη σειρά στο γράφημα με την αντίστοιχη καταχώρηση του υπομνήματος και τις ετικέτες του άξονα X.
+//ExStepSummary:6: Ορίστε το κείμενο του τίτλου του γραφήματος σε 'Half‑Yearly Revenue' και κάντε το ορατό.
+//ExStepSummary:7: Αποθηκεύστε το έγγραφο που περιέχει το προσαρμοσμένο γράφημα σε αρχείο .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:6:images/4.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chartObj = chartContainer.Chart;
+
+//ExStep:2-
+chartObj.Series.Clear();
+
+//ExStep:3-
+string[] xLabels = { "Jan", "Feb", "Mar", "Apr" };
+string[] legendEntries = { "Item Alpha", "Item Beta", "Item Gamma" };
+
+//ExStep:4-
+double[,] dataMatrix = {
+    { 120.5, 135.0, 150.2, 165.3 }, // Item Alpha
+    { 80.0,  95.5, 110.1, 130.0 }, // Item Beta
+    { 60.3,  70.4,  85.6,  95.2 }   // Item Gamma
+};
+
+//ExStep:5-
+for (int sIdx = 0; sIdx < legendEntries.Length; sIdx++)
+{
+    double[] rowValues = new double[xLabels.Length];
+    for (int cIdx = 0; cIdx < xLabels.Length; cIdx++)
+    {
+        rowValues[cIdx] = dataMatrix[sIdx, cIdx];
+    }
+
+    chartObj.Series.Add(legendEntries[sIdx], xLabels, rowValues);
+}
+
+//ExStep:6-
+chartObj.Title.Text = "Half‑Yearly Revenue";
+chartObj.Title.Show = true;
+
+//ExStep:7-
+myDocument.Save("CustomChart.docx");
+//ExEnd

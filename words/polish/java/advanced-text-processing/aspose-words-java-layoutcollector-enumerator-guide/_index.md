@@ -53,19 +53,19 @@ Ponowne numerowanie stron pozwala rozpocząć nową sekwencję numeracji w okre�
 ### Wymagane biblioteki i wersje
 Upewnij się, że masz zainstalowaną wersję Aspose.Words for Java 25.3 (lub nowszą).
 
-**Maven:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-words</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
 **Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ### Wymagania dotyczące konfiguracji środowiska
 - Zainstalowany Java Development Kit (JDK).
@@ -90,6 +90,16 @@ public class SetupAsposeWords {
         System.out.println("Aspose.Words is ready to use!");
     }
 }
+```  
+
+Po przygotowaniu biblioteki możesz rozpocząć korzystanie z podstawowych funkcji.
+
+## Jak analizować strony przy użyciu LayoutCollector?
+
+`LayoutCollector` to klasa, która mapuje każdy węzeł w obiekcie `Document` na jego numery początkowej i końcowej strony, umożliwiając precyzyjną analizę paginacji. Załaduj dokument, podłącz `LayoutCollector` i zapytaj o informacje o stronach – cała operacja wymaga zaledwie kilku linii kodu i zapewnia wiarygodne wyniki nawet dla dużych plików.
+
+```text
+Load the document → create LayoutCollector → call getStartPage(node) / getEndPage(node)
 ```
 
 Po przygotowaniu biblioteki możemy przejść do kluczowych funkcji.
@@ -108,7 +118,7 @@ Korzystając z `LayoutCollector`, możesz pobrać indeksy pierwszej i ostatniej 
 ```java
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
-```
+```  
 
 **2. Populate the Document**
 Tutaj dodamy treść, która rozciąga się na wiele stron:
@@ -119,7 +129,7 @@ builder.insertBreak(BreakType.PAGE_BREAK);
 builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
 builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
-```
+```  
 
 **3. Update Layout and Retrieve Metrics**
 ```java
@@ -127,6 +137,19 @@ layoutCollector.clear();
 doc.updatePageLayout();
 
 assert layoutCollector.getNumPagesSpanned(doc) == 5;
+```  
+
+**Wyjaśnienie:**  
+- `DocumentBuilder` wstawia treść.  
+- `updatePageLayout()` wymusza przebieg układu, aby numery stron były dokładne.  
+- `getStartPage` / `getEndPage` zwracają odpowiednio pierwszą i ostatnią stronę dla dowolnego węzła.
+
+## Jak wyliczyć elementy układu przy użyciu LayoutEnumerator?
+
+`LayoutEnumerator` to klasa, która przegląda wizualne drzewo układu dokumentu, udostępniając typ, pozycję i rozmiar każdego elementu — idealne do własnego renderowania lub analiz. `LayoutEnumerator` przegląda wizualne drzewo układu, udostępniając typ, pozycję i rozmiar każdego elementu — idealne do własnego renderowania lub analiz.
+
+```text
+Initialize LayoutEnumerator → move to first child → iterate while moving next sibling
 ```
 
 #### Wyjaśnienie
@@ -145,7 +168,7 @@ Możesz przechodzić przez strony, akapity, linie i inne jednostki układu, co j
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
-```
+```  
 
 **2. Traversing Forward and Backward**
 ```java
@@ -156,6 +179,18 @@ traverseLayoutForward(layoutEnumerator, 1);
 
 // Traverse backward
 traverseLayoutBackward(layoutEnumerator, 1);
+```  
+
+**Wyjaśnienie:**  
+- `moveParent()` wspina się w górę drzewa.  
+- Rekurencyjne przeglądanie daje pełny dostęp do każdego węzła układu.
+
+## Jak zaimplementować wywołania zwrotne układu strony?
+
+`IPageLayoutCallback` to interfejs służący do odbierania zdarzeń układu podczas przetwarzania dokumentu, umożliwiając reagowanie na zmiany układu, takie jak przetłoczenia sekcji lub zakończenie renderowania. Implementacja `IPageLayoutCallback` pozwala reagować na zdarzenia układu, takie jak przetłoczenia sekcji lub zakończenie renderowania, dając dynamiczną kontrolę nad potokiem generowania dokumentu.
+
+```text
+Set callback on Document → implement notify(event) → handle specific layout events
 ```
 
 #### Wyjaśnienie
@@ -174,7 +209,7 @@ Interfejs `IPageLayoutCallback` powiadamia, gdy część dokumentu zakończy prz
 ```java
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
 doc.updatePageLayout();
-```
+```  
 
 **2. Implement Callback Methods**
 ```java
@@ -196,6 +231,18 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
         }
     }
 }
+```  
+
+**Wyjaśnienie:**  
+- `notify()` otrzymuje identyfikator zdarzenia.  
+- `ImageSaveOptions` może być dostosowane wewnątrz wywołania zwrotnego do renderowania obrazów w locie.
+
+## Jak zresetować numerację stron w sekcjach ciągłych?
+
+`ContinuousSectionRestart` to wyliczenie określające, czy numeracja stron ma być resetowana w sekcjach ciągłych, dając precyzyjną kontrolę nad schematami numeracji w całym dokumencie. Gdy dokument zawiera wiele sekcji płynących ciągle, możesz kontrolować, czy numery stron są resetowane automatycznie.
+
+```text
+Load document → set ContinuousSectionPageNumberingRestart option → save
 ```
 
 #### Wyjaśnienie
@@ -213,13 +260,13 @@ Ustawiając opcję `ContinuousSectionRestart`, możesz zdecydować, czy numery s
 **1. Load Document**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
-```
+```  
 
 **2. Configure Page Numbering Options**
 ```java
 doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
 doc.updatePageLayout();
-```
+```  
 
 #### Wyjaśnienie
 - **`setContinuousSectionPageNumberingRestart()`** określa, jak Aspose.Words ma obsługiwać numerację w sekcjach ciągłych.

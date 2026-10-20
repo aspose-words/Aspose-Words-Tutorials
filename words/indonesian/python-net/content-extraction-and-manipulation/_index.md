@@ -46,6 +46,8 @@ Ekstrak konten dari dokumen Word secara efisien menggunakan Aspose.Words untuk P
 Pelajari teknik pencarian dan penggantian tingkat lanjut dalam dokumen Word menggunakan Aspose.Words untuk Python. Ganti teks, gunakan regex, format, dan banyak lagi.
 ### [Menghapus dan Menyempurnakan Konten dalam Dokumen Word](./remove-content-documents/)
 Pelajari cara menghapus dan menyempurnakan konten dalam dokumen Word secara efisien menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan contoh kode sumber.
+### [Cara Mengatur Callback untuk Mengekspor Gambar dari DOCX](./how-to-set-callback-for-exporting-images-from-docx/)
+Pelajari cara mengatur callback untuk mengekspor gambar dari file DOCX menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan contoh kode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
