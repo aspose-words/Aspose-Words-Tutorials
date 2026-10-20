@@ -113,8 +113,6 @@
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown พร้อมการสกัดและบันทึกรูปภาพจากไฟล์ต้นฉบับ
 ### [บันทึกเอกสารเป็น Markdown ด้วย C# – คู่มือเต็ม](./save-document-as-markdown-with-c-full-guide/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 ### [กู้คืนเอกสาร Word ด้วย Aspose.Words – คู่มือเต็ม](./recover-word-document-with-aspose-words-full-guide/)
 เรียนรู้วิธีกู้คืนไฟล์ Word ที่เสียหายโดยใช้ Aspose.Words พร้อมขั้นตอนละเอียดและตัวอย่างโค้ดใน C#
 
