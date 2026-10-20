@@ -77,6 +77,7 @@
 | [C# के साथ आयत आकार डालें – चरण‑दर‑श Aspose.Words गाइड](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | .NET के लिए Aspose.Words का उपयोग करके C# में आयत आकार कैसे डालें, इस चरण‑दर‑श मार्गदर्शिका में सीखें। |
 | [Word आकृतियों में शैडो कैसे जोड़ें – पूर्ण C# गाइड](./how-to-add-shadow-to-word-shapes-complete-c-guide/) | C# में Aspose.Words का उपयोग करके Word आकृतियों में शैडो जोड़ने के चरण‑दर‑चरण निर्देश। |
 | [C# में आकृतियों पर शैडो सेट करने का तरीका – पूर्ण Aspose.Words गाइड](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) | C# में Aspose.Words का उपयोग करके आकृतियों में शैडो जोड़ने के चरण‑दर‑चरण निर्देश। |
+| [C# में आयत आकार बनाएं और कई आकृतियों को समूहित करें](./create-rectangle-shape-and-group-multiple-shapes-in-c/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ में आयत आकार बनाना और कई आकृतियों को समूहित करना सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

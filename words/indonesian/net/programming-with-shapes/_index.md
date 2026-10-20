@@ -72,6 +72,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Menyisipkan bentuk persegi panjang di C# dengan Aspose.Words – panduan langkah demi langkah](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | Pelajari cara menyisipkan bentuk persegi panjang di dokumen Word menggunakan C# dan Aspose.Words dengan panduan langkah demi langkah. |
 | [Cara Menambahkan Bayangan pada Bentuk Word – Panduan Lengkap C#](./how-to-add-shadow-to-word-shapes-complete-c-guide/) | Pelajari cara menambahkan bayangan pada bentuk Word menggunakan Aspose.Words untuk .NET dengan panduan lengkap C#. Bahasa Indonesia: |
 | [Cara Menetapkan Bayangan pada Bentuk di C# – Panduan Lengkap Aspose.Words](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) | Pelajari cara menambahkan bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh kode C#. |
+| [Buat bentuk persegi panjang dan grupkan beberapa bentuk dalam C#](./create-rectangle-shape-and-group-multiple-shapes-in-c/) | Pelajari cara membuat bentuk persegi panjang dan mengelompokkan beberapa bentuk dalam C# menggunakan Aspose.Words untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

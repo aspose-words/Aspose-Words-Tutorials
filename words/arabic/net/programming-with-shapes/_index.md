@@ -74,6 +74,7 @@
 | [كيفية تجميع الأشكال في مستند Word باستخدام C#](./how-to-group-shapes-in-a-word-document-with-c/) | تعلم كيفية تجميع الأشكال في مستند Word باستخدام C# خطوة بخطوة. |
 | [كيفية إضافة ظل إلى أشكال Word – دليل كامل C#](./how-to-add-shadow-to-word-shapes-complete-c-guide/) | تعلم كيفية إضافة تأثير الظل إلى الأشكال في مستندات Word باستخدام Aspose.Words وC# خطوة بخطوة. |
 | [كيفية إضافة ظل إلى الأشكال في C# – دليل Aspose.Words الكامل](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) | تعرّف على كيفية إضافة ظل إلى الأشكال في مستندات Word باستخدام Aspose.Words for .NET وC# من خلال دليل خطوة بخطوة. |
+| [إنشاء شكل مستطيل وتجميع أشكال متعددة في C#](./create-rectangle-shape-and-group-multiple-shapes-in-c/) | تعلم كيفية إنشاء شكل مستطيل وتجميع عدة أشكال في مستند Word باستخدام C# و Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

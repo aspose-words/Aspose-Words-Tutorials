@@ -50,6 +50,7 @@ Genom att använda Aspose.Words för .NET och följa dessa handledningar kommer 
 
 | [Hur du lägger till en skugga på Word-former – Komplett C#‑guide](./how-to-add-shadow-to-word-shapes-complete-c-guide/) | Lär dig hur du lägger till en skugga på former i Word-dokument med Aspose.Words för .NET i C#. |
 | [Hur du lägger till skugga på former i C# – Komplett Aspose.Words‑guide](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) | Lär dig hur du sätter skugga på former i C# med en komplett Aspose.Words‑guide i steg‑för‑steg‑format. |
+| [Skapa rektangelform och gruppera flera former i C#](./create-rectangle-shape-and-group-multiple-shapes-in-c/) | Lär dig hur du skapar en rektangelform och grupperar flera former i ett Word‑dokument med Aspose.Words för .NET i C#. |
 | [Skapa tomt Word-dokument med skuggad rektangelform – steg‑för‑steg‑guide](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Lär dig hur du skapar ett tomt Word-dokument och lägger till en rektangelform med skugga med Aspose.Words för .NET. |
 | [Lägg till skugga på form i C# – Komplett guide för att tillämpa skuggeffekt](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Lär dig hur du lägger till skuggeffekter på former i Word-dokument med Aspose.Words för .NET i denna steg‑för‑steg‑guide. |
 | [Redigera formskugga i C# med Aspose.Words – Steg‑för‑steg‑guide](./how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/) | Lär dig hur du redigerar skuggan för former i Word-dokument med Aspose.Words för .NET i denna steg‑för‑steg‑guide. |

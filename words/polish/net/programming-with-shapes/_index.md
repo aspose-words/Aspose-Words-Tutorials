@@ -74,6 +74,7 @@ Korzystając z Aspose.Words dla .NET i postępując zgodnie z tymi samouczkami, 
 | [Wstaw prostokątny kształt w C# przy użyciu Aspose.Words – przewodnik krok po kroku](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | Dowiedz się, jak w C# utworzyć prostokątny kształt w dokumencie Word przy użyciu Aspose.Words, krok po kroku. |
 | [Jak grupować kształty w Wordzie i dodawać kształty do dokumentu Word](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Dowiedz się, jak grupować kształty i dodawać je do dokumentu Word przy użyciu Aspose.Words dla .NET. |
 | [Jak grupować kształty w dokumencie Word przy użyciu C#](./how-to-group-shapes-in-a-word-document-with-c/) |  |
+| [Utwórz prostokątny kształt i grupuj wiele kształtów w C#](./create-rectangle-shape-and-group-multiple-shapes-in-c/) | Dowiedz się, jak utworzyć prostokątny kształt i grupować wiele kształtów w dokumencie Word przy użyciu Aspose.Words dla .NET w C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
