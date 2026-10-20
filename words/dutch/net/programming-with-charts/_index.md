@@ -71,6 +71,8 @@ Met deze tutorials kunt u uw Word-documenten verbeteren door visueel aantrekkeli
 | [Pas een enkel grafiekgegevenspunt in een grafiek aan](./single-chart-data-point/) | Leer hoe u afzonderlijke grafiekgegevenspunten kunt aanpassen met Aspose.Words voor .NET in een gedetailleerde stapsgewijze handleiding. Verfraai uw grafieken met unieke markeringen en formaten. |
 | [Pas enkele grafiekreeksen in een grafiek aan](./single-chart-series/) | Leer hoe u afzonderlijke grafiekreeksen in een Word-document kunt aanpassen met Aspose.Words voor .NET. Volg onze stapsgewijze handleiding voor een naadloze ervaring. |
 | [Grafieklegenda weergeven in Word met C# – Complete stapsgewijze handleiding](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Leer hoe u de legenda van een grafiek in een Word-document weergeeft met Aspose.Words voor .NET en C# in deze volledige stapsgewijze handleiding. |
+| [Exploderen van taartdiagramsegment in C# met Aspose.Words – volledige gids](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Leer hoe u een taartdiagramsegment explodeert in C# met Aspose.Words in deze volledige stap‑voor‑stap handleiding. |
+| [Taartdiagramlabels toevoegen in C# met Aspose.Words – volledige gids](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Leer hoe u taartdiagramlabels toevoegt in C# met Aspose.Words in deze volledige stap‑voor‑stap handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -80,6 +80,7 @@ Basic Conversions проведет вас через базовые преобр
 | [Создать PDF из Word на C# – Полное руководство](./create-pdf-from-word-in-c-full-guide/) | Узнайте, как создать PDF из документа Word с помощью Aspose.Words для .NET в C#. Подробное пошаговое руководство для разработчиков. |
 | [Создать PDF из Word в C# – Быстрое руководство с низким кодом](./create-pdf-from-word-in-c-fast-low-code-guide/) | Узнайте, как быстро создать PDF из документа Word в C# с помощью Aspose.Words, используя минимальное количество кода. |
 | [Сохранить Word как PDF с Aspose.Words – Полное руководство](./save-word-as-pdf-with-aspose-words-complete-guide/) | Узнайте, как сохранить документ Word в PDF с помощью Aspose.Words. Подробное руководство с примерами кода. |
+| [Конвертировать Markdown в DOCX с Aspose.Words – Полное руководство C#](./convert-markdown-to-docx-with-aspose-words-complete-c-guide/) | Узнайте, как конвертировать файлы Markdown в DOCX с помощью Aspose.Words для .NET. Полное руководство на C# с примерами кода. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

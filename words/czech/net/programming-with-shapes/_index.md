@@ -25,6 +25,7 @@ Používáním Aspose.Words pro .NET a podle těchto tutoriálů zvládnete mani
 | Název | Popis |
 | --- | --- |
 | [Přidat tvar skupiny](./add-group-shape/) | Naučte se, jak přidávat skupinové tvary do dokumentů Wordu pomocí Aspose.Words pro .NET v tomto komplexním návodu krok za krokem. |
+| [Skupinové tvary ve Wordu s Aspose.Words – Kompletní průvodce C#](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Naučte se, jak pracovat se skupinovými tvary ve Wordu pomocí Aspose.Words v kompletním průvodci pro C#. |
 | [Vložit tvar](./insert-shape/) | Naučte se, jak vkládat a manipulovat s tvary v dokumentech Wordu pomocí Aspose.Words pro .NET s naším podrobným návodem. |
 | [Poměr stran uzamčen](./aspect-ratio-locked/) | Naučte se, jak uzamknout poměr stran tvarů v dokumentech Wordu pomocí Aspose.Words pro .NET. Postupujte podle tohoto podrobného návodu, abyste zachovali proporce obrázků a tvarů. |
 | [Rozložení v buňce](./layout-in-cell/) | Naučte se, jak nastavit rozvržení v buňce pomocí Aspose.Words pro .NET v tomto komplexním průvodci. Ideální pro vývojáře, kteří chtějí přizpůsobit dokumenty Wordu. |
@@ -62,6 +63,7 @@ Používáním Aspose.Words pro .NET a podle těchto tutoriálů zvládnete mani
 | [Jak nastavit stín na tvar ve Wordu – C# tutoriál](./how-to-set-shadow-on-a-word-shape-c-tutorial/) | Naučte se, jak nastavit stín pro tvary ve Wordu pomocí Aspose.Words pro .NET v tomto podrobném návodu. |
 | [Vytvořit obdélníkový tvar a přidat stín v C#](./create-rectangle-shape-and-how-to-add-shadow-in-c/) | Naučte se, jak vytvořit obdélníkový tvar a přidat stín v C# pomocí Aspose.Words pro .NET. |
 | [Jak přesunout stín v Aspose.Words – kompletní průvodce C#](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | Naučte se, jak přesunout stín tvaru v dokumentech Word pomocí Aspose.Words pro .NET v jazyce C#. |
+| [Jak skrýt tvar ve Wordu pomocí C# – krok za krokem](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Naučte se, jak skrýt tvar v dokumentu Word pomocí Aspose.Words pro .NET v C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

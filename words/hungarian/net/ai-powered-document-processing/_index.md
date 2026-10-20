@@ -72,6 +72,8 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
 | [Word nyelvtan ellenőrzése az Aspose.Words AI-val – Teljes útmutató](./check-word-grammar-with-aspose-words-ai-complete-guide/) | Ismerje meg, hogyan használhatja az Aspose.Words AI-t a Word dokumentumok nyelvtani hibáinak automatikus ellenőrzésére és javítására. |
 | [Szöveg összefoglalása AI-val C#-ban – Teljes programozási útmutató](./summarize-text-with-ai-in-c-complete-programming-guide/) | Ismerje meg, hogyan készíthet AI-alapú szövegösszefoglalókat C#-ban az Aspose.Words for .NET segítségével, lépésről lépésre. |
 
+| [Dokumentumösszefoglaló létrehozása Aspose.Words & OpenAI segítségével](./create-document-summary-with-aspose-words-openai/) | Ismerje meg, hogyan hozhat létre hatékony összefoglalókat a Word-dokumentumokból az Aspose.Words és az OpenAI modelljeivel. |
+| [docx fordítása franciára az Aspose.Words és a Google API segítségével](./translate-docx-to-french-with-aspose-words-and-google-api/) | Tanulja meg, hogyan fordíthatja a DOCX fájlokat franciára az Aspose.Words és a Google API használatával. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

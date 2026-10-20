@@ -72,6 +72,8 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [Word-Dokument mit lokalem LLM zusammenfassen – Schritt‑für‑Schritt C#‑Leitfaden](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und einem lokalen LLM Word-Dokumente in C# automatisch zusammenfassen. |
 | [Word-Grammatik mit Aspose.Words KI prüfen – Komplettleitfaden](./check-word-grammar-with-aspose-words-ai-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und KI die Grammatik von Word-Dokumenten automatisch prüfen und korrigieren. |
 | [Text mit KI in C# zusammenfassen – Vollständiger Programmierleitfaden](./summarize-text-with-ai-in-c-complete-programming-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und KI-Integration Text in C# effizient zusammenfassen. |
+| [Dokumentzusammenfassung erstellen mit Aspose.Words & OpenAI](./create-document-summary-with-aspose-words-openai/) | Erstellen Sie mit Aspose.Words für .NET und OpenAI präzise Dokumentzusammenfassungen. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung. |
+| [DOCX ins Französische übersetzen mit Aspose.Words und Google‑API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words und der Google‑API ins Französische übersetzen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

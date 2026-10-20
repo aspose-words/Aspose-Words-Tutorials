@@ -294,6 +294,9 @@ Erfahren Sie, wie Sie ein Dokument mit Aspose.Words für .NET vollständig in Ma
 ### [Bilder beim Konvertieren von Word zu Markdown in die Cloud hochladen](./upload-images-to-cloud-when-converting-word-to-markdown/)
 Erfahren Sie, wie Sie Bilder beim Konvertieren von Word zu Markdown in die Cloud hochladen.
 
+### [Word als Markdown speichern – Tabellen nach HTML exportieren mit Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/)
+Erfahren Sie, wie Sie Word‑Tabellen beim Export nach Markdown als HTML ausgeben und anpassen können.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

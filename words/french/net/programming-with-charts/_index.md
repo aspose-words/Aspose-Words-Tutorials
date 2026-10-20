@@ -71,6 +71,8 @@ Grâce à ces tutoriels, vous pourrez enrichir vos documents Word en y ajoutant 
 | [Personnaliser un seul point de données dans un graphique](./single-chart-data-point/) | Découvrez comment personnaliser des points de données de graphiques individuels avec Aspose.Words pour .NET grâce à un guide détaillé étape par étape. Améliorez vos graphiques avec des marqueurs et des tailles uniques. |
 | [Personnaliser une série de graphiques unique dans un graphique](./single-chart-series/) | Apprenez à personnaliser des séries de graphiques uniques dans un document Word avec Aspose.Words pour .NET. Suivez notre guide étape par étape pour une expérience fluide. |
 | [Afficher la légende du graphique dans Word avec C# – Guide complet étape par étape](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Apprenez à afficher et personnaliser la légende d’un graphique dans Word avec Aspose.Words pour .NET grâce à ce guide complet étape par étape. |
+| [Exploser une tranche de graphique circulaire en C# avec Aspose.Words – Guide complet](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Apprenez à faire exploser une tranche d'un graphique en secteurs avec Aspose.Words pour .NET en C#, grâce à ce guide complet étape par étape. |
+| [Ajouter des étiquettes de graphique circulaire en C# avec Aspose.Words – Guide complet](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Apprenez à ajouter des étiquettes aux graphiques circulaires avec Aspose.Words pour .NET en C#, grâce à ce guide complet étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

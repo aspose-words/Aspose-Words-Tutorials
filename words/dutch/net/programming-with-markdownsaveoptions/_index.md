@@ -150,6 +150,10 @@ Leer hoe u afbeeldingen een nieuwe naam geeft tijdens het converteren van DOCX n
 ### [Opslaan van Word-afbeeldingen – Converteer Word naar Markdown met Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
 
 ### [Hoe LaTeX exporteren vanuit Word – DOCX naar Markdown converteren](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+### [Word opslaan als Markdown – Tabellen exporteren naar HTML met Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/)
+Leer hoe u Word-documenten opslaat als Markdown en tabellen exporteert naar HTML met Aspose.Words voor .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 ### [Export docx naar markdown in C# – Complete gids](./export-docx-to-markdown-in-c-complete-guide/)
 

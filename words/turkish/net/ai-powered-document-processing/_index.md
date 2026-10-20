@@ -72,6 +72,8 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [Yerel LLM ile Word Belgesini Özetleme – Adım Adım C# Rehberi](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | Yerel bir LLM kullanarak C# ile Word belgelerini nasıl özetleyeceğinizi adım adım öğrenin. |
 | [Aspose.Words AI ile Word Dilbilgisini Kontrol Et – Tam Kılavuz](./check-word-grammar-with-aspose-words-ai-complete-guide/) | Aspose.Words AI kullanarak Word belgelerinizde dilbilgisi hatalarını otomatik olarak tespit edip düzeltmeyi öğrenin. |
 | [C# ile AI Kullanarak Metin Özetleme – Tam Programlama Kılavuzu](./summarize-text-with-ai-in-c-complete-programming-guide/) | C# ve Aspose.Words kullanarak AI destekli metin özetleme adımlarını öğrenin ve verimli sonuçlar elde edin. |
+| [Aspose.Words & OpenAI ile belge özeti oluşturma](./create-document-summary-with-aspose-words-openai/) | Aspose.Words ve OpenAI kullanarak belgeleri otomatik özetleyin ve zaman kazanın. |
+| [Aspose.Words ve Google API ile docx'i Fransızcaya çevirme](./translate-docx-to-french-with-aspose-words-and-google-api/) | Aspose.Words ve Google Çeviri API'sini kullanarak docx belgelerinizi Fransızcaya otomatik olarak çevirin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

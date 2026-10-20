@@ -71,6 +71,8 @@ Aspose.Words for .NET 圖形程式教學提供了全面的資源，用於學習�
 | [自訂圖表中的單一圖表資料點](./single-chart-data-point/) |透過詳細的逐步指南了解如何使用 Aspose.Words for .NET 自訂單一圖表資料點。使用獨特的標記和尺寸來增強您的圖表。 |
 | [自訂圖表中的單一圖表系列](./single-chart-series/) |了解如何使用 Aspose.Words for .NET 自訂 Word 文件中的單一圖表系列。按照我們的逐步指南，獲得無縫體驗。 |
 | [在 Word 中顯示圖表圖例（C# 完整步驟指南）](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) |透過本完整逐步指南，了解如何使用 C# 在 Word 中顯示圖表圖例。 |
+| [使用 Aspose.Words 在 C# 中爆炸式切割圓餅圖切片 – 完整指南](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) |透過本完整指南了解如何在 C# 使用 Aspose.Words 將圓餅圖切片設定為爆炸狀，以增強視覺效果。 |
+| [使用 Aspose.Words 在 C# 中添加圓餅圖標籤 – 完整指南](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) |透過本完整指南了解如何在 C# 使用 Aspose.Words 為圓餅圖添加資料標籤，提升圖表可讀性。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

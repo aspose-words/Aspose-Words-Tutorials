@@ -117,6 +117,7 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [DOCX को मार्कडाउन में निर्यात करें – पूर्ण C# गाइड](./export-docx-as-markdown-complete-c-guide/) | .NET के लिए Aspose.Words का उपयोग करके DOCX फ़ाइल को मार्कडाउन में निर्यात करने का पूर्ण C# गाइड। |
 | [DOCX को मार्कडाउन में सहेजें – Aspose.Words के साथ Word गणित को LaTeX में निर्यात करें](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/) | Aspose.Words का उपयोग करके Word दस्तावेज़ में गणितीय समीकरणों को LaTeX में निर्यात करके DOCX को Markdown में बदलें। |
 | [Word को Markdown में बदलते समय छवियों को क्लाउड पर अपलोड करें](./upload-images-to-cloud-when-converting-word-to-markdown/) | Word दस्तावेज़ को Markdown में बदलते समय छवियों को क्लाउड स्टोरेज में अपलोड करने की प्रक्रिया। |
+| [Word को Markdown के रूप में सहेजें – Aspose.Words के साथ तालिकाओं को HTML में निर्यात करें](./save-word-as-markdown-export-tables-to-html-with-aspose-word/) | Aspose.Words का उपयोग करके Word को Markdown में सहेजते हुए तालिकाओं को HTML में निर्यात करने का तरीका सीखें। |
 
 | [Word को Markdown में बदलें – इमेज एक्सट्रैक्शन के साथ पूर्ण गाइड](./convert-word-to-markdown-full-guide-with-image-extraction/) | इमेज एक्सट्रैक्शन के साथ Word को Markdown में बदलने की पूरी गाइड। C# में चरण‑दर‑स्टेप प्रक्रिया। |
 | [docx को markdown में बदलें – लाइन‑ब्रेक संरक्षण के साथ पूर्ण गाइड](./convert-docx-to-markdown-complete-guide-with-line-break-pres/) | docx फ़ाइल को markdown में बदलते समय लाइन‑ब्रेक को संरक्षित रखने का पूर्ण चरण‑दर‑स्टेप गाइड। |

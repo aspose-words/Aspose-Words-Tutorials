@@ -71,6 +71,8 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Sammanfatta Word-dokument med en lokal LLM – Steg‑för‑steg C#‑guide](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | Lär dig hur du använder en lokal LLM för att sammanfatta Word-dokument med C# i en tydlig steg‑för‑steg‑guide. |
 | [Kontrollera Word-grammatik med Aspose.Words AI – Komplett guide](./check-word-grammar-with-aspose-words-ai-complete-guide/) | Lär dig hur du använder Aspose.Words AI för att automatiskt rätta grammatiken i Word-dokument med en komplett steg‑för‑steg‑guide. |
 | [Sammanfatta text med AI i C# – Komplett programmeringsguide](./summarize-text-with-ai-in-c-complete-programming-guide/) | Lär dig att använda AI för att sammanfatta text i C# med en komplett steg-för-steg-guide. |
+| [Skapa dokumentsammanfattning med Aspose.Words och OpenAI](./create-document-summary-with-aspose-words-openai/) | Lär dig hur du använder Aspose.Words för .NET tillsammans med OpenAI för att automatiskt sammanfatta dokument. |
+| [Översätt docx till franska med Aspose.Words och Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Lär dig hur du använder Aspose.Words och Google API för att översätta DOCX-filer till franska. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

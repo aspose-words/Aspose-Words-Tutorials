@@ -72,6 +72,8 @@ Infine, non dimenticare di dare un'occhiata al nostro [Lavorare con le opzioni d
 | [Riassumere il testo con IA in C# – Guida completa di programmazione](./summarize-text-with-ai-in-c-complete-programming-guide/) | Scopri come utilizzare Aspose.Words per .NET con IA in C# per generare riassunti rapidi e precisi dei documenti. |
 
 | [Come controllare la grammatica e riassumere un documento Word con Aspose.Words AI](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | Scopri come verificare la grammatica e generare riassunti dei documenti Word usando l'AI di Aspose.Words. |
+| [Creare un riepilogo del documento con Aspose.Words e OpenAI](./create-document-summary-with-aspose-words-openai/) | Crea un riepilogo efficace dei documenti usando Aspose.Words per .NET e i modelli OpenAI. |
+| [Tradurre docx in francese con Aspose.Words e Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Scopri come tradurre documenti DOCX in francese usando Aspose.Words per .NET e l'API di Google. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

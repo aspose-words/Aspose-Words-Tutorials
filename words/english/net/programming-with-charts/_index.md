@@ -77,6 +77,8 @@ With these tutorials, you will be able to enhance your Word documents by adding 
 | [Customize Single Chart Series In A Chart](./single-chart-series/) | Learn how to customize single chart series in a Word document using Aspose.Words for .NET. Follow our step-by-step guide for a seamless experience. |
 | [Show Chart Legend in Word with C# – Complete Step‑by‑Step Guide](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Learn how to display chart legends in Word documents using Aspose.Words for .NET with C#. Follow our step-by-step guide. |
 
+| [Explode Pie Chart Slice in C# with Aspose.Words – Full Guide](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Learn how to explode a pie chart slice in Word using Aspose.Words for .NET with this step-by-step guide. |
+| [Add pie chart labels in C# using Aspose.Words – Complete Guide](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Learn how to add labels to pie charts in Word using Aspose.Words for .NET with this comprehensive step-by-step guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

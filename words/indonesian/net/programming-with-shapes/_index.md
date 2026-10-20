@@ -61,6 +61,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara Menetapkan Bayangan pada Bentuk Word – Tutorial C#](./how-to-set-shadow-on-a-word-shape-c-tutorial/) | Pelajari cara menambahkan efek bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh kode C#. |
 | [Buat bentuk persegi panjang dan cara menambahkan bayangan dalam C#](./create-rectangle-shape-and-how-to-add-shadow-in-c/) | Pelajari cara membuat bentuk persegi panjang dan menambahkan bayangan di dokumen Word menggunakan Aspose.Words dengan panduan langkah demi langkah. |
 | [Cara Memindahkan Bayangan di Aspose.Words – Panduan Lengkap C#](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | Pelajari cara memindahkan bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan lengkap dalam C#. |
+| [Bentuk Grup di Word dengan Aspose.Words – Panduan Lengkap C#](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Pelajari cara mengelola bentuk grup di dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan lengkap C#. |
+| [Cara Menyembunyikan Bentuk di Word dengan C# – Panduan Langkah demi Langkah](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Pelajari cara menyembunyikan bentuk dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -25,6 +25,7 @@ Korzystając z Aspose.Words dla .NET i postępując zgodnie z tymi samouczkami, 
 | Tytuł | Opis |
 | --- | --- |
 | [Dodaj kształt grupy](./add-group-shape/) | Dowiedz się, jak dodawać kształty grupowe do dokumentów Word za pomocą Aspose.Words dla .NET dzięki temu kompleksowemu samouczkowi krok po kroku. |
+| [Kształty grupowe w Wordzie z Aspose.Words – kompletny przewodnik C#](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Dowiedz się, jak tworzyć i zarządzać grupowymi kształtami w Wordzie przy użyciu Aspose.Words i C#. |
 | [Wstaw kształt](./insert-shape/) | Dowiedz się, jak wstawiać i manipulować kształtami w dokumentach programu Word za pomocą pakietu Aspose.Words dla platformy .NET, korzystając z naszego przewodnika krok po kroku. |
 | [Cień kształtu Aspose.Words – Dodaj cień do kształtu Word w C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Dowiedz się, jak dodać cień do kształtu w dokumencie Word przy użyciu Aspose.Words dla .NET i C#. |
 | [Jak dodać cień do kształtów Word w C# – Kompletny przewodnik](./how-to-add-shadow-to-word-shapes-in-c-complete-guide/) | Dowiedz się, jak dodać cień do kształtów w dokumencie Word przy użyciu Aspose.Words dla .NET i C#. |
@@ -63,6 +64,7 @@ Korzystając z Aspose.Words dla .NET i postępując zgodnie z tymi samouczkami, 
 | [Jak ustawić cień na kształcie w C# – przewodnik krok po kroku](./how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/) | Dowiedz się, jak ustawić cień na kształcie w dokumentach Word przy użyciu Aspose.Words dla .NET w C# – krok po kroku. |
 | [Jak ustawić cień na kształcie w Wordzie – samouczek C#](./how-to-set-shadow-on-a-word-shape-c-tutorial/) | Dowiedz się, jak dodać i konfigurować cień kształtu w dokumencie Word przy użyciu Aspose.Words dla .NET i C#. |
 | [Jak przenieść cień w Aspose.Words – kompletny przewodnik C#](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | Dowiedz się, jak przenieść cień kształtu w dokumencie Word przy użyciu Aspose.Words dla .NET i C#. |
+| [Jak ukryć kształt w Wordzie przy użyciu C# – przewodnik krok po kroku](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Dowiedz się, jak ukrywać kształty w dokumentach Word przy użyciu Aspose.Words dla .NET i C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

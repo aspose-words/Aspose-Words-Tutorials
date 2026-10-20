@@ -70,6 +70,8 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | [Shrňte Word dokument pomocí lokálního LLM – krok za krokem průvodce v C#](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | Naučte se, jak pomocí lokálního modelu LLM v C# shrnout Word dokumenty přímo v Aspose.Words pro .NET. |
 | [Kontrola gramatiky Word pomocí Aspose.Words AI – Kompletní průvodce](./check-word-grammar-with-aspose-words-ai-complete-guide/) | Naučte se, jak pomocí Aspose.Words AI kontrolovat gramatiku v dokumentech Word a automatizovat opravy. |
 | [Shrnutí textu pomocí AI v C# – Kompletní programovací průvodce](./summarize-text-with-ai-in-c-complete-programming-guide/) | Kompletní návod, jak pomocí Aspose.Words a AI vytvořit shrnutí textu v C# během několika kroků. |
+| [Vytvoření shrnutí dokumentu pomocí Aspose.Words a OpenAI](./create-document-summary-with-aspose-words-openai/) | Vytvořte stručné shrnutí dokumentu s Aspose.Words pro .NET a OpenAI modely. |
+| [Překlad docx do francouzštiny pomocí Aspose.Words a Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Přeložte dokumenty DOCX do francouzštiny pomocí Aspose.Words a Google API. Jednoduchý návod pro rychlé a přesné překlady. |
 
 | [Shrnutí Word dokumentu v C# pomocí vlastního modelu GPT – Kompletní průvodce](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Naučte se, jak pomocí vlastního modelu GPT v C# automaticky shrnout Word dokumenty s Aspose.Words. |
 {{< /blocks/products/pf/tutorial-page-section >}}

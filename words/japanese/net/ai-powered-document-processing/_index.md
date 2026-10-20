@@ -69,6 +69,8 @@
 | [ローカル LLM を使用した Word 文書の要約 – ステップバイステップ C# ガイド](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) Aspose.Words for .NET とローカル LLM を組み合わせて、Word 文書を効率的に要約する方法を学びます。 |
 | [Aspose.Words AI を使用した Word 文法チェック – 完全ガイド](./check-word-grammar-with-aspose-words-ai-complete-guide/) Aspose.Words AI を活用して Word 文書の文法エラーを自動的に検出し、修正する方法をステップバイステップで解説します。 |
 | [C# で AI によるテキスト要約 – 完全プログラミングガイド](./summarize-text-with-ai-in-c-complete-programming-guide/) Aspose.Words for .NET と C# を使い、AIでテキストを自動要約する方法をステップバイステップで解説します。 |
+| [Aspose.Words と OpenAI を使用した文書要約の作成](./create-document-summary-with-aspose-words-openai/) Aspose.Words と OpenAI の組み合わせで、文書を自動的に要約する方法をステップバイステップで学びます。 |
+| [Aspose.Words と Google API を使用して DOCX をフランス語に翻訳](./translate-docx-to-french-with-aspose-words-and-google-api/) Aspose.Words と Google API を組み合わせて、DOCX ファイルをフランス語に自動翻訳する方法をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

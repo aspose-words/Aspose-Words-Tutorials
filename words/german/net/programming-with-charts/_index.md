@@ -71,6 +71,8 @@ Mit diesen Tutorials können Sie Ihre Word-Dokumente mit ansprechenden und infor
 | [Anpassen eines einzelnen Diagrammdatenpunkts in einem Diagramm](./single-chart-data-point/) | Erfahren Sie in einer detaillierten Schritt-für-Schritt-Anleitung, wie Sie einzelne Diagrammdatenpunkte mit Aspose.Words für .NET anpassen. Optimieren Sie Ihre Diagramme mit individuellen Markierungen und Größen. |
 | [Anpassen einzelner Diagrammreihen in einem Diagramm](./single-chart-series/) | Erfahren Sie, wie Sie einzelne Diagrammreihen in einem Word-Dokument mit Aspose.Words für .NET anpassen. Folgen Sie unserer Schritt-für-Schritt-Anleitung für ein nahtloses Erlebnis. |
 | [Diagrammlegende in Word mit C# anzeigen – vollständige Schritt‑für‑Schritt‑Anleitung](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.Words für .NET die Diagrammlegende in Word‑Dokumenten anzeigen. |
+| [Kuchenstück in einem Kreisdiagramm explodieren in C# mit Aspose.Words – Vollständige Anleitung](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Erfahren Sie, wie Sie ein einzelnes Kuchenstück in einem Kreisdiagramm mit Aspose.Words für .NET hervorheben und anpassen. |
+| [Kuchenbeschriftungen zu einem Kreisdiagramm in C# mit Aspose.Words hinzufügen – Vollständige Anleitung](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Erfahren Sie, wie Sie in C# mit Aspose.Words Beschriftungen zu Kreisdiagrammen hinzufügen und anpassen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

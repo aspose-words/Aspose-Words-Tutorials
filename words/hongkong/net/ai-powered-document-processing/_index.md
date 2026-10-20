@@ -72,6 +72,8 @@
 | [使用本地大型語言模型匯總 Word 文件 – 步驟式 C# 指南](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) |使用本地 LLM 於 C# 中自動匯總 Word 文件，提供完整步驟與範例程式碼。 |
 | [使用 Aspose.Words AI 檢查 Word 文法 – 完整指南](./check-word-grammar-with-aspose-words-ai-complete-guide/) |使用 Aspose.Words AI 在 C# 中檢查 Word 文檔的語法錯誤，提供完整步驟與範例程式碼。 |
 | [使用 C# AI 文字摘要 – 完整程式設計指南](./summarize-text-with-ai-in-c-complete-programming-guide/) |使用 Aspose.Words for .NET 結合 C# AI 模型，快速生成文件摘要的完整步驟指南。 |
+| [使用 Aspose.Words 與 OpenAI 建立文件摘要](./create-document-summary-with-aspose-words-openai/) |使用 Aspose.Words for .NET 與 OpenAI 模型，快速生成高品質文件摘要，提升文件處理效率。 |
+| [使用 Aspose.Words 與 Google API 將 docx 翻譯成法文](./translate-docx-to-french-with-aspose-words-and-google-api/) |使用 Aspose.Words for .NET 結合 Google 翻譯 API，將 docx 文件快速翻譯為法文，提高多語言文件處理效率。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -122,6 +122,7 @@
 | [Экспорт docx в markdown – Полное руководство C#](./export-docx-as-markdown-complete-c-guide/) | Подробное руководство по экспорту файлов DOCX в формат Markdown с использованием C# и Aspose.Words. |
 | [Сохранить docx как markdown – экспортировать математические формулы Word в LaTeX с Aspose.Words](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/) | Экспортируйте формулы Word в LaTeX при сохранении DOCX в Markdown с помощью Aspose.Words. |
 | [Загрузка изображений в облако при конвертации Word в Markdown](./upload-images-to-cloud-when-converting-word-to-markdown/) | Конвертируйте документы Word в Markdown, автоматически загружая изображения в облако с помощью Aspose.Words для .NET. |
+| [Сохранить Word как Markdown – Экспортировать таблицы в HTML с Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/) | Экспортируйте таблицы из Word в HTML при сохранении в формате Markdown с помощью Aspose.Words для .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

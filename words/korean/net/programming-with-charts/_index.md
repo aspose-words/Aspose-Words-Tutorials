@@ -71,6 +71,8 @@ Aspose.Words for .NET 그래픽 프로그래밍 자습서는 Word 문서에서 �
 | [차트에서 단일 차트 데이터 포인트 사용자 지정](./single-chart-data-point/) | Aspose.Words for .NET을 사용하여 단일 차트 데이터 포인트를 사용자 지정하는 방법을 단계별 가이드를 통해 자세히 알아보세요. 고유한 마커와 크기로 차트를 더욱 돋보이게 하세요. |
 | [차트에서 단일 차트 시리즈 사용자 지정](./single-chart-series/) | Aspose.Words for .NET을 사용하여 Word 문서에서 단일 차트 시리즈를 사용자 지정하는 방법을 알아보세요. 원활한 사용을 위해 단계별 가이드를 따르세요. |
 | [C#를 사용하여 Word에 차트 범례 표시 – 완전 단계별 가이드](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Aspose.Words for .NET을 이용해 C#로 Word 문서에 차트 범례를 표시하는 방법을 단계별로 안내합니다. |
+| [C#와 Aspose.Words를 사용한 파이 차트 조각 분리 – 전체 가이드](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Aspose.Words for .NET을 사용하여 파이 차트의 조각을 분리하는 방법을 단계별로 안내합니다. |
+| [C#와 Aspose.Words를 사용하여 파이 차트 레이블 추가 – 전체 가이드](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Aspose.Words for .NET을 사용하여 C#에서 파이 차트 레이블을 추가하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

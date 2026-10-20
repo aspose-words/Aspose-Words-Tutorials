@@ -72,6 +72,8 @@
 | [Резюмирование документа Word с локальной LLM – пошаговое руководство C#](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | Узнайте, как использовать локальную LLM для резюмирования Word‑документов в C# с пошаговыми инструкциями. |
 | [Проверка грамматики Word с Aspose.Words AI – Полное руководство](./check-word-grammar-with-aspose-words-ai-complete-guide/) | Узнайте, как использовать AI Aspose.Words для проверки грамматики в документах Word с пошаговыми инструкциями. |
 | [Резюмирование текста с ИИ на C# – Полное руководство по программированию](./summarize-text-with-ai-in-c-complete-programming-guide/) | Полное руководство по использованию Aspose.Words и ИИ для создания резюме текста в C#. |
+| [Создание резюме документа с Aspose.Words и OpenAI](./create-document-summary-with-aspose-words-openai/) | Узнайте, как использовать Aspose.Words для .NET совместно с OpenAI для автоматического создания резюме документов. |
+| [Перевод DOCX на французский с Aspose.Words и Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Узнайте, как использовать Aspose.Words для .NET совместно с Google API для автоматического перевода файлов DOCX на французский язык. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

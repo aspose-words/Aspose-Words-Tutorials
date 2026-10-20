@@ -25,6 +25,7 @@ Al usar Aspose.Words para .NET y seguir estos tutoriales, dominará la manipulac
 | Título | Descripción |
 | --- | --- |
 | [Agregar forma de grupo](./add-group-shape/) | Aprenda a agregar formas de grupo a documentos de Word usando Aspose.Words para .NET con este completo tutorial paso a paso. |
+| [Formas de grupo en Word con Aspose.Words – Guía completa en C#](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Aprenda a trabajar con formas de grupo en documentos Word usando Aspose.Words y C# con esta guía completa paso a paso. |
 | [Insertar forma](./insert-shape/) | Aprenda a insertar y manipular formas en documentos de Word usando Aspose.Words para .NET con nuestra guía paso a paso. |
 | [Relación de aspecto bloqueada](./aspect-ratio-locked/) Aprenda a bloquear la relación de aspecto de las formas en documentos de Word con Aspose.Words para .NET. Siga esta guía paso a paso para mantener la proporción de sus imágenes y formas. |
 | [Diseño en celda](./layout-in-cell/) Aprenda a configurar el diseño de celdas con Aspose.Words para .NET con esta guía completa. Ideal para desarrolladores que buscan personalizar documentos de Word. |
@@ -63,6 +64,7 @@ Al usar Aspose.Words para .NET y seguir estos tutoriales, dominará la manipulac
 | [Cómo establecer sombra en una forma de Word – Tutorial C#](./how-to-set-shadow-on-a-word-shape-c-tutorial/) | Aprenda a aplicar sombra a una forma en documentos de Word usando Aspose.Words para .NET con este tutorial paso a paso. |
 | [Crear forma de rectángulo y cómo agregar sombra en C#](./create-rectangle-shape-and-how-to-add-shadow-in-c/) | Aprenda a crear una forma de rectángulo y añadir sombra en documentos de Word usando Aspose.Words para .NET con esta guía paso a paso. |
 | [Cómo mover la sombra en Aspose.Words – Guía completa en C#](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | Aprenda a mover la sombra de una forma en documentos Word usando Aspose.Words con C# paso a paso. |
+| [Cómo ocultar una forma en Word con C# – Guía paso a paso](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Aprenda a ocultar formas en documentos de Word usando Aspose.Words para .NET con C#. Siga esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

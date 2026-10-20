@@ -70,6 +70,8 @@
 | [使用本地 LLM 汇总 Word 文档 – 步骤详解 C# 指南](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) 使用 Aspose.Words for .NET 与本地大型语言模型结合，提供 C# 步骤指南，实现高效的 Word 文档摘要。|
 | [使用 Aspose.Words AI 检查 Word 语法 – 完整指南](./check-word-grammar-with-aspose-words-ai-complete-guide/) 通过 Aspose.Words AI 检查 Word 文档的语法错误，提供完整的 C# 实现步骤和最佳实践。|
 | [使用 C# AI 文本摘要 – 完整编程指南](./summarize-text-with-ai-in-c-complete-programming-guide/) 通过 Aspose.Words for .NET 与 C# 集成 AI，实现高效文本摘要，提供完整代码示例和最佳实践。|
+| [使用 Aspose.Words 与 OpenAI 创建文档摘要](./create-document-summary-with-aspose-words-openai/) 使用 Aspose.Words for .NET 与 OpenAI 模型实现高效文档摘要，快速提取关键信息。|
+| [使用 Aspose.Words 与 Google API 将 docx 翻译为法语](./translate-docx-to-french-with-aspose-words-and-google-api/) 使用 Aspose.Words for .NET 结合 Google 翻译 API，将 Word 文档快速翻译成法语，实现高效本地化。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

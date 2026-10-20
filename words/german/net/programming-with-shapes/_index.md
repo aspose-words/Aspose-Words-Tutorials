@@ -63,6 +63,8 @@ Mit Aspose.Words für .NET und diesen Tutorials meistern Sie die Bearbeitung von
 | [Schatten für eine Word-Form festlegen – C#-Tutorial](./how-to-set-shadow-on-a-word-shape-c-tutorial/) | Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Words für .NET Schatten zu einer Word-Form hinzufügen und anpassen. |
 | [Rechteckform erstellen und Schatten hinzufügen in C#](./create-rectangle-shape-and-how-to-add-shadow-in-c/) | Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Words für .NET ein Rechteck in Word einfügen und einen Schatten hinzufügen. |
 | [Wie man Schatten in Aspose.Words verschiebt – Vollständige C#‑Anleitung](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Schatten in Word-Formen per C# verschieben und anpassen. |
+| [Gruppenformen in Word mit Aspose.Words – Vollständiger C#‑Leitfaden](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Erfahren Sie in diesem umfassenden Schritt‑für‑Schritt‑Leitfaden, wie Sie mit Aspose.Words für .NET Gruppenformen in Word‑Dokumenten erstellen und verwalten. |
+| [Wie man eine Form in Word mit C# ausblendet – Schritt‑für‑Schritt‑Anleitung](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und C# Formen in Word-Dokumenten ausblenden. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -63,6 +63,8 @@ Aspose.Words for .NET을 사용하고 이 튜토리얼을 따라 하면 Word 문
 | [Word 도형에 그림자 설정 방법 – C# 튜토리얼](./how-to-set-shadow-on-a-word-shape-c-tutorial/) | Aspose.Words for .NET을 사용하여 Word 도형에 그림자를 적용하는 방법을 단계별로 안내합니다. |
 | [C#에서 사각형 도형 만들기 및 그림자 추가](./create-rectangle-shape-and-how-to-add-shadow-in-c/) | C#을 사용하여 Word 문서에 사각형 도형을 만들고 그림자를 추가하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words에서 그림자 이동 방법 – 완전 C# 가이드](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | Aspose.Words를 사용하여 C# 코드로 도형 그림자를 이동시키는 방법을 단계별로 안내합니다. |
+| [Aspose.Words와 함께 Word에서 그룹 모양 만들기 – 완전 C# 가이드](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Aspose.Words for .NET을 사용하여 Word 문서에서 그룹 모양을 만드는 방법을 단계별로 안내합니다. |
+| [C#를 사용하여 Word에서 도형 숨기기 – 단계별 가이드](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 C# 코드로 Word 문서에서 도형을 숨기는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

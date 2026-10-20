@@ -25,6 +25,7 @@ Bằng cách sử dụng Aspose.Words cho .NET và làm theo các hướng dẫn
 | Tiêu đề | Mô tả |
 | --- | --- |
 | [Thêm hình dạng nhóm](./add-group-shape/) | Tìm hiểu cách thêm hình dạng nhóm vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này. |
+| [Nhóm hình dạng trong Word với Aspose.Words – Hướng dẫn C# đầy đủ](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Hướng dẫn chi tiết cách nhóm các hình dạng trong tài liệu Word bằng Aspose.Words cho .NET sử dụng C#. |
 | [Chèn hình dạng](./insert-shape/) | Tìm hiểu cách chèn và thao tác hình dạng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. |
 | [Tỷ lệ khung hình đã khóa](./aspect-ratio-locked/) | Tìm hiểu cách khóa tỷ lệ khung hình của hình dạng trong tài liệu Word bằng Aspose.Words cho .NET. Thực hiện theo hướng dẫn từng bước này để giữ cho hình ảnh và hình dạng của bạn cân đối. |
 | [Bố trí trong ô](./layout-in-cell/) | Tìm hiểu cách thiết lập bố cục trong ô bằng Aspose.Words cho .NET với hướng dẫn toàn diện này. Hoàn hảo cho các nhà phát triển muốn tùy chỉnh tài liệu Word. |
@@ -63,6 +64,7 @@ Bằng cách sử dụng Aspose.Words cho .NET và làm theo các hướng dẫn
 | [Cách đặt bóng cho hình dạng trong Aspose.Words (C#)](./how-to-set-shadow-on-a-shape-in-aspose-words-c/) | Hướng dẫn cách thêm và tùy chỉnh bóng cho hình dạng trong tài liệu Word bằng Aspose.Words cho .NET. |
 | [Tạo hình chữ nhật và cách thêm bóng trong C#](./create-rectangle-shape-and-how-to-add-shadow-in-c/) | Tìm hiểu cách tạo hình chữ nhật và thêm bóng trong C# bằng Aspose.Words cho .NET qua hướng dẫn chi tiết từng bước. |
 | [Cách di chuyển bóng đổ trong Aspose.Words – Hướng dẫn đầy đủ C#](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | Tìm hiểu cách di chuyển bóng đổ cho hình dạng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước. |
+| [Cách ẩn hình dạng trong Word bằng C# – Hướng dẫn từng bước](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Tìm hiểu cách ẩn một hình dạng trong tài liệu Word bằng Aspose.Words cho .NET và C# qua hướng dẫn chi tiết từng bước. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

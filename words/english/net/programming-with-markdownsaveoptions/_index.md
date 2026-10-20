@@ -149,6 +149,7 @@ class Program
 | [Save Word Images While Converting to Markdown – Complete C# Guide](./save-word-images-while-converting-to-markdown-complete-c-gui/) | Learn how to save Word images while converting documents to Markdown using Aspose.Words for .NET. |
 | [Save Word as Markdown with Custom Image Folder – Full Guide](./save-word-as-markdown-with-custom-image-folder-full-guide/) | Learn how to save Word documents as Markdown while storing images in a custom folder using Aspose.Words for .NET. |
 | [Save Document as Markdown with C# – Full Guide](./save-document-as-markdown-with-c-full-guide/) | Learn how to save documents as Markdown using Aspose.Words for .NET with a comprehensive C# guide. |
+| [Save Word as Markdown – Export Tables to HTML with Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/) | Learn how to export Word tables to HTML while saving the document as Markdown using Aspose.Words for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

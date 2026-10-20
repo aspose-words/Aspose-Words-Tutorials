@@ -25,6 +25,7 @@ Door Aspose.Words voor .NET te gebruiken en deze tutorials te volgen, krijgt u d
 | Titel | Beschrijving |
 | --- | --- |
 | [Groepsvorm toevoegen](./add-group-shape/) | Leer hoe u groepsvormen toevoegt aan Word-documenten met Aspose.Words voor .NET met deze uitgebreide, stapsgewijze zelfstudie. |
+| [Groepsvormen in Word met Aspose.Words – Complete C#‑handleiding](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Leer hoe u groepsvormen in Word-documenten beheert met Aspose.Words en C# in deze volledige gids. |
 | [Vorm invoegen](./insert-shape/) | Leer hoe u vormen in Word-documenten kunt invoegen en bewerken met Aspose.Words voor .NET met onze stapsgewijze handleiding. |
 | [Rechthoekvorm maken in Word met C# – Stapsgewijze handleiding](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Leer hoe u een rechthoekvorm toevoegt en configureert in een Word‑document met C#. |
 | [Beeldverhouding vergrendeld](./aspect-ratio-locked/) | Leer hoe u de beeldverhouding van vormen in Word-documenten kunt vergrendelen met Aspose.Words voor .NET. Volg deze stapsgewijze handleiding om uw afbeeldingen en vormen proportioneel te houden. |
@@ -63,6 +64,7 @@ Door Aspose.Words voor .NET te gebruiken en deze tutorials te volgen, krijgt u d
 | [Hoe schaduw instellen op een Word-vorm – C#-tutorial](./how-to-set-shadow-on-a-word-shape-c-tutorial/) | Leer hoe u schaduw toevoegt aan vormen in Word-documenten met Aspose.Words voor .NET in C#. |
 | [Rechthoekvorm maken en schaduw toevoegen in C#](./create-rectangle-shape-and-how-to-add-shadow-in-c/) | Leer hoe u een rechthoekvorm maakt en er een schaduw aan toevoegt in Word-documenten met Aspose.Words voor .NET. |
 | [Hoe schaduw te verplaatsen in Aspose.Words – Complete C#-gids](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | Leer hoe u de schaduw van vormen in Word-documenten verplaatst met Aspose.Words en C#. |
+| [Hoe vorm verbergen in Word met C# – Stapsgewijze handleiding](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Leer hoe u een vorm verbergt in een Word‑document met Aspose.Words voor .NET en C# met deze stapsgewijze handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

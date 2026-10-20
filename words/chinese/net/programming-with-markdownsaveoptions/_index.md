@@ -315,6 +315,10 @@
 
 使用 Aspose.Words for .NET 将 docx 文档中的数学公式导出为 LaTeX，提供完整的 C# 示例和分步指南。
 
+### [将 Word 保存为 Markdown – 使用 Aspose.Words 导出表格为 HTML](./save-word-as-markdown-export-tables-to-html-with-aspose-word/)
+
+使用 Aspose.Words for .NET 将 Word 文档保存为 Markdown，并将表格导出为 HTML，提供完整示例和步骤指南。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

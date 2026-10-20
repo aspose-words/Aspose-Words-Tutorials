@@ -25,6 +25,7 @@ Aspose.Words for .NET'i kullanarak ve bu eğitimleri takip ederek, Word belgeler
 | Başlık | Açıklama |
 | --- | --- |
 | [Grup Şekli Ekle](./add-group-shape/) | Bu kapsamlı, adım adım eğitimle Aspose.Words for .NET kullanarak Word belgelerine grup şekillerinin nasıl ekleneceğini öğrenin. |
+| [Aspose.Words ile Word'de Grup Şekilleri – Tam C# Kılavuzu](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Aspose.Words for .NET ile Word belgelerinde grup şekillerini ekleme, düzenleme ve yönetme adımlarını adım adım öğrenin. |
 | [Şekil Ekle](./insert-shape/) | Aspose.Words for .NET'i kullanarak Word belgelerine şekillerin nasıl ekleneceğini ve düzenleneceğini adım adım kılavuzumuzla öğrenin. |
 | [Aspose.Words ile Word'de Şekle Gölge Ekle – Adım Adım](./add-shadow-to-shape-in-word-with-aspose-words-step-by-step/) | Aspose.Words for .NET kullanarak Word belgelerinde şekillere gölge eklemeyi adım adım öğrenin. |
 | [En Boy Oranı Kilitli](./aspect-ratio-locked/) | Aspose.Words for .NET kullanarak Word belgelerindeki şekillerin en boy oranını nasıl kilitleyeceğinizi öğrenin. Görüntülerinizin ve şekillerinizin orantılı kalmasını sağlamak için bu adım adım kılavuzu izleyin. |
@@ -63,6 +64,7 @@ Aspose.Words for .NET'i kullanarak ve bu eğitimleri takip ederek, Word belgeler
 | [C# ile Şekle Gölge Ayarlama – Adım Adım Kılavuz](./how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/) | Aspose.Words for .NET kullanarak bir şekle gölge eklemeyi ve ayarlamayı adım adım öğrenin. |
 | [Word Şekline Gölge Ayarlama – C# Eğitimi](./how-to-set-shadow-on-a-word-shape-c-tutorial/) | Aspose.Words for .NET kullanarak Word belgelerindeki şekillere gölge eklemeyi adım adım öğrenin. |
 | [C#'ta Dikdörtgen Şekil Oluşturma ve Gölge Ekleme](./create-rectangle-shape-and-how-to-add-shadow-in-c/) | Aspose.Words for .NET kullanarak C# ile Word belgesine dikdörtgen şekil ekleyip gölge özelliğini nasıl ayarlayacağınızı öğrenin. |
+| [C# ile Word'de Şekli Gizleme – Adım Adım Kılavuz](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Aspose.Words for .NET ile C# kullanarak Word belgelerinde şekli nasıl gizleyeceğinizi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

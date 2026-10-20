@@ -70,6 +70,8 @@ Terakhir, jangan lupa untuk memeriksa [Bekerja Dengan Opsi Ringkasan](./working-
 | [Ringkas Dokumen Word dengan LLM Lokal – Panduan Langkah‑per‑Langkah C#](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | Pelajari cara menggunakan LLM lokal untuk meringkas dokumen Word dengan C# secara mudah dan efisien. |
 | [Periksa Tata Bahasa Word dengan Aspose.Words AI – Panduan Lengkap](./check-word-grammar-with-aspose-words-ai-complete-guide/) | Pelajari cara memeriksa dan memperbaiki tata bahasa dokumen Word menggunakan AI Aspose.Words dalam panduan lengkap. |
 | [Ringkas Teks dengan AI di C# – Panduan Pemrograman Lengkap](./summarize-text-with-ai-in-c-complete-programming-guide/) | Pelajari cara meringkas teks menggunakan AI di C# dengan Aspose.Words, panduan lengkap langkah demi langkah. |
+| [Buat Ringkasan Dokumen dengan Aspose.Words & OpenAI](./create-document-summary-with-aspose-words-openai/) | Pelajari cara membuat ringkasan dokumen secara otomatis menggunakan Aspose.Words untuk .NET dan model OpenAI. |
+| [Menerjemahkan docx ke Bahasa Prancis dengan Aspose.Words dan Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Pelajari cara menerjemahkan dokumen DOCX ke bahasa Prancis secara otomatis menggunakan Aspose.Words untuk .NET dan Google API. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -22,6 +22,7 @@
 |標題 |描述 |
 | --- | --- |
 | [匯出到 Markdown 格式並對齊表格內容](./export-into-markdown-with-table-content-alignment/) |了解如何使用 Aspose.Words for .NET將 Word 文件匯出為帶有對齊表格的 Markdown。按照我們的逐步指南來製作完美的 Markdown 表。 |
+| [將 Word 儲存為 Markdown – 匯出表格為 HTML（使用 Aspose.Words）](./save-word-as-markdown-export-tables-to-html-with-aspose-word/) |示範如何使用 Aspose.Words 將 Word 文件儲存為 Markdown，同時將表格匯出為 HTML 格式。 |
 | [設定圖像資料夾](./set-images-folder/) |使用 Aspose.Words for .NET將 Word 文件轉換為具有適當表格對齊的 Markdown。按照我們的詳細指南可獲得完美的結果。 |
 | [自訂圖像資料夾 – 使用 Aspose.Words 轉換 Word 為 Markdown](./custom-image-folder-convert-word-to-markdown-with-aspose-wor/) |示範如何在使用 Aspose.Words 轉換 Word 為 Markdown 時，設定自訂圖像資料夾以正確儲存圖片。 |
 | [建立資產資料夾以將 Word 轉換為 Markdown](./create-assets-folder-for-convert-word-to-markdown/) |示範如何在轉換 Word 為 Markdown 時建立資產資料夾，以正確管理圖像與其他資源。 |

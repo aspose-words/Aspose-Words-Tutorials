@@ -71,6 +71,8 @@
 | [Σύνοψη εγγράφου Word με τοπικό LLM – Οδηγός βήμα‑βήμα C#](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | Μάθετε πώς να χρησιμοποιήσετε τοπικό LLM για να συνοψίσετε έγγραφα Word με C# και Aspose.Words. |
 | [Έλεγχος Γραμματικής Word με Aspose.Words AI – Πλήρης Οδηγός](./check-word-grammar-with-aspose-words-ai-complete-guide/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words AI για να ελέγχετε τη γραμματική εγγράφων Word με C#. |
 | [Σύνοψη κειμένου με AI σε C# – Πλήρης οδηγός προγραμματισμού](./summarize-text-with-ai-in-c-complete-programming-guide/) | Μάθετε πώς να δημιουργείτε αυτόματες περιλήψεις κειμένου σε C# χρησιμοποιώντας AI με το Aspose.Words. |
+| [Δημιουργία σύνοψης εγγράφου με Aspose.Words & OpenAI](./create-document-summary-with-aspose-words-openai/) | Μάθετε πώς να δημιουργείτε σύνοψη εγγράφου χρησιμοποιώντας Aspose.Words για .NET σε συνδυασμό με τα μοντέλα του OpenAI. |
+| [Μετάφραση docx στα γαλλικά με Aspose.Words και Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Μάθετε πώς να μεταφράζετε αρχεία docx στα γαλλικά χρησιμοποιώντας Aspose.Words για .NET και το Google Translate API. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

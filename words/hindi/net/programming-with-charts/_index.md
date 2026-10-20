@@ -71,6 +71,8 @@ Aspose.Words for .NET Graphics Programming ट्यूटोरियल आप
 | [चार्ट में एकल चार्ट डेटा बिंदु को अनुकूलित करें](./single-chart-data-point/) | विस्तृत चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.Words का उपयोग करके एकल चार्ट डेटा बिंदुओं को अनुकूलित करना सीखें। अद्वितीय मार्करों और आकारों के साथ अपने चार्ट को बेहतर बनाएँ। |
 | [एक चार्ट में एकल चार्ट श्रृंखला को अनुकूलित करें](./single-chart-series/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में एकल चार्ट श्रृंखला को अनुकूलित करना सीखें। सहज अनुभव के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें। |
 | [C# के साथ Word में चार्ट लेजेंड दिखाएँ – पूर्ण चरण‑दर‑चरण गाइड](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में चार्ट लेजेंड कैसे दिखाएँ, सीखें। |
+| [C# में Aspose.Words के साथ पाई चार्ट स्लाइस को विस्फोटित करें – पूर्ण गाइड](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | C# में Aspose.Words का उपयोग करके पाई चार्ट के स्लाइस को अलग‑अलग करने की पूरी प्रक्रिया सीखें। |
+| [C# में Aspose.Words का उपयोग करके पाई चार्ट लेबल जोड़ें – पूर्ण गाइड](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | C# में Aspose.Words के साथ पाई चार्ट के लेबल जोड़ने की पूरी प्रक्रिया सीखें। अपने Word दस्तावेज़ को बेहतर बनाएं। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

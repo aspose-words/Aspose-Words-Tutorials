@@ -215,6 +215,8 @@ Pelajari cara menyimpan dokumen sebagai Markdown menggunakan C# dengan panduan l
 Pelajari cara mengekspor file DOCX menjadi Markdown dengan panduan lengkap C# menggunakan Aspose.Words. 
 ### [Simpan docx sebagai markdown – Ekspor Matematika Word ke LaTeX dengan Aspose.Words](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/)
 Pelajari cara mengekspor persamaan matematika Word ke LaTeX saat menyimpan docx sebagai markdown menggunakan Aspose.Words.
+### [Simpan Word sebagai Markdown – Ekspor Tabel ke HTML dengan Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/)
+Pelajari cara mengekspor tabel dari dokumen Word ke HTML saat menyimpan sebagai Markdown menggunakan Aspose.Words untuk .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

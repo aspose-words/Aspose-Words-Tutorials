@@ -79,6 +79,7 @@ Grundläggande konverteringar guidar dig genom grundläggande dokumentkonverteri
 | [Skapa PDF från Word i C# – Fullständig guide](./create-pdf-from-word-in-c-full-guide/) | Lär dig hur du skapar PDF från Word i C# med Aspose.Words – komplett steg‑för‑steg‑guide med kodexempel. |
 | [Skapa PDF från Word i C# – Snabb Low‑Code‑guide](./create-pdf-from-word-in-c-fast-low-code-guide/) | Lär dig snabbt skapa PDF från Word i C# med en lågkods‑guide för enkel implementering. |
 | [Spara Word som PDF med Aspose.Words – Komplett guide](./save-word-as-pdf-with-aspose-words-complete-guide/) | Lär dig hur du sparar Word-dokument som PDF med Aspose.Words i en komplett guide med kodexempel. |
+| [Konvertera Markdown till DOCX med Aspose.Words – Komplett C#‑guide](./convert-markdown-to-docx-with-aspose-words-complete-c-guide/) | Lär dig hur du konverterar Markdown till DOCX med Aspose.Words i C#. Fullständig steg‑för‑steg‑guide med kodexempel. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

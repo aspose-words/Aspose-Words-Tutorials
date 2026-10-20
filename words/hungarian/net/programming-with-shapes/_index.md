@@ -61,6 +61,8 @@ Az Aspose.Words for .NET használatával és az alábbi oktatóanyagok követés
 | [Árnyék beállítása Word alakzaton – C# oktatóanyag](./how-to-set-shadow-on-a-word-shape-c-tutorial/) | Tanulja meg, hogyan állíthat be árnyékot egy Word alakzaton az Aspose.Words for .NET segítségével C#-ban. |
 | [Téglalap alakzat létrehozása és árnyék hozzáadása C#-ban](./create-rectangle-shape-and-how-to-add-shadow-in-c/) | Tanulja meg, hogyan hozhat létre téglalap alakzatot és adhat hozzá árnyékot C#-ban az Aspose.Words for .NET használatával. |
 | [Hogyan mozgassuk az árnyékot az Aspose.Words-ben – Teljes C# útmutató](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | Tanulja meg, hogyan helyezheti át az árnyékot Word alakzatokban C#-ban az Aspose.Words segítségével. |
+| [Csoport alakzatok a Wordben az Aspose.Words segítségével – Teljes C# útmutató](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Ismerje meg, hogyan hozhat létre és kezelhet csoportos alakzatokat Word dokumentumokban az Aspose.Words for .NET segítségével C# nyelven. |
+| [Hogyan rejtsünk el alakzatot Word-ben C#‑ban – Lépésről lépésre útmutató](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Tanulja meg, hogyan rejthet el alakzatot Word dokumentumban C#-ban ezzel a részletes, lépésről lépésre útmutatóval. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
