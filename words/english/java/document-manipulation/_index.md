@@ -1,5 +1,5 @@
 ---
-title: Document Manipulation
+title: Manipulate Documents with Aspose.Words for Java
 linktitle: Document Manipulation
 second_title: Aspose.Words Java Document Processing API
 description: Learn how to efficiently manipulate documents using Aspose.Words for Java with our comprehensive tutorials. Boost your Java document processing skills today!
@@ -20,13 +20,13 @@ url: /java/document-manipulation/
 
 Are you looking to master the art of document manipulation in Java? Look no further! In this article, we will guide you through the world of Aspose.Words for Java tutorials, equipping you with the knowledge and skills needed to excel in document processing.
 
-## Why Choose Aspose.Words for Java?
+## Why choose Aspose.Words for java?
 
 Before we dive into the tutorials, let's understand why Aspose.Words for Java stands out as the go-to solution for document manipulation.
 
 Aspose.Words for Java is a powerful and versatile API that allows developers to create, edit, convert, and manipulate documents in various formats, including DOCX, PDF, HTML, and more. It's a game-changer for businesses and developers seeking to automate document-related tasks.
 
-## Getting Started with Aspose.Words Tutorials
+## Getting started with Aspose.Words tutorials
 
 ### Installation and Setup
 
@@ -36,15 +36,25 @@ The first step on your journey to becoming a document manipulation pro is settin
 
 Once you have Aspose.Words installed, it's time to start creating and modifying documents. Learn how to generate new documents, add content, format text, and manipulate document structure effortlessly.
 
+Here is a simple example that creates a new document and adds a paragraph using the Aspose.Words for Java API:
+
+```java
+// Example: creating a new document and adding a paragraph
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.writeln("Hello, Aspose.Words for Java!");
+doc.save("HelloWorld.docx");
+```
+
 ### Converting Documents
 
 Need to convert documents between different formats? Aspose.Words for Java has you covered. Discover how to convert DOCX to PDF, HTML to DOCX, and many more conversion tricks in this tutorial.
 
-## Enhancing Your Document Manipulation Skills
+## Enhancing your document manipulation skills
 
 At this point, you've mastered the basics of Aspose.Words for Java. But there's so much more to explore! 
 
-### Advanced Document Features
+### Advanced document features
 
 Delve into advanced topics like working with headers and footers, inserting tables, handling images, and managing document properties. These skills will elevate your document manipulation capabilities to the next level.
 
@@ -56,7 +66,7 @@ Document manipulation using Aspose.Words for Java is a valuable skill for develo
 
 Start your learning journey today and unlock the endless possibilities of document manipulation with Aspose.Words for Java.
 
-## Document Manipulation Tutorials
+## Document manipulation tutorials
 ### [Using Cleanup Options in Aspose.Words for Java](./using-cleanup-options/)
 Enhance Document Clarity with Aspose.Words for Java Cleanup Options. Learn how to remove empty paragraphs, unused regions, and more.
 ### [Using Fields in Aspose.Words for Java](./using-fields/)
@@ -115,5 +125,5 @@ Enhance Documents with Web Extensions in Aspose.Words for Java. Learn to integra
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}

@@ -1,6 +1,6 @@
 ---
-title: Save Images from Word – Aspose.Words for Java Guide
-linktitle: Save Images from Word – Aspose.Words for Java Guide
+title: Save Images from Word using Aspose.Words for Java API
+linktitle: Save Images from Word using Aspose.Words for Java API
 second_title: Aspose.Words Java Document Processing API
 description: Learn how to save images from Word documents and efficiently load and save files using Aspose.Words for Java. Includes save pdf java, convert word html java, and more.
 weight: 20
@@ -48,6 +48,23 @@ Below is a concise walkthrough of the typical workflow. (The actual code is show
 
 > *Pro tip:* Use `Document.getChildNodes(NodeType.SHAPE, true)` to retrieve all shapes, including those inside headers, footers, and footnotes.
 
+```java
+// Load a Word document
+Document doc = new Document("input.docx");
+
+// Iterate through all shapes that contain images
+for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
+    if (shape.getShapeType() == ShapeType.IMAGE) {
+        // Save each image to a file
+        String imageFileName = "image_" + shape.getId() + "." + shape.getImageData().getImageType();
+        shape.getImageData().save(imageFileName);
+    }
+}
+
+// Save the document as PDF (optional)
+doc.save("output.pdf");
+```
+
 ## Loading and Saving Documents – The Core Concepts
 
 ### Unveiling the Power of Document Loading
@@ -62,11 +79,11 @@ The first step in your journey is to get acquainted with the basics. We'll walk 
 
 With the groundwork laid, it's time to dive into the heart of the matter—loading documents. Discover various techniques for loading documents of different formats seamlessly. Whether you're dealing with DOCX, PDF, or other formats, we've got you covered.
 
-#### Advanced Loading Techniques
+#### Advanced loading techniques
 
 For those seeking to push the boundaries, our advanced loading techniques provide a deeper understanding of document manipulation. Learn about custom loading options, handling encrypted documents, and more.
 
-### The Art of Saving Documents
+### The art of saving documents
 
 Efficiency doesn't stop at loading; it extends to saving documents as well. Aspose.Words for Java equips you with a range of options to save your manipulated documents with precision.
 
@@ -74,11 +91,11 @@ Efficiency doesn't stop at loading; it extends to saving documents as well. Aspo
 
 Explore the versatility of Aspose.Words for Java as we delve into saving documents in various formats. Convert your documents to PDF, DOCX, or even HTML effortlessly. *(Here you’ll also find the “save pdf java” pattern in action.)*
 
-#### Handling Document Settings
+#### Handling document settings
 
 Document settings are the key to delivering documents tailored to your exact requirements. Learn how to tweak settings such as page size, margins, and fonts to achieve the desired output.
 
-## Related Tutorials – Load, Save, and Convert
+## Related tutorials – load, save, and convert
 
 ### [Loading and Saving HTML Documents with Aspose.Words for Java](./loading-and-saving-html-documents/)
 Learn how to load and save HTML documents in Java using Aspose.Words for Java. Step-by-step guide with code examples for seamless document integration.
@@ -98,7 +115,7 @@ Learn advanced document manipulation with Aspose.Words for Java. Encrypt, handle
 ### [Saving HTML Documents with Fixed Layout in Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
 Learn how to save HTML documents with fixed layout in Aspose.Words for Java. Follow our step-by-step guide for seamless document formatting.
 
-### [Advance HTML Documents Saving Options with Aspose.Words Java](./advance-html-documents-saving-options/)
+### [Advance HTML documents saving options with Aspose.Words java](./advance-html-documents-saving-options/)
 In this tutorial, we have covered various advanced HTML document saving options with Aspose.Words for Java. These options empower you to create high-quality HTML.
 
 ### [Saving Images from Documents in Aspose.Words for Java](./saving-images-from-documents/)
@@ -131,13 +148,13 @@ Learn how to detect document formats in Java with Aspose.Words. Identify DOC, DO
 ### [Recover corrupted docx – Complete Guide to Fix and Process Documents](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 Learn how to repair corrupted DOCX files and process them using Aspose.Words for Java.
 
-### [Capture Font Substitution Warnings in Java with Aspose.Words – Complete Guide](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+### [Capture font substitution warnings in java with Aspose.Words – complete guide](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Learn how to capture and handle font substitution warnings in Java using Aspose.Words, ensuring accurate document rendering.
 
 ### [Configure LoadOptions for Big5 – Full Java Guide with Aspose.Words](./configure-loadoptions-for-big5-full-java-guide-with-aspose-w/)
 Learn how to set LoadOptions for Big5 encoding in Java with Aspose.Words.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q:** How do I programmatically **save images from word** documents?  
 **A:** Load the document with `new Document("file.docx")`, iterate over `Shape` nodes that contain images, and call `shape.getImageData().save("image.png")` for each.
@@ -164,6 +181,6 @@ Learn how to set LoadOptions for Big5 encoding in Java with Aspose.Words.
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

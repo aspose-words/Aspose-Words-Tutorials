@@ -45,7 +45,7 @@ tags:
 - Java
 - Word document
 - Image handling
-title: How to Hide Picture in Word with Java – Step‑by‑Step Guide
+title: How to Hide Picture in Word with Aspose.Words for Java – Step‑by‑Step Guide
 url: /java/images-shapes/how-to-hide-picture-in-word-with-java-step-by-step-guide/
 ---
 
@@ -61,7 +61,7 @@ Ever wondered whether the hidden image still travels with the file? The short an
 
 ---
 
-## What You’ll Learn
+## What you’ll learn
 
 - Set up a minimal Maven/Gradle project with Aspose.Words for Java.  
 - Insert an image into a Word document programmatically.  
@@ -73,7 +73,7 @@ Ever wondered whether the hidden image still travels with the file? The short an
 
 ---
 
-## ## How to Hide Picture in Word – Preparing the Project
+## ## how to hide picture in word – preparing the project
 
 First things first: bring Aspose.Words into your build. If you use Maven, add the dependency to your `pom.xml`:
 
@@ -97,7 +97,7 @@ Create a new Java class called `HidePicture`. The class will contain the **full,
 
 ---
 
-## ## Insert an Image and Hide It – Step‑by‑Step Implementation
+## ## insert an image and hide it – step‑by‑Step implementation
 
 Below is the **complete source code**. Every line is annotated so you can follow the logic without bouncing back to the docs.
 
@@ -144,7 +144,7 @@ When Aspose.Words creates a `Shape` object for an image, it mirrors Word's inter
 
 ---
 
-## ## Verifying the Hidden Picture – What to Expect
+## ## verifying the hidden picture – what to expect
 
 Run the program, then open `HiddenPicture.docx` in Microsoft Word:
 
@@ -156,7 +156,7 @@ Run the program, then open `HiddenPicture.docx` in Microsoft Word:
 
 ---
 
-## ## Hide Multiple Pictures – Extending the Example
+## ## hide multiple pictures – extending the example
 
 Often you need to hide **a collection of logos** while keeping a primary image visible. The pattern stays the same; you just loop over the insertion calls.
 
@@ -187,7 +187,7 @@ chart.setHidden(isDraft); // hidden only when drafting
 
 ---
 
-## ## Common Pitfalls and How to Avoid Them
+## ## common pitfalls and how to avoid them
 
 | Pitfall | Why it Happens | Fix |
 |---------|----------------|-----|
@@ -210,7 +210,7 @@ This small addition keeps your document **accessible** while still achieving the
 
 ---
 
-## ## Full Working Example – One‑File Snapshot
+## ## full working example – one‑File snapshot
 
 For convenience, here’s the entire program again, ready to copy‑paste into your IDE:
 
@@ -238,7 +238,7 @@ Run it, open the resulting `.docx`, and you’ll see a clean page—​the pictu
 
 ---
 
-## ## Next Steps – What to Explore After Hiding Pictures
+## ## next steps – what to explore after hiding pictures
 
 - **Hide shapes other than images** (text boxes, charts) using the same `setHidden` call.  
 - **Combine hidden shapes with content controls** to create dynamic, toggleable sections.  
@@ -257,9 +257,7 @@ Feel free to experiment—​swap the logo for a chart, hide an entire paragraph
 
 Happy coding, and may your Word automation stay both **visible** and **invisible** exactly where you need it!
 
-
-## What Should You Learn Next?
-
+## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
@@ -269,5 +267,6 @@ The following tutorials cover closely related topics that build on the technique
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

@@ -51,7 +51,7 @@ tags:
 - Aspose.Words
 - Java
 - Word Automation
-title: Create Word Document with Shapes in Java – Complete Aspose.Words Guide
+title: Create Word Document with Shapes, Insert Rectangle Shape, and Group Shapes in Java – Complete Aspose.Words Guide
 url: /java/images-shapes/create-word-document-with-shapes-in-java-complete-aspose-wor/
 ---
 
@@ -59,13 +59,13 @@ url: /java/images-shapes/create-word-document-with-shapes-in-java-complete-aspos
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create Word Document with Shapes in Java – Complete Aspose.Words Guide
+# Create Word Document with Shapes, Insert Rectangle Shape, and Group Shapes in Java – Complete Aspose.Words Guide
 
 Ever wondered how to **create word document** programmatically and sprinkle it with custom graphics? You're not the only one. Whether you need to generate a report with highlighted sections or design a flyer on the fly, mastering shape handling in Word can save you hours of manual work.
 
 In this tutorial we'll walk through the exact steps to **create word document** using Aspose.Words for Java, **insert rectangle shape**, **group shapes in Word**, and finally **save document as docx**. By the end you’ll have a fully runnable example that you can drop into any project.
 
-## What You’ll Walk Away With
+## What you’ll walk away with
 
 - A fresh Word file generated entirely from Java code.  
 - Two distinct shapes (a rectangle and an ellipse) added to the page.  
@@ -92,7 +92,7 @@ If you’ve got those, great—let’s get started.
 
 Below we break the process into bite‑size steps. Each step includes a code snippet, a short explanation, and a tip you might not find in the official docs.
 
-### ## Create Word Document with Shapes Using Aspose.Words
+### ## create word document with shapes using Aspose.Words
 
 The first thing you need is an empty Word file to work with. Aspose.Words makes this a one‑liner.
 
@@ -107,7 +107,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 > **Pro tip:** If you plan to start with a template (e.g., a company letterhead), replace `new Document()` with `new Document("template.docx")`.
 
-### ## Insert Rectangle Shape and Other Shapes
+### ## insert rectangle shape and other shapes
 
 Now we’ll add a blue rectangle and a green ellipse. The rectangle demonstrates the **insert rectangle shape** keyword, while the ellipse shows that you can mix shape types freely.
 
@@ -131,7 +131,7 @@ Each call to `insertShape` creates a `Shape` object and automatically adds it to
 > **Common question:** *Can I add a picture instead of a solid color?*  
 > Absolutely—just replace the fill color with an image using `shape.getFill().setImage("path/to/image.png")`.
 
-### ## Group Shapes in Word for Easy Manipulation
+### ## group shapes in word for easy manipulation
 
 Having two separate objects is fine, but often you want to move them together. That’s where **group shapes in word** shines.
 
@@ -167,7 +167,7 @@ Open the generated `GroupShapeExample.docx` in Microsoft Word. You’ll see a bl
 
 > **Tip:** Use `SaveFormat.PDF` if you need a PDF version; the same code works without changes.
 
-### ## Full Working Example and Common Pitfalls
+### ## full working example and common pitfalls
 
 Below is the complete, ready‑to‑run Java class. Copy‑paste it into your project, adjust the output folder, and hit *Run*.
 
@@ -209,7 +209,7 @@ public class GroupShapeExample {
 }
 ```
 
-#### Common Pitfalls & How to Avoid Them
+#### Common pitfalls & how to avoid them
 
 | Issue | Why It Happens | Fix |
 |-------|----------------|-----|
@@ -228,17 +228,15 @@ Feeling adventurous? Try swapping the rectangle for a star, add text inside the 
 
 Got questions about more advanced scenarios—like linking shapes to bookmarks or exporting to PDF with embedded fonts? Drop a comment below, and we’ll dive deeper together. Happy coding!
 
-
-## What Should You Learn Next?
-
+## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Create Word Document Java – Add Rectangle Shape with Shadow Effect](/words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-- [Create Group Shape in Word Document Using Aspose.Words for .NET](/words/english/net/working-with-shapes/add-group-shape/)
-- [Create rectangle shape in Word with Aspose.Words – Step‑by‑step guide](/words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/)
+- [Create Word Document Java – Add Rectangle Shape with Shadow Effect]({{< relref "words/english/java/images-shapes/create-word-document-java-add-rectangle-shape-with-shadow-ef" >}})
+- [Create Group Shape in Word Document Using Aspose.Words for .NET]({{< relref "words/english/net/working-with-shapes/add-group-shape" >}})
+- [Create rectangle shape in Word with Aspose.Words – Step‑by‑step guide]({{< relref "words/english/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

@@ -72,7 +72,7 @@ tags:
 - Aspose.Words
 - ActiveX
 - Word Automation
-title: set button size java – Insert ActiveX Command Button in Word
+title: How to set button size with Aspose.Words for Java – Insert ActiveX Command Button in Word
 url: /java/using-document-elements/set-button-size-java-insert-activex-command-button-in-word/
 ---
 
@@ -80,7 +80,7 @@ url: /java/using-document-elements/set-button-size-java-insert-activex-command-b
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# set button size java – Insert ActiveX Command Button in Word
+# How to set button size with Aspose.Words for Java – Insert ActiveX Command Button in Word
 
 Ever wondered **how to set button size java** when you’re automating Word documents? Maybe you’re building a reporting tool that needs a clickable “Submit” button right inside the .docx file. In this tutorial we’ll walk through the entire process—creating a blank Word document, inserting an ActiveX command button, and explicitly setting its width and height—all with Java and Aspose.Words.
 
@@ -88,7 +88,7 @@ We’ll also answer the lingering “how to insert activex” question that pops
 
 ---
 
-## What You’ll Need
+## What you’ll need
 
 Before we dive in, make sure you have the following:
 
@@ -112,7 +112,7 @@ That’s it. No extra Office interop libraries, no COM tricks, just pure Java.
 
 We’ll break the solution into five logical steps. Each step has a dedicated H2 header; one of them contains our **primary keyword** to satisfy SEO.
 
-### 1. Set Up the Project and Import Aspose.Words
+### 1. set up the project and import Aspose.Words
 
 First, create a new Maven (or Gradle) project and add the Aspose.Words dependency shown above. Then, import the required classes in your Java source file:
 
@@ -133,7 +133,7 @@ Document document = new Document();          // Starts with a clean, empty .docx
 
 The `Document` object represents the entire Word file in memory. At this point the file has no pages, no text—just a clean slate.
 
-### 3. Initialize DocumentBuilder and Insert the ActiveX Control
+### 3. initialize documentBuilder and insert the activeX control
 
 The `DocumentBuilder` is a helper that lets us add content, paragraphs, tables, and, yes, ActiveX controls. Here’s where we answer **how to insert activex**:
 
@@ -148,7 +148,7 @@ Forms2OleControl commandButton = builder.insertForms2OleControl(
 
 `Forms2OleControl` is Aspose’s wrapper around an OLE object. By specifying `COMMANDBUTTON` we tell Word to embed a classic ActiveX command button.
 
-### 4. How to Set Button Size Java – Adjust Width and Height
+### 4. how to set button size java – adjust width and height
 
 Now comes the heart of the tutorial: **how to set button size java**. The control exposes several layout properties—`Left`, `Top`, `Width`, and `Height`. Setting them directly controls the button’s appearance on the page.
 
@@ -165,7 +165,7 @@ Why these numbers? In Word, one point equals 1/72 of an inch. So a width of `120
 
 > **Note:** If you need a different button type (e.g., a checkbox), replace `Forms2OleControlType.COMMANDBUTTON` with the appropriate enum value.
 
-### 5. Save the Document
+### 5. save the document
 
 Finally, persist the document to disk:
 
@@ -178,7 +178,7 @@ Replace `YOUR_DIRECTORY` with an absolute or relative path on your machine. Afte
 
 ---
 
-## Full Working Example
+## Full working example
 
 Below is the complete, ready‑to‑run Java class. Copy‑paste it into `CommandButtonActiveX.java`, adjust the output path, and hit **Run**.
 
@@ -214,7 +214,7 @@ public class CommandButtonActiveX {
 
 ---
 
-## Common Questions & Edge Cases
+## Common questions & edge cases
 
 ### What if the button doesn’t appear in Word?
 
@@ -235,7 +235,7 @@ Aspose.Words supports many `Forms2OleControlType` values: `CHECKBOX`, `OPTIONBUT
 
 ---
 
-## Pro Tips for Production‑Ready Code
+## Pro tips for production‑Ready code
 
 1. **Use constants for layout values** – makes future adjustments easier.
 2. **Wrap the save path in a `Path` object** to avoid platform‑specific separators.
@@ -253,7 +253,7 @@ Next steps? Try customizing the button’s caption, adding a macro to respond to
 Feel free to experiment, and if you hit a snag, drop a comment below. Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
@@ -266,3 +266,4 @@ The following tutorials cover closely related topics that build on the technique
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
