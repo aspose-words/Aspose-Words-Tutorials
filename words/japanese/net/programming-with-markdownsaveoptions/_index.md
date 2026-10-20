@@ -35,6 +35,7 @@ MarkdownSaveOptions を使用した Words Processing は、Aspose.Words for .NET
 | [docx を Markdown に変換 – 完全 C# ガイド](./convert-docx-to-markdown-complete-c-guide/) Aspose.Words for .NET を使用して、docx ファイルを Markdown に変換する完全な C# ガイドです。 |
 | [docx を Markdown に保存 – LaTeX 数式付き完全 C# ガイド](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) Aspose.Words for .NET を使用して、LaTeX 数式を含む docx を Markdown に変換する完全な C# ガイドです。 |
 | [docx を Markdown に保存 – 画像抽出付き完全 C# ガイド](./save-docx-as-markdown-complete-c-guide-with-image-extraction/) Aspose.Words for .NET を使用して、画像抽出機能付きで docx を Markdown に変換する完全な C# ガイドです。 |
+| [LaTeX数式付きでdocxをMarkdownに保存 – C# ガイド](./save-docx-as-markdown-with-latex-equations-c-guide/) Aspose.Words for .NET を使用して、LaTeX 数式を含む docx を Markdown に変換して保存する完全な C# ガイドです。 |
 | [docx を Markdown に保存 – 画像抽出付き完全 C# ガイド](./save-docx-as-markdown-full-c-guide-with-image-extraction/) Aspose.Words for .NET を使用して、画像抽出機能付きで docx を Markdown に変換する完全な C# ガイドです。 |
 | [docx を Markdown に変換し、画像を保存する](./convert-docx-to-markdown-save-images-from-docx/) Aspose.Words for .NET を使用して、docx を Markdown に変換し、埋め込まれた画像を抽出して保存する手順を解説します。 |
 | [C#でWordをMarkdownに変換 – 画像抽出付き完全ガイド](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/) Aspose.Words for .NET を使用して、画像抽出機能付きで Word 文書を Markdown に変換する完全な C# ガイドです。 |
@@ -113,6 +114,7 @@ MarkdownSaveOptions を使用した Words Processing は、Aspose.Words for .NET
 | [Word を Markdown に変換 – PDF/UA エクスポート付き完全ガイド](./convert-word-to-markdown-full-guide-with-pdf-ua-export/) Aspose.Words for .NET を使用して、Word 文書を Markdown に変換し、PDF/UA 形式でエクスポートする完全な手順を解説します。 |
 | [カスタム画像フォルダーで Word を Markdown に保存 – 完全ガイド](./save-word-as-markdown-with-custom-image-folder-full-guide/) Aspose.Words for .NET を使用して、カスタム画像フォルダーを設定しながら Word 文書を Markdown にエクスポートする完全ガイドです。 |
 | [C#でドキュメントをMarkdownに保存 – 完全ガイド](./save-document-as-markdown-with-c-full-guide/) Aspose.Words for .NET を使用して、C# で Word 文書を Markdown 形式にエクスポートする完全な手順を解説します。 |
+| [docx を Markdown にエクスポート – 完全 C# ガイド](./export-docx-as-markdown-complete-c-guide/) Aspose.Words for .NET を使用して、docx ファイルを Markdown に変換し、完全な C# 手順で保存する方法を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

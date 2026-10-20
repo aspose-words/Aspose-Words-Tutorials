@@ -78,6 +78,7 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 | [Mengonversi DOCX ke PDF dalam C# – Panduan Pemrograman Lengkap](./convert-docx-to-pdf-in-c-complete-programming-guide/) | Panduan langkah demi langkah mengonversi DOCX ke PDF dalam C# menggunakan Aspose.Words. Lengkap dengan contoh kode. |
 | [Konversi docx ke txt – Panduan Lengkap untuk Word Math ke LaTeX](./convert-docx-to-txt-complete-guide-for-word-math-to-latex/) | Pelajari cara mengonversi file DOCX ke TXT sambil mengekstrak rumus Word menjadi LaTeX dengan Aspose.Words untuk .NET. |
 | [Buat PDF dari Word di C# – Panduan Lengkap](./create-pdf-from-word-in-c-full-guide/) | Panduan langkah demi langkah untuk membuat PDF dari dokumen Word menggunakan Aspose.Words di C#. |
+| [Buat PDF dari Word di C# – Panduan Low‑Code Cepat](./create-pdf-from-word-in-c-fast-low-code-guide/) | Panduan singkat membuat PDF dari dokumen Word menggunakan Aspose.Words di C# dengan sedikit kode. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -78,6 +78,7 @@
 | [كيفية تصدير LaTeX من Word – دليل C# كامل](./how-to-export-latex-from-word-complete-c-guide/) | تعلّم كيفية تصدير مستندات Word إلى LaTeX باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
 | [حفظ ملف docx كـ txt وتصدير معادلات Word إلى LaTeX](./save-docx-as-txt-and-export-word-equations-to-latex/) | تعرّف على كيفية حفظ ملفات docx كملفات txt وتصدير المعادلات إلى LaTeX باستخدام Aspose.Words لـ .NET. |
 | [إنشاء PDF من Word باستخدام C# – دليل كامل](./create-pdf-from-word-in-c-full-guide/) | تعرّف على كيفية إنشاء ملفات PDF من مستندات Word باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
+| [إنشاء PDF من Word في C# – دليل سريع منخفض الكود](./create-pdf-from-word-in-c-fast-low-code-guide/) | دليل سريع لإنشاء ملفات PDF من مستندات Word باستخدام C# مع القليل من الكود. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

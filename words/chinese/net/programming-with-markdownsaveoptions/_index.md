@@ -304,6 +304,13 @@
 ### [使用 C# 将文档保存为 Markdown – 完整指南](./save-document-as-markdown-with-c-full-guide/)
 
 使用 Aspose.Words for .NET 在 C# 中将文档导出为 Markdown，提供完整示例和分步指南。
+### [将 docx 保存为 markdown 并带有 LaTeX 方程 – C# 指南](./save-docx-as-markdown-with-latex-equations-c-guide/)
+
+使用 Aspose.Words for .NET 将 docx 文档保存为 Markdown，并包含 LaTeX 方程，提供完整示例和步骤指南。
+
+### [导出 docx 为 markdown – 完整 C# 指南](./export-docx-as-markdown-complete-c-guide/)
+
+使用 Aspose.Words for .NET 将 docx 文档导出为 Markdown，提供完整的 C# 示例和分步指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

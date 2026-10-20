@@ -38,6 +38,7 @@
 ### [حفظ docx كـ markdown – دليل C# كامل مع معادلات LaTeX](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 ### [حفظ docx كـ markdown – دليل C# كامل مع استخراج الصور](./save-docx-as-markdown-complete-c-guide-with-image-extraction/)
+### [حفظ docx كـ markdown مع معادلات LaTeX – دليل C#](./save-docx-as-markdown-with-latex-equations-c-guide/)
 
 ### [حفظ docx كـ markdown – دليل C# كامل مع استخراج الصور](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
 
@@ -190,6 +191,7 @@
 
 ### [حفظ Word كـ Markdown مع مجلد صور مخصص – دليل كامل](./save-word-as-markdown-with-custom-image-folder-full-guide/)
 ### [حفظ المستند كـ markdown باستخدام C# – دليل كامل](./save-document-as-markdown-with-c-full-guide/)
+### [تصدير docx إلى markdown – دليل C# كامل](./export-docx-as-markdown-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

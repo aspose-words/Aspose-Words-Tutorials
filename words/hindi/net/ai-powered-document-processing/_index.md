@@ -68,6 +68,8 @@
 | [C# के साथ Word में व्याकरण जांच कैसे करें – पूर्ण गाइड](./how-to-check-grammar-in-word-with-c-complete-guide/) | C# का उपयोग करके Aspose.Words के साथ Word दस्तावेज़ों में व्याकरण जांच करने की पूरी प्रक्रिया सीखें। |
 | [AI के साथ सारांश बनाएं – C# Aspose Words ट्यूटोरियल](./create-summary-with-ai-c-aspose-words-tutorial/) | C# में Aspose.Words का उपयोग करके AI के साथ दस्तावेज़ सारांश बनाना सीखें। तेज़ और सटीक परिणाम प्राप्त करें। |
 | [C# में व्याकरण जांचें Aspose.Words के साथ – चरण‑दर‑चरण गाइड](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) | C# में Aspose.Words का उपयोग करके व्याकरण जांचें और सुधारें। आसान चरण‑दर‑चरण मार्गदर्शिका। |
+| [स्थानीय LLM के साथ Word दस्तावेज़ का सारांश – चरण‑दर‑चरण C# गाइड](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | स्थानीय LLM का उपयोग करके .NET के लिए Aspose.Words के साथ Word दस्तावेज़ को सारांशित करने की चरण‑दर‑चरण गाइड। |
+| [Aspose.Words AI के साथ Word व्याकरण जांचें – पूर्ण गाइड](./check-word-grammar-with-aspose-words-ai-complete-guide/) | Aspose.Words AI का उपयोग करके .NET में Word दस्तावेज़ों की व्याकरण जांच करने का पूर्ण मार्गदर्शक। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

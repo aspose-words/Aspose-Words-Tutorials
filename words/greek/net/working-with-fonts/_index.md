@@ -83,6 +83,7 @@
 | [Πώς να Καταγράψετε Προειδοποιήσεις στο Aspose.Words – Πλήρης Οδηγός C#](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) | Μάθετε πώς να εντοπίζετε και να διαχειρίζεστε προειδοποιήσεις κατά την επεξεργασία εγγράφων Word με το Aspose.Words για .NET. |
 | [Πώς να εντοπίσετε γραμματοσειρές σε C# – Πλήρης Οδηγός](./how-to-detect-fonts-in-c-complete-guide/) | Μάθετε πώς να εντοπίζετε γραμματοσειρές σε έγγραφα Word χρησιμοποιώντας C# και Aspose.Words για .NET. |
 | [Αντικατάσταση Γραμματοσειρών Aspose – Εντοπισμός Ελλειπουσών Γραμματοσειρών σε Έγγραφα Word](./aspose-font-substitution-detect-missing-fonts-in-word-docume/) | Μάθετε πώς να εντοπίζετε ελλείπουσες γραμματοσειρές σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET. |
+| [Πώς να ανιχνεύσετε την αντικατάσταση στο Aspose.Words – Διαχείριση ελλιπών γραμματοσειρών](./how-to-detect-substitution-in-aspose-words-handle-missing-fo/) | Μάθετε πώς να ανιχνεύετε την αντικατάσταση γραμματοσειρών και να διαχειρίζεστε ελλιπείς γραμματοσειρές στο Aspose.Words για .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

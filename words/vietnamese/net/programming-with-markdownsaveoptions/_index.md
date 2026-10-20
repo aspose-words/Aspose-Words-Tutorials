@@ -118,6 +118,8 @@ Words Processing with MarkdownSaveOptions là một nguồn tài nguyên chuyên
 | [Chuyển Word sang Markdown – Hướng dẫn đầy đủ với xuất PDF/UA](./convert-word-to-markdown-full-guide-with-pdf-ua-export/) | Hướng dẫn chi tiết cách chuyển tài liệu Word sang Markdown và xuất PDF/UA bằng C# và Aspose.Words. |
 | [Lưu Word thành Markdown với Thư mục Hình ảnh Tùy chỉnh – Hướng dẫn đầy đủ](./save-word-as-markdown-with-custom-image-folder-full-guide/) | Hướng dẫn chi tiết cách lưu tài liệu Word thành Markdown và lưu hình ảnh vào thư mục tùy chỉnh bằng Aspose.Words cho .NET. |
 | [Lưu tài liệu dưới dạng Markdown với C# – Hướng dẫn đầy đủ](./save-document-as-markdown-with-c-full-guide/) | Hướng dẫn chi tiết cách lưu tài liệu Word thành Markdown bằng C# sử dụng Aspose.Words, bao gồm các tùy chọn và ví dụ thực tế. |
+| [Lưu docx thành markdown với các phương trình LaTeX – Hướng dẫn C#](./save-docx-as-markdown-with-latex-equations-c-guide/) | Hướng dẫn chi tiết cách lưu file docx thành markdown với các phương trình LaTeX bằng C# và Aspose.Words. |
+| [Export docx as markdown – Complete C# Guide](./export-docx-as-markdown-complete-c-guide/) | Hướng dẫn chi tiết cách lưu file docx thành markdown bằng C# và Aspose.Words, bao gồm các tùy chọn và ví dụ thực tế. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

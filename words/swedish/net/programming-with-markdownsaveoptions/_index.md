@@ -48,6 +48,8 @@ Lär dig spara DOCX-filer som Markdown med en komplett C#‑guide som inkluderar
 
 ### [Spara docx som markdown – Fullständig guide med LaTeX‑ekvationer](./save-docx-as-markdown-complete-guide-with-latex-equations/)
 Lär dig spara DOCX-filer som Markdown med en komplett guide som inkluderar LaTeX‑ekvationer.
+### [Spara docx som markdown med LaTeX‑ekvationer – C#‑guide](./save-docx-as-markdown-with-latex-equations-c-guide/)
+Lär dig spara DOCX som Markdown med LaTeX‑ekvationer i en komplett C#‑guide.
 
 ### [Spara docx som markdown – Fullständig C#-guide med bildextraktion](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
 ### [Konvertera Docx till Markdown med C# – Komplett programmeringsguide](./convert-docx-to-markdown-with-c-complete-programming-guide/)
@@ -281,6 +283,8 @@ Lär dig hur du extraherar bilder från DOCX när du konverterar till Markdown m
 Lär dig spara Word som Markdown med en anpassad bildmapp i en komplett guide.
 ### [Spara dokument som Markdown med C# – Fullständig guide](./save-document-as-markdown-with-c-full-guide/)
 Lär dig spara dokument som Markdown med en komplett C#‑guide.
+### [Exportera docx som markdown – Fullständig C#-guide](./export-docx-as-markdown-complete-c-guide/)
+Lär dig steg‑för‑steg hur du exporterar DOCX‑filer till Markdown med en komplett C#‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

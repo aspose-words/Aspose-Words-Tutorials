@@ -78,6 +78,7 @@
 | [在 C# 中從 Word 建立 PDF – 完整指南](./create-pdf-from-word-in-c-full-guide/) | 完整步驟說明如何使用 Aspose.Words for .NET 在 C# 中將 Word 文件轉換為 PDF，提供程式碼範例與最佳實踐。 |
 
 | [在 C# 中將 PNG 轉換為 Base64 – 完整指南](./convert-png-to-base64-in-c-complete-guide/) | 了解如何在 C# 中將 PNG 圖片轉換為 Base64 字串，完整步驟與程式碼示例，適合需要圖像編碼的開發人員。 |
+| [使用 C# 從 Word 建立 PDF – 快速低程式碼指南](./create-pdf-from-word-in-c-fast-low-code-guide/) | 了解如何使用 Aspose.Words for .NET 在 C# 中快速以低程式碼將 Word 轉換為 PDF。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

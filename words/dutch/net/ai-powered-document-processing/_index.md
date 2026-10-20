@@ -69,6 +69,8 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Hoe controleer je grammatica in Word met C# – Complete gids](./how-to-check-grammar-in-word-with-c-complete-guide/) | Leer hoe u met C# grammatica-controle in Word kunt implementeren met een volledige stap-voor-stap gids. |
 | [Samenvatting maken met AI – C# Aspose Words-tutorial](./create-summary-with-ai-c-aspose-words-tutorial/) | Leer hoe u met C# en Aspose.Words AI gebruikt om automatisch samenvattingen van Word-documenten te genereren. |
 | [Hoe grammatica te controleren in C# met Aspose.Words – Stapsgewijze handleiding](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) | Leer hoe u grammatica controleert in C# met Aspose.Words via een eenvoudige stap‑voor‑stap gids. |
+| [Samenvatten van Word-document met een lokale LLM – Stapsgewijze C#-gids](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | Leer hoe u met een lokaal LLM Word-documenten automatisch samenvat met C# in een stapsgewijze handleiding. |
+| [Controleer Word-grammatica met Aspose.Words AI – Complete gids](./check-word-grammar-with-aspose-words-ai-complete-guide/) | Leer hoe u grammatica-controle in Word-documenten automatiseert met Aspose.Words AI in een volledige stapsgewijze handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

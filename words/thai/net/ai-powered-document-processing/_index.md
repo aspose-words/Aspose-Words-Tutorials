@@ -59,6 +59,8 @@
 | [เขียนย่อหน้าซ้ำด้วย AI ใน C# – วิธีตั้งค่า Local LLM](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) | เรียนรู้วิธีใช้ Aspose.Words สำหรับ .NET เพื่อเขียนย่อหน้าซ้ำด้วย AI และกำหนดค่า Local LLM อย่างง่าย |
 | [วิธีตรวจสอบไวยากรณ์ด้วย Aspose.Words AI – คู่มือฉบับสมบูรณ์](./how-to-check-grammar-with-aspose-words-ai-complete-guide/) | เรียนรู้วิธีใช้ Aspose.Words AI เพื่อตรวจสอบและแก้ไขไวยากรณ์ในเอกสาร Word อย่างแม่นยำและรวดเร็ว -
 | [วิธีตรวจสอบไวยากรณ์ใน C# ด้วย Aspose.Words – คู่มือขั้นตอนต่อขั้นตอน](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) | เรียนรู้วิธีใช้ Aspose.Words สำหรับ .NET เพื่อตรวจสอบและแก้ไขไวยากรณ์ในไฟล์ C# อย่างง่ายดาย |
+| [สรุปเอกสาร Word ด้วย LLM ภายในเครื่อง – คู่มือ C# ขั้นตอนโดยขั้นตอน](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | เรียนรู้วิธีใช้ Aspose.Words สำหรับ .NET ร่วมกับ LLM ภายในเครื่องเพื่อสรุปเอกสาร Word อย่างมีประสิทธิภาพด้วย C# |
+| [ตรวจสอบไวยากรณ์ Word ด้วย Aspose.Words AI – คู่มือฉบับสมบูรณ์](./check-word-grammar-with-aspose-words-ai-complete-guide/) | เรียนรู้วิธีใช้ Aspose.Words AI เพื่อตรวจสอบและแก้ไขไวยากรณ์ในเอกสาร Word อย่างแม่นยำและอัตโนมัติ |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

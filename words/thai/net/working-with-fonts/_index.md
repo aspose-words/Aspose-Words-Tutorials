@@ -54,6 +54,7 @@
 | [ตัวอย่างแหล่งที่มาของฟอนต์ Steam](./resource-steam-font-source-example/) | เรียนรู้วิธีใช้ Resource Stream Font Source เพื่อโหลดแบบอักษรที่กำหนดเองลงใน Aspose.Words สำหรับ .NET -
 | [รับการทดแทนโดยไม่ต้องมีคำต่อท้าย](./get-substitution-without-suffixes/) | ในบทช่วยสอนนี้ เรียนรู้วิธีรับการแทนที่แบบไม่มีคำต่อท้ายในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET -
 - [วิธีตรวจจับแบบอักษรใน Aspose.Words – จัดการการแจ้งเตือนและการตั้งค่า](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | เรียนรู้วิธีตรวจจับแบบอักษรใน Aspose.Words พร้อมจัดการการแจ้งเตือนและตั้งค่าการแทนที่แบบอักษรเพื่อให้เอกสารแสดงผลอย่างถูกต้อง -
+| [วิธีตรวจจับการทดแทนใน Aspose.Words – จัดการแบบอักษรที่หายไป](./how-to-detect-substitution-in-aspose-words-handle-missing-fo/) | เรียนรู้วิธีตรวจจับการทดแทนแบบอักษรและจัดการแบบอักษรที่หายไปใน Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอน -
 | [รับการทดแทนโดยไม่ต้องมีคำต่อท้าย](./get-substitution-without-suffixes/) | ในบทช่วยสอนนี้ เรียนรู้วิธีรับการแทนที่แบบไม่มีคำต่อท้ายในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET |
 | [บันทึกเอกสาร Word – ตรวจจับแบบอักษรที่หายไปด้วย Aspose.Words](./save-word-document-detect-missing-fonts-with-aspose-words/) | เรียนรู้วิธีบันทึกเอกสาร Word พร้อมตรวจจับแบบอักษรที่หายไปโดยใช้ Aspose.Words สำหรับ .NET -
 - [วิธีรับการแจ้งเตือน – ตั้งค่าการตั้งค่าแบบอักษรเริ่มต้น](./how-to-capture-warnings-set-default-font-settings/) | เรียนรู้วิธีจับคำเตือนและตั้งค่าฟอนต์เริ่มต้นใน Aspose.Words สำหรับ .NET ด้วยขั้นตอนละเอียด -

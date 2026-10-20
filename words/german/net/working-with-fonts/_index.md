@@ -82,6 +82,7 @@ Egal, ob Sie Text mit unterschiedlichen Schriftarten formatieren, Regeln für di
 | [Schriftartenersetzung in Aspose.Words – Vollständige Programmieranleitung](./handle-font-substitution-in-aspose-words-complete-programmin/) | Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie die Schriftartenersetzung in Aspose.Words für .NET verwalten. |
 | [Aspose-Schriftartenersetzung – Fehlende Schriftarten in Word-Dokumenten erkennen](./aspose-font-substitution-detect-missing-fonts-in-word-docume/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET fehlende Schriftarten in Word-Dokumenten erkennen und behandeln. |
 | [Wie man Schriftarten in Aspose.Words erkennt – Komplettanleitung](./how-to-detect-fonts-in-aspose-words-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Schriftarten in Word-Dokumenten erkennen und verwalten. |
+| [Wie man Substitution in Aspose.Words erkennt – Fehlende Schriftarten behandeln](./how-to-detect-substitution-in-aspose-words-handle-missing-fo/) | Erfahren Sie, wie Sie in Aspose.Words Substitution erkennen und fehlende Schriftarten behandeln. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

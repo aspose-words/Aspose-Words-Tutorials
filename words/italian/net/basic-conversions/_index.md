@@ -76,6 +76,7 @@
 | [Crea PDF accessibile da DOCX – Guida passo‑passo C#](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | Impara a generare PDF accessibili da file DOCX usando Aspose.Words per .NET con esempi C# dettagliati. |
 | [Converti DOCX in PDF in C# – Guida completa di programmazione](./convert-docx-to-pdf-in-c-complete-programming-guide/) | Scopri come convertire DOCX in PDF usando C# con Aspose.Words, con esempi di codice dettagliati e consigli pratici. |
 | [Crea PDF da Word in C# – Guida completa](./create-pdf-from-word-in-c-full-guide/) | Scopri come generare PDF da documenti Word usando C# e Aspose.Words con una guida passo passo completa. |
+| [Crea PDF da Word in C# – Guida rapida a basso codice](./create-pdf-from-word-in-c-fast-low-code-guide/) | Scopri come generare rapidamente PDF da documenti Word in C# usando Aspose.Words con un approccio low‑code. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

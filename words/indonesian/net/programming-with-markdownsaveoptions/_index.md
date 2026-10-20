@@ -39,6 +39,8 @@ Pelajari cara mengonversi file DOCX ke Markdown dengan panduan lengkap C#.
 Pelajari cara mengonversi file DOCX ke Markdown dengan panduan lengkap C# termasuk persamaan LaTeX.
 ### [Simpan docx sebagai markdown – Panduan Lengkap dengan Persamaan LaTeX](./save-docx-as-markdown-complete-guide-with-latex-equations/)
 Pelajari cara mengonversi file DOCX menjadi Markdown dengan panduan lengkap termasuk persamaan LaTeX menggunakan Aspose.Words untuk .NET.
+### [Simpan docx sebagai markdown dengan persamaan LaTeX – Panduan C#](./save-docx-as-markdown-with-latex-equations-c-guide/)
+Pelajari cara menyimpan file DOCX sebagai Markdown dengan persamaan LaTeX menggunakan C#.
 ### [Simpan docx sebagai markdown – Panduan Lengkap C# dengan Ekstraksi Gambar](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
 Pelajari cara mengonversi file DOCX ke Markdown lengkap dengan ekstraksi gambar menggunakan C#.
 ### [Konversi Word ke Markdown – Panduan Lengkap dengan Ekstraksi Gambar](./convert-word-to-markdown-full-guide-with-image-extraction/)
@@ -209,6 +211,8 @@ Pelajari cara mengonversi dokumen Word ke Markdown lengkap dengan mengekspor PDF
 Pelajari cara menyimpan dokumen Word sebagai Markdown dengan mengatur folder gambar khusus menggunakan Aspose.Words untuk .NET.
 ### [Simpan Dokumen sebagai Markdown dengan C# – Panduan Lengkap](./save-document-as-markdown-with-c-full-guide/)
 Pelajari cara menyimpan dokumen sebagai Markdown menggunakan C# dengan panduan lengkap.
+### [Ekspor docx sebagai markdown – Panduan Lengkap C#](./export-docx-as-markdown-complete-c-guide/)
+Pelajari cara mengekspor file DOCX menjadi Markdown dengan panduan lengkap C# menggunakan Aspose.Words. 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
