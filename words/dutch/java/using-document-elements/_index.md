@@ -67,10 +67,19 @@ Leer Markdown gebruiken in Aspose.Words voor Java met deze stapsgewijze tutorial
 Leer hoe je knooppunten in Aspose.Words voor Java kunt bewerken met deze stapsgewijze tutorial. Ontgrendel de kracht van documentverwerking.
 ### [OLE-objecten en ActiveX-besturingselementen gebruiken in Aspose.Words voor Java](./using-ole-objects-and-activex/)
 Leer OLE-objecten en ActiveX-besturingselementen gebruiken in Aspose.Words voor Java. Maak eenvoudig interactieve documenten. Ga nu aan de slag!
+### [Forms2OleControl toevoegen aan DOCX – Complete Aspose.Words-gids](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Leer hoe u Forms2OleControl gebruikt om OLE-besturingselementen toe te voegen aan DOCX-bestanden met Aspose.Words voor Java.
+### [Hoe een ActiveX-knop in Word in te voegen – knopbijschrift instellen](./how-to-insert-activex-button-in-word-set-button-caption/)
+Leer hoe u een ActiveX-knop toevoegt aan een Word-document en het bijschrift aanpast met Aspose.Words voor Java.
 ### [Revisies gebruiken in Aspose.Words voor Java](./using-revisions/)
 Leer hoe u Aspose.Words voor Java's revisiebeheer efficiënt kunt gebruiken. Stapsgewijze handleiding voor ontwikkelaars. Optimaliseer uw documentbeheer.
 ### [Secties gebruiken in Aspose.Words voor Java](./using-sections/)
 Ontdek Aspose.Words voor Java: een uitgebreide handleiding voor het gebruik van secties. Secties toevoegen, verwijderen, toevoegen en klonen met codevoorbeelden.
+### [Knopgrootte instellen in Word met Java – Complete Aspose.Words-gids](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+### [Cirkeldiagram maken met Aspose.Words voor Java – Volledige stapsgewijze gids](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Leer hoe u met Aspose.Words voor Java een cirkeldiagram maakt en in uw document invoegt, stap voor stap uitgelegd.
+### [Cirkeldiagram invoegen in Word met Aspose.Words – volledige gids](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Leer stap voor stap hoe u een cirkeldiagram in een Word-document invoegt met Aspose.Words voor Java.
 ### [Leeg Word-document maken met een opdrachtknop – stapsgewijze handleiding](./create-blank-word-document-with-a-command-button-step-by-ste/)
 Leer hoe u een leeg Word-document maakt en een opdrachtknop toevoegt met deze stapsgewijze tutorial.
 

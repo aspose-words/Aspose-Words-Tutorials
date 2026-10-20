@@ -1,24 +1,22 @@
 ---
 category: general
-date: 2025-12-29
-description: Aspose.Words C# を使用して Word 文書に矩形シェイプを作成します。シェイプの透明度の設定、影の色の設定方法を学び、Word
-  文書を簡単に保存できます。
+date: 2026-02-18
+description: Aspose.Words を使用して長方形の図形を作成し、影の追加、図形サイズの設定、Word 文書の保存方法を数分で学びましょう。
 draft: false
 keywords:
 - create rectangle shape
-- set shape transparency
-- set shadow color
+- how to add shadow
 - save word document
-- create word document
+- set shape size
+- how to create document
 language: ja
-og_description: Aspose.Words C# を使用して Word 文書に矩形シェイプを作成します。このガイドでは、シェイプの透明度の設定、影の色の設定、そして
-  Word 文書の保存方法を示します。
-og_title: Wordで長方形シェイプを作成 – 完全なAspose.Wordsチュートリアル
+og_description: Word ファイルに長方形の図形を作成し、影の追加方法、図形サイズの設定方法を学び、Aspose.Words を使用して C# でドキュメントを保存します。
+og_title: Wordで長方形シェイプを作成 – 完全な Aspose.Words チュートリアル
 tags:
 - Aspose.Words
 - C#
-- Word Automation
-title: Aspose.WordsでWordに長方形の図形を作成する – ステップバイステップガイド
+- Word automation
+title: Aspose.WordsでWordに矩形シェイプを作成する – ステップバイステップガイド
 url: /ja/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/
 ---
 
@@ -26,180 +24,187 @@ url: /ja/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word で長方形シェイプを作成 – 完全 Aspose.Words チュートリアル
+# Aspose.Words を使って Word に矩形シェイプを作成する – ステップバイステップガイド
 
-Word 文書で **長方形シェイプを作成** したいけど、どこから始めればいいか分からないことはありませんか？レポートや請求書の自動生成でこの壁にぶつかる開発者は多いです。このガイドでは、長方形シェイプの作成、シェイプの透明度設定、影の色設定、そして最終的に Aspose.Words for .NET を使用して **Word 文書を保存** する手順を詳しく解説します。
+Word ファイルに **矩形シェイプを作成** したいけど、どこから始めればいいか分からないことはありませんか？ 開発者はよく「シェイプに影を付けて、なおかつ文書を編集可能にしたい」と質問します。このチュートリアルではその疑問に答えると同時に、**影の付け方**、**シェイプサイズの設定**、**Word 文書の保存** を一連の流れで紹介します。
 
-最初の Document オブジェクトからディスク上の最終的な `.docx` ファイルまでを網羅するので、最後には **プログラムで Word 文書を作成** できるようになります。外部参照は不要で、プロジェクトにコピペできる自己完結型のソリューションです。
+新しいドキュメントの初期化（**ドキュメントの作成方法** の最初のステップ）から最終的な *.docx* をディスクに保存するまで、外部参照は一切不要です。Visual Studio にコピペしてすぐに実行できる、自己完結型のサンプルです。
+
+---
 
 ## 前提条件
 
-- .NET 6.0 以降（コードは .NET Framework 4.7+ でも動作します）
-- Aspose.Words for .NET NuGet パッケージ（`Install-Package Aspose.Words`）
-- C# の基本的な構文に慣れていること
-- お好みの IDE（Visual Studio、Rider、VS Code など）
+- .NET 6+（または .NET Framework 4.7+）。Aspose.Words は最新の .NET ランタイムで動作します。
+- 有効な Aspose.Words ライセンス（または無料評価キー） – これがないと透かしが表示されます。
+- Visual Studio、Rider、またはお好みの C# エディタ。
+- 基本的な C# の知識 – コンソールアプリを実行できれば問題ありません。
 
-> **プロのコツ:** Aspose.Words の無料トライアルを使用している場合、出力ファイルに透かしが追加されます。本番環境では有効なライセンスが必要です。
+> **プロのコツ:** Mac を使用している場合でも、.NET 6 と VS Code で同じコードが動作します。その際は `Aspose.Words` NuGet パッケージを参照してください。
 
-## 手順 1: Document と Builder の初期化
+---
 
-まず、空の Word 文書とコンテンツ挿入用の `DocumentBuilder` を作成します。Builder はページ上に描画する仮想ペンのようなものです。
+## 手順 1: ドキュメントの初期化 – **ドキュメントの作成方法** の基礎
+
+何かを描く前に、空のキャンバスが必要です。Aspose.Words ではこれを `Document` と呼びます。  
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using System.Drawing;
 
-// Create a new blank document
+// Step 1: Create a new blank document
 Document document = new Document();
-
-// The builder provides methods to add text, tables, shapes, etc.
-DocumentBuilder builder = new DocumentBuilder(document);
 ```
 
-> **なぜ重要か:** `DocumentBuilder` がないと、低レベルのノードツリーを直接操作しなければならず、エラーが起きやすく可読性も低くなります。
+> **重要ポイント:** `Document` オブジェクトは *.docx* ファイル全体を表します。追加するすべてのシェイプ、段落、セクションはこのオブジェクトの子になります。クリーンなドキュメントから始めることで、隠れたスタイルが矩形に影響することを防げます。
 
-## 手順 2: 長方形シェイプの作成
+---
 
-ここで実際に **長方形シェイプを作成** します。`InsertShape` メソッドは `ShapeType` 列挙体、幅、高さ（ポイント単位）を受け取ります。返される `Shape` オブジェクトで後から視覚プロパティを調整できます。
+## 手順 2: 矩形の定義と **シェイプサイズの設定**
+
+矩形は `ShapeType.Rectangle` を持つ `Shape` にすぎません。意図した通りの見た目になるよう、明示的な寸法を設定します。
 
 ```csharp
-// Insert a rectangle 150 pts wide and 80 pts tall
-Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 80);
+// Step 2: Create a rectangular shape and define its size
+Shape rectangleShape = new Shape(document, ShapeType.Rectangle);
+rectangleShape.Width  = 200; // width in points (≈2.78 inches)
+rectangleShape.Height = 100; // height in points (≈1.39 inches)
 ```
 
-この時点で、長方形は現在の段落に固定された黒い実体のボックスです。必要に応じて移動、サイズ変更、回転も可能です。
+> **数値の意味:** Aspose.Words はポイント単位（1 pt = 1/72 in）を使用します。レイアウトに合わせて値を調整してください。A4 用紙の典型的な幅は 200 pt が快適です。
 
-![create rectangle shape with shadow](/images/rectangle-shadow.png "Word 文書内に灰色の影が付いた長方形シェイプが表示されています")
+---
 
-*画像代替テキスト: Word 文書内に影付きの長方形シェイプを作成*
+## 手順 3: **影の付け方** – シェイプを際立たせる
 
-## 手順 3: シェイプの透明度設定
-
-透明度はシェイプの塗りの「透け具合」を表します。Aspose.Words の `Transparency` プロパティは `0.0`（不透明）から `1.0`（完全透明）までの範囲です。ここでは **シェイプの透明度を 40 %** に設定し、下のテキストが読みやすいようにします。
+影はシェイプがページから「浮き上がって」いるように見せる視覚効果です。`Shadow` プロパティで色、距離、透明度、ぼかしを調整できます。
 
 ```csharp
-// Make the rectangle 40 % transparent
-rectangleShape.Fill.Transparency = 0.4; // 0.0 = opaque, 1.0 = invisible
+// Step 3: Apply a shadow to the shape
+rectangleShape.Shadow.Color        = Color.Black; // Shadow color
+rectangleShape.Shadow.Distance    = 5;           // Offset distance in points
+rectangleShape.Shadow.Transparency = 0.4;        // 40 % transparent
+rectangleShape.Shadow.BlurRadius  = 8;           // Soft edge radius
 ```
 
-> **エッジケース:** 完全に見えないシェイプにしたいが影は残したい場合は、`Transparency` を `1.0` に設定し、アウトラインをゼロ以外にします。
+> **透明度を使う理由:** 完全に不透明な影は硬く見えることがあります。0.4 に設定すると、効果が控えめでプロフェッショナルになります。
 
-## 手順 4: 影の設定
+---
 
-さりげないドロップシャドウで奥行きを加えます。**影の色**を中間のグレーに設定し、ぼかし半径と水平・垂直オフセットを数ポイント調整します。
+## 手順 4: 矩形の位置決め – 周囲のテキストとインラインフロー
+
+シェイプを段落内の文字のように扱いたい場合は、`WrapType` を `Inline` に設定します。これにより、後で文書を編集したときのレイアウトが予測可能になります。
 
 ```csharp
-// Enable the shadow effect
-rectangleShape.Shadow.Enabled = true;
-
-// Shadow color – a neutral gray
-rectangleShape.Shadow.Color = System.Drawing.Color.Gray;
-
-// 40 % transparent shadow (same as shape's fill)
-rectangleShape.Shadow.Transparency = 0.4;
-
-// Blur radius makes the edge softer
-rectangleShape.Shadow.Blur = 6;
-
-// Horizontal and vertical offsets (in points)
-rectangleShape.Shadow.OffsetX = 5;
-rectangleShape.Shadow.OffsetY = 5;
+// Step 4: Set the shape to flow inline with the surrounding text
+rectangleShape.WrapType = WrapType.Inline;
 ```
 
-> **なぜ重要か:** 影が鋭すぎたり暗すぎると、印刷時のアーティファクトのように見えてしまいます。`Blur` と `Transparency` を調整して自然な見た目にしましょう。
+> **例外ケース:** 矩形をテキストの上に浮かせたい（例: 透かし）場合は、`WrapType` を `Square` または `BehindText` に変更してください。
 
-## 手順 5: Word 文書の保存
+---
 
-最後に **Word 文書をディスクに保存** します。`Save` メソッドは拡張子から自動的にファイル形式を判別します。`.docx` は最新の OpenXML 形式です。
+## 手順 5: シェイプをドキュメント本文に挿入
+
+ここで実際に矩形を最初の段落に配置します。ドキュメントにまだコンテンツが無い場合、`FirstParagraph` が自動的に作成されます。
 
 ```csharp
-// Save the document to the desired folder
-document.Save(@"C:\Temp\ShadowRectangle.docx");
+// Step 5: Insert the shape into the first paragraph of the document
+document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
 ```
 
-フォルダーが存在しない場合、Aspose.Words は `ArgumentException` をスローします。パスが有効か確認するか、事前にディレクトリを作成してください。
+> **ヒント:** まず新しい段落を作成してからシェイプを追加することも可能です。テキストが前後に必要なシナリオで便利です。
 
-## 完全動作サンプル
+---
 
-以下はすべての手順をまとめた、すぐに実行できるプログラムです。新しいコンソールプロジェクトに貼り付けて **F5** を押すだけです。
+## 手順 6: **Word 文書の保存** – 最終ステップ
+
+すべてが揃ったら、ファイルの永続化はワンライナーで完了します。好きなパスを指定してください。サンプルではプレースホルダーを使用しているので、実際のディレクトリに置き換えてください。
 
 ```csharp
-using System;
+// Step 6: Save the document with the shadowed shape
+document.Save(@"C:\Temp\ShadowShape.docx");
+```
+
+> **結果:** 生成された *.docx* を Microsoft Word で開くと、幅 200 pt・高さ 100 pt の黒い影付き矩形が、最初の段落とインラインで表示されます。
+
+---
+
+## 期待される出力
+
+**ShadowShape.docx** を開くと、文書は次のようになります：
+
+- 矩形シェイプを含む単一の段落。
+- 矩形には 5 pt オフセットの控えめな黒影が付いている。
+- シェイプサイズは手順 2 で設定した寸法と一致する。
+- 手動でテキストを追加しない限り、余分な文字は表示されません。
+
+シェイプが表示されない場合は、正しい Aspose.Words バージョンを参照しているか、ライセンス（または評価版）が有効かを再確認してください。
+
+---
+
+## よくある質問とバリエーション
+
+| 質問 | 回答 |
+|------|------|
+| *影の色を黒以外に変更できますか？* | もちろんです。`rectangleShape.Shadow.Color = Color.Blue;` のように `System.Drawing.Color` で任意の色を指定できます。 |
+| *もっと大きな矩形が必要な場合は？* | `Width` と `Height` の値を調整してください。単位はポイントです。72 pt = 1 in です。 |
+| *シェイプを絶対位置に配置できますか？* | はい。`WrapType = WrapType.Absolute` にし、`Top`／`Left` プロパティを設定します。 |
+| *.NET Core でも動作しますか？* | 動作します。Aspose.Words はクロスプラットフォーム対応で、.NET Standard 用の NuGet パッケージをインストールすれば OK です。 |
+| *矩形の中にテキストを入れられますか？* | 直接はできません。代わりに `TextBox` シェイプを使用してください。 |
+
+---
+
+## 完全動作サンプル（コピー＆ペースト可能）
+
+```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using System.Drawing;
 
-namespace AsposeRectangleDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main()
-        {
-            // 1️⃣ Initialize document and builder
-            Document document = new Document();
-            DocumentBuilder builder = new DocumentBuilder(document);
+        // 1️⃣ Initialize a new document
+        Document document = new Document();
 
-            // 2️⃣ Insert rectangle shape
-            Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 80);
+        // 2️⃣ Create rectangle and set its size
+        Shape rectangleShape = new Shape(document, ShapeType.Rectangle);
+        rectangleShape.Width  = 200;
+        rectangleShape.Height = 100;
 
-            // 3️⃣ Set shape transparency (40 % transparent)
-            rectangleShape.Fill.Transparency = 0.4;
+        // 3️⃣ Add a subtle black shadow
+        rectangleShape.Shadow.Color         = Color.Black;
+        rectangleShape.Shadow.Distance     = 5;
+        rectangleShape.Shadow.Transparency = 0.4;
+        rectangleShape.Shadow.BlurRadius   = 8;
 
-            // 4️⃣ Configure shadow (color, blur, offset, transparency)
-            rectangleShape.Shadow.Enabled = true;
-            rectangleShape.Shadow.Color = System.Drawing.Color.Gray;
-            rectangleShape.Shadow.Transparency = 0.4;
-            rectangleShape.Shadow.Blur = 6;
-            rectangleShape.Shadow.OffsetX = 5;
-            rectangleShape.Shadow.OffsetY = 5;
+        // 4️⃣ Make the shape flow inline with text
+        rectangleShape.WrapType = WrapType.Inline;
 
-            // 5️⃣ Save the document
-            string outputPath = @"C:\Temp\ShadowRectangle.docx";
-            document.Save(outputPath);
+        // 5️⃣ Insert the shape into the first paragraph
+        document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
 
-            Console.WriteLine($"Document saved to {outputPath}");
-        }
+        // 6️⃣ Persist the file
+        document.Save(@"C:\Temp\ShadowShape.docx");
+
+        System.Console.WriteLine("Document saved successfully!");
     }
 }
 ```
 
-### 期待される結果
-
-`ShadowRectangle.docx` を Microsoft Word で開くと、薄いグレーの長方形に柔らかく少しずれた影が付いており、透明度は 40 % で表示されます。シェイプは空白ページ上に配置され、追加コンテンツを入れる準備ができています。
-
-## よくある質問とバリエーション
-
-**別のシェイプが必要な場合は？**  
-`ShapeType.Rectangle` を他の列挙値（`Ellipse`、`Triangle`、`Star` など）に置き換えるだけです。残りのコードは同じです。
-
-**アウトラインの色を変更できますか？**  
-はい。`rectangleShape.StrokeColor = System.Drawing.Color.Blue;` のように設定し、必要に応じて `rectangleShape.StrokeWeight = 1.5;` も指定できます。
-
-**ページ上の特定位置にシェイプを配置したい場合は？**  
-`rectangleShape.WrapType = WrapType.None;` とし、`rectangleShape.Left` と `rectangleShape.Top`（単位はポイント）を調整します。
-
-**長方形の中にテキストを入れられますか？**  
-もちろん可能です。シェイプ作成後に `rectangleShape.AppendChild(new Paragraph(document))` を呼び、`Run` にテキストを追加します。リッチな書式が必要なら `rectangleShape.TextBox` プロパティを設定。
-
-## プロのコツと落とし穴
-
-- **早めにライセンスを適用:** ライセンスを忘れると、Aspose.Words が最初のページに透かしを挿入します。テスト時に混乱の元です。
-- **パフォーマンスのコツ:** ループで多数の文書を生成する場合、単一の `Document` インスタンスを再利用し、各保存後に `document.RemoveAllChildren();` を呼んで GC 圧力を抑えます。
-- **影の見え方:** 低解像度ディスプレイでは微細な影が見えにくいことがあります。デバッグ時は `Blur` や `OffsetX/Y` を大きめに設定し、最終的に調整してください。
-
-## 次のステップ
-
-**長方形シェイプの作成**、**シェイプの透明度設定**、**影の色設定**、**Word 文書の保存** ができたら、以下の拡張を検討してください。
-
-- 複数のシェイプを追加し、グループ化する。
-- テーブルセル内に長方形を挿入してレポートレイアウトを作る。
-- `DocumentBuilder.InsertHtml` と組み合わせて HTML スタイルのコンテンツを重ねる。
-- `Glow` や `Reflection` などの他のビジュアルエフェクトを試し、より UI ライクな文書を作成する。
-
-実験し、失敗し、そして改善する――プログラムによる文書生成は、デザインとコードが出会う遊び場です。
+プログラムを実行し、`C:\Temp\ShadowShape.docx` を開くと、説明通りの影付き矩形が確認できます。
 
 ---
 
-*コーディングを楽しんでください！問題があれば下のコメントで教えてください。一緒にトラブルシュートします。*
+## まとめ
+
+Aspose.Words を使って Word ファイルに **矩形シェイプを作成** し、**シェイプサイズの設定**、**影の追加**、そして最終的に **Word 文書を保存** する方法を習得しました。**ドキュメントの作成方法** から結果の永続化まで、数行の C# コードで実現でき、より複雑なレイアウトにも拡張可能です。
+
+次の課題に挑戦してみませんか？矩形を角丸シェイプに置き換えたり、異なる影の色を試したり、テーブルセル内にシェイプを埋め込んでみたり。各変更は本ガイドで学んだコア概念を強化します。
+
+本ガイドが役立ったらシェアしたり、コメントで独自のバリエーションを共有したり、画像挿入やテーブル生成など他の Aspose.Words チュートリアルもぜひご覧ください。Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

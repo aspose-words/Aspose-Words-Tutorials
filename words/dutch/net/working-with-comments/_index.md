@@ -19,6 +19,15 @@
 In deze tutorials leert u verschillende aspecten van tekstverwerking met opmerkingen in Word-documenten met Aspose.Words voor .NET. U leert hoe u opmerkingen aan documenten kunt toevoegen, reacties op opmerkingen aan specifieke tekst kunt verankeren, reacties op opmerkingen kunt toevoegen en verwijderen, en opmerkingen en bijbehorende reacties kunt oplossen. Elke tutorial biedt een stapsgewijze handleiding met volledige broncode, waarmee u de samenwerking en feedbackbeheer in uw Word-documenten kunt verbeteren met Aspose.Words voor .NET.
 
  ## Zelfstudies
+
+{{< tutorial-card link="./add-hyperlink-comment/" title="Hyperlink‑opmerking toevoegen en exporteren als PDF‑annotatie met Aspose.Words for .NET" imgSrc="./add-hyperlink-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-comment/" title="Een Comment invoegen op een specifieke alinea in een Word‑document met Aspose.Words voor .NET" imgSrc="./add-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./style-comment-text/" title="Aangepaste stijl toepassen op opmerkingtekst in Word‑documenten met Aspose.Words voor .NET" imgSrc="./style-comment-text/images/thumb.png" >}}
+
+
+
 | Titel | Beschrijving |
 | --- | --- |
 | [Reacties toevoegen](./add-comments/) | Leer hoe u opmerkingen aan uw Word-documenten kunt toevoegen met Aspose.Words voor .NET met onze gids. Verbeter uw samenwerking aan documenten moeiteloos. |

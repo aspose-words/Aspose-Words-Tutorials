@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Hướng dẫn này trình bày cách tạo tài liệu Word, chèn biểu đồ cột, điền dữ liệu mẫu, ẩn viền vùng vẽ của biểu đồ trong khi giữ các đường trục hiển thị, và cuối cùng lưu tài liệu.
+//ExStepSummary:0: Tạo một tài liệu Word trống mới và một DocumentBuilder để chỉnh sửa nó.
+//ExStepSummary:1: Chèn một biểu đồ cột kích thước 432×252 vào tài liệu và lấy đối tượng Chart của nó.
+//ExStepSummary:2: Xóa mọi series hiện có, định nghĩa ba nhãn danh mục, và thêm một series với các giá trị mẫu vào biểu đồ.
+//ExStepSummary:3: Đặt trọng lượng stroke của vùng vẽ thành zero, loại bỏ viền của nó trong khi giữ các đường trục vẫn hiển thị.
+//ExStepSummary:4: Lưu tài liệu đã chỉnh sửa thành tệp .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+columnChart.Series.Clear();
+string[] labels = { "Group A", "Group B", "Group C" };
+columnChart.Series.Add("Demo Data", labels, new double[] { 10, 20, 30 });
+
+//ExStep:3-
+columnChart.Format.Stroke.Weight = 0;
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutPlotBorder.docx");
+//ExEnd

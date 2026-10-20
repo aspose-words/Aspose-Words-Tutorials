@@ -67,10 +67,21 @@ Aspose.Words for Java에서 머리글과 바닥글을 사용하는 방법을 단
 이 단계별 튜토리얼을 통해 Aspose.Words for Java에서 노드를 조작하는 방법을 배워보세요. 문서 처리 능력을 최대한 활용하세요.
 ### [Aspose.Words for Java에서 OLE 개체 및 ActiveX 컨트롤 사용](./using-ole-objects-and-activex/)
 Aspose.Words for Java에서 OLE 개체와 ActiveX 컨트롤을 사용하는 방법을 배워보세요. 인터랙티브 문서를 손쉽게 제작할 수 있습니다. 지금 바로 시작하세요!
+### [DOCX에 Forms2OleControl 추가 – 완전한 Aspose.Words 가이드](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Aspose.Words for Java를 사용하여 DOCX 파일에 Forms2OleControl을 추가하는 방법을 단계별로 안내합니다.
+### [Word에서 ActiveX 버튼 삽입 – 버튼 캡션 설정](./how-to-insert-activex-button-in-word-set-button-caption/)
+Word 문서에 ActiveX 버튼을 삽입하고 캡션을 설정하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 수정 사항 사용](./using-revisions/)
 Aspose.Words for Java의 버전 관리 기능을 효율적으로 사용하는 방법을 알아보세요. 개발자를 위한 단계별 가이드를 통해 문서 관리를 최적화하세요.
 ### [Java용 Aspose.Words에서 섹션 사용](./using-sections/)
 Aspose.Words for Java를 살펴보세요. 섹션 사용에 대한 포괄적인 가이드입니다. 코드 예제를 통해 섹션을 추가, 삭제, 추가, 복제할 수 있습니다.
+### [Aspose.Words Java를 사용하여 파이 차트 만들기 – 전체 단계별 가이드](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Aspose.Words for Java를 활용해 파이 차트를 생성하고 문서에 삽입하는 방법을 단계별로 안내합니다.
+
+### [Java를 사용하여 Word에서 버튼 크기 설정 – 완전한 Aspose.Words 가이드](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Aspose.Words for Java를 활용해 Word 문서의 버튼 크기를 조정하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 파이 차트 삽입 – 완전 가이드](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Aspose.Words for Java를 사용해 Word 문서에 파이 차트를 삽입하고, 데이터 바인딩 및 서식 지정 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 명령 버튼으로 빈 워드 문서 만들기](./create-blank-word-document-with-a-command-button-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

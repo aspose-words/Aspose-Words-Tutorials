@@ -34,8 +34,31 @@ Dowiedz się, jak zoptymalizować obsługę obrazów w dokumentach RTF za pomoc�
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Dowiedz się, jak zoptymalizować wyjście SVG za pomocą Aspose.Words dla Pythona. Ten przewodnik obejmuje niestandardowe funkcje, takie jak właściwości podobne do obrazów, renderowanie tekstu i ulepszenia zabezpieczeń.
 
+### [Tworzenie prostokątnego kształtu w Python – samouczek Aspose.Words](./create-rectangle-shape-in-python-aspose-words-tutorial/)
+Dowiedz się, jak utworzyć prostokątny kształt w dokumentach Word przy użyciu Aspose.Words dla Pythona.
+
 ### [Jak dodać cień w C# – Kompletny przewodnik programistyczny](./how-to-add-shadow-in-c-complete-programming-guide/)
 Dowiedz się, jak dodać cienie do obiektów w C# przy użyciu Aspose.Words, krok po kroku.
+
+### [Dodaj prostokąt do PDF za pomocą Aspose.Words – Przewodnik krok po kroku](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
+Dowiedz się, jak dodać prostokąt do pliku PDF przy użyciu Aspose.Words w prostych krokach.
+### [Tworzenie prostokątnego kształtu w Python – Kompletny przewodnik dodawania cieni i zapisywania jako PDF](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
+Dowiedz się, jak utworzyć prostokątny kształt, dodać cień i zapisać dokument jako PDF przy użyciu Aspose.Words dla Python-net.
+### [Jak wstawić prostokąt i dodać cień w Wordzie przy użyciu Aspose](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
+Dowiedz się, jak dodać prostokąt i zastosować cień w dokumencie Word przy użyciu biblioteki Aspose.Words dla Python-net.
+### [Tworzenie dokumentu Word w Python – Przewodnik: Dodawanie cienia do kształtu](./create-word-document-python-add-shadow-to-shape-guide/)
+Dowiedz się, jak dodać cień do kształtu w dokumencie Word przy użyciu Aspose.Words dla Pythona.
+### [Dodaj cień do kształtu w Pythonie – Kompletny samouczek Aspose.Words](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
+Dowiedz się, jak dodać cień do kształtów w dokumentach przy użyciu Aspose.Words dla Pythona.
+### [Jak zapisać dokument z prostokątem z cieniem – Pełny przewodnik w Pythonie](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
+Dowiedz się, jak zapisać dokument z prostokątem z cieniem przy użyciu Aspose.Words w Pythonie.
+### [Tworzenie prostokątnego kształtu w Pythonie – Kompletny przewodnik Aspose.Words](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
+Dowiedz się, jak w Pythonie przy użyciu Aspose.Words dodać i skonfigurować prostokątny kształt w dokumencie Word.
+### [Jak wstawić kształt prostokąta w Python – Kompletny przewodnik Aspose.Words](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
+Dowiedz się, jak wstawić prostokątny kształt do dokumentu Word przy użyciu Aspose.Words dla Pythona.
+### [Jak dodać cień do kształtu w Pythonie – Pełny przewodnik](./add-shadow-to-shape-in-python-with-aspose-words-full-guide/)
+### [Dodaj cień do kształtu w Wordzie przy użyciu Pythona – Kompletny przewodnik](./add-shadow-to-shape-in-word-with-python-complete-guide/)
+Dowiedz się, jak dodać cień do kształtów w dokumentach Word przy użyciu Aspose.Words dla Pythona, krok po kroku.
 
 ## Dodatkowe zasoby
 
