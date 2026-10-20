@@ -232,8 +232,6 @@ Erfahren Sie, wie Sie mit Aspose DOCX‑Dateien in Markdown konvertieren und mat
 ### [Word‑Bilder beim Konvertieren in Markdown speichern – Vollständige C#‑Anleitung](./save-word-images-while-converting-to-markdown-complete-c-gui/)
 Erfahren Sie, wie Sie beim Konvertieren von Word nach Markdown Bilder extrahieren und speichern – komplette C#‑Anleitung.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 ### [Word als Markdown speichern – Vollständige C#‑Anleitung zum Exportieren von Word‑Bildern](./save-word-as-markdown-complete-c-guide-to-export-word-images/)
 Erfahren Sie, wie Sie Word‑Dokumente als Markdown speichern und dabei Bilder exportieren – komplette C#‑Anleitung.
 
