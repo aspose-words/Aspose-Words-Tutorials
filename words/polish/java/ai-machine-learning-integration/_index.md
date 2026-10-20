@@ -68,6 +68,10 @@ Wyeksportuj wzbogacony dokument do potrzebnego formatu — PDF, DOCX, HTML lub n
 ### [Mistrzowskie przetwarzanie tekstu w Javie&#58; użycie Aspose.Words i modeli AI do podsumowywania i tłumaczenia](./java-aspose-words-text-processing/)
 Dowiedz się, jak automatyzować podsumowywanie tekstu i tłumaczenie przy użyciu Aspose.Words for Java z GPT‑4 od OpenAI i Gemini od Google. Ulepsz swoje aplikacje Java już dziś.
 
+### [Jak skonfigurować LLM – zamiana tekstu w DOCX przy użyciu AI](./how-to-configure-llm-replace-text-in-docx-with-ai/)
+Poznaj, jak skonfigurować model LLM, aby automatycznie zamieniać tekst w dokumentach DOCX przy pomocy AI i Aspose.Words.
+### [Utwórz własny model AI – Edytuj akapity Word w Javie](./create-custom-ai-model-edit-word-paragraphs-in-java/)
+Dowiedz się, jak zbudować własny model AI i używać go do dynamicznej edycji akapitów w dokumentach Word przy użyciu Aspose.Words w Javie.
 ### [Tworzenie dokumentu Word w Javie z niestandardową kontrolą gramatyki LLM](./create-word-document-java-with-custom-llm-grammar-check/)
 Dowiedz się, jak generować dokument Word w Javie i integrować własny model LLM do sprawdzania gramatyki.
 
@@ -97,13 +101,7 @@ A: Zweryfikuj wynik AI przed wstawieniem. Użyj metod `DocumentBuilder` Aspose.W
 **Q: Czy muszę ponownie trenować modele pod język specyficzny dla domeny?**  
 A: W większości przypadków modele wstępnie wytrenowane działają dobrze. Jeśli potrzebna jest wyższa dokładność, rozważ dostosowanie modelu do własnego korpusu, a następnie wywoływanie go przez to samo API.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+---
 
 ---
 
@@ -112,3 +110,11 @@ A: W większości przypadków modele wstępnie wytrenowane działają dobrze. Je
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

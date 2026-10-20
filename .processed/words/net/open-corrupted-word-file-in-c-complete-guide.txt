@@ -1,0 +1,7 @@
+Title: Open Corrupted Word File in C# – Complete Guide
+Slug: open-corrupted-word-file-in-c-complete-guide
+Category: programming-with-loadoptions
+ProcessedDate: 2026-06-08T18:47:58.990852
+SourceRepo: AI Search API
+Keywords: open corrupted word file, set recovery mode, recover corrupted document
+PRNumber: 201

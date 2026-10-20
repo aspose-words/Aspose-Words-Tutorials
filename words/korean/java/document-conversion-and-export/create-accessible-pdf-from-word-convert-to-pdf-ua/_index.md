@@ -1,25 +1,65 @@
 ---
 category: general
-date: 2025-12-28
-description: PDF/UA 준수를 갖춘 워드 문서에서 접근성 있는 PDF를 만들기. 워드를 PDF로 변환하는 방법, docx를 PDF로 내보내는
-  방법, 문서를 PDF로 저장하는 방법, 그리고 접근성을 보장하는 방법을 배우세요.
+date: 2026-10-07
+description: PDF/UA 준수를 만족하는 Word 문서에서 접근 가능한 PDF를 생성합니다. Word를 PDF로 변환하는 방법, docx를
+  PDF로 내보내는 방법, 문서를 PDF로 저장하는 방법 및 접근성을 보장하는 방법을 배워보세요.
 draft: false
 keywords:
 - create accessible pdf
 - convert word to pdf
-- save document as pdf
 - export docx to pdf
-- convert docx to pdf
-language: ko
-og_description: PDF/UA 준수를 갖춘 워드 문서에서 접근성 있는 PDF를 만들세요. 워드를 PDF로 변환하고 접근성을 보장하는 단계별
-  가이드를 따라보세요.
-og_title: Word에서 접근 가능한 PDF 만들기 – PDF/UA 변환
+- save document as pdf
+- convert docx to pdf java
+lastmod: 2026-10-07
+og_description: PDF/UA 준수를 만족하는 Word 문서에서 접근 가능한 PDF를 생성합니다. Aspose.Words for Java를
+  사용하여 Word를 PDF로 변환하고 접근성을 보장하는 단계별 가이드를 따라보세요.
+og_image_alt: Screenshot of Aspose.Words Java code generating a PDF/UA‑compliant document
+og_title: PDF/UA 준수를 만족하는 Word에서 접근 가능한 PDF 만들기
+schemas:
+- author: Aspose
+  dateModified: '2026-10-07'
+  description: Create accessible PDF from a Word document with PDF/UA compliance.
+    Learn how to convert Word to PDF, export docx to PDF, save document as PDF, and
+    ensure accessibility.
+  headline: Create accessible PDF from Word – Convert to PDF/UA
+  type: TechArticle
+- description: Create accessible PDF from a Word document with PDF/UA compliance.
+    Learn how to convert Word to PDF, export docx to PDF, save document as PDF, and
+    ensure accessibility.
+  name: Create accessible PDF from Word – Convert to PDF/UA
+  steps:
+  - name: Choose **Tools → Accessibility → Full Check**.
+    text: Choose **Tools → Accessibility → Full Check**.
+  - name: Select the default settings and click **Start**.
+    text: Select the default settings and click **Start**.
+  - name: A report with **0 errors** confirms full PDF/UA compliance.
+    text: A report with **0 errors** confirms full PDF/UA compliance.
+  type: HowTo
+- questions:
+  - answer: Yes. Aspose.Words for Java is platform‑independent; just ensure the required
+      fonts are installed on the Linux host.
+    question: Does this approach work on Linux as well as Windows?
+  - answer: Absolutely. Loop over a directory, instantiate a `Document` for each file,
+      and reuse the same `PdfSaveOptions` instance to improve performance.
+    question: Can I batch‑process many DOCX files in one run?
+  - answer: Aspose.Words renders SmartArt and MathML to PDF accurately, and the resulting
+      structures are tagged for accessibility when PDF/UA is enabled.
+    question: What if my Word document contains complex SmartArt or equations?
+  - answer: Yes. A free evaluation license is available for testing, but a paid license
+      removes evaluation watermarks and grants full support.
+    question: Is a commercial license required for production use?
+  - answer: The library processes documents in a streaming fashion, allowing conversion
+      of files up to 1 GB on a typical 8 GB RAM server without full in‑memory loading.
+    question: How large a document can Aspose.Words handle without running out of
+      memory?
+  type: FAQPage
 tags:
 - pdf
 - accessibility
 - java
-- document-conversion
-title: Word에서 접근 가능한 PDF 만들기 – PDF/UA 변환
+- document conversion
+- aspose words
+title: Word에서 접근 가능한 PDF 만들기 – PDF/UA로 변환
 url: /ko/java/document-conversion-and-export/create-accessible-pdf-from-word-convert-to-pdf-ua/
 ---
 
@@ -27,26 +67,43 @@ url: /ko/java/document-conversion-and-export/create-accessible-pdf-from-word-con
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word에서 접근 가능한 PDF 만들기 – PDF/UA로 변환
+# Word에서 접근 가능한 PDF 만들기 – PDF/UA 변환
 
-Word 파일에서 **접근 가능한 PDF**를 만들어야 했지만 어떤 설정을 바꿔야 할지 몰랐던 적이 있나요? 당신만 그런 것이 아닙니다. 많은 기업에서 법무팀은 PDF/UA 1 준수를 만족하는 PDF를 요구하고, 개발팀은 머리를 쥐어뜯지 않으면서 이를 구현해야 합니다.
+If you need to **접근 가능한 PDF 만들기** files from Microsoft Word documents and must meet the PDF/UA 1 standard, you’ve come to the right place. Many organisations face legal or compliance requirements that demand PDFs be readable by screen‑readers, and the development team is often left searching for a reliable, code‑first solution. With Aspose.Words for Java you can convert Word to PDF, enable PDF/UA compliance, and produce a document that passes accessibility audits without manual post‑processing.
 
-좋은 소식은? 몇 줄의 Java 코드만으로 **Word를 PDF로 변환**하고 PDF/UA 준수를 활성화하여 접근성 검사를 통과하는 문서를 만들 수 있다는 것입니다. 이 튜토리얼에서는 `.docx` 파일을 로드하는 것부터 **PDF/UA‑준수** 파일을 내보내는 전체 과정을 단계별로 살펴보며 시간을 절약하고 비용이 많이 드는 재작업을 방지할 수 있습니다.
-
-또한 **docx를 PDF로 내보내기**, **문서를 PDF로 저장하기**와 같은 관련 작업과 누락된 폰트나 큰 이미지와 같은 엣지 케이스 처리에 대해서도 다룰 것입니다. 마지막까지 실행 가능한 코드 스니펫과 각 단계가 왜 중요한지에 대한 명확한 이해를 얻을 수 있습니다.
+In this guide we’ll walk through every step—from loading a `.docx` file, configuring PDF/UA options, to verifying the output. You’ll also see quick alternatives for a plain **convert word to pdf** operation, learn how to **export docx to pdf** with custom settings, and discover common pitfalls when you **save document as pdf**. By the end you’ll have a ready‑to‑run snippet and a solid understanding of why each configuration matters.
 
 ---
 
-## 전제 조건
+## 빠른 답변
+- **What is the easiest way to create an accessible PDF from Word?** Use Aspose.Words, load the DOCX, set `PdfSaveOptions.setCompliance(PdfCompliance.PDF_UA_1)`, then save.
+- **Do I need Microsoft Word installed on the server?** No, Aspose.Words works completely independently of Office.
+- **Which Java version is required?** JDK 11 or later.
+- **Can I reuse the same `PdfSaveOptions` for both UA and non‑UA PDFs?** Yes—just toggle the compliance flag.
+- **How do I verify PDF/UA compliance?** Run Adobe Acrobat Pro’s “Full Check” under Tools → Accessibility.
 
-Before we dive in, make sure you have the following:
+---
 
-- **Aspose.Words for Java** (또는 동등한 .NET 라이브러리) 버전 23.9 이상. 이 라이브러리는 내장 PDF/UA 지원을 제공합니다.
-- JDK 11 이상.
-- 코드에서 참조할 수 있는 폴더에 배치된 간단한 Word 파일 (`input.docx`).
-- Aspose.Words 의존성을 해결할 수 있는 IDE 또는 빌드 도구 (Maven/Gradle).
+## 접근 가능한 PDF 만들기란?
+**Create accessible pdf** means generating a PDF file that conforms to the ISO 14289‑1 (PDF/UA 1) standard, ensuring assistive technologies can correctly interpret headings, tables, lists, and images.  
 
-Maven을 사용하는 경우, `pom.xml`에 다음을 추가하세요:
+A PDF that meets PDF/UA includes structural tags, embedded fonts, and alternate text for non‑text elements, allowing screen‑readers to convey the same information a sighted user would see.
+
+---
+
+## 왜 PDF/UA 준수를 활성화해야 하나요?
+Enabling PDF/UA guarantees that your documents are legally defensible and usable by people with disabilities. It adds a full set of structural tags, embeds all fonts, and provides alternate text for images, ensuring screen‑readers can interpret the content correctly. These features together improve accessibility compliance and reduce the need for manual remediation.
+
+---
+
+## 사전 요구 사항
+
+- **Aspose.Words for Java** version 23.9 or newer (the library includes native PDF/UA support).
+- JDK 11+ installed on your development or build machine.
+- A sample Word file named `input.docx` placed in a readable directory.
+- Maven or Gradle configured to resolve the Aspose.Words dependency.
+
+If you’re using Maven, add this to your `pom.xml`:
 
 ```xml
 <dependency>
@@ -58,13 +115,9 @@ Maven을 사용하는 경우, `pom.xml`에 다음을 추가하세요:
 
 ---
 
-## PDF/UA 준수와 함께 접근 가능한 PDF 만들기
+## Aspose.Words를 사용해 Word에서 접근 가능한 PDF를 만드는 방법
 
-실제로 **접근 가능한 PDF**를 만드는 핵심 단계입니다. 아래 코드는 세 가지 작업을 수행합니다:
-
-1. 소스 `.docx` 파일을 로드합니다.
-2. `PdfSaveOptions`를 구성하여 PDF/UA 1 준수를 강제합니다.
-3. 결과를 `ua_compliant.pdf`로 저장합니다.
+The process consists of three simple steps: load the DOCX file into an Aspose.Words Document object, configure a PdfSaveOptions instance to enforce PDF/UA 1 compliance, and finally save the document as a PDF. By setting the compliance flag and enabling full font embedding, the generated file will contain the necessary tags and resources for accessibility tools.
 
 ```java
 import com.aspose.words.*;
@@ -94,34 +147,27 @@ public class AccessiblePdfGenerator {
 }
 ```
 
-### 왜 PDF/UA를 활성화해야 할까요?
-
-PDF/UA (Universal Accessibility)는 화면 판독기 및 기타 보조 기술이 PDF를 올바르게 해석하도록 보장하는 ISO 표준입니다. `PdfCompliance.PDF_UA_1`을 설정하면 Aspose.Words가 다음을 수행하도록 강제합니다:
-
-- PDF 구조에 태그를 지정합니다 (제목, 표, 목록).
-- 폰트를 포함시켜 텍스트가 선택 가능하도록 합니다.
-- Word 원본에 설정한 경우 이미지에 대한 대체 텍스트를 포함합니다.
-
-이 플래그가 없으면 시각적으로는 완벽한 PDF가 나오지만 접근성 감사에서 실패할 수 있습니다.
+### 정의 앵커
+`PdfSaveOptions` is Aspose.Words’ configuration object that controls how a document is rendered to PDF, including compliance level, font embedding, and image compression.
 
 ---
 
-## Word를 PDF로 변환 (Non‑UA 빠른 경로)
+## 비‑UA 빠른 변환은 어떻게 다릅니까?
 
-때때로 추가적인 준수 부담 없이 빠른 **convert word to pdf**가 필요할 때가 있습니다. 아래는 간소화된 버전입니다:
+A non‑UA conversion skips the PDF/UA compliance flag, producing a standard PDF without the additional accessibility tags and full‑font embedding. This reduces the processing overhead and results in a slightly smaller file, which can be beneficial when you only need a visual representation of the document and do not require screen‑reader support.
 
 ```java
 Document doc = new Document("YOUR_DIRECTORY/input.docx");
 doc.save("YOUR_DIRECTORY/quick_output.pdf"); // Defaults to standard PDF
 ```
 
-> **Pro tip:** 나중에 PDF/UA를 추가할 계획이라면 원래 `PdfSaveOptions` 객체를 유지하세요; 약간의 수정만으로 재사용할 수 있습니다.
+> **Pro tip:** Keep the original `PdfSaveOptions` instance; you can switch `setCompliance(PdfCompliance.PDF_UA_1)` on or off without recreating the object.
 
 ---
 
-## 사용자 정의 설정으로 Docx를 PDF로 내보내기
+## 사용자 정의 설정으로 docx를 pdf로 내보내는 방법은?
 
-더 많은 제어가 필요할 때—예를 들어 양식 필드를 플래튼하거나 특정 이미지 압축 수준을 설정하고 싶을 때—PDF/UA를 목표로 하지 않더라도 `PdfSaveOptions`를 사용하세요.
+When exporting a DOCX to PDF you can fine‑tune the output by adjusting the PdfSaveOptions. Settings such as image compression, JPEG quality, and font embedding let you balance file size against visual fidelity. The following example demonstrates how to set JPEG compression to 80 % and ensure all fonts are embedded, producing a compact yet high‑quality PDF.
 
 ```java
 PdfSaveOptions opts = new PdfSaveOptions();
@@ -130,45 +176,41 @@ opts.setEmbedFullFonts(true); // Important for accessibility even without PDF/UA
 doc.save("YOUR_DIRECTORY/custom_export.pdf", opts);
 ```
 
-이 스니펫은 **export docx to pdf**를 세밀한 옵션으로 수행하는 방법을 보여주며, 빠른 경로와 완전한 접근성 준수 사이의 유용한 중간 지점을 제공합니다.
+### 정의 앵커
+`ImageCompression.JPEG` tells Aspose.Words to compress raster images using the JPEG algorithm, which balances file size and visual fidelity.
 
 ---
 
-## 문서를 PDF로 저장 – 일반적인 함정 및 회피 방법
+## 문서를 PDF로 저장할 때 흔히 발생하는 함정은 무엇인가요?
 
-Even with the right code, you might run into issues:
+Even with correct code, several pitfalls can affect the quality or accessibility of the generated PDF. Issues such as missing font embedding, oversized images, stripped accessibility tags, or incorrect output paths can lead to unreadable documents or failed compliance checks. Understanding these problems and applying the appropriate fixes ensures reliable PDF generation.
 
-| 문제 | 발생 원인 | 해결 방법 |
-|------|-----------|----------|
-| 출력에서 폰트 누락 | 폰트가 포함되지 않아 다른 컴퓨터에서 텍스트가 사각형으로 표시됩니다. | `opts.setEmbedFullFonts(true)`를 호출하거나 서버에 폰트가 설치되어 있는지 확인하세요. |
-| 파일 크기 크게 | 고해상도 이미지가 원본 DPI 그대로 유지됩니다. | `opts.setImageCompression(ImageCompression.JPEG);`를 사용하고 `opts.setJpegQuality(80);`를 설정하세요. |
-| 접근성 태그가 제거됨 | PDF/UA를 지원하지 않는 오래된 버전의 Aspose.Words를 사용하고 있기 때문입니다. | 최신 라이브러리 버전(23.9 이상)으로 업그레이드하세요. |
-| 출력 경로를 찾을 수 없음 | 디렉터리가 없거나 쓰기 권한이 없습니다. | 먼저 디렉터리를 생성하거나 `Files.createDirectories(Paths.get("YOUR_DIRECTORY"));`를 사용하세요. |
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| Missing fonts in the output | Fonts not embedded, causing text to render as rectangles on other machines. | Call `opts.setEmbedFullFonts(true)` or ensure the fonts are installed on the server. |
+| Large file size | High‑resolution images are kept at original DPI. | Use `opts.setImageCompression(ImageCompression.JPEG);` and set `opts.setJpegQuality(80);`. |
+| Accessibility tags stripped | Using an older Aspose.Words version that doesn’t support PDF/UA. | Upgrade to version 23.9+ which includes full PDF/UA support. |
+| Output path not found | Directory doesn’t exist or lacks write permissions. | Create the directory first or use `Files.createDirectories(Paths.get("YOUR_DIRECTORY"));`. |
 
-이러한 문제를 초기에 해결하면 나중에 버그를 추적하는 시간을 절약할 수 있습니다, 특히 **saving a document as PDF**를 통해 준수 감사를 수행할 때 더욱 그렇습니다.
-
----
-
-## 결과 검증
-
-예제를 실행한 후, 폴더에 `ua_compliant.pdf`가 있어야 합니다. 이것이 실제로 **PDF/UA‑준수**인지 확인하려면:
-
-1. Adobe Acrobat Pro에서 파일을 엽니다.
-2. **도구 → 접근성 → 전체 검사** 로 이동합니다.
-3. 보고서에 PDF/UA 준수에 대한 **오류 0개**가 표시되어야 합니다.
-
-만약 누락된 대체 텍스트에 대한 경고가 보이면 원본 Word 파일로 돌아가 이미지에 설명 텍스트를 추가하세요—대체 텍스트는 자동으로 전달됩니다.
+Addressing these early saves you from chasing bugs later, especially when you’re **saving a document as PDF** for compliance audits.
 
 ---
 
-## 전체 작업 예제 (모든 단계 결합)
+## 생성된 파일의 PDF/UA 준수를 어떻게 확인할 수 있나요?
 
-아래는 단일, 독립형 프로그램으로 다음을 수행합니다:
+After the conversion finishes, open the resulting `ua_compliant.pdf` in Adobe Acrobat Pro and run its built‑in accessibility checker. The Full Check tool scans the document for missing tags, unembedded fonts, and other compliance issues, providing a detailed report. A clean report with zero errors confirms that the PDF meets PDF/UA 1 standards.
 
-- 출력 디렉터리를 확인합니다.
-- `.docx`를 로드합니다.
-- 빠른 PDF와 PDF/UA 중 선택할 수 있는 명령줄 플래그를 제공합니다.
-- 결과를 저장하고 친절한 상태 메시지를 출력합니다.
+1. Choose **Tools → Accessibility → Full Check**.
+2. Select the default settings and click **Start**.
+3. A report with **0 errors** confirms full PDF/UA compliance.
+
+If the report flags missing alt text, return to the source Word file and add descriptive text to the images; Aspose.Words will automatically carry those descriptions into the PDF.
+
+---
+
+## 모든 단계를 결합한 전체 예제를 실행하는 방법은?
+
+The complete program ties together all previous steps: it validates the output directory, parses a command‑line flag to choose between a quick PDF or a PDF/UA version, configures the PdfSaveOptions accordingly, performs the conversion, and finally prints a status message indicating success or any errors encountered.
 
 ```java
 import com.aspose.words.*;
@@ -207,26 +249,60 @@ public class AccessiblePdfDemo {
 }
 ```
 
-컴파일 및 실행:
+Compile and run the program with:
 
 ```bash
 javac -cp "path/to/aspose-words-23.9.jar" AccessiblePdfDemo.java
 java -cp ".:path/to/aspose-words-23.9.jar" AccessiblePdfDemo
 ```
 
-콘솔에 초록색 체크 표시가 나타나고 PDF는 `YOUR_DIRECTORY`에 저장됩니다.
+You should see a green check‑mark in the console, and `ua_compliant.pdf` will appear in the target folder.
+
+---
+
+## 자주 묻는 질문
+
+**Q: Does this approach work on Linux as well as Windows?**  
+A: Yes. Aspose.Words for Java is platform‑independent; just ensure the required fonts are installed on the Linux host.
+
+**Q: Can I batch‑process many DOCX files in one run?**  
+A: Absolutely. Loop over a directory, instantiate a `Document` for each file, and reuse the same `PdfSaveOptions` instance to improve performance.
+
+**Q: What if my Word document contains complex SmartArt or equations?**  
+A: Aspose.Words renders SmartArt and MathML to PDF accurately, and the resulting structures are tagged for accessibility when PDF/UA is enabled.
+
+**Q: Is a commercial license required for production use?**  
+A: Yes. A free evaluation license is available for testing, but a paid license removes evaluation watermarks and grants full support.
+
+**Q: How large a document can Aspose.Words handle without running out of memory?**  
+A: The library processes documents in a streaming fashion, allowing conversion of files up to 1 GB on a typical 8 GB RAM server without full in‑memory loading.
 
 ---
 
 ## 결론
 
-우리는 Word 문서에서 **접근 가능한 PDF**를 만들기 위해 필요한 모든 것을 다루었습니다. 가장 간단한 **convert word to pdf** 한 줄 코드부터 PDF/UA 준수를 갖춘 완전한 **export docx to pdf**까지. `PdfSaveOptions`를 올바르게 구성하면 보기 좋은 파일을 얻을 뿐만 아니라 접근성 감사를 통과하는 파일을 얻을 수 있습니다—추가 후처리가 필요 없습니다.
+We’ve covered everything you need to **create accessible PDF** from a Word document: a straightforward **convert word to pdf** path, the full PDF/UA‑compliant workflow, and how to fine‑tune the export with `PdfSaveOptions`. By configuring the library correctly you get a file that not only looks great but also passes accessibility audits automatically.
 
-다음 단계가 준비되셨나요? Word에서 **문서 태그**(예: 제목, 목록)를 추가해 PDF/UA 구조로 어떻게 변환되는지 확인하거나, 법적 구속력이 있는 PDF를 위해 **디지털 서명**을 실험해 보세요. 두 가지 모두 방금 만든 워크플로우의 자연스러운 확장입니다.
+Next steps you might explore include adding **document tags** in Word to improve PDF structure, applying **digital signatures** for legally binding PDFs, or integrating the conversion into a CI/CD pipeline for automated document generation.
 
-엣지 케이스, 라이선스, 성능 등에 대한 질문이 있나요? 아래에 댓글을 남겨 주세요. 즐거운 코딩 되세요!
+Happy coding, and feel free to leave a comment if you run into any edge cases!
+
+---
+
+**Last updated:** 2026-10-07  
+**Tested with:** Aspose.Words for Java 23.9  
+**Author:** Aspose
+
+## 관련 튜토리얼
+
+- [Aspose Word To Pdf Convert Docx To Pdf In Java](/words/java/document-conversion-and-export/aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
+- [Save Word As Pdf With Aspose Words Step By Step Java Guide](/words/java/document-conversion-and-export/save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
+- [Pdf Save Options Convert Docx To Pdf In Java With Full Contr](/words/java/document-conversion-and-export/pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

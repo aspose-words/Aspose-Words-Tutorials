@@ -45,7 +45,7 @@ Microsoft Word'e yeniden kullanılabilir içerik bölümleri ekleyerek belge olu
 Başlamadan önce aşağıdakilerin kurulu olduğundan emin olun:
 
 ### Gerekli Kütüphaneler
-- Aspose.Words for Java kütüphanesi (sürüm 25.3 veya üzeri).
+- Aspose.Words for Java kütüphanesi (sürüm 25.3 veya üzeri).
 
 ### Ortam Kurulumu
 - Makinenizde bir Java Development Kit (JDK) yüklü.
@@ -68,7 +68,9 @@ Projeye Aspose.Words kütüphanesini Maven ya da Gradle ile ekleyin:
 </dependency>
 ```
 
-**Gradle:**
+### Gradle Bağımlılığı
+For Gradle‑based projects, include:
+
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
@@ -81,6 +83,7 @@ Aspose.Words'ü tam olarak kullanmak için bir lisans alın:
 3. **Satın Alma**: Kalıcı kullanım için [Aspose Purchase Portal](https://purchase.aspose.com/buy) üzerinden satın alın.
 
 ### Temel Başlatma
+After adding the JAR and applying a license, initialize the library in your Java code:
 
 Kurulum ve lisanslama tamamlandıktan sonra Aspose.Words'ü Java projenizde başlatın:
 ```java
@@ -95,6 +98,10 @@ public class Main {
     }
 }
 ```
+
+## Aspose.Words ile manage word templates java nasıl yönetilir?
+
+Şablon belgenizi `new Document("Template.docx")` ile yükleyin ve yapı bloklarının bulunduğu sözlüğe erişmek için `doc.getGlossary()` metodunu çağırın. Buradan blokları oluşturabilir, düzenleyebilir veya alabilirsiniz; bu, tüm yeniden kullanılabilir içerik için tek bir doğru kaynağı sağlar. Bu yaklaşım çoğaltmayı ortadan kaldırır ve oluşturulan her belgenin en son blok sürümünü kullandığını garanti eder.
 
 ## Uygulama Kılavuzu
 

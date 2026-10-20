@@ -1,0 +1,7 @@
+Title: How to create radial chart in a Word document with Java
+Slug: how-to-create-radial-chart-in-a-word-document-with-java
+Category: using-document-elements
+ProcessedDate: 2026-09-18T10:54:41.340101
+SourceRepo: AI Search API
+Keywords: create radial chart, add chart data labels, add series data, create blank word, how to insert chart
+PRNumber: 280

@@ -68,6 +68,10 @@ Exportez le document enrichi au format dont vous avez besoin—PDF, DOCX, HTML o
 ### [Maîtriser le traitement de texte en Java : Utiliser Aspose.Words & les modèles d'IA pour la synthèse et la traduction](./java-aspose-words-text-processing/)
 Apprenez à automatiser la synthèse et la traduction de texte en utilisant Aspose.Words pour Java avec le GPT‑4 d'OpenAI et le Gemini de Google. Améliorez vos applications Java dès aujourd'hui.
 
+### [Comment configurer un LLM – Remplacer le texte dans un DOCX avec l'IA](./how-to-configure-llm-replace-text-in-docx-with-ai/)
+Apprenez à configurer un modèle de langage pour remplacer automatiquement du texte dans des fichiers DOCX à l'aide d'Aspose.Words et d'une IA.
+### [Créer un modèle IA personnalisé – Modifier les paragraphes Word en Java](./create-custom-ai-model-edit-word-paragraphs-in-java/)
+Apprenez à créer votre propre modèle d'IA et à l'utiliser pour modifier automatiquement les paragraphes des documents Word avec Aspose.Words en Java.
 ### [Créer un document Word en Java avec vérification grammaticale LLM personnalisée](./create-word-document-java-with-custom-llm-grammar-check/)
 Apprenez à générer des documents Word en Java et à intégrer un LLM personnalisé pour corriger automatiquement la grammaire.
 
@@ -99,14 +103,6 @@ R : Pour la plupart des cas d'usage, les modèles pré‑entraînés fonctionn
 
 ---
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Dernière mise à jour :** 2025-11-25  
@@ -114,3 +110,11 @@ R : Pour la plupart des cas d'usage, les modèles pré‑entraînés fonctionn
 **Auteur :** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

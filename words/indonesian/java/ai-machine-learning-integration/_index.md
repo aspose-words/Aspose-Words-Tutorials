@@ -68,6 +68,11 @@ Ekspor dokumen yang diperkaya ke format yang Anda butuhkan—PDF, DOCX, HTML, at
 
 ### [Buat dokumen Word dengan Java menggunakan Pemeriksaan Tata Bahasa LLM Kustom](./create-word-document-java-with-custom-llm-grammar-check/)
 
+### [Cara Mengonfigurasi LLM – Ganti Teks di DOCX dengan AI](./how-to-configure-llm-replace-text-in-docx-with-ai/)
+Pelajari cara mengonfigurasi model bahasa besar untuk mengganti teks dalam file DOCX secara otomatis menggunakan AI.
+### [Buat Model AI Kustom – Mengedit Paragraf Word di Java](./create-custom-ai-model-edit-word-paragraphs-in-java/)
+Pelajari cara membuat model AI kustom untuk mengedit paragraf Word secara otomatis menggunakan Java.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/)
@@ -96,6 +101,12 @@ A: Untuk kebanyakan kasus penggunaan, model pra‑latih sudah cukup baik. Jika A
 
 ---
 
+---
+
+**Last Updated:** 2025-11-25  
+**Tested With:** Aspose.Words for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -103,9 +114,3 @@ A: Untuk kebanyakan kasus penggunaan, model pra‑latih sudah cukup baik. Jika A
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-25  
-**Tested With:** Aspose.Words for Java 24.11  
-**Author:** Aspose

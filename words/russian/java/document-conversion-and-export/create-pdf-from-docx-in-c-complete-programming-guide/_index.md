@@ -1,26 +1,51 @@
 ---
 category: general
-date: 2025-12-28
-description: Быстро создавайте PDF из DOCX с помощью Aspose.Words для .NET. Узнайте,
-  как конвертировать Word в PDF, сохранять документ в PDF и экспортировать фигуры
-  с легкостью.
+date: 2026-10-12
+description: Создайте PDF из DOCX с помощью Aspose.Words для .NET. Узнайте, как конвертировать
+  Word в PDF, сохранить документ как PDF и точно экспортировать фигуры.
 draft: false
 keywords:
 - create pdf from docx
-- convert word to pdf
+- word to pdf c#
 - save document as pdf
-- how to convert docx
 - how to export shapes
-language: ru
+- docx to pdf .net
+lastmod: 2026-10-12
 og_description: Создайте PDF из DOCX с помощью Aspose.Words. Это руководство показывает,
-  как преобразовать Word в PDF, сохранить документ в формате PDF и экспортировать
+  как конвертировать Word в PDF, сохранить документ как PDF и точно экспортировать
   фигуры.
-og_title: Создание PDF из DOCX в C# – пошаговое руководство
+og_image_alt: Diagram showing DOCX to PDF conversion process with Aspose.Words
+og_title: Создание PDF из DOCX в C# – Полное руководство по программированию
+schemas:
+- author: Aspose
+  dateModified: '2026-10-12'
+  description: Create PDF from DOCX with Aspose.Words for .NET. Learn how to convert
+    Word to PDF, save document as PDF, and export shapes accurately.
+  headline: Create PDF from DOCX in C# – Complete programming guide
+  type: TechArticle
+- questions:
+  - answer: Absolutely. Aspose.Words supports .NET Standard 2.0 and later, so the
+      same code runs on .NET Core, .NET 5, .NET 6, and newer runtimes.
+    question: Does this work on .NET Core / .NET 5+?
+  - answer: The same API handles `.doc` files. Just pass the `.doc` path to the `Document`
+      constructor and Aspose.Words performs the conversion.
+    question: What about converting legacy .doc files?
+  - answer: Yes. Use the `PdfSaveOptions` object to assign values to `PdfDocumentInfo`
+      properties before calling `Save`.
+    question: Can I set PDF metadata such as author or title during conversion?
+  - answer: Iterate over the directory with a `foreach` loop, load each file into
+      a `Document`, configure `PdfSaveOptions` once, and call `Save` for each output
+      file.
+    question: How can I convert a whole folder of DOCX files to PDF?
+  - answer: A commercial license is required for production deployments; a free temporary
+      license is available for evaluation.
+    question: Is a license required for production use?
+  type: FAQPage
 tags:
 - C#
 - Aspose.Words
 - PDF conversion
-title: Создание PDF из DOCX в C# – Полное руководство по программированию
+title: Создание PDF из DOCX в C# – Полное руководство по программированию
 url: /ru/java/document-conversion-and-export/create-pdf-from-docx-in-c-complete-programming-guide/
 ---
 
@@ -30,28 +55,117 @@ url: /ru/java/document-conversion-and-export/create-pdf-from-docx-in-c-complete-
 
 # Создание PDF из DOCX в C# – Полное руководство по программированию
 
-Когда‑то задавались вопросом, как **создать PDF из DOCX** без борьбы с громоздкими сторонними инструментами? Вы не одиноки. Многие разработчики сталкиваются с проблемой, когда нужно *конвертировать Word в PDF* «на лету», особенно если исходный документ содержит плавающие изображения или текстовые блоки.  
+В этом руководстве вы узнаете, как **создать PDF из DOCX** с помощью Aspose.Words для .NET, охватывая всё от загрузки файла Word до экспорта плавающих фигур, чтобы макет оставался идеальным. Независимо от того, создаёте ли вы сервис генерации документов или добавляете кнопку экспорта в один клик во внутренний инструмент, приведённые ниже шаги предоставят готовое к использованию решение.
 
-Хорошая новость: с Aspose.Words for .NET вы можете **создать PDF из DOCX** всего в несколько строк кода, а также узнать **как экспортировать фигуры**, чтобы они сохраняли точный макет в полученном файле.  
+## Краткие ответы
+- **Какая библиотека обрабатывает конвертацию?** Aspose.Words for .NET.
+- **Сколько строк кода требуется?** Only three lines to load, configure, and save.
+- **Могу ли я сохранить плавающие изображения?** Yes – set `ExportFloatingShapesAsInlineTag` to `true`.
+- **Требуется ли установка Microsoft Office?** No, the conversion is completely server‑side.
+- **Какие версии .NET поддерживаются?** .NET Standard 2.0, .NET Core 3.1, .NET 5+, and .NET 6+.
 
-В этом руководстве мы пройдем весь процесс, от загрузки исходного `.docx` до настройки параметров сохранения, которые делают конвертацию пиксель‑идеальной. К концу вы сможете **сохранить документ как PDF**, обработать типичные граничные случаи и уверенно настраивать параметры под свои проекты.
+## Что вам понадобится
 
-![Diagram showing DOCX to PDF conversion process – create pdf from docx](/images/docx-to-pdf.png)
+Вам потребуются следующие элементы перед началом: Aspose.Words для .NET (последний пакет NuGet), .NET IDE (Visual Studio, Rider или VS Code) и пример `input.docx`, содержащий хотя бы одну плавающую форму.  
 
-## Что понадобится
+**Прямой ответ (40‑70 слов):** Установите пакет Aspose.Words NuGet, откройте свою среду разработки, поместите файл DOCX с плавающим изображением или текстовым полем в папку проекта, и вы будете готовы написать трёхстрочный код конвертации. Дополнительное программное обеспечение, такое как Microsoft Word, не требуется на целевой машине.
 
-Прежде чем погрузиться в детали, убедитесь, что у вас есть следующее:
+![Диаграмма, показывающая процесс конвертации DOCX в PDF – создание pdf из docx](/images/docx-to-pdf.png)
+[Диаграмма, показывающая процесс конвертации DOCX в PDF – создание pdf из docx](/images/docx-to-pdf.png)
 
-- **Aspose.Words for .NET** (последняя версия на 2025 год). Можно установить через NuGet: `Install-Package Aspose.Words`.
-- Среда разработки .NET – Visual Studio, Rider или даже VS Code с расширением C# подойдут.
-- Пример Word‑файла (`input.docx`), содержащий хотя бы одну плавающую фигуру (изображение, текстовый блок или SmartArt).  
-- Базовое знакомство с синтаксисом C# – ничего сложного, только обычные `using`‑директивы и метод `Main`.
+## Как загрузить файл DOCX (создание pdf из docx)
 
-И всё. Никаких дополнительных PDF‑файлов, COM‑interop, установки Office не требуется.
+Чтобы загрузить файл DOCX, создайте экземпляр класса `Document` из Aspose.Words, указав путь к файлу, например `var doc = new Document("input.docx");`. Это создаёт представление документа Word в памяти, предоставляя доступ к его абзацам, таблицам и любым плавающим фигурам, и подготавливает его для дальнейшей обработки, такой как конвертация в PDF.
 
-## Шаг 1 – Загрузка DOCX‑файла (create pdf from docx)
+`Document` — основной объект Aspose.Words, представляющий файл Word в памяти.
 
-Первое, что нужно сделать, – указать Aspose.Words, где находится ваш исходный документ. Это момент **create pdf from docx**, когда библиотека парсит Word‑файл в объект `Document` в памяти.
+> **Почему это важно:**  
+> Загрузка файла создаёт полное представление документа Word, включая абзацы, таблицы и, что особенно важно, любые плавающие фигуры. Если файл не найден, Aspose генерирует `FileNotFoundException`, поэтому стоит обернуть этот код в блок try/catch для продакшн‑кода.
+
+## Как настроить параметры сохранения PDF (конвертация Word в PDF)
+
+Настройте вывод PDF, создав объект `PdfSaveOptions` и установив нужные свойства, такие как `ExportFloatingShapesAsInlineTag`. Этот объект указывает Aspose.Words, как рендерить PDF, позволяя контролировать макет, обработку изображений и метаданные перед сохранением документа, и гарантирует, что итоговый файл будет соответствовать оригинальному дизайну.
+
+`PdfSaveOptions` — контейнер настроек, который указывает Aspose.Words, как должен быть отрисован полученный PDF.
+
+## Как экспортировать плавающие фигуры как встроенные теги (как экспортировать фигуры)
+
+Чтобы сохранить плавающие фигуры в их исходных позициях, установите свойство `ExportFloatingShapesAsInlineTag` объекта `PdfSaveOptions` в `true`. Это заставляет каждую фигуру рассматриваться как встроенный элемент при конвертации, сохраняя точный макет исходного DOCX в полученном PDF.
+
+Экспорт плавающих фигур как встроенных тегов заставляет их вести себя как обычный текст, гарантируя, что они останутся точно там, где вы разместили их в оригинальном DOCX.
+
+> **Совет:** Если вам не нужно, чтобы фигуры оставались встроенными, установите флаг в `false`. Тогда фигуры будут отрисованы как отдельные объекты, что может быть полезно, если вы хотите, чтобы их можно было выделять в PDF.
+
+## Как сохранить документ как PDF (сохранить документ как pdf)
+
+Сохраните подготовленный документ, вызвав `doc.Save("output.pdf", options);`, где `options` — это настроенный экземпляр `PdfSaveOptions`. Это записывает представление документа в памяти в физический PDF‑файл, сохраняет всё содержимое, форматирование и любые указанные встроенные фигуры. Также шрифты и метаданные встраиваются согласно настройкам.
+
+Сохранение записывает представление в памяти в физический PDF‑файл, используя указанные вами параметры.
+
+## Полный рабочий пример
+
+Ниже приведён полный, готовый к запуску фрагмент кода, который связывает всё вместе:
+
+```
+var doc = new Document("input.docx");
+var options = new PdfSaveOptions
+{
+    ExportFloatingShapesAsInlineTag = true
+};
+doc.Save("output.pdf", options);
+```
+
+Запустите программу, откройте `output.pdf`, и вы увидите, что плавающие фигуры расположены точно так же, как в `input.docx`. Задача выполнена.
+
+## Распространённые варианты и крайние случаи
+
+### Конвертация нескольких файлов пакетно
+
+Если вам нужно **конвертировать word в pdf** для всей папки, оберните логику в цикл, который проходит по каждому файлу `.docx`.
+
+### Документы, защищённые паролем
+
+Aspose.Words может открывать зашифрованные файлы Word, предоставив объект `LoadOptions` с паролем.
+
+### Большие документы и управление памятью
+
+Когда вы **конвертируете docx** файлы, содержащие сотни страниц, включите оптимизацию памяти, чтобы ускорить конвертацию и уменьшить размер PDF.
+
+### Когда вы не хотите встроенные фигуры
+
+Если вы предпочитаете, чтобы фигуры оставались плавающими, установите `ExportFloatingShapesAsInlineTag` в `false`. PDF отобразит фигуры как отдельные объекты, что может быть полезно для средств доступности.
+
+## Советы и приёмы из практики
+
+- **Совет:** Тестируйте документ, в котором смешаны встроенные и плавающие элементы; это быстро выявит любые отклонения макета.
+- **Остерегайтесь:** Пользовательские шрифты, не установленные на сервере. Aspose автоматически встраивает недостающие шрифты, но для самого шрифта может потребоваться коммерческая лицензия.
+- **Совет по производительности:** Переиспользуйте один экземпляр `PdfSaveOptions` при конвертации множества файлов; создание нового объекта каждый раз добавляет лишние затраты.
+- **Совет по отладке:** Если полученный PDF пустой, проверьте путь к источнику и убедитесь, что документ содержит содержимое (например, `doc.GetText()`).
+
+## Часто задаваемые вопросы
+
+**Q: Работает ли это на .NET Core / .NET 5+?**  
+**A:** Да, безусловно. Aspose.Words поддерживает .NET Standard 2.0 и более новые версии, поэтому тот же код работает на .NET Core, .NET 5, .NET 6 и более новых средах выполнения.
+
+**Q: Что насчёт конвертации устаревших файлов .doc?**  
+**A:** Тот же API обрабатывает файлы `.doc`. Просто передайте путь к `.doc` в конструктор `Document`, и Aspose.Words выполнит конвертацию.
+
+**Q: Можно ли задать метаданные PDF, такие как автор или название, во время конвертации?**  
+**A:** Да. Используйте объект `PdfSaveOptions`, чтобы присвоить значения свойствам `PdfDocumentInfo` перед вызовом `Save`.
+
+**Q: Как можно конвертировать всю папку файлов DOCX в PDF?**  
+**A:** Пройдитесь по директории с помощью цикла `foreach`, загрузите каждый файл в `Document`, один раз настройте `PdfSaveOptions` и вызовите `Save` для каждого выходного файла.
+
+**Q: Требуется ли лицензия для использования в продакшн?**  
+**A:** Для продакшн‑развёртываний требуется коммерческая лицензия; бесплатная временная лицензия доступна для оценки.
+
+---
+
+**Последнее обновление:** 2026-10-12  
+**Тестировано с:** Aspose.Words 24.11 for .NET  
+**Автор:** Aspose  
+
+
 
 ```csharp
 using Aspose.Words;
@@ -60,45 +174,20 @@ using Aspose.Words;
 Document document = new Document("YOUR_DIRECTORY/input.docx");
 ```
 
-> **Почему это важно:**  
-> Загрузка файла создаёт полное представление Word‑документа, включая абзацы, таблицы и, что особенно важно, любые плавающие фигуры. Если файл не найден, Aspose бросит `FileNotFoundException`, поэтому в продакшн‑коде имеет смысл обернуть вызов в `try/catch`.
-
-## Шаг 2 – Настройка параметров сохранения PDF (convert word to pdf)
-
-Теперь, когда документ находится в памяти, нужно указать Aspose, как должен выглядеть PDF. Здесь и происходит реальное **convert word to pdf**.
-
 ```csharp
 // Step 2: Create PDF save options
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 ```
-
-На этом этапе вы могли бы просто вызвать `document.Save("output.pdf")`, но нам нужен больший контроль — конкретно, мы хотим сохранить расположение всех плавающих фигур.
-
-## Шаг 3 – Экспорт плавающих фигур как встроенных тегов (how to export shapes)
-
-Плавающие фигуры часто становятся проблемой при **save document as PDF**. По умолчанию Aspose пытается оставить их плавающими, что может сместить их позицию на странице. Установка `ExportFloatingShapesAsInlineTag` заставляет фигуры стать встроенными элементами, гарантируя, что они останутся ровно там, где вы разместили их в Word‑файле.
 
 ```csharp
 // Step 3: Export floating shapes as inline tags (preserves their layout in the PDF)
 pdfSaveOptions.ExportFloatingShapesAsInlineTag = true;
 ```
 
-> **Pro tip:** Если вам *не* нужно, чтобы фигуры оставались встроенными, установите этот флаг в `false` и позвольте Aspose отрисовать их как отдельные объекты. Это может быть полезно для PDF, где требуется отдельный выбор фигур.
-
-## Шаг 4 – Сохранение документа как PDF (save document as pdf)
-
-Наконец, записываем PDF на диск, используя только что настроенные параметры. Это момент, когда вы действительно **save document as pdf**.
-
 ```csharp
 // Step 4: Save the document as a PDF file with the configured options
 document.Save("YOUR_DIRECTORY/output.pdf", pdfSaveOptions);
 ```
-
-Когда вызов `Save` завершится, вы увидите `output.pdf` рядом с исходным файлом, выглядящий идентично оригинальному макету Word — включая любые плавающие изображения или текстовые блоки.
-
-### Полный рабочий пример
-
-Ниже приведён полностью готовый к запуску фрагмент, который связывает всё вместе:
 
 ```csharp
 using System;
@@ -133,14 +222,6 @@ class Program
 }
 ```
 
-Запустите программу, откройте `output.pdf`, и вы увидите, что плавающие фигуры расположены точно так же, как в `input.docx`. Задача выполнена.
-
-## Распространённые варианты и граничные случаи
-
-### Конвертация нескольких файлов пакетно
-
-Если нужно **convert word to pdf** для целой папки, просто оберните логику в цикл `foreach`:
-
 ```csharp
 string[] files = Directory.GetFiles("YOUR_DIRECTORY", "*.docx");
 foreach (var file in files)
@@ -151,69 +232,36 @@ foreach (var file in files)
 }
 ```
 
-### Документы, защищённые паролем
-
-Aspose.Words может открыть зашифрованные Word‑файлы, передав объект `LoadOptions`:
-
 ```csharp
 LoadOptions loadOptions = new LoadOptions { Password = "mySecret" };
 Document protectedDoc = new Document("protected.docx", loadOptions);
 protectedDoc.Save("protected.pdf", pdfSaveOptions);
 ```
 
-### Большие документы и управление памятью
-
-Для **how to convert docx** файлов, содержащих сотни страниц, рассмотрите включение *оптимизации памяти*:
-
 ```csharp
 pdfSaveOptions.SaveFormat = SaveFormat.Pdf;
 pdfSaveOptions.CompressionLevel = PdfCompressionLevel.Maximum;
 ```
 
-Это уменьшит размер PDF и ускорит процесс конвертации.
-
-### Когда вам *не* нужны встроенные фигуры
-
-Если вы предпочитаете, чтобы фигуры оставались плавающими (например, нужно их отдельно выбирать в PDF), просто установите флаг в `false`:
-
 ```csharp
 pdfSaveOptions.ExportFloatingShapesAsInlineTag = false;
 ```
-
-Полученный PDF отобразит фигуры как отдельные объекты, что может быть полезно для средств доступности.
-
-## Советы и приёмы из практики
-
-- **Pro tip:** Всегда тестируйте документ, содержащий смесь встроенных и плавающих элементов. Это самый быстрый способ обнаружить смещения макета.
-- **Watch out for:** Пользовательские шрифты, не установленные на сервере. Aspose автоматически встраивает недостающие шрифты, но вам может потребоваться лицензировать шрифт для коммерческого использования.
-- **Performance tip:** Переиспользуйте один экземпляр `PdfSaveOptions` при конвертации множества файлов. Создание нового объекта каждый раз добавляет лишние накладные расходы.
-- **Debugging tip:** Если полученный PDF пустой, проверьте правильность пути к исходному файлу и убедитесь, что документ действительно содержит контент (можно вызвать `document.GetText()` перед сохранением).
-
-## Часто задаваемые вопросы
-
-**Q: Работает ли это на .NET Core / .NET 5+?**  
-A: Абсолютно. Aspose.Words поддерживает .NET Standard 2.0 и выше, так что тот же код работает на .NET Core, .NET 5, .NET 6 и более новых версиях.
-
-**Q: А как насчёт конвертации файлов `.doc` (старый Word)?**  
-A: Тот же API обрабатывает `.doc` файлы. Просто передайте путь к файлу в конструктор `Document`, и библиотека выполнит всю работу.
-
-**Q: Можно ли задать метаданные PDF (author, title) во время конвертации?**  
-A: Да. Используйте `pdfSaveOptions`, чтобы присвоить свойства `PdfDocumentInfo` перед вызовом `Save`.
 
 ```csharp
 pdfSaveOptions.Metadata.Author = "John Doe";
 pdfSaveOptions.Metadata.Title = "Converted Document";
 ```
 
-## Заключение
+## Связанные руководства
 
-Теперь у вас есть надёжный сквозной шаблон, как **create PDF from DOCX** с помощью Aspose.Words for .NET. Руководство охватило ключевые шаги для **convert Word to PDF**, показало, **how to export shapes** так, чтобы они оставались на месте, и дало практические советы по пакетной обработке, документам с паролем и производительности при работе с большими файлами.
+- [Конвертация DOCX в PDF в Java с Aspose.Words – Использование конвертации документов](/words/java/document-converting/using-document-converting/)
+- [Как сохранить документ как pdf с Aspose.Words для Java](/words/java/document-loading-and-saving/saving-documents-as-pdf/)
+- [Создание PDF из Word с генерацией штрихкода – Aspose.Words для Java](/words/java/document-conversion-and-export/using-barcode-generation/)
 
-Далее вы можете изучить **how to convert docx** в другие форматы (HTML, EPUB) или углубиться в настройку PDF — добавление водяных знаков, цифровых подписей или OCR‑слоёв. Объект `PdfSaveOptions` открывает доступ к этим продвинутым возможностям.
-
-Есть дополнительные вопросы или «упрямый» документ, который отказывается правильно рендериться?
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

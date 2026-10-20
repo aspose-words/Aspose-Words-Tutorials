@@ -70,6 +70,9 @@ weight: 20
 
 ### [Δημιουργία εγγράφου Word σε Java με προσαρμοσμένο LLM έλεγχο γραμματικής](./create-word-document-java-with-custom-llm-grammar-check/)
 
+### [Δημιουργία Προσαρμοσμένου Μοντέλου AI – Επεξεργασία Παραγράφων Word σε Java](./create-custom-ai-model-edit-word-paragraphs-in-java/)
+Μάθετε πώς να δημιουργήσετε προσαρμοσμένο μοντέλο AI και να επεξεργαστείτε παραγράφους Word με χρήση Aspose.Words σε Java.
+
 ## Πρόσθετοι Πόροι
 
 - [Τεκμηρίωση Aspose.Words for Java](https://reference.aspose.com/words/java/)
@@ -96,6 +99,14 @@ A: Επικυρώστε την έξοδο του AI πριν την εισάγε
 **Q: Χρειάζεται να επανεκπαιδεύσω μοντέλα για γλώσσα ειδικού τομέα;**  
 A: Για τις περισσότερες περιπτώσεις, τα προ‑εκπαιδευμένα μοντέλα λειτουργούν καλά. Εάν χρειάζεστε μεγαλύτερη ακρίβεια, σκεφτείτε την εκπαίδευση (fine‑tuning) ενός μοντέλου στο δικό σας σώμα δεδομένων και στη συνέχεια την κλήση του μέσω του ίδιου API.
 
+---
+
+---
+
+**Τελευταία Ενημέρωση:** 2025-11-25  
+**Δοκιμάστηκε Με:** Aspose.Words for Java 24.11  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -103,9 +114,3 @@ A: Για τις περισσότερες περιπτώσεις, τα προ‑
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-11-25  
-**Δοκιμάστηκε Με:** Aspose.Words for Java 24.11  
-**Συγγραφέας:** Aspose
