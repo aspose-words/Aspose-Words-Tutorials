@@ -1,0 +1,7 @@
+Title: how to insert group shape in Java – Complete Guide
+Slug: how-to-insert-group-shape-in-java-complete-guide
+Category: images-shapes
+ProcessedDate: 2026-07-17T03:10:24.057694
+SourceRepo: AI Search API
+Keywords: how to insert group, add rectangle shape, set shape dimensions, create colored rectangle, create colored circle
+PRNumber: 226

@@ -1,0 +1,24 @@
+//ExStart
+//ExSummary: このチュートリアルでは、Word ドキュメントを作成し、DocumentBuilder を使用して事前定義された項目を持つコンボ ボックス フォーム フィールドを追加し、ドキュメントを保存する方法を示します。
+//ExStepSummary:0: 結果のドキュメントを保存するフォルダー パスを設定します。
+//ExStepSummary:1: コンボ ボックスのオプションを設定する文字列の配列を作成します。
+//ExStepSummary:2: 新しい Document をインスタンス化し、それに紐付く DocumentBuilder を作成します。
+//ExStepSummary:3: `builder.InsertComboBox` を呼び出して、現在のカーソル位置に、定義された項目を持つ "DropDown" という名前のコンボ ボックスを配置します。
+//ExStepSummary:4: ドキュメントを指定されたディレクトリに .docx ファイルとして保存します。
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+string[] items = { "One", "Two", "Three" };
+
+//ExStep:2-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertComboBox("DropDown", items, 0);
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertComboBoxFormField.docx");
+//ExEnd
