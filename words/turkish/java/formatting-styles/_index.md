@@ -50,6 +50,8 @@ Aspose.Words for Java kullanarak Word belgelerindeki sekme duraklarını etkili 
 ### [Aspose.Words Kullanarak Java'da Kelime Stillerini Optimize Edin: Kullanılmayan ve Yinelenen Stilleri Kaldırın](./optimize-word-styles-aspose-java/)
 Kullanılmayan ve yinelenen stilleri kaldırarak, performansı ve sürdürülebilirliği artırarak Aspose.Words for Java ile belge stillerini etkili bir şekilde nasıl yöneteceğinizi öğrenin.
 
+### [Java ile Word Belgesinde Dipnot Biçimlendirmesini Değiştirme](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
+
 ## Ek Kaynaklar
 
 - [Java Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/)

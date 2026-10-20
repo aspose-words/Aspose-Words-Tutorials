@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Denna handledning demonstrerar hur man skapar ett Word‑dokument, infogar ett stapeldiagram, lägger till anpassade dataserier och definierar standard data‑label teckenstorlek och färg som tillämpas enhetligt på alla serier i diagrammet.
+//ExStepSummary:0: Skapa ett nytt tomt Word‑dokument och en DocumentBuilder för att redigera det.
+//ExStepSummary:1: Infoga ett 500×300 stapeldiagram i dokumentet och hämta dess Chart‑objekt.
+//ExStepSummary:2: Ta bort den förvalda exempelserien som Aspose.Words lägger till i ett nytt diagram.
+//ExStepSummary:3: Definiera kategorimärkningar och lägg till två dataserier (Item Alpha och Item Beta) med deras värden i diagrammet.
+//ExStepSummary:4: Ange grundteckenstorlek och färg som kommer att tillämpas på alla data‑labels.
+//ExStepSummary:5: Aktivera data‑labels för varje serie, visa det numeriska värdet och tillämpa den fördefinierade teckenstorleken och färgen.
+//ExStepSummary:6: Spara dokumentet som en .docx‑fil.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document document = new Document();
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:1-
+Shape chartContainer = builder.InsertChart(ChartType.Column, 500, 300);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+
+//ExStep:3-
+string[] periods = { "Period 1", "Period 2", "Period 3", "Period 4" };
+chart.Series.Add("Item Alpha", periods, new double[] { 120, 150, 170, 130 });
+chart.Series.Add("Item Beta", periods, new double[] { 80, 110, 140, 100 });
+
+//ExStep:4-
+const float labelFontSize = 10f;
+Color labelFontColor = Color.White;
+
+//ExStep:5-
+foreach (ChartSeries series in chart.Series)
+{
+    series.HasDataLabels = true;
+    series.DataLabels.ShowValue = true;
+    series.DataLabels.Font.Size = labelFontSize;
+    series.DataLabels.Font.Color = labelFontColor;
+}
+
+//ExStep:6-
+document.Save("UniformLabelChart.docx");
+//ExEnd

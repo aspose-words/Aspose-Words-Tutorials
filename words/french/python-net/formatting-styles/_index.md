@@ -28,32 +28,35 @@ Plongez dans l'univers de l'automatisation documentaire grâce à notre sélecti
 ### [Guide complet de conversion de points dans Aspose. Mots pour Python : pouces, millimètres et pixels](./master-point-conversion-aspose-words-python/)
 Maîtrisez facilement les conversions de points entre pouces, millimètres et pixels grâce à Aspose.Words pour Python. Simplifiez efficacement la mise en forme de vos documents.
 
-    ### [Create SEO-Optimized Document Styles in Python with Aspose.Words](./create-seo-rich-document-styles-aspose-python/)
+### [Create SEO-Optimized Document Styles in Python with Aspose.Words](./create-seo-rich-document-styles-aspose-python/)
 Apprenez à créer des styles de documents personnalisés et optimisés pour le référencement avec Aspose.Words pour Python. Améliorez la lisibilité et la cohérence sans effort.
 
-    ### [Dynamic Document Borders with Aspose.Words for Python&#58; A Comprehensive Guide](./aspose-words-python-dynamic-borders/)
+### [Dynamic Document Borders with Aspose.Words for Python&#58; A Comprehensive Guide](./aspose-words-python-dynamic-borders/)
 Apprenez à créer des bordures de documents dynamiques avec Aspose.Words pour Python. Maîtrisez les techniques de stylisation des bordures de texte et de tableau.
 
-    ### [Master Theme Customization in Aspose.Words for Python&#58; A Comprehensive Guide to Formatting & Styles](./aspose-words-python-theme-customization/)
+### [Master Theme Customization in Aspose.Words for Python&#58; A Comprehensive Guide to Formatting & Styles](./aspose-words-python-theme-customization/)
 Apprenez à personnaliser les thèmes dans Aspose.Words avec Python. Ce guide explique comment configurer les couleurs et les polices, garantissant ainsi la cohérence de votre marque dans tous vos documents.
 
-    ### [Mastering Aspose.Words Python&#58; Optimize Document Style Management](./aspose-words-python-style-management/)
+### [Mastering Aspose.Words Python&#58; Optimize Document Style Management](./aspose-words-python-style-management/)
 Apprenez à optimiser les styles de vos documents avec Aspose.Words pour Python. Supprimez les styles inutilisés et en double, optimisez votre flux de travail et vos performances.
 
-    ### [Mastering Control Characters in Python Documents with Aspose.Words](./aspose-words-python-control-characters/)
+### [Mastering Control Characters in Python Documents with Aspose.Words](./aspose-words-python-control-characters/)
 Apprenez à utiliser les caractères de contrôle dans les documents Python avec Aspose.Words pour automatiser la mise en forme et la mise en page de vos documents. Découvrez des techniques pour insérer des espaces, des tabulations, des sauts de page, etc.
 
-    ### [Mastering Document Formatting with Aspose.Words for Python&#58; Enhance XML Readability and Memory Efficiency](./master-document-formatting-aspose-words-python/)
+### [Mastering Document Formatting with Aspose.Words for Python&#58; Enhance XML Readability and Memory Efficiency](./master-document-formatting-aspose-words-python/)
 Apprenez à utiliser Aspose.Words pour Python pour améliorer la mise en forme des documents, améliorer la lisibilité XML et optimiser efficacement l'utilisation de la mémoire.
 
-    ### [Mastering Hyphenation in Multilingual Documents Using Aspose.Words for Python](./aspose-words-python-hyphenation-dictionary/)
+### [Mastering Hyphenation in Multilingual Documents Using Aspose.Words for Python](./aspose-words-python-hyphenation-dictionary/)
 Apprenez à enregistrer et à désenregistrer des dictionnaires de césure avec Aspose.Words pour Python, améliorant ainsi la lisibilité dans toutes les langues.
 
-    ### [Mastering Paragraph Borders in Python with Aspose.Words&#58; A Complete Guide](./aspose-words-python-remove-customize-borders/)
+### [Mastering Paragraph Borders in Python with Aspose.Words&#58; A Complete Guide](./aspose-words-python-remove-customize-borders/)
 Apprenez à supprimer et personnaliser efficacement les bordures de paragraphe avec Aspose.Words pour Python. Simplifiez la mise en forme de vos documents.
 
-    ### [Mastering Tab Stops in Python with Aspose.Words for Document Formatting](./master-tab-stops-python-aspose-words/)
+### [Mastering Tab Stops in Python with Aspose.Words for Document Formatting](./master-tab-stops-python-aspose-words/)
 Apprenez à gérer efficacement les taquets de tabulation dans vos documents Python avec Aspose.Words. Ce guide explique comment ajouter, personnaliser et supprimer des taquets de tabulation à l'aide d'exemples pratiques.
+
+### [Comment styliser un graphique dans un document Word avec Python](./how-to-style-chart-in-a-word-document-using-python/)
+Apprenez à appliquer des styles personnalisés aux graphiques Word en utilisant Aspose.Words pour Python.
 
 ## Ressources supplémentaires
 

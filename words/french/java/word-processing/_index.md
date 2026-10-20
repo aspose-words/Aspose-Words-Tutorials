@@ -47,6 +47,12 @@ Apprenez à enregistrer efficacement vos documents avec Aspose.Words pour Java. 
 Maîtrisez les paramètres avancés d'enregistrement de documents avec Aspose.Words pour Java. Apprenez à formater, protéger, optimiser et automatiser la création de documents sans effort.
 ### [Manipulation du contenu du document avec le nettoyage, les champs et les données XML](./manipulating-document-content/)
 Apprenez à manipuler le contenu de vos documents avec Aspose.Words pour Java. Ce guide étape par étape fournit des exemples de code source pour une gestion efficace de vos documents.
+### [Créer un document Word programmé – Guide complet étape par étape](./create-word-document-programmatically-full-step-by-step-guid/)
+
+Apprenez à créer un document Word en Java avec Aspose.Words, du code initial à la sauvegarde, en suivant chaque étape détaillée.
+### [Créer un diagramme radial et l’insérer dans Word avec Java](./create-radial-chart-and-insert-chart-into-word-with-java/)
+
+Apprenez à créer un diagramme radial avec Aspose.Words pour Java et à l’insérer dans un document Word.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

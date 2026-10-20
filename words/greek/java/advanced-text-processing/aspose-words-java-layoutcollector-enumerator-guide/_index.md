@@ -54,19 +54,19 @@ weight: 1
 ### Απαιτούμενες βιβλιοθήκες και εκδόσεις
 Βεβαιωθείτε ότι έχετε εγκατεστημένο το Aspose.Words for Java έκδοση 25.3 (ή νεότερη).
 
-**Maven:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-words</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
 **Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ### Απαιτήσεις ρύθμισης περιβάλλοντος
 - Java Development Kit (JDK) εγκατεστημένο.
@@ -91,6 +91,15 @@ public class SetupAsposeWords {
         System.out.println("Aspose.Words is ready to use!");
     }
 }
+```  
+
+Με τη βιβλιοθήκη έτοιμη, μπορείτε να αρχίσετε να χρησιμοποιείτε τις βασικές λειτουργίες.
+
+## Πώς να αναλύσετε σελίδες χρησιμοποιώντας το LayoutCollector;
+`LayoutCollector` είναι μια κλάση που αντιστοιχίζει κάθε κόμβο σε ένα `Document` στους αριθμούς αρχικής και τελικής σελίδας, επιτρέποντας ακριβή ανάλυση σελιδοποίησης. Φορτώστε το έγγραφό σας, συνδέστε ένα `LayoutCollector` και ερωτήστε πληροφορίες σελίδας – η ολόκληρη λειτουργία απαιτεί μόνο λίγες γραμμές κώδικα και παρέχει αξιόπιστα αποτελέσματα ακόμη και για μεγάλα αρχεία.
+
+```text
+Load the document → create LayoutCollector → call getStartPage(node) / getEndPage(node)
 ```
 
 Με τη βιβλιοθήκη έτοιμη, μπορούμε να προχωρήσουμε στις βασικές λειτουργίες.
@@ -109,7 +118,7 @@ public class SetupAsposeWords {
 ```java
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
-```
+```  
 
 **2. Συμπλήρωση του εγγράφου**
 Εδώ, θα προσθέσουμε περιεχόμενο που εκτείνεται σε πολλές σελίδες:
@@ -120,7 +129,7 @@ builder.insertBreak(BreakType.PAGE_BREAK);
 builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
 builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
-```
+```  
 
 **3. Ενημέρωση διάταξης και ανάκτηση μετρικών**
 ```java
@@ -128,6 +137,18 @@ layoutCollector.clear();
 doc.updatePageLayout();
 
 assert layoutCollector.getNumPagesSpanned(doc) == 5;
+```  
+
+**Εξήγηση:**  
+- `DocumentBuilder` εισάγει περιεχόμενο.  
+- `updatePageLayout()` εξαναγκάζει μια διέλευση διάταξης ώστε οι αριθμοί σελίδων να είναι ακριβείς.  
+- `getStartPage` / `getEndPage` επιστρέφουν τους πρώτους και τελευταίους δείκτες σελίδας για οποιονδήποτε κόμβο.
+
+## Πώς να απαριθμήσετε στοιχεία διάταξης με το LayoutEnumerator;
+`LayoutEnumerator` είναι μια κλάση που διασχίζει το οπτικό δέντρο διάταξης ενός εγγράφου, εκθέτοντας τον τύπο, τη θέση και το μέγεθος κάθε στοιχείου — ιδανική για προσαρμοσμένη απόδοση ή ανάλυση. Το `LayoutEnumerator` περπατά το οπτικό δέντρο διάταξης, εκθέτοντας τον τύπο, τη θέση και το μέγεθος κάθε στοιχείου — ιδανική για προσαρμοσμένη απόδοση ή ανάλυση.
+
+```text
+Initialize LayoutEnumerator → move to first child → iterate while moving next sibling
 ```
 
 #### Εξήγηση
@@ -146,7 +167,7 @@ assert layoutCollector.getNumPagesSpanned(doc) == 5;
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
-```
+```  
 
 **2. Περιήγηση προς τα εμπρός και προς τα πίσω**
 ```java
@@ -157,7 +178,7 @@ traverseLayoutForward(layoutEnumerator, 1);
 
 // Traverse backward
 traverseLayoutBackward(layoutEnumerator, 1);
-```
+```  
 
 #### Εξήγηση
 - **`moveParent()`** μετακινεί τον enumerator στο γονικό στοιχείο (σε αυτήν την περίπτωση, στο επίπεδο σελίδας).
@@ -175,7 +196,7 @@ traverseLayoutBackward(layoutEnumerator, 1);
 ```java
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
 doc.updatePageLayout();
-```
+```  
 
 **2. Υλοποίηση μεθόδων Callback**
 ```java
@@ -197,6 +218,17 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
         }
     }
 }
+```  
+
+**Εξήγηση:**  
+- `notify()` λαμβάνει ένα αναγνωριστικό γεγονότος.  
+- `ImageSaveOptions` μπορεί να προσαρμοστεί μέσα στο callback για άμεση απόδοση εικόνας.
+
+## Πώς να επανεκκινήσετε την αρίθμηση σελίδων σε συνεχόμενες ενότητες;
+`ContinuousSectionRestart` είναι μια απαρίθμηση που καθορίζει αν η αρίθμηση σελίδων επανεκκινεί σε συνεχόμενες ενότητες, παρέχοντάς σας λεπτομερή έλεγχο των σχημάτων αρίθμησης σε όλο το έγγραφο. Όταν ένα έγγραφο περιέχει πολλαπλές ενότητες που ρέουν συνεχόμενα, μπορείτε να ελέγξετε αν οι αριθμοί σελίδων επανεκκινούν αυτόματα.
+
+```text
+Load document → set ContinuousSectionPageNumberingRestart option → save
 ```
 
 #### Εξήγηση
@@ -214,13 +246,13 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
 **1. Φόρτωση εγγράφου**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
-```
+```  
 
-**2. Διαμόρφωση επιλογών αρίθμησης σελίδων**
+### Βήμα 2: διαμορφώστε τις επιλογές αρίθμησης σελίδων
 ```java
 doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
 doc.updatePageLayout();
-```
+```  
 
 #### Εξήγηση
 - **`setContinuousSectionPageNumberingRestart()`** καθορίζει στο Aspose.Words πώς θα διαχειριστεί την αρίθμηση σε συνεχόμενες ενότητες.

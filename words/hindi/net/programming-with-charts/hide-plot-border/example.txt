@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: यह ट्यूटोरियल दर्शाता है कि कैसे एक Word दस्तावेज़ बनाएं, एक कॉलम चार्ट डालें, उसे नमूना डेटा से भरें, चार्ट की प्लॉट एरिया बॉर्डर को छिपाएं जबकि एक्सिस लाइनों को दिखाई रखें, और अंत में दस्तावेज़ को सहेजें।
+//ExStepSummary:0: एक नया खाली Word दस्तावेज़ बनाएं और उसे संपादित करने के लिए एक DocumentBuilder बनाएं।
+//ExStepSummary:1: दस्तावेज़ में 432×252 आकार का कॉलम चार्ट डालें और उसका Chart ऑब्जेक्ट प्राप्त करें।
+//ExStepSummary:2: मौजूदा सभी सीरीज़ को साफ़ करें, तीन श्रेणी लेबल परिभाषित करें, और चार्ट में नमूना मानों के साथ एक सीरीज़ जोड़ें।
+//ExStepSummary:3: प्लॉट एरिया की स्ट्रोक वेट को शून्य सेट करें, जिससे उसकी बॉर्डर हट जाए जबकि एक्सिस लाइनों को दिखाई दें।
+//ExStepSummary:4: संशोधित दस्तावेज़ को .docx फ़ाइल में सहेजें।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+columnChart.Series.Clear();
+string[] labels = { "Group A", "Group B", "Group C" };
+columnChart.Series.Add("Demo Data", labels, new double[] { 10, 20, 30 });
+
+//ExStep:3-
+columnChart.Format.Stroke.Weight = 0;
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutPlotBorder.docx");
+//ExEnd

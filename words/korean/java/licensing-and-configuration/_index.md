@@ -49,6 +49,9 @@ Aspose.Words for Java 라이선스 및 구성은 이 강력한 툴킷을 효과�
 ### [Aspose.Words for Java에 라이선스 적용](./applying-licensing/)
 Aspose.Words for Java에 라이선스를 적용하는 방법을 단계별로 알아보세요. 지금 바로 액세스하여 모든 기능을 활용하세요.
 
+### [Java에서 DocumentConfig 생성 – 누락된 글꼴 추적 (Aspose.Words)](./create-documentconfig-in-java-track-missing-fonts-with-aspos/)
+Java에서 DocumentConfig를 사용해 누락된 글꼴을 감지하고 보고하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
