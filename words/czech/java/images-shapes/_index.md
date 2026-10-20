@@ -95,6 +95,9 @@ Naučte se, jak nastavit vlastnost Hidden pro tvary v dokumentech Word pomocí A
 ### [Vytvořit prázdný Word dokument a seskupit tvary v Javě](./create-blank-word-document-and-group-shapes-in-java/)
 Naučte se, jak vytvořit prázdný dokument Word a seskupit tvary pomocí Aspose.Words pro Javu.
 
+### [Jak vytvořit skupinový tvar docx a přidat interaktivní ovládací prvky v C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+Naučte se, jak vytvořit skupinový tvar v dokumentu DOCX a přidat interaktivní ovládací prvky pomocí C#.
+
 ## Další zdroje
 
 ## Další zdroje

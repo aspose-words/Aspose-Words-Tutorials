@@ -93,6 +93,11 @@ Ismerje meg, hogyan csoportosíthatja az alakzatokat egy Word dokumentumban az A
 Ismerje meg, hogyan állíthatja be az alakzat rejtett tulajdonságát a C#-ban az Aspose.Words segítségével.
 ### [Üres Word dokumentum létrehozása és alakzatok csoportosítása Java-ban](./create-blank-word-document-and-group-shapes-in-java/)
 Kód oktatóanyag az Aspose.Words Java-hoz
+### [Téglalap alakzat létrehozása Word dokumentumban Java-val – Teljes útmutató](./create-rectangle-shape-in-word-with-java-full-guide/)
+Ismerje meg, hogyan hozhat létre és testreszabhat téglalap alakzatot Word dokumentumokban Java segítségével.
+
+### [Csoportos alakzat létrehozása DOCX-ben és interaktív vezérlők hozzáadása C#-ban](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+Ismerje meg, hogyan hozhat létre csoportos alakzatot DOCX fájlban, és adhat hozzá interaktív vezérlőket C#-ban az Aspose.Words segítségével.
 
 ## További források
 

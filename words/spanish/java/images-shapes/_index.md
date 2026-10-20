@@ -95,6 +95,9 @@ Aprenda a ocultar formas en documentos Word usando Aspose.Words para C#.
 ### [Crear documento Word en blanco y agrupar formas en Java](./create-blank-word-document-and-group-shapes-in-java/)
 Aprenda a crear un documento Word vacío y agrupar formas usando Aspose.Words para Java.
 
+### [Cómo crear un grupo de formas en docx y agregar controles interactivos en C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+Aprenda a crear grupos de formas en documentos DOCX y añadir controles interactivos usando C# y Aspose.Words.
+
 ## Recursos adicionales
 
 ## Recursos adicionales

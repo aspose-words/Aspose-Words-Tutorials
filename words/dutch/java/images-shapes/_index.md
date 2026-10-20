@@ -95,6 +95,8 @@ Leer hoe u de verborgen eigenschap van een vorm instelt met Aspose.Words voor C#
 ### [Leeg Word-document maken en vormen groeperen in Java](./create-blank-word-document-and-group-shapes-in-java/)
 Leer hoe u een leeg Word-document maakt en meerdere vormen groepeert met Aspose.Words voor Java.
 
+### [Hoe maak je een groepsvorm docx en voeg interactieve besturingselementen toe in C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+
 ## Aanvullende bronnen
 
 ## Aanvullende bronnen

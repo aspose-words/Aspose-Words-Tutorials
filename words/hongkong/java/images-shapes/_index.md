@@ -94,6 +94,11 @@ Aspose.Words Java 程式碼教程
 示範如何在 Aspose.Words for C# 中設定形狀的隱藏屬性。
 ### [在 Java 中建立空白 Word 文件並分組形狀](./create-blank-word-document-and-group-shapes-in-java/)
 示範如何在 Java 中創建空白的 Word 文檔並將多個形狀分組以便於管理。
+### [在 Word 中使用 Java 建立矩形形狀 – 完整指南](./create-rectangle-shape-in-word-with-java-full-guide/)
+學習如何使用 Aspose.Words for Java 在 Word 文檔中插入並自訂矩形形狀的完整步驟。
+
+### [如何在 C# 中建立群組形狀 docx 並添加互動控制](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+示範如何在 C# 使用 Aspose.Words 建立群組形狀並加入互動控制。
 
 ## 其他資源
 

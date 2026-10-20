@@ -95,6 +95,9 @@ Scopri come impostare la proprietà Hidden di una forma nei documenti Word usand
 ### [Crea documento Word vuoto e raggruppa forme in Java](./create-blank-word-document-and-group-shapes-in-java/)
 Impara a creare un documento Word vuoto e a raggruppare forme usando Aspose.Words per Java.
 
+### [Come creare una forma di gruppo docx e aggiungere controlli interattivi in C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+Scopri come creare una forma di gruppo in un documento DOCX e aggiungere controlli interattivi usando C# e Aspose.Words.
+
 ## Risorse aggiuntive
 
 ## Risorse aggiuntive

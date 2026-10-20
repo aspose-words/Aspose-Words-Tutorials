@@ -94,6 +94,11 @@ Apprenez à regrouper plusieurs formes dans un document Word avec Aspose.Words p
 Apprenez à masquer des formes en définissant leur propriété Hidden avec Aspose.Words pour C#.
 ### [Créer un document Word vierge et regrouper des formes en Java](./create-blank-word-document-and-group-shapes-in-java/)
 Apprenez à créer un document Word vierge et à regrouper des formes à l'aide d'Aspose.Words pour Java.
+### [Créer une forme rectangle dans Word avec Java – Guide complet](./create-rectangle-shape-in-word-with-java-full-guide/)
+Apprenez à créer et personnaliser une forme rectangle dans vos documents Word en utilisant Aspose.Words pour Java.
+
+### [Comment créer une forme groupée docx et ajouter des contrôles interactifs en C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+Apprenez à créer des formes groupées dans un document DOCX et à y ajouter des contrôles interactifs en C# avec Aspose.Words.
 
 ## Ressources supplémentaires
 

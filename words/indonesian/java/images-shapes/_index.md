@@ -94,6 +94,11 @@ Pelajari cara mengelompokkan beberapa bentuk menjadi satu grup dalam dokumen Wor
 Pelajari cara menyetel properti tersembunyi pada bentuk menggunakan Aspose.Words untuk C#.
 ### [Buat dokumen Word kosong dan grupkan bentuk di Java](./create-blank-word-document-and-group-shapes-in-java/)
 Pelajari cara membuat dokumen Word kosong serta mengelompokkan bentuk-bentuk di dalamnya menggunakan Aspose.Words untuk Java.
+### [Membuat Bentuk Persegi Panjang di Word dengan Java – Panduan Lengkap](./create-rectangle-shape-in-word-with-java-full-guide/)
+Panduan lengkap untuk membuat dan menyesuaikan bentuk persegi panjang dalam dokumen Word menggunakan Aspose.Words untuk Java.
+
+### [Cara Membuat Grup Bentuk DOCX dan Menambahkan Kontrol Interaktif dengan C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+Pelajari cara membuat grup bentuk dalam dokumen DOCX dan menambahkan kontrol interaktif menggunakan C# dengan Aspose.Words.
 
 ## Sumber Daya Tambahan
 

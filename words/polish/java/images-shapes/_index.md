@@ -95,6 +95,9 @@ Dowiedz się, jak ustawić właściwość ukrycia kształtu w dokumentach przy u
 ### [Utwórz pusty dokument Word i grupuj kształty w Javie](./create-blank-word-document-and-group-shapes-in-java/)
 Dowiedz się, jak utworzyć pusty dokument Word oraz grupować kształty przy użyciu Aspose.Words dla Java.
 
+### [Jak utworzyć grupowy kształt docx i dodać interaktywne kontrolki w C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+Dowiedz się, jak tworzyć grupowe kształty w plikach docx i dodawać interaktywne kontrolki przy użyciu C# i Aspose.Words.
+
 ## Dodatkowe zasoby
 
 ## Dodatkowe zasoby

@@ -94,6 +94,11 @@ Lär dig hur du grupperar flera former i ett Word-dokument med Aspose.Words för
 Lär dig hur du markerar en form som dold i ett Word-dokument med Aspose.Words för C#.
 ### [Skapa tomt Word-dokument och gruppera former i Java](./create-blank-word-document-and-group-shapes-in-java/)
 Lär dig hur du skapar ett tomt Word-dokument och grupperar former med Aspose.Words för Java.
+### [Skapa rektangelform i Word med Java – Fullständig guide](./create-rectangle-shape-in-word-with-java-full-guide/)
+Lär dig steg för steg hur du skapar och anpassar en rektangel i ett Word-dokument med Aspose.Words för Java.
+
+### [Hur man skapar gruppform i docx och lägger till interaktiva kontroller i C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+Lär dig hur du skapar en gruppform i ett DOCX-dokument och lägger till interaktiva kontroller med Aspose.Words för C#.
 
 ## Ytterligare resurser
 

@@ -94,6 +94,11 @@ Aspose.Words for Java を使って、Word 文書内の複数の図形をグル�
 Aspose.Words for C# を使用して、シェイプを非表示にするプロパティの設定手順を解説します。
 ### [Javaで空白のWord文書を作成し、シェイプをグループ化する](./create-blank-word-document-and-group-shapes-in-java/)
 Javaで空白のWord文書を作成し、シェイプをグループ化する方法を学びます。
+### [JavaでWordに長方形の図形を作成する – 完全ガイド](./create-rectangle-shape-in-word-with-java-full-guide/)
+Java を使用して Word 文書に長方形の図形を挿入し、サイズや位置をカスタマイズする方法をステップバイステップで解説します。
+
+### [C# でグループシェイプの docx を作成し、インタラクティブ コントロールを追加する方法](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+C# を使用して docx にグループシェイプを作成し、インタラクティブなコントロールを組み込む手順を解説します。
 
 ## 追加リソース
 

@@ -95,6 +95,9 @@
 ### [إنشاء مستند Word فارغ وتجميع الأشكال في Java](./create-blank-word-document-and-group-shapes-in-java/)
 تعلم كيفية إنشاء مستند Word فارغ وتجميع الأشكال باستخدام Aspose.Words لجافا
 
+### [كيفية إنشاء شكل مجموعة docx وإضافة عناصر تحكم تفاعلية في C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+تعلم كيفية إنشاء مجموعة أشكال في مستند Word وإضافة عناصر تحكم تفاعلية باستخدام C#
+
 ## موارد إضافية
 
 ## موارد إضافية

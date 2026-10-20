@@ -93,6 +93,9 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java Bilder in Word-Dokumenten ausbl
 ### [Leeres Word-Dokument erstellen und Formen gruppieren in Java](./create-blank-word-document-and-group-shapes-in-java/)
 Ein Codebeispiel, das zeigt, wie man ein leeres Word-Dokument erstellt und mehrere Formen zu einer Gruppe zusammenfasst.
 
+### [Wie man eine Gruppierungsform in DOCX erstellt und interaktive Steuerelemente in C# hinzufügt](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+Ein Codebeispiel, das zeigt, wie man in Aspose.Words für C# Gruppierungsformen erstellt und interaktive Steuerelemente hinzufügt.
+
 ## Weitere Ressourcen
 
 ## Weitere Ressourcen

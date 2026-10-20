@@ -114,6 +114,7 @@ Learn how to group multiple shapes into a single shape in a Word document using 
 Learn how to set the hidden property of shapes in a Word document using Aspose.Words for C#.
 ### [Create blank Word document and group shapes in Java](./create-blank-word-document-and-group-shapes-in-java/)
 Learn how to create a blank Word document and group multiple shapes using Aspose.Words for Java.
+### [How to create group shape docx and add interactive controls in C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
 
 ## Additional Resources
 

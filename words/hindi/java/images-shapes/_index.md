@@ -101,6 +101,8 @@ Aspose.Words C# में आकृति की छिपी हुई प्�
 
 ### [खाली Word दस्तावेज़ बनाएं और जावा में आकार समूहित करें](./create-blank-word-document-and-group-shapes-in-java/)
 जावा में Aspose.Words का उपयोग करके खाली Word फ़ाइल बनाएं और कई आकारों को समूहित करने का तरीका सीखें।
+### [C# में समूह आकृति docx बनाएं और इंटरैक्टिव नियंत्रण जोड़ें](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+C# में Aspose.Words का उपयोग करके समूह आकृति बनाना और इंटरैक्टिव नियंत्रण जोड़ना सीखें।
 
 ## अतिरिक्त संसाधन
 

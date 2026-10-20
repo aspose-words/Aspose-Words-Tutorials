@@ -92,6 +92,8 @@ Aprenda a agrupar várias formas em um documento Word usando Aspose.Words para J
 ### [Como definir a propriedade oculta de forma no Aspose.Words para C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
 ### [Criar documento Word em branco e agrupar formas em Java](./create-blank-word-document-and-group-shapes-in-java/)
 Aprenda a criar um documento Word vazio e agrupar formas usando Aspose.Words para Java.
+### [Como criar forma de grupo docx e adicionar controles interativos em C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+Aprenda a criar formas de grupo em documentos DOCX e inserir controles interativos usando C# com Aspose.Words.
 
 ## Recursos adicionais
 

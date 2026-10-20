@@ -94,6 +94,8 @@
 ### [สร้างเอกสาร Word ว่างและจัดกลุ่มรูปร่างใน Java](./create-blank-word-document-and-group-shapes-in-java/)
 เรียนรู้วิธีสร้างเอกสาร Word ว่างและจัดกลุ่มรูปร่างด้วย Aspose.Words สำหรับ Java
 
+### [วิธีสร้างกลุ่มรูปทรงในไฟล์ docx และเพิ่มการควบคุมแบบโต้ตอบใน C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 ## แหล่งข้อมูลเพิ่มเติม

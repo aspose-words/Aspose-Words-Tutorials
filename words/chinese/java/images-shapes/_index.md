@@ -95,6 +95,9 @@ Aspose.Words Java 代码教程
 ### [在 Java 中创建空白 Word 文档并对形状进行分组](./create-blank-word-document-and-group-shapes-in-java/)
 演示如何使用 Aspose.Words for Java 创建空白文档并将多个形状分组。
 
+### [如何在 C# 中创建组形状 docx 并添加交互式控件](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+演示如何在 C# 中使用 Aspose.Words 创建组形状并添加交互式控件。
+
 ## 其他资源
 
 ## 其他资源
