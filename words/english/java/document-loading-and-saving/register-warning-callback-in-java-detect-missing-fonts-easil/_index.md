@@ -56,7 +56,7 @@ tags:
 - Aspose.Words
 - Java
 - Fonts
-title: Register warning callback in Aspose.Words for Java API – Detect missing fonts easily
+title: Register warning callback in Aspose.Words for Java to detect missing fonts
 url: /java/document-loading-and-saving/register-warning-callback-in-java-detect-missing-fonts-easil/
 ---
 
@@ -64,7 +64,7 @@ url: /java/document-loading-and-saving/register-warning-callback-in-java-detect-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Register warning callback in Java – Detect missing fonts easily
+# Register warning callback in Aspose.Words for Java to detect missing fonts
 
 Ever wondered how to **register warning callback** so you can **detect missing fonts** when converting or editing Word documents? You're not the only one. Missing fonts can silently corrupt layouts, turn a sleek report into a garbled mess, and most developers don’t even realize it until the final PDF looks off.  
 

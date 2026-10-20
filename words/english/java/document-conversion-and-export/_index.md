@@ -1,6 +1,6 @@
 ---
-title: Add Watermark to Documents and Convert DOCX to PDF Using Aspose.Words for Java API
-linktitle: Add Watermark to Documents and Convert DOCX to PDF Using Aspose.Words for Java API
+title: Add Watermark, Convert DOCX to PDF, and Export Documents Using Aspose.Words for Java API
+linktitle: Add Watermark, Convert DOCX to PDF, and Export Documents Using Aspose.Words for Java API
 second_title: Aspose.Words Java Document Processing API
 description: Learn how to add watermark, convert docx to pdf, and generate barcode labels using Aspose.Words for Java. Comprehensive guide for document conversion and export.
 weight: 22

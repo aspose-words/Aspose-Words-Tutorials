@@ -70,7 +70,7 @@ tags:
 - Java
 - Aspose.Words
 - Word recovery
-title: Set Recovery Mode and Display Page Count in Aspose.Words for Java – Full Guide
+title: Recover Corrupted Word Files – Set Recovery Mode and Display Page Count in Aspose.Words for Java – Full Guide
 url: /java/document-loading-and-saving/set-recovery-mode-in-aspose-words-for-java-full-guide/
 ---
 
@@ -78,7 +78,7 @@ url: /java/document-loading-and-saving/set-recovery-mode-in-aspose-words-for-jav
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Set Recovery Mode and Display Page Count in Aspose.Words for Java – Full Guide
+# Recover Corrupted Word Files – Set Recovery Mode and Display Page Count in Aspose.Words for Java – Full Guide
 
 Ever wondered how to **set recovery mode** when loading a broken `.docx` file with Aspose.Words? You're not the only one scratching your head over corrupted Word documents that refuse to open. In this tutorial we’ll walk through exactly that—how to configure the library to **recover corrupted Word** files and then **display page count** of the successfully loaded content.
 
@@ -295,7 +295,7 @@ The following tutorials cover closely related topics that build on the technique
 - [Combine Multiple Word Files with Aspose.Words for Java](/words/english/java/document-manipulation/cloning-and-combining-documents/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

@@ -1,5 +1,5 @@
 ---
-title: "Integrate AI with Aspose.Words for Java to Process DOCX & PDF – Boost Document Automation"
+title: "Integrate AI with Aspose.Words for Java API to Process DOCX & PDF – Boost Document Automation"
 description: "Learn how to integrate AI for smart document processing using Aspose.Words for Java. Discover AI document automation, content generation, and translation."
 weight: 20
 url: "/java/ai-machine-learning-integration/"
@@ -111,14 +111,12 @@ A: For most use cases, pre‑trained models work well. If you need higher accura
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
 
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
----
-
 **Last Updated:** 2025-11-25  
 **Tested With:** Aspose.Words for Java 24.11  
 **Author:** Aspose  
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
 
 ---

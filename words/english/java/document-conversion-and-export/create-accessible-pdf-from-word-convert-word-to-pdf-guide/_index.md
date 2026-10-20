@@ -62,7 +62,7 @@ tags:
 - Word
 - Accessibility
 - Java
-title: Create Accessible PDF from Word with Aspose.Words for Java – Convert Word to PDF Guide
+title: Create Accessible PDF from Word using Aspose.Words for Java – Export and Convert Word to PDF Guide
 url: /java/document-conversion-and-export/create-accessible-pdf-from-word-convert-word-to-pdf-guide/
 ---
 
@@ -260,12 +260,12 @@ Got a twist you’d like to share? Maybe you’ve run into a tricky table layout
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-{{< relref "words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide" >}}Create Accessible PDF from Word – Complete Guide{{< /relref >}}
-{{< relref "words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian" >}}Create Accessible PDF – Step‑by‑Step Guide for PDF/UA Compliance{{< /relref >}}
-{{< relref "words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide" >}}Convert Word to PDF in C# using Aspose.Words – Guide{{< /relref >}}
+[Create Accessible PDF from Word – Complete Guide]({{< relref "words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-guide" >}})
+[Create Accessible PDF – Step‑by‑Step Guide for PDF/UA Compliance]({{< relref "words/english/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian" >}})
+[Convert Word to PDF in C# using Aspose.Words – Guide]({{< relref "words/english/net/basic-conversions/convert-word-to-pdf-in-c-using-aspose-words-guide" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

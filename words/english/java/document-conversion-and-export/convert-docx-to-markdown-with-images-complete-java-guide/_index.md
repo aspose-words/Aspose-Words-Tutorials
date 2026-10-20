@@ -27,7 +27,7 @@ tags:
 - Markdown
 - Docx
 - Image extraction
-title: Export Word to Markdown with Images using Aspose.Words – Complete Java Guide
+title: Convert docx to markdown with images using Aspose.Words – Complete Java Guide
 url: /java/document-conversion-and-export/convert-docx-to-markdown-with-images-complete-java-guide/
 ---
 
@@ -265,7 +265,7 @@ The following tutorials cover closely related topics that build on the technique
 - [aspose word to pdf – Convert DOCX to PDF in Java]({{< relref "aspose-word-to-pdf-convert-docx-to-pdf-in-java/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

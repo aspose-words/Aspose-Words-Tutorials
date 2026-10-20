@@ -43,7 +43,7 @@ tags:
 - Aspose.Words
 - LLM
 - AI Integration
-title: Generate Document Summary in Java with Aspose.Words AI and Self‑Hosted LLM – Full Guide
+title: Summarize Word Document in Java with Aspose.Words AI and Self‑Hosted LLM – Full Guide
 url: /java/ai-machine-learning-integration/summarize-word-document-in-java-with-self-hosted-llm-full-gu/
 ---
 
@@ -51,7 +51,7 @@ url: /java/ai-machine-learning-integration/summarize-word-document-in-java-with-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Generate Document Summary in Java with Aspose.Words AI and Self‑Hosted LLM – Full Guide
+# Summarize Word Document in Java with Aspose.Words AI and Self‑Hosted LLM – Full Guide
 
 Ever wondered how to **summarize word document** contents without sending anything to the cloud? You’re not alone. In many enterprises the data‑privacy rules say “no external calls,” yet developers still want the magic of large language models. The good news? With Aspose.Words AI you can point an `AiClient` at a locally hosted LLM endpoint, **run AI prompt** against a DOCX file, and **generate document summary** in a matter of seconds.
 
@@ -229,9 +229,9 @@ Each of those topics naturally involves the same building blocks we covered: **l
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Aspose.Words Java&#58; Comprehensive Guide to Word Document Processing](/words/english/java/document-operations/aspose-words-java-master-word-processing/)
-- [Track Changes in Word Documents Using Aspose.Words Java: A Complete Guide to Document Revisions](/words/english/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/)
-- [Generate Word Document](/words/english/java/word-processing/generate-word-document/)
+- [Aspose.Words Java: Comprehensive Guide to Word Document Processing]({{< relref "words/english/java/document-operations/aspose-words-java-master-word-processing/" >}})
+- [Track Changes in Word Documents Using Aspose.Words Java: A Complete Guide to Document Revisions]({{< relref "words/english/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/" >}})
+- [Generate Word Document]({{< relref "words/english/java/word-processing/generate-word-document/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

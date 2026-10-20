@@ -46,7 +46,7 @@ tags:
 - Java
 - PDF
 - Aspose.Words
-title: Convert Word to PDF with Aspose.Words – Export Floating Shapes Inline using PdfSaveOptions
+title: Export Floating Shapes Inline with Aspose.Words PdfSaveOptions – Convert Word to PDF
 url: /java/document-conversion-and-export/export-floating-shapes-inline-complete-guide-to-pdf-conversi/
 ---
 
@@ -229,9 +229,9 @@ Got more questions about **how to set pdf options** or need help with **save wor
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Convert Word to PDF with Aspose.Words for Java](/words/english/java/document-converting/)
-- [How to save document as pdf with Aspose.Words for Java](/words/english/java/document-loading-and-saving/saving-documents-as-pdf/)
-- [Export Word Document Structure to PDF Document](/words/english/net/programming-with-pdfsaveoptions/export-document-structure/)
+- [Convert Word to PDF with Aspose.Words for Java]({{< relref "/words/english/java/document-converting/_index.md" >}})
+- [How to save document as pdf with Aspose.Words for Java]({{< relref "/words/english/java/document-loading-and-saving/saving-documents-as-pdf/_index.md" >}})
+- [Export Word Document Structure to PDF Document]({{< relref "/words/english/net/programming-with-pdfsaveoptions/export-document-structure/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

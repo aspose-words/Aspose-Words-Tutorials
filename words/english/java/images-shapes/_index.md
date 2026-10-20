@@ -1,5 +1,5 @@
 ---
-title: "Insert and Manipulate Images & Shapes with Aspose.Words for Java | Master Your Docs"
+title: "Insert and Manipulate Images & Shapes in Word Documents with Aspose.Words for Java | Master Your Docs"
 description: "Enhance your Java applications with Aspose.Words tutorials on images and shapes. Learn to seamlessly integrate visual elements into documents for professional-grade outputs."
 weight: 6
 url: "/java/images-shapes/"

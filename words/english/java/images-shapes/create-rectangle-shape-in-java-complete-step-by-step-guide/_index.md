@@ -39,7 +39,7 @@ tags:
 - Java
 - Aspose.Words
 - Document Automation
-title: Create rectangle shape in Java using Aspose.Words for Java – Complete Step‑by‑Step Guide
+title: Create rectangle shape and add shadow in Java using Aspose.Words for Java – Complete Step‑by‑Step Guide
 url: /java/images-shapes/create-rectangle-shape-in-java-complete-step-by-step-guide/
 ---
 

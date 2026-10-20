@@ -27,7 +27,7 @@ tags:
 - Java
 - LowCode
 - File Conversion
-title: Convert DOCX to PDF and Markdown using LowCode.Converter API (Java)
+title: Convert DOCX to PDF and Export Word Document to Markdown using LowCode.Converter API (Java)
 url: /java/document-conversion-and-export/convert-docx-to-pdf-export-word-to-markdown-java/
 ---
 
@@ -162,9 +162,9 @@ Feel free to tweak the paths, plug this into
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-{{< relref "words/english/java/document-conversion-and-export/aspose-word-to-pdf-convert-docx-to-pdf-in-java/_index.md" >}}aspose word to pdf – Convert DOCX to PDF in Java{{< /relref >}}
-{{< relref "words/english/java/document-converting/using-document-converting/_index.md" >}}How to Convert Word to PDF Using Aspose.Words for Java{{< /relref >}}
-{{< relref "words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/_index.md" >}}How to Export LaTeX from Word: Convert DOCX to Markdown & Save as PDF{{< /relref >}}
+[Aspose Word to PDF – Convert DOCX to PDF in Java]({{< relref "words/english/java/document-conversion-and-export/aspose-word-to-pdf-convert-docx-to-pdf-in-java/_index.md" >}})
+[How to Convert Word to PDF Using Aspose.Words for Java]({{< relref "words/english/java/document-converting/using-document-converting/_index.md" >}})
+[How to Export LaTeX from Word: Convert DOCX to Markdown & Save as PDF]({{< relref "words/english/java/document-conversion-and-export/how-to-export-latex-from-word-convert-docx-to-markdown-save/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
