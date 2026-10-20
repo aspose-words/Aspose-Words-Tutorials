@@ -60,13 +60,16 @@ Lär dig hur du laddar och hanterar RTF-dokument som innehåller UTF-8-text med 
 En kodhandledning för Aspose.Words Java
 
 ### [Bemästra RTF-export i Java med Aspose.Words: Guide till bild- och formatkontroll](./master-rtf-export-aspose-words-java-image-format-control/)
-Lär dig hur du optimerar RTF-export med Aspose.Words för Java, inklusive tips om bildformatkontroll och prestanda. Perfekt för effektiv dokumentbehandling.
+Lär dig hur du optimerar RTF-export med Aspose.Words för Java, inklusive tips om bildformatkontroll och prestanda. Perfekt för effektiv dokumenthantering.
 
 ### [Mastering Aspose.Words för Java: Hantering av undantag och format](./aspose-words-java-handling-exceptions-formats/)
 En kodhandledning för Aspose.Words Java
 
 ### [Spara Word-dokument som PostScript med bokvikningsinställningar i Java med Aspose.Words](./aspose-words-java-postscript-book-fold-settings/)
 Lär dig hur du konverterar Word-dokument till häften med professionell kvalitet med Aspose.Words för Java. Den här guiden beskriver hur man sparar som PostScript och konfigurerar inställningar för bokvikning.
+
+### [Iterera dokumentvarningar: Upptäck saknade teckensnitt i Java](./iterate-document-warnings-detect-missing-fonts-in-java/)
+Lär dig hur du itererar dokumentvarningar och identifierar saknade teckensnitt i Java med Aspose.Words.
 
 ## Ytterligare resurser
 

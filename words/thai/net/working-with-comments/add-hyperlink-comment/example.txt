@@ -1,0 +1,58 @@
+//ExStart
+//ExSummary: บทแนะนำนี้แสดงวิธีการสร้างเอกสาร Word, เพิ่มคอมเมนต์ที่มีลิงก์คลิกได้ไปยังเว็บไซต์ภายนอก, ตั้งค่าให้คอมเมนต์แสดงเป็น PDF annotation, ส่งออกเอกสารเป็น PDF, และตรวจสอบว่า PDF ถูกสร้างอย่างถูกต้อง.
+//ExStepSummary:0: สร้างอ็อบเจ็กต์ Document ว่างใหม่และ DocumentBuilder เพื่อทำงานกับมัน.
+//ExStepSummary:1: เขียนบรรทัดข้อความที่มองเห็นได้ซึ่งจะเป็นที่วางคอมเมนต์ที่กำลังจะเพิ่ม.
+//ExStepSummary:2: สร้าง Comment ที่เขียนโดย Jane Doe และแนบเข้ากับย่อหน้าแรกของเอกสาร.
+//ExStepSummary:3: ภายในคอมเมนต์, เพิ่มย่อหน้าและแทรกลิงก์สีน้ำเงินที่มีขีดเส้นใต้ไปยังเว็บไซต์ Aspose.Words Library.
+//ExStepSummary:4: ตั้งค่าเอกสารให้แสดงคอมเมนต์เป็น PDF annotation และรีเฟรชเลย์เอาต์.
+//ExStepSummary:5: สร้างโฟลเดอร์ "Output" ในไดเรกทอรีปัจจุบันเพื่อเก็บ PDF ที่สร้างขึ้น.
+//ExStepSummary:6: บันทึกเอกสารที่เตรียมไว้เป็นไฟล์ PDF โดยใช้ PdfSaveOptions.
+//ExStepSummary:7: ตรวจสอบว่าไฟล์ PDF มีอยู่และมีข้อมูล, จากนั้นแสดงผลลัพธ์บนคอนโซล.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+docBuilder.Writeln("The following paragraph includes a comment with a link.");
+
+//ExStep:2-
+Comment note = new Comment(myDocument, "Jane Doe", "JD", DateTime.Now);
+Paragraph targetParagraph = myDocument.FirstSection.Body.FirstParagraph;
+targetParagraph.AppendChild(note);
+
+//ExStep:3-
+Paragraph noteParagraph = (Paragraph)note.AppendChild(new Paragraph(myDocument));
+DocumentBuilder noteBuilder = new DocumentBuilder(myDocument);
+noteBuilder.MoveTo(noteParagraph);
+noteBuilder.Font.Color = Color.Blue;
+noteBuilder.Font.Underline = Underline.Single;
+noteBuilder.InsertHyperlink("Aspose.Words Library", "https://www.aspose.com/words", false);
+noteBuilder.Font.ClearFormatting();
+
+//ExStep:4-
+myDocument.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInAnnotations;
+myDocument.UpdatePageLayout();
+
+//ExStep:5-
+string resultFolder = Path.Combine(Directory.GetCurrentDirectory(), "Output");
+Directory.CreateDirectory(resultFolder);
+
+//ExStep:6-
+string pdfFilePath = Path.Combine(resultFolder, "CommentWithLink.pdf");
+PdfSaveOptions saveOptions = new PdfSaveOptions();
+myDocument.Save(pdfFilePath, saveOptions);
+
+//ExStep:7-
+if (File.Exists(pdfFilePath) && new FileInfo(pdfFilePath).Length > 0)
+{
+    Console.WriteLine("PDF generated successfully with a linked comment.");
+}
+else
+{
+    Console.WriteLine("PDF creation failed.");
+}
+//ExEnd

@@ -24,17 +24,12 @@ title: Konvertera PNG till Base64 i C# – Komplett guide
 url: /sv/net/basic-conversions/convert-png-to-base64-in-c-complete-guide/
 ---
 
-We must keep them unchanged.
 
-Check for any other markdown links: none besides image.
 
-Check for any code block placeholders: we kept them.
 
-Check for any bold text: we kept.
 
-Check for any technical terms: we kept English.
 
-Now produce final output with all content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

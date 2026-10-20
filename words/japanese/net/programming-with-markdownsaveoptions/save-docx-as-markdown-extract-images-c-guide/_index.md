@@ -24,11 +24,9 @@ title: docx を markdown に保存し、画像を抽出する – C# ガイド
 url: /ja/net/programming-with-markdownsaveoptions/save-docx-as-markdown-extract-images-c-guide/
 ---
 
-"The library works in" and then truncated? The original ends abruptly. We'll keep as is.
 
-Make sure not to translate code placeholders.
 
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

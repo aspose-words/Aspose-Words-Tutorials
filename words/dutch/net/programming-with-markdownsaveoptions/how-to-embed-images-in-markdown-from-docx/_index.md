@@ -22,13 +22,9 @@ title: Hoe afbeeldingen in Markdown inbedden vanuit DOCX
 url: /nl/net/programming-with-markdownsaveoptions/how-to-embed-images-in-markdown-from-docx/
 ---
 
-maybe? The table headers are "Mode", "Result", "When to use". Those are English; we should translate to Dutch: "Modus", "Resultaat", "Wanneer te gebruiken". But the instruction: translate all text content naturally to Dutch, keep technical terms in English. "Mode" is not a technical term; we can translate. Let's translate.
 
-Also bullet list items.
 
-Now produce final content with same structure.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

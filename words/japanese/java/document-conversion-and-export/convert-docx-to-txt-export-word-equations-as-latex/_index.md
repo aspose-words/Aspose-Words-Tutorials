@@ -22,7 +22,6 @@ title: docx を txt に変換 – Word の数式を LaTeX にエクスポート
 url: /ja/java/document-conversion-and-export/convert-docx-to-txt-export-word-equations-as-latex/
 ---
 
-Now produce final output with all content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -18,13 +18,9 @@ title: Aspose.Words AIを使用してWordの文法をチェックする方法 �
 url: /ja/net/ai-powered-document-processing/how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/
 ---
 
-unchanged.
 
-Also tables: need translate header and cells.
 
-Proceed step by step.
 
-Let's craft final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

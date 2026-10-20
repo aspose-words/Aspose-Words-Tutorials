@@ -1,0 +1,58 @@
+//ExStart
+//ExSummary: यह ट्यूटोरियल दिखाता है कि कैसे एक Word दस्तावेज़ में कॉलम चार्ट बनाया जाए, उसे विशिष्ट डेटा सीरीज़ से भरा जाए, यह सत्यापित किया जाए कि चार्ट में अपेक्षित संख्या में सीरीज़ और डेटा पॉइंट्स हैं, और फिर दस्तावेज़ को सहेजा जाए।
+//ExStepSummary:0: चार्ट में आवश्यक सीरीज़ और डेटा पॉइंट्स की संख्या निर्धारित करें।
+//ExStepSummary:1: एक नया Word Document बनाएं और उसमें सामग्री जोड़ने के लिए DocumentBuilder का उपयोग करें।
+//ExStepSummary:2: दस्तावेज़ में 400×300 आकार का कॉलम चार्ट डालें और उसका Chart ऑब्जेक्ट प्राप्त करें।
+//ExStepSummary:3: Aspose.Words द्वारा डिफ़ॉल्ट रूप से जोड़े गए प्लेसहोल्डर डेटा सीरीज़ को हटाएँ।
+//ExStepSummary:4: X‑अक्ष लेबल निर्धारित करें और चार्ट में दो डेटा सीरीज़ (Alpha और Beta) प्रत्येक के तीन पॉइंट्स के साथ जोड़ें।
+//ExStepSummary:5: जाँचें कि चार्ट में ठीक आवश्यक संख्या में सीरीज़ हैं और यदि नहीं है तो एक एक्सेप्शन फेंके।
+//ExStepSummary:6: प्रत्येक सीरीज़ पर इटररेट करें और सत्यापित करें कि उसमें अपेक्षित संख्या में डेटा पॉइंट्स हैं; यदि मेल नहीं खाता तो एक्सेप्शन उठाएँ।
+//ExStepSummary:7: सत्यापित दस्तावेज़ को .docx फ़ाइल के रूप में सहेजें।
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Desired numbers for checks.
+const int requiredSeriesCount = 2;
+const int requiredPointsPerSeries = 3;
+
+//ExStep:1-
+// Initialise a fresh document and its builder.
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:2-
+// Place a column‑type chart into the document.
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 400, 300);
+Chart chartObj = chartContainer.Chart;
+
+//ExStep:3-
+// Discard the sample data automatically added by Aspose.Words.
+chartObj.Series.Clear();
+
+//ExStep:4-
+// Set up X‑axis labels and add two data series with matching values.
+string[] xLabels = { "Group A", "Group B", "Group C" };
+chartObj.Series.Add("Data Set Alpha", xLabels, new double[] { 10, 20, 30 });
+chartObj.Series.Add("Data Set Beta", xLabels, new double[] { 15, 25, 35 });
+
+//ExStep:5-
+// ----- Validation -----
+// Confirm the chart holds the expected number of series.
+if (chartObj.Series.Count != requiredSeriesCount)
+    throw new InvalidOperationException(
+        $"Chart should contain {requiredSeriesCount} series, but actually has {chartObj.Series.Count}.");
+
+//ExStep:6-
+// Confirm each series has the required amount of data points.
+foreach (ChartSeries seriesItem in chartObj.Series)
+{
+    if (seriesItem.DataPoints.Count != requiredPointsPerSeries)
+        throw new InvalidOperationException(
+            $"Series '{seriesItem.Name}' should have {requiredPointsPerSeries} points, but contains {seriesItem.DataPoints.Count}.");
+}
+
+//ExStep:7-
+// Persist the verified document.
+myDocument.Save("checked-graph.docx");
+//ExEnd

@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Este tutorial muestra cómo crear un documento Word, insertar un gráfico de columnas, agregar series de datos personalizadas y definir el tamaño y color de fuente predeterminados de las etiquetas de datos que se aplican uniformemente a todas las series del gráfico.
+//ExStepSummary:0: Cree un nuevo documento Word vacío y un DocumentBuilder para editarlo.
+//ExStepSummary:1: Inserte un gráfico de columnas de 500×300 en el documento y obtenga su objeto Chart.
+//ExStepSummary:2: Elimine la serie de muestra predeterminada que Aspose.Words agrega a un gráfico nuevo.
+//ExStepSummary:3: Defina las etiquetas de categoría y agregue dos series de datos (Item Alpha y Item Beta) con sus valores al gráfico.
+//ExStepSummary:4: Establezca el tamaño y color de fuente base que se aplicará a todas las etiquetas de datos.
+//ExStepSummary:5: Habilite las etiquetas de datos para cada serie, muestre el valor numérico y aplique el tamaño y color de fuente predefinidos.
+//ExStepSummary:6: Guarde el documento en un archivo .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document document = new Document();
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:1-
+Shape chartContainer = builder.InsertChart(ChartType.Column, 500, 300);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+
+//ExStep:3-
+string[] periods = { "Period 1", "Period 2", "Period 3", "Period 4" };
+chart.Series.Add("Item Alpha", periods, new double[] { 120, 150, 170, 130 });
+chart.Series.Add("Item Beta", periods, new double[] { 80, 110, 140, 100 });
+
+//ExStep:4-
+const float labelFontSize = 10f;
+Color labelFontColor = Color.White;
+
+//ExStep:5-
+foreach (ChartSeries series in chart.Series)
+{
+    series.HasDataLabels = true;
+    series.DataLabels.ShowValue = true;
+    series.DataLabels.Font.Size = labelFontSize;
+    series.DataLabels.Font.Color = labelFontColor;
+}
+
+//ExStep:6-
+document.Save("UniformLabelChart.docx");
+//ExEnd

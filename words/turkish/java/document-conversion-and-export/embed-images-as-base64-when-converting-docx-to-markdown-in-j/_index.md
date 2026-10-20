@@ -23,11 +23,8 @@ title: Java'da DOCX'i Markdown'a dönüştürürken görüntüleri base64 olarak
 url: /tr/java/document-conversion-and-export/embed-images-as-base64-when-converting-docx-to-markdown-in-j/
 ---
 
-them.
 
-Also keep any inline code unchanged.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

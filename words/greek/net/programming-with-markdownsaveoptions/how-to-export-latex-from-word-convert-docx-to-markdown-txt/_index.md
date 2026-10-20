@@ -25,15 +25,11 @@ title: Πώς να εξάγετε LaTeX από το Word – Μετατροπή 
 url: /el/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-txt/
 ---
 
-χομαι το LaTeX σας να αποδίδει πάντα τέλεια!"
 
-Image markdown unchanged.
 
-Finally closing shortcodes.
 
-Now produce final content with same shortcodes.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

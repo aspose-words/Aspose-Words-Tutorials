@@ -26,11 +26,8 @@ title: docx'i markdown olarak kaydet ve görselleri çıkar – C# rehberi
 url: /tr/net/programming-with-markdownsaveoptions/save-docx-as-markdown-extract-images-c-guide/
 ---
 
-code block placeholders unchanged.
 
-Table: translate question and answer but keep formatting.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Tento tutoriál ukazuje, jak vytvořit Word dokument, vložit sloupcový graf, vymazat jeho výchozí data a naplnit jej vlastními daty ze dvourozměrného pole — přiřazením každého řádku k sérii a každého sloupce ke kategorii — poté přidat název a soubor uložit.
+//ExStepSummary:0: Vytvořte nový Document a DocumentBuilder k němu připojený.
+//ExStepSummary:1: Vložte sloupcový graf o velikosti 432 × 252 bodů do dokumentu a získejte jeho objekt Chart.
+//ExStepSummary:2: Odstraňte automaticky vygenerovanou ukázkovou sérii z grafu.
+//ExStepSummary:3: Definujte popisky kategorií na ose X a položky legendy pro každou sérii.
+//ExStepSummary:4: Vytvořte dvourozměrné pole, kde každý řádek obsahuje hodnoty pro jednu sérii.
+//ExStepSummary:5: Procházejte každou sérii, vyjměte její řádkové hodnoty z matice a přidejte sérii do grafu s odpovídající položkou legendy a popisky osy X.
+//ExStepSummary:6: Nastavte text názvu grafu na 'Half‑Yearly Revenue' a zobrazte jej.
+//ExStepSummary:7: Uložte dokument obsahující vlastní graf do souboru .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:6:images/4.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chartObj = chartContainer.Chart;
+
+//ExStep:2-
+chartObj.Series.Clear();
+
+//ExStep:3-
+string[] xLabels = { "Jan", "Feb", "Mar", "Apr" };
+string[] legendEntries = { "Item Alpha", "Item Beta", "Item Gamma" };
+
+//ExStep:4-
+double[,] dataMatrix = {
+    { 120.5, 135.0, 150.2, 165.3 }, // Item Alpha
+    { 80.0,  95.5, 110.1, 130.0 }, // Item Beta
+    { 60.3,  70.4,  85.6,  95.2 }   // Item Gamma
+};
+
+//ExStep:5-
+for (int sIdx = 0; sIdx < legendEntries.Length; sIdx++)
+{
+    double[] rowValues = new double[xLabels.Length];
+    for (int cIdx = 0; cIdx < xLabels.Length; cIdx++)
+    {
+        rowValues[cIdx] = dataMatrix[sIdx, cIdx];
+    }
+
+    chartObj.Series.Add(legendEntries[sIdx], xLabels, rowValues);
+}
+
+//ExStep:6-
+chartObj.Title.Text = "Half‑Yearly Revenue";
+chartObj.Title.Show = true;
+
+//ExStep:7-
+myDocument.Save("CustomChart.docx");
+//ExEnd

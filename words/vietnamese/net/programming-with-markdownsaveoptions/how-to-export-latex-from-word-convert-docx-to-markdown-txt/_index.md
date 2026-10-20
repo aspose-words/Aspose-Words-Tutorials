@@ -25,11 +25,9 @@ title: Cách xuất LaTeX từ Word – Chuyển DOCX sang Markdown và TXT
 url: /vi/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-txt/
 ---
 
-translated content.
 
-Check for any stray spaces.
 
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

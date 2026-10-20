@@ -24,17 +24,12 @@ title: Adicionar Efeito de Sombra a Formas do Word – Guia Completo de C#
 url: /pt/net/programming-with-shapes/add-shadow-effect-to-word-shapes-complete-c-guide/
 ---
 
-’re well‑equipped to extend this tutorial further.
 
-Got questions or run into a quirky edge case? Drop a comment below, and let’s troubleshoot together. Happy coding, and may your documents always have that extra pop of depth!
 
-Translate.
 
-Then closing shortcodes and backtop button.
 
-Make sure to keep placeholders unchanged.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

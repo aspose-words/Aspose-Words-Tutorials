@@ -52,12 +52,12 @@ weight: 1
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 **Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 #### การรับใบอนุญาต
 Aspose.Words เป็นผลิตภัณฑ์เชิงพาณิชย์ คุณสามารถเริ่มต้นด้วยการทดลองใช้งานฟรี 30 วัน หรือขอรับใบอนุญาตชั่วคราวเพื่อการประเมินผล เยี่ยมชม [purchase page](https://purchase.aspose.com/buy) สำหรับรายละเอียด
@@ -72,20 +72,20 @@ Aspose.Words เป็นผลิตภัณฑ์เชิงพาณิช�
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
-```
+```  
 
 **Step 2:** Create and Add a Comment  
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **Step 3:** Add a Reply to the Comment  
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
-```
+```  
 
 ### ฟีเจอร์ 2: พิมพ์คอมเมนต์ทั้งหมด
 **Overview** – ดึงคอมเมนต์ระดับบนทั้งหมดและการตอบกลับของมันเพื่อการตรวจสอบ
@@ -94,7 +94,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
 **Step 1:** Load the Document  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
-```
+```  
 
 **Step 2:** Retrieve and Print Comments  
 ```java
@@ -108,7 +108,7 @@ for (Comment comment : (Iterable<Comment>) comments) {
         }
     }
 }
-```
+```  
 
 ### ฟีเจอร์ 3: วิธีลบการตอบกลับของคอมเมนต์ใน Java
 **Overview** – แสดง **how to delete comment replies** เพื่อให้เอกสารเป็นระเบียบ
@@ -122,7 +122,7 @@ comment.setText("My comment.");
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
-```
+```  
 
 **Step 2:** Remove Replies  
 ```java
@@ -141,7 +141,7 @@ DocumentBuilder documentBuilder = new DocumentBuilder(document);
 documentBuilder.writeln("Hello world!");
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
-```
+```  
 
 **Step 2:** Mark the Comment as Done  
 ```java
@@ -149,7 +149,7 @@ document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
 comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
-```
+```  
 
 ### ฟีเจอร์ 5: ดึงวันที่และเวลาตาม UTC จากคอมเมนต์
 **Overview** – ดึง timestamp UTC ที่แน่นอนเมื่อคอมเมนต์ถูกเพิ่ม เหมาะสำหรับบันทึกการตรวจสอบ
@@ -163,7 +163,7 @@ Date dateTime = new Date();
 Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **Step 2:** Save and Retrieve the UTC Date  
 ```java
@@ -171,7 +171,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
-```
+```  
 
 ## การประยุกต์ใช้งานจริง
 - **Collaborative Editing:** ทีมสามารถเพิ่มและตอบกลับคอมเมนต์โดยตรงในรายงานที่สร้างขึ้น  
