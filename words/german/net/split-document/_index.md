@@ -27,6 +27,7 @@
 | [Dokumente zusammenführen](./merge-documents/) | Schritt-für-Schritt-Anleitung zur Erläuterung des C#-Quellcodes der Funktion „Dokumente zusammenführen“ von Aspose.Words für .NET |
 | [Word-Dokument nach Seitenbereich aufteilen](./by-page-range/) | Erfahren Sie in unserer detaillierten Schritt-für-Schritt-Anleitung, wie Sie ein Word-Dokument mit Aspose.Words für .NET nach Seitenbereich aufteilen. Perfekt für Entwickler. |
 | [PDF aus Seiten erstellen – Anleitung zum Extrahieren bestimmter Seiten](./create-pdf-from-pages-extract-specific-pages-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET bestimmte Seiten aus einem Dokument extrahieren und als PDF speichern. |
+| [Word-Dokument mit C# in separate Dateien aufteilen](./how-to-split-word-document-into-separate-files-with-c/) | Erfahren Sie, wie Sie ein Word-Dokument mit C# und Aspose.Words für .NET in einzelne Dateien aufteilen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

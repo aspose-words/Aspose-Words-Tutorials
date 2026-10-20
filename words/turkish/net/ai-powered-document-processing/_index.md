@@ -43,6 +43,7 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [Açık AI Modeli ile Çalışma](./working-with-open-ai-model/) | OpenAI'nin güçlü modelleriyle Aspose.Words for .NET'i kullanarak verimli belge özetlemenin kilidini açın. Şimdi bu kapsamlı kılavuza dalın. |
 | [Özetleme Seçenekleriyle Çalışma](./working-with-summarize-options/) | Hızlı içgörüler için AI modellerini entegre etmeye yönelik adım adım kılavuzumuzla Aspose.Words for .NET kullanarak Word belgelerini etkili bir şekilde özetlemeyi öğrenin. |
 | [C# ile Word Belgesini Özetleme – Tam AI Destekli Kılavuz](./summarize-word-document-in-c-complete-ai-powered-guide/) | C# kullanarak AI ile Word belgelerini etkili bir şekilde özetlemeyi adım adım öğrenin. |
+| [C# ile AI Belge Özetleyicisini Kullanma](./how-to-use-an-ai-document-summarizer-in-c/) | C# kullanarak AI destekli belge özetleyicisini nasıl entegre edip kullanacağınızı adım adım öğrenin. |
 | [Aspose.Words ile DOCX'te Dilbilgisi Kontrolü – gpt-4 turbo kullanımı](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Aspose.Words ve gpt-4 turbo kullanarak DOCX dosyalarındaki dilbilgisi hatalarını otomatik olarak tespit edin ve düzeltin. |
 | [Aspose.Words AI ile Word'de Dilbilgisi Kontrolü Nasıl Yapılır – Tam Kılavuz](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Aspose.Words AI kullanarak Word belgelerinizde dilbilgisi hatalarını otomatik olarak nasıl tespit edip düzelteceğinizi öğrenin. |
 | [Yerel LLM Kullanarak C#'ta Dilbilgisi Kontrolü Nasıl Yapılır](./how-to-check-grammar-in-c-using-a-local-llm/) | Yerel bir büyük dil modeliyle C# kodunuzda dilbilgisi hatalarını otomatik tespit edin ve düzeltin. |
@@ -89,6 +90,7 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [C#'ta Özet Rapor Oluşturma – Tam Adım Adım Kılavuz](./create-summary-report-in-c-complete-step-by-step-guide/) | C# kullanarak Aspose.Words ile adım adım özet rapor oluşturmayı öğrenin. |
 | [Özel AI Modeli Oluşturma – C#'ta Dilbilgisi Kontrolü İçin Tam Kılavuz](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | C# ile özel AI modeli oluşturarak dilbilgisi kontrolü yapmayı adım adım öğrenin. |
 | [C#'ta Yerel LLM ile Paragrafı Yeniden Yazma – Tam Kılavuz](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | C# kullanarak yerel bir büyük dil modeliyle paragrafı nasıl yeniden yazacağınızı adım adım öğrenin. |
+| [Aspose.Words AI ile docx dosyasını Fransızcaya çevirme](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Aspose.Words AI ile docx dosyalarını Fransızcaya otomatik olarak çevirmenin adım adım rehberi. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

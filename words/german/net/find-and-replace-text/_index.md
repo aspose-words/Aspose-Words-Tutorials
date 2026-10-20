@@ -38,6 +38,7 @@ Ob Sie bestimmte Wörter ersetzen, Textvorlagen aktualisieren oder den Inhalt vo
 | [Text in DOCX mit C# ersetzen – Schritt‑für‑Schritt‑Anleitung](./replace-text-in-docx-with-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Text in DOCX-Dateien mithilfe von C# Schritt für Schritt ersetzen. |
 | [Text in docx mit C# ersetzen – Vollständige Schritt‑für‑Schritt‑Anleitung](./replace-text-in-docx-with-c-full-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Text in DOCX-Dateien mithilfe von C# vollständig und schrittweise ersetzen. |
 | [Wie man Absatz mit KI in C# neu schreibt – Vollständige Anleitung](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Erfahren Sie, wie Sie mit KI und C# Absätze in Word-Dokumenten neu schreiben. |
+| [Wie man eine Dokumentvorlage erstellt und mit Daten füllt in C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET eine Dokumentvorlage erzeugen und mit Daten in C# füllen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

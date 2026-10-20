@@ -27,6 +27,7 @@ Mit Aspose.Words für .NET und diesen Tutorials meistern Sie die Bearbeitung von
 | [Gruppenform hinzufügen](./add-group-shape/) | Erfahren Sie in diesem umfassenden Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Words für .NET Gruppenformen zu Word-Dokumenten hinzufügen. |
 | [DOCX-Datei mit gruppierten Formen in Word speichern mit C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein DOCX-Dokument mit gruppierten Formen in C# speichern. |
 | [Rechteckform erstellen und mehrere Formen gruppieren in C#](./create-rectangle-shape-and-group-multiple-shapes-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Rechteck erstellen und mehrere Formen zu einer Gruppe zusammenfassen. |
+| [Wie man Formen in Word mit Aspose.Words für C# gruppiert](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET mehrere Formen in einem Word-Dokument gruppieren. |
 | [Form einfügen](./insert-shape/) | Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET Formen in Word-Dokumente einfügen und bearbeiten. |
 | [Seitenverhältnis gesperrt](./aspect-ratio-locked/) | Erfahren Sie, wie Sie das Seitenverhältnis von Formen in Word-Dokumenten mit Aspose.Words für .NET sperren. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um die Proportionen Ihrer Bilder und Formen zu wahren. |
 | [Layout in Zelle](./layout-in-cell/) | Erfahren Sie in dieser umfassenden Anleitung, wie Sie das Layout in Zellen mit Aspose.Words für .NET festlegen. Ideal für Entwickler, die Word-Dokumente anpassen möchten. |
@@ -46,7 +47,8 @@ Mit Aspose.Words für .NET und diesen Tutorials meistern Sie die Bearbeitung von
 
 | [Wie man Formen in Word gruppiert und Formen zu einem Word‑Dokument hinzufügt](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Formen gruppieren und neue Formen in ein Word‑Dokument einfügen. |
 | [Leeres Word-Dokument mit schattierter Rechteckform erstellen – Schritt‑für‑Schritt‑Anleitung](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein leeres Word-Dokument erstellen und eine schattierte Rechteckform hinzufügen. |
-| [Schatten zu Form in C# hinzufügen – Vollständige Anleitung zum Anwenden des Schatteneffekts](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET in C# Schatteneffekte zu Formen hinzufügen und anpassen. |
+| [Leeres Word-Dokument erstellen und farbige Formen hinzufügen mit Aspose.Words](./create-a-blank-word-document-and-add-colored-shapes-with-asp/) | Erfahren Sie, wie Sie mit Aspose.Words ein leeres Word-Dokument erstellen und farbige Formen hinzufügen. |
+| [Schatten zu Form in C# hinzufügen – Vollständige Anleitung zum Anwenden des Schatteneffekts](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET in C# Schatten zu Formen hinzufügen und anpassen. |
 | [Wie man den Formschatten in C# mit Aspose.Words bearbeitet – Schritt‑für‑Schritt‑Anleitung](./how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/) | Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Words für .NET den Schatten von Formen in Word-Dokumenten anpassen. |
 | [Schatten zu Form hinzufügen – Schritt-für-Schritt-Anleitung für C#‑Entwickler](./add-shadow-to-shape-step-by-step-guide-for-c-developers/) | Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Words für .NET Schatten zu Formen in Word-Dokumenten hinzufügen. |
 | [Leeres Word-Dokument mit Aspose.Words erstellen – Schritt-für-Schritt-Anleitung](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein leeres Word-Dokument erstellen und speichern – eine einfache Schritt-für-Schritt-Anleitung. |
@@ -75,6 +77,7 @@ Mit Aspose.Words für .NET und diesen Tutorials meistern Sie die Bearbeitung von
 | [Formen in einem Word-Dokument mit C# gruppieren](./how-to-group-shapes-in-a-word-document-with-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Formen in einem Word-Dokument gruppieren. |
 | [Schatten zu Word-Formen hinzufügen – Vollständige C#‑Anleitung](./how-to-add-shadow-to-word-shapes-complete-c-guide/) | Lernen Sie, wie Sie mit Aspose.Words für .NET in C# Schatten zu Word-Formen hinzufügen und visuelle Effekte erzeugen. |
 | [Wie man Schatten auf Formen in C# setzt – Vollständiger Aspose.Words Leitfaden](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) | Lernen Sie Schritt für Schritt, wie Sie mit Aspose.Words für .NET in C# Schatten zu Formen hinzufügen. |
+| [Wie man ein verstecktes Shape‑DOCX mit Aspose.Words in C# erstellt](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein verstecktes Shape in einem DOCX-Dokument in C# erzeugen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

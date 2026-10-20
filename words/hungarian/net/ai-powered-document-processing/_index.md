@@ -85,6 +85,8 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
 | [Összegző jelentés létrehozása C#‑ban – Teljes lépésről‑lépésre útmutató](./create-summary-report-in-c-complete-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre összegző jelentést C#‑ban az Aspose.Words for .NET segítségével, részletes, lépésről‑lépésre útmutatóval. |
 | [Egyedi AI modell létrehozása – Teljes útmutató a nyelvtani ellenőrzéshez C#-ban](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | Ismerje meg, hogyan hozhat létre egyedi AI modellt a nyelvtani ellenőrzéshez C#-ban az Aspose.Words segítségével. |
 | [Hogyan írjunk át bekezdést egy helyi LLM-mel C#-ban – Teljes útmutató](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Ismerje meg, hogyan használhat helyi nagy nyelvi modellt C#-ban bekezdések átfogalmazásához az Aspose.Words segítségével. |
+| [Hogyan használjunk AI dokumentum-összefoglalót C#-ban](./how-to-use-an-ai-document-summarizer-in-c/) |  |
+| [Hogyan fordítsuk le a docx-et franciára az Aspose.Words AI segítségével](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Tanulja meg, hogyan használhatja az Aspose.Words AI-t a docx fájlok franciára történő fordításához. |
 
 | [Dokumentumösszefoglaló létrehozása Aspose.Words & OpenAI segítségével](./create-document-summary-with-aspose-words-openai/) | Ismerje meg, hogyan hozhat létre hatékony összefoglalókat a Word-dokumentumokból az Aspose.Words és az OpenAI modelljeivel. |
 | [docx fordítása franciára az Aspose.Words és a Google API segítségével](./translate-docx-to-french-with-aspose-words-and-google-api/) | Tanulja meg, hogyan fordíthatja a DOCX fájlokat franciára az Aspose.Words és a Google API használatával. |

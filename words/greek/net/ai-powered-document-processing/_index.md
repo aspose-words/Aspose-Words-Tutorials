@@ -88,6 +88,8 @@
 | [Δημιουργία αναφοράς σύνοψης σε C# – Πλήρης οδηγός βήμα‑βήμα](./create-summary-report-in-c-complete-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε αναφορά σύνοψης σε C# με Aspose.Words, ακολουθώντας αναλυτικές οδηγίες βήμα‑βήμα. |
 | [Δημιουργία προσαρμοσμένου μοντέλου AI – Πλήρης οδηγός ελέγχου γραμματικής σε C#](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | Μάθετε πώς να δημιουργήσετε προσαρμοσμένο μοντέλο AI για έλεγχο γραμματικής σε C# χρησιμοποιώντας Aspose.Words. |
 | [Πώς να Ξαναγράψετε Παράγραφο με Τοπικό LLM σε C# – Πλήρης Οδηγός](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Μάθετε πώς να χρησιμοποιήσετε τοπικό μοντέλο γλώσσας για να ξαναγράψετε παραγράφους σε C# με το Aspose.Words. |
+| [Πώς να χρησιμοποιήσετε AI σύνοψη εγγράφου σε C#](./how-to-use-an-ai-document-summarizer-in-c/) | Μάθετε πώς να δημιουργήσετε σύνοψη εγγράφων με AI σε C# χρησιμοποιώντας Aspose.Words. |
+| [Πώς να μεταφράσετε docx στα γαλλικά χρησιμοποιώντας το Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Μάθετε πώς να μεταφράζετε αρχεία docx στα γαλλικά με τη βοήθεια του Aspose.Words AI σε απλά βήματα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

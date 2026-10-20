@@ -74,6 +74,10 @@
 | [เพิ่มป้ายชื่อแผนภูมิกระบอกใน C# ด้วย Aspose.Words – คู่มือเต็ม](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | เรียนรู้วิธีเพิ่มป้ายชื่อให้กับแผนภูมิกระบอกใน Word ด้วย C# และ Aspose.Words ผ่านคู่มือขั้นตอนเต็ม |
 | [การแยกชิ้นส่วนพายชาร์ตใน C# ด้วย Aspose.Words – คู่มือเต็ม](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | เรียนรู้วิธีแยกชิ้นส่วนพายชาร์ตในเอกสาร Word ด้วย C# และ Aspose.Words ผ่านคู่มือเต็มขั้นตอน |
 | [สร้างแผนภูมิวงกลมใน Word ด้วย C# – คู่มือทีละขั้นตอน](./create-pie-chart-word-in-c-step-by-step-guide/) | เรียนรู้วิธีสร้างแผนภูมิวงกลมในเอกสาร Word ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET ผ่านคู่มือทีละขั้นตอน |
+| [วิธีสร้างแผนภูมิวงกลมในเอกสาร Word ด้วย Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | เรียน...
+| [วิธีจัดรูปแบบซีรีส์ในแผนภูมิเส้นของ Word ด้วย C#](./how-to-format-series-in-a-word-line-chart-with-c/) | เรียน...
+| [วิธีสร้างฮิสโตแกรมใน Word ด้วย Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | เรียน...
+- [วิธีสร้างเอกสาร Word ด้วย C# พร้อมแผนภูมิคอลัมน์และป้ายข้อมูลที่จัดรูปแบบ](./how-to-create-word-document-c-with-a-column-chart-and-format/) | เรียนรู้วิธีสร้างเอกสาร Word ที่มีแผนภูมิคอลัมน์พร้อมป้ายข้อมูลจัดรูปแบบด้วย C# และ Aspose.Words
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

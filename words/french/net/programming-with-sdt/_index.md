@@ -41,6 +41,7 @@ Les exemples de code fournis dans les tutoriels vous aideront à comprendre les 
 | [Créer un document Word par programmation – ajouter un contrôle de contenu et un espace réservé](./create-word-document-programmatically-add-content-control-an/) | Apprenez à créer un document Word via code, ajouter un contrôle de contenu et un espace réservé avec Aspose.Words pour .NET. |
 
 | [Comment créer un contrôle de contenu en C# avec Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Apprenez à créer un contrôle de contenu dans Word en C# à l'aide d'Aspose.Words. |
+| [Comment enregistrer un document Word avec SDT en utilisant Aspose.Words en C#](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -40,6 +40,8 @@ De codevoorbeelden in de tutorials helpen je de concepten te begrijpen en de fun
 | [Hoe u een inhoudsbesturingselement toevoegt en een Word-document maakt met Aspose – Complete gids](./how-to-add-content-control-and-create-word-document-with-asp/) | Leer stap voor stap hoe u een inhoudsbesturingselement toevoegt en een Word-document genereert met Aspose.Words voor .NET. |
 | [Word-document programmatisch maken – inhoudsbesturingselement en placeholder toevoegen](./create-word-document-programmatically-add-content-control-an/) | Leer hoe u met Aspose.Words voor .NET een Word-document maakt, een inhoudsbesturingselement en een placeholder toevoegt via code. |
 | [Hoe maak je een inhoudsbesturingselement in C# met Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Leer hoe u met Aspose.Words in C# een inhoudsbesturingselement maakt en configureert. |
+| [Hoe een Word-document met SDT opslaan met Aspose.Words in C#](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) | Leer hoe u een Word-document met gestructureerde inhoudsbesturingselementen opslaat met Aspose.Words in C#. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

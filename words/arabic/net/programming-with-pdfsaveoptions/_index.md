@@ -88,6 +88,7 @@
 | [إنشاء ملف PDF/UA متوافق من Word – دليل تصدير كامل](./create-pdf-ua-compliant-file-from-word-full-export-guide/) |دليل شامل خطوة بخطوة لتصدير ملفات PDF/UA متوافقة من مستندات Word باستخدام Aspose.Words لـ .NET. |
 | [إنشاء ملف PDF قابل للوصول في C# – دليل خطوة بخطوة](./create-accessible-pdf-in-c-step-by-step-guide/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول وفق معايير WCAG باستخدام Aspose.Words لـ .NET في C# خطوة بخطوة. |
 | [حفظ المستند كملف PDF في C# – تصدير الأشكال المضمنة](./save-document-as-pdf-in-c-export-inline-shapes/) |تعلم كيفية تصدير الأشكال المضمنة عند حفظ مستند Word كملف PDF باستخدام Aspose.Words for .NET في C# خطوة بخطوة. |
+| [كيفية تعيين RenderChoiceFormFieldBorder إلى false عند تحويل Word إلى PDF](./how-to-set-renderchoiceformfieldborder-false-when-converting/) | تعلم كيفية تعطيل حدود حقول الاختيار عند تحويل مستندات Word إلى PDF باستخدام Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

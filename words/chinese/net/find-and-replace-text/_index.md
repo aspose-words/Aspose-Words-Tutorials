@@ -38,6 +38,7 @@ Aspose.Words for .NET 是一个功能强大的库，它提供了丰富的功能�
 | [使用 C# 替换 DOCX 文本的分步指南](./replace-text-in-docx-with-c-step-by-step-guide/) 本教程提供使用 Aspose.Words for .NET 在 C# 中替换 DOCX 文档文本的详细步骤。|
 | [使用 C# 替换 docx 文本 – 完整分步指南](./replace-text-in-docx-with-c-full-step-by-step-guide/) 本指南展示如何使用 Aspose.Words for .NET 与 C# 在 docx 文件中执行完整的文本替换步骤。|
 | [如何使用 AI 在 C# 中改写段落 – 完整指南](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) 学习如何在 C# 中使用 Aspose.Words 与 AI 结合，自动改写段落，实现智能文本重写的完整指南。|
+| [如何在 C# 中生成文档模板并填充数据](./how-to-generate-document-template-and-fill-it-with-data-in-c/) 了解如何使用 Aspose.Words for .NET 在 C# 中创建文档模板并填充数据。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

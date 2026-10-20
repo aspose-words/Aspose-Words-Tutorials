@@ -75,6 +75,7 @@ Görüntü kalitesi seçeneklerini ayarlamayı, görüntüler için sıkıştır
 | [Word'ü PDF Olarak Kaydet – Erişilebilirlik ile Tam Kılavuz](./save-word-as-pdf-complete-guide-with-accessibility/) | Aspose.Words for .NET kullanarak Word belgelerini erişilebilir PDF'ye dönüştürmenin tüm adımlarını öğrenin. |
 | [Word'den PDF/UA Uyumlu Dosya Oluşturma – Tam Dışa Aktarım Kılavuzu](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | Aspose.Words for .NET kullanarak Word belgelerinden PDF/UA uyumlu dosyalar oluşturmayı adım adım öğrenin. |
 | [C# ile Belgeyi PDF Olarak Kaydet – Satır İçi Şekilleri Dışa Aktar](./save-document-as-pdf-in-c-export-inline-shapes/) | Aspose.Words for .NET kullanarak C# içinde satır içi şekilleri PDF'ye dışa aktarmayı öğrenin. |
+| [Word'ü PDF'ye Dönüştürürken RenderChoiceFormFieldBorder'ı False Olarak Ayarlama](./how-to-set-renderchoiceformfieldborder-false-when-converting/) | Aspose.Words for .NET ile Word belgesini PDF'ye dönüştürürken RenderChoiceFormFieldBorder özelliğini false yapmayı öğrenin. |
 
 | [C# ile Word'ten Erişilebilir PDF Oluşturma – Adım Adım Kılavuz](./create-accessible-pdf-from-word-in-c-step-by-step-guide/) | Aspose.Words for .NET kullanarak Word belgelerinden erişilebilir PDF dosyaları oluşturmayı adım adım öğrenin. |
 | [Aspose ile Word'den Erişilebilir PDF Oluşturma – Adım Adım Kılavuz](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) | Aspose.Words for .NET kullanarak Word belgesinden erişilebilir PDF oluşturmayı adım adım öğrenin. |

@@ -89,6 +89,8 @@
 | [Создать сводный отчет в C# – Полное пошаговое руководство](./create-summary-report-in-c-complete-step-by-step-guide/) | Узнайте, как с помощью Aspose.Words для .NET создать сводный отчет в C# шаг за шагом. |
 | [Создание пользовательской модели ИИ – Полное руководство по проверке грамматики в C#](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | Полное руководство по созданию пользовательской модели ИИ для проверки грамматики в C# с использованием Aspose.Words. |
 | [Как переписать абзац с помощью локальной LLM на C# – Полное руководство](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Узнайте, как использовать локальную LLM в C# для переписывания абзацев, улучшая содержание и стиль текста. |
+| [Как использовать AI‑сумматор документов в C#](./how-to-use-an-ai-document-summarizer-in-c/) | Полное руководство по использованию AI‑сумматора документов в C# с Aspose.Words. |
+| [Как перевести docx на французский с помощью Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Полное руководство по автоматическому переводу документов DOCX на французский язык с использованием AI Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

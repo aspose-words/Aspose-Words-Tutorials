@@ -70,7 +70,7 @@ Si desea convertir documentos de Word a PDF para distribuirlos en línea, archiv
 | [Crear PDF accesible – Guía paso a paso para cumplimiento PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Guía paso a paso para crear PDFs accesibles cumpliendo con PDF/UA usando Aspose.Words para .NET. |
 | [Crear PDF accesible desde Word – Guía completa en C#](./create-accessible-pdf-from-word-complete-c-guide/) | Aprenda a generar PDFs accesibles desde documentos Word con Aspose.Words para .NET usando C# en esta guía paso a paso. |
 | [Crear PDF accesible desde Word en C# – Guía completa](./create-accessible-pdf-from-word-in-c-complete-guide/) | Aprenda a generar PDFs accesibles desde documentos Word en C# con Aspose.Words para .NET siguiendo esta guía paso a paso. |
-| [Guardar docx como PDF con exportación de formas – Guía completa](./save-docx-as-pdf-with-shape-export-complete-guide/) | Aprenda a guardar documentos DOCX como PDF exportando formas con Aspose.Words para .NET en esta guía paso a paso. |
+| [Guardar docx como pdf con exportación de formas – Guía completa](./save-docx-as-pdf-with-shape-export-complete-guide/) | Aprenda a guardar documentos DOCX como PDF exportando formas con Aspose.Words para .NET en esta guía paso a paso. |
 | [Guardar documento como PDF con Aspose.Words – Guía completa en C#](./save-document-as-pdf-with-aspose-words-complete-c-guide/) | Aprenda a guardar documentos como PDF usando Aspose.Words en C# con esta guía completa paso a paso. |
 | [Crear PDF accesible – Guía paso a paso para desarrolladores](./create-accessible-pdf-step-by-step-guide-for-developers/) | Aprenda a crear PDFs accesibles con Aspose.Words para .NET siguiendo esta guía paso a paso. |
 | [Crear PDF/UA desde Word en C# – Guía completa](./create-pdf-ua-from-word-in-c-complete-guide/) | Aprenda a generar documentos PDF/UA compatibles con accesibilidad a partir de Word usando Aspose.Words para .NET en C#. |
@@ -101,6 +101,7 @@ Si desea convertir documentos de Word a PDF para distribuirlos en línea, archiv
 | [Crear PDF accesible desde Word – Guía completa de programación](./create-accessible-pdf-from-word-complete-programming-guide/) | Aprenda a crear PDFs accesibles desde Word con Aspose.Words para .NET siguiendo una guía completa de programación paso a paso. |
 | [Crear archivo PDF/UA compatible desde Word – Guía completa de exportación](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | Aprenda a generar archivos PDF/UA totalmente compatibles desde documentos Word con Aspose.Words para .NET en esta guía completa. |
 | [Guardar documento como PDF en C# – Exportar formas incrustadas](./save-document-as-pdf-in-c-export-inline-shapes/) | Aprenda a exportar formas incrustadas al guardar un documento Word como PDF usando Aspose.Words para .NET en C#. |
+| [Cómo establecer RenderChoiceFormFieldBorder en false al convertir Word a PDF](./how-to-set-renderchoiceformfieldborder-false-when-converting/) | Aprenda a desactivar RenderChoiceFormFieldBorder al convertir documentos Word a PDF con Aspose.Words para .NET. |
 
 | [Crear PDF accesible – Convertir Word a PDF con C#](./create-accessible-pdf-convert-word-to-pdf-with-c/) | Aprenda a crear PDFs accesibles convirtiendo documentos Word a PDF usando C# y Aspose.Words para .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}

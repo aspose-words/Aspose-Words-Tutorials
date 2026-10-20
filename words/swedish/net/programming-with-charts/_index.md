@@ -77,6 +77,10 @@ Med dessa handledningar kommer du att kunna förbättra dina Word-dokument genom
 | [Visa procenttal i diagram med Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Lär dig hur du visar procentvärden i diagram i Word med Aspose.Words för .NET och C#. |
 | [Anpassad placering av dataetiketter för diagram i C#](./custom-data-label-placement-for-charts-in-c/) | Lär dig hur du placerar dataetiketter manuellt i diagram med Aspose.Words för .NET i C#. |
 | [Skapa pajdiagram i Word i C# – steg‑för‑steg‑guide](./create-pie-chart-word-in-c-step-by-step-guide/) | Lär dig hur du skapar ett pajdiagram i ett Word‑dokument med Aspose.Words för .NET i C# med vår detaljerade steg‑för‑steg‑guide. |
+| [Hur man skapar cirkeldiagram i ett Word-dokument med Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Lär dig hur du skapar ett cirkeldiagram i ett Word-dokument med Aspose.Words i denna steg-för-steg-guide. |
+| [Hur du formaterar serier i ett Word-linjediagram med C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Lär dig hur du formaterar serier i ett linjediagram i Word med Aspose.Words för .NET och C# i denna steg-för-steg-guide. |
+| [Hur du skapar Word-dokument C# med ett stapeldiagram och formaterade etiketter](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Lär dig hur du skapar ett Word-dokument med ett stapeldiagram och anpassade etiketter i C# med Aspose.Words för .NET. |
+| [Hur man skapar histogram i Word med Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Lär dig hur du skapar ett histogram i ett Word-dokument med Aspose.Words för .NET i denna steg-för-steg-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -41,6 +41,7 @@ Aspose.Words for .NET 자습서를 통해 라이브러리의 기능을 심층적
 | [프로그래밍으로 워드 문서 만들기 – 콘텐츠 컨트롤 및 플레이스홀더 추가](./create-word-document-programmatically-add-content-control-an/) | Aspose.Words for .NET을 사용해 프로그래밍으로 워드 문서를 생성하고 콘텐츠 컨트롤과 플레이스홀더를 추가하는 방법을 단계별로 안내합니다. |
 
 | [Aspose.Words를 사용하여 C#에서 콘텐츠 컨트롤 만들기](./how-to-create-content-control-in-c-with-aspose-words/) | Aspose.Words for .NET을 사용해 C#에서 콘텐츠 컨트롤을 만드는 방법을 단계별로 안내합니다. |
+| [Aspose.Words를 사용하여 C#에서 SDT가 포함된 Word 문서 저장 방법](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) | Aspose.Words for .NET을 사용해 SDT가 포함된 Word 문서를 C#에서 저장하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

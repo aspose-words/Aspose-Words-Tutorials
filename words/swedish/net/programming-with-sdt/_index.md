@@ -41,6 +41,7 @@ Kodexemplen i handledningarna hjälper dig att förstå koncepten och öva på S
 | [Skapa Word-dokument programatiskt – lägg till innehållskontroll och platshållare](./create-word-document-programmatically-add-content-control-an/) | Lär dig hur du skapar ett Word-dokument programatiskt och lägger till en innehållskontroll med en platshållare med Aspose.Words för .NET. |
 
 | [Hur man skapar innehållskontroll i C# med Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Lär dig steg för steg hur du skapar en innehållskontroll i C# med Aspose.Words. |
+| [Spara Word-dokument med SDT med Aspose.Words i C#](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) | Lär dig hur du sparar ett Word-dokument med strukturerade dokumenttaggar (SDT) med Aspose.Words i C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

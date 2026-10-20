@@ -74,6 +74,9 @@ Aspose.Words for .NET 教程“使用形状进行文字处理”提供了在 Wor
 | [在 Word 中使用 C# 隐藏形状 – 分步指南](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) 通过本分步指南学习如何使用 Aspose.Words for .NET 在 Word 文档中隐藏形状。|
 | [在 Word 中对形状进行分组并将形状添加到 Word 文档](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) 学习如何在 Word 文档中对形状进行分组并添加新形状的分步指南。|
 | [如何在 Word 形状中添加阴影 – 完整的 C# 指南](./how-to-add-shadow-to-word-shapes-complete-c-guide/) 通过本完整的 C# 指南，学习在 Word 文档的形状上添加阴影，实现更佳视觉效果。|
+| [使用 Aspose.Words 创建空白 Word 文档并添加彩色形状](./create-a-blank-word-document-and-add-colored-shapes-with-asp/) 通过本分步指南学习如何使用 Aspose.Words for .NET 创建空白 Word 文档并添加彩色形状。|
+| [如何使用 Aspose.Words 在 C# 中创建隐藏形状的 docx](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) 通过本分步指南学习如何使用 Aspose.Words for .NET 在 C# 中创建隐藏形状的 Word 文档。|
+| [使用 Aspose.Words for C# 在 Word 中对形状进行分组](./how-to-group-shapes-in-word-with-aspose-words-for-c/) 通过本分步指南学习如何使用 Aspose.Words for C# 在 Word 文档中对形状进行分组。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -35,6 +35,7 @@
 | [إنشاء زر مستند Word باستخدام Aspose.Words – مثال كامل للكود](./create-word-document-button-with-aspose-words-full-code-exam/) | تعلّم كيفية إنشاء زر لإنشاء مستند Word باستخدام Aspose.Words مع مثال كامل للكود خطوة بخطوة. |
 | [كيفية إضافة زر ActiveX في مستند Word باستخدام Aspose.Words](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | تعلم كيفية إضافة زر ActiveX إلى مستند Word باستخدام Aspose.Words في دليل خطوة بخطوة. |
 | [إدراج مثال OleControlType.CommandButton في Word](./insert-olecontroltype-commandbutton-example-in-word/) | تعلم كيفية إدراج مثال OleControlType.CommandButton في مستند Word باستخدام Aspose.Words لـ .NET. |
+| [كيفية إنشاء زر أمر ActiveX في Word باستخدام C#](./how-to-create-activex-command-button-in-word-using-c/) | تعلّم كيفية إنشاء زر أمر ActiveX في مستند Word باستخدام C# مع Aspose.Words لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

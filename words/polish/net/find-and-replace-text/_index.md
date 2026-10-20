@@ -39,6 +39,7 @@ Niezależnie od tego, czy musisz zastąpić określone słowa, zaktualizować sz
 
 | [Zamień tekst w pliku docx przy użyciu C# – Pełny przewodnik krok po kroku](./replace-text-in-docx-with-c-full-step-by-step-guide/) | Dowiedz się, jak przy użyciu C# i Aspose.Words dla .NET krok po kroku zamienić tekst w plikach docx. |
 | [Jak przepisać akapit przy użyciu AI w C# – Pełny przewodnik](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Dowiedz się, jak używać sztucznej inteligencji w C# do automatycznego przepisania akapitu w dokumentach Word, krok po kroku. |
+| [Jak wygenerować szablon dokumentu i wypełnić go danymi w C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Dowiedz się, jak tworzyć szablony dokumentów i wypełniać je danymi przy użyciu Aspose.Words w C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

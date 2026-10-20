@@ -41,6 +41,7 @@ Aspose.Words for .NET のチュートリアルでは、ライブラリの機能�
 
 | [Word文書をプログラムで作成 – コンテンツコントロールとプレースホルダーを追加](./create-word-document-programmatically-add-content-control-an/) |
 | [Aspose.Words を使用した C# でのコンテンツ コントロールの作成方法](./how-to-create-content-control-in-c-with-aspose-words/) Aspose.Words for .NET を使って C# でコンテンツ コントロールを作成する手順をステップバイステップで解説します。 |
+| [Aspose.Words を使用して SDT 付き Word 文書を C# で保存する方法](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) Aspose.Words for .NET を使い、構造化コンテンツコントロール (SDT) を含む Word 文書を C# で保存する手順を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

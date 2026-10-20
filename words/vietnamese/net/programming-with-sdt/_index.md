@@ -41,6 +41,7 @@ Các mẫu mã được cung cấp trong hướng dẫn sẽ giúp bạn hiểu 
 
 | [Tạo tài liệu Word bằng lập trình – thêm điều khiển nội dung và placeholder](./create-word-document-programmatically-add-content-control-an/) | Hướng dẫn tạo tài liệu Word mới bằng mã, chèn điều khiển nội dung và placeholder để người dùng nhập dữ liệu. |
 | [Cách tạo điều khiển nội dung trong C# với Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Hướng dẫn tạo và cấu hình điều khiển nội dung trong tài liệu Word bằng C# và Aspose.Words. |
+| [Cách lưu tài liệu Word với SDT bằng Aspose.Words trong C#](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) | Hướng dẫn lưu tài liệu Word có chứa Structured Document Tag (SDT) bằng Aspose.Words trong C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -88,6 +88,7 @@ Cho dù bạn muốn chuyển đổi tài liệu Word sang PDF để phân phố
 | [Tạo tệp PDF/UA tuân thủ từ Word – Hướng dẫn xuất đầy đủ](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | Hướng dẫn đầy đủ cách tạo tệp PDF/UA tuân thủ tiêu chuẩn từ tài liệu Word. |
 | [Tạo PDF có thể truy cập trong C# – Hướng dẫn từng bước](./create-accessible-pdf-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo PDF có thể truy cập trong C# bằng Aspose.Words cho .NET, bao gồm các bước thiết lập và tối ưu hoá. |
 | [Lưu tài liệu dưới dạng PDF trong C# – Xuất hình dạng nội tuyến](./save-document-as-pdf-in-c-export-inline-shapes/) | Hướng dẫn chi tiết cách xuất các hình dạng nội tuyến khi lưu tài liệu Word thành PDF bằng Aspose.Words cho .NET trong C#. |
+| [Cách đặt RenderChoiceFormFieldBorder thành false khi chuyển đổi Word sang PDF](./how-to-set-renderchoiceformfieldborder-false-when-converting/) | Hướng dẫn tắt RenderChoiceFormFieldBorder khi chuyển đổi tài liệu Word sang PDF bằng Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

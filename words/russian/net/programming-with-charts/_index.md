@@ -78,6 +78,10 @@
 | [Взрыв куска круговой диаграммы в C# с Aspose.Words – Полное руководство](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Узнайте, как взорвать (отделить) кусок круговой диаграммы в документе Word с помощью Aspose.Words для .NET в полном пошаговом руководстве. |
 | [Добавить метки к круговой диаграмме в C# с Aspose.Words – Полное руководство](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Узнайте, как добавить метки к круговой диаграмме в документе Word с помощью Aspose.Words для .NET в полном пошаговом руководстве. |
 | [Как добавить метки данных к диаграмме Word в C# – пошаговое руководство](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Узнайте, как добавить метки данных к диаграммам Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
+| [Форматировать серии в линейной диаграмме Word с C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Узнайте, как форматировать серии в линейной диаграмме Word с помощью Aspose.Words для .NET и C#. |
+| [Как создать круговую диаграмму в документе Word с помощью Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Узнайте, как добавить круговую диаграмму в документ Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
+| [Как создать гистограмму в документе Word с помощью Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Узнайте, как добавить гистограмму в документ Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
+| [Как создать документ Word на C# с колонной диаграммой и отформатированными метками](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Узнайте, как создать документ Word с колонной диаграммой и отформатировать метки данных, используя Aspose.Words для .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

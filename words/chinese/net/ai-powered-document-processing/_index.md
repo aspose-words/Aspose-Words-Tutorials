@@ -87,6 +87,8 @@
 | [在 C# 中创建摘要报告 – 完整分步指南](./create-summary-report-in-c-complete-step-by-step-guide/) 使用 Aspose.Words for .NET 在 C# 中创建完整的摘要报告，提供详细的分步指南。|
 | [创建自定义 AI 模型 – C# 语法检查完整指南](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) 了解如何使用 Aspose.Words for .NET 创建自定义 AI 模型，实现 C# 语法检查，提升文档质量。|
 | [如何使用本地 LLM 在 C# 中改写段落 – 完整指南](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) 使用 Aspose.Words for .NET 与本地大语言模型在 C# 中改写段落，实现智能文本重写。|
+| [在 C# 中使用 AI 文档摘要器](./how-to-use-an-ai-document-summarizer-in-c/) 使用 Aspose.Words for .NET 在 C# 中实现 AI 文档摘要，提供详细步骤和最佳实践。|
+| [使用 Aspose.Words AI 将 docx 翻译为法语](./how-to-translate-docx-to-french-using-aspose-words-ai/) 使用 Aspose.Words AI 将 docx 文档翻译为法语，提供详细步骤和最佳实践。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

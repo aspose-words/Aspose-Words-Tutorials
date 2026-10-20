@@ -62,6 +62,7 @@ Con questi tutorial, potrai migliorare i tuoi documenti Word aggiungendo grafica
 | [Inserisci grafico a dispersione nel documento Word](./insert-scatter-chart/) | Scopri come inserire un grafico a dispersione in Word con Aspose.Words per .NET. Semplici passaggi per integrare rappresentazioni visive dei dati nei tuoi documenti. |
 | [Creare un grafico a torta in Word con C# – guida passo‑passo](./create-pie-chart-word-in-c-step-by-step-guide/) | Scopri come creare un grafico a torta in Word utilizzando Aspose.Words per .NET con questa guida passo passo. |
 | [Definire le proprietà dell'asse XY in un grafico](./define-xyaxis-properties/) Scopri come definire le proprietà degli assi XY in un grafico utilizzando Aspose.Words per .NET con questa guida passo passo. Perfetta per gli sviluppatori .NET. |
+| [Come creare un documento Word C# con un grafico a colonne e etichette formattate](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Scopri come generare un documento Word in C# aggiungendo un grafico a colonne con etichette formattate usando Aspose.Words. |
 | [Aggiungere valori di data e ora all'asse di un grafico](./date-time-values-to-axis/) | Scopri come aggiungere valori di data e ora all'asse di un grafico utilizzando Aspose.Words per .NET in questa guida completa passo dopo passo. |
 | [Formato numerico per asse in un grafico](./number-format-for-axis/) | Scopri come formattare i numeri degli assi dei grafici utilizzando Aspose.Words per .NET con questa guida passo passo. Migliora la leggibilità e la professionalità dei tuoi documenti senza sforzo. |
 | [Limiti dell'asse](./bounds-of-axis/) | Scopri come impostare i limiti di un asse in un grafico utilizzando Aspose.Words per .NET, controllando l'intervallo di valori visualizzati sull'asse. |
@@ -77,6 +78,9 @@ Con questi tutorial, potrai migliorare i tuoi documenti Word aggiungendo grafica
 | [Esplodere una fetta di grafico a torta in C# con Aspose.Words – Guida completa](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Scopri come far esplodere una fetta di grafico a torta in Word usando Aspose.Words per .NET con questa guida completa passo passo. |
 | [Aggiungi etichette a un grafico a torta in C# usando Aspose.Words – Guida completa](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Scopri come aggiungere etichette a un grafico a torta in C# con Aspose.Words in questa guida completa passo passo. |
 | [Come visualizzare le percentuali in un grafico con Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Scopri come visualizzare le percentuali nei grafici di Word usando Aspose.Words per .NET in pochi semplici passaggi. |
+| [Come creare un grafico a torta in un documento Word con Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Scopri come inserire e personalizzare un grafico a torta in Word usando Aspose.Words per .NET. |
+| [Come formattare le serie in un grafico a linee Word con C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Scopri come formattare le serie di un grafico a linee in Word usando Aspose.Words per .NET e C#. |
+| [Come creare un istogramma in Word con Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Scopri come creare un istogramma in un documento Word usando Aspose.Words per .NET con questa guida passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

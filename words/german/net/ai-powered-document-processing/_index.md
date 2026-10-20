@@ -89,6 +89,8 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [Erstellen Sie einen Zusammenfassungsbericht in C# – Komplett‑Anleitung Schritt für Schritt](./create-summary-report-in-c-complete-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET in C# vollständige Zusammenfassungsberichte Schritt für Schritt erstellen. |
 | [Erstellen eines benutzerdefinierten KI-Modells – Vollständige Anleitung zur Grammatikprüfung in C#](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein benutzerdefiniertes KI‑Modell zur Grammatikprüfung in C# erstellen und integrieren. |
 | [Wie man einen Absatz mit einem lokalen LLM in C# umschreibt – Komplettanleitung](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und einem lokalen LLM Absätze in C# umschreiben. |
+| [Wie man einen KI-Dokumentenzusammenfasser in C# verwendet](./how-to-use-an-ai-document-summarizer-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und KI ein Dokument in C# automatisch zusammenfassen. |
+| [Wie man docx mit Aspose.Words KI ins Französische übersetzt](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words KI automatisch ins Französische übersetzen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

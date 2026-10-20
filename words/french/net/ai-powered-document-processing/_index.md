@@ -88,6 +88,8 @@ Enfin, n'oubliez pas de consulter notre [Travailler avec les options de résumé
 | [Créer un rapport de synthèse en C# – Guide complet étape par étape](./create-summary-report-in-c-complete-step-by-step-guide/) | Apprenez à générer un rapport de synthèse en C# avec Aspose.Words, étape par étape, pour automatiser la création de résumés de documents. |
 | [Créer un modèle d'IA personnalisé – Guide complet de vérification grammaticale en C#](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | Apprenez à créer un modèle d'IA personnalisé pour vérifier la grammaire des documents C# avec Aspose.Words. |
 | [Comment réécrire un paragraphe avec un LLM local en C# – Guide complet](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Apprenez à réécrire des paragraphes en C# en utilisant un modèle de langage local, avec un guide complet pas à pas. |
+| [Comment utiliser un résumeur de documents IA en C#](./how-to-use-an-ai-document-summarizer-in-c/) | Apprenez à résumer automatiquement des documents avec un modèle IA en C# en utilisant Aspose.Words. |
+| [Comment traduire un docx en français avec Aspose.Words IA](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Apprenez à traduire automatiquement des fichiers DOCX en français avec l'IA d'Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

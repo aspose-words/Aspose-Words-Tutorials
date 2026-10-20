@@ -26,6 +26,7 @@ Porovnání dokumentů je komplexní tutoriál o porovnávání dokumentů pomoc
 | [Cíl porovnání v dokumentu Word](./comparison-target/) | Snadno porovnávejte dokumenty Wordu pomocí Aspose.Words pro .NET s tímto podrobným návodem krok za krokem. Ušetřete čas a zvyšte přesnost při porovnávání dokumentů. |
 | [Porovnání granularity v dokumentu Word](./comparison-granularity/) | Naučte se porovnávat podrobnosti v dokumentech Word v Aspose.Words pro .NET, která umožňuje porovnávat dokumenty znak po znaku a hlásit provedené změny. |
 | [Porovnání dokumentů Word v C# pomocí Aspose.Words](./compare-word-documents-in-c-using-aspose-words/) | Naučte se porovnávat dokumenty Word v C# pomocí Aspose.Words pro .NET s podrobným návodem a praktickými ukázkami. |
+| [Jak porovnat dva dokumenty Word a detekovat změny](./how-to-compare-two-word-documents-and-detect-changes/) | Naučte se porovnat dva dokumenty Word a zjistit provedené změny pomocí Aspose.Words pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

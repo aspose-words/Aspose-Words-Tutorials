@@ -77,13 +77,15 @@ Bu eğitimlerle, Word belgelerinizi görsel olarak çekici ve bilgilendirici gra
 | [Aspose.Words C# ile Grafikte Yüzdeleri Gösterme](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Aspose.Words for .NET ile grafiklerde yüzde değerlerini nasıl göstereceğinizi adım adım öğrenin. |
 | [C# ile Word grafiğine veri etiketleri ekleme – adım adım kılavuz](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Bu adım adım rehberde C# kullanarak Word grafiğine veri etiketleri eklemeyi öğrenin. |
 | [C# ile Word'de Pasta Grafiği Oluşturma – adım adım kılavuz](./create-pie-chart-word-in-c-step-by-step-guide/) | Aspose.Words for .NET kullanarak C# ile Word belgesine pasta grafiği eklemeyi adım adım öğrenin. |
+| [Aspose.Words ile Word Belgesinde Pasta Grafiği Oluşturma](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Aspose.Words for .NET kullanarak bir Word belgesine pasta grafiği eklemeyi adım adım öğrenin. |
+| [C# ile Word satır grafiğinde serileri biçimlendirme](./how-to-format-series-in-a-word-line-chart-with-c/) | Bu adım adım kılavuzda C# kullanarak Word satır grafiğindeki serileri nasıl biçimlendireceğinizi öğrenin. |
+| [Aspose.Words ile Word'de Histogram Oluşturma](./how-to-create-histogram-in-word-with-aspose-words/) | Aspose.Words for .NET kullanarak Word belgesine histogram eklemeyi adım adım öğrenin. |
+| [C# ile Sütun Grafiği ve Biçimlendirilmiş Etiketlerle Word Belgesi Oluşturma](./how-to-create-word-document-c-with-a-column-chart-and-format/) | C# kullanarak Word belgesine sütun grafiği ekleyin ve etiketleri biçimlendirin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

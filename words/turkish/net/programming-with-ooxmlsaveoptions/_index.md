@@ -29,7 +29,7 @@ Eğitimler ayrıca OOXMLSaveOptions'ın çeşitli özelliklerinin kullanımını
 | [Son Kaydedilen Zaman Özelliğini Güncelle](./update-last-saved-time-property/) | Aspose.Words for .NET kullanarak Word belgelerinde son kaydedilen zaman özelliğinin nasıl güncelleneceğini öğrenin. Ayrıntılı, adım adım kılavuzumuzu izleyin. |
 | [Eski Kontrol Karakterlerini Koru](./keep-legacy-control-chars/) | Bu adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerinde eski denetim karakterlerinin nasıl korunacağını öğrenin.
 | [Sıkıştırma Seviyesini Ayarla](./set-compression-level/) | Aspose.Words for .NET kullanarak Word belgelerinde sıkıştırma düzeyinin nasıl ayarlanacağını öğrenin. Belge depolamanızı ve performansınızı optimize etmek için adım adım kılavuzumuzu izleyin. |
-
+| [Aspose.Words ile C#'ta Word belge kodlamasını nasıl değiştirirsiniz](./how-to-change-word-document-encoding-with-aspose-words-in-c/) | Aspose.Words for .NET kullanarak C# içinde Word belgelerinin karakter kodlamasını nasıl değiştirileceğini öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

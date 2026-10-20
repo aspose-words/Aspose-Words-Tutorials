@@ -40,6 +40,7 @@ Aspose.Words for .NET 教程将帮助您深入探索该库的功能，并学习�
 | [如何使用 Aspose 添加内容控件并创建 Word 文档 – 完整指南](./how-to-add-content-control-and-create-word-document-with-asp/) 通过本完整指南学习如何使用 Aspose 添加内容控件并创建 Word 文档。|
 | [以编程方式创建 Word 文档 – 添加内容控件和占位符](./create-word-document-programmatically-add-content-control-an/) 通过本教程了解如何以编程方式创建 Word 文档并添加内容控件和占位符。|
 | [如何使用 Aspose.Words 在 C# 中创建内容控件](./how-to-create-content-control-in-c-with-aspose-words/) 通过本教程学习在 C# 使用 Aspose.Words 创建 Word 内容控件的步骤。|
+| [使用 Aspose.Words 在 C# 中保存带 SDT 的 Word 文档](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) 了解如何使用 Aspose.Words for .NET 在 C# 中保存包含结构化文档标签 (SDT) 的 Word 文档。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

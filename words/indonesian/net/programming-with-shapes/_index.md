@@ -35,6 +35,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Deteksi Bentuk Seni Cerdas](./detect-smart-art-shape/) | Pelajari cara mendeteksi bentuk SmartArt dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan lengkap ini. Sempurna untuk mengotomatiskan alur kerja dokumen Anda. Bahasa Indonesia:
 | [Perbarui Gambar Seni Cerdas](./update-smart-art-drawing/) | Pelajari cara memperbarui gambar Smart Art dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan langkah demi langkah ini. Pastikan visual Anda selalu akurat. |
 | [Cara Mengelompokkan Bentuk dalam Dokumen Word dengan C#](./how-to-group-shapes-in-a-word-document-with-c/) | Pelajari cara mengelompokkan beberapa bentuk menjadi satu grup dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan C#. Bahasa Indonesia: |
+| [Cara mengelompokkan bentuk di Word dengan Aspose.Words untuk C#](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | Pelajari cara mengelompokkan beberapa bentuk menjadi satu grup dalam dokumen Word menggunakan Aspose.Words untuk C#. Bahasa Indonesia: |
 | [Buat Bentuk Persegi Panjang di Word dengan Aspose.Words – Panduan langkah demi langkah](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Pelajari cara membuat bentuk persegi panjang di dokumen Word menggunakan Aspose.Words dengan panduan langkah demi langkah. |
 | [Buat dokumen Word kosong dengan Aspose.Words – Panduan Langkah demi Langkah](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | Pelajari cara membuat dokumen Word kosong menggunakan Aspose.Words dengan panduan langkah demi langkah yang mudah diikuti. |
 | [Tambahkan Efek Bayangan ke Bentuk Word – Panduan Lengkap C#](./add-shadow-effect-to-word-shapes-complete-c-guide/) | Pelajari cara menambahkan efek bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan lengkap C#. |
@@ -73,6 +74,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara Menambahkan Bayangan pada Bentuk Word – Panduan Lengkap C#](./how-to-add-shadow-to-word-shapes-complete-c-guide/) | Pelajari cara menambahkan bayangan pada bentuk Word menggunakan Aspose.Words untuk .NET dengan panduan lengkap C#. Bahasa Indonesia: |
 | [Cara Menetapkan Bayangan pada Bentuk di C# – Panduan Lengkap Aspose.Words](./how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide/) | Pelajari cara menambahkan bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh kode C#. |
 | [Buat bentuk persegi panjang dan grupkan beberapa bentuk dalam C#](./create-rectangle-shape-and-group-multiple-shapes-in-c/) | Pelajari cara membuat bentuk persegi panjang dan mengelompokkan beberapa bentuk dalam C# menggunakan Aspose.Words untuk .NET. |
+| [Buat dokumen Word kosong dan tambahkan bentuk berwarna dengan Aspose.Words](./create-a-blank-word-document-and-add-colored-shapes-with-asp/) | Pelajari cara membuat dokumen Word kosong dan menambahkan bentuk berwarna menggunakan Aspose.Words untuk .NET. |
+| [Cara membuat shape tersembunyi docx dengan Aspose.Words di C#](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | Pelajari cara membuat shape tersembunyi dalam file docx menggunakan Aspose.Words untuk .NET dengan contoh kode C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -28,6 +28,7 @@ Split Document is a comprehensive resource that explains how to split a document
 | [Create PDF from Pages – Extract Specific Pages Guide](./create-pdf-from-pages-extract-specific-pages-guide/) | Learn how to create a PDF from specific pages using Aspose.Words for .NET with a step-by-step guide. |
 | [Merge Documents](./merge-documents/) | Step by step guide to explain C# source code of Merge Documents feature of Aspose.Words for .NET |
 | [Split Word Document By Page Range](./by-page-range/) | Learn how to split a Word document by page range using Aspose.Words for .NET with our detailed step-by-step guide. Perfect for developers. |
+| [How to split Word document into separate files with C#](./how-to-split-word-document-into-separate-files-with-c/) | Learn how to split a Word document into separate files using C# and Aspose.Words for .NET. Follow our detailed, step-by-step guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

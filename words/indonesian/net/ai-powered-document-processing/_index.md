@@ -87,6 +87,8 @@ Terakhir, jangan lupa untuk memeriksa [Bekerja Dengan Opsi Ringkasan](./working-
 | [Tutorial LLM Lokal – Cara Memanggil LLM Lokal dan Menjalankan Pemeriksaan Tata Bahasa](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Pelajari cara mengintegrasikan LLM lokal dengan Aspose.Words untuk .NET dan melakukan pemeriksaan tata bahasa secara otomatis. |
 | [Buat Model AI Kustom – Panduan Lengkap Pemeriksaan Tata Bahasa di C#](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | Pelajari cara membuat model AI kustom untuk memeriksa tata bahasa dalam kode C# menggunakan Aspose.Words. |
 | [Cara Menulis Ulang Paragraf dengan LLM Lokal di C# – Panduan Lengkap](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Pelajari cara menggunakan model bahasa lokal di C# untuk menulis ulang paragraf secara otomatis dengan Aspose.Words. |
+| [Cara Menggunakan Ringkasan Dokumen AI di C#](./how-to-use-an-ai-document-summarizer-in-c/) | Pelajari cara menggunakan ringkasan dokumen AI dengan Aspose.Words untuk .NET dalam C# untuk hasil cepat dan akurat. |
+| [Cara Menerjemahkan docx ke Bahasa Prancis menggunakan Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Pelajari cara menerjemahkan file docx ke Bahasa Prancis dengan Aspose.Words AI secara otomatis. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

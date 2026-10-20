@@ -38,6 +38,7 @@ Belirli kelimeleri değiştirmeniz, metin şablonlarını güncellemeniz veya Wo
 | [C# ile DOCX'te Metin Değiştirme – Adım Adım Kılavuz](./replace-text-in-docx-with-c-step-by-step-guide/) | C# kullanarak DOCX dosyalarında metni nasıl değiştireceğinizi adım adım öğrenin. |
 | [C# ile docx içinde metni değiştir – Tam Adım Adım Kılavuz](./replace-text-in-docx-with-c-full-step-by-step-guide/) | C# ve Aspose.Words for .NET kullanarak docx dosyalarında metni adım adım nasıl değiştireceğinizi öğrenin. |
 | [C# ile AI Kullanarak Paragrafı Yeniden Yazma – Tam Kılavuz](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Aspose.Words for .NET ve AI entegrasyonu ile C# dilinde bir paragrafı otomatik olarak yeniden yazmayı öğrenin. |
+| [C# ile belge şablonu oluşturma ve verilerle doldurma](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Aspose.Words for .NET kullanarak C# dilinde belge şablonu oluşturup, veri ile doldurmayı öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

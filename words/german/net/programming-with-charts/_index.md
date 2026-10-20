@@ -77,6 +77,10 @@ Mit diesen Tutorials können Sie Ihre Word-Dokumente mit ansprechenden und infor
 | [Kuchenbeschriftungen zu einem Kreisdiagramm in C# mit Aspose.Words hinzufügen – Vollständige Anleitung](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Erfahren Sie, wie Sie in C# mit Aspose.Words Beschriftungen zu Kreisdiagrammen hinzufügen und anpassen. |
 | [Prozentsätze in Diagrammen mit Aspose.Words C# anzeigen](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Prozentsätze in Diagrammen mit Aspose.Words für .NET anzeigen. |
 | [Erstellen eines Kreisdiagramms in Word mit C# – Schritt‑für‑Schritt‑Anleitung](./create-pie-chart-word-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Kreisdiagramm in ein Word-Dokument einfügen und anpassen. |
+| [Erstellen eines Kreisdiagramms in einem Word-Dokument mit Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Kreisdiagramm in ein Word-Dokument einfügen und anpassen. |
+| [Serien in einem Word-Liniendiagramm mit C# formatieren](./how-to-format-series-in-a-word-line-chart-with-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Serien in einem Word-Liniendiagramm formatieren. |
+| [Wie man ein Histogramm in Word mit Aspose.Words erstellt](./how-to-create-histogram-in-word-with-aspose-words/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Histogramm in ein Word-Dokument einfügen und anpassen. |
+| [Wie man ein Word-Dokument mit C# erstellt, das ein Säulendiagramm mit formatierten Beschriftungen enthält](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument erstellen und ein Säulendiagramm mit formatierten Datenbeschriftungen hinzufügen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

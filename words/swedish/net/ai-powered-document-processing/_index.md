@@ -88,6 +88,8 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Skapa sammanfattningsrapport i C# – Komplett steg‑för‑steg‑guide](./create-summary-report-in-c-complete-step-by-step-guide/) | Lär dig att skapa en sammanfattningsrapport i C# med Aspose.Words genom en komplett steg‑för‑steg‑guide. |
 | [Skapa anpassad AI-modell – Fullständig guide till grammatikkontroll i C#](./create-custom-ai-model-full-guide-to-grammar-checking-in-c/) | Lär dig att bygga en egen AI-modell för grammatikkontroll i C# med Aspose.Words för .NET. |
 | [Hur man skriver om stycke med en lokal LLM i C# – Komplett guide](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Lär dig att omformulera stycken med en lokal LLM i C# med Aspose.Words för .NET i en steg-för-steg-guide. |
+| [Hur du använder en AI-dokumentsammanfattare i C#](./how-to-use-an-ai-document-summarizer-in-c/) | Lär dig steg-för-steg hur du använder AI för att sammanfatta dokument i C# med Aspose.Words. |
+| [Hur du översätter docx till franska med Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Lär dig steg-för-steg hur du översätter DOCX-filer till franska med hjälp av Aspose.Words AI. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

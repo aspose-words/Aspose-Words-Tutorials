@@ -77,6 +77,10 @@ Con estos tutoriales, podrá mejorar sus documentos de Word añadiendo gráficos
 | [Agregar etiquetas de gráfico circular en C# usando Aspose.Words – Guía completa](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) Aprenda a agregar etiquetas a un gráfico circular en Word con Aspose.Words para .NET con esta guía paso a paso.
 | [Cómo mostrar porcentajes en un gráfico con Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Aprenda a mostrar porcentajes en los gráficos de Word con Aspose.Words para .NET mediante este tutorial paso a paso. |
 | [Crear gráfico de pastel en Word en C# – guía paso a paso](./create-pie-chart-word-in-c-step-by-step-guide/) Aprenda a crear un gráfico de pastel en documentos Word con Aspose.Words para .NET mediante C# en esta guía paso a paso. |
+| [Cómo formatear series en un gráfico de líneas de Word con C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Aprenda a dar formato a las series de un gráfico de líneas en Word usando Aspose.Words para .NET con C# paso a paso.
+| [Cómo crear un gráfico circular en un documento de Word con Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) Aprenda a crear un gráfico circular en Word con Aspose.Words mediante esta guía paso a paso.
+| [Cómo crear un histograma en Word con Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Aprenda a crear un histograma en Word con Aspose.Words para .NET paso a paso. |
+| [Cómo crear un documento Word en C# con un gráfico de columnas y etiquetas formateadas](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Aprenda a generar un documento Word en C# con un gráfico de columnas y etiquetas de datos con formato personalizado usando Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

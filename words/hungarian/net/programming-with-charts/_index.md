@@ -53,6 +53,7 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 | [Diagram létrehozása és testreszabása alakzat használatával](./create-chart-using-shape/) | Tanulja meg, hogyan hozhat létre és szabhat testre diagramokat Word-dokumentumokban az Aspose.Words for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Tökéletes adatvizualizációhoz. |
 | [Egyszerű oszlopdiagram beszúrása egy Word dokumentumba](./insert-simple-column-chart/) Tanulja meg, hogyan szúrhat be egyszerű oszlopdiagramot Wordben az Aspose.Words for .NET használatával. Dobja fel dokumentumait dinamikus vizuális adatprezentációkkal. |
 | [Oszlopdiagram beszúrása Word dokumentumba](./insert-column-chart/) | Ismerje meg, hogyan szúrhat be oszlopdiagramokat Word-dokumentumokba az Aspose.Words for .NET segítségével. Fokozza az adatvizualizációt a jelentéseiben és prezentációiban. |
+| [Hogyan hozzunk létre Word dokumentumot C#-ban oszlopdiagrammal és formázott címkékkel](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Tanulja meg, hogyan hozhat létre Word dokumentumot C#-ban oszlopdiagrammal és testre szabhatja a címkéket. |
 | [Területdiagram beszúrása Word dokumentumba](./insert-area-chart/) | Tanulja meg, hogyan szúrhat be területdiagramot egy Word-dokumentumba az Aspose.Words for .NET segítségével ebben az átfogó, lépésről lépésre szóló útmutatóban. |
 | [Buborékdiagram beszúrása Word dokumentumba](./insert-bubble-chart/) | Tanulja meg, hogyan szúrhat be buborékdiagramot egy Word-dokumentumba az Aspose.Words for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Tegye teljessé dokumentumait. |
 | [Szórásdiagram beszúrása Word dokumentumba](./insert-scatter-chart/) | Ismerje meg, hogyan szúrhat be szóródási diagramot Wordben az Aspose.Words for .NET segítségével. Egyszerű lépések a vizuális adatábrázolások dokumentumokba integrálásához. |
@@ -73,6 +74,9 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 | [Százalékok megjelenítése diagramon az Aspose.Words C#-val](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Tanulja meg, hogyan jelenítheti meg a százalékos értékeket diagramokban az Aspose.Words for .NET C# használatával. |
 | [Egyéni adatcímke elhelyezése diagramokban C#‑ban](./custom-data-label-placement-for-charts-in-c/) | Tanulja meg, hogyan helyezhet el egyéni adatcímkéket diagramokban C#‑ban az Aspose.Words for .NET használatával. |
 | [Pité diagram létrehozása Wordben C#‑ban – lépésről‑lépésre útmutató](./create-pie-chart-word-in-c-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre kördiagramot Word dokumentumban C#‑ban az Aspose.Words for .NET segítségével. |
+| [Sorozat formázása Word vonaldiagramban C#-val](./how-to-format-series-in-a-word-line-chart-with-c/) | Tanulja meg, hogyan formázhatja a sorozatot egy Word vonaldiagramban C# használatával ebben a lépésről lépésre útmutatóban. |
+| [Hogyan hozzunk létre kördiagramot egy Word dokumentumban az Aspose.Words segítségével](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Tanulja meg, hogyan hozhat kördiagramot Word dokumentumban az Aspose.Words for .NET használatával. |
+| [Hogyan hozzunk létre hisztogramot Wordben az Aspose.Words segítségével](./how-to-create-histogram-in-word-with-aspose-words/) | Tanulja meg, hogyan hozhat létre hisztogramot Word dokumentumban az Aspose.Words for .NET használatával. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

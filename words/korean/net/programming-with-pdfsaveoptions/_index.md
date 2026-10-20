@@ -73,6 +73,7 @@ Aspose.Words for .NET 튜토리얼에서는 PDFSaveOptions를 사용한 워드 �
 | [Aspose.Words를 사용하여 Word를 접근 가능한 PDF로 변환 – 완전 가이드](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) | Aspose.Words와 C#을 활용해 Word 문서를 접근성 PDF로 변환하는 전체 단계별 가이드를 확인하세요. |
 | [Word에서 PDF/UA 준수 파일 만들기 – 전체 내보내기 가이드](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | Aspose.Words for .NET을 사용하여 Word 문서를 PDF/UA 표준에 맞는 파일로 완전하게 내보내는 단계별 가이드 |
 | [C#에서 문서를 PDF로 저장 – 인라인 도형 내보내기](./save-document-as-pdf-in-c-export-inline-shapes/) | Aspose.Words for .NET을 사용하여 C#에서 인라인 도형을 포함한 문서를 PDF로 저장하는 방법을 단계별로 안내합니다. |
+| [Word를 PDF로 변환할 때 RenderChoiceFormFieldBorder를 false로 설정하는 방법](./how-to-set-renderchoiceformfieldborder-false-when-converting/) | Word를 PDF로 변환할 때 RenderChoiceFormFieldBorder 옵션을 비활성화하는 단계별 가이드 |
 
 | [Aspose를 사용하여 Word에서 접근성 PDF 만들기 – 단계별 가이드](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) | Aspose.Words for .NET을 활용해 Word 문서를 접근성 PDF로 변환하는 방법을 단계별로 안내합니다. |
 | [C#을 사용하여 Word에서 PDF UA 만들기 – 단계별 가이드](./create-pdf-ua-from-word-in-c-step-by-step-guide/) | Aspose.Words for .NET을 활용해 C# 코드로 Word 문서를 PDF UA 형식으로 변환하는 방법을 단계별로 안내합니다. |

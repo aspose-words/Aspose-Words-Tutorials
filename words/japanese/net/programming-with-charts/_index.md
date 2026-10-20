@@ -78,12 +78,14 @@ Aspose.Words for .NET グラフィックスプログラミングチュートリ�
 | [Aspose.Words C# でチャートにパーセンテージを表示する方法](./how-to-show-percentages-in-chart-with-aspose-words-c/) Aspose.Words for .NET を使用して、チャートにパーセンテージ表示を追加する手順をステップバイステップで解説します。 |
 | [C# で Word のチャートにデータ ラベルを追加する方法 – ステップバイステップ ガイド](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) Aspose.Words for .NET を使用して、C# で Word のチャートにデータ ラベルを追加する手順を詳しく解説します。 |
 
+| [Aspose.Words を使用して Word 文書に円グラフを作成する方法](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) Aspose.Words for .NET を使用して、Word 文書に円グラフを挿入する手順をステップバイステップで解説します。 |
+| [C# で Word の折れ線グラフの系列をフォーマットする方法](./how-to-format-series-in-a-word-line-chart-with-c/) Aspose.Words for .NET を使用して、Word の折れ線グラフの系列をカスタマイズする手順をステップバイステップで解説します。 |
+| [Aspose.Words を使用して Word 文書にヒストグラムを作成する方法](./how-to-create-histogram-in-word-with-aspose-words/) Aspose.Words for .NET を使用して、Word 文書にヒストグラムを挿入し、データを視覚化する手順をステップバイステップで解説します。 |
+| [C# で列グラフと書式設定されたラベルを含む Word 文書を作成する方法](./how-to-create-word-document-c-with-a-column-chart-and-format/) Aspose.Words for .NET を使用して、C# で列グラフと書式設定ラベルを持つ Word 文書を作成する手順を解説します。 |
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
