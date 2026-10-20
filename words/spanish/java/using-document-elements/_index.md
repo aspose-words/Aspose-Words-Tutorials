@@ -101,6 +101,10 @@ Aprenda a añadir líneas guía a gráficos de pastel en Java usando la API de C
 Aprenda a insertar botones de comando en documentos Word mediante Aspose.Words para Java con este tutorial paso a paso.
 ### [Cómo crear forms2olecontrol en código con Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
 Aprenda a crear forms2olecontrol en código con Aspose.Words para Java.
+### [Crear documento Word en blanco e insertar un control de texto plano](./create-blank-word-document-and-insert-a-plain-text-control/)
+Aprenda a crear un documento Word vacío e insertar un control de texto plano usando Aspose.Words para Java.
+### [Cómo crear un gráfico radial en un documento Word con Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Aprenda a generar gráficos radiales en documentos Word usando Aspose.Words para Java paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

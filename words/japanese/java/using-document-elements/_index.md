@@ -99,6 +99,10 @@ Java の Chart API を使用して、円グラフにリーダーライン（デ�
 ### [Java で Word 文書にコマンド ボタンを挿入する方法](./how-to-insert-command-button-in-a-word-document-using-java/)
 ### [Java で Word 文書のチャートを編集する方法](./how-to-edit-chart-in-a-word-document-using-java/)
 ### [Java でドーナツチャートを編集した後に Word 文書を保存する方法](./save-word-document-after-editing-doughnut-chart-in-java/)
+### [空白のWord文書を作成し、プレーンテキストコントロールを挿入する](./create-blank-word-document-and-insert-a-plain-text-control/)
+空白のWord文書を作成し、プレーンテキストコントロールを挿入する手順を学びます。
+### [JavaでWord文書にラジアルチャートを作成する方法](./how-to-create-radial-chart-in-a-word-document-with-java/)
+JavaコードでWord文書にラジアルチャートを挿入し、カスタマイズする手順を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -102,6 +102,10 @@ Java के साथ Word दस्तावेज़ में चार्ट
 
 ### [Java के लिए Aspose.Words में डोनट चार्ट संपादित करने के बाद Word दस्तावेज़ सहेजना](./save-word-document-after-editing-doughnut-chart-in-java/)
 Java में डोनट चार्ट को बदलने के बाद Word फ़ाइल को सुरक्षित करने की प्रक्रिया सीखें।
+### [खाली Word दस्तावेज़ बनाएं और एक साधारण‑पाठ नियंत्रण सम्मिलित करें](./create-blank-word-document-and-insert-a-plain-text-control/)
+खाली Word फ़ाइल बनाकर उसमें साधारण‑पाठ नियंत्रण जोड़ने की प्रक्रिया सीखें।
+### [Java के साथ Word दस्तावेज़ में रेडियल चार्ट बनाना](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Java का उपयोग करके Word दस्तावेज़ में रेडियल चार्ट बनाने की प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

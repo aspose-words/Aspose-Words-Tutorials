@@ -112,6 +112,8 @@ Aprenda a inserir um botão ActiveX em documentos DOCX usando Aspose.Words para 
 Aprenda a criar documentos Word em Java usando Aspose.Words de forma simples e rápida.
 ### [Adicionando controle de conteúdo em documento Word com Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
 Aprenda a inserir e gerenciar controles de conteúdo em documentos Word usando Aspose.Words para Java.
+### [Criar documento em branco com um botão de comando interativo no Word usando Java](./create-blank-document-with-an-interactive-command-button-in/)
+Aprenda a criar um documento Word em branco com um botão de comando interativo usando Aspose.Words para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

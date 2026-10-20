@@ -99,6 +99,8 @@ Aspose.Words for Java를 이용해 Word 문서에 명령 버튼을 추가하고 
 ### [Java용 Aspose.Words에서 코드로 forms2olecontrol 만들기](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
 ### [Java에서 도넛 차트를 편집한 후 Word 문서 저장](./save-word-document-after-editing-doughnut-chart-in-java/)
 Aspose.Words for Java를 사용해 도넛 차트를 수정하고 편집된 문서를 저장하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 빈 Word 문서 만들고 일반 텍스트 컨트롤 삽입하기](./create-blank-word-document-and-insert-a-plain-text-control/)
+### [Java용 Aspose.Words에서 방사형 차트 만들기](./how-to-create-radial-chart-in-a-word-document-with-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -107,6 +107,15 @@
 
 ## Дополнительные ресурсы
 
+### [Создание пустого документа Word со скрытой эллипсой](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
+Узнайте, как создать пустой документ Word и добавить в него скрытую эллиптическую форму с помощью Aspose.Words для Java.
+
+### [Как создать документ Word с круговой диаграммой в Java](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
+Узнайте, как создать документ Word с круговой диаграммой с помощью Aspose.Words для Java.
+
+### [Как создать пустой документ и добавить фигуры в Word](./how-to-create-blank-document-and-add-shapes-to-word/)
+Узнайте, как создать пустой документ Word и добавить в него различные фигуры с помощью Aspose.Words для Java.
+
 ## Дополнительные ресурсы
 - [Документация Aspose.Words для Java](https://reference.aspose.com/words/java/)
 - [Справочник API Aspose.Words для Java](https://reference.aspose.com/words/java/)

@@ -101,6 +101,10 @@ Impara a modificare i grafici nei documenti Word con Aspose.Words per Java passo
 Impara a creare controlli Forms2OleControl programmaticamente con Aspose.Words per Java.
 ### [Salva documento Word dopo aver modificato il grafico a ciambella in Java](./save-word-document-after-editing-doughnut-chart-in-java/)
 Salva il documento Word dopo aver modificato un grafico a ciambella con Aspose.Words per Java.
+### [Crea un documento Word vuoto e inserisci un controllo di testo semplice](./create-blank-word-document-and-insert-a-plain-text-control/)
+Crea un documento Word vuoto e aggiungi un controllo di testo semplice per la modifica dinamica.
+### [Come creare un grafico radiale in un documento Word con Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Impara a generare un grafico radiale in un documento Word usando Aspose.Words per Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -43,6 +43,8 @@ Kesimpulannya, menguasai manipulasi elemen dokumen menggunakan Aspose.Words untu
 Ingat, latihan akan menghasilkan kesempurnaan, dan dengan Aspose.Words untuk Java, Anda akan dapat membuat, memodifikasi, dan menyempurnakan dokumen layaknya seorang profesional dalam waktu singkat. Selamat membuat kode!
 
 ## Menggunakan Tutorial Elemen Dokumen
+### [Membuat dokumen Word kosong dan menyisipkan kontrol teks biasa di Aspose.Words untuk Java](./create-blank-word-document-and-insert-a-plain-text-control/)
+Pelajari cara membuat dokumen Word kosong dan menambahkan kontrol teks biasa menggunakan Aspose.Words untuk Java.
 ### [Menggunakan Komentar di Aspose.Words untuk Java](./using-comments/)
 Pelajari cara menggunakan komentar di Aspose.Words untuk Java. Tutorial langkah demi langkah untuk menambahkan dan menyesuaikan komentar di dokumen Anda.
 ### [Menggunakan Fields di Aspose.Words untuk Java](./using-fields/)
@@ -99,6 +101,8 @@ Pelajari cara mengedit diagram dalam dokumen Word menggunakan Java dengan contoh
 Pelajari cara menyimpan dokumen Word setelah memodifikasi diagram donat menggunakan Aspose.Words untuk Java.
 ### [Cara Membuat forms2olecontrol dalam Kode dengan Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
 Pelajari cara membuat kontrol OLE forms2olecontrol secara programatik menggunakan Aspose.Words untuk Java.
+### [Cara membuat diagram radial dalam dokumen Word dengan Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Pelajari cara membuat diagram radial di dokumen Word menggunakan Aspose.Words untuk Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

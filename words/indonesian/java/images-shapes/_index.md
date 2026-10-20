@@ -107,6 +107,15 @@ Pelajari cara menyembunyikan bentuk di dokumen Word menggunakan C# dan Aspose.Wo
 
 ## Sumber Daya Tambahan
 
+### [Buat dokumen Word kosong dengan bentuk elips tersembunyi](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
+Pelajari cara membuat dokumen Word kosong dan menambahkan bentuk elips yang disembunyikan menggunakan Aspose.Words untuk Java.
+
+### [Cara Membuat Dokumen Word dengan Diagram Lingkaran di Java](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
+Pelajari cara menambahkan diagram lingkaran ke dokumen Word menggunakan Aspose.Words untuk Java.
+
+### [Cara Membuat Dokumen Kosong dan Menambahkan Bentuk ke Word](./how-to-create-blank-document-and-add-shapes-to-word/)
+Pelajari cara membuat dokumen Word kosong dan menambahkan berbagai bentuk menggunakan Aspose.Words untuk Java.
+
 ## Sumber Daya Tambahan
 - [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/)
 - [Referensi API Aspose.Words untuk Java](https://reference.aspose.com/words/java/)

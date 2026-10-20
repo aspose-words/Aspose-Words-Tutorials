@@ -100,6 +100,10 @@
 Узнайте, как программно создать элемент forms2olecontrol в документах Word с помощью Aspose.Words.
 ### [Сохранить документ Word после редактирования кольцевой диаграммы в Java](./save-word-document-after-editing-doughnut-chart-in-java/)
 Узнайте, как сохранить документ Word после изменения кольцевой диаграммы с помощью Aspose.Words для Java.
+### [Как создать радиальную диаграмму в документе Word с помощью Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Узнайте, как создавать радиальные диаграммы в документах Word с помощью Aspose.Words для Java.
+### [Создание пустого документа Word и вставка простого текстового контрола](./create-blank-word-document-and-insert-a-plain-text-control/)
+Узнайте, как создать пустой документ Word и добавить в него элемент управления простым текстом.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -105,6 +105,15 @@ Aprenda a ocultar formas em documentos Word usando C# e Aspose.Words.
 
 ## Recursos adicionais
 
+### [Criar um documento Word em branco com uma forma elipse oculta](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
+Aprenda a criar um documento Word vazio contendo uma forma elipse oculta usando Aspose.Words para Java.
+
+### [Como criar um documento Word com um gráfico de pizza em Java](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
+Aprenda a gerar um documento Word contendo um gráfico de pizza usando Aspose.Words para Java.
+
+### [Como criar documento em branco e adicionar formas ao Word](./how-to-create-blank-document-and-add-shapes-to-word/)
+Aprenda a criar um documento Word em branco e inserir formas usando Aspose.Words para Java.
+
 ## Recursos adicionais
 - [Aspose.Words para documentação Java](https://reference.aspose.com/words/java/)
 - [Referência da API Aspose.Words para Java](https://reference.aspose.com/words/java/)

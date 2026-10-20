@@ -106,6 +106,15 @@ Aspose.Words Java 代码教程
 
 ## 其他资源
 
+### [创建一个带有隐藏椭圆形状的空白 Word 文档](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
+了解如何在 Word 文档中创建空白文档并添加隐藏的椭圆形状。
+
+### [如何创建空白文档并向 Word 添加形状](./how-to-create-blank-document-and-add-shapes-to-word/)
+学习在 Word 中创建空白文档并添加各种形状的步骤。
+
+### [如何在 Java 中创建带有饼图的 Word 文档](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
+学习使用 Aspose.Words for Java 在 Word 文档中插入并自定义饼图的完整步骤。
+
 ## 其他资源
 - [Aspose.Words for Java 文档](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Java API参考](https://reference.aspose.com/words/java/)

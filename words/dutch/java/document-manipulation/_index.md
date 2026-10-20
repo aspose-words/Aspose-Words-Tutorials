@@ -112,6 +112,8 @@ Leer hoe u toegankelijke PDF's genereert door tags toe te voegen met Aspose.Word
 Leer stap voor stap hoe u een Word-document maakt in Java met Aspose.Words.
 ### [Inhoudsbesturingselement toevoegen in Word-document met Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
 Voeg een inhoudsbesturingselement toe aan een Word-document met Aspose.Words. Volg de stapsgewijze handleiding en voorbeeldcode.
+### [Maak een leeg document met een interactieve opdrachtknop in Word met Java](./create-blank-document-with-an-interactive-command-button-in/)
+Leer hoe u een leeg Word-document maakt en een interactieve opdrachtknop toevoegt met Aspose.Words voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

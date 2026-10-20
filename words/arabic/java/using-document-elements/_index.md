@@ -98,6 +98,10 @@
 ### [كيفية تعديل المخطط في مستند Word باستخدام Java](./how-to-edit-chart-in-a-word-document-using-java/)
 تعلم تعديل المخططات في مستندات Word باستخدام Aspose.Words للغة Java خطوة بخطوة.
 ### [حفظ مستند Word بعد تعديل مخطط الدونات في Java](./save-word-document-after-editing-doughnut-chart-in-java/)
+### [إنشاء مستند Word فارغ وإدراج عنصر تحكم نص عادي](./create-blank-word-document-and-insert-a-plain-text-control/)
+تعلم كيفية إنشاء مستند Word فارغ وإضافة عنصر تحكم نص عادي باستخدام Aspose.Words لجافا.
+### [كيفية إنشاء مخطط شعاعي في مستند Word باستخدام Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
+تعرف على طريقة إنشاء مخطط شعاعي داخل مستند Word باستخدام مكتبة Aspose.Words لجافا.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

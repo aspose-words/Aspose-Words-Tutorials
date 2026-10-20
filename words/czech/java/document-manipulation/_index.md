@@ -128,11 +128,12 @@ Odemkněte sílu Aspose.Words pro Javu. Zvládněte možnosti a nastavení dokum
 Optimalizujte správu dokumentů s Aspose.Words pro Javu. V tomto komplexním tutoriálu se naučte pracovat s vlastnostmi dokumentu, přidávat vlastní metadata a další.
 
 ### [Používání webových rozšíření v Aspose.Words pro Javu](./using-web-extensions/)
-
 ### [PDF označování přístupnosti v Javě – Generování přístupných PDF](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Naučte se, jak pomocí Aspose.Words pro Javu označovat PDF pro přístupnost a generovat přístupné PDF dokumenty.
 ### [Vytvoření ActiveX tlačítka v DOCX v Javě – kompletní programovací průvodce](./create-docx-activex-button-in-java-complete-programming-guid/)
 Kompletní průvodce vytvořením ActiveX tlačítka v souboru DOCX pomocí Aspose.Words pro Javu.
+### [Vytvoření prázdného dokumentu s interaktivním tlačítkem v aplikaci Word pomocí Javy](./create-blank-document-with-an-interactive-command-button-in/)
+Naučte se, jak v Javě vytvořit prázdný dokument Word a přidat do něj interaktivní tlačítko příkazu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

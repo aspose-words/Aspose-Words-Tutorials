@@ -114,6 +114,9 @@
 了解如何使用 Java 透過 Aspose.Words 編輯 Word 文件中的圖表。
 ### [在 Java 中編輯甜甜圈圖表後儲存 Word 文件](./save-word-document-after-editing-doughnut-chart-in-java/)
 了解如何在 Java 使用 Aspose.Words 編輯甜甜圈圖表後保存 Word 文件。
+### [建立空白 Word 文件並插入純文字控制項](./create-blank-word-document-and-insert-a-plain-text-control/)
+### [在 Aspose.Words for Java 中使用 Java 建立徑向圖表](./how-to-create-radial-chart-in-a-word-document-with-java/)
+了解如何在 Word 文件中使用 Java 生成徑向圖表並嵌入文檔。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

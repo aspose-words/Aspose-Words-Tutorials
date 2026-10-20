@@ -111,6 +111,8 @@ Hướng dẫn tạo PDF có khả năng truy cập bằng cách gắn thẻ n�
 Hướng dẫn chi tiết cách tạo nút ActiveX trong tài liệu docx bằng Aspose.Words for Java.
 ### [Cách tạo tài liệu Word trong Java với Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
 Hướng dẫn tạo tài liệu Word trong Java bằng Aspose.Words.
+### [Tạo tài liệu trống với nút lệnh tương tác trong Word bằng Java](./create-blank-document-with-an-interactive-command-button-in/)
+Hướng dẫn tạo tài liệu Word trống và chèn nút lệnh tương tác bằng Aspose.Words cho Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

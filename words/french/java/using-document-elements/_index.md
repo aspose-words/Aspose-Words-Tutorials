@@ -100,6 +100,10 @@ Apprenez à insérer un bouton de commande dans un document Word avec Aspose.Wor
 Apprenez à modifier les graphiques dans un document Word en utilisant Aspose.Words pour Java, étape par étape.
 ### [Enregistrer le document Word après modification du graphique en anneau en Java](./save-word-document-after-editing-doughnut-chart-in-java/)
 Apprenez à enregistrer un document Word après avoir modifié un graphique en anneau avec Aspose.Words pour Java.
+### [Comment créer un diagramme radial dans un document Word avec Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Apprenez à créer un diagramme radial dans un document Word en utilisant Aspose.Words pour Java.
+### [Créer un document Word vierge et insérer un contrôle de texte brut dans Aspose.Words pour Java](./create-blank-word-document-and-insert-a-plain-text-control/)
+Apprenez à créer un document Word vierge et à insérer un contrôle de texte brut avec Aspose.Words pour Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

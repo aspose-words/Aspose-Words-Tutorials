@@ -101,6 +101,10 @@ Lär dig hur du skapar forms2olecontrol-programmering med Aspose.Words i Java.
 Lär dig steg-för-steg hur du redigerar diagram i Word-dokument med Aspose.Words för Java.
 ### [Spara Word-dokument efter redigering av doughnut-diagram i Java](./save-word-document-after-editing-doughnut-chart-in-java/)
 Lär dig steg-för-steg hur du sparar ett Word-dokument efter att ha redigerat ett doughnut-diagram med Aspose.Words för Java.
+### [Skapa ett radardiagram i ett Word-dokument med Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Lär dig hur du skapar ett radardiagram i ett Word-dokument med Java. Steg-för-steg-guide för att visualisera data.
+### [Skapa ett tomt Word-dokument och infoga en vanlig textkontroll](./create-blank-word-document-and-insert-a-plain-text-control/)
+Lär dig skapa ett tomt Word-dokument och infoga en vanlig textkontroll med Aspose.Words för Java. Steg-för-steg-guide för enkla dokument.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

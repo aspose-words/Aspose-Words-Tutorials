@@ -112,6 +112,8 @@ Optimisez la gestion de vos documents avec Aspose.Words pour Java. Apprenez à g
 Améliorez vos documents avec les extensions Web d'Aspose.Words pour Java. Apprenez à intégrer facilement du contenu Web. 
 ### [Créer un bouton ActiveX docx en Java – guide complet de programmation](./create-docx-activex-button-in-java-complete-programming-guid/)
 Apprenez à créer un bouton ActiveX dans un document DOCX avec Java, étape par étape, avec exemples de code.
+### [Créer un document vierge avec un bouton de commande interactif dans Word en Java](./create-blank-document-with-an-interactive-command-button-in/)
+Créez un document vierge contenant un bouton de commande interactif dans Word à l'aide d'Aspose.Words pour Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

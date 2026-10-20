@@ -106,6 +106,15 @@ Lär dig hur du grupperar former och lägger till en rektangel i ett Word-dokume
 
 ## Ytterligare resurser
 
+### [Skapa ett tomt Word-dokument med en dold ellipsform](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
+Lär dig hur du skapar ett tomt Word-dokument och lägger till en dold ellipsform med Aspose.Words för Java.
+
+### [Hur man skapar ett tomt dokument och lägger till former i Word](./how-to-create-blank-document-and-add-shapes-to-word/)
+Lär dig hur du skapar ett tomt Word-dokument och lägger till former med Aspose.Words för Java.
+
+### [Hur man skapar ett Word-dokument med ett cirkeldiagram i Java](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
+Lär dig skapa ett Word-dokument med ett cirkeldiagram i Java.
+
 ## Ytterligare resurser
 - [Aspose.Words för Java-dokumentation](https://reference.aspose.com/words/java/)
 - [Aspose.Words för Java API-referens](https://reference.aspose.com/words/java/)

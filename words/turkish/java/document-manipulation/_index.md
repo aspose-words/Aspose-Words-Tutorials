@@ -111,6 +111,8 @@ Java'da Aspose.Words kullanarak docx dosyalarına ActiveX düğmesi eklemeyi ad�
 Java ve Aspose.Words ile sıfırdan Word belgesi oluşturmayı adım adım öğrenin.
 ### [Aspose.Words ile Word belgesine içerik denetimi ekleme](./add-content-control-in-word-document-with-aspose-words/)
 Aspose.Words kullanarak Word belgelerinde içerik denetimlerini nasıl ekleyeceğinizi ve yapılandıracağınızı öğrenin.
+### [Java ile Word'de etkileşimli komut düğmesiyle boş belge oluşturma](./create-blank-document-with-an-interactive-command-button-in/)
+Java kullanarak Word'de etkileşimli bir komut düğmesi ekleyerek boş bir belge oluşturmayı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

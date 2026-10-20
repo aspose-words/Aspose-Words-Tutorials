@@ -108,6 +108,15 @@
 
 ## موارد إضافية
 
+### [إنشاء مستند Word فارغ مع شكل إهليلجي مخفي](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
+إنشاء مستند Word فارغ وإضافة شكل إهليلجي مخفي لتخصيص التخطيط.
+
+### [كيفية إنشاء مستند Word بمخطط دائري في Java](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
+تعلم كيفية إنشاء مستند Word يحتوي على مخطط دائري باستخدام Aspose.Words لجافا
+
+### [كيفية إنشاء مستند فارغ وإضافة أشكال إلى Word](./how-to-create-blank-document-and-add-shapes-to-word/)
+تعلم كيفية إنشاء مستند Word فارغ وإضافة أشكال مختلفة لتخصيص التخطيط.
+
 ## موارد إضافية
 - [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/)
 - [مرجع Aspose.Words لواجهة برمجة تطبيقات Java](https://reference.aspose.com/words/java/)

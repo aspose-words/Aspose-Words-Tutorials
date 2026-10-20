@@ -61,6 +61,8 @@ Prozkoumejte formátování písma v Aspose.Words pro Javu: velikost, styl, barv
 Naučte se efektivně používat poznámky pod čarou a vysvětlivky v Aspose.Words pro Javu. Zlepšete si své dovednosti formátování dokumentů ještě dnes!
 ### [Používání formulářových polí v Aspose.Words pro Javu](./using-form-fields/)
 "Naučte se používat Aspose.Words pro Javu k vytváření interaktivních dokumentů Word s formulářovými poli. Začněte hned teď!"
+### [Vytvoření prázdného dokumentu Word a vložení textového ovládacího prvku](./create-blank-word-document-and-insert-a-plain-text-control/)
+Naučte se, jak vytvořit prázdný dokument Word a přidat do něj ovládací prvek pro prostý text pomocí Aspose.Words pro Javu.
 ### [Použití HarfBuzz v Aspose.Words pro Javu](./using-harfbuzz/)
 Naučte se používat HarfBuzz pro pokročilé tvarování textu v Aspose.Words pro Javu. Vylepšete vykreslování textu ve složitých skriptech s tímto podrobným návodem.
 ### [Používání záhlaví a zápatí v Aspose.Words pro Javu](./using-headers-and-footers/)
@@ -101,6 +103,8 @@ Naučte se, jak pomocí Aspose.Words pro Javu upravovat grafy v dokumentech Word
 Naučte se, jak uložit dokument Word po úpravě prstencového grafu pomocí Aspose.Words pro Javu.
 ### [Jak vytvořit forms2olecontrol v kódu pomocí Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
 Naučte se, jak programově vytvořit ovládací prvek Forms2OLE pomocí Aspose.Words v Javě.
+### [Jak vytvořit radiální graf v dokumentu Word pomocí Javy](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Naučte se, jak pomocí Aspose.Words pro Javu vytvořit radiální graf v dokumentu Word.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

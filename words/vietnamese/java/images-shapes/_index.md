@@ -107,6 +107,15 @@ Hướng dẫn ẩn một hình dạng trong tài liệu Word bằng C# và Aspo
 
 ## Tài nguyên bổ sung
 
+### [Tạo tài liệu Word trống có hình ellipse ẩn](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
+Hướng dẫn tạo tài liệu Word trống và chèn hình ellipse ẩn.
+
+### [Cách tạo tài liệu Word với biểu đồ tròn trong Java](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
+Hướng dẫn tạo tài liệu Word có biểu đồ tròn bằng Aspose.Words cho Java.
+
+### [Cách tạo tài liệu trống và thêm hình dạng vào Word](./how-to-create-blank-document-and-add-shapes-to-word/)
+Hướng dẫn tạo tài liệu Word trống và chèn các hình dạng như ellipse, hình chữ nhật, v.v.
+
 ## Tài nguyên bổ sung
 - [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/)
 - [Tài liệu tham khảo API Aspose.Words cho Java](https://reference.aspose.com/words/java/)

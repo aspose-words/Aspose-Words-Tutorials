@@ -126,6 +126,15 @@ Learn how to hide shapes in Word documents using Aspose.Words for C#.
 
 ## Additional Resources
 
+### [Create a blank Word document with a hidden ellipse shape](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
+Learn how to create a blank Word document and add a hidden ellipse shape using Aspose.Words for Java.
+
+### [How to create a Word document with a pie chart in Java](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
+Learn how to generate a Word document containing a pie chart using Aspose.Words for Java.
+
+### [How to create blank document and add shapes to Word](./how-to-create-blank-document-and-add-shapes-to-word/)
+Learn how to create a blank Word document and add various shapes using Aspose.Words for Java.
+
 ## Additional Resources
 - [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Java API Reference](https://reference.aspose.com/words/java/)

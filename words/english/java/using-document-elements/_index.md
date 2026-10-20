@@ -51,6 +51,10 @@ Learn how to generate a pie chart in a Word document using Aspose.Words for Java
 
 ### [How to create word document with placeholders and lists](./how-to-create-word-document-with-placeholders-and-lists/)
 Learn how to create Word documents with placeholders and lists using Aspose.Words for Java.
+### [Create blank Word document and insert a plain‑text control](./create-blank-word-document-and-insert-a-plain-text-control/)
+Learn how to create a blank Word document and insert a plain‑text control using Aspose.Words for Java.
+### [How to create radial chart in a Word document with Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Learn how to create a radial chart in a Word document using Aspose.Words for Java.
 ### [Using Comments in Aspose.Words for Java](./using-comments/)
 Learn how to use comments in Aspose.Words for Java. Step-by-step tutorial for adding and customizing comments in your documents.
 ### [Using Fields in Aspose.Words for Java](./using-fields/)

@@ -101,6 +101,9 @@ Java ile Word belgesindeki grafiği nasıl düzenleyeceğinizi öğrenin.
 Java'da donut grafik düzenledikten sonra Word belgesini nasıl kaydedeceğinizi öğrenin.
 ### [Aspose.Words ile kodda forms2olecontrol oluşturma](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
 Aspose.Words kullanarak kod içinde forms2olecontrol nesnesi oluşturmayı öğrenin.
+### [Java için Aspose.Words'de Boş Word Belgesi Oluşturma ve Düz Metin Denetimi Ekleme](./create-blank-word-document-and-insert-a-plain-text-control/)
+Aspose.Words for Java kullanarak boş bir Word belgesi oluşturun ve içine düz metin denetimi ekleyin. Adım adım rehber.
+### [Java ile Word belgesinde radyal grafik oluşturma](./how-to-create-radial-chart-in-a-word-document-with-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

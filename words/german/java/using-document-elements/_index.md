@@ -103,6 +103,10 @@ Erfahren Sie, wie Sie mit der Chart‑API Führungs­linien zu Kreisdiagrammen i
 Erfahren Sie, wie Sie mit Aspose.Words für Java eine Befehls‑Schaltfläche in ein Word‑Dokument einfügen und konfigurieren.
 ### [Erstellen von forms2olecontrol im Code mit Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
 Erfahren Sie, wie Sie programmgesteuert ein forms2olecontrol mit Aspose.Words in Java erstellen und konfigurieren.
+### [Erstellen eines leeren Word-Dokuments und Einfügen einer Nur-Text-Steuerung](./create-blank-word-document-and-insert-a-plain-text-control/)
+Erfahren Sie, wie Sie ein leeres Word-Dokument erstellen und ein Nur-Text-Steuerelement hinzufügen.
+### [Erstellen eines radialen Diagramms in einem Word-Dokument mit Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Erfahren Sie, wie Sie ein radiales Diagramm in einem Word-Dokument mit Java erstellen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

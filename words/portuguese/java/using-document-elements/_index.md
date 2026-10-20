@@ -47,6 +47,8 @@ Lembre-se: a prática leva à perfeição e, com o Aspose.Words para Java, você
 Aprenda a criar um documento Word em branco e adicionar um botão de comando usando Aspose.Words para Java, passo a passo.
 ### [Como inserir botão de comando em um documento Word usando Java](./how-to-insert-command-button-in-a-word-document-using-java/)
 Aprenda a inserir um botão de comando em documentos Word com Aspose.Words para Java. Tutorial passo a passo.
+### [Criar documento Word em branco e inserir um controle de texto simples](./create-blank-word-document-and-insert-a-plain-text-control/)
+Aprenda a criar um documento Word vazio e inserir um controle de texto simples usando Aspose.Words para Java.
 ### [Usando comentários no Aspose.Words para Java](./using-comments/)
 Aprenda a usar comentários no Aspose.Words para Java. Tutorial passo a passo para adicionar e personalizar comentários em seus documentos.
 ### [Usando campos em Aspose.Words para Java](./using-fields/)
@@ -101,6 +103,8 @@ Aprenda a salvar um documento Word depois de modificar um gráfico de rosca usan
 Aprenda a editar gráficos em documentos Word com Aspose.Words para Java. Guia passo a passo para modificar dados e aparência de gráficos.
 ### [Como criar forms2olecontrol em código com Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
 Aprenda a criar controles Forms2OleControl programaticamente usando Aspose.Words para Java.
+### [Como criar um gráfico radial em um documento Word com Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Aprenda a gerar um gráfico radial em documentos Word usando Aspose.Words para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

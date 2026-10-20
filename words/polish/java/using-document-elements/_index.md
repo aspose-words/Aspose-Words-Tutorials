@@ -55,6 +55,8 @@ Poznaj formatowanie czcionek w Aspose.Words dla Java: rozmiar, styl, kolor i wi�
 Naucz się skutecznie używać przypisów dolnych i końcowych w Aspose.Words dla Java. Popraw swoje umiejętności formatowania dokumentów już dziś!
 ### [Korzystanie z pól formularza w Aspose.Words dla Java](./using-form-fields/)
 „Naucz się używać Aspose.Words for Java do tworzenia interaktywnych dokumentów Word z polami formularzy. Zacznij teraz!”
+### [Tworzenie pustego dokumentu Word i wstawianie kontrolki tekstu zwykłego w Aspose.Words dla Java](./create-blank-word-document-and-insert-a-plain-text-control/)
+Dowiedz się, jak utworzyć pusty dokument Word i dodać kontrolkę tekstu zwykłego przy użyciu Aspose.Words dla Java.
 ### [Używanie HarfBuzz w Aspose.Words dla Java](./using-harfbuzz/)
 Naucz się używać HarfBuzz do zaawansowanego kształtowania tekstu w Aspose.Words dla Java. Ulepsz renderowanie tekstu w złożonych skryptach dzięki temu przewodnikowi krok po kroku.
 ### [Używanie nagłówków i stopek w Aspose.Words dla Java](./using-headers-and-footers/)
@@ -102,6 +104,8 @@ Naucz się modyfikować wykresy w dokumentach Word za pomocą Aspose.Words dla J
 Dowiedz się, jak programowo tworzyć kontrolki Forms2OLE w dokumentach przy pomocy Aspose.Words.
 ### [Zapisz dokument Word po edycji wykresu pierścieniowego w Javie](./save-word-document-after-editing-doughnut-chart-in-java/)
 Dowiedz się, jak po edycji wykresu pierścieniowego zapisać dokument Word przy użyciu Aspose.Words dla Java.
+### [Jak utworzyć wykres radialny w dokumencie Word przy użyciu Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Dowiedz się, jak w Aspose.Words for Java stworzyć wykres radialny w dokumencie Word krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

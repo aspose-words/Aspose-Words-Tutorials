@@ -105,6 +105,13 @@ Naučte se seskupovat tvary a přidávat obdélníkový tvar ve Word dokumentu p
 
 ## Další zdroje
 
+### [Vytvořte prázdný dokument Word se skrytým eliptickým tvarem](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
+
+### [Jak vytvořit prázdný dokument a přidat tvary do Wordu](./how-to-create-blank-document-and-add-shapes-to-word/)
+
+### [Jak vytvořit dokument Word s koláčovým grafem v Javě](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
+Naučte se, jak vygenerovat koláčový graf v dokumentu Word pomocí Aspose.Words pro Javu.
+
 ## Další zdroje
 - [Dokumentace k Aspose.Words pro Javu](https://reference.aspose.com/words/java/)
 - [Referenční příručka k Aspose.Words pro Java API](https://reference.aspose.com/words/java/)

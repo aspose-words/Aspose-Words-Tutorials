@@ -98,6 +98,10 @@
 ### [วิธีสร้าง forms2olecontrol ในโค้ดด้วย Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
 ### [บันทึกเอกสาร Word หลังจากแก้ไขแผนภูมิโดนัทใน Java](./save-word-document-after-editing-doughnut-chart-in-java/)
 เรียนรู้วิธีบันทึกเอกสาร Word หลังจากแก้ไขแผนภูมิโดนัทใน Java ด้วย Aspose.Words
+### [สร้างเอกสาร Word ว่างและแทรกคอนโทรลข้อความธรรมดาใน Aspose.Words สำหรับ Java](./create-blank-word-document-and-insert-a-plain-text-control/)
+เรียนรู้วิธีสร้างเอกสาร Word เปล่าและเพิ่มคอนโทรลข้อความธรรมดาโดยใช้ Aspose.Words for Java
+### [วิธีสร้างแผนภูมิรัศมีในเอกสาร Word ด้วย Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
+เรียนรู้วิธีสร้างแผนภูมิรัศมีในเอกสาร Word ด้วย Java อย่างละเอียดด้วยบทช่วยสอนขั้นตอนต่อขั้นตอน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -47,6 +47,8 @@ Hãy nhớ rằng, thực hành sẽ tạo nên sự hoàn hảo và với Aspos
 Hướng dẫn chi tiết cách tạo tài liệu Word trống và thêm nút lệnh để người dùng có thể tạo tài liệu mới.
 ### [Cách thêm SDT trong C# – hướng dẫn đầy đủ cho các placeholder Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
 Hướng dẫn chi tiết cách chèn SDT (Structured Document Tag) trong C# để tạo các placeholder trong tài liệu Word.
+### [Cách tạo biểu đồ dạng tròn trong tài liệu Word bằng Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Hướng dẫn từng bước tạo biểu đồ dạng tròn trong tài liệu Word bằng Java sử dụng Aspose.Words.
 ### [Sử dụng chú thích trong Aspose.Words cho Java](./using-comments/)
 Tìm hiểu cách sử dụng chú thích trong Aspose.Words cho Java. Hướng dẫn từng bước để thêm và tùy chỉnh chú thích trong tài liệu của bạn.
 ### [Sử dụng Fields trong Aspose.Words cho Java](./using-fields/)
@@ -101,6 +103,8 @@ Hướng dẫn chi tiết cách chèn nút lệnh vào tài liệu Word bằng J
 Hướng dẫn chi tiết cách chỉnh sửa biểu đồ trong tài liệu Word bằng Java với Aspose.Words.
 ### [Lưu tài liệu Word sau khi chỉnh sửa biểu đồ donut trong Java](./save-word-document-after-editing-doughnut-chart-in-java/)
 Hướng dẫn lưu tài liệu Word sau khi chỉnh sửa biểu đồ donut bằng Aspose.Words for Java.
+### [Tạo tài liệu Word trống và chèn điều khiển văn bản thuần trong Aspose.Words cho Java](./create-blank-word-document-and-insert-a-plain-text-control/)
+Hướng dẫn tạo tài liệu Word trống và chèn một điều khiển văn bản thuần bằng Aspose.Words cho Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

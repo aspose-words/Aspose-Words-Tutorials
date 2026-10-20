@@ -73,7 +73,7 @@ Dowiedz się, jak usuwać zawartość z dokumentów Word w Javie za pomocą Aspo
 ### [Korzystanie z zakładek w Aspose.Words dla Java](./using-bookmarks/)
 Zoptymalizuj przetwarzanie dokumentów za pomocą Aspose.Words for Java. Naucz się używać zakładek do wydajnej nawigacji i manipulacji treścią w tym przewodniku krok po kroku.
 ### [Korzystanie z zakresów dokumentów w Aspose.Words dla Java](./using-document-ranges/)
-Opanuj manipulację zakresem dokumentu w Aspose.Words dla Java. Naucz się usuwać, wyodrębniać i formatować tekst dzięki temu kompleksowemu przewodnikowi.
+Opanuj manipulację zakresem dokumentu w Aspose.Words for Java. Naucz się usuwać, wyodrębniać i formatować tekst dzięki temu kompleksowemu przewodnikowi.
 ### [Korzystanie ze strukturalnych znaczników dokumentu (SDT) w Aspose.Words dla języka Java](./using-structured-document-tags/)
 Dowiedz się, jak używać Structured Document Tags (SDT) w Aspose.Words for Java dzięki temu kompleksowemu przewodnikowi. Twórz, modyfikuj i wiąż SDT z niestandardowymi danymi XML.
 ### [Używanie stylów i motywów w Aspose.Words dla Java](./using-styles-and-themes/)
@@ -111,6 +111,8 @@ Krok po kroku pokażemy, jak dodać przycisk ActiveX do dokumentu DOCX w Javie, 
 ### [Jak utworzyć dokument Word w Javie przy użyciu Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
 Dowiedz się, jak w kilku krokach stworzyć dokument Word w Javie przy użyciu Aspose.Words.
 ### [Dodawanie kontrolki zawartości w dokumencie Word przy użyciu Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+### [Utwórz pusty dokument z interaktywnym przyciskiem polecenia w Word przy użyciu Javy](./create-blank-document-with-an-interactive-command-button-in/)
+Tworzy pusty dokument Word i dodaje interaktywny przycisk polecenia przy użyciu Aspose.Words for Java. 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

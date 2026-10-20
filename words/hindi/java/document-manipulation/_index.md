@@ -112,6 +112,8 @@ Java के लिए Aspose.Words के साथ PDF में एक्स�
 Java में docx फ़ाइल में ActiveX बटन जोड़ने की पूरी मार्गदर्शिका।
 ### [Java में Aspose.Words के साथ Word दस्तावेज़ बनाना](./how-to-create-a-word-document-in-java-with-aspose-words/)
 Aspose.Words for Java का उपयोग करके नया Word दस्तावेज़ बनाने के चरण-दर-चरण मार्गदर्शक।
+### [Java का उपयोग करके Word में एक इंटरैक्टिव कमांड बटन के साथ खाली दस्तावेज़ बनाएं](./create-blank-document-with-an-interactive-command-button-in/)
+Java का उपयोग करके Word में इंटरैक्टिव कमांड बटन के साथ खाली दस्तावेज़ बनाना सीखें। 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

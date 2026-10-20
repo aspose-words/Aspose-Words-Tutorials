@@ -99,6 +99,10 @@ Leer hoe je leidlijnen toevoegt aan een taartdiagram met de Aspose.Words Chart A
 Leer hoe u een opdrachtknop toevoegt aan een Word-document met Aspose.Words voor Java.
 ### [Word-document opslaan na het bewerken van een donutgrafiek in Java](./save-word-document-after-editing-doughnut-chart-in-java/)
 Leer hoe u een Word-document opslaat nadat u een doughnut-diagram hebt bewerkt met Aspose.Words voor Java.
+### [Radiale grafiek maken in een Word-document met Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Leer hoe je een radiale grafiek in een Word-document kunt maken met Aspose.Words voor Java. Volg de stapsgewijze tutorial.
+### [Leeg Word-document maken en een platte‑tekst besturingselement invoegen](./create-blank-word-document-and-insert-a-plain-text-control/)
+Maak een leeg Word-document en voeg een platte‑tekst besturingselement toe.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -102,6 +102,10 @@ Tanuld meg, hogyan szúrj be parancsgombot egy Word dokumentumba Java segítség
 Ismerje meg, hogyan hozhat létre Forms2OleControl objektumot kódból az Aspose.Words Java-ban.
 ### [Word dokumentum mentése a gyűrűdiagram szerkesztése után Java-ban](./save-word-document-after-editing-doughnut-chart-in-java/)
 Tanuld meg, hogyan mentheted el a Word dokumentumot a gyűrűdiagram módosítása után Java-val.
+### [Radiális diagram létrehozása Word dokumentumban Java-val](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Tanuld meg, hogyan készíts radiális diagramot Word dokumentumban Java segítségével.
+### [Üres Word dokumentum létrehozása és egyszerű szövegvezérlő beszúrása](./create-blank-word-document-and-insert-a-plain-text-control/)
+Tanuld meg, hogyan hozz létre üres Word dokumentumot és szúrj be egyszerű szövegvezérlőt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
