@@ -89,6 +89,9 @@ weight: 14
 ### [تصدير المستندات إلى PDF](./exporting-documents-to-pdf/)
 تعرف على كيفية تصدير المستندات إلى PDF باستخدام Aspose.Words for Java. هذا الدليل خطوة بخطوة يبسط العملية لتحويل المستندات بسلاسة.
 
+### [حفظ ملف docx كـ pdf باستخدام Aspose.Words – دليل Java كامل](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+دليل شامل يوضح كيفية حفظ مستندات DOCX كملفات PDF باستخدام Aspose.Words في Java خطوة بخطوة.
+
 ### [تحويل المستندات إلى صيغ مختلفة](./converting-documents-different-formats/)
 تعرف على كيفية تحويل المستندات إلى صيغ مختلفة باستخدام Aspose.Words for Java. دليل خطوة بخطوة لتحويل المستندات بفعالية.
 
@@ -104,6 +107,10 @@ weight: 14
 ### [حفظ docx كـ markdown باستخدام Aspose.Words – دليل كامل](./save-docx-as-markdown-with-aspose-words-complete-guide/)
 ### [تحويل DOCX إلى PDF في Java – دليل خطوة بخطوة](./convert-docx-to-pdf-in-java-step-by-step-guide/)
 دليل خطوة بخطوة لتحويل ملفات DOCX إلى PDF باستخدام Aspose.Words for Java، مع أمثلة شفرة وإعدادات مخصصة.
+### [تحويل docx إلى txt في Java – دليل برمجة كامل](./convert-docx-to-txt-in-java-complete-programming-guide/)
+### [تحويل docx إلى markdown باستخدام Aspose.Words Java – دليل كامل](./convert-docx-to-markdown-with-aspose-words-java-full-guide/)
+تعلم كيفية تحويل ملفات DOCX إلى تنسيق Markdown باستخدام Aspose.Words for Java خطوة بخطوة.
+### [تحويل DOCX إلى PDF في Java – دليل منخفض الكود بسيط](./convert-docx-to-pdf-in-java-simple-low-code-guide/)
 
 ## الأسئلة المتكررة
 

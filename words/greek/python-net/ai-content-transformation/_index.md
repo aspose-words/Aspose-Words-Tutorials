@@ -28,6 +28,9 @@
 ### [Σύνοψη και μετάφραση τεχνητής νοημοσύνης σε Python: Οδηγός Aspose.Words και OpenAI](./ai-summarization-translation-aspose-openai-python/)
 Μάθετε πώς να αυτοματοποιείτε τη σύνοψη και τη μετάφραση με τεχνητή νοημοσύνη χρησιμοποιώντας το Aspose.Words για Python και OpenAI. Αυτός ο οδηγός καλύπτει την εγκατάσταση, την υλοποίηση και τις πρακτικές εφαρμογές.
 
+### [Δημιουργία Περίληψης Εγγράφου Python – Πλήρης Οδηγός Χρήσης Aspose.Words AI](./create-document-summary-python-full-guide-using-aspose-words/)
+Μάθετε πώς να δημιουργήσετε αυτόματες περιλήψεις εγγράφων με Python χρησιμοποιώντας το Aspose.Words AI.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.Words για τεκμηρίωση Python-net](https://docs.aspose.com/words/python-net/)

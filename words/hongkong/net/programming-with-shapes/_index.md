@@ -39,6 +39,7 @@ Aspose.Words for .NET 教學中關於使用形狀進行文字處理的教學提�
 | [為 Word 形狀新增陰影效果 – 完整 C# 指南](./add-shadow-effect-to-word-shapes-complete-c-guide/) |透過本完整的 C# 教學，學習如何在 Word 文件的形狀上添加陰影效果，提升視覺效果。 |
 | [使用陰影矩形建立 Word 文件 – 步驟指南](./create-word-document-with-a-shadowed-rectangle-step-by-step/) |透過本逐步教學了解如何使用 Aspose.Words for .NET 在 Word 文件中插入帶陰影的矩形形狀。 |
 | [Aspose.Words 形狀陰影教學 – 在 C# 中為 Word 形狀新增陰影](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) |透過本教學學習如何在 C# 中使用 Aspose.Words 為 Word 形狀新增陰影效果。 |
+| [如何在 C# 中為 Word 形狀新增陰影 – 完整指南](./how-to-add-shadow-to-word-shapes-in-c-complete-guide/) |透過本完整指南學習如何在 C# 使用 Aspose.Words 為 Word 形狀新增陰影效果。 |
 | [建立帶陰影矩形形狀的空白 Word 文件 – 逐步指南](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) |透過本逐步教學了解如何使用 Aspose.Words for .NET 建立帶陰影的矩形形狀的空白 Word 文件。 |
 | [使用 Aspose.Words 在 C# 中編輯形狀陰影 – 逐步指南](./how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/) |了解如何在 C# 中使用 Aspose.Words 為形狀設定或修改陰影效果，提供完整步驟與範例程式碼。 |
 | [為形狀添加陰影](./add-shadow-to-shape-step-by-step-guide-for-c-developers/) |透過本逐步教學了解如何在 Aspose.Words for .NET 中為形狀添加陰影，以提升文件的視覺效果。 |
@@ -51,6 +52,13 @@ Aspose.Words for .NET 教學中關於使用形狀進行文字處理的教學提�
 | [在 C# 中為形狀添加陰影 – 完整 Aspose.Words 指南](./add-shadow-to-shape-in-c-complete-aspose-words-guide/) |透過本完整教學學習如何在 C# 使用 Aspose.Words 為 Word 文件中的形狀添加陰影效果。 |
 | [建立 Word 文件 – 如何新增矩形形狀與陰影](./create-word-document-how-to-add-rectangle-shape-and-shadow/) |透過本教學了解如何在 Word 文件中使用 Aspose.Words for .NET 新增矩形形狀並套用陰影效果。 |
 | [在 C# 中使用 Aspose.Words 建立帶陰影的矩形形狀](./create-rectangle-shape-with-shadow-in-c-using-aspose-words/) |透過本逐步教學了解如何在 C# 中使用 Aspose.Words 為矩形形狀新增陰影。 |
+| [建立帶陰影矩形的 Word 文件 – 完整指南](./create-word-document-with-shadowed-rectangle-complete-guide/) |透過本完整指南學習如何使用 Aspose.Words for .NET 在 Word 文件中建立帶陰影的矩形形狀。 |
+| [在 C# 中建立 Word 文件 – 插入矩形形狀與陰影](./create-word-document-insert-rectangle-shape-shadow-in-c/) |透過本教學了解如何在 C# 中使用 Aspose.Words for .NET 建立 Word 文件並插入帶陰影的矩形形狀。 |
+| [如何在 Word 中為形狀新增陰影 – 完整指南](./how-to-add-shadow-word-complete-guide-for-shapes/) |透過本完整指南學習在 Word 中為形狀新增陰影，提升文件視覺效果。 |
+| [在 Word 文件中為形狀新增陰影 – 完整 C# 教學](./add-shadow-to-shape-in-word-documents-complete-c-guide/) |透過本完整的 C# 教學了解如何在 Word 文件中為形狀新增陰影。 |
+| [建立 Word 文件 C# – 新增帶陰影的形狀](./create-word-document-c-add-shape-with-shadow/) |透過本逐步教學了解如何使用 Aspose.Words for .NET 在 Word 文件中新增帶陰影的形狀。 |
+| [在 C# 中設定形狀陰影 – 逐步指南](./how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/) |透過本逐步指南了解如何在 C# 中使用 Aspose.Words for .NET 為形狀設定陰影效果。 |
+| [設定 Word 形狀陰影 – C# 教學](./how-to-set-shadow-on-a-word-shape-c-tutorial/) |了解如何使用 Aspose.Words for .NET 於 C# 中為 Word 文件的形狀設定陰影效果，並提供程式碼範例。 |
 | [在 C# 中建立矩形形狀並添加陰影](./create-rectangle-shape-and-how-to-add-shadow-in-c/) |透過本逐步教學了解如何在 C# 使用 Aspose.Words for .NET 建立矩形形狀並加入陰影效果。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

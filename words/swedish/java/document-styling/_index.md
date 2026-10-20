@@ -45,6 +45,8 @@ Lär dig hur du använder vattenstämplar och konfigurerar sidkonfigurationer me
 Lär dig hur du formaterar dokumentsidhuvuden och sidfot med Aspose.Words för Java i den här detaljerade guiden. Steg-för-steg-instruktioner och källkod ingår.
 ### [Hur du upptäcker teckensnitt i Java Word-dokument – Komplett guide](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 Lär dig hur du identifierar och listar teckensnitt i Word-dokument med Aspose.Words för Java. Steg-för-steg-guide med kodexempel.
+### [Ställ in standardteckensnitt i Aspose.Words för Java – Komplett guide](./set-default-font-settings-in-aspose-words-for-java-complete/)
+Lär dig hur du ställer in standardteckensnitt för dokument med Aspose.Words för Java. En komplett guide med kodexempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

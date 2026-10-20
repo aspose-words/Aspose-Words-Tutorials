@@ -89,6 +89,9 @@ Tìm hiểu cách chuyển đổi tài liệu hiệu quả với Aspose.Words ch
 ### [Xuất tài liệu sang PDF](./exporting-documents-to-pdf/)
 Tìm hiểu cách xuất tài liệu sang PDF bằng Aspose.Words cho Java. Hướng dẫn từng bước này đơn giản hoá quy trình để chuyển đổi tài liệu liền mạch.
 
+### [Chuyển đổi DOCX sang PDF trong Java – Hướng dẫn Low‑Code đơn giản](./convert-docx-to-pdf-in-java-simple-low-code-guide/)
+Hướng dẫn nhanh cách chuyển đổi DOCX sang PDF trong Java chỉ với vài dòng mã, không cần cấu hình phức tạp.
+
 ### [Chuyển đổi tài liệu sang các định dạng khác nhau](./converting-documents-different-formats/)
 Tìm hiểu cách chuyển đổi tài liệu sang các định dạng khác nhau bằng Aspose.Words cho Java. Hướng dẫn từng bước để chuyển đổi tài liệu hiệu quả.
 
@@ -105,6 +108,12 @@ Tìm hiểu cách chuyển đổi tài liệu Word sang hình ảnh bằng Aspos
 Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang định dạng Markdown bằng Aspose.Words cho Java.
 ### [Chuyển đổi DOCX sang PDF trong Java – Hướng dẫn từng bước](./convert-docx-to-pdf-in-java-step-by-step-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang PDF trong Java bằng Aspose.Words, bao gồm cài đặt, mã mẫu và tùy chọn lưu.
+### [Lưu docx thành pdf với Aspose.Words – Hướng dẫn Java đầy đủ](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+Hướng dẫn chi tiết cách lưu tệp DOCX thành PDF bằng Aspose.Words trong Java.
+### [Chuyển đổi docx sang txt trong Java – Hướng dẫn lập trình đầy đủ](./convert-docx-to-txt-in-java-complete-programming-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang TXT trong Java bằng Aspose.Words, bao gồm ví dụ mã và các tùy chọn nâng cao.
+### [Chuyển đổi docx sang markdown với Aspose.Words Java – Hướng dẫn đầy đủ](./convert-docx-to-markdown-with-aspose-words-java-full-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang Markdown bằng Aspose.Words cho Java.
 
 ## Câu hỏi thường gặp
 
