@@ -1,0 +1,7 @@
+Title: How to Edit Chart in Word: Change Label Position, Font & More
+Slug: how-to-edit-chart-in-word-change-label-position-font-more
+Category: working-with-charts
+ProcessedDate: 2026-07-29T15:09:11.842183
+SourceRepo: AI Search API
+Keywords: how to edit chart, change chart label position, adjust bar chart labels, modify chart data labels, change chart label font
+PRNumber: 236

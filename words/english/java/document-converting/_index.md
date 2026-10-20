@@ -1,8 +1,8 @@
 ---
-title: Convert Word to PDF with Aspose.Words for Java
+title: Convert Word to PDF with Aspose.Words for Java Document Conversion API
 linktitle: Document Converting
 second_title: Aspose.Words Java Document Processing API
-description: Streamline converting Word to PDF in Java with Aspose.Words! Learn comprehensive guides for document converting, export documents to PDF, and more.
+description: Streamline converting Word to PDF in Java with Aspose.Words for Java API! Learn comprehensive guides for document converting, exporting documents to PDF, and more.
 weight: 14
 url: /java/document-converting/
 date: 2025-12-16
@@ -14,7 +14,7 @@ date: 2025-12-16
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Convert Word to PDF with Aspose.Words for Java
+# Convert Word to PDF with Aspose.Words for Java Document Conversion API
 
 Looking to **convert Word to PDF** effortlessly in your Java application? Aspose.Words for Java offers comprehensive tutorials on document converting that cover a wide range of formats. Learn how to convert Word documents to PDF, HTML, and more with step‑by‑step guides. These tutorials also delve into advanced techniques, such as preserving formatting during conversion and handling complex document structures. With Aspose.Words for Java, you can seamlessly integrate word processing and document processing functionalities into your application and enhance your document management capabilities.
 
@@ -40,7 +40,7 @@ Converting a Word document (DOC, DOCX, RTF, etc.) to a PDF file means transformi
 - Aspose.Words for Java library (download from the Aspose website or add via Maven/Gradle).  
 - A valid Aspose license for production use (free trial available).
 
-## Common Use Cases
+## Common use cases
 | Scenario | How Aspose.Words Helps |
 |----------|------------------------|
 | **Convert Word to PDF on a web service** | Simple API call, no Office server needed. |
@@ -51,10 +51,10 @@ Converting a Word document (DOC, DOCX, RTF, etc.) to a PDF file means transformi
 
 ## Step‑by‑Step Guide to Convert Word to PDF
 
-### 1. Set Up the Project
+### 1. set up the project
 Add the Aspose.Words dependency to your `pom.xml` (Maven) or `build.gradle` (Gradle). This step ensures the library is available at compile time.
 
-### 2. Load the Source Word Document
+### 2. load the source word document
 Create a `Document` instance pointing to your `.docx` (or other supported) file.
 
 ### 3. (Optional) Configure PDF Save Options
@@ -63,6 +63,14 @@ If you need to control image quality, font embedding, or PDF compliance, instant
 ### 4. Save the Document as PDF
 Call `document.save("output.pdf", SaveFormat.PDF)` or pass the configured `PdfSaveOptions`.
 
+```java
+// Load the document
+Document doc = new Document("input.docx");
+
+// Save as PDF
+doc.save("output.pdf", SaveFormat.PDF);
+```
+
 > **Pro tip:** Reuse the same `License` object across multiple conversions to improve performance.
 
 ## Advanced Topics
@@ -70,7 +78,7 @@ Call `document.save("output.pdf", SaveFormat.PDF)` or pass the configured `PdfSa
 ### Export Documents to PDF with Custom Options
 Use `PdfSaveOptions` to set image compression, embed all fonts, or create PDF/A‑1b compliant files.
 
-### Merge Multiple Documents Before Conversion
+### Merge multiple documents before conversion
 Load each document, call `mainDoc.appendDocument(otherDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING)`, then save the combined document as PDF.
 
 ### Convert Word to HTML and Back Again
@@ -79,30 +87,44 @@ First, `document.save("temp.html", SaveFormat.HTML)`. To convert the HTML back t
 ### Convert HTML to Word Documents
 Leverage `Document doc = new Document(new ByteArrayInputStream(htmlBytes), new LoadOptions(LoadFormat.HTML));` and then `doc.save("output.docx")`.
 
-## Document Converting Tutorials
+## Document converting tutorials
 
-### [Using Document Converting Feature](./using-document-converting/)
+### [Using document converting feature]({{< relref "using-document-converting/_index.md" >}})
 Learn efficient document converting with Aspose.Words for Java. Convert, merge, and process files flawlessly. Simplify your workflow in one powerful library.
 
-### [Exporting Documents to PDF](./exporting-documents-to-pdf/)
+### [Exporting documents to PDF]({{< relref "exporting-documents-to-pdf/_index.md" >}})
 Learn how to export documents to PDF using Aspose.Words for Java. This step-by-step guide simplifies the process for seamless document conversion.
 
-### [Converting Documents to Different Formats](./converting-documents-different-formats/)
+### [Converting documents to different formats]({{< relref "converting-documents-different-formats/_index.md" >}})
 Learn how to convert documents to different formats using Aspose.Words for Java. Step-by-step guide for efficient document conversion.
 
-### [Converting HTML to Documents](./converting-html-documents/)
+### [Converting HTML to Documents]({{< relref "converting-html-documents/_index.md" >}})
 Convert HTML to Word documents effortlessly with Aspose.Words for Java. Learn how to perform this conversion in just a few steps with our comprehensive guide.
 
-### [Document Conversion with SaveOptions](./document-conversion-saveoptions/)
+### [Document conversion with saveOptions]({{< relref "document-conversion-saveoptions/_index.md" >}})
 Efficiently convert DOCX to EPUB using Aspose.Words for Java. Learn how to customize save options, split content, and export document properties in this step-by-step guide.
 
-### [Converting Documents to Images](./converting-documents-images/)
+### [Converting documents to images]({{< relref "converting-documents-images/_index.md" >}})
 Learn how to convert Word documents to images using Aspose.Words for Java. Step-by-step guide, complete with code examples and FAQs.
 
+### [Save docx as markdown with Aspose.Words – Complete Guide](./save-docx-as-markdown-with-aspose-words-complete-guide/)
+Learn how to save DOCX files as Markdown using Aspose.Words for Java. This step‑by‑step guide covers conversion, options, and code examples.
+### [Convert DOCX to PDF in Java – Step‑by‑Step Guide](./convert-docx-to-pdf-in-java-step-by-step-guide/)
+Learn how to convert DOCX to PDF in Java using Aspose.Words with a clear, step‑by‑step guide.
+### [save docx as pdf with Aspose.Words – Complete Java Guide](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+Step‑by‑step guide to convert DOCX to PDF using Aspose.Words for Java, covering setup, code examples, and advanced options.
+### [Convert docx to txt in Java – Complete Programming Guide](./convert-docx-to-txt-in-java-complete-programming-guide/)
+Learn how to convert DOCX files to plain text in Java using Aspose.Words with step‑by‑step code examples.
+### [convert docx to markdown with Aspose.Words Java – Full Guide](./convert-docx-to-markdown-with-aspose-words-java-full-guide/)
+Learn how to convert DOCX files to Markdown with Aspose.Words for Java in this comprehensive step‑by‑step guide.
 ### [Save Markdown as DOCX with Aspose.Words – Java Guide](./save-markdown-as-docx-with-aspose-words-java-guide/)
 Convert Markdown files to DOCX using Aspose.Words for Java with this concise step‑by‑step guide.
 
 ## Frequently Asked Questions
+### [Convert DOCX to PDF in Java – Simple Low‑Code Guide]({{< relref "convert-docx-to-pdf-in-java-simple-low-code-guide/_index.md" >}})
+A quick low‑code guide to convert DOCX files to PDF in Java using Aspose.Words, with minimal setup and code.
+
+## Frequently asked questions
 
 **Q:** *Can I convert password‑protected Word files to PDF?*  
 **A:** Yes. Load the document with the password (`LoadOptions`) and then save it as PDF.

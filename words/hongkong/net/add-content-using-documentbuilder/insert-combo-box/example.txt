@@ -1,0 +1,24 @@
+//ExStart
+//ExSummary: 本教學示範如何使用 DocumentBuilder 建立 Word 文件、加入具有預先定義項目的下拉式方塊表單欄位，並儲存文件。
+//ExStepSummary:0: 設定儲存最終文件的資料夾路徑。
+//ExStepSummary:1: 建立一個字串陣列，用於填充下拉式方塊的選項。
+//ExStepSummary:2: 實例化一個新的 Document，並建立與之關聯的 DocumentBuilder。
+//ExStepSummary:3: 呼叫 `builder.InsertComboBox`，在目前游標位置放置一個名稱為 "DropDown"、包含已定義項目的下拉式方塊。
+//ExStepSummary:4: 將文件儲存為 .docx 檔案至指定目錄。
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+string[] items = { "One", "Two", "Three" };
+
+//ExStep:2-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertComboBox("DropDown", items, 0);
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertComboBoxFormField.docx");
+//ExEnd

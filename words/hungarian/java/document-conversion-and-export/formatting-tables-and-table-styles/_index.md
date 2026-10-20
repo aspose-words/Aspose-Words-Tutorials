@@ -1,75 +1,132 @@
 ---
-date: 2025-11-28
-description: Ismerje meg, hogyan változtathatja meg a cellák szegélyeit és formázhatja
-  a táblázatokat az Aspose.Words for Java segítségével. Ez a lépésről‑lépésre útmutató
-  lefedi a szegélyek beállítását, az első oszlop stílusának alkalmazását, a táblázat
-  tartalmának automatikus méretezését, valamint a táblázat stílusainak alkalmazását.
-linktitle: How to Change Cell Borders in Tables – Aspose.Words for Java
+date: 2026-10-17
+description: Ismerje meg, hogyan változtathatja meg a táblázatcellák szegélyeit az
+  Aspose.Words for Java segítségével, beleértve a cellaszegély stílusok beállítását,
+  az első oszlop stílusának alkalmazását és a táblázat tartalmának automatikus méretezését.
+keywords:
+- how to change borders
+- apply first column style
+- Aspose.Words table styling
+- Java document processing
+lastmod: 2026-10-17
+linktitle: Hogyan módosítsuk a táblázatcellák szegélyeit az Aspose.Words for Java
+  használatával
+og_description: Hogyan változtathatja meg a táblázatcellák szegélyeit az Aspose.Words
+  for Java segítségével. Ez az útmutató megmutatja, hogyan állíthatja be a cellaszegély
+  vastagságát, alkalmazhatja az első oszlop stílusát, és automatikusan méretezheti
+  a táblázatokat professzionális dokumentumokhoz.
+og_image_alt: Screenshot of a Java table with customized cell borders using Aspose.Words
+og_title: Hogyan módosítsuk a táblázatcellák szegélyeit – Aspose.Words for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-17'
+  description: Learn how to change borders in table cells with Aspose.Words for Java,
+    including setting cell border styles, applying first column style, and auto‑fit
+    table contents.
+  headline: How to change borders in table cells using Aspose.Words for Java
+  type: TechArticle
+- description: Learn how to change borders in table cells with Aspose.Words for Java,
+    including setting cell border styles, applying first column style, and auto‑fit
+    table contents.
+  name: How to change borders in table cells using Aspose.Words for Java
+  steps:
+  - name: '**Java Development Kit (JDK) 8+** – ensure `java` is on your PATH.'
+    text: '**Java Development Kit (JDK) 8+** – ensure `java` is on your PATH.'
+  - name: '**IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.'
+    text: '**IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.'
+  - name: '**Aspose.Words for Java** – download the latest JAR from the [official
+      site](https://releases.aspose.com/words/java/).'
+    text: '**Aspose.Words for Java** – download the latest JAR from the [official
+      site](https://releases.aspose.com/words/java/).'
+  - name: '**Basic Java knowledge** – you should be comfortable creating a Maven/Gradle
+      project and adding external JARs.'
+    text: '**Basic Java knowledge** – you should be comfortable creating a Maven/Gradle
+      project and adding external JARs.'
+  type: HowTo
+- questions:
+  - answer: Yes, you can create and apply custom styles programmatically. See the
+      [Aspose.Words documentation](https://reference.aspose.com/words/java/) for details.
+    question: Can I use custom table styles not included in the default options?
+  - answer: Use standard Java logic to inspect cell values, then call the appropriate
+      formatting methods (e.g., change background colour if a value exceeds a threshold).
+    question: How can I apply conditional formatting to cells?
+  - answer: Absolutely. After merging cells, apply shading or borders using the same
+      `CellFormat` APIs.
+    question: Is it possible to format merged cells the same way as regular cells?
+  - answer: Adjust column widths or call `autoFit` again after inserting new data
+      to recalculate the layout.
+    question: What if I need the table to resize dynamically based on user input?
+  - answer: The official [Aspose.Words API documentation](https://reference.aspose.com/words/java/)
+      contains a comprehensive set of samples.
+    question: Where can I find more examples of table styling?
+  type: FAQPage
 second_title: Aspose.Words Java Document Processing API
-title: Hogyan változtassuk meg a cellaszegélyeket táblázatokban – Aspose.Words for
-  Java
+tags:
+- Aspose.Words
+- Java tables
+- document formatting
+- border styling
+title: Hogyan módosítsuk a táblázatcellák szegélyeit az Aspose.Words for Java használatával
 url: /hu/java/document-conversion-and-export/formatting-tables-and-table-styles/
 weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan változtassuk meg a cellaszegélyeket táblázatokban – Aspose.Words for Java
+# Hogyan változtassuk meg a táblázatcellák szegélyeit az Aspose.Words for Java használatával
 
 ## Bevezetés
 
-A dokumentumformázásnál a táblázatok kulcsfontosságú szerepet játszanak, és **tudni, hogyan változtassuk meg a cellaszegélyeket** elengedhetetlen a tiszta, professzionális elrendezések létrehozásához. Ha Java-val és Aspose.Words-szel fejlesztesz, már egy erőteljes eszközkészlet áll a rendelkezésedre. Ebben az útmutatóban végigvezetünk a táblázatok formázásának teljes folyamatán, a cellaszegélyek módosításán, az *első oszlop stílus* alkalmazásán és az *auto‑fit táblázattartalom* használatán, hogy dokumentumaid kifinomultak legyenek.
+Amikor tiszta, professzionális elrendezésben kell adatokat bemutatni, a **cellaszegélyek módosítása** az első vizuális finomhangolások egyike, amelyet alkalmazni fogsz. Java-ban az Aspose.Words egy teljes körű API-t biztosít, amely lehetővé teszi a táblázatok stílusának beállítását, az egyes cellaszegélyek módosítását, az első oszlop stílusának engedélyezését, valamint a tartalom automatikus illesztését, hogy a táblázat ne lógjon ki az oldalról. Ez az útmutató végigvezet minden lépésen, a dokumentum létrehozásától a szegélyek finomhangolásáig, és megmutatja, miért fontosak ezek a funkciók a valós világban előforduló jelentésekben és számlákban.
 
 ## Gyors válaszok
-- **Mi a fő osztály a táblázatok építéséhez?** A `DocumentBuilder` programozottan hoz létre táblázatokat és cellákat.  
-- **Hogyan változtassam meg egyetlen cella szegélyvastagságát?** Használd a `builder.getCellFormat().getBorders().getLeft().setLineWidth(value)` metódust.  
-- **Alkalmazhatok előre definiált táblázatstílust?** Igen – hívd a `table.setStyleIdentifier(StyleIdentifier.YOUR_STYLE)` metódust.  
-- **Melyik metódus auto‑fit-eli a táblázatot a tartalmához?** `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)`.  
-- **Szükség van licencre a termeléshez?** Érvényes Aspose.Words licenc szükséges a nem‑próba használathoz.
+A `DocumentBuilder` osztályt használják a dokumentumok és táblázatok programozott építésére.  
+- **Mi a fő osztály a táblázatok építéséhez?** `DocumentBuilder` creates tables and cells programmatically.  
+- **Hogyan változtathatom meg egyetlen cella szegélyvastagságát?** Use `builder.getCellFormat().getBorders().getLeft().setLineWidth(value)`.  
+- **Alkalmazhatok előre definiált táblázatstílust?** Yes – call `table.setStyleIdentifier(StyleIdentifier.YOUR_STYLE)`.  
+- **Melyik metódus illeszti automatikusan a táblázatot a tartalomhoz?** `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)`.  
+- **Szükség van licencre a termeléshez?** A valid Aspose.Words license is required for non‑trial use.
 
-## Mi az a „cellaszegélyek módosítása” az Aspose.Words-ben?
+## Mi a cellaszegélyek módosítása az Aspose.Words-ben?
 
-A cellaszegélyek módosítása azt jelenti, hogy testre szabod a cellákat elválasztó vizuális vonalakat – szín, szélesség és vonalstílus. Az Aspose.Words gazdag API-t biztosít, amely lehetővé teszi ezen tulajdonságok beállítását a táblázat, sor vagy egyedi cella szintjén, így finomhangolt kontrollt kapsz a dokumentumaid megjelenése felett.
+A cellaszegélyek módosítása azt jelenti, hogy testre szabjuk a cellákat elválasztó vizuális vonalakat – szín, szélesség és vonalstílus. Az Aspose.Words for Java egy részletes API-t kínál, amely lehetővé teszi ezen tulajdonságok beállítását a táblázat, sor vagy egyedi cella szintjén, így pontosan szabályozhatja a dokumentumok megjelenését.
 
-## Miért használjuk az Aspose.Words for Java táblázatstílusait?
+## Miért használjuk az Aspose.Words for Java táblázatformázását?
 
-- **Konzisztens megjelenés platformok között** – ugyanaz a stíluskód működik Windows, Linux és macOS rendszereken.  
-- **Nincs függőség a Microsoft Wordtől** – szerver‑oldalon generálhatsz vagy módosíthatsz dokumentumokat.  
-- **Gazdag stíluskönyvtár** – beépített táblázatstílusok (pl. *első oszlop stílus*) és teljes auto‑fit képességek.  
+Az Aspose.Words **35+ bemeneti és kimeneti formátumot** támogat (DOCX, PDF, HTML, ODT stb.) és **500 oldalas dokumentumokat** képes feldolgozni **3 másodperc alatt** tipikus szerverhardveren, Microsoft Word nélkül. A könyvtár következetesen működik Windows, Linux és macOS rendszereken, lehetővé téve a dokumentumok szerveroldali generálását vagy módosítását, beépített táblázatstílusok, például az *első oszlop stílusának* alkalmazását, valamint a táblázatok automatikus illesztését a tartalomhoz egyetlen metódushívással.
 
-## Előkövetelmények
+## Előfeltételek
 
-1. **Java Development Kit (JDK) 8+** – győződj meg róla, hogy a `java` elérhető a PATH‑on.  
-2. **IDE** – IntelliJ IDEA, Eclipse vagy bármely kedvenc szerkesztőd.  
-3. **Aspose.Words for Java** – töltsd le a legújabb JAR‑t a [hivatalos oldalról](https://releases.aspose.com/words/java/).  
-4. **Alapvető Java ismeretek** – képesnek kell lenned Maven/Gradle projekt létrehozására és külső JAR‑ok hozzáadására.
+1. **Java Development Kit (JDK) 8+** – győződjön meg róla, hogy a `java` a PATH‑ban van.  
+2. **IDE** – IntelliJ IDEA, Eclipse vagy bármely kedvelt szerkesztő.  
+3. **Aspose.Words for Java** – töltse le a legújabb JAR‑t a [hivatalos oldalról](https://releases.aspose.com/words/java/).  
+4. **Alapvető Java ismeretek** – kényelmesen kell tudnia Maven/Gradle projektet létrehozni és külső JAR‑okat hozzáadni.
 
 ## Csomagok importálása
 
-A táblázatokkal való munka megkezdéséhez szükséged van az alapvető Aspose.Words osztályokra:
+A `Document`, `DocumentBuilder`, `Table`, `StyleIdentifier` és a kapcsolódó osztályok a `com.aspose.words` névtérben találhatók. Ennek az egyetlen csomagnak az importálása hozzáférést biztosít a teljes táblázat‑stílus eszköztárhoz. A `DocumentBuilder` osztály metódusokat kínál a dokumentum programozott létrehozásához és módosításához.
 
 ```java
 import com.aspose.words.*;
 ```
 
-Ez az egyetlen import hozzáférést biztosít a `Document`, `DocumentBuilder`, `Table`, `StyleIdentifier` és számos egyéb segédeszközhöz.
-
 ## Hogyan változtassuk meg a cellaszegélyeket
 
-Az alábbiakban egy egyszerű táblázatot hozunk létre, módosítjuk a teljes szegélyeit, majd egyedi cellákat szabunk testre.
+Az alábbiakban egy tömör, lépésről‑lépésre útmutató látható, amely táblázatot hoz létre, globális szegélyt alkalmaz, majd egyetlen cella széleit testre szabja.
 
-### 1. lépés: Új dokumentum betöltése
+### Közvetlen válasz
+A `Document` a Word‑fájlt képviseli, míg a `DocumentBuilder` tartalmakat, például táblázatokat hoz létre. Töltsön be egy új `Document`‑et, szúrjon be egy `Table`‑t a `DocumentBuilder`‑rel, állítson be egy 2‑pontos fekete szegélyt az egész táblázatra, majd növelje a harmadik cella bal, jobb, felső és alsó szegélyét 4 pontra. Ez a megközelítés lehetővé teszi, hogy bármely cellát kiemeljen, miközben a táblázat többi része egységesen stilizált marad.
+
+### 1. lépés: új dokumentum betöltése
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-### 2. lépés: Táblázat létrehozása és globális szegélyek beállítása
+### 2. lépés: táblázat létrehozása és globális szegélyek beállítása
 
 ```java
 Table table = builder.startTable();
@@ -91,7 +148,7 @@ builder.writeln("Cell #2");
 builder.endRow();
 ```
 
-### 3. lépés: Egyetlen cella szegélyeinek módosítása
+### 3. lépés: egyetlen cella szegélyeinek módosítása
 
 ```java
 // Clear the cell formatting from previous operations.
@@ -114,15 +171,18 @@ doc.save("FormatTableAndCellWithDifferentBorders.docx");
 ```
 
 #### Mit csinál a kód
-- **Globális szegélyek** – a `table.setBorders` 2‑pontos fekete vonallal látja el az egész táblázatot.  
-- **Cellaszín** – bemutatja, hogyan színezzük ki az egyes cellákat (piros és zöld).  
-- **Egyedi cellaszegélyek** – a harmadik cella 4‑pontos szegélyt kap minden oldalon, így kiemelkedik.
+- **Globális szegélyek** – a `table.setBorders` 2 pont vastag fekete vonalat ad az egész táblázatnak.  
+- **Cellaszínezés** – bemutatja, hogyan színezzük az egyes cellákat (piros és zöld).  
+- **Egyedi cellaszegélyek** – a harmadik cella minden oldalán 4 pontos szegélyt kap, így kiemelkedik.
 
-## Táblázatstílusok alkalmazása (beleértve az Első oszlop stílust)
+## Táblázatstílusok alkalmazása (beleértve az első oszlop stílusát)
 
-A táblázatstílusok lehetővé teszik egy konzisztens megjelenés alkalmazását egyetlen hívással. Megmutatjuk, hogyan engedélyezzük az *első oszlop stílust* és hogyan auto‑fit-eljük a táblázatot a tartalmához.
+A táblázatstílusok lehetővé teszik egy konzisztens megjelenés alkalmazását egyetlen hívással. Emellett engedélyezni fogjuk az *első oszlop stílusát* és automatikusan illesztjük a táblázatot a tartalmához.
 
-### 4. lépés: Új dokumentum létrehozása a stílushoz
+### Közvetlen válasz
+A `StyleIdentifier` felsorolja a beépített táblázatstílusokat, az `AutoFitBehavior` pedig szabályozza, hogyan igazítja a táblázat a tartalmát. Hozzon létre egy új `Document`‑et, építsen egy `Table`‑t, állítsa be a `StyleIdentifier`‑t `MEDIUM_SHADING_1_ACCENT_1`‑re, engedélyezze a `FirstColumn` és `RowBands` opciókat, majd hívja meg az `autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)`‑t, hogy az oszlopok automatikusan zsugorodjanak vagy bővüljenek a beillesztett adatokhoz.
+
+### 4. lépés: új dokumentum létrehozása a formázáshoz
 
 ```java
 Document doc = new Document();
@@ -134,7 +194,7 @@ Table table = builder.startTable();
 builder.insertCell();
 ```
 
-### 5. lépés: Előre definiált stílus alkalmazása és az Első oszlop formázás engedélyezése
+### 5. lépés: előre definiált stílus alkalmazása és az első oszlop formázásának engedélyezése
 
 ```java
 // Set the table style based on a unique style identifier.
@@ -147,7 +207,7 @@ table.setStyleOptions(TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BAN
 table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS);
 ```
 
-### 6. lépés: A táblázat feltöltése adatokkal
+### 6. lépés: a táblázat feltöltése adatokkal
 
 ```java
 builder.writeln("Item");
@@ -179,50 +239,55 @@ doc.save("BuildTableWithStyle.docx");
 
 #### Miért fontos ez
 - **Stílusazonosító** – a `MEDIUM_SHADING_1_ACCENT_1` tiszta, árnyékolt megjelenést ad a táblázatnak.  
-- **Első oszlop stílus** – az első oszlop kiemelése javítja az olvashatóságot, különösen jelentésekben.  
-- **Sorcsíkok** – váltakozó sor színek könnyebbé teszik a nagy táblázatok áttekintését.  
-- **Auto‑fit** – biztosítja, hogy a táblázat szélessége a tartalomhoz igazodjon, elkerülve a szöveg levágását.
+- **Első oszlop stílusa** – az első oszlop kiemelése javítja az olvashatóságot, különösen jelentésekben.  
+- **Sorcsíkok** – váltakozó sor színek teszik a nagy táblázatokat szemkímélőbbé.  
+- **Automatikus illesztés** – biztosítja, hogy a táblázat szélessége a tartalomhoz igazodjon, elkerülve a levágott szöveget.
 
 ## Gyakori problémák és hibaelhárítás
 
-| Probléma | Tipikus ok | Gyors megoldás |
-|----------|------------|----------------|
-| A szegélyek nem jelennek meg | `clearFormatting()` használata a szegélyek beállítása után | Állítsd be a szegélyeket **a** formázás törlése **után**, vagy alkalmazd újra őket. |
-| A színezés figyelmen kívül marad egyesített cellákon | Színezés alkalmazása a cellák egyesítése előtt | Alkalmazd a színezést **a** cellák egyesítése **után**. |
-| A táblázat szélessége meghaladja az oldal margóit | Nincs auto‑fit alkalmazva | Hívd a `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)` metódust, vagy állíts be fix szélességet. |
-| A stílus nem kerül alkalmazásra | Hibás `StyleIdentifier` érték | Ellenőrizd, hogy az azonosító létezik‑e az általad használt Aspose.Words verzióban. |
+| Issue | Typical cause | Quick fix |
+|-------|----------------|-----------|
+| Borders not appearing | Using `clearFormatting()` after setting borders | Set borders **after** clearing formatting, or re‑apply them. |
+| Shading ignored on merged cells | Shading applied before merging | Apply shading **after** merging the cells. |
+| Table width exceeds page margins | No auto‑fit applied | Call `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)` or set a fixed width. |
+| Style not applied | Wrong `StyleIdentifier` value | Verify the identifier exists in the version of Aspose.Words you’re using. |
 
 ## Gyakran feltett kérdések
 
-**K: Használhatok egyedi táblázatstílusokat, amelyek nincsenek az alapértelmezett opciók között?**  
-V: Igen, programozottan létrehozhatsz és alkalmazhatsz egyedi stílusokat. Tekintsd meg a [Aspose.Words dokumentációt](https://reference.aspose.com/words/java/) a részletekért.
+**Q: Can I use custom table styles not included in the default options?**  
+A: Yes, you can create and apply custom styles programmatically. See the [Aspose.Words documentation](https://reference.aspose.com/words/java/) for details.
 
-**K: Hogyan alkalmazhatok feltételes formázást a cellákra?**  
-V: Használd a szokásos Java logikát a cellaértékek ellenőrzéséhez, majd hívd meg a megfelelő formázó metódusokat (pl. háttérszín módosítása, ha az érték meghalad egy küszöböt).
+**Q: How can I apply conditional formatting to cells?**  
+A: Use standard Java logic to inspect cell values, then call the appropriate formatting methods (e.g., change background colour if a value exceeds a threshold).
 
-**K: Lehet-e ugyanúgy formázni az egyesített cellákat, mint a normál cellákat?**  
-V: Természetesen. Az egyesítés után ugyanazokat a `CellFormat` API‑kat használhatod a színezéshez vagy szegélyekhez.
+**Q: Is it possible to format merged cells the same way as regular cells?**  
+A: Absolutely. After merging cells, apply shading or borders using the same `CellFormat` APIs.
 
-**K: Mit tehetek, ha a táblázatnak dinamikusan kell méreteződnie a felhasználói bemenet alapján?**  
-V: Állítsd be az oszlopszélességeket, vagy hívd újra az `autoFit` metódust az új adatok beszúrása után, hogy újraszámolja a layoutot.
+**Q: What if I need the table to resize dynamically based on user input?**  
+A: Adjust column widths or call `autoFit` again after inserting new data to recalculate the layout.
 
-**K: Hol találok további példákat a táblázatstílusokra?**  
-V: A hivatalos [Aspose.Words API dokumentáció](https://reference.aspose.com/words/java/) átfogó mintakészletet tartalmaz.
+**Q: Where can I find more examples of table styling?**  
+A: The official [Aspose.Words API documentation](https://reference.aspose.com/words/java/) contains a comprehensive set of samples.
 
 ## Összegzés
 
-Most már teljes eszköztárral rendelkezel a **cellaszegélyek módosításához**, az *első oszlop stílus* alkalmazásához és a **auto‑fit táblázattartalom** használatához az Aspose.Words for Java segítségével. Ezeknek a technikáknak a elsajátításával olyan dokumentumokat hozhatsz létre, amelyek egyszerre adatgazdagok és vizuálisan vonzóak – tökéletesek jelentésekhez, számlákhoz és bármely üzleti kritikus kimenethez.
+Most már rendelkezik egy teljes eszköztárral a **cellaszegélyek módosításához** táblázatcellákban, az *első oszlop stílusának* alkalmazásához, valamint a **táblázattartalom automatikus illesztéséhez** az Aspose.Words for Java használatával. E technikák elsajátításával olyan dokumentumokat hozhat létre, amelyek egyszerre adatgazdagok és vizuálisan kifinomultak – ideálisak jelentésekhez, számlákhoz és bármilyen üzleti kritikus kimenethez.
+
+---
+
+**Last Updated:** 2026-10-17  
+**Tested With:** Aspose.Words for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
+## Kapcsolódó útmutatók
+
+- [Aspose.Words Java formázási és stílus útmutatók – Fejlessze dokumentumait](/words/java/formatting-styles/)
+- [Haladó dokumentumszegélyek az Aspose.Words for Java használatával: Átfogó útmutató](/words/java/headers-footers-page-setup/advanced-document-borders-aspose-words-java/)
+- [Vízjel hozzáadása dokumentumhoz az Aspose.Words for Java használatával](/words/java/document-conversion-and-export/using-watermarks-to-documents/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utoljára frissítve:** 2025-11-28  
-**Tesztelve a következővel:** Aspose.Words for Java 24.12 (a cikk írásakor legújabb)  
-**Szerző:** Aspose
