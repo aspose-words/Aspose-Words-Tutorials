@@ -1,0 +1,7 @@
+Title: How to Set Shadow in Aspose.Words – Python Example
+Slug: how-to-set-shadow-in-aspose-words-python-example
+Category: images-shapes
+ProcessedDate: 2026-08-01T18:39:14.542377
+SourceRepo: AI Search API
+Keywords: how to set shadow, how to change opacity, how to adjust blur, change shadow distance, how to use aspose.words
+PRNumber: 240

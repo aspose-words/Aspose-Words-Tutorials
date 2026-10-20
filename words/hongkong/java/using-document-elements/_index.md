@@ -71,6 +71,10 @@
 學習有效地使用 Aspose.Words for Java 的修訂控制。為開發人員提供逐步指南。優化您的文件管理。
 ### [在 Aspose.Words for Java 中使用部分](./using-sections/)
 探索 Aspose.Words for Java：有關使用部分的綜合指南。使用程式碼範例新增、刪除、附加、克隆部分。
+### [在 Aspose.Words for Java 中設定按鈕大小 – 完整指南](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+學習如何在 Word 文檔中使用 Java 設定按鈕大小，完整掌握 Aspose.Words 的實作步驟。
+### [在 Aspose.Words for Java 中建立餅圖 – 完整步驟指南](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+學習使用 Aspose.Words for Java 在 Word 文件中動態建立餅圖的完整步驟。
 ### [在 DOCX 中添加 Forms2OleControl – 完整 Aspose.Words 指南](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
 學習如何在 Aspose.Words for Java 中使用 Forms2OleControl 將表單轉換為 OLE 控制項，並嵌入 DOCX 文件。
 

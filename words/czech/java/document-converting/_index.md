@@ -80,6 +80,9 @@ Nejprve `document.save("temp.html", SaveFormat.HTML)`. Pro převod HTML zpět do
 ### Převod HTML na Word dokumenty
 Využijte `Document doc = new Document(new ByteArrayInputStream(htmlBytes), new LoadOptions(LoadFormat.HTML));` a následně `doc.save("output.docx")`.
 
+### Převod HTML na Word dokumenty
+Využijte `Document doc = new Document(new ByteArrayInputStream(htmlBytes), new LoadOptions(LoadFormat.HTML));` a následně `doc.save("output.docx")`.
+
 ## Tutoriály převodu dokumentů
 
 ### [Použití funkce převodu dokumentů](./using-document-converting/)
@@ -102,6 +105,21 @@ Efektivně převádějte DOCX na EPUB pomocí Aspose.Words pro Java. Naučte se 
 
 ### [Převod dokumentů na obrázky](./converting-documents-images/)
 Naučte se, jak převádět Word dokumenty na obrázky pomocí Aspose.Words pro Java. Praktický průvodce s ukázkovým kódem a častými dotazy.
+
+### [Uložení docx jako markdown pomocí Aspose.Words – Kompletní průvodce](./save-docx-as-markdown-with-aspose-words-complete-guide/)
+Naučte se, jak převést DOCX na Markdown pomocí Aspose.Words v Javě s podrobným krok‑za‑krokem návodem.
+### [Převod DOCX do PDF v Javě – krok za krokem](./convert-docx-to-pdf-in-java-step-by-step-guide/)
+Naučte se, jak převést soubory DOCX do PDF v Javě pomocí Aspose.Words krok za krokem.
+### [Uložení DOCX jako PDF pomocí Aspose.Words – Kompletní průvodce pro Javu](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+Naučte se, jak pomocí Aspose.Words pro Java převést DOCX soubory do PDF v kompletním průvodci krok za krokem.
+### [Převod docx na txt v Javě – Kompletní programovací průvodce](./convert-docx-to-txt-in-java-complete-programming-guide/)
+Naučte se, jak v Javě převést soubory DOCX na prostý textový formát TXT pomocí Aspose.Words.
+### [Převod DOCX na Markdown pomocí Aspose.Words pro Java – Kompletní průvodce](./convert-docx-to-markdown-with-aspose-words-java-full-guide/)
+Naučte se, jak převést DOCX soubory do formátu Markdown pomocí Aspose.Words pro Java v několika krocích.
+### [Převod DOCX do PDF v Javě – Jednoduchý low‑code průvodce](./convert-docx-to-pdf-in-java-simple-low-code-guide/)
+Rychlý návod, jak pomocí Aspose.Words v Javě převést DOCX soubory do PDF s minimálním kódem.
+### [Uložení Markdownu jako DOCX pomocí Aspose.Words – průvodce pro Javu](./save-markdown-as-docx-with-aspose-words-java-guide/)
+Naučte se převést soubory Markdown do formátu DOCX pomocí Aspose.Words pro Java v několika krocích.
 
 ## Často kladené otázky
 

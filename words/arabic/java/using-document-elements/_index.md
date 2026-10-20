@@ -71,6 +71,10 @@
 تعلم كيفية استخدام Aspose.Words لعناصر تحكم الإصدارات في جافا بكفاءة. دليل خطوة بخطوة للمطورين. حسّن إدارة مستنداتك.
 ### [استخدام الأقسام في Aspose.Words للغة Java](./using-sections/)
 استكشف Aspose.Words في جافا: دليل شامل لاستخدام الأقسام. أضف أقسامًا، احذفها، أضف إليها، انسخها مع أمثلة برمجية.
+### [تعيين حجم الزر في Word باستخدام Java – دليل Aspose.Words الكامل](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+تعلم كيفية ضبط حجم الأزرار في مستندات Word باستخدام Aspose.Words for Java من خلال دليل شامل خطوة بخطوة.
+### [إنشاء مخطط دائري باستخدام Aspose.Words Java – دليل كامل خطوة بخطوة](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+تعلم كيفية إنشاء مخطط دائري في مستندات Word باستخدام Aspose.Words for Java من خلال دليل خطوة بخطوة شامل.
 ### [إضافة Forms2OleControl إلى DOCX – دليل Aspose.Words الكامل](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
 تعلم خطوة بخطوة كيفية إضافة Forms2OleControl إلى مستند DOCX باستخدام Aspose.Words لجافا.
 

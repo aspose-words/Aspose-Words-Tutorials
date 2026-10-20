@@ -71,6 +71,10 @@ Naucz się używać obiektów OLE i kontrolek ActiveX w Aspose.Words dla Java. T
 Naucz się efektywnie używać kontroli wersji Aspose.Words for Java. Przewodnik krok po kroku dla programistów. Zoptymalizuj zarządzanie dokumentami.
 ### [Korzystanie z sekcji w Aspose.Words dla Java](./using-sections/)
 Poznaj Aspose.Words dla Javy: kompleksowy przewodnik po używaniu sekcji. Dodawaj, usuwaj, dołączaj, klonuj sekcje z przykładami kodu.
+### [Ustaw rozmiar przycisku w Wordzie za pomocą Java – Kompletny przewodnik Aspose.Words](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Dowiedz się, jak ustawić rozmiar przycisku w dokumencie Word przy użyciu Aspose.Words for Java w tym kompletnym przewodniku.
+### [Tworzenie wykresu kołowego w Aspose.Words Java – Kompletny przewodnik krok po kroku](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Naucz się tworzyć wykresy kołowe w dokumentach Word przy użyciu Aspose.Words for Java w tym szczegółowym przewodniku krok po kroku.
 ### [Dodaj Forms2OleControl do DOCX – Kompletny przewodnik Aspose.Words](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
 Dowiedz się, jak dodać kontrolkę Forms2OleControl do dokumentu DOCX przy użyciu Aspose.Words for Java w pełnym przewodniku krok po kroku.
 

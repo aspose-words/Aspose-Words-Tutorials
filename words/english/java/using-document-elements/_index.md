@@ -74,6 +74,10 @@ Learn to add Forms2OleControl to DOCX with Aspose.Words for Java in this compreh
 Learn to use Aspose.Words for Java's revision controls efficiently. Step-by-step guide for developers. Optimize your document management.
 ### [Using Sections in Aspose.Words for Java](./using-sections/)
 Explore Aspose.Words for Java: A comprehensive guide on using sections. Add, delete, append, clone sections with code examples.
+### [Set Button Size in Word with Java – Complete Aspose.Words Guide](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Learn how to set button size in Word documents using Aspose.Words for Java in this comprehensive step-by-step guide.
+### [Create Pie Chart with Aspose.Words Java – Full Step‑by‑Step Guide](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Learn how to generate pie charts in Word documents using Aspose.Words for Java in this comprehensive step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -22,6 +22,34 @@ In diesen Tutorials lernen Sie, wie Sie verschiedene Diagrammtypen wie Balken-, 
 Mit diesen Tutorials können Sie Ihre Word-Dokumente mit ansprechenden und informativen Grafiken aufwerten. Sie lernen, wie Sie die erweiterten Grafikfunktionen von Aspose.Words für .NET nutzen und effektiv in Ihre Anwendungen integrieren. Entdecken Sie diese Tutorials, um Ihre Grafikkenntnisse in Aspose.Words zu erweitern.
 
  ## Anleitungen
+
+{{< tutorial-card link="./uniform-data-labels/" title="Einheitliche Datenbeschriftungen in einem Säulendiagramm mit Aspose.Words für .NET festlegen" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="Diagramm proportional skalieren beim Ändern der Seitengröße in Word mit Aspose.Words für .NET" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="Benutzerdefiniertes Säulendiagramm in Word‑Dokument einfügen mit Aspose.Words für .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./hide-plot-border/" title="Plot‑Bereichsrand in einem Säulendiagramm mit Aspose.Words für .NET ausblenden" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Entfernen einer Diagrammserie aus einem Word Document mit Aspose.Words für .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-sample-column-chart/" title="Beispiel‑Säulendiagramm in ein Word‑Dokument einfügen mit Aspose.Words für .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-named-series/" title="Eine benannte Datenreihe zu einem Histogramm‑Diagramm in Word hinzufügen mit Aspose.Words für .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Diagramm‑Reihen und Datenpunkte in einem Word‑Dokument mit Aspose.Words für .NET validieren" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Anpassen der X‑Achsen‑Gitternetzlinien in einem Säulendiagramm mit Aspose.Words für .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Sekundäre X‑Achse formatieren und Anzeigeeinheiten auf Tausend setzen in Word‑Liniendiagrammen mit Aspose.Words für .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Diagrammtitel aktualisieren und Legenden‑Sichtbarkeit in Word mit Aspose.Words für .NET umschalten" imgSrc="./update-chart-title/images/thumb.png" >}}
+
+
+
+
+
+
 | Titel | Beschreibung |
 | --- | --- |
 | [Formatieren der Anzahl der Datenbeschriftungen in einem Diagramm](./format-number-of-data-label/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Datenbeschriftungen in Diagrammen mit Aspose.Words für .NET formatieren. Optimieren Sie Ihre Word-Dokumente mühelos. |
@@ -42,7 +70,9 @@ Mit diesen Tutorials können Sie Ihre Word-Dokumente mit ansprechenden und infor
 | [Festlegen von Standardoptionen für Datenbeschriftungen in einem Diagramm](./default-options-for-data-labels/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Standardoptionen für Datenbeschriftungen in einem Diagramm festlegen. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um mühelos Diagramme zu erstellen und anzupassen. |
 | [Anpassen eines einzelnen Diagrammdatenpunkts in einem Diagramm](./single-chart-data-point/) | Erfahren Sie in einer detaillierten Schritt-für-Schritt-Anleitung, wie Sie einzelne Diagrammdatenpunkte mit Aspose.Words für .NET anpassen. Optimieren Sie Ihre Diagramme mit individuellen Markierungen und Größen. |
 | [Anpassen einzelner Diagrammreihen in einem Diagramm](./single-chart-series/) | Erfahren Sie, wie Sie einzelne Diagrammreihen in einem Word-Dokument mit Aspose.Words für .NET anpassen. Folgen Sie unserer Schritt-für-Schritt-Anleitung für ein nahtloses Erlebnis. |
-
+| [Diagrammlegende in Word mit C# anzeigen – vollständige Schritt‑für‑Schritt‑Anleitung](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.Words für .NET die Diagrammlegende in Word‑Dokumenten anzeigen. |
+| [Kuchenstück in einem Kreisdiagramm explodieren in C# mit Aspose.Words – Vollständige Anleitung](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Erfahren Sie, wie Sie ein einzelnes Kuchenstück in einem Kreisdiagramm mit Aspose.Words für .NET hervorheben und anpassen. |
+| [Kuchenbeschriftungen zu einem Kreisdiagramm in C# mit Aspose.Words hinzufügen – Vollständige Anleitung](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Erfahren Sie, wie Sie in C# mit Aspose.Words Beschriftungen zu Kreisdiagrammen hinzufügen und anpassen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

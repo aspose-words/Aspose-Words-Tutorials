@@ -34,14 +34,45 @@
 ### [Πώς να αποδώσετε σελίδες εγγράφων ως μικρογραφίες χρησιμοποιώντας το Aspose.Words για Java](./render-word-pages-thumbnails-aspose-java/)
 Μάθετε πώς να δημιουργείτε μικρογραφίες υψηλής ποιότητας και bitmap προσαρμοσμένου μεγέθους για έγγραφα Word με το Aspose.Words για Java. Βελτιώστε τις δυνατότητες χειρισμού εγγράφων σας σήμερα.
 
-### [Δημιουργία εγγράφου Word Java – Προσθήκη σχήματος ορθογωνίου με εφέ σκιάς](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-Μάθετε πώς να προσθέσετε σχήμα ορθογωνίου με εφέ σκιάς σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
+### [Προσθήκη σκιάς σε σχήμα στο Word – Πλήρης οδηγός Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+Μάθετε πώς να προσθέσετε σκιά σε σχήματα σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
+### [Εφαρμογή Σκιάς σε Σχήμα σε C# – Οδηγός Βήμα‑βήμα](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
+Μάθετε πώς να προσθέσετε εφέ σκιάς σε σχήματα χρησιμοποιώντας το Aspose.Words για C# με αναλυτικές οδηγίες βήμα‑βήμα.
+### [Πώς να ορίσετε σκιά σε σχήμα στο Aspose.Words – Πλήρης οδηγός](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
+Μάθετε πώς να προσθέσετε σκιά σε σχήματα με το Aspose.Words για Java, βήμα-βήμα οδηγίες και παραδείγματα κώδικα.
+
+### [Πώς να ορίσετε σκιά σε σχήμα σε C# – Προσθήκη σκιάς σχήματος εύκολα](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+Μάθετε πώς να προσθέσετε σκιά σε σχήμα χρησιμοποιώντας το Aspose.Words για C#.
+
+### [Δημιουργία σχήματος ορθογωνίου σε έγγραφο Word Java – Πλήρης οδηγός βήμα‑βήμα](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+Μάθετε πώς να δημιουργήσετε σχήμα ορθογωνίου σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java, ακολουθώντας πλήρη βήμα‑βήμα οδηγίες.
+
+### [Δημιουργία σχήματος πλαισίου κειμένου σε Java – Πλήρης οδηγός προσθήκης σκιών](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+Μάθετε πώς να δημιουργήσετε σχήμα πλαισίου κειμένου με εφέ σκιάς σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
+### [Δημιουργία εγγράφου PDF με σχήμα ορθογωνίου – Πλήρης οδηγός C#](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+Μάθετε πώς να δημιουργήσετε έγγραφο PDF με σχήμα ορθογωνίου χρησιμοποιώντας το Aspose.Words για C#.
+
+### [Δημιουργία εγγράφου Word Java – Προσθήκη σκιάς σε σχήμα](./create-word-document-java-add-shadow-to-shape-guide/)
+Μάθετε πώς να προσθέσετε σκιά σε σχήμα σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
+
+### [Ομαδοποίηση σχημάτων σε Word με Java – Πλήρης οδηγός βήμα προς βήμα](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+Μάθετε πώς να ομαδοποιήσετε σχήματα σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java, με πλήρη βήματα και παραδείγματα.
+
+### [Δημιουργία εγγράφου Word Java – Προσθήκη σχήματος με εφέ σκιάς](./create-word-document-java-add-shape-with-shadow-effect/)
+Μάθετε πώς να προσθέσετε σχήμα με εφέ σκιάς σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
+
+### [Δημιουργία σχήματος ορθογωνίου σε Java με Aspose.Words – Πλήρης Οδηγός](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+Μάθετε πώς να δημιουργήσετε σχήμα ορθογωνίου σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java, βήμα-βήμα.
+
+### [Πώς να εισάγετε σχήμα ομάδας σε Java – Πλήρης Οδηγός](./how-to-insert-group-shape-in-java-complete-guide/)
+Μάθετε πώς να προσθέσετε σχήμα ομάδας σε έγγραφα Word με το Aspose.Words για Java, με πλήρη παραδείγματα και οδηγίες.
 
 ### [Δημιουργία κενής εγγράφου Word με ομαδοποιημένα ορθογώνια – Οδηγός C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
 Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να προσθέσετε ομαδοποιημένα ορθογώνια σχήματα χρησιμοποιώντας C# και Aspose.Words.
 
 ## Πρόσθετοι Πόροι
 
+## Πρόσθετοι Πόροι
 - [Aspose.Words για τεκμηρίωση Java](https://reference.aspose.com/words/java/)
 - [Aspose.Words για αναφορά API Java](https://reference.aspose.com/words/java/)
 - [Λήψη Aspose.Words για Java](https://releases.aspose.com/words/java/)
