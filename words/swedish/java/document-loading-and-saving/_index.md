@@ -203,6 +203,9 @@ Lär dig hur du reparerar skadade DOCX‑filer med Aspose.Words i Java – en ko
 ### [Aspose Font Substitution‑handledning – Hantera saknade teckensnitt](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 Lär dig att identifiera och ersätta saknade teckensnitt i Word‑dokument med Aspose.Words för Java.
 
+### [Hur du laddar en fil från en katalog med Aspose.Words i C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+Lär dig hur du laddar en fil från en katalog med Aspose.Words i C#.
+
 ## Vanliga frågor
 
 **Q:** Hur sparar jag programatiskt **save images from word**‑dokument?  

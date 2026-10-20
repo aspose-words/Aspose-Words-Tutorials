@@ -96,6 +96,14 @@ Aspose.Words for C#에서 도형의 숨김 속성을 설정하는 방법을 알�
 
 ### [C#에서 그룹 모양 docx를 만들고 인터랙티브 컨트롤을 추가하는 방법](./how-to-create-group-shape-docx-and-add-interactive-controls/)
 C#와 Aspose.Words를 사용해 그룹 모양을 만들고 문서에 인터랙티브 컨트롤을 삽입하는 방법을 단계별로 안내합니다.
+### [Java로 Word에 사각형 모양 만들기 – 전체 가이드](./create-rectangle-shape-in-word-with-java-full-guide/)
+Java와 Aspose.Words를 사용해 Word 문서에 사각형 도형을 삽입하고 속성을 설정하는 방법을 단계별로 안내합니다.
+
+### [Aspose.Words를 사용하여 Word에서 도형을 그룹화하고 사각형을 추가하기](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
+Aspose.Words를 사용해 Word 문서에서 도형을 그룹화하고 사각형을 추가하는 방법을 단계별로 안내합니다.
+
+### [C#와 Aspose.Words를 사용하여 Word에서 도형 숨기기](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
+C# 코드를 사용해 Word 문서에서 특정 도형을 숨기는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

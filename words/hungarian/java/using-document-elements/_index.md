@@ -72,7 +72,9 @@ Tanuld meg, hogyan hozhatsz létre Word dokumentumot helyőrzőkkel és listákk
 Tanuld meg használni a Markdownt az Aspose.Words for Java-ban ezzel a lépésről lépésre szóló oktatóanyaggal. Hozz létre, formázz és ments el Markdown dokumentumokat könnyedén.
 ### [Csomópontok használata az Aspose.Words-ben Java-ban](./using-nodes/)
 Tanuld meg a csomópontok manipulálását az Aspose.Words for Java programban ezzel a lépésről lépésre haladó oktatóanyaggal. Engedd szabadjára a dokumentumfeldolgozási teljesítményt.
-### [OLE objektumok és ActiveX vezérlők használata az Aspose.Words for Java programban](./using-ole-objects-and-activex/)
+### [Diagram szerkesztése Word dokumentumban Java-val](./how-to-edit-chart-in-a-word-document-using-java/)
+Tanuld meg, hogyan módosíthatod a diagramokat Word dokumentumokban Java segítségével, lépésről lépésre útmutatóval.
+### [OLE objektumok és ActiveX vezérlők használata az Aspose.Words Java programban](./using-ole-objects-and-activex/)
 Tanuld meg az OLE objektumok és ActiveX vezérlők használatát az Aspose.Words for Java programban. Hozz létre interaktív dokumentumokat könnyedén. Kezdj hozzá most!
 ### [ActiveX gomb beszúrása Word-ben – Gombfelirat beállítása](./how-to-insert-activex-button-in-word-set-button-caption/)
 Tanuld meg, hogyan szúrj be ActiveX gombot Word dokumentumba, és állítsd be a feliratát lépésről lépésre.
@@ -96,6 +98,10 @@ Tanuld meg, hogyan hozhatsz létre kördiagramot Word dokumentumban Java segíts
 Tanuld meg, hogyan jelenítsd meg a vezetővonalakat a kördiagramokban Java Chart API használatával.
 ### [Parancsgomb beszúrása Word dokumentumba Java használatával](./how-to-insert-command-button-in-a-word-document-using-java/)
 Tanuld meg, hogyan szúrj be parancsgombot egy Word dokumentumba Java segítségével.
+### [Forms2OleControl létrehozása kódból az Aspose.Words segítségével](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Ismerje meg, hogyan hozhat létre Forms2OleControl objektumot kódból az Aspose.Words Java-ban.
+### [Word dokumentum mentése a gyűrűdiagram szerkesztése után Java-ban](./save-word-document-after-editing-doughnut-chart-in-java/)
+Tanuld meg, hogyan mentheted el a Word dokumentumot a gyűrűdiagram módosítása után Java-val.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

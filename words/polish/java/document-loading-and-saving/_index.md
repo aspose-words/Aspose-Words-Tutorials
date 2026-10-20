@@ -138,7 +138,6 @@ Dowiedz się, jak odczytać i naprawić uszkodzone pliki DOCX przy użyciu Aspos
 Dowiedz się, jak włączyć tryb odzyskiwania, aby przywrócić uszkodzone dokumenty Word przy użyciu Aspose.Words for Java.
 
 ### [How to Get Missing Fonts in Java – Aspose.Words Guide](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
-Dowiedz się, jak wykrywać i pobierać brakujące czcionki w Javie przy użyciu Aspose.Words.
 ### [Jak odzyskać docx – zapisać odzyskany dokument przy użyciu Javy](./how-to-recover-docx-save-recovered-document-using-java/)
 ### [Jak odzyskać DOCX przy użyciu Aspose.Words – włącz tryb odzyskiwania](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
 Dowiedz się, jak włączyć tryb odzyskiwania w Aspose.Words, aby przywrócić uszkodzone dokumenty DOCX i zachować ich zawartość.
@@ -170,6 +169,8 @@ Dowiedz się, jak zapisać plik DOCX w Javie, wstawiając kontrolki treści przy
 
 ### [Samouczek podstawiania czcionek Aspose – Obsługa brakujących czcionek](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 Dowiedz się, jak obsługiwać brakujące czcionki i przechwytywać ostrzeżenia o podstawianiu czcionek w Aspose.Words for Java.
+### [Jak załadować plik z katalogu przy użyciu Aspose.Words w C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+Dowiedz się, jak załadować plik z określonego katalogu przy użyciu Aspose.Words w języku C#.
 
 ## Najczęściej zadawane pytania
 

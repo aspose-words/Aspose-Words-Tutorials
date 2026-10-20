@@ -69,6 +69,8 @@
 تعلم استخدام كائنات OLE وعناصر تحكم ActiveX في Aspose.Words لجافا. أنشئ مستندات تفاعلية بسهولة. ابدأ الآن!
 ### [كيفية إدراج زر ActiveX في Word – تعيين تسمية الزر](./how-to-insert-activex-button-in-word-set-button-caption/)
 تعلم خطوة بخطوة كيفية إضافة زر ActiveX إلى مستند Word وتحديد تسمية الزر باستخدام Aspose.Words لجافا.
+### [كيفية إنشاء forms2olecontrol في الكود باستخدام Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+دليل خطوة بخطوة لإنشاء عنصر forms2olecontrol برمجيًا باستخدام Aspose.Words لجافا.
 ### [استخدام المراجعات في Aspose.Words لـ Java](./using-revisions/)
 تعلم كيفية استخدام Aspose.Words لعناصر تحكم الإصدارات في جافا بكفاءة. دليل خطوة بخطوة للمطورين. حسّن إدارة مستنداتك.
 ### [استخدام الأقسام في Aspose.Words للغة Java](./using-sections/)
@@ -93,6 +95,9 @@
 تعلم كيفية إنشاء مستند Word يحتوي على عناصر نائبة وقوائم بسهولة.
 ### [كيفية إدراج زر أمر في مستند Word باستخدام جافا](./how-to-insert-command-button-in-a-word-document-using-java/)
 تعلم كيفية إضافة زر أمر تفاعلي إلى مستند Word باستخدام Aspose.Words لجافا.
+### [كيفية تعديل المخطط في مستند Word باستخدام Java](./how-to-edit-chart-in-a-word-document-using-java/)
+تعلم تعديل المخططات في مستندات Word باستخدام Aspose.Words للغة Java خطوة بخطوة.
+### [حفظ مستند Word بعد تعديل مخطط الدونات في Java](./save-word-document-after-editing-doughnut-chart-in-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

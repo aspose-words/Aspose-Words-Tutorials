@@ -111,6 +111,9 @@ Aspose.Words для Java — это мощный и универсальный A
 ### [Создание кнопки ActiveX в docx на Java – полное руководство по программированию](./create-docx-activex-button-in-java-complete-programming-guid/)
 Подробное руководство по созданию кнопки ActiveX в файлах docx с использованием Aspose.Words для Java.
 
+### [Добавление элемента управления содержимым в документ Word с Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+Узнайте, как добавить элемент управления содержимым в документ Word с помощью Aspose.Words для Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

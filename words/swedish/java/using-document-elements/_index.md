@@ -95,6 +95,12 @@ Lär dig steg för steg hur du lägger till ledarlinjer i ett pajdiagram med Asp
 Lär dig att skapa Word-dokument med platshållare och listor med Aspose.Words för Java.
 ### [Infoga kommandoknapp i ett Word-dokument med Java](./how-to-insert-command-button-in-a-word-document-using-java/)
 Lär dig hur du infogar en kommandoknapp i ett Word-dokument med Java. Steg-för-steg-guide för att lägga till interaktiv funktionalitet.
+### [Hur du skapar forms2olecontrol i kod med Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Lär dig hur du skapar forms2olecontrol-programmering med Aspose.Words i Java.
+### [Redigera diagram i ett Word-dokument med Java](./how-to-edit-chart-in-a-word-document-using-java/)
+Lär dig steg-för-steg hur du redigerar diagram i Word-dokument med Aspose.Words för Java.
+### [Spara Word-dokument efter redigering av doughnut-diagram i Java](./save-word-document-after-editing-doughnut-chart-in-java/)
+Lär dig steg-för-steg hur du sparar ett Word-dokument efter att ha redigerat ett doughnut-diagram med Aspose.Words för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

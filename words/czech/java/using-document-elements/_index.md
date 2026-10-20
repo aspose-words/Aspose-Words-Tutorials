@@ -95,6 +95,12 @@ Naučte se, jak pomocí Aspose.Words pro Javu vytvořit prázdný dokument Word 
 Naučte se, jak pomocí Aspose.Words pro Javu vytvořit koláčový graf ve Word dokumentu krok za krokem.
 ### [Jak vložit tlačítko příkazu do dokumentu Word pomocí Javy](./how-to-insert-command-button-in-a-word-document-using-java/)
 Naučte se, jak pomocí Aspose.Words pro Javu vložit tlačítko příkazu do dokumentu Word a přidat interaktivitu.
+### [Jak upravit graf v dokumentu Word pomocí Javy](./how-to-edit-chart-in-a-word-document-using-java/)
+Naučte se, jak pomocí Aspose.Words pro Javu upravovat grafy v dokumentech Word.
+### [Uložení dokumentu Word po úpravě prstencového grafu v Javě](./save-word-document-after-editing-doughnut-chart-in-java/)
+Naučte se, jak uložit dokument Word po úpravě prstencového grafu pomocí Aspose.Words pro Javu.
+### [Jak vytvořit forms2olecontrol v kódu pomocí Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Naučte se, jak programově vytvořit ovládací prvek Forms2OLE pomocí Aspose.Words v Javě.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

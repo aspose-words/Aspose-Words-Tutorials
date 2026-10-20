@@ -98,6 +98,11 @@
 
 ### [Πώς να δημιουργήσετε ομάδα σχήματος docx και να προσθέσετε διαδραστικούς ελέγχους σε C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
 Μάθετε πώς να δημιουργήσετε ομάδα σχήματος σε αρχείο docx και να ενσωματώσετε διαδραστικούς ελέγχους με C#.
+### [Ομαδοποίηση σχημάτων στο Word και προσθήκη ορθογωνίου με το Aspose.Words](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
+Μάθετε πώς να ομαδοποιήσετε σχήματα και να προσθέσετε ορθογώνιο σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
+
+### [Πώς να κρύψετε σχήμα σε Word με C# και Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
+Μάθετε πώς να κρύψετε σχήματα σε έγγραφα Word χρησιμοποιώντας C# και Aspose.Words.
 
 ## Πρόσθετοι Πόροι
 

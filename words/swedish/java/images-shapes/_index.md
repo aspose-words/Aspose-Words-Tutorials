@@ -99,6 +99,10 @@ Lär dig steg för steg hur du skapar och anpassar en rektangel i ett Word-dokum
 
 ### [Hur man skapar gruppform i docx och lägger till interaktiva kontroller i C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
 Lär dig hur du skapar en gruppform i ett DOCX-dokument och lägger till interaktiva kontroller med Aspose.Words för C#.
+### [Gruppera former i Word och lägg till en rektangel med Aspose.Words](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
+Lär dig hur du grupperar former och lägger till en rektangel i ett Word-dokument med Aspose.Words för Java.
+
+### [Hur man döljer en form i Word med C# och Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
 
 ## Ytterligare resurser
 

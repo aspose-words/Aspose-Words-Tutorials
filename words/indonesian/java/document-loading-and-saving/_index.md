@@ -211,6 +211,9 @@ Pelajari cara membuat dokumen Word kosong menggunakan Aspose.Words untuk Java de
 ### [Tutorial Substitusi Font Aspose – Menangani Font yang Hilang](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 Pelajari cara menangani font yang hilang dengan mengonfigurasi substitusi font di Aspose.Words untuk Java.
 
+### [Cara memuat file dari direktori menggunakan Aspose.Words di C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+Pelajari cara memuat file dari folder menggunakan Aspose.Words di C#.
+
 ## Pertanyaan yang Sering Diajukan
 
 **T:** Bagaimana cara saya secara programatis **menyimpan gambar dari word** dokumen?  

@@ -95,6 +95,11 @@ Ismerje meg, hogyan állíthatja be az alakzat rejtett tulajdonságát a C#-ban 
 Kód oktatóanyag az Aspose.Words Java-hoz
 ### [Téglalap alakzat létrehozása Word dokumentumban Java-val – Teljes útmutató](./create-rectangle-shape-in-word-with-java-full-guide/)
 Ismerje meg, hogyan hozhat létre és testreszabhat téglalap alakzatot Word dokumentumokban Java segítségével.
+### [Alakzatcsoportok csoportosítása Word-ben és téglalap hozzáadása az Aspose.Words-szal](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
+Ismerje meg, hogyan csoportosíthat alakzatokat és adhat hozzá téglalapot Word dokumentumokhoz Java-ban az Aspose.Words használatával.
+
+### [Hogyan rejtsünk el alakzatot a Wordben C#-val és az Aspose.Words-szal](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
+Ismerje meg, hogyan rejthet el alakzatot a Word dokumentumban C# és az Aspose.Words segítségével.
 
 ### [Csoportos alakzat létrehozása DOCX-ben és interaktív vezérlők hozzáadása C#-ban](./how-to-create-group-shape-docx-and-add-interactive-controls/)
 Ismerje meg, hogyan hozhat létre csoportos alakzatot DOCX fájlban, és adhat hozzá interaktív vezérlőket C#-ban az Aspose.Words segítségével.

@@ -47,6 +47,8 @@ Lär dig hur du formaterar dokumentsidhuvuden och sidfot med Aspose.Words för J
 Lär dig hur du identifierar och listar teckensnitt i Word-dokument med Aspose.Words för Java. Steg-för-steg-guide med kodexempel.
 ### [Ställ in standardteckensnitt i Aspose.Words för Java – Komplett guide](./set-default-font-settings-in-aspose-words-for-java-complete/)
 Lär dig hur du ställer in standardteckensnitt för dokument med Aspose.Words för Java. En komplett guide med kodexempel.
+### [Sätta skugga på ett Word-diagram](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Lär dig hur du lägger till skugga på ett Word-diagram med Aspose.Words för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -47,6 +47,8 @@ Bu ayrıntılı kılavuzda Aspose.Words for Java kullanarak belge başlıkların
 Aspose.Words for Java kullanarak Word belgelerindeki yazı tiplerini nasıl tespit edeceğinizi öğrenin. Adım adım örnekler.
 ### [Aspose.Words for Java’da Varsayılan Yazı Tipi Ayarlarını Belirleme – Tam Kılavuz](./set-default-font-settings-in-aspose-words-for-java-complete/)
 Aspose.Words for Java’da varsayılan yazı tipi ayarlarını nasıl belirleyeceğinizi ve belge oluştururken otomatik olarak uygulayacağınızı öğrenin. 
+### [Aspose.Words for Java ile Word grafiğine gölge ekleme](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Aspose.Words for Java kullanarak Word grafiğine gölge eklemeyi öğrenin. Adım adım örneklerle açıklanmıştır.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

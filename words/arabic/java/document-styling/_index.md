@@ -47,6 +47,8 @@
 تعلّم كيفية اكتشاف الخطوط المستخدمة في مستندات Word باستخدام Aspose.Words لجافا. دليل خطوة بخطوة مع أمثلة الكود.
 ### [تعيين إعدادات الخط الافتراضية في Aspose.Words لجافا – دليل شامل](./set-default-font-settings-in-aspose-words-for-java-complete/)
 تعلّم كيفية تعيين الخط الافتراضي للمستندات باستخدام Aspose.Words لجافا مع أمثلة عملية وشاملة.
+### [كيفية تعيين الظل على مخطط Word باستخدام Aspose.Words لجافا](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+تعلّم كيفية إضافة ظل إلى مخطط Word باستخدام Aspose.Words لجافا.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

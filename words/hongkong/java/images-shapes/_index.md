@@ -99,6 +99,11 @@ Aspose.Words Java 程式碼教程
 
 ### [如何在 C# 中建立群組形狀 docx 並添加互動控制](./how-to-create-group-shape-docx-and-add-interactive-controls/)
 示範如何在 C# 使用 Aspose.Words 建立群組形狀並加入互動控制。
+### [在 Word 中對形狀分組並添加矩形（使用 Aspose.Words）](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
+示範如何在 Word 文檔中將多個形狀分組，並使用 Aspose.Words 插入帶自訂屬性的矩形。
+
+### [如何使用 C# 和 Aspose.Words 在 Word 中隱藏形狀](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
+示範如何在 Word 文檔中使用 C# 隱藏形狀。
 
 ## 其他資源
 

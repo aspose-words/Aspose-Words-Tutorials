@@ -94,6 +94,12 @@
 学习如何在 Java 中使用 Chart API 为饼图添加引导线，实现更清晰的数据展示。
 ### [在 Aspose.Words for Java 中使用命令按钮](./how-to-insert-command-button-in-a-word-document-using-java/)
 学习如何在 Aspose.Words for Java 中向 Word 文档插入命令按钮，实现交互式文档功能。
+### [在 Aspose.Words 中使用代码创建 forms2olecontrol](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+学习如何在代码中使用 Aspose.Words 创建 forms2olecontrol。
+### [在 Aspose.Words for Java 中编辑 Word 文档中的图表](./how-to-edit-chart-in-a-word-document-using-java/)
+本教程演示如何使用 Aspose.Words for Java 在 Word 文档中编辑图表，包括修改数据、样式并保存。
+### [在 Java 中编辑环形图后保存 Word 文档](./save-word-document-after-editing-doughnut-chart-in-java/)
+本教程演示如何使用 Aspose.Words for Java 编辑环形图并保存更新后的 Word 文档。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

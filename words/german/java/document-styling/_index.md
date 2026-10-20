@@ -47,6 +47,8 @@ Erfahren Sie in dieser ausführlichen Anleitung, wie Sie Dokumentkopf- und -fuß
 Erfahren Sie, wie Sie mit Aspose.Words für Java Schriftarten in Word-Dokumenten erkennen. Schritt-für-Schritt-Anleitung mit Beispielcode.
 ### [Standard-Schrifteinstellungen in Aspose.Words für Java festlegen – Komplettanleitung](./set-default-font-settings-in-aspose-words-for-java-complete/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java die Standardschriftart und -größe festlegen. Schritt-für-Schritt-Anleitung mit Codebeispielen.
+### [Schatten für ein Word-Diagramm mit Aspose.Words für Java festlegen](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java Schatten zu Word-Diagrammen hinzufügen und das Erscheinungsbild verbessern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

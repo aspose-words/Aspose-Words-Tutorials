@@ -94,6 +94,14 @@ Aprenda a agrupar várias formas em um documento Word usando Aspose.Words para J
 Aprenda a criar um documento Word vazio e agrupar formas usando Aspose.Words para Java.
 ### [Como criar forma de grupo docx e adicionar controles interativos em C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
 Aprenda a criar formas de grupo em documentos DOCX e inserir controles interativos usando C# com Aspose.Words.
+### [Criar forma retangular no Word com Java – Guia Completo](./create-rectangle-shape-in-word-with-java-full-guide/)
+Aprenda passo a passo como criar e personalizar formas retangulares em documentos Word usando Aspose.Words para Java.
+
+### [Agrupar formas no Word e adicionar um retângulo com Aspose.Words](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
+Aprenda a agrupar formas e inserir um retângulo em documentos Word usando Aspose.Words para Java.
+
+### [Como ocultar forma no Word com C# e Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
+Aprenda a ocultar formas em documentos Word usando C# e Aspose.Words.
 
 ## Recursos adicionais
 

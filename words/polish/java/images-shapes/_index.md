@@ -98,6 +98,12 @@ Dowiedz się, jak utworzyć pusty dokument Word oraz grupować kształty przy u�
 ### [Jak utworzyć grupowy kształt docx i dodać interaktywne kontrolki w C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
 Dowiedz się, jak tworzyć grupowe kształty w plikach docx i dodawać interaktywne kontrolki przy użyciu C# i Aspose.Words.
 
+### [Grupowanie kształtów w Wordzie i dodawanie prostokąta za pomocą Aspose.Words](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
+Dowiedz się, jak grupować kształty i dodawać prostokąt w dokumencie Word przy użyciu Aspose.Words dla Java.
+
+### [Jak ukryć kształt w Wordzie przy użyciu C# i Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
+Dowiedz się, jak ukryć kształt w dokumencie Word przy użyciu C# i Aspose.Words.
+
 ## Dodatkowe zasoby
 
 ## Dodatkowe zasoby

@@ -101,6 +101,11 @@ Java kullanarak Word belgelerine dikdörtgen şekil eklemeyi ve özelleştirmeyi
 
 ### [C# ile Grup Şekli Oluşturma ve Etkileşimli Kontroller Ekleme](./how-to-create-group-shape-docx-and-add-interactive-controls/)
 C# kullanarak grup şekli oluşturmayı ve etkileşimli denetimler eklemeyi öğrenin.
+### [Word'de Şekilleri Gruplayın ve Aspose.Words ile Bir Dikdörtgen Ekleyin](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
+Aspose.Words kullanarak Word belgelerinde şekilleri gruplama ve dikdörtgen ekleme adımlarını öğrenin.
+
+### [C# ve Aspose.Words ile Word'de Şekli Gizleme](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
+C# ve Aspose.Words kullanarak Word belgesindeki şekli nasıl gizleyeceğinizi öğrenin.
 
 ## Ek Kaynaklar
 

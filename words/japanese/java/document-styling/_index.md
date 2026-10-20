@@ -47,6 +47,8 @@ Aspose.Words for Javaを使って透かしを適用し、ページ設定を行�
 Aspose.Words for Java を使用して、Word 文書内のフォント情報を検出し、取得する方法をステップバイステップで解説します。
 ### [Aspose.Words for Javaでデフォルトフォント設定を行う – 完全ガイド](./set-default-font-settings-in-aspose-words-for-java-complete/)
 Aspose.Words for Java を使用して、ドキュメント全体のデフォルトフォントを設定する方法をステップバイステップで解説します。
+### [Aspose.Words for Java を使用して Word チャートに影を設定する方法](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Aspose.Words for Java で Word のチャートに影効果を適用する手順を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

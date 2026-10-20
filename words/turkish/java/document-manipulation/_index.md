@@ -109,6 +109,8 @@ Aspose.Words for Java kullanarak PDF'leri erişilebilir hale getirmek için etik
 Java'da Aspose.Words kullanarak docx dosyalarına ActiveX düğmesi eklemeyi adım adım öğrenin.
 ### [Java ile Aspose.Words kullanarak Word belgesi oluşturma](./how-to-create-a-word-document-in-java-with-aspose-words/)
 Java ve Aspose.Words ile sıfırdan Word belgesi oluşturmayı adım adım öğrenin.
+### [Aspose.Words ile Word belgesine içerik denetimi ekleme](./add-content-control-in-word-document-with-aspose-words/)
+Aspose.Words kullanarak Word belgelerinde içerik denetimlerini nasıl ekleyeceğinizi ve yapılandıracağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -71,10 +71,11 @@ Aspose.Words for Java を使用して、Word 文書に円グラフを作成・�
 
 ### [Aspose.Words for Java で OLE オブジェクトと ActiveX コントロールの使用](./using-ole-objects-and-activex/)
 Aspose.Words for JavaでOLEオブジェクトとActiveXコントロールの使い方を学びましょう。インタラクティブなドキュメントを簡単に作成できます。今すぐ始めましょう！
-
 ### [Word に ActiveX ボタンを挿入する – ボタンのキャプションを設定する](./how-to-insert-activex-button-in-word-set-button-caption/)
 Aspose.Words for JavaでWord文書にActiveXボタンを挿入し、ボタンのキャプションを設定する手順を学びます。
 
+### [Aspose.Words for Java でコードから forms2olecontrol を作成する方法](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Aspose.Words を使用したコードで forms2olecontrol を作成する手順を学びます。
 ### [Aspose.Words for Java でリビジョンを使用する](./using-revisions/)
 Aspose.Words for Java のリビジョン管理を効率的に活用する方法を学びましょう。開発者向けのステップバイステップガイド。ドキュメント管理を最適化しましょう。
 ### [Aspose.Words for Java のセクションの使用](./using-sections/)
@@ -96,6 +97,8 @@ Java と Aspose.Words を使用して、Word 文書内に円グラフを挿入�
 ### [Java の Chart API で円グラフにリーダーラインを追加する方法](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
 Java の Chart API を使用して、円グラフにリーダーライン（データラベルの線）を追加する手順を学びます。
 ### [Java で Word 文書にコマンド ボタンを挿入する方法](./how-to-insert-command-button-in-a-word-document-using-java/)
+### [Java で Word 文書のチャートを編集する方法](./how-to-edit-chart-in-a-word-document-using-java/)
+### [Java でドーナツチャートを編集した後に Word 文書を保存する方法](./save-word-document-after-editing-doughnut-chart-in-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

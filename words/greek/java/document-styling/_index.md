@@ -46,6 +46,8 @@
 Μάθετε πώς να εντοπίζετε τις γραμματοσειρές σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java. Οδηγός βήμα προς βήμα με κώδικα.
 ### [Ορισμός προεπιλεγμένων ρυθμίσεων γραμματοσειράς στο Aspose.Words για Java – Πλήρης οδηγός](./set-default-font-settings-in-aspose-words-for-java-complete/)
 Μάθετε πώς να ορίσετε προεπιλεγμένες ρυθμίσεις γραμματοσειράς σε έγγραφα Aspose.Words για Java. Οδηγός βήμα‑προς‑βήμα με κώδικα. 
+### [Πώς να ορίσετε σκιά σε γράφημα Word με το Aspose.Words για Java](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Μάθετε πώς να προσθέσετε σκιά σε γραφήματα Word χρησιμοποιώντας το Aspose.Words για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

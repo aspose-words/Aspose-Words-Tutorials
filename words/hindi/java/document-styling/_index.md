@@ -48,6 +48,8 @@ Java के लिए Aspose.Words में डिफ़ॉल्ट फ़ॉ�
 
 ### [जावा वर्ड दस्तावेज़ों में फ़ॉन्ट का पता कैसे लगाएँ – पूर्ण गाइड](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 Java के लिए Aspose.Words का उपयोग करके वर्ड दस्तावेज़ों में फ़ॉन्ट पहचानना सीखें। स्रोत कोड के साथ चरण-दर-चरण गाइड।
+### [Aspose.Words for Java के साथ Word चार्ट पर छाया सेट करना](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Java के लिए Aspose.Words का उपयोग करके Word चार्ट में शैडो प्रभाव कैसे लागू करें, चरण-दर-चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

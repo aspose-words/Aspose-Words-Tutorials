@@ -141,6 +141,7 @@ Aspose.Words for Java ทำให้การ **บันทึกภาพจ�
 ### [สร้างเอกสาร Word ว่างด้วย Java – คู่มือ Aspose.Words ฉบับเต็ม](./create-blank-word-document-with-java-full-aspose-words-guide/)
 ### [Aspose.Words LoadOptions – กู้ไฟล์ Word ที่เสียใน Java](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 ### [การแทนที่ฟอนต์ Aspose – จัดการฟอนต์ที่หายไป](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+### [วิธีโหลดไฟล์จากไดเรกทอรีโดยใช้ Aspose.Words ใน C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 
 ## คำถามที่พบบ่อย
 

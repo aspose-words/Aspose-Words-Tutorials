@@ -96,6 +96,14 @@
 
 ### [Как создать групповую фигуру docx и добавить интерактивные элементы управления в C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
 Узнайте, как объединять фигуры и добавлять интерактивные элементы управления в документах Word с помощью Aspose.Words для C#.
+### [Создание прямоугольной фигуры в Word с помощью Java – Полное руководство](./create-rectangle-shape-in-word-with-java-full-guide/)
+Подробное руководство по созданию и настройке прямоугольных фигур в документах Word с использованием Aspose.Words для Java.
+
+### [Группировка фигур в Word и добавление прямоугольника с помощью Aspose.Words](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
+Узнайте, как группировать фигуры и добавлять прямоугольник в документ Word с Aspose.Words для Java.
+
+### [Как скрыть фигуру в Word с помощью C# и Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
+Узнайте, как скрыть фигуру в документе Word, используя C# и библиотеку Aspose.Words.
 
 ## Дополнительные ресурсы
 

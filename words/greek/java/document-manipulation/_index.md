@@ -82,6 +82,8 @@
 Μάθετε πώς να δημιουργείτε και να προσαρμόζετε Πίνακα Περιεχομένων (TOC) χρησιμοποιώντας το Aspose.Words για Java. Δημιουργήστε οργανωμένα και επαγγελματικά έγγραφα χωρίς κόπο.
 ### [Δημιουργία κουμπιού ActiveX σε docx με Java – πλήρης προγραμματιστικός οδηγός](./create-docx-activex-button-in-java-complete-programming-guid/)
 Μάθετε πώς να ενσωματώσετε κουμπί ActiveX σε έγγραφα docx χρησιμοποιώντας Java.
+### [Προσθήκη ελέγχου περιεχομένου σε έγγραφο Word με Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+Μάθετε πώς να προσθέτετε ελέγχους περιεχομένου σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
 ### [Προστασία εγγράφων στο Aspose.Words για Java](./protecting-documents/)
 Μάθετε πώς να ασφαλίσετε τα έγγραφα Java Word σας με το Aspose.Words για Java. Προστατέψτε τα δεδομένα σας με κωδικό πρόσβασης και πολλά άλλα.
 ### [Διαχωρισμός εγγράφων σε σελίδες στο Aspose.Words για Java](./splitting-documents-into-pages/)

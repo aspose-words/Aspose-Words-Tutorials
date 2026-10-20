@@ -88,7 +88,8 @@ Naučte se, jak používat tagy strukturovaných dokumentů (SDT) v Aspose.Words
 
 ### [Používání stylů a motivů v Aspose.Words pro Javu](./using-styles-and-themes/)
 Naučte se, jak vylepšit formátování dokumentů pomocí Aspose.Words pro Javu. Prozkoumejte styly, motivy a další v tomto komplexním průvodci s příklady zdrojového kódu.
-
+### [Přidání ovládacího prvku obsahu do dokumentu Word pomocí Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+Naučte se, jak vložit a konfigurovat ovládací prvky obsahu v dokumentu Word pomocí Aspose.Words pro Javu.
 ### [Generování obsahu v Aspose.Words pro Javu](./generating-table-of-contents/)
 Naučte se, jak generovat a upravovat obsah (TOC) pomocí Aspose.Words pro Javu. Vytvářejte bez námahy organizované a profesionální dokumenty.
 

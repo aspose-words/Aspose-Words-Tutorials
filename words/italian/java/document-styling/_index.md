@@ -47,6 +47,8 @@ Scopri come formattare intestazioni e piè di pagina dei documenti utilizzando A
 Scopri come individuare i font nei documenti Word con Aspose.Words per Java. Esempi di codice e passaggi dettagliati. 
 ### [Impostare le impostazioni predefinite del carattere in Aspose.Words per Java – Guida completa](./set-default-font-settings-in-aspose-words-for-java-complete/)
 Scopri come impostare i font predefiniti nei documenti con Aspose.Words per Java, con esempi di codice passo passo.
+### [Come impostare l'ombra su un grafico Word](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Scopri come aggiungere ombra a un grafico Word con Aspose.Words per Java. Esempi di codice passo passo. 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -97,6 +97,14 @@ Aprenda a crear un documento Word vacío y agrupar formas usando Aspose.Words pa
 
 ### [Cómo crear un grupo de formas en docx y agregar controles interactivos en C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
 Aprenda a crear grupos de formas en documentos DOCX y añadir controles interactivos usando C# y Aspose.Words.
+### [Crear forma rectangular en Word con Java – Guía completa](./create-rectangle-shape-in-word-with-java-full-guide/)
+Aprenda a crear y personalizar una forma rectangular en documentos Word usando Aspose.Words para Java.
+
+### [Agrupar formas en Word y añadir un rectángulo con Aspose.Words](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
+Aprenda a agrupar formas y añadir un rectángulo en documentos Word usando Aspose.Words para Java.
+
+### [Cómo ocultar una forma en Word con C# y Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
+Aprenda a ocultar formas en documentos Word usando C# y Aspose.Words.
 
 ## Recursos adicionales
 

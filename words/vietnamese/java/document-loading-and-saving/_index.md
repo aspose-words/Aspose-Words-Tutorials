@@ -119,6 +119,8 @@ Hướng dẫn chi tiết cách tải và xử lý gạch chân markdown trong J
 ### [Saving HTML Documents with Fixed Layout in Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
 ### [Advance HTML Documents Saving Options with Aspose.Words Java](./advance-html-documents-saving-options/)
 ### [Saving Images from Documents in Aspose.Words for Java](./saving-images-from-documents/)
+Học cách lưu hình ảnh từ tài liệu bằng Aspose.Words cho Java qua hướng dẫn chi tiết từng bước. Tùy chỉnh định dạng, nén và hơn thế nữa.
+
 ### [Saving Documents as Markdown in Aspose.Words for Java](./saving-documents-as-markdown/)
 ### [Saving Documents as ODT Format in Aspose.Words for Java](./saving-documents-as-odt-format/)
 ### [Saving Documents as OOXML Format in Aspose.Words for Java](./saving-documents-as-ooxml-format/)
@@ -162,6 +164,9 @@ Học cách khôi phục các tệp DOCX bị hỏng bằng Aspose.Words cho Jav
 
 ### [Tạo Tài Liệu Word Trống bằng Java – Hướng Dẫn Đầy Đủ Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
 ### [Aspose.Words LoadOptions – Khôi phục tài liệu Word bị hỏng trong Java](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+
+### [Cách tải tệp từ thư mục bằng Aspose.Words trong C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+Học cách tải tệp từ thư mục bằng Aspose.Words trong C#.
 
 ## Câu Hỏi Thường Gặp
 

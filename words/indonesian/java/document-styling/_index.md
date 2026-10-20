@@ -47,6 +47,8 @@ Pelajari cara menata header dan footer dokumen menggunakan Aspose.Words untuk Ja
 Pelajari cara mendeteksi font yang digunakan dalam dokumen Word Java dengan Aspose.Words, termasuk contoh kode lengkap.
 ### [Mengatur Pengaturan Font Default di Aspose.Words untuk Java – Panduan Lengkap](./set-default-font-settings-in-aspose-words-for-java-complete/)
 Pelajari cara mengatur font default secara programatis dengan Aspose.Words untuk Java. Panduan langkah demi langkah lengkap dengan contoh kode sumber.
+### [Cara Menetapkan Bayangan pada Diagram Word dengan Aspose.Words untuk Java](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Pelajari cara menambahkan efek bayangan pada diagram Word menggunakan Aspose.Words untuk Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

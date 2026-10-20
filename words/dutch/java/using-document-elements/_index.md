@@ -65,12 +65,15 @@ Leer lijsten gebruiken in Aspose.Words voor Java met deze stapsgewijze tutorial.
 Leer Markdown gebruiken in Aspose.Words voor Java met deze stapsgewijze tutorial. Maak, style en sla moeiteloos Markdown-documenten op.
 ### [Nodes gebruiken in Aspose.Words voor Java](./using-nodes/)
 Leer hoe je knooppunten in Aspose.Words voor Java kunt bewerken met deze stapsgewijze tutorial. Ontgrendel de kracht van documentverwerking.
+### [Grafiek bewerken in een Word-document met Java](./how-to-edit-chart-in-a-word-document-using-java/)
+Leer hoe u grafieken in Word-documenten kunt bewerken met Aspose.Words voor Java.
 ### [OLE-objecten en ActiveX-besturingselementen gebruiken in Aspose.Words voor Java](./using-ole-objects-and-activex/)
 Leer OLE-objecten en ActiveX-besturingselementen gebruiken in Aspose.Words voor Java. Maak eenvoudig interactieve documenten. Ga nu aan de slag!
 ### [Forms2OleControl toevoegen aan DOCX – Complete Aspose.Words-gids](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
 Leer hoe u Forms2OleControl gebruikt om OLE-besturingselementen toe te voegen aan DOCX-bestanden met Aspose.Words voor Java.
 ### [Hoe een ActiveX-knop in Word in te voegen – knopbijschrift instellen](./how-to-insert-activex-button-in-word-set-button-caption/)
 Leer hoe u een ActiveX-knop toevoegt aan een Word-document en het bijschrift aanpast met Aspose.Words voor Java.
+### [Hoe forms2olecontrol in code maken met Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
 ### [Revisies gebruiken in Aspose.Words voor Java](./using-revisions/)
 Leer hoe u Aspose.Words voor Java's revisiebeheer efficiënt kunt gebruiken. Stapsgewijze handleiding voor ontwikkelaars. Optimaliseer uw documentbeheer.
 ### [Secties gebruiken in Aspose.Words voor Java](./using-sections/)
@@ -94,6 +97,8 @@ Leer hoe je een Word-document maakt met placeholders en lijsten in Aspose.Words 
 Leer hoe je leidlijnen toevoegt aan een taartdiagram met de Aspose.Words Chart API in Java.
 ### [Hoe een opdrachtknop in een Word-document in te voegen met Java](./how-to-insert-command-button-in-a-word-document-using-java/)
 Leer hoe u een opdrachtknop toevoegt aan een Word-document met Aspose.Words voor Java.
+### [Word-document opslaan na het bewerken van een donutgrafiek in Java](./save-word-document-after-editing-doughnut-chart-in-java/)
+Leer hoe u een Word-document opslaat nadat u een doughnut-diagram hebt bewerkt met Aspose.Words voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

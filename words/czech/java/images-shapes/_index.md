@@ -98,6 +98,11 @@ Naučte se, jak vytvořit prázdný dokument Word a seskupit tvary pomocí Aspos
 ### [Jak vytvořit skupinový tvar docx a přidat interaktivní ovládací prvky v C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
 Naučte se, jak vytvořit skupinový tvar v dokumentu DOCX a přidat interaktivní ovládací prvky pomocí C#.
 
+### [Skupinové tvary ve Wordu a přidání obdélníku pomocí Aspose.Words](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
+Naučte se seskupovat tvary a přidávat obdélníkový tvar ve Word dokumentu pomocí Aspose.Words pro Javu.
+
+### [Jak skrýt tvar ve Wordu pomocí C# a Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
+
 ## Další zdroje
 
 ## Další zdroje

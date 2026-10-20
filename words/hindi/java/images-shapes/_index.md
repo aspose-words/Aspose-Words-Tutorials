@@ -103,6 +103,11 @@ Aspose.Words C# में आकृति की छिपी हुई प्�
 जावा में Aspose.Words का उपयोग करके खाली Word फ़ाइल बनाएं और कई आकारों को समूहित करने का तरीका सीखें।
 ### [C# में समूह आकृति docx बनाएं और इंटरैक्टिव नियंत्रण जोड़ें](./how-to-create-group-shape-docx-and-add-interactive-controls/)
 C# में Aspose.Words का उपयोग करके समूह आकृति बनाना और इंटरैक्टिव नियंत्रण जोड़ना सीखें।
+### [Word में समूह आकृतियों को जोड़ें और Aspose.Words के साथ आयताकार जोड़ें](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
+Aspose.Words का उपयोग करके Word दस्तावेज़ में समूह आकृतियों को बनाएं और आयताकार जोड़ें।
+
+### [C# और Aspose.Words के साथ Word में आकृति को छिपाने का तरीका](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
+C# और Aspose.Words का उपयोग करके Word में आकृति को छिपाने का तरीका।
 
 ## अतिरिक्त संसाधन
 

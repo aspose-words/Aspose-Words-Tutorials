@@ -94,6 +94,12 @@
 Узнайте, как добавить линии‑указатели к круговой диаграмме в Java с использованием Chart API.
 ### [Использование кнопки команды в Aspose.Words для Java](./how-to-insert-command-button-in-a-word-document-using-java/)
 Узнайте, как вставить кнопку команды в документ Word с помощью Aspose.Words для Java.
+### [Как редактировать диаграмму в документе Word с помощью Java](./how-to-edit-chart-in-a-word-document-using-java/)
+Узнайте, как редактировать диаграммы в документах Word с помощью Aspose.Words для Java. Пошаговое руководство по изменению графиков.
+### [Как создать forms2olecontrol в коде с помощью Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Узнайте, как программно создать элемент forms2olecontrol в документах Word с помощью Aspose.Words.
+### [Сохранить документ Word после редактирования кольцевой диаграммы в Java](./save-word-document-after-editing-doughnut-chart-in-java/)
+Узнайте, как сохранить документ Word после изменения кольцевой диаграммы с помощью Aspose.Words для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

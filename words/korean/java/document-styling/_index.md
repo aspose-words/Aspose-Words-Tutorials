@@ -47,6 +47,8 @@ Aspose.Words for Java를 사용하여 워터마크를 적용하고 페이지 구
 Aspose.Words for Java를 활용해 Java Word 문서에서 사용된 글꼴을 식별하고 추출하는 방법을 단계별로 안내합니다.
 ### [Aspose.Words for Java에서 기본 글꼴 설정 – 완전 가이드](./set-default-font-settings-in-aspose-words-for-java-complete/)
 Aspose.Words for Java를 사용해 문서의 기본 글꼴을 설정하고 적용하는 방법을 단계별 예제로 확인하세요.
+### [Aspose.Words for Java로 Word 차트에 그림자 설정하기](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Aspose.Words for Java를 이용해 Word 차트에 그림자를 적용하고 시각적 효과를 강화하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

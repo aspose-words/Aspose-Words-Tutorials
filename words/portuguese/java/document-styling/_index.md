@@ -47,6 +47,8 @@ Aprenda a estilizar cabeçalhos e rodapés de documentos usando o Aspose.Words p
 Aprenda a identificar fontes usadas em documentos Word com Aspose.Words para Java. Guia passo a passo com exemplos de código.
 ### [Definir configurações de fonte padrão no Aspose.Words para Java – Guia completo](./set-default-font-settings-in-aspose-words-for-java-complete/)
 Aprenda a definir fontes padrão programaticamente no Aspose.Words para Java. Guia completo com exemplos de código-fonte.
+### [Como definir sombra em um gráfico do Word com Aspose.Words para Java](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Aprenda a aplicar sombra a gráficos do Word usando Aspose.Words para Java com exemplos de código.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

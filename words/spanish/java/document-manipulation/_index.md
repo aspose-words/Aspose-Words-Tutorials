@@ -88,6 +88,8 @@ Aprenda a dividir documentos en páginas con Aspose.Words para Java. Guía paso 
 Aprenda a dividir documentos eficientemente en Aspose.Words para Java. Explore técnicas para encabezados, secciones e intervalos de páginas.
 ### [Dividir documentos en páginas HTML en Aspose.Words para Java](./splitting-documents-into-html-pages/)
 Aprenda a dividir documentos en páginas HTML con Aspose.Words para Java. Siga nuestra guía paso a paso para una conversión fluida de documentos.
+### [Agregar control de contenido en documento Word con Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+Aprenda a insertar y gestionar controles de contenido en documentos Word usando Aspose.Words para Java.
 ### [Agregar contenido usando DocumentBuilder en Aspose.Words para Java](./adding-content-using-documentbuilder/)
 Domina la creación de documentos con Aspose.Words para Java. Guía paso a paso para añadir texto, tablas, imágenes y más. Crea documentos Word impactantes sin esfuerzo.
 ### [Clonación y combinación de documentos en Aspose.Words para Java](./cloning-and-combining-documents/)

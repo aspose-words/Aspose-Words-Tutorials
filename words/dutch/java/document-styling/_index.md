@@ -47,6 +47,8 @@ Leer hoe je documentkopteksten en -voetteksten kunt stylen met Aspose.Words voor
 Leer hoe u lettertypen in Word-documenten kunt detecteren met Aspose.Words voor Java, inclusief voorbeeldcode en stapsgewijze uitleg.
 ### [Standaardlettertype-instellingen instellen in Aspose.Words voor Java – Complete gids](./set-default-font-settings-in-aspose-words-for-java-complete/)
 Leer hoe u standaardlettertype-instellingen configureert in Aspose.Words voor Java met voorbeeldcode.
+### [Hoe schaduw op een Word-diagram instellen met Aspose.Words voor Java](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Leer hoe u schaduweffecten toevoegt aan diagrammen in Word-documenten met Aspose.Words voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

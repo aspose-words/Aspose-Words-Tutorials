@@ -96,6 +96,14 @@ Hướng dẫn cách ẩn một hình dạng trong tài liệu Word bằng Aspos
 Hướng dẫn tạo tài liệu Word trống và nhóm các hình dạng bằng Aspose.Words cho Java.
 ### [Cách tạo nhóm hình dạng docx và thêm các điều khiển tương tác trong C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
 Hướng dẫn tạo nhóm hình dạng trong tài liệu DOCX và thêm các điều khiển tương tác bằng C#.
+### [Tạo hình chữ nhật trong Word bằng Java – Hướng dẫn đầy đủ](./create-rectangle-shape-in-word-with-java-full-guide/)
+Hướng dẫn chi tiết cách tạo và tùy chỉnh hình chữ nhật trong tài liệu Word bằng Aspose.Words cho Java.
+
+### [Nhóm các hình dạng trong Word và thêm một hình chữ nhật với Aspose.Words](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
+Hướng dẫn cách nhóm các hình dạng và thêm hình chữ nhật trong tài liệu Word bằng Aspose.Words.
+
+### [Cách ẩn hình dạng trong Word bằng C# và Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
+Hướng dẫn ẩn một hình dạng trong tài liệu Word bằng C# và Aspose.Words.
 
 ## Tài nguyên bổ sung
 

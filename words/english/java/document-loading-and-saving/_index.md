@@ -218,6 +218,9 @@ Learn how to capture and log font substitution warnings in Java using Aspose.Wor
 ### [Load markdown underline in Java – complete programming guide](./load-markdown-underline-in-java-complete-programming-guide/)
 Learn how to load markdown files with underline formatting in Java using Aspose.Words, with code examples and best practices.
 
+### [How to load file from directory using Aspose.Words in C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+Learn how to load files from a directory using Aspose.Words in C#.
+
 ## Frequently Asked Questions
 ### [Determining Document Format in Aspose.Words for Java]({{< relref "determining-document-format/_index.md" >}})
 Learn how to detect document formats in Java with Aspose.Words. Identify DOC, DOCX, and more. Organize files efficiently.

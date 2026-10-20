@@ -110,6 +110,8 @@ Verbeter documenten met webextensies in Aspose.Words voor Java. Leer hoe u webge
 Leer hoe u toegankelijke PDF's genereert door tags toe te voegen met Aspose.Words voor Java.
 ### [Hoe een Word-document maken in Java met Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
 Leer stap voor stap hoe u een Word-document maakt in Java met Aspose.Words.
+### [Inhoudsbesturingselement toevoegen in Word-document met Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+Voeg een inhoudsbesturingselement toe aan een Word-document met Aspose.Words. Volg de stapsgewijze handleiding en voorbeeldcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

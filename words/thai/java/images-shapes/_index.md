@@ -96,6 +96,12 @@
 
 ### [วิธีสร้างกลุ่มรูปทรงในไฟล์ docx และเพิ่มการควบคุมแบบโต้ตอบใน C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
 
+### [จัดกลุ่มรูปร่างใน Word และเพิ่มสี่เหลี่ยมผืนผ้าด้วย Aspose.Words](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
+เรียนรู้วิธีจัดกลุ่มรูปร่างและเพิ่มสี่เหลี่ยมผืนผ้าในเอกสาร Wordด้วย Aspose.Words สำหรับ Java
+
+### [วิธีซ่อนรูปร่างใน Word ด้วย C# และ Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
+เรียนรู้วิธีซ่อนรูปร่างในเอกสาร Word ด้วย C# และ Aspose.Words
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 ## แหล่งข้อมูลเพิ่มเติม

@@ -99,6 +99,11 @@ Apprenez à créer et personnaliser une forme rectangle dans vos documents Word 
 
 ### [Comment créer une forme groupée docx et ajouter des contrôles interactifs en C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
 Apprenez à créer des formes groupées dans un document DOCX et à y ajouter des contrôles interactifs en C# avec Aspose.Words.
+### [Regrouper des formes dans Word et ajouter un rectangle avec Aspose.Words](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
+Apprenez à regrouper des formes et à insérer un rectangle dans un document Word avec Aspose.Words pour Java.
+
+### [Comment masquer une forme dans Word avec C# et Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
+Apprenez à masquer une forme dans un document Word à l'aide de C# et Aspose.Words.
 
 ## Ressources supplémentaires
 

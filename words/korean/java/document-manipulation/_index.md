@@ -109,6 +109,8 @@ Aspose.Words for Java를 사용하여 문서 관리를 최적화하세요. 이 �
 Aspose.Words for Java를 사용하여 PDF에 접근성 태그를 추가하고, 접근 가능한 PDF 문서를 생성하는 방법을 알아보세요.
 ### [Java용 Aspose.Words에서 Word 문서 만들기](./how-to-create-a-word-document-in-java-with-aspose-words/)
 Aspose.Words for Java를 사용해 새 Word 문서를 생성하고 기본 콘텐츠를 추가하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.Words에서 Word 문서에 콘텐츠 컨트롤 추가](./add-content-control-in-word-document-with-aspose-words/)
+Aspose.Words for Java를 사용하여 Word 문서에 콘텐츠 컨트롤을 추가하는 방법을 알아보세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

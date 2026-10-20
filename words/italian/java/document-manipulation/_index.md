@@ -110,6 +110,8 @@ Impara a creare PDF accessibili aggiungendo tag di struttura con Aspose.Words pe
 Impara a inserire un pulsante ActiveX in un documento DOCX usando Aspose.Words per Java con esempi di codice passo passo.
 ### [Come creare un documento Word in Java con Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
 Crea documenti Word in Java usando Aspose.Words con esempi pratici.
+### [Aggiungere un controllo di contenuto in un documento Word con Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+Scopri come inserire controlli di contenuto nei documenti Word usando Aspose.Words per Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

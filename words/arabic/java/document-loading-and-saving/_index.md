@@ -147,6 +147,8 @@ Aspose.Words for Java يجعل من السهل **حفظ الصور من Word** �
 
 ### [تحميل تسطير markdown في Java – دليل برمجة كامل](./load-markdown-underline-in-java-complete-programming-guide/)
 تعلم كيفية تحميل ملفات markdown مع تسطيرها في Java باستخدام Aspose.Words. دليل شامل خطوة بخطوة.
+### [كيفية تحميل ملف من دليل باستخدام Aspose.Words في C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+تعلم كيفية تحميل ملف من مجلد باستخدام Aspose.Words في لغة C#.
 
 #### الحفظ بصيغ مختلفة
 

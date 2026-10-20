@@ -110,6 +110,8 @@ Aspose.Words สำหรับ Java เป็น API ที่มีประ�
 เรียนรู้วิธีสร้างปุ่ม ActiveX ในไฟล์ docx ด้วย Java พร้อมตัวอย่างโค้ดเต็มขั้น
 ### [วิธีสร้างเอกสาร Word ใน Java ด้วย Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
 เรียนรู้ขั้นตอนการสร้างไฟล์ Word ด้วย Aspose.Words สำหรับ Java อย่างง่ายดาย
+### [การเพิ่ม Content Control ในเอกสาร Word ด้วย Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+เรียนรู้วิธีเพิ่ม Content Control ในเอกสาร Word ด้วย Aspose.Words สำหรับ Java เพื่อจัดการข้อมูลอย่างยืดหยุ่น
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

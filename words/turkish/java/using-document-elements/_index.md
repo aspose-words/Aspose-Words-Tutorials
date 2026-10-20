@@ -95,6 +95,12 @@ Yer tutucular ve listeler kullanarak dinamik Word belgeleri oluşturmayı öğre
 Java Chart API kullanarak pasta grafiğine lider çizgileri eklemeyi adım adım öğrenin.
 ### [Java için Aspose.Words'de Komut Düğmesi Ekleme](./how-to-insert-command-button-in-a-word-document-using-java/)
 Aspose.Words for Java ile Word belgesine komut düğmesi eklemeyi adım adım öğrenin.
+### [Java ile Word belgesindeki grafiği düzenleme](./how-to-edit-chart-in-a-word-document-using-java/)
+Java ile Word belgesindeki grafiği nasıl düzenleyeceğinizi öğrenin.
+### [Java'da Donut Grafik Düzenledikten Sonra Word Belgesini Kaydetme](./save-word-document-after-editing-doughnut-chart-in-java/)
+Java'da donut grafik düzenledikten sonra Word belgesini nasıl kaydedeceğinizi öğrenin.
+### [Aspose.Words ile kodda forms2olecontrol oluşturma](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Aspose.Words kullanarak kod içinde forms2olecontrol nesnesi oluşturmayı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

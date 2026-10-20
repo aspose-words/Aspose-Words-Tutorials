@@ -95,6 +95,12 @@ Scopri come estrarre o inserire separatori nei documenti Word usando Aspose.Word
 Scopri come aggiungere linee di collegamento ai grafici a torta in Java usando l'API Chart di Aspose.Words.
 ### [Come creare un documento Word con segnaposti e elenchi in Aspose.Words per Java](./how-to-create-word-document-with-placeholders-and-lists/)
 Impara a generare documenti Word con segnaposti dinamici e elenchi strutturati usando Aspose.Words per Java.
+### [Come modificare un grafico in un documento Word con Java](./how-to-edit-chart-in-a-word-document-using-java/)
+Impara a modificare i grafici nei documenti Word con Aspose.Words per Java passo passo.
+### [Come creare forms2olecontrol in codice con Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Impara a creare controlli Forms2OleControl programmaticamente con Aspose.Words per Java.
+### [Salva documento Word dopo aver modificato il grafico a ciambella in Java](./save-word-document-after-editing-doughnut-chart-in-java/)
+Salva il documento Word dopo aver modificato un grafico a ciambella con Aspose.Words per Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

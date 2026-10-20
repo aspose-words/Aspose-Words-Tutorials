@@ -73,6 +73,8 @@ Học cách thao tác các nút trong Aspose.Words cho Java với hướng dẫn
 Học cách sử dụng các đối tượng OLE và điều khiển ActiveX trong Aspose.Words cho Java. Tạo tài liệu tương tác dễ dàng. Bắt đầu ngay!
 ### [Thêm Forms2OleControl vào DOCX – Hướng dẫn toàn diện Aspose.Words](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
 Hướng dẫn chi tiết cách sử dụng Forms2OleControl để chèn điều khiển OLE vào tài liệu DOCX bằng Aspose.Words for Java.
+### [Cách tạo forms2olecontrol trong mã với Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Hướng dẫn cách tạo đối tượng Forms2OleControl trong mã Java bằng Aspose.Words.
 ### [Sử dụng Revisions trong Aspose.Words cho Java](./using-revisions/)
 Học cách sử dụng Aspose.Words cho các điều khiển sửa đổi của Java một cách hiệu quả. Hướng dẫn từng bước cho các nhà phát triển. Tối ưu hóa việc quản lý tài liệu của bạn.
 ### [Sử dụng Sections trong Aspose.Words cho Java](./using-sections/)
@@ -95,6 +97,10 @@ Hướng dẫn tạo tài liệu Word có placeholder và danh sách bằng Aspo
 Hướng dẫn từng bước để thêm các đường dẫn vào biểu đồ tròn trong Java sử dụng Chart API của Aspose.Words.
 ### [Cách chèn nút lệnh vào tài liệu Word bằng Java](./how-to-insert-command-button-in-a-word-document-using-java/)
 Hướng dẫn chi tiết cách chèn nút lệnh vào tài liệu Word bằng Java, giúp tạo tài liệu tương tác.
+### [Cách chỉnh sửa biểu đồ trong tài liệu Word bằng Java](./how-to-edit-chart-in-a-word-document-using-java/)
+Hướng dẫn chi tiết cách chỉnh sửa biểu đồ trong tài liệu Word bằng Java với Aspose.Words.
+### [Lưu tài liệu Word sau khi chỉnh sửa biểu đồ donut trong Java](./save-word-document-after-editing-doughnut-chart-in-java/)
+Hướng dẫn lưu tài liệu Word sau khi chỉnh sửa biểu đồ donut bằng Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

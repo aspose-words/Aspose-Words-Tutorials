@@ -93,6 +93,11 @@
 เรียนรู้วิธีสร้างเอกสาร Word ที่มีตัวแปรแทนที่และรายการโดยใช้ Aspose.Words for Java
 ### [การใช้ปุ่มคำสั่งใน Aspose.Words สำหรับ Java](./how-to-insert-command-button-in-a-word-document-using-java/)
 เรียนรู้วิธีแทรกปุ่มคำสั่งลงในเอกสาร Word ด้วย Aspose.Words for Java อย่างละเอียด
+### [วิธีแก้ไขแผนภูมิในเอกสาร Word ด้วย Java](./how-to-edit-chart-in-a-word-document-using-java/)
+เรียนรู้วิธีแก้ไขแผนภูมิในเอกสาร Word ด้วย Aspose.Words for Java อย่างละเอียด
+### [วิธีสร้าง forms2olecontrol ในโค้ดด้วย Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+### [บันทึกเอกสาร Word หลังจากแก้ไขแผนภูมิโดนัทใน Java](./save-word-document-after-editing-doughnut-chart-in-java/)
+เรียนรู้วิธีบันทึกเอกสาร Word หลังจากแก้ไขแผนภูมิโดนัทใน Java ด้วย Aspose.Words
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

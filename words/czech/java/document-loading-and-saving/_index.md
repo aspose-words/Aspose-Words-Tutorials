@@ -128,6 +128,7 @@ Naučte se, jak otevřít poškozený soubor Word a nastavit režim obnovy pomoc
 
 ### [Zachycení varování o nahrazení fontů v Javě pomocí Aspose.Words – Kompletní průvodce](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [Jak obnovit docx – Kompletní průvodce čtením poškozených souborů Word](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+
 ### [Nastavit režim obnovy pro opravu poškozeného dokumentu Word](./set-recovery-mode-to-recover-broken-word-document/)
 
 ### [Jak získat chybějící fonty v Javě – Průvodce Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
@@ -166,6 +167,9 @@ Naučte se vytvořit prázdný dokument Word v Javě pomocí Aspose.Words s podr
 
 ### [Aspose – Průvodce nahrazením fontů – Řešení chybějících fontů](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 Naučte se, jak detekovat a nahradit chybějící fonty při práci s dokumenty v Aspose.Words.
+
+### [Jak načíst soubor ze složky pomocí Aspose.Words v C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+Naučte se načíst soubor z adresáře v C# pomocí knihovny Aspose.Words s praktickým příkladem kódu.
 
 ## Často kladené otázky
 

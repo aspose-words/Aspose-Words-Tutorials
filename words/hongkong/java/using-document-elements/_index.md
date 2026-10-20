@@ -84,6 +84,8 @@
 學習在 Aspose.Words for Java 中使用 OLE 物件和 ActiveX 控制項。輕鬆建立互動式文件。立即開始！
 ### [在 Word 中插入 ActiveX 按鈕 – 設定按鈕說明文字](./how-to-insert-activex-button-in-word-set-button-caption/)
 了解如何在 Word 中插入 ActiveX 按鈕並設定按鈕說明文字，提供逐步指導與程式碼範例。
+### [在程式碼中使用 Aspose.Words 建立 forms2olecontrol 控制項](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+了解如何在 Java 程式碼中使用 Aspose.Words 建立 forms2olecontrol，以嵌入 OLE 控制項。
 ### [在 Aspose.Words for Java 中使用修訂版本](./using-revisions/)
 學習有效地使用 Aspose.Words for Java 的修訂控制。為開發人員提供逐步指南。優化您的文件管理。
 
@@ -108,6 +110,10 @@
 
 ### [在 Java 中使用 Chart API 為餅圖添加指示線](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
 了解如何在 Java 中使用 Chart API 為餅圖添加指示線，提升圖表的可讀性與美觀。
+### [在 Aspose.Words for Java 中編輯 Word 文件的圖表](./how-to-edit-chart-in-a-word-document-using-java/)
+了解如何使用 Java 透過 Aspose.Words 編輯 Word 文件中的圖表。
+### [在 Java 中編輯甜甜圈圖表後儲存 Word 文件](./save-word-document-after-editing-doughnut-chart-in-java/)
+了解如何在 Java 使用 Aspose.Words 編輯甜甜圈圖表後保存 Word 文件。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -69,6 +69,8 @@ Apprenez à manipuler les nœuds dans Aspose.Words pour Java grâce à ce tutori
 Apprenez à utiliser les objets OLE et les contrôles ActiveX dans Aspose.Words pour Java. Créez facilement des documents interactifs. Commencez dès maintenant !
 ### [Ajouter Forms2OleControl à DOCX – Guide complet Aspose.Words](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
 Apprenez à insérer un contrôle Forms2Ole dans un fichier DOCX avec Aspose.Words. Guide complet étape par étape.
+### [Comment créer forms2olecontrol en code avec Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Apprenez à créer des contrôles Forms2OLE dans le code avec Aspose.Words pour Java.
 ### [Utilisation des révisions dans Aspose.Words pour Java](./using-revisions/)
 Apprenez à utiliser efficacement les contrôles de révision d'Aspose.Words pour Java. Guide étape par étape pour les développeurs. Optimisez la gestion de vos documents.
 ### [Utilisation des sections dans Aspose.Words pour Java](./using-sections/)
@@ -94,6 +96,10 @@ Apprenez à ajouter des lignes de repère aux graphiques circulaires en Java à 
 Apprenez à générer des documents Word contenant des espaces réservés et des listes dynamiques avec Aspose.Words pour Java.
 ### [Comment insérer un bouton de commande dans un document Word à l'aide de Java](./how-to-insert-command-button-in-a-word-document-using-java/)
 Apprenez à insérer un bouton de commande dans un document Word avec Aspose.Words pour Java.
+### [Utilisation de la modification de graphiques dans un document Word avec Java](./how-to-edit-chart-in-a-word-document-using-java/)
+Apprenez à modifier les graphiques dans un document Word en utilisant Aspose.Words pour Java, étape par étape.
+### [Enregistrer le document Word après modification du graphique en anneau en Java](./save-word-document-after-editing-doughnut-chart-in-java/)
+Apprenez à enregistrer un document Word après avoir modifié un graphique en anneau avec Aspose.Words pour Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

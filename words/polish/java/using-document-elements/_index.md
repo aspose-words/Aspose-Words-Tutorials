@@ -96,6 +96,12 @@ Dowiedz się, jak generować dokumenty Word z dynamicznymi polami zastępczymi i
 Dowiedz się, jak dodać linie prowadzące do wykresu kołowego w Javie przy użyciu Chart API.
 ### [Jak wstawić przycisk polecenia w dokumencie Word przy użyciu Java](./how-to-insert-command-button-in-a-word-document-using-java/)
 Dowiedz się, jak dodać przycisk polecenia do dokumentu Word przy użyciu Aspose.Words dla Java.
+### [Jak edytować wykres w dokumencie Word przy użyciu Javy](./how-to-edit-chart-in-a-word-document-using-java/)
+Naucz się modyfikować wykresy w dokumentach Word za pomocą Aspose.Words dla Java.
+### [Jak utworzyć forms2olecontrol w kodzie przy użyciu Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Dowiedz się, jak programowo tworzyć kontrolki Forms2OLE w dokumentach przy pomocy Aspose.Words.
+### [Zapisz dokument Word po edycji wykresu pierścieniowego w Javie](./save-word-document-after-editing-doughnut-chart-in-java/)
+Dowiedz się, jak po edycji wykresu pierścieniowego zapisać dokument Word przy użyciu Aspose.Words dla Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

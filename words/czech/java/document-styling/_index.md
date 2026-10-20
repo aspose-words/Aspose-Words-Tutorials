@@ -47,6 +47,8 @@ Naučte se v tomto podrobném průvodci, jak upravovat styly záhlaví a zápat�
 Naučte se, jak pomocí Aspose.Words pro Javu detekovat písma v dokumentech Word a získat podrobné ukázky kódu.
 ### [Nastavení výchozího písma v Aspose.Words pro Javu – Kompletní průvodce](./set-default-font-settings-in-aspose-words-for-java-complete/)
 Naučte se, jak nastavit výchozí písmo pro všechny dokumenty pomocí Aspose.Words pro Javu s praktickými ukázkami kódu. 
+### [Nastavení stínu na grafu ve Wordu](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Naučte se, jak nastavit stín na grafu ve Wordu pomocí Aspose.Words pro Javu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

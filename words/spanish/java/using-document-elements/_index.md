@@ -45,6 +45,10 @@ Recuerda, la práctica hace al maestro, y con Aspose.Words para Java, crearás, 
 ## Tutoriales sobre el uso de elementos de documento
 ### [Agregar Forms2OleControl a DOCX – Guía completa de Aspose.Words](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
 Aprenda a insertar controles Forms2Ole en documentos DOCX usando Aspose.Words para Java. Tutorial paso a paso.
+### [Cómo editar un gráfico en un documento Word usando Java](./how-to-edit-chart-in-a-word-document-using-java/)
+Aprenda a modificar gráficos en documentos Word con Aspose.Words para Java paso a paso.
+### [Guardar documento Word después de editar un gráfico de rosquilla en Java](./save-word-document-after-editing-doughnut-chart-in-java/)
+Aprenda a guardar el documento Word tras modificar un gráfico de rosquilla usando Aspose.Words para Java.
 ### [Uso de comentarios en Aspose.Words para Java](./using-comments/)
 Aprenda a usar comentarios en Aspose.Words para Java. Tutorial paso a paso para agregar y personalizar comentarios en sus documentos.
 ### [Uso de campos en Aspose.Words para Java](./using-fields/)
@@ -95,6 +99,8 @@ Aprenda a crear documentos Word con marcadores de posición y listas usando Aspo
 Aprenda a añadir líneas guía a gráficos de pastel en Java usando la API de Chart de Aspose.
 ### [Uso de botón de comando en un documento Word con Java](./how-to-insert-command-button-in-a-word-document-using-java/)
 Aprenda a insertar botones de comando en documentos Word mediante Aspose.Words para Java con este tutorial paso a paso.
+### [Cómo crear forms2olecontrol en código con Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Aprenda a crear forms2olecontrol en código con Aspose.Words para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
