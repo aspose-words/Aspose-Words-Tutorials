@@ -1,49 +1,24 @@
 ---
 category: general
-date: 2026-08-14
-description: Převod docx na pdf pomocí Javy a Aspose.Words. Naučte se, jak nastavit
-  kódování dokumentu, načíst soubor Word a efektivně uložit PDF z Wordu.
+date: 2026-02-28
+description: Převádějte DOCX do PDF rychle pomocí Javy. Naučte se, jak programově
+  uložit Word jako PDF, a to s podporou plovoucích tvarů a inline značek.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - convert docx to pdf
-- save pdf from word
-- convert word document pdf
-- set document encoding java
+- save word as pdf
+- programmatic pdf generation
+- java convert word pdf
 language: cs
-lastmod: 2026-08-14
-og_description: Převod docx na pdf v Javě s Aspose.Words. Postupujte podle tohoto
-  návodu, jak nastavit kódování dokumentu, načíst soubory Word a uložit PDF z Wordu
-  pomocí několika řádků kódu.
-og_image_alt: Screenshot showing Java code that converts a DOCX file to a PDF using
-  Aspose.Words
-og_title: Převod docx na PDF v Javě – kompletní programovací průvodce
-schemas:
-- author: Aspose
-  dateModified: '2026-08-14'
-  description: Convert docx to pdf with Java using Aspose.Words. Learn how to set
-    document encoding, load a Word file, and save PDF from Word efficiently.
-  headline: Convert docx to pdf in Java – step‑by‑step guide
-  type: TechArticle
-- description: Convert docx to pdf with Java using Aspose.Words. Learn how to set
-    document encoding, load a Word file, and save PDF from Word efficiently.
-  name: Convert docx to pdf in Java – step‑by‑step guide
-  steps:
-  - name: Maven
-    text: '```xml <dependency> <groupId>com.aspose</groupId> <artifactId>aspose-words</artifactId>
-      <version>24.9</version> <!-- Use the latest stable version --> </dependency>
-      ```'
-  - name: Gradle
-    text: '```groovy implementation ''com.aspose:aspose-words:24.9'' ```'
-  - name: How to run
-    text: '```bash # Compile javac -cp "path/to/aspose-words-24.9.jar" com/example/docx2pdf/DocxToPdfConverter.java'
-  type: HowTo
+og_description: Převod DOCX do PDF pomocí Javy. Tento průvodce vám ukáže, jak uložit
+  Word jako PDF pomocí programového generování PDF, přičemž pokrývá možnosti a okrajové
+  případy.
+og_title: Převod DOCX na PDF v Javě – kompletní tutoriál
 tags:
 - Java
+- PDF
 - Aspose.Words
-- PDF conversion
-title: Převod docx do pdf v Javě – krok za krokem
+title: Převod DOCX do PDF v Javě – krok za krokem průvodce
 url: /cs/java/document-converting/convert-docx-to-pdf-in-java-step-by-step-guide/
 ---
 
@@ -51,200 +26,137 @@ url: /cs/java/document-converting/convert-docx-to-pdf-in-java-step-by-step-guide
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Převod docx na pdf v Javě – kompletní programovací průvodce
+# Převod DOCX na PDF v Javě – Kompletní tutoriál
 
-Pokud potřebujete **convert docx to pdf** v Javě, tento tutoriál vám přesně ukáže, jak na to. Provedeme vás nastavením správného kódování znaků, načtením Word dokumentu a nakonec **save pdf from word** pomocí několika řádků kódu.
+Už jste někdy potřebovali **převést DOCX na PDF** z Java aplikace a přemýšleli, proč příklady vždy vynechávají obtížnou část s plovoucími tvary? Nejste v tom sami. V mnoha reálných projektech prosté volání `doc.save("out.pdf")` odstraní obrázky, textová pole nebo grafy z toku, což způsobí, že PDF vypadá poškozeně.  
 
-Na konci průvodce budete mít připravený spustitelný Java program, který spolehlivě **convert docx to pdf**, i když zdrojový soubor používá ne‑Unicode kódování jako Big5. Během cesty také pokryjeme krok **set document encoding java**, aby váš PDF správně zachoval původní text.
+V tomto průvodci projdeme **kompletní, spustitelným řešením**, které nejen **save Word as PDF**, ale také zachová plovoucí tvary jako inline, aby rozvržení zůstalo věrné. Na konci budete mít samostatný úryvek, pochopíte *proč* každé nastavení má význam, a budete vědět, jak jej přizpůsobit pro okrajové případy.
 
-## Požadavky
+> **Co budete potřebovat**  
+> • Java 17 (or any recent JDK)  
+> • Aspose.Words for Java library (free trial works fine) → (bezplatná zkušební verze funguje dobře)  
+> • Soubor DOCX s alespoň jedním plovoucím tvarem (např. textové pole)  
 
-| Requirement | Why it matters |
-|-------------|----------------|
-| Java 8 nebo novější | Aspose.Words for Java běží na libovolném runtime Java 8+. |
-| Maven nebo Gradle build tool | Zjednodušuje přidání závislosti Aspose.Words. |
-| Aspose.Words for Java library | Poskytuje API `LoadOptions`, `Document` a `save`, které použijeme. |
-| DOCX soubor používající konkrétní znakovou sadu (např. Big5) | Ukazuje techniku **set document encoding java**. |
+Pokud je máte, pojďme na to.
 
-> **Tip:** Pokud ještě nemáte licenci Aspose.Words, můžete začít s bezplatným 30‑denním evaluačním klíčem. Knihovna funguje i bez klíče, ale přidá vodoznak do výstupního PDF.
+---
 
-## Krok 1: Přidejte Aspose.Words do svého projektu
+## Jak převést DOCX na PDF pomocí Javy (Primární klíčové slovo v akci)
 
-### Maven
+Základní myšlenka je jednoduchá: načíst zdrojový dokument, říct PDF zapisovači, jak zacházet s plovoucími tvary, a poté uložit. Následující sekce rozebírají každý krok, vysvětlují logiku a ukazují přesný kód, který můžete zkopírovat‑vložit.
+
+![Snímek obrazovky Java IDE zobrazující kód pro převod docx na pdf](/images/convert-docx-to-pdf.png "příklad převodu docx na pdf")
+
+---
+
+## Krok 1 – Nastavte svůj projekt pro programové generování PDF
+
+Než napíšete jakýkoli kód, ujistěte se, že Aspose.Words JAR je ve vašem classpath. Pokud používáte Maven, přidejte:
 
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-words</artifactId>
-    <version>24.9</version> <!-- Use the latest stable version -->
+    <version>24.5</version> <!-- Check for the latest version -->
 </dependency>
 ```
 
-### Gradle
+> **Tip:** K knihovna je těžká (~30 MB). Pokud potřebujete jen konverzi, zvažte odlehčený SDK `aspose-words-cloud`, ale on‑premise JAR vám dává plnou kontrolu nad možnostmi ukládání.
 
-```groovy
-implementation 'com.aspose:aspose-words:24.9'
-```
+---
 
-Přidání závislosti zpřístupní třídy `LoadOptions`, `Document` a související třídy ve vašem classpathu.
+## Krok 2 – Načtěte zdrojový dokument
 
-## Krok 2: Připravte LoadOptions a nastavte správné kódování
-
-Když DOCX obsahuje znaky kódované v Big5 (běžné pro tradiční čínštinu), musíte Aspose.Words sdělit, kterou znakovou sadu použít. To je jádro operace **set document encoding java**.
-
-```java
-import com.aspose.words.LoadOptions;
-import java.nio.charset.Charset;
-
-// Create a LoadOptions instance
-LoadOptions loadOptions = new LoadOptions();
-
-// Specify the encoding – replace "Big5" with the appropriate charset if needed
-loadOptions.setEncoding(Charset.forName("Big5"));
-```
-
-Proč je to důležité: Bez správného kódování se mohou znaky v výsledném PDF zobrazit jako poškozené symboly, což podkopává účel vašeho workflow **convert docx to pdf**.
-
-## Krok 3: Načtěte soubor DOCX pomocí nakonfigurovaných možností
-
-Nyní načteme zdrojový dokument. Konstruktor `Document` přijímá cestu k souboru a `LoadOptions`, které jsme právě nakonfigurovali.
+Potřebujete objekt `Document`, který představuje DOCX, který chcete převést. Konstruktor přijímá cestu k souboru, `InputStream` nebo dokonce pole bajtů. Použití cesty udržuje příklad stručný:
 
 ```java
 import com.aspose.words.Document;
-
-// Path to the source DOCX – adjust to your environment
-String sourcePath = "YOUR_DIRECTORY/Taiwanese.docx";
-
-// Load the Word document with the custom encoding
-Document doc = new Document(sourcePath, loadOptions);
-```
-
-Pokud soubor neexistuje nebo je cesta nesprávná, Aspose.Words vyhodí `FileNotFoundException`. Vždy před spuštěním konverze ověřte cestu.
-
-## Krok 4: Uložte dokument jako PDF soubor
-
-Posledním krokem je **save pdf from word**. Aspose.Words automaticky určí výstupní formát podle přípony souboru.
-
-```java
-// Destination path for the PDF
-String pdfPath = "YOUR_DIRECTORY/Converted.pdf";
-
-// Save the document as PDF
-doc.save(pdfPath);
-```
-
-Po dokončení tohoto volání obsahuje `Converted.pdf` věrnou vizuální repliku původního DOCX, se všemi znaky Big5 správně vykreslenými.
-
-## Kompletní, spustitelný příklad
-
-Spojením všeho dohromady zde máte kompletní třídu Java, kterou můžete zkopírovat, zkompilovat a spustit.
-
-```java
-package com.example.docx2pdf;
-
-import com.aspose.words.Document;
-import com.aspose.words.LoadOptions;
-import java.nio.charset.Charset;
+import com.aspose.words.PdfSaveOptions;
 
 public class DocxToPdfConverter {
 
-    public static void main(String[] args) {
-        // -----------------------------------------------------------------
-        // 1️⃣  Validate arguments
-        // -----------------------------------------------------------------
-        if (args.length != 2) {
-            System.out.println("Usage: java DocxToPdfConverter <input.docx> <output.pdf>");
-            return;
-        }
-        String inputPath = args[0];
-        String outputPath = args[1];
+    public static void main(String[] args) throws Exception {
+        // 👉 Load the source DOCX file
+        Document doc = new Document("YOUR_DIRECTORY/input.docx");
+```
 
-        try {
-            // -----------------------------------------------------------------
-            // 2️⃣  Configure encoding (set document encoding java)
-            // -----------------------------------------------------------------
-            LoadOptions loadOptions = new LoadOptions();
-            loadOptions.setEncoding(Charset.forName("Big5")); // Change if your DOCX uses a different charset
+**Proč je to důležité:** Načtení souboru vytvoří v‑paměti reprezentaci všech objektů Wordu — odstavců, tabulek a nebezpečných plovoucích tvarů. Pokud soubor není nalezen, Aspose vyhodí jasnou `FileNotFoundException`, kterou můžete později zachytit, pokud potřebujete elegantní zpracování chyb.
 
-            // -----------------------------------------------------------------
-            // 3️⃣  Load the DOCX file (convert docx to pdf – step 3)
-            // -----------------------------------------------------------------
-            Document doc = new Document(inputPath, loadOptions);
+---
 
-            // -----------------------------------------------------------------
-            // 4️⃣  Save as PDF (save pdf from word)
-            // -----------------------------------------------------------------
-            doc.save(outputPath);
+## Krok 3 – Nakonfigurujte možnosti ukládání PDF pro inline tvary
 
-            System.out.println("Successfully converted '" + inputPath + "' to PDF at '" + outputPath + "'.");
-        } catch (Exception e) {
-            System.err.println("Error during conversion: " + e.getMessage());
-            e.printStackTrace();
-        }
+Výchozí konverze *zploští* plovoucí tvary, často je posune do levého horního rohu stránky. Abychom zachovali vizuální tok, povolíme příznak `ExportFloatingShapesAsInlineTag`:
+
+```java
+        // 👉 Configure PDF options to keep floating shapes inline
+        PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+        pdfSaveOptions.setExportFloatingShapesAsInlineTag(true);
+        // Optional: set compliance level, image quality, etc.
+        // pdfSaveOptions.setCompliance(PdfCompliance.PDF_A_1B);
+```
+
+**Vysvětlení:**  
+- `setExportFloatingShapesAsInlineTag(true)` říká PDF zapisovači, aby obalil každý plovoucí tvar neviditelným inline tagem. Když se PDF vykreslí, tvar se chová jako běžný text — zachovává svou původní pozici vzhledem k okolním odstavcům.  
+- Můžete také upravit DPI, vložit fonty nebo vynutit shodu s PDF/A; to je mimo rozsah tohoto tutoriálu, ale stojí za prozkoumání pro produkční PDF.
+
+---
+
+## Krok 4 – Uložte dokument jako PDF
+
+Nyní skutečně zapíšeme PDF soubor. Metoda `save` přijímá cílovou cestu a možnosti, které jsme právě vytvořili:
+
+```java
+        // 👉 Save the document as a PDF using the configured options
+        doc.save("YOUR_DIRECTORY/output.pdf", pdfSaveOptions);
+        System.out.println("Conversion complete! Check output.pdf");
     }
 }
 ```
 
-### Jak spustit
+**Co uvidíte:** Výsledný `output.pdf` bude vypadat téměř identicky jako původní Word soubor, s textovými poli, grafy a obrázky zůstávajícími na svém místě. Pokud otevřete PDF v Adobe Readeru, měli byste si všimnout, že žádný prvek nebyl odstraněn ani špatně umístěn.
+
+---
+
+## Ověřte výsledek a běžné úskalí
+
+### Rychlá kontrola
 
 ```bash
-# Compile
-javac -cp "path/to/aspose-words-24.9.jar" com/example/docx2pdf/DocxToPdfConverter.java
-
-# Execute
-java -cp ".:path/to/aspose-words-24.9.jar" com.example.docx2pdf.DocxToPdfConverter \
-    YOUR_DIRECTORY/Taiwanese.docx YOUR_DIRECTORY/Converted.pdf
+$ ls -l YOUR_DIRECTORY/output.pdf
+-rw-r--r-- 1 user staff 124567 Feb 28 12:34 output.pdf
 ```
 
-**Očekávaný výstup:**  
-```
-Successfully converted 'YOUR_DIRECTORY/Taiwanese.docx' to PDF at 'YOUR_DIRECTORY/Converted.pdf'.
-```
+Otevřete soubor. Pokud rozvržení odpovídá, úspěšně jste **convert docx to pdf** s inline tvary.
 
-Otevřete `Converted.pdf` v libovolném PDF prohlížeči; měli byste vidět původní čínské znaky zobrazené správně.
+### Často kladené otázky
 
-## Běžné varianty a okrajové případy
+| Question | Answer |
+|----------|--------|
+| *Co když DOCX obsahuje uzamčený obsah?* | Aspose respektuje nastavení ochrany. Možná budete muset nejprve odemknout dokument (`doc.unprotect("password")`). |
+| *Mohu převádět více souborů ve smyčce?* | Rozhodně. Zabalte kód do `for (File f : folder.listFiles())` a znovu použijte `PdfSaveOptions`. |
+| *Funguje to na Androidu?* | Plná knihovna Aspose.JAVA není kompatibilní s Androidem, ale cloud SDK funguje. |
+| *Co s velkými soubory (100 MB+)?* | Použijte `LoadOptions` s `MemoryUsageSetting` pro streamování částí dokumentu a vyhněte se `OutOfMemoryError`. |
 
-| Situace | Co změnit |
-|-----------|----------------|
-| **Different charset (e.g., UTF‑8, Shift_JIS)** | Nahraďte `"Big5"` vhodným názvem: `Charset.forName("UTF-8")` nebo `Charset.forName("Shift_JIS")`. |
-| **Password‑protected DOCX** | Použijte `LoadOptions.setPassword("yourPassword")` před načtením. |
-| **High‑resolution PDF requirement** | Zavolejte `doc.save(pdfPath, SaveOptions.createSaveOptions(SaveFormat.PDF))` a upravte `PdfSaveOptions.setRasterizeComplexScripts(true)`. |
-| **Batch conversion** | Zabalte logiku konverze do smyčky, která prochází adresář s DOCX soubory. |
-| **Running in a web service** | Proud vstupu `InputStream` předejte do `new Document(inputStream, loadOptions)` a PDF zapište do `OutputStream` místo souborového systému. |
+---
 
-Tyto varianty vám umožní **convert word document pdf** v mnoha reálných scénářích, aniž byste přepisovali jádro logiky.
+## Bonus: Převod Wordu na PDF bez Aspose (alternativní přístup)
 
-## Tip pro výkon
+Pokud dáváte přednost open‑source stacku, můžete kombinovat **Apache POI** pro čtení DOCX a **OpenPDF** pro tvorbu PDF, ale ztratíte automatické zacházení s plovoucími tvary. Proto **programové generování PDF** s dedikovanou knihovnou jako Aspose zůstává nejspolehlivějším způsobem, jak **save Word as PDF** v Javě.
 
-Pokud převádíte velké dokumenty nebo zpracováváte mnoho souborů, znovu použijte jedinou instanci `License` (pokud máte komerční licenci) a vyhněte se opakovanému vytváření objektů `LoadOptions`. Tím se sníží režie a urychlí pipeline **convert docx to pdf**.
-
-## Kontrolní seznam ověření
-
-- [ ] Zdrojový DOCX se nachází na zadané cestě.  
-- [ ] Výstupní adresář je zapisovatelný.  
-- [ ] Správná znaková sada (`Big5` v tomto příkladu) odpovídá kódování zdrojového souboru.  
-- [ ] Vygenerované PDF se otevře bez chybějících znaků.
-
-Pokud některý z těchto kroků selže, konzole zobrazí zásobník výjimek, který ukáže přesný problém.
+---
 
 ## Závěr
 
-Nyní máte kompletní, připravené řešení pro **convert docx to pdf** v Javě. Explicitním **set document encoding java**, načtením Word souboru a následným **save pdf from word** zajistíte, že každý znak – zejména ty ve starších kódováních – se v konečném PDF zobrazí správně.
+Právě jsme předvedli **kompletní, end‑to‑end způsob, jak převést DOCX na PDF** pomocí Javy, pokrývající vše od nastavení projektu po klíčový příznak `ExportFloatingShapesAsInlineTag`. Hlavní poznatky:
 
-Odtud můžete zkoumat pokročilejší témata, jako je přidávání vodoznaků, převod do dalších formátů (např. HTML nebo PNG) nebo integraci konverze do Spring Boot REST endpointu. Každé z nich staví přímo na základech představených v tomto průvodci.
+* Načtěte DOCX pomocí `Document`.  
+* Nakonfigurujte `PdfSaveOptions`, aby zachovával plovoucí tvary inline.  
+* Zavolejte `doc.save(..., pdfSaveOptions)` a máte hotovo.  
 
---- 
+Odtud můžete dále zkoumat **programové generování PDF** — přidat vodoznaky, šifrovat PDF nebo sloučit více dokumentů do jednoho. Stejný vzor funguje pro jakýkoli Java‑based konverzní pipeline dokumentů.
 
-*Připraveni automatizovat svůj dokumentový workflow? Zkuste dnes převést dávku DOCX souborů do PDF a uvidíte, kolik času ušetříte!*
-
-## Co byste se měli naučit dál?
-
-Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční příklady kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
-
-- [Jak převést Word na PDF pomocí Aspose.Words pro Java](/words/english/java/document-converting/using-document-converting/)
-- [Jak uložit dokument jako pdf pomocí Aspose.Words pro Java](/words/english/java/document-loading-and-saving/saving-documents-as-pdf/)
-- [Převod Word na PDF v SharePoint pomocí Aspose.Words pro Java](/words/english/java/document-operations/doc-to-pdf-sharepoint-aspose-words-java/)
+Máte další otázky ohledně **save word as pdf** nebo potřebujete pomoc s úpravou konverze pro konkrétní případ? Zanechte komentář níže nebo si prohlédněte dokumentaci Aspose.Words Java API pro podrobnější informace. Šťastné kódování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

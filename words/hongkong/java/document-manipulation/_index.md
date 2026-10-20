@@ -103,8 +103,8 @@ Aspose.Words for Java 是一個功能強大且用途廣泛的 API，可讓開發
 ### [在 Aspose.Words for Java 中使用文件屬性](./using-document-properties/)
 使用 Aspose.Words for Java 最佳化文件管理。在本綜合教學中學習如何使用文件屬性、新增自訂元資料等。
 ### [在 Aspose.Words for Java 中使用 Web 擴充](./using-web-extensions/)
-使用 Aspose.Words for Java 中的 Web 擴充功能增強文件。學習無縫整合網路為基礎的內容。
-
+### [在 Java 中的 PDF 可及性標記 – 產生可存取的 PDF](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+了解如何在 Java 中使用 Aspose.Words 為 PDF 添加可及性標記，生成符合 WCAG 標準的可存取 PDF 文件。
 ### [在 Java 中建立 docx ActiveX 按鈕 – 完整程式設計指南](./create-docx-activex-button-in-java-complete-programming-guid/)
 在 Java 中使用 Aspose.Words 建立可在 Word 中執行的 ActiveX 按鈕的完整步驟與程式碼示例。
 

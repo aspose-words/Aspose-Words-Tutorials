@@ -1,48 +1,21 @@
 ---
 category: general
-date: 2026-08-14
-description: 使用 Aspose.Words 在 Java 中将 docx 转换为 PDF。了解如何设置文档编码、加载 Word 文件以及高效地将 Word
-  保存为 PDF。
+date: 2026-02-28
+description: 使用 Java 快速将 DOCX 转换为 PDF。了解如何以编程方式将 Word 保存为 PDF，处理浮动形状和内联标签。
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - convert docx to pdf
-- save pdf from word
-- convert word document pdf
-- set document encoding java
+- save word as pdf
+- programmatic pdf generation
+- java convert word pdf
 language: zh
-lastmod: 2026-08-14
-og_description: 使用 Aspose.Words 在 Java 中将 docx 转换为 pdf。按照本指南设置文档编码、加载 Word 文件，并仅用几行代码将
-  Word 保存为 PDF。
-og_image_alt: Screenshot showing Java code that converts a DOCX file to a PDF using
-  Aspose.Words
-og_title: 在 Java 中将 docx 转换为 pdf – 完整编程指南
-schemas:
-- author: Aspose
-  dateModified: '2026-08-14'
-  description: Convert docx to pdf with Java using Aspose.Words. Learn how to set
-    document encoding, load a Word file, and save PDF from Word efficiently.
-  headline: Convert docx to pdf in Java – step‑by‑step guide
-  type: TechArticle
-- description: Convert docx to pdf with Java using Aspose.Words. Learn how to set
-    document encoding, load a Word file, and save PDF from Word efficiently.
-  name: Convert docx to pdf in Java – step‑by‑step guide
-  steps:
-  - name: Maven
-    text: '```xml <dependency> <groupId>com.aspose</groupId> <artifactId>aspose-words</artifactId>
-      <version>24.9</version> <!-- Use the latest stable version --> </dependency>
-      ```'
-  - name: Gradle
-    text: '```groovy implementation ''com.aspose:aspose-words:24.9'' ```'
-  - name: How to run
-    text: '```bash # Compile javac -cp "path/to/aspose-words-24.9.jar" com/example/docx2pdf/DocxToPdfConverter.java'
-  type: HowTo
+og_description: 使用 Java 将 DOCX 转换为 PDF。本指南展示如何通过编程方式生成 PDF 将 Word 保存为 PDF，涵盖各种选项和边缘情况。
+og_title: 在 Java 中将 DOCX 转换为 PDF – 完整教程
 tags:
 - Java
+- PDF
 - Aspose.Words
-- PDF conversion
-title: 在 Java 中将 docx 转换为 PDF – 步骤指南
+title: 在 Java 中将 DOCX 转换为 PDF – 步骤指南
 url: /zh/java/document-converting/convert-docx-to-pdf-in-java-step-by-step-guide/
 ---
 
@@ -50,203 +23,123 @@ url: /zh/java/document-converting/convert-docx-to-pdf-in-java-step-by-step-guide
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Java 中将 docx 转换为 pdf – 完整编程指南
+# 在 Java 中将 DOCX 转换为 PDF – 完整教程
 
-如果你需要在 Java 中 **convert docx to pdf**，本教程将手把手教你如何实现。我们将逐步演示如何配置正确的字符编码、加载 Word 文档，最后仅用几行代码 **save pdf from word**。
+是否曾经需要在 Java 应用程序中**将 DOCX 转换为 PDF**，却发现示例总是省略了浮动形状的棘手部分？你并不孤单。在许多实际项目中，直接调用 `doc.save("out.pdf")` 会导致图像、文本框或图表脱离正文，使 PDF 看起来破碎。  
 
-完成本指南后，你将拥有一个可直接运行的 Java 程序，能够可靠地 **convert docx to pdf**，即使源文件使用如 Big5 等非 Unicode 编码。过程中我们还会涉及 **set document encoding java** 步骤，确保 PDF 正确保留原始文本。
+在本指南中，我们将逐步演示一个**完整、可运行的解决方案**，它不仅**将 Word 保存为 PDF**，还保持浮动形状内联，从而保持布局的忠实。完成后，你将拥有一个独立的代码片段，了解每个设置的*原因*，并知道如何针对特殊情况进行调整。
 
-## 前置条件
+> **你需要的条件**  
+> • Java 17（或任何近期的 JDK）  
+> • Aspose.Words for Java 库（免费试用即可）  
+> • 一个包含至少一个浮动形状（例如文本框）的 DOCX 文件  
 
-在开始之前，请确保你具备以下条件：
+如果你已经准备好这些，让我们开始吧。
 
-| Requirement | Why it matters |
-|-------------|----------------|
-| Java 8 或更高版本 | Aspose.Words for Java 可在任何 Java 8+ 运行时上运行。 |
-| Maven 或 Gradle 构建工具 | 简化 Aspose.Words 依赖的添加。 |
-| Aspose.Words for Java 库 | 提供我们将使用的 `LoadOptions`、`Document` 与 `save` API。 |
-| 使用特定字符集（例如 Big5）的 DOCX 文件 | 演示 **set document encoding java** 技巧。 |
+---
 
-> **Pro tip:** 如果你还没有 Aspose.Words 许可证，可以先使用免费 30 天评估密钥。库在没有密钥的情况下也能工作，只是会在输出的 PDF 上添加水印。
+## 使用 Java 将 DOCX 转换为 PDF（关键词实战）
 
-## 第一步：将 Aspose.Words 添加到项目中
+核心思路很简单：加载源文档，告诉 PDF 写入器如何处理浮动形状，然后保存。下面的章节会逐步拆解每一步，解释原理，并展示可以直接复制粘贴的完整代码。
 
-### Maven
+![Java IDE 显示将 docx 转换为 pdf 的代码截图](/images/convert-docx-to-pdf.png "将 docx 转换为 pdf 示例")
+
+## 步骤 1 – 为编程式 PDF 生成设置项目
+
+在编写任何代码之前，请确保 Aspose.Words JAR 已加入到 classpath 中。如果使用 Maven，请添加：
 
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-words</artifactId>
-    <version>24.9</version> <!-- Use the latest stable version -->
+    <version>24.5</version> <!-- Check for the latest version -->
 </dependency>
 ```
 
-### Gradle
+> **专业提示：** 该库体积较大（约 30 MB）。如果只需要转换，可以考虑轻量级的 `aspose-words-cloud` SDK，但本地 JAR 能让你完整控制保存选项。
 
-```groovy
-implementation 'com.aspose:aspose-words:24.9'
-```
+## 步骤 2 – 加载源文档
 
-添加依赖后，`LoadOptions`、`Document` 以及相关类即可在类路径中使用。
-
-## 第二步：准备加载选项并设置正确的编码
-
-当 DOCX 中的字符使用 Big5 编码（传统中文常用）时，需要告诉 Aspose.Words 使用哪种字符集。这正是 **set document encoding java** 操作的核心。
-
-```java
-import com.aspose.words.LoadOptions;
-import java.nio.charset.Charset;
-
-// Create a LoadOptions instance
-LoadOptions loadOptions = new LoadOptions();
-
-// Specify the encoding – replace "Big5" with the appropriate charset if needed
-loadOptions.setEncoding(Charset.forName("Big5"));
-```
-
-为什么重要：如果编码不正确，生成的 PDF 中字符会出现乱码，导致 **convert docx to pdf** 流程失效。
-
-## 第三步：使用配置好的选项加载 DOCX 文件
-
-现在我们加载源文档。`Document` 构造函数接受文件路径和我们刚才配置的 `LoadOptions`。
+你需要一个表示要转换的 DOCX 的 `Document` 对象。构造函数可以接受文件路径、`InputStream` 或字节数组。这里使用路径可以让示例更简洁：
 
 ```java
 import com.aspose.words.Document;
-
-// Path to the source DOCX – adjust to your environment
-String sourcePath = "YOUR_DIRECTORY/Taiwanese.docx";
-
-// Load the Word document with the custom encoding
-Document doc = new Document(sourcePath, loadOptions);
-```
-
-如果文件不存在或路径错误，Aspose.Words 会抛出 `FileNotFoundException`。请务必在运行转换前验证路径。
-
-## 第四步：将文档保存为 PDF 文件
-
-最后一步是 **save pdf from word**。Aspose.Words 会根据文件扩展名自动确定输出格式。
-
-```java
-// Destination path for the PDF
-String pdfPath = "YOUR_DIRECTORY/Converted.pdf";
-
-// Save the document as PDF
-doc.save(pdfPath);
-```
-
-此调用完成后，`Converted.pdf` 将完整呈现原始 DOCX 的视觉效果，所有 Big5 字符均正确渲染。
-
-## 完整、可运行的示例
-
-将上述所有代码整合在一起，下面是一个完整的 Java 类，你可以直接复制、编译并运行。
-
-```java
-package com.example.docx2pdf;
-
-import com.aspose.words.Document;
-import com.aspose.words.LoadOptions;
-import java.nio.charset.Charset;
+import com.aspose.words.PdfSaveOptions;
 
 public class DocxToPdfConverter {
 
-    public static void main(String[] args) {
-        // -----------------------------------------------------------------
-        // 1️⃣  Validate arguments
-        // -----------------------------------------------------------------
-        if (args.length != 2) {
-            System.out.println("Usage: java DocxToPdfConverter <input.docx> <output.pdf>");
-            return;
-        }
-        String inputPath = args[0];
-        String outputPath = args[1];
+    public static void main(String[] args) throws Exception {
+        // 👉 Load the source DOCX file
+        Document doc = new Document("YOUR_DIRECTORY/input.docx");
+```
 
-        try {
-            // -----------------------------------------------------------------
-            // 2️⃣  Configure encoding (set document encoding java)
-            // -----------------------------------------------------------------
-            LoadOptions loadOptions = new LoadOptions();
-            loadOptions.setEncoding(Charset.forName("Big5")); // Change if your DOCX uses a different charset
+**为什么这很重要：** 加载文件会在内存中创建所有 Word 对象的表示——段落、表格以及恼人的浮动形状。如果文件未找到，Aspose 会抛出明确的 `FileNotFoundException`，你可以在需要时捕获以实现优雅的错误处理。
 
-            // -----------------------------------------------------------------
-            // 3️⃣  Load the DOCX file (convert docx to pdf – step 3)
-            // -----------------------------------------------------------------
-            Document doc = new Document(inputPath, loadOptions);
+## 步骤 3 – 为内联形状配置 PDF 保存选项
 
-            // -----------------------------------------------------------------
-            // 4️⃣  Save as PDF (save pdf from word)
-            // -----------------------------------------------------------------
-            doc.save(outputPath);
+默认转换会*扁平化*浮动形状，通常会把它们推到页面左上角。为了保持视觉流，我们启用 `ExportFloatingShapesAsInlineTag` 标志：
 
-            System.out.println("Successfully converted '" + inputPath + "' to PDF at '" + outputPath + "'.");
-        } catch (Exception e) {
-            System.err.println("Error during conversion: " + e.getMessage());
-            e.printStackTrace();
-        }
+```java
+        // 👉 Configure PDF options to keep floating shapes inline
+        PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+        pdfSaveOptions.setExportFloatingShapesAsInlineTag(true);
+        // Optional: set compliance level, image quality, etc.
+        // pdfSaveOptions.setCompliance(PdfCompliance.PDF_A_1B);
+```
+
+**解释：**  
+- `setExportFloatingShapesAsInlineTag(true)` 告诉 PDF 写入器将每个浮动形状包装在一个不可见的内联标签中。渲染 PDF 时，形状的行为类似普通文本——保持相对于周围段落的原始位置。  
+- 你还可以调整 DPI、嵌入字体或强制 PDF/A 合规；这些超出本教程范围，但在生产级 PDF 中值得探索。
+
+## 步骤 4 – 将文档保存为 PDF
+
+现在我们实际写入 PDF 文件。`save` 方法接受目标路径和我们刚构建的选项：
+
+```java
+        // 👉 Save the document as a PDF using the configured options
+        doc.save("YOUR_DIRECTORY/output.pdf", pdfSaveOptions);
+        System.out.println("Conversion complete! Check output.pdf");
     }
 }
 ```
 
-### 如何运行
+**你将看到：** 生成的 `output.pdf` 将几乎与原始 Word 文件相同，文本框、图表和图像都保持在你放置的位置。如果在 Adobe Reader 中打开 PDF，你会发现没有任何元素被丢失或错位。
+
+## 验证结果与常见陷阱
+
+### 快速检查
 
 ```bash
-# Compile
-javac -cp "path/to/aspose-words-24.9.jar" com/example/docx2pdf/DocxToPdfConverter.java
-
-# Execute
-java -cp ".:path/to/aspose-words-24.9.jar" com.example.docx2pdf.DocxToPdfConverter \
-    YOUR_DIRECTORY/Taiwanese.docx YOUR_DIRECTORY/Converted.pdf
+$ ls -l YOUR_DIRECTORY/output.pdf
+-rw-r--r-- 1 user staff 124567 Feb 28 12:34 output.pdf
 ```
 
-**Expected output:**  
-```
-Successfully converted 'YOUR_DIRECTORY/Taiwanese.docx' to PDF at 'YOUR_DIRECTORY/Converted.pdf'.
-```
+打开文件。如果布局匹配，你已经成功使用内联形状**将 docx 转换为 pdf**。
 
-使用任意 PDF 查看器打开 `Converted.pdf`，你应该能看到原始中文字符正确显示。
+### 常见问题
 
-## 常见变体与边缘情况
+| 问题 | 回答 |
+|----------|--------|
+| *如果 DOCX 包含受锁定的内容怎么办？* | Aspose 会遵守保护设置。你可能需要先解锁文档（`doc.unprotect("password")`）。 |
+| *我可以在循环中转换多个文件吗？* | 当然可以。将代码包装在 `for (File f : folder.listFiles())` 中，并复用 `PdfSaveOptions`。 |
+| *这在 Android 上可用吗？* | 完整的 Aspose.JAVA 库不兼容 Android，但云 SDK 可以使用。 |
+| *大文件（100 MB 以上）怎么办？* | 使用带有 `MemoryUsageSetting` 的 `LoadOptions` 来分块加载文档，避免 `OutOfMemoryError`。 |
 
-| Situation | What to change |
-|-----------|----------------|
-| **不同字符集（例如 UTF‑8、Shift_JIS）** | 将 `"Big5"` 替换为相应的名称：`Charset.forName("UTF-8")` 或 `Charset.forName("Shift_JIS")`。 |
-| **受密码保护的 DOCX** | 在加载前使用 `LoadOptions.setPassword("yourPassword")`。 |
-| **高分辨率 PDF 需求** | 调用 `doc.save(pdfPath, SaveOptions.createSaveOptions(SaveFormat.PDF))` 并设置 `PdfSaveOptions.setRasterizeComplexScripts(true)`。 |
-| **批量转换** | 将转换逻辑放入循环，遍历一个 DOCX 文件目录。 |
-| **在 Web 服务中运行** | 将输入 `InputStream` 传入 `new Document(inputStream, loadOptions)`，并将 PDF 写入 `OutputStream` 而非文件系统。 |
+## 额外内容：在不使用 Aspose 的情况下将 Word 转换为 PDF（替代方案）
 
-这些变体让你能够在各种实际场景下 **convert word document pdf**，而无需重写核心逻辑。
-
-## 性能提示
-
-如果要转换大型文档或处理大量文件，请复用单个 `License` 实例（前提是拥有商业许可证），并避免频繁创建 `LoadOptions` 对象。这可以降低开销，加速 **convert docx to pdf** 流程。
-
-## 验证清单
-
-- [ ] 已在提供的路径下放置源 DOCX 文件。  
-- [ ] 输出目录具有写入权限。  
-- [ ] 正确的字符集（本例中的 `Big5`）与源文件编码匹配。  
-- [ ] 生成的 PDF 能够正常打开且字符完整。
-
-如果上述任一步骤出现问题，控制台会显示异常堆栈跟踪，帮助定位具体原因。
+如果你更倾向于开源方案，可以结合 **Apache POI** 读取 DOCX 和 **OpenPDF** 创建 PDF，但这样会失去对浮动形状的自动处理。这也是为什么使用像 Aspose 这样的专用库进行**编程式 PDF 生成**仍然是 Java 中**将 Word 保存为 PDF**最可靠的方式。
 
 ## 结论
 
-现在，你已经掌握了在 Java 中 **convert docx to pdf** 的完整、可投入生产的解决方案。通过显式 **set document encoding java**、加载 Word 文件，再 **save pdf from word**，可以确保所有字符——尤其是旧式编码中的字符——在最终 PDF 中正确呈现。
+我们刚刚演示了使用 Java **完整、端到端的 DOCX 转 PDF** 方法，涵盖了从项目设置到关键的 `ExportFloatingShapesAsInlineTag` 标志。关键要点如下：
 
-接下来，你可以进一步探索添加水印、转换为其他格式（如 HTML 或 PNG），或将转换功能集成到 Spring Boot REST 接口中。所有这些高级主题都直接基于本指南所阐述的基础。
+* 使用 `Document` 加载 DOCX。  
+* 配置 `PdfSaveOptions` 以保持浮动形状内联。  
+* 调用 `doc.save(..., pdfSaveOptions)` 即可完成。  
 
---- 
+从这里你可以进一步探索 **编程式 PDF 生成**——添加水印、加密 PDF，或将多个文档合并为一个。同样的模式适用于任何基于 Java 的文档转换流水线。
 
-*准备好自动化你的文档工作流了吗？立即尝试将一批 DOCX 文件批量转换为 PDF，感受时间的节省吧！*
-
-
-## 接下来该学习什么？
-
-以下教程与本指南紧密相关，帮助你进一步掌握相关技术。每篇资源都提供完整可运行的代码示例，并配有逐步解释，帮助你在项目中灵活运用更多 API 功能或探索替代实现方案。
-
-- [How to Convert Word to PDF Using Aspose.Words for Java](/words/english/java/document-converting/using-document-converting/)
-- [How to save document as pdf with Aspose.Words for Java](/words/english/java/document-loading-and-saving/saving-documents-as-pdf/)
-- [Convert Word to PDF in SharePoint Using Aspose.Words for Java](/words/english/java/document-operations/doc-to-pdf-sharepoint-aspose-words-java/)
+对 **save word as pdf** 还有更多疑问，或需要针对特定使用场景调整转换？在下方留言或查阅 Aspose.Words Java API 文档获取更深入的内容。祝编码愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

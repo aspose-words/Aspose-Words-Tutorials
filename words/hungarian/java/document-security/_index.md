@@ -43,6 +43,10 @@ Tanulja meg, hogyan valósíthat meg biztonságos digitális aláírásokat doku
 Tanulja meg, hogyan használhat PFX tanúsítványt docx fájlok digitális aláírásához lépésről‑lépésre útmutatóval és forráskóddal.
 ### [Dokumentumszerkesztés és adatvédelem](./document-redaction-data-protection/)
 Ismerje meg, hogyan teheti biztonságossá dokumentumait és hogyan takarhatja ki bizalmas adatait az Aspose.Words for Java segítségével. Lépésről lépésre útmutató forráskóddal.
+### [Word dokumentum aláírása Java-ban az Aspose.Words segítségével – Teljes útmutató](./sign-word-document-in-java-with-aspose-words-complete-guide/)
+Lépésről lépésre bemutatja, hogyan írhat alá Word dokumentumokat Java-ban az Aspose.Words használatával, beleértve a digitális aláírás beállítását.
+### [Hogyan írjon alá DOCX fájlokat C#‑ban – Teljes lépésről‑lépésre útmutató](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
+Aláírás DOCX fájlok C#‑ban, részletes lépésről‑lépésre útmutató kóddal és szakértői tippekkel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

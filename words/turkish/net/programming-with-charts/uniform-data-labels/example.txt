@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Bu öğreticide, bir Word belgesi oluşturma, bir sütun grafik ekleme, özel veri serileri ekleme ve grafikteki tüm serilere tutarlı bir şekilde uygulanan varsayılan veri etiketi yazı tipi boyutu ve rengini tanımlama gösterilmektedir.
+//ExStepSummary:0: Yeni boş bir Word belgesi ve onu düzenlemek için bir DocumentBuilder oluşturun.
+//ExStepSummary:1: Belgeye 500×300 boyutlarında bir sütun grafik ekleyin ve onun Chart nesnesini elde edin.
+//ExStepSummary:2: Aspose.Words'ün yeni bir grafiğe eklediği varsayılan örnek seriyi kaldırın.
+//ExStepSummary:3: Kategori etiketlerini tanımlayın ve grafiğe iki veri serisi (Item Alpha ve Item Beta) ve değerlerini ekleyin.
+//ExStepSummary:4: Tüm veri etiketlerine uygulanacak temel yazı tipi boyutu ve rengini ayarlayın.
+//ExStepSummary:5: Her seri için veri etiketlerini etkinleştirin, sayısal değeri gösterin ve önceden tanımlanmış yazı tipi boyutu ve rengini uygulayın.
+//ExStepSummary:6: Belgeyi bir .docx dosyasına kaydedin.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document document = new Document();
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:1-
+Shape chartContainer = builder.InsertChart(ChartType.Column, 500, 300);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+
+//ExStep:3-
+string[] periods = { "Period 1", "Period 2", "Period 3", "Period 4" };
+chart.Series.Add("Item Alpha", periods, new double[] { 120, 150, 170, 130 });
+chart.Series.Add("Item Beta", periods, new double[] { 80, 110, 140, 100 });
+
+//ExStep:4-
+const float labelFontSize = 10f;
+Color labelFontColor = Color.White;
+
+//ExStep:5-
+foreach (ChartSeries series in chart.Series)
+{
+    series.HasDataLabels = true;
+    series.DataLabels.ShowValue = true;
+    series.DataLabels.Font.Size = labelFontSize;
+    series.DataLabels.Font.Color = labelFontColor;
+}
+
+//ExStep:6-
+document.Save("UniformLabelChart.docx");
+//ExEnd

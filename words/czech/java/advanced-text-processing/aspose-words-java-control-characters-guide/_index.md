@@ -59,13 +59,13 @@ Přidejte Maven závislost do vašeho `pom.xml` (toto je **aspose words maven se
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 Pokud dáváte přednost Gradlu, použijte následující úryvek:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ## Získání licence
 Pro plné využití Aspose.Words budete potřebovat licenční soubor:
@@ -77,7 +77,10 @@ Po získání licence ji inicializujte ve vaší Java aplikaci následovně:
 ```java
 License license = new License();
 license.setLicense("path/to/aspose.words.lic");
-```
+```  
+
+## Jak vložit řídicí znaky v Javě?
+Třída `DocumentBuilder` poskytuje metody pro programové vytváření a úpravu obsahu dokumentu. Načtěte svůj dokument, vytvořte `DocumentBuilder` a zavolejte příslušné metody `write` nebo `insert` pro přidání mezer, tabulátorů, konců řádků nebo konců stránek. Tento jednorázový vzor—`builder.write(ControlChar.TAB)`—pokryje většinu potřeb rozvržení a můžete řetězit více volání pro složité struktury. Pro velké dokumenty snižuje dávkové vkládání zátěž zpracování. `ControlChar` je výčet netisknutelných znaků používaných pro řízení rozvržení.
 
 ## Průvodce implementací
 Rozdělíme naši implementaci do dvou hlavních funkcí: zpracování návratů vozíku a vkládání řídicích znaků.
@@ -198,8 +201,8 @@ Pro optimalizaci výkonu při práci s velkými dokumenty:
 V tomto průvodci jsme prozkoumali, jak ovládnout **non breaking space java** a další řídicí znaky v Aspose.Words pro Java. Dodržením těchto kroků můžete efektivně spravovat strukturu a formátování dokumentů programově. Pro další zkoumání možností Aspose.Words zvažte ponoření se do pokročilejších funkcí a jejich integraci do vašich projektů.
 
 ## Další kroky
-- Experimentujte s různými typy dokumentů.
-- Prozkoumejte další funkce Aspose.Words pro vylepšení vašich aplikací.
+- Experimentujte s různými typy dokumentů (DOCX, PDF, HTML).  
+- Prozkoumejte pokročilé možnosti Aspose.Words, jako jsou hromadná korespondence, aktualizace polí a ochrana dokumentu.
 
 **Výzva k akci**: Vyzkoušejte implementaci těchto řešení ve vašem dalším Java projektu s využitím Aspose.Words pro vylepšenou kontrolu dokumentů!
 

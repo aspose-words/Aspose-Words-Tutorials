@@ -1,50 +1,25 @@
 ---
 category: general
-date: 2026-08-14
-description: Konvertálja a docx-et pdf-re Java-val az Aspose.Words segítségével. Ismerje
-  meg, hogyan állíthatja be a dokumentum kódolását, tölthet be egy Word-fájlt, és
-  menthet PDF-et a Wordből hatékonyan.
+date: 2026-02-28
+description: Konvertálja a DOCX-et gyorsan PDF-re Java-val. Tanulja meg, hogyan mentse
+  el a Word dokumentumot programozottan PDF-ként, lebegő alakzatok és beágyazott címkék
+  kezelése mellett.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - convert docx to pdf
-- save pdf from word
-- convert word document pdf
-- set document encoding java
+- save word as pdf
+- programmatic pdf generation
+- java convert word pdf
 language: hu
-lastmod: 2026-08-14
-og_description: Konvertálja a docx fájlokat pdf-re Java-ban az Aspose.Words használatával.
-  Kövesse ezt az útmutatót a dokumentum kódolásának beállításához, a Word fájlok betöltéséhez,
-  és a PDF mentéséhez Word-ből néhány kódsorral.
-og_image_alt: Screenshot showing Java code that converts a DOCX file to a PDF using
-  Aspose.Words
-og_title: DOCX konvertálása PDF-re Java-ban – teljes programozási útmutató
-schemas:
-- author: Aspose
-  dateModified: '2026-08-14'
-  description: Convert docx to pdf with Java using Aspose.Words. Learn how to set
-    document encoding, load a Word file, and save PDF from Word efficiently.
-  headline: Convert docx to pdf in Java – step‑by‑step guide
-  type: TechArticle
-- description: Convert docx to pdf with Java using Aspose.Words. Learn how to set
-    document encoding, load a Word file, and save PDF from Word efficiently.
-  name: Convert docx to pdf in Java – step‑by‑step guide
-  steps:
-  - name: Maven
-    text: '```xml <dependency> <groupId>com.aspose</groupId> <artifactId>aspose-words</artifactId>
-      <version>24.9</version> <!-- Use the latest stable version --> </dependency>
-      ```'
-  - name: Gradle
-    text: '```groovy implementation ''com.aspose:aspose-words:24.9'' ```'
-  - name: How to run
-    text: '```bash # Compile javac -cp "path/to/aspose-words-24.9.jar" com/example/docx2pdf/DocxToPdfConverter.java'
-  type: HowTo
+og_description: Konvertálja a DOCX-et PDF-re Java segítségével. Ez az útmutató megmutatja,
+  hogyan menthet Word dokumentumot PDF-ként programozott PDF-generálással, bemutatva
+  a lehetőségeket és a különleges eseteket.
+og_title: DOCX konvertálása PDF-be Java-ban – Teljes útmutató
 tags:
 - Java
+- PDF
 - Aspose.Words
-- PDF conversion
-title: DOCX konvertálása PDF-re Java-ban – lépésről lépésre útmutató
+title: DOCX konvertálása PDF-re Java-ban – Lépésről lépésre útmutató
 url: /hu/java/document-converting/convert-docx-to-pdf-in-java-step-by-step-guide/
 ---
 
@@ -52,200 +27,137 @@ url: /hu/java/document-converting/convert-docx-to-pdf-in-java-step-by-step-guide
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# DOCX konvertálása PDF-re Java-ban – teljes programozási útmutató
+# DOCX konvertálása PDF‑re Java‑ban – Teljes útmutató
 
-Ha Java-ban **convert docx to pdf**-t kell végrehajtania, ez az útmutató pontosan megmutatja, hogyan kell ezt megtenni. Végigvezetünk a helyes karakterkódolás beállításán, egy Word dokumentum betöltésén, és végül **save pdf from word**-t néhány sor kóddal.
+Valaha is szükséged volt **DOCX PDF‑re konvertálásra** egy Java alkalmazáson belül, és azon tűnődtél, miért hagyják ki a példák mindig a lebegő alakzatok nehéz részét? Nem vagy egyedül. Sok valós projektben a `doc.save("out.pdf")` egyszerű hívása eldobja a képeket, szövegdobozokat vagy diagramokat a folyamatból, így a PDF hibásnak tűnik.  
 
-A guide végére egy kész‑a‑futtatásra Java programmal fogja befejezni, amely megbízhatóan **convert docx to pdf**, még akkor is, ha a forrásfájl nem‑Unicode kódolásokat, például a Big5-öt használ. Útközben bemutatjuk a **set document encoding java** lépést is, így a PDF helyesen megőrzi az eredeti szöveget.
+Ebben az útmutatóban egy **teljes, futtatható megoldáson** keresztül vezetünk, amely nem csak **Word mentése PDF‑ként**, hanem a lebegő alakzatokat is beágyazza, így a elrendezés hű marad. A végére egy önálló kódrészlettel fogsz rendelkezni, megérted, *miért* fontos minden beállítás, és tudni fogod, hogyan alkalmazd szélsőséges esetekben.
 
-## Előkövetelmények
+> **Amire szükséged lesz**  
+> • Java 17 (vagy bármely friss JDK)  
+> • Aspose.Words for Java könyvtár (az ingyenes próba is működik)  
+> • Egy DOCX fájl, amely legalább egy lebegő alakzatot tartalmaz (pl. szövegdoboz)  
 
-| Követelmény | Miért fontos |
-|-------------|----------------|
-| Java 8 vagy újabb | Az Aspose.Words for Java bármely Java 8+ futtatókörnyezeten működik. |
-| Maven vagy Gradle build eszköz | Egyszerűsíti az Aspose.Words függőség hozzáadását. |
-| Aspose.Words for Java könyvtár | Biztosítja a `LoadOptions`, `Document` és `save` API-kat, amelyeket használni fogunk. |
-| Egy DOCX fájl, amely egy adott karakterkészletet használ (pl. Big5) | Bemutatja a **set document encoding java** technikát. |
+Ha megvan mindez, vágjunk bele.
 
-> **Pro tipp:** Ha még nincs Aspose.Words licence, ingyenes 30‑napos értékelő kulccsal kezdhet. A könyvtár kulcs nélkül is működik, de vízjelet ad a kimeneti PDF-hez.
+---
 
-## 1. lépés: Aspose.Words hozzáadása a projekthez
+## Hogyan konvertáljunk DOCX‑t PDF‑re Java‑val (Elsődleges kulcsszó akcióban)
 
-### Maven
+Az alapötlet egyszerű: betöltjük a forrásdokumentumot, megmondjuk a PDF‑írónak, hogyan kezelje a lebegő alakzatokat, majd mentünk. Az alábbi szakaszok részletezik az egyes lépéseket, elmagyarázzák a logikát, és megmutatják a pontos kódot, amelyet egyszerűen másolhatsz‑beilleszthetsz.
+
+![Java IDE képernyőképe, amely a DOCX PDF‑re konvertálás kódját mutatja](/images/convert-docx-to-pdf.png "convert docx to pdf example")
+
+---
+
+## 1. lépés – Projekt beállítása programozott PDF‑generáláshoz
+
+Mielőtt bármilyen kódot írnál, győződj meg róla, hogy az Aspose.Words JAR a classpath‑on van. Maven‑t használva add hozzá:
 
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-words</artifactId>
-    <version>24.9</version> <!-- Use the latest stable version -->
+    <version>24.5</version> <!-- Check for the latest version -->
 </dependency>
 ```
 
-### Gradle
+> **Pro tipp:** A könyvtár nagy (~30 MB). Ha csak konvertálásra van szükséged, fontold meg a könnyű `aspose-words-cloud` SDK‑t, de a helyi JAR teljes kontrollt biztosít a mentési beállítások felett.
 
-```groovy
-implementation 'com.aspose:aspose-words:24.9'
-```
+---
 
-A függőség hozzáadása elérhetővé teszi a `LoadOptions`, `Document` és a kapcsolódó osztályokat a classpath-on.
+## 2. lépés – Forrásdokumentum betöltése
 
-## 2. lépés: LoadOptions előkészítése és a helyes kódolás beállítása
-
-Amikor egy DOCX Big5‑ban (a hagyományos kínai nyelvhez gyakori) kódolt karaktereket tartalmaz, meg kell mondania az Aspose.Words‑nek, melyik karakterkészletet használja. Ez a **set document encoding java** művelet lényege.
-
-```java
-import com.aspose.words.LoadOptions;
-import java.nio.charset.Charset;
-
-// Create a LoadOptions instance
-LoadOptions loadOptions = new LoadOptions();
-
-// Specify the encoding – replace "Big5" with the appropriate charset if needed
-loadOptions.setEncoding(Charset.forName("Big5"));
-```
-
-Miért fontos: A helyes kódolás nélkül a karakterek torz szimbólumokként jelenhetnek meg a létrehozott PDF-ben, aláássa a **convert docx to pdf** munkafolyamat célját.
-
-## 3. lépés: DOCX fájl betöltése a konfigurált beállításokkal
-
-Most betöltjük a forrásdokumentumot. A `Document` konstruktor elfogadja a fájl útvonalát és a most konfigurált `LoadOptions`-t.
+Szükséged lesz egy `Document` objektumra, amely a konvertálni kívánt DOCX‑et képviseli. A konstruktor elfogad fájlútvonalat, `InputStream`‑et vagy akár bájt‑tömböt is. Az útvonal használata a példát tömören tartja:
 
 ```java
 import com.aspose.words.Document;
-
-// Path to the source DOCX – adjust to your environment
-String sourcePath = "YOUR_DIRECTORY/Taiwanese.docx";
-
-// Load the Word document with the custom encoding
-Document doc = new Document(sourcePath, loadOptions);
-```
-
-Ha a fájl nem létezik vagy az útvonal helytelen, az Aspose.Words `FileNotFoundException`-t dob. Mindig ellenőrizze az útvonalat a konverzió futtatása előtt.
-
-## 4. lépés: Dokumentum mentése PDF fájlként
-
-Az utolsó lépés a **save pdf from word**. Az Aspose.Words automatikusan meghatározza a kimeneti formátumot a fájl kiterjesztéséből.
-
-```java
-// Destination path for the PDF
-String pdfPath = "YOUR_DIRECTORY/Converted.pdf";
-
-// Save the document as PDF
-doc.save(pdfPath);
-```
-
-A hívás befejezése után a `Converted.pdf` hű vizuális másolatot tartalmaz az eredeti DOCX‑ről, minden Big5 karakter helyesen megjelenítve.
-
-## Teljes, futtatható példa
-
-Mindent egy helyre téve, itt egy teljes Java osztály, amelyet másolhat, lefordíthat és futtathat.
-
-```java
-package com.example.docx2pdf;
-
-import com.aspose.words.Document;
-import com.aspose.words.LoadOptions;
-import java.nio.charset.Charset;
+import com.aspose.words.PdfSaveOptions;
 
 public class DocxToPdfConverter {
 
-    public static void main(String[] args) {
-        // -----------------------------------------------------------------
-        // 1️⃣  Validate arguments
-        // -----------------------------------------------------------------
-        if (args.length != 2) {
-            System.out.println("Usage: java DocxToPdfConverter <input.docx> <output.pdf>");
-            return;
-        }
-        String inputPath = args[0];
-        String outputPath = args[1];
+    public static void main(String[] args) throws Exception {
+        // 👉 Load the source DOCX file
+        Document doc = new Document("YOUR_DIRECTORY/input.docx");
+```
 
-        try {
-            // -----------------------------------------------------------------
-            // 2️⃣  Configure encoding (set document encoding java)
-            // -----------------------------------------------------------------
-            LoadOptions loadOptions = new LoadOptions();
-            loadOptions.setEncoding(Charset.forName("Big5")); // Change if your DOCX uses a different charset
+**Miért fontos:** A fájl betöltése egy memóriában tárolt reprezentációt hoz létre minden Word‑objektusról – bekezdésekről, táblázatokról és a rettegett lebegő alakzatokról. Ha a fájl nem található, az Aspose egy egyértelmű `FileNotFoundException`‑t dob, amelyet később elkapva szép hibakezelést valósíthatsz meg.
 
-            // -----------------------------------------------------------------
-            // 3️⃣  Load the DOCX file (convert docx to pdf – step 3)
-            // -----------------------------------------------------------------
-            Document doc = new Document(inputPath, loadOptions);
+---
 
-            // -----------------------------------------------------------------
-            // 4️⃣  Save as PDF (save pdf from word)
-            // -----------------------------------------------------------------
-            doc.save(outputPath);
+## 3. lépés – PDF mentési beállítások konfigurálása beágyazott alakzatokhoz
 
-            System.out.println("Successfully converted '" + inputPath + "' to PDF at '" + outputPath + "'.");
-        } catch (Exception e) {
-            System.err.println("Error during conversion: " + e.getMessage());
-            e.printStackTrace();
-        }
+Az alapértelmezett konvertálás *laposítja* a lebegő alakzatokat, gyakran a lap bal‑felső sarkába tolva őket. A vizuális folyamat megőrzéséhez engedélyezzük az `ExportFloatingShapesAsInlineTag` jelzőt:
+
+```java
+        // 👉 Configure PDF options to keep floating shapes inline
+        PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+        pdfSaveOptions.setExportFloatingShapesAsInlineTag(true);
+        // Optional: set compliance level, image quality, etc.
+        // pdfSaveOptions.setCompliance(PdfCompliance.PDF_A_1B);
+```
+
+**Magyarázat:**  
+- `setExportFloatingShapesAsInlineTag(true)` azt mondja a PDF‑írónak, hogy minden lebegő alakzatot egy láthatatlan beágyazott címkébe csomagoljon. Amikor a PDF megjelenik, az alakzat úgy viselkedik, mint a normál szöveg – megőrizve eredeti pozícióját a környező bekezdésekhez képest.  
+- DPI‑t, betűkészletek beágyazását vagy PDF/A megfelelőséget is finomhangolhatsz; ezek a tutorial keretein kívül esnek, de érdemes őket is megvizsgálni a termelési szintű PDF‑ekhez.
+
+---
+
+## 4. lépés – Dokumentum mentése PDF‑ként
+
+Most ténylegesen kiírjuk a PDF‑fájlt. A `save` metódus elfogadja a célútvonalat és a korábban épített beállításokat:
+
+```java
+        // 👉 Save the document as a PDF using the configured options
+        doc.save("YOUR_DIRECTORY/output.pdf", pdfSaveOptions);
+        System.out.println("Conversion complete! Check output.pdf");
     }
 }
 ```
 
-### Hogyan futtassuk
+**Mit fogsz látni:** A keletkezett `output.pdf` szinte azonos lesz az eredeti Word‑fájllal, a szövegdobozok, diagramok és képek a helyükön maradnak. Ha Adobe Reader‑ben nyitod meg a PDF‑et, észre fogod venni, hogy egyetlen elem sem került eldobásra vagy elmozdulásra.
+
+---
+
+## Az eredmény ellenőrzése és gyakori buktatók
+
+### Gyors ellenőrzés
 
 ```bash
-# Compile
-javac -cp "path/to/aspose-words-24.9.jar" com/example/docx2pdf/DocxToPdfConverter.java
-
-# Execute
-java -cp ".:path/to/aspose-words-24.9.jar" com.example.docx2pdf.DocxToPdfConverter \
-    YOUR_DIRECTORY/Taiwanese.docx YOUR_DIRECTORY/Converted.pdf
+$ ls -l YOUR_DIRECTORY/output.pdf
+-rw-r--r-- 1 user staff 124567 Feb 28 12:34 output.pdf
 ```
 
-**Expected output:**  
-```
-Successfully converted 'YOUR_DIRECTORY/Taiwanese.docx' to PDF at 'YOUR_DIRECTORY/Converted.pdf'.
-```
+Nyisd meg a fájlt. Ha az elrendezés egyezik, sikeresen **DOCX PDF‑re konvertáltál** beágyazott alakzatokkal.
 
-Nyissa meg a `Converted.pdf`-et bármely PDF megjelenítővel; a kínai eredeti karaktereknek helyesen kell megjelenniük.
+### Gyakran feltett kérdések
 
-## Gyakori változatok és szélsőséges esetek
+| Kérdés | Válasz |
+|----------|--------|
+| *Mi van, ha a DOCX zárolt tartalmat tartalmaz?* | Az Aspose tiszteletben tartja a védelmi beállításokat. Lehet, hogy előbb fel kell oldani a dokumentumot (`doc.unprotect("password")`). |
+| *Konvertálhatok több fájlt egy ciklusban?* | Természetesen. Csomagold a kódot egy `for (File f : folder.listFiles())` ciklusba, és használd újra a `PdfSaveOptions`‑t. |
+| *Működik ez Androidon?* | A teljes Aspose.JAVA könyvtár nem kompatibilis Androiddal, de a cloud SDK működik. |
+| *Mi a helyzet a nagy fájlokkal (100 MB+)?* | Használd a `LoadOptions`‑t a `MemoryUsageSetting`‑tel, hogy a dokumentum részeit streameld, és elkerüld az `OutOfMemoryError`‑t. |
 
-| Szituáció | Mit kell módosítani |
-|-----------|----------------|
-| **Different charset (pl. UTF‑8, Shift_JIS)** | Cserélje le a `"Big5"`-öt a megfelelő névre: `Charset.forName("UTF-8")` vagy `Charset.forName("Shift_JIS")`. |
-| **Password‑protected DOCX** | Használja a `LoadOptions.setPassword("yourPassword")`-t a betöltés előtt. |
-| **High‑resolution PDF requirement** | Hívja a `doc.save(pdfPath, SaveOptions.createSaveOptions(SaveFormat.PDF))`-t és állítsa be a `PdfSaveOptions.setRasterizeComplexScripts(true)`-t. |
-| **Batch conversion** | Tegye a konverziós logikát egy ciklusba, amely egy DOCX fájlok könyvtárán iterál. |
-| **Running in a web service** | Áramoltassa a bemeneti `InputStream`-et a `new Document(inputStream, loadOptions)`-be, és írja a PDF-et egy `OutputStream`-be a fájlrendszer helyett. |
+---
 
-Ezek a változatok lehetővé teszik, hogy **convert word document pdf**-t számos valós helyzetben anélkül, hogy újraírná a fő logikát.
+## Bónusz: Word PDF‑re konvertálása Aspose nélkül (alternatív megközelítés)
 
-## Teljesítmény tipp
+Ha egy nyílt forráskódú stacket részesítesz előnyben, kombinálhatod a **Apache POI**‑t a DOCX olvasásához és az **OpenPDF**‑t a PDF létrehozásához, de ilyenkor elveszíted a lebegő alakzatok automatikus kezelését. Ezért a **programozott PDF‑generálás** egy dedikált könyvtárral, mint az Aspose, továbbra is a legmegbízhatóbb módja a **Word mentésének PDF‑ként** Java‑ban.
 
-Ha nagy dokumentumokat konvertál vagy sok fájlt dolgoz fel, használja újra egyetlen `License` példányt (ha van kereskedelmi licence), és kerülje a `LoadOptions` objektumok ismételt létrehozását. Ez csökkenti a terhelést és felgyorsítja a **convert docx to pdf** folyamatot.
+---
 
-## Ellenőrző lista
+## Összegzés
 
-- [ ] A forrás DOCX a megadott útvonalon található.  
-- [ ] A kimeneti könyvtár írható.  
-- [ ] A helyes karakterkészlet (`Big5` ebben a példában) megfelel a forrásfájl kódolásának.  
-- [ ] A generált PDF hiányzó karakterek nélkül nyílik meg.
+Most bemutattuk egy **teljes, vég‑től‑végig tartó módot a DOCX PDF‑re konvertálásra** Java‑val, lefedve mindent a projekt beállításától a kulcsfontosságú `ExportFloatingShapesAsInlineTag` jelzőig. A fő tanulságok:
 
-Ha bármelyik lépés sikertelen, a konzol egy kivétel stack trace-et jelenít meg, amely a pontos problémára mutat.
+* Töltsd be a DOCX‑et a `Document`‑del.  
+* Állítsd be a `PdfSaveOptions`‑t, hogy a lebegő alakzatok beágyazottak maradjanak.  
+* Hívd meg a `doc.save(..., pdfSaveOptions)`‑t, és kész is vagy.  
 
-## Következtetés
+Innen tovább felfedezheted a **programozott PDF‑generálás** lehetőségeit – vízjelek hozzáadása, PDF titkosítása, vagy több dokumentum egyetlen fájlba egyesítése. Ugyanez a minta minden Java‑alapú dokumentumkonverziós csővezetékben működik.
 
-Most már rendelkezik egy teljes, termelésre kész megoldással a **convert docx to pdf** feladatra Java-ban. Az explicit **set document encoding java**, a Word fájl betöltése, majd a **save pdf from word** biztosítja, hogy minden karakter – különösen a régi kódolásokban lévő – helyesen jelenjen meg a végső PDF-ben.
-
-Innen tovább felfedezhet fejlettebb témákat, például vízjelek hozzáadását, más formátumokba (pl. HTML vagy PNG) történő konvertálást, vagy a konverzió integrálását egy Spring Boot REST végpontra. Mindegyik közvetlenül az ebben az útmutatóban lefedett alapokra épül.
-
---- 
-
-*Készen áll a dokumentumfolyam automatizálására? Próbáljon meg egy csomó DOCX fájlt PDF-re konvertálni még ma, és lássa, mennyi időt takarít meg!*
-
-## Mit érdemes legközelebb megtanulni?
-
-A következő útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás teljes, működő kódpéldákat tartalmaz lépésről‑lépésre magyarázatokkal, hogy segítsen elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeiben.
-
-- [How to Convert Word to PDF Using Aspose.Words for Java](/words/english/java/document-converting/using-document-converting/)
-- [How to save document as pdf with Aspose.Words for Java](/words/english/java/document-loading-and-saving/saving-documents-as-pdf/)
-- [Convert Word to PDF in SharePoint Using Aspose.Words for Java](/words/english/java/document-operations/doc-to-pdf-sharepoint-aspose-words-java/)
+További kérdésed van a **Word PDF‑re mentésével** kapcsolatban, vagy segítségre van szükséged a konverzió egyedi esethez való finomhangolásához? Hagyj egy megjegyzést alább, vagy nézd meg az Aspose.Words Java API dokumentációját a mélyebb részletekért. Boldog kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -103,6 +103,44 @@ Convierta DOCX a EPUB de manera eficiente usando Aspose.Words para Java. Aprenda
 ### [Converting Documents to Images](./converting-documents-images/)
 Aprenda a convertir documentos Word a imágenes usando Aspose.Words para Java. Guía paso‑a‑paso, completa con ejemplos de código y preguntas frecuentes.
 
+### [Guardar docx como markdown con Aspose.Words – Guía completa](./save-docx-as-markdown-with-aspose-words-complete-guide/)
+Aprenda a convertir archivos DOCX a formato Markdown usando Aspose.Words para Java, con ejemplos paso‑a‑paso y opciones de personalización.
+### [Guardar DOCX como PDF con Aspose.Words – Guía completa de Java](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+Aprenda paso a paso cómo guardar archivos DOCX como PDF usando Aspose.Words para Java, con ejemplos y opciones avanzadas.
+### [Convertir docx a txt en Java – Guía completa de programación](./convert-docx-to-txt-in-java-complete-programming-guide/)
+Aprenda a convertir archivos DOCX a TXT en Java usando Aspose.Words, con ejemplos paso‑a‑paso y opciones de configuración.
+### [Convertir docx a markdown con Aspose.Words Java – Guía completa](./convert-docx-to-markdown-with-aspose-words-java-full-guide/)
+Aprenda a transformar archivos DOCX a Markdown usando Aspose.Words para Java, con ejemplos paso a paso y opciones de personalización.
+### [Convertir DOCX a PDF en Java – Guía Simple de Bajo Código](./convert-docx-to-pdf-in-java-simple-low-code-guide/)
+Aprenda a convertir archivos DOCX a PDF en Java con una solución de bajo código, rápida y fácil de implementar.
+### [Guardar Markdown como DOCX con Aspose.Words – Guía Java](./save-markdown-as-docx-with-aspose-words-java-guide/)
+Aprenda a convertir archivos Markdown a DOCX usando Aspose.Words para Java en unos pocos pasos.
+### [Convertir docx a markdown – Guía completa para desarrolladores Java](./convert-docx-to-markdown-complete-guide-for-java-developers/)
+Aprenda a transformar archivos DOCX a Markdown en Java usando Aspose.Words, con ejemplos de código y opciones de personalización.
+### [Java Convertir Markdown a Word – Markdown a DOCX Java](./java-convert-markdown-to-word-markdown-to-docx-java/)
+Aprenda a convertir archivos Markdown a documentos Word (DOCX) en Java con Aspose.Words, incluyendo opciones de formato y estilo.
+### [Convertir DOCX a PDF en Java – Guía de PDF accesible](./convert-docx-to-pdf-in-java-accessible-pdf-guide/)
+Aprenda a generar PDFs accesibles a partir de archivos DOCX en Java usando Aspose.Words.
+
+### [Guardar Word como Markdown – Guía completa de Java (2026)](./save-word-as-markdown-complete-java-guide-2026/)
+Aprenda a convertir documentos Word a formato Markdown usando Aspose.Words para Java en esta guía paso a paso.
+
+## Preguntas frecuentes
+
+**P:** *¿Puedo convertir archivos Word protegidos con contraseña a PDF?*  
+**R:** Sí. Cargue el documento con la contraseña (`LoadOptions`) y luego guárdelo como PDF.
+
+**P:** *¿Cuál es la mejor manera de combinar varios archivos DOCX antes de convertir a PDF?*  
+**R:** Use `Document.appendDocument()` con `ImportFormatMode.KEEP_SOURCE_FORMATTING` para combinarlos, luego llame a `save` una sola vez.
+
+**P:** *¿Aspose.Words admite convertir Word a HTML y luego volver a Word sin perder formato?*  
+**R:** En general, sí. Pueden aparecer pequeñas diferencias debido a las limitaciones de estilo de HTML, pero la mayor parte del contenido se conserva.
+
+**P:** *¿Cómo aseguro que el PDF generado cumpla con los estándares PDF/A?*  
+**R:** Establezca `PdfSaveOptions.setCompliance(PPdfCompliance.PDF_A_1B)` antes de guardar.
+
+**P:** *¿Existe un límite en el tamaño de los documentos que puedo convertir?*  
+**R:** No hay un límite estricto, pero los archivos muy grandes pueden requerir más memoria; considere el streaming o el procesamiento por fragmentos para cargas de trabajo masivas.
 ### [Convertir markdown a docx en Java – guía paso a paso](./convert-markdown-to-docx-in-java-step-by-step-guide/)
 Aprenda a convertir archivos markdown a documentos DOCX en Java usando Aspose.Words, con ejemplos claros y opciones de formato.
 

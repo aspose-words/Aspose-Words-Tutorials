@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Ce tutoriel montre comment créer un document Word, insérer un graphique en colonnes, le remplir avec des données d'exemple, masquer la bordure de la zone de tracé du graphique tout en conservant les lignes d'axes visibles, puis enregistrer le document.
+//ExStepSummary:0: Créez un nouveau document Word vide ainsi qu'un DocumentBuilder pour le modifier.
+//ExStepSummary:1: Insérez un graphique en colonnes de 432×252 dans le document et récupérez son objet Chart.
+//ExStepSummary:2: Effacez les séries existantes, définissez trois libellés de catégorie et ajoutez une série avec des valeurs d'exemple au graphique.
+//ExStepSummary:3: Définissez le poids du trait de la zone de tracé à zéro, supprimant ainsi sa bordure tout en laissant les lignes d'axes visibles.
+//ExStepSummary:4: Enregistrez le document modifié dans un fichier .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+columnChart.Series.Clear();
+string[] labels = { "Group A", "Group B", "Group C" };
+columnChart.Series.Add("Demo Data", labels, new double[] { 10, 20, 30 });
+
+//ExStep:3-
+columnChart.Format.Stroke.Weight = 0;
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutPlotBorder.docx");
+//ExEnd

@@ -81,7 +81,7 @@ Tìm hiểu cách cải thiện định dạng tài liệu bằng Aspose.Words f
 ### [Tạo Mục lục trong Aspose.Words cho Java](./generating-table-of-contents/)
 Tìm hiểu cách tạo và tùy chỉnh Mục lục (TOC) bằng Aspose.Words cho Java. Tạo tài liệu có tổ chức và chuyên nghiệp một cách dễ dàng.
 ### [Bảo vệ tài liệu trong Aspose.Words cho Java](./protecting-documents/)
-Tìm hiểu cách bảo mật tài liệu Java Word của bạn bằng Aspose.Words for Java. Bảo vệ dữ liệu của bạn bằng mật khẩu và nhiều hơn thế nữa.
+Tìm hiểu cách bảo mật tài liệu Java Word của bạn bằng Aspose.Words cho Java. Bảo vệ dữ liệu của bạn bằng mật khẩu và nhiều hơn thế nữa.
 ### [Chia tài liệu thành các trang trong Aspose.Words cho Java](./splitting-documents-into-pages/)
 Tìm hiểu cách chia tài liệu thành các trang bằng Aspose.Words cho Java. Hướng dẫn từng bước với mã nguồn để xử lý tài liệu hiệu quả.
 ### [Chia nhỏ tài liệu trong Aspose.Words cho Java](./splitting-documents/)
@@ -103,7 +103,8 @@ Mở khóa sức mạnh của Aspose.Words cho Java. Tùy chọn và cài đặt
 ### [Sử dụng Thuộc tính Tài liệu trong Aspose.Words cho Java](./using-document-properties/)
 Tối ưu hóa quản lý tài liệu với Aspose.Words for Java. Tìm hiểu cách làm việc với các thuộc tính tài liệu, thêm siêu dữ liệu tùy chỉnh và nhiều hơn nữa trong hướng dẫn toàn diện này.
 ### [Sử dụng Web Extensions trong Aspose.Words cho Java](./using-web-extensions/)
-Cải thiện Tài liệu bằng Tiện ích mở rộng Web trong Aspose.Words cho Java. Học cách tích hợp nội dung dựa trên web một cách liền mạch.
+### [Gắn thẻ khả năng truy cập PDF trong Java – Tạo PDF có thể truy cập](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Hướng dẫn tạo PDF có khả năng truy cập bằng cách gắn thẻ nội dung trong Aspose.Words cho Java.
 ### [Tạo nút ActiveX docx trong Java – hướng dẫn lập trình đầy đủ](./create-docx-activex-button-in-java-complete-programming-guid/)
 Hướng dẫn chi tiết cách tạo nút ActiveX trong tài liệu docx bằng Aspose.Words for Java.
 

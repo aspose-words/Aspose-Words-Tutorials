@@ -1,50 +1,23 @@
 ---
 category: general
-date: 2026-08-14
-description: Convertir docx a pdf con Java usando Aspose.Words. Aprende cómo establecer
-  la codificación del documento, cargar un archivo Word y guardar PDF desde Word de
-  manera eficiente.
+date: 2026-02-28
+description: Convierte DOCX a PDF rápidamente con Java. Aprende cómo guardar Word
+  como PDF de forma programática, manejando formas flotantes y etiquetas en línea.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - convert docx to pdf
-- save pdf from word
-- convert word document pdf
-- set document encoding java
+- save word as pdf
+- programmatic pdf generation
+- java convert word pdf
 language: es
-lastmod: 2026-08-14
-og_description: Convierte docx a pdf en Java con Aspose.Words. Sigue esta guía para
-  establecer la codificación del documento, cargar archivos Word y guardar PDF desde
-  Word en solo unas pocas líneas de código.
-og_image_alt: Screenshot showing Java code that converts a DOCX file to a PDF using
-  Aspose.Words
-og_title: Convertir docx a pdf en Java – guía completa de programación
-schemas:
-- author: Aspose
-  dateModified: '2026-08-14'
-  description: Convert docx to pdf with Java using Aspose.Words. Learn how to set
-    document encoding, load a Word file, and save PDF from Word efficiently.
-  headline: Convert docx to pdf in Java – step‑by‑step guide
-  type: TechArticle
-- description: Convert docx to pdf with Java using Aspose.Words. Learn how to set
-    document encoding, load a Word file, and save PDF from Word efficiently.
-  name: Convert docx to pdf in Java – step‑by‑step guide
-  steps:
-  - name: Maven
-    text: '```xml <dependency> <groupId>com.aspose</groupId> <artifactId>aspose-words</artifactId>
-      <version>24.9</version> <!-- Use the latest stable version --> </dependency>
-      ```'
-  - name: Gradle
-    text: '```groovy implementation ''com.aspose:aspose-words:24.9'' ```'
-  - name: How to run
-    text: '```bash # Compile javac -cp "path/to/aspose-words-24.9.jar" com/example/docx2pdf/DocxToPdfConverter.java'
-  type: HowTo
+og_description: Convertir DOCX a PDF usando Java. Esta guía muestra cómo guardar Word
+  como PDF mediante generación programática de PDF, cubriendo opciones y casos límite.
+og_title: Convertir DOCX a PDF en Java – Tutorial completo
 tags:
 - Java
+- PDF
 - Aspose.Words
-- PDF conversion
-title: Convertir docx a pdf en Java – guía paso a paso
+title: Convertir DOCX a PDF en Java – Guía paso a paso
 url: /es/java/document-converting/convert-docx-to-pdf-in-java-step-by-step-guide/
 ---
 
@@ -52,200 +25,137 @@ url: /es/java/document-converting/convert-docx-to-pdf-in-java-step-by-step-guide
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Convertir docx a pdf en Java – guía completa de programación
+# Convertir DOCX a PDF en Java – Tutorial Completo
 
-Si necesitas **convertir docx a pdf** en Java, este tutorial te muestra exactamente cómo hacerlo. Recorreremos la configuración de la codificación de caracteres correcta, la carga de un documento Word y, finalmente, **save pdf from word** con solo unas pocas líneas de código.
+¿Alguna vez necesitaste **convertir DOCX a PDF** desde una aplicación Java y te preguntaste por qué los ejemplos siempre omiten la parte complicada de las formas flotantes? No estás solo. En muchos proyectos del mundo real, simplemente llamar a `doc.save("out.pdf")` elimina imágenes, cuadros de texto o gráficos del flujo, haciendo que el PDF se vea roto.  
 
-Terminarás la guía con un programa Java listo‑para‑ejecutar que convierte de forma fiable **convert docx to pdf**, incluso cuando el archivo de origen usa codificaciones no Unicode como Big5. A lo largo del camino también cubrimos el paso **set document encoding java**, para que tu PDF preserve el texto original correctamente.
+En esta guía recorreremos una **solución completa y ejecutable** que no solo **guarda Word como PDF** sino que también mantiene las formas flotantes en línea para que el diseño permanezca fiel. Al final tendrás un fragmento autocontenido, comprenderás *por qué* cada configuración es importante y sabrás cómo adaptarla a casos extremos.
 
-## Requisitos previos
+> **Lo que necesitarás**  
+> • Java 17 (o cualquier JDK reciente)  
+> • Biblioteca Aspose.Words for Java (la versión de prueba gratuita funciona bien)  
+> • Un archivo DOCX con al menos una forma flotante (p. ej., un cuadro de texto)  
 
-| Requisito | Por qué es importante |
-|-------------|----------------|
-| Java 8 or newer | Aspose.Words for Java se ejecuta en cualquier entorno Java 8+. |
-| Maven or Gradle build tool | Simplifica la incorporación de la dependencia Aspose.Words. |
-| Aspose.Words for Java library | Proporciona las APIs `LoadOptions`, `Document` y `save` que utilizaremos. |
-| A DOCX file that uses a specific charset (e.g., Big5) | Demuestra la técnica **set document encoding java**. |
+Si tienes eso, vamos a ponernos en marcha.
 
-> **Consejo profesional:** Si aún no tienes una licencia de Aspose.Words, puedes comenzar con una clave de evaluación gratuita de 30 días. La biblioteca funciona sin una clave, pero agrega una marca de agua al PDF de salida.
+---
 
-## Paso 1: Añadir Aspose.Words a tu proyecto
+## Cómo Convertir DOCX a PDF con Java (Palabra clave principal en acción)
 
-### Maven
+La idea central es simple: cargar el documento fuente, indicar al escritor PDF cómo tratar las formas flotantes y luego guardar. Las secciones siguientes desglosan cada paso, explican la lógica y muestran el código exacto que puedes copiar‑pegar.
+
+![Captura de pantalla de un IDE Java mostrando el código para convertir docx a pdf](/images/convert-docx-to-pdf.png "ejemplo de conversión de docx a pdf")
+
+---
+
+## Paso 1 – Configura tu proyecto para la generación programática de PDF
+
+Antes de escribir cualquier código, asegúrate de que el JAR de Aspose.Words esté en tu classpath. Si usas Maven, agrega:
 
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-words</artifactId>
-    <version>24.9</version> <!-- Use the latest stable version -->
+    <version>24.5</version> <!-- Check for the latest version -->
 </dependency>
 ```
 
-### Gradle
+> **Consejo profesional:** La biblioteca es pesada (~30 MB). Si solo necesitas conversión, considera el SDK ligero `aspose-words-cloud`, pero el JAR on‑premise te brinda control total sobre las opciones de guardado.
 
-```groovy
-implementation 'com.aspose:aspose-words:24.9'
-```
+---
 
-Agregar la dependencia hace que `LoadOptions`, `Document` y las clases relacionadas estén disponibles en tu classpath.
+## Paso 2 – Cargar el documento fuente
 
-## Paso 2: Preparar las opciones de carga y establecer la codificación correcta
-
-Cuando un DOCX contiene caracteres codificados en Big5 (común para el chino tradicional), debes indicar a Aspose.Words qué conjunto de caracteres usar. Esto es el núcleo de la operación **set document encoding java**.
-
-```java
-import com.aspose.words.LoadOptions;
-import java.nio.charset.Charset;
-
-// Create a LoadOptions instance
-LoadOptions loadOptions = new LoadOptions();
-
-// Specify the encoding – replace "Big5" with the appropriate charset if needed
-loadOptions.setEncoding(Charset.forName("Big5"));
-```
-
-Por qué es importante: Sin la codificación correcta, los caracteres pueden aparecer como símbolos distorsionados en el PDF resultante, lo que anula el propósito de tu flujo de trabajo **convert docx to pdf**.
-
-## Paso 3: Cargar el archivo DOCX usando las opciones configuradas
-
-Ahora cargamos el documento fuente. El constructor `Document` acepta la ruta del archivo y el `LoadOptions` que acabamos de configurar.
+Necesitas un objeto `Document` que represente el DOCX que deseas convertir. El constructor acepta una ruta de archivo, un `InputStream` o incluso un arreglo de bytes. Usar una ruta mantiene el ejemplo conciso:
 
 ```java
 import com.aspose.words.Document;
-
-// Path to the source DOCX – adjust to your environment
-String sourcePath = "YOUR_DIRECTORY/Taiwanese.docx";
-
-// Load the Word document with the custom encoding
-Document doc = new Document(sourcePath, loadOptions);
-```
-
-Si el archivo no existe o la ruta es incorrecta, Aspose.Words lanza una `FileNotFoundException`. Siempre valida la ruta antes de ejecutar la conversión.
-
-## Paso 4: Guardar el documento como archivo PDF
-
-El paso final es **save pdf from word**. Aspose.Words determina automáticamente el formato de salida a partir de la extensión del archivo.
-
-```java
-// Destination path for the PDF
-String pdfPath = "YOUR_DIRECTORY/Converted.pdf";
-
-// Save the document as PDF
-doc.save(pdfPath);
-```
-
-Después de que esta llamada finaliza, `Converted.pdf` contiene una réplica visual fiel del DOCX original, con todos los caracteres Big5 renderizados correctamente.
-
-## Ejemplo completo y ejecutable
-
-Juntando todo, aquí tienes una clase Java completa que puedes copiar, compilar y ejecutar.
-
-```java
-package com.example.docx2pdf;
-
-import com.aspose.words.Document;
-import com.aspose.words.LoadOptions;
-import java.nio.charset.Charset;
+import com.aspose.words.PdfSaveOptions;
 
 public class DocxToPdfConverter {
 
-    public static void main(String[] args) {
-        // -----------------------------------------------------------------
-        // 1️⃣  Validate arguments
-        // -----------------------------------------------------------------
-        if (args.length != 2) {
-            System.out.println("Usage: java DocxToPdfConverter <input.docx> <output.pdf>");
-            return;
-        }
-        String inputPath = args[0];
-        String outputPath = args[1];
+    public static void main(String[] args) throws Exception {
+        // 👉 Load the source DOCX file
+        Document doc = new Document("YOUR_DIRECTORY/input.docx");
+```
 
-        try {
-            // -----------------------------------------------------------------
-            // 2️⃣  Configure encoding (set document encoding java)
-            // -----------------------------------------------------------------
-            LoadOptions loadOptions = new LoadOptions();
-            loadOptions.setEncoding(Charset.forName("Big5")); // Change if your DOCX uses a different charset
+**Por qué es importante:** Cargar el archivo crea una representación en memoria de todos los objetos de Word—párrafos, tablas y las temidas formas flotantes. Si el archivo no se encuentra, Aspose lanza una clara `FileNotFoundException`, que puedes capturar más adelante si necesitas un manejo de errores elegante.
 
-            // -----------------------------------------------------------------
-            // 3️⃣  Load the DOCX file (convert docx to pdf – step 3)
-            // -----------------------------------------------------------------
-            Document doc = new Document(inputPath, loadOptions);
+---
 
-            // -----------------------------------------------------------------
-            // 4️⃣  Save as PDF (save pdf from word)
-            // -----------------------------------------------------------------
-            doc.save(outputPath);
+## Paso 3 – Configurar las opciones de guardado PDF para formas en línea
 
-            System.out.println("Successfully converted '" + inputPath + "' to PDF at '" + outputPath + "'.");
-        } catch (Exception e) {
-            System.err.println("Error during conversion: " + e.getMessage());
-            e.printStackTrace();
-        }
+La conversión predeterminada *aplanará* las formas flotantes, a menudo empujándolas a la esquina superior izquierda de la página. Para mantener el flujo visual, habilitamos la bandera `ExportFloatingShapesAsInlineTag`:
+
+```java
+        // 👉 Configure PDF options to keep floating shapes inline
+        PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+        pdfSaveOptions.setExportFloatingShapesAsInlineTag(true);
+        // Optional: set compliance level, image quality, etc.
+        // pdfSaveOptions.setCompliance(PdfCompliance.PDF_A_1B);
+```
+
+**Explicación:**  
+- `setExportFloatingShapesAsInlineTag(true)` le dice al escritor PDF que envuelva cada forma flotante en una etiqueta en línea invisible. Cuando el PDF se renderiza, la forma se comporta como texto regular—preservando su posición original respecto a los párrafos circundantes.  
+- También puedes ajustar DPI, incrustar fuentes o aplicar cumplimiento PDF/A; esos temas están fuera del alcance de este tutorial pero vale la pena explorarlos para PDFs de nivel de producción.
+
+---
+
+## Paso 4 – Guardar el documento como PDF
+
+Ahora realmente escribimos el archivo PDF. El método `save` acepta la ruta de destino y las opciones que acabamos de crear:
+
+```java
+        // 👉 Save the document as a PDF using the configured options
+        doc.save("YOUR_DIRECTORY/output.pdf", pdfSaveOptions);
+        System.out.println("Conversion complete! Check output.pdf");
     }
 }
 ```
 
-### Cómo ejecutar
+**Lo que verás:** El `output.pdf` resultante se verá casi idéntico al archivo Word original, con cuadros de texto, gráficos e imágenes permaneciendo donde los colocaste. Si abres el PDF en Adobe Reader, deberías notar que ningún elemento ha sido eliminado o descolocado.
+
+---
+
+## Verificar el resultado y errores comunes
+
+### Verificación rápida
 
 ```bash
-# Compile
-javac -cp "path/to/aspose-words-24.9.jar" com/example/docx2pdf/DocxToPdfConverter.java
-
-# Execute
-java -cp ".:path/to/aspose-words-24.9.jar" com.example.docx2pdf.DocxToPdfConverter \
-    YOUR_DIRECTORY/Taiwanese.docx YOUR_DIRECTORY/Converted.pdf
+$ ls -l YOUR_DIRECTORY/output.pdf
+-rw-r--r-- 1 user staff 124567 Feb 28 12:34 output.pdf
 ```
 
-**Expected output:**  
-```
-Successfully converted 'YOUR_DIRECTORY/Taiwanese.docx' to PDF at 'YOUR_DIRECTORY/Converted.pdf'.
-```
+Abre el archivo. Si el diseño coincide, has convertido **docx a pdf** con formas en línea con éxito.
 
-Abre `Converted.pdf` con cualquier visor de PDF; deberías ver los caracteres chinos originales mostrados correctamente.
+### Preguntas frecuentes
 
-## Variaciones comunes y casos límite
+| Pregunta | Respuesta |
+|----------|-----------|
+| *¿Qué pasa si el DOCX contiene contenido bloqueado?* | Aspose respeta la configuración de protección. Puede que necesites desbloquear el documento primero (`doc.unprotect("password")`). |
+| *¿Puedo convertir varios archivos en un bucle?* | Absolutamente. Envuelve el código en un `for (File f : folder.listFiles())` y reutiliza `PdfSaveOptions`. |
+| *¿Esto funciona en Android?* | La biblioteca completa Aspose.JAVA no es compatible con Android, pero el SDK en la nube funciona. |
+| *¿Qué pasa con archivos grandes (¡100 MB+)?* | Usa `LoadOptions` con `MemoryUsageSetting` para transmitir partes del documento y evitar `OutOfMemoryError`. |
 
-| Situación | Qué cambiar |
-|-----------|----------------|
-| **Different charset (e.g., UTF‑8, Shift_JIS)** | Reemplaza `"Big5"` con el nombre apropiado: `Charset.forName("UTF-8")` o `Charset.forName("Shift_JIS")`. |
-| **Password‑protected DOCX** | Usa `LoadOptions.setPassword("yourPassword")` antes de cargar. |
-| **High‑resolution PDF requirement** | Llama a `doc.save(pdfPath, SaveOptions.createSaveOptions(SaveFormat.PDF))` y ajusta `PdfSaveOptions.setRasterizeComplexScripts(true)`. |
-| **Batch conversion** | Envuelve la lógica de conversión en un bucle que itere sobre un directorio de archivos DOCX. |
-| **Running in a web service** | Transmite el `InputStream` de entrada a `new Document(inputStream, loadOptions)` y escribe el PDF en un `OutputStream` en lugar del sistema de archivos. |
+---
 
-Estas variaciones te permiten **convert word document pdf** en muchos escenarios reales sin reescribir la lógica central.
+## Bonus: Convertir Word a PDF sin Aspose (Enfoque alternativo)
 
-## Consejo de rendimiento
+Si prefieres una pila de código abierto, puedes combinar **Apache POI** para leer DOCX y **OpenPDF** para crear PDFs, pero perderás el manejo automático de las formas flotantes. Por eso **la generación programática de PDF** con una biblioteca dedicada como Aspose sigue siendo la forma más fiable de **guardar Word como PDF** en Java.
 
-Si estás convirtiendo documentos grandes o procesando muchos archivos, reutiliza una única instancia de `License` (si dispones de una licencia comercial) y evita crear repetidamente objetos `LoadOptions`. Esto reduce la sobrecarga y acelera la canalización **convert docx to pdf**.
-
-## Lista de verificación
-
-- [ ] El DOCX fuente está ubicado en la ruta que proporcionaste.  
-- [ ] El directorio de salida es escribible.  
-- [ ] El conjunto de caracteres correcto (`Big5` en este ejemplo) coincide con la codificación del archivo fuente.  
-- [ ] El PDF generado se abre sin caracteres faltantes.
-
-Si alguno de estos pasos falla, la consola mostrará una traza de pila de excepción que indica el problema exacto.
+---
 
 ## Conclusión
 
-Ahora tienes una solución completa y lista para producción para **convert docx to pdf** en Java. Al **set document encoding java** explícitamente, cargar el archivo Word y luego **save pdf from word**, garantizas que cada carácter —especialmente los de codificaciones heredadas— aparezca correctamente en el PDF final.
+Acabamos de demostrar una **solución completa, de extremo a extremo, para convertir DOCX a PDF** usando Java, cubriendo todo desde la configuración del proyecto hasta la crucial bandera `ExportFloatingShapesAsInlineTag`. Los puntos clave:
 
-Desde aquí puedes explorar temas más avanzados como agregar marcas de agua, convertir a otros formatos (p.ej., HTML o PNG), o integrar la conversión en un endpoint REST de Spring Boot. Cada uno de estos se basa directamente en los fundamentos cubiertos en esta guía.
+* Carga el DOCX con `Document`.  
+* Configura `PdfSaveOptions` para mantener las formas flotantes en línea.  
+* Llama a `doc.save(..., pdfSaveOptions)` y listo.  
 
---- 
+Desde aquí puedes explorar más **generación programática de PDF**—añadir marcas de agua, encriptar el PDF o combinar varios documentos en uno. El mismo patrón funciona para cualquier canal de conversión de documentos basado en Java.
 
-*¿Listo para automatizar tu flujo de trabajo de documentos? ¡Intenta convertir un lote de archivos DOCX a PDF hoy y descubre cuánto tiempo ahorras!*
-
-## ¿Qué deberías aprender a continuación?
-
-Los siguientes tutoriales cubren temas estrechamente relacionados que se basan en las técnicas demostradas en esta guía. Cada recurso incluye ejemplos de código completos y funcionales con explicaciones paso a paso para ayudarte a dominar funciones adicionales de la API y explorar enfoques de implementación alternativos en tus propios proyectos.
-
-- [How to Convert Word to PDF Using Aspose.Words for Java](/words/english/java/document-converting/using-document-converting/)
-- [How to save document as pdf with Aspose.Words for Java](/words/english/java/document-loading-and-saving/saving-documents-as-pdf/)
-- [Convert Word to PDF in SharePoint Using Aspose.Words for Java](/words/english/java/document-operations/doc-to-pdf-sharepoint-aspose-words-java/)
+¿Tienes más preguntas sobre **guardar Word como PDF** o necesitas ayuda para ajustar la conversión a un caso de uso específico? Deja un comentario abajo o consulta la documentación de la API Java de Aspose.Words para profundizar. ¡Feliz codificación!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
