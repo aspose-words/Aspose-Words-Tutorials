@@ -33,6 +33,7 @@
 | [كيفية إضافة عنصر تحكم ActiveX في Word باستخدام Aspose.Words – دليل خطوة بخطوة](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | تعلم كيفية إضافة عنصر تحكم ActiveX إلى مستندات Word باستخدام Aspose.Words خطوة بخطوة. |
 
 | [إنشاء زر مستند Word باستخدام Aspose.Words – مثال كامل للكود](./create-word-document-button-with-aspose-words-full-code-exam/) | تعلّم كيفية إنشاء زر لإنشاء مستند Word باستخدام Aspose.Words مع مثال كامل للكود خطوة بخطوة. |
+| [كيفية إضافة زر ActiveX في مستند Word باستخدام Aspose.Words](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | تعلم كيفية إضافة زر ActiveX إلى مستند Word باستخدام Aspose.Words في دليل خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -82,6 +82,7 @@
 | [ترجمة ملف docx إلى الفرنسية باستخدام الذكاء الاصطناعي في C#](./translate-docx-to-french-with-ai-in-c/) | تعلم كيفية ترجمة مستندات docx إلى الفرنسية باستخدام الذكاء الاصطناعي في C# مع Aspose.Words. |
 | [استدعاء واجهة برمجة تطبيقات OpenAI من C# – دليل كامل لإعادة كتابة فقرات Word](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | تعلم كيفية استدعاء API الخاص بـ OpenAI من C# لإعادة صياغة فقرات مستندات Word بدقة وسهولة. |
 | [كيفية فحص القواعد النحوية في C# باستخدام Aspose.Words AI – دليل كامل](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | تعلم كيفية استخدام Aspose.Words AI في C# للتحقق من القواعد النحوية في مستندات Word بدقة وسهولة. |
+| [تلخيص مستند Word باستخدام C# – دليل خطوة بخطوة باستخدام الذكاء الاصطناعي](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | دليل شامل لتلخيص مستندات Word في C# باستخدام نماذج الذكاء الاصطناعي خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

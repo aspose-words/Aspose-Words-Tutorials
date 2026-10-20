@@ -82,6 +82,7 @@ Por fim, não se esqueça de conferir nosso [Trabalhando com opções de resumo]
 | [Traduzir docx para francês com IA em C#](./translate-docx-to-french-with-ai-in-c/) | Aprenda a traduzir documentos DOCX para francês usando IA em C# com Aspose.Words, passo a passo. |
 | [Chamar API OpenAI a partir de C# – Guia Completo para Reescrever Parágrafos do Word](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | Aprenda a usar a API OpenAI em C# para reescrever parágrafos do Word de forma automatizada. |
 | [Como Verificar Gramática em C# com Aspose.Words AI – Guia Completo](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Aprenda a usar a IA do Aspose.Words para corrigir gramática em documentos Word via C#, passo a passo. |
+| [Resumir documento Word em C# – guia passo a passo usando IA](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Aprenda a resumir documentos Word em C# usando IA com um guia detalhado passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

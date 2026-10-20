@@ -82,6 +82,7 @@
 | [Перевести docx на французский с помощью ИИ в C#](./translate-docx-to-french-with-ai-in-c/) | Пошаговое руководство по переводу документов DOCX на французский язык с использованием ИИ в C# и Aspose.Words. |
 | [Как проверить грамматику в C# с помощью Aspose.Words AI – Полное руководство](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Узнайте, как использовать AI Aspose.Words в C# для автоматической проверки грамматики в документах Word. |
 | [Вызов API OpenAI из C# – Полное руководство по переписыванию абзацев Word](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | Узнайте, как использовать API OpenAI в C# для автоматической перезаписи абзацев в документах Word. |
+| [Резюмирование документа Word на C# – пошаговое руководство с использованием ИИ](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Узнайте, как с помощью Aspose.Words и ИИ быстро резюмировать документы Word на C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

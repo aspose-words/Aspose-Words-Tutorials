@@ -82,6 +82,7 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [C# ile AI kullanarak docx'i Fransızcaya çevir](./translate-docx-to-french-with-ai-in-c/) | C# ve AI ile docx belgelerini Fransızcaya otomatik çevirin. |
 | [C#'tan OpenAI API'sini Çağırma – Word Paragraflarını Yeniden Yazmak İçin Tam Kılavuz](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | C# ile OpenAI API'sini kullanarak Word belgelerindeki paragrafları otomatik olarak yeniden yazmayı öğrenin. |
 | [C# ile Aspose.Words AI ile Dilbilgisi Kontrolü – Tam Kılavuz](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | C# ve Aspose.Words AI kullanarak belgelerinizde dilbilgisi hatalarını otomatik olarak tespit etmeyi öğrenin. |
+| [C# ile Word Belgesini Özetleme – AI Kullanarak Adım Adım Rehber](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | AI kullanarak C# ile Word belgesini adım adım özetlemeyi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

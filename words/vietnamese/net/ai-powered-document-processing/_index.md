@@ -82,6 +82,7 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Dịch docx sang tiếng Pháp bằng AI trong C#](./translate-docx-to-french-with-ai-in-c/) | Hướng dẫn dịch tài liệu DOCX sang tiếng Pháp bằng AI trong C# sử dụng Aspose.Words. |
 | [Gọi API OpenAI từ C# – Hướng dẫn toàn diện để viết lại các đoạn văn Word](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | Hướng dẫn chi tiết cách sử dụng API OpenAI trong C# để tự động viết lại các đoạn văn trong tài liệu Word. |
 | [Cách kiểm tra ngữ pháp trong C# với Aspose.Words AI – Hướng dẫn toàn diện](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Hướng dẫn chi tiết cách sử dụng AI của Aspose.Words trong C# để kiểm tra và cải thiện ngữ pháp tài liệu Word. |
+| [Tóm tắt tài liệu Word bằng C# – hướng dẫn từng bước sử dụng AI](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET và AI để tóm tắt tài liệu Word bằng C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

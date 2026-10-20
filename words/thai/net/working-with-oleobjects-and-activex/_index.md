@@ -32,6 +32,7 @@
 - [สร้างปุ่มเอกสาร Word ด้วย Aspose.Words – ตัวอย่างโค้ดเต็ม](./create-word-document-button-with-aspose-words-full-code-exam/) | เรียนรู้วิธีสร้างปุ่มในเอกสาร Word ที่สร้างไฟล์โดยใช้ Aspose.Words พร้อมตัวอย่างโค้ดเต็ม
 - [เพิ่มปุ่มคำสั่งลงในเอกสาร Word ด้วย Aspose.Words – คู่มือครบถ้วน](./add-command-button-to-word-document-with-aspose-words-comple/) | เรียนรู้วิธีเพิ่มปุ่มคำสั่งลงในเอกสาร Word ด้วย Aspose.Words ผ่านคู่มือขั้นตอนเต็มรูปแบบ
 - [วิธีเพิ่มคอนโทรล ActiveX ใน Word ด้วย Aspose.Words – คู่มือทีละขั้นตอน](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | เรียนรู้วิธีเพิ่มคอนโทรล ActiveX ในเอกสาร Word ด้วย Aspose.Words อย่างละเอียด |
+- [วิธีเพิ่มปุ่ม ActiveX ในเอกสาร Word ด้วย Aspose.Words](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | เพิ่มปุ่ม ActiveX ลงในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

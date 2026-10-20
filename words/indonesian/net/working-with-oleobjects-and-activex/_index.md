@@ -33,6 +33,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara Menambahkan Kontrol ActiveX di Word dengan Aspose.Words – Panduan Langkah demi Langkah](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Pelajari cara menambahkan kontrol ActiveX ke dokumen Word menggunakan Aspose.Words dengan panduan langkah demi langkah. |
 
 | [Menambahkan Tombol Perintah ke Dokumen Word dengan Aspose.Words – Panduan Lengkap](./add-command-button-to-word-document-with-aspose-words-comple/) | Pelajari cara menambahkan tombol perintah ke dokumen Word menggunakan Aspose.Words dalam panduan langkah demi langkah yang lengkap. |
+| [Cara Menambahkan Tombol ActiveX dalam Dokumen Word dengan Aspose.Words](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Pelajari cara menambahkan tombol ActiveX ke dokumen Word menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

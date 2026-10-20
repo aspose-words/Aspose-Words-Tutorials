@@ -25,6 +25,7 @@ These tutorials give you a hands-on, step-by-step approach to Words Processing w
 | Title | Description |
 | --- | --- |
 | [Add Command Button to Word Document with Aspose.Words – Complete Guide](./add-command-button-to-word-document-with-aspose-words-comple/) | Learn how to add a command button to Word documents using Aspose.Words for .NET in a comprehensive step‑by‑step guide. |
+| [How to add ActiveX button in a Word document with Aspose.Words](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Learn how to add an ActiveX button to a Word document using Aspose.Words for .NET in a step-by-step guide. |
 | [Insert Ole Object In Word Document](./insert-ole-object/) | Learn how to insert OLE objects in Word documents using Aspose.Words for .NET with this step-by-step guide. Enhance your documents with embedded content. |
 | [Insert Ole Object In Word With Ole Package](./insert-ole-object-with-ole-package/) | Learn how to insert OLE objects in Word documents using Aspose.Words for .NET. Follow our detailed step-by-step guide to embed files seamlessly. |
 | [Insert Ole Object In Word Document As Icon](./insert-ole-object-as-icon/) | Learn how to insert an OLE object as an icon in Word documents using Aspose.Words for .NET. Follow our step-by-step guide to enhance your documents. |

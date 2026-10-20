@@ -71,6 +71,7 @@ Korzystając z Aspose.Words dla .NET i postępując zgodnie z tymi samouczkami, 
 | [Jak ukryć kształt w Wordzie przy użyciu C# – przewodnik krok po kroku](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Dowiedz się, jak ukrywać kształty w dokumentach Word przy użyciu Aspose.Words dla .NET i C#. |
 | [Wstaw prostokątny kształt w C# przy użyciu Aspose.Words – przewodnik krok po kroku](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | Dowiedz się, jak w C# utworzyć prostokątny kształt w dokumencie Word przy użyciu Aspose.Words, krok po kroku. |
 | [Jak grupować kształty w Wordzie i dodawać kształty do dokumentu Word](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Dowiedz się, jak grupować kształty i dodawać je do dokumentu Word przy użyciu Aspose.Words dla .NET. |
+| [Jak grupować kształty w dokumencie Word przy użyciu C#](./how-to-group-shapes-in-a-word-document-with-c/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

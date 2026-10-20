@@ -32,6 +32,7 @@ Te samouczki przedstawiają praktyczne, krok po kroku podejście do przetwarzani
 | [Utwórz przycisk dokumentu Word przy użyciu Aspose.Words – Pełny przykład kodu](./create-word-document-button-with-aspose-words-full-code-exam/) | Dowiedz się, jak dodać przycisk tworzący dokument Word przy użyciu Aspose.Words w pełnym przykładzie kodu. |
 | [Dodaj przycisk polecenia do dokumentu Word przy użyciu Aspose.Words – kompletny przewodnik](./add-command-button-to-word-document-with-aspose-words-comple/) | Dowiedz się, jak dodać przycisk polecenia do dokumentu Word przy użyciu Aspose.Words w tym kompletnym przewodniku krok po kroku. |
 | [Jak dodać kontrolkę ActiveX w Wordzie przy użyciu Aspose.Words – przewodnik krok po kroku](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Dowiedz się, jak dodać kontrolkę ActiveX do dokumentu Word przy użyciu Aspose.Words w prostym przewodniku krok po kroku. |
+| [Jak dodać przycisk ActiveX w dokumencie Word przy użyciu Aspose.Words](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Dowiedz się, jak wstawić przycisk ActiveX do dokumentu Word przy pomocy Aspose.Words dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

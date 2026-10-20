@@ -34,6 +34,7 @@ Ezek az oktatóanyagok gyakorlatias, lépésről lépésre bemutatják a szöveg
 
 | [Parancsgomb hozzáadása Word dokumentumhoz az Aspose.Words segítségével – Teljes útmutató](./add-command-button-to-word-document-with-aspose-words-comple/) | Tanulja meg, hogyan adhat hozzá parancsgombot a Word dokumentumokhoz az Aspose.Words for .NET használatával ebben a részletes útmutatóban. |
 
+| [ActiveX gomb hozzáadása Word dokumentumba az Aspose.Words segítségével](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Tanulja meg, hogyan adhat hozzá ActiveX gombot egy Word dokumentumhoz az Aspose.Words for .NET használatával. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

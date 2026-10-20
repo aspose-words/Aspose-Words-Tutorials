@@ -27,6 +27,7 @@ Aspose.Words for .NET を使い、これらのチュートリアルに従うこ�
 | [グループ図形を追加](./add-group-shape/) この包括的なステップバイステップのチュートリアルでは、Aspose.Words for .NET を使用して Word 文書にグループ図形を追加する方法を学習します。 |
 | [Aspose.Words で Word のグループ図形 – 完全 C# ガイド](./group-shapes-in-word-with-aspose-words-complete-c-guide/) Aspose.Words for .NET を使用し、C# で Word 文書にグループ図形を追加・操作する手順を詳細に解説します。 |
 | [C# を使用してグループ化された図形を含む docx ファイルを Word に保存](./save-docx-file-with-grouped-shapes-in-word-using-c/) C# でグループ化された図形を含む docx ファイルを保存する方法を学びます。 |
+| [C# で Word 文書の図形をグループ化する方法](./how-to-group-shapes-in-a-word-document-with-c/) |
 | [図形を挿入](./insert-shape/) ステップバイステップ ガイドを使用して、Aspose.Words for .NET を使用して Word 文書に図形を挿入および操作する方法を学習します。 |
 | [アスペクト比を固定](./aspect-ratio-locked/) Aspose.Words for .NET を使用して、Word 文書内の図形のアスペクト比を固定する方法を学びます。このステップバイステップガイドに従って、画像と図形の縦横比を維持してください。 |
 | [セル内レイアウト](./layout-in-cell/) Aspose.Words for .NET を使ってセルのレイアウトを設定する方法を、この包括的なガイドで学びましょう。Word 文書をカスタマイズしたい開発者に最適です。 |

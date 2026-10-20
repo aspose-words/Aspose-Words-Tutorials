@@ -71,6 +71,7 @@
 | [حفظ ملف docx بأشكال مجموعة في Word باستخدام C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | تعلم كيفية حفظ مستند Word يحتوي على أشكال مجموعة باستخدام C#. |
 | [كيفية إخفاء الشكل في Word باستخدام C# – دليل خطوة بخطوة](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | تعلم كيفية إخفاء الأشكال في مستندات Word باستخدام C# من خلال دليل خطوة بخطوة. |
 | [إدراج شكل مستطيل في C# باستخدام Aspose.Words – دليل خطوة بخطوة](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | تعلم كيفية إدراج شكل مستطيل في مستند Word باستخدام C# و Aspose.Words خطوة بخطوة. |
+| [كيفية تجميع الأشكال في مستند Word باستخدام C#](./how-to-group-shapes-in-a-word-document-with-c/) | تعلم كيفية تجميع الأشكال في مستند Word باستخدام C# خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

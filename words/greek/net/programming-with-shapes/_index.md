@@ -71,6 +71,7 @@
 | [Πώς να κρύψετε σχήμα σε Word χρησιμοποιώντας C# – οδηγός βήμα‑βήμα](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Μάθετε πώς να κρύψετε ένα σχήμα σε έγγραφο Word με C# χρησιμοποιώντας το Aspose.Words για .NET, βήμα‑βήμα. |
 | [Πώς να ομαδοποιήσετε σχήματα στο Word και να προσθέσετε σχήματα σε έγγραφο Word](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Μάθετε πώς να ομαδοποιείτε σχήματα και να τα προσθέτετε σε έγγραφα Word χρησιμοποιώντας Aspose.Words για .NET. |
 | [Εισαγωγή σχήματος ορθογωνίου σε C# με Aspose.Words – οδηγός βήμα‑βήμα](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | Μάθετε πώς να δημιουργήσετε σχήμα ορθογωνίου σε C# χρησιμοποιώντας Aspose.Words, βήμα προς βήμα. |
+| [Πώς να ομαδοποιήσετε σχήματα σε έγγραφο Word με C#](./how-to-group-shapes-in-a-word-document-with-c/) | Μάθετε πώς να ομαδοποιείτε σχήματα σε έγγραφο Word χρησιμοποιώντας C# και Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
