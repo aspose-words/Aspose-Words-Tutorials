@@ -46,6 +46,8 @@ Trích xuất nội dung hiệu quả từ các tài liệu Word bằng Aspose.W
 Tìm hiểu các kỹ thuật tìm và thay thế nâng cao trong tài liệu Word bằng Aspose.Words cho Python. Thay thế văn bản, sử dụng regex, định dạng và nhiều hơn nữa.
 ### [Xóa và tinh chỉnh nội dung trong tài liệu Word](./remove-content-documents/)
 Tìm hiểu cách xóa và tinh chỉnh nội dung hiệu quả trong tài liệu Word bằng Aspose.Words cho Python. Hướng dẫn từng bước với các ví dụ về mã nguồn.
+### [Cách Đặt Callback để Xuất Hình Ảnh từ DOCX](./how-to-set-callback-for-exporting-images-from-docx/)
+Hướng dẫn cách thiết lập callback để xuất hình ảnh từ tài liệu DOCX bằng Aspose.Words cho Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

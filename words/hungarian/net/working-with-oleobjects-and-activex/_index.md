@@ -27,7 +27,13 @@ Ezek az oktatóanyagok gyakorlatias, lépésről lépésre bemutatják a szöveg
 | [Ole objektum beszúrása Wordbe Ole csomaggal](./insert-ole-object-with-ole-package/) | Ismerje meg, hogyan szúrhat be OLE objektumokat Word dokumentumokba az Aspose.Words for .NET segítségével. Kövesse részletes, lépésről lépésre szóló útmutatónkat a fájlok zökkenőmentes beágyazásához. |
 | [Ole objektum beszúrása ikonként Word dokumentumba](./insert-ole-object-as-icon/) | Ismerje meg, hogyan szúrhat be OLE objektumot ikonként Word dokumentumokba az Aspose.Words for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat dokumentumai fejlesztéséhez. |
 | [Ole objektum beszúrása ikonként Stream használatával](./insert-ole-object-as-icon-using-stream/) | Tanuld meg, hogyan szúrhatsz be egy OLE objektumot ikonként egy adatfolyam használatával az Aspose.Words for .NET segítségével ebben a részletes, lépésről lépésre szóló útmutatóban. |
-| [Active XControl tulajdonságok beolvasása Word fájlból](./read-active-xcontrol-properties/) | Tanulja meg, hogyan olvashat ActiveX-vezérlők tulajdonságait Word-fájlokból az Aspose.Words for .NET segítségével egy lépésről lépésre szóló útmutatóban. Fejlessze dokumentumautomatizálási készségeit. |
+| [Active XControl tulajdonságok beolvasása Word fájlból](./read-active-xcontrol-properties/) | Tanulja meg, hogyan olvashat ActiveX-vezérlők tulajdonságait Word-fájlokból az Aspose.Words for .NET segítségével egy lépésről szóló útmutatóban. Fejlessze dokumentumautomatizálási készségeit. |
+| [Word dokumentum létrehozása ActiveX gombbal – C# útmutató](./create-word-document-with-activex-button-c-guide/) | Tanulja meg, hogyan hozhat létre Word dokumentumot ActiveX gombbal az Aspose.Words for .NET C# használatával. |
+| [Word dokumentum gomb létrehozása Aspose.Words használatával – Teljes kódpélda](./create-word-document-button-with-aspose-words-full-code-exam/) | Ismerje meg, hogyan hozhat létre egy gombot, amely Word dokumentumot generál az Aspose.Words könyvtárral, teljes kódrészlettel. |
+| [ActiveX vezérlő hozzáadása Word-hez az Aspose.Words segítségével – lépésről lépésre útmutató](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Ismerje meg, hogyan adhat hozzá ActiveX vezérlőt Word dokumentumhoz az Aspose.Words for .NET használatával lépésről lépésre. |
+
+| [Parancsgomb hozzáadása Word dokumentumhoz az Aspose.Words segítségével – Teljes útmutató](./add-command-button-to-word-document-with-aspose-words-comple/) | Tanulja meg, hogyan adhat hozzá parancsgombot a Word dokumentumokhoz az Aspose.Words for .NET használatával ebben a részletes útmutatóban. |
+
 | [ActiveX gomb hozzáadása Word dokumentumba az Aspose.Words segítségével](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Tanulja meg, hogyan adhat hozzá ActiveX gombot egy Word dokumentumhoz az Aspose.Words for .NET használatával. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 

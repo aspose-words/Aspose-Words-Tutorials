@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary: Korzystając z Aspose.Words Document i DocumentBuilder, ten samouczek wstawia znacznik HTML do dokumentu Word i zapisuje wynik.
+//ExStepSummary:0: Zdefiniuj folder wyjściowy, utwórz nowy Document i zainicjalizuj DocumentBuilder dla tego dokumentu.
+//ExStepSummary:1: Wywołaj `builder.InsertHtml()`, aby dodać do dokumentu paragraf wyrównany do prawej, pogrubiony tekst, wyśrodkowany div oraz nagłówek wyrównany do lewej.
+//ExStepSummary:2: Zapisz zmodyfikowany dokument w określonym folderze jako plik .docx.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd
