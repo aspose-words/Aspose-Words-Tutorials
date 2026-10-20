@@ -51,6 +51,8 @@ Tanuld meg, hogyan kezelheted a dokumentumok tulajdonságait és metaadatait az 
 Ismerje meg, hogyan bővítheti a dokumentumok funkcionalitását webbővítményekkel az Aspose.Words for Python használatával. Lépésről lépésre útmutató forráskóddal a zökkenőmentes integrációhoz.
 ### [PDF hozzáférhetővé tétele az Aspose.Words segítségével – Teljes lépésről‑lépésre útmutató](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
 Tanulja meg, hogyan teheti PDF-jét hozzáférhetővé a WCAG szabványoknak megfelelően az Aspose.Words használatával, részletes példákkal.
+### [DOCX helyreállítása – Teljes útmutató az Aspose.Words használatával](./how-to-recover-docx-complete-guide-with-aspose-words/)
+Tanulja meg, hogyan állíthatja helyre a sérült DOCX fájlokat az Aspose.Words segítségével lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

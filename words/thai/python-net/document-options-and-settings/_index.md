@@ -52,6 +52,8 @@
 
 ### [การขยายฟังก์ชันการทำงานของเอกสารด้วยส่วนขยายเว็บ](./document-functionality-web-extensions/)
 เรียนรู้วิธีขยายฟังก์ชันการทำงานของเอกสารด้วยส่วนขยายเว็บโดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับเพื่อการบูรณาการที่ราบรื่น
+### [วิธีกู้คืน DOCX – คู่มือฉบับสมบูรณ์กับ Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
+เรียนรู้วิธีกู้คืนไฟล์ DOCX ที่เสียหายโดยใช้ Aspose.Words พร้อมขั้นตอนและตัวอย่างโค้ด
 
 ### [ทำให้ PDF เข้าถึงได้ด้วย Aspose.Words – คู่มือครบขั้นตอน](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
 เรียนรู้วิธีทำให้ไฟล์ PDF เข้าถึงได้โดยใช้ Aspose.Words พร้อมคำแนะนำทีละขั้นตอนและโค้ดต้นฉบับ

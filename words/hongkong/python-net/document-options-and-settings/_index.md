@@ -51,6 +51,8 @@
 了解如何使用 Aspose.Words for Python 透過 Web 擴充功能來擴充文件功能。具有原始程式碼的逐步指南，可實現無縫整合。
 ### [使用 Aspose.Words 讓 PDF 可存取 – 完整逐步指南](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
 了解如何使用 Aspose.Words for Python 使 PDF 符合可存取標準，提供完整的程式碼範例與逐步說明。
+### [如何恢復 DOCX – 使用 Aspose.Words 的完整指南](./how-to-recover-docx-complete-guide-with-aspose-words/)
+了解如何使用 Aspose.Words for Python 復原受損或無法開啟的 DOCX 文件。帶有原始程式碼的分步指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -135,6 +135,20 @@ Python で docx を markdown に変換し、画像を抽出して保存する手
 
 ### [docx を markdown に変換 – 完全 Aspose.Words ガイド](./convert-docx-to-markdown-complete-aspose-words-guide/)
 Aspose.Words を使用して docx ファイルを markdown に変換する手順を詳しく解説します。簡単に実装できます。
+### [docx を markdown に変換 – LaTeX 方程式を含む完全ガイド](./convert-docx-to-markdown-complete-guide-with-latex-equations/)
+docx ファイルを markdown に変換し、LaTeX 方程式を正しく保持する方法をステップバイステップで解説します。
+
+### [PythonでdocxをPDFとして保存 – docxをPDFに変換し形状をエクスポート](./save-docx-as-pdf-with-python-convert-docx-to-pdf-and-export/)
+Pythonを使用してdocxをPDFに変換し、図形や画像をエクスポートする方法を解説します。
+
+### [アクセシブル PDF を作成 – Python で Word を PDF に変換](./create-accessible-pdf-convert-word-to-pdf-with-python/)
+Python を使用して Word 文書をアクセシブルな PDF に変換し、アクセシビリティ要件を満たす方法を解説します。
+
+### [DOCX を Markdown に変換する際の画像の名前変更方法](./how-to-rename-images-when-converting-docx-to-markdown/)
+DOCX から Markdown へ変換する際に画像ファイル名を自動的に変更する手順を解説します。
+
+### [Aspose.Words で PDF として保存 – 完全プログラミングガイド](./save-as-pdf-with-aspose-words-complete-programming-guide/)
+Aspose.Words を使って Word 文書を PDF に変換し、完全なプログラミング手順を紹介します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

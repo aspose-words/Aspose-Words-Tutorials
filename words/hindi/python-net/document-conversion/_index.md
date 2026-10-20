@@ -132,6 +132,20 @@ DOCX फ़ाइलों को Markdown में बदलें और स�
 
 ### [DOCX को Markdown में परिवर्तित करें – पूर्ण Aspose.Words गाइड](./convert-docx-to-markdown-complete-aspose-words-guide/)
 Aspose.Words के साथ DOCX को Markdown में बदलने के लिए चरण‑दर‑चरण मार्गदर्शन।
+### [DOCX को मार्कडाउन में बदलें – LaTeX समीकरणों के साथ पूर्ण गाइड](./convert-docx-to-markdown-complete-guide-with-latex-equations/)
+DOCX फ़ाइलों को मार्कडाउन में परिवर्तित करें, LaTeX समीकरणों को संरक्षित रखें, पायथन कोड और चरण-दर-चरण मार्गदर्शन।
+
+### [Python के साथ DOCX को PDF के रूप में सहेजें – DOCX को PDF में बदलें और शैप्स निर्यात करें](./save-docx-as-pdf-with-python-convert-docx-to-pdf-and-export/)
+Python और Aspose.Words का उपयोग करके DOCX फ़ाइल को PDF में बदलें, साथ ही दस्तावेज़ में मौजूद शैप्स को निर्यात करें।
+
+### [सुलभ PDF बनाएं – पायथन के साथ वर्ड को PDF में बदलें](./create-accessible-pdf-convert-word-to-pdf-with-python/)
+Aspose.Words for Python का उपयोग करके वर्ड दस्तावेज़ को सुलभ PDF में बदलें, एक्सेसिबिलिटी फीचर जोड़ें।
+
+### [DOCX को मार्कडाउन में परिवर्तित करते समय छवियों का नाम कैसे बदलें](./how-to-rename-images-when-converting-docx-to-markdown/)
+DOCX को मार्कडाउन में बदलते समय छवियों के फ़ाइलनाम बदलने के लिए पायथन कोड और चरण-दर-चरण मार्गदर्शन।
+
+### [Aspose.Words के साथ PDF के रूप में सहेजें – पूर्ण प्रोग्रामिंग गाइड](./save-as-pdf-with-aspose-words-complete-programming-guide/)
+Aspose.Words का उपयोग करके दस्तावेज़ को PDF में सहेजें, विस्तृत कोड उदाहरण और चरण-दर-चरण मार्गदर्शन।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

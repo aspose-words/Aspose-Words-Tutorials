@@ -51,6 +51,8 @@ Naučte se, jak spravovat vlastnosti a metadata dokumentů pomocí Aspose.Words 
 Naučte se, jak rozšířit funkcionalitu dokumentů pomocí webových rozšíření pomocí Aspose.Words pro Python. Podrobný návod se zdrojovým kódem pro bezproblémovou integraci.
 ### [Zpřístupněte PDF pomocí Aspose.Words – Kompletní průvodce krok za krokem](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
 Naučte se, jak pomocí Aspose.Words vytvořit přístupné PDF soubory pomocí podrobného krok‑za‑krokem návodu.
+### [Jak obnovit DOCX – Kompletní průvodce s Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
+Naučte se, jak obnovit poškozené soubory DOCX pomocí Aspose.Words. Kompletní návod s ukázkovým kódem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

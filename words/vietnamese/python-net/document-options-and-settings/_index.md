@@ -51,6 +51,8 @@ Tìm hiểu cách quản lý thuộc tính tài liệu và siêu dữ liệu b�
 Tìm hiểu cách mở rộng chức năng tài liệu bằng tiện ích mở rộng web bằng Aspose.Words cho Python. Hướng dẫn từng bước với mã nguồn để tích hợp liền mạch.
 ### [Làm cho PDF có khả năng truy cập với Aspose.Words – Hướng dẫn chi tiết từng bước](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
 Tìm hiểu cách làm cho PDF có khả năng truy cập bằng Aspose.Words trong Python. Hướng dẫn chi tiết từng bước với mã nguồn.
+### [Cách Khôi Phục DOCX – Hướng Dẫn Toàn Diện với Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
+Hướng dẫn chi tiết cách khôi phục tài liệu DOCX bị hỏng bằng Aspose.Words, bao gồm các bước và ví dụ mã nguồn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

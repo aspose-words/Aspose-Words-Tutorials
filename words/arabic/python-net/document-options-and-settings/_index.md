@@ -51,6 +51,8 @@
 تعرّف على كيفية توسيع وظائف المستندات باستخدام ملحقات الويب باستخدام Aspose.Words للغة بايثون. دليل خطوة بخطوة مع الكود المصدري لتكامل سلس.
 ### [اجعل ملف PDF قابلاً للوصول باستخدام Aspose.Words – دليل شامل خطوة بخطوة](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
 تعلم كيفية تحسين إمكانية الوصول لملفات PDF باستخدام Aspose.Words من خلال دليل خطوة بخطوة مع أمثلة عملية.
+### [كيفية استعادة DOCX – دليل كامل باستخدام Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
+دليل خطوة بخطوة لاستعادة ملفات DOCX التالفة باستخدام Aspose.Words مع أمثلة برمجية.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

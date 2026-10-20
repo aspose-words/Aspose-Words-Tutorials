@@ -138,6 +138,20 @@ docx 파일을 markdown으로 변환하고 이미지 추출까지 자동으로 �
 
 ### [docx를 markdown으로 변환 – 완전 Aspose.Words 가이드](./convert-docx-to-markdown-complete-aspose-words-guide/)
 Aspose.Words를 사용해 docx 파일을 markdown으로 변환하는 방법을 단계별로 안내합니다.
+### [DOCX를 Markdown으로 변환 – LaTeX 방정식 포함 완전 가이드](./convert-docx-to-markdown-complete-guide-with-latex-equations/)
+DOCX 파일을 Markdown으로 변환하고 LaTeX 방정식을 보존하는 방법을 단계별로 안내합니다.
+
+### [Python으로 DOCX를 PDF로 저장 – DOCX를 PDF로 변환하고 도형 내보내기](./save-docx-as-pdf-with-python-convert-docx-to-pdf-and-export/)
+Python을 사용해 DOCX를 PDF로 변환하고 도형을 내보내는 방법을 단계별로 안내합니다!
+
+### [접근성 PDF 만들기 – Python으로 Word를 PDF로 변환](./create-accessible-pdf-convert-word-to-pdf-with-python/)
+Python을 사용해 Word 문서를 접근성 PDF로 변환하는 방법을 단계별로 안내합니다!
+
+### [Aspose.Words로 PDF 저장 – 완전 프로그래밍 가이드](./save-as-pdf-with-aspose-words-complete-programming-guide/)
+Aspose.Words를 사용해 PDF로 저장하는 방법을 단계별로 안내합니다!
+
+### [DOCX를 Markdown으로 변환할 때 이미지 이름 바꾸기](./how-to-rename-images-when-converting-docx-to-markdown/)
+DOCX를 Markdown으로 변환하면서 이미지 파일명을 자동으로 변경하는 방법을 단계별로 안내합니다!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

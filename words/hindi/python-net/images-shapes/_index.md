@@ -58,6 +58,9 @@ Python के लिए Aspose.Words का उपयोग करके आय�
 ### [Python में आयताकार आकार कैसे सम्मिलित करें – पूर्ण Aspose.Words गाइड](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
 Python के लिए Aspose.Words का उपयोग करके दस्तावेज़ में आयताकार आकार सम्मिलित करने की पूरी प्रक्रिया सीखें।
 
+### [Python में Shape में शैडो जोड़ना – Aspose.Words के साथ पूर्ण गाइड](./add-shadow-to-shape-in-python-with-aspose-words-full-guide/)
+Python में Aspose.Words का उपयोग करके Shape में शैडो जोड़ने की पूरी प्रक्रिया सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [पायथन-नेट दस्तावेज़ीकरण के लिए Aspose.Words](https://docs.aspose.com/words/python-net/)
