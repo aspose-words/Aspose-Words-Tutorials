@@ -82,6 +82,11 @@ Pelajari cara menyisipkan gambar ke dokumen Word menggunakan Aspose.Words untuk 
 Panduan lengkap untuk menambahkan bentuk persegi panjang ke dokumen Word menggunakan C# dengan Aspose.Words.
 ### [Buat Dokumen Word Kosong dengan Bayangan di Java – Panduan Lengkap](./create-blank-word-with-shadow-in-java-full-guide/)
 Pelajari cara membuat dokumen Word kosong dengan efek bayangan menggunakan Aspose.Words untuk Java.
+### [Mengelompokkan Bentuk di Word – panduan pemrograman lengkap](./group-shapes-in-word-complete-programming-guide/)
+Panduan lengkap untuk mengelompokkan bentuk dalam dokumen Word menggunakan Aspose.Words untuk Java.
+
+### [Sembunyikan gambar di Word – panduan langkah‑demi‑langkah Java dengan Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Panduan lengkap untuk menyembunyikan gambar dalam dokumen Word menggunakan Aspose.Words untuk Java.
 
 ## Sumber Daya Tambahan
 

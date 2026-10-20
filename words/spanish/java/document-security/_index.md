@@ -45,6 +45,8 @@ Aprenda a proteger sus documentos y a redactar información confidencial con Asp
 Aprenda a firmar documentos Word en Java usando Aspose.Words con ejemplos paso a paso y código fuente.
 ### [Cómo firmar archivos DOCX en C# – Guía completa paso a paso](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
 Aprenda a firmar archivos DOCX en C# con Aspose.Words mediante una guía paso a paso con ejemplos de código.
+### [Cómo firmar archivos docx con un certificado PFX – guía paso a paso](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
+Aprenda a firmar archivos docx usando un certificado PFX con instrucciones paso a paso y ejemplos de código.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

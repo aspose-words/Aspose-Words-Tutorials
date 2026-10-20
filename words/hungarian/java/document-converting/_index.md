@@ -85,7 +85,7 @@ Használja a `Document doc = new Document(new ByteArrayInputStream(htmlBytes), n
 
 ### [A dokumentumkonvertálási funkció használata](./using-document-converting/)
 ### [Dokumentumok exportálása PDF-be](./exporting-documents-to-pdf/)
-### [Dokumentumok konvertálása különböző formátumokra](./converting-documents-different-formats/)
+### [Dokumentumok konvertálása különböző formátumokra](./converting-documents-different-forms/)
 ### [HTML konvertálása dokumentumokká](./converting-html-documents/)
 ### [Dokumentumkonvertálás SaveOptions-szal](./document-conversion-saveoptions/)
 ### [Dokumentumé](./converting-documents-images/)
@@ -99,10 +99,11 @@ Használja a `Document doc = new Document(new ByteArrayInputStream(htmlBytes), n
 ### [Java konvertálás Markdown-ból Word-be – Markdown to DOCX Java](./java-convert-markdown-to-word-markdown-to-docx-java/)
 ### [DOCX konvertálása PDF-re Java‑ban – Hozzáférhető PDF útmutató](./convert-docx-to-pdf-in-java-accessible-pdf-guide/)
 ### [Word mentése Markdown formátumba – Teljes Java útmutató (2026)](./save-word-as-markdown-complete-java-guide-2026/)
+### [Markdown konvertálása docx-be Java‑ban – lépésről‑lépésre útmutató](./convert-markdown-to-docx-in-java-step-by-step-guide/)
 
 ## Gyakran Ismételt Kérdések
 
-**Q:** *Konvertálhatok jelszóval védett Word fájlokat PDF-re?*  
+**Q:** *Konvertálhatok jelszóvel védett Word fájlokat PDF-re?*  
 **A:** Igen. Töltse be a dokumentumot a jelszóval (`LoadOptions`), majd mentse PDF-ként.
 
 **Q:** *Mi a legjobb mód több DOCX fájl egyesítésére a PDF-re konvertálás előtt?*  

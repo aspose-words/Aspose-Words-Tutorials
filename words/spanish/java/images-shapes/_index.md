@@ -82,6 +82,11 @@ Aprenda a insertar imágenes en documentos Word usando Aspose.Words con esta gu�
 Aprenda a insertar y personalizar una forma rectangular en documentos Word mediante C# con Aspose.Words.
 ### [Crear documento Word en blanco con sombra en Java – Guía completa](./create-blank-word-with-shadow-in-java-full-guide/)
 Aprenda a crear un documento Word vacío con efecto de sombra en Java usando Aspose.Words.
+### [Agrupar formas en Word – guía completa de programación](./group-shapes-in-word-complete-programming-guide/)
+Aprenda a agrupar y manipular formas en documentos Word usando Aspose.Words para Java.
+
+### [Ocultar imagen en Word – guía paso a paso en Java con Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Aprenda a ocultar imágenes en documentos Word usando Aspose.Words para Java.
 
 ## Recursos adicionales
 

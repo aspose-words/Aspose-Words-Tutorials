@@ -83,6 +83,11 @@ Apprenez à insérer et personnaliser un diagramme circulaire dans un document W
 Apprenez à insérer un bouton ActiveX dans un document Word et à définir sa légende via Aspose.Words pour Java.
 ### [Créer un document Word vierge avec un bouton de commande – guide étape par étape](./create-blank-word-document-with-a-command-button-step-by-ste/)
 Apprenez à créer un document Word vierge avec un bouton de commande grâce à ce guide étape par étape.
+### [Créer un diagramme circulaire dans Word avec Java – guide étape par étape](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Apprenez à créer un diagramme circulaire dans Word en utilisant Aspose.Words pour Java grâce à ce guide détaillé.
+### [Comment ajouter un SDT en C# – guide complet pour les espaces réservés Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Apprenez à insérer des contrôles de contenu (SDT) avec Aspose.Words pour C# afin de gérer les espaces réservés dans vos documents Word.
+### [Comment obtenir un séparateur dans les documents Word avec Java](./how-to-get-separator-in-word-docs-with-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

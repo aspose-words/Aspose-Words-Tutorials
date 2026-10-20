@@ -338,6 +338,9 @@ Pelajari cara mengatur resolusi gambar saat mengekspor dokumen Word ke format Ma
 ### [Simpan docx sebagai txt – Ekspor Persamaan Word ke LaTeX](./save-docx-as-txt-export-word-equations-to-latex/)
 Pelajari cara menyimpan dokumen DOCX sebagai file TXT sambil mengekspor persamaan matematika ke format LaTeX menggunakan Aspose.Words.
 
+### [Simpan Word sebagai Markdown – panduan lengkap menggunakan Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Pelajari cara mengekspor dokumen Word ke format Markdown dengan Aspose.Words dalam panduan langkah demi langkah.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bagaimana cara menambahkan watermark ke PDF yang sudah ada menggunakan Aspose.Words?**  

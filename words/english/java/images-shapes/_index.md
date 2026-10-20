@@ -102,6 +102,11 @@ Step-by-step guide on inserting images into Word documents using Aspose.Words fo
 Learn how to insert a rectangle shape into a Word document using Aspose.Words for C# with a step-by-step guide.
 ### [Create blank word with shadow in Java – Full guide](./create-blank-word-with-shadow-in-java-full-guide/)
 Learn how to create a blank Word document with a shadow effect using Aspose.Words for Java in this comprehensive guide.
+### [Group shapes in Word – complete programming guide](./group-shapes-in-word-complete-programming-guide/)
+A comprehensive guide on grouping shapes in Word documents using Aspose.Words for Java.
+
+### [Hide picture in Word – step‑by‑step Java guide with Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Step-by-step guide on hiding pictures in Word documents using Aspose.Words for Java.
 
 ## Additional Resources
 

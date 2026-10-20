@@ -82,6 +82,11 @@ Aspose.Words Java 代码教程
 完整的 C# 示例，演示如何在 Word 文档中插入矩形形状。
 ### [在 Java 中创建带阴影的空白 Word 文档 – 完整指南](./create-blank-word-with-shadow-in-java-full-guide/)
 本指南详细演示如何使用 Aspose.Words for Java 创建一个带阴影效果的空白 Word 文档。
+### [在 Word 中对形状进行分组 – 完整编程指南](./group-shapes-in-word-complete-programming-guide/)
+了解如何在 Word 文档中对形状进行分组的完整编程指南。
+
+### [在 Word 中隐藏图片 – 使用 Aspose 的逐步 Java 指南](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+了解如何使用 Aspose.Words for Java 在 Word 文档中隐藏图片的完整步骤。
 
 ## 其他资源
 

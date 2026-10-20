@@ -82,6 +82,11 @@ Dowiedz się, jak wstawiać obrazy do dokumentów Word przy użyciu Aspose.Words
 Kompletny przewodnik, jak dodać prostokątny kształt do dokumentu Word przy użyciu C# i Aspose.Words.
 ### [Utwórz pusty dokument Word w Javie – Pełny przewodnik z efektem cienia](./create-blank-word-with-shadow-in-java-full-guide/)
 Dowiedz się, jak w Javie utworzyć pusty dokument Word i dodać do niego cień, korzystając z Aspose.Words.
+### [Grupowanie kształtów w Word – kompletny przewodnik programistyczny](./group-shapes-in-word-complete-programming-guide/)
+Pełny przewodnik, jak grupować kształty w dokumentach Word przy użyciu Aspose.Words dla Java.
+
+### [Ukryj obraz w Word – przewodnik krok po kroku w Javie z Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Dowiedz się, jak ukrywać obrazy w dokumentach Word przy użyciu Aspose.Words dla Java.
 
 ## Dodatkowe zasoby
 

@@ -87,6 +87,12 @@ C# के साथ Aspose.Words का उपयोग करके Word मे
 ### [जावा में शैडो के साथ खाली वर्ड दस्तावेज़ बनाएं – पूर्ण गाइड](./create-blank-word-with-shadow-in-java-full-guide/)
 जावा में Aspose.Words का उपयोग करके शैडो प्रभाव के साथ एक खाली Word दस्तावेज़ बनाने की पूरी प्रक्रिया सीखें।
 
+### [Word में समूह आकृतियाँ – पूर्ण प्रोग्रामिंग गाइड](./group-shapes-in-word-complete-programming-guide/)
+Word में समूह आकृतियों को बनाने और प्रबंधित करने के लिए पूर्ण कोड गाइड।
+
+### [वर्ड में छवि को छिपाएँ – Aspose के साथ जावा चरण‑दर‑चरण गाइड](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Aspose.Words के साथ जावा में वर्ड दस्तावेज़ में छवि को छिपाने का चरण‑दर‑चरण मार्गदर्शन।
+
 ## अतिरिक्त संसाधन
 
 - [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)

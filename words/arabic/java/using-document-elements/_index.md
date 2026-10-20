@@ -82,6 +82,11 @@
 ### [إدراج مخطط دائري في Word باستخدام Aspose.Words – دليل شامل](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
 تعلم خطوة بخطوة كيفية إدراج مخطط دائري في مستندات Word باستخدام Aspose.Words لجافا وتخصيصه بسهولة.
 ### [إنشاء مستند Word فارغ مع زر أمر – دليل خطوة بخطوة](./create-blank-word-document-with-a-command-button-step-by-ste/)
+### [كيفية إضافة SDT في C# – دليل كامل لعناصر الحجز في Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+تعلم كيفية إضافة SDT (عناصر الحجز) في C# لإنشاء مستندات Word ديناميكية بسهولة.
+### [كيفية الحصول على الفاصل في مستندات Word باستخدام Java](./how-to-get-separator-in-word-docs-with-java/)
+تعلم كيفية استخراج الفواصل في مستندات Word باستخدام Aspose.Words لجافا.
+### [إنشاء مخطط دائري في Word باستخدام Java – دليل خطوة بخطوة](./create-pie-chart-in-word-with-java-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

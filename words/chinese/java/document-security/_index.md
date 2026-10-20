@@ -45,6 +45,8 @@
 学习如何使用 Aspose.Words for Java 对 Word 文档进行数字签名，提供分步说明和示例代码，确保文档完整性。
 ### [如何在 C# 中对 DOCX 文件进行签名 – 完整分步指南](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
 使用 Aspose.Words for C# 对 DOCX 文件进行数字签名，提供完整的分步指导和示例代码，确保文档完整性和安全。
+### [使用 PFX 证书对 docx 文件进行签名 – 分步指南](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
+使用 PFX 证书对 docx 文件进行签名的分步指南，确保文档完整性和安全性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

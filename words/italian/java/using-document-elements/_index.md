@@ -83,6 +83,12 @@ Scopri come inserire il controllo Forms2Ole in un documento DOCX usando Aspose.W
 Scopri come inserire un grafico a torta in un documento Word usando Aspose.Words con questa guida passo passo.
 ### [Creare un documento Word vuoto con un pulsante di comando – guida passo‑passo](./create-blank-word-document-with-a-command-button-step-by-ste/)
 Crea un documento Word vuoto tramite un pulsante di comando con istruzioni dettagliate passo‑passo.
+### [Creare un grafico a torta in Word con Java – guida passo passo](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Impara a generare un grafico a torta in un documento Word usando Aspose.Words per Java, passo dopo passo.
+### [Come aggiungere SDT in C# – guida completa per i segnaposto Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Scopri come inserire i controlli SDT in C# per gestire i segnaposto nei documenti Word con questa guida passo passo.
+### [Come ottenere il separatore nei documenti Word con Java](./how-to-get-separator-in-word-docs-with-java/)
+Scopri come estrarre o inserire separatori nei documenti Word usando Aspose.Words per Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

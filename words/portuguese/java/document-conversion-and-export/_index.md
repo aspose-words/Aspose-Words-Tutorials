@@ -338,6 +338,9 @@ Aprenda a gerar arquivos PDF/UA‑1 totalmente compatíveis em Java usando Aspos
 ### [Criar documento PDF/UA compatível – Guia completo em Java](./create-pdf-ua-compliant-document-complete-java-guide/)
 Aprenda a criar documentos PDF/UA compatíveis em Java usando Aspose.Words, com instruções passo a passo e melhores práticas.
 
+### [Salvar Word como Markdown – guia completo usando Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Aprenda a converter documentos Word para Markdown de forma completa usando Aspose.Words para Java.
+
 ## Perguntas Frequentes
 
 **Q: Como adiciono uma marca d'água a um PDF existente usando Aspose.Words?**  

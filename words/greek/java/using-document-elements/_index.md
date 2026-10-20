@@ -83,6 +83,12 @@
 Μάθετε πώς να δημιουργήσετε διαγράμματα πίτας σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java, με πλήρη βήμα‑βήμα οδηγίες.
 ### [Εισαγωγή διαγράμματος πίτας στο Word με Aspose.Words – Πλήρης οδηγός](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
 Μάθετε πώς να δημιουργήσετε και να ενσωματώσετε διαγράμματα πίτας σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
+### [Δημιουργία διαγράμματος πίτας στο Word με Java – βήμα προς βήμα οδηγός](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε διάγραμμα πίτας σε έγγραφο Word χρησιμοποιώντας Aspose.Words για Java.
+### [Πώς να λάβετε διαχωριστικό σε έγγραφα Word με Java](./how-to-get-separator-in-word-docs-with-java/)
+Μάθετε πώς να αποκτήσετε διαχωριστικό σε έγγραφα Word χρησιμοποιώντας Aspose.Words για Java.
+### [Πώς να προσθέσετε SDT σε C# – πλήρης οδηγός για placeholders του Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Μάθετε πώς να προσθέσετε SDT (Structured Document Tags) σε έγγραφα Word χρησιμοποιώντας C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

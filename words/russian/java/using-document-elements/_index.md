@@ -83,6 +83,11 @@
 Узнайте, как добавить круговую диаграмму в документ Word с помощью Aspose.Words, шаг за шагом.
 ### [Создание пустого документа Word с кнопкой команды – пошаговое руководство](./create-blank-word-document-with-a-command-button-step-by-ste/)
 Пошаговое руководство по созданию пустого документа Word с кнопкой команды.
+### [Получение разделителя в документах Word с Java](./how-to-get-separator-in-word-docs-with-java/)
+Узнайте, как получить разделитель в документах Word с помощью Aspose.Words для Java.
+### [Как добавить SDT в C# – полное руководство по заполнителям Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+### [Создание круговой диаграммы в Word с Java – пошаговое руководство](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Узнайте, как создать круговую диаграмму в документе Word с помощью Aspose.Words для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

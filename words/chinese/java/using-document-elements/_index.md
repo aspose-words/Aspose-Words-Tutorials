@@ -82,6 +82,12 @@
 ### [在 Word 中使用 Aspose.Words 插入饼图 – 完整指南](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
 学习如何使用 Aspose.Words 在 Word 文档中插入并自定义饼图，涵盖数据绑定、样式设置和导出。
 ### [使用命令按钮创建空白 Word 文档 – 步骤指南](./create-blank-word-document-with-a-command-button-step-by-ste/)
+### [在 Aspose.Words for Java 中获取分隔符](./how-to-get-separator-in-word-docs-with-java/)
+学习如何在 Aspose.Words for Java 中获取分隔符，以便在文档中插入或识别分隔线。
+### [在 C# 中添加 SDT – Word 占位符完整指南](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+学习如何在 C# 中使用 SDT（结构化文档标签）来实现 Word 占位符的完整指南。
+### [使用 Java 在 Word 中创建饼图 – 分步指南](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+学习如何使用 Aspose.Words for Java 在 Word 文档中创建饼图，完整的分步示例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

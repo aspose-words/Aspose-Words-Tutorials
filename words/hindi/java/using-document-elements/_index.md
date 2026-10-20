@@ -84,6 +84,11 @@ Java के साथ Aspose.Words का उपयोग करके Word द�
 
 ### [Aspose.Words Java के साथ पाई चार्ट बनाना – पूर्ण चरण‑दर‑चरण गाइड](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
 Aspose.Words for Java का उपयोग करके पाई चार्ट बनाने की पूरी प्रक्रिया सीखें। चरण‑दर‑चरण कोड उदाहरणों के साथ।
+### [Java के साथ Word दस्तावेज़ में विभाजक प्राप्त करना](./how-to-get-separator-in-word-docs-with-java/)
+Java का उपयोग करके Word दस्तावेज़ में विभाजक कैसे प्राप्त करें, इस चरण-दर-चरण ट्यूटोरियल में सीखें।
+### [Java के साथ Word में पाई चार्ट बनाना – चरण-दर-चरण गाइड](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Java के साथ Word दस्तावेज़ में पाई चार्ट बनाने की प्रक्रिया सीखें। चरण-दर-चरण मार्गदर्शन।
+### [C# में SDT जोड़ना – Word प्लेसहोल्डर्स के लिए पूर्ण गाइड](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

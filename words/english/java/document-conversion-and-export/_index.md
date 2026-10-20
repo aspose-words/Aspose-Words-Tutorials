@@ -389,6 +389,10 @@ Save docx as txt – Export Word Equations to LaTeX. Learn how to export Word eq
 
 
 ## Frequently asked questions
+### [Save Word as Markdown – complete guide using Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Learn how to convert Word documents to Markdown format using Aspose.Words for Java, with step‑by‑step code examples.
+
+## Frequently Asked Questions
 
 **Q: How do I add a watermark to an existing PDF using Aspose.Words?**  
 A: Load the document, use `DocumentBuilder.insertWatermarkText` or `insertWatermarkImage`, then save as PDF.

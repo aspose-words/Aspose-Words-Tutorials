@@ -83,6 +83,12 @@ Java kullanarak gölge efektiyle boş bir Word belgesi oluşturmayı adım adım
 ### [C# kullanarak Word belgesine dikdörtgen şekil ekleme – tam rehber](./insert-rectangle-shape-in-word-using-c-complete-guide/)
 C# ile Word belgesine dikdörtgen şekil eklemeyi öğrenin.
 
+### [Word'de Şekilleri Gruplama – Tam Programlama Rehberi](./group-shapes-in-word-complete-programming-guide/)
+Word belgelerinde şekilleri gruplama ve yönetme konularında adım adım kod örnekleriyle tam bir rehber.
+
+### [Word'de Resmi Gizleme – Aspose ile Adım Adım Java Rehberi](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Aspose.Words for Java kullanarak Word belgesindeki resmi nasıl gizleyeceğinizi öğrenin.
+
 ## Ek Kaynaklar
 
 ## Ek Kaynaklar

@@ -160,6 +160,9 @@ weight: 22
 ### [Μετατροπή DOCX σε Markdown – Πλήρης Οδηγός Java](./convert-docx-to-markdown-complete-java-tutorial/)
 Μάθετε πώς να μετατρέψετε αρχεία DOCX σε Markdown χρησιμοποιώντας το Aspose.Words for Java, βήμα‑βήμα με παραδείγματα κώδικα.
 
+### [Αποθήκευση Word ως Markdown – πλήρης οδηγός με χρήση Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Μάθετε πώς να αποθηκεύσετε έγγραφα Word σε μορφή Markdown με το Aspose.Words.
+
 ### [Πώς να ενσωματώσετε εικόνες σε Markdown κατά τη μετατροπή DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Μάθετε πώς να ενσωματώσετε εικόνες σε αρχεία Markdown όταν μετατρέπετε DOCX με Aspose.Words for Java.
 

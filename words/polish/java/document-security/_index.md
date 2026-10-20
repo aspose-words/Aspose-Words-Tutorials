@@ -45,6 +45,8 @@ Dowiedz się, jak zabezpieczyć dokumenty i redagować poufne dane za pomocą As
 Dowiedz się, jak podpisać dokument Word w Javie przy użyciu Aspose.Words, krok po kroku, z przykładami kodu.
 ### [Jak podpisać pliki DOCX w C# – kompletny przewodnik krok po kroku](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
 Dowiedz się, jak za pomocą Aspose.Words w C# dodać podpis cyfrowy do plików DOCX, zapewniając integralność i autentyczność dokumentów.
+### [Jak podpisać pliki docx certyfikatem PFX – przewodnik krok po kroku](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
+Dowiedz się, jak podpisać pliki docx przy użyciu certyfikatu PFX, krok po kroku, z przykładami kodu w Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

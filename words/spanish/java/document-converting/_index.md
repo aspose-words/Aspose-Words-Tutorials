@@ -82,6 +82,9 @@ Aproveche `Document doc = new Document(new ByteArrayInputStream(htmlBytes), new 
 
 ## Tutoriales de conversión de documentos
 
+### [Convertir docx a pdf en Java – guía paso a paso](./convert-docx-to-pdf-in-java-step-by-step-guide/)
+Aprenda a convertir archivos DOCX a PDF en Java con Aspose.Words mediante una guía paso a paso y ejemplos de código.
+
 ### [Using Document Converting Feature](./using-document-converting/)
 Aprenda a convertir documentos de manera eficiente con Aspose.Words para Java. Convierta, combine y procese archivos sin problemas. Simplifique su flujo de trabajo con una biblioteca poderosa.
 
@@ -102,8 +105,6 @@ Aprenda a convertir documentos Word a imágenes usando Aspose.Words para Java. G
 
 ### [Guardar docx como markdown con Aspose.Words – Guía completa](./save-docx-as-markdown-with-aspose-words-complete-guide/)
 Aprenda a convertir archivos DOCX a formato Markdown usando Aspose.Words para Java, con ejemplos paso‑a‑paso y opciones de personalización.
-### [Convertir DOCX a PDF en Java – Guía paso a paso](./convert-docx-to-pdf-in-java-step-by-step-guide/)
-Aprenda a convertir archivos DOCX a PDF en Java con una guía paso a paso y ejemplos de código.
 ### [Guardar DOCX como PDF con Aspose.Words – Guía completa de Java](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
 Aprenda paso a paso cómo guardar archivos DOCX como PDF usando Aspose.Words para Java, con ejemplos y opciones avanzadas.
 ### [Convertir docx a txt en Java – Guía completa de programación](./convert-docx-to-txt-in-java-complete-programming-guide/)
@@ -140,6 +141,8 @@ Aprenda a convertir documentos Word a formato Markdown usando Aspose.Words para 
 
 **P:** *¿Existe un límite en el tamaño de los documentos que puedo convertir?*  
 **R:** No hay un límite estricto, pero los archivos muy grandes pueden requerir más memoria; considere el streaming o el procesamiento por fragmentos para cargas de trabajo masivas.
+### [Convertir markdown a docx en Java – guía paso a paso](./convert-markdown-to-docx-in-java-step-by-step-guide/)
+Aprenda a convertir archivos markdown a documentos DOCX en Java usando Aspose.Words, con ejemplos claros y opciones de formato.
 
 ---
 

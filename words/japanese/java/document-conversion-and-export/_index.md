@@ -262,6 +262,9 @@ Aspose.Words for Java を使い、PDF/UA 準拠の PDF ファイルを作成す�
 ### [DOCX を Markdown に変換 – 完全 Java チュートリアル](./convert-docx-to-markdown-complete-java-tutorial/)
 ### [docx を txt として保存 – Word の数式を LaTeX にエクスポート](./save-docx-as-txt-export-word-equations-to-latex/)
 
+### [Word を Markdown に保存 – Aspose.Words 完全ガイド](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Word 文書を Markdown 形式に変換し、数式や画像を適切にエクスポートする手順を完全に解説します。
+
 ---
 
 **最終更新日:** 2025-12-10  

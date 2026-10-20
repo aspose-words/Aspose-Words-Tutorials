@@ -45,6 +45,8 @@ Hãy nhớ rằng, thực hành sẽ tạo nên sự hoàn hảo và với Aspos
 ## Hướng dẫn sử dụng Document Elements
 ### [Tạo tài liệu Word trống với nút lệnh – hướng dẫn từng bước](./create-blank-word-document-with-a-command-button-step-by-ste/)
 Hướng dẫn chi tiết cách tạo tài liệu Word trống và thêm nút lệnh để người dùng có thể tạo tài liệu mới.
+### [Cách thêm SDT trong C# – hướng dẫn đầy đủ cho các placeholder Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Hướng dẫn chi tiết cách chèn SDT (Structured Document Tag) trong C# để tạo các placeholder trong tài liệu Word.
 ### [Sử dụng chú thích trong Aspose.Words cho Java](./using-comments/)
 Tìm hiểu cách sử dụng chú thích trong Aspose.Words cho Java. Hướng dẫn từng bước để thêm và tùy chỉnh chú thích trong tài liệu của bạn.
 ### [Sử dụng Fields trong Aspose.Words cho Java](./using-fields/)
@@ -83,6 +85,10 @@ Học cách tạo biểu đồ tròn trong tài liệu Word bằng Aspose.Words 
 Hướng dẫn chi tiết cách chèn biểu đồ tròn vào tài liệu Word bằng Aspose.Words cho Java, bao gồm tạo dữ liệu và định dạng biểu đồ.
 ### [Cách chèn nút ActiveX trong Word – Đặt chú thích nút](./how-to-insert-activex-button-in-word-set-button-caption/)
 Học cách chèn nút ActiveX vào tài liệu Word và thiết lập chú thích cho nút bằng Aspose.Words cho Java.
+### [Cách lấy dấu phân cách trong tài liệu Word bằng Java](./how-to-get-separator-in-word-docs-with-java/)
+Hướng dẫn cách lấy dấu phân cách trong tài liệu Word bằng Java để xử lý nội dung tài liệu.
+### [Tạo biểu đồ tròn trong Word bằng Java – hướng dẫn từng bước](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo biểu đồ tròn trong tài liệu Word bằng Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

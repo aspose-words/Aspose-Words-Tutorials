@@ -84,6 +84,12 @@ Tanuld meg, hogyan hozhatsz létre pitédiagramot az Aspose.Words for Java segí
 Tanuld meg, hogyan szúrj be kördiagramot Word dokumentumba az Aspose.Words Java API-val, lépésről lépésre útmutatóval.
 ### [Üres Word dokumentum létrehozása parancsgombbal – lépésről‑lépésre útmutató](./create-blank-word-document-with-a-command-button-step-by-ste/)
 Tanuld meg, hogyan hozhatsz létre üres Word dokumentumot parancsgombbal.
+### [SDT hozzáadása C#-ban – teljes útmutató a Word helyőrzőkhöz](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Ismerd meg, hogyan lehet SDT (Struktúrált Dokumentum Típus) elemeket hozzáadni C#-ban a Word helyőrzők kezeléséhez.
+### [Elválasztó lekérése Word dokumentumokban Java-val](./how-to-get-separator-in-word-docs-with-java/)
+Tanuld meg, hogyan szerezheted meg az elválasztó karaktert a Word dokumentumokban Java segítségével.
+### [Kördiagram létrehozása Word-ben Java-val – lépésről lépésre útmutató](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Tanuld meg, hogyan hozhatsz létre kördiagramot Word dokumentumban Java segítségével, lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

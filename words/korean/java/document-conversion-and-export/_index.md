@@ -291,6 +291,9 @@ Aspose.Words for Java를 사용해 Word 문서를 Markdown으로 저장하면서
 ### [Word에서 Markdown 저장 방법 – 전체 Java 가이드](./how-to-save-markdown-from-word-complete-java-guide/)
 Aspose.Words for Java를 사용해 Word 문서를 Markdown 형식으로 저장하는 단계별 전체 가이드.
 
+### [Word를 Markdown으로 저장 – Aspose.Words를 사용한 완전 가이드](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Aspose.Words for Java를 사용해 Word 문서를 Markdown 형식으로 변환하는 전체 단계별 가이드.
+
 ## 자주 묻는 질문
 
 **Q: Aspose.Words를 사용해 기존 PDF에 워터마크를 어떻게 추가하나요?**  

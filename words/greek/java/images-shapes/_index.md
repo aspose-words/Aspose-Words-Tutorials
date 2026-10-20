@@ -81,6 +81,11 @@
 ### [Εισαγωγή σχήματος ορθογωνίου σε Word χρησιμοποιώντας C# – πλήρης οδηγός](./insert-rectangle-shape-in-word-using-c-complete-guide/)
 ### [Δημιουργία κενής εγγραφής Word με σκιά σε Java – Πλήρης οδηγός](./create-blank-word-with-shadow-in-java-full-guide/)
 Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word με εφέ σκιά χρησιμοποιώντας το Aspose.Words για Java.
+### [Ομαδοποίηση σχημάτων στο Word – πλήρης προγραμματιστικός οδηγός](./group-shapes-in-word-complete-programming-guide/)
+Μάθετε πώς να ομαδοποιείτε σχήματα σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
+
+### [Απόκρυψη εικόνας σε Word – βήμα‑βήμα οδηγός Java με Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Μάθετε πώς να κρύψετε εικόνα σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
 
 ## Πρόσθετοι Πόροι
 

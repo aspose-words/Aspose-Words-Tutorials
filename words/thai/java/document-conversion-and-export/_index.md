@@ -90,6 +90,8 @@ For more information, check out the [Aspose.Words for Java API Documentation](ht
 
 ### [บันทึก Word เป็น Markdown – ส่งออกตารางเป็น HTML ใน Java](./save-word-as-markdown-export-tables-to-html-in-java/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown และส่งออกตารางเป็น HTML ด้วย Aspose.Words for Java
+### [บันทึก Word เป็น Markdown – คู่มือเต็มด้วย Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างครบถ้วนด้วย Aspose.Words
 
 ### [Generating Custom Barcode Labels in Aspose.Words for Java](./generating-custom-barcode-labels/)
 Generate Custom Barcode Labels in Aspose.Words for Java. Learn how to create personalized barcode solutions using Aspose.Words for Java in this step‑by‑step guide.

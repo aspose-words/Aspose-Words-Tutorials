@@ -45,6 +45,8 @@ Leer hoe u DOCX-bestanden kunt ondertekenen met Aspose.Words voor C#. Volledige 
 Leer hoe u uw documenten kunt beveiligen en gevoelige gegevens kunt redigeren met Aspose.Words voor Java. Stapsgewijze handleiding met broncode.
 ### [Word-document ondertekenen in Java met Aspose.Words – Complete gids](./sign-word-document-in-java-with-aspose-words-complete-guide/)
 Leer hoe u Word-documenten digitaal ondertekent in Java met Aspose.Words, inclusief voorbeeldcode en stapsgewijze instructies.
+### [Hoe docx‑bestanden te ondertekenen met een PFX‑certificaat – stapsgewijze handleiding](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
+Leer hoe u docx‑bestanden ondertekent met een PFX‑certificaat met Aspose.Words voor Java, inclusief voorbeeldcode en stapsgewijze instructies.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

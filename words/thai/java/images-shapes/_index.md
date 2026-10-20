@@ -81,6 +81,11 @@
 ### [แทรกรูปสี่เหลี่ยมผืนผ้าใน Word ด้วย C# – คู่มือครบถ้วน](./insert-rectangle-shape-in-word-using-c-complete-guide/)
 ### [สร้างไฟล์ Word เปล่าพร้อมเงาใน Java – คู่มือเต็ม](./create-blank-word-with-shadow-in-java-full-guide/)
 เรียนรู้วิธีสร้างเอกสาร Word เปล่าพร้อมเงาใน Java ด้วย Aspose.Words อย่างละเอียด
+### [การจัดกลุ่มรูปร่างใน Word – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./group-shapes-in-word-complete-programming-guide/)
+เรียนรู้วิธีจัดกลุ่มและจัดการรูปร่างหลายรูปในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
+
+### [ซ่อนรูปภาพใน Word – คู่มือขั้นตอนโดยขั้นตอนสำหรับ Java ด้วย Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+เรียนรู้วิธีซ่อนรูปภาพในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
 
 ## แหล่งข้อมูลเพิ่มเติม
 

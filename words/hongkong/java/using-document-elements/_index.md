@@ -83,6 +83,12 @@
 了解如何使用 Aspose.Words for Java 在 Word 文件中插入並自訂餅圖，完整步驟與程式碼示例。
 ### [在 Aspose.Words for Java 中使用指令按鈕建立空白 Word 文件 – 步驟指南](./create-blank-word-document-with-a-command-button-step-by-ste/)
 了解如何在 Aspose.Words for Java 中使用指令按鈕建立空白的 Word 文件，提供完整步驟說明。
+### [在 Aspose.Words for Java 中使用 Java 建立餅圖 – 步驟指南](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+學習如何使用 Aspose.Words for Java 透過 Java 程式碼在 Word 文件中建立餅圖。
+### [在 Aspose.Words for Java 中取得分隔符](./how-to-get-separator-in-word-docs-with-java/)
+了解如何在 Word 文檔中使用 Java 獲取分隔符。
+### [在 C# 中新增 SDT – Word 佔位符完整指南](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+了解如何在 C# 中使用 SDT（結構化文檔標記）為 Word 文件添加佔位符。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

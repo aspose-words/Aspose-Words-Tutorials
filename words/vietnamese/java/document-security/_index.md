@@ -45,6 +45,8 @@ Tìm hiểu cách bảo mật tài liệu và biên tập dữ liệu nhạy c�
 Hướng dẫn chi tiết cách ký tài liệu Word bằng Aspose.Words cho Java, bao gồm mã nguồn mẫu và các bước thực hiện.
 ### [Cách ký tệp DOCX trong C# – Hướng dẫn chi tiết từng bước](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
 Hướng dẫn chi tiết cách ký tài liệu DOCX bằng C# với Aspose.Words, bao gồm các bước và mã nguồn mẫu.
+### [Cách ký file docx bằng chứng chỉ PFX – hướng dẫn từng bước](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
+Hướng dẫn chi tiết cách ký file docx bằng chứng chỉ PFX với Aspose.Words for Java, bao gồm các bước cấu hình và mã nguồn mẫu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -106,6 +106,8 @@ Ottimizza la gestione dei documenti con Aspose.Words per Java. Impara a gestire 
 Migliora i documenti con le estensioni web in Aspose.Words per Java. Impara a integrare perfettamente i contenuti web. 
 ### [Tagging di accessibilità PDF in Java – Genera PDF accessibili](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
 Impara a creare PDF accessibili aggiungendo tag di struttura con Aspose.Words per Java, garantendo conformità alle linee guida di accessibilità.
+### [Creare pulsante ActiveX in docx con Java – guida completa di programmazione](./create-docx-activex-button-in-java-complete-programming-guid/)
+Impara a inserire un pulsante ActiveX in un documento DOCX usando Aspose.Words per Java con esempi di codice passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

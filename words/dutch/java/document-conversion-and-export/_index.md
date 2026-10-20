@@ -341,6 +341,9 @@ Leer hoe je een DOCX‑bestand opslaat als TXT en Word‑vergelijkingen exportee
 ### [Word opslaan als PDF met Aspose.Words – volledige Java‑gids](./save-word-as-pdf-with-aspose-words-full-java-guide/)
 Leer hoe je met Aspose.Words for Java een Word‑document in één stap naar PDF converteert, inclusief opties voor kwaliteit en beveiliging.
 
+### [Word opslaan als Markdown – volledige gids met Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Leer hoe je Word-documenten converteert en opslaat als Markdown met Aspose.Words, inclusief wiskundige vergelijkingen en afbeeldingen.
+
 ## Veelgestelde Vragen
 
 **Q: Hoe voeg ik een watermark toe aan een bestaande PDF met Aspose.Words?**  

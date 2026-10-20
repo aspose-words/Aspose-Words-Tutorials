@@ -83,6 +83,12 @@ Aprenda a generar gráficos de pastel en documentos Word usando Aspose.Words par
 Aprenda a insertar un gráfico circular en Word usando Aspose.Words para Java. Guía paso a paso para crear diagramas profesionales.
 ### [Crear documento Word en blanco con un botón de comando – guía paso a paso](./create-blank-word-document-with-a-command-button-step-by-ste/)
 Aprenda a crear un documento Word vacío y agregar un botón de comando mediante Aspose.Words para Java paso a paso.
+### [Cómo obtener separador en documentos Word con Java](./how-to-get-separator-in-word-docs-with-java/)
+Aprenda a obtener separadores en documentos Word usando Aspose.Words para Java con este tutorial paso a paso.
+### [Cómo agregar SDT en C# – guía completa para marcadores de posición de Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Aprenda a insertar controles de contenido (SDT) en documentos Word usando C# con esta guía paso a paso.
+### [Crear gráfico de pastel en Word con Java – guía paso a paso](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Aprenda a crear un gráfico de pastel en documentos Word usando Aspose.Words para Java con esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

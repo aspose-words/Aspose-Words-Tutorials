@@ -83,6 +83,12 @@ Pelajari cara menambahkan kontrol Forms2OleControl ke file DOCX menggunakan Aspo
 Pelajari cara menyisipkan diagram pai di dokumen Word menggunakan Aspose.Words dengan panduan lengkap langkah demi langkah.
 ### [Membuat dokumen Word kosong dengan tombol perintah – panduan langkah demi langkah](./create-blank-word-document-with-a-command-button-step-by-ste/)
 Panduan langkah demi langkah untuk membuat dokumen Word kosong dengan tombol perintah menggunakan Aspose.Words untuk Java.
+### [Cara Mendapatkan Separator di Dokumen Word dengan Java](./how-to-get-separator-in-word-docs-with-java/)
+Pelajari cara mendapatkan separator di dokumen Word menggunakan Java.
+### [Cara menambahkan SDT di C# – panduan lengkap untuk placeholder Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Pelajari cara menambahkan SDT di C# untuk placeholder Word dengan panduan lengkap langkah demi langkah.
+### [Membuat diagram pai di Word dengan Java – panduan langkah demi langkah](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Pelajari cara membuat diagram pai di dokumen Word menggunakan Aspose.Words untuk Java dengan panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

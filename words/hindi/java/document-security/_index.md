@@ -46,6 +46,8 @@ Aspose.Words for Java का उपयोग करके Word दस्ता�
 
 ### [C# में DOCX फ़ाइलों पर हस्ताक्षर कैसे करें – पूर्ण चरण‑दर‑चरण गाइड](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
 C# के साथ Aspose.Words का उपयोग करके DOCX फ़ाइलों पर डिजिटल हस्ताक्षर लागू करने का विस्तृत मार्गदर्शन।
+### [PFX प्रमाणपत्र के साथ docx फ़ाइलों पर हस्ताक्षर कैसे करें – चरण-दर-चरण मार्गदर्शिका](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
+Aspose.Words for Java का उपयोग करके PFX प्रमाणपत्र से docx फ़ाइलों को सुरक्षित रूप से साइन करने की चरण-दर-चरण प्रक्रिया।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

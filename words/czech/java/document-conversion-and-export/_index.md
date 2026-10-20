@@ -345,6 +345,9 @@ Naučte se, jak pomocí Aspose.Words for Java převést DOCX soubory do formátu
 ### [Uložit Word jako PDF pomocí Aspose.Words – Kompletní průvodce pro Javu](./save-word-as-pdf-with-aspose-words-full-java-guide/)
 Naučte se, jak pomocí Aspose.Words for Java převést soubor Word do PDF s podrobným krok‑za‑krokem návodem.
 
+### [Uložit Word jako Markdown – kompletní průvodce s Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Naučte se, jak převést dokument Word do formátu Markdown pomocí Aspose.Words v Javě.
+
 ## Často kladené otázky
 
 **Q: Jak přidám vodoznak do existujícího PDF pomocí Aspose.Words?**  

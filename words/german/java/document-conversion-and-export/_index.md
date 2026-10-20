@@ -203,6 +203,9 @@ Erfahren Sie, wie Sie Bilder aus DOCX beim Konvertieren zu Markdown als Base64�
 ### [Word in Markdown konvertieren mit Java – Vollständiger Leitfaden](./convert-word-to-markdown-with-java-full-guide/)
 
 
+### [Word als Markdown speichern – komplette Anleitung mit Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Erfahren Sie, wie Sie Word-Dokumente vollständig als Markdown-Dateien speichern, inklusive Formatierung und Bildern, mit Aspose.Words.
+
 ### [Aspose Word zu PDF – DOCX in PDF konvertieren in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 
 ### [Word als PDF speichern mit Aspose.Words – Vollständiger Java‑Leitfaden](./save-word-as-pdf-with-aspose-words-complete-java-guide/)

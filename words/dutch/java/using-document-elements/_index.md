@@ -82,6 +82,12 @@ Leer hoe u met Aspose.Words voor Java een cirkeldiagram maakt en in uw document 
 Leer stap voor stap hoe u een cirkeldiagram in een Word-document invoegt met Aspose.Words voor Java.
 ### [Leeg Word-document maken met een opdrachtknop – stapsgewijze handleiding](./create-blank-word-document-with-a-command-button-step-by-ste/)
 Leer hoe u een leeg Word-document maakt en een opdrachtknop toevoegt met deze stapsgewijze tutorial.
+### [Hoe SDT toe te voegen in C# – volledige gids voor Word-plaatsaanduidingen](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Leer hoe u SDT-plaatsaanduidingen in C# toevoegt voor dynamische Word-documenten.
+### [Scheidingsteken krijgen in Word-documenten met Java](./how-to-get-separator-in-word-docs-with-java/)
+Leer hoe u scheidingstekens kunt ophalen in Word-documenten met Aspose.Words voor Java.
+### [Cirkeldiagram maken in Word met Java – stapsgewijze handleiding](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Leer hoe u een cirkeldiagram in een Word-document maakt met Java, stap voor stap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

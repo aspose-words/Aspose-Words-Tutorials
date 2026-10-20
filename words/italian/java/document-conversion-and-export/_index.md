@@ -335,6 +335,9 @@ Scopri come esportare documenti Word in formato Markdown usando Aspose.Words per
 ### [Salva Word come PDF con Aspose.Words – Guida completa Java](./save-word-as-pdf-with-aspose-words-full-java-guide/)
 Scopri come salvare documenti Word in PDF usando Aspose.Words per Java con esempi passo‑passo.
 
+### [Salva Word come Markdown – guida completa con Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Scopri come convertire documenti Word in Markdown mantenendo formattazione e immagini con Aspose.Words.
+
 ## Domande frequenti
 
 **Q: Come aggiungo una filigrana a un PDF esistente usando Aspose.Words?**  

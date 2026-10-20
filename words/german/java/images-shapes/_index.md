@@ -82,6 +82,11 @@ Ein praktisches Beispiel, das zeigt, wie Sie mit Aspose.Words für Java Bilder i
 Ein umfassendes Codebeispiel, das zeigt, wie man mit Aspose.Words für C# ein Rechteck in ein Word-Dokument einfügt.
 ### [Leeres Word-Dokument mit Schatten in Java erstellen – Vollständige Anleitung](./create-blank-word-with-shadow-in-java-full-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java ein leeres Word-Dokument erstellen und einen Schatteneffekt hinzufügen.
+### [Gruppieren von Formen in Word – vollständiger Programmierleitfaden](./group-shapes-in-word-complete-programming-guide/)
+Ein umfassendes Codebeispiel, das zeigt, wie Sie Formen in Word gruppieren und verwalten.
+
+### [Bild in Word ausblenden – Schritt‑für‑Schritt Java‑Leitfaden mit Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java Bilder in Word-Dokumenten ausblenden.
 
 ## Weitere Ressourcen
 

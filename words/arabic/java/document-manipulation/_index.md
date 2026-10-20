@@ -80,6 +80,8 @@ Aspose.Words for Java هي واجهة برمجة تطبيقات قوية ومت�
 تعرّف على كيفية تحسين تنسيق المستندات باستخدام Aspose.Words لجافا. استكشف الأنماط والسمات والمزيد في هذا الدليل الشامل مع أمثلة على أكواد المصدر.
 ### [إنشاء جدول المحتويات في Aspose.Words لـ Java](./generating-table-of-contents/)
 تعلّم كيفية إنشاء جدول المحتويات (TOC) وتخصيصه باستخدام Aspose.Words لجافا. أنشئ مستندات منظمة واحترافية بكل سهولة.
+### [إنشاء زر ActiveX في مستند docx باستخدام Java – دليل برمجة كامل](./create-docx-activex-button-in-java-complete-programming-guid/)
+دليل شامل لإنشاء زر ActiveX في ملفات docx باستخدام Aspose.Words لجافا مع أمثلة برمجية خطوة بخطوة.
 ### [حماية المستندات في Aspose.Words لـ Java](./protecting-documents/)
 تعرّف على كيفية تأمين مستندات جافا وورد باستخدام Aspose.Words لجافا. احمِ بياناتك بكلمة مرور، وغير ذلك الكثير.
 ### [تقسيم المستندات إلى صفحات في Aspose.Words لـ Java](./splitting-documents-into-pages/)

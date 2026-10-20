@@ -341,6 +341,9 @@ Dowiedz się, jak określić rozdzielczość obrazów podczas konwersji dokument
 ### [Jak zapisać Markdown z Word – Kompletny przewodnik Java](./how-to-save-markdown-from-word-complete-java-guide/)
 Dowiedz się, jak wyeksportować dokumenty Word do formatu Markdown przy użyciu Aspose.Words for Java, z przykładami kodu krok po kroku.
 
+### [Zapisz dokument Word jako Markdown – kompletny przewodnik przy użyciu Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Kompletny przewodnik, jak zapisać dokument Word w formacie Markdown przy użyciu Aspose.Words for Java.
+
 ## Najczęściej zadawane pytania
 
 **Q: Jak dodać znak wodny do istniejącego PDF przy użyciu Aspose.Words?**  

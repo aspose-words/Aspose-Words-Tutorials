@@ -45,6 +45,8 @@ Pelajari cara mengamankan dokumen dan menyunting data sensitif menggunakan Aspos
 Panduan lengkap untuk menandatangani dokumen Word menggunakan Aspose.Words di Java, termasuk contoh kode dan langkah-langkah praktis.
 ### [Cara Menandatangani File DOCX di C# – Panduan Lengkap Langkah-demi-Langkah](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
 Pelajari cara menandatangani file DOCX menggunakan C# dengan Aspose.Words, panduan lengkap langkah demi langkah dan contoh kode sumber.
+### [Cara menandatangani file docx dengan sertifikat PFX – panduan langkah demi langkah](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
+Pelajari cara menandatangani file docx menggunakan sertifikat PFX dengan panduan langkah demi langkah dan contoh kode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -83,6 +83,12 @@ Lär dig hur du ändrar knappstorlek i Word-dokument med Java i denna kompletta 
 Lär dig hur du lägger till Forms2OleControl i DOCX-filer med en komplett Aspose.Words-guide.
 ### [Skapa tomt Word-dokument med en kommandoknapp – steg‑för‑steg‑guide](./create-blank-word-document-with-a-command-button-step-by-ste/)
 Lär dig hur du skapar ett tomt Word-dokument och lägger till en kommandoknapp med denna steg‑för‑steg‑guide.
+### [Hur du får separator i Aspose.Words för Java](./how-to-get-separator-in-word-docs-with-java/)
+Lär dig hur du extraherar separatorer i Word-dokument med Aspose.Words för Java i denna steg-för-steg-handledning.
+### [Hur man lägger till SDT i C# – komplett guide för Word‑platshållare](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Lär dig hur du lägger till SDT i C# för att skapa dynamiska Word‑platshållare.
+### [Skapa pajdiagram i Word med Java – steg-för-steg-guide](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Lär dig skapa ett pajdiagram i Word med Java i denna steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -82,6 +82,11 @@ Lär dig hur du infogar bilder i Word-dokument med Aspose.Words för Java i en d
 Lär dig steg för steg hur du lägger till en rektangel i ett Word-dokument med C# och Aspose.Words.
 ### [Skapa tomt Word-dokument med skugga i Java – Fullständig guide](./create-blank-word-with-shadow-in-java-full-guide/)
 Lär dig hur du skapar ett tomt Word-dokument med skuggeffekt i Java med Aspose.Words.
+### [Gruppera former i Word – komplett programmeringsguide](./group-shapes-in-word-complete-programming-guide/)
+Lär dig hur du grupperar former i ett Word-dokument med Aspose.Words för Java.
+
+### [Dölj bild i Word – steg‑för‑steg Java‑guide med Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Lär dig hur du döljer bilder i ett Word-dokument med Aspose.Words för Java.
 
 ## Ytterligare resurser
 

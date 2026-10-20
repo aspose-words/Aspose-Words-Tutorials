@@ -127,6 +127,9 @@ weight: 14
 
 ### [บันทึก Word เป็น Markdown – คู่มือ Java ฉบับสมบูรณ์ (2026)](./save-word-as-markdown-complete-java-guide-2026/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown ด้วย Aspose.Words for Java พร้อมตัวอย่างโค้ดและคำแนะนำขั้นตอน
+### [แปลง markdown เป็น docx ใน Java – คู่มือขั้นตอนโดยละเอียด](./convert-markdown-to-docx-in-java-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ markdown เป็นเอกสาร docx ด้วย Aspose.Words for Java อย่างละเอียดและง่ายดาย
+
 
 ## คำถามที่พบบ่อย
 

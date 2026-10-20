@@ -82,6 +82,11 @@ Apprenez à insérer des images dans un document Word en Java avec Aspose.Words 
 Guide complet pour insérer une forme rectangle dans un document Word en C# avec Aspose.Words.
 ### [Créer un document Word vierge avec ombre en Java – Guide complet](./create-blank-word-with-shadow-in-java-full-guide/)
 Apprenez à créer un document Word vierge avec effet d'ombre en Java en suivant ce guide complet.
+### [Regrouper des formes dans Word – guide complet de programmation](./group-shapes-in-word-complete-programming-guide/)
+Guide complet pour regrouper des formes dans Word avec Aspose.Words pour Java.
+
+### [Masquer une image dans Word – guide Java étape par étape avec Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Apprenez à masquer une image dans un document Word en Java avec Aspose.Words.
 
 ## Ressources supplémentaires
 

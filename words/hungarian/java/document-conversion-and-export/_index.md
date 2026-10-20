@@ -324,6 +324,9 @@ Tanulja meg, hogyan állíthatja be a képfelbontást a Word dokumentumok Markdo
 ### [Hogyan mentse a Word dokumentumot Markdown‑ként – Teljes Java útmutató](./how-to-save-markdown-from-word-complete-java-guide/)
 Tanulja meg, hogyan menthet Word dokumentumokat Markdown formátumba Java‑val az Aspose.Words segítségével, lépésről‑lépésre útmutató.
 
+### [Word mentése Markdown formátumba – teljes útmutató az Aspose.Words használatával](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Tanulja meg, hogyan konvertálja a Word dokumentumokat Markdown formátumba az Aspose.Words segítségével, lépésről‑lépésre útmutatóval.
+
 ## Gyakran Ismételt Kérdések
 
 **K:** Hogyan adhatok hozzá vízjelet egy meglévő PDF-hez az Aspose.Words használatával?  

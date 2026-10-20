@@ -82,6 +82,11 @@ Aspose.Words for Java を使用して、Word 文書に画像を挿入する方�
 C# で Word 文書に長方形シェイプを追加し、カスタマイズする方法を学びます。
 ### [Javaで影付きの空白Word文書を作成 – 完全ガイド](./create-blank-word-with-shadow-in-java-full-guide/)
 Javaを使用して、影効果付きの空白のWord文書を作成する手順を詳細に解説します。
+### [Word で図形をグループ化する – 完全プログラミングガイド](./group-shapes-in-word-complete-programming-guide/)
+Word 文書内で複数の図形をグループ化し、操作や書式設定を一括で行う方法をステップバイステップで解説します。
+
+### [Wordで画像を非表示にする – AsposeによるステップバイステップのJavaガイド](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Aspose.Words for Java を使用して、Word 文書内の画像を非表示にする方法を段階的に解説します。
 
 ## 追加リソース
 

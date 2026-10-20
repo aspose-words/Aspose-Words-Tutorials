@@ -344,6 +344,9 @@ weight: 22
 ### [كيفية حفظ Markdown من Word – دليل Java كامل](./how-to-save-markdown-from-word-complete-java-guide/)
 دليل شامل يوضح كيفية حفظ مستند Word كملف Markdown باستخدام Aspose.Words for Java.
 
+### [حفظ Word كـ Markdown – دليل شامل باستخدام Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+تعلم كيفية حفظ مستندات Word بصيغة Markdown باستخدام Aspose.Words خطوة بخطوة.
+
 ## الأسئلة المتكررة
 
 **س: كيف يمكنني إضافة علامة مائية إلى ملف PDF موجود باستخدام Aspose.Words؟**  

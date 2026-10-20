@@ -45,6 +45,8 @@
 เรียนรู้วิธีลงลายเซ็นดิจิทัลในไฟล์ Word ด้วย Aspose.Words สำหรับ Java ด้วยขั้นตอนและตัวอย่างโค้ดที่ครบถ้วน
 ### [วิธีลงลายเซ็นไฟล์ DOCX ด้วย C# – คู่มือขั้นตอนเต็ม](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
 เรียนรู้วิธีลงลายเซ็นไฟล์ DOCX ด้วย C# อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน
+### [วิธีลงนามไฟล์ docx ด้วยใบรับรอง PFX – คู่มือขั้นตอนโดยละเอียด](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
+เรียนรู้วิธีลงนามไฟล์ docx ด้วยใบรับรอง PFX อย่างปลอดภัยโดยใช้ Aspose.Words สำหรับ Java พร้อมตัวอย่างโค้ด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

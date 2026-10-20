@@ -82,6 +82,11 @@ Naučte se, jak vložit obrázek do dokumentu Word pomocí Aspose.Words pro Javu
 Kompletní průvodce, jak vložit obdélníkový tvar do dokumentu Word pomocí C# a Aspose.Words.
 ### [Vytvořit prázdný Word s stínem v Javě – Kompletní průvodce](./create-blank-word-with-shadow-in-java-full-guide/)
 Naučte se, jak vytvořit prázdný dokument Word s stínovým efektem v Javě pomocí Aspose.Words.
+### [Skupinové tvary ve Wordu – kompletní programovací průvodce](./group-shapes-in-word-complete-programming-guide/)
+Kompletní návod, jak seskupovat tvary ve Word dokumentu pomocí Aspose.Words pro Javu.
+
+### [Skrýt obrázek ve Wordu – podrobný průvodce v Javě s Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Naučte se, jak pomocí Aspose.Words pro Javu skrýt obrázek v dokumentu Word.
 
 ## Další zdroje
 

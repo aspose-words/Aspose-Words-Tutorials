@@ -148,6 +148,9 @@ Aspose.Words for Java का उपयोग करके Word दस्ता�
 ### [Word को Markdown के रूप में सहेजें – Aspose.Words के साथ पूर्ण जावा गाइड](./how-to-save-markdown-from-word-complete-java-guide/)
 Aspose.Words for Java का उपयोग करके Word से Markdown फ़ाइल को सहेजने की पूरी प्रक्रिया सीखें। कोड उदाहरण सहित।
 
+### [Word को Markdown के रूप में सहेजें – Aspose.Words के साथ पूर्ण गाइड](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Word दस्तावेज़ को Markdown में बदलने की पूरी प्रक्रिया, कोड उदाहरण और निर्यात विकल्पों के साथ।
+
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### [Aspose.Words for Java में DOCX से LaTeX निर्यात कैसे करें – पूर्ण जावा गाइड](./how-to-export-latex-from-docx-complete-java-guide/)

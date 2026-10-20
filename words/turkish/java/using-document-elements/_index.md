@@ -65,6 +65,8 @@ Bu adım adım eğitimle Aspose.Words for Java'da listeleri kullanmayı öğreni
 Bu adım adım eğitimle Java için Aspose.Words'de Markdown kullanmayı öğrenin. Markdown belgelerini zahmetsizce oluşturun, biçimlendirin ve kaydedin.
 ### [Java için Aspose.Words'de Düğümleri Kullanma](./using-nodes/)
 Bu adım adım eğitimle Aspose.Words for Java'da düğümleri yönetmeyi öğrenin. Belge işleme gücünü açığa çıkarın.
+### [Java için Aspose.Words'de Pasta Grafik Oluşturma – adım adım rehber](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Java ve Aspose.Words kullanarak Word belgelerinde pasta grafik oluşturmayı adım adım öğrenin.
 ### [Aspose.Words for Java'da OLE Nesneleri ve ActiveX Denetimlerini Kullanma](./using-ole-objects-and-activex/)
 Aspose.Words for Java'da OLE nesnelerini ve ActiveX denetimlerini kullanmayı öğrenin. Kolayca etkileşimli belgeler oluşturun. Hemen başlayın!
 ### [Word'de ActiveX Düğmesi Ekleme – Düğme Başlığını Ayarlama](./how-to-insert-activex-button-in-word-set-button-caption/)
@@ -83,6 +85,10 @@ Java için Aspose.Words'de Forms2OleControl ile DOCX dosyalarına form nesneleri
 Aspose.Words kullanarak Word belgelerine dinamik pasta grafiği eklemeyi adım adım öğrenin.
 ### [Java için Aspose.Words'de Komut Düğmesiyle Boş Word Belgesi Oluşturma – Adım Adım Kılavuz](./create-blank-word-document-with-a-command-button-step-by-ste/)
 Komut düğmesi ekleyerek boş bir Word belgesi oluşturmayı adım adım öğrenin.
+### [C#'da SDT ekleme – Word yer tutucuları için tam rehber](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+C# ile Word belgelerinde yer tutucu (SDT) eklemeyi adım adım öğrenin.
+### [Java için Aspose.Words'de Ayırıcıyı Alma](./how-to-get-separator-in-word-docs-with-java/)
+Java ile Aspose.Words kullanarak Word belgelerindeki ayırıcıları nasıl alacağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

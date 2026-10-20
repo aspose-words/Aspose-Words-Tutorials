@@ -43,6 +43,8 @@ Podsumowując, opanowanie manipulacji elementami dokumentu za pomocą Aspose.Wor
 Pamiętaj, że praktyka czyni mistrza, a dzięki Aspose.Words for Java będziesz tworzyć, modyfikować i ulepszać dokumenty jak profesjonalista w mgnieniu oka. Miłego kodowania!
 
 ## Korzystanie z samouczków dotyczących elementów dokumentu
+### [Tworzenie wykresu kołowego w Wordzie przy użyciu Java – przewodnik krok po kroku](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Dowiedz się, jak w Aspose.Words for Java wygenerować wykres kołowy w dokumencie Word, krok po kroku.
 ### [Korzystanie z komentarzy w Aspose.Words dla Java](./using-comments/)
 Dowiedz się, jak używać komentarzy w Aspose.Words dla Java. Samouczek krok po kroku dotyczący dodawania i dostosowywania komentarzy w dokumentach.
 ### [Korzystanie z pól w Aspose.Words dla Java](./using-fields/)
@@ -83,6 +85,11 @@ Dowiedz się, jak dodać kontrolkę Forms2OleControl do dokumentu DOCX przy uży
 Dowiedz się, jak wstawić wykres kołowy do dokumentu Word przy użyciu Aspose.Words. Kompletny przewodnik krok po kroku.
 ### [Utwórz pusty dokument Word z przyciskiem polecenia – przewodnik krok po kroku](./create-blank-word-document-with-a-command-button-step-by-ste/)
 Dowiedz się, jak stworzyć pusty dokument Word i dodać przycisk polecenia w kilku prostych krokach.
+### [Jak dodać SDT w C# – kompletny przewodnik po polach zastępczych Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Poznaj, jak wstawiać i konfigurować SDT w C# przy użyciu Aspose.Words, aby tworzyć dynamiczne pola zastępcze w dokumentach Word.
+
+### [Jak uzyskać separator w dokumentach Word przy użyciu Java](./how-to-get-separator-in-word-docs-with-java/)
+Dowiedz się, jak wstawiać i konfigurować separator w dokumentach Word przy pomocy Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

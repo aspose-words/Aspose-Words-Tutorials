@@ -82,6 +82,11 @@ Hướng dẫn chi tiết cách chèn hình ảnh vào tài liệu Word bằng A
 Hướng dẫn chi tiết cách chèn hình chữ nhật vào tài liệu Word bằng C# sử dụng Aspose.Words.
 ### [Tạo tài liệu Word trống với bóng trong Java – Hướng dẫn đầy đủ](./create-blank-word-with-shadow-in-java-full-guide/)
 Hướng dẫn chi tiết cách tạo tài liệu Word trống có hiệu ứng bóng bằng Aspose.Words cho Java.
+### [Nhóm các hình dạng trong Word – hướng dẫn lập trình đầy đủ](./group-shapes-in-word-complete-programming-guide/)
+Hướng dẫn chi tiết cách nhóm các hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
+
+### [Ẩn hình ảnh trong Word – hướng dẫn từng bước Java với Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Hướng dẫn chi tiết cách ẩn hình ảnh trong tài liệu Word bằng Aspose.Words cho Java.
 
 ## Tài nguyên bổ sung
 

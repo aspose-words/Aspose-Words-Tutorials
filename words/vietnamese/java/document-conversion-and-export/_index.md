@@ -336,6 +336,9 @@ Hướng dẫn chi tiết cách tạo tài liệu PDF/UA‑1 tuân thủ tiêu c
 ### [Java docx sang PDF – Tạo PDF Truy cập được với Aspose.Words](./java-docx-to-pdf-generate-accessible-pdf-with-aspose-words/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF có khả năng truy cập, đáp ứng tiêu chuẩn WCAG, sử dụng Aspose.Words for Java.
 
+### [Lưu Word dưới dạng Markdown – hướng dẫn toàn diện sử dụng Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Hướng dẫn chi tiết cách lưu tài liệu Word thành Markdown bằng Aspose.Words, bao gồm ví dụ mã nguồn và tùy chỉnh xuất.
+
 ## Câu hỏi thường gặp
 
 **Q: Làm thế nào để thêm watermark vào PDF hiện có bằng Aspose.Words?**  

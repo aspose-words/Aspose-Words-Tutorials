@@ -340,6 +340,8 @@ Aprenda a convertir archivos DOCX a PDF usando Aspose.Words for Java con un tuto
 Aprenda a exportar documentos Word a Markdown usando Aspose.Words for Java en una guía paso a paso.
 ### [Guardar Word como Markdown – Exportar tablas a HTML en Java](./save-word-as-markdown-export-tables-to-html-in-java/)
 Aprende a guardar documentos Word como Markdown y exportar tablas a HTML usando Aspose.Words for Java.
+### [Guardar Word como Markdown – guía completa usando Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Guía paso a paso para guardar documentos Word en formato Markdown con Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

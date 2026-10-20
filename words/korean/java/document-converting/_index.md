@@ -124,6 +124,9 @@ Java와 Aspose.Words를 사용해 접근성 표준을 만족하는 PDF로 DOCX �
 
 ### [Word를 Markdown으로 저장 – 완전한 Java 가이드 (2026)](./save-word-as-markdown-complete-java-guide-2026/)
 Aspose.Words for Java를 사용해 Word 문서를 Markdown 형식으로 변환하는 전체 단계별 가이드입니다.
+### [Java에서 마크다운을 DOCX로 변환 – 단계별 가이드](./convert-markdown-to-docx-in-java-step-by-step-guide/)
+Java를 사용해 마크다운 파일을 DOCX 문서로 변환하는 방법을 단계별로 안내합니다.
+
 
 ## 자주 묻는 질문
 
