@@ -71,6 +71,7 @@
 | [Как проверить грамматику в C# с помощью Aspose.Words – пошаговое руководство](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) | Узнайте, как использовать Aspose.Words для .NET, чтобы автоматически проверять и исправлять грамматику в приложениях C#. |
 | [Резюмирование документа Word с локальной LLM – пошаговое руководство C#](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | Узнайте, как использовать локальную LLM для резюмирования Word‑документов в C# с пошаговыми инструкциями. |
 | [Проверка грамматики Word с Aspose.Words AI – Полное руководство](./check-word-grammar-with-aspose-words-ai-complete-guide/) | Узнайте, как использовать AI Aspose.Words для проверки грамматики в документах Word с пошаговыми инструкциями. |
+| [Резюмирование текста с ИИ на C# – Полное руководство по программированию](./summarize-text-with-ai-in-c-complete-programming-guide/) | Полное руководство по использованию Aspose.Words и ИИ для создания резюме текста в C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

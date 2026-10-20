@@ -70,6 +70,7 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Jak sprawdzić gramatykę w C# przy użyciu Aspose.Words – przewodnik krok po kroku](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) | Dowiedz się, jak używać Aspose.Words w C# do automatycznej korekty gramatycznej dokumentów Word w kilku prostych krokach. |
 | [Podsumowanie dokumentu Word przy użyciu lokalnego LLM – Przewodnik krok po kroku w C#](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | Dowiedz się, jak używać lokalnego modelu językowego do podsumowywania dokumentów Word w C# z Aspose.Words. |
 | [Sprawdź gramatykę Word przy użyciu Aspose.Words AI – Kompletny przewodnik](./check-word-grammar-with-aspose-words-ai-complete-guide/) | Dowiedz się, jak wykorzystać AI Aspose.Words do sprawdzania i poprawiania gramatyki dokumentów Word w C#. |
+| [Podsumuj tekst przy użyciu AI w C# – Kompletny przewodnik programistyczny](./summarize-text-with-ai-in-c-complete-programming-guide/) | Pełny przewodnik, jak w C# wykorzystać AI do automatycznego podsumowywania tekstu przy użyciu Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

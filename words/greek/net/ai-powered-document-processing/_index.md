@@ -70,6 +70,7 @@
 | [Πώς να ελέγξετε τη γραμματική σε C# με το Aspose.Words – Οδηγός βήμα‑βήμα](./how-to-check-grammar-in-c-with-aspose-words-step-by-step-gui/) | Μάθετε πώς να ενσωματώσετε τον έλεγχο γραμματικής στο C# χρησιμοποιώντας το Aspose.Words σε απλούς βήματα. |
 | [Σύνοψη εγγράφου Word με τοπικό LLM – Οδηγός βήμα‑βήμα C#](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | Μάθετε πώς να χρησιμοποιήσετε τοπικό LLM για να συνοψίσετε έγγραφα Word με C# και Aspose.Words. |
 | [Έλεγχος Γραμματικής Word με Aspose.Words AI – Πλήρης Οδηγός](./check-word-grammar-with-aspose-words-ai-complete-guide/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words AI για να ελέγχετε τη γραμματική εγγράφων Word με C#. |
+| [Σύνοψη κειμένου με AI σε C# – Πλήρης οδηγός προγραμματισμού](./summarize-text-with-ai-in-c-complete-programming-guide/) | Μάθετε πώς να δημιουργείτε αυτόματες περιλήψεις κειμένου σε C# χρησιμοποιώντας AI με το Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
