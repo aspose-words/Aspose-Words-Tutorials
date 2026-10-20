@@ -52,12 +52,12 @@ weight: 1
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 **Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 #### Απόκτηση Άδειας
 Aspose.Words είναι εμπορικό προϊόν. Μπορείτε να ξεκινήσετε με δωρεάν δοκιμαστική έκδοση 30 ημερών ή να ζητήσετε προσωρινή άδεια για αξιολόγηση. Επισκεφθείτε τη [σελίδα αγοράς](https://purchase.aspose.com/buy) για λεπτομέρειες.
@@ -72,20 +72,20 @@ Aspose.Words είναι εμπορικό προϊόν. Μπορείτε να ξ�
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
-```
+```  
 
 **Step 2:** Δημιουργία και προσθήκη σχολίου  
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **Step 3:** Προσθήκη απάντησης στο σχόλιο  
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
-```
+```  
 
 ### Χαρακτηριστικό 2: Εκτύπωση όλων των σχολίων
 **Overview** – Ανακτά κάθε σχόλιο πρώτου επιπέδου και τις απαντήσεις του για ανασκόπηση.
@@ -94,7 +94,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
 **Step 1:** Φόρτωση του εγγράφου  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
-```
+```  
 
 **Step 2:** Ανάκτηση και εκτύπωση σχολίων  
 ```java
@@ -108,7 +108,7 @@ for (Comment comment : (Iterable<Comment>) comments) {
         }
     }
 }
-```
+```  
 
 ### Χαρακτηριστικό 3: Πώς να διαγράψετε απαντήσεις σχολίων σε Java
 **Overview** – Δείχνει **how to delete comment replies** για να διατηρήσετε το έγγραφο καθαρό.
@@ -122,7 +122,7 @@ comment.setText("My comment.");
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
-```
+```  
 
 **Step 2:** Αφαίρεση απαντήσεων  
 ```java
@@ -141,7 +141,7 @@ DocumentBuilder documentBuilder = new DocumentBuilder(document);
 documentBuilder.writeln("Hello world!");
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
-```
+```  
 
 **Step 2:** Σήμανση του σχολίου ως ολοκληρωμένο  
 ```java
@@ -149,7 +149,7 @@ document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
 comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
-```
+```  
 
 ### Χαρακτηριστικό 5: Λήψη ημερομηίας και ώρας UTC από το σχόλιο
 **Overview** – Ανακτά το ακριβές χρονικό σήμα UTC που προστέθηκε το σχόλιο, ιδανικό για αρχεία ελέγχου.
@@ -163,7 +163,7 @@ Date dateTime = new Date();
 Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **Step 2:** Αποθήκευση και ανάκτηση της ημερομηνίας UTC  
 ```java
@@ -171,7 +171,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
-```
+```  
 
 ## Πρακτικές Εφαρμογές
 - **Συνεργατική Επεξεργασία:** Οι ομάδες μπορούν να προσθέτουν και να απαντούν σε σχόλια απευθείας σε παραγόμενες αναφορές.  

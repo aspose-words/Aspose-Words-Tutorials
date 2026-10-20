@@ -24,13 +24,9 @@ title: Utwórz prostokątny kształt w Wordzie za pomocą Javy – pełny przewo
 url: /pl/java/images-shapes/create-rectangle-shape-in-word-with-java-full-guide/
 ---
 
-.
 
-Let's produce translation.
 
-Will keep shortcodes at start and end.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

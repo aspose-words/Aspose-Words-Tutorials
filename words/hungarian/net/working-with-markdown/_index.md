@@ -41,7 +41,8 @@ Words Processing with Markdown átfogó forrást biztosít a Markdown formátumm
 | [Dokumentum mentése docx formátumban Markdownból C#-al](./how-to-save-document-as-docx-from-markdown-using-c/) |  |
 | [Hangsúlyok](./emphases/) | Tanuld meg, hogyan hozhatsz létre kiemelt szöveget a Markdownban az Aspose.Words for .NET segítségével. Ez az útmutató a félkövér, dőlt és kombinált stílusokat ismerteti lépésről lépésre. |
 | [Figyelmeztetés forrásának használata](./use-warning-source/) | Sajátítsd el az Aspose.Words .NET-et ezzel a lépésről lépésre szóló útmutatóval a WarningSource osztály használatáról a Markdown figyelmeztetések kezeléséhez. Tökéletes C# fejlesztők számára. |
-
+| [Markdown fájl betöltése dokumentumba – Teljes elemzési oktatóanyag](./load-markdown-file-into-a-document-complete-parsing-tutorial/) | Tanulja meg, hogyan tölthet be és dolgozhat fel Markdown fájlokat dokumentummá az Aspose.Words for .NET segítségével lépésről lépésre. |
+| [Word létrehozása Markdownból az Aspose.Words segítségével – Teljes útmutató](./create-word-from-markdown-with-aspose-words-full-guide/) | Tanulja meg, hogyan hozhat létre Word dokumentumot Markdownból az Aspose.Words segítségével lépésről lépésre útmutatóval. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

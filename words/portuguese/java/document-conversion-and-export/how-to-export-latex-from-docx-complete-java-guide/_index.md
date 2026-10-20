@@ -22,17 +22,11 @@ title: Como Exportar LaTeX de DOCX – Guia Completo de Java
 url: /pt/java/document-conversion-and-export/how-to-export-latex-from-docx-complete-java-guide/
 ---
 
-text but keep title? The instruction says translate all text content. Title is text, so translate. Keep image URL unchanged.
 
-Also there are blockquotes with English text; translate.
 
-Also table content: "Symptom", "Likely Cause", "Fix" etc. Translate those headings and entries? Yes, all text.
 
-But need to keep code block placeholders unchanged.
 
-Let's translate.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

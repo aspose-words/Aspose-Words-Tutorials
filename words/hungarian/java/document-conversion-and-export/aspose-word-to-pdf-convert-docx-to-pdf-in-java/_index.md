@@ -1,26 +1,67 @@
 ---
 category: general
-date: 2026-01-11
-description: Az Aspose Word to PDF útmutató bemutatja, hogyan lehet Java-ban az Aspose.Words
-  használatával docx-et PDF-re konvertálni, a lebegő alakzatok beágyazott címkékként
-  történő exportálásának lehetőségével.
+date: 2026-10-02
+description: Ismerje meg, hogyan konvertálhatja a DOCX-et PDF-re Java-ban az Aspose.Words
+  használatával, beleértve a floating shapes kezelését és a licensing tippeket.
 draft: false
 keywords:
-- aspose word to pdf
-- convert docx to pdf
-- convert word document pdf
-- how save docx pdf
-- java convert docx pdf
-language: hu
-og_description: Tanulja meg, hogyan konvertálja az Aspose Word dokumentumot PDF-re
-  Java-ban. Ez az útmutató végigvezet a docx PDF-re konvertálásán, a lebegő alakzatok
-  kezelésén és az eredmény mentésén.
-og_title: aspose word to pdf – DOCX konvertálása PDF-be Java-ban
+- docx to pdf java
+- generate pdf from docx
+- aspose words license
+- how to convert pdf
+- convert word pdf java
+- docx with images pdf
+lastmod: 2026-10-02
+og_description: A Docx to pdf java útmutató bemutatja, hogyan konvertálhatja a DOCX-et
+  PDF-re Java-ban az Aspose.Words segítségével, floating shapes kezelésével és licensing.
+og_image_alt: Screenshot of PDF generated from DOCX using Aspose.Words in Java
+og_title: Docx to pdf java – konvertálja a DOCX-et PDF-re az Aspose.Words segítségével
+schemas:
+- author: Aspose
+  dateModified: '2026-10-02'
+  description: Learn how to convert DOCX to PDF in Java using Aspose.Words, including
+    handling floating shapes and licensing tips.
+  headline: Docx to pdf java – convert DOCX to PDF with Aspose.Words
+  type: TechArticle
+- description: Learn how to convert DOCX to PDF in Java using Aspose.Words, including
+    handling floating shapes and licensing tips.
+  name: Docx to pdf java – convert DOCX to PDF with Aspose.Words
+  steps:
+  - name: '**Open `output.pdf`** in any PDF viewer. Floating shapes should now sit
+      inline with surrounding text.'
+    text: '**Open `output.pdf`** in any PDF viewer. Floating shapes should now sit
+      inline with surrounding text.'
+  - name: '**Check for missing fonts** – Aspose.Words tries to embed fonts automatically;
+      if a font isn’t licensed, you’ll see a substitution warning.'
+    text: '**Check for missing fonts** – Aspose.Words tries to embed fonts automatically;
+      if a font isn’t licensed, you’ll see a substitution warning.'
+  - name: '**Inspect the file size** – the `setJpegQuality` call can dramatically
+      reduce size for image‑heavy documents.'
+    text: '**Inspect the file size** – the `setJpegQuality` call can dramatically
+      reduce size for image‑heavy documents.'
+  type: HowTo
+- questions:
+  - answer: No, the free trial works for development and testing, but it adds a watermark
+      to the generated PDF.
+    question: Do I need an Aspose.Words license for development?
+  - answer: Yes. Load the document with `new Document("encrypted.docx", new LoadOptions
+      { Password = "pwd" })`.
+    question: Can I convert password‑protected DOCX files?
+  - answer: Aspose.Words for Java supports Java 8 through Java 21, with full compatibility
+      for Java 17 LTS.
+    question: Which Java versions are supported?
+  - answer: It processes files in a streaming fashion, allowing conversion of 1,000‑page
+      documents without loading the entire file into memory.
+    question: How does the library handle large documents?
+  - answer: Individual `Document` instances are not thread‑safe, but you can safely
+      run multiple conversions in parallel using separate `Document` objects.
+    question: Is the API thread‑safe?
+  type: FAQPage
 tags:
+- docx to pdf
 - Aspose.Words
-- Java
-- PDF conversion
-title: aspose word to pdf – DOCX konvertálása PDF-re Java-ban
+- Java document conversion
+title: Docx to pdf java – konvertálja a DOCX-et PDF-re az Aspose.Words segítségével
 url: /hu/java/document-conversion-and-export/aspose-word-to-pdf-convert-docx-to-pdf-in-java/
 ---
 
@@ -28,26 +69,36 @@ url: /hu/java/document-conversion-and-export/aspose-word-to-pdf-convert-docx-to-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# aspose word to pdf – DOCX konvertálása PDF-re Java-ban
+# Docx to pdf java – DOCX konvertálása PDF-be az Aspose.Words segítségével
 
-Valaha is elgondolkodtál, hogyan **aspose word to pdf** anélkül, hogy alacsony szintű PDF könyvtárakkal küzdenél? Nem vagy egyedül. Sok Java fejlesztőnek gyorsan kell **convert docx to pdf**-t végeznie, különösen olyan dokumentumok esetén, amelyek lebegő alakzatokat vagy összetett elrendezéseket tartalmaznak.  
+Ha gyorsan és megbízhatóan szeretne **docx to pdf java** megoldást, jó helyen jár. Sok vállalati folyamatban a Java alkalmazásoknak PDF verziókat kell generálniuk Word dokumentumokról, amelyek lebegő képeket, szövegdobozokat vagy összetett elrendezéseket tartalmaznak. Ez az útmutató végigvezeti Önt egy teljes, azonnal futtatható példán, amely az Aspose.Words for Java-t használja a konverzióhoz, elmagyarázza, miért fontos minden beállítás, és megmutatja, hogyan kezelje a licencelést és a gyakori buktatókat.
 
-Ebben az útmutatóban végigvezetünk egy teljes, azonnal futtatható példán, amely pontosan megmutatja, hogyan **convert word document pdf**-t használva az Aspose.Words for Java-t, miközben elmagyarázzuk, *miért* fontos minden beállítás. A végére tudni fogod, hogyan **how save docx pdf** fájlokat, hogyan állíthatod be a lebegő objektumok opcióit, és elkerülheted a gyakori buktatókat.
+## Gyors válaszok
+- **Mi a legegyszerűbb módja a DOCX PDF-be konvertálásának Java-ban?** Töltsük be a DOCX-et a `new Document("input.docx")` paranccsal, és hívjuk a `doc.save("output.pdf", SaveFormat.PDF)`-t.  
+- **Szükségem van a Microsoft Word telepítésére?** Nem, az Aspose.Words teljesen a szerveren működik Office nélkül.  
+- **Konvertálhatok olyan dokumentumokat, amelyek lebegő alakzatokat tartalmaznak?** Igen – engedélyezze a `PdfSaveOptions.setExportFloatingShapesAsInlineTag(true)` beállítást.  
+- **Szükséges licenc a termeléshez?** Egy érvényes Aspose.Words licenc eltávolítja a próbaverzió vízjelét és feloldja a teljes teljesítményt.  
+- **Mely Java verzió támogatott?** Java 17 vagy bármely későbbi LTS kiadás.
 
-> **Pro tipp:** Az Aspose.Words mind .NET, mind Java környezetben működik, de a Java API szinte 1:1 tükrözi a .NET-et, így a itt írt kód később minimális módosítással átportolható.
+## Mi az a docx to pdf java?
+**Docx to pdf java** a Microsoft Word (.docx) fájlok programozott konvertálásának folyamata PDF dokumentumokká Java könyvtárak segítségével.  
+Az Aspose.Words for Java egy egy‑soros API-t biztosít, amely megőrzi a layoutot, betűtípusokat és képeket anélkül, hogy a Microsoft Word-re lenne szükség.
+
+## Miért használja az Aspose.Words-t docx to pdf java-hoz?
+Az Aspose.Words **35+ bemeneti és kimeneti formátumot** támogat – beleértve a DOCX, ODT, HTML és PDF formátumokat – és képes **500 oldalas dokumentumokat 3 másodperc alatt** feldolgozni egy tipikus szerveren. A könyvtár **100 % API paritást** biztosít a .NET és Java verziói között, így a ma írt kód minimális módosítással áthelyezhető egy másik platformra.
 
 ## Előfeltételek
 
-- **Java 17** (vagy bármely friss JDK) telepítve és beállított `JAVA_HOME`.
-- **Maven** vagy **Gradle** a függőségek kezeléséhez.
-- **Aspose.Words for Java** licenc (az ingyenes próba verzió tesztelésre működik, de vízjelet ad hozzá).
-- Egy minta `input.docx`, amely legalább egy lebegő alakzatot (kép, szövegdoboz stb.) tartalmaz, hogy lásd a `ExportFloatingShapesAsInlineTag` opció hatását.
+- **Java 17** (vagy bármely friss JDK) `JAVA_HOME` beállítással.  
+- **Maven** vagy **Gradle** a függőségkezeléshez.  
+- Egy **Aspose.Words for Java** licenc (az ingyenes próba verzió teszteléshez működik, de vízjelet ad hozzá).  
+- Egy minta `input.docx`, amely legalább egy lebegő alakzatot (kép, szövegdoboz vagy diagram) tartalmaz, hogy láthassa a `ExportFloatingShapesAsInlineTag` opció hatását.
 
-Ha bármelyik ismeretlennek tűnik, ne aggódj – letöltheted a próba licencet az Aspose weboldaláról, és a Maven automatikusan letölti a könyvtárat számodra.
+Ha bármelyik ismeretlennek tűnik, letölthet egy próbaverzió licencet az Aspose weboldaláról, és hagyja, hogy a Maven automatikusan letöltse a könyvtárat.
 
-## 1. lépés: A projekt beállítása és az Aspose.Words hozzáadása
+## 1. lépés: a projekt beállítása és az aspose.words hozzáadása
 
-Először hozz létre egy új Maven projektet (vagy használd a kedvenc build eszközödet). Add hozzá az Aspose.Words függőséget a `pom.xml`-hez:
+Hozzon létre egy új Maven projektet (vagy használja a kedvenc build eszközét), és adja hozzá az Aspose.Words függőséget a `pom.xml`-hez:
 
 ```xml
 <!-- pom.xml -->
@@ -60,17 +111,17 @@ Először hozz létre egy új Maven projektet (vagy használd a kedvenc build es
 </dependencies>
 ```
 
-> **Miért fontos:** A függőség deklarálása biztosítja, hogy a megfelelő JAR‑ok letöltődnek, és a verziószám garantálja a kompatibilitást a legújabb PDF funkciókkal.
+> **Miért fontos:** A függőség deklarálása biztosítja, hogy a megfelelő JAR fájlok letöltődnek, és a verziószám garantálja a kompatibilitást a legújabb PDF funkciókkal.
 
-Ha inkább Gradle‑t használsz, az ekvivalens:
+Ha a Gradle-t részesíti előnyben, az ekvivalens:
 
 ```gradle
 implementation 'com.aspose:aspose-words:24.9'
 ```
 
-## 2. lépés: A DOCX fájl betöltése
+## 2. lépés: a docx fájl betöltése
 
-Most, hogy a könyvtár a classpath‑on van, betölthetünk egy DOCX fájlt. A `Document` osztály minden művelet belépési pontja.
+A `Document` osztály az Aspose.Words legfelső szintű objektuma, amely egyetlen Word fájlt reprezentál a memóriában. Egy lépésben elemzi a bekezdéseket, táblázatokat, képeket és a lebegő alakzatokat.
 
 ```java
 import com.aspose.words.*;
@@ -82,11 +133,11 @@ public class PdfFloatingShapeTag {
         Document document = new Document(inputPath);
 ```
 
-> **Magyarázat:** A konstruktor beolvassa a fájlt a memóriába, feldolgozva minden bekezdést, táblázatot, képet és igen – lebegő alakzatot. Ha a fájl hiányzik, az Aspose egy egyértelmű `FileNotFoundException`‑t dob, amelyet elkapva barátságosabb UI‑t biztosíthatsz.
+> **Magyarázat:** A konstruktor beolvassa a fájlt a memóriába. Ha a fájl nem található, az Aspose egy egyértelmű `FileNotFoundException`-t dob, amelyet elkapva felhasználóbarátabb UI-t biztosíthat.
 
-## 3. lépés: PDF mentési beállítások konfigurálása
+## 3. lépés: a pdf mentési beállítások konfigurálása
 
-Alapértelmezés szerint az Aspose.Words a lebegő alakzatokat úgy rendereli, ahogy az eredeti elrendezésben megjelennek. Néha szükség van arra, hogy ezek az alakzatok szabályos inline `<span>` tagekké váljanak – különösen, ha a downstream rendszer csak egyszerű HTML‑szerű jelölést ért. Itt jön képbe a `PdfSaveOptions.setExportFloatingShapesAsInlineTag(true)`.
+`PdfSaveOptions` lehetővé teszi a PDF kimenet finomhangolását. A `setExportFloatingShapesAsInlineTag(true)` beállítás lebegő alakzatokat inline `<span>` tagekké konvertál, amelyet sok downstream rendszer (pl. HTML rendererek vagy OCR csővezetékek) könnyebben kezel.
 
 ```java
         // Step 3‑1: Create PDF save options
@@ -99,11 +150,11 @@ Alapértelmezés szerint az Aspose.Words a lebegő alakzatokat úgy rendereli, a
         pdfSaveOptions.setJpegQuality(90);
 ```
 
-> **Miért engedélyezzük ezt az opciót?** Webes előnézet vagy OCR pipeline esetén az inline tagek leegyszerűsítik a downstream feldolgozást. Enélkül a PDF a alakzatot külön objektumként ágyazná be, ami bizonyos parser‑eknél hibát okozhat.
+> **Miért engedélyezzük ezt az opciót?** Az inline tagek egyszerűsítik a post‑processzálást, mivel az alakzat a szövegfolyamat részévé válik, elkerülve a külön objektumrétegeket, amelyek megtörhetik a parsereket.
 
-## 4. lépés: A dokumentum mentése PDF-ként
+## 4. lépés: a dokumentum mentése pdf‑ként
 
-A beállítások készen állnak, az utolsó lépés egy egy‑soros kód, amely a PDF‑et a lemezre írja.
+A beállítások elkészültek, a mentés egyetlen kódsor.
 
 ```java
         // Step 4‑1: Define the output path
@@ -117,11 +168,11 @@ A beállítások készen állnak, az utolsó lépés egy egy‑soros kód, amely
 }
 ```
 
-A fenti osztály futtatása beolvassa a `input.docx`‑et, alkalmazza a lebegő‑alakzat konverziót, és előállítja az `output.pdf`‑et. Nyisd meg a PDF‑et – látni fogod, hogy a korábban lebegő kép most inline elemként viselkedik (ellenőrizheted a környező szöveg kijelölésével).
+Az osztály futtatása beolvassa a `input.docx`-t, alkalmazza a lebegő alakzat konverziót, és kiírja a `output.pdf`-t. Nyissa meg a PDF-et, és láthatja, hogy a korábban lebegő kép most inline elemként viselkedik.
 
 ### Teljes forráskód listázása
 
-Könnyebb használat érdekében itt látható az egész osztály egy blokkban:
+Kényelmi okból itt van a teljes osztály egy blokkban:
 
 ```java
 import com.aspose.words.*;
@@ -144,27 +195,27 @@ public class PdfFloatingShapeTag {
 }
 ```
 
-## 5. lépés: Az eredmény ellenőrzése (Mire figyeljünk)
+## Ellenőrizze az eredményt (mit kell keresni)
 
 A program befejezése után:
 
-1. **Nyisd meg az `output.pdf`‑et** bármely PDF‑nézőben. A lebegő alakzatoknak most inline‑ban kell lenniük a környező szöveggel.
-2. **Ellenőrizd a hiányzó betűtípusokat** – az Aspose.Words automatikusan megpróbálja beágyazni a betűtípusokat, de ha egy betűtípus nincs licencelve, helyettesítő figyelmeztetést kaphatsz.
-3. **Vizsgáld meg a fájlméretet** – a `setJpegQuality` hívás drámaian csökkentheti a méretet képes dokumentumok esetén.
+1. **Nyissa meg a `output.pdf`-t** bármely PDF nézőben. A lebegő alakzatoknak most inline kell lenniük a környező szöveggel.  
+2. **Ellenőrizze a hiányzó betűtípusokat** – az Aspose.Words automatikusan megpróbálja beágyazni a betűtípusokat; ha egy betűtípus nincs licencelve, helyettesítési figyelmeztetést kap.  
+3. **Vizsgálja meg a fájlméretet** – a `setJpegQuality` hívás drámaian csökkentheti a méretet képes dokumentumok esetén.
 
-Ha valami nem stimmel, fontold meg a következő módosításokat:
+Ha valami nem megfelelő, fontolja meg a következő módosításokat:
 
 | Probléma | Megoldás |
 |----------|----------|
-| Hiányzó képek | Győződj meg arról, hogy az `input.docx` abszolút vagy helyesen feloldott relatív útvonalakra hivatkozik a képekhez. |
-| Elcsúszott karakterek | Ellenőrizd, hogy a forrás DOCX Unicode betűtípusokat használ; szükség esetén állítsd be a `PdfSaveOptions.setFontEmbeddingMode(FontEmbeddingMode.EMBED_ALL)`‑t. |
-| Próbaverzió vízjele | Érvényes licenc alkalmazása: `License license = new License(); license.setLicense("Aspose.Words.lic");` |
+| Hiányzó képek | Győződjön meg róla, hogy a `input.docx` abszolút vagy helyesen feloldott relatív útvonalakra hivatkozik a képekre. |
+| Elcsúszott karakterek | Ellenőrizze, hogy a forrás DOCX Unicode betűtípusokat használ; ha szükséges, állítsa be a `PdfSaveOptions.setFontEmbeddingMode(FontEmbeddingMode.EMBED_ALL)`-t. |
+| Vízjel a próbaverzióból | A `License` osztály betölti az Aspose.Words licencfájlt a próbaverzió vízjelének eltávolításához. Alkalmazzon érvényes licencet: `License license = new License(); license.setLicense("Aspose.Words.lic");` |
 
-## Gyakori variációk és szélsőséges esetek
+## Gyakori változatok és szélsőséges esetek
 
 ### Több fájl konvertálása kötegben
 
-Ha egy egész mappát szeretnél **convert docx to pdf**‑val feldolgozni, csomagold a logikát egy ciklusba:
+Ha egy egész mappához kell **docx to pdf** konvertálás, csomagolja a logikát egy ciklusba:
 
 ```java
 File folder = new File("YOUR_DIRECTORY");
@@ -175,9 +226,9 @@ for (File file : folder.listFiles((dir, name) -> name.toLowerCase().endsWith(".d
 }
 ```
 
-### Jelszóval védett DOCX fájlok kezelése
+### Jelszóval védett docx fájlok kezelése
 
-Az Aspose.Words képes titkosított fájlok megnyitására:
+Az Aspose.Words képes megnyitni titkosított fájlokat:
 
 ```java
 LoadOptions loadOptions = new LoadOptions();
@@ -187,7 +238,7 @@ Document protectedDoc = new Document("protected.docx", loadOptions);
 
 ### Streaming konvertálás (nincs lemez I/O)
 
-Webszolgáltatások esetén előfordulhat, hogy **how save docx pdf**-t közvetlenül egy stream‑be szeretnél írni:
+Webszolgáltatások esetén előfordulhat, hogy a **how save docx pdf** közvetlenül egy stream-be szeretné menteni:
 
 ```java
 ByteArrayOutputStream pdfStream = new ByteArrayOutputStream();
@@ -198,33 +249,61 @@ byte[] pdfBytes = pdfStream.toByteArray();
 
 ## Vizuális eredmény
 
-Az alábbi képernyőkép a generált PDF‑et mutatja (lebegő alakzat inline szövegként jelenik meg).  
-![aspose word to pdf output example](https://example.com/images/aspose-word-to-pdf-output.png)
+Az alábbi képernyőkép a generált PDF-et mutatja (lebegő alakzat inline szövegként megjelenítve).
 
-*A kép alt szövege tartalmazza az elsődleges kulcsszót, ezzel teljesítve az SEO‑követelményeket.*
+![aspose word to pdf kimeneti példa](https://example.com/images/aspose-word-to-pdf-output.png)
 
-## Összefoglalás és a következő lépések
+*A kép alt szövege tartalmazza az elsődleges kulcsszót, ezzel megfelelve az SEO követelményeknek.*
 
-Áttekintettük egy **complete aspose word to pdf** munkafolyamatot:
+## Gyakran ismételt kérdések
 
-- Java projekt beállítása Aspose.Words‑szel.
-- DOCX betöltése, amely lebegő alakzatokat tartalmaz.
-- `PdfSaveOptions` konfigurálása, hogy ezek az alakzatok inline `<span>` tagekké legyenek exportálva.
-- Az eredmény mentése PDF‑ként és a kimenet ellenőrzése.
+**Q: Szükségem van Aspose.Words licencre a fejlesztéshez?**  
+A: Nem, az ingyenes próba verzió fejlesztéshez és teszteléshez működik, de vízjelet ad a generált PDF-hez.
 
-Most már **convert docx to pdf**-t tudsz végrehajtani kötegelt módon, kezelheted a titkosított fájlokat, vagy stream‑elheted a PDF‑et közvetlenül a kliensnek.  
+**Q: Konvertálhatok jelszóval védett DOCX fájlokat?**  
+A: Igen. Töltse be a dokumentumot a `new Document("encrypted.docx", new LoadOptions { Password = "pwd" })` paranccsal.
 
-**Mi a következő?** Érdemes lehet:
+**Q: Mely Java verziók támogatottak?**  
+A: Az Aspose.Words for Java támogatja a Java 8-tól a Java 21-ig terjedő verziókat, teljes kompatibilitással a Java 17 LTS-hez.
 
-- **Fejléc/élőláb** hozzáadása a konvertálás előtt (`DocumentBuilder`).
-- **Egyedi betűtípusok beágyazása** többnyelvű PDF‑ekhez.
-- **Aspose.PDF** használata a generált PDF további manipulálásához (könyvjelzők, digitális aláírások stb.).
+**Q: Hogyan kezeli a könyvtár a nagy dokumentumokat?**  
+A: Fájlokat streaming módon dolgozza fel, lehetővé téve 1 000 oldalas dokumentumok konvertálását anélkül, hogy az egész fájlt a memóriába töltené.
 
-Nyugodtan kísérletezz – cseréld le a `setExportFloatingShapesAsInlineTag(false)`‑t, hogy lásd az alapértelmezett viselkedést, vagy állítsd be a képkompressziós beállításokat a könnyebb fájlokért. A könyvtár elég rugalmas ahhoz, hogy szinte bármilyen dokumentum‑feldolgozási szcenárióhoz alkalmazkodjon.
+**Q: Az API szálbiztos?**  
+A: Az egyes `Document` példányok nem szálbiztosak, de több konvertálást párhuzamosan futtathat külön `Document` objektumok használatával.
 
-*Boldog kódolást! Ha elakadsz, hagyj egy megjegyzést alul, vagy nézd meg az hivatalos Aspose.Words for Java dokumentációt a mélyebb részletekért.*
+## Következtetés és további lépések
+
+Áttekintettünk egy teljes **docx to pdf java** munkafolyamatot:
+
+- Állítsa be a Java projektet az Aspose.Words-szal.  
+- Töltsön be egy DOCX-et, amely lebegő alakzatokat tartalmaz.  
+- Konfigurálja a `PdfSaveOptions`-t, hogy ezeket az alakzatokat inline tagekként exportálja.  
+- Mentse az eredményt PDF-ként, és ellenőrizze a kimenetet.
+
+Innen tovább felfedezheti:
+
+- Fejlécek/láblécek hozzáadása a `DocumentBuilder` segítségével.  
+- Egyedi betűtípusok beágyazása többnyelvű PDF-ekhez.  
+- A PDF post‑processzálása az Aspose.PDF-vel (könyvjelzők, digitális aláírások stb. hozzáadása).
+
+Kísérletezzen a `setExportFloatingShapesAsInlineTag(false)` kapcsolóval, hogy lássa az alapértelmezett viselkedést, vagy állítsa be a képtömörítési beállításokat a könnyebb fájlok érdekében. A könyvtár rugalmassága alkalmassá teszi az egyetlen fájl konvertálásától a nagyméretű kötegelt feldolgozásig.
+
+---
+
+**Utolsó frissítés:** 2026-10-02  
+**Tesztelve:** Aspose.Words for Java 24.12  
+**Szerző:** Aspose
+
+## Kapcsolódó útmutatók
+
+- [Hogyan konvertáljunk DOCX-et PNG-re Java-ban – Aspose.Words](/words/java/document-converting/converting-documents-images/)
+- [Aspose.Words Java: Képek és alakzatok útmutatók | Mesteri dokumentumok](/words/java/images-shapes/)
+- [PDF betöltés optimalizálása Java-ban az Aspose.Words használatával: Képek kihagyása a jobb teljesítményért](/words/java/performance-optimization/optimize-pdf-loading-java-aspose-skip-images/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

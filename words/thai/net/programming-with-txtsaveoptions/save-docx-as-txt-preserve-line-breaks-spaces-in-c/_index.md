@@ -22,15 +22,11 @@ title: บันทึก docx เป็น txt – รักษาการข�
 url: /th/net/programming-with-txtsaveoptions/save-docx-as-txt-preserve-line-breaks-spaces-in-c/
 ---
 
-เลที่จะทดลองและบอกเราผ่านความคิดเห็นหากคุณเจอข้อผิดพลาดใดๆ ขณะ **convert word to txt** ในโปรเจกต์ของคุณเอง ขอให้เขียนโค้ดอย่างสนุกสนาน!"
 
-Then closing shortcodes.
 
-Now ensure we keep all shortcodes and code block placeholders unchanged.
 
-Also ensure we keep markdown formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

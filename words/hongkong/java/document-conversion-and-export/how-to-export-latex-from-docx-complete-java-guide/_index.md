@@ -20,7 +20,7 @@ title: 如何從 DOCX 匯出 LaTeX – 完整 Java 指南
 url: /zh-hant/java/document-conversion-and-export/how-to-export-latex-from-docx-complete-java-guide/
 ---
 
-produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

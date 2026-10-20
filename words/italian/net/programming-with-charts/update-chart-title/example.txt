@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Utilizzando Aspose.Words, questo tutorial crea un documento Word, inserisce un grafico a colonne, aggiorna il titolo del grafico con il testo fornito dall'utente e attiva/disattiva la visibilità e la sovrapposizione della legenda in base alle preferenze dell'utente.
+//ExStepSummary:0: Definisci il titolo del grafico fornito dall'utente e se la legenda deve essere mostrata.
+//ExStepSummary:1: Crea un nuovo documento Word e un DocumentBuilder per aggiungere contenuti.
+//ExStepSummary:2: Inserisci un grafico a colonne di 432 × 252 pt nel documento e verifica che la forma contenga effettivamente un grafico.
+//ExStepSummary:3: Recupera l'oggetto chart, imposta il testo del titolo al valore fornito dall'utente e assicurati che il titolo sia visualizzato.
+//ExStepSummary:4: Configura la legenda: mostrala a destra se richiesto, altrimenti nascondila, e consenti che si sovrapponga all'area del grafico.
+//ExStepSummary:5: Salva il documento modificato su disco come CustomChart.docx.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+string chartHeader = "Fiscal Q1 Performance Summary";
+bool displayLegend = false;
+
+//ExStep:1-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:2-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+if (!chartContainer.HasChart)
+    throw new InvalidOperationException("The inserted shape does not contain a chart.");
+
+//ExStep:3-
+Chart chartObj = chartContainer.Chart;
+ChartTitle chartTitle = chartObj.Title;
+chartTitle.Text = chartHeader;
+chartTitle.Show = true;
+
+//ExStep:4-
+ChartLegend chartLegend = chartObj.Legend;
+chartLegend.Position = displayLegend ? LegendPosition.Right : LegendPosition.None;
+chartLegend.Overlay = true;
+
+//ExStep:5-
+wordDoc.Save("CustomChart.docx");
+//ExEnd

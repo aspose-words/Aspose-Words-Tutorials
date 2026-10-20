@@ -39,8 +39,16 @@ Erfahren Sie, wie Sie Dokumentberechtigungen mit Aspose.Words für Java effektiv
 Erfahren Sie, wie Sie Dokumente mit Aspose.Words für Java verschlüsseln und entschlüsseln. Sichern Sie Ihre Daten effizient mit Schritt-für-Schritt-Anleitungen und Quellcodebeispielen.
 ### [Digitale Signaturen in Dokumenten](./digital-signatures-in-documents/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java sichere digitale Signaturen in Dokumenten implementieren. Sichern Sie die Dokumentintegrität mit Schritt-für-Schritt-Anleitung und Quellcode
+### [So signieren Sie docx-Dateien mit einem PFX-Zertifikat – Schritt‑für‑Schritt‑Anleitung](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
+Erfahren Sie, wie Sie docx-Dateien mit einem PFX-Zertifikat digital signieren. Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
 ### [Dokumentenredaktion und Datenschutz](./document-redaction-data-protection/)
 Erfahren Sie, wie Sie Ihre Dokumente mit Aspose.Words für Java sichern und vertrauliche Daten schwärzen. Schritt-für-Schritt-Anleitung mit Quellcode.
+### [Word-Dokument in Java mit Aspose.Words signieren – Komplettanleitung](./sign-word-document-in-java-with-aspose-words-complete-guide/)
+Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words für Java digital signieren. Schritt-für-Schritt-Anleitung mit Codebeispielen.
+### [Wie man DOCX-Dateien in C# signiert – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für C# signieren. Eine vollständige Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
+### [Wie man ein Word-Dokument in C# mit einem X509-Zertifikat signiert](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
+Erfahren Sie, wie Sie ein Word-Dokument in C# mit einem X509-Zertifikat signieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

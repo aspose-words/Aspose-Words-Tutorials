@@ -25,19 +25,12 @@ title: Akadálymentes PDF létrehozása – Word átalakítása PDF hozzáférhe
 url: /hu/net/basic-conversions/create-accessible-pdf-convert-word-to-pdf-accessibility/
 ---
 
-to keep the shortcodes at start and end.
 
-Let's produce translation.
 
-We'll translate headings: "# Create Accessible PDF – Convert Word to PDF Accessibility" => "# Hozzon Létre Hozzáférhető PDF-et – Word PDF Hozzáférhetőség Átalakítása"
 
-But maybe better: "# Hozzáférhető PDF létrehozása – Word PDF hozzáférhetőség konvertálása". We'll translate naturally.
 
-Proceed step by step.
 
-Also translate bullet points.
 
-Let's craft final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

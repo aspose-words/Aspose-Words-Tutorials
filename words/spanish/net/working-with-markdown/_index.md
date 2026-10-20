@@ -35,12 +35,14 @@ Procesamiento de textos con Markdown ofrece un recurso completo para aprender a 
 | [Código Cercado](./fenced-code/) Aprenda a agregar código protegido y cadenas de información a documentos de Word con Aspose.Words para .NET. Incluye una guía paso a paso. Mejore sus habilidades de formato de documentos. |
 | [Cita](./quote/) Aprenda a agregar comillas y citas en bloque anidadas a sus documentos de Word con Aspose.Words para .NET. Siga esta guía paso a paso para dominar la creación de documentos. |
 | [Lista con viñetas](./bulleted-list/) | Aprenda a crear y personalizar listas con viñetas en documentos de Word usando Aspose.Words para .NET con esta guía paso a paso. |
-| [Lista ordenada](./ordered-list/) Aprenda a crear listas ordenadas en documentos de Word con Aspose.Words para .NET con nuestra guía paso a paso. Ideal para automatizar la creación de documentos. |
-| [Mesa](./table/) Aprenda a crear y personalizar tablas en Aspose.Words para .NET con esta guía paso a paso. Ideal para generar documentos estructurados y visualmente atractivos. |
-| [Leer documento Markdown](./read-markdown-document/) Aprenda a leer y manipular documentos Markdown con Aspose.Words para .NET con este tutorial detallado paso a paso. Ideal para desarrolladores de todos los niveles. |
+| [Lista ordenada](./ordered-list/) Aprenda a crear listas ordenadas en documentos de Word con Aspose.Words para .NET con nuestra guía paso a paso. Ideal para automatizar la creación de documentos.
+| [Mesa](./table/) Aprenda a crear y personalizar tablas en Aspose.Words para .NET con esta guía paso a paso. Ideal para generar documentos estructurados y visualmente atractivos.
+| [Leer documento Markdown](./read-markdown-document/) Aprenda a leer y manipular documentos Markdown con Aspose.Words para .NET con este tutorial detallado paso a paso. Ideal para desarrolladores de todos los niveles.
+| [Cargar archivo Markdown en un documento – Tutorial completo de análisis](./load-markdown-file-into-a-document-complete-parsing-tutorial/) Aprenda a cargar un archivo Markdown en un Document y analizarlo completamente con Aspose.Words para .NET. |
+| [Crear Word a partir de Markdown con Aspose.Words – Guía completa](./create-word-from-markdown-with-aspose-words-full-guide/) Aprenda a generar documentos Word a partir de archivos Markdown usando Aspose.Words para .NET con esta guía paso a paso.
+| [Énfasis](./emphases/) Aprenda a crear texto destacado en Markdown con Aspose.Words para .NET. Esta guía explica los estilos de negrita, cursiva y combinados, con instrucciones paso a paso.
+| [Utilice la fuente de advertencia](./use-warning-source/) Domina Aspose.Words para .NET con esta guía paso a paso sobre el uso de la clase WarningSource para gestionar advertencias de Markdown. Ideal para desarrolladores de C#.
 | [Cómo guardar documento como docx desde Markdown usando C#](./how-to-save-document-as-docx-from-markdown-using-c/) Aprenda a guardar documentos Markdown como archivos DOCX usando Aspose.Words para .NET con C#. |
-| [Énfasis](./emphases/) Aprenda a crear texto destacado en Markdown con Aspose.Words para .NET. Esta guía explica los estilos de negrita, cursiva y combinados, con instrucciones paso a paso. |
-| [Utilice la fuente de advertencia](./use-warning-source/) Domina Aspose.Words para .NET con esta guía paso a paso sobre el uso de la clase WarningSource para gestionar advertencias de Markdown. Ideal para desarrolladores de C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

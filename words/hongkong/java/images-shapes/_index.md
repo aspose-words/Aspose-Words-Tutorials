@@ -33,14 +33,71 @@ Aspose.Words Java 程式碼教程
 
 ### [如何使用 Aspose.Words for Java 將文件頁面渲染為縮圖](./render-word-pages-thumbnails-aspose-java/)
 了解如何使用 Aspose.Words for Java 產生 Word 文件的高品質縮圖和自訂大小的點陣圖。立即增強您的文件處理能力。
-
 ### [建立 Word 文件 Java – 添加帶陰影效果的矩形形狀](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 示範如何在 Java 中使用 Aspose.Words 建立 Word 文件，並向文件中加入帶陰影效果的矩形形狀。
-### [在 Word 中使用 Java 建立矩形形狀 – 完整指南](./create-rectangle-shape-in-word-with-java-full-guide/)
-學習如何使用 Aspose.Words for Java 在 Word 文檔中插入並自訂矩形形狀的完整步驟。
+
+### [在 Word 中為形狀添加陰影 – 完整 Aspose.Words 指南](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+了解如何使用 Aspose.Words for Java 為 Word 文檔中的形狀添加陰影效果，提升視覺效果。
+### [在 C# 中為形狀套用陰影效果 – 步驟說明指南](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
+了解如何在 C# 使用 Aspose.Words 為形狀添加陰影效果的詳細步驟。
+### [如何在 Aspose.Words 中為形狀設定陰影 – 完整指南](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
+了解如何在 Aspose.Words for Java 中為形狀添加陰影效果，並自訂其屬性以提升文件的視覺效果。
+
+### [如何在 C# 中為形狀設定陰影 – 輕鬆添加形狀陰影](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+示範如何在 C# 使用 Aspose.Words 為形狀添加陰影效果，提升文件的視覺效果。
+
+### [在 Java Word 文件中建立矩形形狀 – 完整步驟指南](./create-rectangle-shape-in-java-word-document-full-step-by-st/)
+提供在 Java 中使用 Aspose.Words 建立矩形形狀的完整步驟說明，涵蓋屬性設定與範例程式碼。
+
+### [在 Java 中建立文字方塊形狀 – 完整的陰影添加指南](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+說明如何在 Java 使用 Aspose.Words 建立文字方塊形狀並套用陰影效果的完整步驟。
+### [使用 C# 完整指南建立帶矩形形狀的 PDF 文件](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+學習如何使用 Aspose.PDF for C# 在 PDF 中插入矩形形狀並自訂其屬性。
+
+### [建立 Word 文件 Java – 為形狀添加陰影](./create-word-document-java-add-shadow-to-shape-guide/)
+示範如何在 Java 中使用 Aspose.Words 為 Word 文檔中的任意形狀添加陰影效果。
+
+### [在 Java 中將形狀分組於 Word – 完整步驟指南](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+完整的逐步指南，教您在 Java 中使用 Aspose.Words 將形狀分組於 Word 文件。
+
+### [建立 Word 文件 Java – 添加帶陰影效果的形狀](./create-word-document-java-add-shape-with-shadow-effect/)
+示範如何在 Java 中使用 Aspose.Words 建立 Word 文件，並向文件中加入帶陰影效果的形狀。
+
+### [在 Java 中使用 Aspose.Words 建立矩形形狀 – 完整指南](./create-rectangle-shape-in-java-with-aspose-words-full-guide/)
+完整步驟說明如何在 Java 應用程式中使用 Aspose.Words 插入並自訂矩形形狀，包括大小、位置與樣式設定。
+
+### [如何在 Java 中插入群組形狀 – 完整指南](./how-to-insert-group-shape-in-java-complete-guide/)
+本指南說明如何使用 Aspose.Words for Java 在文件中插入和管理群組形狀，涵蓋完整程式碼示例與設定說明。
+
+### [使用 C# 建立空白 Word 文件並分組矩形 – 教學](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+示範如何在 C# 中使用 Aspose.Words 建立空白的 Word 文件，並將多個矩形形狀分組。
+
+### [在 Java 中插入矩形形狀 – 群組與定位形狀](./insert-rectangle-shape-in-java-group-and-position-shapes/)
+示範如何在 Java 中使用 Aspose.Words 插入矩形形狀，並將其分組與定位於文件中。
+
+### [在 Word 中插入圖像 – Aspose.Words 步驟指南](./insert-image-into-word-aspose-words-step-by-step-guide/)
+了解如何使用 Aspose.Words for Java 將圖像插入 Word 文件，涵蓋插入、定位與屬性設定的完整步驟。
+
+### [使用 C# 在 Word 中插入矩形形狀 – 完整指南](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+展示如何使用 C# 在 Word 文檔中插入矩形形狀並自訂其屬性。
+### [在 Java 中建立空白 Word 並添加陰影 – 完整指南](./create-blank-word-with-shadow-in-java-full-guide/)
+說明如何在 Java 中使用 Aspose.Words 建立空白 Word 文件並套用陰影效果的完整步驟。
+### [在 Word 中分組形狀 – 完整程式設計指南](./group-shapes-in-word-complete-programming-guide/)
+了解如何在 Word 文檔中使用 Aspose.Words for Java 將多個形狀分組，實現複雜佈局與樣式控制。
+
+### [在 Word 中隱藏圖片 – Aspose 的逐步 Java 指南](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+了解如何使用 Aspose.Words for Java 隱藏 Word 文件中的圖片，提供完整範例與說明。
+### [如何使用 Aspose.Words 在 Word 文件中對形狀進行分組](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+示範如何在 Word 文件中使用 Aspose.Words 將多個形狀分組，以便一次性操作和管理。
+
+### [如何在 Aspose.Words for C# 中設定形狀的隱藏屬性](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+示範如何在 Aspose.Words for C# 中設定形狀的隱藏屬性。
+### [在 Java 中建立空白 Word 文件並分組形狀](./create-blank-word-document-and-group-shapes-in-java/)
+示範如何在 Java 中創建空白的 Word 文檔並將多個形狀分組以便於管理。
 
 ## 其他資源
 
+## 其他資源
 - [Aspose.Words for Java 文檔](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Java API參考](https://reference.aspose.com/words/java/)
 - [下載 Aspose.Words for Java](https://releases.aspose.com/words/java/)

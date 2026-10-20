@@ -24,33 +24,19 @@ title: Criar forma retangular no Word com Java – Guia Completo
 url: /pt/java/images-shapes/create-rectangle-shape-in-word-with-java-full-guide/
 ---
 
-ar forma retangular no Word com Java – Guia Completo"
 
-Then paragraph: "Ever needed to **create rectangle shape** in a Word document but weren't sure where to start? ..." translate.
 
-We must keep bold formatting.
 
-Proceed step by step.
 
-Also note "RTL formatting if needed" but Portuguese LTR, fine.
 
-Let's produce final content.
 
-Be careful with tables: translate column headers and content.
 
-Also list items.
 
-Also alt text.
 
-Also "Image alt text: ..." translate.
 
-Also "Expected Result" table.
 
-Also "Pro Tips & Common Pitfalls" heading.
 
-Make sure to keep code block placeholders unchanged.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
