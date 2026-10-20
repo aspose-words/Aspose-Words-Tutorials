@@ -121,6 +121,8 @@
 ### [บันทึก Word เป็น Markdown – ส่งออกตารางเป็น HTML ด้วย Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/)
 เรียนรู้วิธีส่งออกตารางจากไฟล์ Word เป็น HTML พร้อมบันทึกเป็น Markdown ด้วย Aspose.Words สำหรับ .NET
 
+### [บันทึก markdown เป็น docx ใน C# – คู่มือขั้นตอนโดยขั้นตอน](./save-markdown-as-docx-in-c-step-by-step-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 ### [ส่งออก docx เป็น markdown – คู่มือเต็ม C#](./export-docx-as-markdown-complete-c-guide/)

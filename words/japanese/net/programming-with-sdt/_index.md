@@ -39,6 +39,7 @@ Aspose.Words for .NET のチュートリアルでは、ライブラリの機能�
 | [Aspose.Wordsでプレースホルダー テキストを設定する – 完全なC#ガイド](./set-placeholder-text-in-aspose-words-complete-c-guide/) Aspose.Words for .NET を使用して、Word 文書のプレースホルダー テキストを設定および管理する方法をステップバイステップで解説します。 |
 | [Asposeでコンテンツコントロールを追加し、Word文書を作成する方法 – 完全ガイド](./how-to-add-content-control-and-create-word-document-with-asp/) Aspose.Words for .NET を使用して、コンテンツコントロールを追加し、Word 文書を作成する手順を詳しく解説します。 |
 
+| [Word文書をプログラムで作成 – コンテンツコントロールとプレースホルダーを追加](./create-word-document-programmatically-add-content-control-an/) |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

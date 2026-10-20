@@ -25,6 +25,7 @@ Mit Aspose.Words für .NET und diesen Tutorials meistern Sie die Bearbeitung von
 | Titel | Beschreibung |
 | --- | --- |
 | [Gruppenform hinzufügen](./add-group-shape/) | Erfahren Sie in diesem umfassenden Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Words für .NET Gruppenformen zu Word-Dokumenten hinzufügen. |
+| [DOCX-Datei mit gruppierten Formen in Word speichern mit C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein DOCX-Dokument mit gruppierten Formen in C# speichern. |
 | [Form einfügen](./insert-shape/) | Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET Formen in Word-Dokumente einfügen und bearbeiten. |
 | [Seitenverhältnis gesperrt](./aspect-ratio-locked/) | Erfahren Sie, wie Sie das Seitenverhältnis von Formen in Word-Dokumenten mit Aspose.Words für .NET sperren. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um die Proportionen Ihrer Bilder und Formen zu wahren. |
 | [Layout in Zelle](./layout-in-cell/) | Erfahren Sie in dieser umfassenden Anleitung, wie Sie das Layout in Zellen mit Aspose.Words für .NET festlegen. Ideal für Entwickler, die Word-Dokumente anpassen möchten. |
@@ -67,6 +68,7 @@ Mit Aspose.Words für .NET und diesen Tutorials meistern Sie die Bearbeitung von
 | [Wie man eine Form in Word mit C# ausblendet – Schritt‑für‑Schritt‑Anleitung](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und C# Formen in Word-Dokumenten ausblenden. |
 | [Rechteck in Word zeichnen – Formen in Word mit Aspose hinzufügen](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Rechteck in ein Word-Dokument einfügen und anpassen. |
 | [Leeres Word-Dokument mit versteckter Ellipsenform erstellen – vollständige C#‑Anleitung](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Words für .NET ein leeres Word-Dokument erstellen und eine versteckte Ellipsenform hinzufügen. |
+| [Form in Word mit C# ausblenden – Schritt‑für‑Schritt‑Anleitung](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Formen in Word-Dokumenten programmgesteuert ausblenden. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -38,6 +38,7 @@ Ukázky kódu uvedené v tutoriálech vám pomohou pochopit koncepty a procviči
 | [Rozsah značek strukturovaného dokumentu – spuštění mapování XML](./structured-document-tag-range-start-xml-mapping/) | Naučte se, jak dynamicky vázat XML data na strukturované tagy dokumentů ve Wordu pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu. |
 | [Nastavení zástupného textu v Aspose.Words – Kompletní průvodce C#](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Naučte se, jak nastavit zástupný text v dokumentech Word pomocí Aspose.Words pro .NET v tomto podrobném C# průvodci. |
 | [Jak přidat ovládací prvek obsahu a vytvořit Word dokument s Aspose – Kompletní průvodce](./how-to-add-content-control-and-create-word-document-with-asp/) | Kompletní návod, jak pomocí Aspose.Words pro .NET přidat ovládací prvek obsahu a vytvořit nový Word dokument krok za krokem. |
+| [Vytvořit dokument Word programově – přidat ovládací prvek obsahu a zástupný text](./create-word-document-programmatically-add-content-control-an/) | Naučte se, jak programově vytvořit dokument Word, přidat ovládací prvek obsahu a nastavit zástupný text pomocí Aspose.Words pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -74,6 +74,8 @@ Với các hướng dẫn này, bạn sẽ có thể cải thiện tài liệu W
 | [Hiển thị chú giải biểu đồ trong Word bằng C# – Hướng dẫn chi tiết từng bước](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Tìm hiểu cách hiển thị chú giải biểu đồ trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước. |
 | [Tách miếng bánh biểu đồ tròn trong C# với Aspose.Words – Hướng dẫn đầy đủ](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Hướng dẫn chi tiết cách tách một miếng biểu đồ tròn trong Aspose.Words cho .NET bằng C#. |
 | [Cách hiển thị phần trăm trong biểu đồ với Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Tìm hiểu cách hiển thị phần trăm trong biểu đồ bằng Aspose.Words cho .NET với hướng dẫn từng bước này. |
+| [Cách thêm nhãn dữ liệu vào biểu đồ Word trong C# – hướng dẫn từng bước](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Hướng dẫn chi tiết cách thêm nhãn dữ liệu vào biểu đồ Word bằng C# trong Aspose.Words. |
+| [Tùy chỉnh vị trí nhãn dữ liệu cho biểu đồ trong C#](./custom-data-label-placement-for-charts-in-c/) | Hướng dẫn cách tùy chỉnh vị trí nhãn dữ liệu cho biểu đồ trong C# bằng Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

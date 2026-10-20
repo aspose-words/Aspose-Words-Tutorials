@@ -76,6 +76,7 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Tłumaczenie docx na francuski z Aspose.Words.AI – pełny przewodnik](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Dowiedz się, jak tłumaczyć pliki DOCX na francuski przy użyciu Aspose.Words.AI w szczegółowym przewodniku. |
 | [Utwórz podsumowanie dokumentu w C# – Kompletny przewodnik OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Dowiedz się, jak używać OpenAI w C# do automatycznego podsumowywania dokumentów przy pomocy Aspose.Words. |
 | [Podsumowanie dokumentu Word przy użyciu Aspose.Words AI – pełny przewodnik](./summarize-word-document-with-aspose-words-ai-full-guide/) | Kompletny przewodnik, jak używać Aspose.Words AI do podsumowywania dokumentów Word w .NET. |
+| [Podsumowanie dokumentów AI w C# – kompletny przewodnik](./ai-document-summarization-in-c-complete-guide/) | Kompletny przewodnik, jak używać Aspose.Words w C# do podsumowywania dokumentów przy pomocy AI. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

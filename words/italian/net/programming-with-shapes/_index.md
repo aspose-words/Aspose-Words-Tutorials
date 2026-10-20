@@ -65,6 +65,8 @@ Utilizzando Aspose.Words per .NET e seguendo questi tutorial, imparerai a manipo
 | [Come nascondere una forma in Word con C# – Guida passo‑passo](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Scopri come nascondere una forma in un documento Word usando Aspose.Words per .NET con C#. |
 | [Disegna rettangolo in Word – Aggiungi forme in Word con Aspose](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Scopri come disegnare un rettangolo in un documento Word e aggiungere forme usando Aspose.Words per .NET. |
 | [Crea un documento Word vuoto con una forma ellittica nascosta – Guida completa C#](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Scopri come creare un documento Word vuoto con una forma ellittica nascosta usando Aspose.Words per .NET in C#. |
+| [Salva file docx con forme raggruppate in Word usando C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Scopri come salvare un file DOCX contenente forme raggruppate in Word con Aspose.Words per .NET usando C#. |
+| [Come nascondere una forma in Word usando C# – guida passo‑passo](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Scopri come nascondere una forma nei documenti Word con Aspose.Words per .NET usando C# in questa guida dettagliata. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

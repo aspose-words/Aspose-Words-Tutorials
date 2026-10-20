@@ -65,6 +65,7 @@
 | [แปลไฟล์ docx เป็นภาษาฝรั่งเศสด้วย Aspose.Words.AI – คู่มือเต็ม](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | เรียนรู้วิธีใช้ Aspose.Words.AI เพื่อแปลเอกสาร Word (.docx) เป็นภาษาฝรั่งเศสอย่างแม่นยำและรวดเร็วในขั้นตอนง่ายๆ -
 | [สร้างสรุปเอกสารใน C# – คู่มือ OpenAI ฉบับเต็ม](./create-document-summary-in-c-complete-openai-guide/) | เรียนรู้วิธีใช้ Aspose.Words สำหรับ .NET ร่วมกับ OpenAI เพื่อสร้างสรุปเอกสารใน C# อย่างครบถ้วน -
 | [สรุปเอกสาร Word ด้วย Aspose.Words AI – คู่มือเต็ม](./summarize-word-document-with-aspose-words-ai-full-guide/) | เรียนรู้วิธีใช้ Aspose.Words AI เพื่อสรุปเอกสาร Word อย่างละเอียดและง่ายดายในขั้นตอนเดียว - 
+| [สรุปเอกสารด้วย AI ใน C# – คู่มือฉบับสมบูรณ์](./ai-document-summarization-in-c-complete-guide/) | เรียนรู้วิธีสรุปเอกสารด้วย AI ใน C# อย่างละเอียดด้วย Aspose.Words สำหรับ .NET |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

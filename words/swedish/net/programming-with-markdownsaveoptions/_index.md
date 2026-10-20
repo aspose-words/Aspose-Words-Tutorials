@@ -292,6 +292,7 @@ Lär dig exportera matematiska ekvationer från Word till LaTeX när du sparar D
 Lär dig hur du automatiskt laddar upp bilder till molnlagring under konvertering av Word-dokument till Markdown med Aspose.Words för .NET.
 ### [Spara Word som Markdown – Exportera tabeller till HTML med Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/)
 Lär dig exportera tabeller till HTML när du sparar Word-dokument som Markdown med Aspose.Words för .NET.
+### [Spara markdown som docx i C# – steg‑för‑steg‑guide](./save-markdown-as-docx-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

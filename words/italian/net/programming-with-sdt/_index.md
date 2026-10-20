@@ -38,6 +38,7 @@ Gli esempi di codice forniti nei tutorial ti aiuteranno a comprendere i concetti
 | [Intervallo di tag del documento strutturato Avvia la mappatura XML](./structured-document-tag-range-start-xml-mapping/) | Scopri come associare dinamicamente dati XML a tag di documenti strutturati in Word utilizzando Aspose.Words per .NET. Segui la nostra guida passo passo. |
 | [Imposta testo segnaposto in Aspose.Words – Guida completa C#](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Scopri come impostare il testo segnaposto nei controlli di contenuto strutturato con Aspose.Words per .NET usando C# in questa guida completa. |
 | [Come aggiungere un controllo del contenuto e creare un documento Word con Aspose – Guida completa](./how-to-add-content-control-and-create-word-document-with-asp/) | Scopri come aggiungere controlli del contenuto e generare documenti Word con Aspose in una guida completa passo passo. |
+| [Crea un documento Word programmaticamente – aggiungi un controllo di contenuto e un segnaposto](./create-word-document-programmatically-add-content-control-an/) | Scopri come generare un documento Word con controlli di contenuto e segnaposto usando Aspose.Words per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

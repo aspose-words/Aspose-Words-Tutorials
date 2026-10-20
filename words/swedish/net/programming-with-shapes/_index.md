@@ -41,6 +41,7 @@ Genom att använda Aspose.Words för .NET och följa dessa handledningar kommer 
 | [Lägg till skuggeffekt på Word-former – Komplett C#‑guide](./add-shadow-effect-to-word-shapes-complete-c-guide/) | Lär dig hur du applicerar skuggeffekter på former i Word-dokument med Aspose.Words för .NET i en detaljerad C#‑guide. |
 | [Skapa Word-dokument med en skuggad rektangel – steg‑för‑steg‑guide](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Lär dig hur du skapar ett Word‑dokument med en rektangel med skugga med Aspose.Words för .NET. |
 | [Skapa rektangelform i Word med C# – Steg‑för‑steg‑guide](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Lär dig hur du skapar en rektangel i ett Word‑dokument med Aspose.Words för .NET och C# i denna detaljerade guide. |
+| [Spara docx-fil med grupperade former i Word med C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Lär dig hur du sparar ett docx-dokument med grupperade former i Word med Aspose.Words för .NET och C#. |
 | [Aspose.Words-formskugga handledning – Lägg till en skugga på Word-form i C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Lär dig hur du lägger till en skugga på former i Word-dokument med Aspose.Words för .NET i C# med denna steg-för-steg-guide. |
 | [Skapa Word-dokument – Infoga rektangelform och skugga i C#](./create-word-document-insert-rectangle-shape-shadow-in-c/) | Lär dig hur du skapar ett Word-dokument och lägger till en rektangelform med skugga i C# med Aspose.Words för .NET. |
 | [Hur du lägger till en skugga på Word-former i C# – Komplett guide](./how-to-add-shadow-to-word-shapes-in-c-complete-guide/) | Lär dig hur du lägger till en skugga på Word-former i C# med Aspose.Words för .NET i denna kompletta guide. |
@@ -67,6 +68,7 @@ Genom att använda Aspose.Words för .NET och följa dessa handledningar kommer 
 | [Hur man döljer form i Word med C# – Steg‑för‑steg‑guide](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Lär dig hur du döljer en form i ett Word‑dokument med Aspose.Words för .NET i C# med denna steg‑för‑steg‑guide. |
 | [Rita rektangel i Word – Lägg till former i Word med Aspose](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Lär dig hur du ritar en rektangel i ett Word-dokument med Aspose.Words för .NET. |
 | [Skapa ett tomt Word-dokument med en dold ellipsform – Fullständig C#‑guide](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Lär dig hur du skapar ett tomt Word-dokument och lägger till en dold ellipsform med Aspose.Words för .NET i C#. |
+| [Dölj form i Word med C# – steg‑för‑steg‑guide](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Lär dig hur du döljer en form i ett Word‑dokument med Aspose.Words för .NET och C# i en tydlig steg‑för‑steg‑guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

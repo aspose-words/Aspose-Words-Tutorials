@@ -65,6 +65,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Bentuk Grup di Word dengan Aspose.Words – Panduan Lengkap C#](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Pelajari cara mengelola bentuk grup di dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan lengkap C#. |
 | [Cara Menyembunyikan Bentuk di Word dengan C# – Panduan Langkah demi Langkah](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Pelajari cara menyembunyikan bentuk dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah. |
 | [Buat Dokumen Word Kosong dengan Bentuk Elips Tersembunyi – Panduan Lengkap C#](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Pelajari cara membuat dokumen Word kosong dan menambahkan bentuk elips tersembunyi menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah. |
+| [Simpan file docx dengan bentuk grup di Word menggunakan C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Pelajari cara menyimpan file docx yang berisi bentuk grup di Word menggunakan C# dengan Aspose.Words. Bahasa Indonesia: |
+| [Cara menyembunyikan bentuk di Word menggunakan C# – panduan langkah demi langkah](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Pelajari cara menyembunyikan bentuk di dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

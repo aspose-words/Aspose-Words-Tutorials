@@ -38,6 +38,7 @@ Os exemplos de código fornecidos nos tutoriais ajudarão você a entender os co
 | [Mapeamento XML de início de intervalo de tags de documento estruturado](./structured-document-tag-range-start-xml-mapping/) | Aprenda a vincular dinamicamente dados XML a tags de documentos estruturados no Word usando o Aspose.Words para .NET. Siga nosso guia passo a passo. |
 | [Definir texto de placeholder no Aspose.Words – Guia completo em C#](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Aprenda a definir texto de placeholder em documentos do Word usando Aspose.Words para .NET com este guia passo a passo em C#. |
 | [Como adicionar controle de conteúdo e criar documento Word com Aspose – Guia completo](./how-to-add-content-control-and-create-word-document-with-asp/) | Aprenda passo a passo como adicionar controles de conteúdo e criar documentos Word usando Aspose.Words para .NET. |
+| [Criar documento Word programaticamente – adicionar controle de conteúdo e placeholder](./create-word-document-programmatically-add-content-control-an/) | Aprenda a criar um documento Word programaticamente, adicionando um controle de conteúdo e um placeholder usando Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

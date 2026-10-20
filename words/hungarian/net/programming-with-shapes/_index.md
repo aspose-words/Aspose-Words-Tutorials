@@ -65,6 +65,8 @@ Az Aspose.Words for .NET használatával és az alábbi oktatóanyagok követés
 | [Hogyan rejtsünk el alakzatot Word-ben C#‑ban – Lépésről lépésre útmutató](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Tanulja meg, hogyan rejthet el alakzatot Word dokumentumban C#-ban ezzel a részletes, lépésről lépésre útmutatóval. |
 | [Téglalap rajzolása Word-ben – Alakzatok hozzáadása Word-hez Aspose-szal](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Ismerje meg, hogyan adhat hozzá téglalap alakzatot Word dokumentumokhoz az Aspose.Words for .NET segítségével. |
 | [Üres Word dokumentum létrehozása rejtett ellipszis alakzattal – Teljes C# útmutató](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Tanulja meg, hogyan hozhat létre üres Word dokumentumot rejtett ellipszis alakzattal C#-ban az Aspose.Words for .NET segítségével. |
+| [Csoportos alakzatokkal ellátott docx fájl mentése Wordben C# használatával](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Tanulja meg, hogyan menthet docx fájlt csoportos alakzatokkal Wordben C#-ban. |
+| [Alakzat elrejtése Wordben C#-ban – lépésről lépésre útmutató](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Tanulja meg, hogyan rejthet el alakzatokat Word dokumentumokban C#-ban az Aspose.Words for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

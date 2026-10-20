@@ -26,6 +26,7 @@ Aspose.Words for .NET'i kullanarak ve bu eğitimleri takip ederek, Word belgeler
 | --- | --- |
 | [Grup Şekli Ekle](./add-group-shape/) | Bu kapsamlı, adım adım eğitimle Aspose.Words for .NET kullanarak Word belgelerine grup şekillerinin nasıl ekleneceğini öğrenin. |
 | [Aspose.Words ile Word'de Grup Şekilleri – Tam C# Kılavuzu](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Aspose.Words for .NET ile Word belgelerinde grup şekillerini ekleme, düzenleme ve yönetme adımlarını adım adım öğrenin. |
+| [C# ile Word'de Gruplanmış Şekillerle docx Dosyasını Kaydet](./save-docx-file-with-grouped-shapes-in-word-using-c/) | C# kullanarak Word belgesine gruplanmış şekiller ekleyip dosyayı kaydetmeyi öğrenin. |
 | [Şekil Ekle](./insert-shape/) | Aspose.Words for .NET'i kullanarak Word belgelerine şekillerin nasıl ekleneceğini ve düzenleneceğini adım adım kılavuzumuzla öğrenin. |
 | [Aspose.Words ile Word'de Şekle Gölge Ekle – Adım Adım](./add-shadow-to-shape-in-word-with-aspose-words-step-by-step/) | Aspose.Words for .NET kullanarak Word belgelerinde şekillere gölge eklemeyi adım adım öğrenin. |
 | [En Boy Oranı Kilitli](./aspect-ratio-locked/) | Aspose.Words for .NET kullanarak Word belgelerindeki şekillerin en boy oranını nasıl kilitleyeceğinizi öğrenin. Görüntülerinizin ve şekillerinizin orantılı kalmasını sağlamak için bu adım adım kılavuzu izleyin. |
@@ -67,6 +68,7 @@ Aspose.Words for .NET'i kullanarak ve bu eğitimleri takip ederek, Word belgeler
 | [C# ile Word'de Şekli Gizleme – Adım Adım Kılavuz](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Aspose.Words for .NET ile C# kullanarak Word belgelerinde şekli nasıl gizleyeceğinizi adım adım öğrenin. |
 | [Word'de Dikdörtgen Çiz – Aspose ile Şekil Ekle](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Aspose.Words for .NET kullanarak Word belgesine dikdörtgen çizip şekil eklemeyi adım adım öğrenin. |
 | [Gizli Elips Şekilli Boş Word Belgesi Oluşturma – Tam C# Kılavuzu](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Aspose.Words for .NET ve C# kullanarak gizli bir elips şekli içeren boş bir Word belgesi oluşturmayı adım adım öğrenin. |
+| [C# ile Word'de Şekli Gizleme – Adım Adım Kılavuz](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | C# kullanarak Word belgesindeki bir şekli nasıl gizleyeceğinizi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

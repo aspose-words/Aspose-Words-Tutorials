@@ -38,6 +38,8 @@ Kodexemplen i handledningarna hjälper dig att förstå koncepten och öva på S
 | [Taggintervall för strukturerat dokument Start XML-mappning](./structured-document-tag-range-start-xml-mapping/) | Lär dig hur du dynamiskt binder XML-data till strukturerade dokumenttaggar i Word med Aspose.Words för .NET. Följ vår steg-för-steg-guide. |
 | [Ställ in platshållartext i Aspose.Words – Komplett C#-guide](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Lär dig hur du sätter platshållartext i Word-dokument med Aspose.Words för .NET i en komplett C#-guide. |
 | [Hur du lägger till innehållskontroll och skapar Word-dokument med Aspose – Komplett guide](./how-to-add-content-control-and-create-word-document-with-asp/) | Steg-för-steg-guide för att lägga till innehållskontroller och skapa Word-dokument med Aspose.Words för .NET. |
+| [Skapa Word-dokument programatiskt – lägg till innehållskontroll och platshållare](./create-word-document-programmatically-add-content-control-an/) | Lär dig hur du skapar ett Word-dokument programatiskt och lägger till en innehållskontroll med en platshållare med Aspose.Words för .NET. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

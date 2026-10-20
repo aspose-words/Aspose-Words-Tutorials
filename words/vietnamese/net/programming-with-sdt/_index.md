@@ -39,6 +39,7 @@ Các mẫu mã được cung cấp trong hướng dẫn sẽ giúp bạn hiểu 
 | [Đặt Văn Bản Trình Giữ trong Aspose.Words – Hướng Dẫn C# Đầy Đủ](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Hướng dẫn chi tiết cách thiết lập văn bản trình giữ cho các điều khiển nội dung trong tài liệu Word bằng Aspose.Words cho .NET. |
 | [Cách Thêm Điều Khiển Nội Dung và Tạo Tài Liệu Word với Aspose – Hướng Dẫn Toàn Diện](./how-to-add-content-control-and-create-word-document-with-asp/) | Tìm hiểu cách thêm điều khiển nội dung và tạo tài liệu Word bằng Aspose.Words trong hướng dẫn chi tiết. |
 
+| [Tạo tài liệu Word bằng lập trình – thêm điều khiển nội dung và placeholder](./create-word-document-programmatically-add-content-control-an/) | Hướng dẫn tạo tài liệu Word mới bằng mã, chèn điều khiển nội dung và placeholder để người dùng nhập dữ liệu. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -39,6 +39,7 @@
 | [Установить текст заполнителя в Aspose.Words – Полное руководство на C#](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Узнайте, как установить текст заполнителя в элементах управления содержимым Word с помощью Aspose.Words для .NET в этом полном руководстве на C#. |
 | [Как добавить элемент управления содержимым и создать документ Word с Aspose – Полное руководство](./how-to-add-content-control-and-create-word-document-with-asp/) | Полное руководство по добавлению элемента управления содержимым и созданию документа Word с помощью Aspose. |
 
+| [Создать документ Word программно – добавить элемент управления содержимым и заполнитель](./create-word-document-programmatically-add-content-control-an/) | Узнайте, как программно создать документ Word, добавить элемент управления содержимым и установить заполнитель. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

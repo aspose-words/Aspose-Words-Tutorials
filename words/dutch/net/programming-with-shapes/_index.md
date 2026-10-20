@@ -67,6 +67,8 @@ Door Aspose.Words voor .NET te gebruiken en deze tutorials te volgen, krijgt u d
 | [Hoe vorm verbergen in Word met C# – Stapsgewijze handleiding](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Leer hoe u een vorm verbergt in een Word‑document met Aspose.Words voor .NET en C# met deze stapsgewijze handleiding. |
 | [Rechthoek tekenen in Word – Voeg vormen toe in Word met Aspose](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Leer hoe u een rechthoek toevoegt en aanpast in een Word‑document met Aspose.Words voor .NET. |
 | [Maak een leeg Word‑document met een verborgen ellipsvorm – volledige C#‑handleiding](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Leer hoe u een leeg Word‑document maakt en een verborgen ellipsvorm toevoegt met Aspose.Words voor .NET in deze stapsgewijze handleiding. |
+| [DOCX-bestand opslaan met gegroepeerde vormen in Word met C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Leer hoe u een DOCX-bestand opslaat met gegroepeerde vormen in Word met C#. |
+| [Hoe vorm verbergen in Word met C# – stapsgewijze handleiding](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

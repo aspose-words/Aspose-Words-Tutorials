@@ -70,6 +70,7 @@ class Program
 | [save docx as txt – convert docx to markdown](./save-docx-as-txt-convert-docx-to-markdown/) | Learn how to convert DOCX to TXT and then to Markdown using Aspose.Words for .NET. |
 | [Save docx as markdown with Aspose.Words – Full C# Guide](./save-docx-as-markdown-with-aspose-words-full-c-guide/) |  |
 | [save docx as markdown – Export Word Math to LaTeX with Aspose.Words](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/) | Export Word Math equations to LaTeX while saving DOCX as Markdown using Aspose.Words. |
+| [Save markdown as docx in C# – step‑by‑step guide](./save-markdown-as-docx-in-c-step-by-step-guide/) |  |
 | [Convert Word to Markdown in C# – Full Guide with Image Extraction](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/) | Learn how to convert Word documents to Markdown in C# with full image extraction using Aspose.Words for .NET. |
 | [Save docx as markdown & extract images – C# guide](./save-docx-as-markdown-extract-images-c-guide/) | Learn how to save DOCX as Markdown and extract images using Aspose.Words for .NET. |
 | [save word as markdown – extract images from docx](./save-word-as-markdown-extract-images-from-docx/) | Learn how to extract images from DOCX while saving Word as Markdown using Aspose.Words for .NET. |

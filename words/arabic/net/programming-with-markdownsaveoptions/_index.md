@@ -196,6 +196,7 @@
 
 ### [تحميل الصور إلى السحابة عند تحويل Word إلى Markdown](./upload-images-to-cloud-when-converting-word-to-markdown/)
 ### [حفظ Word كـ Markdown – تصدير الجداول إلى HTML باستخدام Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/)
+### [حفظ markdown كـ docx في C# – دليل خطوة بخطوة](./save-markdown-as-docx-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
