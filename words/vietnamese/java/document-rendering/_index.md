@@ -45,6 +45,8 @@ Tìm hiểu cách quản lý và nhúng phông chữ trong tài liệu Word bằ
 Tìm hiểu cách sử dụng callback cảnh báo để phát hiện và theo dõi các phông chữ thiếu trong tài liệu.
 ### [Cách bắt cảnh báo – Phát hiện phông chữ thiếu trong Aspose.Words](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
 Hướng dẫn phát hiện và xử lý các cảnh báo khi tài liệu thiếu phông chữ bằng Aspose.Words cho Java.
+### [Tìm phông chữ thiếu trong Java với Aspose.Words – Hướng dẫn toàn diện](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
+Khám phá cách phát hiện và thay thế các phông chữ thiếu trong tài liệu Word khi sử dụng Aspose.Words cho Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
