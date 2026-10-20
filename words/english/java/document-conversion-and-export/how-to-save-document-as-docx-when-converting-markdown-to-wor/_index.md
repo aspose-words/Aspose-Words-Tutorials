@@ -52,7 +52,7 @@ tags:
 - docx
 - java
 - Aspose.Words
-title: Convert Markdown to DOCX with Aspose.Words for Java – Save Document as Word
+title: Save Document as DOCX – Convert Markdown to Word with Aspose.Words for Java
 url: /java/document-conversion-and-export/how-to-save-document-as-docx-when-converting-markdown-to-wor/
 ---
 
@@ -240,12 +240,12 @@ By mastering the **save document as docx** pattern, you can automate any documen
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Load HTML and Save as DOCX with Aspose.Words for Java](/words/english/java/document-loading-and-saving/loading-and-saving-html-documents/)
-- [Convert DOCX to PDF in Java with Aspose.Words – Using Document Converting](/words/english/java/document-converting/using-document-converting/)
-- [Save docx as markdown in Java – Complete Step‑by‑Step Guide](/words/english/java/document-conversion-and-export/save-docx-as-markdown-in-java-complete-step-by-step-guide/)
+- [How to Load HTML and Save as DOCX with Aspose.Words for Java]({{< relref "words/english/java/document-loading-and-saving/loading-and-saving-html-documents/_index.md" >}})
+- [Convert DOCX to PDF in Java with Aspose.Words – Using Document Converting]({{< relref "words/english/java/document-converting/using-document-converting/_index.md" >}})
+- [Save docx as markdown in Java – Complete Step‑by‑Step Guide]({{< relref "words/english/java/document-conversion-and-export/save-docx-as-markdown-in-java-complete-step-by-step-guide/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

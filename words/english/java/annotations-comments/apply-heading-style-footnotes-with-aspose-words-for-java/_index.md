@@ -31,7 +31,7 @@ tags:
 - Java
 - Word processing
 - Document styling
-title: Apply heading style footnotes using Aspose.Words for Java
+title: Apply heading style footnotes with Aspose.Words for Java
 url: /java/annotations-comments/apply-heading-style-footnotes-with-aspose-words-for-java/
 ---
 
@@ -212,9 +212,9 @@ Feel free to adapt the code for your own publishing pipelines, and happy coding!
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Using Footnotes and Endnotes in Aspose.Words for Java](/words/english/java/using-document-elements/using-footnotes-and-endnotes/)
-- [Save Word as PDF with Aspose.Words – Step‑by‑Step Java Guide](/words/english/java/document-conversion-and-export/save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
-- [Export Word to Markdown – Java Guide using Aspose.Words](/words/english/java/document-conversion-and-export/export-word-to-markdown-java-guide-using-aspose-words/)
+- [Using Footnotes and Endnotes in Aspose.Words for Java]({{< relref "/words/english/java/using-document-elements/using-footnotes-and-endnotes/" >}})
+- [Save Word as PDF with Aspose.Words – Step‑by‑Step Java Guide]({{< relref "/words/english/java/document-conversion-and-export/save-word-as-pdf-with-aspose-words-step-by-step-java-guide/" >}})
+- [Export Word to Markdown – Java Guide using Aspose.Words]({{< relref "/words/english/java/document-conversion-and-export/export-word-to-markdown-java-guide-using-aspose-words/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,5 +1,5 @@
 ---
-title: "Add, Delete, and Mark Comments & Annotations with Aspose.Words for Java"
+title: "Manage, Add, Delete, and Mark Comments & Annotations with Aspose.Words for Java"
 description: "Learn how to manage comments, add annotation, insert comment, delete word comments, and mark comment done in Word documents using Aspose.Words for Java. Step‑by‑step guide with real‑world examples."
 weight: 11
 url: "/java/annotations-comments/"

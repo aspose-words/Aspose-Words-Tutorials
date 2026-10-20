@@ -1,6 +1,6 @@
 ---
-title: Manipulate Documents Using Aspose.Words for Java API
-linktitle: Manipulate Documents Using Aspose.Words for Java API
+title: Create, Edit, and Convert Documents with Aspose.Words for Java API
+linktitle: Create, Edit, and Convert Documents with Aspose.Words for Java API
 second_title: Aspose.Words Java Document Processing API
 description: Learn how to efficiently manipulate documents using Aspose.Words for Java with our comprehensive tutorials. Boost your Java document processing skills today!
 weight: 21

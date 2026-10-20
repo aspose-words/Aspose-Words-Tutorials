@@ -279,9 +279,11 @@ In this tutorial you learned how to **create signature options** and **sign a Wo
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Create Load Options in Java – Detect Missing Fonts & How to Load DOCX](/words/english/java/document-loading-and-saving/create-load-options-in-java-detect-missing-fonts-how-to-load/)
-- [Using Document Options and Settings in Aspose.Words for Java](/words/english/java/document-manipulation/using-document-options-and-settings/)
-- [How to Create Editable Ranges in Read‑Only Documents Using Aspose.Words for Java](/words/english/java/security-protection/editable-ranges-aspose-words-java/)
+{{< relref "/words/english/java/document-loading-and-saving/create-load-options-in-java-detect-missing-fonts-how-to-load/" >}}Create Load Options in Java – Detect Missing Fonts & How to Load DOCX{{< /relref >}}
+
+{{< relref "/words/english/java/document-manipulation/using-document-options-and-settings/" >}}Using Document Options and Settings in Aspose.Words for Java{{< /relref >}}
+
+{{< relref "/words/english/java/security-protection/editable-ranges-aspose-words-java/" >}}How to Create Editable Ranges in Read‑Only Documents Using Aspose.Words for Java{{< /relref >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

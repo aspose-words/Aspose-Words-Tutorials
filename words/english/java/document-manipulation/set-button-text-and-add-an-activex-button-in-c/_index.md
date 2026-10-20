@@ -35,7 +35,7 @@ tags:
 - Aspose.Words
 - button control
 - document automation
-title: Set button text and add an ActiveX button in C# using Aspose.Words for .NET
+title: Set button text and add an ActiveX button in C# using Aspose.Words for .NET API
 url: /java/document-manipulation/set-button-text-and-add-an-activex-button-in-c/
 ---
 

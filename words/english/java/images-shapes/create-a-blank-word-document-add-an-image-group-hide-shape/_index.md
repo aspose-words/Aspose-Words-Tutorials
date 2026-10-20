@@ -29,7 +29,7 @@ tags:
 - Aspose.Words
 - C#
 - Document processing
-title: Create a blank Word document, insert an image group, and hide shape using Aspose.Words for .NET
+title: Create a blank Word document, add an image group, and hide shape using Aspose.Words for .NET (C#)
 url: /java/images-shapes/create-a-blank-word-document-add-an-image-group-hide-shape/
 ---
 

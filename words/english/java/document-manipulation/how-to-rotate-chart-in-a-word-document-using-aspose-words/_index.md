@@ -30,7 +30,7 @@ tags:
 - Aspose.Words
 - Java
 - Word automation
-title: How to rotate a doughnut chart in a Word document using Aspose.Words for Java
+title: Rotate doughnut chart in a Word document with Aspose.Words for Java
 url: /java/document-manipulation/how-to-rotate-chart-in-a-word-document-using-aspose-words/
 ---
 
@@ -237,5 +237,4 @@ The following tutorials cover closely related topics that build on the technique
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}

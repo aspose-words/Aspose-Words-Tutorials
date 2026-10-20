@@ -1,6 +1,6 @@
 ---
-title: Implement Document Security with Aspose.Words for Java
-linktitle: Implement Document Security with Aspose.Words for Java
+title: Implement Document Security Using Aspose.Words for Java API
+linktitle: Implement Document Security Using Aspose.Words for Java API
 second_title: Aspose.Words Java Document Processing API
 description: Enhance document security with Aspose.Words for Java! Implement protection, encryption, and digital signatures for robust data safeguarding. 
 weight: 17
@@ -36,19 +36,25 @@ In-depth tutorials cover encryption and digital signatures, enabling developers 
 By mastering document security using Aspose.Words for Java, developers can bolster their word processing and document processing workflows. The tutorials offer step-by-step instructions and practical examples to guide developers in implementing robust document protection. Embrace these tutorials to secure sensitive information and foster trust in your document management processes.
 
 ## Document security tutorials
-### [How to Keep Your Documents Safe and Secure](./keep-documents-safe-secure/)
+### {{< relref "keep-documents-safe-secure/_index.md" >}}How to Keep Your Documents Safe and Secure{{< /relref >}}
 Secure your documents with Aspose.Words for Java. Encrypt, protect, and add digital signatures effortlessly. Keep your data safe.
-### [Securing documents with passwords](./securing-documents-passwords/)
+
+### {{< relref "securing-documents-passwords/_index.md" >}}Securing documents with passwords{{< /relref >}}
 Discover how to secure documents with passwords using Aspose.Words for Java. This step-by-step guide includes source code and expert tips. Keep your data protected.
-### [Managing document permissions](./managing-document-permissions/)
+
+### {{< relref "managing-document-permissions/_index.md" >}}Managing document permissions{{< /relref >}}
 Learn how to manage document permissions effectively using Aspose.Words for Java. This comprehensive guide provides step-by-step instructions and source code examples.
-### [Document encryption and decryption](./document-encryption-decryption/)
+
+### {{< relref "document-encryption-decryption/_index.md" >}}Document encryption and decryption{{< /relref >}}
 Learn how to encrypt and decrypt documents with Aspose.Words for Java. Secure your data efficiently with step-by-step guidance and source code examples.
-### [Digital signatures in documents](./digital-signatures-in-documents/)
-Learn how to implement secure digital signatures in documents using Aspose.Words for Java. Ensure document integrity with step-by-step guidance and source code
-### [Document redaction and data protection](./document-redaction-data-protection/)
+
+### {{< relref "digital-signatures-in-documents/_index.md" >}}Digital signatures in documents{{< /relref >}}
+Learn how to implement secure digital signatures in documents using Aspose.Words for Java. Ensure document integrity with step-by-step guidance and source code.
+
+### {{< relref "document-redaction-data-protection/_index.md" >}}Document redaction and data protection{{< /relref >}}
 Learn how to secure your documents and redact sensitive data using Aspose.Words for Java. Step-by-step guide with source code.
-### [Create signature options and sign a Word doc with XAdES EPES](./create-signature-options-and-sign-a-word-doc-with-xades-epes/)
+
+### {{< relref "create-signature-options-and-sign-a-word-doc-with-xades-epes/_index.md" >}}Create signature options and sign a Word doc with XAdES EPES{{< /relref >}}
 Learn how to configure signature options and apply XAdES EPES signatures to Word documents using Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
