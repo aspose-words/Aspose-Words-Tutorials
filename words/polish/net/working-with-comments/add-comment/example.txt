@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: Ten tutorial pokazuje, jak utworzyć nowy dokument Word, dodać trzy akapity, zlokalizować konkretny akapit, dołączyć do niego komentarz z informacjami o autorze oraz zapisać wynik jako plik DOCX przy użyciu Aspose.Words.
+//ExStepSummary:0: Zainicjuj nowy obiekt Document oraz DocumentBuilder, aby rozpocząć budowanie pliku Word.
+//ExStepSummary:1: Użyj DocumentBuilder.Writeln, aby dodać trzy oddzielne akapity tekstu do dokumentu.
+//ExStepSummary:2: Bezpiecznie pobierz drugi akapit, przechodząc do pierwszego, jeśli dokument zawiera mniej niż dwa akapity.
+//ExStepSummary:3: Utwórz obiekt Comment z danymi autora, ustaw jego tekst i dołącz go do wybranego akapitu.
+//ExStepSummary:4: Zapisz zmodyfikowany dokument jako plik DOCX o nazwie 'sample.docx' w bieżącym folderze.
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder builderObj = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+builderObj.Writeln("Introductory line.");
+builderObj.Writeln("Middle line.");
+builderObj.Writeln("Concluding line.");
+
+//ExStep:2-
+Paragraph? chosenParagraph = null;
+ParagraphCollection? paraList = wordDoc.FirstSection?.Body?.Paragraphs;
+if (paraList != null && paraList.Count > 1)
+{
+    chosenParagraph = paraList[1];
+}
+else if (paraList != null && paraList.Count > 0)
+{
+    chosenParagraph = paraList[0];
+}
+
+//ExStep:3-
+if (chosenParagraph != null)
+{
+    Comment note = new Comment(wordDoc, "Jordan", "JH", DateTime.Now);
+    note.SetText("Please examine this section.");
+    chosenParagraph.AppendChild(note);
+}
+
+//ExStep:4-
+wordDoc.Save("sample.docx");
+//ExEnd

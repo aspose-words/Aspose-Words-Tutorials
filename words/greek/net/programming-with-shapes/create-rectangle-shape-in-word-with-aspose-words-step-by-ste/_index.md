@@ -1,25 +1,25 @@
 ---
 category: general
-date: 2025-12-29
-description: Δημιουργήστε σχήμα ορθογωνίου σε ένα έγγραφο Word χρησιμοποιώντας το
-  Aspose.Words C#. Μάθετε πώς να ορίζετε τη διαφάνεια του σχήματος, το χρώμα της σκιάς
-  και να αποθηκεύετε το έγγραφο Word χωρίς κόπο.
+date: 2026-02-18
+description: Δημιουργήστε σχήμα ορθογωνίου χρησιμοποιώντας το Aspose.Words και μάθετε
+  πώς να προσθέσετε σκιά, να ορίσετε το μέγεθος του σχήματος και να αποθηκεύσετε το
+  έγγραφο Word σε λίγα λεπτά.
 draft: false
 keywords:
 - create rectangle shape
-- set shape transparency
-- set shadow color
+- how to add shadow
 - save word document
-- create word document
+- set shape size
+- how to create document
 language: el
-og_description: Δημιουργήστε σχήμα ορθογωνίου σε έγγραφο Word με το Aspose.Words C#.
-  Αυτός ο οδηγός δείχνει πώς να ορίσετε τη διαφάνεια του σχήματος, να ορίσετε το χρώμα
-  της σκιάς και να αποθηκεύσετε το έγγραφο Word.
-og_title: Δημιουργία σχήματος ορθογωνίου στο Word – Πλήρες σεμινάριο Aspose.Words
+og_description: Δημιουργήστε σχήμα ορθογωνίου σε αρχείο Word, μάθετε πώς να προσθέσετε
+  σκιά, ορίστε το μέγεθος του σχήματος και αποθηκεύστε το έγγραφο με το Aspose.Words
+  σε C#.
+og_title: Δημιουργία σχήματος ορθογωνίου στο Word – Πλήρης οδηγός Aspose.Words
 tags:
 - Aspose.Words
 - C#
-- Word Automation
+- Word automation
 title: Δημιουργία σχήματος ορθογωνίου στο Word με το Aspose.Words – Οδηγός βήμα‑προς‑βήμα
 url: /el/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/
 ---
@@ -28,180 +28,187 @@ url: /el/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Δημιουργία σχήματος ορθογωνίου στο Word – Πλήρης Οδηγός Aspose.Words
+# Δημιουργία σχήματος ορθογωνίου στο Word με Aspose.Words – Οδηγός βήμα‑βήμα
 
-Κάποτε χρειάστηκε να **δημιουργήσετε σχήμα ορθογωνίου** σε ένα έγγραφο Word αλλά δεν ήξερατε από πού να ξεκινήσετε; Δεν είστε μόνοι· πολλοί προγραμματιστές αντιμετωπίζουν αυτό το εμπόδιο όταν αυτοματοποιούν αναφορές ή τιμολόγια. Σε αυτόν τον οδηγό θα περάσουμε βήμα‑βήμα από τη δημιουργία του σχήματος, τη ρύθμιση της διαφάνειας, το χρώμα της σκιάς και, τέλος, την **αποθήκευση του εγγράφου Word** χρησιμοποιώντας το Aspose.Words για .NET.
+Κάποτε χρειάστηκε να **δημιουργήσετε σχήμα ορθογωνίου** σε ένα αρχείο Word αλλά δεν ήξερατε από πού να ξεκινήσετε; Δεν είστε μόνοι—οι προγραμματιστές συχνά ρωτούν: «πώς προσθέτω σκιά σε ένα σχήμα και ταυτόχρονα το έγγραφο παραμένει επεξεργάσιμο;» Σε αυτό το tutorial θα απαντήσουμε σε αυτό και θα σας δείξουμε επίσης **πώς να προσθέσετε σκιά**, **πώς να ορίσετε το μέγεθος του σχήματος**, και **πώς να αποθηκεύσετε το έγγραφο Word** όλα σε μία ομαλή ροή.
 
-Θα καλύψουμε τα πάντα, από το αρχικό αντικείμενο Document μέχρι το τελικό αρχείο `.docx` στο δίσκο, ώστε στο τέλος να μπορείτε να **δημιουργήσετε έγγραφο Word** προγραμματιστικά χωρίς εικασίες. Χωρίς εξωτερικές αναφορές, μόνο μια αυτόνομη λύση που μπορείτε να αντιγράψετε‑επικολλήσετε στο έργο σας.
+Θα περάσουμε από όλα όσα χρειάζεστε, από την αρχικοποίηση ενός νέου εγγράφου (ναι, αυτό είναι το πρώτο βήμα για **πώς να δημιουργήσετε έγγραφο**) μέχρι την αποθήκευση του τελικού *.docx* στο δίσκο. Χωρίς εξωτερικές αναφορές, μόνο ένα αυτόνομο παράδειγμα που μπορείτε να αντιγράψετε‑επικολλήσετε στο Visual Studio και να τρέξετε σήμερα.
+
+---
 
 ## Προαπαιτούμενα
 
-- .NET 6.0 ή νεότερο (ο κώδικας λειτουργεί επίσης με .NET Framework 4.7+)
-- Πακέτο NuGet Aspose.Words for .NET (`Install-Package Aspose.Words`)
-- Βασική εξοικείωση με τη σύνταξη C#
-- Ένα IDE της επιλογής σας (Visual Studio, Rider, VS Code κ.λπ.)
+- .NET 6+ (ή .NET Framework 4.7+). Το Aspose.Words λειτουργεί με οποιοδήποτε πρόσφατο .NET runtime.
+- Έγκυρη άδεια Aspose.Words (ή το δωρεάν κλειδί αξιολόγησης) – διαφορετικά θα εμφανίζεται υδατογράφημα.
+- Visual Studio, Rider ή οποιονδήποτε επεξεργαστή C# προτιμάτε.
+- Βασικές γνώσεις C#—τίποτα περίπλοκο, μόνο η δυνατότητα να τρέξετε μια εφαρμογή κονσόλας.
 
-> **Pro tip:** Αν χρησιμοποιείτε δωρεάν δοκιμαστική έκδοση του Aspose.Words, η βιβλιοθήκη θα προσθέσει υδατογράφημα στο αρχείο εξόδου. Για παραγωγή θα χρειαστείτε έγκυρη άδεια.
+> **Pro tip:** Αν εργάζεστε σε Mac, ο ίδιος κώδικας τρέχει υπό .NET 6 με VS Code—απλώς βεβαιωθείτε ότι έχετε αναφερθεί στο πακέτο NuGet `Aspose.Words`.
 
-## Βήμα 1: Αρχικοποίηση του Document και του Builder
+---
 
-Το πρώτο που κάνουμε είναι να δημιουργήσουμε ένα νέο, κενό έγγραφο Word και έναν `DocumentBuilder` που μας επιτρέπει την εισαγωγή περιεχομένου. Σκεφτείτε τον builder ως ένα εικονικό στυλό που σχεδιάζει στη σελίδα.
+## Βήμα 1: Αρχικοποίηση του εγγράφου – το θεμέλιο του **πώς να δημιουργήσετε έγγραφο**
+
+Πριν μπορέσουμε να σχεδιάσουμε οτιδήποτε, χρειαζόμαστε έναν κενό καμβά. Το Aspose.Words το ονομάζει `Document`.  
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using System.Drawing;
 
-// Create a new blank document
+// Step 1: Create a new blank document
 Document document = new Document();
-
-// The builder provides methods to add text, tables, shapes, etc.
-DocumentBuilder builder = new DocumentBuilder(document);
 ```
 
-> **Why this matters:** Χωρίς έναν `DocumentBuilder` θα έπρεπε να χειρίζεστε το δέντρο κόμβων χαμηλού επιπέδου απευθείας, κάτι που είναι επιρρεπές σε σφάλματα και πιο δύσκολο στην ανάγνωση.
+> **Γιατί είναι σημαντικό:** Το αντικείμενο `Document` αντιπροσωπεύει ολόκληρο το αρχείο *.docx*. Όλα τα σχήματα, οι παράγραφοι και οι ενότητες που προσθέτετε γίνονται παιδιά αυτού του αντικειμένου. Ξεκινώντας με ένα καθαρό έγγραφο εξασφαλίζετε ότι δεν υπάρχουν κρυφά στυλ που θα επηρεάσουν το ορθογώνιο σας.
 
-## Βήμα 2: Δημιουργία σχήματος ορθογωνίου
+---
 
-Τώρα δημιουργούμε πραγματικά **σχήμα ορθογωνίου**. Η μέθοδος `InsertShape` δέχεται μια τιμή του enum `ShapeType`, πλάτος και ύψος (σε points). Το αντικείμενο `Shape` που επιστρέφεται μας επιτρέπει να ρυθμίσουμε οπτικές ιδιότητες αργότερα.
+## Βήμα 2: Ορισμός του ορθογωνίου και **ορισμός μεγέθους σχήματος**
+
+Ένα ορθογώνιο είναι απλώς ένα `Shape` με `ShapeType.Rectangle`. Θα του δώσουμε ρητές διαστάσεις ώστε να φαίνεται ακριβώς όπως θέλουμε.
 
 ```csharp
-// Insert a rectangle 150 pts wide and 80 pts tall
-Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 80);
+// Step 2: Create a rectangular shape and define its size
+Shape rectangleShape = new Shape(document, ShapeType.Rectangle);
+rectangleShape.Width  = 200; // width in points (≈2.78 inches)
+rectangleShape.Height = 100; // height in points (≈1.39 inches)
 ```
 
-Σε αυτό το σημείο το ορθογώνιο είναι ένα συμπαγές μαύρο κουτί που είναι δεσμευμένο στην τρέχουσα παράγραφο. Μπορείτε να το μετακινήσετε, να αλλάξετε το μέγεθός του ή ακόμη και να το περιστρέψετε αργότερα αν χρειαστεί.
+> **Τι σημαίνουν οι αριθμοί:** Το Aspose.Words χρησιμοποιεί μονάδες σημείου (1 pt = 1/72 in). Προσαρμόστε τις τιμές ώστε να ταιριάζουν στο layout σας· για μια τυπική σελίδα A4, 200 pt είναι ένα άνετο πλάτος.
 
-![δημιουργία σχήματος ορθογωνίου με σκιά](/images/rectangle-shadow.png "Έγγραφο Word που εμφανίζει σχήμα ορθογωνίου με γκρι σκιά")
+---
 
-*Image alt text: δημιουργία σχήματος ορθογωνίου με σκιά σε έγγραφο Word*
+## Βήμα 3: **Πώς να προσθέσετε σκιά** – κάντε το σχήμα να «αναδειχθεί»
 
-## Βήμα 3: Ρύθμιση διαφάνειας σχήματος
-
-Η διαφάνεια είναι το επίπεδο «διάφανο‑πέρασμα» του γεμίσματος του σχήματος. Το Aspose.Words χρησιμοποιεί την ιδιότητα `Transparency` με τιμές από `0.0` (αδιαφανές) έως `1.0` (πλήρως διαφανές). Εδώ **ρυθμίζουμε τη διαφάνεια του σχήματος** στο 40 % ώστε το κείμενο κάτω να παραμένει αναγνώσιμο.
+Οι σκιές δίνουν μια οπτική ένδειξη ότι το σχήμα είναι «υψωμένο» από τη σελίδα. Η ιδιότητα `Shadow` σας επιτρέπει να ρυθμίσετε χρώμα, απόσταση, διαφάνεια και θολότητα.
 
 ```csharp
-// Make the rectangle 40 % transparent
-rectangleShape.Fill.Transparency = 0.4; // 0.0 = opaque, 1.0 = invisible
+// Step 3: Apply a shadow to the shape
+rectangleShape.Shadow.Color        = Color.Black; // Shadow color
+rectangleShape.Shadow.Distance    = 5;           // Offset distance in points
+rectangleShape.Shadow.Transparency = 0.4;        // 40 % transparent
+rectangleShape.Shadow.BlurRadius  = 8;           // Soft edge radius
 ```
 
-> **Edge case:** Αν χρειάζεστε ένα εντελώς αόρατο σχήμα αλλά θέλετε να εμφανίζεται η σκιά, ορίστε `Transparency` στο `1.0` και δώ στο σχήμα μη‑μηδενικό πάχος περιγράμματος.
+> **Γιατί η διαφάνεια:** Μια πλήρως αδιαφανής σκιά μπορεί να φαίνεται σκληρή. Ορίζοντάς την στο 0.4 το εφέ γίνεται πιο διακριτικό και επαγγελματικό.
 
-## Βήμα 4: Διαμόρφωση της σκιάς
+---
 
-Μια διακριτική σκιά προσθέτει βάθος. Θα **ορίσουμε το χρώμα της σκιάς** σε μεσαίο γκρι, θα ρυθμίσουμε την ακτίνα θολώματος και θα τοποθετήσουμε την σκιά με μερικά points οριζόντια και κάθετα.
+## Βήμα 4: Τοποθέτηση του ορθογωνίου – ενσωμάτωση στη ροή κειμένου
+
+Αν θέλετε το σχήμα να συμπεριφέρεται σαν χαρακτήρας σε μια παράγραφο, ορίστε το `WrapType` σε `Inline`. Αυτό διατηρεί τη διάταξη προβλέψιμη, ειδικά όταν το έγγραφο επεξεργαστεί αργότερα.
 
 ```csharp
-// Enable the shadow effect
-rectangleShape.Shadow.Enabled = true;
-
-// Shadow color – a neutral gray
-rectangleShape.Shadow.Color = System.Drawing.Color.Gray;
-
-// 40 % transparent shadow (same as shape's fill)
-rectangleShape.Shadow.Transparency = 0.4;
-
-// Blur radius makes the edge softer
-rectangleShape.Shadow.Blur = 6;
-
-// Horizontal and vertical offsets (in points)
-rectangleShape.Shadow.OffsetX = 5;
-rectangleShape.Shadow.OffsetY = 5;
+// Step 4: Set the shape to flow inline with the surrounding text
+rectangleShape.WrapType = WrapType.Inline;
 ```
 
-> **Why this matters:** Μια σκιά που είναι πολύ οξεία ή πολύ σκοτεινή μπορεί να μοιάζει με ελάττωμα εκτύπωσης. Ρυθμίστε το `Blur` και τη `Transparency` μέχρι να φαίνεται φυσική.
+> **Ακραία περίπτωση:** Αν χρειάζεστε το ορθογώνιο να «πλέει» πάνω από το κείμενο (π.χ. υδατογράφημα), αλλάξτε το `WrapType` σε `Square` ή `BehindText`.
 
-## Βήμα 5: Αποθήκευση του εγγράφου Word
+---
 
-Τέλος **αποθηκεύουμε το έγγραφο Word** στον δίσκο. Η μέθοδος `Save` καθορίζει αυτόματα τη μορφή αρχείου από την επέκταση· το `.docx` είναι η σύγχρονη μορφή OpenXML.
+## Βήμα 5: Εισαγωγή του σχήματος στο σώμα του εγγράφου
+
+Τώρα τοποθετούμε πραγματικά το ορθογώνιο στην πρώτη παράγραφο. Αν το έγγραφο δεν έχει ακόμη περιεχόμενο, το `FirstParagraph` δημιουργείται αυτόματα.
 
 ```csharp
-// Save the document to the desired folder
-document.Save(@"C:\Temp\ShadowRectangle.docx");
+// Step 5: Insert the shape into the first paragraph of the document
+document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
 ```
 
-Αν ο φάκελος δεν υπάρχει, το Aspose.Words θα πετάξει `ArgumentException`. Βεβαιωθείτε ότι η διαδρομή είναι έγκυρη ή δημιουργήστε το φάκελο εκ των προτέρων.
+> **Συμβουλή:** Μπορείτε επίσης να δημιουργήσετε μια νέα παράγραφο πρώτα και μετά να προσαρτήσετε το σχήμα—χρήσιμο όταν χρειάζεται περιβάλλον κείμενο.
 
-## Πλήρες Παράδειγμα Εργασίας
+---
 
-Παρακάτω είναι το πλήρες, έτοιμο‑για‑εκτέλεση πρόγραμμα που συνδυάζει όλα τα βήματα. Αντιγράψτε το σε ένα νέο έργο κονσόλας και πατήστε **F5**.
+## Βήμα 6: **Αποθήκευση εγγράφου Word** – το τελικό βήμα
+
+Με όλα στη θέση τους, η αποθήκευση του αρχείου γίνεται με μία γραμμή κώδικα. Επιλέξτε οποιοδήποτε μονοπάτι θέλετε· το παράδειγμα χρησιμοποιεί ένα placeholder που πρέπει να αντικαταστήσετε με το δικό σας φάκελο.
 
 ```csharp
-using System;
+// Step 6: Save the document with the shadowed shape
+document.Save(@"C:\Temp\ShadowShape.docx");
+```
+
+> **Αποτέλεσμα:** Ανοίξτε το παραγόμενο *.docx* στο Microsoft Word. Θα δείτε ένα ορθογώνιο με μαύρη σκιά, πλάτος 200 pt και ύψος 100 pt, ενσωματωμένο στην πρώτη παράγραφο.
+
+---
+
+## Αναμενόμενο αποτέλεσμα
+
+Όταν ανοίξετε **ShadowShape.docx**, το έγγραφο εμφανίζει:
+
+- Μία ενιαία παράγραφο που περιέχει ένα σχήμα ορθογωνίου.
+- Το ορθογώνιο έχει μια διακριτική μαύρη σκιά με μετατόπιση 5 pt.
+- Το μέγεθος του σχήματος ταιριάζει με τις διαστάσεις που ορίστηκαν στο Βήμα 2.
+- Δεν εμφανίζεται επιπλέον κείμενο εκτός αν το προσθέσετε χειροκίνητα.
+
+Αν το σχήμα δεν εμφανίζεται, ελέγξτε ξανά ότι έχετε αναφερθεί στη σωστή έκδοση του Aspose.Words και ότι η άδειά σας (ή η δοκιμαστική) είναι ενεργή.
+
+---
+
+## Συχνές ερωτήσεις & Παραλλαγές
+
+| Ερώτηση | Απάντηση |
+|----------|--------|
+| *Μπορώ να αλλάξω το χρώμα της σκιάς σε κάτι άλλο εκτός του μαύρου;* | Φυσικά—ορίστε `rectangleShape.Shadow.Color = Color.Blue;` ή οποιοδήποτε `System.Drawing.Color`. |
+| *Τι γίνεται αν χρειαστώ μεγαλύτερο ορθογώνιο;* | Προσαρμόστε τις τιμές `Width` και `Height`. Θυμηθείτε ότι είναι σε σημεία· 72 pt = 1 in. |
+| *Μπορεί να τοποθετηθεί το σχήμα σε απόλυτη θέση;* | Ναι—χρησιμοποιήστε `WrapType = WrapType.Absolute` και ορίστε τις ιδιότητες `Top`/`Left`. |
+| *Λειτουργεί αυτό με .NET Core;* | Ναι. Το Aspose.Words είναι cross‑platform· απλώς εγκαταστήστε το πακέτο NuGet για .NET Standard. |
+| *Μπορώ να προσθέσω κείμενο μέσα στο ορθογώνιο;* | Όχι άμεσα· θα πρέπει να εισάγετε ένα σχήμα `TextBox` αντί για απλό ορθογώνιο. |
+
+---
+
+## Πλήρες λειτουργικό παράδειγμα (Έτοιμο για αντιγραφή‑επικόλληση)
+
+```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using System.Drawing;
 
-namespace AsposeRectangleDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main()
-        {
-            // 1️⃣ Initialize document and builder
-            Document document = new Document();
-            DocumentBuilder builder = new DocumentBuilder(document);
+        // 1️⃣ Initialize a new document
+        Document document = new Document();
 
-            // 2️⃣ Insert rectangle shape
-            Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 80);
+        // 2️⃣ Create rectangle and set its size
+        Shape rectangleShape = new Shape(document, ShapeType.Rectangle);
+        rectangleShape.Width  = 200;
+        rectangleShape.Height = 100;
 
-            // 3️⃣ Set shape transparency (40 % transparent)
-            rectangleShape.Fill.Transparency = 0.4;
+        // 3️⃣ Add a subtle black shadow
+        rectangleShape.Shadow.Color         = Color.Black;
+        rectangleShape.Shadow.Distance     = 5;
+        rectangleShape.Shadow.Transparency = 0.4;
+        rectangleShape.Shadow.BlurRadius   = 8;
 
-            // 4️⃣ Configure shadow (color, blur, offset, transparency)
-            rectangleShape.Shadow.Enabled = true;
-            rectangleShape.Shadow.Color = System.Drawing.Color.Gray;
-            rectangleShape.Shadow.Transparency = 0.4;
-            rectangleShape.Shadow.Blur = 6;
-            rectangleShape.Shadow.OffsetX = 5;
-            rectangleShape.Shadow.OffsetY = 5;
+        // 4️⃣ Make the shape flow inline with text
+        rectangleShape.WrapType = WrapType.Inline;
 
-            // 5️⃣ Save the document
-            string outputPath = @"C:\Temp\ShadowRectangle.docx";
-            document.Save(outputPath);
+        // 5️⃣ Insert the shape into the first paragraph
+        document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
 
-            Console.WriteLine($"Document saved to {outputPath}");
-        }
+        // 6️⃣ Persist the file
+        document.Save(@"C:\Temp\ShadowShape.docx");
+
+        System.Console.WriteLine("Document saved successfully!");
     }
 }
 ```
 
-### Αναμενόμενο αποτέλεσμα
-
-Ανοίξτε το `ShadowRectangle.docx` στο Microsoft Word. Θα πρέπει να δείτε ένα ανοιχτό‑γκρι ορθογώνιο με μια ήπια, ελαφρώς μετατοπισμένη σκιά, και όλα τα στοιχεία να είναι σε 40 % διαφάνεια. Το σχήμα βρίσκεται σε μια κενή σελίδα, έτοιμο για επιπλέον περιεχόμενο.
-
-## Συχνές Ερωτήσεις Παραλλαγές
-
-**Τι γίνεται αν χρειάζομαι διαφορετικό σχήμα;**  
-Αντικαταστήστε το `ShapeType.Rectangle` με οποιαδήποτε άλλη τιμή του enum (`Ellipse`, `Triangle`, `Star`, κ.λπ.). Το υπόλοιπο του κώδικα παραμένει ίδιο.
-
-**Μπορώ να αλλάξω το χρώμα του περιγράμματος;**  
-Ναι—χρησιμοποιήστε `rectangleShape.StrokeColor = System.Drawing.Color.Blue;` και προαιρετικά ορίστε `rectangleShape.StrokeWeight = 1.5;`.
-
-**Πώς τοποθετώ το σχήμα σε συγκεκριμένη θέση στη σελίδα;**  
-Ορίστε `rectangleShape.WrapType = WrapType.None;` και στη συνέχεια προσαρμόστε τιςιότητες `rectangleShape.Left` και `rectangleShape.Top` (τιμές σε points).
-
-**Μπορεί να προστεθεί κείμενο μέσα στο ορθογώνιο;**  
-Απόλυτα. Μετά τη δημιουργία του σχήματος, μπορείτε να καλέσετε `rectangleShape.AppendChild(new Paragraph(document))` και μετά να προσθέσετε ένα `Run` με το κείμενό σας. Θυμηθείτε να ορίσετε τις ιδιότητες `rectangleShape.TextBox` αν θέλετε πιο πλούσια μορφοποίηση.
-
-## Pro Tips & Pitfalls
-
-- **License early:** Αν ξεχάσετε να εφαρμόσετε άδεια, το Aspose.Words θα εισάγει υδατογράφημα στην πρώτη σελίδα, κάτι που μπορεί να προκαλέσει σύγχυση κατά τη δοκιμή.
-- **Performance tip:** Όταν δημιουργείτε πολλά έγγραφα σε βρόχο, επαναχρησιμοποιήστε ένα μόνο αντικείμενο `Document` και καλέστε `document.RemoveAllChildren();` μετά από κάθε αποθήκευση για να αποφύγετε υπερβολική πίεση στο GC.
-- **Shadow visibility:** Σε οθόνες χαμηλής ανάλυσης μια διακριτική σκιά μπορεί να φαίνεται αόρατη. Αυξήστε το `Blur` ή τα `OffsetX/Y` για εντοπισμό σφαλμάτων, μετά μειώστε τα για παραγωγή.
-
-## Επόμενα Βήματα
-
-Τώρα που ξέρετε πώς να **δημιουργήσετε σχήμα ορθογωνίου**, **ρυθμίσετε τη διαφάνεια του σχήματος**, **ορίσετε το χρώμα της σκιάς** και **αποθηκεύσετε το έγγραφο Word**, σκεφτείτε να επεκτείνετε τον οδηγό:
-
-- Προσθέστε πολλαπλά σχήματα και ομαδοποιήστε τα.
-- Εισάγετε το ορθογώνιο μέσα σε κελί πίνακα για διάταξη αναφοράς.
-- Συνδυάστε το σχήμα με `DocumentBuilder.InsertHtml` για επικάλυψη περιεχομένου HTML‑styled.
-- Εξερευνήστε άλλα οπτικά εφέ όπως `Glow` ή `Reflection` για πιο πλούσια έγγραφα τύπου UI.
-
-Πειραματιστείτε, σπάστε πράγματα, και μετά βελτιώστε—η προγραμματιστική δημιουργία εγγράφων είναι ένα εργαστήριο όπου ο οπτικός σχεδιασμός συναντά τον κώδικα.
+Τρέξτε το πρόγραμμα, μεταβείτε στο `C:\Temp\ShadowShape.docx` και θα δείτε το ορθογώνιο με σκιά ακριβώς όπως περιγράφηκε.
 
 ---
 
-*Καλή προγραμματιστική! Αν αντιμετωπίσατε κάποιο πρόβλημα, αφήστε ένα σχόλιο παρακάτω και θα το λύσουμε μαζί.*
+## Συμπέρασμα
+
+Τώρα ξέρετε πώς να **δημιουργήσετε σχήμα ορθογωνίου** σε ένα αρχείο Word χρησιμοποιώντας το Aspose.Words, πώς να **ορίσετε το μέγεθος του σχήματος**, **προσθέσετε σκιά**, και τελικά **αποθηκεύσετε το έγγραφο Word** με τις αλλαγές. Η όλη διαδικασία—από το **πώς να δημιουργήσετε έγγραφο** μέχρι την αποθήκευση του αποτελέσματος—περιλαμβάνεται σε λίγες γραμμές C# και μπορεί να επεκταθεί για πιο σύνθετες διατάξεις.
+
+Έτοιμοι για την επόμενη πρόκληση; Δοκιμάστε να αντικαταστήσετε το ορθογώνιο με σχήμα με στρογγυλεμένες γωνίες, πειραματιστείτε με διαφορετικά χρώματα σκιάς, ή ενσωματώστε το σχήμα μέσα σε κελί πίνακα. Κάθε τροποποίηση ενισχύει τις ίδιες βασικές έννοιες που καλύψαμε εδώ.
+
+Αν βρήκατε αυτόν τον οδηγό χρήσιμο, μοιραστείτε τον, αφήστε ένα σχόλιο με τις δικές σας παραλλαγές, ή εξερευνήστε τα άλλα tutorials μας για αυτοματοποίηση Word, όπως η εισαγωγή εικόνων ή η δημιουργία πινάκων με Aspose.Words. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -19,6 +19,15 @@
 tych samouczkach poznasz różne aspekty przetwarzania tekstu z komentarzami w dokumentach Worda przy użyciu Aspose.Words dla .NET. Odkryjesz, jak dodawać komentarze do dokumentów, zakotwiczać odpowiedzi na komentarze do określonego tekstu, dodawać i usuwać odpowiedzi na komentarze oraz rozwiązywać komentarze i ich odpowiedzi. Każdy samouczek zawiera przewodnik krok po kroku z pełnym kodem źródłowym, umożliwiający ulepszenie współpracy i zarządzania opiniami w dokumentach Worda przy użyciu Aspose.Words dla .NET.
 
  ## Samouczki
+
+{{< tutorial-card link="./add-hyperlink-comment/" title="Dodaj komentarz z hiperłączem i wyeksportuj jako adnotację PDF przy użyciu Aspose.Words for .NET" imgSrc="./add-hyperlink-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-comment/" title="Wstaw komentarz do określonego akapitu w dokumencie Word przy użyciu Aspose.Words for .NET" imgSrc="./add-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./style-comment-text/" title="Zastosuj niestandardowy styl do tekstu komentarza w dokumentach Word przy użyciu Aspose.Words for .NET" imgSrc="./style-comment-text/images/thumb.png" >}}
+
+
+
 | Tytuł | Opis |
 | --- | --- |
 | [Dodaj komentarze](./add-comments/) | Dowiedz się, jak dodawać komentarze do dokumentów Word za pomocą Aspose.Words dla .NET z naszym przewodnikiem. Ulepsz proces współpracy nad dokumentami bez wysiłku. |

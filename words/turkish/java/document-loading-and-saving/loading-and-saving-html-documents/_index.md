@@ -1,11 +1,10 @@
 ---
-date: 2025-12-20
-description: Aspose.Words for Java ile HTML'yi nasıl yükleyeceğinizi ve HTML'yi DOCX'e
-  nasıl dönüştüreceğinizi öğrenin. Adım adım rehber, DOCX dosyalarını nasıl kaydedeceğinizi
-  ve yapılandırılmış belge etiketlerini nasıl kullanacağınızı gösterir.
+date: 2026-02-24
+description: Aspose.Words for Java kullanarak HTML nasıl yüklenir ve DOCX nasıl kaydedilir
+  öğrenin – HTML'den DOCX'e dönüşüm için adım adım kılavuz.
 linktitle: Loading and Saving HTML Documents
 second_title: Aspose.Words Java Document Processing API
-title: Aspose.Words for Java kullanarak HTML'yi yükleme ve DOCX olarak kaydetme
+title: Aspose.Words for Java ile HTML'yi Yükleyip DOCX Olarak Kaydetme
 url: /tr/java/document-loading-and-saving/loading-and-saving-html-documents/
 weight: 10
 ---
@@ -16,37 +15,32 @@ weight: 10
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# HTML'yi Yükleme ve Aspose.Words for Java ile DOCX Olarak Kaydetme
+# HTML'yi Yükleme ve DOCX Olarak Kaydetme Aspose.Words for Java ile
 
-## Aspose.Words for Java ile HTML Belgelerini Yükleme ve Kaydetmeye Giriş
-
-Bu makalede, **HTML'yi nasıl yükleyeceğinizi** ve Aspose.Words for Java kütüphanesini kullanarak bir DOCX dosyası olarak nasıl kaydedeceğinizi inceleyeceğiz. Aspose.Words, Word belgelerini programatik olarak manipüle etmenizi sağlayan güçlü bir API'dir ve HTML içe/dışa aktarma konusunda kapsamlı destek sunar. Yükleme seçeneklerini ayarlamaktan sonucu bir Word belgesi olarak kalıcı hale getirmeye kadar tüm süreci adım adım göstereceğiz.
+Bu öğreticide **HTML nasıl yüklenir** dosyalarını bir `Document` nesnesine nasıl yükleyeceğinizi ve ardından **DOCX nasıl kaydedilir** dosyalarını nasıl kaydedeceğinizi keşfedeceksiniz—hepsi güçlü **Aspose.Words for Java** kütüphanesi sayesinde. İster basit kod parçacıklarını ister tam özellikli web sayfalarını dönüştürüyor olun, aşağıdaki adımlar HTML‑to‑DOCX dönüşümü için güvenilir, üretim‑hazır bir yaklaşım sunar.
 
 ## Hızlı Yanıtlar
-- **HTML'yi yüklemek için birincil sınıf nedir?** `Document` ve `HtmlLoadOptions`.
-- **Hangi seçenek Structured Document Tags'i etkinleştirir?** `HtmlLoadOptions.setPreferredControlType(HtmlControlType.STRUCTURED_DOCUMENT_TAG)`.
-- **HTML'yi tek adımda DOCX'e dönüştürebilir miyim?** Evet – HTML'yi yükleyin ve `doc.save(...".docx")` çağrısını yapın.
-- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme sürümü yeterlidir; üretim ortamı için ticari lisans gereklidir.
-- **Hangi Java sürümü gereklidir?** Java 8 veya üzeri desteklenir.
+- **Kod ne yapıyor?** Bir HTML dizesini yükler, bunu yapılandırılmış belge etiketi olarak ele alır ve bir DOCX dosyası olarak kaydeder.  
+- **Hangi kütüphane gerekiyor?** Aspose.Words for Java (\"aspose words java\" SDK).  
+- **Lisans gerekiyor mu?** Test için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.  
+- **HTML yükleme seçeneklerini özelleştirebilir miyim?** Evet – `PreferredControlType` değerini `STRUCTURED_DOCUMENT_TAG` olarak ayarlayabilirsiniz.  
+- **Bu kurumsal projeler için uygun mu?** Kesinlikle; API yüksek hacimli, kurumsal düzeyde belge işleme için tasarlanmıştır.
 
-## Aspose.Words bağlamında “HTML'yi nasıl yüklenir” nedir?
-HTML'yi yüklemek, bir HTML dizesini veya dosyasını okuyup Aspose.Words `Document` nesnesine dönüştürmek anlamına gelir. Bu nesne daha sonra düzenlenebilir, biçimlendirilebilir veya API'nin desteklediği herhangi bir formata (DOCX, PDF, RTF vb.) kaydedilebilir.
+## Aspose.Words for Java ile **HTML nasıl yüklenir** nedir?
+HTML yüklemek, bir HTML dizesini veya dosyasını `Document` yapıcısına beslemek anlamına gelir; böylece Aspose.Words işaretlemeyi ayrıştırır ve dahili bir Word belge modeli oluşturur. Bu model daha sonra manipüle edilebilir veya DOCX gibi desteklenen herhangi bir formatta kaydedilebilir.
 
-## HTML‑to‑DOCX dönüşümü için Aspose.Words neden tercih edilmeli?
-- **Düzeni korur** – tablolar, listeler ve görseller olduğu gibi kalır.
-- **Structured Document Tags'i destekler** – Word içinde içerik denetimleri oluşturmak için idealdir.
-- **Microsoft Office gerekmez** – herhangi bir sunucu veya bulut ortamında çalışır.
-- **Yüksek performans** – büyük HTML dosyalarını hızlı bir şekilde işler.
+## **Aspose.Words for Java**'yi HTML‑to‑DOCX dönüşümü için neden kullanmalısınız?
+- **Kapsamlı format desteği** – basit HTML'den CSS, görseller ve form kontrolleri içeren karmaşık sayfalara.  
+- **Yapılandırılmış Belge Etiketi** – form kontrollerini yeniden kullanılabilir etiketler olarak korur, sonraki düzenlemeler için idealdir.  
+- **Microsoft Office bağımlılığı yok** – Java çalışan herhangi bir platformda çalışır.  
+- **Kurumsal düzeyde performans** – büyük belgeleri verimli bir şekilde işler.
 
 ## Önkoşullar
-
-1. **Aspose.Words for Java Kütüphanesi** – [buradan](https://releases.aspose.com/words/java/) indirin.
-2. **Java Geliştirme Ortamı** – JDK 8+ yüklü ve yapılandırılmış olmalı.
-3. **Java I/O konusunda temel bilgi** – HTML dizesini beslemek için `ByteArrayInputStream` kullanacağız.
+1. **Aspose.Words for Java Kütüphanesi** – [buradan](https://releases.aspose.com/words/java/) indirin.  
+2. **Java Geliştirme Ortamı** – JDK 8 veya üzeri kurulu ve yapılandırılmış.  
 
 ## HTML Belgelerini Nasıl Yüklenir
-
-Aşağıda, **structured document tag** özelliğini etkinleştirerek bir HTML parçacığını yükleyen kısa bir örnek yer almaktadır.
+Aşağıda **HTML nasıl yüklenir** gösteren temel kod parçacığı yer almaktadır. Küçük bir HTML bölümü oluşturur, `HtmlLoadOptions`'ı **yapılandırılmış belge etiketi** kullanacak şekilde ayarlarız ve ardından `Document` nesnesini örnekleriz.
 
 ```java
 final String HTML = "\r\n
@@ -65,25 +59,19 @@ HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 Document doc = new Document(new ByteArrayInputStream(HTML.getBytes(StandardCharsets.UTF_8)), loadOptions);
 ```
 
-**Açıklama**
+*İpucu:* `STRUCTURED_DOCUMENT_TAG` seçeneği, `<select>` öğesi gibi form kontrollerini sonuç Word belgesinde düzenlenebilir etiketler olarak tutar; bu, sonraki veri girişi için faydalıdır.
 
-- Basit bir `<select>` denetimi içeren bir `HTML` dizesi oluşturuyoruz.
-- `HtmlLoadOptions`, HTML'nin nasıl yorumlanacağını belirlememizi sağlar. Tercih edilen denetim tipini `STRUCTURED_DOCUMENT_TAG` olarak ayarlamak, Aspose.Words'in HTML form denetimlerini Word içerik denetimlerine dönüştürmesini sağlar.
-- `Document` yapıcı yöntemi, UTF‑8 kodlamasıyla bir `ByteArrayInputStream` üzerinden HTML'yi okur.
-
-## DOCX Olarak Nasıl Kaydedilir (HTML'den DOCX'e Dönüştürme)
-
-HTML bir `Document` nesnesine yüklendikten sonra, DOCX dosyası olarak kaydetmek oldukça basittir:
+## HTML'den DOCX Nasıl Kaydedilir
+HTML yüklendikten sonra, DOCX dosyası olarak kaydetmek oldukça basittir. Bu, aynı `Document` örneğini kullanarak **DOCX nasıl kaydedilir** gösterir.
 
 ```java
 doc.save("Your Directory Path" + "WorkingWithHtmlLoadOptions.PreferredControlType.docx");
 ```
 
-`"Your Directory Path"` ifadesini, çıktının oluşturulmasını istediğiniz gerçek klasör yolu ile değiştirin.
+`"Your Directory Path"` ifadesini çıktının kaydedileceği klasörle değiştirin. Oluşan DOCX, Microsoft Word, LibreOffice veya herhangi bir DOCX‑uyumlu görüntüleyicide açılabilir.
 
 ## HTML Belgelerini Yükleme ve Kaydetme İçin Tam Kaynak Kodu
-
-Aşağıda, yükleme ve kaydetme adımlarını birleştiren, doğrudan çalıştırılabilir tam örnek bulunmaktadır. IDE'nize kopyalayıp yapıştırabilirsiniz.
+Kolaylık sağlamak amacıyla, yükleme ve kaydetme adımlarını birleştiren tam, çalıştırılabilir örnek aşağıdadır. Bu kodu IDE'nize kopyalayıp olduğu gibi çalıştırabilirsiniz.
 
 ```java
 final String HTML = "\r\n
@@ -101,36 +89,39 @@ Document doc = new Document(new ByteArrayInputStream(HTML.getBytes(StandardChars
 doc.save("Your Directory Path" + "WorkingWithHtmlLoadOptions.PreferredControlType.docx");
 ```
 
-## Yaygın Hatalar & İpuçları
+Kodu çalıştırdığınızda `WorkingWithHtmlLoadOptions.PreferredControlType.docx` adlı bir Word belgesi oluşturulur; bu belge HTML açılır menüsünü yapılandırılmış belge etiketi olarak içerir.
 
-| Sorun | Neden Oluşur | Nasıl Çözülür |
-|-------|--------------|---------------|
-| **Eksik yazı tipleri** | HTML, sunucuda yüklü olmayan yazı tiplerine referans verir. | `FontSettings` ile DOCX'e yazı tiplerini gömün veya gerekli yazı tiplerinin sunucuda bulunmasını sağlayın. |
-| **Görseller gösterilmiyor** | Göreceli görsel yolları çözülemez. | Mutlak URL'ler kullanın veya görselleri bir `MemoryStream` içine yükleyip `HtmlLoadOptions.setImageSavingCallback` ile ayarlayın. |
-| **Denetim tipi dönüştürülmüyor** | `setPreferredControlType` ayarlanmamış veya yanlış enum kullanılmış. | `HtmlControlType.STRUCTURED_DOCUMENT_TAG` kullandığınızdan emin olun. |
-| **Kodlama sorunları** | HTML dizesi farklı bir karakter setiyle kodlanmış. | Dizeyi byte dizisine çevirirken her zaman `StandardCharsets.UTF_8` kullanın. |
+## Yaygın Sorunlar ve Sorun Giderme
+| Semptom | Muhtemel Neden | Çözüm |
+|---|---|---|
+| Kaydetme sonrası açılır menü kaybolur | `PreferredControlType` ayarlanmamış | Yüklemeden önce `loadOptions.setPreferredControlType(HtmlControlType.STRUCTURED_DOCUMENT_TAG);` çağrıldığından emin olun. |
+| Görseller gösterilmiyor | Görsel URL'leri göreceli veya erişilemez | Mutlak URL'ler kullanın veya görselleri HTML dizesi içinde Base64 olarak gömün. |
+| Beklenmeyen biçimlendirme | CSS tam olarak desteklenmiyor | CSS'i basitleştirin veya satır içi stiller kullanın; Aspose.Words CSS'in bir alt kümesini destekler. |
 
-## Sık Sorulan Sorular
+## Sıkça Sorulan Sorular
 
-### Aspose.Words for Java nasıl kurulur?
-Aspose.Words for Java, [buradan](https://releases.aspose.com/words/java/) indirilebilir. İndirme sayfasındaki kurulum kılavuzunu izleyerek JAR dosyalarını projenizin sınıf yoluna ekleyin.
+**S: Aspose.Words for Java nasıl kurulur?**  
+C: Kütüphaneyi [buradan](https://releases.aspose.com/words/java/) indirin ve JAR dosyalarını projenizin sınıf yoluna ekleyin.
 
-### Aspose.Words ile karmaşık HTML belgeleri yükleyebilir miyim?
-Evet, Aspose.Words for Java, iç içe tablolar, CSS stilleri ve JavaScript içermeyen etkileşimli öğeler gibi karmaşık HTML'leri işleyebilir. `HtmlLoadOptions` (ör. `setLoadImages` veya `setCssStyleSheetFileName`) ayarlarını ihtiyacınıza göre yapılandırın.
+**S: Karmaşık HTML belgelerini (CSS, script, görseller içeren) yükleyebilir miyim?**  
+C: Evet. Aspose.Words karmaşık HTML'i işleyebilir. En iyi sonuç için iyi biçimlendirilmiş işaretleme sağlayın ve dönüşümü ince ayarlamak için `HtmlLoadOptions` kullanın.
 
-### Aspose.Words başka hangi belge formatlarını destekliyor?
-Aspose.Words, DOC, DOCX, RTF, HTML, PDF, EPUB, XPS ve daha birçok formatı destekler. API, bu formatların herhangi birine tek satır kodla kaydetme imkanı sunar.
+**S: Başka hangi formatlara dönüştürülebilir?**  
+C: API DOC, DOCX, RTF, PDF, HTML, EPUB, ODT ve daha birçok formatı destekler.
 
-### Aspose.Words kurumsal düzeyde belge otomasyonu için uygun mu?
-Kesinlikle. Büyük işletmeler, rapor otomasyonu, toplu belge dönüşümü ve Microsoft Office bağımlılığı olmadan sunucu tarafı belge işleme için Aspose.Words kullanmaktadır.
+**S: Aspose.Words büyük ölçekli, kurumsal dağıtımlar için uygun mu?**  
+C: Kesinlikle. Dünya çapında işletmeler, yüksek hacimli belge üretimi, raporlama ve taşıma projeleri için kullanmaktadır.
 
-### Aspose.Words for Java için daha fazla dokümantasyon ve örnek nereden bulunur?
-Tam API referansını ve ek öğreticileri Aspose.Words for Java dokümantasyon sitesinde inceleyebilirsiniz: [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
+**S: Daha fazla örnek ve API referansına nereden ulaşabilirim?**  
+C: Resmi belgeler için [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/) adresini ziyaret edin.
+
+## Sonuç
+Artık **HTML nasıl yüklenir** bir `Document` içine ve **DOCX nasıl kaydedilir** Aspose.Words for Java kullanarak net bir uçtan‑uca kılavuza sahipsiniz. Bu **HTML'den DOCX'e dönüşüm** tekniği, hem basit kod parçacıkları hem de tam özellikli web sayfaları için güvenilirdir ve **yapılandırılmış belge etiketi** kullanımı, form kontrollerinin sonuç Word dosyasında düzenlenebilir kalmasını sağlar.
 
 ---
 
-**Son Güncelleme:** 2025-12-20  
-**Test Edilen Sürüm:** Aspose.Words for Java 24.12 (yazım anındaki en yeni sürüm)  
+**Son Güncelleme:** 2026-02-24  
+**Test Edilen Sürüm:** Aspose.Words for Java 24.12 (yazım zamanındaki en son)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

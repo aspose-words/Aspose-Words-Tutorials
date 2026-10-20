@@ -52,12 +52,12 @@ Přidání komentáře v Javě znamená vytvoření uzlu `Comment`, jeho připoj
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 #### Získání licence
 Aspose.Words je komerční produkt. Můžete začít s bezplatnou 30‑denní zkušební verzí nebo požádat o dočasnou licenci pro hodnocení. Navštivte [stránku nákupu](https://purchase.aspose.com/buy) pro podrobnosti.
@@ -72,20 +72,20 @@ Aspose.Words je komerční produkt. Můžete začít s bezplatnou 30‑denní zk
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
-```
+```  
 
 **Krok 2:** Vytvořte a přidejte komentář  
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **Krok 3:** Přidejte odpověď k komentáři  
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
-```
+```  
 
 ### Funkce 2: Vytisknout všechny komentáře
 **Přehled** – Načte každý hlavní komentář a jeho odpovědi k revizi.
@@ -94,7 +94,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
 **Krok 1:** Načtěte dokument  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
-```
+```  
 
 **Krok 2:** Získejte a vytiskněte komentáře  
 ```java
@@ -108,7 +108,7 @@ for (Comment comment : (Iterable<Comment>) comments) {
         }
     }
 }
-```
+```  
 
 ### Funkce 3: Jak smazat odpovědi na komentáře v Javě
 **Přehled** – Ukazuje **how to delete comment replies**, aby byl dokument uklizený.
@@ -122,7 +122,7 @@ comment.setText("My comment.");
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
-```
+```  
 
 **Krok 2:** Odstraňte odpovědi  
 ```java
@@ -141,7 +141,7 @@ DocumentBuilder documentBuilder = new DocumentBuilder(document);
 documentBuilder.writeln("Hello world!");
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
-```
+```  
 
 **Krok 2:** Označte komentář jako dokončený  
 ```java
@@ -149,7 +149,7 @@ document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
 comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
-```
+```  
 
 ### Funkce 5: Získat UTC datum a čas z komentáře
 **Přehled** – Získá přesný UTC časový razítko, kdy byl komentář přidán, ideální pro auditní záznamy.
@@ -163,7 +163,7 @@ Date dateTime = new Date();
 Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **Krok 2:** Uložte a načtěte UTC datum  
 ```java
@@ -171,7 +171,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
-```
+```  
 
 ## Praktické aplikace
 - **Spolupráce na úpravách:** Týmy mohou přidávat a odpovídat na komentáře přímo v generovaných zprávách.  

@@ -28,6 +28,18 @@ Výukové programy se také zabývají základními koncepty manipulace s obráz
 | [Získat rozsah stránek JPEG](./get-jpeg-page-range/) | Převeďte konkrétní stránky dokumentů Word do formátu JPEG s vlastním nastavením pomocí Aspose.Words pro .NET. Naučte se krok za krokem upravovat jas, kontrast a rozlišení. |
 | [Zpětné volání pro uložení stránky](./page-saving-callback/) | Naučte se ukládat každou stránku dokumentu Word jako samostatný obrázek PNG pomocí Aspose.Words pro .NET s naším podrobným návodem krok za krokem. |
 | [Jak nastavit DPI při převodu Wordu na PNG – Kompletní průvodce v C#](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | Naučte se nastavit DPI při konverzi dokumentu Word do PNG pomocí Aspose.Words pro .NET v C#. |
+| [Vytvoření PNG mřížky z dokumentu Word – krok za krokem průvodce](./create-png-grid-from-word-document-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET vytvořit mřížku PNG obrázků z dokumentu Word v několika krocích. |
+| [Uložení Wordu jako obrázky v C# – krok za krokem průvodce](./save-word-as-images-with-c-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET v C# převést dokument Word na jednotlivé obrázky s podrobným postupem. |
+| [Převod Wordu na PNG – Kompletní průvodce v C#](./convert-word-to-png-complete-c-guide/) | Naučte se převést dokument Word do PNG pomocí Aspose.Words pro .NET v C#. |
+| [Jak nastavit DPI při převodu Wordu na PNG – Průvodce exportem ve vysokém rozlišení](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) | Naučte se nastavit DPI při konverzi dokumentu Word do PNG pomocí Aspose.Words pro .NET a získat vysoké rozlišení. |
+| [Vytvoření mřížky PNG z dokumentu Word – Kompletní průvodce](./create-png-grid-from-word-document-complete-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET vytvořit mřížku PNG obrázků z dokumentu Word, včetně nastavení rozlišení a rozložení. |
+| [Jak nastavit rozlišení při převodu Wordu na PNG – Kompletní průvodce](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | Naučte se nastavit rozlišení při konverzi dokumentu Word do PNG pomocí Aspose.Words pro .NET v C#. |
+| [Exportovat Word jako PNG – Převést DOCX na jeden obrázek](./export-word-as-png-convert-docx-to-one-image/) | Naučte se, jak exportovat dokument Word do jednoho souboru PNG pomocí Aspose.Words pro .NET. |
+| [Převod docx na png – Kompletní průvodce krok za krokem](./convert-docx-to-png-complete-step-by-step-guide/) | Naučte se převést soubory DOCX na PNG pomocí Aspose.Words pro .NET s podrobným krok za krokem návodem. |
+| [Převod DOCX na PNG – Kompletní průvodce v C#](./convert-docx-to-png-complete-c-guide/) | Naučte se převést dokument DOCX na obrázek PNG pomocí Aspose.Words pro .NET v C#. |
+| [Jak nastavit DPI – Export Wordu do PNG mřížky v C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Naučte se exportovat dokument Word do PNG mřížky s nastavením DPI pomocí Aspose.Words pro .NET v C#. |
+| [Uložení Wordu jako PNG – Kompletní průvodce Aspose.Words](./save-word-as-png-complete-aspose-words-guide/) | Naučte se, jak uložit dokument Word jako PNG pomocí Aspose.Words pro .NET s podrobným návodem. |
+| [Uložení dokumentu jako PNG v C# – Kompletní průvodce](./save-document-as-png-in-c-complete-guide/) | Naučte se, jak uložit dokument Word jako PNG pomocí Aspose.Words pro .NET v C# s podrobným návodem. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -55,6 +55,9 @@
     ### [Mastering Tab Stops in Python with Aspose.Words for Document Formatting](./master-tab-stops-python-aspose-words/)
 学习如何使用 Aspose.Words 有效地管理 Python 文档中的制表位。本指南将通过实际示例讲解如何添加、自定义和删除制表位。
 
+    ### [如何在 Word 文档中使用 Python 设置图表样式](./how-to-style-chart-in-a-word-document-using-python/)
+学习使用 Aspose.Words for Python 在 Word 文档中自定义图表外观和样式的完整指南。
+
 ## 其他资源
 
 - [Aspose.Words for Python-net 文档](https://docs.aspose.com/words/python-net/)

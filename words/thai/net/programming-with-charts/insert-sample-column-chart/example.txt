@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: บทแนะนำนี้แสดงวิธีสร้างเอกสาร Word ใหม่, แทรกแผนภูมิคอลัมน์เริ่มต้นด้วย DocumentBuilder.InsertChart, ดึงอ็อบเจ็กต์ Chart ที่ฝังอยู่, และบันทึกเอกสารเป็นไฟล์ .docx
+//ExStepSummary:0: สร้างเอกสาร Word ว่างและ DocumentBuilder เพื่อแก้ไขเอกสาร
+//ExStepSummary:1: แทรกแผนภูมิคอลัมน์ขนาด 432 × 252 จุดลงในเอกสาร
+//ExStepSummary:2: ดึงอ็อบเจ็กต์ Chart จาก Shape ที่แทรกไว้เพื่อปรับแต่งเพิ่มเติมหากต้องการ
+//ExStepSummary:3: บันทึกเอกสารที่ตอนนี้มีแผนภูมิคอลัมน์ที่แทรกไว้เป็นไฟล์ .docx
+//ExStepImage:1:images/1.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+Chart embeddedChart = chartContainer.Chart;
+
+//ExStep:3-
+wordDoc.Save("column-demo.docx");
+//ExEnd
