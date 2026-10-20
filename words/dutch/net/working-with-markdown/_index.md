@@ -41,7 +41,7 @@ Tekstverwerking met Markdown biedt een uitgebreide bron om te leren werken met h
 | [Word maken vanuit Markdown met Aspose.Words – Volledige gids](./create-word-from-markdown-with-aspose-words-full-guide/) | Leer hoe u met Aspose.Words voor .NET een Word-document genereert vanuit Markdown, stap voor stap met voorbeeldcode. |
 | [Nadruk](./emphases/) | Leer hoe je benadrukte tekst in Markdown maakt met Aspose.Words voor .NET. Deze handleiding behandelt de stijlen vet, cursief en gecombineerd, met stapsgewijze instructies. |
 | [Gebruik waarschuwingsbron](./use-warning-source/) | Leer Aspose.Words voor .NET met deze stapsgewijze handleiding over het gebruik van de klasse WarningSource voor het verwerken van Markdown-waarschuwingen. Perfect voor C#-ontwikkelaars. |
-
+| [Markdown-bestand laden in een document – Complete parseringshandleiding](./load-markdown-file-into-a-document-complete-parsing-tutorial/) | Leer hoe u een Markdown-bestand volledig kunt parseren en laden in een Word-document met Aspose.Words voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

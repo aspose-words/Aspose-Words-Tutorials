@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: En utilisant Aspose.Words for .NET, ce tutoriel crée un Document, insère un graphique en colonnes via DocumentBuilder, supprime une série de données spécifique du graphique avec ChartSeriesCollection.RemoveAt, puis enregistre le document modifié.
+//ExStepSummary:0: Créez un nouveau Document Word et un DocumentBuilder qui y est lié.
+//ExStepSummary:1: Insérez un graphique en colonnes de taille 432 × 252 points et récupérez l’objet Chart pour une manipulation ultérieure.
+//ExStepSummary:2: Définissez l’indice basé sur zéro de la série qui doit être supprimée (la deuxième série).
+//ExStepSummary:3: Si l’indice est valide, appelez RemoveAt sur la collection Series du graphique pour supprimer cette série.
+//ExStepSummary:4: Enregistrez le document mis à jour dans un fichier .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+int targetSeriesIdx = 1;
+
+//ExStep:3-
+if (targetSeriesIdx >= 0 && targetSeriesIdx < columnChart.Series.Count)
+{
+    columnChart.Series.RemoveAt(targetSeriesIdx);
+}
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutSeries.docx");
+//ExEnd

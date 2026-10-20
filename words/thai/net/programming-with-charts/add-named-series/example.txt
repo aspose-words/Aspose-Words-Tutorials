@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: บทแนะนำนี้แสดงวิธีใช้ Aspose.Words Document และ DocumentBuilder เพื่อสร้างเอกสาร Word ฝังแผนภูมิฮิสโตแกรม และเพิ่มชุดข้อมูลที่มีป้ายชื่อโดยใช้การ overload ของ ChartSeriesCollection.Add ที่รับชื่อและค่า
+//ExStepSummary:0: สร้างเอกสาร Word ว่างใหม่และ DocumentBuilder เพื่อแก้ไขเอกสารนั้น
+//ExStepSummary:1: แทรกรูปแผนภูมิฮิสโตแกรมขนาด 500×300 ลงในเอกสารและรับอ็อบเจ็กต์ Chart ของมัน
+//ExStepSummary:2: ลบชุดข้อมูลตัวแทนค่าเริ่มต้นที่ Aspose.Words เพิ่มให้กับแผนภูมิใหม่
+//ExStepSummary:3: เพิ่มชุดข้อมูลที่มีชื่อว่า "Demo Series" พร้อมจุดข้อมูลที่ระบุลงในแผนภูมิฮิสโตแกรม
+//ExStepSummary:4: บันทึกเอกสารเป็นไฟล์ .docx ที่มีชุดข้อมูลแผนภูมิที่มีป้ายชื่อ
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape histogramShape = docBuilder.InsertChart(ChartType.Histogram, 500, 300);
+Chart histogramChart = histogramShape.Chart;
+
+//ExStep:2-
+histogramChart.Series.Clear();
+
+//ExStep:3-
+histogramChart.Series.Add("Demo Series", new double[] { 10, 20, 15, 30, 25 });
+
+//ExStep:4-
+myDocument.Save("LabeledSeriesDemo.docx");
+//ExEnd

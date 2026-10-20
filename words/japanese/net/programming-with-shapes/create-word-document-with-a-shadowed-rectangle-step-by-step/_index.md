@@ -214,6 +214,8 @@ A: はい。API はバージョンに依存せず、対象フレームワーク�
 *本番環境で使用する準備はできましたか？コードを取得し、パラメータを調整すれば、数秒で Word ファイルがプロフェッショナルな仕上がりになります。*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container}}
+
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -24,6 +24,34 @@ Dengan tutorial ini, Anda akan dapat menyempurnakan dokumen Word Anda dengan men
  ## Tutorial
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | --- Bahasa Indonesia:
+
+{{< tutorial-card link="./uniform-data-labels/" title="Atur Label Data Seragam dalam Diagram Kolom Menggunakan Aspose.Words untuk .NET" imgSrc="./uniform-data-labels/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-chart/" title="Ubah Ukuran Chart Secara Proporsional Saat Mengubah Ukuran Halaman di Word Menggunakan Aspose.Words for .NET" imgSrc="./resize-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-custom-chart/" title="Masukkan Diagram Kolom Kustom ke Dokumen Word Menggunakan Aspose.Words for .NET" imgSrc="./insert-custom-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./hide-plot-border/" title="Sembunyikan Batas Area Plot pada Diagram Kolom dengan Aspose.Words for .NET" imgSrc="./hide-plot-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./remove-chart-series/" title="Hapus Seri Diagram dari Word Document Menggunakan Aspose.Words for .NET" imgSrc="./remove-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-sample-column-chart/" title="Sisipkan Diagram Kolom Contoh dalam Dokumen Word Menggunakan Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-named-series/" title="Tambahkan Seri Data Bernama ke Diagram Histogram di Word Menggunakan Aspose.Words untuk .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Validasi Seri Diagram dan Titik Data dalam Dokumen Word Menggunakan Aspose.Words untuk .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Sesuaikan Garis Kisi Sumbu X pada Diagram Kolom Menggunakan Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-secondary-axis/" title="Format Sumbu X Sekunder dan Atur Unit Tampilan ke Ribuan dalam Diagram Garis Word Menggunakan Aspose.Words untuk .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Perbarui Judul Diagram dan Alihkan Visibilitas Legenda di Word Menggunakan Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
+
+
+
+
+
+
 | [Format Nomor Label Data Dalam Bagan](./format-number-of-data-label/) | Pelajari cara memformat label data dalam bagan menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurnakan dokumen Word Anda dengan mudah. Bahasa Indonesia:
 | [Membuat & Menyesuaikan Bagan Menggunakan Bentuk](./create-chart-using-shape/) | Pelajari cara membuat dan menyesuaikan bagan dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk visualisasi data. Bahasa Indonesia:
 | [Masukkan Bagan Kolom Sederhana Dalam Dokumen Word](./insert-simple-column-chart/) Pelajari cara menyisipkan bagan kolom sederhana di Word menggunakan Aspose.Words untuk .NET. Sempurnakan dokumen Anda dengan presentasi data visual yang dinamis. Bahasa Indonesia:
@@ -41,7 +69,10 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Sesuaikan Label Data Bagan](./chart-data-label/) | Pelajari cara menyesuaikan label data bagan menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah. Sempurna untuk pengembang .NET. Bahasa Indonesia:
 | [Mengatur Opsi Default Untuk Label Data Dalam Bagan](./default-options-for-data-labels/) | Pelajari cara menetapkan opsi default untuk label data dalam bagan menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk membuat dan menyesuaikan bagan dengan mudah. Bahasa Indonesia:
 | [Menyesuaikan Titik Data Bagan Tunggal Dalam Bagan](./single-chart-data-point/) | Pelajari cara menyesuaikan titik data grafik tunggal menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah yang terperinci. Sempurnakan grafik Anda dengan penanda dan ukuran yang unik. Bahasa Indonesia:
-| [Kustomisasi Seri Bagan Tunggal Dalam Bagan](./single-chart-series/) | Pelajari cara menyesuaikan rangkaian bagan tunggal dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk pengalaman yang lancar. Bahasa Indonesia:
+| [Kustomisasi Seri Bagan Tunggal Dalam Bagan](./single-chart-series/) | Pelajari cara menyesuaikan rangkaian bagan tunggal dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk pengalaman yang lancar. |
+| [Menampilkan Legenda Bagan di Word dengan C# – Panduan Langkah demi Langkah Lengkap](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Pelajari cara menampilkan legenda bagan di dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh kode C# lengkap. |
+| [Mengekspansi Irisan Bagan Pai di C# dengan Aspose.Words – Panduan Lengkap](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Pelajari cara mengekspansi irisan bagan pai menggunakan Aspose.Words untuk .NET dengan contoh kode C# lengkap. |
+| [Menambahkan label bagan pai di C# menggunakan Aspose.Words – Panduan Lengkap](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Pelajari cara menambahkan label pada bagan pai di C# dengan Aspose.Words melalui panduan lengkap dan contoh kode. |
 | [Cara Menampilkan Persentase dalam Bagan dengan Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Pelajari cara menampilkan nilai persentase pada bagan di Word menggunakan Aspose.Words dengan C# dalam panduan langkah demi langkah ini. Bahasa Indonesia:
 
 {{< /blocks/products/pf/tutorial-page-section >}}

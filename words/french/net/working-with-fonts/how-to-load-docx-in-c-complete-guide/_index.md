@@ -24,7 +24,7 @@ title: Comment charger un DOCX en C# – Guide complet
 url: /fr/net/working-with-fonts/how-to-load-docx-in-c-complete-guide/
 ---
 
-{{< blocks/products/pf/main-wrap}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -238,9 +238,9 @@ N’hésitez pas à expérimenter, partager vos découvertes ou poser des questi
 
 ---
 
-![Diagramme montrant comment charger un docx avec des paramètres de police personnalisés](/images/how-to-load-docx.png "exemple de chargement de docx")
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

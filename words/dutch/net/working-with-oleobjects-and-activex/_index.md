@@ -28,6 +28,9 @@ Deze tutorials bieden u een praktische, stapsgewijze aanpak voor tekstverwerking
 | [OLE-object in Word-document invoegen als pictogram](./insert-ole-object-as-icon/) | Leer hoe u een OLE-object als pictogram in Word-documenten invoegt met Aspose.Words voor .NET. Volg uw stapsgewijze handleiding om uw documenten te verbeteren. |
 | [Ole-object invoegen als pictogram met behulp van Stream](./insert-ole-object-as-icon-using-stream/) | Leer hoe u een OLE-object als pictogram invoegt met behulp van een stream met Aspose.Words voor .NET in deze gedetailleerde, stapsgewijze zelfstudie. |
 | [Actieve XControl-eigenschappen lezen uit een Word-bestand](./read-active-xcontrol-properties/) | Leer in een stapsgewijze handleiding hoe u eigenschappen van ActiveX-besturingselementen uit Word-bestanden kunt lezen met Aspose.Words voor .NET. Verbeter uw vaardigheden in documentautomatisering. |
+| [Word-document maken met ActiveX-knop – C#-handleiding](./create-word-document-with-activex-button-c-guide/) | Leer hoe u een Word-document met een ActiveX-knop maakt met C# en Aspose.Words voor .NET. |
+| [Word-documentknop maken met Aspose.Words – Volledig codevoorbeeld](./create-word-document-button-with-aspose-words-full-code-exam/) | Leer hoe u een knop maakt die een Word-document genereert met Aspose.Words, inclusief volledige code. |
+
 | [Opdrachtknop toevoegen aan Word-document met Aspose.Words – Complete gids](./add-command-button-to-word-document-with-aspose-words-comple/) | Leer hoe u een opdrachtknop aan een Word-document toevoegt met Aspose.Words voor .NET in deze volledige gids. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

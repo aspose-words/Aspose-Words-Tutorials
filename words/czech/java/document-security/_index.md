@@ -39,6 +39,8 @@ Naučte se, jak efektivně spravovat oprávnění k dokumentům pomocí Aspose.W
 Naučte se, jak šifrovat a dešifrovat dokumenty pomocí Aspose.Words pro Javu. Zabezpečte svá data efektivně pomocí podrobných pokynů a příkladů zdrojového kódu.
 ### [Digitální podpisy v dokumentech](./digital-signatures-in-documents/)
 Naučte se, jak implementovat zabezpečené digitální podpisy v dokumentech pomocí Aspose.Words pro Javu. Zajistěte integritu dokumentu pomocí podrobných pokynů a zdrojového kódu.
+### [Podepsání Word dokumentu v Javě pomocí Aspose.Words – Kompletní průvodce](./sign-word-document-in-java-with-aspose-words-complete-guide/)
+Naučte se, jak podepsat Word dokument v Javě pomocí Aspose.Words. Kompletní průvodce s ukázkovým kódem.
 ### [Redakční úprava dokumentů a ochrana osobních údajů](./document-redaction-data-protection/)
 Naučte se, jak zabezpečit své dokumenty a redigovat citlivá data pomocí Aspose.Words pro Javu. Podrobný návod se zdrojovým kódem.
 
