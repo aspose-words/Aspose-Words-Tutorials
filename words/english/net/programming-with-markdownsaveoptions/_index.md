@@ -52,6 +52,7 @@ class Program
 | [Export docx as markdown – Complete C# Guide](./export-docx-as-markdown-complete-c-guide/) | Learn how to export DOCX as Markdown with a full C# guide using Aspose.Words for .NET. |
 | [Set Images Folder](./set-images-folder/) | Convert Word documents to Markdown with proper table alignment using Aspose.Words for .NET. Follow our detailed guide for perfect results. |
 | [How to embed images in Markdown from DOCX](./how-to-embed-images-in-markdown-from-docx/) | Learn how to embed images from DOCX files into Markdown using Aspose.Words for .NET. |
+| [Upload Images to Cloud When Converting Word to Markdown](./upload-images-to-cloud-when-converting-word-to-markdown/) | Learn how to upload images to cloud storage while converting Word documents to Markdown using Aspose.Words for .NET. |
 | [Save Word as PDF and Recover Corrupted Word – Convert Word to Markdown in C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/) |  |
 | [Save Word as Markdown with Aspose.Words – Full C# Guide](./save-word-as-markdown-with-aspose-words-full-c-guide/) | Learn how to save Word documents as Markdown using Aspose.Words in a comprehensive C# guide. |
 | [Recover Word Document with Aspose.Words – Full Guide](./recover-word-document-with-aspose-words-full-guide/) | Learn how to recover corrupted Word documents using Aspose.Words in C# – full guide. |
@@ -68,6 +69,7 @@ class Program
 | [save docx as markdown – Full C# Guide with Image Extraction](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | Learn how to save DOCX as Markdown with image extraction using Aspose.Words for .NET. |
 | [save docx as txt – convert docx to markdown](./save-docx-as-txt-convert-docx-to-markdown/) | Learn how to convert DOCX to TXT and then to Markdown using Aspose.Words for .NET. |
 | [Save docx as markdown with Aspose.Words – Full C# Guide](./save-docx-as-markdown-with-aspose-words-full-c-guide/) |  |
+| [save docx as markdown – Export Word Math to LaTeX with Aspose.Words](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/) | Export Word Math equations to LaTeX while saving DOCX as Markdown using Aspose.Words. |
 | [Convert Word to Markdown in C# – Full Guide with Image Extraction](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/) | Learn how to convert Word documents to Markdown in C# with full image extraction using Aspose.Words for .NET. |
 | [Save docx as markdown & extract images – C# guide](./save-docx-as-markdown-extract-images-c-guide/) | Learn how to save DOCX as Markdown and extract images using Aspose.Words for .NET. |
 | [save word as markdown – extract images from docx](./save-word-as-markdown-extract-images-from-docx/) | Learn how to extract images from DOCX while saving Word as Markdown using Aspose.Words for .NET. |

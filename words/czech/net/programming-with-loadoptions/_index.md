@@ -77,6 +77,7 @@ V těchto tutoriálech se naučíte, jak používat LoadOptions k načítání d
 | [Obnovit poškozený soubor Word a zobrazit režim obnovy v C#](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | Naučte se, jak obnovit poškozený soubor Word a zobrazit režim obnovy pomocí Aspose.Words pro .NET v C#. |
 | [Jak zachytit varování v C# – Detekce chybějících písem a zaznamenání substituce](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) | Naučte se zachytit varování, detekovat chybějící písma a zaznamenávat jejich nahrazení v C# s Aspose.Words. |
 | [Obnovit poškozený DOCX – Kompletní průvodce C# pro opravu a uložení souborů](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) | Naučte se, jak opravit poškozené soubory DOCX a uložit je pomocí Aspose.Words pro .NET v C#. |
+| [Obnovit poškozený docx – Kompletní průvodce načítáním poškozených souborů Word v C#](./recover-corrupted-docx-full-guide-to-loading-damaged-word-fi/) | Kompletní návod, jak načíst a opravit poškozené soubory DOCX v C# pomocí Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -289,6 +289,9 @@ Leer hoe u Word-documenten naar Markdown converteert en tegelijkertijd PDF/UA ex
 Leer hoe u Word-documenten opslaat als Markdown en afbeeldingen in een aangepaste map plaatst met een volledige C#‑handleiding.
 ### [Document opslaan als Markdown met C# – Volledige gids](./save-document-as-markdown-with-c-full-guide/)
 Leer hoe u documenten opslaat als Markdown met C# in een volledige stap‑voor‑stap handleiding.
+### [Docx opslaan als markdown – Exporteer Word‑wiskunde naar LaTeX met Aspose.Words](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/)
+
+### [Afbeeldingen uploaden naar de cloud bij het converteren van Word naar Markdown](./upload-images-to-cloud-when-converting-word-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -62,6 +62,7 @@ Korzystając z Aspose.Words dla .NET i postępując zgodnie z tymi samouczkami, 
 | [Utwórz dokument Word C# – Dodaj kształt z cieniem](./create-word-document-c-add-shape-with-shadow/) | Dowiedz się, jak dodać kształt z efektem cienia do dokumentu Word przy użyciu Aspose.Words w C#. |
 | [Jak ustawić cień na kształcie w C# – przewodnik krok po kroku](./how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/) | Dowiedz się, jak ustawić cień na kształcie w dokumentach Word przy użyciu Aspose.Words dla .NET w C# – krok po kroku. |
 | [Jak ustawić cień na kształcie w Wordzie – samouczek C#](./how-to-set-shadow-on-a-word-shape-c-tutorial/) | Dowiedz się, jak dodać i konfigurować cień kształtu w dokumencie Word przy użyciu Aspose.Words dla .NET i C#. |
+| [Jak przenieść cień w Aspose.Words – kompletny przewodnik C#](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | Dowiedz się, jak przenieść cień kształtu w dokumencie Word przy użyciu Aspose.Words dla .NET i C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

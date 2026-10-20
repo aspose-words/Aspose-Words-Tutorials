@@ -289,6 +289,10 @@ Erfahren Sie, wie Sie Word‑Dokumente in Markdown konvertieren und gleichzeitig
 Erfahren Sie, wie Sie Word-Dokumente mit einem benutzerdefinierten Bildordner in Markdown speichern – vollständige Schritt‑für‑Schritt‑Anleitung.
 ### [Dokument als Markdown speichern mit C# – Vollständige Anleitung](./save-document-as-markdown-with-c-full-guide/)
 Erfahren Sie, wie Sie ein Dokument mit Aspose.Words für .NET vollständig in Markdown konvertieren – komplette C#‑Anleitung.
+### [DOCX als Markdown speichern – Word‑Mathematik nach LaTeX exportieren mit Aspose.Words](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/)
+
+### [Bilder beim Konvertieren von Word zu Markdown in die Cloud hochladen](./upload-images-to-cloud-when-converting-word-to-markdown/)
+Erfahren Sie, wie Sie Bilder beim Konvertieren von Word zu Markdown in die Cloud hochladen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

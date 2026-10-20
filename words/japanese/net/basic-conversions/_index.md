@@ -70,6 +70,7 @@
 | [C#でDOCXをPDFに変換する – 完全プログラミングガイド](./convert-docx-to-pdf-in-c-complete-programming-guide/) Aspose.Words for .NET を使用して C# で DOCX を PDF に変換する完全ガイドです。ステップバイステップのコード例で開発者をサポートします。 |
 | [C# で Word から PDF を作成する – 完全ガイド](./create-pdf-from-word-in-c-full-guide/) Aspose.Words for .NET を使用して C# で Word 文書を PDF に変換する完全ガイドです。コード例付きで開発者に最適です。 |
 | [docx を txt に変換 – Word の数式を LaTeX に変換する完全ガイド](./convert-docx-to-txt-complete-guide-for-word-math-to-latex/) Aspose.Words for .NET を使用して、docx の数式を LaTeX に変換しながら txt にエクスポートする完全ガイドです。コード例付き。 |
+| [Aspose.WordsでWordをPDFとして保存 – 完全なガイド](./save-word-as-pdf-with-aspose-words-complete-guide/) Aspose.Words for .NET を使用して Word 文書を PDF に変換する完全ガイドです。コード例付きで開発者に最適です。 |
 
 | [DOCX からアクセシブル PDF を作成する – 完全 Aspose ガイド](./create-accessible-pdf-from-docx-complete-aspose-guide/) Aspose.Words for .NET を使用して、DOCX からアクセシブルな PDF を生成する方法をステップバイステップで解説します。コード例付きで開発者に最適です。 |
 | [C# で PNG を Base64 に変換する – 完全ガイド](./convert-png-to-base64-in-c-complete-guide/) C# で PNG 画像を Base64 文字列に変換する方法を、コード例と共にステップバイステップで解説します。 |

@@ -43,6 +43,9 @@ Kompletny przewodnik C# tworzenia dostępnych plików PDF i konwersji dokumentó
 ### [Zapisz docx jako markdown – Kompletny przewodnik z równaniami LaTeX](./save-docx-as-markdown-complete-guide-with-latex-equations/)
 Kompletny przewodnik konwertujący pliki DOCX na Markdown z obsługą równań LaTeX przy użyciu Aspose.Words.
 
+### [Zapisz docx jako markdown – Eksportuj równania Word do LaTeX przy użyciu Aspose.Words](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/)
+Dowiedz się, jak wyeksportować równania matematyczne z dokumentu Word do formatu LaTeX podczas konwersji do Markdown przy użyciu Aspose.Words.
+
 ### [Zapisz docx jako markdown – Pełny przewodnik C# z wyodrębnianiem obrazów](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
 Kompletny przewodnik C# pokazujący, jak konwertować pliki DOCX do Markdown i wyodrębniać obrazy przy użyciu Aspose.Words.
 
@@ -266,6 +269,8 @@ Kompletny przewodnik C# pokazujący, jak konwertować dokumenty Word do Markdown
 Kompletny przewodnik C# pokazujący, jak zapisywać dokumenty Word jako Markdown z własnym folderem obrazów przy użyciu Aspose.Words.
 ### [Zapisz dokument jako Markdown w C# – Pełny przewodnik](./save-document-as-markdown-with-c-full-guide/)
 Kompletny przewodnik C# pokazujący, jak zapisać dokument w formacie Markdown przy użyciu Aspose.Words.
+### [Prześlij obrazy do chmury podczas konwertowania Worda na Markdown](./upload-images-to-cloud-when-converting-word-to-markdown/)
+Dowiedz się, jak automatycznie przesyłać obrazy do chmury podczas konwersji dokumentów Word do formatu Markdown przy użyciu Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

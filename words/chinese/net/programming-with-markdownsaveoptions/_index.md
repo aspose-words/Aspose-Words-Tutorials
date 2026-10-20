@@ -311,6 +311,9 @@
 ### [导出 docx 为 markdown – 完整 C# 指南](./export-docx-as-markdown-complete-c-guide/)
 
 使用 Aspose.Words for .NET 将 docx 文档导出为 Markdown，提供完整的 C# 示例和分步指南。
+### [将 docx 保存为 markdown – 使用 Aspose.Words 导出 Word 数学为 LaTeX](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/)
+
+使用 Aspose.Words for .NET 将 docx 文档中的数学公式导出为 LaTeX，提供完整的 C# 示例和分步指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

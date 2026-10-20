@@ -76,6 +76,7 @@
 | [كيفية التقاط التحذيرات في C# – اكتشاف الخطوط المفقودة وتسجيل الاستبدال](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) | تعلّم كيفية التقاط تحذيرات Aspose.Words في C#، واكتشاف الخطوط المفقودة وتسجيل عمليات الاستبدال في مستندات Word. |
 | [استعادة ملف DOCX تالف – دليل C# كامل للإصلاح والحفظ](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) | تعلم كيفية استعادة ملفات DOCX التالفة باستخدام Aspose.Words لـ .NET مع دليل خطوة بخطوة بلغة C#. |
 | [كيفية استخدام LoadOptions في Aspose.Words – دليل C# كامل](./how-to-use-loadoptions-in-aspose-words-complete-c-guide/) | دليل كامل بلغة C# يوضح كيفية استخدام LoadOptions في Aspose.Words لتحميل مستندات Word مع إعدادات مخصصة. |
+| [استعادة ملف docx تالف – دليل كامل لتحميل ملفات Word التالفة في C#](./recover-corrupted-docx-full-guide-to-loading-damaged-word-fi/) | تعلم خطوة بخطوة كيفية استعادة ملفات docx التالفة وتحميلها في C# باستخدام Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

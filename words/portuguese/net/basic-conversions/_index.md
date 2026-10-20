@@ -48,6 +48,7 @@ Conversões Básicas orienta você nas conversões básicas de documentos usando
 | [Salvar DOCX como PDF com Aspose.Words – Guia Completo Passo a Passo](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/) | Aprenda a salvar arquivos DOCX como PDF usando Aspose.Words para .NET com um guia completo passo a passo. |
 | [Como fazer Mail Merge e converter DOCX para PDF em C# – Guia Completo Aspose](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | Aprenda a usar Mail Merge e converter documentos DOCX em PDF com C# usando Aspose.Words. Guia passo a passo completo. |
 | [Criar PDF a partir do Word em C# – Guia Rápido de Low‑Code](./create-pdf-from-word-in-c-fast-low-code-guide/) | Aprenda a criar PDFs a partir de documentos Word em C# usando Aspose.Words com um guia rápido e de baixo código. |
+| [Salvar Word como PDF com Aspose.Words – Guia Completo](./save-word-as-pdf-with-aspose-words-complete-guide/) | Aprenda a salvar documentos Word como PDF usando Aspose.Words. Guia completo passo a passo. |
 
 | [como criar PDF a partir do Word – Guia Completo C#](./how-to-create-pdf-from-word-complete-c-guide/) | Aprenda a gerar PDFs a partir de documentos Word usando Aspose.Words para .NET com este guia completo em C#. |
 | [Salvar docx como txt – Guia Completo para Exportar Equações do Word como LaTeX](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | Aprenda a salvar documentos DOCX como arquivos TXT e exportar equações do Word para LaTeX usando Aspose.Words para .NET. |

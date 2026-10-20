@@ -62,6 +62,7 @@
 | [كيفية تعيين الظل على شكل في C# – دليل خطوة بخطوة](./how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/) | تعرّف على طريقة إضافة ظل إلى الأشكال في مستندات Word باستخدام Aspose.Words for .NET مع مثال عملي بلغة C#. |
 | [كيفية تعيين الظل على شكل Word – دليل C#](./how-to-set-shadow-on-a-word-shape-c-tutorial/) |تعلم كيفية إضافة ظل إلى الأشكال في مستندات Word باستخدام Aspose.Words وC# خطوة بخطوة. |
 | [إنشاء شكل مستطيل وكيفية إضافة الظل في C#](./create-rectangle-shape-and-how-to-add-shadow-in-c/) | تعلم كيفية إنشاء شكل مستطيل وإضافة تأثير الظل في مستند Word باستخدام Aspose.Words وC# خطوة بخطوة. |
+| [كيفية نقل الظل في Aspose.Words – دليل كامل C#](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | تعلم كيفية تحريك الظل في شكل Word باستخدام Aspose.Words وC# خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

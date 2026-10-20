@@ -120,6 +120,7 @@
 | [Αποθήκευση docx ως markdown – Πλήρης Οδηγός C#](./save-docx-as-markdown-complete-c-guide/) | Μάθετε πώς να αποθηκεύσετε αρχεία docx ως markdown με πλήρη οδηγό C# και υποστήριξη εξισώσεων LaTeX. |
 | [Εξαγωγή docx ως markdown – Πλήρης Οδηγός C#](./export-docx-as-markdown-complete-c-guide/) | Μάθετε πώς να εξάγετε αρχεία docx ως markdown με πλήρη οδηγό C# χρησιμοποιώντας Aspose.Words. |
 | [Αποθήκευση docx ως markdown – Πλήρης Οδηγός C# με Εξαγωγή Εικόνων](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | Μάθετε πώς να αποθηκεύσετε αρχεία docx ως markdown με πλήρη οδηγό C# και εξαγωγή εικόνων. |
+| [Αποθήκευση docx ως markdown – Εξαγωγή μαθηματικών Word σε LaTeX με Aspose.Words](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/) | Μάθετε πώς να εξάγετε εξισώσεις Word σε LaTeX κατά τη μετατροπή σε markdown με Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

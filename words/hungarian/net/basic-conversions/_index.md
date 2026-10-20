@@ -78,6 +78,7 @@ Az Alapvető konverziók című útmutató végigvezeti Önt az Aspose.Words for
 | [Docx konvertálása txt‑be – Teljes útmutató a Word Math LaTeX‑be](./convert-docx-to-txt-complete-guide-for-word-math-to-latex/) | Tanulja meg, hogyan konvertálhat docx fájlokat txt-be, miközben a Word Math képleteket LaTeX‑be exportálja. |
 | [Wordből PDF létrehozása C#-ban – Teljes útmutató](./create-pdf-from-word-in-c-full-guide/) | Tanulja meg, hogyan konvertálhat Word dokumentumokat PDF-be C#-ban az Aspose.Words használatával, részletes lépésekkel. |
 | [PDF létrehozása Wordből C#‑ban – Gyors alacsony kódszintű útmutató](./create-pdf-from-word-in-c-fast-low-code-guide/) | Ismerje meg, hogyan hozhat létre PDF-et Word dokumentumokból C#‑ban gyors, kevés kóddal az Aspose.Words segítségével. |
+| [Word mentése PDF-be az Aspose.Words segítségével – Teljes útmutató](./save-word-as-pdf-with-aspose-words-complete-guide/) | Tanulja meg, hogyan menthet Word dokumentumokat PDF-be az Aspose.Words használatával, részletes lépésekkel. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -76,6 +76,7 @@ In diesen Tutorials lernen Sie, wie Sie mit LoadOptions Word-Dokumente mit benut
 | [Beschädigte Word-Datei wiederherstellen und Wiederherstellungsmodus in C# anzeigen](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | Erfahren Sie, wie Sie beschädigte Word-Dateien mit Aspose.Words für .NET wiederherstellen und den Wiederherstellungsmodus in C# anzeigen. |
 | [Warnungen in C# erfassen – Fehlende Schriftarten erkennen und Substitution protokollieren](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Warnungen erfassen, fehlende Schriftarten erkennen und die Substitution protokollieren. |
 | [Beschädigtes DOCX wiederherstellen – Vollständige C#-Anleitung zum Reparieren und Speichern von Dateien](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) | Erfahren Sie, wie Sie beschädigte DOCX-Dateien mit C# reparieren und speichern können – Schritt-für-Schritt-Anleitung. |
+| [Beschädigtes DOCX wiederherstellen – Vollständige Anleitung zum Laden beschädigter Word-Dateien in C#](./recover-corrupted-docx-full-guide-to-loading-damaged-word-fi/) | Erfahren Sie, wie Sie beschädigte DOCX-Dateien in C# mit Aspose.Words laden und vollständig wiederherstellen – Schritt‑für‑Schritt‑Anleitung. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

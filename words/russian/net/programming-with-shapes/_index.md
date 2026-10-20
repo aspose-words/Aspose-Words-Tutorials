@@ -61,6 +61,7 @@
 | [Как установить тень для фигуры в C# – пошаговое руководство](./how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/) | Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 | [Как установить тень у формы Word – C# учебник](./how-to-set-shadow-on-a-word-shape-c-tutorial/) | Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 | [Создать прямоугольную форму и добавить тень в C#](./create-rectangle-shape-and-how-to-add-shadow-in-c/) | Узнайте, как создать прямоугольную форму и добавить к ней тень в документах Word с помощью Aspose.Words для .NET на C#. |
+| [Как переместить тень в Aspose.Words – Полное руководство на C#](./how-to-move-shadow-in-aspose-words-complete-c-guide/) | Узнайте, как переместить тень фигуры в документах Word с помощью Aspose.Words для .NET в этом полном руководстве на C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

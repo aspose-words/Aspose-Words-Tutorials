@@ -77,6 +77,7 @@ Basic Conversions przeprowadzi Cię przez podstawowe konwersje dokumentów przy 
 | [Konwertuj docx do txt – Kompletny przewodnik dla matematyki Word do LaTeX](./convert-docx-to-txt-complete-guide-for-word-math-to-latex/) | Dowiedz się, jak konwertować pliki DOCX do TXT, zachowując formuły matematyczne Word i przekształcając je do LaTeX. |
 | [Utwórz PDF z Worda w C# – Kompletny przewodnik](./create-pdf-from-word-in-c-full-guide/) | Dowiedz się, jak w prosty sposób utworzyć plik PDF z dokumentu Word przy użyciu Aspose.Words w C#. Szczegółowy przewodnik krok po kroku. |
 | [Utwórz PDF z Worda w C# – szybki przewodnik low‑code](./create-pdf-from-word-in-c-fast-low-code-guide/) | Dowiedz się, jak szybko generować PDF z dokumentów Word przy użyciu podejścia low‑code w C# i Aspose.Words. |
+| [Zapisz Word jako PDF przy użyciu Aspose.Words – Kompletny przewodnik](./save-word-as-pdf-with-aspose-words-complete-guide/) | Dowiedz się, jak w prosty sposób zapisać dokument Word jako PDF przy użyciu Aspose.Words. Szczegółowy przewodnik krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
