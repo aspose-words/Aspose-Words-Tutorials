@@ -19,6 +19,15 @@
 في هذه الدروس، ستتعلم جوانب مختلفة من معالجة النصوص باستخدام التعليقات في مستندات Word باستخدام Aspose.Words لـ .NET. ستكتشف كيفية إضافة تعليقات إلى المستندات، وربط ردود التعليقات بنص معين، وإضافة ردود التعليقات وإزالتها، ومعالجة التعليقات والردود عليها. يوفر كل درس دليلاً تفصيلياً خطوة بخطوة مع شيفرة المصدر الكاملة، مما يُمكّنك من تحسين التعاون وإدارة الملاحظات داخل مستندات Word باستخدام Aspose.Words لـ .NET.
 
  ## دروس تعليمية
+
+{{< tutorial-card link="./add-hyperlink-comment/" title="إضافة تعليق ارتباط تشعبي وتصديره كتعليق توضيحي في PDF باستخدام Aspose.Words for .NET" imgSrc="./add-hyperlink-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-comment/" title="إدراج Comment على فقرة محددة في مستند Word باستخدام Aspose.Words for .NET" imgSrc="./add-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./style-comment-text/" title="تطبيق نمط مخصص على نص التعليق في مستندات Word باستخدام Aspose.Words for .NET" imgSrc="./style-comment-text/images/thumb.png" >}}
+
+
+
 | العنوان | الوصف |
 | --- | --- |
 | [أضف تعليقات](./add-comments/) | تعرّف على كيفية إضافة تعليقات إلى مستندات Word باستخدام Aspose.Words لـ .NET من خلال دليلنا. حسّن عملية التعاون في مستنداتك بسهولة. |

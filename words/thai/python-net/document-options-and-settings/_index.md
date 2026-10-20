@@ -43,12 +43,22 @@
 ## บทช่วยสอนเกี่ยวกับตัวเลือกและการตั้งค่าเอกสาร
 ### [เทคนิคขั้นสูงสำหรับการเข้าร่วมและการผนวกเอกสาร](./join-append-documents/)
 เรียนรู้เทคนิคขั้นสูงในการรวมและผนวกเอกสารโดยใช้ Aspose.Words ใน Python คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด
+
 ### [ปรับแต่งตัวเลือกเอกสารและการตั้งค่าเพื่อประสิทธิภาพ](./manage-document-options-settings/)
 เรียนรู้วิธีการจัดการเอกสาร Word อย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ
+
 ### [คุณสมบัติเอกสารและการจัดการข้อมูลเมตา](./document-properties-metadata/)
 เรียนรู้วิธีจัดการคุณสมบัติเอกสารและข้อมูลเมตาโดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ
+
 ### [การขยายฟังก์ชันการทำงานของเอกสารด้วยส่วนขยายเว็บ](./document-functionality-web-extensions/)
 เรียนรู้วิธีขยายฟังก์ชันการทำงานของเอกสารด้วยส่วนขยายเว็บโดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับเพื่อการบูรณาการที่ราบรื่น
+### [วิธีกู้คืน DOCX – คู่มือฉบับสมบูรณ์กับ Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
+เรียนรู้วิธีกู้คืนไฟล์ DOCX ที่เสียหายโดยใช้ Aspose.Words พร้อมขั้นตอนและตัวอย่างโค้ด
+
+### [ทำให้ PDF เข้าถึงได้ด้วย Aspose.Words – คู่มือครบขั้นตอน](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
+เรียนรู้วิธีทำให้ไฟล์ PDF เข้าถึงได้โดยใช้ Aspose.Words พร้อมคำแนะนำทีละขั้นตอนและโค้ดต้นฉบับ
+### [กู้คืนเอกสาร Word ที่เสียหายด้วย Aspose.Words – คู่มือ Python ทีละขั้นตอน](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+เรียนรู้วิธีกู้คืนไฟล์ Word ที่เสียหายโดยใช้ Aspose.Words ใน Python ด้วยขั้นตอนละเอียดและโค้ดตัวอย่าง
 ### [วิธีกู้คืนไฟล์ docx ใน Python – คู่มือขั้นตอนโดยละเอียด](./how-to-recover-docx-files-in-python-step-by-step-guide/)
 เรียนรู้วิธีกู้คืนไฟล์ docx ที่เสียหายใน Python ด้วยขั้นตอนทีละขั้นตอนพร้อมตัวอย่างโค้ด
 ### [กำหนดค่า MarkdownSaveOptions สำหรับ LaTeX ใน Python – คู่มือ Aspose.Words](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)

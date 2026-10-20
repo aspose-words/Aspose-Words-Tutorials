@@ -1,0 +1,21 @@
+//ExStart
+//ExSummary: Den här handledningen visar hur man skapar ett Word-dokument, lägger till ett textstycke och infogar en horisontell linjeform med hjälp av Document och DocumentBuilder.
+//ExStepSummary:0: Skapa ett nytt tomt Word-dokument genom att instansiera Document-klassen.
+//ExStepSummary:1: Skapa en DocumentBuilder som är kopplad till dokumentet för att möjliggöra redigeringsoperationer.
+//ExStepSummary:2: Skriv ett textstycke och infoga sedan en horisontell linjeform på markörens position med DocumentBuilder.
+//ExStepSummary:3: Definiera sökvägen för utdata-mappen och spara dokumentet som en .docx-fil.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document doc = new Document();
+
+//ExStep:1-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

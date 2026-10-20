@@ -60,12 +60,12 @@ Khởi động lại đánh số trang cho phép bạn bắt đầu một chuỗ
     <artifactId>aspose-words</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
 **Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ### Yêu cầu thiết lập môi trường
 - Java Development Kit (JDK) đã được cài đặt.
@@ -90,6 +90,16 @@ public class SetupAsposeWords {
         System.out.println("Aspose.Words is ready to use!");
     }
 }
+```  
+
+Với thư viện đã sẵn sàng, bạn có thể bắt đầu sử dụng các tính năng cốt lõi.
+
+## Cách phân tích các trang bằng LayoutCollector?
+
+`LayoutCollector` là một lớp ánh xạ mỗi nút trong một `Document` tới số trang bắt đầu và kết thúc, cho phép phân tích phân trang chính xác. Tải tài liệu của bạn, gắn một `LayoutCollector`, và truy vấn thông tin trang – toàn bộ thao tác chỉ mất vài dòng mã và cung cấp kết quả đáng tin cậy ngay cả với các tệp lớn.
+
+```text
+Load the document → create LayoutCollector → call getStartPage(node) / getEndPage(node)
 ```
 
 Với thư viện đã sẵn sàng, chúng ta có thể bắt đầu khám phá các tính năng cốt lõi.
@@ -108,7 +118,7 @@ Bằng cách tận dụng `LayoutCollector`, bạn có thể lấy chỉ số tr
 ```java
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
-```
+```  
 
 **2. Thêm nội dung vào Document**
 Ở đây, chúng ta sẽ chèn nội dung trải qua nhiều trang:
@@ -119,7 +129,7 @@ builder.insertBreak(BreakType.PAGE_BREAK);
 builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
 builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
-```
+```  
 
 **3. Cập nhật bố cục và lấy các chỉ số**
 ```java
@@ -127,6 +137,19 @@ layoutCollector.clear();
 doc.updatePageLayout();
 
 assert layoutCollector.getNumPagesSpanned(doc) == 5;
+```  
+
+**Giải thích:**  
+- `DocumentBuilder` chèn nội dung.  
+- `updatePageLayout()` buộc thực hiện một lần bố cục để số trang chính xác.  
+- `getStartPage` / `getEndPage` trả về chỉ số trang đầu và cuối cho bất kỳ nút nào.
+
+## Cách liệt kê các phần tử bố cục với LayoutEnumerator?
+
+`LayoutEnumerator` là một lớp duyệt cây bố cục hình ảnh của tài liệu, hiển thị loại, vị trí và kích thước của mỗi phần tử—hoàn hảo cho render tùy chỉnh hoặc phân tích. `LayoutEnumerator` duyệt cây bố cục hình ảnh, hiển thị loại, vị trí và kích thước của mỗi phần tử—hoàn hảo cho render tùy chỉnh hoặc phân tích.
+
+```text
+Initialize LayoutEnumerator → move to first child → iterate while moving next sibling
 ```
 
 #### Giải thích
@@ -145,7 +168,7 @@ Bạn có thể duyệt qua các trang, đoạn văn, dòng và các thực th�
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
-```
+```  
 
 **2. Duyệt tiến và lùi**
 ```java
@@ -156,6 +179,18 @@ traverseLayoutForward(layoutEnumerator, 1);
 
 // Traverse backward
 traverseLayoutBackward(layoutEnumerator, 1);
+```  
+
+**Giải thích:**  
+- `moveParent()` di chuyển lên cây.  
+- Việc duyệt đệ quy cho phép bạn truy cập đầy đủ vào mọi nút bố cục.
+
+## Cách triển khai callback bố cục trang?
+
+`IPageLayoutCallback` là một giao diện để nhận các sự kiện bố cục trong quá trình xử lý tài liệu, cho phép bạn phản hồi các thay đổi bố cục như việc tái luồng phần hoặc hoàn thành render. Triển khai `IPageLayoutCallback` cho phép bạn phản hồi các sự kiện bố cục như việc tái luồng phần hoặc hoàn thành render, cung cấp kiểm soát động cho pipeline tạo tài liệu.
+
+```text
+Set callback on Document → implement notify(event) → handle specific layout events
 ```
 
 #### Giải thích
@@ -174,7 +209,7 @@ Giao diện `IPageLayoutCallback` thông báo cho bạn khi một phần tài li
 ```java
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
 doc.updatePageLayout();
-```
+```  
 
 **2. Triển khai các phương thức Callback**
 ```java
@@ -196,6 +231,18 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
         }
     }
 }
+```  
+
+**Giải thích:**  
+- `notify()` nhận một định danh sự kiện.  
+- `ImageSaveOptions` có thể được tùy chỉnh trong callback để render ảnh ngay lập tức.
+
+## Cách khởi động lại đánh số trang trong các phần liên tục?
+
+`ContinuousSectionRestart` là một enumeration xác định liệu việc đánh số trang có khởi động lại trong các phần liên tục hay không, cho phép bạn kiểm soát chi tiết các sơ đồ đánh số trên toàn tài liệu. Khi tài liệu chứa nhiều phần liên tục, bạn có thể kiểm soát việc số trang có tự động khởi động lại hay không.
+
+```text
+Load document → set ContinuousSectionPageNumberingRestart option → save
 ```
 
 #### Giải thích
@@ -213,13 +260,13 @@ Bằng cách thiết lập tùy chọn `ContinuousSectionRestart`, bạn có th�
 **1. Tải Document**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
-```
+```  
 
-**2. Cấu hình tùy chọn đánh số trang**
+### Bước 2: cấu hình tùy chọn đánh số trang
 ```java
 doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
 doc.updatePageLayout();
-```
+```  
 
 #### Giải thích
 - **`setContinuousSectionPageNumberingRestart()`** chỉ định cho Aspose.Words cách xử lý đánh số trong các section liên tục.

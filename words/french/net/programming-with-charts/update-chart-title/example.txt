@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: En utilisant Aspose.Words, ce tutoriel crée un document Word, insère un graphique en colonnes, met à jour le titre du graphique avec le texte fourni par l'utilisateur et bascule la visibilité et le chevauchement de la légende selon les préférences de l'utilisateur.
+//ExStepSummary:0: Définissez le titre du graphique fourni par l'utilisateur et indiquez si la légende doit être affichée.
+//ExStepSummary:1: Créez un nouveau document Word et un DocumentBuilder pour ajouter du contenu.
+//ExStepSummary:2: Insérez un graphique en colonnes de 432 × 252 pt dans le document et vérifiez que la forme contient réellement un graphique.
+//ExStepSummary:3: Récupérez l'objet Chart, définissez le texte de son titre avec la valeur fournie par l'utilisateur et assurez-vous que le titre est affiché.
+//ExStepSummary:4: Configurez la légende : affichez‑la à droite si demandé, sinon masquez‑la, et autorisez‑la à chevaucher la zone du tracé.
+//ExStepSummary:5: Enregistrez le document modifié sur le disque sous le nom CustomChart.docx.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+string chartHeader = "Fiscal Q1 Performance Summary";
+bool displayLegend = false;
+
+//ExStep:1-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:2-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+if (!chartContainer.HasChart)
+    throw new InvalidOperationException("The inserted shape does not contain a chart.");
+
+//ExStep:3-
+Chart chartObj = chartContainer.Chart;
+ChartTitle chartTitle = chartObj.Title;
+chartTitle.Text = chartHeader;
+chartTitle.Show = true;
+
+//ExStep:4-
+ChartLegend chartLegend = chartObj.Legend;
+chartLegend.Position = displayLegend ? LegendPosition.Right : LegendPosition.None;
+chartLegend.Overlay = true;
+
+//ExStep:5-
+wordDoc.Save("CustomChart.docx");
+//ExEnd

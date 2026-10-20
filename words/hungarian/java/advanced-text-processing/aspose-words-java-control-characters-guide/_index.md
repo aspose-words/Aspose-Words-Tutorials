@@ -63,13 +63,13 @@ Adja hozzá a Maven függőséget a `pom.xml` fájlhoz (ez az **aspose words mav
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 Ha a Gradle-t részesíted előnyben, használd a következő kódrészletet:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ## Licenc beszerzése
 Az Aspose.Words teljes kihasználásához licencfájlra lesz szükséged:
@@ -81,7 +81,7 @@ A licenc beszerzése után inicializáld azt a Java alkalmazásodban az alábbia
 ```java
 License license = new License();
 license.setLicense("path/to/aspose.words.lic");
-```
+```  
 
 ## Megvalósítási útmutató
 A megvalósításunkat két fő funkcióra bontjuk: kocsivissza kezelés és vezérlőkarakterek beszúrása.
@@ -89,8 +89,8 @@ A megvalósításunkat két fő funkcióra bontjuk: kocsivissza kezelés és vez
 ### 1. funkció: Kocsivissza kezelés
 A kocsivissza kezelés biztosítja, hogy a szerkezeti elemek, például az oldaltörések helyesen jelenjenek meg a dokumentum szöveges formátumában.
 
-#### Lépésről lépésre útmutató
-**Áttekintés**: Ez a funkció bemutatja, hogyan ellenőrizhető és kezelhető a szerkezeti elemeket, például az oldaltöréseket ábrázoló vezérlőkarakterek jelenléte.
+### 1. funkció: kocsivissza kezelése
+A kocsivissza kezelése biztosítja, hogy a strukturális elemek, például az oldal törések, helyesen jelenjenek meg a dokumentum szöveges formájában.
 
 **Megvalósítási lépések:**
 

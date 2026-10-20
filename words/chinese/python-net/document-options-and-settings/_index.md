@@ -49,6 +49,12 @@
 学习如何使用 Aspose.Words for Python 管理文档属性和元数据。包含源代码的分步指南。
 ### [使用 Web 扩展来扩展文档功能](./document-functionality-web-extensions/)
 学习如何使用 Aspose.Words for Python 通过 Web 扩展程序扩展文档功能。包含无缝集成源代码的分步指南。
+### [使用 Aspose.Words 使 PDF 可访问 – 完整分步指南](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
+学习如何使用 Aspose.Words for Python 将 PDF 文档转换为可访问的格式，满足无障碍标准的完整分步指南。
+### [如何恢复 DOCX – 使用 Aspose.Words 的完整指南](./how-to-recover-docx-complete-guide-with-aspose-words/)
+学习使用 Aspose.Words for Python 恢复受损的 DOCX 文件，提供完整的步骤和示例代码。
+### [使用 Aspose.Words 恢复损坏的 Word 文档 – Python 步骤指南](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+学习如何使用 Aspose.Words for Python 逐步恢复损坏的 Word 文档。
 ### [如何在 Python 中恢复 docx 文件 – 步骤指南](./how-to-recover-docx-files-in-python-step-by-step-guide/)
 学习在 Python 中使用 Aspose.Words 恢复损坏的 docx 文件的完整步骤。
 ### [在 Python 中为 LaTeX 配置 MarkdownSaveOptions – Aspose.Words 指南](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)

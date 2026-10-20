@@ -1,0 +1,24 @@
+//ExStart
+//ExSummary: এই টিউটোরিয়ালটি দেখায় কীভাবে DocumentBuilder ব্যবহার করে একটি Word ডকুমেন্ট তৈরি করা যায়, পূর্বনির্ধারিত আইটেমসহ একটি কম্বো বক্স ফর্ম ফিল্ড যোগ করা যায়, এবং ডকুমেন্টটি সংরক্ষণ করা যায়।
+//ExStepSummary:0: ফলস্বরূপ ডকুমেন্টটি যেখানে সংরক্ষণ হবে সেই ফোল্ডারের পথ নির্ধারণ করুন।
+//ExStepSummary:1: কম্বো বক্সের অপশনগুলো পূরণ করবে এমন স্ট্রিংগুলোর একটি অ্যারে তৈরি করুন।
+//ExStepSummary:2: একটি নতুন Document এবং তার সাথে যুক্ত একটি DocumentBuilder ইনস্ট্যানশিয়েট করুন।
+//ExStepSummary:3: `builder.InsertComboBox` কল করুন যাতে বর্তমান কার্সার অবস্থানে নির্ধারিত আইটেমসহ "DropDown" নামের একটি কম্বো বক্স স্থাপন করা যায়।
+//ExStepSummary:4: ডকুমেন্টটি নির্দিষ্ট ডিরেক্টরিতে .docx ফাইল হিসেবে সংরক্ষণ করুন।
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+string[] items = { "One", "Two", "Three" };
+
+//ExStep:2-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertComboBox("DropDown", items, 0);
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertComboBoxFormField.docx");
+//ExEnd
