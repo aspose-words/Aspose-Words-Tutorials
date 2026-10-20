@@ -110,6 +110,8 @@ Aspose.Words for Java 讓您輕鬆 **從 Word 儲存圖像**，同時提供強�
 
 ### [使用 Aspose.Words for Java 將文件儲存為文字檔](./saving-documents-as-text-files/)
 
+### [儲存 Word 文件 – 設定字體、處理缺少的字體](./save-word-document-set-font-settings-handle-missing-fonts/)
+
 ### [使用 Aspose.Words for Java 判斷文件格式](./determining-document-format/)
 
 ### [如何使用 Aspose.Words 恢復 docx – 啟用復原模式](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
@@ -126,6 +128,12 @@ Aspose.Words for Java 讓您輕鬆 **從 Word 儲存圖像**，同時提供強�
 
 ### [修復損壞的 docx – 完整指南：修復與處理文件](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 
+### [如何恢復 DOCX 檔案 – 步驟說明 Java 指南](./how-to-recover-docx-files-step-by-step-java-guide/)
+### [開啟損壞的 Word 文件 – 在 Java 中設定復原模式](./open-corrupted-word-document-set-recovery-mode-in-java/)
+### [使用 Aspose.Words for Java 復原損壞的 docx](./recover-corrupted-docx-using-aspose-words-java/)
+### [使用 Aspose.Words 復原損壞的 docx – 完整 Java 指南](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
+### [在 Java 中修復損壞的 DOCX – 完整程式指南](./recover-corrupted-docx-in-java-complete-programming-guide/)
+
 ### [使用 Aspose.Words for Java 捕獲字體替換警告 – 完整指南](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [如何復原 docx – 讀取損壞 Word 檔案的完整指南](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 ### [如何在 Java 中取得缺失字型 – Aspose.Words 指南](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
@@ -133,6 +141,19 @@ Aspose.Words for Java 讓您輕鬆 **從 Word 儲存圖像**，同時提供強�
 ### [使用 Aspose.Words for Java 復原損壞的 Word 文件 – 完整 Java 指南](./recover-broken-word-document-complete-java-guide/)
 
 ### [捕捉字體替換警告 – 偵測缺少的字體](./capture-font-substitution-warnings-detect-missing-fonts/)
+
+### [恢復 Word 文件 – 完整指南：在 Java 中設定復原模式](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
+
+### [在 Java 中註冊警告回呼 – 追蹤缺少字體](./register-warning-callback-in-java-track-missing-fonts/)
+
+### [使用 Aspose.Words for Java 偵測缺少字體替換 – 完整指南](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+### [使用 Aspose.Words for Java 復原損毀的 Word 文件 – 指南](./recover-corrupted-word-document-using-aspose-words-guide/)
+
+### [警告回呼教學 – 在 Java 中載入 Word 文件](./warning-callback-tutorial-load-word-document-in-java/)
+
+### [使用 Aspose.Words for Java 記錄字體替換警告](./log-font-substitution-warnings-in-java-with-aspose-words/)
+
+### [設定 LoadOptions 以捕獲警告 – 完整 Java 指南](./configure-loadoptions-for-warnings-complete-java-guide/)
 
 ## 常見問題
 

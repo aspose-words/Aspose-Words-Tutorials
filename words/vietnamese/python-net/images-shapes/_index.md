@@ -39,6 +39,21 @@ Hướng dẫn chi tiết cách thêm hiệu ứng bóng cho đối tượng tro
 
 ### [Thêm hình chữ nhật vào PDF với Aspose.Words – Hướng dẫn từng bước](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 Hướng dẫn chi tiết cách chèn hình chữ nhật vào tài liệu PDF bằng Aspose.Words trong Python-net.
+### [Tạo hình chữ nhật trong Python – Hướng dẫn đầy đủ về Thêm bóng và Lưu dưới dạng PDF](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
+Hướng dẫn chi tiết cách tạo hình chữ nhật, áp dụng hiệu ứng bóng và lưu tài liệu dưới dạng PDF bằng Aspose.Words cho Python-net.
+### [Cách chèn hình chữ nhật và thêm bóng trong Word bằng Aspose](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
+Hướng dẫn chi tiết cách chèn hình chữ nhật và áp dụng hiệu ứng bóng cho đối tượng trong tài liệu Word bằng Aspose.Words.
+### [Tạo tài liệu Word bằng Python – Hướng dẫn Thêm Bóng Đổ cho Hình dạng](./create-word-document-python-add-shadow-to-shape-guide/)
+Hướng dẫn chi tiết cách thêm bóng đổ vào hình dạng trong tài liệu Word bằng Python và Aspose.Words.
+### [Thêm Bóng Đổ cho Hình Dạng trong Python – Hướng Dẫn Đầy Đủ Aspose.Words](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
+Hướng dẫn chi tiết cách thêm hiệu ứng bóng cho hình dạng trong tài liệu Word bằng Python và Aspose.Words.
+### [Cách Lưu Tài Liệu với Hình Chữ Nhật Có Bóng Đổ – Hướng Dẫn Python Đầy Đủ](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
+Hướng dẫn chi tiết cách lưu tài liệu Word với hình chữ nhật có bóng đổ bằng Aspose.Words cho Python.
+### [Tạo hình chữ nhật trong Python – Hướng dẫn Aspose.Words](./create-rectangle-shape-in-python-aspose-words-tutorial/)
+### [Tạo Hình chữ nhật trong Python – Hướng dẫn đầy đủ Aspose.Words](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
+Hướng dẫn chi tiết cách tạo hình chữ nhật trong tài liệu Word bằng Python và Aspose.Words.
+### [Cách chèn hình chữ nhật trong Python – Hướng dẫn đầy đủ Aspose.Words](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
+Tìm hiểu cách chèn hình chữ nhật vào tài liệu Word bằng Python và Aspose.Words, bao gồm các bước chi tiết và mã mẫu.
 
 ## Tài nguyên bổ sung
 

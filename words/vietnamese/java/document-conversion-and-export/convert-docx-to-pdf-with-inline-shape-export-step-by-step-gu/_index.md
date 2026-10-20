@@ -1,68 +1,98 @@
 ---
 category: general
-date: 2026-02-18
-description: Tìm hiểu cách chuyển DOCX sang PDF và lưu Word dưới dạng PDF trong khi
-  giữ nguyên các hình dạng nổi. Hướng dẫn này chỉ ra cách xuất các hình dạng một cách
-  chính xác.
+date: 2026-10-07
+description: Tìm hiểu cách chuyển DOCX sang PDF trong Java, xuất các hình dạng nổi
+  dưới dạng thẻ nội tuyến, và chuyển đổi hàng loạt DOCX sang PDF một cách hiệu quả.
 draft: false
 keywords:
-- convert docx to pdf
-- save word as pdf
-- how to export shapes
-language: vi
-og_description: Chuyển DOCX sang PDF và tìm hiểu cách xuất các hình dạng. Hãy theo
-  dõi hướng dẫn đầy đủ này để lưu Word dưới dạng PDF với việc gắn thẻ chính xác.
-og_title: Chuyển đổi DOCX sang PDF – Hướng dẫn xuất hình dạng nội tuyến
+- how to convert docx to pdf java
+- batch convert docx to pdf
+- export floating shapes inline
+lastmod: 2026-10-07
+og_description: Tìm hiểu cách chuyển DOCX sang PDF trong Java, xuất các hình dạng
+  nổi dưới dạng thẻ nội tuyến, và chuyển đổi hàng loạt DOCX sang PDF một cách hiệu
+  quả.
+og_image_alt: 'Developer guide: Convert DOCX to PDF in Java with inline shape export'
+og_title: Cách chuyển DOCX sang PDF trong Java – hướng dẫn xuất hình dạng
+schemas:
+- author: Aspose
+  dateModified: '2026-10-07'
+  description: Learn how to convert DOCX to PDF in Java, export floating shapes as
+    inline tags, and batch convert DOCX to PDF efficiently.
+  headline: How to convert DOCX to PDF in Java – shape export guide
+  type: TechArticle
+- questions:
+  - answer: Yes—load the document with `LoadOptions` that include the password, then
+      proceed with the same save logic.
+    question: Does this work with password‑protected DOCX files?
+  - answer: Aspose.Words rasterizes vector graphics by default; to keep them vector
+      you can enable `pdfOptions.setVectorRasterizationMode(VectorRasterizationMode.VectorOnly)`.
+    question: What about SVG or EMF images inside the Word file?
+  - answer: Links are retained automatically when you use `PdfSaveOptions`. Avoid
+      disabling tags, as that can drop the logical link structure.
+    question: How do I preserve hyperlinks while converting?
+  - answer: Absolutely. Iterate over `Files.list(Paths.get("YOUR_DIRECTORY"))`, apply
+      the same load‑configure‑save sequence to each file, and handle exceptions per
+      file so one bad document doesn’t halt the whole run.
+    question: Can I batch‑process a folder of DOCX files?
+  - answer: Enable `pdfOptions.setMemoryOptimization(true)` and consider streaming
+      the output to avoid loading the entire PDF into memory.
+    question: How can I improve performance for very large documents?
+  type: FAQPage
 tags:
+- convert docx to pdf
 - Aspose.Words
 - Java
 - PDF conversion
-title: Chuyển đổi DOCX sang PDF với xuất hình dạng nội tuyến – Hướng dẫn từng bước
+- batch convert docx to pdf
+title: Cách chuyển DOCX sang PDF trong Java – hướng dẫn xuất hình dạng
 url: /vi/java/document-conversion-and-export/convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/
 ---
-
-
-
-
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chuyển DOCX sang PDF – Hướng dẫn xuất hình dạng nội tuyến
+# Cách chuyển DOCX sang PDF trong Java – hướng dẫn xuất hình dạng
 
-Bạn đã bao giờ cần **chuyển DOCX sang PDF** nhưng lo lắng rằng các hình ảnh hoặc hộp văn bản nổi của bạn sẽ biến mất hoặc dịch chuyển không? Bạn không phải là người duy nhất. Trong nhiều dự án—như các trình tạo báo cáo tự động hoặc các pipeline xử lý hàng loạt—việc giữ nguyên bố cục chính xác của tài liệu Word là điều không thể thỏa hiệp.  
+Nếu bạn đang tự hỏi **cách chuyển DOCX sang PDF trong Java** trong khi giữ nguyên các hình ảnh hoặc hộp văn bản nổi, bạn đã đến đúng nơi. Trong nhiều dự án—như các công cụ tạo báo cáo tự động hoặc các quy trình xử lý hàng loạt—việc giữ nguyên bố cục chính xác của tài liệu Word là điều không thể thỏa hiệp.
 
-Tin tốt là gì? Chỉ với vài dòng mã bạn có thể **lưu Word dưới dạng PDF** và kiểm soát liệu những hình dạng nổi đó có trở thành thẻ nội tuyến hay vẫn ở dạng khối. Dưới đây bạn sẽ thấy chính xác **cách xuất hình dạng** theo ý muốn, cùng một vài mẹo giúp tránh các lỗi thường gặp.
+Bên dưới bạn sẽ thấy chính xác **cách xuất các hình dạng** theo ý muốn, cùng một vài mẹo giúp bạn tránh các lỗi thường gặp. Không có dịch vụ bên ngoài, không có trình hướng dẫn UI—chỉ mã Java thuần túy mà bạn có thể đưa vào bất kỳ dự án Maven hoặc Gradle nào.
 
----
+## Câu trả lời nhanh
+- **Thư viện nào xử lý việc chuyển đổi?** Aspose.Words for Java.
+- **Tôi có thể chuyển đổi hàng loạt DOCX sang PDF không?** Có—đặt cùng logic trong một vòng lặp qua thư mục.
+- **Các hình dạng nổi có giữ nguyên vị trí không?** Đặt `setExportFloatingShapesAsInlineTag(true)` để xuất chúng dưới dạng thẻ inline.
+- **Cần giấy phép không?** Bản dùng thử miễn phí hoạt động cho việc thử nghiệm; giấy phép thương mại cần cho môi trường sản xuất.
+- **Phiên bản Java nào được yêu cầu?** JDK 8 hoặc cao hơn.
 
-## Bạn sẽ học được gì
+## Cách chuyển DOCX sang PDF trong Java?
 
-* Tải một tệp `.docx` từ đĩa.  
-* Cấu hình `PdfSaveOptions` để các hình dạng nổi được xuất dưới dạng thẻ nội tuyến.  
-* Ghi PDF kết quả vào thư mục bạn chọn.  
-* Hiểu vì sao cờ `setExportFloatingShapesAsInlineTag` quan trọng và khi nào bạn có thể chuyển đổi giá trị của nó.  
+Tải tệp nguồn `.docx` bằng `new Document("input.docx")` và gọi `doc.save("output.pdf", pdfOptions)`—Aspose.Words tự động xử lý phông chữ, hình ảnh, bảng và bố cục phức tạp. Bằng cách cấu hình `PdfSaveOptions` bạn có thể kiểm soát liệu các hình dạng nổi có trở thành thẻ inline hay vẫn là các phần tử cấp khối, điều này rất quan trọng cho khả năng truy cập và thứ tự đọc chính xác.
 
-Không có dịch vụ bên ngoài, không có giao diện “click‑to‑download” ma thuật—chỉ là mã Java thuần túy bạn có thể đưa vào bất kỳ dự án Maven hoặc Gradle nào.
+Mẫu hai bước này hoạt động cho các tệp đơn và mở rộng để **chuyển đổi hàng loạt DOCX sang PDF** bằng cách lặp qua một thư mục các tài liệu.
 
----
+## Những gì bạn sẽ học
+* Tải tệp `.docx` từ ổ đĩa.  
+* Cấu hình `PdfSaveOptions` để các hình dạng nổi được xuất dưới dạng thẻ inline.  
+* Ghi PDF kết quả vào một thư mục bạn chọn.  
+* Hiểu tại sao cờ `setExportFloatingShapesAsInlineTag` quan trọng và khi nào bạn có thể thay đổi nó.  
 
-## Các yêu cầu trước
+## Yêu cầu trước
 
 | Yêu cầu | Lý do quan trọng |
 |-------------|----------------|
-| **Aspose.Words for Java** (v23.12 trở lên) | Cung cấp các lớp `Document` và `PdfSaveOptions` được sử dụng trong ví dụ. |
-| **JDK 8+** | Thư viện được biên dịch cho Java 8 và các phiên bản mới hơn; các môi trường cũ sẽ ném `UnsupportedClassVersionError`. |
-| **Một tệp DOCX** có ít nhất một hình dạng nổi (hình ảnh, hộp văn bản, WordArt) | Để thấy hiệu quả của tùy chọn xuất hình dạng, bạn cần một tài liệu thực sự chứa các đối tượng nổi. |
+| **Aspose.Words for Java** (v23.12 or later) | Cung cấp các lớp `Document` và `PdfSaveOptions` được sử dụng trong ví dụ. |
+| **JDK 8+** | Thư viện được biên dịch cho Java 8 và các phiên bản mới hơn; các môi trường chạy cũ sẽ ném `UnsupportedClassVersionError`. |
+| **A DOCX file** with at least one floating shape (image, text box, WordArt) | Để thấy hiệu quả của tùy chọn xuất hình dạng, bạn cần một tài liệu thực sự chứa các đối tượng nổi. |
 
-Nếu bạn đã có những thành phần này, tuyệt vời—cùng bắt đầu.
-
----
+Nếu bạn đã có những thành phần này, tuyệt vời—hãy bắt đầu.
 
 ## Bước 1 – Tải tài liệu nguồn  
 
-Đầu tiên chúng ta tạo một thể hiện `Document` trỏ tới tệp `.docx` bạn muốn chuyển đổi. Hàm khởi tạo sẽ đọc tệp vào bộ nhớ, phân tích gói OpenXML và chuẩn bị mô hình đối tượng nội bộ.
+Lớp `Document` là đối tượng cấp cao nhất của Aspose.Words, đại diện cho một tệp Word duy nhất trong bộ nhớ. Khi khởi tạo, nó đọc tệp, phân tích gói OpenXML và xây dựng mô hình đối tượng mà bạn có thể thao tác.
+
+Đầu tiên chúng ta tạo một thể hiện `Document` trỏ tới tệp `.docx` bạn muốn chuyển đổi.  
 
 ```java
 import com.aspose.words.Document;
@@ -74,13 +104,13 @@ String inputPath = "YOUR_DIRECTORY/input.docx";
 Document doc = new Document(inputPath);
 ```
 
-> **Mẹo chuyên nghiệp:** Nếu bạn đang xử lý nhiều tệp trong một vòng lặp, hãy tái sử dụng một đối tượng `Document` duy nhất chỉ sau khi bạn đã gọi `doc.close()` (hoặc để bộ thu gom rác xử lý). Điều này ngăn rò rỉ handle tệp trên Windows.
-
----
+> **Mẹo chuyên nghiệp:** Nếu bạn đang xử lý nhiều tệp trong một vòng lặp, hãy tái sử dụng một đối tượng `Document` duy nhất chỉ sau khi bạn đã gọi `doc.close()` (hoặc để bộ thu gom rác xử lý). Điều này ngăn rò rỉ tay cầm tệp trên Windows.
 
 ## Bước 2 – Cấu hình tùy chọn lưu PDF để xuất hình dạng  
 
-Trái tim của hướng dẫn nằm ở đây. `PdfSaveOptions` cho phép bạn chỉ định cách chuyển đổi hoạt động. Thiết lập `setExportFloatingShapesAsInlineTag(true)` buộc mọi hình dạng nổi được coi là phần tử *nội tuyến* trong cấu trúc thẻ của PDF. Điều đó có nghĩa là trình đọc màn hình sẽ đọc hình dạng theo cùng thứ tự với văn bản xung quanh, thường cần cho việc tuân thủ khả năng truy cập.
+`PdfSaveOptions` là đối tượng cấu hình quyết định cách chuyển đổi hoạt động. Đặt `setExportFloatingShapesAsInlineTag(true)` buộc mọi hình dạng nổi được xử lý như một phần tử *inline* trong cấu trúc thẻ của PDF, cải thiện khả năng truy cập và thứ tự đọc.
+
+Lớp `PdfSaveOptions` kiểm soát bố cục, nhúng phông chữ, mức độ tuân thủ và nhiều tùy chỉnh hiệu năng.  
 
 ```java
 import com.aspose.words.PdfSaveOptions;
@@ -91,27 +121,29 @@ PdfSaveOptions pdfOptions = new PdfSaveOptions();
 pdfOptions.setExportFloatingShapesAsInlineTag(true);
 ```
 
-**Khi nào bạn sẽ đặt giá trị `false`?**  
-Nếu PDF của bạn chỉ dành cho việc in và bạn muốn các hình dạng giữ vị trí gốc mà không ảnh hưởng tới thứ tự đọc logic, bạn có thể muốn gắn thẻ ở mức khối. Mặc định là `false`, vì vậy chúng tôi bật rõ ràng hành vi nội tuyến cho tutorial này.
-
----
+**Khi nào bạn sẽ đặt nó thành `false`?**  
+Nếu PDF của bạn chỉ dành cho việc in và bạn muốn các hình dạng giữ nguyên vị trí ban đầu mà không ảnh hưởng đến thứ tự đọc logic, bạn có thể ưu tiên gắn thẻ cấp khối. Mặc định là `false`, vì vậy chúng tôi bật rõ ràng hành vi inline cho hướng dẫn này.
 
 ## Bước 3 – Lưu tài liệu dưới dạng PDF  
 
-Khi các tùy chọn đã sẵn sàng, gọi `save` với tên tệp đích và đối tượng tùy chọn. Thư viện sẽ thực hiện phần nặng: engine bố cục, nhúng phông chữ và tạo thẻ.
+Phương thức `save` ghi tài liệu đã xử lý ra đĩa bằng các tùy chọn bạn cung cấp. Nó xử lý bố cục, nhúng phông chữ và tạo thẻ phía sau.
+
+Phương thức `save` trên lớp `Document` ghi tệp PDF vào vị trí đích bằng cách sử dụng `PdfSaveOptions` đã cấu hình.  
 
 ```java
 String outputPath = "YOUR_DIRECTORY/shapes.pdf";
 doc.save(outputPath, pdfOptions);
 ```
 
-Sau khi lệnh hoàn thành, bạn sẽ thấy `shapes.pdf` trong thư mục đã chỉ định. Mở nó bằng Adobe Acrobat hoặc bất kỳ trình xem PDF nào hiển thị thẻ (thường nằm dưới **File → Properties → Tags**) và bạn sẽ thấy hình dạng nổi xuất hiện dưới dạng thẻ nội tuyến.
+Sau khi gọi hoàn thành, bạn sẽ thấy `shapes.pdf` trong thư mục đã chỉ định. Mở nó trong Adobe Acrobat hoặc bất kỳ trình xem PDF nào hiển thị thẻ (thường ở **File → Properties → Tags**) và bạn sẽ thấy hình dạng nổi xuất hiện dưới dạng thẻ inline.
 
----
+## Tại sao cách tiếp cận này quan trọng  
 
-## Ví dụ đầy đủ, có thể chạy được  
+Aspose.Words for Java hỗ trợ **hơn 50 định dạng đầu vào và đầu ra** và có thể xử lý tài liệu 500 trang trong vòng dưới **5 giây** trên một máy chủ tiêu chuẩn, mà không cần Microsoft Word. Bằng cách xuất các hình dạng nổi dưới dạng thẻ inline, bạn đáp ứng các tiêu chuẩn truy cập như PDF/UA, và tránh hiện tượng lệch bố cục khi PDF được xem trên các thiết bị khác nhau.
 
-Kết hợp tất cả lại, đây là một lớp Java tự chứa bạn có thể biên dịch và chạy. Đảm bảo JAR Aspose.Words đã có trong classpath.
+## Ví dụ đầy đủ, có thể chạy  
+
+Kết hợp tất cả lại, đây là một lớp Java tự chứa mà bạn có thể biên dịch và chạy. Đảm bảo JAR của Aspose.Words có trong classpath của bạn.
 
 ```java
 import com.aspose.words.*;
@@ -142,15 +174,64 @@ public class DocxToPdfWithShapes {
 
 **Kết quả mong đợi:**  
 - Tệp PDF chứa cùng nội dung văn bản như DOCX gốc.  
-- Bất kỳ hình ảnh hoặc hộp văn bản nổi nào bây giờ được gắn thẻ *nội tuyến*, nghĩa là chúng xuất hiện trong thứ tự đọc thay vì là các khối riêng biệt.  
-- Nếu bạn mở **Bảng Thẻ** của PDF, sẽ thấy một phần tử `<Figure>` lồng trong `<Paragraph>`—đúng như `setExportFloatingShapesAsInlineTag(true)` đảm bảo.
+- Bất kỳ hình ảnh hoặc hộp văn bản nổi nào hiện giờ được gắn thẻ *inline*, nghĩa là chúng xuất hiện trong thứ tự đọc thay vì là các khối riêng biệt.  
+- Nếu bạn mở **bảng Tags** của PDF, bạn sẽ thấy một phần tử `<Figure>` nằm bên trong một `<Paragraph>`—đúng như `setExportFloatingShapesAsInlineTag(true)` đảm bảo.
+
+## Câu hỏi thường gặp & các trường hợp đặc biệt  
+
+**Q: Điều này có hoạt động với các tệp DOCX được bảo vệ bằng mật khẩu không?**  
+A: Có—tải tài liệu bằng `LoadOptions` bao gồm mật khẩu, sau đó tiếp tục với cùng logic lưu.  
+
+**Q: Còn các hình ảnh SVG hoặc EMF trong tệp Word thì sao?**  
+A: Aspose.Words rasterizes (chuyển đổi) đồ họa vector theo mặc định; để giữ chúng ở dạng vector bạn có thể bật `pdfOptions.setVectorRasterizationMode(VectorRasterizationMode.VectorOnly)`.  
+
+**Q: Làm sao để giữ lại các siêu liên kết khi chuyển đổi?**  
+A: Các liên kết được giữ tự động khi bạn sử dụng `PdfSaveOptions`. Tránh tắt thẻ, vì điều đó có thể làm mất cấu trúc liên kết logic.  
+
+**Q: Tôi có thể xử lý hàng loạt một thư mục các tệp DOCX không?**  
+A: Chắc chắn. Lặp qua `Files.list(Paths.get("YOUR_DIRECTORY"))`, áp dụng cùng chuỗi load‑configure‑save cho mỗi tệp, và xử lý ngoại lệ riêng cho từng tệp để một tài liệu lỗi không làm dừng toàn bộ quá trình.  
+
+**Q: Làm sao tôi có thể cải thiện hiệu năng cho các tài liệu rất lớn?**  
+A: Bật `pdfOptions.setMemoryOptimization(true)` và cân nhắc streaming (đầu ra luồng) để tránh tải toàn bộ PDF vào bộ nhớ.
+
+## Mẹo thực tế từ thực tiễn  
+
+* **Cẩn thận với phông chữ thiếu.** Nếu DOCX nguồn sử dụng phông chữ tùy chỉnh không được cài trên máy chủ, PDF sẽ thay thế bằng phông dự phòng, có thể làm lệch bố cục. Sử dụng `pdfOptions.setFontEmbeddingMode(FontEmbeddingMode.EMBED_ALL)` để buộc nhúng.  
+* **Kiểm tra khả năng truy cập.** Sau khi chuyển đổi, chạy **Accessibility Checker** của Acrobat. Gắn thẻ inline thường cải thiện điểm, nhưng bạn vẫn có thể cần thêm văn bản thay thế cho hình ảnh thủ công.  
+* **Mẹo hiệu năng:** Đối với tài liệu lớn (hơn 100 trang), bật `pdfOptions.setMemoryOptimization(true)` để giảm việc sử dụng heap.  
+
+## Xác nhận trực quan  
+
+Dưới đây là một ảnh chụp nhanh của PDF mở trong Adobe Acrobat, hiển thị hình dạng được gắn thẻ inline được đánh dấu trong bảng **Tags**.
+
+![Ví dụ xuất DOCX sang PDF](image.png)
+
+[Ví dụ xuất DOCX sang PDF](image.png)
+
+*Văn bản thay thế: ví dụ xuất docx sang pdf hiển thị thẻ hình dạng inline.*
+
+## Tổng kết  
+
+Bạn giờ đã biết **cách chuyển DOCX sang PDF trong Java** đồng thời kiểm soát cách các đối tượng nổi được xuất. Bằng cách bật/tắt `setExportFloatingShapesAsInlineTag`, bạn quyết định liệu các hình dạng có trở thành một phần của thứ tự đọc hay vẫn là các khối độc lập—điều quan trọng cho cả khả năng truy cập và độ trung thực hình ảnh.  
+
+Từ đây bạn có thể:
+
+* **Lưu Word dưới dạng PDF** hàng loạt để lưu trữ.  
+* Thử nghiệm các `PdfSaveOptions` khác như `setCompliance(PdfCompliance.PDF_A_1B)` để bảo tồn lâu dài.  
+* Tìm hiểu sâu hơn về **cách xuất hình dạng** bằng cách khám phá tài liệu đầy đủ của Aspose.Words hoặc thử cờ `setExportDocumentStructure(true)` để có cây thẻ phong phú hơn.  
+
+Hãy thử nghiệm, điều chỉnh các tùy chọn, và để các PDF của bạn trông chính xác như bạn mong muốn. Chúc lập trình vui vẻ!
 
 ---
 
-## Câu hỏi thường gặp & Trường hợp đặc biệt  
+**Cập nhật lần cuối:** 2026-10-07  
+**Kiểm tra với:** Aspose.Words for Java 23.12  
+**Tác giả:** Aspose  
 
-### 1️⃣ Có hoạt động với các tệp DOCX được bảo vệ bằng mật khẩu không?  
-Có—chỉ cần cung cấp mật khẩu trước khi tải:
+
+
+
+
 
 ```java
 LoadOptions loadOptions = new LoadOptions();
@@ -158,52 +239,20 @@ loadOptions.setPassword("mySecret");
 Document doc = new Document(inputPath, loadOptions);
 ```
 
-### 2️⃣ Còn các hình ảnh SVG hoặc EMF trong tệp Word thì sao?  
-Aspose.Words tự động raster hoá đồ họa vector khi lưu sang PDF. Nếu bạn muốn chúng giữ dạng vector, hãy thiết lập:
-
 ```java
 pdfOptions.setRasterizeTransformedElements(false);
 ```
 
-### 3️⃣ Làm sao để giữ lại siêu liên kết khi chuyển đổi?  
-Liên kết được giữ lại mặc định. Tuy nhiên, nếu bạn tắt thẻ (`pdfOptions.setSaveFormat(SaveFormat.PDF)` mà không có tùy chọn), bạn có thể mất cấu trúc logic. Giữ đối tượng `PdfSaveOptions` để duy trì cả thẻ và liên kết.
+## Hướng dẫn liên quan
 
-### 4️⃣ Tôi có thể batch‑process một thư mục các tệp DOCX không?  
-Chắc chắn. Đặt logic `DocxToPdfWithShapes` trong một vòng lặp duyệt `Files.list(Paths.get("YOUR_DIRECTORY"))`. Nhớ xử lý ngoại lệ riêng cho mỗi tệp để một tài liệu lỗi không làm dừng toàn bộ quá trình.
+- [Chuyển Docx sang Pdf trong Java Hướng dẫn từng bước](/words/java/document-converting/convert-docx-to-pdf-in-java-step-by-step-guide/)
+- [Lưu Docx dưới dạng Pdf với Java Hướng dẫn đầy đủ từng bước](/words/java/document-conversion-and-export/save-docx-as-pdf-with-java-complete-step-by-step-guide/)
+- [Chuyển DOCX sang PDF trong Java với Aspose.Words – Sử dụng chuyển đổi tài liệu](/words/java/document-converting/using-document-converting/)
 
----
-
-## Mẹo từ thực tiễn  
-
-* **Cảnh giác với phông chữ thiếu.** Nếu DOCX nguồn dùng phông chữ tùy chỉnh chưa được cài trên máy chủ, PDF sẽ thay thế bằng phông chữ dự phòng, có thể làm hỏng bố cục. Sử dụng `pdfOptions.setFontEmbeddingMode(FontEmbeddingMode.EMBED_ALL)` để buộc nhúng.  
-* **Kiểm tra khả năng truy cập.** Sau khi chuyển đổi, chạy **Accessibility Checker** của Acrobat. Gắn thẻ nội tuyến thường cải thiện điểm số, nhưng bạn vẫn có thể cần thêm văn bản thay thế cho hình ảnh thủ công.  
-* **Mẹo hiệu năng:** Đối với tài liệu lớn (hơn 100 trang), bật `pdfOptions.setMemoryOptimization(true)` để giảm việc sử dụng heap.
-
----
-
-## Xác nhận bằng hình ảnh  
-
-Dưới đây là một ảnh chụp nhanh của PDF mở trong Adobe Acrobat, hiển thị hình dạng được gắn thẻ nội tuyến được đánh dấu trong **Bảng Thẻ**.
-
-![convert docx to pdf example output](image.png)
-
-*Alt text: ví dụ xuất DOCX sang PDF hiển thị thẻ hình dạng nội tuyến.*
-
----
-
-## Kết luận  
-
-Bạn đã biết **cách chuyển DOCX sang PDF** đồng thời kiểm soát cách các đối tượng nổi được xuất. Bằng cách bật hoặc tắt `setExportFloatingShapesAsInlineTag`, bạn quyết định liệu các hình dạng sẽ trở thành một phần của thứ tự đọc hay giữ nguyên như các khối độc lập—điều quan trọng cho cả khả năng truy cập và độ chính xác hình ảnh.  
-
-Từ đây bạn có thể:
-
-* **Lưu Word dưới dạng PDF** hàng loạt để lưu trữ.  
-* Thử nghiệm các `PdfSaveOptions` khác như `setCompliance(PdfCompliance.PDF_A_1B)` cho việc bảo quản lâu dài.  
-* Đào sâu hơn vào **cách xuất hình dạng** bằng cách khám phá tài liệu Aspose.Words đầy đủ hoặc thử cờ `setExportDocumentStructure(true)` để có cây thẻ phong phú hơn.
-
-Hãy thử, tinh chỉnh các tùy chọn, và để PDF của bạn trông chính xác như bạn mong muốn. Chúc lập trình vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

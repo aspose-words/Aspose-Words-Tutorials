@@ -34,11 +34,29 @@ Aspose.Words for Python के साथ मीडिया प्रकार�
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 जानें कि Python के लिए Aspose.Words का उपयोग करके SVG आउटपुट को कैसे अनुकूलित किया जाए। यह गाइड इमेज-जैसी प्रॉपर्टी, टेक्स्ट रेंडरिंग और सुरक्षा संवर्द्धन जैसी कस्टम सुविधाओं को कवर करती है।
 
+    ### [Python में आकृति में शैडो जोड़ें – पूर्ण Aspose.Words ट्यूटोरियल](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
+Python के लिए Aspose.Words का उपयोग करके आकृतियों में शैडो जोड़ने की पूरी प्रक्रिया सीखें।
+
 ### [C# में शैडो कैसे जोड़ें – पूर्ण प्रोग्रामिंग गाइड](./how-to-add-shadow-in-c-complete-programming-guide/)
-C# में शैडो जोड़ने की पूरी प्रक्रिया सीखें और अपने दस्तावेज़ों को आकर्षक बनाएं।
+
+### [Aspose का उपयोग करके Word में आयत सम्मिलित करना और शैडो जोड़ना](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
+Aspose.Words के साथ Word दस्तावेज़ में आयत जोड़ें और शैडो प्रभाव लागू करने की चरण-दर-चरण गाइड।
 
 ### [Aspose.Words के साथ PDF में आयत जोड़ें – चरण‑दर‑चरण गाइड](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 Aspose.Words का उपयोग करके PDF में आयत कैसे जोड़ें, कोड उदाहरण और विस्तृत चरणों के साथ सीखें।
+### [Python में आयताकार आकृति बनाना – शैडो जोड़ना और PDF के रूप में सहेजना पूर्ण गाइड](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
+Python में आयताकार शैडो वाली आकृति बनाना, उसे PDF में सहेजना सीखें।
+### [Word दस्तावेज़ बनाना Python – आकार में शैडो जोड़ने की गाइड](./create-word-document-python-add-shadow-to-shape-guide/)
+Python के साथ Aspose.Words का उपयोग करके Word दस्तावेज़ में आकार पर शैडो जोड़ने की पूरी प्रक्रिया सीखें।
+
+### [छाया वाले आयत के साथ दस्तावेज़ को सहेजना – पूर्ण पायथन गाइड](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
+Python के साथ Aspose.Words का उपयोग करके छाया वाले आयत के साथ दस्तावेज़ को सहेजने की पूरी प्रक्रिया सीखें।
+
+### [Python में आयताकार आकार बनाना – पूर्ण Aspose.Words गाइड](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
+Python के लिए Aspose.Words का उपयोग करके आयताकार आकार कैसे बनाएं और अनुकूलित करें, इस पूर्ण गाइड में सीखें।
+
+### [Python में आयताकार आकार कैसे सम्मिलित करें – पूर्ण Aspose.Words गाइड](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
+Python के लिए Aspose.Words का उपयोग करके दस्तावेज़ में आयताकार आकार सम्मिलित करने की पूरी प्रक्रिया सीखें।
 
 ## अतिरिक्त संसाधन
 

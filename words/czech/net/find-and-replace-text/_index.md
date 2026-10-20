@@ -36,6 +36,8 @@ Ať už potřebujete nahradit konkrétní slova, aktualizovat textové šablony 
 | [Nahradit řetězcem](./replace-with-string/) | Naučte se, jak nahrazovat řetězce v dokumentech Wordu pomocí Aspose.Words pro .NET v tomto podrobném návodu. Ideální pro vývojáře, kteří chtějí automatizovat úpravy dokumentů. |
 | [Nahradit text v tabulce](./replace-text-in-table/) | Snadno nahraďte text v tabulce Wordu pomocí Aspose.Words pro .NET s tímto podrobným návodem krok za krokem. |
 | [Nahraďte text v DOCX pomocí C# – krok za krokem](./replace-text-in-docx-with-c-step-by-step-guide/) | Naučte se, jak pomocí C# a Aspose.Words nahradit text v souborech DOCX v podrobném krok‑za‑krokem průvodci. |
+| [Nahrazení textu v docx pomocí C# – Kompletní průvodce krok za krokem](./replace-text-in-docx-with-c-full-step-by-step-guide/) | Podrobný návod, jak pomocí Aspose.Words pro .NET a C# nahradit text v souborech DOCX krok za krokem. |
+| [Jak přepsat odstavec pomocí AI v C# – Kompletní průvodce](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Naučte se, jak pomocí AI automaticky přepsat odstavec v C# s podrobným návodem a ukázkami kódu. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

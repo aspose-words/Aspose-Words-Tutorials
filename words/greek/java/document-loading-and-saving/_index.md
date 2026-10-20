@@ -91,7 +91,7 @@ Aspose.Words for Java καθιστά απλό το **save images from Word** έ�
 ### [Διαμόρφωση Επιλογών Φόρτωσης RTF στο Aspose.Words for Java](./configuring-rtf-load-options/)
 
 ### [Φόρτωση Αρχείων Κειμένου με Aspose.Words for Java](./loading-text-files/)
-
+### [Tutorial προειδοποίησης callback – Φόρτωση εγγράφου Word σε Java](./warning-callback-tutorial-load-word-document-in-java/)
 ### [Προχωρημένες Επιλογές Αποθήκευσης με Aspose.Words for Java](./advance-saving-options/)
 
 ### [Αποθήκευση HTML Εγγράφων με Σταθερή Διάταξη στο Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
@@ -118,6 +118,9 @@ Aspose.Words for Java καθιστά απλό το **save images from Word** έ�
 ### [Πώς να Ανακτήσετε DOCX – Φόρτωση Κατεστραμμένων Αρχείων με Επιλογές Ανάκτησης](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
 ### [Ανάκτηση κατεστραμμένου docx – Πλήρης Οδηγός για Διόρθωση και Επεξεργασία Εγγράφων](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+### [Πώς να Ανακτήσετε Αρχεία DOCX – Οδηγός Βήμα‑βήμα Java](./how-to-recover-docx-files-step-by-step-java-guide/)
+### [Ανάκτηση εγγράφου Word – Πλήρης Οδηγός για Ορισμό Λειτουργίας Ανάκτησης σε Java](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
+### [Ανάκτηση κατεστραμμένου docx με Aspose.Words – Πλήρης Οδηγός Java](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
 ### [Καταγραφή Προειδοποιήσεων Αντικατάστασης Γραμματοσειράς σε Java με Aspose.Words – Πλήρης Οδηγός](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [Πώς να ανακτήσετε docx – Πλήρης Οδηγός για Ανάγνωση Κατεστραμμένων Αρχείων Word](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 ### [Ορισμός λειτουργίας ανάκτησης για αποκατάσταση κατεστραμμένου εγγράφου Word](./set-recovery-mode-to-recover-broken-word-document/)
@@ -130,6 +133,16 @@ Aspose.Words for Java καθιστά απλό το **save images from Word** έ�
 ### [Πώς να ανακτήσετε docx – Ενεργοποίηση λειτουργίας ανάκτησης & Ανάγνωση προειδοποιήσεων](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
 ### [Καταγραφή Προειδοποιήσεων Αντικατάστασης Γραμματοσειράς – Εντοπισμός Ελλειπουσών Γραμματοσειρών](./capture-font-substitution-warnings-detect-missing-fonts/)
 ### [Ανάκτηση κατεστραμμένου εγγράφου Word – Πλήρης Οδηγός Java](./recover-broken-word-document-complete-java-guide/)
+### [Αποθήκευση Εγγράφου Word – Ρυθμίσεις Γραμματοσειράς, Διαχείριση Ελλειπουσών Γραμματοσειρών](./save-word-document-set-font-settings-handle-missing-fonts/)
+### [Άνοιγμα Κατεστραμμένου Εγγράφου Word – Ορισμός Λειτουργίας Ανάκτησης σε Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
+### [Καταγραφή προειδοποιήσεων σε Java – Παρακολούθηση ελλιπών γραμματοσειρών](./register-warning-callback-in-java-track-missing-fonts/)
+### [Ανάκτηση κατεστραμμένου docx με Aspose.Words για Java](./recover-corrupted-docx-using-aspose-words-java/)
+### [Ανίχνευση ελλιπούς αντικατάστασης γραμματοσειράς σε Java – Πλήρης Οδηγός Aspose.Words](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+### [Ανάκτηση Κατεστραμμένου DOCX σε Java – Πλήρης Οδηγός Προγραμματισμού](./recover-corrupted-docx-in-java-complete-programming-guide/)
+
+### [Καταγραφή Προειδοποιήσεων Αντικατάστασης Γραμματοσειράς σε Java με Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
+### [Ανάκτηση Κατεστραμμένου Εγγράφου Word με Aspose.Words – Οδηγός](./recover-corrupted-word-document-using-aspose-words-guide/)
+### [Διαμόρφωση LoadOptions για Προειδοποιήσεις – Πλήρης Οδηγός Java](./configure-loadoptions-for-warnings-complete-java-guide/)
 
 ## Συχνές Ερωτήσεις
 

@@ -49,6 +49,8 @@ Aprenda a manipular documentos do Word com eficiência usando o Aspose.Words par
 Aprenda a gerenciar propriedades e metadados de documentos usando o Aspose.Words para Python. Guia passo a passo com código-fonte.
 ### [Ampliando a funcionalidade do documento com extensões da Web](./document-functionality-web-extensions/)
 Aprenda a estender a funcionalidade de documentos com extensões web usando Aspose.Words para Python. Guia passo a passo com código-fonte para integração perfeita.
+### [Tornar PDF acessível com Aspose.Words – Guia completo passo a passo](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
+Aprenda a tornar PDFs acessíveis usando Aspose.Words, com instruções detalhadas e exemplos de código passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

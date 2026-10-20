@@ -45,6 +45,8 @@ Naučte se spravovat fonty v Javě s Aspose.Words. Kompletní návod s ukázkami
 Naučte se, jak pomocí callbacku varování zachytit a sledovat chybějící písma při vykreslování dokumentů v Aspose.Words pro Javu.
 ### [Jak zachytit varování – detekovat chybějící písma v Aspose.Words](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
 Naučte se zachytávat varování a identifikovat chybějící písma při práci s Aspose.Words v Javě.
+### [Najděte chybějící písma v Javě s Aspose.Words – Kompletní průvodce](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
+Naučte se, jak v Javě pomocí Aspose.Words najít chybějící písma a zajistit správné vykreslování dokumentů.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

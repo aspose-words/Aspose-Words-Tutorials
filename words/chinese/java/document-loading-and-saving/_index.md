@@ -122,6 +122,8 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 ### [Saving Documents as PDF in Aspose.Words for Java](./saving-documents-as-pdf/)
 学习使用 Aspose.Words for Java 将 Word 文档保存为 PDF。自定义字体、属性和图像质量的完整指南。
 
+### [Save Word Document – Set Font Settings, Handle Missing Fonts](./save-word-document-set-font-settings-handle-missing-fonts/)
+
 ### [Saving Documents as RTF Format in Aspose.Words for Java](./saving-documents-as-rtf-format/)
 学习使用 Aspose.Words for Java 将文档保存为 RTF 格式。配有源码的分步指南，帮助高效完成文档转换。
 
@@ -132,13 +134,26 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 学习使用 Aspose.Words for Java 启用恢复模式修复受损的 DOCX 文件并成功加载。
 
 ### [Determining Document Format in Aspose.Words for Java](./determining-document-format/)
-学习使用 Aspose.Words 在 Java 中检测文档格式。识别 DOC、DOCX 等，帮助您高效组织文件。
+
+### [使用 Aspose.Words 恢复损坏的 Word 文档 – 指南](./recover-corrupted-word-document-using-aspose-words-guide/)
+
+### [警告回调教程 – 在 Java 中加载 Word 文档](./warning-callback-tutorial-load-word-document-in-java/)
 
 ### [如何恢复 DOCX – 使用恢复选项加载损坏文件](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 学习使用 Aspose.Words for Java 的恢复选项加载并修复损坏的 DOCX 文件，确保文档完整性。
 
 ### [恢复损坏的 docx – 完整指南：修复和处理文档](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
-学习如何修复损坏的 docx 文件并进行后续处理，提供完整步骤和代码示例。
+
+### [恢复 Word 文档 – 设置恢复模式的完整指南（Java）](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
+
+### [打开损坏的 Word 文档 – 在 Java 中设置恢复模式](./open-corrupted-word-document-set-recovery-mode-in-java/)
+了解如何在 Java 中使用 Aspose.Words 设置恢复模式以打开损坏的 Word 文档。分步指南配有代码示例。
+
+### [使用 Aspose.Words 恢复损坏的 docx – 完整 Java 指南](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
+学习使用 Aspose.Words for Java 完整恢复损坏的 docx 文件的步骤和代码示例。
+
+### [在 Java 中恢复损坏的 DOCX – 完整编程指南](./recover-corrupted-docx-in-java-complete-programming-guide/)
+学习使用 Aspose.Words for Java 在 Java 环境中检测并修复损坏的 DOCX 文件的完整步骤和代码示例。
 
 ### [在 Java 中捕获字体替换警告 – Aspose.Words 完整指南](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [如何恢复 docx – 读取损坏的 Word 文件完整指南](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
@@ -153,6 +168,21 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 ### [如何恢复 docx – 使用 Java 保存恢复的文档](./how-to-recover-docx-save-recovered-document-using-java/)
 ### [如何恢复 docx – 启用恢复模式并读取警告](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
 了解如何在 Aspose.Words for Java 中启用恢复模式并读取警告，以恢复受损的 docx 文件。
+
+### [如何恢复 DOCX 文件 – Java 分步指南](./how-to-recover-docx-files-step-by-step-java-guide/)
+了解如何使用 Aspose.Words for Java 逐步恢复受损的 DOCX 文件，提供代码示例和最佳实践。
+
+### [在 Java 中注册警告回调 – 跟踪缺失字体](./register-warning-callback-in-java-track-missing-fonts/)
+
+### [使用 Aspose.Words for Java 恢复损坏的 docx](./recover-corrupted-docx-using-aspose-words-java/)
+
+### [在 Java 中检测缺失字体替换 – 完整 Aspose.Words 指南](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+了解如何在 Java 使用 Aspose.Words 检测缺失的字体替换并处理相关警告的完整指南。
+
+### [Log Font Substitution Warnings in Java with Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
+学习在 Java 中使用 Aspose.Words 捕获并记录字体替换警告的完整步骤，帮助您监控文档渲染问题。
+
+### [为警告配置 LoadOptions – 完整 Java 指南](./configure-loadoptions-for-warnings-complete-java-guide/)
 
 ## 常见问题
 ### [捕获字体替换警告 – 检测缺失字体](./capture-font-substitution-warnings-detect-missing-fonts/)

@@ -39,6 +39,22 @@
 
 ### [เพิ่มสี่เหลี่ยมผืนผ้าใน PDF ด้วย Aspose.Words – คู่มือขั้นตอนโดยละเอียด](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 เรียนรู้วิธีเพิ่มสี่เหลี่ยมผืนผ้าในไฟล์ PDF โดยใช้ Aspose.Words ผ่านขั้นตอนที่ละเอียดและตัวอย่างโค้ดที่พร้อมใช้งาน
+### [สร้างรูปสี่เหลี่ยมใน Python – คู่มือเต็มการเพิ่มเงาและบันทึกเป็น PDF](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
+เรียนรู้วิธีสร้างรูปสี่เหลี่ยม เพิ่มเงา และบันทึกเป็น PDF ด้วย Aspose.Words สำหรับ Python
+### [วิธีแทรกสี่เหลี่ยมผืนผ้าและเพิ่มเงาใน Word ด้วย Aspose](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
+เรียนรู้วิธีแทรกสี่เหลี่ยมผืนผ้าและเพิ่มเงาในเอกสาร Word ด้วย Aspose.Words สำหรับ Python-net อย่างละเอียด
+### [สร้างเอกสาร Word ด้วย Python – คู่มือเพิ่มเงาให้รูปร่าง](./create-word-document-python-add-shadow-to-shape-guide/)
+เรียนรู้วิธีสร้างเอกสาร Word ด้วย Python และเพิ่มเงาให้กับรูปร่างโดยใช้ Aspose.Words
+### [วิธีเพิ่มเงาให้กับรูปร่างใน Python – คู่มือ Aspose.Words ฉบับสมบูรณ์](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
+เรียนรู้วิธีเพิ่มเงาให้กับรูปร่างในเอกสาร Word ด้วย Python และ Aspose.Words อย่างละเอียด
+### [วิธีบันทึกเอกสารพร้อมสี่เหลี่ยมเงา – คู่มือเต็มสำหรับ Python](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
+เรียนรู้วิธีบันทึกเอกสาร Word พร้อมสี่เหลี่ยมเงาโดยใช้ Aspose.Words สำหรับ Python อย่างละเอียด
+### [สร้างรูปสี่เหลี่ยมใน Python – บทแนะนำ Aspose.Words](./create-rectangle-shape-in-python-aspose-words-tutorial/)
+เรียนรู้วิธีสร้างและกำหนดรูปสี่เหลี่ยมในเอกสาร Word ด้วย Aspose.Words สำหรับ Python
+### [สร้างรูปสี่เหลี่ยมใน Python – คู่มือ Aspose.Words ฉบับสมบูรณ์](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
+เรียนรู้วิธีสร้างรูปสี่เหลี่ยมในเอกสาร Word ด้วย Python และ Aspose.Words อย่างละเอียด
+### [วิธีแทรกรูปสี่เหลี่ยมผืนผ้าใน Python – คู่มือ Aspose.Words ฉบับสมบูรณ์](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
+เรียนรู้วิธีแทรกรูปสี่เหลี่ยมผืนผ้าในเอกสาร Word ด้วย Python‑net และ Aspose.Words อย่างละเอียดเพื่อเพิ่มความสวยงามให้ไฟล์ของคุณ
 
 ## แหล่งข้อมูลเพิ่มเติม
 

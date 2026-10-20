@@ -33,6 +33,7 @@ Aspose.Words for .NET 튜토리얼에서는 문서 속성을 활용한 단어 �
 | [측정 단위 간 변환](./convert-between-measurement-units/) | Aspose.Words for .NET에서 측정 단위를 변환하는 방법을 알아보세요. 단계별 가이드를 따라 문서 여백, 머리글, 바닥글을 인치와 포인트로 설정하세요. |
 | [제어 문자 사용](./use-control-characters/) | Aspose.Words for .NET을 사용하여 Word 문서 작업을 자동화하는 방법을 알아보세요. 이 가이드에서는 설정, 텍스트 바꾸기 등을 다루어 워크플로우를 효율적으로 만들어 줍니다. |
 | [Word 문서에서 페이지 수 세기 – 복구 및 계산](./how-to-count-pages-in-a-word-document-recover-count/) | Aspose.Words for .NET을 사용하여 Word 문서의 페이지 수를 계산하고, 누락된 페이지를 복구하는 방법을 단계별로 안내합니다. |
+| [Word 문서에서 페이지 수 확인 – 손상된 파일 복구](./check-page-count-in-word-docs-recover-corrupted-files/) | Aspose.Words for .NET을 사용하여 Word 문서의 페이지 수를 확인하고 손상된 파일을 복구하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

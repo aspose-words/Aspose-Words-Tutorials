@@ -34,6 +34,11 @@
 | [تحويل Word إلى PNG – دليل C# كامل](./convert-word-to-png-complete-c-guide/) |تعلم كيفية تحويل مستندات Word إلى صور PNG باستخدام C# مع Aspose.Words for .NET خطوة بخطوة. |
 | [كيفية ضبط DPI عند تحويل Word إلى PNG – دليل التصدير عالي الدقة](./how-to-set-dpi-when-converting-word-to-png-high-resolution-e/) |تعلم كيفية تعيين قيمة DPI عند تحويل مستندات Word إلى PNG بجودة عالية باستخدام Aspose.Words for .NET مع مثال كامل. |
 | [إنشاء شبكة PNG من مستند Word – دليل كامل](./create-png-grid-from-word-document-complete-guide/) |تعلم كيفية إنشاء شبكة من صور PNG من مستند Word باستخدام Aspose.Words for .NET خطوة بخطوة. |
+| [كيفية ضبط الدقة عند تحويل Word إلى PNG – دليل كامل](./how-to-set-resolution-when-converting-word-to-png-complete-g/) |تعلم كيفية تعيين الدقة عند تحويل مستندات Word إلى PNG باستخدام Aspose.Words for .NET مع دليل كامل. |
+| [تصدير Word كـ PNG – تحويل DOCX إلى صورة واحدة](./export-word-as-png-convert-docx-to-one-image/) |تعلم كيفية تصدير مستند Word إلى صورة PNG واحدة باستخدام Aspose.Words for .NET. |
+| [تحويل docx إلى png – دليل خطوة بخطوة كامل](./convert-docx-to-png-complete-step-by-step-guide/) |تعلم كيفية تحويل ملفات docx إلى صور PNG باستخدام Aspose.Words for .NET مع شرح شامل خطوة بخطوة. |
+| [تحويل DOCX إلى PNG – دليل C# كامل](./convert-docx-to-png-complete-c-guide/) |تعلم كيفية تحويل ملفات DOCX إلى PNG باستخدام Aspose.Words for .NET مع دليل شامل بلغة C#. |
+| [كيفية ضبط DPI – تصدير Word إلى شبكة PNG في C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) |تعلم كيفية تعيين DPI عند تصدير مستند Word إلى شبكة من صور PNG باستخدام C# و Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
