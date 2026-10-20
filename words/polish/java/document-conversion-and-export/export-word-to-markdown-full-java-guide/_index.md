@@ -24,13 +24,10 @@ title: Eksport Word do Markdown – Pełny przewodnik Java
 url: /pl/java/document-conversion-and-export/export-word-to-markdown-full-java-guide/
 ---
 
->}}
 
-All good.
 
-Make sure to keep markdown formatting exactly.
 
-Now produce final content with translations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

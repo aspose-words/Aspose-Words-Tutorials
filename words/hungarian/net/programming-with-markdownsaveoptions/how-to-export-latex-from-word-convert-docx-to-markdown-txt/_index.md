@@ -27,9 +27,8 @@ title: Hogyan exportáljunk LaTeX-et a Wordből – DOCX konvertálása Markdown
 url: /hu/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-txt/
 ---
 
-all placeholders.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

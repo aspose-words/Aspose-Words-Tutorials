@@ -25,6 +25,7 @@ Compare Documents, Aspose.Words for .NET kullanarak belgeleri karşılaştırmay
 | [Word Belgesinde Seçenekleri Karşılaştır](./compare-options/) | Aspose.Words for .NET kullanarak Word belgelerini adım adım kılavuzumuzla nasıl karşılaştıracağınızı öğrenin. Belge tutarlılığını zahmetsizce sağlayın. |
 | [Word Belgesinde Karşılaştırma Hedefi](./comparison-target/) | Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerini zahmetsizce karşılaştırın. Zamandan tasarruf edin ve belge karşılaştırmasında doğruluğu artırın. |
 | [Word Belgesinde Karşılaştırma Granülaritesi](./comparison-granularity/) | Aspose.Words for .NET'in Word belgelerindeki granülariteyi karşılaştırma özelliğini öğrenin; bu özellik, belgelerin karakter karakter karşılaştırılmasını ve yapılan değişikliklerin raporlanmasını sağlar. |
+| [Aspose.Words kullanarak C# ile Word belgelerini karşılaştırma](./compare-word-documents-in-c-using-aspose-words/) | Aspose.Words ile C# kullanarak Word belgelerini nasıl karşılaştıracağınızı öğrenin. |
 | [İki Word belgesini karşılaştırma ve değişiklikleri tespit etme](./how-to-compare-two-word-documents-and-detect-changes/) | Aspose.Words for .NET kullanarak iki Word belgesini karşılaştırıp değişiklikleri nasıl tespit edeceğinizi öğrenin. |
 
 

@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: Tutorial ini menunjukkan cara menyisipkan jeda halaman ke dalam dokumen Word menggunakan Aspose.Words Document dan DocumentBuilder.
+//ExStepSummary:0: Buat objek Document dan DocumentBuilder yang akan digunakan untuk menambahkan konten.
+//ExStepSummary:1: Tulis teks halaman pertama dan sisipkan jeda halaman sehingga konten berikutnya dimulai pada halaman baru.
+//ExStepSummary:2: Tulis teks halaman kedua dan sisipkan jeda halaman lain untuk memulai halaman ketiga.
+//ExStepSummary:3: Tulis teks halaman ketiga, menyelesaikan dokumen tiga halaman.
+//ExStepSummary:4: Simpan dokumen yang telah dirakit ke file .docx di direktori yang ditentukan.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("This is page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:2-
+builder.Writeln("This is page 2.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+builder.Writeln("This is page 3.");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

@@ -23,9 +23,7 @@ title: C#로 Word에서 접근성 PDF 만들기 – 완전 가이드
 url: /ko/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-in-c-complete-guide/
 ---
 
-translate.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

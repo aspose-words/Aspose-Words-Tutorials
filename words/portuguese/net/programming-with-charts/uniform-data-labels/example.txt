@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Este tutorial demonstra como criar um documento Word, inserir um gráfico de colunas, adicionar séries de dados personalizadas e definir o tamanho de fonte e a cor padrão dos rótulos de dados que são aplicados uniformemente a todas as séries no gráfico.
+//ExStepSummary:0: Crie um novo documento Word vazio e um DocumentBuilder para editá-lo.
+//ExStepSummary:1: Inserir um gráfico de colunas de 500×300 no documento e obter seu objeto Chart.
+//ExStepSummary:2: Remova a série de exemplo padrão que o Aspose.Words adiciona a um novo gráfico.
+//ExStepSummary:3: Defina os rótulos de categoria e adicione duas séries de dados (Item Alpha e Item Beta) com seus valores ao gráfico.
+//ExStepSummary:4: Defina o tamanho de fonte e a cor de base que serão aplicados a todos os rótulos de dados.
+//ExStepSummary:5: Habilite os rótulos de dados para cada série, exiba o valor numérico e aplique o tamanho de fonte e a cor predefinidos.
+//ExStepSummary:6: Salve o documento em um arquivo .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document document = new Document();
+DocumentBuilder builder = new DocumentBuilder(document);
+
+//ExStep:1-
+Shape chartContainer = builder.InsertChart(ChartType.Column, 500, 300);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+
+//ExStep:3-
+string[] periods = { "Period 1", "Period 2", "Period 3", "Period 4" };
+chart.Series.Add("Item Alpha", periods, new double[] { 120, 150, 170, 130 });
+chart.Series.Add("Item Beta", periods, new double[] { 80, 110, 140, 100 });
+
+//ExStep:4-
+const float labelFontSize = 10f;
+Color labelFontColor = Color.White;
+
+//ExStep:5-
+foreach (ChartSeries series in chart.Series)
+{
+    series.HasDataLabels = true;
+    series.DataLabels.ShowValue = true;
+    series.DataLabels.Font.Size = labelFontSize;
+    series.DataLabels.Font.Color = labelFontColor;
+}
+
+//ExStep:6-
+document.Save("UniformLabelChart.docx");
+//ExEnd

@@ -10,25 +10,15 @@ url: /tr/java/document-converting/document-conversion-saveoptions/
 weight: 13
 ---
 
-codes: keep as is.
 
-Then heading "# Create epub from docx with Aspose.Words SaveOptions (Java)" translate to Turkish: "DOCX'ten Aspose.Words SaveOptions (Java) ile EPUB Oluşturma". Keep same heading level.
 
-Similarly other headings.
 
-Translate paragraphs.
 
-Be careful with bullet lists.
 
-Also keep code block placeholders unchanged.
 
-Translate "Quick Answers" heading? It's "## Quick Answers". Translate to Turkish: "## Hızlı Yanıtlar". Keep bullet points.
 
-Translate bullet content, keep code snippets unchanged.
 
-Proceed.
 
-Let's craft final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

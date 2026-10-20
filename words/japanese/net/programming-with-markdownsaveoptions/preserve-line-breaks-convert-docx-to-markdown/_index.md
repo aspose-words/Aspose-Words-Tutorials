@@ -20,9 +20,7 @@ title: '改行を保持: DOCX を Markdown に変換'
 url: /ja/net/programming-with-markdownsaveoptions/preserve-line-breaks-convert-docx-to-markdown/
 ---
 
-output with all translations.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

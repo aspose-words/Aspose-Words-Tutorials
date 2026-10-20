@@ -23,9 +23,8 @@ title: Hur man återställer docx – Komplett guide för att läsa korrupta Wor
 url: /sv/java/document-loading-and-saving/how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/
 ---
 
-.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

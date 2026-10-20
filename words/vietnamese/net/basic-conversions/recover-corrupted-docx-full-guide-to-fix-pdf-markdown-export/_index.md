@@ -23,9 +23,8 @@ title: Khôi phục DOCX bị hỏng – Hướng dẫn đầy đủ để sửa
 url: /vi/net/basic-conversions/recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/
 ---
 
-we keep all markdown formatting exactly.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

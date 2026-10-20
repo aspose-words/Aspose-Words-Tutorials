@@ -24,15 +24,10 @@ title: Zapisz dokument jako PDF przy użyciu Aspose.Words – Kompletny przewodn
 url: /pl/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-words-complete-c-guide/
 ---
 
-You’re not alone. In many enterprise projects the Word files we receive reference fonts that simply aren’t installed on the server, and the conversion silently swaps them out." => translate.
 
-Proceed section by section.
 
-Also note "step-by-step" etc.
 
-Make sure to keep markdown formatting.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

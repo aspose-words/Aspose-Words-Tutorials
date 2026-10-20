@@ -21,17 +21,11 @@ title: Cách Lưu Markdown – Hướng Dẫn Toàn Diện C#
 url: /vi/net/programming-with-markdownsaveoptions/how-to-save-markdown-complete-c-guide/
 ---
 
-Save Markdown – Complete C# Guide" translate: "# Cách Lưu Markdown – Hướng Dẫn Đầy Đủ C#"
 
-Proceed.
 
-I'll translate.
 
-Be careful with bullet list items.
 
-Also keep code block placeholders unchanged.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

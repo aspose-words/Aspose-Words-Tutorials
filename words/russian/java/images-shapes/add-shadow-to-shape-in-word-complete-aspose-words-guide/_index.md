@@ -20,21 +20,13 @@ title: Добавить тень к фигуре в Word – Полное ру�
 url: /ru/java/images-shapes/add-shadow-to-shape-in-word-complete-aspose-words-guide/
 ---
 
-.
 
-Translate "Add shadow to shape in Word – Complete Aspose.Words Guide" to Russian: "Добавление тени к фигуре в Word – Полное руководство Aspose.Words". Keep heading level.
 
-Proceed.
 
-Also translate "Ever needed to **add shadow to shape** in a Word document but weren’t sure where to start? You’re not the only one—developers frequently ask *how to change shadow color in Word* when they want that extra visual punch." etc.
 
-Make sure to keep bold and italics.
 
-Translate table headings: Pitfall -> Проблема, How to avoid it -> Как избежать.
 
-Translate other headings.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -22,9 +22,7 @@ title: Konversi DOCX ke Markdown dengan Ekspor Matematika – Panduan Java Lengk
 url: /id/java/document-conversion-and-export/convert-docx-to-markdown-with-math-export-full-java-guide/
 ---
 
-keep the placeholders after code block: they are part of content.
 
-Now produce final content with translated text.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

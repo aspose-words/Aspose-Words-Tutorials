@@ -35,6 +35,10 @@ Cho dù bạn cần thay thế các từ cụ thể, cập nhật mẫu văn b�
 | [Nhận biết và thay thế trong các mẫu thay thế](./recognize-and-substitutions-within-replacement-patterns/) | Tìm hiểu cách nhận dạng và thay thế văn bản trong các mẫu thay thế bằng Aspose.Words cho .NET. Hướng dẫn từng bước với các ví dụ chi tiết. |
 | [Thay thế bằng chuỗi](./replace-with-string/) | Tìm hiểu cách thay thế chuỗi trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển muốn tự động hóa việc chỉnh sửa tài liệu. |
 | [Thay thế văn bản trong bảng](./replace-text-in-table/) | Thay thế văn bản trong bảng Word một cách dễ dàng bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. |
+| [Thay thế văn bản trong DOCX bằng C# – Hướng dẫn từng bước](./replace-text-in-docx-with-c-step-by-step-guide/) | Tìm hiểu cách thay thế văn bản trong tệp DOCX bằng C# với Aspose.Words cho .NET qua hướng dẫn chi tiết từng bước. |
+
+| [Thay thế văn bản trong docx bằng C# – Hướng dẫn chi tiết từng bước](./replace-text-in-docx-with-c-full-step-by-step-guide/) | Hướng dẫn chi tiết cách thay thế văn bản trong tệp docx bằng C# sử dụng Aspose.Words cho .NET, từng bước một. |
+| [Cách viết lại đoạn văn bằng AI trong C# – Hướng dẫn đầy đủ](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Hướng dẫn chi tiết cách sử dụng AI để viết lại đoạn văn trong tài liệu Word bằng C# và Aspose.Words. |
 | [Cách tạo mẫu tài liệu và điền dữ liệu vào bằng C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Hướng dẫn tạo mẫu tài liệu và tự động điền dữ liệu bằng C# với Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

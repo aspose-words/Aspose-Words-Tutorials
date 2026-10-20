@@ -22,13 +22,9 @@ title: C#에서 DOCX 파일 복구하는 방법 – 완전 가이드
 url: /ko/net/programming-with-loadoptions/how-to-recover-docx-files-in-c-complete-guide/
 ---
 
-block placeholders: CODE_BLOCK_0, CODE_BLOCK_1, CODE_BLOCK_2, CODE_BLOCK_3, CODE_BLOCK_4. Keep them as is.
 
-Check for any other markdown elements: blockquote, list items, tables.
 
-Make sure bold formatting preserved.
 
-Now produce final output with all translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

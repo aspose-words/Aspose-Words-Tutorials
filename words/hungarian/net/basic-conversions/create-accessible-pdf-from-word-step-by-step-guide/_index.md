@@ -24,9 +24,7 @@ title: Készítsen hozzáférhető PDF-et Wordből – Lépésről lépésre út
 url: /hu/net/basic-conversions/create-accessible-pdf-from-word-step-by-step-guide/
 ---
 
-okay.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
