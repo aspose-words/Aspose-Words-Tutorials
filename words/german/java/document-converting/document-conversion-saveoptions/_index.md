@@ -1,10 +1,13 @@
 ---
-"description": "Konvertieren Sie DOCX effizient in EPUB mit Aspose.Words für Java. Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Speicheroptionen anpassen, Inhalte aufteilen und Dokumenteigenschaften exportieren."
-"linktitle": "Dokumentkonvertierung mit SaveOptions"
-"second_title": "Aspose.Words Java-Dokumentverarbeitungs-API"
-"title": "Dokumentkonvertierung mit SaveOptions"
-"url": "/de/java/document-converting/document-conversion-saveoptions/"
-"weight": 13
+date: 2026-02-19
+description: Erfahren Sie, wie Sie mit Aspose.Words für Java ein EPUB aus DOCX erstellen
+  – passen Sie die Speicheroptionen an, teilen Sie nach Überschrift und exportieren
+  Sie Dokumenteigenschaften. Konvertieren Sie DOCX schnell in EPUB.
+linktitle: Create epub from docx with Aspose.Words SaveOptions (Java)
+second_title: Aspose.Words Java Document Processing API
+title: ePub aus docx mit Aspose.Words SaveOptions (Java) erstellen
+url: /de/java/document-converting/document-conversion-saveoptions/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,131 +16,157 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dokumentkonvertierung mit SaveOptions
-
+# EPUB aus DOCX mit Aspose.Words SaveOptions (Java) erstellen
 
 ## Einführung
 
-Wenn Sie schon einmal Dokumente in verschiedene Formate konvertieren mussten, wissen Sie, wie wichtig die präzise Kontrolle über den Konvertierungsprozess ist. Ob zur Verbesserung der Zugänglichkeit, zur Gewährleistung der Kompatibilität mit verschiedenen Geräten oder einfach zur Verbesserung der Lesbarkeit – die präzise Konvertierung von Dokumenten kann den entscheidenden Unterschied machen. In dieser Anleitung befassen wir uns mit der Dokumentkonvertierung mit Aspose.Words für Java. Insbesondere konzentrieren wir uns auf die Konvertierung eines Dokuments in das EPUB-Format mit benutzerdefinierten Optionen. Mit dieser leistungsstarken Funktion können Sie die Speicherung und Aufteilung Ihres Dokuments optimieren und sicherstellen, dass es genau Ihren Anforderungen entspricht.
+Wenn Sie **epub aus docx erstellen** schnell und zuverlässig benötigen, sind Sie hier genau richtig. Das Konvertieren eines Word‑Dokuments in EPUB ist eine häufige Anforderung für E‑Book‑Veröffentlichungen, mobiles Lesen und Barrierefreiheits‑Projekte. In diesem Tutorial führen wir Sie durch den gesamten Prozess mit Aspose.Words für Java und zeigen Ihnen, wie Sie **docx in epub konvertieren**, die Speicheroptionen anpassen, die Ausgabe nach Überschriften aufteilen und Dokumenteigenschaften erhalten. Am Ende haben Sie ein wiederverwendbares Code‑Snippet, das in größere Batch‑Konvertierungstools eingebunden werden kann.
+
+## Schnelle Antworten
+- **Primäres Ziel?** EPUB aus einer DOCX‑Datei mit Aspose.Words für Java erstellen.  
+- **Wichtige Einstellung für das Aufteilen?** `DocumentSplitCriteria.HEADING_PARAGRAPH`.  
+- **Unterstützte Ausgabeformate?** EPUB, PDF, DOCX, HTML und mehr über `setSaveFormat`.  
+- **Kann ich Word‑Dokumente stapelweise konvertieren?** Ja – wickeln Sie die Einzeldatei‑Logik in eine Schleife ein.  
+- **Benötige ich eine Lizenz?** Eine kostenlose Testversion reicht für die Evaluierung; für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich.
 
 ## Voraussetzungen
 
-Bevor wir uns in die Einzelheiten der Dokumentkonvertierung stürzen, stellen wir sicher, dass Sie alles vorbereitet haben:
+Bevor wir in die Details der Dokumentkonvertierung eintauchen, stellen wir sicher, dass Sie alles bereit haben:
 
-1. Java Development Kit (JDK): Stellen Sie sicher, dass JDK 8 oder höher auf Ihrem Computer installiert ist. Dies ist wichtig für die Ausführung von Java-Anwendungen und -Bibliotheken wie Aspose.Words.
-2. Integrierte Entwicklungsumgebung (IDE): Eine IDE wie IntelliJ IDEA oder Eclipse unterstützt Sie bei der Verwaltung Ihrer Java-Projekte und vereinfacht das Codieren und Debuggen erheblich.
-3. Aspose.Words für Java-Bibliothek: Sie benötigen die Aspose.Words für Java-Bibliothek, um Dokumentkonvertierungen durchzuführen. Laden Sie die neueste Version herunter. [Hier](https://releases.aspose.com/words/java/), und fügen Sie es dem Build-Pfad Ihres Projekts hinzu.
-4. Beispieldokument: Halten Sie ein Dokument zur Konvertierung bereit. In unserem Beispiel verwenden wir eine DOCX-Datei mit dem Namen `Rendering.docx`.
+1. **Java Development Kit (JDK)** – JDK 8 oder höher installiert.  
+2. **IDE** – IntelliJ IDEA, Eclipse oder ein beliebiger Java‑kompatibler Editor.  
+3. **Aspose.Words for Java** – Laden Sie das neueste JAR **[hier](https://releases.aspose.com/words/java/)** herunter und fügen Sie es dem Build‑Pfad Ihres Projekts hinzu.  
+4. **Beispieldokument** – Eine DOCX‑Datei mit dem Namen `Rendering.docx`, die im Projektverzeichnis liegt (oder geben Sie einen absoluten Pfad an).  
+
+## Was bedeutet „create epub from docx“?
+
+Ein EPUB aus einer DOCX‑Datei zu erstellen bedeutet, die umfangreiche Formatierung, Bilder und Stile eines Word‑Dokuments zu nehmen und sie in das offene E‑Book‑Format (EPUB) zu verpacken. Dies ermöglicht ein nahtloses Lesen auf E‑Readern, Tablets und Smartphones, wobei das ursprüngliche Layout erhalten bleibt.
+
+## Warum EPUB nach Überschrift aufteilen?
+
+Große E‑Books können umständlich werden, wenn sie als einzelne HTML‑Datei im EPUB‑Container gespeichert werden. Durch die Verwendung von **`split epub by heading`** wird jede Überschrift der obersten Ebene zu einem eigenen HTML‑Kapitel, was die Navigation, Ladezeiten und das gesamte Leseerlebnis verbessert.
 
 ## Pakete importieren
 
-Um mit Aspose.Words für Java arbeiten zu können, müssen Sie die entsprechenden Pakete importieren. Diese Pakete stellen die für die Dokumentbearbeitung und -konvertierung erforderlichen Klassen und Methoden bereit.
+Um mit Aspose.Words für Java zu arbeiten, müssen Sie die relevanten Pakete importieren. Diese Pakete stellen die Klassen und Methoden bereit, die für die Dokumentmanipulation und -konvertierung erforderlich sind.
 
 ```java
 import com.aspose.words.*;
 ```
 
-Diese Importanweisung stellt sicher, dass Sie Zugriff auf alle erforderlichen Klassen zum Laden von Dokumenten, Konfigurieren von Speicheroptionen und Durchführen der Konvertierung haben.
+Diese Import‑Anweisung stellt sicher, dass Sie Zugriff auf alle erforderlichen Klassen zum Laden von Dokumenten, Konfigurieren von Speicheroptionen und Durchführen der Konvertierung haben.
 
-## Schritt 1: Laden Sie das Dokument
+## Schritt 1: Dokument laden
 
-Der erste Schritt im Konvertierungsprozess besteht darin, das Dokument zu laden, das Sie in ein `Document` Objekt. Dieses Objekt dient als In-Memory-Darstellung Ihres Dokuments.
+Der erste Schritt im Konvertierungsprozess besteht darin, das zu konvertierende Dokument in ein `Document`‑Objekt zu laden. Dieses Objekt dient als In‑Memory‑Darstellung Ihres Dokuments.
 
 ```java
 Document doc = new Document("Rendering.docx");
 ```
 
-### Erläuterung:
-
-Hier ist die `Document` Die Klasse wird zum Laden der DOCX-Datei verwendet. Der angegebene Dateipfad lautet `"Rendering.docx"`, das sich im Verzeichnis Ihres Projekts befinden sollte, oder geben Sie den vollständigen Pfad an. Dieser Schritt bereitet das Dokument für die weitere Verarbeitung vor.
+**Erklärung:**  
+Der `Document`‑Konstruktor liest die DOCX‑Datei vom angegebenen Pfad. Stellen Sie sicher, dass die Datei relativ zum Stammverzeichnis Ihres Projekts existiert oder geben Sie einen vollständigen Dateisystempfad an.
 
 ## Schritt 2: Speicheroptionen konfigurieren
 
-Als Nächstes konfigurieren Sie die Speicheroptionen für das Dokument. Hier können Sie verschiedene Einstellungen für die Speicherung des Dokuments festlegen, einschließlich Kodierungs- und Aufteilungskriterien.
+Als Nächstes konfigurieren Sie, wie das Dokument gespeichert wird. Hier verwenden wir `HtmlSaveOptions`, weil der EPUB‑Writer intern HTML‑Dateien erstellt, bevor sie verpackt werden.
 
 ```java
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-saveOptions.setSaveFormat();
+saveOptions.setSaveFormat(SaveFormat.EPUB);
 saveOptions.setEncoding(StandardCharsets.UTF_8);
 ```
 
-### Erläuterung:
+**Erklärung:**  
 
-- HtmlSaveOptions: Mit dieser Klasse können Sie die Art und Weise anpassen, wie das Dokument gespeichert wird. In diesem Fall verwenden wir sie, um festzulegen, dass das Dokument als EPUB-Datei gespeichert werden soll.
-- setSaveFormat(SaveFormat.EPUB): Diese Methode legt das Format für das gespeicherte Dokument fest. Hier wird EPUB ausgewählt, aber Aspose.Words unterstützt verschiedene Formate, darunter PDF, DOCX und mehr.
-- setEncoding(StandardCharsets.UTF_8): Dadurch wird die Kodierung für die gespeicherte Datei festgelegt und sichergestellt, dass ein breites Spektrum an Zeichen unterstützt wird.
+- **`HtmlSaveOptions`** – Ermöglicht eine feinkörnige Kontrolle über den EPUB‑Erstellungsprozess.  
+- **`setSaveFormat(SaveFormat.EPUB)`** – Teilt Aspose.Words mit, eine EPUB‑Datei anstelle des Standard‑HTML zu erzeugen.  
+- **`setEncoding(StandardCharsets.UTF_8)`** – Garantiert die korrekte Handhabung von Unicode‑Zeichen, was für mehrsprachige Inhalte unerlässlich ist.
 
-## Schritt 3: Konfigurieren der Dokumentaufteilung
+## Schritt 3: Dokumentaufteilung konfigurieren
 
-Bei großen Dokumenten kann es sinnvoll sein, die Ausgabe in kleinere Abschnitte aufzuteilen. Dies ist insbesondere bei EPUB-Dateien nützlich, da umfangreiche Inhalte schwer zu handhaben sein können.
+Bei größeren Büchern verbessert das Aufteilen der Ausgabe die Lesbarkeit. Die folgende Option weist Aspose.Words an, jedes Mal, wenn ein Überschrifts‑Absatz gefunden wird, eine neue HTML‑Datei zu erstellen.
 
 ```java
 saveOptions.setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH);
 ```
 
-### Erläuterung:
+**Erklärung:**  
 
-- setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH): Diese Methode legt das Kriterium für die Aufteilung des Dokuments fest. Durch Auswahl von `HEADING_PARAGRAPH`wird das Dokument an den einzelnen Überschriftenabsätzen in separate HTML-Dateien aufgeteilt. Dies erleichtert die Navigation in umfangreichen Dokumenten und verbessert das Leseerlebnis.
+- **`DocumentSplitCriteria.HEADING_PARAGRAPH`** – Jede Überschrift (z. B. `<h1>`, `<h2>`) wird zu einem separaten Kapitel im EPUB. Dies erfüllt direkt die Anforderung **split epub by heading**.
 
 ## Schritt 4: Dokumenteigenschaften exportieren
 
-Manchmal ist es wichtig, Dokumenteigenschaften in die gespeicherte Datei aufzunehmen. Dadurch wird sichergestellt, dass Metadaten wie Autoreninformationen und Erstellungsdatum erhalten bleiben.
+Das Bewahren von Metadaten wie Autor, Titel und Erstellungsdatum ist häufig für Katalogisierung und Suche erforderlich.
 
 ```java
 saveOptions.setExportDocumentProperties(true);
 ```
 
-### Erläuterung:
+**Erklärung:**  
 
-- setExportDocumentProperties(true): Diese Methode stellt sicher, dass die Eigenschaften des Dokuments in die Ausgabedatei übernommen werden. Sie ist besonders nützlich, um dokumentbezogene Metadaten zu verwalten.
+- Durch Aktivieren von `setExportDocumentProperties(true)` werden die Kerneigenschaften des Quelldokuments in den Metadaten‑Abschnitt des EPUB kopiert.
 
-## Schritt 5: Speichern Sie das Dokument
+## Schritt 5: Dokument speichern
 
-Im letzten Schritt speichern Sie das Dokument mit den konfigurierten Optionen. Dabei erfolgt die Konvertierung und Ihr Dokument wird im gewünschten Format in die angegebene Datei geschrieben.
+Schließlich schreiben Sie die EPUB‑Datei mit den konfigurierten Optionen auf die Festplatte.
 
 ```java
 doc.save("HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
 ```
 
-### Erläuterung:
+**Erklärung:**  
 
-- save("HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions): Diese Methode speichert das Dokument mit der angegebenen `HtmlSaveOptions`Die Datei wird gespeichert als `HtmlSaveOptions.Doc2EpubSaveOptions.epub` im EPUB-Format mit den angegebenen Einstellungen.
+- Die `save`‑Methode nimmt den Zieldateinamen und die `HtmlSaveOptions`‑Instanz entgegen und erzeugt ein EPUB, das alle oben definierten Einstellungen berücksichtigt.
 
-## Abschluss
+## Häufige Anwendungsfälle
 
-Und da haben Sie es! Sie haben gerade eine DOCX-Datei mit Aspose.Words für Java in ein EPUB-Dokument konvertiert. Diese Anleitung behandelt alles, vom Laden Ihres Dokuments über die Konfiguration der Speicheroptionen bis hin zur Aufteilung der Ausgabe für bessere Lesbarkeit. Mit diesen Tools stellen Sie sicher, dass Ihre Dokumente nicht nur konvertiert, sondern auch für verschiedene Formate und Anwendungsfälle optimiert werden.
+- **E‑Book‑Veröffentlichung:** Konvertieren Sie Autoren‑Entwurfs‑Word‑Dateien in EPUBs, die für Kindle, iBooks oder Google Play Books bereit sind.  
+- **Batch‑Konvertierung:** Wickeln Sie die Einzeldatei‑Logik in eine Schleife, um **word documents batch konvertieren** für große Bibliotheken.  
+- **Inhaltsmigration:** Migrieren Sie alte Dokumentation von Word in ein web‑freundliches EPUB‑Format, wobei Überschriften und Metadaten erhalten bleiben.  
 
-Aspose.Words für Java ist ein robustes Tool, das über einfache Konvertierungen hinaus umfangreiche Funktionen bietet. Entdecken Sie die Möglichkeiten, Dokumentverarbeitungsaufgaben zu automatisieren und Ihre Dokumentenmanagement-Workflows zu verbessern.
+## Fehlerbehebung & Tipps
 
-## FAQs
+- **Fehlende Überschriften:** Stellen Sie sicher, dass Ihr Quell‑DOCX korrekte Überschrifts‑Stile verwendet (Heading 1, Heading 2 usw.).  
+- **Kodierungsprobleme:** Wenn Sie fehlerhafte Zeichen sehen, prüfen Sie, ob die Quelldatei in UTF‑8 gespeichert ist und `setEncoding` übereinstimmt.  
+- **Große Dateien:** Bei sehr großen Dokumenten sollten Sie die JVM‑Heap‑Größe erhöhen (`-Xmx2g`), um `OutOfMemoryError` zu vermeiden.  
 
-### 1. Kann ich zum Speichern des Dokuments andere Formate als EPUB verwenden?
+## Häufig gestellte Fragen
 
-Ja, Aspose.Words unterstützt verschiedene Formate, darunter PDF, DOCX und HTML. Sie können das Format auswählen, das Ihren Anforderungen am besten entspricht, indem Sie die `setSaveFormat` Verfahren.
+### 1. Kann ich neben EPUB andere Formate zum Speichern des Dokuments verwenden?
 
-### 2. Wie gehe ich bei der Konvertierung mit Dokumenten mit komplexer Formatierung um?
+Ja, Aspose.Words unterstützt viele Formate, darunter PDF, DOCX, HTML und mehr. Ändern Sie einfach das Argument in `setSaveFormat` (z. B. `SaveFormat.PDF`).
 
-Aspose.Words kommt gut mit komplexen Formatierungen zurecht, aber stellen Sie sicher, dass Sie Ihre spezifischen Dokumente testen, um sicherzustellen, dass die gesamte Formatierung wie erwartet erhalten bleibt.
+### 2. Wie gehe ich mit Dokumenten mit komplexer Formatierung während der Konvertierung um?
+
+Aspose.Words bewahrt die meisten Formatierungen automatisch, aber testen Sie stets ein repräsentatives Beispiel. Wenn bestimmte Elemente (Tabellen, Fußnoten) falsch dargestellt werden, können Sie Optionen wie `setExportHeadersFooters` oder `setExportImagesAsBase64` feinjustieren.
 
 ### 3. Kann ich den Konvertierungsprozess für mehrere Dokumente automatisieren?
 
-Absolut! Sie können diesen Code in größere Anwendungen oder Skripte integrieren, um mehrere Dokumente stapelweise zu verarbeiten.
+Absolut. Platzieren Sie den Code in einer Schleife, die über ein Verzeichnis von DOCX‑Dateien iteriert. Dies ist der typische Ansatz für **batch convert word documents**.
 
-### 4. Was kann ich tun, wenn bei der Konvertierung Fehler auftreten?
+### 4. Was soll ich tun, wenn während der Konvertierung Fehler auftreten?
 
-Überprüfen Sie, ob der Pfad Ihrer Eingabedatei korrekt ist und ob Sie über die erforderlichen Berechtigungen zum Lesen und Schreiben von Dateien verfügen. Weitere Informationen finden Sie im [Aspose.Words-Dokumentation](https://reference.aspose.com/words/java/) für Tipps zur Fehlerbehebung.
+Stellen Sie sicher, dass der Eingabepfad korrekt ist und Sie Lese‑/Schreibrechte besitzen. Konsultieren Sie die offizielle [Aspose.Words‑Dokumentation](https://reference.aspose.com/words/java/) für detaillierte Fehlercodes und Schritte zur Fehlerbehebung.
 
-### 5. Wo erhalte ich zusätzlichen Support für Aspose.Words für Java?
+### 5. Wo kann ich zusätzliche Unterstützung für Aspose.Words für Java erhalten?
 
-Unterstützung und zusätzliche Ressourcen finden Sie im [Aspose-Community-Forum](https://forum.aspose.com/c/words/8).
+Unterstützung und weitere Ressourcen finden Sie im [Aspose‑Community‑Forum](https://forum.aspose.com/c/words/8).
 
+## Fazit
+
+Sie haben nun gelernt, wie man **epub aus docx erstellt** mit Aspose.Words für Java, mit voller Kontrolle über Speicheroptionen, nach Überschriften aufgeteilte Ausgabe und Metadaten‑Export. Dieser Ansatz skaliert von einer Einzeldatei‑Konvertierung bis hin zu einer vollständigen **java convert word formats** Batch‑Pipeline und ist ein vielseitiges Werkzeug für jeden Veröffentlichungs‑Workflow.
+
+---
+
+**Last Updated:** 2026-02-19  
+**Tested With:** Aspose.Words 24.12 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

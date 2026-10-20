@@ -1,71 +1,14 @@
 ---
-date: '2026-08-10'
-description: Μάθετε πώς να αναλύσετε σελίδες σε Java χρησιμοποιώντας το Aspose.Words
-  LayoutCollector και να απαριθμήσετε στοιχεία διάταξης με το LayoutEnumerator για
-  ακριβή επεξεργασία εγγράφων.
+date: '2026-01-14'
+description: Μάθετε πώς να επανεκκινήσετε την αρίθμηση σελίδων με το Aspose.Words
+  Java και να χρησιμοποιήσετε το LayoutCollector για την εξαγωγή δεδομένων σελιδοποίησης,
+  την ενημέρωση της διάταξης της σελίδας και την απόδοση των σελίδων ως εικόνες.
 keywords:
-- how to analyze pages
-- enumerate layout elements
-- Aspose.Words Java layout
-- document pagination analysis
-- layout enumerator
-lastmod: '2026-08-10'
-og_description: Μάθετε πώς να αναλύσετε σελίδες σε Java χρησιμοποιώντας το Aspose.Words
-  LayoutCollector και να απαριθμήσετε στοιχεία διάταξης με το LayoutEnumerator για
-  ακριβή επεξεργασία εγγράφων.
-og_image_alt: Developer guide showing LayoutCollector and LayoutEnumerator usage in
-  Aspose.Words for Java
-og_title: Πώς να αναλύσετε σελίδες σε Java χρησιμοποιώντας το LayoutCollector
-schemas:
-- author: Aspose
-  dateModified: '2026-08-10'
-  description: Learn how to analyze pages in Java using Aspose.Words LayoutCollector
-    and enumerate layout elements with LayoutEnumerator for precise document processing.
-  headline: How to analyze pages in Java using LayoutCollector
-  type: TechArticle
-- description: Learn how to analyze pages in Java using Aspose.Words LayoutCollector
-    and enumerate layout elements with LayoutEnumerator for precise document processing.
-  name: How to analyze pages in Java using LayoutCollector
-  steps:
-  - name: update layout and retrieve metrics
-    text: '**Explanation:** - `DocumentBuilder` inserts content. - `updatePageLayout()`
-      forces a layout pass so page numbers are accurate. - `getStartPage` / `getEndPage`
-      return the first and last page indices for any node.'
-  - name: traverse forward and backward through the layout
-    text: '**Explanation:** - `moveParent()` climbs up the tree. - Recursive traversal
-      gives you complete access to every layout node.'
-  - name: implement callback methods
-    text: '**Explanation:** - `notify()` receives an event identifier. - `ImageSaveOptions`
-      can be customized inside the callback for on‑the‑fly image rendering.'
-  - name: configure page‑numbering options
-    text: '**Explanation:** - `setContinuousSectionPageNumberingRestart()` determines
-      if page numbers restart at each continuous section boundary.'
-  type: HowTo
-- questions:
-  - answer: Yes, load the PDF with the appropriate password; LayoutCollector then
-      provides page numbers for the decrypted view.
-    question: Can LayoutCollector work with encrypted PDFs?
-  - answer: It exposes the `Text` property for `LayoutEntityType.TEXT` nodes, allowing
-      you to read the exact string rendered on each page.
-    question: Does LayoutEnumerator expose text content?
-  - answer: The library has been tested with documents exceeding **2,000 pages** without
-      running out of memory, thanks to its streaming layout engine.
-    question: How many pages can Aspose.Words handle in a single document?
-  - answer: Absolutely—run layout analysis on the Word document first, then convert
-      to PDF while preserving the calculated page numbers.
-    question: Is it possible to combine LayoutCollector with the Aspose.PDF conversion
-      API?
-  - answer: Aspose.Words for Java 25.3 supports Java 8 through Java 17, covering both
-      legacy and modern environments.
-    question: What Java versions are supported?
-  type: FAQPage
-tags:
-- page analysis
-- layout collector
-- layout enumerator
-- Aspose.Words Java
-- document processing
-title: Πώς να αναλύσετε σελίδες σε Java χρησιμοποιώντας το LayoutCollector
+- Aspose.Words Java LayoutCollector
+- Java document layout management
+- LayoutEnumerator traversal
+title: Επανεκκίνηση αρίθμησης σελίδων με το Aspose.Words Java – LayoutCollector &
+  LayoutEnumerator
 url: /el/java/advanced-text-processing/aspose-words-java-layoutcollector-enumerator-guide/
 weight: 1
 ---
@@ -76,34 +19,40 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Πώς να αναλύσετε σελίδες σε Java χρησιμοποιώντας το LayoutCollector
+# Επανεκκίνηση αρίθμησης σελίδων με Aspose.Words Java – LayoutCollector & LayoutEnumerator
 
 ## Εισαγωγή
 
-Αν χρειάζεστε **πώς να αναλύσετε σελίδες** σε μια εφαρμογή Java, το Aspose.Words for Java σας παρέχει δύο ισχυρά API: `LayoutCollector` για ανάλυση εύρους σελίδων και `LayoutEnumerator` για περιήγηση στις οντότητες διάταξης. Αυτά τα εργαλεία σας επιτρέπουν να προσδιορίσετε ακριβώς πού εμφανίζεται το κείμενο, να μετρήσετε τις σελίδες ανά ενότητα και ακόμη να απαριθμήσετε στοιχεία διάταξης για προσαρμοσμένη απόδοση. Σε αυτόν τον οδηγό θα μάθετε βήμα-βήμα πώς να χρησιμοποιήσετε και τα δύο API, γιατί είναι σημαντικά και πραγματικά σενάρια όπου διαπρέπουν.
+Αντιμετωπίζετε δυσκολίες με την **επανεκκίνηση αρίθμησης σελίδων** σε μεγάλα έγγραφα Java, ενώ χρειάζεστε επίσης ανάλυση της σελιδοποίησης ή απόδοση σελίδων ως εικόνες; Με το **Aspose.Words for Java**, μπορείτε να αξιοποιήσετε το `LayoutCollector` και το `LayoutEnumerator` για να μην μόνο επανεκκινήσετε την αρίθμηση σελίδων αλλά και να **εξάγετε δεδομένα σελιδοποίησης**, **ενημερώσετε τη διάταξη σελίδας**, και **αποδώσετε σελίδες ως εικόνες** για προεπισκοπήσεις ή PDF. Αυτός ο οδηγός σας καθοδηγεί βήμα προς βήμα, από τη ρύθμιση της βιβλιοθήκης μέχρι την υλοποίηση callbacks που σας δίνουν πλήρη έλεγχο στην απόδοση του εγγράφου.
 
-## Γρήγορες απαντήσεις
-- **Τι κάνει το LayoutCollector;** Αντιστοιχίζει κάθε κόμβο σε ένα έγγραφο στους αριθμούς αρχικής και τελικής σελίδας του.  
-- **Μπορεί το LayoutEnumerator να απαριθμήσει κάθε στοιχείο διάταξης;** Ναι, διασχίζει το δέντρο διάταξης και εκθέτει τις ιδιότητες κάθε οντότητας.  
-- **Χρειάζομαι άδεια;** Διατίθεται δωρεάν δοκιμαστική άδεια· απαιτείται εμπορική άδεια για παραγωγή.  
-- **Ποια έκδοση Java απαιτείται;** JDK 8 ή νεότερη· το Aspose.Words 25.3 υποστηρίζει Java 8‑17.  
-- **Ανησυχείτε για τη χρήση μνήμης;** Το LayoutCollector επεξεργάζεται τις σελίδες χωρίς να φορτώνει ολόκληρο το έγγραφο στη μνήμη, διαχειριζόμενο άνετα αρχεία 500 σελίδων.
+**Τι θα μάθετε**
+- Πώς να χρησιμοποιήσετε το `LayoutCollector` για την εξαγωγή δεδομένων σελιδοποίησης και τον καθορισμό των εύρους σελίδων.
+- Περιήγηση στη διάταξη του εγγράφου με το `LayoutEnumerator`.
+- Υλοποίηση callbacks διάταξης σελίδας για **απόδοση σελίδων ως εικόνες**.
+- **Επανεκκίνηση αρίθμησης σελίδων** σε συνεχόμενες ενότητες χρησιμοποιώντας επιλογές διάταξης.
+- Συμβουλές για **αποτελεσματική ενημέρωση της διάταξης σελίδας**.
 
-## Τι είναι η ανάλυση διάταξης;
-Η ανάλυση διάταξης είναι η διαδικασία εξέτασης της οπτικής δομής ενός εγγράφου — σελίδες, παραγράφους, πίνακες και άλλα στοιχεία — για την εξαγωγή δεδομένων σελιδοποίησης ή για την οδήγηση προσαρμοσμένων αγωγών απόδοσης. Κατανοώντας πώς το περιεχόμενο τοποθετείται σε κάθε σελίδα, οι προγραμματιστές μπορούν να δημιουργήσουν ακριβείς αναφορές, να δημιουργήσουν προσαρμοσμένα σχήματα αρίθμησης σελίδων ή να δημιουργήσουν οπτικοποιήσεις που αντικατοπτρίζουν την πραγματική εμφάνιση του εγγράφου.
+## Γρήγορες Απαντήσεις
+- **Πώς επανεκκινώ την αρίθμηση σελίδων σε ένα έγγραφο Java;** Χρησιμοποιήστε `doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(...)` και καλέστε `doc.updatePageLayout()`.
+- **Ποια κλάση εξάγει δεδομένα σελιδοποίησης;** Το `LayoutCollector` παρέχει δείκτες αρχικής/τελικής σελίδας για οποιονδήποτε κόμβο.
+- **Μπορώ να αποδώσω κάθε σελίδα ως εικόνα;** Ναι—υλοποιήστε το `IPageLayoutCallback` και χρησιμοποιήστε το `ImageSaveOptions`.
+- **Πρέπει να καλέσω χειροκίνητα την ενημέρωση διάταξης σελίδας;** Μετά την αλλαγή των επιλογών διάταξης, πάντα καλέστε `doc.updatePageLayout()`.
+- **Ποια έκδοση του Aspose.Words απαιτείται;** Τα παραδείγματα λειτουργούν με Aspose.Words for Java 25.3 (ή νεότερη).
 
-## Γιατί να χρησιμοποιήσετε το LayoutCollector και το LayoutEnumerator μαζί;
-Αυτά τα API μαζί σας παρέχουν ένα **ποσοτικοποιημένο** πλεονέκτημα: το Aspose.Words υποστηρίζει **πάνω από 50 μορφές εισόδου και εξόδου** και μπορεί να επεξεργαστεί **έγγραφα 500 σελίδων** σε λιγότερο από **3 δευτερόλεπτα** σε τυπικό εξοπλισμό διακομιστή. Χρησιμοποιώντας το LayoutCollector λαμβάνετε ακριβείς δείκτες σελίδων· με το LayoutEnumerator μπορείτε να απαριθμήσετε κάθε στοιχείο διάταξης, επιτρέποντας λεπτομερή έλεγχο της απόδοσης, της αναφοράς ή της δυναμικής εισαγωγής περιεχομένου.
+## Τι είναι η επανεκκίνηση αρίθμησης σελίδων;
+
+Η επανεκκίνηση αρίθμησης σελίδων σας επιτρέπει να ξεκινήσετε μια νέα ακολουθία αρίθμησης σε συγκεκριμένη ενότητα του εγγράφου, κάτι που είναι απαραίτητο για εκθέσεις, βιβλία ή συμβάσεις που απαιτούν ξεχωριστή αρίθμηση για κεφάλαια ή παραρτήματα. Το Aspose.Words παρέχει μια επιλογή διάταξης που σας επιτρέπει να ελέγχετε αυτή τη συμπεριφορά χωρίς χειροκίνητες τεχνικές διακοπής σελίδας.
+
+## Γιατί να χρησιμοποιήσετε το LayoutCollector και το LayoutEnumerator;
+
+- **LayoutCollector** σας δίνει προγραμματιστική πρόσβαση σε λεπτομέρειες σελιδοποίησης, επιτρέποντας την **εξαγωγή δεδομένων σελιδοποίησης** όπως η πρώτη και η τελευταία σελίδα οποιουδήποτε κόμβου.
+- **LayoutEnumerator** σας επιτρέπει να περιηγηθείτε στο δέντρο οπτικής διάταξης, καθιστώντας εύκολο τον εντοπισμό σελίδων, παραγράφων ή γραμμών για προσαρμοσμένη απόδοση ή ανάλυση.
+- Μαζί απλοποιούν πολύπλοκες εργασίες διάταξης που διαφορετικά θα απαιτούσαν δαπανηρές μετατροπές PDF ή χειροκίνητους υπολογισμούς.
 
 ## Προαπαιτούμενα
 
-- **Aspose.Words for Java** έκδοση 25.3 (ή νεότερη).  
-- **Maven** ή **Gradle** σύστημα κατασκευής (δείτε τα παραδείγματα κώδικα παρακάτω).  
-- Java Development Kit (JDK) 8 ή νεότερο.  
-- Ένα IDE όπως το IntelliJ IDEA ή το Eclipse.
-
 ### Απαιτούμενες βιβλιοθήκες και εκδόσεις
-Βεβαιωθείτε ότι έχετε εγκατεστημένη την έκδοση 25.3 του Aspose.Words for Java.
+Βεβαιωθείτε ότι έχετε εγκατεστημένο το Aspose.Words for Java έκδοση 25.3 (ή νεότερη).
 
 **Maven:**  
 ```xml
@@ -114,20 +63,21 @@ weight: 1
 </dependency>
 ```  
 
-**Gradle:**  
+**Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```  
 
 ### Απαιτήσεις ρύθμισης περιβάλλοντος
-- Java Development Kit (JDK) εγκατεστημένο στον υπολογιστή σας.  
-- Ένα IDE όπως το IntelliJ IDEA ή το Eclipse για την εκτέλεση και δοκιμή του κώδικα.
+- Java Development Kit (JDK) εγκατεστημένο.
+- IntelliJ IDEA, Eclipse ή οποιοδήποτε Java IDE της επιλογής σας.
+- Έγκυρη άδεια Aspose.Words (η δωρεάν δοκιμή λειτουργεί για αξιολόγηση).
 
 ### Προαπαιτούμενες γνώσεις
-Συνιστάται βασική κατανόηση του προγραμματισμού Java.
+Βασικές γνώσεις προγραμματισμού Java είναι επαρκείς.
 
-## Ρύθμιση του Aspose.Words
-Αρχικά, αποκτήστε μια δωρεάν δοκιμαστική άδεια από τη σελίδα λήψης του Aspose.Words for Java [Aspose.Words for Java trial license page](https://releases.aspose.com/words/java/) ή χρησιμοποιήστε μια προσωρινή άδεια για αξιολόγηση. Στη συνέχεια, αρχικοποιήστε τη βιβλιοθήκη στο έργο σας:
+## Ρύθμιση Aspose.Words
+Πρώτα, ενσωματώστε τη βιβλιοθήκη Aspose.Words στο έργο σας. Μπορείτε να αποκτήσετε δωρεάν άδεια δοκιμής [εδώ](https://releases.aspose.com/words/java/) ή να χρησιμοποιήσετε προσωρινή άδεια για δοκιμές.
 
 ```java
 import com.aspose.words.*;
@@ -152,13 +102,26 @@ public class SetupAsposeWords {
 Load the document → create LayoutCollector → call getStartPage(node) / getEndPage(node)
 ```
 
-### Βήμα 1: αρχικοποίηση του Document και του LayoutCollector
+Με τη βιβλιοθήκη έτοιμη, μπορούμε να προχωρήσουμε στις βασικές λειτουργίες.
+
+## Οδηγός Υλοποίησης
+
+### Δυνατότητα 1: Χρήση LayoutCollector για ανάλυση εύρους σελίδων
+Η δυνατότητα `LayoutCollector` σας επιτρέπει να καθορίσετε πώς οι κόμβοι εκτείνονται σε σελίδες, κάτι που αποτελεί τη βάση για **εξαγωγή δεδομένων σελιδοποίησης**.
+
+#### Επισκόπηση
+Αξιοποιώντας το `LayoutCollector`, μπορείτε να ανακτήσετε τους δείκτες αρχικής και τελικής σελίδας οποιουδήποτε κόμβου και να υπολογίσετε το σύνολο των σελίδων που καταλαμβάνει.
+
+#### Βήματα Υλοποίησης
+
+**1. Αρχικοποίηση Document και LayoutCollector**
 ```java
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 ```  
 
-### Βήμα 2: γεμίστε το έγγραφο με περιεχόμενο πολλαπλών σελίδων
+**2. Συμπλήρωση του εγγράφου**
+Εδώ, θα προσθέσουμε περιεχόμενο που εκτείνεται σε πολλές σελίδες:
 ```java
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.write("Section 1");
@@ -168,7 +131,7 @@ builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
 ```  
 
-### Βήμα 3: ενημερώστε τη διάταξη και ανακτήστε μετρήσεις
+**3. Ενημέρωση διάταξης και ανάκτηση μετρικών**
 ```java
 layoutCollector.clear();
 doc.updatePageLayout();
@@ -188,13 +151,25 @@ assert layoutCollector.getNumPagesSpanned(doc) == 5;
 Initialize LayoutEnumerator → move to first child → iterate while moving next sibling
 ```
 
-### Βήμα 1: αρχικοποίηση του Document και του LayoutEnumerator
+#### Εξήγηση
+- **`DocumentBuilder`** εισάγει κείμενο και διακοπές σελίδας/ενότητας.
+- **`updatePageLayout()`** επαναϋπολογίζει τις πληροφορίες διάταξης ώστε τα δεδομένα σελιδοποίησης να είναι ακριβή.
+
+### Δυνατότητα 2: Περιήγηση με LayoutEnumerator
+Το `LayoutEnumerator` επιτρέπει αποδοτική πλοήγηση μέσα στο δέντρο οπτικής διάταξης.
+
+#### Επισκόπηση
+Μπορείτε να περιηγηθείτε σε σελίδες, παραγράφους, γραμμές και άλλα στοιχεία διάταξης, κάτι που είναι χρήσιμο για προσαρμοσμένη απόδοση ή διαγνωστικούς σκοπούς.
+
+#### Βήματα Υλοποίησης
+
+**1. Αρχικοποίηση Document και LayoutEnumerator**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 ```  
 
-### Βήμα 2: περιήγηση προς τα εμπρός και πίσω μέσα στη διάταξη
+**2. Περιήγηση προς τα εμπρός και προς τα πίσω**
 ```java
 layoutEnumerator.moveParent(LayoutEntityType.PAGE);
 
@@ -205,24 +180,25 @@ traverseLayoutForward(layoutEnumerator, 1);
 traverseLayoutBackward(layoutEnumerator, 1);
 ```  
 
-**Εξήγηση:**  
-- `moveParent()` ανεβαίνει στο δέντρο.  
-- Η αναδρομική περιήγηση σας δίνει πλήρη πρόσβαση σε κάθε κόμβο διάταξης.
+#### Εξήγηση
+- **`moveParent()`** μετακινεί τον enumerator στο γονικό στοιχείο (σε αυτήν την περίπτωση, στο επίπεδο σελίδας).
+- Οι αναδρομικές μέθοδοι περιήγησης σας επιτρέπουν να εξερευνήσετε ολόκληρη την ιεραρχία διάταξης.
 
-## Πώς να υλοποιήσετε callbacks διάταξης σελίδας;
-`IPageLayoutCallback` είναι ένα interface για λήψη γεγονότων διάταξης κατά την επεξεργασία εγγράφου, επιτρέποντάς σας να αντιδράτε σε αλλαγές διάταξης όπως επαναροές ενοτήτων ή ολοκλήρωση απόδοσης. Η υλοποίηση του `IPageLayoutCallback` σας επιτρέπει να αντιδράτε σε γεγονότα διάταξης όπως επαναροές ενοτήτων ή ολοκλήρωση απόδοσης, παρέχοντάς σας δυναμικό έλεγχο του αγωγού δημιουργίας εγγράφου.
+### Δυνατότητα 3: Callbacks Διάταξης Σελίδας
+Υλοποιήστε callbacks για την παρακολούθηση γεγονότων διάταξης και **απόδοση σελίδων ως εικόνες** όταν χρειάζεται.
 
-```text
-Set callback on Document → implement notify(event) → handle specific layout events
-```  
+#### Επισκόπηση
+Η διεπαφή `IPageLayoutCallback` σας ενημερώνει όταν ένα τμήμα του εγγράφου ολοκληρώνει την επαναρροή ή όταν η μετατροπή ολοκληρώνεται.
 
-### Βήμα 1: ορίστε το callback
+#### Βήματα Υλοποίησης
+
+**1. Ορισμός Callback**
 ```java
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
 doc.updatePageLayout();
 ```  
 
-### Βήμα 2: υλοποιήστε τις μεθόδους callback
+**2. Υλοποίηση μεθόδων Callback**
 ```java
 private static class RenderPageLayoutCallback implements IPageLayoutCallback {
     public void notify(PageLayoutCallbackArgs a) throws Exception {
@@ -255,7 +231,19 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
 Load document → set ContinuousSectionPageNumberingRestart option → save
 ```
 
-### Βήμα 1: φορτώστε το έγγραφο
+#### Εξήγηση
+- **`notify()`** αντιδρά σε γεγονότα διάταξης.
+- **`ImageSaveOptions`** σε συνδυασμό με `PageSet` σας επιτρέπει να **αποδώσετε σελίδες ως εικόνες** (PNG σε αυτό το παράδειγμα).
+
+### Δυνατότητα 4: Επανεκκίνηση αρίθμησης σελίδων σε συνεχόμενες ενότητες
+Έλεγχος της αρίθμησης σελίδων όταν έχετε πολλαπλές ενότητες που ρέουν συνεχόμενα.
+
+#### Επισκόπηση
+Ορίζοντας την επιλογή `ContinuousSectionRestart`, μπορείτε να αποφασίσετε αν οι αριθμοί σελίδων θα επανεκκινούν σε νέα σελίδα ή θα συνεχίζονται αδιάσπαστα.
+
+#### Βήματα Υλοποίησης
+
+**1. Φόρτωση εγγράφου**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
 ```  
@@ -266,54 +254,58 @@ doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectio
 doc.updatePageLayout();
 ```  
 
-**Εξήγηση:**  
-- `setContinuousSectionPageNumberingRestart()` καθορίζει αν οι αριθμοί σελίδων επανεκκινούν σε κάθε όριο συνεχόμενης ενότητας.
+#### Εξήγηση
+- **`setContinuousSectionPageNumberingRestart()`** καθορίζει στο Aspose.Words πώς θα διαχειριστεί την αρίθμηση σε συνεχόμενες ενότητες.
+- Μετά την αλλαγή της επιλογής, **ενημερώστε τη διάταξη σελίδας** για να εφαρμοστούν οι αλλαγές.
 
-## Πρακτικές εφαρμογές
+## Πρακτικές Εφαρμογές
+1. **Ανάλυση Σελιδοποίησης Εγγράφου** – Χρησιμοποιήστε το `LayoutCollector` για να ελέγξετε πώς το περιεχόμενο διανέμεται σε σελίδες και προσαρμόστε περιθώρια ή διακοπές ανάλογα.
+2. **Απόδοση PDF** – Συνδυάστε το `LayoutEnumerator` με το callback για να δημιουργήσετε εικόνες υψηλής πιστότητας πριν από τη μετατροπή σε PDF.
+3. **Δυναμικές Ενημερώσεις Εγγράφου** – Αντιδράστε σε γεγονότα διάταξης (π.χ., μετά από επέκταση πίνακα) και αυτόματα επανααποδώστε τις επηρεαζόμενες σελίδες.
+4. **Πολλαπλές Ενότητες Αναφορών** – Εφαρμόστε **επανεκκίνηση αρίθμησης σελίδων** ώστε κάθε κεφάλαιο να έχει τη δική του αρίθμηση, διατηρώντας ταυτόχρονα τη συνεχή ροή.
 
-1. **Ανάλυση σελιδοποίησης εγγράφου:** Χρησιμοποιήστε το LayoutCollector για να δημιουργήσετε αναφορές που δείχνουν πόσες σελίδες καταλαμβάνει κάθε κεφάλαιο.  
-2. **Αγωγοί απόδοσης PDF:** Συνδυάστε το LayoutEnumerator με προσαρμοσμένο κώδικα γραφικών για να αποδώσετε κάθε στοιχείο διάταξης ακριβώς όπως εμφανίζεται στην πηγή.  
-3. **Δυναμικές ενημερώσεις εγγράφου:** Συνδέστε callbacks για να ενεργοποιήσετε επιχειρηματική λογική όταν αλλάζει η διάταξη μιας ενότητας (π.χ., επανυπολογισμός συνόλων).  
-4. **Αναφορές πολλαπλών ενοτήτων:** Επανεκκινήστε την αρίθμηση σελίδων μόνο όπου χρειάζεται, διατηρώντας μια καθαρή, επαγγελματική εμφάνιση για μεγάλα εγχειρίδια.
+## Παράγοντες Απόδοσης
+- Αφαιρέστε αχρησιμοποίητες ενότητες ή κρυφό περιεχόμενο πριν καλέσετε `updatePageLayout()` για να διατηρήσετε την επεξεργασία γρήγορη.
+- Χρησιμοποιήστε streaming APIs για μεγάλα έγγραφα ώστε να αποφύγετε τη φόρτωση ολόκληρου του αρχείου στη μνήμη.
+- Περιορίστε το βάθος της αναδρομικής περιήγησης στο `LayoutEnumerator` αν χρειάζεστε μόνο πληροφορίες επιπέδου σελίδας.
 
-## Σκέψεις απόδοσης
+## Κοινά Προβλήματα και Λύσεις
+| Πρόβλημα | Αιτία | Διόρθωση |
+|----------|-------|----------|
+| `layoutCollector.getNumPagesSpanned()` returns 0 | Η διάταξη δεν έχει ενημερωθεί | Καλέστε `doc.updatePageLayout()` πριν από την ερώτηση |
+| Images not generated in callback | Λείπει η διαμόρφωση `ImageSaveOptions` | Βεβαιωθείτε ότι έχει οριστεί `saveOptions.setPageSet(new PageSet(pageIndex))` |
+| Page numbers don’t restart | Λανθασμένη τιμή `ContinuousSectionRestart` | Χρησιμοποιήστε `ContinuousSectionRestart.FROM_NEW_PAGE_ONLY` για πραγματική επανεκκίνηση |
 
-- **Μνήμη:** Το LayoutCollector επεξεργάζεται τις σελίδες αργά, έτσι ακόμη και έγγραφα 1.000 σελίδων παραμένουν κάτω από 200 MB RAM.  
-- **Ταχύτητα περιήγησης:** Ο αναδρομικός αλγόριθμος του LayoutEnumerator επεξεργάζεται ένα έγγραφο 500 σελίδων σε λιγότερο από 2 δευτερόλεπτα σε τυπική CPU 2.5 GHz.  
-- **Καλύτερη πρακτική:** Αφαιρέστε αχρησιμοποίητα στυλ και εικόνες πριν εκτελέσετε την ανάλυση διάταξης για να μειώσετε τον χρόνο επεξεργασίας.
+## Συχνές Ερωτήσεις
 
-## Συχνές ερωτήσεις
+**Q: Μπορώ να εξάγω τον ακριβή αριθμό σελίδας ενός συγκεκριμένου παραγράφου;**  
+A: Ναι—χρησιμοποιήστε το `LayoutCollector` για να λάβετε τη σελίδα έναρξης του κόμβου παραγράφου και, στη συνέχεια, καλέστε `doc.updatePageLayout()` ώστε να διασφαλίσετε ότι τα δεδομένα είναι ενημερωμένα.
 
-**Ε: Μπορεί το LayoutCollector να λειτουργήσει με κρυπτογραφημένα PDF;**  
-Α: Ναι, φορτώστε το PDF με τον κατάλληλο κωδικό πρόσβασης· το LayoutCollector τότε παρέχει αριθμούς σελίδων για την αποκρυπτογραφημένη προβολή.
+**Q: Η `update page layout` επηρεάζει το περιεχόμενο του εγγράφου;**  
+A: Όχι. Επαναϋπολογίζει μόνο τις πληροφορίες διάταξης· το κείμενο και η μορφοποίηση παραμένουν αμετάβλητα.
 
-**Ε: Το LayoutEnumerator εκθέτει το περιεχόμενο κειμένου;**  
-Α: Εκθέτει την ιδιότητα `Text` για κόμβους `LayoutEntityType.TEXT`, επιτρέποντάς σας να διαβάσετε το ακριβές κείμενο που αποδίδεται σε κάθε σελίδα.
+**Q: Πώς αποδίδω όλες τις σελίδες ενός μεγάλου εγγράφου ως εικόνες αποδοτικά;**  
+A: Υλοποιήστε το `IPageLayoutCallback` και επεξεργαστείτε κάθε σελίδα διαδοχικά, προαιρετικά χρησιμοποιώντας πολυνηματική επεξεργασία για αποθήκευση I/O‑bound.
 
-**Ε: Πόσες σελίδες μπορεί να διαχειριστεί το Aspose.Words σε ένα μόνο έγγραφο;**  
-Α: Η βιβλιοθήκη έχει δοκιμαστεί με έγγραφα που υπερβαίνουν τις **2.000 σελίδες** χωρίς να εξαντλεί τη μνήμη, χάρη στη μηχανή ροής διάταξης.
+**Q: Είναι δυνατόν να επανεκκινήσω την αρίθμηση μόνο για ορισμένες ενότητες;**  
+A: Ναι—εφαρμόστε `setContinuousSectionPageNumberingRestart` στις επιλογές διάταξης της συγκεκριμένης ενότητας πριν καλέσετε `updatePageLayout()`.
 
-**Ε: Είναι δυνατόν να συνδυάσετε το LayoutCollector με το API μετατροπής Aspose.PDF;**  
-Α: Απόλυτα—εκτελέστε πρώτα την ανάλυση διάταξης στο έγγραφο Word, έπειτα μετατρέψτε σε PDF διατηρώντας τους υπολογισμένους αριθμούς σελίδων.
+**Q: Ποια έκδοση του Aspose.Words εισήγαγε το `LayoutCollector`;**  
+A: Το `LayoutCollector` είναι διαθέσιμο από τις αρχές του 2020· τα παραδείγματα χρησιμοποιούν την έκδοση 25.3.
 
-**Ε: Ποιες εκδόσεις Java υποστηρίζονται;**  
-Α: Το Aspose.Words for Java 25.3 υποστηρίζει Java 8 έως Java 17, καλύπτοντας τόσο παλαιές όσο και σύγχρονες περιβάλλοντα.
+## Συμπέρασμα
+Με την κατανόηση της **επανεκκίνησης αρίθμησης σελίδων**, του `LayoutCollector` και του `LayoutEnumerator`, έχετε πλέον ένα ισχυρό σύνολο εργαλείων για προχωρημένη επεξεργασία κειμένου στο Aspose.Words for Java. Είτε χρειάζεστε **εξαγωγή δεδομένων σελιδοποίησης**, **απόδοση σελίδων ως εικόνες**, είτε απλώς έλεγχο της αρίθμησης σελίδων μεταξύ ενοτήτων, αυτά τα API σας παρέχουν ακριβή, προγραμματιστικό έλεγχο διατηρώντας υψηλή απόδοση.
 
-**Τελευταία ενημέρωση:** 2026-08-10  
-**Δοκιμάστηκε με:** Aspose.Words for Java 25.3  
+---
+
+**Τελευταία ενημέρωση:** 2026-01-14  
+**Δοκιμή με:** Aspose.Words for Java 25.3  
 **Συγγραφέας:** Aspose  
-
-{{< blocks/products/products-backtop-button >}}
-
-## Σχετικά Μαθήματα
-
-- [Πώς να αποδώσετε σελίδες εγγράφου ως μικρογραφίες χρησιμοποιώντας το Aspose.Words for Java](/words/java/images-shapes/render-word-pages-thumbnails-aspose-java/)
-- [Aspose.Words Java: Οδηγός προσαρμοσμένων επιλογών ζουμ & προβολής για βελτιωμένη παρουσίαση εγγράφου](/words/java/headers-footers-page-setup/aspose-words-java-custom-zoom-options/)
-- [Κατακτήστε την προχωρημένη επεξεργασία κειμένου με τα μαθήματα Aspose.Words for Java](/words/java/advanced-text-processing/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

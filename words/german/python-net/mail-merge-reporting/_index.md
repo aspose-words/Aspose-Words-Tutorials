@@ -4,7 +4,9 @@
 "url": "/de/python-net/mail-merge-reporting/"
 "weight": 7
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Serienbrief- und Berichterstellungs-Tutorials für Aspose.Words Python-net
 
 Entdecken Sie umfassende Schritt-für-Schritt-Anleitungen für Serienbrief- und Berichtsvorgänge mit Aspose.Words für Python-net. Diese Tutorials enthalten vollständige Codebeispiele und detaillierte Erklärungen.
@@ -37,3 +39,7 @@ Erfahren Sie, wie Sie das Zusammenführen von Dokumenten mit Aspose.Words in Pyt
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Kostenloser Support](https://forum.aspose.com/)
 - [Temporäre Lizenz](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

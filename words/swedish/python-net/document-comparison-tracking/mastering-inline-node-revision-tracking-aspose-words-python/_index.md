@@ -5,7 +5,9 @@
 "url": "/sv/python-net/document-comparison-tracking/mastering-inline-node-revision-tracking-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Bemästra Inline Node Revision Tracking i Python med Aspose.Words
 
 ## Introduktion
@@ -127,3 +129,7 @@ Du har nu bemästrat konsten att spåra revisioner av inline-noder med hjälp av
 - [Gratis provperiod och tillfälliga licenser](https://purchase.aspose.com/temporary-license/)
 - [Aspose Supportforum](https://forum.aspose.com/c/words/10)
 Vi hoppas att den här guiden ger dig möjlighet att effektivt hantera dokumentrevisioner med Aspose.Words i Python. Lycka till med kodningen!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,71 +1,14 @@
 ---
-date: '2026-08-10'
-description: Pelajari cara menganalisis halaman dalam Java menggunakan Aspose.Words
-  LayoutCollector dan menghitung elemen tata letak dengan LayoutEnumerator untuk pemrosesan
-  dokumen yang tepat.
+date: '2026-01-14'
+description: Pelajari cara memulai kembali penomoran halaman dengan Aspose.Words Java
+  dan gunakan LayoutCollector untuk mengekstrak data paginasi, memperbarui tata letak
+  halaman, serta merender halaman sebagai gambar.
 keywords:
-- how to analyze pages
-- enumerate layout elements
-- Aspose.Words Java layout
-- document pagination analysis
-- layout enumerator
-lastmod: '2026-08-10'
-og_description: Pelajari cara menganalisis halaman dalam Java menggunakan Aspose.Words
-  LayoutCollector dan menghitung elemen tata letak dengan LayoutEnumerator untuk pemrosesan
-  dokumen yang tepat.
-og_image_alt: Developer guide showing LayoutCollector and LayoutEnumerator usage in
-  Aspose.Words for Java
-og_title: Cara menganalisis halaman dalam Java menggunakan LayoutCollector
-schemas:
-- author: Aspose
-  dateModified: '2026-08-10'
-  description: Learn how to analyze pages in Java using Aspose.Words LayoutCollector
-    and enumerate layout elements with LayoutEnumerator for precise document processing.
-  headline: How to analyze pages in Java using LayoutCollector
-  type: TechArticle
-- description: Learn how to analyze pages in Java using Aspose.Words LayoutCollector
-    and enumerate layout elements with LayoutEnumerator for precise document processing.
-  name: How to analyze pages in Java using LayoutCollector
-  steps:
-  - name: update layout and retrieve metrics
-    text: '**Explanation:** - `DocumentBuilder` inserts content. - `updatePageLayout()`
-      forces a layout pass so page numbers are accurate. - `getStartPage` / `getEndPage`
-      return the first and last page indices for any node.'
-  - name: traverse forward and backward through the layout
-    text: '**Explanation:** - `moveParent()` climbs up the tree. - Recursive traversal
-      gives you complete access to every layout node.'
-  - name: implement callback methods
-    text: '**Explanation:** - `notify()` receives an event identifier. - `ImageSaveOptions`
-      can be customized inside the callback for on‑the‑fly image rendering.'
-  - name: configure page‑numbering options
-    text: '**Explanation:** - `setContinuousSectionPageNumberingRestart()` determines
-      if page numbers restart at each continuous section boundary.'
-  type: HowTo
-- questions:
-  - answer: Yes, load the PDF with the appropriate password; LayoutCollector then
-      provides page numbers for the decrypted view.
-    question: Can LayoutCollector work with encrypted PDFs?
-  - answer: It exposes the `Text` property for `LayoutEntityType.TEXT` nodes, allowing
-      you to read the exact string rendered on each page.
-    question: Does LayoutEnumerator expose text content?
-  - answer: The library has been tested with documents exceeding **2,000 pages** without
-      running out of memory, thanks to its streaming layout engine.
-    question: How many pages can Aspose.Words handle in a single document?
-  - answer: Absolutely—run layout analysis on the Word document first, then convert
-      to PDF while preserving the calculated page numbers.
-    question: Is it possible to combine LayoutCollector with the Aspose.PDF conversion
-      API?
-  - answer: Aspose.Words for Java 25.3 supports Java 8 through Java 17, covering both
-      legacy and modern environments.
-    question: What Java versions are supported?
-  type: FAQPage
-tags:
-- page analysis
-- layout collector
-- layout enumerator
-- Aspose.Words Java
-- document processing
-title: Cara menganalisis halaman dalam Java menggunakan LayoutCollector
+- Aspose.Words Java LayoutCollector
+- Java document layout management
+- LayoutEnumerator traversal
+title: Mulai Ulang Penomoran Halaman dengan Aspose.Words Java – LayoutCollector &
+  LayoutEnumerator
 url: /id/java/advanced-text-processing/aspose-words-java-layoutcollector-enumerator-guide/
 weight: 1
 ---
@@ -76,38 +19,42 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara menganalisis halaman dalam Java menggunakan LayoutCollector
+# Memulai Ulang Penomoran Halaman dengan Aspose.Words Java – LayoutCollector & LayoutEnumerator
 
 ## Pendahuluan
 
-Jika Anda perlu **cara menganalisis halaman** dalam aplikasi Java, Aspose.Words for Java memberikan dua API kuat: `LayoutCollector` untuk analisis rentang halaman dan `LayoutEnumerator` untuk menelusuri entitas tata letak. Alat‑alat ini memungkinkan Anda menentukan secara tepat di mana teks muncul, menghitung halaman per bagian, dan bahkan mengenumerasi elemen tata letak untuk rendering khusus. Dalam panduan ini Anda akan belajar langkah demi langkah cara menggunakan kedua API, mengapa mereka penting, dan skenario dunia nyata di mana mereka bersinar.
+Apakah Anda kesulitan **memulai ulang penomoran halaman** dalam dokumen Java yang besar sekaligus perlu menganalisis paginasi atau menampilkan halaman sebagai gambar? Dengan **Aspose.Words for Java**, Anda dapat memanfaatkan `LayoutCollector` dan `LayoutEnumerator` tidak hanya untuk memulai ulang penomoran halaman tetapi juga **mengekstrak data paginasi**, **memperbarui tata letak halaman**, dan **menampilkan halaman sebagai gambar** untuk pratinjau atau PDF. Panduan ini akan membawa Anda melalui setiap langkah, mulai dari menyiapkan pustaka hingga mengimplementasikan callback yang memberi Anda kontrol penuh atas rendering dokumen.
+
+**Apa yang akan Anda pelajari**
+- Cara menggunakan `LayoutCollector` untuk mengekstrak data paginasi dan menentukan rentang halaman.
+- Menelusuri tata letak dokumen dengan `LayoutEnumerator`.
+- Mengimplementasikan callback tata letak halaman untuk **menampilkan halaman sebagai gambar**.
+- **Memulai ulang penomoran halaman** dalam bagian berkelanjutan menggunakan opsi tata letak.
+- Tips untuk **memperbarui tata letak halaman** secara efisien.
 
 ## Jawaban Cepat
-- **Apa yang dilakukan LayoutCollector?** Itu memetakan setiap node dalam dokumen ke nomor halaman mulai dan akhir.  
-- **Apakah LayoutEnumerator dapat mencantumkan setiap elemen tata letak?** Ya, ia menelusuri pohon tata letak dan menampilkan properti setiap entitas.  
-- **Apakah saya memerlukan lisensi?** Lisensi percobaan gratis tersedia; lisensi komersial diperlukan untuk produksi.  
-- **Versi Java mana yang diperlukan?** JDK 8 atau lebih tinggi; Aspose.Words 25.3 mendukung Java 8‑17.  
-- **Apakah penggunaan memori menjadi masalah?** LayoutCollector memproses halaman tanpa memuat seluruh dokumen ke memori, sehingga dapat menangani file 500‑halaman dengan nyaman.
+- **Bagaimana cara memulai ulang penomoran halaman dalam dokumen Java?** Gunakan `doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(...)` dan panggil `doc.updatePageLayout()`.
+- **Kelas mana yang mengekstrak data paginasi?** `LayoutCollector` menyediakan indeks halaman mulai/akhir untuk setiap node.
+- **Bisakah saya menampilkan setiap halaman sebagai gambar?** Ya—implementasikan `IPageLayoutCallback` dan gunakan `ImageSaveOptions`.
+- **Apakah saya perlu memanggil update page layout secara manual?** Setelah mengubah opsi tata letak, selalu panggil `doc.updatePageLayout()`.
+- **Versi Aspose.Words apa yang diperlukan?** Contoh-contoh ini bekerja dengan Aspose.Words for Java 25.3 (atau lebih baru).
 
-## Apa itu analisis tata letak?
+## Apa itu memulai ulang penomoran halaman?
 
-Analisis tata letak adalah proses memeriksa struktur visual sebuah dokumen—halaman, paragraf, tabel, dan elemen lainnya—untuk mengekstrak data paginasi atau menggerakkan pipeline rendering khusus. Dengan memahami bagaimana konten disusun pada setiap halaman, pengembang dapat menghasilkan laporan yang akurat, membuat skema penomoran halaman khusus, atau membangun visualisasi yang mencerminkan tampilan sebenarnya dari dokumen.
+Memulai ulang penomoran halaman memungkinkan Anda memulai urutan penomoran baru di bagian tertentu dari dokumen, yang penting untuk laporan, buku, atau kontrak yang memerlukan penomoran terpisah untuk bab atau lampiran. Aspose.Words menyediakan opsi tata letak yang memungkinkan Anda mengontrol perilaku ini tanpa trik pemisah halaman manual.
 
-## Mengapa menggunakan LayoutCollector dan LayoutEnumerator bersama-sama?
+## Mengapa menggunakan LayoutCollector dan LayoutEnumerator?
 
-API‑API ini bersama‑sama memberikan Anda keuntungan **terukur**: Aspose.Words mendukung **lebih dari 50 format input dan output** dan dapat memproses **dokumen 500‑halaman** dalam waktu kurang dari **3 detik** pada perangkat keras server tipikal. Dengan menggunakan LayoutCollector Anda mendapatkan indeks halaman yang tepat; dengan LayoutEnumerator Anda dapat mengenumerasi setiap elemen tata letak, memungkinkan kontrol detail atas rendering, pelaporan, atau penyisipan konten dinamis.
+- **LayoutCollector** memberi Anda akses programatik ke detail paginasi, memungkinkan Anda untuk **mengekstrak data paginasi** seperti halaman pertama dan terakhir dari setiap node.
+- **LayoutEnumerator** memungkinkan Anda menjelajahi pohon tata letak visual, memudahkan menemukan halaman, paragraf, atau baris untuk rendering atau analisis khusus.
+- Bersama-sama mereka menyederhanakan tugas tata letak yang kompleks yang sebaliknya memerlukan konversi PDF yang mahal atau perhitungan manual.
 
 ## Prasyarat
 
-- **Aspose.Words for Java** versi 25.3 (atau lebih baru).  
-- Sistem build **Maven** atau **Gradle** (lihat placeholder kode di bawah).  
-- Java Development Kit (JDK) 8 atau yang lebih baru.  
-- IDE seperti IntelliJ IDEA atau Eclipse.
+### Perpustakaan dan Versi yang Diperlukan
+Pastikan Anda memiliki Aspose.Words for Java versi 25.3 (atau lebih baru) terpasang.
 
-### Perpustakaan dan versi yang diperlukan
-Pastikan Anda telah menginstal Aspose.Words for Java versi 25.3.
-
-**Maven:**  
+**Maven:**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -116,20 +63,21 @@ Pastikan Anda telah menginstal Aspose.Words for Java versi 25.3.
 </dependency>
 ```  
 
-**Gradle:**  
+**Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```  
 
-### Persyaratan penyiapan lingkungan
-- Java Development Kit (JDK) terpasang di mesin Anda.  
-- IDE seperti IntelliJ IDEA atau Eclipse untuk menjalankan dan menguji kode.
+### Persyaratan Penyiapan Lingkungan
+- Java Development Kit (JDK) terpasang.
+- IntelliJ IDEA, Eclipse, atau IDE Java pilihan Anda.
+- Lisensi Aspose.Words yang valid (versi percobaan gratis dapat digunakan untuk evaluasi).
 
-### Prasyarat pengetahuan
-Pemahaman dasar tentang pemrograman Java disarankan.
+### Prasyarat Pengetahuan
+Pengetahuan dasar pemrograman Java sudah cukup.
 
 ## Menyiapkan Aspose.Words
-Pertama, dapatkan lisensi percobaan gratis dari halaman unduhan Aspose.Words for Java [halaman lisensi percobaan Aspose.Words for Java](https://releases.aspose.com/words/java/) atau gunakan lisensi sementara untuk evaluasi. Kemudian inisialisasi perpustakaan dalam proyek Anda:
+Pertama, integrasikan pustaka Aspose.Words ke dalam proyek Anda. Anda dapat memperoleh lisensi percobaan gratis [di sini](https://releases.aspose.com/words/java/) atau menggunakan lisensi sementara untuk pengujian.
 
 ```java
 import com.aspose.words.*;
@@ -155,13 +103,26 @@ Dengan perpustakaan siap, Anda dapat mulai menggunakan fitur inti.
 Load the document → create LayoutCollector → call getStartPage(node) / getEndPage(node)
 ```
 
-### Langkah 1: inisialisasi Document dan LayoutCollector
+Dengan pustaka siap, kita dapat menyelami fitur inti.
+
+## Panduan Implementasi
+
+### Fitur 1: Menggunakan LayoutCollector untuk Analisis Rentang Halaman
+Fitur `LayoutCollector` memungkinkan Anda menentukan bagaimana node tersebar di halaman, yang merupakan dasar untuk **mengekstrak data paginasi**.
+
+#### Ikhtisar
+Dengan memanfaatkan `LayoutCollector`, Anda dapat mengambil indeks halaman mulai dan akhir dari setiap node serta menghitung total halaman yang ditempati.
+
+#### Langkah-Langkah Implementasi
+
+**1. Inisialisasi Document dan LayoutCollector**
 ```java
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 ```  
 
-### Langkah 2: isi dokumen dengan konten multi‑halaman
+**2. Isi Document**
+Di sini, kami akan menambahkan konten yang melintasi beberapa halaman:
 ```java
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.write("Section 1");
@@ -171,7 +132,7 @@ builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
 ```  
 
-### Langkah 3: perbarui tata letak dan ambil metrik
+**3. Perbarui Layout dan Dapatkan Metrik**
 ```java
 layoutCollector.clear();
 doc.updatePageLayout();
@@ -192,13 +153,25 @@ assert layoutCollector.getNumPagesSpanned(doc) == 5;
 Initialize LayoutEnumerator → move to first child → iterate while moving next sibling
 ```
 
-### Langkah 1: inisialisasi Document dan LayoutEnumerator
+#### Penjelasan
+- **`DocumentBuilder`** menyisipkan teks serta pemisah halaman/bagian.
+- **`updatePageLayout()`** menghitung ulang informasi tata letak sehingga data paginasi akurat.
+
+### Fitur 2: Menelusuri dengan LayoutEnumerator
+`LayoutEnumerator` memungkinkan penelusuran efisien melalui pohon tata letak visual.
+
+#### Ikhtisar
+Anda dapat menjelajahi halaman, paragraf, baris, dan entitas tata letak lainnya, yang berguna untuk rendering khusus atau diagnostik.
+
+#### Langkah-Langkah Implementasi
+
+**1. Inisialisasi Document dan LayoutEnumerator**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 ```  
 
-### Langkah 2: telusuri maju dan mundur melalui tata letak
+**2. Menelusuri Maju dan Mundur**
 ```java
 layoutEnumerator.moveParent(LayoutEntityType.PAGE);
 
@@ -221,13 +194,25 @@ traverseLayoutBackward(layoutEnumerator, 1);
 Set callback on Document → implement notify(event) → handle specific layout events
 ```
 
-### Langkah 1: atur callback
+#### Penjelasan
+- **`moveParent()`** memindahkan enumerator ke entitas induk (dalam hal ini, tingkat halaman).
+- Metode penelusuran rekursif memungkinkan Anda menjelajahi seluruh hierarki tata letak.
+
+### Fitur 3: Callback Tata Letak Halaman
+Implementasikan callback untuk memantau peristiwa tata letak dan **menampilkan halaman sebagai gambar** bila diperlukan.
+
+#### Ikhtisar
+Antarmuka `IPageLayoutCallback` memberi tahu Anda ketika bagian dokumen selesai di‑reflow atau ketika konversi selesai.
+
+#### Langkah-Langkah Implementasi
+
+**1. Atur Callback**
 ```java
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
 doc.updatePageLayout();
 ```  
 
-### Langkah 2: implementasikan metode callback
+**2. Implementasikan Metode Callback**
 ```java
 private static class RenderPageLayoutCallback implements IPageLayoutCallback {
     public void notify(PageLayoutCallbackArgs a) throws Exception {
@@ -261,7 +246,19 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
 Load document → set ContinuousSectionPageNumberingRestart option → save
 ```
 
-### Langkah 1: muat dokumen
+#### Penjelasan
+- **`notify()`** bereaksi terhadap peristiwa tata letak.
+- **`ImageSaveOptions`** bersama dengan `PageSet` memungkinkan Anda **menampilkan halaman sebagai gambar** (PNG dalam contoh ini).
+
+### Fitur 4: Memulai Ulang Penomoran Halaman dalam Bagian Berkelanjutan
+Kontrol penomoran halaman ketika Anda memiliki beberapa bagian yang mengalir secara kontinu.
+
+#### Ikhtisar
+Dengan mengatur opsi `ContinuousSectionRestart`, Anda dapat memutuskan apakah nomor halaman dimulai ulang pada halaman baru atau berlanjut tanpa gangguan.
+
+#### Langkah-Langkah Implementasi
+
+**1. Muat Document**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
 ```  
@@ -272,56 +269,58 @@ doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectio
 doc.updatePageLayout();
 ```  
 
-**Penjelasan:**  
-- `setContinuousSectionPageNumberingRestart()` menentukan apakah nomor halaman dimulai ulang pada setiap batas bagian berkelanjutan.
+#### Penjelasan
+- **`setContinuousSectionPageNumberingRestart()`** memberi tahu Aspose.Words cara menangani penomoran dalam bagian berkelanjutan.
+- Setelah mengubah opsi, **perbarui tata letak halaman** untuk menerapkan perubahan.
 
-## Aplikasi praktis
+## Aplikasi Praktis
+1. **Analisis Paginasi Dokumen** – Gunakan `LayoutCollector` untuk mengaudit bagaimana konten tersebar di halaman dan sesuaikan margin atau pemisah sesuai kebutuhan.
+2. **Rendering PDF** – Gabungkan `LayoutEnumerator` dengan callback untuk menghasilkan gambar halaman berkualitas tinggi sebelum konversi PDF.
+3. **Pembaruan Dokumen Dinamis** – Tanggapi peristiwa tata letak (mis., setelah tabel diperluas) dan secara otomatis render ulang halaman yang terpengaruh.
+4. **Laporan Multi‑Bagian** – Terapkan **restart penomoran halaman** untuk memberi setiap bab skema penomoran sendiri sambil mempertahankan aliran kontinu.
 
-1. **Analisis paginasi dokumen:** Gunakan LayoutCollector untuk menghasilkan laporan yang menunjukkan berapa banyak halaman yang ditempati setiap bab.  
-2. **Pipeline rendering PDF:** Gabungkan LayoutEnumerator dengan kode grafis khusus untuk merender setiap elemen tata letak persis seperti yang muncul di sumber.  
-3. **Pembaruan dokumen dinamis:** Lampirkan callback untuk memicu logika bisnis ketika tata letak sebuah bagian berubah (mis., menghitung ulang total).  
-4. **Laporan multi‑bagian:** Mulai ulang nomor halaman hanya di tempat yang diperlukan, menjaga tampilan bersih dan profesional untuk manual besar.
+## Pertimbangan Kinerja
+- Hapus bagian yang tidak terpakai atau konten tersembunyi sebelum memanggil `updatePageLayout()` untuk menjaga proses tetap cepat.
+- Gunakan API streaming untuk dokumen besar agar tidak memuat seluruh file ke memori.
+- Batasi kedalaman penelusuran rekursif di `LayoutEnumerator` jika Anda hanya memerlukan informasi tingkat halaman.
 
-## Pertimbangan kinerja
+## Masalah Umum dan Solusinya
+| Masalah | Penyebab | Solusi |
+|-------|-------|-----|
+| `layoutCollector.getNumPagesSpanned()` returns 0 | Layout belum diperbarui | Panggil `doc.updatePageLayout()` sebelum melakukan query |
+| Gambar tidak dihasilkan dalam callback | Konfigurasi `ImageSaveOptions` tidak ada | Pastikan `saveOptions.setPageSet(new PageSet(pageIndex))` telah diatur |
+| Nomor halaman tidak restart | Nilai `ContinuousSectionRestart` salah | Gunakan `ContinuousSectionRestart.FROM_NEW_PAGE_ONLY` untuk restart yang sesungguhnya |
 
-- **Memori:** LayoutCollector memproses halaman secara malas, sehingga bahkan dokumen 1.000‑halaman tetap di bawah 200 MB RAM.  
-- **Kecepatan traversing:** Algoritma rekursif LayoutEnumerator memproses dokumen 500‑halaman dalam waktu kurang dari 2 detik pada CPU 2.5 GHz tipikal.  
-- **Praktik terbaik:** Hapus gaya dan gambar yang tidak digunakan sebelum memanggil analisis tata letak untuk mengurangi waktu pemrosesan.
+## Pertanyaan yang Sering Diajukan
 
-## Pertanyaan yang sering diajukan
+**Q: Bisakah saya mengekstrak nomor halaman tepat dari paragraf tertentu?**  
+A: Ya—gunakan `LayoutCollector` untuk mendapatkan halaman mulai dari node paragraf dan kemudian panggil `doc.updatePageLayout()` untuk memastikan data terkini.
 
-**T: Dapatkah LayoutCollector bekerja dengan PDF terenkripsi?**  
-**J:** Ya, muat PDF dengan kata sandi yang sesuai; LayoutCollector kemudian memberikan nomor halaman untuk tampilan yang telah didekripsi.
+**Q: Apakah `update page layout` memengaruhi konten dokumen?**  
+A: Tidak. Itu hanya menghitung ulang informasi tata letak; teks dan pemformatan sebenarnya tetap tidak berubah.
 
-**T: Apakah LayoutEnumerator menampilkan konten teks?**  
-**J:** Ia menampilkan properti `Text` untuk node `LayoutEntityType.TEXT`, memungkinkan Anda membaca string tepat yang dirender pada setiap halaman.
+**Q: Bagaimana cara menampilkan semua halaman dokumen besar sebagai gambar secara efisien?**  
+A: Implementasikan `IPageLayoutCallback` dan proses setiap halaman secara berurutan, opsional menggunakan multi‑threading untuk penyimpanan I/O‑bound.
 
-**T: Berapa banyak halaman yang dapat ditangani Aspose.Words dalam satu dokumen?**  
-**J:** Perpustakaan telah diuji dengan dokumen yang melebihi **2.000 halaman** tanpa kehabisan memori, berkat mesin tata letak streamingnya.
+**Q: Apakah memungkinkan untuk memulai ulang penomoran hanya untuk bagian tertentu?**  
+A: Ya—terapkan `setContinuousSectionPageNumberingRestart` pada opsi tata letak bagian spesifik sebelum memanggil `updatePageLayout()`.
 
-**T: Apakah memungkinkan menggabungkan LayoutCollector dengan API konversi Aspose.PDF?**  
-**J:** Tentu saja—jalankan analisis tata letak pada dokumen Word terlebih dahulu, lalu konversi ke PDF sambil mempertahankan nomor halaman yang telah dihitung.
+**Q: Versi Aspose.Words mana yang memperkenalkan `LayoutCollector`?**  
+A: `LayoutCollector` telah tersedia sejak rilis awal 2020; contoh-contoh menggunakan versi 25.3.
 
-**T: Versi Java apa yang didukung?**  
-**J:** Aspose.Words for Java 25.3 mendukung Java 8 hingga Java 17, mencakup lingkungan lama dan modern.
+## Kesimpulan
+Dengan menguasai **restart penomoran halaman**, `LayoutCollector`, dan `LayoutEnumerator`, Anda kini memiliki toolkit yang kuat untuk pemrosesan teks tingkat lanjut di Aspose.Words for Java. Baik Anda perlu **mengekstrak data paginasi**, **menampilkan halaman sebagai gambar**, atau sekadar mengontrol penomoran halaman antar bagian, API ini memberi Anda kontrol yang tepat dan programatik sambil menjaga kinerja tetap tinggi.
 
 ---
 
-**Terakhir Diperbarui:** 2026-08-10  
-**Diuji Dengan:** Aspose.Words for Java 25.3  
+**Terakhir Diperbarui:** 2026-01-14  
+**Diuji Dengan:** Aspose.Words for Java 25.3  
 **Penulis:** Aspose  
-
-{{< blocks/products/products-backtop-button >}}
-
-## Tutorial Terkait
-
-- [Cara Merender Halaman Dokumen sebagai Thumbnail menggunakan Aspose.Words untuk Java](/words/java/images-shapes/render-word-pages-thumbnails-aspose-java/)
-- [Aspose.Words Java: Panduan Opsi Zoom & Tampilan Kustom untuk Presentasi Dokumen yang Ditingkatkan](/words/java/headers-footers-page-setup/aspose-words-java-custom-zoom-options/)
-- [Menguasai Pemrosesan Teks Lanjutan dengan Tutorial Aspose.Words untuk Java](/words/java/advanced-text-processing/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

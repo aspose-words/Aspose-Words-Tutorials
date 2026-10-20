@@ -1,67 +1,14 @@
 ---
-date: '2026-08-10'
-description: Tìm hiểu cách thêm phụ thuộc Maven của Aspose Words và thành thạo việc
-  xử lý tài liệu bằng Aspose.Words for Java, bao gồm nền trang và nhập node.
+date: '2025-11-26'
+description: Tìm hiểu cách đặt màu nền trang với Aspose.Words cho Java, thay đổi màu
+  trang trong tài liệu Word, hợp nhất các phần của tài liệu và nhập phần từ tài liệu
+  một cách hiệu quả.
 keywords:
-- aspose words maven dependency
-- set page background color
-- customize import format
-- add shape as background
-- apply background color
-lastmod: '2026-08-10'
-og_description: Thêm phụ thuộc Maven của Aspose Words và thành thạo việc xử lý tài
-  liệu trong Java, bao gồm thiết lập màu nền trang và nhập các node.
-og_image_alt: Guide showing Aspose Words Maven setup and document background customization
-  in Java
-og_title: Hướng dẫn phụ thuộc Maven của Aspose Words – Xử lý tài liệu Java
-schemas:
-- author: Aspose
-  dateModified: '2026-08-10'
-  description: Learn how to add the Aspose Words Maven dependency and master document
-    manipulation using Aspose.Words for Java, including page backgrounds and node
-    import.
-  headline: Aspose Words Maven Dependency – Java document manipulation
-  type: TechArticle
-- description: Learn how to add the Aspose Words Maven dependency and master document
-    manipulation using Aspose.Words for Java, including page backgrounds and node
-    import.
-  name: Aspose Words Maven Dependency – Java document manipulation
-  steps:
-  - name: '**Free trial** – Register on the Aspose website for a 30‑day trial key.'
-    text: '**Free trial** – Register on the Aspose website for a 30‑day trial key.'
-  - name: '**Temporary license** – Use the trial key to generate a temporary license
-      file for full‑feature evaluation.'
-    text: '**Temporary license** – Use the trial key to generate a temporary license
-      file for full‑feature evaluation.'
-  - name: '**Purchase** – Buy a perpetual license to remove evaluation limits and
-      receive priority support.'
-    text: '**Purchase** – Buy a perpetual license to remove evaluation limits and
-      receive priority support.'
-  type: HowTo
-- questions:
-  - answer: No. The `aspose-words` artifact includes built‑in support for PDF, DOCX,
-      HTML, and over 30 other formats.
-    question: Do I need a separate Maven artifact for PDF support?
-  - answer: Yes, load the saved file, call `setPageColor()` again, and re‑save; the
-      operation is fast because Aspose.Words works directly on the file stream.
-    question: Can I change the background color after the document is saved?
-  - answer: The library can process multi‑hundred‑page files (up to 10,000 pages)
-      using streaming APIs that keep memory consumption under 200 MB.
-    question: How large a document can Aspose.Words handle?
-  - answer: Footnotes are stored in the main document’s `Footnotes` collection; `GlossaryDocument`
-      is optional and only needed for separate glossary sections.
-    question: Is the `GlossaryDocument` required for footnotes?
-  - answer: Yes, Aspose.Words 25.3+ is fully compatible with Java 8, 11, 17, and newer
-      LTS releases.
-    question: Does the library support Java 17?
-  type: FAQPage
-tags:
-- aspose words
-- maven dependency
-- java document manipulation
-- page background
-- import nodes
-title: Phụ thuộc Maven của Aspose Words – Xử lý tài liệu Java
+- Aspose.Words for Java
+- Document initialization in Java
+- Customize page backgrounds with Java
+- Import nodes between documents using Java
+title: Đặt màu nền trang với Aspose.Words cho Java – Hướng dẫn
 url: /vi/java/content-management/aspose-words-java-document-manipulation-guide/
 weight: 1
 ---
@@ -72,45 +19,40 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Phụ thuộc Maven Aspose Words – Xử lý tài liệu Java
+# Đặt Màu Nền Trang với Aspose.Words cho Java
 
-Trong hướng dẫn này, bạn sẽ học cách thêm **aspose words maven dependency** vào một dự án Java và sau đó sử dụng Aspose.Words cho Java để thao tác tài liệu—khởi tạo chúng, đặt màu nền trang, nhập node, và thêm hình dạng làm nền. Khi kết thúc, bạn sẽ có một cơ sở mã sẵn sàng cho sản xuất có thể tạo ra các tài liệu được định dạng phong phú mà không cần cài đặt Microsoft Word.
+Trong hướng dẫn này, bạn sẽ khám phá **cách đặt màu nền trang** bằng cách sử dụng Aspose.Words cho Java và tìm hiểu các nhiệm vụ liên quan như **thay đổi màu trang trong tài liệu Word**, **gộp các phần của tài liệu**, **tạo hình nền tài liệu**, và **nhập một phần từ tài liệu**. Khi kết thúc, bạn sẽ có một quy trình làm việc vững chắc, sẵn sàng cho sản xuất để tùy chỉnh giao diện và cấu trúc của các tệp Word một cách lập trình.
 
 ## Câu trả lời nhanh
-- **Artifact Maven nào thêm Aspose.Words?** `com.aspose:aspose-words` with the latest version number.  
-- **Tôi có thể đặt màu nền trang không?** Yes, call `Document.setPageColor()` with any `java.awt.Color`.  
-- **Việc nhập một phần giữa các tài liệu có an toàn không?** `importNode()` preserves structure and styles when used with the proper `ImportFormatMode`.  
-- **Các hình dạng có hoạt động như nền trang không?** You can insert a `Shape` of type `ShapeType.IMAGE` and send it to the header/footer to act as a background.  
-- **Phiên bản Java nào được yêu cầu?** JDK 8 or higher; the library is compatible with Java 11, 17, and newer LTS releases.
+- **Lớp chính để làm việc là gì?** `com.aspose.words.Document`
+- **Phương thức nào đặt nền đồng nhất?** `Document.setPageColor(Color)`
+- **Tôi có thể nhập một phần từ tài liệu khác không?** Có, sử dụng `Document.importNode(...)`
+- **Tôi có cần giấy phép cho môi trường sản xuất không?** Có, cần một giấy phép Aspose.Words đã mua
+- **Điều này có được hỗ trợ trên Java 8+ không?** Chắc chắn – hoạt động với mọi JDK hiện đại
 
-## Phụ thuộc Maven Aspose Words là gì?
-**aspose words maven dependency** là tọa độ Maven kéo thư viện Aspose.Words cho Java và tất cả các phụ thuộc truyền tải vào classpath của dự án của bạn. Thêm dòng duy nhất này vào `pom.xml` cho phép bạn truy cập hơn 35 định dạng nhập và xuất và cho phép tạo tài liệu hiệu suất cao trên bất kỳ JVM nào.
+## “Đặt màu nền trang” là gì?
+Việc đặt màu nền trang thay đổi nền trực quan của mỗi trang trong tài liệu Word. Điều này hữu ích cho việc xây dựng thương hiệu, cải thiện khả năng đọc, hoặc tạo các mẫu in với một tông màu nhẹ nhàng.
 
-## Tại sao nên sử dụng Aspose.Words cho Java?
-Aspose.Words xử lý **35+** định dạng tài liệu—bao gồm DOCX, PDF, HTML và EPUB—trong khi xử lý các tệp lên tới **500 trang** mà không tải toàn bộ tài liệu vào bộ nhớ. Thiết kế ưu tiên hiệu suất này giảm việc sử dụng RAM máy chủ lên tới **70 %** so với tự động hóa Office gốc, làm cho nó lý tưởng cho các microservice đám mây.
+## Tại sao thay đổi màu trang trong tài liệu Word?
+Thay đổi màu trang có thể:
+- Đưa tài liệu phù hợp với bảng màu công ty  
+- Giảm mỏi mắt khi đọc các báo cáo dài  
+- Làm nổi bật các phần khi in trên giấy màu  
 
 ## Yêu cầu trước
 
-- **Aspose.Words for Java** version 25.3 hoặc mới hơn (phiên bản ổn định mới nhất được khuyến nghị).  
-- Java Development Kit (JDK) 8+ được cài đặt trên máy của bạn.  
-- Một IDE như IntelliJ IDEA hoặc Eclipse để chỉnh sửa và xây dựng dự án.  
-- Maven hoặc Gradle để quản lý phụ thuộc.  
+Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
 
-### Thư viện và phiên bản yêu cầu
-- `com.aspose:aspose-words:25.3` (hoặc mới hơn).  
-
-### Kiến thức yêu cầu
-- Quen thuộc với cú pháp Java cơ bản và các khái niệm hướng đối tượng.  
-- Hiểu biết về các tệp cấu hình Maven/Gradle.
-
-Với các yêu cầu trước đã được đáp ứng, bạn đã sẵn sàng thêm phụ thuộc Maven và bắt đầu viết mã.
+- **Aspose.Words cho Java** v25.3 hoặc mới hơn.  
+- Một **JDK** (Java 8 trở lên) đã được cài đặt.  
+- Một IDE như **IntelliJ IDEA** hoặc **Eclipse**.  
+- Kiến thức cơ bản về Java và quen thuộc với **Maven** hoặc **Gradle** để quản lý phụ thuộc.  
 
 ## Cài đặt Aspose.Words
 
-Để tích hợp Aspose.Words vào dự án Java của bạn, bao gồm thư viện như một phụ thuộc Maven hoặc Gradle.
-
 ### Maven
-Add this snippet to your `pom.xml` file:
+Thêm đoạn mã này vào tệp `pom.xml` của bạn:
+
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -120,17 +62,20 @@ Add this snippet to your `pom.xml` file:
 ```
 
 ### Gradle
-Include the following in your `build.gradle` file:
+Bao gồm các dòng sau trong tệp `build.gradle` của bạn:
+
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
 #### Các bước lấy giấy phép
-1. **Free trial** – Đăng ký trên trang web Aspose để nhận khóa dùng thử 30 ngày.  
-2. **Temporary license** – Sử dụng khóa dùng thử để tạo tệp giấy phép tạm thời cho việc đánh giá đầy đủ tính năng.  
-3. **Purchase** – Mua giấy phép vĩnh viễn để loại bỏ giới hạn đánh giá và nhận hỗ trợ ưu tiên.
+1. **Dùng thử miễn phí** – khám phá tất cả tính năng trong 30 ngày.  
+2. **Giấy phép tạm thời** – mở khóa đầy đủ chức năng trong thời gian đánh giá.  
+3. **Mua bản quyền** – nhận giấy phép vĩnh viễn cho việc sử dụng trong môi trường sản xuất.
 
-### Khởi tạo và cài đặt cơ bản
+### Khởi tạo và Cài đặt Cơ bản
+
+Dưới đây là một chương trình Java tối thiểu tạo một tài liệu rỗng:
 
 Lớp `Document` là đối tượng cốt lõi đại diện cho PDF, Word hoặc bất kỳ tệp hỗ trợ nào trong bộ nhớ. Sau khi thêm phụ thuộc Maven, bạn có thể khởi tạo nó như sau:
 ```java
@@ -146,14 +91,14 @@ public class DocumentSetup {
 }
 ```
 
-Với Aspose.Words đã được thiết lập, hãy khám phá các tính năng cụ thể bạn sẽ cần cho việc thao tác tài liệu.
+Với thư viện đã sẵn sàng, chúng ta sẽ đi sâu vào các tính năng chính.
 
 ## Hướng dẫn triển khai
 
-### Tính năng 1: khởi tạo tài liệu
+### Tính năng 1: Khởi tạo Tài liệu
 
 #### Tổng quan
-Khởi tạo tài liệu và các lớp con của chúng cho phép bạn xây dựng các mẫu phức tạp như bảng chú giải, chú thích dưới trang, hoặc các phần tùy chỉnh.
+Tạo một `GlossaryDocument` bên trong tài liệu chính cho phép bạn quản lý các từ điển, kiểu dáng và các phần tùy chỉnh trong một container sạch sẽ, tách biệt.
 
 #### Cách khởi tạo tài liệu bảng chú giải?
 Tạo một thể hiện `Document` chính, sau đó gắn một `GlossaryDocument` để quản lý các mục bảng chú giải trong một tệp duy nhất, thống nhất. GlossaryDocument đại diện cho phần bảng chú giải của tài liệu Word, lưu trữ các mục như mục bảng chú giải, chú thích cuối và các phần tùy chỉnh.
@@ -173,14 +118,12 @@ public class DocumentInitialization {
 }
 ```
 
-**Giải thích**  
-- `Document` là lớp cơ sở cho tất cả các tài liệu Aspose.Words.  
-- `GlossaryDocument` có thể được gán cho tài liệu chính, cho phép bạn lưu trữ các mục bảng chú giải, chú thích cuối và các nội dung phụ trợ khác trong một phần riêng của tệp.
+*Lý do quan trọng:* Mẫu này là nền tảng cho **gộp các phần của tài liệu** sau này, vì mỗi phần có thể duy trì các kiểu riêng trong khi vẫn thuộc cùng một tệp.
 
-### Tính năng 2: đặt màu nền trang
+### Tính năng 2: Đặt màu nền trang
 
 #### Tổng quan
-Tùy chỉnh nền trang cải thiện khả năng đọc và đồng nhất tài liệu với thương hiệu công ty.
+Bạn có thể áp dụng một tông màu đồng nhất cho mọi trang bằng cách sử dụng `Document.setPageColor`. Điều này trực tiếp đáp ứng từ khóa chính **đặt màu nền trang**.
 
 #### Cách đặt màu nền trang?
 Sử dụng phương thức `setPageColor()` trên đối tượng `Document`, truyền vào giá trị `java.awt.Color` đại diện cho màu mong muốn.
@@ -203,14 +146,12 @@ public class SetPageBackgroundColor {
 }
 ```
 
-**Giải thích**  
-- `setPageColor()` áp dụng màu nền đồng nhất cho mọi trang trong tài liệu.  
-- Lớp `Color` chấp nhận các giá trị RGB, vì vậy bạn có thể khớp chính xác bất kỳ bảng màu thương hiệu nào.
+**Mẹo:** Nếu bạn cần **thay đổi màu trang trong tài liệu Word** một cách nhanh chóng, chỉ cần thay `Color.lightGray` bằng bất kỳ hằng số `java.awt.Color` nào hoặc một giá trị RGB tùy chỉnh.
 
-### Tính năng 3: nhập node giữa các tài liệu
+### Tính năng 3: Nhập phần từ tài liệu (và Gộp các phần tài liệu)
 
 #### Tổng quan
-Kết hợp nội dung từ nhiều nguồn là yêu cầu phổ biến cho báo cáo và quy trình xuất bản tự động.
+Khi cần kết hợp nội dung từ nhiều nguồn, bạn có thể nhập toàn bộ một phần (hoặc bất kỳ node nào) từ tài liệu này sang tài liệu khác. Đây là cốt lõi của **gộp các phần tài liệu** và **nhập phần từ tài liệu**.
 
 #### Cách nhập một phần từ tài liệu nguồn?
 Gọi `importNode()` trên `Document` đích, cung cấp node cần nhập và một `ImportFormatMode` xác định cách xử lý kiểu dáng.
@@ -241,14 +182,12 @@ public class ImportNode {
 }
 ```
 
-**Giải thích**  
-- `importNode()` chuyển một node (ví dụ, một `Section`) từ tài liệu này sang tài liệu khác trong khi giữ nguyên cấu trúc nội bộ.  
-- Chọn `ImportFormatMode.KEEP_SOURCE_FORMATTING` để giữ nguyên kiểu dáng gốc, hoặc `USE_DESTINATION_STYLES` để áp dụng giao diện của tài liệu đích.
+**Mẹo chuyên nghiệp:** Sau khi nhập, bạn có thể gọi `dstDoc.updatePageLayout()` để đảm bảo các ngắt trang và phần đầu/chân trang được tính lại chính xác.
 
 ### Tính năng 4: nhập node với chế độ định dạng tùy chỉnh
 
 #### Tổng quan
-Đảm bảo tính nhất quán kiểu dáng khi kết hợp tài liệu tránh các sự không khớp về hình ảnh.
+Đôi khi nguồn và đích sử dụng các định nghĩa kiểu khác nhau. `ImportFormatMode` cho phép bạn quyết định giữ lại các kiểu của nguồn hoặc buộc sử dụng các kiểu của đích.
 
 #### Cách áp dụng chế độ nhập định dạng tùy chỉnh?
 Xác định `ImportFormatMode` mong muốn khi gọi `importNode()`. Điều này cho phép bạn kiểm soát việc giữ hay ghi đè định dạng nguồn. ImportFormatMode là một enum định nghĩa cách định dạng được xử lý trong quá trình nhập node, như giữ kiểu nguồn hoặc sử dụng kiểu đích.
@@ -275,14 +214,12 @@ public class ImportNodeCustom {
 }
 ```
 
-**Giải thích**  
-- `ImportFormatMode` cung cấp ba tùy chọn: `KEEP_SOURCE_FORMATTING`, `USE_DESTINATION_STYLES`, và `MERGE_FORMATTING`.  
-- Chọn chế độ phù hợp loại bỏ nhu cầu dọn dẹp kiểu sau khi nhập.
+**Khi nào nên dùng:** Chọn `USE_DESTINATION_STYLES` khi bạn muốn giao diện nhất quán trên toàn bộ tài liệu đã gộp, đặc biệt sau **gộp các phần tài liệu** với thương hiệu khác nhau.
 
-### Tính năng 5: đặt hình dạng nền cho các trang tài liệu
+### Tính năng 5: Tạo hình nền tài liệu (Đặt hình nền)
 
 #### Tổng quan
-Sử dụng hình dạng làm nền trang cho phép bạn chèn dấu nước, logo hoặc hình ảnh tràn toàn trang phía sau nội dung chính.
+Ngoài màu đồng nhất, bạn có thể nhúng các hình dạng hoặc hình ảnh làm nền trang. Ví dụ này thêm một hình sao đỏ, nhưng bạn có thể thay thế bằng bất kỳ hình ảnh nào để **tạo hình nền tài liệu**.
 
 #### Cách chèn hình dạng nền?
 Tạo một `Shape` loại `ShapeType.IMAGE`, đặt bố cục của nó thành `WRAP_NONE`, và thêm vào header hoặc footer của tài liệu để nó xuất hiện phía sau mọi văn bản. Shape đại diện cho một đối tượng vẽ như hình ảnh, hộp văn bản hoặc hình học có thể được đặt ở bất kỳ vị trí nào trong tài liệu.
@@ -308,45 +245,38 @@ public class SetBackgroundShape {
 }
 ```
 
-**Giải thích**  
-- Các đối tượng `Shape` có thể chứa hình ảnh, đồ họa vector hoặc hình học.  
-- Đặt shape trong header/footer đảm bảo nó lặp lại trên mỗi trang mà không ảnh hưởng tới luồng nội dung chính.
+**Cách sử dụng hình ảnh:** Thay thế việc tạo `Shape` bằng `ShapeType.IMAGE` và tải luồng hình ảnh. Điều này biến hình dạng thành một **hình nền tài liệu** lặp lại trên mỗi trang.
 
-## Các vấn đề thường gặp và khắc phục
+## Các vấn đề thường gặp và giải pháp
 
-- **License not found** – Xác minh rằng đối tượng `License` trỏ đến tệp `.lic` hợp lệ và tệp này nằm trong classpath.  
-- **Color not applied** – Đảm bảo bạn gọi `setPageColor()` **trước** khi lưu tài liệu; các thay đổi sau khi lưu sẽ không được giữ.  
-- **ImportNode throws an exception** – Xác nhận cả tài liệu nguồn và đích đều được tải với cùng `LoadOptions` (ví dụ, cùng `LoadFormat`).  
-- **Background shape appears behind text but is invisible** – Kiểm tra đường dẫn tệp ảnh có đúng và `RelativeHorizontalPosition` và `RelativeVerticalPosition` của shape được đặt thành `PAGE`.
+| Vấn đề | Giải pháp |
+|-------|----------|
+| **Màu nền không được áp dụng** | Đảm bảo bạn gọi `doc.setPageColor(...)` **trước** khi lưu tài liệu. |
+| **Phần đã nhập mất định dạng** | Sử dụng `ImportFormatMode.USE_DESTINATION_STYLES` để buộc áp dụng kiểu của đích. |
+| **Hình không hiển thị trên mọi trang** | Chèn hình vào **header/footer** của mỗi phần, hoặc sao chép nó cho từng phần. |
+| **Lỗi giấy phép** | Kiểm tra rằng `License.setLicense("Aspose.Words.Java.lic")` được gọi sớm trong ứng dụng của bạn. |
+| **Giá trị màu trông khác** | `Color` của Java AWT sử dụng sRGB; hãy kiểm tra lại các giá trị RGB chính xác mà bạn cần. |
 
 ## Câu hỏi thường gặp
 
-**Q: Tôi có cần một artifact Maven riêng cho hỗ trợ PDF không?**  
-A: Không. Artifact `aspose-words` đã bao gồm hỗ trợ tích hợp cho PDF, DOCX, HTML và hơn 30 định dạng khác.
+**H: Tôi có thể đặt màu nền khác cho từng phần riêng lẻ không?**  
+Đ: Có. Sau khi tạo một `Section` mới, gọi `section.getPageSetup().setPageColor(Color)` cho phần đó.
 
-**Q: Tôi có thể thay đổi màu nền sau khi tài liệu đã được lưu không?**  
-A: Có, tải lại tệp đã lưu, gọi `setPageColor()` một lần nữa và lưu lại; thao tác này nhanh vì Aspose.Words làm việc trực tiếp trên luồng tệp.
+**H: Có thể sử dụng gradient thay vì màu đồng nhất không?**  
+Đ: Aspose.Words không hỗ trợ gradient trực tiếp, nhưng bạn có thể chèn một hình ảnh toàn trang có gradient và đặt nó làm hình nền.
 
-**Q: Aspose.Words có thể xử lý tài liệu lớn đến mức nào?**  
-A: Thư viện có thể xử lý các tệp hàng trăm trang (tối đa 10.000 trang) bằng các API streaming giữ mức tiêu thụ bộ nhớ dưới 200 MB.
+**H: Làm sao để gộp các tài liệu lớn mà không hết bộ nhớ?**  
+Đ: Sử dụng `Document.appendDocument(otherDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING)` theo kiểu streaming, và gọi `doc.updatePageLayout()` sau mỗi lần gộp.
 
-**Q: `GlossaryDocument` có bắt buộc cho chú thích không?**  
-A: Chú thích được lưu trong bộ sưu tập `Footnotes` của tài liệu chính; `GlossaryDocument` là tùy chọn và chỉ cần thiết cho các phần bảng chú giải riêng biệt.
+**H: API có hoạt động với các tệp .docx được tạo bởi Microsoft Word 2019 không?**  
+Đ: Hoàn toàn có. Aspose.Words hỗ trợ đầy đủ chuẩn OOXML được sử dụng bởi các phiên bản Word hiện đại.
 
-**Q: Thư viện có hỗ trợ Java 17 không?**  
-A: Có, Aspose.Words 25.3+ hoàn toàn tương thích với Java 8, 11, 17 và các phiên bản LTS mới hơn.
+**H: Cách tốt nhất để lập trình thay đổi nền của một tệp .doc hiện có là gì?**  
+Đ: Tải tài liệu bằng `new Document("file.doc")`, gọi `setPageColor`, và lưu lại dưới dạng `.doc` hoặc `.docx`.
 
----
-
-**Last Updated:** 2026-08-10  
-**Tested With:** Aspose.Words for Java 25.3  
-**Author:** Aspose
-
-## Hướng dẫn liên quan
-
-- [Hướng dẫn Aspose.Words Java cho Quản lý Nội dung - Xử lý Tài liệu Chính](/words/java/content-management/)
-- [Thành thạo Aspose.Words Java để Thao tác Biến tài liệu hiệu quả](/words/java/content-management/aspose-words-java-document-variable-manipulation/)
-- [Thành thạo Aspose.Words Java: Hướng dẫn Vận hành Tài liệu](/words/java/document-operations/)
+**Last Updated:** 2025-11-26  
+**Tested With:** Aspose.Words cho Java 25.3  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -354,4 +284,4 @@ A: Có, Aspose.Words 25.3+ hoàn toàn tương thích với Java 8, 11, 17 và
 
 {{< blocks/products/products-backtop-button >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

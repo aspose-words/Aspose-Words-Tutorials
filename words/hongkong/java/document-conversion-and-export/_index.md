@@ -1,10 +1,11 @@
 ---
-"description": "透過本綜合指南探索 Aspose.Words for Java 的強大功能。了解如何輕鬆轉換和匯出文件。"
-"linktitle": "文檔轉換和匯出"
-"second_title": "Aspose.Words Java文件處理API"
-"title": "文檔轉換和匯出"
-"url": "/zh-hant/java/document-conversion-and-export/"
-"weight": 22
+date: 2025-12-10
+description: 學習如何使用 Aspose.Words for Java 添加浮水印、將 docx 轉換為 PDF，並產生條碼標籤。全面的文件轉換與匯出指南。
+linktitle: How to Add Watermark – Document Conversion and Export
+second_title: Aspose.Words Java Document Processing API
+title: 如何添加水印 – 使用 Aspose.Words for Java 进行文档转换与导出
+url: /zh-hant/java/document-conversion-and-export/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,48 +14,274 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 文檔轉換和匯出
+# 如何加入浮水印 – 文件轉換與匯出
+
+如果您想在充分發揮 Aspose.Words for Java 在文件轉換與匯出方面的全部潛力的同時 **how to add watermark**，您來對地方了。在本文中，我們將提供詳細的教學清單，協助您精通這個強大的 API，並分享將 DOCX 轉換為 PDF、產生條碼標籤以及格式化表格的技巧。
+
+## 快速解答
+- **How do I add a watermark with Aspose.Words?** 使用 `DocumentBuilder.insertWatermarkText` 或 `insertWatermarkImage` 方法。  
+- **Can I convert DOCX to PDF in one line?** 可以 – 呼叫 `document.save("output.pdf", SaveFormat.PDF)`。  
+- **Is barcode generation supported?** 當然，使用內建的 barcode API 產生自訂條碼標籤。  
+- **Do I need a license for production?** 需要商業授權才能無限制使用。  
+- **Which version works with Java 17?** 最新的 Aspose.Words for Java 版本完整支援 Java 17。
+
+## 什麼是浮水印以及為什麼要加入它？
+浮水印是一種淡淡的圖像或文字，放置於文件主要內容的背後。它常用於品牌識別、機密性聲明或草稿標記。以程式方式加入浮水印，可讓您在數千個檔案中自動套用視覺提示，免除手動編輯。
+
+## 為什麼使用 Aspose.Words for Java？
+- **Universal format support** – 支援從 DOCX、PDF、ODT 到 HTML 的各種格式。  
+- **High‑fidelity conversion** – 保留版面配置、字型與圖形。  
+- **Built‑in barcode and chart generation** – 簡化文件自動化流程。  
+- **Robust API for shapes, tables, and watermarks** – 一個函式庫即提供形狀、表格與浮水印的完整 API。  
+
+## 先決條件
+- Java 8 或更高（建議使用 Java 17）。  
+- Aspose.Words for Java 程式庫（從官方網站下載）。  
+- 用於正式環境的有效 Aspose 授權（提供免費試用）。  
+
+## 開始使用 Aspose.Words for Java
+您是 Aspose.Words for Java 的新手嗎？別擔心！本教學將引導您完成初始設定，並為您奠定使用此 API 的堅實基礎。您很快就能上手。
+
+## 將文件轉換為不同格式
+Aspose.Words for Java 的主要功能之一是能夠 **convert docx to pdf** 以及其他多種格式的無縫轉換。無論您需要將 DOCX 檔案轉成 PDF 或相反，本教學將一步步帶您完成。您將深入了解轉換選項與自訂可能性。
+
+### 如何將 DOCX 轉換為 PDF
+1. 使用 `Document doc = new Document("input.docx");` 載入 DOCX 檔案。  
+2. 呼叫 `doc.save("output.pdf", SaveFormat.PDF);`。  
+3. （可選）調整 PDF 儲存選項，以符合規範或設定影像品質。  
+
+### 如何在匯出的文件中加入浮水印
+1. 為您的文件建立 `DocumentBuilder`。  
+2. 使用 `builder.insertWatermarkText("CONFIDENTIAL");` 或 `builder.insertWatermarkImage(imageStream);`。  
+3. 以所需格式（PDF、DOCX 等）儲存文件。  
+
+完成這些教學後，您將具備使用 Aspose.Words for Java 自信執行文件轉換與匯出任務的知識與技能。準備好簡化文件處理流程，提升生產力。
+
+現在就深入以下列出的教學，釋放 Aspose.Words for Java 在文件相關專案中的全部潛能。祝開發愉快！
+
+欲取得更多資訊，請參閱 [Aspose.Words for Java API Documentation](https://reference.aspose.com/words/java/)，並從 [here](https://releases.aspose.com/words/java/) 下載以開始使用。如有任何問題或需要協助，歡迎前往我們的 [support forum](https://forum.aspose.com/)。
+
+## 文件轉換與匯出教學
+### [Convert Word to PDF – Generate Accessible PDF](./convert-word-to-pdf-generate-accessible-pdf/)
+### [Generating Custom Barcode Labels in Aspose.Words for Java](./generating-custom-barcode-labels/)
+### [Using Barcode Generation in Aspose.Words for Java](./using-barcode-generation/)
+### [Using Charts in Aspose.Words for Java](./using-charts/)
+
+### [Using Office Math Objects in Aspose.Words for Java](./using-office-math-objects/)
+
+### [將 docx 轉換為 markdown – 使用 Aspose.Words 匯出數學方程式至 LaTeX](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
+
+### [將 Word 儲存為 Markdown – 使用 Java 匯出數學至 LaTeX](./save-word-as-markdown-export-math-to-latex-with-java/)
+### [將 DOCX 儲存為 Markdown – 完整 Java 指南](./save-docx-as-markdown-complete-java-guide/)
+
+### [aspose word to pdf – Convert DOCX to PDF in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
+
+### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
+
+### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
+### [在 Java 中將 docx 儲存為 markdown – 完整步驟指南](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
+教您如何使用 Aspose.Words for Java 將 DOCX 檔案轉換為 Markdown 格式，提供完整的程式碼範例與設定說明。
+
+### [從文件建立 Markdown – 匯出並儲存圖像](./create-markdown-from-document-export-and-save-images/)
+說明如何使用 Aspose.Words for Java 將文件轉換為 Markdown，並匯出內嵌圖像保存至檔案。
+
+### [如何將 DOCX 匯出為 LaTeX – Word 轉 TXT 指南](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
+在 Aspose.Words for Java 中將 DOCX 轉換為 LaTeX（TXT）格式的完整步驟指南。
+
+### [在 Java 中建立 PDF UA – 將 DOCX 轉換為 PDF](./create-pdf-ua-in-java-convert-docx-to-pdf/)
+說明如何在 Java 中使用 Aspose.Words 產生符合 PDF/UA 標準的 PDF，並將 DOCX 檔案轉換為 PDF。
+
+### [將 DOCX 轉換為 Markdown – Java 指南（含圖像提取）](./convert-docx-to-markdown-java-guide-with-image-extraction/)
+說明如何使用 Aspose.Words for Java 將 DOCX 轉換為 Markdown，並提取文件中的圖像。
+
+### [將 Word 匯出為 Markdown – 使用 Aspose.Words 的 Java 指南](./export-word-to-markdown-java-guide-using-aspose-words/)
+說明如何使用 Aspose.Words for Java 將 Word 文件轉換為 Markdown，並示範圖像提取與格式保持。
+
+### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
+
+### [將文件另存為 TXT – 匯出 Word 數學的快速指南](./save-document-as-txt-quick-guide-to-exporting-word-math/)
+
+### [另存為純文字 – 匯出 Word 方程式完整指南](./save-as-plain-text-complete-guide-to-export-word-equations/)
+
+### [Save Document as TXT – Convert DOCX to Text with LaTeX](./save-document-as-txt-convert-docx-to-text-with-latex/)
+
+### [將 docx 另存為 txt 並匯出 LaTeX 數學 – 完整 Java 指南](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
+
+### [將文件另存為 DOCX – 使用 Java 將 Markdown 轉換為 Word](./save-document-as-docx-convert-markdown-to-word-with-java/)
+
+### [將 docx 另存為 txt – 匯出 Word 方程式至 LaTeX](./save-docx-as-txt-export-word-equations-to-latex/)
+
+### [如何在將 DOCX 轉換為 Markdown 時嵌入圖像](./how-to-embed-images-in-markdown-when-converting-docx/)
+
+### [Upload Images to CDN While Converting DOCX to Markdown – Full Java Guide](./upload-images-to-cdn-while-converting-docx-to-markdown-full/)
+### [將 docx 儲存為 markdown – 完整 Java 指南與圖像提取](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
+
+### [從 DOCX 建立可存取 PDF – 完整指南](./create-accessible-pdf-from-docx-complete-guide/)
+
+### [使用 Aspose.Words 將 docx 儲存為 pdf – 完整 Java 指南](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+了解如何使用 Aspose.Words for Java 將 DOCX 檔案一次性轉換並儲存為 PDF，提供完整步驟與範例程式碼。
+
+### [在 Java 中將 DOCX 轉換為 Markdown 時以 Base64 嵌入圖像](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
+在 Aspose.Words for Java 中將 DOCX 轉換為 Markdown，將圖像以 Base64 編碼嵌入，避免外部檔案依賴。
+
+### [如何從 DOCX 匯出 LaTeX – 完整 Java 指南](./how-to-export-latex-from-docx-complete-java-guide/)
+在 Aspose.Words for Java 中將 DOCX 匯出為 LaTeX，提供完整的 Java 實作步驟與範例程式碼。
+
+### [如何使用 Java 從 Word 匯出 Markdown – 完整指南](./how-to-export-markdown-from-word-using-java-complete-guide/)
+在 Aspose.Words for Java 中將 Word 文件轉換為 Markdown，提供完整步驟與範例程式碼。
+
+### [使用 Aspose 從 Word 產生可存取 PDF – Java](./generate-accessible-pdf-from-word-with-aspose-java/)
+說明如何使用 Aspose.Words for Java 將 Word 文件轉換為符合可存取性標準的 PDF，包含標籤與結構資訊。
+### [使用 Java 將 docx 儲存為 pdf – 完整分步指南](./save-docx-as-pdf-with-java-complete-step-by-step-guide/)
+### [將 docx 轉換為 txt – 匯出 Word 方程式為 LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/)
+### [將 Word 匯出為 Markdown – 完整 Java 指南](./export-word-to-markdown-full-java-guide/)
+### [從 Word 建立可存取的 PDF – 步驟指南](./create-accessible-pdf-from-word-step-by-step-guide/)
+### [將 DOCX 轉換為 Markdown 並匯出數學 – 完整 Java 指南](./convert-docx-to-markdown-with-math-export-full-java-guide/)
+
+### [將 DOCX 轉換為 PDF 並匯出內嵌圖形 – 步驟指南](./convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/)
+說明如何使用 Aspose.Words for Java 將 DOCX 轉換為 PDF，並匯出內嵌圖形，提供完整步驟與程式碼範例。
+
+### [在 Java 中建立 PDF/UA 完整指南](./create-pdf-ua-in-java-complete-guide/)
+說明如何在 Java 中使用 Aspose.Words for Java 產生符合 PDF/UA 標準的 PDF 文件，提供完整步驟與程式碼範例。
+
+### [如何復原 DOCX、匯出為 Markdown 與 PDF/UA – 完整 Java 指南](./how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/)
+### [pdf save options – Convert DOCX to PDF in Java with Full Control](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
+
+### [將 docx 另存為 txt – 快速 C# 指南與 LaTeX 數學匯出](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
 
 
-如果您希望充分利用 Aspose.Words for Java 的潛力來進行文件轉換和匯出，那麼您來對地方了。在本文中，我們將為您提供詳細的教學列表，以幫助您掌握這個強大的 API。
+### [如何從 Word 儲存 Markdown – 完整指南](./how-to-save-markdown-from-word-complete-guide/)
+說明如何使用 Aspose.Words for Java 將 Word 文件匯出為 Markdown 格式，步驟完整且易於實作。
 
-## Aspose.Words for Java 入門
-您是 Aspose.Words for Java 的新手嗎？不用擔心！本教學將引導您完成初始設定並為您提供使用此 API 的堅實基礎。您很快就能開始運作。
+### [如何從 Word 匯出 Markdown – 步驟說明 Java 指南](./how-to-export-markdown-from-word-step-by-step-java-guide/)
 
-## 將文件轉換為不同的格式
-Aspose.Words for Java 的主要功能之一是它能夠無縫地將文件轉換為各種格式。無論您需要將 DOCX 檔案轉換為 PDF 還是反之亦然，本教學都會逐步引導您完成整個過程。您將深入了解轉換選項和自訂可能性。
+### [使用 Aspose.Words for Java 將 Word 儲存為 PDF – 步驟說明指南](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
+說明如何使用 Aspose.Words for Java 將 Word 文件轉換並儲存為 PDF，提供完整的步驟與範例程式碼。
 
-## 使用 Aspose.Words 匯出文檔
-匯出文件是處理不同環境下的文件的一個重要方面。在本教學中，我們將探討 Aspose.Words for Java 如何讓匯出文件變得輕而易舉。無論您想從文件中匯出特定頁面、部分或單個元素，您都可以在這裡找到所需的指導。
+### [在 Java 中從 DOCX 建立可存取的 PDF – 完整指南](./create-accessible-pdf-from-docx-in-java-full-guide/)
 
-在這些教學課程結束時，您將掌握使用 Aspose.Words for Java 自信地執行文件轉換和匯出任務的知識和技能。準備好使用這個強大的 API 來簡化您的文件處理並提高您的工作效率。
+### [匯出 DOCX 為 PDF – 完整的可存取 PDF 建立指南](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+說明如何使用 Aspose.Words for Java 將 DOCX 檔案匯出為符合可存取性標準的 PDF，涵蓋標籤、結構與文字層級設定。
 
-因此，深入研究上面列出的教程，並在與文件相關的專案中充分發揮 Aspose.Words for Java 的潛力。編碼愉快！
+### [docx 轉 PDF 教學 – 使用 LowCode 將 Word 轉換為 PDF](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
+說明如何使用 LowCode 平台將 DOCX 檔案快速轉換為 PDF，適用於無程式碼開發者。
 
-欲了解更多信息，請查看 [Aspose.Words for Java API 文檔](https://reference.aspose.com/words/java/)，然後從下載 [這裡](https://releases.aspose.com/words/java/)。如果您有任何疑問或需要協助，請隨時與我們 [支援論壇](https://forum。aspose.com/).
+### [將 Word 儲存為文字 – 使用 Aspose.Words 匯出方程式為 LaTeX](./save-word-as-text-export-equations-to-latex-with-aspose-word/)
+示篯如何將 Word 文件儲存為純文字，同時將文件中的方程式匯出為 LaTeX 代碼。
 
-## 文件轉換和導出教程
-### [在 Aspose.Words for Java 中產生自訂條碼標籤](./generating-custom-barcode-labels/)
-在 Aspose.Words for Java 中產生自訂條碼標籤。透過本逐步指南了解如何使用 Aspose.Words for Java 建立個人化條碼解決方案。
-### [在 Aspose.Words for Java 中使用條碼生成](./using-barcode-generation/)
-了解如何使用 Aspose.Words for Java 在 Java 中產生自訂條碼。帶有條碼生成原始碼的逐步指南。使用 Aspose.Words 增強文件自動化。
-### [在 Aspose.Words for Java 中使用圖表](./using-charts/)
-了解如何在 Aspose.Words for Java 中建立和自訂圖表。探索資料視覺化的圖表類型、格式和軸屬性。
-### [在 Aspose.Words for Java 中使用 Office Math 對象](./using-office-math-objects/)
-使用 Aspose.Words for Java 釋放文件中數學方程式的力量。學習輕鬆操作和顯示 Office Math 物件。
-### [在 Aspose.Words for Java 中使用文件形狀](./using-document-shapes/)
-釋放 Aspose.Words for Java 中文件形狀的強大功能。透過逐步範例學習如何建立具有視覺吸引力的文件。
-### [在 Aspose.Words for Java 中使用浮水印文檔](./using-watermarks-to-documents/)
-了解如何在 Aspose.Words for Java 中新增浮水印。自訂文字和圖像浮水印，使文件看起來更專業。
-### [在 Aspose.Words for Java 中格式化表格和表格樣式](./formatting-tables-and-table-styles/)
-了解如何在 Aspose.Words for Java 中格式化表格並套用表格樣式。探索具有原始程式碼的分步指南，以實現有效的表格格式化。使用 Aspose.Words 增強您的文件佈局。
+### [從 Word 建立 PDF – Java 開發者逐步指南](./create-pdf-from-word-step-by-step-guide-for-java-developers/)
+教您如何使用 Aspose.Words for Java 將 Word 文件轉換為 PDF，提供完整的程式碼範例與步驟說明。
+
+### [使用 Aspose.Words 將 docx 轉換為 markdown – 完整指南](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
+說明如何使用 Aspose.Words for Java 將 DOCX 檔案轉換為 Markdown 格式，提供完整步驟與範例程式碼。
+
+### [使用 Aspose.Words for C# 將 docx 轉換為 markdown – 完整指南](./convert-docx-to-markdown-in-c-complete-guide/)
+說明如何使用 Aspose.Words for C# 將 DOCX 檔案轉換為 Markdown 格式，提供完整步驟與範例程式碼。
+
+### [如何將 DOCX 儲存為文字 – 完整指南：將 DOCX 轉換為 TXT 並匯出數學](./how-to-save-docx-as-text-complete-guide-to-convert-docx-to-t/)
+在 Aspose.Words for Java 中將 DOCX 另存為純文字檔，並支援數學公式的匯出。
+
+### [從 Word 建立可存取的 PDF – 完整指南](./create-accessible-pdf-from-word-full-guide/)
+說明如何使用 Aspose.Words for Java 從 Word 文件生成符合 PDF/UA 標準的可存取 PDF，提供完整步驟與範例程式碼。
+### [在 Aspose.Words for Java 中將 DOCX 轉換為 Markdown – 完整 Java 指南](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
+
+### [使用 Java 將 docx 儲存為 markdown – 完整指南](./save-docx-as-markdown-with-java-full-guide/)
+
+### [將 docx 儲存為 txt – 完整 C# 指南與數學匯出](./save-docx-as-txt-complete-c-guide-with-math-export/)
+
+### [PDF 儲存選項：使用形狀標籤將 DOCX 轉換為 PDF](./pdf-save-options-convert-docx-to-pdf-with-shape-tags/)
+
+### [從 DOCX 建立可存取的 PDF – 完整程式設計指南](./create-accessible-pdf-from-docx-complete-programming-guide/)
+### [使用 Aspose Words 從 DOCX 建立可存取 PDF](./create-accessible-pdf-from-docx-using-aspose-words/)
+
+### [Create Accessible PDF – Step‑by‑Step Guide to Convert Word to PDF](./create-accessible-pdf-step-by-step-guide-to-convert-word-to/)
+
+### [將 docx 儲存為 markdown – 步驟說明 Java 指南](./save-docx-as-markdown-step-by-step-java-guide/)
+
+### [如何將 DOCX 儲存為 TXT – 完整指南](./how-to-save-docx-as-txt-complete-guide/)
+
+### [使用 Java 將 docx 儲存為 markdown – 完整步驟指南](./save-docx-as-markdown-with-java-complete-step-by-step-guide/)
+### [Create Accessible PDF – Java Guide for Converting Word Documents](./create-accessible-pdf-java-guide-for-converting-word-documen/)
+
+### [將 docx 儲存為 markdown – 完整 C# 指南](./save-docx-as-markdown-complete-c-guide/)
+
+### [Save Document as PDF with Java – Complete Step‑by‑Step Guide](./save-document-as-pdf-with-java-complete-step-by-step-guide/)
+
+### [如何從 Word 匯出 Markdown – 完整指南](./how-to-export-markdown-from-word-complete-guide/)
+
+### [使用 Aspose.Words 建立 PDF UA 文件 – 完整 Java 指南](./create-pdf-ua-document-with-aspose-words-full-java-guide/)
+### [在將 DOCX 轉換為 Markdown 時以 Base64 嵌入圖像](./embed-images-as-base64-when-converting-docx-to-markdown/)
+
+### [將文件另存為 PDF – Aspose.Words Java 完整可存取指南](./save-document-as-pdf-with-aspose-words-java-full-accessibili/)
+
+### [在 Java 中建立可存取 PDF – 完整標記指南](./create-accessible-pdf-in-java-full-tagging-guide/)
+
+### [Export docx to txt with Java – Complete Programming Guide](./export-docx-to-txt-with-java-complete-programming-guide/)
+### [將 Word 匯出為 Markdown – 完整 Java 指南](./export-word-to-markdown-complete-java-guide/)
+
+### [將 DOCX 匯出為 Markdown – 完整 Java 指南](./export-docx-as-markdown-complete-java-guide/)
+
+### [建立符合 PDF/UA-2 標準的文件 – 完整 Java 指南](./create-pdf-ua-2-compliant-document-complete-java-guide/)
+### [如何使用 Aspose.Words 將 DOCX 匯出為 LaTeX 至 TXT](./how-to-export-latex-from-docx-to-txt-with-aspose-words/)
+
+### [如何從 Word 儲存 PDF（含行內圖形） – 完整指南](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
+
+### [在 Java 中將 Word 匯出為 Markdown – 將文件另存為 Markdown](./export-word-to-markdown-in-java-save-document-as-markdown/)
+### [將文件另存為 DOCX – 完整的 Aspose.Words Java 指南](./save-document-as-docx-with-aspose-words-complete-java-guide/)
+
+### [將文件另存為 PDF – 完整的 Aspose.Words Java 指南](./save-word-as-pdf-with-aspose-words-complete-java-guide/)
+
+### [使用 Java 將 Word 轉換為 Markdown – 完整指南](./convert-word-to-markdown-with-java-full-guide/)
+
+### [使用 Java 建立 PDF/UA 相容檔案 – 完整 Aspose.Words 指南](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
+### [使用 Java 建立符合 PDF/UA‑1 標準的檔案 – 完整指南](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
+
+### [建立符合 PDF/UA 標準的文件 – 完整 Java 指南](./create-pdf-ua-compliant-document-complete-java-guide/)
+### [儲存 Word 圖像 – 使用 Java 將 DOCX 轉換為 Markdown](./save-word-images-convert-docx-to-markdown-with-java/)
+### [將 DOCX 匯出為 Markdown – 完整 C# 指南](./export-docx-as-markdown-complete-c-guide/)
+### [使用 Java 將文件儲存為 PDF – 完整 Aspose 指南](./save-document-as-pdf-with-java-complete-aspose-guide/)
+### [如何從 DOCX 匯出 LaTeX – 使用 C# 將 Word 轉換為 Markdown](./how-to-export-latex-from-docx-convert-word-to-markdown-with/)
+### [將 docx 儲存為 txt – 完整 C# 指南](./save-docx-as-txt-full-c-guide/)
+### [從 Word 產生 PNG – 完整步驟指南](./create-png-from-word-complete-step-by-step-guide/)
+### [將 Word 儲存為 Markdown – 完整指南：將 DOCX 轉換為 Markdown](./save-word-as-markdown-complete-guide-to-convert-docx-to-mark/)
+
+### [Java docx to PDF – Generate Accessible PDF with Aspose.Words](./java-docx-to-pdf-generate-accessible-pdf-with-aspose-words/)
+
+### [將 DOCX 轉換為 Markdown – 完整 Java 教學](./convert-docx-to-markdown-complete-java-tutorial/)
+### [將 Word 另存為 Markdown – 匯出表格為 HTML（Java）](./save-word-as-markdown-export-tables-to-html-in-java/)
+### [在將 Word 儲存為 Markdown 時設定解析度](./how-to-set-resolution-when-saving-word-as-markdown/)
+
+### [如何將 Word 儲存為 Markdown – 完整 Java 指南](./how-to-save-markdown-from-word-complete-java-guide/)
+
+### [使用 Aspose.Words 將 Word 儲存為 PDF – 完整 Java 指南](./save-word-as-pdf-with-aspose-words-full-java-guide/)
+
+## 常見問題
+
+**Q: How do I add a watermark to an existing PDF using Aspose.Words?**  
+A: 載入文件，使用 `DocumentBuilder.insertWatermarkText` 或 `insertWatermarkImage`，然後儲存為 PDF。
+
+**Q: Can I convert a DOCX file to PDF without losing complex layouts?**  
+A: 可以。Aspose.Words 在轉換過程中保留版面配置、字型與圖形。
+
+**Q: How do I generate custom barcode labels in Java?**  
+A: 使用 Aspose.Words 提供的條碼 API，指定條碼類型，並以影像或形狀方式插入。
+
+**Q: What is the best way to format tables consistently?**  
+A: 透過 `Table.setStyleIdentifier` 方法套用 TableStyle，或使用內建的樣式庫。
+
+**Q: Is a license required for commercial use?**  
+A: 是，需要商業授權才能在正式環境部署；亦提供免費試用供評估。
+
+---
+
+**最後更新:** 2025-12-10  
+**測試環境:** Aspose.Words for Java 24.12  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

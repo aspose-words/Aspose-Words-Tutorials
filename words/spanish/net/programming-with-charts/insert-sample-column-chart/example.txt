@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Este tutorial muestra cómo crear un nuevo documento Word, insertar un gráfico de columnas predeterminado con DocumentBuilder.InsertChart, obtener el objeto Chart incrustado y guardar el documento en un archivo .docx.
+//ExStepSummary:0: Cree un documento Word vacío y un DocumentBuilder para editarlo.
+//ExStepSummary:1: Inserte un gráfico de columnas de tamaño 432 × 252 puntos en el documento.
+//ExStepSummary:2: Recupere el objeto Chart de la forma insertada para una personalización adicional si es necesario.
+//ExStepSummary:3: Guarde el documento, que ahora contiene el gráfico de columnas insertado, en un archivo .docx.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+
+//ExStep:2-
+Chart embeddedChart = chartContainer.Chart;
+
+//ExStep:3-
+wordDoc.Save("column-demo.docx");
+//ExEnd

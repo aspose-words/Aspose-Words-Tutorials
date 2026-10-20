@@ -4,7 +4,9 @@
 "url": "/pt/python-net/getting-started/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Tutoriais de introdução ao Aspose.Words Python-net
 
 Explore guias passo a passo abrangentes para começar a usar o Aspose.Words para Python-net. Esses tutoriais incluem exemplos de código completos e explicações detalhadas.
@@ -25,8 +27,11 @@ Mergulhe no mundo da automação de documentos com nossa categoria "Introdução
 ### [Guia de Licenciamento Medido para Aspose.Words em Python: Rastreamento Eficiente do Uso de Documentos](./aspose-words-python-metered-licensing-guide/)
 Aprenda a implementar o licenciamento medido com o Aspose.Words para Python para rastrear e gerenciar com eficiência o uso de documentos em seus aplicativos.
 
-    ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
+### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 Um tutorial de código para Aspose.Words Python-net
+
+### [Construir Projeto CMake: Configurar, Compilar e Testar](./build-cmake-project-configure-build-test/)
+Aprenda a configurar, compilar e testar projetos CMake usando Aspose.Words para Python-net.
 
 ## Recursos adicionais
 
@@ -36,3 +41,7 @@ Um tutorial de código para Aspose.Words Python-net
 - [Fórum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Suporte gratuito](https://forum.aspose.com/)
 - [Licença Temporária](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

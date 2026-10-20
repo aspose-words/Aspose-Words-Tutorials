@@ -4,7 +4,9 @@
 "url": "/es/python-net/images-shapes/"
 "weight": 6
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Tutoriales de imágenes y formas para Aspose.Words Python-net
 
 Explora guías paso a paso completas para operaciones con imágenes y formas usando Aspose.Words para Python-net. Estos tutoriales incluyen ejemplos de código completos y explicaciones detalladas.
@@ -26,11 +28,28 @@ La categoría "Imágenes y Formas" de los tutoriales de Python-net de Aspose.Wor
 ### [Dominando el análisis de tipos de medios en Aspose.Words para Python: una guía completa](./mastering-aspose-words-python-media-type-parsing/)
 Aprenda a analizar tipos de medios, cifrar archivos y validar firmas digitales con Aspose.Words para Python. Mejore sus capacidades de procesamiento de documentos hoy mismo.
 
+### [Cómo agregar sombra en C# – Guía completa de programación](./how-to-add-shadow-in-c-complete-programming-guide/)
+Aprenda a aplicar sombras a objetos en documentos con Aspose.Words y C# paso a paso.
+
+### [Agregar rectángulo a PDF con Aspose.Words – Guía paso a paso](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
+Aprenda a insertar un rectángulo en documentos PDF usando Aspose.Words con una guía detallada paso a paso.
+### [Crear forma rectangular en Python – Guía completa de Aspose.Words](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
+Aprenda a crear y personalizar una forma rectangular en documentos Word con Aspose.Words para Python.
+### [Cómo insertar una forma rectangular en Python – Guía completa de Aspose.Words](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
+Aprenda a insertar y personalizar una forma rectangular en documentos Word usando Aspose.Words para Python.
+### [Cómo agregar sombra a una forma en Word con Python – Guía completa](./add-shadow-to-shape-in-word-with-python-complete-guide/)
+Aprenda a aplicar sombras a formas en documentos Word usando Aspose.Words y Python paso a paso.
+### [Cómo establecer sombra en Aspose.Words – Ejemplo en Python](./how-to-set-shadow-in-aspose-words-python-example/)
+Aprenda a aplicar sombras a objetos en documentos Word usando Aspose.Words con Python.
+
     ### [Optimize RTF Image Handling in Python using Aspose.Words API&#58; Save as WMF and Ensure Compatibility](./optimize-rtf-image-handling-aspose-words-python/)
 Aprenda a optimizar la gestión de imágenes en documentos RTF con Aspose.Words para Python. Guarde las imágenes en formato WMF y garantice la compatibilidad con lectores antiguos.
 
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Aprenda a optimizar la salida SVG con Aspose.Words para Python. Esta guía abarca funciones personalizadas como propiedades similares a imágenes, renderizado de texto y mejoras de seguridad.
+
+    ### [Crear forma de rectángulo en Python – Guía completa para agregar sombras y guardar como PDF](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
+Aprenda a crear una forma rectangular, aplicar sombras y exportar el documento como PDF usando Aspose.Words para Python.
 
 ## Recursos adicionales
 
@@ -40,3 +59,7 @@ Aprenda a optimizar la salida SVG con Aspose.Words para Python. Esta guía abarc
 - [Foro de Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Soporte gratuito](https://forum.aspose.com/)
 - [Licencia temporal](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

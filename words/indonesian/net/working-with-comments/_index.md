@@ -21,6 +21,15 @@ Dalam tutorial ini, Anda akan mempelajari berbagai aspek Pemrosesan Kata dengan 
  ## Tutorial
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | --- Bahasa Indonesia:
+
+{{< tutorial-card link="./add-hyperlink-comment/" title="Tambahkan Hyperlink Comment dan Ekspor sebagai PDF Annotation Menggunakan Aspose.Words untuk .NET" imgSrc="./add-hyperlink-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-comment/" title="Sisipkan Comment pada Paragraf Tertentu dalam Dokumen Word Menggunakan Aspose.Words for .NET" imgSrc="./add-comment/images/thumb.png" >}}
+
+{{< tutorial-card link="./style-comment-text/" title="Terapkan Gaya Kustom pada Teks Komentar dalam Dokumen Word Menggunakan Aspose.Words untuk .NET" imgSrc="./style-comment-text/images/thumb.png" >}}
+
+
+
 | [Tambahkan Komentar](./add-comments/) | Pelajari cara menambahkan komentar ke dokumen Word Anda menggunakan Aspose.Words untuk .NET dengan panduan kami. Tingkatkan proses kolaborasi dokumen Anda dengan mudah. Bahasa Indonesia:
 | [Komentar Jangkar](./anchor-comment/) | Pelajari cara menambahkan komentar jangkar dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk kolaborasi dokumen yang efisien. Bahasa Indonesia:
 | [Tambahkan Hapus Komentar Balas](./add-remove-comment-reply/) Pelajari cara menambahkan dan menghapus balasan komentar dalam dokumen Word menggunakan Aspose.Words untuk .NET. Tingkatkan kolaborasi dokumen Anda dengan panduan langkah demi langkah ini. Bahasa Indonesia:

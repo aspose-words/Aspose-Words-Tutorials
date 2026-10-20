@@ -1,10 +1,11 @@
 ---
-"description": "了解如何在 Aspose.Words for Java 中新增浮水印。自訂文字和圖像浮水印，使文件看起來更專業。"
-"linktitle": "在文件中使用浮水印"
-"second_title": "Aspose.Words Java文件處理API"
-"title": "在 Aspose.Words for Java 中使用浮水印文檔"
-"url": "/zh-hant/java/document-conversion-and-export/using-watermarks-to-documents/"
-"weight": 15
+date: 2026-02-19
+description: 學習如何使用 Aspose.Words for Java 建立帶有浮水印的文件，並加入影像浮水印，以製作專業外觀的文件。
+linktitle: Using Watermarks to Documents
+second_title: Aspose.Words Java Document Processing API
+title: 使用 Aspose.Words for Java 建立帶有浮水印的文件
+url: /zh-hant/java/document-conversion-and-export/using-watermarks-to-documents/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,32 +14,46 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Words for Java 中使用浮水印文檔
+# 使用 Aspose.Words for Java 建立帶浮水印的文件
 
+在本教學中，您將 **create document with watermark**，使用 Aspose.Words for Java API。浮水印（文字或圖片）可協助您將檔案標示為機密、草稿或已核准，且可以程式方式套用至任何 Word 文件。我們將逐步說明如何設定函式庫、加入文字與圖片浮水印、客製化外觀，甚至在不需要時將其移除。
 
-## Aspose.Words for Java 文件浮水印新增簡介
+## 快速解答
+- **浮水印的作用是什麼？** 它會在每一頁覆蓋文字或圖片，以傳達狀態或品牌資訊。  
+- **哪個函式庫在 Java 中加入浮水印？** Aspose.Words for Java 提供內建的浮水印支援。  
+- **我可以加入圖片浮水印嗎？** 可以——使用 `Shape` 類別以及 `add image watermark java` 方法。  
+- **浮水印可以半透明嗎？** 您可以透過 `setSemitransparent` 來控制文字浮水印的透明度。  
+- **需要授權嗎？** 免費試用可用於測試；正式上線需購買商業授權。
 
-在本教學中，我們將探討如何使用 Aspose.Words for Java API 為文件新增浮水印。水印是一種使用文字或圖形標記文件以指示其狀態、機密性或其他相關資訊的有效方法。在本指南中，我們將介紹文字和圖像浮水印。
+## 什麼是浮水印以及為什麼要使用它？
+
+浮水印是一種淡淡的覆蓋層（文字或圖形），會加在文件的每一頁上。它常用於表示 **機密**、**草稿狀態** 或 **品牌**，而不會改變原始內容。以程式方式加入浮水印可確保大量檔案的一致性，並節省手動編輯的時間。
 
 ## 設定 Aspose.Words for Java
 
-在我們開始在文件中新增浮水印之前，我們需要設定 Aspose.Words for Java。請依照以下步驟開始：
+在開始加入浮水印之前，請先確保您的專案已正確設定函式庫：
 
-1. 下載 Aspose.Words for Java [這裡](https://releases。aspose.com/words/java/).
-2. 將 Aspose.Words for Java 程式庫新增至您的 Java 專案。
-3. 在 Java 程式碼中匯入必要的類別。
-
-現在我們已經設定好了庫，讓我們繼續添加水印。
-
-## 新增文字浮水印
-
-當您想要在文件中新增文字資訊時，文字浮水印是常見的選擇。以下是使用 Aspose.Words for Java 新增文字浮水印的方法：
+1. 從 [here](https://releases.aspose.com/words/java/) 下載 Aspose.Words for Java。  
+2. 將下載的 JAR（或 Maven/Gradle 相依性）加入專案的 classpath。  
+3. 在 Java 原始檔中匯入所需的類別：
 
 ```java
-// 建立 Document 實例
+import com.aspose.words.*;
+import java.awt.Color;
+import java.nio.file.*;
+```
+
+現在函式庫已設定完成，讓我們深入實作浮水印程式碼。
+
+## 如何加入文字浮水印
+
+文字浮水印非常適合為文件標示「CONFIDENTIAL」或「DRAFT」。以下程式碼示範如何使用 `TextWatermarkOptions` **create document with watermark**。
+
+```java
+// Create a Document instance
 Document doc = new Document("Document.docx");
 
-// 定義 TextWatermarkOptions
+// Define TextWatermarkOptions
 TextWatermarkOptions options = new TextWatermarkOptions();
 options.setFontFamily("Arial");
 options.setFontSize(36f);
@@ -46,52 +61,59 @@ options.setColor(Color.BLACK);
 options.setLayout(WatermarkLayout.HORIZONTAL);
 options.setSemitransparent(false);
 
-// 設定浮水印文字和選項
+// Set the watermark text and options
 doc.getWatermark().setText("Test", options);
 
-// 儲存帶有浮水印的文檔
+// Save the document with the watermark
 doc.save("DocumentWithWatermark.docx");
 ```
 
-## 新增影像浮水印
+### 自訂文字浮水印
+- **字型與大小** – 變更 `setFontFamily` 與 `setFontSize`。  
+- **顏色** – 使用任意 `java.awt.Color`。  
+- **版面配置** – 選擇 `HORIZONTAL`、`DIAGONAL` 等。  
+- **透明度** – 透過 `setSemitransparent(true)` 取得較淡的效果。
 
-除了文字浮水印之外，您還可以在文件中新增圖像浮水印。添加影像浮水印的方法如下：
+## 如何加入圖片浮水印（add image watermark java）
+
+圖片浮水印非常適合放置商標或自訂圖形。以下是 **add image watermark java** 範例，會在每一頁的中央插入 PNG 圖片。
 
 ```java
-// 建立 Document 實例
+// Create a Document instance
 Document doc = new Document("Document.docx");
 
-// 載入浮水印圖像
+// Load the image for the watermark
 byte[] imageBytes = Files.readAllBytes(Paths.get("watermark.png"));
 Shape watermark = new Shape(doc, ShapeType.IMAGE);
 watermark.getImageData().setImage(imageBytes);
 
-// 設定浮水印大小和位置
+// Set the watermark size and position
 watermark.setWidth(200.0);
 watermark.setHeight(100.0);
 watermark.setRelativeHorizontalPosition(RelativeHorizontalPosition.CENTER);
 watermark.setRelativeVerticalPosition(RelativeVerticalPosition.CENTER);
 
-// 為文件添加浮水印
+// Add the watermark to the document
 doc.getFirstSection().getBody().getFirstParagraph().appendChild(watermark);
 
-// 儲存帶有浮水印的文檔
+// Save the document with the watermark
 doc.save("DocumentWithImageWatermark.docx");
 ```
 
-## 自訂浮水印
+### 圖片浮水印的提示
+- **調整大小** 使用 `setWidth` / `setHeight` 以符合頁面。  
+- **位置** 可置中或依任意邊距對齊，使用 `RelativeHorizontalPosition` / `RelativeVerticalPosition`。  
+- **透明度** 可在載入前調整圖片的 alpha 通道來實現。
 
-您可以透過調整浮水印的外觀和位置來自訂浮水印。對於文字浮水印，您可以變更字體、大小、顏色和版面配置。對於影像浮水印，您可以按照前面的範例所示修改其大小和位置。
+## 如何移除浮水印
 
-## 去除浮水印
-
-若要從文件中刪除浮水印，可以使用以下程式碼：
+當文件不再需要浮水印時，您可以以程式方式將其刪除。以下程式碼會遍歷所有 Shape，移除名稱中含有 “Watermark” 的項目。
 
 ```java
-// 建立 Document 實例
+// Create a Document instance
 Document doc = new Document("DocumentWithWatermark.docx");
 
-// 刪除浮水印
+// Remove the watermark
 for (Shape shape : doc.getShapes())
 {
     if (shape.getName().contains("Watermark"))
@@ -100,48 +122,44 @@ for (Shape shape : doc.getShapes())
     }
 }
 
-// 儲存文檔，不含浮水印
+// Save the document without the watermark
 doc.save("DocumentWithoutWatermark.docx");
 ```
 
+## 常見問題與除錯
 
-## 結論
+- **儲存後浮水印遺失** – 確認在設定浮水印後呼叫 `doc.save()`。  
+- **圖片未顯示** – 檢查圖片路徑是否正確，且檔案格式支援（PNG、JPEG、BMP）。  
+- **透明度未套用** – `setSemitransparent(true)` 只對文字浮水印有效；圖片則需先編輯 PNG 的 alpha 通道。  
+- **多節點文件** – 若文件包含多個節點，請將浮水印加入每個節點的 body，或使用 `doc.getWatermark().setText(...)` 以全域方式套用。
 
-在本教程中，我們學習如何使用 Aspose.Words for Java 為文件添加浮水印。無論您需要添加文字還是圖像浮水印，Aspose.Words 都提供了有效自訂和管理它們的工具。您也可以刪除不再需要的浮水印，確保您的文件乾淨、專業。
+## 常見問答
 
-## 常見問題解答
+**Q: 如何變更文字浮水印的字型？**  
+A: 在 `TextWatermarkOptions` 中修改 `setFontFamily` 屬性，例如 `options.setFontFamily("Times New Roman");`。
 
-### 如何更改文字浮水印的字體？
+**Q: 可以在同一文件加入多個浮水印嗎？**  
+A: 可以。建立多個 `Shape` 物件（圖片）或對每個浮水印呼叫 `doc.getWatermark().setText(...)`，並使用不同的選項。
 
-若要變更文字浮水印的字體，請修改 `setFontFamily` 財產 `TextWatermarkOptions`。例如：
+**Q: 浮水印可以旋轉嗎？**  
+A: 圖片浮水印可在 `Shape` 物件上使用 `watermark.setRotation(angle)` 來設定旋轉角度。文字浮水印則可透過 `setLayout` 屬性（例如 `WatermarkLayout.DIAGONAL`）達成。
 
-```java
-options.setFontFamily("Times New Roman");
-```
+**Q: 如何讓浮水印半透明？**  
+A: 在 `TextWatermarkOptions` 中設定 `options.setSemitransparent(true)`。圖片則需在載入前調整其不透明度。
 
-### 我可以在單一文件中添加多個浮水印嗎？
-
-是的，您可以透過建立多個 `Shape` 具有不同設定的物件並將它們新增至文件中。
-
-### 可以旋轉浮水印嗎？
-
-是的，您可以透過設定 `setRotation` 財產 `Shape` 目的。正值使水印順時針旋轉，負值使水印逆時針旋轉。
-
-### 如何讓水印變成半透明的？
-
-要使水印半透明，請設置 `setSemitransparent` 財產 `true` 在 `TextWatermarkOptions`。
-
-### 我可以在文件的特定部分添加浮水印嗎？
-
-是的，您可以透過遍歷各個部分並將水印新增至所需的部分來將浮水印新增至文件的特定部分。
-
+**Q: 能只在文件的特定節點加入浮水印嗎？**  
+A: 能。遍歷 `doc.getSections()`，僅在需要的節點加入浮水印。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最後更新：** 2026-02-19  
+**測試環境：** Aspose.Words for Java 24.12 (latest)  
+**作者：** Aspose

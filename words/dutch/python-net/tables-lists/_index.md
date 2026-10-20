@@ -4,7 +4,9 @@
 "url": "/nl/python-net/tables-lists/"
 "weight": 5
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Tabellen en lijsten tutorials voor Aspose.Words Python-net
 
 Ontdek uitgebreide stapsgewijze handleidingen voor het bewerken van tabellen en lijsten met Aspose.Words voor Python-net. Deze tutorials bevatten complete codevoorbeelden en gedetailleerde uitleg.
@@ -45,3 +47,7 @@ Leer hoe je tabelcellen efficiënt samenvoegt in Python met Aspose.Words. Deze h
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Gratis ondersteuning](https://forum.aspose.com/)
 - [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

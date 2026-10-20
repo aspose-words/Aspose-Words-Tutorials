@@ -4,7 +4,9 @@
 "url": "/vi/python-net/getting-started/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Hướng dẫn bắt đầu sử dụng Aspose.Words Python-net
 
 Khám phá hướng dẫn từng bước toàn diện để bắt đầu các hoạt động sử dụng Aspose.Words cho Python-net. Các hướng dẫn này bao gồm các ví dụ mã hoàn chỉnh và giải thích chi tiết.
@@ -28,6 +30,9 @@ Tìm hiểu cách triển khai cấp phép theo định mức với Aspose.Words
     ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 Hướng dẫn mã cho Aspose.Words Python-net
 
+### [Xây dựng dự án CMake: Cấu hình, Xây dựng & Kiểm thử](./build-cmake-project-configure-build-test/)
+Hướng dẫn chi tiết cách cấu hình, biên dịch và kiểm thử dự án CMake bằng Aspose.Words cho Python-net.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.Words cho Tài liệu Python-net](https://docs.aspose.com/words/python-net/)
@@ -36,3 +41,7 @@ Hướng dẫn mã cho Aspose.Words Python-net
 - [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Hỗ trợ miễn phí](https://forum.aspose.com/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

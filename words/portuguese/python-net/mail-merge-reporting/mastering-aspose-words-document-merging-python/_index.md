@@ -5,7 +5,9 @@
 "url": "/pt/python-net/mail-merge-reporting/mastering-aspose-words-document-merging-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Domine o Aspose.Words para mesclar documentos em Python: mantenha a numeração de origem e insira nos favoritos
 
 ## Introdução
@@ -181,3 +183,7 @@ Experimente funcionalidades adicionais do Aspose.Words e explore possibilidades 
 - [Comprar uma licença](https://purchase.aspose.com/buy)
 - [Licença de teste gratuita](https://purchase.aspose.com/temporary-license/)
 - [Fórum de Suporte Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

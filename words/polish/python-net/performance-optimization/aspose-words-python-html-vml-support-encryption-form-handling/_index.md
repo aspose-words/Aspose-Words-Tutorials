@@ -5,7 +5,9 @@
 "url": "/pl/python-net/performance-optimization/aspose-words-python-html-vml-support-encryption-form-handling/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Opanowanie optymalizacji HTML za pomocą Aspose.Words dla języka Python: obsługa VML, szyfrowanie i obsługa formularzy
 
 ## Wstęp
@@ -199,3 +201,7 @@ Teraz masz solidne zrozumienie, jak Aspose.Words for Python może być używany 
 
 **P: Jak radzić sobie z dużymi plikami HTML zawierającymi elementy VML?**
 A: Aby efektywnie zarządzać wykorzystaniem zasobów, należy korzystać z przetwarzania wsadowego i selektywnego ładowania.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,45 +1,12 @@
 ---
-date: '2026-08-10'
-description: Aspose.Words for Java를 사용하여 comment java를 추가하는 방법을 배웁니다. 주석을 생성하고, 답글을
-  달고, 인쇄하고, 삭제하고, 완료로 표시하는 단계별 가이드와 UTC timestamps를 가져오는 방법을 제공합니다.
+date: '2025-11-25'
+description: Aspose.Words for Java를 사용하여 주석을 추가하는 방법과 주석 답글을 삭제하는 방법을 배워보세요. 주석 타임스탬프를
+  손쉽게 관리하고, 인쇄하며, 제거하고, 추적할 수 있습니다.
 keywords:
-- how to add comment java
-- comment management Java
-- Aspose.Words comments
-lastmod: '2026-08-10'
-og_description: Aspose.Words for Java를 사용하여 comment java를 추가하는 방법을 배웁니다. 이 가이드는 주석을
-  생성하고, 답글을 달고, 인쇄하고, 삭제하고, 완료로 표시하는 단계별 절차와 UTC timestamps 가져오기를 포함합니다.
-og_image_alt: Guide showing how to add comment java with Aspose.Words in Word documents
-og_title: Aspose.Words for Java를 사용하여 Word 문서에 comment java 추가하는 방법
-schemas:
-- author: Aspose
-  dateModified: '2026-08-10'
-  description: Learn how to add comment java with Aspose.Words for Java. Step‑by‑step
-    guide to create, reply to, print, remove, and mark comments as done, plus retrieve
-    UTC timestamps.
-  headline: How to add comment java using Aspose.Words for Word docs
-  type: TechArticle
-- questions:
-  - answer: No. The trial works for development only; a full license is required for
-      production deployments.
-    question: Can I use Aspose.Words without a license in production?
-  - answer: Yes. Load a protected file by passing the password to the `Document` constructor.
-    question: Does the library support password‑protected documents?
-  - answer: Aspose.Words for Java supports JDK 8 through JDK 21, with full feature
-      parity across versions.
-    question: Which Java versions are compatible?
-  - answer: Comment enumeration runs in linear time; a 1,000‑page document processes
-      in under 2 seconds on a typical 4‑core server.
-    question: How does comment performance scale with document size?
-  - answer: Absolutely. Iterate the `CommentCollection` and write each comment’s properties
-      to CSV, JSON, or XML as needed.
-    question: Can I export comments to a separate file?
-  type: FAQPage
-tags:
-- comment management
-- Aspose.Words
-- Java document processing
-title: Aspose.Words for Java를 사용하여 Word 문서에 comment java 추가하는 방법
+- Aspose.Words Java
+- comment management in Word documents
+- managing comments with Aspose.Words
+title: Aspose.Words와 함께 Java에서 주석 추가하는 방법
 url: /ko/java/annotations-comments/aspose-words-java-comment-management-guide/
 weight: 1
 ---
@@ -50,33 +17,33 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for Word 문서에서 Java 주석 추가 방법
+# Aspose.Words를 사용한 Java 주석 추가 방법
 
-## 소개
-Word 문서에 프로그래밍 방식으로 주석을 추가하면 협업, 코드 검토 또는 자동 보고서 생성이 간소화됩니다. 이 튜토리얼에서는 Aspose.Words 라이브러리를 사용하여 **how to add comment java** 를 수행하는 방법을 배우게 되며, 주석 생성, 답글 달기, 출력, 삭제, 완료 표시 및 UTC 타임스탬프 추출을 다룹니다. 끝까지 진행하면 수동 개입 없이 문서에 풍부한 피드백을 직접 삽입할 수 있습니다.
+Word 문서에서 주석을 프로그래밍으로 관리하는 것은 미로를 헤매는 것처럼 느껴질 수 있습니다. 특히 **how to add comment java**를 깔끔하고 반복 가능한 방식으로 구현해야 할 때 더욱 그렇습니다. 이 튜토리얼에서는 Aspose.Words for Java를 사용하여 주석 추가, 답글 달기, 출력, 삭제, 완료 표시 및 UTC 타임스탬프 추출까지 전체 과정을 단계별로 살펴봅니다. 마지막 섹션에서는 문서를 정리해야 할 때 **how to delete comment replies** 방법도 알려드립니다.
 
 ## 빠른 답변
-- **첫 번째 단계는 무엇인가요?** `new Document("input.docx")` 로 Word 파일을 로드합니다.  
-- **주석에 답글을 달 수 있나요?** 예—`Comment` 객체를 생성하고 `comment.getReplies().add(reply)` 를 호출합니다.  
-- **주석을 완료로 표시하려면 어떻게 하나요?** `comment.setDone(true)` 로 해결된 것으로 플래그를 설정합니다.  
-- **UTC 시간이 제공되나요?** 각 주석은 UTC 기준의 `getDateTime()` 을 저장하며, 이를 직접 읽을 수 있습니다.  
-- **라이선스가 필요합니까?** 개발용으로는 체험판이 작동하지만, 프로덕션에서는 정식 라이선스가 필요합니다.
+- **사용 라이브러리?** Aspose.Words for Java  
+- **주요 작업?** Word 문서에 **how to add comment java**  
+- **주석 답글 삭제 방법?** `removeReply` 또는 `removeAllReplies` 메서드 사용  
+- **전제 조건?** JDK 8+, Maven 또는 Gradle, Aspose.Words 라이선스(체험판도 가능)  
+- **구현 소요 시간?** 기본 주석 워크플로우 기준 약 15‑20분  
 
-## how to add comment Java이란?
-`how to add comment java`는 Java 코드와 Aspose.Words API를 사용하여 Microsoft Word 문서에 프로그래밍 방식으로 주석을 삽입하는 과정을 의미합니다. 이 작업을 통해 문서 중심 워크플로우에서 자동 피드백 루프를 구현할 수 있습니다.
+## “how to add comment java”란?
+Java에서 주석을 추가한다는 것은 `Comment` 노드를 생성하고 이를 단락에 연결한 뒤, 필요에 따라 답글을 추가하는 것을 의미합니다. 이는 협업 문서 검토, 자동 피드백 루프, 콘텐츠 승인 파이프라인의 기본 빌딩 블록입니다.
 
-## 댓글 관리에 Aspose.Words를 사용하는 이유
-Aspose.Words는 **35개 이상의 입력 및 출력 형식**을 지원하며 **500페이지**를 초과하는 문서도 **100 MB** 이하의 메모리 사용량으로 처리할 수 있습니다. 주석 API는 Microsoft Word가 설치되지 않은 환경에서도 작동하므로 헤드리스 환경에서 완전한 제어가 가능하고, Office 자동화 대비 **70 %**까지 라이선스 비용을 절감할 수 있습니다.
+## Aspose.Words를 주석 관리에 사용하는 이유
+- **주석 메타데이터(작성자, 이니셜, 날짜)를 완전 제어**  
+- **다양한 포맷 지원** – DOC, DOCX, ODT, PDF 등과 호환  
+- **Microsoft Office 의존 없음** – 서버‑사이드 JVM 어디서든 실행  
+- **풍부한 API** – 주석을 완료 상태로 표시, 답글 삭제, UTC 타임스탬프 조회 가능  
 
 ## 전제 조건
-- Java Development Kit (JDK) 17 이상이 설치되어 있어야 합니다.
-- IntelliJ IDEA 또는 Eclipse와 같은 IDE.
-- Maven 또는 Gradle을 사용한 종속성 관리.
-- 유효한 Aspose.Words for Java 라이선스(체험판 또는 정식).
+- Java Development Kit (JDK) 8 이상  
+- Maven 또는 Gradle 빌드 도구  
+- IntelliJ IDEA 또는 Eclipse 같은 IDE  
+- Aspose.Words for Java 라이브러리(아래 의존성 스니펫 참고)  
 
-### Aspose.Words for Java 설정
-Aspose.Words는 단일 JAR 파일로 제공됩니다. 사용 중인 빌드 도구에 맞는 종속성을 추가하십시오.
-
+### Aspose.Words 의존성 추가
 **Maven:**  
 ```xml
 <dependency>
@@ -92,37 +59,43 @@ implementation 'com.aspose:aspose-words:25.3'
 ```  
 
 #### 라이선스 획득
-Aspose.Words는 상용 제품이며, 무료 체험판으로 시작하거나 전체 기능 접근을 위한 임시 라이선스를 요청할 수 있습니다. 라이선스 옵션을 확인하려면 [purchase page](https://purchase.aspose.com/buy) 를 방문하십시오.
+Aspose.Words는 상용 제품입니다. 무료 30일 체험판을 사용하거나 평가용 임시 라이선스를 요청할 수 있습니다. 자세한 내용은 [구매 페이지](https://purchase.aspose.com/buy) 를 참고하세요.
 
-## Aspose.Words를 사용하여 Java에서 주석을 추가하는 방법
-문서를 로드하고 `Comment` 객체를 생성한 뒤 `Paragraph`에 연결합니다. 이 두 단계 패턴은 원하는 위치에 주석을 삽입하며, 이후 모든 작업의 기반이 됩니다. 작성자, 텍스트 및 타임스탬프를 지정하면 검토자에게 즉시 컨텍스트를 제공하고, 주석은 문서 구조의 일부가 됩니다.
+## Aspose.Words로 Comment Java 추가 – 단계별 가이드
 
-`Document` 클래스는 메모리 내에서 단일 Word 파일을 나타내는 Aspose.Words의 최상위 객체입니다. 인스턴스화 후 모든 읽기/쓰기 작업은 이 객체를 통해 이루어집니다.  
+### 기능 1: 답글이 포함된 주석 추가
+**개요** – **how to add comment java**의 핵심 패턴을 보여주며 답글을 첨부합니다.
+
+#### 구현 단계
+**Step 1:** Document 객체 초기화  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
 ```  
 
-다음으로 실제 주석을 생성합니다. `Comment` 클래스는 작성자, 텍스트 및 타임스탬프 정보를 저장합니다.  
+**Step 2:** 주석 생성 및 추가  
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
 ```  
 
-마지막으로 주석의 `Replies` 컬렉션을 사용해 답글을 추가합니다. `Comment` 객체는 답글 계층 구조를 자동으로 추적합니다.  
+**Step 3:** 주석에 답글 추가  
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
 ```  
 
-## 모든 주석 및 해당 답글을 출력하는 방법
-문서의 `CommentCollection` 을 순회하면서 각 주석의 텍스트, 작성자 및 UTC 타임스탬프를 출력합니다. 답글은 각 주석 내부에 중첩되어 있어 전체 대화 스레드를 표시할 수 있습니다. 컬렉션을 재귀적으로 탐색하면 계층 구조를 유지하면서 로그 또는 UI용 출력 형식을 지정하고, 필요에 따라 작성자나 날짜별로 필터링할 수 있습니다.  
+### 기능 2: 모든 주석 출력
+**개요** – 최상위 주석과 그 답글을 모두 조회하여 검토합니다.
+
+#### 구현 단계
+**Step 1:** 문서 로드  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
 ```  
 
-간단한 루프를 사용해 컬렉션을 순회하고 상세 정보를 출력합니다.  
+**Step 2:** 주석 조회 및 출력  
 ```java
 NodeCollection<Comment> comments = doc.getChildNodes(NodeType.COMMENT, true);
 for (Comment comment : (Iterable<Comment>) comments) {
@@ -136,8 +109,11 @@ for (Comment comment : (Iterable<Comment>) comments) {
 }
 ```  
 
-## 주석 답글 제거 방법
-특정 답글을 삭제하거나 주석의 모든 답글을 정리할 수 있습니다. 피드백이 반영된 후 문서를 깔끔하게 유지하려면 답글을 제거하십시오. 대상 삭제는 `getReplies().remove(index)` 메서드를 사용하고, 전체 삭제는 `clear()` 로 수행하여 고아 답글이 남지 않도록 합니다.  
+### 기능 3: Java에서 주석 답글 삭제 방법
+**개요** – 문서를 깔끔하게 유지하기 위해 **how to delete comment replies** 를 보여줍니다.
+
+#### 구현 단계
+**Step 1:** 답글이 포함된 주석 초기화 및 추가  
 ```java
 Document document = new Document();
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
@@ -147,14 +123,17 @@ comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
 ```  
 
-`comment.getReplies().clear()` 를 호출하거나 인덱스로 개별 답글을 제거합니다.  
+**Step 2:** 답글 삭제  
 ```java
 comment.removeReply(comment.getReplies().get(0)); // Remove one reply
 comment.removeAllReplies(); // Remove all remaining replies
-```  
+```
 
-## 주석을 완료로 표시하는 방법
-주석의 `Done` 플래그를 설정하면 해당 이슈가 해결되었음을 나타냅니다. 이 시각적 표시는 검토자와 후속 처리 도구에 유용합니다. `setDone(true)` 가 호출되면 Word는 주석 옆에 체크 표시를 보여주며, 이후 플래그를 조회해 미해결 항목 보고서를 생성할 수 있습니다.  
+### 기능 4: 주석을 완료 상태로 표시
+**개요** – 해결된 이슈를 추적하기 위해 주석을 완료(Resolved) 상태로 플래그합니다.
+
+#### 구현 단계
+**Step 1:** Document 생성 및 주석 추가  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
@@ -163,7 +142,7 @@ Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
 ```  
 
-주석 내용을 처리한 후 플래그를 적용합니다.  
+**Step 2:** 주석을 완료 상태로 표시  
 ```java
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
@@ -171,8 +150,11 @@ comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
 ```  
 
-## 주석에서 UTC 날짜와 시간 가져오기
-각 주석은 UTC 기준의 생성 시간을 `getDateTime()` 으로 저장합니다. 이 타임스탬프는 감사 추적 및 버전 관리에 필수적입니다. 반환된 `DateTime` 객체는 ISO‑8601 패턴으로 포맷할 수 있어 피드백 시점을 정확히 기록하고 분산 시스템 간에 주석 데이터를 동기화할 수 있습니다.  
+### 기능 5: 주석의 UTC 날짜 및 시간 가져오기
+**개요** – 감사 로그에 이상적인 정확한 UTC 타임스탬프를 조회합니다.
+
+#### 구현 단계
+**Step 1:** 타임스탬프가 포함된 주석을 가진 Document 생성  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
@@ -182,7 +164,7 @@ comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
 ```  
 
-ISO‑8601 형식으로 타임스탬프를 포맷하면 로그 기록이 용이합니다.  
+**Step 2:** UTC 날짜 저장 및 조회  
 ```java
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
@@ -190,60 +172,50 @@ Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
 ```  
 
-## 실용적인 적용 사례
-이 API들을 이해하면 다음과 같은 견고한 솔루션을 구축할 수 있습니다:
-- **협업 편집 플랫폼** – 생성된 보고서에 직접 피드백 루프를 삽입.  
-- **자동 검토 파이프라인** – 인간 개입 없이 주석을 플래그, 해결 및 감사.  
-- **규정 준수 문서** – 규제 감사를 위한 검토자 타임스탬프 캡처.
+## 실용적인 활용 사례
+- **협업 편집:** 팀이 자동 생성 보고서에 직접 주석 및 답글을 추가할 수 있습니다.  
+- **문서 검토 워크플로우:** 주석을 완료 상태로 표시해 이슈 해결을 명시합니다.  
+- **감사 및 규정 준수:** UTC 타임스탬프는 피드백 입력 시점을 불변하게 기록합니다.  
 
 ## 성능 고려 사항
-대용량 파일(500 페이지 이상)을 처리할 때는 다음 모범 사례를 따르세요:
-- 메모리 사용을 최소화하려면 주석을 배치 단위로 처리합니다.  
-- 저장 전 `Document.optimizeResources()` 로 문서를 축소합니다.  
-- Aspose.Words를 최신 버전으로 유지하십시오; 버전 24.12에서는 주석 열거 속도가 30 % 향상되었습니다.
+- 매우 큰 파일에서는 메모리 급증을 방지하기 위해 주석을 배치 단위로 처리하세요.  
+- 여러 작업을 수행할 때는 단일 `Document` 인스턴스를 재사용합니다.  
+- 최신 릴리스의 성능 최적화를 활용하려면 Aspose.Words를 최신 버전으로 유지하세요.  
 
 ## 결론
-이제 Aspose.Words를 사용한 **how to add comment java** 에 대한 전체 툴킷을 갖추었습니다: 주석 생성, 답글 달기, 출력, 삭제, 완료 표시 및 UTC 타임스탬프 추출. 이러한 스니펫을 기존 Java 서비스에 통합해 피드백을 자동화하고 검토 정책을 시행하며 깔끔한 감사 추적을 유지하십시오.
+이제 Aspose.Words를 사용해 **how to add comment java** 를 구현하고, **how to delete comment replies** 방법을 익혔으며, 주석의 전체 수명 주기(생성 → 해결 → 타임스탬프 추출)를 관리할 수 있습니다. 이러한 스니펫을 기존 Java 서비스에 통합해 검토 사이클을 자동화하고 문서 거버넌스를 향상시키세요.
 
 **다음 단계**
-- 작성자 또는 날짜별로 주석을 필터링하는 실험을 해보세요.  
-- 전체 개정 제어를 위해 Aspose.Words “변경 내용 추적” API와 주석 관리를 결합하십시오.  
-- 주석 데이터를 JSON으로 내보내어 하위 분석에 활용하십시오.
+- 작성자 또는 날짜별로 주석을 필터링해 보세요.  
+- 주석 관리와 문서 변환(DOCX → PDF)을 결합해 자동 보고 파이프라인을 구축해 보세요.  
 
 ## 자주 묻는 질문
 
-**Q: 프로덕션에서 라이선스 없이 Aspose.Words를 사용할 수 있나요?**  
-A: 아닙니다. 체험판은 개발 용도로만 사용할 수 있으며, 프로덕션 배포에는 정식 라이선스가 필요합니다.
+**Q: 비밀번호로 보호된 문서에도 이 API를 사용할 수 있나요?**  
+A: 예. 비밀번호를 포함한 `LoadOptions` 로 문서를 로드하면 됩니다.
 
-**Q: 라이브러리가 암호로 보호된 문서를 지원하나요?**  
-A: 예. `Document` 생성자에 비밀번호를 전달하여 보호된 파일을 로드할 수 있습니다.
+**Q: Aspose.Words가 Microsoft Office 설치를 필요로 하나요?**  
+A: 아니요. 라이브러리는 완전히 독립적이며 Java를 지원하는 모든 플랫폼에서 동작합니다.
 
-**Q: 어떤 Java 버전과 호환되나요?**  
-A: Aspose.Words for Java는 JDK 8부터 JDK 21까지 지원하며, 버전 간 기능 차이는 없습니다.
+**Q: 존재하지 않는 답글을 삭제하려 하면 어떻게 되나요?**  
+A: `removeReply` 메서드는 `IllegalArgumentException`을 발생시킵니다. 컬렉션 크기를 먼저 확인하세요.
 
-**Q: 문서 크기에 따라 주석 성능은 어떻게 확장되나요?**  
-A: 주석 열거는 선형 시간에 수행됩니다; 1,000페이지 문서는 일반적인 4코어 서버에서 2 초 이하로 처리됩니다.
+**Q: 문서에 포함될 수 있는 주석 수에 제한이 있나요?**  
+A: 실질적인 제한은 없지만, 매우 많은 주석은 성능에 영향을 줄 수 있으니 청크 단위로 처리하는 것을 권장합니다.
 
-**Q: 주석을 별도 파일로 내보낼 수 있나요?**  
-A: 물론 가능합니다. `CommentCollection` 을 순회하면서 각 주석의 속성을 CSV, JSON 또는 XML 형식으로 기록하면 됩니다.
+**Q: 주석을 CSV 파일로 내보내려면 어떻게 해야 하나요?**  
+A: 주석 컬렉션을 순회하면서 속성(작성자, 텍스트, 날짜)을 추출하고 표준 Java I/O 로 파일에 기록하면 됩니다.
 
 ---
 
-**Last Updated:** 2026-08-10  
-**Tested With:** Aspose.Words for Java 24.12  
-**Author:** Aspose  
-
-{{< blocks/products/products-backtop-button >}}
-
-## 관련 튜토리얼
-
-- [Aspose.Words for Java 튜토리얼에서 주석 및 코멘트 마스터하기](/words/java/annotations-comments/)
-- [Aspose.Words Java를 사용한 Word 문서 변경 내용 추적: 문서 개정에 대한 완전 가이드](/words/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/)
-- [Aspose.Words Java: Word 문서 처리에 대한 종합 가이드](/words/java/document-operations/aspose-words-java-master-word-processing/)
-
+**마지막 업데이트:** 2025-11-25  
+**테스트 환경:** Aspose.Words for Java 25.3  
+**작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

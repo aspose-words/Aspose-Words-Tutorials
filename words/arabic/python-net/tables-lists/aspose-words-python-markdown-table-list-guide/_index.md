@@ -5,7 +5,9 @@
 "url": "/ar/python-net/tables-lists/aspose-words-python-markdown-table-list-guide/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # إتقان Aspose.Words في بايثون: دليل شامل لتنسيق جداول وقوائم Markdown
 
 ## مقدمة
@@ -185,3 +187,7 @@
 ## خاتمة
 
 بإتقان Aspose.Words للغة بايثون، يمكنك تحسين قدرتك على إنشاء مستندات Markdown ومعالجتها باستخدام جداول وقوائم معقدة بشكل ملحوظ. سواء كنت تعمل على وثائق تقنية أو مشاريع تعاونية، ستُبسّط هذه الأدوات سير عمل مستنداتك وتُحسّن قابلية قراءتها.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

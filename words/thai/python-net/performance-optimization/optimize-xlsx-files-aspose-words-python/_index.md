@@ -5,7 +5,9 @@
 "url": "/th/python-net/performance-optimization/optimize-xlsx-files-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # เพิ่มประสิทธิภาพไฟล์ Excel ด้วย Aspose.Words สำหรับ Python: เทคนิคการบีบอัดและการปรับแต่ง
 
 ค้นพบเทคนิคอันทรงพลังในการบีบอัด จัดระเบียบ และปรับปรุงประสิทธิภาพของเอกสาร Excel ของคุณอย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Python บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการเพิ่มประสิทธิภาพไฟล์ XLSX โดยการลดขนาดไฟล์ บันทึกหลายส่วนเป็นเวิร์กชีตแยกต่างหาก และเปิดใช้งานการตรวจจับรูปแบบวันที่และเวลาโดยอัตโนมัติ
@@ -174,3 +176,7 @@ doc.save(file_name=YOUR_OUTPUT_DIRECTORY + 'DateTimeParsingModeOutput.xlsx', sav
 - **ทดลองใช้งานฟรี**- [ทดลองใช้ Aspose ฟรี](https://releases.aspose.com/words/python/)
 - **ใบอนุญาตชั่วคราว**- [รับใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 - **สนับสนุน**- [การสนับสนุนฟอรั่ม Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

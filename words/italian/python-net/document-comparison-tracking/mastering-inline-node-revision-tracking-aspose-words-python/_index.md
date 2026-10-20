@@ -5,7 +5,9 @@
 "url": "/it/python-net/document-comparison-tracking/mastering-inline-node-revision-tracking-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Padroneggiare il monitoraggio delle revisioni dei nodi in linea in Python con Aspose.Words
 
 ## Introduzione
@@ -127,3 +129,7 @@ Ora hai imparato a tracciare le revisioni dei nodi inline utilizzando Aspose.Wor
 - [Prova gratuita e licenze temporanee](https://purchase.aspose.com/temporary-license/)
 - [Forum di supporto Aspose](https://forum.aspose.com/c/words/10)
 Ci auguriamo che questa guida ti aiuti a gestire efficacemente le revisioni dei documenti utilizzando Aspose.Words in Python. Buon lavoro!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

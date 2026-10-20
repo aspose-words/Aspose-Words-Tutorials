@@ -5,7 +5,9 @@
 "url": "/hu/python-net/integration-interoperability/master-odt-schema-units-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # ODT séma és egységek elsajátítása Aspose.Words segítségével Pythonban
 
 ## Bevezetés
@@ -165,3 +167,7 @@ Az ODT sémabeállítások és mértékegység-konfigurációk elsajátításáv
 - **Ingyenes próbaverzió**Kezdje egy ingyenes próbaverzióval a következő címen: [Aspose letöltések Pythonhoz](https://releases.aspose.com/words/python/)
 - **Ideiglenes engedély**Jelentkezés itt: [Aspose ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 - **Támogatás**Csatlakozz a beszélgetéshez a következőn: [Aspose Fórum](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,0 +1,7 @@
+Title: Insert OleControlType.CommandButton example in Word
+Slug: insert-olecontroltype-commandbutton-example-in-word
+Category: working-with-oleobjects-and-activex
+ProcessedDate: 2026-08-17T18:31:11.602614
+SourceRepo: AI Search API
+Keywords: insert olecontroltype.commandbutton example, how to add form controls to word document
+PRNumber: 255

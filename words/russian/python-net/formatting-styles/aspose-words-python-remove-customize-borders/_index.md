@@ -5,7 +5,9 @@
 "url": "/ru/python-net/formatting-styles/aspose-words-python-remove-customize-borders/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Освоение границ абзацев в Python с помощью Aspose.Words: полное руководство
 
 ## Введение
@@ -179,3 +181,7 @@ doc.save('YOUR_OUTPUT_DIRECTORY/BorderCollection.get_borders_enumerator.docx')
 - **Бесплатная пробная версия**: [Начать бесплатно](https://releases.aspose.com/words/python/)
 - **Временная лицензия**: [Получить временную лицензию](https://purchase.aspose.com/temporary-license/)
 - **Поддерживать**: [Форум Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

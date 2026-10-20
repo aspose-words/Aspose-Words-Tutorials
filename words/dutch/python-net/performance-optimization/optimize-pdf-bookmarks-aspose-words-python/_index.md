@@ -5,7 +5,9 @@
 "url": "/nl/python-net/performance-optimization/optimize-pdf-bookmarks-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Titel: PDF-bladwijzeroptimalisatie onder de knie krijgen met Aspose.Words voor Python
 
 ## Invoering
@@ -180,3 +182,7 @@ Klaar om je PDF's te verbeteren? Begin vandaag nog met het implementeren van dez
 - **Steun**Krijg hulp van de community op [Aspose Forum](https://forum.aspose.com/c/words/10)
 
 Deze gids heeft je de kennis gegeven om PDF-bladwijzers te optimaliseren met Aspose.Words voor Python. Veel plezier met coderen!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

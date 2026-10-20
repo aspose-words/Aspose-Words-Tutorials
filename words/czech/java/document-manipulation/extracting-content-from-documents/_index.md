@@ -1,10 +1,13 @@
 ---
-"description": "Naučte se, jak snadno extrahovat obsah z dokumentů pomocí Aspose.Words pro Javu. Náš podrobný návod a ukázky kódu vám celý proces zjednoduší."
-"linktitle": "Extrakce obsahu z dokumentů"
-"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
-"title": "Extrakce obsahu z dokumentů v Aspose.Words pro Javu"
-"url": "/cs/java/document-manipulation/extracting-content-from-documents/"
-"weight": 13
+date: 2026-01-01
+description: Naučte se, jak extrahovat text pomocí Aspose.Words pro Javu. Tento krok‑za‑krokem
+  průvodce ukazuje různé techniky extrakce s připravenými ukázkovými kódy, které lze
+  okamžitě spustit.
+linktitle: Extracting Content from Documents
+second_title: Aspose.Words Java Document Processing API
+title: Jak extrahovat text pomocí Aspose.Words pro Javu
+url: /cs/java/document-manipulation/extracting-content-from-documents/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,25 +16,28 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Extrakce obsahu z dokumentů v Aspose.Words pro Javu
+# Jak extrahovat text pomocí Aspose.Words pro Java
 
+## Jak extrahovat text pomocí Aspose.Words pro Java
 
-## Úvod do extrakce obsahu z dokumentů v Aspose.Words pro Javu
+Ve světě zpracování dokumentů je **how to extract text using Aspose.Words** častou otázkou pro vývojáře Java. Ať už potřebujete získat prostý text, tabulky, obrázky nebo konkrétní prvky jako záložky či komentáře, Aspose.Words pro Java nabízí bohaté API, které práci usnadňuje. V tomto průvodci projdeme desítky scénářů extrakce, vysvětlíme, proč je každý přístup důležitý, a poskytneme připravené ukázky kódu, které můžete vložit do svého projektu.
 
-Ve světě zpracování dokumentů je extrakce obsahu z dokumentů běžným požadavkem. Ať už potřebujete extrahovat text, tabulky, obrázky nebo konkrétní prvky dokumentu, Aspose.Words pro Javu poskytuje výkonné nástroje, které tento úkol usnadňují. V této komplexní příručce vás provedeme procesem extrakce obsahu z dokumentů pomocí Aspose.Words pro Javu. 
+## Rychlé odpovědi
+- **Jaká knihovna potřebuji?** Aspose.Words for Java (download from the official site).  
+- **Mohu extrahovat jen prostý text?** Yes – use `Document.getText()` or `DocumentBuilder` with fields.  
+- **Je možné extrahovat mezi záložkami?** Absolutely, use `BookmarkStart`/`BookmarkEnd` with `ExtractContentHelper`.  
+- **Potřebuji licenci pro produkci?** A commercial license is required for non‑trial use.  
+- **Které verze Javy jsou podporovány?** Java 8 and newer are fully compatible.
 
-## Předpoklady
+## Požadavky
 
-Než se pustíme do procesu extrakce, ujistěte se, že máte splněny následující předpoklady:
+1. **Aspose.Words for Java** – nainstalujte knihovnu a přidejte ji do svého projektu. Můžete si ji stáhnout z [here](https://releases.aspose.com/words/java/).  
+2. **Ukázkový dokument** – pro příklady použijeme soubor pojmenovaný `Extract content.docx`. Umístěte jej do složky, na kterou můžete odkazovat ve svém kódu.
 
-1. Aspose.Words pro Javu: Měli byste mít Aspose.Words pro Javu nainstalovaný a nastavený ve vašem vývojovém prostředí Java. Můžete si ho stáhnout z [zde](https://releases.aspose.com/words/java/).
-
-2. Dokument pro extrakci obsahu: V této příručce použijeme vzorový dokument s názvem „Extrahovat obsah.docx“. Ujistěte se, že máte připravený podobný dokument pro extrakci.
-
-## Extrakce obsahu mezi uzly na úrovni bloků
+## Extrahování obsahu mezi blokovými uzly
 
 ```java
-// Ukázka kódu v Javě pro extrakci obsahu mezi uzly na úrovni bloků
+// Java code sample for extracting content between block-level nodes
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph startPara = (Paragraph) doc.getLastSection().getChild(NodeType.PARAGRAPH, 2, true);
 Table endTable = (Table) doc.getLastSection().getChild(NodeType.TABLE, 0, true);
@@ -44,10 +50,10 @@ while (extractedNodes.size() > 0) {
 doc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenBlockLevelNodes.docx");
 ```
 
-## Extrakce obsahu mezi záložkami
+## Extrahování obsahu mezi záložkami
 
 ```java
-// Ukázka kódu v Javě pro extrakci obsahu mezi záložkami
+// Java code sample for extracting content between bookmarks
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Bookmark bookmark = doc.getRange().getBookmarks().get("Bookmark1");
 BookmarkStart bookmarkStart = bookmark.getBookmarkStart();
@@ -60,10 +66,10 @@ dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodesExclusive);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenBookmark.WithoutBookmark.docx");
 ```
 
-## Extrakce obsahu mezi rozsahy komentářů
+## Extrahování obsahu mezi oblastmi komentářů
 
 ```java
-// Ukázka kódu v Javě pro extrakci obsahu mezi rozsahy komentářů
+// Java code sample for extracting content between comment ranges
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 CommentRangeStart commentStart = (CommentRangeStart) doc.getChild(NodeType.COMMENT_RANGE_START, 0, true);
 CommentRangeEnd commentEnd = (CommentRangeEnd) doc.getChild(NodeType.COMMENT_RANGE_END, 0, true);
@@ -75,10 +81,10 @@ dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodesExclusive);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenCommentRange.WithoutComment.docx");
 ```
 
-## Extrakce obsahu mezi odstavci
+## Extrahování obsahu mezi odstavci
 
 ```java
-// Ukázka kódu v Javě pro extrakci obsahu mezi odstavci
+// Java code sample for extracting content between paragraphs
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph startPara = (Paragraph) doc.getFirstSection().getBody().getChild(NodeType.PARAGRAPH, 6, true);
 Paragraph endPara = (Paragraph) doc.getFirstSection().getBody().getChild(NodeType.PARAGRAPH, 10, true);
@@ -87,10 +93,10 @@ Document dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodes);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenParagraphs.docx");
 ```
 
-## Extrakce obsahu mezi styly odstavců
+## Extrahování obsahu mezi styly odstavců
 
 ```java
-// Ukázka kódu v Javě pro extrakci obsahu mezi styly odstavců
+// Java code sample for extracting content between paragraph styles
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 ArrayList<Paragraph> parasStyleHeading1 = ExtractContentHelper.paragraphsByStyleName(doc, "Heading 1");
 ArrayList<Paragraph> parasStyleHeading3 = ExtractContentHelper.paragraphsByStyleName(doc, "Heading 3");
@@ -101,10 +107,10 @@ Document dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodes);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenParagraphStyles.docx");
 ```
 
-## Extrakce obsahu mezi spuštěními
+## Extrahování obsahu mezi běhy
 
 ```java
-// Ukázka kódu Java pro extrakci obsahu mezi spuštěními
+// Java code sample for extracting content between runs
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 7, true);
 Run startRun = para.getRuns().get(1);
@@ -114,20 +120,20 @@ Node node = (Node) extractedNodes.get(0);
 System.out.println(node.toString());
 ```
 
-## Extrakce obsahu pomocí DocumentVisitor
+## Extrahování obsahu pomocí DocumentVisitor
 
 ```java
-// Ukázka kódu v Javě pro extrakci obsahu pomocí DocumentVisitor
+// Java code sample for extracting content using DocumentVisitor
 Document doc = new Document("Your Directory Path" + "Absolute position tab.docx");
 MyDocToTxtWriter myConverter = new MyDocToTxtWriter();
 doc.accept(myConverter);
 System.out.println(myConverter.getText());
 ```
 
-## Extrakce obsahu pomocí pole
+## Extrahování obsahu pomocí Field
 
 ```java
-// Ukázka kódu Java pro extrakci obsahu pomocí Field
+// Java code sample for extracting content using Field
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.moveToMergeField("Fullname", false, false);
@@ -138,10 +144,10 @@ Document dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodes);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentUsingField.docx");
 ```
 
-## Extrahování obsahu
+## Extrahování obsahu (obsah)
 
 ```java
-// Ukázka kódu v Javě pro extrakci obsahu
+// Java code sample for extracting table of contents
 Document doc = new Document("Your Directory Path" + "Table of contents.docx");
 for (Field field : doc.getRange().getFields()) {
     if (field.getType() == FieldType.FIELD_HYPERLINK) {
@@ -161,7 +167,7 @@ for (Field field : doc.getRange().getFields()) {
 ## Extrahování pouze textu
 
 ```java
-// Ukázka kódu v Javě pro extrakci pouze textu
+// Java code sample for extracting text only
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.insertField("MERGEFIELD Field");
@@ -169,10 +175,10 @@ System.out.println("GetText() Result: " + doc.getText());
 System.out.println("ToString() Result: " + doc.toString());
 ```
 
-## Extrakce obsahu na základě stylů
+## Extrahování obsahu na základě stylů
 
 ```java
-// Ukázka kódu v Javě pro extrakci obsahu na základě stylů
+// Java code sample for extracting content based on styles
 Document doc = new Document("Your Directory Path" + "Styles.docx");
 final String PARA_STYLE = "Heading 1";
 final String RUN_STYLE = "Intense Emphasis";
@@ -207,10 +213,10 @@ public ArrayList<Run> runsByStyleName(Document doc, String styleName) {
 }
 ```
 
-## Extrakce a tisk textu
+## Extrahování a tisk textu
 
 ```java
-// Ukázka kódu v Javě pro extrakci a tisk textu
+// Java code sample for extracting and printing text
 Document doc = new Document("Your Directory Path" + "Tables.docx");
 Table table = (Table) doc.getChild(NodeType.TABLE, 0, true);
 System.out.println("Contents of the table: ");
@@ -224,7 +230,7 @@ System.out.println(table.getLastRow().getLastCell().getRange().getText());
 ## Extrahování obrázků do souborů
 
 ```java
-// Ukázka kódu v Javě pro extrakci obrázků do souborů
+// Java code sample for extracting images to files
 Document doc = new Document("Your Directory Path" + "Images.docx");
 NodeCollection shapes = doc.getChildNodes(NodeType.SHAPE, true);
 int imageIndex = 0;
@@ -240,37 +246,35 @@ for (Shape shape : (Iterable<Shape>) shapes) {
 
 ## Závěr
 
-Gratulujeme! Naučili jste se, jak extrahovat obsah z dokumentů pomocí Aspose.Words pro Javu. Tato příručka pokrývala různé techniky extrakce, včetně obsahu mezi uzly na úrovni bloků, záložkami, rozsahy komentářů, odstavci a dalšími. Nyní jste vybaveni k efektivní extrakci obsahu dokumentů ve vašich aplikacích Java.
+Gratulujeme! Nyní máte solidní sadu nástrojů pro **how to extract text using Aspose.Words** v Javě. Od blokových uzlů po záložky, komentáře, styly a dokonce i obrázky vám API poskytuje jemnou kontrolu nad tím, co z dokumentu vytáhnete. Použijte tyto úryvky jako základ, přizpůsobte je své vlastní struktuře souborů a automatizujte proces extrakce napříč velkými sadami dokumentů.
 
 ## Často kladené otázky
 
-### Jak extrahovat obsah z konkrétních sekcí dokumentu?
+**Q: Jak mohu extrahovat obsah z dokumentu chráněného heslem?**  
+A: Načtěte dokument pomocí konstruktoru s heslem: `new Document(path, new LoadOptions("password"))`, pak spusťte libovolnou z výše uvedených metod extrakce.
 
-Chcete-li extrahovat obsah z konkrétních sekcí dokumentu, můžete identifikovat počáteční a koncové body sekcí a použít příslušné metody Aspose.Words pro Javu k extrakci obsahu mezi nimi.
+**Q: Mohu extrahovat obsah z více dokumentů v jednom běhu?**  
+A: Ano. Projděte seznam cest k souborům, vytvořte `Document` pro každý a aplikujte stejnou logiku extrakce uvnitř smyčky.
 
-### Mohu extrahovat obsah z dokumentů chráněných heslem?
+**Q: Existuje způsob, jak extrahovat jen viditelný text (ignorovat skrytý nebo kódy polí)?**  
+A: Použijte `doc.getText()` pro prostý viditelný text. Pro větší kontrolu iterujte přes uzly a filtrujte podle `NodeType.RUN` a `Run.getFont().getHidden()`.
 
-Ano, Aspose.Words pro Javu nabízí funkce pro extrakci obsahu z dokumentů chráněných heslem. Heslo můžete zadat při otevírání dokumentu pomocí `Document` konstruktor třídy.
+**Q: Do jakých formátů mohu uložit extrahovaný obsah?**  
+A: Po extrakci můžete `Document` uložit jako DOCX, PDF, HTML, TXT nebo jakýkoli formát podporovaný Aspose.Words pomocí `doc.save("output.pdf")`.
 
-### Jak mohu extrahovat obsah a uložit ho v různých formátech, například jako prostý text nebo HTML?
+**Q: Podporuje Aspose.Words extrahování obsahu z velkých (stovky MB) souborů?**  
+A: Ano, ale zvažte použití `LoadOptions` s `LoadFormat` a `MemoryOptimization` pro snížení spotřeby paměti.
 
-Pomocí Aspose.Words pro Javu můžete extrahovat obsah z dokumentu a ukládat jej v různých formátech. Po extrahování obsahu můžete použít `Document` metody třídy pro uložení ve formátech jako prostý text, HTML nebo jiné.
+---
 
-### Existuje způsob, jak extrahovat obsah z konkrétních prvků dokumentu, jako jsou tabulky nebo obrázky?
-
-Ano, pomocí Aspose.Words pro Javu můžete extrahovat obsah z konkrétních prvků dokumentu, jako jsou tabulky nebo obrázky. Identifikujte prvky, které chcete extrahovat, a poté použijte vhodné metody k extrakci jejich obsahu.
-
-### Jak mohu automatizovat proces extrakce obsahu v mé aplikaci Java?
-
-Chcete-li automatizovat proces extrakce obsahu ve vaší aplikaci Java, můžete si vytvořit vlastní kód založený na technikách popsaných v této příručce. Můžete také implementovat logiku pro iteraci více dokumentů a extrakci obsahu podle potřeby.
-
+**Poslední aktualizace:** 2026-01-01  
+**Testováno s:** Aspose.Words for Java 24.12  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

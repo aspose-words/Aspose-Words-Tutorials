@@ -1,69 +1,14 @@
 ---
-date: '2026-08-10'
-description: Erfahren Sie, wie Sie die Aspose Words Maven dependency hinzufügen und
-  die document manipulation mit Aspose.Words für Java meistern, einschließlich page
-  backgrounds und node import.
+date: '2025-11-26'
+description: Erfahren Sie, wie Sie die Seitenhintergrundfarbe mit Aspose.Words für
+  Java festlegen, die Seitenfarbe in Word‑Dokumenten ändern, Dokumentabschnitte zusammenführen
+  und Abschnitte effizient aus einem Dokument importieren.
 keywords:
-- aspose words maven dependency
-- set page background color
-- customize import format
-- add shape as background
-- apply background color
-lastmod: '2026-08-10'
-og_description: Fügen Sie die Aspose Words Maven dependency hinzu und meistern Sie
-  die document manipulation in Java, einschließlich der Festlegung von page background
-  color und dem Import von nodes.
-og_image_alt: Guide showing Aspose Words Maven setup and document background customization
-  in Java
-og_title: Aspose Words Maven Dependency – Leitfaden für Java document manipulation
-schemas:
-- author: Aspose
-  dateModified: '2026-08-10'
-  description: Learn how to add the Aspose Words Maven dependency and master document
-    manipulation using Aspose.Words for Java, including page backgrounds and node
-    import.
-  headline: Aspose Words Maven Dependency – Java document manipulation
-  type: TechArticle
-- description: Learn how to add the Aspose Words Maven dependency and master document
-    manipulation using Aspose.Words for Java, including page backgrounds and node
-    import.
-  name: Aspose Words Maven Dependency – Java document manipulation
-  steps:
-  - name: '**Free trial** – Register on the Aspose website for a 30‑day trial key.'
-    text: '**Free trial** – Register on the Aspose website for a 30‑day trial key.'
-  - name: '**Temporary license** – Use the trial key to generate a temporary license
-      file for full‑feature evaluation.'
-    text: '**Temporary license** – Use the trial key to generate a temporary license
-      file for full‑feature evaluation.'
-  - name: '**Purchase** – Buy a perpetual license to remove evaluation limits and
-      receive priority support.'
-    text: '**Purchase** – Buy a perpetual license to remove evaluation limits and
-      receive priority support.'
-  type: HowTo
-- questions:
-  - answer: No. The `aspose-words` artifact includes built‑in support for PDF, DOCX,
-      HTML, and over 30 other formats.
-    question: Do I need a separate Maven artifact for PDF support?
-  - answer: Yes, load the saved file, call `setPageColor()` again, and re‑save; the
-      operation is fast because Aspose.Words works directly on the file stream.
-    question: Can I change the background color after the document is saved?
-  - answer: The library can process multi‑hundred‑page files (up to 10,000 pages)
-      using streaming APIs that keep memory consumption under 200 MB.
-    question: How large a document can Aspose.Words handle?
-  - answer: Footnotes are stored in the main document’s `Footnotes` collection; `GlossaryDocument`
-      is optional and only needed for separate glossary sections.
-    question: Is the `GlossaryDocument` required for footnotes?
-  - answer: Yes, Aspose.Words 25.3+ is fully compatible with Java 8, 11, 17, and newer
-      LTS releases.
-    question: Does the library support Java 17?
-  type: FAQPage
-tags:
-- aspose words
-- maven dependency
-- java document manipulation
-- page background
-- import nodes
-title: Aspose Words Maven Dependency – Java-Dokumentenmanipulation
+- Aspose.Words for Java
+- Document initialization in Java
+- Customize page backgrounds with Java
+- Import nodes between documents using Java
+title: Seitenhintergrundfarbe mit Aspose.Words für Java festlegen – Anleitung
 url: /de/java/content-management/aspose-words-java-document-manipulation-guide/
 weight: 1
 ---
@@ -74,45 +19,40 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose Words Maven-Abhängigkeit – Java-Dokumentenmanipulation
+# Set Page Background Color with Aspose.Words for Java
 
-In diesem Tutorial lernen Sie, wie Sie die **aspose words maven dependency** zu einem Java‑Projekt hinzufügen und anschließend Aspose.Words für Java verwenden, um Dokumente zu manipulieren – sie zu initialisieren, Seitenhintergrundfarben festzulegen, Knoten zu importieren und Formen als Hintergründe hinzuzufügen. Am Ende verfügen Sie über eine produktionsreife Codebasis, die reich formatierte Dokumente erzeugen kann, ohne dass Microsoft Word installiert sein muss.
+In diesem Tutorial erfahren Sie **wie Sie die Seitenhintergrundfarbe** mit Aspose.Words for Java festlegen und verwandte Aufgaben wie **Ändern der Seitenfarbe in Word‑Dokumenten**, **Zusammenführen von Dokumentabschnitten**, **Erstellen von Dokument‑Hintergrundbildern** und **Importieren eines Abschnitts aus einem Dokument** erkunden. Am Ende haben Sie einen soliden, produktions‑bereiten Workflow, um das Aussehen und die Struktur von Word‑Dateien programmgesteuert anzupassen.
 
-## Schnelle Antworten
-- **Welches Maven‑Artefakt fügt Aspose.Words hinzu?** `com.aspose:aspose-words` mit der neuesten Versionsnummer.  
-- **Kann ich eine Seitenhintergrundfarbe festlegen?** Ja, rufen Sie `Document.setPageColor()` mit einem beliebigen `java.awt.Color` auf.  
-- **Ist das Importieren eines Abschnitts zwischen Dokumenten sicher?** `importNode()` bewahrt Struktur und Stile, wenn es mit dem richtigen `ImportFormatMode` verwendet wird.  
-- **Funktionieren Formen als Seitenhintergründe?** Sie können ein `Shape` vom Typ `ShapeType.IMAGE` einfügen und es in die Kopf‑/Fußzeile verschieben, um als Hintergrund zu dienen.  
-- **Welche Java‑Version wird benötigt?** JDK 8 oder höher; die Bibliothek ist kompatibel mit Java 11, 17 und neueren LTS‑Versionen.
+## Quick Answers
+- **What is the main class to work with?** `com.aspose.words.Document`
+- **Which method sets a uniform background?** `Document.setPageColor(Color)`
+- **Can I import a section from another document?** Yes, using `Document.importNode(...)`
+- **Do I need a license for production?** Yes, a purchased Aspose.Words license is required
+- **Is this supported on Java 8+?** Absolutely – works with all modern JDKs
 
-## Was ist die Aspose Words Maven‑Abhängigkeit?
-Die **aspose words maven dependency** ist die Maven‑Koordinate, die die Aspose.Words‑Bibliothek für Java und alle transitive Abhängigkeiten in den Klassenpfad Ihres Projekts zieht. Das Hinzufügen dieser einzelnen Zeile zu `pom.xml` verschafft Ihnen Zugriff auf über 35 Eingabe‑ und Ausgabeformate und ermöglicht eine Hochleistungs‑Dokumentengenerierung auf jeder JVM.
+## What is “set page background color”?
+Das Festlegen der Seitenhintergrundfarbe ändert die visuelle Leinwand jeder Seite in einem Word‑Dokument. Es ist nützlich für Branding, Lesbarkeitsverbesserungen oder das Erstellen druckbarer Formulare mit einem dezenten Farbton.
 
-## Warum Aspose.Words für Java verwenden?
-Aspose.Words verarbeitet **35+** Dokumentformate – darunter DOCX, PDF, HTML und EPUB – und kann Dateien bis zu **500 Seiten** handhaben, ohne das gesamte Dokument in den Speicher zu laden. Dieses performance‑erste Design reduziert den Server‑RAM‑Verbrauch um bis zu **70 %** im Vergleich zur nativen Office‑Automatisierung und ist damit ideal für cloud‑native Microservices.
+## Why change page color word documents?
+Das Ändern der Seitenfarbe kann:
+- Dokumente an Unternehmensfarbschemata anpassen  
+- Die Augenbelastung bei langen Berichten reduzieren  
+- Abschnitte hervorheben, wenn auf farbigem Papier gedruckt wird  
 
-## Voraussetzungen
+## Prerequisites
 
-- **Aspose.Words für Java** Version 25.3 oder neuer (die neueste stabile Version wird empfohlen).  
-- Java Development Kit (JDK) 8+ auf Ihrem Rechner installiert.  
-- Eine IDE wie IntelliJ IDEA oder Eclipse zum Bearbeiten und Erstellen des Projekts.  
-- Maven oder Gradle für das Abhängigkeitsmanagement.  
+Bevor Sie beginnen, stellen Sie sicher, dass Sie:
 
-### Erforderliche Bibliotheken und Versionen
-- `com.aspose:aspose-words:25.3` (oder neuer).  
+- **Aspose.Words for Java** v25.3 oder neuer.  
+- Ein **JDK** (Java 8 oder höher) installiert ist.  
+- Eine IDE wie **IntelliJ IDEA** oder **Eclipse**.  
+- Grundlegende Java‑Kenntnisse und Vertrautheit mit **Maven** oder **Gradle** für das Abhängigkeits‑Management.  
 
-### Wissensvoraussetzungen
-- Vertrautheit mit grundlegender Java‑Syntax und objektorientierten Konzepten.  
-- Verständnis von Maven/Gradle‑Build‑Dateien.
-
-Mit erfüllten Voraussetzungen sind Sie bereit, die Maven‑Abhängigkeit hinzuzufügen und mit dem Codieren zu beginnen.
-
-## Einrichtung von Aspose.Words
-
-Um Aspose.Words in Ihr Java‑Projekt zu integrieren, fügen Sie die Bibliothek als Maven‑ oder Gradle‑Abhängigkeit hinzu.
+## Setting Up Aspose.Words
 
 ### Maven
-Add this snippet to your `pom.xml` file:
+Fügen Sie diesen Ausschnitt zu Ihrer `pom.xml`‑Datei hinzu:
+
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -122,19 +62,21 @@ Add this snippet to your `pom.xml` file:
 ```
 
 ### Gradle
-Include the following in your `build.gradle` file:
+Fügen Sie das Folgende in Ihre `build.gradle`‑Datei ein:
+
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-#### Schritte zum Erwerb einer Lizenz
-1. **Kostenlose Testversion** – Registrieren Sie sich auf der Aspose‑Website für einen 30‑Tage‑Testschlüssel.  
-2. **Temporäre Lizenz** – Verwenden Sie den Testschlüssel, um eine temporäre Lizenzdatei für die vollständige Funktionsbewertung zu erzeugen.  
-3. **Kauf** – Kaufen Sie eine unbefristete Lizenz, um Evaluationsbeschränkungen zu entfernen und Prioritäts‑Support zu erhalten.
+#### License Acquisition Steps
+1. **Free Trial** – erkunden Sie alle Funktionen für 30 Tage.  
+2. **Temporary License** – schalten Sie die volle Funktionalität während der Evaluierung frei.  
+3. **Purchase** – erhalten Sie eine permanente Lizenz für den Produktionseinsatz.
 
-### Grundlegende Initialisierung und Einrichtung
+### Basic Initialization and Setup
 
-Die Klasse `Document` ist das Kernobjekt, das ein PDF, Word oder jede unterstützte Datei im Speicher repräsentiert. Nachdem Sie die Maven‑Abhängigkeit hinzugefügt haben, können Sie sie wie folgt instanziieren:
+Hier ein minimales Java‑Programm, das ein leeres Dokument erstellt:
+
 ```java
 import com.aspose.words.Document;
 
@@ -148,17 +90,14 @@ public class DocumentSetup {
 }
 ```
 
-Mit eingerichtetem Aspose.Words lassen Sie uns die spezifischen Funktionen erkunden, die Sie für die Dokumentenmanipulation benötigen.
+Mit der Bibliothek bereit, tauchen wir in die Kernfunktionen ein.
 
-## Implementierungs‑Leitfaden
+## Implementation Guide
 
-### Feature 1: Dokumentinitialisierung
+### Feature 1: Document Initialization
 
-#### Übersicht
-Die Initialisierung von Dokumenten und deren Unterklassen ermöglicht den Aufbau komplexer Vorlagen wie Glossare, Fußnoten oder benutzerdefinierte Abschnitte.
-
-#### Wie initialisiert man ein Glossar‑Dokument?
-Erstellen Sie eine Hauptinstanz von `Document` und fügen Sie anschließend ein `GlossaryDocument` hinzu, um Glossareinträge in einer einzigen, zusammenhängenden Datei zu verwalten. `GlossaryDocument` repräsentiert den Glossar‑Teil eines Word‑Dokuments und speichert Einträge wie Glossareinträge, Endnoten und benutzerdefinierte Teile.
+#### Overview
+Das Erstellen eines `GlossaryDocument` innerhalb eines Hauptdokuments ermöglicht Ihnen die Verwaltung von Glossaren, Stilen und benutzerdefinierten Teilen in einem sauberen, isolierten Container.
 
 ```java
 import com.aspose.words.Document;
@@ -176,17 +115,12 @@ public class DocumentInitialization {
 }
 ```
 
-**Erklärung**  
-- `Document` ist die Basisklasse für alle Aspose.Words‑Dokumente.  
-- `GlossaryDocument` kann dem Hauptdokument zugewiesen werden, sodass Sie Glossareinträge, Endnoten und andere Hilfsinhalte in einem eigenen Teil der Datei speichern können.
+*Why it matters:* Dieses Muster ist die Grundlage für **merging document sections** später, weil jeder Abschnitt seine eigenen Stile beibehalten kann, während er dennoch zur selben Datei gehört.
 
-### Feature 2: Seitenhintergrundfarbe festlegen
+### Feature 2: Set Page Background Color
 
-#### Übersicht
-Die Anpassung von Seitenhintergründen verbessert die Lesbarkeit und stimmt Dokumente mit dem Corporate‑Branding ab.
-
-#### Wie legt man eine Seitenhintergrundfarbe fest?
-Verwenden Sie die Methode `setPageColor()` auf dem `Document`‑Objekt und übergeben Sie einen `java.awt.Color`‑Wert, der den gewünschten Farbton darstellt.
+#### Overview
+Sie können jedem Blatt einen einheitlichen Farbton zuweisen, indem Sie `Document.setPageColor` verwenden. Dies greift direkt das primäre Schlüsselwort **set page background color** auf.
 
 ```java
 import com.aspose.words.Document;
@@ -207,17 +141,12 @@ public class SetPageBackgroundColor {
 }
 ```
 
-**Erklärung**  
-- `setPageColor()` wendet eine einheitliche Hintergrundfarbe auf jede Seite im Dokument an.  
-- Die Klasse `Color` akzeptiert RGB‑Werte, sodass Sie jede Markenpalette exakt nachbilden können.
+**Tip:** Wenn Sie **change page color word** Dokumente zur Laufzeit anpassen möchten, ersetzen Sie einfach `Color.lightGray` durch eine beliebige `java.awt.Color`‑Konstante oder einen eigenen RGB‑Wert.
 
-### Feature 3: Knoten zwischen Dokumenten importieren
+### Feature 3: Import Section from Document (and Merge Document Sections)
 
-#### Übersicht
-Das Zusammenführen von Inhalten aus mehreren Quellen ist eine gängige Anforderung für Reporting‑ und automatisierte Publishing‑Pipelines.
-
-#### Wie importiert man einen Abschnitt aus einem Quelldokument?
-Rufen Sie `importNode()` auf dem Ziel‑`Document` auf, übergeben Sie den zu importierenden Knoten und ein `ImportFormatMode`, das die Stilbehandlung bestimmt.
+#### Overview
+Wenn Sie Inhalte aus mehreren Quellen kombinieren müssen, können Sie einen gesamten Abschnitt (oder jeden anderen Knoten) aus einem Dokument in ein anderes importieren. Das ist der Kern von **merge document sections** und **import section from document** Szenarien.
 
 ```java
 import com.aspose.words.Document;
@@ -246,17 +175,12 @@ public class ImportNode {
 }
 ```
 
-**Erklärung**  
-- `importNode()` überträgt einen Knoten (z. B. eine `Section`) von einem Dokument zu einem anderen und bewahrt dabei dessen interne Struktur.  
-- Wählen Sie `ImportFormatMode.KEEP_SOURCE_FORMATTING`, um die ursprünglichen Stile beizubehalten, oder `USE_DESTINATION_STYLES`, um das Theme des Ziel Dokuments zu übernehmen.
+**Pro tip:** Nach dem Import können Sie `dstDoc.updatePageLayout()` aufrufen, um sicherzustellen, dass Seitenumbrüche sowie Kopf‑/Fußzeilen korrekt neu berechnet werden.
 
-### Feature 4: Knoten mit benutzerdefiniertem Formatmodus importieren
+### Feature 4: Import Node with Custom Format Mode
 
-#### Übersicht
-Die Gewährleistung von Stilkonsistenz beim Kombinieren von Dokumenten vermeidet visuelle Diskrepanzen.
-
-#### Wie wendet man einen benutzerdefinierten Import‑Formatmodus an?
-Geben Sie den gewünschten `ImportFormatMode` beim Aufruf von `importNode()` an. Damit können Sie steuern, ob die Quellformatierung beibehalten oder überschrieben wird. `ImportFormatMode` ist ein Enum, das definiert, wie die Formatierung beim Knoten‑Import behandelt wird, z. B. das Beibehalten von Quellstilen oder die Verwendung von Zielstilen.
+#### Overview
+Manchmal verwenden Quelle und Ziel unterschiedliche Stildefinitionen. `ImportFormatMode` lässt Sie entscheiden, ob die Quellstile beibehalten oder die Zielstile erzwungen werden sollen.
 
 ```java
 import com.aspose.words.Document;
@@ -281,17 +205,12 @@ public class ImportNodeCustom {
 }
 ```
 
-**Erklärung**  
-- `ImportFormatMode` bietet drei Optionen: `KEEP_SOURCE_FORMATTING`, `USE_DESTINATION_STYLES` und `MERGE_FORMATTING`.  
-- Die Auswahl des passenden Modus eliminiert die Notwendigkeit einer nachträglichen Stil‑Bereinigung.
+**When to use:** Wählen Sie `USE_DESTINATION_STYLES`, wenn Sie ein einheitliches Erscheinungsbild über das zusammengeführte Dokument hinweg wünschen, besonders nach **merging document sections** mit unterschiedlicher Markenidentität.
 
-### Feature 5: Hintergrundform für Dokumentseiten festlegen
+### Feature 5: Create Document Background Image (Set Background Shape)
 
-#### Übersicht
-Die Verwendung von Formen als Seitenhintergründe ermöglicht das Einbetten von Wasserzeichen, Logos oder randlosen Bildern hinter dem Hauptinhalt.
-
-#### Wie fügt man eine Hintergrundform ein?
-Erstellen Sie ein `Shape` vom Typ `ShapeType.IMAGE`, setzen Sie sein Layout auf `WRAP_NONE` und fügen Sie es in die Kopf‑ oder Fußzeile des Dokuments ein, sodass es hinter allen Texten erscheint. `Shape` stellt ein Zeichenobjekt wie ein Bild, Textfeld oder eine geometrische Figur dar, das überall im Dokument platziert werden kann.
+#### Overview
+Über reine Farben hinaus können Sie Formen oder Bilder als Seitenhintergrund einbetten. Dieses Beispiel fügt eine rote Sternform hinzu, Sie können sie jedoch durch jedes Bild ersetzen, um **create document background image** zu realisieren.
 
 ```java
 import com.aspose.words.Document;
@@ -315,44 +234,40 @@ public class SetBackgroundShape {
 }
 ```
 
-**Erklärung**  
-- `Shape`‑Objekte können Bilder, Vektorgrafiken oder geometrische Figuren enthalten.  
-- Das Platzieren der Form in einer Kopf‑/Fußzeile sorgt dafür, dass sie auf jeder Seite wiederholt wird, ohne den Fluss des Haupttextes zu beeinflussen.
+**How to use an image:** Ersetzen Sie die Erstellung der `Shape` durch `ShapeType.IMAGE` und laden Sie einen Bild‑Stream. Damit wird die Form zu einem **document background image**, das auf jeder Seite wiederholt wird.
 
-## Häufige Probleme und Fehlersuche
+## Common Issues and Solutions
 
-- **Lizenz nicht gefunden** – Stellen Sie sicher, dass das `License`‑Objekt auf eine gültige `.lic`‑Datei verweist und dass die Datei im Klassenpfad liegt.  
-- **Farbe nicht angewendet** – Stellen Sie sicher, dass Sie `setPageColor()` **vor** dem Speichern des Dokuments aufrufen; Änderungen nach dem Speichern bleiben nicht erhalten.  
-- **ImportNode wirft eine Ausnahme** – Vergewissern Sie sich, dass sowohl Quell‑ als auch Zieldokument mit denselben `LoadOptions` (z. B. demselben `LoadFormat`) geladen wurden.  
-- **Hintergrundform erscheint hinter dem Text, ist aber unsichtbar** – Prüfen Sie, ob der Bilddateipfad korrekt ist und ob die `RelativeHorizontalPosition` und `RelativeVerticalPosition` der Form auf `PAGE` gesetzt sind.
+| Issue | Solution |
+|-------|----------|
+| **Background color not applied** | Ensure you call `doc.setPageColor(...)` **before** saving the document. |
+| **Imported section loses formatting** | Use `ImportFormatMode.USE_DESTINATION_STYLES` to enforce destination styles. |
+| **Shape not appearing on all pages** | Insert the shape into the **header/footer** of each section, or clone it for every section. |
+| **License exception** | Verify that `License.setLicense("Aspose.Words.Java.lic")` is called early in your app. |
+| **Color values look different** | Java AWT `Color` uses sRGB; double‑check the exact RGB values you need. |
 
-## Häufig gestellte Fragen
+## Frequently Asked Questions
 
-**Q: Benötige ich ein separates Maven‑Artefakt für PDF‑Unterstützung?**  
-A: Nein. Das `aspose-words`‑Artefakt enthält integrierte Unterstützung für PDF, DOCX, HTML und über 30 weitere Formate.
+**Q: Can I set a different background color for individual sections?**  
+A: Yes. After creating a new `Section`, call `section.getPageSetup().setPageColor(Color)` for that specific section.
 
-**Q: Kann ich die Hintergrundfarbe ändern, nachdem das Dokument gespeichert wurde?**  
-A: Ja, laden Sie die gespeicherte Datei, rufen `setPageColor()` erneut auf und speichern erneut; der Vorgang ist schnell, da Aspose.Words direkt auf dem Dateistream arbeitet.
+**Q: Is it possible to use a gradient instead of a solid color?**  
+A: Aspose.Words does not support gradient fills directly, but you can insert a full‑page image with a gradient and set it as a background shape.
 
-**Q: Wie groß kann ein Dokument sein, das Aspose.Words verarbeiten kann?**  
-A: Die Bibliothek kann mehrseitige Dateien (bis zu 10.000 Seiten) mit Streaming‑APIs verarbeiten, die den Speicherverbrauch unter 200 MB halten.
+**Q: How do I merge large documents without running out of memory?**  
+A: Use `Document.appendDocument(otherDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING)` in a streaming manner, and call `doc.updatePageLayout()` after each merge.
 
-**Q: Ist das `GlossaryDocument` für Fußnoten erforderlich?**  
-A: Fußnoten werden in der `Footnotes`‑Sammlung des Hauptdokuments gespeichert; `GlossaryDocument` ist optional und nur für separate Glossarabschnitte nötig.
+**Q: Does the API work with .docx files created by Microsoft Word 2019?**  
+A: Absolutely. Aspose.Words fully supports the OOXML standard used by modern Word versions.
 
-**Q: Unterstützt die Bibliothek Java 17?**  
-A: Ja, Aspose.Words 25.3+ ist vollständig kompatibel mit Java 8, 11, 17 und neueren LTS‑Versionen.
+**Q: What is the best way to programmatically change the background of an existing .doc file?**  
+A: Load the document with `new Document("file.doc")`, call `setPageColor`, and save it back as `.doc` or `.docx`.
 
 ---
-**Zuletzt aktualisiert:** 2026-08-10  
-**Getestet mit:** Aspose.Words für Java 25.3  
-**Autor:** Aspose
 
-## Verwandte Tutorials
-
-- [Aspose.Words Java Tutorials für Content Management – Master Document Handling](/words/java/content-management/)
-- [Master Aspose.Words Java für effiziente Dokumenten‑Variablen‑Manipulation](/words/java/content-management/aspose-words-java-document-variable-manipulation/)
-- [Master Aspose.Words Java: Dokumenten‑Operations‑Tutorials](/words/java/document-operations/)
+**Last Updated:** 2025-11-26  
+**Tested With:** Aspose.Words for Java 25.3  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -360,4 +275,4 @@ A: Ja, Aspose.Words 25.3+ ist vollständig kompatibel mit Java 8, 11, 17 und n
 
 {{< blocks/products/products-backtop-button >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

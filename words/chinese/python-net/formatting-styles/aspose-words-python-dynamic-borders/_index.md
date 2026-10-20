@@ -5,7 +5,9 @@
 "url": "/zh/python-net/formatting-styles/aspose-words-python-dynamic-borders/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # 使用 Aspose.Words for Python 实现动态文档边框
 
 ## 介绍
@@ -267,3 +269,7 @@ doc.save(file_name=YOUR_OUTPUT_DIRECTORY + 'VerticalBorders.docx')
 
 ## 结论
 通过掌握 Aspose.Words for Python 的这些技巧，您可以创建具有动态边框的专业级文档。本指南为进一步探索该库的功能奠定了坚实的基础。
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

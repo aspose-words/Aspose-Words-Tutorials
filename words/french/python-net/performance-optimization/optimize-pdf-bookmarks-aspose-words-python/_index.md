@@ -5,7 +5,9 @@
 "url": "/fr/python-net/performance-optimization/optimize-pdf-bookmarks-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Titre : Maîtriser l'optimisation des signets PDF avec Aspose.Words pour Python
 
 ## Introduction
@@ -180,3 +182,7 @@ Prêt à améliorer vos PDF ? Commencez à mettre en œuvre ces techniques dès
 - **Soutien**Obtenez de l'aide de la communauté sur [Forum Aspose](https://forum.aspose.com/c/words/10)
 
 Ce guide vous a fourni les connaissances nécessaires pour optimiser les signets PDF avec Aspose.Words pour Python. Bon codage !
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

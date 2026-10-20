@@ -5,7 +5,9 @@
 "url": "/ar/python-net/document-operations/mastering-docsaveoptions-password-temp-folder-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # العنوان: إتقان خيارات حفظ المستندات في Aspose.Words باستخدام بايثون: حماية كلمة المرور واستخدام المجلد المؤقت
 
 ## مقدمة
@@ -190,3 +192,7 @@ def save_using_temp_folder():
 - [منتدى الدعم](https://forum.aspose.com/c/words/10)
 
 استكشف هذه الموارد لتعميق فهمك وتحسين قدراتك في معالجة المستندات باستخدام Aspose.Words لبايثون. برمجة ممتعة!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

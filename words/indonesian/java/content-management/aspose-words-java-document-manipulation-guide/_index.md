@@ -1,68 +1,14 @@
 ---
-date: '2026-08-10'
-description: Pelajari cara menambahkan dependensi Maven Aspose Words dan menguasai
-  manipulasi dokumen menggunakan Aspose.Words for Java, termasuk latar belakang halaman
-  dan impor node.
+date: '2025-11-26'
+description: Pelajari cara mengatur warna latar belakang halaman dengan Aspose.Words
+  untuk Java, mengubah warna halaman dokumen Word, menggabungkan bagian dokumen, dan
+  mengimpor bagian dari dokumen secara efisien.
 keywords:
-- aspose words maven dependency
-- set page background color
-- customize import format
-- add shape as background
-- apply background color
-lastmod: '2026-08-10'
-og_description: Tambahkan dependensi Maven Aspose Words dan kuasai manipulasi dokumen
-  di Java, termasuk mengatur warna latar belakang halaman dan mengimpor node.
-og_image_alt: Guide showing Aspose Words Maven setup and document background customization
-  in Java
-og_title: Panduan Dependensi Maven Aspose Words – Manipulasi Dokumen Java
-schemas:
-- author: Aspose
-  dateModified: '2026-08-10'
-  description: Learn how to add the Aspose Words Maven dependency and master document
-    manipulation using Aspose.Words for Java, including page backgrounds and node
-    import.
-  headline: Aspose Words Maven Dependency – Java document manipulation
-  type: TechArticle
-- description: Learn how to add the Aspose Words Maven dependency and master document
-    manipulation using Aspose.Words for Java, including page backgrounds and node
-    import.
-  name: Aspose Words Maven Dependency – Java document manipulation
-  steps:
-  - name: '**Free trial** – Register on the Aspose website for a 30‑day trial key.'
-    text: '**Free trial** – Register on the Aspose website for a 30‑day trial key.'
-  - name: '**Temporary license** – Use the trial key to generate a temporary license
-      file for full‑feature evaluation.'
-    text: '**Temporary license** – Use the trial key to generate a temporary license
-      file for full‑feature evaluation.'
-  - name: '**Purchase** – Buy a perpetual license to remove evaluation limits and
-      receive priority support.'
-    text: '**Purchase** – Buy a perpetual license to remove evaluation limits and
-      receive priority support.'
-  type: HowTo
-- questions:
-  - answer: No. The `aspose-words` artifact includes built‑in support for PDF, DOCX,
-      HTML, and over 30 other formats.
-    question: Do I need a separate Maven artifact for PDF support?
-  - answer: Yes, load the saved file, call `setPageColor()` again, and re‑save; the
-      operation is fast because Aspose.Words works directly on the file stream.
-    question: Can I change the background color after the document is saved?
-  - answer: The library can process multi‑hundred‑page files (up to 10,000 pages)
-      using streaming APIs that keep memory consumption under 200 MB.
-    question: How large a document can Aspose.Words handle?
-  - answer: Footnotes are stored in the main document’s `Footnotes` collection; `GlossaryDocument`
-      is optional and only needed for separate glossary sections.
-    question: Is the `GlossaryDocument` required for footnotes?
-  - answer: Yes, Aspose.Words 25.3+ is fully compatible with Java 8, 11, 17, and newer
-      LTS releases.
-    question: Does the library support Java 17?
-  type: FAQPage
-tags:
-- aspose words
-- maven dependency
-- java document manipulation
-- page background
-- import nodes
-title: Dependensi Maven Aspose Words – Manipulasi Dokumen Java
+- Aspose.Words for Java
+- Document initialization in Java
+- Customize page backgrounds with Java
+- Import nodes between documents using Java
+title: Atur Warna Latar Belakang Halaman dengan Aspose.Words untuk Java – Panduan
 url: /id/java/content-management/aspose-words-java-document-manipulation-guide/
 weight: 1
 ---
@@ -73,45 +19,40 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dependensi Aspose Words Maven – Manipulasi Dokumen Java
+# Mengatur Warna Latar Belakang Halaman dengan Aspose.Words untuk Java
 
-Dalam tutorial ini Anda akan belajar cara menambahkan **aspose words maven dependency** ke proyek Java dan kemudian menggunakan Aspose.Words for Java untuk memanipulasi dokumen—menginisialisasinya, mengatur warna latar belakang halaman, mengimpor node, dan menambahkan shape sebagai latar belakang. Pada akhir tutorial Anda akan memiliki basis kode siap produksi yang dapat menghasilkan dokumen berformat kaya tanpa perlu menginstal Microsoft Word.
+Dalam tutorial ini Anda akan menemukan **cara mengatur warna latar belakang halaman** menggunakan Aspose.Words untuk Java dan menjelajahi tugas terkait seperti **mengubah warna halaman dokumen word**, **menggabungkan bagian dokumen**, **membuat gambar latar belakang dokumen**, serta **mengimpor sebuah bagian dari dokumen**. Pada akhir tutorial, Anda akan memiliki alur kerja siap produksi untuk menyesuaikan tampilan dan struktur file Word secara programatis.
 
-## Jawaban cepat
-- **Artifact Maven mana yang menambahkan Aspose.Words?** `com.aspose:aspose-words` dengan nomor versi terbaru.  
-- **Bisakah saya mengatur warna latar belakang halaman?** Ya, panggil `Document.setPageColor()` dengan objek `java.awt.Color` apa pun.  
-- **Apakah mengimpor bagian antar dokumen aman?** `importNode()` mempertahankan struktur dan gaya bila digunakan dengan `ImportFormatMode` yang tepat.  
-- **Apakah shape dapat berfungsi sebagai latar belakang halaman?** Anda dapat menyisipkan `Shape` tipe `ShapeType.IMAGE` dan menambahkannya ke header/footer agar berfungsi sebagai latar belakang.  
-- **Versi Java apa yang diperlukan?** JDK 8 atau lebih tinggi; perpustakaan ini kompatibel dengan Java 11, 17, dan rilis LTS yang lebih baru.
+## Jawaban Cepat
+- **Kelas utama yang digunakan?** `com.aspose.words.Document`
+- **Metode apa yang mengatur latar belakang seragam?** `Document.setPageColor(Color)`
+- **Bisakah saya mengimpor sebuah bagian dari dokumen lain?** Ya, menggunakan `Document.importNode(...)`
+- **Apakah saya memerlukan lisensi untuk produksi?** Ya, lisensi Aspose.Words yang dibeli diperlukan
+- **Apakah ini didukung pada Java 8+?** Tentu – berfungsi dengan semua JDK modern
 
-## Apa itu dependensi Aspose Words Maven?
-**aspose words maven dependency** adalah koordinat Maven yang menarik perpustakaan Aspose.Words for Java beserta semua dependensi transitifnya ke classpath proyek Anda. Menambahkan satu baris ini ke `pom.xml` memberi Anda akses ke lebih dari 35 format input dan output serta memungkinkan pembuatan dokumen berkinerja tinggi pada JVM apa pun.
+## Apa itu “set page background color”?
+Mengatur warna latar belakang halaman mengubah kanvas visual setiap halaman dalam dokumen Word. Ini berguna untuk branding, peningkatan keterbacaan, atau membuat formulir cetak dengan nuansa warna yang halus.
 
-## Mengapa menggunakan Aspose.Words untuk Java?
-Aspose.Words memproses **lebih dari 35** format dokumen—termasuk DOCX, PDF, HTML, dan EPUB—sementara menangani file hingga **500 halaman** tanpa memuat seluruh dokumen ke memori. Desain berfokus pada kinerja ini mengurangi penggunaan RAM server hingga **70 %** dibandingkan otomatisasi Office native, menjadikannya ideal untuk layanan mikro berbasis cloud.
+## Mengapa mengubah warna halaman dokumen word?
+Mengubah warna halaman dapat:
+- Menyesuaikan dokumen dengan skema warna perusahaan  
+- Mengurangi kelelahan mata pada laporan panjang  
+- Menyorot bagian tertentu saat dicetak pada kertas berwarna  
 
 ## Prasyarat
 
-- **Aspose.Words for Java** versi 25.3 atau lebih baru (disarankan menggunakan rilis stabil terbaru).  
-- Java Development Kit (JDK) 8+ terpasang pada mesin Anda.  
-- IDE seperti IntelliJ IDEA atau Eclipse untuk mengedit dan membangun proyek.  
-- Maven atau Gradle untuk manajemen dependensi.  
+Sebelum memulai, pastikan Anda memiliki:
 
-### Perpustakaan dan versi yang diperlukan
-- `com.aspose:aspose-words:25.3` (atau yang lebih baru).  
-
-### Prasyarat pengetahuan
-- Familiaritas dengan sintaks Java dasar dan konsep berorientasi objek.  
-- Pemahaman tentang file build Maven/Gradle.
-
-Dengan prasyarat terpenuhi, Anda siap menambahkan dependensi Maven dan mulai menulis kode.
+- **Aspose.Words untuk Java** v25.3 atau yang lebih baru.  
+- **JDK** (Java 8 atau lebih tinggi) terpasang.  
+- IDE seperti **IntelliJ IDEA** atau **Eclipse**.  
+- Pengetahuan dasar Java dan familiaritas dengan **Maven** atau **Gradle** untuk manajemen dependensi.  
 
 ## Menyiapkan Aspose.Words
 
-Untuk mengintegrasikan Aspose.Words ke proyek Java Anda, sertakan perpustakaan sebagai dependensi Maven atau Gradle.
-
 ### Maven
-Tambahkan cuplikan berikut ke file `pom.xml` Anda:
+Tambahkan potongan kode berikut ke file `pom.xml` Anda:
+
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -121,17 +62,20 @@ Tambahkan cuplikan berikut ke file `pom.xml` Anda:
 ```
 
 ### Gradle
-Sertakan yang berikut dalam file `build.gradle` Anda:
+Sertakan yang berikut ini dalam file `build.gradle` Anda:
+
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-#### Langkah-langkah memperoleh lisensi
-1. **Uji coba gratis** – Daftar di situs Aspose untuk mendapatkan kunci uji coba 30 hari.  
-2. **Lisensi sementara** – Gunakan kunci uji coba untuk menghasilkan file lisensi sementara demi evaluasi fitur lengkap.  
-3. **Pembelian** – Beli lisensi permanen untuk menghapus batas evaluasi dan mendapatkan dukungan prioritas.
+#### Langkah Akuisisi Lisensi
+1. **Uji Coba Gratis** – jelajahi semua fitur selama 30 hari.  
+2. **Lisensi Sementara** – buka semua fungsi selama evaluasi.  
+3. **Pembelian** – dapatkan lisensi permanen untuk penggunaan produksi.
 
-### Inisialisasi dasar dan pengaturan
+### Inisialisasi dan Pengaturan Dasar
+
+Berikut program Java minimal yang membuat dokumen kosong:
 
 Kelas `Document` adalah objek inti yang mewakili PDF, Word, atau file dukungan lainnya dalam memori. Setelah menambahkan dependensi Maven, Anda dapat menginstansiasinya seperti berikut:
 ```java
@@ -147,17 +91,14 @@ public class DocumentSetup {
 }
 ```
 
-Dengan Aspose.Words terpasang, mari jelajahi fitur spesifik yang Anda perlukan untuk manipulasi dokumen.
+Dengan pustaka siap, mari selami fitur inti.
 
 ## Panduan implementasi
 
 ### Fitur 1: inisialisasi dokumen
 
-#### Ikhtisar
-Menginisialisasi dokumen dan subclass-nya memungkinkan Anda membangun templat kompleks seperti glosarium, catatan kaki, atau bagian khusus.
-
-#### Bagaimana cara menginisialisasi dokumen glosarium?
-Buat instance `Document` utama, lalu lampirkan `GlossaryDocument` untuk mengelola entri glosarium dalam satu file yang kohesif. `GlossaryDocument` mewakili bagian glosarium dari dokumen Word, menyimpan entri seperti item glosarium, catatan akhir, dan bagian khusus lainnya.
+#### Gambaran Umum
+Membuat `GlossaryDocument` di dalam dokumen utama memungkinkan Anda mengelola glosarium, gaya, dan bagian khusus dalam wadah yang bersih dan terisolasi.
 
 ```java
 import com.aspose.words.Document;
@@ -175,17 +116,12 @@ public class DocumentInitialization {
 }
 ```
 
-**Penjelasan**  
-- `Document` adalah kelas dasar untuk semua dokumen Aspose.Words.  
-- `GlossaryDocument` dapat ditetapkan ke dokumen utama, memungkinkan Anda menyimpan entri glosarium, catatan akhir, dan konten tambahan lainnya dalam bagian khusus file.
+*Mengapa penting:* Pola ini menjadi dasar untuk **menggabungkan bagian dokumen** nanti, karena setiap bagian dapat mempertahankan gaya masing‑masing sambil tetap berada dalam satu file.
 
 ### Fitur 2: mengatur warna latar belakang halaman
 
-#### Ikhtisar
-Menyesuaikan latar belakang halaman meningkatkan keterbacaan dan menyelaraskan dokumen dengan identitas merek perusahaan.
-
-#### Bagaimana cara mengatur warna latar belakang halaman?
-Gunakan metode `setPageColor()` pada objek `Document`, dengan nilai `java.awt.Color` yang mewakili nuansa yang diinginkan.
+#### Gambaran Umum
+Anda dapat menerapkan nuansa seragam ke setiap halaman menggunakan `Document.setPageColor`. Ini secara langsung menjawab kata kunci utama **set page background color**.
 
 ```java
 import com.aspose.words.Document;
@@ -206,17 +142,12 @@ public class SetPageBackgroundColor {
 }
 ```
 
-**Penjelasan**  
-- `setPageColor()` menerapkan warna latar belakang seragam ke setiap halaman dalam dokumen.  
-- Kelas `Color` menerima nilai RGB, sehingga Anda dapat mencocokkan palet merek apa pun dengan tepat.
+**Tip:** Jika Anda perlu **mengubah warna halaman dokumen word** secara dinamis, cukup ganti `Color.lightGray` dengan konstanta `java.awt.Color` lain atau nilai RGB khusus.
 
-### Fitur 3: mengimpor node antar dokumen
+### Fitur 3: Mengimpor Bagian dari Dokumen (dan Menggabungkan Bagian Dokumen)
 
-#### Ikhtisar
-Menggabungkan konten dari beberapa sumber adalah kebutuhan umum dalam pelaporan dan pipeline penerbitan otomatis.
-
-#### Bagaimana cara mengimpor bagian dari dokumen sumber?
-Panggil `importNode()` pada `Document` tujuan, berikan node yang akan diimpor serta `ImportFormatMode` yang menentukan penanganan gaya.
+#### Gambaran Umum
+Saat Anda perlu menggabungkan konten dari beberapa sumber, Anda dapat mengimpor seluruh bagian (atau node apa pun) dari satu dokumen ke dokumen lain. Inilah inti dari skenario **merge document sections** dan **import section from document**.
 
 ```java
 import com.aspose.words.Document;
@@ -245,17 +176,12 @@ public class ImportNode {
 }
 ```
 
-**Penjelasan**  
-- `importNode()` memindahkan sebuah node (misalnya `Section`) dari satu dokumen ke dokumen lain sambil mempertahankan struktur internalnya.  
-- Pilih `ImportFormatMode.KEEP_SOURCE_FORMATTING` untuk mempertahankan gaya asli, atau `USE_DESTINATION_STYLES` untuk mengadopsi tema dokumen target.
+**Pro tip:** Setelah mengimpor, panggil `dstDoc.updatePageLayout()` untuk memastikan pemisah halaman serta header/footer dihitung ulang dengan benar.
 
-### Fitur 4: mengimpor node dengan mode format khusus
+### Fitur 4: Mengimpor Node dengan Mode Format Kustom
 
-#### Ikhtisar
-Menjaga konsistensi gaya saat menggabungkan dokumen menghindari ketidaksesuaian visual.
-
-#### Bagaimana cara menerapkan mode format impor khusus?
-Tentukan `ImportFormatMode` yang diinginkan saat memanggil `importNode()`. Ini memungkinkan Anda mengontrol apakah format sumber dipertahankan atau ditimpa. `ImportFormatMode` adalah enum yang mendefinisikan cara penanganan format selama impor node, seperti mempertahankan gaya sumber atau menggunakan gaya tujuan.
+#### Gambaran Umum
+Kadang sumber dan tujuan menggunakan definisi gaya yang berbeda. `ImportFormatMode` memungkinkan Anda memutuskan apakah akan mempertahankan gaya sumber atau memaksa penggunaan gaya tujuan.
 
 ```java
 import com.aspose.words.Document;
@@ -280,17 +206,12 @@ public class ImportNodeCustom {
 }
 ```
 
-**Penjelasan**  
-- `ImportFormatMode` menyediakan tiga opsi: `KEEP_SOURCE_FORMATTING`, `USE_DESTINATION_STYLES`, dan `MERGE_FORMATTING`.  
-- Memilih mode yang tepat menghilangkan kebutuhan pembersihan gaya setelah impor.
+**Kapan digunakan:** Pilih `USE_DESTINATION_STYLES` ketika Anda menginginkan tampilan konsisten di seluruh dokumen yang digabung, terutama setelah **merging document sections** dengan branding yang berbeda.
 
-### Fitur 5: mengatur shape latar belakang untuk halaman dokumen
+### Fitur 5: Membuat Gambar Latar Belakang Dokumen (Set Background Shape)
 
-#### Ikhtisar
-Menggunakan shape sebagai latar belakang halaman memungkinkan Anda menyisipkan watermark, logo, atau gambar full‑bleed di belakang konten utama.
-
-#### Bagaimana cara menyisipkan shape latar belakang?
-Buat `Shape` tipe `ShapeType.IMAGE`, atur tata letaknya ke `WRAP_NONE`, dan tambahkan ke header atau footer dokumen sehingga muncul di belakang semua teks. `Shape` mewakili objek gambar seperti gambar, kotak teks, atau bentuk geometris yang dapat ditempatkan di mana saja dalam dokumen.
+#### Gambaran Umum
+Selain warna solid, Anda dapat menyematkan bentuk atau gambar sebagai latar belakang halaman. Contoh ini menambahkan bentuk bintang merah, namun Anda dapat menggantinya dengan gambar apa saja untuk **create document background image**.
 
 ```java
 import com.aspose.words.Document;
@@ -314,46 +235,40 @@ public class SetBackgroundShape {
 }
 ```
 
-**Penjelasan**  
-- Objek `Shape` dapat menampung gambar, grafik vektor, atau bentuk geometris.  
-- Menempatkan shape di header/footer memastikan shape tersebut berulang pada setiap halaman tanpa memengaruhi alur badan teks.
+**Cara menggunakan gambar:** Ganti pembuatan `Shape` dengan `ShapeType.IMAGE` dan muat aliran gambar. Ini mengubah bentuk menjadi **document background image** yang berulang pada setiap halaman.
 
-## Masalah umum dan pemecahan masalah
+## Masalah Umum dan Solusinya
 
-- **Lisensi tidak ditemukan** – Pastikan objek `License` mengarah ke file `.lic` yang valid dan file tersebut berada di classpath.  
-- **Warna tidak diterapkan** – Pastikan Anda memanggil `setPageColor()` **sebelum** menyimpan dokumen; perubahan setelah penyimpanan tidak akan bertahan.  
-- **ImportNode melempar pengecualian** – Pastikan kedua dokumen sumber dan tujuan dimuat dengan `LoadOptions` yang sama (misalnya `LoadFormat` yang sama).  
-- **Shape latar belakang muncul di belakang teks namun tidak terlihat** – Periksa bahwa jalur file gambar benar dan bahwa properti `RelativeHorizontalPosition` serta `RelativeVerticalPosition` shape diatur ke `PAGE`.
+| Masalah | Solusi |
+|-------|----------|
+| **Warna latar belakang tidak diterapkan** | Pastikan Anda memanggil `doc.setPageColor(...)` **sebelum** menyimpan dokumen. |
+| **Bagian yang diimpor kehilangan format** | Gunakan `ImportFormatMode.USE_DESTINATION_STYLES` untuk memaksa penggunaan gaya tujuan. |
+| **Bentuk tidak muncul di semua halaman** | Sisipkan bentuk ke dalam **header/footer** setiap bagian, atau kloning untuk setiap bagian. |
+| **Pengecualian lisensi** | Verifikasi bahwa `License.setLicense("Aspose.Words.Java.lic")` dipanggil di awal aplikasi Anda. |
+| **Nilai warna terlihat berbeda** | `Color` Java AWT menggunakan sRGB; periksa kembali nilai RGB yang tepat yang Anda butuhkan. |
 
-## Pertanyaan yang sering diajukan
+## Pertanyaan yang Sering Diajukan
 
-**T: Apakah saya memerlukan artifact Maven terpisah untuk dukungan PDF?**  
-J: Tidak. Artifact `aspose-words` sudah mencakup dukungan bawaan untuk PDF, DOCX, HTML, dan lebih dari 30 format lainnya.
+**T: Bisakah saya mengatur warna latar belakang yang berbeda untuk tiap bagian?**  
+J: Ya. Setelah membuat `Section` baru, panggil `section.getPageSetup().setPageColor(Color)` untuk bagian tersebut.
 
-**T: Bisakah saya mengubah warna latar belakang setelah dokumen disimpan?**  
-J: Ya, muat kembali file yang disimpan, panggil `setPageColor()` lagi, dan simpan ulang; operasi ini cepat karena Aspose.Words bekerja langsung pada aliran file.
+**T: Apakah memungkinkan menggunakan gradien alih-alih warna solid?**  
+J: Aspose.Words tidak mendukung isian gradien secara langsung, tetapi Anda dapat menyisipkan gambar halaman penuh dengan gradien dan menjadikannya latar belakang.
 
-**T: Seberapa besar dokumen yang dapat ditangani Aspose.Words?**  
-J: Perpustakaan dapat memproses file multi‑ratus halaman (hingga 10.000 halaman) menggunakan API streaming yang menjaga konsumsi memori di bawah 200 MB.
+**T: Bagaimana cara menggabungkan dokumen besar tanpa kehabisan memori?**  
+J: Gunakan `Document.appendDocument(otherDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING)` secara streaming, dan panggil `doc.updatePageLayout()` setelah setiap penggabungan.
 
-**T: Apakah `GlossaryDocument` diperlukan untuk catatan kaki?**  
-J: Catatan kaki disimpan dalam koleksi `Footnotes` dokumen utama; `GlossaryDocument` bersifat opsional dan hanya diperlukan untuk bagian glosarium terpisah.
+**T: Apakah API ini bekerja dengan file .docx yang dibuat oleh Microsoft Word 2019?**  
+J: Tentu. Aspose.Words sepenuhnya mendukung standar OOXML yang digunakan oleh versi Word modern.
 
-**T: Apakah perpustakaan ini mendukung Java 17?**  
-J: Ya, Aspose.Words 25.3+ sepenuhnya kompatibel dengan Java 8, 11, 17, dan rilis LTS yang lebih baru.
+**T: Apa cara terbaik untuk secara programatis mengubah latar belakang file .doc yang ada?**  
+J: Muat dokumen dengan `new Document("file.doc")`, panggil `setPageColor`, dan simpan kembali sebagai `.doc` atau `.docx`.
 
 ---
 
-**Terakhir diperbarui:** 2026-08-10  
-**Diuji dengan:** Aspose.Words for Java 25.3  
-**Penulis:** Aspose
-
-## Tutorial terkait
-
-- [Tutorial Aspose.Words Java untuk Manajemen Konten - Penanganan Dokumen Master](/words/java/content-management/)
-- [Menguasai Aspose.Words Java untuk Manipulasi Variabel Dokumen yang Efisien](/words/java/content-management/aspose-words-java-document-variable-manipulation/)
-- [Panduan Operasi Dokumen Aspose.Words Java](/words/java/document-operations/)
-
+**Terakhir Diperbarui:** 2025-11-26  
+**Diuji Dengan:** Aspose.Words untuk Java 25.3  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -361,4 +276,4 @@ J: Ya, Aspose.Words 25.3+ sepenuhnya kompatibel dengan Java 8, 11, 17, dan ril
 
 {{< blocks/products/products-backtop-button >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

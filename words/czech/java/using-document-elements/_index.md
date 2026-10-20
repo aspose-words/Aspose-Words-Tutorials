@@ -67,10 +67,22 @@ Naučte se používat Markdown v Aspose.Words pro Javu s tímto podrobným návo
 Naučte se manipulovat s uzly v Aspose.Words pro Javu s tímto podrobným návodem. Odemkněte výkon zpracování dokumentů.
 ### [Používání objektů OLE a ovládacích prvků ActiveX v Aspose.Words pro Javu](./using-ole-objects-and-activex/)
 Naučte se používat objekty OLE a ovládací prvky ActiveX v Aspose.Words pro Javu. Snadno vytvářejte interaktivní dokumenty. Začněte hned teď!
+### [Jak vložit tlačítko ActiveX do Wordu – nastavit popisek tlačítka](./how-to-insert-activex-button-in-word-set-button-caption/)
+Naučte se, jak vložit tlačítko ActiveX do dokumentu Word a nastavit jeho popisek pomocí Aspose.Words pro Javu.
 ### [Používání revizí v Aspose.Words pro Javu](./using-revisions/)
 Naučte se efektivně používat revizní prvky Aspose.Words pro Javu. Podrobný návod pro vývojáře. Optimalizujte správu dokumentů.
 ### [Používání sekcí v Aspose.Words pro Javu](./using-sections/)
 Prozkoumejte Aspose.Words pro Javu: Komplexní průvodce používáním sekcí. Přidávání, mazání, přidávání a klonování sekcí s příklady kódu.
+### [Nastavení velikosti tlačítka ve Wordu pomocí Javy – Kompletní průvodce Aspose.Words](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Naučte se, jak pomocí Aspose.Words pro Javu nastavit velikost tlačítka v dokumentu Word s podrobnými ukázkami kódu.
+### [Vytvoření koláčového grafu s Aspose.Words pro Javu – Kompletní průvodce krok za krokem](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Naučte se, jak vytvořit koláčový graf v Aspose.Words pro Javu pomocí podrobného krok za krokem návodu.
+### [Přidání Forms2OleControl do DOCX – Kompletní průvodce Aspose.Words](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Naučte se, jak pomocí Aspose.Words pro Javu přidat ovládací prvek Forms2OleControl do souboru DOCX. Kompletní krok za krokem návod.
+### [Vložení koláčového grafu do Wordu pomocí Aspose.Words – Kompletní průvodce](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Naučte se, jak pomocí Aspose.Words vytvořit a vložit koláčový graf do dokumentu Word. Kompletní krok za krokem návod.
+### [Vytvoření prázdného dokumentu Word s tlačítkem příkazu – krok za krokem](./create-blank-word-document-with-a-command-button-step-by-ste/)
+Naučte se, jak pomocí Aspose.Words pro Javu vytvořit prázdný dokument Word a přidat k němu tlačítko příkazu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

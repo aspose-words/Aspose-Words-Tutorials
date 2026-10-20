@@ -4,7 +4,9 @@
 "url": "/el/python-net/integration-interoperability/"
 "weight": 15
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Εκπαιδευτικά σεμινάρια ενσωμάτωσης και διαλειτουργικότητας για το Aspose.Words Python-net
 
 Εξερευνήστε αναλυτικούς οδηγούς βήμα προς βήμα για λειτουργίες ενσωμάτωσης και διαλειτουργικότητας χρησιμοποιώντας το Aspose.Words για Python-net. Αυτά τα σεμινάρια περιλαμβάνουν πλήρη παραδείγματα κώδικα και λεπτομερείς εξηγήσεις.
@@ -32,6 +34,9 @@
     ### [Master VBA Automation with Aspose.Words for Python&#58; A Complete Guide to Creating, Cloning, and Managing Projects](./master-vba-automation-aspose-words-python/)
 Μάθετε πώς να αυτοματοποιείτε έργα VBA του Microsoft Word χρησιμοποιώντας Python. Αυτός ο οδηγός καλύπτει τη δημιουργία, την κλωνοποίηση, τον έλεγχο της κατάστασης προστασίας και τη διαχείριση αναφορών σε έργα VBA με το Aspose.Words.
 
+    ### [cmake build x64 – Πλήρης Οδηγός για τη Δημιουργία και Κατασκευή Έργων VS 2022](./cmake-build-x64-complete-guide-to-generating-and-building-vs/)
+Μάθετε πώς να χρησιμοποιήσετε το CMake για να δημιουργήσετε έργα 64‑bit και να τα μεταγλωττίσετε σε Visual Studio 2022.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.Words για τεκμηρίωση Python-net](https://docs.aspose.com/words/python-net/)
@@ -40,3 +45,7 @@
 - [Φόρουμ Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Δωρεάν Υποστήριξη](https://forum.aspose.com/)
 - [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

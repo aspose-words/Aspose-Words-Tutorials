@@ -5,7 +5,9 @@
 "url": "/ru/python-net/tables-lists/aspose-words-python-markdown-table-list-guide/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Освоение Aspose.Words для Python: полное руководство по форматированию таблиц и списков Markdown
 
 ## Введение
@@ -185,3 +187,7 @@
 ## Заключение
 
 Освоив Aspose.Words для Python, вы сможете значительно улучшить свои возможности по созданию и управлению документами Markdown со сложными таблицами и списками. Независимо от того, работаете ли вы над технической документацией или совместными проектами, эти инструменты оптимизируют ваши рабочие процессы с документами и улучшат читаемость.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

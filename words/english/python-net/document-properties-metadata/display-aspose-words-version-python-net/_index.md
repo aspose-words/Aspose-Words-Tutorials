@@ -10,7 +10,9 @@ keywords:
 - retrieve Aspose.Words version info
 
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # How to Display Aspose.Words Version in Python and .NET
 
 ## Introduction
@@ -149,3 +151,7 @@ For further reading and support, refer to these resources:
 - [Aspose Support Forum](https://forum.aspose.com/c/words/10)
 
 With these tools, you're well-equipped to manage your Aspose.Words installations effectively. Happy coding!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -4,7 +4,9 @@
 "url": "/cs/python-net/getting-started/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Návody pro začátečníky s Aspose.Words v Pythonu a net
 
 Prozkoumejte komplexní podrobné návody pro začátečníky s Aspose.Words pro Python-net. Tyto návody obsahují kompletní příklady kódu a podrobná vysvětlení.
@@ -28,6 +30,9 @@ Naučte se, jak implementovat měřené licencování s Aspose.Words pro Python 
     ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 Výukový program pro Aspose.Words v Pythonu.net
 
+### [Vytvoření projektu CMake: konfigurace, sestavení a testování](./build-cmake-project-configure-build-test/)
+Naučte se, jak nakonfigurovat, sestavit a otestovat projekt CMake pomocí Aspose.Words.
+
 ## Další zdroje
 
 - [Dokumentace k Aspose.Words pro Python-net](https://docs.aspose.com/words/python-net/)
@@ -36,3 +41,7 @@ Výukový program pro Aspose.Words v Pythonu.net
 - [Fórum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Bezplatná podpora](https://forum.aspose.com/)
 - [Dočasná licence](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

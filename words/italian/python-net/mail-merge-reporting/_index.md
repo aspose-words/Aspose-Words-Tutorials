@@ -4,7 +4,9 @@
 "url": "/it/python-net/mail-merge-reporting/"
 "weight": 7
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Tutorial sulla stampa unione e la creazione di report per Aspose.Words Python-net
 
 Esplora guide complete passo passo per le operazioni di stampa unione e reporting utilizzando Aspose.Words per Python-net. Questi tutorial includono esempi di codice completi e spiegazioni dettagliate.
@@ -37,3 +39,7 @@ Scopri come padroneggiare l'unione di documenti con Aspose.Words in Python, conc
 - [Forum di Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Supporto gratuito](https://forum.aspose.com/)
 - [Licenza temporanea](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

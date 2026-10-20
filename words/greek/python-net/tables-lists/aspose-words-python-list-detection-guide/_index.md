@@ -5,7 +5,9 @@
 "url": "/el/python-net/tables-lists/aspose-words-python-list-detection-guide/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Οδηγός για την Υλοποίηση της Ανίχνευσης Λίστας σε Κείμενο Χρησιμοποιώντας το Aspose.Words για Python
 
 ## Εισαγωγή
@@ -171,3 +173,7 @@ def test_detect_hyperlinks(self):
 2. **Εργαλεία Ανάλυσης Περιεχομένου**Εξαγωγή δομημένων δεδομένων από αρχεία κειμένου για περαιτέρω ανάλυση ή αναφορά.
 3. **Εργασίες καθαρισμού δεδομένων**Τυποποίηση της μορφοποίησης κειμένου διαχειριζόμενοι τα κενά και αναγνωρίζοντας στοιχεία λίστας.
 4. **Επαλήθευση συνδέσμου**Επικυρώστε συνδέσμους μέσα σε μια δέσμη εγγράφων κειμένου για να βεβαιωθείτε ότι είναι ενεργοί και σωστοί.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -4,7 +4,9 @@
 "url": "/ar/python-net/integration-interoperability/"
 "weight": 15
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # دروس التكامل والتوافقية لـ Aspose.Words Python-net
 
 استكشف أدلةً شاملةً خطوة بخطوة لعمليات التكامل والتوافق باستخدام Aspose.Words لـ Python-net. تتضمن هذه الدروس أمثلةً برمجيةً كاملةً وشروحاتٍ مفصلة.
@@ -32,6 +34,9 @@
     ### [Master VBA Automation with Aspose.Words for Python&#58; A Complete Guide to Creating, Cloning, and Managing Projects](./master-vba-automation-aspose-words-python/)
 تعرّف على كيفية أتمتة مشاريع Microsoft Word VBA باستخدام Python. يغطي هذا الدليل إنشاء المراجع واستنساخها والتحقق من حالة الحماية وإدارتها في مشاريع VBA باستخدام Aspose.Words.
 
+    ### [دليل كامل لإنشاء وبناء مشاريع VS 2022 باستخدام cmake x64](./cmake-build-x64-complete-guide-to-generating-and-building-vs/)
+تعلم كيفية توليد وبناء مشاريع Visual Studio 2022 للمعمارية x64 باستخدام CMake خطوة بخطوة.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Python-net](https://docs.aspose.com/words/python-net/)
@@ -40,3 +45,7 @@
 - [منتدى Aspose.Words](https://forum.aspose.com/c/words/8)
 - [دعم مجاني](https://forum.aspose.com/)
 - [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

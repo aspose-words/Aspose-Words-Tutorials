@@ -5,7 +5,9 @@
 "url": "/cs/python-net/document-comparison-tracking/mastering-inline-node-revision-tracking-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Zvládnutí sledování revizí inline uzlů v Pythonu s Aspose.Words
 
 ## Zavedení
@@ -127,3 +129,7 @@ Nyní jste zvládli umění sledování revizí inline uzlů pomocí Aspose.Word
 - [Bezplatná zkušební verze a dočasné licence](https://purchase.aspose.com/temporary-license/)
 - [Fórum podpory Aspose](https://forum.aspose.com/c/words/10)
 Doufáme, že vám tento průvodce pomůže efektivně spravovat revize dokumentů pomocí Aspose.Words v Pythonu. Přejeme vám příjemné programování!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,9 @@
 "url": "/hu/python-net/document-properties-metadata/display-aspose-words-version-python-net/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Az Aspose.Words verziójának megjelenítése Pythonban és .NET-ben
 
 ## Bevezetés
@@ -144,3 +146,7 @@ További olvasmányokért és támogatásért tekintse meg ezeket a forrásokat:
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/words/10)
 
 Ezekkel az eszközökkel hatékonyan kezelheted az Aspose.Words telepítéseidet. Jó kódolást!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

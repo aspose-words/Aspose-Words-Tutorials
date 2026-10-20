@@ -4,7 +4,9 @@
 "url": "/ko/python-net/annotations-comments/"
 "weight": 11
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words Python-net에 대한 주석 및 코멘트 튜토리얼
 
 Aspose.Words for Python-net을 사용하여 주석 및 주석 작업을 위한 포괄적인 단계별 가이드를 살펴보세요. 이 튜토리얼에는 완전한 코드 예제와 자세한 설명이 포함되어 있습니다.
@@ -33,3 +35,7 @@ Python과 함께 Aspose.Words 라이브러리를 사용하여 Word 문서에서 
 - [Aspose.Words 포럼](https://forum.aspose.com/c/words/8)
 - [무료 지원](https://forum.aspose.com/)
 - [임시 면허](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

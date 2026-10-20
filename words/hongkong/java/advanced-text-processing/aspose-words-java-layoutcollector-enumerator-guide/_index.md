@@ -1,69 +1,11 @@
 ---
-date: '2026-08-10'
-description: 了解如何在 Java 中使用 Aspose.Words LayoutCollector 分析頁面，並使用 LayoutEnumerator
-  列舉版面元素，以實現精確的文件處理。
+date: '2026-01-14'
+description: 學習如何使用 Aspose.Words Java 重新開始頁碼，並使用 LayoutCollector 提取分頁資料、更新頁面佈局，將頁面渲染為圖像。
 keywords:
-- how to analyze pages
-- enumerate layout elements
-- Aspose.Words Java layout
-- document pagination analysis
-- layout enumerator
-lastmod: '2026-08-10'
-og_description: 了解如何在 Java 中使用 Aspose.Words LayoutCollector 分析頁面，並使用 LayoutEnumerator
-  列舉版面元素，以實現精確的文件處理。
-og_image_alt: Developer guide showing LayoutCollector and LayoutEnumerator usage in
-  Aspose.Words for Java
-og_title: 如何在 Java 中使用 LayoutCollector 分析頁面
-schemas:
-- author: Aspose
-  dateModified: '2026-08-10'
-  description: Learn how to analyze pages in Java using Aspose.Words LayoutCollector
-    and enumerate layout elements with LayoutEnumerator for precise document processing.
-  headline: How to analyze pages in Java using LayoutCollector
-  type: TechArticle
-- description: Learn how to analyze pages in Java using Aspose.Words LayoutCollector
-    and enumerate layout elements with LayoutEnumerator for precise document processing.
-  name: How to analyze pages in Java using LayoutCollector
-  steps:
-  - name: update layout and retrieve metrics
-    text: '**Explanation:** - `DocumentBuilder` inserts content. - `updatePageLayout()`
-      forces a layout pass so page numbers are accurate. - `getStartPage` / `getEndPage`
-      return the first and last page indices for any node.'
-  - name: traverse forward and backward through the layout
-    text: '**Explanation:** - `moveParent()` climbs up the tree. - Recursive traversal
-      gives you complete access to every layout node.'
-  - name: implement callback methods
-    text: '**Explanation:** - `notify()` receives an event identifier. - `ImageSaveOptions`
-      can be customized inside the callback for on‑the‑fly image rendering.'
-  - name: configure page‑numbering options
-    text: '**Explanation:** - `setContinuousSectionPageNumberingRestart()` determines
-      if page numbers restart at each continuous section boundary.'
-  type: HowTo
-- questions:
-  - answer: Yes, load the PDF with the appropriate password; LayoutCollector then
-      provides page numbers for the decrypted view.
-    question: Can LayoutCollector work with encrypted PDFs?
-  - answer: It exposes the `Text` property for `LayoutEntityType.TEXT` nodes, allowing
-      you to read the exact string rendered on each page.
-    question: Does LayoutEnumerator expose text content?
-  - answer: The library has been tested with documents exceeding **2,000 pages** without
-      running out of memory, thanks to its streaming layout engine.
-    question: How many pages can Aspose.Words handle in a single document?
-  - answer: Absolutely—run layout analysis on the Word document first, then convert
-      to PDF while preserving the calculated page numbers.
-    question: Is it possible to combine LayoutCollector with the Aspose.PDF conversion
-      API?
-  - answer: Aspose.Words for Java 25.3 supports Java 8 through Java 17, covering both
-      legacy and modern environments.
-    question: What Java versions are supported?
-  type: FAQPage
-tags:
-- page analysis
-- layout collector
-- layout enumerator
-- Aspose.Words Java
-- document processing
-title: 如何在 Java 中使用 LayoutCollector 分析頁面
+- Aspose.Words Java LayoutCollector
+- Java document layout management
+- LayoutEnumerator traversal
+title: 使用 Aspose.Words Java 重新開始頁碼 – LayoutCollector 與 LayoutEnumerator
 url: /zh-hant/java/advanced-text-processing/aspose-words-java-layoutcollector-enumerator-guide/
 weight: 1
 ---
@@ -74,36 +16,42 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 LayoutCollector 在 Java 中分析頁面
+# 使用 Aspose.Words Java 重新開始頁碼編號 – LayoutCollector 與 LayoutEnumerator
 
 ## 介紹
 
-如果您需要在 Java 應用程式中 **如何分析頁面**，Aspose.Words for Java 為您提供兩個強大的 API：`LayoutCollector` 用於頁面範圍分析，`LayoutEnumerator` 用於遍歷版面實體。這些工具讓您精確確定文字出現的位置、統計每個節的頁數，甚至列舉版面元素以進行自訂渲染。在本指南中，您將一步步學會如何使用這兩個 API、它們的重要性以及實際應用情境。
+您是否在大型 Java 文件中苦於 **重新開始頁碼編號**，同時又需要分析分頁或將頁面渲染為影像？使用 **Aspose.Words for Java**，您可以利用 `LayoutCollector` 與 `LayoutEnumerator` 不僅重新開始頁碼編號，還能 **提取分頁資料**、**更新頁面佈局**，以及 **將頁面渲染為影像** 以供預覽或產生 PDF。本指南將一步步說明，從設定函式庫到實作回呼，讓您完整掌控文件的渲染流程。
 
-## 快速回答
-- **LayoutCollector 的功能是什麼？** 它將文件中的每個節點映射到其起始與結束頁碼。  
-- **LayoutEnumerator 能列出每個版面元素嗎？** 可以，它遍歷版面樹並公開每個實體的屬性。  
-- **我需要授權嗎？** 提供免費試用授權；商業授權在正式環境中是必須的。  
-- **需要哪個 Java 版本？** JDK 8 或更高；Aspose.Words 25.3 支援 Java 8‑17。  
-- **記憶體使用是否成問題？** LayoutCollector 會在不將整個文件載入記憶體的情況下處理頁面，能輕鬆應付 500 頁的檔案。  
+**您將學會**
+- 如何使用 `LayoutCollector` 提取分頁資料並確定頁面跨度。
+- 使用 `LayoutEnumerator` 遍歷文件佈局。
+- 實作頁面佈局回呼以 **將頁面渲染為影像**。
+- 在連續區段中 **重新開始頁碼編號**，透過佈局選項完成設定。
+- 有效 **更新頁面佈局** 的技巧。
 
-## 什麼是版面分析？
-版面分析是檢查文件視覺結構（頁面、段落、表格及其他元素）的過程，用於提取分頁資料或驅動自訂渲染管線。透過了解內容在每頁的排版方式，開發人員可以產生精確的報告、建立自訂頁碼方案，或建構能反映文件真實外觀的視覺化圖表。
+## 快速解答
+- **如何在 Java 文件中重新開始頁碼編號？** 使用 `doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(...)` 並呼叫 `doc.updatePageLayout()`。
+- **哪個類別負責提取分頁資料？** `LayoutCollector` 提供任意節點的起始與結束頁索引。
+- **我可以將每一頁渲染為影像嗎？** 可以——實作 `IPageLayoutCallback` 並使用 `ImageSaveOptions`。
+- **需要手動呼叫更新頁面佈局嗎？** 在變更佈局選項後，務必呼叫 `doc.updatePageLayout()`。
+- **需要哪個版本的 Aspose.Words？** 範例適用於 Aspose.Words for Java 25.3（或更新版本）。
 
-## 為什麼要同時使用 LayoutCollector 與 LayoutEnumerator？
-這兩個 API 結合使用可為您帶來 **量化** 的優勢：Aspose.Words 支援 **超過 50 種輸入與輸出格式**，且能在一般伺服器硬體上於 **3 秒** 內處理 **500 頁文件**。使用 LayoutCollector 可取得精確的頁碼索引；搭配 LayoutEnumerator，您可以列舉每個版面元素，實現對渲染、報告或動態內容注入的細緻控制。
+## 什麼是重新開始頁碼編號？
+
+重新開始頁碼編號允許您在文件的特定區段重新啟動編號序列，這對於需要為章節或附錄設定獨立編號的報告、書籍或合約尤為重要。Aspose.Words 提供的佈局選項可讓您在不使用手動分頁技巧的情況下控制此行為。
+
+## 為什麼使用 LayoutCollector 與 LayoutEnumerator？
+
+- **LayoutCollector** 為您提供程式化存取分頁細節的能力，讓您 **提取分頁資料**（如任意節點的首尾頁）。
+- **LayoutEnumerator** 讓您遍歷視覺佈局樹，輕鬆定位頁面、段落或行，以進行自訂渲染或分析。
+- 兩者結合，可簡化原本需要昂貴 PDF 轉換或手動計算的複雜佈局任務。
 
 ## 前置條件
 
-- **Aspose.Words for Java** 版本 25.3（或更新）。  
-- **Maven** 或 **Gradle** 建置系統（請參考下方程式碼佔位符）。  
-- Java Development Kit (JDK) 8 或更新版本。  
-- 如 IntelliJ IDEA 或 Eclipse 等 IDE。
-
 ### 必要的函式庫與版本
-請確保已安裝 Aspose.Words for Java 版本 25.3。
+請確保已安裝 Aspose.Words for Java 版本 25.3（或更新）。
 
-**Maven:**  
+**Maven:**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -112,20 +60,21 @@ weight: 1
 </dependency>
 ```  
 
-**Gradle:**  
+**Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```  
 
 ### 環境設定需求
-- 已在機器上安裝 Java Development Kit (JDK)。  
-- 使用 IntelliJ IDEA 或 Eclipse 等 IDE 來執行與測試程式碼。
+- 已安裝 Java Development Kit (JDK)。
+- 使用 IntelliJ IDEA、Eclipse 或您偏好的 Java IDE。
+- 有效的 Aspose.Words 授權（免費試用亦可用於評估）。
 
-### 知識前置條件
-建議具備基本的 Java 程式設計知識。
+### 知識前提
+具備基本的 Java 程式設計知識即可。
 
 ## 設定 Aspose.Words
-首先，從 Aspose.Words for Java 下載頁面取得免費試用授權 [Aspose.Words for Java trial license page](https://releases.aspose.com/words/java/) 或使用臨時授權進行評估。然後在專案中初始化函式庫：
+首先，將 Aspose.Words 函式庫整合至您的專案。您可以在 [此處](https://releases.aspose.com/words/java/) 取得免費試用授權，或使用臨時授權進行測試。
 
 ```java
 import com.aspose.words.*;
@@ -151,13 +100,26 @@ public class SetupAsposeWords {
 Load the document → create LayoutCollector → call getStartPage(node) / getEndPage(node)
 ```
 
-### 步驟 1：初始化 Document 與 LayoutCollector
+函式庫就緒後，我們即可深入核心功能。
+
+## 實作指南
+
+### 功能 1：使用 LayoutCollector 進行頁面跨度分析
+`LayoutCollector` 功能讓您判斷節點跨越的頁數，是 **提取分頁資料** 的基礎。
+
+#### 概述
+透過 `LayoutCollector`，您可以取得任意節點的起始與結束頁索引，並計算其佔用的總頁數。
+
+#### 實作步驟
+
+**1. Initialize Document and LayoutCollector**
 ```java
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 ```  
 
-### 步驟 2：以多頁內容填充文件
+**2. Populate the Document**
+此處將加入跨多頁的內容：
 ```java
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.write("Section 1");
@@ -167,7 +129,7 @@ builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
 ```  
 
-### 步驟 3：更新版面並取得指標
+**3. Update Layout and Retrieve Metrics**
 ```java
 layoutCollector.clear();
 doc.updatePageLayout();
@@ -188,13 +150,25 @@ assert layoutCollector.getNumPagesSpanned(doc) == 5;
 Initialize LayoutEnumerator → move to first child → iterate while moving next sibling
 ```
 
-### 步驟 1：初始化 Document 與 LayoutEnumerator
+#### 說明
+- **`DocumentBuilder`** 用於插入文字與分頁/分節符號。
+- **`updatePageLayout()`** 重新計算佈局資訊，確保分頁資料正確。
+
+### 功能 2：使用 LayoutEnumerator 進行遍歷
+`LayoutEnumerator` 可有效導航視覺佈局樹。
+
+#### 概述
+您可以遍歷頁面、段落、行等佈局實體，這對自訂渲染或診斷非常有用。
+
+#### 實作步驟
+
+**1. Initialize Document and LayoutEnumerator**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 ```  
 
-### 步驟 2：在版面中向前與向後遍歷
+**2. Traversing Forward and Backward**
 ```java
 layoutEnumerator.moveParent(LayoutEntityType.PAGE);
 
@@ -205,25 +179,25 @@ traverseLayoutForward(layoutEnumerator, 1);
 traverseLayoutBackward(layoutEnumerator, 1);
 ```  
 
-**說明：**  
-- `moveParent()` 向上移動至父節點。  
-- 遞迴遍歷讓您完整存取每個版面節點。
+#### 說明
+- **`moveParent()`** 將列舉器移至父層實體（此例為頁面層級）。
+- 遞迴遍歷方法讓您探索整個佈局層級結構。
 
-## 如何實作頁面版面回呼？
+### 功能 3：頁面佈局回呼
+實作回呼以監控佈局事件，並在需要時 **將頁面渲染為影像**。
 
-`IPageLayoutCallback` 是一個介面，用於在文件處理期間接收版面事件，讓您能對節重新排版或渲染完成等版面變更作出回應。實作 `IPageLayoutCallback` 可讓您對這些版面事件作出回應，從而動態控制文件生成流程。
+#### 概述
+`IPageLayoutCallback` 介面會在文件的某部分完成重排或轉換完成時通知您。
 
-```text
-Set callback on Document → implement notify(event) → handle specific layout events
-```  
+#### 實作步驟
 
-### 步驟 1：設定回呼
+**1. Set Callback**
 ```java
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
 doc.updatePageLayout();
 ```  
 
-### 步驟 2：實作回呼方法
+**2. Implement Callback Methods**
 ```java
 private static class RenderPageLayoutCallback implements IPageLayoutCallback {
     public void notify(PageLayoutCallbackArgs a) throws Exception {
@@ -245,79 +219,81 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
 }
 ```  
 
-**說明：**  
-- `notify()` 接收事件識別碼。  
-- 可在回呼內自訂 `ImageSaveOptions` 以即時渲染影像。
+#### 說明
+- **`notify()`** 回應佈局事件。
+- **`ImageSaveOptions`** 搭配 `PageSet` 可 **將頁面渲染為影像**（本例為 PNG）。
 
-## 如何在連續節中重新開始頁碼？
+### 功能 4：在連續區段中重新開始頁碼編號
+控制多個連續區段的頁碼編號行為。
 
-`ContinuousSectionRestart` 是一個列舉，用於指定在連續節中是否重新開始頁碼，讓您對整份文件的頁碼方案擁有細緻的控制。當文件包含多個連續流動的節時，您可以決定頁碼是否自動重新開始。
+#### 概述
+透過設定 `ContinuousSectionRestart` 選項，您可以決定頁碼是在新頁上重新開始，或是無縫持續。
 
-```text
-Load document → set ContinuousSectionPageNumberingRestart option → save
-```  
+#### 實作步驟
 
-### 步驟 1：載入文件
+**1. Load Document**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
 ```  
 
-### 步驟 2：設定頁碼選項
+**2. Configure Page Numbering Options**
 ```java
 doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
 doc.updatePageLayout();
 ```  
 
-**說明：**  
-- `setContinuousSectionPageNumberingRestart()` 決定是否在每個連續節的邊界重新開始頁碼。
+#### 說明
+- **`setContinuousSectionPageNumberingRestart()`** 告訴 Aspose.Words 如何處理連續區段的編號。
+- 變更選項後，**更新頁面佈局** 以套用變更。
 
 ## 實務應用
-
-1. **文件分頁分析：** 使用 LayoutCollector 產生報告，顯示每章節佔用的頁數。  
-2. **PDF 渲染管線：** 結合 LayoutEnumerator 與自訂圖形程式碼，將每個版面元素精確渲染為原始外觀。  
-3. **動態文件更新：** 附加回呼以在節的版面變更時觸發業務邏輯（例如重新計算總計）。  
-4. **多節報告：** 僅在需要的地方重新開始頁碼，為大型手冊保持整潔、專業的外觀。
+1. **文件分頁分析** – 使用 `LayoutCollector` 監測內容在各頁的分佈，並依需求調整邊距或分頁符號。
+2. **PDF 渲染** – 結合 `LayoutEnumerator` 與回呼，在 PDF 轉換前產生高保真頁面影像。
+3. **動態文件更新** – 於佈局事件（例如表格展開）發生時自動重新渲染受影響的頁面。
+4. **多區段報告** – 套用 **重新開始頁碼編號**，讓每章節擁有獨立編號，同時保持連續流暢。
 
 ## 效能考量
+- 在呼叫 `updatePageLayout()` 前移除未使用的區段或隱藏內容，以提升處理速度。
+- 大型文件建議使用串流 API，避免一次載入整個檔案至記憶體。
+- 若僅需頁面層級資訊，可限制 `LayoutEnumerator` 的遞迴深度。
 
-- **記憶體：** LayoutCollector 採取延遲處理頁面方式，即使是 1,000 頁的文件也能保持在 200 MB 以內的記憶體使用。  
-- **遍歷速度：** LayoutEnumerator 的遞迴演算法在一般 2.5 GHz CPU 上能於 2 秒內處理 500 頁文件。  
-- **最佳實踐：** 在執行版面分析前移除未使用的樣式與影像，以縮短處理時間。
+## 常見問題與解決方案
+| 問題 | 原因 | 解決方案 |
+|------|------|----------|
+| `layoutCollector.getNumPagesSpanned()` 回傳 0 | 未更新佈局 | 在查詢前呼叫 `doc.updatePageLayout()` |
+| 回呼中未產生影像 | 缺少 `ImageSaveOptions` 設定 | 確保設定 `saveOptions.setPageSet(new PageSet(pageIndex))` |
+| 頁碼未重新開始 | `ContinuousSectionRestart` 值錯誤 | 使用 `ContinuousSectionRestart.FROM_NEW_PAGE_ONLY` 以真正重新開始 |
 
-## 常見問題
+## 常見問答
 
-**Q: LayoutCollector 能處理加密的 PDF 嗎？**  
-A: 可以，使用相應的密碼載入 PDF 後，LayoutCollector 會提供解密後的頁碼。
+**問：我能提取特定段落的精確頁碼嗎？**  
+答：可以——使用 `LayoutCollector` 取得該段落節點的起始頁，並在呼叫 `doc.updatePageLayout()` 後確保資料為最新。
 
-**Q: LayoutEnumerator 會公開文字內容嗎？**  
-A: 它會公開 `LayoutEntityType.TEXT` 節點的 `Text` 屬性，讓您讀取每頁渲染的精確字串。
+**問：`update page layout` 會影響文件內容嗎？**  
+答：不會。它僅重新計算佈局資訊，文字與格式保持不變。
 
-**Q: Aspose.Words 單一文件最多能處理多少頁？**  
-A: 該函式庫已在超過 **2,000 頁** 的文件上測試過，得益於其串流版面引擎，未出現記憶體不足的情況。
+**問：如何有效率地將大型文件的所有頁面渲染為影像？**  
+答：實作 `IPageLayoutCallback`，逐頁處理，必要時可使用多執行緒進行 I/O 密集的儲存作業。
 
-**Q: 是否可以將 LayoutCollector 與 Aspose.PDF 轉換 API 結合使用？**  
-A: 完全可以——先對 Word 文件執行版面分析，然後在轉換為 PDF 時保留計算出的頁碼。
+**問：是否只能為特定區段重新開始編號？**  
+答：可以——在呼叫 `updatePageLayout()` 前，於目標區段的佈局選項上套用 `setContinuousSectionPageNumberingRestart`。
 
-**Q: 支援哪些 Java 版本？**  
-A: Aspose.Words for Java 25.3 支援 Java 8 至 Java 17，涵蓋舊版與現代環境。
+**問：哪個版本的 Aspose.Words 引入了 `LayoutCollector`？**  
+答：`LayoutCollector` 自 2020 年初的版本起即已提供；本範例使用的是 25.3 版。
+
+## 結論
+透過精通 **重新開始頁碼編號**、`LayoutCollector` 與 `LayoutEnumerator`，您現在擁有一套強大的工具組，能在 Aspose.Words for Java 中執行進階文字處理。無論是 **提取分頁資料**、**將頁面渲染為影像**，或是單純控制各區段的頁碼編號，這些 API 都能提供精確且高效的程式化控制。
 
 ---
 
-**最後更新：** 2026-08-10  
-**測試環境：** Aspose.Words for Java 25.3  
-**作者：** Aspose  
-
-{{< blocks/products/products-backtop-button >}}
-
-## 相關教學
-
-- [如何使用 Aspose.Words for Java 將文件頁面渲染為縮圖](/words/java/images-shapes/render-word-pages-thumbnails-aspose-java/)
-- [Aspose.Words Java：自訂縮放與檢視選項指南，提升文件呈現](/words/java/headers-footers-page-setup/aspose-words-java-custom-zoom-options/)
-- [精通 Aspose.Words for Java 進階文字處理教學](/words/java/advanced-text-processing/)
-
+**Last Updated:** 2026-01-14  
+**Tested With:** Aspose.Words for Java 25.3  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

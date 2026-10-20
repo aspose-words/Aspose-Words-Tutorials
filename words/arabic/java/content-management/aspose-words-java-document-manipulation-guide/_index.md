@@ -1,67 +1,13 @@
 ---
-date: '2026-08-10'
-description: تعلم كيفية إضافة Aspose Words Maven Dependency وإتقان معالجة المستندات
-  باستخدام Aspose.Words for Java، بما في ذلك خلفيات الصفحات واستيراد العقد.
+date: '2025-11-26'
+description: تعلم كيفية تعيين لون خلفية الصفحة باستخدام Aspose.Words للغة Java، وتغيير
+  لون صفحة مستندات Word، ودمج أقسام المستند، واستيراد قسم من المستند بكفاءة.
 keywords:
-- aspose words maven dependency
-- set page background color
-- customize import format
-- add shape as background
-- apply background color
-lastmod: '2026-08-10'
-og_description: أضف Aspose Words Maven Dependency وتعلم معالجة المستندات في Java،
-  بما في ذلك ضبط لون خلفية الصفحة واستيراد العقد.
-og_image_alt: Guide showing Aspose Words Maven setup and document background customization
-  in Java
-og_title: Aspose Words Maven Dependency – دليل معالجة المستندات بلغة Java
-schemas:
-- author: Aspose
-  dateModified: '2026-08-10'
-  description: Learn how to add the Aspose Words Maven dependency and master document
-    manipulation using Aspose.Words for Java, including page backgrounds and node
-    import.
-  headline: Aspose Words Maven Dependency – Java document manipulation
-  type: TechArticle
-- description: Learn how to add the Aspose Words Maven dependency and master document
-    manipulation using Aspose.Words for Java, including page backgrounds and node
-    import.
-  name: Aspose Words Maven Dependency – Java document manipulation
-  steps:
-  - name: '**Free trial** – Register on the Aspose website for a 30‑day trial key.'
-    text: '**Free trial** – Register on the Aspose website for a 30‑day trial key.'
-  - name: '**Temporary license** – Use the trial key to generate a temporary license
-      file for full‑feature evaluation.'
-    text: '**Temporary license** – Use the trial key to generate a temporary license
-      file for full‑feature evaluation.'
-  - name: '**Purchase** – Buy a perpetual license to remove evaluation limits and
-      receive priority support.'
-    text: '**Purchase** – Buy a perpetual license to remove evaluation limits and
-      receive priority support.'
-  type: HowTo
-- questions:
-  - answer: No. The `aspose-words` artifact includes built‑in support for PDF, DOCX,
-      HTML, and over 30 other formats.
-    question: Do I need a separate Maven artifact for PDF support?
-  - answer: Yes, load the saved file, call `setPageColor()` again, and re‑save; the
-      operation is fast because Aspose.Words works directly on the file stream.
-    question: Can I change the background color after the document is saved?
-  - answer: The library can process multi‑hundred‑page files (up to 10,000 pages)
-      using streaming APIs that keep memory consumption under 200 MB.
-    question: How large a document can Aspose.Words handle?
-  - answer: Footnotes are stored in the main document’s `Footnotes` collection; `GlossaryDocument`
-      is optional and only needed for separate glossary sections.
-    question: Is the `GlossaryDocument` required for footnotes?
-  - answer: Yes, Aspose.Words 25.3+ is fully compatible with Java 8, 11, 17, and newer
-      LTS releases.
-    question: Does the library support Java 17?
-  type: FAQPage
-tags:
-- aspose words
-- maven dependency
-- java document manipulation
-- page background
-- import nodes
-title: Aspose Words Maven Dependency – معالجة المستندات بلغة Java
+- Aspose.Words for Java
+- Document initialization in Java
+- Customize page backgrounds with Java
+- Import nodes between documents using Java
+title: تعيين لون خلفية الصفحة باستخدام Aspose.Words للـ Java – دليل
 url: /ar/java/content-management/aspose-words-java-document-manipulation-guide/
 weight: 1
 ---
@@ -72,45 +18,40 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# اعتماد Aspose Words Maven – معالجة مستندات Java
+# تعيين لون خلفية الصفحة باستخدام Aspose.Words for Java
 
-في هذا البرنامج التعليمي ستتعلم كيفية إضافة **aspose words maven dependency** إلى مشروع Java ثم استخدام Aspose.Words for Java لمعالجة المستندات — تهيئتها، ضبط ألوان خلفية الصفحات، استيراد العقد، وإضافة أشكال كخلفيات. في النهاية ستحصل على قاعدة شفرة جاهزة للإنتاج يمكنها إنشاء مستندات ذات تنسيق غني دون الحاجة إلى تثبيت Microsoft Word.
+في هذا الدرس ستكتشف **كيفية تعيين لون خلفية الصفحة** باستخدام Aspose.Words for Java وتستكشف المهام ذات الصلة مثل **تغيير لون صفحة مستندات Word**، **دمج أقسام المستند**، **إنشاء صور خلفية للمستند**، و**استيراد قسم من مستند**. في النهاية، ستحصل على سير عمل جاهز للإنتاج لتخصيص مظهر وبنية ملفات Word برمجيًا.
 
 ## إجابات سريعة
-- **ما هو عنصر Maven الذي يضيف Aspose.Words؟** `com.aspose:aspose-words` مع أحدث رقم إصدار.  
-- **هل يمكنني ضبط لون خلفية الصفحة؟** نعم، استدعِ `Document.setPageColor()` مع أي `java.awt.Color`.  
-- **هل استيراد قسم بين المستندات آمن؟** `importNode()` يحافظ على البنية والأنماط عند استخدام `ImportFormatMode` المناسب.  
-- **هل تعمل الأشكال كخلفيات للصفحات؟** يمكنك إدراج `Shape` من النوع `ShapeType.IMAGE` وإرساله إلى الترويسة/التذييل ليعمل كخلفية.  
-- **ما نسخة Java المطلوبة؟** JDK 8 أو أعلى؛ المكتبة متوافقة مع Java 11، 17، والإصدارات LTS الأحدث.
+- **ما هو الصنف الرئيسي للعمل معه؟** `com.aspose.words.Document`
+- **أي طريقة تُعيّن خلفية موحدة؟** `Document.setPageColor(Color)`
+- **هل يمكنني استيراد قسم من مستند آخر؟** نعم، باستخدام `Document.importNode(...)`
+- **هل أحتاج إلى ترخيص للإنتاج؟** نعم، يلزم الحصول على ترخيص Aspose.Words مدفوع
+- **هل هذا مدعوم على Java 8+؟** بالتأكيد – يعمل مع جميع إصدارات JDK الحديثة
 
-## ما هو اعتماد Aspose Words Maven؟
-إن **aspose words maven dependency** هو إحداثيات Maven التي تجلب مكتبة Aspose.Words for Java وجميع تبعياتها المتسلسلة إلى مسار الفئة في مشروعك. إضافة هذا السطر الواحد إلى `pom.xml` يمنحك الوصول إلى أكثر من 35 صيغة إدخال وإخراج ويمكّن من توليد مستندات عالية الأداء على أي JVM.
+## ما هو “تعيين لون خلفية الصفحة”؟
+تعيين لون خلفية الصفحة يغيّر القماش البصري لكل صفحة في مستند Word. يُفيد ذلك في العلامة التجارية، تحسين قابلية القراءة، أو إنشاء نماذج قابلة للطباعة بظل خفيف.
 
-## لماذا تستخدم Aspose.Words for Java؟
-يعالج Aspose.Words **أكثر من 35** صيغة مستند — بما في ذلك DOCX وPDF وHTML وEPUB — مع معالجة ملفات تصل إلى **500 صفحة** دون تحميل المستند بالكامل في الذاكرة. هذا التصميم الذي يركز على الأداء يقلل من استهلاك RAM الخادم بنسبة تصل إلى **70 %** مقارنةً بأتمتة Office الأصلية، مما يجعله مثالياً للخدمات الصغيرة السحابية.
+## لماذا نغيّر لون صفحة مستندات Word؟
+تغيير لون الصفحة يمكن أن:
+- يطابق المستندات مع ألوان الشركة  
+- يقلل إجهاد العين في التقارير الطويلة  
+- يبرز الأقسام عند الطباعة على ورق ملون  
 
 ## المتطلبات المسبقة
 
-- **Aspose.Words for Java** الإصدار 25.3 أو أحدث (يوصى بأحدث إصدار ثابت).  
-- مجموعة تطوير Java (JDK) 8+ مثبتة على جهازك.  
-- بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse لتحرير وبناء المشروع.  
-- Maven أو Gradle لإدارة التبعيات.  
+قبل البدء، تأكد من وجود:
 
-### المكتبات المطلوبة والإصدارات
-- `com.aspose:aspose-words:25.3` (أو أحدث).  
-
-### المتطلبات المعرفية
-- الإلمام بأساسيات صياغة Java ومفاهيم البرمجة الكائنية.  
-- فهم ملفات بناء Maven/Gradle.
-
-مع استيفاء المتطلبات المسبقة، أنت جاهز لإضافة اعتماد Maven والبدء في كتابة الشفرة.
+- **Aspose.Words for Java** الإصدار 25.3 أو أحدث.  
+- **JDK** (Java 8 أو أحدث) مُثبت.  
+- بيئة تطوير متكاملة مثل **IntelliJ IDEA** أو **Eclipse**.  
+- معرفة أساسية بـ Java وإلمام بـ **Maven** أو **Gradle** لإدارة الاعتمادات.  
 
 ## إعداد Aspose.Words
 
-لدمج Aspose.Words في مشروع Java الخاص بك، أدرج المكتبة كاعتماد Maven أو Gradle.
-
 ### Maven
 أضف هذا المقتطف إلى ملف `pom.xml` الخاص بك:
+
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -120,15 +61,20 @@ weight: 1
 ```
 
 ### Gradle
-أدرج ما يلي في ملف `build.gradle` الخاص بك:
+ضمن ما يلي في ملف `build.gradle` الخاص بك:
+
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
 #### خطوات الحصول على الترخيص
-1. **تجربة مجانية** – سجّل على موقع Aspose للحصول على مفتاح تجريبي لمدة 30 يوماً.  
-2. **ترخيص مؤقت** – استخدم مفتاح التجربة لإنشاء ملف ترخيص مؤقت لتقييم جميع الميزات.  
-3. **شراء** – اشترِ ترخيصاً دائماً لإزالة حدود التقييم والحصول على دعم أولوية.
+1. **تجربة مجانية** – استكشف جميع الميزات لمدة 30 يومًا.  
+2. **ترخيص مؤقت** – افتح جميع الوظائف أثناء التقييم.  
+3. **شراء** – احصل على ترخيص دائم للاستخدام في الإنتاج.
+
+### التهيئة الأساسية والإعداد
+
+إليك برنامج Java بسيط ينشئ مستندًا فارغًا:
 
 ### التهيئة الأساسية والإعداد
 الفئة `Document` هي الكائن الأساسي الذي يمثل ملف PDF أو Word أو أي ملف مدعوم في الذاكرة. بعد إضافة اعتماد Maven، يمكنك إنشاء مثيل لها كما يلي:
@@ -145,14 +91,14 @@ public class DocumentSetup {
 }
 ```
 
-مع إعداد Aspose.Words، دعنا نستكشف الميزات المحددة التي ستحتاجها لمعالجة المستندات.
+مع جاهزية المكتبة، دعنا نتعمق في الميزات الأساسية.
 
 ## دليل التنفيذ
 
 ### الميزة 1: تهيئة المستند
 
 #### نظرة عامة
-تتيح لك تهيئة المستندات وفئاتها الفرعية بناء قوالب معقدة مثل القواميس، الحواشي السفلية، أو الأقسام المخصصة.
+إنشاء `GlossaryDocument` داخل مستند رئيسي يتيح لك إدارة القواميس، الأنماط، والأجزاء المخصصة في حاوية معزولة ونظيفة.
 
 #### كيف تهيء مستند القاموس؟
 أنشئ مثيل `Document` رئيسي، ثم أرفق `GlossaryDocument` لإدارة مدخلات القاموس في ملف واحد متماسك. يمثل GlossaryDocument جزء القاموس في مستند Word، ويخزن مدخلات مثل عناصر القاموس، الحواشي الختامية، والأجزاء المخصصة.
@@ -172,14 +118,12 @@ public class DocumentInitialization {
 }
 ```
 
-**شرح**  
-- `Document` هي الفئة الأساسية لجميع مستندات Aspose.Words.  
-- يمكن تعيين `GlossaryDocument` إلى المستند الرئيسي، مما يتيح لك تخزين مدخلات القاموس، الحواشي الختامية، ومحتوى إضافي آخر في جزء مخصص من الملف.
+*لماذا يهم:* هذا النمط هو الأساس لـ **دمج أقسام المستند** لاحقًا، لأن كل قسم يمكنه الحفاظ على أنماطه الخاصة مع بقائه ضمن نفس الملف.
 
 ### الميزة 2: ضبط لون خلفية الصفحة
 
 #### نظرة عامة
-تخصيص خلفيات الصفحات يحسن القراءة ويتماشى مع هوية الشركة.
+يمكنك تطبيق ظل موحد على كل صفحة باستخدام `Document.setPageColor`. هذا يلبي مباشرة الكلمة المفتاحية الأساسية **set page background color**.
 
 #### كيف تضبط لون خلفية الصفحة؟
 استخدم طريقة `setPageColor()` على كائن `Document`، مع تمرير قيمة `java.awt.Color` التي تمثل الظل المطلوب.
@@ -202,14 +146,12 @@ public class SetPageBackgroundColor {
 }
 ```
 
-**شرح**  
-- `setPageColor()` يطبق لون خلفية موحد على كل صفحة في المستند.  
-- تقبل فئة `Color` قيم RGB، لذا يمكنك مطابقة أي لوحة ألوان للعلامة التجارية بدقة.
+**نصيحة:** إذا كنت بحاجة إلى **تغيير لون صفحة مستندات Word** في الوقت الفعلي، استبدل `Color.lightGray` بأي ثابت من `java.awt.Color` أو قيمة RGB مخصصة.
 
-### الميزة 3: استيراد عقدة بين المستندات
+### الميزة 3: استيراد قسم من مستند (ودمج أقسام المستند)
 
 #### نظرة عامة
-دمج المحتوى من مصادر متعددة هو طلب شائع للتقارير وخطوط النشر الآلية.
+عند الحاجة إلى دمج محتوى من مصادر متعددة، يمكنك استيراد قسم كامل (أو أي عقدة) من مستند إلى آخر. هذا هو جوهر سيناريوهات **merge document sections** و **import section from document**.
 
 #### كيف تستورد قسمًا من مستند المصدر؟
 استدعِ `importNode()` على `Document` الوجهة، مع توفير العقدة المراد استيرادها و`ImportFormatMode` الذي يحدد طريقة معالجة الأنماط.
@@ -240,14 +182,12 @@ public class ImportNode {
 }
 ```
 
-**شرح**  
-- `importNode()` ينقل عقدة (مثل `Section`) من مستند إلى آخر مع الحفاظ على هيكله الداخلي.  
-- اختر `ImportFormatMode.KEEP_SOURCE_FORMATTING` للاحتفاظ بالأنماط الأصلية، أو `USE_DESTINATION_STYLES` لتبني سمة المستند الهدف.
+**نصيحة احترافية:** بعد الاستيراد، يمكنك استدعاء `dstDoc.updatePageLayout()` لضمان إعادة حساب فواصل الصفحات والرؤوس/التذييلات بشكل صحيح.
 
 ### الميزة 4: استيراد عقدة مع وضع تنسيق مخصص
 
 #### نظرة عامة
-ضمان اتساق الأنماط عند دمج المستندات يمنع الاختلافات البصرية.
+أحيانًا يستخدم المصدر والوجهة تعريفات أنماط مختلفة. `ImportFormatMode` يتيح لك اختيار ما إذا كنت تريد الحفاظ على أنماط المصدر أو فرض أنماط الوجهة.
 
 #### كيف تطبق وضع تنسيق استيراد مخصص؟
 حدد `ImportFormatMode` المطلوب عند استدعاء `importNode()`. يتيح لك ذلك التحكم فيما إذا كان سيتم الاحتفاظ بتنسيق المصدر أو استبداله. `ImportFormatMode` هو تعداد يحدد كيفية معالجة التنسيق أثناء استيراد العقدة، مثل الحفاظ على أنماط المصدر أو استخدام أنماط الوجهة.
@@ -274,14 +214,12 @@ public class ImportNodeCustom {
 }
 ```
 
-**شرح**  
-- `ImportFormatMode` يوفر ثلاث خيارات: `KEEP_SOURCE_FORMATTING`، `USE_DESTINATION_STYLES`، و`MERGE_FORMATTING`.  
-- اختيار الوضع المناسب يلغي الحاجة إلى تنظيف الأنماط بعد الاستيراد.
+**متى تستخدم:** اختر `USE_DESTINATION_STYLES` عندما تريد مظهرًا موحدًا عبر المستند المدمج، خاصة بعد **دمج أقسام المستند** ذات العلامات التجارية المختلفة.
 
-### الميزة 5: ضبط شكل الخلفية لصفحات المستند
+### الميزة 5: إنشاء صورة خلفية للمستند (تعيين شكل خلفية)
 
 #### نظرة عامة
-استخدام الأشكال كخلفيات للصفحات يتيح لك تضمين علامات مائية، شعارات، أو صور تمتد إلى حافة الصفحة خلف المحتوى الرئيسي.
+إلى جانب الألوان الصلبة، يمكنك تضمين أشكال أو صور كخلفيات للصفحات. يضيف هذا المثال شكل نجمة حمراء، لكن يمكنك استبداله بأي صورة لإنشاء **document background image**.
 
 #### كيف تُدرج شكل خلفية؟
 أنشئ `Shape` من النوع `ShapeType.IMAGE`، اضبط تخطيطه إلى `WRAP_NONE`، وأضفه إلى ترويسة أو تذييل المستند بحيث يظهر خلف جميع النصوص. يمثل Shape كائن رسم مثل صورة أو مربع نص أو شكل هندسي يمكن وضعه في أي مكان داخل المستند.
@@ -307,45 +245,40 @@ public class SetBackgroundShape {
 }
 ```
 
-**شرح**  
-- يمكن لكائنات `Shape` احتواء صور، رسومات متجهية، أو أشكال هندسية.  
-- وضع الشكل في الترويسة/التذييل يضمن تكراره في كل صفحة دون التأثير على تدفق النص الأساسي.
+**كيفية استخدام صورة:** استبدل إنشاء الـ `Shape` بـ `ShapeType.IMAGE` وحمّل تدفق صورة. سيحول ذلك الشكل إلى **document background image** يتكرر في كل صفحة.
 
-## المشكلات الشائعة واستكشاف الأخطاء
+## المشكلات الشائعة والحلول
 
-- **الترخيص غير موجود** – تحقق من أن كائن `License` يشير إلى ملف `.lic` صالح وأن الملف موجود في مسار الفئة.  
-- **لم يتم تطبيق اللون** – تأكد من استدعاء `setPageColor()` **قبل** حفظ المستند؛ التغييرات بعد الحفظ لن تبقى.  
-- **ImportNode يثير استثناءً** – تأكد من أن كل من المستندات المصدر والوجهة تم تحميلها بنفس `LoadOptions` (مثل نفس `LoadFormat`).  
-- **شكل الخلفية يظهر خلف النص لكنه غير مرئي** – تحقق من صحة مسار ملف الصورة وأن `RelativeHorizontalPosition` و`RelativeVerticalPosition` للـ `Shape` مضبوطين على `PAGE`.
+| المشكلة | الحل |
+|-------|----------|
+| **لون الخلفية غير مطبق** | تأكد من استدعاء `doc.setPageColor(...)` **قبل** حفظ المستند. |
+| **القسم المستورد يفقد التنسيق** | استخدم `ImportFormatMode.USE_DESTINATION_STYLES` لفرض أنماط الوجهة. |
+| **الشكل لا يظهر في جميع الصفحات** | أدخل الشكل في **الرأس/التذييل** لكل قسم، أو استنسخه لكل قسم. |
+| **استثناء الترخيص** | تحقق من استدعاء `License.setLicense("Aspose.Words.Java.lic")` مبكرًا في تطبيقك. |
+| **قيمة اللون تبدو مختلفة** | يستخدم `java.awt.Color` نظام sRGB؛ تحقق من قيم RGB الدقيقة التي تحتاجها. |
 
 ## الأسئلة المتكررة
 
-**س: هل أحتاج إلى عنصر Maven منفصل لدعم PDF؟**  
-ج: لا. عنصر `aspose-words` يتضمن دعمًا مدمجًا لـ PDF وDOCX وHTML وأكثر من 30 صيغة أخرى.
+**س: هل يمكنني تعيين لون خلفية مختلف لأقسام فردية؟**  
+ج: نعم. بعد إنشاء `Section` جديد، استدعِ `section.getPageSetup().setPageColor(Color)` لهذا القسم المحدد.
 
-**س: هل يمكنني تغيير لون الخلفية بعد حفظ المستند؟**  
-ج: نعم، قم بتحميل الملف المحفوظ، استدعِ `setPageColor()` مرة أخرى، وأعد حفظه؛ العملية سريعة لأن Aspose.Words يعمل مباشرة على تدفق الملف.
+**س: هل يمكن استخدام تدرج لوني بدلًا من اللون الصلب؟**  
+ج: لا يدعم Aspose.Words ملء التدرج مباشرة، لكن يمكنك إدراج صورة تغطي الصفحة بالكامل بتدرج وتعيينها كخلفية.
 
-**س: ما حجم المستند الذي يمكن لـ Aspose.Words معالجته؟**  
-ج: يمكن للمكتبة معالجة ملفات مئات الصفحات (حتى 10,000 صفحة) باستخدام واجهات برمجة تطبيقات البث التي تحافظ على استهلاك الذاكرة تحت 200 MB.
+**س: كيف أدمج مستندات كبيرة دون نفاد الذاكرة؟**  
+ج: استخدم `Document.appendDocument(otherDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING)` بطريقة تدفقية، واستدعِ `doc.updatePageLayout()` بعد كل دمج.
 
-**س: هل `GlossaryDocument` مطلوب للحواشي السفلية؟**  
-ج: تُخزن الحواشي السفلية في مجموعة `Footnotes` بالمستند الرئيسي؛ `GlossaryDocument` اختياري ولا يُحتاج إليه إلا لأقسام القاموس المنفصلة.
+**س: هل يعمل الـ API مع ملفات .docx التي أنشأتها Microsoft Word 2019؟**  
+ج: بالتأكيد. يدعم Aspose.Words بالكامل معيار OOXML المستخدم في إصدارات Word الحديثة.
 
-**س: هل تدعم المكتبة Java 17؟**  
-ج: نعم، Aspose.Words 25.3+ متوافق بالكامل مع Java 8 و11 و17 والإصدارات LTS الأحدث.
+**س: ما هي أفضل طريقة لتغيير خلفية ملف .doc موجود برمجيًا؟**  
+ج: حمّل المستند بـ `new Document("file.doc")`، استدعِ `setPageColor`، ثم احفظه مرة أخرى كـ `.doc` أو `.docx`.
 
 ---
 
-**آخر تحديث:** 2026-08-10  
+**آخر تحديث:** 2025-11-26  
 **تم الاختبار مع:** Aspose.Words for Java 25.3  
-**المؤلف:** Aspose
-
-## دروس ذات صلة
-
-- [دروس Aspose.Words Java لإدارة المحتوى - معالجة المستندات الرئيسية](/words/java/content-management/)
-- [إتقان Aspose.Words Java لتعامل فعال مع متغيرات المستند](/words/java/content-management/aspose-words-java-document-variable-manipulation/)
-- [إتقان Aspose.Words Java: دروس عمليات المستند](/words/java/document-operations/)
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -353,4 +286,4 @@ public class SetBackgroundShape {
 
 {{< blocks/products/products-backtop-button >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

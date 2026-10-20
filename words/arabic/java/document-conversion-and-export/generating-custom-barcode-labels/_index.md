@@ -1,10 +1,12 @@
 ---
-"description": "أنشئ ملصقات باركود مخصصة باستخدام Aspose.Words لجافا. تعرّف على كيفية إنشاء حلول باركود مخصصة باستخدام Aspose.Words لجافا في هذا الدليل المفصل."
-"linktitle": "إنشاء ملصقات الباركود المخصصة"
-"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
-"title": "إنشاء ملصقات الباركود المخصصة في Aspose.Words لـ Java"
-"url": "/ar/java/document-conversion-and-export/generating-custom-barcode-labels/"
-"weight": 10
+date: 2025-12-10
+description: تعلم كيفية إنشاء ملصقات باركود مخصصة باستخدام Aspose.Words للغة Java.
+  يوضح لك هذا الدليل خطوة بخطوة كيفية تضمين الباركود في مستندات Word.
+linktitle: Generating Custom Barcode Labels
+second_title: Aspose.Words Java Document Processing API
+title: إنشاء ملصقات باركود مخصصة في Aspose.Words لجافا
+url: /ar/java/document-conversion-and-export/generating-custom-barcode-labels/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,27 +15,32 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء ملصقات الباركود المخصصة في Aspose.Words لـ Java
+# إنشاء ملصقات باركود مخصصة في Aspose.Words للـ Java
 
+## مقدمة حول إنشاء باركود مخصص في Aspose.Words للـ Java
 
-## مقدمة لإنشاء ملصقات الباركود المخصصة في Aspose.Words لـ Java
+الباركودات أساسية في التطبيقات الحديثة — سواء كنت تدير المخزون، أو تطبع تذاكر، أو تنشئ بطاقات هوية. في هذا الدرس ستقوم **بإنشاء ملصقات باركود مخصصة** وتضمينها مباشرةً في مستند Word باستخدام واجهة `IBarcodeGenerator`. سنستعرض كل خطوة، من إعداد البيئة إلى إدراج صورة الباركود، لتتمكن من استخدام الباركود في مشاريع الخاصة بك فورًا.
 
-تُعد الرموز الشريطية أساسية في التطبيقات الحديثة، سواءً كنت تدير مخزونًا أو تُصدر تذاكر أو تُنشئ بطاقات هوية. مع Aspose.Words لجافا، أصبح إنشاء ملصقات رموز شريطية مخصصة أمرًا في غاية السهولة. سيرشدك هذا البرنامج التعليمي خطوة بخطوة خلال عملية إنشاء ملصقات رموز شريطية مخصصة باستخدام واجهة IBarcodeGenerator. هل أنت مستعد للبدء؟ هيا بنا!
+## إجابات سريعة
+- **ماذا يعلّمك هذا الدرس؟** كيفية إنشاء ملصقات باركود مخصصة وتضمينها في ملف Word باستخدام Aspose.Words للـ Java.  
+- **ما نوع الباركود المستخدم في المثال؟** رمز QR (يمكن استبداله بأي نوع مدعوم).  
+- **هل أحتاج إلى ترخيص؟** يلزم الحصول على ترخيص مؤقت للوصول غير المحدود أثناء التطوير.  
+- **ما نسخة Java المطلوبة؟** JDK 8 أو أعلى.  
+- **هل يمكنني تغيير حجم الباركود أو ألوانه؟** نعم — عدّل إعدادات `BarcodeParameters` و `BarcodeGenerator`.
 
+## المتطلبات المسبقة
 
-## المتطلبات الأساسية
+قبل البدء بالبرمجة، تأكد من توفر ما يلي:
 
-قبل أن نبدأ في الترميز، تأكد من أن لديك ما يلي:
-
-- مجموعة تطوير Java (JDK): الإصدار 8 أو أعلى.
-- Aspose.Words لمكتبة Java: [التحميل هنا](https://releases.aspose.com/words/java/).
-- Aspose.BarCode لمكتبة Java: [التحميل هنا](https://releases.aspose.com/).
-- بيئة التطوير المتكاملة (IDE): IntelliJ IDEA، أو Eclipse، أو أي بيئة تطوير متكاملة تفضلها.
-- رخصة مؤقتة: الحصول على [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/) للوصول غير المقيد.
+- مجموعة تطوير Java (JDK): الإصدار 8 أو أعلى.  
+- مكتبة Aspose.Words للـ Java: [Download here](https://releases.aspose.com/words/java/).  
+- مكتبة Aspose.BarCode للـ Java: [Download here](https://releases.aspose.com/).  
+- بيئة تطوير متكاملة (IDE): IntelliJ IDEA، Eclipse، أو أي IDE تفضله.  
+- ترخيص مؤقت: احصل على [temporary license](https://purchase.aspose.com/temporary-license/) للوصول غير المحدود.
 
 ## استيراد الحزم
 
-سنستخدم مكتبتي Aspose.Words وAspose.BarCode. استورد الحزم التالية إلى مشروعك:
+سنستخدم مكتبات Aspose.Words و Aspose.BarCode. استورد الحزم التالية في مشروعك:
 
 ```java
 import com.aspose.barcode.generation.*;
@@ -43,22 +50,20 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 ```
 
-تسمح لنا هذه الواردات بالاستفادة من ميزات إنشاء الباركود ودمجها في مستندات Word.
+تمنحنا هذه الاستيرادات إمكانية الوصول إلى واجهة برمجة تطبيقات إنشاء الباركود وفئات مستندات Word التي سنحتاجها.
 
-دعونا نقسم هذه المهمة إلى خطوات قابلة للإدارة.
+## الخطوة 1: إنشاء فئة مساعدة لعمليات الباركود
 
-## الخطوة 1: إنشاء فئة أدوات مساعدة لعمليات الباركود
+للحفاظ على نظافة الكود الرئيسي، سنجعل المساعدات العامة — مثل **تحويل twips إلى بكسل** و **تحويل اللون السداسي** — في فئة مساعدة.
 
-لتبسيط العمليات المتعلقة بالرمز الشريطي، سننشئ فئة أدوات مساعدة تحتوي على طرق مساعدة للمهام الشائعة مثل تحويل الألوان وتعديل الحجم.
-
-### شفرة:
+### الكود
 
 ```java
 class CustomBarcodeGeneratorUtils {
     public static double twipsToPixels(String heightInTwips, double defVal) {
         try {
             int lVal = Integer.parseInt(heightInTwips);
-            return (lVal / 1440.0) * 96.0; // بافتراض أن DPI الافتراضي هو 96
+            return (lVal / 1440.0) * 96.0; // Assuming default DPI is 96
         } catch (Exception e) {
             return defVal;
         }
@@ -76,16 +81,16 @@ class CustomBarcodeGeneratorUtils {
 }
 ```
 
-### توضيح:
+**شرح**
 
-- `twipsToPixels` الطريقة: تحويل التويب (المستخدم في مستندات Word) إلى بكسل.
-- `convertColor` الطريقة: ترجمة أكواد الألوان السداسية عشرية إلى `Color` أشياء.
+- `twipsToPixels` – تقيس Word الأبعاد بوحدات **twips**؛ هذه الطريقة تحوّلها إلى بكسل الشاشة، وهو مفيد عندما تحتاج لتحديد حجم صورة الباركود بدقة.  
+- `convertColor` – يحول سلسلة سداسية (مثال: `"FF0000"` للون الأحمر) إلى كائن `java.awt.Color`، مما يتيح لك **كيفية إدراج باركود** بألوان أمامية وخلفية مخصصة.
 
-## الخطوة 2: تنفيذ مُنشئ الباركود المخصص
+## الخطوة 2: تنفيذ مولّد الباركود المخصص
 
-سوف نقوم بتنفيذ `IBarcodeGenerator` واجهة لإنشاء الباركودات ودمجها مع Aspose.Words.
+الآن سننفّذ واجهة `IBarcodeGenerator`. ستكون هذه الفئة مسؤولة عن **إنشاء صور qr code java**‑style يمكن لـ Aspose.Words تضمينها.
 
-### شفرة:
+### الكود
 
 ```java
 class CustomBarcodeGenerator implements IBarcodeGenerator {
@@ -115,28 +120,27 @@ class CustomBarcodeGenerator implements IBarcodeGenerator {
 }
 ```
 
-### توضيح:
+**شرح**
 
-- `getBarcodeImage` طريقة:
-  - ينشئ `BarcodeGenerator` مثال.
-  - تعيين لون الباركود ولون الخلفية وإنشاء الصورة.
+- `getBarcodeImage` ينشئ كائنًا من `BarcodeGenerator`، يطبّق الألوان الممررة عبر `BarcodeParameters`، ثم يُعيد صورة `BufferedImage`.  
+- الطريقة تتعامل بأناقة مع الأخطاء عبر إرجاع صورة بديلة، مما يضمن عدم تعطل إنشاء مستند Word.
 
-## الخطوة 3: إنشاء رمز شريطي وإضافته إلى مستند Word
+## الخطوة 3: إنشاء باركود **وتضمينه في Word**
 
-الآن، سنقوم بدمج مولد الباركود الخاص بنا في مستند Word.
+مع وجود المولّد جاهزًا، يمكننا الآن إنتاج صورة باركود و**إدراجها في مستند Word**.
 
-### شفرة:
+### الكود
 
 ```java
 import com.aspose.words.*;
 
 public class GenerateCustomBarcodeLabels {
     public static void main(String[] args) throws Exception {
-        // تحميل أو إنشاء مستند Word
+        // Load or create a Word document
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
 
-        // إعداد مولد الباركود المخصص
+        // Set up custom barcode generator
         CustomBarcodeGenerator barcodeGenerator = new CustomBarcodeGenerator();
         BarcodeParameters barcodeParameters = new BarcodeParameters();
         barcodeParameters.setBarcodeType("QR");
@@ -144,13 +148,13 @@ public class GenerateCustomBarcodeLabels {
         barcodeParameters.setForegroundColor("000000");
         barcodeParameters.setBackgroundColor("FFFFFF");
 
-        // إنشاء صورة الباركود
+        // Generate barcode image
         BufferedImage barcodeImage = barcodeGenerator.getBarcodeImage(barcodeParameters);
 
-        // إدراج صورة الباركود في مستند Word
+        // Insert barcode image into Word document
         builder.insertImage(barcodeImage, 200, 200);
 
-        // حفظ المستند
+        // Save the document
         doc.save("CustomBarcodeLabels.docx");
 
         System.out.println("Barcode labels generated successfully!");
@@ -158,44 +162,59 @@ public class GenerateCustomBarcodeLabels {
 }
 ```
 
-### توضيح:
+**شرح**
 
-- تهيئة المستند: إنشاء مستند Word أو تحميله.
-- معلمات الباركود: تحديد نوع الباركود والقيمة والألوان.
-- إدراج الصورة: أضف صورة الباركود المُنشأة إلى مستند Word.
-- حفظ المستند: احفظ الملف بالتنسيق المطلوب.
+1. **تهيئة المستند** – ينشئ `Document` جديد (أو يمكنك تحميل قالب موجود).  
+2. **معلمات الباركود** – تحدد نوع الباركود (`QR`)، والقيمة المراد ترميزها، وألوان الخلفية/الأمام.  
+3. **إدراج الصورة** – `builder.insertImage` يضع الباركود المُولَّد بالحجم المطلوب (200 × 200 بكسل). هذا هو جوهر **كيفية إدراج باركود** في ملف Word.  
+4. **الحفظ** – المستند النهائي `CustomBarcodeLabels.docx` يحتوي على الباركود المضمّن جاهزًا للطباعة أو التوزيع.
 
-## خاتمة
+## لماذا نُنشئ ملصقات باركود مخصصة باستخدام Aspose.Words؟
 
-باتباع هذه الخطوات، يمكنك إنشاء ملصقات باركود مخصصة وتضمينها بسلاسة في مستندات Word باستخدام Aspose.Words لجافا. يتميز هذا النهج بالمرونة ويمكن تخصيصه ليناسب مختلف التطبيقات. برمجة ممتعة!
+- **تحكم كامل** في مظهر الباركود (النوع، الحجم، الألوان).  
+- **تكامل سلس** — لا حاجة لملفات صورة وسيطة؛ يتم إنشاء الباركود في الذاكرة وإدراجه مباشرة.  
+- **متعدد المنصات** — يعمل على أي نظام تشغيل يدعم Java، ما يجعله مثاليًا لإنشاء المستندات من جانب الخادم.  
+- **قابل للتوسع** — يمكنك تكرار العملية عبر مصدر بيانات لإنشاء مئات الملصقات المخصَّصة في تشغيل واحد.
 
+## المشكلات الشائعة & استكشاف الأخطاء
 
-## الأسئلة الشائعة
+| العَرَض | السبب المحتمل | الحل |
+|---------|--------------|-----|
+| الباركود يظهر فارغًا | ألوان `BarcodeParameters` متطابقة (مثلاً، أسود على أسود) | تحقق من قيم `foregroundColor` و `backgroundColor`. |
+| الصورة مشوّهة | أبعاد بكسل غير صحيحة تم تمريرها إلى `insertImage` | عدّل قيم العرض/الارتفاع أو استخدم تحويل `twipsToPixels` للحصول على حجم دقيق. |
+| خطأ نوع باركود غير مدعوم | استخدام نوع غير معروف في `CustomBarcodeGeneratorUtils.getBarcodeEncodeType` | تأكد من أن سلسلة نوع الباركود تطابق أحد `EncodeTypes` المدعومة (مثل `"QR"`، `"CODE128"`). |
 
-1. هل يمكنني استخدام Aspose.Words لـ Java بدون ترخيص؟
-نعم، ولكن سيكون لها بعض القيود. احصل على [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/) للحصول على الوظائف الكاملة.
+## الأسئلة المتكررة
 
-2. ما هي أنواع الباركود التي يمكنني توليدها؟
-يدعم Aspose.BarCode رموز الاستجابة السريعة (QR)، والرمز 128، وEAN-13، والعديد من الأنواع الأخرى. تحقق من [التوثيق](https://reference.aspose.com/words/java/) للحصول على القائمة الكاملة.
+**س: هل يمكنني استخدام Aspose.Words للـ Java بدون ترخيص؟**  
+ج: نعم، لكن سيواجهك بعض القيود. احصل على [temporary license](https://purchase.aspose.com/temporary-license/) للوظائف الكاملة.
 
-3. كيف يمكنني تغيير حجم الباركود؟
-ضبط `XDimension` و `BarHeight` المعلمات في `BarcodeGenerator` إعدادات.
+**س: ما أنواع الباركود التي يمكنني إنشاؤها؟**  
+ج: يدعم Aspose.BarCode QR، Code 128، EAN‑13، والعديد من الصيغ الأخرى. راجع [documentation](https://reference.aspose.com/words/java/) للقائمة الكاملة.
 
-4. هل يمكنني استخدام الخطوط المخصصة للرموز الشريطية؟
-نعم، يمكنك تخصيص خطوط نص الباركود من خلال `CodeTextParameters` ملكية.
+**س: كيف يمكنني تغيير حجم الباركود؟**  
+ج: عدّل قيم العرض والارتفاع في `builder.insertImage`، أو استخدم `twipsToPixels` لتحويل وحدات قياس Word إلى بكسل.
 
-5. أين يمكنني الحصول على المساعدة مع Aspose.Words؟
-قم بزيارة [منتدى الدعم](https://forum.aspose.com/c/words/8/) للحصول على المساعدة.
+**س: هل يمكنني استخدام خطوط مخصصة لنص الباركود؟**  
+ج: نعم، يمكنك تخصيص خط النص عبر خاصية `CodeTextParameters` في `BarcodeGenerator`.
 
+**س: أين يمكنني الحصول على مساعدة إذا واجهت مشاكل؟**  
+ج: زر [support forum](https://forum.aspose.com/c/words/8/) للحصول على مساعدة من مجتمع Aspose والمهندسين.
 
+## الخلاصة
 
+باتباع الخطوات أعلاه، أصبحت الآن تعرف **كيفية إنشاء صور باركود مخصصة** و**تضمين الباركود في مستندات Word** باستخدام Aspose.Words للـ Java. هذه التقنية مرنة بما يكفي لبطاقات المخزون، تذاكر الفعاليات، أو أي سيناريو يتطلب وجود باركود ضمن مستند مُولَّد. جرّب أنواعًا مختلفة من الباركود وخيارات التنسيق لتتناسب مع احتياجات عملك الخاصة.
+
+---
+
+**آخر تحديث:** 2025-12-10  
+**تم الاختبار مع:** Aspose.Words للـ Java 24.12، Aspose.BarCode للـ Java 24.12  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

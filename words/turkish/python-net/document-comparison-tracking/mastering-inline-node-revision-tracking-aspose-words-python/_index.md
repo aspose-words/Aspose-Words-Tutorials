@@ -5,7 +5,9 @@
 "url": "/tr/python-net/document-comparison-tracking/mastering-inline-node-revision-tracking-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words ile Python'da Satır İçi Düğüm Revizyon İzlemeyi Ustalaştırma
 
 ## giriiş
@@ -127,3 +129,7 @@ Artık Python'da Aspose.Words kullanarak satır içi düğüm revizyonlarını i
 - [Ücretsiz Deneme ve Geçici Lisanslar](https://purchase.aspose.com/temporary-license/)
 - [Aspose Destek Forumu](https://forum.aspose.com/c/words/10)
 Bu kılavuzun Python'da Aspose.Words kullanarak belge revizyonlarını etkili bir şekilde yönetmenizi sağlayacağını umuyoruz. İyi kodlamalar!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

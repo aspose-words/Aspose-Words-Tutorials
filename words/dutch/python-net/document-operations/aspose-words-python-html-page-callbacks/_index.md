@@ -5,7 +5,9 @@
 "url": "/nl/python-net/document-operations/aspose-words-python-html-page-callbacks/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Implementatie van aangepaste HTML-pagina-opslag-callbacks in Python met Aspose.Words
 
 ## Invoering
@@ -149,3 +151,7 @@ A5: Sluit je aan bij de [Aspose-forum](https://forum.aspose.com/c/words/10) om v
 - **Steun**: Bezoek de [Aspose Forum](https://forum.aspose.com/c/words/10) voor vragen en ondersteuning vanuit de community.
 
 Duik vandaag nog in Aspose.Words voor Python en ontdek nieuwe mogelijkheden voor documentverwerking!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

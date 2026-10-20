@@ -4,7 +4,9 @@
 "url": "/pl/python-net/document-operations/"
 "weight": 2
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Samouczki dotyczące operacji na dokumentach dla Aspose.Words Python-net
 
 Poznaj kompleksowe przewodniki krok po kroku dotyczące operacji na dokumentach przy użyciu Aspose.Words dla Python-net. Te samouczki zawierają kompletne przykłady kodu i szczegółowe wyjaśnienia.
@@ -22,7 +24,7 @@ Kategoria „Operacje dokumentowe” jest dostosowana do programistów, którzy 
 
 ## Dostępne samouczki
 
-### [Zaawansowana manipulacja plikami PDF za pomocą Aspose.Words dla Pythona: kompleksowy przewodnik](./aspose-words-python-pdf-manipulation/)
+    ### [Zaawansowana manipulacja plikami PDF za pomocą Aspose.Words dla Pythona: kompleksowy przewodnik](./aspose-words-python-pdf-manipulation/)
 Dowiedz się, jak manipulować plikami PDF za pomocą Aspose.Words dla Pythona. Konwertuj, edytuj i obsługuj zaszyfrowane dokumenty z łatwością.
 
     ### [Convert DOCX to Fixed-Form XAML in Python Using Aspose.Words&#58; A Comprehensive Guide](./python-docx-to-xaml-aspose-tutorial/)
@@ -55,6 +57,27 @@ Samouczek dotyczący kodu dla Aspose.Words Python-net
     ### [Save Word Documents as PostScript in Python Using Aspose.Words&#58; A Comprehensive Guide](./save-docs-as-postscript-using-aspose-words-python/)
 Dowiedz się, jak konwertować dokumenty Word do formatu PostScript za pomocą Aspose.Words for Python. Ten przewodnik obejmuje opcje konfiguracji, konwersji i drukowania składanego.
 
+    ### [Odzyskaj uszkodzony DOCX – otwórz i załaduj dokument Word](./recover-corrupted-docx-open-load-word-document/)
+Dowiedz się, jak otworzyć i załadować uszkodzony plik DOCX przy użyciu Aspose.Words dla Python-net.
+
+### [Odzyskaj uszkodzony DOCX – Kompletny przewodnik włączania trybu odzyskiwania i uzyskiwania liczby stron](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
+Dowiedz się, jak włączyć tryb odzyskiwania uszkodzonych plików DOCX i uzyskać liczbę stron dokumentu przy użyciu Aspose.Words dla Python-net.
+### [Odzyskaj uszkodzony dokument Word przy użyciu Pythona – Kompletny przewodnik](./recover-corrupted-word-document-using-python-complete-guide/)
+Dowiedz się, jak otworzyć i naprawić uszkodzony dokument Word przy użyciu Pythona.
+### [Odzyskaj uszkodzony dokument Word przy użyciu Aspose.Words dla Pythona](./recover-corrupted-word-document-with-aspose-words-python/)
+Dowiedz się, jak przywrócić uszkodzony dokument Word przy użyciu Aspose.Words w Pythonie.
+### [Jak odzyskać DOCX – Kompletny przewodnik przywracania uszkodzonych dokumentów Word](./how-to-recover-docx-complete-guide-to-restoring-corrupted-wo/)
+Dowiedz się, jak przywrócić uszkodzone pliki DOCX i odzyskać ich zawartość przy użyciu Aspose.Words dla Python-net.
+### [Jak odzyskać pliki DOCX w Pythonie – Ładowanie dokumentu z odzyskiwaniem przy użyciu Aspose.Words](./how-to-recover-docx-files-in-python-load-document-with-recov/)
+Dowiedz się, jak odzyskać uszkodzone pliki DOCX i załadować je z opcją odzyskiwania przy użyciu Aspose.Words w Pythonie.
+
+### [Odzyskaj uszkodzony DOCX – Kompletny przewodnik przy użyciu Aspose.Words dla Pythona](./recover-corrupted-docx-complete-guide-using-aspose-words-for/)
+Dowiedz się, jak skutecznie odzyskać uszkodzone pliki DOCX przy użyciu Aspose.Words dla Pythona.
+### [Jak odzyskać pliki DOCX w Pythonie – kompletny przewodnik](./how-to-recover-docx-files-in-python-complete-guide/)
+Dowiedz się, jak przywrócić uszkodzone pliki DOCX w Pythonie przy użyciu Aspose.Words.
+### [Odzyskaj uszkodzony DOCX w Pythonie – Pełny przewodnik krok po kroku](./recover-corrupted-docx-in-python-full-step-by-step-guide/)
+Dowiedz się, jak przywrócić uszkodzony plik DOCX w Pythonie, korzystając z Aspose.Words, krok po kroku.
+
 ## Dodatkowe zasoby
 
 - [Aspose.Words dla dokumentacji Python-net](https://docs.aspose.com/words/python-net/)
@@ -63,3 +86,7 @@ Dowiedz się, jak konwertować dokumenty Word do formatu PostScript za pomocą A
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Bezpłatne wsparcie](https://forum.aspose.com/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

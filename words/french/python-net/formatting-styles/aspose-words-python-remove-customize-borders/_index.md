@@ -5,7 +5,9 @@
 "url": "/fr/python-net/formatting-styles/aspose-words-python-remove-customize-borders/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Maîtriser les bordures de paragraphe en Python avec Aspose.Words : un guide complet
 
 ## Introduction
@@ -179,3 +181,7 @@ Ce tutoriel explique comment supprimer et personnaliser efficacement les bordure
 - **Essai gratuit**: [Commencez gratuitement](https://releases.aspose.com/words/python/)
 - **Licence temporaire**: [Obtenir un permis temporaire](https://purchase.aspose.com/temporary-license/)
 - **Soutien**: [Forum Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

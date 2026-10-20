@@ -5,7 +5,9 @@
 "url": "/vi/python-net/performance-optimization/aspose-words-python-html-vml-support-encryption-form-handling/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Làm chủ tối ưu hóa HTML với Aspose.Words cho Python: Hỗ trợ VML, Mã hóa và Xử lý biểu mẫu
 
 ## Giới thiệu
@@ -199,3 +201,7 @@ Bây giờ bạn đã hiểu rõ cách sử dụng Aspose.Words for Python để
 
 **H: Làm thế nào để xử lý các tệp HTML lớn với các phần tử VML?**
 A: Sử dụng xử lý hàng loạt và tải chọn lọc để quản lý việc sử dụng tài nguyên một cách hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

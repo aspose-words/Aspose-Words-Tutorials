@@ -4,7 +4,9 @@
 "url": "/ru/python-net/formatting-styles/"
 "weight": 4
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Учебники по форматированию и стилям для Aspose.Words Python-net
 
 Изучите комплексные пошаговые руководства по форматированию и операциям со стилями с использованием Aspose.Words для Python-net. Эти руководства включают полные примеры кода и подробные объяснения.
@@ -61,3 +63,7 @@
 - [Форум Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Бесплатная поддержка](https://forum.aspose.com/)
 - [Временная лицензия](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

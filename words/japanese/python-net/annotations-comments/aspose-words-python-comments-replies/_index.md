@@ -5,7 +5,9 @@
 "url": "/ja/python-net/annotations-comments/aspose-words-python-comments-replies/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words for Python を使用して Word 文書にコメントと返信を実装する方法
 
 ## 導入
@@ -242,3 +244,7 @@ Aspose.Words for Pythonは、様々なドキュメントワークフローに統
 3. **学術協力**学術論文の著者と査読者間のフィードバック ループを促進します。
 
 この包括的なガイドは、Aspose.Words for Python を使用して Word 文書にコメントと返信の管理を効果的に実装するのに役立ちます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,9 @@
 "url": "/fr/python-net/formatting-styles/aspose-words-python-theme-customization/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Maîtriser la personnalisation des thèmes avec Aspose.Words en Python
 
 ## Introduction
@@ -165,3 +167,7 @@ R : Bien que complètes, certaines fonctionnalités avancées de Word peuvent n
 - [Accès d'essai gratuit](https://releases.aspose.com/words/python/)
 - [Informations sur les licences temporaires](https://purchase.aspose.com/temporary-license/)
 - [Forum d'assistance Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

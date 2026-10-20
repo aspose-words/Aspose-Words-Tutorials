@@ -5,7 +5,9 @@
 "url": "/zh-hant/python-net/security-protection/aspose-words-python-docx-security/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # 釋放文件自動化的力量：使用 Python 中的 Aspose.Words 建立安全且相容的 DOCX 文件
 
 ## 介紹
@@ -158,3 +160,7 @@ doc.save("compressed.docx", options)
 - **支持和社區**： [Aspose 論壇](https://forum.aspose.com/c/words/10)
 
 現在，透過為您的 Python 專案實施 Aspose.Words 邁出文件自動化的下一步。編碼愉快！
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

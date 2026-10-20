@@ -4,7 +4,9 @@
 "url": "/de/python-net/document-operations/"
 "weight": 2
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Tutorials zu Dokumentoperationen für Aspose.Words Python-net
 
 Entdecken Sie umfassende Schritt-für-Schritt-Anleitungen für Dokumentoperationen mit Aspose.Words für Python-net. Diese Tutorials enthalten vollständige Codebeispiele und detaillierte Erklärungen.
@@ -55,6 +57,33 @@ Ein Code-Tutorial für Aspose.Words Python-net
     ### [Save Word Documents as PostScript in Python Using Aspose.Words&#58; A Comprehensive Guide](./save-docs-as-postscript-using-aspose-words-python/)
 Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words für Python in das PostScript-Format konvertieren. Diese Anleitung behandelt die Einrichtung, Konvertierung und Buchfalzdruckoptionen.
 
+### [Beschädigtes DOCX wiederherstellen – Word-Dokument öffnen & laden](./recover-corrupted-docx-open-load-word-document/)
+Lernen Sie, wie Sie beschädigte DOCX-Dateien mit Aspose.Words für Python‑net öffnen und wiederherstellen.
+
+### [Beschädigtes DOCX wiederherstellen – Vollständiger Leitfaden zum Aktivieren des Wiederherstellungsmodus & Ermitteln der Seitenzahl](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
+Erfahren Sie, wie Sie beschädigte DOCX-Dateien wiederherstellen, den Wiederherstellungsmodus aktivieren und die Seitenzahl ermitteln.
+### [Beschädigtes Word-Dokument mit Python wiederherstellen – Vollständiger Leitfaden](./recover-corrupted-word-document-using-python-complete-guide/)
+Erfahren Sie, wie Sie beschädigte Word-Dokumente mithilfe von Python und Aspose.Words vollständig wiederherstellen können.
+### [Beschädigtes Word-Dokument wiederherstellen mit Aspose.Words für Python](./recover-corrupted-word-document-with-aspose-words-python/)
+Lernen Sie, wie Sie beschädigte Word-Dokumente mit Aspose.Words für Python öffnen und wiederherstellen.
+### [Wie man DOCX wiederherstellt – Vollständiger Leitfaden zur Wiederherstellung beschädigter Word-Dokumente](./how-to-recover-docx-complete-guide-to-restoring-corrupted-wo/)
+Erfahren Sie, wie Sie beschädigte DOCX-Dateien vollständig wiederherstellen und öffnen können.
+### [DOCX-Dateien wiederherstellen – Vollständiger Leitfaden mit Aspose.Words](./how-to-recover-docx-files-complete-guide-with-aspose-words/)
+Erfahren Sie, wie Sie beschädigte DOCX-Dateien mit Aspose.Words vollständig wiederherstellen und öffnen können.
+### [Wie man DOCX-Dateien in Python wiederherstellt – Dokument mit Wiederherstellung laden mit Aspose.Words](./how-to-recover-docx-files-in-python-load-document-with-recov/)
+Erfahren Sie, wie Sie beschädigte DOCX-Dateien in Python mit Aspose.Words laden und wiederherstellen.
+
+### [Beschädigtes DOCX wiederherstellen – Komplettanleitung mit Aspose.Words für Python](./recover-corrupted-docx-complete-guide-using-aspose-words-for/)
+Erfahren Sie, wie Sie beschädigte DOCX-Dateien vollständig mit Aspose.Words für Python wiederherstellen und öffnen.
+### [Beschädigtes DOCX wiederherstellen – Komplettleitfaden zum Öffnen von Word-Dateien mit Aspose](./recover-corrupted-docx-complete-guide-to-opening-word-files/)
+Erfahren Sie, wie Sie beschädigte DOCX-Dateien vollständig wiederherstellen und öffnen können.
+### [Beschädigte DOCX-Dateien in Python wiederherstellen – Komplettanleitung](./recover-corrupted-docx-files-in-python-complete-guide/)
+Erfahren Sie, wie Sie beschädigte DOCX-Dateien mit Aspose.Words für Python‑net vollständig wiederherstellen und öffnen können.
+### [DOCX-Dateien in Python wiederherstellen – Komplettleitfaden](./how-to-recover-docx-files-in-python-complete-guide/)
+Erfahren Sie, wie Sie beschädigte DOCX-Dateien mit Aspose.Words für Python‑net vollständig wiederherstellen und öffnen.
+### [Beschädigtes DOCX in Python wiederherstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./recover-corrupted-docx-in-python-full-step-by-step-guide/)
+Erfahren Sie, wie Sie beschädigte DOCX-Dateien in Python vollständig wiederherstellen.
+
 ## Weitere Ressourcen
 
 - [Aspose.Words für die Python-Net-Dokumentation](https://docs.aspose.com/words/python-net/)
@@ -63,3 +92,7 @@ Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words für Python in das PostScr
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Kostenloser Support](https://forum.aspose.com/)
 - [Temporäre Lizenz](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

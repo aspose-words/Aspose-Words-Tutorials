@@ -5,7 +5,9 @@
 "url": "/nl/python-net/formatting-styles/master-point-conversion-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Uitgebreide handleiding voor puntconversie in Aspose. Woorden voor Python: inches, millimeters en pixels
 
 ## Invoering
@@ -231,3 +233,7 @@ Ready to take your skills to the next level? Implement these solutions in your p
 - **Purchase**: [Buy Aspose.Words](https://purchase.aspose.com/buy)
 - **Free Trial**: [Try Aspose Free](https://releases.aspose.com/words/python/)
 - **Temporary License**: [Obtain a Temporary License](https://purchase.aspose.com/temporary-license)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

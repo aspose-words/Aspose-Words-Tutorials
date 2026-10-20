@@ -5,7 +5,9 @@
 "url": "/nl/python-net/performance-optimization/aspose-words-python-html-vml-support-encryption-form-handling/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # HTML-optimalisatie onder de knie krijgen met Aspose.Words voor Python: VML-ondersteuning, encryptie en formulierverwerking
 
 ## Invoering
@@ -199,3 +201,7 @@ Je hebt nu een goed begrip van hoe Aspose.Words voor Python gebruikt kan worden 
 
 **V: Hoe ga ik om met grote HTML-bestanden met VML-elementen?**
 A: Gebruik batchverwerking en selectief laden om het resourcegebruik efficiënt te beheren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

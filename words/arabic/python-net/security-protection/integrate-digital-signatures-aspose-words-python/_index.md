@@ -5,7 +5,9 @@
 "url": "/ar/python-net/security-protection/integrate-digital-signatures-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # كيفية دمج التوقيعات الرقمية في المستندات باستخدام Aspose.Words لـ Python
 
 ## مقدمة
@@ -184,3 +186,7 @@ signature_line_object = signature_line_example.insert_signature_line(document_pa
 - **يدعم:** [منتدى دعم Aspose](https://forum.aspose.com/c/words/10)
 
 هل أنت مستعد لبدء دمج التوقيعات الرقمية في مستنداتك؟ جرّب تطبيق هذه الخطوات اليوم واستمتع بالأمان والكفاءة المُحسّنة لـ Aspose.Words في بايثون.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

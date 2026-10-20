@@ -4,7 +4,9 @@
 "url": "/pt/python-net/headers-footers-page-setup/"
 "weight": 8
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Tutoriais de Cabeçalhos, Rodapés e Configuração de Página para Aspose.Words Python-net
 
 Explore guias passo a passo abrangentes para cabeçalhos, rodapés e operações de configuração de página usando o Aspose.Words para Python-net. Esses tutoriais incluem exemplos de código completos e explicações detalhadas.
@@ -36,3 +38,7 @@ Um tutorial de código para Aspose.Words Python-net
 - [Fórum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Suporte gratuito](https://forum.aspose.com/)
 - [Licença Temporária](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

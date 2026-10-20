@@ -1,51 +1,13 @@
 ---
-date: '2026-08-10'
-description: Learn how to add comment java with Aspose.Words for Java. Step‑by‑step
-  guide to create, reply to, print, remove, and mark comments as done, plus retrieve
-  UTC timestamps.
-images:
-- /java/annotations-comments/aspose-words-java-comment-management-guide/og-image.png
-keywords:
-- how to add comment java
-- comment management Java
-- Aspose.Words comments
-lastmod: '2026-08-10'
-og_description: Learn how to add comment java with Aspose.Words for Java. This guide
-  shows step‑by‑step creation, replying, printing, removing, and marking comments
-  as done, plus UTC timestamp retrieval.
-og_image_alt: Guide showing how to add comment java with Aspose.Words in Word documents
-og_title: How to add comment java using Aspose.Words for Word docs
-schemas:
-- author: Aspose
-  dateModified: '2026-08-10'
-  description: Learn how to add comment java with Aspose.Words for Java. Step‑by‑step
-    guide to create, reply to, print, remove, and mark comments as done, plus retrieve
-    UTC timestamps.
-  headline: How to add comment java using Aspose.Words for Word docs
-  type: TechArticle
-- questions:
-  - answer: No. The trial works for development only; a full license is required for
-      production deployments.
-    question: Can I use Aspose.Words without a license in production?
-  - answer: Yes. Load a protected file by passing the password to the `Document` constructor.
-    question: Does the library support password‑protected documents?
-  - answer: Aspose.Words for Java supports JDK 8 through JDK 21, with full feature
-      parity across versions.
-    question: Which Java versions are compatible?
-  - answer: Comment enumeration runs in linear time; a 1,000‑page document processes
-      in under 2 seconds on a typical 4‑core server.
-    question: How does comment performance scale with document size?
-  - answer: Absolutely. Iterate the `CommentCollection` and write each comment’s properties
-      to CSV, JSON, or XML as needed.
-    question: Can I export comments to a separate file?
-  type: FAQPage
-tags:
-- comment management
-- Aspose.Words
-- Java document processing
-title: How to add comment java using Aspose.Words for Word docs
-url: /java/annotations-comments/aspose-words-java-comment-management-guide/
+title: "How to Add Comment Java with Aspose.Words"
+description: "Learn how to add comment java using Aspose.Words for Java, and also how to delete comment replies. Manage, print, remove, and track comment timestamps effortlessly."
+date: "2025-11-25"
 weight: 1
+url: "/java/annotations-comments/aspose-words-java-comment-management-guide/"
+keywords:
+- Aspose.Words Java
+- comment management in Word documents
+- managing comments with Aspose.Words
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -54,34 +16,34 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to add comment java using Aspose.Words for Word docs
+# How to Add Comment Java with Aspose.Words
 
-## Introduction
-Adding comments programmatically to a Word document can streamline collaboration, code review, or automated report generation. In this tutorial you’ll learn **how to add comment java** using the Aspose.Words library, covering creation, replies, printing, removal, marking as done, and extracting UTC timestamps. By the end you’ll be able to embed rich feedback directly into your documents without manual intervention.
+Managing comments programmatically in a Word document can feel like navigating a maze, especially when you need to **how to add comment java** in a clean, repeatable way. In this tutorial we’ll walk through the complete process of adding comments, replying, printing, removing, marking as done, and even extracting UTC timestamps—all with Aspose.Words for Java. By the end you’ll also know **how to delete comment replies** when you need to tidy up a document.
 
-## Quick answers
-- **What is the first step?** Load the Word file with `new Document("input.docx")`.  
-- **Can I reply to a comment?** Yes—create a `Comment` object and call `comment.getReplies().add(reply)`.  
-- **How do I mark a comment as done?** Set `comment.setDone(true)` to flag it as resolved.  
-- **Is UTC time available?** Each comment stores `getDateTime()` in UTC, which you can read directly.  
-- **Do I need a license?** A trial works for development; a full license removes evaluation limits.
+## Quick Answers
+- **What library is used?** Aspose.Words for Java  
+- **Primary task?** How to add comment java in a Word document  
+- **How to delete comment replies?** Use the `removeReply` or `removeAllReplies` methods  
+- **Prerequisites?** JDK 8+, Maven or Gradle, and an Aspose.Words license (trial works too)  
+- **Typical implementation time?** ~15‑20 minutes for a basic comment workflow  
 
-## What is how to add comment Java?
-`how to add comment java` refers to the process of programmatically inserting a comment into a Microsoft Word document using Java code and the Aspose.Words API. This operation enables automated feedback loops in document‑centric workflows.
+## What is “how to add comment java”?
+Adding a comment in Java means creating a `Comment` node, attaching it to a paragraph, and optionally adding replies. This is the building block for collaborative document reviews, automated feedback loops, and content‑approval pipelines.
 
 ## Why use Aspose.Words for comment management?
-Aspose.Words supports **35+ input and output formats** and can handle documents exceeding **500 pages** while keeping memory usage under **100 MB** on a typical server. Its comment API works without Microsoft Word installed, giving you full control in headless environments and reducing licensing costs by up to **70 %** compared with Office automation.
+- **Full control** over comment metadata (author, initials, date)  
+- **Cross‑format support** – works with DOC, DOCX, ODT, PDF, etc.  
+- **No Microsoft Office dependency** – runs on any server‑side JVM  
+- **Rich API** for marking comments as done, deleting replies, and retrieving UTC timestamps  
 
 ## Prerequisites
-- Java Development Kit (JDK) 17 or later installed.
-- An IDE such as IntelliJ IDEA or Eclipse.
-- Maven or Gradle for dependency management.
-- A valid Aspose.Words for Java license (trial or full).
+- Java Development Kit (JDK) 8 or higher  
+- Maven or Gradle build tool  
+- An IDE such as IntelliJ IDEA or Eclipse  
+- Aspose.Words for Java library (see the dependency snippets below)  
 
-### Setting up Aspose.Words for Java
-Aspose.Words is delivered as a single JAR. Add the dependency that matches your build tool.
-
-**Maven:**  
+### Adding the Aspose.Words Dependency
+**Maven:**
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -95,38 +57,44 @@ Aspose.Words is delivered as a single JAR. Add the dependency that matches your 
 implementation 'com.aspose:aspose-words:25.3'
 ```  
 
-#### License acquisition
-Aspose.Words is a commercial product; you can start with a free trial or request a temporary license for full feature access. Visit the [purchase page](https://purchase.aspose.com/buy) to explore licensing options.
+#### License Acquisition
+Aspose.Words is a commercial product. You can start with a free 30‑day trial or request a temporary license for evaluation. Visit the [purchase page](https://purchase.aspose.com/buy) for details.
 
-## How to add a comment in Java using Aspose.Words?
-Load your document, create a `Comment` object, and attach it to a `Paragraph`. This two‑step pattern inserts a comment at the desired location and is the foundation for all later operations. By specifying the author, text, and timestamp you can immediately provide context for reviewers, and the comment becomes part of the document structure.
+## How to Add Comment Java – Step‑by‑Step Guide
 
-The `Document` class is Aspose.Words' top‑level object that represents a single Word file in memory. After instantiation, all read and write operations flow through this object.  
+### Feature 1: Add Comment with Reply
+**Overview** – Demonstrates the core pattern for **how to add comment java** and attach a reply.
+
+#### Implementation Steps
+**Step 1:** Initialize the Document Object  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
 ```  
 
-Next, you create the comment itself. The `Comment` class stores author, text, and timestamp information.  
+**Step 2:** Create and Add a Comment  
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
 ```  
 
-Finally, add a reply using the comment’s `Replies` collection. The `Comment` object automatically tracks the reply hierarchy.  
+**Step 3:** Add a Reply to the Comment  
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
 ```  
 
-## How to print all comments and their replies?
-Iterate over the document’s `CommentCollection` and output each comment’s text, author, and UTC timestamp. Replies are nested within each comment, allowing you to display a full conversation thread. By walking the collection recursively you can preserve the hierarchy, format the output for logs or UI, and optionally filter by author or date.  
+### Feature 2: Print All Comments
+**Overview** – Retrieves every top‑level comment and its replies for review.
+
+#### Implementation Steps
+**Step 1:** Load the Document  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
 ```  
 
-Use a simple loop to walk the collection and print details.  
+**Step 2:** Retrieve and Print Comments  
 ```java
 NodeCollection<Comment> comments = doc.getChildNodes(NodeType.COMMENT, true);
 for (Comment comment : (Iterable<Comment>) comments) {
@@ -140,8 +108,11 @@ for (Comment comment : (Iterable<Comment>) comments) {
 }
 ```  
 
-## How to remove comment replies?
-You can delete a specific reply or clear all replies from a comment. Removing replies helps keep the document clean after feedback has been incorporated. Use the `getReplies().remove(index)` method for targeted removal or call `clear()` to purge the entire reply list, ensuring no orphaned discussion remains.  
+### Feature 3: How to Delete Comment Replies in Java
+**Overview** – Shows **how to delete comment replies** to keep the document tidy.
+
+#### Implementation Steps
+**Step 1:** Initialize and Add Comments with Replies  
 ```java
 Document document = new Document();
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
@@ -151,14 +122,17 @@ comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
 ```  
 
-Call `comment.getReplies().clear()` or remove individual replies by index.  
+**Step 2:** Remove Replies  
 ```java
 comment.removeReply(comment.getReplies().get(0)); // Remove one reply
 comment.removeAllReplies(); // Remove all remaining replies
 ```  
 
-## How to mark a comment as done?
-Setting a comment’s `Done` flag signals that the issue has been resolved. This visual cue is useful for reviewers and downstream processing tools. When `setDone(true)` is called, Word displays a check‑mark next to the comment, and you can later query the flag to generate reports of outstanding items.  
+### Feature 4: Mark Comment as Done
+**Overview** – Flags a comment as resolved, which is useful for tracking issue status.
+
+#### Implementation Steps
+**Step 1:** Create a Document and Add a Comment  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
@@ -167,7 +141,7 @@ Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
 ```  
 
-Apply the flag after you have addressed the comment’s content.  
+**Step 2:** Mark the Comment as Done  
 ```java
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
@@ -175,8 +149,11 @@ comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
 ```  
 
-## How to get UTC date and time from a comment?
-Each comment stores its creation time in UTC, accessible via `getDateTime()`. This timestamp is indispensable for audit trails and version control. The returned `DateTime` object can be formatted using ISO‑8601 patterns, allowing you to log precise moments of feedback and synchronize comment data across distributed systems.  
+### Feature 5: Get UTC Date and Time from Comment
+**Overview** – Retrieves the exact UTC timestamp a comment was added, ideal for audit logs.
+
+#### Implementation Steps
+**Step 1:** Create a Document with a Timestamped Comment  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
@@ -186,7 +163,7 @@ comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
 ```  
 
-You can format the timestamp as ISO‑8601 for easy logging.  
+**Step 2:** Save and Retrieve the UTC Date  
 ```java
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
@@ -194,60 +171,50 @@ Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
 ```  
 
-## Practical applications
-Understanding these APIs lets you build robust solutions for:
-- **Collaborative editing platforms** – embed feedback loops directly in generated reports.  
-- **Automated review pipelines** – flag, resolve, and audit comments without human intervention.  
-- **Compliance documentation** – capture reviewer timestamps for regulatory audits.
+## Practical Applications
+- **Collaborative Editing:** Teams can add and reply to comments directly in generated reports.  
+- **Document Review Workflows:** Mark comments as done to signal that issues have been resolved.  
+- **Audit & Compliance:** UTC timestamps provide an immutable record of when feedback was entered.  
 
-## Performance considerations
-When processing large files (500 + pages), follow these best practices:
-- Process comments in batches to avoid loading the entire collection into memory.  
-- Use `Document.optimizeResources()` to shrink the document before saving.  
-- Keep Aspose.Words up‑to‑date; version 24.12 introduced a 30 % speed boost for comment enumeration.
+## Performance Considerations
+- Process comments in batches for very large files to avoid memory spikes.  
+- Reuse a single `Document` instance when performing multiple operations.  
+- Keep Aspose.Words updated to benefit from performance optimizations in newer releases.  
 
 ## Conclusion
-You now have a complete toolkit for **how to add comment java** with Aspose.Words: creating comments, replying, printing, removing, marking as done, and extracting UTC timestamps. Integrate these snippets into your existing Java services to automate feedback, enforce review policies, and maintain a clean audit trail.
+You now know **how to add comment java** using Aspose.Words, how to **how to delete comment replies**, and how to manage the full comment lifecycle—from creation to resolution and timestamp extraction. Integrate these snippets into your existing Java services to automate review cycles and improve document governance.
 
-**Next steps**
+**Next Steps**
 - Experiment with filtering comments by author or date.  
-- Combine comment management with the Aspose.Words “track changes” API for full revision control.  
-- Explore exporting comment data to JSON for downstream analytics.
+- Combine comment management with document conversion (e.g., DOCX → PDF) for automated report pipelines.  
 
-## Frequently asked questions
+## Frequently Asked Questions
 
-**Q: Can I use Aspose.Words without a license in production?**  
-A: No. The trial works for development only; a full license is required for production deployments.
+**Q: Can I use these APIs with password‑protected documents?**  
+A: Yes. Load the document with the appropriate `LoadOptions` that include the password.
 
-**Q: Does the library support password‑protected documents?**  
-A: Yes. Load a protected file by passing the password to the `Document` constructor.
+**Q: Does Aspose.Words require Microsoft Office to be installed?**  
+A: No. The library is fully independent and works on any platform that supports Java.
 
-**Q: Which Java versions are compatible?**  
-A: Aspose.Words for Java supports JDK 8 through JDK 21, with full feature parity across versions.
+**Q: What happens if I try to remove a reply that doesn’t exist?**  
+A: The `removeReply` method throws an `IllegalArgumentException`. Always check the collection size first.
 
-**Q: How does comment performance scale with document size?**  
-A: Comment enumeration runs in linear time; a 1,000‑page document processes in under 2 seconds on a typical 4‑core server.
+**Q: Is there a limit to the number of comments a document can hold?**  
+A: Practically no, but very large numbers may affect performance; consider processing in chunks.
 
-**Q: Can I export comments to a separate file?**  
-A: Absolutely. Iterate the `CommentCollection` and write each comment’s properties to CSV, JSON, or XML as needed.
+**Q: How can I export comments to a CSV file?**  
+A: Iterate through the comment collection, extract properties (author, text, date) and write them using standard Java I/O.
 
 ---
 
-**Last Updated:** 2026-08-10  
-**Tested With:** Aspose.Words for Java 24.12  
+**Last Updated:** 2025-11-25  
+**Tested With:** Aspose.Words for Java 25.3  
 **Author:** Aspose  
-
-{{< blocks/products/products-backtop-button >}}
-
-## Related Tutorials
-
-- [Master Annotations & Comments with Aspose.Words for Java Tutorials](/words/java/annotations-comments/)
-- [Track Changes in Word Documents Using Aspose.Words Java: A Complete Guide to Document Revisions](/words/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/)
-- [Aspose.Words Java: Comprehensive Guide to Word Document Processing](/words/java/document-operations/aspose-words-java-master-word-processing/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

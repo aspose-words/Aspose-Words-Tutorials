@@ -1,10 +1,12 @@
 ---
-"description": "اكتشف قوة Aspose.Words في جافا. تعلم كيفية تحميل المستندات النصية، وإدارة القوائم، والتعامل مع المسافات، والتحكم في اتجاه النص."
-"linktitle": "تحميل ملفات النصوص مع"
-"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
-"title": "تحميل ملفات النصوص باستخدام Aspose.Words لـ Java"
-"url": "/ar/java/document-loading-and-saving/loading-text-files/"
-"weight": 13
+date: 2025-12-27
+description: تعلم كيفية تعيين الاتجاه، تحميل ملفات txt، حذف الفراغات، وتحويل txt إلى
+  docx باستخدام Aspose.Words للغة Java.
+linktitle: Loading Text Files with
+second_title: Aspose.Words Java Document Processing API
+title: كيفية تعيين الاتجاه وتحميل ملفات النص باستخدام Aspose.Words للغة Java
+url: /ar/java/document-loading-and-saving/loading-text-files/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,21 +15,42 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تحميل ملفات النصوص باستخدام Aspose.Words لـ Java
+# كيفية تعيين الاتجاه وتحميل ملفات النص باستخدام Aspose.Words for Java
 
+## مقدمة حول تحميل ملفات النص باستخدام Aspose.Words for Java
 
-## مقدمة لتحميل ملفات النصوص باستخدام Aspose.Words لـ Java
+في هذا الدليل، ستكتشف **كيفية تعيين الاتجاه** عند تحميل مستندات النص العادي وتتعرف على طرق عملية لـ **تحميل txt**، **قص المسافات**، و**تحويل txt إلى docx** باستخدام Aspose.Words for Java. سواءً كنت تبني خدمة تحويل مستندات أو تحتاج إلى تحكم دقيق في اكتشاف القوائم، فإن هذا البرنامج التعليمي يمرّ بك عبر كل خطوة مع شروحات واضحة وشيفرة جاهزة للتنفيذ.
 
-في هذا الدليل، سنستكشف كيفية تحميل ملفات نصية باستخدام Aspose.Words لجافا ومعالجتها كمستندات وورد. سنغطي جوانب مختلفة، مثل اكتشاف القوائم، ومعالجة المسافات، والتحكم في اتجاه النص.
+## إجابات سريعة
+- **كيف يمكنني تعيين اتجاه النص لملف TXT محمّل؟** استخدم `TxtLoadOptions.setDocumentDirection(DocumentDirection.AUTO)` أو حدد `LEFT_TO_RIGHT` / `RIGHT_TO_LEFT`.
+- **هل يمكن لـ Aspose.Words اكتشاف القوائم المرقمة في النص العادي؟** نعم – فعّل `DetectNumberingWithWhitespaces` في `TxtLoadOptions`.
+- **كيف يمكنني قص المسافات البادئة واللاحقة؟** اضبط `TxtLeadingSpacesOptions.TRIM` و `TxtTrailingSpacesOptions.TRIM`.
+- **هل من الممكن تحويل ملف TXT إلى DOCX في سطر واحد؟** حمّل ملف TXT باستخدام `TxtLoadOptions` واستدعِ `Document.save("output.docx")`.
+- **ما إصدار Java المطلوب؟** Java 8+ يكفي لـ Aspose.Words 24.x.
 
-## الخطوة 1: اكتشاف القوائم
+## ما هو “كيفية تعيين الاتجاه” في Aspose.Words؟
+عندما يحتوي ملف النص على نصوص من اليمين إلى اليسار (مثل العبرية أو العربية)، يجب على المكتبة معرفة ترتيب القراءة. يتيح لك تعداد `DocumentDirection` **تعيين الاتجاه** يدويًا أو السماح لـ Aspose باكتشافه تلقائيًا، مما يضمن تخطيطًا صحيحًا وتنسيقًا ثنائي الاتجاه.
 
-لتحميل مستند نصي واكتشاف القوائم، يمكنك اتباع الخطوات التالية:
+## لماذا نستخدم Aspose.Words لتحميل ملفات TXT؟
+- **اكتشاف القوائم بدقة** – يتعامل مع القوائم المرقمة، والقوائم النقطية، والقوائم المفصولة بالمسافات.
+- **معالجة المسافات بدقة** – قص أو الحفاظ على المسافات البادئة/اللاحقة.
+- **اكتشاف تلقائي لاتجاه النص** – مثالي للمستندات متعددة اللغات.
+- **تحويل خطوة واحدة** – حمّل ملف `.txt` واحفظه كـ `.docx` أو `.pdf` أو أي صيغة مدعومة أخرى.
+
+## المتطلبات المسبقة
+- Java 8 أو أحدث.
+- مكتبة Aspose.Words for Java (أضف تبعية Maven/Gradle أو ملف JAR إلى مشروعك).
+- معرفة أساسية بتدفقات I/O في Java.
+
+## دليل خطوة بخطوة
+
+### الخطوة 1: اكتشاف القوائم (كيفية تحميل txt)
+لتحميل مستند نصي واكتشاف القوائم تلقائيًا، أنشئ كائنًا من `TxtLoadOptions` وفعل اكتشاف القوائم. يوضح الشيفرة أدناه عدة أنماط قوائم ويفعل الترقيم المدرك للمسافات.
 
 ```java
-// إنشاء مستند نص عادي في شكل سلسلة تحتوي على أجزاء يمكن تفسيرها كقوائم.
-// عند التحميل، سيتم دائمًا اكتشاف القوائم الثلاث الأولى بواسطة Aspose.Words،
-// وسيتم إنشاء قائمة الكائنات لهم بعد التحميل.
+// Create a plaintext document in the form of a string with parts that may be interpreted as lists.
+// Upon loading, the first three lists will always be detected by Aspose.Words,
+// and List objects will be created for them after loading.
 final String TEXT_DOC = "Full stop delimiters:\n" +
         "1. First list item 1\n" +
         "2. First list item 2\n" +
@@ -44,23 +67,22 @@ final String TEXT_DOC = "Full stop delimiters:\n" +
         "1 Fourth list item 1\n" +
         "2 Fourth list item 2\n" +
         "3 Fourth list item 3";
-// القائمة الرابعة، مع وجود مسافة بيضاء بين رقم القائمة ومحتويات عناصر القائمة،
-// سيتم اكتشافه كقائمة فقط إذا تم تعيين "DetectNumberingWithWhitespaces" في كائن LoadOptions على true،
-// لتجنب اكتشاف الفقرات التي تبدأ بأرقام عن طريق الخطأ على أنها قوائم.
+// The fourth list, with whitespace in between the list number and list item contents,
+// will only be detected as a list if "DetectNumberingWithWhitespaces" in a LoadOptions object is set to true,
+// to avoid paragraphs that start with numbers being mistakenly detected as lists.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 {
     loadOptions.setDetectNumberingWithWhitespaces(true);
 }
-// قم بتحميل المستند أثناء تطبيق LoadOptions كمعلمة وتحقق من النتيجة.
+// Load the document while applying LoadOptions as a parameter and verify the result.
 Document doc = new Document(new ByteArrayInputStream(TEXT_DOC.getBytes()), loadOptions);
 doc.save("Your Directory Path" + "WorkingWithTxtLoadOptions.DetectNumberingWithWhitespaces.docx");
 ```
 
-يوضح هذا الكود كيفية تحميل مستند نصي بتنسيقات قائمة مختلفة واستخدام `DetectNumberingWithWhitespaces` خيار لاكتشاف القوائم بشكل صحيح.
+> **نصيحة احترافية:** إذا كنت تحتاج فقط إلى اكتشاف القوائم الأساسي، يمكنك تخطي خيار المسافات – سيظل Aspose يتعرف على الأنماط القياسية `1.` و `1)`.
 
-## الخطوة 2: التعامل مع خيارات المسافات
-
-للتحكم في المسافات البادئة واللاحقة عند تحميل مستند نصي، يمكنك استخدام الكود التالي:
+### الخطوة 2: معالجة خيارات المسافات (كيفية قص المسافات)
+غالبًا ما تتسبب المسافات البادئة واللاحقة في حدوث تشوهات تنسيقية. استخدم `TxtLeadingSpacesOptions` و `TxtTrailingSpacesOptions` للتحكم في هذا السلوك.
 
 ```java
 @Test
@@ -78,11 +100,10 @@ public void handleSpacesOptions() throws Exception {
 }
 ```
 
-في هذا المثال، نقوم بتحميل مستند نصي وتقليص المسافات البادئة واللاحقة باستخدام `TxtLeadingSpacesOptions.TRIM` و `TxtTrailingSpacesOptions.TRIM`.
+> **لماذا يهم ذلك:** قص المسافات يمنع المسافات البادئة غير المرغوبة في الـ DOCX الناتج، مما يجعل المستند يبدو نظيفًا دون الحاجة إلى معالجة يدوية لاحقة.
 
-## الخطوة 3: التحكم في اتجاه النص
-
-لتحديد اتجاه النص عند تحميل مستند نصي، يمكنك استخدام الكود التالي:
+### الخطوة 3: التحكم في اتجاه النص (كيفية تعيين الاتجاه)
+لللغات من اليمين إلى اليسار، عيّن اتجاه المستند قبل التحميل. المثال أدناه يحمل ملف نص عبري ويطبع علم الـ bidi لتأكيد الاتجاه.
 
 ```java
 @Test
@@ -98,15 +119,16 @@ public void documentTextDirection() throws Exception {
 }
 ```
 
-يضبط هذا الكود اتجاه المستند إلى الاكتشاف التلقائي (`DocumentDirection.AUTO`) ويُحمّل مستندًا نصيًا بالنص العبري. يمكنك تعديل اتجاه المستند حسب الحاجة.
+> **مشكلة شائعة:** نسيان تعيين `DocumentDirection` قد يؤدي إلى تشويه النص العربي/العبراني حيث تظهر الأحرف بترتيب غير صحيح.
 
-## كود المصدر الكامل لتحميل ملفات النصوص باستخدام Aspose.Words لـ Java
+### الشيفرة المصدرية الكاملة لتحميل ملفات النص باستخدام Aspose.Words for Java
+فيما يلي الشيفرة الكاملة الجاهزة للتنفيذ التي تجمع بين اكتشاف القوائم، معالجة المسافات، والتحكم في الاتجاه. يمكنك نسخها ولصقها في فئة واحدة وتشغيل طرق الاختبار الثلاثة بشكل منفصل.
 
 ```java
 public void detectNumberingWithWhitespaces() throws Exception {
-	// إنشاء مستند نص عادي في شكل سلسلة تحتوي على أجزاء يمكن تفسيرها كقوائم.
-	// عند التحميل، سيتم دائمًا اكتشاف القوائم الثلاث الأولى بواسطة Aspose.Words،
-	// وسيتم إنشاء قائمة الكائنات لهم بعد التحميل.
+	// Create a plaintext document in the form of a string with parts that may be interpreted as lists.
+	// Upon loading, the first three lists will always be detected by Aspose.Words,
+	// and List objects will be created for them after loading.
 	final String TEXT_DOC = "Full stop delimiters:\n" +
 			"1. First list item 1\n" +
 			"2. First list item 2\n" +
@@ -123,14 +145,14 @@ public void detectNumberingWithWhitespaces() throws Exception {
 			"1 Fourth list item 1\n" +
 			"2 Fourth list item 2\n" +
 			"3 Fourth list item 3";
-	// القائمة الرابعة، مع وجود مسافة بيضاء بين رقم القائمة ومحتويات عناصر القائمة،
-	// سيتم اكتشافه كقائمة فقط إذا تم تعيين "DetectNumberingWithWhitespaces" في كائن LoadOptions على true،
-	// لتجنب اكتشاف الفقرات التي تبدأ بأرقام عن طريق الخطأ على أنها قوائم.
+	// The fourth list, with whitespace inbetween the list number and list item contents,
+	// will only be detected as a list if "DetectNumberingWithWhitespaces" in a LoadOptions object is set to true,
+	// to avoid paragraphs that start with numbers being mistakenly detected as lists.
 	TxtLoadOptions loadOptions = new TxtLoadOptions();
 	{
 		loadOptions.setDetectNumberingWithWhitespaces(true);
 	}
-	// قم بتحميل المستند أثناء تطبيق LoadOptions كمعلمة وتحقق من النتيجة.
+	// Load the document while applying LoadOptions as a parameter and verify the result.
 	Document doc = new Document(new ByteArrayInputStream(TEXT_DOC.getBytes()), loadOptions);
 	doc.save("Your Directory Path" + "WorkingWithTxtLoadOptions.DetectNumberingWithWhitespaces.docx");
 }
@@ -160,54 +182,53 @@ public void documentTextDirection() throws Exception {
 	}
 ```
 
-## خاتمة
+## المشكلات الشائعة والحلول
+| المشكلة | السبب | الحل |
+|-------|-------|-----|
+| القوائم غير مكتشفة | `DetectNumberingWithWhitespaces` ترك `false` للقوائم المفصولة بالمسافات | فعّل `loadOptions.setDetectNumberingWithWhitespaces(true)` |
+| مسافة بادئة إضافية بعد التحميل | تم الحفاظ على المسافات البادئة | اضبط `TxtLeadingSpacesOptions.TRIM` |
+| النص العبري يظهر مقلوبًا | لم يتم تعيين اتجاه المستند أو تم تعيينه إلى `LEFT_TO_RIGHT` | استخدم `DocumentDirection.AUTO` أو `RIGHT_TO_LEFT` |
+| ملف DOCX الناتج فارغ | لم يتم إعادة تعيين تدفق الإدخال قبل التحميل الثاني | أعد إنشاء `ByteArrayInputStream` لكل استدعاء تحميل |
 
-في هذا الدليل، استكشفنا كيفية تحميل ملفات النصوص باستخدام Aspose.Words لجافا، واكتشاف القوائم، ومعالجة المسافات، والتحكم في اتجاه النص. تتيح لك هذه التقنيات التعامل مع مستندات النصوص بفعالية في تطبيقات جافا.
+## الأسئلة المتكررة
 
-## الأسئلة الشائعة
+### س: ما هو Aspose.Words for Java؟
+A: Aspose.Words for Java هي مكتبة معالجة مستندات قوية تسمح للمطورين بإنشاء وتعديل وتحويل مستندات Word برمجيًا في تطبيقات Java. تدعم مجموعة واسعة من الميزات، من تحميل النص البسيط إلى التنسيق المعقد والتحويل.
 
-### ما هو Aspose.Words لـ Java؟
+### س: كيف يمكنني البدء مع Aspose.Words for Java؟
+A: 1. قم بتحميل وتثبيت مكتبة Aspose.Words for Java. 2. راجع الوثائق على [Aspose.Words for Java API Reference](https://reference.aspose.com/words/java/) للحصول على معلومات مفصلة وأمثلة. 3. استكشف الشيفرات النموذجية والبرامج التعليمية لتعلم كيفية استخدام المكتبة بفعالية.
 
-Aspose.Words for Java هي مكتبة معالجة مستندات فعّالة، تُمكّن المطورين من إنشاء مستندات Word وتعديلها وتحويلها برمجيًا في تطبيقات Java. وتوفر مجموعة واسعة من الميزات للتعامل مع النصوص والجداول والصور وعناصر المستندات الأخرى.
+### س: كيف يمكنني تحميل مستند نصي باستخدام Aspose.Words for Java؟
+A: استخدم الفئة `TxtLoadOptions` مع مُنشئ `Document`. حدد الخيارات مثل اكتشاف القوائم، معالجة المسافات، أو اتجاه النص كما هو موضح في الأقسام خطوة بخطوة أعلاه.
 
-### كيف يمكنني البدء باستخدام Aspose.Words لـ Java؟
+### س: هل يمكنني تحويل مستند نصي محمّل إلى صيغ أخرى؟
+A: نعم. بعد تحميل ملف TXT إلى كائن `Document`، استدعِ `doc.save("output.pdf")` أو `doc.save("output.docx")` أو أي صيغة مدعومة أخرى.
 
-للبدء في استخدام Aspose.Words لـ Java، اتبع الخطوات التالية:
-1. قم بتنزيل وتثبيت مكتبة Aspose.Words for Java.
-2. راجع الوثائق الموجودة في [مرجع Aspose.Words لواجهة برمجة تطبيقات Java](https://reference.aspose.com/words/java/) لمزيد من المعلومات والأمثلة التفصيلية.
-3. استكشف التعليمات البرمجية والدروس التعليمية لمعرفة كيفية استخدام المكتبة بشكل فعال.
+### س: كيف يمكنني معالجة المسافات في المستندات النصية المحمّلة؟
+A: تحكم في المسافات البادئة واللاحقة باستخدام `TxtLeadingSpacesOptions` و `TxtTrailingSpacesOptions`. اضبطهما على `TRIM` لإزالة المسافات غير المرغوبة، أو على `PRESERVE` إذا كنت تحتاج إلى الحفاظ على التباعد الأصلي.
 
-### كيف أقوم بتحميل مستند نصي باستخدام Aspose.Words لـ Java؟
+### س: ما هي أهمية اتجاه النص في Aspose.Words for Java؟
+A: يضمن اتجاه النص عرضًا صحيحًا للنصوص من اليمين إلى اليسار (العبرية، العربية، إلخ). من خلال تعيين `DocumentDirection`، تضمن أن يتم عرض النص ثنائي الاتجاه بشكل سليم في المستند الناتج.
 
-لتحميل مستند نصي باستخدام Aspose.Words for Java، يمكنك استخدام `TxtLoadOptions` الصف و `Document` تأكد من تحديد الخيارات المناسبة للتعامل مع المسافات واتجاه النص حسب الحاجة. راجع الدليل التفصيلي في هذه المقالة للاطلاع على مثال مفصل.
+### س: أين يمكنني العثور على المزيد من الموارد والدعم لـ Aspose.Words for Java؟
+A: زر [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/) للحصول على مراجع API، عينات شيفرة، وأدلة تفصيلية. يمكنك أيضًا الانضمام إلى منتديات مجتمع Aspose أو التواصل مع دعم Aspose لأسئلة محددة.
 
-### هل يمكنني تحويل مستند نصي محمل إلى تنسيقات أخرى؟
+### س: هل Aspose.Words for Java مناسب للمشاريع التجارية؟
+A: نعم. توفر خيارات ترخيص للاستخدام الشخصي والتجاري. راجع شروط الترخيص على موقع Aspose لاختيار الخطة المناسبة لمشروعك.
 
-نعم، يتيح لك Aspose.Words for Java تحويل مستند نصي مُحمّل إلى صيغ مختلفة، بما في ذلك DOCX وPDF وغيرها. يمكنك استخدام `Document` فئة لإجراء التحويلات. راجع الوثائق للاطلاع على أمثلة محددة للتحويلات.
+## الخلاصة
+أصبح لديك الآن مجموعة أدوات كاملة لـ **تحميل ملفات txt**، **اكتشاف القوائم**، **قص المسافات**، و**تعيين الاتجاه** عند تحويل النص العادي إلى مستندات Word غنية باستخدام Aspose.Words for Java. طبّق هذه الأنماط لأتمتة سير عمل المستندات، تحسين الدعم متعدد اللغات، وضمان مخرجات نظيفة ومهنية في كل مرة.
 
-### كيف أتعامل مع المسافات في مستندات النصوص المحملة؟
+---
 
-يمكنك التحكم في كيفية التعامل مع المسافات البادئة واللاحقة في مستندات النصوص المحملة باستخدام `TxtLoadOptions`. خيارات مثل `TxtLeadingSpacesOptions` و `TxtTrailingSpacesOptions` يسمح لك بقص المساحات أو الحفاظ عليها حسب الحاجة. راجع قسم "خيارات التعامل مع المساحات" في هذا الدليل للاطلاع على مثال.
-
-### ما هي أهمية اتجاه النص في Aspose.Words لـ Java؟
-
-يُعدّ توجيه النص أمرًا أساسيًا للمستندات التي تحتوي على نصوص أو لغات مختلطة، مثل العبرية أو العربية. يوفر Aspose.Words لجافا خيارات لتحديد اتجاه النص، مما يضمن عرضًا وتنسيقًا سليمين للنص بهذه اللغات. يوضح قسم "التحكم في اتجاه النص" في هذا الدليل كيفية ضبط اتجاه النص.
-
-### أين يمكنني العثور على المزيد من الموارد والدعم لـ Aspose.Words for Java؟
-
-للحصول على موارد إضافية ووثائق ودعم، قم بزيارة [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/)يمكنك أيضًا المشاركة في منتديات مجتمع Aspose.Words أو الاتصال بدعم Aspose للحصول على المساعدة بشأن مشكلات أو استفسارات محددة.
-
-### هل Aspose.Words for Java مناسب للمشاريع التجارية؟
-
-نعم، يُعد Aspose.Words for Java مناسبًا للمشاريع الشخصية والتجارية على حد سواء. يوفر خيارات ترخيص تناسب مختلف سيناريوهات الاستخدام. تأكد من مراجعة شروط الترخيص والأسعار على موقع Aspose الإلكتروني لاختيار الترخيص المناسب لمشروعك.
-
+**آخر تحديث:** 2025-12-27  
+**تم الاختبار مع:** Aspose.Words for Java 24.12  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

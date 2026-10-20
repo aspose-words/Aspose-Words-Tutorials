@@ -4,7 +4,9 @@
 "url": "/zh/python-net/images-shapes/"
 "weight": 6
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words Python-net 图像和形状教程
 
 探索使用 Aspose.Words for Python-net 进行图像和形状操作的全面分步指南。这些教程包含完整的代码示例和详细的解释。
@@ -32,6 +34,27 @@ Aspose.Words Python-net 教程中的“图像和形状”类别旨在帮助开�
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 学习如何使用 Aspose.Words for Python 优化 SVG 输出。本指南涵盖图像属性、文本渲染和安全增强等自定义功能。
 
+    ### [在 Python 中为形状添加阴影 – 完整 Aspose.Words 教程](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
+学习在 Python 中使用 Aspose.Words 为形状添加阴影的完整步骤和示例代码。
+
+### [如何在 C# 中添加阴影 – 完整编程指南](./how-to-add-shadow-in-c-complete-programming-guide/)
+学习在 C# 中使用 Aspose.Words 添加阴影效果的完整步骤和示例代码。
+
+### [使用 Aspose.Words 将矩形添加到 PDF – 步骤指南](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
+学习如何使用 Aspose.Words 在 PDF 文档中插入矩形形状，实现精准的页面布局和视觉效果。
+### [在 Python 中创建矩形形状 – 添加阴影并保存为 PDF 的完整指南](./create-rectangle-shape-in-python-full-guide-to-adding-shadow/)
+学习如何在 Python 中使用 Aspose.Words 创建矩形形状、添加阴影并保存为 PDF。
+### [如何在 Word 中使用 Aspose 插入矩形并添加阴影](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
+学习如何使用 Aspose 在 Word 文档中插入矩形并为其添加阴影效果。
+### [创建 Word 文档 Python – 为形状添加阴影指南](./create-word-document-python-add-shadow-to-shape-guide/)
+学习如何使用 Aspose.Words for Python 在 Word 文档中为形状添加阴影效果的完整步骤。
+### [如何使用带阴影的矩形保存文档 – 完整 Python 指南](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
+学习在 Python 中使用 Aspose.Words 为文档添加带阴影的矩形并保存的完整步骤。
+### [在 Python 中创建矩形形状 – 完整 Aspose.Words 指南](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
+学习如何使用 Aspose.Words for Python 在 Word 文档中插入和自定义矩形形状的完整步骤。
+### [在 Word 中使用 Python 为形状添加阴影 – 完整指南](./add-shadow-to-shape-in-word-with-python-complete-guide/)
+学习如何使用 Aspose.Words for Python 在 Word 文档中为形状添加阴影的完整步骤和示例代码。
+
 ## 其他资源
 
 - [Aspose.Words for Python-net 文档](https://docs.aspose.com/words/python-net/)
@@ -40,3 +63,7 @@ Aspose.Words Python-net 教程中的“图像和形状”类别旨在帮助开�
 - [Aspose.Words 论坛](https://forum.aspose.com/c/words/8)
 - [免费支持](https://forum.aspose.com/)
 - [临时执照](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

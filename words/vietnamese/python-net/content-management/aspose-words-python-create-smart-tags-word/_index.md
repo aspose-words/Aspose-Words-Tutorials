@@ -5,7 +5,9 @@
 "url": "/vi/python-net/content-management/aspose-words-python-create-smart-tags-word/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Làm chủ việc tạo và quản lý thẻ thông minh trong Word với Aspose.Words cho Python
 
 ## Giới thiệu
@@ -236,3 +238,7 @@ Các bước tiếp theo bao gồm khám phá các tính năng nâng cao hơn c�
 - **Diễn đàn hỗ trợ**:Tham gia cộng đồng trên [Diễn đàn hỗ trợ của Aspose](https://forum.aspose.com/c/words/10)
 
 Với hướng dẫn toàn diện này, giờ đây bạn đã có thể tận dụng Aspose.Words for Python để tạo và quản lý thẻ thông minh trong tài liệu Word của mình. Chúc bạn viết mã vui vẻ!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
