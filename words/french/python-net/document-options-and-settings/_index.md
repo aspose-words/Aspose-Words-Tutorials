@@ -65,6 +65,8 @@ Apprenez à récupérer des fichiers docx corrompus à l'aide d'Aspose.Words pou
 Apprenez à activer le mode de récupération afin d’ouvrir des documents Word corrompus avec Aspose.Words pour Python. Guide étape par étape avec code source.
 ### [Comment récupérer des fichiers docx corrompus avec Aspose.Words en Python](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
 Apprenez à restaurer des fichiers DOCX endommagés à l'aide d'Aspose.Words pour Python. Guide pas à pas avec exemple de code.
+### [Gestionnaire d'avertissement de police Aspose – Détecter les polices manquantes et personnaliser le chargement du document](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+Apprenez à gérer les avertissements de police, détecter les polices manquantes et personnaliser le chargement de documents avec Aspose.Words pour Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

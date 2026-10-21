@@ -72,6 +72,8 @@ Erfahren Sie, wie Sie Schatteneffekte auf Word-Formen mit Aspose.Words anwenden.
 
 ### [Wie man ein Rechteck in einem Word-Dokument mit Python erstellt](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
 Erfahren Sie, wie Sie mit Aspose.Words für Python ein Rechteck in ein Word-Dokument einfügen und formatieren.
+### [Wie man Schatten zu Formen in Python hinzufügt – Vollständiger Programmierleitfaden](./add-shadow-to-shape-in-python-complete-programming-guide/)
+Erfahren Sie, wie Sie Schatten zu Formen in Python hinzufügen und das Erscheinungsbild Ihrer Dokumente verbessern.
 
 ## Weitere Ressourcen
 

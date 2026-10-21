@@ -65,6 +65,8 @@ Python में LaTeX आउटपुट के लिए MarkdownSaveOptions �
 पायथन में Aspose.Words का उपयोग करके करप्टेड Word दस्तावेज़ को खोलने के लिए रिकवरी मोड सक्षम करने की प्रक्रिया सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
 ### [Aspose.Words के साथ Python में भ्रष्ट docx फ़ाइलों को पुनर्प्राप्त करना](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
 Aspose.Words का उपयोग करके Python में भ्रष्ट docx फ़ाइलों को पुनर्प्राप्त करने की तकनीकें सीखें।
+### [Aspose फ़ॉन्ट चेतावनी हैंडलर – लापता फ़ॉन्ट का पता लगाएँ और दस्तावेज़ लोडिंग को अनुकूलित करें](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+Aspose.Words में फ़ॉन्ट चेतावनियों को संभालें, लापता फ़ॉन्ट की पहचान करें और लोडिंग प्रक्रिया को कस्टमाइज़ करें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

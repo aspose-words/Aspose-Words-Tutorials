@@ -189,6 +189,12 @@
 Узнайте, как с помощью Aspose.Words для Python сохранить документ PDF, добавив пользовательскую прямоугольную форму.
 ### [Как восстановить повреждённый DOCX и конвертировать его в Markdown, обычный текст и PDF с помощью Aspose.Words](./how-to-recover-corrupted-docx-and-convert-it-to-markdown-pla/)
 Узнайте, как восстановить повреждённый DOCX и преобразовать его в Markdown, обычный текст и PDF с помощью Aspose.Words.
+### [Сохранить docx как markdown — Полное руководство по конвертации Word в Markdown](./save-docx-as-markdown-complete-guide-to-convert-word-to-mark/)
+Узнайте, как с помощью Aspose.Words для Python сохранять файлы DOCX в формате Markdown, включая настройку и обработку контента.
+### [Сохранить DOCX как PDF с Aspose.Words – Полное пошаговое руководство](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/)
+Узнайте, как с помощью Aspose.Words для Python сохранять файлы DOCX в формате PDF, следуя полному пошаговому руководству.
+### [Создание доступного PDF — Полное руководство с Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
+Узнайте, как с помощью Aspose.Words для Python создавать доступные PDF, соответствующие стандартам доступности.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

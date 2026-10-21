@@ -192,6 +192,12 @@ Erfahren Sie, wie Sie mit Aspose.Words für Python ein Word-Dokument als PDF spe
 Erfahren Sie, wie Sie mit Aspose.Words für Python Word-Dokumente in PDF/UA‑konforme PDFs exportieren.
 ### [DOCX als PDF mit Aspose.Words speichern: eine Schritt‑für‑Schritt‑Anleitung](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words DOCX‑Dateien in PDFs umwandeln und speichern.
+### [DOCX als Markdown speichern – Vollständige Anleitung zur Konvertierung von Word in Markdown](./save-docx-as-markdown-complete-guide-to-convert-word-to-mark/)
+Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für Python in Markdown konvertieren und speichern.
+### [DOCX als PDF speichern mit Aspose.Words – Vollständige Schritt‑für‑Schritt‑Anleitung](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/)
+Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für Python mühelos in PDF konvertieren – komplette Schritt‑für‑Schritt‑Anleitung.
+### [Barrierefreies PDF erstellen – Vollständige Anleitung mit Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
+Erfahren Sie, wie Sie mit Aspose.Words barrierefreie PDF‑Dateien erstellen und die Zugänglichkeit Ihrer Dokumente verbessern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

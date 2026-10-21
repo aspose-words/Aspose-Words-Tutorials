@@ -263,6 +263,14 @@ Hướng dẫn chi tiết cách chuyển đổi tệp docx sang PDF bằng Aspos
 
 ### [Cách xuất Word sang PDF tuân thủ PDF/UA bằng Python](./how-to-export-word-to-pdf-with-pdf-ua-compliance-in-python/)
 Hướng dẫn chi tiết cách xuất tài liệu Word sang PDF đáp ứng tiêu chuẩn PDF/UA bằng Aspose.Words cho Python.
+### [Lưu docx thành markdown – Hướng dẫn đầy đủ chuyển đổi Word sang Markdown](./save-docx-as-markdown-complete-guide-to-convert-word-to-mark/)
+Hướng dẫn chi tiết cách lưu tệp DOCX dưới dạng Markdown bằng Aspose.Words for Python.
+
+### [Lưu DOCX thành PDF với Aspose.Words – Hướng dẫn chi tiết từng bước](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/)
+Hướng dẫn chi tiết cách lưu tệp DOCX dưới dạng PDF bằng Aspose.Words cho Python.
+
+### [Tạo PDF có khả năng truy cập – Hướng dẫn đầy đủ với Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
+Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập bằng Aspose.Words cho Python, nâng cao tính bao gồm tài liệu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

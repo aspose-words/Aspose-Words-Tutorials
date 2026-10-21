@@ -39,6 +39,8 @@ Pelajari cara mengoptimalkan output SVG menggunakan Aspose.Words untuk Python. P
 
 ### [Menambahkan Bayangan pada Bentuk di Python dengan Aspose.Words – Panduan Lengkap](./add-shadow-to-shape-in-python-with-aspose-words-full-guide/)
 Pelajari cara menambahkan bayangan pada bentuk di Python menggunakan Aspose.Words. Panduan lengkap ini membantu Anda menguasai teknik shading.
+### [Menambahkan Bayangan pada Bentuk di Python – Panduan Pemrograman Lengkap](./add-shadow-to-shape-in-python-complete-programming-guide/)
+Pelajari cara menambahkan efek bayangan pada bentuk di Python menggunakan Aspose.Words untuk meningkatkan tampilan dokumen Anda.
 
 ### [Cara Menambahkan Bayangan di C# – Panduan Pemrograman Lengkap](./how-to-add-shadow-in-c-complete-programming-guide/)
 Pelajari cara menambahkan efek bayangan pada elemen di C# dengan pandilan lengkap ini.

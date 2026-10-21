@@ -64,6 +64,8 @@ Pelajari cara memulihkan file docx yang rusak menggunakan Aspose.Words untuk Pyt
 ### [Aktifkan mode pemulihan untuk membuka dokumen Word yang rusak](./enable-recovery-mode-to-open-a-corrupted-word-document/)
 Pelajari cara mengaktifkan mode pemulihan agar dapat membuka dokumen Word yang rusak menggunakan Aspose.Words untuk Python.
 ### [Cara Memulihkan File docx Rusak dengan Aspose.Words di Python](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+### [Penangan Peringatan Font Aspose – Deteksi Font yang Hilang & Sesuaikan Pemuatan Dokumen](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+Pelajari cara menangani peringatan font, mendeteksi font yang hilang, dan menyesuaikan proses pemuatan dokumen dengan Aspose.Words untuk Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

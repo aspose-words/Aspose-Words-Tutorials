@@ -65,6 +65,8 @@ Ismerje meg, hogyan lehet helyreállítani sérült vagy elveszett docx fájloka
 Tanulja meg, hogyan engedélyezheti a helyreállítási módot a sérült Word dokumentumok megnyitásához az Aspose.Words for Python segítségével.
 ### [Hogyan állítsuk helyre a sérült docx fájlokat az Aspose.Words segítségével Pythonban](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
 Ismerje meg, hogyan állíthatja helyre a sérült docx fájlokat az Aspose.Words for Python segítségével.
+### [Aspose betűtípus figyelmeztetés kezelő – Hiányzó betűtípusok és a dokumentum betöltés testreszabása](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+Ismerje meg, hogyan kezelheti a hiányzó betűtípusok figyelmeztetéseit, és testreszabhatja a dokumentum betöltését az Aspose.Words for Python segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

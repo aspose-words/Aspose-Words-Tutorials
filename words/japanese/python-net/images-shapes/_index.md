@@ -76,6 +76,8 @@ Aspose.Words を使用して、Word 文書内の図形に影効果を追加す�
 
 ### [Python で Word 文書に矩形シェイプを作成する方法](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
 Python を使って Word 文書に矩形シェイプを挿入し、位置やサイズを設定する手順を解説します。
+### [Python で図形に影を追加する方法 – 完全プログラミングガイド](./add-shadow-to-shape-in-python-complete-programming-guide/)
+Python を使用して図形に影効果を適用する手順を詳しく解説します。
 
 ## 追加リソース
 

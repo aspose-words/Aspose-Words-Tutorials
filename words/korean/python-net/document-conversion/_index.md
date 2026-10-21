@@ -256,6 +256,15 @@ Aspose.Words를 사용해 docx 파일을 PDF로 변환하는 방법을 단계별
 ### [Python으로 PDF/UA 준수 Word를 PDF로 내보내는 방법](./how-to-export-word-to-pdf-with-pdf-ua-compliance-in-python/)
 Python을 사용해 PDF/UA 표준을 만족하는 Word 문서를 PDF로 변환하는 방법을 단계별로 안내합니다.
 
+### [DOCX를 Markdown으로 저장하기 – Word를 Markdown으로 변환하는 완전 가이드](./save-docx-as-markdown-complete-guide-to-convert-word-to-mark/)
+DOCX 파일을 Markdown 형식으로 변환하고 저장하는 전체 과정을 단계별로 설명합니다.
+
+### [DOCX를 PDF로 저장하기 – Aspose.Words 완전 단계별 가이드](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/)
+Aspose.Words를 사용해 DOCX 파일을 PDF로 변환하는 전체 과정을 단계별로 안내합니다.
+
+### [접근 가능한 PDF 만들기 – Aspose.Words 완전 가이드](./create-accessible-pdf-complete-guide-with-aspose-words/)
+Aspose.Words를 사용해 접근성 PDF를 생성하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

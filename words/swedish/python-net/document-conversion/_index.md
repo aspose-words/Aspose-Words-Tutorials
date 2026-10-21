@@ -192,6 +192,12 @@ Lär dig hur du exporterar matematiska ekvationer från Office-dokument till LaT
 Lär dig återställa skadade DOCX-filer och konvertera dem till markdown, vanlig text och PDF med Aspose.Words för Python.
 ### [Hur man exporterar Word till PDF med PDF/UA‑efterlevnad i Python](./how-to-export-word-to-pdf-with-pdf-ua-compliance-in-python/)
 Lär dig hur du exporterar Word-dokument till PDF med PDF/UA‑standard i Python med Aspose.Words.
+### [Spara docx som markdown – Komplett guide för att konvertera Word till Markdown](./save-docx-as-markdown-complete-guide-to-convert-word-to-mark/)
+Lär dig hur du sparar DOCX som Markdown med Aspose.Words för Python. Fullständig guide med kodexempel.
+### [Spara DOCX som PDF med Aspose.Words – Komplett steg‑för‑steg‑guide](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/)
+Lär dig hur du sparar DOCX som PDF med Aspose.Words för Python. Följ en komplett steg‑för‑steg‑guide med kodexempel.
+### [Skapa tillgänglig PDF – Komplett guide med Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
+Lär dig hur du skapar tillgängliga PDF-filer med Aspose.Words för Python. Följ steg‑för‑steg‑instruktioner och kodexempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

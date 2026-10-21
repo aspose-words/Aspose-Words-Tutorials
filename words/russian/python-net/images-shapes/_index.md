@@ -76,6 +76,8 @@
 
 ### [Как создать прямоугольную фигуру в документе Word с помощью Python](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
 Узнайте, как создать прямоугольную фигуру в документе Word, используя Aspose.Words для Python.
+### [Добавление тени к фигуре в Python – Полное руководство по программированию](./add-shadow-to-shape-in-python-complete-programming-guide/)
+Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для Python.
 
 ## Дополнительные ресурсы
 

@@ -38,7 +38,8 @@
     تعلّم خطوة بخطوة كيفية حفظ مستند Word مع مستطيل بظل باستخدام Aspose.Words لبايثون.
 
 ### [كيفية إضافة الظل في C# – دليل برمجة شامل](./how-to-add-shadow-in-c-complete-programming-guide/)
-تعلم كيفية إضافة تأثير الظل إلى عناصر C# باستخدام Aspose.Words خطوة بخطوة.
+
+### [إضافة الظل إلى الشكل في Python – دليل برمجة شامل](./add-shadow-to-shape-in-python-complete-programming-guide/)
 
 ### [إضافة مستطيل إلى PDF باستخدام Aspose.Words – دليل خطوة بخطوة](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
 تعلم كيفية إضافة مستطيل إلى ملفات PDF باستخدام Aspose.Words خطوة بخطوة.

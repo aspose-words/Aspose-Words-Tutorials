@@ -36,6 +36,8 @@ Aspose.Words for Python kullanarak SVG çıktısını nasıl optimize edeceğini
 
 ### [Python'da Şekle Gölge Ekleme – Aspose.Words ile Tam Kılavuz](./add-shadow-to-shape-in-python-with-aspose-words-full-guide/)
 Aspose.Words for Python kullanarak şekillere gölge eklemeyi adım adım öğrenin ve belgelerinizi görsel olarak zenginleştirin.
+### [Python'da Şekle Gölge Ekleme – Tam Programlama Kılavuzu](./add-shadow-to-shape-in-python-complete-programming-guide/)
+Python kullanarak Word belgelerinde şekillere gölge eklemeyi adım adım öğrenin.
 
 ### [C#'ta Gölge Ekleme – Tam Programlama Kılavuzu](./how-to-add-shadow-in-c-complete-programming-guide/)
 C# kullanarak Word belgelerine gölge eklemeyi adım adım öğrenin.

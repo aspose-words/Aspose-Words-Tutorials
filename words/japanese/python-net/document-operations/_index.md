@@ -57,6 +57,9 @@ Aspose.Words Python-netのコードチュートリアル
     ### [Save Word Documents as PostScript in Python Using Aspose.Words&#58; A Comprehensive Guide](./save-docs-as-postscript-using-aspose-words-python/)
 Aspose.Words for Python を使用して、Word 文書を PostScript 形式に変換する方法を学びます。このガイドでは、設定、変換、ブックフォールド印刷オプションについて説明します。
 
+### [破損した DOCX の復元 – Word 文書を開いて読み込む](./recover-corrupted-docx-open-load-word-document/)
+破損した DOCX ファイルを開き、復元して読み込む方法をステップバイステップで解説します。
+
 ### [破損した DOCX の復元 – 復元モードの有効化とページ数取得の完全ガイド](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
 破損した DOCX ファイルを復元モードで開き、ページ数を取得する手順を詳しく解説します。
 ### [Python で破損した Word 文書を復元する – 完全ガイド](./recover-corrupted-word-document-using-python-complete-guide/)
@@ -92,6 +95,8 @@ Aspose.Words を使用して破損した DOCX ファイルを復元し、読み�
 
 ### [Aspose.Words for Python を使用した破損した DOCX ファイルの復元方法](./how-to-recover-corrupted-docx-files-with-aspose-words-for-py/)
 Aspose.Words for Python で破損した DOCX ファイルを復元する手順を解説します。
+### [Aspose.Words で破損した Word ドキュメントを復元する完全ガイド](./recover-corrupted-word-document-with-aspose-words-complete-g/)
+Aspose.Words を活用して破損した Word ファイルを検出し、復元する手順とベストプラクティスを詳しく解説します。
 
 ## 追加リソース
 

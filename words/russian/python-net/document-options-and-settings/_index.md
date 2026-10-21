@@ -65,6 +65,8 @@
 Узнайте, как включить режим восстановления для открытия повреждённого документа Word с помощью Aspose.Words.
 ### [Как восстановить повреждённые файлы docx с помощью Aspose.Words в Python](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
 Узнайте, как восстановить повреждённые файлы DOCX с помощью Aspose.Words в Python. Пошаговое руководство с примером кода.
+### [Обработчик предупреждений шрифтов Aspose – обнаружение отсутствующих шрифтов и настройка загрузки документа](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+Узнайте, как обрабатывать предупреждения о шрифтах, обнаруживать отсутствующие шрифты и настраивать загрузку документов с помощью Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

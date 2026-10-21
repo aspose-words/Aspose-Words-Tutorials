@@ -195,6 +195,12 @@
 Μάθετε πώς να μετατρέψετε αρχεία docx σε PDF χρησιμοποιώντας Aspose.Words με βήμα‑βήμα οδηγίες.
 ### [Πώς να εξάγετε Word σε PDF με συμμόρφωση PDF/UA σε Python](./how-to-export-word-to-pdf-with-pdf-ua-compliance-in-python/)
 Μάθετε πώς να δημιουργήσετε PDF με συμμόρφωση PDF/UA από έγγραφα Word χρησιμοποιώντας Aspose.Words για Python.
+### [Αποθήκευση docx ως markdown – Πλήρης οδηγός μετατροπής Word σε Markdown](./save-docx-as-markdown-complete-guide-to-convert-word-to-mark/)
+Μάθετε πώς να αποθηκεύσετε αρχεία docx ως markdown με το Aspose.Words για Python. Ο πλήρης οδηγός.
+### [Αποθήκευση DOCX ως PDF με Aspose.Words – Πλήρης Οδηγός Βήμα‑βήμα](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF χρησιμοποιώντας Aspose.Words για Python, με πλήρη βήμα‑βήμα οδηγίες.
+### [Δημιουργία προσβάσιμου PDF – Πλήρης Οδηγός με Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
+Μάθετε πώς να δημιουργήσετε προσβάσιμα PDF με το Aspose.Words για Python, ακολουθώντας έναν πλήρη βήμα‑βήμα οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

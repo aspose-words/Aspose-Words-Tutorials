@@ -76,6 +76,8 @@ Naučte se, jak pomocí Aspose.Words v Pythonu vytvořit sloupcový graf.
 
 ### [Jak vytvořit obdélníkový tvar ve Word dokumentu pomocí Pythonu](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
 Naučte se, jak pomocí Aspose.Words pro Python vytvořit obdélníkový tvar ve Word dokumentu.
+### [Jak přidat stín do tvaru v Pythonu – Kompletní programovací průvodce](./add-shadow-to-shape-in-python-complete-programming-guide/)
+Naučte se, jak pomocí Aspose.Words v Pythonu přidat stín do tvarů a vylepšit vizuální vzhled dokumentů.
 
 ## Další zdroje
 

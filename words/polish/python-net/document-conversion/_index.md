@@ -71,7 +71,7 @@ Dowiedz się, jak przy użyciu Aspose.Words for Python wyeksportować dokument W
 ### [Utwórz dostępny PDF z Worda przy użyciu Pythona – przewodnik krok po kroku](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Dowiedz się, jak przy użyciu Aspose.Words for Python utworzyć dostępny PDF z dokumentu Word, spełniający standardy dostępności.
 
-### [Zapisz Word jako Markdown – kompletny przewodnik z eksportem PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua/)
+### [Zapisz Word jako Markdown – kompletny przewodnik z eksportem PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
 Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument Word jako Markdown i wyeksportować go do PDF/A‑UA.
 ### [Zapisz DOCX jako Markdown – szybki przewodnik Pythona do eksportu równań do LaTeX](./save-docx-as-markdown-quick-python-guide-to-export-equations/)
 Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument DOCX jako Markdown i wyeksportować równania do LaTeX.
@@ -244,6 +244,14 @@ Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać plik DOCX jako M
 
 ### [Jak wyeksportować równania Office do LaTeX w Pythonie](./how-to-export-office-math-to-latex-in-python/)
 Dowiedz się, jak przy użyciu Aspose.Words for Python wyeksportować równania Office Math do formatu LaTeX.
+### [Zapisz docx jako Markdown – kompletny przewodnik konwersji Word do Markdown](./save-docx-as-markdown-complete-guide-to-convert-word-to-mark/)
+Poznaj, jak zapisać plik DOCX jako Markdown przy użyciu Aspose.Words for Python.
+
+### [Zapisz DOCX jako PDF przy użyciu Aspose.Words – Kompletny przewodnik krok po kroku](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/)
+Dowiedz się, jak przy pomocy Aspose.Words dla Pythona zapisać plik DOCX jako PDF w kilku prostych krokach.
+
+### [Utwórz dostępny PDF – kompletny przewodnik z Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
+Dowiedz się, jak przy pomocy Aspose.Words dla Pythona tworzyć dostępne pliki PDF spełniające standardy WCAG.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

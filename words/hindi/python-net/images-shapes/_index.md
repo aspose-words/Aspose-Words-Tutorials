@@ -81,6 +81,8 @@ Word आकृति में शैडो इफ़ेक्ट जोड़�
 
 ### [Python का उपयोग करके Word दस्तावेज़ में आयत आकार कैसे बनाएं](./how-to-create-rectangle-shape-in-a-word-document-using-pytho/)
 Python के साथ Aspose.Words का उपयोग करके Word फ़ाइल में आयत आकार जोड़ने की चरण‑दर‑चरण प्रक्रिया सीखें।
+### [Python में आकृति में शैडो जोड़ें – पूर्ण प्रोग्रामिंग गाइड](./add-shadow-to-shape-in-python-complete-programming-guide/)
+Python में आकृति में शैडो जोड़ने की पूरी प्रक्रिया सीखें और अपने दस्तावेज़ों को आकर्षक बनाएं।
 
 ## अतिरिक्त संसाधन
 

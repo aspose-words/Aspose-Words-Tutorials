@@ -193,6 +193,12 @@ Learn how to save a document as PDF with a custom rectangle shape using Aspose.W
 Learn how to export Word documents to PDF with PDF/UA compliance using Aspose.Words for Python.
 ### [Save docx as pdf with Aspose.Words: a step‑by‑step guide](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
 Learn how to convert DOCX files to PDF using Aspose.Words for Python in a detailed step‑by‑step guide.
+### [Save docx as markdown – Complete Guide to Convert Word to Markdown](./save-docx-as-markdown-complete-guide-to-convert-word-to-mark/)
+Learn how to save DOCX files as Markdown using Aspose.Words for Python in this comprehensive guide.
+### [Save DOCX as PDF with Aspose.Words – Complete Step‑by‑Step Guide](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/)
+Learn how to save DOCX files as PDF using Aspose.Words for Python in this comprehensive step‑by‑step guide.
+### [create accessible pdf – Complete Guide with Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
+Learn how to create accessible PDFs with Aspose.Words for Python in this comprehensive guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

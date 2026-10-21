@@ -248,6 +248,14 @@
 
 ### [如何在 Python 中将 Word 导出为符合 PDF/UA 标准的 PDF](./how-to-export-word-to-pdf-with-pdf-ua-compliance-in-python/)
 使用 Aspose.Words for Python 将 Word 文档导出为符合 PDF/UA 可访问性标准的 PDF，确保合规性。
+### [保存 docx 为 markdown – 完整的 Word 转 Markdown 指南](./save-docx-as-markdown-complete-guide-to-convert-word-to-mark/)
+学习使用 Aspose.Words for Python 将 docx 文件保存为 Markdown，实现高效的格式转换和内容提取。
+
+### [保存 DOCX 为 PDF – 完整的 Aspose.Words 步骤指南](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/)
+学习使用 Aspose.Words for Python 将 DOCX 文件保存为 PDF，实现高效的文档转换和内容提取。
+
+### [创建可访问 PDF – 完整指南（使用 Aspose.Words）](./create-accessible-pdf-complete-guide-with-aspose-words/)
+学习使用 Aspose.Words for Python 创建符合可访问性标准的 PDF，确保文档对所有用户友好。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

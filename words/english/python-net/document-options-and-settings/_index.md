@@ -66,6 +66,8 @@ Learn how to recover corrupted DOCX files using Aspose.Words for Python with ste
 Learn how to enable recovery mode in Aspose.Words for Python to open and recover corrupted Word documents. Step-by-step guide with code examples.
 ### [How to recover corrupted docx files with Aspose.Words in Python](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
 Learn how to recover corrupted DOCX files using Aspose.Words for Python. Step-by-step guide with code examples.
+### [Aspose Font Warning Handler – Detect Missing Fonts & Customize Document Loading](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+Learn how to detect missing fonts and customize document loading using Aspose Font Warning Handler in Python. Step-by-step guide with code examples.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

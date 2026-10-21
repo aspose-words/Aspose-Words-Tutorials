@@ -262,6 +262,14 @@
 
 ### [วิธีส่งออก Word เป็น PDF พร้อมการปฏิบัติตาม PDF/UA ด้วย Python](./how-to-export-word-to-pdf-with-pdf-ua-compliance-in-python/)
 เรียนรู้วิธีส่งออกไฟล์ Word เป็น PDF ที่เป็นไปตามมาตรฐาน PDF/UA ด้วย Aspose.Words for Python
+### [บันทึกไฟล์ docx เป็น markdown – คู่มือฉบับสมบูรณ์ในการแปลง Word เป็น Markdown](./save-docx-as-markdown-complete-guide-to-convert-word-to-mark/)
+เรียนรู้วิธีบันทึกไฟล์ docx เป็น Markdown อย่างละเอียดด้วย Aspose.Words for Python
+
+### [บันทึก DOCX เป็น PDF ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์แบบขั้นตอนต่อขั้นตอน](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/)
+เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น PDF อย่างละเอียดด้วย Aspose.Words for Python พร้อมขั้นตอนและตัวอย่างโค้ด
+
+### [สร้าง PDF ที่เข้าถึงได้ – คู่มือฉบับสมบูรณ์กับ Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
+เรียนรู้วิธีสร้างไฟล์ PDF ที่เข้าถึงได้ตามมาตรฐานด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
