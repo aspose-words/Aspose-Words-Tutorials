@@ -1,0 +1,7 @@
+Title: How to change footnote separator and customize its style in a Word document
+Slug: how-to-change-footnote-separator-and-customize-its-style-in
+Category: working-with-footnote-and-endnote
+ProcessedDate: 2026-10-14T00:08:10.765176
+SourceRepo: AI Search API
+Keywords: how to change footnote separator, change font color in word document
+PRNumber: 321

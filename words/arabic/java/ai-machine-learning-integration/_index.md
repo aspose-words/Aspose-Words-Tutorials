@@ -66,7 +66,8 @@ weight: 20
 ## الدروس المتاحة
 
 ### [إتقان معالجة النصوص في Java: استخدام Aspose.Words ونماذج الذكاء الاصطناعي للتلخيص والترجمة](./java-aspose-words-text-processing/)
-تعلم كيفية أتمتة تلخيص النصوص وترجمتها باستخدام Aspose.Words for Java مع GPT‑4 من OpenAI وGemini من Google. حسّن تطبيقات Java الخاصة بك اليوم.
+
+### [إنشاء مستند Word باستخدام Java مع فحص القواعد اللغوية عبر نموذج لغة مخصص](./create-word-document-java-with-custom-llm-grammar-check/)
 
 ### [إنشاء نموذج ذكاء اصطناعي مخصص – تعديل فقرات Word في Java](./create-custom-ai-model-edit-word-paragraphs-in-java/)
 تعلم كيفية بناء نموذج ذكاء اصطناعي مخصص لتعديل فقرات مستندات Word باستخدام Aspose.Words for Java.

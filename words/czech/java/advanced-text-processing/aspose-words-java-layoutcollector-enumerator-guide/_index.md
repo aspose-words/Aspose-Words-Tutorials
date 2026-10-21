@@ -60,12 +60,12 @@ Ujistěte se, že máte nainstalovanou Aspose.Words pro Java verze 25.3 (nebo 
     <artifactId>aspose-words</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ### Požadavky na nastavení prostředí
 - Nainstalovaný Java Development Kit (JDK).
@@ -91,6 +91,16 @@ public class SetupAsposeWords {
         System.out.println("Aspose.Words is ready to use!");
     }
 }
+```  
+
+S knihovnou připravenou můžete začít používat základní funkce.
+
+## Jak analyzovat stránky pomocí LayoutCollector?
+
+`LayoutCollector` je třída, která mapuje každý uzel v `Document` na jeho počáteční a koncové číslo stránky, což umožňuje přesnou analýzu stránkování. Načtěte svůj dokument, připojte `LayoutCollector` a dotazujte se na informace o stránkách — celá operace zabere jen několik řádků kódu a poskytne spolehlivé výsledky i pro velké soubory.
+
+```text
+Load the document → create LayoutCollector → call getStartPage(node) / getEndPage(node)
 ```
 
 S připravenou knihovnou můžeme přejít k hlavním funkcím.
@@ -110,7 +120,7 @@ Využitím `LayoutCollector` můžete získat počáteční a koncové indexy st
 ```java
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
-```
+```  
 
 **2. Naplnění dokumentu**
 Zde přidáme obsah, který zasahuje do více stránek:
@@ -121,7 +131,7 @@ builder.insertBreak(BreakType.PAGE_BREAK);
 builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
 builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
-```
+```  
 
 **3. Aktualizace rozvržení a získání metrik**
 ```java
@@ -129,6 +139,19 @@ layoutCollector.clear();
 doc.updatePageLayout();
 
 assert layoutCollector.getNumPagesSpanned(doc) == 5;
+```  
+
+**Vysvětlení:**  
+- `DocumentBuilder` vkládá obsah.  
+- `updatePageLayout()` vynutí průchod rozvržením, aby byly čísla stránek přesná.  
+- `getStartPage` / `getEndPage` vrací první a poslední index stránky pro libovolný uzel.
+
+## Jak vyjmenovat prvky rozvržení pomocí LayoutEnumerator?
+
+`LayoutEnumerator` je třída, která prochází vizuální strom rozvržení dokumentu a zpřístupňuje typ, pozici a velikost každého prvku — ideální pro vlastní renderování nebo analytiku. `LayoutEnumerator` prochází vizuální strom rozvržení a zpřístupňuje typ, pozici a velikost každého prvku — ideální pro vlastní renderování nebo analytiku.
+
+```text
+Initialize LayoutEnumerator → move to first child → iterate while moving next sibling
 ```
 
 #### Vysvětlení
@@ -148,7 +171,7 @@ Můžete procházet stránky, odstavce, řádky a další entity rozvržení, co
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
-```
+```  
 
 **2. Procházení dopředu a dozadu**
 ```java
@@ -159,6 +182,18 @@ traverseLayoutForward(layoutEnumerator, 1);
 
 // Traverse backward
 traverseLayoutBackward(layoutEnumerator, 1);
+```  
+
+**Vysvětlení:**  
+- `moveParent()` stoupá po stromu.  
+- Rekurzivní procházení vám poskytuje úplný přístup ke každému uzlu rozvržení.
+
+## Jak implementovat zpětné volání rozvržení stránky?
+
+`IPageLayoutCallback` je rozhraní pro přijímání událostí rozvržení během zpracování dokumentu, což vám umožní reagovat na změny rozvržení, jako jsou přetékání sekcí nebo dokončení renderování. Implementace `IPageLayoutCallback` vám umožní reagovat na události rozvržení, jako jsou přetékání sekcí nebo dokončení renderování, a poskytuje dynamickou kontrolu nad pipeline generování dokumentu.
+
+```text
+Set callback on Document → implement notify(event) → handle specific layout events
 ```
 
 #### Vysvětlení
@@ -178,9 +213,9 @@ Rozhraní `IPageLayoutCallback` vás upozorní, když část dokumentu dokončí
 ```java
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
 doc.updatePageLayout();
-```
+```  
 
-**2. Implementace metod zpětného volání**
+### Krok 2: implementovat metody zpětného volání
 ```java
 private static class RenderPageLayoutCallback implements IPageLayoutCallback {
     public void notify(PageLayoutCallbackArgs a) throws Exception {
@@ -200,6 +235,18 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
         }
     }
 }
+```  
+
+**Vysvětlení:**  
+- `notify()` přijímá identifikátor události.  
+- `ImageSaveOptions` lze přizpůsobit uvnitř zpětného volání pro renderování obrázků za běhu.
+
+## Jak restartovat číslování stránek v kontinuálních sekcích?
+
+`ContinuousSectionRestart` je výčtová hodnota, která určuje, zda se číslování stránek restartuje v kontinuálních sekcích, což vám dává jemnou kontrolu nad schématy číslování napříč dokumentem. Když dokument obsahuje více sekcí, které plynule pokračují, můžete řídit, zda se čísla stránek automaticky restartují.
+
+```text
+Load document → set ContinuousSectionPageNumberingRestart option → save
 ```
 
 #### Vysvětlení
@@ -218,13 +265,13 @@ Nastavením možnosti `ContinuousSectionRestart` můžete rozhodnout, zda se č�
 **1. Načtení dokumentu**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
-```
+```  
 
-**2. Konfigurace možností číslování stránek**
+### Krok 2: nakonfigurovat možnosti číslování stránek
 ```java
 doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
 doc.updatePageLayout();
-```
+```  
 
 #### Vysvětlení
 - **`setContinuousSectionPageNumberingRestart()`** říká Aspose.Words, jak zacházet s číslováním v kontinuálních sekcích.

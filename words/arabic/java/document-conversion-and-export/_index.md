@@ -74,6 +74,9 @@ weight: 22
 لمزيد من المعلومات، اطلع على [Aspose.Words for Java API Documentation](https://reference.aspose.com/words/java/)، وللبدء، حمّله من [here](https://releases.aspose.com/words/java/). إذا كان لديك أي أسئلة أو تحتاج إلى مساعدة، لا تتردد في التواصل مع [support forum](https://forum.aspose.com/).
 
 ## دروس تحويل المستندات وتصديرها
+### [How to convert docx to markdown with table support in Java](./how-to-convert-docx-to-markdown-with-table-support-in-java/)
+
+
 ### [إنشاء ملصقات باركود مخصصة في Aspose.Words for Java](./generating-custom-barcode-labels/)
 إنشاء ملصقات باركود مخصصة في Aspose.Words for Java. تعلم كيفية إنشاء حلول باركود مخصصة باستخدام Aspose.Words for Java في هذا الدليل خطوة بخطوة.
 
@@ -133,6 +136,14 @@ weight: 22
 تعلم كيفية حفظ مستند Word كملف markdown وتصدير المعادلات الرياضية إلى LaTeX باستخدام Aspose.Words for Java.
 ### [تحويل DOCX إلى Markdown – دليل Java كامل](./convert-docx-to-markdown-complete-java-tutorial/)
 تعلم كيفية تحويل ملفات DOCX إلى تنسيق Markdown باستخدام Aspose.Words for Java خطوة بخطوة.
+### [حفظ ملف docx كـ markdown – دليل Java كامل مع استخراج الصور](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
+تعلم كيفية تحويل ملفات DOCX إلى تنسيق Markdown واستخراج الصور باستخدام Aspose.Words for Java خطوة بخطوة.
+### [حفظ DOCX كملف Markdown – دليل Java كامل](./save-docx-as-markdown-complete-java-guide/)
+دليل شامل خطوة بخطوة لحفظ ملفات DOCX كملفات Markdown باستخدام Aspose.Words for Java.
+### [كيفية ضبط الدقة عند حفظ Word كـ Markdown](./how-to-set-resolution-when-saving-word-as-markdown/)
+تعلم كيفية ضبط دقة الصور عند حفظ مستند Word كملف Markdown باستخدام Aspose.Words for Java.
+### [كيفية تحويل docx إلى markdown باستخدام Aspose.Words](./how-to-convert-docx-to-markdown-with-aspose-words/)
+تعلم كيفية تحويل ملفات DOCX إلى تنسيق Markdown باستخدام Aspose.Words في Java خطوة بخطوة.
 
 ### [حفظ المستند كملف TXT – دليل سريع لتصدير معادلات Word Math](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 تعلم كيفية حفظ المستند كملف TXT وتصدير معادلات Word Math بسهولة باستخدام Aspose.Words for Java.
@@ -147,6 +158,10 @@ weight: 22
 تعلم كيفية استخراج صيغ LaTeX من مستندات DOCX وحفظها كملفات TXT باستخدام Aspose.Words.
 ### [حفظ ملف docx كملف txt مع تصدير رياضيات LaTeX – دليل Java كامل](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
 تعلم كيفية حفظ مستند DOCX كملف TXT وتصدير معادلات LaTeX بسهولة باستخدام Aspose.Words for Java.
+### [حفظ مستند Word كـ Markdown – تصدير الجداول إلى HTML في Java](./save-word-as-markdown-export-tables-to-html-in-java/)
+تعلم كيفية حفظ مستند Word كملف Markdown وتصدير الجداول إلى HTML باستخدام Aspose.Words for Java.
+### [حفظ docx كملف txt – تصدير معادلات Word إلى LaTeX](./save-docx-as-txt-export-word-equations-to-latex/)
+تعلم كيفية حفظ ملفات docx كملفات txt وتصدير المعادلات إلى تنسيق LaTeX باستخدام Aspose.Words for Java.
 
 ### [Aspose Word إلى PDF – تحويل DOCX إلى PDF في Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 تعلم كيفية تحويل ملفات DOCX إلى PDF باستخدام Aspose.Words for Java بخطوات بسيطة.
@@ -163,6 +178,8 @@ weight: 22
 تعلم كيفية تضمين الصور في ملفات Markdown كبيانات Base64 أثناء تحويل مستندات DOCX باستخدام Aspose.Words.
 
 ### [إنشاء ملف PDF ميسّر من DOCX – دليل شامل](./create-accessible-pdf-from-docx-complete-guide/)
+تعلم كيفية تحويل مستندات DOCX إلى ملفات PDF ميسّرة وفق معايير الوصول باستخدام Aspose.Words for Java.
+
 ### [تضمين الصور كـ base64 عند تحويل DOCX إلى Markdown في Java](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
 تعلم كيفية تضمين الصور في مستندات Markdown كبيانات base64 أثناء تحويل ملفات DOCX باستخدام Aspose.Words for Java.
 
@@ -324,6 +341,27 @@ weight: 22
 
 ### [حفظ مستند Word كـ Markdown – دليل شامل لتحويل DOCX إلى Markdown](./save-word-as-markdown-complete-guide-to-convert-docx-to-mark/)
 تعلم كيفية حفظ ملفات Word بصيفة Markdown خطوة بخطوة باستخدام Aspose.Words for Java.
+
+### [حفظ المستند كملف DOCX – تحويل Markdown إلى Word باستخدام Java](./save-document-as-docx-convert-markdown-to-word-with-java/)
+تعلم كيفية تحويل ملفات Markdown إلى مستندات Word بصيغة DOCX باستخدام Aspose.Words للـ Java.
+
+### [حفظ Word كملف PDF باستخدام Aspose.Words – دليل Java كامل](./save-word-as-pdf-with-aspose-words-full-java-guide/)
+دليل شامل يوضح كيفية تحويل مستندات Word إلى PDF باستخدام Aspose.Words في Java خطوة بخطوة.
+
+### [كيفية حفظ Markdown من Word – دليل Java كامل](./how-to-save-markdown-from-word-complete-java-guide/)
+دليل شامل يوضح كيفية حفظ مستند Word كملف Markdown باستخدام Aspose.Words for Java.
+
+### [حفظ Word كـ Markdown – دليل شامل باستخدام Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+تعلم كيفية حفظ مستندات Word بصيغة Markdown باستخدام Aspose.Words خطوة بخطوة.
+
+### [كيفية تحويل markdown إلى docx في Java](./how-to-perform-markdown-to-docx-conversion-in-java/)
+تحويل ملفات markdown إلى مستندات docx باستخدام Aspose.Words for Java.
+
+### [كيفية حفظ مستند Word كملف markdown مع جداول HTML في Java](./how-to-save-word-as-markdown-with-html-tables-in-java/)
+تعلم كيفية تحويل مستندات Word إلى صيغة markdown مع الحفاظ على جداول HTML باستخدام Aspose.Words for Java.
+
+### [كيفية إنشاء مخطط دائري في Word وحفظه كملف PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
+تعلم كيفية إنشاء مخطط دائري في مستند Word وتصديره كصورة PNG باستخدام Aspose.Words for Java.
 
 ## الأسئلة المتكررة
 

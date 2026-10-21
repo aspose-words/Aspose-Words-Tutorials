@@ -46,9 +46,7 @@ Met deze tutorials kunt u uw Word-documenten verbeteren door visueel aantrekkeli
 {{< tutorial-card link="./update-chart-title/" title="Grafiektitel bijwerken en legenda‑zichtbaarheid schakelen in Word met Aspose.Words voor .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
-
-
-
+{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Aangepast document opslaan met uitgeklapte taartdiagramsegmenten in C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
 | Titel | Beschrijving |
 | --- | --- |
@@ -58,19 +56,33 @@ Met deze tutorials kunt u uw Word-documenten verbeteren door visueel aantrekkeli
 | [Kolomdiagram invoegen in een Word-document](./insert-column-chart/) | Leer hoe u kolomdiagrammen in Word-documenten invoegt met Aspose.Words voor .NET. Verbeter de datavisualisatie in uw rapporten en presentaties. |
 | [Een vlakdiagram in een Word-document invoegen](./insert-area-chart/) | Leer hoe u een vlakdiagram in een Word-document invoegt met Aspose.Words voor .NET in deze uitgebreide stapsgewijze handleiding. |
 | [Bubbeldiagram invoegen in Word-document](./insert-bubble-chart/) | Leer hoe u een bellendiagram in een Word-document invoegt met Aspose.Words voor .NET met deze stapsgewijze handleiding. Verbeter uw documenten. |
+| [Maak een cirkeldiagram in Word met C# – stapsgewijze handleiding](./create-pie-chart-word-in-c-step-by-step-guide/) | Leer hoe u een cirkeldiagram in een Word-document maakt met Aspose.Words voor .NET in C# stap voor stap. |
+| [Een taartdiagram invoegen in een Word-document](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Leer hoe u een taartdiagram in een Word-document invoegt met Aspose.Words voor .NET in deze stapsgewijze handleiding. |
 | [Spreidingsdiagram invoegen in Word-document](./insert-scatter-chart/) | Leer hoe u een spreidingsdiagram in Word invoegt met Aspose.Words voor .NET. Eenvoudige stappen voor het integreren van visuele gegevensrepresentaties in uw documenten. |
 | [XY-aseigenschappen in een grafiek definiëren](./define-xyaxis-properties/) Leer hoe u XY-aseigenschappen in een grafiek definieert met Aspose.Words voor .NET met deze stapsgewijze handleiding. Perfect voor .NET-ontwikkelaars. |
 | [Datum- en tijdwaarden toevoegen aan de as van een grafiek](./date-time-values-to-axis/) | Leer hoe u datum- en tijdwaarden toevoegt aan de as van een grafiek met behulp van Aspose.Words voor .NET in deze uitgebreide stapsgewijze handleiding. |
 | [Getalnotatie voor assen in een grafiek](./number-format-for-axis/) | Leer hoe u asnummers in grafieken kunt opmaken met Aspose.Words voor .NET met deze stapsgewijze handleiding. Verbeter moeiteloos de leesbaarheid en professionaliteit van uw document. |
 | [Grenzen van de as](./bounds-of-axis/) | Leer hoe u de grenzen van een as in een grafiek instelt met behulp van Aspose.Words voor .NET, waarmee u het bereik van de waarden op de as kunt bepalen. |
+| [Hoe een Word-document met een aangepast taartdiagram te maken in C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Leer hoe u een Word-document maakt met een aangepast taartdiagram in C# met Aspose.Words. |
 | [Intervaleenheid tussen labels op de as van een grafiek](./interval-unit-between-labels-on-axis/) | Leer hoe u de intervaleenheid tussen labels op de as van een grafiek instelt met Aspose.Words voor .NET. |
 | [Grafiekas verbergen in een Word-document](./hide-chart-axis/) Leer hoe u de grafiekas in een Word-document kunt verbergen met Aspose.Words voor .NET met onze gedetailleerde, stapsgewijze zelfstudie. |
+| [Hoe een histogram maken in Word met Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Leer hoe u een histogram in een Word-document maakt met Aspose.Words voor .NET in deze stapsgewijze handleiding. |
 | [Selecteer de uitlijning van labels met meerdere regels in een grafiek](./tick-multi-line-label-alignment/) | Leer hoe u labels over meerdere regels in een grafiek kunt uitlijnen met Aspose.Words voor .NET met onze gedetailleerde stapsgewijze handleiding. Perfect voor ontwikkelaars van alle niveaus. |
 | [Pas het gegevenslabel van de grafiek aan](./chart-data-label/) | Leer hoe u gegevenslabels in grafieken kunt aanpassen met Aspose.Words voor .NET in een stapsgewijze handleiding. Perfect voor .NET-ontwikkelaars. |
+| [Hoe percentages weergeven in een grafiek met Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Leer hoe u percentages in grafieken weergeeft met Aspose.Words voor .NET C# in deze stapsgewijze handleiding. |
 | [Standaardopties instellen voor gegevenslabels in een grafiek](./default-options-for-data-labels/) | Leer hoe u standaardopties voor gegevenslabels in een grafiek instelt met Aspose.Words voor .NET. Volg onze stapsgewijze handleiding om moeiteloos grafieken te maken en aan te passen. |
 | [Pas een enkel grafiekgegevenspunt in een grafiek aan](./single-chart-data-point/) | Leer hoe u afzonderlijke grafiekgegevenspunten kunt aanpassen met Aspose.Words voor .NET in een gedetailleerde stapsgewijze handleiding. Verfraai uw grafieken met unieke markeringen en formaten. |
 | [Pas enkele grafiekreeksen in een grafiek aan](./single-chart-series/) | Leer hoe u afzonderlijke grafiekreeksen in een Word-document kunt aanpassen met Aspose.Words voor .NET. Volg onze stapsgewijze handleiding voor een naadloze ervaring. |
 | [Grafieklegenda weergeven in Word met C# – Complete stapsgewijze handleiding](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Leer hoe u de legenda van een grafiek in een Word-document weergeeft met Aspose.Words voor .NET en C# in deze volledige stapsgewijze handleiding. |
+| [Exploderen van taartdiagramsegment in C# met Aspose.Words – volledige gids](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Leer hoe u een taartdiagramsegment explodeert in C# met Aspose.Words in deze volledige stap‑voor‑stap handleiding. |
+| [Taartdiagramlabels toevoegen in C# met Aspose.Words – volledige gids](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Leer hoe u taartdiagramlabels toevoegt in C# met Aspose.Words in deze volledige stap‑voor‑stap handleiding. |
+| [Aangepaste plaatsing van gegevenslabels voor grafieken in C#](./custom-data-label-placement-for-charts-in-c/) | Leer hoe u aangepaste plaatsing van gegevenslabels in grafieken instelt met Aspose.Words voor .NET in C#. |
+| [Hoe u gegevenslabels aan een Word-grafiek toevoegt in C# – stapsgewijze handleiding](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Leer hoe u gegevenslabels aan een Word-grafiek toevoegt met Aspose.Words voor .NET in C#. |
+| [Series opmaken in een Word-lijndiagram met C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Leer hoe u series in een Word-lijndiagram opmaakt met Aspose.Words voor .NET en C#. |
+| [Hoe een Word-document C# te maken met een kolomgrafiek en opgemaakte labels](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Leer hoe u een Word-document met een kolomgrafiek en opgemaakte labels maakt met C#. |
+| [Hoe een grafiek in Word te formatteren met C# en aangepaste getalformaten](./how-to-format-chart-in-word-with-c-and-custom-number-formats/) | Leer hoe u met C# aangepaste getalformaten toepast op grafieken in Word met Aspose.Words. |
+| [Hoe het aantal histogrambins in te stellen en gegevenslabels toe te voegen in een Word‑grafiek met C#](./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/) | Leer hoe u het aantal bins van een histogram instelt en data‑labels toevoegt aan een Word‑grafiek met C#. |
+| [Programmamatig grafieklabels aanpassen in een Word‑document met C#](./programmatically-adjust-chart-labels-in-a-word-document-with/) | Leer hoe u grafieklabels in een Word‑document programmatic kunt aanpassen met C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

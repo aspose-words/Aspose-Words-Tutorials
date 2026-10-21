@@ -34,6 +34,7 @@
 | [Сохранить docx как markdown – Полное руководство C# с уравнениями LaTeX](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) | Полное руководство по конвертации DOCX в Markdown с поддержкой уравнений LaTeX на C#. |
 | [Сохранить docx как markdown – Полное руководство C# с извлечением изображений](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | Полное руководство по сохранению DOCX в Markdown с извлечением изображений на C# с использованием Aspose.Words. |
 | [Сохранить docx как markdown & извлечь изображения – руководство C#](./save-docx-as-markdown-extract-images-c-guide/) | Подробное руководство по конвертации DOCX в Markdown с извлечением изображений на C# с использованием Aspose.Words. |
+| [Сохранить docx как markdown – Полное руководство с извлечением изображений](./save-docx-as-markdown-complete-guide-with-image-extraction/) | Полное руководство по сохранению DOCX в Markdown с извлечением изображений на C# с использованием Aspose.Words. |
 | [Как экспортировать Markdown из Word – Полное руководство C#](./how-to-export-markdown-from-word-complete-c-guide/) | Полное руководство по экспорту Markdown из Word с использованием C# и Aspose.Words. |
 | [Как сохранить Markdown из DOCX – пошаговое руководство](./how-to-save-markdown-from-docx-step-by-step-guide/) | Подробное руководство по сохранению документа DOCX в формате Markdown с пошаговыми инструкциями на C#. |
 | [Как экспортировать Markdown из DOCX – Полное руководство](./how-to-export-markdown-from-docx-complete-guide/) | Полное руководство по экспорту Markdown из DOCX с использованием Aspose.Words для .NET. |
@@ -118,6 +119,17 @@
 | [Конвертировать DOCX в Markdown – извлечение изображений из DOCX с Aspose.Words](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/) | Конвертируйте DOCX в Markdown, извлекая изображения, используя Aspose.Words для .NET. |
 | [Конвертировать Word в Markdown – Полное руководство с экспортом PDF/UA](./convert-word-to-markdown-full-guide-with-pdf-ua-export/) | Полное руководство по конвертации Word в Markdown с последующим экспортом в PDF/UA, используя Aspose.Words для .NET. |
 | [Сохранить документ как Markdown с C# – Полное руководство](./save-document-as-markdown-with-c-full-guide/) | Полное руководство по сохранению документов в формате Markdown с использованием C# и Aspose.Words для .NET. |
+| [Сохранить docx как markdown с уравнениями LaTeX – руководство C#](./save-docx-as-markdown-with-latex-equations-c-guide/) | Конвертируйте DOCX в Markdown с поддержкой уравнений LaTeX, используя C# и Aspose.Words. |
+| [Экспорт docx в markdown – Полное руководство C#](./export-docx-as-markdown-complete-c-guide/) | Подробное руководство по экспорту файлов DOCX в формат Markdown с использованием C# и Aspose.Words. |
+| [Сохранить docx как markdown – экспортировать математические формулы Word в LaTeX с Aspose.Words](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/) | Экспортируйте формулы Word в LaTeX при сохранении DOCX в Markdown с помощью Aspose.Words. |
+| [Загрузка изображений в облако при конвертации Word в Markdown](./upload-images-to-cloud-when-converting-word-to-markdown/) | Конвертируйте документы Word в Markdown, автоматически загружая изображения в облако с помощью Aspose.Words для .NET. |
+| [Сохранить Word как Markdown – Экспортировать таблицы в HTML с Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/) | Экспортируйте таблицы из Word в HTML при сохранении в формате Markdown с помощью Aspose.Words для .NET. |
+| [Сохранить markdown как docx в C# – пошаговое руководство](./save-markdown-as-docx-in-c-step-by-step-guide/) | Подробное руководство по сохранению markdown в формате docx с использованием C# и Aspose.Words. |
+| [Сохранить markdown как Word – пошаговое руководство для разработчиков C#](./save-markdown-as-word-step-by-step-guide-for-c-developers/) | Подробное пошаговое руководство по сохранению markdown в документ Word для разработчиков C#. |
+| [Загрузка изображений в CDN при конвертации DOCX в Markdown – Полное руководство](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/) | Узнайте, как загружать изображения в CDN при конвертации DOCX в Markdown с помощью Aspose.Words для .NET. |
+| [Конвертировать docx в markdown – Полное руководство с экспортом уравнений](./convert-docx-to-markdown-complete-guide-with-equation-export/) | Полное руководство по конвертации DOCX в Markdown с экспортом уравнений LaTeX, используя Aspose.Words для .NET. |
+| [Aspose docx в markdown – Полное руководство по конвертации и извлечению изображений](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/) | Подробное руководство по конвертации DOCX в Markdown с извлечением изображений с помощью Aspose.Words для .NET. |
+| [Конвертировать DOCX в Markdown – Полное руководство с тенями фигур и восстановлением](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/) | Полное руководство по конвертации DOCX в Markdown с сохранением теней фигур и восстановлением повреждённых файлов. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -72,6 +72,8 @@ Scopri come automatizzare la sintesi e la traduzione del testo usando Aspose.Wor
 Impara a configurare un modello LLM per individuare e sostituire automaticamente testo in file DOCX usando Aspose.Words e servizi IA.
 ### [Crea modello AI personalizzato – Modifica paragrafi Word in Java](./create-custom-ai-model-edit-word-paragraphs-in-java/)
 Impara a costruire un modello AI su misura e a modificarne i paragrafi nei documenti Word usando Aspose.Words per Java.
+### [Crea documento Word Java con Controllo Grammaticale LLM Personalizzato](./create-word-document-java-with-custom-llm-grammar-check/)
+Impara a generare documenti Word in Java e a verificare la grammatica usando un modello LLM personalizzato.
 
 ## Risorse aggiuntive
 
