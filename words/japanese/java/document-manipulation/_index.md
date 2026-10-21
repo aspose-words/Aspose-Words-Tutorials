@@ -92,6 +92,8 @@ Aspose.Words for Javaを使ってドキュメントをHTMLページに分割す�
 Aspose.Words for Javaでドキュメント作成をマスター。テキスト、表、画像などを追加するステップバイステップガイド。魅力的なWord文書を簡単に作成できます。
 ### [Aspose.Words で Word 文書にコンテンツ コントロールを追加する](./add-content-control-in-word-document-with-aspose-words/)
 Aspose.Words を使用して、Word 文書にコンテンツ コントロール（構造化ドキュメントタグ）を追加し、データ バインディングや編集を簡単に行う方法を学びます。
+### [DocumentBuilder を使用して docx を保存し、コントロールの後にテキストを追加する方法](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+DocumentBuilder を使って DOCX を保存し、コントロールの後にテキストを追加する手順を解説します。
 ### [Aspose.Words for Java でのドキュメントの複製と結合](./cloning-and-combining-documents/)
 Aspose.Words for Javaでドキュメントを複製および結合する方法を学びましょう。ソースコード例付きのステップバイステップガイドです。
 ### [Aspose.Words for Java でドキュメントを比較する](./comparing-documents/)

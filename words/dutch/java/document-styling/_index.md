@@ -53,6 +53,8 @@ Leer hoe u standaardlettertype-instellingen configureert in Aspose.Words voor Ja
 Leer hoe u schaduweffecten toevoegt aan diagrammen in Word-documenten met Aspose.Words voor Java.
 ### [Hoe een segment in een Word-diagram explodeert en het uiterlijk aanpast](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
 Leer hoe je een segment in een Word-diagram kunt laten exploderen en de weergave kunt aanpassen met Aspose.Words voor Java.
+### [Hoe voetnoten te stylen in Java met Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
+Leer hoe je voetnoten kunt opmaken in Word-documenten met Aspose.Words voor Java, inclusief voorbeeldcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

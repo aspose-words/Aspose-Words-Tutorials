@@ -120,6 +120,9 @@
 ### [Как создать пустой документ и добавить фигуры с помощью Aspose.Words в C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
 Узнайте, как создать пустой документ и добавить в него фигуры с помощью Aspose.Words для C#.
 
+### [Как вставить изображение в docx и скрыть изображение в Word с помощью Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Узнайте, как вставлять изображения в документы Word и скрывать их при необходимости с помощью Aspose.Words для Java.
+
 ## Дополнительные ресурсы
 
 ### [Создание пустого документа Word со скрытой эллипсой](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

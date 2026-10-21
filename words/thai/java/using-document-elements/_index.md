@@ -113,6 +113,8 @@
 เรียนรู้วิธีสร้างไฟล์ DOCX ที่ฝัง ActiveX ด้วย Java และ Aspose.Words อย่างละเอียด
 ### [วิธีแทรกแผนภูมิวงกลมลงในเอกสาร Word ด้วย Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
 เรียนรู้วิธีแทรกแผนภูมิวงกลมลงในเอกสาร Word ด้วย Aspose.Words for Java อย่างง่ายดาย
+### [วิธีสร้างปุ่มคำสั่ง ActiveX ใน Java](./how-to-create-activex-command-button-in-java/)
+เรียนรู้วิธีสร้างปุ่มคำสั่ง ActiveX ในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

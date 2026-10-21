@@ -119,6 +119,9 @@ Apprenez à masquer une forme dans un document Word à l'aide de C# et Aspose.Wo
 ### [Comment créer un document vierge et ajouter des formes avec Aspose.Words en C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
 Apprenez à créer un document vierge et y ajouter des formes en C# avec Aspose.Words.
 
+### [Comment insérer une image dans un docx et masquer l'image dans Word avec Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Apprenez à insérer une image dans un fichier docx et à la masquer dans Word à l'aide d'Aspose.Words pour Java.
+
 ## Ressources supplémentaires
 
 ### [Créer un document Word vierge avec une forme ellipse cachée](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

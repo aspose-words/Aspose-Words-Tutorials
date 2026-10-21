@@ -45,6 +45,7 @@
 ## Использование обучающих материалов по элементам документа
 ### [How to initialize DocumentBuilder for new document using Aspose.Words](./how-to-initialize-documentbuilder-for-new-document-using-asp/)
 
+### [Как создать кнопку команды ActiveX в Java](./how-to-create-activex-command-button-in-java/)
 
 ### [Использование комментариев в Aspose.Words для Java](./using-comments/)
 Узнайте, как использовать комментарии в Aspose.Words для Java. Пошаговое руководство по добавлению и настройке комментариев в ваших документах.

@@ -121,6 +121,8 @@ Aspose.Words for Java का उपयोग करके प्रोग्र�
 
 ### [सादा टेक्स्ट कंटेंट कंट्रोल के साथ वर्ड दस्तावेज़ बनाना](./create-word-document-with-a-plain-text-content-control/)
 सादा टेक्स्ट कंटेंट कंट्रोल के साथ वर्ड दस्तावेज़ बनाना सीखें। कोड उदाहरण और चरण-दर-चरण मार्गदर्शिका।
+### [DocumentBuilder के साथ docx सहेजें और नियंत्रण के बाद टेक्स्ट जोड़ें](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+DocumentBuilder का उपयोग करके docx फ़ाइल सहेजें और कंट्रोल के बाद टेक्स्ट डालें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

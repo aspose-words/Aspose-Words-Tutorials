@@ -83,6 +83,8 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java ein Kreisdiagramm in ein Word-D
 Erfahren Sie, wie Sie OLE-Objekte und ActiveX-Steuerelemente in Aspose.Words für Java verwenden. Erstellen Sie mühelos interaktive Dokumente. Jetzt starten!
 ### [ActiveX-Schaltfläche in Word einfügen – Beschriftung festlegen](./how-to-insert-activex-button-in-word-set-button-caption/)
 Erfahren Sie, wie Sie in Aspose.Words für Java eine ActiveX-Schaltfläche einfügen und deren Beschriftung festlegen.
+### [Erstellen einer ActiveX-Schaltfläche in Aspose.Words für Java](./how-to-create-activex-command-button-in-java/)
+Lernen Sie, wie Sie in Aspose.Words für Java eine ActiveX-Befehlsschaltfläche erstellen und in Ihre Dokumente einbinden.
 ### [Verwenden von Revisionen in Aspose.Words für Java](./using-revisions/)
 Lernen Sie, Aspose.Words für Javas Revisionskontrolle effizient zu nutzen. Schritt-für-Schritt-Anleitung für Entwickler. Optimieren Sie Ihr Dokumentenmanagement.
 ### [Erstellen eines Kreisdiagramms mit Aspose.Words für Java – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)

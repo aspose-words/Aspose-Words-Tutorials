@@ -74,6 +74,8 @@ Apprenez à utiliser les objets OLE et les contrôles ActiveX dans Aspose.Words 
 Apprenez à insérer un contrôle Forms2Ole dans un fichier DOCX avec Aspose.Words. Guide complet étape par étape.
 ### [Comment créer forms2olecontrol en code avec Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
 Apprenez à créer des contrôles Forms2OLE dans le code avec Aspose.Words pour Java.
+### [Comment créer un bouton de commande ActiveX en Java](./how-to-create-activex-command-button-in-java/)
+Apprenez à créer un bouton de commande ActiveX dans Aspose.Words pour Java.
 ### [Utilisation des révisions dans Aspose.Words pour Java](./using-revisions/)
 Apprenez à utiliser efficacement les contrôles de révision d'Aspose.Words pour Java. Guide étape par étape pour les développeurs. Optimisez la gestion de vos documents.
 ### [Utilisation des sections dans Aspose.Words pour Java](./using-sections/)

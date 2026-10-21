@@ -45,9 +45,10 @@ Aspose.Words for Java มอบเครื่องมืออันทรง�
 ### [การใส่ลายน้ำเอกสารและการตั้งค่าหน้า](./document-watermarking-page-setup/)
 เรียนรู้วิธีการใช้ลายน้ำและตั้งค่าคอนฟิกูเรชันหน้าด้วย Aspose.Words สำหรับ Java คู่มือที่ครอบคลุมพร้อมโค้ดต้นฉบับ
 ### [การจัดรูปแบบส่วนหัวและส่วนท้ายเอกสาร](./document-header-footer-styling/)
-เรียนรูวิธีกำหนดรูปแบบส่วนหัวและส่วนท้ายของเอกสารโดยใช้ Aspose.Words สำหรับ Java ในคู่มือโดยละเอียดนี้ มีคำแนะนำทีละขั้นตอนและโค้ดต้นฉบับรวมอยู่ด้วย
 ### [วิธีแก้ไขตัวคั่นเชิงอรรถใน Java ด้วย Aspose.Words](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
 
+### [วิธีจัดรูปแบบเชิงอรรถใน Java ด้วย Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
+เรียนรู้วิธีจัดรูปแบบเชิงอรรถในเอกสาร Word ด้วย Aspose.Words for Java พร้อมตัวอย่างโค้ด
 ### [วิธีตรวจจับแบบอักษรในเอกสาร Word ด้วย Java – คู่มือฉบับสมบูรณ์](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 เรียนรู้วิธีตรวจสอบและดึงข้อมูลแบบอักษรจากเอกสาร Word ด้วย Aspose.Words for Java พร้อมตัวอย่างโค้ดเต็ม
 ### [ตั้งค่าฟอนต์เริ่มต้นใน Aspose.Words สำหรับ Java – คู่มือเต็ม](./set-default-font-settings-in-aspose-words-for-java-complete/)

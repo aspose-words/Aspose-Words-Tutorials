@@ -352,6 +352,9 @@ weight: 22
 ### [Πώς να αποθηκεύσετε Word ως markdown με πίνακες HTML σε Java](./how-to-save-word-as-markdown-with-html-tables-in-java/)
 Μάθετε πώς να μετατρέψετε έγγραφα Word σε markdown διατηρώντας πίνακες HTML χρησιμοποιώντας Aspose.Words for Java.
 
+### [Πώς να δημιουργήσετε διάγραμμα πίτας στο Word και να το αποθηκεύσετε ως PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
+Μάθετε πώς να δημιουργήσετε διάγραμμα πίτας στο Word και να το εξάγετε ως αρχείο PNG χρησιμοποιώντας Aspose.Words for Java.
+
 ## Συχνές Ερωτήσεις
 
 **Π: Πώς προσθέτω υδατογράφημα σε υπάρχον PDF χρησιμοποιώντας το Aspose.Words;**  

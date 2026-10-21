@@ -120,6 +120,8 @@ Aspose.Words for Java 是一款功能强大且用途广泛的 API，允许开发
 使用 Aspose.Words for Java 创建一个带文本控件的空白 Word 文档，以实现表单功能。
 ### [使用 Aspose.Words 程序化创建 Word 文档](./how-to-create-word-document-programmatically-with-aspose-wor/)
 了解如何使用 Aspose.Words 在 Java 中自动生成 Word 文档的完整步骤和代码示例。
+### [使用 DocumentBuilder 保存 docx 并在控件后添加文本](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+学习如何使用 DocumentBuilder 保存 docx 文件，并在特定控件后插入文本。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

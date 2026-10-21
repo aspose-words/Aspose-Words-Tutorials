@@ -122,6 +122,9 @@
 ### [كيفية إخفاء الشكل في مستند Word باستخدام Java](./how-to-hide-shape-in-a-word-document-using-java/)
 تعلم كيفية إخفاء الأشكال في مستندات Word باستخدام Aspose.Words لجافا خطوة بخطوة.
 
+### [كيفية إدراج صورة في ملف docx وإخفاء الصورة في Word باستخدام Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+تعلم كيفية إدراج صورة في مستند Word وإخفائها باستخدام Aspose.Words لجافا.
+
 ## موارد إضافية
 
 ### [إنشاء مستند Word فارغ مع شكل إهليلجي مخفي](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

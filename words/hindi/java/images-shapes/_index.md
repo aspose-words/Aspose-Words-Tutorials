@@ -141,6 +141,9 @@ C# के साथ Aspose.Words का उपयोग करके खाल�
 ### [Aspose.Words के साथ C# में खाली दस्तावेज़ बनाएं और आकृतियाँ जोड़ें](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
 C# में Aspose.Words का उपयोग करके खाली दस्तावेज़ बनाकर आकृतियाँ जोड़ने की प्रक्रिया सीखें।
 
+### [जावा के साथ docx में छवि सम्मिलित करें और Word में छवि छुपाएँ](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+जावा का उपयोग करके docx फ़ाइल में छवि जोड़ने और Word में उसे छुपाने की चरण‑दर‑चरण प्रक्रिया।
+
 ## अतिरिक्त संसाधन
 
 - [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)

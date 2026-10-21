@@ -79,6 +79,7 @@ Aspose.Words for JavaでWord文書にActiveXボタンを挿入し、ボタンの
 
 ### [Aspose.Words for Java でコードから forms2olecontrol を作成する方法](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
 Aspose.Words を使用したコードで forms2olecontrol を作成する手順を学びます。
+### [Aspose.Words for Java で ActiveX コマンドボタンを作成する方法](./how-to-create-activex-command-button-in-java/)
 ### [Aspose.Words for Java でリビジョンを使用する](./using-revisions/)
 Aspose.Words for Java のリビジョン管理を効率的に活用する方法を学びましょう。開発者向けのステップバイステップガイド。ドキュメント管理を最適化しましょう。
 ### [Aspose.Words for Java のセクションの使用](./using-sections/)

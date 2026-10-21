@@ -178,6 +178,8 @@ weight: 22
 تعلم كيفية تضمين الصور في ملفات Markdown كبيانات Base64 أثناء تحويل مستندات DOCX باستخدام Aspose.Words.
 
 ### [إنشاء ملف PDF ميسّر من DOCX – دليل شامل](./create-accessible-pdf-from-docx-complete-guide/)
+تعلم كيفية تحويل مستندات DOCX إلى ملفات PDF ميسّرة وفق معايير الوصول باستخدام Aspose.Words for Java.
+
 ### [تضمين الصور كـ base64 عند تحويل DOCX إلى Markdown في Java](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
 تعلم كيفية تضمين الصور في مستندات Markdown كبيانات base64 أثناء تحويل ملفات DOCX باستخدام Aspose.Words for Java.
 
@@ -357,6 +359,9 @@ weight: 22
 
 ### [كيفية حفظ مستند Word كملف markdown مع جداول HTML في Java](./how-to-save-word-as-markdown-with-html-tables-in-java/)
 تعلم كيفية تحويل مستندات Word إلى صيغة markdown مع الحفاظ على جداول HTML باستخدام Aspose.Words for Java.
+
+### [كيفية إنشاء مخطط دائري في Word وحفظه كملف PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
+تعلم كيفية إنشاء مخطط دائري في مستند Word وتصديره كصورة PNG باستخدام Aspose.Words for Java.
 
 ## الأسئلة المتكررة
 

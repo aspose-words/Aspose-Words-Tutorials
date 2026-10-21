@@ -78,6 +78,9 @@ Pelajari cara menghasilkan barcode kustom di Java menggunakan Aspose.Words for J
 ### [Menggunakan Chart di Aspose.Words for Java](./using-charts/)
 Pelajari cara membuat dan menyesuaikan chart di Aspose.Words for Java. Jelajahi tipe chart, pemformatan, dan properti sumbu untuk visualisasi data.
 
+### [Cara Membuat Diagram Pai di Word dan Menyimpannya sebagai PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
+Pelajari cara membuat diagram pai di dokumen Word menggunakan Aspose.Words for Java dan menyimpannya sebagai file PNG.
+
 ### [Menggunakan Objek Office Math di Aspose.Words for Java](./using-office-math-objects/)
 Manfaatkan kekuatan persamaan matematika dalam dokumen dengan Aspose.Words for Java. Pelajari cara memanipulasi dan menampilkan objek Office Math dengan mudah.
 

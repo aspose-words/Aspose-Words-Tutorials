@@ -80,6 +80,8 @@ Aprenda a manipular nodos en Aspose.Words para Java con este tutorial paso a pas
 Aprenda a usar objetos OLE y controles ActiveX en Aspose.Words para Java. Cree documentos interactivos fácilmente. ¡Empiece ya!
 ### [Cómo insertar un botón ActiveX en Word – Establecer el texto del botón](./how-to-insert-activex-button-in-word-set-button-caption/)
 Aprenda a insertar un botón ActiveX en Word y a establecer su texto mediante Aspose.Words para Java.
+### [Cómo crear un botón de comando ActiveX en Java](./how-to-create-activex-command-button-in-java/)
+Aprenda a crear botones de comando ActiveX en Java con Aspose.Words paso a paso.
 ### [Uso de revisiones en Aspose.Words para Java](./using-revisions/)
 Aprenda a usar Aspose.Words para los controles de revisión de Java de forma eficiente. Guía paso a paso para desarrolladores. Optimice la gestión de documentos.
 ### [Uso de secciones en Aspose.Words para Java](./using-sections/)

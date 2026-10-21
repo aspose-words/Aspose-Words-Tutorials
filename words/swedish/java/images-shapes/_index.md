@@ -119,6 +119,9 @@ Lär dig hur du skapar ett Word-dokument och gömmer en bild i det med Aspose.Wo
 ### [Hur man skapar ett tomt dokument och lägger till former med Aspose.Words i C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
 Lär dig hur du skapar ett tomt dokument och lägger till former med Aspose.Words i C#.
 
+### [Hur man infogar bild i docx och döljer bilden i Word med Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Lär dig hur du infogar en bild i ett DOCX-dokument och döljer den i Word med Aspose.Words för Java.
+
 ## Ytterligare resurser
 
 ### [Skapa ett tomt Word-dokument med en dold ellipsform](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

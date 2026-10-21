@@ -101,6 +101,8 @@ Bemästra dokumentskapande med Aspose.Words för Java. En steg-för-steg-guide f
 Lär dig hur du lägger till och hanterar innehållskontroller i Word-dokument med Aspose.Words för Java.
 ### [Skapa ett tomt Word-dokument med en textkontroll i Aspose.Words för Java](./how-to-create-a-blank-word-document-with-a-text-control/)
 Lär dig skapa ett tomt Word-dokument och lägga till en textkontroll med Aspose.Words för Java.
+### [Hur man sparar docx med DocumentBuilder och lägger till text efter en kontroll](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+Lär dig spara DOCX-filer med DocumentBuilder och infoga text efter en kontroll i Java.
 ### [Kloning och kombination av dokument i Aspose.Words för Java](./cloning-and-combining-documents/)
 Lär dig hur du klonar och kombinerar dokument i Aspose.Words för Java. Steg-för-steg-guide med exempel på källkod.
 ### [Jämföra dokument i Aspose.Words för Java](./comparing-documents/)

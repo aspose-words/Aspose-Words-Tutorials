@@ -53,6 +53,7 @@ Pelajari cara mengatur font default secara programatis dengan Aspose.Words untuk
 Pelajari cara menambahkan efek bayangan pada diagram Word menggunakan Aspose.Words untuk Java.
 ### [Cara Meledakkan Irisan pada Diagram Word dan Menyesuaikan Tampilannya](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
 Pelajari cara meledakkan irisan pada diagram Word dan menyesuaikan tampilannya menggunakan Aspose.Words untuk Java.
+### [Cara Menata Catatan Kaki di Java menggunakan Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

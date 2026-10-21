@@ -52,6 +52,8 @@
 تعلّم كيفية إضافة ظل إلى مخطط Word باستخدام Aspose.Words لجافا.
 ### [كيفية تفجير شريحة في مخطط Word وتخصيص مظهرها](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
 تعلّم كيفية تفجير شريحة في مخطط Word وتعديل مظهرها باستخدام Aspose.Words لجافا.
+### [كيفية تنسيق الحواشي في Java باستخدام Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
+تعلّم كيفية تنسيق الحواشي في مستندات Word باستخدام Aspose.Words لجافا مع أمثلة عملية.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

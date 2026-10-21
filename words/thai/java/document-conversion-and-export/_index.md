@@ -173,6 +173,7 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 
 ### [สร้าง PDF ที่เข้าถึงได้จาก DOCX – คู่มือฉบับสมบูรณ์](./create-accessible-pdf-from-docx-complete-guide/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ที่รองรับการเข้าถึงสำหรับผู้ใช้ทุกคนด้วย Aspose.Words
+
 ### [ฝังรูปภาพเป็น base64 เมื่อแปลง DOCX เป็น Markdown ใน Java](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
 เรียนรู้วิธีฝังรูปภาพเป็น Base64 ระหว่างการแปลงไฟล์ DOCX เป็น Markdown ด้วย Aspose.Words for Java
 
@@ -214,6 +215,7 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 
 ### [สร้าง PDF ที่เข้าถึงได้จาก DOCX ใน Java – คู่มือเต็ม](./create-accessible-pdf-from-docx-in-java-full-guide/)
 เรียนรู้วิธีแปลง DOCX เป็น PDF ที่รองรับการเข้าถึงสำหรับผู้ใช้เครื่องมือช่วยเหลือโดยใช้ Aspose.Words for Java อย่างละเอียด
+
 ### [docx to pdf tutorial – Convert Word to PDF with LowCode](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF อย่างง่ายด้วย LowCode โดยใช้ Aspose.Words for Java
 
@@ -348,6 +350,9 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 
 ### [วิธีบันทึกไฟล์ Word เป็น markdown พร้อมตาราง HTML ใน Java](./how-to-save-word-as-markdown-with-html-tables-in-java/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น markdown พร้อมตาราง HTML ด้วย Aspose.Words for Java
+
+### [วิธีสร้างแผนภูมิวงกลมใน Word และบันทึกเป็น PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
+เรียนรู้วิธีสร้างแผนภูมิวงกลมในเอกสาร Word ด้วย Aspose.Words for Java และบันทึกเป็นไฟล์ PNG
 
 ## คำถามที่พบบ่อย
 

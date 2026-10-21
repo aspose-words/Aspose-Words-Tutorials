@@ -113,6 +113,8 @@ Pelajari cara membuat dokumen Word secara programatis dan menambahkan tombol int
 Pelajari cara menambahkan diagram pai ke dokumen Word dengan Aspose.Words untuk Java dalam tutorial langkah demi langkah ini.
 ### [Cara Membuat DOCX Berisi ActiveX dengan Java dan Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
 Pelajari cara membuat file DOCX yang berisi kontrol ActiveX menggunakan Java dan Aspose.Words.
+### [Cara Membuat Tombol Perintah ActiveX di Java](./how-to-create-activex-command-button-in-java/)
+Pelajari cara membuat tombol perintah ActiveX di Aspose.Words untuk Java. Tambahkan kontrol interaktif ke dokumen Word Anda.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

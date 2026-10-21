@@ -45,6 +45,8 @@ Aprenda a aplicar marcas d'água e definir configurações de página com o Aspo
 Aprenda a estilizar cabeçalhos e rodapés de documentos usando o Aspose.Words para Java neste guia detalhado. Instruções passo a passo e código-fonte incluídos.
 ### [Como editar o separador de nota de rodapé em Java com Aspose.Words](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
 Aprenda a modificar o separador de notas de rodapé em documentos Word usando Aspose.Words para Java.
+### [Como estilizar notas de rodapé em Java usando Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
+Aprenda a aplicar estilos a notas de rodapé em documentos Word usando Aspose.Words para Java. Guia passo a passo com exemplos de código.
 ### [Como detectar fontes em documentos Word Java – Guia completo](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 Aprenda a identificar fontes usadas em documentos Word com Aspose.Words para Java. Guia passo a passo com exemplos de código.
 ### [Definir configurações de fonte padrão no Aspose.Words para Java – Guia completo](./set-default-font-settings-in-aspose-words-for-java-complete/)

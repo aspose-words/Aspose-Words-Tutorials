@@ -120,6 +120,9 @@ Ismerje meg, hogyan hozhat létre új Word dokumentumot, amely rejtett képet ta
 ### [Üres dokumentum létrehozása és alakzatok hozzáadása Aspose.Words használatával C#-ban](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
 Tanulja meg, hogyan hozhat létre üres Word-dokumentumot, és adhat hozzá alakzatokat C#-ban az Aspose.Words segítségével.
 
+### [Hogyan szúrjunk be képet docx-be, és rejtsük el a képet Word-ben Java-val](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Tanulja meg, hogyan szúrhat be képet a docx fájlba, majd elrejtheti azt a Word dokumentumban Java használatával.
+
 ## További források
 
 ### [Üres Word dokumentum létrehozása rejtett ellipszis alakzattal](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

@@ -120,6 +120,9 @@ Dowiedz się, jak utworzyć dokument Word zawierający ukryty obraz, korzystają
 ### [Jak utworzyć pusty dokument i dodać kształty przy użyciu Aspose.Words w C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
 Dowiedz się, jak utworzyć pusty dokument i dodać do niego kształty przy użyciu Aspose.Words w C#.
 
+### [Jak wstawić obraz do pliku docx i ukryć obraz w Wordzie przy użyciu Javy](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Dowiedz się, jak wstawić obraz do dokumentu docx i ukryć go w Wordzie przy użyciu Aspose.Words dla Java.
+
 ## Dodatkowe zasoby
 
 ### [Utwórz pusty dokument Word z ukrytym kształtem elipsy](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

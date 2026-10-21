@@ -347,6 +347,9 @@ Java kullanarak markdown dosyasını docx formatına dönüştürmeyi adım adı
 ### [Java’da Word’ü HTML tabloları ile markdown olarak kaydetme](./how-to-save-word-as-markdown-with-html-tables-in-java/)
 Java kullanarak Word belgelerini HTML tablolarını koruyarak markdown formatına dönüştürmeyi öğrenin.
 
+### [Word'de Pasta Grafiği Oluşturma ve PNG Olarak Kaydetme](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
+Word kullanarak pasta grafiği oluşturun ve grafiği PNG dosyası olarak dışa aktarın.
+
 ## Sık Sorulan Sorular
 
 **S: Aspose.Words kullanarak mevcut bir PDF’e nasıl filigran eklerim?**  

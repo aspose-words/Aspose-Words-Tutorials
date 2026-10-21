@@ -82,6 +82,8 @@ Aprenda a usar Forms2OleControl para converter documentos DOCX com o Aspose.Word
 Aprenda a inserir um botão ActiveX no Word e definir sua legenda de forma simples.
 ### [Inserir Gráfico de Pizza no Word com Aspose.Words – Guia Completo](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
 Aprenda a inserir e personalizar gráficos de pizza em documentos Word usando Aspose.Words com este guia passo a passo.
+### [Como criar botão de comando ActiveX em Java](./how-to-create-activex-command-button-in-java/)
+Aprenda a criar um botão de comando ActiveX em Java usando Aspose.Words. Guia passo a passo para adicionar controles interativos.
 ### [Usando revisões no Aspose.Words para Java](./using-revisions/)
 Aprenda a usar os controles de revisão do Aspose.Words para Java com eficiência. Guia passo a passo para desenvolvedores. Otimize seu gerenciamento de documentos.
 ### [Usando seções em Aspose.Words para Java](./using-sections/)

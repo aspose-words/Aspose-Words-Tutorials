@@ -96,6 +96,8 @@ Creëer documenten met Aspose.Words voor Java. Een stapsgewijze handleiding voor
 Leer hoe u een ActiveX-knop in een DOCX-document toevoegt met Java, stap‑voor‑stap codevoorbeelden en volledige uitleg.
 ### [Leeg Word-document maken met een tekstbesturingselement in Aspose.Words voor Java](./how-to-create-a-blank-word-document-with-a-text-control/)
 Leer hoe u een leeg Word-document maakt en een tekstbesturingselement toevoegt met Aspose.Words voor Java.
+### [DOCX opslaan met DocumentBuilder en tekst toevoegen na een controle](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+Leer hoe u een DOCX-bestand opslaat met DocumentBuilder en vervolgens tekst toevoegt direct na een besturingselement.
 ### [Documenten klonen en combineren in Aspose.Words voor Java](./cloning-and-combining-documents/)
 Leer hoe je documenten kunt klonen en combineren in Aspose.Words voor Java. Stapsgewijze handleiding met broncodevoorbeelden.
 ### [Documenten vergelijken in Aspose.Words voor Java](./comparing-documents/)

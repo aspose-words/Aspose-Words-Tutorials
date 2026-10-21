@@ -52,6 +52,8 @@ Dowiedz się, jak dodać cień do wykresu w dokumencie Word przy użyciu Aspose.
 ### [Jak edytować separator przypisu w Javie przy użyciu Aspose.Words](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
 Dowiedz się, jak zmienić separator przypisów w dokumentach Word przy użyciu Aspose.Words for Java. Praktyczny przewodnik z kodem źródłowym.
 ### [Jak rozdzielić fragment wykresu w Wordzie i dostosować jego wygląd](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+### [Jak stylować przypisy w Javie przy użyciu Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
+Dowiedz się, jak formatować i stylizować przypisy w dokumentach Word przy użyciu Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

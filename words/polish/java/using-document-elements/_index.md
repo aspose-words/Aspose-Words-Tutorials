@@ -80,6 +80,8 @@ Dowiedz się, jak dodać przycisk ActiveX do dokumentu Word i ustawić jego etyk
 Dowiedz się, jak generować dokumenty DOCX z osadzonymi kontrolkami ActiveX przy użyciu Java i Aspose.Words.
 ### [Jak wstawić wykres kołowy do dokumentu Word przy użyciu Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
 Dowiedz się, jak przy pomocy Aspose.Words for Java dodać wykres kołowy do dokumentu Word w kilku prostych krokach.
+### [Jak utworzyć przycisk polecenia ActiveX w Javie](./how-to-create-activex-command-button-in-java/)
+Dowiedz się, jak w Aspose.Words dla Java dodać przycisk polecenia ActiveX do dokumentu Word.
 ### [Korzystanie z rewizji w Aspose.Words dla Java](./using-revisions/)
 Naucz się efektywnie używać kontroli wersji Aspose.Words for Java. Przewodnik krok po kroku dla programistów. Zoptymalizuj zarządzanie dokumentami.
 ### [Korzystanie z sekcji w Aspose.Words dla Java](./using-sections/)

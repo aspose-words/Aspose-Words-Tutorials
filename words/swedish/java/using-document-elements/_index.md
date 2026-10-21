@@ -76,6 +76,8 @@ Lär dig använda OLE-objekt och ActiveX-kontroller i Aspose.Words för Java. Sk
 Lär dig hur du infogar en ActiveX‑knapp i Word och anger knappens rubrik i denna steg‑för‑steg‑handledning.
 ### [Hur man skapar docx som innehåller ActiveX med Java och Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
 Lär dig skapa DOCX-filer som innehåller ActiveX-kontroller med Java och Aspose.Words.
+### [Skapa ActiveX-kommandoknapp i Java](./how-to-create-activex-command-button-in-java/)
+Lär dig hur du skapar en ActiveX-kommandoknapp i Java med Aspose.Words.
 ### [Använda revisioner i Aspose.Words för Java](./using-revisions/)
 Lär dig att använda Aspose.Words för Javas revisionskontroller effektivt. Steg-för-steg-guide för utvecklare. Optimera din dokumenthantering.
 ### [Använda sektioner i Aspose.Words för Java](./using-sections/)

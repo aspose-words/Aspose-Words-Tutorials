@@ -94,6 +94,8 @@ Tìm hiểu cách chia tài liệu thành các trang HTML bằng Aspose.Words ch
 Làm chủ việc tạo tài liệu với Aspose.Words cho Java. Hướng dẫn từng bước để thêm văn bản, bảng, hình ảnh và nhiều nội dung khác. Tạo tài liệu Word tuyệt đẹp một cách dễ dàng.
 ### [Thêm Content Control trong tài liệu Word bằng Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
 Hướng dẫn cách chèn và quản lý Content Control trong tài liệu Word bằng Aspose.Words for Java.
+### [Cách lưu docx bằng DocumentBuilder và thêm văn bản sau một điều khiển](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+Lưu tài liệu docx và chèn văn bản sau một điều khiển bằng DocumentBuilder.
 ### [Sao chép và kết hợp tài liệu trong Aspose.Words cho Java](./cloning-and-combining-documents/)
 Tìm hiểu cách sao chép và kết hợp tài liệu trong Aspose.Words cho Java. Hướng dẫn từng bước với các ví dụ về mã nguồn.
 ### [So sánh các tài liệu trong Aspose.Words cho Java](./comparing-documents/)

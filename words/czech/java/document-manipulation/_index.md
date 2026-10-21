@@ -139,6 +139,9 @@ Naučte se, jak v Javě vytvořit prázdný dokument Word a přidat do něj inte
 ### [Vytvoření dokumentu Word s prostým textovým ovládacím prvkem](./create-word-document-with-a-plain-text-content-control/)
 Naučte se vytvořit dokument Word s jednoduchým textovým ovládacím prvkem pomocí Aspose.Words pro Javu.
 
+### [Jak uložit docx pomocí DocumentBuilder a přidat text po ovládacím prvku](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+Naučte se uložit soubor DOCX pomocí DocumentBuilder a vložit text za konkrétní kontrolní prvek.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

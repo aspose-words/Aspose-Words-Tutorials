@@ -119,6 +119,9 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java ein Word‑Dokument erzeugen un
 ### [Wie man ein leeres Dokument erstellt und Formen mit Aspose.Words in C# hinzufügt](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
 Erfahren Sie, wie Sie mit Aspose.Words für C# ein leeres Dokument erstellen und Formen hinzufügen.
 
+### [Wie man ein Bild in docx einfügt und das Bild in Word mit Java ausblendet](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Bild in ein DOCX einfügen und es anschließend ausblenden.
+
 ## Weitere Ressourcen
 
 ### [Erstellen Sie ein leeres Word-Dokument mit einer versteckten Ellipsenform](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

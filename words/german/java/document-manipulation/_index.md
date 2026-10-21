@@ -122,6 +122,8 @@ Erfahren Sie, wie Sie Inhaltssteuerelemente in Word-Dokumenten programmgesteuert
 Erfahren Sie, wie Sie ein leeres Word-Dokument mit einem Textsteuerelement programmgesteuert erstellen.
 ### [Wie man ein Word-Dokument programmgesteuert mit Aspose.Words erstellt](./how-to-create-word-document-programmatically-with-aspose-wor/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java ein Word-Dokument programmgesteuert erstellen.
+### [Wie man docx mit DocumentBuilder speichert und Text nach einem Steuerelement hinzufügt](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+Speichern Sie ein DOCX mit DocumentBuilder und fügen Sie Text unmittelbar nach einem Inhaltssteuerelement ein.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

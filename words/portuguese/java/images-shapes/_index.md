@@ -119,6 +119,9 @@ Aprenda a criar um documento Word e inserir uma imagem oculta usando Aspose.Word
 ### [Como criar documento em branco e adicionar formas com Aspose.Words em C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
 Aprenda a criar um documento Word vazio e inserir formas usando Aspose.Words para C#.
 
+### [Como inserir imagem em docx e ocultar imagem no Word com Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Aprenda a inserir imagens em documentos DOCX e a ocultá-las no Word usando Aspose.Words para Java.
+
 ## Recursos adicionais
 
 ### [Criar um documento Word em branco com uma forma elipse oculta](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

@@ -120,6 +120,9 @@ Panduan langkah demi langkah untuk membuat dokumen Word dengan gambar tersembuny
 ### [Cara Membuat Dokumen Kosong dan Menambahkan Bentuk dengan Aspose.Words di C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
 Panduan membuat dokumen kosong dan menambahkan bentuk menggunakan Aspose.Words untuk C#.
 
+### [Cara menyisipkan gambar ke dalam docx dan menyembunyikan gambar di Word dengan Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Panduan langkah demi langkah menyisipkan gambar ke dokumen DOCX dan menyembunyikannya di Word menggunakan Aspose.Words untuk Java.
+
 ## Sumber Daya Tambahan
 
 ### [Buat dokumen Word kosong dengan bentuk elips tersembunyi](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

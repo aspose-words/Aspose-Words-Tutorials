@@ -69,6 +69,13 @@ Aspose.Words for Java 的关键功能之一是能够 **convert docx to pdf** 并
 
 ### [在 Aspose.Words for Java 中使用条形码生成](./using-barcode-generation/)
 ### [在 Aspose.Words for Java 中使用图表](./using-charts/)
+
+学习如何在 Aspose.Words for Java 中创建和自定义图表。探索数据可视化的图表类型、格式和轴属性。
+
+### [在 Aspose.Words for Java 中创建饼图并保存为 PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
+
+本教程演示如何使用 Aspose.Words for Java 在 Word 文档中创建饼图并将其导出为 PNG 图像。
+
 ### [在 Aspose.Words for Java 中使用 Office Math 对象](./using-office-math-objects/)
 
 使用 Aspose.Words for Java 解锁文档中数学公式的强大功能。学习如何轻松操作和显示 Office Math 对象。

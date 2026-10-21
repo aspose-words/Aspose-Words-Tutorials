@@ -110,6 +110,8 @@
 ### [كيفية إنشاء ملف docx يحتوي على ActiveX باستخدام Java و Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
 ### [كيفية إدراج مخطط دائري في مستند Word باستخدام Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
 تعلم خطوة بخطوة كيفية إضافة مخطط دائري إلى مستند Word باستخدام Aspose.Words for Java.
+### [كيفية إنشاء زر أمر ActiveX في جافا](./how-to-create-activex-command-button-in-java/)
+تعلم كيفية إنشاء زر أمر ActiveX في مستندات Aspose.Words باستخدام جافا.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

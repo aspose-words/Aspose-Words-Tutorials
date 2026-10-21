@@ -122,6 +122,9 @@ Aspose.Words для Java — это мощный и универсальный A
 ### [Создание документа Word с простым текстовым элементом управления](./create-word-document-with-a-plain-text-content-control/)
 Узнайте, как создать документ Word, содержащий простой текстовый элемент управления, используя Aspose.Words для Java.
 
+### [Как сохранить DOCX с помощью DocumentBuilder и добавить текст после элемента управления](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+Сохраните документ DOCX с DocumentBuilder и вставьте текст сразу после управляющего элемента. 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

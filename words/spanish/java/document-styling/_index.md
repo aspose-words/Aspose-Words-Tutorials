@@ -55,6 +55,9 @@ Aprenda a añadir sombra a gráficos de Word usando Aspose.Words para Java con e
 ### [Cómo explotar una porción en un gráfico de Word y personalizar su apariencia](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
 Aprenda a separar y personalizar porciones de gráficos en documentos Word usando Aspose.Words para Java. Guía paso a paso con código fuente.
 
+### [Cómo dar estilo a notas al pie en Java usando Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
+Aprenda a aplicar estilo a notas al pie en documentos Word con Aspose.Words para Java. Guía paso a paso con ejemplos de código.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

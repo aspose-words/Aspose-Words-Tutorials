@@ -204,6 +204,7 @@ Naučte se, jak pomocí Aspose.Words for Java vytvořit PDF s přístupnými zna
 
 ### [Jak exportovat Markdown z Wordu pomocí Javy – Kompletní průvodce](./how-to-export-markdown-from-word-using-java-complete-guide/)
 Naučte se exportovat obsah Wordu do formátu Markdown pomocí Aspose.Words for Java v podrobném průvodci.
+
 ### [Převod docx na txt – Export rovnic Word jako LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/)
 Naučte se převést soubory DOCX na prostý text a exportovat rovnice Word do formátu LaTeX pomocí Aspose.Words.
 
@@ -215,6 +216,7 @@ Naučte se převádět dokumenty Word do formátu Markdown pomocí Aspose.Words 
 
 ### [Vytvoření přístupného PDF z Wordu – krok‑za‑krokem průvodce](./create-accessible-pdf-from-word-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Words for Java vytvořit PDF s přístupnými značkami a optimalizovat jej pro čtečky obrazovky.
+
 ### [Uložení docx jako txt – Rychlý průvodce C# s exportem LaTeX Math](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
 Naučte se převést DOCX na prostý text a exportovat rovnice LaTeX pomocí Aspose.Words v C#.
 
@@ -359,6 +361,9 @@ Naučte se převést soubory DOCX na Markdown pomocí Aspose.Words v Javě.
 
 ### [Jak uložit Word jako markdown s HTML tabulkami v Javě](./how-to-save-word-as-markdown-with-html-tables-in-java/)
 Naučte se převést dokument Word do formátu markdown a zachovat HTML tabulky pomocí Aspose.Words for Java.
+
+### [Jak vytvořit koláčový graf ve Wordu a uložit jej jako PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
+Naučte se pomocí Aspose.Words for Java vytvořit koláčový graf a exportovat jej jako PNG obrázek.
 
 ## Často kladené otázky
 

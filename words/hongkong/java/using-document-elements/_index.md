@@ -91,6 +91,8 @@
 了解如何在 Java 程式碼中使用 Aspose.Words 建立 forms2olecontrol，以嵌入 OLE 控制項。
 ### [在 Java 與 Aspose.Words 中建立包含 ActiveX 的 docx](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
 了解如何在 Java 中使用 Aspose.Words 建立包含 ActiveX 控制項的 docx 文件。
+### [在 Aspose.Words for Java 中建立 ActiveX 命令按鈕](./how-to-create-activex-command-button-in-java/)
+了解如何在 Aspose.Words for Java 中使用 ActiveX 命令按鈕，實作互動式文件功能。
 ### [在 Aspose.Words for Java 中使用修訂版本](./using-revisions/)
 學習有效地使用 Aspose.Words for Java 的修訂控制。為開發人員提供逐步指南。優化您的文件管理。
 

@@ -78,6 +78,8 @@ Word दस्तावेज़ में ActiveX बटन जोड़ने 
 Aspose.Words का उपयोग करके कोड में forms2olecontrol बनाने की प्रक्रिया सीखें।
 ### [Java और Aspose.Words के साथ ActiveX युक्त docx कैसे बनाएं](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
 Java और Aspose.Words का उपयोग करके ActiveX शामिल करने वाला DOCX फ़ाइल बनाने की प्रक्रिया सीखें।
+### [Java के लिए Aspose.Words में ActiveX कमांड बटन बनाना](./how-to-create-activex-command-button-in-java/)
+Java में Aspose.Words का उपयोग करके ActiveX कमांड बटन कैसे बनाएं, सीखें।
 ### [जावा के लिए Aspose.Words में संशोधन का उपयोग करना](./using-revisions/)
 जावा के संशोधन नियंत्रणों के लिए Aspose.Words का कुशलतापूर्वक उपयोग करना सीखें। डेवलपर्स के लिए चरण-दर-स्टेप मार्गदर्शिका। अपने दस्तावेज़ प्रबंधन को अनुकूलित करें।
 ### [जावा के लिए Aspose.Words में अनुभागों का उपयोग करना](./using-sections/)

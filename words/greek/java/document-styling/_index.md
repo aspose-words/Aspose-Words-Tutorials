@@ -53,6 +53,8 @@
 Μάθετε πώς να προσθέσετε σκιά σε γραφήματα Word χρησιμοποιώντας το Aspose.Words για Java.
 ### [Πώς να επεξεργαστείτε το διαχωριστικό υποσημειώσεων σε Java με το Aspose.Words](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
 Μάθετε πώς να προσαρμόζετε το διαχωριστικό υποσημειώσεων σε έγγραφα Word χρησιμοποιώντας Aspose.Words για Java.
+### [Πώς να μορφοποιήσετε υποσημειώσεις σε Java με το Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
+Μάθετε πώς να εφαρμόζετε στυλ σε υποσημειώσεις εγγράφων χρησιμοποιώντας το Aspose.Words για Java. Οδηγός βήμα προς βήμα με κώδικα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

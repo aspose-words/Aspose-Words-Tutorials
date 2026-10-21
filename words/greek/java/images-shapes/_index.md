@@ -120,6 +120,9 @@
 ### [Πώς να δημιουργήσετε κενό έγγραφο και να προσθέσετε σχήματα με το Aspose.Words σε C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
 Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο και να προσθέσετε σχήματα χρησιμοποιώντας το Aspose.Words σε C#.
 
+### [Πώς να εισάγετε εικόνα σε docx και να κρύψετε την εικόνα στο Word με Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Μάθετε πώς να προσθέσετε εικόνα σε αρχείο docx και να την κρύψετε στο Word χρησιμοποιώντας Java.
+
 ## Πρόσθετοι Πόροι
 
 ### [Δημιουργία κενής εγγράφου Word με κρυφό σχήμα έλλειψης](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

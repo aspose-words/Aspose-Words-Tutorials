@@ -53,6 +53,8 @@ Aspose.Words for Java 提供了强大的文档样式工具，帮助开发人员�
 学习如何在 Java 中使用 Aspose.Words 编辑脚注分隔符，提供完整代码示例。
 ### [在 Word 图表中拆分切片并自定义外观](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
 学习如何在 Word 图表中拆分切片并自定义其外观，包含完整代码示例。
+### [在 Java 中使用 Aspose.Words 设置脚注样式](./how-to-style-footnotes-in-java-using-aspose-words/)
+学习如何使用 Aspose.Words for Java 为文档脚注应用样式，包括字体、颜色和位置的自定义。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

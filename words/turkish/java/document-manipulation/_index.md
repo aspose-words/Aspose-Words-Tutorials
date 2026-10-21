@@ -118,6 +118,8 @@ Aspose.Words kullanarak Word belgelerinde içerik denetimlerini nasıl ekleyece�
 Java kullanarak Word'de etkileşimli bir komut düğmesi ekleyerek boş bir belge oluşturmayı öğrenin.
 ### [Metin Kontrolü Kullanarak Boş Word Belgesi Oluşturma](./how-to-create-a-blank-word-document-with-a-text-control/)
 ### [Java için Aspose.Words ile programlı olarak Word belgesi oluşturma](./how-to-create-word-document-programmatically-with-aspose-wor/)
+### [DocumentBuilder ile docx kaydetme ve bir kontrolün sonrasına metin ekleme](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+DocumentBuilder kullanarak docx dosyasını kaydedin ve bir kontrolün ardından metin eklemeyi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

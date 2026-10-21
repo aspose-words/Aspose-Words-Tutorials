@@ -120,6 +120,9 @@ Aspose.Words Java 代码教程
 ### [如何使用 Aspose.Words 在 C# 中创建空白文档并添加形状](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
 学习在 C# 中使用 Aspose.Words 创建空白文档并向其中添加各种形状的步骤。
 
+### [如何在 Java 中将图像插入 docx 并在 Word 中隐藏图像](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+了解如何在 Java 中将图像插入 docx 并在 Word 中隐藏图像。
+
 ## 其他资源
 
 ### [创建一个带有隐藏椭圆形状的空白 Word 文档](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

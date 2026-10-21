@@ -76,6 +76,8 @@ Aspose.Words for Java'da OLE nesnelerini ve ActiveX denetimlerini kullanmayı ö
 ActiveX düğmesi eklemeyi ve düğme başlığını ayarlamayı adım adım öğrenin.
 ### [Java ve Aspose.Words ile ActiveX içeren docx oluşturma](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
 Java ve Aspose.Words kullanarak ActiveX içeren docx dosyaları oluşturmayı adım adım öğrenin.
+### [Java için Aspose.Words'de ActiveX komut düğmesi oluşturma](./how-to-create-activex-command-button-in-java/)
+Java'da Aspose.Words kullanarak ActiveX komut düğmesi eklemeyi adım adım öğrenin.
 ### [Java için Aspose.Words'de Revizyonları Kullanma](./using-revisions/)
 Aspose.Words for Java'nın revizyon kontrollerini etkili bir şekilde kullanmayı öğrenin. Geliştiriciler için adım adım kılavuz. Belge yönetiminizi optimize edin.
 ### [Java için Aspose.Words'de Bölümleri Kullanma](./using-sections/)

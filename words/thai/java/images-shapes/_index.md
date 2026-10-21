@@ -117,6 +117,9 @@
 ### [วิธีซ่อนรูปร่างในเอกสาร Word ด้วย Java](./how-to-hide-shape-in-a-word-document-using-java/)
 เรียนรู้วิธีซ่อนรูปร่างในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Java
 
+### [วิธีแทรกภาพลงในไฟล์ docx และซ่อนภาพใน Word ด้วย Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+เรียนรู้วิธีแทรกภาพในไฟล์ docx และซ่อนภาพในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Java
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 ### [สร้างเอกสาร Word ว่างพร้อมรูปร่างวงรีที่ซ่อนอยู่](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

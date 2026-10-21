@@ -84,6 +84,8 @@ Naučte se používat objekty OLE a ovládací prvky ActiveX v Aspose.Words pro 
 Naučte se, jak vložit tlačítko ActiveX do dokumentu Word a nastavit jeho popisek pomocí Aspose.Words pro Javu.
 ### [Jak vytvořit docx obsahující ActiveX pomocí Javy a Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
 Naučte se, jak vytvořit soubor DOCX s vloženými ActiveX ovládacími prvky pomocí Javy a Aspose.Words.
+### [Jak vytvořit příkazové tlačítko ActiveX v Javě](./how-to-create-activex-command-button-in-java/)
+Naučte se, jak v Aspose.Words pro Javu vytvořit příkazové tlačítko ActiveX.
 ### [Používání revizí v Aspose.Words pro Javu](./using-revisions/)
 Naučte se efektivně používat revizní prvky Aspose.Words pro Javu. Podrobný návod pro vývojáře. Optimalizujte správu dokumentů.
 ### [Používání sekcí v Aspose.Words pro Javu](./using-sections/)

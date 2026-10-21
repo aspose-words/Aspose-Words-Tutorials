@@ -56,6 +56,9 @@ Tìm hiểu cách chỉnh sửa dấu phân cách chú thích trong tài liệu 
 ### [Cách tách miếng trong biểu đồ Word và tùy chỉnh giao diện](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
 Tìm hiểu cách tách miếng trong biểu đồ Word và tùy chỉnh giao diện của chúng bằng Aspose.Words cho Java.
 
+### [Cách tạo kiểu chú thích trong Java bằng Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
+Tìm hiểu cách tạo kiểu cho chú thích trong tài liệu Word bằng Aspose.Words cho Java. Hướng dẫn chi tiết với mã nguồn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

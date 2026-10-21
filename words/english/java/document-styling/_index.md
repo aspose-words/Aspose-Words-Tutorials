@@ -54,6 +54,8 @@ Learn how to add shadow effects to Word charts using Aspose.Words for Java with 
 Learn how to edit footnote separators in Java using Aspose.Words. Step-by-step guide with source code.
 ### [How to explode slice in a Word chart and customize its appearance](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
 Learn how to explode a slice in a Word chart and customize its appearance using Aspose.Words for Java with step-by-step code examples.
+### [how to style footnotes in Java using Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
+Learn how to style footnotes in Java Word documents using Aspose.Words. Step-by-step guide with source code examples.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

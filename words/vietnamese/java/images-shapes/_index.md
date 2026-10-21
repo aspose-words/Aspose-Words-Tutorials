@@ -119,6 +119,9 @@ Hướng dẫn chi tiết cách tạo tài liệu Word mới và chèn hình ả
 
 ### [Cách tạo tài liệu trống và thêm hình dạng với Aspose.Words trong C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
 
+### [Cách chèn hình ảnh vào docx và ẩn hình ảnh trong Word bằng Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Hướng dẫn chèn hình ảnh vào tài liệu Word và ẩn chúng khi cần, sử dụng Aspose.Words cho Java.
+
 ## Tài nguyên bổ sung
 
 ### [Tạo tài liệu Word trống có hình ellipse ẩn](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

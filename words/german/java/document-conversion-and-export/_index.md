@@ -83,6 +83,11 @@ Generieren Sie benutzerdefinierte Barcode‑Etiketten in Aspose.Words for Java. 
 
 ### [Using Barcode Generation in Aspose.Words for Java](./using-barcode-generation/)
 ### [Using Charts in Aspose.Words for Java](./using-charts/)
+Erfahren Sie, wie Sie Diagramme in Aspose.Words for Java erstellen und anpassen. Erkunden Sie Diagrammtypen, Formatierung und Achseneigenschaften für die Datenvisualisierung.
+
+### [Wie man ein Kreisdiagramm in Word erstellt und als PNG speichert](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
+Erfahren Sie, wie Sie ein Kreisdiagramm in Word erzeugen und als PNG‑Bild speichern.
+
 ### [Using Office Math Objects in Aspose.Words for Java](./using-office-math-objects/)
 ### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
 ### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
@@ -240,6 +245,7 @@ Konvertieren Sie DOCX‑Dateien in reine Textdateien und exportieren Sie darin e
 
 ### [Exportieren von Word nach Markdown – Vollständige Java-Anleitung](./export-word-to-markdown-full-java-guide/)
 Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words for Java in Markdown konvertieren – Schritt‑für‑Schritt‑Anleitung inklusive Codebeispielen.
+
 ### [DOCX als TXT speichern – Schnellleitfaden für C# mit LaTeX‑Matheexport](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Textdateien konvertieren und dabei LaTeX‑Matheformeln exportieren – kompakte C#‑Anleitung.
 
@@ -248,6 +254,7 @@ Erfahren Sie, wie Sie Bilder beim Konvertieren von Word‑Dokumenten nach Markdo
 
 ### [PDF‑Speicheroptionen – DOCX in PDF in Java mit voller Kontrolle konvertieren](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 Erfahren Sie, wie Sie mit PDF‑Speicheroptionen die Konvertierung von DOCX nach PDF in Java präzise steuern können.
+
 ### [Exportieren von DOCX nach PDF – Komplettleitfaden zur Erstellung barrierefreier PDFs](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
 Erfahren Sie, wie Sie DOCX‑Dateien in PDF konvertieren und dabei barrierefreie PDFs mit Tags, Lesezeichen und korrekter Struktur erzeugen.
 

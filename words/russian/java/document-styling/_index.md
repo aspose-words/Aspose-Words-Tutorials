@@ -53,6 +53,8 @@ Aspose.Words for Java предоставляет мощные инструмен
 Узнайте, как изменить разделитель сносок в документах Word с помощью Aspose.Words для Java.
 ### [Как «взрывать» срез в диаграмме Word и настроить его внешний вид](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
 Узнайте, как «взрывать» отдельный срез в диаграмме Word и настраивать его внешний вид с помощью Aspose.Words для Java.
+### [Как стилизовать сноски в Java с помощью Aspose.Words](./how-to-style-footnotes-in-java-using-aspose-words/)
+Узнайте, как стилизовать сноски в документах Word с помощью Aspose.Words для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

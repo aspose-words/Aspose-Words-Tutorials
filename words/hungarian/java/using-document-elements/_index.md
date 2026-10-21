@@ -116,6 +116,8 @@ Tanuld meg, hogyan hozz létre üres Word dokumentumot és szúrj be egyszerű s
 Tanuld meg, hogyan hozhatsz létre üres Word dokumentumot, és adj hozzá radar diagramot C#-ban az Aspose.Words segítségével.
 ### [Kördiagram használata az Aspose.Words Java-ban](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
 Tanuld meg, hogyan szúrj be kördiagramot egy Word dokumentumba Java segítségével.
+### [ActiveX parancsgomb létrehozása Java-ban](./how-to-create-activex-command-button-in-java/)
+Tanuld meg, hogyan hozhatsz létre ActiveX parancsgombot Java alkalmazásban az Aspose.Words segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -117,6 +117,9 @@ Naučte se, jak vytvořit dokument Word s ukrytým obrázkem pomocí Aspose.Wor
 ### [Jak vytvořit prázdný dokument a přidat tvary pomocí Aspose.Words v C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
 Naučte se, jak vytvořit prázdný dokument a přidat do něj tvary pomocí Aspose.Words v C#.
 
+### [Jak vložit obrázek do souboru docx a skrýt obrázek ve Wordu pomocí Javy](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Naučte se, jak vložit obrázek do DOCX a poté jej skrýt ve Wordu pomocí Aspose.Words pro Javu.
+
 ## Další zdroje
 
 ### [Vytvořte prázdný dokument Word se skrytým eliptickým tvarem](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

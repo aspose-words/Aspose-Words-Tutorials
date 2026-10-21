@@ -121,6 +121,9 @@ Leer hoe u een nieuw Word-document maakt en een verborgen afbeelding toevoegt me
 ### [Leeg document maken en vormen toevoegen met Aspose.Words in C#](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
 Leer hoe u een leeg Word‑document maakt en vormen toevoegt met Aspose.Words in C#.
 
+### [Afbeelding invoegen in docx en verbergen in Word met Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Leer hoe u een afbeelding in een docx invoegt en deze verbergt in Word met Java.
+
 ## Aanvullende bronnen
 
 ### [Maak een leeg Word-document met een verborgen ellipsvorm](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

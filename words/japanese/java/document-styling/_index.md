@@ -53,6 +53,8 @@ Aspose.Words for Java で Word のチャートに影効果を適用する手順�
 Aspose.Words for Java を使用して、脚注の区切り線をカスタマイズする手順をステップバイステップで解説します。
 ### [Wordチャートでスライスを分割し、外観をカスタマイズする方法](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
 Aspose.Words for Java を使用して、Word のチャートでスライスを分割し、外観をカスタマイズする手順を解説します。
+### [JavaでAspose.Wordsを使用して脚注のスタイルを設定する方法](./how-to-style-footnotes-in-java-using-aspose-words/)
+Aspose.Words for Java を使用して脚注の書式設定方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

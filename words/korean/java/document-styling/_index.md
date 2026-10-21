@@ -54,6 +54,8 @@ Aspose.Words for Java를 사용해 문서의 기본 글꼴을 설정하고 적�
 Aspose.Words for Java를 이용해 Word 차트에 그림자를 적용하고 시각적 효과를 강화하는 방법을 단계별로 안내합니다.
 ### [Java에서 Aspose.Words로 각주 구분자 편집하기](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
 Aspose.Words for Java를 사용해 각주 구분자를 편집하는 방법을 단계별로 안내합니다.
+### [Java에서 Aspose.Words를 사용하여 각주 스타일 지정하기](./how-to-style-footnotes-in-java-using-aspose-words/)
+Aspose.Words for Java를 활용해 문서의 각주에 스타일을 적용하고 맞춤화하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -122,6 +122,8 @@ Panduan lengkap untuk membuat tombol ActiveX dalam dokumen docx menggunakan Java
 Panduan langkah demi langkah untuk membuat dokumen Word menggunakan Aspose.Words di Java. 
 ### [Menambahkan Kontrol Konten dalam Dokumen Word dengan Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
 Pelajari cara menambahkan kontrol konten ke dokumen Word menggunakan Aspose.Words untuk Java.
+### [Cara menyimpan docx dengan DocumentBuilder dan menambahkan teks setelah kontrol](./how-to-save-docx-with-documentbuilder-and-add-text-after-a-c/)
+Pelajari cara menyimpan file docx menggunakan DocumentBuilder dan menambahkan teks setelah kontrol dalam dokumen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

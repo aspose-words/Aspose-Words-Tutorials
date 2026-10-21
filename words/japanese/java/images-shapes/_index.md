@@ -121,6 +121,9 @@ Aspose.Words for C# を使用して、空白のドキュメントを作成し、
 ### [C# と DocumentBuilder を使用して Word で図形をグループ化する方法](./how-to-group-shapes-in-word-with-c-and-documentbuilder/)
 C# と DocumentBuilder を使って Word 文書内の図形をグループ化する手順を解説します。
 
+### [Javaでdocxに画像を挿入し、Wordで画像を非表示にする方法](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Javaを使用してdocxに画像を挿入し、Word文書内で画像を非表示にする手順を解説します。
+
 ## 追加リソース
 
 ### [隠し楕円形を持つ空白のWord文書を作成する](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

@@ -78,11 +78,14 @@ Learn how to generate custom barcodes in Java using Aspose.Words for Java. Step�
 ### [Używanie wykresów w Aspose.Words for Java](./using-charts/)
 Learn how to create and customize charts in Aspose.Words for Java. Explore chart types, formatting, and axis properties for data visualization.
 
+### [Jak utworzyć wykres kołowy w Wordzie i zapisać go jako PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
+Dowiedz się, jak w Aspose.Words for Java utworzyć wykres kołowy i zapisać go jako plik PNG.
+
 ### [Używanie obiektów Office Math w Aspose.Words for Java](./using-office-math-objects/)
 Unlock the power of mathematical equations in documents with Aspose.Words for Java. Learn to manipulate and display Office Math objects effortlessly.
 
 ### [Używanie kształtów dokumentu w Aspose.Words for Java](./using-document-shapes/)
-Unlock the Power of Document Shapes in Aspose.Words for Java. Learn to Create Visually Engaging Documents with Step‑by‑Step Examples.
+Unlock the Power of Document Shapes in Aspose.Words for Java. Learn to Create Visually Engaging Documents With Step‑by‑Step Examples.
 
 ### [Konwersja DOCX do PDF z eksportem kształtów wstawionych – przewodnik krok po kroku](./convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/)
 Dowiedz się, jak konwertować pliki DOCX do PDF z eksportem kształtów wstawionych, krok po kroku z przykładami kodu.

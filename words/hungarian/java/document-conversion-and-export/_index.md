@@ -336,6 +336,9 @@ Tanulja meg, hogyan konvertáljon Markdown fájlokat DOCX formátumba Java‑val
 ### [Hogyan mentse a Word dokumentumot markdown formátumba HTML táblázatokkal Java-ban](./how-to-save-word-as-markdown-with-html-tables-in-java/)
 Mentse a Word fájlokat markdown formátumba, megtartva a HTML táblázatokat Java környezetben.
 
+### [Hogyan hozzunk létre kördiagramot a Wordben, és mentsük PNG‑ként](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
+Tanuld meg, hogyan hozhatsz kördiagramot Wordben, majd exportáld PNG képként az Aspose.Words for Java segítségével.
+
 ## Gyakran Ismételt Kérdések
 
 **K:** Hogyan adhatok hozzá vízjelet egy meglévő PDF-hez az Aspose.Words használatával?  

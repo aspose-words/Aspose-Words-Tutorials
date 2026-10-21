@@ -123,6 +123,9 @@ Gizli bir resim ekleyerek yeni bir Word belgesi oluşturmayı adım adım öğre
 ### [Aspose.Words ile C#'ta Boş Belge Oluşturma ve Şekil Ekleme](./how-to-create-blank-document-and-add-shapes-with-aspose-word/)
 Aspose.Words kullanarak C# ile boş bir Word belgesi oluşturup şekil eklemeyi öğrenin.
 
+### [Java ile docx dosyasına resim ekleme ve Word'de resmi gizleme](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
+Java kullanarak docx belgesine resim ekleyin ve Word içinde resmi gizleyin.
+
 ## Ek Kaynaklar
 
 ### [Gizli elips şekliyle boş bir Word belgesi oluşturma](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
