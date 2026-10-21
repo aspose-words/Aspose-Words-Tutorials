@@ -1,0 +1,7 @@
+Title: Create new Word document and insert content control in C#
+Slug: create-new-word-document-and-insert-content-control-in-c
+Category: programming-with-sdt
+ProcessedDate: 2026-10-14T00:07:57.715872
+SourceRepo: AI Search API
+Keywords: create new word document, insert content control, set placeholder text, how to create sdt, save word document c#
+PRNumber: 321

@@ -49,6 +49,24 @@ Tanuld meg, hogyan manipulálhatsz hatékonyan Word dokumentumokat az Aspose.Wor
 Tanuld meg, hogyan kezelheted a dokumentumok tulajdonságait és metaadatait az Aspose.Words for Python használatával. Lépésről lépésre útmutató forráskóddal.
 ### [Dokumentumfunkciók bővítése webbővítményekkel](./document-functionality-web-extensions/)
 Ismerje meg, hogyan bővítheti a dokumentumok funkcionalitását webbővítményekkel az Aspose.Words for Python használatával. Lépésről lépésre útmutató forráskóddal a zökkenőmentes integrációhoz.
+### [PDF hozzáférhetővé tétele az Aspose.Words segítségével – Teljes lépésről‑lépésre útmutató](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
+Tanulja meg, hogyan teheti PDF-jét hozzáférhetővé a WCAG szabványoknak megfelelően az Aspose.Words használatával, részletes példákkal.
+### [DOCX helyreállítása – Teljes útmutató az Aspose.Words használatával](./how-to-recover-docx-complete-guide-with-aspose-words/)
+Tanulja meg, hogyan állíthatja helyre a sérült DOCX fájlokat az Aspose.Words segítségével lépésről lépésre útmutatóval.
+### [Sérült Word dokumentum helyreállítása az Aspose.Words segítségével – lépésről lépésre Python útmutató](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+Tanulja meg, hogyan állíthatja helyre a sérült Word fájlokat az Aspose.Words Python API-val, részletes lépésekkel.
+### [Hogyan állítsunk helyre docx fájlokat Pythonban – lépésről lépésre útmutató](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Ismerje meg, hogyan állíthatja helyre a sérült docx fájlokat Python segítségével. Lépésről lépésre útmutató.
+### [MarkdownSaveOptions konfigurálása LaTeX-hez Pythonban – Aspose.Words útmutató](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Ismerje meg, hogyan állíthatja be a MarkdownSaveOptions beállításait a LaTeX exportáláshoz Pythonban az Aspose.Words segítségével.
+### [Hogyan állítsuk helyre a docx fájlokat az Aspose.Words for Python segítségével](./how-to-recover-docx-files-with-aspose-words-for-python/)
+Ismerje meg, hogyan lehet helyreállítani sérült vagy elveszett docx fájlokat az Aspose.Words for Python használatával.
+### [Helyreállítási mód engedélyezése sérült Word dokumentum megnyitásához](./enable-recovery-mode-to-open-a-corrupted-word-document/)
+Tanulja meg, hogyan engedélyezheti a helyreállítási módot a sérült Word dokumentumok megnyitásához az Aspose.Words for Python segítségével.
+### [Hogyan állítsuk helyre a sérült docx fájlokat az Aspose.Words segítségével Pythonban](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+Ismerje meg, hogyan állíthatja helyre a sérült docx fájlokat az Aspose.Words for Python segítségével.
+### [Aspose betűtípus figyelmeztetés kezelő – Hiányzó betűtípusok és a dokumentum betöltés testreszabása](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+Ismerje meg, hogyan kezelheti a hiányzó betűtípusok figyelmeztetéseit, és testreszabhatja a dokumentum betöltését az Aspose.Words for Python segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

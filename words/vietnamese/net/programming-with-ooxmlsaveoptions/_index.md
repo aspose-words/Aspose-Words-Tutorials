@@ -29,6 +29,7 @@ Cho dù bạn muốn tạo tài liệu tương thích với các phiên bản Wo
 | [Cập nhật Thuộc tính Thời gian Lưu cuối cùng](./update-last-saved-time-property/) | Tìm hiểu cách cập nhật thuộc tính thời gian đã lưu cuối cùng trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết từng bước của chúng tôi. |
 | [Giữ lại các ký tự điều khiển cũ](./keep-legacy-control-chars/) | Tìm hiểu cách giữ nguyên các ký tự điều khiển cũ trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. |
 | [Đặt mức độ nén](./set-compression-level/) | Tìm hiểu cách thiết lập mức độ nén trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tối ưu hóa hiệu suất và lưu trữ tài liệu của bạn. |
+| [Cách thay đổi mã hóa tài liệu Word bằng Aspose.Words trong C#](./how-to-change-word-document-encoding-with-aspose-words-in-c/) | Hướng dẫn thay đổi mã hóa của tài liệu Word bằng Aspose.Words trong C# để tương thích và bảo mật. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

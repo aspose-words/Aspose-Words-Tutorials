@@ -34,6 +34,9 @@ Learn to create custom, SEO-friendly document styles using Aspose.Words for Pyth
     ### [Dynamic Document Borders with Aspose.Words for Python&#58; A Comprehensive Guide](./aspose-words-python-dynamic-borders/)
 Learn how to create dynamic document borders using Aspose.Words for Python. Master techniques for text and table border styling.
 
+    ### [How to style chart in a Word document using Python](./how-to-style-chart-in-a-word-document-using-python/)
+Learn how to style charts in Word documents using Aspose.Words for Python, covering colors, fonts, and layout customization.
+
     ### [Master Theme Customization in Aspose.Words for Python&#58; A Comprehensive Guide to Formatting & Styles](./aspose-words-python-theme-customization/)
 Learn how to customize themes in Aspose.Words using Python. This guide covers setting up colors and fonts, ensuring brand consistency across your documents.
 

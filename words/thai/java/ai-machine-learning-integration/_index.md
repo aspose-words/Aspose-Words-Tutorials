@@ -67,6 +67,12 @@ AI document processing ผสานการจัดการเอกสาร
 ### [การประมวลผลข้อความขั้นสูงใน Java&#58; การใช้ Aspose.Words & AI Models สำหรับสรุปและการแปล](./java-aspose-words-text-processing/)
 เรียนรู้วิธีอัตโนมัติการสรุปและการแปลข้อความด้วย Aspose.Words for Java ร่วมกับ OpenAI's GPT‑4 และ Google Gemini ปรับปรุงแอปพลิเคชัน Java ของคุณวันนี้
 
+### [วิธีกำหนดค่า LLM – แทนที่ข้อความใน DOCX ด้วย AI](./how-to-configure-llm-replace-text-in-docx-with-ai/)
+เรียนรู้วิธีใช้ LLM เพื่อค้นหาและแทนที่ข้อความในไฟล์ DOCX โดยอัตโนมัติด้วย Aspose.Words for Java
+### [สร้างโมเดล AI กำหนดเอง – แก้ไขย่อหน้า Word ใน Java](./create-custom-ai-model-edit-word-paragraphs-in-java/)
+เรียนรู้วิธีสร้างโมเดล AI ของคุณเองและใช้เพื่อแก้ไขย่อหน้าของเอกสาร Word ด้วย Aspose.Words for Java
+### [สร้างเอกสาร Word ด้วย Java และการตรวจสอบไวยากรณ์ LLM แบบกำหนดเอง](./create-word-document-java-with-custom-llm-grammar-check/)
+เรียนรู้วิธีสร้างเอกสาร Word ใน Java พร้อมตรวจสอบไวยากรณ์โดยใช้โมเดลภาษา LLM ที่กำหนดเอง
 ### [สร้างตัวตรวจสอบไวยากรณ์ด้วย Java – คู่มือเต็มขั้นตอน](./build-grammar-checker-java-complete-step-by-step-guide/)
 เรียนรู้วิธีสร้างตัวตรวจสอบไวยากรณ์ใน Java ด้วย Aspose.Words และ AI เพื่อประมวลผลข้อความอย่างแม่นยำ
 
@@ -96,6 +102,14 @@ AI document processing ผสานการจัดการเอกสาร
 **Q:** **Do I need to retrain models for domain‑specific language?**  
 **A:** สำหรับกรณีส่วนใหญ่ โมเดลที่ผ่านการฝึกแล้วทำงานได้ดี. หากต้องการความแม่นยำสูงขึ้น ให้พิจารณา fine‑tune โมเดลด้วยคอร์ปัสของคุณเองและเรียกผ่าน API เดียวกัน  
 
+---
+
+---
+
+**Last Updated:** 2025-11-25  
+**Tested With:** Aspose.Words for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -103,9 +117,3 @@ AI document processing ผสานการจัดการเอกสาร
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-25  
-**Tested With:** Aspose.Words for Java 24.11  
-**Author:** Aspose

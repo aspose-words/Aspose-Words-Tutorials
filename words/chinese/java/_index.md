@@ -23,7 +23,8 @@ Aspose.Words for Java 提供了功能强大、全面的 API，用于文档自动
 
 无论您是在创建报告、生成合同，还是构建高级文档工作流系统，Aspose.Words 都为您提供企业级工具，以精准高效地处理 Microsoft Word 文档及其他流行格式。
 
-### 为什么选择 Aspose.Words for Java？
+## 为什么使用 Aspose.Words for Java？
+Aspose.Words 支持 **35+** 种输入和输出格式，并且能够在典型的 2 CPU 服务器上在 **3 秒以内** 处理 **500 页** 文档，且无需 Microsoft Word。该库还提供 **内置的 PDF/A、PDF/X 和 PDF/UA 合规性**，非常适合受监管行业。
 
 - **完整的文档生命周期管理** – 以编程方式创建、修改、转换和渲染文档。
 - **格式保真度** – 在流行格式之间转换时保持完美的文档格式。
@@ -34,7 +35,6 @@ Aspose.Words for Java 提供了功能强大、全面的 API，用于文档自动
 ## 可用的教程类别
 
 ### [AI 与机器学习集成](./ai-machine-learning-integration/)
-
 ### [入门](./getting-started/)
 
 ### [文档操作](./document-operations/)

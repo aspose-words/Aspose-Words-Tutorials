@@ -63,7 +63,6 @@ weight: 1
 
 ### Gradle
 अपने `build.gradle` फ़ाइल में निम्नलिखित शामिल करें:
-
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
@@ -77,6 +76,7 @@ implementation 'com.aspose:aspose-words:25.3'
 
 यहाँ एक न्यूनतम Java प्रोग्राम है जो एक खाली दस्तावेज़ बनाता है:
 
+`Document` क्लास वह कोर ऑब्जेक्ट है जो मेमोरी में PDF, Word, या कोई भी समर्थित फ़ाइल दर्शाता है। Maven निर्भरता जोड़ने के बाद, आप इसे निम्नानुसार इंस्टैंसिएट कर सकते हैं:
 ```java
 import com.aspose.words.Document;
 
@@ -99,6 +99,8 @@ public class DocumentSetup {
 #### Overview
 मुख्य दस्तावेज़ के अंदर `GlossaryDocument` बनाकर आप ग्लॉसरी, स्टाइल और कस्टम पार्ट्स को एक साफ़, अलग कंटेनर में मैनेज कर सकते हैं।
 
+#### ग्लॉसरी दस्तावेज़ को कैसे इनिशियलाइज़ करें?
+एक मुख्य `Document` इंस्टेंस बनाएं, फिर `GlossaryDocument` को संलग्न करें ताकि ग्लॉसरी एंट्रीज़ को एक ही सुसंगत फ़ाइल में प्रबंधित किया जा सके। GlossaryDocument Word दस्तावेज़ के ग्लॉसरी भाग को दर्शाता है, जिसमें ग्लॉसरी आइटम्स, एंडनोट्स, और कस्टम पार्ट्स जैसी एंट्रीज़ संग्रहीत होती हैं।
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.GlossaryDocument;
@@ -122,6 +124,8 @@ public class DocumentInitialization {
 #### Overview
 `Document.setPageColor` का उपयोग करके आप हर पेज पर एकसमान टिंट लागू कर सकते हैं। यह सीधे मुख्य कीवर्ड **set page background color** को संबोधित करता है।
 
+#### पेज बैकग्राउंड रंग कैसे सेट करें?
+`Document` ऑब्जेक्ट पर `setPageColor()` मेथड का उपयोग करें, और इच्छित शेड दर्शाने वाला `java.awt.Color` वैल्यू पास करें।
 ```java
 import com.aspose.words.Document;
 import java.awt.Color;
@@ -148,6 +152,8 @@ public class SetPageBackgroundColor {
 #### Overview
 जब आपको कई स्रोतों से कंटेंट को जोड़ना हो, तो आप एक पूरे सेक्शन (या कोई भी नोड) को एक दस्तावेज़ से दूसरे में इम्पोर्ट कर सकते हैं। यह **merge document sections** और **import section from document** परिदृश्यों का मूल है।
 
+#### स्रोत दस्तावेज़ से एक सेक्शन कैसे इम्पोर्ट करें?
+डेस्टिनेशन `Document` पर `importNode()` कॉल करें, इम्पोर्ट करने वाले नोड और एक `ImportFormatMode` प्रदान करें जो स्टाइल हैंडलिंग निर्धारित करता है।
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.Section;
@@ -182,6 +188,8 @@ public class ImportNode {
 #### Overview
 कभी‑कभी स्रोत और गंतव्य में अलग‑अलग स्टाइल परिभाषाएँ होती हैं। `ImportFormatMode` आपको यह तय करने देता है कि स्रोत की स्टाइल रखनी है या गंतव्य की स्टाइल लागू करनी है।
 
+#### कस्टम इम्पोर्ट फ़ॉर्मेट मोड कैसे लागू करें?
+`importNode()` कॉल करते समय इच्छित `ImportFormatMode` निर्दिष्ट करें। यह आपको नियंत्रित करने देता है कि स्रोत फ़ॉर्मेटिंग रखी जाए या ओवरराइड की जाए। ImportFormatMode एक enum है जो नोड इम्पोर्ट के दौरान फ़ॉर्मेटिंग कैसे संभाली जाती है, जैसे स्रोत स्टाइल्स को रखना या डेस्टिनेशन स्टाइल्स का उपयोग करना, को परिभाषित करता है।
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.Style;
@@ -212,6 +220,8 @@ public class ImportNodeCustom {
 #### Overview
 सॉलिड कलर के अलावा, आप पेज बैकग्राउंड के रूप में शैप या इमेज एम्बेड कर सकते हैं। यह उदाहरण एक लाल स्टार शैप जोड़ता है, लेकिन आप इसे किसी भी चित्र से बदल सकते हैं ताकि **create document background image** हो सके।
 
+#### बैकग्राउंड शैप कैसे इन्सर्ट करें?
+`ShapeType.IMAGE` प्रकार का `Shape` बनाएं, उसका लेआउट `WRAP_NONE` सेट करें, और इसे दस्तावेज़ के हेडर या फुटर में जोड़ें ताकि यह सभी टेक्स्ट के पीछे दिखाई दे। Shape एक ड्रॉइंग ऑब्जेक्ट है जैसे इमेज, टेक्स्टबॉक्स, या ज्यामितीय आकृति जिसे दस्तावेज़ में कहीं भी रखा जा सकता है।
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.Shape;
@@ -273,6 +283,6 @@ A: `new Document("file.doc")` से फ़ाइल लोड करें, `se
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,0 +1,7 @@
+Title: Sign Word Document in Java with Aspose.Words – Complete Guide
+Slug: sign-word-document-in-java-with-aspose-words-complete-guide
+Category: document-security
+ProcessedDate: 2026-07-17T03:10:31.758033
+SourceRepo: AI Search API
+Keywords: sign word document, extract private key from pfx, sign docx with certificate, load pkcs12 certificate java
+PRNumber: 226

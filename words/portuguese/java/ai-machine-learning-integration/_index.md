@@ -68,6 +68,12 @@ Exporte o documento enriquecido para o formato que você precisar—PDF, DOCX, H
 ### [Domine o Processamento de Texto em Java&#58; Usando Aspose.Words & Modelos de IA para Resumir e Traduzir](./java-aspose-words-text-processing/)
 Aprenda como automatizar a sumarização e tradução de texto usando Aspose.Words para Java com GPT‑4 da OpenAI e Gemini da Google. Melhore suas aplicações Java hoje.
 
+### [Como Configurar LLM – Substituir Texto em DOCX com IA](./how-to-configure-llm-replace-text-in-docx-with-ai/)
+Aprenda a configurar um modelo de linguagem grande para substituir automaticamente texto em documentos DOCX usando Aspose.Words e IA.
+### [Criar Modelo de IA Personalizado – Editar Parágrafos do Word em Java](./create-custom-ai-model-edit-word-paragraphs-in-java/)
+Aprenda a criar um modelo de IA personalizado e usá‑lo para editar automaticamente parágrafos em documentos Word usando Aspose.Words para Java.
+### [Criar documento Word em Java com Verificação Gramatical LLM Personalizada](./create-word-document-java-with-custom-llm-grammar-check/)
+Aprenda a gerar documentos Word em Java e aplicar verificação gramatical usando um modelo de linguagem personalizado.
 ### [Construir Verificador Gramatical Java – Guia Completo Passo a Passo](./build-grammar-checker-java-complete-step-by-step-guide/)
 Aprenda a criar um verificador gramatical em Java usando Aspose.Words e APIs de IA, com exemplos completos e código pronto para uso.
 
@@ -97,6 +103,14 @@ A: Valide a saída da IA antes de inseri‑la. Use os métodos `DocumentBuilder`
 **Q: Preciso re‑treinar modelos para linguagem específica de domínio?**  
 A: Para a maioria dos casos de uso, modelos pré‑treinados funcionam bem. Se precisar de maior precisão, considere ajustar finamente um modelo com seu próprio corpus e então chamá‑lo via a mesma API.
 
+---
+
+---
+
+**Last Updated:** 2025-11-25  
+**Tested With:** Aspose.Words for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -104,9 +118,3 @@ A: Para a maioria dos casos de uso, modelos pré‑treinados funcionam bem. Se p
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-25  
-**Tested With:** Aspose.Words for Java 24.11  
-**Author:** Aspose

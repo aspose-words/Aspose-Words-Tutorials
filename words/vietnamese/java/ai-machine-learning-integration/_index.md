@@ -67,6 +67,12 @@ Xuất tài liệu đã được làm giàu sang định dạng bạn cần—PD
 ### [Master Text Processing in Java&#58; Using Aspose.Words & AI Models for Summarization and Translation](./java-aspose-words-text-processing/)
 Tìm hiểu cách tự động hoá tóm tắt và dịch văn bản bằng Aspose.Words for Java kết hợp với GPT‑4 của OpenAI và Gemini của Google. Nâng cao ứng dụng Java của bạn ngay hôm nay.
 
+### [Cách cấu hình LLM – Thay thế văn bản trong DOCX bằng AI](./how-to-configure-llm-replace-text-in-docx-with-ai/)
+Hướng dẫn cấu hình mô hình ngôn ngữ lớn để tự động thay thế nội dung trong tài liệu DOCX bằng AI.
+### [Tạo Mô Hình AI Tùy Chỉnh – Chỉnh Sửa Đoạn Văn Bản Word trong Java](./create-custom-ai-model-edit-word-paragraphs-in-java/)
+Hướng dẫn xây dựng mô hình AI tùy chỉnh và tích hợp để chỉnh sửa các đoạn văn trong tài liệu Word bằng Aspose.Words cho Java.
+### [Tạo tài liệu Word bằng Java với Kiểm tra Ngữ pháp LLM Tùy chỉnh](./create-word-document-java-with-custom-llm-grammar-check/)
+Hướng dẫn tạo tài liệu Word trong Java và tích hợp mô hình ngôn ngữ tùy chỉnh để kiểm tra ngữ pháp tự động.
 ### [Xây dựng Trình Kiểm tra Ngữ pháp Java – Hướng Dẫn Chi Tiết Từng Bước](./build-grammar-checker-java-complete-step-by-step-guide/)
 Hướng dẫn chi tiết cách xây dựng công cụ kiểm tra ngữ pháp trong Java bằng Aspose.Words và tích hợp AI để phát hiện lỗi ngữ pháp.
 
@@ -98,6 +104,12 @@ A: Đối với hầu hết các trường hợp, các mô hình đã được �
 
 ---
 
+---
+
+**Last Updated:** 2025-11-25  
+**Tested With:** Aspose.Words for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -105,9 +117,3 @@ A: Đối với hầu hết các trường hợp, các mô hình đã được �
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-25  
-**Tested With:** Aspose.Words for Java 24.11  
-**Author:** Aspose

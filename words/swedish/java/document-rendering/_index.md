@@ -39,6 +39,14 @@ Lär dig hur du kan förbättra dina dokument med former och grafik med Aspose.W
 Upptäck effektiv dokumentutskrift och rendering med Aspose.Words för Java. Lär dig steg för steg med källkodsexempel.
 ### [Rendera dokument till HTML](./rendering-documents-html/)
 Lär dig hur du enkelt renderar dokument till HTML med Aspose.Words för Java. Steg-för-steg-guide för effektiv dokumentkonvertering.
+### [Hur du hanterar teckensnitt i Java med Aspose.Words – Komplett guide](./how-to-handle-fonts-in-java-with-aspose-words-complete-guide/)
+Lär dig hur du hanterar teckensnitt i Java med Aspose.Words. Steg-för-steg-guide med kodexempel för korrekt teckensnittshantering.
+### [Aspose varningsåteruppringning – upptäck och spåra saknade teckensnitt](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
+Lär dig hur du använder varningsåteruppringning för att upptäcka och spåra saknade teckensnitt i dokument med Aspose.Words för Java.
+### [Hur du fångar varningar – Upptäcker saknade teckensnitt i Aspose.Words](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
+Lär dig hur du fångar varningsmeddelanden för att identifiera saknade teckensnitt när du använder Aspose.Words.
+### [Hitta saknade teckensnitt i Java med Aspose.Words – Komplett guide](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
+Lär dig identifiera och ersätta saknade teckensnitt i dina Word-dokument med Aspose.Words för Java.
 ### [Registrera varningsåteruppringning i Java – Komplett programmeringsguide](./register-warning-callback-in-java-complete-programming-guide/)
 Lär dig hur du registrerar en varningsåteruppringning i Aspose.Words för Java för att hantera varningar under bearbetning.
 
