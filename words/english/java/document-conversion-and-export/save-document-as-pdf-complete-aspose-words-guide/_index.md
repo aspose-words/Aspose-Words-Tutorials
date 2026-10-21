@@ -246,8 +246,6 @@ What’s next? Try swapping the INLINE mode for BLOCK, embed custom fonts, or bu
 
 Got more questions? Drop a comment, experiment with the code, and happy converting!
 
-FIXME: Add more examples for PDF/A compliance and encrypted PDF handling.
-
 ## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
@@ -260,4 +258,3 @@ The following tutorials cover closely related topics that build on the technique
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}

@@ -219,12 +219,11 @@ Got questions or a tricky scenario? Drop a comment below, and happy coding!
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- {{< relref "/words/english/java/document-converting/using-document-converting/" >}}Word to PDF conversion guide{{< /relref >}}
-- {{< relref "/words/english/java/document-converting/converting-documents-images/" >}}DOCX to PNG conversion tutorial{{< /relref >}}
-- {{< relref "/words/english/java/document-merging/using-document-merging/" >}}Merge multiple DOCX files tutorial{{< /relref >}}
+- [Word to PDF conversion guide]({{< relref "/words/english/java/document-converting/using-document-converting/" >}})
+- [DOCX to PNG conversion tutorial]({{< relref "/words/english/java/document-converting/converting-documents-images/" >}})
+- [Merge multiple DOCX files tutorial]({{< relref "/words/english/java/document-merging/using-document-merging/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
