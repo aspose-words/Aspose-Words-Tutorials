@@ -27,6 +27,7 @@ Split Document je komplexní zdroj, který vysvětluje, jak rozdělit dokument n
 | [Sloučit dokumenty](./merge-documents/) | Podrobný návod k vysvětlení zdrojového kódu C# funkce Merge Documents v Aspose.Words pro .NET |
 | [Rozdělit dokument Wordu podle rozsahu stránek](./by-page-range/) | Naučte se, jak rozdělit dokument Wordu podle rozsahu stránek pomocí Aspose.Words pro .NET s naším podrobným návodem krok za krokem. Ideální pro vývojáře. |
 | [Vytvořit PDF ze stránek – Průvodce extrahováním konkrétních stránek](./create-pdf-from-pages-extract-specific-pages-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET vytvořit PDF soubor extrahováním vybraných stránek z dokumentu. |
+| [Rozdělit dokument Word do samostatných souborů pomocí C#](./how-to-split-word-document-into-separate-files-with-c/) | Naučte se, jak rozdělit dokument Word na samostatné soubory pomocí C# a Aspose.Words pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -49,6 +49,20 @@ Naučte se, jak efektivně manipulovat s dokumenty Wordu pomocí Aspose.Words pr
 Naučte se, jak spravovat vlastnosti a metadata dokumentů pomocí Aspose.Words pro Python. Podrobný návod se zdrojovým kódem.
 ### [Rozšíření funkcí dokumentů pomocí webových rozšíření](./document-functionality-web-extensions/)
 Naučte se, jak rozšířit funkcionalitu dokumentů pomocí webových rozšíření pomocí Aspose.Words pro Python. Podrobný návod se zdrojovým kódem pro bezproblémovou integraci.
+### [Zpřístupněte PDF pomocí Aspose.Words – Kompletní průvodce krok za krokem](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
+Naučte se, jak pomocí Aspose.Words vytvořit přístupné PDF soubory pomocí podrobného krok‑za‑krokem návodu.
+### [Jak obnovit DOCX – Kompletní průvodce s Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
+Naučte se, jak obnovit poškozené soubory DOCX pomocí Aspose.Words. Kompletní návod s ukázkovým kódem.
+### [Obnovení poškozeného dokumentu Word pomocí Aspose.Words – krok za krokem průvodce v Pythonu](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+Naučte se, jak opravit poškozené soubory Word pomocí Aspose.Words v Pythonu s podrobným krokovým návodem.
+### [Jak obnovit soubory DOCX v Pythonu – krok za krokem](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Naučte se, jak obnovit poškozené soubory DOCX v Pythonu pomocí Aspose.Words.
+### [Konfigurace MarkdownSaveOptions pro LaTeX v Pythonu – průvodce Aspose.Words](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Naučte se nastavit MarkdownSaveOptions pro export do LaTeXu v Pythonu pomocí Aspose.Words.
+### [Jak obnovit soubory docx pomocí Aspose.Words pro Python](./how-to-recover-docx-files-with-aspose-words-for-python/)
+Naučte se, jak obnovit poškozené soubory DOCX pomocí Aspose.Words pro Python. Praktický návod s ukázkovým kódem.
+### [Povolení režimu obnovy pro otevření poškozeného dokumentu Word](./enable-recovery-mode-to-open-a-corrupted-word-document/)
+Naučte se, jak aktivovat režim obnovy a otevřít poškozený soubor Word pomocí Aspose.Words v Pythonu.
 ### [Jak obnovit poškozené soubory docx pomocí Aspose.Words v Pythonu](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
 Naučte se, jak obnovit poškozené soubory DOCX pomocí Aspose.Words v Pythonu. Praktický návod s ukázkovým kódem.
 

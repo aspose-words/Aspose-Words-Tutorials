@@ -49,6 +49,20 @@
 تعلّم كيفية إدارة خصائص المستندات والبيانات الوصفية باستخدام Aspose.Words لبايثون. دليل خطوة بخطوة مع الكود المصدري.
 ### [توسيع وظائف المستندات باستخدام ملحقات الويب](./document-functionality-web-extensions/)
 تعرّف على كيفية توسيع وظائف المستندات باستخدام ملحقات الويب باستخدام Aspose.Words للغة بايثون. دليل خطوة بخطوة مع الكود المصدري لتكامل سلس.
+### [اجعل ملف PDF قابلاً للوصول باستخدام Aspose.Words – دليل شامل خطوة بخطوة](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
+تعلم كيفية تحسين إمكانية الوصول لملفات PDF باستخدام Aspose.Words من خلال دليل خطوة بخطوة مع أمثلة عملية.
+### [كيفية استعادة DOCX – دليل كامل باستخدام Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
+دليل خطوة بخطوة لاستعادة ملفات DOCX التالفة باستخدام Aspose.Words مع أمثلة برمجية.
+### [استعادة مستند Word تالف باستخدام Aspose.Words – دليل خطوة بخطوة للبايثون](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+تعرّف على كيفية استعادة مستند Word تالف باستخدام Aspose.Words في بايثون خطوة بخطوة.
+### [كيفية استعادة ملفات docx في بايثون – دليل خطوة بخطوة](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+دليل خطوة بخطوة لاستعادة ملفات docx باستخدام Aspose.Words للغة بايثون.
+### [تكوين MarkdownSaveOptions لـ LaTeX في بايثون – دليل Aspose.Words](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+تعلم كيفية تكوين خيارات حفظ Markdown لتوليد مستندات LaTeX باستخدام Aspose.Words في بايثون.
+### [كيفية استعادة ملفات docx باستخدام Aspose.Words للبايثون](./how-to-recover-docx-files-with-aspose-words-for-python/)
+تعلم طريقة استعادة ملفات docx التالفة باستخدام Aspose.Words للغة بايثون. دليل خطوة بخطوة مع مثال عملي.
+### [تمكين وضع الاسترداد لفتح مستند Word تالف](./enable-recovery-mode-to-open-a-corrupted-word-document/)
+تعرّف على كيفية تمكين وضع الاسترداد لفتح مستند Word تالف باستخدام Aspose.Words للبايثون. دليل خطوة بخطوة مع الكود المصدري.
 ### [كيفية استعادة ملفات docx التالفة باستخدام Aspose.Words في بايثون](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
 تعلم طريقة استعادة ملفات docx التالفة باستخدام Aspose.Words في بايثون خطوة بخطوة مع مثال عملي.
 

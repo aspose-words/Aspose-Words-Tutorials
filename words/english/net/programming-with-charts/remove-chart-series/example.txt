@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Using Aspose.Words for .NET, this tutorial creates a Document, inserts a column chart via DocumentBuilder, removes a specific data series from the chart with ChartSeriesCollection.RemoveAt, and saves the modified document.
+//ExStepSummary:0: Create a new Word Document and a DocumentBuilder linked to it.
+//ExStepSummary:1: Insert a column chart of size 432×252 points and obtain the Chart object for further manipulation.
+//ExStepSummary:2: Define the zero‑based index of the series that should be removed (the second series).
+//ExStepSummary:3: If the index is valid, call RemoveAt on the chart's Series collection to delete that series.
+//ExStepSummary:4: Save the updated document to a .docx file.
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+int targetSeriesIdx = 1;
+
+//ExStep:3-
+if (targetSeriesIdx >= 0 && targetSeriesIdx < columnChart.Series.Count)
+{
+    columnChart.Series.RemoveAt(targetSeriesIdx);
+}
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutSeries.docx");
+//ExEnd

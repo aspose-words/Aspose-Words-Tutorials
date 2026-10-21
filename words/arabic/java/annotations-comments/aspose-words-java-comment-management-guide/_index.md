@@ -51,12 +51,12 @@ weight: 1
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 **Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 #### الحصول على الترخيص
 Aspose.Words هو منتج تجاري. يمكنك البدء بإصدار تجريبي مجاني لمدة 30 يوماً أو طلب ترخيص مؤقت للتقييم. زر [purchase page](https://purchase.aspose.com/buy) للحصول على التفاصيل.
@@ -71,20 +71,20 @@ Aspose.Words هو منتج تجاري. يمكنك البدء بإصدار تجر
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
-```
+```  
 
 **الخطوة 2:** إنشاء وإضافة تعليق  
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **الخطوة 3:** إضافة رد على التعليق  
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
-```
+```  
 
 ### الميزة 2: طباعة جميع التعليقات
 **Overview** – Retrieves every top‑level comment and its replies for review.
@@ -93,7 +93,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
 **الخطوة 1:** تحميل المستند  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
-```
+```  
 
 **الخطوة 2:** استرجاع وطباعة التعليقات  
 ```java
@@ -107,7 +107,7 @@ for (Comment comment : (Iterable<Comment>) comments) {
         }
     }
 }
-```
+```  
 
 ### الميزة 3: كيفية حذف ردود التعليقات في Java
 **Overview** – Shows **how to delete comment replies** to keep the document tidy.
@@ -121,7 +121,7 @@ comment.setText("My comment.");
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
-```
+```  
 
 **الخطوة 2:** إزالة الردود  
 ```java
@@ -140,7 +140,7 @@ DocumentBuilder documentBuilder = new DocumentBuilder(document);
 documentBuilder.writeln("Hello world!");
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
-```
+```  
 
 **الخطوة 2:** تعليم التعليق كمنجز  
 ```java
@@ -148,7 +148,7 @@ document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
 comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
-```
+```  
 
 ### الميزة 5: الحصول على تاريخ ووقت UTC من التعليق
 **Overview** – Retrieves the exact UTC timestamp a comment was added, ideal for audit logs.
@@ -162,7 +162,7 @@ Date dateTime = new Date();
 Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
 **الخطوة 2:** حفظ واسترجاع تاريخ UTC  
 ```java
@@ -170,7 +170,7 @@ document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
-```
+```  
 
 ## التطبيقات العملية
 - **تحرير تعاوني:** يمكن للفرق إضافة والرد على التعليقات مباشرة في التقارير المُولدة.  

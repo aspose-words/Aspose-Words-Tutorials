@@ -31,6 +31,9 @@ Aspose.Words for Java का उपयोग करके एकीकरण औ
 ### [Aspose.Words API का उपयोग करके जावा में VBA प्रोजेक्ट मैनिपुलेशन में महारत हासिल करें](./master-vba-project-manipulation-aspose-java/)
 Java के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों के भीतर VBA परियोजनाओं में हेरफेर करके दस्तावेज़ प्रसंस्करण को स्वचालित करने और उत्पादकता बढ़ाने का तरीका जानें।
 
+### [C# का उपयोग करके Word दस्तावेज़ में ActiveX नियंत्रण कैसे बनाएं](./how-to-create-activex-control-in-a-word-document-using-c/)
+C# का उपयोग करके Word दस्तावेज़ में ActiveX नियंत्रण बनाने की प्रक्रिया सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)

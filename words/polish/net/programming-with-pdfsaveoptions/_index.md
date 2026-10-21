@@ -19,7 +19,7 @@ Samouczki Aspose.Words for .NET dotyczące przetwarzania słów z PdfSaveOptions
 
 Dowiesz się, jak dostosować opcje jakości obrazu, wybrać poziom kompresji obrazów, ustawić ustawienia zabezpieczeń PDF, takie jak szyfrowanie i uprawnienia, a nawet wstawiać znaki wodne do generowanych plików PDF. Samouczki zawierają również szczegółowe przykłady kodu, które pomogą Ci ćwiczyć te funkcje w swoich projektach.
 
-Niezależnie od tego, czy chcesz przekonwertować dokumenty Word do PDF w celu dystrybucji online, archiwizacji lub drukowania, te samouczki dostarczają wiedzy, aby osiągnąć dokładne, wysokiej jakości wyniki. Dzięki Aspose.Words dla .NET i PdfSaveOptions możesz zoptymalizować proces konwersji plików i uzyskać pliki PDF, które spełniają Twoje specyficzne potrzeby.
+Niezależnie od tego, czy chcesz przekonwertować dokumenty Word do PDF w celu dystrybucji online, archiwizacji lub drukowania, te samouczki dostarczają wiedzy, aby osiągnąć dokładne, wysokiej jakości wyniki. Dzięki Aspose.Words dla .NET i PdfSaveOptions możesz zoptymalizować proces konwersji plików i uzyskać pliki PDF, które spełniają Twoje specficzne potrzeby.
 
  ## Samouczki
 | Tytuł | Opis |
@@ -48,6 +48,8 @@ Niezależnie od tego, czy chcesz przekonwertować dokumenty Word do PDF w celu d
 | [Interpolacja obrazów w dokumencie PDF](./interpolate-images/) | Dowiedz się, jak interpolować obrazy w dokumencie PDF za pomocą Aspose.Words dla .NET dzięki naszemu przewodnikowi krok po kroku. Łatwo popraw jakość obrazu w swoim pliku PDF. |
 | [Zapisz dokument Word jako PDF przy użyciu Aspose Words – Kompletny przewodnik C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Pełny przewodnik krok po kroku, jak zapisać dokument Word jako PDF w C# przy użyciu biblioteki Aspose.Words. |
 | [Zapisz docx jako pdf przy użyciu Aspose.Words – Kompletny przewodnik C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Dowiedz się, jak w pełni konwertować pliki DOCX do PDF w C# przy użyciu Aspose.Words, krok po kroku. |
+| [Jak wyeksportować PDF z Worda przy użyciu Aspose – Pełny przewodnik krok po kroku](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) | Dowiedz się, jak wyeksportować dokument Word do PDF przy użyciu Aspose, krok po kroku, z pełnym omówieniem ustawień. |
+| [Zapisz dokument jako PDF w C# – Eksportuj kształty wbudowane](./save-document-as-pdf-in-c-export-inline-shapes/) | Dowiedz się, jak wyeksportować kształty wbudowane do pliku PDF przy użyciu Aspose.Words dla .NET w C#. |
 | [Utwórz dostępny PDF z Word przy użyciu C# – Przewodnik krok po kroku](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | Dowiedz się, jak wygenerować dostępny plik PDF z dokumentu Word w C#, stosując techniki dostępności krok po kroku. |
 | [Utwórz dostępny PDF w C# – Samouczek dostępności PDF](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Dowiedz się, jak generować dostępne pliki PDF w C# przy użyciu Aspose.Words, spełniające standardy WCAG. |
 | [Utwórz dostępny PDF z Worda – Kompletny przewodnik](./create-accessible-pdf-from-word-complete-guide/) | Dowiedz się, jak tworzyć dostępne pliki PDF z dokumentów Word, spełniając standardy dostępności. |
@@ -65,7 +67,28 @@ Niezależnie od tego, czy chcesz przekonwertować dokumenty Word do PDF w celu d
 | [Utwórz dostępny PDF z Worda przy użyciu Aspose – przewodnik krok po kroku](./create-accessible-pdf-from-word-with-aspose-step-by-step-gui/) | Dowiedz się, jak wygenerować dostępny plik PDF z dokumentu Word, spełniający standardy dostępności, korzystając z Aspose.Words dla .NET. |
 | [Utwórz PDF UA z dokumentu Word w C# – przewodnik krok po kroku](./create-pdf-ua-from-word-in-c-step-by-step-guide/) | Dowiedz się, jak wygenerować plik PDF UA z dokumentu Word przy użyciu Aspose.Words dla .NET w C#. |
 | [Jak utworzyć PDF z Worda w C# – Kompletny przewodnik](./how-to-create-pdf-from-word-in-c-complete-guide/) | Pełny przewodnik, jak w C# konwertować dokumenty Word do PDF przy użyciu Aspose.Words, krok po kroku. |
+| [Zapisz dokument Word jako PDF w C# – Pełny przewodnik konwersji DOCX do PDF z eksportem kształtów](./save-word-as-pdf-in-c-full-guide-to-convert-docx-to-pdf-with/) | Kompletny przewodnik, jak w C# konwertować pliki DOCX do PDF, zachowując kształty i grafiki przy użyciu Aspose.Words. |
+| [Utwórz dostępny PDF z Worda – przewodnik krok po kroku](./create-accessible-pdf-from-word-step-by-step-guide/) | Dowiedz się, jak tworzyć dostępne pliki PDF z dokumentów Word, korzystając z Aspose.Words dla .NET – krok po kroku. |
+| [Zapisz DOCX jako PDF w C# – Kompletny przewodnik Aspose.Words](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) | Dowiedz się, jak w C# zapisać dokument DOCX jako PDF przy użyciu Aspose.Words, krok po kroku. |
+| [Jak ustawić opcje PDF w C# – Konwertuj Word do PDF](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | Dowiedz się, jak w C# ustawić opcje PDF przy konwersji dokumentu Word do PDF przy użyciu Aspose.Words. |
+| [Tagowanie PDF pod kątem dostępności w C# – Kompletny przewodnik](./tag-pdf-for-accessibility-in-c-complete-guide/) | Dowiedz się, jak dodać znaczniki dostępności do plików PDF w C# przy użyciu Aspose.Words, krok po kroku, aby spełnić standardy PDF/UA. |
+| [Zapisz dokument PDF z podstawianiem czcionek w C# – Kompletny przewodnik](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Dowiedz się, jak zapisać dokument PDF z podstawianiem czcionek w C# przy użyciu Aspose.Words, krok po kroku. |
+| [Utwórz dostępny PDF z Aspose.Words – Kompletny przewodnik](./create-accessible-pdf-with-aspose-words-complete-guide/) | Dowiedz się, jak w pełni konwertować dokumenty do dostępnych plików PDF przy użyciu Aspose.Words, krok po kroku. |
+| [Utwórz dostępny PDF z Word przy użyciu Aspose.Words](./create-accessible-pdf-from-word-using-aspose-words/) | Dowiedz się, jak wygenerować dostępny plik PDF z dokumentu Word przy użyciu Aspose.Words, krok po kroku. |
+| [Zapisz docx jako pdf przy użyciu Aspose.Words – Kompletny przewodnik programistyczny](./convert-docx-to-pdf-with-aspose-words-complete-programming-g/) | Dowiedz się, jak w pełni konwertować pliki DOCX do PDF w C# przy użyciu Aspose.Words, krok po kroku. |
+| [Utwórz dostępny PDF z DOCX – Kompletny przewodnik programistyczny](./create-accessible-pdf-from-docx-complete-programming-guide/) | Dowiedz się, jak w pełni tworzyć dostępne pliki PDF z dokumentów DOCX w C# przy użyciu Aspose.Words, krok po kroku. |
+| [Konwertuj Word do dostępnego PDF za pomocą Aspose.Words – Kompletny przewodnik](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) | Pełny przewodnik, jak przekształcić dokumenty Word w dostępne pliki PDF przy użyciu Aspose.Words w C#. |
+| [Jak zapisać PDF z DOCX przy użyciu Aspose.Words – przewodnik krok po kroku](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) | Dowiedz się, jak konwertować pliki DOCX do PDF przy użyciu Aspose.Words, krok po kroku. |
+| [Jak zapisać PDF z Worda w C# – Kompletny przewodnik](./how-to-save-pdf-from-word-in-c-complete-guide/) | Dowiedz się, jak w pełni zapisać dokument Word jako PDF w C# przy użyciu Aspose.Words, krok po kroku, z przykładami kodu. |
+| [Zapisz dokument jako PDF w C# – kompletny przewodnik](./save-document-as-pdf-in-c-complete-guide/) | Dowiedz się, jak zapisać dokument jako PDF w C# przy użyciu Aspose.Words dla .NET, krok po kroku. |
+| [Utwórz dostępny PDF – konwertuj Word do PDF przy użyciu C#](./create-accessible-pdf-convert-word-to-pdf-with-c/) | Dowiedz się, jak konwertować dokumenty Word do dostępnych plików PDF w C# przy użyciu Aspose.Words, krok po kroku. |
+| [Zapisz Word jako PDF – Kompletny przewodnik z dostępnością](./save-word-as-pdf-complete-guide-with-accessibility/) | Dowiedz się, jak konwertować dokumenty Word do PDF z zachowaniem dostępności, krok po kroku, używając Aspose.Words dla .NET. |
+| [Utwórz dostępny PDF z Word – Kompletny przewodnik programistyczny](./create-accessible-pdf-from-word-complete-programming-guide/) | Kompletny przewodnik programistyczny, jak generować dostępne pliki PDF z dokumentów Word przy użyciu Aspose.Words w C#. |
+| [Utwórz plik PDF/UA zgodny ze standardem z Word – Kompletny przewodnik eksportu](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | Dowiedz się, jak wyeksportować dokument Word do pliku PDF/UA zgodnego ze standardem, krok po kroku, używając Aspose.Words dla .NET. |
+| [Jak ustawić RenderChoiceFormFieldBorder na false podczas konwertowania Word do PDF](./how-to-set-renderchoiceformfieldborder-false-when-converting/) | Dowiedz się, jak wyłączyć RenderChoiceFormFieldBorder przy konwersji Word do PDF przy użyciu Aspose.Words. |
 
+| [Jak zapisać PDF z Worda z eksportem kształtów wbudowanych – Kompletny przewodnik](./how-to-save-pdf-from-word-with-inline-shape-export-complete/) | Dowiedz się, jak wyeksportować kształty inline podczas zapisywania dokumentu Word jako PDF przy użyciu Aspose.Words dla .NET. |
+| [Utwórz dokument zgodny z PDF/UA-2 – Kompletny przewodnik C#](./create-pdf-ua-2-compliant-document-complete-c-guide/) | Dowiedz się, jak w C# utworzyć dokument PDF zgodny z normą PDF/UA‑2, spełniający wymogi dostępności, krok po kroku. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

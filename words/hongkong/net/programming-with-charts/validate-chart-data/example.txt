@@ -1,0 +1,58 @@
+//ExStart
+//ExSummary: 本教學示範如何建立包含直條圖的 Word 文件、填入特定資料系列、驗證圖表是否包含預期的系列數量與資料點數，最後儲存文件。
+//ExStepSummary:0: 定義圖表必須包含的系列數量與資料點數。
+//ExStepSummary:1: 建立新的 Word Document 以及 DocumentBuilder 以向其中加入內容。
+//ExStepSummary:2: 在文件中插入一個 400×300 的直條圖，並取得其 Chart 物件。
+//ExStepSummary:3: 移除 Aspose.Words 預設加入的佔位資料系列。
+//ExStepSummary:4: 定義 X 軸標籤，並向圖表加入兩個資料系列（Alpha 與 Beta），每個系列各有三個資料點。
+//ExStepSummary:5: 檢查圖表是否正好包含所需的系列數量，若不符則拋出例外。
+//ExStepSummary:6: 遍歷每個系列，驗證其資料點數是否符合預期，若不匹配則拋出例外。
+//ExStepSummary:7: 將驗證過的文件儲存為 .docx 檔案。
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Desired numbers for checks.
+const int requiredSeriesCount = 2;
+const int requiredPointsPerSeries = 3;
+
+//ExStep:1-
+// Initialise a fresh document and its builder.
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:2-
+// Place a column‑type chart into the document.
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 400, 300);
+Chart chartObj = chartContainer.Chart;
+
+//ExStep:3-
+// Discard the sample data automatically added by Aspose.Words.
+chartObj.Series.Clear();
+
+//ExStep:4-
+// Set up X‑axis labels and add two data series with matching values.
+string[] xLabels = { "Group A", "Group B", "Group C" };
+chartObj.Series.Add("Data Set Alpha", xLabels, new double[] { 10, 20, 30 });
+chartObj.Series.Add("Data Set Beta", xLabels, new double[] { 15, 25, 35 });
+
+//ExStep:5-
+// ----- Validation -----
+// Confirm the chart holds the expected number of series.
+if (chartObj.Series.Count != requiredSeriesCount)
+    throw new InvalidOperationException(
+        $"Chart should contain {requiredSeriesCount} series, but actually has {chartObj.Series.Count}.");
+
+//ExStep:6-
+// Confirm each series has the required amount of data points.
+foreach (ChartSeries seriesItem in chartObj.Series)
+{
+    if (seriesItem.DataPoints.Count != requiredPointsPerSeries)
+        throw new InvalidOperationException(
+            $"Series '{seriesItem.Name}' should have {requiredPointsPerSeries} points, but contains {seriesItem.DataPoints.Count}.");
+}
+
+//ExStep:7-
+// Persist the verified document.
+myDocument.Save("checked-graph.docx");
+//ExEnd

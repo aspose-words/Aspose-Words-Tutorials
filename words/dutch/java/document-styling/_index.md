@@ -43,8 +43,16 @@ Leer hoe u documentthema's kunt aanpassen met Aspose.Words voor Java. Deze uitge
 Leer hoe u watermerken kunt toepassen en paginaconfiguraties kunt instellen met Aspose.Words voor Java. Een uitgebreide handleiding met broncode.
 ### [Stijl van documentkoptekst en -voettekst](./document-header-footer-styling/)
 Leer hoe je documentkopteksten en -voetteksten kunt stylen met Aspose.Words voor Java in deze gedetailleerde handleiding. Inclusief stapsgewijze instructies en broncode.
+### [Hoe de voetnootscheiding bewerken in Java met Aspose.Words](./how-to-edit-footnote-separator-in-java-with-aspose-words/)
+Leer hoe u de scheidingsteken van voetnoten kunt aanpassen met Aspose.Words voor Java.
 ### [Hoe lettertypen detecteren in Java Word-documenten – Complete gids](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
 Leer hoe u lettertypen in Word-documenten kunt detecteren met Aspose.Words voor Java, inclusief voorbeeldcode en stapsgewijze uitleg.
+### [Standaardlettertype-instellingen instellen in Aspose.Words voor Java – Complete gids](./set-default-font-settings-in-aspose-words-for-java-complete/)
+Leer hoe u standaardlettertype-instellingen configureert in Aspose.Words voor Java met voorbeeldcode.
+### [Hoe schaduw op een Word-diagram instellen met Aspose.Words voor Java](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Leer hoe u schaduweffecten toevoegt aan diagrammen in Word-documenten met Aspose.Words voor Java.
+### [Hoe een segment in een Word-diagram explodeert en het uiterlijk aanpast](./how-to-explode-slice-in-a-word-chart-and-customize-its-appea/)
+Leer hoe je een segment in een Word-diagram kunt laten exploderen en de weergave kunt aanpassen met Aspose.Words voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
