@@ -249,6 +249,9 @@ Hướng dẫn chi tiết cách xuất các công thức toán học trong tài 
 ### [Cách lưu tài liệu dưới dạng PDF với hình chữ nhật tùy chỉnh trong Python](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
 Hướng dẫn lưu tài liệu Word thành PDF với hình chữ nhật tùy chỉnh bằng Aspose.Words cho Python.
 
+### [Cách khôi phục docx bị hỏng và chuyển đổi sang markdown, văn bản thuần và PDF với Aspose.Words](./how-to-recover-corrupted-docx-and-convert-it-to-markdown-pla/)
+Hướng dẫn chi tiết cách khôi phục tệp DOCX hỏng và chuyển đổi sang Markdown, văn bản thuần và PDF bằng Aspose.Words cho Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

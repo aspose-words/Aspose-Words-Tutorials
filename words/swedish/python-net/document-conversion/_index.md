@@ -181,6 +181,8 @@ Lär dig konvertera docx-filer till markdown och sedan exportera dem som PDF med
 Lär dig återställa korrupta Word-filer och konvertera dem till Markdown med LaTeX‑stöd via Aspose.Words för Python.
 ### [Hur man exporterar Office-matematik till LaTeX i Python](./how-to-export-office-math-to-latex-in-python/)
 Lär dig hur du exporterar matematiska ekvationer från Office-dokument till LaTeX med Aspose.Words för Python.
+### [Hur man återställer korrupt docx och konverterar det till markdown, vanlig text och PDF med Aspose.Words](./how-to-recover-corrupted-docx-and-convert-it-to-markdown-pla/)
+Lär dig återställa skadade DOCX-filer och konvertera dem till markdown, vanlig text och PDF med Aspose.Words för Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -47,6 +47,9 @@ Aprenda a guardar archivos DOCX como TXT y exportar ecuaciones de Word usando As
 ### [Recuperar DOCX dañado y convertir a PDF con Aspose.Words para Python](./recover-corrupted-docx-and-convert-to-pdf-with-aspose-words/)
 Aprenda a reparar archivos DOCX corruptos y convertirlos a PDF usando Aspose.Words para Python. Guía paso a paso y ejemplos de código.
 
+### [Cómo recuperar DOCX dañado y convertirlo a markdown, texto plano y PDF con Aspose.Words](./how-to-recover-corrupted-docx-and-convert-it-to-markdown-pla/)
+Aprenda a reparar archivos DOCX corruptos y convertirlos a Markdown, texto sin formato y PDF usando Aspose.Words para Python.
+
 ### [Cómo exportar LaTeX desde Word – Convertir DOCX a Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Aprende a exportar contenido LaTeX desde Word y convertir archivos DOCX a Markdown con Aspose.Words para Python.
 

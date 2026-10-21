@@ -183,6 +183,8 @@ Pelajari cara mengekspor persamaan Office Math menjadi LaTeX menggunakan Aspose.
 Pelajari cara mengonversi dokumen Word menjadi PDF menggunakan Aspose.Words untuk Python secara lengkap.
 ### [Cara menyimpan dokumen sebagai PDF dengan bentuk persegi panjang khusus di Python](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
 Pelajari cara menyimpan dokumen Word sebagai PDF dengan menambahkan bentuk persegi panjang khusus menggunakan Aspose.Words untuk Python.
+### [Cara memulihkan docx yang rusak dan mengonversinya ke markdown, teks biasa, dan PDF dengan Aspose.Words](./how-to-recover-corrupted-docx-and-convert-it-to-markdown-pla/)
+Pelajari cara memulihkan file DOCX yang rusak dan mengonversinya ke format markdown, teks biasa, serta PDF menggunakan Aspose.Words untuk Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

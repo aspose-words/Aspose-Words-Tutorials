@@ -181,6 +181,8 @@ Ismerje meg, hogyan állíthatja helyre a Word dokumentumokat, és konvertálhat
 Ismerje meg, hogyan exportálhatja az Office matematikát LaTeX formátumba Python használatával.
 ### [Hogyan mentse a dokumentumot PDF‑be egy egyedi téglalap alakzattal Pythonban](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
 Ismerje meg, hogyan menthet PDF‑et egyedi téglalap alakú alakzattal a Word dokumentumból Python és Aspose.Words segítségével.
+### [Hogyan állítsa helyre a sérült docx fájlt, és konvertálja Markdown, egyszerű szöveg és PDF formátumba az Aspose.Words segítségével](./how-to-recover-corrupted-docx-and-convert-it-to-markdown-pla/)
+Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlokat, és konvertálhatja őket Markdown, egyszerű szöveg vagy PDF formátumba Python és Aspose.Words használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

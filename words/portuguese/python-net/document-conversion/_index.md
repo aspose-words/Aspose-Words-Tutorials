@@ -180,6 +180,8 @@ Aprenda a salvar arquivos DOCX como Markdown e exportar equações para LaTeX us
 Aprenda a exportar equações do Office Math para LaTeX usando Aspose.Words para Python. Guia completo passo a passo.
 ### [Como salvar documento como PDF com forma retangular personalizada em Python](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
 Aprenda a salvar documentos como PDF aplicando uma forma retangular personalizada usando Aspose.Words para Python.
+### [Como recuperar DOCX corrompido e convertê-lo para Markdown, texto simples e PDF com Aspose.Words](./how-to-recover-corrupted-docx-and-convert-it-to-markdown-pla/)
+Aprenda a reparar arquivos DOCX corrompidos e convertê-los para Markdown, texto simples e PDF usando Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

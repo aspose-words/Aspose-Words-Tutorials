@@ -39,6 +39,8 @@ Erfahren Sie, wie Sie mit Aspose.Words für Python Word-Dokumente in Markdown ko
 Erfahren Sie, wie Sie mit Aspose.Words für Python Markdown aus einem Word-Dokument exportieren.
 ### [Beschädigte DOCX wiederherstellen und Word in Markdown konvertieren](./recover-corrupted-docx-convert-word-to-markdown/)
 Lernen Sie, beschädigte DOCX-Dateien zu reparieren und anschließend in Markdown zu konvertieren.
+### [Wie man beschädigte DOCX wiederherstellt und in Markdown, Klartext und PDF mit Aspose.Words konvertiert](./how-to-recover-corrupted-docx-and-convert-it-to-markdown-pla/)
+Erfahren Sie, wie Sie beschädigte DOCX-Dateien reparieren und in Markdown, Nur‑Text und PDF konvertieren.
 ### [Wie man LaTeX aus Word exportiert – DOCX in Markdown konvertieren](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Erfahren Sie, wie Sie mit Aspose.Words für Python DOCX-Dateien in LaTeX exportieren und anschließend in Markdown konvertieren.
 ### [DOCX als Markdown speichern und Gleichungen nach LaTeX exportieren](./save-docx-as-markdown-and-export-equations-to-latex/)

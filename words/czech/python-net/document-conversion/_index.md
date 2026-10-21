@@ -181,6 +181,8 @@ Naučte se exportovat rovnice a matematické objekty z Office do LaTeXu pomocí 
 Naučte se převést dokument Word do PDF pomocí Aspose.Words pro Python s podrobnými ukázkami kódu.
 ### [Jak uložit dokument jako PDF s vlastním obdélníkovým tvarem v Pythonu](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
 Naučte se uložit dokument jako PDF s vlastním obdélníkovým tvarem pomocí Aspose.Words pro Python.
+### [Jak obnovit poškozený DOCX a převést jej do Markdown, prostého textu a PDF pomocí Aspose.Words](./how-to-recover-corrupted-docx-and-convert-it-to-markdown-pla/)
+Naučte se opravit poškozené soubory DOCX a převést je do formátů Markdown, prostý text i PDF pomocí Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

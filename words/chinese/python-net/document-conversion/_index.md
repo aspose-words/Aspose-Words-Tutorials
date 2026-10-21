@@ -235,6 +235,9 @@
 ### [如何在 Python 中使用自定义矩形形状将文档保存为 PDF](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
 学习使用 Aspose.Words for Python 将文档保存为 PDF，并在其中添加自定义矩形形状，实现高级排版。
 
+### [如何恢复损坏的 docx 并将其转换为 Markdown、纯文本和 PDF（使用 Aspose.Words）](./how-to-recover-corrupted-docx-and-convert-it-to-markdown-pla/)
+使用 Aspose.Words for Python 恢复损坏的 DOCX 并转换为 Markdown、纯文本和 PDF。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

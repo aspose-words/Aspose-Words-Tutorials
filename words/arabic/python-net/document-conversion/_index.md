@@ -178,6 +178,7 @@
 تعلم كيفية تحويل مستندات Word إلى PDF بسهولة باستخدام Aspose.Words لبايثون.
 ### [كيفية حفظ المستند كملف PDF مع شكل مستطيل مخصص في بايثون](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
 تعلم كيفية حفظ مستند Word كملف PDF مع إضافة شكل مستطيل مخصص باستخدام Aspose.Words لبايثون.
+### [كيفية استعادة ملف DOCX تالف وتحويله إلى Markdown ونص عادي وPDF باستخدام Aspose.Words](./how-to-recover-corrupted-docx-and-convert-it-to-markdown-pla/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

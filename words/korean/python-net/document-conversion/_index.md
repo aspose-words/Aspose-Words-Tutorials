@@ -51,6 +51,9 @@ DOCX 파일을 텍스트 파일로 변환하고 Word 문서의 수식을 LaTeX �
 ### [Word 복구 및 LaTeX와 함께 Markdown으로 변환하는 방법](./how-to-recover-word-and-convert-to-markdown-with-latex/)
 Word 문서를 복구하고 LaTeX를 사용해 Markdown으로 변환하는 단계별 가이드.
 
+### [손상된 DOCX 복구 및 Aspose.Words로 마크다운, 일반 텍스트 및 PDF 변환 방법](./how-to-recover-corrupted-docx-and-convert-it-to-markdown-pla/)
+손상된 DOCX 파일을 복구하고, Aspose.Words를 사용해 마크다운, 텍스트 및 PDF 형식으로 변환하는 방법을 단계별로 안내합니다.
+
 ### [Word에서 LaTeX 내보내기 – DOCX를 Markdown으로 변환](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Word 문서를 LaTeX 형식으로 내보내고, DOCX를 Markdown으로 변환하는 방법을 단계별로 안내합니다.
 

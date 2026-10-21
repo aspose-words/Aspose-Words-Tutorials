@@ -44,6 +44,8 @@ Learn how to convert Word documents to PDF using Aspose.Words for Python in a st
 Learn how to recover corrupted DOCX files and convert them to Markdown using Aspose.Words for Python.
 ### [How to recover Word and convert to Markdown with LaTeX](./how-to-recover-word-and-convert-to-markdown-with-latex/)
 Learn how to recover Word files and convert them to Markdown with LaTeX using Aspose.Words for Python.
+### [How to recover corrupted docx and convert it to markdown, plain text, and PDF with Aspose.Words](./how-to-recover-corrupted-docx-and-convert-it-to-markdown-pla/)
+Learn to recover corrupted DOCX files and convert them to Markdown, plain text, and PDF using Aspose.Words for Python.
 ### [How to Export LaTeX from Word – Convert DOCX to Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Learn how to export LaTeX from Word and convert DOCX to Markdown using Aspose.Words for Python.
 ### [Create PDF from Word – Complete Python Guide with Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
