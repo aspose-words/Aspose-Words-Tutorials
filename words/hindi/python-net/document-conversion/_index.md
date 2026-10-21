@@ -44,7 +44,13 @@ Aspose.Words for Python के साथ Python दस्तावेज़ र�
 दोषग्रस्त DOCX फ़ाइल को पुनर्प्राप्त करके मार्कडाउन, साधारण टेक्स्ट और PDF में परिवर्तित करें।
 
 ### [वर्ड से LaTeX निर्यात कैसे करें – DOCX को मार्कडाउन में परिवर्तित करें](./how-to-export-latex-from-word-convert-docx-to-markdown/)
-वर्ड दस्तावेज़ को LaTeX में निर्यात करके DOCX को मार्कडाउन में बदलने के लिए पायथन कोड और चरण-दर-चरण मार्गदर्शन।
+वर्ड से LaTeX निर्यात करके DOCX को मार्कडाउन में बदलने के लिए पायथन कोड और चरण‑दर‑चरण मार्गदर्शन।
+
+### [वर्ड से LaTeX निर्यात कैसे करें और DOCX को मार्कडाउन में बदलें](./how-to-export-latex-from-word-and-convert-docx-to-markdown/)
+वर्ड से LaTeX निर्यात करके DOCX को मार्कडाउन में बदलने के लिए पायथन कोड और चरण‑दर‑चरण मार्गदर्शन।
+
+### [Aspose.Words का उपयोग करके Word दस्तावेज़ों से LaTeX निर्यात कैसे करें](./how-to-export-latex-from-word-documents-using-aspose-words/)
+Aspose.Words के साथ Word फ़ाइलों को LaTeX फ़ॉर्मेट में बदलने के चरण‑दर‑स्टेप मार्गदर्शन।
 
 ### [Word को पुनर्प्राप्त करें और LaTeX के साथ Markdown में परिवर्तित करें](./how-to-recover-word-and-convert-to-markdown-with-latex/)
 Word फ़ाइलों को ठीक करके उन्हें LaTeX‑सहायक Markdown में बदलने का चरण‑दर‑स्टेप मार्गदर्शन।
@@ -234,6 +240,12 @@ docx फ़ाइल को मार्कडाउन में बदले�
 
 ### [कस्टम आयताकार आकार के साथ दस्तावेज़ को PDF में सहेजें – Python गाइड](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
 Aspose.Words का उपयोग करके Python में कस्टम आयताकार आकार जोड़कर दस्तावेज़ को PDF में बदलने की चरण‑दर‑स्टेप मार्गदर्शिका।
+
+### [Python में PDF/UA अनुपालन के साथ Word को PDF में निर्यात कैसे करें](./how-to-export-word-to-pdf-with-pdf-ua-compliance-in-python/)
+Python में PDF/UA मानकों के साथ Word को PDF में निर्यात करने के चरण‑दर‑स्टेप मार्गदर्शन।
+
+### [Aspose.Words के साथ Docx को PDF में सहेजें – चरण‑दर‑स्टेप गाइड](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
+Aspose.Words का उपयोग करके DOCX फ़ाइल को PDF में बदलने के लिए विस्तृत चरण‑दर‑स्टेप मार्गदर्शन।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

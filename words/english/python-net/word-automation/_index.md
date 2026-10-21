@@ -40,6 +40,9 @@ Learn how to replace text in DOCX files using Aspose.Words for Python with a det
 ### [How to Use Aspose to Automate Grammar Correction in Python](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
 Discover how to automate grammar correction in Word documents using Aspose.Words for Python, enhancing document quality programmatically.
 
+### [Create blank Word document with shadowed shape in Python](./create-blank-word-document-with-shadowed-shape-in-python/)
+Learn how to generate a blank Word document and add a shadowed shape using Aspose.Words for Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

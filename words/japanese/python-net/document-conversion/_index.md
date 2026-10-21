@@ -48,6 +48,11 @@ Word 文書から LaTeX をエクスポートし、DOCX を Markdown に変換�
 
 ### [docx を Markdown に保存し、数式を LaTeX にエクスポート](./save-docx-as-markdown-and-export-equations-to-latex/)
 docx ファイルを Markdown に変換し、数式を LaTeX 形式でエクスポートする手順を解説します。
+### [Word から LaTeX をエクスポートし、DOCX を Markdown に変換する方法](./how-to-export-latex-from-word-and-convert-docx-to-markdown/)
+Word 文書を LaTeX にエクスポートし、さらに DOCX を Markdown に変換する手順を詳しく解説します。
+
+### [Aspose.Words を使用して Word 文書から LaTeX をエクスポートする方法](./how-to-export-latex-from-word-documents-using-aspose-words/)
+Aspose.Words を使って Word 文書を LaTeX にエクスポートする手順を詳しく解説します。簡単に実装可能です。
 
 ### [Word から PDF を作成 – Aspose.Words 完全 Python ガイド](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Aspose.Words for Python を使用して、Word 文書から PDF を生成する手順を詳しく解説します。簡単に実装可能です。
@@ -240,6 +245,12 @@ Aspose.Words for Python を使用して、Office の数式を LaTeX 形式に変
 
 ### [Python でカスタム長方形シェイプを使用してドキュメントを PDF として保存する方法](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
 Python でカスタム長方形シェイプを追加し、ドキュメントを PDF に保存する手順を解説します。
+
+### [Python で Word を PDF/UA にエクスポートする方法](./how-to-export-word-to-pdf-with-pdf-ua-compliance-in-python/)
+Python で Aspose.Words を使用し、PDF/UA 準拠の PDF を Word からエクスポートする手順を解説します。
+
+### [Aspose.WordsでdocxをPDFに保存するステップバイステップガイド](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
+Aspose.Wordsを使用してdocxファイルをPDFに変換する手順を詳しく解説します。簡単に実装可能です。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

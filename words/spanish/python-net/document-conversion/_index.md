@@ -244,6 +244,18 @@ Aprenda a guardar documentos Word como PDF usando Aspose.Words para Python. Guí
 ### [Cómo guardar documento como PDF con una forma rectangular personalizada en Python](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
 Aprenda a guardar un documento como PDF aplicando una forma rectangular personalizada usando Aspose.Words para Python.
 
+### [Cómo exportar LaTeX desde Word y convertir DOCX a Markdown](./how-to-export-latex-from-word-and-convert-docx-to-markdown/)
+Aprenda a exportar contenido LaTeX desde Word y convertir archivos DOCX a Markdown usando Aspose.Words para Python.
+
+### [Cómo exportar LaTeX desde documentos Word usando Aspose.Words](./how-to-export-latex-from-word-documents-using-aspose-words/)
+Aprenda a exportar contenido LaTeX desde documentos Word con Aspose.Words para Python. Guía paso a paso y ejemplos de código.
+
+### [Guardar docx como PDF – Guía paso a paso con Aspose.Words](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
+Aprenda a guardar archivos DOCX como PDF usando Aspose.Words para Python. Guía paso a paso con ejemplos de código.
+
+### [Cómo exportar Word a PDF con cumplimiento PDF/UA en Python](./how-to-export-word-to-pdf-with-pdf-ua-compliance-in-python/)
+Aprenda a exportar documentos Word a PDF cumpliendo con la norma PDF/UA usando Aspose.Words para Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

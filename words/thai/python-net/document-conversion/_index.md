@@ -53,6 +53,12 @@
 ### [วิธีกู้ไฟล์ DOCX ที่เสียหายและแปลงเป็น Markdown, Plain Text และ PDF ด้วย Aspose.Words](./how-to-recover-corrupted-docx-and-convert-it-to-markdown-pla/)
 เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายและแปลงเป็น Markdown, Plain Text และ PDF ด้วย Aspose.Words for Python
 
+### [วิธีส่งออก LaTeX จาก Word – แปลง DOCX เป็น Markdown](./how-to-export-latex-from-word-and-convert-docx-to-markdown/)
+เรียนรู้วิธีส่งออก LaTeX จากไฟล์ Word และแปลงเป็น Markdown ด้วย Aspose.Words for Python
+
+### [วิธีส่งออก LaTeX จากเอกสาร Word ด้วย Aspose.Words](./how-to-export-latex-from-word-documents-using-aspose-words/)
+เรียนรู้วิธีส่งออก LaTeX จากไฟล์ Word ด้วย Aspose.Words อย่างละเอียดและครบถ้วน
+
 ### [สร้าง PDF จาก Word – คู่มือฉบับสมบูรณ์สำหรับ Python ด้วย Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 เรียนรู้วิธีสร้าง PDF จากไฟล์ Word ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
 
@@ -250,6 +256,12 @@
 
 ### [วิธีบันทึกเอกสารเป็น PDF ด้วยรูปสี่เหลี่ยมกำหนดเองใน Python](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
 เรียนรู้วิธีบันทึกเอกสารเป็น PDF พร้อมรูปสี่เหลี่ยมกำหนดเองโดยใช้ Aspose.Words for Python
+
+### [บันทึก docx เป็น pdf ด้วย Aspose.Words: คู่มือขั้นตอนโดยละเอียด](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
+เรียนรู้วิธีบันทึกไฟล์ docx เป็น PDF อย่างละเอียดด้วย Aspose.Words for Python
+
+### [วิธีส่งออก Word เป็น PDF พร้อมการปฏิบัติตาม PDF/UA ด้วย Python](./how-to-export-word-to-pdf-with-pdf-ua-compliance-in-python/)
+เรียนรู้วิธีส่งออกไฟล์ Word เป็น PDF ที่เป็นไปตามมาตรฐาน PDF/UA ด้วย Aspose.Words for Python
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

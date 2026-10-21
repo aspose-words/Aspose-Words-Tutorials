@@ -55,6 +55,12 @@ Hướng dẫn chi tiết cách nhúng hình ảnh trong quá trình chuyển DO
 ### [Cách chèn hình ảnh vào Markdown từ DOCX – Hướng dẫn đầy đủ](./how-to-embed-images-in-markdown-from-docx-full-guide/)
 Hướng dẫn chi tiết cách nhúng hình ảnh khi chuyển đổi tài liệu DOCX sang Markdown bằng Aspose.Words cho Python.
 
+### [Cách xuất LaTeX từ Word và chuyển DOCX sang Markdown](./how-to-export-latex-from-word-and-convert-docx-to-markdown/)
+Hướng dẫn chi tiết cách xuất LaTeX từ tài liệu Word và chuyển đổi DOCX sang định dạng Markdown bằng Aspose.Words cho Python.
+
+### [Cách xuất LaTeX từ tài liệu Word bằng Aspose.Words](./how-to-export-latex-from-word-documents-using-aspose-words/)
+Hướng dẫn chi tiết cách xuất LaTeX từ tài liệu Word bằng Aspose.Words cho Python.
+
 ### [Tạo PDF từ Word – Hướng dẫn Python đầy đủ](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang PDF bằng Aspose.Words cho Python, bao gồm các tùy chọn và ví dụ thực tế.
 
@@ -251,6 +257,12 @@ Hướng dẫn lưu tài liệu Word thành PDF với hình chữ nhật tùy ch
 
 ### [Cách khôi phục docx bị hỏng và chuyển đổi sang markdown, văn bản thuần và PDF với Aspose.Words](./how-to-recover-corrupted-docx-and-convert-it-to-markdown-pla/)
 Hướng dẫn chi tiết cách khôi phục tệp DOCX hỏng và chuyển đổi sang Markdown, văn bản thuần và PDF bằng Aspose.Words cho Python.
+
+### [Lưu docx thành pdf với Aspose.Words – Hướng dẫn từng bước](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp docx sang PDF bằng Aspose.Words cho Python, bao gồm các tùy chọn và ví dụ thực tế.
+
+### [Cách xuất Word sang PDF tuân thủ PDF/UA bằng Python](./how-to-export-word-to-pdf-with-pdf-ua-compliance-in-python/)
+Hướng dẫn chi tiết cách xuất tài liệu Word sang PDF đáp ứng tiêu chuẩn PDF/UA bằng Aspose.Words cho Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

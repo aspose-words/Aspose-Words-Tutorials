@@ -93,6 +93,9 @@
 ### [วิธีกู้ไฟล์ DOCX ที่เสียหายโดยใช้ Aspose.Words สำหรับ Python](./how-to-recover-corrupted-docx-files-using-aspose-words-for-p/)
 เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายด้วย Aspose.Words สำหรับ Python
 
+### [วิธีกู้ไฟล์ DOCX ที่เสียหายด้วย Aspose.Words สำหรับ Python](./how-to-recover-corrupted-docx-files-with-aspose-words-for-py/)
+เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายและเปิดโหลดด้วย Aspose.Words สำหรับ Python
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสาร Aspose.Words สำหรับ Python-net](https://docs.aspose.com/words/python-net/)

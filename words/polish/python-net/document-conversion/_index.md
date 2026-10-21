@@ -48,6 +48,11 @@ Dowiedz się, jak przy użyciu Aspose.Words for Python wyeksportować dokument W
 
 ### [Jak wyeksportować Word do PDF i wygenerować dostępny PDF/UA](./how-to-export-word-to-pdf-and-generate-an-accessible-pdf-ua/)
 Dowiedz się, jak przy użyciu Aspose.Words for Python wyeksportować dokument Word do PDF oraz stworzyć dostępny PDF/UA.
+### [Jak wyeksportować LaTeX z Worda i przekonwertować DOCX na Markdown](./how-to-export-latex-from-word-and-convert-docx-to-markdown/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python wyeksportować dokument Word do LaTeX i przekonwertować go na Markdown.
+
+### [Jak wyeksportować LaTeX z dokumentów Word przy użyciu Aspose.Words](./how-to-export-latex-from-word-documents-using-aspose-words/)
+Dowiedz się, jak przy użyciu Aspose.Words wyeksportować dokumenty Word do formatu LaTeX.
 
 ### [Utwórz PDF z Worda – kompletny przewodnik w Pythonie z Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Dowiedz się, jak przy użyciu Aspose.Words for Python utworzyć PDF z dokumentu Word.
@@ -57,6 +62,11 @@ Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument Word ja
 
 ### [Jak zapisać dokument jako PDF z niestandardowym kształtem prostokąta w Pythonie](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
 Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument jako PDF z własnym prostokątnym kształtem.
+### [Zapisz docx jako pdf przy użyciu Aspose.Words – przewodnik krok po kroku](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać plik DOCX jako PDF krok po kroku.
+
+### [Jak wyeksportować Word do PDF z zgodnością PDF/UA w Pythonie](./how-to-export-word-to-pdf-with-pdf-ua-compliance-in-python/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python wyeksportować dokument Word do PDF spełniającego wymogi PDF/UA.
 
 ### [Utwórz dostępny PDF z Worda przy użyciu Pythona – przewodnik krok po kroku](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Dowiedz się, jak przy użyciu Aspose.Words for Python utworzyć dostępny PDF z dokumentu Word, spełniający standardy dostępności.

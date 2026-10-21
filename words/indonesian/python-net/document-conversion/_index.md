@@ -45,8 +45,12 @@ Pelajari cara memulihkan file DOCX yang rusak dan mengonversinya menjadi format 
 Pelajari cara mengekspor LaTeX dari dokumen Word dan mengonversi file DOCX ke format Markdown menggunakan Aspose.Words untuk Python.
 ### [Cara Memulihkan Word dan Mengonversi ke Markdown dengan LaTeX](./how-to-recover-word-and-convert-to-markdown-with-latex/)
 Pelajari cara memulihkan dokumen Word yang rusak dan mengonversinya ke Markdown dengan dukungan LaTeX menggunakan Aspose.Words untuk Python.
+### [Cara Mengekspor LaTeX dari Word dan Mengonversi DOCX ke Markdown](./how-to-export-latex-from-word-and-convert-docx-to-markdown/)
+Pelajari cara mengekspor LaTeX dari dokumen Word dan mengonversi file DOCX menjadi Markdown menggunakan Aspose.Words untuk Python.
 ### [Buat PDF dari Word – Panduan Lengkap Python dengan Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Pelajari cara mengonversi dokumen Word menjadi PDF menggunakan Aspose.Words untuk Python secara lengkap.
+### [Simpan docx sebagai PDF – Panduan Langkah‑demi‑Langkah dengan Aspose.Words](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
+Pelajari cara menyimpan file DOCX sebagai PDF dengan Aspose.Words melalui panduan langkah‑demi‑langkah yang lengkap.
 ### [Buat PDF Aksesibel dari Word dengan Python – Panduan Langkah‑demi‑Langkah](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
 Pelajari cara membuat PDF yang dapat diakses dari dokumen Word menggunakan Aspose.Words untuk Python secara lengkap.
 ### [Simpan Word sebagai Markdown – Panduan Lengkap dengan Ekspor PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
@@ -185,6 +189,10 @@ Pelajari cara mengonversi dokumen Word menjadi PDF menggunakan Aspose.Words untu
 Pelajari cara menyimpan dokumen Word sebagai PDF dengan menambahkan bentuk persegi panjang khusus menggunakan Aspose.Words untuk Python.
 ### [Cara memulihkan docx yang rusak dan mengonversinya ke markdown, teks biasa, dan PDF dengan Aspose.Words](./how-to-recover-corrupted-docx-and-convert-it-to-markdown-pla/)
 Pelajari cara memulihkan file DOCX yang rusak dan mengonversinya ke format markdown, teks biasa, serta PDF menggunakan Aspose.Words untuk Python.
+### [Cara Mengekspor LaTeX dari Dokumen Word menggunakan Aspose.Words](./how-to-export-latex-from-word-documents-using-aspose-words/)
+Pelajari cara mengekspor LaTeX dari dokumen Word menggunakan Aspose.Words untuk Python secara lengkap.
+### [Cara Mengekspor Word ke PDF dengan Kepatuhan PDF/UA menggunakan Python](./how-to-export-word-to-pdf-with-pdf-ua-compliance-in-python/)
+Pelajari cara mengekspor dokumen Word ke PDF yang mematuhi standar PDF/UA menggunakan Aspose.Words untuk Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

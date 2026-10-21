@@ -46,6 +46,10 @@
 Μάθετε πώς να εξάγετε LaTeX από έγγραφα Word και να τα μετατρέψετε σε Markdown με το Aspose.Words για Python.
 ### [Πώς να εξάγετε μαθηματικά Office σε LaTeX με Python](./how-to-export-office-math-to-latex-in-python/)
 Μάθετε πώς να εξάγετε μαθηματικά Office σε LaTeX χρησιμοποιώντας Aspose.Words για Python.
+### [Πώς να εξάγετε LaTeX από το Word και να μετατρέψετε DOCX σε Markdown](./how-to-export-latex-from-word-and-convert-docx-to-markdown/)
+Μάθετε πώς να εξάγετε LaTeX από έγγραφα Word και να τα μετατρέψετε σε Markdown με το Aspose.Words για Python.
+### [Πώς να εξάγετε LaTeX από έγγραφα Word χρησιμοποιώντας το Aspose.Words](./how-to-export-latex-from-word-documents-using-aspose-words/)
+Μάθετε πώς να εξάγετε LaTeX από έγγραφα Word χρησιμοποιώντας το Aspose.Words για Python.
 ### [Δημιουργία PDF από Word – Πλήρης οδηγός Python με Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 Μάθετε πώς να δημιουργείτε PDF από έγγραφα Word χρησιμοποιώντας Aspose.Words για Python. Πλήρης οδηγός.
 ### [Δημιουργία Προσβάσιμου PDF από Word με Python – Οδηγός Βήμα‑βήμα](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
@@ -187,6 +191,10 @@
 Μάθετε πώς να μετατρέψετε έγγραφα Word σε PDF χρησιμοποιώντας το Aspose.Words για Python.
 ### [Πώς να αποθηκεύσετε το έγγραφο ως PDF με προσαρμοσμένο σχήμα ορθογωνίου σε Python](./how-to-save-document-as-pdf-with-a-custom-rectangle-shape-in/)
 Μάθετε πώς να αποθηκεύσετε έγγραφα ως PDF με προσαρμοσμένο σχήμα ορθογωνίου χρησιμοποιώντας Aspose.Words για Python.
+### [Αποθήκευση docx ως pdf με Aspose.Words: οδηγός βήμα‑βήμα](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία docx σε PDF χρησιμοποιώντας Aspose.Words με βήμα‑βήμα οδηγίες.
+### [Πώς να εξάγετε Word σε PDF με συμμόρφωση PDF/UA σε Python](./how-to-export-word-to-pdf-with-pdf-ua-compliance-in-python/)
+Μάθετε πώς να δημιουργήσετε PDF με συμμόρφωση PDF/UA από έγγραφα Word χρησιμοποιώντας Aspose.Words για Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

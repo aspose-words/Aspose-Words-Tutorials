@@ -56,6 +56,11 @@
 
 ### [如何在 Python 中将 Office 数学导出为 LaTeX](./how-to-export-office-math-to-latex-in-python/)
 学习使用 Aspose.Words for Python 将 Word 中的 Office 数学公式导出为 LaTeX 代码，实现高质量排版。
+### [如何从 Word 导出 LaTeX 并将 DOCX 转换为 Markdown](./how-to-export-latex-from-word-and-convert-docx-to-markdown/)
+学习使用 Aspose.Words for Python 将 Word 文档导出为 LaTeX，并将 DOCX 转换为 Markdown，实现高效格式转换。
+
+### [如何使用 Aspose.Words 将 Word 文档导出为 LaTeX](./how-to-export-latex-from-word-documents-using-aspose-words/)
+学习使用 Aspose.Words for Python 将 Word 文档导出为 LaTeX，实现高质量排版和格式转换。
 
 ### [使用 Aspose.Words 将 Word 创建为 PDF – 完整 Python 指南](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
 学习使用 Aspose.Words for Python 将 Word 文档转换为 PDF，轻松实现高质量文档生成。
@@ -237,6 +242,12 @@
 
 ### [如何恢复损坏的 docx 并将其转换为 Markdown、纯文本和 PDF（使用 Aspose.Words）](./how-to-recover-corrupted-docx-and-convert-it-to-markdown-pla/)
 使用 Aspose.Words for Python 恢复损坏的 DOCX 并转换为 Markdown、纯文本和 PDF。
+
+### [使用 Aspose.Words 将 docx 保存为 PDF：一步一步指南](./save-docx-as-pdf-with-aspose-words-a-step-by-step-guide/)
+学习使用 Aspose.Words 将 docx 文件转换为 PDF 的完整步骤，提升文档生成效率。
+
+### [如何在 Python 中将 Word 导出为符合 PDF/UA 标准的 PDF](./how-to-export-word-to-pdf-with-pdf-ua-compliance-in-python/)
+使用 Aspose.Words for Python 将 Word 文档导出为符合 PDF/UA 可访问性标准的 PDF，确保合规性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
