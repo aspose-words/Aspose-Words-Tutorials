@@ -242,9 +242,9 @@ Happy coding, and feel free to drop a comment if you hit any snags!
 
 ## Related Tutorials
 
-- {{< relref "create-word-document-java-add-rectangle-shape-with-shadow-ef" >}}Create Word Document Java – Add Rectangle Shape with Shadow Effect{{< /relref >}}
-- {{< relref "adding-content-using-documentbuilder" >}}How to create form fields and add content using DocumentBuilder in Aspose.Words for Java{{< /relref >}}
-- {{< relref "using-watermarks-to-documents" >}}How to Add Watermark to Documents Using Aspose.Words for Java{{< /relref >}}
+- [Create Word Document Java – Add Rectangle Shape with Shadow Effect]({{< relref "create-word-document-java-add-rectangle-shape-with-shadow-ef" >}})
+- [How to create form fields and add content using DocumentBuilder in Aspose.Words for Java]({{< relref "adding-content-using-documentbuilder" >}})
+- [How to Add Watermark to Documents Using Aspose.Words for Java]({{< relref "using-watermarks-to-documents" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
