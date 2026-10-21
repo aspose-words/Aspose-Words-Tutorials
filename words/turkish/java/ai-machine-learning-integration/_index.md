@@ -65,10 +65,13 @@ Zenginleştirilmiş belgeyi ihtiyacınız olan formata dışa aktarın—PDF, DO
 ## Mevcut Eğitimler
 
 ### [Java'da Metin İşlemede Ustalaşın&#58; Özetleme ve Çeviri için Aspose.Words & AI Modelleri Kullanımı](./java-aspose-words-text-processing/)
-OpenAI'nin GPT‑4 ve Google'ın Gemini'si ile Aspose.Words for Java kullanarak metin özetleme ve çeviriyi nasıl otomatikleştireceğinizi öğrenin. Java uygulamalarınızı bugün geliştirin.
+
+### [Java ile Özel LLM Dilbilgisi Kontrolü Kullanarak Word Belgesi Oluşturma](./create-word-document-java-with-custom-llm-grammar-check/)
 
 ### [LLM'yi Nasıl Yapılandırılır – DOCX'te Metni AI ile Değiştir](./how-to-configure-llm-replace-text-in-docx-with-ai/)
 LLM'yi yapılandırarak AI destekli metin değiştirme işlemini DOCX belgelerinde nasıl uygulayacağınızı adım adım öğrenin.
+### [Özel AI Modeli Oluşturun – Java’da Word Paragraflarını Düzenleyin](./create-custom-ai-model-edit-word-paragraphs-in-java/)
+Java’da Aspose.Words kullanarak özel bir AI modeli oluşturup, Word belgelerindeki paragrafları otomatik olarak düzenleyin.
 
 ## Ek Kaynaklar
 - [Aspose.Words for Java Dokümantasyonu](https://reference.aspose.com/words/java/)
@@ -95,6 +98,14 @@ C: AI çıktısını eklemeden önce doğrulayın. Aspose.Words’ `DocumentBuil
 **S: Alan‑spesifik dil için modelleri yeniden eğitmeme gerek var mı?**  
 C: Çoğu kullanım senaryosu için ön‑eğitimli modeller yeterlidir. Daha yüksek doğruluk gerekiyorsa, kendi veri kümenizle bir modeli ince ayar yapmayı ve ardından aynı API üzerinden çağırmayı düşünün.
 
+---
+
+---
+
+**Son Güncelleme:** 2025-11-25  
+**Test Edilen Versiyon:** Aspose.Words for Java 24.11  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -102,9 +113,3 @@ C: Çoğu kullanım senaryosu için ön‑eğitimli modeller yeterlidir. Daha y�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-11-25  
-**Test Edilen Versiyon:** Aspose.Words for Java 24.11  
-**Yazar:** Aspose

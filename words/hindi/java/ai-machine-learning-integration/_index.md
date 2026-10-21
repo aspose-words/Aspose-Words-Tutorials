@@ -68,6 +68,11 @@ Aspose.Words के साथ आप एक नया `DocumentBuilder` बन�
 ### [जावा में टेक्स्ट प्रोसेसिंग में महारत&#58; सारांश और अनुवाद के लिए Aspose.Words & AI मॉडल का उपयोग](./java-aspose-words-text-processing/)
 Aspose.Words for Java के साथ OpenAI के GPT‑4 और Google के Gemini का उपयोग करके टेक्स्ट सारांश और अनुवाद को स्वचालित करना सीखें। आज ही अपने जावा एप्लिकेशन को बेहतर बनाएं।
 
+### [कस्टम AI मॉडल बनाएं – जावा में Word पैराग्राफ संपादित करें](./create-custom-ai-model-edit-word-paragraphs-in-java/)
+जावा में Aspose.Words का उपयोग करके कस्टम AI मॉडल बनाकर Word पैराग्राफ को स्वचालित रूप से संपादित करने की प्रक्रिया सीखें।
+### [कस्टम LLM ग्रामर चेक के साथ जावा में वर्ड दस्तावेज़ बनाएं](./create-word-document-java-with-custom-llm-grammar-check/)
+कस्टम LLM का उपयोग करके जावा में दस्तावेज़ बनाते समय व्याकरण जांच को एकीकृत करने का तरीका सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.Words for Java दस्तावेज़ीकरण](https://reference.aspose.com/words/java/)
@@ -94,6 +99,14 @@ Aspose.Words for Java के साथ OpenAI के GPT‑4 और Google क�
 **प्र: क्या डोमेन‑विशिष्ट भाषा के लिए मॉडल को पुनः ट्रेन करना आवश्यक है?**  
 **उ:** अधिकांश उपयोग मामलों में प्री‑ट्रेंड मॉडल अच्छी तरह काम करते हैं। यदि आपको अधिक सटीकता चाहिए, तो अपने कॉर्पस पर मॉडल को फाइन‑ट्यून करने पर विचार करें और फिर उसी API के माध्यम से कॉल करें।
 
+---
+
+---
+
+**Last Updated:** 2025-11-25  
+**Tested With:** Aspose.Words for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -101,9 +114,3 @@ Aspose.Words for Java के साथ OpenAI के GPT‑4 और Google क�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-25  
-**Tested With:** Aspose.Words for Java 24.11  
-**Author:** Aspose

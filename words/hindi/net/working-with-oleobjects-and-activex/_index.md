@@ -24,10 +24,18 @@ OLE और ActiveX ऑब्जेक्ट के साथ वर्ड प्
 | शीर्षक | विवरण |
 | --- | --- |
 | [वर्ड डॉक्यूमेंट में पुराना ऑब्जेक्ट डालें](./insert-ole-object/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में OLE ऑब्जेक्ट सम्मिलित करना सीखें। एम्बेडेड सामग्री के साथ अपने दस्तावेज़ों को बेहतर बनाएँ। |
-| [Ole पैकेज के साथ Word में Ole ऑब्जेक्ट डालें](./insert-ole-object-with-ole-package/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में OLE ऑब्जेक्ट सम्मिलित करना सीखें। फ़ाइलों को सहजता से एम्बेड करने के लिए हमारे विस्तृत चरण-दर-चरण मार्गदर्शिका का पालन करें। |
+| [Ole पैकेज के साथ Word में Ole ऑब्जेक्ट डालें](./insert-ole-object-with-ole-package/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में OLE ऑब्जेक्ट सम्मिलित करना सीखें। फ़ाइलों को सहजता से एम्बेड करने के लिए हमारे विस्तृत चरण-दर-चरण मार्गदर्शन का पालन करें। |
 | [वर्ड डॉक्यूमेंट में पुराने ऑब्जेक्ट को आइकन के रूप में डालें](./insert-ole-object-as-icon/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में आइकन के रूप में OLE ऑब्जेक्ट सम्मिलित करना सीखें। अपने दस्तावेज़ों को बेहतर बनाने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें। |
 | [स्ट्रीम का उपयोग करके ओले ऑब्जेक्ट को आइकन के रूप में डालें](./insert-ole-object-as-icon-using-stream/) | इस विस्तृत, चरण-दर-चरण ट्यूटोरियल में Aspose.Words for .NET के साथ स्ट्रीम का उपयोग करके एक OLE ऑब्जेक्ट को आइकन के रूप में सम्मिलित करना सीखें। |
+| [C# के साथ Word में ActiveX नियंत्रण कैसे जोड़ें](./how-to-add-an-activex-control-word-in-word-with-c/) | C# का उपयोग करके Word दस्तावेज़ में ActiveX नियंत्रण सम्मिलित करने की चरण-दर-चरण गाइड। |
 | [वर्ड फ़ाइल से Active XControl गुण पढ़ें](./read-active-xcontrol-properties/) | चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.Words का उपयोग करके Word फ़ाइलों से ActiveX नियंत्रण गुणों को पढ़ना सीखें। अपने दस्तावेज़ स्वचालन कौशल को बढ़ाएँ। |
+| [ActiveX बटन के साथ Word दस्तावेज़ बनाएं – C# गाइड](./create-word-document-with-activex-button-c-guide/) | C# में Aspose.Words का उपयोग करके ActiveX बटन के साथ Word दस्तावेज़ बनाने की चरण-दर-चरण मार्गदर्शिका। |
+| [Aspose.Words के साथ वर्ड दस्तावेज़ बटन बनाएं – पूर्ण कोड उदाहरण](./create-word-document-button-with-aspose-words-full-code-exam/) | Aspose.Words का उपयोग करके बटन के माध्यम से वर्ड दस्तावेज़ बनाने का पूर्ण कोड उदाहरण। |
+| [Aspose.Words के साथ Word दस्तावेज़ में कमांड बटन जोड़ें – पूर्ण गाइड](./add-command-button-to-word-document-with-aspose-words-comple/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में कमांड बटन कैसे जोड़ें, सीखें। |
+| [Aspose.Words के साथ Word में ActiveX नियंत्रण कैसे जोड़ें – चरण‑दर‑चरण मार्गदर्शिका](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) | Aspose.Words के साथ Word दस्तावेज़ में ActiveX नियंत्रण जोड़ने की चरण‑दर‑चरण प्रक्रिया सीखें। |
+| [Aspose.Words के साथ Word दस्तावेज़ में ActiveX बटन कैसे जोड़ें](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Aspose.Words का उपयोग करके Word दस्तावेज़ में ActiveX बटन जोड़ने की चरण-दर-चरण मार्गदर्शिका। |
+| [Word में OleControlType.CommandButton उदाहरण डालें](./insert-olecontroltype-commandbutton-example-in-word/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में OleControlType.CommandButton उदाहरण सम्मिलित करना सीखें। |
+| [C# का उपयोग करके Word में ActiveX कमांड बटन कैसे बनाएं](./how-to-create-activex-command-button-in-word-using-c/) | C# कोड के साथ Word दस्तावेज़ में ActiveX कमांड बटन जोड़ने की चरण-दर-चरण प्रक्रिया सीखें। |
 | [C# का उपयोग करके Word दस्तावेज़ में OLE कमांड बटन कैसे डालें](./how-to-insert-ole-command-button-in-a-word-document-using-c/) | C# के साथ Aspose.Words का उपयोग करके Word दस्तावेज़ में OLE कमांड बटन सम्मिलित करने की चरण-दर-चरण मार्गदर्शिका। |
 
 

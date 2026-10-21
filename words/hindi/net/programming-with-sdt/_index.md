@@ -36,6 +36,11 @@ Aspose.Words for .NET ट्यूटोरियल आपको लाइब�
 | [कस्टम XML भाग पर मैप किए गए तालिका दोहराए जाने वाले अनुभाग का निर्माण करना](./creating-table-repeating-section-mapped-to-custom-xml-part/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में CustomXmlPart पर मैप किए गए दोहराए जाने वाले अनुभाग के साथ एक तालिका बनाने का तरीका जानें। |
 | [मल्टी सेक्शन](./multi-section/) इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Words में बहु-अनुभाग संरचित दस्तावेज़ टैग के साथ काम करना सीखें। गतिशील दस्तावेज़ हेरफेर के लिए आदर्श। |
 | [संरचित दस्तावेज़ टैग रेंज XML मैपिंग प्रारंभ करें](./structured-document-tag-range-start-xml-mapping/) | .NET के लिए Aspose.Words का उपयोग करके Word में XML डेटा को संरचित दस्तावेज़ टैग से गतिशील रूप से बाँधना सीखें। हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें। |
+| [Aspose.Words में प्लेसहोल्डर टेक्स्ट सेट करें – पूर्ण C# गाइड](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Aspose.Words के साथ प्लेसहोल्डर टेक्स्ट सेट करने के लिए चरण-दर-चरण C# गाइड। |
+| [Aspose के साथ कंटेंट कंट्रोल जोड़ें और वर्ड दस्तावेज़ बनाएं – पूर्ण गाइड](./how-to-add-content-control-and-create-word-document-with-asp/) | Aspose.Words का उपयोग करके कंटेंट कंट्रोल जोड़ने और वर्ड दस्तावेज़ बनाने की पूरी प्रक्रिया सीखें। |
+| [प्रोग्रामेटिक रूप से वर्ड दस्तावेज़ बनाएं – सामग्री नियंत्रण और प्लेसहोल्डर जोड़ें](./create-word-document-programmatically-add-content-control-an/) |  |
+| [C# में Aspose.Words के साथ कंटेंट कंट्रोल कैसे बनाएं](./how-to-create-content-control-in-c-with-aspose-words/) | Aspose.Words का उपयोग करके C# में कंटेंट कंट्रोल बनाने की चरण-दर-चरण मार्गदर्शिका। |
+| [Aspose.Words का उपयोग करके C# में SDT के साथ Word दस्तावेज़ को कैसे सहेजें](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) | C# में Aspose.Words का उपयोग करके संरचित दस्तावेज़ टैग (SDT) के साथ Word फ़ाइल को सहेजने की प्रक्रिया सीखें। |
 | [Aspose.Words का उपयोग करके Word दस्तावेज़ में कंटेंट कंट्रोल शब्द कैसे जोड़ें](./how-to-add-content-control-word-in-a-word-document-using-asp/) | Aspose.Words के साथ Word दस्तावेज़ में कंटेंट कंट्रोल जोड़ने की चरण-दर-चरण प्रक्रिया सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

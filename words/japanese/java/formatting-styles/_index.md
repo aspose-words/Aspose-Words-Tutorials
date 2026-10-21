@@ -50,6 +50,9 @@ Aspose.Words for Java を使用して、Word 文書内のタブストップを�
 ### [Aspose.Words を使用して Java で Word スタイルを最適化する: 未使用および重複したスタイルを削除する](./optimize-word-styles-aspose-java/)
 未使用のスタイルや重複したスタイルを削除し、パフォーマンスと保守性を向上させることで、Aspose.Words for Java を使用してドキュメント スタイルを効率的に管理する方法を学習します。
 
+### [Java を使用して Word 文書の脚注の書式設定を変更する方法](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
+このガイドでは、Aspose.Words for Java を使って Word 文書内の脚注の書式をプログラムで変更する手順とコード例を紹介します。
+
 ## 追加リソース
 
 - [Aspose.Words for Java ドキュメント](https://reference.aspose.com/words/java/)

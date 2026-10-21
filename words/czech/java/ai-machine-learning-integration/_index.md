@@ -65,10 +65,13 @@ Exportujte obohacený dokument do požadovaného formátu — PDF, DOCX, HTM
 ## Dostupné tutoriály
 
 ### [Mistrovské zpracování textu v Javě: Použití Aspose.Words a AI modelů pro shrnutí a překlad](./java-aspose-words-text-processing/)
-Naučte se automatizovat shrnutí a překlad textu pomocí Aspose.Words pro Java s OpenAI GPT‑4 a Google Gemini. Vylepšete své Java aplikace ještě dnes.
+
+### [Vytvoření Word dokumentu v Javě s vlastním LLM kontrolou gramatiky](./create-word-document-java-with-custom-llm-grammar-check/)
 
 ### [Jak nakonfigurovat LLM – Nahrazení textu v DOCX pomocí AI](./how-to-configure-llm-replace-text-in-docx-with-ai/)
 Naučte se nastavit LLM pro automatické nahrazování textu v DOCX souborech pomocí AI a Aspose.Words.
+### [Vytvořte vlastní AI model – úprava odstavců ve Wordu v Javě](./create-custom-ai-model-edit-word-paragraphs-in-java/)
+Naučte se, jak pomocí vlastního AI modelu automaticky upravovat a formátovat odstavce v dokumentech Word pomocí Aspose.Words pro Java.
 
 ## Další zdroje
 
@@ -98,14 +101,6 @@ A: Pro většinu případů použití fungují předtrénované modely dobře. P
 
 ---
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2025-11-25  
@@ -113,3 +108,11 @@ A: Pro většinu případů použití fungují předtrénované modely dobře. P
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

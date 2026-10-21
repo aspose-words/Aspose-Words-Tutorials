@@ -50,6 +50,9 @@ Aprenda a gestionar eficazmente las tabulaciones en documentos de Word con Aspos
 ### [Optimizar estilos de palabras en Java con Aspose.Words: eliminar estilos no utilizados y duplicados](./optimize-word-styles-aspose-java/)
 Aprenda a administrar de manera eficiente los estilos de documentos con Aspose.Words para Java eliminando estilos no utilizados y duplicados, mejorando el rendimiento y la capacidad de mantenimiento.
 
+### [Cómo cambiar el formato de notas al pie en un documento Word usando Java](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
+Aprenda a modificar el estilo y la presentación de notas al pie en documentos Word mediante Aspose.Words para Java.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.Words para Java](https://reference.aspose.com/words/java/)

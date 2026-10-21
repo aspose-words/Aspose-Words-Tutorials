@@ -45,7 +45,7 @@ Salvar imagens do Word significa localizar programaticamente cada imagem incorpo
 A seguir, um resumo conciso do fluxo de trabalho típico. (O código real é mostrado nos tutoriais vinculados; aqui nos concentramos no raciocínio.)
 
 1. **Crie uma instância `Document`** – carregue o arquivo Word de origem (`.docx`, `.doc`, etc.).  
-2. **Itere pela `NodeCollection` do documento** para encontrar nós `Shape` que contêm imagens.  
+2. **Itere pela `NodeCollection` do documento`** para encontrar nós `Shape` que contêm imagens.  
 3. **Extraia cada imagem** via a API `Shape.getImageData()` e grave-a em um arquivo usando `ImageData.save()`.
 
 > *Dica profissional:* `Document.getChildNodes(NodeType.SHAPE, true)` para recuperar todas as formas, incluindo as que estão dentro de cabeçalhos, rodapés e notas de rodapé.
@@ -58,7 +58,7 @@ Para realmente dominar a manipulação de documentos, é preciso primeiro compre
 
 #### Começando
 
-O primeiro passo da sua jornada é familiarizar-se com o básico. Vamos guiá-lo pelo processo de configuração, garantindo que você tenha as ferramentas necessárias à sua disposição. Desde o download da biblioteca até a sua instalação, não deixamos pedra sobre pedra.
+O primeiro passo da sua jornada é familiarizar‑se com o básico. Vamos guiá‑lo pelo processo de configuração, garantindo que você tenha as ferramentas necessárias à sua disposição. Desde o download da biblioteca até a sua instalação, não deixamos pedra sobre pedra.
 
 #### Carregando Documentos
 
@@ -82,31 +82,73 @@ As configurações de documentos são a chave para entregar documentos adaptados
 
 ## Tutoriais Relacionados – Carregar, Salvar e Converter
 ### [Carregando e Salvando Documentos HTML com Aspose.Words for Java](./loading-and-saving-html-documents/)
+
 ### [Trabalhando com Opções de Carregamento no Aspose.Words for Java](./using-load-options/)
 ### [Criar Opções de Carregamento em Java – Detectar Fontes Ausentes e Como Carregar DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
 ### [Configurando Opções de Carregamento RTF no Aspose.Words for Java](./configuring-rtf-load-options/)
+
 ### [Carregando Arquivos de Texto com Aspose.Words for Java](./loading-text-files/)
+
 ### [Opções Avançadas de Salvamento com Aspose.Words for Java](./advance-saving-options/)
+
 ### [Salvando Documentos HTML com Layout Fixo no Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
+
 ### [Opções Avançadas de Salvamento de Documentos HTML com Aspose.Words Java](./advance-html-documents-saving-options/)
+
 ### [Salvando Imagens de Documentos no Aspose.Words for Java](./saving-images-from-documents/)
+
 ### [Salvando Documentos como Markdown no Aspose.Words for Java](./saving-documents-as-markdown/)
+
 ### [Salvando Documentos no Formato ODT no Aspose.Words for Java](./saving-documents-as-odt-format/)
+
 ### [Salvando Documentos no Formato OOXML no Aspose.Words for Java](./saving-documents-as-ooxml-format/)
+
 ### [Salvando Documentos no Formato PCL no Aspose.Words for Java](./saving-documents-as-pcl-format/)
+
 ### [Salvando Documentos como PDF no Aspose.Words for Java](./saving-documents-as-pdf/)
+
 ### [Salvando Documentos no Formato RTF no Aspose.Words for Java](./saving-documents-as-rtf-format/)
+
 ### [Salvando Documentos como Arquivos de Texto no Aspose.Words for Java](./saving-documents-as-text-files/)
+
 ### [Determinando o Formato de Documento no Aspose.Words for Java](./determining-document-format/)
 ### [Como Recuperar DOCX – Carregar Arquivos Corrompidos com Opções de Recuperação](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
 ### [Recuperar docx corrompido – Guia completo para corrigir e processar documentos](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+### [Como Recuperar Arquivos DOCX – Guia Java Passo a Passo](./how-to-recover-docx-files-step-by-step-java-guide/)
+
+### [Abrir Documento Word Corrompido – Definir Modo de Recuperação em Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
+### [Recuperar docx corrompido com Aspose.Words – Guia Java completo](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
 ### [Capturar avisos de substituição de fontes em Java com Aspose.Words – Guia completo](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [Como recuperar docx – Guia completo para ler arquivos Word corrompidos](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 ### [Definir modo de recuperação para recuperar documento Word corrompido](./set-recovery-mode-to-recover-broken-word-document/)
 ### [Como obter fontes ausentes em Java – Guia Aspose.Words for Java](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 ### [Como Recuperar Arquivos DOCX com Aspose.Words – Guia Passo a Passo](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 ### [Como recuperar docx – salvar documento recuperado usando Java](./how-to-recover-docx-save-recovered-document-using-java/)
+### [Como recuperar docx com Aspose.Words – Ativar modo de recuperação](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
+### [Como recuperar docx – Ativar modo de recuperação e ler avisos](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
+### [Recuperar documento Word corrompido – Guia Java completo](./recover-broken-word-document-complete-java-guide/)
+### [Capturar Avisos de Substituição de Fonte – Detectar Fontes Ausentes](./capture-font-substitution-warnings-detect-missing-fonts/)
+
+### [Salvar Documento Word – Definir Configurações de Fonte, Tratar Fontes Ausentes](./save-word-document-set-font-settings-handle-missing-fonts/)
+### [Recuperar Documento Word – Guia Completo para Definir o Modo de Recuperação em Java](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
+### [Recuperar docx corrompido usando Aspose.Words Java](./recover-corrupted-docx-using-aspose-words-java/)
+### [Registrar callback de aviso em Java – Rastrear fontes ausentes](./register-warning-callback-in-java-track-missing-fonts/)
+### [Detectar substituição de fonte ausente em Java – Guia completo Aspose.Words](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+### [Recuperar docx corrompido – Guia completo para corrigir e processar documentos](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc)
+### [Recuperar DOCX Corrompido em Java – Guia de Programação Completo](./recover-corrupted-docx-in-java-complete-programming-guide/)
+### [Registrar avisos de substituição de fontes em Java com Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
+### [Recuperar Documento Word Corrompido Usando Aspose.Words – Guia](./recover-corrupted-word-document-using-aspose-words-guide/)
+### [Tutorial de Callback de Aviso – Carregar Documento Word em Java](./warning-callback-tutorial-load-word-document-in-java/)
+### [Configurar LoadOptions para Avisos – Guia Java Completo](./configure-loadoptions-for-warnings-complete-java-guide/)
+
+### [Como salvar arquivo DOCX com Java – Guia de Inserção de Controle de Conteúdo](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+
+### [Criar Documento Word em Branco com Java – Guia Completo Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
+### [Carregar sublinhado markdown em Java – guia completo de programação](./load-markdown-underline-in-java-complete-programming-guide/)
+### [Aspose.Words LoadOptions – Recuperar documentos Word corrompidos em Java](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+### [Tutorial de Substituição de Fontes Aspose – Lidar com Fontes Ausentes](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+### [Como carregar arquivo de diretório usando Aspose.Words em C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 
 ## Perguntas Frequentes
 

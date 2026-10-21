@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Dengan menggunakan Aspose.Words for .NET, tutorial ini membuat sebuah Document, menyisipkan diagram kolom melalui DocumentBuilder, menghapus satu seri data tertentu dari diagram dengan ChartSeriesCollection.RemoveAt, dan menyimpan dokumen yang telah dimodifikasi.
+//ExStepSummary:0: Buat sebuah Word Document baru dan DocumentBuilder yang terhubung ke dokumen tersebut.
+//ExStepSummary:1: Sisipkan diagram kolom dengan ukuran 432×252 poin dan dapatkan objek Chart untuk manipulasi lebih lanjut.
+//ExStepSummary:2: Tentukan indeks berbasis nol dari seri yang harus dihapus (seri kedua).
+//ExStepSummary:3: Jika indeks valid, panggil RemoveAt pada koleksi Series diagram untuk menghapus seri tersebut.
+//ExStepSummary:4: Simpan dokumen yang diperbarui ke file .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+int targetSeriesIdx = 1;
+
+//ExStep:3-
+if (targetSeriesIdx >= 0 && targetSeriesIdx < columnChart.Series.Count)
+{
+    columnChart.Series.RemoveAt(targetSeriesIdx);
+}
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutSeries.docx");
+//ExEnd

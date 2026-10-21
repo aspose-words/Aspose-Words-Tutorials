@@ -36,6 +36,12 @@ Kodexemplen i handledningarna hjälper dig att förstå koncepten och öva på S
 | [Skapa tabellupprepande sektion mappad till anpassad XML-del](./creating-table-repeating-section-mapped-to-custom-xml-part/) | Lär dig hur du skapar en tabell med ett upprepande avsnitt mappat till en CustomXmlPart i ett Word-dokument med Aspose.Words för .NET. |
 | [Flera sektioner](./multi-section/) Lär dig hur du arbetar med flersektionerade strukturerade dokumenttaggar i Aspose.Words för .NET med den här steg-för-steg-handledningen. Perfekt för dynamisk dokumenthantering. |
 | [Taggintervall för strukturerat dokument Start XML-mappning](./structured-document-tag-range-start-xml-mapping/) | Lär dig hur du dynamiskt binder XML-data till strukturerade dokumenttaggar i Word med Aspose.Words för .NET. Följ vår steg-för-steg-guide. |
+| [Ställ in platshållartext i Aspose.Words – Komplett C#-guide](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Lär dig hur du sätter platshållartext i Word-dokument med Aspose.Words för .NET i en komplett C#-guide. |
+| [Hur du lägger till innehållskontroll och skapar Word-dokument med Aspose – Komplett guide](./how-to-add-content-control-and-create-word-document-with-asp/) | Steg-för-steg-guide för att lägga till innehållskontroller och skapa Word-dokument med Aspose.Words för .NET. |
+| [Skapa Word-dokument programatiskt – lägg till innehållskontroll och platshållare](./create-word-document-programmatically-add-content-control-an/) | Lär dig hur du skapar ett Word-dokument programatiskt och lägger till en innehållskontroll med en platshållare med Aspose.Words för .NET. |
+
+| [Hur man skapar innehållskontroll i C# med Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Lär dig steg för steg hur du skapar en innehållskontroll i C# med Aspose.Words. |
+| [Spara Word-dokument med SDT med Aspose.Words i C#](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) | Lär dig hur du sparar ett Word-dokument med strukturerade dokumenttaggar (SDT) med Aspose.Words i C#. |
 | [Hur man lägger till innehållskontroll i ett Word-dokument med Aspose.Words](./how-to-add-content-control-word-in-a-word-document-using-asp/) | Lär dig att lägga till en innehållskontroll i ett Word-dokument med Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
