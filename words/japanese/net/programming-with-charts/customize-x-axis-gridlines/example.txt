@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: このチュートリアルでは、Word 文書の作成、列グラフの挿入、サンプル データの置き換え、そして主 X 軸の主要グリッドラインを有効化してスタイル設定する方法を示します。
+//ExStepSummary:0: 新しい Word 文書と、それを編集するための DocumentBuilder を作成します。
+//ExStepSummary:1: 文書に 432×252 の列グラフを挿入し、その Chart オブジェクトを取得します。
+//ExStepSummary:2: デフォルトの系列を削除し、3 つのグループと値を持つカスタム系列を追加します。
+//ExStepSummary:3: チャートの主水平（X）軸への参照を取得します。
+//ExStepSummary:4: 主 X 軸の主要グリッドラインの表示を有効にします。
+//ExStepSummary:5: グリッドラインの色を青に設定し、太さを 2 ポイントにします。
+//ExStepSummary:6: 文書を .docx ファイルとして保存します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+Document myDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart chart = chartContainer.Chart;
+
+//ExStep:2-
+chart.Series.Clear();
+chart.Series.Add("Demo Series",
+    new[] { "Group One", "Group Two", "Group Three" },
+    new double[] { 10, 20, 30 });
+
+//ExStep:3-
+ChartAxis horizontalAxis = chart.AxisX;
+
+//ExStep:4-
+horizontalAxis.HasMajorGridlines = true;
+
+//ExStep:5-
+horizontalAxis.Format.Stroke.Color = Color.Blue;
+horizontalAxis.Format.Stroke.Weight = 2.0;
+
+//ExStep:6-
+myDoc.Save("PrimaryXGridlines.docx");
+//ExEnd

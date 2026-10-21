@@ -49,6 +49,24 @@
 了解如何使用 Aspose.Words for Python 管理文件屬性和元資料。帶有原始程式碼的分步指南。
 ### [使用 Web 擴充功能來擴充文件功能](./document-functionality-web-extensions/)
 了解如何使用 Aspose.Words for Python 透過 Web 擴充功能來擴充文件功能。具有原始程式碼的逐步指南，可實現無縫整合。
+### [使用 Aspose.Words 讓 PDF 可存取 – 完整逐步指南](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
+了解如何使用 Aspose.Words for Python 使 PDF 符合可存取標準，提供完整的程式碼範例與逐步說明。
+### [如何恢復 DOCX – 使用 Aspose.Words 的完整指南](./how-to-recover-docx-complete-guide-with-aspose-words/)
+了解如何使用 Aspose.Words for Python 復原受損或無法開啟的 DOCX 文件。帶有原始程式碼的分步指南。
+### [使用 Aspose.Words 復原損毀的 Word 文件 – Python 步驟指南](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+學習如何使用 Aspose.Words for Python 復原受損的 Word 文件，提供完整程式碼範例的分步指南。
+### [如何在 Python 中恢復 docx 文件 – 逐步指南](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+了解如何在 Python 中恢復受損的 docx 文件，提供逐步指導與完整程式碼範例。
+### [在 Python 中配置 MarkdownSaveOptions 以輸出 LaTeX – Aspose.Words 指南](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+了解如何在 Python 使用 Aspose.Words 設定 MarkdownSaveOptions 以產生 LaTeX 輸出，並附帶完整程式碼範例。
+### [使用 Aspose.Words for Python 復原 docx 檔案](./how-to-recover-docx-files-with-aspose-words-for-python/)
+學習如何使用 Aspose.Words for Python 復原受損或遺失的 docx 檔案，提供程式碼範例的分步指南。
+### [啟用復原模式以開啟損壞的 Word 文件](./enable-recovery-mode-to-open-a-corrupted-word-document/)
+學習如何在 Aspose.Words for Python 中啟用復原模式，以打開受損的 Word 文件。
+### [如何使用 Aspose.Words 在 Python 中恢復損壞的 docx 檔案](./how-to-recover-corrupted-docx-files-with-aspose-words-in-pyt/)
+了解如何在 Python 中使用 Aspose.Words 復原受損的 docx 檔案。
+### [Aspose 字體警告處理程序 – 偵測缺少字體並自訂文件載入](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+了解如何使用 Aspose.Words for Python 的字體警告處理程序偵測缺失字體並自訂文件載入行為。帶有原始程式碼的分步指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

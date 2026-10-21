@@ -65,7 +65,13 @@ Ekspor dokumen yang diperkaya ke format yang Anda butuhkan—PDF, DOCX, HTML, at
 ## Tutorial yang Tersedia
 
 ### [Menguasai Pemrosesan Teks di Java&#58; Menggunakan Aspose.Words & Model AI untuk Ringkasan dan Terjemahan](./java-aspose-words-text-processing/)
-Pelajari cara mengotomatisasi ringkasan teks dan terjemahan menggunakan Aspose.Words untuk Java dengan GPT‑4 dari OpenAI dan Gemini dari Google. Tingkatkan aplikasi Java Anda hari ini.
+
+### [Buat dokumen Word dengan Java menggunakan Pemeriksaan Tata Bahasa LLM Kustom](./create-word-document-java-with-custom-llm-grammar-check/)
+
+### [Cara Mengonfigurasi LLM – Ganti Teks di DOCX dengan AI](./how-to-configure-llm-replace-text-in-docx-with-ai/)
+Pelajari cara mengonfigurasi model bahasa besar untuk mengganti teks dalam file DOCX secara otomatis menggunakan AI.
+### [Buat Model AI Kustom – Mengedit Paragraf Word di Java](./create-custom-ai-model-edit-word-paragraphs-in-java/)
+Pelajari cara membuat model AI kustom untuk mengedit paragraf Word secara otomatis menggunakan Java.
 
 ### [Meringkas Dokumen Word di Java – Panduan Lengkap Langkah‑per‑Langkah](./summarize-word-document-in-java-complete-step-by-step-guide/)
 Pelajari cara meringkas isi dokumen Word secara otomatis menggunakan Aspose.Words untuk Java dan model AI dalam panduan langkah demi langkah.
@@ -98,6 +104,12 @@ A: Untuk kebanyakan kasus penggunaan, model pra‑latih sudah cukup baik. Jika A
 
 ---
 
+---
+
+**Last Updated:** 2025-11-25  
+**Tested With:** Aspose.Words for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -105,9 +117,3 @@ A: Untuk kebanyakan kasus penggunaan, model pra‑latih sudah cukup baik. Jika A
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-25  
-**Tested With:** Aspose.Words for Java 24.11  
-**Author:** Aspose

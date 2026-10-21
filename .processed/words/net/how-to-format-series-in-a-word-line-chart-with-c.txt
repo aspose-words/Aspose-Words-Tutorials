@@ -1,0 +1,7 @@
+Title: How to format series in a Word line chart with C#
+Slug: how-to-format-series-in-a-word-line-chart-with-c
+Category: programming-with-charts
+ProcessedDate: 2026-09-21T15:45:46.653963
+SourceRepo: AI Search API
+Keywords: how to format series, create word document, insert line chart, add chart to word, apply custom number format
+PRNumber: 282

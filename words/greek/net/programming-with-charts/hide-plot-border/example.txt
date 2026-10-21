@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: Αυτό το σεμινάριο δείχνει πώς να δημιουργήσετε ένα έγγραφο Word, να εισάγετε ένα γράφημα στήλης, να το γεμίσετε με δείγμα δεδομένων, να κρύψετε το περίγραμμα της περιοχής σχεδίασης του γραφήματος ενώ διατηρείτε τις γραμμές των αξόνων ορατές, και τέλος να αποθηκεύσετε το έγγραφο.
+//ExStepSummary:0: Δημιουργήστε ένα νέο κενό έγγραφο Word και έναν DocumentBuilder για να το επεξεργαστείτε.
+//ExStepSummary:1: Εισάγετε ένα γράφημα στήλης 432×252 στο έγγραφο και αποκτήστε το αντικείμενο Chart.
+//ExStepSummary:2: Καθαρίστε τυχόν υπάρχουσες σειρές, ορίστε τρεις ετικέτες κατηγοριών και προσθέστε μια σειρά με δείγμα τιμών στο γράφημα.
+//ExStepSummary:3: Ορίστε το βάρος του περιγράμματος (stroke) της περιοχής σχεδίασης σε μηδέν, αφαιρώντας το περίγραμμα ενώ οι γραμμές των αξόνων παραμένουν ορατές.
+//ExStepSummary:4: Αποθηκεύστε το τροποποιημένο έγγραφο σε αρχείο .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+columnChart.Series.Clear();
+string[] labels = { "Group A", "Group B", "Group C" };
+columnChart.Series.Add("Demo Data", labels, new double[] { 10, 20, 30 });
+
+//ExStep:3-
+columnChart.Format.Stroke.Weight = 0;
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutPlotBorder.docx");
+//ExEnd

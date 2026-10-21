@@ -29,6 +29,7 @@ Aspose.Words for .NET 教學中有關使用 OOXMLSaveOptions 進行文字處理�
 | [更新上次儲存時間屬性](./update-last-saved-time-property/) |了解如何使用 Aspose.Words for .NET 更新 Word 文件中的最後儲存時間屬性。請按照我們詳細的逐步指南進行操作。 |
 | [保留舊版控製字符](./keep-legacy-control-chars/) |透過本逐步指南了解如何使用 Aspose.Words for .NET 在 Word 文件中保留舊式控製字元。 |
 | [設定壓縮等級](./set-compression-level/) |了解如何使用 Aspose.Words for .NET 設定 Word 文件中的壓縮等級。請按照我們的逐步指南優化您的文件儲存和效能。 |
+| [如何使用 Aspose.Words 在 C# 中更改 Word 文件編碼](./how-to-change-word-document-encoding-with-aspose-words-in-c/) |說明如何在 C# 使用 Aspose.Words 變更 Word 文件的編碼設定，以確保正確的文字顯示。 |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

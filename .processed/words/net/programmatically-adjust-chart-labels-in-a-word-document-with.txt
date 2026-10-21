@@ -1,0 +1,7 @@
+Title: Programmatically adjust chart labels in a Word document with C#
+Slug: programmatically-adjust-chart-labels-in-a-word-document-with
+Category: programming-with-charts
+ProcessedDate: 2026-10-14T00:09:01.867954
+SourceRepo: AI Search API
+Keywords: programmatically adjust chart labels
+PRNumber: 321

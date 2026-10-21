@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: このチュートリアルでは、Aspose.Words の Document と DocumentBuilder を使用して、Word 文書に改ページを挿入する方法を示します。
+//ExStepSummary:0: コンテンツを追加するために使用する Document オブジェクトと DocumentBuilder を作成します。
+//ExStepSummary:1: 最初のページのテキストを書き込み、改ページを挿入して次のコンテンツが新しいページで開始されるようにします。
+//ExStepSummary:2: 2 ページ目のテキストを書き込み、もう一つ改ページを挿入して 3 ページ目を開始します。
+//ExStepSummary:3: 3 ページ目のテキストを書き込み、3 ページの文書を完成させます。
+//ExStepSummary:4: 組み立てた文書を指定されたディレクトリに .docx ファイルとして保存します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("This is page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:2-
+builder.Writeln("This is page 2.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+builder.Writeln("This is page 3.");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

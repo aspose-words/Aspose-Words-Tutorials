@@ -50,6 +50,9 @@ Aprenda a gerenciar paradas de tabulação de forma eficaz em documentos do Word
 ### [Otimize estilos de palavras em Java usando Aspose.Words: remova estilos não utilizados e duplicados](./optimize-word-styles-aspose-java/)
 Aprenda a gerenciar estilos de documentos com eficiência com o Aspose.Words para Java, removendo estilos não utilizados e duplicados, melhorando o desempenho e a manutenção.
 
+### [Como alterar a formatação de notas de rodapé em um documento Word usando Java](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
+Aprenda a modificar a formatação de notas de rodapé em documentos Word com Aspose.Words para Java, passo a passo.
+
 ## Recursos adicionais
 
 - [Aspose.Words para documentação Java](https://reference.aspose.com/words/java/)

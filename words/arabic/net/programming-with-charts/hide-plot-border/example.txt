@@ -1,0 +1,29 @@
+//ExStart
+//ExSummary: يوضح هذا البرنامج التعليمي كيفية إنشاء مستند Word، وإدراج مخطط عمودي، وتعبئته ببيانات عينة، وإخفاء حد مساحة الرسم للمخطط مع إبقاء خطوط المحاور مرئية، وأخيرًا حفظ المستند.
+//ExStepSummary:0: أنشئ مستند Word فارغًا جديدًا وDocumentBuilder لتعديله.
+//ExStepSummary:1: أدرج مخططًا عموديًا بحجم 432×252 في المستند واحصل على كائن Chart الخاص به.
+//ExStepSummary:2: امسح أي سلاسل موجودة، عرّف ثلاث تسميات فئات، وأضف سلسلة بقيم عينة إلى المخطط.
+//ExStepSummary:3: عيّن وزن حد مساحة الرسم إلى صفر، مما يزيل حدها مع إبقاء خطوط المحاور مرئية.
+//ExStepSummary:4: احفظ المستند المعدل كملف .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+Shape chartContainer = docBuilder.InsertChart(ChartType.Column, 432, 252);
+Chart columnChart = chartContainer.Chart;
+
+//ExStep:2-
+columnChart.Series.Clear();
+string[] labels = { "Group A", "Group B", "Group C" };
+columnChart.Series.Add("Demo Data", labels, new double[] { 10, 20, 30 });
+
+//ExStep:3-
+columnChart.Format.Stroke.Weight = 0;
+
+//ExStep:4-
+wordDoc.Save("ChartWithoutPlotBorder.docx");
+//ExEnd

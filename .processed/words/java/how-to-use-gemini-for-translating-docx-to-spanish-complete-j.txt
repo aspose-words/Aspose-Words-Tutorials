@@ -1,0 +1,7 @@
+Title: How to Use Gemini for Translating DOCX to Spanish – Complete Java Guide
+Slug: how-to-use-gemini-for-translating-docx-to-spanish-complete-j
+Category: ai-machine-learning-integration
+ProcessedDate: 2026-06-24T11:59:14.661242
+SourceRepo: AI Search API
+Keywords: how to use gemini, translate docx to spanish, how to translate document, translate english docx spanish, configure ai translation
+PRNumber: 211

@@ -68,6 +68,12 @@ Esporta il documento arricchito nel formato necessario—PDF, DOCX, HTML o anche
 ### [Elaborazione Testi Master in Java&#58; Utilizzo di Aspose.Words & AI Models per Sommario e Traduzione](./java-aspose-words-text-processing/)
 Scopri come automatizzare la sintesi e la traduzione del testo usando Aspose.Words per Java con GPT‑4 di OpenAI e Gemini di Google. Migliora oggi le tue applicazioni Java.
 
+### [Come configurare LLM – Sostituire testo in DOCX con IA](./how-to-configure-llm-replace-text-in-docx-with-ai/)
+Impara a configurare un modello LLM per individuare e sostituire automaticamente testo in file DOCX usando Aspose.Words e servizi IA.
+### [Crea modello AI personalizzato – Modifica paragrafi Word in Java](./create-custom-ai-model-edit-word-paragraphs-in-java/)
+Impara a costruire un modello AI su misura e a modificarne i paragrafi nei documenti Word usando Aspose.Words per Java.
+### [Crea documento Word Java con Controllo Grammaticale LLM Personalizzato](./create-word-document-java-with-custom-llm-grammar-check/)
+Impara a generare documenti Word in Java e a verificare la grammatica usando un modello LLM personalizzato.
 ### [Riepiloga documento Word in Java – Guida completa passo‑passo](./summarize-word-document-in-java-complete-step-by-step-guide/)
 Impara a riassumere automaticamente documenti Word con Aspose.Words per Java, passo dopo passo, usando modelli AI.
 
@@ -97,13 +103,7 @@ R: Convalida l'output AI prima di inserirlo. Usa i metodi `DocumentBuilder` di A
 **D: Devo riaddestrare i modelli per linguaggi specifici di dominio?**  
 R: Per la maggior parte dei casi d'uso, i modelli pre‑addestrati funzionano bene. Se ti serve maggiore precisione, considera il fine‑tuning su un tuo corpus e poi chiamalo tramite la stessa API.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+---
 
 ---
 
@@ -112,3 +112,11 @@ R: Per la maggior parte dei casi d'uso, i modelli pre‑addestrati funzionano be
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
