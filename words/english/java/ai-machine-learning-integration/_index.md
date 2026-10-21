@@ -1,6 +1,6 @@
 ---
-title: "Integrate AI with Aspose.Words for Java API to Automate Smart Document Processing – AI & ML"
-description: "Learn how to integrate AI with the Aspose.Words for Java API for smart document processing. Discover AI document automation, content generation, translation, and more."
+title: "Integrate AI with Aspose.Words for Java API to Automate DOCX and PDF Document Processing – AI & ML"
+description: "Learn how to integrate AI with Aspose.Words for Java to automate smart document processing, including AI‑driven content generation and translation."
 weight: 20
 url: "/java/ai-machine-learning-integration/"
 date: 2025-11-25
@@ -41,7 +41,7 @@ AI document processing combines traditional document manipulation (merging, form
 ## Step‑by‑Step guide to adding AI features
 
 ### Step 1: set up your project
-Add the Aspose.Words Maven dependency and the HTTP client you’ll use to call the AI service.  
+Add the Aspose.Words Maven dependency and the HTTP client you’ll use to call the AI service.
 
 ```xml
 <dependency>
@@ -72,6 +72,13 @@ Export the enriched document to the format you need—PDF, DOCX, HTML, or even E
 
 ## Available Tutorials
 
+### [Master text processing in Java: using Aspose.Words & AI models for summarization and translation]({{< relref "java-aspose-words-text-processing/_index.md" >}})
+Learn how to automate text summarization and translation using Aspose.Words for Java with OpenAI's GPT‑4 and Google's Gemini. Enhance your Java applications today.
+
+### [Create custom AI model – edit Word paragraphs in Java]({{< relref "create-custom-ai-model-edit-word-paragraphs-in-java/_index.md" >}})
+Learn how to build a custom AI model and integrate it to edit Word paragraphs programmatically using Aspose.Words for Java.
+### [Create Word document Java with Custom LLM Grammar Check]({{< relref "create-word-document-java-with-custom-llm-grammar-check/_index.md" >}})
+Learn how to generate Word documents in Java and integrate a custom LLM for advanced grammar checking.
 ### [Master text processing in java: using Aspose.Words & AI models for summarization and translation](./java-aspose-words-text-processing/)
 Learn how to automate text summarization and translation using Aspose.Words for Java with OpenAI's GPT‑4 and Google's Gemini. Enhance your Java applications today.
 
@@ -106,15 +113,14 @@ A: For most use cases, pre‑trained models work well. If you need higher accura
 
 ---
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
-
 **Last Updated:** 2025-11-25  
 **Tested With:** Aspose.Words for Java 24.11  
 **Author:** Aspose  
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
