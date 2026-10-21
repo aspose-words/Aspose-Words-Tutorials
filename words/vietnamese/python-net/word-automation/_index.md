@@ -34,6 +34,10 @@ Bằng cách làm chủ tự động hóa từ ngữ bằng Aspose.Words cho Pyt
 ## Hướng dẫn tự động hóa Python Word
 ### [Tự động hóa từ ngữ dễ dàng](./word-automation-made-easy/)
 Tự động hóa xử lý Word dễ dàng bằng Aspose.Words for Python. Tạo, định dạng và thao tác tài liệu theo chương trình. Tăng năng suất ngay!
+### [Thay thế văn bản docx bằng Python – Hướng dẫn chi tiết từng bước](./replace-text-docx-with-python-full-step-by-step-guide/)
+Hướng dẫn chi tiết cách thay thế nội dung trong file docx bằng Python, tự động hoá quy trình chỉnh sửa tài liệu.
+### [Cách sử dụng Aspose để tự động sửa ngữ pháp trong Python](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
+Hướng dẫn tự động phát hiện và sửa lỗi ngữ pháp trong tài liệu Word bằng Aspose.Words cho Python.
 
 ### [Tạo tài liệu Word trống với hình dạng có bóng trong Python](./create-blank-word-document-with-shadowed-shape-in-python/)
 Tạo tài liệu Word trống và chèn hình dạng có hiệu ứng bóng bằng Aspose.Words cho Python.

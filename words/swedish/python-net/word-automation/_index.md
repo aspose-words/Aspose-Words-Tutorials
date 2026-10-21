@@ -37,6 +37,12 @@ Automatisera ordbehandling enkelt med Aspose.Words för Python. Skapa, formatera
 ### [Skapa tomt Word-dokument med skuggad form i Python](./create-blank-word-document-with-shadowed-shape-in-python/)
 Skapa ett tomt Word-dokument och lägg till en skuggad form med Aspose.Words för Python.
 
+### [Ersätt text i docx med Python – Fullständig steg‑för‑steg‑guide](./replace-text-docx-with-python-full-step-by-step-guide/)
+Lär dig hur du ersätter text i DOCX-filer med Python med en detaljerad steg‑för‑steg‑guide.
+
+### [Hur du använder Aspose för att automatisera grammatikkorrigering i Python](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
+Lär dig automatisera grammatikkorrigering i dina dokument med Aspose och Python för förbättrad textkvalitet.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

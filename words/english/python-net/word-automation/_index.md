@@ -35,6 +35,10 @@ By mastering word automation using Aspose.Words for Python, developers can strea
 ## Python Word Automation Tutorials
 ### [Word Automation Made Easy](./word-automation-made-easy/)
 Automate Word processing with ease using Aspose.Words for Python. Create, format, and manipulate documents programmatically. Boost productivity now!
+### [replace text docx with Python – Full Step‑by‑Step Guide](./replace-text-docx-with-python-full-step-by-step-guide/)
+Learn how to replace text in DOCX files using Aspose.Words for Python with a detailed step‑by‑step guide.
+### [How to Use Aspose to Automate Grammar Correction in Python](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
+Discover how to automate grammar correction in Word documents using Aspose.Words for Python, enhancing document quality programmatically.
 
 ### [Create blank Word document with shadowed shape in Python](./create-blank-word-document-with-shadowed-shape-in-python/)
 Learn how to generate a blank Word document and add a shadowed shape using Aspose.Words for Python.

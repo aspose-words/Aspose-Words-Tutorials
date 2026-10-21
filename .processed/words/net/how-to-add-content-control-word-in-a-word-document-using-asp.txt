@@ -1,0 +1,7 @@
+Title: How to add content control word in a Word document using Aspose.Words
+Slug: how-to-add-content-control-word-in-a-word-document-using-asp
+Category: programming-with-sdt
+ProcessedDate: 2026-10-07T14:57:05.467416
+SourceRepo: AI Search API
+Keywords: add content control word, how to create content control, add employee id field
+PRNumber: 305

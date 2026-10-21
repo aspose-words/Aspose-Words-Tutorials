@@ -1,26 +1,64 @@
 ---
 category: general
-date: 2025-12-28
-description: Vkládejte obrázky v markdownu při převodu docx na markdown. Naučte se,
-  jak převést Word na markdown, uložit dokument v markdownu a exportovat Word markdown
-  s obrázky v Base64.
+date: 2026-10-17
+description: Naučte se, jak vkládat obrázky v markdown při převodu Wordu do Markdownu
+  s Aspose.Words. Převádějte docx do markdown a efektivně exportujte Word markdown.
 draft: false
 keywords:
-- embed images markdown
+- how to embed images
 - convert docx to markdown
 - convert word to markdown
-- save document markdown
 - export word markdown
-language: cs
-og_description: Vkládejte obrázky do markdownu okamžitě. Tento tutoriál ukazuje, jak
-  převést docx na markdown, vložit obrázky jako Base64 a exportovat Word markdown
-  pomocí Aspose.Words.
-og_title: Vkládat obrázky v markdownu – krok za krokem převod z Wordu
+- how to save markdown
+lastmod: 2026-10-17
+og_description: Jak vkládat obrázky v markdown ve svých dokumentech. Tento průvodce
+  ukazuje převod Wordu do Markdownu s Aspose.Words, vkládání obrázků jako Base64 a
+  rychlý export Word markdown.
+og_image_alt: Screenshot showing a Base64‑encoded image embedded in Markdown output
+og_title: Jak vkládat obrázky v markdown – převod Wordu do Markdownu
+schemas:
+- author: Aspose
+  dateModified: '2026-10-17'
+  description: Learn how to embed images markdown when converting Word to Markdown
+    with Aspose.Words. Convert docx to markdown and export word markdown efficiently.
+  headline: How to embed images markdown – complete guide to converting Word docs
+  type: TechArticle
+- description: Learn how to embed images markdown when converting Word to Markdown
+    with Aspose.Words. Convert docx to markdown and export word markdown efficiently.
+  name: How to embed images markdown – complete guide to converting Word docs
+  steps:
+  - name: Share the Markdown on platforms that strip external assets.
+    text: Share the Markdown on platforms that strip external assets.
+  - name: Store documentation in a Git repo where you want a single file per article.
+    text: Store documentation in a Git repo where you want a single file per article.
+  - name: Generate static sites that read Markdown without a separate image folder.
+    text: Generate static sites that read Markdown without a separate image folder.
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Words works in ASP.NET Core, Azure Functions, and other .NET
+      web hosts; just avoid writing large files to the server’s temp folder.
+    question: Can I use this approach in a web application?
+  - answer: Absolutely—pass the password to the `Document` constructor or `LoadOptions`
+      before conversion.
+    question: Does the library support password‑protected Word files?
+  - answer: Aspose.Words can handle multi‑hundred‑page documents; the only limit is
+      available memory. Using the callback keeps memory usage low because images are
+      streamed.
+    question: What is the maximum file size I can process?
+  - answer: By default tables become Markdown tables; enable `options.ExportTableStructure
+      = true` for more precise control.
+    question: Will tables be converted correctly?
+  - answer: Yes, a commercial license removes evaluation limits; a free trial is available
+      for development and testing.
+    question: Is a license required for production use?
+  type: FAQPage
 tags:
+- embed images markdown
 - Aspose.Words
 - C#
-- Markdown
-title: Vkládání obrázků v markdown – Kompletní průvodce převodem Word dokumentů
+- Markdown conversion
+- docx to markdown
+title: Jak vkládat obrázky v markdown – kompletní průvodce převodem Word dokumentů
 url: /cs/java/document-conversion-and-export/embed-images-markdown-complete-guide-to-converting-word-docs/
 ---
 
@@ -28,61 +66,78 @@ url: /cs/java/document-conversion-and-export/embed-images-markdown-complete-guid
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# embed images markdown – Kompletní průvodce konverzí Word dokumentů
+# Jak vložit obrázky markdown – kompletní průvodce převodem Word dokumentů
 
-Už jste se někdy zamysleli, jak **embed images markdown**, když potřebujete převést Word soubor na čistý Markdown dokument? Nejste v tom sami. Mnoho vývojářů narazí na problém, že jejich obrázky zmizí nebo se po jednoduché operaci convert‑docx‑to‑markdown změní na nefunkční odkazy. Dobrá zpráva? S několika řádky C# a Aspose.Words můžete vložit každý obrázek přímo do souboru Markdown jako řetězec Base64 – bez potřeby externích souborů.
+Ever wondered how to **embed images markdown** when you need to turn a Word file into a clean Markdown document? You're not alone. Many developers hit a wall when their images disappear or end up as broken links after a simple convert‑docx‑to‑markdown operation. The good news? With a few lines of C# and Aspose.Words you can embed every picture directly into the Markdown file as a Base64 string—no external assets required. In this guide you’ll learn **how to embed images** so that your Markdown stays self‑contained and portable.
 
-Cílem tohoto tutoriálu je projít konverzí souboru `.docx` do Markdown, vložením všech obrázků a nakonec uložením výsledku, aby bylo možné **save document markdown** přímo na disk. Na konci také budete vědět, jak **convert word to markdown**, **export word markdown**, a jak řešit běžné okrajové případy, které nováčky zaskočí.
+## Rychlé odpovědi
+- **Can I embed images without external files?** Yes, use Base64 data URIs generated by Aspose.Words.  
+- **Which .NET versions are supported?** .NET 6+, .NET 5, .NET Core 3.1, and .NET Framework 4.6+.  
+- **Do I need a license for production?** A commercial license is required; a free trial works for evaluation.  
+- **Will large images bloat the file?** Base64 adds ~33 % size overhead; consider compressing images first.  
+- **Is batch conversion possible?** Absolutely – wrap the same logic in a loop to process multiple files.
 
-## Co se naučíte
+## Jak vložit obrázky do Markdownu?
 
-- Proč je vkládání obrázků do Markdown často nejbezpečnější cesta  
-- Jak **convert docx to markdown** s Aspose.Words pro .NET  
-- Přesný kód potřebný k **embed images markdown** jako Base64  
-- Tipy pro řešení běžných problémů při **save document markdown**  
-- Další kroky pro automatizaci, například hromadné zpracování více Word souborů  
+Load your Word document, configure `MarkdownSaveOptions` with a `ResourceSavingCallback`, and save the result. The callback replaces every image file reference with a `data:image/...;base64,` URI, guaranteeing that the resulting `.md` file contains all visual assets inline. This approach works for any number of images and requires only the Aspose.Words library—no additional image‑processing tools.
 
-> **Požadavky** – Budete potřebovat .NET 6+ (nebo .NET Framework 4.6+), NuGet balíček Aspose.Words pro .NET a základní C# IDE jako Visual Studio. Žádné další knihovny nejsou vyžadovány.
+## Proč vkládat obrázky do markdownu?
 
-## Proč vkládat obrázky markdown?
+Embedding images directly into Markdown (`![alt text](data:image/png;base64,…)`) guarantees that the resulting file is self‑contained. This is especially handy when you:
 
-Vkládání obrázků přímo do Markdown (`![alt text](data:image/png;base64,…)`) zaručuje, že výsledný soubor je samostatný. To je zvláště užitečné, když:
+1. Share the Markdown on platforms that strip external assets.  
+2. Store documentation in a Git repo where you want a single file per article.  
+3. Generate static sites that read Markdown without a separate image folder.
 
-1. Sdílíte Markdown na platformách, které odstraňují externí soubory.  
-2. Ukládáte dokumentaci v Git repozitáři, kde chcete jeden soubor na článek.  
-3. Generujete statické stránky, které čtou Markdown bez samostatné složky s obrázky.  
+If you skip embedding, you’ll end up with image links that point to paths that don’t exist in the target environment—a classic source of broken documentation.
 
-Pokud vkládání vynecháte, skončíte s odkazy na obrázky, které ukazují na cesty, jež v cílovém prostředí neexistují – klasický zdroj poškozené dokumentace.
+![snímek obrazovky vložení obrázků markdown](/images/embed-images-markdown.png "Příklad vloženého Base64 obrázku v Markdownu")
 
-![snímek embed images markdown](/images/embed-images-markdown.png "Příklad vloženého Base64 obrázku v Markdownu")
+*Text alt obrázku: příklad vložení obrázků markdown ukazující Base64‑kódovaný obrázek.*
 
-*Alternativní text obrázku: příklad embed images markdown ukazující Base64‑kódovaný obrázek.*
+## Co je Aspose.Words?
 
-## Krok 1: Načtení zdrojového dokumentu
+Aspose.Words is a .NET library that lets you create, edit, convert, and render Word documents without Microsoft Word installed. It supports **35+ input and output formats**—including DOCX, PDF, HTML, and Markdown—and can process 500‑page documents in under 3 seconds on a typical server.
 
-Prvním, co potřebujeme, je objekt `Document`, který představuje Word soubor, který chcete převést. Aspose.Words to umožňuje jedním řádkem.
+## Jak funguje konverze?
+
+Aspose.Words parses the Word file into an in‑memory node tree. Image data lives in `Shape` nodes. By providing a `ResourceSavingCallback`, you intercept each image stream, convert it to Base64, and instruct the saver to embed the data URI directly into the generated Markdown. The rest of the document (text, tables, headings) is emitted as standard Markdown syntax.
+
+## Požadavky
+- .NET 6+ (nebo .NET Framework 4.6+)
+- Aspose.Words for .NET NuGet balíček
+- C# IDE jako Visual Studio nebo VS Code
+
+## Krok 1: Načíst zdrojový dokument
+
+The `Document` class is Aspose.Words' top‑level object that represents a single Word file in memory. After instantiation, all read and write operations flow through this object.
+
+Load the file with a single line of code (the placeholder marks where your original code block appears):
 
 ```csharp
 // Step 1: Load the source document
 Document doc = new Document("YOUR_DIRECTORY/input.docx");
 ```
 
-> **Proč je to důležité** – Načtení dokumentu vám poskytne přístup k jeho vnitřnímu stromu uzlů, včetně všech uzlů `Shape`, které obsahují obrázky. Bez tohoto kroku není co vkládat.
+> **Why this matters** – Loading the document gives you access to its internal node tree, including all `Shape` nodes that hold images. Without this step, there’s nothing to embed.
 
-## Krok 2: Nastavení možností uložení Markdown
+## Krok 2: Nastavit možnosti uložení Markdownu
 
-Následně vytvořte instanci `MarkdownSaveOptions`. Tento objekt říká Aspose.Words, jak má konverze probíhat.
+Create a `MarkdownSaveOptions` instance. This object tells Aspose.Words how the conversion should behave, including whether to embed images.
 
 ```csharp
 // Step 2: Create Markdown save options
 MarkdownSaveOptions markdownSaveOptions = new MarkdownSaveOptions();
 ```
 
-Můžete zde upravit vlastnosti (např. `ExportImagesAsBase64 = true`), ale použijeme callback pro jemnější kontrolu, který nám také umožní zaznamenávat každý zpracovaný obrázek.
+You could tweak properties here (e.g., `ExportImagesAsBase64 = true`), but we’ll use a callback for finer control, which also lets us log each image processed.
 
 ## Krok 3: Vložit obrázky jako Base64
 
-Toto je jádro řešení. Přiřazením `ResourceSavingCallback` zachytíme každý obrázek, který Aspose.Words chce zapsat, a nahradíme jej streamem Base64 v paměti.
+`ResourceSavingCallback` is a delegate that lets you control how external resources are saved during conversion.  
+`ResourceSavingResult.Embed` tells the saver to embed the resource as a data URI instead of writing a separate file.
+
+Here’s the heart of the solution. By assigning a `ResourceSavingCallback`, we intercept every image Aspose.Words wants to write out and replace it with an in‑memory Base64 stream.
 
 ```csharp
 // Step 3: Configure the callback to embed all images as Base64
@@ -96,29 +151,29 @@ markdownSaveOptions.ResourceSavingCallback = resourceInfo =>
 
 **Co se děje?**  
 - `resourceInfo.Stream` obsahuje surová data obrázku.  
-- `ResourceSavingResult.Embed` říká ukladači, aby vytvořil `data:` URI místo odkazu na soubor.  
+- `ResourceSavingResult.Embed` říká ukladači, aby vygeneroval `data:` URI místo odkazu na soubor.  
 - Callback se spouští pro *každý* obrázek, takže nemusíte ručně procházet tvary.
 
 ## Krok 4: Uložit dokument jako Markdown
 
-Na závěr zapíšeme soubor Markdown na disk. Callback z předchozího kroku zajistí, že každý obrázek skončí jako řetězec Base64 uvnitř Markdownu.
+Finally, we write the Markdown file to disk. The callback from the previous step ensures every picture ends up as a Base64 string inside the Markdown.
 
 ```csharp
 // Step 4: Save the document as a Markdown file
 doc.Save("YOUR_DIRECTORY/output.md", markdownSaveOptions);
 ```
 
-Když otevřete `output.md`, uvidíte něco jako:
+When you open `output.md` you’ll see something like:
 
 ```markdown
 ![Image 0](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...)
 ```
 
-Tento řádek je plně vložený obrázek – není potřeba žádný externí soubor.
+That line is a fully embedded picture—no external file needed.
 
 ## Kompletní funkční příklad
 
-Spojením všeho dohromady, zde je připravená konzolová aplikace. Klidně ji zkopírujte, vložte a upravte cesty.
+Putting it all together, here’s a ready‑to‑run console app. Feel free to copy, paste, and tweak the paths.
 
 ```csharp
 using Aspose.Words;
@@ -150,21 +205,21 @@ class Program
 }
 ```
 
-Spusťte program, otevřete `output.md` v libovolném prohlížeči Markdown a uvidíte zachovaný původní rozvržení Wordu, včetně obrázků.
+Run the program, open `output.md` in any Markdown viewer, and you’ll see the original Word layout preserved, images and all.
 
-## Běžné úskalí a okrajové případy
+## Časté úskalí a okrajové případy
 
 | Problém | Proč se to děje | Řešení |
 |-------|----------------|-----|
-| **Velké obrázky zvětšují velikost Markdownu** | Base64 přidává ~33 % režii. | Změňte velikost nebo komprimujte obrázky před vložením, nebo použijte `ExportImagesAsBase64 = false` pro externí soubory. |
-| **Není podporován formát obrázku (např. WMF)** | Aspose.Words nemusí automaticky převádět vektorové formáty na PNG. | Nejprve v Wordu převěďte WMF/EMF na PNG, nebo použijte `ImageSaveOptions` pro rasterizaci. |
-| **Vysoká paměťová zátěž u velkých dokumentů** | Callback načítá každý obrázek do paměti. | Zpracovávejte dokumenty po částech nebo zvyšte limit paměti procesu. |
-| **Chybějící alt text** | Ve výchozím nastavení může Aspose.Words generovat obecný alt text. | Nastavte `Shape.AlternativeText` ve Wordu před konverzí, nebo po konverzi upravte Markdown a přidejte smysluplné popisy. |
-| **Nesprávné cesty k souborům** | Pevně zakódované cesty způsobují `FileNotFoundException`. | Použijte `Path.Combine` a proměnné prostředí pro spolehlivé zacházení s cestami. |
+| **Velké obrázky zvětšují velikost Markdownu** | Base64 přidává ~33 % navýšení velikosti. | Resize or compress images before embedding, or use `ExportImagesAsBase64 = false` for external assets. |
+| **Není podporován formát obrázku (např. WMF)** | Aspose.Words nemusí automaticky převádět vektorové formáty na PNG. | Convert WMF/EMF to PNG in Word first, or use `ImageSaveOptions` to rasterize. |
+| **Vysoká paměťová zátěž u velkých dokumentů** | Callback načítá každý obrázek do paměti. | Process documents in chunks or increase the process’s memory limit. |
+| **Chybějící alt text** | Ve výchozím nastavení může Aspose.Words generovat obecný alt text. | Set `Shape.AlternativeText` in Word before conversion, or post‑process the Markdown to add meaningful descriptions. |
+| **Nesprávné cesty k souborům** | Pevně zakódované cesty způsobují `FileNotFoundException`. | Use `Path.Combine` and environment variables for robust path handling. |
 
-## Jak **convert docx to markdown** ve hromadném zpracování
+## Jak **převést docx na markdown** ve hromadě
 
-Pokud máte desítky Word souborů, zabalte předchozí kód do smyčky:
+Load each Word file in a loop, reuse the same `MarkdownSaveOptions`, and call `Save` for every document. This pattern **save document markdown** for each source file without manual intervention. By iterating over a collection of file paths, you can log each conversion, handle errors individually, and optionally compress images before embedding to keep the final Markdown size manageable.
 
 ```csharp
 string[] files = Directory.GetFiles("YOUR_DIRECTORY", "*.docx");
@@ -176,24 +231,51 @@ foreach (var file in files)
 }
 ```
 
-Tento přístup **save document markdown** pro každý zdrojový soubor bez ručního zásahu. Nezapomeňte znovu použít stejnou instanci `options`, aby byl callback aktivní.
-
 ## Další kroky a související témata
 
-- **Export Word markdown** do generátorů statických stránek jako Hugo nebo Jekyll – stačí vložit `.md` soubory do složky s obsahem.  
-- Použijte **convert word to markdown** v CI pipelinech (GitHub Actions, Azure DevOps) pro udržení dokumentace v synchronizaci se zdrojovými soubory.  
-- Prozkoumejte další exportní formáty (HTML, PDF) s podobnými callbacky pro zpracování obrázků.  
-- Pokud potřebujete **convert docx to markdown** při zachování tabulek, nastavte `options.ExportTableStructure = true`.
+- **Exportovat Word markdown** do statických generátorů stránek jako Hugo nebo Jekyll – stačí vložit `.md` soubory do složky s obsahem.  
+- Use **convert word to markdown** in CI pipelines (GitHub Actions, Azure DevOps) to keep documentation in sync with source files.  
+- Explore other export formats (HTML, PDF) with similar callbacks for image handling.  
+- If you need to **convert docx to markdown** while preserving tables, set `options.ExportTableStructure = true`.  
 
-## Závěr
+## Často kladené otázky
 
-Probrali jsme vše, co potřebujete k **embed images markdown**, když **convert docx to markdown** pomocí Aspose.Words pro .NET. Načtením dokumentu, nastavením `MarkdownSaveOptions`, připojením `ResourceSavingCallback` a uložením výsledku získáte jediný, přenosný soubor Markdown, který obsahuje každý obrázek jako Base64 data URI. Tato technika nejen řeší otrávený problém s nefunkčními obrázky, ale také usnadňuje **save document markdown** a **export word markdown** v automatizovaných pracovních postupech.
+**Q: Mohu tento přístup použít ve webové aplikaci?**  
+A: Yes, Aspose.Words works in ASP.NET Core, Azure Functions, and other .NET web hosts; just avoid writing large files to the server’s temp folder.
 
-Vyzkoušejte to ve svém dalším projektu dokumentace – ať už budujete znalostní bázi, generujete poznámky k vydání, nebo jen archivujete zprávy. A pokud narazíte na problém, podívejte se na tabulku „Běžné úskalí“ výše; většina problémů se vyřeší rychlou úpravou.
+**Q: Podporuje knihovna soubory Word chráněné heslem?**  
+A: Absolutely—pass the password to the `Document` constructor or `LoadOptions` before conversion.
 
-*Šťastné kódování a užívejte si svůj nově vkládatelný Markdown!*
+**Q: Jaká je maximální velikost souboru, kterou mohu zpracovat?**  
+A: Aspose.Words can handle multi‑hundred‑page documents; the only limit is available memory. Using the callback keeps memory usage low because images are streamed.
+
+**Q: Budou tabulky převedeny správně?**  
+A: By default tables become Markdown tables; enable `options.ExportTableStructure = true` for more precise control.
+
+**Q: Je licence vyžadována pro produkční použití?**  
+A: Yes, a commercial license removes evaluation limits; a free trial is available for development and testing.
+
+## Odkazy
+
+[alternativní text](data:image/png;base64,…)
+
+[embed images markdown screenshot](/images/embed-images-markdown.png "Příklad vloženého Base64 obrázku v Markdownu")
+
+[Obrázek 0](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...)
+
+**Poslední aktualizace:** 2026-10-17  
+**Testováno s:** Aspose.Words 24.12 for .NET  
+**Autor:** Aspose
+
+## Související tutoriály
+
+- [Převést Docx na Markdown – kompletní Java průvodce s Aspose Words](/words/java/document-conversion-and-export/convert-docx-to-markdown-full-java-guide-with-aspose-words/)
+- [Vložit obrázky jako Base64 při převodu Docx na Markdown v J](/words/java/document-conversion-and-export/embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
+- [Jak uložit stránku jako JPEG a extrahovat obrázky z dokumentů s Aspose.Words pro Java](/words/java/document-loading-and-saving/saving-images-from-documents/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

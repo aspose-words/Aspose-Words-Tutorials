@@ -59,12 +59,12 @@ Aspose.Words for Java 버전 25.3(이후) 이상이 설치되어 있어야 합
     <artifactId>aspose-words</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
 **Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ### 환경 설정 요구 사항
 - Java Development Kit (JDK) 설치
@@ -89,6 +89,16 @@ public class SetupAsposeWords {
         System.out.println("Aspose.Words is ready to use!");
     }
 }
+```  
+
+라이브러리가 준비되면 핵심 기능을 사용할 수 있습니다.
+
+## LayoutCollector를 사용하여 페이지를 분석하는 방법은?
+
+`LayoutCollector`는 `Document`의 각 노드를 시작 페이지와 종료 페이지 번호에 매핑하는 클래스이며, 정밀한 페이지 매김 분석을 가능하게 합니다. 문서를 로드하고 `LayoutCollector`를 연결한 뒤 페이지 정보를 조회하면 전체 작업이 몇 줄의 코드로 끝나며 대용량 파일에서도 신뢰할 수 있는 결과를 제공합니다.
+
+```text
+Load the document → create LayoutCollector → call getStartPage(node) / getEndPage(node)
 ```
 
 라이브러리가 준비되면 핵심 기능을 살펴보겠습니다.
@@ -107,7 +117,7 @@ public class SetupAsposeWords {
 ```java
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
-```
+```  
 
 **2. 문서에 내용 채우기**
 다음 예제에서는 여러 페이지에 걸치는 콘텐츠를 추가합니다:
@@ -118,7 +128,7 @@ builder.insertBreak(BreakType.PAGE_BREAK);
 builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
 builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
-```
+```  
 
 **3. 레이아웃 업데이트 및 메트릭 조회**
 ```java
@@ -126,6 +136,19 @@ layoutCollector.clear();
 doc.updatePageLayout();
 
 assert layoutCollector.getNumPagesSpanned(doc) == 5;
+```  
+
+**Explanation:**  
+- `DocumentBuilder`는 콘텐츠를 삽입합니다.  
+- `updatePageLayout()`은 레이아웃 패스를 강제 실행하여 페이지 번호가 정확하도록 합니다.  
+- `getStartPage` / `getEndPage`는任意 노드에 대해 첫 번째와 마지막 페이지 인덱스를 반환합니다.
+
+## LayoutEnumerator로 레이아웃 요소를 열거하는 방법은?
+
+`LayoutEnumerator`는 문서의 시각적 레이아웃 트리를 순회하며 각 요소의 유형, 위치 및 크기를 노출하는 클래스이며, 맞춤 렌더링이나 분석에 적합합니다. `LayoutEnumerator`는 시각적 레이아웃 트리를 걸으며 각 요소의 유형, 위치 및 크기를 노출하여 맞춤 렌더링이나 분석에 최적입니다.
+
+```text
+Initialize LayoutEnumerator → move to first child → iterate while moving next sibling
 ```
 
 #### 설명
@@ -144,7 +167,7 @@ assert layoutCollector.getNumPagesSpanned(doc) == 5;
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
-```
+```  
 
 **2. 앞·뒤로 순회**
 ```java
@@ -155,6 +178,18 @@ traverseLayoutForward(layoutEnumerator, 1);
 
 // Traverse backward
 traverseLayoutBackward(layoutEnumerator, 1);
+```  
+
+**Explanation:**  
+- `moveParent()`는 트리 상위로 이동합니다.  
+- 재귀 순회를 통해 모든 레이아웃 노드에 완전하게 접근할 수 있습니다.
+
+## 페이지 레이아웃 콜백을 구현하는 방법은?
+
+`IPageLayoutCallback`은 문서 처리 중 레이아웃 이벤트를 수신하기 위한 인터페이스이며, 섹션 재배치나 렌더링 완료와 같은 레이아웃 변경에 대응할 수 있게 해줍니다. `IPageLayoutCallback`을 구현하면 섹션 재배치나 렌더링 완료와 같은 레이아웃 이벤트에 반응하여 문서 생성 파이프라인을 동적으로 제어할 수 있습니다.
+
+```text
+Set callback on Document → implement notify(event) → handle specific layout events
 ```
 
 #### 설명
@@ -173,9 +208,9 @@ traverseLayoutBackward(layoutEnumerator, 1);
 ```java
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
 doc.updatePageLayout();
-```
+```  
 
-**2. 콜백 메서드 구현**
+### 2단계: 콜백 메서드 구현
 ```java
 private static class RenderPageLayoutCallback implements IPageLayoutCallback {
     public void notify(PageLayoutCallbackArgs a) throws Exception {
@@ -195,6 +230,18 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
         }
     }
 }
+```  
+
+**Explanation:**  
+- `notify()`는 이벤트 식별자를 받습니다.  
+- `ImageSaveOptions`는 콜백 내부에서 즉시 이미지 렌더링을 위해 커스터마이즈할 수 있습니다.
+
+## 연속 섹션에서 페이지 번호를 재시작하는 방법은?
+
+`ContinuousSectionRestart`는 연속 섹션에서 페이지 번호를 재시작할지 여부를 지정하는 열거형이며, 문서 전체의 번호 매김 방식을 세밀하게 제어할 수 있게 합니다. 문서에 연속적으로 흐르는 여러 섹션이 포함된 경우 페이지 번호를 자동으로 재시작할지 제어할 수 있습니다.
+
+```text
+Load document → set ContinuousSectionPageNumberingRestart option → save
 ```
 
 #### 설명
@@ -212,13 +259,13 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
 **1. 문서 로드**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
-```
+```  
 
 **2. 페이지 번호 옵션 구성**
 ```java
 doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
 doc.updatePageLayout();
-```
+```  
 
 #### 설명
 - **`setContinuousSectionPageNumberingRestart()`**는 연속 섹션에서 번호 매김 방식을 지정합니다.

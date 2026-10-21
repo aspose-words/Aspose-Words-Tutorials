@@ -24,7 +24,8 @@ Ukázky kódu uvedené v tutoriálech vám pomohou pochopit koncepty a procviči
  ## Návody
 | Název | Popis |
 | --- | --- |
-| [Ovládací prvek obsahu typu zaškrtávacího políčka](./check-box-type-content-control/) | Naučte se, jak přidat ovládací prvek obsahu typu zaškrtávací políčko do dokumentů Word pomocí Aspose.Words pro .NET v tomto podrobném návodu krok za krokem. |
+| [Jak vytvořit ovládací prvek obsahu v C# pomocí Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Naučte se, jak pomocí Aspose.Words v C# vytvořit ovládací prvek obsahu ve Word dokumentu. |
+| [Ovládací prvek obsahu typu zaškrtávacího políčka](./check-box-type-content-control/) | Naučte se, jak přidat ovládací prvek obsahu typu zaškrtávacího políčko do dokumentů Word pomocí Aspose.Words pro .NET v tomto podrobném návodu krok za krokem. |
 | [Aktuální stav zaškrtávacího políčka](./current-state-of-check-box/) | Naučte se, jak spravovat zaškrtávací políčka v dokumentech Wordu pomocí Aspose.Words pro .NET. Tato příručka popisuje programově nastavení, aktualizaci a ukládání zaškrtávacích políček. |
 | [Úprava ovládacích prvků obsahu](./modify-content-controls/) | Naučte se, jak upravovat strukturované tagy dokumentů ve Wordu pomocí Aspose.Words pro .NET. Aktualizujte text, rozbalovací nabídky a obrázky krok za krokem. |
 | [Ovládací prvek obsahu pole se seznamem](./combo-box-content-control/) | Vytvořte ovládací prvek obsahu pole se seznamem v dokumentech Word pomocí Aspose.Words pro .NET s naším podrobným návodem. Ideální pro vylepšení interaktivity vašeho dokumentu. |
@@ -34,9 +35,14 @@ Ukázky kódu uvedené v tutoriálech vám pomohou pochopit koncepty a procviči
 | [Vázat SDT na vlastní část XML](./bind-sdt-to-custom-xml-part/) | Naučte se, jak pomocí tohoto podrobného návodu navázat tagy strukturovaných dokumentů (SDT) na vlastní části XML v dokumentech Word pomocí Aspose.Words pro .NET. |
 | [Nastavení stylu ovládacího prvku obsahu](./set-content-control-style/) | Naučte se, jak nastavit styly ovládacích prvků obsahu v dokumentech Wordu pomocí Aspose.Words pro .NET s tímto podrobným návodem krok za krokem. Ideální pro vylepšení estetiky dokumentů. |
 | [Vytvoření opakující se sekce tabulky namapované na vlastní část XML](./creating-table-repeating-section-mapped-to-custom-xml-part/) | Naučte se, jak vytvořit tabulku s opakující se sekcí namapovanou na CustomXmlPart v dokumentu Word pomocí Aspose.Words pro .NET. |
-| [Více sekcí](./multi-section/) Naučte se, jak pracovat s vícesekčními strukturovanými tagy dokumentů v Aspose.Words pro .NET s tímto podrobným návodem. Ideální pro dynamickou manipulaci s dokumenty. |
+| [Vytvořit nový dokument Word a vložit ovládací prvek obsahu v C#](./create-new-word-document-and-insert-content-control-in-c/) | Naučte se, jak pomocí Aspose.Words pro .NET v C# vytvořit nový dokument Word a přidat do něj ovládací prvek obsahu. |
+| [Více sekcí](./multi-section/) | Naučte se, jak pracovat s vícesekčními strukturovanými tagy dokumentů v Aspose.Words pro .NET s tímto podrobným návodem. Ideální pro dynamickou manipulaci s dokumenty. |
 | [Rozsah značek strukturovaného dokumentu – spuštění mapování XML](./structured-document-tag-range-start-xml-mapping/) | Naučte se, jak dynamicky vázat XML data na strukturované tagy dokumentů ve Wordu pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu. |
-
+| [Nastavení zástupného textu v Aspose.Words – Kompletní průvodce C#](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Naučte se, jak nastavit zástupný text v dokumentech Word pomocí Aspose.Words pro .NET v tomto podrobném C# průvodci. |
+| [Jak přidat ovládací prvek obsahu a vytvořit Word dokument s Aspose – Kompletní průvodce](./how-to-add-content-control-and-create-word-document-with-asp/) | Kompletní návod, jak pomocí Aspose.Words pro .NET přidat ovládací prvek obsahu a vytvořit nový Word dokument krok za krokem. |
+| [Vytvořit dokument Word programově – přidat ovládací prvek obsahu a zástupný text](./create-word-document-programmatically-add-content-control-an/) | Naučte se, jak programově vytvořit dokument Word, přidat ovládací prvek obsahu a nastavit zástupný text pomocí Aspose.Words pro .NET. |
+| [Jak uložit dokument Word s SDT pomocí Aspose.Words v C#](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) | Naučte se, jak uložit dokument Word s tagy strukturovaných dokumentů pomocí Aspose.Words v C#. |
+| [Jak přidat ovládací prvek obsahu do dokumentu Word pomocí Aspose.Words](./how-to-add-content-control-word-in-a-word-document-using-asp/) | Naučte se, jak pomocí Aspose.Words přidat ovládací prvek obsahu do dokumentu Word. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

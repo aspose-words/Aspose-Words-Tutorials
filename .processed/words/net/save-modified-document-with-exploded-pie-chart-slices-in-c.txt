@@ -1,0 +1,7 @@
+Title: Save modified document with exploded pie chart slices in C#
+Slug: save-modified-document-with-exploded-pie-chart-slices-in-c
+Category: programming-with-charts
+ProcessedDate: 2026-10-14T00:08:23.254527
+SourceRepo: AI Search API
+Keywords: save modified document, show percentage labels, explode pie chart slices, display percentages pie, change first slice
+PRNumber: 321

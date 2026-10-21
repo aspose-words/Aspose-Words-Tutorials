@@ -70,6 +70,10 @@ Erfahren Sie, wie Sie die Textzusammenfassung und -übersetzung mit Aspose.Words
 
 ### [Wie man LLM konfiguriert – Text in DOCX mit KI ersetzen](./how-to-configure-llm-replace-text-in-docx-with-ai/)
 Erfahren Sie, wie Sie ein LLM einrichten, um Text in DOCX‑Dateien automatisch zu ersetzen und KI‑gestützte Inhalte zu integrieren.
+### [Eigenes KI‑Modell erstellen – Word‑Absätze in Java bearbeiten](./create-custom-ai-model-edit-word-paragraphs-in-java/)
+Erfahren Sie, wie Sie ein benutzerdefiniertes KI‑Modell trainieren und damit Word‑Absätze in Java programmgesteuert bearbeiten.
+### [Word‑Dokument in Java mit benutzerdefiniertem LLM‑Grammatik‑Check erstellen](./create-word-document-java-with-custom-llm-grammar-check/)
+Erfahren Sie, wie Sie ein Word‑Dokument in Java erzeugen und dabei ein benutzerdefiniertes LLM zur Grammatikprüfung einsetzen.
 
 ## Zusätzliche Ressourcen
 
@@ -97,6 +101,14 @@ A: Validieren Sie die AI‑Ausgabe, bevor Sie sie einfügen. Verwenden Sie die `
 **Q: Muss ich Modelle für domänenspezifische Sprache neu trainieren?**  
 A: Für die meisten Anwendungsfälle funktionieren vortrainierte Modelle gut. Wenn Sie höhere Genauigkeit benötigen, sollten Sie ein Modell mit Ihrem eigenen Korpus feinabstimmen und es dann über dieselbe API aufrufen.
 
+---
+
+---
+
+**Last Updated:** 2025-11-25  
+**Tested With:** Aspose.Words for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -104,9 +116,3 @@ A: Für die meisten Anwendungsfälle funktionieren vortrainierte Modelle gut. We
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-25  
-**Tested With:** Aspose.Words for Java 24.11  
-**Author:** Aspose

@@ -30,6 +30,9 @@ Découvrez comment implémenter des licences mesurées avec Aspose.Words pour Py
     ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 Un tutoriel de code pour Aspose.Words Python-net
 
+### [Construire un projet CMake : configurer, compiler et tester](./build-cmake-project-configure-build-test/)
+Apprenez à configurer, compiler et tester un projet CMake avec Aspose.Words pour Python-net.
+
 ## Ressources supplémentaires
 
 - [Aspose.Words pour la documentation Python-net](https://docs.aspose.com/words/python-net/)

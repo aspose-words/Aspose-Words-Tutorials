@@ -28,7 +28,14 @@
 | [Как конвертировать уравнения в Word в LaTeX – сохранить как TXT](./how-to-convert-equations-in-word-to-latex-save-as-txt/) | Узнайте, как преобразовать уравнения Word в формат LaTeX и сохранить их в виде TXT-файла с помощью Aspose.Words для .NET. |
 | [Сохранить docx как txt – Полное руководство C# по экспорту математических формул Word в LaTeX](./save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/) | Узнайте, как сохранить документ Word в формате txt и экспортировать математические уравнения в LaTeX с помощью C#. |
 | [Конвертировать Word в LaTeX – Полное руководство C# по экспорту Office Math в LaTeX](./convert-word-to-latex-complete-c-guide-to-export-office-math/) | Узнайте, как экспортировать математические уравнения Office Math из Word в LaTeX с помощью C#. |
+| [Сохранить docx как txt – экспортировать математические уравнения Word в LaTeX на C#](./save-docx-as-txt-export-word-math-to-latex-in-c/) | Узнайте, как сохранить документ Word в формате txt и экспортировать математические уравнения в LaTeX с помощью C#. |
+| [Сохранить Office Math в LaTeX – экспортировать уравнения Word в LaTeX на C#](./save-office-math-latex-export-word-equations-to-latex-in-c/) | Узнайте, как экспортировать уравнения Office Math из Word в LaTeX с помощью C# и Aspose.Words. |
+| [Конвертировать docx в txt – экспортировать уравнения Word в LaTeX на C#](./convert-docx-to-txt-export-word-equations-to-latex-in-c/) | Узнайте, как конвертировать DOCX в TXT и экспортировать уравнения Word в LaTeX с помощью C# и Aspose.Words. |
+| [Как экспортировать математику из Word в LaTeX – Полное руководство](./how-to-export-math-from-word-to-latex-complete-guide/) | Узнайте, как экспортировать математические уравнения из Word в LaTeX с помощью Aspose.Words для .NET. |
+| [Как экспортировать LaTeX из Word – Полное руководство по программированию](./how-to-export-latex-from-word-complete-programming-guide/) | Узнайте, как экспортировать формулы LaTeX из документов Word с помощью Aspose.Words для .NET, используя C#. |
+| [Сохранить docx как txt – экспортировать уравнения Word в MathML](./save-docx-as-txt-export-word-equations-to-mathml/) | Узнайте, как экспортировать уравнения Word из docx в MathML, сохранив документ как txt, используя Aspose.Words для .NET и C#. |
 
+| [Конвертировать уравнения Word в LaTeX – Полное руководство C#](./convert-word-equations-to-latex-complete-c-guide/) | Полное руководство по конвертации уравнений Word в LaTeX с использованием C# и Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

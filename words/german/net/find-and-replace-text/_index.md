@@ -36,6 +36,10 @@ Ob Sie bestimmte Wörter ersetzen, Textvorlagen aktualisieren oder den Inhalt vo
 | [Durch Zeichenfolge ersetzen](./replace-with-string/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Zeichenfolgen in Word-Dokumenten mit Aspose.Words für .NET ersetzen. Ideal für Entwickler, die die Dokumentbearbeitung automatisieren möchten. |
 | [Text in Tabelle ersetzen](./replace-text-in-table/) | Ersetzen Sie mit Aspose.Words für .NET mühelos Text in Word-Tabellen mit dieser detaillierten Schritt-für-Schritt-Anleitung. |
 | [Text in DOCX mit C# ersetzen – Schritt‑für‑Schritt‑Anleitung](./replace-text-in-docx-with-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Text in DOCX-Dateien mithilfe von C# Schritt für Schritt ersetzen. |
+| [Text in docx mit C# ersetzen – Vollständige Schritt‑für‑Schritt‑Anleitung](./replace-text-in-docx-with-c-full-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Text in DOCX-Dateien mithilfe von C# vollständig und schrittweise ersetzen. |
+| [Wie man Absatz mit KI in C# neu schreibt – Vollständige Anleitung](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Erfahren Sie, wie Sie mit KI und C# Absätze in Word-Dokumenten neu schreiben. |
+| [Wie man eine Dokumentvorlage erstellt und mit Daten füllt in C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET eine Dokumentvorlage erzeugen und mit Daten in C# füllen. |
+| [Platzhalter in DOCX-Dateien mit Aspose.Words ersetzen](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | Erfahren Sie, wie Sie Platzhalter in DOCX-Dateien mithilfe von Aspose.Words automatisch ersetzen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
