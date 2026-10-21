@@ -29,6 +29,7 @@ Bằng cách sử dụng Aspose.Words cho .NET và làm theo các hướng dẫn
 | [Cách nhóm các hình dạng trong tài liệu Word bằng C#](./how-to-group-shapes-in-a-word-document-with-c/) | Hướng dẫn cách nhóm các hình dạng trong tài liệu Word bằng C#. |
 | [Cách nhóm các hình dạng trong Word với Aspose.Words cho C#](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | Hướng dẫn cách nhóm các hình dạng trong tài liệu Word bằng Aspose.Words cho C#. |
 | [Cách nhóm các hình dạng trong Word bằng C# và Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | Hướng dẫn cách nhóm các hình dạng trong tài liệu Word bằng C# và Aspose.Words. |
+| [Nhóm các hình dạng trong Word bằng C# – hướng dẫn lập trình đầy đủ](./group-shapes-in-word-using-c-complete-programming-guide/) | Hướng dẫn chi tiết cách nhóm các hình dạng trong tài liệu Word bằng C#. |
 | [Chèn hình dạng](./insert-shape/) | Tìm hiểu cách chèn và thao tác hình dạng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. |
 | [Chèn hình chữ nhật trong C# với Aspose.Words – hướng dẫn từng bước](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | Hướng dẫn chi tiết cách chèn hình chữ nhật vào tài liệu Word bằng C# và Aspose.Words. |
 | [Tỷ lệ khung hình đã khóa](./aspect-ratio-locked/) | Tìm hiểu cách khóa tỷ lệ khung hình của hình dạng trong tài liệu Word bằng Aspose.Words cho .NET. Thực hiện theo hướng dẫn từng bước này để giữ cho hình ảnh và hình dạng của bạn cân đối. |

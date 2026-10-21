@@ -13,7 +13,7 @@
 
 ## Bevezetés
 
-Az űrlapmezők elengedhetetlenek az interaktív és kitölthető Word-dokumentumok létrehozásához, és az Aspose.Words for .NET zökkenőmentessé és hatékonnyá teszi a folyamatot. Akár szövegbeviteli mezőt kell hozzáadnia a felhasználói adatok gyűjtéséhez, egy kombinált listát a legördülő menü kiválasztásához, vagy egy jelölőnégyzetet az egyszerű igen/nem lehetőségekhez, ez a könyvtár átfogó funkciókat kínál. A fejlesztők könnyen hozzáadhatnak, szerkeszthetnek és kezelhetnek űrlapmezőket programozottan, így tökéletes eszköz a dokumentum-munkafolyamatok automatizálásához.
+Az űrlapmezők elengedhetetlenek az interaktív és kitölthető Word-dokumentumok létrehozásához, és az Aspose.Words for .NET zökkenőmentessé és hatékonnyá teszi a folyamatot. Akár szövegbeviteli mezőt kell hozzáadnia a felhasználói adatok gyűjtéséhez, egy kombinált listát a legördülő menü kiválasztásához, vagy egy jelölőnégyzetet az egyszerű igen/nem lehetőségekhez, ez a könyvtár átfogó funkciókat kínál. A fejlesztők könnyen hozzáadhatnak, szerkeszthetik és kezelhetnek űrlapmezőket programozottan, így tökéletes eszköz a dokumentum-munkafolyamatok automatizálásához.
 
 Az Aspose.Words for .NET különféle űrlapmező-típusokat támogat, lehetővé téve összetett űrlapok precíz és rugalmas tervezését. Gazdag API-jának köszönhetően minimális erőfeszítéssel szabályozhatja a mezőtulajdonságokat, feltöltheti az adatokat, sőt, akár a felhasználói bevitelt is feldolgozhatja. Akár felméréseket, szerződéseket vagy egyéni sablonokat generál, az Aspose.Words űrlapmezők használata professzionális és felhasználóbarát élményt nyújt.
 

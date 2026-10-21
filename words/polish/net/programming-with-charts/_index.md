@@ -47,8 +47,12 @@ Dzięki tym samouczkom będziesz w stanie ulepszyć swoje dokumenty Word, dodaj�
 
 
 
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
 
 
+{{< blocks/products/products-backtop-button >}}
 
 | Tytuł | Opis |
 | --- | --- |
@@ -92,3 +96,5 @@ Dzięki tym samouczkom będziesz w stanie ulepszyć swoje dokumenty Word, dodaj�
 
 
 {{< blocks/products/products-backtop-button >}}
+| [Jak sformatować wykres w Wordzie przy użyciu C# i własnych formatów liczb](./how-to-format-chart-in-word-with-c-and-custom-number-formats/) | Dowiedz się, jak sformatować wykres w Wordzie przy użyciu C# i własnych formatów liczbowych. |
+| [Jak ustawić liczbę przedziałów histogramu i dodać etykiety danych w wykresie Word przy użyciu C#](./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/) | Dowiedz się, jak ustawić liczbę przedziałów histogramu i dodać etykiety danych w wykresie Word przy użyciu C#. |

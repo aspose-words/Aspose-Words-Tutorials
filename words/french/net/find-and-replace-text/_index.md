@@ -40,6 +40,7 @@ Que vous ayez besoin de remplacer des mots spécifiques, de mettre à jour des m
 
 | [Comment réécrire un paragraphe avec l'IA en C# – Guide complet](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Apprenez à réécrire automatiquement des paragraphes en C# en utilisant l'intelligence artificielle avec Aspose.Words pour .NET. |
 | [Comment générer un modèle de document et le remplir avec des données en C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Apprenez à créer un modèle de document Word et à le remplir avec des données en C# à l'aide d'Aspose.Words. |
+| [Comment remplacer les espaces réservés dans les fichiers docx avec Aspose.Words](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | Apprenez à remplacer les espaces réservés dans les fichiers DOCX à l'aide d'Aspose.Words pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

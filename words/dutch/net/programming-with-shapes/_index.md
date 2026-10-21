@@ -80,6 +80,7 @@ Door Aspose.Words voor .NET te gebruiken en deze tutorials te volgen, krijgt u d
 | [Hoe een verborgen vorm docx maken met Aspose.Words in C#](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | Leer hoe u een verborgen vorm toevoegt aan een DOCX-bestand met Aspose.Words en C#. |
 | [Hoe vormen groeperen in Word met Aspose.Words voor C#](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | Leer hoe u meerdere vormen groepeert in een Word‑document met Aspose.Words voor .NET in C#. |
 | [Leeg Word‑document maken en groepsvormen toevoegen in C#](./how-to-create-blank-word-document-and-group-shapes-in-c/) | Leer hoe u een leeg Word‑document maakt en groepsvormen toevoegt met Aspose.Words voor .NET in C#. |
+| [Groepsvormen in Word met C# – volledige programmeergids](./group-shapes-in-word-using-c-complete-programming-guide/) | Leer hoe u groepsvormen in Word maakt en beheert met C# in deze volledige gids. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

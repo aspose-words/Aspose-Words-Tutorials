@@ -38,6 +38,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara Membuat Tombol Perintah ActiveX di Word menggunakan C#](./how-to-create-activex-command-button-in-word-using-c/) | Pelajari cara membuat tombol perintah ActiveX di dokumen Word menggunakan C# dengan Aspose.Words untuk .NET. |
 | [Cara Menambahkan Kontrol ActiveX ke Word dengan C#](./how-to-add-an-activex-control-word-in-word-with-c/) | Pelajari cara menambahkan kontrol ActiveX ke dokumen Word menggunakan Aspose.Words untuk .NET dengan C#. |
 | [Cara menyisipkan tombol perintah OLE dalam dokumen Word menggunakan C#](./how-to-insert-ole-command-button-in-a-word-document-using-c/) | Pelajari cara menyisipkan tombol perintah OLE ke dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan C# dalam panduan langkah demi langkah. |
+| [Cara menambahkan tombol perintah secara programatis dalam dokumen Word](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | Pelajari cara menambahkan tombol perintah ke dokumen Word secara programatis menggunakan Aspose.Words untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

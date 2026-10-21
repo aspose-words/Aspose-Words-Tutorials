@@ -39,6 +39,7 @@
 | [كيفية إنشاء زر أمر ActiveX في Word باستخدام C#](./how-to-create-activex-command-button-in-word-using-c/) | تعلّم كيفية إنشاء زر أمر ActiveX في مستند Word باستخدام C# مع Aspose.Words لـ .NET. |
 | [كيفية إضافة عنصر تحكم ActiveX في Word باستخدام C#](./how-to-add-an-activex-control-word-in-word-with-c/) | تعلم كيفية إضافة عنصر تحكم ActiveX إلى مستند Word باستخدام C# و Aspose.Words. |
 
+| [إضافة زر أمر برمجيًا في مستند Word](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | تعلّم كيفية إضافة زر أمر برمجيًا إلى مستند Word باستخدام Aspose.Words لـ .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

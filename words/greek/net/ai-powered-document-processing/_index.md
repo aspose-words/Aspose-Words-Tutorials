@@ -95,6 +95,8 @@
 | [Πώς να συνοψίσετε έγγραφο Word με παρόχους AI σε C#](./how-to-summarize-word-document-with-ai-providers-in-c/) | Μάθετε πώς να δημιουργήσετε σύνοψη εγγράφων Word σε C# χρησιμοποιώντας διάφορους παρόχους AI. |
 | [Πώς να συνοψίσετε ένα έγγραφο Word με το Aspose.Words AI](./how-to-summarize-a-word-document-with-aspose-words-ai/) | Μάθετε πώς να δημιουργήσετε σύνοψη εγγράφων Word χρησιμοποιώντας το Aspose.Words AI σε C#. |
 | [Πώς να χρησιμοποιήσετε τον μεταφραστή για αυτοματοποίηση μετάφρασης εγγράφων σε C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Μάθετε πώς να αυτοματοποιήσετε τη μετάφραση εγγράφων Word σε C# χρησιμοποιώντας τον μεταφραστή του Aspose.Words. |
+| [Σύνοψη εγγράφου Word με AI σύνοψη εγγράφων](./summarize-word-document-with-ai-document-summarization/) | Μάθετε πώς να δημιουργήσετε αυτόματες περιλήψεις εγγράφων Word χρησιμοποιώντας τεχνητή νοημοσύνη με το Aspose.Words. |
+| [Πώς να μεταφράσετε docx στα γαλλικά με AI σε C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Μάθετε πώς να μεταφράζετε αρχεία docx στα γαλλικά χρησιμοποιώντας AI με C# και Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

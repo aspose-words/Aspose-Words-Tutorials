@@ -42,6 +42,7 @@ The code samples provided in the tutorials will help you understand the concepts
 | [How to create content control in C# with Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Learn how to create a content control in a Word document using C# and Aspose.Words with this step-by-step guide. |
 | [How to save Word document with SDT using Aspose.Words in C#](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) | Learn how to save a Word document containing Structured Document Tags using Aspose.Words for .NET in C# with this step-by-step tutorial. |
 | [How to add content control word in a Word document using Aspose.Words](./how-to-add-content-control-word-in-a-word-document-using-asp/) | Learn how to add a content control in a Word document using Aspose.Words for .NET with this step-by-step tutorial. |
+| [Create new Word document and insert content control in C#](./create-new-word-document-and-insert-content-control-in-c/) | Learn how to create a new Word document and insert a content control using Aspose.Words for .NET in C# with this step-by-step tutorial. |
 
 | [Create word document programmatically – add content control and placeholder](./create-word-document-programmatically-add-content-control-an/) | Learn how to create a Word document programmatically, add a content control and placeholder using Aspose.Words for .NET. |
 

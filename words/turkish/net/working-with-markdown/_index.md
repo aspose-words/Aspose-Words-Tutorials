@@ -43,6 +43,7 @@ Words Processing with Markdown, Aspose.Words for .NET kütüphanesini kullanarak
 | [Markdown Dosyasını Belgeye Yükleme – Tam Ayrıştırma Eğitimi](./load-markdown-file-into-a-document-complete-parsing-tutorial/) | Aspose.Words for .NET ile Markdown dosyasını tamamen ayrıştırarak belgeye yüklemeyi adım adım öğrenin. |
 | [Aspose.Words ile Markdown'tan Word Oluşturma – Tam Kılavuz](./create-word-from-markdown-with-aspose-words-full-guide/) | Aspose.Words for .NET kullanarak Markdown dosyasından tam bir Word belgesi oluşturmayı adım adım öğrenin. |
 | [C# ile Markdown'tan docx olarak belge kaydetme](./how-to-save-document-as-docx-from-markdown-in-c/) | Aspose.Words for .NET kullanarak Markdown'tan docx formatında belge kaydetmeyi öğrenin. |
+| [Markdown'ı Aspose.Words ile C#'ta docx olarak kaydetme](./how-to-save-markdown-as-docx-with-aspose-words-in-c/) | Aspose.Words for .NET kullanarak Markdown dosyasını C# ile docx formatına kaydetmeyi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

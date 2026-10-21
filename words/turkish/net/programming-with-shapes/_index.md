@@ -80,6 +80,7 @@ Aspose.Words for .NET'i kullanarak ve bu eğitimleri takip ederek, Word belgeler
 | [Aspose.Words ile C#'ta Gizli Şekil Docx Oluşturma](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | Aspose.Words for .NET kullanarak C# ile gizli şekilli docx dosyası oluşturmayı öğrenin. |
 | [Aspose.Words ile C#'ta Word'de Şekilleri Gruplama](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | Aspose.Words for .NET kullanarak Word belgelerinde şekilleri nasıl gruplayacağınızı adım adım öğrenin. |
 | [C# ile Boş Word Belgesi ve Grup Şekilleri Oluşturma](./how-to-create-blank-word-document-and-group-shapes-in-c/) | C# ve Aspose.Words kullanarak boş bir Word belgesi oluşturup grup şekilleri eklemeyi adım adım öğrenin. |
+| [C# ile Word'de Grup Şekilleri – Tam Programlama Kılavuzu](./group-shapes-in-word-using-c-complete-programming-guide/) | C# ile Aspose.Words kullanarak Word belgelerinde grup şekillerini ekleme ve yönetme adımlarını öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

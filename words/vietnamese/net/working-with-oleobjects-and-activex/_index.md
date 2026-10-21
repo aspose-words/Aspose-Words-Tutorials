@@ -37,6 +37,7 @@ Các hướng dẫn này cung cấp cho bạn cách tiếp cận thực hành, t
 | [Chèn ví dụ OleControlType.CommandButton vào Word](./insert-olecontroltype-commandbutton-example-in-word/) | Hướng dẫn cách chèn đối tượng OleControlType.CommandButton vào tài liệu Word bằng Aspose.Words cho .NET. |
 | [Cách tạo nút lệnh ActiveX trong Word bằng C#](./how-to-create-activex-command-button-in-word-using-c/) | Hướng dẫn tạo nút lệnh ActiveX trong Word bằng C# sử dụng Aspose.Words cho .NET. |
 | [Cách thêm điều khiển ActiveX vào Word bằng C#](./how-to-add-an-activex-control-word-in-word-with-c/) | Hướng dẫn cách chèn điều khiển ActiveX vào tài liệu Word bằng C# sử dụng Aspose.Words. |
+| [Cách thêm nút lệnh vào tài liệu Word bằng lập trình](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | Hướng dẫn chèn nút lệnh vào tài liệu Word bằng mã, sử dụng Aspose.Words cho .NET. |
 
 | [Cách chèn nút lệnh OLE vào tài liệu Word bằng C#](./how-to-insert-ole-command-button-in-a-word-document-using-c/) | Hướng dẫn chi tiết cách chèn nút lệnh OLE vào tài liệu Word bằng C# với Aspose.Words. |
 {{< /blocks/products/pf/tutorial-page-section >}}

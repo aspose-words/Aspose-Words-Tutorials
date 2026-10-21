@@ -43,9 +43,15 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 
 {{< tutorial-card link="./update-chart-title/" title="Diagramcím frissítése és a jelmagyarázat láthatóságának váltása Word-ben az Aspose.Words for .NET használatával" imgSrc="./update-chart-title/images/thumb.png" >}}
 
+{{< tutorial-card link="./aspose-words-radial-chart-example-enable-graduations-in-c/" title="Aspose.Words radiális diagram példa: fokozatok engedélyezése C#-ban" imgSrc="./aspose-words-radial-chart-example-enable-graduations-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Módosított dokumentum mentése széttört kördiagram szeletekkel C#-ban" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="Diagram formázása Wordben C#-ban egyéni számformátumokkal" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Hogyan állíts be hisztogram bin-számot és adj hozzá adatcímkéket egy Word-diagramban C#-ban" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
+
+{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Programozottan állítsa be a diagramcímkéket egy Word-dokumentumban C#-val" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | Cím | Leírás |
 | --- | --- |
@@ -63,7 +69,7 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 | [Tengelyhatárok](./bounds-of-axis/) | Ismerje meg, hogyan állíthatja be egy diagram tengelyének határait az Aspose.Words for .NET használatával, szabályozva a tengelyen megjelenített értékek tartományát. |
 | [Diagram tengelyén lévő feliratok közötti intervallumegység](./interval-unit-between-labels-on-axis/) | Tanulja meg, hogyan állíthatja be a feliratok közötti intervallum mértékegységét egy diagram tengelyén az Aspose.Words for .NET használatával. |
 | [Diagramtengely elrejtése egy Word dokumentumban](./hide-chart-axis/) Tanulja meg, hogyan rejtheti el a diagram tengelyét egy Word-dokumentumban az Aspose.Words for .NET használatával részletes, lépésről lépésre bemutatónkkal. |
-| [Jelölje be a többsoros címke igazítását egy diagramban](./tick-multi-line-label-alignment/) | Tanuld meg, hogyan jelölheted be a többsoros feliratok igazítását egy diagramban az Aspose.Words for .NET használatával részletes, lépésről lépésre szóló útmutatónkkal. Tökéletes minden szintű fejlesztő számára. |
+| [Jelölje be a többsoros címke igazítását egy diagramban](./tick-multi-line-label-alignment/) | Tanuld meg, hogyan jelölheted be a többsoros feliratok igazítását egy diagramon az Aspose.Words for .NET használatával részletes, lépésről lépésre szóló útmutatónkkal. Tökéletes minden szintű fejlesztő számára. |
 | [Diagram adatcímkéjének testreszabása](./chart-data-label/) | Tanulja meg, hogyan szabhatja testre a diagram adatcímkéit az Aspose.Words for .NET használatával egy lépésről lépésre szóló útmutatóban. Tökéletes .NET fejlesztők számára. |
 | [Diagram adatcímkéinek alapértelmezett beállításainak megadása](./default-options-for-data-labels/) | Ismerje meg, hogyan állíthatja be az adatcímkék alapértelmezett beállításait egy diagramban az Aspose.Words for .NET használatával. Kövesse lépésről lépésre szóló útmutatónkat a diagramok egyszerű létrehozásához és testreszabásához. |
 | [Diagram jelmagyarázat megjelenítése Wordben C#‑val – Teljes lépésről‑lépésre útmutató](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Tanulja meg, hogyan jelenítheti meg a diagram jelmagyarázatát Word dokumentumban C#‑ban, lépésről‑lépésre útmutatóval. |
@@ -78,6 +84,8 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 | [Hogyan hozzunk létre kördiagramot egy Word dokumentumban az Aspose.Words segítségével](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Tanulja meg, hogyan hozhat kördiagramot Word dokumentumban az Aspose.Words for .NET használatával. |
 | [Hogyan hozzunk létre hisztogramot Wordben az Aspose.Words segítségével](./how-to-create-histogram-in-word-with-aspose-words/) | Tanulja meg, hogyan hozhat létre hisztogramot Word dokumentumban az Aspose.Words for .NET használatával. |
 | [Word dokumentum létrehozása testreszabott kördiagrammal C#-ban](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Tanulja meg, hogyan hozhat létre Word dokumentumot testreszabott kördiagrammal C#-ban az Aspose.Words for .NET használatával. |
+| [Módosított dokumentum mentése széttört kördiagram szeletekkel C#-ban](./save-modified-document-with-exploded-pie-chart-slices-in-c/) | Tanulja meg, hogyan menthet egy módosított Word-dokumentumot, ahol a kördiagram szeletek széttörve vannak, C#-ban az Aspose.Words használatával. |
+| [Hogyan állíts be hisztogram bin-számot és adj hozzá adatcímkéket egy Word-diagramban C#-ban](./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/) | Tanulja meg, hogyan állíthat be hisztogram bin-számot és adhat hozzá adatcímkéket egy Word-diagramban C#-ban az Aspose.Words for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

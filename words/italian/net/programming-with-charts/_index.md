@@ -46,9 +46,11 @@ Con questi tutorial, potrai migliorare i tuoi documenti Word aggiungendo grafica
 {{< tutorial-card link="./update-chart-title/" title="Aggiorna il titolo del grafico e attiva/disattiva la visibilità della legenda in Word usando Aspose.Words per .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
+{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="Come formattare un grafico in Word con C# e formati numerici personalizzati" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Come impostare il conteggio dei bin dell'istogramma e aggiungere etichette dati in un grafico Word usando C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
-
+{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Regola programmaticamente le etichette del grafico in un documento Word con C#" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | Titolo | Descrizione |
 | --- | --- |
@@ -82,6 +84,7 @@ Con questi tutorial, potrai migliorare i tuoi documenti Word aggiungendo grafica
 | [Come creare un grafico a torta in un documento Word con Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Scopri come inserire e personalizzare un grafico a torta in Word usando Aspose.Words per .NET. |
 | [Come formattare le serie in un grafico a linee Word con C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Scopri come formattare le serie di un grafico a linee in Word usando Aspose.Words per .NET e C#. |
 | [Come creare un istogramma in Word con Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Scopri come creare un istogramma in un documento Word usando Aspose.Words per .NET con questa guida passo passo. |
+| [Salva documento modificato con fette di grafico a torta esplose in C#](./save-modified-document-with-exploded-pie-chart-slices-in-c/) | Scopri come salvare un documento Word con fette di grafico a torta esplose usando Aspose.Words per .NET in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

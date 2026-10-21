@@ -25,6 +25,8 @@ Words Processing with Footnotes and Endnotes, .NET için Aspose.Words kütüphan
 | [Son Not Seçeneklerini Ayarla](./set-endnote-options/) | Bu kapsamlı adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerinde son not seçeneklerini nasıl ayarlayacağınızı öğrenin.
 | [C# ile Aspose.Words Kullanarak Dipnot Ayırıcıyı Değiştir](./change-footnote-separator-in-c-using-aspose-words/) | Aspose.Words for .NET kullanarak C# içinde dipnot ayırıcıyı nasıl değiştireceğinizi adım adım öğrenin. |
 | [C#'ta dipnot ayırıcıyı al – tam Aspose.Words rehberi](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) | Aspose.Words for .NET ile C# dilinde dipnot ayırıcıyı nasıl alacağınızı öğrenin. |
+| [Word belgesinde dipnot ayırıcıyı değiştirme ve stilini özelleştirme](./how-to-change-footnote-separator-and-customize-its-style-in/) | Aspose.Words for .NET kullanarak Word belgesindeki dipnot ayırıcıyı nasıl değiştireceğinizi ve stilini özelleştireceğinizi öğrenin. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

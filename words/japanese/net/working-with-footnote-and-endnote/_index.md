@@ -25,6 +25,7 @@
 | [文末脚注オプションの設定](./set-endnote-options/) この包括的なステップバイステップ ガイドでは、Aspose.Words for .NET を使用して Word 文書の文末脚注オプションを設定する方法を学習します。 |
 | [C# で Aspose.Words を使用して脚注の区切り文字を変更する](./change-footnote-separator-in-c-using-aspose-words/) Aspose.Words for .NET を使用し、C# で脚注の区切り線をカスタマイズする方法をステップバイステップで解説します。 |
 | [C# で脚注区切り文字を取得する – 完全な Aspose.Words ガイド](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) Aspose.Words for .NET を使用して、Word 文書の脚注区切り文字を取得する方法をステップバイステップで解説します。 |
+| [Word 文書で脚注の区切り線を変更し、スタイルをカスタマイズする方法](./how-to-change-footnote-separator-and-customize-its-style-in/) Aspose.Words for .NET を使用して、脚注の区切り線を変更し、スタイルを自由にカスタマイズする手順を解説します。 |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

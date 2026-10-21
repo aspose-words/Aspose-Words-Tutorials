@@ -58,6 +58,7 @@
 - [วิธีซ่อนรูปร่างใน Word ด้วย C# – คู่มือทีละขั้นตอน](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | เรียนรู้วิธีซ่อนรูปร่างในเอกสาร Word ด้วย C# ผ่านขั้นตอนง่ายๆ
 - [สร้างเอกสาร Word ว่างและเพิ่มรูปร่างสีสันด้วย Aspose.Words](./create-a-blank-word-document-and-add-colored-shapes-with-asp/) | เรียนรู้วิธีสร้างเอกสาร Word ว่างและเพิ่มรูปร่างสีต่างๆ ด้วย Aspose.Words สำหรับ .NET ผ่านขั้นตอนง่ายๆ
 - [วิธีสร้างเอกสาร docx ที่มีรูปร่างซ่อนด้วย Aspose.Words ใน C#](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | เรียนรู้วิธีสร้างรูปร่างซ่อนในไฟล์ docx ด้วย Aspose.Words for .NET ผ่านขั้นตอนใน C#
+- [กลุ่มรูปร่างใน Word ด้วย C# – คู่มือการเขียนโปรแกรมครบถ้วน](./group-shapes-in-word-using-c-complete-programming-guide/) | เรียนรู้วิธีจัดกลุ่มรูปร่างใน Word ด้วย C# ผ่านคู่มือการเขียนโปรแกรมเต็มรูปแบบ -
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

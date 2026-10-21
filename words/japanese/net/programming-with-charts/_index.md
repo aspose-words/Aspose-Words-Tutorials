@@ -47,9 +47,15 @@ Aspose.Words for .NET グラフィックスプログラミングチュートリ�
 {{< tutorial-card link="./update-chart-title/" title="Aspose.Words for .NET を使用して Word でチャートタイトルを更新し、凡例の表示を切り替える" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
+{{< tutorial-card link="./aspose-words-radial-chart-example-enable-graduations-in-c/" title="Aspose.Words ラジアルチャートの例: C# でグラデーションを有効にする" imgSrc="./aspose-words-radial-chart-example-enable-graduations-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="C# でエクスプロードされた円グラフスライスを使用して変更されたドキュメントを保存する" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="C# を使用して Word のチャートでヒストグラムのビン数を設定し、データ ラベルを追加する方法" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
+{{< tutorial-card link="./single-chart-series/" title="Aspose.Words for .NET を使用して、Word 文書内の単一のグラフ系列をカスタマイズする方法を学びましょう。ステップバイステップのガイドに従って、シームレスに操作できます。" imgSrc="./single-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="C# を使用して Word 文書のチャート ラベルをプログラムで調整する" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | --- | --- |
 | [グラフのデータラベルの数値の書式設定](./format-number-of-data-label/) Aspose.Words for .NET を使用してグラフのデータラベルを書式設定する方法をステップバイステップで解説します。Word文書を簡単に魅力的に仕上げることができます。 |

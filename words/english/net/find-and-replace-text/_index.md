@@ -41,6 +41,7 @@ Whether you need to replace specific words, update text templates, or customize 
 | [How to Rewrite Paragraph with AI in C# – Full Guide](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Learn how to use AI to rewrite paragraphs in Word documents using C# and Aspose.Words. Step-by-step guide with code examples. |
 | [How to generate document template and fill it with data in C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Learn how to generate a document template and populate it with data using Aspose.Words for .NET in C#. |
 
+| [How to replace placeholders in docx files with Aspose.Words](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | Learn how to replace placeholders in DOCX files using Aspose.Words for .NET with a step-by-step guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

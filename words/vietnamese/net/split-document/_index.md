@@ -21,6 +21,7 @@ Split Document là một nguồn tài nguyên toàn diện giải thích cách c
 | Tiêu đề | Mô tả |
 | --- | --- |
 | [Chia tách tài liệu Word theo tiêu đề Html](./by-headings-html/) | Tìm hiểu cách chia tài liệu Word theo tiêu đề thành HTML bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết từng bước của chúng tôi. |
+| [Cách tách tài liệu Word thành các phần theo tiêu đề bằng C#](./how-to-split-a-word-document-into-sections-by-heading-in-c/) | Hướng dẫn chi tiết cách tách tài liệu Word thành các phần dựa trên tiêu đề bằng C# và Aspose.Words cho .NET. |
 | [Chia tài liệu Word theo phần HTML](./by-sections-html/) Tìm hiểu cách chia tài liệu Word thành nhiều phần thành HTML bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. |
 | [Chia tài liệu Word theo từng phần](./by-sections/) | Tìm hiểu cách chia tài liệu Word thành các phần bằng Aspose.Words cho .NET. Thực hiện theo hướng dẫn chi tiết, từng bước này để quản lý tài liệu hiệu quả. |
 | [Chia tài liệu Word theo trang](./page-by-page/) | Tìm hiểu cách chia tài liệu Word theo trang bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. Hoàn hảo để quản lý hiệu quả các tài liệu lớn. |

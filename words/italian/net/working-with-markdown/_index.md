@@ -43,6 +43,7 @@
 | [Carica file Markdown in un documento – Tutorial completo di parsing](./load-markdown-file-into-a-document-complete-parsing-tutorial/) | Scopri come caricare un file Markdown in un documento Word e analizzarlo completamente con Aspose.Words per .NET. |
 | [Creare Word da Markdown con Aspose.Words – Guida completa](./create-word-from-markdown-with-aspose-words-full-guide/) | Impara a generare documenti Word a partire da file Markdown usando Aspose.Words per .NET con questa guida passo passo completa. |
 | [Come salvare un documento come docx da Markdown in C#](./how-to-save-document-as-docx-from-markdown-in-c/) | Scopri come convertire un file Markdown in un documento Word .docx usando Aspose.Words per .NET in C#. |
+| [Come salvare markdown come docx con Aspose.Words in C#](./how-to-save-markdown-as-docx-with-aspose-words-in-c/) | Scopri come convertire file Markdown in documenti DOCX usando Aspose.Words per .NET con C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

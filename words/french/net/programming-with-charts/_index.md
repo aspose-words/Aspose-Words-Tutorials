@@ -46,9 +46,13 @@ Grâce à ces tutoriels, vous pourrez enrichir vos documents Word en y ajoutant 
 {{< tutorial-card link="./update-chart-title/" title="Mettre à jour le titre du graphique et basculer la visibilité de la légende dans Word avec Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
+{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Enregistrer le document modifié avec des tranches de graphique circulaire éclatées en C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="Comment formater un graphique dans Word avec C# et des formats numériques personnalisés" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Comment définir le nombre de classes d'un histogramme et ajouter des étiquettes de données dans un graphique Word avec C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
+{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Ajuster programmé les étiquettes de graphique dans un document Word avec C#" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | Titre | Description |
 | --- | --- |
@@ -64,7 +68,7 @@ Grâce à ces tutoriels, vous pourrez enrichir vos documents Word en y ajoutant 
 | [Insérer un graphique en secteurs dans un document Word](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Apprenez à créer un graphique en secteurs dans Word avec Aspose.Words grâce à ce guide étape par étape. |
 | [Définir les propriétés de l'axe XY dans un graphique](./define-xyaxis-properties/) Apprenez à définir les propriétés de l'axe XY dans un graphique avec Aspose.Words pour .NET grâce à ce guide étape par étape. Idéal pour les développeurs .NET. |
 | [Ajouter des valeurs de date et d'heure à l'axe d'un graphique](./date-time-values-to-axis/) | Apprenez à ajouter des valeurs de date et d'heure à l'axe d'un graphique à l'aide d'Aspose.Words pour .NET dans ce guide complet étape par étape. |
-| [Format numérique pour l'axe d'un graphique](./number-format-for-axis/) | Apprenez à formater les nombres des axes d'un graphique avec Aspose.Words pour .NET grâce à ce guide étape par étape. Améliorez la lisibilité et le professionnalisme de votre document sans effort. |
+| [Format numérique pour l'axe d'un graphique](./number-format-for-axis/) | Apprenez à formater les nombres des axes d'un graphique avec Aspose.Words pour .NET grâce à un guide étape par étape. Améliorez la lisibilité et le professionnalisme de votre document sans effort. |
 | [Limites de l'axe](./bounds-of-axis/) | Apprenez à définir les limites d'un axe dans un graphique à l'aide d'Aspose.Words pour .NET en contrôlant la plage de valeurs affichées sur l'axe. |
 | [Unité d'intervalle entre les étiquettes sur l'axe d'un graphique](./interval-unit-between-labels-on-axis/) | Apprenez à définir l'unité d'intervalle entre les étiquettes sur l'axe d'un graphique à l'aide d'Aspose.Words pour .NET. |
 | [Masquer l'axe du graphique dans un document Word](./hide-chart-axis/) Apprenez à masquer l'axe du graphique dans un document Word à l'aide d'Aspose.Words pour .NET avec notre didacticiel détaillé, étape par étape. |
@@ -82,6 +86,8 @@ Grâce à ces tutoriels, vous pourrez enrichir vos documents Word en y ajoutant 
 | [Comment formater les séries dans un graphique en courbes Word avec C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Apprenez à formater les séries d'un graphique en courbes Word avec Aspose.Words pour .NET et C# grâce à ce guide étape par étape. |
 | [Comment créer un document Word C# avec un graphique à colonnes et des étiquettes formatées](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Apprenez à créer un document Word avec un graphique à colonnes et des étiquettes formatées en C# grâce à ce guide étape par étape. |
 | [Comment créer un document Word avec un graphique circulaire personnalisé en C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Apprenez à générer un document Word contenant un diagramme circulaire personnalisé avec Aspose.Words pour .NET en C#. |
+| [Enregistrer le document modifié avec des tranches de graphique circulaire éclatées en C#](./save-modified-document-with-exploded-pie-chart-slices-in-c/) | Enregistrez un document Word contenant un graphique circulaire éclaté avec Aspose.Words pour .NET. |
+| [Comment formater un graphique dans Word avec C# et des formats numériques personnalisés](./how-to-format-chart-in-word-with-c-and-custom-number-formats/) | Apprenez à appliquer des formats numériques personnalisés aux graphiques Word avec Aspose.Words pour .NET en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

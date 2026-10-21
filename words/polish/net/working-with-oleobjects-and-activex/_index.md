@@ -38,6 +38,7 @@ Te samouczki przedstawiają praktyczne, krok po kroku podejście do przetwarzani
 
 | [Jak dodać kontrolkę ActiveX w Wordzie przy użyciu C#](./how-to-add-an-activex-control-word-in-word-with-c/) | Dowiedz się, jak dodać kontrolkę ActiveX do dokumentu Word przy użyciu C# i Aspose.Words. |
 | [Jak wstawić przycisk polecenia OLE w dokumencie Word przy użyciu C#](./how-to-insert-ole-command-button-in-a-word-document-using-c/) | Dowiedz się, jak dodać przycisk polecenia OLE do dokumentu Word przy użyciu C# i Aspose.Words. |
+| [Jak dodać przycisk polecenia programowo w dokumencie Word](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | Dowiedz się, jak programowo dodać przycisk polecenia do dokumentu Word przy użyciu Aspose.Words dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -25,6 +25,7 @@
 | [एंडनोट विकल्प सेट करें](./set-endnote-options/) | इस व्यापक चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में एंडनोट विकल्प सेट करना सीखें। |
 | [C# में Aspose.Words का उपयोग करके फुटनोट विभाजक बदलें](./change-footnote-separator-in-c-using-aspose-words/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में फुटनोट सेपरेटर को बदलने का तरीका सीखें। |
 | [C# में फुटनोट सेपरेटर प्राप्त करें – पूर्ण Aspose.Words गाइड](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) | .NET के लिए Aspose.Words का उपयोग करके C# में फुटनोट सेपरेटर कैसे प्राप्त करें, इस पूर्ण मार्गदर्शिका में सीखें। |
+| [Word दस्तावेज़ में फुटनोट सेपरेटर बदलें और शैली को अनुकूलित करें](./how-to-change-footnote-separator-and-customize-its-style-in/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में फुटनोट सेपरेटर बदलें और उसकी शैली को अनुकूलित करें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

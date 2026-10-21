@@ -27,6 +27,7 @@ Aspose.Words for .NET 教學中關於使用形狀進行文字處理的教學提�
 | [新增群組形狀](./add-group-shape/) |透過本全面的逐步教學學習如何使用 Aspose.Words for .NET 將群組形狀新增至 Word 文件。 |
 | [在 Word 中使用 Aspose.Words for C# 進行形狀分組](./how-to-group-shapes-in-word-with-aspose-words-for-c/) |透過本逐步教學了解如何使用 Aspose.Words for C# 在 Word 文件中將形狀分組。 |
 | [在 Word 中使用 C# 與 Aspose.Words 進行形狀分組](./how-to-group-shapes-in-word-using-c-and-aspose-words/) |了解如何使用 Aspose.Words for .NET 於 C# 中將多個形狀分組於 Word 文件。 |
+| [在 Word 中使用 C# 進行群組形狀 – 完整程式指南](./group-shapes-in-word-using-c-complete-programming-guide/) |完整的 C# 程式指南，說明如何在 Word 中將形狀分組。 |
 | [在 C# 中為形狀添加陰影 – 完整指南：套用陰影效果](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) |透過本逐步教學了解如何使用 Aspose.Words for .NET 在 Word 文件中為形狀添加陰影效果。 |
 | [在 Word 中使用 Aspose.Words 群組形狀 – 完整 C# 指南](./group-shapes-in-word-with-aspose-words-complete-c-guide/) |本完整 C# 教程說明如何在 Word 文件中使用 Aspose.Words 進行群組形狀的建立與管理。 |
 | [使用 C# 在 Word 中儲存包含群組形狀的 docx 檔案](./save-docx-file-with-grouped-shapes-in-word-using-c/) |透過本教學了解如何使用 Aspose.Words for .NET 在 C# 中將群組形狀儲存至 Word docx 檔案。 |

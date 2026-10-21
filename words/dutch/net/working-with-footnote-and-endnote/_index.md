@@ -25,6 +25,7 @@ Tekstverwerking met voetnoten en eindnoten is een uitgebreide bron die u begelei
 | [Eindnootopties instellen](./set-endnote-options/) | Leer hoe u eindnootopties in Word-documenten instelt met Aspose.Words voor .NET met deze uitgebreide stapsgewijze handleiding. |
 | [Voetnootscheiding wijzigen in C# met Aspose.Words](./change-footnote-separator-in-c-using-aspose-words/) | Leer hoe u de voetnootscheiding in C# wijzigt met Aspose.Words. |
 | [Footnote-scheiding ophalen in C# – volledige Aspose.Words-gids](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) | Leer hoe u de footnote separator in C# kunt ophalen met Aspose.Words. |
+| [Hoe u de voetnootseparator wijzigt en de stijl ervan aanpast in een Word-document](./how-to-change-footnote-separator-and-customize-its-style-in/) | Leer hoe u de scheidingsteken van voetnoten wijzigt en de opmaak aanpast in Word met Aspose.Words voor .NET. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -23,6 +23,7 @@ Split Document는 Aspose.Words for .NET 라이브러리를 사용하여 문서�
 | [Word 문서를 제목별로 HTML로 분할](./by-headings-html/) | Aspose.Words for .NET을 사용하여 Word 문서를 제목별로 HTML로 분할하는 방법을 알아보세요. 자세한 단계별 가이드를 따라해 보세요. |
 | [Word 문서를 섹션별로 분할하기 HTML](./by-sections-html/) Aspose.Words for .NET을 사용하여 Word 문서를 섹션별로 HTML로 분할하는 방법을 자세하고 단계별 가이드를 통해 알아보세요. |
 | [Word 문서를 섹션별로 분할](./by-sections/) | Aspose.Words for .NET을 사용하여 Word 문서를 섹션별로 나누는 방법을 알아보세요. 효율적인 문서 관리를 위한 자세한 단계별 가이드를 따라해 보세요. |
+| [C#에서 제목별로 Word 문서를 섹션으로 분할하는 방법](./how-to-split-a-word-document-into-sections-by-heading-in-c/) | Aspose.Words for .NET을 사용하여 C#에서 제목별로 Word 문서를 섹션으로 분할하는 방법을 알아보세요. |
 | [Word 문서를 페이지별로 분할](./page-by-page/) | Aspose.Words for .NET을 사용하여 Word 문서를 페이지별로 분할하는 방법을 단계별로 자세히 알아보세요. 대용량 문서를 효율적으로 관리하는 데 적합합니다. |
 | [문서 병합](./merge-documents/) | Aspose.Words for .NET의 문서 병합 기능에 대한 C# 소스 코드를 설명하는 단계별 가이드 |
 | [페이지 범위별로 Word 문서 분할](./by-page-range/) | Aspose.Words for .NET을 사용하여 Word 문서를 페이지 범위별로 분할하는 방법을 자세한 단계별 가이드를 통해 알아보세요. 개발자에게 안성맞춤입니다. |

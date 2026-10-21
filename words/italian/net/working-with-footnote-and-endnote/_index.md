@@ -25,6 +25,7 @@ Elaborazione testi con note a piè di pagina e note di chiusura è una risorsa c
 | [Imposta le opzioni delle note di chiusura](./set-endnote-options/) | Scopri come impostare le opzioni delle note di chiusura nei documenti Word utilizzando Aspose.Words per .NET con questa guida completa passo dopo passo.
 | [Modifica separatore di nota a piè di pagina in C# con Aspose.Words](./change-footnote-separator-in-c-using-aspose-words/) | Scopri come modificare il separatore delle note a piè di pagina nei documenti Word usando Aspose.Words per .NET in C#. |
 | [Recupera il separatore di nota a piè di pagina in C# – guida completa Aspose.Words](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) | Scopri come ottenere il separatore delle note a piè di pagina con Aspose.Words per .NET in C#. |
+| [Come modificare il separatore delle note a piè di pagina e personalizzarne lo stile in un documento Word](./how-to-change-footnote-separator-and-customize-its-style-in/) | Scopri come modificare il separatore delle note a piè di pagina e personalizzarne lo stile nei documenti Word con Aspose.Words per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

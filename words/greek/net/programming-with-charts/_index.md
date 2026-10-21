@@ -46,8 +46,11 @@
 {{< tutorial-card link="./update-chart-title/" title="Ενημέρωση του τίτλου του διαγράμματος και εναλλαγή της ορατότητας του υπομνήματος στο Word χρησιμοποιώντας το Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
+{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Αποθήκευση τροποποιημένου εγγράφου με εκραγμένα τμήματα πίτας σε C# χρησιμοποιώντας Aspose.Words for .NET" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="Πώς να μορφοποιήσετε γράφημα στο Word με C# και προσαρμοσμένες μορφές αριθμών" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Πώς να ορίσετε τον αριθμό κβαντισμού ιστογράμματος και να προσθέσετε ετικέτες δεδομένων σε γράφημα Word χρησιμοποιώντας C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
 
 | Τίτλος | Περιγραφή |

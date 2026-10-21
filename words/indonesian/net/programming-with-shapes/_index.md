@@ -78,6 +78,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara membuat shape tersembunyi docx dengan Aspose.Words di C#](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | Pelajari cara membuat shape tersembunyi dalam file docx menggunakan Aspose.Words untuk .NET dengan contoh kode C#. |
 | [Cara Mengelompokkan Bentuk di Word menggunakan C# dan Aspose.Words](./how-to-group-shapes-in-word-using-c-and-aspose-words/) | Pelajari cara mengelompokkan bentuk di Word dengan C# dan Aspose.Words dalam panduan langkah demi langkah. |
 | [Cara Membuat Dokumen Word Kosong dan Mengelompokkan Bentuk di C#](./how-to-create-blank-word-document-and-group-shapes-in-c/) | Pelajari cara membuat dokumen Word kosong dan mengelompokkan bentuk menggunakan Aspose.Words untuk .NET dengan contoh kode C#. |
+| [Mengelompokkan Bentuk di Word menggunakan C# – panduan pemrograman lengkap](./group-shapes-in-word-using-c-complete-programming-guide/) | Pelajari cara mengelompokkan bentuk di Word menggunakan C# dengan panduan pemrograman lengkap. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -38,6 +38,7 @@ Diese Tutorials bieten Ihnen eine praktische Schritt-für-Schritt-Anleitung zur 
 | [Wie man ein ActiveX-Steuerelement in Word mit C# hinzufügt](./how-to-add-an-activex-control-word-in-word-with-c/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET ein ActiveX-Steuerelement in ein Word-Dokument mit C# einfügen. |
 | [OLE-Befehlsschaltfläche in Word-Dokument mit C# einfügen](./how-to-insert-ole-command-button-in-a-word-document-using-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET eine OLE-Befehlsschaltfläche in ein Word-Dokument einfügen. |
 
+| [Wie man programmgesteuert eine Schaltfläche in ein Word-Dokument einfügt](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET programmgesteuert eine Schaltfläche in ein Word-Dokument einfügen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

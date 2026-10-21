@@ -25,6 +25,7 @@ Eğitimlerde sunulan kod örnekleri, SDT kontrollerinin kavramlarını anlamanı
 | Başlık | Açıklama |
 | --- | --- |
 | [Onay Kutusu Türü İçerik Kontrolü](./check-box-type-content-control/) | Bu ayrıntılı, adım adım eğitimle Aspose.Words for .NET kullanarak Word belgelerine Onay Kutusu Türü İçerik Denetimi'nin nasıl ekleneceğini öğrenin. |
+| [C# ile yeni Word belgesi oluşturma ve içerik kontrolü ekleme](./create-new-word-document-and-insert-content-control-in-c/) | C# kullanarak yeni bir Word belgesi oluşturun ve içerik kontrolü ekleyin. |
 | [Onay Kutusunun Mevcut Durumu](./current-state-of-check-box/) | Aspose.Words for .NET ile Word belgelerindeki onay kutularını nasıl yöneteceğinizi öğrenin. Bu kılavuz, onay kutularını programatik olarak ayarlamayı, güncellemeyi ve kaydetmeyi kapsar. |
 | [İçerik Denetimlerini Değiştir](./modify-content-controls/) | Aspose.Words for .NET kullanarak Word'de yapılandırılmış belge etiketlerini nasıl değiştireceğinizi öğrenin. Metni, açılır menüleri ve görselleri adım adım güncelleyin. |
 | [Combo Box İçerik Kontrolü](./combo-box-content-control/) | Ayrıntılı eğitimimizle Aspose.Words for .NET kullanarak Word belgelerinde birleşik kutu içerik denetimi oluşturun. Belgenizin etkileşimini artırmak için mükemmeldir. |

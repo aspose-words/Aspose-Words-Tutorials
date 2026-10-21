@@ -37,6 +37,7 @@
 - [วิธีเพิ่มควบคุม ActiveX ใน Word ด้วย C#](./how-to-add-an-activex-control-word-in-word-with-c/) | เรียนรู้วิธีเพิ่มควบคุม ActiveX ลงในเอกสาร Word ด้วย C# โดยใช้ Aspose.Words for .NET
 - [วิธีแทรกปุ่มคำสั่ง OLE ในเอกสาร Word ด้วย C#](./how-to-insert-ole-command-button-in-a-word-document-using-c/) | เรียนรู้วิธีแทรกปุ่มคำสั่ง OLE ลงในเอกสาร Word ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET -
 
+- [วิธีเพิ่มปุ่มคำสั่งโดยโปรแกรมในเอกสาร Word](./how-to-add-a-command-button-programmatically-in-a-word-docum/) | เรียนรู้วิธีสร้างปุ่มคำสั่งในเอกสาร Word ด้วยโค้ดโดยใช้ Aspose.Words for .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

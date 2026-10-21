@@ -40,6 +40,7 @@ Of u nu specifieke woorden moet vervangen, tekstsjablonen moet bijwerken of de i
 | [Hoe een alinea herschrijven met AI in C# – Volledige gids](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Leer hoe u met AI en C# alinea's automatisch herschrijft in Word-documenten met Aspose.Words. |
 | [Hoe een documenttemplate te genereren en te vullen met gegevens in C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Leer hoe u een documenttemplate maakt en vult met data in C# met Aspose.Words voor .NET. |
 
+| [Hoe placeholders in docx-bestanden te vervangen met Aspose.Words](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | Leer hoe u placeholders in DOCX-bestanden vervangt met Aspose.Words voor .NET in deze stapsgewijze handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

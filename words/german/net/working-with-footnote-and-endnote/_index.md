@@ -25,6 +25,7 @@
 | [Endnotenoptionen festlegen](./set-endnote-options/) | Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET Endnotenoptionen in Word-Dokumenten festlegen. |
 | [Fußtrenner in C# ändern](./change-footnote-separator-in-c-using-aspose-words/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET den Trennstrich von Fußnoten in C# anpassen. |
 | [Fußnotentrennzeichen in C# abrufen – vollständige Aspose.Words-Anleitung](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET das Fußnotentrennzeichen in C# abrufen und verwenden. |
+| [Fußnoten-Trennzeichen ändern und Stil anpassen](./how-to-change-footnote-separator-and-customize-its-style-in/) | Erfahren Sie, wie Sie das Fußnoten‑Trennzeichen ändern und dessen Formatierung in Word‑Dokumenten mit Aspose.Words für .NET anpassen. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

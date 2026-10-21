@@ -40,6 +40,7 @@ Ya sea que necesite reemplazar palabras específicas, actualizar plantillas de t
 
 | [Reemplazar texto en docx con C# – Guía completa paso a paso](./replace-text-in-docx-with-c-full-step-by-step-guide/) Aprenda a reemplazar texto en archivos docx usando C# con Aspose.Words para .NET mediante una guía detallada paso a paso. |
 | [Cómo reescribir párrafo con IA en C# – Guía completa](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) Aprenda a reescribir párrafos usando IA en C# con Aspose.Words para .NET. Guía paso a paso y ejemplos claros. |
+| [Cómo reemplazar marcadores de posición en archivos docx con Aspose.Words](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) Aprenda a sustituir marcadores de posición en archivos DOCX usando Aspose.Words para .NET. Guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

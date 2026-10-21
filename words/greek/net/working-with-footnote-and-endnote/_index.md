@@ -25,6 +25,7 @@
 | [Ορισμός επιλογών σημείωσης τέλους](./set-endnote-options/) | Μάθετε πώς να ορίζετε επιλογές σημείωσης τέλους σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET με αυτόν τον ολοκληρωμένο οδηγό βήμα προς βήμα. |
 | [Αλλαγή διαχωριστικού υποσημείωσης σε C# με χρήση Aspose.Words](./change-footnote-separator-in-c-using-aspose-words/) | Μάθετε πώς να αλλάξετε το διαχωριστικό υποσημείωσης σε έγγραφα Word χρησιμοποιώντας Aspose.Words για .NET. |
 | [Ανάκτηση διαχωριστικού υποσημείωσης σε C# – πλήρης οδηγός Aspose.Words](./retrieve-footnote-separator-in-c-complete-aspose-words-guide/) | Μάθετε πώς να ανακτήσετε το διαχωριστικό υποσημείωσης σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET σε C#. |
+| [Πώς να αλλάξετε το διαχωριστικό υποσημείωσης και να προσαρμόσετε το στυλ του σε έγγραφο Word](./how-to-change-footnote-separator-and-customize-its-style-in/) | Μάθετε πώς να τροποποιήσετε το διαχωριστικό υποσημειώσεων και να προσαρμόσετε το στυλ του σε έγγραφα Word με Aspose.Words για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

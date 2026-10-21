@@ -39,6 +39,7 @@ Oavsett om du behöver ersätta specifika ord, uppdatera textmallar eller anpass
 | [Ersätt text i DOCX med C# – Steg‑för‑steg‑guide](./replace-text-in-docx-with-c-step-by-step-guide/) | Lär dig hur du ersätter text i DOCX-filer med C# i en steg‑för‑steg‑guide. |
 | [Ersätt text i docx med C# – Fullständig steg‑för‑steg‑guide](./replace-text-in-docx-with-c-full-step-by-step-guide/) | Lär dig hur du ersätter text i docx-filer med C# i en komplett steg‑för‑steg‑guide med kodexempel. |
 | [Hur du skriver om stycke med AI i C# – Fullständig guide](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Lär dig hur du använder AI för att automatiskt skriva om stycken i C# med Aspose.Words för .NET. |
+| [Hur man ersätter platshållare i docx-filer med Aspose.Words](./how-to-replace-placeholders-in-docx-files-with-aspose-words/) | Lär dig att ersätta platshållare i DOCX-filer med Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

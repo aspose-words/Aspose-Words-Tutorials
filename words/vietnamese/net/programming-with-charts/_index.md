@@ -46,9 +46,13 @@ Với các hướng dẫn này, bạn sẽ có thể cải thiện tài liệu W
 {{< tutorial-card link="./update-chart-title/" title="Cập nhật tiêu đề biểu đồ và bật/tắt hiển thị legend trong Word bằng Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
+{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Lưu tài liệu đã chỉnh sửa với các lát bánh tròn nổ trong C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-format-chart-in-word-with-c-and-custom-number-formats/" title="Cách định dạng biểu đồ trong Word bằng C# và định dạng số tùy chỉnh" imgSrc="./how-to-format-chart-in-word-with-c-and-custom-number-formats/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/" title="Cách đặt số bin cho biểu đồ histogram và thêm nhãn dữ liệu trong biểu đồ Word bằng C#" imgSrc="./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/images/thumb.png" >}}
 
+{{< tutorial-card link="./programmatically-adjust-chart-labels-in-a-word-document-with/" title="Điều chỉnh nhãn biểu đồ trong tài liệu Word bằng C#" imgSrc="./programmatically-adjust-chart-labels-in-a-word-document-with/images/thumb.png" >}}
 
 | Tiêu đề | Mô tả |
 | --- | --- |
@@ -82,6 +86,7 @@ Với các hướng dẫn này, bạn sẽ có thể cải thiện tài liệu W
 | [Tùy chỉnh vị trí nhãn dữ liệu cho biểu đồ trong C#](./custom-data-label-placement-for-charts-in-c/) | Hướng dẫn cách tùy chỉnh vị trí nhãn dữ liệu cho biểu đồ trong C# bằng Aspose.Words cho .NET. |
 | [Cách định dạng chuỗi trong biểu đồ đường Word bằng C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Hướng dẫn cách định dạng chuỗi dữ liệu trong biểu đồ đường của tài liệu Word bằng Aspose.Words cho .NET và C#. |
 | [Cách tạo biểu đồ histogram trong Word bằng Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Hướng dẫn từng bước tạo biểu đồ histogram trong tài liệu Word bằng Aspose.Words cho .NET. |
+| [Cách định dạng biểu đồ trong Word bằng C# và định dạng số tùy chỉnh](./how-to-format-chart-in-word-with-c-and-custom-number-formats/) | Hướng dẫn cách định dạng biểu đồ trong Word bằng C# với các định dạng số tùy chỉnh. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

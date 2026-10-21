@@ -95,6 +95,8 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Sammanfatta Word-dokument med AI‑leverantörer i C#](./how-to-summarize-word-document-with-ai-providers-in-c/) | Lär dig hur du använder olika AI‑leverantörer för att sammanfatta Word‑dokument i C# med Aspose.Words. |
 | [Hur du sammanfattar ett Word-dokument med Aspose.Words AI](./how-to-summarize-a-word-document-with-aspose-words-ai/) | Lär dig hur du använder Aspose.Words AI för att automatiskt sammanfatta Word-dokument i enkla steg. |
 | [Hur du använder översättaren för att automatisera dokumentöversättning i C#](./how-to-use-translator-to-automate-document-translation-in-c/) | Lär dig att automatiskt översätta dokument med Aspose.Words och C#‑kod. |
+| [Sammanfatta Word-dokument med AI-dokumentsammanfattning](./summarize-word-document-with-ai-document-summarization/) | Lär dig att använda AI för att automatiskt sammanfatta Word-dokument med Aspose.Words. |
+| [Hur du översätter docx till franska med AI i C#](./how-to-translate-docx-to-french-with-ai-in-c/) | Lär dig att automatiskt översätta DOCX-filer till franska med AI i C# med Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

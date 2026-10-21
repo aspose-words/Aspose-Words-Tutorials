@@ -46,9 +46,7 @@ Met deze tutorials kunt u uw Word-documenten verbeteren door visueel aantrekkeli
 {{< tutorial-card link="./update-chart-title/" title="Grafiektitel bijwerken en legenda‑zichtbaarheid schakelen in Word met Aspose.Words voor .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
-
-
-
+{{< tutorial-card link="./save-modified-document-with-exploded-pie-chart-slices-in-c/" title="Aangepast document opslaan met uitgeklapte taartdiagramsegmenten in C#" imgSrc="./save-modified-document-with-exploded-pie-chart-slices-in-c/images/thumb.png" >}}
 
 | Titel | Beschrijving |
 | --- | --- |
@@ -82,6 +80,9 @@ Met deze tutorials kunt u uw Word-documenten verbeteren door visueel aantrekkeli
 | [Hoe u gegevenslabels aan een Word-grafiek toevoegt in C# – stapsgewijze handleiding](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Leer hoe u gegevenslabels aan een Word-grafiek toevoegt met Aspose.Words voor .NET in C#. |
 | [Series opmaken in een Word-lijndiagram met C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Leer hoe u series in een Word-lijndiagram opmaakt met Aspose.Words voor .NET en C#. |
 | [Hoe een Word-document C# te maken met een kolomgrafiek en opgemaakte labels](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Leer hoe u een Word-document met een kolomgrafiek en opgemaakte labels maakt met C#. |
+| [Hoe een grafiek in Word te formatteren met C# en aangepaste getalformaten](./how-to-format-chart-in-word-with-c-and-custom-number-formats/) | Leer hoe u met C# aangepaste getalformaten toepast op grafieken in Word met Aspose.Words. |
+| [Hoe het aantal histogrambins in te stellen en gegevenslabels toe te voegen in een Word‑grafiek met C#](./how-to-set-histogram-bin-count-and-add-data-labels-in-a-word/) | Leer hoe u het aantal bins van een histogram instelt en data‑labels toevoegt aan een Word‑grafiek met C#. |
+| [Programmamatig grafieklabels aanpassen in een Word‑document met C#](./programmatically-adjust-chart-labels-in-a-word-document-with/) | Leer hoe u grafieklabels in een Word‑document programmatic kunt aanpassen met C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
