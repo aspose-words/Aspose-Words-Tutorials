@@ -40,6 +40,8 @@
 
 ### [Πώς να χρησιμοποιήσετε το Aspose για την αυτοματοποίηση της διόρθωσης γραμματικής σε Python](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
 Μάθετε πώς να αυτοματοποιήσετε τη διόρθωση γραμματικών λαθών σε έγγραφα Word με το Aspose.Words για Python.
+### [Δημιουργία κενού εγγράφου Word με σκιερό σχήμα σε Python](./create-blank-word-document-with-shadowed-shape-in-python/)
+Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να προσθέσετε σκιερό σχήμα χρησιμοποιώντας το Aspose.Words για Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

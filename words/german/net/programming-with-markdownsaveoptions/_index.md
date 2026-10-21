@@ -24,6 +24,7 @@
 | [Exportieren in Markdown mit Ausrichtung des Tabelleninhalts](./export-into-markdown-with-table-content-alignment/) | Erfahren Sie, wie Sie Word-Dokumente mit ausgerichteten Tabellen mit Aspose.Words für .NET in Markdown exportieren. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für perfekte Markdown‑Tabellen. |
 | [Bilderordner festlegen](./set-images-folder/) Konvertieren Sie Word-Dokumente mit Aspose.Words für .NET in Markdown mit korrekter Tabellenausrichtung. Folgen Sie unserer ausführlichen Anleitung für perfekte Ergebnisse. |
 | [Wie man Markdown verwendet: DOCX in Markdown mit LaTeX‑Gleichungen konvertieren](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | Erfahren Sie, wie Sie DOCX‑Dateien mit LaTeX‑Formeln in Markdown konvertieren, um mathematische Inhalte korrekt zu erhalten. |
+| [Markdown als Word speichern – Schritt‑für‑Schritt‑Anleitung für C#‑Entwickler](./save-markdown-as-word-step-by-step-guide-for-c-developers/) | Erfahren Sie, wie Sie Markdown-Dateien mit Aspose.Words für .NET in Word-Dokumente konvertieren – komplette Schritt‑für‑Schritt‑Anleitung für C#‑Entwickler. |
 
 ### [Word als PDF speichern und beschädigtes Word wiederherstellen – Word in Markdown konvertieren in C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 Erfahren Sie, wie Sie Word‑Dokumente als PDF speichern, beschädigte Word‑Dateien wiederherstellen und sie in Markdown konvertieren.
@@ -49,6 +50,9 @@ Erfahren Sie, wie Sie DOCX‑Dateien mit LaTeX‑Formeln in Markdown konvertiere
 Erfahren Sie, wie Sie DOCX‑Dateien mit LaTeX‑Formeln in Markdown konvertieren – umfassende Schritt‑für‑Schritt‑Anleitung in C#.
 
 ### [DOCX als Markdown speichern – Vollständige C#‑Anleitung mit Bildextraktion](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
+Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und dabei Bilder extrahieren – umfassende Schritt‑für‑Schritt‑Anleitung in C#.
+
+### [DOCX als Markdown speichern – Vollständige Anleitung mit Bildextraktion](./save-docx-as-markdown-complete-guide-with-image-extraction/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und dabei Bilder extrahieren – umfassende Schritt‑für‑Schritt‑Anleitung in C#.
 
 ### [DOCX als Markdown speichern – Vollständige C#‑Anleitung mit Aspose.Words](./save-docx-as-markdown-with-aspose-words-full-c-guide/)
@@ -115,6 +119,16 @@ Erfahren Sie, wie Sie Word‑Dateien in Markdown konvertieren und dabei Bilder e
 Erfahren Sie, wie Sie einen benutzerdefinierten Bildordner festlegen, um Bilder beim Export nach Markdown zu verwalten.
 ### [DOCX zu Markdown konvertieren und Bilder aus DOCX speichern](./convert-docx-to-markdown-save-images-from-docx/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und dabei Bilder extrahieren und speichern.
+### [Bilder in CDN hochladen bei DOCX‑zu‑Markdown‑Konvertierung – Vollständige Anleitung](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/)
+Erfahren Sie, wie Sie Bilder während der DOCX‑zu‑Markdown‑Konvertierung automatisch in ein CDN hochladen.
+### [DOCX zu Markdown konvertieren – Vollständige Anleitung mit Gleichungs‑Export](./convert-docx-to-markdown-complete-guide-with-equation-export/)
+Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und dabei Gleichungen exportieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
+
+### [Aspose docx zu Markdown – Vollständige Anleitung zum Konvertieren und Extrahieren von Bildern](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/)
+Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose in Markdown konvertieren und dabei alle Bilder extrahieren.
+
+### [DOCX zu Markdown konvertieren – Vollständige Anleitung mit Formschatten und Wiederherstellung](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/)
+Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren, Formschatten beibehalten und beschädigte Dokumente wiederherstellen.
 
 ### [Wie man Markdown aus Word speichert – Schritt‑für‑Schritt‑Anleitung](./how-to-save-markdown-from-word-step-by-step-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown speichern – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
@@ -124,6 +138,8 @@ Erfahren Sie, wie Sie DOCX-Dateien in Markdown konvertieren – vollständige Sc
 
 ### [Wie man Markdown speichert – Vollständige C#‑Anleitung](./how-to-save-markdown-complete-c-guide/)
 Erfahren Sie, wie Sie Markdown mit Aspose.Words für .NET in C# vollständig speichern – komplette Schritt‑für‑Schritt‑Anleitung.
+### [Markdown als DOCX speichern in C# – Schritt‑für‑Schritt‑Anleitung](./save-markdown-as-docx-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie Markdown-Dateien in DOCX konvertieren – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
 
 ### [DOCX in Markdown konvertieren – Vollständige Anleitung mit Aspose.Words](./convert-docx-to-markdown-complete-guide-using-aspose-words/)
 Erfahren Sie, wie Sie DOCX‑Dateien vollständig in Markdown konvertieren – Schritt‑für‑Schritt‑Anleitung mit Aspose.Words.
@@ -289,6 +305,13 @@ Erfahren Sie, wie Sie Word‑Dokumente in Markdown konvertieren und gleichzeitig
 Erfahren Sie, wie Sie Word-Dokumente mit einem benutzerdefinierten Bildordner in Markdown speichern – vollständige Schritt‑für‑Schritt‑Anleitung.
 ### [Dokument als Markdown speichern mit C# – Vollständige Anleitung](./save-document-as-markdown-with-c-full-guide/)
 Erfahren Sie, wie Sie ein Dokument mit Aspose.Words für .NET vollständig in Markdown konvertieren – komplette C#‑Anleitung.
+### [DOCX als Markdown speichern – Word‑Mathematik nach LaTeX exportieren mit Aspose.Words](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/)
+
+### [Bilder beim Konvertieren von Word zu Markdown in die Cloud hochladen](./upload-images-to-cloud-when-converting-word-to-markdown/)
+Erfahren Sie, wie Sie Bilder beim Konvertieren von Word zu Markdown in die Cloud hochladen.
+
+### [Word als Markdown speichern – Tabellen nach HTML exportieren mit Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/)
+Erfahren Sie, wie Sie Word‑Tabellen beim Export nach Markdown als HTML ausgeben und anpassen können.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

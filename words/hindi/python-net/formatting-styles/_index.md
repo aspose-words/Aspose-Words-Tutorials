@@ -55,6 +55,9 @@ Python के लिए Aspose.Words का उपयोग करके दस�
     ### [Mastering Tab Stops in Python with Aspose.Words for Document Formatting](./master-tab-stops-python-aspose-words/)
 Aspose.Words का उपयोग करके अपने Python दस्तावेज़ों में टैब स्टॉप को प्रभावी ढंग से प्रबंधित करना सीखें। यह मार्गदर्शिका व्यावहारिक उदाहरणों के साथ टैब स्टॉप को जोड़ने, अनुकूलित करने और हटाने को कवर करती है।
 
+### [Python का उपयोग करके Word दस्तावेज़ में चार्ट को स्टाइल करने का तरीका](./how-to-style-chart-in-a-word-document-using-python/)
+Python के साथ Aspose.Words का उपयोग करके Word दस्तावेज़ में चार्ट की शैली को अनुकूलित करें।
+
 ## अतिरिक्त संसाधन
 
 - [पायथन-नेट दस्तावेज़ीकरण के लिए Aspose.Words](https://docs.aspose.com/words/python-net/)

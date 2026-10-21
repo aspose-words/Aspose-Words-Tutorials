@@ -70,6 +70,8 @@ Aprende a automatizar la resumición y traducción de texto usando Aspose.Words 
 
 ### [Crear modelo de IA personalizado – Editar párrafos de Word en Java](./create-custom-ai-model-edit-word-paragraphs-in-java/)
 Aprende a crear y usar un modelo de IA propio para modificar párrafos en documentos Word con Aspose.Words y Java.
+### [Crear documento Word en Java con verificación gramatical de LLM personalizado](./create-word-document-java-with-custom-llm-grammar-check/)
+Aprende a generar documentos Word en Java y a usar un modelo LLM personalizado para corregir gramática automáticamente.
 
 ## Recursos adicionales
 

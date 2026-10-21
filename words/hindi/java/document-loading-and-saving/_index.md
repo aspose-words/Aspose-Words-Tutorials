@@ -130,7 +130,6 @@ Aspose.Words के साथ Word दस्तावेज़ को PDF मे
 Aspose.Words का उपयोग करके दस्तावेज़ों को RTF फ़ॉर्मेट में सेव करना सीखें। प्रभावी दस्तावेज़ कनवर्ज़न के लिए कोड के साथ चरण‑दर‑चरण गाइड।
 
 ### [Aspose.Words में दस्तावेज़ों को टेक्स्ट फ़ाइलों के रूप में सेव करना](./saving-documents-as-text-files/)
-Aspose.Words के साथ दस्तावेज़ों को टेक्स्ट फ़ाइलों के रूप में सेव करना सीखें। Java कोड उदाहरणों के साथ चरण‑दर‑चरण गाइड।
 ### [Word दस्तावेज़ सहेजें – फ़ॉन्ट सेटिंग्स सेट करें, लापता फ़ॉन्ट्स को संभालें](./save-word-document-set-font-settings-handle-missing-fonts/)
 Aspose.Words for Java के साथ फ़ॉन्ट सेटिंग्स कॉन्फ़िगर करें और लापता फ़ॉन्ट्स को संभालते हुए Word दस्तावेज़ सहेजें।
 
@@ -156,9 +155,14 @@ Aspose.Words for Java का उपयोग करके क्षतिग्�
 
 ### [जावा में भ्रष्ट DOCX को पुनर्प्राप्त करें – पूर्ण प्रोग्रामिंग गाइड](./recover-corrupted-docx-in-java-complete-programming-guide/)
 
+### [Aspose.Words LoadOptions – जावा में करप्ट Word दस्तावेज़ पुनर्प्राप्त करें](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+Aspose.Words LoadOptions का उपयोग करके जावा में करप्ट Word फ़ाइलों को पुनर्प्राप्त और प्रोसेस करें।
+
 ### [Aspose.Words के साथ जावा में फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैप्चर करें – पूर्ण गाइड](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [docx को पुनर्प्राप्त करने का पूर्ण गाइड – भ्रष्ट Word फ़ाइलें पढ़ें](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+
 भ्रष्ट .docx फ़ाइलों को पढ़ने और पुनर्स्थापित करने की पूरी प्रक्रिया सीखें।
+
 ### [टूटा हुआ Word दस्तावेज़ पुनर्प्राप्त करने के लिए रिकवरी मोड सेट करें](./set-recovery-mode-to-recover-broken-word-document/)
 
 ### [Java में लापता फ़ॉन्ट्स कैसे प्राप्त करें – Aspose.Words गाइड](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
@@ -179,6 +183,17 @@ Aspose.Words Java का उपयोग करके भ्रष्ट या 
 ### [Aspose.Words for Java के साथ क्षतिग्रस्त Word दस्तावेज़ पुनर्प्राप्ति – गाइड](./recover-corrupted-word-document-using-aspose-words-guide/)
 
 ### [warning callback ट्यूटोरियल – Java में Word दस्तावेज़ लोड करना](./warning-callback-tutorial-load-word-document-in-java/)
+
+### [Java के साथ DOCX फ़ाइल सहेजें – कंटेंट कंट्रोल इन्सर्ट गाइड](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+
+### [Java के साथ खाली Word दस्तावेज़ बनाएं – पूर्ण Aspose.Words गाइड](./create-blank-word-document-with-java-full-aspose-words-guide/)
+Aspose.Words for Java के साथ खाली Word फ़ाइल बनाना सीखें। पूर्ण गाइड और कोड उदाहरण।
+### [Aspose फ़ॉन्ट प्रतिस्थापन ट्यूटोरियल – गायब फ़ॉन्ट्स को संभालें](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+
+### [Java में मार्कडाउन अंडरलाइन लोड करना – पूर्ण प्रोग्रामिंग गाइड](./load-markdown-underline-in-java-complete-programming-guide/)
+
+### [C# में Aspose.Words के साथ डायरेक्टरी से फ़ाइल लोड करना](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+C# में Aspose.Words का उपयोग करके फ़ाइल लोड करने का तरीका सीखें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 ### [फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैप्चर करें – लापता फ़ॉन्ट्स का पता लगाएँ](./capture-font-substitution-warnings-detect-missing-fonts/)

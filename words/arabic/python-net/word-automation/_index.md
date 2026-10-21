@@ -39,6 +39,9 @@
 ### [كيفية استخدام Aspose لأتمتة تصحيح القواعد النحوية في بايثون](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
 دليل خطوة بخطوة لاستخدام Aspose لتصحيح الأخطاء النحوية في مستندات بايثون تلقائيًا.
 
+### [إنشاء مستند Word فارغ مع شكل مظلّل في بايثون](./create-blank-word-document-with-shadowed-shape-in-python/)
+إنشاء مستند Word فارغ وإضافة شكل مظلّل باستخدام Aspose.Words للبايثون.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

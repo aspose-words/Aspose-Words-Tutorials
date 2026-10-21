@@ -93,6 +93,9 @@ Mengonfigurasi Opsi Pemuatan RTF di Aspose.Words untuk Java. Pelajari cara menge
 ### [Memuat File Teks dengan Aspose.Words untuk Java](./loading-text-files/)
 Manfaatkan Kekuatan Aspose.Words untuk Java. Pelajari cara Memuat Dokumen Teks, Mengelola Daftar, Menangani Spasi, dan Mengontrol Arah Teks.
 
+### [Muat garis bawah markdown di Java – panduan pemrograman lengkap](./load-markdown-underline-in-java-complete-programming-guide/)
+Panduan lengkap untuk memuat dan memproses underline markdown di Java menggunakan Aspose.Words.
+
 ### [Opsi Penyimpanan Lanjutan dengan Aspose.Words untuk Java](./advance-saving-options/)
 Pelajari manipulasi dokumen lanjutan dengan Aspose.Words untuk Java. Enkripsi, menangani metafile, dan lainnya. Dokumen Word Anda, cara Anda.
 
@@ -132,6 +135,8 @@ Pelajari cara membuat LoadOptions di Java untuk mendeteksi font yang hilang dan 
 
 ### [Deteksi Substitusi Font yang Hilang di Java – Panduan Lengkap Aspose.Words](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
 Pelajari cara mendeteksi peringatan substitusi font yang hilang saat memuat dokumen di Java dengan Aspose.Words, lengkap dengan contoh kode.
+### [Aspose.Words LoadOptions – Memulihkan Dokumen Word Rusak di Java](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+Pelajari cara menggunakan LoadOptions untuk memulihkan dokumen Word yang rusak di Java dengan Aspose.Words.
 
 ### [Memulihkan File Word Rusak – Panduan C# untuk Membuka dengan Aman](./recover-corrupted-word-file-c-guide-to-open-safely/)
 Pelajari cara memulihkan dan membuka file Word yang rusak menggunakan C# dengan aman melalui langkah-langkah praktis.
@@ -196,6 +201,18 @@ Pelajari cara menggunakan callback peringatan saat memuat dokumen Word di Java d
 
 ### [Mengonfigurasi LoadOptions untuk Peringatan – Panduan Lengkap Java](./configure-loadoptions-for-warnings-complete-java-guide/)
 Pelajari cara mengonfigurasi LoadOptions untuk menangkap peringatan saat memuat dokumen dengan Aspose.Words untuk Java.
+
+### [Cara Menyimpan File DOCX dengan Java – Panduan Penyisipan Kontrol Konten](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+Pelajari cara menyimpan file DOCX dengan Java menggunakan kontrol konten, termasuk menambah, mengedit, dan menghapusnya secara programatis.
+
+### [Buat Dokumen Word Kosong dengan Java – Panduan Lengkap Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
+Pelajari cara membuat dokumen Word kosong menggunakan Aspose.Words untuk Java dengan contoh kode lengkap.
+
+### [Tutorial Substitusi Font Aspose – Menangani Font yang Hilang](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+Pelajari cara menangani font yang hilang dengan mengonfigurasi substitusi font di Aspose.Words untuk Java.
+
+### [Cara memuat file dari direktori menggunakan Aspose.Words di C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+Pelajari cara memuat file dari folder menggunakan Aspose.Words di C#.
 
 ## Pertanyaan yang Sering Diajukan
 

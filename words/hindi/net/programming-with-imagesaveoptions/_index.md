@@ -39,6 +39,8 @@
 | [Word को PNG में बदलते समय रिज़ॉल्यूशन सेट करना – पूर्ण गाइड](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ को PNG में बदलते समय रिज़ॉल्यूशन कैसे सेट करें, इस पूर्ण गाइड में सीखें। |
 | [Word को PNG के रूप में निर्यात करें – DOCX को एक छवि में बदलें](./export-word-as-png-convert-docx-to-one-image/) | DOCX फ़ाइल को एकल PNG छवि में बदलने की प्रक्रिया सीखें। |
 | [DOCX को PNG में बदलें – पूर्ण C# गाइड](./convert-docx-to-png-complete-c-guide/) | C# में Aspose.Words का उपयोग करके DOCX फ़ाइल को PNG छवि में बदलने की पूरी प्रक्रिया सीखें। |
+| [Word को PNG में सहेजें – पूर्ण Aspose.Words गाइड](./save-word-as-png-complete-aspose-words-guide/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ को PNG में बदलने की पूरी प्रक्रिया सीखें। |
+| [C# में दस्तावेज़ को PNG में सहेजें – पूर्ण गाइड](./save-document-as-png-in-c-complete-guide/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ को PNG में बदलने की पूरी प्रक्रिया सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

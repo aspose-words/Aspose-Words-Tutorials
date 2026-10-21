@@ -77,6 +77,8 @@ Learn how to automate text summarization and translation using Aspose.Words for 
 
 ### [Create custom AI model – edit Word paragraphs in Java]({{< relref "create-custom-ai-model-edit-word-paragraphs-in-java/_index.md" >}})
 Learn how to build a custom AI model and integrate it to edit Word paragraphs programmatically using Aspose.Words for Java.
+### [Create Word document Java with Custom LLM Grammar Check]({{< relref "create-word-document-java-with-custom-llm-grammar-check/_index.md" >}})
+Learn how to generate Word documents in Java and integrate a custom LLM for advanced grammar checking.
 
 ## Additional Resources
 

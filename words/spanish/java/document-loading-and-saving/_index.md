@@ -124,6 +124,7 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 ### [Establecer modo de recuperación para recuperar documentos Word dañados](./set-recovery-mode-to-recover-broken-word-document/)
 
 ### [Recuperar docx corrupto – Guía completa para reparar y procesar documentos](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+### [aspose words loadoptions – Recuperar documentos Word corruptos en Java](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 
 ### [Cómo recuperar archivos DOCX – Guía paso a paso Java](./how-to-recover-docx-files-step-by-step-java-guide/)
 ### [Abrir documento Word corrupto – Establecer modo de recuperación en Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
@@ -132,7 +133,9 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 ### [Recuperar DOCX corrupto en Java – Guía completa de programación](./recover-corrupted-docx-in-java-complete-programming-guide/)
 
 ### [Capturar advertencias de sustitución de fuentes en Java con Aspose.Words – Guía completa](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+
 ### [Cómo recuperar docx – Guía completa para leer archivos Word corruptos](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+
 ### [Cómo obtener fuentes faltantes en Java – Guía de Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 ### [Cómo recuperar archivos DOCX con Aspose.Words – Guía paso a paso](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 ### [Cómo recuperar DOCX – Establecer modo de recuperación y mostrar advertencias](./how-to-recover-docx-set-recovery-mode-display-warnings/)
@@ -154,6 +157,15 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 ### [Registrar advertencias de sustitución de fuentes en Java con Aspose.Words](./log-font-substitution-warnings-in-java-with-aspose-words/)
 
 ### [Configurar LoadOptions para advertencias – Guía completa Java](./configure-loadoptions-for-warnings-complete-java-guide/)
+
+### [Cómo guardar un archivo DOCX con Java – Guía de inserción de controles de contenido](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+
+### [Crear documento Word en blanco con Java – Guía completa de Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
+
+### [Cargar subrayado Markdown en Java – guía completa de programación](./load-markdown-underline-in-java-complete-programming-guide/)
+### [Tutorial de sustitución de fuentes Aspose – Manejar fuentes faltantes](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+
+### [Cómo cargar un archivo desde el directorio usando Aspose.Words en C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 
 ## Preguntas frecuentes
 

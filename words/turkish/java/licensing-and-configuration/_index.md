@@ -49,6 +49,9 @@ Ayrıntılı kod örnekleri ve daha fazla rehberlik için, bkz. [Java için Aspo
 ### [Java için Aspose.Words'e Lisans Başvurusu](./applying-licensing/)
 Aspose.Words for Java'ya lisans başvurusunu adım adım nasıl yapacağınızı öğrenin. Hemen erişim sağlayın ve tüm potansiyelinin kilidini açın.
 
+### [Java'da DocumentConfig Oluşturma – Eksik Yazı Tiplerini Aspose.Words ile İzleme](./create-documentconfig-in-java-track-missing-fonts-with-aspos/)
+Java'da DocumentConfig nesnesi oluşturarak eksik yazı tiplerini tespit edin ve raporlayın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

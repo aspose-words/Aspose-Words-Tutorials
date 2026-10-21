@@ -32,6 +32,8 @@ Khám phá sâu hơn với các trang lồng nhau của chúng tôi để khám 
 
 {{< tutorial-card link="./insert-simple-column-chart/" title="Chèn Biểu đồ Cột Đơn giản vào Word Sử dụng Aspose.Words cho .NET" imgSrc="./insert-simple-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-edit-chart-in-word-change-label-position-font-more/" title="Cách chỉnh sửa biểu đồ trong Word: Thay đổi vị trí nhãn, phông chữ và hơn nữa" imgSrc="./how-to-edit-chart-in-word-change-label-position-font-more/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

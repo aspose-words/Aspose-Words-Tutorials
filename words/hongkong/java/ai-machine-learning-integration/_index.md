@@ -70,6 +70,8 @@ AI 文件處理將傳統的文件操作（合併、格式化、轉換）與機�
 學習如何設定大型語言模型，使用 AI 自動在 DOCX 文件中搜尋並替換指定文字。
 ### [建立自訂 AI 模型 – 在 Java 中編輯 Word 段落](./create-custom-ai-model-edit-word-paragraphs-in-java/)
 學習如何建立自訂 AI 模型，並在 Java 中使用 Aspose.Words 編輯 Word 段落內容。
+### [使用自訂 LLM 文法檢查建立 Java Word 文件](./create-word-document-java-with-custom-llm-grammar-check/)
+展示如何在 Java 中結合自訂大型語言模型進行文法檢查，同時生成 Word 文件。
 
 ## 其他資源
 

@@ -71,6 +71,9 @@ Exportera det berikade dokumentet till det format du behöver—PDF, DOCX, HTML 
 ### [Hur man konfigurerar LLM – Ersätt text i DOCX med AI](./how-to-configure-llm-replace-text-in-docx-with-ai/)
 Lär dig konfigurera en stor språkmodell för att automatiskt ersätta text i DOCX-filer med AI‑genererat innehåll.
 
+### [Skapa Word-dokument i Java med anpassad LLM-grammatikgranskning](./create-word-document-java-with-custom-llm-grammar-check/)
+Lär dig skapa Word-dokument i Java och använda en anpassad LLM för grammatikkontroll.
+
 ## Ytterligare resurser
 
 - [Aspose.Words för Java‑dokumentation](https://reference.aspose.com/words/java/)

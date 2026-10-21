@@ -37,6 +37,10 @@ Zautomatyzuj przetwarzanie tekstu z łatwością, korzystając z Aspose.Words dl
 
 ### [Zastąp tekst w docx przy użyciu Pythona – Pełny przewodnik krok po kroku](./replace-text-docx-with-python-full-step-by-step-guide/)
 Dowiedz się, jak programowo zamienić tekst w plikach docx przy użyciu Aspose.Words for Python w kilku prostych krokach.
+### [Utwórz pusty dokument Word z cieniowanym kształtem w Pythonie](./create-blank-word-document-with-shadowed-shape-in-python/)
+Twórz pusty dokument Word i dodawaj cieniowane kształty programowo w Pythonie.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 ### [Jak używać Aspose do automatyzacji korekty gramatycznej w Pythonie](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
 Dowiedz się, jak automatycznie poprawiać błędy gramatyczne w dokumentach przy użyciu Aspose.Words w Pythonie.

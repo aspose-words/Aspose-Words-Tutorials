@@ -144,9 +144,7 @@ Tanulja meg, hogyan ismerje fel a dokumentumformátumokat Java‑ban az Aspose.W
 ### [Word dokumentum mentése – Betűtípus-beállítások megadása, hiányzó betűtípusok kezelése](./save-word-document-set-font-settings-handle-missing-fonts/)
 
 ### [Hogyan állítsuk vissza a docx-et – Teljes útmutató a sérült Word fájlok olvasásához](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
-
 ### [Helyreállítási mód beállítása a sérült Word dokumentumok helyreállításához](./set-recovery-mode-to-recover-broken-word-document/)
-
 ### [Hiányzó betűtípusok lekérése Java‑ban – Aspose.Words útmutató](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 ### [Hogyan állítsuk helyre a DOCX‑et – mentse a helyreállított dokumentumot Java‑val](./how-to-recover-docx-save-recovered-document-using-java/)
 Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlt, és mentheti a helyreállított dokumentumot Java‑val az Aspose.Words segítségével.
@@ -164,6 +162,12 @@ Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlt, és mentheti a h
 Ismerje meg, hogyan állíthatja helyre a sérült Word dokumentumokat az Aspose.Words segítségével, részletes lépésről‑lépésre útmutatóval.
 
 ### [Figyelmeztető visszahívás oktatóanyag – Word dokumentum betöltése Java‑ban](./warning-callback-tutorial-load-word-document-in-java/)
+### [Hogyan mentse el a DOCX fájlt Java‑val – Tartalomvezérlő beszúrása útmutató](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+### [Üres Word dokumentum létrehozása Java‑val – Teljes Aspose.Words útmutató](./create-blank-word-document-with-java-full-aspose-words-guide/)
+### [Markdown aláhúzás betöltése Java‑ban – teljes programozási útmutató](./load-markdown-underline-in-java-complete-programming-guide/)
+### [Aspose.Words LoadOptions – Sérült Word dokumentumok helyreállítása Java‑ban](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+### [Aspose betűtípus helyettesítési útmutató – Hiányzó betűtípusok kezelése](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+### [Hogyan töltsünk be fájlt könyvtárból az Aspose.Words segítségével C#‑ban](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 
 ## Gyakran Ismételt Kérdések
 

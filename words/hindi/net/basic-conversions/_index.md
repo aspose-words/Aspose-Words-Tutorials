@@ -36,6 +36,7 @@
 | [Docx को Txt के रूप में सहेजें – वर्ड फ़ाइलों को साधारण टेक्स्ट में बदलने की पूर्ण गाइड](./save-docx-as-txt-complete-guide-to-converting-word-files-to/) | Aspose.Words for .NET का उपयोग करके Docx फ़ाइल को Txt में बदलने की पूरी गाइड। चरण‑दर‑स्टेप उदाहरण और कोड। |
 | [Docx को Txt में बदलें – Word समीकरणों को LaTeX के रूप में निर्यात करें](./convert-docx-to-txt-export-word-equations-as-latex/) | Docx फ़ाइल को Txt में बदलें और Word समीकरणों को LaTeX में निर्यात करें। |
 | [Docx को Txt में बदलें – Word गणित से LaTeX के लिए पूर्ण गाइड](./convert-docx-to-txt-complete-guide-for-word-math-to-latex/) | .NET के लिए Aspose.Words का उपयोग करके Word गणित को LaTeX में बदलते हुए Docx को Txt में परिवर्तित करने की पूरी गाइड। |
+| [Markdown को DOCX में बदलें Aspose.Words के साथ – पूर्ण C# गाइड](./convert-markdown-to-docx-with-aspose-words-complete-c-guide/) | .NET के लिए Aspose.Words का उपयोग करके Markdown फ़ाइल को DOCX में बदलने की पूरी C# गाइड। चरण‑दर‑स्टेप उदाहरण और विवरण। |
 | [टेक्स्ट फ़ाइल को वर्ड डॉक्यूमेंट में बदलें](./txt-to-docx/) | .NET के लिए Aspose.Words का उपयोग करके टेक्स्ट फ़ाइलों को Word दस्तावेज़ों में परिवर्तित करना सीखें। हमारे व्यापक गाइड के साथ दस्तावेज़ रूपांतरणों को कुशलतापूर्वक प्रबंधित करें। | 
 | [पीडीएफ को जेपीईजी के रूप में सहेजें](./pdf-to-jpeg/) | .NET के लिए Aspose.Words का उपयोग करके PDF को JPEG में आसानी से बदलें। उदाहरणों और FAQ के साथ हमारी विस्तृत मार्गदर्शिका का पालन करें। डेवलपर्स और उत्साही लोगों के लिए बिल्कुल सही। |
 | [पीडीएफ को वर्ड फॉर्मेट में सहेजें (Docx)](./pdf-to-docx/) | इस विस्तृत, चरण-दर-स्टेप मार्गदर्शिका में जानें कि .NET के लिए Aspose.Words का उपयोग करके PDF को Word दस्तावेज़ (Docx) में कैसे परिवर्तित किया जाए। डेवलपर्स के लिए बिल्कुल सही। |
@@ -79,6 +80,11 @@
 | [C# में DOCX को PDF में बदलें – पूर्ण प्रोग्रामिंग गाइड](./convert-docx-to-pdf-in-c-complete-programming-guide/) | .NET के लिए Aspose.Words का उपयोग करके C# में DOCX को PDF में बदलने की पूरी मार्गदर्शिका। चरण‑दर‑स्टेप उदाहरण और सर्वोत्तम प्रथाएँ। |
 | [C# में Word से PDF बनाएं – पूर्ण गाइड](./create-pdf-from-word-in-c-full-guide/) | C# में Aspose.Words का उपयोग करके Word फ़ाइल को PDF में बदलने की पूरी गाइड। चरण‑दर‑स्टेप मार्गदर्शन। |
 | [C# में Word से PDF बनाएं – तेज़ लो‑कोड गाइड](./create-pdf-from-word-in-c-fast-low-code-guide/) | C# में Aspose.Words का उपयोग करके Word फ़ाइल को तेज़ी से PDF में बदलने की लो‑कोड गाइड। |
+| [Aspose.Words के साथ Word को PDF के रूप में सहेजें – पूर्ण गाइड](./save-word-as-pdf-with-aspose-words-complete-guide/) | Aspose.Words का उपयोग करके .NET में Word फ़ाइल को PDF में बदलने की पूरी गाइड। चरण‑दर‑स्टेप उदाहरण और कोड सहित। |
+| [DOCX को PDF में बदलें C# – पूर्ण चरण‑दर‑चरण गाइड](./convert-docx-to-pdf-c-complete-step-by-step-guide/) | .NET के लिए Aspose.Words का उपयोग करके DOCX को PDF में बदलने की पूरी C# गाइड। चरण‑दर‑चरण निर्देश और कोड उदाहरण। |
+| [C# में docx को pdf में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | .NET के लिए Aspose.Words का उपयोग करके C# में docx को PDF में बदलने की पूरी गाइड। चरण‑दर‑चरण निर्देश और कोड उदाहरण। |
+| [C# में DOCX से PDF बनाएं – चरण‑दर‑चरण गाइड](./create-pdf-from-docx-in-c-step-by-step-guide/) | .NET के लिए Aspose.Words का उपयोग करके C# में DOCX को PDF में बदलने की विस्तृत चरण‑दर‑चरण गाइड। |
+| [C# के साथ docx को txt में बदलें – पूर्ण प्रोग्रामिंग गाइड](./convert-docx-to-txt-with-c-complete-programming-guide/) | C# में Aspose.Words का उपयोग करके DOCX फ़ाइल को TXT में बदलने की पूरी मार्गदर्शिका। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

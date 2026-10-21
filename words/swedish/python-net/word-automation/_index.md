@@ -34,6 +34,8 @@ Genom att bemästra ordautomation med hjälp av Aspose.Words för Python kan utv
 ## Handledningar för automatisering av Python Word
 ### [Ordautomatisering gjort enkelt](./word-automation-made-easy/)
 Automatisera ordbehandling enkelt med Aspose.Words för Python. Skapa, formatera och manipulera dokument programmatiskt. Öka produktiviteten nu!
+### [Skapa tomt Word-dokument med skuggad form i Python](./create-blank-word-document-with-shadowed-shape-in-python/)
+Skapa ett tomt Word-dokument och lägg till en skuggad form med Aspose.Words för Python.
 
 ### [Ersätt text i docx med Python – Fullständig steg‑för‑steg‑guide](./replace-text-docx-with-python-full-step-by-step-guide/)
 Lär dig hur du ersätter text i DOCX-filer med Python med en detaljerad steg‑för‑steg‑guide.
