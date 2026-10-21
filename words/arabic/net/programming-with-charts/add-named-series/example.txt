@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: يوضح هذا البرنامج التعليمي كيفية استخدام Aspose.Words Document و DocumentBuilder لإنشاء مستند Word، وإدراج مخطط هيستوجرام، وإضافة سلسلة بيانات معنونة باستخدام التحميل الزائد ChartSeriesCollection.Add الذي يقبل اسمًا وقيمًا.
+//ExStepSummary:0: إنشاء مستند Word فارغ جديد و DocumentBuilder لتحريره.
+//ExStepSummary:1: إدراج شكل مخطط هيستوجرام بحجم 500×300 في المستند والحصول على كائن Chart الخاص به.
+//ExStepSummary:2: إزالة سلسلة العنصر النائب الافتراضية التي يضيفها Aspose.Words إلى المخططات الجديدة.
+//ExStepSummary:3: إضافة سلسلة مسماة تُدعى "Demo Series" مع نقاط البيانات المحددة إلى مخطط الهيستوجرام.
+//ExStepSummary:4: حفظ المستند إلى ملف .docx يحتوي على سلسلة المخطط المعنونة.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+Shape histogramShape = docBuilder.InsertChart(ChartType.Histogram, 500, 300);
+Chart histogramChart = histogramShape.Chart;
+
+//ExStep:2-
+histogramChart.Series.Clear();
+
+//ExStep:3-
+histogramChart.Series.Add("Demo Series", new double[] { 10, 20, 15, 30, 25 });
+
+//ExStep:4-
+myDocument.Save("LabeledSeriesDemo.docx");
+//ExEnd

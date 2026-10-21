@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: यह ट्यूटोरियल दिखाता है कि Aspose.Words का उपयोग करके नया Word दस्तावेज़ कैसे बनाएं, तीन पैराग्राफ जोड़ें, एक विशिष्ट पैराग्राफ खोजें, उस पर लेखक जानकारी के साथ एक टिप्पणी संलग्न करें, और परिणाम को DOCX फ़ाइल के रूप में सहेजें।
+//ExStepSummary:0: Word फ़ाइल बनाना शुरू करने के लिए एक नया Document और एक DocumentBuilder का उदाहरण बनाएं।
+//ExStepSummary:1: DocumentBuilder.Writeln का उपयोग करके दस्तावेज़ में तीन अलग-अलग टेक्स्ट पैराग्राफ जोड़ें।
+//ExStepSummary:2: दूसरा पैराग्राफ सुरक्षित रूप से प्राप्त करें; यदि दस्तावेज़ में दो से कम पैराग्राफ हैं तो पहले पैराग्राफ को उपयोग करें।
+//ExStepSummary:3: लेखक विवरण के साथ एक Comment बनाएं, उसका टेक्स्ट सेट करें, और उसे चयनित पैराग्राफ से संलग्न करें।
+//ExStepSummary:4: संशोधित दस्तावेज़ को वर्तमान फ़ोल्डर में 'sample.docx' नाम की DOCX फ़ाइल के रूप में सहेजें।
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document wordDoc = new Document();
+DocumentBuilder builderObj = new DocumentBuilder(wordDoc);
+
+//ExStep:1-
+builderObj.Writeln("Introductory line.");
+builderObj.Writeln("Middle line.");
+builderObj.Writeln("Concluding line.");
+
+//ExStep:2-
+Paragraph? chosenParagraph = null;
+ParagraphCollection? paraList = wordDoc.FirstSection?.Body?.Paragraphs;
+if (paraList != null && paraList.Count > 1)
+{
+    chosenParagraph = paraList[1];
+}
+else if (paraList != null && paraList.Count > 0)
+{
+    chosenParagraph = paraList[0];
+}
+
+//ExStep:3-
+if (chosenParagraph != null)
+{
+    Comment note = new Comment(wordDoc, "Jordan", "JH", DateTime.Now);
+    note.SetText("Please examine this section.");
+    chosenParagraph.AppendChild(note);
+}
+
+//ExStep:4-
+wordDoc.Save("sample.docx");
+//ExEnd

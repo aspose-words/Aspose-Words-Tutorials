@@ -35,9 +35,15 @@ Med dessa handledningar kommer du att kunna förbättra dina Word-dokument genom
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Infoga exempel på kolumndiagram i Word-dokument med Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
-{{< tutorial-card link="./modify-chart-series/" title="Uppdatera diagramseriedata i ett Word‑dokument med Aspose.Words för .NET" imgSrc="./modify-chart-series/images/thumb.png" >}}
+{{< tutorial-card link="./add-named-series/" title="Lägg till en namngiven dataserie i ett histogramdiagram i Word med Aspose.Words för .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Validera diagramserier och datapunkter i ett Word‑dokument med Aspose.Words för .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Anpassa X‑axelns rutnätslinjer i ett stapeldiagram med Aspose.Words för .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
 
 {{< tutorial-card link="./format-secondary-axis/" title="Formatera sekundär X‑axel och sätt displayenheter till tusental i Word‑linjediagram med Aspose.Words för .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Uppdatera diagramtitel och växla legendens synlighet i Word med Aspose.Words för .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
 
@@ -62,9 +68,20 @@ Med dessa handledningar kommer du att kunna förbättra dina Word-dokument genom
 | [Markera etikettjustering med flera rader i ett diagram](./tick-multi-line-label-alignment/) | Lär dig hur du markerar flerradig etikettjustering i ett diagram med Aspose.Words för .NET med vår detaljerade steg-för-steg-guide. Perfekt för utvecklare på alla nivåer. |
 | [Anpassa diagramdataetikett](./chart-data-label/) | Lär dig hur du anpassar diagramdataetiketter med Aspose.Words för .NET i en steg-för-steg-guide. Perfekt för .NET-utvecklare. |
 | [Ange standardalternativ för dataetiketter i ett diagram](./default-options-for-data-labels/) | Lär dig hur du ställer in standardalternativ för dataetiketter i ett diagram med Aspose.Words för .NET. Följ vår steg-för-steg-guide för att enkelt skapa och anpassa diagram. |
+| [Hur man lägger till dataetiketter i ett Word-diagram i C# – steg‑för‑steg‑guide](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Lär dig hur du lägger till dataetiketter i ett Word-diagram med C# i en steg‑för‑steg‑guide. |
 | [Anpassa en enskild diagramdatapunkt i ett diagram](./single-chart-data-point/) | Lär dig hur du anpassar datapunkter för enskilda diagram med Aspose.Words för .NET i en detaljerad steg-för-steg-guide. Förbättra dina diagram med unika markörer och storlekar. |
 | [Anpassa enskilda diagramserier i ett diagram](./single-chart-series/) | Lär dig hur du anpassar enskilda diagramserier i ett Word-dokument med Aspose.Words för .NET. Följ vår steg-för-steg-guide för en smidig upplevelse. |
-
+| [Visa diagramförklaring i Word med C# – Komplett steg‑för‑steg‑guide](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Lär dig hur du visar diagramförklaringen i ett Word-dokument med Aspose.Words för .NET i en komplett steg‑för‑steg‑guide. |
+| [Explodera pajdiagramdel i C# med Aspose.Words – Fullständig guide](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Lär dig hur du exploderar en del av ett pajdiagram i C# med Aspose.Words i en steg-för-steg-guide. |
+| [Lägg till etiketter för pajdiagram i C# med Aspose.Words – Fullständig guide](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Lär dig hur du lägger till etiketter för pajdiagram i C# med Aspose.Words i en steg-för-steg-guide. |
+| [Visa procenttal i diagram med Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Lär dig hur du visar procentvärden i diagram i Word med Aspose.Words för .NET och C#. |
+| [Anpassad placering av dataetiketter för diagram i C#](./custom-data-label-placement-for-charts-in-c/) | Lär dig hur du placerar dataetiketter manuellt i diagram med Aspose.Words för .NET i C#. |
+| [Skapa pajdiagram i Word i C# – steg‑för‑steg‑guide](./create-pie-chart-word-in-c-step-by-step-guide/) | Lär dig hur du skapar ett pajdiagram i ett Word‑dokument med Aspose.Words för .NET i C# med vår detaljerade steg‑för‑steg‑guide. |
+| [Hur man skapar cirkeldiagram i ett Word-dokument med Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Lär dig hur du skapar ett cirkeldiagram i ett Word-dokument med Aspose.Words i denna steg-för-steg-guide. |
+| [Hur du formaterar serier i ett Word-linjediagram med C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Lär dig hur du formaterar serier i ett linjediagram i Word med Aspose.Words för .NET och C# i denna steg-för-steg-guide. |
+| [Hur du skapar Word-dokument C# med ett stapeldiagram och formaterade etiketter](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Lär dig hur du skapar ett Word-dokument med ett stapeldiagram och anpassade etiketter i C# med Aspose.Words för .NET. |
+| [Hur man skapar histogram i Word med Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Lär dig hur du skapar ett histogram i ett Word-dokument med Aspose.Words för .NET i denna steg-för-steg-guide. |
+| [Hur man skapar ett Word-dokument med ett anpassat cirkeldiagram i C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Lär dig hur du skapar ett Word-dokument med ett anpassat cirkeldiagram i C# med Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

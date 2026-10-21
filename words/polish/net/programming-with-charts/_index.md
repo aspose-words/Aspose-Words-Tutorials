@@ -35,9 +35,15 @@ Dzięki tym samouczkom będziesz w stanie ulepszyć swoje dokumenty Word, dodaj�
 
 {{< tutorial-card link="./insert-sample-column-chart/" title="Wstaw przykładowy wykres słupkowy do dokumentu Word przy użyciu Aspose.Words for .NET" imgSrc="./insert-sample-column-chart/images/thumb.png" >}}
 
-{{< tutorial-card link="./modify-chart-series/" title="Aktualizuj dane serii wykresu w dokumencie Word przy użyciu Aspose.Words for .NET" imgSrc="./modify-chart-series/images/thumb.png" >}}
+{{< tutorial-card link="./add-named-series/" title="Dodaj nazwaną serię danych do wykresu histogramu w Wordzie przy użyciu Aspose.Words for .NET" imgSrc="./add-named-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./validate-chart-data/" title="Walidacja serii wykresu i punktów danych w dokumencie Word przy użyciu Aspose.Words dla .NET" imgSrc="./validate-chart-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./customize-x-axis-gridlines/" title="Dostosuj linie siatki osi X w wykresie słupkowym przy użyciu Aspose.Words for .NET" imgSrc="./customize-x-axis-gridlines/images/thumb.png" >}}
 
 {{< tutorial-card link="./format-secondary-axis/" title="Formatuj drugą oś X i ustaw jednostki wyświetlania na tysiące w wykresach liniowych Word przy użyciu Aspose.Words dla .NET" imgSrc="./format-secondary-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./update-chart-title/" title="Aktualizuj tytuł wykresu i przełącz widoczność legendy w Wordzie przy użyciu Aspose.Words for .NET" imgSrc="./update-chart-title/images/thumb.png" >}}
 
 
 
@@ -48,11 +54,13 @@ Dzięki tym samouczkom będziesz w stanie ulepszyć swoje dokumenty Word, dodaj�
 | --- | --- |
 | [Formatuj liczbę etykiet danych na wykresie](./format-number-of-data-label/) | Dowiedz się, jak formatować etykiety danych na wykresach za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Ulepszaj swoje dokumenty Word bez wysiłku. |
 | [Tworzenie i dostosowywanie wykresu za pomocą kształtu](./create-chart-using-shape/) | Dowiedz się, jak tworzyć i dostosowywać wykresy w dokumentach Word za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Idealne do wizualizacji danych. |
-| [Wstaw prosty wykres kolumnowy do dokumentu Word](./insert-simple-column-chart/) Dowiedz się, jak wstawić prosty wykres kolumnowy w programie Word za pomocą Aspose.Words dla platformy .NET. Ulepsz swoje dokumenty za pomocą dynamicznych wizualnych prezentacji danych. |
+| [Wstaw prosty wykres kolumnowy do dokumentu Word](./insert-simple-column-chart/) | Dowiedz się, jak wstawić prosty wykres kolumnowy w programie Word za pomocą Aspose.Words dla platformy .NET. Ulepsz swoje dokumenty za pomocą dynamicznych wizualnych prezentacji danych. |
 | [Wstaw wykres kolumnowy do dokumentu Word](./insert-column-chart/) | Dowiedz się, jak wstawiać wykresy kolumnowe do dokumentów programu Word za pomocą Aspose.Words dla platformy .NET. Ulepsz wizualizację danych w raportach i prezentacjach. |
 | [Wstaw wykres obszarowy do dokumentu Word](./insert-area-chart/) | Dowiedz się, jak wstawić wykres obszarowy do dokumentu programu Word za pomocą Aspose.Words dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku. |
 | [Wstaw wykres bąbelkowy do dokumentu Word](./insert-bubble-chart/) | Dowiedz się, jak wstawić wykres bąbelkowy do dokumentu Word za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Ulepsz swoje dokumenty. |
+| [Utwórz wykres kołowy w Wordzie w C# – przewodnik krok po kroku](./create-pie-chart-word-in-c-step-by-step-guide/) | Dowiedz się, jak w C# utworzyć wykres kołowy w dokumencie Word przy użyciu Aspose.Words – szczegółowy przewodnik krok po kroku. |
 | [Wstaw wykres punktowy do dokumentu Word](./insert-scatter-chart/) | Dowiedz się, jak wstawić wykres punktowy w programie Word za pomocą Aspose.Words dla .NET. Proste kroki integrowania wizualnych reprezentacji danych w dokumentach. |
+| [Jak utworzyć wykres kołowy w dokumencie Word przy użyciu Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Dowiedz się, jak w prosty sposób dodać wykres kołowy do dokumentu Word przy użyciu Aspose.Words dla .NET. |
 | [Definiowanie właściwości osi XY na wykresie](./define-xyaxis-properties/) Dowiedz się, jak definiować właściwości osi XY na wykresie za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Idealne dla programistów .NET. |
 | [Dodaj wartości daty i godziny do osi wykresu](./date-time-values-to-axis/) | Dowiedz się, jak dodawać wartości daty i godziny do osi wykresu za pomocą Aspose.Words dla .NET w tym kompleksowym przewodniku krok po kroku. |
 | [Format liczbowy dla osi na wykresie](./number-format-for-axis/) | Dowiedz się, jak formatować numery osi wykresu za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Zwiększ czytelność i profesjonalizm swojego dokumentu bez wysiłku. |
@@ -62,9 +70,18 @@ Dzięki tym samouczkom będziesz w stanie ulepszyć swoje dokumenty Word, dodaj�
 | [Zaznacz wieloliniowe wyrównanie etykiet na wykresie](./tick-multi-line-label-alignment/) | Dowiedz się, jak zaznaczyć wielowierszowe wyrównanie etykiet na wykresie za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów na każdym poziomie. |
 | [Dostosuj etykietę danych wykresu](./chart-data-label/) | Dowiedz się, jak dostosowywać etykiety danych wykresu za pomocą Aspose.Words dla .NET w przewodniku krok po kroku. Idealne dla programistów .NET. |
 | [Ustaw domyślne opcje etykiet danych na wykresie](./default-options-for-data-labels/) | Dowiedz się, jak ustawić domyślne opcje etykiet danych na wykresie przy użyciu Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bez wysiłku tworzyć i dostosowywać wykresy. |
+| [Jak dodać etykiety danych do wykresu Word w C# – przewodnik krok po kroku](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Dowiedz się, jak dodać etykiety danych do wykresu w dokumencie Word przy użyciu Aspose.Words dla .NET w C#. |
+| [Niestandardowe rozmieszczenie etykiet danych dla wykresów w C#](./custom-data-label-placement-for-charts-in-c/) | Dowiedz się, jak umieścić etykiety danych w wybranym miejscu wykresu w Aspose.Words dla .NET przy użyciu C#. |
 | [Dostosuj pojedynczy punkt danych wykresu na wykresie](./single-chart-data-point/) | Dowiedz się, jak dostosować pojedyncze punkty danych wykresu za pomocą Aspose.Words dla .NET w szczegółowym przewodniku krok po kroku. Ulepsz swoje wykresy za pomocą unikalnych znaczników i rozmiarów. |
 | [Dostosuj pojedynczą serię wykresów na wykresie](./single-chart-series/) | Dowiedz się, jak dostosować pojedynczą serię wykresów w dokumencie Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezproblemowe działanie. |
-
+| [Pokaż legendę wykresu w Wordzie przy użyciu C# – kompletny przewodnik krok po kroku](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Dowiedz się, jak wyświetlić legendę wykresu w dokumencie Word przy użyciu Aspose.Words dla .NET i C# w prostym przewodniku krok po kroku. |
+| [Wyrzucanie wycinka wykresu kołowego w C# z Aspose.Words – Pełny przewodnik](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Dowiedz się, jak w C# wyodrębnić fragment wykresu kołowego przy użyciu Aspose.Words w pełnym przewodniku krok po kroku. |
+| [Dodaj etykiety wykresu kołowego w C# przy użyciu Aspose.Words – Pełny przewodnik](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Dowiedz się, jak dodać etykiety do wykresu kołowego w C# przy użyciu Aspose.Words w tym kompletnym przewodniku krok po kroku. |
+| [Jak wyświetlić procenty na wykresie przy użyciu Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Dowiedz się, jak wyświetlać wartości procentowe na wykresie w Aspose.Words przy użyciu C#. |
+| [Jak sformatować serie na wykresie liniowym w Wordzie w C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Dowiedz się, jak formatować serie wykresu liniowego w dokumencie Word przy użyciu Aspose.Words i C#. |
+| [Jak utworzyć dokument Word w C# z wykresem kolumnowym i sformatowanymi etykietami](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Dowiedz się, jak w C# utworzyć dokument Word z wykresem kolumnowym i sformatowanymi etykietami danych. |
+| [Jak utworzyć histogram w programie Word przy użyciu Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Dowiedz się, jak w prosty sposób utworzyć histogram w dokumencie Word przy użyciu Aspose.Words dla .NET. |
+| [Jak utworzyć dokument Word z niestandardowym wykresem kołowym w C#](./how-to-create-word-document-with-a-customized-pie-chart-in-c/) | Dowiedz się, jak utworzyć dokument Word z niestandardowym wykresem kołowym w C# przy użyciu Aspose.Words dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

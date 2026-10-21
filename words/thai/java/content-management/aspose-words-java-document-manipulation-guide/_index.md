@@ -76,6 +76,7 @@ implementation 'com.aspose:aspose-words:25.3'
 
 นี่คือตัวอย่างโปรแกรม Java ขั้นต่ำที่สร้างเอกสารเปล่า:
 
+คลาส `Document` เป็นอ็อบเจ็กต์หลักที่แทน PDF, Word หรือไฟล์ที่รองรับใด ๆ ในหน่วยความจำ หลังจากเพิ่ม Maven dependency คุณสามารถสร้างอินสแตนซ์ได้ดังนี้:
 ```java
 import com.aspose.words.Document;
 
@@ -98,6 +99,8 @@ public class DocumentSetup {
 #### ภาพรวม
 การสร้าง `GlossaryDocument` ภายในเอกสารหลักช่วยให้คุณจัดการพจนานุกรม, สไตล์, และส่วนกำหนดเองในคอนเทนเนอร์ที่แยกออกมาอย่างเป็นระเบียบ
 
+#### วิธีการเริ่มต้นเอกสารพจนานุกรม?
+สร้างอินสแตนซ์ `Document` หลัก แล้วแนบ `GlossaryDocument` เพื่อจัดการรายการพจนานุกรมในไฟล์เดียวที่สอดคล้องกัน `GlossaryDocument` แทนส่วนพจนานุกรมของเอกสาร Word ที่เก็บรายการเช่น รายการพจนานุกรม, หมายเหตุท้าย, และส่วนที่กำหนดเอง.
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.GlossaryDocument;
@@ -121,6 +124,8 @@ public class DocumentInitialization {
 #### ภาพรวม
 คุณสามารถใช้ `Document.setPageColor` เพื่อใส่สีโทนเดียวให้ทุกหน้า ซึ่งตรงกับคีย์เวิร์ดหลัก **set page background color**
 
+#### วิธีการตั้งค่าสีพื้นหลังของหน้า?
+ใช้เมธอด `setPageColor()` บนวัตถุ `Document` โดยส่งค่าชนิด `java.awt.Color` ที่แสดงเฉดสีที่ต้องการ.
 ```java
 import com.aspose.words.Document;
 import java.awt.Color;
@@ -147,6 +152,8 @@ public class SetPageBackgroundColor {
 #### ภาพรวม
 เมื่อคุณต้องการรวมเนื้อหาจากหลายแหล่ง คุณสามารถนำเข้าทั้งส่วน (หรือโหนดใด ๆ) จากเอกสารหนึ่งไปยังอีกเอกสารหนึ่ง นี่คือหัวใจของ **merge document sections** และ **import section from document**
 
+#### วิธีการนำเข้าส่วนจากเอกสารต้นฉบับ?
+เรียก `importNode()` บน `Document` ปลายทาง โดยให้โหนดที่ต้องการนำเข้าและ `ImportFormatMode` ที่กำหนดวิธีการจัดการสไตล์.
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.Section;
@@ -181,6 +188,8 @@ public class ImportNode {
 #### ภาพรวม
 บางครั้งแหล่งที่มและปลายทางใช้สไตล์ที่แตกต่างกัน `ImportFormatMode` ช่วยให้คุณเลือกว่าจะรักษาสตไลล์ของแหล่งที่มาหรือบังคับให้ใช้สไตล์ของปลายทาง
 
+#### วิธีการใช้โหมดฟอร์แมตการนำเข้าที่กำหนดเอง?
+ระบุ `ImportFormatMode` ที่ต้องการเมื่อเรียก `importNode()` ซึ่งช่วยให้คุณควบคุมว่าฟอร์แมตของต้นฉบับจะถูกเก็บไว้หรือถูกแทนที่ ImportFormatMode เป็น enum ที่กำหนดวิธีการจัดการฟอร์แมตระหว่างการนำเข้าโหนด เช่น การเก็บสไตล์ของต้นฉบับหรือใช้สไตล์ของปลายทาง.
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.Style;
@@ -211,6 +220,8 @@ public class ImportNodeCustom {
 #### ภาพรวม
 นอกเหนือจากสีทึบ คุณสามารถฝัง Shape หรือภาพเป็นพื้นหลังของหน้า ตัวอย่างนี้เพิ่ม Shape รูปดาวสีแดง, แต่คุณสามารถเปลี่ยนเป็นรูปภาพใดก็ได้เพื่อ **create document background image**
 
+#### วิธีการแทรกรูปทรงพื้นหลัง?
+สร้าง `Shape` ชนิด `ShapeType.IMAGE`, ตั้งค่าเลย์เอาต์เป็น `WRAP_NONE`, แล้วเพิ่มลงในส่วนหัวหรือส่วนท้ายของเอกสารเพื่อให้แสดงอยู่ด้านหลังข้อความทั้งหมด `Shape` คืออ็อบเจ็กต์การวาดเช่น ภาพ, กล่องข้อความ, หรือรูปทรงเรขาคณิตที่สามารถวางได้ทุกที่ในเอกสาร.
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.Shape;
@@ -272,6 +283,6 @@ public class SetBackgroundShape {
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/products-backtop-button >}}

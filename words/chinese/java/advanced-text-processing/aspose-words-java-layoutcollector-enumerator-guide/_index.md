@@ -58,12 +58,12 @@ weight: 1
     <artifactId>aspose-words</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
 **Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ### 环境搭建要求
 - 已安装 Java Development Kit (JDK)。
@@ -88,6 +88,16 @@ public class SetupAsposeWords {
         System.out.println("Aspose.Words is ready to use!");
     }
 }
+```  
+
+库准备就绪后，即可开始使用核心功能。
+
+## 如何使用 LayoutCollector 分析页面？
+
+`LayoutCollector` 是一个将 `Document` 中每个节点映射到其起始页和结束页页码的类，从而实现精确的分页分析。加载文档、附加 `LayoutCollector`，并查询页面信息——整个过程只需几行代码，即使是大文件也能提供可靠结果。
+
+```text
+Load the document → create LayoutCollector → call getStartPage(node) / getEndPage(node)
 ```
 
 库准备就绪后，我们即可深入核心功能。
@@ -106,7 +116,7 @@ public class SetupAsposeWords {
 ```java
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
-```
+```  
 
 **2. 填充文档**
 这里，我们将添加跨越多页的内容：
@@ -117,7 +127,7 @@ builder.insertBreak(BreakType.PAGE_BREAK);
 builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
 builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
-```
+```  
 
 **3. 更新布局并检索度量**
 ```java
@@ -125,6 +135,19 @@ layoutCollector.clear();
 doc.updatePageLayout();
 
 assert layoutCollector.getNumPagesSpanned(doc) == 5;
+```  
+
+**说明：**  
+- `DocumentBuilder` 插入内容。  
+- `updatePageLayout()` 强制进行布局遍历，以确保页码准确。  
+- `getStartPage` / `getEndPage` 返回任意节点的起始页和结束页索引。
+
+## 如何使用 LayoutEnumerator 枚举布局元素？
+
+`LayoutEnumerator` 是一个遍历文档视觉布局树的类，公开每个元素的类型、位置和大小——非常适合自定义渲染或分析。`LayoutEnumerator` 遍历视觉布局树，公开每个元素的类型、位置和大小——非常适合自定义渲染或分析。
+
+```text
+Initialize LayoutEnumerator → move to first child → iterate while moving next sibling
 ```
 
 #### 说明
@@ -143,7 +166,7 @@ assert layoutCollector.getNumPagesSpanned(doc) == 5;
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
-```
+```  
 
 **2. 前向与后向遍历**
 ```java
@@ -154,6 +177,18 @@ traverseLayoutForward(layoutEnumerator, 1);
 
 // Traverse backward
 traverseLayoutBackward(layoutEnumerator, 1);
+```  
+
+**说明：**  
+- `moveParent()` 向上移动到父节点。  
+- 递归遍历让您完整访问每个布局节点。
+
+## 如何实现页面布局回调？
+
+`IPageLayoutCallback` 是一个接口，用于在文档处理期间接收布局事件，使您能够对章节重新流动或渲染完成等布局变化作出响应。实现 `IPageLayoutCallback` 可让您在布局事件（如章节重新流动或渲染完成）发生时作出响应，从而对文档生成管道进行动态控制。
+
+```text
+Set callback on Document → implement notify(event) → handle specific layout events
 ```
 
 #### 说明
@@ -172,9 +207,9 @@ traverseLayoutBackward(layoutEnumerator, 1);
 ```java
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
 doc.updatePageLayout();
-```
+```  
 
-**2. 实现回调方法**
+### 步骤 2：实现回调方法
 ```java
 private static class RenderPageLayoutCallback implements IPageLayoutCallback {
     public void notify(PageLayoutCallbackArgs a) throws Exception {
@@ -194,6 +229,18 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
         }
     }
 }
+```  
+
+**说明：**  
+- `notify()` 接收事件标识符。  
+- 在回调中可以自定义 `ImageSaveOptions`，实现即时图像渲染。
+
+## 如何在连续章节中重新启动页码？
+
+`ContinuousSectionRestart` 是一个枚举，指定在连续章节中是否重新启动页码，从而对文档整体的页码方案进行细粒度控制。当文档包含多个连续流动的章节时，您可以决定是否在每个连续章节边界自动重新开始页码。
+
+```text
+Load document → set ContinuousSectionPageNumberingRestart option → save
 ```
 
 #### 说明
@@ -211,13 +258,13 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
 **1. 加载文档**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
-```
+```  
 
-**2. 配置页码选项**
+### 步骤 2：配置页码选项
 ```java
 doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
 doc.updatePageLayout();
-```
+```  
 
 #### 说明
 - **`setContinuousSectionPageNumberingRestart()`** 告诉 Aspose.Words 如何处理连续节中的编号。

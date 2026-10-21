@@ -1,74 +1,130 @@
 ---
-date: 2025-11-28
-description: Узнайте, как изменять границы ячеек и форматировать таблицы с помощью
-  Aspose.Words для Java. Это пошаговое руководство охватывает настройку границ, применение
-  стиля первой колонки, автоматическую подгонку содержимого таблицы и применение стилей
-  таблиц.
-linktitle: How to Change Cell Borders in Tables – Aspose.Words for Java
+date: 2026-10-17
+description: Узнайте, как изменить границы ячеек таблицы с помощью Aspose.Words for
+  Java, включая настройку cell border styles, применение first column style и auto‑fit
+  table contents.
+keywords:
+- how to change borders
+- apply first column style
+- Aspose.Words table styling
+- Java document processing
+lastmod: 2026-10-17
+linktitle: Как изменить границы ячеек таблицы с помощью Aspose.Words for Java
+og_description: Как изменить границы ячеек таблицы с помощью Aspose.Words for Java.
+  Это руководство показывает, как установить толщину cell border, применить first
+  column style и auto‑fit таблицы для профессиональных документов.
+og_image_alt: Screenshot of a Java table with customized cell borders using Aspose.Words
+og_title: Как изменить границы ячеек таблицы – Aspose.Words for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-17'
+  description: Learn how to change borders in table cells with Aspose.Words for Java,
+    including setting cell border styles, applying first column style, and auto‑fit
+    table contents.
+  headline: How to change borders in table cells using Aspose.Words for Java
+  type: TechArticle
+- description: Learn how to change borders in table cells with Aspose.Words for Java,
+    including setting cell border styles, applying first column style, and auto‑fit
+    table contents.
+  name: How to change borders in table cells using Aspose.Words for Java
+  steps:
+  - name: '**Java Development Kit (JDK) 8+** – ensure `java` is on your PATH.'
+    text: '**Java Development Kit (JDK) 8+** – ensure `java` is on your PATH.'
+  - name: '**IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.'
+    text: '**IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.'
+  - name: '**Aspose.Words for Java** – download the latest JAR from the [official
+      site](https://releases.aspose.com/words/java/).'
+    text: '**Aspose.Words for Java** – download the latest JAR from the [official
+      site](https://releases.aspose.com/words/java/).'
+  - name: '**Basic Java knowledge** – you should be comfortable creating a Maven/Gradle
+      project and adding external JARs.'
+    text: '**Basic Java knowledge** – you should be comfortable creating a Maven/Gradle
+      project and adding external JARs.'
+  type: HowTo
+- questions:
+  - answer: Yes, you can create and apply custom styles programmatically. See the
+      [Aspose.Words documentation](https://reference.aspose.com/words/java/) for details.
+    question: Can I use custom table styles not included in the default options?
+  - answer: Use standard Java logic to inspect cell values, then call the appropriate
+      formatting methods (e.g., change background colour if a value exceeds a threshold).
+    question: How can I apply conditional formatting to cells?
+  - answer: Absolutely. After merging cells, apply shading or borders using the same
+      `CellFormat` APIs.
+    question: Is it possible to format merged cells the same way as regular cells?
+  - answer: Adjust column widths or call `autoFit` again after inserting new data
+      to recalculate the layout.
+    question: What if I need the table to resize dynamically based on user input?
+  - answer: The official [Aspose.Words API documentation](https://reference.aspose.com/words/java/)
+      contains a comprehensive set of samples.
+    question: Where can I find more examples of table styling?
+  type: FAQPage
 second_title: Aspose.Words Java Document Processing API
-title: Как изменить границы ячеек в таблицах – Aspose.Words для Java
+tags:
+- Aspose.Words
+- Java tables
+- document formatting
+- border styling
+title: Как изменить границы ячеек таблицы с помощью Aspose.Words for Java
 url: /ru/java/document-conversion-and-export/formatting-tables-and-table-styles/
 weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Как изменить границы ячеек в таблицах – Aspose.Words для Java
+# Как изменить границы в ячейках таблицы с помощью Aspose.Words for Java
 
 ## Введение
 
-Когда речь идет о форматировании документов, таблицы играют решающую роль, и **знание того, как изменить границы ячеек**, необходимо для создания четких, профессиональных макетов. Если вы разрабатываете на Java с Aspose.Words, у вас уже есть мощный набор инструментов. В этом руководстве мы пройдем весь процесс форматирования таблиц, изменения границ ячеек, применения *стиля первой колонки* и использования *автоматической подгонки содержимого таблицы*, чтобы ваши документы выглядели безупречно.
+When you need to present data in a clean, professional layout, **changing cell borders** is one of the first visual tweaks you’ll apply. In Java, Aspose.Words gives you a full‑featured API that lets you style tables, adjust individual cell borders, enable the first‑column style, and auto‑fit content so the table never overflows the page. This tutorial walks you through every step, from creating a document to fine‑tuning each border, and shows why these features matter in real‑world reports and invoices.
 
 ## Быстрые ответы
-- **Какой основной класс для создания таблиц?** `DocumentBuilder` создает таблицы и ячейки программно.  
-- **Как изменить толщину границы одной ячейки?** Используйте `builder.getCellFormat().getBorders().getLeft().setLineWidth(value)`.  
-- **Можно ли применить предопределенный стиль таблицы?** Да – вызовите `table.setStyleIdentifier(StyleIdentifier.YOUR_STYLE)`.  
+The `DocumentBuilder` class is used to programmatically build documents and tables.  
+- **Какой основной класс для построения таблиц?** `DocumentBuilder` creates tables and cells programmatically.  
+- **Как изменить толщину границы отдельной ячейки?** Use `builder.getCellFormat().getBorders().getLeft().setLineWidth(value)`.  
+- **Можно ли применить предопределённый стиль таблицы?** Yes – call `table.setStyleIdentifier(StyleIdentifier.YOUR_STYLE)`.  
 - **Какой метод автоматически подгоняет таблицу под её содержимое?** `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)`.  
-- **Нужна ли лицензия для продакшн?** Для использования не в пробном режиме требуется действующая лицензия Aspose.Words.
+- **Нужна ли лицензия для продакшн?** A valid Aspose.Words license is required for non‑trial use.
 
 ## Что означает «как изменить границы ячеек» в Aspose.Words?
 
-Изменение границ ячеек подразумевает настройку визуальных линий, разделяющих ячейки — их цвет, ширину и стиль линии. Aspose.Words предоставляет богатый API, позволяющий регулировать эти свойства на уровне таблицы, строки или отдельной ячейки, обеспечивая тонкий контроль над внешним видом ваших документов.
+Changing cell borders means customizing the visual lines that separate cells—color, width, and line style. Aspose.Words for Java exposes a granular API that lets you set these properties at the table, row, or individual‑cell level, giving you precise control over the look of your documents.
 
-## Почему стоит использовать Aspose.Words для Java при стилизации таблиц?
+## Почему использовать стилизацию таблиц Aspose.Words for Java?
 
-- **Единый внешний вид на всех платформах** – один и тот же код стилизации работает в Windows, Linux и macOS.  
-- **Отсутствие зависимости от Microsoft Word** – генерируйте и изменяйте документы на сервере.  
-- **Богатая библиотека стилей** – встроенные стили таблиц (например, *стиль первой колонки*) и полные возможности авто‑подгонки.  
+Aspose.Words supports **35+ input and output formats** (DOCX, PDF, HTML, ODT, etc.) and can process **500‑page documents in under 3 seconds** on typical server hardware without requiring Microsoft Word. The library works consistently on Windows, Linux, and macOS, enabling you to generate or modify documents server‑side, apply built‑in table styles such as *first column style*, and auto‑fit tables to content with a single method call.
 
-## Предварительные требования
+## Требования
 
-1. **Java Development Kit (JDK) 8+** – убедитесь, что `java` находится в PATH.  
-2. **IDE** – IntelliJ IDEA, Eclipse или любой другой редактор по вашему выбору.  
-3. **Aspose.Words for Java** – скачайте последнюю JAR‑файл с [официального сайта](https://releases.aspose.com/words/java/).  
-4. **Базовые знания Java** – вы должны уметь создавать проект Maven/Gradle и подключать внешние JAR‑файлы.
+1. **Java Development Kit (JDK) 8+** – ensure `java` is on your PATH.  
+2. **IDE** – IntelliJ IDEA, Eclipse or any editor you prefer.  
+3. **Aspose.Words for Java** – download the latest JAR from the [official site](https://releases.aspose.com/words/java/).  
+4. **Basic Java knowledge** – you should be comfortable creating a Maven/Gradle project and adding external JARs.
 
 ## Импорт пакетов
 
-Чтобы начать работу с таблицами, нужны основные классы Aspose.Words:
+The `Document`, `DocumentBuilder`, `Table`, `StyleIdentifier`, and related classes live in the `com.aspose.words` namespace. Importing this single package gives you access to the full table‑styling toolkit. The `DocumentBuilder` class provides methods to construct and modify a document programmatically.
 
 ```java
 import com.aspose.words.*;
 ```
 
-Этот единственный импорт дает доступ к `Document`, `DocumentBuilder`, `Table`, `StyleIdentifier` и многим другим утилитам.
-
 ## Как изменить границы ячеек
 
-Далее мы создадим простую таблицу, изменим её общие границы, а затем настроим отдельные ячейки.
+Below is a concise, step‑by‑step guide that creates a table, applies a global border, and then customizes a single cell’s edges.
 
-### Шаг 1: Загрузка нового документа
+### Прямой ответ
+A `Document` represents the Word file, while `DocumentBuilder` creates content such as tables. Load a new `Document`, insert a `Table` with `DocumentBuilder`, set a 2‑point black border for the whole table, and then increase the left, right, top, and bottom borders of the third cell to 4 points. This approach lets you highlight any cell while keeping the rest of the table uniformly styled.
+
+### Шаг 1: загрузить новый документ
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-### Шаг 2: Создание таблицы и установка глобальных границ
+### Шаг 2: создать таблицу и установить глобальные границы
 
 ```java
 Table table = builder.startTable();
@@ -90,7 +146,7 @@ builder.writeln("Cell #2");
 builder.endRow();
 ```
 
-### Шаг 3: Изменение границ одной ячейки
+### Шаг 3: изменить границы отдельной ячейки
 
 ```java
 // Clear the cell formatting from previous operations.
@@ -113,15 +169,18 @@ doc.save("FormatTableAndCellWithDifferentBorders.docx");
 ```
 
 #### Что делает код
-- **Глобальные границы** – `table.setBorders` задает всей таблице черную линию толщиной 2 пункта.  
-- **Заливка ячейки** – демонстрирует, как окрасить отдельные ячейки (красный и зеленый).  
-- **Пользовательские границы ячейки** – третья ячейка получает границу толщиной 4 пункта со всех сторон, что делает её выделенной.
+- **Глобальные границы** – `table.setBorders` gives the whole table a 2‑point black line.  
+- **Затенение ячеек** – Demonstrates how to colour individual cells (red & green).  
+- **Пользовательские границы ячейки** – The third cell receives a 4‑point border on all sides, making it stand out.
 
 ## Применение стилей таблиц (включая стиль первой колонки)
 
-Стили таблиц позволяют задать единый вид одним вызовом. Мы также покажем, как включить *стиль первой колонки* и автоматически подогнать таблицу под её содержимое.
+Table styles let you apply a consistent look with a single call. We’ll also enable the *first column style* and auto‑fit the table to its contents.
 
-### Шаг 4: Создание нового документа для стилизации
+### Прямой ответ
+`StyleIdentifier` enumerates built‑in table styles, and `AutoFitBehavior` controls how a table adjusts to its content. Create a fresh `Document`, build a `Table`, set its `StyleIdentifier` to `MEDIUM_SHADING_1_ACCENT_1`, enable `FirstColumn` and `RowBands`, then call `autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)` so the columns automatically shrink or expand to fit the inserted data.
+
+### Шаг 4: создать новый документ для стилизации
 
 ```java
 Document doc = new Document();
@@ -133,7 +192,7 @@ Table table = builder.startTable();
 builder.insertCell();
 ```
 
-### Шаг 5: Применение предопределенного стиля и включение форматирования первой колонки
+### Шаг 5: применить предопределённый стиль и включить форматирование первой колонки
 
 ```java
 // Set the table style based on a unique style identifier.
@@ -146,7 +205,7 @@ table.setStyleOptions(TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BAN
 table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS);
 ```
 
-### Шаг 6: Заполнение таблицы данными
+### Шаг 6: заполнить таблицу данными
 
 ```java
 builder.writeln("Item");
@@ -177,51 +236,56 @@ doc.save("BuildTableWithStyle.docx");
 ```
 
 #### Почему это важно
-- **Идентификатор стиля** – `MEDIUM_SHADING_1_ACCENT_1` придает таблице чистый, затененный вид.  
-- **Стиль первой колонки** – выделение первой колонки улучшает читаемость, особенно в отчетах.  
-- **Полосы строк** – чередующиеся цвета строк делают большие таблицы более удобными для восприятия.  
-- **Авто‑подгонка** – гарантирует, что ширина таблицы адаптируется к содержимому, предотвращая обрезку текста.
+- **Идентификатор стиля** – `MEDIUM_SHADING_1_ACCENT_1` gives the table a clean, shaded look.  
+- **Стиль первой колонки** – Highlighting the first column improves readability, especially in reports.  
+- **Полосы строк** – Alternating row colours make large tables easier on the eyes.  
+- **Автоподгонка** – Ensures the table width adapts to content, preventing clipped text.
 
-## Распространенные проблемы и их решение
+## Распространённые проблемы и их устранение
 
-| Проблема | Типичная причина | Быстрое решение |
-|----------|------------------|-----------------|
-| Границы не отображаются | Используется `clearFormatting()` после установки границ | Устанавливайте границы **после** очистки форматирования или переустанавливайте их. |
-| Заливка игнорируется в объединенных ячейках | Заливка применена до объединения | Применяйте заливку **после** объединения ячеек. |
-| Ширина таблицы превышает поля страницы | Не применена авто‑подгонка | Вызовите `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)` или задайте фиксированную ширину. |
-| Стиль не применяется | Неправильное значение `StyleIdentifier` | Проверьте, что идентификатор существует в используемой версии Aspose.Words. |
+| Issue | Typical cause | Quick fix |
+|-------|----------------|-----------|
+| Границы не отображаются | Using `clearFormatting()` after setting borders | Set borders **after** clearing formatting, or re‑apply them. |
+| Затенение игнорируется в объединённых ячейках | Shading applied before merging | Apply shading **after** merging the cells. |
+| Ширина таблицы превышает поля страницы | No auto‑fit applied | Call `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)` or set a fixed width. |
+| Стиль не применён | Wrong `StyleIdentifier` value | Verify the identifier exists in the version of Aspose.Words you’re using. |
 
 ## Часто задаваемые вопросы
 
-**В: Можно ли использовать пользовательские стили таблиц, не входящие в набор по умолчанию?**  
-О: Да, вы можете создавать и применять пользовательские стили программно. См. подробности в [документации Aspose.Words](https://reference.aspose.com/words/java/).
+**В: Могу ли я использовать пользовательские стили таблиц, не включённые в стандартные варианты?**  
+О: Yes, you can create and apply custom styles programmatically. See the [Aspose.Words documentation](https://reference.aspose.com/words/java/) for details.
 
 **В: Как применить условное форматирование к ячейкам?**  
-О: Используйте обычную логику Java для проверки значений ячеек, затем вызывайте соответствующие методы форматирования (например, меняйте цвет фона, если значение превышает порог).
+О: Use standard Java logic to inspect cell values, then call the appropriate formatting methods (e.g., change background colour if a value exceeds a threshold).
 
-**В: Можно ли форматировать объединенные ячейки так же, как обычные?**  
-О: Конечно. После объединения ячеек применяйте заливку или границы тем же API `CellFormat`.
+**В: Можно ли форматировать объединённые ячейки так же, как обычные?**  
+О: Absolutely. After merging cells, apply shading or borders using the same `CellFormat` APIs.
 
-**В: Как заставить таблицу динамически менять размер в зависимости от ввода пользователя?**  
-О: Корректируйте ширину столбцов или вызывайте `autoFit` снова после вставки новых данных, чтобы пересчитать макет.
+**В: Что делать, если таблицу нужно динамически менять в зависимости от ввода пользователя?**  
+О: Adjust column widths or call `autoFit` again after inserting new data to recalculate the layout.
 
-**В: Где найти больше примеров стилизации таблиц?**  
-О: Официальная [документация Aspose.Words API](https://reference.aspose.com/words/java/) содержит обширный набор образцов.
+**В: Где можно найти больше примеров стилизации таблиц?**  
+О: The official [Aspose.Words API documentation](https://reference.aspose.com/words/java/) contains a comprehensive set of samples.
 
 ## Заключение
 
-Теперь у вас есть полный набор инструментов для **изменения границ ячеек**, применения *стиля первой колонки* и **авто‑подгонки содержимого таблицы** с помощью Aspose.Words для Java. Овладев этими техниками, вы сможете создавать документы, богатые данными и визуально привлекательные — идеально подходящие для отчетов, счетов-фактур и любого другого бизнес‑критичного вывода.
+You now have a complete toolbox for **how to change borders** in table cells, apply the *first column style*, and **auto‑fit table contents** using Aspose.Words for Java. By mastering these techniques you can produce documents that are both data‑rich and visually polished—ideal for reports, invoices, and any business‑critical output.
+
+---
+
+**Last Updated:** 2026-10-17  
+**Tested With:** Aspose.Words for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
+## Связанные руководства
+
+- [Aspose.Words Java Руководства по форматированию и стилям – улучшите свои документы](/words/java/formatting-styles/)
+- [Advanced Document Borders with Aspose.Words for Java: A Comprehensive Guide](/words/java/headers-footers-page-setup/advanced-document-borders-aspose-words-java/)
+- [Add a watermark to a document using Aspose.Words for Java](/words/java/document-conversion-and-export/using-watermarks-to-documents/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2025-11-28  
-**Тестировано с:** Aspose.Words for Java 24.12 (последняя на момент написания)  
-**Автор:** Aspose

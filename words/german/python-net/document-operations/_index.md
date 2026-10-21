@@ -27,34 +27,34 @@ Die Kategorie „Dokumentenoperationen“ richtet sich an Entwickler, die ihre K
 ### [Erweiterte PDF-Manipulation mit Aspose.Words für Python: Ein umfassender Leitfaden](./aspose-words-python-pdf-manipulation/)
 Erfahren Sie, wie Sie PDFs mit Aspose.Words für Python bearbeiten. Konvertieren, bearbeiten und verwalten Sie verschlüsselte Dokumente mühelos.
 
-    ### [Convert DOCX to Fixed-Form XAML in Python Using Aspose.Words&#58; A Comprehensive Guide](./python-docx-to-xaml-aspose-tutorial/)
+### [Convert DOCX to Fixed-Form XAML in Python Using Aspose.Words&#58; A Comprehensive Guide](./python-docx-to-xaml-aspose-tutorial/)
 Erfahren Sie, wie Sie Microsoft Word-Dokumente (DOCX) mit Aspose.Words für Python in XAML mit fester Form konvertieren und so eine effiziente Ressourcenverwaltung und Designintegrität gewährleisten.
 
-    ### [Efficient RTF Loading in Python&#58; Detect UTF-8 Encoding with Aspose.Words](./optimize-rtf-loading-aspose-python-utf8-detection/)
+### [Efficient RTF Loading in Python&#58; Detect UTF-8 Encoding with Aspose.Words](./optimize-rtf-loading-aspose-python-utf8-detection/)
 Erfahren Sie, wie Sie RTF-Dokumente effizient laden und UTF-8-Kodierungen mit Aspose.Words für Python erkennen. Verbessern Sie die Genauigkeit der Textverarbeitung in Ihren Projekten.
 
-    ### [How to Fix Broken Links in CHM Files Using Aspose.Words for Python](./fix-broken-links-chm-files-aspose-words-python/)
+### [How to Fix Broken Links in CHM Files Using Aspose.Words for Python](./fix-broken-links-chm-files-aspose-words-python/)
 Erfahren Sie, wie Sie defekte Links in CHM-Dateien mithilfe der leistungsstarken Aspose.Words-Bibliothek beheben. Verbessern Sie die Zuverlässigkeit Ihrer Dokumente und die Benutzerfreundlichkeit mit dieser Schritt-für-Schritt-Anleitung.
 
-    ### [Implementing Custom HTML Page Save Callbacks in Python with Aspose.Words](./aspose-words-python-html-page-callbacks/)
+### [Implementing Custom HTML Page Save Callbacks in Python with Aspose.Words](./aspose-words-python-html-page-callbacks/)
 Erfahren Sie, wie Sie mit Aspose.Words für Python Word-Dokumente mithilfe benutzerdefinierter Rückrufe in separate HTML-Seiten konvertieren. Perfekt für Dokumentenverwaltung und Web-Publishing.
 
-    ### [Master Aspose.Words Markdown Load Options in Python for Enhanced Document Processing](./aspose-words-markdown-load-options-python/)
+### [Master Aspose.Words Markdown Load Options in Python for Enhanced Document Processing](./aspose-words-markdown-load-options-python/)
 Lernen Sie, Markdown-Dateien mit der MarkdownLoadOptions-Funktion von Aspose.Words in Python effizient zu verwalten und zu verarbeiten. Verbessern Sie Ihre Dokument-Workflows mit präziser Kontrolle über die Formatierung.
 
-    ### [Master Aspose.Words for Python&#58; Efficiently Manage and Automate Word Documents](./master-aspose-words-python-managing-word-docs/)
+### [Master Aspose.Words for Python&#58; Efficiently Manage and Automate Word Documents](./master-aspose-words-python-managing-word-docs/)
 Lernen Sie, Microsoft Word-Dokumente mit Aspose.Words in Python zu laden, zu verwalten und zu automatisieren. Optimieren Sie Ihre Dokumentverarbeitungsaufgaben mühelos.
 
-    ### [Master Document Loading with Aspose.Words for Python](./mastering-aspose-words-document-loading-python/)
+### [Master Document Loading with Aspose.Words for Python](./mastering-aspose-words-document-loading-python/)
 Ein Code-Tutorial für Aspose.Words Python-net
 
-    ### [Master Document Management with Aspose.Words in Python&#58; Limit Headings & Sign XPS Documents](./aspose-words-python-document-management/)
+### [Master Document Management with Aspose.Words in Python&#58; Limit Headings & Sign XPS Documents](./aspose-words-python-document-management/)
 Erfahren Sie, wie Sie mit Aspose.Words für Python Überschriftenebenen begrenzen und digitale Signaturen in XPS-Dokumenten anwenden und so die Dokumentsicherheit und -navigation verbessern.
 
-    ### [Mastering DocSaveOptions&#58; Password & Temp Folder in Aspose.Words](./mastering-docsaveoptions-password-temp-folder-aspose-words-python/)
+### [Mastering DocSaveOptions&#58; Password & Temp Folder in Aspose.Words](./mastering-docsaveoptions-password-temp-folder-aspose-words-python/)
 Ein Code-Tutorial für Aspose.Words Python-net
 
-    ### [Save Word Documents as PostScript in Python Using Aspose.Words&#58; A Comprehensive Guide](./save-docs-as-postscript-using-aspose-words-python/)
+### [Save Word Documents as PostScript in Python Using Aspose.Words&#58; A Comprehensive Guide](./save-docs-as-postscript-using-aspose-words-python/)
 Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words für Python in das PostScript-Format konvertieren. Diese Anleitung behandelt die Einrichtung, Konvertierung und Buchfalzdruckoptionen.
 
 ### [Beschädigtes DOCX wiederherstellen – Word-Dokument öffnen & laden](./recover-corrupted-docx-open-load-word-document/)
@@ -62,6 +62,35 @@ Lernen Sie, wie Sie beschädigte DOCX-Dateien mit Aspose.Words für Python‑net
 
 ### [Beschädigtes DOCX wiederherstellen – Vollständiger Leitfaden zum Aktivieren des Wiederherstellungsmodus & Ermitteln der Seitenzahl](./recover-corrupted-docx-complete-guide-to-enable-recovery-mod/)
 Erfahren Sie, wie Sie beschädigte DOCX-Dateien wiederherstellen, den Wiederherstellungsmodus aktivieren und die Seitenzahl ermitteln.
+### [Beschädigtes Word-Dokument mit Python wiederherstellen – Vollständiger Leitfaden](./recover-corrupted-word-document-using-python-complete-guide/)
+Erfahren Sie, wie Sie beschädigte Word-Dokumente mithilfe von Python und Aspose.Words vollständig wiederherstellen können.
+### [Beschädigtes Word-Dokument wiederherstellen mit Aspose.Words für Python](./recover-corrupted-word-document-with-aspose-words-python/)
+Lernen Sie, wie Sie beschädigte Word-Dokumente mit Aspose.Words für Python öffnen und wiederherstellen.
+### [Wie man DOCX wiederherstellt – Vollständiger Leitfaden zur Wiederherstellung beschädigter Word-Dokumente](./how-to-recover-docx-complete-guide-to-restoring-corrupted-wo/)
+Erfahren Sie, wie Sie beschädigte DOCX-Dateien vollständig wiederherstellen und öffnen können.
+### [DOCX-Dateien wiederherstellen – Vollständiger Leitfaden mit Aspose.Words](./how-to-recover-docx-files-complete-guide-with-aspose-words/)
+Erfahren Sie, wie Sie beschädigte DOCX-Dateien mit Aspose.Words vollständig wiederherstellen und öffnen können.
+### [Wie man DOCX-Dateien in Python wiederherstellt – Dokument mit Wiederherstellung laden mit Aspose.Words](./how-to-recover-docx-files-in-python-load-document-with-recov/)
+Erfahren Sie, wie Sie beschädigte DOCX-Dateien in Python mit Aspose.Words laden und wiederherstellen.
+
+### [Beschädigtes DOCX wiederherstellen – Komplettanleitung mit Aspose.Words für Python](./recover-corrupted-docx-complete-guide-using-aspose-words-for/)
+Erfahren Sie, wie Sie beschädigte DOCX-Dateien vollständig mit Aspose.Words für Python wiederherstellen und öffnen.
+### [Beschädigtes DOCX wiederherstellen – Komplettleitfaden zum Öffnen von Word-Dateien mit Aspose](./recover-corrupted-docx-complete-guide-to-opening-word-files/)
+Erfahren Sie, wie Sie beschädigte DOCX-Dateien vollständig wiederherstellen und öffnen können.
+### [Beschädigte DOCX-Dateien in Python wiederherstellen – Komplettanleitung](./recover-corrupted-docx-files-in-python-complete-guide/)
+Erfahren Sie, wie Sie beschädigte DOCX-Dateien mit Aspose.Words für Python‑net vollständig wiederherstellen und öffnen können.
+### [DOCX-Dateien in Python wiederherstellen – Komplettleitfaden](./how-to-recover-docx-files-in-python-complete-guide/)
+Erfahren Sie, wie Sie beschädigte DOCX-Dateien mit Aspose.Words für Python‑net vollständig wiederherstellen und öffnen.
+### [Beschädigtes DOCX in Python wiederherstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./recover-corrupted-docx-in-python-full-step-by-step-guide/)
+Erfahren Sie, wie Sie beschädigte DOCX-Dateien in Python vollständig wiederherstellen.
+### [Wie man DOCX in Python mit Aspose.Words wiederherstellt](./how-to-recover-docx-in-python-using-aspose-words/)
+Erfahren Sie, wie Sie beschädigte DOCX-Dateien mit Aspose.Words für Python‑net wiederherstellen.
+### [Wie man ein beschädigtes Word-Dokument wiederherstellt und die wiederhergestellte Word-Datei mit Aspose.Words speichert](./how-to-recover-corrupted-word-document-and-save-recovered-wo/)
+### [Beschädigtes DOCX wiederherstellen – Schritt‑für‑Schritt‑Anleitung mit Aspose.Words](./recover-corrupted-docx-with-aspose-words-step-by-step-guide/)
+Erfahren Sie, wie Sie beschädigte DOCX-Dateien mit Aspose.Words für Python‑net Schritt für Schritt wiederherstellen.
+
+### [Wie man beschädigte DOCX-Dateien mit Aspose.Words für Python wiederherstellt](./how-to-recover-corrupted-docx-files-using-aspose-words-for-p/)
+Erfahren Sie, wie Sie beschädigte DOCX-Dateien mit Aspose.Words für Python effizient wiederherstellen.
 
 ## Weitere Ressourcen
 

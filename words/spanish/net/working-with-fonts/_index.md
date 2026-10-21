@@ -22,7 +22,7 @@ Los tutoriales ofrecen explicaciones detalladas paso a paso de cada función, ju
 
 Ya sea que desee formatear texto con diferentes fuentes, establecer reglas de sustitución de fuentes, cargar fuentes desde directorios específicos o recibir notificaciones de fuentes, los tutoriales "Procesamiento de textos con fuentes" le proporcionaràn el conocimiento para realizar estas tareas con facilidad.
 
- ## Tutoriales
+## Tutoriales
 | Título | Descripción |
 | --- | --- |
 | [Formato de fuente](./font-formatting/) | Aprenda a formatear fuentes en documentos de Word usando Aspose.Words para .NET con una guía detallada paso a paso. |
@@ -41,8 +41,9 @@ Ya sea que desee formatear texto con diferentes fuentes, establecer reglas de su
 | [Establecer carpeta de fuentes True Type](./set-true-type-fonts-folder/) Aprenda a configurar una carpeta de fuentes True Type en documentos de Word con Aspose.Words para .NET. Siga nuestra guía detallada paso a paso para garantizar una gestión de fuentes consistente. |
 | [Especificar la fuente predeterminada al renderizar](./specify-default-font-when-rendering/) Aprenda a especificar una fuente predeterminada al renderizar documentos de Word con Aspose.Words para .NET. Asegúrese de que la apariencia de los documentos sea uniforme en todas las plataformas. |
 | [Configuración de fuente con opciones de carga](./font-settings-with-load-options/) Aprenda a administrar la configuración de fuentes con las opciones de carga en Aspose.Words para .NET. Guía paso a paso para desarrolladores que garantiza una apariencia uniforme de las fuentes en documentos de Word. |
-| [Establecer carpeta de fuentes](./set-fonts-folder/) | Aprenda a configurar una carpeta de fuentes personalizadas en Aspose.Words para .NET para garantizar que sus documentos de Word se representen correctamente sin fuentes faltantes. |
+| [Establecer carpeta de fuentes](./set-fonts-folder/) | Aprenda a configurar una carpeta de fuentes personalizada en Aspose.Words para .NET para garantizar que sus documentos de Word se representen correctamente sin fuentes faltantes. |
 | [Configuración de fuente Instancia predeterminada](./font-settings-default-instance/) | En este tutorial, aprenda a configurar la configuración de fuente predeterminada en un documento de Word con Aspose.Words para .NET. |
+| [Cómo establecer FontSettings – Manejar fuentes faltantes](./how-to-set-fontsettings-handle-missing-fonts/) | Aprenda a configurar FontSettings para detectar y gestionar fuentes faltantes en documentos Word con Aspose.Words para .NET. |
 | [Obtener lista de fuentes disponibles](./get-list-of-available-fonts/) Descubre cómo obtener una lista de fuentes disponibles con Aspose.Words para .NET en este detallado tutorial paso a paso. Mejora tus habilidades de gestión de fuentes. |
 | [Recibir notificaciones de fuentes](./receive-notifications-of-fonts/) | Aprenda cómo recibir notificaciones de fuentes faltantes o sustituidas al usar Aspose.Words para .NET. |
 | [Recibir notificación de advertencia](./receive-warning-notification/) Aprenda cómo recibir una notificación de advertencia al usar Aspose.Words para .NET y administrar cualquier problema o advertencia en sus documentos. |
@@ -54,8 +55,10 @@ Ya sea que desee formatear texto con diferentes fuentes, establecer reglas de su
 | [Establecer devolución de llamada de advertencia en C# – Guía completa de manejo de fuentes](./set-warning-callback-in-c-complete-guide-to-font-handling/) | Aprenda a configurar una devolución de llamada de advertencia para la gestión de fuentes en Aspose.Words para .NET con este tutorial paso a paso. |
 | [Cómo cargar DOCX en C# – Guía completa](./how-to-load-docx-in-c-complete-guide/) | Aprenda a cargar archivos DOCX en C# usando Aspose.Words para .NET con esta guía paso a paso. |
 | [Cómo detectar fuentes en Aspose.Words – Manejar advertencias y configuraciones](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Aprenda a detectar fuentes, manejar advertencias y configurar fuentes en Aspose.Words para .NET con esta guía paso a paso. |
+| [Cómo detectar sustitución en Aspose.Words – Manejar fuentes faltantes](./how-to-detect-substitution-in-aspose-words-handle-missing-fo/) | Aprenda a detectar sustitución de fuentes y manejar fuentes faltantes en Aspose.Words para .NET con esta guía paso a paso. |
 | [Cómo capturar fuentes en Aspose.Words – Guía completa](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Aprenda a capturar fuentes en documentos de Word usando Aspose.Words con esta guía paso a paso completa. |
 | [Cómo cargar DOCX y detectar fuentes faltantes – Guía completa en C#](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Aprenda a cargar documentos DOCX y detectar fuentes faltantes usando Aspose.Words para .NET con esta guía paso a paso en C#. |
+| [Cómo manejar fuentes en .NET – detectar fuentes faltantes](./how-to-handle-fonts-in-net-detect-missing-fonts/) | Aprenda a detectar fuentes faltantes en documentos .NET usando Aspose.Words paso a paso. |
 | [Habilitar advertencias de sustitución de fuentes en Aspose.Words – Guía completa](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | Aprenda a habilitar advertencias de sustitución de fuentes en Aspose.Words con esta guía completa paso a paso. |
 | [c# cargar documento Word – detectar y manejar fuentes faltantes](./c-load-word-document-detect-handle-missing-fonts/) | Aprenda a cargar un documento Word y detectar fuentes faltantes con Aspose.Words para .NET, manejándolas paso a paso. |
 | [Registro de advertencias de sustitución de fuentes – Guía completa de Aspose.Words](./log-font-substitution-warnings-complete-aspose-words-guide/) | Aprenda a registrar advertencias de sustitución de fuentes en Aspose.Words para .NET con esta guía paso a paso. |
@@ -70,6 +73,19 @@ Ya sea que desee formatear texto con diferentes fuentes, establecer reglas de su
 | [Cómo usar FontSettings para manejar fuentes faltantes](./how-to-use-fontsettings-to-handle-missing-fonts-in-aspose-wo/) | Aprenda a usar FontSettings para manejar fuentes faltantes en Aspose.Words para .NET. |
 | [Cómo detectar fuentes en C# – Usar devolución de llamada con Aspose.Words](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | Aprenda a detectar fuentes en documentos Word usando una devolución de llamada en C# con Aspose.Words. |
 | [Cómo capturar advertencias – Configurar la fuente predeterminada](./how-to-capture-warnings-set-default-font-settings/) | Aprenda a capturar advertencias y establecer la configuración de fuente predeterminada con Aspose.Words para .NET. |
+| [Guardar documento Word – Detectar fuentes faltantes con Aspose.Words](./save-word-document-detect-missing-fonts-with-aspose-words/) | Aprenda a guardar documentos Word detectando fuentes faltantes usando Aspose.Words para .NET. |
+| [Crear devolución de llamada de advertencia al cargar documentos Word – Guía completa](./create-warning-callback-for-loading-word-documents-complete/) | Aprenda a crear una devolución de llamada de advertencia al cargar documentos Word con Aspose.Words para .NET en esta guía paso a paso. |
+| [Sustitución de fuentes Aspose: Detectar fuentes faltantes en documentos Word](./aspose-font-substitution-detect-missing-fonts-in-word-docs/) | Aprenda a detectar fuentes faltantes en documentos Word usando Aspose.Words para .NET con esta guía paso a paso. |
+| [Manejar la sustitución de fuentes en Aspose.Words – Guía completa de programación](./handle-font-substitution-in-aspose-words-complete-programmin/) | Aprenda a gestionar la sustitución de fuentes en Aspose.Words con esta guía completa paso a paso. |
+| [Sustitución de fuentes Aspose – Cómo configurar la configuración de fuentes en C#](./aspose-font-substitution-how-to-configure-font-settings-in-c/) | Aprenda a configurar la sustitución de fuentes y ajustes de fuentes en Aspose.Words para .NET usando C# paso a paso. |
+| [Cómo capturar advertencias en Aspose.Words – Guía completa en C#](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) | Aprenda a capturar advertencias en Aspose.Words usando C# con esta guía paso a paso. |
+| [Habilitar advertencias de fuentes en Aspose.Words – Guía completa en C#](./enable-font-warnings-in-aspose-words-complete-c-guide/) | Aprenda a habilitar advertencias de fuentes en Aspose.Words para .NET con esta guía completa paso a paso en C#. |
+| [Cómo detectar fuentes en C# – Guía completa](./how-to-detect-fonts-in-c-complete-guide/) | Aprenda a detectar fuentes en documentos Word usando Aspose.Words para .NET con C# en esta guía completa paso a paso. |
+| [Sustitución de fuentes Aspose – Detectar fuentes faltantes en documentos de Word](./aspose-font-substitution-detect-missing-fonts-in-word-docume/) | Aprenda a detectar fuentes faltantes en documentos de Word con Aspose.Words para .NET mediante la sustitución de fuentes. |
+| [Cómo detectar fuentes en Aspose.Words – Guía completa](./how-to-detect-fonts-in-aspose-words-complete-guide/) | Aprenda a detectar fuentes en documentos Word con Aspose.Words para .NET mediante esta guía completa paso a paso. |
+| [Cómo usar IWarningCallback – Detectar fuentes faltantes con Aspose.Words](./how-to-use-iwarningcallback-detect-missing-fonts-with-aspose/) | Aprenda a utilizar IWarningCallback para detectar fuentes faltantes en documentos Word con Aspose.Words para .NET. |
+| [Cómo cargar fuentes en .NET – Configurar ajustes de fuente y advertencias](./how-to-load-fonts-in-net-set-font-settings-warnings/) | Aprenda a cargar fuentes en .NET, configurar la configuración de fuentes y gestionar advertencias con Aspose.Words para .NET. |
+| [Guardar docx como PDF y detectar fuentes faltantes usando Aspose.Words](./save-docx-as-pdf-detect-missing-fonts-using-aspose-words/) | Aprenda a convertir documentos DOCX a PDF y detectar fuentes faltantes con Aspose.Words para .NET en una guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
