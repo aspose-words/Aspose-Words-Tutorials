@@ -158,6 +158,9 @@ Aspose.Words for Java का उपयोग करके क्षतिग्�
 ### [Aspose.Words LoadOptions – जावा में करप्ट Word दस्तावेज़ पुनर्प्राप्त करें](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 Aspose.Words LoadOptions का उपयोग करके जावा में करप्ट Word फ़ाइलों को पुनर्प्राप्त और प्रोसेस करें।
 
+### [Aspose.Words for Java के साथ भ्रष्ट DOCX को पुनर्प्राप्त करें – पूर्ण गाइड](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
+Aspose.Words for Java का उपयोग करके भ्रष्ट DOCX फ़ाइलों को पुनर्प्राप्त करने की पूरी प्रक्रिया सीखें।
+
 ### [Aspose.Words के साथ जावा में फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैप्चर करें – पूर्ण गाइड](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [docx को पुनर्प्राप्त करने का पूर्ण गाइड – भ्रष्ट Word फ़ाइलें पढ़ें](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 

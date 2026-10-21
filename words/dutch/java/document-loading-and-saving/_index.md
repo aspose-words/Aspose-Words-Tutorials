@@ -207,6 +207,7 @@ Leer hoe je een leeg Word‑document maakt in Java met Aspose.Words, inclusief s
 Leer hoe je onderstrepingen in Markdown kunt laden en verwerken met Aspose.Words for Java.
 ### [Aspose Lettertypevervanging Tutorial – Ontbrekende Lettertypen Afhandelen](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 Leer hoe je ontbrekende lettertypen kunt afhandelen en vervangingswaarschuwingen vastlegt met Aspose.Words for Java.
+### [Herstel beschadigde DOCX met Aspose.Words voor Java – Complete gids](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
 
 ## Veelgestelde vragen
 

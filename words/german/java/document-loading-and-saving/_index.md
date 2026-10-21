@@ -172,6 +172,8 @@ Erfahren Sie, wie Sie fehlende Schriftarten in Aspose.Words für Java handhaben 
 
 ### [Wie man eine Datei aus einem Verzeichnis mit Aspose.Words in C# lädt](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 Erfahren Sie, wie Sie mit Aspose.Words in C# Dateien aus einem Verzeichnis laden und verarbeiten.
+### [Beschädigtes DOCX wiederherstellen – Vollständiger Leitfaden mit Aspose.Words für Java](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
+Erfahren Sie, wie Sie beschädigte DOCX‑Dateien mit Aspose.Words für Java reparieren und wiederherstellen.
 
 ## Häufig gestellte Fragen
 

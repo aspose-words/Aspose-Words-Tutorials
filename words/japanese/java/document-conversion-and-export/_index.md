@@ -130,6 +130,11 @@ Aspose.Words for Java を使用して Word 文書を Markdown に変換する完
 Aspose.Words for Java を使用して DOCX ファイルを Markdown に変換し、完全な手順とコード例を示します。
 ### [docx を markdown に変換 – Aspose.Words で数式を LaTeX にエクスポート](./convert-docx-to-markdown-export-math-equations-to/)
 Aspose.Words を使用して DOCX 文書を Markdown に変換し、数式を LaTeX 形式でエクスポートする方法をステップバイステップで解説します。
+### [Aspose.Words for Java で DOCX を PDF に変換 – 完全ステップバイステップガイド](./convert-docx-to-pdf-in-java-complete-step-by-step-guide/)
+
+### [DOCX からアクセシブル PDF を作成 – 完全ステップバイステップガイド](./create-accessible-pdf-from-docx-complete-step-by-step-guide/)
+
+### [docx を markdown に変換 – 完全ガイド（数式エクスポート）](./convert-docx-to-markdown-complete-guide-with-math-export/)
 
 ### [Aspose.Words for Java で docx を markdown に変換する方法](./how-to-convert-docx-to-markdown-with-aspose-words/)
 Aspose.Words for Java を使用して DOCX ファイルを Markdown に変換する手順をステップバイステップで解説します。
@@ -279,6 +284,11 @@ Aspose.Words for Java を使用して、Markdown ファイルを DOCX に変換�
 
 ### [Word で円グラフを作成し PNG として保存する方法](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
 Word 文書内で円グラフを作成し、画像として PNG 形式でエクスポートする手順を解説します。
+### [DOCX を markdown に変換 – 完全 Java ガイド](./convert-docx-to-markdown-complete-java-guide/)
+
+### [docx を markdown として保存 – Aspose.Words を使用](./save-docx-as-markdown-convert-docx-to-markdown-using-aspose/)
+
+### [Word から PNG を保存する方法 – 完全ステップバイステップガイド](./how-to-save-png-from-word-complete-step-by-step-guide/)
 
 ---
 

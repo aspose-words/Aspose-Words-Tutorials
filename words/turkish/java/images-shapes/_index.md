@@ -129,6 +129,9 @@ Java kullanarak docx belgesine resim ekleyin ve Word içinde resmi gizleyin.
 ### [Java ile Word'de Şekilleri Gruplama – Tam Kılavuz](./how-to-group-shapes-in-word-with-java-complete-guide/)
 Java kullanarak Word belgelerinde şekilleri nasıl gruplayacağınızı adım adım öğrenin.
 
+### [Java’da Şekle Gölge Ekle – Tam Programlama Kılavuzu](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Java kullanarak Word belgelerinde şekillere gölge eklemeyi adım adım öğrenin.
+
 ## Ek Kaynaklar
 
 ### [Gizli elips şekliyle boş bir Word belgesi oluşturma](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

@@ -248,6 +248,13 @@ Learn how to recover corrupted Word documents with Aspose.Words. Detailed steps 
 ### [Aspose words loadOptions – recover corrupted word docs in java]({{< relref "aspose-words-loadoptions-recover-corrupted-word-docs-in-java" >}})
 ### [Capture Font Substitution Warnings in Java with Aspose.Words]({{< relref "capture-font-substitution-warnings-in-java-with-aspose-words" >}})
 ### [Aspose font substitution tutorial – handle missing fonts]({{< relref "aspose-font-substitution-tutorial-handle-missing-fonts" >}})
+### [Recover corrupted docx – Complete Guide to Fix and Process Documents]({{< relref "recover-corrupted-docx-complete-guide-to-fix-and-process-doc/_index.md" >}})
+Learn how to repair corrupted DOCX files and process them using Aspose.Words for Java.
+
+### [Recover Corrupted DOCX with Aspose.Words for Java – Complete Guide]({{< relref "recover-corrupted-docx-with-aspose-words-for-java-complete-g/_index.md" >}})
+Learn how to repair corrupted DOCX files using Aspose.Words for Java with step‑by‑step instructions and code examples.
+
+### [Capture font substitution warnings in java with Aspose.Words – complete guide]({{< relref "capture-font-substitution-warnings-in-java-with-aspose-words/_index.md" >}})
 
 ## Frequently asked questions
 

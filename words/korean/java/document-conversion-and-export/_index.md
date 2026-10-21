@@ -303,6 +303,13 @@ Aspose.Words for Java를 사용해 Word 문서를 Markdown 형식으로 변환�
 
 ### [Java에서 HTML 테이블이 포함된 Word를 마크다운으로 저장하는 방법](./how-to-save-word-as-markdown-with-html-tables-in-java/)
 Aspose.Words for Java를 사용해 Word 문서를 HTML 테이블을 유지한 채 마크다운 파일로 변환하는 단계별 가이드.
+### [Java용 Aspose.Words에서 DOCX를 PDF로 변환](./aspose-word-to-pdf-convert-docx-to-pdf/)
+### [Java에서 docx를 pdf로 변환 – 완전 단계별 가이드](./convert-docx-to-pdf-in-java-complete-step-by-step-guide/)
+### [DOCX에서 접근성 PDF 만들기 – 완전 단계별 가이드](./create-accessible-pdf-from-docx-complete-step-by-step-guide/)
+### [DOCX를 Markdown으로 변환 – 수학 내보내기 포함 완전 가이드](./convert-docx-to-markdown-complete-guide-with-math-export/)
+### [DOCX를 Markdown으로 변환 – 완전 Java 가이드](./convert-docx-to-markdown-complete-java-guide/)
+### [docx를 markdown으로 저장: Aspose.Words를 사용하여 변환](./save-docx-as-markdown-convert-docx-to-markdown-using-aspose/)
+### [Word에서 PNG 저장하기 – 완전 단계별 가이드](./how-to-save-png-from-word-complete-step-by-step-guide/)
 
 ## 자주 묻는 질문
 

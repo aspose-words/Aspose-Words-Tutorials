@@ -41,6 +41,9 @@ En kodhandledning för Aspose.Words Java
 ### [Byt namn på Word Merge Fields med Aspose.Words för Java](./rename-word-merge-fields-aspose-words-java/)
 En kodhandledning för Aspose.Words Java
 
+### [Skapa mail merge-mall och konvertera DOCX till PDF i C#](./create-mail-merge-template-convert-docx-to-pdf-in-c/)
+Lär dig skapa en mail merge-mall och konvertera DOCX-filer till PDF med Aspose.Words för C#.
+
 ## Ytterligare resurser
 
 - [Aspose.Words för Java-dokumentation](https://reference.aspose.com/words/java/)

@@ -126,6 +126,8 @@ Aprenda a crear un documento vacío y añadir formas usando Aspose.Words en C#.
 
 ### [Cómo insertar una imagen en docx y ocultar la imagen en Word con Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
 Aprenda a insertar y ocultar imágenes en documentos Word usando Aspose.Words para Java.
+### [Agregar sombra a una forma en Java – Guía completa de programación](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Aprenda a agregar sombra a una forma en Java usando Aspose.Words con una guía paso a paso.
 
 ## Recursos adicionales
 

@@ -131,6 +131,9 @@ Poznaj, jak naprawić uszkodzone pliki DOCX w Javie przy użyciu Aspose.Words. K
 ### [Aspose.Words LoadOptions – odzyskiwanie uszkodzonych dokumentów Word w Javie](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 Dowiedz się, jak używać LoadOptions w Aspose.Words for Java do naprawy i odzyskiwania uszkodzonych plików DOC/DOCX.
 
+### [Odzyskaj uszkodzony DOCX przy użyciu Aspose.Words for Java – Kompletny przewodnik](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
+Dowiedz się, jak naprawić uszkodzone pliki DOCX i przywrócić ich zawartość przy użyciu Aspose.Words for Java.
+
 ### [Rejestrowanie ostrzeżeń o podstawianiu czcionek w Javie przy użyciu Aspose.Words – Kompletny przewodnik](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [Jak odzyskać docx – Kompletny przewodnik odczytu uszkodzonych plików Word](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 Dowiedz się, jak odczytać i naprawić uszkodzone pliki DOCX przy użyciu Aspose.Words for Java.

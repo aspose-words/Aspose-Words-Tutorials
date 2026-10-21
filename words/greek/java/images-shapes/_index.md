@@ -126,6 +126,9 @@
 ### [Πώς να ομαδοποιήσετε σχήματα στο Word με Java – πλήρης οδηγός](./how-to-group-shapes-in-word-with-java-complete-guide/)
 Μάθετε πώς να ομαδοποιήσετε σχήματα σε έγγραφα Word με το Aspose.Words για Java, βήμα‑βήμα οδηγίες και παραδείγματα.
 
+### [Προσθήκη σκιάς σε σχήμα σε Java – Πλήρης Οδηγός Προγραμματισμού](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Μάθετε πώς να προσθέσετε σκιά σε σχήματα σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
+
 ## Πρόσθετοι Πόροι
 
 ### [Δημιουργία κενής εγγράφου Word με κρυφό σχήμα έλλειψης](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

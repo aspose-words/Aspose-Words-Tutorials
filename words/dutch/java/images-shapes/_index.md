@@ -125,6 +125,8 @@ Leer hoe u een leeg Word‑document maakt en vormen toevoegt met Aspose.Words in
 Leer hoe u een afbeelding in een docx invoegt en deze verbergt in Word met Java.
 ### [Hoe vormen groeperen in Word met Java – complete gids](./how-to-group-shapes-in-word-with-java-complete-guide/)
 Leer hoe u meerdere vormen in een Word‑document groepeert met Aspose.Words voor Java.
+### [Schaduw toevoegen aan vorm in Java – Complete programmeergids](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Leer hoe u een vorm in een Word-document in Java een schaduweffect geeft met een stapsgewijze programmeergids.
 
 ## Aanvullende bronnen
 

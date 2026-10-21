@@ -168,6 +168,8 @@ Học cách khôi phục các tệp DOCX bị hỏng bằng Aspose.Words cho Jav
 ### [Cách tải tệp từ thư mục bằng Aspose.Words trong C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 Học cách tải tệp từ thư mục bằng Aspose.Words trong C#.
 
+### [Khôi phục DOCX bị hỏng với Aspose.Words cho Java – Hướng dẫn toàn diện](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
+
 ## Câu Hỏi Thường Gặp
 
 **Hỏi:** Làm thế nào để **lưu hình ảnh từ Word** một cách lập trình?  

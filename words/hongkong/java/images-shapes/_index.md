@@ -124,6 +124,8 @@ Aspose.Words Java 程式碼教程
 了解如何使用 Aspose.Words for Java 在 Word 文檔中插入圖片並將其隱藏，以實現更靈活的內容呈現。
 ### [如何在 Word 中使用 Java 將形狀分組 – 完整指南](./how-to-group-shapes-in-word-with-java-complete-guide/)
 了解如何在 Java 中使用 Aspose.Words for Java 將 Word 文檔中的形狀分組，並自訂屬性以提升文件的結構與視覺效果。
+### [在 Java 中為形狀添加陰影 – 完整程式設計指南](./add-shadow-to-shape-in-java-complete-programming-guide/)
+本指南詳細說明如何使用 Aspose.Words for Java 為形狀添加陰影效果，涵蓋完整程式碼示例與步驟說明。
 
 ## 其他資源
 

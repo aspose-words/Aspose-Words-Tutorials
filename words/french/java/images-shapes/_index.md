@@ -123,6 +123,8 @@ Apprenez à créer un document vierge et y ajouter des formes en C# avec Aspose.
 Apprenez à insérer une image dans un fichier docx et à la masquer dans Word à l'aide d'Aspose.Words pour Java.
 ### [Comment regrouper des formes dans Word avec Java – guide complet](./how-to-group-shapes-in-word-with-java-complete-guide/)
 Apprenez à regrouper plusieurs formes dans un document Word à l’aide d’Aspose.Words pour Java.
+### [Ajouter une ombre à une forme en Java – Guide complet de programmation](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Apprenez à appliquer des effets d’ombre aux formes dans vos documents Word en Java avec Aspose.Words.
 
 ## Ressources supplémentaires
 

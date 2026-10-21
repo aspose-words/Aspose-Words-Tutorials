@@ -200,6 +200,13 @@ Erfahren Sie, wie Sie beim Exportieren von Word-Dokumenten nach Markdown die Bil
 ### [DOCX in Markdown konvertieren – mit Aspose.Words](./how-to-convert-docx-to-markdown-with-aspose-words/)
 Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in Markdown umwandeln.
 
+### [DOCX in Markdown konvertieren – Komplett‑Leitfaden mit Mathe‑Export](./convert-docx-to-markdown-complete-guide-with-math-export/)
+
+### [DOCX in Markdown konvertieren – Komplett‑Java‑Leitfaden](./convert-docx-to-markdown-complete-java-guide/)
+
+### [DOCX als Markdown speichern – DOCX in Markdown konvertieren mit Aspose.Words](./save-docx-as-markdown-convert-docx-to-markdown-using-aspose/)
+Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in Markdown umwandeln und dabei Text, Bilder und Formate erhalten.
+
 ### [Wie man Bilder in Markdown beim Konvertieren von DOCX einbettet](./how-to-embed-images-in-markdown-when-converting-docx/)
 
 ### [DOCX als Markdown speichern – Vollständige C#‑Anleitung](./save-docx-as-markdown-complete-c-guide/)
@@ -217,6 +224,9 @@ Erfahren Sie, wie Sie Bilder aus DOCX beim Konvertieren zu Markdown als Base64�
 ### [Word als Markdown speichern – komplette Anleitung mit Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
 Erfahren Sie, wie Sie Word-Dokumente vollständig als Markdown-Dateien speichern, inklusive Formatierung und Bildern, mit Aspose.Words.
 
+### [Wie man PNG aus Word speichert – Komplett‑Schritt‑für‑Schritt‑Leitfaden](./how-to-save-png-from-word-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie PNG‑Bilder aus Word‑Dokumenten extrahieren und speichern, inkl. Code‑Beispielen und Optionen für Auflösung und Transparenz.
+
 ### [Aspose Word zu PDF – DOCX in PDF konvertieren in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 
 ### [Word als PDF speichern mit Aspose.Words – Vollständiger Java‑Leitfaden](./save-word-as-pdf-with-aspose-words-complete-java-guide/)
@@ -224,6 +234,9 @@ Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words in Java problemlos als P
 
 ### [Wie man PDF aus Word mit Inline‑Formen speichert – Komplett‑Leitfaden](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words for Java PDFs aus Word‑Dokumenten inklusive Inline‑Grafiken korrekt speichern.
+
+### [DOCX in PDF konvertieren in Java – Komplett‑Anleitung Schritt für Schritt](./convert-docx-to-pdf-in-java-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words for Java vollständig und fehlerfrei in PDF umwandeln – Schritt für Schritt.
 
 ### [Barrierefreies PDF aus DOCX erstellen – Komplettanleitung](./create-accessible-pdf-from-docx-complete-guide/)
 ### [Bilder als Base64 einbetten beim Konvertieren von DOCX nach Markdown in Java](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
@@ -346,6 +359,8 @@ Erfahren Sie, wie Sie mit Aspose.Words for Java Markdown‑Dateien in DOCX‑Dok
 
 ### [Wie man Word als Markdown mit HTML-Tabellen in Java speichert](./how-to-save-word-as-markdown-with-html-tables-in-java/)
 Speichern Sie ein Word-Dokument als Markdown, wobei HTML‑Tabellen erhalten bleiben, mit Aspose.Words für Java.
+### [Barrierefreies PDF aus DOCX erstellen – Komplett‑Schritt‑für‑Schritt‑Leitfaden](./create-accessible-pdf-from-docx-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein PDF aus DOCX erstellen, das den PDF/UA‑Barrierefreiheitsstandards entspricht.
 
 ## Häufig gestellte Fragen
 

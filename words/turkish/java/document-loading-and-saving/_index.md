@@ -194,6 +194,9 @@ Java’da markdown alt çizgilerini nasıl yükleyeceğinizi adım adım öğren
 
 ### [Aspose.Words ile C#’ta Klasörden Dosya Yükleme](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 C# kullanarak bir klasörden Word dosyasını nasıl yükleyeceğinizi ve işleyebileceğinizi adım adım öğrenin.
+### [Aspose.Words for Java ile Bozuk DOCX Dosyasını Kurtarma – Tam Kılavuz](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
+Aspose.Words for Java kullanarak bozuk DOCX dosyalarını nasıl onaracağınızı adım adım öğrenin.
+
 
 ## Sıkça Sorulan Sorular
 

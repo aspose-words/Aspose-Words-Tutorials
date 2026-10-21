@@ -125,6 +125,9 @@ Naučte se, jak vložit obrázek do DOCX a poté jej skrýt ve Wordu pomocí Asp
 ### [Jak seskupit tvary ve Wordu s Javou – kompletní průvodce](./how-to-group-shapes-in-word-with-java-complete-guide/)
 Naučte se, jak seskupit tvary v dokumentech Word pomocí Aspose.Words pro Javu.
 
+### [Přidat stín k tvaru v Javě – Kompletní programovací průvodce](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Naučte se, jak přidat stín k tvarům v dokumentech Word pomocí Aspose.Words pro Javu.
+
 ## Další zdroje
 
 ### [Vytvořte prázdný dokument Word se skrytým eliptickým tvarem](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)

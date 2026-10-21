@@ -124,6 +124,8 @@ Tanulja meg, hogyan hozhat létre üres Word-dokumentumot, és adhat hozzá alak
 Tanulja meg, hogyan szúrhat be képet a docx fájlba, majd elrejtheti azt a Word dokumentumban Java használatával.
 ### [Hogyan csoportosítsunk alakzatokat Word-ben Java-val – teljes útmutató](./how-to-group-shapes-in-word-with-java-complete-guide/)
 Ismerje meg, hogyan csoportosíthatja az alakzatokat Word dokumentumokban Java segítségével, lépésről lépésre.
+### [Árnyék hozzáadása alakzathoz Java‑ban – Teljes programozási útmutató](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Ismerje meg, hogyan adhat árnyékot alakzatokhoz Java-ban az Aspose.Words segítségével.
 
 ## További források
 

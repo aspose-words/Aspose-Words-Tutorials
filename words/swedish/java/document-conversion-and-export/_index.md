@@ -155,6 +155,17 @@ Lär dig hur du konverterar Word‑dokument till PDF med Aspose.Words for Java i
 
 ### [Spara Word som PDF med Aspose.Words – Fullständig Java-guide](./save-word-as-pdf-with-aspose-words-full-java-guide/)
 Lär dig steg‑för‑steg hur du sparar Word‑dokument som PDF med Aspose.Words i Java.
+### [Konvertera docx till Markdown – Komplett guide med export av matematik](./convert-docx-to-markdown-complete-guide-with-math-export/)
+Lär dig hur du konverterar docx till Markdown och exporterar matematiska ekvationer som LaTeX med Aspose.Words i en komplett guide.
+
+### [Konvertera docx till markdown – Komplett Java‑guide](./convert-docx-to-markdown-complete-java-guide/)
+Lär dig hur du konverterar DOCX till Markdown med Aspose.Words for Java i en komplett steg‑för‑steg‑guide.
+
+### [Spara docx som markdown: Konvertera docx till markdown med Aspose.Words](./save-docx-as-markdown-convert-docx-to-markdown-using-aspose/)
+Lär dig hur du sparar en DOCX‑fil som Markdown med Aspose.Words för Java i några enkla steg.
+
+### [Konvertera docx till pdf i Java – Komplett steg‑för‑steg‑guide](./convert-docx-to-pdf-in-java-complete-step-by-step-guide/)
+Lär dig hur du konverterar DOCX‑filer till PDF i Java med en detaljerad steg‑för‑steg‑guide.
 
 ### [Använda dokumentformer i Aspose.Words for Java](./using-document-shapes/)
 Utnyttja kraften i dokumentformer i Aspose.Words for Java. Lär dig att skapa visuellt engagerande dokument med steg‑för‑steg‑exempel.
@@ -371,6 +382,12 @@ Lär dig hur du sparar ett Word‑dokument som Markdown med Aspose.Words for Jav
 
 ### [Hur man skapar ett cirkeldiagram i Word och sparar det som PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
 Skapa ett cirkeldiagram i Word och exportera det som PNG‑bild med Aspose.Words för Java.
+
+### [Skapa tillgänglig PDF från DOCX – Komplett steg‑för‑steg‑guide](./create-accessible-pdf-from-docx-complete-step-by-step-guide/)
+Följ en detaljerad steg‑för‑steg‑process för att skapa en tillgänglig PDF från DOCX med Aspose.Words och bästa praxis.
+
+### [Hur man sparar PNG från Word – Komplett steg‑för‑steg‑guide](./how-to-save-png-from-word-complete-step-by-step-guide/)
+Lär dig hur du extraherar och sparar bilder som PNG från Word‑dokument med Aspose.Words for Java i en detaljerad guide.
 
 ## Vanliga frågor
 

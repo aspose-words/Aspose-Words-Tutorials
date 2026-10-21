@@ -123,6 +123,8 @@ Aprenda a criar um documento Word vazio e inserir formas usando Aspose.Words par
 Aprenda a inserir imagens em documentos DOCX e a ocultá-las no Word usando Aspose.Words para Java.
 ### [Como agrupar formas no Word com Java – Guia completo do Aspose.Words](./how-to-group-shapes-in-word-with-java-complete-guide/)
 Aprenda a agrupar formas em documentos Word usando Aspose.Words para Java, com exemplos de código detalhados.
+### [Adicionar sombra a forma em Java – Guia de Programação Completo](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Aprenda a aplicar sombras a formas em documentos Word usando Aspose.Words para Java com este guia completo.
 
 ## Recursos adicionais
 

@@ -125,6 +125,8 @@ Dowiedz się, jak utworzyć pusty dokument i dodać do niego kształty przy uży
 
 ### [Jak wstawić obraz do pliku docx i ukryć obraz w Wordzie przy użyciu Javy](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
 Dowiedz się, jak wstawić obraz do dokumentu docx i ukryć go w Wordzie przy użyciu Aspose.Words dla Java.
+### [Dodaj cień do kształtu w Javie – Kompletny przewodnik programistyczny](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Dowiedz się, jak dodać cień do kształtu w dokumentach Word przy użyciu Aspose.Words dla Java.
 
 ## Dodatkowe zasoby
 

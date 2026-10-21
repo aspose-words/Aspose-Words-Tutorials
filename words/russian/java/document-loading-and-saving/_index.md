@@ -209,6 +209,8 @@ Aspose.Words for Java упрощает **save images from Word** докумен�
 ### [Как загрузить файл из каталога с помощью Aspose.Words в C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 Узнайте, как загрузить файл из локального каталога с использованием Aspose.Words в C#.
 
+### [Восстановление повреждённого DOCX с Aspose.Words for Java – Полное руководство](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
+
 ## Часто задаваемые вопросы
 
 **Q:** Как программно **save images from word** документы?  

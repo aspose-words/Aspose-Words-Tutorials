@@ -126,6 +126,8 @@ Aspose.Words for C#를 이용해 빈 Word 문서를 생성하고 다양한 도�
 Java를 사용하여 docx에 이미지를 삽입하고 Word에서 숨기는 방법을 단계별로 안내합니다.
 ### [Java로 Word에서 도형 그룹화하기 – 완전 가이드](./how-to-group-shapes-in-word-with-java-complete-guide/)
 Java를 사용하여 Word 문서에서 도형을 그룹화하는 방법을 단계별로 안내합니다.
+### [Java에서 도형에 그림자 추가 – 완전 프로그래밍 가이드](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Java를 사용해 Word 문서의 도형에 그림자를 적용하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

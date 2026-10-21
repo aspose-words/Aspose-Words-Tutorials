@@ -170,6 +170,9 @@ Naučte se, jak detekovat a nahradit chybějící fonty při práci s dokumenty 
 
 ### [Jak načíst soubor ze složky pomocí Aspose.Words v C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 Naučte se načíst soubor z adresáře v C# pomocí knihovny Aspose.Words s praktickým příkladem kódu.
+### [Obnovení poškozeného DOCX s Aspose.Words pro Java – Kompletní průvodce](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
+Kompletní návod, jak opravit poškozené soubory DOCX pomocí Aspose.Words for Java, včetně kroků pro načtení, opravu a uložení dokumentu.
+
 
 ## Často kladené otázky
 

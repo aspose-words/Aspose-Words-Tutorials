@@ -102,6 +102,7 @@ Aspose.Words for Java의 다재다능함을 살펴보며 다양한 형식으로 
 ### [손상된 docx 복구 – 문서 복구 및 처리 완전 가이드](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 ### [DOCX 파일 복구 방법 – 단계별 Java 가이드](./how-to-recover-docx-files-step-by-step-java-guide/)
 ### [Aspose.Words로 손상된 docx 복구 – 완전 Java 가이드](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
+### [Aspose.Words for Java를 사용한 손상된 DOCX 복구 – 완전 가이드](./recover-corrupted-docx-with-aspose-words-for-java-complete-g/)
 ### [Java에서 Aspose.Words로 글꼴 대체 경고 캡처 – 완전 가이드](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 
 ### [docx 복구 방법 – 손상된 Word 파일 읽기 완전 가이드](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)

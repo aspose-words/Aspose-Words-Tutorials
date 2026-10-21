@@ -126,6 +126,8 @@
 تعلم كيفية إدراج صورة في مستند Word وإخفائها باستخدام Aspose.Words لجافا.
 ### [كيفية تجميع الأشكال في Word باستخدام Java – دليل كامل](./how-to-group-shapes-in-word-with-java-complete-guide/)
 تعلم خطوة بخطوة كيفية تجميع الأشكال في مستندات Word باستخدام Aspose.Words لجافا.
+### [إضافة ظل إلى الشكل في جافا – دليل برمجة كامل](./add-shadow-to-shape-in-java-complete-programming-guide/)
+دليل شامل يوضح كيفية إضافة ظل إلى الأشكال في مستندات Word باستخدام Aspose.Words لجافا
 
 ## موارد إضافية
 

@@ -168,6 +168,14 @@ weight: 22
 Показано, как преобразовать файл Markdown в документ Word (DOCX) с использованием Aspose.Words for Java.
 ### [Сохранить DOCX в Markdown – Полное руководство на Java](./save-docx-as-markdown-complete-java-guide/)
 Пошаговое руководство по сохранению DOCX в формате Markdown с использованием Aspose.Words for Java.
+### [Конвертировать DOCX в Markdown – Полное руководство с экспортом формул](./convert-docx-to-markdown-complete-guide-with-math-export/)
+Полное руководство по преобразованию DOCX в Markdown с экспортом математических уравнений в LaTeX с помощью Aspose.Words.
+
+### [Конвертировать DOCX в Markdown – Полное руководство на Java](./convert-docx-to-markdown-complete-java-guide/)
+Полное руководство по конвертации DOCX в Markdown с использованием Aspose.Words for Java, включая экспорт формул и изображений.
+
+### [Сохранить docx как markdown: Конвертировать docx в markdown с помощью Aspose.Words](./save-docx-as-markdown-convert-docx-to-markdown-using-aspose/)
+Преобразуйте DOCX в Markdown, сохранив форматирование и изображения, используя Aspose.Words for Java.
 
 ### [Как встраивать изображения в Markdown при конвертации DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Узнайте, как сохранять изображения из DOCX при экспорте в Markdown с помощью Aspose.Words for Java.
@@ -207,6 +215,8 @@ weight: 22
 Подробное руководство по сохранению документов Word в PDF с использованием Aspose.Words for Java.
 ### [Сохранить Word как PDF с Aspose.Words – Полное руководство на Java](./save-word-as-pdf-with-aspose-words-full-java-guide/)
 Подробное руководство по сохранению документов Word в PDF с помощью Aspose.Words for Java.
+### [Конвертировать docx в pdf в Java — Полное пошаговое руководство](./convert-docx-to-pdf-in-java-complete-step-by-step-guide/)
+Подробное руководство по конвертации DOCX в PDF в Java с использованием Aspose.Words, включая настройку параметров сохранения.
 
 ### [Создание доступного PDF из DOCX – Полное руководство](./create-accessible-pdf-from-docx-complete-guide/)
 Узнайте, как преобразовать DOCX в PDF, соответствующий требованиям доступности, используя Aspose.Words for Java.
@@ -371,6 +381,11 @@ weight: 22
 Сохраните документ Word в markdown, сохранив HTML‑таблицы, используя Aspose.Words for Java.
 ### [Как создать круговую диаграмму в Word и сохранить её как PNG](./how-to-create-a-pie-chart-in-word-and-save-it-as-png/)
 Узнайте, как создать круговую диаграмму в Word и экспортировать её в PNG‑изображение с помощью Aspose.Words for Java.
+### [Создание доступного PDF из DOCX – Полное пошаговое руководство](./create-accessible-pdf-from-docx-complete-step-by-step-guide/)
+Узнайте, как преобразовать DOCX в PDF, отвечающий требованиям доступности, шаг за шагом с Aspose.Words for Java.
+
+### [Как сохранить PNG из Word – Полное пошаговое руководство](./how-to-save-png-from-word-complete-step-by-step-guide/)
+Узнайте, как экспортировать страницы Word в PNG‑изображения с помощью Aspose.Words for Java, шаг за шагом.
 
 ## Часто задаваемые вопросы
 

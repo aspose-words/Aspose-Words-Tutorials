@@ -124,6 +124,8 @@ Panduan membuat dokumen kosong dan menambahkan bentuk menggunakan Aspose.Words u
 
 ### [Cara menyisipkan gambar ke dalam docx dan menyembunyikan gambar di Word dengan Java](./how-to-insert-image-into-docx-and-hide-image-in-word-with-ja/)
 Panduan langkah demi langkah menyisipkan gambar ke dokumen DOCX dan menyembunyikannya di Word menggunakan Aspose.Words untuk Java.
+### [Tambahkan Bayangan ke Bentuk di Java – Panduan Pemrograman Lengkap](./add-shadow-to-shape-in-java-complete-programming-guide/)
+Panduan lengkap untuk menambahkan efek bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk Java.
 
 ## Sumber Daya Tambahan
 
