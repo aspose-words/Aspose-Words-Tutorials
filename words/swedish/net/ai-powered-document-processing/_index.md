@@ -92,6 +92,7 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Hur du använder en AI-dokumentsammanfattare i C#](./how-to-use-an-ai-document-summarizer-in-c/) | Lär dig steg-för-steg hur du använder AI för att sammanfatta dokument i C# med Aspose.Words. |
 | [Hur du översätter docx till franska med Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Lär dig steg-för-steg hur du översätter DOCX-filer till franska med hjälp av Aspose.Words AI. |
 | [Hur du översätter docx till franska med Aspose.Words AI i C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Lär dig steg-för-steg hur du använder Aspose.Words AI för att översätta DOCX-filer till franska i C#. |
+| [Sammanfatta Word-dokument med AI‑leverantörer i C#](./how-to-summarize-word-document-with-ai-providers-in-c/) | Lär dig hur du använder olika AI‑leverantörer för att sammanfatta Word‑dokument i C# med Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

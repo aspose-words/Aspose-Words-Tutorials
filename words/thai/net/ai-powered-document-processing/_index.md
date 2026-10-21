@@ -78,6 +78,7 @@
 | [วิธีใช้ตัวสรุปเอกสาร AI ด้วย C#](./how-to-use-an-ai-document-summarizer-in-c/) | เรียนรู้วิธีใช้ตัวสรุปเอกสาร AI ด้วย C# เพื่อสรุปไฟล์ Word อย่างรวดเร็วและแม่นยำ -
 | [วิธีแปลไฟล์ docx เป็นภาษาฝรั่งเศสด้วย Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | เรียนรู้วิธีใช้ Aspose.Words AI เพื่อแปลเอกสาร Word (.docx) เป็นภาษาฝรั่งเศสอย่างแม่นยำและรวดเร็ว -
 | [วิธีแปลไฟล์ docx เป็นภาษาฝรั่งเศสด้วย Aspose.Words AI ใน C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | เรียนรู้วิธีใช้ Aspose.Words AI เพื่อแปลเอกสาร Word เป็นภาษาฝรั่งเศสใน C# อย่างง่ายดาย -
+| [วิธีสรุปเอกสาร Word ด้วยผู้ให้บริการ AI ใน C#](./how-to-summarize-word-document-with-ai-providers-in-c/) | เรียนรู้วิธีใช้ Aspose.Words สำหรับ .NET ร่วมกับผู้ให้บริการ AI ต่างๆ เพื่อสรุปเอกสาร Word ด้วย C# - 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

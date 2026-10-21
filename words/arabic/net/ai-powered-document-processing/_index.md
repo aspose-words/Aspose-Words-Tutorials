@@ -93,6 +93,7 @@
 | [كيفية ترجمة ملف docx إلى الفرنسية باستخدام Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | دليل خطوة بخطوة لترجمة مستندات DOCX إلى الفرنسية باستخدام Aspose.Words AI. |
 | [كيفية ترجمة ملف docx إلى الفرنسية باستخدام Aspose.Words AI في C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | دليل خطوة بخطوة لترجمة مستندات DOCX إلى الفرنسية باستخدام Aspose.Words AI مع C#. |
 | [كيف تلخص ملفات docx باستخدام Aspose.Words AI في C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | دليل خطوة بخطوة لتلخيص ملفات docx باستخدام Aspose.Words AI في C#. |
+| [كيف تلخص مستند Word باستخدام مزودي الذكاء الاصطناعي في C#](./how-to-summarize-word-document-with-ai-providers-in-c/) | دليل خطوة بخطوة لتلخيص مستندات Word باستخدام مزودي الذكاء الاصطناعي في C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -89,6 +89,7 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | [Jak přepsat odstavec pomocí lokálního LLM v C# – Kompletní průvodce](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | Naučte se, jak pomocí lokálního modelu LLM v C# přepsat odstavec a vylepšit text v Aspose.Words. |
 | [Jak použít AI sumarizér dokumentů v C#](./how-to-use-an-ai-document-summarizer-in-c/) | Naučte se, jak pomocí AI sumarizovat dokumenty v C# s Aspose.Words. |
 | [Jak přeložit docx do francouzštiny pomocí Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Naučte se pomocí Aspose.Words AI přeložit dokument DOCX do francouzštiny. |
+| [Jak sumarizovat Word dokument s poskytovateli AI v C#](./how-to-summarize-word-document-with-ai-providers-in-c/) | Kompletní průvodce, jak pomocí různých AI poskytovatelů v C# vytvořit shrnutí Word dokumentu. |
 
 | [Shrnutí Word dokumentu v C# pomocí vlastního modelu GPT – Kompletní průvodce](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Naučte se, jak pomocí vlastního modelu GPT v C# automaticky shrnout Word dokumenty s Aspose.Words. |
 | [Překlad docx do francouzštiny s Aspose.Words.AI – Kompletní průvodce](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Naučte se, jak pomocí Aspose.Words.AI přeložit soubory DOCX do francouzštiny v několika krocích. |

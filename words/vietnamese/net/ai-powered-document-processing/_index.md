@@ -93,6 +93,7 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Cách dịch docx sang tiếng Pháp bằng Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Hướng dẫn chi tiết sử dụng Aspose.Words AI để dịch tài liệu DOCX sang tiếng Pháp. |
 | [Cách dịch docx sang tiếng Pháp bằng Aspose.Words AI trong C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Hướng dẫn sử dụng Aspose.Words AI trong C# để dịch tài liệu DOCX sang tiếng Pháp một cách nhanh chóng. |
 | [Cách tóm tắt tệp docx với Aspose.Words AI trong C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Hướng dẫn chi tiết sử dụng Aspose.Words AI trong C# để tóm tắt các tệp docx nhanh chóng và hiệu quả. |
+| [Cách tóm tắt tài liệu Word với các nhà cung cấp AI trong C#](./how-to-summarize-word-document-with-ai-providers-in-c/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET và các nhà cung cấp AI để tóm tắt tài liệu Word bằng C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -92,6 +92,7 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Jak przetłumaczyć docx na francuski przy użyciu Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Dowiedz się, jak używać Aspose.Words AI do tłumaczenia plików DOCX na język francuski. |
 | [Jak przetłumaczyć docx na francuski przy użyciu Aspose.Words AI w C#](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Kompletny przewodnik, jak używać Aspose.Words AI w C# do tłumaczenia dokumentów DOCX na język francuski. |
 | [Jak podsumować pliki docx przy użyciu Aspose.Words AI w C#](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) | Kompletny przewodnik, jak używać Aspose.Words AI w C# do podsumowywania plików docx. |
+| [Jak podsumować dokument Word przy użyciu dostawców AI w C#](./how-to-summarize-word-document-with-ai-providers-in-c/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

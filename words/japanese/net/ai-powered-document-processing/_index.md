@@ -90,6 +90,7 @@
 | [Aspose.Words AI を使用して docx をフランス語に翻訳する方法](./how-to-translate-docx-to-french-using-aspose-words-ai/) Aspose.Words AI を活用し、docx ファイルをフランス語に自動翻訳する手順を解説します。 |
 | [C# で Aspose.Words AI を使用して docx をフランス語に翻訳する方法](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) Aspose.Words AI を活用し、C# で docx ファイルをフランス語に自動翻訳する手順を解説します。 |
 | [C# で Aspose.Words AI を使用して docx ファイルを要約する方法](./how-to-summarize-docx-files-with-aspose-words-ai-in-c/) Aspose.Words AI を活用し、C# で docx ファイルを自動的に要約する手順を解説します。 |
+| [AI プロバイダーを使用した C# での Word 文書要約方法](./how-to-summarize-word-document-with-ai-providers-in-c/) Aspose.Words for .NET と AI プロバイダーを組み合わせて、C# で Word 文書を自動要約する方法を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

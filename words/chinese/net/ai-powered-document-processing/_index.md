@@ -43,6 +43,7 @@
 | [使用开放的人工智能模型](./working-with-open-ai-model/) 使用 Aspose.Words for .NET 和 OpenAI 强大的模型，解锁高效的文档摘要功能。立即深入了解这份全面的指南。|
 | [使用汇总选项](./working-with-summarize-options/) 学习使用 Aspose.Words for .NET 有效地总结 Word 文档，并遵循我们关于集成 AI 模型以获得快速洞察的分步指南。|
 | [在 C# 中汇总 Word 文档 – 完整的 AI 驱动指南](./summarize-word-document-in-c-complete-ai-powered-guide/) 使用 Aspose.Words for .NET 在 C# 中实现完整的 AI 驱动 Word 文档摘要，提供详细步骤和最佳实践。|
+| [使用 AI 提供商在 C# 中汇总 Word 文档](./how-to-summarize-word-document-with-ai-providers-in-c/) 使用 Aspose.Words for .NET 与多种 AI 提供商在 C# 中实现 Word 文档的自动摘要，提供完整步骤和最佳实践。|
 | [使用 Aspose.Words AI 检查 Word 语法的完整指南](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) 了解如何利用 Aspose.Words AI 在 Word 文档中自动检查并纠正语法错误，提高写作质量。|
 | [使用本地 LLM 检查 C# 语法](./how-to-check-grammar-in-c-using-a-local-llm/) 使用本地大语言模型在 C# 中检查语法，提升代码质量并实现自动化审校。|
 | [如何汇总 Word 文档 – 完整的 C# 指南](./how-to-summarize-word-documents-complete-c-guide/) 使用 Aspose.Words for .NET 通过 C# 完整指南，实现 Word 文档的高效汇总。|

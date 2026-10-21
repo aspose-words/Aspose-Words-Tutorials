@@ -93,6 +93,7 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [C#'ta Yerel LLM ile Paragrafı Yeniden Yazma – Tam Kılavuz](./how-to-rewrite-paragraph-with-a-local-llm-in-c-complete-guid/) | C# kullanarak yerel bir büyük dil modeliyle paragrafı nasıl yeniden yazacağınızı adım adım öğrenin. |
 | [Aspose.Words AI ile docx dosyasını Fransızcaya çevirme](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Aspose.Words AI ile docx dosyalarını Fransızcaya otomatik olarak çevirmenin adım adım rehberi. |
 | [C# ile Aspose.Words AI ile docx'i Fransızcaya Çevirme](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) | Aspose.Words AI ve C# kullanarak docx dosyalarını Fransızcaya otomatik çevirmenin adım adım kılavuzu. |
+| [AI sağlayıcılarıyla C#'ta Word belgesini özetleme](./how-to-summarize-word-document-with-ai-providers-in-c/) | AI sağlayıcılarıyla C# kullanarak Word belgelerini hızlı ve etkili bir şekilde özetlemeyi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

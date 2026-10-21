@@ -93,6 +93,7 @@
 | [如何在 C# 中使用 AI 文件摘要器](./how-to-use-an-ai-document-summarizer-in-c/) |使用 Aspose.Words for .NET 與 AI 模型在 C# 中自動匯總文件，提升效率。 |
 | [如何使用 Aspose.Words AI 將 docx 翻譯成法文](./how-to-translate-docx-to-french-using-aspose-words-ai/) |使用 Aspose.Words AI 在 C# 中將 DOCX 文件自動翻譯為法語，提升多語言工作流程。 |
 | [如何使用 Aspose.Words AI 在 C# 中將 docx 翻譯成法文](./how-to-translate-docx-to-french-with-aspose-words-ai-in-c/) |使用 Aspose.Words for .NET 結合 AI，在 C# 中將 DOCX 文件自動翻譯為法語，提升跨語言文件處理效率。 |
+| [如何在 C# 中使用 AI 供應商彙總 Word 文件](./how-to-summarize-word-document-with-ai-providers-in-c/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
